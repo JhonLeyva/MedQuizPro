@@ -338,7 +338,7 @@
   /* ---------- widget de chat (tutor) ---------- */
   safe("chat", function () {
     var ENDPOINT = "/api.php";
-    var MAX_HISTORIAL = 8; // turnos que se reenvían para dar contexto
+    var MAX_TURNOS = 8; // turnos de conversación que se reenvían como contexto
 
     var launcher = document.getElementById("chatLauncher");
     var panel = document.getElementById("chatPanel");
@@ -417,6 +417,22 @@
       input.readOnly = si;
     }
 
+    /* El servidor puede llamar al texto 'respuesta' o 'reply': valen los dos. */
+    function textoDe(datos) {
+      if (!datos) return "";
+      var t = datos.respuesta || datos.reply || "";
+      return typeof t === "string" ? t.trim() : "";
+    }
+
+    /* Mensaje de error legible, con el detalle de Google cuando lo hay. */
+    function textoDeError(datos, estadoHttp) {
+      if (datos && typeof datos.error === "string" && datos.error) return datos.error;
+      if (estadoHttp === 429) return "Demasiadas preguntas seguidas. Espera un minuto y vuelve a intentarlo.";
+      if (estadoHttp === 404) return "No se encontró api.php en el servidor. Revisa que esté subido junto a index.html.";
+      if (estadoHttp >= 500) return "El servidor no pudo responder. Inténtalo de nuevo en un momento.";
+      return "No pude conectarme con el tutor. Vuelve a intentarlo.";
+    }
+
     /* --- envío al servidor --- */
     function preguntar(texto) {
       if (enCurso) return;
@@ -433,24 +449,34 @@
       fetch(ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify({ mensaje: texto, historial: historial.slice(-MAX_HISTORIAL) })
+        body: JSON.stringify({ mensaje: texto, historial: historial.slice(-MAX_TURNOS * 2) })
       })
         .then(function (res) {
-          return res.json().catch(function () { return {}; }).then(function (datos) {
-            return { ok: res.ok, estado: res.status, datos: datos };
+          /* Si el servidor devuelve HTML (un 404 de Apache, un aviso de PHP),
+             res.json() revienta: lo recogemos y seguimos con el estado HTTP. */
+          return res.text().then(function (crudo) {
+            var datos = null;
+            try { datos = JSON.parse(crudo); } catch (e) { datos = null; }
+            return { ok: res.ok, estado: res.status, datos: datos, crudo: crudo };
           });
         })
         .then(function (r) {
           escribiendo(false);
-          if (!r.ok || !r.datos || !r.datos.respuesta) {
-            var msg = (r.datos && r.datos.error) ? r.datos.error : "No pude conectarme con el tutor. Vuelve a intentarlo en un momento.";
-            burbuja(msg, "error");
+
+          var respuesta = textoDe(r.datos);
+          if (r.ok && respuesta) {
+            burbuja(respuesta, "bot");
+            historial.push({ rol: "usuario", texto: texto });
+            historial.push({ rol: "tutor", texto: respuesta });
+            if (historial.length > MAX_TURNOS * 2) historial = historial.slice(-MAX_TURNOS * 2);
             return;
           }
-          burbuja(r.datos.respuesta, "bot");
-          historial.push({ rol: "usuario", texto: texto });
-          historial.push({ rol: "tutor", texto: r.datos.respuesta });
-          if (historial.length > MAX_HISTORIAL * 2) historial = historial.slice(-MAX_HISTORIAL * 2);
+
+          if (r.datos === null && r.crudo) {
+            /* el servidor contestó algo que no es JSON */
+            if (window.console) console.warn("[MedQuizPro] respuesta no JSON de api.php:", r.crudo.slice(0, 400));
+          }
+          burbuja(textoDeError(r.datos, r.estado), "error");
         })
         .catch(function () {
           escribiendo(false);
