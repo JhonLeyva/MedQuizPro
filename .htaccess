@@ -24,7 +24,7 @@
 </IfModule>
 
 # La llave vive en config.php: nadie debe poder abrirlo desde el navegador
-<FilesMatch "^(config\.php|config\.example\.php)$">
+<FilesMatch "^(config\.php|config\.example\.php|\.env|\.env\.example)$">
   Require all denied
 </FilesMatch>
 

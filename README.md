@@ -1,86 +1,116 @@
-# MedQuizPro — landing page
+# MedQuizPro — landing page + tutor de IA
 
-Landing interactiva para una plataforma de preguntas tipo **ENAM / Residentado Médico (RM) / EsSalud**.
-Sitio estático: HTML, CSS y JavaScript sin dependencias ni compilación.
+Landing interactiva para una plataforma de preguntas tipo **ENAM / Residentado Médico (RM) / EsSalud**,
+con un **chatbot de inteligencia artificial** en la esquina inferior derecha.
+Sitio estático (HTML, CSS y JavaScript sin dependencias ni compilación) + un único archivo PHP
+que hace de puente con el modelo de IA.
 
 ## Archivos
 
 | Archivo | Para qué sirve |
 |---|---|
-| `index.html` | La página. Todo el contenido está escrito en el HTML, el JS solo lo enriquece. |
+| `index.html` | La página, incluido el widget de chat. Todo el contenido está en el HTML; el JS solo lo enriquece. |
 | `styles.css` | Estilos y paleta, con tema claro y tema oscuro. |
-| `main.js` | Interacciones: menú móvil, pregunta de muestra, filtro de bancos, cuenta regresiva, contadores y validación del registro. |
-| `api.php` | Recibe la pregunta del chat, la reenvía a Gemini con cURL y devuelve la respuesta en JSON. |
-| `config.example.php` | Plantilla de configuración. Se copia como `config.php` y ahí va la llave de Gemini. |
-| `.htaccess` | Caché, compresión y bloqueo del acceso web a `config.php`. |
-| `artifact.html` | La misma página compilada en un solo archivo, para publicarla en un sitio que solo acepta una página. |
+| `main.js` | Interacciones: menú móvil, pregunta de muestra, filtro de bancos, cuenta regresiva, registro y **el chatbot**. |
+| `api.php` | El backend del chatbot. Recibe el mensaje, llama al modelo de IA con la llave del servidor y devuelve el texto. |
+| `config.example.php` | Plantilla de configuración para hostings sin variables de entorno. Se copia como `config.php`. |
+| `.env.example` | Las variables de entorno que hay que definir (forma recomendada). |
+| `.htaccess` | Caché, compresión y bloqueo del acceso web a `config.php` y `.env`. |
+| `build-artifact.mjs` | Regenera `artifact.html` a partir de los tres archivos de la página. |
+| `artifact.html` | La misma página en un solo archivo, para publicarla donde solo se admite una página (sin chat: no hay PHP detrás). |
 
-## Secciones
-
-- **Portada** con una pregunta de examen que se puede responder ahí mismo (tres preguntas rotativas con explicación).
-- **Bancos de Preguntas** — marcador de posición, filtrable por ENAM / RM / EsSalud.
-- **Simulacros Gratis** — marcador de posición, con cuenta regresiva al próximo simulacro abierto.
-- **Cómo funciona** — tres pasos.
-- **Registro** — formulario con validación en el navegador (no envía datos a ningún servidor).
-- **Tutor** — widget de chat flotante que consulta a Gemini a través de `api.php`.
-
-## El chat (tutor)
-
-El navegador nunca ve la llave de Gemini. El widget envía la pregunta por `POST` a
-`/api.php`, y es el servidor el que llama a Gemini y devuelve la respuesta.
-
-### Cómo se elige el modelo
-
-Google retira modelos y renombra identificadores, así que **el nombre del modelo no
-está fijado en el código**. En cada arranque `api.php`:
-
-1. Pregunta a Google qué modelos admite esta llave (endpoint `ListModels`), probando
-   primero `v1beta` y después `v1`.
-2. Elige el primero de `MODELOS_PREFERIDOS` que exista de verdad —
-   `gemini-3.0-flash`, luego `gemini-2.5-flash`, `gemini-2.0-flash`,
-   `gemini-flash-latest`. Si ninguno está, acepta variantes con sufijo
-   (`gemini-3.0-flash-001`) y, en último caso, cualquier Gemini «flash» disponible.
-3. Guarda la elección en caché 6 horas para no repetir la consulta.
-4. Si aun así una petición devuelve 404 o `NOT_FOUND`, descarta la caché, vuelve a
-   preguntar a Google y reintenta una vez.
-
-Por eso el error «this model is no longer available» no puede repetirse: el código
-se adapta solo. Para fijar un modelo a mano, se escribe su nombre en
-`gemini_model` dentro de `config.php`.
-
-### Diagnóstico
-
-Si algo falla, pon una palabra secreta en `diagnostico_token` (en `config.php`) y abre:
+## El chatbot
 
 ```
-https://tudominio.com/api.php?accion=diagnostico&token=TU-PALABRA
+Navegador  →  POST /api.php  →  API del modelo de IA  →  respuesta  →  widget
 ```
 
-Devuelve la lista exacta de modelos que ve tu llave, en qué versión de la API, y
-cuál eligió. Es lo primero que hay que mirar ante cualquier 404.
+La llave **nunca** sale del servidor: el navegador solo habla con `api.php`.
+En el código del frontend no hay ninguna credencial, ni el mensaje de sistema del tutor.
 
-### Configurar la llave
+Lo que hace el widget:
 
-En el servidor, en la misma carpeta que `api.php`:
+- botón flotante abajo a la derecha;
+- pantalla inicial con «Hola 👋 ¿En qué puedo ayudarte?» y tres ejemplos que se pueden pulsar;
+- escribir y enviar con **Enter** (Mayús+Enter salta de línea);
+- indicador de «escribiendo…» mientras espera;
+- **mantiene el contexto**: reenvía los últimos 10 turnos, así que «¿y sus síntomas?» sigue hablando del tema anterior;
+- botones de **nueva conversación**, **minimizar** (guarda la conversación) y **cerrar** (la termina);
+- la conversación sobrevive a recargar la página mientras dure la pestaña (`sessionStorage`), y se borra al cerrarla;
+- funciona en escritorio, tablet y móvil (en móvil se abre como hoja inferior);
+- ante cualquier fallo muestra un mensaje amable, nunca un error técnico.
+
+### 1. Elegir proveedor y conseguir la llave
+
+| `AI_PROVIDER` | Dónde se saca la llave | Notas |
+|---|---|---|
+| `gemini` *(por defecto)* | <https://aistudio.google.com/apikey> | Tiene plan gratuito. El modelo se detecta solo. |
+| `openai` | <https://platform.openai.com/api-keys> | También sirve para cualquier API compatible con OpenAI (Groq, DeepSeek, OpenRouter, Together…) poniendo `AI_BASE_URL`. |
+| `anthropic` | <https://console.anthropic.com/settings/keys> | Claude. |
+
+### 2. Poner la llave en el servidor
+
+**Recomendado: variables de entorno** (en Hostinger: hPanel → Sitios web → Avanzado → Variables de entorno).
+Las nombres están en `.env.example`:
+
+```
+AI_API_KEY=tu-llave
+AI_PROVIDER=gemini
+AI_MODEL=
+```
+
+**Alternativa** si el hosting no las admite:
 
 ```
 cp config.example.php config.php
 ```
 
-y dentro se escribe la llave, que se obtiene en <https://aistudio.google.com/apikey>:
+y escribir la llave dentro. `config.php` está en `.gitignore` y el `.htaccess` impide abrirlo
+desde el navegador. Las variables de entorno tienen prioridad sobre `config.php`.
 
-```php
-return [
-    'gemini_api_key'    => 'AIza...',
-    'gemini_model'      => '',          // vacío = se elige solo
-    'diagnostico_token' => 'loquesea',  // vacío = diagnóstico desactivado
-];
+### 3. Cambiar el modelo más adelante
+
+Solo hay que cambiar `AI_MODEL` (o `ai_model` en `config.php`) y recargar. No se toca el código.
+
+- **Gemini**: déjalo **vacío** y `api.php` le pregunta a Google qué modelos admite la llave
+  y elige el mejor disponible (`gemini-3.0-flash` → `2.5-flash` → `2.0-flash` → `flash-latest`),
+  guardando la elección 6 horas en caché. Si un modelo se retira, lo detecta y vuelve a elegir solo.
+  Para fijar uno a mano: `AI_MODEL=gemini-2.5-flash`.
+- **OpenAI**: `AI_MODEL=gpt-4o-mini` (o el que prefieras).
+- **Anthropic**: `AI_MODEL=claude-opus-5`.
+- **Otro proveedor compatible con OpenAI**: `AI_PROVIDER=openai` + `AI_BASE_URL=https://api.groq.com/openai/v1` + `AI_MODEL=…`.
+
+### 4. Comprobar que funciona
+
+```
+curl https://tudominio.com/api.php?accion=estado
+→ {"listo":true}            (false = falta la llave)
+
+curl -X POST https://tudominio.com/api.php \
+     -H 'Content-Type: application/json' \
+     -d '{"mensaje":"¿Qué es la insuficiencia cardíaca?"}'
 ```
 
-`config.php` está en `.gitignore` y el `.htaccess` impide abrirlo desde el navegador.
-Si el hosting permite variables de entorno, `GEMINI_API_KEY` también sirve y tiene prioridad.
+Y en la web: abrir el botón del chat y escribir una pregunta.
 
-### Cómo se comunican
+Si algo falla, poner una palabra secreta en `AI_DIAGNOSTICO_TOKEN` y abrir:
+
+```
+https://tudominio.com/api.php?accion=diagnostico&token=TU-PALABRA
+```
+
+Dice qué proveedor está activo, si la llave está puesta (nunca la muestra) y, con Gemini,
+la lista exacta de modelos que ve la llave. `AI_DEBUG=1` añade además el detalle técnico
+del error a la respuesta del chat; vuelve a ponerlo en `0` cuando termines.
+
+### Límites de uso
+
+Como el chat es público, `api.php` cuenta las peticiones por dirección IP:
+**10 por minuto** y **150 al día** (`AI_LIMITE_MINUTO` y `AI_LIMITE_DIA`).
+Al pasarse responde `429` con un aviso amable. Además rechaza las peticiones que
+llegan desde otro dominio.
+
+### El protocolo
 
 `POST /api.php` con `Content-Type: application/json`:
 
@@ -91,63 +121,62 @@ Si el hosting permite variables de entorno, `GEMINI_API_KEY` también sirve y ti
 
 También acepta los nombres en inglés (`message`, `history`, `role`, `text`).
 
-Respuesta correcta — `200`. El texto viene por partida doble, para que valga
-cualquier cliente:
+Respuesta correcta — `200`:
 
 ```json
-{ "respuesta": "El shock séptico es distributivo…",
-  "reply":     "El shock séptico es distributivo…",
-  "modelo":    "gemini-3.0-flash",
-  "api_version": "v1beta" }
+{ "respuesta": "El shock séptico es distributivo…", "reply": "…" }
 ```
 
-Fallo — se devuelve el código de Google (o `502` si no se llegó a hablar con él):
+Fallo — el cuerpo solo trae un texto para enseñar al usuario; el motivo real queda
+en el log de errores del servidor:
 
 ```json
-{ "error": "Google HTTP 429 (RESOURCE_EXHAUSTED): Quota exceeded…",
-  "origen": "gemini",
-  "google_codigo": 429,
-  "google_estado": "RESOURCE_EXHAUSTED",
-  "modelo": "gemini-3.0-flash" }
+{ "error": "Lo siento, no pude procesar tu mensaje. Inténtalo nuevamente." }
 ```
-
-El campo `origen` dice dónde se rompió: `configuracion`, `listado_de_modelos`,
-`red` o `gemini`.
 
 ### Ajustes de `api.php`
 
 | Constante | Valor | Qué hace |
 |---|---|---|
-| `MODELOS_PREFERIDOS` | 3.0-flash → 2.5-flash → 2.0-flash → flash-latest | Orden de preferencia. |
-| `VERSIONES_API` | `v1beta`, `v1` | Versiones que se prueban, en orden. |
-| `MAX_CARACTERES` | 1500 | Largo máximo de la pregunta. |
-| `MAX_HISTORIAL_TURNOS` | 8 | Turnos de conversación que se reenvían. |
-| `LIMITE_POR_MINUTO` | 12 | Preguntas por IP y por minuto, para que nadie agote la llave. |
-| `CACHE_MODELO_SEGUNDOS` | 21600 | Cuánto dura la elección de modelo en caché. |
-| `DETALLE_ERRORES` | `true` | Si el mensaje textual de Google llega al navegador. Ponlo en `false` cuando todo funcione. |
+| `MAX_CARACTERES` | 2000 | Largo máximo de un mensaje. |
+| `MAX_HISTORIAL_TURNOS` | 10 | Turnos de conversación que se reenvían como contexto. |
+| `LIMITE_MINUTO_DEF` / `LIMITE_DIA_DEF` | 10 / 150 | Límite por IP (se pueden cambiar por variable de entorno). |
+| `MAX_TOKENS_RESPUESTA` | 900 | Largo máximo de la respuesta. |
+| `TEMPERATURA` | 0.4 | Cuánto se permite improvisar al modelo. |
+| `CACHE_MODELO_SEGUNDOS` | 21600 | Cuánto dura en caché el modelo elegido (solo Gemini). |
+| `INSTRUCCION` | — | El papel del tutor. Solo existe en el servidor. |
 
-`generationConfig`: `temperature` 0.4 y `maxOutputTokens` 800.
-
-Requisitos del hosting: PHP 7.4 o superior con la extensión cURL activada
+Requisitos del hosting: **PHP 8.0 o superior** con la extensión cURL activada
 (Hostinger la trae activada por defecto).
 
-## Ver la página
+## Secciones de la página
 
-Basta abrir `index.html` en el navegador, o servirla:
+- **Portada** con una pregunta de examen que se puede responder ahí mismo (tres preguntas rotativas con explicación).
+- **Bancos de Preguntas** — marcador de posición, filtrable por ENAM / RM / EsSalud.
+- **Simulacros Gratis** — marcador de posición, con cuenta regresiva al próximo simulacro abierto.
+- **Cómo funciona** — tres pasos.
+- **Registro** — formulario con validación en el navegador (no envía datos a ningún servidor).
+- **Tutor** — el chatbot descrito arriba.
+
+## Ver la página en local
+
+El chat necesita PHP, así que conviene levantar el servidor de PHP:
 
 ```
-python3 -m http.server 8000
+AI_API_KEY=tu-llave php -S localhost:8000
 ```
+
+y abrir <http://localhost:8000>. Con `python3 -m http.server` la página se ve,
+pero el chat responderá con el mensaje de error (no hay PHP detrás).
 
 ## Publicar
 
 Subir `index.html`, `styles.css`, `main.js`, `api.php`, `config.example.php` y `.htaccess`
-a la raíz del hosting (`public_html`), y crear allí `config.php` con la llave.
-Al cambiar los estilos o el script, subir el número de versión de `?v=20260923`
+a la raíz del hosting (`public_html`), y definir allí `AI_API_KEY` (o crear `config.php`).
+Al cambiar los estilos o el script, subir el número de versión de `?v=20260925`
 en `index.html` para que el navegador no sirva la copia vieja.
 
-El chat necesita PHP, así que en `file://` o en un alojamiento estático el widget se
-muestra pero responde con un error de conexión. Por eso `artifact.html` se genera
-sin el widget.
+`artifact.html` se genera con `node build-artifact.mjs` y va sin el widget de chat,
+porque un archivo suelto no tiene un servidor donde guardar la llave.
 
 Las cifras, los bancos y las fechas son contenido de ejemplo.

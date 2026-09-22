@@ -335,36 +335,65 @@
     var el = document.getElementById("year");
     if (el) el.textContent = String(new Date().getFullYear());
   });
-  /* ---------- widget de chat (tutor) ---------- */
+  /* ---------- widget de chat (tutor) ----------
+     El navegador solo habla con api.php, que es quien guarda la llave y llama
+     al modelo de IA. Aquí no hay ninguna credencial. */
   safe("chat", function () {
-    var ENDPOINT = "/api.php";
-    var MAX_TURNOS = 8; // turnos de conversación que se reenvían como contexto
+    var ENDPOINT = "api.php";          // relativo: funciona también en subcarpetas
+    var MAX_TURNOS = 10;               // turnos que se reenvían como contexto
+    var ESPERA_MAXIMA = 60000;         // ms antes de rendirse con la petición
+    var MEMORIA = "medquizpro_chat";   // clave de sessionStorage
+    var ERROR_GENERICO = "Lo siento, no pude procesar tu mensaje. Inténtalo nuevamente.";
 
     var launcher = document.getElementById("chatLauncher");
     var panel = document.getElementById("chatPanel");
-    var cerrar = document.getElementById("chatClose");
     var log = document.getElementById("chatLog");
     var form = document.getElementById("chatForm");
     var input = document.getElementById("chatInput");
     var enviar = document.getElementById("chatSend");
-    var sugerencias = document.getElementById("chatSuggestions");
+    var bienvenida = document.getElementById("chatWelcome");
+    var btnNuevo = document.getElementById("chatNuevo");
+    var btnMinimizar = document.getElementById("chatMinimizar");
+    var btnCerrar = document.getElementById("chatClose");
     if (!launcher || !panel || !log || !form || !input || !enviar) return;
 
     var historial = [];
     var enCurso = false;
     var ultimoFoco = null;
 
-    /* --- apertura y cierre --- */
+    /* ---- memoria de la sesión (se borra al cerrar la pestaña) ---- */
+    function guardar() {
+      try { sessionStorage.setItem(MEMORIA, JSON.stringify(historial)); } catch (e) {}
+    }
+    function recuperar() {
+      try {
+        var crudo = sessionStorage.getItem(MEMORIA);
+        var datos = crudo ? JSON.parse(crudo) : null;
+        if (datos && datos.length) {
+          historial = datos.slice(-MAX_TURNOS * 2);
+          for (var k = 0; k < historial.length; k++) {
+            burbuja(historial[k].texto, historial[k].rol === "tutor" ? "bot" : "user");
+          }
+          ocultarBienvenida(true);
+        }
+      } catch (e) { historial = []; }
+    }
+    function olvidar() {
+      try { sessionStorage.removeItem(MEMORIA); } catch (e) {}
+    }
+
+    /* ---- abrir, minimizar, cerrar ---- */
     function abrir() {
       panel.hidden = false;
-      launcher.setAttribute("aria-expanded", "true");
       launcher.hidden = true;
+      launcher.setAttribute("aria-expanded", "true");
       document.body.classList.add("chat-open");
       ultimoFoco = document.activeElement;
       input.focus();
       log.scrollTop = log.scrollHeight;
     }
-    function cerrarPanel() {
+    /* minimizar: se guarda la conversación y se puede seguir donde se dejó */
+    function minimizar() {
       panel.hidden = true;
       launcher.hidden = false;
       launcher.setAttribute("aria-expanded", "false");
@@ -372,26 +401,106 @@
       if (ultimoFoco && ultimoFoco.focus) ultimoFoco.focus();
       else launcher.focus();
     }
+    /* cerrar: además termina la conversación */
+    function cerrar() {
+      minimizar();
+      nuevaConversacion(false);
+    }
+    function nuevaConversacion(enfocar) {
+      historial = [];
+      olvidar();
+      var hijos = Array.prototype.slice.call(log.children);
+      for (var k = 0; k < hijos.length; k++) {
+        if (hijos[k] !== bienvenida) log.removeChild(hijos[k]);
+      }
+      ocultarBienvenida(false);
+      input.value = "";
+      ajustarAlto();
+      if (enfocar !== false) input.focus();
+    }
+    function ocultarBienvenida(ocultar) {
+      if (bienvenida) bienvenida.hidden = !!ocultar;
+    }
+
     launcher.addEventListener("click", abrir);
-    if (cerrar) cerrar.addEventListener("click", cerrarPanel);
+    if (btnMinimizar) btnMinimizar.addEventListener("click", minimizar);
+    if (btnCerrar) btnCerrar.addEventListener("click", cerrar);
+    if (btnNuevo) btnNuevo.addEventListener("click", function () { nuevaConversacion(true); });
     document.addEventListener("keydown", function (ev) {
-      if (ev.key === "Escape" && !panel.hidden) cerrarPanel();
+      if (ev.key === "Escape" && !panel.hidden) minimizar();
     });
 
-    /* --- pintado de mensajes --- */
+    /* ---- pintado de mensajes ----
+       Todo se inserta con textContent: el texto del modelo nunca se interpreta
+       como HTML. Solo se reconocen **negritas** y listas con guion. */
+    function conNegritas(nodo, texto) {
+      var partes = String(texto).split(/\*\*(.+?)\*\*/g);
+      for (var k = 0; k < partes.length; k++) {
+        if (!partes[k]) continue;
+        if (k % 2 === 1) {
+          var fuerte = document.createElement("strong");
+          fuerte.textContent = partes[k];
+          nodo.appendChild(fuerte);
+        } else {
+          nodo.appendChild(document.createTextNode(partes[k]));
+        }
+      }
+    }
+
+    function pintarTexto(contenedor, texto) {
+      var lineas = String(texto).replace(/\r/g, "").split("\n");
+      var parrafo = [];
+      var lista = null;
+
+      function cerrarParrafo() {
+        if (!parrafo.length) return;
+        var p = document.createElement("p");
+        conNegritas(p, parrafo.join(" "));
+        contenedor.appendChild(p);
+        parrafo = [];
+      }
+
+      for (var k = 0; k < lineas.length; k++) {
+        var linea = lineas[k].trim().replace(/^#{1,6}\s*/, "");
+        if (!linea) { cerrarParrafo(); lista = null; continue; }
+
+        var vinneta = linea.match(/^[-*•]\s+(.+)$/);
+        var numerada = linea.match(/^\d+[.)]\s+(.+)$/);
+
+        if (vinneta || numerada) {
+          cerrarParrafo();
+          var etiqueta = vinneta ? "ul" : "ol";
+          if (!lista || lista.tagName.toLowerCase() !== etiqueta) {
+            lista = document.createElement(etiqueta);
+            contenedor.appendChild(lista);
+          }
+          var li = document.createElement("li");
+          conNegritas(li, (vinneta || numerada)[1]);
+          lista.appendChild(li);
+          continue;
+        }
+
+        lista = null;
+        parrafo.push(linea);
+      }
+      cerrarParrafo();
+
+      if (!contenedor.childNodes.length) {
+        var p = document.createElement("p");
+        p.textContent = String(texto);
+        contenedor.appendChild(p);
+      }
+    }
+
     function burbuja(texto, tipo) {
       var div = document.createElement("div");
       div.className = "chat-msg chat-msg--" + tipo;
-      var parrafos = String(texto).split(/\n{2,}/);
-      for (var k = 0; k < parrafos.length; k++) {
-        var pr = document.createElement("p");
-        pr.textContent = parrafos[k].replace(/\n/g, " ").trim();
-        if (pr.textContent) div.appendChild(pr);
-      }
-      if (!div.childNodes.length) {
-        var vacio = document.createElement("p");
-        vacio.textContent = String(texto);
-        div.appendChild(vacio);
+      if (tipo === "user") {
+        var p = document.createElement("p");
+        p.textContent = String(texto);
+        div.appendChild(p);
+      } else {
+        pintarTexto(div, texto);
       }
       log.appendChild(div);
       log.scrollTop = log.scrollHeight;
@@ -400,7 +509,7 @@
 
     function escribiendo(mostrar) {
       var previo = document.getElementById("chatTyping");
-      if (previo) previo.remove();
+      if (previo) previo.parentNode.removeChild(previo);
       if (!mostrar) return;
       var d = document.createElement("div");
       d.className = "chat-typing";
@@ -415,72 +524,69 @@
       enCurso = si;
       enviar.disabled = si;
       input.readOnly = si;
+      if (btnNuevo) btnNuevo.disabled = si;
     }
 
-    /* El servidor puede llamar al texto 'respuesta' o 'reply': valen los dos. */
-    function textoDe(datos) {
-      if (!datos) return "";
-      var t = datos.respuesta || datos.reply || "";
-      return typeof t === "string" ? t.trim() : "";
-    }
-
-    /* Mensaje de error legible, con el detalle de Google cuando lo hay. */
-    function textoDeError(datos, estadoHttp) {
-      if (datos && typeof datos.error === "string" && datos.error) return datos.error;
-      if (estadoHttp === 429) return "Demasiadas preguntas seguidas. Espera un minuto y vuelve a intentarlo.";
-      if (estadoHttp === 404) return "No se encontró api.php en el servidor. Revisa que esté subido junto a index.html.";
-      if (estadoHttp >= 500) return "El servidor no pudo responder. Inténtalo de nuevo en un momento.";
-      return "No pude conectarme con el tutor. Vuelve a intentarlo.";
-    }
-
-    /* --- envío al servidor --- */
+    /* ---- envío al servidor ---- */
     function preguntar(texto) {
       if (enCurso) return;
       texto = String(texto || "").trim();
       if (!texto) return;
 
+      ocultarBienvenida(true);
       burbuja(texto, "user");
       input.value = "";
       ajustarAlto();
-      if (sugerencias) sugerencias.hidden = true;
       bloquear(true);
       escribiendo(true);
+
+      var contexto = historial.slice(-MAX_TURNOS * 2);
+      var aborto = null;
+      var reloj = null;
+      try {
+        aborto = new AbortController();
+        reloj = setTimeout(function () { aborto.abort(); }, ESPERA_MAXIMA);
+      } catch (e) { aborto = null; }
 
       fetch(ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify({ mensaje: texto, historial: historial.slice(-MAX_TURNOS * 2) })
+        body: JSON.stringify({ mensaje: texto, historial: contexto }),
+        signal: aborto ? aborto.signal : undefined
       })
         .then(function (res) {
-          /* Si el servidor devuelve HTML (un 404 de Apache, un aviso de PHP),
-             res.json() revienta: lo recogemos y seguimos con el estado HTTP. */
+          /* Si el servidor devuelve HTML (un 404, un aviso de PHP), res.json()
+             fallaría: se lee como texto y se intenta interpretar. */
           return res.text().then(function (crudo) {
             var datos = null;
             try { datos = JSON.parse(crudo); } catch (e) { datos = null; }
-            return { ok: res.ok, estado: res.status, datos: datos, crudo: crudo };
+            return { ok: res.ok, estado: res.status, datos: datos };
           });
         })
         .then(function (r) {
+          if (reloj) clearTimeout(reloj);
           escribiendo(false);
 
-          var respuesta = textoDe(r.datos);
-          if (r.ok && respuesta) {
+          var respuesta = r.datos && (r.datos.respuesta || r.datos.reply);
+          if (r.ok && typeof respuesta === "string" && respuesta.trim()) {
+            respuesta = respuesta.trim();
             burbuja(respuesta, "bot");
             historial.push({ rol: "usuario", texto: texto });
             historial.push({ rol: "tutor", texto: respuesta });
             if (historial.length > MAX_TURNOS * 2) historial = historial.slice(-MAX_TURNOS * 2);
+            guardar();
             return;
           }
 
-          if (r.datos === null && r.crudo) {
-            /* el servidor contestó algo que no es JSON */
-            if (window.console) console.warn("[MedQuizPro] respuesta no JSON de api.php:", r.crudo.slice(0, 400));
-          }
-          burbuja(textoDeError(r.datos, r.estado), "error");
+          var aviso = r.datos && typeof r.datos.error === "string" && r.datos.error
+            ? r.datos.error
+            : ERROR_GENERICO;
+          burbuja(aviso, "error");
         })
         .catch(function () {
+          if (reloj) clearTimeout(reloj);
           escribiendo(false);
-          burbuja("No hay conexión con el servidor. Revisa tu internet y vuelve a intentarlo.", "error");
+          burbuja(ERROR_GENERICO, "error");
         })
         .then(function () {
           bloquear(false);
@@ -508,12 +614,15 @@
     }
     input.addEventListener("input", ajustarAlto);
 
-    if (sugerencias) {
-      sugerencias.addEventListener("click", function (ev) {
-        var chip = ev.target.closest ? ev.target.closest(".chat-chip") : null;
-        if (chip) preguntar(chip.textContent);
+    /* las sugerencias de la pantalla inicial */
+    if (bienvenida) {
+      bienvenida.addEventListener("click", function (ev) {
+        var idea = ev.target.closest ? ev.target.closest(".chat-idea") : null;
+        if (idea) preguntar(idea.getAttribute("data-pregunta") || idea.textContent);
       });
     }
+
+    recuperar();
   });
 
 })();

@@ -1,2 +1,5 @@
-# La llave de Gemini vive aquí y nunca debe subirse
+# La llave de la IA vive aquí y nunca debe subirse
 config.php
+
+# Variables de entorno locales
+.env
