@@ -372,6 +372,108 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
   .js-reveal .reveal { opacity: 1 !important; transform: none !important; transition: none; }
 }
 
+/* ======================================================================
+   Widget de chat (tutor)
+   ====================================================================== */
+.chat-launcher {
+  position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 70;
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 52px; padding: 0 20px 0 17px; border: 0; border-radius: 999px;
+  background: var(--brand); color: #fff; cursor: pointer;
+  font-family: var(--f-body); font-size: .97rem; font-weight: 700;
+  box-shadow: 0 10px 26px -10px rgba(20, 32, 43, .55);
+  transition: transform .16s ease, background-color .16s ease;
+}
+:root[data-theme="dark"] .chat-launcher { color: #08201c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chat-launcher { color: #08201c; } }
+.chat-launcher:hover { background: var(--brand-strong); transform: translateY(-2px); }
+.chat-launcher:active { transform: translateY(0); }
+.chat-launcher svg { width: 21px; height: 21px; flex: none; }
+
+.chat-panel {
+  position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 80;
+  width: min(392px, calc(100vw - 36px)); max-height: min(620px, calc(100vh - 96px));
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 26px 60px -22px rgba(20, 32, 43, .6);
+}
+.chat-panel__head {
+  display: flex; align-items: flex-start; gap: 12px; flex: none;
+  padding: 15px 15px 14px 18px; border-bottom: 1px solid var(--line); background: var(--surface-2);
+}
+.chat-panel__title { font-family: var(--f-display); font-size: 1.06rem; font-weight: 800; letter-spacing: -.02em; margin: 0; }
+.chat-panel__sub { font-family: var(--f-mono); font-size: .71rem; color: var(--ink-3); margin-top: 3px; }
+.chat-close {
+  margin-left: auto; flex: none; width: 38px; height: 38px; border-radius: 10px; cursor: pointer;
+  border: 1px solid transparent; background: transparent; color: var(--ink-2);
+  display: grid; place-items: center;
+}
+.chat-close:hover { background: var(--paper); color: var(--ink); border-color: var(--line); }
+.chat-close svg { width: 19px; height: 19px; }
+
+.chat-log { flex: 1 1 auto; overflow-y: auto; overscroll-behavior: contain; padding: 16px; display: grid; gap: 11px; align-content: start; }
+.chat-msg { max-width: 86%; padding: 11px 14px; border-radius: 14px; font-size: .95rem; line-height: 1.55; }
+.chat-msg p { margin: 0; }
+.chat-msg p + p { margin-top: 9px; }
+.chat-msg ul { margin: 9px 0 0; padding-left: 19px; display: grid; gap: 4px; }
+.chat-msg strong { font-weight: 700; }
+.chat-msg--bot { justify-self: start; background: var(--surface-2); border: 1px solid var(--line); border-bottom-left-radius: 5px; color: var(--ink); }
+.chat-msg--user { justify-self: end; background: var(--brand-soft); border: 1px solid transparent; border-bottom-right-radius: 5px; color: var(--brand-strong); }
+.chat-msg--error { justify-self: start; background: var(--bad-soft); border: 1px solid var(--bad); color: var(--bad); border-bottom-left-radius: 5px; }
+
+.chat-typing { justify-self: start; display: inline-flex; gap: 5px; padding: 14px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 14px; border-bottom-left-radius: 5px; }
+.chat-typing i { width: 7px; height: 7px; border-radius: 50%; background: var(--ink-3); animation: chatDot 1.1s infinite ease-in-out; }
+.chat-typing i:nth-child(2) { animation-delay: .16s; }
+.chat-typing i:nth-child(3) { animation-delay: .32s; }
+@keyframes chatDot { 0%, 70%, 100% { opacity: .3; transform: translateY(0); } 35% { opacity: 1; transform: translateY(-3px); } }
+
+.chat-suggestions { flex: none; display: flex; gap: 7px; padding: 0 16px 12px; overflow-x: auto; scrollbar-width: none; }
+.chat-suggestions::-webkit-scrollbar { display: none; }
+.chat-chip {
+  flex: none; min-height: 36px; padding: 0 13px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2);
+  font-family: var(--f-body); font-size: .82rem; white-space: nowrap;
+}
+.chat-chip:hover { border-color: var(--brand); color: var(--brand-strong); }
+
+.chat-form { flex: none; display: flex; gap: 9px; align-items: flex-end; padding: 12px 14px; border-top: 1px solid var(--line); background: var(--surface-2); }
+.chat-form textarea {
+  flex: 1 1 auto; min-height: 46px; max-height: 132px; resize: none; padding: 12px 13px;
+  border-radius: var(--radius-sm); border: 1px solid var(--line-strong);
+  background: var(--surface); color: var(--ink);
+  font-family: var(--f-body); font-size: .96rem; line-height: 1.45;
+}
+.chat-form textarea:focus { border-color: var(--brand); }
+.chat-send {
+  flex: none; width: 46px; height: 46px; border-radius: var(--radius-sm); border: 0; cursor: pointer;
+  background: var(--brand); color: #fff; display: grid; place-items: center;
+}
+:root[data-theme="dark"] .chat-send { color: #08201c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chat-send { color: #08201c; } }
+.chat-send:hover:not([disabled]) { background: var(--brand-strong); }
+.chat-send[disabled] { opacity: .5; cursor: not-allowed; }
+.chat-send svg { width: 19px; height: 19px; }
+.chat-disclaimer { flex: none; padding: 0 16px 13px; font-size: .71rem; line-height: 1.45; color: var(--ink-3); background: var(--surface-2); }
+
+/* la barra fija de móvil no debe chocar con el chat */
+@media (max-width: 720px) {
+  .chat-launcher { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); right: 14px; padding: 0 17px 0 15px; }
+  .chat-launcher__label { display: none; }
+  .chat-launcher { width: 54px; height: 54px; padding: 0; justify-content: center; }
+  .chat-panel {
+    right: 0; left: 0; bottom: 0; width: 100%;
+    max-height: min(84vh, calc(100vh - 56px));
+    border-radius: var(--radius) var(--radius) 0 0; border-bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  body.chat-open .mobile-cta { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-launcher:hover { transform: none; }
+  .chat-typing i { animation: none; opacity: .55; }
+}
+
 </style>
 <header class="site-header">
   <div class="wrap site-header__bar">
@@ -1081,6 +1183,161 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
     var el = document.getElementById("year");
     if (el) el.textContent = String(new Date().getFullYear());
   });
+  /* ---------- widget de chat (tutor) ---------- */
+  safe("chat", function () {
+    var ENDPOINT = "/api.php";
+    var MAX_HISTORIAL = 8; // turnos que se reenvían para dar contexto
+
+    var launcher = document.getElementById("chatLauncher");
+    var panel = document.getElementById("chatPanel");
+    var cerrar = document.getElementById("chatClose");
+    var log = document.getElementById("chatLog");
+    var form = document.getElementById("chatForm");
+    var input = document.getElementById("chatInput");
+    var enviar = document.getElementById("chatSend");
+    var sugerencias = document.getElementById("chatSuggestions");
+    if (!launcher || !panel || !log || !form || !input || !enviar) return;
+
+    var historial = [];
+    var enCurso = false;
+    var ultimoFoco = null;
+
+    /* --- apertura y cierre --- */
+    function abrir() {
+      panel.hidden = false;
+      launcher.setAttribute("aria-expanded", "true");
+      launcher.hidden = true;
+      document.body.classList.add("chat-open");
+      ultimoFoco = document.activeElement;
+      input.focus();
+      log.scrollTop = log.scrollHeight;
+    }
+    function cerrarPanel() {
+      panel.hidden = true;
+      launcher.hidden = false;
+      launcher.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("chat-open");
+      if (ultimoFoco && ultimoFoco.focus) ultimoFoco.focus();
+      else launcher.focus();
+    }
+    launcher.addEventListener("click", abrir);
+    if (cerrar) cerrar.addEventListener("click", cerrarPanel);
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && !panel.hidden) cerrarPanel();
+    });
+
+    /* --- pintado de mensajes --- */
+    function burbuja(texto, tipo) {
+      var div = document.createElement("div");
+      div.className = "chat-msg chat-msg--" + tipo;
+      var parrafos = String(texto).split(/\n{2,}/);
+      for (var k = 0; k < parrafos.length; k++) {
+        var pr = document.createElement("p");
+        pr.textContent = parrafos[k].replace(/\n/g, " ").trim();
+        if (pr.textContent) div.appendChild(pr);
+      }
+      if (!div.childNodes.length) {
+        var vacio = document.createElement("p");
+        vacio.textContent = String(texto);
+        div.appendChild(vacio);
+      }
+      log.appendChild(div);
+      log.scrollTop = log.scrollHeight;
+      return div;
+    }
+
+    function escribiendo(mostrar) {
+      var previo = document.getElementById("chatTyping");
+      if (previo) previo.remove();
+      if (!mostrar) return;
+      var d = document.createElement("div");
+      d.className = "chat-typing";
+      d.id = "chatTyping";
+      d.setAttribute("aria-label", "El tutor está escribiendo");
+      for (var k = 0; k < 3; k++) d.appendChild(document.createElement("i"));
+      log.appendChild(d);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function bloquear(si) {
+      enCurso = si;
+      enviar.disabled = si;
+      input.readOnly = si;
+    }
+
+    /* --- envío al servidor --- */
+    function preguntar(texto) {
+      if (enCurso) return;
+      texto = String(texto || "").trim();
+      if (!texto) return;
+
+      burbuja(texto, "user");
+      input.value = "";
+      ajustarAlto();
+      if (sugerencias) sugerencias.hidden = true;
+      bloquear(true);
+      escribiendo(true);
+
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({ mensaje: texto, historial: historial.slice(-MAX_HISTORIAL) })
+      })
+        .then(function (res) {
+          return res.json().catch(function () { return {}; }).then(function (datos) {
+            return { ok: res.ok, estado: res.status, datos: datos };
+          });
+        })
+        .then(function (r) {
+          escribiendo(false);
+          if (!r.ok || !r.datos || !r.datos.respuesta) {
+            var msg = (r.datos && r.datos.error) ? r.datos.error : "No pude conectarme con el tutor. Vuelve a intentarlo en un momento.";
+            burbuja(msg, "error");
+            return;
+          }
+          burbuja(r.datos.respuesta, "bot");
+          historial.push({ rol: "usuario", texto: texto });
+          historial.push({ rol: "tutor", texto: r.datos.respuesta });
+          if (historial.length > MAX_HISTORIAL * 2) historial = historial.slice(-MAX_HISTORIAL * 2);
+        })
+        .catch(function () {
+          escribiendo(false);
+          burbuja("No hay conexión con el servidor. Revisa tu internet y vuelve a intentarlo.", "error");
+        })
+        .then(function () {
+          bloquear(false);
+          input.focus();
+        });
+    }
+
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      preguntar(input.value);
+    });
+
+    /* Enter envía, Mayús+Enter salta de línea */
+    input.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" && !ev.shiftKey) {
+        ev.preventDefault();
+        preguntar(input.value);
+      }
+    });
+
+    /* la caja de texto crece con el contenido */
+    function ajustarAlto() {
+      input.style.height = "auto";
+      input.style.height = Math.min(input.scrollHeight, 132) + "px";
+    }
+    input.addEventListener("input", ajustarAlto);
+
+    if (sugerencias) {
+      sugerencias.addEventListener("click", function (ev) {
+        var chip = ev.target.closest ? ev.target.closest(".chat-chip") : null;
+        if (chip) preguntar(chip.textContent);
+      });
+    }
+  });
+
 })();
 
 </script>

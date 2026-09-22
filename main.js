@@ -335,4 +335,159 @@
     var el = document.getElementById("year");
     if (el) el.textContent = String(new Date().getFullYear());
   });
+  /* ---------- widget de chat (tutor) ---------- */
+  safe("chat", function () {
+    var ENDPOINT = "/api.php";
+    var MAX_HISTORIAL = 8; // turnos que se reenvían para dar contexto
+
+    var launcher = document.getElementById("chatLauncher");
+    var panel = document.getElementById("chatPanel");
+    var cerrar = document.getElementById("chatClose");
+    var log = document.getElementById("chatLog");
+    var form = document.getElementById("chatForm");
+    var input = document.getElementById("chatInput");
+    var enviar = document.getElementById("chatSend");
+    var sugerencias = document.getElementById("chatSuggestions");
+    if (!launcher || !panel || !log || !form || !input || !enviar) return;
+
+    var historial = [];
+    var enCurso = false;
+    var ultimoFoco = null;
+
+    /* --- apertura y cierre --- */
+    function abrir() {
+      panel.hidden = false;
+      launcher.setAttribute("aria-expanded", "true");
+      launcher.hidden = true;
+      document.body.classList.add("chat-open");
+      ultimoFoco = document.activeElement;
+      input.focus();
+      log.scrollTop = log.scrollHeight;
+    }
+    function cerrarPanel() {
+      panel.hidden = true;
+      launcher.hidden = false;
+      launcher.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("chat-open");
+      if (ultimoFoco && ultimoFoco.focus) ultimoFoco.focus();
+      else launcher.focus();
+    }
+    launcher.addEventListener("click", abrir);
+    if (cerrar) cerrar.addEventListener("click", cerrarPanel);
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && !panel.hidden) cerrarPanel();
+    });
+
+    /* --- pintado de mensajes --- */
+    function burbuja(texto, tipo) {
+      var div = document.createElement("div");
+      div.className = "chat-msg chat-msg--" + tipo;
+      var parrafos = String(texto).split(/\n{2,}/);
+      for (var k = 0; k < parrafos.length; k++) {
+        var pr = document.createElement("p");
+        pr.textContent = parrafos[k].replace(/\n/g, " ").trim();
+        if (pr.textContent) div.appendChild(pr);
+      }
+      if (!div.childNodes.length) {
+        var vacio = document.createElement("p");
+        vacio.textContent = String(texto);
+        div.appendChild(vacio);
+      }
+      log.appendChild(div);
+      log.scrollTop = log.scrollHeight;
+      return div;
+    }
+
+    function escribiendo(mostrar) {
+      var previo = document.getElementById("chatTyping");
+      if (previo) previo.remove();
+      if (!mostrar) return;
+      var d = document.createElement("div");
+      d.className = "chat-typing";
+      d.id = "chatTyping";
+      d.setAttribute("aria-label", "El tutor está escribiendo");
+      for (var k = 0; k < 3; k++) d.appendChild(document.createElement("i"));
+      log.appendChild(d);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function bloquear(si) {
+      enCurso = si;
+      enviar.disabled = si;
+      input.readOnly = si;
+    }
+
+    /* --- envío al servidor --- */
+    function preguntar(texto) {
+      if (enCurso) return;
+      texto = String(texto || "").trim();
+      if (!texto) return;
+
+      burbuja(texto, "user");
+      input.value = "";
+      ajustarAlto();
+      if (sugerencias) sugerencias.hidden = true;
+      bloquear(true);
+      escribiendo(true);
+
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({ mensaje: texto, historial: historial.slice(-MAX_HISTORIAL) })
+      })
+        .then(function (res) {
+          return res.json().catch(function () { return {}; }).then(function (datos) {
+            return { ok: res.ok, estado: res.status, datos: datos };
+          });
+        })
+        .then(function (r) {
+          escribiendo(false);
+          if (!r.ok || !r.datos || !r.datos.respuesta) {
+            var msg = (r.datos && r.datos.error) ? r.datos.error : "No pude conectarme con el tutor. Vuelve a intentarlo en un momento.";
+            burbuja(msg, "error");
+            return;
+          }
+          burbuja(r.datos.respuesta, "bot");
+          historial.push({ rol: "usuario", texto: texto });
+          historial.push({ rol: "tutor", texto: r.datos.respuesta });
+          if (historial.length > MAX_HISTORIAL * 2) historial = historial.slice(-MAX_HISTORIAL * 2);
+        })
+        .catch(function () {
+          escribiendo(false);
+          burbuja("No hay conexión con el servidor. Revisa tu internet y vuelve a intentarlo.", "error");
+        })
+        .then(function () {
+          bloquear(false);
+          input.focus();
+        });
+    }
+
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      preguntar(input.value);
+    });
+
+    /* Enter envía, Mayús+Enter salta de línea */
+    input.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" && !ev.shiftKey) {
+        ev.preventDefault();
+        preguntar(input.value);
+      }
+    });
+
+    /* la caja de texto crece con el contenido */
+    function ajustarAlto() {
+      input.style.height = "auto";
+      input.style.height = Math.min(input.scrollHeight, 132) + "px";
+    }
+    input.addEventListener("input", ajustarAlto);
+
+    if (sugerencias) {
+      sugerencias.addEventListener("click", function (ev) {
+        var chip = ev.target.closest ? ev.target.closest(".chat-chip") : null;
+        if (chip) preguntar(chip.textContent);
+      });
+    }
+  });
+
 })();

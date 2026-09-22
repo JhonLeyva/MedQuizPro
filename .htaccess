@@ -23,4 +23,16 @@
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
 
+# La llave vive en config.php: nadie debe poder abrirlo desde el navegador
+<FilesMatch "^(config\.php|config\.example\.php)$">
+  Require all denied
+</FilesMatch>
+
+# api.php no se cachea nunca
+<FilesMatch "^api\.php$">
+  Header set Cache-Control "no-store"
+</FilesMatch>
+
+Options -Indexes
+
 ErrorDocument 404 /index.html

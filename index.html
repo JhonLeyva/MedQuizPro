@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap">
-<link rel="stylesheet" href="styles.css?v=20260922">
+<link rel="stylesheet" href="styles.css?v=20260923">
 </head>
 <body>
 
@@ -384,6 +384,50 @@
   <a class="btn btn--primary btn--block" href="#registro">Crear cuenta gratis</a>
 </div>
 
-<script defer src="main.js?v=20260922"></script>
+<!-- chat:inicio (se excluye de artifact.html porque necesita PHP) -->
+<button class="chat-launcher" id="chatLauncher" type="button" aria-expanded="false" aria-controls="chatPanel">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z"/>
+  </svg>
+  <span class="chat-launcher__label">Pregúntale al tutor</span>
+</button>
+
+<section class="chat-panel" id="chatPanel" role="dialog" aria-modal="false" aria-labelledby="chatTitle" hidden>
+  <header class="chat-panel__head">
+    <div>
+      <h2 class="chat-panel__title" id="chatTitle">Tutor MedQuizPro</h2>
+      <p class="chat-panel__sub">Resuelve dudas de ENAM, RM y EsSalud</p>
+    </div>
+    <button class="chat-close" id="chatClose" type="button">
+      <span class="sr-only">Cerrar el chat</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </header>
+
+  <div class="chat-log" id="chatLog" role="log" aria-live="polite" aria-relevant="additions">
+    <div class="chat-msg chat-msg--bot">
+      <p>Hola. Pregúntame sobre cualquier tema del ENAM, el Residentado o EsSalud y te lo explico paso a paso.</p>
+    </div>
+  </div>
+
+  <div class="chat-suggestions" id="chatSuggestions">
+    <button class="chat-chip" type="button">¿Cómo diferencio shock séptico de cardiogénico?</button>
+    <button class="chat-chip" type="button">Resúmeme los criterios de severidad de preeclampsia</button>
+    <button class="chat-chip" type="button">¿Qué áreas pesan más en el ENAM?</button>
+  </div>
+
+  <form class="chat-form" id="chatForm">
+    <label class="sr-only" for="chatInput">Escribe tu pregunta</label>
+    <textarea id="chatInput" name="mensaje" rows="1" maxlength="1500" placeholder="Escribe tu pregunta…" autocomplete="off"></textarea>
+    <button class="chat-send" id="chatSend" type="submit">
+      <span class="sr-only">Enviar</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l16-8-6 16-2.5-6.5L4 12z"/></svg>
+    </button>
+  </form>
+  <p class="chat-disclaimer">Respuestas generadas por IA con fines de estudio. No sustituyen el criterio clínico ni la atención de un paciente real.</p>
+</section>
+<!-- chat:fin -->
+
+<script defer src="main.js?v=20260923"></script>
 </body>
 </html>
