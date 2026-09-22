@@ -1,0 +1,21 @@
+{
+  "especialidad": "Psiquiatría",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "PSI-001",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?",
+      "opciones": {
+        "A": "Haloperidol",
+        "B": "Diazepam como monoterapia",
+        "C": "Un inhibidor selectivo de la recaptación de serotonina, como sertralina",
+        "D": "Carbonato de litio como monoterapia",
+        "E": "Terapia electroconvulsiva"
+      },
+      "clave_correcta": "C",
+      "comentario": "Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."
+    }
+  ]
+}

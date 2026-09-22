@@ -1,0 +1,51 @@
+{
+  "especialidad": "Cardiología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CAR-001",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 64 años, hipertenso y fumador, con dolor torácico opresivo de 2 horas. PA 84/50 mmHg, FC 56 lpm, ingurgitación yugular y campos pulmonares limpios. El ECG muestra elevación del ST en DII, DIII y aVF, y la derivación V4R muestra elevación del ST de 1,5 mm. La hipotensión se acentuó tras administrarle nitroglicerina sublingual. ¿Cuál es la medida inmediata más apropiada mientras se coordina la reperfusión?",
+      "opciones": {
+        "A": "Furosemida 40 mg endovenosa",
+        "B": "Bolo de cristaloides endovenoso con monitoreo hemodinámico",
+        "C": "Nitroglicerina en infusión continua",
+        "D": "Metoprolol endovenoso",
+        "E": "Morfina endovenosa a dosis plena"
+      },
+      "clave_correcta": "B",
+      "comentario": "Infarto inferior con compromiso del ventrículo derecho (ST elevado en V4R): tríada de hipotensión, ingurgitación yugular y pulmones limpios. El VD infartado depende de la precarga, por eso los nitratos, los diuréticos y la morfina (venodilatadores) empeoran la hipotensión. La conducta es expandir volumen con cristaloides mientras se reperfunde de urgencia; los betabloqueadores están contraindicados con hipotensión y bradicardia."
+    },
+    {
+      "id": "CAR-002",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?",
+      "opciones": {
+        "A": "No requiere tratamiento antitrombótico",
+        "B": "Ácido acetilsalicílico 100 mg al día",
+        "C": "Anticoagulación oral",
+        "D": "Doble antiagregación con aspirina y clopidogrel",
+        "E": "Heparina de bajo peso molecular solo durante un mes"
+      },
+      "clave_correcta": "C",
+      "comentario": "Fibrilación auricular no valvular con CHA₂DS₂-VASc de 3 (edad 65-74 años = 1, sexo femenino = 1, hipertensión = 1). Con puntaje ≥ 2 en varones o ≥ 3 en mujeres está indicada la anticoagulación oral (de preferencia un anticoagulante oral directo; warfarina si no hay acceso). La aspirina no tiene indicación para prevenir el ictus en la FA y la doble antiagregación es inferior a la anticoagulación y sangra igual."
+    },
+    {
+      "id": "CAR-003",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Insuficiencia aórtica crónica",
+        "B": "Miocardiopatía hipertrófica obstructiva",
+        "C": "Estenosis aórtica severa",
+        "D": "Insuficiencia mitral",
+        "E": "Comunicación interventricular"
+      },
+      "clave_correcta": "C",
+      "comentario": "Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."
+    }
+  ]
+}

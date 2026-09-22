@@ -272,6 +272,42 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
 .bar__fill { height: 100%; border-radius: 999px; background: var(--brand); }
 .bank__link { margin-top: auto; font-family: var(--f-mono); font-size: .79rem; font-weight: 600; color: var(--brand-strong); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; min-height: 30px; }
 .bank__link:hover { text-decoration: underline; }
+/* ---------- especialidades (bancos por área) ---------- */
+.specs { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 14px; margin-top: 28px; }
+.spec {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px; display: flex; flex-direction: column; gap: 10px;
+  transition: border-color .16s ease, transform .16s ease, box-shadow .16s ease;
+}
+.spec:hover { border-color: var(--brand); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.spec__icon {
+  width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--brand-soft); color: var(--brand-strong);
+}
+.spec__icon svg { width: 24px; height: 24px; }
+.spec h3 { font-size: 1.06rem; line-height: 1.25; }
+.spec__status { display: inline-flex; align-items: center; gap: 7px; font-family: var(--f-mono); font-size: .74rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.spec__status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--line-strong); flex: none; }
+.spec__status--ok { color: var(--ok); }
+.spec__status--ok::before { background: var(--ok); }
+.spec__status--off::before { background: var(--bad); }
+.spec .btn { margin-top: auto; min-height: 40px; padding-block: 8px; font-size: .92rem; }
+
+/* ---------- simulador de preguntas ---------- */
+.sim-view { margin-top: 28px; }
+.sim-view__bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.sim-view__score { font-family: var(--f-mono); font-size: .8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.quiz--wide { max-width: 860px; }
+.quiz--wide .quiz__stem { font-size: 1.08rem; }
+.quiz__label { margin-top: 10px; font-family: var(--f-mono); font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--brand-strong); }
+.sim-view__status { padding: 26px 4px; color: var(--ink-2); text-align: center; }
+.sim-view__nav { justify-content: space-between; }
+.sim-view__nav .btn[disabled] { opacity: .45; cursor: not-allowed; }
+@media (max-width: 520px) {
+  .sim-view__nav .btn { flex: 1 1 100%; }
+  .sim-view__bar .btn { width: 100%; }
+}
+
 .empty { margin-top: 22px; padding: 26px; border: 1px dashed var(--line-strong); border-radius: var(--radius); color: var(--ink-3); font-family: var(--f-mono); font-size: .85rem; text-align: center; }
 .placeholder-note { margin-top: 18px; font-family: var(--f-mono); font-size: .75rem; color: var(--ink-3); }
 
@@ -571,121 +607,44 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
     <div class="wrap">
       <div class="section__head reveal">
         <p class="eyebrow">Bancos de preguntas</p>
-        <h2>Elige el examen, luego el área que te está costando.</h2>
-        <p class="lead">Cada pregunta viene con su explicación, la fuente de referencia y el porcentaje de alumnos que la falló. Filtra por examen para ver los bancos disponibles.</p>
+        <h2>Elige la especialidad que te está costando.</h2>
+        <p class="lead">Casos clínicos tipo ENAM, Residentado Médico y EsSalud, ordenados por especialidad. Cada pregunta cierra con el comentario docente: el porqué de la respuesta y de los distractores.</p>
       </div>
 
-      <div class="chips reveal" role="group" aria-label="Filtrar bancos por examen">
-        <button class="chip" type="button" data-filter="todos" aria-pressed="false">Todos</button>
-        <button class="chip" type="button" data-filter="enam" aria-pressed="true">ENAM</button>
-        <button class="chip" type="button" data-filter="rm" aria-pressed="false">Residentado (RM)</button>
-        <button class="chip" type="button" data-filter="essalud" aria-pressed="false">EsSalud</button>
-      </div>
+      <!-- vista 1: cuadrícula de especialidades (la llena main.js desde el catálogo) -->
+      <div class="specs" id="specs" aria-label="Especialidades"></div>
 
-      <div class="banks" id="banks">
-        <!-- ENAM -->
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Medicina Interna</h3>
-          <p class="bank__meta">3 120 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:62%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 62 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Cirugía General</h3>
-          <p class="bank__meta">2 040 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:54%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 54 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Ginecología y Obstetricia</h3>
-          <p class="bank__meta">1 860 preguntas · actualizado jul 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:58%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 58 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Pediatría</h3>
-          <p class="bank__meta">1 740 preguntas · actualizado jul 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:66%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 66 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Salud Pública y Ciencias Básicas</h3>
-          <p class="bank__meta">1 410 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:71%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 71 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <!-- RM -->
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Banco RM · Medicina</h3>
-          <p class="bank__meta">1 250 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:48%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 48 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Banco RM · Cirugía</h3>
-          <p class="bank__meta">980 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:45%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 45 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Preguntas de años anteriores</h3>
-          <p class="bank__meta">1 600 preguntas · 2016 – 2025</p>
-          <div class="bar"><div class="bar__fill" style="width:52%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 52 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Casos clínicos largos</h3>
-          <p class="bank__meta">640 preguntas · actualizado jun 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:41%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 41 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <!-- EsSalud -->
-        <article class="bank reveal" data-exam="essalud">
-          <div class="bank__top"><span class="tag">EsSalud</span></div>
-          <h3>Gestión y normativa</h3>
-          <p class="bank__meta">720 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:57%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 57 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="essalud">
-          <div class="bank__top"><span class="tag">EsSalud</span></div>
-          <h3>Atención primaria</h3>
-          <p class="bank__meta">860 preguntas · actualizado jul 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:63%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 63 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="essalud">
-          <div class="bank__top"><span class="tag">EsSalud</span></div>
-          <h3>Emergencias y urgencias</h3>
-          <p class="bank__meta">910 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:50%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 50 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-      </div>
+      <!-- vista 2: simulador de preguntas -->
+      <div class="sim-view" id="simView" hidden>
+        <div class="sim-view__bar">
+          <button class="btn btn--ghost" type="button" id="svBack">← Volver al menú de especialidades</button>
+          <span class="sim-view__score" id="svScore" aria-live="polite"></span>
+        </div>
 
-      <p class="empty" id="banksEmpty" hidden>Todavía no hay bancos publicados para este examen.</p>
-      <p class="placeholder-note">Contenido de ejemplo para la demostración. Las cifras y los bancos son marcadores de posición.</p>
+        <div class="quiz quiz--wide" id="svQuiz" aria-live="polite">
+          <div class="quiz__head">
+            <span class="tag" id="svArea">Especialidad</span>
+            <span class="tag tag--mark" id="svExam" hidden></span>
+            <span class="quiz__counter" id="svCounter"></span>
+          </div>
+          <div class="quiz__body">
+            <p class="sim-view__status" id="svStatus" hidden></p>
+            <div id="svContent" hidden>
+              <p class="quiz__stem" id="svStem"></p>
+              <ul class="quiz__options" id="svOptions"></ul>
+              <div class="quiz__feedback" id="svFeedback" hidden>
+                <p class="quiz__verdict" id="svVerdict"></p>
+                <p class="quiz__label">Comentario docente</p>
+                <p class="quiz__why" id="svWhy"></p>
+              </div>
+            </div>
+            <div class="quiz__foot sim-view__nav">
+              <button class="btn btn--ghost" type="button" id="svPrev">← Pregunta anterior</button>
+              <button class="btn btn--mark" type="button" id="svNext">Siguiente pregunta →</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -867,6 +826,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
   <a class="btn btn--primary btn--block" href="#registro">Crear cuenta gratis</a>
 </div>
 <script>
+window.MQP_BANCOS = {"cardiologia":{"especialidad":"Cardiología","version":"2026-09","preguntas":[{"id":"CAR-001","especialidad":"Cardiología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 64 años, hipertenso y fumador, con dolor torácico opresivo de 2 horas. PA 84/50 mmHg, FC 56 lpm, ingurgitación yugular y campos pulmonares limpios. El ECG muestra elevación del ST en DII, DIII y aVF, y la derivación V4R muestra elevación del ST de 1,5 mm. La hipotensión se acentuó tras administrarle nitroglicerina sublingual. ¿Cuál es la medida inmediata más apropiada mientras se coordina la reperfusión?","opciones":{"A":"Furosemida 40 mg endovenosa","B":"Bolo de cristaloides endovenoso con monitoreo hemodinámico","C":"Nitroglicerina en infusión continua","D":"Metoprolol endovenoso","E":"Morfina endovenosa a dosis plena"},"clave_correcta":"B","comentario":"Infarto inferior con compromiso del ventrículo derecho (ST elevado en V4R): tríada de hipotensión, ingurgitación yugular y pulmones limpios. El VD infartado depende de la precarga, por eso los nitratos, los diuréticos y la morfina (venodilatadores) empeoran la hipotensión. La conducta es expandir volumen con cristaloides mientras se reperfunde de urgencia; los betabloqueadores están contraindicados con hipotensión y bradicardia."},{"id":"CAR-002","especialidad":"Cardiología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?","opciones":{"A":"No requiere tratamiento antitrombótico","B":"Ácido acetilsalicílico 100 mg al día","C":"Anticoagulación oral","D":"Doble antiagregación con aspirina y clopidogrel","E":"Heparina de bajo peso molecular solo durante un mes"},"clave_correcta":"C","comentario":"Fibrilación auricular no valvular con CHA₂DS₂-VASc de 3 (edad 65-74 años = 1, sexo femenino = 1, hipertensión = 1). Con puntaje ≥ 2 en varones o ≥ 3 en mujeres está indicada la anticoagulación oral (de preferencia un anticoagulante oral directo; warfarina si no hay acceso). La aspirina no tiene indicación para prevenir el ictus en la FA y la doble antiagregación es inferior a la anticoagulación y sangra igual."},{"id":"CAR-003","especialidad":"Cardiología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Insuficiencia aórtica crónica","B":"Miocardiopatía hipertrófica obstructiva","C":"Estenosis aórtica severa","D":"Insuficiencia mitral","E":"Comunicación interventricular"},"clave_correcta":"C","comentario":"Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."}]},"ciencias_basicas":{"especialidad":"Ciencias Básicas","version":"2026-09","preguntas":[{"id":"CB-001","especialidad":"Ciencias Básicas","examen_origen":"ENAM · pregunta tipo","enunciado":"Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?","opciones":{"A":"Fenilalanina hidroxilasa","B":"Homogentisato oxidasa","C":"Tirosinasa","D":"Cistationina β-sintasa","E":"Galactosa-1-fosfato uridiltransferasa"},"clave_correcta":"A","comentario":"Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."}]},"cirugia":{"especialidad":"Cirugía General y Digestiva","version":"2026-09","preguntas":[{"id":"CIR-001","especialidad":"Cirugía General y Digestiva","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 22 años con dolor abdominal que empezó en el epigastrio hace 18 horas y luego migró a la fosa ilíaca derecha, con náuseas e hiporexia. Temperatura 38,1 °C, dolor a la descompresión en el punto de McBurney y leucocitosis de 14 500/mm³ con desviación izquierda. ¿Cuál es la conducta más adecuada?","opciones":{"A":"Alta con analgésicos y control en 48 horas","B":"Apendicectomía","C":"Colonoscopía","D":"Antibióticos orales en domicilio","E":"Laparotomía exploratoria por línea media como primera opción"},"clave_correcta":"B","comentario":"Dolor migratorio a fosa ilíaca derecha, anorexia, fiebre, rebote y leucocitosis con desviación izquierda dan un puntaje de Alvarado alto (≥ 7): el diagnóstico es clínico y la conducta es la apendicectomía (laparoscópica o abierta) con profilaxis antibiótica. La colonoscopía está contraindicada en el abdomen agudo y los analgésicos no deben retrasar la decisión quirúrgica."}]},"endocrinologia":{"especialidad":"Endocrinología","version":"2026-09","preguntas":[{"id":"END-001","especialidad":"Endocrinología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?","opciones":{"A":"Bolo de insulina rápida subcutánea","B":"Bicarbonato de sodio endovenoso","C":"Solución salina al 0,9 % endovenosa","D":"Dextrosa al 5 % endovenosa","E":"Cloruro de potasio en bolo"},"clave_correcta":"C","comentario":"En la cetoacidosis diabética la primera medida es restaurar el volumen con solución salina isotónica (1-1,5 L en la primera hora). La insulina se inicia en infusión endovenosa una vez que el potasio es ≥ 3,3 mEq/L. El bicarbonato se reserva para pH \u003c 6,9 y la dextrosa se agrega cuando la glucosa baja a unos 200-250 mg/dL."}]},"gastroenterologia":{"especialidad":"Gastroenterología","version":"2026-09","preguntas":[{"id":"GAS-001","especialidad":"Gastroenterología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 55 años con cirrosis hepática por alcohol llega a emergencia con hematemesis abundante. PA 90/60 mmHg, FC 112 lpm. Se aseguran dos vías venosas y se inicia la reposición de volumen de forma restrictiva. Mientras se prepara la endoscopía, ¿qué fármaco debe iniciarse?","opciones":{"A":"Propranolol endovenoso","B":"Terlipresina u octreotide endovenoso","C":"Vitamina K como única medida","D":"Omeprazol oral","E":"Lactulosa por sonda nasogástrica como única medida"},"clave_correcta":"B","comentario":"Ante sospecha de hemorragia variceal en un cirrótico se inicia de inmediato un vasoactivo esplácnico (terlipresina, somatostatina u octreotide), junto con profilaxis antibiótica (ceftriaxona) y endoscopía con ligadura en las primeras 12 horas. Los betabloqueadores no selectivos se usan en profilaxis, no en el sangrado agudo con hipotensión. La reposición de volumen debe ser restrictiva (hemoglobina objetivo 7-8 g/dL) para no aumentar la presión portal."}]},"ginecologia":{"especialidad":"Ginecología y Obstetricia","version":"2026-09","preguntas":[{"id":"GIN-001","especialidad":"Ginecología y Obstetricia","examen_origen":"EsSalud · pregunta tipo","enunciado":"Puérpera de 28 años, cuarto parto vaginal, presenta sangrado vaginal abundante 20 minutos después del alumbramiento. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa. ¿Cuál es la primera medida farmacológica?","opciones":{"A":"Oxitocina endovenosa","B":"Misoprostol como única medida","C":"Ácido tranexámico como única medida","D":"Sulfato de magnesio","E":"Nifedipino oral"},"clave_correcta":"A","comentario":"Útero blando y sin contraer tras el parto es atonía uterina, la causa más frecuente de hemorragia postparto. Junto con el masaje uterino bimanual, el uterotónico de primera línea es la oxitocina. Si no responde se agregan ergometrina (contraindicada en hipertensas) o misoprostol, y el ácido tranexámico dentro de las primeras 3 horas. El sulfato de magnesio y el nifedipino relajan el útero y empeoran la atonía."}]},"hematologia":{"especialidad":"Hematología","version":"2026-09","preguntas":[{"id":"HEM-001","especialidad":"Hematología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 30 años con menstruaciones abundantes, fatiga y caída de cabello. Hemoglobina 8,9 g/dL, VCM 70 fL, HCM 22 pg, RDW elevado. ¿Cuál es el dato de laboratorio más útil para confirmar la causa de la anemia?","opciones":{"A":"Ferritina sérica baja","B":"Hierro sérico elevado","C":"Electroforesis de hemoglobina con HbA2 elevada","D":"Reticulocitos elevados","E":"Vitamina B12 baja"},"clave_correcta":"A","comentario":"Anemia microcítica e hipocrómica con RDW elevado en una mujer con pérdidas menstruales orienta a ferropenia. La ferritina baja es el marcador más específico de depósitos de hierro agotados. En la talasemia menor el RDW suele ser normal y la HbA2 está elevada; la vitamina B12 baja produce anemia macrocítica."}]},"infectologia":{"especialidad":"Infectología","version":"2026-09","preguntas":[{"id":"INF-001","especialidad":"Infectología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Varón de 32 años, agricultor de Loreto, con fiebre intermitente, escalofríos y sudoración de cinco días. La gota gruesa muestra Plasmodium vivax. No hay signos de malaria grave y la prueba de G6PD es normal. ¿Cuál es el tratamiento indicado?","opciones":{"A":"Solo cloroquina por tres días","B":"Cloroquina más primaquina","C":"Artesunato endovenoso","D":"Solo primaquina por siete días","E":"Doxiciclina por catorce días"},"clave_correcta":"B","comentario":"La malaria por P. vivax no complicada se trata con cloroquina (esquizonticida sanguíneo) más primaquina, que elimina los hipnozoítos hepáticos y evita las recaídas. Sin primaquina el paciente puede recaer semanas después. El artesunato endovenoso se reserva para la malaria grave; en la gestante la primaquina está contraindicada."}]},"nefrologia":{"especialidad":"Nefrología y Urología","version":"2026-09","preguntas":[{"id":"NEF-001","especialidad":"Nefrología y Urología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?","opciones":{"A":"Resina de intercambio catiónico oral","B":"Furosemida endovenosa","C":"Gluconato de calcio endovenoso","D":"Bicarbonato de sodio oral","E":"Hemodiálisis programada para el día siguiente"},"clave_correcta":"C","comentario":"Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."}]},"neumologia":{"especialidad":"Neumología","version":"2026-09","preguntas":[{"id":"NEU-001","especialidad":"Neumología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 28 años, de Lima, con fiebre vespertina, tos seca y dolor pleurítico derecho de un mes. La radiografía muestra derrame pleural derecho moderado. Toracocentesis: exudado con proteínas 5,1 g/dL, predominio linfocitario (85 %), glucosa 70 mg/dL y adenosina desaminasa (ADA) de 78 U/L. La baciloscopía del líquido es negativa. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Derrame paraneumónico complicado","B":"Tuberculosis pleural","C":"Derrame por insuficiencia cardiaca","D":"Mesotelioma pleural","E":"Tromboembolismo pulmonar"},"clave_correcta":"B","comentario":"Exudado linfocitario con ADA > 40 U/L en un adulto joven de zona de alta prevalencia es tuberculosis pleural hasta demostrar lo contrario. La baciloscopía del líquido es positiva en menos del 10 % de los casos, así que un resultado negativo no la descarta. El derrame paraneumónico es de predominio neutrofílico y la insuficiencia cardiaca produce trasudado."}]},"neurologia":{"especialidad":"Neurología","version":"2026-09","preguntas":[{"id":"NRL-001","especialidad":"Neurología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?","opciones":{"A":"Resonancia magnética cerebral con gadolinio","B":"Punción lumbar","C":"Tomografía cerebral sin contraste","D":"Electroencefalograma","E":"Doppler de vasos del cuello"},"clave_correcta":"C","comentario":"Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."}]},"oftalmo_orl":{"especialidad":"Oftalmología y Otorrinolaringología","version":"2026-09","preguntas":[{"id":"OFT-001","especialidad":"Oftalmología y Otorrinolaringología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Conjuntivitis bacteriana","B":"Glaucoma agudo de ángulo cerrado","C":"Uveítis anterior","D":"Desprendimiento de retina","E":"Migraña con aura"},"clave_correcta":"B","comentario":"Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."}]},"pediatria":{"especialidad":"Pediatría y Neonatología","version":"2026-09","preguntas":[{"id":"PED-001","especialidad":"Pediatría y Neonatología","examen_origen":"ENAM · pregunta tipo","enunciado":"Recién nacido a término de 18 horas de vida, con lactancia materna exclusiva, presenta ictericia que llega hasta el abdomen. La madre es del grupo O Rh positivo y el neonato es A Rh positivo. ¿Cuál es la causa más probable?","opciones":{"A":"Ictericia fisiológica","B":"Ictericia por leche materna","C":"Enfermedad hemolítica por incompatibilidad ABO","D":"Atresia de vías biliares","E":"Síndrome de Gilbert"},"clave_correcta":"C","comentario":"La ictericia en las primeras 24 horas de vida siempre es patológica y lo más frecuente es la hemólisis. Madre O con hijo A o B es la combinación típica de incompatibilidad ABO. La ictericia fisiológica aparece después de las 24 horas y la de la leche materna después de la primera semana. Se debe medir la bilirrubina, hacer Coombs directo y valorar la fototerapia según las curvas de riesgo."}]},"psiquiatria":{"especialidad":"Psiquiatría","version":"2026-09","preguntas":[{"id":"PSI-001","especialidad":"Psiquiatría","examen_origen":"EsSalud · pregunta tipo","enunciado":"Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?","opciones":{"A":"Haloperidol","B":"Diazepam como monoterapia","C":"Un inhibidor selectivo de la recaptación de serotonina, como sertralina","D":"Carbonato de litio como monoterapia","E":"Terapia electroconvulsiva"},"clave_correcta":"C","comentario":"Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."}]},"reumatologia":{"especialidad":"Reumatología y Dermatología","version":"2026-09","preguntas":[{"id":"REU-001","especialidad":"Reumatología y Dermatología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?","opciones":{"A":"Pirofosfato de calcio","B":"Urato monosódico","C":"Hidroxiapatita","D":"Oxalato de calcio","E":"Colesterol"},"clave_correcta":"B","comentario":"Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."}]},"salud_publica":{"especialidad":"Salud Pública, Gestión y Epidemiología","version":"2026-09","preguntas":[{"id":"SP-001","especialidad":"Salud Pública, Gestión y Epidemiología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Se evalúa una prueba rápida para detectar una enfermedad en 300 personas. De 100 enfermos, 80 tienen la prueba positiva; de 200 sanos, 180 tienen la prueba negativa. ¿Cuál es la especificidad de la prueba?","opciones":{"A":"80 %","B":"90 %","C":"75 %","D":"85,7 %","E":"60 %"},"clave_correcta":"B","comentario":"Especificidad = verdaderos negativos / total de sanos = 180 / 200 = 90 %. En la misma tabla, la sensibilidad es 80 / 100 = 80 % y el valor predictivo positivo es 80 / (80 + 20) = 80 %. La sensibilidad y la especificidad son propias de la prueba; los valores predictivos cambian con la prevalencia de la enfermedad."}]},"traumatologia":{"especialidad":"Traumatología y Ortopedia","version":"2026-09","preguntas":[{"id":"TRA-001","especialidad":"Traumatología y Ortopedia","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?","opciones":{"A":"Alta sin inmovilización","B":"Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días","C":"Artroscopía de muñeca de urgencia","D":"Infiltración de corticoide","E":"Solo antiinflamatorios y movilización precoz"},"clave_correcta":"B","comentario":"El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."}]}};
 /* MedQuizPro — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
 (function () {
   "use strict";
@@ -1033,35 +993,308 @@ html { scroll-behavior: smooth; scroll-padding-top: 88px; }
     pintar();
   });
 
-  /* ---------- filtro de bancos ---------- */
-  safe("filtro", function () {
-    var chips = document.querySelectorAll(".chip[data-filter]");
-    var tarjetas = document.querySelectorAll(".bank[data-exam]");
-    var vacio = document.getElementById("banksEmpty");
-    if (!chips.length || !tarjetas.length) return;
+  /* ---------- bancos por especialidad + simulador ----------
+     Cada especialidad lee su banco de bancos/<archivo>.json con fetch.
+     Formato: { especialidad, preguntas: [ { id, especialidad, examen_origen,
+     enunciado, opciones: { A: "...", B: "..." }, clave_correcta: "B", comentario } ] }.
+     Si la página se sirvió como archivo único (artifact.html), los bancos vienen
+     incrustados en window.MQP_BANCOS y no hace falta pedirlos. */
+  safe("bancos", function () {
+    var grid = document.getElementById("specs");
+    var vista = document.getElementById("simView");
+    if (!grid || !vista) return;
 
-    function aplicar(filtro) {
-      var visibles = 0;
-      for (var k = 0; k < tarjetas.length; k++) {
-        var ok = filtro === "todos" || tarjetas[k].getAttribute("data-exam") === filtro;
-        tarjetas[k].hidden = !ok;
-        if (ok) visibles++;
-      }
-      if (vacio) vacio.hidden = visibles > 0;
-    }
+    var I = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+    var ICONOS = {
+      corazon: '<path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.1a4.3 4.3 0 0 1 7.5 2.7C19.5 15.4 12 20 12 20z"/><path d="M4.5 12h3.2l1.6-2.6 2.6 5 1.7-2.4h5.9"/>',
+      pulmones: '<path d="M12 3v8m0 0-2.5 2.2M12 11l2.5 2.2"/><path d="M9 7.5C6.4 7.5 4 12.4 4 17c0 2 1.2 3 3 3s3-1.1 3-3V9.2"/><path d="M15 7.5c2.6 0 5 4.9 5 9.5 0 2-1.2 3-3 3s-3-1.1-3-3V9.2"/>',
+      estomago: '<path d="M9 3v4c0 2-3 3-3 7a6 6 0 0 0 6 6h1.5a5.5 5.5 0 0 0 5.5-5.5c0-3-2.6-4.4-4.8-3.3-1.8.9-3.2-.1-3.2-2.2V3"/>',
+      rinon: '<path d="M10 4C6.5 4 4 7.8 4 12s2.5 8 6 8c1.8 0 3-1.6 3-3.4 0-1.2-1-2.3-1-4.6s1-3.4 1-4.6C13 5.6 11.8 4 10 4z"/><path d="M12.5 12H16c2 0 3 1.6 3 3.6V21"/>',
+      tiroides: '<path d="M12 7v10"/><path d="M12 9.5C10.4 6.4 5 6.6 5 11.3c0 4.5 4.3 6 7 4.2"/><path d="M12 9.5c1.6-3.1 7-2.9 7 1.8 0 4.5-4.3 6-7 4.2"/>',
+      virus: '<circle cx="12" cy="12" r="4.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.2 2.2M16.2 16.2l2.2 2.2M5.6 18.4l2.2-2.2M16.2 7.8l2.2-2.2"/>',
+      cerebro: '<path d="M11 5.2A3 3 0 0 0 6 6.8a3 3 0 0 0-1.8 5.1A3 3 0 0 0 6.5 17 3 3 0 0 0 11 18.8z"/><path d="M13 5.2a3 3 0 0 1 5 1.6 3 3 0 0 1 1.8 5.1 3 3 0 0 1-2.3 5.1 3 3 0 0 1-4.5 1.8z"/>',
+      gota: '<path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.3 14.3A2.7 2.7 0 0 0 12 17"/>',
+      articulacion: '<path d="M8.5 3v5.5a3.5 3.5 0 0 0 7 0V3"/><path d="M8.5 21v-4.5a3.5 3.5 0 0 1 7 0V21"/><path d="M6 12h2M16 12h2"/>',
+      bebe: '<circle cx="12" cy="12.5" r="8"/><path d="M9.3 11h.01M14.7 11h.01"/><path d="M10 15a2.6 2.6 0 0 0 4 0"/><path d="M12 4.5c1.4.6 1.6 2 .4 2.6"/>',
+      femenino: '<circle cx="12" cy="9" r="5"/><path d="M12 14v7M9 18h6"/>',
+      bisturi: '<path d="M4 20l6.2-6.2"/><path d="M10.2 13.8 19 5c.9 3.4-1.1 7-5.4 8.9L12 15.6z"/>',
+      hueso: '<path d="M17 10c.7-.7 1.7 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .8.7 1.8 0 2.5l-7 7c-.7.7-1.7 0-2.5 0a2.5 2.5 0 0 0 0 5c.3 0 .5.2.5.5a2.5 2.5 0 1 0 5 0c0-.8-.7-1.8 0-2.5z"/>',
+      ojo: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+      mente: '<path d="M13 3a7 7 0 0 0-7 7c0 2 .8 3.6 2 4.8V21h7v-3h2a2 2 0 0 0 2-2v-2.5l1.8-.8-1.8-3A7 7 0 0 0 13 3z"/><path d="M11 10.5a2 2 0 1 1 2 2"/>',
+      grafico: '<path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/>',
+      matraz: '<path d="M9 3h6M10 3v6.2L5 18a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-8.8V3"/><path d="M7.4 15h9.2"/>'
+    };
 
-    for (var j = 0; j < chips.length; j++) {
-      (function (chip) {
-        chip.addEventListener("click", function () {
-          for (var m = 0; m < chips.length; m++) chips[m].setAttribute("aria-pressed", "false");
-          chip.setAttribute("aria-pressed", "true");
-          aplicar(chip.getAttribute("data-filter"));
+    var CATALOGO = [
+      { nombre: "Cardiología", archivo: "cardiologia", icono: "corazon" },
+      { nombre: "Neumología", archivo: "neumologia", icono: "pulmones" },
+      { nombre: "Gastroenterología", archivo: "gastroenterologia", icono: "estomago" },
+      { nombre: "Nefrología y Urología", archivo: "nefrologia", icono: "rinon" },
+      { nombre: "Endocrinología", archivo: "endocrinologia", icono: "tiroides" },
+      { nombre: "Infectología", archivo: "infectologia", icono: "virus" },
+      { nombre: "Neurología", archivo: "neurologia", icono: "cerebro" },
+      { nombre: "Hematología", archivo: "hematologia", icono: "gota" },
+      { nombre: "Reumatología y Dermatología", archivo: "reumatologia", icono: "articulacion" },
+      { nombre: "Pediatría y Neonatología", archivo: "pediatria", icono: "bebe" },
+      { nombre: "Ginecología y Obstetricia", archivo: "ginecologia", icono: "femenino" },
+      { nombre: "Cirugía General y Digestiva", archivo: "cirugia", icono: "bisturi" },
+      { nombre: "Traumatología y Ortopedia", archivo: "traumatologia", icono: "hueso" },
+      { nombre: "Oftalmología y Otorrinolaringología", archivo: "oftalmo_orl", icono: "ojo" },
+      { nombre: "Psiquiatría", archivo: "psiquiatria", icono: "mente" },
+      { nombre: "Salud Pública, Gestión y Epidemiología", archivo: "salud_publica", icono: "grafico" },
+      { nombre: "Ciencias Básicas", archivo: "ciencias_basicas", icono: "matraz" }
+    ];
+
+    var el = {
+      back: document.getElementById("svBack"),
+      score: document.getElementById("svScore"),
+      area: document.getElementById("svArea"),
+      exam: document.getElementById("svExam"),
+      counter: document.getElementById("svCounter"),
+      status: document.getElementById("svStatus"),
+      content: document.getElementById("svContent"),
+      stem: document.getElementById("svStem"),
+      options: document.getElementById("svOptions"),
+      feedback: document.getElementById("svFeedback"),
+      verdict: document.getElementById("svVerdict"),
+      why: document.getElementById("svWhy"),
+      prev: document.getElementById("svPrev"),
+      next: document.getElementById("svNext")
+    };
+
+    var cache = {};          // archivo -> promesa de preguntas normalizadas
+    var estados = {};        // archivo -> nodo de estado de la tarjeta
+    var actual = null;       // { esp, preguntas, i, respuestas }
+    var turno = 0;           // descarta respuestas de fetch que llegan tarde
+
+    /* Acepta { preguntas: [...] } o directamente [...]; opciones como objeto o arreglo. */
+    function normalizar(datos) {
+      var lista = Array.isArray(datos) ? datos : (datos && Array.isArray(datos.preguntas) ? datos.preguntas : null);
+      if (!lista) throw new Error("formato");
+      var salida = [];
+      for (var k = 0; k < lista.length; k++) {
+        var p = lista[k] || {};
+        var ops = [];
+        if (Array.isArray(p.opciones)) {
+          for (var j = 0; j < p.opciones.length; j++) ops.push({ letra: "ABCDE".charAt(j), texto: String(p.opciones[j]) });
+        } else if (p.opciones && typeof p.opciones === "object") {
+          var letras = Object.keys(p.opciones).sort();
+          for (var m = 0; m < letras.length; m++) ops.push({ letra: letras[m].toUpperCase(), texto: String(p.opciones[letras[m]]) });
+        }
+        if (!p.enunciado || ops.length < 2) continue;
+        salida.push({
+          id: p.id, especialidad: p.especialidad, examen: p.examen_origen || "",
+          enunciado: String(p.enunciado), opciones: ops,
+          clave: String(p.clave_correcta || "").trim().toUpperCase(),
+          comentario: p.comentario ? String(p.comentario) : ""
         });
-      })(chips[j]);
+      }
+      return salida;
     }
 
-    var activo = document.querySelector('.chip[aria-pressed="true"]');
-    aplicar(activo ? activo.getAttribute("data-filter") : "todos");
+    function cargar(archivo) {
+      if (cache[archivo]) return cache[archivo];
+      var incrustado = window.MQP_BANCOS && window.MQP_BANCOS[archivo];
+      var promesa = incrustado
+        ? Promise.resolve(incrustado)
+        : fetch("bancos/" + archivo + ".json", { cache: "no-cache" }).then(function (res) {
+            if (!res.ok) throw new Error("http " + res.status);
+            return res.json();   // si el servidor devuelve HTML (404 reescrito), esto falla y cae al catch
+          });
+      cache[archivo] = promesa.then(normalizar);
+      cache[archivo].catch(function () { delete cache[archivo]; });  // permite reintentar
+      return cache[archivo];
+    }
+
+    /* ----- cuadrícula ----- */
+    function pintarGrid() {
+      var frag = document.createDocumentFragment();
+      for (var k = 0; k < CATALOGO.length; k++) {
+        var esp = CATALOGO[k];
+        var card = document.createElement("article");
+        card.className = "spec";
+        card.innerHTML =
+          '<span class="spec__icon"><svg ' + I + '>' + ICONOS[esp.icono] + '</svg></span>' +
+          '<h3></h3><span class="spec__status">Banco disponible</span>' +
+          '<button class="btn btn--primary" type="button">Iniciar práctica</button>';
+        card.querySelector("h3").textContent = esp.nombre;
+        estados[esp.archivo] = card.querySelector(".spec__status");
+        (function (esp, btn) {
+          btn.setAttribute("aria-label", "Iniciar práctica de " + esp.nombre);
+          btn.addEventListener("click", function () { abrir(esp); });
+        })(esp, card.querySelector("button"));
+        frag.appendChild(card);
+      }
+      grid.appendChild(frag);
+    }
+
+    function actualizarEstado(archivo, preguntas, fallo) {
+      var nodo = estados[archivo];
+      if (!nodo) return;
+      if (fallo) {
+        nodo.className = "spec__status spec__status--off";
+        nodo.textContent = "No disponible por ahora";
+      } else if (!preguntas.length) {
+        nodo.className = "spec__status";
+        nodo.textContent = "Banco en preparación";
+      } else {
+        nodo.className = "spec__status spec__status--ok";
+        nodo.textContent = "Banco disponible · " + preguntas.length + (preguntas.length === 1 ? " pregunta" : " preguntas");
+      }
+    }
+
+    /* Cuenta las preguntas cuando la sección se acerca a la pantalla, no antes. */
+    function contarTodo() {
+      for (var k = 0; k < CATALOGO.length; k++) {
+        (function (archivo) {
+          cargar(archivo).then(
+            function (ps) { actualizarEstado(archivo, ps, false); },
+            function () { actualizarEstado(archivo, [], true); }
+          );
+        })(CATALOGO[k].archivo);
+      }
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entradas) {
+        if (entradas[0].isIntersecting) { io.disconnect(); contarTodo(); }
+      }, { rootMargin: "300px 0px" });
+      io.observe(grid);
+    } else {
+      contarTodo();
+    }
+
+    /* ----- simulador ----- */
+    function mostrarVista(simulador) {
+      grid.hidden = simulador;
+      vista.hidden = !simulador;
+      var seccion = document.getElementById("bancos");
+      if (seccion && seccion.scrollIntoView) seccion.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
+    }
+
+    function mensaje(texto) {
+      el.content.hidden = true;
+      el.status.hidden = false;
+      el.status.textContent = texto;
+      el.counter.textContent = "";
+      el.exam.hidden = true;
+      el.prev.disabled = true;
+      el.next.disabled = true;
+      el.score.textContent = "";
+    }
+
+    function abrir(esp) {
+      var mio = ++turno;
+      actual = null;
+      el.area.textContent = esp.nombre;
+      mensaje("Cargando el banco de " + esp.nombre + "…");
+      mostrarVista(true);
+      cargar(esp.archivo).then(function (preguntas) {
+        if (mio !== turno) return;
+        actualizarEstado(esp.archivo, preguntas, false);
+        if (!preguntas.length) { mensaje("Este banco todavía no tiene preguntas publicadas. Vuelve pronto."); return; }
+        actual = { esp: esp, preguntas: preguntas, i: 0, respuestas: [] };
+        pintarPregunta();
+      }, function () {
+        if (mio !== turno) return;
+        actualizarEstado(esp.archivo, [], true);
+        mensaje("No se pudo cargar el banco de " + esp.nombre + ". Revisa tu conexión e inténtalo de nuevo.");
+      });
+    }
+
+    function pintarPuntaje() {
+      var hechas = 0, bien = 0;
+      for (var k = 0; k < actual.preguntas.length; k++) {
+        var r = actual.respuestas[k];
+        if (r) { hechas++; if (r === actual.preguntas[k].clave) bien++; }
+      }
+      el.score.textContent = hechas ? ("Aciertos: " + bien + " de " + hechas + " respondidas") : "";
+    }
+
+    function pintarPregunta() {
+      var q = actual.preguntas[actual.i];
+      var total = actual.preguntas.length;
+      el.status.hidden = true;
+      el.content.hidden = false;
+      el.counter.textContent = "Pregunta " + (actual.i + 1) + " de " + total;
+      el.exam.hidden = !q.examen;
+      el.exam.textContent = q.examen;
+      el.stem.textContent = q.enunciado;
+
+      el.options.innerHTML = "";
+      for (var k = 0; k < q.opciones.length; k++) {
+        var li = document.createElement("li");
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "opt";
+        b.setAttribute("data-letra", q.opciones[k].letra);
+        var bub = document.createElement("span");
+        bub.className = "opt__bubble";
+        bub.textContent = q.opciones[k].letra;
+        var txt = document.createElement("span");
+        txt.className = "opt__text";
+        txt.textContent = q.opciones[k].texto;
+        b.appendChild(bub);
+        b.appendChild(txt);
+        li.appendChild(b);
+        el.options.appendChild(li);
+      }
+
+      var previa = actual.respuestas[actual.i];
+      if (previa) marcar(previa); else el.feedback.hidden = true;
+
+      el.prev.disabled = actual.i === 0;
+      el.next.disabled = actual.i >= total - 1;
+      pintarPuntaje();
+    }
+
+    function marcar(elegida) {
+      var q = actual.preguntas[actual.i];
+      var botones = el.options.querySelectorAll(".opt");
+      for (var k = 0; k < botones.length; k++) {
+        var letra = botones[k].getAttribute("data-letra");
+        botones[k].disabled = true;
+        if (letra === q.clave) botones[k].classList.add("opt--right");
+        else if (letra === elegida) botones[k].classList.add("opt--wrong");
+      }
+      var acerto = elegida === q.clave;
+      el.verdict.textContent = acerto
+        ? "Respuesta correcta"
+        : "Respuesta incorrecta · la correcta es la " + q.clave;
+      el.verdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
+      el.why.textContent = q.comentario || "Esta pregunta todavía no tiene comentario docente.";
+      el.feedback.hidden = false;
+    }
+
+    el.options.addEventListener("click", function (ev) {
+      var btn = ev.target.closest ? ev.target.closest(".opt") : null;
+      if (!btn || !actual || actual.respuestas[actual.i]) return;
+      var letra = btn.getAttribute("data-letra");
+      actual.respuestas[actual.i] = letra;
+      marcar(letra);
+      pintarPuntaje();
+      if (!el.next.disabled) el.next.focus();
+    });
+
+    el.prev.addEventListener("click", function () {
+      if (actual && actual.i > 0) { actual.i--; pintarPregunta(); }
+    });
+    el.next.addEventListener("click", function () {
+      if (actual && actual.i < actual.preguntas.length - 1) { actual.i++; pintarPregunta(); }
+    });
+
+    function cerrarSimulador() {
+      turno++;
+      actual = null;
+      grid.hidden = false;
+      vista.hidden = true;
+    }
+    el.back.addEventListener("click", function () { cerrarSimulador(); mostrarVista(false); });
+
+    /* "Bancos de preguntas" en el menú o el pie siempre regresa a la cuadrícula. */
+    var enlaces = document.querySelectorAll('a[href="#bancos"]');
+    for (var j = 0; j < enlaces.length; j++) enlaces[j].addEventListener("click", cerrarSimulador);
+
+    pintarGrid();
   });
 
   /* ---------- cuenta regresiva al próximo sábado 09:00 ---------- */

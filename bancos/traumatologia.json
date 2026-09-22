@@ -1,0 +1,21 @@
+{
+  "especialidad": "Traumatología y Ortopedia",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "TRA-001",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?",
+      "opciones": {
+        "A": "Alta sin inmovilización",
+        "B": "Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días",
+        "C": "Artroscopía de muñeca de urgencia",
+        "D": "Infiltración de corticoide",
+        "E": "Solo antiinflamatorios y movilización precoz"
+      },
+      "clave_correcta": "B",
+      "comentario": "El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."
+    }
+  ]
+}

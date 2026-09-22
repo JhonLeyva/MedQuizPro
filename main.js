@@ -164,35 +164,308 @@
     pintar();
   });
 
-  /* ---------- filtro de bancos ---------- */
-  safe("filtro", function () {
-    var chips = document.querySelectorAll(".chip[data-filter]");
-    var tarjetas = document.querySelectorAll(".bank[data-exam]");
-    var vacio = document.getElementById("banksEmpty");
-    if (!chips.length || !tarjetas.length) return;
+  /* ---------- bancos por especialidad + simulador ----------
+     Cada especialidad lee su banco de bancos/<archivo>.json con fetch.
+     Formato: { especialidad, preguntas: [ { id, especialidad, examen_origen,
+     enunciado, opciones: { A: "...", B: "..." }, clave_correcta: "B", comentario } ] }.
+     Si la página se sirvió como archivo único (artifact.html), los bancos vienen
+     incrustados en window.MQP_BANCOS y no hace falta pedirlos. */
+  safe("bancos", function () {
+    var grid = document.getElementById("specs");
+    var vista = document.getElementById("simView");
+    if (!grid || !vista) return;
 
-    function aplicar(filtro) {
-      var visibles = 0;
-      for (var k = 0; k < tarjetas.length; k++) {
-        var ok = filtro === "todos" || tarjetas[k].getAttribute("data-exam") === filtro;
-        tarjetas[k].hidden = !ok;
-        if (ok) visibles++;
-      }
-      if (vacio) vacio.hidden = visibles > 0;
-    }
+    var I = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+    var ICONOS = {
+      corazon: '<path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.1a4.3 4.3 0 0 1 7.5 2.7C19.5 15.4 12 20 12 20z"/><path d="M4.5 12h3.2l1.6-2.6 2.6 5 1.7-2.4h5.9"/>',
+      pulmones: '<path d="M12 3v8m0 0-2.5 2.2M12 11l2.5 2.2"/><path d="M9 7.5C6.4 7.5 4 12.4 4 17c0 2 1.2 3 3 3s3-1.1 3-3V9.2"/><path d="M15 7.5c2.6 0 5 4.9 5 9.5 0 2-1.2 3-3 3s-3-1.1-3-3V9.2"/>',
+      estomago: '<path d="M9 3v4c0 2-3 3-3 7a6 6 0 0 0 6 6h1.5a5.5 5.5 0 0 0 5.5-5.5c0-3-2.6-4.4-4.8-3.3-1.8.9-3.2-.1-3.2-2.2V3"/>',
+      rinon: '<path d="M10 4C6.5 4 4 7.8 4 12s2.5 8 6 8c1.8 0 3-1.6 3-3.4 0-1.2-1-2.3-1-4.6s1-3.4 1-4.6C13 5.6 11.8 4 10 4z"/><path d="M12.5 12H16c2 0 3 1.6 3 3.6V21"/>',
+      tiroides: '<path d="M12 7v10"/><path d="M12 9.5C10.4 6.4 5 6.6 5 11.3c0 4.5 4.3 6 7 4.2"/><path d="M12 9.5c1.6-3.1 7-2.9 7 1.8 0 4.5-4.3 6-7 4.2"/>',
+      virus: '<circle cx="12" cy="12" r="4.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.2 2.2M16.2 16.2l2.2 2.2M5.6 18.4l2.2-2.2M16.2 7.8l2.2-2.2"/>',
+      cerebro: '<path d="M11 5.2A3 3 0 0 0 6 6.8a3 3 0 0 0-1.8 5.1A3 3 0 0 0 6.5 17 3 3 0 0 0 11 18.8z"/><path d="M13 5.2a3 3 0 0 1 5 1.6 3 3 0 0 1 1.8 5.1 3 3 0 0 1-2.3 5.1 3 3 0 0 1-4.5 1.8z"/>',
+      gota: '<path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.3 14.3A2.7 2.7 0 0 0 12 17"/>',
+      articulacion: '<path d="M8.5 3v5.5a3.5 3.5 0 0 0 7 0V3"/><path d="M8.5 21v-4.5a3.5 3.5 0 0 1 7 0V21"/><path d="M6 12h2M16 12h2"/>',
+      bebe: '<circle cx="12" cy="12.5" r="8"/><path d="M9.3 11h.01M14.7 11h.01"/><path d="M10 15a2.6 2.6 0 0 0 4 0"/><path d="M12 4.5c1.4.6 1.6 2 .4 2.6"/>',
+      femenino: '<circle cx="12" cy="9" r="5"/><path d="M12 14v7M9 18h6"/>',
+      bisturi: '<path d="M4 20l6.2-6.2"/><path d="M10.2 13.8 19 5c.9 3.4-1.1 7-5.4 8.9L12 15.6z"/>',
+      hueso: '<path d="M17 10c.7-.7 1.7 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .8.7 1.8 0 2.5l-7 7c-.7.7-1.7 0-2.5 0a2.5 2.5 0 0 0 0 5c.3 0 .5.2.5.5a2.5 2.5 0 1 0 5 0c0-.8-.7-1.8 0-2.5z"/>',
+      ojo: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+      mente: '<path d="M13 3a7 7 0 0 0-7 7c0 2 .8 3.6 2 4.8V21h7v-3h2a2 2 0 0 0 2-2v-2.5l1.8-.8-1.8-3A7 7 0 0 0 13 3z"/><path d="M11 10.5a2 2 0 1 1 2 2"/>',
+      grafico: '<path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/>',
+      matraz: '<path d="M9 3h6M10 3v6.2L5 18a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-8.8V3"/><path d="M7.4 15h9.2"/>'
+    };
 
-    for (var j = 0; j < chips.length; j++) {
-      (function (chip) {
-        chip.addEventListener("click", function () {
-          for (var m = 0; m < chips.length; m++) chips[m].setAttribute("aria-pressed", "false");
-          chip.setAttribute("aria-pressed", "true");
-          aplicar(chip.getAttribute("data-filter"));
+    var CATALOGO = [
+      { nombre: "Cardiología", archivo: "cardiologia", icono: "corazon" },
+      { nombre: "Neumología", archivo: "neumologia", icono: "pulmones" },
+      { nombre: "Gastroenterología", archivo: "gastroenterologia", icono: "estomago" },
+      { nombre: "Nefrología y Urología", archivo: "nefrologia", icono: "rinon" },
+      { nombre: "Endocrinología", archivo: "endocrinologia", icono: "tiroides" },
+      { nombre: "Infectología", archivo: "infectologia", icono: "virus" },
+      { nombre: "Neurología", archivo: "neurologia", icono: "cerebro" },
+      { nombre: "Hematología", archivo: "hematologia", icono: "gota" },
+      { nombre: "Reumatología y Dermatología", archivo: "reumatologia", icono: "articulacion" },
+      { nombre: "Pediatría y Neonatología", archivo: "pediatria", icono: "bebe" },
+      { nombre: "Ginecología y Obstetricia", archivo: "ginecologia", icono: "femenino" },
+      { nombre: "Cirugía General y Digestiva", archivo: "cirugia", icono: "bisturi" },
+      { nombre: "Traumatología y Ortopedia", archivo: "traumatologia", icono: "hueso" },
+      { nombre: "Oftalmología y Otorrinolaringología", archivo: "oftalmo_orl", icono: "ojo" },
+      { nombre: "Psiquiatría", archivo: "psiquiatria", icono: "mente" },
+      { nombre: "Salud Pública, Gestión y Epidemiología", archivo: "salud_publica", icono: "grafico" },
+      { nombre: "Ciencias Básicas", archivo: "ciencias_basicas", icono: "matraz" }
+    ];
+
+    var el = {
+      back: document.getElementById("svBack"),
+      score: document.getElementById("svScore"),
+      area: document.getElementById("svArea"),
+      exam: document.getElementById("svExam"),
+      counter: document.getElementById("svCounter"),
+      status: document.getElementById("svStatus"),
+      content: document.getElementById("svContent"),
+      stem: document.getElementById("svStem"),
+      options: document.getElementById("svOptions"),
+      feedback: document.getElementById("svFeedback"),
+      verdict: document.getElementById("svVerdict"),
+      why: document.getElementById("svWhy"),
+      prev: document.getElementById("svPrev"),
+      next: document.getElementById("svNext")
+    };
+
+    var cache = {};          // archivo -> promesa de preguntas normalizadas
+    var estados = {};        // archivo -> nodo de estado de la tarjeta
+    var actual = null;       // { esp, preguntas, i, respuestas }
+    var turno = 0;           // descarta respuestas de fetch que llegan tarde
+
+    /* Acepta { preguntas: [...] } o directamente [...]; opciones como objeto o arreglo. */
+    function normalizar(datos) {
+      var lista = Array.isArray(datos) ? datos : (datos && Array.isArray(datos.preguntas) ? datos.preguntas : null);
+      if (!lista) throw new Error("formato");
+      var salida = [];
+      for (var k = 0; k < lista.length; k++) {
+        var p = lista[k] || {};
+        var ops = [];
+        if (Array.isArray(p.opciones)) {
+          for (var j = 0; j < p.opciones.length; j++) ops.push({ letra: "ABCDE".charAt(j), texto: String(p.opciones[j]) });
+        } else if (p.opciones && typeof p.opciones === "object") {
+          var letras = Object.keys(p.opciones).sort();
+          for (var m = 0; m < letras.length; m++) ops.push({ letra: letras[m].toUpperCase(), texto: String(p.opciones[letras[m]]) });
+        }
+        if (!p.enunciado || ops.length < 2) continue;
+        salida.push({
+          id: p.id, especialidad: p.especialidad, examen: p.examen_origen || "",
+          enunciado: String(p.enunciado), opciones: ops,
+          clave: String(p.clave_correcta || "").trim().toUpperCase(),
+          comentario: p.comentario ? String(p.comentario) : ""
         });
-      })(chips[j]);
+      }
+      return salida;
     }
 
-    var activo = document.querySelector('.chip[aria-pressed="true"]');
-    aplicar(activo ? activo.getAttribute("data-filter") : "todos");
+    function cargar(archivo) {
+      if (cache[archivo]) return cache[archivo];
+      var incrustado = window.MQP_BANCOS && window.MQP_BANCOS[archivo];
+      var promesa = incrustado
+        ? Promise.resolve(incrustado)
+        : fetch("bancos/" + archivo + ".json", { cache: "no-cache" }).then(function (res) {
+            if (!res.ok) throw new Error("http " + res.status);
+            return res.json();   // si el servidor devuelve HTML (404 reescrito), esto falla y cae al catch
+          });
+      cache[archivo] = promesa.then(normalizar);
+      cache[archivo].catch(function () { delete cache[archivo]; });  // permite reintentar
+      return cache[archivo];
+    }
+
+    /* ----- cuadrícula ----- */
+    function pintarGrid() {
+      var frag = document.createDocumentFragment();
+      for (var k = 0; k < CATALOGO.length; k++) {
+        var esp = CATALOGO[k];
+        var card = document.createElement("article");
+        card.className = "spec";
+        card.innerHTML =
+          '<span class="spec__icon"><svg ' + I + '>' + ICONOS[esp.icono] + '</svg></span>' +
+          '<h3></h3><span class="spec__status">Banco disponible</span>' +
+          '<button class="btn btn--primary" type="button">Iniciar práctica</button>';
+        card.querySelector("h3").textContent = esp.nombre;
+        estados[esp.archivo] = card.querySelector(".spec__status");
+        (function (esp, btn) {
+          btn.setAttribute("aria-label", "Iniciar práctica de " + esp.nombre);
+          btn.addEventListener("click", function () { abrir(esp); });
+        })(esp, card.querySelector("button"));
+        frag.appendChild(card);
+      }
+      grid.appendChild(frag);
+    }
+
+    function actualizarEstado(archivo, preguntas, fallo) {
+      var nodo = estados[archivo];
+      if (!nodo) return;
+      if (fallo) {
+        nodo.className = "spec__status spec__status--off";
+        nodo.textContent = "No disponible por ahora";
+      } else if (!preguntas.length) {
+        nodo.className = "spec__status";
+        nodo.textContent = "Banco en preparación";
+      } else {
+        nodo.className = "spec__status spec__status--ok";
+        nodo.textContent = "Banco disponible · " + preguntas.length + (preguntas.length === 1 ? " pregunta" : " preguntas");
+      }
+    }
+
+    /* Cuenta las preguntas cuando la sección se acerca a la pantalla, no antes. */
+    function contarTodo() {
+      for (var k = 0; k < CATALOGO.length; k++) {
+        (function (archivo) {
+          cargar(archivo).then(
+            function (ps) { actualizarEstado(archivo, ps, false); },
+            function () { actualizarEstado(archivo, [], true); }
+          );
+        })(CATALOGO[k].archivo);
+      }
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entradas) {
+        if (entradas[0].isIntersecting) { io.disconnect(); contarTodo(); }
+      }, { rootMargin: "300px 0px" });
+      io.observe(grid);
+    } else {
+      contarTodo();
+    }
+
+    /* ----- simulador ----- */
+    function mostrarVista(simulador) {
+      grid.hidden = simulador;
+      vista.hidden = !simulador;
+      var seccion = document.getElementById("bancos");
+      if (seccion && seccion.scrollIntoView) seccion.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
+    }
+
+    function mensaje(texto) {
+      el.content.hidden = true;
+      el.status.hidden = false;
+      el.status.textContent = texto;
+      el.counter.textContent = "";
+      el.exam.hidden = true;
+      el.prev.disabled = true;
+      el.next.disabled = true;
+      el.score.textContent = "";
+    }
+
+    function abrir(esp) {
+      var mio = ++turno;
+      actual = null;
+      el.area.textContent = esp.nombre;
+      mensaje("Cargando el banco de " + esp.nombre + "…");
+      mostrarVista(true);
+      cargar(esp.archivo).then(function (preguntas) {
+        if (mio !== turno) return;
+        actualizarEstado(esp.archivo, preguntas, false);
+        if (!preguntas.length) { mensaje("Este banco todavía no tiene preguntas publicadas. Vuelve pronto."); return; }
+        actual = { esp: esp, preguntas: preguntas, i: 0, respuestas: [] };
+        pintarPregunta();
+      }, function () {
+        if (mio !== turno) return;
+        actualizarEstado(esp.archivo, [], true);
+        mensaje("No se pudo cargar el banco de " + esp.nombre + ". Revisa tu conexión e inténtalo de nuevo.");
+      });
+    }
+
+    function pintarPuntaje() {
+      var hechas = 0, bien = 0;
+      for (var k = 0; k < actual.preguntas.length; k++) {
+        var r = actual.respuestas[k];
+        if (r) { hechas++; if (r === actual.preguntas[k].clave) bien++; }
+      }
+      el.score.textContent = hechas ? ("Aciertos: " + bien + " de " + hechas + " respondidas") : "";
+    }
+
+    function pintarPregunta() {
+      var q = actual.preguntas[actual.i];
+      var total = actual.preguntas.length;
+      el.status.hidden = true;
+      el.content.hidden = false;
+      el.counter.textContent = "Pregunta " + (actual.i + 1) + " de " + total;
+      el.exam.hidden = !q.examen;
+      el.exam.textContent = q.examen;
+      el.stem.textContent = q.enunciado;
+
+      el.options.innerHTML = "";
+      for (var k = 0; k < q.opciones.length; k++) {
+        var li = document.createElement("li");
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "opt";
+        b.setAttribute("data-letra", q.opciones[k].letra);
+        var bub = document.createElement("span");
+        bub.className = "opt__bubble";
+        bub.textContent = q.opciones[k].letra;
+        var txt = document.createElement("span");
+        txt.className = "opt__text";
+        txt.textContent = q.opciones[k].texto;
+        b.appendChild(bub);
+        b.appendChild(txt);
+        li.appendChild(b);
+        el.options.appendChild(li);
+      }
+
+      var previa = actual.respuestas[actual.i];
+      if (previa) marcar(previa); else el.feedback.hidden = true;
+
+      el.prev.disabled = actual.i === 0;
+      el.next.disabled = actual.i >= total - 1;
+      pintarPuntaje();
+    }
+
+    function marcar(elegida) {
+      var q = actual.preguntas[actual.i];
+      var botones = el.options.querySelectorAll(".opt");
+      for (var k = 0; k < botones.length; k++) {
+        var letra = botones[k].getAttribute("data-letra");
+        botones[k].disabled = true;
+        if (letra === q.clave) botones[k].classList.add("opt--right");
+        else if (letra === elegida) botones[k].classList.add("opt--wrong");
+      }
+      var acerto = elegida === q.clave;
+      el.verdict.textContent = acerto
+        ? "Respuesta correcta"
+        : "Respuesta incorrecta · la correcta es la " + q.clave;
+      el.verdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
+      el.why.textContent = q.comentario || "Esta pregunta todavía no tiene comentario docente.";
+      el.feedback.hidden = false;
+    }
+
+    el.options.addEventListener("click", function (ev) {
+      var btn = ev.target.closest ? ev.target.closest(".opt") : null;
+      if (!btn || !actual || actual.respuestas[actual.i]) return;
+      var letra = btn.getAttribute("data-letra");
+      actual.respuestas[actual.i] = letra;
+      marcar(letra);
+      pintarPuntaje();
+      if (!el.next.disabled) el.next.focus();
+    });
+
+    el.prev.addEventListener("click", function () {
+      if (actual && actual.i > 0) { actual.i--; pintarPregunta(); }
+    });
+    el.next.addEventListener("click", function () {
+      if (actual && actual.i < actual.preguntas.length - 1) { actual.i++; pintarPregunta(); }
+    });
+
+    function cerrarSimulador() {
+      turno++;
+      actual = null;
+      grid.hidden = false;
+      vista.hidden = true;
+    }
+    el.back.addEventListener("click", function () { cerrarSimulador(); mostrarVista(false); });
+
+    /* "Bancos de preguntas" en el menú o el pie siempre regresa a la cuadrícula. */
+    var enlaces = document.querySelectorAll('a[href="#bancos"]');
+    for (var j = 0; j < enlaces.length; j++) enlaces[j].addEventListener("click", cerrarSimulador);
+
+    pintarGrid();
   });
 
   /* ---------- cuenta regresiva al próximo sábado 09:00 ---------- */

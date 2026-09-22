@@ -1,0 +1,21 @@
+{
+  "especialidad": "Ginecología y Obstetricia",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "GIN-001",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Puérpera de 28 años, cuarto parto vaginal, presenta sangrado vaginal abundante 20 minutos después del alumbramiento. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa. ¿Cuál es la primera medida farmacológica?",
+      "opciones": {
+        "A": "Oxitocina endovenosa",
+        "B": "Misoprostol como única medida",
+        "C": "Ácido tranexámico como única medida",
+        "D": "Sulfato de magnesio",
+        "E": "Nifedipino oral"
+      },
+      "clave_correcta": "A",
+      "comentario": "Útero blando y sin contraer tras el parto es atonía uterina, la causa más frecuente de hemorragia postparto. Junto con el masaje uterino bimanual, el uterotónico de primera línea es la oxitocina. Si no responde se agregan ergometrina (contraindicada en hipertensas) o misoprostol, y el ácido tranexámico dentro de las primeras 3 horas. El sulfato de magnesio y el nifedipino relajan el útero y empeoran la atonía."
+    }
+  ]
+}

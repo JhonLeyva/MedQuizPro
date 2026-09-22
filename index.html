@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap">
-<link rel="stylesheet" href="styles.css?v=20260925">
+<link rel="stylesheet" href="styles.css?v=20260926">
 </head>
 <body>
 
@@ -88,121 +88,44 @@
     <div class="wrap">
       <div class="section__head reveal">
         <p class="eyebrow">Bancos de preguntas</p>
-        <h2>Elige el examen, luego el área que te está costando.</h2>
-        <p class="lead">Cada pregunta viene con su explicación, la fuente de referencia y el porcentaje de alumnos que la falló. Filtra por examen para ver los bancos disponibles.</p>
+        <h2>Elige la especialidad que te está costando.</h2>
+        <p class="lead">Casos clínicos tipo ENAM, Residentado Médico y EsSalud, ordenados por especialidad. Cada pregunta cierra con el comentario docente: el porqué de la respuesta y de los distractores.</p>
       </div>
 
-      <div class="chips reveal" role="group" aria-label="Filtrar bancos por examen">
-        <button class="chip" type="button" data-filter="todos" aria-pressed="false">Todos</button>
-        <button class="chip" type="button" data-filter="enam" aria-pressed="true">ENAM</button>
-        <button class="chip" type="button" data-filter="rm" aria-pressed="false">Residentado (RM)</button>
-        <button class="chip" type="button" data-filter="essalud" aria-pressed="false">EsSalud</button>
-      </div>
+      <!-- vista 1: cuadrícula de especialidades (la llena main.js desde el catálogo) -->
+      <div class="specs" id="specs" aria-label="Especialidades"></div>
 
-      <div class="banks" id="banks">
-        <!-- ENAM -->
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Medicina Interna</h3>
-          <p class="bank__meta">3 120 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:62%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 62 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Cirugía General</h3>
-          <p class="bank__meta">2 040 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:54%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 54 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Ginecología y Obstetricia</h3>
-          <p class="bank__meta">1 860 preguntas · actualizado jul 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:58%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 58 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Pediatría</h3>
-          <p class="bank__meta">1 740 preguntas · actualizado jul 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:66%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 66 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="enam">
-          <div class="bank__top"><span class="tag tag--mark">ENAM</span></div>
-          <h3>Salud Pública y Ciencias Básicas</h3>
-          <p class="bank__meta">1 410 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:71%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 71 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <!-- RM -->
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Banco RM · Medicina</h3>
-          <p class="bank__meta">1 250 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:48%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 48 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Banco RM · Cirugía</h3>
-          <p class="bank__meta">980 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:45%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 45 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Preguntas de años anteriores</h3>
-          <p class="bank__meta">1 600 preguntas · 2016 – 2025</p>
-          <div class="bar"><div class="bar__fill" style="width:52%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 52 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="rm">
-          <div class="bank__top"><span class="tag">RM</span></div>
-          <h3>Casos clínicos largos</h3>
-          <p class="bank__meta">640 preguntas · actualizado jun 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:41%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 41 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <!-- EsSalud -->
-        <article class="bank reveal" data-exam="essalud">
-          <div class="bank__top"><span class="tag">EsSalud</span></div>
-          <h3>Gestión y normativa</h3>
-          <p class="bank__meta">720 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:57%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 57 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="essalud">
-          <div class="bank__top"><span class="tag">EsSalud</span></div>
-          <h3>Atención primaria</h3>
-          <p class="bank__meta">860 preguntas · actualizado jul 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:63%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 63 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-        <article class="bank reveal" data-exam="essalud">
-          <div class="bank__top"><span class="tag">EsSalud</span></div>
-          <h3>Emergencias y urgencias</h3>
-          <p class="bank__meta">910 preguntas · actualizado ago 2026</p>
-          <div class="bar"><div class="bar__fill" style="width:50%"></div></div>
-          <p class="bank__meta">Dominio promedio de la comunidad: 50 %</p>
-          <a class="bank__link" href="#registro">Practicar este banco →</a>
-        </article>
-      </div>
+      <!-- vista 2: simulador de preguntas -->
+      <div class="sim-view" id="simView" hidden>
+        <div class="sim-view__bar">
+          <button class="btn btn--ghost" type="button" id="svBack">← Volver al menú de especialidades</button>
+          <span class="sim-view__score" id="svScore" aria-live="polite"></span>
+        </div>
 
-      <p class="empty" id="banksEmpty" hidden>Todavía no hay bancos publicados para este examen.</p>
-      <p class="placeholder-note">Contenido de ejemplo para la demostración. Las cifras y los bancos son marcadores de posición.</p>
+        <div class="quiz quiz--wide" id="svQuiz" aria-live="polite">
+          <div class="quiz__head">
+            <span class="tag" id="svArea">Especialidad</span>
+            <span class="tag tag--mark" id="svExam" hidden></span>
+            <span class="quiz__counter" id="svCounter"></span>
+          </div>
+          <div class="quiz__body">
+            <p class="sim-view__status" id="svStatus" hidden></p>
+            <div id="svContent" hidden>
+              <p class="quiz__stem" id="svStem"></p>
+              <ul class="quiz__options" id="svOptions"></ul>
+              <div class="quiz__feedback" id="svFeedback" hidden>
+                <p class="quiz__verdict" id="svVerdict"></p>
+                <p class="quiz__label">Comentario docente</p>
+                <p class="quiz__why" id="svWhy"></p>
+              </div>
+            </div>
+            <div class="quiz__foot sim-view__nav">
+              <button class="btn btn--ghost" type="button" id="svPrev">← Pregunta anterior</button>
+              <button class="btn btn--mark" type="button" id="svNext">Siguiente pregunta →</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -451,6 +374,6 @@
 </section>
 <!-- chat:fin -->
 
-<script defer src="main.js?v=20260925"></script>
+<script defer src="main.js?v=20260926"></script>
 </body>
 </html>
