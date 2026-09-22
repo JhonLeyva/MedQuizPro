@@ -1,0 +1,21 @@
+{
+  "especialidad": "Pediatría y Neonatología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "PED-001",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Recién nacido a término de 18 horas de vida, con lactancia materna exclusiva, presenta ictericia que llega hasta el abdomen. La madre es del grupo O Rh positivo y el neonato es A Rh positivo. ¿Cuál es la causa más probable?",
+      "opciones": {
+        "A": "Ictericia fisiológica",
+        "B": "Ictericia por leche materna",
+        "C": "Enfermedad hemolítica por incompatibilidad ABO",
+        "D": "Atresia de vías biliares",
+        "E": "Síndrome de Gilbert"
+      },
+      "clave_correcta": "C",
+      "comentario": "La ictericia en las primeras 24 horas de vida siempre es patológica y lo más frecuente es la hemólisis. Madre O con hijo A o B es la combinación típica de incompatibilidad ABO. La ictericia fisiológica aparece después de las 24 horas y la de la leche materna después de la primera semana. Se debe medir la bilirrubina, hacer Coombs directo y valorar la fototerapia según las curvas de riesgo."
+    }
+  ]
+}

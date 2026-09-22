@@ -1,0 +1,21 @@
+{
+  "especialidad": "Reumatología y Dermatología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "REU-001",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?",
+      "opciones": {
+        "A": "Pirofosfato de calcio",
+        "B": "Urato monosódico",
+        "C": "Hidroxiapatita",
+        "D": "Oxalato de calcio",
+        "E": "Colesterol"
+      },
+      "clave_correcta": "B",
+      "comentario": "Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."
+    }
+  ]
+}
