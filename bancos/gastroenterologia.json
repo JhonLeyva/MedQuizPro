@@ -92,6 +92,44 @@
       "comentario": "Por los síntomas crónicos sugestivos de neoplasia, edad >50 años y el antecedente genético de alto riesgo (poliposis familiar), el estudio de elección obligatoria es la colonoscopia total para despistaje de cáncer colorrectal.",
       "tema": "Cáncer colorrectal",
       "año": 2020
+    },
+    {
+      "id": "GAS-006",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años con epigastralgia desde hace una semana, que calma con alimentos y antiácidos. Desde ayer presenta heces negras. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Reflujo gastroesofágico",
+        "Gastritis aguda",
+        "Úlcera gastroduodenal",
+        "Esófago de Barrett",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor epigástrico rítmico que calma con la ingesta y la aparición de melena orientan hacia una hemorragia digestiva alta secundaria a úlcera gastroduodenal activa.",
+      "comentario": "El dolor epigástrico rítmico que calma con la ingesta y la aparición de melena orientan hacia una hemorragia digestiva alta secundaria a úlcera gastroduodenal activa.",
+      "tema": "Hemorragia digestiva alta",
+      "año": 2020
+    },
+    {
+      "id": "GAS-007",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 48 años, acude a emergencia por dolor, distensión abdominal y hematemesis de aproximadamente 1,200 ml. Antecedente: alcoholismo crónico. Al examen: PA 80/50 mmHg, FC 110x', palmas hepáticas, ictericia, Traube ocupado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Cáncer gástrico",
+        "Síndrome Mallory Weiss",
+        "Diverticulosis",
+        "Várices esofágicas sangrantes",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los estigmas de hepatopatía crónica (palmas hepáticas, esplenomegalia) asociados a hemorragia digestiva alta masiva e inestabilidad hemodinámica corresponden a sangrado por várices esofágicas por hipertensión portal.",
+      "comentario": "Los estigmas de hepatopatía crónica (palmas hepáticas, esplenomegalia) asociados a hemorragia digestiva alta masiva e inestabilidad hemodinámica corresponden a sangrado por várices esofágicas por hipertensión portal.",
+      "tema": "Hemorragia digestiva variceal",
+      "año": 2020
     }
   ]
 }

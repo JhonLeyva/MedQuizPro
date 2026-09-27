@@ -35,6 +35,25 @@
       "comentario": "La anemia microcítica (VCM disminuido) asociada a niveles bajos de ferritina sérica (agotamiento de reservas) es el perfil clásico de la anemia ferropénica.",
       "tema": "Anemias",
       "año": 2020
+    },
+    {
+      "id": "HEM-003",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años con anorexia, pérdida de peso y diarrea crónica. Antecedente de fiebre tifoidea complicada hace 4 años que obligó a resección del íleon terminal. Al examen: palidez marcada, glositis, queilosis e ictericia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Anemia megaloblástica",
+        "Talasemia",
+        "Anemia ferropénica",
+        "Esferocitosis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La resección del íleon terminal elimina el sitio anatómico de absorción del complejo vitamina B12-factor intrínseco, desencadenando un déficit de cobalamina que se manifiesta como anemia megaloblástica con glositis e ictericia hemolítica intramedular.",
+      "comentario": "La resección del íleon terminal elimina el sitio anatómico de absorción del complejo vitamina B12-factor intrínseco, desencadenando un déficit de cobalamina que se manifiesta como anemia megaloblástica con glositis e ictericia hemolítica intramedular.",
+      "tema": "Anemias megaloblásticas",
+      "año": 2020
     }
   ]
 }

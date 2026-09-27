@@ -92,6 +92,44 @@
       "comentario": "En un paciente con VIH sin tratamiento, la disnea insidiosa, tos seca, infiltrado intersticial bilateral en bases y DHL significativamente elevada apuntan clásicamente a neumonía por Pneumocystis jirovecii.",
       "tema": "Infecciones oportunistas en VIH",
       "año": 2020
+    },
+    {
+      "id": "INF-006",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón mordido por flebótomo en la selva, 7 días después aparece lesión ulcerada con bordes elevados y duros, base limpia en pierna izquierda. Se sospecha leishmaniasis cutánea. ¿Cuál es el tratamiento inicial de elección?",
+      "opciones": [
+        "Miltefosina",
+        "Anfotericina B",
+        "Paromomicina",
+        "Antimonio pentavalente",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el Perú, la norma técnica nacional establece que los antimoniales pentavalentes (antimoniato de meglumina o estibogluconato de sodio) continúan siendo el tratamiento de primera línea de elección para la leishmaniasis cutánea.",
+      "comentario": "En el Perú, la norma técnica nacional establece que los antimoniales pentavalentes (antimoniato de meglumina o estibogluconato de sodio) continúan siendo el tratamiento de primera línea de elección para la leishmaniasis cutánea.",
+      "tema": "Leishmaniasis",
+      "año": 2020
+    },
+    {
+      "id": "INF-007",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años de Iquitos, acude con fiebre alta, escalofríos, cefalea, dolor abdominal, mialgias. Examen: pálido, ictérico, picaduras en extremidades, esplenomegalia. Hb: 7 g/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Zika",
+        "Leptospirosis",
+        "Dengue",
+        "Malaria",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Fiebre paroxística con escalofríos, ictericia hemolítica, anemia grave y esplenomegalia en un paciente procedente de la Amazonía peruana (Iquitos) señalan el diagnóstico presuntivo de malaria.",
+      "comentario": "Fiebre paroxística con escalofríos, ictericia hemolítica, anemia grave y esplenomegalia en un paciente procedente de la Amazonía peruana (Iquitos) señalan el diagnóstico presuntivo de malaria.",
+      "tema": "Malaria",
+      "año": 2020
     }
   ]
 }

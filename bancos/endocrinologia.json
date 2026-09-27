@@ -73,6 +73,25 @@
       "comentario": "Para evaluar de forma dinámica la capacidad de secreción máxima de insulina por las células beta pancreáticas frente a una sobrecarga directa, la prueba indicada es la prueba de tolerancia oral a la glucosa (PTOG).",
       "tema": "Diabetes Mellitus",
       "año": 2020
+    },
+    {
+      "id": "END-005",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años con intolerancia al frío, estreñimiento, piel seca y áspera desde hace 4 meses. Laboratorio: TSH elevada, T4 libre baja, colesterol total 250 mg/dL, triglicéridos 200 mg/dL. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Fenofibrato",
+        "Ezetimibe",
+        "Estatinas",
+        "Levotiroxina",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.",
+      "comentario": "La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.",
+      "tema": "Trastornos tiroideos",
+      "año": 2020
     }
   ]
 }

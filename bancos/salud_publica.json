@@ -149,6 +149,158 @@
       "comentario": "Según el Plan Nacional de Reducción y Control de la Anemia Materno Infantil en Perú, el abordaje es multisectorial e integral, recayendo la responsabilidad de la tamización, educación y seguimiento en todo el equipo de salud del establecimiento.",
       "tema": "Políticas de Salud Pública",
       "año": 2020
+    },
+    {
+      "id": "SP-009",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años, en consulta ambulatoria, que junto con sus padres no autorizan un procedimiento necesario para conocer en forma definitiva el diagnóstico de su enfermedad, hecho que se registra en la historia clínica y lo firma el padre. ¿Cuál es la actitud del médico frente a esta negativa?",
+      "opciones": [
+        "Llama a la fiscalía",
+        "Lo refiere a otro hospital",
+        "No realiza procedimiento",
+        "Realiza el procedimiento",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cuando la negativa de los tutores pone en riesgo la salud, integridad o vida del menor de edad, prima el principio del interés superior del niño; el médico debe poner el caso en conocimiento del Ministerio Público (Fiscalía de Familia) para la autorización correspondiente.",
+      "comentario": "Cuando la negativa de los tutores pone en riesgo la salud, integridad o vida del menor de edad, prima el principio del interés superior del niño; el médico debe poner el caso en conocimiento del Ministerio Público (Fiscalía de Familia) para la autorización correspondiente.",
+      "tema": "Aspectos legales y bioética",
+      "año": 2020
+    },
+    {
+      "id": "SP-010",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años con índice de masa corporal de 35 y glucemia de 150 mg/dL. Inicia tratamiento farmacológico junto con programa educativo estructurado. ¿Qué nivel de prevención se está aplicando?",
+      "opciones": [
+        "Primario",
+        "Secundario",
+        "Cuaternario",
+        "Terciario",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La prevención secundaria comprende la detección precoz y el tratamiento oportuno y temprano en fases asintomáticas o iniciales de una enfermedad ya establecida para evitar su progresión.",
+      "comentario": "La prevención secundaria comprende la detección precoz y el tratamiento oportuno y temprano en fases asintomáticas o iniciales de una enfermedad ya establecida para evitar su progresión.",
+      "tema": "Niveles de prevención",
+      "año": 2020
+    },
+    {
+      "id": "SP-011",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Aún no concluye el primer trimestre del año y es la quinta gestante a término que acude al Centro de Salud desde localidades a menos de 2 horas de distancia sin ningún control prenatal. ¿Qué actividad prioritaria debe implementar el equipo de salud?",
+      "opciones": [
+        "Diseño y aplicación de indicadores",
+        "Referencia y contrarreferencia",
+        "Captación y seguimiento",
+        "Supervisión y evaluación",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La captación precoz comunitaria y el seguimiento activo mediante visitas domiciliarias resuelven la falta de adherencia y previenen que las gestantes lleguen sin atención prenatal a su parto.",
+      "comentario": "La captación precoz comunitaria y el seguimiento activo mediante visitas domiciliarias resuelven la falta de adherencia y previenen que las gestantes lleguen sin atención prenatal a su parto.",
+      "tema": "Atención primaria y control prenatal",
+      "año": 2020
+    },
+    {
+      "id": "SP-012",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es la población usuaria de las IPRESS del Seguro Social del Perú (EsSalud)?",
+      "opciones": [
+        "Población con capacidad de pago alta",
+        "Trabajadores del sector formal y sus dependientes",
+        "Militares, policías y sus dependientes",
+        "Población pobre con seguro público",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "EsSalud brinda cobertura contributiva a los trabajadores formales y sus derechohabientes (cónyuge/concubino e hijos menores de edad).",
+      "comentario": "EsSalud brinda cobertura contributiva a los trabajadores formales y sus derechohabientes (cónyuge/concubino e hijos menores de edad).",
+      "tema": "Organización del sistema de salud",
+      "año": 2020
+    },
+    {
+      "id": "SP-013",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "El distrito A usualmente presenta 2-3 casos de enfermedad diarreica aguda por semana epidemiológica. Sin embargo, en la semana 5 del 2020 se presentaron 100 casos y desde la semana 6 volvieron a presentarse solo 2 casos por semana. ¿Cómo se define lo ocurrido en la semana 5 del 2020 en el distrito A?",
+      "opciones": [
+        "Brote",
+        "Pandemia",
+        "Endemia",
+        "Letalidad",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El incremento inhabitual, repentino y circunscrito en el número de casos por encima del nivel endémico basal o esperado en un área geográfica determinada constituye la definición epidemiológica de brote.",
+      "comentario": "El incremento inhabitual, repentino y circunscrito en el número de casos por encima del nivel endémico basal o esperado en un área geográfica determinada constituye la definición epidemiológica de brote.",
+      "tema": "Conceptos básicos de vigilancia",
+      "año": 2020
+    },
+    {
+      "id": "SP-014",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En una zona endémica de tuberculosis, el reporte de vigilancia del VIH muestra incremento reciente y deficiencia en la terapia preventiva para TB en este grupo. ¿Qué se espera respecto a la incidencia de coinfección TB-VIH?",
+      "opciones": [
+        "Latente",
+        "Disminuya",
+        "Aumenta",
+        "Indiferente",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La falta de terapia preventiva con isoniacida (TPI) en personas que viven con VIH dentro de áreas endémicas favorece la reactivación y primoinfección acelerada, incrementando directamente la incidencia de coinfección activa TB-VIH.",
+      "comentario": "La falta de terapia preventiva con isoniacida (TPI) en personas que viven con VIH dentro de áreas endémicas favorece la reactivación y primoinfección acelerada, incrementando directamente la incidencia de coinfección activa TB-VIH.",
+      "tema": "Epidemiología de enfermedades transmisibles",
+      "año": 2020
+    },
+    {
+      "id": "SP-015",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente posoperada por embarazo ectópico complicado. Los padres, que aseguran que la menor no tiene vida sexual, preguntan por el diagnóstico. ¿Cuál es la conducta adecuada?",
+      "opciones": [
+        "Cambiar el diagnóstico para evitar conflicto",
+        "Negarse a brindar información",
+        "Derivar al área social",
+        "Informar verazmente el diagnóstico y pronóstico",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La relación médica exige honestidad, veracidad y objetividad con los padres o tutores legales respetando el bienestar de la paciente, informando con precisión el cuadro clínico real y pronóstico.",
+      "comentario": "La relación médica exige honestidad, veracidad y objetividad con los padres o tutores legales respetando el bienestar de la paciente, informando con precisión el cuadro clínico real y pronóstico.",
+      "tema": "Bioética médica",
+      "año": 2020
+    },
+    {
+      "id": "SP-016",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 22 años, conviviente, con dolor orofaríngeo y lesiones equimóticas en brazos y tórax causadas por elementos externos. Examen muestra labilidad emocional y ansiedad. Usted debe sospechar:",
+      "opciones": [
+        "Hemofilia A",
+        "Coagulación intravascular diseminada",
+        "Violencia familiar",
+        "Trombocitopenia inmune",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las equimosis de origen traumático externo asociadas a signos de sofocación cervical/orofaríngea y compromiso emocional reactivo en una mujer conviviente constituyen un cuadro clínico de sospecha directa de violencia familiar o de pareja.",
+      "comentario": "Las equimosis de origen traumático externo asociadas a signos de sofocación cervical/orofaríngea y compromiso emocional reactivo en una mujer conviviente constituyen un cuadro clínico de sospecha directa de violencia familiar o de pareja.",
+      "tema": "Violencia basada en género",
+      "año": 2020
     }
   ]
 }

@@ -92,6 +92,25 @@
       "comentario": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
       "tema": "Infecciones parasitarias de la piel",
       "año": 2020
+    },
+    {
+      "id": "REU-006",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 25 años presenta lesiones pápulo eritematosas y pústulas dolorosas de repetición alrededor de los folículos pilosos en la región de la barba. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Rifaximina",
+        "Amikacina",
+        "Dicloxacilina",
+        "Claritromicina",
+        "Paracetamol"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
+      "comentario": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
+      "tema": "Infecciones bacterianas de piel",
+      "año": 2020
     }
   ]
 }

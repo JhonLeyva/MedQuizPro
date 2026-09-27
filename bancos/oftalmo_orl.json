@@ -54,6 +54,25 @@
       "comentario": "Epífora, fotofobia, blefaroespasmo y edema corneal (pérdida de brillo) junto a hipertensión ocular definen el glaucoma congénito. Su tratamiento de elección es netamente quirúrgico mediante goniotomía.",
       "tema": "Glaucoma",
       "año": 2020
+    },
+    {
+      "id": "OFT-004",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 50 años, hace una hora sufre golpe en nariz y presenta sangrado nasal. Al examen: hemorragia activa, se le realiza taponamiento anterior. Después de 2 horas presenta vómitos con sangre. ¿Cuál sería la acción a seguir?",
+      "opciones": [
+        "Derivar a especialista para taponamiento posterior",
+        "Proceder a cauterización química",
+        "Administrar vasoconstrictor tópico",
+        "Administrar coagulantes en dosis máxima",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
+      "comentario": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
+      "tema": "Epistaxis",
+      "año": 2020
     }
   ]
 }

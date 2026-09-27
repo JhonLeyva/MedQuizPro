@@ -16,6 +16,44 @@
       },
       "clave_correcta": "A",
       "comentario": "Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."
+    },
+    {
+      "id": "CB-002",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 62 años con diabetes mellitus desde hace 4 años y dislipidemia mixta desde hace 2 años, tratado con metformina 1,000 mg, atorvastatina 20 mg/día y gemfibrozilo 600 mg/día junto con aspirina 100 mg/día. Refiere dolores musculares en miembros inferiores desde hace 2 meses, que le dificultan la marcha. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Mialgias por medicamentos",
+        "Artrosis de rodillas",
+        "Polineuropatía diabética",
+        "Gota aguda",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.",
+      "comentario": "La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.",
+      "tema": "Toxicidad farmacológica",
+      "año": 2020
+    },
+    {
+      "id": "CB-003",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años traída a emergencia luego de encontrarla inconsciente en su trabajo en un invernadero. Examen: miosis, sialorrea, sudoración, roncantes diseminados, bradicardia. ¿Cuál es el fármaco de elección en este caso?",
+      "opciones": [
+        "Salbutamol",
+        "Flumazenilo",
+        "Epinefrina",
+        "Atropina sulfato",
+        "Ceftriaxona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.",
+      "comentario": "El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.",
+      "tema": "Toxicología clínica",
+      "año": 2020
     }
   ]
 }

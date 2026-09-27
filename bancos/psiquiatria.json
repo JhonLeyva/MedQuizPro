@@ -54,6 +54,44 @@
       "comentario": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
       "tema": "Trastornos ácido-base y psiquiatría",
       "año": 2020
+    },
+    {
+      "id": "PSI-004",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años traída a emergencia por pérdida de conciencia. Examen: no responde, bradipnea y respiración superficial. Familiares refieren aislamiento, llanto, insomnio y falta de aseo tras agresión en el colegio hace 3 semanas. Madre consume ansiolíticos. Se sospecha intento suicida. ¿Cuál es el fármaco adecuado?",
+      "opciones": [
+        "Atropina",
+        "Naloxona",
+        "Flumazenilo",
+        "Epinefrina",
+        "Ibuprofeno"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.",
+      "comentario": "Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.",
+      "tema": "Urgencias toxicológicas",
+      "año": 2020
+    },
+    {
+      "id": "PSI-005",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 24 años con lesiones cortantes autoinfligidas tras ruptura sentimental. Refiere que lo hizo para que su enamorada regresara. La madre informa que ya antes tomó clonazepam en disputas de pareja. Se considera un caso de:",
+      "opciones": [
+        "Intento suicida",
+        "Gesto suicida",
+        "Depresión",
+        "Riesgo suicida",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
+      "comentario": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
+      "tema": "Urgencias psiquiátricas",
+      "año": 2020
     }
   ]
 }

@@ -84,6 +84,63 @@
       "comentario": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
       "tema": "Cardiopatías congénitas",
       "año": 2020
+    },
+    {
+      "id": "CAR-006",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 64 años acude a Emergencia con dolor retroesternal intenso de 2 horas de evolución, fumador crónico, con dislipidemia mixta y sedentarismo. EKG: elevación del ST en derivaciones II, III, aVF. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Angina de pecho",
+        "Disección de aorta",
+        "Infarto de miocardio",
+        "Espasmo esofágico",
+        "Prednisona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).",
+      "comentario": "La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).",
+      "tema": "Síndrome coronario agudo",
+      "año": 2020
+    },
+    {
+      "id": "CAR-007",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, con antecedentes de amigdalitis supurada repetida en adolescencia. Presenta disnea a medianos esfuerzos. Al examen: PA 110/60 mmHg, FC 80x', pulso deficitario, soplo diastólico mitral. ¿Cuál es el fármaco de elección para la prevención de eventos cardioembólicos?",
+      "opciones": [
+        "Digoxina",
+        "Clopidogrel",
+        "Warfarina",
+        "Bisoprolol",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.",
+      "comentario": "La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.",
+      "tema": "Valvulopatías",
+      "año": 2020
+    },
+    {
+      "id": "CAR-008",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 58 años, del sur del Perú, acude por palpitaciones seguidas de síncope. EKG: taquicardia ventricular no sostenida con bloqueo completo de rama derecha. Se sospecha miocardiopatía. ¿Cuál es la primera terapia de elección?",
+      "opciones": [
+        "Propafenona",
+        "Betabloqueadores",
+        "Amiodarona",
+        "Desfibrilador automático",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
+      "comentario": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
+      "tema": "Arritmias ventriculares y Chagas",
+      "año": 2020
     }
   ]
 }

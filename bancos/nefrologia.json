@@ -54,6 +54,82 @@
       "comentario": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
       "tema": "Infecciones del tracto urinario",
       "año": 2020
+    },
+    {
+      "id": "NEF-004",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 7 años presenta hipertensión arterial, edema palpebral, hematuria, proteinuria leve y complemento C3 bajo. Antecedente de faringoamigdalitis hace 10 días. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Glomeruloesclerosis",
+        "Insuficiencia renal",
+        "Glomerulonefritis",
+        "Nefrosis lipoidea",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.",
+      "comentario": "La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.",
+      "tema": "Síndrome nefrítico",
+      "año": 2020
+    },
+    {
+      "id": "NEF-005",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 6 años con edema bipalpebral y pretibial, sedimento urinario con proteínas (+++), filtración glomerular 90 ml/min/1.73m2, albúmina sérica 2 g/dL, creatinina 0.8 mg/dL y sodio 130 mEq/L. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Insuficiencia renal aguda",
+        "Insuficiencia renal crónica",
+        "Síndrome nefrítico",
+        "Síndrome nefrótico",
+        "Apendicitis aguda"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.",
+      "comentario": "La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.",
+      "tema": "Síndrome nefrótico",
+      "año": 2020
+    },
+    {
+      "id": "NEF-006",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Obrero traído a emergencia tras sufrir aplastamiento por caída de pared. Llega inconsciente con múltiples hematomas en tórax y miembros. Dos días después presenta 200 ml de orina en 24 h, creatinina 2.4 mg/dL, ácido úrico 10 mg/dL, CPK: 1,500 U/L. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Fracaso renal por rabdomiólisis",
+        "Fracaso renal por uratos",
+        "Azoemia prerrenal",
+        "Necrosis tubular aguda",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.",
+      "comentario": "El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.",
+      "tema": "Insuficiencia renal aguda",
+      "año": 2020
+    },
+    {
+      "id": "NEF-007",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con edema progresivo de piernas y orina espumosa desde hace un mes. PA: 130/80 mmHg. Anasarca. Albuminuria 3.9 g/día, albúmina sérica 2.9 g/dL, triglicéridos 400 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome nefrótico",
+        "Necrosis tubular aguda",
+        "Pielonefritis crónica",
+        "Síndrome nefrítico",
+        "Tuberculosis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
+      "comentario": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
+      "tema": "Glomerulopatías",
+      "año": 2020
     }
   ]
 }

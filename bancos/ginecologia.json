@@ -187,6 +187,101 @@
       "comentario": "Una gestación pretérmino en trabajo de parto incipiente y con presentación podálica implica un alto riesgo obstétrico. Un centro de salud primario no tiene la capacidad resolutiva, por lo que la derivación es perentoria.",
       "tema": "Distocias de presentación",
       "año": 2020
+    },
+    {
+      "id": "GIN-011",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 42 semanas acude por disminución de movimientos fetales. Ecografía: feto LCD, peso 3,756 g, circunferencia abdominal disminuida, piel arrugada, placenta IIIB, oligoamnios severo y latidos fetales con desaceleraciones repetidas. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Observación",
+        "Solicitar test stressante",
+        "Inducción de parto vaginal",
+        "Cesárea inmediata",
+        "Toracocentesis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En un embarazo postérmino con oligoamnios severo, calcificación placentaria e hipoxia fetal confirmada por desaceleraciones repetidas, la inducción está contraindicada; procede una cesárea de emergencia.",
+      "comentario": "En un embarazo postérmino con oligoamnios severo, calcificación placentaria e hipoxia fetal confirmada por desaceleraciones repetidas, la inducción está contraindicada; procede una cesárea de emergencia.",
+      "tema": "Embarazo en vías de prolongación",
+      "año": 2020
+    },
+    {
+      "id": "GIN-012",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 32 semanas presenta contracciones uterinas cada 5 minutos. Tacto vaginal: dilatación 0, borramiento 30%, estación -3. Se decide tratamiento para maduración pulmonar. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Cortisol",
+        "Hidrocortisona",
+        "Betametasona",
+        "Prednisona",
+        "Insulina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El glucocorticoide de elección para inducir maduración pulmonar fetal en amenaza de parto pretérmino es la betametasona (12 mg IM cada 24 horas por 2 dosis) debido a su excelente paso transplacentario.",
+      "comentario": "El glucocorticoide de elección para inducir maduración pulmonar fetal en amenaza de parto pretérmino es la betametasona (12 mg IM cada 24 horas por 2 dosis) debido a su excelente paso transplacentario.",
+      "tema": "Parto pretérmino",
+      "año": 2020
+    },
+    {
+      "id": "GIN-013",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años acude a emergencia por dolor en hipogastrio, sangrado irregular moderado y dismenorrea. FUR: hace 6 días. Usuaria de anticonceptivos orales combinados y con múltiples parejas sexuales. Al examen: dolor a la movilización del cérvix. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Pólipo cervical",
+        "Quiste de ovario",
+        "Mioma subseroso",
+        "Enfermedad pélvica inflamatoria",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El antecedente de promiscuidad, dolor hipogástrico y dolor patognomónico a la movilización cervical (signo de Frenkel positivo) orientan el diagnóstico hacia una enfermedad pélvica inflamatoria aguda.",
+      "comentario": "El antecedente de promiscuidad, dolor hipogástrico y dolor patognomónico a la movilización cervical (signo de Frenkel positivo) orientan el diagnóstico hacia una enfermedad pélvica inflamatoria aguda.",
+      "tema": "Infecciones ginecológicas",
+      "año": 2020
+    },
+    {
+      "id": "GIN-014",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 9 semanas presenta dolor hipogástrico leve y sangrado vaginal escaso desde hace 6 horas. G3P2002. Cérvix cerrado. Ecografía: gestación intrauterina única con latido fetal 165 lpm. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Aborto en curso",
+        "Amenaza de aborto",
+        "Aborto inevitable",
+        "Aborto frustro",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Metrorragia en la primera mitad del embarazo con cuello uterino cerrado, membranas íntegras y embrión vital con frecuencia cardíaca verificada corresponde a una amenaza de aborto.",
+      "comentario": "Metrorragia en la primera mitad del embarazo con cuello uterino cerrado, membranas íntegras y embrión vital con frecuencia cardíaca verificada corresponde a una amenaza de aborto.",
+      "tema": "Hemorragias de la primera mitad del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-015",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con hipermenorrea desde hace 5 meses. G1P0010. Hb: 8 g/dL. Ecografía: mioma submucoso de 38 mm, no pediculado. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Miomectomía histeroscópica",
+        "Laparotomía y miomectomía",
+        "Histerectomía total abdominal",
+        "Miomectomía laparoscópica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En mujeres en edad reproductiva que desean preservar la fertilidad con miomas submucosos sintomáticos endocavitarios (< 4-5 cm), la vía de abordaje estándar de elección es la miomectomía por histeroscopia.",
+      "comentario": "En mujeres en edad reproductiva que desean preservar la fertilidad con miomas submucosos sintomáticos endocavitarios (< 4-5 cm), la vía de abordaje estándar de elección es la miomectomía por histeroscopia.",
+      "tema": "Miomatosis uterina",
+      "año": 2020
     }
   ]
 }

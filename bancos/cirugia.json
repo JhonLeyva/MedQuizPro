@@ -92,6 +92,139 @@
       "comentario": "La medida inmediata para frenar la progresión del daño térmico hacia capas profundas de la piel es retirar el agente e irrigar profusamente la lesión con agua a temperatura ambiental.",
       "tema": "Quemaduras",
       "año": 2020
+    },
+    {
+      "id": "CIR-006",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 33 años refiere notar cambios venosos en ambas piernas desde hace 3 meses. Al examen: telangiectasias en cara interna de muslos y piernas. No edemas ni lesiones dérmicas. ¿Cuál es el tratamiento más apropiado?",
+      "opciones": [
+        "Escleroterapia",
+        "Antiinflamatorios tópicos",
+        "Extracción segmentaria",
+        "Safenectomía",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las telangiectasias corresponden al estadio CEAP C1 (dilataciones intradérmicas superficiales sin compromiso de venas axiales ni reflujo troncular); el tratamiento de elección de tipo mínimamente invasivo es la escleroterapia.",
+      "comentario": "Las telangiectasias corresponden al estadio CEAP C1 (dilataciones intradérmicas superficiales sin compromiso de venas axiales ni reflujo troncular); el tratamiento de elección de tipo mínimamente invasivo es la escleroterapia.",
+      "tema": "Insuficiencia venosa crónica",
+      "año": 2020
+    },
+    {
+      "id": "CIR-007",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 20 años que presenta quemadura en cara anterior de tronco, miembro superior derecho ambas caras y mano. ¿Cuál es el porcentaje de extensión según la regla de los nueves?",
+      "opciones": [
+        "27%",
+        "45%",
+        "18%",
+        "36%",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cara anterior de tronco (tórax y abdomen = 18%) + todo el miembro superior derecho con su mano (9%) da un total estimado de 27% según la Regla de los Nueves de Pulaski y Tennison.",
+      "comentario": "Cara anterior de tronco (tórax y abdomen = 18%) + todo el miembro superior derecho con su mano (9%) da un total estimado de 27% según la Regla de los Nueves de Pulaski y Tennison.",
+      "tema": "Quemaduras",
+      "año": 2020
+    },
+    {
+      "id": "CIR-008",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 62 años, pirotécnico, sufre quemaduras en extremidades y cara por explosión e incendio. Se muestra quejumbroso, con dificultad respiratoria y tirajes subcostales bilaterales. ¿Cuál es el tratamiento inicial de elección?",
+      "opciones": [
+        "Cura quirúrgica",
+        "Intubación orotraqueal",
+        "Cobertura antibiótica",
+        "Administrar albúmina",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En pacientes con quemaduras faciales e inhalación de humo con dificultad respiratoria o estridor, la prioridad absoluta es asegurar la vía aérea mediante intubación orotraqueal precoz antes de que el edema supraglótico la ocluya por completo.",
+      "comentario": "En pacientes con quemaduras faciales e inhalación de humo con dificultad respiratoria o estridor, la prioridad absoluta es asegurar la vía aérea mediante intubación orotraqueal precoz antes de que el edema supraglótico la ocluya por completo.",
+      "tema": "Manejo del paciente quemado",
+      "año": 2020
+    },
+    {
+      "id": "CIR-009",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 90 años, hipertensa, con fibrilación auricular en tratamiento irregular, acude a emergencia con frialdad, cianosis y necrosis en pie izquierdo, ausencia de pulsos y pérdida de movilidad en dedos y tobillo. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Amputación primaria",
+        "Bypass distal",
+        "Trombectomía urgente",
+        "Heparina en infusión",
+        "Azitromicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La presencia de necrosis establecida y parálisis funcional motora irreversible (Rutherford categoría III) contraindica la revascularización por riesgo de síndrome de reperfusión letal; la indicación mandatoria es la amputación primaria.",
+      "comentario": "La presencia de necrosis establecida y parálisis funcional motora irreversible (Rutherford categoría III) contraindica la revascularización por riesgo de síndrome de reperfusión letal; la indicación mandatoria es la amputación primaria.",
+      "tema": "Isquemia arterial aguda",
+      "año": 2020
+    },
+    {
+      "id": "CIR-010",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años, en 4º día postoperatorio de hernioplastia inguinal derecha, presenta dolor testicular y aumento de volumen escrotal. ¿Cuál es la complicación más probable?",
+      "opciones": [
+        "Hernia inguinal recidivada",
+        "Orquitis isquémica",
+        "Torsión testicular",
+        "Absceso testicular",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La orquitis isquémica es secundaria a la trombosis del plexo pampiniforme o lesión vascular del cordón espermático durante la disección del saco herniario.",
+      "comentario": "La orquitis isquémica es secundaria a la trombosis del plexo pampiniforme o lesión vascular del cordón espermático durante la disección del saco herniario.",
+      "tema": "Complicaciones postoperatorias de pared abdominal",
+      "año": 2020
+    },
+    {
+      "id": "CIR-011",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 67 años en emergencia por accidente de tránsito. Glasgow 14, FC 100x', FR 16x', pulmones sin ruidos agregados, abdomen distendido y doloroso, ruidos hidroaéreos ausentes. ¿Cuál es la primera sospecha?",
+      "opciones": [
+        "Neumotórax traumático",
+        "Traumatismo abdominal cerrado",
+        "Hemorragia pericárdica",
+        "Distrés respiratorio agudo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La distensión, el dolor y la abolición del peristaltismo (íleo reflejo) tras una colisión vehicular cerrada señalan compromiso intraperitoneal compatible con traumatismo abdominal cerrado con hemoperitoneo o perforación visceral.",
+      "comentario": "La distensión, el dolor y la abolición del peristaltismo (íleo reflejo) tras una colisión vehicular cerrada señalan compromiso intraperitoneal compatible con traumatismo abdominal cerrado con hemoperitoneo o perforación visceral.",
+      "tema": "Trauma abdominal",
+      "año": 2020
+    },
+    {
+      "id": "CIR-012",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 54 años con dolor perianal y herida que drena pus desde hace 7 días. Hace 4 meses fue drenado por absceso perianal. Examen: posición genupectoral, a las 3 h: orificio con salida purulenta. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Fístula perianal",
+        "Quiste pilonidal fistulizado",
+        "Carcinoma anal",
+        "Fisura anal",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El drenaje persistente o recurrente de material purulento por un orificio externo perianal tras un antecedente de absceso anorrectal drenado constituye la evolución típica de una fístula perianal crónica.",
+      "comentario": "El drenaje persistente o recurrente de material purulento por un orificio externo perianal tras un antecedente de absceso anorrectal drenado constituye la evolución típica de una fístula perianal crónica.",
+      "tema": "Patología anorrectal",
+      "año": 2020
     }
   ]
 }
