@@ -233,5 +233,108 @@ window.MQP_ALGORITMOS = {
     titulo: "Urticaria aguda y angioedema",
     imagen: "flujogramas/urticaria-aguda-angioedema.svg",
     alt: "Flujograma de manejo de la urticaria aguda con angioedema"
+  },
+
+  /* ---------- ENAM 2020 · preguntas 52 a 71 ---------- */
+
+  "SP-005": {
+    titulo: "Prevención del embarazo adolescente: educación",
+    imagen: "flujogramas/prevencion-embarazo-adolescente-educacion.svg",
+    alt: "Flujograma de intervención educativa para la prevención del embarazo adolescente"
+  },
+  "GAS-004": {
+    titulo: "Enfermedad por reflujo gastroesofágico (ERGE)",
+    imagen: "flujogramas/enfermedad-reflujo-gastroesofagico-erge.svg",
+    alt: "Flujograma diagnóstico y terapéutico de la enfermedad por reflujo gastroesofágico"
+  },
+  "INF-005": {
+    titulo: "Neumonía por Pneumocystis jirovecii en VIH",
+    imagen: "flujogramas/neumonia-pneumocystis-jirovecii-vih.svg",
+    alt: "Flujograma diagnóstico de la neumonía por Pneumocystis jirovecii en el paciente con VIH"
+  },
+  "CIR-004": {
+    titulo: "Neumotórax a tensión: toracocentesis",
+    imagen: "flujogramas/neumotorax-a-tension-toracocentesis.svg",
+    alt: "Flujograma de manejo del neumotórax a tensión con descompresión por toracocentesis"
+  },
+  "GIN-008": {
+    titulo: "Maduración cervical en el embarazo prolongado",
+    imagen: "flujogramas/maduracion-cervical-embarazo-prolongado.svg",
+    alt: "Flujograma de maduración cervical e inducción en el embarazo prolongado"
+  },
+  "SP-006": {
+    titulo: "Conflicto de intereses en bioética",
+    imagen: "flujogramas/conflicto-de-intereses-bioetica.svg",
+    alt: "Flujograma sobre el conflicto de intereses en bioética e integridad científica"
+  },
+  "GIN-009": {
+    titulo: "Embarazo ectópico: ecografía transvaginal",
+    imagen: "flujogramas/embarazo-ectopico-ecografia-transvaginal.svg",
+    alt: "Flujograma de estudio del embarazo ectópico con ecografía transvaginal"
+  },
+  "REU-005": {
+    titulo: "Acarosis (escabiosis) en el lactante: permetrina",
+    imagen: "flujogramas/acarosis-escabiosis-lactante-permetrina.svg",
+    alt: "Flujograma diagnóstico y terapéutico de la escabiosis en el lactante con permetrina"
+  },
+  "GAS-005": {
+    titulo: "Screening de cáncer colorrectal: colonoscopia",
+    imagen: "flujogramas/screening-cancer-colorrectal-colonoscopia.svg",
+    alt: "Flujograma de tamizaje del cáncer colorrectal con colonoscopia"
+  },
+  "CIR-005": {
+    titulo: "Quemaduras: irrigación con agua a temperatura ambiente",
+    imagen: "flujogramas/quemaduras-irrigacion-agua-ambiente.svg",
+    alt: "Flujograma de manejo inicial de las quemaduras con irrigación de agua a temperatura ambiente"
+  },
+  "CAR-004": {
+    titulo: "Hipertensión arterial grado 2: tratamiento",
+    imagen: "flujogramas/hipertension-arterial-grado-2-tratamiento.svg",
+    alt: "Flujograma de tratamiento de la hipertensión arterial grado 2 con daño de órgano blanco"
+  },
+  "NRL-004": {
+    titulo: "Déficit de vitamina B12: degeneración cordonal",
+    imagen: "flujogramas/deficit-vitamina-b12-degeneracion-cordonal.svg",
+    alt: "Flujograma del déficit de vitamina B12 con degeneración combinada subaguda de cordones medulares"
+  },
+  "GIN-010": {
+    titulo: "Parto podálico: referencia quirúrgica",
+    imagen: "flujogramas/parto-podalico-referencia-quirurgica.svg",
+    alt: "Flujograma de manejo y referencia del parto en presentación podálica"
+  },
+  "CAR-005": {
+    titulo: "Transposición de grandes arterias (TGA)",
+    imagen: "flujogramas/transposicion-de-grandes-arterias-tga.svg",
+    alt: "Flujograma diagnóstico de la transposición de grandes arterias"
+  },
+  "SP-007": {
+    titulo: "Diseño cuasi experimental en epidemiología",
+    imagen: "flujogramas/diseno-cuasi-experimental-epidemiologia.svg",
+    alt: "Flujograma de clasificación de diseños de investigación y el diseño cuasi experimental"
+  },
+  "PSI-003": {
+    titulo: "Hiperventilación: alcalosis respiratoria y bolsa de papel",
+    imagen: "flujogramas/hiperventilacion-alcalosis-respiratoria-bolsa.svg",
+    alt: "Flujograma de manejo de la alcalosis respiratoria por hiperventilación con reinhalación en bolsa"
+  },
+  "TRA-002": {
+    titulo: "Displasia del desarrollo de la cadera: ecografía",
+    imagen: "flujogramas/displasia-desarrollo-cadera-ecografia.svg",
+    alt: "Flujograma diagnóstico de la displasia del desarrollo de la cadera con ecografía"
+  },
+  "PED-011": {
+    titulo: "Hipoglicemia neonatal en hijo de madre diabética",
+    imagen: "flujogramas/hipoglicemia-neonatal-hijo-madre-diabetica.svg",
+    alt: "Flujograma de la hipoglicemia neonatal en el recién nacido macrosómico hijo de madre diabética"
+  },
+  "PED-012": {
+    titulo: "Desnutrición aguda: emaciación y antropometría",
+    imagen: "flujogramas/desnutricion-aguda-emaciacion-antropometria.svg",
+    alt: "Flujograma de clasificación antropométrica de la desnutrición aguda"
+  },
+  "SP-008": {
+    titulo: "Plan Nacional contra la Anemia: equipo de salud",
+    imagen: "flujogramas/plan-nacional-anemia-equipo-salud.svg",
+    alt: "Flujograma de responsabilidades del equipo de salud en el Plan Nacional contra la Anemia"
   }
 };
