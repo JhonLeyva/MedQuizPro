@@ -464,5 +464,253 @@ window.MQP_ALGORITMOS = {
     titulo: "Síndrome compartimental: fasciotomía",
     imagen: "flujogramas/sindrome-compartimental-fasciotomia.svg",
     alt: "Flujograma de manejo del síndrome compartimental con fasciotomía"
+  },
+
+  /* ---------- ENAM 2020 · bloque 3 (preguntas 123 a 172) ---------- */
+
+  "INF-008": {
+    titulo: "Neumonía asociada al ventilador: meropenem + vancomicina",
+    imagen: "flujogramas/neumonia-asociada-ventilador-meropenem-vancomicina.svg",
+    alt: "Flujograma de tratamiento empírico de la neumonía asociada a ventilación mecánica"
+  },
+  "TRA-005": {
+    titulo: "Escoliosis estructural: test de Adams",
+    imagen: "flujogramas/escoliosis-estructural-test-adams.svg",
+    alt: "Flujograma diagnóstico de la escoliosis estructural con el test de Adams"
+  },
+  "PED-022": {
+    titulo: "Shock hipovolémico por deshidratación neonatal",
+    imagen: "flujogramas/shock-hipovolemico-deshidratacion-neonatal.svg",
+    alt: "Flujograma de manejo del shock hipovolémico por deshidratación en el neonato"
+  },
+  "GIN-016": {
+    titulo: "Gestación anembrionada (huevo huero)",
+    imagen: "flujogramas/gestacion-anembrionada-huevo-huero.svg",
+    alt: "Flujograma diagnóstico ecográfico de la gestación anembrionada"
+  },
+  "PED-023": {
+    titulo: "Tos ferina: reacción leucemoide",
+    imagen: "flujogramas/tos-ferina-reaccion-leucemoide.svg",
+    alt: "Flujograma de factores pronósticos de la tos ferina con reacción leucemoide"
+  },
+  "PED-024": {
+    titulo: "Intususcepción (invaginación intestinal) en pediatría",
+    imagen: "flujogramas/intususcepcion-invaginacion-intestinal-pediatria.svg",
+    alt: "Flujograma diagnóstico de la intususcepción intestinal en el lactante"
+  },
+  "INF-009": {
+    titulo: "Meningitis tuberculosa: ADA en LCR",
+    imagen: "flujogramas/meningitis-tuberculosa-ada-lcr.svg",
+    alt: "Flujograma diagnóstico de la meningitis tuberculosa con ADA en líquido cefalorraquídeo"
+  },
+  "PED-025": {
+    titulo: "Intoxicación por organofosforados en pediatría",
+    imagen: "flujogramas/intoxicacion-organofosforados-pediatria.svg",
+    alt: "Flujograma de la intoxicación por organofosforados en el niño"
+  },
+  "SP-017": {
+    titulo: "Determinantes sociales: saneamiento y desnutrición",
+    imagen: "flujogramas/determinantes-sociales-saneamiento-desnutricion.svg",
+    alt: "Flujograma de determinantes sociales de la salud, saneamiento básico y desnutrición"
+  },
+  "CB-004": {
+    titulo: "Intoxicación por metanol: acidosis y amaurosis",
+    imagen: "flujogramas/intoxicacion-metanol-acidosis-amaurosis.svg",
+    alt: "Flujograma de la intoxicación por metanol con acidosis metabólica y amaurosis"
+  },
+  "PED-026": {
+    titulo: "Crisis convulsiva: diazepam",
+    imagen: "flujogramas/convulsion-febril-status-diazepam.svg",
+    alt: "Flujograma de manejo inmediato de la crisis convulsiva pediátrica con diazepam"
+  },
+  "NEF-008": {
+    titulo: "Cólico renoureteral: UroTAC",
+    imagen: "flujogramas/colico-renoureteral-urotac-urotem.svg",
+    alt: "Flujograma diagnóstico del cólico renoureteral con UroTAC"
+  },
+  "PED-027": {
+    titulo: "Neumonía bacteriana: consolidación alveolar",
+    imagen: "flujogramas/neumonia-bacteriana-consolidacion-alveolar.svg",
+    alt: "Flujograma de la neumonía bacteriana pediátrica con consolidación alveolar"
+  },
+  "GIN-017": {
+    titulo: "Candidiasis vulvovaginal",
+    imagen: "flujogramas/candidiasis-vulvovaginal-micotica.svg",
+    alt: "Flujograma diagnóstico de la vaginitis micótica o candidiasis vulvovaginal"
+  },
+  "GIN-018": {
+    titulo: "Atonía uterina: palpación bimanual",
+    imagen: "flujogramas/atonia-uterina-palpacion-bimanual.svg",
+    alt: "Flujograma de evaluación de la hemorragia posparto por atonía uterina"
+  },
+  "REU-007": {
+    titulo: "Vasculitis leucocitoclástica: púrpura palpable",
+    imagen: "flujogramas/vasculitis-leucocitoclastica-purpura-palpable.svg",
+    alt: "Flujograma diagnóstico de la vasculitis con púrpura palpable"
+  },
+  "GIN-019": {
+    titulo: "VIH intraparto: cesárea de emergencia",
+    imagen: "flujogramas/vih-intraparto-cesarea-emergencia.svg",
+    alt: "Flujograma de manejo del parto en la gestante con VIH diagnosticado intraparto"
+  },
+  "CB-005": {
+    titulo: "Anafilaxia: mastocitos e hipersensibilidad tipo I",
+    imagen: "flujogramas/anafilaxia-mastocitos-hipersensibilidad-tipo-i.svg",
+    alt: "Flujograma de la anafilaxia mediada por IgE y la degranulación de mastocitos"
+  },
+  "NEU-004": {
+    titulo: "Pleuresía tuberculosa: ADA y exudado",
+    imagen: "flujogramas/pleuresia-tuberculosa-ada-exudado.svg",
+    alt: "Flujograma diagnóstico de la pleuresía tuberculosa con exudado linfocitario y ADA elevada"
+  },
+  "PED-028": {
+    titulo: "Púrpura trombocitopénica inmune postvacunal",
+    imagen: "flujogramas/purpura-trombocitopenica-inmune-postvacunal.svg",
+    alt: "Flujograma diagnóstico de la púrpura trombocitopénica inmune posterior a vacunación"
+  },
+  "PED-029": {
+    titulo: "Urocultivo falso negativo por antibióticos",
+    imagen: "flujogramas/urocultivo-falso-negativo-antibioticos.svg",
+    alt: "Flujograma de causas de urocultivo falso negativo"
+  },
+  "PED-030": {
+    titulo: "Rinitis alérgica y asma atópica",
+    imagen: "flujogramas/rinitis-alergica-asma-atopica.svg",
+    alt: "Flujograma diagnóstico de la rinitis alérgica en el paciente atópico"
+  },
+  "NRL-005": {
+    titulo: "Accidente isquémico transitorio (AIT)",
+    imagen: "flujogramas/accidente-isquemico-transitorio-ait.svg",
+    alt: "Flujograma diagnóstico del accidente isquémico transitorio"
+  },
+  "NRL-006": {
+    titulo: "Hematoma epidural: arteria meníngea media",
+    imagen: "flujogramas/hematoma-epidural-arteria-meningea-media.svg",
+    alt: "Flujograma diagnóstico del hematoma epidural por lesión de la arteria meníngea media"
+  },
+  "PSI-006": {
+    titulo: "Trastorno de personalidad límite (borderline)",
+    imagen: "flujogramas/trastorno-personalidad-limite-borderline.svg",
+    alt: "Flujograma diagnóstico del trastorno límite de la personalidad"
+  },
+  "CIR-013": {
+    titulo: "Hernia crural (femoral) complicada",
+    imagen: "flujogramas/hernia-crural-femoral-complicada.svg",
+    alt: "Flujograma diagnóstico de la hernia crural complicada"
+  },
+  "SP-018": {
+    titulo: "Tuberculosis: control ambiental y ventilación",
+    imagen: "flujogramas/tuberculosis-control-ambiental-ventilacion.svg",
+    alt: "Flujograma de medidas de control ambiental de la tuberculosis en establecimientos de salud"
+  },
+  "CB-006": {
+    titulo: "Anfetaminas: vasoconstricción y resistencia periférica",
+    imagen: "flujogramas/anfetaminas-resistencia-periferica-vasoconstriccion.svg",
+    alt: "Flujograma del mecanismo hipertensivo de las anfetaminas por aumento de la resistencia periférica"
+  },
+  "GIN-020": {
+    titulo: "Hipodinamia uterina: estimulación con oxitocina",
+    imagen: "flujogramas/hipodinamia-uterina-estimulacion-oxitocina.svg",
+    alt: "Flujograma de manejo de la hipodinamia uterina con oxitocina"
+  },
+  "GIN-021": {
+    titulo: "Síndrome de ovario poliquístico: factor ovárico",
+    imagen: "flujogramas/sindrome-ovario-poliquistico-factor-ovarico.svg",
+    alt: "Flujograma de la amenorrea anovulatoria por síndrome de ovario poliquístico"
+  },
+  "PED-031": {
+    titulo: "Saturnismo: intoxicación crónica por plomo",
+    imagen: "flujogramas/saturnismo-intoxicacion-cronica-plomo.svg",
+    alt: "Flujograma diagnóstico de la intoxicación crónica por plomo en el niño"
+  },
+  "GIN-022": {
+    titulo: "Hipertensión severa en la gestación: referencia",
+    imagen: "flujogramas/hipertension-severa-gestacion-referencia.svg",
+    alt: "Flujograma de referencia de la gestante con hipertensión severa"
+  },
+  "GIN-023": {
+    titulo: "Prolapso genital con úlceras: estrógenos tópicos",
+    imagen: "flujogramas/prolapso-genital-ulceras-estrogenos-topicos.svg",
+    alt: "Flujograma de preparación del prolapso genital ulcerado con estrógenos tópicos"
+  },
+  "OFT-005": {
+    titulo: "Conjuntivitis alérgica: prurito bilateral",
+    imagen: "flujogramas/conjuntivitis-alergica-prurito-bilateral.svg",
+    alt: "Flujograma diagnóstico de la conjuntivitis alérgica"
+  },
+  "SP-019": {
+    titulo: "Dengue: control vectorial del Aedes",
+    imagen: "flujogramas/dengue-control-vectorial-aedes.svg",
+    alt: "Flujograma de control vectorial del Aedes aegypti ante un caso importado de dengue"
+  },
+  "CAR-009": {
+    titulo: "Paro cardiorrespiratorio: compresiones torácicas",
+    imagen: "flujogramas/paro-cardiorrespiratorio-compresiones-toracicas.svg",
+    alt: "Flujograma de reanimación cardiopulmonar con inicio de compresiones torácicas"
+  },
+  "REU-008": {
+    titulo: "Tinea capitis: dermatofitosis del cuero cabelludo",
+    imagen: "flujogramas/tinea-capitis-dermatofitosis-cuero-cabelludo.svg",
+    alt: "Flujograma diagnóstico de la tiña de la cabeza"
+  },
+  "NRL-007": {
+    titulo: "Síndrome de cola de caballo tras anestesia raquídea",
+    imagen: "flujogramas/sindrome-cola-caballo-anestesia-raquidea.svg",
+    alt: "Flujograma del síndrome de cola de caballo como complicación de la anestesia raquídea"
+  },
+  "NEF-009": {
+    titulo: "Torsión testicular: reflejo cremastérico",
+    imagen: "flujogramas/torsion-testicular-reflejo-cremasterico.svg",
+    alt: "Flujograma diagnóstico del escroto agudo y la torsión testicular"
+  },
+  "GIN-024": {
+    titulo: "Desprendimiento prematuro de placenta: hipertonía",
+    imagen: "flujogramas/desprendimiento-prematuro-placenta-hipertonia.svg",
+    alt: "Flujograma diagnóstico del desprendimiento prematuro de placenta"
+  },
+  "GIN-025": {
+    titulo: "Metrorragia posmenopáusica: biopsia de endometrio",
+    imagen: "flujogramas/metrorragia-posmenopausica-biopsia-endometrio.svg",
+    alt: "Flujograma de estudio de la metrorragia posmenopáusica con biopsia de endometrio"
+  },
+  "CAR-010": {
+    titulo: "Endocarditis infecciosa: ecocardiografía transesofágica",
+    imagen: "flujogramas/endocarditis-infecciosa-ecocardiografia-transesofagica.svg",
+    alt: "Flujograma diagnóstico de la endocarditis infecciosa con ecocardiografía transesofágica"
+  },
+  "GIN-026": {
+    titulo: "Altura uterina: 12 semanas en la sínfisis del pubis",
+    imagen: "flujogramas/altura-uterina-12-semanas-sinfisis-pubis.svg",
+    alt: "Flujograma de estimación de la edad gestacional por altura uterina"
+  },
+  "PED-032": {
+    titulo: "Hepatitis A: coluria en el escolar",
+    imagen: "flujogramas/hepatitis-a-coluria-escolar.svg",
+    alt: "Flujograma diagnóstico de la hepatitis A en el escolar"
+  },
+  "GIN-027": {
+    titulo: "Amenaza de parto pretérmino",
+    imagen: "flujogramas/amenaza-parto-pretermino-cervix-cerrado.svg",
+    alt: "Flujograma diagnóstico de la amenaza de parto pretérmino"
+  },
+  "INF-010": {
+    titulo: "Dengue con signos de alarma",
+    imagen: "flujogramas/dengue-con-signos-alarma-madre-de-dios.svg",
+    alt: "Flujograma diagnóstico del dengue con signos de alarma"
+  },
+  "CAR-011": {
+    titulo: "Insuficiencia cardíaca aguda: furosemida",
+    imagen: "flujogramas/insuficiencia-cardiaca-aguda-furosemida-diureticos.svg",
+    alt: "Flujograma de manejo de la insuficiencia cardíaca aguda congestiva con diuréticos"
+  },
+  "NEU-005": {
+    titulo: "Enfermedad pulmonar intersticial: crepitantes",
+    imagen: "flujogramas/enfermedad-pulmonar-intersticial-crepitantes.svg",
+    alt: "Flujograma diagnóstico de la enfermedad pulmonar intersticial difusa"
+  },
+  "GIN-028": {
+    titulo: "Metrorragia del primer trimestre: ecografía transvaginal",
+    imagen: "flujogramas/metrorragia-primer-trimestre-ecografia-transvaginal.svg",
+    alt: "Flujograma de estudio del sangrado del primer trimestre con ecografía transvaginal"
   }
 };
