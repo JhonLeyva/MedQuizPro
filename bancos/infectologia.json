@@ -138,9 +138,9 @@
       "enunciado": "Mujer de 60 años, hospitalizada en UCI por intoxicación con barbitúricos en destete de ventilación mecánica. Al quinto día presenta incremento de secreciones bronquiales, fiebre e hipotensión. Rx tórax: infiltrado alveolar difuso. ¿Con qué esquema se debe iniciar el tratamiento antibiótico empírico?",
       "opciones": [
         "Meropenem - vancomicina - amikacina",
-        "Ceftazidima oxacilina - amikacina",
-        "Amikacina - ceftazidima ciprofloxacina",
-        "Ceftriaxona - azitromicina amikacina",
+        "Ceftazidima - oxacilina - amikacina",
+        "Amikacina - ceftazidima - ciprofloxacina",
+        "Ceftriaxona - azitromicina - amikacina",
         "Diazepam"
       ],
       "correcta": 0,

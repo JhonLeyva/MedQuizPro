@@ -850,6 +850,13 @@
         img.alt = algo.alt || el.modalTitle.textContent;
         img.className = "algo-modal__img";
         img.loading = "lazy";
+        img.addEventListener("error", function () {
+          /* archivo ausente o con otro nombre en flujogramas/: avisa en vez de mostrar una imagen rota */
+          var aviso = document.createElement("p");
+          aviso.className = "algo-modal__note";
+          aviso.textContent = "No se pudo cargar el flujograma (" + algo.imagen + "). Revisa que el archivo exista con ese nombre exacto.";
+          if (img.parentNode) img.parentNode.replaceChild(aviso, img);
+        });
         el.modalBody.appendChild(img);
       }
       if (algo && algo.pasos && algo.pasos.length) {
