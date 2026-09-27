@@ -130,5 +130,108 @@ window.MQP_ALGORITMOS = {
     titulo: "Rubéola: diagnóstico exantemático",
     imagen: "flujogramas/rubeola-diagnostico-exantematico.svg",
     alt: "Flujograma de diagnóstico diferencial de exantemas y rubéola"
+  },
+
+  /* ---------- ENAM 2020 · preguntas 32 a 51 ---------- */
+
+  "END-002": {
+    titulo: "Hipotiroidismo subclínico: diagnóstico",
+    imagen: "flujogramas/hipotiroidismo-subclinico-diagnostico.svg",
+    alt: "Flujograma diagnóstico del hipotiroidismo subclínico"
+  },
+  "GIN-006": {
+    titulo: "Mastitis puerperal: manejo",
+    imagen: "flujogramas/mastitis-puerperal-manejo.svg",
+    alt: "Flujograma de manejo de la mastitis puerperal"
+  },
+  "GAS-002": {
+    titulo: "Diarrea disentérica: antibioticoterapia",
+    imagen: "flujogramas/diarrea-disenterica-antibioticoterapia.svg",
+    alt: "Flujograma de manejo antibiótico de la diarrea disentérica"
+  },
+  "SP-003": {
+    titulo: "Consejería nutricional en la gestante",
+    imagen: "flujogramas/consejeria-nutricional-gestante.svg",
+    alt: "Flujograma de consejería nutricional en la gestante"
+  },
+  "PED-006": {
+    titulo: "Diarrea invasiva por Campylobacter en el lactante",
+    imagen: "flujogramas/diarrea-invasiva-campylobacter-lactante.svg",
+    alt: "Flujograma de la diarrea invasiva por Campylobacter en el lactante"
+  },
+  "GIN-007": {
+    titulo: "Pielonefritis aguda en la gestación",
+    imagen: "flujogramas/pielonefritis-aguda-gestacion.svg",
+    alt: "Flujograma de manejo de la pielonefritis aguda en la gestación"
+  },
+  "OFT-003": {
+    titulo: "Glaucoma congénito: goniotomía",
+    imagen: "flujogramas/glaucoma-congenito-goniotomia.svg",
+    alt: "Flujograma diagnóstico y terapéutico del glaucoma congénito"
+  },
+  "INF-004": {
+    titulo: "Chancro luético: sífilis primaria",
+    imagen: "flujogramas/chancro-luetico-sifilis-primaria.svg",
+    alt: "Flujograma diagnóstico del chancro luético en la sífilis primaria"
+  },
+  "END-003": {
+    titulo: "Tormenta tiroidea: crisis tirotóxica",
+    imagen: "flujogramas/tormenta-tiroidea-crisis-tirotoxica.svg",
+    alt: "Flujograma de manejo de la tormenta tiroidea"
+  },
+  "GAS-003": {
+    titulo: "Pancreatitis crónica: bloqueo celíaco",
+    imagen: "flujogramas/pancreatitis-cronica-bloqueo-celiaco.svg",
+    alt: "Flujograma de manejo del dolor en la pancreatitis crónica con bloqueo celíaco"
+  },
+  "PED-007": {
+    titulo: "Vacunación neonatal: BCG y HvB",
+    imagen: "flujogramas/vacunacion-neonatal-bcg-hvb.svg",
+    alt: "Flujograma de vacunación neonatal con BCG y hepatitis B"
+  },
+  "PSI-002": {
+    titulo: "Trastorno de pánico: crisis de ansiedad",
+    imagen: "flujogramas/trastorno-de-panico-crisis-ansiedad.svg",
+    alt: "Flujograma diagnóstico del trastorno de pánico"
+  },
+  "PED-008": {
+    titulo: "Obstrucción neonatal: tapón meconial",
+    imagen: "flujogramas/obstruccion-neonatal-tapon-meconial.svg",
+    alt: "Flujograma diagnóstico de la obstrucción intestinal neonatal por tapón meconial"
+  },
+  "NEF-003": {
+    titulo: "Pielonefritis aguda: diagnóstico clínico",
+    imagen: "flujogramas/pielonefritis-aguda-diagnostico-clinico.svg",
+    alt: "Flujograma de diagnóstico clínico de la pielonefritis aguda"
+  },
+  "END-004": {
+    titulo: "Tolerancia oral a la glucosa y secreción de insulina",
+    imagen: "flujogramas/tolerancia-oral-glucosa-secrecion-insulina.svg",
+    alt: "Flujograma de la prueba de tolerancia oral a la glucosa para valorar la secreción de insulina"
+  },
+  "PED-009": {
+    titulo: "Otitis media aguda en el lactante",
+    imagen: "flujogramas/otitis-media-aguda-lactante.svg",
+    alt: "Flujograma diagnóstico de la otitis media aguda en el lactante"
+  },
+  "NEU-002": {
+    titulo: "Tromboembolismo pulmonar: alteplase",
+    imagen: "flujogramas/tromboembolismo-pulmonar-alteplase.svg",
+    alt: "Flujograma de manejo del tromboembolismo pulmonar masivo con alteplase"
+  },
+  "SP-004": {
+    titulo: "Vulneración del principio de autonomía: confidencialidad",
+    imagen: "flujogramas/vulneracion-principio-autonomia-confidencialidad.svg",
+    alt: "Flujograma sobre la vulneración de la autonomía y la confidencialidad del paciente"
+  },
+  "PED-010": {
+    titulo: "Bronquitis aguda pediátrica",
+    imagen: "flujogramas/bronquitis-aguda-pediatrica.svg",
+    alt: "Flujograma diagnóstico de la bronquitis aguda en pediatría"
+  },
+  "REU-004": {
+    titulo: "Urticaria aguda y angioedema",
+    imagen: "flujogramas/urticaria-aguda-angioedema.svg",
+    alt: "Flujograma de manejo de la urticaria aguda con angioedema"
   }
 };
