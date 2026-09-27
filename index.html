@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
-<link rel="stylesheet" href="styles.css?v=20260927">
+<link rel="stylesheet" href="styles.css?v=20260928">
 </head>
 <body>
 
@@ -133,23 +133,63 @@
     </div>
   </section>
 
-  <!-- ====================== CIFRAS ====================== -->
-  <section class="stats" aria-label="MedQuizPro en cifras">
-    <div class="wrap stats__grid">
-      <div class="stat"><div class="stat__num" data-count="12480">12 480</div><div class="stat__label">Preguntas comentadas</div></div>
-      <div class="stat"><div class="stat__num" data-count="96">96</div><div class="stat__label">Simulacros cronometrados</div></div>
-      <div class="stat"><div class="stat__num" data-count="5">5</div><div class="stat__label">Áreas del ENAM</div></div>
-      <div class="stat"><div class="stat__num">4 h</div><div class="stat__label">Duración real del simulacro</div></div>
+  <!-- ====================== CIFRAS / SOCIAL PROOF ====================== -->
+  <section class="metrics" aria-labelledby="metricsTitle">
+    <div class="wrap">
+      <h2 class="sr-only" id="metricsTitle">MedQuizPlus en cifras</h2>
+      <dl class="metrics__grid">
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg></span>
+            Preguntas comentadas
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="12480">12 480</span></dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
+            Simulacros cronometrados
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="96">96</span></dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></span>
+            Áreas oficiales del ENAM
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="5">5</span></dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg></span>
+            Duración real del simulacro
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="4">4</span><span class="metric__unit">horas</span></dd>
+        </div>
+      </dl>
+      <p class="metrics__ribbon">
+        <span class="metrics__ribbon-text">Diseñado para postulantes al</span>
+        <span class="exam-pill">ENAM</span>
+        <span class="exam-pill">Residentado Médico</span>
+        <span class="exam-pill">EsSalud</span>
+      </p>
     </div>
   </section>
 
   <!-- ====================== BANCOS DE PREGUNTAS ====================== -->
-  <section class="section" id="bancos">
+  <section class="section section--banks" id="bancos" aria-labelledby="bancosTitle">
     <div class="wrap">
-      <div class="section__head reveal">
-        <p class="eyebrow">Bancos de preguntas</p>
-        <h2>Elige la especialidad que te está costando.</h2>
-        <p class="lead">Casos clínicos tipo ENAM, Residentado Médico y EsSalud, ordenados por especialidad. Cada pregunta cierra con el comentario docente: el porqué de la respuesta y de los distractores.</p>
+      <div class="banks-head reveal">
+        <div class="banks-head__copy">
+          <p class="kicker">Bancos de preguntas</p>
+          <h2 id="bancosTitle">Entrena por especialidad</h2>
+          <p class="banks-head__lead">Empieza por el área que más puntos te está costando. Casos clínicos tipo ENAM, Residentado y EsSalud, cada uno con el comentario docente que explica la respuesta correcta y por qué fallan los distractores.</p>
+        </div>
+        <ul class="banks-head__facts" aria-label="Qué incluye cada banco">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>17 especialidades</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Comentario docente</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Aciertos en tiempo real</li>
+        </ul>
       </div>
 
       <!-- vista 1: cuadrícula de especialidades (la llena main.js desde el catálogo) -->
@@ -434,6 +474,6 @@
 </section>
 <!-- chat:fin -->
 
-<script defer src="main.js?v=20260927"></script>
+<script defer src="main.js?v=20260928"></script>
 </body>
 </html>

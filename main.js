@@ -351,12 +351,22 @@
         var esp = CATALOGO[k];
         var card = document.createElement("article");
         card.className = "spec";
+        card.setAttribute("data-tono", String(k % 6));
+        card.style.setProperty("--i", String(k));
         card.innerHTML =
-          '<span class="spec__icon"><svg ' + I + '>' + ICONOS[esp.icono] + '</svg></span>' +
-          '<h3></h3><span class="spec__status">Banco disponible</span>' +
-          '<button class="btn btn--primary" type="button">Iniciar práctica</button>';
+          '<div class="spec__top">' +
+            '<span class="spec__icon"><svg ' + I + '>' + ICONOS[esp.icono] + '</svg></span>' +
+            '<span class="spec__status">Verificando</span>' +
+          '</div>' +
+          '<h3 class="spec__name"></h3>' +
+          '<p class="spec__meta"><svg ' + I + '><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg><span>Contando preguntas…</span></p>' +
+          '<button class="btn spec__cta" type="button">Iniciar práctica' +
+            '<svg class="btn__arrow" ' + I + '><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>';
         card.querySelector("h3").textContent = esp.nombre;
-        estados[esp.archivo] = card.querySelector(".spec__status");
+        estados[esp.archivo] = {
+          pill: card.querySelector(".spec__status"),
+          meta: card.querySelector(".spec__meta span")
+        };
         (function (esp, btn) {
           btn.setAttribute("aria-label", "Iniciar práctica de " + esp.nombre);
           btn.addEventListener("click", function () { abrir(esp); });
@@ -370,14 +380,17 @@
       var nodo = estados[archivo];
       if (!nodo) return;
       if (fallo) {
-        nodo.className = "spec__status spec__status--off";
-        nodo.textContent = "No disponible por ahora";
+        nodo.pill.className = "spec__status spec__status--off";
+        nodo.pill.textContent = "No disponible";
+        nodo.meta.textContent = "No se pudo cargar por ahora";
       } else if (!preguntas.length) {
-        nodo.className = "spec__status";
-        nodo.textContent = "Banco en preparación";
+        nodo.pill.className = "spec__status spec__status--soon";
+        nodo.pill.textContent = "En preparación";
+        nodo.meta.textContent = "Pronto con preguntas nuevas";
       } else {
-        nodo.className = "spec__status spec__status--ok";
-        nodo.textContent = "Banco disponible · " + preguntas.length + (preguntas.length === 1 ? " pregunta" : " preguntas");
+        nodo.pill.className = "spec__status spec__status--ok";
+        nodo.pill.textContent = "Disponible";
+        nodo.meta.textContent = preguntas.length + (preguntas.length === 1 ? " pregunta comentada" : " preguntas comentadas");
       }
     }
 
