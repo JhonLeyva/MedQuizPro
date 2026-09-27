@@ -54,6 +54,177 @@
       "comentario": "Braquicefalia, pliegue epicántico, puente nasal plano, manchas de Brushfield (iris) y sospecha de cardiopatía congénita (canal AV o CIV) son estigmas fenotípicos cardinales del síndrome de Down o trisomía 21.",
       "tema": "Genética y dismorfología neonatal",
       "año": 2020
+    },
+    {
+      "id": "PED-004",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido pretérmino, madre sin control prenatal con diagnóstico de preeclampsia. Examen: distress respiratorio marcado. Radiografía de tórax: imagen de \"vidrio esmerilado\" en pulmones. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Membrana hialina",
+        "Taquipnea transitoria",
+        "Neumonía connatal",
+        "Síndrome aspirativo",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La radiografía con patrón de \"vidrio esmerilado\" en un prematuro con distress severo es patognomónica del síndrome de dificultad respiratoria neonatal o enfermedad de membrana hialina por déficit de surfactante.",
+      "comentario": "La radiografía con patrón de \"vidrio esmerilado\" en un prematuro con distress severo es patognomónica del síndrome de dificultad respiratoria neonatal o enfermedad de membrana hialina por déficit de surfactante.",
+      "tema": "Enfermedades respiratorias del RN",
+      "año": 2020
+    },
+    {
+      "id": "PED-005",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 10 meses, desde hace 3 días fiebre y anorexia. Al examen: linfadenopatías suboccipital y retroauricular dolorosas a la palpación, exantema macular eritematoso que se inició en cara y cuello, luego progresó al tronco. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Exantema súbito",
+        "Sarpullido",
+        "Varicela",
+        "Rubéola",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El exantema cefalocaudal acompañado de adenopatías retroauriculares y suboccipitales dolorosas (signo de Theodor) es la presentación patognomónica de la rubéola.",
+      "comentario": "El exantema cefalocaudal acompañado de adenopatías retroauriculares y suboccipitales dolorosas (signo de Theodor) es la presentación patognomónica de la rubéola.",
+      "tema": "Enfermedades exantemáticas",
+      "año": 2020
+    },
+    {
+      "id": "PED-006",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 11 meses, desde hace 24 horas deposiciones semilíquidas con moco y sangre 4 a 6 veces por día de escaso volumen. Examen: somnoliento, signos de deshidratación leve, T° 39 °C. ¿Cuál es el probable agente etiológico?",
+      "opciones": [
+        "Enterovirus",
+        "Rotavirus",
+        "Campylobacter",
+        "Shigella",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Diarrea disentérica en un lactante menor de 2 años con fiebre alta y afectación del estado general apunta a Campylobacter jejuni, patógeno muy frecuente en este grupo etario en países en desarrollo (Shigella es más común en preescolares).",
+      "comentario": "Diarrea disentérica en un lactante menor de 2 años con fiebre alta y afectación del estado general apunta a Campylobacter jejuni, patógeno muy frecuente en este grupo etario en países en desarrollo (Shigella es más común en preescolares).",
+      "tema": "Enfermedad diarreica en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-007",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de 8 horas, producto de parto domiciliario, es traído al establecimiento de salud. Al examen: 2700 g de peso y no se evidencia alteraciones. Queda con la madre en alojamiento conjunto. ¿Qué vacunas se indican en este caso?",
+      "opciones": [
+        "BCG, HvB",
+        "IPV, Rotavirus",
+        "APO, SPR",
+        "DPT, VPH",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "A todo recién nacido con peso adecuado (>2000g) y asintomático, el esquema nacional de vacunación indica la administración de las vacunas BCG (tuberculosis) y HvB (Hepatitis B) en las primeras 24 horas de vida.",
+      "comentario": "A todo recién nacido con peso adecuado (>2000g) y asintomático, el esquema nacional de vacunación indica la administración de las vacunas BCG (tuberculosis) y HvB (Hepatitis B) en las primeras 24 horas de vida.",
+      "tema": "Inmunizaciones",
+      "año": 2020
+    },
+    {
+      "id": "PED-008",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "RN de 24 horas de vida, no ha eliminado meconio. Al examen: distensión abdominal discreta y ano permeable. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Megacolon agangliónico",
+        "Fibrosis quística",
+        "Hipotiroidismo",
+        "Tapón meconial",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El retraso en la evacuación de meconio (>24h) con ano permeable y distensión abdominal leve, en un contexto neonatal temprano, orienta como primera causa funcional al síndrome de tapón meconial.",
+      "comentario": "El retraso en la evacuación de meconio (>24h) con ano permeable y distensión abdominal leve, en un contexto neonatal temprano, orienta como primera causa funcional al síndrome de tapón meconial.",
+      "tema": "Obstrucción intestinal neonatal",
+      "año": 2020
+    },
+    {
+      "id": "PED-009",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante con rinorrea, congestión nasal y tos seca persistente. Tres días después, bruscamente irritable con llanto persistente, se coge la oreja derecha al parecer por dolor. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Adenitis",
+        "Otitis externa",
+        "Otitis media aguda",
+        "Osteoma",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Cuadro de infección respiratoria alta viral que se complica a los pocos días con dolor de oído (otalgia reflejada por frotarse la oreja) e irritabilidad súbita, es la historia natural clásica de una Otitis Media Aguda (OMA) en lactantes.",
+      "comentario": "Cuadro de infección respiratoria alta viral que se complica a los pocos días con dolor de oído (otalgia reflejada por frotarse la oreja) e irritabilidad súbita, es la historia natural clásica de una Otitis Media Aguda (OMA) en lactantes.",
+      "tema": "Infecciones de vías respiratorias altas",
+      "año": 2020
+    },
+    {
+      "id": "PED-010",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 6 años, desde hace 4 días presenta tos y fiebre. Al examen: T: 38.3 °C, FR: 22 x min, sin dificultad respiratoria. Se auscultan roncantes diseminados en ambos campos pulmonares, sin otros signos. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Bronquitis aguda",
+        "Rinofaringitis aguda",
+        "Bronquiolitis",
+        "Bronconeumonía",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cuadro respiratorio agudo febril con hallazgos auscultatorios limitados a la vía aérea central (roncantes), sin signos de condensación alveolar ni taquipnea significativa, es sugerente de bronquitis aguda.",
+      "comentario": "Cuadro respiratorio agudo febril con hallazgos auscultatorios limitados a la vía aérea central (roncantes), sin signos de condensación alveolar ni taquipnea significativa, es sugerente de bronquitis aguda.",
+      "tema": "Infecciones respiratorias agudas",
+      "año": 2020
+    },
+    {
+      "id": "PED-011",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido macroscópico a término de 24 horas de vida ingresa a emergencia por hipoactividad sin manifestaciones de sepsis. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipocalcemia",
+        "Hiponatremia",
+        "Hipomagnesemia",
+        "Hipoglicemia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En un neonato macrosómico (frecuentemente hijo de madre diabética), la presentación precoz de hipoactividad o letargia se asocia característicamente a hipoglicemia secundaria a hiperinsulinismo fetal residual.",
+      "comentario": "En un neonato macrosómico (frecuentemente hijo de madre diabética), la presentación precoz de hipoactividad o letargia se asocia característicamente a hipoglicemia secundaria a hiperinsulinismo fetal residual.",
+      "tema": "Alteraciones metabólicas del RN",
+      "año": 2020
+    },
+    {
+      "id": "PED-012",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 8 años llega a consulta por pérdida de peso e hiporexia. Percentiles: Peso/Edad bajo, Peso/Talla bajo, Talla/Edad normal. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Desnutrición crónica",
+        "Desnutrición crónica reagudizada",
+        "Desnutrición aguda",
+        "Restricción del crecimiento",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Un déficit pondoestatural con peso para la talla (emaciación) afectado, pero con talla para la edad conservada, indica un evento de pérdida de peso reciente sin afectar el crecimiento histórico, es decir, una desnutrición aguda.",
+      "comentario": "Un déficit pondoestatural con peso para la talla (emaciación) afectado, pero con talla para la edad conservada, indica un evento de pérdida de peso reciente sin afectar el crecimiento histórico, es decir, una desnutrición aguda.",
+      "tema": "Evaluación nutricional infantil",
+      "año": 2020
     }
   ]
 }

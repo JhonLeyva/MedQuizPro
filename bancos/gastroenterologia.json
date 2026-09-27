@@ -16,6 +16,82 @@
       },
       "clave_correcta": "B",
       "comentario": "Ante sospecha de hemorragia variceal en un cirrótico se inicia de inmediato un vasoactivo esplácnico (terlipresina, somatostatina u octreotide), junto con profilaxis antibiótica (ceftriaxona) y endoscopía con ligadura en las primeras 12 horas. Los betabloqueadores no selectivos se usan en profilaxis, no en el sangrado agudo con hipotensión. La reposición de volumen debe ser restrictiva (hemoglobina objetivo 7-8 g/dL) para no aumentar la presión portal."
+    },
+    {
+      "id": "GAS-002",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 27 años, ingiere alimentos en ambulante, desde hace 3 días diarreas sanguinolentas, fiebre y dolor abdominal. Deshidratado. Examen de heces: presencia de leucocitos. ¿Qué clase de tratamiento indicaría?",
+      "opciones": [
+        "Antibióticos",
+        "Sales de bismuto",
+        "Antipiréticos",
+        "Bloqueadores H2",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La presencia de diarrea disentérica (sanguinolenta con fiebre y leucocitos fecales) sugiere una infección bacteriana enteroinvasiva (Shigella, Campylobacter). Está indicado el tratamiento antibiótico empírico.",
+      "comentario": "La presencia de diarrea disentérica (sanguinolenta con fiebre y leucocitos fecales) sugiere una infección bacteriana enteroinvasiva (Shigella, Campylobacter). Está indicado el tratamiento antibiótico empírico.",
+      "tema": "Enfermedad diarreica aguda",
+      "año": 2020
+    },
+    {
+      "id": "GAS-003",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años, desde hace 6 meses dolor abdominal intenso y continuo que no cede con analgésicos. Antecedente: alcoholismo crónico y pancreatitis crónica. ¿Cuál es la medida más adecuada para el manejo del dolor?",
+      "opciones": [
+        "Bloqueo neuronal visceral",
+        "Inhibidores de la COX-2",
+        "Opioides de larga duración",
+        "Colocación de endoprótesis",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En pancreatitis crónica avanzada con dolor abdominal refractario a escalones analgésicos convencionales, está indicado el bloqueo del plexo celíaco (bloqueo neuronal visceral) para el control del dolor.",
+      "comentario": "En pancreatitis crónica avanzada con dolor abdominal refractario a escalones analgésicos convencionales, está indicado el bloqueo del plexo celíaco (bloqueo neuronal visceral) para el control del dolor.",
+      "tema": "Pancreatitis crónica",
+      "año": 2020
+    },
+    {
+      "id": "GAS-004",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años acude por presentar desde hace un mes pirosis, regurgitación ácida y tos nocturna que aumenta con la ingesta de café. Niega disfagia y pérdida de peso. IMC: 35. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Espasmo esofágico distal",
+        "Divertículo de Zenker",
+        "Enfermedad por reflujo gastroesofágico",
+        "Acalasia",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Pirosis y regurgitación exacerbadas por factores relajantes del EEI (café) y aumento de presión intraabdominal (obesidad IMC 35) conforman la sintomatología típica de la Enfermedad por Reflujo Gastroesofágico (ERGE).",
+      "comentario": "Pirosis y regurgitación exacerbadas por factores relajantes del EEI (café) y aumento de presión intraabdominal (obesidad IMC 35) conforman la sintomatología típica de la Enfermedad por Reflujo Gastroesofágico (ERGE).",
+      "tema": "ERGE",
+      "año": 2020
+    },
+    {
+      "id": "GAS-005",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 52 años, desde hace 6 meses dolor abdominal y alteración del ritmo defecatorio. Antecedente: madre con poliposis adenomatosa familiar. Thevenon y parásitos en heces negativos. Reacción inflamatoria: leucocitos de 1-10 x campo. ¿Qué examen es el indicado?",
+      "opciones": [
+        "Colonoscopia",
+        "Endoscopía alta",
+        "Cápsula endoscópica",
+        "Tomografía abdominal",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Por los síntomas crónicos sugestivos de neoplasia, edad >50 años y el antecedente genético de alto riesgo (poliposis familiar), el estudio de elección obligatoria es la colonoscopia total para despistaje de cáncer colorrectal.",
+      "comentario": "Por los síntomas crónicos sugestivos de neoplasia, edad >50 años y el antecedente genético de alto riesgo (poliposis familiar), el estudio de elección obligatoria es la colonoscopia total para despistaje de cáncer colorrectal.",
+      "tema": "Cáncer colorrectal",
+      "año": 2020
     }
   ]
 }

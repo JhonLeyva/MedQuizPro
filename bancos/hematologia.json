@@ -16,6 +16,25 @@
       },
       "clave_correcta": "A",
       "comentario": "Anemia microcítica e hipocrómica con RDW elevado en una mujer con pérdidas menstruales orienta a ferropenia. La ferritina baja es el marcador más específico de depósitos de hierro agotados. En la talasemia menor el RDW suele ser normal y la HbA2 está elevada; la vitamina B12 baja produce anemia macrocítica."
+    },
+    {
+      "id": "HEM-002",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En el hemograma se encuentra: hemoglobina disminuida, microcitosis, VCM disminuido y ferritina sérica disminuida. ¿A qué tipo de anemia corresponde?",
+      "opciones": [
+        "Ferropénica",
+        "Megaloblástica",
+        "Hemolítica",
+        "Falciforme",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La anemia microcítica (VCM disminuido) asociada a niveles bajos de ferritina sérica (agotamiento de reservas) es el perfil clásico de la anemia ferropénica.",
+      "comentario": "La anemia microcítica (VCM disminuido) asociada a niveles bajos de ferritina sérica (agotamiento de reservas) es el perfil clásico de la anemia ferropénica.",
+      "tema": "Anemias",
+      "año": 2020
     }
   ]
 }

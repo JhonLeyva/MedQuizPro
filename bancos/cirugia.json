@@ -54,6 +54,44 @@
       "comentario": "Múltiples fracturas costales segmentarias consecutivas configuran un tórax inestable (flail chest). Ante la presencia de insuficiencia respiratoria clínica (taquipnea, disnea, hipoventilación), la prioridad del soporte vital es asegurar la vía aérea y la oxigenación mediante intubación orotraqueal y ventilación mecánica para estabilizar la caja torácica.",
       "tema": "Trauma torácico",
       "año": 2020
+    },
+    {
+      "id": "CIR-004",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 18 años acuchillado en región infraclavicular derecha. Presenta disnea súbita, dolor torácico derecho. Examen: PA=80/40 mmHg, FC=110 x' ingurgitación yugular (+), tórax asimétrico, hemitórax derecho timpánico, murmullo vesicular ausente. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Enfisema subcutáneo",
+        "Neumotórax a tensión",
+        "Derrame pleural",
+        "Hemotórax derecho",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El antecedente de trauma penetrante torácico asociado a shock obstructivo (hipotensión, taquicardia, ingurgitación yugular), junto con hemitórax hipersonoro/timpánico y murmullo ausente, es la presentación de un neumotórax a tensión.",
+      "comentario": "El antecedente de trauma penetrante torácico asociado a shock obstructivo (hipotensión, taquicardia, ingurgitación yugular), junto con hemitórax hipersonoro/timpánico y murmullo ausente, es la presentación de un neumotórax a tensión.",
+      "tema": "Trauma torácico",
+      "año": 2020
+    },
+    {
+      "id": "CIR-005",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es la conducta inicial para disminuir la profundidad de una quemadura en los primeros minutos?",
+      "opciones": [
+        "Hidratación parenteral",
+        "Irrigar con agua a temperatura ambiental",
+        "Corticoides en bolo",
+        "Analgésicos parenterales",
+        "Clindamicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La medida inmediata para frenar la progresión del daño térmico hacia capas profundas de la piel es retirar el agente e irrigar profusamente la lesión con agua a temperatura ambiental.",
+      "comentario": "La medida inmediata para frenar la progresión del daño térmico hacia capas profundas de la piel es retirar el agente e irrigar profusamente la lesión con agua a temperatura ambiental.",
+      "tema": "Quemaduras",
+      "año": 2020
     }
   ]
 }

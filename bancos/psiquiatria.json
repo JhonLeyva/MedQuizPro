@@ -16,6 +16,44 @@
       },
       "clave_correcta": "C",
       "comentario": "Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."
+    },
+    {
+      "id": "PSI-002",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años que acude a emergencia por episodios de palpitaciones, falta de aire, temblor, miedo a morir, parestesias y dolor en el pecho. Laboratorio: gases arteriales y EKG normales. Ha tenido 6 episodios en 2 meses. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Esquizofrenia simple",
+        "Trastorno bipolar",
+        "Trastorno de pánico",
+        "Agitación psicomotriz",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.",
+      "comentario": "Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.",
+      "tema": "Trastornos de ansiedad",
+      "año": 2020
+    },
+    {
+      "id": "PSI-003",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 15 años, admitida por náuseas, vómitos, parestesias peribucales y espasmo carpopedal. Familiar informa que tras discusión con la madre la observó agitada y taquipneica. AGA: pH=7.45, PCO2=28, HCO3=22. ¿Cuál sería la conducta inicial?",
+      "opciones": [
+        "Infusión de bicarbonato",
+        "Interconsulta a psicología",
+        "Hacerla respirar en bolsa de papel",
+        "Administrar ansiolíticos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
+      "comentario": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
+      "tema": "Trastornos ácido-base y psiquiatría",
+      "año": 2020
     }
   ]
 }

@@ -46,6 +46,44 @@
       },
       "clave_correcta": "C",
       "comentario": "Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."
+    },
+    {
+      "id": "CAR-004",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 47 años, en control pre-vacacional, presenta presión arterial de 160/100 mmHg y a los 15 minutos 164/98 mmHg. Asintomático, sin antecedentes importantes. Al examen: choque de punta amplio, sostenido y desplazado a la izquierda. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Dieta hiposódica e hipocalórica",
+        "Administrar antihipertensivo y derivar para estudio",
+        "Programar al mes para realizar nuevo control",
+        "Recomendar ejercicio aeróbico",
+        "Terapia de rehabilitación"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.",
+      "comentario": "Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.",
+      "tema": "Hipertensión arterial",
+      "año": 2020
+    },
+    {
+      "id": "CAR-005",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 15 días de vida con lactancia entrecortada, polipnea y cianosis. Rx de tórax: silueta cardiaca de pedículo estrecho y en \"forma ovoide\", con aumento de flujo sanguíneo pulmonar. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tetralogía de Fallot",
+        "Comunicación interventricular",
+        "Persistencia del conducto arterioso",
+        "Transposición de grandes arterias",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
+      "comentario": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
+      "tema": "Cardiopatías congénitas",
+      "año": 2020
     }
   ]
 }

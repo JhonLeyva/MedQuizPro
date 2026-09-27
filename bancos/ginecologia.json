@@ -54,6 +54,139 @@
       "comentario": "Detención de la fase activa de dilatación (más de 4 horas estacionaria con dinámica adecuada) asociado a desaceleraciones fetales constituye riesgo inminente de hipoxia y sufrimiento fetal, indicando cesárea de urgencia.",
       "tema": "Distocias y sufrimiento fetal",
       "año": 2020
+    },
+    {
+      "id": "GIN-004",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 24 años, 38 semanas, acude a emergencia con contracciones uterinas. Examen obstétrico normal. PA: 145/90 mmHg. No proteinuria. DHL: 376 U/L, TGO: 23 U/L, plaquetas 176,000/mm3. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Preeclampsia leve",
+        "Preeclampsia severa",
+        "Hipertensión gestacional",
+        "Eclampsia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Presión arterial >=140/90 mmHg después de las 20 semanas en ausencia de proteinuria ni signos de daño a órgano blanco (plaquetas y transaminasas normales) corresponde a hipertensión gestacional.",
+      "comentario": "Presión arterial >=140/90 mmHg después de las 20 semanas en ausencia de proteinuria ni signos de daño a órgano blanco (plaquetas y transaminasas normales) corresponde a hipertensión gestacional.",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-005",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 35 semanas asintomática. Antecedente de cesárea hace 2 años. En emergencia PA de 150/98 mmHg. Laboratorio: proteinuria negativa, plaquetas 140,000xmm3, TGO: 60 U/L, TGP: 60 U/L, DHL: 600 U/L; creatinina 1.3 mg/dL. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Hipertensión gestacional",
+        "Preeclampsia sin severidad",
+        "Hipertensión esencial",
+        "Preeclampsia con severidad",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Aunque no haya proteinuria, la presencia de hipertensión asociada a transaminasas elevadas (TGO/TGP >40) y creatinina >1.1 mg/dL define una preeclampsia con criterios de severidad por daño a órgano blanco.",
+      "comentario": "Aunque no haya proteinuria, la presencia de hipertensión asociada a transaminasas elevadas (TGO/TGP >40) y creatinina >1.1 mg/dL define una preeclampsia con criterios de severidad por daño a órgano blanco.",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-006",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Puérpera de 25 días, acude a consulta por dolor en mama izquierda y sensación de alza térmica. Examen físico: T° 38.7 °C, PA: 110/64 mmHg, pulso: 94 x', mama izquierda con zona endurecida, eritematosa de 6 cm de diámetro y caliente. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Amikacina",
+        "Dicloxacilina",
+        "Ciprofloxacina",
+        "Doxiciclina",
+        "Aspirina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Cuadro clínico de mastitis puerperal aguda. El germen más frecuente es S. aureus, por lo que el tratamiento empírico de elección ambulatorio es la dicloxacilina oral, manteniendo la lactancia.",
+      "comentario": "Cuadro clínico de mastitis puerperal aguda. El germen más frecuente es S. aureus, por lo que el tratamiento empírico de elección ambulatorio es la dicloxacilina oral, manteniendo la lactancia.",
+      "tema": "Complicaciones del puerperio",
+      "año": 2020
+    },
+    {
+      "id": "GIN-007",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 30 semanas, súbitamente presenta dolor en ambas regiones lumbares, fiebre, anorexia, náuseas y vómitos. Al examen puño percusión lumbar positiva. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Quiste de ovario a pedículo torcido",
+        "Cistitis",
+        "Apendicitis aguda",
+        "Pielonefritis aguda",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Síntomas sistémicos (fiebre, vómitos) asociados a dolor lumbar y puñopercusión positiva en el embarazo configuran el cuadro clásico de pielonefritis aguda, infección urinaria alta.",
+      "comentario": "Síntomas sistémicos (fiebre, vómitos) asociados a dolor lumbar y puñopercusión positiva en el embarazo configuran el cuadro clásico de pielonefritis aguda, infección urinaria alta.",
+      "tema": "Infecciones urinarias en la gestación",
+      "año": 2020
+    },
+    {
+      "id": "GIN-008",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Primigesta de 27 años con 41 semanas confirmadas. Feto en cefálica con bienestar fetal conservado. TV: cérvix posterior, largo, cerrado, incorporación 0%, consistencia dura. Altura de presentación: -4. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Cesárea inmediata",
+        "Esperar parto espontáneo",
+        "Maduración cervical",
+        "Inducción de trabajo de parto",
+        "Laparotomía exploratoria"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Gestación de vías prolongadas (41 ss) con feto en buenas condiciones pero un score de Bishop desfavorable (cérvix duro, cerrado y posterior). La conducta es realizar primero maduración cervical farmacológica antes de la inducción.",
+      "comentario": "Gestación de vías prolongadas (41 ss) con feto en buenas condiciones pero un score de Bishop desfavorable (cérvix duro, cerrado y posterior). La conducta es realizar primero maduración cervical farmacológica antes de la inducción.",
+      "tema": "Embarazo prolongado e inducción",
+      "año": 2020
+    },
+    {
+      "id": "GIN-009",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer con antecedente de embarazo ectópico, acude a consulta por atraso menstrual de dos días y un test de B-HCG positivo. ¿Cuál es la conducta a seguir para evaluar viabilidad del producto?",
+      "opciones": [
+        "Laparoscopía diagnóstica",
+        "Culdocentesis",
+        "B-HCG seriada",
+        "Ecografía transvaginal",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con alto riesgo de recurrencia de ectópico con prueba de embarazo positiva. La ecografía transvaginal es el método gold standard para determinar precozmente la localización (intra o extrauterina) del saco gestacional.",
+      "comentario": "Paciente con alto riesgo de recurrencia de ectópico con prueba de embarazo positiva. La ecografía transvaginal es el método gold standard para determinar precozmente la localización (intra o extrauterina) del saco gestacional.",
+      "tema": "Embarazo ectópico",
+      "año": 2020
+    },
+    {
+      "id": "GIN-010",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 36 semanas acude a un centro de salud por dolor y contracciones de regular intensidad. Al examen: presentación de nalgas, dilatación de 1 cm. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        "Realizar la maniobra de Mauriceau para liberación de cabeza",
+        "Realizar la maniobra de McRoberts para liberación de hombros",
+        "Derivar paciente a un centro de mayor nivel resolutivo",
+        "Dejar en espontáneo hasta la aparición de los omóplatos",
+        "Terapia de rehabilitación"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una gestación pretérmino en trabajo de parto incipiente y con presentación podálica implica un alto riesgo obstétrico. Un centro de salud primario no tiene la capacidad resolutiva, por lo que la derivación es perentoria.",
+      "comentario": "Una gestación pretérmino en trabajo de parto incipiente y con presentación podálica implica un alto riesgo obstétrico. Un centro de salud primario no tiene la capacidad resolutiva, por lo que la derivación es perentoria.",
+      "tema": "Distocias de presentación",
+      "año": 2020
     }
   ]
 }

@@ -16,6 +16,25 @@
       },
       "clave_correcta": "B",
       "comentario": "Exudado linfocitario con ADA > 40 U/L en un adulto joven de zona de alta prevalencia es tuberculosis pleural hasta demostrar lo contrario. La baciloscopía del líquido es positiva en menos del 10 % de los casos, así que un resultado negativo no la descarta. El derrame paraneumónico es de predominio neutrofílico y la insuficiencia cardiaca produce trasudado."
+    },
+    {
+      "id": "NEU-002",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, obeso mórbido, llega de viaje interprovincial. Acude a emergencia por disnea súbita desde hace 1 hora. Al examen: hipotenso, Homans (+), se muestra el EKG. ¿Cuál es la mejor opción terapéutica?",
+      "opciones": [
+        "Alteplase",
+        "Clopidogrel",
+        "Ácido acetilsalicílico",
+        "Warfarina",
+        "Tramadol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cuadro de tromboembolismo pulmonar (TEP) masivo sugerido por factores de riesgo (viaje largo, obesidad), signo de TVP (Homans) y descompensación hemodinámica (hipotensión). La terapia de elección es la reperfusión con trombolíticos (ej. Alteplase).",
+      "comentario": "Cuadro de tromboembolismo pulmonar (TEP) masivo sugerido por factores de riesgo (viaje largo, obesidad), signo de TVP (Homans) y descompensación hemodinámica (hipotensión). La terapia de elección es la reperfusión con trombolíticos (ej. Alteplase).",
+      "tema": "Tromboembolismo pulmonar",
+      "año": 2020
     }
   ]
 }

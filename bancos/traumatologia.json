@@ -16,6 +16,25 @@
       },
       "clave_correcta": "B",
       "comentario": "El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."
+    },
+    {
+      "id": "TRA-002",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses, en la evaluación clínica presenta contractura de aductores y asimetría de extremidades. ¿Cuál es el examen auxiliar a solicitar para descartar luxación de cadera?",
+      "opciones": [
+        "Ecografía",
+        "Resonancia magnética",
+        "Radiografía",
+        "Electromiografía",
+        "Electrocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.",
+      "comentario": "En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.",
+      "tema": "Displasia de cadera",
+      "año": 2020
     }
   ]
 }

@@ -35,6 +35,63 @@
       "comentario": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
       "tema": "Trastornos de pigmentación cutánea",
       "año": 2020
+    },
+    {
+      "id": "REU-003",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años, desde hace 2 meses dolor articular en hombros y muñecas de moderada intensidad. Hace un mes se agrega dolor en manos con rigidez matutina. Al examen: sinovitis de pequeñas articulaciones. ¿Qué examen tiene mayor especificidad diagnóstica?",
+      "opciones": [
+        "Anticuerpos antinucleares",
+        "Factor reumatoideo",
+        "Anticuerpos anticitrulinados",
+        "Anti-DNA doble cadena",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.",
+      "comentario": "En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.",
+      "tema": "Artritis Reumatoide",
+      "año": 2020
+    },
+    {
+      "id": "REU-004",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 52 años, presenta por primera vez erupción fugaz de habones pruriginosos diseminados en toda la superficie corporal y una amplia placa edematosa en cara. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Vasculitis urticarial",
+        "Eritema multiforme",
+        "Angioedema hereditario",
+        "Urticaria aguda",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.",
+      "comentario": "La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.",
+      "tema": "Reacciones adversas cutáneas",
+      "año": 2020
+    },
+    {
+      "id": "REU-005",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 8 meses con irritabilidad y prurito nocturno. Al examen: pápulas eritematosas, vesículas y pústulas en cara, tronco, palmas y plantas. Madre con lesiones similares. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Ectima",
+        "Acarosis",
+        "Dermatitis",
+        "Impétigo",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
+      "comentario": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
+      "tema": "Infecciones parasitarias de la piel",
+      "año": 2020
     }
   ]
 }

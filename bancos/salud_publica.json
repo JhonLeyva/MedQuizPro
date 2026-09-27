@@ -16,6 +16,139 @@
       },
       "clave_correcta": "B",
       "comentario": "Especificidad = verdaderos negativos / total de sanos = 180 / 200 = 90 %. En la misma tabla, la sensibilidad es 80 / 100 = 80 % y el valor predictivo positivo es 80 / (80 + 20) = 80 %. La sensibilidad y la especificidad son propias de la prueba; los valores predictivos cambian con la prevalencia de la enfermedad."
+    },
+    {
+      "id": "SP-002",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante que no habla ni entiende castellano; se niega a la atención del parto en el establecimiento de salud por temor a las \"personas extrañas\". ¿Cuál alternativa debe ofrecer el personal de salud?",
+      "opciones": [
+        "Referencia a tercer nivel",
+        "Parto humanizado con acompañante",
+        "Referencia a casa de espera",
+        "Atención por partera",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Ante barreras culturales y lingüísticas, se debe aplicar un enfoque intercultural ofreciendo el parto humanizado con acompañante para generar confianza y respetar sus derechos.",
+      "comentario": "Ante barreras culturales y lingüísticas, se debe aplicar un enfoque intercultural ofreciendo el parto humanizado con acompañante para generar confianza y respetar sus derechos.",
+      "tema": "Interculturalidad en Salud",
+      "año": 2020
+    },
+    {
+      "id": "SP-003",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 21 años que vive con su suegra que no le permite comer carne o sangrecita pensando que le afectará el parto. Frente a este hecho, ¿qué actividad deberá priorizar el personal de salud?",
+      "opciones": [
+        "Consejería nutricional",
+        "Suplementación con ácido fólico",
+        "Fortificación con vitamina B12",
+        "Abogacía con gobierno local",
+        "Omeprazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante mitos y tabúes culturales que afectan la dieta de la gestante, la intervención de primera línea es la consejería nutricional dirigida a la paciente y su entorno familiar inmediato.",
+      "comentario": "Ante mitos y tabúes culturales que afectan la dieta de la gestante, la intervención de primera línea es la consejería nutricional dirigida a la paciente y su entorno familiar inmediato.",
+      "tema": "Nutrición materna",
+      "año": 2020
+    },
+    {
+      "id": "SP-004",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Personaje público llega en mal estado a emergencia por intento de suicidio. Un personal de salud le toma una fotografía y la publica en redes sociales. ¿Qué principio ético se ha vulnerado principalmente en este caso?",
+      "opciones": [
+        "No maleficencia",
+        "Autonomía",
+        "Beneficencia",
+        "Justicia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La publicación de imágenes de un paciente sin su consentimiento es una violación a su intimidad y confidencialidad médica, principios que derivan directamente del respeto a la Autonomía del paciente.",
+      "comentario": "La publicación de imágenes de un paciente sin su consentimiento es una violación a su intimidad y confidencialidad médica, principios que derivan directamente del respeto a la Autonomía del paciente.",
+      "tema": "Principios bioéticos",
+      "año": 2020
+    },
+    {
+      "id": "SP-005",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "La directora del centro educativo, ubicado junto al centro de salud, informa que anualmente más del 5% de estudiantes de secundaria abandona los estudios por embarazo. Ante esta situación, ¿qué actividad promocional prioritaria debe realizar el equipo de salud?",
+      "opciones": [
+        "Capacitación a docentes en métodos anticonceptivos",
+        "Consejería a las autoridades sanitarias",
+        "Entrega periódica de anticonceptivos",
+        "Intervención educativa continua",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante altas tasas de embarazo adolescente y deserción escolar, la acción promocional prioritaria y sostenida es la implementación de intervenciones educativas continuas (educación sexual integral) para empoderar a los adolescentes.",
+      "comentario": "Ante altas tasas de embarazo adolescente y deserción escolar, la acción promocional prioritaria y sostenida es la implementación de intervenciones educativas continuas (educación sexual integral) para empoderar a los adolescentes.",
+      "tema": "Promoción y prevención en adolescentes",
+      "año": 2020
+    },
+    {
+      "id": "SP-006",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Durante la epidemia causada por el virus H1N1, diversos expertos aseguraron que el oseltamivir era la mejor alternativa de tratamiento, sin declarar que habían recibido apoyo financiero del laboratorio que producía dicho medicamento. ¿Cómo se tipifica lo sucedido?",
+      "opciones": [
+        "Ausencia de autocrítica",
+        "Conflicto de intereses",
+        "Uso de principio de precaución",
+        "Vulneración del principio de autonomía",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Ocultar financiamiento por parte de un laboratorio farmacéutico al emitir recomendaciones médicas públicas o guías de práctica clínica constituye una falta grave definida como conflicto de intereses.",
+      "comentario": "Ocultar financiamiento por parte de un laboratorio farmacéutico al emitir recomendaciones médicas públicas o guías de práctica clínica constituye una falta grave definida como conflicto de intereses.",
+      "tema": "Bioética e integridad científica",
+      "año": 2020
+    },
+    {
+      "id": "SP-007",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Se desea investigar el efecto de una nueva estrategia educativa sobre la adquisición de competencias de estudiantes de medicina, debiendo asignar a un grupo la intervención de acuerdo a la conveniencia del investigador. ¿Cuál es el diseño metodológico más adecuado?",
+      "opciones": [
+        "De cohorte",
+        "Ecológico",
+        "Experimental",
+        "Cuasi experimental",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Todo ensayo que implique asignar una intervención activa a un grupo de manera no aleatoria (sino por conveniencia u otros factores logísticos) clasifica como diseño de tipo cuasi experimental.",
+      "comentario": "Todo ensayo que implique asignar una intervención activa a un grupo de manera no aleatoria (sino por conveniencia u otros factores logísticos) clasifica como diseño de tipo cuasi experimental.",
+      "tema": "Diseños de investigación",
+      "año": 2020
+    },
+    {
+      "id": "SP-008",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "La responsabilidad del monitoreo del tratamiento o prevención de anemia en los niños, según el plan de lucha contra la anemia en un establecimiento de salud, corresponde a:",
+      "opciones": [
+        "Supervisión de enfermería",
+        "Jefe médico de Pediatría",
+        "Todo el personal de salud",
+        "Departamento de nutrición",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Según el Plan Nacional de Reducción y Control de la Anemia Materno Infantil en Perú, el abordaje es multisectorial e integral, recayendo la responsabilidad de la tamización, educación y seguimiento en todo el equipo de salud del establecimiento.",
+      "comentario": "Según el Plan Nacional de Reducción y Control de la Anemia Materno Infantil en Perú, el abordaje es multisectorial e integral, recayendo la responsabilidad de la tamización, educación y seguimiento en todo el equipo de salud del establecimiento.",
+      "tema": "Políticas de Salud Pública",
+      "año": 2020
     }
   ]
 }

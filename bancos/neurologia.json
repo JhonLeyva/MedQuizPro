@@ -35,6 +35,44 @@
       "comentario": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
       "tema": "Hemorragia subaracnoidea",
       "año": 2020
+    },
+    {
+      "id": "NRL-003",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Deben recibir tratamiento quirúrgico de inmediato los hematomas epidurales ubicados en...",
+      "opciones": [
+        "Fosa parietal",
+        "Fosa temporal",
+        "Piso anterior",
+        "Fosa posterior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.",
+      "comentario": "Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.",
+      "tema": "Traumatismo craneoencefálico",
+      "año": 2020
+    },
+    {
+      "id": "NRL-004",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años, alcohólico crónico, hace 6 meses con debilidad y parestesias de extremidades, disnea al esfuerzo. Al examen: pálido, pérdida de sensibilidad termoalgésica, cuadriparesia espástica leve a predominio distal. Hb: 7 g/dL, VCM: 120 fl. ¿Cuál sería el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Guillain-Barré",
+        "Encefalopatía hepática",
+        "Déficit de vitamina B12",
+        "Anemia sideroblástica",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.",
+      "comentario": "La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.",
+      "tema": "Anemias megaloblásticas",
+      "año": 2020
     }
   ]
 }

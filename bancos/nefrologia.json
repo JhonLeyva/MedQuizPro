@@ -16,6 +16,44 @@
       },
       "clave_correcta": "C",
       "comentario": "Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."
+    },
+    {
+      "id": "NEF-002",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 70 años, sin antecedentes, presenta diarreas profusas y oligoanuria. Laboratorio: creatinina 3.6 mg/dL. EKG: ondas T picudas. ¿Qué trastorno electrolítico presenta?",
+      "opciones": [
+        "Hipercalcemia",
+        "Hiponatremia",
+        "Hipomagnesemia",
+        "Hiperpotasemia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.",
+      "comentario": "La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.",
+      "tema": "Trastornos del potasio",
+      "año": 2020
+    },
+    {
+      "id": "NEF-003",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 36 años acude a emergencia por presentar desde hace 6 días escalofríos, sensación de alza térmica, náuseas, malestar general y dolor lumbar derecho. Al examen: T: 38.5 °C, dolor difuso leve en abdomen. Examen de orina: presencia de nitritos. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Cistitis",
+        "Vaginitis",
+        "Pielonefritis",
+        "Uretritis",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
+      "comentario": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
+      "tema": "Infecciones del tracto urinario",
+      "año": 2020
     }
   ]
 }

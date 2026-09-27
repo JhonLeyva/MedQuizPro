@@ -35,6 +35,63 @@
       "comentario": "Infección respiratoria aguda alta viral causada por un virus con genoma ARN monocatenario de sentido positivo perteneciente a la familia Coronaviridae.",
       "tema": "Infecciones respiratorias virales",
       "año": 2020
+    },
+    {
+      "id": "INF-003",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 18 años desde hace 20 días malestar general y mialgias, luego fiebre, faringitis y adenopatías. Al examen 38.3 °C. faringe congestiva, amígdalas hipertróficas, adenopatías en cadena cervical posterior, exantema morbiliforme en brazos y esplenomegalia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Mononucleosis infecciosa",
+        "Toxoplasmosis",
+        "Rubéola",
+        "Linfoma",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La tríada clásica de fiebre, faringitis y adenopatías cervicales (especialmente posteriores), sumado a esplenomegalia y exantema (frecuente tras aminopenicilinas), orienta a mononucleosis infecciosa por virus de Epstein-Barr.",
+      "comentario": "La tríada clásica de fiebre, faringitis y adenopatías cervicales (especialmente posteriores), sumado a esplenomegalia y exantema (frecuente tras aminopenicilinas), orienta a mononucleosis infecciosa por virus de Epstein-Barr.",
+      "tema": "Infecciones virales",
+      "año": 2020
+    },
+    {
+      "id": "INF-004",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, trabajadora sexual, último control sanitario hace 3 meses sin alteraciones. Desde hace 7 días lesión ulcerativa, indolora en labio menor izquierdo con flujo genital amarillento. RPR: negativa. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Herpes genital",
+        "Chancro luético",
+        "Quiste de Bartholino",
+        "Vulvovaginitis mixta",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Una úlcera genital única, de base limpia e indolora sugiere fuertemente chancro sifilítico (sífilis primaria). El RPR puede ser falso negativo en estadios muy tempranos antes de la seroconversión.",
+      "comentario": "Una úlcera genital única, de base limpia e indolora sugiere fuertemente chancro sifilítico (sífilis primaria). El RPR puede ser falso negativo en estadios muy tempranos antes de la seroconversión.",
+      "tema": "Infecciones de Transmisión Sexual",
+      "año": 2020
+    },
+    {
+      "id": "INF-005",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 42 años, con diagnóstico de VIH y abandono de tratamiento TARGA. Desde hace 2 semanas presenta disnea progresiva, fiebre, tos sin expectoración. Radiografía de tórax: infiltrado intersticial en bases pulmonares. DHL: elevada. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Influenza",
+        "Pneumocystosis",
+        "Tuberculosis pulmonar",
+        "Micosis pulmonar",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En un paciente con VIH sin tratamiento, la disnea insidiosa, tos seca, infiltrado intersticial bilateral en bases y DHL significativamente elevada apuntan clásicamente a neumonía por Pneumocystis jirovecii.",
+      "comentario": "En un paciente con VIH sin tratamiento, la disnea insidiosa, tos seca, infiltrado intersticial bilateral en bases y DHL significativamente elevada apuntan clásicamente a neumonía por Pneumocystis jirovecii.",
+      "tema": "Infecciones oportunistas en VIH",
+      "año": 2020
     }
   ]
 }
