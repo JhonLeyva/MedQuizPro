@@ -336,5 +336,133 @@ window.MQP_ALGORITMOS = {
     titulo: "Plan Nacional contra la Anemia: equipo de salud",
     imagen: "flujogramas/plan-nacional-anemia-equipo-salud.svg",
     alt: "Flujograma de responsabilidades del equipo de salud en el Plan Nacional contra la Anemia"
+  },
+
+  /* ---------- ENAM 2020 · bloque 2 (preguntas 72 a 122) ---------- */
+
+  "CAR-006": {
+    titulo: "Infarto agudo de miocardio inferior",
+    imagen: "flujogramas/infarto-agudo-miocardio-inferior.svg",
+    alt: "Flujograma diagnóstico del infarto agudo de miocardio de cara inferior"
+  },
+  "CB-002": {
+    titulo: "Mialgias por estatinas y gemfibrozilo",
+    imagen: "flujogramas/mialgias-estatinas-gemfibrozilo.svg",
+    alt: "Flujograma de la miopatía por la asociación de estatinas y gemfibrozilo"
+  },
+  "CB-003": {
+    titulo: "Intoxicación por organofosforados: atropina",
+    imagen: "flujogramas/intoxicacion-organofosforados-atropina.svg",
+    alt: "Flujograma de manejo de la intoxicación por organofosforados con atropina"
+  },
+  "CIR-006": {
+    titulo: "Telangiectasias: escleroterapia",
+    imagen: "flujogramas/telangiectasias-escleroterapia.svg",
+    alt: "Flujograma de manejo de las telangiectasias con escleroterapia"
+  },
+  "CIR-007": {
+    titulo: "Regla de los nueves en quemaduras",
+    imagen: "flujogramas/regla-de-los-nueves-quemaduras.svg",
+    alt: "Flujograma de cálculo de la superficie corporal quemada con la regla de los nueves"
+  },
+  "CIR-008": {
+    titulo: "Injuria inhalatoria: intubación precoz",
+    imagen: "flujogramas/injuria-inhalatoria-intubacion-precoz.svg",
+    alt: "Flujograma de manejo de la injuria inhalatoria con intubación precoz"
+  },
+  "END-005": {
+    titulo: "Hipotiroidismo primario: levotiroxina",
+    imagen: "flujogramas/hipotiroidismo-primario-levotiroxina.svg",
+    alt: "Flujograma diagnóstico y terapéutico del hipotiroidismo primario con levotiroxina"
+  },
+  "GIN-011": {
+    titulo: "Embarazo postérmino: cesárea de emergencia",
+    imagen: "flujogramas/embarazo-postermino-cesarea-emergencia.svg",
+    alt: "Flujograma de manejo del embarazo postérmino con compromiso fetal y cesárea de emergencia"
+  },
+  "GIN-012": {
+    titulo: "Maduración pulmonar fetal: betametasona",
+    imagen: "flujogramas/maduracion-pulmonar-fetal-betametasona.svg",
+    alt: "Flujograma de maduración pulmonar fetal con betametasona en el parto pretérmino"
+  },
+  "GIN-013": {
+    titulo: "Enfermedad pélvica inflamatoria: signo de Frenkel",
+    imagen: "flujogramas/enfermedad-pelvica-inflamatoria-frenkel.svg",
+    alt: "Flujograma diagnóstico de la enfermedad pélvica inflamatoria"
+  },
+  "HEM-003": {
+    titulo: "Anemia megaloblástica por resección del íleon",
+    imagen: "flujogramas/anemia-megaloblastica-reseccion-ileon.svg",
+    alt: "Flujograma de la anemia megaloblástica por malabsorción de vitamina B12 tras resección ileal"
+  },
+  "NEF-004": {
+    titulo: "Glomerulonefritis postestreptocócica: C3",
+    imagen: "flujogramas/glomerulonefritis-postestreptococica-c3.svg",
+    alt: "Flujograma diagnóstico de la glomerulonefritis postestreptocócica con complemento C3 bajo"
+  },
+  "PED-013": {
+    titulo: "Sepsis neonatal temprana: ampicilina + amikacina",
+    imagen: "flujogramas/sepsis-neonatal-temprana-ampicilina-amikacina.svg",
+    alt: "Flujograma de manejo de la sepsis neonatal temprana con ampicilina y amikacina"
+  },
+  "PED-014": {
+    titulo: "Varicela: diagnóstico clínico",
+    imagen: "flujogramas/varicela-diagnostico-clinico.svg",
+    alt: "Flujograma de diagnóstico clínico de la varicela"
+  },
+  "PED-015": {
+    titulo: "Estenosis hipertrófica de píloro: rehidratación",
+    imagen: "flujogramas/estenosis-hipertrofica-piloro-rehidratacion.svg",
+    alt: "Flujograma de manejo inicial de la estenosis hipertrófica de píloro con rehidratación"
+  },
+  "PED-016": {
+    titulo: "Laringotraqueítis (crup): estridor",
+    imagen: "flujogramas/laringotraqueitis-crup-estridor.svg",
+    alt: "Flujograma diagnóstico y terapéutico de la laringotraqueítis o crup"
+  },
+  "PED-017": {
+    titulo: "Otitis media aguda: amoxicilina",
+    imagen: "flujogramas/otitis-media-aguda-amoxicilina.svg",
+    alt: "Flujograma de tratamiento de la otitis media aguda con amoxicilina"
+  },
+  "REU-006": {
+    titulo: "Foliculitis estafilocócica: dicloxacilina",
+    imagen: "flujogramas/foliculitis-estafilococica-dicloxacilina.svg",
+    alt: "Flujograma de manejo de la foliculitis estafilocócica con dicloxacilina"
+  },
+  "SP-009": {
+    titulo: "Menor que rechaza tratamiento: aviso a la fiscalía",
+    imagen: "flujogramas/rechazo-tratamiento-menor-fiscalia.svg",
+    alt: "Flujograma de actuación ante el rechazo de tratamiento en un menor de edad"
+  },
+  "SP-010": {
+    titulo: "Prevención secundaria: diabetes y obesidad",
+    imagen: "flujogramas/prevencion-secundaria-diabetes-obesidad.svg",
+    alt: "Flujograma de los niveles de prevención aplicados a la diabetes y la obesidad"
+  },
+  "SP-011": {
+    titulo: "Captación precoz en el control prenatal",
+    imagen: "flujogramas/captacion-precoz-control-prenatal.svg",
+    alt: "Flujograma de captación precoz y seguimiento de la gestante en el control prenatal"
+  },
+  "SP-012": {
+    titulo: "Población asegurada de EsSalud",
+    imagen: "flujogramas/poblacion-asegurada-essalud.svg",
+    alt: "Flujograma de la población usuaria del Seguro Social de Salud (EsSalud)"
+  },
+  "SP-013": {
+    titulo: "Definición epidemiológica de brote",
+    imagen: "flujogramas/definicion-epidemiologica-brote.svg",
+    alt: "Flujograma de la definición epidemiológica de brote en vigilancia"
+  },
+  "TRA-003": {
+    titulo: "Sección del tendón palmar menor",
+    imagen: "flujogramas/seccion-tendon-palmar-menor.svg",
+    alt: "Flujograma de evaluación de la sección del tendón palmar menor"
+  },
+  "TRA-004": {
+    titulo: "Síndrome compartimental: fasciotomía",
+    imagen: "flujogramas/sindrome-compartimental-fasciotomia.svg",
+    alt: "Flujograma de manejo del síndrome compartimental con fasciotomía"
   }
 };
