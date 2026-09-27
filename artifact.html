@@ -1,4 +1,4 @@
-<title>MedQuizPro</title>
+<title>MedQuizPlus</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
@@ -807,38 +807,6 @@ a { color: var(--brand-strong); text-decoration-thickness: 1px; text-underline-o
 .empty { margin-top: 22px; padding: 26px; border: 1px dashed var(--line-strong); border-radius: var(--radius); color: var(--ink-3); font-family: var(--f-mono); font-size: .85rem; text-align: center; }
 .placeholder-note { margin-top: 18px; font-family: var(--f-mono); font-size: .75rem; color: var(--ink-3); }
 
-/* ---------- simulacros ---------- */
-.sim-featured {
-  margin-top: 26px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: clamp(20px, 3vw, 30px); display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(20px, 3vw, 36px); align-items: center;
-  box-shadow: var(--shadow-md);
-}
-.section--alt .sim-featured { background: var(--surface-2); }
-.sim-featured h3 { font-size: clamp(1.3rem, 1.05rem + 1vw, 1.8rem); font-family: var(--f-display); font-weight: 800; margin-top: 12px; }
-.sim-specs { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: var(--f-mono); font-size: .8rem; color: var(--ink-2); }
-.sim-specs li { display: flex; align-items: center; gap: 7px; }
-.sim-specs li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--mark); }
-.countdown { background: var(--brand-soft); border-radius: var(--radius); padding: 18px; text-align: center; }
-.countdown__label { font-family: var(--f-mono); font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brand-strong); }
-.countdown__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 12px; }
-.cd-unit { background: var(--surface); border-radius: var(--radius-sm); padding: 10px 4px; }
-.cd-unit b { display: block; font-family: var(--f-mono); font-weight: 600; font-size: clamp(1.15rem, .9rem + .9vw, 1.55rem); font-variant-numeric: tabular-nums; color: var(--ink); }
-.cd-unit span { font-family: var(--f-mono); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
-@media (max-width: 820px) { .sim-featured { grid-template-columns: 1fr; } }
-
-.sims { display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); gap: 14px; margin-top: 14px; }
-.sim { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: flex; flex-direction: column; gap: 10px; }
-.section--alt .sim { background: var(--surface-2); }
-.sim__free { font-family: var(--f-mono); font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mark); }
-.sim .btn { margin-top: auto; }
-
-/* ---------- pasos ---------- */
-.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 30px; counter-reset: step; }
-.step { border-top: 2px solid var(--line-strong); padding-top: 16px; }
-.step__n { font-family: var(--f-mono); font-size: .76rem; font-weight: 600; color: var(--mark); letter-spacing: .1em; }
-.step h3 { margin-top: 8px; }
-.step p { margin-top: 8px; color: var(--ink-2); font-size: .97rem; }
-
 /* ---------- registro ---------- */
 .signup { display: grid; grid-template-columns: .95fr 1.05fr; gap: clamp(26px, 4vw, 54px); align-items: start; }
 .form-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(20px, 3vw, 30px); box-shadow: var(--shadow-md); }
@@ -875,13 +843,306 @@ a { color: var(--brand-strong); text-decoration-thickness: 1px; text-underline-o
 .checklist li::before { content: ""; flex: none; margin-top: 7px; width: 9px; height: 9px; border-radius: 50%; border: 2px solid var(--brand); background: var(--mark); }
 @media (max-width: 860px) { .signup { grid-template-columns: 1fr; } }
 
-/* ---------- pie ---------- */
-.site-footer { background: var(--surface); border-top: 1px solid var(--line); padding-block: 38px; }
-.footer__grid { display: flex; flex-wrap: wrap; gap: 22px 40px; align-items: flex-start; }
-.footer__links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-left: auto; }
-.footer__links a { color: var(--ink-2); font-size: .92rem; text-decoration: none; }
-.footer__links a:hover { color: var(--brand-strong); text-decoration: underline; }
-.footer__fine { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .82rem; color: var(--ink-3); font-family: var(--f-mono); }
+/* ======================================================================
+   8. Componentes compartidos de sección (fases 3–5)
+   ====================================================================== */
+.section--tint { background: linear-gradient(180deg, var(--surface-2) 0%, var(--paper) 100%); border-block: 1px solid var(--line); }
+.sec-head { max-width: 680px; }
+.sec-head h2 { margin-top: var(--space-3); }
+.sec-head__lead { margin-top: var(--space-4); font-size: 1.0625rem; line-height: 1.65; color: var(--ink-2); }
+.sec-head--center { margin-inline: auto; text-align: center; }
+.sec-head--center .kicker { justify-content: center; }
+.placeholder-note { margin-top: var(--space-5); font-size: .8rem; color: var(--ink-3); }
+.placeholder-note--center { text-align: center; }
+
+.badge {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 26px; padding: 0 10px;
+  border-radius: var(--radius-pill); background: var(--surface-2); border: 1px solid var(--line);
+  font-size: .76rem; font-weight: 600; color: var(--ink-2); white-space: nowrap;
+}
+.badge svg { width: 13px; height: 13px; flex: none; }
+.badge--brand { background: var(--brand-soft); border-color: transparent; color: var(--brand-strong); }
+.badge__dot { width: 6px; height: 6px; border-radius: 50%; background: var(--brand-bright); box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand-bright) 25%, transparent); }
+.badge--time { background: var(--surface); font-variant-numeric: tabular-nums; }
+.badge--time svg { color: var(--brand); }
+
+/* ======================================================================
+   9. Simuladores (panel)
+   ====================================================================== */
+.sim-board { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: var(--space-4); margin-top: clamp(28px, 4vw, 44px); }
+.sim-main {
+  position: relative; overflow: hidden; display: flex; flex-direction: column;
+  padding: clamp(22px, 3vw, 32px); border-radius: var(--radius-xl);
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-md);
+}
+.sim-main::before {
+  content: ""; position: absolute; right: -120px; top: -120px; width: 320px; height: 320px; pointer-events: none;
+  background: radial-gradient(circle, color-mix(in srgb, var(--brand-bright) 16%, transparent), transparent 65%);
+}
+.sim-main__head { display: flex; flex-wrap: wrap; gap: 8px; }
+.sim-main__title { margin-top: var(--space-5); font-size: clamp(1.45rem, 1.1rem + 1.2vw, 2rem); font-weight: 800; letter-spacing: -.025em; }
+.sim-main__lead { margin-top: var(--space-2); color: var(--ink-2); max-width: 52ch; }
+
+.sim-kpis { margin: var(--space-6) 0 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface-2); }
+.sim-kpi { padding: 14px 16px; border-left: 1px solid var(--line); min-width: 0; }
+.sim-kpi:first-child { border-left: 0; }
+.sim-kpi dt { font-size: .75rem; font-weight: 500; color: var(--ink-3); }
+.sim-kpi dd { margin: 4px 0 0; display: flex; align-items: center; gap: 8px; font-family: var(--f-display); font-size: 1.35rem; font-weight: 800; letter-spacing: -.02em; color: var(--ink); font-variant-numeric: tabular-nums; }
+.diff { display: inline-flex; gap: 3px; }
+.diff i { width: 5px; height: 14px; border-radius: 2px; background: var(--brand); }
+.diff i.off { background: var(--line-strong); }
+
+.sim-areas { list-style: none; margin: var(--space-4) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.sim-areas li { padding: 4px 10px; border-radius: var(--radius-pill); background: var(--brand-tint); border: 1px solid color-mix(in srgb, var(--brand) 14%, transparent); font-size: .78rem; font-weight: 500; color: var(--brand-strong); }
+
+.sim-main__foot { margin-top: auto; padding-top: var(--space-6); display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-4); }
+.countdown { background: none; padding: 0; text-align: left; }
+.countdown__label { font-family: var(--f-body); font-size: .8rem; font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--ink-3); }
+.countdown__grid { display: flex; gap: 6px; margin-top: 8px; }
+.cd-unit { min-width: 58px; padding: 8px 6px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--line); text-align: center; }
+.cd-unit b { display: block; font-family: var(--f-display); font-weight: 800; font-size: 1.3rem; line-height: 1.1; font-variant-numeric: tabular-nums; color: var(--ink); }
+.cd-unit span { font-family: var(--f-body); font-size: .66rem; font-weight: 500; letter-spacing: .02em; text-transform: none; color: var(--ink-3); }
+
+.sim-side { display: grid; gap: var(--space-4); }
+.sim-card {
+  display: flex; flex-direction: column; padding: 20px; border-radius: var(--radius-lg);
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-xs);
+  transition: transform .22s var(--ease), box-shadow .22s var(--ease), border-color .22s var(--ease);
+}
+.sim-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: color-mix(in srgb, var(--brand) 25%, var(--line)); }
+.sim-card__top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.sim-card__icon { width: 38px; height: 38px; border-radius: 11px; display: grid; place-items: center; background: var(--brand-soft); color: var(--brand); }
+.sim-card__icon svg { width: 19px; height: 19px; }
+.sim-card h3 { margin-top: var(--space-3); font-size: 1.05rem; }
+.sim-card p { margin-top: 4px; font-size: .9rem; color: var(--ink-2); line-height: 1.55; }
+.sim-card__link { margin-top: var(--space-3); align-self: flex-start; font-size: .9rem; font-weight: 600; color: var(--brand-strong); text-decoration: none; }
+.sim-card__link span { display: inline-block; transition: transform var(--dur) var(--ease); }
+.sim-card__link:hover span { transform: translateX(3px); }
+
+@media (max-width: 980px) { .sim-board { grid-template-columns: minmax(0, 1fr); } .sim-side { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .sim-side { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 560px) {
+  .sim-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sim-kpi:nth-child(3) { border-left: 0; }
+  .sim-kpi:nth-child(n+3) { border-top: 1px solid var(--line); }
+  .sim-main__foot, .sim-main__cta { width: 100%; }
+  .countdown__grid .cd-unit { flex: 1; min-width: 0; }
+}
+
+/* ======================================================================
+   10. Cómo funciona
+   ====================================================================== */
+.flow { list-style: none; margin: clamp(32px, 5vw, 56px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-8); position: relative; }
+/* línea guía que une los números */
+.flow::before {
+  content: ""; position: absolute; top: 28px; left: calc(16.66% + 28px); right: calc(16.66% + 28px); height: 2px;
+  background: repeating-linear-gradient(90deg, var(--line-strong) 0 6px, transparent 6px 12px);
+}
+.flow__step { position: relative; text-align: center; padding-inline: var(--space-2); }
+.flow__num {
+  position: relative; z-index: 1; display: inline-grid; place-items: center; width: 56px; height: 56px; border-radius: 16px;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm), 0 0 0 6px var(--paper);
+  font-family: var(--f-display); font-size: 1.15rem; font-weight: 800; color: var(--brand); font-variant-numeric: tabular-nums;
+}
+.flow__step:last-child .flow__num { background: var(--brand); border-color: var(--brand); color: var(--on-brand); }
+.flow__step h3 { margin-top: var(--space-5); font-size: 1.15rem; }
+.flow__step p { margin: var(--space-2) auto 0; max-width: 34ch; color: var(--ink-2); font-size: .95rem; }
+@media (max-width: 760px) {
+  .flow { grid-template-columns: minmax(0, 1fr); gap: var(--space-6); }
+  .flow::before { top: 28px; bottom: 28px; left: 27px; right: auto; width: 2px; height: auto; background: repeating-linear-gradient(180deg, var(--line-strong) 0 6px, transparent 6px 12px); }
+  .flow__step { display: grid; grid-template-columns: 56px minmax(0, 1fr); column-gap: var(--space-4); text-align: left; padding: 0; }
+  .flow__num { grid-row: span 2; }
+  .flow__step h3 { margin-top: 4px; }
+  .flow__step p { margin: 4px 0 0; }
+}
+
+/* ======================================================================
+   11. Diferenciadores
+   ====================================================================== */
+.features { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); margin-top: clamp(28px, 4vw, 44px); }
+.feature {
+  position: relative; overflow: hidden; padding: 24px; border-radius: var(--radius-lg);
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-xs);
+  transition: transform .22s var(--ease), box-shadow .22s var(--ease), border-color .22s var(--ease);
+}
+.feature::after { content: ""; position: absolute; inset: 0 0 auto; height: 3px; background: linear-gradient(90deg, var(--brand), var(--brand-bright)); transform: scaleX(0); transform-origin: left; transition: transform .3s var(--ease); }
+.feature:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: color-mix(in srgb, var(--brand) 25%, var(--line)); }
+.feature:hover::after { transform: scaleX(1); }
+.feature__icon { width: 44px; height: 44px; border-radius: 13px; display: grid; place-items: center; background: var(--brand-soft); color: var(--brand); transition: background-color .22s var(--ease), color .22s var(--ease); }
+.feature:hover .feature__icon { background: var(--brand); color: var(--on-brand); }
+.feature__icon svg { width: 22px; height: 22px; }
+.feature h3 { margin-top: var(--space-5); font-size: 1.08rem; }
+.feature p { margin-top: var(--space-2); font-size: .92rem; color: var(--ink-2); line-height: 1.6; }
+@media (max-width: 1024px) { .features { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .features { grid-template-columns: minmax(0, 1fr); } }
+
+/* ======================================================================
+   12. Product preview (maqueta del panel)
+   ====================================================================== */
+.app {
+  margin: clamp(32px, 5vw, 56px) 0 0; border-radius: var(--radius-xl); overflow: hidden;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-lg);
+}
+.app__chrome { display: flex; align-items: center; gap: var(--space-4); padding: 12px 16px; background: var(--surface-2); border-bottom: 1px solid var(--line); }
+.app__url { flex: 1; max-width: 340px; margin-inline: auto; padding: 4px 12px; border-radius: var(--radius-pill); background: var(--surface); border: 1px solid var(--line); font-size: .76rem; color: var(--ink-3); text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.app__body { display: grid; grid-template-columns: 188px minmax(0, 1fr); }
+.app__nav { display: flex; flex-direction: column; gap: 4px; padding: 18px 12px; border-right: 1px solid var(--line); background: var(--surface-2); }
+.app__logo { width: 32px; height: 32px; margin: 0 0 14px 6px; }
+.app__navitem { display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 10px; font-size: .86rem; font-weight: 500; color: var(--ink-2); }
+.app__navitem svg { width: 17px; height: 17px; flex: none; }
+.app__navitem.is-active { background: var(--surface); color: var(--brand-strong); font-weight: 600; box-shadow: var(--shadow-xs); }
+.app__main { padding: clamp(16px, 2.5vw, 28px); min-width: 0; }
+.app__top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.app__hello { font-family: var(--f-display); font-size: 1.3rem; font-weight: 800; letter-spacing: -.02em; }
+.app__sub { font-size: .85rem; color: var(--ink-3); }
+.app__kpis { margin: var(--space-5) 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-3); }
+.kpi { padding: 14px 16px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); min-width: 0; }
+.kpi dt { font-size: .76rem; font-weight: 500; color: var(--ink-3); }
+.kpi dd { margin: 4px 0 0; font-family: var(--f-display); font-size: 1.6rem; font-weight: 800; letter-spacing: -.03em; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.1; }
+.kpi dd small { font-size: .9rem; font-weight: 600; color: var(--ink-3); letter-spacing: 0; }
+.kpi__delta { display: block; margin-top: 4px; font-size: .74rem; font-weight: 500; color: var(--ink-2); }
+.app__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: var(--space-3); margin-top: var(--space-3); }
+.panel { padding: 16px 18px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); min-width: 0; }
+.panel__head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.panel__title { font-size: .92rem; font-weight: 700; color: var(--ink); }
+.panel__hint { font-size: .74rem; color: var(--ink-3); }
+/* barras: una sola serie, un solo tono; valores en tinta de texto */
+.bars { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; }
+.bars__row { display: grid; grid-template-columns: 96px minmax(0, 1fr) 38px; align-items: center; gap: 10px; border-radius: 6px; }
+.bars__label { font-size: .8rem; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bars__track { height: 10px; border-radius: 0 4px 4px 0; background: var(--surface-2); overflow: hidden; }
+.bars__fill { display: block; height: 100%; width: calc(var(--v) * 1%); border-radius: 0 4px 4px 0; background: var(--brand); transition: filter var(--dur) var(--ease); }
+.bars__row:hover .bars__fill { filter: brightness(1.15); }
+.bars__row:hover .bars__label { color: var(--ink); }
+.bars__val { font-size: .8rem; font-weight: 600; color: var(--ink); text-align: right; font-variant-numeric: tabular-nums; }
+.panel__foot { display: flex; align-items: center; gap: 8px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); font-size: .8rem; color: var(--ink-2); }
+.focus-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--mark); flex: none; }
+.case__stem { margin-top: 12px; font-size: .86rem; line-height: 1.55; color: var(--ink); }
+.case__opts { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.case__opts li { padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); font-size: .8rem; color: var(--ink-2); }
+.case__opts li.is-right { border-color: var(--ok); background: var(--ok-soft); color: var(--ink); font-weight: 600; }
+.case__why { margin-top: 10px; padding: 9px 11px; border-radius: 8px; background: var(--surface-2); font-size: .78rem; line-height: 1.5; color: var(--ink-2); }
+.case__why b { color: var(--brand-strong); }
+@media (max-width: 900px) {
+  .app__body { grid-template-columns: minmax(0, 1fr); }
+  .app__nav { display: none; }
+  .app__grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .app__kpis { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .kpi:last-child { grid-column: span 2; }
+  .kpi dd { font-size: 1.35rem; }
+  .bars__row { grid-template-columns: 84px minmax(0, 1fr) 36px; }
+}
+
+/* ======================================================================
+   13. Planes
+   ====================================================================== */
+.plans { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5); max-width: 880px; margin: clamp(32px, 5vw, 48px) auto 0; align-items: stretch; }
+.plan { position: relative; display: flex; flex-direction: column; padding: clamp(24px, 3vw, 32px); border-radius: var(--radius-xl); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm); }
+.plan--pro { border: 2px solid var(--brand); box-shadow: var(--shadow-lg), 0 0 0 6px color-mix(in srgb, var(--brand-bright) 10%, transparent); }
+.plan__badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); padding: 4px 14px; border-radius: var(--radius-pill); background: var(--brand); color: var(--on-brand); font-size: .75rem; font-weight: 700; letter-spacing: .03em; white-space: nowrap; box-shadow: var(--shadow-brand); }
+.plan__name { font-size: 1.2rem; }
+.plan__desc { margin-top: 4px; font-size: .92rem; color: var(--ink-2); }
+.plan__price { margin: var(--space-5) 0 var(--space-5); display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; min-height: 52px; }
+.plan__amount { font-family: var(--f-display); font-size: 2.5rem; font-weight: 800; letter-spacing: -.04em; line-height: 1; color: var(--ink); }
+.plan__amount--soon { font-size: 1.45rem; letter-spacing: -.02em; color: var(--brand-strong); }
+.plan__per { font-size: .88rem; color: var(--ink-3); }
+.plan__list { list-style: none; margin: var(--space-6) 0 0; padding: var(--space-5) 0 0; border-top: 1px solid var(--line); display: grid; gap: 12px; }
+.plan__list li { display: flex; gap: 10px; align-items: flex-start; font-size: .94rem; color: var(--ink-2); }
+.plan__list li::before {
+  content: ""; flex: none; width: 20px; height: 20px; margin-top: 1px; border-radius: 50%;
+  background: var(--ok-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2315803d' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E") center / 13px no-repeat;
+}
+.plan--pro .plan__list li { color: var(--ink); }
+@media (max-width: 720px) { .plans { grid-template-columns: minmax(0, 1fr); gap: var(--space-8); } }
+
+/* ---------- registro (armonizado con el sistema) ---------- */
+.signup__lead { margin-top: var(--space-4); }
+.signup h2 { margin-top: var(--space-3); }
+.field > label { font-family: var(--f-body); font-size: .85rem; letter-spacing: 0; text-transform: none; color: var(--ink); }
+.field input, .field select { border-radius: 12px; border-color: var(--line-strong); transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease); }
+.field input:focus, .field select:focus { outline: none; border-color: var(--brand); box-shadow: var(--ring); }
+.field .err { font-family: var(--f-body); }
+.radio span { font-family: var(--f-body); font-size: .88rem; }
+.radio input:focus-visible + span { outline: none; box-shadow: var(--ring); }
+.form-card { border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); }
+.checklist li::before { border: 0; width: 20px; height: 20px; margin-top: 2px; background: var(--ok-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2315803d' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E") center / 13px no-repeat; }
+
+/* ======================================================================
+   14. FAQ
+   ====================================================================== */
+.faq-wrap { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
+.faq { display: grid; gap: 10px; }
+.faq__item { border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-xs); transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease); }
+.faq__item[open] { border-color: color-mix(in srgb, var(--brand) 30%, var(--line)); box-shadow: var(--shadow-sm); }
+.faq__item summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; list-style: none;
+  padding: 18px 20px; font-weight: 600; font-size: 1rem; color: var(--ink); border-radius: inherit;
+}
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary::after {
+  content: ""; flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--surface-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 6v12M6 12h12'/%3E%3C/svg%3E") center / 14px no-repeat;
+  transition: transform .25s var(--ease), background-color var(--dur) var(--ease);
+}
+.faq__item[open] summary::after { transform: rotate(45deg); background-color: var(--brand-soft); }
+.faq__item summary:hover { color: var(--brand-strong); }
+.faq__item summary:focus-visible { outline: none; box-shadow: var(--ring); }
+.faq__body { padding: 0 20px 18px; color: var(--ink-2); font-size: .95rem; line-height: 1.65; }
+.faq__item[open] .faq__body { animation: demoIn .25s var(--ease); }
+@media (max-width: 860px) { .faq-wrap { grid-template-columns: minmax(0, 1fr); } }
+
+/* ======================================================================
+   15. CTA final
+   ====================================================================== */
+.final-cta { padding-block: clamp(48px, 7vw, 96px); }
+.final-cta__card {
+  position: relative; overflow: hidden; isolation: isolate; text-align: center;
+  padding: clamp(40px, 6vw, 72px) clamp(20px, 5vw, 64px); border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, #0f766e 0%, #115e59 55%, #134e4a 100%); color: #fff;
+  box-shadow: var(--shadow-lg);
+}
+.final-cta__card::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; opacity: .5;
+  background-image: linear-gradient(to right, rgba(255,255,255,.07) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,.07) 1px, transparent 1px);
+  background-size: 44px 44px;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 20%, transparent 75%); mask-image: radial-gradient(ellipse at center, #000 20%, transparent 75%);
+}
+.final-cta__card::after { content: ""; position: absolute; z-index: -1; width: 480px; height: 480px; right: -160px; top: -200px; background: radial-gradient(circle, rgba(45, 212, 191, .35), transparent 65%); }
+.final-cta h2 { color: #fff; max-width: 20ch; margin-inline: auto; }
+.final-cta p { margin: var(--space-4) auto 0; max-width: 46ch; font-size: 1.08rem; color: rgba(255, 255, 255, .82); }
+.final-cta__btn { margin-top: var(--space-8); background: #fff; color: #0f4f4a; box-shadow: 0 10px 24px -10px rgba(0, 0, 0, .45); }
+.final-cta__btn:hover { background: #f0fdfa; color: #0f4f4a; }
+.final-cta__btn:focus-visible { box-shadow: 0 0 0 4px rgba(255, 255, 255, .45); }
+.final-cta .final-cta__trust { margin-top: var(--space-5); font-size: .88rem; color: rgba(255, 255, 255, .72); }
+
+/* ======================================================================
+   16. Footer
+   ====================================================================== */
+.site-footer { background: var(--surface); border-top: 1px solid var(--line); padding-block: clamp(40px, 6vw, 64px) 28px; }
+.footer__top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr); gap: clamp(28px, 5vw, 64px); }
+.footer__brand p { margin-top: var(--space-4); max-width: 34ch; font-size: .9rem; color: var(--ink-3); line-height: 1.6; }
+.footer__cols { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-6); }
+.footer__title { font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); }
+.footer__col ul { list-style: none; margin: var(--space-4) 0 0; padding: 0; display: grid; gap: 10px; }
+.footer__col a { display: inline-flex; align-items: center; gap: 7px; font-size: .9rem; color: var(--ink-2); text-decoration: none; transition: color var(--dur) var(--ease); }
+.footer__col a:hover { color: var(--brand-strong); }
+.footer__col a svg { width: 16px; height: 16px; flex: none; }
+.footer__legal { margin-top: clamp(28px, 4vw, 44px); font-size: .8rem; color: var(--ink-3); line-height: 1.55; max-width: 90ch; }
+.footer__bottom { margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--line); font-size: .85rem; color: var(--ink-3); }
+@media (max-width: 900px) { .footer__top { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 640px) { .footer__cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-8) var(--space-5); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .feature, .feature::after, .sim-card, .faq__item summary::after { transition: none; }
+  .feature:hover, .sim-card:hover { transform: none; }
+  .faq__item[open] .faq__body { animation: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .plan__list li::before, :root:not([data-theme="light"]) .checklist li::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234ade80' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E"); }
+}
+:root[data-theme="dark"] .plan__list li::before, :root[data-theme="dark"] .checklist li::before { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234ade80' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12.5l4 4L18 8.5'/%3E%3C/svg%3E"); }
 
 /* ---------- barra fija móvil ---------- */
 .mobile-cta {
@@ -1243,102 +1504,274 @@ a { color: var(--brand-strong); text-decoration-thickness: 1px; text-underline-o
     </div>
   </section>
 
-  <!-- ====================== SIMULACROS GRATIS ====================== -->
-  <section class="section section--alt" id="simulacros">
+  <!-- ====================== SIMULADORES ====================== -->
+  <section class="section section--tint" id="simulacros" aria-labelledby="simTitle">
     <div class="wrap">
-      <div class="section__head reveal">
-        <p class="eyebrow">Simulacros gratis</p>
-        <h2>Un simulacro completo, abierto y sin costo cada semana.</h2>
-        <p class="lead">Mismo número de preguntas, mismo reloj y mismo orden de áreas que el examen oficial. Al terminar recibes tu puntaje por área y la explicación de cada pregunta.</p>
+      <div class="sec-head reveal">
+        <p class="kicker">Simuladores</p>
+        <h2 id="simTitle">Simula el examen antes de enfrentarlo.</h2>
+        <p class="sec-head__lead">Práctica cronometrada con el mismo número de preguntas, el mismo reloj y el mismo orden de áreas del ENAM, el Residentado Médico y EsSalud. Al terminar ves tu puntaje por área y la explicación de cada pregunta.</p>
       </div>
 
-      <div class="sim-featured reveal">
-        <div>
-          <span class="sim__free">Abierto · sin costo</span>
-          <h3>Simulacro ENAM completo</h3>
-          <ul class="sim-specs">
-            <li>180 preguntas</li>
-            <li>4 horas cronometradas</li>
-            <li>Reporte por área</li>
-            <li>Ranking opcional</li>
+      <div class="sim-board">
+        <!-- tarjeta principal -->
+        <article class="sim-main reveal">
+          <div class="sim-main__head">
+            <span class="badge badge--brand"><span class="badge__dot" aria-hidden="true"></span>Abierto · sin costo</span>
+            <span class="badge">Cada sábado · 09:00 (hora de Perú)</span>
+          </div>
+          <h3 class="sim-main__title">Simulacro ENAM completo</h3>
+          <p class="sim-main__lead">La experiencia más cercana al día del examen: mismo ritmo, misma presión y un reporte que te dice dónde estás perdiendo puntos.</p>
+
+          <dl class="sim-kpis">
+            <div class="sim-kpi"><dt>Duración</dt><dd>4 h</dd></div>
+            <div class="sim-kpi"><dt>Preguntas</dt><dd>180</dd></div>
+            <div class="sim-kpi"><dt>Áreas evaluadas</dt><dd>5</dd></div>
+            <div class="sim-kpi"><dt>Dificultad</dt><dd><span class="diff" aria-label="Dificultad alta, 4 de 5"><i></i><i></i><i></i><i></i><i class="off"></i></span>Alta</dd></div>
+          </dl>
+
+          <ul class="sim-areas" aria-label="Áreas evaluadas">
+            <li>Medicina Interna</li><li>Pediatría</li><li>Ginecología y Obstetricia</li><li>Cirugía</li><li>Salud Pública</li>
           </ul>
-          <div class="hero__actions">
-            <a class="btn btn--primary" href="#registro">Reservar mi lugar</a>
-          </div>
-        </div>
-        <div class="countdown">
-          <p class="countdown__label">Abre en</p>
-          <div class="countdown__grid" id="countdown" aria-live="polite">
-            <div class="cd-unit"><b id="cdD">--</b><span>días</span></div>
-            <div class="cd-unit"><b id="cdH">--</b><span>horas</span></div>
-            <div class="cd-unit"><b id="cdM">--</b><span>min</span></div>
-            <div class="cd-unit"><b id="cdS">--</b><span>seg</span></div>
-          </div>
-          <p class="bank__meta" style="margin-top:12px">Sábados, 09:00 (hora de Perú)</p>
-        </div>
-      </div>
 
-      <div class="sims">
-        <article class="sim reveal">
-          <span class="sim__free">Gratis</span>
-          <h3>RM Express</h3>
-          <p class="bank__meta">60 preguntas · 60 minutos</p>
-          <p class="lead" style="font-size:.95rem">Un bloque corto para medir ritmo y descarte cuando no tienes cuatro horas libres.</p>
-          <a class="btn btn--ghost" href="#registro">Empezar ahora</a>
+          <div class="sim-main__foot">
+            <div class="countdown" aria-labelledby="cdLabel">
+              <p class="countdown__label" id="cdLabel">El próximo simulacro abre en</p>
+              <div class="countdown__grid" id="countdown" aria-live="polite">
+                <div class="cd-unit"><b id="cdD">--</b><span>días</span></div>
+                <div class="cd-unit"><b id="cdH">--</b><span>horas</span></div>
+                <div class="cd-unit"><b id="cdM">--</b><span>min</span></div>
+                <div class="cd-unit"><b id="cdS">--</b><span>seg</span></div>
+              </div>
+            </div>
+            <a class="btn btn--primary btn--lg sim-main__cta" href="#registro">
+              Reservar mi lugar
+              <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
         </article>
-        <article class="sim reveal">
-          <span class="sim__free">Gratis</span>
-          <h3>EsSalud · Salud Pública</h3>
-          <p class="bank__meta">40 preguntas · 40 minutos</p>
-          <p class="lead" style="font-size:.95rem">Normativa, atención primaria e indicadores. El área donde más puntos se regalan.</p>
-          <a class="btn btn--ghost" href="#registro">Empezar ahora</a>
-        </article>
-        <article class="sim reveal">
-          <span class="sim__free">Gratis</span>
-          <h3>Diagnóstico inicial</h3>
-          <p class="bank__meta">30 preguntas · 25 minutos</p>
-          <p class="lead" style="font-size:.95rem">Diez minutos para saber por qué área conviene que empieces a estudiar.</p>
-          <a class="btn btn--ghost" href="#registro">Empezar ahora</a>
-        </article>
+
+        <!-- tarjetas secundarias -->
+        <div class="sim-side">
+          <article class="sim-card reveal">
+            <div class="sim-card__top">
+              <span class="sim-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+              <span class="badge badge--time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>60 min</span>
+            </div>
+            <h3>Simulacro Express</h3>
+            <p>60 preguntas mixtas para medir ritmo y descarte cuando no tienes cuatro horas libres.</p>
+            <a class="sim-card__link" href="#registro">Empezar ahora <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="sim-card reveal">
+            <div class="sim-card__top">
+              <span class="sim-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+              <span class="badge badge--time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>25 min</span>
+            </div>
+            <h3>Diagnóstico inicial por área</h3>
+            <p>30 preguntas para saber por qué especialidad te conviene empezar a estudiar.</p>
+            <a class="sim-card__link" href="#registro">Hacer diagnóstico <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="sim-card reveal">
+            <div class="sim-card__top">
+              <span class="sim-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/></svg></span>
+              <span class="badge badge--time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>40 min</span>
+            </div>
+            <h3>EsSalud · Salud Pública</h3>
+            <p>40 preguntas de normativa, atención primaria e indicadores: el área donde más puntos se regalan.</p>
+            <a class="sim-card__link" href="#registro">Empezar ahora <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
       </div>
       <p class="placeholder-note">Fechas y simulacros de ejemplo para la demostración.</p>
     </div>
   </section>
 
   <!-- ====================== CÓMO FUNCIONA ====================== -->
-  <section class="section" id="como-funciona">
+  <section class="section" id="como-funciona" aria-labelledby="howTitle">
     <div class="wrap">
-      <div class="section__head reveal">
-        <p class="eyebrow">Cómo funciona</p>
-        <h2>Tres pasos, en ese orden.</h2>
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">Cómo funciona</p>
+        <h2 id="howTitle">Tres pasos para dominar tu examen.</h2>
       </div>
-      <div class="steps">
-        <div class="step reveal">
-          <p class="step__n">PASO 01</p>
-          <h3>Elige el banco</h3>
-          <p>Por examen y por área. Puedes armar una sesión de 10 preguntas o de 180.</p>
-        </div>
-        <div class="step reveal">
-          <p class="step__n">PASO 02</p>
+      <ol class="flow">
+        <li class="flow__step reveal">
+          <span class="flow__num" aria-hidden="true">01</span>
+          <h3>Elige el banco o especialidad</h3>
+          <p>Entra por el examen que rindes o por el área que te está costando. Armas sesiones de 10 preguntas o de 180.</p>
+        </li>
+        <li class="flow__step reveal">
+          <span class="flow__num" aria-hidden="true">02</span>
           <h3>Resuelve contra el reloj</h3>
-          <p>El cronómetro corre como en el examen. Puedes marcar preguntas para volver después.</p>
+          <p>El cronómetro corre como en el examen real. Marca las dudosas y vuelve a ellas antes de entregar.</p>
+        </li>
+        <li class="flow__step reveal">
+          <span class="flow__num" aria-hidden="true">03</span>
+          <h3>Revisa la explicación clínica y analiza errores</h3>
+          <p>Cada caso cierra con el porqué de la respuesta y de cada distractor, y tu reporte marca el área a reforzar.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ====================== DIFERENCIADORES ====================== -->
+  <section class="section section--tint" id="ventajas" aria-labelledby="featTitle">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">Por qué MedQuizPlus</p>
+        <h2 id="featTitle">Más que un banco de preguntas.</h2>
+        <p class="sec-head__lead">Una preparación de alto rendimiento: practicas como en el examen, entiendes cada error y sabes exactamente qué estudiar después.</p>
+      </div>
+      <div class="features">
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg></span>
+          <h3>Preguntas comentadas</h3>
+          <p>Cada caso trae la justificación clínica de la respuesta correcta y el análisis de por qué fallan los distractores.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg></span>
+          <h3>Simulacros cronometrados</h3>
+          <p>Condiciones reales de examen: mismo número de preguntas, mismo reloj y reporte de puntaje por área al terminar.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></svg></span>
+          <h3>Tutor clínico de IA</h3>
+          <p>Resuelve dudas de casos complejos al instante, con retroalimentación pensada para el ENAM y el Residentado.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <h3>Entrenamiento por especialidad</h3>
+          <p>17 bancos alineados con las especialidades médicas oficiales para atacar primero tus áreas débiles.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== PRODUCT PREVIEW ====================== -->
+  <section class="section" id="plataforma" aria-labelledby="previewTitle">
+    <div class="wrap">
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">La plataforma</p>
+        <h2 id="previewTitle">Todo tu entrenamiento, en un solo lugar.</h2>
+        <p class="sec-head__lead">Tu progreso, los casos que resuelves y tu dominio por especialidad, en un panel pensado para estudiar con foco.</p>
+      </div>
+
+      <figure class="app reveal" aria-label="Vista de ejemplo del panel del estudiante">
+        <div class="app__chrome" aria-hidden="true">
+          <span class="demo__dots"><i></i><i></i><i></i></span>
+          <span class="app__url">app.medquizplus.pe/panel</span>
         </div>
-        <div class="step reveal">
-          <p class="step__n">PASO 03</p>
-          <h3>Revisa la explicación</h3>
-          <p>Cada pregunta cierra con el porqué de la respuesta y el porqué de los distractores.</p>
+        <div class="app__body">
+          <aside class="app__nav" aria-hidden="true">
+            <span class="brand__mark app__logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span>
+            <span class="app__navitem is-active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Panel</span>
+            <span class="app__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/></svg>Bancos</span>
+            <span class="app__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>Simulacros</span>
+            <span class="app__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/></svg>Reportes</span>
+          </aside>
+
+          <div class="app__main">
+            <div class="app__top">
+              <div>
+                <p class="app__hello">Hola, Ana</p>
+                <p class="app__sub">Faltan 38 días para tu ENAM</p>
+              </div>
+              <span class="badge badge--brand"><span class="badge__dot" aria-hidden="true"></span>Racha de 12 días</span>
+            </div>
+
+            <dl class="app__kpis">
+              <div class="kpi"><dt>Precisión global</dt><dd>72%</dd><span class="kpi__delta">▲ 6 pts este mes</span></div>
+              <div class="kpi"><dt>Preguntas resueltas</dt><dd>1 248</dd><span class="kpi__delta">▲ 214 esta semana</span></div>
+              <div class="kpi"><dt>Último simulacro</dt><dd>128<small>/180</small></dd><span class="kpi__delta">Percentil 81</span></div>
+            </dl>
+
+            <div class="app__grid">
+              <div class="panel">
+                <div class="panel__head">
+                  <p class="panel__title">Dominio por especialidad</p>
+                  <span class="panel__hint">% de aciertos</span>
+                </div>
+                <ul class="bars">
+                  <li class="bars__row" title="Cardiología: 84% de aciertos"><span class="bars__label">Cardiología</span><span class="bars__track"><span class="bars__fill" style="--v:84"></span></span><span class="bars__val">84%</span></li>
+                  <li class="bars__row" title="Pediatría: 78% de aciertos"><span class="bars__label">Pediatría</span><span class="bars__track"><span class="bars__fill" style="--v:78"></span></span><span class="bars__val">78%</span></li>
+                  <li class="bars__row" title="Ginecología y Obstetricia: 71% de aciertos"><span class="bars__label">Ginecología</span><span class="bars__track"><span class="bars__fill" style="--v:71"></span></span><span class="bars__val">71%</span></li>
+                  <li class="bars__row" title="Infectología: 66% de aciertos"><span class="bars__label">Infectología</span><span class="bars__track"><span class="bars__fill" style="--v:66"></span></span><span class="bars__val">66%</span></li>
+                  <li class="bars__row" title="Salud Pública: 54% de aciertos"><span class="bars__label">Salud Pública</span><span class="bars__track"><span class="bars__fill" style="--v:54"></span></span><span class="bars__val">54%</span></li>
+                </ul>
+                <p class="panel__foot"><span class="focus-dot" aria-hidden="true"></span>Siguiente foco sugerido: <b>Salud Pública</b></p>
+              </div>
+
+              <div class="panel panel--case">
+                <div class="panel__head">
+                  <p class="panel__title">Caso en curso</p>
+                  <span class="badge badge--time">Pregunta 42 de 60</span>
+                </div>
+                <p class="case__stem">Mujer de 27 años, gestante de 32 semanas, con PA 150/100 mmHg y proteinuria de 24 h de 450 mg. ¿Cuál es el diagnóstico?</p>
+                <ul class="case__opts">
+                  <li>Hipertensión gestacional</li>
+                  <li class="is-right">Preeclampsia sin criterios de severidad</li>
+                  <li>Hipertensión crónica</li>
+                </ul>
+                <p class="case__why"><b>Comentario docente:</b> PA ≥ 140/90 después de las 20 semanas con proteinuria ≥ 300 mg/24 h, sin signos de severidad.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </figure>
+      <p class="placeholder-note placeholder-note--center">Vista de ejemplo con datos ilustrativos.</p>
+    </div>
+  </section>
+
+  <!-- ====================== PLANES ====================== -->
+  <section class="section section--tint" id="precios" aria-labelledby="priceTitle">
+    <div class="wrap">
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">Planes</p>
+        <h2 id="priceTitle">Invierte en tu plaza médica.</h2>
+        <p class="sec-head__lead">Empieza gratis y sin tarjeta. Pasa al Plan Pro solo cuando quieras practicar sin límites.</p>
+      </div>
+
+      <div class="plans">
+        <article class="plan reveal">
+          <h3 class="plan__name">Plan Gratuito</h3>
+          <p class="plan__desc">Para empezar a practicar y medir tu nivel.</p>
+          <p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">para siempre</span></p>
+          <a class="btn btn--ghost btn--lg btn--block" href="#registro">Empezar gratis</a>
+          <ul class="plan__list">
+            <li>30 preguntas comentadas por día</li>
+            <li>Simulacro abierto cada sábado</li>
+            <li>Práctica inicial en todos los bancos</li>
+            <li>Reporte básico de aciertos</li>
+          </ul>
+        </article>
+
+        <article class="plan plan--pro reveal">
+          <span class="plan__badge">Recomendado</span>
+          <h3 class="plan__name">Plan Pro ENAM / Residentado</h3>
+          <p class="plan__desc">Para quienes van por la plaza con todo.</p>
+          <p class="plan__price"><span class="plan__amount plan__amount--soon">Precio de lanzamiento</span><span class="plan__per">se anuncia pronto</span></p>
+          <a class="btn btn--primary btn--lg btn--block" href="#registro">
+            Quiero el Plan Pro
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <ul class="plan__list">
+            <li>Acceso ilimitado a los 17 bancos</li>
+            <li>Explicaciones docentes completas</li>
+            <li>Tutor clínico de IA 24/7</li>
+            <li>Todos los simulacros cronometrados</li>
+            <li>Reporte avanzado por especialidad</li>
+          </ul>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- ====================== REGISTRO ====================== -->
-  <section class="section section--alt" id="registro">
+  <section class="section" id="registro" aria-labelledby="signupTitle">
     <div class="wrap signup">
       <div class="reveal">
-        <p class="eyebrow">Crear cuenta</p>
-        <h2>Empieza gratis hoy.</h2>
-        <p class="lead" style="margin-top:14px">La cuenta gratuita no caduca y no pide tarjeta.</p>
+        <p class="kicker">Crear cuenta</p>
+        <h2 id="signupTitle">Empieza gratis hoy.</h2>
+        <p class="lead signup__lead">La cuenta gratuita no caduca y no pide tarjeta.</p>
         <ul class="checklist">
           <li>Acceso al simulacro abierto de cada sábado.</li>
           <li>30 preguntas comentadas por día en cualquier banco.</li>
@@ -1397,38 +1830,126 @@ a { color: var(--brand-strong); text-decoration-thickness: 1px; text-underline-o
     </div>
   </section>
 
+  <!-- ====================== FAQ ====================== -->
+  <section class="section section--tint" id="faq" aria-labelledby="faqTitle">
+    <div class="wrap faq-wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">Preguntas frecuentes</p>
+        <h2 id="faqTitle">Preguntas frecuentes.</h2>
+        <p class="sec-head__lead">¿No encuentras tu respuesta? Pregúntale al tutor desde el botón de la esquina inferior.</p>
+      </div>
+      <div class="faq">
+        <details class="faq__item" open>
+          <summary>¿Cómo están estructuradas las preguntas?</summary>
+          <div class="faq__body"><p>Son casos clínicos tipo ENAM, Residentado y EsSalud con cuatro o cinco alternativas. Al responder ves la clave correcta y el comentario docente: la justificación clínica y por qué cada distractor es incorrecto.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Los simulacros se parecen al ENAM real?</summary>
+          <div class="faq__body"><p>Sí. El simulacro completo replica la duración de 4 horas, el número de preguntas y el orden de áreas del examen oficial. Al terminar recibes tu puntaje por área.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Cómo funciona el tutor de IA?</summary>
+          <div class="faq__body"><p>Es un asistente disponible en la esquina inferior de la página. Le escribes tu duda sobre un caso o un tema y responde al instante, con el contexto de tu conversación. Sus respuestas son de apoyo al estudio y no sustituyen el criterio clínico.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Es gratis de verdad?</summary>
+          <div class="faq__body"><p>Sí. El Plan Gratuito no caduca: incluye preguntas comentadas cada día, el simulacro abierto de los sábados y tu reporte básico. El Plan Pro es opcional.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Necesito tarjeta para registrarme?</summary>
+          <div class="faq__body"><p>No. Solo te pedimos nombre, correo, universidad y el examen que rindes. Nunca te pediremos una tarjeta para usar el Plan Gratuito.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== CTA FINAL ====================== -->
+  <section class="final-cta" aria-labelledby="finalTitle">
+    <div class="wrap">
+      <div class="final-cta__card reveal">
+        <h2 id="finalTitle">Empieza a entrenar como si ya estuvieras en el examen.</h2>
+        <p>Cada pregunta que resuelves hoy es un punto que no pierdes el día del ENAM.</p>
+        <a class="btn btn--lg final-cta__btn" href="#registro">
+          Crear cuenta gratis
+          <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <p class="final-cta__trust">Sin tarjeta · Plan gratuito permanente · Hecho en Lima</p>
+      </div>
+    </div>
+  </section>
+
 </main>
 
+<!-- ====================== FOOTER ====================== -->
 <footer class="site-footer">
   <div class="wrap">
-    <div class="footer__grid">
-      <div>
-        <a class="brand" href="#top"><span class="brand__bubble" aria-hidden="true"></span>MedQuizPro</a>
-        <p class="bank__meta" style="margin-top:8px">Preguntas y simulacros para el ENAM, el Residentado Médico y EsSalud.</p>
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand" href="#top" aria-label="MedQuizPlus, ir al inicio">
+          <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span>
+          <span>MedQuiz<span class="brand__plus">Plus</span></span>
+        </a>
+        <p>Bancos de preguntas comentadas y simulacros cronometrados para el ENAM, el Residentado Médico y EsSalud.</p>
       </div>
-      <nav class="footer__links" aria-label="Pie de página">
-        <a href="#bancos">Bancos de preguntas</a>
-        <a href="#simulacros">Simulacros gratis</a>
-        <a href="#como-funciona">Cómo funciona</a>
-        <a href="#registro">Crear cuenta</a>
+      <nav class="footer__cols" aria-label="Pie de página">
+        <div class="footer__col">
+          <p class="footer__title">Producto</p>
+          <ul>
+            <li><a href="#bancos">Bancos de preguntas</a></li>
+            <li><a href="#simulacros">Simulacros</a></li>
+            <li><a href="#como-funciona">Cómo funciona</a></li>
+            <li><a href="#precios">Precios</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__title">Recursos</p>
+          <ul>
+            <li><a href="#como-funciona">Metodología ENAM</a></li>
+            <li><a href="#simulacros">Residentado Médico</a></li>
+            <li><a href="#simulacros">EsSalud</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__title">Cuenta</p>
+          <ul>
+            <li><a href="#registro">Iniciar sesión</a></li>
+            <li><a href="#registro">Registro gratuito</a></li>
+            <li><a href="#registro">Recuperar acceso</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__title">Legal y créditos</p>
+          <ul>
+            <li><a href="#legal">Términos de uso</a></li>
+            <li><a href="#legal">Privacidad</a></li>
+            <li><a href="https://www.instagram.com/JhonLeyva/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+              Instagram (@JhonLeyva)<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
+          </ul>
+        </div>
       </nav>
     </div>
-    <p class="footer__fine">© <span id="year">2026</span> MedQuizPro · Sitio de demostración · Lima, Perú</p>
+    <p class="footer__legal" id="legal">Contenido con fines educativos: no sustituye el criterio clínico ni la atención de un paciente real. Este sitio es una demostración y el formulario de registro no envía datos a ningún servidor.</p>
+    <div class="footer__bottom">
+      <p>© <span id="year">2026</span> MedQuizPlus. Todos los derechos reservados. Hecho para la comunidad médica.</p>
+    </div>
   </div>
 </footer>
+
 
 <div class="mobile-cta">
   <a class="btn btn--primary btn--block" href="#registro">Crear cuenta gratis</a>
 </div>
 <script>
 window.MQP_BANCOS = {"cardiologia":{"especialidad":"Cardiología","version":"2026-09","preguntas":[{"id":"CAR-001","especialidad":"Cardiología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 64 años, hipertenso y fumador, con dolor torácico opresivo de 2 horas. PA 84/50 mmHg, FC 56 lpm, ingurgitación yugular y campos pulmonares limpios. El ECG muestra elevación del ST en DII, DIII y aVF, y la derivación V4R muestra elevación del ST de 1,5 mm. La hipotensión se acentuó tras administrarle nitroglicerina sublingual. ¿Cuál es la medida inmediata más apropiada mientras se coordina la reperfusión?","opciones":{"A":"Furosemida 40 mg endovenosa","B":"Bolo de cristaloides endovenoso con monitoreo hemodinámico","C":"Nitroglicerina en infusión continua","D":"Metoprolol endovenoso","E":"Morfina endovenosa a dosis plena"},"clave_correcta":"B","comentario":"Infarto inferior con compromiso del ventrículo derecho (ST elevado en V4R): tríada de hipotensión, ingurgitación yugular y pulmones limpios. El VD infartado depende de la precarga, por eso los nitratos, los diuréticos y la morfina (venodilatadores) empeoran la hipotensión. La conducta es expandir volumen con cristaloides mientras se reperfunde de urgencia; los betabloqueadores están contraindicados con hipotensión y bradicardia."},{"id":"CAR-002","especialidad":"Cardiología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?","opciones":{"A":"No requiere tratamiento antitrombótico","B":"Ácido acetilsalicílico 100 mg al día","C":"Anticoagulación oral","D":"Doble antiagregación con aspirina y clopidogrel","E":"Heparina de bajo peso molecular solo durante un mes"},"clave_correcta":"C","comentario":"Fibrilación auricular no valvular con CHA₂DS₂-VASc de 3 (edad 65-74 años = 1, sexo femenino = 1, hipertensión = 1). Con puntaje ≥ 2 en varones o ≥ 3 en mujeres está indicada la anticoagulación oral (de preferencia un anticoagulante oral directo; warfarina si no hay acceso). La aspirina no tiene indicación para prevenir el ictus en la FA y la doble antiagregación es inferior a la anticoagulación y sangra igual."},{"id":"CAR-003","especialidad":"Cardiología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Insuficiencia aórtica crónica","B":"Miocardiopatía hipertrófica obstructiva","C":"Estenosis aórtica severa","D":"Insuficiencia mitral","E":"Comunicación interventricular"},"clave_correcta":"C","comentario":"Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."}]},"ciencias_basicas":{"especialidad":"Ciencias Básicas","version":"2026-09","preguntas":[{"id":"CB-001","especialidad":"Ciencias Básicas","examen_origen":"ENAM · pregunta tipo","enunciado":"Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?","opciones":{"A":"Fenilalanina hidroxilasa","B":"Homogentisato oxidasa","C":"Tirosinasa","D":"Cistationina β-sintasa","E":"Galactosa-1-fosfato uridiltransferasa"},"clave_correcta":"A","comentario":"Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."}]},"cirugia":{"especialidad":"Cirugía General y Digestiva","version":"2026-09","preguntas":[{"id":"CIR-001","especialidad":"Cirugía General y Digestiva","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 22 años con dolor abdominal que empezó en el epigastrio hace 18 horas y luego migró a la fosa ilíaca derecha, con náuseas e hiporexia. Temperatura 38,1 °C, dolor a la descompresión en el punto de McBurney y leucocitosis de 14 500/mm³ con desviación izquierda. ¿Cuál es la conducta más adecuada?","opciones":{"A":"Alta con analgésicos y control en 48 horas","B":"Apendicectomía","C":"Colonoscopía","D":"Antibióticos orales en domicilio","E":"Laparotomía exploratoria por línea media como primera opción"},"clave_correcta":"B","comentario":"Dolor migratorio a fosa ilíaca derecha, anorexia, fiebre, rebote y leucocitosis con desviación izquierda dan un puntaje de Alvarado alto (≥ 7): el diagnóstico es clínico y la conducta es la apendicectomía (laparoscópica o abierta) con profilaxis antibiótica. La colonoscopía está contraindicada en el abdomen agudo y los analgésicos no deben retrasar la decisión quirúrgica."}]},"endocrinologia":{"especialidad":"Endocrinología","version":"2026-09","preguntas":[{"id":"END-001","especialidad":"Endocrinología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?","opciones":{"A":"Bolo de insulina rápida subcutánea","B":"Bicarbonato de sodio endovenoso","C":"Solución salina al 0,9 % endovenosa","D":"Dextrosa al 5 % endovenosa","E":"Cloruro de potasio en bolo"},"clave_correcta":"C","comentario":"En la cetoacidosis diabética la primera medida es restaurar el volumen con solución salina isotónica (1-1,5 L en la primera hora). La insulina se inicia en infusión endovenosa una vez que el potasio es ≥ 3,3 mEq/L. El bicarbonato se reserva para pH \u003c 6,9 y la dextrosa se agrega cuando la glucosa baja a unos 200-250 mg/dL."}]},"gastroenterologia":{"especialidad":"Gastroenterología","version":"2026-09","preguntas":[{"id":"GAS-001","especialidad":"Gastroenterología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 55 años con cirrosis hepática por alcohol llega a emergencia con hematemesis abundante. PA 90/60 mmHg, FC 112 lpm. Se aseguran dos vías venosas y se inicia la reposición de volumen de forma restrictiva. Mientras se prepara la endoscopía, ¿qué fármaco debe iniciarse?","opciones":{"A":"Propranolol endovenoso","B":"Terlipresina u octreotide endovenoso","C":"Vitamina K como única medida","D":"Omeprazol oral","E":"Lactulosa por sonda nasogástrica como única medida"},"clave_correcta":"B","comentario":"Ante sospecha de hemorragia variceal en un cirrótico se inicia de inmediato un vasoactivo esplácnico (terlipresina, somatostatina u octreotide), junto con profilaxis antibiótica (ceftriaxona) y endoscopía con ligadura en las primeras 12 horas. Los betabloqueadores no selectivos se usan en profilaxis, no en el sangrado agudo con hipotensión. La reposición de volumen debe ser restrictiva (hemoglobina objetivo 7-8 g/dL) para no aumentar la presión portal."}]},"ginecologia":{"especialidad":"Ginecología y Obstetricia","version":"2026-09","preguntas":[{"id":"GIN-001","especialidad":"Ginecología y Obstetricia","examen_origen":"EsSalud · pregunta tipo","enunciado":"Puérpera de 28 años, cuarto parto vaginal, presenta sangrado vaginal abundante 20 minutos después del alumbramiento. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa. ¿Cuál es la primera medida farmacológica?","opciones":{"A":"Oxitocina endovenosa","B":"Misoprostol como única medida","C":"Ácido tranexámico como única medida","D":"Sulfato de magnesio","E":"Nifedipino oral"},"clave_correcta":"A","comentario":"Útero blando y sin contraer tras el parto es atonía uterina, la causa más frecuente de hemorragia postparto. Junto con el masaje uterino bimanual, el uterotónico de primera línea es la oxitocina. Si no responde se agregan ergometrina (contraindicada en hipertensas) o misoprostol, y el ácido tranexámico dentro de las primeras 3 horas. El sulfato de magnesio y el nifedipino relajan el útero y empeoran la atonía."}]},"hematologia":{"especialidad":"Hematología","version":"2026-09","preguntas":[{"id":"HEM-001","especialidad":"Hematología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 30 años con menstruaciones abundantes, fatiga y caída de cabello. Hemoglobina 8,9 g/dL, VCM 70 fL, HCM 22 pg, RDW elevado. ¿Cuál es el dato de laboratorio más útil para confirmar la causa de la anemia?","opciones":{"A":"Ferritina sérica baja","B":"Hierro sérico elevado","C":"Electroforesis de hemoglobina con HbA2 elevada","D":"Reticulocitos elevados","E":"Vitamina B12 baja"},"clave_correcta":"A","comentario":"Anemia microcítica e hipocrómica con RDW elevado en una mujer con pérdidas menstruales orienta a ferropenia. La ferritina baja es el marcador más específico de depósitos de hierro agotados. En la talasemia menor el RDW suele ser normal y la HbA2 está elevada; la vitamina B12 baja produce anemia macrocítica."}]},"infectologia":{"especialidad":"Infectología","version":"2026-09","preguntas":[{"id":"INF-001","especialidad":"Infectología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Varón de 32 años, agricultor de Loreto, con fiebre intermitente, escalofríos y sudoración de cinco días. La gota gruesa muestra Plasmodium vivax. No hay signos de malaria grave y la prueba de G6PD es normal. ¿Cuál es el tratamiento indicado?","opciones":{"A":"Solo cloroquina por tres días","B":"Cloroquina más primaquina","C":"Artesunato endovenoso","D":"Solo primaquina por siete días","E":"Doxiciclina por catorce días"},"clave_correcta":"B","comentario":"La malaria por P. vivax no complicada se trata con cloroquina (esquizonticida sanguíneo) más primaquina, que elimina los hipnozoítos hepáticos y evita las recaídas. Sin primaquina el paciente puede recaer semanas después. El artesunato endovenoso se reserva para la malaria grave; en la gestante la primaquina está contraindicada."}]},"nefrologia":{"especialidad":"Nefrología y Urología","version":"2026-09","preguntas":[{"id":"NEF-001","especialidad":"Nefrología y Urología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?","opciones":{"A":"Resina de intercambio catiónico oral","B":"Furosemida endovenosa","C":"Gluconato de calcio endovenoso","D":"Bicarbonato de sodio oral","E":"Hemodiálisis programada para el día siguiente"},"clave_correcta":"C","comentario":"Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."}]},"neumologia":{"especialidad":"Neumología","version":"2026-09","preguntas":[{"id":"NEU-001","especialidad":"Neumología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 28 años, de Lima, con fiebre vespertina, tos seca y dolor pleurítico derecho de un mes. La radiografía muestra derrame pleural derecho moderado. Toracocentesis: exudado con proteínas 5,1 g/dL, predominio linfocitario (85 %), glucosa 70 mg/dL y adenosina desaminasa (ADA) de 78 U/L. La baciloscopía del líquido es negativa. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Derrame paraneumónico complicado","B":"Tuberculosis pleural","C":"Derrame por insuficiencia cardiaca","D":"Mesotelioma pleural","E":"Tromboembolismo pulmonar"},"clave_correcta":"B","comentario":"Exudado linfocitario con ADA > 40 U/L en un adulto joven de zona de alta prevalencia es tuberculosis pleural hasta demostrar lo contrario. La baciloscopía del líquido es positiva en menos del 10 % de los casos, así que un resultado negativo no la descarta. El derrame paraneumónico es de predominio neutrofílico y la insuficiencia cardiaca produce trasudado."}]},"neurologia":{"especialidad":"Neurología","version":"2026-09","preguntas":[{"id":"NRL-001","especialidad":"Neurología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?","opciones":{"A":"Resonancia magnética cerebral con gadolinio","B":"Punción lumbar","C":"Tomografía cerebral sin contraste","D":"Electroencefalograma","E":"Doppler de vasos del cuello"},"clave_correcta":"C","comentario":"Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."}]},"oftalmo_orl":{"especialidad":"Oftalmología y Otorrinolaringología","version":"2026-09","preguntas":[{"id":"OFT-001","especialidad":"Oftalmología y Otorrinolaringología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Conjuntivitis bacteriana","B":"Glaucoma agudo de ángulo cerrado","C":"Uveítis anterior","D":"Desprendimiento de retina","E":"Migraña con aura"},"clave_correcta":"B","comentario":"Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."}]},"pediatria":{"especialidad":"Pediatría y Neonatología","version":"2026-09","preguntas":[{"id":"PED-001","especialidad":"Pediatría y Neonatología","examen_origen":"ENAM · pregunta tipo","enunciado":"Recién nacido a término de 18 horas de vida, con lactancia materna exclusiva, presenta ictericia que llega hasta el abdomen. La madre es del grupo O Rh positivo y el neonato es A Rh positivo. ¿Cuál es la causa más probable?","opciones":{"A":"Ictericia fisiológica","B":"Ictericia por leche materna","C":"Enfermedad hemolítica por incompatibilidad ABO","D":"Atresia de vías biliares","E":"Síndrome de Gilbert"},"clave_correcta":"C","comentario":"La ictericia en las primeras 24 horas de vida siempre es patológica y lo más frecuente es la hemólisis. Madre O con hijo A o B es la combinación típica de incompatibilidad ABO. La ictericia fisiológica aparece después de las 24 horas y la de la leche materna después de la primera semana. Se debe medir la bilirrubina, hacer Coombs directo y valorar la fototerapia según las curvas de riesgo."}]},"psiquiatria":{"especialidad":"Psiquiatría","version":"2026-09","preguntas":[{"id":"PSI-001","especialidad":"Psiquiatría","examen_origen":"EsSalud · pregunta tipo","enunciado":"Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?","opciones":{"A":"Haloperidol","B":"Diazepam como monoterapia","C":"Un inhibidor selectivo de la recaptación de serotonina, como sertralina","D":"Carbonato de litio como monoterapia","E":"Terapia electroconvulsiva"},"clave_correcta":"C","comentario":"Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."}]},"reumatologia":{"especialidad":"Reumatología y Dermatología","version":"2026-09","preguntas":[{"id":"REU-001","especialidad":"Reumatología y Dermatología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?","opciones":{"A":"Pirofosfato de calcio","B":"Urato monosódico","C":"Hidroxiapatita","D":"Oxalato de calcio","E":"Colesterol"},"clave_correcta":"B","comentario":"Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."}]},"salud_publica":{"especialidad":"Salud Pública, Gestión y Epidemiología","version":"2026-09","preguntas":[{"id":"SP-001","especialidad":"Salud Pública, Gestión y Epidemiología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Se evalúa una prueba rápida para detectar una enfermedad en 300 personas. De 100 enfermos, 80 tienen la prueba positiva; de 200 sanos, 180 tienen la prueba negativa. ¿Cuál es la especificidad de la prueba?","opciones":{"A":"80 %","B":"90 %","C":"75 %","D":"85,7 %","E":"60 %"},"clave_correcta":"B","comentario":"Especificidad = verdaderos negativos / total de sanos = 180 / 200 = 90 %. En la misma tabla, la sensibilidad es 80 / 100 = 80 % y el valor predictivo positivo es 80 / (80 + 20) = 80 %. La sensibilidad y la especificidad son propias de la prueba; los valores predictivos cambian con la prevalencia de la enfermedad."}]},"traumatologia":{"especialidad":"Traumatología y Ortopedia","version":"2026-09","preguntas":[{"id":"TRA-001","especialidad":"Traumatología y Ortopedia","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?","opciones":{"A":"Alta sin inmovilización","B":"Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días","C":"Artroscopía de muñeca de urgencia","D":"Infiltración de corticoide","E":"Solo antiinflamatorios y movilización precoz"},"clave_correcta":"B","comentario":"El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."}]}};
-/* MedQuizPro — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
+/* MedQuizPlus — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
 (function () {
   "use strict";
 
   function safe(name, fn) {
     try { fn(); } catch (err) {
-      if (window.console && console.warn) console.warn("[MedQuizPro] " + name, err);
+      if (window.console && console.warn) console.warn("[MedQuizPlus] " + name, err);
     }
   }
 

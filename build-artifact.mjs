@@ -31,7 +31,7 @@ const cuerpo = html
 
 const fuentes = (html.match(/<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^"]*">/) || [""])[0];
 
-const artifact = `<title>MedQuizPro</title>
+const artifact = `<title>MedQuizPlus</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 ${fuentes}
 <style>

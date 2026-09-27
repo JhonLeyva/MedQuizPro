@@ -1,10 +1,10 @@
-/* MedQuizPro — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
+/* MedQuizPlus — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
 (function () {
   "use strict";
 
   function safe(name, fn) {
     try { fn(); } catch (err) {
-      if (window.console && console.warn) console.warn("[MedQuizPro] " + name, err);
+      if (window.console && console.warn) console.warn("[MedQuizPlus] " + name, err);
     }
   }
 
