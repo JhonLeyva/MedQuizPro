@@ -3,28 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>MedQuizPro</title>
+<title>MedQuizPlus · Bancos de preguntas y simuladores para el ENAM y el Residentado</title>
 <meta name="description" content="Bancos de preguntas comentadas y simulacros cronometrados para el ENAM, el Residentado Médico y EsSalud.">
-<meta name="theme-color" content="#1f6f63">
+<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap">
-<link rel="stylesheet" href="styles.css?v=20260926">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="styles.css?v=20260927">
 </head>
 <body>
 
-<header class="site-header">
+<a class="skip-link" href="#top">Saltar al contenido</a>
+
+<!-- ====================== HEADER ====================== -->
+<header class="site-header" id="siteHeader">
   <div class="wrap site-header__bar">
-    <a class="brand" href="#top"><span class="brand__bubble" aria-hidden="true"></span>MedQuizPro</a>
+    <a class="brand" href="#top" aria-label="MedQuizPlus, ir al inicio">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg>
+      </span>
+      <span>MedQuiz<span class="brand__plus">Plus</span></span>
+    </a>
     <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav">
       <span class="sr-only">Abrir menú</span>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
     </button>
     <nav class="nav" id="nav" aria-label="Principal">
-      <a href="#bancos">Bancos de preguntas</a>
-      <a href="#simulacros">Simulacros gratis</a>
-      <a href="#como-funciona">Cómo funciona</a>
-      <a class="btn btn--primary header-cta" href="#registro">Crear cuenta gratis</a>
+      <div class="nav__links">
+        <a href="#bancos">Bancos de preguntas</a>
+        <a href="#simulacros">Simuladores</a>
+        <a href="#como-funciona">Cómo funciona</a>
+      </div>
+      <div class="nav__actions">
+        <a class="btn btn--primary btn--sm header-cta" href="#registro">Crear cuenta gratis</a>
+      </div>
     </nav>
   </div>
 </header>
@@ -32,41 +46,87 @@
 <main id="top">
 
   <!-- ====================== HERO ====================== -->
-  <section class="hero">
+  <section class="hero" aria-labelledby="heroTitle">
     <div class="wrap hero__grid">
-      <div>
-        <p class="eyebrow">ENAM · Residentado · EsSalud</p>
-        <h1 class="hero__title">La práctica que se parece <em>al examen real</em>.</h1>
-        <p class="lead hero__lead">Bancos de preguntas comentadas, simulacros cronometrados y un reporte que te dice exactamente en qué área estás perdiendo puntos. Empieza resolviendo la pregunta de aquí al costado.</p>
+      <div class="hero__copy">
+        <p class="hero__badge"><span class="hero__badge-dot">ENAM 2026</span>Residentado Médico · EsSalud</p>
+        <h1 class="hero__title" id="heroTitle">La práctica que se parece <em>al examen real</em>.</h1>
+        <p class="hero__lead">Casos clínicos comentados por especialidad, simuladores cronometrados con el mismo ritmo del examen oficial y un reporte que te dice exactamente en qué área estás perdiendo puntos.</p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="#registro">Crear cuenta gratis</a>
-          <a class="btn btn--ghost" href="#simulacros">Ver simulacros gratis</a>
+          <a class="btn btn--primary btn--lg" href="#registro">
+            Crear cuenta gratis
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#simulacros">Ver simuladores</a>
         </div>
-        <p class="hero__trust">Sin tarjeta · Plan gratuito permanente · Hecho en Lima</p>
+        <ul class="hero__trust" aria-label="Condiciones del plan gratuito">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Sin tarjeta</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Plan gratuito permanente</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Hecho en Lima</li>
+        </ul>
+        <div class="hero__proof">
+          <dl><dt>17</dt><dd>especialidades</dd></dl>
+          <dl><dt>3</dt><dd>exámenes: ENAM, RM y EsSalud</dd></dl>
+          <dl><dt>100%</dt><dd>de preguntas con comentario</dd></dl>
+        </div>
       </div>
 
-      <!-- tarjeta de pregunta interactiva -->
-      <div class="quiz" id="quiz">
-        <div class="quiz__head">
-          <span class="tag" id="qArea">Medicina Interna</span>
-          <span class="tag tag--mark" id="qExam">ENAM</span>
-          <span class="quiz__counter" id="qCounter">Pregunta 1 de 3</span>
-        </div>
-        <div class="quiz__body">
-          <p class="quiz__stem" id="qStem">Varón de 58 años, diabético, acude por dolor torácico opresivo de 40 minutos. El ECG muestra elevación del segmento ST en DII, DIII y aVF. ¿Cuál es la conducta inicial más apropiada?</p>
-          <ul class="quiz__options" id="qOptions">
-            <li><button class="opt" type="button" data-i="0"><span class="opt__bubble">A</span><span class="opt__text">Solicitar ecocardiograma y reevaluar en 6 horas</span></button></li>
-            <li><button class="opt" type="button" data-i="1"><span class="opt__bubble">B</span><span class="opt__text">Activar la vía de reperfusión coronaria de inmediato</span></button></li>
-            <li><button class="opt" type="button" data-i="2"><span class="opt__bubble">C</span><span class="opt__text">Iniciar furosemida endovenosa en bolo</span></button></li>
-            <li><button class="opt" type="button" data-i="3"><span class="opt__bubble">D</span><span class="opt__text">Programar prueba de esfuerzo al alta</span></button></li>
-          </ul>
-          <div class="quiz__feedback" id="qFeedback" hidden>
-            <p class="quiz__verdict" id="qVerdict">Correcto</p>
-            <p class="quiz__why" id="qWhy"></p>
+      <!-- mockup interactivo del simulador (main.js lo anima; sin JS queda la primera pregunta) -->
+      <div class="hero-demo">
+        <div class="demo" id="quiz" role="region" aria-label="Pregunta de muestra del simulador">
+          <div class="demo__chrome">
+            <span class="demo__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="demo__title">Modo simulacro</span>
+            <span class="demo__timer" title="Tiempo restante del simulacro">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg>
+              <span id="qTimer">03:59:59</span>
+            </span>
           </div>
-          <div class="quiz__foot">
-            <button class="btn btn--mark" type="button" id="qNext" hidden>Siguiente pregunta</button>
-            <span class="quiz__note" id="qNote">Marca una alternativa para ver la explicación</span>
+          <div class="demo__progress">
+            <div class="demo__meta">
+              <span class="demo__tag" id="qArea">Medicina Interna</span>
+              <span class="demo__tag demo__tag--exam" id="qExam">ENAM</span>
+              <span class="demo__count" id="qCounter">Pregunta 1 de 3</span>
+            </div>
+            <div class="demo__bar" aria-hidden="true"><div class="demo__bar-fill" id="qBar"></div></div>
+          </div>
+          <div class="demo__body">
+            <p class="demo__stem" id="qStem">Varón de 58 años, diabético, acude por dolor torácico opresivo de 40 minutos. El ECG muestra elevación del segmento ST en DII, DIII y aVF. ¿Cuál es la conducta inicial más apropiada?</p>
+            <ul class="demo__options" id="qOptions">
+              <li><button class="opt" type="button" data-i="0"><span class="opt__bubble">A</span><span class="opt__text">Solicitar ecocardiograma y reevaluar en 6 horas</span></button></li>
+              <li><button class="opt" type="button" data-i="1"><span class="opt__bubble">B</span><span class="opt__text">Activar la vía de reperfusión coronaria de inmediato</span></button></li>
+              <li><button class="opt" type="button" data-i="2"><span class="opt__bubble">C</span><span class="opt__text">Iniciar furosemida endovenosa en bolo</span></button></li>
+              <li><button class="opt" type="button" data-i="3"><span class="opt__bubble">D</span><span class="opt__text">Programar prueba de esfuerzo al alta</span></button></li>
+            </ul>
+            <div class="demo__feedback" id="qFeedback" aria-live="polite" hidden>
+              <p class="quiz__verdict" id="qVerdict">Correcto</p>
+              <p class="demo__why" id="qWhy"></p>
+            </div>
+            <div class="demo__foot">
+              <span class="demo__note" id="qNote">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg>
+                Marca una alternativa para ver la explicación
+              </span>
+              <button class="btn btn--primary btn--sm" type="button" id="qNext" hidden>Siguiente pregunta</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="float-card float-card--tip" aria-hidden="true">
+          <span class="float-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg>
+          </span>
+          <p>Comentario docente<span>en cada alternativa</span></p>
+        </div>
+
+        <div class="float-card float-card--score" id="qScore" aria-live="polite">
+          <div class="score-ring" id="qRing" aria-hidden="true">
+            <svg viewBox="0 0 44 44"><circle class="score-ring__track" cx="22" cy="22" r="18"/><circle class="score-ring__value" cx="22" cy="22" r="18"/></svg>
+            <span class="score-ring__num" id="qPct">–</span>
+          </div>
+          <div>
+            <p class="float-card__label">Tu sesión</p>
+            <p class="float-card__value" id="qScoreText">Responde para empezar</p>
           </div>
         </div>
       </div>
@@ -374,6 +434,6 @@
 </section>
 <!-- chat:fin -->
 
-<script defer src="main.js?v=20260926"></script>
+<script defer src="main.js?v=20260927"></script>
 </body>
 </html>

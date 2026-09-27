@@ -13,18 +13,39 @@
     reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   } catch (e) { reduced = false; }
 
+  /* ---------- cabecera: sombra al hacer scroll ---------- */
+  safe("header", function () {
+    var header = document.getElementById("siteHeader");
+    if (!header) return;
+    var pendiente = false;
+    function pintar() {
+      pendiente = false;
+      header.classList.toggle("is-scrolled", window.scrollY > 8);
+    }
+    window.addEventListener("scroll", function () {
+      if (!pendiente) { pendiente = true; window.requestAnimationFrame(pintar); }
+    }, { passive: true });
+    pintar();
+  });
+
   /* ---------- menú móvil ---------- */
   safe("nav", function () {
     var toggle = document.getElementById("navToggle");
     var nav = document.getElementById("nav");
     if (!toggle || !nav) return;
+    var etiqueta = toggle.querySelector(".sr-only");
 
     var mq = window.matchMedia("(max-width: 880px)");
+    function estado(abierto) {
+      toggle.setAttribute("aria-expanded", abierto ? "true" : "false");
+      if (etiqueta) etiqueta.textContent = abierto ? "Cerrar menú" : "Abrir menú";
+      document.body.classList.toggle("nav-open", abierto && mq.matches);
+    }
     function close() {
-      toggle.setAttribute("aria-expanded", "false");
+      estado(false);
       if (mq.matches) nav.hidden = true;
     }
-    function sync() { if (mq.matches) { close(); } else { nav.hidden = false; } }
+    function sync() { if (mq.matches) { close(); } else { estado(false); nav.hidden = false; } }
 
     sync();
     if (mq.addEventListener) mq.addEventListener("change", sync);
@@ -32,14 +53,23 @@
 
     toggle.addEventListener("click", function () {
       var open = toggle.getAttribute("aria-expanded") === "true";
-      toggle.setAttribute("aria-expanded", open ? "false" : "true");
-      nav.hidden = open;
+      if (open) { close(); return; }
+      nav.hidden = false;
+      estado(true);
+      var primero = nav.querySelector("a");
+      if (primero) primero.focus({ preventScroll: true });
     });
     nav.addEventListener("click", function (ev) {
-      if (ev.target.tagName === "A") close();
+      if (ev.target.closest && ev.target.closest("a")) close();
+    });
+    document.addEventListener("click", function (ev) {
+      if (!mq.matches || nav.hidden) return;
+      if (!nav.contains(ev.target) && !toggle.contains(ev.target)) close();
     });
     document.addEventListener("keydown", function (ev) {
-      if (ev.key === "Escape") close();
+      if (ev.key !== "Escape" || toggle.getAttribute("aria-expanded") !== "true") return;
+      close();
+      toggle.focus();
     });
   });
 
@@ -95,7 +125,40 @@
     var elWhy = document.getElementById("qWhy");
     var elNext = document.getElementById("qNext");
     var elNote = document.getElementById("qNote");
+    var elBar = document.getElementById("qBar");
+    var elTimer = document.getElementById("qTimer");
+    var elRing = document.getElementById("qRing");
+    var elPct = document.getElementById("qPct");
+    var elScore = document.getElementById("qScoreText");
     if (!elOpts || !elStem || !elNext) return;
+
+    var sesion = { respondidas: 0, correctas: 0 };
+
+    function pintarSesion() {
+      if (!elScore) return;
+      var n = sesion.respondidas, c = sesion.correctas;
+      var pct = n ? Math.round(c / n * 100) : 0;
+      if (elRing) elRing.style.setProperty("--p", String(pct));
+      if (elPct) elPct.textContent = n ? pct + "%" : "–";
+      elScore.textContent = n ? c + " de " + n + (n === 1 ? " correcta" : " correctas") : "Responde para empezar";
+    }
+
+    /* reloj del simulacro: 4 horas, igual que el examen real */
+    if (elTimer) {
+      var restante = 4 * 3600 - 1;
+      var dos = function (x) { return (x < 10 ? "0" : "") + x; };
+      var tic = function () {
+        elTimer.textContent = dos(Math.floor(restante / 3600)) + ":" + dos(Math.floor(restante % 3600 / 60)) + ":" + dos(restante % 60);
+      };
+      tic();
+      if (!reduced) {
+        var reloj = setInterval(function () {
+          restante = restante > 0 ? restante - 1 : 4 * 3600 - 1;
+          tic();
+        }, 1000);
+        window.addEventListener("pagehide", function () { clearInterval(reloj); });
+      }
+    }
 
     var letras = ["A", "B", "C", "D"];
 
@@ -127,7 +190,7 @@
       elFb.hidden = true;
       elNext.hidden = true;
       elNote.hidden = false;
-      elNote.textContent = "Marca una alternativa para ver la explicación";
+      if (elBar) elBar.style.width = ((i + 1) / preguntas.length * 100) + "%";
     }
 
     elOpts.addEventListener("click", function (ev) {
@@ -154,6 +217,10 @@
       elNote.hidden = true;
       elNext.hidden = false;
       elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : "Volver a la primera";
+
+      sesion.respondidas++;
+      if (acerto) sesion.correctas++;
+      pintarSesion();
     });
 
     elNext.addEventListener("click", function () {
