@@ -16,6 +16,25 @@
       },
       "clave_correcta": "B",
       "comentario": "Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."
+    },
+    {
+      "id": "REU-002",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 24 años acude a consulta por \"color amarillento de piel\", sin coluria. Antecedente: alimentación vegana. Examen: coloración amarillenta cutánea, escleras limpias. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Terapia con quinacrina",
+        "Hepatitis viral",
+        "Xantocromía",
+        "Carotinemia",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
+      "comentario": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
+      "tema": "Trastornos de pigmentación cutánea",
+      "año": 2020
     }
   ]
 }

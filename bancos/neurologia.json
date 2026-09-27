@@ -16,6 +16,25 @@
       },
       "clave_correcta": "C",
       "comentario": "Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."
+    },
+    {
+      "id": "NRL-002",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 62 años, mientras realizaba labores hogareñas, presenta en forma súbita cefalea muy intensa, acompañada de vómitos y luego pérdida de conciencia. Al examen presenta rigidez de nuca. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hematoma subdural",
+        "Tumor cerebral",
+        "Isquemia cerebral transitoria",
+        "Hemorragia subaracnoidea",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
+      "comentario": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
+      "tema": "Hemorragia subaracnoidea",
+      "año": 2020
     }
   ]
 }

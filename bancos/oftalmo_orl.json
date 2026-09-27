@@ -16,6 +16,25 @@
       },
       "clave_correcta": "B",
       "comentario": "Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."
+    },
+    {
+      "id": "OFT-002",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, acude a emergencia porque limpiando el inodoro le salpica accidentalmente ácido muriático en el ojo derecho. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        "Irrigar el ojo inmediatamente con suero fisiológico y agua",
+        "Limpiar ojo con un paño limpio y colocar ungüento antiséptico",
+        "Administrar corticoides tópicos para disminuir la inflamación",
+        "Colocar un parche y llamar rápidamente al especialista",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.",
+      "comentario": "En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.",
+      "tema": "Urgencias oftalmológicas",
+      "año": 2020
     }
   ]
 }

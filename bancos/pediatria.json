@@ -16,6 +16,44 @@
       },
       "clave_correcta": "C",
       "comentario": "La ictericia en las primeras 24 horas de vida siempre es patológica y lo más frecuente es la hemólisis. Madre O con hijo A o B es la combinación típica de incompatibilidad ABO. La ictericia fisiológica aparece después de las 24 horas y la de la leche materna después de la primera semana. Se debe medir la bilirrubina, hacer Coombs directo y valorar la fototerapia según las curvas de riesgo."
+    },
+    {
+      "id": "PED-002",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 5 años, cuya madre refiere que hace 6 días se cayó sobre la rodilla derecha. Examen: fiebre de 38.5 °C, astenia, adinamia, rodilla derecha con dolor, gran aumento de volumen, calor, rubor y posición antiálgica. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        "Osteomielitis crónica",
+        "Fractura de rótula",
+        "Artritis séptica",
+        "Hemartrosis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro agudo de fiebre, signos de flogosis (calor, rubor, volumen aumentado), dolor y posición antiálgica tras antecedente de trauma sugiere una infección articular aguda bacteriana (artritis séptica).",
+      "comentario": "El cuadro agudo de fiebre, signos de flogosis (calor, rubor, volumen aumentado), dolor y posición antiálgica tras antecedente de trauma sugiere una infección articular aguda bacteriana (artritis séptica).",
+      "tema": "Infecciones osteoarticulares",
+      "año": 2020
+    },
+    {
+      "id": "PED-003",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 7 días de nacido en domicilio, sin controles prenatales, traído a consulta por nariz plana y manchas grises alrededor del iris. Examen: braquicefalia, epicanto, soplo sistólico. ¿Cuál es la alteración cromosómica más probable?",
+      "opciones": [
+        "Monosomía del X",
+        "Trisomía 21",
+        "Trisomía 13",
+        "Aneuploidia XXY",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Braquicefalia, pliegue epicántico, puente nasal plano, manchas de Brushfield (iris) y sospecha de cardiopatía congénita (canal AV o CIV) son estigmas fenotípicos cardinales del síndrome de Down o trisomía 21.",
+      "comentario": "Braquicefalia, pliegue epicántico, puente nasal plano, manchas de Brushfield (iris) y sospecha de cardiopatía congénita (canal AV o CIV) son estigmas fenotípicos cardinales del síndrome de Down o trisomía 21.",
+      "tema": "Genética y dismorfología neonatal",
+      "año": 2020
     }
   ]
 }

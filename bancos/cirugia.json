@@ -16,6 +16,44 @@
       },
       "clave_correcta": "B",
       "comentario": "Dolor migratorio a fosa ilíaca derecha, anorexia, fiebre, rebote y leucocitosis con desviación izquierda dan un puntaje de Alvarado alto (≥ 7): el diagnóstico es clínico y la conducta es la apendicectomía (laparoscópica o abierta) con profilaxis antibiótica. La colonoscopía está contraindicada en el abdomen agudo y los analgésicos no deben retrasar la decisión quirúrgica."
+    },
+    {
+      "id": "CIR-002",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar, desde hace 24 horas presenta dolor periumbilical de moderada intensidad, posteriormente vómitos y sensación febril. Examen: dolor y defensa muscular en hemiabdomen inferior derecho, RHA aumentados, signo del rebote (+). ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Gastroenterocolitis",
+        "Apendicitis aguda",
+        "Adenitis mesentérica",
+        "Invaginación intestinal",
+        "Hipertensión arterial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La cronología de Murphy (dolor periumbilical migrado a fosa ilíaca derecha), fiebre, defensa y signo de rebote (Blumberg positivo) representan la clínica clásica de apendicitis aguda con peritonismo localizado.",
+      "comentario": "La cronología de Murphy (dolor periumbilical migrado a fosa ilíaca derecha), fiebre, defensa y signo de rebote (Blumberg positivo) representan la clínica clásica de apendicitis aguda con peritonismo localizado.",
+      "tema": "Apendicitis aguda",
+      "año": 2020
+    },
+    {
+      "id": "CIR-003",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 34 años por accidente de tránsito presenta contusión en hemitórax izquierdo. Al examen: disneica, FC: 105 x', FR: 27 x', PA: 110/60 mmHg, dolor a la palpación en pared costal y disminución en murmullo vesicular en HTI. Radiografía de tórax muestra 2 trazos de fractura del 2° al 6° arco costal izquierdo con ángulos costofrénicos libres. ¿Cuál es el manejo inicial?",
+      "opciones": [
+        "Tomografía torácica contrastada",
+        "Drenaje quirúrgico torácico",
+        "Analgesia óptima",
+        "Intubación orotraqueal",
+        "Lavado quirúrgico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Múltiples fracturas costales segmentarias consecutivas configuran un tórax inestable (flail chest). Ante la presencia de insuficiencia respiratoria clínica (taquipnea, disnea, hipoventilación), la prioridad del soporte vital es asegurar la vía aérea y la oxigenación mediante intubación orotraqueal y ventilación mecánica para estabilizar la caja torácica.",
+      "comentario": "Múltiples fracturas costales segmentarias consecutivas configuran un tórax inestable (flail chest). Ante la presencia de insuficiencia respiratoria clínica (taquipnea, disnea, hipoventilación), la prioridad del soporte vital es asegurar la vía aérea y la oxigenación mediante intubación orotraqueal y ventilación mecánica para estabilizar la caja torácica.",
+      "tema": "Trauma torácico",
+      "año": 2020
     }
   ]
 }

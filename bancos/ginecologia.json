@@ -16,6 +16,44 @@
       },
       "clave_correcta": "A",
       "comentario": "Útero blando y sin contraer tras el parto es atonía uterina, la causa más frecuente de hemorragia postparto. Junto con el masaje uterino bimanual, el uterotónico de primera línea es la oxitocina. Si no responde se agregan ergometrina (contraindicada en hipertensas) o misoprostol, y el ácido tranexámico dentro de las primeras 3 horas. El sulfato de magnesio y el nifedipino relajan el útero y empeoran la atonía."
+    },
+    {
+      "id": "GIN-002",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 32 semanas, refiere haber perdido líquido en regular cantidad. Se le realiza un test del helecho, encontrándose esta imagen. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Programar cesárea",
+        "Maduración cervical",
+        "Inducción de trabajo de parto",
+        "Protección con antimicrobianos",
+        "Laparoscopía diagnóstica"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En gestante de 32 semanas con sospecha de pérdida de líquido amniótico, el test del helecho positivo confirma rotura prematura de membranas (RPM). Dado que el embarazo es pretérmino (<37 semanas), la conducta indicada es conservadora, enfocada en prevenir infecciones y maduración pulmonar: protección antimicrobiana, corticoides y vigilancia.",
+      "comentario": "En gestante de 32 semanas con sospecha de pérdida de líquido amniótico, el test del helecho positivo confirma rotura prematura de membranas (RPM). Dado que el embarazo es pretérmino (<37 semanas), la conducta indicada es conservadora, enfocada en prevenir infecciones y maduración pulmonar: protección antimicrobiana, corticoides y vigilancia.",
+      "tema": "Rotura Prematura de Membranas",
+      "año": 2020
+    },
+    {
+      "id": "GIN-003",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante a término en fase activa de trabajo de parto, DU 3 en 10 min, duración 40 seg, con desaceleraciones de latidos fetales. Permanece con dilatación de 6 cm por 6 horas con membranas íntegras. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Cesárea",
+        "Posición decúbito lateral derecho",
+        "Realizar amniotomía",
+        "Acentuación con oxitocina",
+        "Amputación"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Detención de la fase activa de dilatación (más de 4 horas estacionaria con dinámica adecuada) asociado a desaceleraciones fetales constituye riesgo inminente de hipoxia y sufrimiento fetal, indicando cesárea de urgencia.",
+      "comentario": "Detención de la fase activa de dilatación (más de 4 horas estacionaria con dinámica adecuada) asociado a desaceleraciones fetales constituye riesgo inminente de hipoxia y sufrimiento fetal, indicando cesárea de urgencia.",
+      "tema": "Distocias y sufrimiento fetal",
+      "año": 2020
     }
   ]
 }
