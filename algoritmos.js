@@ -77,5 +77,58 @@ window.MQP_ALGORITMOS = {
     titulo: "Rotura prematura de membranas",
     imagen: "flujogramas/rotura-prematura-membranas.svg",
     alt: "Flujograma de manejo de la rotura prematura de membranas"
+  },
+
+  /* ---------- ENAM 2020 · preguntas 22 a 31 ---------- */
+
+  "PED-004": {
+    titulo: "Membrana hialina (SDR neonatal)",
+    imagen: "flujogramas/membrana-hialina-sdra-neonatal.svg",
+    alt: "Flujograma diagnóstico de la enfermedad de membrana hialina o síndrome de dificultad respiratoria neonatal"
+  },
+  "HEM-002": {
+    titulo: "Anemia ferropénica: perfil de hierro",
+    imagen: "flujogramas/anemia-ferropenica-perfil-hierro.svg",
+    alt: "Flujograma de interpretación del perfil de hierro en la anemia ferropénica"
+  },
+  "NEF-002": {
+    titulo: "Hiperpotasemia: manejo de urgencia",
+    imagen: "flujogramas/hiperpotasemia-manejo-urgencia.svg",
+    alt: "Flujograma de manejo de urgencia de la hiperpotasemia"
+  },
+  "GIN-004": {
+    titulo: "Hipertensión gestacional: diagnóstico",
+    imagen: "flujogramas/hipertension-gestacional-diagnostico.svg",
+    alt: "Flujograma diagnóstico de la hipertensión gestacional"
+  },
+  "SP-002": {
+    titulo: "Parto humanizado con enfoque intercultural",
+    imagen: "flujogramas/parto-humanizado-intercultural.svg",
+    alt: "Flujograma de atención del parto humanizado con enfoque intercultural"
+  },
+  "GIN-005": {
+    titulo: "Preeclampsia con criterios de severidad",
+    imagen: "flujogramas/preeclampsia-con-criterios-severidad.svg",
+    alt: "Flujograma de criterios de severidad de la preeclampsia"
+  },
+  "NRL-003": {
+    titulo: "Hematoma epidural de fosa posterior",
+    imagen: "flujogramas/hematoma-epidural-fosa-posterior.svg",
+    alt: "Flujograma de manejo del hematoma epidural de fosa posterior"
+  },
+  "REU-003": {
+    titulo: "Artritis reumatoide: anticuerpos anti-CCP",
+    imagen: "flujogramas/artritis-reumatoide-anticuerpos-anti-ccp.svg",
+    alt: "Flujograma diagnóstico de la artritis reumatoide con anticuerpos anti-CCP"
+  },
+  "INF-003": {
+    titulo: "Mononucleosis infecciosa (virus de Epstein-Barr)",
+    imagen: "flujogramas/mononucleosis-infecciosa-veb.svg",
+    alt: "Flujograma diagnóstico de la mononucleosis infecciosa por virus de Epstein-Barr"
+  },
+  "PED-005": {
+    titulo: "Rubéola: diagnóstico exantemático",
+    imagen: "flujogramas/rubeola-diagnostico-exantematico.svg",
+    alt: "Flujograma de diagnóstico diferencial de exantemas y rubéola"
   }
 };
