@@ -15,6 +15,7 @@ import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 const html = readFileSync("index.html", "utf8");
 const css = readFileSync("styles.css", "utf8");
 const js = readFileSync("main.js", "utf8");
+const algoritmos = readFileSync("algoritmos.js", "utf8");
 
 const bancos = {};
 for (const nombre of readdirSync("bancos").filter((n) => n.endsWith(".json")).sort()) {
@@ -27,11 +28,13 @@ const cuerpo = html
   .slice(html.indexOf("<body>") + "<body>".length, html.lastIndexOf("</body>"))
   .replace(/<!-- chat:inicio[\s\S]*?<!-- chat:fin -->\n?/, "")
   .replace(/<script[^>]*src="main\.js[^"]*"[^>]*><\/script>\n?/, "")
+  .replace(/<script[^>]*src="algoritmos\.js[^"]*"[^>]*><\/script>\n?/, "")
   .trim();
 
 const fuentes = (html.match(/<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^"]*">/) || [""])[0];
 
 const artifact = `<title>MedQuizPlus</title>
+<script>try { var t = localStorage.getItem("mqp_tema"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 ${fuentes}
 <style>
@@ -41,6 +44,7 @@ ${css.trim()}
 ${cuerpo}
 <script>
 window.MQP_BANCOS = ${bancosJs};
+${algoritmos.trim()}
 ${js.trim()}
 </script>
 `;

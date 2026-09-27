@@ -300,6 +300,15 @@
       next: document.getElementById("svNext")
     };
 
+    /* Avisos para los módulos del modo simulación (no cambian el motor). */
+    function avisar(tipo) {
+      if (!actual) { vista.dispatchEvent(new CustomEvent("mqp:" + tipo)); return; }
+      vista.dispatchEvent(new CustomEvent("mqp:" + tipo, { detail: {
+        pregunta: actual.preguntas[actual.i], i: actual.i, total: actual.preguntas.length,
+        respondida: actual.respuestas[actual.i] || null, preguntas: actual.preguntas
+      } }));
+    }
+
     var cache = {};          // archivo -> promesa de preguntas normalizadas
     var estados = {};        // archivo -> nodo de estado de la tarjeta
     var actual = null;       // { esp, preguntas, i, respuestas }
@@ -496,6 +505,7 @@
       el.prev.disabled = actual.i === 0;
       el.next.disabled = actual.i >= total - 1;
       pintarPuntaje();
+      avisar("pregunta");
     }
 
     function marcar(elegida) {
@@ -523,6 +533,7 @@
       actual.respuestas[actual.i] = letra;
       marcar(letra);
       pintarPuntaje();
+      avisar("respondida");
       if (!el.next.disabled) el.next.focus();
     });
 
@@ -538,6 +549,7 @@
       actual = null;
       grid.hidden = false;
       vista.hidden = true;
+      avisar("cerrado");
     }
     el.back.addEventListener("click", function () { cerrarSimulador(); mostrarVista(false); });
 
@@ -546,6 +558,376 @@
     for (var j = 0; j < enlaces.length; j++) enlaces[j].addEventListener("click", cerrarSimulador);
 
     pintarGrid();
+  });
+
+  /* ---------- tema claro / oscuro persistente ----------
+     La preferencia se guarda en localStorage ("mqp_tema"). Un script en el <head>
+     la aplica antes de pintar; aquí solo se maneja el botón. */
+  safe("tema", function () {
+    var btn = document.getElementById("themeToggle");
+    var raiz = document.documentElement;
+    var etiqueta = btn ? btn.querySelector(".theme-btn__label") : null;
+    var sistema = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+    function actual() {
+      var t = raiz.getAttribute("data-theme");
+      if (t === "dark" || t === "light") return t;
+      return sistema && sistema.matches ? "dark" : "light";
+    }
+    function pintar() {
+      var oscuro = actual() === "dark";
+      if (btn) {
+        btn.setAttribute("aria-pressed", oscuro ? "true" : "false");
+        if (etiqueta) etiqueta.textContent = oscuro ? "Modo claro" : "Modo oscuro";
+        btn.title = oscuro ? "Cambiar a modo claro" : "Cambiar a modo oscuro";
+      }
+      var metas = document.querySelectorAll('meta[name="theme-color"]');
+      for (var k = 0; k < metas.length; k++) metas[k].setAttribute("content", oscuro ? "#0b1220" : "#f8fafc");
+    }
+    if (btn) {
+      btn.addEventListener("click", function () {
+        var nuevo = actual() === "dark" ? "light" : "dark";
+        raiz.setAttribute("data-theme", nuevo);
+        try { localStorage.setItem("mqp_tema", nuevo); } catch (e) {}
+        pintar();
+      });
+    }
+    /* sin preferencia guardada, sigue al sistema en vivo */
+    if (sistema && sistema.addEventListener) sistema.addEventListener("change", function () {
+      var guardado = null;
+      try { guardado = localStorage.getItem("mqp_tema"); } catch (e) {}
+      if (!guardado) pintar();
+    });
+    pintar();
+  });
+
+  /* ---------- modo simulación hiperrealista ----------
+     Se engancha al simulador de bancos mediante los eventos mqp:pregunta,
+     mqp:respondida y mqp:cerrado; no toca la carga de bancos/ ni el puntaje.
+     Estado por pregunta guardado en el propio objeto de la pregunta:
+       pregunta.marcada (bandera) y pregunta.tachadas (letras tachadas). */
+  safe("simulacion", function () {
+    var vista = document.getElementById("simView");
+    var opciones = document.getElementById("svOptions");
+    var contenido = document.getElementById("svContent");
+    if (!vista || !opciones || !contenido) return;
+
+    var el = {
+      tarjeta: document.getElementById("svQuiz"),
+      flag: document.getElementById("svFlag"),
+      recall: document.getElementById("svRecall"),
+      pace: document.getElementById("svPace"),
+      paceFill: document.getElementById("svPaceFill"),
+      paceTime: document.getElementById("svPaceTime"),
+      score: document.getElementById("svScore"),
+      next: document.getElementById("svNext"),
+      prev: document.getElementById("svPrev"),
+      algo: document.getElementById("svAlgo"),
+      modal: document.getElementById("algoModal"),
+      modalBody: document.getElementById("algoBody"),
+      modalTitle: document.getElementById("algoTitle"),
+      modalSub: document.getElementById("algoSub"),
+      modalClose: document.getElementById("algoClose")
+    };
+    var estado = null;          // detail del último mqp:pregunta
+    var preseleccion = null;    // letra elegida con el teclado, pendiente de confirmar
+
+    function botones() { return opciones.querySelectorAll(".opt"); }
+    function boton(letra) { return opciones.querySelector('.opt[data-letra="' + letra + '"]'); }
+    function enPantalla() { return !vista.hidden && !contenido.hidden && !!estado; }
+
+    /* ===== 1. tachado de distractores ===== */
+    var OJO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16"/><path d="M8 6.5C9.2 5.6 10.5 5 12 5c5 0 8.5 7 8.5 7a15 15 0 0 1-2 2.8M6 8.2A15 15 0 0 0 3.5 12S7 19 12 19c1.5 0 2.8-.5 4-1.2"/></svg>';
+
+    function decorarOpciones() {
+      var q = estado && estado.pregunta;
+      var lista = botones();
+      for (var k = 0; k < lista.length; k++) {
+        var b = lista[k];
+        var letra = b.getAttribute("data-letra");
+        var li = b.parentNode;
+        if (!li.querySelector(".opt-strike")) {
+          var t = document.createElement("button");
+          t.type = "button";
+          t.className = "opt-strike";
+          t.setAttribute("data-letra", letra);
+          t.innerHTML = OJO + '<span class="sr-only">Tachar la alternativa ' + letra + "</span>";
+          t.title = "Tachar / destachar (clic derecho sobre la alternativa)";
+          li.classList.add("opt-row");
+          li.appendChild(t);
+        }
+        pintarTachado(letra, !!(q && q.tachadas && q.tachadas[letra]));
+      }
+      bloquearTachado(!!(estado && estado.respondida));
+    }
+    function bloquearTachado(on) {
+      var ts = opciones.querySelectorAll(".opt-strike");
+      for (var k = 0; k < ts.length; k++) ts[k].disabled = on;
+    }
+    function pintarTachado(letra, on) {
+      var b = boton(letra);
+      if (!b) return;
+      b.classList.toggle("opt--struck", on);
+      var t = b.parentNode.querySelector(".opt-strike");
+      if (t) t.setAttribute("aria-pressed", on ? "true" : "false");
+    }
+    function tachar(letra) {
+      if (!estado) return;
+      var q = estado.pregunta;
+      q.tachadas = q.tachadas || {};
+      q.tachadas[letra] = !q.tachadas[letra];
+      if (q.tachadas[letra] && preseleccion === letra) preseleccionar(null);
+      pintarTachado(letra, q.tachadas[letra]);
+    }
+    opciones.addEventListener("contextmenu", function (ev) {
+      var b = ev.target.closest ? ev.target.closest(".opt") : null;
+      if (!b || b.disabled) return;
+      ev.preventDefault();
+      tachar(b.getAttribute("data-letra"));
+    });
+    opciones.addEventListener("click", function (ev) {
+      var t = ev.target.closest ? ev.target.closest(".opt-strike") : null;
+      if (!t) return;
+      if (estado && estado.respondida) return;
+      tachar(t.getAttribute("data-letra"));
+    });
+
+    /* ===== 2. bandera de revisión ===== */
+    function pintarBandera() {
+      var on = !!(estado && estado.pregunta.marcada);
+      if (el.flag) {
+        el.flag.setAttribute("aria-pressed", on ? "true" : "false");
+        el.flag.querySelector(".flag-btn__label").textContent = on ? "Marcada" : "Marcar";
+      }
+      if (el.tarjeta) el.tarjeta.classList.toggle("is-flagged", on);
+      pintarMarcadas();
+    }
+    function pintarMarcadas() {
+      if (!el.score || !estado) return;
+      var n = 0;
+      for (var k = 0; k < estado.preguntas.length; k++) if (estado.preguntas[k].marcada) n++;
+      var chip = el.score.parentNode.querySelector(".flag-count");
+      if (!chip) {
+        chip = document.createElement("span");
+        chip.className = "flag-count";
+        el.score.parentNode.insertBefore(chip, el.score);
+      }
+      chip.hidden = !n;
+      chip.textContent = n + (n === 1 ? " marcada para revisión" : " marcadas para revisión");
+    }
+    function alternarBandera() {
+      if (!estado) return;
+      estado.pregunta.marcada = !estado.pregunta.marcada;
+      pintarBandera();
+    }
+    if (el.flag) el.flag.addEventListener("click", alternarBandera);
+
+    /* ===== 3. active recall ===== */
+    var CLAVE_RECALL = "mqp_recall";
+    function pintarRecall() {
+      var on = !!(el.recall && el.recall.checked);
+      opciones.classList.toggle("is-recall", on);
+      var lista = botones();
+      for (var k = 0; k < lista.length; k++) lista[k].classList.remove("is-revealed");
+    }
+    if (el.recall) {
+      try { el.recall.checked = localStorage.getItem(CLAVE_RECALL) === "1"; } catch (e) {}
+      el.recall.addEventListener("change", function () {
+        try { localStorage.setItem(CLAVE_RECALL, el.recall.checked ? "1" : "0"); } catch (e) {}
+        pintarRecall();
+      });
+      pintarRecall();
+    }
+    /* En pantallas táctiles no hay hover: el primer toque revela y el segundo responde.
+       Se escucha en captura para frenar el clic antes de que llegue al motor. */
+    opciones.addEventListener("click", function (ev) {
+      if (!opciones.classList.contains("is-recall")) return;
+      var b = ev.target.closest ? ev.target.closest(".opt") : null;
+      if (!b || b.disabled || b.classList.contains("is-revealed")) return;
+      if (window.matchMedia && window.matchMedia("(hover: hover)").matches) return;
+      ev.stopPropagation();
+      b.classList.add("is-revealed");
+    }, true);
+
+    /* ===== 6. barra de ritmo (60 s por pregunta) ===== */
+    var IDEAL = 60, AVISO = 40;
+    var inicio = 0, reloj = null;
+    function dos(n) { return (n < 10 ? "0" : "") + n; }
+    function ticRitmo() {
+      var s = (Date.now() - inicio) / 1000;
+      var p = Math.min(s / IDEAL, 1);
+      if (el.paceFill) el.paceFill.style.transform = "scaleX(" + p + ")";
+      if (el.pace) {
+        el.pace.classList.toggle("is-warn", s >= AVISO && s < IDEAL);
+        el.pace.classList.toggle("is-over", s >= IDEAL);
+      }
+      if (el.paceTime) {
+        var t = Math.floor(s);
+        el.paceTime.textContent = Math.floor(t / 60) + ":" + dos(t % 60);
+        el.paceTime.classList.toggle("is-warn", s >= AVISO && s < IDEAL);
+        el.paceTime.classList.toggle("is-over", s >= IDEAL);
+      }
+    }
+    function pararRitmo() { if (reloj) { clearInterval(reloj); reloj = null; } }
+    function iniciarRitmo() {
+      pararRitmo();
+      if (el.pace) el.pace.classList.remove("is-done");
+      inicio = Date.now();
+      ticRitmo();
+      reloj = setInterval(ticRitmo, 250);
+    }
+    function congelarRitmo() {
+      pararRitmo();
+      if (el.pace) el.pace.classList.add("is-done");
+    }
+    document.addEventListener("visibilitychange", function () {
+      /* al volver a la pestaña el tiempo transcurrido sigue siendo real; solo refresca */
+      if (!document.hidden && reloj) ticRitmo();
+    });
+
+    /* ===== 5. atajos de teclado ===== */
+    function preseleccionar(letra) {
+      preseleccion = letra;
+      var lista = botones();
+      for (var k = 0; k < lista.length; k++) lista[k].classList.toggle("is-preselected", lista[k].getAttribute("data-letra") === letra);
+      if (letra) { var b = boton(letra); if (b) { b.classList.add("is-revealed"); b.focus({ preventScroll: true }); b.scrollIntoView({ block: "nearest" }); } }
+    }
+    var espacioManejado = false;
+    document.addEventListener("keydown", function (ev) {
+      if (!enPantalla() || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+      if (el.modal && el.modal.open) return;
+      var t = ev.target;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) && t !== el.recall) return;
+      if (t && t.closest && t.closest(".chat-panel")) return;
+
+      var k = ev.key;
+      var respondida = !!estado.respondida;
+      var letra = null;
+      if (/^[a-eA-E]$/.test(k)) letra = k.toUpperCase();
+      else if (/^[1-5]$/.test(k)) letra = "ABCDE".charAt(parseInt(k, 10) - 1);
+
+      if (letra && !respondida) {
+        var b = boton(letra);
+        if (!b) return;
+        ev.preventDefault();
+        preseleccionar(letra);
+      } else if (k === " " || k === "Spacebar" || k === "Enter") {
+        if (k === "Enter" && t && t.tagName === "BUTTON" && t !== boton(preseleccion)) return;
+        ev.preventDefault();
+        espacioManejado = true;
+        if (!respondida && preseleccion) {
+          var elegido = boton(preseleccion);
+          if (elegido) elegido.click();
+        } else if (respondida && el.next && !el.next.disabled) {
+          el.next.click();
+        }
+      } else if (k === "f" || k === "F") {
+        ev.preventDefault();
+        alternarBandera();
+      } else if (k === "ArrowRight" && el.next && !el.next.disabled) {
+        ev.preventDefault(); el.next.click();
+      } else if (k === "ArrowLeft" && el.prev && !el.prev.disabled) {
+        ev.preventDefault(); el.prev.click();
+      }
+    });
+    /* evita que el Espacio "suelte" un segundo clic sobre el botón enfocado */
+    document.addEventListener("keyup", function (ev) {
+      if (espacioManejado && (ev.key === " " || ev.key === "Spacebar" || ev.key === "Enter")) { ev.preventDefault(); espacioManejado = false; }
+    });
+
+    /* ===== 7. modal de algoritmos ===== */
+    function abrirAlgoritmo() {
+      if (!el.modal || !estado) return;
+      var q = estado.pregunta;
+      var registro = window.MQP_ALGORITMOS || {};
+      var algo = registro[q.id] || registro[q.especialidad] || null;
+      el.modalBody.innerHTML = "";
+      el.modalTitle.textContent = algo && algo.titulo ? algo.titulo : "Algoritmo diagnóstico";
+      el.modalSub.textContent = (q.especialidad || "") + (q.id ? " · " + q.id : "");
+      if (algo && algo.imagen) {
+        var img = document.createElement("img");
+        img.src = algo.imagen;
+        img.alt = algo.alt || el.modalTitle.textContent;
+        img.className = "algo-modal__img";
+        img.loading = "lazy";
+        el.modalBody.appendChild(img);
+      }
+      if (algo && algo.pasos && algo.pasos.length) {
+        el.modalBody.appendChild(flujograma(algo.pasos));
+      }
+      if (algo && algo.nota) {
+        var p = document.createElement("p");
+        p.className = "algo-modal__note";
+        p.textContent = algo.nota;
+        el.modalBody.appendChild(p);
+      }
+      if (!algo) el.modalBody.appendChild(placeholder());
+      if (typeof el.modal.showModal === "function") el.modal.showModal();
+      else el.modal.setAttribute("open", "");
+    }
+    /* pasos: [{ texto, tipo: "inicio" | "decision" | "accion" | "fin" }] */
+    function flujograma(pasos) {
+      var ol = document.createElement("ol");
+      ol.className = "flow-chart";
+      for (var k = 0; k < pasos.length; k++) {
+        var li = document.createElement("li");
+        li.className = "flow-chart__node flow-chart__node--" + (pasos[k].tipo || "accion");
+        li.textContent = pasos[k].texto;
+        ol.appendChild(li);
+      }
+      return ol;
+    }
+    function placeholder() {
+      var box = document.createElement("div");
+      box.className = "algo-empty";
+      box.appendChild(flujograma([
+        { texto: "Presentación clínica", tipo: "inicio" },
+        { texto: "¿Criterio de gravedad?", tipo: "decision" },
+        { texto: "Conducta inicial", tipo: "accion" },
+        { texto: "Tratamiento definitivo", tipo: "fin" }
+      ]));
+      var p = document.createElement("p");
+      p.className = "algo-modal__note";
+      p.textContent = "Esquema de ejemplo. El flujograma de esta pregunta todavía no está cargado.";
+      box.appendChild(p);
+      return box;
+    }
+    function cerrarAlgoritmo() {
+      if (!el.modal) return;
+      if (typeof el.modal.close === "function") el.modal.close(); else el.modal.removeAttribute("open");
+      if (el.algo) el.algo.focus();
+    }
+    if (el.algo) el.algo.addEventListener("click", abrirAlgoritmo);
+    if (el.modalClose) el.modalClose.addEventListener("click", cerrarAlgoritmo);
+    if (el.modal) el.modal.addEventListener("click", function (ev) {
+      if (ev.target === el.modal) cerrarAlgoritmo();   // clic fuera del panel
+    });
+
+    /* ===== enganche con el motor ===== */
+    vista.addEventListener("mqp:pregunta", function (ev) {
+      estado = ev.detail;
+      preseleccion = null;
+      decorarOpciones();
+      pintarRecall();
+      pintarBandera();
+      if (estado.respondida) congelarRitmo(); else iniciarRitmo();
+    });
+    vista.addEventListener("mqp:respondida", function (ev) {
+      estado = ev.detail;
+      preseleccion = null;
+      var lista = botones();
+      for (var k = 0; k < lista.length; k++) lista[k].classList.remove("is-preselected");
+      bloquearTachado(true);
+      congelarRitmo();
+    });
+    vista.addEventListener("mqp:cerrado", function () {
+      estado = null;
+      pararRitmo();
+      if (el.modal && el.modal.open) cerrarAlgoritmo();
+    });
+    /* cargando o con error: no hay pregunta en pantalla, el reloj no corre */
+    new MutationObserver(function () { if (contenido.hidden) pararRitmo(); })
+      .observe(contenido, { attributes: true, attributeFilter: ["hidden"] });
   });
 
   /* ---------- cuenta regresiva al próximo sábado 09:00 ---------- */
