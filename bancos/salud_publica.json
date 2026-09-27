@@ -301,6 +301,63 @@
       "comentario": "Las equimosis de origen traumático externo asociadas a signos de sofocación cervical/orofaríngea y compromiso emocional reactivo en una mujer conviviente constituyen un cuadro clínico de sospecha directa de violencia familiar o de pareja.",
       "tema": "Violencia basada en género",
       "año": 2020
+    },
+    {
+      "id": "SP-017",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 2 años, con cuadros diarreicos a repetición sin deshidratación. Talla/edad < -2 DE. Vive en casa con piso de tierra, sin agua ni desagüe. ¿Cuáles determinantes sociales influyen más en su situación de salud?",
+      "opciones": [
+        "Características de la vivienda y acceso a servicios básicos",
+        "Condiciones de empleo y trabajo de los padres",
+        "Nivel educativo y cultural de la familia",
+        "Ubicación y accesibilidad al centro de salud",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La carencia estructural de saneamiento básico (agua potable intradomiciliaria y red de alcantarillado) y el piso de tierra son determinantes ambientales intermediarios directamente causantes de infecciones entéricas recurrentes y malnutrición crónica en la primera infancia.",
+      "comentario": "La carencia estructural de saneamiento básico (agua potable intradomiciliaria y red de alcantarillado) y el piso de tierra son determinantes ambientales intermediarios directamente causantes de infecciones entéricas recurrentes y malnutrición crónica en la primera infancia.",
+      "tema": "Determinantes sociales de la salud",
+      "año": 2020
+    },
+    {
+      "id": "SP-018",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En un centro de salud se modificó la infraestructura para obtener más consultorios. Seis meses después se reportaron trabajadores del centro con tuberculosis pulmonar. ¿Cuál de las siguientes es la medida de control ambiental que se debe implementar?",
+      "opciones": [
+        "Maximizar la ventilación natural",
+        "Prevención con isoniacida",
+        "Fortalecer estudio de contactos",
+        "Asegurar la disponibilidad de respiradores",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La medida de control de ingeniería o ambiental de mayor eficacia, costo-efectividad y prioridad en los establecimientos de atención ambulatoria para disminuir la concentración de aerosoles bacilíferos es optimizar y maximizar la ventilación natural cruzada.",
+      "comentario": "La medida de control de ingeniería o ambiental de mayor eficacia, costo-efectividad y prioridad en los establecimientos de atención ambulatoria para disminuir la concentración de aerosoles bacilíferos es optimizar y maximizar la ventilación natural cruzada.",
+      "tema": "Bioseguridad y control de infecciones",
+      "año": 2020
+    },
+    {
+      "id": "SP-019",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón procedente de Piura, con tres días de fiebre, cefalea, dolor retro ocular, mialgias y artralgias. Acude a centro de salud en Lima, en cuyo ámbito se ha identificado aumento de mosquitos. ¿Qué medida se debe priorizar para prevenir casos autóctonos?",
+      "opciones": [
+        "Control vectorial",
+        "Vigilancia de migrantes",
+        "Administrar quimioprofilaxis",
+        "Identificar serotipo",
+        "Ceftriaxona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante la introducción de un caso importado de dengue en un área con presencia del vector Aedes aegypti, la intervención fundamental para impedir el establecimiento de transmisión autóctona sostenida es el control vectorial focal y nebulización espacial.",
+      "comentario": "Ante la introducción de un caso importado de dengue en un área con presencia del vector Aedes aegypti, la intervención fundamental para impedir el establecimiento de transmisión autóctona sostenida es el control vectorial focal y nebulización espacial.",
+      "tema": "Vigilancia epidemiológica de arbovirosis",
+      "año": 2020
     }
   ]
 }

@@ -396,6 +396,215 @@
       "comentario": "La conjuntivitis neonatal hiperaguda purulenta en las primeras 24-72 horas de vida (inicio muy precoz) es característicamente causada por Neisseria gonorrhoeae transmitida durante el paso por el canal del parto.",
       "tema": "Oftalmia neonatal",
       "año": 2020
+    },
+    {
+      "id": "PED-022",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de 3 días, 2,800 g, traído por vómitos lácteos e hipoactividad. Examen: hipotenso, signos de deshidratación severa, palidez, taquicardia, llenado capilar >3 s. Hemograma normal, sin desviación izquierda. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Meningoencefalitis",
+        "Sepsis neonatal",
+        "Enfermedad diarreica aguda",
+        "Shock hipovolémico",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La combinación de pérdidas digestivas altas con deshidratación grave, palidez, llenado capilar prolongado, taquicardia e hipotensión sin signos inflamatorios infecciosos en el hemograma corresponde fisiopatológicamente a un estado de shock hipovolémico.",
+      "comentario": "La combinación de pérdidas digestivas altas con deshidratación grave, palidez, llenado capilar prolongado, taquicardia e hipotensión sin signos inflamatorios infecciosos en el hemograma corresponde fisiopatológicamente a un estado de shock hipovolémico.",
+      "tema": "Shock en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-023",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es el factor de riesgo de peor pronóstico en un lactante de 45 días con diagnóstico de tos ferina?",
+      "opciones": [
+        "Reacción leucemoide (>50,000) a predominio mononuclear",
+        "Presencia de linfocitos atípicos >18%",
+        "Leucocitosis de 15,000 con predominio de neutrófilos",
+        "Incremento en la frecuencia de paroxismos de tos cianotizante",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En lactantes menores con tos ferina (coqueluche), la presencia de reacción leucemoide extrema (>50,000 leucocitos/mm³ a predominio de linfocitos) se correlaciona directamente con microtrombosis vascular pulmonar, hipertensión pulmonar refractaria y letalidad elevada.",
+      "comentario": "En lactantes menores con tos ferina (coqueluche), la presencia de reacción leucemoide extrema (>50,000 leucocitos/mm³ a predominio de linfocitos) se correlaciona directamente con microtrombosis vascular pulmonar, hipertensión pulmonar refractaria y letalidad elevada.",
+      "tema": "Tos ferina",
+      "año": 2020
+    },
+    {
+      "id": "PED-024",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 9 meses con 8 horas de llanto intermitente alternado con letargia, deposiciones con moco y sangre rutilante. Al examen: masa palpable en fosa iliaca derecha. Rx abdomen: ausencia de gas en colon y distensión del intestino delgado. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Apendicitis aguda",
+        "Intususcepción",
+        "Divertículo de Meckel",
+        "Hipertrofia del píloro",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La clínica clásica de invaginación intestinal o intususcepción en lactantes cursa con crisis de dolor cólico episódico con letargia, evacuaciones en jalea de grosella y tumoración alargada (\"en morcilla\") en el abdomen.",
+      "comentario": "La clínica clásica de invaginación intestinal o intususcepción en lactantes cursa con crisis de dolor cólico episódico con letargia, evacuaciones en jalea de grosella y tumoración alargada (\"en morcilla\") en el abdomen.",
+      "tema": "Abdomen agudo obstructivo pediátrico",
+      "año": 2020
+    },
+    {
+      "id": "PED-025",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Preescolar de 3 años presenta súbitamente sialorrea, broncorrea, diarrea y sudoración profusa. Antecedente: paseo a zona agrícola. Examen: diaforesis, irritabilidad, fasciculaciones. Se sospecha intoxicación aguda por:",
+      "opciones": [
+        "Órgano fosforado",
+        "Hidrocarburo",
+        "Opioide",
+        "Cumarínico",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La exposición accidental a pesticidas agrícolas asociada a hiperactividad muscarínica (sialorrea, broncorrea, diarrea, diaforesis) y nicotínica (fasciculaciones musculares) es patognomónica de intoxicación por inhibidores de la colinesterasa (organofosforados).",
+      "comentario": "La exposición accidental a pesticidas agrícolas asociada a hiperactividad muscarínica (sialorrea, broncorrea, diarrea, diaforesis) y nicotínica (fasciculaciones musculares) es patognomónica de intoxicación por inhibidores de la colinesterasa (organofosforados).",
+      "tema": "Intoxicaciones accidentales",
+      "año": 2020
+    },
+    {
+      "id": "PED-026",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Preescolar de 2 años presenta convulsión tónico-clónica generalizada en emergencia. Sin antecedentes. ¿Cuál es el tratamiento inmediato?",
+      "opciones": [
+        "Fenobarbital",
+        "Fenitoína",
+        "Diazepam",
+        "Clonazepam",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el manejo agudo de una crisis convulsiva activa en pediatría, los fármacos de primera elección inmediata por su rápido inicio de acción sobre el receptor GABA-A son las benzodiacepinas de acción corta/intermedia como Diazepam (IV o rectal).",
+      "comentario": "En el manejo agudo de una crisis convulsiva activa en pediatría, los fármacos de primera elección inmediata por su rápido inicio de acción sobre el receptor GABA-A son las benzodiacepinas de acción corta/intermedia como Diazepam (IV o rectal).",
+      "tema": "Convulsiones en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-027",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 8 años con 24 h de fiebre (40°C) y distrés respiratorio. Examen: taquipneico, roncantes, crepitantes en base de hemitórax derecho. ¿Qué hallazgos radiográficos esperarías?",
+      "opciones": [
+        "Infiltrado intersticial con atrapamiento aéreo",
+        "Reforzamiento de trama bronquial en HTD",
+        "Imágenes hiliofugales en mitad inferior de HTD",
+        "Infiltrado alveolar en mitad inferior de HTD",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro de neumonía bacteriana adquirida en la comunidad de instauración hiperaguda cursa patológicamente con condensación y ocupación exudativa alveolar, evidenciándose como consolidación o infiltrado alveolar lobar localizado.",
+      "comentario": "El cuadro de neumonía bacteriana adquirida en la comunidad de instauración hiperaguda cursa patológicamente con condensación y ocupación exudativa alveolar, evidenciándose como consolidación o infiltrado alveolar lobar localizado.",
+      "tema": "Neumonía bacteriana pediátrica",
+      "año": 2020
+    },
+    {
+      "id": "PED-028",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 15 meses, hace 2 semanas recibió vacuna contra el sarampión, presenta petequias, equimosis en todo el cuerpo y epistaxis. No visceromegalia. Laboratorio: Hb: 11 g/dL, leucocitos: 10,000/mm3, neutrófilos: 60%, linfocitos: 40%, plaquetas: 20,000. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Leucemia aguda",
+        "Púrpura de Henoch-Schönlein",
+        "Anemia aplásica",
+        "Púrpura trombocitopénica",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La trombocitopenia aislada profunda (<20,000-30,000) de instauración aguda tras un cuadro viral o inmunización previa, sin visceromegalias ni alteración en las otras series hematopoyéticas, define a la púrpura trombocitopénica inmune (PTI) postvacunal.",
+      "comentario": "La trombocitopenia aislada profunda (<20,000-30,000) de instauración aguda tras un cuadro viral o inmunización previa, sin visceromegalias ni alteración en las otras series hematopoyéticas, define a la púrpura trombocitopénica inmune (PTI) postvacunal.",
+      "tema": "Trastornos plaquetarios",
+      "año": 2020
+    },
+    {
+      "id": "PED-029",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 8 años llega a consulta por fiebre y síntomas compatibles con infección urinaria. Urocultivo: falso negativo. ¿Cuál de los eventos pudo haber ocurrido?",
+      "opciones": [
+        "Tratamiento antibiótico previo",
+        "Demora en el envío de la muestra",
+        "Orina muy concentrada",
+        "Orina mal refrigerada",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La causa más común de resultados falsos negativos en el urocultivo es la administración previa de dosis de antimicrobianos, la cual esteriliza transitoriamente la muestra urinaria o inhibe la proliferación bacteriana in vitro en el medio de cultivo.",
+      "comentario": "La causa más común de resultados falsos negativos en el urocultivo es la administración previa de dosis de antimicrobianos, la cual esteriliza transitoriamente la muestra urinaria o inhibe la proliferación bacteriana in vitro en el medio de cultivo.",
+      "tema": "Infección del tracto urinario en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-030",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 14 años, desde hace varios años se viene incrementando bloqueo nasal con alteración del gusto y olfato, prurito y secreción nasal, actualmente más irritable. Antecedente de asma bronquial. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Faringoamigdalitis",
+        "Rinitis alérgica",
+        "Adenoiditis",
+        "Cuerpo extraño nasal",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La presencia de rinorrea acuosa crónica, prurito nasal, congestión persistente e hiposmia en un adolescente con comorbilidad atópica (asma bronquial) constituye el cuadro clásico de rinitis alérgica perenne/persistente.",
+      "comentario": "La presencia de rinorrea acuosa crónica, prurito nasal, congestión persistente e hiposmia en un adolescente con comorbilidad atópica (asma bronquial) constituye el cuadro clásico de rinitis alérgica perenne/persistente.",
+      "tema": "Enfermedades atópicas",
+      "año": 2020
+    },
+    {
+      "id": "PED-031",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 8 años traído a consulta por dolor abdominal crónico e hiporexia, madre manifiesta que es hiperactivo en la escuela. Al examen: palidez de piel y mucosas, talla baja para la edad. Hb de 10 g/dL, microcitosis e hipocromía. Vive en Cerro de Pasco desde los 6 meses de edad. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Intoxicación por plomo",
+        "Esferocitosis hereditaria",
+        "Deficiencia de hierro",
+        "Deficiencia de zinc",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El dolor abdominal cólico recidivante, retraso pondoestatural, trastornos neurocognitivos/conductuales y anemia microcítica en un niño procedente de un área minera expuesta señalan saturnismo o intoxicación crónica por plomo.",
+      "comentario": "El dolor abdominal cólico recidivante, retraso pondoestatural, trastornos neurocognitivos/conductuales y anemia microcítica en un niño procedente de un área minera expuesta señalan saturnismo o intoxicación crónica por plomo.",
+      "tema": "Intoxicación por metales pesados",
+      "año": 2020
+    },
+    {
+      "id": "PED-032",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 12 años, consume alimentos en la puerta del colegio, toma agua sin hervir, tiene malos hábitos de higiene y vacunación incompleta. Consulta por presentar desde hace dos días fiebre, discreto dolor abdominal y orina colúrica. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Brucelosis",
+        "Hepatitis A",
+        "Fiebre tifoidea",
+        "Leptospirosis",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La transmisión fecal-oral por ingesta de agua o alimentos contaminados que debuta con pródromos febriles, malestar y signos de colestasis/hepatocelular aguda (coluria e ictericia) en edad escolar corresponde a hepatitis viral tipo A.",
+      "comentario": "La transmisión fecal-oral por ingesta de agua o alimentos contaminados que debuta con pródromos febriles, malestar y signos de colestasis/hepatocelular aguda (coluria e ictericia) en edad escolar corresponde a hepatitis viral tipo A.",
+      "tema": "Hepatitis virales",
+      "año": 2020
     }
   ]
 }

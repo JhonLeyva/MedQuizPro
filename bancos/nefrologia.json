@@ -130,6 +130,44 @@
       "comentario": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
       "tema": "Glomerulopatías",
       "año": 2020
+    },
+    {
+      "id": "NEF-008",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 36 años, IMC 34, dolor cólico 5/10 en fosa lumbar derecha, irradiado a flanco y testículo derecho, con náuseas y sudoración. ¿Cuál es el examen de elección?",
+      "opciones": [
+        "Resonancia magnética nuclear",
+        "Radiografía simple de abdomen",
+        "Ecografía renal y de vías urinarias",
+        "UroTAC (UroTEM)",
+        "Gammagrafía"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.",
+      "comentario": "La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.",
+      "tema": "Litiasis urinaria",
+      "año": 2020
+    },
+    {
+      "id": "NEF-009",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 15 años refiere dolor testicular derecho de 6 horas de evolución. Antecedente de testículo retráctil del mismo lado. Al examen físico destaca discreta horizontalización de testículo derecho y reflejo cremastérico ausente. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hidrocele testicular",
+        "Epididimitis aguda",
+        "Torsión testicular",
+        "Quiste de epidídimo",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.",
+      "comentario": "El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.",
+      "tema": "Escroto agudo",
+      "año": 2020
     }
   ]
 }

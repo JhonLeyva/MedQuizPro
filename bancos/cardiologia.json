@@ -141,6 +141,63 @@
       "comentario": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
       "tema": "Arritmias ventriculares y Chagas",
       "año": 2020
+    },
+    {
+      "id": "CAR-009",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 2 horas disnea, palpitaciones, dolor precordial. Ingresa en shock traumático, se le coloca oxígeno por bigotera, presentando pérdida súbita de conciencia, respiración agónica y ausencia de pulso. El monitor cardíaco muestra (ver imagen). ¿Cuál es la primera acción a seguir?",
+      "opciones": [
+        "Ventilación",
+        "Amiodarona",
+        "Desfibrilación",
+        "Masaje cardíaco",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).",
+      "comentario": "Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).",
+      "tema": "Reanimación cardiopulmonar avanzada",
+      "año": 2020
+    },
+    {
+      "id": "CAR-010",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años presenta fiebre continua desde hace 6 semanas. Antecedente de fiebre reumática en la infancia, hace dos meses extracción dentaria. Al examen: soplo sistólico III/VI en foco mitral, hemiparesia izquierda faciobraquiocrural. Lab: VSG 100 mm/h. ¿Cuál sería el examen más adecuado para definir su diagnóstico?",
+      "opciones": [
+        "Ecocardiografía transesofágica",
+        "Electrocardiograma",
+        "RMN encéfalo",
+        "TEM cerebral",
+        "Ecocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.",
+      "comentario": "Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.",
+      "tema": "Endocarditis infecciosa",
+      "año": 2020
+    },
+    {
+      "id": "CAR-011",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 3 semanas refiere disnea a medianos esfuerzos, edema de miembros inferiores, acude a emergencia porque se despierta bruscamente con dificultad para respirar. Al examen: FR 25xmin, P/A 130/90 mmHg, ortopnea, diaforesis, crepitantes tercios medios bilaterales, ruidos cardíacos arrítmicos, ingurgitación yugular, dolor en hipocondrio derecho. ¿Cuál es el tratamiento farmacológico inicial?",
+      "opciones": [
+        "Digitálicos",
+        "Inotrópicos",
+        "Diuréticos",
+        "Vasodilatadores",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.",
+      "comentario": "El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.",
+      "tema": "Insuficiencia cardíaca congestiva",
+      "año": 2020
     }
   ]
 }

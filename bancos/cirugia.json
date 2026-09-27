@@ -225,6 +225,25 @@
       "comentario": "El drenaje persistente o recurrente de material purulento por un orificio externo perianal tras un antecedente de absceso anorrectal drenado constituye la evolución típica de una fístula perianal crónica.",
       "tema": "Patología anorrectal",
       "año": 2020
+    },
+    {
+      "id": "CIR-013",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 66 años, desde hace 2 horas dolor inguinal derecho después de levantar peso, náuseas y vómitos. Al examen: distensión abdominal, RHA con signos de lucha. Se palpa tumoración dolorosa de 2x2 cm por debajo del pliegue inguinal. ¿Cuál es la hernia más probable?",
+      "opciones": [
+        "Inguinal directa",
+        "Crural",
+        "Obturatriz",
+        "Inguinal indirecta",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Una hernia complicada cuya protrusión se localiza anatómicamente por debajo del ligamento o pliegue inguinal (a través del anillo femoral) corresponde a una hernia crural (femoral), frecuente en mujeres de edad avanzada y con alto índice de incarceración/estrangulamiento.",
+      "comentario": "Una hernia complicada cuya protrusión se localiza anatómicamente por debajo del ligamento o pliegue inguinal (a través del anillo femoral) corresponde a una hernia crural (femoral), frecuente en mujeres de edad avanzada y con alto índice de incarceración/estrangulamiento.",
+      "tema": "Hernias de la pared abdominal",
+      "año": 2020
     }
   ]
 }

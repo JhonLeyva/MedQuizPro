@@ -130,6 +130,63 @@
       "comentario": "Fiebre paroxística con escalofríos, ictericia hemolítica, anemia grave y esplenomegalia en un paciente procedente de la Amazonía peruana (Iquitos) señalan el diagnóstico presuntivo de malaria.",
       "tema": "Malaria",
       "año": 2020
+    },
+    {
+      "id": "INF-008",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 60 años, hospitalizada en UCI por intoxicación con barbitúricos en destete de ventilación mecánica. Al quinto día presenta incremento de secreciones bronquiales, fiebre e hipotensión. Rx tórax: infiltrado alveolar difuso. ¿Con qué esquema se debe iniciar el tratamiento antibiótico empírico?",
+      "opciones": [
+        "Meropenem - vancomicina - amikacina",
+        "Ceftazidima oxacilina - amikacina",
+        "Amikacina - ceftazidima ciprofloxacina",
+        "Ceftriaxona - azitromicina amikacina",
+        "Diazepam"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La neumonía asociada a ventilación mecánica (NAV) tardía en paciente con shock séptico requiere cobertura empírica de amplio espectro frente a Pseudomonas aeruginosa, bacilos gramnegativos multirresistentes y MRSA mediante la combinación de un carbapenémico (Meropenem), un glucopéptido (Vancomicina) y un aminoglucósido (Amikacina).",
+      "comentario": "La neumonía asociada a ventilación mecánica (NAV) tardía en paciente con shock séptico requiere cobertura empírica de amplio espectro frente a Pseudomonas aeruginosa, bacilos gramnegativos multirresistentes y MRSA mediante la combinación de un carbapenémico (Meropenem), un glucopéptido (Vancomicina) y un aminoglucósido (Amikacina).",
+      "tema": "Neumonía intrahospitalaria",
+      "año": 2020
+    },
+    {
+      "id": "INF-009",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 35 años con 3 semanas de malestar general, hiporexia, febrícula y sudoración nocturna. Ingresa somnolienta, con cefalea intensa y vómitos. Examen: rigidez de nuca, signo de Kernig (+). ¿Cuál es el examen de elección?",
+      "opciones": [
+        "TAC cerebral",
+        "PPD",
+        "ADA en líquido cefalorraquídeo",
+        "Rx de tórax",
+        "Endoscopia digestiva"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de síndrome meníngeo subagudo con síntomas constitucionales orienta a meningitis tuberculosa; la determinación de la enzima adenosina desaminasa (ADA) en el líquido cefalorraquídeo es la prueba diagnóstica de elección rápida y altamente sensible/específica.",
+      "comentario": "La presencia de síndrome meníngeo subagudo con síntomas constitucionales orienta a meningitis tuberculosa; la determinación de la enzima adenosina desaminasa (ADA) en el líquido cefalorraquídeo es la prueba diagnóstica de elección rápida y altamente sensible/específica.",
+      "tema": "Tuberculosis meníngea",
+      "año": 2020
+    },
+    {
+      "id": "INF-010",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años procedente de Madre de Dios, acude a emergencia por fiebre continua de 38.5°C, dolor retroocular, sangrado nasal, petequias y malestar general. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Dengue",
+        "Leishmania",
+        "Malaria",
+        "Tuberculosis",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En zona endémica amazónica, el cuadro agudo febril con mialgias intensas, dolor retroorbitario y manifestaciones hemorrágicas espontáneas (epistaxis, petequias) orienta al diagnóstico de dengue con signos de alarma.",
+      "comentario": "En zona endémica amazónica, el cuadro agudo febril con mialgias intensas, dolor retroorbitario y manifestaciones hemorrágicas espontáneas (epistaxis, petequias) orienta al diagnóstico de dengue con signos de alarma.",
+      "tema": "Dengue",
+      "año": 2020
     }
   ]
 }

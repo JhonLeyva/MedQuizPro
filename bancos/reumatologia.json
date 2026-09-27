@@ -111,6 +111,44 @@
       "comentario": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
       "tema": "Infecciones bacterianas de piel",
       "año": 2020
+    },
+    {
+      "id": "REU-007",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 20 años con dolores articulares desde hace 1 año, malestar, febrícula y lesiones dérmicas. Examen: púrpura palpable y piel marmórea. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Artritis reumatoide",
+        "Artropatía degenerativa",
+        "Vasculitis",
+        "Esclerodermia",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.",
+      "comentario": "El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.",
+      "tema": "Vasculitis sistémicas",
+      "año": 2020
+    },
+    {
+      "id": "REU-008",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 10 años que presenta lesiones pruriginosas en cuero cabelludo. Al examen: lesiones papulares que se extienden en forma concéntrica formando placas eritematosas, con descamación central, pelo frágil y algunas áreas de alopecia. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Tiña capitis",
+        "Psoriasis puntata",
+        "Alopecia areata",
+        "Tricotilomanía",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.",
+      "comentario": "Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.",
+      "tema": "Micosis superficiales",
+      "año": 2020
     }
   ]
 }

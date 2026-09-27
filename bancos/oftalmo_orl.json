@@ -73,6 +73,25 @@
       "comentario": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
       "tema": "Epistaxis",
       "año": 2020
+    },
+    {
+      "id": "OFT-005",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 12 años, presenta prurito ocular intenso en ambos ojos con espesa secreción mucoide, lagrimeo, fotofobia e hiperemia conjuntival. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Chalazion",
+        "Pterigion",
+        "Iritis",
+        "Conjuntivitis",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.",
+      "comentario": "El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.",
+      "tema": "Patología conjuntival",
+      "año": 2020
     }
   ]
 }

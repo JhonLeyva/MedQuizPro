@@ -73,6 +73,25 @@
       "comentario": "La sospecha de síndrome compartimental por dolor desproporcionado a la elongación pasiva, parestesias y compromiso vascular requiere una descompresión quirúrgica inmediata mediante fasciotomía amplia urgente.",
       "tema": "Emergencias traumatológicas",
       "año": 2020
+    },
+    {
+      "id": "TRA-005",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 12 años consulta por pie plano y dolor de espalda. Prueba de Adams revela curvatura lateral anormal de columna dorsal (Rx muestra escoliosis). ¿Cuál es la alteración detectada?",
+      "opciones": [
+        "Lordosis compensatoria",
+        "Cifosis estructural",
+        "Escoliosis estructural",
+        "Fusión del sacro",
+        "Neumonía adquirida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.",
+      "comentario": "La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.",
+      "tema": "Deformidades de columna",
+      "año": 2020
     }
   ]
 }

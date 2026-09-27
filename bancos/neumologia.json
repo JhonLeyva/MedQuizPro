@@ -54,6 +54,44 @@
       "comentario": "En pacientes con asma no controlada con agonistas beta-2 de acción corta a demanda, la base de la terapia de mantenimiento para controlar la inflamación bronquial es el corticoide inhalado (ej. budesónida o fluticasona).",
       "tema": "Asma bronquial",
       "año": 2020
+    },
+    {
+      "id": "NEU-004",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 23 años consulta por cuadro de tos seca desde hace 2 meses. Rx tórax: borramiento del ángulo costofrénico derecho. Examen de líquido pleural: cociente LDH líquido pleural/plasma > 0.6; cociente proteínas líquido pleural/plasma > 0.5; celularidad a predominio linfocitario, ADA: 55 U/L. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Asbestosis",
+        "Tuberculosis pleural",
+        "Linfoma",
+        "Derrame paraneumónico",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El líquido pleural con perfil de exudado linfocítico mononuclear y una actividad enzimática de adenosina desaminasa (ADA) superior a 40 U/L en un adulto joven en contexto endémico es diagnóstico confirmatorio de pleuresía tuberculosa.",
+      "comentario": "El líquido pleural con perfil de exudado linfocítico mononuclear y una actividad enzimática de adenosina desaminasa (ADA) superior a 40 U/L en un adulto joven en contexto endémico es diagnóstico confirmatorio de pleuresía tuberculosa.",
+      "tema": "Tuberculosis extrapulmonar",
+      "año": 2020
+    },
+    {
+      "id": "NEU-005",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años consulta por disnea progresiva, tos no productiva persistente desde hace 1 año; niega exposición a polvos orgánicos e inorgánicos. A la auscultación presenta crepitantes en bases y algunos sibilantes espiratorios. ¿Cuál es la primera posibilidad diagnóstica?",
+      "opciones": [
+        "Enfermedad pulmonar intersticial",
+        "Fibrosis quística",
+        "Asma alérgica no controlada",
+        "Enfermedad pulmonar obstructiva crónica",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La disnea lentamente progresiva asociada a tos seca crónica y estertores crepitantes tipo \"velcro\" teleinspiratorios bibasales en un paciente sin exposiciones ocupacionales orienta como primera opción a enfermedad pulmonar intersticial difusa.",
+      "comentario": "La disnea lentamente progresiva asociada a tos seca crónica y estertores crepitantes tipo \"velcro\" teleinspiratorios bibasales en un paciente sin exposiciones ocupacionales orienta como primera opción a enfermedad pulmonar intersticial difusa.",
+      "tema": "Enfermedades pulmonares intersticiales",
+      "año": 2020
     }
   ]
 }

@@ -92,6 +92,25 @@
       "comentario": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
       "tema": "Urgencias psiquiátricas",
       "año": 2020
+    },
+    {
+      "id": "PSI-006",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 32 años es llevada a emergencia por intentos de autoagresión y mal control de impulsos. Familiares refieren promiscuidad sexual, historia de abuso de sustancias tóxicas y malas relaciones familiares. Aliento alcohólico. ¿Qué tipo de personalidad presenta la paciente?",
+      "opciones": [
+        "Histriónica",
+        "Antisocial",
+        "Obsesiva-compulsiva",
+        "Limítrofe",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).",
+      "comentario": "La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).",
+      "tema": "Trastornos de la personalidad",
+      "año": 2020
     }
   ]
 }
