@@ -712,5 +712,138 @@ window.MQP_ALGORITMOS = {
     titulo: "Metrorragia del primer trimestre: ecografía transvaginal",
     imagen: "flujogramas/metrorragia-primer-trimestre-ecografia-transvaginal.svg",
     alt: "Flujograma de estudio del sangrado del primer trimestre con ecografía transvaginal"
+  },
+
+  /* ---------- ENAM 2020 · bloque 2 (preguntas pendientes) ---------- */
+
+  "CAR-007": {
+    titulo: "Estenosis mitral reumática y fibrilación auricular",
+    imagen: "flujogramas/estenosis-mitral-fibrilacion-auricular-warfarina.svg",
+    alt: "Flujograma: estenosis mitral reumática y fibrilación auricular"
+  },
+  "CAR-008": {
+    titulo: "Miocardiopatía chagásica y arritmias",
+    imagen: "flujogramas/miocardiopatia-chagasica-taquicardia-ventricular-amiodarona.svg",
+    alt: "Flujograma: miocardiopatía chagásica y arritmias"
+  },
+  "CIR-009": {
+    titulo: "Isquemia arterial aguda: clasificación de Rutherford",
+    imagen: "flujogramas/isquemia-arterial-aguda-rutherford-amputacion.svg",
+    alt: "Flujograma: isquemia arterial aguda: clasificación de Rutherford"
+  },
+  "CIR-010": {
+    titulo: "Complicaciones de la hernioplastia inguinal",
+    imagen: "flujogramas/orquitis-isquemica-post-hernioplastia.svg",
+    alt: "Flujograma: complicaciones de la hernioplastia inguinal"
+  },
+  "CIR-011": {
+    titulo: "Trauma abdominal cerrado",
+    imagen: "flujogramas/trauma-abdominal-cerrado-fast.svg",
+    alt: "Flujograma: trauma abdominal cerrado"
+  },
+  "CIR-012": {
+    titulo: "Fístula perianal",
+    imagen: "flujogramas/fistula-perianal-goodsall.svg",
+    alt: "Flujograma: fístula perianal"
+  },
+  "GAS-006": {
+    titulo: "Hemorragia digestiva alta por úlcera péptica",
+    imagen: "flujogramas/hemorragia-digestiva-alta-ulcera-peptica.svg",
+    alt: "Flujograma: hemorragia digestiva alta por úlcera péptica"
+  },
+  "GAS-007": {
+    titulo: "Hemorragia por várices esofágicas",
+    imagen: "flujogramas/hemorragia-variceal-hipertension-portal.svg",
+    alt: "Flujograma: hemorragia por várices esofágicas"
+  },
+  "GIN-014": {
+    titulo: "Hemorragia de la primera mitad del embarazo",
+    imagen: "flujogramas/amenaza-de-aborto-primer-trimestre.svg",
+    alt: "Flujograma: hemorragia de la primera mitad del embarazo"
+  },
+  "GIN-015": {
+    titulo: "Miomatosis uterina submucosa",
+    imagen: "flujogramas/mioma-submucoso-miomectomia-histeroscopica.svg",
+    alt: "Flujograma: miomatosis uterina submucosa"
+  },
+  "INF-006": {
+    titulo: "Leishmaniasis cutánea",
+    imagen: "flujogramas/leishmaniasis-cutanea-antimonial-pentavalente.svg",
+    alt: "Flujograma: leishmaniasis cutánea"
+  },
+  "INF-007": {
+    titulo: "Malaria: diagnóstico y gravedad",
+    imagen: "flujogramas/malaria-diagnostico-gravedad-amazonia.svg",
+    alt: "Flujograma: malaria: diagnóstico y gravedad"
+  },
+  "NEF-005": {
+    titulo: "Síndrome nefrótico vs. nefrítico",
+    imagen: "flujogramas/sindrome-nefrotico-pediatrico-cambios-minimos.svg",
+    alt: "Flujograma: síndrome nefrótico vs. nefrítico"
+  },
+  "NEF-006": {
+    titulo: "Rabdomiólisis por aplastamiento",
+    imagen: "flujogramas/rabdomiolisis-aplastamiento-lesion-renal.svg",
+    alt: "Flujograma: rabdomiólisis por aplastamiento"
+  },
+  "NEF-007": {
+    titulo: "Síndrome nefrótico del adulto",
+    imagen: "flujogramas/sindrome-nefrotico-adulto-proteinuria.svg",
+    alt: "Flujograma: síndrome nefrótico del adulto"
+  },
+  "NEU-003": {
+    titulo: "Asma: escalonamiento del tratamiento",
+    imagen: "flujogramas/asma-escalonamiento-corticoide-inhalado.svg",
+    alt: "Flujograma: asma: escalonamiento del tratamiento"
+  },
+  "OFT-004": {
+    titulo: "Epistaxis posterior",
+    imagen: "flujogramas/epistaxis-posterior-taponamiento.svg",
+    alt: "Flujograma: epistaxis posterior"
+  },
+  "PED-018": {
+    titulo: "Giardiasis",
+    imagen: "flujogramas/giardiasis-diarrea-cronica-escolar.svg",
+    alt: "Flujograma: giardiasis"
+  },
+  "PED-019": {
+    titulo: "Atresia intestinal",
+    imagen: "flujogramas/atresia-intestinal-prematuros.svg",
+    alt: "Flujograma: atresia intestinal"
+  },
+  "PED-020": {
+    titulo: "Meningitis neonatal",
+    imagen: "flujogramas/meningitis-neonatal-sepsis-temprana.svg",
+    alt: "Flujograma: meningitis neonatal"
+  },
+  "PED-021": {
+    titulo: "Conjuntivitis neonatal",
+    imagen: "flujogramas/conjuntivitis-neonatal-gonococica.svg",
+    alt: "Flujograma: conjuntivitis neonatal"
+  },
+  "PSI-004": {
+    titulo: "Intoxicación por benzodiacepinas",
+    imagen: "flujogramas/intoxicacion-benzodiacepinas-flumazenilo.svg",
+    alt: "Flujograma: intoxicación por benzodiacepinas"
+  },
+  "PSI-005": {
+    titulo: "Conducta suicida: clasificación",
+    imagen: "flujogramas/gesto-suicida-conducta-suicida.svg",
+    alt: "Flujograma: conducta suicida: clasificación"
+  },
+  "SP-014": {
+    titulo: "Coinfección TB-VIH",
+    imagen: "flujogramas/coinfeccion-tb-vih-terapia-preventiva.svg",
+    alt: "Flujograma: coinfección TB-VIH"
+  },
+  "SP-015": {
+    titulo: "Veracidad en la relación médico-paciente",
+    imagen: "flujogramas/veracidad-informacion-adolescente-bioetica.svg",
+    alt: "Flujograma: veracidad en la relación médico-paciente"
+  },
+  "SP-016": {
+    titulo: "Violencia contra la mujer",
+    imagen: "flujogramas/violencia-familiar-ley-30364.svg",
+    alt: "Flujograma: violencia contra la mujer"
   }
 };
