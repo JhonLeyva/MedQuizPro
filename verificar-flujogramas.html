@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Verificar flujogramas · MedQuizPlus</title>
+<style>
+  :root { --ok: #0f7b4f; --bad: #b42318; --warn: #a15c00; --line: #d9e1e8; --muted: #5b6b7a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 16px 48px; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: #10202e; background: #f5f8fa; }
+  main { max-width: 980px; margin: 0 auto; }
+  h1 { margin: 0 0 4px; font-size: 24px; }
+  p.sub { margin: 0 0 20px; color: var(--muted); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .card b { display: block; font-size: 26px; }
+  .card.ok b { color: var(--ok); } .card.bad b { color: var(--bad); } .card.warn b { color: var(--warn); }
+  .box { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; }
+  .box h2 { margin: 0 0 8px; font-size: 16px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #eef3f6; font-size: 13px; }
+  td code { font-size: 12.5px; word-break: break-all; }
+  .st { font-weight: 600; white-space: nowrap; }
+  .st.ok { color: var(--ok); } .st.bad { color: var(--bad); } .st.warn { color: var(--warn); }
+  button { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--line); background: #fff; cursor: pointer; margin-right: 8px; }
+  label { margin-left: 4px; color: var(--muted); }
+  #estado { margin: 0 0 16px; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Verificar flujogramas</h1>
+  <p class="sub">Revisa desde este mismo sitio que cada flujograma de <code>algoritmos.js</code> abra y que su pregunta exista en <code>bancos/</code>. No cambia nada; solo lee.</p>
+  <p id="estado">Revisando…</p>
+  <div class="cards" id="cards"></div>
+  <div class="box" id="version"></div>
+  <p>
+    <button type="button" id="copiar">Copiar lista de problemas</button>
+    <input type="checkbox" id="soloMal" checked><label for="soloMal">Mostrar solo los que fallan</label>
+  </p>
+  <table>
+    <thead><tr><th>ID</th><th>Estado</th><th>Archivo</th><th>Detalle</th></tr></thead>
+    <tbody id="filas"></tbody>
+  </table>
+</main>
+<script>
+(function () {
+  var BANCOS = ["cardiologia","neumologia","gastroenterologia","nefrologia","endocrinologia","infectologia",
+    "neurologia","hematologia","reumatologia","pediatria","ginecologia","cirugia","traumatologia",
+    "oftalmo_orl","psiquiatria","salud_publica","ciencias_basicas"];
+  var marca = "t=" + Date.now();
+  var resultados = [];
+  var $ = function (id) { return document.getElementById(id); };
+
+  function texto(url) {
+    return fetch(url + (url.indexOf("?") < 0 ? "?" : "&") + marca, { cache: "no-store" })
+      .then(function (r) { return r.text().then(function (t) { return { status: r.status, tipo: r.headers.get("content-type") || "", cuerpo: t }; }); });
+  }
+
+  /* algoritmos.js se lee como texto y se evalúa aparte, para no depender de la copia en caché */
+  function leerAlgoritmos() {
+    return texto("algoritmos.js").then(function (r) {
+      if (r.status !== 200) throw new Error("algoritmos.js respondió " + r.status);
+      var window = {};
+      new Function("window", r.cuerpo)(window);
+      if (!window.MQP_ALGORITMOS) throw new Error("algoritmos.js no define MQP_ALGORITMOS");
+      return window.MQP_ALGORITMOS;
+    });
+  }
+
+  function leerIds() {
+    var ids = {};
+    return Promise.all(BANCOS.map(function (b) {
+      return texto("bancos/" + b + ".json").then(function (r) {
+        try { (JSON.parse(r.cuerpo).preguntas || []).forEach(function (p) { ids[p.id] = true; }); }
+        catch (e) { ids["__error_" + b] = true; }
+      });
+    })).then(function () { return ids; });
+  }
+
+  /* un SVG que falta suele devolver la página principal (ErrorDocument), así que se revisa el contenido */
+  function revisarSvg(ruta) {
+    return texto(ruta).then(function (r) {
+      var inicio = r.cuerpo.slice(0, 400).toLowerCase();
+      if (r.status === 404) return { ok: false, detalle: "No existe (404). Falta el archivo o el nombre es distinto." };
+      if (r.status !== 200) return { ok: false, detalle: "El servidor respondió " + r.status + "." };
+      if (inicio.indexOf("<svg") < 0) {
+        if (inicio.indexOf("<!doctype html") >= 0 || inicio.indexOf("<html") >= 0)
+          return { ok: false, detalle: "El servidor devolvió una página web en vez del SVG: el archivo no existe con ese nombre." };
+        return { ok: false, detalle: "El archivo no parece un SVG." };
+      }
+      return new Promise(function (listo) {
+        var img = new Image();
+        img.onload = function () { listo({ ok: true, detalle: "Abre correctamente." }); };
+        img.onerror = function () { listo({ ok: false, detalle: "El archivo existe pero el navegador no puede dibujarlo (SVG dañado)." }); };
+        img.src = ruta + "?" + marca;
+      });
+    }, function () { return { ok: false, detalle: "No se pudo pedir el archivo (red)." }; });
+  }
+
+  function pintar() {
+    var soloMal = $("soloMal").checked, html = "";
+    resultados.forEach(function (r) {
+      if (soloMal && r.clase === "ok") return;
+      html += "<tr><td><code>" + r.id + "</code></td><td class='st " + r.clase + "'>" + r.estado + "</td><td><code>" +
+        (r.archivo || "—") + "</code></td><td>" + r.detalle + "</td></tr>";
+    });
+    $("filas").innerHTML = html || "<tr><td colspan='4'>Sin problemas.</td></tr>";
+  }
+
+  function tarjeta(clase, n, txt) { return "<div class='card " + clase + "'><b>" + n + "</b>" + txt + "</div>"; }
+
+  Promise.all([leerAlgoritmos(), leerIds(), texto("index.html")]).then(function (v) {
+    var A = v[0], ids = v[1], index = v[2].cuerpo;
+    var m = index.match(/algoritmos\.js\?v=([^"']+)/);
+    var entradas = Object.keys(A);
+    $("version").innerHTML = "<h2>Archivos publicados</h2>" +
+      "algoritmos.js en el servidor: <b>" + entradas.length + " entradas</b> (la versión actual tiene 135).<br>" +
+      "index.html pide <code>algoritmos.js?v=" + (m ? m[1] : "¿?") + "</code>" +
+      (m && m[1] === "20260930" ? " — <b style='color:var(--bad)'>versión antigua: sube el index.html nuevo o el navegador seguirá usando la copia vieja.</b>" : " — correcto.");
+    $("estado").textContent = "Revisando " + entradas.length + " flujogramas…";
+    return Promise.all(entradas.map(function (id) {
+      var a = A[id], base = { id: id, archivo: a.imagen || "" };
+      var existe = !!ids[id];
+      if (!a.imagen) {
+        return Promise.resolve(Object.assign(base, existe
+          ? { clase: "ok", estado: "OK", detalle: "Flujograma dibujado con pasos (sin imagen)." }
+          : { clase: "warn", estado: "SIN PREGUNTA", detalle: "Este ID no está en bancos/." }));
+      }
+      return revisarSvg(a.imagen).then(function (r) {
+        if (!r.ok) return Object.assign(base, { clase: "bad", estado: "NO ABRE", detalle: r.detalle });
+        if (!existe) return Object.assign(base, { clase: "warn", estado: "SIN PREGUNTA", detalle: "El SVG abre, pero este ID no está en bancos/: sube la carpeta bancos actualizada." });
+        return Object.assign(base, { clase: "ok", estado: "OK", detalle: r.detalle });
+      });
+    }));
+  }).then(function (lista) {
+    resultados = lista.sort(function (a, b) { return (a.clase === "ok") - (b.clase === "ok") || a.id.localeCompare(b.id); });
+    var ok = lista.filter(function (r) { return r.clase === "ok"; }).length;
+    var mal = lista.filter(function (r) { return r.clase === "bad"; }).length;
+    var aviso = lista.length - ok - mal;
+    $("cards").innerHTML = tarjeta("ok", ok, "abren bien") + tarjeta("bad", mal, "no abren") + tarjeta("warn", aviso, "sin pregunta en bancos") + tarjeta("", lista.length, "revisados");
+    $("estado").textContent = mal || aviso ? "Hay problemas: revisa la tabla." : "Todos los flujogramas abren correctamente.";
+    $("estado").style.color = mal || aviso ? "var(--bad)" : "var(--ok)";
+    pintar();
+  }).catch(function (e) {
+    $("estado").textContent = "No se pudo completar la revisión: " + e.message;
+    $("estado").style.color = "var(--bad)";
+  });
+
+  $("soloMal").addEventListener("change", pintar);
+  $("copiar").addEventListener("click", function () {
+    var t = resultados.filter(function (r) { return r.clase !== "ok"; })
+      .map(function (r) { return r.id + " | " + r.estado + " | " + (r.archivo || "") + " | " + r.detalle; }).join("\n") || "Sin problemas.";
+    (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(
+      function () { $("copiar").textContent = "Copiado ✓"; },
+      function () { window.prompt("Copia esta lista:", t); });
+  });
+})();
+</script>
+</body>
+</html>
