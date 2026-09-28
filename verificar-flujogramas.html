@@ -38,6 +38,7 @@
   <div class="box" id="version"></div>
   <p>
     <button type="button" id="copiar">Copiar lista de problemas</button>
+    <button type="button" id="todos" hidden></button>
     <input type="checkbox" id="soloMal" checked><label for="soloMal">Mostrar solo los que fallan</label>
   </p>
   <table>
@@ -91,13 +92,70 @@
           return { ok: false, detalle: "El servidor devolvió una página web en vez del SVG: el archivo no existe con ese nombre." };
         return { ok: false, detalle: "El archivo no parece un SVG." };
       }
-      return new Promise(function (listo) {
-        var img = new Image();
-        img.onload = function () { listo({ ok: true, detalle: "Abre correctamente." }); };
-        img.onerror = function () { listo({ ok: false, detalle: "El archivo existe pero el navegador no puede dibujarlo (SVG dañado)." }); };
-        img.src = ruta + "?" + marca;
+      return dibuja(ruta + "?" + marca).then(function (bien) {
+        if (bien) return { ok: true, detalle: "Abre correctamente." };
+        var reparado = reparar(r.cuerpo);
+        return dibuja(URL.createObjectURL(new Blob([reparado.svg], { type: "image/svg+xml" }))).then(function (arreglado) {
+          return {
+            ok: false,
+            detalle: "El archivo existe pero el navegador no puede dibujarlo. Causa: " + diagnostico(r.cuerpo) +
+              (arreglado ? " Se puede reparar: " + reparado.cambios.join("; ") + "." : " No se pudo reparar automáticamente: el archivo está incompleto o mal formado; vuelve a generarlo o descargarlo."),
+            reparado: arreglado ? reparado.svg : null
+          };
+        });
       });
     }, function () { return { ok: false, detalle: "No se pudo pedir el archivo (red)." }; });
+  }
+
+  function dibuja(src) {
+    return new Promise(function (listo) {
+      var img = new Image();
+      img.onload = function () { listo(true); };
+      img.onerror = function () { listo(false); };
+      img.src = src;
+    });
+  }
+
+  /* un SVG dentro de <img> debe ser XML válido y llevar el xmlns de SVG */
+  function diagnostico(t) {
+    var causas = [];
+    var raiz = t.match(/<svg\b[^>]*>/i);
+    if (raiz && !/xmlns\s*=\s*["']http:\/\/www\.w3\.org\/2000\/svg["']/.test(raiz[0])) causas.push("falta xmlns=\"http://www.w3.org/2000/svg\" en la etiqueta <svg>");
+    var doc = new DOMParser().parseFromString(t, "image/svg+xml");
+    var err = doc.getElementsByTagName("parsererror")[0];
+    if (err) causas.push("XML inválido — " + err.textContent.replace(/\s+/g, " ")
+      .replace(/This page contains the following errors:\s*/i, "").replace(/\s*Below is a rendering.*$/i, "")
+      .replace(/error on line (\d+) at column (\d+):/i, "línea $1, columna $2:").trim().slice(0, 160));
+    if (/^\s*```/.test(t) || /```\s*$/.test(t)) causas.push("el archivo conserva las marcas ``` de un bloque de código");
+    return causas.length ? causas.join("; ") + "." : "desconocida.";
+  }
+
+  function reparar(t) {
+    var cambios = [], s = t;
+    var s2 = s.replace(/^\s*```[a-z]*\s*\n?/i, "").replace(/\n?```\s*$/, "");
+    if (s2 !== s) { cambios.push("quitadas las marcas ```"); s = s2; }
+    var ini = s.search(/<(\?xml|svg\b)/i);
+    if (ini > 0) { s = s.slice(ini); cambios.push("quitado texto antes del SVG"); }
+    var fin = s.lastIndexOf("</svg>");
+    if (fin >= 0 && fin + 6 < s.length && s.slice(fin + 6).trim()) { s = s.slice(0, fin + 6); cambios.push("quitado texto después del SVG"); }
+    s2 = s.replace(/<svg\b([^>]*)>/i, function (m, attrs) {
+      return /xmlns\s*=/.test(attrs) ? m : '<svg xmlns="http://www.w3.org/2000/svg"' + attrs + ">";
+    });
+    if (s2 !== s) { cambios.push("añadido xmlns"); s = s2; }
+    /* & sueltos y < que no abren una etiqueta, dentro del texto */
+    s2 = s.replace(/&(?!(?:[a-zA-Z][a-zA-Z0-9]*|#\d+|#x[0-9a-fA-F]+);)/g, "&amp;");
+    if (s2 !== s) { cambios.push("escapados los & del texto"); s = s2; }
+    s2 = s.replace(/<(?![A-Za-z\/!?])/g, "&lt;");
+    if (s2 !== s) { cambios.push("escapados los < del texto (p. ej. «<20»)"); s = s2; }
+    if (!cambios.length) cambios.push("sin cambios");
+    return { svg: s, cambios: cambios };
+  }
+
+  function descargar(nombre, contenido) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([contenido], { type: "image/svg+xml" }));
+    a.download = nombre;
+    document.body.appendChild(a); a.click(); a.remove();
   }
 
   function pintar() {
@@ -105,10 +163,28 @@
     resultados.forEach(function (r) {
       if (soloMal && r.clase === "ok") return;
       html += "<tr><td><code>" + r.id + "</code></td><td class='st " + r.clase + "'>" + r.estado + "</td><td><code>" +
-        (r.archivo || "—") + "</code></td><td>" + r.detalle + "</td></tr>";
+        (r.archivo || "—") + "</code></td><td>" + esc(r.detalle) +
+        (r.reparado ? "<br><button type='button' data-id='" + r.id + "'>Descargar SVG corregido</button>" : "") + "</td></tr>";
     });
     $("filas").innerHTML = html || "<tr><td colspan='4'>Sin problemas.</td></tr>";
+    var n = resultados.filter(function (r) { return r.reparado; }).length;
+    $("todos").hidden = !n;
+    $("todos").textContent = "Descargar los " + n + " SVG corregidos";
   }
+
+  function esc(t) { return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+  function porId(id) { return resultados.filter(function (r) { return r.id === id; })[0]; }
+  function nombreDe(r) { return r.archivo.split("/").pop(); }
+
+  $("filas").addEventListener("click", function (ev) {
+    var id = ev.target.getAttribute && ev.target.getAttribute("data-id");
+    var r = id && porId(id);
+    if (r && r.reparado) descargar(nombreDe(r), r.reparado);
+  });
+  $("todos").addEventListener("click", function () {
+    var lista = resultados.filter(function (r) { return r.reparado; });
+    lista.forEach(function (r, k) { setTimeout(function () { descargar(nombreDe(r), r.reparado); }, k * 400); });
+  });
 
   function tarjeta(clase, n, txt) { return "<div class='card " + clase + "'><b>" + n + "</b>" + txt + "</div>"; }
 
@@ -130,7 +206,7 @@
           : { clase: "warn", estado: "SIN PREGUNTA", detalle: "Este ID no está en bancos/." }));
       }
       return revisarSvg(a.imagen).then(function (r) {
-        if (!r.ok) return Object.assign(base, { clase: "bad", estado: "NO ABRE", detalle: r.detalle });
+        if (!r.ok) return Object.assign(base, { clase: "bad", estado: "NO ABRE", detalle: r.detalle, reparado: r.reparado || null });
         if (!existe) return Object.assign(base, { clase: "warn", estado: "SIN PREGUNTA", detalle: "El SVG abre, pero este ID no está en bancos/: sube la carpeta bancos actualizada." });
         return Object.assign(base, { clase: "ok", estado: "OK", detalle: r.detalle });
       });
