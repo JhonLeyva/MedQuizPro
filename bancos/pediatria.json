@@ -1,0 +1,610 @@
+{
+  "especialidad": "Pediatría y Neonatología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "PED-001",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Recién nacido a término de 18 horas de vida, con lactancia materna exclusiva, presenta ictericia que llega hasta el abdomen. La madre es del grupo O Rh positivo y el neonato es A Rh positivo. ¿Cuál es la causa más probable?",
+      "opciones": {
+        "A": "Ictericia fisiológica",
+        "B": "Ictericia por leche materna",
+        "C": "Enfermedad hemolítica por incompatibilidad ABO",
+        "D": "Atresia de vías biliares",
+        "E": "Síndrome de Gilbert"
+      },
+      "clave_correcta": "C",
+      "comentario": "La ictericia en las primeras 24 horas de vida siempre es patológica y lo más frecuente es la hemólisis. Madre O con hijo A o B es la combinación típica de incompatibilidad ABO. La ictericia fisiológica aparece después de las 24 horas y la de la leche materna después de la primera semana. Se debe medir la bilirrubina, hacer Coombs directo y valorar la fototerapia según las curvas de riesgo."
+    },
+    {
+      "id": "PED-002",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 5 años, cuya madre refiere que hace 6 días se cayó sobre la rodilla derecha. Examen: fiebre de 38.5 °C, astenia, adinamia, rodilla derecha con dolor, gran aumento de volumen, calor, rubor y posición antiálgica. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        "Osteomielitis crónica",
+        "Fractura de rótula",
+        "Artritis séptica",
+        "Hemartrosis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro agudo de fiebre, signos de flogosis (calor, rubor, volumen aumentado), dolor y posición antiálgica tras antecedente de trauma sugiere una infección articular aguda bacteriana (artritis séptica).",
+      "comentario": "El cuadro agudo de fiebre, signos de flogosis (calor, rubor, volumen aumentado), dolor y posición antiálgica tras antecedente de trauma sugiere una infección articular aguda bacteriana (artritis séptica).",
+      "tema": "Infecciones osteoarticulares",
+      "año": 2020
+    },
+    {
+      "id": "PED-003",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 7 días de nacido en domicilio, sin controles prenatales, traído a consulta por nariz plana y manchas grises alrededor del iris. Examen: braquicefalia, epicanto, soplo sistólico. ¿Cuál es la alteración cromosómica más probable?",
+      "opciones": [
+        "Monosomía del X",
+        "Trisomía 21",
+        "Trisomía 13",
+        "Aneuploidia XXY",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Braquicefalia, pliegue epicántico, puente nasal plano, manchas de Brushfield (iris) y sospecha de cardiopatía congénita (canal AV o CIV) son estigmas fenotípicos cardinales del síndrome de Down o trisomía 21.",
+      "comentario": "Braquicefalia, pliegue epicántico, puente nasal plano, manchas de Brushfield (iris) y sospecha de cardiopatía congénita (canal AV o CIV) son estigmas fenotípicos cardinales del síndrome de Down o trisomía 21.",
+      "tema": "Genética y dismorfología neonatal",
+      "año": 2020
+    },
+    {
+      "id": "PED-004",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido pretérmino, madre sin control prenatal con diagnóstico de preeclampsia. Examen: distress respiratorio marcado. Radiografía de tórax: imagen de \"vidrio esmerilado\" en pulmones. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Membrana hialina",
+        "Taquipnea transitoria",
+        "Neumonía connatal",
+        "Síndrome aspirativo",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La radiografía con patrón de \"vidrio esmerilado\" en un prematuro con distress severo es patognomónica del síndrome de dificultad respiratoria neonatal o enfermedad de membrana hialina por déficit de surfactante.",
+      "comentario": "La radiografía con patrón de \"vidrio esmerilado\" en un prematuro con distress severo es patognomónica del síndrome de dificultad respiratoria neonatal o enfermedad de membrana hialina por déficit de surfactante.",
+      "tema": "Enfermedades respiratorias del RN",
+      "año": 2020
+    },
+    {
+      "id": "PED-005",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 10 meses, desde hace 3 días fiebre y anorexia. Al examen: linfadenopatías suboccipital y retroauricular dolorosas a la palpación, exantema macular eritematoso que se inició en cara y cuello, luego progresó al tronco. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Exantema súbito",
+        "Sarpullido",
+        "Varicela",
+        "Rubéola",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El exantema cefalocaudal acompañado de adenopatías retroauriculares y suboccipitales dolorosas (signo de Theodor) es la presentación patognomónica de la rubéola.",
+      "comentario": "El exantema cefalocaudal acompañado de adenopatías retroauriculares y suboccipitales dolorosas (signo de Theodor) es la presentación patognomónica de la rubéola.",
+      "tema": "Enfermedades exantemáticas",
+      "año": 2020
+    },
+    {
+      "id": "PED-006",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 11 meses, desde hace 24 horas deposiciones semilíquidas con moco y sangre 4 a 6 veces por día de escaso volumen. Examen: somnoliento, signos de deshidratación leve, T° 39 °C. ¿Cuál es el probable agente etiológico?",
+      "opciones": [
+        "Enterovirus",
+        "Rotavirus",
+        "Campylobacter",
+        "Shigella",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Diarrea disentérica en un lactante menor de 2 años con fiebre alta y afectación del estado general apunta a Campylobacter jejuni, patógeno muy frecuente en este grupo etario en países en desarrollo (Shigella es más común en preescolares).",
+      "comentario": "Diarrea disentérica en un lactante menor de 2 años con fiebre alta y afectación del estado general apunta a Campylobacter jejuni, patógeno muy frecuente en este grupo etario en países en desarrollo (Shigella es más común en preescolares).",
+      "tema": "Enfermedad diarreica en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-007",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de 8 horas, producto de parto domiciliario, es traído al establecimiento de salud. Al examen: 2700 g de peso y no se evidencia alteraciones. Queda con la madre en alojamiento conjunto. ¿Qué vacunas se indican en este caso?",
+      "opciones": [
+        "BCG, HvB",
+        "IPV, Rotavirus",
+        "APO, SPR",
+        "DPT, VPH",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "A todo recién nacido con peso adecuado (>2000g) y asintomático, el esquema nacional de vacunación indica la administración de las vacunas BCG (tuberculosis) y HvB (Hepatitis B) en las primeras 24 horas de vida.",
+      "comentario": "A todo recién nacido con peso adecuado (>2000g) y asintomático, el esquema nacional de vacunación indica la administración de las vacunas BCG (tuberculosis) y HvB (Hepatitis B) en las primeras 24 horas de vida.",
+      "tema": "Inmunizaciones",
+      "año": 2020
+    },
+    {
+      "id": "PED-008",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "RN de 24 horas de vida, no ha eliminado meconio. Al examen: distensión abdominal discreta y ano permeable. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Megacolon agangliónico",
+        "Fibrosis quística",
+        "Hipotiroidismo",
+        "Tapón meconial",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El retraso en la evacuación de meconio (>24h) con ano permeable y distensión abdominal leve, en un contexto neonatal temprano, orienta como primera causa funcional al síndrome de tapón meconial.",
+      "comentario": "El retraso en la evacuación de meconio (>24h) con ano permeable y distensión abdominal leve, en un contexto neonatal temprano, orienta como primera causa funcional al síndrome de tapón meconial.",
+      "tema": "Obstrucción intestinal neonatal",
+      "año": 2020
+    },
+    {
+      "id": "PED-009",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante con rinorrea, congestión nasal y tos seca persistente. Tres días después, bruscamente irritable con llanto persistente, se coge la oreja derecha al parecer por dolor. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Adenitis",
+        "Otitis externa",
+        "Otitis media aguda",
+        "Osteoma",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Cuadro de infección respiratoria alta viral que se complica a los pocos días con dolor de oído (otalgia reflejada por frotarse la oreja) e irritabilidad súbita, es la historia natural clásica de una Otitis Media Aguda (OMA) en lactantes.",
+      "comentario": "Cuadro de infección respiratoria alta viral que se complica a los pocos días con dolor de oído (otalgia reflejada por frotarse la oreja) e irritabilidad súbita, es la historia natural clásica de una Otitis Media Aguda (OMA) en lactantes.",
+      "tema": "Infecciones de vías respiratorias altas",
+      "año": 2020
+    },
+    {
+      "id": "PED-010",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 6 años, desde hace 4 días presenta tos y fiebre. Al examen: T: 38.3 °C, FR: 22 x min, sin dificultad respiratoria. Se auscultan roncantes diseminados en ambos campos pulmonares, sin otros signos. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Bronquitis aguda",
+        "Rinofaringitis aguda",
+        "Bronquiolitis",
+        "Bronconeumonía",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cuadro respiratorio agudo febril con hallazgos auscultatorios limitados a la vía aérea central (roncantes), sin signos de condensación alveolar ni taquipnea significativa, es sugerente de bronquitis aguda.",
+      "comentario": "Cuadro respiratorio agudo febril con hallazgos auscultatorios limitados a la vía aérea central (roncantes), sin signos de condensación alveolar ni taquipnea significativa, es sugerente de bronquitis aguda.",
+      "tema": "Infecciones respiratorias agudas",
+      "año": 2020
+    },
+    {
+      "id": "PED-011",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido macrosómico a término de 24 horas de vida ingresa a emergencia por hipoactividad sin manifestaciones de sepsis. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipocalcemia",
+        "Hiponatremia",
+        "Hipomagnesemia",
+        "Hipoglicemia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En un neonato macrosómico (frecuentemente hijo de madre diabética), la presentación precoz de hipoactividad o letargia se asocia característicamente a hipoglicemia secundaria a hiperinsulinismo fetal residual.",
+      "comentario": "En un neonato macrosómico (frecuentemente hijo de madre diabética), la presentación precoz de hipoactividad o letargia se asocia característicamente a hipoglicemia secundaria a hiperinsulinismo fetal residual.",
+      "tema": "Alteraciones metabólicas del RN",
+      "año": 2020
+    },
+    {
+      "id": "PED-012",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 8 años llega a consulta por pérdida de peso e hiporexia. Percentiles: Peso/Edad bajo, Peso/Talla bajo, Talla/Edad normal. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Desnutrición crónica",
+        "Desnutrición crónica reagudizada",
+        "Desnutrición aguda",
+        "Restricción del crecimiento",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Un déficit pondoestatural con peso para la talla (emaciación) afectado, pero con talla para la edad conservada, indica un evento de pérdida de peso reciente sin afectar el crecimiento histórico, es decir, una desnutrición aguda.",
+      "comentario": "Un déficit pondoestatural con peso para la talla (emaciación) afectado, pero con talla para la edad conservada, indica un evento de pérdida de peso reciente sin afectar el crecimiento histórico, es decir, una desnutrición aguda.",
+      "tema": "Evaluación nutricional infantil",
+      "año": 2020
+    },
+    {
+      "id": "PED-013",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Neonato a término de 3 días, ingresa a emergencia por dificultad respiratoria. Antecedente: madre primigesta con RPM de 72 horas, APGAR 8 y peso normal. Examen: FR 80x', FC 180x', irritable, reflejos normales. Hemograma: leucocitosis con desviación izquierda. Rx tórax: infiltrado bilateral. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Ceftriaxona + cloranfenicol",
+        "Ceftriaxona + ampicilina",
+        "Ampicilina + cloranfenicol",
+        "Ampicilina + amikacina",
+        "Tramadol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante una sepsis neonatal temprana o neumonía connatal por RPM prolongada (>18 horas), el esquema empírico de elección de primera línea combina Ampicilina (cubre S. agalactiae y Listeria) con un aminoglucósido como Amikacina (o Gentamicina para gramnegativos).",
+      "comentario": "Ante una sepsis neonatal temprana o neumonía connatal por RPM prolongada (>18 horas), el esquema empírico de elección de primera línea combina Ampicilina (cubre S. agalactiae y Listeria) con un aminoglucósido como Amikacina (o Gentamicina para gramnegativos).",
+      "tema": "Infecciones neonatales",
+      "año": 2020
+    },
+    {
+      "id": "PED-014",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Preescolar con 2 días de fiebre de 39°C, cefalea y anorexia. Al examen: máculas eritematosas muy pruriginosas, pápulas y vesículas localizadas en cuero cabelludo, cara y tronco. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Varicela",
+        "Eritema infeccioso",
+        "Exantema súbito",
+        "Acarosis infectada",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La varicela se caracteriza por un patrón exantemático centrípeto (cuero cabelludo, cara, tronco), pruriginoso y pleomórfico (coexistencia de máculas, pápulas, vesículas y costras en \"cielo estrellado\").",
+      "comentario": "La varicela se caracteriza por un patrón exantemático centrípeto (cuero cabelludo, cara, tronco), pruriginoso y pleomórfico (coexistencia de máculas, pápulas, vesículas y costras en \"cielo estrellado\").",
+      "tema": "Enfermedades exantemáticas",
+      "año": 2020
+    },
+    {
+      "id": "PED-015",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses con diagnóstico de hipertrofia pilórica, al laboratorio AGA: pH 7.35, CO2 40 mmHg, bicarbonato 24 mEq/L. ¿Qué cuidado se debe tomar antes de la operación?",
+      "opciones": [
+        "Corrección de acidosis metabólica",
+        "Administración de bicarbonato de sodio",
+        "Corrección de acidosis respiratoria",
+        "Rehidratación parenteral",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En la estenosis hipertrófica de píloro la prioridad antes de la cirugía (piloromiotomía) es la estabilización médica mediante rehidratación parenteral enérgica con corrección hidroelectrolítica (hipocloremia, hipokalemia), minimizando el riesgo perioperatorio.",
+      "comentario": "En la estenosis hipertrófica de píloro la prioridad antes de la cirugía (piloromiotomía) es la estabilización médica mediante rehidratación parenteral enérgica con corrección hidroelectrolítica (hipocloremia, hipokalemia), minimizando el riesgo perioperatorio.",
+      "tema": "Obstrucción intestinal pediátrica",
+      "año": 2020
+    },
+    {
+      "id": "PED-016",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 8 años con disfonía, tos y fiebre desde hace 7 días; 5 días después presenta estridor inspiratorio y tos \"perruna\" que se intensifica por las noches. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Faringitis",
+        "Laringotraqueítis",
+        "Cuerpo extraño",
+        "Bronquitis",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La tríada clásica de disfonía, tos perruna (metálica) y estridor laríngeo inspiratorio de predominio nocturno define a la laringotraqueítis aguda (crup viral).",
+      "comentario": "La tríada clásica de disfonía, tos perruna (metálica) y estridor laríngeo inspiratorio de predominio nocturno define a la laringotraqueítis aguda (crup viral).",
+      "tema": "Infecciones respiratorias altas",
+      "año": 2020
+    },
+    {
+      "id": "PED-017",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 3 años, desde hace 3 días presenta cuadro catarral, irritabilidad y fiebre. Al examen: tímpano derecho congestivo y abombado. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Hidrocortisona",
+        "Amoxicilina",
+        "Neomicina",
+        "Polimixina B",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El tratamiento antimicrobiano de primera línea para la otitis media aguda no complicada en pediatría es la amoxicilina vía oral en dosis estándar/altas para cubrir S. pneumoniae.",
+      "comentario": "El tratamiento antimicrobiano de primera línea para la otitis media aguda no complicada en pediatría es la amoxicilina vía oral en dosis estándar/altas para cubrir S. pneumoniae.",
+      "tema": "Infecciones de vía aérea superior",
+      "año": 2020
+    },
+    {
+      "id": "PED-018",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 10 años con diarrea intermitente desde hace 1 mes, sin moco ni sangre, dolor postprandial, distensión y flatulencia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Fasciolosis",
+        "Giardiasis",
+        "Ascaridiosis",
+        "Enterobiasis",
+        "Hipertensión arterial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La diarrea crónica/subaguda acuosa o lientérica, esteatorreica, acompañada de meteorismo, distensión abdominal y malabsorción sin sangre orienta a infección por Giardia lamblia.",
+      "comentario": "La diarrea crónica/subaguda acuosa o lientérica, esteatorreica, acompañada de meteorismo, distensión abdominal y malabsorción sin sangre orienta a infección por Giardia lamblia.",
+      "tema": "Parasitosis intestinal",
+      "año": 2020
+    },
+    {
+      "id": "PED-019",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "La atresia intestinal es más frecuente en los recién nacidos:",
+      "opciones": [
+        "Macrosómicos",
+        "Posmaduros",
+        "Prematuros",
+        "A término",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los recién nacidos prematuros presentan una incidencia significativamente mayor de accidentes vasculares mesentéricos intrauterinos que desencadenan atresia yeyunoileal.",
+      "comentario": "Los recién nacidos prematuros presentan una incidencia significativamente mayor de accidentes vasculares mesentéricos intrauterinos que desencadenan atresia yeyunoileal.",
+      "tema": "Malformaciones digestivas congénitas",
+      "año": 2020
+    },
+    {
+      "id": "PED-020",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Neonato de 36 horas, nacido de madre febril con ruptura prematura de membranas de 19 horas, edad gestacional 34 semanas, APGAR 7 al minuto, presenta irritabilidad alternando con hipoactividad, hipotermia, quejido, fontanela abombada y pulsátil. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Meningoencefalitis",
+        "Hipoglicemia",
+        "Hipotermia",
+        "Neumonía",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La clínica neurológica caracterizada por irritabilidad, hipoactividad y fontanela anterior abombada/tensa en el marco de una sepsis neonatal temprana por RPM prolongada define a la meningoencefalitis bacteriana neonatal.",
+      "comentario": "La clínica neurológica caracterizada por irritabilidad, hipoactividad y fontanela anterior abombada/tensa en el marco de una sepsis neonatal temprana por RPM prolongada define a la meningoencefalitis bacteriana neonatal.",
+      "tema": "Infecciones del SNC en neonatología",
+      "año": 2020
+    },
+    {
+      "id": "PED-021",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Neonato de 3 días presenta conjuntivitis purulenta con inflamación marcada. Madre con antecedentes de vulvovaginitis y uretritis preparto. ¿Cuál es el agente causal más probable?",
+      "opciones": [
+        "Neisseria gonorrhoeae",
+        "Escherichia coli",
+        "Chlamydia trachomatis",
+        "Listeria monocytogenes",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La conjuntivitis neonatal hiperaguda purulenta en las primeras 24-72 horas de vida (inicio muy precoz) es característicamente causada por Neisseria gonorrhoeae transmitida durante el paso por el canal del parto.",
+      "comentario": "La conjuntivitis neonatal hiperaguda purulenta en las primeras 24-72 horas de vida (inicio muy precoz) es característicamente causada por Neisseria gonorrhoeae transmitida durante el paso por el canal del parto.",
+      "tema": "Oftalmia neonatal",
+      "año": 2020
+    },
+    {
+      "id": "PED-022",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de 3 días, 2,800 g, traído por vómitos lácteos e hipoactividad. Examen: hipotenso, signos de deshidratación severa, palidez, taquicardia, llenado capilar >3 s. Hemograma normal, sin desviación izquierda. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Meningoencefalitis",
+        "Sepsis neonatal",
+        "Enfermedad diarreica aguda",
+        "Shock hipovolémico",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La combinación de pérdidas digestivas altas con deshidratación grave, palidez, llenado capilar prolongado, taquicardia e hipotensión sin signos inflamatorios infecciosos en el hemograma corresponde fisiopatológicamente a un estado de shock hipovolémico.",
+      "comentario": "La combinación de pérdidas digestivas altas con deshidratación grave, palidez, llenado capilar prolongado, taquicardia e hipotensión sin signos inflamatorios infecciosos en el hemograma corresponde fisiopatológicamente a un estado de shock hipovolémico.",
+      "tema": "Shock en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-023",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es el factor de riesgo de peor pronóstico en un lactante de 45 días con diagnóstico de tos ferina?",
+      "opciones": [
+        "Reacción leucemoide (>50,000) a predominio mononuclear",
+        "Presencia de linfocitos atípicos >18%",
+        "Leucocitosis de 15,000 con predominio de neutrófilos",
+        "Incremento en la frecuencia de paroxismos de tos cianotizante",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En lactantes menores con tos ferina (coqueluche), la presencia de reacción leucemoide extrema (>50,000 leucocitos/mm³ a predominio de linfocitos) se correlaciona directamente con microtrombosis vascular pulmonar, hipertensión pulmonar refractaria y letalidad elevada.",
+      "comentario": "En lactantes menores con tos ferina (coqueluche), la presencia de reacción leucemoide extrema (>50,000 leucocitos/mm³ a predominio de linfocitos) se correlaciona directamente con microtrombosis vascular pulmonar, hipertensión pulmonar refractaria y letalidad elevada.",
+      "tema": "Tos ferina",
+      "año": 2020
+    },
+    {
+      "id": "PED-024",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 9 meses con 8 horas de llanto intermitente alternado con letargia, deposiciones con moco y sangre rutilante. Al examen: masa palpable en fosa iliaca derecha. Rx abdomen: ausencia de gas en colon y distensión del intestino delgado. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Apendicitis aguda",
+        "Intususcepción",
+        "Divertículo de Meckel",
+        "Hipertrofia del píloro",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La clínica clásica de invaginación intestinal o intususcepción en lactantes cursa con crisis de dolor cólico episódico con letargia, evacuaciones en jalea de grosella y tumoración alargada (\"en morcilla\") en el abdomen.",
+      "comentario": "La clínica clásica de invaginación intestinal o intususcepción en lactantes cursa con crisis de dolor cólico episódico con letargia, evacuaciones en jalea de grosella y tumoración alargada (\"en morcilla\") en el abdomen.",
+      "tema": "Abdomen agudo obstructivo pediátrico",
+      "año": 2020
+    },
+    {
+      "id": "PED-025",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Preescolar de 3 años presenta súbitamente sialorrea, broncorrea, diarrea y sudoración profusa. Antecedente: paseo a zona agrícola. Examen: diaforesis, irritabilidad, fasciculaciones. Se sospecha intoxicación aguda por:",
+      "opciones": [
+        "Organofosforado",
+        "Hidrocarburo",
+        "Opioide",
+        "Cumarínico",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La exposición accidental a pesticidas agrícolas asociada a hiperactividad muscarínica (sialorrea, broncorrea, diarrea, diaforesis) y nicotínica (fasciculaciones musculares) es patognomónica de intoxicación por inhibidores de la colinesterasa (organofosforados).",
+      "comentario": "La exposición accidental a pesticidas agrícolas asociada a hiperactividad muscarínica (sialorrea, broncorrea, diarrea, diaforesis) y nicotínica (fasciculaciones musculares) es patognomónica de intoxicación por inhibidores de la colinesterasa (organofosforados).",
+      "tema": "Intoxicaciones accidentales",
+      "año": 2020
+    },
+    {
+      "id": "PED-026",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Preescolar de 2 años presenta convulsión tónico-clónica generalizada en emergencia. Sin antecedentes. ¿Cuál es el tratamiento inmediato?",
+      "opciones": [
+        "Fenobarbital",
+        "Fenitoína",
+        "Diazepam",
+        "Clonazepam",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el manejo agudo de una crisis convulsiva activa en pediatría, los fármacos de primera elección inmediata por su rápido inicio de acción sobre el receptor GABA-A son las benzodiacepinas de acción corta/intermedia como Diazepam (IV o rectal).",
+      "comentario": "En el manejo agudo de una crisis convulsiva activa en pediatría, los fármacos de primera elección inmediata por su rápido inicio de acción sobre el receptor GABA-A son las benzodiacepinas de acción corta/intermedia como Diazepam (IV o rectal).",
+      "tema": "Convulsiones en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-027",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 8 años con 24 h de fiebre (40°C) y distrés respiratorio. Examen: taquipneico, roncantes, crepitantes en base de hemitórax derecho. ¿Qué hallazgos radiográficos esperarías?",
+      "opciones": [
+        "Infiltrado intersticial con atrapamiento aéreo",
+        "Reforzamiento de trama bronquial en HTD",
+        "Imágenes hiliofugales en mitad inferior de HTD",
+        "Infiltrado alveolar en mitad inferior de HTD",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro de neumonía bacteriana adquirida en la comunidad de instauración hiperaguda cursa patológicamente con condensación y ocupación exudativa alveolar, evidenciándose como consolidación o infiltrado alveolar lobar localizado.",
+      "comentario": "El cuadro de neumonía bacteriana adquirida en la comunidad de instauración hiperaguda cursa patológicamente con condensación y ocupación exudativa alveolar, evidenciándose como consolidación o infiltrado alveolar lobar localizado.",
+      "tema": "Neumonía bacteriana pediátrica",
+      "año": 2020
+    },
+    {
+      "id": "PED-028",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 15 meses, hace 2 semanas recibió vacuna contra el sarampión, presenta petequias, equimosis en todo el cuerpo y epistaxis. No visceromegalia. Laboratorio: Hb: 11 g/dL, leucocitos: 10,000/mm3, neutrófilos: 60%, linfocitos: 40%, plaquetas: 20,000. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Leucemia aguda",
+        "Púrpura de Henoch-Schönlein",
+        "Anemia aplásica",
+        "Púrpura trombocitopénica",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La trombocitopenia aislada profunda (<20,000-30,000) de instauración aguda tras un cuadro viral o inmunización previa, sin visceromegalias ni alteración en las otras series hematopoyéticas, define a la púrpura trombocitopénica inmune (PTI) postvacunal.",
+      "comentario": "La trombocitopenia aislada profunda (<20,000-30,000) de instauración aguda tras un cuadro viral o inmunización previa, sin visceromegalias ni alteración en las otras series hematopoyéticas, define a la púrpura trombocitopénica inmune (PTI) postvacunal.",
+      "tema": "Trastornos plaquetarios",
+      "año": 2020
+    },
+    {
+      "id": "PED-029",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 8 años llega a consulta por fiebre y síntomas compatibles con infección urinaria. Urocultivo: falso negativo. ¿Cuál de los eventos pudo haber ocurrido?",
+      "opciones": [
+        "Tratamiento antibiótico previo",
+        "Demora en el envío de la muestra",
+        "Orina muy concentrada",
+        "Orina mal refrigerada",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La causa más común de resultados falsos negativos en el urocultivo es la administración previa de dosis de antimicrobianos, la cual esteriliza transitoriamente la muestra urinaria o inhibe la proliferación bacteriana in vitro en el medio de cultivo.",
+      "comentario": "La causa más común de resultados falsos negativos en el urocultivo es la administración previa de dosis de antimicrobianos, la cual esteriliza transitoriamente la muestra urinaria o inhibe la proliferación bacteriana in vitro en el medio de cultivo.",
+      "tema": "Infección del tracto urinario en pediatría",
+      "año": 2020
+    },
+    {
+      "id": "PED-030",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 14 años, desde hace varios años se viene incrementando bloqueo nasal con alteración del gusto y olfato, prurito y secreción nasal, actualmente más irritable. Antecedente de asma bronquial. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Faringoamigdalitis",
+        "Rinitis alérgica",
+        "Adenoiditis",
+        "Cuerpo extraño nasal",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La presencia de rinorrea acuosa crónica, prurito nasal, congestión persistente e hiposmia en un adolescente con comorbilidad atópica (asma bronquial) constituye el cuadro clásico de rinitis alérgica perenne/persistente.",
+      "comentario": "La presencia de rinorrea acuosa crónica, prurito nasal, congestión persistente e hiposmia en un adolescente con comorbilidad atópica (asma bronquial) constituye el cuadro clásico de rinitis alérgica perenne/persistente.",
+      "tema": "Enfermedades atópicas",
+      "año": 2020
+    },
+    {
+      "id": "PED-031",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 8 años traído a consulta por dolor abdominal crónico e hiporexia, madre manifiesta que es hiperactivo en la escuela. Al examen: palidez de piel y mucosas, talla baja para la edad. Hb de 10 g/dL, microcitosis e hipocromía. Vive en Cerro de Pasco desde los 6 meses de edad. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Intoxicación por plomo",
+        "Esferocitosis hereditaria",
+        "Deficiencia de hierro",
+        "Deficiencia de zinc",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El dolor abdominal cólico recidivante, retraso pondoestatural, trastornos neurocognitivos/conductuales y anemia microcítica en un niño procedente de un área minera expuesta señalan saturnismo o intoxicación crónica por plomo.",
+      "comentario": "El dolor abdominal cólico recidivante, retraso pondoestatural, trastornos neurocognitivos/conductuales y anemia microcítica en un niño procedente de un área minera expuesta señalan saturnismo o intoxicación crónica por plomo.",
+      "tema": "Intoxicación por metales pesados",
+      "año": 2020
+    },
+    {
+      "id": "PED-032",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 12 años, consume alimentos en la puerta del colegio, toma agua sin hervir, tiene malos hábitos de higiene y vacunación incompleta. Consulta por presentar desde hace dos días fiebre, discreto dolor abdominal y orina colúrica. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Brucelosis",
+        "Hepatitis A",
+        "Fiebre tifoidea",
+        "Leptospirosis",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La transmisión fecal-oral por ingesta de agua o alimentos contaminados que debuta con pródromos febriles, malestar y signos de colestasis/hepatocelular aguda (coluria e ictericia) en edad escolar corresponde a hepatitis viral tipo A.",
+      "comentario": "La transmisión fecal-oral por ingesta de agua o alimentos contaminados que debuta con pródromos febriles, malestar y signos de colestasis/hepatocelular aguda (coluria e ictericia) en edad escolar corresponde a hepatitis viral tipo A.",
+      "tema": "Hepatitis virales",
+      "año": 2020
+    }
+  ]
+}

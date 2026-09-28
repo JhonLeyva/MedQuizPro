@@ -1,0 +1,154 @@
+{
+  "especialidad": "Reumatología y Dermatología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "REU-001",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?",
+      "opciones": {
+        "A": "Pirofosfato de calcio",
+        "B": "Urato monosódico",
+        "C": "Hidroxiapatita",
+        "D": "Oxalato de calcio",
+        "E": "Colesterol"
+      },
+      "clave_correcta": "B",
+      "comentario": "Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."
+    },
+    {
+      "id": "REU-002",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 24 años acude a consulta por \"color amarillento de piel\", sin coluria. Antecedente: alimentación vegana. Examen: coloración amarillenta cutánea, escleras limpias. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Terapia con quinacrina",
+        "Hepatitis viral",
+        "Xantocromía",
+        "Carotinemia",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
+      "comentario": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
+      "tema": "Trastornos de pigmentación cutánea",
+      "año": 2020
+    },
+    {
+      "id": "REU-003",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años, desde hace 2 meses dolor articular en hombros y muñecas de moderada intensidad. Hace un mes se agrega dolor en manos con rigidez matutina. Al examen: sinovitis de pequeñas articulaciones. ¿Qué examen tiene mayor especificidad diagnóstica?",
+      "opciones": [
+        "Anticuerpos antinucleares",
+        "Factor reumatoideo",
+        "Anticuerpos anticitrulinados",
+        "Anti-DNA doble cadena",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.",
+      "comentario": "En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.",
+      "tema": "Artritis Reumatoide",
+      "año": 2020
+    },
+    {
+      "id": "REU-004",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 52 años, presenta por primera vez erupción fugaz de habones pruriginosos diseminados en toda la superficie corporal y una amplia placa edematosa en cara. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Vasculitis urticarial",
+        "Eritema multiforme",
+        "Angioedema hereditario",
+        "Urticaria aguda",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.",
+      "comentario": "La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.",
+      "tema": "Reacciones adversas cutáneas",
+      "año": 2020
+    },
+    {
+      "id": "REU-005",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 8 meses con irritabilidad y prurito nocturno. Al examen: pápulas eritematosas, vesículas y pústulas en cara, tronco, palmas y plantas. Madre con lesiones similares. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Ectima",
+        "Acarosis",
+        "Dermatitis",
+        "Impétigo",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
+      "comentario": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
+      "tema": "Infecciones parasitarias de la piel",
+      "año": 2020
+    },
+    {
+      "id": "REU-006",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 25 años presenta lesiones pápulo eritematosas y pústulas dolorosas de repetición alrededor de los folículos pilosos en la región de la barba. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Rifaximina",
+        "Amikacina",
+        "Dicloxacilina",
+        "Claritromicina",
+        "Paracetamol"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
+      "comentario": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
+      "tema": "Infecciones bacterianas de piel",
+      "año": 2020
+    },
+    {
+      "id": "REU-007",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 20 años con dolores articulares desde hace 1 año, malestar, febrícula y lesiones dérmicas. Examen: púrpura palpable y piel marmórea. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Artritis reumatoide",
+        "Artropatía degenerativa",
+        "Vasculitis",
+        "Esclerodermia",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.",
+      "comentario": "El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.",
+      "tema": "Vasculitis sistémicas",
+      "año": 2020
+    },
+    {
+      "id": "REU-008",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 10 años que presenta lesiones pruriginosas en cuero cabelludo. Al examen: lesiones papulares que se extienden en forma concéntrica formando placas eritematosas, con descamación central, pelo frágil y algunas áreas de alopecia. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Tiña capitis",
+        "Psoriasis puntata",
+        "Alopecia areata",
+        "Tricotilomanía",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.",
+      "comentario": "Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.",
+      "tema": "Micosis superficiales",
+      "año": 2020
+    }
+  ]
+}

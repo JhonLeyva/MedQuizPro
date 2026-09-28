@@ -1,0 +1,534 @@
+{
+  "especialidad": "Ginecología y Obstetricia",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "GIN-001",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Puérpera de 28 años, cuarto parto vaginal, presenta sangrado vaginal abundante 20 minutos después del alumbramiento. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa. ¿Cuál es la primera medida farmacológica?",
+      "opciones": {
+        "A": "Oxitocina endovenosa",
+        "B": "Misoprostol como única medida",
+        "C": "Ácido tranexámico como única medida",
+        "D": "Sulfato de magnesio",
+        "E": "Nifedipino oral"
+      },
+      "clave_correcta": "A",
+      "comentario": "Útero blando y sin contraer tras el parto es atonía uterina, la causa más frecuente de hemorragia postparto. Junto con el masaje uterino bimanual, el uterotónico de primera línea es la oxitocina. Si no responde se agregan ergometrina (contraindicada en hipertensas) o misoprostol, y el ácido tranexámico dentro de las primeras 3 horas. El sulfato de magnesio y el nifedipino relajan el útero y empeoran la atonía."
+    },
+    {
+      "id": "GIN-002",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 32 semanas, refiere haber perdido líquido en regular cantidad. Se le realiza un test del helecho, encontrándose esta imagen. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Programar cesárea",
+        "Maduración cervical",
+        "Inducción de trabajo de parto",
+        "Protección con antimicrobianos",
+        "Laparoscopía diagnóstica"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En gestante de 32 semanas con sospecha de pérdida de líquido amniótico, el test del helecho positivo confirma rotura prematura de membranas (RPM). Dado que el embarazo es pretérmino (<37 semanas), la conducta indicada es conservadora, enfocada en prevenir infecciones y maduración pulmonar: protección antimicrobiana, corticoides y vigilancia.",
+      "comentario": "En gestante de 32 semanas con sospecha de pérdida de líquido amniótico, el test del helecho positivo confirma rotura prematura de membranas (RPM). Dado que el embarazo es pretérmino (<37 semanas), la conducta indicada es conservadora, enfocada en prevenir infecciones y maduración pulmonar: protección antimicrobiana, corticoides y vigilancia.",
+      "tema": "Rotura Prematura de Membranas",
+      "año": 2020
+    },
+    {
+      "id": "GIN-003",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante a término en fase activa de trabajo de parto, DU 3 en 10 min, duración 40 seg, con desaceleraciones de latidos fetales. Permanece con dilatación de 6 cm por 6 horas con membranas íntegras. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Cesárea",
+        "Posición decúbito lateral derecho",
+        "Realizar amniotomía",
+        "Acentuación con oxitocina",
+        "Amputación"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Detención de la fase activa de dilatación (más de 4 horas estacionaria con dinámica adecuada) asociado a desaceleraciones fetales constituye riesgo inminente de hipoxia y sufrimiento fetal, indicando cesárea de urgencia.",
+      "comentario": "Detención de la fase activa de dilatación (más de 4 horas estacionaria con dinámica adecuada) asociado a desaceleraciones fetales constituye riesgo inminente de hipoxia y sufrimiento fetal, indicando cesárea de urgencia.",
+      "tema": "Distocias y sufrimiento fetal",
+      "año": 2020
+    },
+    {
+      "id": "GIN-004",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 24 años, 38 semanas, acude a emergencia con contracciones uterinas. Examen obstétrico normal. PA: 145/90 mmHg. No proteinuria. DHL: 376 U/L, TGO: 23 U/L, plaquetas 176,000/mm3. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Preeclampsia leve",
+        "Preeclampsia severa",
+        "Hipertensión gestacional",
+        "Eclampsia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Presión arterial >=140/90 mmHg después de las 20 semanas en ausencia de proteinuria ni signos de daño a órgano blanco (plaquetas y transaminasas normales) corresponde a hipertensión gestacional.",
+      "comentario": "Presión arterial >=140/90 mmHg después de las 20 semanas en ausencia de proteinuria ni signos de daño a órgano blanco (plaquetas y transaminasas normales) corresponde a hipertensión gestacional.",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-005",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 35 semanas asintomática. Antecedente de cesárea hace 2 años. En emergencia PA de 150/98 mmHg. Laboratorio: proteinuria negativa, plaquetas 140,000xmm3, TGO: 60 U/L, TGP: 60 U/L, DHL: 600 U/L; creatinina 1.3 mg/dL. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Hipertensión gestacional",
+        "Preeclampsia sin severidad",
+        "Hipertensión esencial",
+        "Preeclampsia con severidad",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Aunque no haya proteinuria, la presencia de hipertensión asociada a transaminasas elevadas (TGO/TGP >40) y creatinina >1.1 mg/dL define una preeclampsia con criterios de severidad por daño a órgano blanco.",
+      "comentario": "Aunque no haya proteinuria, la presencia de hipertensión asociada a transaminasas elevadas (TGO/TGP >40) y creatinina >1.1 mg/dL define una preeclampsia con criterios de severidad por daño a órgano blanco.",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-006",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Puérpera de 25 días, acude a consulta por dolor en mama izquierda y sensación de alza térmica. Examen físico: T° 38.7 °C, PA: 110/64 mmHg, pulso: 94 x', mama izquierda con zona endurecida, eritematosa de 6 cm de diámetro y caliente. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Amikacina",
+        "Dicloxacilina",
+        "Ciprofloxacina",
+        "Doxiciclina",
+        "Aspirina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Cuadro clínico de mastitis puerperal aguda. El germen más frecuente es S. aureus, por lo que el tratamiento empírico de elección ambulatorio es la dicloxacilina oral, manteniendo la lactancia.",
+      "comentario": "Cuadro clínico de mastitis puerperal aguda. El germen más frecuente es S. aureus, por lo que el tratamiento empírico de elección ambulatorio es la dicloxacilina oral, manteniendo la lactancia.",
+      "tema": "Complicaciones del puerperio",
+      "año": 2020
+    },
+    {
+      "id": "GIN-007",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 30 semanas, súbitamente presenta dolor en ambas regiones lumbares, fiebre, anorexia, náuseas y vómitos. Al examen puño percusión lumbar positiva. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Quiste de ovario a pedículo torcido",
+        "Cistitis",
+        "Apendicitis aguda",
+        "Pielonefritis aguda",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Síntomas sistémicos (fiebre, vómitos) asociados a dolor lumbar y puñopercusión positiva en el embarazo configuran el cuadro clásico de pielonefritis aguda, infección urinaria alta.",
+      "comentario": "Síntomas sistémicos (fiebre, vómitos) asociados a dolor lumbar y puñopercusión positiva en el embarazo configuran el cuadro clásico de pielonefritis aguda, infección urinaria alta.",
+      "tema": "Infecciones urinarias en la gestación",
+      "año": 2020
+    },
+    {
+      "id": "GIN-008",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Primigesta de 27 años con 41 semanas confirmadas. Feto en cefálica con bienestar fetal conservado. TV: cérvix posterior, largo, cerrado, incorporación 0%, consistencia dura. Altura de presentación: -4. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Cesárea inmediata",
+        "Esperar parto espontáneo",
+        "Maduración cervical",
+        "Inducción de trabajo de parto",
+        "Laparotomía exploratoria"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Gestación en vías de prolongación (41 ss) con feto en buenas condiciones pero un score de Bishop desfavorable (cérvix duro, cerrado y posterior). La conducta es realizar primero maduración cervical farmacológica antes de la inducción.",
+      "comentario": "Gestación en vías de prolongación (41 ss) con feto en buenas condiciones pero un score de Bishop desfavorable (cérvix duro, cerrado y posterior). La conducta es realizar primero maduración cervical farmacológica antes de la inducción.",
+      "tema": "Embarazo prolongado e inducción",
+      "año": 2020
+    },
+    {
+      "id": "GIN-009",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer con antecedente de embarazo ectópico, acude a consulta por atraso menstrual de dos días y un test de B-HCG positivo. ¿Cuál es la conducta a seguir para evaluar viabilidad del producto?",
+      "opciones": [
+        "Laparoscopía diagnóstica",
+        "Culdocentesis",
+        "B-HCG seriada",
+        "Ecografía transvaginal",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con alto riesgo de recurrencia de ectópico con prueba de embarazo positiva. La ecografía transvaginal es el método gold standard para determinar precozmente la localización (intra o extrauterina) del saco gestacional.",
+      "comentario": "Paciente con alto riesgo de recurrencia de ectópico con prueba de embarazo positiva. La ecografía transvaginal es el método gold standard para determinar precozmente la localización (intra o extrauterina) del saco gestacional.",
+      "tema": "Embarazo ectópico",
+      "año": 2020
+    },
+    {
+      "id": "GIN-010",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 36 semanas acude a un centro de salud por dolor y contracciones de regular intensidad. Al examen: presentación de nalgas, dilatación de 1 cm. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        "Realizar la maniobra de Mauriceau para liberación de cabeza",
+        "Realizar la maniobra de McRoberts para liberación de hombros",
+        "Derivar paciente a un centro de mayor nivel resolutivo",
+        "Dejar en espontáneo hasta la aparición de los omóplatos",
+        "Terapia de rehabilitación"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una gestación pretérmino en trabajo de parto incipiente y con presentación podálica implica un alto riesgo obstétrico. Un centro de salud primario no tiene la capacidad resolutiva, por lo que la derivación es perentoria.",
+      "comentario": "Una gestación pretérmino en trabajo de parto incipiente y con presentación podálica implica un alto riesgo obstétrico. Un centro de salud primario no tiene la capacidad resolutiva, por lo que la derivación es perentoria.",
+      "tema": "Distocias de presentación",
+      "año": 2020
+    },
+    {
+      "id": "GIN-011",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 42 semanas acude por disminución de movimientos fetales. Ecografía: feto LCD, peso 3,756 g, circunferencia abdominal disminuida, piel arrugada, placenta IIIB, oligoamnios severo y latidos fetales con desaceleraciones repetidas. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Observación",
+        "Solicitar test stressante",
+        "Inducción de parto vaginal",
+        "Cesárea inmediata",
+        "Toracocentesis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En un embarazo postérmino con oligoamnios severo, calcificación placentaria e hipoxia fetal confirmada por desaceleraciones repetidas, la inducción está contraindicada; procede una cesárea de emergencia.",
+      "comentario": "En un embarazo postérmino con oligoamnios severo, calcificación placentaria e hipoxia fetal confirmada por desaceleraciones repetidas, la inducción está contraindicada; procede una cesárea de emergencia.",
+      "tema": "Embarazo en vías de prolongación",
+      "año": 2020
+    },
+    {
+      "id": "GIN-012",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 32 semanas presenta contracciones uterinas cada 5 minutos. Tacto vaginal: dilatación 0, borramiento 30%, estación -3. Se decide tratamiento para maduración pulmonar. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Cortisol",
+        "Hidrocortisona",
+        "Betametasona",
+        "Prednisona",
+        "Insulina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El glucocorticoide de elección para inducir maduración pulmonar fetal en amenaza de parto pretérmino es la betametasona (12 mg IM cada 24 horas por 2 dosis) debido a su excelente paso transplacentario.",
+      "comentario": "El glucocorticoide de elección para inducir maduración pulmonar fetal en amenaza de parto pretérmino es la betametasona (12 mg IM cada 24 horas por 2 dosis) debido a su excelente paso transplacentario.",
+      "tema": "Parto pretérmino",
+      "año": 2020
+    },
+    {
+      "id": "GIN-013",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años acude a emergencia por dolor en hipogastrio, sangrado irregular moderado y dismenorrea. FUR: hace 6 días. Usuaria de anticonceptivos orales combinados y con múltiples parejas sexuales. Al examen: dolor a la movilización del cérvix. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Pólipo cervical",
+        "Quiste de ovario",
+        "Mioma subseroso",
+        "Enfermedad pélvica inflamatoria",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El antecedente de promiscuidad, dolor hipogástrico y dolor patognomónico a la movilización cervical (signo de Frenkel positivo) orientan el diagnóstico hacia una enfermedad pélvica inflamatoria aguda.",
+      "comentario": "El antecedente de promiscuidad, dolor hipogástrico y dolor patognomónico a la movilización cervical (signo de Frenkel positivo) orientan el diagnóstico hacia una enfermedad pélvica inflamatoria aguda.",
+      "tema": "Infecciones ginecológicas",
+      "año": 2020
+    },
+    {
+      "id": "GIN-014",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 9 semanas presenta dolor hipogástrico leve y sangrado vaginal escaso desde hace 6 horas. G3P2002. Cérvix cerrado. Ecografía: gestación intrauterina única con latido fetal 165 lpm. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Aborto en curso",
+        "Amenaza de aborto",
+        "Aborto inevitable",
+        "Aborto frustro",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Metrorragia en la primera mitad del embarazo con cuello uterino cerrado, membranas íntegras y embrión vital con frecuencia cardíaca verificada corresponde a una amenaza de aborto.",
+      "comentario": "Metrorragia en la primera mitad del embarazo con cuello uterino cerrado, membranas íntegras y embrión vital con frecuencia cardíaca verificada corresponde a una amenaza de aborto.",
+      "tema": "Hemorragias de la primera mitad del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-015",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con hipermenorrea desde hace 5 meses. G1P0010. Hb: 8 g/dL. Ecografía: mioma submucoso de 38 mm, no pediculado. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Miomectomía histeroscópica",
+        "Laparotomía y miomectomía",
+        "Histerectomía total abdominal",
+        "Miomectomía laparoscópica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En mujeres en edad reproductiva que desean preservar la fertilidad con miomas submucosos sintomáticos endocavitarios (< 4-5 cm), la vía de abordaje estándar de elección es la miomectomía por histeroscopia.",
+      "comentario": "En mujeres en edad reproductiva que desean preservar la fertilidad con miomas submucosos sintomáticos endocavitarios (< 4-5 cm), la vía de abordaje estándar de elección es la miomectomía por histeroscopia.",
+      "tema": "Miomatosis uterina",
+      "año": 2020
+    },
+    {
+      "id": "GIN-016",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años con 6 semanas de gestación por FUR. Ecografía muestra saco gestacional de 20 mm sin embrión visible. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Embarazo ectópico",
+        "Aborto retenido",
+        "Embarazo molar",
+        "Gestación anembrionada",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El hallazgo ecográfico transvaginal de un saco gestacional intrauterino con diámetro medio sacular de 20 mm o superior en ausencia total de polo embrionario define el diagnóstico de gestación anembrionada (huevo huero).",
+      "comentario": "El hallazgo ecográfico transvaginal de un saco gestacional intrauterino con diámetro medio sacular de 20 mm o superior en ausencia total de polo embrionario define el diagnóstico de gestación anembrionada (huevo huero).",
+      "tema": "Pérdida gestacional temprana",
+      "año": 2020
+    },
+    {
+      "id": "GIN-017",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años con flujo blanco grumoso y prurito vaginal. ¿Cuál es el tipo de vaginitis?",
+      "opciones": [
+        "Viral",
+        "Mixta",
+        "Bacteriana",
+        "Micótica",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de leucorrea blanquecina espesa, grumosa (en \"leche cortada\" o \"requesón\"), adherida a las paredes vaginales y acompañada de prurito vulvovaginal intenso define a la vaginitis micótica (candidiasis vulvovaginal).",
+      "comentario": "La presencia de leucorrea blanquecina espesa, grumosa (en \"leche cortada\" o \"requesón\"), adherida a las paredes vaginales y acompañada de prurito vulvovaginal intenso define a la vaginitis micótica (candidiasis vulvovaginal).",
+      "tema": "Infecciones de transmisión sexual y vaginitis",
+      "año": 2020
+    },
+    {
+      "id": "GIN-018",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Puérpera inmediata, gran multípara, con sangrado genital abundante. PA: 80/40 mmHg, FC: 98/min, palidez. ¿Cuál es la primera acción diagnóstica?",
+      "opciones": [
+        "Revisión de cavidad uterina",
+        "Revisión de cérvix",
+        "Revisión de vagina",
+        "Palpar tono del útero",
+        "Prednisona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La atonía uterina representa más del 70% de las hemorragias posparto primarias en pacientes multíparas; la primera maniobra semiológica diagnóstica e inmediata es la palpación bimanual abdominal para evaluar la contractilidad y tono uterino.",
+      "comentario": "La atonía uterina representa más del 70% de las hemorragias posparto primarias en pacientes multíparas; la primera maniobra semiológica diagnóstica e inmediata es la palpación bimanual abdominal para evaluar la contractilidad y tono uterino.",
+      "tema": "Hemorragia posparto",
+      "año": 2020
+    },
+    {
+      "id": "GIN-019",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 37 semanas en trabajo de parto, membranas íntegras, 4 cm de dilatación. Prueba rápida de VIH: positiva. ¿Cuál es el manejo del parto?",
+      "opciones": [
+        "Acentuación del parto",
+        "Parto instrumentado",
+        "Parto vaginal",
+        "Cesárea inmediata",
+        "Resección quirúrgica"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En una gestante con diagnóstico intraparto de VIH positivo por prueba rápida sin tratamiento antirretroviral previo ni carga viral cuantificada suprimida, la indicación inmediata es la cesárea de emergencia para prevenir la transmisión materno-infantil.",
+      "comentario": "En una gestante con diagnóstico intraparto de VIH positivo por prueba rápida sin tratamiento antirretroviral previo ni carga viral cuantificada suprimida, la indicación inmediata es la cesárea de emergencia para prevenir la transmisión materno-infantil.",
+      "tema": "VIH y embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-020",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Al examen 3 horas después: altura uterina 32 cm, dilatación 6 cm, altura de presentación -2. Dinámica uterina: 3 contracciones en 10 minutos, débiles de 30 segundos de duración. ¿Qué acción se deberá tomar?",
+      "opciones": [
+        "Derivar para cesárea",
+        "Estimular con oxitocina",
+        "Hidratar a la paciente y observarla",
+        "Estimular con prostaglandinas",
+        "Intubación endotraqueal"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En una fase activa del parto con progreso insatisfactorio y disfunción contráctil de tipo hipodinamia secundaria (contracciones cortas y de baja intensidad), la conducta indicada es la conducción/estimulación con oxitocina endovenosa controlada.",
+      "comentario": "En una fase activa del parto con progreso insatisfactorio y disfunción contráctil de tipo hipodinamia secundaria (contracciones cortas y de baja intensidad), la conducta indicada es la conducción/estimulación con oxitocina endovenosa controlada.",
+      "tema": "Distocias de la dinámica uterina",
+      "año": 2020
+    },
+    {
+      "id": "GIN-021",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 24 años refiere menstruar sólo cuando le administran progesterona. Antecedentes: infertilidad primaria de cuatro años de evolución; obesidad, acné y seborrea. Actualmente 4 meses de amenorrea, prueba de embarazo negativa. Su pareja: exámenes normales. ¿Cuál es el factor afectado?",
+      "opciones": [
+        "Cervical",
+        "Tuboperitoneal",
+        "Ovárico",
+        "Uterino",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de sangrado tras la privación de progesterona confirma indemnidad anatómica endometrial y permeabilidad endocervical (eje normoestrogénico con endometrio proliferativo); por ende, la amenorrea anovulatoria por SOP radica en el factor ovárico.",
+      "comentario": "La presencia de sangrado tras la privación de progesterona confirma indemnidad anatómica endometrial y permeabilidad endocervical (eje normoestrogénico con endometrio proliferativo); por ende, la amenorrea anovulatoria por SOP radica en el factor ovárico.",
+      "tema": "Amenorrea y anovulación",
+      "año": 2020
+    },
+    {
+      "id": "GIN-022",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Primigesta de 25 semanas, en su control en el centro de salud 1-3, manifiesta cefalea. Medida de presión arterial en dos oportunidades: 160/110 mmHg. ¿Qué decisión toma en este caso?",
+      "opciones": [
+        "Referir a establecimiento obstétrico de mayor nivel",
+        "Coordinar con establecimiento de nivel intermedio",
+        "Derivar a casa de espera cercana",
+        "Interconsulta a ginecólogo de otra IPRESS",
+        "Alta médica con indicaciones"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El hallazgo de cifras tensionales en rango de severidad (PA ≥160/110 mmHg) en un centro de salud del primer nivel de atención sin capacidad resolutiva exige la estabilización inicial y referencia inmediata a un hospital de nivel II o III con cuidados obstétricos y neonatales especializados.",
+      "comentario": "El hallazgo de cifras tensionales en rango de severidad (PA ≥160/110 mmHg) en un centro de salud del primer nivel de atención sin capacidad resolutiva exige la estabilización inicial y referencia inmediata a un hospital de nivel II o III con cuidados obstétricos y neonatales especializados.",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-023",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 62 años refiere sangrado genital. Al examen se evidencia prolapso total, con ulceraciones sangrantes. ¿Cuál es el tratamiento previo a la cirugía?",
+      "opciones": [
+        "Sesiones de cauterización",
+        "Curaciones diarias con yodopovidona",
+        "Aplicación tópica de antibióticos",
+        "Aplicación tópica de estrógenos",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Las úlceras por decúbito en prolapsos genitales avanzados en mujeres menopáusicas requieren preparación previa con estrógenos tópicos locales (ej. estriol en crema) para mejorar la troficidad, vascularización y regeneración epitelial de la mucosa.",
+      "comentario": "Las úlceras por decúbito en prolapsos genitales avanzados en mujeres menopáusicas requieren preparación previa con estrógenos tópicos locales (ej. estriol en crema) para mejorar la troficidad, vascularización y regeneración epitelial de la mucosa.",
+      "tema": "Prolapso de órganos pélvicos",
+      "año": 2020
+    },
+    {
+      "id": "GIN-024",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Multípara de 37 semanas sin control prenatal, refiere contracciones uterinas frecuentes dolorosas y sangrado por vía vaginal. Examen: contracciones uterinas hipertónicas, moderado sangrado oscuro sin coágulos. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Placenta previa",
+        "Desprendimiento prematuro de placenta",
+        "Ruptura de vasa previa",
+        "Mioma abortivo",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La asociación patognomónica de sangrado genital rojo oscuro no rutilante con dolor abdominal brusco e hipertonía uterina sostenida (\"útero leñoso\") corresponde a un desprendimiento prematuro de placenta (abruptio placentae).",
+      "comentario": "La asociación patognomónica de sangrado genital rojo oscuro no rutilante con dolor abdominal brusco e hipertonía uterina sostenida (\"útero leñoso\") corresponde a un desprendimiento prematuro de placenta (abruptio placentae).",
+      "tema": "Hemorragias de la segunda mitad del embarazo",
+      "año": 2020
+    },
+    {
+      "id": "GIN-025",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 62 años, acude a consulta por sangrado ginecológico de 5 días de evolución. Ecografía transvaginal: endometrio de 8 mm y PAP normal. ¿Cuál es el siguiente paso a seguir?",
+      "opciones": [
+        "Prescribir progestágenos",
+        "Biopsia de endometrio",
+        "Histerectomía laparoscópica",
+        "Histerectomía abdominal",
+        "Ecocardiograma"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Toda metrorragia en la posmenopausia con grosor endometrial ecográfico mayor o igual a 4-5 mm tiene indicación obligatoria de biopsia endometrial para descartar hiperplasia con atipia o adenocarcinoma de endometrio.",
+      "comentario": "Toda metrorragia en la posmenopausia con grosor endometrial ecográfico mayor o igual a 4-5 mm tiene indicación obligatoria de biopsia endometrial para descartar hiperplasia con atipia o adenocarcinoma de endometrio.",
+      "tema": "Hemorragia uterina anormal",
+      "año": 2020
+    },
+    {
+      "id": "GIN-026",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Primigesta de 30 años, no recuerda la fecha de su última menstruación. Al examen se palpa fondo uterino a nivel de borde superior del pubis. ¿Cuántas semanas de gestación calcula?",
+      "opciones": [
+        "12",
+        "18",
+        "9",
+        "15",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El fondo uterino se vuelve un órgano pelviabdominal y emerge por encima de la sínfisis púbica alcanzando su borde superior a las 12 semanas de edad gestacional.",
+      "comentario": "El fondo uterino se vuelve un órgano pelviabdominal y emerge por encima de la sínfisis púbica alcanzando su borde superior a las 12 semanas de edad gestacional.",
+      "tema": "Semiología obstétrica",
+      "año": 2020
+    },
+    {
+      "id": "GIN-027",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Primigesta de 33 semanas refiere dolor pélvico tipo cólico menstrual 1 cada 10 a 15 minutos y pérdida de tapón mucoso sanguinolento. Tacto vaginal: cérvix anterior, blando de 1 cm de longitud, dilatación 0. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Falsa labor de parto",
+        "Labor de parto prematuro",
+        "Amenaza parto prematuro",
+        "Contracciones de Braxton Hicks",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Contracciones uterinas regulares y dolorosas antes de las 37 semanas con borramiento cervical incipiente pero sin dilatación cervical activa configurada define a la amenaza de parto pretérmino.",
+      "comentario": "Contracciones uterinas regulares y dolorosas antes de las 37 semanas con borramiento cervical incipiente pero sin dilatación cervical activa configurada define a la amenaza de parto pretérmino.",
+      "tema": "Parto pretérmino",
+      "año": 2020
+    },
+    {
+      "id": "GIN-028",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años refiere atraso menstrual de dos semanas, acude por sangrado vaginal escaso. Al examen: útero de 8 cm, cérvix con orificios cerrados y evidencia de sangrado. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        "Reposo absoluto",
+        "Administrar corticoides",
+        "Prescribir progesterona",
+        "Ecografía transvaginal",
+        "Furosemida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante todo sangrado de la primera mitad del embarazo con cuello uterino cerrado, la conducta diagnóstica inicial prioritaria es la ecografía transvaginal para evaluar la vitalidad del saco y la localización intra o extrauterina del embrión.",
+      "comentario": "Ante todo sangrado de la primera mitad del embarazo con cuello uterino cerrado, la conducta diagnóstica inicial prioritaria es la ecografía transvaginal para evaluar la vitalidad del saco y la localización intra o extrauterina del embrión.",
+      "tema": "Hemorragias del primer trimestre",
+      "año": 2020
+    }
+  ]
+}

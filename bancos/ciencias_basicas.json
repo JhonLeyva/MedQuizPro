@@ -1,0 +1,116 @@
+{
+  "especialidad": "Ciencias Básicas",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CB-001",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?",
+      "opciones": {
+        "A": "Fenilalanina hidroxilasa",
+        "B": "Homogentisato oxidasa",
+        "C": "Tirosinasa",
+        "D": "Cistationina β-sintasa",
+        "E": "Galactosa-1-fosfato uridiltransferasa"
+      },
+      "clave_correcta": "A",
+      "comentario": "Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."
+    },
+    {
+      "id": "CB-002",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 62 años con diabetes mellitus desde hace 4 años y dislipidemia mixta desde hace 2 años, tratado con metformina 1,000 mg, atorvastatina 20 mg/día y gemfibrozilo 600 mg/día junto con aspirina 100 mg/día. Refiere dolores musculares en miembros inferiores desde hace 2 meses, que le dificultan la marcha. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Mialgias por medicamentos",
+        "Artrosis de rodillas",
+        "Polineuropatía diabética",
+        "Gota aguda",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.",
+      "comentario": "La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.",
+      "tema": "Toxicidad farmacológica",
+      "año": 2020
+    },
+    {
+      "id": "CB-003",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años traída a emergencia luego de encontrarla inconsciente en su trabajo en un invernadero. Examen: miosis, sialorrea, sudoración, roncantes diseminados, bradicardia. ¿Cuál es el fármaco de elección en este caso?",
+      "opciones": [
+        "Salbutamol",
+        "Flumazenilo",
+        "Epinefrina",
+        "Atropina sulfato",
+        "Ceftriaxona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.",
+      "comentario": "El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.",
+      "tema": "Toxicología clínica",
+      "año": 2020
+    },
+    {
+      "id": "CB-004",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Indigente de 58 años, alcohólico, hallado confuso. Examen: lesiones en lengua, respiración rápida y profunda, amaurosis. Gases: pH 7.20, PCO2 32 mmHg. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Insuficiencia respiratoria",
+        "Intoxicación por alcohol metílico",
+        "Neumonía aspirativa",
+        "Estado postictal",
+        "Ciprofloxacino"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La tríada clásica de acidosis metabólica con anión gap elevado, respiración acidótica de Kussmaul y deterioro visual grave hasta la ceguera/amaurosis por toxicidad del ácido fórmico sobre el nervio óptico es diagnóstica de intoxicación por metanol.",
+      "comentario": "La tríada clásica de acidosis metabólica con anión gap elevado, respiración acidótica de Kussmaul y deterioro visual grave hasta la ceguera/amaurosis por toxicidad del ácido fórmico sobre el nervio óptico es diagnóstica de intoxicación por metanol.",
+      "tema": "Intoxicación por alcoholes tóxicos",
+      "año": 2020
+    },
+    {
+      "id": "CB-005",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 20 años en emergencia por dificultad respiratoria e hipotensión luego de recibir una dosis IM de penicilina, considerada como hipersensibilidad mediada por IgE. ¿Cuál es la célula directamente responsable de esta reacción?",
+      "opciones": [
+        "Macrófago",
+        "Célula plasmática",
+        "Linfocito T",
+        "Mastocito",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En la reacción de hipersensibilidad inmediata tipo I mediada por IgE (anafilaxia), los mastocitos y basófilos sensibilizados se degranulan tras la unión cruzada del antígeno con los receptores FcεRI, liberando mediadores vasoactivos como histamina y leucotrienos.",
+      "comentario": "En la reacción de hipersensibilidad inmediata tipo I mediada por IgE (anafilaxia), los mastocitos y basófilos sensibilizados se degranulan tras la unión cruzada del antígeno con los receptores FcεRI, liberando mediadores vasoactivos como histamina y leucotrienos.",
+      "tema": "Anafilaxia e hipersensibilidad",
+      "año": 2020
+    },
+    {
+      "id": "CB-006",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años traído a emergencia por cefalea y agitación psicomotriz. Examen PA: 140/110 mmHg. Resto del examen sin alteraciones. Antecedentes: consumidor de anfetaminas. ¿Cuál es el principal factor responsable de la elevación de la presión arterial?",
+      "opciones": [
+        "Disminución del gasto cardíaco",
+        "Incremento de fracción de eyección",
+        "Aumento de la resistencia periférica",
+        "Disminución de la frecuencia cardíaca",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las anfetaminas inducen un estímulo simpático masivo mediante la liberación de catecolaminas endógenas que activan potentemente los receptores alfa-1 adrenérgicos arteriolar periféricos, produciendo vasoconstricción sistémica y aumento de la resistencia vascular periférica.",
+      "comentario": "Las anfetaminas inducen un estímulo simpático masivo mediante la liberación de catecolaminas endógenas que activan potentemente los receptores alfa-1 adrenérgicos arteriolar periféricos, produciendo vasoconstricción sistémica y aumento de la resistencia vascular periférica.",
+      "tema": "Fisiología cardiovascular",
+      "año": 2020
+    }
+  ]
+}

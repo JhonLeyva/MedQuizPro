@@ -1,0 +1,97 @@
+{
+  "especialidad": "Endocrinología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "END-001",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?",
+      "opciones": {
+        "A": "Bolo de insulina rápida subcutánea",
+        "B": "Bicarbonato de sodio endovenoso",
+        "C": "Solución salina al 0,9 % endovenosa",
+        "D": "Dextrosa al 5 % endovenosa",
+        "E": "Cloruro de potasio en bolo"
+      },
+      "clave_correcta": "C",
+      "comentario": "En la cetoacidosis diabética la primera medida es restaurar el volumen con solución salina isotónica (1-1,5 L en la primera hora). La insulina se inicia en infusión endovenosa una vez que el potasio es ≥ 3,3 mEq/L. El bicarbonato se reserva para pH < 6,9 y la dextrosa se agrega cuando la glucosa baja a unos 200-250 mg/dL."
+    },
+    {
+      "id": "END-002",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 58 años acude a consulta externa por presentar leve malestar general y tendencia al sueño. Antecedentes: diabetes mellitus en tratamiento irregular. Examen físico: leve palidez, adelgazada, resto negativo. Laboratorio: TSH aumentada con T4 libre normal. El diagnóstico probable es:",
+      "opciones": [
+        "Hipotiroidismo subclínico",
+        "Tirotoxicosis",
+        "Hipertiroidismo subclínico",
+        "Hipotiroidismo primario",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La elevación de la TSH con niveles de hormonas tiroideas periféricas (T4 libre) dentro de rangos normales define bioquímicamente al hipotiroidismo subclínico.",
+      "comentario": "La elevación de la TSH con niveles de hormonas tiroideas periféricas (T4 libre) dentro de rangos normales define bioquímicamente al hipotiroidismo subclínico.",
+      "tema": "Trastornos tiroideos",
+      "año": 2020
+    },
+    {
+      "id": "END-003",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer 35 años, acude a emergencia por severo trastorno confusional agudo. Desde hace 6 meses nerviosismo, palpitaciones. Al examen: PA: 160/80 mmHg, FC: 130 x min, T: 39.5 °C, exoftalmos, glándula tiroidea aumentada de volumen. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tiroiditis de Hashimoto",
+        "Tormenta tiroidea",
+        "Tirotoxicosis apática",
+        "Hipertiroidismo",
+        "Asma bronquial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Cuadro de hipertiroidismo de base (Graves) que se descompensa con fiebre alta, taquicardia severa y trastorno del sensorio, configurando una emergencia endocrinológica llamada tormenta tiroidea.",
+      "comentario": "Cuadro de hipertiroidismo de base (Graves) que se descompensa con fiebre alta, taquicardia severa y trastorno del sensorio, configurando una emergencia endocrinológica llamada tormenta tiroidea.",
+      "tema": "Emergencias tiroideas",
+      "año": 2020
+    },
+    {
+      "id": "END-004",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 48 años que acude a consulta por poliuria, polifagia desde hace 2 meses, obesa, con antecedente de padres diabéticos. Se requiere valorar la secreción máxima de insulina. ¿Cuál de las siguientes pruebas se solicitará?",
+      "opciones": [
+        "Glicemia en ayunas",
+        "Péptido C",
+        "Tolerancia oral a la glucosa",
+        "Hemoglobina glicosilada A1C",
+        "Epinefrina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Para evaluar de forma dinámica la capacidad de secreción máxima de insulina por las células beta pancreáticas frente a una sobrecarga directa, la prueba indicada es la prueba de tolerancia oral a la glucosa (PTOG).",
+      "comentario": "Para evaluar de forma dinámica la capacidad de secreción máxima de insulina por las células beta pancreáticas frente a una sobrecarga directa, la prueba indicada es la prueba de tolerancia oral a la glucosa (PTOG).",
+      "tema": "Diabetes Mellitus",
+      "año": 2020
+    },
+    {
+      "id": "END-005",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años con intolerancia al frío, estreñimiento, piel seca y áspera desde hace 4 meses. Laboratorio: TSH elevada, T4 libre baja, colesterol total 250 mg/dL, triglicéridos 200 mg/dL. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Fenofibrato",
+        "Ezetimibe",
+        "Estatinas",
+        "Levotiroxina",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.",
+      "comentario": "La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.",
+      "tema": "Trastornos tiroideos",
+      "año": 2020
+    }
+  ]
+}

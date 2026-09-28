@@ -1,0 +1,173 @@
+{
+  "especialidad": "Nefrología y Urología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NEF-001",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?",
+      "opciones": {
+        "A": "Resina de intercambio catiónico oral",
+        "B": "Furosemida endovenosa",
+        "C": "Gluconato de calcio endovenoso",
+        "D": "Bicarbonato de sodio oral",
+        "E": "Hemodiálisis programada para el día siguiente"
+      },
+      "clave_correcta": "C",
+      "comentario": "Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."
+    },
+    {
+      "id": "NEF-002",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 70 años, sin antecedentes, presenta diarreas profusas y oligoanuria. Laboratorio: creatinina 3.6 mg/dL. EKG: ondas T picudas. ¿Qué trastorno electrolítico presenta?",
+      "opciones": [
+        "Hipercalcemia",
+        "Hiponatremia",
+        "Hipomagnesemia",
+        "Hiperpotasemia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.",
+      "comentario": "La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.",
+      "tema": "Trastornos del potasio",
+      "año": 2020
+    },
+    {
+      "id": "NEF-003",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 36 años acude a emergencia por presentar desde hace 6 días escalofríos, sensación de alza térmica, náuseas, malestar general y dolor lumbar derecho. Al examen: T: 38.5 °C, dolor difuso leve en abdomen. Examen de orina: presencia de nitritos. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Cistitis",
+        "Vaginitis",
+        "Pielonefritis",
+        "Uretritis",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
+      "comentario": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
+      "tema": "Infecciones del tracto urinario",
+      "año": 2020
+    },
+    {
+      "id": "NEF-004",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 7 años presenta hipertensión arterial, edema palpebral, hematuria, proteinuria leve y complemento C3 bajo. Antecedente de faringoamigdalitis hace 10 días. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Glomeruloesclerosis",
+        "Insuficiencia renal",
+        "Glomerulonefritis",
+        "Nefrosis lipoidea",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.",
+      "comentario": "La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.",
+      "tema": "Síndrome nefrítico",
+      "año": 2020
+    },
+    {
+      "id": "NEF-005",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 6 años con edema bipalpebral y pretibial, sedimento urinario con proteínas (+++), filtración glomerular 90 ml/min/1.73m2, albúmina sérica 2 g/dL, creatinina 0.8 mg/dL y sodio 130 mEq/L. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Insuficiencia renal aguda",
+        "Insuficiencia renal crónica",
+        "Síndrome nefrítico",
+        "Síndrome nefrótico",
+        "Apendicitis aguda"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.",
+      "comentario": "La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.",
+      "tema": "Síndrome nefrótico",
+      "año": 2020
+    },
+    {
+      "id": "NEF-006",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Obrero traído a emergencia tras sufrir aplastamiento por caída de pared. Llega inconsciente con múltiples hematomas en tórax y miembros. Dos días después presenta 200 ml de orina en 24 h, creatinina 2.4 mg/dL, ácido úrico 10 mg/dL, CPK: 1,500 U/L. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Fracaso renal por rabdomiólisis",
+        "Fracaso renal por uratos",
+        "Azoemia prerrenal",
+        "Necrosis tubular aguda",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.",
+      "comentario": "El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.",
+      "tema": "Insuficiencia renal aguda",
+      "año": 2020
+    },
+    {
+      "id": "NEF-007",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con edema progresivo de piernas y orina espumosa desde hace un mes. PA: 130/80 mmHg. Anasarca. Albuminuria 3.9 g/día, albúmina sérica 2.9 g/dL, triglicéridos 400 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome nefrótico",
+        "Necrosis tubular aguda",
+        "Pielonefritis crónica",
+        "Síndrome nefrítico",
+        "Tuberculosis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
+      "comentario": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
+      "tema": "Glomerulopatías",
+      "año": 2020
+    },
+    {
+      "id": "NEF-008",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 36 años, IMC 34, dolor cólico 5/10 en fosa lumbar derecha, irradiado a flanco y testículo derecho, con náuseas y sudoración. ¿Cuál es el examen de elección?",
+      "opciones": [
+        "Resonancia magnética nuclear",
+        "Radiografía simple de abdomen",
+        "Ecografía renal y de vías urinarias",
+        "UroTAC (UroTEM)",
+        "Gammagrafía"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.",
+      "comentario": "La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.",
+      "tema": "Litiasis urinaria",
+      "año": 2020
+    },
+    {
+      "id": "NEF-009",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 15 años refiere dolor testicular derecho de 6 horas de evolución. Antecedente de testículo retráctil del mismo lado. Al examen físico destaca discreta horizontalización de testículo derecho y reflejo cremastérico ausente. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hidrocele testicular",
+        "Epididimitis aguda",
+        "Torsión testicular",
+        "Quiste de epidídimo",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.",
+      "comentario": "El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.",
+      "tema": "Escroto agudo",
+      "año": 2020
+    }
+  ]
+}

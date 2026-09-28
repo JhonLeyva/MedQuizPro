@@ -1,0 +1,135 @@
+{
+  "especialidad": "Neurología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NRL-001",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?",
+      "opciones": {
+        "A": "Resonancia magnética cerebral con gadolinio",
+        "B": "Punción lumbar",
+        "C": "Tomografía cerebral sin contraste",
+        "D": "Electroencefalograma",
+        "E": "Doppler de vasos del cuello"
+      },
+      "clave_correcta": "C",
+      "comentario": "Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."
+    },
+    {
+      "id": "NRL-002",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 62 años, mientras realizaba labores hogareñas, presenta en forma súbita cefalea muy intensa, acompañada de vómitos y luego pérdida de conciencia. Al examen presenta rigidez de nuca. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hematoma subdural",
+        "Tumor cerebral",
+        "Isquemia cerebral transitoria",
+        "Hemorragia subaracnoidea",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
+      "comentario": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
+      "tema": "Hemorragia subaracnoidea",
+      "año": 2020
+    },
+    {
+      "id": "NRL-003",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Deben recibir tratamiento quirúrgico de inmediato los hematomas epidurales ubicados en...",
+      "opciones": [
+        "Fosa parietal",
+        "Fosa temporal",
+        "Piso anterior",
+        "Fosa posterior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.",
+      "comentario": "Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.",
+      "tema": "Traumatismo craneoencefálico",
+      "año": 2020
+    },
+    {
+      "id": "NRL-004",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años, alcohólico crónico, hace 6 meses con debilidad y parestesias de extremidades, disnea al esfuerzo. Al examen: pálido, pérdida de sensibilidad termoalgésica, cuadriparesia espástica leve a predominio distal. Hb: 7 g/dL, VCM: 120 fl. ¿Cuál sería el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Guillain-Barré",
+        "Encefalopatía hepática",
+        "Déficit de vitamina B12",
+        "Anemia sideroblástica",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.",
+      "comentario": "La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.",
+      "tema": "Anemias megaloblásticas",
+      "año": 2020
+    },
+    {
+      "id": "NRL-005",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años, presenta en forma súbita cefalea intensa, dificultad para la deambulación y disartria evidenciada por la familia. Luego de 30 minutos es evaluado en emergencia no encontrando alteración neurológica alguna. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Arteritis temporal",
+        "Cefalea en racimos",
+        "Crisis de pánico",
+        "Ataque isquémico transitorio",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Un déficit neurológico focal agudo que revierte completamente en menos de 24 horas (habitualmente en menos de 1 hora) y sin evidencia de lesión tisular isquémica permanente en neuroimagen se clasifica como accidente isquémico transitorio (AIT).",
+      "comentario": "Un déficit neurológico focal agudo que revierte completamente en menos de 24 horas (habitualmente en menos de 1 hora) y sin evidencia de lesión tisular isquémica permanente en neuroimagen se clasifica como accidente isquémico transitorio (AIT).",
+      "tema": "Enfermedad cerebrovascular isquémica",
+      "año": 2020
+    },
+    {
+      "id": "NRL-006",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años, sufre accidente de tránsito hace 6 horas. Llega con Glasgow: 10. Tiene TAC cerebral. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Fractura de base de cráneo",
+        "Hematoma epidural",
+        "Hematoma intracerebral",
+        "Hematoma subdural",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hemorragia postraumática entre la tabla interna craneal y la duramadre por rotura arterial meníngea media genera en la tomografía computarizada una imagen característica hiperdensa en forma de lente biconvexa que delimita con las suturas craneales: hematoma epidural.",
+      "comentario": "La hemorragia postraumática entre la tabla interna craneal y la duramadre por rotura arterial meníngea media genera en la tomografía computarizada una imagen característica hiperdensa en forma de lente biconvexa que delimita con las suturas craneales: hematoma epidural.",
+      "tema": "Traumatismo encéfalo craneano",
+      "año": 2020
+    },
+    {
+      "id": "NRL-007",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Paciente postoperado de apendicectomía con anestesia raquídea, al primer día presenta disfunción intestinal y vesical, además pérdida sensorial y motora de extremidades inferiores. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Radiculitis compresiva",
+        "Síndrome de cola de caballo",
+        "Hernia del núcleo pulposo",
+        "Síndrome conversivo",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La afectación simultánea motora y sensitiva lumbosacra con pérdida del control de esfínteres (vejiga e intestino neurógenos) tras punción subaracnoidea neuroaxial corresponde al síndrome de cola de caballo (cauda equina).",
+      "comentario": "La afectación simultánea motora y sensitiva lumbosacra con pérdida del control de esfínteres (vejiga e intestino neurógenos) tras punción subaracnoidea neuroaxial corresponde al síndrome de cola de caballo (cauda equina).",
+      "tema": "Complicaciones anestésicas",
+      "año": 2020
+    }
+  ]
+}

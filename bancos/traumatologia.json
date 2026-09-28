@@ -1,0 +1,97 @@
+{
+  "especialidad": "Traumatología y Ortopedia",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "TRA-001",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?",
+      "opciones": {
+        "A": "Alta sin inmovilización",
+        "B": "Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días",
+        "C": "Artroscopía de muñeca de urgencia",
+        "D": "Infiltración de corticoide",
+        "E": "Solo antiinflamatorios y movilización precoz"
+      },
+      "clave_correcta": "B",
+      "comentario": "El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."
+    },
+    {
+      "id": "TRA-002",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses, en la evaluación clínica presenta contractura de aductores y asimetría de extremidades. ¿Cuál es el examen auxiliar a solicitar para descartar luxación de cadera?",
+      "opciones": [
+        "Ecografía",
+        "Resonancia magnética",
+        "Radiografía",
+        "Electromiografía",
+        "Electrocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.",
+      "comentario": "En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.",
+      "tema": "Displasia de cadera",
+      "año": 2020
+    },
+    {
+      "id": "TRA-003",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años que acude a consulta por dificultad para cerrar el puño de la mano derecha, producto de herida cortante en la palma de 6 cm de longitud hace 2 semanas. ¿Qué músculo se encuentra lesionado con mayor probabilidad?",
+      "opciones": [
+        "Extensor común de los dedos",
+        "Palmar mayor",
+        "Palmar menor",
+        "Flexor superficial de los dedos",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.",
+      "comentario": "El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.",
+      "tema": "Lesiones de partes blandas",
+      "año": 2020
+    },
+    {
+      "id": "TRA-004",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 20 años ingresa a emergencia tras accidente en moto; presenta aumento marcado de volumen en muslo izquierdo, parestesia y dolor intenso a la extensión. Al examen: ausencia de pulsos poplíteo y pedio. ¿Cuál es la conducta de urgencia a seguir?",
+      "opciones": [
+        "Fasciotomía",
+        "Radiografía de muslo",
+        "Inmovilización",
+        "Ecografía Doppler",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La sospecha de síndrome compartimental por dolor desproporcionado a la elongación pasiva, parestesias y compromiso vascular requiere una descompresión quirúrgica inmediata mediante fasciotomía amplia urgente.",
+      "comentario": "La sospecha de síndrome compartimental por dolor desproporcionado a la elongación pasiva, parestesias y compromiso vascular requiere una descompresión quirúrgica inmediata mediante fasciotomía amplia urgente.",
+      "tema": "Emergencias traumatológicas",
+      "año": 2020
+    },
+    {
+      "id": "TRA-005",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 12 años consulta por pie plano y dolor de espalda. Prueba de Adams revela curvatura lateral anormal de columna dorsal (Rx muestra escoliosis). ¿Cuál es la alteración detectada?",
+      "opciones": [
+        "Lordosis compensatoria",
+        "Cifosis estructural",
+        "Escoliosis estructural",
+        "Fusión del sacro",
+        "Neumonía adquirida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.",
+      "comentario": "La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.",
+      "tema": "Deformidades de columna",
+      "año": 2020
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MedQuizPlus · Bancos de preguntas y simuladores para el ENAM y el Residentado</title>
+<meta name="description" content="Bancos de preguntas comentadas y simulacros cronometrados para el ENAM, el Residentado Médico y EsSalud.">
+<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<script>
+  /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
+  try { var t = localStorage.getItem("mqp_tema"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+<link rel="stylesheet" href="styles.css?v=20260928-zoom">
+</head>
+<body>
+
+<a class="skip-link" href="#top">Saltar al contenido</a>
+
+<!-- ====================== HEADER ====================== -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="#top" aria-label="MedQuizPlus, ir al inicio">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg>
+      </span>
+      <span>MedQuiz<span class="brand__plus">Plus</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav">
+      <span class="sr-only">Abrir menú</span>
+      <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <div class="nav__links">
+        <a href="#bancos">Bancos de preguntas</a>
+        <a href="#simulacros">Simuladores</a>
+        <a href="#como-funciona">Cómo funciona</a>
+      </div>
+      <div class="nav__actions">
+        <button class="theme-btn" type="button" id="themeToggle" aria-pressed="false" title="Cambiar tema claro / oscuro">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <span class="theme-btn__label">Modo oscuro</span>
+        </button>
+        <a class="btn btn--primary btn--sm header-cta" href="#registro">Crear cuenta gratis</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ====================== HERO ====================== -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="hero__badge"><span class="hero__badge-dot">ENAM 2026</span>Residentado Médico · EsSalud</p>
+        <h1 class="hero__title" id="heroTitle">La práctica que se parece <em>al examen real</em>.</h1>
+        <p class="hero__lead">Casos clínicos comentados por especialidad, simuladores cronometrados con el mismo ritmo del examen oficial y un reporte que te dice exactamente en qué área estás perdiendo puntos.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#registro">
+            Crear cuenta gratis
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#simulacros">Ver simuladores</a>
+        </div>
+        <ul class="hero__trust" aria-label="Condiciones del plan gratuito">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Sin tarjeta</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Plan gratuito permanente</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Hecho en Lima</li>
+        </ul>
+        <div class="hero__proof">
+          <dl><dt>17</dt><dd>especialidades</dd></dl>
+          <dl><dt>3</dt><dd>exámenes: ENAM, RM y EsSalud</dd></dl>
+          <dl><dt>100%</dt><dd>de preguntas con comentario</dd></dl>
+        </div>
+      </div>
+
+      <!-- mockup interactivo del simulador (main.js lo anima; sin JS queda la primera pregunta) -->
+      <div class="hero-demo">
+        <div class="demo" id="quiz" role="region" aria-label="Pregunta de muestra del simulador">
+          <div class="demo__chrome">
+            <span class="demo__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="demo__title">Modo simulacro</span>
+            <span class="demo__timer" title="Tiempo restante del simulacro">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg>
+              <span id="qTimer">03:59:59</span>
+            </span>
+          </div>
+          <div class="demo__progress">
+            <div class="demo__meta">
+              <span class="demo__tag" id="qArea">Medicina Interna</span>
+              <span class="demo__tag demo__tag--exam" id="qExam">ENAM</span>
+              <span class="demo__count" id="qCounter">Pregunta 1 de 3</span>
+            </div>
+            <div class="demo__bar" aria-hidden="true"><div class="demo__bar-fill" id="qBar"></div></div>
+          </div>
+          <div class="demo__body">
+            <p class="demo__stem" id="qStem">Varón de 58 años, diabético, acude por dolor torácico opresivo de 40 minutos. El ECG muestra elevación del segmento ST en DII, DIII y aVF. ¿Cuál es la conducta inicial más apropiada?</p>
+            <ul class="demo__options" id="qOptions">
+              <li><button class="opt" type="button" data-i="0"><span class="opt__bubble">A</span><span class="opt__text">Solicitar ecocardiograma y reevaluar en 6 horas</span></button></li>
+              <li><button class="opt" type="button" data-i="1"><span class="opt__bubble">B</span><span class="opt__text">Activar la vía de reperfusión coronaria de inmediato</span></button></li>
+              <li><button class="opt" type="button" data-i="2"><span class="opt__bubble">C</span><span class="opt__text">Iniciar furosemida endovenosa en bolo</span></button></li>
+              <li><button class="opt" type="button" data-i="3"><span class="opt__bubble">D</span><span class="opt__text">Programar prueba de esfuerzo al alta</span></button></li>
+            </ul>
+            <div class="demo__feedback" id="qFeedback" aria-live="polite" hidden>
+              <p class="quiz__verdict" id="qVerdict">Correcto</p>
+              <p class="demo__why" id="qWhy"></p>
+            </div>
+            <div class="demo__foot">
+              <span class="demo__note" id="qNote">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg>
+                Marca una alternativa para ver la explicación
+              </span>
+              <button class="btn btn--primary btn--sm" type="button" id="qNext" hidden>Siguiente pregunta</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="float-card float-card--tip" aria-hidden="true">
+          <span class="float-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg>
+          </span>
+          <p>Comentario docente<span>en cada alternativa</span></p>
+        </div>
+
+        <div class="float-card float-card--score" id="qScore" aria-live="polite">
+          <div class="score-ring" id="qRing" aria-hidden="true">
+            <svg viewBox="0 0 44 44"><circle class="score-ring__track" cx="22" cy="22" r="18"/><circle class="score-ring__value" cx="22" cy="22" r="18"/></svg>
+            <span class="score-ring__num" id="qPct">–</span>
+          </div>
+          <div>
+            <p class="float-card__label">Tu sesión</p>
+            <p class="float-card__value" id="qScoreText">Responde para empezar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== CIFRAS / SOCIAL PROOF ====================== -->
+  <section class="metrics" aria-labelledby="metricsTitle">
+    <div class="wrap">
+      <h2 class="sr-only" id="metricsTitle">MedQuizPlus en cifras</h2>
+      <dl class="metrics__grid">
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg></span>
+            Preguntas comentadas
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="12480">12 480</span></dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
+            Simulacros cronometrados
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="96">96</span></dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></span>
+            Áreas oficiales del ENAM
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="5">5</span></dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">
+            <span class="metric__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg></span>
+            Duración real del simulacro
+          </dt>
+          <dd class="metric__value"><span class="metric__num" data-count="4">4</span><span class="metric__unit">horas</span></dd>
+        </div>
+      </dl>
+      <p class="metrics__ribbon">
+        <span class="metrics__ribbon-text">Diseñado para postulantes al</span>
+        <span class="exam-pill">ENAM</span>
+        <span class="exam-pill">Residentado Médico</span>
+        <span class="exam-pill">EsSalud</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ====================== BANCOS DE PREGUNTAS ====================== -->
+  <section class="section section--banks" id="bancos" aria-labelledby="bancosTitle">
+    <div class="wrap">
+      <div class="banks-head reveal">
+        <div class="banks-head__copy">
+          <p class="kicker">Bancos de preguntas</p>
+          <h2 id="bancosTitle">Entrena por especialidad</h2>
+          <p class="banks-head__lead">Empieza por el área que más puntos te está costando. Casos clínicos tipo ENAM, Residentado y EsSalud, cada uno con el comentario docente que explica la respuesta correcta y por qué fallan los distractores.</p>
+        </div>
+        <ul class="banks-head__facts" aria-label="Qué incluye cada banco">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>17 especialidades</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Comentario docente</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Aciertos en tiempo real</li>
+        </ul>
+      </div>
+
+      <!-- vista 1: cuadrícula de especialidades (la llena main.js desde el catálogo) -->
+      <div class="specs" id="specs" aria-label="Especialidades"></div>
+
+      <!-- vista 2: simulador de preguntas -->
+      <div class="sim-view" id="simView" hidden>
+        <div class="sim-view__bar">
+          <button class="btn btn--ghost" type="button" id="svBack">← Volver al menú de especialidades</button>
+          <span class="sim-view__score" id="svScore" aria-live="polite"></span>
+        </div>
+
+        <div class="quiz quiz--wide quiz--pro" id="svQuiz" aria-live="polite">
+          <!-- barra de ritmo: 60 s por pregunta, como en el ENAM -->
+          <div class="pace" id="svPace" aria-hidden="true"><div class="pace__fill" id="svPaceFill"></div></div>
+          <div class="quiz__head">
+            <span class="tag" id="svArea">Especialidad</span>
+            <span class="tag tag--mark" id="svExam" hidden></span>
+            <span class="pace__time" id="svPaceTime" title="Tiempo en esta pregunta (ideal: 60 s)">0:00</span>
+            <span class="quiz__counter" id="svCounter"></span>
+            <button class="flag-btn" type="button" id="svFlag" aria-pressed="false" title="Marcar para revisión (F)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></svg>
+              <span class="flag-btn__label">Marcar</span>
+            </button>
+          </div>
+          <div class="quiz__body">
+            <p class="sim-view__status" id="svStatus" hidden></p>
+            <div id="svContent" hidden>
+              <p class="quiz__stem" id="svStem"></p>
+              <div class="sim-tools">
+                <label class="switch" title="Oculta las alternativas hasta que pases el cursor o las toques">
+                  <input type="checkbox" id="svRecall" role="switch">
+                  <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+                  <span class="switch__text">Active Recall</span>
+                </label>
+                <span class="sim-tools__hint">Clic derecho sobre una alternativa para tacharla</span>
+              </div>
+              <ul class="quiz__options" id="svOptions"></ul>
+              <div class="quiz__feedback" id="svFeedback" hidden>
+                <p class="quiz__verdict" id="svVerdict"></p>
+                <p class="quiz__label">Comentario docente</p>
+                <p class="quiz__why" id="svWhy"></p>
+                <button class="btn btn--ghost btn--sm algo-btn" type="button" id="svAlgo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg>
+                  Ver algoritmo / Flujograma
+                </button>
+              </div>
+            </div>
+            <div class="quiz__foot sim-view__nav">
+              <button class="btn btn--ghost" type="button" id="svPrev">← Pregunta anterior</button>
+              <button class="btn btn--mark" type="button" id="svNext">Siguiente pregunta →</button>
+            </div>
+          </div>
+        </div>
+
+        <p class="kbd-hints" aria-label="Atajos de teclado">
+          <span><kbd>A</kbd>–<kbd>E</kbd> o <kbd>1</kbd>–<kbd>5</kbd> elegir</span>
+          <span><kbd>Espacio</kbd> confirmar / siguiente</span>
+          <span><kbd>F</kbd> marcar</span>
+          <span><kbd>←</kbd> <kbd>→</kbd> navegar</span>
+        </p>
+      </div>
+
+      <!-- modal de algoritmos: el contenido real se registra en algoritmos.js -->
+      <dialog class="algo-modal" id="algoModal" aria-labelledby="algoTitle">
+        <div class="algo-modal__head">
+          <div>
+            <p class="kicker">Perla clínica</p>
+            <h3 class="algo-modal__title" id="algoTitle">Algoritmo diagnóstico</h3>
+            <p class="algo-modal__sub" id="algoSub"></p>
+          </div>
+          <button class="chat-tool algo-modal__close" type="button" id="algoClose">
+            <span class="sr-only">Cerrar</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+        <div class="algo-modal__body" id="algoBody"></div>
+      </dialog>
+    </div>
+  </section>
+
+  <!-- ====================== SIMULADORES ====================== -->
+  <section class="section section--tint" id="simulacros" aria-labelledby="simTitle">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">Simuladores</p>
+        <h2 id="simTitle">Simula el examen antes de enfrentarlo.</h2>
+        <p class="sec-head__lead">Práctica cronometrada con el mismo número de preguntas, el mismo reloj y el mismo orden de áreas del ENAM, el Residentado Médico y EsSalud. Al terminar ves tu puntaje por área y la explicación de cada pregunta.</p>
+      </div>
+
+      <div class="sim-board">
+        <!-- tarjeta principal -->
+        <article class="sim-main reveal">
+          <div class="sim-main__head">
+            <span class="badge badge--brand"><span class="badge__dot" aria-hidden="true"></span>Abierto · sin costo</span>
+            <span class="badge">Cada sábado · 09:00 (hora de Perú)</span>
+          </div>
+          <h3 class="sim-main__title">Simulacro ENAM completo</h3>
+          <p class="sim-main__lead">La experiencia más cercana al día del examen: mismo ritmo, misma presión y un reporte que te dice dónde estás perdiendo puntos.</p>
+
+          <dl class="sim-kpis">
+            <div class="sim-kpi"><dt>Duración</dt><dd>4 h</dd></div>
+            <div class="sim-kpi"><dt>Preguntas</dt><dd>180</dd></div>
+            <div class="sim-kpi"><dt>Áreas evaluadas</dt><dd>5</dd></div>
+            <div class="sim-kpi"><dt>Dificultad</dt><dd><span class="diff" aria-label="Dificultad alta, 4 de 5"><i></i><i></i><i></i><i></i><i class="off"></i></span>Alta</dd></div>
+          </dl>
+
+          <ul class="sim-areas" aria-label="Áreas evaluadas">
+            <li>Medicina Interna</li><li>Pediatría</li><li>Ginecología y Obstetricia</li><li>Cirugía</li><li>Salud Pública</li>
+          </ul>
+
+          <div class="sim-main__foot">
+            <div class="countdown" aria-labelledby="cdLabel">
+              <p class="countdown__label" id="cdLabel">El próximo simulacro abre en</p>
+              <div class="countdown__grid" id="countdown" aria-live="polite">
+                <div class="cd-unit"><b id="cdD">--</b><span>días</span></div>
+                <div class="cd-unit"><b id="cdH">--</b><span>horas</span></div>
+                <div class="cd-unit"><b id="cdM">--</b><span>min</span></div>
+                <div class="cd-unit"><b id="cdS">--</b><span>seg</span></div>
+              </div>
+            </div>
+            <a class="btn btn--primary btn--lg sim-main__cta" href="#registro">
+              Reservar mi lugar
+              <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- tarjetas secundarias -->
+        <div class="sim-side">
+          <article class="sim-card reveal">
+            <div class="sim-card__top">
+              <span class="sim-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span>
+              <span class="badge badge--time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>60 min</span>
+            </div>
+            <h3>Simulacro Express</h3>
+            <p>60 preguntas mixtas para medir ritmo y descarte cuando no tienes cuatro horas libres.</p>
+            <a class="sim-card__link" href="#registro">Empezar ahora <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="sim-card reveal">
+            <div class="sim-card__top">
+              <span class="sim-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+              <span class="badge badge--time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>25 min</span>
+            </div>
+            <h3>Diagnóstico inicial por área</h3>
+            <p>30 preguntas para saber por qué especialidad te conviene empezar a estudiar.</p>
+            <a class="sim-card__link" href="#registro">Hacer diagnóstico <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="sim-card reveal">
+            <div class="sim-card__top">
+              <span class="sim-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/></svg></span>
+              <span class="badge badge--time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>40 min</span>
+            </div>
+            <h3>EsSalud · Salud Pública</h3>
+            <p>40 preguntas de normativa, atención primaria e indicadores: el área donde más puntos se regalan.</p>
+            <a class="sim-card__link" href="#registro">Empezar ahora <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+      <p class="placeholder-note">Fechas y simulacros de ejemplo para la demostración.</p>
+    </div>
+  </section>
+
+  <!-- ====================== CÓMO FUNCIONA ====================== -->
+  <section class="section" id="como-funciona" aria-labelledby="howTitle">
+    <div class="wrap">
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">Cómo funciona</p>
+        <h2 id="howTitle">Tres pasos para dominar tu examen.</h2>
+      </div>
+      <ol class="flow">
+        <li class="flow__step reveal">
+          <span class="flow__num" aria-hidden="true">01</span>
+          <h3>Elige el banco o especialidad</h3>
+          <p>Entra por el examen que rindes o por el área que te está costando. Armas sesiones de 10 preguntas o de 180.</p>
+        </li>
+        <li class="flow__step reveal">
+          <span class="flow__num" aria-hidden="true">02</span>
+          <h3>Resuelve contra el reloj</h3>
+          <p>El cronómetro corre como en el examen real. Marca las dudosas y vuelve a ellas antes de entregar.</p>
+        </li>
+        <li class="flow__step reveal">
+          <span class="flow__num" aria-hidden="true">03</span>
+          <h3>Revisa la explicación clínica y analiza errores</h3>
+          <p>Cada caso cierra con el porqué de la respuesta y de cada distractor, y tu reporte marca el área a reforzar.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ====================== DIFERENCIADORES ====================== -->
+  <section class="section section--tint" id="ventajas" aria-labelledby="featTitle">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">Por qué MedQuizPlus</p>
+        <h2 id="featTitle">Más que un banco de preguntas.</h2>
+        <p class="sec-head__lead">Una preparación de alto rendimiento: practicas como en el examen, entiendes cada error y sabes exactamente qué estudiar después.</p>
+      </div>
+      <div class="features">
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg></span>
+          <h3>Preguntas comentadas</h3>
+          <p>Cada caso trae la justificación clínica de la respuesta correcta y el análisis de por qué fallan los distractores.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg></span>
+          <h3>Simulacros cronometrados</h3>
+          <p>Condiciones reales de examen: mismo número de preguntas, mismo reloj y reporte de puntaje por área al terminar.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01"/></svg></span>
+          <h3>Tutor clínico de IA</h3>
+          <p>Resuelve dudas de casos complejos al instante, con retroalimentación pensada para el ENAM y el Residentado.</p>
+        </article>
+        <article class="feature reveal">
+          <span class="feature__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <h3>Entrenamiento por especialidad</h3>
+          <p>17 bancos alineados con las especialidades médicas oficiales para atacar primero tus áreas débiles.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== PRODUCT PREVIEW ====================== -->
+  <section class="section" id="plataforma" aria-labelledby="previewTitle">
+    <div class="wrap">
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">La plataforma</p>
+        <h2 id="previewTitle">Todo tu entrenamiento, en un solo lugar.</h2>
+        <p class="sec-head__lead">Tu progreso, los casos que resuelves y tu dominio por especialidad, en un panel pensado para estudiar con foco.</p>
+      </div>
+
+      <figure class="app reveal" aria-label="Vista de ejemplo del panel del estudiante">
+        <div class="app__chrome" aria-hidden="true">
+          <span class="demo__dots"><i></i><i></i><i></i></span>
+          <span class="app__url">app.medquizplus.pe/panel</span>
+        </div>
+        <div class="app__body">
+          <aside class="app__nav" aria-hidden="true">
+            <span class="brand__mark app__logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span>
+            <span class="app__navitem is-active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Panel</span>
+            <span class="app__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/></svg>Bancos</span>
+            <span class="app__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2"/></svg>Simulacros</span>
+            <span class="app__navitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/></svg>Reportes</span>
+          </aside>
+
+          <div class="app__main">
+            <div class="app__top">
+              <div>
+                <p class="app__hello">Hola, Ana</p>
+                <p class="app__sub">Faltan 38 días para tu ENAM</p>
+              </div>
+              <span class="badge badge--brand"><span class="badge__dot" aria-hidden="true"></span>Racha de 12 días</span>
+            </div>
+
+            <dl class="app__kpis">
+              <div class="kpi"><dt>Precisión global</dt><dd>72%</dd><span class="kpi__delta">▲ 6 pts este mes</span></div>
+              <div class="kpi"><dt>Preguntas resueltas</dt><dd>1 248</dd><span class="kpi__delta">▲ 214 esta semana</span></div>
+              <div class="kpi"><dt>Último simulacro</dt><dd>128<small>/180</small></dd><span class="kpi__delta">Percentil 81</span></div>
+            </dl>
+
+            <div class="app__grid">
+              <div class="panel">
+                <div class="panel__head">
+                  <p class="panel__title">Dominio por especialidad</p>
+                  <span class="panel__hint">% de aciertos</span>
+                </div>
+                <ul class="bars">
+                  <li class="bars__row" title="Cardiología: 84% de aciertos"><span class="bars__label">Cardiología</span><span class="bars__track"><span class="bars__fill" style="--v:84"></span></span><span class="bars__val">84%</span></li>
+                  <li class="bars__row" title="Pediatría: 78% de aciertos"><span class="bars__label">Pediatría</span><span class="bars__track"><span class="bars__fill" style="--v:78"></span></span><span class="bars__val">78%</span></li>
+                  <li class="bars__row" title="Ginecología y Obstetricia: 71% de aciertos"><span class="bars__label">Ginecología</span><span class="bars__track"><span class="bars__fill" style="--v:71"></span></span><span class="bars__val">71%</span></li>
+                  <li class="bars__row" title="Infectología: 66% de aciertos"><span class="bars__label">Infectología</span><span class="bars__track"><span class="bars__fill" style="--v:66"></span></span><span class="bars__val">66%</span></li>
+                  <li class="bars__row" title="Salud Pública: 54% de aciertos"><span class="bars__label">Salud Pública</span><span class="bars__track"><span class="bars__fill" style="--v:54"></span></span><span class="bars__val">54%</span></li>
+                </ul>
+                <p class="panel__foot"><span class="focus-dot" aria-hidden="true"></span>Siguiente foco sugerido: <b>Salud Pública</b></p>
+              </div>
+
+              <div class="panel panel--case">
+                <div class="panel__head">
+                  <p class="panel__title">Caso en curso</p>
+                  <span class="badge badge--time">Pregunta 42 de 60</span>
+                </div>
+                <p class="case__stem">Mujer de 27 años, gestante de 32 semanas, con PA 150/100 mmHg y proteinuria de 24 h de 450 mg. ¿Cuál es el diagnóstico?</p>
+                <ul class="case__opts">
+                  <li>Hipertensión gestacional</li>
+                  <li class="is-right">Preeclampsia sin criterios de severidad</li>
+                  <li>Hipertensión crónica</li>
+                </ul>
+                <p class="case__why"><b>Comentario docente:</b> PA ≥ 140/90 después de las 20 semanas con proteinuria ≥ 300 mg/24 h, sin signos de severidad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </figure>
+      <p class="placeholder-note placeholder-note--center">Vista de ejemplo con datos ilustrativos.</p>
+    </div>
+  </section>
+
+  <!-- ====================== PLANES ====================== -->
+  <section class="section section--tint" id="precios" aria-labelledby="priceTitle">
+    <div class="wrap">
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">Planes</p>
+        <h2 id="priceTitle">Invierte en tu plaza médica.</h2>
+        <p class="sec-head__lead">Empieza gratis y sin tarjeta. Pasa al Plan Pro solo cuando quieras practicar sin límites.</p>
+      </div>
+
+      <div class="plans">
+        <article class="plan reveal">
+          <h3 class="plan__name">Plan Gratuito</h3>
+          <p class="plan__desc">Para empezar a practicar y medir tu nivel.</p>
+          <p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">para siempre</span></p>
+          <a class="btn btn--ghost btn--lg btn--block" href="#registro">Empezar gratis</a>
+          <ul class="plan__list">
+            <li>30 preguntas comentadas por día</li>
+            <li>Simulacro abierto cada sábado</li>
+            <li>Práctica inicial en todos los bancos</li>
+            <li>Reporte básico de aciertos</li>
+          </ul>
+        </article>
+
+        <article class="plan plan--pro reveal">
+          <span class="plan__badge">Recomendado</span>
+          <h3 class="plan__name">Plan Pro ENAM / Residentado</h3>
+          <p class="plan__desc">Para quienes van por la plaza con todo.</p>
+          <p class="plan__price"><span class="plan__amount plan__amount--soon">Precio de lanzamiento</span><span class="plan__per">se anuncia pronto</span></p>
+          <a class="btn btn--primary btn--lg btn--block" href="#registro">
+            Quiero el Plan Pro
+            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <ul class="plan__list">
+            <li>Acceso ilimitado a los 17 bancos</li>
+            <li>Explicaciones docentes completas</li>
+            <li>Tutor clínico de IA 24/7</li>
+            <li>Todos los simulacros cronometrados</li>
+            <li>Reporte avanzado por especialidad</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== REGISTRO ====================== -->
+  <section class="section" id="registro" aria-labelledby="signupTitle">
+    <div class="wrap signup">
+      <div class="reveal">
+        <p class="kicker">Crear cuenta</p>
+        <h2 id="signupTitle">Empieza gratis hoy.</h2>
+        <p class="lead signup__lead">La cuenta gratuita no caduca y no pide tarjeta.</p>
+        <ul class="checklist">
+          <li>Acceso al simulacro abierto de cada sábado.</li>
+          <li>30 preguntas comentadas por día en cualquier banco.</li>
+          <li>Tu reporte de dominio por área, actualizado cada vez que resuelves.</li>
+          <li>Recordatorio por correo antes de cada simulacro.</li>
+        </ul>
+      </div>
+
+      <div class="form-card reveal">
+        <form id="signupForm" novalidate>
+          <div class="field">
+            <label for="f-nombre">Nombre y apellido</label>
+            <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Ana Quispe">
+            <p class="err" id="e-nombre" hidden>Escribe tu nombre completo.</p>
+          </div>
+          <div class="field">
+            <label for="f-correo">Correo electrónico</label>
+            <input id="f-correo" name="correo" type="email" autocomplete="email" placeholder="ana@universidad.edu.pe">
+            <p class="err" id="e-correo" hidden>Revisa el correo: falta el @ o el dominio.</p>
+          </div>
+          <div class="field">
+            <label for="f-universidad">Universidad</label>
+            <select id="f-universidad" name="universidad">
+              <option value="">Selecciona tu universidad</option>
+              <option>Universidad Nacional Mayor de San Marcos</option>
+              <option>Universidad Peruana Cayetano Heredia</option>
+              <option>Universidad Nacional de Trujillo</option>
+              <option>Universidad Nacional San Agustín de Arequipa</option>
+              <option>Universidad Nacional San Antonio Abad del Cusco</option>
+              <option>Otra universidad</option>
+            </select>
+            <p class="err" id="e-universidad" hidden>Elige una opción de la lista.</p>
+          </div>
+          <div class="field">
+            <label id="l-examen">¿A qué examen te presentas?</label>
+            <div class="radios" role="radiogroup" aria-labelledby="l-examen">
+              <label class="radio"><input type="radio" name="examen" value="ENAM"><span>ENAM</span></label>
+              <label class="radio"><input type="radio" name="examen" value="RM"><span>Residentado</span></label>
+              <label class="radio"><input type="radio" name="examen" value="EsSalud"><span>EsSalud</span></label>
+            </div>
+            <p class="err" id="e-examen" hidden>Marca uno de los tres.</p>
+          </div>
+          <div class="form-foot">
+            <button class="btn btn--primary btn--block" type="submit">Crear mi cuenta gratis</button>
+            <p class="fineprint">Demostración: este formulario valida los datos en tu navegador y no los envía a ningún servidor.</p>
+          </div>
+        </form>
+
+        <div class="success" id="signupSuccess" hidden>
+          <div class="success__mark" aria-hidden="true">✓</div>
+          <h3>Listo, <span id="successName">Ana</span></h3>
+          <p id="successMsg">Tu lugar en el simulacro abierto quedó reservado.</p>
+          <p class="fineprint" style="margin-top:16px">Recuerda: esto es una demostración, no se guardó ningún dato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== FAQ ====================== -->
+  <section class="section section--tint" id="faq" aria-labelledby="faqTitle">
+    <div class="wrap faq-wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">Preguntas frecuentes</p>
+        <h2 id="faqTitle">Preguntas frecuentes.</h2>
+        <p class="sec-head__lead">¿No encuentras tu respuesta? Pregúntale al tutor desde el botón de la esquina inferior.</p>
+      </div>
+      <div class="faq">
+        <details class="faq__item" open>
+          <summary>¿Cómo están estructuradas las preguntas?</summary>
+          <div class="faq__body"><p>Son casos clínicos tipo ENAM, Residentado y EsSalud con cuatro o cinco alternativas. Al responder ves la clave correcta y el comentario docente: la justificación clínica y por qué cada distractor es incorrecto.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Los simulacros se parecen al ENAM real?</summary>
+          <div class="faq__body"><p>Sí. El simulacro completo replica la duración de 4 horas, el número de preguntas y el orden de áreas del examen oficial. Al terminar recibes tu puntaje por área.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Cómo funciona el tutor de IA?</summary>
+          <div class="faq__body"><p>Es un asistente disponible en la esquina inferior de la página. Le escribes tu duda sobre un caso o un tema y responde al instante, con el contexto de tu conversación. Sus respuestas son de apoyo al estudio y no sustituyen el criterio clínico.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Es gratis de verdad?</summary>
+          <div class="faq__body"><p>Sí. El Plan Gratuito no caduca: incluye preguntas comentadas cada día, el simulacro abierto de los sábados y tu reporte básico. El Plan Pro es opcional.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Necesito tarjeta para registrarme?</summary>
+          <div class="faq__body"><p>No. Solo te pedimos nombre, correo, universidad y el examen que rindes. Nunca te pediremos una tarjeta para usar el Plan Gratuito.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== CTA FINAL ====================== -->
+  <section class="final-cta" aria-labelledby="finalTitle">
+    <div class="wrap">
+      <div class="final-cta__card reveal">
+        <h2 id="finalTitle">Empieza a entrenar como si ya estuvieras en el examen.</h2>
+        <p>Cada pregunta que resuelves hoy es un punto que no pierdes el día del ENAM.</p>
+        <a class="btn btn--lg final-cta__btn" href="#registro">
+          Crear cuenta gratis
+          <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <p class="final-cta__trust">Sin tarjeta · Plan gratuito permanente · Hecho en Lima</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ====================== FOOTER ====================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand" href="#top" aria-label="MedQuizPlus, ir al inicio">
+          <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span>
+          <span>MedQuiz<span class="brand__plus">Plus</span></span>
+        </a>
+        <p>Bancos de preguntas comentadas y simulacros cronometrados para el ENAM, el Residentado Médico y EsSalud.</p>
+      </div>
+      <nav class="footer__cols" aria-label="Pie de página">
+        <div class="footer__col">
+          <p class="footer__title">Producto</p>
+          <ul>
+            <li><a href="#bancos">Bancos de preguntas</a></li>
+            <li><a href="#simulacros">Simulacros</a></li>
+            <li><a href="#como-funciona">Cómo funciona</a></li>
+            <li><a href="#precios">Precios</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__title">Recursos</p>
+          <ul>
+            <li><a href="#como-funciona">Metodología ENAM</a></li>
+            <li><a href="#simulacros">Residentado Médico</a></li>
+            <li><a href="#simulacros">EsSalud</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__title">Cuenta</p>
+          <ul>
+            <li><a href="#registro">Iniciar sesión</a></li>
+            <li><a href="#registro">Registro gratuito</a></li>
+            <li><a href="#registro">Recuperar acceso</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__title">Legal y créditos</p>
+          <ul>
+            <li><a href="#legal">Términos de uso</a></li>
+            <li><a href="#legal">Privacidad</a></li>
+            <li><a href="https://www.instagram.com/JhonLeyva/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+              Instagram (@JhonLeyva)<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <p class="footer__legal" id="legal">Contenido con fines educativos: no sustituye el criterio clínico ni la atención de un paciente real. Este sitio es una demostración y el formulario de registro no envía datos a ningún servidor.</p>
+    <div class="footer__bottom">
+      <p>© <span id="year">2026</span> MedQuizPlus. Todos los derechos reservados. Hecho para la comunidad médica.</p>
+    </div>
+  </div>
+</footer>
+
+
+<div class="mobile-cta">
+  <a class="btn btn--primary btn--block" href="#registro">Crear cuenta gratis</a>
+</div>
+
+<!-- chat:inicio (se excluye de artifact.html porque necesita PHP) -->
+<button class="chat-launcher" id="chatLauncher" type="button" aria-expanded="false" aria-controls="chatPanel">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z"/>
+  </svg>
+  <span class="chat-launcher__label">Pregúntale al tutor</span>
+</button>
+
+<section class="chat-panel" id="chatPanel" role="dialog" aria-modal="false" aria-labelledby="chatTitle" hidden>
+  <header class="chat-panel__head">
+    <span class="chat-panel__avatar" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M7.5 6h9a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3z"/><path d="M9.5 12h.01M14.5 12h.01M9.5 15.5h5"/></svg>
+    </span>
+    <div class="chat-panel__id">
+      <h2 class="chat-panel__title" id="chatTitle">Tutor MedQuizPlus</h2>
+      <p class="chat-panel__sub">ENAM · RM · EsSalud</p>
+    </div>
+    <div class="chat-tools">
+      <button class="chat-tool" id="chatNuevo" type="button" title="Nueva conversación">
+        <span class="sr-only">Empezar una conversación nueva</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 15.3-6.4L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.3 6.4L3 16"/><path d="M3 21v-5h5"/></svg>
+      </button>
+      <button class="chat-tool" id="chatMinimizar" type="button" title="Minimizar">
+        <span class="sr-only">Minimizar el chat</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 18h12"/></svg>
+      </button>
+      <button class="chat-tool" id="chatClose" type="button" title="Cerrar y terminar la conversación">
+        <span class="sr-only">Cerrar el chat y terminar la conversación</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="chat-log" id="chatLog" role="log" aria-live="polite" aria-relevant="additions">
+    <div class="chat-welcome" id="chatWelcome">
+      <p class="chat-welcome__hola">Hola <span aria-hidden="true">👋</span></p>
+      <p class="chat-welcome__sub">¿En qué puedo ayudarte?</p>
+      <div class="chat-ideas">
+        <button class="chat-idea" type="button" data-pregunta="¿Cómo diferencio un shock séptico de uno cardiogénico?">
+          <strong>Pregúntame algo…</strong>
+          <span>¿Cómo diferencio un shock séptico de uno cardiogénico?</span>
+        </button>
+        <button class="chat-idea" type="button" data-pregunta="Explícame los criterios de severidad de la preeclampsia.">
+          <strong>Explícame un tema…</strong>
+          <span>Criterios de severidad de la preeclampsia</span>
+        </button>
+        <button class="chat-idea" type="button" data-pregunta="Ayúdame a armar un plan de estudio de cuatro semanas para el ENAM.">
+          <strong>Ayúdame a estudiar…</strong>
+          <span>Un plan de cuatro semanas para el ENAM</span>
+        </button>
+      </div>
+      <p class="chat-welcome__pie">O escribe tu propia pregunta abajo.</p>
+    </div>
+  </div>
+
+  <form class="chat-form" id="chatForm">
+    <label class="sr-only" for="chatInput">Escribe tu pregunta</label>
+    <textarea id="chatInput" name="mensaje" rows="1" maxlength="2000" placeholder="Escribe tu pregunta…" autocomplete="off"></textarea>
+    <button class="chat-send" id="chatSend" type="submit">
+      <span class="sr-only">Enviar</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l16-8-6 16-2.5-6.5L4 12z"/></svg>
+    </button>
+  </form>
+  <p class="chat-disclaimer">Respuestas generadas por IA con fines de estudio. No sustituyen el criterio clínico ni la atención de un paciente real.</p>
+</section>
+<!-- chat:fin -->
+
+<script defer src="algoritmos.js?v=20260927-2"></script>
+<script defer src="main.js?v=20260928-zoom"></script>
+</body>
+</html>

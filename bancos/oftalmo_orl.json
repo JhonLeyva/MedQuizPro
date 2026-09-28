@@ -1,0 +1,97 @@
+{
+  "especialidad": "Oftalmología y Otorrinolaringología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "OFT-001",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Conjuntivitis bacteriana",
+        "B": "Glaucoma agudo de ángulo cerrado",
+        "C": "Uveítis anterior",
+        "D": "Desprendimiento de retina",
+        "E": "Migraña con aura"
+      },
+      "clave_correcta": "B",
+      "comentario": "Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."
+    },
+    {
+      "id": "OFT-002",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, acude a emergencia porque limpiando el inodoro le salpica accidentalmente ácido muriático en el ojo derecho. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        "Irrigar el ojo inmediatamente con suero fisiológico y agua",
+        "Limpiar ojo con un paño limpio y colocar ungüento antiséptico",
+        "Administrar corticoides tópicos para disminuir la inflamación",
+        "Colocar un parche y llamar rápidamente al especialista",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.",
+      "comentario": "En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.",
+      "tema": "Urgencias oftalmológicas",
+      "año": 2020
+    },
+    {
+      "id": "OFT-003",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de 2 semanas con epífora, fotofobia y disminución del brillo corneal. Al examen: presión intraocular elevada, nervio óptico con depresión marcada. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Trabeculoplastia",
+        "Goniotomía",
+        "Dacriorrinocistostomía",
+        "Iridectomía",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Epífora, fotofobia, blefaroespasmo y edema corneal (pérdida de brillo) junto a hipertensión ocular definen el glaucoma congénito. Su tratamiento de elección es netamente quirúrgico mediante goniotomía.",
+      "comentario": "Epífora, fotofobia, blefaroespasmo y edema corneal (pérdida de brillo) junto a hipertensión ocular definen el glaucoma congénito. Su tratamiento de elección es netamente quirúrgico mediante goniotomía.",
+      "tema": "Glaucoma",
+      "año": 2020
+    },
+    {
+      "id": "OFT-004",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 50 años, hace una hora sufre golpe en nariz y presenta sangrado nasal. Al examen: hemorragia activa, se le realiza taponamiento anterior. Después de 2 horas presenta vómitos con sangre. ¿Cuál sería la acción a seguir?",
+      "opciones": [
+        "Derivar a especialista para taponamiento posterior",
+        "Proceder a cauterización química",
+        "Administrar vasoconstrictor tópico",
+        "Administrar coagulantes en dosis máxima",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
+      "comentario": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
+      "tema": "Epistaxis",
+      "año": 2020
+    },
+    {
+      "id": "OFT-005",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 12 años, presenta prurito ocular intenso en ambos ojos con espesa secreción mucoide, lagrimeo, fotofobia e hiperemia conjuntival. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Chalazion",
+        "Pterigion",
+        "Iritis",
+        "Conjuntivitis",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.",
+      "comentario": "El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.",
+      "tema": "Patología conjuntival",
+      "año": 2020
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "especialidad": "Infectología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "INF-001",
+      "especialidad": "Infectología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Varón de 32 años, agricultor de Loreto, con fiebre intermitente, escalofríos y sudoración de cinco días. La gota gruesa muestra Plasmodium vivax. No hay signos de malaria grave y la prueba de G6PD es normal. ¿Cuál es el tratamiento indicado?",
+      "opciones": {
+        "A": "Solo cloroquina por tres días",
+        "B": "Cloroquina más primaquina",
+        "C": "Artesunato endovenoso",
+        "D": "Solo primaquina por siete días",
+        "E": "Doxiciclina por catorce días"
+      },
+      "clave_correcta": "B",
+      "comentario": "La malaria por P. vivax no complicada se trata con cloroquina (esquizonticida sanguíneo) más primaquina, que elimina los hipnozoítos hepáticos y evita las recaídas. Sin primaquina el paciente puede recaer semanas después. El artesunato endovenoso se reserva para la malaria grave; en la gestante la primaquina está contraindicada."
+    },
+    {
+      "id": "INF-002",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años, consulta por fiebre, cefalea, estornudos y tos desde hace 2 días. Examen: T° 38.6 °C, FC 90 x', FR 18 x'. No antecedentes patológicos. ¿Qué tipo de virus ARN se buscará en sus exámenes de sangre?",
+      "opciones": [
+        "Paramixovirus",
+        "Rabdovirus",
+        "Flavivirus",
+        "Coronavirus",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Infección respiratoria aguda alta viral causada por un virus con genoma ARN monocatenario de sentido positivo perteneciente a la familia Coronaviridae.",
+      "comentario": "Infección respiratoria aguda alta viral causada por un virus con genoma ARN monocatenario de sentido positivo perteneciente a la familia Coronaviridae.",
+      "tema": "Infecciones respiratorias virales",
+      "año": 2020
+    },
+    {
+      "id": "INF-003",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 18 años desde hace 20 días malestar general y mialgias, luego fiebre, faringitis y adenopatías. Al examen 38.3 °C. faringe congestiva, amígdalas hipertróficas, adenopatías en cadena cervical posterior, exantema morbiliforme en brazos y esplenomegalia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Mononucleosis infecciosa",
+        "Toxoplasmosis",
+        "Rubéola",
+        "Linfoma",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La tríada clásica de fiebre, faringitis y adenopatías cervicales (especialmente posteriores), sumado a esplenomegalia y exantema (frecuente tras aminopenicilinas), orienta a mononucleosis infecciosa por virus de Epstein-Barr.",
+      "comentario": "La tríada clásica de fiebre, faringitis y adenopatías cervicales (especialmente posteriores), sumado a esplenomegalia y exantema (frecuente tras aminopenicilinas), orienta a mononucleosis infecciosa por virus de Epstein-Barr.",
+      "tema": "Infecciones virales",
+      "año": 2020
+    },
+    {
+      "id": "INF-004",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, trabajadora sexual, último control sanitario hace 3 meses sin alteraciones. Desde hace 7 días lesión ulcerativa, indolora en labio menor izquierdo con flujo genital amarillento. RPR: negativa. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Herpes genital",
+        "Chancro luético",
+        "Quiste de Bartholino",
+        "Vulvovaginitis mixta",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Una úlcera genital única, de base limpia e indolora sugiere fuertemente chancro sifilítico (sífilis primaria). El RPR puede ser falso negativo en estadios muy tempranos antes de la seroconversión.",
+      "comentario": "Una úlcera genital única, de base limpia e indolora sugiere fuertemente chancro sifilítico (sífilis primaria). El RPR puede ser falso negativo en estadios muy tempranos antes de la seroconversión.",
+      "tema": "Infecciones de Transmisión Sexual",
+      "año": 2020
+    },
+    {
+      "id": "INF-005",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 42 años, con diagnóstico de VIH y abandono de tratamiento TARGA. Desde hace 2 semanas presenta disnea progresiva, fiebre, tos sin expectoración. Radiografía de tórax: infiltrado intersticial en bases pulmonares. DHL: elevada. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Influenza",
+        "Pneumocystosis",
+        "Tuberculosis pulmonar",
+        "Micosis pulmonar",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En un paciente con VIH sin tratamiento, la disnea insidiosa, tos seca, infiltrado intersticial bilateral en bases y DHL significativamente elevada apuntan clásicamente a neumonía por Pneumocystis jirovecii.",
+      "comentario": "En un paciente con VIH sin tratamiento, la disnea insidiosa, tos seca, infiltrado intersticial bilateral en bases y DHL significativamente elevada apuntan clásicamente a neumonía por Pneumocystis jirovecii.",
+      "tema": "Infecciones oportunistas en VIH",
+      "año": 2020
+    },
+    {
+      "id": "INF-006",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón mordido por flebótomo en la selva, 7 días después aparece lesión ulcerada con bordes elevados y duros, base limpia en pierna izquierda. Se sospecha leishmaniasis cutánea. ¿Cuál es el tratamiento inicial de elección?",
+      "opciones": [
+        "Miltefosina",
+        "Anfotericina B",
+        "Paromomicina",
+        "Antimonio pentavalente",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el Perú, la norma técnica nacional establece que los antimoniales pentavalentes (antimoniato de meglumina o estibogluconato de sodio) continúan siendo el tratamiento de primera línea de elección para la leishmaniasis cutánea.",
+      "comentario": "En el Perú, la norma técnica nacional establece que los antimoniales pentavalentes (antimoniato de meglumina o estibogluconato de sodio) continúan siendo el tratamiento de primera línea de elección para la leishmaniasis cutánea.",
+      "tema": "Leishmaniasis",
+      "año": 2020
+    },
+    {
+      "id": "INF-007",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años de Iquitos, acude con fiebre alta, escalofríos, cefalea, dolor abdominal, mialgias. Examen: pálido, ictérico, picaduras en extremidades, esplenomegalia. Hb: 7 g/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Zika",
+        "Leptospirosis",
+        "Dengue",
+        "Malaria",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Fiebre paroxística con escalofríos, ictericia hemolítica, anemia grave y esplenomegalia en un paciente procedente de la Amazonía peruana (Iquitos) señalan el diagnóstico presuntivo de malaria.",
+      "comentario": "Fiebre paroxística con escalofríos, ictericia hemolítica, anemia grave y esplenomegalia en un paciente procedente de la Amazonía peruana (Iquitos) señalan el diagnóstico presuntivo de malaria.",
+      "tema": "Malaria",
+      "año": 2020
+    },
+    {
+      "id": "INF-008",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 60 años, hospitalizada en UCI por intoxicación con barbitúricos en destete de ventilación mecánica. Al quinto día presenta incremento de secreciones bronquiales, fiebre e hipotensión. Rx tórax: infiltrado alveolar difuso. ¿Con qué esquema se debe iniciar el tratamiento antibiótico empírico?",
+      "opciones": [
+        "Meropenem - vancomicina - amikacina",
+        "Ceftazidima - oxacilina - amikacina",
+        "Amikacina - ceftazidima - ciprofloxacina",
+        "Ceftriaxona - azitromicina - amikacina",
+        "Diazepam"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La neumonía asociada a ventilación mecánica (NAV) tardía en paciente con shock séptico requiere cobertura empírica de amplio espectro frente a Pseudomonas aeruginosa, bacilos gramnegativos multirresistentes y MRSA mediante la combinación de un carbapenémico (Meropenem), un glucopéptido (Vancomicina) y un aminoglucósido (Amikacina).",
+      "comentario": "La neumonía asociada a ventilación mecánica (NAV) tardía en paciente con shock séptico requiere cobertura empírica de amplio espectro frente a Pseudomonas aeruginosa, bacilos gramnegativos multirresistentes y MRSA mediante la combinación de un carbapenémico (Meropenem), un glucopéptido (Vancomicina) y un aminoglucósido (Amikacina).",
+      "tema": "Neumonía intrahospitalaria",
+      "año": 2020
+    },
+    {
+      "id": "INF-009",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 35 años con 3 semanas de malestar general, hiporexia, febrícula y sudoración nocturna. Ingresa somnolienta, con cefalea intensa y vómitos. Examen: rigidez de nuca, signo de Kernig (+). ¿Cuál es el examen de elección?",
+      "opciones": [
+        "TAC cerebral",
+        "PPD",
+        "ADA en líquido cefalorraquídeo",
+        "Rx de tórax",
+        "Endoscopia digestiva"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de síndrome meníngeo subagudo con síntomas constitucionales orienta a meningitis tuberculosa; la determinación de la enzima adenosina desaminasa (ADA) en el líquido cefalorraquídeo es la prueba diagnóstica de elección rápida y altamente sensible/específica.",
+      "comentario": "La presencia de síndrome meníngeo subagudo con síntomas constitucionales orienta a meningitis tuberculosa; la determinación de la enzima adenosina desaminasa (ADA) en el líquido cefalorraquídeo es la prueba diagnóstica de elección rápida y altamente sensible/específica.",
+      "tema": "Tuberculosis meníngea",
+      "año": 2020
+    },
+    {
+      "id": "INF-010",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años procedente de Madre de Dios, acude a emergencia por fiebre continua de 38.5°C, dolor retroocular, sangrado nasal, petequias y malestar general. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Dengue",
+        "Leishmania",
+        "Malaria",
+        "Tuberculosis",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En zona endémica amazónica, el cuadro agudo febril con mialgias intensas, dolor retroorbitario y manifestaciones hemorrágicas espontáneas (epistaxis, petequias) orienta al diagnóstico de dengue con signos de alarma.",
+      "comentario": "En zona endémica amazónica, el cuadro agudo febril con mialgias intensas, dolor retroorbitario y manifestaciones hemorrágicas espontáneas (epistaxis, petequias) orienta al diagnóstico de dengue con signos de alarma.",
+      "tema": "Dengue",
+      "año": 2020
+    }
+  ]
+}

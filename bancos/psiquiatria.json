@@ -1,0 +1,116 @@
+{
+  "especialidad": "Psiquiatría",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "PSI-001",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?",
+      "opciones": {
+        "A": "Haloperidol",
+        "B": "Diazepam como monoterapia",
+        "C": "Un inhibidor selectivo de la recaptación de serotonina, como sertralina",
+        "D": "Carbonato de litio como monoterapia",
+        "E": "Terapia electroconvulsiva"
+      },
+      "clave_correcta": "C",
+      "comentario": "Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."
+    },
+    {
+      "id": "PSI-002",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años que acude a emergencia por episodios de palpitaciones, falta de aire, temblor, miedo a morir, parestesias y dolor en el pecho. Laboratorio: gases arteriales y EKG normales. Ha tenido 6 episodios en 2 meses. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Esquizofrenia simple",
+        "Trastorno bipolar",
+        "Trastorno de pánico",
+        "Agitación psicomotriz",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.",
+      "comentario": "Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.",
+      "tema": "Trastornos de ansiedad",
+      "año": 2020
+    },
+    {
+      "id": "PSI-003",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 15 años, admitida por náuseas, vómitos, parestesias peribucales y espasmo carpopedal. Familiar informa que tras discusión con la madre la observó agitada y taquipneica. AGA: pH=7.45, PCO2=28, HCO3=22. ¿Cuál sería la conducta inicial?",
+      "opciones": [
+        "Infusión de bicarbonato",
+        "Interconsulta a psicología",
+        "Hacerla respirar en bolsa de papel",
+        "Administrar ansiolíticos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
+      "comentario": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
+      "tema": "Trastornos ácido-base y psiquiatría",
+      "año": 2020
+    },
+    {
+      "id": "PSI-004",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años traída a emergencia por pérdida de conciencia. Examen: no responde, bradipnea y respiración superficial. Familiares refieren aislamiento, llanto, insomnio y falta de aseo tras agresión en el colegio hace 3 semanas. Madre consume ansiolíticos. Se sospecha intento suicida. ¿Cuál es el fármaco adecuado?",
+      "opciones": [
+        "Atropina",
+        "Naloxona",
+        "Flumazenilo",
+        "Epinefrina",
+        "Ibuprofeno"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.",
+      "comentario": "Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.",
+      "tema": "Urgencias toxicológicas",
+      "año": 2020
+    },
+    {
+      "id": "PSI-005",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 24 años con lesiones cortantes autoinfligidas tras ruptura sentimental. Refiere que lo hizo para que su enamorada regresara. La madre informa que ya antes tomó clonazepam en disputas de pareja. Se considera un caso de:",
+      "opciones": [
+        "Intento suicida",
+        "Gesto suicida",
+        "Depresión",
+        "Riesgo suicida",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
+      "comentario": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
+      "tema": "Urgencias psiquiátricas",
+      "año": 2020
+    },
+    {
+      "id": "PSI-006",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 32 años es llevada a emergencia por intentos de autoagresión y mal control de impulsos. Familiares refieren promiscuidad sexual, historia de abuso de sustancias tóxicas y malas relaciones familiares. Aliento alcohólico. ¿Qué tipo de personalidad presenta la paciente?",
+      "opciones": [
+        "Histriónica",
+        "Antisocial",
+        "Obsesiva-compulsiva",
+        "Limítrofe",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).",
+      "comentario": "La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).",
+      "tema": "Trastornos de la personalidad",
+      "año": 2020
+    }
+  ]
+}

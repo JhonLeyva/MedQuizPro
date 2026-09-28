@@ -1,0 +1,363 @@
+{
+  "especialidad": "Salud Pública, Gestión y Epidemiología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "SP-001",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Se evalúa una prueba rápida para detectar una enfermedad en 300 personas. De 100 enfermos, 80 tienen la prueba positiva; de 200 sanos, 180 tienen la prueba negativa. ¿Cuál es la especificidad de la prueba?",
+      "opciones": {
+        "A": "80 %",
+        "B": "90 %",
+        "C": "75 %",
+        "D": "85,7 %",
+        "E": "60 %"
+      },
+      "clave_correcta": "B",
+      "comentario": "Especificidad = verdaderos negativos / total de sanos = 180 / 200 = 90 %. En la misma tabla, la sensibilidad es 80 / 100 = 80 % y el valor predictivo positivo es 80 / (80 + 20) = 80 %. La sensibilidad y la especificidad son propias de la prueba; los valores predictivos cambian con la prevalencia de la enfermedad."
+    },
+    {
+      "id": "SP-002",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante que no habla ni entiende castellano; se niega a la atención del parto en el establecimiento de salud por temor a las \"personas extrañas\". ¿Cuál alternativa debe ofrecer el personal de salud?",
+      "opciones": [
+        "Referencia a tercer nivel",
+        "Parto humanizado con acompañante",
+        "Referencia a casa de espera",
+        "Atención por partera",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Ante barreras culturales y lingüísticas, se debe aplicar un enfoque intercultural ofreciendo el parto humanizado con acompañante para generar confianza y respetar sus derechos.",
+      "comentario": "Ante barreras culturales y lingüísticas, se debe aplicar un enfoque intercultural ofreciendo el parto humanizado con acompañante para generar confianza y respetar sus derechos.",
+      "tema": "Interculturalidad en Salud",
+      "año": 2020
+    },
+    {
+      "id": "SP-003",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 21 años que vive con su suegra que no le permite comer carne o sangrecita pensando que le afectará el parto. Frente a este hecho, ¿qué actividad deberá priorizar el personal de salud?",
+      "opciones": [
+        "Consejería nutricional",
+        "Suplementación con ácido fólico",
+        "Fortificación con vitamina B12",
+        "Abogacía con gobierno local",
+        "Omeprazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante mitos y tabúes culturales que afectan la dieta de la gestante, la intervención de primera línea es la consejería nutricional dirigida a la paciente y su entorno familiar inmediato.",
+      "comentario": "Ante mitos y tabúes culturales que afectan la dieta de la gestante, la intervención de primera línea es la consejería nutricional dirigida a la paciente y su entorno familiar inmediato.",
+      "tema": "Nutrición materna",
+      "año": 2020
+    },
+    {
+      "id": "SP-004",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Personaje público llega en mal estado a emergencia por intento de suicidio. Un personal de salud le toma una fotografía y la publica en redes sociales. ¿Qué principio ético se ha vulnerado principalmente en este caso?",
+      "opciones": [
+        "No maleficencia",
+        "Autonomía",
+        "Beneficencia",
+        "Justicia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La publicación de imágenes de un paciente sin su consentimiento es una violación a su intimidad y confidencialidad médica, principios que derivan directamente del respeto a la Autonomía del paciente.",
+      "comentario": "La publicación de imágenes de un paciente sin su consentimiento es una violación a su intimidad y confidencialidad médica, principios que derivan directamente del respeto a la Autonomía del paciente.",
+      "tema": "Principios bioéticos",
+      "año": 2020
+    },
+    {
+      "id": "SP-005",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "La directora del centro educativo, ubicado junto al centro de salud, informa que anualmente más del 5% de estudiantes de secundaria abandona los estudios por embarazo. Ante esta situación, ¿qué actividad promocional prioritaria debe realizar el equipo de salud?",
+      "opciones": [
+        "Capacitación a docentes en métodos anticonceptivos",
+        "Consejería a las autoridades sanitarias",
+        "Entrega periódica de anticonceptivos",
+        "Intervención educativa continua",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante altas tasas de embarazo adolescente y deserción escolar, la acción promocional prioritaria y sostenida es la implementación de intervenciones educativas continuas (educación sexual integral) para empoderar a los adolescentes.",
+      "comentario": "Ante altas tasas de embarazo adolescente y deserción escolar, la acción promocional prioritaria y sostenida es la implementación de intervenciones educativas continuas (educación sexual integral) para empoderar a los adolescentes.",
+      "tema": "Promoción y prevención en adolescentes",
+      "año": 2020
+    },
+    {
+      "id": "SP-006",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Durante la epidemia causada por el virus H1N1, diversos expertos aseguraron que el oseltamivir era la mejor alternativa de tratamiento, sin declarar que habían recibido apoyo financiero del laboratorio que producía dicho medicamento. ¿Cómo se tipifica lo sucedido?",
+      "opciones": [
+        "Ausencia de autocrítica",
+        "Conflicto de intereses",
+        "Uso de principio de precaución",
+        "Vulneración del principio de autonomía",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Ocultar financiamiento por parte de un laboratorio farmacéutico al emitir recomendaciones médicas públicas o guías de práctica clínica constituye una falta grave definida como conflicto de intereses.",
+      "comentario": "Ocultar financiamiento por parte de un laboratorio farmacéutico al emitir recomendaciones médicas públicas o guías de práctica clínica constituye una falta grave definida como conflicto de intereses.",
+      "tema": "Bioética e integridad científica",
+      "año": 2020
+    },
+    {
+      "id": "SP-007",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Se desea investigar el efecto de una nueva estrategia educativa sobre la adquisición de competencias de estudiantes de medicina, debiendo asignar a un grupo la intervención de acuerdo a la conveniencia del investigador. ¿Cuál es el diseño metodológico más adecuado?",
+      "opciones": [
+        "De cohorte",
+        "Ecológico",
+        "Experimental",
+        "Cuasi experimental",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Todo ensayo que implique asignar una intervención activa a un grupo de manera no aleatoria (sino por conveniencia u otros factores logísticos) clasifica como diseño de tipo cuasi experimental.",
+      "comentario": "Todo ensayo que implique asignar una intervención activa a un grupo de manera no aleatoria (sino por conveniencia u otros factores logísticos) clasifica como diseño de tipo cuasi experimental.",
+      "tema": "Diseños de investigación",
+      "año": 2020
+    },
+    {
+      "id": "SP-008",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "La responsabilidad del monitoreo del tratamiento o prevención de anemia en los niños, según el plan de lucha contra la anemia en un establecimiento de salud, corresponde a:",
+      "opciones": [
+        "Supervisión de enfermería",
+        "Jefe médico de Pediatría",
+        "Todo el personal de salud",
+        "Departamento de nutrición",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Según el Plan Nacional de Reducción y Control de la Anemia Materno Infantil en Perú, el abordaje es multisectorial e integral, recayendo la responsabilidad de la tamización, educación y seguimiento en todo el equipo de salud del establecimiento.",
+      "comentario": "Según el Plan Nacional de Reducción y Control de la Anemia Materno Infantil en Perú, el abordaje es multisectorial e integral, recayendo la responsabilidad de la tamización, educación y seguimiento en todo el equipo de salud del establecimiento.",
+      "tema": "Políticas de Salud Pública",
+      "año": 2020
+    },
+    {
+      "id": "SP-009",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años, en consulta ambulatoria, que junto con sus padres no autorizan un procedimiento necesario para conocer en forma definitiva el diagnóstico de su enfermedad, hecho que se registra en la historia clínica y lo firma el padre. ¿Cuál es la actitud del médico frente a esta negativa?",
+      "opciones": [
+        "Llama a la fiscalía",
+        "Lo refiere a otro hospital",
+        "No realiza procedimiento",
+        "Realiza el procedimiento",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cuando la negativa de los tutores pone en riesgo la salud, integridad o vida del menor de edad, prima el principio del interés superior del niño; el médico debe poner el caso en conocimiento del Ministerio Público (Fiscalía de Familia) para la autorización correspondiente.",
+      "comentario": "Cuando la negativa de los tutores pone en riesgo la salud, integridad o vida del menor de edad, prima el principio del interés superior del niño; el médico debe poner el caso en conocimiento del Ministerio Público (Fiscalía de Familia) para la autorización correspondiente.",
+      "tema": "Aspectos legales y bioética",
+      "año": 2020
+    },
+    {
+      "id": "SP-010",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años con índice de masa corporal de 35 y glucemia de 150 mg/dL. Inicia tratamiento farmacológico junto con programa educativo estructurado. ¿Qué nivel de prevención se está aplicando?",
+      "opciones": [
+        "Primario",
+        "Secundario",
+        "Cuaternario",
+        "Terciario",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La prevención secundaria comprende la detección precoz y el tratamiento oportuno y temprano en fases asintomáticas o iniciales de una enfermedad ya establecida para evitar su progresión.",
+      "comentario": "La prevención secundaria comprende la detección precoz y el tratamiento oportuno y temprano en fases asintomáticas o iniciales de una enfermedad ya establecida para evitar su progresión.",
+      "tema": "Niveles de prevención",
+      "año": 2020
+    },
+    {
+      "id": "SP-011",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Aún no concluye el primer trimestre del año y es la quinta gestante a término que acude al Centro de Salud desde localidades a menos de 2 horas de distancia sin ningún control prenatal. ¿Qué actividad prioritaria debe implementar el equipo de salud?",
+      "opciones": [
+        "Diseño y aplicación de indicadores",
+        "Referencia y contrarreferencia",
+        "Captación y seguimiento",
+        "Supervisión y evaluación",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La captación precoz comunitaria y el seguimiento activo mediante visitas domiciliarias resuelven la falta de adherencia y previenen que las gestantes lleguen sin atención prenatal a su parto.",
+      "comentario": "La captación precoz comunitaria y el seguimiento activo mediante visitas domiciliarias resuelven la falta de adherencia y previenen que las gestantes lleguen sin atención prenatal a su parto.",
+      "tema": "Atención primaria y control prenatal",
+      "año": 2020
+    },
+    {
+      "id": "SP-012",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es la población usuaria de las IPRESS del Seguro Social del Perú (EsSalud)?",
+      "opciones": [
+        "Población con capacidad de pago alta",
+        "Trabajadores del sector formal y sus dependientes",
+        "Militares, policías y sus dependientes",
+        "Población pobre con seguro público",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "EsSalud brinda cobertura contributiva a los trabajadores formales y sus derechohabientes (cónyuge/concubino e hijos menores de edad).",
+      "comentario": "EsSalud brinda cobertura contributiva a los trabajadores formales y sus derechohabientes (cónyuge/concubino e hijos menores de edad).",
+      "tema": "Organización del sistema de salud",
+      "año": 2020
+    },
+    {
+      "id": "SP-013",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "El distrito A usualmente presenta 2-3 casos de enfermedad diarreica aguda por semana epidemiológica. Sin embargo, en la semana 5 del 2020 se presentaron 100 casos y desde la semana 6 volvieron a presentarse solo 2 casos por semana. ¿Cómo se define lo ocurrido en la semana 5 del 2020 en el distrito A?",
+      "opciones": [
+        "Brote",
+        "Pandemia",
+        "Endemia",
+        "Letalidad",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El incremento inhabitual, repentino y circunscrito en el número de casos por encima del nivel endémico basal o esperado en un área geográfica determinada constituye la definición epidemiológica de brote.",
+      "comentario": "El incremento inhabitual, repentino y circunscrito en el número de casos por encima del nivel endémico basal o esperado en un área geográfica determinada constituye la definición epidemiológica de brote.",
+      "tema": "Conceptos básicos de vigilancia",
+      "año": 2020
+    },
+    {
+      "id": "SP-014",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En una zona endémica de tuberculosis, el reporte de vigilancia del VIH muestra incremento reciente y deficiencia en la terapia preventiva para TB en este grupo. ¿Qué se espera respecto a la incidencia de coinfección TB-VIH?",
+      "opciones": [
+        "Latente",
+        "Disminuya",
+        "Aumenta",
+        "Indiferente",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La falta de terapia preventiva con isoniacida (TPI) en personas que viven con VIH dentro de áreas endémicas favorece la reactivación y primoinfección acelerada, incrementando directamente la incidencia de coinfección activa TB-VIH.",
+      "comentario": "La falta de terapia preventiva con isoniacida (TPI) en personas que viven con VIH dentro de áreas endémicas favorece la reactivación y primoinfección acelerada, incrementando directamente la incidencia de coinfección activa TB-VIH.",
+      "tema": "Epidemiología de enfermedades transmisibles",
+      "año": 2020
+    },
+    {
+      "id": "SP-015",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente posoperada por embarazo ectópico complicado. Los padres, que aseguran que la menor no tiene vida sexual, preguntan por el diagnóstico. ¿Cuál es la conducta adecuada?",
+      "opciones": [
+        "Cambiar el diagnóstico para evitar conflicto",
+        "Negarse a brindar información",
+        "Derivar al área social",
+        "Informar verazmente el diagnóstico y pronóstico",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La relación médica exige honestidad, veracidad y objetividad con los padres o tutores legales respetando el bienestar de la paciente, informando con precisión el cuadro clínico real y pronóstico.",
+      "comentario": "La relación médica exige honestidad, veracidad y objetividad con los padres o tutores legales respetando el bienestar de la paciente, informando con precisión el cuadro clínico real y pronóstico.",
+      "tema": "Bioética médica",
+      "año": 2020
+    },
+    {
+      "id": "SP-016",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 22 años, conviviente, con dolor orofaríngeo y lesiones equimóticas en brazos y tórax causadas por elementos externos. Examen muestra labilidad emocional y ansiedad. Usted debe sospechar:",
+      "opciones": [
+        "Hemofilia A",
+        "Coagulación intravascular diseminada",
+        "Violencia familiar",
+        "Trombocitopenia inmune",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las equimosis de origen traumático externo asociadas a signos de sofocación cervical/orofaríngea y compromiso emocional reactivo en una mujer conviviente constituyen un cuadro clínico de sospecha directa de violencia familiar o de pareja.",
+      "comentario": "Las equimosis de origen traumático externo asociadas a signos de sofocación cervical/orofaríngea y compromiso emocional reactivo en una mujer conviviente constituyen un cuadro clínico de sospecha directa de violencia familiar o de pareja.",
+      "tema": "Violencia basada en género",
+      "año": 2020
+    },
+    {
+      "id": "SP-017",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 2 años, con cuadros diarreicos a repetición sin deshidratación. Talla/edad < -2 DE. Vive en casa con piso de tierra, sin agua ni desagüe. ¿Cuáles determinantes sociales influyen más en su situación de salud?",
+      "opciones": [
+        "Características de la vivienda y acceso a servicios básicos",
+        "Condiciones de empleo y trabajo de los padres",
+        "Nivel educativo y cultural de la familia",
+        "Ubicación y accesibilidad al centro de salud",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La carencia estructural de saneamiento básico (agua potable intradomiciliaria y red de alcantarillado) y el piso de tierra son determinantes ambientales intermediarios directamente causantes de infecciones entéricas recurrentes y malnutrición crónica en la primera infancia.",
+      "comentario": "La carencia estructural de saneamiento básico (agua potable intradomiciliaria y red de alcantarillado) y el piso de tierra son determinantes ambientales intermediarios directamente causantes de infecciones entéricas recurrentes y malnutrición crónica en la primera infancia.",
+      "tema": "Determinantes sociales de la salud",
+      "año": 2020
+    },
+    {
+      "id": "SP-018",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En un centro de salud se modificó la infraestructura para obtener más consultorios. Seis meses después se reportaron trabajadores del centro con tuberculosis pulmonar. ¿Cuál de las siguientes es la medida de control ambiental que se debe implementar?",
+      "opciones": [
+        "Maximizar la ventilación natural",
+        "Prevención con isoniacida",
+        "Fortalecer estudio de contactos",
+        "Asegurar la disponibilidad de respiradores",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La medida de control de ingeniería o ambiental de mayor eficacia, costo-efectividad y prioridad en los establecimientos de atención ambulatoria para disminuir la concentración de aerosoles bacilíferos es optimizar y maximizar la ventilación natural cruzada.",
+      "comentario": "La medida de control de ingeniería o ambiental de mayor eficacia, costo-efectividad y prioridad en los establecimientos de atención ambulatoria para disminuir la concentración de aerosoles bacilíferos es optimizar y maximizar la ventilación natural cruzada.",
+      "tema": "Bioseguridad y control de infecciones",
+      "año": 2020
+    },
+    {
+      "id": "SP-019",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón procedente de Piura, con tres días de fiebre, cefalea, dolor retro ocular, mialgias y artralgias. Acude a centro de salud en Lima, en cuyo ámbito se ha identificado aumento de mosquitos. ¿Qué medida se debe priorizar para prevenir casos autóctonos?",
+      "opciones": [
+        "Control vectorial",
+        "Vigilancia de migrantes",
+        "Administrar quimioprofilaxis",
+        "Identificar serotipo",
+        "Ceftriaxona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante la introducción de un caso importado de dengue en un área con presencia del vector Aedes aegypti, la intervención fundamental para impedir el establecimiento de transmisión autóctona sostenida es el control vectorial focal y nebulización espacial.",
+      "comentario": "Ante la introducción de un caso importado de dengue en un área con presencia del vector Aedes aegypti, la intervención fundamental para impedir el establecimiento de transmisión autóctona sostenida es el control vectorial focal y nebulización espacial.",
+      "tema": "Vigilancia epidemiológica de arbovirosis",
+      "año": 2020
+    }
+  ]
+}

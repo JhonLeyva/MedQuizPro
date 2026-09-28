@@ -1,0 +1,203 @@
+{
+  "especialidad": "Cardiología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CAR-001",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 64 años, hipertenso y fumador, con dolor torácico opresivo de 2 horas. PA 84/50 mmHg, FC 56 lpm, ingurgitación yugular y campos pulmonares limpios. El ECG muestra elevación del ST en DII, DIII y aVF, y la derivación V4R muestra elevación del ST de 1,5 mm. La hipotensión se acentuó tras administrarle nitroglicerina sublingual. ¿Cuál es la medida inmediata más apropiada mientras se coordina la reperfusión?",
+      "opciones": {
+        "A": "Furosemida 40 mg endovenosa",
+        "B": "Bolo de cristaloides endovenoso con monitoreo hemodinámico",
+        "C": "Nitroglicerina en infusión continua",
+        "D": "Metoprolol endovenoso",
+        "E": "Morfina endovenosa a dosis plena"
+      },
+      "clave_correcta": "B",
+      "comentario": "Infarto inferior con compromiso del ventrículo derecho (ST elevado en V4R): tríada de hipotensión, ingurgitación yugular y pulmones limpios. El VD infartado depende de la precarga, por eso los nitratos, los diuréticos y la morfina (venodilatadores) empeoran la hipotensión. La conducta es expandir volumen con cristaloides mientras se reperfunde de urgencia; los betabloqueadores están contraindicados con hipotensión y bradicardia."
+    },
+    {
+      "id": "CAR-002",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?",
+      "opciones": {
+        "A": "No requiere tratamiento antitrombótico",
+        "B": "Ácido acetilsalicílico 100 mg al día",
+        "C": "Anticoagulación oral",
+        "D": "Doble antiagregación con aspirina y clopidogrel",
+        "E": "Heparina de bajo peso molecular solo durante un mes"
+      },
+      "clave_correcta": "C",
+      "comentario": "Fibrilación auricular no valvular con CHA₂DS₂-VASc de 3 (edad 65-74 años = 1, sexo femenino = 1, hipertensión = 1). Con puntaje ≥ 2 en varones o ≥ 3 en mujeres está indicada la anticoagulación oral (de preferencia un anticoagulante oral directo; warfarina si no hay acceso). La aspirina no tiene indicación para prevenir el ictus en la FA y la doble antiagregación es inferior a la anticoagulación y sangra igual."
+    },
+    {
+      "id": "CAR-003",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Insuficiencia aórtica crónica",
+        "B": "Miocardiopatía hipertrófica obstructiva",
+        "C": "Estenosis aórtica severa",
+        "D": "Insuficiencia mitral",
+        "E": "Comunicación interventricular"
+      },
+      "clave_correcta": "C",
+      "comentario": "Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."
+    },
+    {
+      "id": "CAR-004",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 47 años, en control pre-vacacional, presenta presión arterial de 160/100 mmHg y a los 15 minutos 164/98 mmHg. Asintomático, sin antecedentes importantes. Al examen: choque de punta amplio, sostenido y desplazado a la izquierda. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Dieta hiposódica e hipocalórica",
+        "Administrar antihipertensivo y derivar para estudio",
+        "Programar al mes para realizar nuevo control",
+        "Recomendar ejercicio aeróbico",
+        "Terapia de rehabilitación"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.",
+      "comentario": "Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.",
+      "tema": "Hipertensión arterial",
+      "año": 2020
+    },
+    {
+      "id": "CAR-005",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 15 días de vida con lactancia entrecortada, polipnea y cianosis. Rx de tórax: silueta cardiaca de pedículo estrecho y en \"forma ovoide\", con aumento de flujo sanguíneo pulmonar. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tetralogía de Fallot",
+        "Comunicación interventricular",
+        "Persistencia del conducto arterioso",
+        "Transposición de grandes arterias",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
+      "comentario": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
+      "tema": "Cardiopatías congénitas",
+      "año": 2020
+    },
+    {
+      "id": "CAR-006",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 64 años acude a Emergencia con dolor retroesternal intenso de 2 horas de evolución, fumador crónico, con dislipidemia mixta y sedentarismo. EKG: elevación del ST en derivaciones II, III, aVF. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Angina de pecho",
+        "Disección de aorta",
+        "Infarto de miocardio",
+        "Espasmo esofágico",
+        "Prednisona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).",
+      "comentario": "La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).",
+      "tema": "Síndrome coronario agudo",
+      "año": 2020
+    },
+    {
+      "id": "CAR-007",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, con antecedentes de amigdalitis supurada repetida en adolescencia. Presenta disnea a medianos esfuerzos. Al examen: PA 110/60 mmHg, FC 80x', pulso deficitario, soplo diastólico mitral. ¿Cuál es el fármaco de elección para la prevención de eventos cardioembólicos?",
+      "opciones": [
+        "Digoxina",
+        "Clopidogrel",
+        "Warfarina",
+        "Bisoprolol",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.",
+      "comentario": "La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.",
+      "tema": "Valvulopatías",
+      "año": 2020
+    },
+    {
+      "id": "CAR-008",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 58 años, del sur del Perú, acude por palpitaciones seguidas de síncope. EKG: taquicardia ventricular no sostenida con bloqueo completo de rama derecha. Se sospecha miocardiopatía. ¿Cuál es la primera terapia de elección?",
+      "opciones": [
+        "Propafenona",
+        "Betabloqueadores",
+        "Amiodarona",
+        "Desfibrilador automático",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
+      "comentario": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
+      "tema": "Arritmias ventriculares y Chagas",
+      "año": 2020
+    },
+    {
+      "id": "CAR-009",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 2 horas disnea, palpitaciones, dolor precordial. Ingresa en shock traumático, se le coloca oxígeno por bigotera, presentando pérdida súbita de conciencia, respiración agónica y ausencia de pulso. El monitor cardíaco muestra (ver imagen). ¿Cuál es la primera acción a seguir?",
+      "opciones": [
+        "Ventilación",
+        "Amiodarona",
+        "Desfibrilación",
+        "Masaje cardíaco",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).",
+      "comentario": "Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).",
+      "tema": "Reanimación cardiopulmonar avanzada",
+      "año": 2020
+    },
+    {
+      "id": "CAR-010",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años presenta fiebre continua desde hace 6 semanas. Antecedente de fiebre reumática en la infancia, hace dos meses extracción dentaria. Al examen: soplo sistólico III/VI en foco mitral, hemiparesia izquierda faciobraquiocrural. Lab: VSG 100 mm/h. ¿Cuál sería el examen más adecuado para definir su diagnóstico?",
+      "opciones": [
+        "Ecocardiografía transesofágica",
+        "Electrocardiograma",
+        "RMN encéfalo",
+        "TEM cerebral",
+        "Ecocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.",
+      "comentario": "Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.",
+      "tema": "Endocarditis infecciosa",
+      "año": 2020
+    },
+    {
+      "id": "CAR-011",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 3 semanas refiere disnea a medianos esfuerzos, edema de miembros inferiores, acude a emergencia porque se despierta bruscamente con dificultad para respirar. Al examen: FR 25xmin, P/A 130/90 mmHg, ortopnea, diaforesis, crepitantes tercios medios bilaterales, ruidos cardíacos arrítmicos, ingurgitación yugular, dolor en hipocondrio derecho. ¿Cuál es el tratamiento farmacológico inicial?",
+      "opciones": [
+        "Digitálicos",
+        "Inotrópicos",
+        "Diuréticos",
+        "Vasodilatadores",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.",
+      "comentario": "El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.",
+      "tema": "Insuficiencia cardíaca congestiva",
+      "año": 2020
+    }
+  ]
+}
