@@ -844,20 +844,18 @@
       el.modalBody.innerHTML = "";
       el.modalTitle.textContent = algo && algo.titulo ? algo.titulo : "Algoritmo diagnóstico";
       el.modalSub.textContent = (q.especialidad || "") + (q.id ? " · " + q.id : "");
+      if (visor) { visor.destruir(); visor = null; }
+      el.modal.classList.toggle("algo-modal--visor", !!(algo && algo.imagen));
       if (algo && algo.imagen) {
-        var img = document.createElement("img");
-        img.src = algo.imagen;
-        img.alt = algo.alt || el.modalTitle.textContent;
-        img.className = "algo-modal__img";
-        img.loading = "lazy";
-        img.addEventListener("error", function () {
+        visor = crearVisor(algo.imagen, algo.alt || el.modalTitle.textContent, function (nodo) {
           /* archivo ausente o con otro nombre en flujogramas/: avisa en vez de mostrar una imagen rota */
           var aviso = document.createElement("p");
           aviso.className = "algo-modal__note";
           aviso.textContent = "No se pudo cargar el flujograma (" + algo.imagen + "). Revisa que el archivo exista con ese nombre exacto.";
-          if (img.parentNode) img.parentNode.replaceChild(aviso, img);
+          if (nodo.parentNode) nodo.parentNode.replaceChild(aviso, nodo);
+          if (visor) { visor.destruir(); visor = null; }
         });
-        el.modalBody.appendChild(img);
+        el.modalBody.appendChild(visor.nodo);
       }
       if (algo && algo.pasos && algo.pasos.length) {
         el.modalBody.appendChild(flujograma(algo.pasos));
@@ -902,13 +900,207 @@
     function cerrarAlgoritmo() {
       if (!el.modal) return;
       if (typeof el.modal.close === "function") el.modal.close(); else el.modal.removeAttribute("open");
+      if (visor) visor.reiniciar(false);
       if (el.algo) el.algo.focus();
+    }
+
+    /* ----- visor con zoom y desplazamiento para los flujogramas en imagen -----
+       Rueda del ratón, arrastre, pellizco (dos dedos), doble clic y botones + − ↺ ⛶.
+       La imagen vive en un "escenario" con transform translate + scale (origen arriba a la
+       izquierda); el contenedor tiene overflow: hidden y el desplazamiento se limita para que
+       la imagen nunca deje huecos dentro del marco. */
+    var visor = null;
+    var ZOOM_MIN = 1, ZOOM_MAX = 4, PASO_BOTON = 1.5;
+    function crearVisor(src, alt, alFallar) {
+      var ICO = {
+        mas: '<path d="M12 5v14M5 12h14"/>',
+        menos: '<path d="M5 12h14"/>',
+        reset: '<path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4.5h4.5"/>',
+        abrir: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>'
+      };
+      function boton(clave, etiqueta) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "algo-zoom__btn";
+        b.setAttribute("aria-label", etiqueta);
+        b.title = etiqueta;
+        b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICO[clave] + "</svg>";
+        return b;
+      }
+      var caja = document.createElement("div");
+      caja.className = "algo-zoom";
+      var marco = document.createElement("div");
+      marco.className = "algo-zoom__frame";
+      var escena = document.createElement("div");
+      escena.className = "algo-zoom__stage";
+      var img = document.createElement("img");
+      img.src = src;
+      img.alt = alt;
+      img.className = "algo-modal__img";
+      img.draggable = false;
+      escena.appendChild(img);
+      marco.appendChild(escena);
+
+      var barra = document.createElement("div");
+      barra.className = "algo-zoom__tools";
+      barra.setAttribute("role", "toolbar");
+      barra.setAttribute("aria-label", "Zoom del flujograma");
+      var bMenos = boton("menos", "Alejar"), bMas = boton("mas", "Acercar");
+      var bReset = boton("reset", "Restablecer zoom"), bAbrir = boton("abrir", "Abrir imagen completa en una pestaña nueva");
+      var nivel = document.createElement("span");
+      nivel.className = "algo-zoom__level";
+      nivel.setAttribute("aria-live", "polite");
+      barra.appendChild(bMenos); barra.appendChild(nivel); barra.appendChild(bMas); barra.appendChild(bReset); barra.appendChild(bAbrir);
+      marco.appendChild(barra);
+
+      var ayuda = document.createElement("p");
+      ayuda.className = "algo-zoom__hint";
+      ayuda.textContent = "Rueda del ratón o pellizco para ampliar · arrastra para moverte · doble clic para acercar o volver";
+      caja.appendChild(marco);
+      caja.appendChild(ayuda);
+
+      var z = { s: 1, x: 0, y: 0 };
+      var punteros = {}, arrastre = null, pellizco = null, animarHasta = 0;
+
+      function medidas() { return { w: marco.clientWidth, h: marco.clientHeight }; }
+      function limitar() {
+        var m = medidas();
+        z.s = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z.s));
+        z.x = Math.min(0, Math.max(m.w - m.w * z.s, z.x));
+        z.y = Math.min(0, Math.max(m.h - m.h * z.s, z.y));
+      }
+      function pintar(animado) {
+        limitar();
+        escena.classList.toggle("is-animating", !!animado && !reduced);
+        if (animado) { animarHasta = Date.now() + 200; setTimeout(function () { if (Date.now() >= animarHasta) escena.classList.remove("is-animating"); }, 210); }
+        escena.style.transform = "translate(" + z.x.toFixed(2) + "px," + z.y.toFixed(2) + "px) scale(" + z.s.toFixed(4) + ")";
+        var ampliado = z.s > 1.001;
+        caja.classList.toggle("is-zoomed", ampliado);
+        nivel.textContent = Math.round(z.s * 100) + "%";
+        bMenos.disabled = !ampliado;
+        bReset.disabled = !ampliado && z.x === 0 && z.y === 0;
+        bMas.disabled = z.s >= ZOOM_MAX - 0.001;
+      }
+      /* acerca o aleja manteniendo fijo el punto (cx, cy) del marco */
+      function zoomEn(nueva, cx, cy, animado) {
+        nueva = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, nueva));
+        var k = nueva / z.s;
+        z.x = cx - (cx - z.x) * k;
+        z.y = cy - (cy - z.y) * k;
+        z.s = nueva;
+        pintar(animado);
+      }
+      function centro() { var m = medidas(); return { x: m.w / 2, y: m.h / 2 }; }
+      function local(ev) { var r = marco.getBoundingClientRect(); return { x: ev.clientX - r.left, y: ev.clientY - r.top }; }
+      function reiniciar(animado) { z.s = 1; z.x = 0; z.y = 0; punteros = {}; arrastre = pellizco = null; caja.classList.remove("is-dragging"); pintar(animado); }
+
+      bMas.addEventListener("click", function () { var c = centro(); zoomEn(z.s * PASO_BOTON, c.x, c.y, true); });
+      bMenos.addEventListener("click", function () { var c = centro(); zoomEn(z.s / PASO_BOTON, c.x, c.y, true); });
+      bReset.addEventListener("click", function () { reiniciar(true); });
+      bAbrir.addEventListener("click", function () {
+        var w = window.open(img.currentSrc || img.src, "_blank", "noopener");
+        if (w) w.opener = null;
+      });
+
+      marco.addEventListener("wheel", function (ev) {
+        var dy = ev.deltaMode === 1 ? ev.deltaY * 16 : ev.deltaMode === 2 ? ev.deltaY * marco.clientHeight : ev.deltaY;
+        /* en 100% y alejando, deja que el modal haga scroll normal */
+        if (z.s <= ZOOM_MIN && dy > 0) return;
+        ev.preventDefault();
+        var p = local(ev);
+        zoomEn(z.s * Math.exp(-dy * 0.0022), p.x, p.y, false);
+      }, { passive: false });
+
+      function distancia(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
+      function medio(a, b) { return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; }
+      function iniciarGesto() {
+        var ids = Object.keys(punteros);
+        if (ids.length >= 2) {
+          var a = punteros[ids[0]], b = punteros[ids[1]];
+          pellizco = { d: distancia(a, b) || 1, s: z.s, m: medio(a, b), x: z.x, y: z.y };
+          arrastre = null;
+        } else if (ids.length === 1) {
+          var p = punteros[ids[0]];
+          pellizco = null;
+          arrastre = { px: p.x, py: p.y, x: z.x, y: z.y };
+        } else {
+          pellizco = arrastre = null;
+        }
+        caja.classList.toggle("is-dragging", !!arrastre && z.s > 1.001);
+      }
+      marco.addEventListener("pointerdown", function (ev) {
+        if (ev.target.closest && ev.target.closest(".algo-zoom__tools")) return;
+        if (ev.pointerType === "mouse" && ev.button !== 0) return;
+        punteros[ev.pointerId] = local(ev);
+        try { marco.setPointerCapture(ev.pointerId); } catch (e) {}
+        iniciarGesto();
+      });
+      marco.addEventListener("pointermove", function (ev) {
+        if (!punteros[ev.pointerId]) return;
+        punteros[ev.pointerId] = local(ev);
+        var ids = Object.keys(punteros);
+        if (pellizco && ids.length >= 2) {
+          ev.preventDefault();
+          var a = punteros[ids[0]], b = punteros[ids[1]], m = medio(a, b);
+          var nueva = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, pellizco.s * distancia(a, b) / pellizco.d));
+          var k = nueva / pellizco.s;
+          /* el punto que estaba bajo el centro del pellizco sigue bajo los dedos */
+          z.x = m.x - (pellizco.m.x - pellizco.x) * k;
+          z.y = m.y - (pellizco.m.y - pellizco.y) * k;
+          z.s = nueva;
+          pintar(false);
+        } else if (arrastre && z.s > 1.001) {
+          ev.preventDefault();
+          var p = punteros[ev.pointerId];
+          z.x = arrastre.x + (p.x - arrastre.px);
+          z.y = arrastre.y + (p.y - arrastre.py);
+          pintar(false);
+        }
+      });
+      function soltar(ev) {
+        if (!punteros[ev.pointerId]) return;
+        delete punteros[ev.pointerId];
+        iniciarGesto();
+      }
+      marco.addEventListener("pointerup", soltar);
+      marco.addEventListener("pointercancel", soltar);
+      marco.addEventListener("dblclick", function (ev) {
+        if (ev.target.closest && ev.target.closest(".algo-zoom__tools")) return;
+        var p = local(ev);
+        if (z.s > 1.001) reiniciar(true); else zoomEn(2.5, p.x, p.y, true);
+      });
+
+      function alTeclado(ev) {
+        if (!el.modal.open || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+        var c = centro();
+        if (ev.key === "+" || ev.key === "=") { ev.preventDefault(); zoomEn(z.s * PASO_BOTON, c.x, c.y, true); }
+        else if (ev.key === "-" || ev.key === "_") { ev.preventDefault(); zoomEn(z.s / PASO_BOTON, c.x, c.y, true); }
+        else if (ev.key === "0") { ev.preventDefault(); reiniciar(true); }
+      }
+      el.modal.addEventListener("keydown", alTeclado);
+      function alRedimensionar() { pintar(false); }
+      window.addEventListener("resize", alRedimensionar);
+
+      img.addEventListener("error", function () { alFallar(caja); });
+      img.addEventListener("load", function () { reiniciar(false); });
+      pintar(false);
+
+      return {
+        nodo: caja,
+        reiniciar: reiniciar,
+        destruir: function () {
+          el.modal.removeEventListener("keydown", alTeclado);
+          window.removeEventListener("resize", alRedimensionar);
+        }
+      };
     }
     if (el.algo) el.algo.addEventListener("click", abrirAlgoritmo);
     if (el.modalClose) el.modalClose.addEventListener("click", cerrarAlgoritmo);
     if (el.modal) el.modal.addEventListener("click", function (ev) {
       if (ev.target === el.modal) cerrarAlgoritmo();   // clic fuera del panel
     });
+    /* Esc también cierra el <dialog>: el zoom vuelve a 100 % en cualquier caso */
+    if (el.modal) el.modal.addEventListener("close", function () { if (visor) visor.reiniciar(false); });
 
     /* ===== enganche con el motor ===== */
     vista.addEventListener("mqp:pregunta", function (ev) {

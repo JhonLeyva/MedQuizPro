@@ -1274,6 +1274,47 @@ a { color: var(--brand-strong); text-decoration-thickness: 1px; text-underline-o
 .algo-modal__note { margin-top: 16px; padding: 12px 14px; border-radius: 12px; background: var(--brand-tint); border: 1px solid color-mix(in srgb, var(--brand) 18%, transparent); font-size: .9rem; color: var(--ink-2); }
 .algo-empty .algo-modal__note { background: var(--surface-2); border-color: var(--line); color: var(--ink-3); }
 
+/* visor con zoom y desplazamiento (flujogramas en imagen) */
+.algo-modal.algo-modal--visor { width: min(1040px, calc(100vw - 32px)); max-height: min(92vh, 920px); }
+.algo-modal--visor .algo-modal__body { padding: 16px 18px 14px; }
+.algo-zoom__frame {
+  position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius);
+  background: #ffffff; touch-action: none; cursor: zoom-in;
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
+.algo-zoom.is-zoomed .algo-zoom__frame { cursor: grab; }
+.algo-zoom.is-dragging .algo-zoom__frame { cursor: grabbing; }
+.algo-zoom__stage { transform-origin: 0 0; }
+.algo-zoom__stage.is-animating { transition: transform .2s var(--ease); }
+.algo-zoom .algo-modal__img { border: 0; border-radius: 0; pointer-events: none; -webkit-user-drag: none; }
+.algo-zoom__tools {
+  position: absolute; top: 10px; right: 10px; z-index: 2; display: flex; align-items: center; gap: 2px; padding: 4px;
+  border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--surface) 90%, transparent);
+  box-shadow: var(--shadow-md); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); cursor: default;
+}
+.algo-zoom__btn {
+  display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 8px;
+  background: transparent; color: var(--ink-2); cursor: pointer; transition: background .15s, color .15s;
+}
+.algo-zoom__btn svg { width: 18px; height: 18px; }
+.algo-zoom__btn:hover:not(:disabled) { background: var(--surface-2); color: var(--brand); }
+.algo-zoom__btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px; }
+.algo-zoom__btn:disabled { opacity: .35; cursor: default; }
+.algo-zoom__level { min-width: 44px; text-align: center; font-size: .75rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--ink-3); }
+.algo-zoom__hint { margin-top: 8px; text-align: center; font-size: .78rem; color: var(--ink-3); }
+@media (max-width: 640px) {
+  .algo-modal.algo-modal--visor { width: calc(100vw - 16px); max-height: 94vh; }
+  .algo-modal--visor .algo-modal__body { padding: 10px; }
+  .algo-zoom__tools { top: 6px; right: 6px; }
+  .algo-zoom__btn { width: 30px; height: 30px; }
+  .algo-zoom__level { min-width: 38px; }
+}
+@media (hover: none) {
+  .algo-zoom__hint::before { content: "Pellizca con dos dedos para ampliar · arrastra para moverte"; }
+  .algo-zoom__hint { font-size: 0; }
+  .algo-zoom__hint::before { font-size: .78rem; }
+}
+
 /* flujograma en HTML */
 .flow-chart { list-style: none; margin: 0; padding: 0; display: grid; justify-items: center; gap: 26px; counter-reset: paso; }
 .flow-chart__node {
@@ -1331,6 +1372,7 @@ kbd {
 @media (prefers-reduced-motion: reduce) {
   .pace__fill { transition: none; }
   .algo-modal[open] { animation: none; }
+  .algo-zoom__stage.is-animating { transition: none; }
 }
 
 /* ---------- barra fija móvil ---------- */
@@ -2893,6 +2935,232 @@ window.MQP_ALGORITMOS = {
     titulo: "Metrorragia del primer trimestre: ecografía transvaginal",
     imagen: "flujogramas/metrorragia-primer-trimestre-ecografia-transvaginal.svg",
     alt: "Flujograma de estudio del sangrado del primer trimestre con ecografía transvaginal"
+  },
+
+  /* ---------- ENAM 2020 · bloque 2 (preguntas pendientes) ---------- */
+
+  "CAR-007": {
+    titulo: "Estenosis mitral reumática y fibrilación auricular",
+    imagen: "flujogramas/estenosis-mitral-fibrilacion-auricular-warfarina.svg",
+    alt: "Flujograma: estenosis mitral reumática y fibrilación auricular"
+  },
+  "CAR-008": {
+    titulo: "Miocardiopatía chagásica y arritmias",
+    imagen: "flujogramas/miocardiopatia-chagasica-taquicardia-ventricular-amiodarona.svg",
+    alt: "Flujograma: miocardiopatía chagásica y arritmias"
+  },
+  "CIR-009": {
+    titulo: "Isquemia arterial aguda: clasificación de Rutherford",
+    imagen: "flujogramas/isquemia-arterial-aguda-rutherford-amputacion.svg",
+    alt: "Flujograma: isquemia arterial aguda: clasificación de Rutherford"
+  },
+  "CIR-010": {
+    titulo: "Complicaciones de la hernioplastia inguinal",
+    imagen: "flujogramas/orquitis-isquemica-post-hernioplastia.svg",
+    alt: "Flujograma: complicaciones de la hernioplastia inguinal"
+  },
+  "CIR-011": {
+    titulo: "Trauma abdominal cerrado",
+    imagen: "flujogramas/trauma-abdominal-cerrado-fast.svg",
+    alt: "Flujograma: trauma abdominal cerrado"
+  },
+  "CIR-012": {
+    titulo: "Fístula perianal",
+    imagen: "flujogramas/fistula-perianal-goodsall.svg",
+    alt: "Flujograma: fístula perianal"
+  },
+  "GAS-006": {
+    titulo: "Hemorragia digestiva alta por úlcera péptica",
+    imagen: "flujogramas/hemorragia-digestiva-alta-ulcera-peptica.svg",
+    alt: "Flujograma: hemorragia digestiva alta por úlcera péptica"
+  },
+  "GAS-007": {
+    titulo: "Hemorragia por várices esofágicas",
+    imagen: "flujogramas/hemorragia-variceal-hipertension-portal.svg",
+    alt: "Flujograma: hemorragia por várices esofágicas"
+  },
+  "GIN-014": {
+    titulo: "Hemorragia de la primera mitad del embarazo",
+    imagen: "flujogramas/amenaza-de-aborto-primer-trimestre.svg",
+    alt: "Flujograma: hemorragia de la primera mitad del embarazo"
+  },
+  "GIN-015": {
+    titulo: "Miomatosis uterina submucosa",
+    imagen: "flujogramas/mioma-submucoso-miomectomia-histeroscopica.svg",
+    alt: "Flujograma: miomatosis uterina submucosa"
+  },
+  "INF-006": {
+    titulo: "Leishmaniasis cutánea",
+    imagen: "flujogramas/leishmaniasis-cutanea-antimonial-pentavalente.svg",
+    alt: "Flujograma: leishmaniasis cutánea"
+  },
+  "INF-007": {
+    titulo: "Malaria: diagnóstico y gravedad",
+    imagen: "flujogramas/malaria-diagnostico-gravedad-amazonia.svg",
+    alt: "Flujograma: malaria: diagnóstico y gravedad"
+  },
+  "NEF-005": {
+    titulo: "Síndrome nefrótico vs. nefrítico",
+    imagen: "flujogramas/sindrome-nefrotico-pediatrico-cambios-minimos.svg",
+    alt: "Flujograma: síndrome nefrótico vs. nefrítico"
+  },
+  "NEF-006": {
+    titulo: "Rabdomiólisis por aplastamiento",
+    imagen: "flujogramas/rabdomiolisis-aplastamiento-lesion-renal.svg",
+    alt: "Flujograma: rabdomiólisis por aplastamiento"
+  },
+  "NEF-007": {
+    titulo: "Síndrome nefrótico del adulto",
+    imagen: "flujogramas/sindrome-nefrotico-adulto-proteinuria.svg",
+    alt: "Flujograma: síndrome nefrótico del adulto"
+  },
+  "NEU-003": {
+    titulo: "Asma: escalonamiento del tratamiento",
+    imagen: "flujogramas/asma-escalonamiento-corticoide-inhalado.svg",
+    alt: "Flujograma: asma: escalonamiento del tratamiento"
+  },
+  "OFT-004": {
+    titulo: "Epistaxis posterior",
+    imagen: "flujogramas/epistaxis-posterior-taponamiento.svg",
+    alt: "Flujograma: epistaxis posterior"
+  },
+  "PED-018": {
+    titulo: "Giardiasis",
+    imagen: "flujogramas/giardiasis-diarrea-cronica-escolar.svg",
+    alt: "Flujograma: giardiasis"
+  },
+  "PED-019": {
+    titulo: "Atresia intestinal",
+    imagen: "flujogramas/atresia-intestinal-prematuros.svg",
+    alt: "Flujograma: atresia intestinal"
+  },
+  "PED-020": {
+    titulo: "Meningitis neonatal",
+    imagen: "flujogramas/meningitis-neonatal-sepsis-temprana.svg",
+    alt: "Flujograma: meningitis neonatal"
+  },
+  "PED-021": {
+    titulo: "Conjuntivitis neonatal",
+    imagen: "flujogramas/conjuntivitis-neonatal-gonococica.svg",
+    alt: "Flujograma: conjuntivitis neonatal"
+  },
+  "PSI-004": {
+    titulo: "Intoxicación por benzodiacepinas",
+    imagen: "flujogramas/intoxicacion-benzodiacepinas-flumazenilo.svg",
+    alt: "Flujograma: intoxicación por benzodiacepinas"
+  },
+  "PSI-005": {
+    titulo: "Conducta suicida: clasificación",
+    imagen: "flujogramas/gesto-suicida-conducta-suicida.svg",
+    alt: "Flujograma: conducta suicida: clasificación"
+  },
+  "SP-014": {
+    titulo: "Coinfección TB-VIH",
+    imagen: "flujogramas/coinfeccion-tb-vih-terapia-preventiva.svg",
+    alt: "Flujograma: coinfección TB-VIH"
+  },
+  "SP-015": {
+    titulo: "Veracidad en la relación médico-paciente",
+    imagen: "flujogramas/veracidad-informacion-adolescente-bioetica.svg",
+    alt: "Flujograma: veracidad en la relación médico-paciente"
+  },
+  "SP-016": {
+    titulo: "Violencia contra la mujer",
+    imagen: "flujogramas/violencia-familiar-ley-30364.svg",
+    alt: "Flujograma: violencia contra la mujer"
+  },
+
+  /* ---------- Casos de práctica (preguntas tipo) ---------- */
+
+  "CAR-002": {
+    titulo: "Fibrilación auricular no valvular",
+    imagen: "flujogramas/fibrilacion-auricular-no-valvular-anticoagulacion.svg",
+    alt: "Flujograma: fibrilación auricular no valvular"
+  },
+  "CAR-003": {
+    titulo: "Soplos sistólicos: estenosis aórtica",
+    imagen: "flujogramas/estenosis-aortica-severa-sincope.svg",
+    alt: "Flujograma: soplos sistólicos: estenosis aórtica"
+  },
+  "CB-001": {
+    titulo: "Fenilcetonuria",
+    imagen: "flujogramas/fenilcetonuria-fenilalanina-hidroxilasa.svg",
+    alt: "Flujograma: fenilcetonuria"
+  },
+  "CIR-001": {
+    titulo: "Apendicitis aguda",
+    imagen: "flujogramas/apendicitis-aguda-apendicectomia.svg",
+    alt: "Flujograma: apendicitis aguda"
+  },
+  "END-001": {
+    titulo: "Cetoacidosis diabética",
+    imagen: "flujogramas/cetoacidosis-diabetica-hidratacion.svg",
+    alt: "Flujograma: cetoacidosis diabética"
+  },
+  "GAS-001": {
+    titulo: "Sangrado variceal: tratamiento inicial",
+    imagen: "flujogramas/hemorragia-variceal-vasoactivos.svg",
+    alt: "Flujograma: sangrado variceal: tratamiento inicial"
+  },
+  "GIN-001": {
+    titulo: "Hemorragia posparto por atonía uterina",
+    imagen: "flujogramas/hemorragia-posparto-atonia-oxitocina.svg",
+    alt: "Flujograma: hemorragia posparto por atonía uterina"
+  },
+  "HEM-001": {
+    titulo: "Anemia microcítica",
+    imagen: "flujogramas/anemia-microcitica-ferritina.svg",
+    alt: "Flujograma: anemia microcítica"
+  },
+  "INF-001": {
+    titulo: "Malaria por Plasmodium vivax",
+    imagen: "flujogramas/malaria-vivax-cloroquina-primaquina.svg",
+    alt: "Flujograma: malaria por Plasmodium vivax"
+  },
+  "NEF-001": {
+    titulo: "Hiperpotasemia con cambios en el ECG",
+    imagen: "flujogramas/hiperpotasemia-gluconato-de-calcio.svg",
+    alt: "Flujograma: hiperpotasemia con cambios en el ECG"
+  },
+  "NEU-001": {
+    titulo: "Tuberculosis pleural",
+    imagen: "flujogramas/tuberculosis-pleural-ada.svg",
+    alt: "Flujograma: tuberculosis pleural"
+  },
+  "NRL-001": {
+    titulo: "Ictus agudo: primer examen",
+    imagen: "flujogramas/acv-agudo-tomografia-sin-contraste.svg",
+    alt: "Flujograma: ictus agudo: primer examen"
+  },
+  "OFT-001": {
+    titulo: "Glaucoma agudo de ángulo cerrado",
+    imagen: "flujogramas/glaucoma-agudo-angulo-cerrado.svg",
+    alt: "Flujograma: glaucoma agudo de ángulo cerrado"
+  },
+  "PED-001": {
+    titulo: "Ictericia neonatal",
+    imagen: "flujogramas/ictericia-neonatal-incompatibilidad-abo.svg",
+    alt: "Flujograma: ictericia neonatal"
+  },
+  "PSI-001": {
+    titulo: "Episodio depresivo mayor",
+    imagen: "flujogramas/depresion-mayor-isrs.svg",
+    alt: "Flujograma: episodio depresivo mayor"
+  },
+  "REU-001": {
+    titulo: "Artritis por cristales",
+    imagen: "flujogramas/gota-cristales-urato-monosodico.svg",
+    alt: "Flujograma: artritis por cristales"
+  },
+  "SP-001": {
+    titulo: "Validez de una prueba diagnóstica",
+    imagen: "flujogramas/sensibilidad-especificidad-tabla-2x2.svg",
+    alt: "Flujograma: validez de una prueba diagnóstica"
+  },
+  "TRA-001": {
+    titulo: "Fractura de escafoides",
+    imagen: "flujogramas/fractura-escafoides-tabaquera-anatomica.svg",
+    alt: "Flujograma: fractura de escafoides"
   }
 };
 /* MedQuizPlus — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
@@ -3741,20 +4009,18 @@ window.MQP_ALGORITMOS = {
       el.modalBody.innerHTML = "";
       el.modalTitle.textContent = algo && algo.titulo ? algo.titulo : "Algoritmo diagnóstico";
       el.modalSub.textContent = (q.especialidad || "") + (q.id ? " · " + q.id : "");
+      if (visor) { visor.destruir(); visor = null; }
+      el.modal.classList.toggle("algo-modal--visor", !!(algo && algo.imagen));
       if (algo && algo.imagen) {
-        var img = document.createElement("img");
-        img.src = algo.imagen;
-        img.alt = algo.alt || el.modalTitle.textContent;
-        img.className = "algo-modal__img";
-        img.loading = "lazy";
-        img.addEventListener("error", function () {
+        visor = crearVisor(algo.imagen, algo.alt || el.modalTitle.textContent, function (nodo) {
           /* archivo ausente o con otro nombre en flujogramas/: avisa en vez de mostrar una imagen rota */
           var aviso = document.createElement("p");
           aviso.className = "algo-modal__note";
           aviso.textContent = "No se pudo cargar el flujograma (" + algo.imagen + "). Revisa que el archivo exista con ese nombre exacto.";
-          if (img.parentNode) img.parentNode.replaceChild(aviso, img);
+          if (nodo.parentNode) nodo.parentNode.replaceChild(aviso, nodo);
+          if (visor) { visor.destruir(); visor = null; }
         });
-        el.modalBody.appendChild(img);
+        el.modalBody.appendChild(visor.nodo);
       }
       if (algo && algo.pasos && algo.pasos.length) {
         el.modalBody.appendChild(flujograma(algo.pasos));
@@ -3799,13 +4065,207 @@ window.MQP_ALGORITMOS = {
     function cerrarAlgoritmo() {
       if (!el.modal) return;
       if (typeof el.modal.close === "function") el.modal.close(); else el.modal.removeAttribute("open");
+      if (visor) visor.reiniciar(false);
       if (el.algo) el.algo.focus();
+    }
+
+    /* ----- visor con zoom y desplazamiento para los flujogramas en imagen -----
+       Rueda del ratón, arrastre, pellizco (dos dedos), doble clic y botones + − ↺ ⛶.
+       La imagen vive en un "escenario" con transform translate + scale (origen arriba a la
+       izquierda); el contenedor tiene overflow: hidden y el desplazamiento se limita para que
+       la imagen nunca deje huecos dentro del marco. */
+    var visor = null;
+    var ZOOM_MIN = 1, ZOOM_MAX = 4, PASO_BOTON = 1.5;
+    function crearVisor(src, alt, alFallar) {
+      var ICO = {
+        mas: '<path d="M12 5v14M5 12h14"/>',
+        menos: '<path d="M5 12h14"/>',
+        reset: '<path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4.5h4.5"/>',
+        abrir: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>'
+      };
+      function boton(clave, etiqueta) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "algo-zoom__btn";
+        b.setAttribute("aria-label", etiqueta);
+        b.title = etiqueta;
+        b.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICO[clave] + "</svg>";
+        return b;
+      }
+      var caja = document.createElement("div");
+      caja.className = "algo-zoom";
+      var marco = document.createElement("div");
+      marco.className = "algo-zoom__frame";
+      var escena = document.createElement("div");
+      escena.className = "algo-zoom__stage";
+      var img = document.createElement("img");
+      img.src = src;
+      img.alt = alt;
+      img.className = "algo-modal__img";
+      img.draggable = false;
+      escena.appendChild(img);
+      marco.appendChild(escena);
+
+      var barra = document.createElement("div");
+      barra.className = "algo-zoom__tools";
+      barra.setAttribute("role", "toolbar");
+      barra.setAttribute("aria-label", "Zoom del flujograma");
+      var bMenos = boton("menos", "Alejar"), bMas = boton("mas", "Acercar");
+      var bReset = boton("reset", "Restablecer zoom"), bAbrir = boton("abrir", "Abrir imagen completa en una pestaña nueva");
+      var nivel = document.createElement("span");
+      nivel.className = "algo-zoom__level";
+      nivel.setAttribute("aria-live", "polite");
+      barra.appendChild(bMenos); barra.appendChild(nivel); barra.appendChild(bMas); barra.appendChild(bReset); barra.appendChild(bAbrir);
+      marco.appendChild(barra);
+
+      var ayuda = document.createElement("p");
+      ayuda.className = "algo-zoom__hint";
+      ayuda.textContent = "Rueda del ratón o pellizco para ampliar · arrastra para moverte · doble clic para acercar o volver";
+      caja.appendChild(marco);
+      caja.appendChild(ayuda);
+
+      var z = { s: 1, x: 0, y: 0 };
+      var punteros = {}, arrastre = null, pellizco = null, animarHasta = 0;
+
+      function medidas() { return { w: marco.clientWidth, h: marco.clientHeight }; }
+      function limitar() {
+        var m = medidas();
+        z.s = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z.s));
+        z.x = Math.min(0, Math.max(m.w - m.w * z.s, z.x));
+        z.y = Math.min(0, Math.max(m.h - m.h * z.s, z.y));
+      }
+      function pintar(animado) {
+        limitar();
+        escena.classList.toggle("is-animating", !!animado && !reduced);
+        if (animado) { animarHasta = Date.now() + 200; setTimeout(function () { if (Date.now() >= animarHasta) escena.classList.remove("is-animating"); }, 210); }
+        escena.style.transform = "translate(" + z.x.toFixed(2) + "px," + z.y.toFixed(2) + "px) scale(" + z.s.toFixed(4) + ")";
+        var ampliado = z.s > 1.001;
+        caja.classList.toggle("is-zoomed", ampliado);
+        nivel.textContent = Math.round(z.s * 100) + "%";
+        bMenos.disabled = !ampliado;
+        bReset.disabled = !ampliado && z.x === 0 && z.y === 0;
+        bMas.disabled = z.s >= ZOOM_MAX - 0.001;
+      }
+      /* acerca o aleja manteniendo fijo el punto (cx, cy) del marco */
+      function zoomEn(nueva, cx, cy, animado) {
+        nueva = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, nueva));
+        var k = nueva / z.s;
+        z.x = cx - (cx - z.x) * k;
+        z.y = cy - (cy - z.y) * k;
+        z.s = nueva;
+        pintar(animado);
+      }
+      function centro() { var m = medidas(); return { x: m.w / 2, y: m.h / 2 }; }
+      function local(ev) { var r = marco.getBoundingClientRect(); return { x: ev.clientX - r.left, y: ev.clientY - r.top }; }
+      function reiniciar(animado) { z.s = 1; z.x = 0; z.y = 0; punteros = {}; arrastre = pellizco = null; caja.classList.remove("is-dragging"); pintar(animado); }
+
+      bMas.addEventListener("click", function () { var c = centro(); zoomEn(z.s * PASO_BOTON, c.x, c.y, true); });
+      bMenos.addEventListener("click", function () { var c = centro(); zoomEn(z.s / PASO_BOTON, c.x, c.y, true); });
+      bReset.addEventListener("click", function () { reiniciar(true); });
+      bAbrir.addEventListener("click", function () {
+        var w = window.open(img.currentSrc || img.src, "_blank", "noopener");
+        if (w) w.opener = null;
+      });
+
+      marco.addEventListener("wheel", function (ev) {
+        var dy = ev.deltaMode === 1 ? ev.deltaY * 16 : ev.deltaMode === 2 ? ev.deltaY * marco.clientHeight : ev.deltaY;
+        /* en 100% y alejando, deja que el modal haga scroll normal */
+        if (z.s <= ZOOM_MIN && dy > 0) return;
+        ev.preventDefault();
+        var p = local(ev);
+        zoomEn(z.s * Math.exp(-dy * 0.0022), p.x, p.y, false);
+      }, { passive: false });
+
+      function distancia(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
+      function medio(a, b) { return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; }
+      function iniciarGesto() {
+        var ids = Object.keys(punteros);
+        if (ids.length >= 2) {
+          var a = punteros[ids[0]], b = punteros[ids[1]];
+          pellizco = { d: distancia(a, b) || 1, s: z.s, m: medio(a, b), x: z.x, y: z.y };
+          arrastre = null;
+        } else if (ids.length === 1) {
+          var p = punteros[ids[0]];
+          pellizco = null;
+          arrastre = { px: p.x, py: p.y, x: z.x, y: z.y };
+        } else {
+          pellizco = arrastre = null;
+        }
+        caja.classList.toggle("is-dragging", !!arrastre && z.s > 1.001);
+      }
+      marco.addEventListener("pointerdown", function (ev) {
+        if (ev.target.closest && ev.target.closest(".algo-zoom__tools")) return;
+        if (ev.pointerType === "mouse" && ev.button !== 0) return;
+        punteros[ev.pointerId] = local(ev);
+        try { marco.setPointerCapture(ev.pointerId); } catch (e) {}
+        iniciarGesto();
+      });
+      marco.addEventListener("pointermove", function (ev) {
+        if (!punteros[ev.pointerId]) return;
+        punteros[ev.pointerId] = local(ev);
+        var ids = Object.keys(punteros);
+        if (pellizco && ids.length >= 2) {
+          ev.preventDefault();
+          var a = punteros[ids[0]], b = punteros[ids[1]], m = medio(a, b);
+          var nueva = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, pellizco.s * distancia(a, b) / pellizco.d));
+          var k = nueva / pellizco.s;
+          /* el punto que estaba bajo el centro del pellizco sigue bajo los dedos */
+          z.x = m.x - (pellizco.m.x - pellizco.x) * k;
+          z.y = m.y - (pellizco.m.y - pellizco.y) * k;
+          z.s = nueva;
+          pintar(false);
+        } else if (arrastre && z.s > 1.001) {
+          ev.preventDefault();
+          var p = punteros[ev.pointerId];
+          z.x = arrastre.x + (p.x - arrastre.px);
+          z.y = arrastre.y + (p.y - arrastre.py);
+          pintar(false);
+        }
+      });
+      function soltar(ev) {
+        if (!punteros[ev.pointerId]) return;
+        delete punteros[ev.pointerId];
+        iniciarGesto();
+      }
+      marco.addEventListener("pointerup", soltar);
+      marco.addEventListener("pointercancel", soltar);
+      marco.addEventListener("dblclick", function (ev) {
+        if (ev.target.closest && ev.target.closest(".algo-zoom__tools")) return;
+        var p = local(ev);
+        if (z.s > 1.001) reiniciar(true); else zoomEn(2.5, p.x, p.y, true);
+      });
+
+      function alTeclado(ev) {
+        if (!el.modal.open || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+        var c = centro();
+        if (ev.key === "+" || ev.key === "=") { ev.preventDefault(); zoomEn(z.s * PASO_BOTON, c.x, c.y, true); }
+        else if (ev.key === "-" || ev.key === "_") { ev.preventDefault(); zoomEn(z.s / PASO_BOTON, c.x, c.y, true); }
+        else if (ev.key === "0") { ev.preventDefault(); reiniciar(true); }
+      }
+      el.modal.addEventListener("keydown", alTeclado);
+      function alRedimensionar() { pintar(false); }
+      window.addEventListener("resize", alRedimensionar);
+
+      img.addEventListener("error", function () { alFallar(caja); });
+      img.addEventListener("load", function () { reiniciar(false); });
+      pintar(false);
+
+      return {
+        nodo: caja,
+        reiniciar: reiniciar,
+        destruir: function () {
+          el.modal.removeEventListener("keydown", alTeclado);
+          window.removeEventListener("resize", alRedimensionar);
+        }
+      };
     }
     if (el.algo) el.algo.addEventListener("click", abrirAlgoritmo);
     if (el.modalClose) el.modalClose.addEventListener("click", cerrarAlgoritmo);
     if (el.modal) el.modal.addEventListener("click", function (ev) {
       if (ev.target === el.modal) cerrarAlgoritmo();   // clic fuera del panel
     });
+    /* Esc también cierra el <dialog>: el zoom vuelve a 100 % en cualquier caso */
+    if (el.modal) el.modal.addEventListener("close", function () { if (visor) visor.reiniciar(false); });
 
     /* ===== enganche con el motor ===== */
     vista.addEventListener("mqp:pregunta", function (ev) {
