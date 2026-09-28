@@ -845,5 +845,98 @@ window.MQP_ALGORITMOS = {
     titulo: "Violencia contra la mujer",
     imagen: "flujogramas/violencia-familiar-ley-30364.svg",
     alt: "Flujograma: violencia contra la mujer"
+  },
+
+  /* ---------- Casos de práctica (preguntas tipo) ---------- */
+
+  "CAR-002": {
+    titulo: "Fibrilación auricular no valvular",
+    imagen: "flujogramas/fibrilacion-auricular-no-valvular-anticoagulacion.svg",
+    alt: "Flujograma: fibrilación auricular no valvular"
+  },
+  "CAR-003": {
+    titulo: "Soplos sistólicos: estenosis aórtica",
+    imagen: "flujogramas/estenosis-aortica-severa-sincope.svg",
+    alt: "Flujograma: soplos sistólicos: estenosis aórtica"
+  },
+  "CB-001": {
+    titulo: "Fenilcetonuria",
+    imagen: "flujogramas/fenilcetonuria-fenilalanina-hidroxilasa.svg",
+    alt: "Flujograma: fenilcetonuria"
+  },
+  "CIR-001": {
+    titulo: "Apendicitis aguda",
+    imagen: "flujogramas/apendicitis-aguda-apendicectomia.svg",
+    alt: "Flujograma: apendicitis aguda"
+  },
+  "END-001": {
+    titulo: "Cetoacidosis diabética",
+    imagen: "flujogramas/cetoacidosis-diabetica-hidratacion.svg",
+    alt: "Flujograma: cetoacidosis diabética"
+  },
+  "GAS-001": {
+    titulo: "Sangrado variceal: tratamiento inicial",
+    imagen: "flujogramas/hemorragia-variceal-vasoactivos.svg",
+    alt: "Flujograma: sangrado variceal: tratamiento inicial"
+  },
+  "GIN-001": {
+    titulo: "Hemorragia posparto por atonía uterina",
+    imagen: "flujogramas/hemorragia-posparto-atonia-oxitocina.svg",
+    alt: "Flujograma: hemorragia posparto por atonía uterina"
+  },
+  "HEM-001": {
+    titulo: "Anemia microcítica",
+    imagen: "flujogramas/anemia-microcitica-ferritina.svg",
+    alt: "Flujograma: anemia microcítica"
+  },
+  "INF-001": {
+    titulo: "Malaria por Plasmodium vivax",
+    imagen: "flujogramas/malaria-vivax-cloroquina-primaquina.svg",
+    alt: "Flujograma: malaria por Plasmodium vivax"
+  },
+  "NEF-001": {
+    titulo: "Hiperpotasemia con cambios en el ECG",
+    imagen: "flujogramas/hiperpotasemia-gluconato-de-calcio.svg",
+    alt: "Flujograma: hiperpotasemia con cambios en el ECG"
+  },
+  "NEU-001": {
+    titulo: "Tuberculosis pleural",
+    imagen: "flujogramas/tuberculosis-pleural-ada.svg",
+    alt: "Flujograma: tuberculosis pleural"
+  },
+  "NRL-001": {
+    titulo: "Ictus agudo: primer examen",
+    imagen: "flujogramas/acv-agudo-tomografia-sin-contraste.svg",
+    alt: "Flujograma: ictus agudo: primer examen"
+  },
+  "OFT-001": {
+    titulo: "Glaucoma agudo de ángulo cerrado",
+    imagen: "flujogramas/glaucoma-agudo-angulo-cerrado.svg",
+    alt: "Flujograma: glaucoma agudo de ángulo cerrado"
+  },
+  "PED-001": {
+    titulo: "Ictericia neonatal",
+    imagen: "flujogramas/ictericia-neonatal-incompatibilidad-abo.svg",
+    alt: "Flujograma: ictericia neonatal"
+  },
+  "PSI-001": {
+    titulo: "Episodio depresivo mayor",
+    imagen: "flujogramas/depresion-mayor-isrs.svg",
+    alt: "Flujograma: episodio depresivo mayor"
+  },
+  "REU-001": {
+    titulo: "Artritis por cristales",
+    imagen: "flujogramas/gota-cristales-urato-monosodico.svg",
+    alt: "Flujograma: artritis por cristales"
+  },
+  "SP-001": {
+    titulo: "Validez de una prueba diagnóstica",
+    imagen: "flujogramas/sensibilidad-especificidad-tabla-2x2.svg",
+    alt: "Flujograma: validez de una prueba diagnóstica"
+  },
+  "TRA-001": {
+    titulo: "Fractura de escafoides",
+    imagen: "flujogramas/fractura-escafoides-tabaquera-anatomica.svg",
+    alt: "Flujograma: fractura de escafoides"
   }
 };
