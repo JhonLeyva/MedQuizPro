@@ -13,6 +13,207 @@
     reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   } catch (e) { reduced = false; }
 
+  /* ---------- plantillas compartidas ----------
+     La web pública y la plataforma usan el mismo simulador y el mismo chat: cada
+     página solo coloca <div data-mqp-practica></div> y <div data-mqp-chat></div>
+     donde los quiere, y aquí se montan antes de que el resto de módulos los busque. */
+  safe("plantillas", function () {
+    var PRACTICA = [
+      "<div class=\"sim-view\" id=\"simView\" hidden>",
+      "  <div class=\"sim-view__bar\">",
+      "    <button class=\"btn btn--ghost btn--sm\" type=\"button\" id=\"svBack\">← Volver</button>",
+      "    <div class=\"sim-view__head\">",
+      "      <span class=\"badge badge--brand\" id=\"svMode\">Modo estudio</span>",
+      "      <p class=\"sim-view__title\" id=\"svTitle\"></p>",
+      "    </div>",
+      "    <span class=\"sim-view__score\" id=\"svScore\" aria-live=\"polite\"></span>",
+      "    <span class=\"sim-clock\" id=\"svClock\" role=\"timer\" aria-label=\"Tiempo restante del simulacro\" hidden>",
+      "      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"13\" r=\"8\"/><path d=\"M12 9v4l2.5 2M9.5 2.5h5\"/></svg>",
+      "      <b id=\"svClockTime\">0:00</b>",
+      "    </span>",
+      "    <button class=\"btn btn--primary btn--sm\" type=\"button\" id=\"svFinish\" hidden>Terminar simulacro</button>",
+      "  </div>",
+      "",
+      "  <div class=\"quiz quiz--wide quiz--pro\" id=\"svQuiz\" aria-live=\"polite\">",
+      "    <!-- barra de ritmo: 60 s por pregunta, como en el ENAM -->",
+      "    <div class=\"pace\" id=\"svPace\" aria-hidden=\"true\"><div class=\"pace__fill\" id=\"svPaceFill\"></div></div>",
+      "    <div class=\"quiz__head\">",
+      "      <span class=\"tag\" id=\"svArea\">Especialidad</span>",
+      "      <span class=\"tag tag--mark\" id=\"svExam\" hidden></span>",
+      "      <span class=\"tag tag--tema\" id=\"svTema\" hidden></span>",
+      "      <span class=\"pace__time\" id=\"svPaceTime\" title=\"Tiempo en esta pregunta (ideal: 60 s)\">0:00</span>",
+      "      <span class=\"quiz__counter\" id=\"svCounter\"></span>",
+      "      <button class=\"fav-btn\" type=\"button\" id=\"svFav\" aria-pressed=\"false\" title=\"Guardar en favoritas\" hidden>",
+      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z\"/></svg>",
+      "        <span class=\"sr-only\">Guardar en favoritas</span>",
+      "      </button>",
+      "      <button class=\"flag-btn\" type=\"button\" id=\"svFlag\" aria-pressed=\"false\" title=\"Marcar para revisión (F)\">",
+      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 21V4\"/><path d=\"M5 4h11l-2 4 2 4H5\"/></svg>",
+      "        <span class=\"flag-btn__label\">Marcar</span>",
+      "      </button>",
+      "    </div>",
+      "    <div class=\"quiz__body\">",
+      "      <p class=\"sim-view__status\" id=\"svStatus\" hidden></p>",
+      "      <div id=\"svContent\" hidden>",
+      "        <p class=\"quiz__stem\" id=\"svStem\"></p>",
+      "        <div class=\"sim-tools\">",
+      "          <label class=\"switch\" title=\"Oculta las alternativas hasta que pases el cursor o las toques\">",
+      "            <input type=\"checkbox\" id=\"svRecall\" role=\"switch\">",
+      "            <span class=\"switch__track\" aria-hidden=\"true\"><span class=\"switch__thumb\"></span></span>",
+      "            <span class=\"switch__text\">Active Recall</span>",
+      "          </label>",
+      "          <span class=\"sim-tools__hint\">Clic derecho sobre una alternativa para tacharla</span>",
+      "        </div>",
+      "        <ul class=\"quiz__options\" id=\"svOptions\"></ul>",
+      "        <div class=\"quiz__feedback\" id=\"svFeedback\" hidden>",
+      "          <p class=\"quiz__verdict\" id=\"svVerdict\"></p>",
+      "          <p class=\"quiz__label\">Comentario docente</p>",
+      "          <p class=\"quiz__why\" id=\"svWhy\"></p>",
+      "          <button class=\"btn btn--ghost btn--sm algo-btn\" type=\"button\" id=\"svAlgo\">",
+      "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"9\" y=\"2.5\" width=\"6\" height=\"5\" rx=\"1\"/><rect x=\"3\" y=\"16.5\" width=\"6\" height=\"5\" rx=\"1\"/><rect x=\"15\" y=\"16.5\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14\"/></svg>",
+      "            Ver algoritmo / Flujograma",
+      "          </button>",
+      "        </div>",
+      "      </div>",
+      "      <div class=\"quiz__foot sim-view__nav\">",
+      "        <button class=\"btn btn--ghost\" type=\"button\" id=\"svPrev\">← Pregunta anterior</button>",
+      "        <button class=\"btn btn--mark\" type=\"button\" id=\"svNext\">Siguiente pregunta →</button>",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "",
+      "  <details class=\"sim-map\" id=\"svMapWrap\" hidden>",
+      "    <summary>Mapa de preguntas <span class=\"sim-map__count\" id=\"svMapCount\"></span></summary>",
+      "    <ol class=\"sim-map__list\" id=\"svMap\"></ol>",
+      "    <p class=\"sim-map__legend\"><span class=\"is-answered\">Respondida</span><span class=\"is-flagged\">Marcada</span><span class=\"is-current\">Actual</span></p>",
+      "  </details>",
+      "",
+      "  <p class=\"kbd-hints\" id=\"svHints\" aria-label=\"Atajos de teclado\">",
+      "    <span><kbd>A</kbd>–<kbd>E</kbd> o <kbd>1</kbd>–<kbd>5</kbd> elegir</span>",
+      "    <span><kbd>Espacio</kbd> confirmar / siguiente</span>",
+      "    <span><kbd>F</kbd> marcar</span>",
+      "    <span><kbd>←</kbd> <kbd>→</kbd> navegar</span>",
+      "  </p>",
+      "",
+      "  <section class=\"sim-result\" id=\"svResult\" tabindex=\"-1\" aria-labelledby=\"svResTitle\" hidden>",
+      "    <div class=\"sim-result__top\">",
+      "      <div class=\"score-ring score-ring--lg\" id=\"svResRing\" aria-hidden=\"true\">",
+      "        <svg viewBox=\"0 0 44 44\"><circle class=\"score-ring__track\" cx=\"22\" cy=\"22\" r=\"18\"/><circle class=\"score-ring__value\" cx=\"22\" cy=\"22\" r=\"18\"/></svg>",
+      "        <span class=\"score-ring__num\" id=\"svResPct\">–</span>",
+      "      </div>",
+      "      <div class=\"sim-result__copy\">",
+      "        <p class=\"kicker\" id=\"svResKicker\">Resultado</p>",
+      "        <h3 class=\"sim-result__title\" id=\"svResTitle\"></h3>",
+      "        <p class=\"sim-result__sub\" id=\"svResSub\"></p>",
+      "      </div>",
+      "    </div>",
+      "    <dl class=\"sim-result__kpis\" id=\"svResKpis\"></dl>",
+      "    <div class=\"sim-result__areas\">",
+      "      <p class=\"panel__title\">Resultado por especialidad</p>",
+      "      <ul class=\"bars bars--wide\" id=\"svResBars\"></ul>",
+      "    </div>",
+      "    <div class=\"sim-result__actions\">",
+      "      <button class=\"btn btn--primary\" type=\"button\" id=\"svReview\">Revisar respuestas</button>",
+      "      <button class=\"btn btn--ghost\" type=\"button\" id=\"svRepeat\">Repetir simulacro</button>",
+      "      <button class=\"btn btn--ghost\" type=\"button\" id=\"svDone\">Terminar</button>",
+      "    </div>",
+      "  </section>",
+      "</div>",
+      "",
+      "<!-- modal de algoritmos: el contenido real se registra en algoritmos.js -->",
+      "<dialog class=\"algo-modal\" id=\"algoModal\" aria-labelledby=\"algoTitle\">",
+      "  <div class=\"algo-modal__head\">",
+      "    <div>",
+      "      <p class=\"kicker\">Perla clínica</p>",
+      "      <h3 class=\"algo-modal__title\" id=\"algoTitle\">Algoritmo diagnóstico</h3>",
+      "      <p class=\"algo-modal__sub\" id=\"algoSub\"></p>",
+      "    </div>",
+      "    <button class=\"chat-tool algo-modal__close\" type=\"button\" id=\"algoClose\">",
+      "      <span class=\"sr-only\">Cerrar</span>",
+      "      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg>",
+      "    </button>",
+      "  </div>",
+      "  <div class=\"algo-modal__body\" id=\"algoBody\"></div>",
+      "</dialog>"
+    ].join("\n");
+    var CHAT = [
+      "<button class=\"chat-launcher\" id=\"chatLauncher\" type=\"button\" aria-expanded=\"false\" aria-controls=\"chatPanel\">",
+      "  <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">",
+      "    <path d=\"M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z\"/>",
+      "  </svg>",
+      "  <span class=\"chat-launcher__label\">Pregúntale al tutor</span>",
+      "</button>",
+      "",
+      "<section class=\"chat-panel\" id=\"chatPanel\" role=\"dialog\" aria-modal=\"false\" aria-labelledby=\"chatTitle\" hidden>",
+      "  <header class=\"chat-panel__head\">",
+      "    <span class=\"chat-panel__avatar\" aria-hidden=\"true\">",
+      "      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3v3M7.5 6h9a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3z\"/><path d=\"M9.5 12h.01M14.5 12h.01M9.5 15.5h5\"/></svg>",
+      "    </span>",
+      "    <div class=\"chat-panel__id\">",
+      "      <h2 class=\"chat-panel__title\" id=\"chatTitle\">Tutor MedQuizPlus</h2>",
+      "      <p class=\"chat-panel__sub\">ENAM · RM · EsSalud</p>",
+      "    </div>",
+      "    <div class=\"chat-tools\">",
+      "      <button class=\"chat-tool\" id=\"chatNuevo\" type=\"button\" title=\"Nueva conversación\">",
+      "        <span class=\"sr-only\">Empezar una conversación nueva</span>",
+      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 0 1 15.3-6.4L21 8\"/><path d=\"M21 3v5h-5\"/><path d=\"M21 12a9 9 0 0 1-15.3 6.4L3 16\"/><path d=\"M3 21v-5h5\"/></svg>",
+      "      </button>",
+      "      <button class=\"chat-tool\" id=\"chatMinimizar\" type=\"button\" title=\"Minimizar\">",
+      "        <span class=\"sr-only\">Minimizar el chat</span>",
+      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M6 18h12\"/></svg>",
+      "      </button>",
+      "      <button class=\"chat-tool\" id=\"chatClose\" type=\"button\" title=\"Cerrar y terminar la conversación\">",
+      "        <span class=\"sr-only\">Cerrar el chat y terminar la conversación</span>",
+      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg>",
+      "      </button>",
+      "    </div>",
+      "  </header>",
+      "",
+      "  <div class=\"chat-log\" id=\"chatLog\" role=\"log\" aria-live=\"polite\" aria-relevant=\"additions\">",
+      "    <div class=\"chat-welcome\" id=\"chatWelcome\">",
+      "      <p class=\"chat-welcome__hola\">Hola <span aria-hidden=\"true\">👋</span></p>",
+      "      <p class=\"chat-welcome__sub\">¿En qué puedo ayudarte?</p>",
+      "      <div class=\"chat-ideas\">",
+      "        <button class=\"chat-idea\" type=\"button\" data-pregunta=\"¿Cómo diferencio un shock séptico de uno cardiogénico?\">",
+      "          <strong>Pregúntame algo…</strong>",
+      "          <span>¿Cómo diferencio un shock séptico de uno cardiogénico?</span>",
+      "        </button>",
+      "        <button class=\"chat-idea\" type=\"button\" data-pregunta=\"Explícame los criterios de severidad de la preeclampsia.\">",
+      "          <strong>Explícame un tema…</strong>",
+      "          <span>Criterios de severidad de la preeclampsia</span>",
+      "        </button>",
+      "        <button class=\"chat-idea\" type=\"button\" data-pregunta=\"Ayúdame a armar un plan de estudio de cuatro semanas para el ENAM.\">",
+      "          <strong>Ayúdame a estudiar…</strong>",
+      "          <span>Un plan de cuatro semanas para el ENAM</span>",
+      "        </button>",
+      "      </div>",
+      "      <p class=\"chat-welcome__pie\">O escribe tu propia pregunta abajo.</p>",
+      "    </div>",
+      "  </div>",
+      "",
+      "  <form class=\"chat-form\" id=\"chatForm\">",
+      "    <label class=\"sr-only\" for=\"chatInput\">Escribe tu pregunta</label>",
+      "    <textarea id=\"chatInput\" name=\"mensaje\" rows=\"1\" maxlength=\"2000\" placeholder=\"Escribe tu pregunta…\" autocomplete=\"off\"></textarea>",
+      "    <button class=\"chat-send\" id=\"chatSend\" type=\"submit\">",
+      "      <span class=\"sr-only\">Enviar</span>",
+      "      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12l16-8-6 16-2.5-6.5L4 12z\"/></svg>",
+      "    </button>",
+      "  </form>",
+      "  <p class=\"chat-disclaimer\">Respuestas generadas por IA con fines de estudio. No sustituyen el criterio clínico ni la atención de un paciente real.</p>",
+      "</section>"
+    ].join("\n");
+    function montar(selector, html) {
+      var nodo = document.querySelector(selector);
+      if (!nodo) return;
+      var tmp = document.createElement("div");
+      tmp.innerHTML = html;
+      while (tmp.firstChild) nodo.parentNode.insertBefore(tmp.firstChild, nodo);
+      nodo.parentNode.removeChild(nodo);
+    }
+    montar("[data-mqp-practica]", PRACTICA);
+    montar("[data-mqp-chat]", CHAT);
+  });
+
   /* ---------- cabecera: sombra al hacer scroll ---------- */
   safe("header", function () {
     var header = document.getElementById("siteHeader");
@@ -143,22 +344,20 @@
       elScore.textContent = n ? c + " de " + n + (n === 1 ? " correcta" : " correctas") : "Responde para empezar";
     }
 
-    /* reloj del simulacro: 4 horas, igual que el examen real */
-    if (elTimer) {
-      var restante = 4 * 3600 - 1;
-      var dos = function (x) { return (x < 10 ? "0" : "") + x; };
-      var tic = function () {
-        elTimer.textContent = dos(Math.floor(restante / 3600)) + ":" + dos(Math.floor(restante % 3600 / 60)) + ":" + dos(restante % 60);
-      };
-      tic();
-      if (!reduced) {
-        var reloj = setInterval(function () {
-          restante = restante > 0 ? restante - 1 : 4 * 3600 - 1;
-          tic();
-        }, 1000);
-        window.addEventListener("pagehide", function () { clearInterval(reloj); });
-      }
+    /* tiempo en la pregunta: el mismo ritmo de 60 s que usa el banco real */
+    var inicioPregunta = Date.now(), relojDemo = null;
+    function ticDemo() {
+      if (!elTimer) return;
+      var s = Math.floor((Date.now() - inicioPregunta) / 1000);
+      elTimer.textContent = Math.floor(s / 60) + ":" + (s % 60 < 10 ? "0" : "") + (s % 60);
     }
+    function arrancarDemo() {
+      inicioPregunta = Date.now();
+      ticDemo();
+      if (relojDemo) clearInterval(relojDemo);
+      if (elTimer && !reduced) relojDemo = setInterval(ticDemo, 1000);
+    }
+    window.addEventListener("pagehide", function () { if (relojDemo) clearInterval(relojDemo); });
 
     var letras = ["A", "B", "C", "D"];
 
@@ -191,6 +390,7 @@
       elNext.hidden = true;
       elNote.hidden = false;
       if (elBar) elBar.style.width = ((i + 1) / preguntas.length * 100) + "%";
+      arrancarDemo();
     }
 
     elOpts.addEventListener("click", function (ev) {
@@ -218,6 +418,7 @@
       elNext.hidden = false;
       elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : "Volver a la primera";
 
+      if (relojDemo) { clearInterval(relojDemo); relojDemo = null; }
       sesion.respondidas++;
       if (acerto) sesion.correctas++;
       pintarSesion();
@@ -231,204 +432,51 @@
     pintar();
   });
 
-  /* ---------- bancos por especialidad + simulador ----------
-     Cada especialidad lee su banco de bancos/<archivo>.json con fetch.
-     Formato: { especialidad, preguntas: [ { id, especialidad, examen_origen,
-     enunciado, opciones: { A: "...", B: "..." }, clave_correcta: "B", comentario } ] }.
-     Si la página se sirvió como archivo único (artifact.html), los bancos vienen
-     incrustados en window.MQP_BANCOS y no hace falta pedirlos. */
-  safe("bancos", function () {
-    var grid = document.getElementById("specs");
+  /* ---------- motor de práctica: bancos, sesiones y simulacros ----------
+     Una "sesión" es un conjunto de preguntas reales elegidas con estas opciones:
+       { titulo, archivos: [...], examen: "enam", origen: /RegExp/, filtro: "todas" |
+         "no-respondidas" | "falladas" | "favoritas", ids: [...], cantidad, orden:
+         "secuencial" | "aleatorio", modo: "estudio" | "simulacro", tiempo (s),
+         volverTexto, i, respuestas, tipo, simulador, alCerrar() }
+     Modo estudio: al responder se ve la clave y el comentario docente (como siempre).
+     Modo simulacro: reloj global, se puede cambiar la respuesta, la corrección llega
+     al terminar con el resultado por especialidad y la revisión pregunta a pregunta.
+     Los bancos se leen con MQP.cargarBanco (catalogo.js). La página anfitriona solo
+     necesita un <div data-mqp-practica> y llamar a MQP.practica.abrir(opciones). */
+  safe("motor", function () {
+    var M = window.MQP;
     var vista = document.getElementById("simView");
-    if (!grid || !vista) return;
+    if (!M || !vista) return;
 
-    var I = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
-    var ICONOS = {
-      corazon: '<path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.1a4.3 4.3 0 0 1 7.5 2.7C19.5 15.4 12 20 12 20z"/><path d="M4.5 12h3.2l1.6-2.6 2.6 5 1.7-2.4h5.9"/>',
-      pulmones: '<path d="M12 3v8m0 0-2.5 2.2M12 11l2.5 2.2"/><path d="M9 7.5C6.4 7.5 4 12.4 4 17c0 2 1.2 3 3 3s3-1.1 3-3V9.2"/><path d="M15 7.5c2.6 0 5 4.9 5 9.5 0 2-1.2 3-3 3s-3-1.1-3-3V9.2"/>',
-      estomago: '<path d="M9 3v4c0 2-3 3-3 7a6 6 0 0 0 6 6h1.5a5.5 5.5 0 0 0 5.5-5.5c0-3-2.6-4.4-4.8-3.3-1.8.9-3.2-.1-3.2-2.2V3"/>',
-      rinon: '<path d="M10 4C6.5 4 4 7.8 4 12s2.5 8 6 8c1.8 0 3-1.6 3-3.4 0-1.2-1-2.3-1-4.6s1-3.4 1-4.6C13 5.6 11.8 4 10 4z"/><path d="M12.5 12H16c2 0 3 1.6 3 3.6V21"/>',
-      tiroides: '<path d="M12 7v10"/><path d="M12 9.5C10.4 6.4 5 6.6 5 11.3c0 4.5 4.3 6 7 4.2"/><path d="M12 9.5c1.6-3.1 7-2.9 7 1.8 0 4.5-4.3 6-7 4.2"/>',
-      virus: '<circle cx="12" cy="12" r="4.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.2 2.2M16.2 16.2l2.2 2.2M5.6 18.4l2.2-2.2M16.2 7.8l2.2-2.2"/>',
-      cerebro: '<path d="M11 5.2A3 3 0 0 0 6 6.8a3 3 0 0 0-1.8 5.1A3 3 0 0 0 6.5 17 3 3 0 0 0 11 18.8z"/><path d="M13 5.2a3 3 0 0 1 5 1.6 3 3 0 0 1 1.8 5.1 3 3 0 0 1-2.3 5.1 3 3 0 0 1-4.5 1.8z"/>',
-      gota: '<path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.3 14.3A2.7 2.7 0 0 0 12 17"/>',
-      articulacion: '<path d="M8.5 3v5.5a3.5 3.5 0 0 0 7 0V3"/><path d="M8.5 21v-4.5a3.5 3.5 0 0 1 7 0V21"/><path d="M6 12h2M16 12h2"/>',
-      bebe: '<circle cx="12" cy="12.5" r="8"/><path d="M9.3 11h.01M14.7 11h.01"/><path d="M10 15a2.6 2.6 0 0 0 4 0"/><path d="M12 4.5c1.4.6 1.6 2 .4 2.6"/>',
-      femenino: '<circle cx="12" cy="9" r="5"/><path d="M12 14v7M9 18h6"/>',
-      bisturi: '<path d="M4 20l6.2-6.2"/><path d="M10.2 13.8 19 5c.9 3.4-1.1 7-5.4 8.9L12 15.6z"/>',
-      hueso: '<path d="M17 10c.7-.7 1.7 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .8.7 1.8 0 2.5l-7 7c-.7.7-1.7 0-2.5 0a2.5 2.5 0 0 0 0 5c.3 0 .5.2.5.5a2.5 2.5 0 1 0 5 0c0-.8-.7-1.8 0-2.5z"/>',
-      ojo: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
-      mente: '<path d="M13 3a7 7 0 0 0-7 7c0 2 .8 3.6 2 4.8V21h7v-3h2a2 2 0 0 0 2-2v-2.5l1.8-.8-1.8-3A7 7 0 0 0 13 3z"/><path d="M11 10.5a2 2 0 1 1 2 2"/>',
-      grafico: '<path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/>',
-      matraz: '<path d="M9 3h6M10 3v6.2L5 18a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-8.8V3"/><path d="M7.4 15h9.2"/>'
-    };
-
-    var CATALOGO = [
-      { nombre: "Cardiología", archivo: "cardiologia", icono: "corazon" },
-      { nombre: "Neumología", archivo: "neumologia", icono: "pulmones" },
-      { nombre: "Gastroenterología", archivo: "gastroenterologia", icono: "estomago" },
-      { nombre: "Nefrología y Urología", archivo: "nefrologia", icono: "rinon" },
-      { nombre: "Endocrinología", archivo: "endocrinologia", icono: "tiroides" },
-      { nombre: "Infectología", archivo: "infectologia", icono: "virus" },
-      { nombre: "Neurología", archivo: "neurologia", icono: "cerebro" },
-      { nombre: "Hematología", archivo: "hematologia", icono: "gota" },
-      { nombre: "Reumatología y Dermatología", archivo: "reumatologia", icono: "articulacion" },
-      { nombre: "Pediatría y Neonatología", archivo: "pediatria", icono: "bebe" },
-      { nombre: "Ginecología y Obstetricia", archivo: "ginecologia", icono: "femenino" },
-      { nombre: "Cirugía General y Digestiva", archivo: "cirugia", icono: "bisturi" },
-      { nombre: "Traumatología y Ortopedia", archivo: "traumatologia", icono: "hueso" },
-      { nombre: "Oftalmología y Otorrinolaringología", archivo: "oftalmo_orl", icono: "ojo" },
-      { nombre: "Psiquiatría", archivo: "psiquiatria", icono: "mente" },
-      { nombre: "Salud Pública, Gestión y Epidemiología", archivo: "salud_publica", icono: "grafico" },
-      { nombre: "Ciencias Básicas", archivo: "ciencias_basicas", icono: "matraz" }
-    ];
-
+    var $ = function (id) { return document.getElementById(id); };
     var el = {
-      back: document.getElementById("svBack"),
-      score: document.getElementById("svScore"),
-      area: document.getElementById("svArea"),
-      exam: document.getElementById("svExam"),
-      counter: document.getElementById("svCounter"),
-      status: document.getElementById("svStatus"),
-      content: document.getElementById("svContent"),
-      stem: document.getElementById("svStem"),
-      options: document.getElementById("svOptions"),
-      feedback: document.getElementById("svFeedback"),
-      verdict: document.getElementById("svVerdict"),
-      why: document.getElementById("svWhy"),
-      prev: document.getElementById("svPrev"),
-      next: document.getElementById("svNext")
+      back: $("svBack"), title: $("svTitle"), mode: $("svMode"), score: $("svScore"),
+      clock: $("svClock"), clockTime: $("svClockTime"), finish: $("svFinish"),
+      quiz: $("svQuiz"), area: $("svArea"), exam: $("svExam"), tema: $("svTema"),
+      counter: $("svCounter"), fav: $("svFav"), status: $("svStatus"), content: $("svContent"),
+      stem: $("svStem"), options: $("svOptions"), feedback: $("svFeedback"),
+      verdict: $("svVerdict"), why: $("svWhy"), prev: $("svPrev"), next: $("svNext"),
+      mapWrap: $("svMapWrap"), map: $("svMap"), mapCount: $("svMapCount"), hints: $("svHints"),
+      result: $("svResult"), resKicker: $("svResKicker"), resTitle: $("svResTitle"), resSub: $("svResSub"),
+      resRing: $("svResRing"), resPct: $("svResPct"), resKpis: $("svResKpis"), resBars: $("svResBars"),
+      review: $("svReview"), repeat: $("svRepeat"), done: $("svDone")
     };
 
-    /* Avisos para los módulos del modo simulación (no cambian el motor). */
+    var actual = null;   // { cfg, preguntas, i, respuestas, modo, fin, inicio, limite, guardada }
+    var turno = 0;       // descarta cargas que llegan tarde
+    var reloj = null;
+
+    function revelada(i) { return actual.modo === "estudio" ? !!actual.respuestas[i] : actual.fin; }
+
+    /* Avisos para el módulo del modo simulación (tachado, bandera, ritmo, atajos). */
     function avisar(tipo) {
       if (!actual) { vista.dispatchEvent(new CustomEvent("mqp:" + tipo)); return; }
+      var i = actual.i;
       vista.dispatchEvent(new CustomEvent("mqp:" + tipo, { detail: {
-        pregunta: actual.preguntas[actual.i], i: actual.i, total: actual.preguntas.length,
-        respondida: actual.respuestas[actual.i] || null, preguntas: actual.preguntas
+        pregunta: actual.preguntas[i], i: i, total: actual.preguntas.length,
+        respondida: revelada(i) ? (actual.respuestas[i] || "-") : null,
+        elegida: actual.respuestas[i] || null, modo: actual.modo, preguntas: actual.preguntas
       } }));
-    }
-
-    var cache = {};          // archivo -> promesa de preguntas normalizadas
-    var estados = {};        // archivo -> nodo de estado de la tarjeta
-    var actual = null;       // { esp, preguntas, i, respuestas }
-    var turno = 0;           // descarta respuestas de fetch que llegan tarde
-
-    /* Acepta { preguntas: [...] } o directamente [...]; opciones como objeto o arreglo. */
-    function normalizar(datos) {
-      var lista = Array.isArray(datos) ? datos : (datos && Array.isArray(datos.preguntas) ? datos.preguntas : null);
-      if (!lista) throw new Error("formato");
-      var salida = [];
-      for (var k = 0; k < lista.length; k++) {
-        var p = lista[k] || {};
-        var ops = [];
-        if (Array.isArray(p.opciones)) {
-          for (var j = 0; j < p.opciones.length; j++) ops.push({ letra: "ABCDE".charAt(j), texto: String(p.opciones[j]) });
-        } else if (p.opciones && typeof p.opciones === "object") {
-          var letras = Object.keys(p.opciones).sort();
-          for (var m = 0; m < letras.length; m++) ops.push({ letra: letras[m].toUpperCase(), texto: String(p.opciones[letras[m]]) });
-        }
-        if (!p.enunciado || ops.length < 2) continue;
-        salida.push({
-          id: p.id, especialidad: p.especialidad, examen: p.examen_origen || "",
-          enunciado: String(p.enunciado), opciones: ops,
-          clave: String(p.clave_correcta || "").trim().toUpperCase(),
-          comentario: p.comentario ? String(p.comentario) : ""
-        });
-      }
-      return salida;
-    }
-
-    function cargar(archivo) {
-      if (cache[archivo]) return cache[archivo];
-      var incrustado = window.MQP_BANCOS && window.MQP_BANCOS[archivo];
-      var promesa = incrustado
-        ? Promise.resolve(incrustado)
-        : fetch("bancos/" + archivo + ".json", { cache: "no-cache" }).then(function (res) {
-            if (!res.ok) throw new Error("http " + res.status);
-            return res.json();   // si el servidor devuelve HTML (404 reescrito), esto falla y cae al catch
-          });
-      cache[archivo] = promesa.then(normalizar);
-      cache[archivo].catch(function () { delete cache[archivo]; });  // permite reintentar
-      return cache[archivo];
-    }
-
-    /* ----- cuadrícula ----- */
-    function pintarGrid() {
-      var frag = document.createDocumentFragment();
-      for (var k = 0; k < CATALOGO.length; k++) {
-        var esp = CATALOGO[k];
-        var card = document.createElement("article");
-        card.className = "spec";
-        card.setAttribute("data-tono", String(k % 6));
-        card.style.setProperty("--i", String(k));
-        card.innerHTML =
-          '<div class="spec__top">' +
-            '<span class="spec__icon"><svg ' + I + '>' + ICONOS[esp.icono] + '</svg></span>' +
-            '<span class="spec__status">Verificando</span>' +
-          '</div>' +
-          '<h3 class="spec__name"></h3>' +
-          '<p class="spec__meta"><svg ' + I + '><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg><span>Contando preguntas…</span></p>' +
-          '<button class="btn spec__cta" type="button">Iniciar práctica' +
-            '<svg class="btn__arrow" ' + I + '><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>';
-        card.querySelector("h3").textContent = esp.nombre;
-        estados[esp.archivo] = {
-          pill: card.querySelector(".spec__status"),
-          meta: card.querySelector(".spec__meta span")
-        };
-        (function (esp, btn) {
-          btn.setAttribute("aria-label", "Iniciar práctica de " + esp.nombre);
-          btn.addEventListener("click", function () { abrir(esp); });
-        })(esp, card.querySelector("button"));
-        frag.appendChild(card);
-      }
-      grid.appendChild(frag);
-    }
-
-    function actualizarEstado(archivo, preguntas, fallo) {
-      var nodo = estados[archivo];
-      if (!nodo) return;
-      if (fallo) {
-        nodo.pill.className = "spec__status spec__status--off";
-        nodo.pill.textContent = "No disponible";
-        nodo.meta.textContent = "No se pudo cargar por ahora";
-      } else if (!preguntas.length) {
-        nodo.pill.className = "spec__status spec__status--soon";
-        nodo.pill.textContent = "En preparación";
-        nodo.meta.textContent = "Pronto con preguntas nuevas";
-      } else {
-        nodo.pill.className = "spec__status spec__status--ok";
-        nodo.pill.textContent = "Disponible";
-        nodo.meta.textContent = preguntas.length + (preguntas.length === 1 ? " pregunta comentada" : " preguntas comentadas");
-      }
-    }
-
-    /* Cuenta las preguntas cuando la sección se acerca a la pantalla, no antes. */
-    function contarTodo() {
-      for (var k = 0; k < CATALOGO.length; k++) {
-        (function (archivo) {
-          cargar(archivo).then(
-            function (ps) { actualizarEstado(archivo, ps, false); },
-            function () { actualizarEstado(archivo, [], true); }
-          );
-        })(CATALOGO[k].archivo);
-      }
-    }
-    if ("IntersectionObserver" in window) {
-      var io = new IntersectionObserver(function (entradas) {
-        if (entradas[0].isIntersecting) { io.disconnect(); contarTodo(); }
-      }, { rootMargin: "300px 0px" });
-      io.observe(grid);
-    } else {
-      contarTodo();
-    }
-
-    /* ----- simulador ----- */
-    function mostrarVista(simulador) {
-      grid.hidden = simulador;
-      vista.hidden = !simulador;
-      var seccion = document.getElementById("bancos");
-      if (seccion && seccion.scrollIntoView) seccion.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
     }
 
     function mensaje(texto) {
@@ -437,37 +485,153 @@
       el.status.textContent = texto;
       el.counter.textContent = "";
       el.exam.hidden = true;
+      el.tema.hidden = true;
+      el.fav.hidden = true;
       el.prev.disabled = true;
       el.next.disabled = true;
       el.score.textContent = "";
+      el.mapWrap.hidden = true;
     }
 
-    function abrir(esp) {
+    function dos(n) { return (n < 10 ? "0" : "") + n; }
+    function reloj2(seg) {
+      seg = Math.max(0, Math.ceil(seg));
+      var h = Math.floor(seg / 3600), m = Math.floor(seg % 3600 / 60), s = seg % 60;
+      return (h ? h + ":" + dos(m) : m) + ":" + dos(s);
+    }
+    function transcurrido() { return (Date.now() - actual.inicio) / 1000; }
+
+    /* ----- abrir una sesión ----- */
+    function abrir(cfg) {
+      cfg = cfg || {};
       var mio = ++turno;
+      pararReloj();
+      if (actual) guardarSesionEstudio();
       actual = null;
-      el.area.textContent = esp.nombre;
-      mensaje("Cargando el banco de " + esp.nombre + "…");
-      mostrarVista(true);
-      cargar(esp.archivo).then(function (preguntas) {
+      el.title.textContent = cfg.titulo || "Práctica";
+      el.back.textContent = "← " + (cfg.volverTexto || "Volver");
+      el.area.textContent = cfg.etiqueta || cfg.titulo || "Práctica";
+      el.mode.textContent = cfg.modo === "simulacro" ? "Simulacro" : "Modo estudio";
+      el.mode.className = "badge" + (cfg.modo === "simulacro" ? " badge--mark" : " badge--brand");
+      el.result.hidden = true;
+      el.quiz.hidden = false;
+      el.clock.hidden = true;
+      el.finish.hidden = true;
+      if (el.hints) el.hints.hidden = false;
+      mensaje("Cargando preguntas…");
+      vista.hidden = false;
+      document.dispatchEvent(new CustomEvent("mqp:sesion-abierta", { detail: cfg }));
+
+      var archivos = cfg.archivos && cfg.archivos.length ? cfg.archivos
+        : M.especialidades.map(function (e) { return e.archivo; });
+      Promise.all(archivos.map(function (a) {
+        return M.cargarBanco(a).then(function (ps) { return { ok: true, ps: ps }; }, function () { return { ok: false, ps: [] }; });
+      })).then(function (res) {
         if (mio !== turno) return;
-        actualizarEstado(esp.archivo, preguntas, false);
-        if (!preguntas.length) { mensaje("Este banco todavía no tiene preguntas publicadas. Vuelve pronto."); return; }
-        actual = { esp: esp, preguntas: preguntas, i: 0, respuestas: [] };
+        var todas = [], fallos = 0;
+        for (var k = 0; k < res.length; k++) { if (!res[k].ok) fallos++; todas = todas.concat(res[k].ps); }
+        if (fallos === res.length) {
+          mensaje("No se pudo cargar " + (archivos.length === 1 ? "el banco de " + (cfg.titulo || "esta especialidad") : "el banco de preguntas") + ". Revisa tu conexión e inténtalo de nuevo.");
+          return;
+        }
+        var lista = M.filtrar(todas, { examen: cfg.examen, origen: cfg.origen, filtro: cfg.filtro, ids: cfg.ids });
+        if (!cfg.ids) {
+          if (cfg.orden === "aleatorio") lista = M.barajar(lista);
+          if (cfg.cantidad) lista = lista.slice(0, cfg.cantidad);
+        }
+        if (!lista.length) {
+          mensaje(cfg.vacio || "Este banco todavía no tiene preguntas publicadas para esta selección. Vuelve pronto.");
+          return;
+        }
+        /* copia por sesión: la bandera y el tachado no se arrastran a la siguiente */
+        lista = lista.map(function (q) { var c = {}; for (var p in q) c[p] = q[p]; return c; });
+        var modo = cfg.modo === "simulacro" ? "simulacro" : "estudio";
+        actual = {
+          cfg: cfg, preguntas: lista, modo: modo, fin: false, guardada: false,
+          i: Math.max(0, Math.min(cfg.i || 0, lista.length - 1)),
+          respuestas: (cfg.respuestas || []).slice(0, lista.length),
+          inicio: Date.now(),
+          limite: modo === "simulacro" ? (cfg.tiempo || lista.length * 60) : null
+        };
+        el.map.setAttribute("data-sesion", String(mio));
+        el.map.innerHTML = "";
+        if (modo === "simulacro") { el.clock.hidden = false; el.finish.hidden = false; iniciarReloj(); }
         pintarPregunta();
-      }, function () {
-        if (mio !== turno) return;
-        actualizarEstado(esp.archivo, [], true);
-        mensaje("No se pudo cargar el banco de " + esp.nombre + ". Revisa tu conexión e inténtalo de nuevo.");
       });
     }
 
-    function pintarPuntaje() {
+    /* ----- reloj global del simulacro ----- */
+    function iniciarReloj() {
+      pararReloj();
+      tic();
+      reloj = setInterval(tic, 500);
+    }
+    function pararReloj() { if (reloj) { clearInterval(reloj); reloj = null; } }
+    function tic() {
+      if (!actual || actual.modo !== "simulacro" || actual.fin) { pararReloj(); return; }
+      var queda = actual.limite - transcurrido();
+      el.clockTime.textContent = reloj2(queda);
+      el.clock.classList.toggle("is-warn", queda <= Math.min(300, actual.limite * 0.15) && queda > 60);
+      el.clock.classList.toggle("is-over", queda <= 60);
+      if (queda <= 0) terminar(true);
+    }
+
+    /* ----- pintado ----- */
+    function contar() {
       var hechas = 0, bien = 0;
       for (var k = 0; k < actual.preguntas.length; k++) {
         var r = actual.respuestas[k];
         if (r) { hechas++; if (r === actual.preguntas[k].clave) bien++; }
       }
-      el.score.textContent = hechas ? ("Aciertos: " + bien + " de " + hechas + " respondidas") : "";
+      return { hechas: hechas, bien: bien, total: actual.preguntas.length };
+    }
+
+    function pintarPuntaje() {
+      var c = contar();
+      if (actual.modo === "simulacro" && !actual.fin) el.score.textContent = "Respondidas: " + c.hechas + " de " + c.total;
+      else el.score.textContent = c.hechas ? ("Aciertos: " + c.bien + " de " + c.hechas + " respondidas") : "";
+    }
+
+    function pintarMapa() {
+      var n = actual.preguntas.length;
+      if (el.map.childNodes.length !== n) {
+        el.map.innerHTML = "";
+        for (var k = 0; k < n; k++) {
+          var li = document.createElement("li");
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "sim-map__item";
+          b.textContent = String(k + 1);
+          b.setAttribute("data-i", String(k));
+          li.appendChild(b);
+          el.map.appendChild(li);
+        }
+      }
+      var botones = el.map.querySelectorAll(".sim-map__item");
+      for (var j = 0; j < botones.length; j++) {
+        var q = actual.preguntas[j], r = actual.respuestas[j];
+        var b2 = botones[j];
+        b2.className = "sim-map__item" +
+          (j === actual.i ? " is-current" : "") +
+          (r ? " is-answered" : "") +
+          (r && revelada(j) ? (r === q.clave ? " is-right" : " is-wrong") : "") +
+          (q.marcada ? " is-flagged" : "");
+        var estado = !r ? "sin responder" : (revelada(j) ? (r === q.clave ? "correcta" : "incorrecta") : "respondida");
+        b2.setAttribute("aria-label", "Pregunta " + (j + 1) + ", " + estado + (q.marcada ? ", marcada" : ""));
+        if (j === actual.i) b2.setAttribute("aria-current", "true"); else b2.removeAttribute("aria-current");
+      }
+      var c = contar();
+      el.mapCount.textContent = c.hechas + "/" + c.total;
+      el.mapWrap.hidden = n < 2;
+    }
+
+    function pintarFavorita() {
+      var q = actual.preguntas[actual.i];
+      var on = M.progreso.esFavorita(q.id);
+      el.fav.hidden = !q.id;
+      el.fav.setAttribute("aria-pressed", on ? "true" : "false");
+      el.fav.title = on ? "Quitar de favoritas" : "Guardar en favoritas";
+      el.fav.querySelector(".sr-only").textContent = on ? "Quitar de favoritas" : "Guardar en favoritas";
     }
 
     function pintarPregunta() {
@@ -476,8 +640,11 @@
       el.status.hidden = true;
       el.content.hidden = false;
       el.counter.textContent = "Pregunta " + (actual.i + 1) + " de " + total;
+      el.area.textContent = q.especialidad || actual.cfg.titulo || "";
       el.exam.hidden = !q.examen;
       el.exam.textContent = q.examen;
+      el.tema.hidden = !q.tema;
+      el.tema.textContent = q.tema;
       el.stem.textContent = q.enunciado;
 
       el.options.innerHTML = "";
@@ -499,13 +666,39 @@
         el.options.appendChild(li);
       }
 
-      var previa = actual.respuestas[actual.i];
-      if (previa) marcar(previa); else el.feedback.hidden = true;
+      if (revelada(actual.i)) marcar(actual.respuestas[actual.i] || null);
+      else { el.feedback.hidden = true; pintarElegida(); }
 
       el.prev.disabled = actual.i === 0;
-      el.next.disabled = actual.i >= total - 1;
+      var ultima = actual.i >= total - 1;
+      if (ultima && actual.modo === "estudio") {
+        el.next.textContent = "Ver resumen →";
+        el.next.disabled = !contar().hechas;
+      } else if (ultima && actual.modo === "simulacro" && !actual.fin) {
+        el.next.textContent = "Terminar simulacro";
+        el.next.disabled = false;
+      } else if (ultima) {
+        el.next.textContent = "Ver resultado →";
+        el.next.disabled = false;
+      } else {
+        el.next.textContent = "Siguiente pregunta →";
+        el.next.disabled = false;
+      }
       pintarPuntaje();
+      pintarFavorita();
+      pintarMapa();
+      guardarUltima();
       avisar("pregunta");
+    }
+
+    function pintarElegida() {
+      var elegida = actual.respuestas[actual.i];
+      var botones = el.options.querySelectorAll(".opt");
+      for (var k = 0; k < botones.length; k++) {
+        var on = botones[k].getAttribute("data-letra") === elegida;
+        botones[k].classList.toggle("opt--chosen", on);
+        botones[k].setAttribute("aria-pressed", on ? "true" : "false");
+      }
     }
 
     function marcar(elegida) {
@@ -514,50 +707,584 @@
       for (var k = 0; k < botones.length; k++) {
         var letra = botones[k].getAttribute("data-letra");
         botones[k].disabled = true;
+        botones[k].removeAttribute("aria-pressed");
         if (letra === q.clave) botones[k].classList.add("opt--right");
         else if (letra === elegida) botones[k].classList.add("opt--wrong");
       }
       var acerto = elegida === q.clave;
-      el.verdict.textContent = acerto
-        ? "Respuesta correcta"
-        : "Respuesta incorrecta · la correcta es la " + q.clave;
+      el.verdict.textContent = !elegida
+        ? "Sin responder · la correcta es la " + q.clave
+        : acerto ? "Respuesta correcta" : "Respuesta incorrecta · la correcta es la " + q.clave;
       el.verdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
       el.why.textContent = q.comentario || "Esta pregunta todavía no tiene comentario docente.";
       el.feedback.hidden = false;
     }
 
+    /* ----- responder ----- */
     el.options.addEventListener("click", function (ev) {
       var btn = ev.target.closest ? ev.target.closest(".opt") : null;
-      if (!btn || !actual || actual.respuestas[actual.i]) return;
+      if (!btn || !actual || btn.disabled) return;
       var letra = btn.getAttribute("data-letra");
-      actual.respuestas[actual.i] = letra;
-      marcar(letra);
-      pintarPuntaje();
-      avisar("respondida");
-      if (!el.next.disabled) el.next.focus();
+      var q = actual.preguntas[actual.i];
+      if (actual.modo === "estudio") {
+        if (actual.respuestas[actual.i]) return;
+        actual.respuestas[actual.i] = letra;
+        marcar(letra);
+        M.progreso.registrar(q, letra);
+        pintarPuntaje();
+        pintarMapa();
+        if (actual.i >= actual.preguntas.length - 1) el.next.disabled = false;
+        guardarUltima();
+        avisar("respondida");
+        if (!el.next.disabled) el.next.focus();
+      } else {
+        if (actual.fin) return;
+        actual.respuestas[actual.i] = letra;
+        pintarElegida();
+        pintarPuntaje();
+        pintarMapa();
+        avisar("elegida");
+      }
     });
 
-    el.prev.addEventListener("click", function () {
-      if (actual && actual.i > 0) { actual.i--; pintarPregunta(); }
-    });
+    function ir(i) {
+      if (!actual || i < 0 || i >= actual.preguntas.length) return;
+      actual.i = i;
+      pintarPregunta();
+    }
+    el.prev.addEventListener("click", function () { if (actual) ir(actual.i - 1); });
     el.next.addEventListener("click", function () {
-      if (actual && actual.i < actual.preguntas.length - 1) { actual.i++; pintarPregunta(); }
+      if (!actual) return;
+      if (actual.i < actual.preguntas.length - 1) { ir(actual.i + 1); return; }
+      if (actual.modo === "simulacro" && !actual.fin) { pedirTerminar(el.next); return; }
+      mostrarResultado();
+    });
+    el.map.addEventListener("click", function (ev) {
+      var b = ev.target.closest ? ev.target.closest(".sim-map__item") : null;
+      if (b) ir(parseInt(b.getAttribute("data-i"), 10));
+    });
+    vista.addEventListener("mqp:marcada", function () { if (actual) pintarMapa(); });
+
+    el.fav.addEventListener("click", function () {
+      if (!actual) return;
+      M.progreso.alternarFavorita(actual.preguntas[actual.i].id);
+      pintarFavorita();
     });
 
-    function cerrarSimulador() {
+    /* Botones que piden confirmación con un segundo clic (sin diálogos nativos). */
+    function enDosPasos(btn, pregunta, accion) {
+      if (btn.getAttribute("data-armado") === "1") {
+        btn.removeAttribute("data-armado");
+        btn.textContent = btn.getAttribute("data-texto") || btn.textContent;
+        btn.classList.remove("is-armed");
+        accion();
+        return;
+      }
+      btn.setAttribute("data-texto", btn.textContent);
+      btn.setAttribute("data-armado", "1");
+      btn.classList.add("is-armed");
+      btn.textContent = pregunta;
+      setTimeout(function () {
+        if (btn.getAttribute("data-armado") !== "1") return;
+        btn.removeAttribute("data-armado");
+        btn.classList.remove("is-armed");
+        btn.textContent = btn.getAttribute("data-texto");
+      }, 4000);
+    }
+
+    function pedirTerminar(btn) {
+      if (!actual || actual.fin) return;
+      var sin = actual.preguntas.length - contar().hechas;
+      if (!sin) { terminar(false); return; }
+      enDosPasos(btn, "¿Terminar? " + M.plural(sin, "queda sin responder", "quedan sin responder"), function () { terminar(false); });
+    }
+    el.finish.addEventListener("click", function () { pedirTerminar(el.finish); });
+
+    /* ----- terminar y resultados ----- */
+    function terminar(porTiempo) {
+      if (!actual || actual.modo !== "simulacro" || actual.fin) return;
+      actual.fin = true;
+      actual.duracion = Math.min(transcurrido(), actual.limite);
+      actual.porTiempo = !!porTiempo;
+      pararReloj();
+      el.clock.hidden = true;
+      el.finish.hidden = true;
+      var lista = [];
+      for (var k = 0; k < actual.preguntas.length; k++) {
+        if (actual.respuestas[k]) lista.push({ q: actual.preguntas[k], letra: actual.respuestas[k] });
+      }
+      M.progreso.registrarVarias(lista);
+      guardarSesion();
+      mostrarResultado();
+    }
+
+    function guardarSesion() {
+      if (!actual || actual.guardada) return;
+      var c = contar();
+      if (!c.hechas && actual.modo === "estudio") return;
+      actual.guardada = true;
+      M.progreso.agregarSesion({
+        tipo: actual.modo, titulo: actual.cfg.titulo || "Práctica", simulador: actual.cfg.simulador || null,
+        examen: actual.cfg.examen || null, total: c.total, respondidas: c.hechas, correctas: c.bien,
+        duracion: Math.round(actual.duracion || transcurrido())
+      });
+    }
+    function guardarSesionEstudio() { if (actual && actual.modo === "estudio") guardarSesion(); }
+
+    function guardarUltima() {
+      if (!actual || actual.modo !== "estudio" || actual.cfg.noGuardar) return;
+      var c = contar();
+      if (c.hechas >= c.total) { M.progreso.limpiarUltima(); return; }
+      M.progreso.guardarUltima({
+        titulo: actual.cfg.titulo || "Práctica", archivos: actual.cfg.archivos || null,
+        ids: actual.preguntas.map(function (q) { return q.id; }), i: actual.i,
+        respuestas: actual.respuestas.slice(), total: c.total, respondidas: c.hechas, correctas: c.bien,
+        especialidad: actual.preguntas[actual.i].especialidad || "", t: Date.now()
+      });
+    }
+
+    function mostrarResultado() {
+      if (!actual) return;
+      if (actual.modo === "estudio") guardarSesion();
+      var c = contar();
+      var simulacro = actual.modo === "simulacro";
+      var pct = c.total ? Math.round(c.bien / c.total * 100) : 0;
+      el.resKicker.textContent = simulacro ? "Resultado del simulacro" : "Resumen de la sesión";
+      el.resTitle.textContent = actual.cfg.titulo || "Práctica";
+      el.resSub.textContent = simulacro
+        ? (actual.porTiempo ? "Se acabó el tiempo. " : "") + "Revisa cada pregunta con su comentario docente y su flujograma."
+        : "Tus respuestas quedaron guardadas en tu progreso.";
+      el.resRing.style.setProperty("--p", String(pct));
+      el.resPct.textContent = pct + "%";
+      var kpis = [
+        ["Correctas", c.bien + " / " + c.total],
+        ["Incorrectas", String(c.hechas - c.bien)],
+        ["Sin responder", String(c.total - c.hechas)]
+      ];
+      if (simulacro) kpis.push(["Tiempo usado", M.duracion(actual.duracion) + " de " + M.duracion(actual.limite)]);
+      el.resKpis.innerHTML = "";
+      for (var k = 0; k < kpis.length; k++) {
+        var d = document.createElement("div");
+        var dt = document.createElement("dt"); dt.textContent = kpis[k][0];
+        var dd = document.createElement("dd"); dd.textContent = kpis[k][1];
+        d.appendChild(dt); d.appendChild(dd); el.resKpis.appendChild(d);
+      }
+      /* resultado por especialidad */
+      var grupos = {}, orden = [];
+      for (var j = 0; j < actual.preguntas.length; j++) {
+        var q = actual.preguntas[j];
+        var g = grupos[q.especialidad] || (grupos[q.especialidad] = { total: 0, bien: 0 });
+        if (!g.total) orden.push(q.especialidad);
+        g.total++;
+        if (actual.respuestas[j] === q.clave) g.bien++;
+      }
+      el.resBars.innerHTML = "";
+      for (var m = 0; m < orden.length; m++) {
+        var gr = grupos[orden[m]], v = Math.round(gr.bien / gr.total * 100);
+        var li = document.createElement("li");
+        li.className = "bars__row";
+        li.innerHTML = '<span class="bars__label"></span><span class="bars__track"><span class="bars__fill"></span></span><span class="bars__val"></span>';
+        li.querySelector(".bars__label").textContent = orden[m];
+        li.querySelector(".bars__fill").style.setProperty("--v", String(v));
+        li.querySelector(".bars__val").textContent = gr.bien + "/" + gr.total;
+        li.title = orden[m] + ": " + gr.bien + " de " + gr.total + " correctas";
+        el.resBars.appendChild(li);
+      }
+      el.review.hidden = !simulacro;
+      el.repeat.textContent = simulacro ? "Repetir simulacro" : "Practicar de nuevo";
+      el.quiz.hidden = true;
+      el.content.hidden = true;   // detiene el reloj de ritmo
+      el.mapWrap.hidden = true;
+      if (el.hints) el.hints.hidden = true;
+      el.result.hidden = false;
+      el.score.textContent = "";
+      el.result.focus({ preventScroll: true });
+      scrollAVista();
+      avisar("resultado");
+    }
+
+    el.review.addEventListener("click", function () {
+      if (!actual) return;
+      el.result.hidden = true;
+      el.quiz.hidden = false;
+      if (el.hints) el.hints.hidden = false;
+      ir(0);
+      scrollAVista();
+    });
+    el.repeat.addEventListener("click", function () {
+      if (!actual) return;
+      var cfg = {};
+      for (var p in actual.cfg) cfg[p] = actual.cfg[p];
+      delete cfg.i; delete cfg.respuestas;
+      if (cfg.repetirIds === false) delete cfg.ids;
+      if (cfg.orden === "aleatorio") delete cfg.ids;
+      abrir(cfg);
+    });
+    el.done.addEventListener("click", function () { cerrar(); });
+
+    function scrollAVista() {
+      var r = vista.getBoundingClientRect();
+      if (r.top < 0 || r.top > window.innerHeight * 0.6) vista.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
+    }
+
+    /* ----- cerrar ----- */
+    function cerrar() {
+      var cfg = actual ? actual.cfg : null;
+      guardarSesionEstudio();
       turno++;
+      pararReloj();
       actual = null;
-      grid.hidden = false;
       vista.hidden = true;
       avisar("cerrado");
+      document.dispatchEvent(new CustomEvent("mqp:sesion-cerrada", { detail: cfg }));
+      if (cfg && typeof cfg.alCerrar === "function") cfg.alCerrar();
     }
-    el.back.addEventListener("click", function () { cerrarSimulador(); mostrarVista(false); });
+    el.back.addEventListener("click", function () {
+      if (actual && actual.modo === "simulacro" && !actual.fin && contar().hechas) {
+        enDosPasos(el.back, "¿Salir? Perderás este simulacro", cerrar);
+        return;
+      }
+      cerrar();
+    });
 
-    /* "Bancos de preguntas" en el menú o el pie siempre regresa a la cuadrícula. */
+    M.practica = {
+      abrir: abrir,
+      cerrar: function () { if (!vista.hidden) cerrar(); },
+      activa: function () { return !vista.hidden; }
+    };
+  });
+
+  /* ---------- componentes de interfaz compartidos por la web y la plataforma ---------- */
+  safe("ui", function () {
+    var M = window.MQP;
+    if (!M) return;
+
+    /* Tarjeta de especialidad. info: { estado: "cargando" | "ok" | "vacio" | "error",
+       total, respondidas, correctas, tipo } */
+    function tarjetaEspecialidad(esp, k, alEntrenar) {
+      var area = M.area(esp.area);
+      var card = document.createElement("article");
+      card.className = "spec";
+      card.setAttribute("data-tono", String(k % 6));
+      card.style.setProperty("--i", String(k));
+      card.innerHTML =
+        '<div class="spec__top">' +
+          '<span class="spec__icon">' + M.icono(esp.icono) + '</span>' +
+          '<span class="spec__status">Verificando</span>' +
+        '</div>' +
+        '<p class="spec__area"></p>' +
+        '<h3 class="spec__name"></h3>' +
+        '<p class="spec__meta">' + M.icono("libro") + '<span>Contando preguntas…</span></p>' +
+        '<div class="spec__progress" hidden><span class="spec__track"><span class="spec__fill"></span></span><span class="spec__ptext"></span></div>' +
+        '<button class="btn spec__cta" type="button"><span class="spec__cta-text">Entrenar</span>' + M.icono("flecha", "btn__arrow") + '</button>';
+      card.querySelector(".spec__area").textContent = area ? area.nombre : "";
+      card.querySelector(".spec__name").textContent = esp.nombre;
+      var pill = card.querySelector(".spec__status");
+      var meta = card.querySelector(".spec__meta span");
+      var prog = card.querySelector(".spec__progress");
+      var btn = card.querySelector(".spec__cta");
+      var btnTxt = card.querySelector(".spec__cta-text");
+      btn.setAttribute("aria-label", "Entrenar " + esp.nombre);
+      btn.addEventListener("click", function () { if (!btn.disabled) alEntrenar(esp); });
+
+      function actualizar(info) {
+        info = info || {};
+        pill.hidden = false;
+        card.classList.remove("spec--soon");
+        btn.disabled = false;
+        btnTxt.textContent = "Entrenar";
+        prog.hidden = true;
+        if (info.estado === "cargando") {
+          pill.className = "spec__status"; pill.textContent = "Verificando";
+          meta.textContent = "Contando preguntas…";
+        } else if (info.estado === "error") {
+          pill.className = "spec__status spec__status--off"; pill.textContent = "No disponible";
+          meta.textContent = "No se pudo cargar por ahora";
+        } else if (!info.total) {
+          card.classList.add("spec--soon");
+          pill.className = "spec__status spec__status--soon"; pill.textContent = "Próximamente";
+          pill.hidden = true;   // el botón ya lo dice
+          meta.textContent = "Preguntas en preparación";
+          btn.disabled = true;
+          btnTxt.textContent = "Próximamente";
+        } else {
+          pill.className = "spec__status spec__status--ok"; pill.textContent = "Disponible";
+          pill.hidden = true;   // solo se muestran los estados que informan algo
+          meta.textContent = M.plural(info.total, info.tipo ? "pregunta tipo" : "pregunta comentada", info.tipo ? "preguntas tipo" : "preguntas comentadas");
+          if (info.respondidas) {
+            prog.hidden = false;
+            var v = Math.min(100, Math.round(info.respondidas / info.total * 100));
+            prog.querySelector(".spec__fill").style.width = v + "%";
+            prog.querySelector(".spec__ptext").textContent = info.respondidas + " de " + info.total + " respondidas";
+            btnTxt.textContent = "Seguir entrenando";
+          }
+        }
+      }
+      actualizar({ estado: "cargando" });
+      return { nodo: card, actualizar: actualizar };
+    }
+
+    /* Conteo real de preguntas por examen y especialidad a partir de los bancos. */
+    function contarPorExamen(datos) {
+      var c = {};
+      for (var k = 0; k < M.examenes.length; k++) c[M.examenes[k].id] = { total: 0, oficiales: 0, porArchivo: {}, anios: {} };
+      for (var j = 0; j < datos.preguntas.length; j++) {
+        var q = datos.preguntas[j];
+        var e = c[q.examenId];
+        if (!e) continue;
+        e.total++;
+        e.porArchivo[q.archivo] = (e.porArchivo[q.archivo] || 0) + 1;
+        if (q.oficial) { e.oficiales++; if (q.anio) e.anios[q.anio] = true; }
+      }
+      return c;
+    }
+
+    /* Respuestas del estudiante limitadas a un examen, por especialidad. */
+    function progresoPorArchivo(examen) {
+      return M.progreso.resumen(examen).porArchivo;
+    }
+
+    M.ui = { tarjetaEspecialidad: tarjetaEspecialidad, contarPorExamen: contarPorExamen, progresoPorArchivo: progresoPorArchivo };
+  });
+
+  /* ---------- web pública: explorador de bancos por examen ---------- */
+  safe("explorador", function () {
+    var M = window.MQP;
+    var raiz = document.getElementById("bankExplorer");
+    var grid = document.getElementById("specs");
+    if (!M || !M.ui || !raiz || !grid) return;
+
+    var tabs = document.querySelectorAll("#examTabs [role=tab]");
+    var chipsBox = document.getElementById("areaChips");
+    var el = {
+      title: document.getElementById("exTitle"), lead: document.getElementById("exLead"),
+      stats: document.getElementById("exStats"), soon: document.getElementById("exSoon"),
+      soonText: document.getElementById("exSoonText"), soonBtn: document.getElementById("exSoonBtn")
+    };
+    var examen = "enam", area = "", datos = null, conteo = null, tarjetas = {};
+
+    /* tarjetas: una por especialidad (ordenadas por área), se reutilizan al cambiar de examen */
+    var ordenAreas = M.areas.map(function (a) { return a.id; });
+    var lista = M.especialidades.slice().sort(function (a, b) { return ordenAreas.indexOf(a.area) - ordenAreas.indexOf(b.area); });
+    for (var k = 0; k < lista.length; k++) {
+      var t = M.ui.tarjetaEspecialidad(lista[k], k, function (esp) {
+        var ex = M.examen(examen);
+        M.practica.abrir({
+          titulo: esp.nombre + (examen !== "enam" ? " · " + ex.nombre : ""), archivos: [esp.archivo], examen: examen,
+          volverTexto: "Volver a especialidades"
+        });
+      });
+      tarjetas[lista[k].archivo] = t;
+      t.nodo.setAttribute("data-area", lista[k].area);
+      grid.appendChild(t.nodo);
+    }
+
+    /* filtros por área */
+    function pintarChips() {
+      var html = '<button class="chip" type="button" data-area="" aria-pressed="' + (!area) + '">Todas las áreas</button>';
+      for (var j = 0; j < M.areas.length; j++) {
+        html += '<button class="chip" type="button" data-area="' + M.areas[j].id + '" aria-pressed="' + (area === M.areas[j].id) + '">' + M.areas[j].nombre + "</button>";
+      }
+      chipsBox.innerHTML = html;
+    }
+    chipsBox.addEventListener("click", function (ev) {
+      var b = ev.target.closest ? ev.target.closest(".chip") : null;
+      if (!b) return;
+      area = b.getAttribute("data-area");
+      pintarChips();
+      filtrarArea();
+    });
+    function filtrarArea() {
+      for (var a in tarjetas) tarjetas[a].nodo.hidden = !!area && tarjetas[a].nodo.getAttribute("data-area") !== area;
+    }
+
+    function pintar() {
+      var ex = M.examen(examen);
+      el.title.textContent = ex.titulo;
+      el.lead.textContent = ex.lema;
+      var info = conteo ? conteo[examen] : null;
+      var prog = M.ui.progresoPorArchivo(examen);
+      for (var a in tarjetas) {
+        if (!datos) { tarjetas[a].actualizar({ estado: "cargando" }); continue; }
+        var ok = datos.porArchivo[a] && datos.porArchivo[a].ok;
+        var p = prog[a] || {};
+        tarjetas[a].actualizar(ok
+          ? { estado: "ok", total: info.porArchivo[a] || 0, respondidas: p.respondidas || 0, tipo: ex.estado !== "disponible" }
+          : { estado: "error" });
+      }
+      /* resumen del examen, solo con datos contados */
+      el.stats.innerHTML = "";
+      if (info) {
+        var n = 0;
+        for (var b in info.porArchivo) if (info.porArchivo[b]) n++;
+        var items = [];
+        if (info.total) items.push(M.plural(info.total, ex.estado === "disponible" ? "pregunta comentada" : "pregunta tipo", ex.estado === "disponible" ? "preguntas comentadas" : "preguntas tipo"));
+        if (n && ex.estado === "disponible") items.push(M.plural(n, "especialidad", "especialidades"));
+        if (info.oficiales) items.push(info.oficiales + " oficiales ENAM " + Object.keys(info.anios).sort().join(", "));
+        if (ex.estado === "disponible") items.push("Comentario y flujograma en cada pregunta");
+        for (var i = 0; i < items.length; i++) {
+          var li = document.createElement("li");
+          li.innerHTML = M.icono("check");
+          li.appendChild(document.createTextNode(items[i]));
+          el.stats.appendChild(li);
+        }
+      }
+      /* Residentado y EsSalud: módulo visible, banco completo próximamente */
+      el.soon.hidden = ex.estado === "disponible";
+      if (ex.estado !== "disponible") {
+        var tipo = info ? info.total : 0;
+        el.soonText.textContent = tipo
+          ? "Estamos construyendo el banco completo por especialidad. Mientras tanto ya puedes resolver " + M.plural(tipo, "pregunta tipo publicada", "preguntas tipo publicadas") + "."
+          : "Estamos construyendo el banco completo por especialidad.";
+        el.soonBtn.hidden = !tipo;
+        el.soonBtn.textContent = "Practicar " + M.plural(tipo, "pregunta tipo", "preguntas tipo");
+      }
+    }
+    el.soonBtn.addEventListener("click", function () {
+      var ex = M.examen(examen);
+      M.practica.abrir({ titulo: ex.nombre + " · preguntas tipo", examen: examen, volverTexto: "Volver a especialidades" });
+    });
+
+    /* pestañas accesibles (flechas para moverse entre exámenes) */
+    function elegir(id, enfocar) {
+      examen = M.examen(id) ? id : "enam";
+      for (var j = 0; j < tabs.length; j++) {
+        var on = tabs[j].getAttribute("data-examen") === examen;
+        tabs[j].setAttribute("aria-selected", on ? "true" : "false");
+        tabs[j].tabIndex = on ? 0 : -1;
+        if (on && enfocar) tabs[j].focus();
+      }
+      pintar();
+    }
+    for (var j = 0; j < tabs.length; j++) {
+      tabs[j].addEventListener("click", function () { M.practica.cerrar(); elegir(this.getAttribute("data-examen")); });
+      tabs[j].addEventListener("keydown", function (ev) {
+        var i = Array.prototype.indexOf.call(tabs, this), n = tabs.length;
+        if (ev.key === "ArrowRight" || ev.key === "ArrowLeft") {
+          ev.preventDefault();
+          var sig = tabs[(i + (ev.key === "ArrowRight" ? 1 : n - 1)) % n];
+          elegir(sig.getAttribute("data-examen"), true);
+        }
+      });
+    }
+    /* "Explorar ENAM / Residentado / EsSalud" desde cualquier parte de la página */
+    document.addEventListener("click", function (ev) {
+      var a = ev.target.closest ? ev.target.closest("[data-ir-examen]") : null;
+      if (!a) return;
+      M.practica.cerrar();
+      elegir(a.getAttribute("data-ir-examen"));
+    });
+
+    /* mientras hay una sesión abierta se oculta el explorador */
+    document.addEventListener("mqp:sesion-abierta", function () {
+      raiz.hidden = true;
+      var sec = document.getElementById("bancos");
+      if (sec && sec.scrollIntoView) sec.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
+    });
+    document.addEventListener("mqp:sesion-cerrada", function () {
+      raiz.hidden = false;
+      pintar();
+      var sec = document.getElementById("bancos");
+      if (sec && sec.scrollIntoView) sec.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
+    });
+    /* "Bancos de preguntas" en el menú o el pie siempre regresa al explorador */
     var enlaces = document.querySelectorAll('a[href="#bancos"]');
-    for (var j = 0; j < enlaces.length; j++) enlaces[j].addEventListener("click", cerrarSimulador);
+    for (var e = 0; e < enlaces.length; e++) enlaces[e].addEventListener("click", function () { M.practica.cerrar(); });
 
-    pintarGrid();
+    pintarChips();
+    elegir("enam");
+
+    /* cuenta las preguntas cuando la sección se acerca a la pantalla */
+    function contar() {
+      M.cargarTodo().then(function (d) {
+        datos = d;
+        conteo = M.ui.contarPorExamen(d);
+        pintar();
+      });
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entradas) {
+        if (entradas[0].isIntersecting) { io.disconnect(); contar(); }
+      }, { rootMargin: "400px 0px" });
+      io.observe(raiz);
+    } else {
+      contar();
+    }
+    window.addEventListener("mqp:progreso", function () { if (datos) pintar(); });
+  });
+
+  /* ---------- web pública: cifras y simuladores calculados con los bancos ----------
+     Nada de números de ejemplo: el HTML trae los valores actuales como respaldo y
+     aquí se recalculan con las preguntas que realmente hay publicadas. */
+  safe("cifras", function () {
+    var M = window.MQP;
+    var nodos = document.querySelectorAll("[data-metrica], [data-sim]");
+    if (!M || !M.ui || !nodos.length) return;
+
+    function animar(el, n) {
+      var antes = parseInt(String(el.textContent).replace(/\D/g, ""), 10);
+      if (reduced || !isFinite(antes) || antes === n) { el.textContent = M.miles(n); return; }
+      var inicio = null, dur = 700;
+      function paso(t) {
+        if (inicio === null) inicio = t;
+        var p = Math.min((t - inicio) / dur, 1);
+        el.textContent = M.miles(Math.round(antes + (n - antes) * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(paso);
+      }
+      requestAnimationFrame(paso);
+    }
+
+    function calcular(d) {
+      var conteo = M.ui.contarPorExamen(d);
+      var algos = window.MQP_ALGORITMOS || {};
+      var flujos = 0, especialidades = 0;
+      for (var k = 0; k < d.preguntas.length; k++) {
+        var a = algos[d.preguntas[k].id];
+        if (a && (a.imagen || (a.pasos && a.pasos.length))) flujos++;
+      }
+      for (var ar in d.porArchivo) if (d.porArchivo[ar].preguntas.length) especialidades++;
+      var enam = conteo.enam;
+      var valores = {
+        preguntas: d.preguntas.length, especialidades: especialidades, flujogramas: flujos,
+        oficiales: enam.oficiales, enam: enam.total
+      };
+      var met = document.querySelectorAll("[data-metrica]");
+      for (var j = 0; j < met.length; j++) {
+        var clave = met[j].getAttribute("data-metrica");
+        if (clave === "anios") { met[j].textContent = Object.keys(enam.anios).sort().join(", ") || met[j].textContent; continue; }
+        if (clave.indexOf("rm") === 0 || clave.indexOf("essalud") === 0) {
+          var ex = conteo[clave === "rm" ? "residentado" : "essalud"];
+          met[j].textContent = ex ? String(ex.total) : met[j].textContent;
+          continue;
+        }
+        if (valores[clave] != null) animar(met[j], valores[clave]);
+      }
+      /* tarjetas de simuladores: preguntas y tiempo reales */
+      var sims = document.querySelectorAll("[data-sim]");
+      for (var s = 0; s < sims.length; s++) {
+        var sim = M.simulador(sims[s].getAttribute("data-sim"));
+        if (!sim || sim.estado !== "disponible") continue;
+        var disponibles = M.filtrar(d.preguntas, { examen: sim.examen, origen: sim.origen });
+        var n = sim.cantidad ? Math.min(sim.cantidad, disponibles.length) : disponibles.length;
+        var areas = {};
+        for (var q = 0; q < disponibles.length; q++) areas[disponibles[q].archivo] = true;
+        var nN = sims[s].querySelector("[data-sim-n]"), nT = sims[s].querySelector("[data-sim-t]"), nE = sims[s].querySelector("[data-sim-e]");
+        if (nN && !sim.eligeEspecialidad) nN.textContent = String(n);
+        if (nT && !sim.eligeEspecialidad) nT.textContent = M.duracion(n * sim.segundosPorPregunta);
+        if (nE) nE.textContent = String(Object.keys(areas).length);
+      }
+    }
+
+    var hecho = false;
+    function cargar() { if (hecho) return; hecho = true; M.cargarTodo().then(calcular, function () { hecho = false; }); }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entradas) {
+        for (var k = 0; k < entradas.length; k++) if (entradas[k].isIntersecting) { io.disconnect(); cargar(); return; }
+      }, { rootMargin: "200px 0px" });
+      for (var j = 0; j < nodos.length; j++) io.observe(nodos[j]);
+    } else {
+      cargar();
+    }
   });
 
   /* ---------- tema claro / oscuro persistente ----------
@@ -719,6 +1446,7 @@
       if (!estado) return;
       estado.pregunta.marcada = !estado.pregunta.marcada;
       pintarBandera();
+      vista.dispatchEvent(new CustomEvent("mqp:marcada"));
     }
     if (el.flag) el.flag.addEventListener("click", alternarBandera);
 
@@ -818,7 +1546,7 @@
         if (!respondida && preseleccion) {
           var elegido = boton(preseleccion);
           if (elegido) elegido.click();
-        } else if (respondida && el.next && !el.next.disabled) {
+        } else if ((respondida || estado.elegida) && el.next && !el.next.disabled) {
           el.next.click();
         }
       } else if (k === "f" || k === "F") {
@@ -847,7 +1575,8 @@
       if (visor) { visor.destruir(); visor = null; }
       el.modal.classList.toggle("algo-modal--visor", !!(algo && algo.imagen));
       if (algo && algo.imagen) {
-        visor = crearVisor(algo.imagen, algo.alt || el.modalTitle.textContent, function (nodo) {
+        var ruta = /^(https?:|\/|data:)/.test(algo.imagen) ? algo.imagen : ((window.MQP && window.MQP.base) || "") + algo.imagen;
+        visor = crearVisor(ruta, algo.alt || el.modalTitle.textContent, function (nodo) {
           /* archivo ausente o con otro nombre en flujogramas/: avisa en vez de mostrar una imagen rota */
           var aviso = document.createElement("p");
           aviso.className = "algo-modal__note";
@@ -1109,7 +1838,15 @@
       decorarOpciones();
       pintarRecall();
       pintarBandera();
-      if (estado.respondida) congelarRitmo(); else iniciarRitmo();
+      if (estado.respondida || estado.elegida) congelarRitmo(); else iniciarRitmo();
+    });
+    /* modo simulacro: elegir no corrige, pero el ritmo de la pregunta se detiene */
+    vista.addEventListener("mqp:elegida", function (ev) {
+      estado = ev.detail;
+      preseleccion = null;
+      var lista = botones();
+      for (var k = 0; k < lista.length; k++) lista[k].classList.remove("is-preselected");
+      congelarRitmo();
     });
     vista.addEventListener("mqp:respondida", function (ev) {
       estado = ev.detail;
@@ -1256,7 +1993,9 @@
       var elNombre = document.getElementById("successName");
       var elMsg = document.getElementById("successMsg");
       if (elNombre) elNombre.textContent = nombreCorto;
-      if (elMsg) elMsg.textContent = "Tu cuenta gratuita para el " + examen.value + " quedó lista y te guardamos un lugar en el simulacro del sábado.";
+      if (elMsg) elMsg.textContent = "Tu cuenta gratuita para " + (examen.value === "RM" ? "el Residentado" : examen.value === "EsSalud" ? "EsSalud" : "el ENAM") + " quedó lista. Ya puedes entrar a la plataforma y empezar a entrenar.";
+      /* solo se recuerda el examen elegido, para abrir la plataforma en ese examen */
+      if (window.MQP) window.MQP.progreso.preferencia("examen", examen.value === "RM" ? "residentado" : examen.value === "EsSalud" ? "essalud" : "enam");
 
       form.hidden = true;
       exito.hidden = false;
@@ -1273,7 +2012,7 @@
      El navegador solo habla con api.php, que es quien guarda la llave y llama
      al modelo de IA. Aquí no hay ninguna credencial. */
   safe("chat", function () {
-    var ENDPOINT = "api.php";          // relativo: funciona también en subcarpetas
+    var ENDPOINT = ((window.MQP && window.MQP.base) || "") + "api.php";   // relativo a la raíz del sitio
     var MAX_TURNOS = 10;               // turnos que se reenvían como contexto
     var ESPERA_MAXIMA = 60000;         // ms antes de rendirse con la petición
     var MEMORIA = "medquizpro_chat";   // clave de sessionStorage

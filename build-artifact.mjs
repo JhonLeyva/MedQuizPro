@@ -16,6 +16,7 @@ const html = readFileSync("index.html", "utf8");
 const css = readFileSync("styles.css", "utf8");
 const js = readFileSync("main.js", "utf8");
 const algoritmos = readFileSync("algoritmos.js", "utf8");
+const catalogo = readFileSync("catalogo.js", "utf8");
 
 const bancos = {};
 for (const nombre of readdirSync("bancos").filter((n) => n.endsWith(".json")).sort()) {
@@ -29,6 +30,7 @@ const cuerpo = html
   .replace(/<!-- chat:inicio[\s\S]*?<!-- chat:fin -->\n?/, "")
   .replace(/<script[^>]*src="main\.js[^"]*"[^>]*><\/script>\n?/, "")
   .replace(/<script[^>]*src="algoritmos\.js[^"]*"[^>]*><\/script>\n?/, "")
+  .replace(/<script[^>]*src="catalogo\.js[^"]*"[^>]*><\/script>\n?/, "")
   .trim();
 
 const fuentes = (html.match(/<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^"]*">/) || [""])[0];
@@ -44,6 +46,7 @@ ${css.trim()}
 ${cuerpo}
 <script>
 window.MQP_BANCOS = ${bancosJs};
+${catalogo.trim()}
 ${algoritmos.trim()}
 ${js.trim()}
 </script>

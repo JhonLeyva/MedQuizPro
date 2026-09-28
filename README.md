@@ -1,23 +1,61 @@
-# MedQuizPro — landing page + tutor de IA
+# MedQuizPlus — web pública + plataforma de estudio
 
-Landing interactiva para una plataforma de preguntas tipo **ENAM / Residentado Médico (RM) / EsSalud**,
-con un **chatbot de inteligencia artificial** en la esquina inferior derecha.
+Preparación para el **ENAM**, el **Residentado Médico** y **EsSalud**.
 Sitio estático (HTML, CSS y JavaScript sin dependencias ni compilación) + un único archivo PHP
-que hace de puente con el modelo de IA.
+para el tutor de IA. Dos experiencias separadas:
+
+```
+MEDQUIZPLUS
+├── WEB PÚBLICA  (index.html)          descubrir → entender → probar → registrarse
+│   Hero con pregunta interactiva, cifras reales, selección de examen,
+│   bancos por examen y especialidad, simuladores, cómo funciona,
+│   características, vista previa, planes, registro, FAQ, CTA y pie.
+│
+└── PLATAFORMA   (app/index.html)      entrenar → resolver → analizar → mejorar
+    #/inicio · #/examenes[/enam|residentado|essalud] · #/banco · #/simuladores[/id]
+    #/progreso · #/falladas · #/favoritas · #/perfil
+```
 
 ## Archivos
 
 | Archivo | Para qué sirve |
 |---|---|
-| `index.html` | La página, incluido el widget de chat. Todo el contenido está en el HTML; el JS solo lo enriquece. |
-| `styles.css` | Estilos y paleta, con tema claro y tema oscuro. |
-| `main.js` | Interacciones: menú móvil, pregunta de muestra, filtro de bancos, cuenta regresiva, registro y **el chatbot**. |
-| `api.php` | El backend del chatbot. Recibe el mensaje, llama al modelo de IA con la llave del servidor y devuelve el texto. |
-| `config.example.php` | Plantilla de configuración para hostings sin variables de entorno. Se copia como `config.php`. |
-| `.env.example` | Las variables de entorno que hay que definir (forma recomendada). |
-| `.htaccess` | Caché, compresión y bloqueo del acceso web a `config.php` y `.env`. |
-| `build-artifact.mjs` | Regenera `artifact.html` a partir de los tres archivos de la página. |
-| `artifact.html` | La misma página en un solo archivo, para publicarla donde solo se admite una página (sin chat: no hay PHP detrás). |
+| `index.html` | Web pública. |
+| `app/index.html`, `app/app.js`, `app/app.css` | Plataforma de estudio: enrutador por `#/ruta` y sus vistas. |
+| `catalogo.js` | **Datos compartidos**: exámenes, áreas, especialidades, simuladores, carga de bancos y progreso del estudiante. |
+| `main.js` | Componentes compartidos: motor de práctica (modo estudio y modo simulacro), tarjetas de especialidad, modo simulación (tachado, bandera, Active Recall, ritmo de 60 s, atajos), visor de flujogramas, chat, tema y la interacción de la web pública. |
+| `styles.css` | Sistema visual (tokens, claro/oscuro) y estilos de la web pública y del simulador. |
+| `algoritmos.js` + `flujogramas/` | Flujograma de cada pregunta. |
+| `bancos/*.json` | Las preguntas: un archivo por especialidad. |
+| `api.php`, `config.example.php`, `.env.example` | Backend del tutor de IA. |
+| `.htaccess` | Caché, compresión y bloqueo de `config.php` y `.env`. |
+| `build-artifact.mjs` → `artifact.html` | La web pública en un solo archivo (sin chat ni plataforma). |
+| `verificar-flujogramas.html` | Diagnóstico de los SVG en el servidor. |
+
+## Regla de datos
+
+Nada de cifras de ejemplo. Todo número visible se **cuenta en vivo** desde `bancos/*.json`
+(preguntas, preguntas oficiales, especialidades, flujogramas, preguntas y tiempo de cada simulador)
+o sale de las respuestas del propio estudiante. El HTML trae los valores actuales solo como respaldo.
+
+- Los precios del plan Premium no están definidos: la tarjeta dice «Próximamente».
+- Residentado y EsSalud aparecen como módulos «Próximamente» con sus especialidades; las preguntas
+  tipo que ya existen (`examen_origen` «Residentado…» / «EsSalud…») se pueden practicar.
+- El progreso (respuestas, falladas, favoritas, sesiones) se guarda en `localStorage`
+  (`mqp_progreso_v1`) de ese navegador. El registro sigue siendo una demostración.
+
+## Cómo crece sin rediseñar
+
+- **Nueva pregunta**: se añade a su `bancos/<archivo>.json`. `examen_origen` decide el examen
+  (empieza por `ENAM`, `Residentado` o `EsSalud`). Todas las cifras se actualizan solas.
+- **Nueva especialidad**: nuevo `.json` + una línea en `ESPECIALIDADES` de `catalogo.js`.
+- **Abrir Residentado o EsSalud**: cargar sus preguntas y cambiar `estado` a `"disponible"` en `EXAMENES`
+  y en su simulador de `SIMULADORES`.
+- **Nuevo simulador**: una entrada en `SIMULADORES` (examen, filtro de origen, cantidad, orden).
+- **Categorías** dentro de una especialidad: campo `categorias: []` reservado; hoy las preguntas
+  oficiales traen `tema`, que se muestra en cada pregunta.
+- **Cuentas de usuario**: reemplazar `leer()`/`escribir()` de `MQP.progreso` por llamadas a la API;
+  la plataforma no cambia.
 
 ## El chatbot
 
@@ -149,15 +187,6 @@ en el log de errores del servidor:
 Requisitos del hosting: **PHP 8.0 o superior** con la extensión cURL activada
 (Hostinger la trae activada por defecto).
 
-## Secciones de la página
-
-- **Portada** con una pregunta de examen que se puede responder ahí mismo (tres preguntas rotativas con explicación).
-- **Bancos de Preguntas** — marcador de posición, filtrable por ENAM / RM / EsSalud.
-- **Simulacros Gratis** — marcador de posición, con cuenta regresiva al próximo simulacro abierto.
-- **Cómo funciona** — tres pasos.
-- **Registro** — formulario con validación en el navegador (no envía datos a ningún servidor).
-- **Tutor** — el chatbot descrito arriba.
-
 ## Ver la página en local
 
 El chat necesita PHP, así que conviene levantar el servidor de PHP:
@@ -171,12 +200,11 @@ pero el chat responderá con el mensaje de error (no hay PHP detrás).
 
 ## Publicar
 
-Subir `index.html`, `styles.css`, `main.js`, `api.php`, `config.example.php` y `.htaccess`
-a la raíz del hosting (`public_html`), y definir allí `AI_API_KEY` (o crear `config.php`).
-Al cambiar los estilos o el script, subir el número de versión de `?v=20260925`
-en `index.html` para que el navegador no sirva la copia vieja.
+Subir a la raíz del hosting (`public_html`): `index.html`, `styles.css`, `catalogo.js`, `main.js`,
+`algoritmos.js`, las carpetas `app/`, `bancos/` y `flujogramas/`, `api.php`, `config.example.php`
+y `.htaccess`; y definir allí `AI_API_KEY` (o crear `config.php`).
+La plataforma queda en `https://tudominio.com/app/`.
+Al cambiar estilos o scripts, subir el número de versión de `?v=` en `index.html` y `app/index.html`.
 
-`artifact.html` se genera con `node build-artifact.mjs` y va sin el widget de chat,
-porque un archivo suelto no tiene un servidor donde guardar la llave.
-
-Las cifras, los bancos y las fechas son contenido de ejemplo.
+`artifact.html` se genera con `node build-artifact.mjs` y va sin el widget de chat ni la plataforma,
+porque un archivo suelto no tiene servidor detrás.
