@@ -111,6 +111,8 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - el sello naranja "✓ RESPUESTA" y cualquier etiqueta o rótulo con la palabra "RESPUESTA";
   - nombres de archivo que no sean ASCII en minúscula (`[a-z0-9-]+\.svg`) o que ya existan (`existing_names.txt`);
   - usar la etiqueta de especialidad equivocada en dermatología u ORL dentro de REU u OFT.
+- **Cada flujograma es propio de su pregunta.** Parte del caso clínico concreto (edad, datos clave) y muestra la ruta hasta el diagnóstico o la conducta correcta, marcada visualmente ("ESTE CASO", ruta resaltada, rombo), pero sin escribir la palabra "respuesta".
+- **Plantillas de los verificadores:** `site/verificar-flujogramas-bloque6.html` (cópialo y cambia la lista de IDs por la del bloque 7) y `site/verificar-flujogramas.html` (cambia "deben ser 1079" por 1579).
 - **Proceso por tandas:**
   1. Escribe `content7a…py` sobre un `c7.py` (copia de `c6.py`, lista `F7`) y un `build7f.py` (copia de `build6f.py` que lea `../nuevos7.json` y escriba en `out7`).
   2. Pasa `overlap`, `check`/`check2` y revisa hojas de contacto.
