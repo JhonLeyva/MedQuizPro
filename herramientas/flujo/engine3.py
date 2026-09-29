@@ -59,7 +59,7 @@ def radial(s, y, d):
         draw_block(s, x, yy, cw, hs[i], t, b, "answer" if i == ans else "plain", 13.5, 12, accent=None if i == ans else acc)
         if i == ans:
             case_chip(s, x + cw / 2, yy + hs[i] + 1)
-    y = section(s, y + H + 22, "Cómo llega el caso a la respuesta")
+    y = section(s, y + H + 22, "Cómo llega el caso al diagnóstico")
     return chips_route(s, y, d["ruta"])
 
 
