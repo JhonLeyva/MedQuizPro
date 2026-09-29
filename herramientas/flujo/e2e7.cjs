@@ -1,5 +1,5 @@
 const { chromium } = require('/opt/node22/lib/node_modules/playwright');
-const ids = JSON.parse(require('fs').readFileSync('out6/order.json', 'utf8')).map(o => o[0]);
+const ids = JSON.parse(require('fs').readFileSync('out7/order.json', 'utf8')).map(o => o[0]);
 (async () => {
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
   const p = await b.newPage({ viewport: { width: 1600, height: 1000 } });
@@ -21,7 +21,7 @@ const ids = JSON.parse(require('fs').readFileSync('out6/order.json', 'utf8')).ma
     return out;
   }, ids);
   console.log(JSON.stringify(r));
-  for (const [esp, target] of [['Cardiología', 'CAR-039'], ['Ginecología', 'GIN-093'], ['Salud', 'SP-080']]) {
+  for (const [esp, target] of [['Cardiología', 'CAR-071'], ['Ginecología', 'GIN-225'], ['Salud', 'SP-165']]) {
     await p.goto('http://localhost:8765/index.html');
     await p.locator('#specs button[aria-label*="' + esp + '"]').first().click();
     await p.waitForTimeout(600);
@@ -45,7 +45,7 @@ const ids = JSON.parse(require('fs').readFileSync('out6/order.json', 'utf8')).ma
     if (!found) console.log(target, 'NO ENCONTRADA');
   }
   const g = await b.newPage({ viewport: { width: 390, height: 800 } });
-  await g.goto('http://localhost:8765/verificar-flujogramas-bloque6.html');
+  await g.goto('http://localhost:8765/verificar-flujogramas-bloque7.html');
   await g.evaluate(() => { for (const i of document.images) i.loading = 'eager'; });
   await g.waitForTimeout(3000);
   const w = await g.evaluate(() => [...document.images].map(i => i.naturalWidth));
