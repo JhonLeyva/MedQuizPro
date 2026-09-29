@@ -1,0 +1,781 @@
+{
+  "especialidad": "Hematología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "HEM-001",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 30 años con menstruaciones abundantes, fatiga y caída de cabello. Hemoglobina 8,9 g/dL, VCM 70 fL, HCM 22 pg, RDW elevado. ¿Cuál es el dato de laboratorio más útil para confirmar la causa de la anemia?",
+      "opciones": {
+        "A": "Ferritina sérica baja",
+        "B": "Hierro sérico elevado",
+        "C": "Electroforesis de hemoglobina con HbA2 elevada",
+        "D": "Reticulocitos elevados",
+        "E": "Vitamina B12 baja"
+      },
+      "clave_correcta": "A",
+      "comentario": "Anemia microcítica e hipocrómica con RDW elevado en una mujer con pérdidas menstruales orienta a ferropenia. La ferritina baja es el marcador más específico de depósitos de hierro agotados. En la talasemia menor el RDW suele ser normal y la HbA2 está elevada; la vitamina B12 baja produce anemia macrocítica."
+    },
+    {
+      "id": "HEM-002",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En el hemograma se encuentra: hemoglobina disminuida, microcitosis, VCM disminuido y ferritina sérica disminuida. ¿A qué tipo de anemia corresponde?",
+      "opciones": [
+        "Ferropénica",
+        "Megaloblástica",
+        "Hemolítica",
+        "Falciforme",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La anemia microcítica (VCM disminuido) asociada a niveles bajos de ferritina sérica (agotamiento de reservas) es el perfil clásico de la anemia ferropénica.",
+      "comentario": "La anemia microcítica (VCM disminuido) asociada a niveles bajos de ferritina sérica (agotamiento de reservas) es el perfil clásico de la anemia ferropénica.",
+      "tema": "Anemias",
+      "año": 2020
+    },
+    {
+      "id": "HEM-003",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años con anorexia, pérdida de peso y diarrea crónica. Antecedente de fiebre tifoidea complicada hace 4 años que obligó a resección del íleon terminal. Al examen: palidez marcada, glositis, queilosis e ictericia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Anemia megaloblástica",
+        "Talasemia",
+        "Anemia ferropénica",
+        "Esferocitosis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La resección del íleon terminal elimina el sitio anatómico de absorción del complejo vitamina B12-factor intrínseco, desencadenando un déficit de cobalamina que se manifiesta como anemia megaloblástica con glositis e ictericia hemolítica intramedular.",
+      "comentario": "La resección del íleon terminal elimina el sitio anatómico de absorción del complejo vitamina B12-factor intrínseco, desencadenando un déficit de cobalamina que se manifiesta como anemia megaloblástica con glositis e ictericia hemolítica intramedular.",
+      "tema": "Anemias megaloblásticas",
+      "año": 2020
+    },
+    {
+      "id": "HEM-004",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 40 años, alcohólico, obeso. Pálido, Hb: 9 g/dl, macrocitosis, B12 baja, ácido fólico normal. Biopsia gástrica: gastritis crónica con atrofia fúndica. ¿Cuál sustancia está deficiente?",
+      "opciones": [
+        "Factor intrínseco",
+        "Gastrina",
+        "Urogastrona",
+        "Defensina",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Este paciente presenta anemia macrocítica con niveles bajos de vitamina B12, pero con ácido fólico normal. Además, tiene antecedentes de alcoholismo y se encuentra pálido. La biopsia gástrica revela gastritis atrófica fúndica, una característica típica de anemia perniciosa. Esta condición autoinmune destruye las células parietales responsables de la síntesis del factor intrínseco, necesario para la absorción intestinal de la vitamina B12 en el íleon terminal. Su deficiencia conduce a anemia megaloblástica.",
+      "comentario": "Este paciente presenta anemia macrocítica con niveles bajos de vitamina B12, pero con ácido fólico normal. Además, tiene antecedentes de alcoholismo y se encuentra pálido. La biopsia gástrica revela gastritis atrófica fúndica, una característica típica de anemia perniciosa. Esta condición autoinmune destruye las células parietales responsables de la síntesis del factor intrínseco, necesario para la absorción intestinal de la vitamina B12 en el íleon terminal. Su deficiencia conduce a anemia megaloblástica.",
+      "tema": "Anemia perniciosa",
+      "año": 2020
+    },
+    {
+      "id": "HEM-005",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años refiere desde hace 3 años artralgias. Examen: palidez, no deformidades articulares. Laboratorio: leucocitos 5.890/mm3; Hb 12,5 g/dl; plaquetas 217.000/mm3. Frotis de sangre periférica: hipocromía y microcitosis. Hierro total y ferritina normales. Electroforesis de hemoglobina: HbA1: 93%, HbA2: 5,8% y HbF:1,2%. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Anemia ferropénica",
+        "Anemia hemolítica autoinmune",
+        "β-talasemia menor",
+        "Infección por Plasmodium vivax",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente presenta una anemia microcítica hipocrómica sin ferropenia, lo que ya descarta una anemia ferropénica. La electroforesis de hemoglobina muestra un incremento de HbA2 (5,8%), lo cual es diagnóstico de β-talasemia menor. Esta es una hemoglobinopatía hereditaria que suele cursar de forma asintomática o con síntomas leves como astenia o artralgias, como en este caso. No hay hallazgos sugestivos de hemólisis activa ni de infección.",
+      "comentario": "La paciente presenta una anemia microcítica hipocrómica sin ferropenia, lo que ya descarta una anemia ferropénica. La electroforesis de hemoglobina muestra un incremento de HbA2 (5,8%), lo cual es diagnóstico de β-talasemia menor. Esta es una hemoglobinopatía hereditaria que suele cursar de forma asintomática o con síntomas leves como astenia o artralgias, como en este caso. No hay hallazgos sugestivos de hemólisis activa ni de infección.",
+      "tema": "Beta talasemia menor",
+      "año": 2020
+    },
+    {
+      "id": "HEM-006",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 72 años, post operada por diverticulitis perforada desarrolla hipotensión arterial. Sangre periférica: leucocitosis y esquistocitos. Se transfunde plasma fresco, presentando a la 5ta bolsa disnea grave y tos con esputo espumoso. Rx: edema de pulmón bilateral. ¿Cuál componente del hemoderivado ha causado esta reacción?",
+      "opciones": [
+        "Granulocitos",
+        "Haptoglobina",
+        "Fibrinógeno",
+        "Factor VIIIa",
+        "Ciprofloxacino"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente transfundida con plasma fresco congelado que desarrolla disnea súbita y edema pulmonar bilateral durante la 5ta bolsa, orienta a un síndrome pulmonar post transfusión (TRALI: Transfusion Related Acute Lung Injury). Este cuadro se debe a una reacción inmunológica entre los leucocitos del receptor y los anticuerpos anti -HLA o antigranulocitos del donante, lo que activa los neutrófilos y produce daño pulmonar agudo. El componente responsable son los granulocitos, ya que son los efectores que desencadenan el edema pulmonar. No es una sobrecarga hídrica (TACO), dado que hay disnea aguda, sin hipertensión o signos de sobrecarga.",
+      "comentario": "Paciente transfundida con plasma fresco congelado que desarrolla disnea súbita y edema pulmonar bilateral durante la 5ta bolsa, orienta a un síndrome pulmonar post transfusión (TRALI: Transfusion Related Acute Lung Injury). Este cuadro se debe a una reacción inmunológica entre los leucocitos del receptor y los anticuerpos anti -HLA o antigranulocitos del donante, lo que activa los neutrófilos y produce daño pulmonar agudo. El componente responsable son los granulocitos, ya que son los efectores que desencadenan el edema pulmonar. No es una sobrecarga hídrica (TACO), dado que hay disnea aguda, sin hipertensión o signos de sobrecarga.",
+      "tema": "Lesión pulmonar aguda por transfusión (TRALI)",
+      "año": 2021
+    },
+    {
+      "id": "HEM-007",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 54 años, hace 9 meses nota cansancio con el esfuerzo. Laboratorio: Hb 10,7 g/dl; VCM 73 µm3; leucocitos 8,035/mm3; plaquetas 315,000/mm3. ¿Qué examen ayudaría a precisar el tipo de anemia?",
+      "opciones": [
+        "Haptoglobina sérica",
+        "Biopsia de médula ósea",
+        "Electroforesis de hemoglobina",
+        "Ferritina sérica",
+        "Radiografía simple"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con anemia microcítica (Hb 10.7, VCM 73) con leucocitos y plaquetas normales, lo que orienta a una anemia ferropénica como primera posibilidad. El examen que permite confirmarlo y evaluar el grado de reservas de hierro es la ferritina sérica, marcador más específico de la deficiencia de hierro. La haptoglobina se usa en anemias hemolíticas, la biopsia medular en pancitopenias o síndromes medulares, y la electroforesis en sospecha de hemoglobinopatías (más probable en microcitosis con antecedente familiar).",
+      "comentario": "Paciente con anemia microcítica (Hb 10.7, VCM 73) con leucocitos y plaquetas normales, lo que orienta a una anemia ferropénica como primera posibilidad. El examen que permite confirmarlo y evaluar el grado de reservas de hierro es la ferritina sérica, marcador más específico de la deficiencia de hierro. La haptoglobina se usa en anemias hemolíticas, la biopsia medular en pancitopenias o síndromes medulares, y la electroforesis en sospecha de hemoglobinopatías (más probable en microcitosis con antecedente familiar).",
+      "tema": "Anemia microcítica: ferritina",
+      "año": 2021
+    },
+    {
+      "id": "HEM-008",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 62 años acude por dolor en espalda al movimiento. Ha notado reducción de estatura. Laboratorio: anemia moderada e hipercalcemia. Rx: lesiones osteolíticas en el cráneo y pelvis. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Mieloma múltiple",
+        "Policitemia vera",
+        "Macroglobulinemia",
+        "Osteoporosis severa",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer de 62 años con síntomas sugestivos de afectación ósea multifocal (dolor, reducción de estatura) y datos clínicos/laboratoriales claves: anemia normocítica, hipercalcemia, y lesiones osteolíticas en cráneo y pelvis. Este conjunto de hallazgos es característico del mie loma múltiple, un cáncer hematológico de células plasmáticas. La hipercalcemia resulta de la reabsorción ósea, y las lesiones líticas reflejan infiltración ósea maligna. La policitemia vera y la macroglobulinemia pueden causar síntomas generales, pero no c ursan con lisis ósea. La osteoporosis puede dar dolor y fracturas, pero no produce hipercalcemia ni lesiones líticas. El diagnóstico más probable es mieloma múltiple.",
+      "comentario": "Mujer de 62 años con síntomas sugestivos de afectación ósea multifocal (dolor, reducción de estatura) y datos clínicos/laboratoriales claves: anemia normocítica, hipercalcemia, y lesiones osteolíticas en cráneo y pelvis. Este conjunto de hallazgos es característico del mie loma múltiple, un cáncer hematológico de células plasmáticas. La hipercalcemia resulta de la reabsorción ósea, y las lesiones líticas reflejan infiltración ósea maligna. La policitemia vera y la macroglobulinemia pueden causar síntomas generales, pero no c ursan con lisis ósea. La osteoporosis puede dar dolor y fracturas, pero no produce hipercalcemia ni lesiones líticas. El diagnóstico más probable es mieloma múltiple.",
+      "tema": "Mieloma múltiple",
+      "año": 2021
+    },
+    {
+      "id": "HEM-009",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 32 años puérpera de 24 horas presenta cefalea intensa seguida de desorientación y hemiparesia derecha. Hallazgos: T: 38.9°C, diuresis de 400 ml en 24 horas, Hb: 6 g/dl y presencia de esquistocitos en frotis de sangre periférica. Con este cuadro la terapia indicada es transfusión de:",
+      "opciones": [
+        "Eritrocitos lavados",
+        "Sangre total",
+        "Paquete globular",
+        "Plasma fresco congelado",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente puérpera de 24 horas con síntomas neurológicos agudos (cefalea, hemiparesia, desorientación), fiebre, anemia hemolítica microangiopática (evidenciada por esquistocitos) e oliguria grave. Este conjunto clínico es altamente sugestivo de un síndrome de púrpura trombocitopénica trombótica (PTT), que puede manifestarse en el posparto. En este contexto, la terapia de elección es la infusión de plasma fresco congelado, que provee ADAMTS13 funcional y ayuda a detener la cascada trombótica. Transfundir sangre total o paquetes globulares no aborda la fisiopatología subyacente, mientras que el plasma sí interrumpe el proceso autoinmune o deficitario. Por tanto, la intervención inicial más eficaz es el plasma fresco congelado.",
+      "comentario": "Paciente puérpera de 24 horas con síntomas neurológicos agudos (cefalea, hemiparesia, desorientación), fiebre, anemia hemolítica microangiopática (evidenciada por esquistocitos) e oliguria grave. Este conjunto clínico es altamente sugestivo de un síndrome de púrpura trombocitopénica trombótica (PTT), que puede manifestarse en el posparto. En este contexto, la terapia de elección es la infusión de plasma fresco congelado, que provee ADAMTS13 funcional y ayuda a detener la cascada trombótica. Transfundir sangre total o paquetes globulares no aborda la fisiopatología subyacente, mientras que el plasma sí interrumpe el proceso autoinmune o deficitario. Por tanto, la intervención inicial más eficaz es el plasma fresco congelado.",
+      "tema": "Púrpura trombocitopénica trombótica en el puerperio",
+      "año": 2021
+    },
+    {
+      "id": "HEM-010",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 26 años, sexualmente activa, consulta por cansancio y esporádica sensación de sentir su latido cardiaco. De positivo en el examen se encuentra leve palidez y en sangre microcitosis e hipocromía con niveles bajos de ferritina. La primera posibilidad es una anemia de tipo:",
+      "opciones": [
+        "Ferropénica",
+        "Esferocítica",
+        "Por deficiencia de vitamina B12",
+        "Por deficiencia de folatos",
+        "Ibuprofeno"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente joven, sexualmente activa, que presenta síntomas constitucionales leves (cansancio, palpitaciones) asociados a signos de anemia (palidez). El hemograma muestra microcitosis e hipocromía, lo cual orienta a una anemia microcítica hipocrómica, y el hallazgo clave es la ferritina sérica baja, que es el marca dor más sensible y específico para anemia ferropénica. Las anemias megaloblásticas (por deficiencia de B12 o folato) cursan con macrocitosis, y la esferocitosis hereditaria muestra esferocitos en el frotis, no microcitosis. Por tanto, el diagnóstico más probable es anemia ferropénica por deficiencia de hierro.",
+      "comentario": "Paciente joven, sexualmente activa, que presenta síntomas constitucionales leves (cansancio, palpitaciones) asociados a signos de anemia (palidez). El hemograma muestra microcitosis e hipocromía, lo cual orienta a una anemia microcítica hipocrómica, y el hallazgo clave es la ferritina sérica baja, que es el marca dor más sensible y específico para anemia ferropénica. Las anemias megaloblásticas (por deficiencia de B12 o folato) cursan con macrocitosis, y la esferocitosis hereditaria muestra esferocitos en el frotis, no microcitosis. Por tanto, el diagnóstico más probable es anemia ferropénica por deficiencia de hierro.",
+      "tema": "Anemia ferropénica",
+      "año": 2021
+    },
+    {
+      "id": "HEM-011",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 72 años, refiere sufrir de artritis reumatoide, se queja de disnea y fatiga desde hace 6 meses. Laboratorio: Hb: 8.5 g/dL; VCM: 69 fl; plaquetas: 220,000; sideremia: 30 mg/dL; ferritina: 520 ng/mL. Dichas características apoyan la sospecha de anemia por:",
+      "opciones": [
+        "Enfermedad crónica",
+        "Carencia de hierro",
+        "Déficit de B12",
+        "Hemólisis intravascular",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con artritis reumatoide y síntomas de anemia, presenta laboratorio compatible con anemia microcítica hiposidérica, pero con ferritina elevada, lo que indica adecuada reserva férrica intracelular. Este patrón es típico de la anemia por enfermedad crónica, donde la inflamación crónica (como la A R) causa secuestro de hierro y disminución en su utilización. A diferencia de la deficiencia de hierro (donde la ferritina está baja), aquí los depósitos están elevados. No hay macrocitosis ni signos de hemólisis. Por tanto, la causa más probable es: anemia por enfermedad crónica.",
+      "comentario": "Paciente con artritis reumatoide y síntomas de anemia, presenta laboratorio compatible con anemia microcítica hiposidérica, pero con ferritina elevada, lo que indica adecuada reserva férrica intracelular. Este patrón es típico de la anemia por enfermedad crónica, donde la inflamación crónica (como la A R) causa secuestro de hierro y disminución en su utilización. A diferencia de la deficiencia de hierro (donde la ferritina está baja), aquí los depósitos están elevados. No hay macrocitosis ni signos de hemólisis. Por tanto, la causa más probable es: anemia por enfermedad crónica.",
+      "tema": "Anemia de enfermedad crónica",
+      "año": 2021
+    },
+    {
+      "id": "HEM-012",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Escolar de 8 años con diagnóstico de leucemia linfoblástica aguda que acude a control. En el hemograma se reporta: leucocitos totales: 10,000 x mm³, 35% segmentados, 5% bastones, 50% linfocitos, 10% monocitos. ¿Cuánto es el recuento absoluto de neutrófilos por mm³?",
+      "opciones": [
+        "4,000",
+        "3,500",
+        "5,000",
+        "500",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Para calcular el recuento absoluto de neutrófilos (RAN) se utiliza la fórmula: RAN = Leucocitos totales x (% segmentados + % bastones)/100. Aplicando los datos: 10,000 x (35 + 5) /100 = 10,000 x 0.40 = 4,000 neutrófilos/mm³. Este valor indica un recuento dentro del rango normal, lo que es relevante para el control de pacientes oncológicos. La interpretación correcta del RAN es fundamental para valorar el riesgo de infecciones en estos casos. Por tanto, la respuesta correcta es 4,000.",
+      "comentario": "Para calcular el recuento absoluto de neutrófilos (RAN) se utiliza la fórmula: RAN = Leucocitos totales x (% segmentados + % bastones)/100. Aplicando los datos: 10,000 x (35 + 5) /100 = 10,000 x 0.40 = 4,000 neutrófilos/mm³. Este valor indica un recuento dentro del rango normal, lo que es relevante para el control de pacientes oncológicos. La interpretación correcta del RAN es fundamental para valorar el riesgo de infecciones en estos casos. Por tanto, la respuesta correcta es 4,000.",
+      "tema": "Recuento absoluto de neutrófilos",
+      "año": 2021
+    },
+    {
+      "id": "HEM-013",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años, consulta por aparición de tumoraciones cervicales y axilares indoloras. Al examen: PA 110/70 mmHg, FC 89 x', T° 38.9 °C, se palpan adenopatías cervicales y axilares indoloras, de consistencia elástica. Resto sin alteraciones. ¿Cuál es el procedimiento más recomendable para el diagnóstico?",
+      "opciones": [
+        "Extirpación de ganglio cervical y estudio anatomopatológico",
+        "Tomografía de tórax, abdomen y pelvis",
+        "Biopsia de médula ósea por aspiración",
+        "Endoscopía digestiva y fibrobroncoscopía pulmonar",
+        "Tomografía con contraste"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las adenopatías generalizadas, indoloras, elásticas y persistentes, especialmente en pacientes mayores con fiebre, orientan hacia un probable linfoma. Para establecer el diagnóstico definitivo, se requiere un estudio histopatológico del ganglio linfático completo, ya que la punción o biopsia por aspiración no permite evaluar la arquitectura ganglionar. Por ello, el paso más recomendable es la extirpación total del ganglio cervical y su análisis anatomopatológico.",
+      "comentario": "Las adenopatías generalizadas, indoloras, elásticas y persistentes, especialmente en pacientes mayores con fiebre, orientan hacia un probable linfoma. Para establecer el diagnóstico definitivo, se requiere un estudio histopatológico del ganglio linfático completo, ya que la punción o biopsia por aspiración no permite evaluar la arquitectura ganglionar. Por ello, el paso más recomendable es la extirpación total del ganglio cervical y su análisis anatomopatológico.",
+      "tema": "Linfoma: biopsia ganglionar",
+      "año": 2021
+    },
+    {
+      "id": "HEM-014",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niña de 4 años presenta desde hace un mes palidez, fatiga y dolor óseo en piernas. Al examen: hepatoesplenomegalia. Laboratorio: Hb 7 g/dl, plaquetas 20000/mm³, leucocitos 35000/mm³, linfoblastos 1%. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Biopsia hepática",
+        "Radiografía de extremidades",
+        "Ecografía abdominal",
+        "Aspirado de médula ósea",
+        "Gammagrafía"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Niña con palidez, fatiga y dolor óseo, presenta pancitopenia y linfocitosis en laboratorio. La presencia de blastos en sangre periférica y el antecedente de hepatoesplenomegalia sugieren un proceso hematológico maligno, probablemente leucemia aguda linfoblástica (LAL), la más común en niños. El examen confirmatorio y necesario para el diagnóstico es el aspirado de médula ósea, que permite evaluar la celularidad y el porcentaje de blastos. La biopsia hepática no es útil aquí. Radiografías o ecografías pueden complementar, pero no confirman.",
+      "comentario": "Niña con palidez, fatiga y dolor óseo, presenta pancitopenia y linfocitosis en laboratorio. La presencia de blastos en sangre periférica y el antecedente de hepatoesplenomegalia sugieren un proceso hematológico maligno, probablemente leucemia aguda linfoblástica (LAL), la más común en niños. El examen confirmatorio y necesario para el diagnóstico es el aspirado de médula ósea, que permite evaluar la celularidad y el porcentaje de blastos. La biopsia hepática no es útil aquí. Radiografías o ecografías pueden complementar, pero no confirman.",
+      "tema": "Leucemia linfoblástica aguda: aspirado de médula ósea",
+      "año": 2021
+    },
+    {
+      "id": "HEM-015",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 45 años con palidez severa. Hemograma: Hb 1 g/dl, VCM aumentado. Estudio de lámina: macrocitosis, polimorfonucleares polisegmentados. Biopsia de estómago: gastritis crónica atrófica. La causa de la anemia se debería a una disminución del número de células:",
+      "opciones": [
+        "Cimógenas",
+        "Principales",
+        "Argentafines",
+        "Parietales",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente masculino con anemia macrocítica severa (Hb 1 g/dl, VCM aumentado), y hallazgos de macrocitosis y poli segmentación de neutrófilos, hallazgos clásicos de una anemia megaloblástica, típicamente por déficit de vitamina B12. La biopsia gástrica muestra gastritis crónica atrófica, patología en la que se destruyen las células parietales, que son responsables de secretar el factor intrínseco, necesario para la absorción intestinal de vitamina B12 en el íleon terminal. Sin factor intrínseco, se produce mala absorción crónica de B12, lo que lleva a defectos en la síntesis de ADN, causando la morfología megaloblástica. Por tanto, la causa de la anemia se relaciona con la pérdida de células parietales.",
+      "comentario": "Paciente masculino con anemia macrocítica severa (Hb 1 g/dl, VCM aumentado), y hallazgos de macrocitosis y poli segmentación de neutrófilos, hallazgos clásicos de una anemia megaloblástica, típicamente por déficit de vitamina B12. La biopsia gástrica muestra gastritis crónica atrófica, patología en la que se destruyen las células parietales, que son responsables de secretar el factor intrínseco, necesario para la absorción intestinal de vitamina B12 en el íleon terminal. Sin factor intrínseco, se produce mala absorción crónica de B12, lo que lleva a defectos en la síntesis de ADN, causando la morfología megaloblástica. Por tanto, la causa de la anemia se relaciona con la pérdida de células parietales.",
+      "tema": "Anemia perniciosa: células parietales",
+      "año": 2022
+    },
+    {
+      "id": "HEM-016",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 50 años, manifiesta que desde hace 6 meses presenta fatiga, dolor óseo, fiebre recurrente con pérdida de 10 kilos de peso. Al examen: esplenomegalia. Laboratorio: Hb 13 mg/dl, leucocitos 43000/mm³, neutrófilos 95%, 24% de segmentados, promielocitos 5%, blastos 1% y plaquetas 460,000/mm³. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Trombocitosis esencial",
+        "Leucemia mieloide crónica",
+        "Mielofibrosis primaria",
+        "Leucemia linfocítica crónica",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón de edad media con síndrome constitucional (fatiga, fiebre, pérdida de peso) y esplenomegalia masiva, lo que sugiere una enfermedad hematológica crónica. El hemograma muestra leucocitosis severa con reacción en cayado (presencia de precursores mieloides en sangre periférica), junto con trombocitosis. Esta característica es típica de la leucemia mieloide crónica (LMC), que cursa con maduración conservada y predomina en adultos. La trombocitosis esencial no presenta esa proliferación leucocitaria. La mielofibrosis tiene leucoeritroblastosis y dacriocitos. La LLC muestra linfocitosis, no neutrofilia.",
+      "comentario": "Varón de edad media con síndrome constitucional (fatiga, fiebre, pérdida de peso) y esplenomegalia masiva, lo que sugiere una enfermedad hematológica crónica. El hemograma muestra leucocitosis severa con reacción en cayado (presencia de precursores mieloides en sangre periférica), junto con trombocitosis. Esta característica es típica de la leucemia mieloide crónica (LMC), que cursa con maduración conservada y predomina en adultos. La trombocitosis esencial no presenta esa proliferación leucocitaria. La mielofibrosis tiene leucoeritroblastosis y dacriocitos. La LLC muestra linfocitosis, no neutrofilia.",
+      "tema": "Leucemia mieloide crónica",
+      "año": 2022
+    },
+    {
+      "id": "HEM-017",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 58 años acude a emergencia con diátesis hemorrágica. No tiene antecedente de hemorragia; se encuentra TTPA prolongado, se realiza la prueba de mezcla y no corrige. Se sospecha de…",
+      "opciones": [
+        "Inhibidores de los factores",
+        "Hiperhomocisteinemia",
+        "Insuficiencia de antitrombina III",
+        "Mutación de protrombina",
+        "Furosemida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El caso presenta una diátesis hemorrágica con un TTPA prolongado que no corrige con la prueba de mezcla, lo cual sugiere la presencia de inhibidores de los factores de coagulación, una condición en la que el cuerpo produce anticuerpos que inactivan los factores de coagulación en lugar de producir la coagulación normal. Esto puede causar una alteración significativa en la hemostasia, como se observa en esta paciente. La prueba de mezcla, que normalmente corrige la prolongación del TTPA si hay una deficiencia de factores, no lo hace en presencia de inhibidores.",
+      "comentario": "El caso presenta una diátesis hemorrágica con un TTPA prolongado que no corrige con la prueba de mezcla, lo cual sugiere la presencia de inhibidores de los factores de coagulación, una condición en la que el cuerpo produce anticuerpos que inactivan los factores de coagulación en lugar de producir la coagulación normal. Esto puede causar una alteración significativa en la hemostasia, como se observa en esta paciente. La prueba de mezcla, que normalmente corrige la prolongación del TTPA si hay una deficiencia de factores, no lo hace en presencia de inhibidores.",
+      "tema": "TTPa prolongado que no corrige: inhibidores",
+      "año": 2023
+    },
+    {
+      "id": "HEM-018",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 34 años acude a consultar por edema y dolor en tobillo izquierdo. Recibe terapia con anticonceptivos orales combinados, fuma ocasionalmente. ¿Cuál es el principal mecanismo responsable de este efecto adverso?",
+      "opciones": [
+        "Disminución de la agregación plaquetaria",
+        "Incremento de la síntesis de factores de coagulación",
+        "Incremento de síntesis de antitrombina III",
+        "Incremento de la síntesis de proteína C",
+        "Omeprazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los anticonceptivos orales combinados, especialmente los que contienen estrógenos, incrementan la síntesis hepática de factores de coagulación (como el fibrinógeno y los factores VII, VIII, IX y X), generando un estado de hipercoagulabilidad. Esto, junto con factores de riesgo adicionales como el tabaquismo, favorece la formación de trombosis venosa profunda, manifestada aquí como edema y dolor en el tobillo.",
+      "comentario": "Los anticonceptivos orales combinados, especialmente los que contienen estrógenos, incrementan la síntesis hepática de factores de coagulación (como el fibrinógeno y los factores VII, VIII, IX y X), generando un estado de hipercoagulabilidad. Esto, junto con factores de riesgo adicionales como el tabaquismo, favorece la formación de trombosis venosa profunda, manifestada aquí como edema y dolor en el tobillo.",
+      "tema": "Anticonceptivos combinados y trombosis",
+      "año": 2023
+    },
+    {
+      "id": "HEM-019",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 4 años presenta hace un mes cansancio, malestar general, irritabilidad, febrícula intermitente y hace 3 días se agrega dolor moderado en MMII que lo hace despertar por la noche. Examen: palidez, petequias, hepatoesplenomegalia. Hemograma: Hb: 9.5 g/dl, leucocitos: 15000/mm3, plaquetas 80000/mm3. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Leucemia mieloide aguda",
+        "Leucemia linfoblástica aguda",
+        "Rabdomiosarcoma",
+        "Anemia aplásica",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El caso describe a un niño con síntomas constitucionales (cansancio, irritabilidad, febrícula), signos de infiltración medular (palidez, petequias), visceromegalias (hepatoesplenomegalia) y dolor óseo nocturno, lo cual es altamente sugestivo de Leucemia Linfoblástica Aguda (LLA), la neoplasia maligna más frecuente en la edad pediátrica. El hemograma muestra anemia, trombocitopenia y leucocitosis, lo cual refuerza la sospecha. El dolor óseo que interfiere con el sueño es un dato clave en la LLA debido a la expansión medular por células blásticas. A diferencia de la anemia aplásica (que no presenta visceromegalias ni dolor óseo), o un rabdomiosarcoma (que no suele generar pancitopenia ni infiltración medular), la LLA explica integralmente el cuadro clínico y los hallazgos de laboratorio.",
+      "comentario": "El caso describe a un niño con síntomas constitucionales (cansancio, irritabilidad, febrícula), signos de infiltración medular (palidez, petequias), visceromegalias (hepatoesplenomegalia) y dolor óseo nocturno, lo cual es altamente sugestivo de Leucemia Linfoblástica Aguda (LLA), la neoplasia maligna más frecuente en la edad pediátrica. El hemograma muestra anemia, trombocitopenia y leucocitosis, lo cual refuerza la sospecha. El dolor óseo que interfiere con el sueño es un dato clave en la LLA debido a la expansión medular por células blásticas. A diferencia de la anemia aplásica (que no presenta visceromegalias ni dolor óseo), o un rabdomiosarcoma (que no suele generar pancitopenia ni infiltración medular), la LLA explica integralmente el cuadro clínico y los hallazgos de laboratorio.",
+      "tema": "Leucemia linfoblástica aguda en el niño",
+      "año": 2023
+    },
+    {
+      "id": "HEM-020",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 71 años PO2 prótesis de cadera, en forma brusca presenta disnea y dolor torácico, dímero D; 1200 ng/ml. Se inicia tratamiento con heparina no fraccionada, al octavo día presenta múltiples petequias y equimosis en el tórax, abdomen y MMSS. Laboratorio: Hb: 11 g/dl, leucocitos 11824/mm3, plaquetas: 27200/mm3, TP: 12 s y TTP: 39 s. ¿Cuál es la causa más probable de la alteración de la hemostasia?",
+      "opciones": [
+        "Sepsis",
+        "Heparina no fraccionada",
+        "CID",
+        "Hemofilia adquirida",
+        "Ceftriaxona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El diagnóstico más probable es trombocitopatía inducida por heparina (también conocida como trombocitopatía inducida por heparina tipo II o HIT). En este caso, la paciente presenta una disminución significativa de plaquetas tras el inicio del tratamiento con heparina no fraccionada, lo cual es una manifestación típica de esta condición. Además, la aparición de petequias y equimosis refleja una alteración en la hemostasia debido a la trombocitopatía. Este síndrome puede llevar a eventos trombóticos a pesar de la trombocitopenia, por lo que es fundamental cambiar a un anticoagulante alternativo, como un inhibidor de la trombina.",
+      "comentario": "El diagnóstico más probable es trombocitopatía inducida por heparina (también conocida como trombocitopatía inducida por heparina tipo II o HIT). En este caso, la paciente presenta una disminución significativa de plaquetas tras el inicio del tratamiento con heparina no fraccionada, lo cual es una manifestación típica de esta condición. Además, la aparición de petequias y equimosis refleja una alteración en la hemostasia debido a la trombocitopatía. Este síndrome puede llevar a eventos trombóticos a pesar de la trombocitopenia, por lo que es fundamental cambiar a un anticoagulante alternativo, como un inhibidor de la trombina.",
+      "tema": "Trombocitopenia inducida por heparina",
+      "año": 2023
+    },
+    {
+      "id": "HEM-021",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niña de 3 años, acude por lesiones puntiformes en piel y al lavarse los dientes presentó sangrado. Antecedente: hace dos semanas tuvo rinofaringitis aguda. Examen: petequias en MMII, mucosa oral con rasgos de sangre. Laboratorio: Hemograma: Hb: 10.5 g/dl, leucocitos 8500/mm3, plaquetas 8500/mm3, orina: normal; creatinina: 1 mg/dl. ¿Cuál es el diagnostico probable?",
+      "opciones": [
+        "Anemia aplásica",
+        "Enfermedad de Von Willebrandt",
+        "Síndrome hemolítico urémico",
+        "Trombocitopenia inmune primaria",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La niña presenta petequias en los miembros inferiores y sangrado en las encías al lavarse los dientes, lo que sugiere una alteración en la coagulación o en la cantidad de plaquetas. El hemograma revela una plaquetopenia significativa (8500/mm3), lo que es indicativo de trombocitopenia. Además, la presencia de petequias y la historia de rinofaringitis aguda dos semanas antes sugieren una posible trombocitopenia inmune primaria (PTI), que es una condición autoinmune en la que el sistema inmunológico destruye las plaquetas. Este trastorno es común en niños y puede aparecer después de una infección viral, como la rinofaringitis, lo que encaja con el contexto clínico presentado. El síndrome hemolítico urémico y la enfermedad de Von Willebrandt son menos probables debido a la ausencia de otros signos clínicos característicos, como insuficiencia renal o alteraciones en la coagulación. La anemia aplásica también es poco probable, dado que no hay evidencia de un déficit de glóbulos rojos o leucocitos.",
+      "comentario": "La niña presenta petequias en los miembros inferiores y sangrado en las encías al lavarse los dientes, lo que sugiere una alteración en la coagulación o en la cantidad de plaquetas. El hemograma revela una plaquetopenia significativa (8500/mm3), lo que es indicativo de trombocitopenia. Además, la presencia de petequias y la historia de rinofaringitis aguda dos semanas antes sugieren una posible trombocitopenia inmune primaria (PTI), que es una condición autoinmune en la que el sistema inmunológico destruye las plaquetas. Este trastorno es común en niños y puede aparecer después de una infección viral, como la rinofaringitis, lo que encaja con el contexto clínico presentado. El síndrome hemolítico urémico y la enfermedad de Von Willebrandt son menos probables debido a la ausencia de otros signos clínicos característicos, como insuficiencia renal o alteraciones en la coagulación. La anemia aplásica también es poco probable, dado que no hay evidencia de un déficit de glóbulos rojos o leucocitos.",
+      "tema": "Trombocitopenia inmune primaria en el niño",
+      "año": 2023
+    },
+    {
+      "id": "HEM-022",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 75 años que desde hace 6 meses presenta fatiga, parestesias en brazos y piernas. Examen: palidez de piel y mucosas, disminución de la sensibilidad vibratoria. Lab: Hb 9 g/dL. VCM 110 fL. Frotis: hipersegmentación de neutrófilos, macroovalocitos, anisocitosis y poiquilocitosis. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Anemia megaloblástica",
+        "Talasemia",
+        "Anemia sideroblástica",
+        "Anemia ferropénica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fatiga, palidez de piel y mucosas junto a una Hb 9 g/dl con VCM 110 fl sugerentes de una anemia macrocítica junto a la clínica neurológica y la presencia de hipersegmentación de neutrófilos y macroovalocitos confirman el diagnóstico de anemia megaloblástica (Opción A). Esta es una anemia macrocítica caracterizada por la presencia de eritrocitos inmaduros grandes (megaloblastos) en la médula ósea y en la sangre periférica. Suele estar asociada con deficiencias de vitamina B12 o ácido fólico, que son esenciales para la síntesis del ADN y la división celular adecuada. Los síntomas clásicos incluyen fatiga, debilidad, parestesias, palidez y cambios neurológicos.",
+      "comentario": "La fatiga, palidez de piel y mucosas junto a una Hb 9 g/dl con VCM 110 fl sugerentes de una anemia macrocítica junto a la clínica neurológica y la presencia de hipersegmentación de neutrófilos y macroovalocitos confirman el diagnóstico de anemia megaloblástica (Opción A). Esta es una anemia macrocítica caracterizada por la presencia de eritrocitos inmaduros grandes (megaloblastos) en la médula ósea y en la sangre periférica. Suele estar asociada con deficiencias de vitamina B12 o ácido fólico, que son esenciales para la síntesis del ADN y la división celular adecuada. Los síntomas clásicos incluyen fatiga, debilidad, parestesias, palidez y cambios neurológicos.",
+      "tema": "Anemia megaloblástica por déficit de B12",
+      "año": 2023
+    },
+    {
+      "id": "HEM-023",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 23 años, hospitalizada desde hace 7 días por presentar fiebre y malestar general. Examen: PA 120/70 mmHg, FC 110 X´, T 39 °C. Lab: Leucocitos: 400 /mm3, Hb 5 g/dl, plaquetas: 3000/mm3. ¿Qué tipo de aislamiento se debe implementar principalmente?",
+      "opciones": [
+        "Entérico",
+        "Inverso",
+        "De contacto",
+        "Respiratorio",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El caso describe a una paciente hospitalizada con fiebre persistente, neutropenia severa (leucocitos 400/mm³, lo cual indica neutrófilos <500/mm³) y pancitopenia (Hb baja y plaquetas disminuidas), lo que la clasifica como inmunosuprimida, en particular con alto riesgo de infecciones oportunistas. La prioridad en estos casos es el aislamiento inverso, que tiene como objetivo proteger a la paciente de patógenos externos debido a su inmunosupresión. El aislamiento inverso incluye medidas como el uso de habitaciones individuales, restricciones de visitas, equipo de protección personal para el personal y cuidados especiales para evitar infecciones por microorganismos externos. El aislamiento entérico estaría indicado para enfermedades gastrointestinales infecciosas como Clostridioides difficile, pero este caso no muestra signos de diarrea ni una sospecha de infección intestinal. El aislamiento de contacto se usa para evitar la transmisión de infecciones por contacto directo con patógenos resistentes, como Staphylococcus aureus resistente a meticilina, pero la paciente no presenta una infección de este tipo. El aislamiento respiratorio es necesario en enfermedades de transmisión aérea como tuberculosis o sarampión, lo cual no se observa en este caso.",
+      "comentario": "El caso describe a una paciente hospitalizada con fiebre persistente, neutropenia severa (leucocitos 400/mm³, lo cual indica neutrófilos <500/mm³) y pancitopenia (Hb baja y plaquetas disminuidas), lo que la clasifica como inmunosuprimida, en particular con alto riesgo de infecciones oportunistas. La prioridad en estos casos es el aislamiento inverso, que tiene como objetivo proteger a la paciente de patógenos externos debido a su inmunosupresión. El aislamiento inverso incluye medidas como el uso de habitaciones individuales, restricciones de visitas, equipo de protección personal para el personal y cuidados especiales para evitar infecciones por microorganismos externos. El aislamiento entérico estaría indicado para enfermedades gastrointestinales infecciosas como Clostridioides difficile, pero este caso no muestra signos de diarrea ni una sospecha de infección intestinal. El aislamiento de contacto se usa para evitar la transmisión de infecciones por contacto directo con patógenos resistentes, como Staphylococcus aureus resistente a meticilina, pero la paciente no presenta una infección de este tipo. El aislamiento respiratorio es necesario en enfermedades de transmisión aérea como tuberculosis o sarampión, lo cual no se observa en este caso.",
+      "tema": "Neutropenia grave: aislamiento inverso",
+      "año": 2024
+    },
+    {
+      "id": "HEM-024",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 45 años, fumador, acude con resultados de laboratorio: Hb 18.6 g/dl, Hto 58%, masa eritrocitaria elevada, SatO₂ 92%, plaquetas 510000 /mm3, eritropoyetina disminuida y carboxihemoglobina normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipernefroma",
+        "Policitemia vera",
+        "Quistes Renales",
+        "Poliglobulia del fumador",
+        "Hipertensión arterial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El caso describe a un varón de 45 años con Hb elevada, hematocrito superior al 55%, masa eritrocitaria aumentada, saturación de oxígeno de 92%, eritropoyetina disminuida y carboxihemoglobina normal, lo cual orienta a policitemia vera como diagnóstico más probable (CLAVE). La policitemia vera es una neoplasia mieloproliferativa caracterizada por aumento clonal de eritrocitos asociado a mutaciones en JAK2 en más del 95% de los casos, y se acompaña frecuentemente de trombocitosis, como en este caso, con plaquetas de 510000/mm³. La eritropoyetina disminuida indica producción independiente de estímulo hipoxémico, descartando causas secundarias. El hipernefroma puede producir eritropoyetina ectópica, pero esto resultaría en niveles elevados de eritropoyetina y no trombocitosis. Los quistes renales suelen asociarse a enfermedad renal poliquística, pero no generan policitemia ni trombocitosis y suelen cursar con disfunción renal evidente. La poliglobulia del fumador es secundaria a hipoxia crónica con niveles bajos de oxígeno arterial, algo que no se cumple aquí ya que la saturación está al límite de normalidad, y suele acompañarse de carboxihemoglobina elevada por el tabaquismo, que tampoco se encuentra en este caso.",
+      "comentario": "El caso describe a un varón de 45 años con Hb elevada, hematocrito superior al 55%, masa eritrocitaria aumentada, saturación de oxígeno de 92%, eritropoyetina disminuida y carboxihemoglobina normal, lo cual orienta a policitemia vera como diagnóstico más probable (CLAVE). La policitemia vera es una neoplasia mieloproliferativa caracterizada por aumento clonal de eritrocitos asociado a mutaciones en JAK2 en más del 95% de los casos, y se acompaña frecuentemente de trombocitosis, como en este caso, con plaquetas de 510000/mm³. La eritropoyetina disminuida indica producción independiente de estímulo hipoxémico, descartando causas secundarias. El hipernefroma puede producir eritropoyetina ectópica, pero esto resultaría en niveles elevados de eritropoyetina y no trombocitosis. Los quistes renales suelen asociarse a enfermedad renal poliquística, pero no generan policitemia ni trombocitosis y suelen cursar con disfunción renal evidente. La poliglobulia del fumador es secundaria a hipoxia crónica con niveles bajos de oxígeno arterial, algo que no se cumple aquí ya que la saturación está al límite de normalidad, y suele acompañarse de carboxihemoglobina elevada por el tabaquismo, que tampoco se encuentra en este caso.",
+      "tema": "Policitemia vera: eritropoyetina baja",
+      "año": 2024
+    },
+    {
+      "id": "HEM-025",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Preescolar de 3 años, hace 3 días presenta gingivorragia. Antecedentes: niega. Examen: leve sangrado en mucosa gingival, petequias en tronco, extremidades y mucosa yugal; no adenomegalias ni esplenomegalia. Lab: Leucocitos 9800/mm3, Hb 11.5 g/dL, plaquetas 12000/mm3, TP 12”, TTPA 35”. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Inmunoglobulina",
+        "Plasma fresco",
+        "Plasmaféresis",
+        "Crioprecipitado",
+        "Azitromicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Niño preescolar con sangrado gingival y petequias, sin signos de hepatomegalia ni esplenomegalia, y con plaquetopenia severa (12 000/mm³), sugiere como diagnóstico más probable una púrpura trombocitopénica inmune (PTI). El TP y TTPA normales descartan coagulopatías. En menores de 5 años, la PTI es usualmente postinfecciosa, de curso agudo y autolimitado, pero el tratamiento se indica si hay sangrado activo. La inmunoglobulina intravenosa (IgIV) es una de las terapias de primera línea por su acción inmunomoduladora rápida.",
+      "comentario": "Niño preescolar con sangrado gingival y petequias, sin signos de hepatomegalia ni esplenomegalia, y con plaquetopenia severa (12 000/mm³), sugiere como diagnóstico más probable una púrpura trombocitopénica inmune (PTI). El TP y TTPA normales descartan coagulopatías. En menores de 5 años, la PTI es usualmente postinfecciosa, de curso agudo y autolimitado, pero el tratamiento se indica si hay sangrado activo. La inmunoglobulina intravenosa (IgIV) es una de las terapias de primera línea por su acción inmunomoduladora rápida.",
+      "tema": "PTI con sangrado mucoso: inmunoglobulina",
+      "año": 2024
+    },
+    {
+      "id": "HEM-026",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Niño de 3 años portador de cromosomopatía genética presenta epistaxis, hematomas corporales periódicamente y pérdida de peso siendo diagnosticado de leucemia. ¿Cuál síndrome se relaciona más frecuentemente con esta patología?",
+      "opciones": [
+        "Angelman",
+        "Klinefelter",
+        "Turner",
+        "Down",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente pediátrico con epistaxis recurrente, hematomas, pérdida de peso y diagnóstico de leucemia, lo cual orienta a una diátesis hemorrágica asociada a patología hematológica maligna. La relación entre síndrome de Down y leucemias, especialmente leucemia mieloide aguda (LMA tipo M7) y leucemia linfoblástica aguda (LLA), está bien establecida. Esta predisposición se debe a anomalías genéticas en el cromosoma 21, que alteran la diferenciación y proliferación celular. Otras cromosomopatías no tienen asociación significativa con leucemias.",
+      "comentario": "Paciente pediátrico con epistaxis recurrente, hematomas, pérdida de peso y diagnóstico de leucemia, lo cual orienta a una diátesis hemorrágica asociada a patología hematológica maligna. La relación entre síndrome de Down y leucemias, especialmente leucemia mieloide aguda (LMA tipo M7) y leucemia linfoblástica aguda (LLA), está bien establecida. Esta predisposición se debe a anomalías genéticas en el cromosoma 21, que alteran la diferenciación y proliferación celular. Otras cromosomopatías no tienen asociación significativa con leucemias.",
+      "tema": "Síndrome de Down y leucemia",
+      "año": 2025
+    },
+    {
+      "id": "HEM-027",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En la leucemia mieloide aguda, ¿Cuál es el factor pronóstico más importante al momento del diagnóstico?",
+      "opciones": [
+        "Edad",
+        "Leucemias agudas secundarias",
+        "Alteraciones citogenéticas",
+        "Recuento leucocitario",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la leucemia mieloide aguda, el pronóstico varía significativamente entre los pacientes y depende de factores biológicos más que clínicos. Entre ellos, las alteraciones citogenéticas y moleculares representan el determinante pronóstico más importante al diagnóstico. Fisiopatológicamente, las mutaciones y reordenamientos cromosómicos influyen directamente en la respuesta al tratamiento y en la probabilidad de recaída. Por ejemplo, la translocación t( 8;21) y la inv(16) se asocian a buen pronóstico, mientras que mutaciones en FLT3-ITD o monosomías cromosómicas indican mal pronóstico. Aunque la edad y el recuento leucocitario también tienen valor pronóstico, la citogenética define la estratificación terapéutica y la indicación de trasplante. En conclusión, las alteraciones citogenéticas constituyen el factor pronóstico más relevante y decisivo en la leucemia mieloide aguda.",
+      "comentario": "En la leucemia mieloide aguda, el pronóstico varía significativamente entre los pacientes y depende de factores biológicos más que clínicos. Entre ellos, las alteraciones citogenéticas y moleculares representan el determinante pronóstico más importante al diagnóstico. Fisiopatológicamente, las mutaciones y reordenamientos cromosómicos influyen directamente en la respuesta al tratamiento y en la probabilidad de recaída. Por ejemplo, la translocación t( 8;21) y la inv(16) se asocian a buen pronóstico, mientras que mutaciones en FLT3-ITD o monosomías cromosómicas indican mal pronóstico. Aunque la edad y el recuento leucocitario también tienen valor pronóstico, la citogenética define la estratificación terapéutica y la indicación de trasplante. En conclusión, las alteraciones citogenéticas constituyen el factor pronóstico más relevante y decisivo en la leucemia mieloide aguda.",
+      "tema": "Leucemia mieloide aguda: pronóstico citogenético",
+      "año": 2025
+    },
+    {
+      "id": "HEM-028",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 40 años con antecedentes personales y familiares de sangrados mucocutáneos. Examen: petequias, sin hepatomegalia ni esplenomegalia. Laboratorio: tiempo de sangría prolongado, actividad del factor VIII disminuida y agregación plaquetaria por ristocetina disminuida. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tromboastenia de Glanzmann",
+        "Enfermedad de von Willebrand",
+        "Hemofilia B leve",
+        "Hemofilia A leve",
+        "Cirrosis hepática"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El cuadro clínico y de laboratorio corresponde a una enfermedad de von Willebrand, caracterizada por sangrados mucocutáneos, petequias y antecedentes familiares compatibles con un trastorno hereditario autosómico dominante. La prolongación del tiempo de sangría y la disminución tanto del factor VIII como de la agregación plaquetaria por ristocetina son datos distintivos, ya que el factor von Willebrand facilita la adhesión plaquetaria y estabiliza el factor VIII. En contraste, la tromboastenia de Glanzmann presenta agregación plaquetaria alterada con ristocetina normal, y las hemofilias no alteran el tiempo de sangría.",
+      "comentario": "El cuadro clínico y de laboratorio corresponde a una enfermedad de von Willebrand, caracterizada por sangrados mucocutáneos, petequias y antecedentes familiares compatibles con un trastorno hereditario autosómico dominante. La prolongación del tiempo de sangría y la disminución tanto del factor VIII como de la agregación plaquetaria por ristocetina son datos distintivos, ya que el factor von Willebrand facilita la adhesión plaquetaria y estabiliza el factor VIII. En contraste, la tromboastenia de Glanzmann presenta agregación plaquetaria alterada con ristocetina normal, y las hemofilias no alteran el tiempo de sangría.",
+      "tema": "Enfermedad de von Willebrand",
+      "año": 2025
+    },
+    {
+      "id": "HEM-029",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 48 años hace 4 días diagnóstico de piocolecisto, actualmente en sepsis. Presenta hematuria y lesiones purpúricas en miembros inferiores. Hto: 28%, leucocitos: 23,300/mm³, plaquetas: 75,000/mm³; protrombina, TTPa y tiempo de trombina prolongados; fibrinógeno disminuido. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Déficit de vitamina K",
+        "Hemofilia A",
+        "Púrpura trombocitopénica autoinmune",
+        "Coagulación intravascular diseminada",
+        "Metronidazol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta un cuadro de sepsis secundaria a una infección biliar complicada (piocolecisto), seguido de signos de sangrado (hematuria, púrpura), trombocitopenia, alargamiento de los tiempos de coagulación (TP, TTPa y TT), y disminución del fibrinógeno. Este perfil clínico y de laboratorio es característico de una coagulación intravascular diseminada (CID), una complicación grave de la sepsis que lleva a consumo masivo de factores de coagulación y plaquetas. La CID se diferencia de otras coagulopatías porque incluye tanto signos de sangrado como de trombosis, y se asocia a condiciones graves como infecciones, traumatismos o malignidades.",
+      "comentario": "El paciente presenta un cuadro de sepsis secundaria a una infección biliar complicada (piocolecisto), seguido de signos de sangrado (hematuria, púrpura), trombocitopenia, alargamiento de los tiempos de coagulación (TP, TTPa y TT), y disminución del fibrinógeno. Este perfil clínico y de laboratorio es característico de una coagulación intravascular diseminada (CID), una complicación grave de la sepsis que lleva a consumo masivo de factores de coagulación y plaquetas. La CID se diferencia de otras coagulopatías porque incluye tanto signos de sangrado como de trombosis, y se asocia a condiciones graves como infecciones, traumatismos o malignidades.",
+      "tema": "Coagulación intravascular diseminada en la sepsis",
+      "año": 2020
+    },
+    {
+      "id": "HEM-030",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Gestante de 6 meses, consulta por palidez. Estudio hemático: hemoglobina 8 g/dl. Constantes corpusculares disminuidas. Anisocitosis ++, hipocromía ++, presencia de microcitos y reticulocitos disminuidos. Estos hallazgos son compatibles con una anemia:",
+      "opciones": [
+        "Perniciosa",
+        "Aplásica",
+        "Ferropénica",
+        "Hemolítica",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Gestante de 6 meses con Hb 8 g/dl y constantes corpusculares disminuidas orienta a anemia microcítica hipocrómica. La presencia de anisocitosis, hipocromía, microcitos y reticulocitos bajos descarta hemólisis y sugiere defecto en síntesis de hemoglobina. La causa más común en gestantes es anemia ferropénica, por aumento de requerimientos y déficit de hierro. Se descarta anemia megaloblástica por la morfología. La anemia aplásica cursa con pancitopenia, y la hemolítica con reticulocitosis. El tratamiento se basa en sulfato ferroso oral y control del tratamiento con ferritina. Es clave iniciar terapia para evitar complicaciones materno-fetales.",
+      "comentario": "Gestante de 6 meses con Hb 8 g/dl y constantes corpusculares disminuidas orienta a anemia microcítica hipocrómica. La presencia de anisocitosis, hipocromía, microcitos y reticulocitos bajos descarta hemólisis y sugiere defecto en síntesis de hemoglobina. La causa más común en gestantes es anemia ferropénica, por aumento de requerimientos y déficit de hierro. Se descarta anemia megaloblástica por la morfología. La anemia aplásica cursa con pancitopenia, y la hemolítica con reticulocitosis. El tratamiento se basa en sulfato ferroso oral y control del tratamiento con ferritina. Es clave iniciar terapia para evitar complicaciones materno-fetales.",
+      "tema": "Anemia ferropénica en la gestante",
+      "año": 2020
+    },
+    {
+      "id": "HEM-031",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 69 años, durante 2 semanas estuvo en cama por neumonía vírica complicada con neumonía bacteriana. Al examen: edema y dolor a la palpación en pierna derecha que se incrementa con el movimiento. ¿Qué término describe mejor este trastorno?",
+      "opciones": [
+        "Coagulación intravascular diseminada",
+        "Venas varicosas",
+        "Linfedema",
+        "Trombosis de venas profundas",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente estuvo en cama por dos semanas, lo que representa un claro factor de riesgo para trombosis venosa profunda (TVP). El dolor a la palpación, edema unilateral y aumento con el movimiento son signos clásicos de TVP. La linfedema suele ser indoloro, bilateral y crónico. Las venas varicosas tampoco explican el dolor agudo. La coagulación intravascular diseminada cursa con sangrados y alteraciones en pruebas de coagulación, no con edema localizado. El diagnóstico más probable es TVP.",
+      "comentario": "La paciente estuvo en cama por dos semanas, lo que representa un claro factor de riesgo para trombosis venosa profunda (TVP). El dolor a la palpación, edema unilateral y aumento con el movimiento son signos clásicos de TVP. La linfedema suele ser indoloro, bilateral y crónico. Las venas varicosas tampoco explican el dolor agudo. La coagulación intravascular diseminada cursa con sangrados y alteraciones en pruebas de coagulación, no con edema localizado. El diagnóstico más probable es TVP.",
+      "tema": "Trombosis venosa profunda por inmovilización",
+      "año": 2020
+    },
+    {
+      "id": "HEM-032",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 44 años, refiere hace 2 semanas equimosis múltiples, debilidad y tos intensa con esputo amarillento. Al examen: T° 38,4 °C y crepitantes en ambos campos pulmonares. Laboratorio: leucocitos 1.400/mm3; Hb 7,2 g/dl; plaquetas:35.000/mm3. En su anamnesis ¿Cuál es la información que usted debe buscar para llegar al diagnóstico?",
+      "opciones": [
+        "Exposición previa a medicamentos",
+        "Antecedentes familiares de anemias",
+        "Hábitos dietéticos permanentes",
+        "Infecciones bacterianas recientes",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta leucopenia, anemia y trombocitopenia (pancitopenia), además de fiebre y equimosis, lo que sugiere un proceso medular. La causa más común de pancitopenia adquirida en adultos es la toxicidad medular inducida por fármacos. El antecedente de exposición a medicamentos mielotóxicos (como cloranfenicol, quimioterápicos, algunos antibióticos) es fundamental para el diagnóstico. Si bien pueden existir otras causas, este dato orientará la anamnesis hacia el diagnóstico más probable: aplasia o hipoplasia medular inducida.",
+      "comentario": "La paciente presenta leucopenia, anemia y trombocitopenia (pancitopenia), además de fiebre y equimosis, lo que sugiere un proceso medular. La causa más común de pancitopenia adquirida en adultos es la toxicidad medular inducida por fármacos. El antecedente de exposición a medicamentos mielotóxicos (como cloranfenicol, quimioterápicos, algunos antibióticos) es fundamental para el diagnóstico. Si bien pueden existir otras causas, este dato orientará la anamnesis hacia el diagnóstico más probable: aplasia o hipoplasia medular inducida.",
+      "tema": "Pancitopenia: buscar fármacos mielotóxicos",
+      "año": 2020
+    },
+    {
+      "id": "HEM-033",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "La causa más frecuente de neutropenia grave (<500 neutrófilos/microlitro) es:",
+      "opciones": [
+        "Medicamentosa",
+        "Enfermedades autoinmunes",
+        "Leucemia aguda",
+        "Hiperesplenismo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La neutropenia grave se define como un recuento de neutrófilos <500/µL y representa un importante riesgo de infecciones severas. Aunque múltiples etiologías pueden estar implicadas (infecciones virales, enfermedades autoinmunes, neoplasias hematológicas, hiperesplenismo), la causa más común en adultos es la inducida por medicamentos, particularmente en entornos hospitalarios. Agentes como quimioterápicos, antibióticos (cloranfenicol, TMP-SMX), antipsicóticos o antitiroideos pueden provocar supresión medular directa o reacciones idiosincráticas. Por su alta frecuencia, amplia variedad de fármacos implicados y relevancia clínica, se concluye que la causa más frecuente es: medicamentosa.",
+      "comentario": "La neutropenia grave se define como un recuento de neutrófilos <500/µL y representa un importante riesgo de infecciones severas. Aunque múltiples etiologías pueden estar implicadas (infecciones virales, enfermedades autoinmunes, neoplasias hematológicas, hiperesplenismo), la causa más común en adultos es la inducida por medicamentos, particularmente en entornos hospitalarios. Agentes como quimioterápicos, antibióticos (cloranfenicol, TMP-SMX), antipsicóticos o antitiroideos pueden provocar supresión medular directa o reacciones idiosincráticas. Por su alta frecuencia, amplia variedad de fármacos implicados y relevancia clínica, se concluye que la causa más frecuente es: medicamentosa.",
+      "tema": "Neutropenia grave: causa medicamentosa",
+      "año": 2021
+    },
+    {
+      "id": "HEM-034",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Paciente de 10 años, evaluado por presentar palidez marcada. Laboratorio: aumento de bilirrubina indirecta y reticulocitos con disminución de haptoglobina. El diagnóstico probable es anemia por:",
+      "opciones": [
+        "Insuficiencia renal crónica",
+        "Deficiencia nutricional",
+        "Hemólisis",
+        "Trastorno medular primario",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente pediátrico que presenta signos clínicos y de laboratorio compatibles con un proceso hemolítico: bilirrubina indirecta elevada, reticulocitosis (médula hiperactiva) y disminución de haptoglobina (proteína que se consume al unirse a la hemoglobina libre). Estos datos excluyen causas hipoproliferativas como insuficiencia renal crónica o déficit nutricional, que presentan reticulocitos bajos. Tampoco se trata de un trastorno medular primario, porque habría pancitopenia. La fisiopatología sugiere destrucción acelerada de eritrocitos, por causas intrínsecas o extrínsecas. En conclusión, el diagnóstico más probable es anemia hemolítica.",
+      "comentario": "Paciente pediátrico que presenta signos clínicos y de laboratorio compatibles con un proceso hemolítico: bilirrubina indirecta elevada, reticulocitosis (médula hiperactiva) y disminución de haptoglobina (proteína que se consume al unirse a la hemoglobina libre). Estos datos excluyen causas hipoproliferativas como insuficiencia renal crónica o déficit nutricional, que presentan reticulocitos bajos. Tampoco se trata de un trastorno medular primario, porque habría pancitopenia. La fisiopatología sugiere destrucción acelerada de eritrocitos, por causas intrínsecas o extrínsecas. En conclusión, el diagnóstico más probable es anemia hemolítica.",
+      "tema": "Anemia hemolítica: reticulocitos altos y haptoglobina baja",
+      "año": 2021
+    },
+    {
+      "id": "HEM-035",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años, reside en Cerro de Pasco, consulta por cefalea, mareos y acúfenos desde hace 2 años, con empeoramiento en el último mes. Al examen: buena nutrición, hiperemia conjuntival, cianosis de dedos y labios. Laboratorio: Hb 22 g/dl, Hto 66% y SaO₂ 88%. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Policitemia vera",
+        "Mal de montaña crónico",
+        "Hipoxemia refractaria",
+        "Policitemia fisiológica secundaria",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente que vive en zona de gran altitud (Cerro de Pasco), con síntomas crónicos como cefalea, acúfenos y cianosis, y que presenta Hb y Hto marcadamente elevados con SaO₂ baja. Estos hallazgos son consistentes con policitemia secundaria a hipoxia crónica, conocida como mal de montaña crónico o enfermedad de Monge. Se diferencia de la policitemia vera por la ausencia de prurito, esplenomegalia y EPO elevada como respuesta secundaria, no primaria. En este contexto, la causa más lógica de la policitemia es la hipoxemia por exposición crónica a altitud.",
+      "comentario": "Paciente que vive en zona de gran altitud (Cerro de Pasco), con síntomas crónicos como cefalea, acúfenos y cianosis, y que presenta Hb y Hto marcadamente elevados con SaO₂ baja. Estos hallazgos son consistentes con policitemia secundaria a hipoxia crónica, conocida como mal de montaña crónico o enfermedad de Monge. Se diferencia de la policitemia vera por la ausencia de prurito, esplenomegalia y EPO elevada como respuesta secundaria, no primaria. En este contexto, la causa más lógica de la policitemia es la hipoxemia por exposición crónica a altitud.",
+      "tema": "Mal de montaña crónico (enfermedad de Monge)",
+      "año": 2021
+    },
+    {
+      "id": "HEM-036",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 25 años afropanameño, acude por presentar anemia e ictericia. Hemoglobina 8 g/dl, reticulocitos 0 %, bilirrubina total 6 mg/dl, bilirrubina directa 1 mg/dl. Banda anormal en electroforesis de hemoglobina. ¿Qué tipo de eritrocitos se espera encontrar en la sangre periférica?",
+      "opciones": [
+        "Dianocitos",
+        "Microcitos",
+        "Eliptocitos",
+        "Drepanocitos",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón joven, de origen afropanameño, presenta cuadro clínico de anemia con ictericia, reticulocitos en 0 % y elevación de bilirrubina indirecta, lo que indica una anemia hemolítica severa. El hallazgo clave es la banda anormal en la electroforesis de hemoglobina, lo cual es altamente sugestivo de una hemoglobinopatía, particularmente anemia de células falciformes o drepanocítica. Esta condición es frecuente en población afrodescendiente y se caracteriza por eritrocitos en forma de hoz o “drepanocitos”, especialmente tras exposición a hipoxia. Estas células son deformes, frágiles y propensas a hemólisis. Por tanto, el frotis periférico mostrará drepanocitos como hallazgo típico.",
+      "comentario": "Varón joven, de origen afropanameño, presenta cuadro clínico de anemia con ictericia, reticulocitos en 0 % y elevación de bilirrubina indirecta, lo que indica una anemia hemolítica severa. El hallazgo clave es la banda anormal en la electroforesis de hemoglobina, lo cual es altamente sugestivo de una hemoglobinopatía, particularmente anemia de células falciformes o drepanocítica. Esta condición es frecuente en población afrodescendiente y se caracteriza por eritrocitos en forma de hoz o “drepanocitos”, especialmente tras exposición a hipoxia. Estas células son deformes, frágiles y propensas a hemólisis. Por tanto, el frotis periférico mostrará drepanocitos como hallazgo típico.",
+      "tema": "Drepanocitosis con crisis aplásica",
+      "año": 2022
+    },
+    {
+      "id": "HEM-037",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 71 años, traída por familiar quien nota desde hace dos meses deterioro de sus capacidades mentales y anorexia severa. Al examen: palidez marcada, orientada solo en persona, sin signos de focalización. Laboratorio: Hb 8.5 g/dL, VCM 105 fl, leucocitos 3 500/mm³ y plaquetas 80 000/mm³. ¿Qué tratamiento prescribiría?",
+      "opciones": [
+        "Piridoxina",
+        "Cianocobalamina",
+        "Riboflavina",
+        "Tiamina",
+        "Aspirina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente adulta mayor con deterioro cognitivo progresivo, anorexia, palidez y pancitopenia. En el hemograma destaca anemia macrocítica (VCM 105 fl), leucopenia y trombocitopenia, lo que sugiere una anemia megaloblástica. En mayores de 60 años, la causa más frecuente de este tipo de anemia es la deficiencia de vitamina B12. El deterioro neurológico también es característico y puede incluir desorientación, ataxia y parestesias. La tiamina se asocia a encefalopatía de Wernicke, pero no genera pancitopenia. La riboflavina y la piridoxina no explican el cuadro hematológico. Por clínica, edad y alteraciones cognitivas, se debe iniciar cianocobalamina.",
+      "comentario": "Paciente adulta mayor con deterioro cognitivo progresivo, anorexia, palidez y pancitopenia. En el hemograma destaca anemia macrocítica (VCM 105 fl), leucopenia y trombocitopenia, lo que sugiere una anemia megaloblástica. En mayores de 60 años, la causa más frecuente de este tipo de anemia es la deficiencia de vitamina B12. El deterioro neurológico también es característico y puede incluir desorientación, ataxia y parestesias. La tiamina se asocia a encefalopatía de Wernicke, pero no genera pancitopenia. La riboflavina y la piridoxina no explican el cuadro hematológico. Por clínica, edad y alteraciones cognitivas, se debe iniciar cianocobalamina.",
+      "tema": "Déficit de vitamina B12: pancitopenia y deterioro cognitivo",
+      "año": 2022
+    },
+    {
+      "id": "HEM-038",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, con astenia progresiva y disnea a moderados esfuerzos desde hace seis meses. Examen: palidez de piel y mucosas, ictericia conjuntival; bazo a 5 cm DRCI. Laboratorio: Hb: 8 g/dl, Hto: 24%, reticulocitos: 11%, leucocitos: 9500/mm3, bilirrubina directa: 0.2 mg/dl, bilirrubina indirecta: 2.9 mg/dl, haptoglobina indetectable. FSP: no se observan esquistocitos. ¿Qué examen confirma el tipo de anemia?",
+      "opciones": [
+        "Test de Coombs",
+        "Punción y biopsia de médula ósea",
+        "Constantes corpusculares",
+        "Test de autohemólisis",
+        "Ecografía Doppler"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico sugiere una anemia hemolítica (palidez, ictericia, reticulocitosis, hiperbilirrubinemia indirecta, haptoglobina baja). La ausencia de esquistocitos orienta hacia hemólisis extravascular. El Test de Coombs directo confirma una anemia hemolítica autoinmune al detectar anticuerpos o complemento adheridos a los eritrocitos.",
+      "comentario": "El cuadro clínico sugiere una anemia hemolítica (palidez, ictericia, reticulocitosis, hiperbilirrubinemia indirecta, haptoglobina baja). La ausencia de esquistocitos orienta hacia hemólisis extravascular. El Test de Coombs directo confirma una anemia hemolítica autoinmune al detectar anticuerpos o complemento adheridos a los eritrocitos.",
+      "tema": "Anemia hemolítica autoinmune: test de Coombs",
+      "año": 2023
+    },
+    {
+      "id": "HEM-039",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 16 años sufre traumatismo en su rodilla derecha con dolor intenso. Examen: rodilla derecha con gran aumento de volumen y limitación funcional. Lab: Hb 11 g/dL, PTT 58 s, plaquetas 230,000/mm3, agregación plaquetaria: normal y ecografía de rodilla: “gran hematoma”. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hemofilia B",
+        "Deficiencia de proteína C y S",
+        "Enfermedad de von Willebrand",
+        "Hemofilia A",
+        "Apendicitis aguda"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente adolescente presenta hemartrosis tras trauma leve, con hematoma intraarticular y tiempo de tromboplastina parcial prolongado (PTT 58 segundos). Estos hallazgos son altamente sugerentes de un trastorno de la coagulación dependiente de la vía intrínseca. La hemofilia A, deficiencia congénita del factor VIII, es la coagulopatía hereditaria más común, ligada al cromosoma X, con predominancia en varones. Se manifiesta con hemorragias articulares (hemartrosis), hematomas y sangrado postraumático desproporcionado. La hemofilia B (deficiencia del factor IX) se presenta de forma indistinguible clínicamente, pero es menos frecuente. La enfermedad de von Willebrand afecta plaquetas y factor VIII, pero cursa más con sangrado mucocutáneo que articular. La deficiencia de proteínas C y S causa trombosis, no hemorragia. Por tanto, el diagnóstico más probable en este contexto es hemofilia A. Se debe confirmar con dosificación de factores de coagulación.",
+      "comentario": "El paciente adolescente presenta hemartrosis tras trauma leve, con hematoma intraarticular y tiempo de tromboplastina parcial prolongado (PTT 58 segundos). Estos hallazgos son altamente sugerentes de un trastorno de la coagulación dependiente de la vía intrínseca. La hemofilia A, deficiencia congénita del factor VIII, es la coagulopatía hereditaria más común, ligada al cromosoma X, con predominancia en varones. Se manifiesta con hemorragias articulares (hemartrosis), hematomas y sangrado postraumático desproporcionado. La hemofilia B (deficiencia del factor IX) se presenta de forma indistinguible clínicamente, pero es menos frecuente. La enfermedad de von Willebrand afecta plaquetas y factor VIII, pero cursa más con sangrado mucocutáneo que articular. La deficiencia de proteínas C y S causa trombosis, no hemorragia. Por tanto, el diagnóstico más probable en este contexto es hemofilia A. Se debe confirmar con dosificación de factores de coagulación.",
+      "tema": "Hemofilia A: hemartrosis con TTPa prolongado",
+      "año": 2023
+    },
+    {
+      "id": "HEM-040",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Paciente de 67 años, anticoagulado con warfarina por fibrilación auricular. Refiere hematemesis desde ayer y hoy en mayor cantidad. Examen: PA 120/80 mmHg, FC 86 X´, FR 20 X´, T 37ºC; algunas equimosis en tórax y abdomen. Lab: INR 7, Hb 10 g/dL. ¿Cuál es la conducta inmediata?",
+      "opciones": [
+        "Transfundir glóbulos rojos",
+        "Administrar vitamina K",
+        "Transfundir plaquetas",
+        "Administrar plasma fresco",
+        "Furosemida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el contexto de un paciente anticoagulado con warfarina que presenta hematemesis y un INR significativamente elevado (7), lo que indica una anticoagulación excesiva, la prioridad es revertir rápidamente los efectos anticoagulantes para controlar el riesgo de sangrado. La administración de plasma fresco congelado (PFC) es la conducta inmediata adecuada en esta situación, ya que el PFC contiene todos los factores de coagulación necesarios para revertir la anticoagulación y estabilizar la coagulopatía.",
+      "comentario": "En el contexto de un paciente anticoagulado con warfarina que presenta hematemesis y un INR significativamente elevado (7), lo que indica una anticoagulación excesiva, la prioridad es revertir rápidamente los efectos anticoagulantes para controlar el riesgo de sangrado. La administración de plasma fresco congelado (PFC) es la conducta inmediata adecuada en esta situación, ya que el PFC contiene todos los factores de coagulación necesarios para revertir la anticoagulación y estabilizar la coagulopatía.",
+      "tema": "Sangrado con INR elevado por warfarina: plasma fresco",
+      "año": 2023
+    },
+    {
+      "id": "HEM-041",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es el examen que debe solicitar para controlar el nivel terapeútico de la warfarina?",
+      "opciones": [
+        "INR",
+        "Plaquetas",
+        "TTPA",
+        "Factor III",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Para controlar el nivel terapéutico de la warfarina, el examen que se debe solicitar es el INR (International Normalized Ratio). La warfarina actúa como un anticoagulante al interferir con la síntesis de factores de coagulación dependientes de la vitamina K, por lo que es esencial monitorear la coagulación sanguínea para evitar tanto complicaciones hemorrágicas como trombóticas. El INR permite evaluar la eficacia de la warfarina en el contexto de la anticoagulación, ajustando la dosis del medicamento de manera adecuada.",
+      "comentario": "Para controlar el nivel terapéutico de la warfarina, el examen que se debe solicitar es el INR (International Normalized Ratio). La warfarina actúa como un anticoagulante al interferir con la síntesis de factores de coagulación dependientes de la vitamina K, por lo que es esencial monitorear la coagulación sanguínea para evitar tanto complicaciones hemorrágicas como trombóticas. El INR permite evaluar la eficacia de la warfarina en el contexto de la anticoagulación, ajustando la dosis del medicamento de manera adecuada.",
+      "tema": "Control de la warfarina: INR",
+      "año": 2024
+    }
+  ]
+}

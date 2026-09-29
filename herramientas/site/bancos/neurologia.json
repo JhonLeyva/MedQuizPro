@@ -1,0 +1,1085 @@
+{
+  "especialidad": "Neurología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NRL-001",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?",
+      "opciones": {
+        "A": "Resonancia magnética cerebral con gadolinio",
+        "B": "Punción lumbar",
+        "C": "Tomografía cerebral sin contraste",
+        "D": "Electroencefalograma",
+        "E": "Doppler de vasos del cuello"
+      },
+      "clave_correcta": "C",
+      "comentario": "Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."
+    },
+    {
+      "id": "NRL-002",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 62 años, mientras realizaba labores hogareñas, presenta en forma súbita cefalea muy intensa, acompañada de vómitos y luego pérdida de conciencia. Al examen presenta rigidez de nuca. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hematoma subdural",
+        "Tumor cerebral",
+        "Isquemia cerebral transitoria",
+        "Hemorragia subaracnoidea",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
+      "comentario": "Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.",
+      "tema": "Hemorragia subaracnoidea",
+      "año": 2020
+    },
+    {
+      "id": "NRL-003",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Deben recibir tratamiento quirúrgico de inmediato los hematomas epidurales ubicados en...",
+      "opciones": [
+        "Fosa parietal",
+        "Fosa temporal",
+        "Piso anterior",
+        "Fosa posterior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.",
+      "comentario": "Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.",
+      "tema": "Traumatismo craneoencefálico",
+      "año": 2020
+    },
+    {
+      "id": "NRL-004",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años, alcohólico crónico, hace 6 meses con debilidad y parestesias de extremidades, disnea al esfuerzo. Al examen: pálido, pérdida de sensibilidad termoalgésica, cuadriparesia espástica leve a predominio distal. Hb: 7 g/dL, VCM: 120 fl. ¿Cuál sería el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Guillain-Barré",
+        "Encefalopatía hepática",
+        "Déficit de vitamina B12",
+        "Anemia sideroblástica",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.",
+      "comentario": "La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.",
+      "tema": "Anemias megaloblásticas",
+      "año": 2020
+    },
+    {
+      "id": "NRL-005",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años, presenta en forma súbita cefalea intensa, dificultad para la deambulación y disartria evidenciada por la familia. Luego de 30 minutos es evaluado en emergencia no encontrando alteración neurológica alguna. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Arteritis temporal",
+        "Cefalea en racimos",
+        "Crisis de pánico",
+        "Ataque isquémico transitorio",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Un déficit neurológico focal agudo que revierte completamente en menos de 24 horas (habitualmente en menos de 1 hora) y sin evidencia de lesión tisular isquémica permanente en neuroimagen se clasifica como accidente isquémico transitorio (AIT).",
+      "comentario": "Un déficit neurológico focal agudo que revierte completamente en menos de 24 horas (habitualmente en menos de 1 hora) y sin evidencia de lesión tisular isquémica permanente en neuroimagen se clasifica como accidente isquémico transitorio (AIT).",
+      "tema": "Enfermedad cerebrovascular isquémica",
+      "año": 2020
+    },
+    {
+      "id": "NRL-006",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años, sufre accidente de tránsito hace 6 horas. Llega con Glasgow: 10. Tiene TAC cerebral. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Fractura de base de cráneo",
+        "Hematoma epidural",
+        "Hematoma intracerebral",
+        "Hematoma subdural",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hemorragia postraumática entre la tabla interna craneal y la duramadre por rotura arterial meníngea media genera en la tomografía computarizada una imagen característica hiperdensa en forma de lente biconvexa que delimita con las suturas craneales: hematoma epidural.",
+      "comentario": "La hemorragia postraumática entre la tabla interna craneal y la duramadre por rotura arterial meníngea media genera en la tomografía computarizada una imagen característica hiperdensa en forma de lente biconvexa que delimita con las suturas craneales: hematoma epidural.",
+      "tema": "Traumatismo encéfalo craneano",
+      "año": 2020
+    },
+    {
+      "id": "NRL-007",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Paciente postoperado de apendicectomía con anestesia raquídea, al primer día presenta disfunción intestinal y vesical, además pérdida sensorial y motora de extremidades inferiores. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Radiculitis compresiva",
+        "Síndrome de cola de caballo",
+        "Hernia del núcleo pulposo",
+        "Síndrome conversivo",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La afectación simultánea motora y sensitiva lumbosacra con pérdida del control de esfínteres (vejiga e intestino neurógenos) tras punción subaracnoidea neuroaxial corresponde al síndrome de cola de caballo (cauda equina).",
+      "comentario": "La afectación simultánea motora y sensitiva lumbosacra con pérdida del control de esfínteres (vejiga e intestino neurógenos) tras punción subaracnoidea neuroaxial corresponde al síndrome de cola de caballo (cauda equina).",
+      "tema": "Complicaciones anestésicas",
+      "año": 2020
+    },
+    {
+      "id": "NRL-008",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 76 años, desde hace 1 año presenta dificultad para incorporarse, movilizarse y temblor en las manos. Examen: orientado en tiempo, espacio y persona, expresión facial fija, facies de tristeza, temblor en ambas manos que desaparece al movimiento. No ha perdido ninguna habilidad mental. Resto del examen normal. ¿Cuál es el tratamiento de primera elección que debe prescribirse?",
+      "opciones": [
+        "Levodopa",
+        "Anticolinérgicos",
+        "Betabloqueantes",
+        "Agonistas post-sinápticos",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta síntomas cardinales de enfermedad de Parkinson: bradicinesia, temblor en reposo, rigidez y facies en máscara. La orientación preservada y la ausencia de deterioro cognitivo apoyan un diagnóstico temprano. La levodopa es el tratamiento de primera elección, especialmente en mayores de 70 años o con síntomas motores que afectan su calidad de vida. Actúa como precursor de la dopamina, compensando su déficit en los ganglios basales. Su uso mejora la movilidad y reduce los temblores. Es importante monitorear los efectos secundarios como discinesias a largo plazo.",
+      "comentario": "El paciente presenta síntomas cardinales de enfermedad de Parkinson: bradicinesia, temblor en reposo, rigidez y facies en máscara. La orientación preservada y la ausencia de deterioro cognitivo apoyan un diagnóstico temprano. La levodopa es el tratamiento de primera elección, especialmente en mayores de 70 años o con síntomas motores que afectan su calidad de vida. Actúa como precursor de la dopamina, compensando su déficit en los ganglios basales. Su uso mejora la movilidad y reduce los temblores. Es importante monitorear los efectos secundarios como discinesias a largo plazo.",
+      "tema": "Enfermedad de Parkinson",
+      "año": 2020
+    },
+    {
+      "id": "NRL-009",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 40 años, que sufre una caída desde el 2do piso. Llega a la Emergencia confuso, con pérdida de líquido cefalorraquídeo por la nariz. Examen: PA: 100/50mmHg, FR: 22x'. signo de \"ojo de mapache\", anisocoria y otorragia. Derecha. Glasgow: 12. TC de cráneo: fractura de esfenoides y mastoides derechas. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Fractura base de cráneo",
+        "Fractura bóveda de cráneo",
+        "Hematoma epidural",
+        "Hematoma subdural",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta signos clásicos de fractura de base de cráneo: rinorrea con líquido cefalorraquídeo, hematoma periorbitario bilateral (\"ojos de mapache\") y otorragia. Estas manifestaciones, sumadas al mecanismo de trauma de alta energía, indican compromiso de la base del cráneo, especialmente la fosa anterior y media. El diagnóstico se confirma con tomografía que muestra fractura del esfenoides y mastoides. Esta entidad implica alto riesgo de meningitis, por lo que es vital el diagnóstico oportuno. Las otras opciones no explican todos los signos clínicos.",
+      "comentario": "El paciente presenta signos clásicos de fractura de base de cráneo: rinorrea con líquido cefalorraquídeo, hematoma periorbitario bilateral (\"ojos de mapache\") y otorragia. Estas manifestaciones, sumadas al mecanismo de trauma de alta energía, indican compromiso de la base del cráneo, especialmente la fosa anterior y media. El diagnóstico se confirma con tomografía que muestra fractura del esfenoides y mastoides. Esta entidad implica alto riesgo de meningitis, por lo que es vital el diagnóstico oportuno. Las otras opciones no explican todos los signos clínicos.",
+      "tema": "Fractura de base de cráneo",
+      "año": 2020
+    },
+    {
+      "id": "NRL-010",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño con antecedente de infección viral, presenta bruscamente debilidad muscular progresiva y sensitiva en miembros inferiores. Examen: flaccidez muscular de piernas y con nivel sensitivo a nivel torácico medio. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Polineuropatía infecciosa",
+        "Mielitis transversa",
+        "Poliomielitis",
+        "Meningoencefalitis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La aparición súbita de debilidad motora y sensitiva en las extremidades inferiores, con nivel sensitivo definido y flacidez, en el contexto de infección viral previa, orienta al diagnóstico de mielitis transversa. Es un proceso inflamatorio agudo de la médula espinal, que afecta tanto vías motoras como sensitivas. Se diferencia del síndrome de Guillain-Barré por el nivel sensitivo. Requiere manejo con corticoides, rehabilitación y vigilancia estrecha.",
+      "comentario": "La aparición súbita de debilidad motora y sensitiva en las extremidades inferiores, con nivel sensitivo definido y flacidez, en el contexto de infección viral previa, orienta al diagnóstico de mielitis transversa. Es un proceso inflamatorio agudo de la médula espinal, que afecta tanto vías motoras como sensitivas. Se diferencia del síndrome de Guillain-Barré por el nivel sensitivo. Requiere manejo con corticoides, rehabilitación y vigilancia estrecha.",
+      "tema": "Mielitis transversa",
+      "año": 2020
+    },
+    {
+      "id": "NRL-011",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuándo se recomienda solicitar TAC cerebral en un paciente con un trauma cráneo encefálico?",
+      "opciones": [
+        "Hipotensión arterial persistente",
+        "Herida de cuero cabelludo sangrante",
+        "Escala de Glasgow menor de 14",
+        "Radiografía de cráneo normal",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el contexto del trauma cráneo encefálico, se recomienda solicitar una tomografía axial computarizada cerebral cuando la escala de Glasgow es menor de 14, dado que indica alteración del nivel de conciencia y posible lesión intracraneal grave. Esta prueba permite detectar hemorragias, contusiones o fracturas que requieran manejo urgente. Otros criterios para TAC incluyen signos neurológicos focales o deterioro progresivo. Heridas sangrantes o radiografías normales no son indicación absoluta para TAC. La adecuada evaluación y uso de TAC evita complicaciones neurológicas severas y mejora el pronóstico.",
+      "comentario": "En el contexto del trauma cráneo encefálico, se recomienda solicitar una tomografía axial computarizada cerebral cuando la escala de Glasgow es menor de 14, dado que indica alteración del nivel de conciencia y posible lesión intracraneal grave. Esta prueba permite detectar hemorragias, contusiones o fracturas que requieran manejo urgente. Otros criterios para TAC incluyen signos neurológicos focales o deterioro progresivo. Heridas sangrantes o radiografías normales no son indicación absoluta para TAC. La adecuada evaluación y uso de TAC evita complicaciones neurológicas severas y mejora el pronóstico.",
+      "tema": "Traumatismo encefalocraneano: indicación de TC",
+      "año": 2021
+    },
+    {
+      "id": "NRL-012",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 50 años, bebedor habitual de alcohol es llevado a urgencias con un cuadro de desorientación, dificultad en la memoria inmediata, marcha torpe. Al examen: nistagmus vertical y paresia del III par craneal izquierdo, ataxia. ¿Cuál es el tratamien to?",
+      "opciones": [
+        "Dexametasona",
+        "Glucosa",
+        "Tiamina",
+        "Etanol",
+        "Ciprofloxacino"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente alcohólico crónico con signos de encefalopatía de Wernicke, que se caracteriza por la tríada clásica: confusión, oftalmoplejía y ataxia. En el caso, hay nistagmo, paresia del III par craneal, ataxia y desorientación, lo que encaja con este diagnóstico. Esta encefalopatía se debe a una deficiencia de tiamina (vitamina B1). Es crucial administrar tiamina antes que gluc osa, ya que dar glucosa sin tiamina puede precipitar o empeorar el cuadro neurológico. No se indica dexametasona ni etanol. El tratamiento inmediato es la reposición de tiamina por vía parenteral.",
+      "comentario": "Paciente alcohólico crónico con signos de encefalopatía de Wernicke, que se caracteriza por la tríada clásica: confusión, oftalmoplejía y ataxia. En el caso, hay nistagmo, paresia del III par craneal, ataxia y desorientación, lo que encaja con este diagnóstico. Esta encefalopatía se debe a una deficiencia de tiamina (vitamina B1). Es crucial administrar tiamina antes que gluc osa, ya que dar glucosa sin tiamina puede precipitar o empeorar el cuadro neurológico. No se indica dexametasona ni etanol. El tratamiento inmediato es la reposición de tiamina por vía parenteral.",
+      "tema": "Encefalopatía de Wernicke",
+      "año": 2021
+    },
+    {
+      "id": "NRL-013",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años, llevado a emergencia por familiares quienes refieren que desde hace aproximadamente 3 meses notan cambios en su conducta, pasando de aletargamiento a excitación de manera cada vez más frecuente hasta hace 24 horas, en que cae en sopor y desde hace dos horas no contesta ni responde al llamado. Antecedente de alcoholismo crónico. La medida terapéutica prioritaria es",
+      "opciones": [
+        "Aplicar naloxona",
+        "Aplicar tiamina endovenosa",
+        "Iniciar ClNa al 0.9%",
+        "Administrar manitol 100 ml a goteo rápido",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón de 60 años con historia de alcoholismo crónico, que presenta un cuadro progresivo de trastornos de conducta, alternancia entre aletargamiento y excitación, seguido de coma en las últimas horas. Esta evolución es altamente sugestiva de una encefalopatía carencial, especialmente la encefalopatía de Wernicke, causada por déficit de tiamina (vitamina B1), frecuente en pacientes alcohólicos por malnutrición y mala absorción. Administrar glucosa sin tiamina en estos casos puede empeorar el cuadro neurológico. Por tanto, la medida terapéutica prioritaria es la administración de tiamina endovenosa, incluso antes de cualquier aporte energético.",
+      "comentario": "Varón de 60 años con historia de alcoholismo crónico, que presenta un cuadro progresivo de trastornos de conducta, alternancia entre aletargamiento y excitación, seguido de coma en las últimas horas. Esta evolución es altamente sugestiva de una encefalopatía carencial, especialmente la encefalopatía de Wernicke, causada por déficit de tiamina (vitamina B1), frecuente en pacientes alcohólicos por malnutrición y mala absorción. Administrar glucosa sin tiamina en estos casos puede empeorar el cuadro neurológico. Por tanto, la medida terapéutica prioritaria es la administración de tiamina endovenosa, incluso antes de cualquier aporte energético.",
+      "tema": "Encefalopatía de Wernicke: tiamina",
+      "año": 2021
+    },
+    {
+      "id": "NRL-014",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Diabético de 60 años de larga evolución, mal controlado, refiere dolor en “bota” en miembros inferiores, parestesias e hiperalgesia. Antecedente de crisis epiléptica de infrecuente presentación. ¿Cuál es el medicamento de primera elección?",
+      "opciones": [
+        "Etosuximida",
+        "Gabapentina",
+        "Vigabatrina",
+        "Levetiracetam",
+        "Paracetamol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente diabético de larga evolución, mal controlado, con síntomas de neuropatía periférica típicos: dolor en bota, parestesias e hiperalgesia, sugestivos de neuropatía diabética dolorosa, una complicación común en la diabetes crónica. Ante la necesidad d e manejo sintomático del dolor neuropático, los anticonvulsivantes moduladores del calcio, como la gabapentina, son de primera elección, ya que reducen la transmisión nociceptiva sin interactuar negativamente con el control glucémico. Además, su perfil es favorable en pacientes con antecedentes de epilepsia, como en este caso. Etosuximida se indica para ausencias, la vigabatrina tiene riesgo de daño visual irreversible y levetiracetam no es primera línea en dolor neuropático. Por ello, el tratamiento adecuado es: gabapentina.",
+      "comentario": "Paciente diabético de larga evolución, mal controlado, con síntomas de neuropatía periférica típicos: dolor en bota, parestesias e hiperalgesia, sugestivos de neuropatía diabética dolorosa, una complicación común en la diabetes crónica. Ante la necesidad d e manejo sintomático del dolor neuropático, los anticonvulsivantes moduladores del calcio, como la gabapentina, son de primera elección, ya que reducen la transmisión nociceptiva sin interactuar negativamente con el control glucémico. Además, su perfil es favorable en pacientes con antecedentes de epilepsia, como en este caso. Etosuximida se indica para ausencias, la vigabatrina tiene riesgo de daño visual irreversible y levetiracetam no es primera línea en dolor neuropático. Por ello, el tratamiento adecuado es: gabapentina.",
+      "tema": "Neuropatía diabética dolorosa",
+      "año": 2021
+    },
+    {
+      "id": "NRL-015",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, presenta desde hace 6 meses cefalea, convulsiones, limitación funcional de extremidades del lado izquierdo y con cambios de personalidad. Al examen: regular estado general. Hemiplejia izquierda. Glasgow 15. Fondo de ojo: edema de papila. ¿Qué hallazgos se podrían encontrar en una TEM cerebral?",
+      "opciones": [
+        "Anillo con edema circundante y efecto de masa",
+        "Lesión quística y edema circundante",
+        "Signos de hidrocefalia ex vacuo",
+        "Atrofia cortical hemisferio derecho",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer de 30 años con historia de convulsiones, hemiplejia izquierda y cambios de personalidad progresivos, sumado a hallazgo de papiledema en el fondo de ojo, lo cual indica hipertensión endocraneana. El patrón clínico sugiere lesión expansiva intracraneal. La tomografía cerebral típicamente mostrará una imagen en anillo con edema vasogénico periférico y efecto de masa, hallazgo clásico de tumores cerebrales (como glioblastoma) o abscesos cerebrales. Otras opciones como hidrocefalia ex vacuo o atrofia cortical no se correlacionan con el cuadro agudo ni los signos de hipertensión intracraneana. Este patrón de realce en anillo requiere evaluación urgente para definir tratamiento quirúrgico o médico especializado.",
+      "comentario": "Mujer de 30 años con historia de convulsiones, hemiplejia izquierda y cambios de personalidad progresivos, sumado a hallazgo de papiledema en el fondo de ojo, lo cual indica hipertensión endocraneana. El patrón clínico sugiere lesión expansiva intracraneal. La tomografía cerebral típicamente mostrará una imagen en anillo con edema vasogénico periférico y efecto de masa, hallazgo clásico de tumores cerebrales (como glioblastoma) o abscesos cerebrales. Otras opciones como hidrocefalia ex vacuo o atrofia cortical no se correlacionan con el cuadro agudo ni los signos de hipertensión intracraneana. Este patrón de realce en anillo requiere evaluación urgente para definir tratamiento quirúrgico o médico especializado.",
+      "tema": "Tumor cerebral: lesión en anillo",
+      "año": 2021
+    },
+    {
+      "id": "NRL-016",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Albañil de 22 años que sufre caída de la escalera, con pérdida inmediata de la conciencia, luego alterna episodios de lucidez con depresión del sensorio. Al examen: pupila derecha midriática, hemiparesia izquierda. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Malformación arteriovenosa",
+        "Hematoma subdural",
+        "Hematoma intracerebral",
+        "Hematoma epidural",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente de 22 años sufre un traumatismo craneoencefálico severo tras caída, con pérdida de conciencia seguida por un período de aparente mejoría (intervalo lúcido), y luego deterioro neurológico progresivo con signos de focalización (hemiparesia izquierda) y midriasis homolateral (pupila derecha). Este patrón es clásico del hematoma epidural, generalmente asociado a lesión de la arteria meníngea media. La expansión del hematoma produce efecto de masa y herniación uncal. La evolución rápida y los signos clínicos orientan fuertemente hacia este diagnóstico, que requiere intervención neuroquirúrgica inmediata. Las demás opciones no suelen presentar este patrón clínico tan característico.",
+      "comentario": "El paciente de 22 años sufre un traumatismo craneoencefálico severo tras caída, con pérdida de conciencia seguida por un período de aparente mejoría (intervalo lúcido), y luego deterioro neurológico progresivo con signos de focalización (hemiparesia izquierda) y midriasis homolateral (pupila derecha). Este patrón es clásico del hematoma epidural, generalmente asociado a lesión de la arteria meníngea media. La expansión del hematoma produce efecto de masa y herniación uncal. La evolución rápida y los signos clínicos orientan fuertemente hacia este diagnóstico, que requiere intervención neuroquirúrgica inmediata. Las demás opciones no suelen presentar este patrón clínico tan característico.",
+      "tema": "Hematoma epidural",
+      "año": 2021
+    },
+    {
+      "id": "NRL-017",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 22 años, trasladado por el SAMU por sufrir asalto con arma blanca. Al examen: herida profunda sangrante en la nuca. No puede movilizar el hemicuerpo derecho y la sensibilidad está afectada en el lado contralateral. ¿Qué estudio es recomendable para el diagnóstico?",
+      "opciones": [
+        "Ecografía de partes blandas",
+        "Gammagrafía cervical",
+        "TAC cervical contrastada",
+        "Resonancia magnética cervical",
+        "Electrocardiograma"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta signos clínicos de un síndrome medular hemiseccional (Brown-Séquard), caracterizado por parálisis ipsilateral y pérdida de sensibilidad contralateral, típicamente tras un trauma penetrante como herida por arma blanca. El examen de elección en este caso es la resonancia magnética cervical, ya que permite una valoración detallada de la médula espinal y sus estructuras adyacentes. Una tomografía puede ayudar a ver estructuras óseas o cuerpos extraños, pero la RM es superior para valorar el compromiso medular. Es importante actuar con rapidez, pues el pronóstico neurológico depende de una intervención precoz.",
+      "comentario": "El paciente presenta signos clínicos de un síndrome medular hemiseccional (Brown-Séquard), caracterizado por parálisis ipsilateral y pérdida de sensibilidad contralateral, típicamente tras un trauma penetrante como herida por arma blanca. El examen de elección en este caso es la resonancia magnética cervical, ya que permite una valoración detallada de la médula espinal y sus estructuras adyacentes. Una tomografía puede ayudar a ver estructuras óseas o cuerpos extraños, pero la RM es superior para valorar el compromiso medular. Es importante actuar con rapidez, pues el pronóstico neurológico depende de una intervención precoz.",
+      "tema": "Síndrome de Brown-Séquard",
+      "año": 2021
+    },
+    {
+      "id": "NRL-018",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 62 años con antecedente de hipertensión arterial. Presenta bruscamente hemiplejia derecha con afasia no afluente que revierte íntegramente luego de 15 minutos. Tomografía cerebral normal. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Hemorragia subaracnoidea",
+        "Hemorragia intraparenquimal",
+        "Embolia cerebral",
+        "Ataque isquémico transitorio",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta un cuadro de déficit neurológico focal que revierte completamente en menos de 24 horas (en este caso, en 15 minutos), sin hallazgos patológicos en la tomografía. Esto define un ataque isquémico transitorio (AIT), una condición de alto riesgo para un futuro evento cerebrovascular. Las hemorragias intracraneales y embolias no revierten en tan poco tiempo. Reconocer un AIT permite iniciar medidas preventivas urgentes para reducir la morbilidad neurológica.",
+      "comentario": "La paciente presenta un cuadro de déficit neurológico focal que revierte completamente en menos de 24 horas (en este caso, en 15 minutos), sin hallazgos patológicos en la tomografía. Esto define un ataque isquémico transitorio (AIT), una condición de alto riesgo para un futuro evento cerebrovascular. Las hemorragias intracraneales y embolias no revierten en tan poco tiempo. Reconocer un AIT permite iniciar medidas preventivas urgentes para reducir la morbilidad neurológica.",
+      "tema": "Ataque isquémico transitorio",
+      "año": 2021
+    },
+    {
+      "id": "NRL-019",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 17 años con antecedente de faringoamigdalitis crónica, desde hace dos semanas presenta movimientos involuntarios en manos, cara y boca. Al examen: se objetiva movimientos rápidos, repetitivos y estereotipados, soplo diastólico en foco mitral, resto normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Enfermedad de Wilson",
+        "Corea de Sydenham",
+        "Atetosis juvenil",
+        "Corea de Huntington",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Adolescente varón con antecedentes de faringoamigdalitis crónica y movimientos involuntarios rápidos y estereotipados en cara y extremidades (corea), asociado a soplo diastólico en foco mitral, lo que indica una afectación cardíaca reumática. Este cuadro clínico corresponde a la Corea de Sydenham, una manifestación neurológica de la fiebre reumática aguda, relacionada a infección por Streptococcus pyogenes. Es más común en adolescentes y suele acompañarse de carditis mitral. La corea de Huntington es genética y de inicio tardío, mientras que la enfermedad de Wilson tiene otros signos neurológicos y hepáticos.",
+      "comentario": "Adolescente varón con antecedentes de faringoamigdalitis crónica y movimientos involuntarios rápidos y estereotipados en cara y extremidades (corea), asociado a soplo diastólico en foco mitral, lo que indica una afectación cardíaca reumática. Este cuadro clínico corresponde a la Corea de Sydenham, una manifestación neurológica de la fiebre reumática aguda, relacionada a infección por Streptococcus pyogenes. Es más común en adolescentes y suele acompañarse de carditis mitral. La corea de Huntington es genética y de inicio tardío, mientras que la enfermedad de Wilson tiene otros signos neurológicos y hepáticos.",
+      "tema": "Corea de Sydenham",
+      "año": 2022
+    },
+    {
+      "id": "NRL-020",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Anciano, hipertenso mal controlado, súbitamente presenta disartria, debilidad en hemicuerpo izquierdo con dificultad para la marcha. Al examen: dificultad para entender preguntas, incoordinación de movimientos. Laboratorio: glucosa 100 mg/dl, urea 40 mg/dl. Una hora más tarde se constata recuperación espontánea. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipoglucemia",
+        "Síndrome conversivo",
+        "Isquemia cerebral transitoria",
+        "Infarto cerebral cortical",
+        "Neumonía adquirida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulto mayor hipertenso con presentación súbita de signos neurológicos focales (disartria, hemiparesia izquierda, incoordinación), compatibles con evento cerebrovascular. La recuperación completa en menos de una hora, sin evidencia de hipoglucemia ni alteraciones metabólicas, orienta a una isquemia cerebral transitoria (ICT). Esta se define como un déficit neurológico focal súbito y reversible dentro de las primeras 24 horas, típicamente mucho antes. No hay signos ni hallazgos que sustenten infarto establecido (no hay lesión permanente ni síntomas persistentes), ni clínica que respalde un trastorno psicógeno (como el conversivo). La glicemia es normal, descartando hipoglucemia.",
+      "comentario": "Paciente adulto mayor hipertenso con presentación súbita de signos neurológicos focales (disartria, hemiparesia izquierda, incoordinación), compatibles con evento cerebrovascular. La recuperación completa en menos de una hora, sin evidencia de hipoglucemia ni alteraciones metabólicas, orienta a una isquemia cerebral transitoria (ICT). Esta se define como un déficit neurológico focal súbito y reversible dentro de las primeras 24 horas, típicamente mucho antes. No hay signos ni hallazgos que sustenten infarto establecido (no hay lesión permanente ni síntomas persistentes), ni clínica que respalde un trastorno psicógeno (como el conversivo). La glicemia es normal, descartando hipoglucemia.",
+      "tema": "Ataque isquémico transitorio en el anciano",
+      "año": 2022
+    },
+    {
+      "id": "NRL-021",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 25 años, que acude a la emergencia tras impacto en la región frontal de la cabeza contra el parabrisas de su vehículo, niega haber sufrido pérdida de conciencia, manifiesta cefalea leve con dolor cervical. Al examen: Glasgow 12, con desorientación en tiempo, resto del examen normal. ¿Cuál es el examen recomendado?",
+      "opciones": [
+        "Arteriografía cerebral",
+        "Tomografía cerebral",
+        "Punción lumbar",
+        "Radiografía de cráneo",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón de 25 años con trauma frontal cerrado tras accidente automovilístico, quien refiere cefalea y dolor cervical, con Glasgow de 12 y desorientación temporal. Estos datos clínicos ya implican un traumatismo craneoencefálico moderado, por lo cual la evaluación debe ser inmediata y precisa. La tomografía cerebral es el estudio de elección en todo paciente con alteración del estado de conciencia, déficit neurológico focal, signos de fractura de base o trauma moderado a severo. El Glasgow menor de 15, la desorientación y el dolor cervical requieren descartar hemorragia, contusión cerebral o fractura. La arteriografía se reserva para sospecha vascular. La punción lumbar está contraindicada si hay posibilidad de hipertensión endocraneana. La radiografía de cráneo tiene muy baja sensibilidad y ya no es recomendada como estudio inicial.",
+      "comentario": "Varón de 25 años con trauma frontal cerrado tras accidente automovilístico, quien refiere cefalea y dolor cervical, con Glasgow de 12 y desorientación temporal. Estos datos clínicos ya implican un traumatismo craneoencefálico moderado, por lo cual la evaluación debe ser inmediata y precisa. La tomografía cerebral es el estudio de elección en todo paciente con alteración del estado de conciencia, déficit neurológico focal, signos de fractura de base o trauma moderado a severo. El Glasgow menor de 15, la desorientación y el dolor cervical requieren descartar hemorragia, contusión cerebral o fractura. La arteriografía se reserva para sospecha vascular. La punción lumbar está contraindicada si hay posibilidad de hipertensión endocraneana. La radiografía de cráneo tiene muy baja sensibilidad y ya no es recomendada como estudio inicial.",
+      "tema": "TEC moderado: tomografía",
+      "año": 2022
+    },
+    {
+      "id": "NRL-022",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 30 años hace 12 horas sufrió golpe en la cabeza con pérdida de conocimiento, al momento presenta cefalea global de intensidad moderada, vómitos explosivos, mareos y fotofobia. Fondo de ojo: edema de papilas. Glasgow 10 y descendiendo. ¿Cuál indicación es prioritaria?",
+      "opciones": [
+        "Solución cristaloide isosmótica",
+        "Dimehidrinato sódico",
+        "Antiinflamatorios no esteroideos",
+        "Solución salina hipertónica",
+        "Clindamicina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón de 30 años con historia de traumatismo craneoencefálico (TCE) hace 12 horas, que cursa con cefalea intensa, vómitos explosivos, fotofobia y alteración progresiva del sensorio (Glasgow en descenso). El hallazgo de edema de papila en el fondo de ojo confirma la presencia de hipertensión endocraneana (HTEC). Esta situación representa una emergencia neurológica que requiere reducción rápida de la presión intracraneana para evitar herniación cerebral. La solución salina hipertónica (hipertónica al 3% o superior) es el tratamiento de elección inicial en estos cuadros, pues reduce la presión osmótica cerebral sin agravar el edema. El dimenhidrinato trata náuseas, pero no resuelve el cuadro base. L os AINES están contraindicados por riesgo de sangrado intracraneal. Los cristaloides isotónicos no controlan la HTEC.",
+      "comentario": "Varón de 30 años con historia de traumatismo craneoencefálico (TCE) hace 12 horas, que cursa con cefalea intensa, vómitos explosivos, fotofobia y alteración progresiva del sensorio (Glasgow en descenso). El hallazgo de edema de papila en el fondo de ojo confirma la presencia de hipertensión endocraneana (HTEC). Esta situación representa una emergencia neurológica que requiere reducción rápida de la presión intracraneana para evitar herniación cerebral. La solución salina hipertónica (hipertónica al 3% o superior) es el tratamiento de elección inicial en estos cuadros, pues reduce la presión osmótica cerebral sin agravar el edema. El dimenhidrinato trata náuseas, pero no resuelve el cuadro base. L os AINES están contraindicados por riesgo de sangrado intracraneal. Los cristaloides isotónicos no controlan la HTEC.",
+      "tema": "Hipertensión endocraneana: solución salina hipertónica",
+      "año": 2022
+    },
+    {
+      "id": "NRL-023",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 80 años, sufre TEC leve hace tres semanas, con cefalea persistente y signos de demencia progresiva con abandono de las reglas de conducta. ¿Cuál es el hematoma más probable?",
+      "opciones": [
+        "Subdural agudo",
+        "Subdural crónico",
+        "Intracerebral tardío",
+        "Epidural",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El caso describe un hematoma subdural crónico, típico en adultos mayores tras un trauma leve. Se presenta semanas después del evento inicial con síntomas como cefalea persistente, cambios en el estado mental (demencia progresiva, alteración de la conducta) debido a la acumulación lenta de sangre que ejerce efecto de masa sobre el cerebro. El antecedente de TEC leve y la evolución subaguda son claves para el diagnóstico.",
+      "comentario": "El caso describe un hematoma subdural crónico, típico en adultos mayores tras un trauma leve. Se presenta semanas después del evento inicial con síntomas como cefalea persistente, cambios en el estado mental (demencia progresiva, alteración de la conducta) debido a la acumulación lenta de sangre que ejerce efecto de masa sobre el cerebro. El antecedente de TEC leve y la evolución subaguda son claves para el diagnóstico.",
+      "tema": "Hematoma subdural crónico",
+      "año": 2023
+    },
+    {
+      "id": "NRL-024",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 35 años, con antecedente de migraña, presenta de manera súbita cefalea intensa (9/10), náusea, vómitos y convulsiones tónico clónicas con relajación de esfínteres. Es llevada a urgencias en estado postictal. Examen: PA: 170/90 mmHg, FC: 70X’, FR: 14 X’, SatO₂: 95%, afebril; Glasgow 10, anisocoria derecha 5 mm, izquierda 2 mm, ptosis palpebral derecha, no localiza con miembro superior izquierdo y rigidez de nuca. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Meningitis",
+        "Hematoma subdural",
+        "Hemorragia subaracnoidea",
+        "Hemorragia cerebelosa",
+        "Hipertensión arterial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente presenta cefalea súbita intensa (en trueno), náuseas, vómitos, convulsiones, rigidez de nuca y déficit neurológico focal, signos clásicos de hemorragia subaracnoidea, muchas veces causada por ruptura de aneurisma cerebral. La anisocoria y ptosis indican compromiso del III par craneal por efecto de masa o sangrado. El antecedente de migraña puede confundir, pero la intensidad súbita, convulsiones y signos meníngeos orientan claramente al diagnóstico. La TAC sin contraste es el estudio inicial para confirmar el sangrado.",
+      "comentario": "La paciente presenta cefalea súbita intensa (en trueno), náuseas, vómitos, convulsiones, rigidez de nuca y déficit neurológico focal, signos clásicos de hemorragia subaracnoidea, muchas veces causada por ruptura de aneurisma cerebral. La anisocoria y ptosis indican compromiso del III par craneal por efecto de masa o sangrado. El antecedente de migraña puede confundir, pero la intensidad súbita, convulsiones y signos meníngeos orientan claramente al diagnóstico. La TAC sin contraste es el estudio inicial para confirmar el sangrado.",
+      "tema": "Hemorragia subaracnoidea con compromiso del III par",
+      "año": 2023
+    },
+    {
+      "id": "NRL-025",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 78 años con cefalea y confusión progresiva desde hace 8 meses; refiere que no puede vestirse sola. No presenta ningún antecedente importante. Examen: PA:140/80 mmHg, FC: 60 X’, FR: 20 X’, T°37°C; no déficit motor; hemianopsia izquierda; resto de examen normal. TEM cerebral: masa con contraste anular, necrosis central y edema periférico en lóbulo parietal derecho. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Glioblastoma",
+        "Linfoma",
+        "Tuberculoma",
+        "Meningioma",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El diagnóstico más probable en este caso es glioblastoma (opción A). El glioblastoma es un tumor cerebral primario de alto grado que a menudo presenta un patrón característico en las imágenes por resonancia magnética (IRM), como la masa con realce anular, necrosis central y edema periférico, como se describe en este paciente. Además, los síntomas neurológicos progresivos como la confusión y cefalea son comunes en este tipo de tumor. Este tipo de tumor se presenta con un comportamiento muy agresivo, por lo que requiere tratamiento inmediato y especializado.",
+      "comentario": "El diagnóstico más probable en este caso es glioblastoma (opción A). El glioblastoma es un tumor cerebral primario de alto grado que a menudo presenta un patrón característico en las imágenes por resonancia magnética (IRM), como la masa con realce anular, necrosis central y edema periférico, como se describe en este paciente. Además, los síntomas neurológicos progresivos como la confusión y cefalea son comunes en este tipo de tumor. Este tipo de tumor se presenta con un comportamiento muy agresivo, por lo que requiere tratamiento inmediato y especializado.",
+      "tema": "Glioblastoma",
+      "año": 2023
+    },
+    {
+      "id": "NRL-026",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 62 años que presenta deterioro mental progresiva con pérdida de la atención, se toma más lento, refiere que “ve personas que lo vigilan y lo quiere atrapar”. Examen: facies inexpresiva, movimientos en cuenta de monedas, rigidez bradicinesia. ¿Cuál es el diagnostico más probable?",
+      "opciones": [
+        "Pseudodemencia",
+        "Demencia de Alzheimer",
+        "Demencia con cuerpos de Lewy",
+        "Demencia frontotemporal",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El diagnóstico más probable en este caso es demencia con cuerpos de Lewy. Esta enfermedad se caracteriza por un deterioro cognitivo progresivo, que puede incluir problemas con la atención y la memoria, así como fluctuaciones en el estado mental. Además, los pacientes suelen presentar síntomas motores similares al Parkinson, como rigidez, bradicinesia y movimientos lentos, lo cual se observa en este caso. La presencia de alucinaciones visuales (\"ve personas que lo vigilan\") también es característica de la demencia con cuerpos de Lewy, y es un hallazgo importante en el diagnóstico. La combinación de síntomas cognitivos y motores con alucinaciones es indicativa de esta patología.",
+      "comentario": "El diagnóstico más probable en este caso es demencia con cuerpos de Lewy. Esta enfermedad se caracteriza por un deterioro cognitivo progresivo, que puede incluir problemas con la atención y la memoria, así como fluctuaciones en el estado mental. Además, los pacientes suelen presentar síntomas motores similares al Parkinson, como rigidez, bradicinesia y movimientos lentos, lo cual se observa en este caso. La presencia de alucinaciones visuales (\"ve personas que lo vigilan\") también es característica de la demencia con cuerpos de Lewy, y es un hallazgo importante en el diagnóstico. La combinación de síntomas cognitivos y motores con alucinaciones es indicativa de esta patología.",
+      "tema": "Demencia con cuerpos de Lewy",
+      "año": 2023
+    },
+    {
+      "id": "NRL-027",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál es el manejo inicial en un paciente con hidrocefalia aguda?",
+      "opciones": [
+        "Dextrosa 5% en agua destilada",
+        "Elevar 30º la cabecera",
+        "Suero hipotónico",
+        "Mantener pCO2 > 40 mmHg",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La medida más apropiada entre las opciones proporcionadas es ELEVAR LA CABECERA DE LA CAMA EN 30 GRADOS (Opción B). Esto puede ayudar a mejorar el drenaje venoso cerebral y reducir la presión intracraneal. El tratamiento específico dependerá de la situación clínica individual del paciente y puede requerir intervenciones adicionales, como la derivación de líquido cefalorraquídeo o la cirugía.",
+      "comentario": "La medida más apropiada entre las opciones proporcionadas es ELEVAR LA CABECERA DE LA CAMA EN 30 GRADOS (Opción B). Esto puede ayudar a mejorar el drenaje venoso cerebral y reducir la presión intracraneal. El tratamiento específico dependerá de la situación clínica individual del paciente y puede requerir intervenciones adicionales, como la derivación de líquido cefalorraquídeo o la cirugía.",
+      "tema": "Hidrocefalia aguda: medidas iniciales",
+      "año": 2023
+    },
+    {
+      "id": "NRL-028",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, desde hace 3 horas presenta cefalea intensa asociado a vómitos explosivos. Hace una semana presentó cefalea que cedió espontáneamente. Examen: PA 160/70 mmHg, FC 60 X'; despierta, Glasgow 14, rigidez de nuca (+), diplopía, Babinski (+ ). ¿Cuál es la conducta inicial?",
+      "opciones": [
+        "Punción lumbar",
+        "Arteriografía cerebral",
+        "TEM cerebral",
+        "Diuréticos osmóticos",
+        "Radiografía simple"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los hallazgos clínicos y el cuadro descrito sugieren la posibilidad de una hemorragia subaracnoidea (HSA). La HSA es una ruptura de un vaso sanguíneo en el espacio subaracnoideo del cerebro, generalmente debido a la rotura de un aneurisma cerebral. Los síntomas típicos incluyen cefalea súbita y severa, asociada a menudo con vómitos, rigidez de nuca y alteraciones del estado mental. La presencia de diplopía y el signo de Babinski pueden indicar la extensión del daño cerebral asociado con la hemorragia subaracnoidea. En este caso, la conducta inicial será realizar una TEM cerebral (Opción C). Este examen es la prueba de imagen de elección en la evaluación inicial de pacientes con sospecha de hemorragia subaracnoidea. Puede identificar la presencia de sangre en el espacio subaracnoideo y proporcionar información crucial sobre la localización y la extensión de la hemorragia.",
+      "comentario": "Los hallazgos clínicos y el cuadro descrito sugieren la posibilidad de una hemorragia subaracnoidea (HSA). La HSA es una ruptura de un vaso sanguíneo en el espacio subaracnoideo del cerebro, generalmente debido a la rotura de un aneurisma cerebral. Los síntomas típicos incluyen cefalea súbita y severa, asociada a menudo con vómitos, rigidez de nuca y alteraciones del estado mental. La presencia de diplopía y el signo de Babinski pueden indicar la extensión del daño cerebral asociado con la hemorragia subaracnoidea. En este caso, la conducta inicial será realizar una TEM cerebral (Opción C). Este examen es la prueba de imagen de elección en la evaluación inicial de pacientes con sospecha de hemorragia subaracnoidea. Puede identificar la presencia de sangre en el espacio subaracnoideo y proporcionar información crucial sobre la localización y la extensión de la hemorragia.",
+      "tema": "Sospecha de hemorragia subaracnoidea: tomografía",
+      "año": 2023
+    },
+    {
+      "id": "NRL-029",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 54 años, hipertenso con tratamiento irregular. Es traído a emergencia por familiar quien informa que hace 3 horas, sufrió en forma súbita caída al piso y no responde al estimulo verbal ni doloroso. Examen: Glasgow: 4; patrón respiratorio irregular; ojos: pupilas mióticas. ¿Cuál es la localización anatómica del ACV?",
+      "opciones": [
+        "Protuberancia",
+        "Tálamo",
+        "Cápsula interna",
+        "Cerebelo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Dado que el paciente presenta una alteración en el nivel de conciencia junto con pupilas mióticas, lo más probable es que el ACV esté afectando una región que involucra el sistema nervioso autónomo, como la Protuberancia (Opción A). La protuberancia, también conocida como puente, es una estructura en el tronco cerebral que desempeña un papel importante en el control de varias funciones, incluido el patrón respiratorio. Los síntomas de un ACV en la protuberancia pueden incluir cambios en el patrón respiratorio, alteraciones en la conciencia, tetraparesia/plejía, paresia de la mirada horizontal bilateral y pupilas mióticas reactivas.",
+      "comentario": "Dado que el paciente presenta una alteración en el nivel de conciencia junto con pupilas mióticas, lo más probable es que el ACV esté afectando una región que involucra el sistema nervioso autónomo, como la Protuberancia (Opción A). La protuberancia, también conocida como puente, es una estructura en el tronco cerebral que desempeña un papel importante en el control de varias funciones, incluido el patrón respiratorio. Los síntomas de un ACV en la protuberancia pueden incluir cambios en el patrón respiratorio, alteraciones en la conciencia, tetraparesia/plejía, paresia de la mirada horizontal bilateral y pupilas mióticas reactivas.",
+      "tema": "Hemorragia pontina: pupilas puntiformes",
+      "año": 2023
+    },
+    {
+      "id": "NRL-030",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 73 años, traída por su hija, por haber ocasionado 3 amagos de incendio al dejar la cocina prendida. Por momentos no reconoce a sus familiares, ha presentado cambios en el estado de ánimo. En dos ocasiones la encontraron deambulando sin rumbo por la calle. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Enfermedad de Huntington",
+        "Enfermedad de Alzheimer",
+        "Demencia con cuerpos de Lewy",
+        "Demencia frontotemporal",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La clínica presentada por la paciente es altamente sugestiva de la enfermedad de Alzheimer (Alternativa B). La enfermedad de Alzheimer es la causa más común de demencia en personas mayores y se caracteriza por deterioro progresivo de la memoria, desorientación, cambios en la personalidad y conducta, y dificultades en el manejo de las actividades diarias. Los síntomas de la paciente, como los episodios de desorientación, los cambios en el estado d e ánimo y los comportamientos peligrosos (como dejar prendida la cocina), son muy característicos de esta enfermedad.",
+      "comentario": "La clínica presentada por la paciente es altamente sugestiva de la enfermedad de Alzheimer (Alternativa B). La enfermedad de Alzheimer es la causa más común de demencia en personas mayores y se caracteriza por deterioro progresivo de la memoria, desorientación, cambios en la personalidad y conducta, y dificultades en el manejo de las actividades diarias. Los síntomas de la paciente, como los episodios de desorientación, los cambios en el estado d e ánimo y los comportamientos peligrosos (como dejar prendida la cocina), son muy característicos de esta enfermedad.",
+      "tema": "Enfermedad de Alzheimer",
+      "año": 2024
+    },
+    {
+      "id": "NRL-031",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 49 años va al consultorio y refiere dificultad para sostener y utilizar un lápiz desde hace un año y presenta espasmos de la mano y el antebrazo derecho, sólo cuando escribe o cuando está muy ansioso. Examen: normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome del túnel carpiano",
+        "Temblor esencial benigno",
+        "Tenosinovitis de Quervain",
+        "Distonía focal",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En este caso, los espasmos que se producen al escribir o cuando el paciente está ansioso son característicos de la distonía focal (Alternativa D), especialmente de la llamada \"distonía del escritor\". La distonía focal es un trastorno neurológico que provoca contracciones musculares involuntarias y sostenidas en una parte específica del cuerpo, como la mano y el antebrazo. Este trastorno es frecuentemente desencadenado por actividades motoras específicas, y el hecho de que el paciente tenga espasmos de la ma no y el antebrazo solo al escribir o en situaciones de ansiedad es muy indicativo de este diagnóstico. El examen físico normal también apoya esta hipótesis, ya que la distonía focal no suele presentar anormalidades fuera del contexto de la tarea desencadenante.",
+      "comentario": "En este caso, los espasmos que se producen al escribir o cuando el paciente está ansioso son característicos de la distonía focal (Alternativa D), especialmente de la llamada \"distonía del escritor\". La distonía focal es un trastorno neurológico que provoca contracciones musculares involuntarias y sostenidas en una parte específica del cuerpo, como la mano y el antebrazo. Este trastorno es frecuentemente desencadenado por actividades motoras específicas, y el hecho de que el paciente tenga espasmos de la ma no y el antebrazo solo al escribir o en situaciones de ansiedad es muy indicativo de este diagnóstico. El examen físico normal también apoya esta hipótesis, ya que la distonía focal no suele presentar anormalidades fuera del contexto de la tarea desencadenante.",
+      "tema": "Distonía focal: calambre del escribiente",
+      "año": 2024
+    },
+    {
+      "id": "NRL-032",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 65 años, con antecedente de HTA con tratamiento irregular, es hallado en casa con alteración del nivel de conciencia y traído a la emergencia. Examen: Glasgow: 10, somnoliento, confuso, PA 180/90 mmHg, FC 90 X´, FR 20 X´, SatO₂ 94%, hay signos de irritabilidad meníngea, hemiparesia derecha y desviación de la mirada hacia la izquierda. No hay signos de trauma craneal externo. TC Cerebral: hemorragia intraparenquimal en hemisferio cerebral izquierdo. ¿Cuál es la conducta inicial a seguir?",
+      "opciones": [
+        "Drenaje de LCR",
+        "Administración de antihipertensivos",
+        "Intubación orotraqueal",
+        "Oxigenoterapia a bajo flujo",
+        "Biopsia excisional"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La medida inicial más adecuada para este paciente con hemorragia intraparenquimal e hipertensión arterial es la administración de antihipertensivos (Alternativa B). El objetivo es controlar la presión arterial para prevenir la progresión del sangrado con la consecuente expansión del hematoma y así reducir el riesgo de complicaciones neurológicas adicionales. Se debe reducir la presión arterial sistólica (PAS) a un rango seguro, generalmente por debajo de 150mmHg. Esto debe hacerse de manera controlada para evitar la hipoperfusión cerebral.",
+      "comentario": "La medida inicial más adecuada para este paciente con hemorragia intraparenquimal e hipertensión arterial es la administración de antihipertensivos (Alternativa B). El objetivo es controlar la presión arterial para prevenir la progresión del sangrado con la consecuente expansión del hematoma y así reducir el riesgo de complicaciones neurológicas adicionales. Se debe reducir la presión arterial sistólica (PAS) a un rango seguro, generalmente por debajo de 150mmHg. Esto debe hacerse de manera controlada para evitar la hipoperfusión cerebral.",
+      "tema": "Hemorragia intraparenquimal hipertensiva: control de la PA",
+      "año": 2024
+    },
+    {
+      "id": "NRL-033",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 65 años fumador severo, es traído por convulsiones de reciente inicio. Antecedente: cefalea holocraneana y tos persistente desde hace 4 meses. Examen: Lúcido, hemiparesia izquierda. TC cerebral: lesión parenquimatosa frontal derecha redonda de 1 cm, bien circunscrita, con reforzamiento en forma de anillo y edema perilesional en forma de dedos de guante y otra lesión con las mismas características, parietal izquierda. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Metástasis cerebral",
+        "Glioblastoma multiforme",
+        "Meningioma",
+        "Neurocisticercosis",
+        "Asma bronquial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Dada la historia de tabaquismo severo que incrementa el riesgo de cáncer de pulmón, las convulsiones y las lesiones cerebrales múltiples con características típicas de reforzamiento en forma de anillo y edema perilesional en forma de dedos de guante, el diagnóstico más probable en este caso es metástasis cerebral (Alternativa A). Las metástasis cerebrales son lesiones secundarias que se originan de tumores primarios en otras partes del cuerpo, como el pulmón en pacientes fumadores. Suelen presentarse como múltiples lesiones bien circunscritas con edema perilesional en forma de dedos de guante. La historia de cefalea holocraneana y tos persistente sugiere un posible tumor primario en el pulmón que ha metastatizado al cerebro.",
+      "comentario": "Dada la historia de tabaquismo severo que incrementa el riesgo de cáncer de pulmón, las convulsiones y las lesiones cerebrales múltiples con características típicas de reforzamiento en forma de anillo y edema perilesional en forma de dedos de guante, el diagnóstico más probable en este caso es metástasis cerebral (Alternativa A). Las metástasis cerebrales son lesiones secundarias que se originan de tumores primarios en otras partes del cuerpo, como el pulmón en pacientes fumadores. Suelen presentarse como múltiples lesiones bien circunscritas con edema perilesional en forma de dedos de guante. La historia de cefalea holocraneana y tos persistente sugiere un posible tumor primario en el pulmón que ha metastatizado al cerebro.",
+      "tema": "Metástasis cerebrales múltiples",
+      "año": 2024
+    },
+    {
+      "id": "NRL-034",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 30 años con antecedente de LES, presenta ptosis palpebral, diplopía, debilidad y fatiga muscular que se intensifica con la actividad y mejora con el reposo. ¿Cuál de los siguientes receptores se relaciona con esta patología?",
+      "opciones": [
+        "Nicotínicos",
+        "GABA",
+        "Adrenérgicos",
+        "Dopaminérgicos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los síntomas presentados por esta paciente con antecedente de LES, como ptosis palpebral (caída del párpado), diplopía (visión doble), debilidad y fatiga muscular que empeoran con la actividad y mejoran con el reposo, son altamente sugestivos de miastenia gravis. La miastenia gravis es una enfermedad autoinmune crónica que afecta la transmisión de los impulsos nerviosos a los músculos, específicamente en la unión neuromuscular. En esta condición, el sistema inmunológico produce anticuerpos que atacan los receptores nicotínicos (Alternativa A) de acetilcolina en la membrana de las células musculares, bloqueando o destruyendo estos receptores.",
+      "comentario": "Los síntomas presentados por esta paciente con antecedente de LES, como ptosis palpebral (caída del párpado), diplopía (visión doble), debilidad y fatiga muscular que empeoran con la actividad y mejoran con el reposo, son altamente sugestivos de miastenia gravis. La miastenia gravis es una enfermedad autoinmune crónica que afecta la transmisión de los impulsos nerviosos a los músculos, específicamente en la unión neuromuscular. En esta condición, el sistema inmunológico produce anticuerpos que atacan los receptores nicotínicos (Alternativa A) de acetilcolina en la membrana de las células musculares, bloqueando o destruyendo estos receptores.",
+      "tema": "Miastenia gravis: receptores nicotínicos",
+      "año": 2024
+    },
+    {
+      "id": "NRL-035",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 58 años, hipertenso y fumador, llega a urgencias por cefalea súbita e intensa, vómitos y dificultad para caminar. Examen: PA: 180/110 mmHg, FC: 92 X', FR: 20 X', SatO₂: 96%, T°: 36.8°C; letárgico, disartria, ataxia, nistagmo horizontal, ROT normal. TC de cráneo: hematoma de 3.5 cm de diámetro, con efecto de masa y compresión del cuarto ventrículo. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Administración de corticosteroides",
+        "Descompresión quirúrgica",
+        "Monitoreo continuo de PIC",
+        "Administración de solución hipertónica",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El diagnóstico más probable en este caso es una hemorragia intracraneal, que está causando un efecto de masa y compresión del cuarto ventrículo. Este paciente, con antecedentes de hipertensión y tabaquismo, presenta signos de compromiso neurológico como disartria, ataxia, y nistagmo, lo cual, combinado con los hallazgos de la TC, confirma la necesidad de una intervención urgente. La descompresión quirúrgica es la conducta inicial más apropiada, ya que es vital aliviar la presión intracraneal para prevenir daños cerebrales adicionales y evitar complicaciones como la herniación cerebral.",
+      "comentario": "El diagnóstico más probable en este caso es una hemorragia intracraneal, que está causando un efecto de masa y compresión del cuarto ventrículo. Este paciente, con antecedentes de hipertensión y tabaquismo, presenta signos de compromiso neurológico como disartria, ataxia, y nistagmo, lo cual, combinado con los hallazgos de la TC, confirma la necesidad de una intervención urgente. La descompresión quirúrgica es la conducta inicial más apropiada, ya que es vital aliviar la presión intracraneal para prevenir daños cerebrales adicionales y evitar complicaciones como la herniación cerebral.",
+      "tema": "Hematoma cerebeloso con compresión del IV ventrículo: cirugía",
+      "año": 2024
+    },
+    {
+      "id": "NRL-036",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 20 años es trasladado a emergencia por paramédicos por sufrir una caída del tercer piso de su casa. Ingresa con un TEC grave. Examen: intubado, en hiperventilación, en coma profundo y con rigidez de decorticación. ¿Cuál es la localización probable de la lesión?",
+      "opciones": [
+        "Cerebelo",
+        "Hemisferios cerebrales",
+        "Mesencéfalo",
+        "Tálamo",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La rigidez de decorticación es un signo neurológico que indica una lesión por encima del mesencéfalo, es decir, en estructuras superiores como los hemisferios cerebrales, el tálamo o la cápsula interna. Las características clínicas de la rigidez de decorticación incluyen flexión de los brazos sobre el tórax y extensión de las piernas. Indica daño en las vías corticospi nales por encima del núcleo rojo, generalmente a nivel de los hemisferios cerebrales.",
+      "comentario": "La rigidez de decorticación es un signo neurológico que indica una lesión por encima del mesencéfalo, es decir, en estructuras superiores como los hemisferios cerebrales, el tálamo o la cápsula interna. Las características clínicas de la rigidez de decorticación incluyen flexión de los brazos sobre el tórax y extensión de las piernas. Indica daño en las vías corticospi nales por encima del núcleo rojo, generalmente a nivel de los hemisferios cerebrales.",
+      "tema": "Rigidez de decorticación",
+      "año": 2024
+    },
+    {
+      "id": "NRL-037",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 62 años refiere que hace varias semanas presenta dolor al roce de la ropa en la pierna derecha asociado a sensación de electricidad y episodios de adormecimiento. En los últimos días siente “como si le arrancaran” el dedo del pie derecho, limitando la deambulación. ¿Qué tipo de dolor refiere la paciente?",
+      "opciones": [
+        "Visceral",
+        "Nociceptivo",
+        "Neuropático",
+        "Somático",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El caso describe a una paciente con dolor al roce de la ropa, sensación de electricidad, episodios de adormecimiento y una sensación intensa de que \"le arrancan\" el dedo, lo cual limita la deambulación. Este cuadro es característico de un dolor neuropático, asociado a daño o disfunción en las fibras nerviosas periféricas o centrales, que produce sensaciones de hiperalgesia, alodinia (dolor ante estímulos normalmente no dolorosos) y dolor tipo quemante o eléctrico, se le denomina también ALODINEA. Este tipo de dolor se diferencia del nociceptivo, que ocurre por activación de receptores del dolor secundarios a lesión tisular o inflamación, generalmente descrito como dolor bien localizado y de tipo opresivo, que no se ajusta a este caso. El dolor visceral, asociado a órganos internos, es profundo, mal localizado y referido, como en cólicos intestinales, lo cual no corresponde aquí. El dolor somático, por daño a estructuras como músculos, articulaciones o huesos, también es bien localizado y no presenta las características de alodinia ni sensaciones eléctricas descritas. Por lo tanto, los síntomas de esta paciente, como alodinia, sensaciones de corriente eléctrica y alteraciones sensitivas, son diagnósticos de dolor neuropático, probablemente asociado a una neuropatía periférica.",
+      "comentario": "El caso describe a una paciente con dolor al roce de la ropa, sensación de electricidad, episodios de adormecimiento y una sensación intensa de que \"le arrancan\" el dedo, lo cual limita la deambulación. Este cuadro es característico de un dolor neuropático, asociado a daño o disfunción en las fibras nerviosas periféricas o centrales, que produce sensaciones de hiperalgesia, alodinia (dolor ante estímulos normalmente no dolorosos) y dolor tipo quemante o eléctrico, se le denomina también ALODINEA. Este tipo de dolor se diferencia del nociceptivo, que ocurre por activación de receptores del dolor secundarios a lesión tisular o inflamación, generalmente descrito como dolor bien localizado y de tipo opresivo, que no se ajusta a este caso. El dolor visceral, asociado a órganos internos, es profundo, mal localizado y referido, como en cólicos intestinales, lo cual no corresponde aquí. El dolor somático, por daño a estructuras como músculos, articulaciones o huesos, también es bien localizado y no presenta las características de alodinia ni sensaciones eléctricas descritas. Por lo tanto, los síntomas de esta paciente, como alodinia, sensaciones de corriente eléctrica y alteraciones sensitivas, son diagnósticos de dolor neuropático, probablemente asociado a una neuropatía periférica.",
+      "tema": "Dolor neuropático: alodinia",
+      "año": 2024
+    },
+    {
+      "id": "NRL-038",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "En la distrofia muscular de Duchenne. ¿Cuál es la proteína muscular deficiente?",
+      "opciones": [
+        "Tetina",
+        "Distrofina",
+        "Nebulina",
+        "Calcineurina",
+        "Metronidazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La distrofia muscular de Duchenne es causada por una mutación en el gen que codifica la distrofina, una proteína esencial para la estabilidad estructural de las fibras musculares. La distrofina conecta el citoesqueleto de actina intracelular con el complejo distroglicano en la membrana sarcolémica, que a su vez interactúa con la matriz extracelular. Su ausencia provoca fragilidad de la membrana durante las contracciones musculares, lo que lleva a daño celular, inflamación crónica y reemplazo del tejido muscular por fibrosis y grasa. La tetina, aunque esencial para estabilizar los sarcómeros y contribuir a la elasticidad muscular, no está implicada en esta enfermedad. La nebulina regula la longitud de los filamentos de actina y su ensamblaje en el sarcómero, pero su deficiencia está asociada a miopatías nemalínicas y no a Duchenne. La calcineurina es una enzima reguladora de la señalización intracelular involucrada en la hipertrofia muscular y no tiene relación con la integridad estructural de la membrana muscular. La distrofina es clave en la patogénesis de Duchenne y su deficiencia explica los hallazgos clínicos característicos como debilidad muscular progresiva, pseudohipertrofia de pantorrillas y complicaciones respiratorias y cardíacas.",
+      "comentario": "La distrofia muscular de Duchenne es causada por una mutación en el gen que codifica la distrofina, una proteína esencial para la estabilidad estructural de las fibras musculares. La distrofina conecta el citoesqueleto de actina intracelular con el complejo distroglicano en la membrana sarcolémica, que a su vez interactúa con la matriz extracelular. Su ausencia provoca fragilidad de la membrana durante las contracciones musculares, lo que lleva a daño celular, inflamación crónica y reemplazo del tejido muscular por fibrosis y grasa. La tetina, aunque esencial para estabilizar los sarcómeros y contribuir a la elasticidad muscular, no está implicada en esta enfermedad. La nebulina regula la longitud de los filamentos de actina y su ensamblaje en el sarcómero, pero su deficiencia está asociada a miopatías nemalínicas y no a Duchenne. La calcineurina es una enzima reguladora de la señalización intracelular involucrada en la hipertrofia muscular y no tiene relación con la integridad estructural de la membrana muscular. La distrofina es clave en la patogénesis de Duchenne y su deficiencia explica los hallazgos clínicos característicos como debilidad muscular progresiva, pseudohipertrofia de pantorrillas y complicaciones respiratorias y cardíacas.",
+      "tema": "Distrofia de Duchenne: distrofina",
+      "año": 2024
+    },
+    {
+      "id": "NRL-039",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 72 años con HTA, DM2 presenta hemiparesia derecha y afasia desde hace seis horas. Examen: PA 180/100 mmHg. NIHSS: 10. Soplo carotídeo izquierdo. Lab: glucosa: 110 mg/dl, Hb: 11.8 g/dl, Plaquetas: 230,000/mm³, INR 1.0. TC: hipodensidad en el territorio de la ACM izquierda, sin hemorragia y sin signos de infarto extenso. Doppler carotídeo: estenosis del 80% en la carótida izquierda. ¿Cuál es el tratamiento de elección en este paciente?",
+      "opciones": [
+        "Rehabilitación física precoz",
+        "Control estricto de PA sin reperfusión",
+        "Trombolisis intravenosa con alteplase (rtPA)",
+        "Trombectomía mecánica con o sin angioplastia carotídea",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente adulto mayor con factores de riesgo vascular (HTA, DM2), presenta cuadro clínico de evento cerebrovascular isquémico agudo (NIHSS 10, hemiparesia, afasia, inicio súbito hace 6 horas). La TC muestra infarto isquémico sin signos extensos ni hemorragia, y el Doppler revela estenosis carotídea severa (80%). Dado que está fuera de ventana para trombólisis intravenosa (máximo 4.5 horas), la trombectomía mecánica está indicada en pacientes con oclusión de gran vaso dentro de las 6 a 24 horas, siempre que se cumplan criterios clínicos y radiológicos. Además, la estenosis severa podría requerir angioplastia o colocación de stent.",
+      "comentario": "Paciente adulto mayor con factores de riesgo vascular (HTA, DM2), presenta cuadro clínico de evento cerebrovascular isquémico agudo (NIHSS 10, hemiparesia, afasia, inicio súbito hace 6 horas). La TC muestra infarto isquémico sin signos extensos ni hemorragia, y el Doppler revela estenosis carotídea severa (80%). Dado que está fuera de ventana para trombólisis intravenosa (máximo 4.5 horas), la trombectomía mecánica está indicada en pacientes con oclusión de gran vaso dentro de las 6 a 24 horas, siempre que se cumplan criterios clínicos y radiológicos. Además, la estenosis severa podría requerir angioplastia o colocación de stent.",
+      "tema": "Ictus isquémico a las 6 horas: trombectomía mecánica",
+      "año": 2025
+    },
+    {
+      "id": "NRL-040",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Adolescente de 16 años con cefalea hemicraneal pulsátil 48 horas, fotofobia, náuseas y vómitos, examen neurológico normal, TAC normal. ¿Diagnóstico más probable?",
+      "opciones": [
+        "Cefalea en racimos",
+        "Migraña",
+        "Cefalea tensional",
+        "Hemorragia subaracnoidea",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Adolescente con cefalea hemicraneal pulsátil mantenida por más de 48 horas, asociada a fotofobia, náuseas y vómitos. El examen neurológico normal orienta a una etiología primaria benigna. Fisiopatológicamente, la migraña responde a activación del sistema trigémino-vascular, liberación de mediadores inflamatorios y sensibilización nociceptiva. La TAC normal descarta hemorragia aguda, mientras que la cefalea tensional sería opresiva y no hemicraneal. La cefalea en racimos es unilateral, intensa, breve y acompañada de lagrimeo y rinorrea, más común en varones. La hemorragia subaracnoidea suele presentar “peor cefalea de la vida” y signos meníngeos. La duración prolongada puede corresponder a estatus migrañoso sin focalidad. Por la clínica clásica y estudios tranquilos, el diagnóstico más probable es migraña.",
+      "comentario": "Adolescente con cefalea hemicraneal pulsátil mantenida por más de 48 horas, asociada a fotofobia, náuseas y vómitos. El examen neurológico normal orienta a una etiología primaria benigna. Fisiopatológicamente, la migraña responde a activación del sistema trigémino-vascular, liberación de mediadores inflamatorios y sensibilización nociceptiva. La TAC normal descarta hemorragia aguda, mientras que la cefalea tensional sería opresiva y no hemicraneal. La cefalea en racimos es unilateral, intensa, breve y acompañada de lagrimeo y rinorrea, más común en varones. La hemorragia subaracnoidea suele presentar “peor cefalea de la vida” y signos meníngeos. La duración prolongada puede corresponder a estatus migrañoso sin focalidad. Por la clínica clásica y estudios tranquilos, el diagnóstico más probable es migraña.",
+      "tema": "Migraña",
+      "año": 2025
+    },
+    {
+      "id": "NRL-041",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 65 años que cayó por las escaleras es traído a la emergencia inmediatamente por sus familiares quienes refieren que hubo pérdida inicial de la conciencia, sensorio intermitente con lucidez y somnolencia. Examen: PA: 120/60 mmHg, FC: 90 X’, FR: 24 X’, cuero cabelludo en región parietal derecha con laceración, pupila fija y dilatada ipsilateral. Escala de Glasgow 10. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Lesión axonal difusa",
+        "Hematoma epidural",
+        "Hematoma subdural",
+        "Hematoma cerebral",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El cuadro clínico de pérdida inicial de conciencia, seguido de un período de lucidez y posterior deterioro neurológico progresivo, junto con pupila fija y dilatada ipsilateral, es característico del hematoma epidural. Este suele asociarse a trauma en región temporal o parietal con les ión de la arteria meníngea media. Es una emergencia neuroquirúrgica y requiere drenaje inmediato para evitar herniación cerebral.",
+      "comentario": "El cuadro clínico de pérdida inicial de conciencia, seguido de un período de lucidez y posterior deterioro neurológico progresivo, junto con pupila fija y dilatada ipsilateral, es característico del hematoma epidural. Este suele asociarse a trauma en región temporal o parietal con les ión de la arteria meníngea media. Es una emergencia neuroquirúrgica y requiere drenaje inmediato para evitar herniación cerebral.",
+      "tema": "Hematoma epidural: intervalo lúcido",
+      "año": 2023
+    },
+    {
+      "id": "NRL-042",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 56 años con caída paulatina de párpados y visión doble. Le diagnostican enfermedad autoinmune que afecta la placa mioneural. ¿Cuál es el defecto molecular más importante en esta patología?",
+      "opciones": [
+        "Incremento de la acetilcolinesterasa",
+        "Bloqueo de la liberación de acetilcolina",
+        "Destrucción de receptores de la acetilcolina",
+        "Destrucción de los canales de calcio postsinápticos",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico descrito —ptosis palpebral progresiva y diplopía— es característico de miastenia gravis, una enfermedad autoinmune que afecta la unión neuromuscular. El defecto principal consiste en la destrucción o bloqueo de los receptores nicotínicos de acetilcolina en la placa motora, lo cual impide una adecuada transmisión del impulso nervioso hacia el músculo. Esto provoca debilidad fluctuante que mejora con el reposo.",
+      "comentario": "El cuadro clínico descrito —ptosis palpebral progresiva y diplopía— es característico de miastenia gravis, una enfermedad autoinmune que afecta la unión neuromuscular. El defecto principal consiste en la destrucción o bloqueo de los receptores nicotínicos de acetilcolina en la placa motora, lo cual impide una adecuada transmisión del impulso nervioso hacia el músculo. Esto provoca debilidad fluctuante que mejora con el reposo.",
+      "tema": "Miastenia gravis: destrucción de receptores de acetilcolina",
+      "año": 2020
+    },
+    {
+      "id": "NRL-043",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 65 años, con diagnóstico de compresión del tallo encefálico por hemorragia en la fosa posterior. Examen: agitación, obnubilación progresiva e hipertensión endocraneana. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        "Angiografía y craneotomía",
+        "Ventriculostomía y craniectomía suboccipital",
+        "Ventilación para disminuir PaCO₂",
+        "Uso de manitol",
+        "Azitromicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hemorragia en la fosa posterior con compresión del tronco encefálico es una emergencia neuroquirúrgica. El tratamiento más apropiado es la descompresión quirúrgica mediante una craniectomía suboccipital asociada a ventriculostomía para aliviar la hipertensión endocraneana. El uso de manitol o hiperventilación puede ser útil como medida transitoria, pero no resuelve la causa estructural. La angiografía no es prioritaria en una emergencia con deterioro neurológico. Por tanto, la descompresión quirúrgica inmediata es el paso crucial.",
+      "comentario": "La hemorragia en la fosa posterior con compresión del tronco encefálico es una emergencia neuroquirúrgica. El tratamiento más apropiado es la descompresión quirúrgica mediante una craniectomía suboccipital asociada a ventriculostomía para aliviar la hipertensión endocraneana. El uso de manitol o hiperventilación puede ser útil como medida transitoria, pero no resuelve la causa estructural. La angiografía no es prioritaria en una emergencia con deterioro neurológico. Por tanto, la descompresión quirúrgica inmediata es el paso crucial.",
+      "tema": "Hemorragia de fosa posterior con compresión del tronco: cirugía",
+      "año": 2020
+    },
+    {
+      "id": "NRL-044",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 58 años es llevado por su hijo por presentar hace 7 meses conductas inadecuadas: euforia, irritable, se orina y desnuda en la sala y ha descuidado su aspecto personal. Tiene problemas de memoria y no puede concentrarse en lo que hace ni toma decisiones. ¿Cómo se denomina este síndrome?",
+      "opciones": [
+        "Prefrontal",
+        "Parietal",
+        "Temporal",
+        "Occipital",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con alteraciones del comportamiento: euforia, desinhibición, irritabilidad, incontinencia urinaria, abandono del cuidado personal, además de alteración en memoria y juicio. Todo esto es característico del síndrome prefrontal, donde se afecta el lóbulo frontal (especialmente la corteza orbitofrontal y dorsolateral). Este síndrome se manifiesta por cambios en la personalidad, conducta social inapropiada, apatía o impulsividad, y deterioro de funciones ejecutivas. La afectación parietal o temporal genera otro tipo de síntomas, como alteraciones sensitivas o de la memoria episódica, respectivamente.",
+      "comentario": "Paciente con alteraciones del comportamiento: euforia, desinhibición, irritabilidad, incontinencia urinaria, abandono del cuidado personal, además de alteración en memoria y juicio. Todo esto es característico del síndrome prefrontal, donde se afecta el lóbulo frontal (especialmente la corteza orbitofrontal y dorsolateral). Este síndrome se manifiesta por cambios en la personalidad, conducta social inapropiada, apatía o impulsividad, y deterioro de funciones ejecutivas. La afectación parietal o temporal genera otro tipo de síntomas, como alteraciones sensitivas o de la memoria episódica, respectivamente.",
+      "tema": "Síndrome prefrontal",
+      "año": 2021
+    },
+    {
+      "id": "NRL-045",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 29 años desde hace 9 meses cefalea recurrente semanal que dura de 2 a 6 horas y semeja a una presión de una venda apretada alrededor de la cabeza y cede con ingesta de AINES. Al examen: músculos cervicales posteriores contracturados. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Cefalea en racimos",
+        "Cefalea tensional",
+        "Migraña",
+        "Disfunción temporomandibular",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer con cefalea bilateral tipo opresiva, que se presenta de forma frecuente (semanal), con duración de 2 a 6 horas y buena respuesta a AINEs. Además, hay contractura de músculos cervicales. Todo esto es típico de la cefalea tensional, la forma más común de cefalea. Se caracteriza por dolor sordo, opresivo, no pulsátil, sin náuseas ni vómitos, y sin aura. La migraña suele ser unilateral, pulsátil y más incapacitante. La cefalea en racimos es severa, unilateral, y periorbitaria, y no encaja con este caso. La disfunción temporomandibular puede dar cefalea, pero tiene otros hallazgos clínicos.",
+      "comentario": "Mujer con cefalea bilateral tipo opresiva, que se presenta de forma frecuente (semanal), con duración de 2 a 6 horas y buena respuesta a AINEs. Además, hay contractura de músculos cervicales. Todo esto es típico de la cefalea tensional, la forma más común de cefalea. Se caracteriza por dolor sordo, opresivo, no pulsátil, sin náuseas ni vómitos, y sin aura. La migraña suele ser unilateral, pulsátil y más incapacitante. La cefalea en racimos es severa, unilateral, y periorbitaria, y no encaja con este caso. La disfunción temporomandibular puede dar cefalea, pero tiene otros hallazgos clínicos.",
+      "tema": "Cefalea tensional",
+      "año": 2021
+    },
+    {
+      "id": "NRL-046",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 72 años de edad, con fibrilación auricular crónica sin anticoagulación. Dos horas antes, presenta incapacidad para hablar y leve hemiplejia derecha que se van intensificando. TAC cerebral: no se ven alteraciones. ¿Cuál es la causa más probable del cuadro neurológico?",
+      "opciones": [
+        "ACV isquémico",
+        "Hemorragia intracerebral",
+        "Hemorragia subaracnoidea",
+        "Hematoma epidural",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulto mayor con fibrilación auricular crónica no anticoagulado, lo que incrementa significativamente el riesgo de eventos embólicos cerebrales. El inicio súbito de afasia y hemiparesia derecha progresiva sugiere un evento isquémico en territorio cerebral izquierdo. La tomografía sin hallazgos no descarta un ACV isquémico en fases muy tempranas (<6 h), ya que las imágenes pueden ser normales inicialmente. Las hemorragias intracerebrales suelen mostrar imagen hiperdensa desde el inicio. La hemorragia subaracnoidea produce cefalea intensa, y el hematoma epidural está asociado a trauma. El diagnóstico más probable es un ACV isquémico embólico por FA.",
+      "comentario": "Paciente adulto mayor con fibrilación auricular crónica no anticoagulado, lo que incrementa significativamente el riesgo de eventos embólicos cerebrales. El inicio súbito de afasia y hemiparesia derecha progresiva sugiere un evento isquémico en territorio cerebral izquierdo. La tomografía sin hallazgos no descarta un ACV isquémico en fases muy tempranas (<6 h), ya que las imágenes pueden ser normales inicialmente. Las hemorragias intracerebrales suelen mostrar imagen hiperdensa desde el inicio. La hemorragia subaracnoidea produce cefalea intensa, y el hematoma epidural está asociado a trauma. El diagnóstico más probable es un ACV isquémico embólico por FA.",
+      "tema": "Fibrilación auricular sin anticoagular: ACV isquémico",
+      "año": 2021
+    },
+    {
+      "id": "NRL-047",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 75 años con hipertensión arterial y anticoagulación por fibrilación auricular. Llevada a Emergencia por trastorno de conciencia. Al examen: PA 208/108 mmHg, FC 108 x', FR 16 x', SaO₂ 96%, T 36.8 °C, afasia y hemiparesia derecha. Laboratorio: INR 1,6. ¿Cuál es la primera acción a realizar?",
+      "opciones": [
+        "Reducir la presión arterial sistólica < 185 mmHg",
+        "Trombólisis para revascularizar",
+        "Optimizar anticoagulación",
+        "Administrar vitamina K",
+        "Diazepam"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta datos clínicos compatibles con accidente cerebrovascular isquémico agudo, en el contexto de hipertensión severa y fibrilación auricular anticoagulada. La primera acción debe ser controlar la presión arterial, ya que la cifra sistólica está muy por encima del umbral aceptado para trombólisis (<185 mmHg). Si se plantea revascularización, es fundamental primero reducir la PA cuidadosamente. La administración de vitamina K no es prioritaria dado que el INR no está elevado significativamente. Optimizar la anticoagulación tampoco corresponde en fase aguda.",
+      "comentario": "La paciente presenta datos clínicos compatibles con accidente cerebrovascular isquémico agudo, en el contexto de hipertensión severa y fibrilación auricular anticoagulada. La primera acción debe ser controlar la presión arterial, ya que la cifra sistólica está muy por encima del umbral aceptado para trombólisis (<185 mmHg). Si se plantea revascularización, es fundamental primero reducir la PA cuidadosamente. La administración de vitamina K no es prioritaria dado que el INR no está elevado significativamente. Optimizar la anticoagulación tampoco corresponde en fase aguda.",
+      "tema": "ACV isquémico con PA muy alta: bajarla antes de trombolizar",
+      "año": 2021
+    },
+    {
+      "id": "NRL-048",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 25 años con episodios agudos de migraña a razón de más de 4 episodios por mes. ¿Cuál sería la mejor medida terapéutica para evitar la recurrencia de los episodios?",
+      "opciones": [
+        "Tramadol",
+        "Sumatriptan",
+        "Propanolol",
+        "Ibuprofeno",
+        "Furosemida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una paciente con migraña que presenta más de 4 episodios por mes cumple criterios para tratamiento profiláctico. En estos casos, no se busca solo aliviar el dolor agudo (como con AINEs o triptanos), sino reducir la frecuencia y severidad de los ataques. El propanolol, un betabloqueador, es uno de los fármacos más utilizados con eficacia probada en la profilaxis de migraña, actuando sobre los receptores adrenérgicos del sistema nervioso central. Los analgésicos como ibuprofeno y los triptanos son útiles durante la crisis, pero no previenen recurrencias.",
+      "comentario": "Una paciente con migraña que presenta más de 4 episodios por mes cumple criterios para tratamiento profiláctico. En estos casos, no se busca solo aliviar el dolor agudo (como con AINEs o triptanos), sino reducir la frecuencia y severidad de los ataques. El propanolol, un betabloqueador, es uno de los fármacos más utilizados con eficacia probada en la profilaxis de migraña, actuando sobre los receptores adrenérgicos del sistema nervioso central. Los analgésicos como ibuprofeno y los triptanos son útiles durante la crisis, pero no previenen recurrencias.",
+      "tema": "Profilaxis de la migraña: propranolol",
+      "año": 2021
+    },
+    {
+      "id": "NRL-049",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Paciente de 13 años procedente de zona rural. Desde hace 6 meses, cefalea recurrente con crisis convulsiva en dos oportunidades. TAC cerebral: imágenes calcificadas múltiples. ¿Cuál es el agente causal de la patología?",
+      "opciones": [
+        "Taenia saginata",
+        "Hymenolepis nana",
+        "Taenia solium",
+        "Echinococcus granulosus",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Adolescente procedente de zona rural con cefalea crónica y crisis convulsivas, hallazgo frecuente en pacientes con neurocisticercosis. La TAC revela calcificaciones múltiples, que corresponden al estadio final de los quistes por Taenia solium. Este parásito se transmite por la ingesta de huevos en alimentos contaminados, generando larvas que migran al sistema nervioso central. Taenia saginata no invade el sistema nervioso, Hymenolepis nana cursa con síntomas gastrointestinales, y Echinococcus granulosus produce hidatidosis, principalmente hepática o pulmonar.",
+      "comentario": "Adolescente procedente de zona rural con cefalea crónica y crisis convulsivas, hallazgo frecuente en pacientes con neurocisticercosis. La TAC revela calcificaciones múltiples, que corresponden al estadio final de los quistes por Taenia solium. Este parásito se transmite por la ingesta de huevos en alimentos contaminados, generando larvas que migran al sistema nervioso central. Taenia saginata no invade el sistema nervioso, Hymenolepis nana cursa con síntomas gastrointestinales, y Echinococcus granulosus produce hidatidosis, principalmente hepática o pulmonar.",
+      "tema": "Neurocisticercosis: Taenia solium",
+      "año": 2022
+    },
+    {
+      "id": "NRL-050",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 78 años, consulta por temblor de manos, pero cuando levanta su taza de café deja de temblar hasta que llega a su boca, donde nuevamente comienza a temblar. Al examen se constata bradicinesia. ¿A qué tipo de temblor pertenece?",
+      "opciones": [
+        "Parkinsoniano",
+        "Esencial",
+        "Nervioso",
+        "Cerebeloso",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón adulto mayor que presenta temblor de reposo que desaparece con el movimiento voluntario, pero retorna al llegar al objetivo. Además, presenta bradicinesia, lo que sugiere una alteración extrapiramidal. Esta clínica es característica del temblor parkinsoniano, el cual suele ser distal, rítmico, y de predominio en reposo. El temblor esencial ocurre con el movimiento sostenido, el cerebeloso se presenta como temblor de intención, y el nervioso es inespecífico. La presencia de otros síntomas motores como rigidez o inestabilidad postural debe evaluarse. El tratamiento suele iniciarse con levodopa si hay afectación funcional.",
+      "comentario": "Varón adulto mayor que presenta temblor de reposo que desaparece con el movimiento voluntario, pero retorna al llegar al objetivo. Además, presenta bradicinesia, lo que sugiere una alteración extrapiramidal. Esta clínica es característica del temblor parkinsoniano, el cual suele ser distal, rítmico, y de predominio en reposo. El temblor esencial ocurre con el movimiento sostenido, el cerebeloso se presenta como temblor de intención, y el nervioso es inespecífico. La presencia de otros síntomas motores como rigidez o inestabilidad postural debe evaluarse. El tratamiento suele iniciarse con levodopa si hay afectación funcional.",
+      "tema": "Temblor parkinsoniano",
+      "año": 2022
+    },
+    {
+      "id": "NRL-051",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 26 años, transferida de Trujillo por disnea; desde hace 3 días presenta disminución progresiva de fuerza de MMII y posteriormente de MMSS. Antecedente: cuadro diarreico que se autolimitó ocho días antes. EXAMEN: PA: 100/80 mmHg, FC 110 X’, FR: 28 X’, T: 37°C, SatO₂: 89%; leve cianosis perioral; MV disminuido, no rales somnolienta, ROT: disminuidos, cuadriparesia. ¿Cuál es la conducta inmediata a seguir?",
+      "opciones": [
+        "Oxigenoterapia convencional",
+        "TEM de tórax",
+        "Punción lumbar",
+        "Soporte ventilatorio",
+        "Colonoscopia"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico sugiere síndrome de Guillain-Barré, evidenciado por la historia de infección gastrointestinal previa, debilidad ascendente progresiva, hiporreflexia y compromiso respiratorio (FR elevada, SatO₂ baja, cianosis, somnolencia). La prioridad en estos casos es el soporte ventilatorio, ya que el compromiso neuromuscular puede llevar rápidamente a insuficiencia respiratoria. Las medidas diagnósticas (como punción lumbar) se realizan una vez asegurada la vía aérea y la oxigenación del paciente.",
+      "comentario": "El cuadro clínico sugiere síndrome de Guillain-Barré, evidenciado por la historia de infección gastrointestinal previa, debilidad ascendente progresiva, hiporreflexia y compromiso respiratorio (FR elevada, SatO₂ baja, cianosis, somnolencia). La prioridad en estos casos es el soporte ventilatorio, ya que el compromiso neuromuscular puede llevar rápidamente a insuficiencia respiratoria. Las medidas diagnósticas (como punción lumbar) se realizan una vez asegurada la vía aérea y la oxigenación del paciente.",
+      "tema": "Guillain-Barré con insuficiencia respiratoria: soporte ventilatorio",
+      "año": 2023
+    },
+    {
+      "id": "NRL-052",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 16 años, es golpeado en el hemicráneo derecho con ladrillo. Lucido durante dos horas hasta que repentinamente entra en estupor. Examen: 170/110 mmHg, FC: 40 X’, paresia hemicuerpo izquierdo, anisocoria por midriasis derecha. Fondo de ojo: edema de papila. ¿Cuál es la ayuda diagnóstica a solicitar?",
+      "opciones": [
+        "TEM cerebral",
+        "Doppler transcraneal",
+        "Potenciales evocados",
+        "EEG",
+        "Colonoscopia"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adolescente con antecedente de traumatismo contuso en cráneo que presenta un intervalo lúcido seguido de deterioro neurológico brusco, cuadro clásico de hematoma epidural. La progresión a estupor, junto con anisocoria ipsilateral y hemiparesia contralateral, indica síndrome de herniación uncal. La bradicardia e hipertensión reflejan la tríada de Cushing, signo de hipertensión intracraneal grave. El edema de papila confirma esta sospecha. En este contexto, el examen más útil y urgente es la tomografía cerebral sin contraste, para confirmar el hematoma y descartar otras lesiones como contusión, hemorragia subdural o edema cerebral.",
+      "comentario": "Paciente adolescente con antecedente de traumatismo contuso en cráneo que presenta un intervalo lúcido seguido de deterioro neurológico brusco, cuadro clásico de hematoma epidural. La progresión a estupor, junto con anisocoria ipsilateral y hemiparesia contralateral, indica síndrome de herniación uncal. La bradicardia e hipertensión reflejan la tríada de Cushing, signo de hipertensión intracraneal grave. El edema de papila confirma esta sospecha. En este contexto, el examen más útil y urgente es la tomografía cerebral sin contraste, para confirmar el hematoma y descartar otras lesiones como contusión, hemorragia subdural o edema cerebral.",
+      "tema": "Hematoma epidural con herniación: tomografía",
+      "año": 2023
+    },
+    {
+      "id": "NRL-053",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 33 años sufrió una caída desde un 4to piso. Examen: FC 120 X', FR 24 X', PA 90/50 mmHg, Sat02 92%, escoriaciones y equimosis, en miembros superiores e inferiores, fractura en miembro superior derecho. Abre los ojos ante el estímulo doloroso, postura en flexión y emite sonidos incomprensibles. ¿Cuál es el valor en la Escala de Glasgow?",
+      "opciones": [
+        "6",
+        "9",
+        "12",
+        "7",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La Escala de Glasgow se utiliza para evaluar el nivel de conciencia de un paciente tras un traumatismo craneoencefálico. Se evalúan la respuesta ocular, verbal y motora y se puntúa de manera independiente. El puntaje total en la Escala de Glasgow va desde 3 (condición más grave, sin respuesta alguna) hasta 15 (estado de conciencia completamente normal). En este caso, el puntaje por cada una de las respuestas sería: Respuesta ocular = Apertura al estímulo doloroso (2 puntos). Respuesta verbal = Sonidos incomprensibles (2 puntos). Respuesta motora = Flexiona al dolor (3 puntos). El puntaje total en este caso sería 2 + 2 + 3 = 7 puntos.",
+      "comentario": "La Escala de Glasgow se utiliza para evaluar el nivel de conciencia de un paciente tras un traumatismo craneoencefálico. Se evalúan la respuesta ocular, verbal y motora y se puntúa de manera independiente. El puntaje total en la Escala de Glasgow va desde 3 (condición más grave, sin respuesta alguna) hasta 15 (estado de conciencia completamente normal). En este caso, el puntaje por cada una de las respuestas sería: Respuesta ocular = Apertura al estímulo doloroso (2 puntos). Respuesta verbal = Sonidos incomprensibles (2 puntos). Respuesta motora = Flexiona al dolor (3 puntos). El puntaje total en este caso sería 2 + 2 + 3 = 7 puntos.",
+      "tema": "Escala de Glasgow",
+      "año": 2024
+    },
+    {
+      "id": "NRL-054",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 50 años, desde hace 3 semanas presenta decaimiento, febrícula vespertina, anorexia, irritabilidad y cefalea. Sin antecedente de compromiso ótico ni sinusitis. Examen: T 39ºC, confuso, febril, signos meníngeos y paresia del VI par bilateral. Laboratorio: LCR: citrino, proteínas 200 mg/dL, leucocitos 250/mm3, linfocitos 80%, glucosa 20 mg/dL. Hemograma: leucocitos: 7 100/mm3, fórmula leucocitaria normal, VSG 70 mm/h. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Meningitis tuberculosa",
+        "Encefalitis autoinmune",
+        "Meningitis por criptococos",
+        "Meningitis viral",
+        "Apendicitis aguda"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta un cuadro clínico subagudo con síntomas neurológicos progresivos, fiebre persistente, y alteraciones del estado mental, junto con signos meníngeos y paresia del VI par bilateral. Los resultados del LCR muestran pleocitosis linfocítica, proteínas significativamente elevadas y glucosa muy baja, hallazgos altamente sugestivos de meningitis tuberculosa (Alternativa A). La meningitis tuberculosa es una infección grave del sistema nervioso central causada por Mycobacterium tuberculosis. Se caracteriza por una evolución subaguda o crónica, y es la forma más grave de tuberculosis extrapulmonar. Forma tubérculos en la base del cerebro, causando inflamación, edema y exudación que puede llevar a hidrocefalia y vasculitis.",
+      "comentario": "El paciente presenta un cuadro clínico subagudo con síntomas neurológicos progresivos, fiebre persistente, y alteraciones del estado mental, junto con signos meníngeos y paresia del VI par bilateral. Los resultados del LCR muestran pleocitosis linfocítica, proteínas significativamente elevadas y glucosa muy baja, hallazgos altamente sugestivos de meningitis tuberculosa (Alternativa A). La meningitis tuberculosa es una infección grave del sistema nervioso central causada por Mycobacterium tuberculosis. Se caracteriza por una evolución subaguda o crónica, y es la forma más grave de tuberculosis extrapulmonar. Forma tubérculos en la base del cerebro, causando inflamación, edema y exudación que puede llevar a hidrocefalia y vasculitis.",
+      "tema": "Meningitis tuberculosa: LCR linfocítico con glucosa baja",
+      "año": 2024
+    },
+    {
+      "id": "NRL-055",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 85 años, desde hace dos años pierde llaves y documentos personales; pregunta datos y se olvida; quemó alimentos en varias ocasiones por olvidar la hornilla prendida. Desde hace 6 meses se ha perdido al salir de casa; desconoce a familiares y dice que alguién le roba sus cosas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Demencia",
+        "Fobia",
+        "Psicosis",
+        "Delirium",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El diagnóstico más probable es demencia, dada la historia de pérdida progresiva de memoria, desorientación temporal y espacial, y alteración en el juicio (como olvidar objetos o encender la hornilla). Además, la paciente presenta síntomas que se han mantenido y empeorado a lo largo del tiempo (más de dos años), lo cual es característico de un trastorno neurocognitivo como la demencia. La presencia de desconfianza hacia los familiares también es común en las fases más avanzadas. El delirium, fobia y psicosis suelen tener un inicio más agudo y un patrón diferente de síntomas.",
+      "comentario": "El diagnóstico más probable es demencia, dada la historia de pérdida progresiva de memoria, desorientación temporal y espacial, y alteración en el juicio (como olvidar objetos o encender la hornilla). Además, la paciente presenta síntomas que se han mantenido y empeorado a lo largo del tiempo (más de dos años), lo cual es característico de un trastorno neurocognitivo como la demencia. La presencia de desconfianza hacia los familiares también es común en las fases más avanzadas. El delirium, fobia y psicosis suelen tener un inicio más agudo y un patrón diferente de síntomas.",
+      "tema": "Demencia",
+      "año": 2024
+    },
+    {
+      "id": "NRL-056",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 30 años ingresa a emergencia por accidente de tránsito hace 30 minutos, con pérdida de conciencia transitoria. Examen: Glasgow: 13; PA: 110/60 mmHg, FC: 72 X', FR: 22 X'; cabeza: otorragia más hematoma temporal de cuero cabelludo lado derecho, asimetría facial, hemicara derecha flácida y sin surcos, hematoma periorbitario derecho. ¿Cuál es el par craneal lesionado?",
+      "opciones": [
+        "VIII",
+        "II y III",
+        "III",
+        "VII",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta signos de traumatismo craneoencefálico con otorragia e indicios de fractura en la región temporal, lo que sugiere una lesión en la base del cráneo. La asimetría facial con hemicara flácida y ausencia de surcos faciales es indicativa de una parálisis facial periférica, que compromete al nervio facial (VII par craneal). Este tipo de lesión es común en fracturas del hueso temporal, donde el nervio facial puede verse afectado en su trayecto a través del conducto de Falopio.",
+      "comentario": "El paciente presenta signos de traumatismo craneoencefálico con otorragia e indicios de fractura en la región temporal, lo que sugiere una lesión en la base del cráneo. La asimetría facial con hemicara flácida y ausencia de surcos faciales es indicativa de una parálisis facial periférica, que compromete al nervio facial (VII par craneal). Este tipo de lesión es común en fracturas del hueso temporal, donde el nervio facial puede verse afectado en su trayecto a través del conducto de Falopio.",
+      "tema": "Fractura temporal: parálisis facial periférica",
+      "año": 2024
+    },
+    {
+      "id": "NRL-057",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 56 años, es traído a emergencia porque hace una hora no puede hablar, y no mueve hemicuerpo. Antecedentes: niega. Examen: PA 120/70 mmHg, FC 96 X´, FR 20 X´, afasia motora y hemiparesia derecha. Lab: perfil de coagulación normal, glucosa: 110 mg/dl, Hb: 13 g/dl. TC cerebral: normal. ¿Cuál es el tratamiento más adecuado?",
+      "opciones": [
+        "Heparina",
+        "Clopidogrel",
+        "Alteplase",
+        "Ácido acetilsalicílico",
+        "Metronidazol"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Este paciente presenta signos clásicos de un accidente cerebrovascular isquémico agudo (ACV), como afasia motora y hemiparesia, sin antecedentes relevantes. El tratamiento de elección en las primeras 3-4.5 horas desde el inicio de los síntomas de un ACV isquémico es el uso de Alteplase (C), un trombolítico que puede disolver el coágulo responsable de la isquemia cerebral. La heparina (A) no se recomienda en el manejo inicial, ya que no tiene un efecto trombolítico inmediato. El clopidogrel (B) y el ácido acetilsalicílico (D) se usa para la antiagregación secundaria.",
+      "comentario": "Este paciente presenta signos clásicos de un accidente cerebrovascular isquémico agudo (ACV), como afasia motora y hemiparesia, sin antecedentes relevantes. El tratamiento de elección en las primeras 3-4.5 horas desde el inicio de los síntomas de un ACV isquémico es el uso de Alteplase (C), un trombolítico que puede disolver el coágulo responsable de la isquemia cerebral. La heparina (A) no se recomienda en el manejo inicial, ya que no tiene un efecto trombolítico inmediato. El clopidogrel (B) y el ácido acetilsalicílico (D) se usa para la antiagregación secundaria.",
+      "tema": "ACV isquémico en ventana: alteplasa",
+      "año": 2024
+    }
+  ]
+}

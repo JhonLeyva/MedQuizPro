@@ -1,0 +1,1343 @@
+{
+  "especialidad": "Cardiología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CAR-001",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 64 años, hipertenso y fumador, con dolor torácico opresivo de 2 horas. PA 84/50 mmHg, FC 56 lpm, ingurgitación yugular y campos pulmonares limpios. El ECG muestra elevación del ST en DII, DIII y aVF, y la derivación V4R muestra elevación del ST de 1,5 mm. La hipotensión se acentuó tras administrarle nitroglicerina sublingual. ¿Cuál es la medida inmediata más apropiada mientras se coordina la reperfusión?",
+      "opciones": {
+        "A": "Furosemida 40 mg endovenosa",
+        "B": "Bolo de cristaloides endovenoso con monitoreo hemodinámico",
+        "C": "Nitroglicerina en infusión continua",
+        "D": "Metoprolol endovenoso",
+        "E": "Morfina endovenosa a dosis plena"
+      },
+      "clave_correcta": "B",
+      "comentario": "Infarto inferior con compromiso del ventrículo derecho (ST elevado en V4R): tríada de hipotensión, ingurgitación yugular y pulmones limpios. El VD infartado depende de la precarga, por eso los nitratos, los diuréticos y la morfina (venodilatadores) empeoran la hipotensión. La conducta es expandir volumen con cristaloides mientras se reperfunde de urgencia; los betabloqueadores están contraindicados con hipotensión y bradicardia."
+    },
+    {
+      "id": "CAR-002",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?",
+      "opciones": {
+        "A": "No requiere tratamiento antitrombótico",
+        "B": "Ácido acetilsalicílico 100 mg al día",
+        "C": "Anticoagulación oral",
+        "D": "Doble antiagregación con aspirina y clopidogrel",
+        "E": "Heparina de bajo peso molecular solo durante un mes"
+      },
+      "clave_correcta": "C",
+      "comentario": "Fibrilación auricular no valvular con CHA₂DS₂-VASc de 3 (edad 65-74 años = 1, sexo femenino = 1, hipertensión = 1). Con puntaje ≥ 2 en varones o ≥ 3 en mujeres está indicada la anticoagulación oral (de preferencia un anticoagulante oral directo; warfarina si no hay acceso). La aspirina no tiene indicación para prevenir el ictus en la FA y la doble antiagregación es inferior a la anticoagulación y sangra igual."
+    },
+    {
+      "id": "CAR-003",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Insuficiencia aórtica crónica",
+        "B": "Miocardiopatía hipertrófica obstructiva",
+        "C": "Estenosis aórtica severa",
+        "D": "Insuficiencia mitral",
+        "E": "Comunicación interventricular"
+      },
+      "clave_correcta": "C",
+      "comentario": "Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."
+    },
+    {
+      "id": "CAR-004",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 47 años, en control pre-vacacional, presenta presión arterial de 160/100 mmHg y a los 15 minutos 164/98 mmHg. Asintomático, sin antecedentes importantes. Al examen: choque de punta amplio, sostenido y desplazado a la izquierda. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Dieta hiposódica e hipocalórica",
+        "Administrar antihipertensivo y derivar para estudio",
+        "Programar al mes para realizar nuevo control",
+        "Recomendar ejercicio aeróbico",
+        "Terapia de rehabilitación"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.",
+      "comentario": "Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.",
+      "tema": "Hipertensión arterial",
+      "año": 2020
+    },
+    {
+      "id": "CAR-005",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 15 días de vida con lactancia entrecortada, polipnea y cianosis. Rx de tórax: silueta cardiaca de pedículo estrecho y en \"forma ovoide\", con aumento de flujo sanguíneo pulmonar. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tetralogía de Fallot",
+        "Comunicación interventricular",
+        "Persistencia del conducto arterioso",
+        "Transposición de grandes arterias",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
+      "comentario": "Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de \"huevo acostado\" u \"ovoide\" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).",
+      "tema": "Cardiopatías congénitas",
+      "año": 2020
+    },
+    {
+      "id": "CAR-006",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 64 años acude a Emergencia con dolor retroesternal intenso de 2 horas de evolución, fumador crónico, con dislipidemia mixta y sedentarismo. EKG: elevación del ST en derivaciones II, III, aVF. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Angina de pecho",
+        "Disección de aorta",
+        "Infarto de miocardio",
+        "Espasmo esofágico",
+        "Prednisona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).",
+      "comentario": "La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).",
+      "tema": "Síndrome coronario agudo",
+      "año": 2020
+    },
+    {
+      "id": "CAR-007",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, con antecedentes de amigdalitis supurada repetida en adolescencia. Presenta disnea a medianos esfuerzos. Al examen: PA 110/60 mmHg, FC 80x', pulso deficitario, soplo diastólico mitral. ¿Cuál es el fármaco de elección para la prevención de eventos cardioembólicos?",
+      "opciones": [
+        "Digoxina",
+        "Clopidogrel",
+        "Warfarina",
+        "Bisoprolol",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.",
+      "comentario": "La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.",
+      "tema": "Valvulopatías",
+      "año": 2020
+    },
+    {
+      "id": "CAR-008",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 58 años, del sur del Perú, acude por palpitaciones seguidas de síncope. EKG: taquicardia ventricular no sostenida con bloqueo completo de rama derecha. Se sospecha miocardiopatía. ¿Cuál es la primera terapia de elección?",
+      "opciones": [
+        "Propafenona",
+        "Betabloqueadores",
+        "Amiodarona",
+        "Desfibrilador automático",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
+      "comentario": "La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.",
+      "tema": "Arritmias ventriculares y Chagas",
+      "año": 2020
+    },
+    {
+      "id": "CAR-009",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 2 horas disnea, palpitaciones, dolor precordial. Ingresa en shock traumático, se le coloca oxígeno por bigotera, presentando pérdida súbita de conciencia, respiración agónica y ausencia de pulso. El monitor cardíaco muestra (ver imagen). ¿Cuál es la primera acción a seguir?",
+      "opciones": [
+        "Ventilación",
+        "Amiodarona",
+        "Desfibrilación",
+        "Masaje cardíaco",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).",
+      "comentario": "Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).",
+      "tema": "Reanimación cardiopulmonar avanzada",
+      "año": 2020
+    },
+    {
+      "id": "CAR-010",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años presenta fiebre continua desde hace 6 semanas. Antecedente de fiebre reumática en la infancia, hace dos meses extracción dentaria. Al examen: soplo sistólico III/VI en foco mitral, hemiparesia izquierda faciobraquiocrural. Lab: VSG 100 mm/h. ¿Cuál sería el examen más adecuado para definir su diagnóstico?",
+      "opciones": [
+        "Ecocardiografía transesofágica",
+        "Electrocardiograma",
+        "RMN encéfalo",
+        "TEM cerebral",
+        "Ecocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.",
+      "comentario": "Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.",
+      "tema": "Endocarditis infecciosa",
+      "año": 2020
+    },
+    {
+      "id": "CAR-011",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 3 semanas refiere disnea a medianos esfuerzos, edema de miembros inferiores, acude a emergencia porque se despierta bruscamente con dificultad para respirar. Al examen: FR 25xmin, P/A 130/90 mmHg, ortopnea, diaforesis, crepitantes tercios medios bilaterales, ruidos cardíacos arrítmicos, ingurgitación yugular, dolor en hipocondrio derecho. ¿Cuál es el tratamiento farmacológico inicial?",
+      "opciones": [
+        "Digitálicos",
+        "Inotrópicos",
+        "Diuréticos",
+        "Vasodilatadores",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.",
+      "comentario": "El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.",
+      "tema": "Insuficiencia cardíaca congestiva",
+      "año": 2020
+    },
+    {
+      "id": "CAR-012",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 57 años, en consulta por palpitaciones, ingresa con diagnóstico de COVID-19 de 8 días. Indica que desde esa fecha se viene automedicando, no recordando el fármaco utilizado. Al examen: EKG evidencia QT prolongado, en sangre K sérico de 3 mEq/L. ¿Qué sobredosis se plantea?",
+      "opciones": [
+        "Levofloxacino",
+        "Cloroquina",
+        "Enoxaparina",
+        "Dexametasona",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con COVID-19, palpitaciones y hallazgo de QT prolongado con hipokalemia orienta a una toxicidad cardiaca inducida por fármacos. Durante la pandemia, se usaron de forma indiscriminada medicamentos como cloroquina, que prolongan el intervalo QT y predisponen a arritmias ventriculares. La hipokalemia potencia este riesgo. Levofloxacino también prolonga el QT, pero es menos frecuente en este contexto. Enoxaparina y dexametasona no alteran el QT. Por lo tanto, se sospecha sobredosis de cloroquina, relacionada a automedicación en COVID-19.",
+      "comentario": "Paciente con COVID-19, palpitaciones y hallazgo de QT prolongado con hipokalemia orienta a una toxicidad cardiaca inducida por fármacos. Durante la pandemia, se usaron de forma indiscriminada medicamentos como cloroquina, que prolongan el intervalo QT y predisponen a arritmias ventriculares. La hipokalemia potencia este riesgo. Levofloxacino también prolonga el QT, pero es menos frecuente en este contexto. Enoxaparina y dexametasona no alteran el QT. Por lo tanto, se sospecha sobredosis de cloroquina, relacionada a automedicación en COVID-19.",
+      "tema": "QT prolongado por fármacos",
+      "año": 2020
+    },
+    {
+      "id": "CAR-013",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adulto mayor que, estando en un centro comercial y próximo a usted, pierde súbitamente la conciencia. Rápidamente evalúa que no hay riesgo situacional. ¿Cuál es la secuencia correcta de su accionar?",
+      "opciones": [
+        "Diagnosticar que está en parada cardiaca y de ser así pedir ayuda e iniciar 30 compresiones torácicas",
+        "Verificar que no respira y de ser así dar 2 respiraciones de rescate y luego dar golpe precordial",
+        "Verificar que no hay pulso, llamar al 116 y poner la cabeza hacia el lado derecho",
+        "Evaluar si respira, de no hacerlo, dar golpe precordial, luego 2 respiraciones y 15 compresiones por 2 minutos",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En un colapso súbito de un adulto, según las guías de reanimación (ACLS/BLS), lo primero es evaluar la seguridad del entorno, luego verificar si responde y respira, y si no lo hace, se diagnostica paro cardíaco. En ese caso, se pide ayuda (activar sistema de emergencias) e inician compresiones torácicas inmediatas (30 compresiones por 2 ventilaciones en RCP básica). El golpe precordial no es parte de la RCP básica. Por tanto, la secuencia correcta es la opción A.",
+      "comentario": "En un colapso súbito de un adulto, según las guías de reanimación (ACLS/BLS), lo primero es evaluar la seguridad del entorno, luego verificar si responde y respira, y si no lo hace, se diagnostica paro cardíaco. En ese caso, se pide ayuda (activar sistema de emergencias) e inician compresiones torácicas inmediatas (30 compresiones por 2 ventilaciones en RCP básica). El golpe precordial no es parte de la RCP básica. Por tanto, la secuencia correcta es la opción A.",
+      "tema": "Reanimación cardiopulmonar básica",
+      "año": 2020
+    },
+    {
+      "id": "CAR-014",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 37 años, obesa, usuaria de anticonceptivos orales. Consulta por aumento de volumen de la extremidad inferior derecha, dolor a la marcha, signo de Homans (+), piel violácea, pulsos presentes. ¿Qué estudio se recomienda para precisar el diagnóstico?",
+      "opciones": [
+        "Venografía por RMN",
+        "Pletismografía",
+        "Dímero D",
+        "Ecografía dúplex",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer joven con factores de riesgo para trombosis venosa profunda (obesidad, anticonceptivos), con clínica de aumento de volumen, dolor y signo de Homans positivo. El estudio inicial de elección en sospecha de TVP es la ecografía dúplex venosa, ya que permite visualizar el flujo y la compresibilidad de las venas profundas. El dímero D es útil para descartar en pacientes de bajo riesgo, pero no tiene valor confirmatorio. Por tanto, la mejor herramienta diagnóstica en este caso es D: ecografía dúplex.",
+      "comentario": "Mujer joven con factores de riesgo para trombosis venosa profunda (obesidad, anticonceptivos), con clínica de aumento de volumen, dolor y signo de Homans positivo. El estudio inicial de elección en sospecha de TVP es la ecografía dúplex venosa, ya que permite visualizar el flujo y la compresibilidad de las venas profundas. El dímero D es útil para descartar en pacientes de bajo riesgo, pero no tiene valor confirmatorio. Por tanto, la mejor herramienta diagnóstica en este caso es D: ecografía dúplex.",
+      "tema": "Trombosis venosa profunda",
+      "año": 2020
+    },
+    {
+      "id": "CAR-015",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 60 años, a las 6 horas de pérdida de ser querido, acude a emergencia por presentar cuadro de dolor torácico opresivo, asociado a cambios en el segmento ST del EKG y por elevación de enzimas cardiacas. A los 7 días presenta remisión completa de los cambios en el EKG y no presenta secuelas. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Miocardiopatía de Takotsubo",
+        "Infarto agudo de miocardio",
+        "Angina inestable de alto riesgo",
+        "Síndrome X",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta dolor torácico opresivo con cambios electrocardiográficos y elevación de enzimas cardiacas, lo que inicialmente sugiere un síndrome coronario agudo. Sin embargo, la recuperación completa de los hallazgos y la ausencia de secuelas, sumadas a un desencadenante emocional fuerte (pérdida de un ser querido), orientan al diagnóstico de miocardiopatía de Takotsubo o \"miocardiopatía por estrés\". Esta entidad imita un infarto agudo de miocardio, pero es transitoria y se resuelve sin daño estructural permanente.",
+      "comentario": "La paciente presenta dolor torácico opresivo con cambios electrocardiográficos y elevación de enzimas cardiacas, lo que inicialmente sugiere un síndrome coronario agudo. Sin embargo, la recuperación completa de los hallazgos y la ausencia de secuelas, sumadas a un desencadenante emocional fuerte (pérdida de un ser querido), orientan al diagnóstico de miocardiopatía de Takotsubo o \"miocardiopatía por estrés\". Esta entidad imita un infarto agudo de miocardio, pero es transitoria y se resuelve sin daño estructural permanente.",
+      "tema": "Miocardiopatía de Takotsubo",
+      "año": 2020
+    },
+    {
+      "id": "CAR-016",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 32 años, antecedente de síndrome de Marfan, dolor torácico de inicio brusco, desgarrante. Examen. PA:190/10 mmhg (brazo derecho) 90/60 mmhg (brazo izquierdo). FC: 120x, SatO₂: 97%. EKG: taquicardia sinusal. Rx. de tórax: mediastino ensanchado. ¿Qué medicación utilizaría?",
+      "opciones": [
+        "Anticoagulantes",
+        "Digitálicos",
+        "Betabloqueadores",
+        "Antiagregantes",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor torácico severo, de inicio súbito y carácter desgarrante, asociado a diferencias de presión arterial entre brazos y mediastino ensanchado en Rx, es altamente sugestivo de disección aórtica. En pacientes con síndrome de Marfan, este riesgo es aún mayor. El tratamiento inicial incluye el uso de betabloqueadores para controlar la frecuencia cardíaca y disminuir la presión sobre la pared aórtica. Los anticoagulantes o antiagregantes están contraindicados en esta etapa, ya que podrían agravar la disección.",
+      "comentario": "El dolor torácico severo, de inicio súbito y carácter desgarrante, asociado a diferencias de presión arterial entre brazos y mediastino ensanchado en Rx, es altamente sugestivo de disección aórtica. En pacientes con síndrome de Marfan, este riesgo es aún mayor. El tratamiento inicial incluye el uso de betabloqueadores para controlar la frecuencia cardíaca y disminuir la presión sobre la pared aórtica. Los anticoagulantes o antiagregantes están contraindicados en esta etapa, ya que podrían agravar la disección.",
+      "tema": "Disección aórtica",
+      "año": 2020
+    },
+    {
+      "id": "CAR-017",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 38 años, desde hace 2 meses tos productiva y progresiva pérdida de peso. Desde hace 2 semanas dolor precordial tipo hincada que aumenta con la inspiración. Al examen: ruidos cardiacos de muy baja intensidad. Rx Tórax: cardiomegalia leve. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Pericarditis tuberculosa",
+        "Síndrome de Tietze",
+        "Cardiopatía isquémica",
+        "Síndrome de Dressler",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico muestra síntomas constitucionales como tos productiva crónica, pérdida de peso y dolor torácico tipo pleurítico. Además, el examen físico revela ruidos cardíacos disminuidos, y la radiografía de tórax muestra cardiomegalia leve. Todo esto orienta a un derrame pericárdico. La presentación subaguda, con signos inflamatorios y compromiso sistémico, sugiere una causa tuberculosa, especialmente en un país endémico. La pericarditis tuberculosa es una forma común de presentación extrapulmonar en adultos jóvenes.",
+      "comentario": "El cuadro clínico muestra síntomas constitucionales como tos productiva crónica, pérdida de peso y dolor torácico tipo pleurítico. Además, el examen físico revela ruidos cardíacos disminuidos, y la radiografía de tórax muestra cardiomegalia leve. Todo esto orienta a un derrame pericárdico. La presentación subaguda, con signos inflamatorios y compromiso sistémico, sugiere una causa tuberculosa, especialmente en un país endémico. La pericarditis tuberculosa es una forma común de presentación extrapulmonar en adultos jóvenes.",
+      "tema": "Pericarditis tuberculosa",
+      "año": 2020
+    },
+    {
+      "id": "CAR-018",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 21 años, que presenta muerte súbita mientras practicaba deporte de competencia, padre falleció a temprana edad también en forma súbita. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tromboembolismo pulmonar",
+        "Miocardiopatía hipertrófica",
+        "Miocardiopatía dilatada",
+        "Síndrome coronario agudo",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La muerte súbita en deportistas jóvenes suele deberse a miocardiopatía hipertrófica, una enfermedad genética del músculo cardíaco que puede causar arritmias letales en esfuerzos físicos. El antecedente de muerte súbita familiar refuerza el diagnóstico. Esta miocardiopatía puede pasar desapercibida hasta el momento del evento fatal. Otras causas como tromboembolismo o SCA son menos probables en jóvenes sin factores de riesgo asociados.",
+      "comentario": "La muerte súbita en deportistas jóvenes suele deberse a miocardiopatía hipertrófica, una enfermedad genética del músculo cardíaco que puede causar arritmias letales en esfuerzos físicos. El antecedente de muerte súbita familiar refuerza el diagnóstico. Esta miocardiopatía puede pasar desapercibida hasta el momento del evento fatal. Otras causas como tromboembolismo o SCA son menos probables en jóvenes sin factores de riesgo asociados.",
+      "tema": "Miocardiopatía hipertrófica y muerte súbita",
+      "año": 2020
+    },
+    {
+      "id": "CAR-019",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Ante un adulto al que acaba de diagnosticar paro cardiorrespiratorio e iniciar reanimación cardiopulmonar básica. ¿Qué otra acción debe hacer simultáneamente?",
+      "opciones": [
+        "Infundir adrenalina 5mg EV",
+        "Administrar oxígeno y adrenalina",
+        "Proporcionar oxígeno y conectar monitor/desfibrilador",
+        "Cristaloides a goteo rápido",
+        "Azitromicina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el manejo inicial del paro cardiorrespiratorio, la reanimación cardiopulmonar básica (RCP) debe ir acompañada de la provisión de oxígeno para mejorar la oxigenación tisular. Además, es crucial conectar un monitor cardíaco o desfibrilador lo antes posible para identificar ritmos desfibrilables como fibrilación ventricular o taquicardia ventricular sin pulso, y actuar en consecuencia con desfibrilación. La administración inmediata de adrenalina no es la primera acción simultánea, y la infusión rápida de cristaloides no está indicada en esta fase. Por ello, oxígeno y monitor son prioritarios.",
+      "comentario": "En el manejo inicial del paro cardiorrespiratorio, la reanimación cardiopulmonar básica (RCP) debe ir acompañada de la provisión de oxígeno para mejorar la oxigenación tisular. Además, es crucial conectar un monitor cardíaco o desfibrilador lo antes posible para identificar ritmos desfibrilables como fibrilación ventricular o taquicardia ventricular sin pulso, y actuar en consecuencia con desfibrilación. La administración inmediata de adrenalina no es la primera acción simultánea, y la infusión rápida de cristaloides no está indicada en esta fase. Por ello, oxígeno y monitor son prioritarios.",
+      "tema": "Paro cardiorrespiratorio: acciones simultáneas",
+      "año": 2021
+    },
+    {
+      "id": "CAR-020",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 24 años, acude por disnea y ortopnea. Al examen: PA: 70/40 mmHg. FC: 130 x´, SatO2:92 %, pulso paradojal, RC rítmicos, disminuidos de intensidad, ingurgitación yugular (+). EKG: complejos de bajo voltaje y alternancia eléctrica. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Pericardiocentesis",
+        "Angioplastia coronaria",
+        "Trombólisis",
+        "Embolectomía pulmonar",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón joven con hipotensión severa (PA 70/40), taquicardia, ingurgitación yugular, pulso paradójico y ruidos cardíacos disminuidos, todos signos del taponamiento cardíaco. El ECG muestra complejos de bajo voltaje y alternancia eléctrica, característicos de derrame pericárdico masivo. El tratamiento inmediato es la pericardiocentesis, que alivia la presión sobre el corazón. Las otras alternativas no corresponden: no hay signos de SCA (descartar angioplastia o trombólisis) ni evidencia de TEP masivo (no va embolectomía).",
+      "comentario": "Varón joven con hipotensión severa (PA 70/40), taquicardia, ingurgitación yugular, pulso paradójico y ruidos cardíacos disminuidos, todos signos del taponamiento cardíaco. El ECG muestra complejos de bajo voltaje y alternancia eléctrica, característicos de derrame pericárdico masivo. El tratamiento inmediato es la pericardiocentesis, que alivia la presión sobre el corazón. Las otras alternativas no corresponden: no hay signos de SCA (descartar angioplastia o trombólisis) ni evidencia de TEP masivo (no va embolectomía).",
+      "tema": "Taponamiento cardiaco",
+      "año": 2021
+    },
+    {
+      "id": "CAR-021",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 33 años desde hace 6 meses presenta disnea progresiva y expectoración hemoptoica. Al examen: impulso paraesternal derecho, RC arrítmicos, soplo diastólico en el ápex y pulso deficitario. Crepitantes en ambas bases pulmonares. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Estenosis tricúspidea",
+        "Estenosis mitral",
+        "Insuficiencia mitral",
+        "Insuficiencia aórtica",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer joven con disnea progresiva, hemoptisis, soplo diastólico en el ápex, crepitantes y pulso deficitario, orienta fuertemente a estenosis mitral. Esta valvulopatía reumática produce obstrucción al flujo auriculoventricular, generando hipertensión pulmonar, crepitantes, hemoptisis y disminución del gasto cardíaco. El impulso paraesternal derecho refleja crecimiento del ventrículo derecho por sobrecarga. El soplo diastólico es clave para el diagnóstico. Las otras valvulopatías tienen características clínicas y soplos distintos.",
+      "comentario": "Mujer joven con disnea progresiva, hemoptisis, soplo diastólico en el ápex, crepitantes y pulso deficitario, orienta fuertemente a estenosis mitral. Esta valvulopatía reumática produce obstrucción al flujo auriculoventricular, generando hipertensión pulmonar, crepitantes, hemoptisis y disminución del gasto cardíaco. El impulso paraesternal derecho refleja crecimiento del ventrículo derecho por sobrecarga. El soplo diastólico es clave para el diagnóstico. Las otras valvulopatías tienen características clínicas y soplos distintos.",
+      "tema": "Estenosis mitral",
+      "año": 2021
+    },
+    {
+      "id": "CAR-022",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 35 años acude a emergencia por presentar bruscamente palpitaciones, fatiga y disnea. Antecedentes: Niega episodios similares, no fiebre, no pérdida de peso. Examen físico: ansiosa, pálida y polipneica. PA: 130/80. FR: 28 por minuto, FP 100 po r minuto arrítmicos. Cardiovascular: FC: 120 por minuto., RC arriticos, no impresiona soplos. Pulmones normales ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Valvulopatía aortica",
+        "Cardiopatía isquémica crónica",
+        "Fibrilación auricular",
+        "Síndrome ansioso",
+        "Cirrosis hepática"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Mujer joven con inicio brusco de palpitaciones, fatiga y disnea, sin fiebre ni pérdida de peso, con hallazgos de pulso arrítmico y frecuencia cardíaca elevada, sugiere fuertemente una arritmia. La presencia de pulso irregular y respuesta ventricular rápida es característica de la fibrilación auricular (FA). Esta arritmia puede aparecer en personas jóvenes sin cardiopatía e structural, aunque también puede ser secundaria a otras condiciones. La ausencia de soplos y la normalidad pulmonar descartan valvulopatías evidentes. La FA explica la disnea por gasto cardíaco irregular. El síndrome ansioso no justifica las arritmias objetivas halladas.",
+      "comentario": "Mujer joven con inicio brusco de palpitaciones, fatiga y disnea, sin fiebre ni pérdida de peso, con hallazgos de pulso arrítmico y frecuencia cardíaca elevada, sugiere fuertemente una arritmia. La presencia de pulso irregular y respuesta ventricular rápida es característica de la fibrilación auricular (FA). Esta arritmia puede aparecer en personas jóvenes sin cardiopatía e structural, aunque también puede ser secundaria a otras condiciones. La ausencia de soplos y la normalidad pulmonar descartan valvulopatías evidentes. La FA explica la disnea por gasto cardíaco irregular. El síndrome ansioso no justifica las arritmias objetivas halladas.",
+      "tema": "Fibrilación auricular",
+      "año": 2021
+    },
+    {
+      "id": "CAR-023",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años, consumo crónico de alcohol durante 20 años. Ingresa a emergencia por cuadro de insuficiencia cardiaca descompensada. ¿Cuál es el tipo de miocardiopatía?",
+      "opciones": [
+        "Hipertrófica",
+        "Dilatada",
+        "Restrictiva",
+        "Inflamatoria",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón con consumo crónico de alcohol y falla cardíaca descompensada sugiere una miocardiopatía dilatada. El alcoholismo es una causa conocida de miocardiopatía dilatada, caracterizada por dilatación ventricular y deterioro de la contractilidad. Este tipo d e cardiopatía cursa con síntomas de insuficiencia cardíaca sistólica: disnea, ortopnea, edema y fatiga. La miocardiopatía hipertrófica se asocia más a causas genéticas, con hipertrofia septal. La restrictiva presenta falla diastólica con cavidades normales, típicamente secundaria a amiloidosis o fibrosis endomiocárdica. La inflamatoria (miocarditis) es aguda, muchas veces post -viral, no crónica. La historia clínica de consumo etílico prolongado orienta fuertemente al diagnóstico. El manejo incluye abandono del alcohol, IECA, betabloqueadores y diuréticos. El pronóstico mejora con suspensión del consumo y tratamiento adecuado.",
+      "comentario": "Varón con consumo crónico de alcohol y falla cardíaca descompensada sugiere una miocardiopatía dilatada. El alcoholismo es una causa conocida de miocardiopatía dilatada, caracterizada por dilatación ventricular y deterioro de la contractilidad. Este tipo d e cardiopatía cursa con síntomas de insuficiencia cardíaca sistólica: disnea, ortopnea, edema y fatiga. La miocardiopatía hipertrófica se asocia más a causas genéticas, con hipertrofia septal. La restrictiva presenta falla diastólica con cavidades normales, típicamente secundaria a amiloidosis o fibrosis endomiocárdica. La inflamatoria (miocarditis) es aguda, muchas veces post -viral, no crónica. La historia clínica de consumo etílico prolongado orienta fuertemente al diagnóstico. El manejo incluye abandono del alcohol, IECA, betabloqueadores y diuréticos. El pronóstico mejora con suspensión del consumo y tratamiento adecuado.",
+      "tema": "Miocardiopatía dilatada alcohólica",
+      "año": 2021
+    },
+    {
+      "id": "CAR-024",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 65 años, con coronariopatía crónica, consulta por disnea, taquipnea, ortopnea. Al examen: crepitantes bilaterales, se ausculta ritmo de galope. ¿Cuál es el medicamento más apropiado?",
+      "opciones": [
+        "Hidroclorotiazida",
+        "Bisoprolol",
+        "Furosemida",
+        "Nevibolol",
+        "Ceftriaxona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con cardiopatía isquémica crónica que presenta signos clínicos claros de insuficiencia cardiaca descompensada: disnea, ortopnea, taquipnea, y presencia de crepitantes bilaterales en campos pulmonares, además de ritmo de galope. Todo indica sobrecarga de volumen e hipertensión venocapilar. En este escenario, la furosemida, un diurético de asa potente, es el tratamiento de elección para descongestión rápida, mejorar la disnea y estabilizar al paciente. Los betabloqueadores (como bisoprolol o nevibolol) son útiles en fases estables, pero están contraindicados o se deben usar con precaución durante la descompensación aguda. La hidroclorotiazida no es lo suficientemente potente. Por tanto, el fármaco indicado es: furosemida.",
+      "comentario": "Paciente con cardiopatía isquémica crónica que presenta signos clínicos claros de insuficiencia cardiaca descompensada: disnea, ortopnea, taquipnea, y presencia de crepitantes bilaterales en campos pulmonares, además de ritmo de galope. Todo indica sobrecarga de volumen e hipertensión venocapilar. En este escenario, la furosemida, un diurético de asa potente, es el tratamiento de elección para descongestión rápida, mejorar la disnea y estabilizar al paciente. Los betabloqueadores (como bisoprolol o nevibolol) son útiles en fases estables, pero están contraindicados o se deben usar con precaución durante la descompensación aguda. La hidroclorotiazida no es lo suficientemente potente. Por tanto, el fármaco indicado es: furosemida.",
+      "tema": "Insuficiencia cardiaca aguda: furosemida",
+      "año": 2021
+    },
+    {
+      "id": "CAR-025",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Para el diagnóstico de insuficiencia cardiaca congestiva, ¿cuál criterio de Framingham es considerado como criterio mayor?",
+      "opciones": [
+        "Taquicardia (>120 x’)",
+        "Edema maleolar",
+        "Hepatomegalia",
+        "Disnea paroxística nocturna",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El diagnóstico clínico de insuficiencia cardiaca congestiva (ICC) puede apoyarse en los criterios de Framingham, que se dividen en mayores y menores. Se requieren 2 mayores o 1 mayor + 2 menores para hacer diagnóstico. La disnea paroxística nocturna es uno de los criterios mayores debido a su alta especificidad clínica en ICC, reflejando congestión pulmonar intermitente. Por el contrario, otros síntomas como taquicardia, edema maleolar y hepatomegalia son considerados criterios menores, ya que pueden estar presentes en otras condiciones clínicas. Por lo tanto, entre las opciones, el criterio mayor de Framingham es: disnea paroxística nocturna.",
+      "comentario": "El diagnóstico clínico de insuficiencia cardiaca congestiva (ICC) puede apoyarse en los criterios de Framingham, que se dividen en mayores y menores. Se requieren 2 mayores o 1 mayor + 2 menores para hacer diagnóstico. La disnea paroxística nocturna es uno de los criterios mayores debido a su alta especificidad clínica en ICC, reflejando congestión pulmonar intermitente. Por el contrario, otros síntomas como taquicardia, edema maleolar y hepatomegalia son considerados criterios menores, ya que pueden estar presentes en otras condiciones clínicas. Por lo tanto, entre las opciones, el criterio mayor de Framingham es: disnea paroxística nocturna.",
+      "tema": "Criterios de Framingham",
+      "año": 2021
+    },
+    {
+      "id": "CAR-026",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años acude a emergencia con dolor retroesternal intenso de 3 horas de evolución, fumador crónico, con dislipidemia mixta y sedentarismo. El EKG muestra elevación del segmento ST en derivaciones I, aVL y V6. ¿Cuál sería el principal objetivo terapéutico para este paciente?",
+      "opciones": [
+        "Limitar el área infartada",
+        "Recuperar “ad integrum” el miocardio",
+        "Prevenir embolismo arterial",
+        "Prevenir desgarro del músculo papilar",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con infarto agudo de miocardio (IAM) con supradesnivel del ST en derivaciones I, aVL y V6, correspondiente a un infarto lateral de alto riesgo, probablemente con afectación de la arteria circunfleja. Se presentan factores de riesgo clásicos: edad, tabaquismo, dislipidemia y sedentarismo. En este escenario, el objetivo terapéutico primario en la fase aguda es limitar el área infartada mediante reperfusión rápida (idealmente dentro de las primeras 90 minutos) con trombólisis o angioplastia primaria, para preservar la mayor cantidad de miocardio viable. La recuperación “ad integrum” es ideal pero poco realista en daño establecido; la prevención de complicaciones es secundaria. Por ello, el objetivo inicial es: limitar el área infartada.",
+      "comentario": "Paciente con infarto agudo de miocardio (IAM) con supradesnivel del ST en derivaciones I, aVL y V6, correspondiente a un infarto lateral de alto riesgo, probablemente con afectación de la arteria circunfleja. Se presentan factores de riesgo clásicos: edad, tabaquismo, dislipidemia y sedentarismo. En este escenario, el objetivo terapéutico primario en la fase aguda es limitar el área infartada mediante reperfusión rápida (idealmente dentro de las primeras 90 minutos) con trombólisis o angioplastia primaria, para preservar la mayor cantidad de miocardio viable. La recuperación “ad integrum” es ideal pero poco realista en daño establecido; la prevención de complicaciones es secundaria. Por ello, el objetivo inicial es: limitar el área infartada.",
+      "tema": "Infarto agudo de miocardio: reperfusión",
+      "año": 2021
+    },
+    {
+      "id": "CAR-027",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Diabético de 72 años que acude a urgencias por presentar un gran angioedema orolingual. No antecedentes de alergias previas. En tratamiento con metformina, simvastatina, enalapril, tiroxina y levodopa. ¿Cuál es el fármaco que con mayor posibilidad sería el causante del cuadro clínico?",
+      "opciones": [
+        "Simvastatina",
+        "Enalapril",
+        "Metformina",
+        "Levodopa",
+        "Clindamicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente de 72 años con angioedema orolingual agudo, sin antecedentes de alergias, que se presenta en el contexto de tratamiento con múltiples fármacos, entre los que destaca el enalapril, un inhibidor de la enzima convertidora de angiotensina (IECA). Este grupo farmacológico es reconocido por inducir angioedema mediado por bradiquininas, mecanismo diferente al de las reacciones alérgicas clásicas. La aparición del angioedema puede ser inesperada, incluso tras meses o años de uso. Metformina, simvastatina, levodopa y tiroxina no están comúnmente asociadas con este tipo de reacción. Por lo tanto, el enalapril es el agente más probablemente responsable del cuadro y debe ser suspendido inmediatamente.",
+      "comentario": "Paciente de 72 años con angioedema orolingual agudo, sin antecedentes de alergias, que se presenta en el contexto de tratamiento con múltiples fármacos, entre los que destaca el enalapril, un inhibidor de la enzima convertidora de angiotensina (IECA). Este grupo farmacológico es reconocido por inducir angioedema mediado por bradiquininas, mecanismo diferente al de las reacciones alérgicas clásicas. La aparición del angioedema puede ser inesperada, incluso tras meses o años de uso. Metformina, simvastatina, levodopa y tiroxina no están comúnmente asociadas con este tipo de reacción. Por lo tanto, el enalapril es el agente más probablemente responsable del cuadro y debe ser suspendido inmediatamente.",
+      "tema": "Angioedema por IECA",
+      "año": 2021
+    },
+    {
+      "id": "CAR-028",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años, estando en Emergencia presenta súbita pérdida de conciencia con ausencia de pulso y apnea. En el monitor cardíaco se evidencia ritmo acelerado. ¿Cuál es la mejor opción terapéutica?",
+      "opciones": [
+        "Desfibrilación",
+        "Cardioversión",
+        "Ablación",
+        "Betabloqueante EV",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta un paro cardiorrespiratorio súbito con ausencia de pulso y apnea. El monitor muestra un ritmo rápido, lo que indica una taquiarritmia sin pulso, como fibrilación ventricular o taquicardia ventricular sin pulso. En este contexto, la desfibrilación inmediata es la intervención más efectiva para revertir el ritmo. No hay tiempo para fármacos ni cardioversión sincronizada, ya que no hay pulso. La desfibrilación externa automática o manual debe realizarse cuanto antes para mejorar la supervivencia.",
+      "comentario": "El paciente presenta un paro cardiorrespiratorio súbito con ausencia de pulso y apnea. El monitor muestra un ritmo rápido, lo que indica una taquiarritmia sin pulso, como fibrilación ventricular o taquicardia ventricular sin pulso. En este contexto, la desfibrilación inmediata es la intervención más efectiva para revertir el ritmo. No hay tiempo para fármacos ni cardioversión sincronizada, ya que no hay pulso. La desfibrilación externa automática o manual debe realizarse cuanto antes para mejorar la supervivencia.",
+      "tema": "Paro por taquiarritmia sin pulso: desfibrilación",
+      "año": 2021
+    },
+    {
+      "id": "CAR-029",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 52 años, post reanimado inmediato recupera circulación espontánea, intubado con ventilación asistida a razón de 14 ventilaciones x'. Al examen: PA media 70 mmHg, SatO₂ 98 %, PaCO₂ 30 mmHg. ¿Qué ajustes se deben realizar en la estabilización inicial?",
+      "opciones": [
+        "Administrar fluidos",
+        "Disminuir ventilaciones",
+        "Disminuir FiO₂",
+        "Iniciar sedación",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente en fase post-paro cardiorrespiratorio, con ventilación mecánica asistida, se encuentra con PaCO₂ de 30 mmHg, lo cual sugiere hiperventilación y riesgo de hipocapnia, que puede inducir vasoconstricción cerebral y reducir la perfusión cerebral, especialmente indeseable en el contexto post-reanimación. La saturación de oxígeno es adecuada, y la presión arterial está en el límite inferior, pero estable. La prioridad es optimizar el intercambio gaseoso sin causar hipocapnia, por lo que se debe reducir la frecuencia ventilatoria para normalizar la PaCO₂.",
+      "comentario": "Paciente en fase post-paro cardiorrespiratorio, con ventilación mecánica asistida, se encuentra con PaCO₂ de 30 mmHg, lo cual sugiere hiperventilación y riesgo de hipocapnia, que puede inducir vasoconstricción cerebral y reducir la perfusión cerebral, especialmente indeseable en el contexto post-reanimación. La saturación de oxígeno es adecuada, y la presión arterial está en el límite inferior, pero estable. La prioridad es optimizar el intercambio gaseoso sin causar hipocapnia, por lo que se debe reducir la frecuencia ventilatoria para normalizar la PaCO₂.",
+      "tema": "Cuidados posparo: ventilación",
+      "año": 2022
+    },
+    {
+      "id": "CAR-030",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 25 años, una semana después de un procedimiento dental presenta malestar general, fiebre, escalofríos, sudoración nocturna, palpitaciones y dolores osteomusculares. Al examen: CV soplo que cambió de tonalidad en foco mitral. Fondo de ojo: hemorragias retinales con centro pálido. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Miocarditis",
+        "Pericarditis",
+        "Bacteriemia",
+        "Endocarditis",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente joven con antecedente de procedimiento odontológico reciente, que presenta fiebre persistente, sudoración nocturna y soplo cardíaco modificado, lo que orienta a una probable endocarditis infecciosa. La aparición de hemorragias retinianas con centro claro (manchas de Roth) refuerza el diagnóstico. Estas son manifestaciones clásicas de fenómenos embólicos y vasculitis asociadas a esta entidad. La endocarditis infecciosa debe sospecharse cuando hay fiebre prolongada y soplo nuevo o cambiante, especial mente si existen factores predisponentes como procedimientos dentales. La confirmación diagnóstica incluye criterios clínicos (Duke) y cultivos. Así, la opción correcta por clínica, evolución y hallazgos es endocarditis.",
+      "comentario": "Paciente joven con antecedente de procedimiento odontológico reciente, que presenta fiebre persistente, sudoración nocturna y soplo cardíaco modificado, lo que orienta a una probable endocarditis infecciosa. La aparición de hemorragias retinianas con centro claro (manchas de Roth) refuerza el diagnóstico. Estas son manifestaciones clásicas de fenómenos embólicos y vasculitis asociadas a esta entidad. La endocarditis infecciosa debe sospecharse cuando hay fiebre prolongada y soplo nuevo o cambiante, especial mente si existen factores predisponentes como procedimientos dentales. La confirmación diagnóstica incluye criterios clínicos (Duke) y cultivos. Así, la opción correcta por clínica, evolución y hallazgos es endocarditis.",
+      "tema": "Endocarditis infecciosa",
+      "año": 2022
+    },
+    {
+      "id": "CAR-031",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 55 años, consulta por cefalea moderada e insomnio. Al examen: PA 145/95 mmHg. Se solicita un MAPA, el cual nos muestra mediciones de presión dentro de lo normal. La alteración se cataloga como hipertensión arterial:",
+      "opciones": [
+        "De bata blanca",
+        "Ficticia",
+        "Enmascarada",
+        "Secundaria",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente varón de 55 años con presión arterial elevada en consultorio (145/95 mmHg), pero con valores normales en el monitoreo ambulatorio de presión arterial (MAPA). Este hallazgo es típico de la hipertensión arterial de bata blanca, un fenómeno transitorio en el que las cifras se elevan en presencia del personal de salud, por ansiedad o estrés, pero se mantienen normales en la vida diaria. El reconocimiento de esta condición es importante para evitar el inicio innecesario de tratamiento farmacológico. La hipertensión enmascarada se presenta en sentido opuesto: cifras normales en consulta y elevadas fuera. La hipertensión secundaria se debe a causas orgánicas. “Hipertensión ficticia” no es un término médico válido.",
+      "comentario": "Paciente varón de 55 años con presión arterial elevada en consultorio (145/95 mmHg), pero con valores normales en el monitoreo ambulatorio de presión arterial (MAPA). Este hallazgo es típico de la hipertensión arterial de bata blanca, un fenómeno transitorio en el que las cifras se elevan en presencia del personal de salud, por ansiedad o estrés, pero se mantienen normales en la vida diaria. El reconocimiento de esta condición es importante para evitar el inicio innecesario de tratamiento farmacológico. La hipertensión enmascarada se presenta en sentido opuesto: cifras normales en consulta y elevadas fuera. La hipertensión secundaria se debe a causas orgánicas. “Hipertensión ficticia” no es un término médico válido.",
+      "tema": "Hipertensión de bata blanca",
+      "año": 2022
+    },
+    {
+      "id": "CAR-032",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Pintor de 55 años, consulta por presentar hace 15 días edema facial y en esclavina, posteriormente compromete miembros superiores. Al examen: abotagado, enrojecimiento de las conjuntivas e ingurgitación yugular. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Trombosis de la vena cava superior",
+        "Embolia del tronco braquiocefálico derecho",
+        "Trombosis de la vena cava inferior",
+        "Embolia de la subclavia derecha",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente varón de 55 años con edema progresivo en cara y esclavina, que luego compromete miembros superiores, acompañado de plétora facial, conjuntivas inyectadas e ingurgitación yugular. Este patrón clínico corresponde al síndrome de la vena cava superior, causado comúnmente por compresión extrínseca de dicha vena, generalmente por neoplasias torácicas como el cáncer de pulmón o linfomas. La congestión venosa retrógrada explica el edema y eritema facial. La trombosis de la cava inferior no produce síntomas en cara ni cuello. Las embolias en vasos como la subclavia o tronco braquiocefálico derecho tampoco explican el compromiso simétrico y cefálico. La causa más probable es la obstrucción de la vena cava superior.",
+      "comentario": "Paciente varón de 55 años con edema progresivo en cara y esclavina, que luego compromete miembros superiores, acompañado de plétora facial, conjuntivas inyectadas e ingurgitación yugular. Este patrón clínico corresponde al síndrome de la vena cava superior, causado comúnmente por compresión extrínseca de dicha vena, generalmente por neoplasias torácicas como el cáncer de pulmón o linfomas. La congestión venosa retrógrada explica el edema y eritema facial. La trombosis de la cava inferior no produce síntomas en cara ni cuello. Las embolias en vasos como la subclavia o tronco braquiocefálico derecho tampoco explican el compromiso simétrico y cefálico. La causa más probable es la obstrucción de la vena cava superior.",
+      "tema": "Síndrome de vena cava superior",
+      "año": 2022
+    },
+    {
+      "id": "CAR-033",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 45 años, con antecedente de lupus eritematoso sistémico, presenta disnea de dos semanas de evolución que progresa a pequeños esfuerzos. Examen: PA 80/40 mmHg, FC 120 x', FR 20 x', pulso paradójico 15 mmHg, ingurgitación yugular bilateral. EKG: complejos QRS disminuidos. ¿Cuál es el manejo inmediato a seguir?",
+      "opciones": [
+        "Trombolisis",
+        "Heparinización",
+        "Pericardiocentesis",
+        "Angioplastía",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con diagnóstico de lupus eritematoso sistémico presenta disnea progresiva, hipotensión, taquicardia e ingurgitación yugular, datos que apuntan a un compromiso hemodinámico. La presencia de pulso paradójico (15 mmHg) y complejos QRS disminuidos en el electrocardiograma son hallazgos clave que orientan hacia un taponamiento cardíaco, complicación pericárdica común en pacientes con LES. El cuadro descrito corresponde a una triada de Beck incompleta, compatible con derrame pericárdico a tensión. La conducta inmediata en estos casos es la pericardiocentesis, procedimiento que permite aliviar la presión intrapericárdica y mejorar la precarga. La trombólisis (alternativa A) sería útil en una embolia pulmonar masiva, pero en este caso no hay evidencia de ta l evento.",
+      "comentario": "Paciente con diagnóstico de lupus eritematoso sistémico presenta disnea progresiva, hipotensión, taquicardia e ingurgitación yugular, datos que apuntan a un compromiso hemodinámico. La presencia de pulso paradójico (15 mmHg) y complejos QRS disminuidos en el electrocardiograma son hallazgos clave que orientan hacia un taponamiento cardíaco, complicación pericárdica común en pacientes con LES. El cuadro descrito corresponde a una triada de Beck incompleta, compatible con derrame pericárdico a tensión. La conducta inmediata en estos casos es la pericardiocentesis, procedimiento que permite aliviar la presión intrapericárdica y mejorar la precarga. La trombólisis (alternativa A) sería útil en una embolia pulmonar masiva, pero en este caso no hay evidencia de ta l evento.",
+      "tema": "Taponamiento cardiaco en lupus",
+      "año": 2022
+    },
+    {
+      "id": "CAR-034",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 52 años que sufre accidente de tránsito golpeándose la región precordial; acude a emergencia por dolor intenso y sudoración fría. Al examen: PA 90/60 mmHg, FC 100 x', SatO₂ 97%, ruidos cardiacos arrítmicos, sin soplos. ¿Cuál es el examen recomendado para el diagn óstico?",
+      "opciones": [
+        "Dosaje de enzimas cardiacas",
+        "TAC de tórax",
+        "EKG seriado",
+        "Ecocardiografía",
+        "Colonoscopia"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una mujer de 52 años presenta traumatismo torácico por accidente de tránsito con dolor precordial, hipotensión y arritmia cardiaca. Ante estos signos clínicos, es fundamental descartar una contusión miocárdica o lesión estructural del corazón. La herramienta diagnóstica más sensible y específica para evaluar la función cardíaca en este contexto es la ecocardiografía, ya que permite visualizar contractilidad, derrames, hematomas o ruptura de estructuras. Si bien el EKG seriado puede detectar arritmias o alteraciones isquémicas, no proporciona información estructural directa. Las enzimas cardíacas pueden elevarse por daño miocárdico, pero no diferencian entre contusión, infarto u otras causas. La TAC de tórax es útil para traumatismo torácico en general, pero no específica para valorar función cardiaca. En este contexto clínico, lo indicado es un ecocardiograma.",
+      "comentario": "Una mujer de 52 años presenta traumatismo torácico por accidente de tránsito con dolor precordial, hipotensión y arritmia cardiaca. Ante estos signos clínicos, es fundamental descartar una contusión miocárdica o lesión estructural del corazón. La herramienta diagnóstica más sensible y específica para evaluar la función cardíaca en este contexto es la ecocardiografía, ya que permite visualizar contractilidad, derrames, hematomas o ruptura de estructuras. Si bien el EKG seriado puede detectar arritmias o alteraciones isquémicas, no proporciona información estructural directa. Las enzimas cardíacas pueden elevarse por daño miocárdico, pero no diferencian entre contusión, infarto u otras causas. La TAC de tórax es útil para traumatismo torácico en general, pero no específica para valorar función cardiaca. En este contexto clínico, lo indicado es un ecocardiograma.",
+      "tema": "Contusión miocárdica: ECG seriado",
+      "año": 2022
+    },
+    {
+      "id": "CAR-035",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 48 años con enfermedad renal crónica en diálisis con catéter de alto flujo, presenta desde hace 2 días, fiebre con escalofríos, sudoración nocturna profusa, mialgias e hiporexia. Examen: máculas hemorrágicas indoloras en palmas y plantas, soplo sistólico de novo en mesocardio. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Mielocultivo",
+        "Ecocardiograma transesofágica",
+        "Hemocultivo",
+        "Ecocardiograma transtorácico",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Este paciente presenta un cuadro clínico sugestivo de endocarditis infecciosa, especialmente por el antecedente de catéter y los hallazgos clínicos (soplo nuevo, máculas en palmas y plantas —lesiones de Janeway—). El primer paso diagnóstico en estos casos es obtener hemocultivos antes de iniciar antibióticos, idealmente tres muestras separadas en el tiempo, lo cual es fundamental para aislar el agente etiológico. El ecocardiograma (preferiblemente transesofágico) se realiza luego para confirmar compromiso valvular, pero los hemocultivos son prioritarios para el diagnóstico según los criterios de Duke.",
+      "comentario": "Este paciente presenta un cuadro clínico sugestivo de endocarditis infecciosa, especialmente por el antecedente de catéter y los hallazgos clínicos (soplo nuevo, máculas en palmas y plantas —lesiones de Janeway—). El primer paso diagnóstico en estos casos es obtener hemocultivos antes de iniciar antibióticos, idealmente tres muestras separadas en el tiempo, lo cual es fundamental para aislar el agente etiológico. El ecocardiograma (preferiblemente transesofágico) se realiza luego para confirmar compromiso valvular, pero los hemocultivos son prioritarios para el diagnóstico según los criterios de Duke.",
+      "tema": "Endocarditis infecciosa: hemocultivos",
+      "año": 2023
+    },
+    {
+      "id": "CAR-036",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 55 años, mientras se encontraba en centro comercial (cuenta con DEA), presenta dolor torácico y pérdida súbita de conciencia. Antecedentes: diabético, cardiopatía coronaria crónica e hipertenso. se reconoce que se encuentre en PCR y se activa cadena de supervivencia hasta la llegada de servicios de ambulancia. Al recibir RCP, en el lugar de los hechos los reanimadores discuten. ¿Cuál es la medida inmediata?",
+      "opciones": [
+        "Cardiodesfibrilación con DEA",
+        "Solo masaje cardiaco por un operador",
+        "Masaje cardiaco y respiración boca a boca",
+        "Esperar llegada de los servicios de ambulancia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante un paro cardiorrespiratorio (PCR) presenciado en un lugar público con disponibilidad de un DEA (desfibrilador externo automático), la intervención inmediata más importante es realizar una desfibrilación temprana. Esta medida es clave especialmente si la causa es una arritmia desfibrilable como fibrilación ventricular o taquicardia ventricular sin pulso. Activar el DEA y seguir sus instrucciones, mientras se continúa con RCP de alta calidad, forma parte esencial de la cadena de supervivencia y mejora significativamente las probabilidades de recuperación del paciente.",
+      "comentario": "Ante un paro cardiorrespiratorio (PCR) presenciado en un lugar público con disponibilidad de un DEA (desfibrilador externo automático), la intervención inmediata más importante es realizar una desfibrilación temprana. Esta medida es clave especialmente si la causa es una arritmia desfibrilable como fibrilación ventricular o taquicardia ventricular sin pulso. Activar el DEA y seguir sus instrucciones, mientras se continúa con RCP de alta calidad, forma parte esencial de la cadena de supervivencia y mejora significativamente las probabilidades de recuperación del paciente.",
+      "tema": "Paro cardiaco extrahospitalario: desfibrilación con DEA",
+      "año": 2023
+    },
+    {
+      "id": "CAR-037",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 36 años, procedente de área rural de Arequipa, acude por disnea progresiva, desde hace dos años, pirosis, disfagia y estreñimiento pertinaz. Examen: PA:110/90 mmHg, FC:120 X’, FR: 22X’, T°:37 C, RC con ritmo de galope, crépitos en bases de AC P. EKG: fibrilación auricular, algunas extrasístoles. Rx tórax: gran cardiomegalia e infiltrados alveolares en bases de ACP. TEM tóracoabdominal: megacolon y megaesófago. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Fiebre reumática",
+        "Enfermedad de Chagas",
+        "Beriberi húmedo",
+        "Cardiomiopatía hipertrófica",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El cuadro clínico de esta paciente es altamente sugestivo de Enfermedad de Chagas, especialmente considerando su procedencia rural en Arequipa, una zona endémica en Perú. La disnea progresiva, pirosis, disfagia, y estreñimiento pertinaz junto con la presencia de megacolon y megaesófago en la tem tóracoabdominal son signos clásicos de la fase crónica de la Enfermedad de Chagas, que afecta los sistemas digestivo, cardíaco y nervioso. Además, la cardiomegalia, fibrilación auricular y crépitantes en bases pulmonares apuntan a miocardiopatía chagásica, que es una complicación frecuente de esta enfermedad.",
+      "comentario": "El cuadro clínico de esta paciente es altamente sugestivo de Enfermedad de Chagas, especialmente considerando su procedencia rural en Arequipa, una zona endémica en Perú. La disnea progresiva, pirosis, disfagia, y estreñimiento pertinaz junto con la presencia de megacolon y megaesófago en la tem tóracoabdominal son signos clásicos de la fase crónica de la Enfermedad de Chagas, que afecta los sistemas digestivo, cardíaco y nervioso. Además, la cardiomegalia, fibrilación auricular y crépitantes en bases pulmonares apuntan a miocardiopatía chagásica, que es una complicación frecuente de esta enfermedad.",
+      "tema": "Enfermedad de Chagas crónica: miocardiopatía y megavísceras",
+      "año": 2023
+    },
+    {
+      "id": "CAR-038",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 60 años acude a consulta por disnea a pequeños esfuerzos, palpitaciones, dolo precordial y edema de MMII. Examen: pulso periférico saltón, corazón: soplo protodiastólico decreciente en borde esternal superior izquierdo y soplo mesodiastólico en foco mitral catalogado como asoplo de Austin Flint. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Estenosis aórtica",
+        "Insuficiencia mitral",
+        "Insuficiencia aórtica",
+        "Estenosis mitral",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El soplo de Austin Flint es un hallazgo característico de la insuficiencia aórtica severa. Este soplo es un soplo mesodiastólico en el foco mitral que se produce debido al flujo retrógrado de sangre desde la aorta hacia el ventrículo izquierdo, lo que puede interferir con el cierre de la válvula mitral y crear un murmullo diastólico. Los síntomas de disnea, palpitaciones, dolor precordial y edema de miembros inferiores también son típicos de insuficiencia aórtica, ya que esta condición provoca sobrecarga de volumen en el ventrículo izquierdo y puede generar insuficiencia cardíaca. El pulso periférico \"saltón\" también es indicativo de esta patología, debido a la gran diferencia entre la presión sistólica y diastólica.",
+      "comentario": "El soplo de Austin Flint es un hallazgo característico de la insuficiencia aórtica severa. Este soplo es un soplo mesodiastólico en el foco mitral que se produce debido al flujo retrógrado de sangre desde la aorta hacia el ventrículo izquierdo, lo que puede interferir con el cierre de la válvula mitral y crear un murmullo diastólico. Los síntomas de disnea, palpitaciones, dolor precordial y edema de miembros inferiores también son típicos de insuficiencia aórtica, ya que esta condición provoca sobrecarga de volumen en el ventrículo izquierdo y puede generar insuficiencia cardíaca. El pulso periférico \"saltón\" también es indicativo de esta patología, debido a la gran diferencia entre la presión sistólica y diastólica.",
+      "tema": "Insuficiencia aórtica: soplo de Austin Flint",
+      "año": 2023
+    },
+    {
+      "id": "CAR-039",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 59 años acude por dolor torácico opresivo de inicio súbito desde hace 30 minutos, intensidad 8 de 10. Antecedente de diabetes, hipertensión y tabaquismo desde hace 20 años. Examen: SatO₂ 96%, estable hemodinámicamente. No signos de congestión pulmonar. EKG: elevación de segmento ST (5 mm) en cara anterolateral. Troponina T: 290 (Valor normal menor de 14). ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Anticoagulación terapéutica",
+        "Bypass coronario",
+        "Oxigenoterapia",
+        "Angioplastia coronaria",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico descrito es sugestivo de un infarto agudo de miocardio (IAM). Los hallazgos que respaldan esta conclusión incluyen el dolor torácico característico en un paciente varón con factores de riesgo cardiovascular (diabetes, hipertensión y tabaquismo), enzimas cardiacas positivas y un EKG que evidencia un ST elevado. Frente a este cuadro, el tratamiento de elección es ANGIOPLASTIA CORONARIA (Opción D). La angioplastia coronaria primaria es el tratamiento de elección para restaurar el flujo sanguíneo en la arteria coronaria afectada en el infarto agudo de miocardio con elevación del segmento ST. Es una intervención urgente que se realiza para abrir la arteria obstruida y restablecer el suministro de sangre al músculo cardíaco.",
+      "comentario": "El cuadro clínico descrito es sugestivo de un infarto agudo de miocardio (IAM). Los hallazgos que respaldan esta conclusión incluyen el dolor torácico característico en un paciente varón con factores de riesgo cardiovascular (diabetes, hipertensión y tabaquismo), enzimas cardiacas positivas y un EKG que evidencia un ST elevado. Frente a este cuadro, el tratamiento de elección es ANGIOPLASTIA CORONARIA (Opción D). La angioplastia coronaria primaria es el tratamiento de elección para restaurar el flujo sanguíneo en la arteria coronaria afectada en el infarto agudo de miocardio con elevación del segmento ST. Es una intervención urgente que se realiza para abrir la arteria obstruida y restablecer el suministro de sangre al músculo cardíaco.",
+      "tema": "Infarto con elevación del ST: angioplastia primaria",
+      "año": 2023
+    },
+    {
+      "id": "CAR-040",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 52 años, obeso e hipertenso, traído a emergencia con infarto de miocardio con 24 horas de evolución. Examen: PA 90/60 mmHg, FC 100 X', FR 26 X'; IY(+), RC regulares, no soplos. Tórax crepitantes en ambas bases. Diuresis no cuantificada. Lab: Naorina < 20 mEq/L, FeNa < 1%. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Trombolisis",
+        "Forzar diuresis",
+        "Trombectomía",
+        "Inótropos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presentación clínica de un varón de 52 años con infarto de miocardio, hipotensión, crepitantes en ambas bases pulmonares, ingurgitación yugular y hallazgos en los exámenes de laboratorio (Naorina < 20 mEq/L, FeNa < 1%) sugiere la posibilidad de una disfunción ventricular con edema pulmonar cardiogénico y compromiso hemodinámico. En este escenario, el tratamiento inicial debe centrarse en estabilizar hemodinámicamente al paciente y abordar la insuficiencia cardíaca aguda. Es por ello que la opción más adecuada sería iniciar tratamiento con INÓTROPOS (Opción D). Los inotrópicos positivos, como la dobutamina, pueden considerarse en pacientes con insuficiencia cardíaca aguda congestiva para mejorar la contractilidad del corazón y el gasto cardíaco. Sin embargo, su uso debe ser cuidadosamente evaluado y monitorizado.",
+      "comentario": "La presentación clínica de un varón de 52 años con infarto de miocardio, hipotensión, crepitantes en ambas bases pulmonares, ingurgitación yugular y hallazgos en los exámenes de laboratorio (Naorina < 20 mEq/L, FeNa < 1%) sugiere la posibilidad de una disfunción ventricular con edema pulmonar cardiogénico y compromiso hemodinámico. En este escenario, el tratamiento inicial debe centrarse en estabilizar hemodinámicamente al paciente y abordar la insuficiencia cardíaca aguda. Es por ello que la opción más adecuada sería iniciar tratamiento con INÓTROPOS (Opción D). Los inotrópicos positivos, como la dobutamina, pueden considerarse en pacientes con insuficiencia cardíaca aguda congestiva para mejorar la contractilidad del corazón y el gasto cardíaco. Sin embargo, su uso debe ser cuidadosamente evaluado y monitorizado.",
+      "tema": "Choque cardiogénico: inotrópicos",
+      "año": 2023
+    },
+    {
+      "id": "CAR-041",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 60 años con historia de disnea progresiva desde hace un año, duerme con 3 almohadas. Antecedente de HTA. Tabaquismo: 3 cigarros/día desde hace 5 años. Examen: PA 150/90 mmHg, FC 120 X´, FR 22 X´; crepitantes en bases de AHT, ritmo de galope; fondo de ojo: retinopatía grado IV. Rx tórax: cardiomegalia y congestión en ambas bases. ¿Cuál es la etiología de esta cardiopatía?",
+      "opciones": [
+        "Hipertensiva",
+        "Hipertrófica",
+        "Ateroesclerótica",
+        "Idiopática",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Dado que el paciente tiene antecedente de hipertensión con mal control y que presenta hallazgos sugestivos de congestión pulmonar secundaria a insuficiencia cardiaca (disnea, ortopnea y crepitantes en bases) así como retinopatía grado IV, lo más probable es que la etiología de su cardiopatía sea Hipertensiva (Opción A). La hipertensión arterial crónica puede causar remodelación del corazón, hipertrofia ventricular izquierda, insuficiencia cardíaca y otros cambios que son consistentes con los hallazgos observados en este paciente. La presión arterial elevada a lo largo del tiempo puede llevar a una sobrecarga en el corazón y, eventualmente, a la disfunción cardíaca.",
+      "comentario": "Dado que el paciente tiene antecedente de hipertensión con mal control y que presenta hallazgos sugestivos de congestión pulmonar secundaria a insuficiencia cardiaca (disnea, ortopnea y crepitantes en bases) así como retinopatía grado IV, lo más probable es que la etiología de su cardiopatía sea Hipertensiva (Opción A). La hipertensión arterial crónica puede causar remodelación del corazón, hipertrofia ventricular izquierda, insuficiencia cardíaca y otros cambios que son consistentes con los hallazgos observados en este paciente. La presión arterial elevada a lo largo del tiempo puede llevar a una sobrecarga en el corazón y, eventualmente, a la disfunción cardíaca.",
+      "tema": "Cardiopatía hipertensiva",
+      "año": 2023
+    },
+    {
+      "id": "CAR-042",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Está esperando cruzar la calle y de repente la persona del costado se desploma, usted terminó su entrenamiento en RCP. ¿Cuál sería su actuación inicial?",
+      "opciones": [
+        "Asegurar que la víctima respira",
+        "Colocar a la víctima boca arriba",
+        "Solicitar los servicios de emergencia",
+        "Comprobar que el escenario sea seguro",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ante una situación en la que una persona se desploma inesperadamente, es crucial actuar de manera rápida y eficiente. La primera acción que se debe tomar en cualquier situación de emergencia es Comprobar que el escenario sea seguro (Opción D). Antes de acercarse a la víctima, es importante evaluar si hay peligros potenciales en el entorno, como tráfico, cables eléctricos caídos, fuego, etc. Si el escenario no es seguro, se deben tomar medidas para eliminar o minimizar los peligros antes de acercarse a la víctima.",
+      "comentario": "Ante una situación en la que una persona se desploma inesperadamente, es crucial actuar de manera rápida y eficiente. La primera acción que se debe tomar en cualquier situación de emergencia es Comprobar que el escenario sea seguro (Opción D). Antes de acercarse a la víctima, es importante evaluar si hay peligros potenciales en el entorno, como tráfico, cables eléctricos caídos, fuego, etc. Si el escenario no es seguro, se deben tomar medidas para eliminar o minimizar los peligros antes de acercarse a la víctima.",
+      "tema": "Soporte vital básico: seguridad de la escena",
+      "año": 2023
+    },
+    {
+      "id": "CAR-043",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 52 años que hace 6 horas es agredido con \"golpe de puño\" en zona precordial, acude por dolor torácico, palpitaciones y mareos. Examen: FC 100 X’, PA; 90/60 mmHg; RC disminuidos de intensidad, ingurgitación de las yugulares (+). Lab: CPK y Troponina aumentadas. ¿Cuál es la medida inmediata a tomar?",
+      "opciones": [
+        "Monitoreo y analgésicos",
+        "Inotrópicos y diuréticos",
+        "EKG y ecocardiograma",
+        "TEM de tórax y Holter",
+        "Radiografía simple"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Dado el historial de trauma en la zona precordial y los síntomas cardíacos agudos, la medida más adecuada en este escenario es realizar un EKG y ecocardiograma (Opción C). El electrocardiograma (EKG) puede ayudar a detectar anormalidades eléctricas cardíacas agudas, como el infarto de miocardio. El ecocardiograma puede proporcionar información sobre la función cardíaca, identificar la presencia de derrame pericárdico u otras anomalías estructurales cardíacas posteriores al trauma.",
+      "comentario": "Dado el historial de trauma en la zona precordial y los síntomas cardíacos agudos, la medida más adecuada en este escenario es realizar un EKG y ecocardiograma (Opción C). El electrocardiograma (EKG) puede ayudar a detectar anormalidades eléctricas cardíacas agudas, como el infarto de miocardio. El ecocardiograma puede proporcionar información sobre la función cardíaca, identificar la presencia de derrame pericárdico u otras anomalías estructurales cardíacas posteriores al trauma.",
+      "tema": "Trauma precordial con compromiso hemodinámico: ECG y ecocardiograma",
+      "año": 2023
+    },
+    {
+      "id": "CAR-044",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, con antecedente de HTA controlada, presenta paro cardíaco en plena clase de natación. El instructor la saca de la piscina, inicia maniobras de RCP y llama a emergencia. Administra descarga eléctrica con desfibrilador externo automático, logrando retorno de la circulación espontánea. ¿Cuál es la arritmia más probable que presentó la paciente?",
+      "opciones": [
+        "Fibrilación ventricular",
+        "Asistolia",
+        "Fibrilación auricular",
+        "Actividad eléctrica sin pulso",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La arritmia más probable que presentó la paciente es la fibrilación ventricular (FV) (Alternativa A). La fibrilación ventricular es una arritmia en la que los ventrículos del corazón laten de manera rápida y caótica, impidiendo un bombeo efectivo de sangre. Es la causa más común de paro cardíaco súbito y responde bien a la desfibrilación. El retorno de la circulación espontánea después de una descarga con un desfibrilador externo automático (DEA) es altamente sugestivo de FV. Debe tenerse en cuenta que otro ritmo de paro cardíaco que es desfibrilable es la taquicardia ventricular sin pulso.",
+      "comentario": "La arritmia más probable que presentó la paciente es la fibrilación ventricular (FV) (Alternativa A). La fibrilación ventricular es una arritmia en la que los ventrículos del corazón laten de manera rápida y caótica, impidiendo un bombeo efectivo de sangre. Es la causa más común de paro cardíaco súbito y responde bien a la desfibrilación. El retorno de la circulación espontánea después de una descarga con un desfibrilador externo automático (DEA) es altamente sugestivo de FV. Debe tenerse en cuenta que otro ritmo de paro cardíaco que es desfibrilable es la taquicardia ventricular sin pulso.",
+      "tema": "Fibrilación ventricular: desfibrilación",
+      "año": 2024
+    },
+    {
+      "id": "CAR-045",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 64 años desde hace 6 meses presenta disnea progresiva, ortopnea y edema de MMII. Antecedente: Cardiopatía isquémica crónica. Examen: PA 120/80 mmHg, FC 110 X’, FR 22 X’; pulmones crepitantes bilaterales; cuello con IY (+), pulso deficitario, R C arrítmicos; edema en MMII. En tratamiento con enalapril, digoxina, furosemida y rivaroxabán. ¿Cuál fármaco mejora la sobrevida?",
+      "opciones": [
+        "Digoxina",
+        "Furosemida",
+        "Enalapril",
+        "Rivaroxaban",
+        "Clindamicina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de disnea progresiva, ortopnea, edema en MMII, edema agudo de pulmón e ingurgitación yugular en un paciente con antecedente de cardiopatía isquémica crónica y arritmia cardiaca es sugestiva de una insuficiencia cardiaca descompensada. En este caso, el fármaco indicado al paciente y que ha demostrado mejorar la sobrevida es enalapril (Alternativa C). Enalapril y otros inhibidores de la enzima convertidora de angiotensina (IECAs) han demostrado de manera consistente en ensayos clínicos que mejoran l a sobrevida en pacientes con insuficiencia cardíaca. Actúan bloqueando el sistema renina-angiotensina-aldosterona, lo que reduce la postcarga y la precarga, disminuyendo así la progresión de la insuficiencia cardíaca y mejorando los resultados a largo plazo. Además, los IECAs tienen beneficios adicionales, como la mejora de la función ventricular y la reducción de la remodelación cardíaca adversa.",
+      "comentario": "La presencia de disnea progresiva, ortopnea, edema en MMII, edema agudo de pulmón e ingurgitación yugular en un paciente con antecedente de cardiopatía isquémica crónica y arritmia cardiaca es sugestiva de una insuficiencia cardiaca descompensada. En este caso, el fármaco indicado al paciente y que ha demostrado mejorar la sobrevida es enalapril (Alternativa C). Enalapril y otros inhibidores de la enzima convertidora de angiotensina (IECAs) han demostrado de manera consistente en ensayos clínicos que mejoran l a sobrevida en pacientes con insuficiencia cardíaca. Actúan bloqueando el sistema renina-angiotensina-aldosterona, lo que reduce la postcarga y la precarga, disminuyendo así la progresión de la insuficiencia cardíaca y mejorando los resultados a largo plazo. Además, los IECAs tienen beneficios adicionales, como la mejora de la función ventricular y la reducción de la remodelación cardíaca adversa.",
+      "tema": "Insuficiencia cardiaca: fármacos que mejoran la sobrevida",
+      "año": 2024
+    },
+    {
+      "id": "CAR-046",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 48 años, es traído a urgencias por cefalea, náuseas, vómitos, edema de papila y alteración del nivel de conciencia. Antecedente: HTA crónica con tratamiento regular. Examen: 190/120 mmHg, FC 80 X', confuso, desorientado, no focalización. ¿Cuál es el fármaco de elección?",
+      "opciones": [
+        "Nitroprusiato",
+        "Nifedipino",
+        "Labetalol",
+        "Nitroglicerina",
+        "Dexametasona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Este paciente con antecedente de hipertensión arterial crónica se presenta con una emergencia hipertensiva (PA ≥180/110mmHg asociado a daño en órgano blanco). Por los síntomas neurológicos presentados podríamos encontrarnos frente a una encefalopatía hipertensiva, en la cual la presión arterial elevada causa disfunción cerebral, manifestándose con cefalea intensa, alteración del nivel de conciencia, confusión, desorientación y en casos más graves, edema de papila. No obstante, es importante considerar otras causas de alteración del nivel de conciencia en un paciente con crisis hipertensiva como el accidente cerebrovascular. En este contexto, el fármaco de elección es labetalol (Alternativa C). El labetalol es un bloqueador combinado de receptores alfa y beta que reduce la presión arterial sin provocar taquicardia refleja. Es el fármaco de elección en este caso debido a su perfil de seguridad, eficacia en la reducción de la presión arterial de manera controlada y sin causar efectos secundarios graves, como taquicardia o hipotensión severa. Además, puede ser administrado en bolos intravenosos o infusión continua.",
+      "comentario": "Este paciente con antecedente de hipertensión arterial crónica se presenta con una emergencia hipertensiva (PA ≥180/110mmHg asociado a daño en órgano blanco). Por los síntomas neurológicos presentados podríamos encontrarnos frente a una encefalopatía hipertensiva, en la cual la presión arterial elevada causa disfunción cerebral, manifestándose con cefalea intensa, alteración del nivel de conciencia, confusión, desorientación y en casos más graves, edema de papila. No obstante, es importante considerar otras causas de alteración del nivel de conciencia en un paciente con crisis hipertensiva como el accidente cerebrovascular. En este contexto, el fármaco de elección es labetalol (Alternativa C). El labetalol es un bloqueador combinado de receptores alfa y beta que reduce la presión arterial sin provocar taquicardia refleja. Es el fármaco de elección en este caso debido a su perfil de seguridad, eficacia en la reducción de la presión arterial de manera controlada y sin causar efectos secundarios graves, como taquicardia o hipotensión severa. Además, puede ser administrado en bolos intravenosos o infusión continua.",
+      "tema": "Encefalopatía hipertensiva: labetalol",
+      "año": 2024
+    },
+    {
+      "id": "CAR-047",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 70 años, con fibrilación auricular crónica y en tratamiento con antiarrítmico desde hace 5 años. Evoluciona con disnea progresiva a mínimos esfuerzos, tos seca persistente y pérdida de peso. ¿Qué fármaco se relaciona con este efecto adverso?",
+      "opciones": [
+        "Verapamilo",
+        "Procainamida",
+        "Amiodarona",
+        "Flecainida",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La amiodarona es un antiarrítmico que se utiliza frecuentemente para tratar la fibrilación auricular crónica, pero uno de sus efectos adversos más conocidos es la toxacidad pulmonar, que puede causar síntomas como disnea progresiva, tos seca persistente y pérdida de peso. Este efecto es más común con el uso prolongado del fármaco y puede llevar a una neumonitis intersticial o fibrosis pulmonar, lo que justifica los síntomas descritos en el paciente.",
+      "comentario": "La amiodarona es un antiarrítmico que se utiliza frecuentemente para tratar la fibrilación auricular crónica, pero uno de sus efectos adversos más conocidos es la toxacidad pulmonar, que puede causar síntomas como disnea progresiva, tos seca persistente y pérdida de peso. Este efecto es más común con el uso prolongado del fármaco y puede llevar a una neumonitis intersticial o fibrosis pulmonar, lo que justifica los síntomas descritos en el paciente.",
+      "tema": "Toxicidad pulmonar por amiodarona",
+      "año": 2024
+    },
+    {
+      "id": "CAR-048",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 50 años, con diabetes tipo 2, es traído a urgencias por dolor retroesternal opresivo de 30 minutos de duración. Examen: PA: 80/50 mmHg, FC: 60 X’, FR: 24 X', SatO₂: 90%, con diaforesis, piel fría, llenado capilar >5\", crepitantes bilaterales e ingurgitación yugular. Laboratorio: CK-MB y troponina I elevadas. ¿Cómo está la pre carga?",
+      "opciones": [
+        "Normal",
+        "Alta",
+        "Muy baja",
+        "Baja",
+        "Reposo absoluto"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta dolor retroesternal, signos de insuficiencia cardíaca (ingurgitación yugular, crepitantes bilaterales) y marcadores cardíacos elevados (CK-MB y troponina I), lo que sugiere un infarto de miocardio con insuficiencia cardiaca. La pre-carga está alta, ya que la ingurgitación yugular y los crepitantes bilaterales indican congestión pulmonar, lo que se traduce en un aumento del volumen de sangre en las cavidades del corazón.",
+      "comentario": "El paciente presenta dolor retroesternal, signos de insuficiencia cardíaca (ingurgitación yugular, crepitantes bilaterales) y marcadores cardíacos elevados (CK-MB y troponina I), lo que sugiere un infarto de miocardio con insuficiencia cardiaca. La pre-carga está alta, ya que la ingurgitación yugular y los crepitantes bilaterales indican congestión pulmonar, lo que se traduce en un aumento del volumen de sangre en las cavidades del corazón.",
+      "tema": "Choque cardiogénico: precarga alta",
+      "año": 2024
+    },
+    {
+      "id": "CAR-049",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 54 años, con antecedente de diabetes y enfermedad coronaria, ingresa a emergencia por presentar dolor torácico, diaforesis y palpitaciones. Examen: PA: 70/30 mmHg; FC: 187 X´; FR: 20 X´; SatO₂: 94%; RC arrítmicos. EKG: fibrilación auricular. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Amiodarona",
+        "Digoxina",
+        "Verapamilo",
+        "Cardioversión eléctrica",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta un cuadro de fibrilación auricular con inestabilidad hemodinámica, evidenciada por hipotensión severa (PA: 70/30 mmHg). En estos casos, la primera línea de tratamiento es la cardioversión eléctrica sincronizada, ya que permite restaurar rápidamente el ritmo sinusal y mejorar la perfusión tisular. Fármacos como la amiodarona o la digoxina pueden ser útiles en pacientes estables, pero en presencia de inestabilidad hemodinámica, la cardioversión eléctrica es el tratamiento de elección.",
+      "comentario": "El paciente presenta un cuadro de fibrilación auricular con inestabilidad hemodinámica, evidenciada por hipotensión severa (PA: 70/30 mmHg). En estos casos, la primera línea de tratamiento es la cardioversión eléctrica sincronizada, ya que permite restaurar rápidamente el ritmo sinusal y mejorar la perfusión tisular. Fármacos como la amiodarona o la digoxina pueden ser útiles en pacientes estables, pero en presencia de inestabilidad hemodinámica, la cardioversión eléctrica es el tratamiento de elección.",
+      "tema": "Fibrilación auricular inestable: cardioversión eléctrica",
+      "año": 2024
+    },
+    {
+      "id": "CAR-050",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 26 años, fumador, acude por dolor torácico retroesternal tipo opresivo, irradiado al borde superior del trapecio, que aumenta con la inspiración y disminuye en posición genupectoral. Examen: RC rítmicos, de baja intensidad y frote. EKG: Elevación del ST en DI, AVF, V1 y V2. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Angina inestable",
+        "Embolismo pulmonar",
+        "Disección aórtica",
+        "Pericarditis aguda",
+        "Prednisona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El diagnóstico más probable es pericarditis aguda. El dolor torácico en esta condición suele ser de tipo punzante, localizado en el área precordial, y puede irradiar hacia el cuello o trapecio, empeorando con la inspiración y mejorando con la posición genupectoral, lo que concuerda con los hallazgos del paciente. El frote pericárdico, que se escucha en el examen físico, es característico de esta condición. Además, los cambios electrocardiográficos descritos, con elevación del ST en derivaciones como DI, AVF, V1 y V2, son típicos de la pericarditis, que generalmente presenta un patrón de elevación difusa del ST en las derivaciones afectadas, sin ser completamente específico para una zona, lo que la diferencia de un infarto de miocardio. Angina inestable no presenta características posicionales ni un frote pericárdico y suele ir acompañada de una elevación del ST en derivaciones específicas que corresponden a áreas del miocardio isquémico, no difusas. En el embolia pulmonar, el dolor pleurítico y la disnea suelen predominar, con cambios en el EKG que incluyen bloqueo de rama derecha o cambios en la onda T, no un patrón difuso de elevación del ST. Finalmente, la disección aórtica se caracteriza por un dolor torácico desgarrante, abrupto y de inicio súbito, asociado con diferencias en los pulsos o signos de shock, que no se observan en este caso, y no presenta cambios difusos en el EKG.",
+      "comentario": "El diagnóstico más probable es pericarditis aguda. El dolor torácico en esta condición suele ser de tipo punzante, localizado en el área precordial, y puede irradiar hacia el cuello o trapecio, empeorando con la inspiración y mejorando con la posición genupectoral, lo que concuerda con los hallazgos del paciente. El frote pericárdico, que se escucha en el examen físico, es característico de esta condición. Además, los cambios electrocardiográficos descritos, con elevación del ST en derivaciones como DI, AVF, V1 y V2, son típicos de la pericarditis, que generalmente presenta un patrón de elevación difusa del ST en las derivaciones afectadas, sin ser completamente específico para una zona, lo que la diferencia de un infarto de miocardio. Angina inestable no presenta características posicionales ni un frote pericárdico y suele ir acompañada de una elevación del ST en derivaciones específicas que corresponden a áreas del miocardio isquémico, no difusas. En el embolia pulmonar, el dolor pleurítico y la disnea suelen predominar, con cambios en el EKG que incluyen bloqueo de rama derecha o cambios en la onda T, no un patrón difuso de elevación del ST. Finalmente, la disección aórtica se caracteriza por un dolor torácico desgarrante, abrupto y de inicio súbito, asociado con diferencias en los pulsos o signos de shock, que no se observan en este caso, y no presenta cambios difusos en el EKG.",
+      "tema": "Pericarditis aguda",
+      "año": 2024
+    },
+    {
+      "id": "CAR-051",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 54 años, acude a control por hipertensión. Hace un mes comenzó a tomar losartan e hidroclorotiazida en dosis adecuadas con buena adherencia terapéutica y a la dieta hiposódica. No tiene otros problemas médicos. El ECG previo, perfil metabólico completo y análisis de orina fueron normales. Examen: PA 150/90 mmHg; FC 70 X', resto del examen normal. Lab.: creatinina sérica 0,8 mg/dL y potasio sérico 3,6 mEq/L ¿Cuál es el tratamiento adicional más adecuado?",
+      "opciones": [
+        "Amlodipino",
+        "Aliskiren",
+        "Clortalidona",
+        "Hidralazina",
+        "Amoxicilina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente mujer con hipertensión arterial persistente (PA 150/90 mmHg) pese a tratamiento con losartán + hidroclorotiazida en dosis adecuadas. No hay evidencia de daño de órgano blanco ni comorbilidades. Ante el control subóptimo, corresponde añadir un tercer fármaco. La mejor opción en este contexto es un calcioantagonista tipo dihidropiridínico como amlodipino, que tiene buena eficacia y perfil de seguridad en combinación con ARA II y diurético. Clortalidona no sería útil si ya se usa un tiazídico. Aliskiren no es de primera línea por riesgo de hiperkalemia. Hidralazina se reserva para crisis o casos específicos. Por tanto, el tratamiento adicional más adecuado es amlodipino.",
+      "comentario": "Paciente mujer con hipertensión arterial persistente (PA 150/90 mmHg) pese a tratamiento con losartán + hidroclorotiazida en dosis adecuadas. No hay evidencia de daño de órgano blanco ni comorbilidades. Ante el control subóptimo, corresponde añadir un tercer fármaco. La mejor opción en este contexto es un calcioantagonista tipo dihidropiridínico como amlodipino, que tiene buena eficacia y perfil de seguridad en combinación con ARA II y diurético. Clortalidona no sería útil si ya se usa un tiazídico. Aliskiren no es de primera línea por riesgo de hiperkalemia. Hidralazina se reserva para crisis o casos específicos. Por tanto, el tratamiento adicional más adecuado es amlodipino.",
+      "tema": "Hipertensión no controlada con ARA II y tiazida: añadir amlodipino",
+      "año": 2025
+    },
+    {
+      "id": "CAR-052",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 56 años, con antecedente de hipertensión arterial desde hace 10 años en tratamiento irregular, presenta disnea progresiva, tos rosada y diaforesis. Examen: PA 195/105 mmHg, FR 28 x', cianosis distal, crepitantes difusos bilaterales. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Edema agudo de pulmón",
+        "Shock cardiogénico",
+        "Tromboembolia pulmonar",
+        "Neumonía atípica",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente hipertensa crónica, con tratamiento irregular, que presenta disnea súbita, tos rosada, crepitantes difusos y presión arterial muy elevada, cuadro clínico compatible con edema agudo de pulmón (EAP) cardiogénico secundario a crisis hipertensiva. La fisiopatología involucra aumento abrupto de la presión capilar pulmonar por disfunción ventricular izquierda, lo que genera extravasación de líquido hacia los alvéolos, originando disnea, hipoxemia y expectoración rosada. El manejo incluye oxigenoterapia, diuréticos (furosemida), vasodilatadores (nitroglicerina) y control de la presión arterial. Es una urgencia médica con alta mortalidad si no se trata precozmente.",
+      "comentario": "Paciente hipertensa crónica, con tratamiento irregular, que presenta disnea súbita, tos rosada, crepitantes difusos y presión arterial muy elevada, cuadro clínico compatible con edema agudo de pulmón (EAP) cardiogénico secundario a crisis hipertensiva. La fisiopatología involucra aumento abrupto de la presión capilar pulmonar por disfunción ventricular izquierda, lo que genera extravasación de líquido hacia los alvéolos, originando disnea, hipoxemia y expectoración rosada. El manejo incluye oxigenoterapia, diuréticos (furosemida), vasodilatadores (nitroglicerina) y control de la presión arterial. Es una urgencia médica con alta mortalidad si no se trata precozmente.",
+      "tema": "Edema agudo de pulmón hipertensivo",
+      "año": 2025
+    },
+    {
+      "id": "CAR-053",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón 56 años con cardiópata coronario y diabético se realiza un perfil lipídico que muestra los siguientes valores: Colesterol total: 224 mg/dl, Colesterol LDL: 120 mg/dl, HDL: 35 mg/dl, triglicéridos: 245 mg/dl. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Estatina",
+        "Fibrato",
+        "Inhibidores del PCSK9",
+        "Ezetimiba",
+        "Tramadol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En pacientes con riesgo cardiovascular alto (diabético + cardiópata), la prioridad es reducir el LDL, incluso si no es muy elevado. Las estatinas son el tratamiento de elección porque reducen el riesgo cardiovascular global. Aunque los triglicéridos están elevados, el LDL aún es el objetivo primario. Los fibratos pueden añadirse si los TG > 500 mg/dl.",
+      "comentario": "En pacientes con riesgo cardiovascular alto (diabético + cardiópata), la prioridad es reducir el LDL, incluso si no es muy elevado. Las estatinas son el tratamiento de elección porque reducen el riesgo cardiovascular global. Aunque los triglicéridos están elevados, el LDL aún es el objetivo primario. Los fibratos pueden añadirse si los TG > 500 mg/dl.",
+      "tema": "Diabético coronario con dislipidemia: estatina",
+      "año": 2020
+    },
+    {
+      "id": "CAR-054",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 28 años acude para evaluación de riesgo quirúrgico de cirugía programada. Al examen: PA: 200/135 mmHg en miembros superiores, FC 60 x’. regular. Soplo sistólico en mesocardio irradiado a espalda II/VI. Pulso femoral pequeño. ¿Cuál es su probable diagnóstico?",
+      "opciones": [
+        "Coartación de aorta",
+        "Estenosis aórtica",
+        "Estenosis mitral",
+        "Enfermedad de Takayasu",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La coartación de aorta es una causa congénita de hipertensión arterial en jóvenes. Se caracteriza por presión arterial elevada en los miembros superiores, pulsos femorales débiles o ausentes y soplo sistólico irradiado hacia la espalda. Estos hallazgos clínicos son clave para su diagnóstico. La estenosis aórtica y mitral no generan este patrón de distribución de presión. La enfermedad de Takayasu puede simularlo, pero suele afectar mujeres jóvenes y s e presenta con claudicación o ausencia de pulsos más generalizada.",
+      "comentario": "La coartación de aorta es una causa congénita de hipertensión arterial en jóvenes. Se caracteriza por presión arterial elevada en los miembros superiores, pulsos femorales débiles o ausentes y soplo sistólico irradiado hacia la espalda. Estos hallazgos clínicos son clave para su diagnóstico. La estenosis aórtica y mitral no generan este patrón de distribución de presión. La enfermedad de Takayasu puede simularlo, pero suele afectar mujeres jóvenes y s e presenta con claudicación o ausencia de pulsos más generalizada.",
+      "tema": "Coartación de aorta en el adulto joven",
+      "año": 2020
+    },
+    {
+      "id": "CAR-055",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 62 años, hipertenso controlado con captopril y amlodipino. Cursa con tos seca intermitente. Evaluado por neumología y otorrinolaringología sin hallazgos contributarios. La conducta apropiada a seguir es:",
+      "opciones": [
+        "Agregar acetilcisteína",
+        "Retirar captopril",
+        "Retirar amlodipino",
+        "Agregar codeína",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El captopril, inhibidor de la enzima convertidora de angiotensina (IECA), es conocido por inducir tos seca en una proporción importante de pacientes, debido al aumento de bradicininas en el árbol bronquial. Esta tos puede ser persistente y no mejora con antitusígenos ni mucolíticos. Si la evaluación neumológica y ORL no identifica otra causa, la conducta más adecuada es suspender el IECA y cambiarlo por un ARA-II. Amlodipino no suele causar este tipo de tos.",
+      "comentario": "El captopril, inhibidor de la enzima convertidora de angiotensina (IECA), es conocido por inducir tos seca en una proporción importante de pacientes, debido al aumento de bradicininas en el árbol bronquial. Esta tos puede ser persistente y no mejora con antitusígenos ni mucolíticos. Si la evaluación neumológica y ORL no identifica otra causa, la conducta más adecuada es suspender el IECA y cambiarlo por un ARA-II. Amlodipino no suele causar este tipo de tos.",
+      "tema": "Tos por IECA: retirar captopril",
+      "año": 2020
+    },
+    {
+      "id": "CAR-056",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años, con fiebre de 02 meses de evolución, baja de peso, que ingresa al servicio de emergencia por déficit motor agudo de hemicuerpo izquierdo. Antecedente de fiebre reumática en la infancia. Al examen: Ruidos cardiacos rítmicos, soplo de sistólico irradiado a la axila. Ecocardiograma: soplo de regurgitación mitral. ¿Cuál es la causa más probable del daño neurológico?",
+      "opciones": [
+        "Síndrome antifosfolipídico",
+        "Fiebre reumática",
+        "Fibrilación auricular",
+        "Endocarditis infecciosa",
+        "Cirrosis hepática"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta fiebre prolongada, soplo mitral y un evento neurológico agudo (déficit motor súbito), lo que es altamente sugestivo de una endocarditis infecciosa con embolización cerebral. El antecedente de fiebre reumática sugiere una valvulopatía previa, predisponente para endocarditis. El ecocardiograma revela insuficiencia mitral, hallazgo común en este contexto. La fiebre reumática en sí misma no causa eventos embólicos, y la fibrilación auricular, aunque embolígena, no ha sido documentada en el caso.",
+      "comentario": "El paciente presenta fiebre prolongada, soplo mitral y un evento neurológico agudo (déficit motor súbito), lo que es altamente sugestivo de una endocarditis infecciosa con embolización cerebral. El antecedente de fiebre reumática sugiere una valvulopatía previa, predisponente para endocarditis. El ecocardiograma revela insuficiencia mitral, hallazgo común en este contexto. La fiebre reumática en sí misma no causa eventos embólicos, y la fibrilación auricular, aunque embolígena, no ha sido documentada en el caso.",
+      "tema": "Endocarditis con embolia cerebral",
+      "año": 2020
+    },
+    {
+      "id": "CAR-057",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Usted se encuentra ejecutando maniobras de RCP y observa en el monitor cardíaco ritmo de fibrilación ventricular. ¿Cuál procedimiento es el indicado?",
+      "opciones": [
+        "Desfibrilación y continúa con maniobras de RCP",
+        "Masaje cardíaco y espera ver resultados en el monitor",
+        "Continúa con masaje cardíaco y administra lidocaína",
+        "Administra adrenalina y lidocaína",
+        "Dexametasona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En presencia de fibrilación ventricular durante maniobras de RCP, la desfibrilación eléctrica inmediata es el procedimiento indicado para restaurar el ritmo cardíaco efectivo. El masaje cardíaco debe continuar tras la descarga para mantener la perfusión hasta la recuperación del ritmo. Esperar resultados sin desfibrilar o usar solo medicamentos es ineficaz en fibrilación ventricular. Lidocaína puede usarse como antiarrítmico posterior, pero no sustituye la desfibrilación en la fase inicial. Adrenalina se administra según protocolo, pero no antes de desfibrilar.",
+      "comentario": "En presencia de fibrilación ventricular durante maniobras de RCP, la desfibrilación eléctrica inmediata es el procedimiento indicado para restaurar el ritmo cardíaco efectivo. El masaje cardíaco debe continuar tras la descarga para mantener la perfusión hasta la recuperación del ritmo. Esperar resultados sin desfibrilar o usar solo medicamentos es ineficaz en fibrilación ventricular. Lidocaína puede usarse como antiarrítmico posterior, pero no sustituye la desfibrilación en la fase inicial. Adrenalina se administra según protocolo, pero no antes de desfibrilar.",
+      "tema": "Fibrilación ventricular: desfibrilar y seguir la RCP",
+      "año": 2021
+    },
+    {
+      "id": "CAR-058",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Obeso de 50 años, súbitamente disnea, dolor torácico y sensación de desvanecimiento. Al examen: PA: 70/40 mmHg, SatO₂: 85 %, FC:120 x´, FR: 28 x´, diaforesis, crepitantes bibasales. EKG: elevación de ST desde V2 a V6. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "TEP Masivo",
+        "Shock cardiogénico",
+        "Taponamiento cardíaco",
+        "Neumotórax a tensión",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón obeso con disnea súbita, hipotensión y dolor torácico tiene un cuadro de emergencia cardiovascular. El EKG con elevación del ST en derivaciones precordiales (V2-V6) sugiere infarto extenso anterior. La clínica de disnea, SatO₂ baja y signos de bajo gasto indican que ha evolucionado a shock cardiogénico. Este tipo de shock es consecuencia de falla de bomba por necrosis miocárdica extensa. El diagnóstico diferencial incluye TEP masivo, pero la elevación del ST es atípica en TEP. El taponamiento cardiaco cursa con pulso paradójico y sil enciamiento de ruidos, no con ST elevado. El neumotórax a tensión presenta desviación traqueal y abolición de murmullo, no se describe en este caso. La causa más probable y letal aquí es infarto con shock cardiogénico. El manejo requiere soporte hemodinámico y reperfusión urgente.",
+      "comentario": "Varón obeso con disnea súbita, hipotensión y dolor torácico tiene un cuadro de emergencia cardiovascular. El EKG con elevación del ST en derivaciones precordiales (V2-V6) sugiere infarto extenso anterior. La clínica de disnea, SatO₂ baja y signos de bajo gasto indican que ha evolucionado a shock cardiogénico. Este tipo de shock es consecuencia de falla de bomba por necrosis miocárdica extensa. El diagnóstico diferencial incluye TEP masivo, pero la elevación del ST es atípica en TEP. El taponamiento cardiaco cursa con pulso paradójico y sil enciamiento de ruidos, no con ST elevado. El neumotórax a tensión presenta desviación traqueal y abolición de murmullo, no se describe en este caso. La causa más probable y letal aquí es infarto con shock cardiogénico. El manejo requiere soporte hemodinámico y reperfusión urgente.",
+      "tema": "Infarto anterior extenso con shock cardiogénico",
+      "año": 2021
+    },
+    {
+      "id": "CAR-059",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 65 años, consulta por disnea a pequeños esfuerzos, edema de miembros inferiores, ortopnea y palpitaciones. Al examen: PA: 130/75 mmHg, FC: 106 x´, FR: 24 x´, edema de miembros inferiores con fovea 4+ y crepitantes dos tercios inferiores de ambos campos pulmonares. ¿Cuál sería la conducta terapéutica inicial?",
+      "opciones": [
+        "Espironolactona",
+        "Beta bloqueadores",
+        "Ácido acetilsalicílico",
+        "Furosemida",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer adulta mayor con disnea a pequeños esfuerzos, ortopnea, edema y crepitantes pulmonares presenta insuficiencia cardíaca descompensada. El tratamiento inicial en estos casos debe enfocarse en aliviar la sobrecarga de volumen. La furosemida es el diurético de elección por su acción rápida en disminuir la congestión pulmonar y el edema periférico. El uso de betabloqueadores está indicado en fase estable, no en descompensación aguda. La espironolactona es útil como terapia de mantenimiento, pero no resuelve la congestión aguda. El ácido acetilsalicílico no tiene rol primario en la descompensación cardíaca. En el examen se evidencia edema grado 4+ y crepitantes en dos tercios inferiores, lo cual indica congestión severa. El control del volumen intravascular mejora la sintomatología y estabiliza al paciente. Posteriormente se puede iniciar manejo con otros fármacos cardioprotectores.",
+      "comentario": "Mujer adulta mayor con disnea a pequeños esfuerzos, ortopnea, edema y crepitantes pulmonares presenta insuficiencia cardíaca descompensada. El tratamiento inicial en estos casos debe enfocarse en aliviar la sobrecarga de volumen. La furosemida es el diurético de elección por su acción rápida en disminuir la congestión pulmonar y el edema periférico. El uso de betabloqueadores está indicado en fase estable, no en descompensación aguda. La espironolactona es útil como terapia de mantenimiento, pero no resuelve la congestión aguda. El ácido acetilsalicílico no tiene rol primario en la descompensación cardíaca. En el examen se evidencia edema grado 4+ y crepitantes en dos tercios inferiores, lo cual indica congestión severa. El control del volumen intravascular mejora la sintomatología y estabiliza al paciente. Posteriormente se puede iniciar manejo con otros fármacos cardioprotectores.",
+      "tema": "Insuficiencia cardiaca descompensada: furosemida",
+      "año": 2021
+    },
+    {
+      "id": "CAR-060",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 64 años, funcionario responsable del Plan Nacional de vacunación para COVID. Acude a emergencia refiriendo dolor retroesternal con antecedente de 3 episodios de dolor opresivo en el pecho en el último año. Al examen: orientado, lúcido. Se abre vía periférica y se administra oxígeno a razón de 5 litros por minuto, súbitamente pierde la conciencia y cesa la respiración. Se inicia soporte básico vital sin recuperar signos vitales. ¿Cuál es el inmediato siguiente accionar?",
+      "opciones": [
+        "Monitor desfibrilador",
+        "Intubación orotraqueal",
+        "Cristaloides a chorro",
+        "Adrenalina en bolo",
+        "Atropina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente varón de 64 años con antecedentes sugerentes de angina inestable (dolor opresivo retroesternal en episodios previos), que presenta paro cardiorrespiratorio súbito en contexto hospitalario tras recibir oxigenoterapia. El manejo inicial adecuado ya fue iniciado: soporte básico vital, pero al no haber recuperación de signos vitales, el paso siguiente e inmediato es la colocación del monitor desfibrilador. Esto permitirá identificar el ritmo cardiaco (fibrilación ventricular, taquicardia ventricular sin pulso, asistolia o actividad eléctrica sin pulso), lo cual dirige la conducta específica de RCP avanzada. El uso de medicamentos o maniobras invasivas como intubación se define después de saber si el ritmo es desfibrilable o no. Por tanto, el monitor desfibrilador es esencial y prioritario en el algoritmo de paro cardiorrespiratorio.",
+      "comentario": "Paciente varón de 64 años con antecedentes sugerentes de angina inestable (dolor opresivo retroesternal en episodios previos), que presenta paro cardiorrespiratorio súbito en contexto hospitalario tras recibir oxigenoterapia. El manejo inicial adecuado ya fue iniciado: soporte básico vital, pero al no haber recuperación de signos vitales, el paso siguiente e inmediato es la colocación del monitor desfibrilador. Esto permitirá identificar el ritmo cardiaco (fibrilación ventricular, taquicardia ventricular sin pulso, asistolia o actividad eléctrica sin pulso), lo cual dirige la conducta específica de RCP avanzada. El uso de medicamentos o maniobras invasivas como intubación se define después de saber si el ritmo es desfibrilable o no. Por tanto, el monitor desfibrilador es esencial y prioritario en el algoritmo de paro cardiorrespiratorio.",
+      "tema": "Paro cardiaco intrahospitalario: monitor desfibrilador",
+      "año": 2021
+    },
+    {
+      "id": "CAR-061",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de muerte por infarto agudo de miocardio antes de que el paciente llegue al hospital?",
+      "opciones": [
+        "Fibrilación ventricular",
+        "Shock cardiogénico",
+        "Rotura cardiaca",
+        "Infarto del ventrículo derecho",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En pacientes con infarto agudo de miocardio (IAM), la principal causa de muerte antes de llegar al hospital es la fibrilación ventricular, una arritmia letal que provoca cese súbito de la actividad eléctrica coordinada del corazón, con pérdida del gasto cardíaco y paro en minutos si no se desfibrila. El shock cardiogénico es causa de muerte más tardía, tras daño extenso; la rotura cardiaca es catastrófica, pero menos frecuente en fase prehospitalaria; y el infarto del ventrículo derecho suele cursar con bradicardia e hipotensión, pero no es la causa más común de muerte súbita. Por tanto, el mecanismo más frecuente es la fibrilación ventricular.",
+      "comentario": "En pacientes con infarto agudo de miocardio (IAM), la principal causa de muerte antes de llegar al hospital es la fibrilación ventricular, una arritmia letal que provoca cese súbito de la actividad eléctrica coordinada del corazón, con pérdida del gasto cardíaco y paro en minutos si no se desfibrila. El shock cardiogénico es causa de muerte más tardía, tras daño extenso; la rotura cardiaca es catastrófica, pero menos frecuente en fase prehospitalaria; y el infarto del ventrículo derecho suele cursar con bradicardia e hipotensión, pero no es la causa más común de muerte súbita. Por tanto, el mecanismo más frecuente es la fibrilación ventricular.",
+      "tema": "Muerte prehospitalaria por infarto: fibrilación ventricular",
+      "año": 2021
+    },
+    {
+      "id": "CAR-062",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 40 años es traído por familiares a Emergencia e ingresa a Trauma Shock, por dificultad respiratoria progresiva. Usted observa que el paciente deja de respirar, no responde al llamado y no hay pulso carotídeo. ¿Cuál es el primer paso de actuación?",
+      "opciones": [
+        "Interconsulta a cardiología",
+        "Desfibrilación inmediata",
+        "Intubación orotraqueal",
+        "Compresión cardiaca",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente se encuentra en paro cardiorrespiratorio, evidenciado por la ausencia de respuesta, falta de respiración y de pulso carotídeo. Ante esta situación crítica, el primer paso en la reanimación cardiopulmonar es iniciar compresiones torácicas de alta calidad, de forma inmediata. Esta es la base de la cadena de supervivencia y debe realizarse antes de considerar desfibrilación, vía aérea o administración de fármacos. Las compresiones mantienen la perfusión cerebral y miocárdica hasta que se pueda revertir la causa del paro. Intubar o derivar al especialista no tiene prioridad en esta fase.",
+      "comentario": "El paciente se encuentra en paro cardiorrespiratorio, evidenciado por la ausencia de respuesta, falta de respiración y de pulso carotídeo. Ante esta situación crítica, el primer paso en la reanimación cardiopulmonar es iniciar compresiones torácicas de alta calidad, de forma inmediata. Esta es la base de la cadena de supervivencia y debe realizarse antes de considerar desfibrilación, vía aérea o administración de fármacos. Las compresiones mantienen la perfusión cerebral y miocárdica hasta que se pueda revertir la causa del paro. Intubar o derivar al especialista no tiene prioridad en esta fase.",
+      "tema": "Paro cardiorrespiratorio: compresiones torácicas",
+      "año": 2021
+    },
+    {
+      "id": "CAR-063",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 60 años, consulta por dolor torácico, episodios fugaces de pérdida de conocimiento al esfuerzo y disnea. Examen: pulso parvus, choque de punta por fuera de la línea media clavicular izquierda y soplo sistólico eyectivo en región paraesternal izquierda. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Estenosis mitral",
+        "Insuficiencia aórtica",
+        "Insuficiencia mitral",
+        "Estenosis aórtica",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón de 60 años con síntomas cardinales de estenosis aórtica severa: disnea de esfuerzo, síncope y angina. El pulso parvus y tardus indica disminución del flujo sistólico. El desplazamiento del choque de punta sugiere hipertrofia ventricular izquierda, consecuencia de la sobrecarga de presión. El soplo sistólico eyectivo irradiado al cuello es típico de esta condición. Las demás valvulopatías no generan este patrón hemodinámico ni clínico. Estenosis mitral, por ejemplo, se presenta con soplo diastólico y signos de congestión pulmonar.",
+      "comentario": "Varón de 60 años con síntomas cardinales de estenosis aórtica severa: disnea de esfuerzo, síncope y angina. El pulso parvus y tardus indica disminución del flujo sistólico. El desplazamiento del choque de punta sugiere hipertrofia ventricular izquierda, consecuencia de la sobrecarga de presión. El soplo sistólico eyectivo irradiado al cuello es típico de esta condición. Las demás valvulopatías no generan este patrón hemodinámico ni clínico. Estenosis mitral, por ejemplo, se presenta con soplo diastólico y signos de congestión pulmonar.",
+      "tema": "Estenosis aórtica: angina, síncope y disnea",
+      "año": 2022
+    },
+    {
+      "id": "CAR-064",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 58 años, monitorizada en Shock Trauma por IMA ST no elevado en evolución. Durante el examen presenta pérdida súbita de conciencia; en el monitor se visualiza asistolia. ¿Cuál es el primer paso a ejecutar?",
+      "opciones": [
+        "Realizar descarga eléctrica",
+        "Administrar adrenalina",
+        "Golpe precordial",
+        "Intubación endotraqueal",
+        "Ceftriaxona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con infarto agudo de miocardio en evolución que súbitamente presenta pérdida de conciencia. El monitor evidencia asistolia, es decir, una ausencia completa de actividad eléctrica cardíaca. La primera acción en este contexto no es la desfibrilación (ya que no hay ritmo desfibrilable), sino la administración inmediata de adrenalina 1 mg cada 3–5 minutos, mientras se continúa la reanimación cardiopulmonar. El golpe precordial no está indicado en asistolia. La intubación puede considerarse posteriormente para asegurar vía aérea, pero no es la primera medida. La adrenalina busca restaurar actividad eléctrica y perfusión en este ritmo no desfibrilable.",
+      "comentario": "Paciente con infarto agudo de miocardio en evolución que súbitamente presenta pérdida de conciencia. El monitor evidencia asistolia, es decir, una ausencia completa de actividad eléctrica cardíaca. La primera acción en este contexto no es la desfibrilación (ya que no hay ritmo desfibrilable), sino la administración inmediata de adrenalina 1 mg cada 3–5 minutos, mientras se continúa la reanimación cardiopulmonar. El golpe precordial no está indicado en asistolia. La intubación puede considerarse posteriormente para asegurar vía aérea, pero no es la primera medida. La adrenalina busca restaurar actividad eléctrica y perfusión en este ritmo no desfibrilable.",
+      "tema": "Asistolia: adrenalina y RCP",
+      "año": 2022
+    },
+    {
+      "id": "CAR-065",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál es el examen de laboratorio que ayuda a valorar la condición de hipoperfusión tisular (shock)?",
+      "opciones": [
+        "Lactato sérico",
+        "Interleukina",
+        "Procalcitonina",
+        "Proteína C reactiva",
+        "Diazepam"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El lactato sérico es el examen de laboratorio más útil para valorar la condición de hipoperfusión tisular, como en el caso de un shock. El lactato se produce en situaciones de metabolismo anaeróbico, lo cual ocurre cuando los tejidos no reciben suficiente oxígeno debido a una disminución del flujo sanguíneo. Un aumento en los niveles de lactato es indicativo de hipoxia tisular y, por lo tanto, de una perfusión inadecuada. Este marcador es clave en la evaluación y el monitoreo de pacientes en shock, ya que su concentración elevada está directamente relacionada con la gravedad de la hipoperfusión. Los otros marcadores mencionados, como la interleukina, procalcitonina y proteína C reactiva, son más útiles para evaluar procesos inflamatorios o infecciosos, pero no son específicos para valorar la hipoperfusión.",
+      "comentario": "El lactato sérico es el examen de laboratorio más útil para valorar la condición de hipoperfusión tisular, como en el caso de un shock. El lactato se produce en situaciones de metabolismo anaeróbico, lo cual ocurre cuando los tejidos no reciben suficiente oxígeno debido a una disminución del flujo sanguíneo. Un aumento en los niveles de lactato es indicativo de hipoxia tisular y, por lo tanto, de una perfusión inadecuada. Este marcador es clave en la evaluación y el monitoreo de pacientes en shock, ya que su concentración elevada está directamente relacionada con la gravedad de la hipoperfusión. Los otros marcadores mencionados, como la interleukina, procalcitonina y proteína C reactiva, son más útiles para evaluar procesos inflamatorios o infecciosos, pero no son específicos para valorar la hipoperfusión.",
+      "tema": "Hipoperfusión tisular: lactato sérico",
+      "año": 2023
+    },
+    {
+      "id": "CAR-066",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 71 años cae repentinamente al piso. Usted inicia compresiones torácicas mientras alguien contacta a la ambulancia. Al llegar el personal paramédico, se conecta un DEA a la paciente, observando actividad en el EKG; sin embargo, usted determina que el ritmo no es desfibrilable. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Actividad eléctrica sin pulso",
+        "Asistolia",
+        "Fibrilación ventricular",
+        "Taquicardia ventricular sin pulso",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Si se inician compresiones torácicas a esta paciente que cae repentinamente al piso, entonces tenemos a una paciente que no tiene pulso y está en paro cardiorrespiratorio. Al conectarla al DEA se observa que hay actividad eléctrica pero el ritmo no es desfibrilable. En ese sentido, el diagnóstico más probable es actividad eléctrica sin pulso (AESP) (Opción A). La actividad eléctrica sin pulso se refiere a la presencia de actividad eléctrica detectable en el electrocardiograma (EKG) sin evidencia de pulso detectable en la arteria carótida o periférica. Esto significa que aunque el corazón está generando actividad eléctrica, no está generando suficiente fuerza para producir un pulso palpable. La AESP es una causa común de paro cardíaco y requiere intervención inmediata con resucitación cardiopulmonar (RCP) y administración de medicamentos para tratar la causa subyacente.",
+      "comentario": "Si se inician compresiones torácicas a esta paciente que cae repentinamente al piso, entonces tenemos a una paciente que no tiene pulso y está en paro cardiorrespiratorio. Al conectarla al DEA se observa que hay actividad eléctrica pero el ritmo no es desfibrilable. En ese sentido, el diagnóstico más probable es actividad eléctrica sin pulso (AESP) (Opción A). La actividad eléctrica sin pulso se refiere a la presencia de actividad eléctrica detectable en el electrocardiograma (EKG) sin evidencia de pulso detectable en la arteria carótida o periférica. Esto significa que aunque el corazón está generando actividad eléctrica, no está generando suficiente fuerza para producir un pulso palpable. La AESP es una causa común de paro cardíaco y requiere intervención inmediata con resucitación cardiopulmonar (RCP) y administración de medicamentos para tratar la causa subyacente.",
+      "tema": "Ritmo no desfibrilable con actividad eléctrica: AESP",
+      "año": 2023
+    },
+    {
+      "id": "CAR-067",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 50 años, ingresa a trauma shock por dolor torácico. Usted observa que el paciente deja de respirar, no responde al llamado y no hay pulso carotideo e inicia inmediatamente RCP. ¿Qué características deben tener las compresiones torácicas para ser de calidad?",
+      "opciones": [
+        "4 cm de profundidad, 100 a 120 compresiones por minuto",
+        "6 cm de profundidad, 80 a 90 compresiones por minuto",
+        "5 cm de profundidad, 80 a 100 compresiones por minuto",
+        "5 cm de profundidad, 100 a 120 compresiones por minuto",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Para un paciente que deja de respirar, no responde al llamado y no tiene pulso carotídeo, la reanimación cardiopulmonar (RCP) de alta calidad es crucial. Las compresiones torácicas efectivas son esenciales para mantener la circulación y aumentar las posibilidades de supervivencia. Las compresiones torácicas de calidad deben tener una profundidad de al menos 5 cm (pero no más de 6 cm) y una frecuencia de 100 a 120 compresiones por minuto (Alternati va D). Esta combinación asegura que se genere una presión suficiente para mantener la circulación y oxigenación de los órganos vitales durante la RCP.",
+      "comentario": "Para un paciente que deja de respirar, no responde al llamado y no tiene pulso carotídeo, la reanimación cardiopulmonar (RCP) de alta calidad es crucial. Las compresiones torácicas efectivas son esenciales para mantener la circulación y aumentar las posibilidades de supervivencia. Las compresiones torácicas de calidad deben tener una profundidad de al menos 5 cm (pero no más de 6 cm) y una frecuencia de 100 a 120 compresiones por minuto (Alternati va D). Esta combinación asegura que se genere una presión suficiente para mantener la circulación y oxigenación de los órganos vitales durante la RCP.",
+      "tema": "RCP de calidad: 5 cm y 100-120 por minuto",
+      "año": 2024
+    },
+    {
+      "id": "CAR-068",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 58 años, presenta desde hace 2 horas dolor precordial con irradiación a mandíbula, diaforesis profusa, palidez y malestar general. Examen: FC: 101 X', PA: 100/70 mmHg, FR: 22 X', EKG: ST elevado en derivaciones DII, DIII y aVF. Aumento de troponinas y enzimas CPKMB. ¿Cuál es la localización de la lesión?",
+      "opciones": [
+        "Anterolateral",
+        "Anteroseptal",
+        "Anteroapical",
+        "Cara inferior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta dolor precordial irradiado a mandíbula, asociado a diaforesis, palidez y malestar general, síntomas típicos de un infarto de miocardio. El EKG muestra elevación del ST en las derivaciones DII, DIII y aVF, que corresponden a la cara inferior del corazón. Además, el aumento de las troponinas y enzimas CPKMB confirma el diagnóstico de infarto. Estas derivaciones están principalmente relacionadas con la pared inferior del ventrículo izquierdo, lo que indica que la lesión está en esta zona.",
+      "comentario": "El paciente presenta dolor precordial irradiado a mandíbula, asociado a diaforesis, palidez y malestar general, síntomas típicos de un infarto de miocardio. El EKG muestra elevación del ST en las derivaciones DII, DIII y aVF, que corresponden a la cara inferior del corazón. Además, el aumento de las troponinas y enzimas CPKMB confirma el diagnóstico de infarto. Estas derivaciones están principalmente relacionadas con la pared inferior del ventrículo izquierdo, lo que indica que la lesión está en esta zona.",
+      "tema": "Infarto de cara inferior: DII, DIII y aVF",
+      "año": 2024
+    },
+    {
+      "id": "CAR-069",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón 65 años, desde hace 3 meses presenta fatiga, disnea de esfuerzo y edema en miembros inferiores que ha progresado. Antecedente: HTA y DM2. Examen: yugulares ingurgitadas, hepatomegalia dolorosa a la palpación y edema con fóvea en ambos tobillos. RX de tórax: cardiomegalia y edema pulmonar intersticial. Ecocardiografía: fracción de eyección del ventrículo izquierdo (FEVI) del 35%. ¿Cuál es el tratamiento que disminuye mortalidad?",
+      "opciones": [
+        "IECA",
+        "Diuréticos de asa",
+        "Anticoagulantes",
+        "Digitálicos",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta insuficiencia cardíaca con fracción de eyección reducida (IC-FEr), evidenciada por síntomas de congestión (ingurgitación yugular, hepatomegalia, edema) y una FEVI del 35%. En este contexto, los inhibidores de la enzima convertidora de angiotensina (IECA) han demostrado reducir la mortalidad y mejorar el pronóstico al disminuir la poscarga y la remodelación ventricular. Los diuréticos de asa pueden aliviar los síntomas al reducir la sobrecarga de volumen, pero no modifican la mortalidad. Los anticoagulantes solo están indicados en casos de fibrilación auricular o trombos intracardíacos, y los digitálicos pueden ayudar en el control sintomático, pero no reducen la mortalidad.",
+      "comentario": "El paciente presenta insuficiencia cardíaca con fracción de eyección reducida (IC-FEr), evidenciada por síntomas de congestión (ingurgitación yugular, hepatomegalia, edema) y una FEVI del 35%. En este contexto, los inhibidores de la enzima convertidora de angiotensina (IECA) han demostrado reducir la mortalidad y mejorar el pronóstico al disminuir la poscarga y la remodelación ventricular. Los diuréticos de asa pueden aliviar los síntomas al reducir la sobrecarga de volumen, pero no modifican la mortalidad. Los anticoagulantes solo están indicados en casos de fibrilación auricular o trombos intracardíacos, y los digitálicos pueden ayudar en el control sintomático, pero no reducen la mortalidad.",
+      "tema": "Insuficiencia cardiaca con FEVI reducida: IECA",
+      "año": 2024
+    },
+    {
+      "id": "CAR-070",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 68 años, con antecedente de taquicardia supraventricular sin tratamiento, presenta episodio de palpitaciones. ¿Cuál es el fármaco que tiene efecto cronotrópico negativo?",
+      "opciones": [
+        "Dobutamina",
+        "Bisoprolol",
+        "Nifedipino",
+        "Dopamina",
+        "Furosemida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El bisoprolol es un betabloqueante selectivo que actúa reduciendo la frecuencia cardíaca (efecto cronotrópico negativo) y la contractilidad del corazón. Se utiliza en el manejo de taquiarritmias y en la prevención de episodios de taquicardia supraventricular. A diferencia de la dobutamina y la dopamina, que tienen efectos inotrópicos y cronotrópicos positivos, y el nifedipino, que es un calcioantagonista con predominante efecto vasodilatador, el bisoprolol disminuye la actividad del nodo sinoauricular, reduciendo la frecuencia de las palpitaciones.",
+      "comentario": "El bisoprolol es un betabloqueante selectivo que actúa reduciendo la frecuencia cardíaca (efecto cronotrópico negativo) y la contractilidad del corazón. Se utiliza en el manejo de taquiarritmias y en la prevención de episodios de taquicardia supraventricular. A diferencia de la dobutamina y la dopamina, que tienen efectos inotrópicos y cronotrópicos positivos, y el nifedipino, que es un calcioantagonista con predominante efecto vasodilatador, el bisoprolol disminuye la actividad del nodo sinoauricular, reduciendo la frecuencia de las palpitaciones.",
+      "tema": "Efecto cronotrópico negativo: betabloqueador",
+      "año": 2024
+    },
+    {
+      "id": "CAR-071",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 28 años llega a urgencias por dolor torácico, disconfort generalizado y mareos, refiere haber sido asaltado hace 2 horas y muestra una pequeña herida en el tórax. Examen: PA: 90/60 mmHg, FC: 110 X', FR: 24 X', SatO₂: 92%; alerta, ansioso, con signos de dificultad respiratoria; herida en precordio, sin sangrado, ni crepitaciones. RC rítmicos apagados, IY (+), MV presente en AHT, pulsos periféricos disminuidos. ¿Qué examen auxiliar confirmaría el diagnóstico?",
+      "opciones": [
+        "Electrocardiograma",
+        "Radiografía de tórax",
+        "Troponina I",
+        "Ecocardiograma",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta triada de Beck (hipotensión, ruidos cardiacos apagados e ingurgitación yugular), lo cual sugiere taponamiento cardíaco, una urgencia potencialmente letal secundaria a trauma penetrante torácico. El examen de elección para confirmar este diagnóstico es el ecocardiograma, ya que permite visualizar directamente la presencia de derrame pericárdico con compromiso hemodinámico. La radiografía de tórax puede ser normal, el ECG puede mostrar signos inespecíficos (como alternancia eléctrica) y las troponinas no confirman la causa del compromiso hemodinámico.",
+      "comentario": "El paciente presenta triada de Beck (hipotensión, ruidos cardiacos apagados e ingurgitación yugular), lo cual sugiere taponamiento cardíaco, una urgencia potencialmente letal secundaria a trauma penetrante torácico. El examen de elección para confirmar este diagnóstico es el ecocardiograma, ya que permite visualizar directamente la presencia de derrame pericárdico con compromiso hemodinámico. La radiografía de tórax puede ser normal, el ECG puede mostrar signos inespecíficos (como alternancia eléctrica) y las troponinas no confirman la causa del compromiso hemodinámico.",
+      "tema": "Taponamiento cardiaco: ecocardiograma",
+      "año": 2024
+    }
+  ]
+}

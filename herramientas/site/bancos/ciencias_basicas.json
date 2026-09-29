@@ -1,0 +1,1484 @@
+{
+  "especialidad": "Ciencias Básicas",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CB-001",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?",
+      "opciones": {
+        "A": "Fenilalanina hidroxilasa",
+        "B": "Homogentisato oxidasa",
+        "C": "Tirosinasa",
+        "D": "Cistationina β-sintasa",
+        "E": "Galactosa-1-fosfato uridiltransferasa"
+      },
+      "clave_correcta": "A",
+      "comentario": "Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."
+    },
+    {
+      "id": "CB-002",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 62 años con diabetes mellitus desde hace 4 años y dislipidemia mixta desde hace 2 años, tratado con metformina 1,000 mg, atorvastatina 20 mg/día y gemfibrozilo 600 mg/día junto con aspirina 100 mg/día. Refiere dolores musculares en miembros inferiores desde hace 2 meses, que le dificultan la marcha. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Mialgias por medicamentos",
+        "Artrosis de rodillas",
+        "Polineuropatía diabética",
+        "Gota aguda",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.",
+      "comentario": "La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.",
+      "tema": "Toxicidad farmacológica",
+      "año": 2020
+    },
+    {
+      "id": "CB-003",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años traída a emergencia luego de encontrarla inconsciente en su trabajo en un invernadero. Examen: miosis, sialorrea, sudoración, roncantes diseminados, bradicardia. ¿Cuál es el fármaco de elección en este caso?",
+      "opciones": [
+        "Salbutamol",
+        "Flumazenilo",
+        "Epinefrina",
+        "Atropina sulfato",
+        "Ceftriaxona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.",
+      "comentario": "El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.",
+      "tema": "Toxicología clínica",
+      "año": 2020
+    },
+    {
+      "id": "CB-004",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Indigente de 58 años, alcohólico, hallado confuso. Examen: lesiones en lengua, respiración rápida y profunda, amaurosis. Gases: pH 7.20, PCO2 32 mmHg. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Insuficiencia respiratoria",
+        "Intoxicación por alcohol metílico",
+        "Neumonía aspirativa",
+        "Estado postictal",
+        "Ciprofloxacino"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La tríada clásica de acidosis metabólica con anión gap elevado, respiración acidótica de Kussmaul y deterioro visual grave hasta la ceguera/amaurosis por toxicidad del ácido fórmico sobre el nervio óptico es diagnóstica de intoxicación por metanol.",
+      "comentario": "La tríada clásica de acidosis metabólica con anión gap elevado, respiración acidótica de Kussmaul y deterioro visual grave hasta la ceguera/amaurosis por toxicidad del ácido fórmico sobre el nervio óptico es diagnóstica de intoxicación por metanol.",
+      "tema": "Intoxicación por alcoholes tóxicos",
+      "año": 2020
+    },
+    {
+      "id": "CB-005",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 20 años en emergencia por dificultad respiratoria e hipotensión luego de recibir una dosis IM de penicilina, considerada como hipersensibilidad mediada por IgE. ¿Cuál es la célula directamente responsable de esta reacción?",
+      "opciones": [
+        "Macrófago",
+        "Célula plasmática",
+        "Linfocito T",
+        "Mastocito",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En la reacción de hipersensibilidad inmediata tipo I mediada por IgE (anafilaxia), los mastocitos y basófilos sensibilizados se degranulan tras la unión cruzada del antígeno con los receptores FcεRI, liberando mediadores vasoactivos como histamina y leucotrienos.",
+      "comentario": "En la reacción de hipersensibilidad inmediata tipo I mediada por IgE (anafilaxia), los mastocitos y basófilos sensibilizados se degranulan tras la unión cruzada del antígeno con los receptores FcεRI, liberando mediadores vasoactivos como histamina y leucotrienos.",
+      "tema": "Anafilaxia e hipersensibilidad",
+      "año": 2020
+    },
+    {
+      "id": "CB-006",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años traído a emergencia por cefalea y agitación psicomotriz. Examen PA: 140/110 mmHg. Resto del examen sin alteraciones. Antecedentes: consumidor de anfetaminas. ¿Cuál es el principal factor responsable de la elevación de la presión arterial?",
+      "opciones": [
+        "Disminución del gasto cardíaco",
+        "Incremento de fracción de eyección",
+        "Aumento de la resistencia periférica",
+        "Disminución de la frecuencia cardíaca",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las anfetaminas inducen un estímulo simpático masivo mediante la liberación de catecolaminas endógenas que activan potentemente los receptores alfa-1 adrenérgicos arteriolar periféricos, produciendo vasoconstricción sistémica y aumento de la resistencia vascular periférica.",
+      "comentario": "Las anfetaminas inducen un estímulo simpático masivo mediante la liberación de catecolaminas endógenas que activan potentemente los receptores alfa-1 adrenérgicos arteriolar periféricos, produciendo vasoconstricción sistémica y aumento de la resistencia vascular periférica.",
+      "tema": "Fisiología cardiovascular",
+      "año": 2020
+    },
+    {
+      "id": "CB-007",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 1 año que presenta vómitos y hepatomegalia. Examen de laboratorio: glucosa 50 mg/dl, cuerpos cetónicos negativos. Orina: aciduria dicarboxílica, presencia de octanoil carnitina. Se sospecha un trastorno hereditario del metabolismo. ¿Cuál sería la vía metabólica afectada?",
+      "opciones": [
+        "Beta oxidación de ácidos grasos",
+        "Oxidación de cuerpos cetónicos",
+        "Ciclo de Krebs",
+        "Degradación de glucógeno",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico (hipoglucemia sin cetosis, aciduria dicarboxílica y octanoilcarnitina) sugiere un defecto en la beta oxidación de ácidos grasos. Es típico del déficit de acil-CoA deshidrogenasa de cadena media (MCAD), un error innato del metabolismo que impide el uso de lípidos como fuente energética en ayuno. Su manejo incluye evitar el ayuno prolongado y asegurar aporte constante de glucosa. La acumulación de metabolitos tóxicos también puede inducir hepatopatía y encefalopatía si no se trata a tiempo.",
+      "comentario": "El cuadro clínico (hipoglucemia sin cetosis, aciduria dicarboxílica y octanoilcarnitina) sugiere un defecto en la beta oxidación de ácidos grasos. Es típico del déficit de acil-CoA deshidrogenasa de cadena media (MCAD), un error innato del metabolismo que impide el uso de lípidos como fuente energética en ayuno. Su manejo incluye evitar el ayuno prolongado y asegurar aporte constante de glucosa. La acumulación de metabolitos tóxicos también puede inducir hepatopatía y encefalopatía si no se trata a tiempo.",
+      "tema": "Beta oxidación de ácidos grasos",
+      "año": 2020
+    },
+    {
+      "id": "CB-008",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 60 años, inicia hombro doloroso, pero es alérgica a AINES, se busca entonces un medicamento que sea inhibidor reversible no competitivo de la ciclooxigenasa y que sea analgésico, aunque tenga poca actividad antiinflamatoria. ¿Cuál propondría?",
+      "opciones": [
+        "Celecoxib",
+        "Ácido acetil salicílico",
+        "Naproxeno",
+        "Acetaminofén",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El acetaminofén es el analgésico de elección en pacientes alérgicos a AINES, ya que actúa como inhibidor reversible no competitivo de la ciclooxigenasa, principalmente en el sistema nervioso central. Tiene buena acción analgésica y antipirética, pero escasa actividad antiinflamatoria. Es seguro en pacientes con riesgo gastrointestinal o alérgicos a AINES. Debe usarse con precaución en hepatopatías. Representa una alternativa útil para dolor leve a moderado, especialmente en adultos mayores.",
+      "comentario": "El acetaminofén es el analgésico de elección en pacientes alérgicos a AINES, ya que actúa como inhibidor reversible no competitivo de la ciclooxigenasa, principalmente en el sistema nervioso central. Tiene buena acción analgésica y antipirética, pero escasa actividad antiinflamatoria. Es seguro en pacientes con riesgo gastrointestinal o alérgicos a AINES. Debe usarse con precaución en hepatopatías. Representa una alternativa útil para dolor leve a moderado, especialmente en adultos mayores.",
+      "tema": "Farmacología del paracetamol",
+      "año": 2020
+    },
+    {
+      "id": "CB-009",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿En qué etapa del desarrollo gestacional se produce la implantación endometrial?",
+      "opciones": [
+        "Blastocisto",
+        "Mórula",
+        "Cigoto",
+        "Blastómero",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La implantación endometrial ocurre en la etapa de blastocisto, aproximadamente entre el día 6 y 7 posfecundación. En esta fase, el blastocisto ya ha salido de la zona pelúcida y se encuentra en capacidad de adherirse al endometrio para iniciar el proceso de implantación. La mórula y el cigoto son etapas previas, mientras que el blastómero es una célula resultante de las divisiones iniciales del cigoto. La correcta implantación es esencial para el desarrollo del embarazo. Por ello, el blastocisto es la estructura clave para este proceso fisiológico.",
+      "comentario": "La implantación endometrial ocurre en la etapa de blastocisto, aproximadamente entre el día 6 y 7 posfecundación. En esta fase, el blastocisto ya ha salido de la zona pelúcida y se encuentra en capacidad de adherirse al endometrio para iniciar el proceso de implantación. La mórula y el cigoto son etapas previas, mientras que el blastómero es una célula resultante de las divisiones iniciales del cigoto. La correcta implantación es esencial para el desarrollo del embarazo. Por ello, el blastocisto es la estructura clave para este proceso fisiológico.",
+      "tema": "Embriología: implantación",
+      "año": 2020
+    },
+    {
+      "id": "CB-010",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 21 años ingresa por sensación de falta de aire y prurito generalizado. Indica que estuvo en el parque hace 2 horas y sintió una picadura en su brazo. Se halla SatO₂ de 90% y sibilancias audibles. ¿Cuál es el manejo inmediato?",
+      "opciones": [
+        "Adrenalina",
+        "Dopamina",
+        "Clorfeniramina",
+        "Hielo local",
+        "Azitromicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Joven con disnea súbita, prurito y saturación baja posterior a picadura sugiere anafilaxia. La presencia de sibilancias y signos cutáneos refuerzan esta sospecha. El manejo inmediato y vital es la administración intramuscular de adrenalina, que revierte el broncoespasmo, vasodilatación y colapso cardiovascular. Antihistamínicos como clorfeniramina son útiles como coadyuvantes, pero no resuelven la crisis. Dopamina y hielo local no son prioritarios en este contexto. La adrenalina es la piedra angular del tratamiento en una reacción anafiláctica.",
+      "comentario": "Joven con disnea súbita, prurito y saturación baja posterior a picadura sugiere anafilaxia. La presencia de sibilancias y signos cutáneos refuerzan esta sospecha. El manejo inmediato y vital es la administración intramuscular de adrenalina, que revierte el broncoespasmo, vasodilatación y colapso cardiovascular. Antihistamínicos como clorfeniramina son útiles como coadyuvantes, pero no resuelven la crisis. Dopamina y hielo local no son prioritarios en este contexto. La adrenalina es la piedra angular del tratamiento en una reacción anafiláctica.",
+      "tema": "Anafilaxia e hipersensibilidad",
+      "año": 2020
+    },
+    {
+      "id": "CB-011",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 50 años, a quien es necesario realizarle un bloqueo del plexo braquial por lo menos durante dos horas como mínimo. ¿Cuál de los siguientes anestésicos locales aconsejaría utilizar?",
+      "opciones": [
+        "Lidocaína",
+        "Cloroprocaína",
+        "Procaína",
+        "Bupivacaína",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Para bloqueos regionales como el del plexo braquial que deben durar al menos dos horas, es necesario elegir un anestésico local de acción prolongada. La bupivacaína es la mejor opción en este caso, ya que su duración de acción es de 4 a 8 horas, proporcionando analgesia prolongada sin necesidad de reinyecciones frecuentes. La lidocaína, cloroprocaína y procaína son anestésicos de acción corta o intermedia y no brindarían un efecto sostenido adecuado. Además, la bupivacaína tiene una buena eficacia sensitiva y motora, lo cual la hace ideal para procedimientos quirúrgicos prolongados.",
+      "comentario": "Para bloqueos regionales como el del plexo braquial que deben durar al menos dos horas, es necesario elegir un anestésico local de acción prolongada. La bupivacaína es la mejor opción en este caso, ya que su duración de acción es de 4 a 8 horas, proporcionando analgesia prolongada sin necesidad de reinyecciones frecuentes. La lidocaína, cloroprocaína y procaína son anestésicos de acción corta o intermedia y no brindarían un efecto sostenido adecuado. Además, la bupivacaína tiene una buena eficacia sensitiva y motora, lo cual la hace ideal para procedimientos quirúrgicos prolongados.",
+      "tema": "Anestésicos locales: duración de acción",
+      "año": 2020
+    },
+    {
+      "id": "CB-012",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años, con infección urinaria, por lo que recibe ciprofloxacina; este antibiótico forma un compuesto estable con el citocromo P450. El paciente suele tomar dos tazas de café diarias y nota que ha aumentado sus efectos estimulantes por lo que ha reducido su consumo. Esto puede indicar que la cafeína:",
+      "opciones": [
+        "Es metabolizada por el P450",
+        "Es inhibidora de la ciprofloxacina",
+        "Es inhibidora de la P450",
+        "Disminuye su concentración por la ciprofloxacina",
+        "Ciprofloxacino"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La ciprofloxacina inhibe la enzima citocromo P450, responsable del metabolismo de muchas sustancias, incluida la cafeína. Al formar un compuesto estable con P450, la ciprofloxacina reduce el metabolismo de la cafeína, incrementando su concentración y efectos estimulantes, lo que explica que el paciente haya tenido que reducir su consumo. Esto confirma que la cafeína es metabolizada por la enzima P450, por lo que la inhibición del P450 aumenta sus niveles plasmáticos. No es que la cafeína inhiba a la ciprofloxacina ni que disminuya su concentración.",
+      "comentario": "La ciprofloxacina inhibe la enzima citocromo P450, responsable del metabolismo de muchas sustancias, incluida la cafeína. Al formar un compuesto estable con P450, la ciprofloxacina reduce el metabolismo de la cafeína, incrementando su concentración y efectos estimulantes, lo que explica que el paciente haya tenido que reducir su consumo. Esto confirma que la cafeína es metabolizada por la enzima P450, por lo que la inhibición del P450 aumenta sus niveles plasmáticos. No es que la cafeína inhiba a la ciprofloxacina ni que disminuya su concentración.",
+      "tema": "Interacciones farmacológicas: citocromo P450",
+      "año": 2021
+    },
+    {
+      "id": "CB-013",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Recién nacido prematuro con insuficiencia respiratoria aguda, sin signos infecciosos, se sospecha membrana hialina y se decida administrar surfactante, cuyo componente principal es:",
+      "opciones": [
+        "Lecitina",
+        "Cisteína",
+        "Ácido hialurónico",
+        "Ácido linoleico",
+        "Ketorolaco"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El síndrome de membrana hialina o enfermedad de membrana hialina es frecuente en neonatos prematuros debido a la inmadurez pulmonar, específicamente por la deficiencia de surfactante, una sustancia esencial para reducir la tensión superficial alveolar y evitar el colapso de los alvéolos durante la espiración. El componente principal del surfactante es la lecitina, también cono cida como dipalmitoilfosfatidilcolina, un fosfolípido que representa más del 80 % de su composición. La relación lecitina/esfingomielina en el líquido amniótico se usa como marcador de madurez pulmonar. La administración exógena de surfactante mejora la oxigenación y disminuye la necesidad de ventilación mecánica.",
+      "comentario": "El síndrome de membrana hialina o enfermedad de membrana hialina es frecuente en neonatos prematuros debido a la inmadurez pulmonar, específicamente por la deficiencia de surfactante, una sustancia esencial para reducir la tensión superficial alveolar y evitar el colapso de los alvéolos durante la espiración. El componente principal del surfactante es la lecitina, también cono cida como dipalmitoilfosfatidilcolina, un fosfolípido que representa más del 80 % de su composición. La relación lecitina/esfingomielina en el líquido amniótico se usa como marcador de madurez pulmonar. La administración exógena de surfactante mejora la oxigenación y disminuye la necesidad de ventilación mecánica.",
+      "tema": "Surfactante pulmonar: composición",
+      "año": 2021
+    },
+    {
+      "id": "CB-014",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años, con angina de pecho. Perfil lipídico: hipercolesterolemia marcada con LDL colesterol muy alto. Se evidencia: obstrucción de rama de coronaria izquierda. ¿Qué capa vascular se encontraría comprometida?",
+      "opciones": [
+        "Adventicia",
+        "Elástica externa",
+        "Íntima",
+        "Media",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La aterosclerosis afecta principalmente la íntima vascular, donde se acumulan lípidos, células inflamatorias y tejido fibroso, formando placas ateromatosas. Este paciente tiene hipercolesterolemia con obstrucción coronaria, lo que indica una placa significativa en la íntima que ha progresado hasta comprometer el flujo sanguíneo. La angina es síntoma de isquemia por estenosis coronaria. La capa media está compuesta por músculo liso, y la adventicia por tejido conectivo, pero no son el sitio de inicio del proceso ateroesclerótico.",
+      "comentario": "La aterosclerosis afecta principalmente la íntima vascular, donde se acumulan lípidos, células inflamatorias y tejido fibroso, formando placas ateromatosas. Este paciente tiene hipercolesterolemia con obstrucción coronaria, lo que indica una placa significativa en la íntima que ha progresado hasta comprometer el flujo sanguíneo. La angina es síntoma de isquemia por estenosis coronaria. La capa media está compuesta por músculo liso, y la adventicia por tejido conectivo, pero no son el sitio de inicio del proceso ateroesclerótico.",
+      "tema": "Aterosclerosis: capa íntima",
+      "año": 2021
+    },
+    {
+      "id": "CB-015",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuál es el primer mecanismo compensador que se pone en acción ante la caída de presión arterial en un shock hipovolémico?",
+      "opciones": [
+        "Elevación de factor natriurético atrial",
+        "Taquipnea",
+        "Taquicardia sinusal",
+        "Aumento de la retención de sodio",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El shock hipovolémico se desencadena por una pérdida aguda de volumen intravascular, lo que provoca una disminución del retorno venoso y del gasto cardíaco. Frente a esta situación, el primer mecanismo compensador que se activa es el sistema simpático, que produce taquicardia sinusal con el fin de mantener el gasto cardíaco a pesar del volumen reducido. Otros mecanismos como la taquipnea, la retención renal de sodio o la secreción hormonal compensadora (ADH, aldosterona) se activan más tarde. Por ello, la taquicardia es el signo clínico más temprano y útil para reconocer este tipo de shock, lo que hace correcta la alternativa: taquicardia sinusal.",
+      "comentario": "El shock hipovolémico se desencadena por una pérdida aguda de volumen intravascular, lo que provoca una disminución del retorno venoso y del gasto cardíaco. Frente a esta situación, el primer mecanismo compensador que se activa es el sistema simpático, que produce taquicardia sinusal con el fin de mantener el gasto cardíaco a pesar del volumen reducido. Otros mecanismos como la taquipnea, la retención renal de sodio o la secreción hormonal compensadora (ADH, aldosterona) se activan más tarde. Por ello, la taquicardia es el signo clínico más temprano y útil para reconocer este tipo de shock, lo que hace correcta la alternativa: taquicardia sinusal.",
+      "tema": "Shock hipovolémico: mecanismos compensadores",
+      "año": 2021
+    },
+    {
+      "id": "CB-016",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Jardinero de 58 años, lo traen inconsciente. Al examen: coma profundo, pupilas mióticas, respuesta favorable pero fugaz a un antídoto EV. ¿Cuál es la causa más probable del cuadro tóxico?",
+      "opciones": [
+        "Metanol",
+        "Organofosforado",
+        "Marihuana",
+        "Cocaína",
+        "Dexametasona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Se describe un paciente en coma profundo, con miosis bilateral y respuesta transitoria a un antídoto, probablemente atropina. El antecedente de ser jardinero apunta a la exposición a plaguicidas, específicamente organofosforados, que inhiben la acetilcolinesterasa, produciendo una tormenta colinérgica. Los signos clásicos incluyen bradicardia, sialorrea, broncorrea, fasciculaciones y compromiso neurológico severo. La miosis es un dato clave. La respuesta fugaz al antídoto es típica por la corta vida media de la atropina comparada con el tóxico. Todo el cuadro encaja con intoxicación por organofosforado.",
+      "comentario": "Se describe un paciente en coma profundo, con miosis bilateral y respuesta transitoria a un antídoto, probablemente atropina. El antecedente de ser jardinero apunta a la exposición a plaguicidas, específicamente organofosforados, que inhiben la acetilcolinesterasa, produciendo una tormenta colinérgica. Los signos clásicos incluyen bradicardia, sialorrea, broncorrea, fasciculaciones y compromiso neurológico severo. La miosis es un dato clave. La respuesta fugaz al antídoto es típica por la corta vida media de la atropina comparada con el tóxico. Todo el cuadro encaja con intoxicación por organofosforado.",
+      "tema": "Intoxicación por organofosforados",
+      "año": 2021
+    },
+    {
+      "id": "CB-017",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuál es el daño determinante que debe sufrir una célula para producirse la apoptosis?",
+      "opciones": [
+        "Daño irreversible del ADN celular",
+        "Mutación que alteran los controles de regulación",
+        "Inactivación del gen supresor",
+        "Implica variaciones en la secuencia de ARN",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La apoptosis es un proceso fisiológico de muerte celular programada que se desencadena ante diversos estímulos, siendo el daño irreversible del ADN uno de los más determinantes. Este daño activa vías de señalización específicas que involucran proteínas como p53, las cuales inician la cascada de caspasas. Estas enzimas promueven la fragmentación controlada del material nuclear y citoplasmático, sin inducir inflamación. Es importante diferenciar este proceso de la necrosis, que implica inflamación y daño tisular colateral. La apoptosis permite eliminar células peligrosas como las cancerígenas o con mutaciones severas. Por tanto, la integridad del ADN es clave para la supervivencia celular.",
+      "comentario": "La apoptosis es un proceso fisiológico de muerte celular programada que se desencadena ante diversos estímulos, siendo el daño irreversible del ADN uno de los más determinantes. Este daño activa vías de señalización específicas que involucran proteínas como p53, las cuales inician la cascada de caspasas. Estas enzimas promueven la fragmentación controlada del material nuclear y citoplasmático, sin inducir inflamación. Es importante diferenciar este proceso de la necrosis, que implica inflamación y daño tisular colateral. La apoptosis permite eliminar células peligrosas como las cancerígenas o con mutaciones severas. Por tanto, la integridad del ADN es clave para la supervivencia celular.",
+      "tema": "Apoptosis",
+      "año": 2021
+    },
+    {
+      "id": "CB-018",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "La capacidad de un medicamento para producir el efecto deseado en condiciones ideales de uso es lo que llamamos:",
+      "opciones": [
+        "Afinidad intrínseca",
+        "Efectividad",
+        "Potencia farmacológica",
+        "Eficacia",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La eficacia farmacológica se define como la capacidad de un medicamento para producir el efecto terapéutico deseado en condiciones ideales, como en ensayos clínicos controlados. Es importante distinguirla de la efectividad, que se refiere al comportamiento del fármaco en condiciones reales. La potencia se relaciona con la cantidad de fármaco necesaria para obtener un efecto determinado, mientras que la afinidad intrínseca indica cuán bien se une el fármaco a su receptor. Por tanto, cuando se evalúa un nuevo medicamento, se considera su eficacia como un parámetro crucial para decidir su aprobación y comercialización.",
+      "comentario": "La eficacia farmacológica se define como la capacidad de un medicamento para producir el efecto terapéutico deseado en condiciones ideales, como en ensayos clínicos controlados. Es importante distinguirla de la efectividad, que se refiere al comportamiento del fármaco en condiciones reales. La potencia se relaciona con la cantidad de fármaco necesaria para obtener un efecto determinado, mientras que la afinidad intrínseca indica cuán bien se une el fármaco a su receptor. Por tanto, cuando se evalúa un nuevo medicamento, se considera su eficacia como un parámetro crucial para decidir su aprobación y comercialización.",
+      "tema": "Eficacia farmacológica",
+      "año": 2021
+    },
+    {
+      "id": "CB-019",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 58 años con antecedente de hipotiroidismo, acude a consulta por dislipidemia, se inicia tratamiento y una semana después presenta mialgias, no recuerda qué medicamento ha tomado. ¿Cuál es el medicamento que produjo la RAM?",
+      "opciones": [
+        "Omega 3",
+        "Ezetimiba",
+        "Atorvastatina",
+        "Levotiroxina",
+        "Amoxicilina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con antecedente de hipotiroidismo, patología que por sí sola incrementa el riesgo de dislipidemia, recibe tratamiento y desarrolla mialgias tras una semana. Las estatinas, en especial la atorvastatina, son el tratamiento más común para dislipidemia y conocidas por su principal RAM: mialgias, miopatías e incluso rabdomiólisis. Aunque el paciente no recuerda el fármaco usado, el contexto clínico apunta claramente al uso de estatinas como causa. Omega 3 y ezetimiba rara vez provocan mialgias, y la levotiroxina no se usa como tratamiento primario de dislipidemia. Por tanto, la reacción adversa es atribuida a atorvastatina.",
+      "comentario": "Paciente con antecedente de hipotiroidismo, patología que por sí sola incrementa el riesgo de dislipidemia, recibe tratamiento y desarrolla mialgias tras una semana. Las estatinas, en especial la atorvastatina, son el tratamiento más común para dislipidemia y conocidas por su principal RAM: mialgias, miopatías e incluso rabdomiólisis. Aunque el paciente no recuerda el fármaco usado, el contexto clínico apunta claramente al uso de estatinas como causa. Omega 3 y ezetimiba rara vez provocan mialgias, y la levotiroxina no se usa como tratamiento primario de dislipidemia. Por tanto, la reacción adversa es atribuida a atorvastatina.",
+      "tema": "Miopatía por estatinas",
+      "año": 2021
+    },
+    {
+      "id": "CB-020",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "En una cirugía correctiva de fístula traqueal por intubación orotraqueal muy prolongada, se evidencia, en el posoperatorio, severa dificultad para controlar la apertura de la glotis. ¿Cuál músculo ha sido comprometido por la intervención quirúrgica?",
+      "opciones": [
+        "Cricoaritenoideo posterior",
+        "Tiroaritenoideo",
+        "Ariaritenoideo",
+        "Estilofaríngeo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente posoperada de fístula traqueal presenta dificultad para controlar la apertura de la glotis, lo que sugiere un compromiso neuromuscular laríngeo. El único músculo que abduce (abre) las cuerdas vocales es el cricoaritenoideo posterior. Este músculo es fundamental para permitir el paso de aire a través de la glotis. Su lesión se asocia con disnea, estridor e incapacidad de abducción. Los otros músculos laríngeos, como el tiroaritenoideo y el ariaritenoideo, participan en el cierre o fonación. Por tanto, el cuadro clínico orienta a una lesión del cricoaritenoideo posterior como secuela de la intervención.",
+      "comentario": "La paciente posoperada de fístula traqueal presenta dificultad para controlar la apertura de la glotis, lo que sugiere un compromiso neuromuscular laríngeo. El único músculo que abduce (abre) las cuerdas vocales es el cricoaritenoideo posterior. Este músculo es fundamental para permitir el paso de aire a través de la glotis. Su lesión se asocia con disnea, estridor e incapacidad de abducción. Los otros músculos laríngeos, como el tiroaritenoideo y el ariaritenoideo, participan en el cierre o fonación. Por tanto, el cuadro clínico orienta a una lesión del cricoaritenoideo posterior como secuela de la intervención.",
+      "tema": "Anatomía laríngea: músculo cricoaritenoideo posterior",
+      "año": 2021
+    },
+    {
+      "id": "CB-021",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "En 1995 en el metro de Tokio hubo un ataque terrorista con la muerte de 14 personas, el efecto mortal se atribuyó a excesiva sobreestimulación colinérgica. ¿Cuál es el antídoto de uso endovenoso a utilizar en esta situación de envenenamiento?",
+      "opciones": [
+        "Atropina",
+        "Flumazenil",
+        "Nitrito de amilo",
+        "Dimercaprol",
+        "Aspirina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El caso hace referencia a un ataque con gas sarín, un agente neurotóxico organofosforado que provoca un síndrome colinérgico severo al inhibir la acetilcolinesterasa, generando una sobreestimulación colinérgica. Esto se traduce clínicamente en miosis, broncorrea, convulsiones, bradicardia, paro respiratorio, entre otros. El antídoto de elección en estos casos es la atropina, un agente antimuscarínico que bloquea los efectos de la acetilcolina en los receptores muscarínicos. Su uso es endovenoso y debe administrarse en dosis repetidas hasta que se reviertan los síntomas. La atropina se puede complementar con pralidoxima para revertir el bloqueo enzimático, pero esta no reemplaza su acción. Flumazenil y dimercaprol no tienen utilidad en intoxicaciones colinérgicas. Por tanto, la opción correcta es Atropina.",
+      "comentario": "El caso hace referencia a un ataque con gas sarín, un agente neurotóxico organofosforado que provoca un síndrome colinérgico severo al inhibir la acetilcolinesterasa, generando una sobreestimulación colinérgica. Esto se traduce clínicamente en miosis, broncorrea, convulsiones, bradicardia, paro respiratorio, entre otros. El antídoto de elección en estos casos es la atropina, un agente antimuscarínico que bloquea los efectos de la acetilcolina en los receptores muscarínicos. Su uso es endovenoso y debe administrarse en dosis repetidas hasta que se reviertan los síntomas. La atropina se puede complementar con pralidoxima para revertir el bloqueo enzimático, pero esta no reemplaza su acción. Flumazenil y dimercaprol no tienen utilidad en intoxicaciones colinérgicas. Por tanto, la opción correcta es Atropina.",
+      "tema": "Intoxicación por gas sarín: atropina",
+      "año": 2021
+    },
+    {
+      "id": "CB-022",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 28 años, llevado a emergencia por los bomberos, quienes refieren haberlo encontrado \"tirado en la calle\". Al examen: FC 62 x', FR 12 x', SatO₂ 90%, T° 35.6 °C, PA 100/60 mmHg, soporoso, pupilas fotoreactivas. Se le administra flumazenilo 0.2 mg EV y el paciente despierta. ¿Qué sustancia química ingirió el paciente?",
+      "opciones": [
+        "Alcohol",
+        "Antidepresivos",
+        "Morfina",
+        "Benzodiacepinas",
+        "Diazepam"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico del paciente es de depresión del sensorio con signos vitales relativamente estables, acompañado de una mejoría inmediata tras la administración de flumazenilo, un antagonista específico de las benzodiacepinas. Esta respuesta positiva confirma que la causa del estado soporoso fue el consumo de esta clase de fármacos. El alcohol y la morfina no responden al flumazenilo, y los antidepresivos tampoco tienen un antídoto específico con esta respuesta clínica. Además, la saturación algo baja y la bradicardia leve son hallazgos compatibles con intoxicación por benzodiacepinas.",
+      "comentario": "El cuadro clínico del paciente es de depresión del sensorio con signos vitales relativamente estables, acompañado de una mejoría inmediata tras la administración de flumazenilo, un antagonista específico de las benzodiacepinas. Esta respuesta positiva confirma que la causa del estado soporoso fue el consumo de esta clase de fármacos. El alcohol y la morfina no responden al flumazenilo, y los antidepresivos tampoco tienen un antídoto específico con esta respuesta clínica. Además, la saturación algo baja y la bradicardia leve son hallazgos compatibles con intoxicación por benzodiacepinas.",
+      "tema": "Intoxicación por benzodiacepinas: flumazenil",
+      "año": 2021
+    },
+    {
+      "id": "CB-023",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 54 años, reiteradamente acude a Emergencia por cefalea pulsátil, náuseas y vómitos. En la anamnesis: habita en ambiente cerrado y refiere usar estufa de gas. Al examen: PA 110/60 mmHg, FC 120 x’, FR 26 x’, SaO₂ 95% a aire ambiental. Desorientada, confusa e intensa debilidad muscular. ¿Cuál es la terapia más adecuada?",
+      "opciones": [
+        "Óxido nitroso en inhalación",
+        "Intubación endotraqueal",
+        "Oxígeno al 100%",
+        "Ventilación a alto flujo a 30 lt/min",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con cefalea pulsátil, náuseas, vómitos y alteración del sensorio que vive en ambiente cerrado y usa estufa de gas. Esto hace sospechar una intoxicación por monóxido de carbono (CO), gas incoloro e inodoro que se une con alta afinidad a la hemoglobina formando carboxihemoglobina, desplazando el oxígeno. Aunque la saturación de oxígeno puede parecer normal, hay hipoxia tisular real. El tratamiento de elección es oxígeno al 100%, que acelera la disociación del CO de la hemoglobina. El óxido nitroso está contraindicado. La intubación solo se reserva para casos severos con compromiso respiratorio.",
+      "comentario": "Paciente con cefalea pulsátil, náuseas, vómitos y alteración del sensorio que vive en ambiente cerrado y usa estufa de gas. Esto hace sospechar una intoxicación por monóxido de carbono (CO), gas incoloro e inodoro que se une con alta afinidad a la hemoglobina formando carboxihemoglobina, desplazando el oxígeno. Aunque la saturación de oxígeno puede parecer normal, hay hipoxia tisular real. El tratamiento de elección es oxígeno al 100%, que acelera la disociación del CO de la hemoglobina. El óxido nitroso está contraindicado. La intubación solo se reserva para casos severos con compromiso respiratorio.",
+      "tema": "Intoxicación por monóxido de carbono",
+      "año": 2021
+    },
+    {
+      "id": "CB-024",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 16 años, traída a la emergencia inconsciente. Al examen: pupilas mióticas, sialorrea, relajación de esfínteres, dificultad respiratoria y fasciculaciones. Se sospecha ingesta de sustancia desconocida por intento de suicidio. El agente más probable es:",
+      "opciones": [
+        "Cocaína",
+        "Carbamato",
+        "Cianuro",
+        "Benzodiacepina",
+        "Amoxicilina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente adolescente es traída inconsciente, con clara sintomatología colinérgica: pupilas mióticas, sialorrea, relajación esfinteriana, dificultad respiratoria y fasciculaciones. Estos signos evidencian un síndrome colinérgico agudo, característico de intoxicaciones por inhibidores de la acetilcolinesterasa. Entre estos, destacan los organofosforados y carbamatos, ampliamente utilizados co mo pesticidas. La presentación clínica coincide especialmente con el efecto de los carbamatos, cuyo cuadro es similar al de los organofosforados, pero menos prolongado. La presencia de fasciculaciones y bradicardia en este contexto también apoya este diagn óstico. La ausencia de midriasis, taquicardia o agitación psicomotora descarta agentes como cocaína o benzodiacepinas. En caso de sospecha, el tratamiento incluye atropina y pralidoxima. El antecedente de intento autolítico y la edad aumentan la sospecha. Se requiere intervención urgente por riesgo de paro respiratorio.",
+      "comentario": "Paciente adolescente es traída inconsciente, con clara sintomatología colinérgica: pupilas mióticas, sialorrea, relajación esfinteriana, dificultad respiratoria y fasciculaciones. Estos signos evidencian un síndrome colinérgico agudo, característico de intoxicaciones por inhibidores de la acetilcolinesterasa. Entre estos, destacan los organofosforados y carbamatos, ampliamente utilizados co mo pesticidas. La presentación clínica coincide especialmente con el efecto de los carbamatos, cuyo cuadro es similar al de los organofosforados, pero menos prolongado. La presencia de fasciculaciones y bradicardia en este contexto también apoya este diagn óstico. La ausencia de midriasis, taquicardia o agitación psicomotora descarta agentes como cocaína o benzodiacepinas. En caso de sospecha, el tratamiento incluye atropina y pralidoxima. El antecedente de intento autolítico y la edad aumentan la sospecha. Se requiere intervención urgente por riesgo de paro respiratorio.",
+      "tema": "Intoxicación por carbamatos",
+      "año": 2022
+    },
+    {
+      "id": "CB-025",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 25 años quien tiene un colesterol de 390 mg/dl y presencia de xantomas tendinosos en el talón de Aquiles. Se hace estudio familiar que revela que su hermana tiene colesterol de 400 mg/dl y su padre 350 mg/dl. Esta alteración se debe principal mente a una mutación en el gen:",
+      "opciones": [
+        "Síntesis de HDL",
+        "Síntesis de la VLDL",
+        "Receptor de LDL",
+        "Esterificación del colesterol",
+        "Atropina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente joven con colesterol total marcadamente elevado (>300 mg/dl), presencia de xantomas tendinosos y antecedentes familiares similares, lo que indica una hipercolesterolemia familiar. Esta dislipidemia monogénica autosómica dominante es causada en la mayoría de los casos por una mutación en el gen del receptor de LDL, lo que impide su adecuada captación hepática y provoca acumulación plasmática. El colesterol LDL elevado aumenta el riesgo cardiovascular de forma acelerada. El diagnóstico se sustenta en hallazgos clínicos, bioquímicos y genéticos. No está relacionado con HDL (opción A), ni con VLDL (B), ni con procesos de esterificación del colesterol (D).",
+      "comentario": "Paciente joven con colesterol total marcadamente elevado (>300 mg/dl), presencia de xantomas tendinosos y antecedentes familiares similares, lo que indica una hipercolesterolemia familiar. Esta dislipidemia monogénica autosómica dominante es causada en la mayoría de los casos por una mutación en el gen del receptor de LDL, lo que impide su adecuada captación hepática y provoca acumulación plasmática. El colesterol LDL elevado aumenta el riesgo cardiovascular de forma acelerada. El diagnóstico se sustenta en hallazgos clínicos, bioquímicos y genéticos. No está relacionado con HDL (opción A), ni con VLDL (B), ni con procesos de esterificación del colesterol (D).",
+      "tema": "Hipercolesterolemia familiar: receptor de LDL",
+      "año": 2022
+    },
+    {
+      "id": "CB-026",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Estudiante de medicina de 21 años, estando en el salón de clases, empieza a presentar agitación psicomotriz y compromiso del sensorio. Sus compañeras refieren que ingirió cuatro botellas de “bebidas energizantes”. Examen: PA: 180/100 mmHg, FC: 140 X’, F R: 28 X’, T°: 37°C, SatO₂: 93%; pupilas fotorreactivas; RC arrítmicos, no soplos; tendencia al sueño, no déficit motor. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome conversivo",
+        "Sobredosis de cafeína",
+        "Ataque de pánico",
+        "Ansiedad extrema",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La sobredosis de cafeína puede presentarse con síntomas como taquicardia, hipertensión, agitación, ansiedad, insomnio, náuseas y alteración del sensorio, los cuales son compatibles con el cuadro clínico descrito. El consumo excesivo de bebidas energizantes, que contienen altas dosis de cafeína, es una causa frecuente de intoxicación en jóvenes. La presencia de arritmias y compromiso neurológico leve refuerza este diagnóstico. No hay datos que apoyen un síndrome conversivo o un trastorno psiquiátrico puro como ansiedad o ataque de pánico.",
+      "comentario": "La sobredosis de cafeína puede presentarse con síntomas como taquicardia, hipertensión, agitación, ansiedad, insomnio, náuseas y alteración del sensorio, los cuales son compatibles con el cuadro clínico descrito. El consumo excesivo de bebidas energizantes, que contienen altas dosis de cafeína, es una causa frecuente de intoxicación en jóvenes. La presencia de arritmias y compromiso neurológico leve refuerza este diagnóstico. No hay datos que apoyen un síndrome conversivo o un trastorno psiquiátrico puro como ansiedad o ataque de pánico.",
+      "tema": "Intoxicación por cafeína",
+      "año": 2023
+    },
+    {
+      "id": "CB-027",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Joven de 20 años, queda atrapado en incendio en sótano. Al ser rescatado no evidencia quemaduras externas pero la vía aérea está semiobstruída por hollín. Es intubado y asisitido con O2 al 100%; ingresa a UCI con marcada insuficiencia respiratoria. Examen: PA: 80/50 mmHg, FC: 120 X’, FR: 25 X’(asistido) y SatO₂: 60%, AGA: pH 7.50, pCO2: 30 mmHg, HCO3: 20mEq/l, PO2: 400 mmHg y SatO₂: 99%. Lactato 6 mmol/l. Se plantea intoxicación por monóxido de carbono. ¿Cuál es la interpretación de los resultados de los gases arteriales?",
+      "opciones": [
+        "Hipoxemia severa, sin hipoxia por disociación O2Hb",
+        "Hipoxemia leve con hipoxia por disociación O2Hb",
+        "Hiperoxemia con hipoxia tisular por disociación O2Hb",
+        "Hipoxemia moderada con hipoxia por disociación O2Hb",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta una intoxicación por monóxido de carbono (CO), típica en incendios en espacios cerrados (como un sótano), incluso sin quemaduras externas. El CO se une con alta afinidad a la hemoglobina, formando carboxihemoglobina, la cual no transporta oxígeno, lo que bloquea el transporte y liberación de oxígeno a los tejidos, provocando hipoxia tisular pese a una aparente buena oxigenación. Análisis de Gases Arteriales • PO₂ = 400 mmHg: indica hiperoxemia (por administración de O₂ al 100%). • SatO₂ = 99%: refleja la saturación de oxígeno medida por oxímetro, que no distingue entre oxihemoglobina y carboxihemoglobina, por lo tanto, no refleja oxigenación tisular real. • Lactato elevado (6 mmol/L): señala la presencia de metabolismo anaerobio, es decir, hipoxia tisular. • pH alcalino, pCO₂ bajo y HCO₃⁻ bajo: sugieren una alcalosis respiratoria compensada.",
+      "comentario": "El paciente presenta una intoxicación por monóxido de carbono (CO), típica en incendios en espacios cerrados (como un sótano), incluso sin quemaduras externas. El CO se une con alta afinidad a la hemoglobina, formando carboxihemoglobina, la cual no transporta oxígeno, lo que bloquea el transporte y liberación de oxígeno a los tejidos, provocando hipoxia tisular pese a una aparente buena oxigenación. Análisis de Gases Arteriales • PO₂ = 400 mmHg: indica hiperoxemia (por administración de O₂ al 100%). • SatO₂ = 99%: refleja la saturación de oxígeno medida por oxímetro, que no distingue entre oxihemoglobina y carboxihemoglobina, por lo tanto, no refleja oxigenación tisular real. • Lactato elevado (6 mmol/L): señala la presencia de metabolismo anaerobio, es decir, hipoxia tisular. • pH alcalino, pCO₂ bajo y HCO₃⁻ bajo: sugieren una alcalosis respiratoria compensada.",
+      "tema": "Intoxicación por monóxido de carbono: gases arteriales",
+      "año": 2023
+    },
+    {
+      "id": "CB-028",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer 20 años acude a reunión social y bebe licor de dudosa procedencia al cabo de 12 horas presenta trastorno de sensorio y es llevada a emergencia. En el trayecto presenta convulsiones tónico clónicas. Examen: PA: 80/50 mmHg, FC: 130 X’, FR: 30 X’, SatO₂: 92%; Glasgow 7. Laboratorio: AGA: pH: 7.00, HCO3: 5mEq/L, PCO2: 25 mmHg; PO2: 60 mmHg; lactato sérico: 8 mmol/L, úrea 25 mg/dl, creatinina: 1.5 mg/dl, mantiene flujo urinario. ¿Cuáles serían las medidas de manejo inmediato?",
+      "opciones": [
+        "Uso de bicarbonato en infusión, lavado gástrico más diuréticos",
+        "Fluidoterapia enérgica, bicarbonato IV más diuréticos",
+        "Estabilización con medidas de soporte más hemodiálisis de urgencia",
+        "Ventilación mecánica, fluidoterapia enérgica y diuréticos",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico sugiere intoxicación por metanol, asociado al consumo de licor de dudosa procedencia. La paciente presenta acidosis metabólica severa (pH: 7.00, HCO₃⁻: 5 mEq/L), trastorno de sensorio, convulsiones y signos de hipoperfusión. El metanol se metaboliza a ácido fórmico, que es altamente tóxico para el sistema nervioso central y la retina. El manejo inmediato incluye medidas de soporte vital y, fundamentalmente, hemodiálisis de urgencia, que permite eliminar el metanol y corregir rápidamente la acidosis severa. El bicarbonato puede ser útil como medida complementaria, pero no sustituye a la diálisis.",
+      "comentario": "El cuadro clínico sugiere intoxicación por metanol, asociado al consumo de licor de dudosa procedencia. La paciente presenta acidosis metabólica severa (pH: 7.00, HCO₃⁻: 5 mEq/L), trastorno de sensorio, convulsiones y signos de hipoperfusión. El metanol se metaboliza a ácido fórmico, que es altamente tóxico para el sistema nervioso central y la retina. El manejo inmediato incluye medidas de soporte vital y, fundamentalmente, hemodiálisis de urgencia, que permite eliminar el metanol y corregir rápidamente la acidosis severa. El bicarbonato puede ser útil como medida complementaria, pero no sustituye a la diálisis.",
+      "tema": "Intoxicación por metanol: hemodiálisis",
+      "año": 2023
+    },
+    {
+      "id": "CB-029",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál es la función principal del hígado en el metabolismo de los agentes xenobióticos de los alimentos?",
+      "opciones": [
+        "Hidrólisis a compuestos apolares",
+        "Conjugación con nucleótidos",
+        "Hidroxilación enzimática",
+        "Esterificación con glicerol",
+        "Amoxicilina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El hígado cumple un rol clave en la detoxificación de agentes xenobióticos, es decir, sustancias extrañas al organismo como fármacos, contaminantes o aditivos alimentarios. Este proceso se lleva a cabo principalmente en dos fases: en la fase I, se realizan reacciones de hidroxilación enzimática, oxidación o reducción, que buscan hacer los compuestos más polares y así facilitar su eliminación. Estas reacciones están mediadas principalmente por el sistema del citocromo P450. Por ello, la hidroxilación enzimática es una función hepática fundamental en el metabolismo de xenobióticos, lo que hace correcta la alternativa C.",
+      "comentario": "El hígado cumple un rol clave en la detoxificación de agentes xenobióticos, es decir, sustancias extrañas al organismo como fármacos, contaminantes o aditivos alimentarios. Este proceso se lleva a cabo principalmente en dos fases: en la fase I, se realizan reacciones de hidroxilación enzimática, oxidación o reducción, que buscan hacer los compuestos más polares y así facilitar su eliminación. Estas reacciones están mediadas principalmente por el sistema del citocromo P450. Por ello, la hidroxilación enzimática es una función hepática fundamental en el metabolismo de xenobióticos, lo que hace correcta la alternativa C.",
+      "tema": "Biotransformación hepática: hidroxilación",
+      "año": 2023
+    },
+    {
+      "id": "CB-030",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 42 años acude a consulta por cefalea y percepción pasajera de coloración azulverdosa en su campo visual. Examen: eritema facial, resto sin alteraciones. Refiere tratamiento para la disfunción eréctil. ¿Cuál es el medicamento responsable del motivo de consulta con mayor probabilidad?",
+      "opciones": [
+        "Yohimbina",
+        "Testoterona",
+        "Sildenafilo",
+        "Alprostadilo",
+        "Ceftriaxona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta cefalea y una alteración visual transitoria, en forma de percepción de coloración azulverdosa, lo que es característico del efecto secundario del sildenafilo, un medicamento utilizado en el tratamiento de la disfunción eréctil. Este medicamento puede inducir una alteración en la percepción del color, particularmente una visión azul, debido a su efecto sobre la fosfodiesterasa tipo 5 (PDE5) en la retina. Aunque otros medicamentos como yohimbina, testosterona y alprostadilo se usan en el tratamiento de la disfunción eréctil, no tienen efectos visuales característicos como los observados con el sildenafilo, por lo que esta es la causa más probable en este caso.",
+      "comentario": "El paciente presenta cefalea y una alteración visual transitoria, en forma de percepción de coloración azulverdosa, lo que es característico del efecto secundario del sildenafilo, un medicamento utilizado en el tratamiento de la disfunción eréctil. Este medicamento puede inducir una alteración en la percepción del color, particularmente una visión azul, debido a su efecto sobre la fosfodiesterasa tipo 5 (PDE5) en la retina. Aunque otros medicamentos como yohimbina, testosterona y alprostadilo se usan en el tratamiento de la disfunción eréctil, no tienen efectos visuales característicos como los observados con el sildenafilo, por lo que esta es la causa más probable en este caso.",
+      "tema": "Sildenafilo: alteración de la visión de colores",
+      "año": 2023
+    },
+    {
+      "id": "CB-031",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 72 años llevado a emergencia por mareos y dolor precordial hace una hora. EKG: QT largo, taquicardia ventricular, no signos de isquemia; resto sin alteraciones. Refiere automedicación con pastillas por un supuesto COVID-19. ¿Cuál es el medicamento responsable?",
+      "opciones": [
+        "Dexametasona",
+        "Paracetamol",
+        "Azitromicina",
+        "Ivermectina",
+        "Ibuprofeno"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El medicamento responsable de los síntomas del paciente es Azitromicina (opción C). Este antibiótico ha sido asociado con alargamiento del intervalo QT, lo que puede predisponer a taquicardias ventriculares y otros trastornos del ritmo cardíaco. El paciente presenta un QT largo en el EKG, lo cual es un efecto secundario conocido de la azitromicina.",
+      "comentario": "El medicamento responsable de los síntomas del paciente es Azitromicina (opción C). Este antibiótico ha sido asociado con alargamiento del intervalo QT, lo que puede predisponer a taquicardias ventriculares y otros trastornos del ritmo cardíaco. El paciente presenta un QT largo en el EKG, lo cual es un efecto secundario conocido de la azitromicina.",
+      "tema": "QT largo por azitromicina",
+      "año": 2023
+    },
+    {
+      "id": "CB-032",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 42 años, consumidor de drogas por vía intravenosa por lo que presenta cicatrices en sus brazos. Ingresa para programa de desintoxicación mediante infusión intravenosa y las venas femorales de su ingle son las únicas accesibles. ¿Cuál es el punto de referencia más fiable para identificar las venas femorales?",
+      "opciones": [
+        "Medial a la arteria femoral",
+        "Dentro del conducto femoral",
+        "Directamente medial al nervio femoral",
+        "Lateral a la arteria femoral",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El punto de referencia más fiable para identificar las venas femorales es que se encuentran medial a la arteria femoral (Opción A). La vena femoral se encuentra medial (hacia el interior) a la arteria femoral en el triángulo femoral. Este es un punto de referencia crucial para la canulación venosa femoral, ya que la arteria femoral es una estructura grande y palpable que se puede identificar fácilmente mediante palpación del pulso femoral. Colocar la cánula justo al lado medial de la arteria femoral minimiza el riesgo de punción accidental de la arteria y permite una canulación venosa segura y efectiva.",
+      "comentario": "El punto de referencia más fiable para identificar las venas femorales es que se encuentran medial a la arteria femoral (Opción A). La vena femoral se encuentra medial (hacia el interior) a la arteria femoral en el triángulo femoral. Este es un punto de referencia crucial para la canulación venosa femoral, ya que la arteria femoral es una estructura grande y palpable que se puede identificar fácilmente mediante palpación del pulso femoral. Colocar la cánula justo al lado medial de la arteria femoral minimiza el riesgo de punción accidental de la arteria y permite una canulación venosa segura y efectiva.",
+      "tema": "Anatomía: vena femoral medial a la arteria",
+      "año": 2023
+    },
+    {
+      "id": "CB-033",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuáles son las células del túbulo colector donde actúa directamente la aldosterona para aumentar la reabsorción de sodio?",
+      "opciones": [
+        "Principales",
+        "Yuxtaglomerulares",
+        "Mesangiales",
+        "Intersticiales",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La aldosterona es una hormona secretada por la corteza de la glándula suprarrenal cuya función principal es aumentar la reabsorción de sodio y la secreción de potasio en los riñones, lo que contribuye a mantener el equilibrio de electrolitos y el volumen de líquidos en el cuerpo. La célula del túbulo colector donde la aldosterona actúa directamente para aumentar la reabsorción de sodio se llama célula principal (Opción A). Estas células están presentes en el túbulo colector distal y en el conducto colector.",
+      "comentario": "La aldosterona es una hormona secretada por la corteza de la glándula suprarrenal cuya función principal es aumentar la reabsorción de sodio y la secreción de potasio en los riñones, lo que contribuye a mantener el equilibrio de electrolitos y el volumen de líquidos en el cuerpo. La célula del túbulo colector donde la aldosterona actúa directamente para aumentar la reabsorción de sodio se llama célula principal (Opción A). Estas células están presentes en el túbulo colector distal y en el conducto colector.",
+      "tema": "Aldosterona: células principales",
+      "año": 2023
+    },
+    {
+      "id": "CB-034",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 65 años con dolor tipo ardor en epigastrio por mucho tiempo por lo que se automedica con un antiácido que contiene hidróxido de aluminio. Acude a consulta médica y se le indica análisis de laboratorio. ¿Cuál de los siguientes resultados esperaría encontrar?",
+      "opciones": [
+        "Hiponatremia",
+        "Hiperglicemia",
+        "Hipercloremia",
+        "Hipofosfatemia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La alteración laboratorial que se podría encontrar con el uso crónico e indebido de hidróxido de aluminio es Hipofosfatemia (Opción D). El hidróxido de aluminio puede unirse al fosfato en el intestino y formar un compuesto insoluble, lo que reduce la absorción de fosfato y puede causar hipofosfatemia. Esto puede manifestarse con síntomas como debilidad muscular, fatiga y en casos graves, arritmias cardíacas.",
+      "comentario": "La alteración laboratorial que se podría encontrar con el uso crónico e indebido de hidróxido de aluminio es Hipofosfatemia (Opción D). El hidróxido de aluminio puede unirse al fosfato en el intestino y formar un compuesto insoluble, lo que reduce la absorción de fosfato y puede causar hipofosfatemia. Esto puede manifestarse con síntomas como debilidad muscular, fatiga y en casos graves, arritmias cardíacas.",
+      "tema": "Hidróxido de aluminio: hipofosfatemia",
+      "año": 2023
+    },
+    {
+      "id": "CB-035",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 35 años, en tratamiento de TB diagnosticada hace 2 meses es traído por confusión. La esposa notó que había tomado varias dosis de su medicamento. Examen: Taquipnea, Glasgow 12, hiperreflexia. AGA: pH 7.22, HCO3 10, Na 130, ALT 354 UI/L, AST 142 UI/L. ECG prolongación del intervalo QT. ¿Qué medicamento sería más apropiado para revertir el efecto adverso del fármaco?",
+      "opciones": [
+        "Tiamina",
+        "Ácido fólico",
+        "Cianocobalamina",
+        "Piridoxina",
+        "Ciprofloxacino"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En esta pregunta debemos sospechar que la clínica presentada por el paciente puede deberse a una reacción adversa de los antituberculosos que recientemente está recibiendo. En ese sentido, los síntomas de confusión y acidosis metabólica, junto con la prolongación del intervalo QT, son indicativos de una toxicidad por isoniazida (INH). Los síntomas de toxicidad por este fármaco incluyen confusión, convulsiones, acidosis metabólica, y en algunos casos, hepatotoxicidad (elevación de ALT y AST). Dado que INH actúa como un antagonista de la piridoxina (vitamina B6), la piridoxina es el antídoto específico para la toxicidad por INH (Alternativa D). Se administra para revertir los efectos neurológicos (como convulsiones y confusión) causados por la deficiencia de esta vitamina.",
+      "comentario": "En esta pregunta debemos sospechar que la clínica presentada por el paciente puede deberse a una reacción adversa de los antituberculosos que recientemente está recibiendo. En ese sentido, los síntomas de confusión y acidosis metabólica, junto con la prolongación del intervalo QT, son indicativos de una toxicidad por isoniazida (INH). Los síntomas de toxicidad por este fármaco incluyen confusión, convulsiones, acidosis metabólica, y en algunos casos, hepatotoxicidad (elevación de ALT y AST). Dado que INH actúa como un antagonista de la piridoxina (vitamina B6), la piridoxina es el antídoto específico para la toxicidad por INH (Alternativa D). Se administra para revertir los efectos neurológicos (como convulsiones y confusión) causados por la deficiencia de esta vitamina.",
+      "tema": "Intoxicación por isoniazida: piridoxina",
+      "año": 2024
+    },
+    {
+      "id": "CB-036",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 45 años residente en Lima, decide viajar a Puno durante sus vacaciones. Posteriormente a su llegada presenta cefalea, fatiga, náuseas y vómitos. ¿Cuál de las siguientes alteraciones espera encontrar en la gasometría arterial?",
+      "opciones": [
+        "Acidosis metabólica",
+        "Acidosis respiratoria",
+        "Alcalosis respiratoria",
+        "Alcalosis metabólica",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Cuando una persona asciende a altitudes elevadas, como Puno (a más de 3,800 metros sobre el nivel del mar), la disminución de la presión parcial de oxígeno (PaO₂) provoca hipoxia. En respuesta a la hipoxia, se estimula la respiración, aumentando la ventilación pulmonar para compensar la baja oxigenación. Este aumento en la ventilación causa una disminución en los niveles de CO2, resultando en alcalosis respiratoria (Alternativa C). La alcalosis respiratoria es un trastorno caracterizado por una disminución de CO2 (hipocapnia) en sangre debido a hiperventilación, lo que resulta en un aumento del pH.",
+      "comentario": "Cuando una persona asciende a altitudes elevadas, como Puno (a más de 3,800 metros sobre el nivel del mar), la disminución de la presión parcial de oxígeno (PaO₂) provoca hipoxia. En respuesta a la hipoxia, se estimula la respiración, aumentando la ventilación pulmonar para compensar la baja oxigenación. Este aumento en la ventilación causa una disminución en los niveles de CO2, resultando en alcalosis respiratoria (Alternativa C). La alcalosis respiratoria es un trastorno caracterizado por una disminución de CO2 (hipocapnia) en sangre debido a hiperventilación, lo que resulta en un aumento del pH.",
+      "tema": "Altura: alcalosis respiratoria",
+      "año": 2024
+    },
+    {
+      "id": "CB-037",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 65 años con hiperplasia benigna de próstata y en tratamiento con fármaco simpaticolítico, presenta hipotensión ortostática. ¿Cuál es el mecanismo de acción que se relaciona a este efecto adverso?",
+      "opciones": [
+        "Activación beta-1",
+        "Activación alfa-2",
+        "Bloqueo alfa-1",
+        "Bloqueo beta-2",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El mecanismo relacionado con este efecto adverso es el bloqueo alfa-1 (Alternativa C). Los fármacos simpaticolíticos que se utilizan para tratar la hiperplasia benigna de próstata, como los bloqueadores alfa-1 (por ejemplo, tamsulosina, alfuzosina), relajan el músculo liso del cuello de la vejiga y la próstata, facilitando la micción. Sin embargo, también pueden bloquear los receptores alfa-1 en los vasos sanguíneos, lo que lleva a una vasodilatación y puede causar una caída de la presión arterial al cambiar de posición, resultando en hipotensión ortostática.",
+      "comentario": "El mecanismo relacionado con este efecto adverso es el bloqueo alfa-1 (Alternativa C). Los fármacos simpaticolíticos que se utilizan para tratar la hiperplasia benigna de próstata, como los bloqueadores alfa-1 (por ejemplo, tamsulosina, alfuzosina), relajan el músculo liso del cuello de la vejiga y la próstata, facilitando la micción. Sin embargo, también pueden bloquear los receptores alfa-1 en los vasos sanguíneos, lo que lleva a una vasodilatación y puede causar una caída de la presión arterial al cambiar de posición, resultando en hipotensión ortostática.",
+      "tema": "Alfabloqueadores: hipotensión ortostática",
+      "año": 2024
+    },
+    {
+      "id": "CB-038",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 70 años con asma bronquial en tratamiento, presenta bruscamente retención urinaria. ¿Cuál de los siguientes fármacos se relaciona con este efecto secundario?",
+      "opciones": [
+        "Fluticasona",
+        "Prednisona",
+        "Fenoterol",
+        "Bromuro de ipratropio",
+        "Tramadol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La retención urinaria en un paciente de 70 años con asma bronquial en tratamiento es más probablemente un efecto secundario del bromuro de ipratropio (Alternativa D). El bromuro de ipratropio es un anticolinérgico utilizado en el tratamiento del asma y la enfermedad pulmonar obstructiva crónica (EPOC) para producir broncodilatación. Los anticolinérgicos pueden causar retención urinaria, especialmente en pacientes mayores o aquellos con hipertrofia prostática benigna. Este efecto secundario ocurre porque los anticolinérgicos inhiben la acción del sistema nervioso parasimpático, lo que puede llevar a la relajación del músculo detrusor de la vejiga y dificultar la micción.",
+      "comentario": "La retención urinaria en un paciente de 70 años con asma bronquial en tratamiento es más probablemente un efecto secundario del bromuro de ipratropio (Alternativa D). El bromuro de ipratropio es un anticolinérgico utilizado en el tratamiento del asma y la enfermedad pulmonar obstructiva crónica (EPOC) para producir broncodilatación. Los anticolinérgicos pueden causar retención urinaria, especialmente en pacientes mayores o aquellos con hipertrofia prostática benigna. Este efecto secundario ocurre porque los anticolinérgicos inhiben la acción del sistema nervioso parasimpático, lo que puede llevar a la relajación del músculo detrusor de la vejiga y dificultar la micción.",
+      "tema": "Ipratropio: retención urinaria",
+      "año": 2024
+    },
+    {
+      "id": "CB-039",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Veterinario de 45 años, es traído a la emergencia por su hija, refiere que su padre estaba trabajando y hace una hora lo vió “feliz, tranquilo, muy calmado” y luego se tornó somnoliento. Examen: PA 80/60 mmHg, FC 50 X´, FR 12 X´, T 36 ºC, SatO₂ 88%; soporoso, pupilas mióticas; piel con venopunturas en brazos. Laboratorio: AGA pO2 55 mmHg, pCO2 70 mmHg. ¿Cuál es el fármaco que indicaría?",
+      "opciones": [
+        "Flumazenilo",
+        "Naloxona",
+        "Dopamina",
+        "Fentolamina",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El veterinario presenta signos clínicos consistentes con una sobredosis de opioides: pupilas mióticas, depresión respiratoria, somnolencia, hipotensión y venopunturas en brazos (que sugieren uso de drogas intravenosas). En el caso de una intoxicación por opioides, el tratamiento de elección es la naloxona (Alternativa B). La naloxona es el tratamiento de elección ya que es un antagonista específico de los receptores de opioides y puede revertir rápidamente los efectos de la sobredosis, mejorando la función respiratoria y la consciencia del paciente.",
+      "comentario": "El veterinario presenta signos clínicos consistentes con una sobredosis de opioides: pupilas mióticas, depresión respiratoria, somnolencia, hipotensión y venopunturas en brazos (que sugieren uso de drogas intravenosas). En el caso de una intoxicación por opioides, el tratamiento de elección es la naloxona (Alternativa B). La naloxona es el tratamiento de elección ya que es un antagonista específico de los receptores de opioides y puede revertir rápidamente los efectos de la sobredosis, mejorando la función respiratoria y la consciencia del paciente.",
+      "tema": "Intoxicación por opioides: naloxona",
+      "año": 2024
+    },
+    {
+      "id": "CB-040",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "En una evaluación médica, Ud. indica que el paciente lleve la lengua hacia adelante. ¿Cuál es el músculo que permite esta función?",
+      "opciones": [
+        "Estilogloso",
+        "Palatogloso",
+        "Geniogloso",
+        "Hiogloso",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En una evaluación médica, al pedirle al paciente que saque la lengua, se está evaluando la función del músculo geniogloso (Alternativa C). El músculo geniogloso se origina en la apófisis geni del hueso mandibular y se inserta a lo largo de toda la longitud de la lengua. Su contracción bilateral lleva la lengua hacia adelante y hacia abajo. Es uno de los músculos extrínsecos de la lengua y juega un papel crucial en movimientos importantes como la deglución y la articulación del habla. Al pedirle al paciente que saque la lengua, se está evaluando la función de este músculo, además de la función del nervio hipogloso (nervio craneal XII) que lo inerva.",
+      "comentario": "En una evaluación médica, al pedirle al paciente que saque la lengua, se está evaluando la función del músculo geniogloso (Alternativa C). El músculo geniogloso se origina en la apófisis geni del hueso mandibular y se inserta a lo largo de toda la longitud de la lengua. Su contracción bilateral lleva la lengua hacia adelante y hacia abajo. Es uno de los músculos extrínsecos de la lengua y juega un papel crucial en movimientos importantes como la deglución y la articulación del habla. Al pedirle al paciente que saque la lengua, se está evaluando la función de este músculo, además de la función del nervio hipogloso (nervio craneal XII) que lo inerva.",
+      "tema": "Músculo geniogloso",
+      "año": 2024
+    },
+    {
+      "id": "CB-041",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, acude con disuria, polaquiuria y alza térmica. Antecedente de epilepsia estructural, en tratamiento irregular. Examen: PPL y PRU derecho (+). Urocultivo: E. coli sensible. ¿Qué antibiótico tiene como efecto adverso mayor riesgo de desencadenar convulsiones?",
+      "opciones": [
+        "Ampicilina",
+        "Nitrofurantoina",
+        "Cotrimoxazol",
+        "Levofloxacina",
+        "Prednisona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En este caso, la paciente presenta síntomas sugestivos de una infección del tracto urinario (disuria, polaquiuria, alza térmica) y tiene antecedentes de epilepsia estructural. El tratamiento de infecciones urinarias con antibióticos puede tener efectos adversos, y en este caso, la levofloxacina es el antibiótico que se asocia con un mayor riesgo de desencadenar convulsiones. Aunque los antibióticos como la ampicilina, nitrofurantoina y cotrimoxazol también tienen efectos secundarios, el riesgo de convulsiones es más pronunciado con las fluoroquinolonas, como la levofloxacina, especialmente en pacientes con antecedentes de trastornos convulsivos.",
+      "comentario": "En este caso, la paciente presenta síntomas sugestivos de una infección del tracto urinario (disuria, polaquiuria, alza térmica) y tiene antecedentes de epilepsia estructural. El tratamiento de infecciones urinarias con antibióticos puede tener efectos adversos, y en este caso, la levofloxacina es el antibiótico que se asocia con un mayor riesgo de desencadenar convulsiones. Aunque los antibióticos como la ampicilina, nitrofurantoina y cotrimoxazol también tienen efectos secundarios, el riesgo de convulsiones es más pronunciado con las fluoroquinolonas, como la levofloxacina, especialmente en pacientes con antecedentes de trastornos convulsivos.",
+      "tema": "Fluoroquinolonas y convulsiones",
+      "año": 2024
+    },
+    {
+      "id": "CB-042",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 50 años, desde hace dos meses presenta pérdida de memoria reciente, lesiones cutáneas asintomáticas y diarrea. Antecedente: gastrectomizado y alcohólico crónico. Examen: desnutrido; placas de color rojo-pardo, con escamas y costras gruesas de bordes definidos en dorso de las manos, superficie de extensión de los antebrazos y escote (collar de Casal) respeta zonas no expuestas al sol, glositis, marcha atáxica. ¿Qué micronutriente está en déficit?",
+      "opciones": [
+        "Niacina",
+        "Ácido ascórbico",
+        "Selenio",
+        "Zinc",
+        "Ceftriaxona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta signos típicos de deficiencia de niacina (vitamina B3), como las lesiones cutáneas en áreas expuestas al sol (collar de Casal), diarrea, glositis y pérdida de memoria reciente. Estos son síntomas clásicos de la pelagra, que se asocia a la falta de niacina, especialmente en individuos con desnutrición, como los alcohólicos crónicos o personas con resección gástrica. La pelagra se caracteriza por las \"3 D\": dermatitis, diarrea y demencia.",
+      "comentario": "El paciente presenta signos típicos de deficiencia de niacina (vitamina B3), como las lesiones cutáneas en áreas expuestas al sol (collar de Casal), diarrea, glositis y pérdida de memoria reciente. Estos son síntomas clásicos de la pelagra, que se asocia a la falta de niacina, especialmente en individuos con desnutrición, como los alcohólicos crónicos o personas con resección gástrica. La pelagra se caracteriza por las \"3 D\": dermatitis, diarrea y demencia.",
+      "tema": "Pelagra: déficit de niacina",
+      "año": 2024
+    },
+    {
+      "id": "CB-043",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 63 años con antecedente de pielolitotomía por cálculo urinario en riñón derecho ptósico. Evoluciona con hipoestesia en la región anterior del muslo y cara medial de la pierna derecha. ¿Cuál es el nervio lesionado?",
+      "opciones": [
+        "Ciático",
+        "Femoral",
+        "Tibial",
+        "Sural",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta hipoestesia en la región anterior del muslo y cara medial de la pierna derecha, lo que sugiere una lesión del nervio femoral. Este nervio es responsable de la sensibilidad en esas áreas y puede verse afectado en procedimientos quirúrgicos como la pielolitotomía, especialmente si se realiza en un riñón ptósico.",
+      "comentario": "El paciente presenta hipoestesia en la región anterior del muslo y cara medial de la pierna derecha, lo que sugiere una lesión del nervio femoral. Este nervio es responsable de la sensibilidad en esas áreas y puede verse afectado en procedimientos quirúrgicos como la pielolitotomía, especialmente si se realiza en un riñón ptósico.",
+      "tema": "Lesión del nervio femoral",
+      "año": 2024
+    },
+    {
+      "id": "CB-044",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 60 años luego de discusión familiar presenta taquicardia y presión arterial elevada. Estos signos están mediados principalmente por la liberación de:",
+      "opciones": [
+        "Acetilcolina y Adrenalina",
+        "Noradrenalina y Acetilcolina",
+        "Noradrenalina y Adrenalina",
+        "Dopamina y Serotonina",
+        "Omeprazol"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La taquicardia y la presión arterial elevada que ocurren después de una situación de estrés, como una discusión familiar, están principalmente mediadas por la liberación de adrenalina y noradrenalina. Estas sustancias son liberadas por las glándulas suprarrenales y las terminaciones nerviosas del sistema simpático en respuesta al estrés, lo que aumenta la frecuencia cardíaca y la presión arterial, preparando al cuerpo para una posible respuesta de \"lucha o huida\". La acetilcolina, en cambio, está más asociada con la activación del sistema nervioso parasimpático, que tiene efectos contrarios, como la disminución de la frecuencia cardíaca.",
+      "comentario": "La taquicardia y la presión arterial elevada que ocurren después de una situación de estrés, como una discusión familiar, están principalmente mediadas por la liberación de adrenalina y noradrenalina. Estas sustancias son liberadas por las glándulas suprarrenales y las terminaciones nerviosas del sistema simpático en respuesta al estrés, lo que aumenta la frecuencia cardíaca y la presión arterial, preparando al cuerpo para una posible respuesta de \"lucha o huida\". La acetilcolina, en cambio, está más asociada con la activación del sistema nervioso parasimpático, que tiene efectos contrarios, como la disminución de la frecuencia cardíaca.",
+      "tema": "Estrés agudo: adrenalina y noradrenalina",
+      "año": 2024
+    },
+    {
+      "id": "CB-045",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 35 años presenta intolerancia al calor, taquicardia y pérdida de peso. Se le diagnostica hipertiroidismo. ¿Cuál de los siguientes cambios es más probable que presente?",
+      "opciones": [
+        "Aumento del colesterol plasmático",
+        "Disminución de la motilidad intestinal",
+        "Aumento del metabolismo basal",
+        "Disminución del gasto cardíaco",
+        "Clindamicina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente presenta un cuadro clínico compatible con hipertiroidismo, caracterizado por intolerancia al calor, taquicardia y pérdida de peso. Estas manifestaciones reflejan un estado hipermetabólico mediado por el exceso de hormonas tiroideas. La respuesta fisiológica más esperable es el aumento del metabolismo basal, que incrementa el consumo de oxígeno y la producción de calor. Esto explica también la pérdida de peso a pesar del apetito normal o aumentado. A diferencia de esto, el colesterol suele disminuir por aumento de su depuración hepática, y la motilidad intestinal se incrementa, provocando a veces diarrea. El gasto cardíaco aumenta debido al efecto cronotrópico e inotrópico positivo de las hormonas tiroideas.",
+      "comentario": "La paciente presenta un cuadro clínico compatible con hipertiroidismo, caracterizado por intolerancia al calor, taquicardia y pérdida de peso. Estas manifestaciones reflejan un estado hipermetabólico mediado por el exceso de hormonas tiroideas. La respuesta fisiológica más esperable es el aumento del metabolismo basal, que incrementa el consumo de oxígeno y la producción de calor. Esto explica también la pérdida de peso a pesar del apetito normal o aumentado. A diferencia de esto, el colesterol suele disminuir por aumento de su depuración hepática, y la motilidad intestinal se incrementa, provocando a veces diarrea. El gasto cardíaco aumenta debido al efecto cronotrópico e inotrópico positivo de las hormonas tiroideas.",
+      "tema": "Hipertiroidismo: aumento del metabolismo basal",
+      "año": 2024
+    },
+    {
+      "id": "CB-046",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Primigesta de 35 años, acude a control con ecografía del segundo trimestre que muestra feto con agenesia renal unilateral. ¿Cuál es la estructura embriológica responsable?",
+      "opciones": [
+        "Pronefro",
+        "Metanefro",
+        "Mesonefro",
+        "Mesodermo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La agenesia renal unilateral es una malformación congénita que se origina por un defecto en la formación del sistema urinario definitivo. Durante la embriogénesis, el sistema urinario se desarrolla en tres fases: pronefro (rudimentario y transitorio), mesonefro (funcional transitorio) y metanefro (definitivo). El metanefro aparece a partir de la 5.ª semana y es el precursor del riñón permanente. La ausencia del desarrollo del metanefro o su interacción con el brote ureteral da lugar a agenesia renal. Por ta nto, la estructura embriológica directamente responsable de esta alteración es el metanefro, y no las fases previas ni el mesodermo de manera general.",
+      "comentario": "La agenesia renal unilateral es una malformación congénita que se origina por un defecto en la formación del sistema urinario definitivo. Durante la embriogénesis, el sistema urinario se desarrolla en tres fases: pronefro (rudimentario y transitorio), mesonefro (funcional transitorio) y metanefro (definitivo). El metanefro aparece a partir de la 5.ª semana y es el precursor del riñón permanente. La ausencia del desarrollo del metanefro o su interacción con el brote ureteral da lugar a agenesia renal. Por ta nto, la estructura embriológica directamente responsable de esta alteración es el metanefro, y no las fases previas ni el mesodermo de manera general.",
+      "tema": "Agenesia renal: metanefros",
+      "año": 2024
+    },
+    {
+      "id": "CB-047",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 35 años, desde hace tres meses presenta cefalea, diarrea, fatiga y dolores articulares. Trabaja como reciclador de baterías de automóvil. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Deficiencia de niacina",
+        "Gastroenterocolitis",
+        "Intoxicación por plomo",
+        "Enfermedad de Reiter",
+        "Prednisona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulto joven con clínica subaguda de cefalea, diarrea, fatiga y artralgias persistentes durante 3 meses. El dato más relevante es su ocupación como reciclador de baterías, lo que conlleva una alta exposición a compuestos de plomo. La intoxicación crónica por plomo afecta múltiples sistemas: neurológico (cefalea, irritabilidad), digestivo (dolor abdominal, constipación o diarrea), hematológico (anemia microcítica hipocrómica), y musculoesquelético (dolor articular y miopatías). No hay evidencias clínicas que orienten a enfermedad de Reiter (artritis reactiva postinfecciosa) ni signos cutáneos o digestivos de pelagra (déficit de niacina). La gastroenterocolitis aguda no explica la evolución prolongada. Se debe considerar plumbemia y descartar intoxicación laboral. Por tanto, el diagnóstico más probable es intoxicación crónica por plomo, dadas la clínica y la exposición ocupacional prolongada.",
+      "comentario": "Paciente adulto joven con clínica subaguda de cefalea, diarrea, fatiga y artralgias persistentes durante 3 meses. El dato más relevante es su ocupación como reciclador de baterías, lo que conlleva una alta exposición a compuestos de plomo. La intoxicación crónica por plomo afecta múltiples sistemas: neurológico (cefalea, irritabilidad), digestivo (dolor abdominal, constipación o diarrea), hematológico (anemia microcítica hipocrómica), y musculoesquelético (dolor articular y miopatías). No hay evidencias clínicas que orienten a enfermedad de Reiter (artritis reactiva postinfecciosa) ni signos cutáneos o digestivos de pelagra (déficit de niacina). La gastroenterocolitis aguda no explica la evolución prolongada. Se debe considerar plumbemia y descartar intoxicación laboral. Por tanto, el diagnóstico más probable es intoxicación crónica por plomo, dadas la clínica y la exposición ocupacional prolongada.",
+      "tema": "Intoxicación crónica por plomo",
+      "año": 2024
+    },
+    {
+      "id": "CB-048",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 27 años, ingresa a emergencia por ingerir pesticida. Llegó con broncorrea, diaforesis intensa, fasciculaciones musculares y bradicardia; recibió tratamiento agresivo hasta la reversión de los síntomas. Examen: PA 150/100 mmHg, FC 130 X', FR 22 X', T 38.5°C, SatO₂ 99%; desorientado, agitado; piel rubicunda, caliente y seca. Pupilas midriáticas bilateral, visión borrosa. Abdomen: distendido, RHA ausentes, presencia de globo vesical. ¿Cuál es la causa de este cuadro clínico?",
+      "opciones": [
+        "Toxicidad anticolinérgica",
+        "Síndrome serotoninérgico",
+        "Respuesta muscarínica",
+        "Inhibición de la acetilcolinesterasa",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente masculino joven con antecedente de intoxicación por pesticida, que cursa inicialmente con signos de hiperactividad colinérgica (broncorrea, fasciculaciones, bradicardia). Sin embargo, tras tratamiento, presenta un giro clínico: piel seca, rubicunda, pupilas midriáticas, globo vesical y RHA ausentes, compatible con un síndrome anticolinérgico. Esta transición puede explicarse por el uso excesivo de atropina, antídoto clásico en intoxicaciones por inhibidores de la acetilcolinesterasa (como los organofosforados). En este caso, los signos actuales no corresponden a una intoxicación colinérgica ni a síndrome serotoninérgico (donde hay clonus, hiperreflexia, diaforesis). La clínica indica una inhibición parasimpática periférica: midriasis, retención urinaria, íleo paralítico y alteración del sensorio. Por lo tanto, el cuadro actual es secundario a toxicidad anticolinérgica iatrogénica, probablemente por atropinización excesiva.",
+      "comentario": "Paciente masculino joven con antecedente de intoxicación por pesticida, que cursa inicialmente con signos de hiperactividad colinérgica (broncorrea, fasciculaciones, bradicardia). Sin embargo, tras tratamiento, presenta un giro clínico: piel seca, rubicunda, pupilas midriáticas, globo vesical y RHA ausentes, compatible con un síndrome anticolinérgico. Esta transición puede explicarse por el uso excesivo de atropina, antídoto clásico en intoxicaciones por inhibidores de la acetilcolinesterasa (como los organofosforados). En este caso, los signos actuales no corresponden a una intoxicación colinérgica ni a síndrome serotoninérgico (donde hay clonus, hiperreflexia, diaforesis). La clínica indica una inhibición parasimpática periférica: midriasis, retención urinaria, íleo paralítico y alteración del sensorio. Por lo tanto, el cuadro actual es secundario a toxicidad anticolinérgica iatrogénica, probablemente por atropinización excesiva.",
+      "tema": "Toxicidad anticolinérgica tras tratar organofosforados",
+      "año": 2025
+    },
+    {
+      "id": "CB-049",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Escolar de 8 años, procede de área rural, mientras jugaba presenta dolor tipo punzante en muslo izquierdo que se incrementa y presenta prurito y piloerección local. Dos horas después cefalea, parestesias generalizadas, espasmos musculares dolorosos, dolor tóraxico opresivo. Examen: FC 145 X', FR 32 X', PA 140/90 mmHg, pálido, diaforético. Muslo izquierdo: presencia de punto blanco y halo hiperémico circundante. ¿Qué agente causó esta patología?",
+      "opciones": [
+        "Latrodectus mactans",
+        "Tityus trivittatus",
+        "Alacrán chamuco",
+        "Loxosceles laeta",
+        "Tramadol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Niño procedente de zona rural con clínica neuromuscular aguda tras mordedura: dolor local con piloerección, seguido de síntomas autonómicos y neurológicos como espasmos musculares, cefalea, hipertensión y diaforesis. El hallazgo de halo eritematoso con punto central sugiere picadura de Latrodectus mactans, conocida como viuda negra, cuyo veneno (alfa-latrotoxina) estimula liberación masiva de neurotransmisores, provocando la clínica descrita. El diagnóstico es clínico, basado en síntomas vegetativos y neuromusculares posteriores a picadura. Se trata de un cuadro típico de latrodectismo.",
+      "comentario": "Niño procedente de zona rural con clínica neuromuscular aguda tras mordedura: dolor local con piloerección, seguido de síntomas autonómicos y neurológicos como espasmos musculares, cefalea, hipertensión y diaforesis. El hallazgo de halo eritematoso con punto central sugiere picadura de Latrodectus mactans, conocida como viuda negra, cuyo veneno (alfa-latrotoxina) estimula liberación masiva de neurotransmisores, provocando la clínica descrita. El diagnóstico es clínico, basado en síntomas vegetativos y neuromusculares posteriores a picadura. Se trata de un cuadro típico de latrodectismo.",
+      "tema": "Latrodectismo",
+      "año": 2025
+    },
+    {
+      "id": "CB-050",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "El periodo …. se extiende desde la segunda hasta la octava semana después de la concepción. Abarca la organogénesis, por lo que es el período más crucial respecto a las malformaciones estructurales.",
+      "opciones": [
+        "Fetal",
+        "Embrionario",
+        "Preimplantación",
+        "Teratogénico",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La pregunta se centra en identificar el periodo del desarrollo prenatal más vulnerable a malformaciones estructurales. El periodo embrionario se extiende desde la segunda hasta la octava semana postconcepción, etapa en la que ocurre la organogénesis, es decir, la formación de los órganos y estructuras principales del cuerpo. Es el tiempo en el que los órganos en desarrollo son más susceptibles a factores teratogénicos, como fármacos, infecciones o radiación. El periodo fetal, en cambio, inicia después de la octava semana y se enfoca en el crecimiento y maduración. La opción “teratogénico” no describe una etapa cronológica sino un concepto. Por tanto, la respuesta correcta es periodo embrionario.",
+      "comentario": "La pregunta se centra en identificar el periodo del desarrollo prenatal más vulnerable a malformaciones estructurales. El periodo embrionario se extiende desde la segunda hasta la octava semana postconcepción, etapa en la que ocurre la organogénesis, es decir, la formación de los órganos y estructuras principales del cuerpo. Es el tiempo en el que los órganos en desarrollo son más susceptibles a factores teratogénicos, como fármacos, infecciones o radiación. El periodo fetal, en cambio, inicia después de la octava semana y se enfoca en el crecimiento y maduración. La opción “teratogénico” no describe una etapa cronológica sino un concepto. Por tanto, la respuesta correcta es periodo embrionario.",
+      "tema": "Período embrionario: organogénesis",
+      "año": 2025
+    },
+    {
+      "id": "CB-051",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 28 años, traído por PNP al Servicio de Emergencia, lo encuentran frente a una discoteca con agitación y diaforesis. PA 190/100 mm Hg, FC 132 x', FR 28 x', T 38.8ºC, piel pálida, caliente, sudorosa, pupilas 7.5 mm. Ud. inicialmente indicaría:",
+      "opciones": [
+        "Benzodiazepinas",
+        "Betabloqueantes",
+        "Neurolépticos",
+        "Naloxona",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón de 28 años con cuadro de agitación psicomotora, hipertermia, diaforesis, hipertensión severa y midriasis marcada (7.5 mm), compatible con intoxicación por estimulantes simpaticomiméticos como cocaína o anfetaminas. Fisiopatológicamente, estos agentes aumentan la liberación de catecolaminas (dopamina, noradrenalina y adrenalina), generando hiperactividad adrenérgica y crisis hipertensiva. El manejo inicial se basa en la sedación y control de la hiperactividad adrenérgica mediante benzodiazepinas, que reducen la excitación central, previenen convulsiones y disminuyen la presión arterial por efecto ansiolítico y vasodilatador indirecto. Los betabloqueantes están contraindicados porque pueden inducir vasoconstricción coronaria paradójica por bloqueo beta con estimulación alfa sin oposición.",
+      "comentario": "Varón de 28 años con cuadro de agitación psicomotora, hipertermia, diaforesis, hipertensión severa y midriasis marcada (7.5 mm), compatible con intoxicación por estimulantes simpaticomiméticos como cocaína o anfetaminas. Fisiopatológicamente, estos agentes aumentan la liberación de catecolaminas (dopamina, noradrenalina y adrenalina), generando hiperactividad adrenérgica y crisis hipertensiva. El manejo inicial se basa en la sedación y control de la hiperactividad adrenérgica mediante benzodiazepinas, que reducen la excitación central, previenen convulsiones y disminuyen la presión arterial por efecto ansiolítico y vasodilatador indirecto. Los betabloqueantes están contraindicados porque pueden inducir vasoconstricción coronaria paradójica por bloqueo beta con estimulación alfa sin oposición.",
+      "tema": "Toxíndrome simpaticomimético: benzodiacepinas",
+      "año": 2025
+    },
+    {
+      "id": "CB-052",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿Marque la relación correcta entre agente quimioterápico / efecto tóxico característico?",
+      "opciones": [
+        "L-asparaginasa / Cistitis hemorrágica",
+        "Metotrexato / Neumonitis aguda",
+        "Antraciclinas / Cardiotoxicidad",
+        "Ciclofosfamida / Pancreatitis",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las antraciclinas (como doxorrubicina y daunorrubicina) son agentes quimioterápicos ampliamente usados en neoplasias hematológicas y sólidos. Su principal toxicidad característica es la cardiotoxicidad dosis-dependiente, secundaria a la formación de radicales libres que dañan las membranas mitocondriales del miocito, generando miocardiopatía dilatada irreversible. Esta lesión se diferencia de otras toxicidades agudas (como mielosupresión o mucositis) por su relación directa con la dosis acumulada. Por ello, se recomienda monitorizar la fracción de eyección y limitar la dosis total administrada. Las demás opciones no guardan relación fisiopatológica específica.",
+      "comentario": "Las antraciclinas (como doxorrubicina y daunorrubicina) son agentes quimioterápicos ampliamente usados en neoplasias hematológicas y sólidos. Su principal toxicidad característica es la cardiotoxicidad dosis-dependiente, secundaria a la formación de radicales libres que dañan las membranas mitocondriales del miocito, generando miocardiopatía dilatada irreversible. Esta lesión se diferencia de otras toxicidades agudas (como mielosupresión o mucositis) por su relación directa con la dosis acumulada. Por ello, se recomienda monitorizar la fracción de eyección y limitar la dosis total administrada. Las demás opciones no guardan relación fisiopatológica específica.",
+      "tema": "Antraciclinas: cardiotoxicidad",
+      "año": 2025
+    },
+    {
+      "id": "CB-053",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿Qué característica farmacológica debe tener el anestésico para atravesar con facilidad la barrera hematoencefálica?",
+      "opciones": [
+        "Buena hidrosolubilidad",
+        "Alta liposolubilidad",
+        "Buena fijación a proteínas plasmáticas",
+        "Afinidad a receptores diana",
+        "Derivación a especialista"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La barrera hematoencefálica (BHE) está formada por células endoteliales con uniones estrechas que impiden el paso de moléculas hidrosolubles. Solo las sustancias liposolubles, de bajo peso molecular y no ionizadas atraviesan con facilidad esta barrera. Por ello, los anestésicos con alta liposolubilidad alcanzan rápidamente el sistema nervioso central, generando un inicio de acción veloz. En cambio, los fármacos hidrosolubles o altamente ionizados quedan retenidos en el plasma. Este principio explica la rápida penetración de agentes como el propofol o el tiopental, esenciales para inducir anestesia general.",
+      "comentario": "La barrera hematoencefálica (BHE) está formada por células endoteliales con uniones estrechas que impiden el paso de moléculas hidrosolubles. Solo las sustancias liposolubles, de bajo peso molecular y no ionizadas atraviesan con facilidad esta barrera. Por ello, los anestésicos con alta liposolubilidad alcanzan rápidamente el sistema nervioso central, generando un inicio de acción veloz. En cambio, los fármacos hidrosolubles o altamente ionizados quedan retenidos en el plasma. Este principio explica la rápida penetración de agentes como el propofol o el tiopental, esenciales para inducir anestesia general.",
+      "tema": "Anestésicos: liposolubilidad y barrera hematoencefálica",
+      "año": 2025
+    },
+    {
+      "id": "CB-054",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 35 años que estando en una discoteca, es traído a la emergencia con alteración de la conciencia. Examen: PA 100/60 mmHg, FC 62 X', FR 16 X'; disartria, ataxia e hipotonía. Ante su sospecha diagnóstica, le administra flumazenilo, logrando despertar y comenta que \"féminas le invitaron un trago\". ¿Qué sustancia sospecha le administraron?",
+      "opciones": [
+        "Risperidona",
+        "Diazepam",
+        "Cocaína",
+        "Haloperidol",
+        "Paracetamol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El trastorno de conciencia, disartria, ataxia e hipotonía son hallazgos que se pueden encontrar en una intoxicación por benzodiazepinas, dado su efecto sedante, hipnótico y ansiolítico. En raras ocasiones puede producir también depresión respiratoria y cardiovascular. Por tanto, la alternativa correcta es DIAZEPAM (Opción B). La administración de flumazenilo (un antagonista de las benzodiazepinas) es el antídoto y revierte los efectos de estas drogas.",
+      "comentario": "El trastorno de conciencia, disartria, ataxia e hipotonía son hallazgos que se pueden encontrar en una intoxicación por benzodiazepinas, dado su efecto sedante, hipnótico y ansiolítico. En raras ocasiones puede producir también depresión respiratoria y cardiovascular. Por tanto, la alternativa correcta es DIAZEPAM (Opción B). La administración de flumazenilo (un antagonista de las benzodiazepinas) es el antídoto y revierte los efectos de estas drogas.",
+      "tema": "Intoxicación por benzodiacepinas: respuesta al flumazenilo",
+      "año": 2023
+    },
+    {
+      "id": "CB-055",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Alcohólico de 55 años. Refiere epistaxis frecuentes, sangrado gingival y dolor en la cadera izquierda. Examen: adelgazado, piel con equimosis y petequias en MMSS, muslos y pies. Gingivas con sangrado. El cuadro descrito se correlaciona mejor con la deficiencia de la siguiente vitamina:",
+      "opciones": [
+        "C",
+        "B1",
+        "B6",
+        "K",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El alcoholismo crónico se asocia con malnutrición y deficiencias vitamínicas. El cuadro clínico descrito — sangrados espontáneos, equimosis, petequias, dolor óseo y gingivorragia — es clásico de escorbuto, causado por déficit de vitamina C, esencial en la síntesis de colágeno. No se trata de una coagulopatía por déficit de vitamina K ni de neuropatía (vitamina B1 o B6).",
+      "comentario": "El alcoholismo crónico se asocia con malnutrición y deficiencias vitamínicas. El cuadro clínico descrito — sangrados espontáneos, equimosis, petequias, dolor óseo y gingivorragia — es clásico de escorbuto, causado por déficit de vitamina C, esencial en la síntesis de colágeno. No se trata de una coagulopatía por déficit de vitamina K ni de neuropatía (vitamina B1 o B6).",
+      "tema": "Escorbuto en el alcohólico: vitamina C",
+      "año": 2020
+    },
+    {
+      "id": "CB-056",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Paciente de 10 años de edad, refiere que luego de regresar del campo inicia dolor tipo lanceta urente en pierna derecha, a las 2 horas dolores musculares y temblores de todo el cuerpo. Llevado a emergencia se observa sudoración profusa, sialorrea y rigidez abdominal. En miembro inferior se observa lesión edematosa rojiza. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Leptospirosis",
+        "Loxocelismo",
+        "Escorpionismo",
+        "Lactrodectismo",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico descrito corresponde al lactrodectismo, causado por la mordedura de la viuda negra (Latrodectus). El dolor intenso tipo lanceta, rigidez muscular, sudoración y sialorrea son característicos. La lesión edematosa rojiza también es típica en la zona de la mordedura. Este envenenamiento produce una activación del sistema nervioso autónomo y síntomas sistémicos. El diagnóstico clínico es fundamental para iniciar tratamiento específico y evitar complicaciones. Reconocer esta toxidermia es clave en zonas endémicas.",
+      "comentario": "El cuadro clínico descrito corresponde al lactrodectismo, causado por la mordedura de la viuda negra (Latrodectus). El dolor intenso tipo lanceta, rigidez muscular, sudoración y sialorrea son característicos. La lesión edematosa rojiza también es típica en la zona de la mordedura. Este envenenamiento produce una activación del sistema nervioso autónomo y síntomas sistémicos. El diagnóstico clínico es fundamental para iniciar tratamiento específico y evitar complicaciones. Reconocer esta toxidermia es clave en zonas endémicas.",
+      "tema": "Latrodectismo: dolor, rigidez y sudoración",
+      "año": 2020
+    },
+    {
+      "id": "CB-057",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Un síntoma de COVID-19 es la pérdida del sabor. La causa más probable es que los receptores del sabor no interactúen con las moléculas del olor, por ello los estímulos no serían transportados al sistema nervioso central para su percepción. ¿Qué tipo de células poseen dichos receptores?",
+      "opciones": [
+        "Mioblastos",
+        "Neuroblastos",
+        "Stem cell",
+        "Neuroepiteliales",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La pérdida del sabor en pacientes con COVID-19 se ha atribuido a la afectación del epitelio sensorial, específicamente en las células responsables de la percepción gustativa. Estas células son las neuroepiteliales, que forman parte de las papilas gustativas y se encargan de transformar estímulos químicos en impulsos nerviosos. La infección por SARS-CoV-2 puede dañar directamente estas células o afectar su funcionamiento a través de procesos inflamatorios locales. La interacción entre gusto y olfato también se ve alterada, afectando la percepción completa del sabor.",
+      "comentario": "La pérdida del sabor en pacientes con COVID-19 se ha atribuido a la afectación del epitelio sensorial, específicamente en las células responsables de la percepción gustativa. Estas células son las neuroepiteliales, que forman parte de las papilas gustativas y se encargan de transformar estímulos químicos en impulsos nerviosos. La infección por SARS-CoV-2 puede dañar directamente estas células o afectar su funcionamiento a través de procesos inflamatorios locales. La interacción entre gusto y olfato también se ve alterada, afectando la percepción completa del sabor.",
+      "tema": "Células gustativas: neuroepiteliales",
+      "año": 2020
+    },
+    {
+      "id": "CB-058",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 19 años quien la noche anterior, tras una discusión familiar, se encerró en su dormitorio. En la mañana es encontrada tendida sobre su cama con la piel fría y una respiración poco perceptible. En emergencia entra en un coma profundo con pupilas puntiformes, bradipnea y cianosis. Tras el abordaje inicial, se le administró flumazenilo sin mejoría ¿Cuál será la causa más probable de intoxicación de esta paciente?",
+      "opciones": [
+        "Barbitúricos",
+        "Carbamatos",
+        "Benzodiacepinas",
+        "Fenitoína",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta un cuadro de intoxicación con signos compatibles con depresión del sistema nervioso central: coma profundo, pupilas puntiformes, bradipnea y cianosis. El uso de flumazenilo sin respuesta sugiere que no se trata de una intoxicación por benzodiacepinas. Los barbitúricos también producen depresión del sensorio, bradipnea y coma, y no responden al antídoto de las benzodiacepinas. Además, el antecedente de encierro tras una discusión familiar apunta a intento autolítico. Los carbamatos se asocian más a síntomas colinérgicos.",
+      "comentario": "La paciente presenta un cuadro de intoxicación con signos compatibles con depresión del sistema nervioso central: coma profundo, pupilas puntiformes, bradipnea y cianosis. El uso de flumazenilo sin respuesta sugiere que no se trata de una intoxicación por benzodiacepinas. Los barbitúricos también producen depresión del sensorio, bradipnea y coma, y no responden al antídoto de las benzodiacepinas. Además, el antecedente de encierro tras una discusión familiar apunta a intento autolítico. Los carbamatos se asocian más a síntomas colinérgicos.",
+      "tema": "Intoxicación por barbitúricos: no responde a flumazenilo",
+      "año": 2020
+    },
+    {
+      "id": "CB-059",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Cando se administra una vacuna. ¿Qué tipo de inmunidad se induce?",
+      "opciones": [
+        "Mixta",
+        "Pasiva",
+        "Activa",
+        "Heterógrada",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La inmunización activa es la que se induce mediante vacunas, ya que estas estimulan al sistema inmune a producir anticuerpos y memoria inmunológica duradera. A diferencia de la inmunidad pasiva (que se adquiere por anticuerpos preformados como los de madre a hijo o sueros), la inmunidad activa tarda más en desarrollarse, pero tiene efecto protector prolongado. Esto es esencial en la prevención de enfermedades infecciosas como el sarampión, la hepatitis B, tétanos, entre otras. El objetivo es proteger al individuo y, en muchos casos, alcanzar inmunidad colectiva.",
+      "comentario": "La inmunización activa es la que se induce mediante vacunas, ya que estas estimulan al sistema inmune a producir anticuerpos y memoria inmunológica duradera. A diferencia de la inmunidad pasiva (que se adquiere por anticuerpos preformados como los de madre a hijo o sueros), la inmunidad activa tarda más en desarrollarse, pero tiene efecto protector prolongado. Esto es esencial en la prevención de enfermedades infecciosas como el sarampión, la hepatitis B, tétanos, entre otras. El objetivo es proteger al individuo y, en muchos casos, alcanzar inmunidad colectiva.",
+      "tema": "Vacunas: inmunidad activa",
+      "año": 2020
+    },
+    {
+      "id": "CB-060",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Diabético de 58 años, con sospecha de COVID 19. Al examen: dificultad respiratoria, SatO₂: 84%, Rx de tórax: signos de marcado compromiso alveolar. ¿Cuál célula es la afectada directamente?",
+      "opciones": [
+        "Macrófago alveolar",
+        "Neumocito tipo II",
+        "Neumocito tipo I",
+        "Célula en cepillo",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente diabético con sospecha de COVID-19 y marcada hipoxemia, que presenta infiltrados alveolares en la radiografía, lo cual indica daño pulmonar severo. El SARS-CoV-2 infecta principalmente a los neumocitos tipo II, que expresan la enzima ACE2, puerta de entrada del virus. Estas células son responsables de la producción de surfactante, regeneración del epitelio alveolar y reparación del daño. Al destruirse, se pierde surfactante, colapsa el alvéolo y se perpetúa el daño inflamatorio. Los neumocitos tipo I permiten el intercambio gaseoso, pero no son el blanco primario. Los macrófagos alveolares actúan en la respuesta inmune secundaria. Las células en cepillo tienen función sensorial en la vía aérea, sin relación directa con el daño viral.",
+      "comentario": "Paciente diabético con sospecha de COVID-19 y marcada hipoxemia, que presenta infiltrados alveolares en la radiografía, lo cual indica daño pulmonar severo. El SARS-CoV-2 infecta principalmente a los neumocitos tipo II, que expresan la enzima ACE2, puerta de entrada del virus. Estas células son responsables de la producción de surfactante, regeneración del epitelio alveolar y reparación del daño. Al destruirse, se pierde surfactante, colapsa el alvéolo y se perpetúa el daño inflamatorio. Los neumocitos tipo I permiten el intercambio gaseoso, pero no son el blanco primario. Los macrófagos alveolares actúan en la respuesta inmune secundaria. Las células en cepillo tienen función sensorial en la vía aérea, sin relación directa con el daño viral.",
+      "tema": "SARS-CoV-2: neumocito tipo II",
+      "año": 2021
+    },
+    {
+      "id": "CB-061",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Agricultor de 28 años, desde hace 8 horas presenta dolor abdominal, vómitos y sialorrea. Al examen: FC: 50 x´, fasciculaciones, roncantes difusos, tremor en manos y cara. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Naloxona",
+        "Flumazenilo",
+        "Atropina",
+        "Vitamina K",
+        "Ciprofloxacino"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente agricultor con clínica de intoxicación colinérgica aguda: dolor abdominal, vómitos, sialorrea, bradicardia (FC 50), fasciculaciones y estertores (roncantes) —cuadro típico tras exposición a organofosforados (pesticidas). Estos inhiben la acetilcolinesterasa, provocando acumulación excesiva de acetilcolina. El tratamiento de primera línea es atropina, un anticolinérgico que antagoniza los efectos muscarínicos (bradicardia, sialorrea, broncorrea). Además, se puede usar pralidoxima como antídoto específico, pero la atropina es fundamental y urgente. La naloxona y el flumazenilo están indicados para intoxicaciones por opioides y benzodiacepinas, respectivamente, mientras que la vitamina K se usa en intoxicación por anticoagulantes.",
+      "comentario": "Paciente agricultor con clínica de intoxicación colinérgica aguda: dolor abdominal, vómitos, sialorrea, bradicardia (FC 50), fasciculaciones y estertores (roncantes) —cuadro típico tras exposición a organofosforados (pesticidas). Estos inhiben la acetilcolinesterasa, provocando acumulación excesiva de acetilcolina. El tratamiento de primera línea es atropina, un anticolinérgico que antagoniza los efectos muscarínicos (bradicardia, sialorrea, broncorrea). Además, se puede usar pralidoxima como antídoto específico, pero la atropina es fundamental y urgente. La naloxona y el flumazenilo están indicados para intoxicaciones por opioides y benzodiacepinas, respectivamente, mientras que la vitamina K se usa en intoxicación por anticoagulantes.",
+      "tema": "Intoxicación por organofosforados: atropina",
+      "año": 2021
+    },
+    {
+      "id": "CB-062",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "En el hilio pulmonar derecho, el bronquio está ______ de la arteria pulmonar y en el hilio pulmonar izquierdo el bronquio está ______ de la arteria pulmonar.",
+      "opciones": [
+        "Detrás-debajo",
+        "Delante-detrás",
+        "Arriba-detrás",
+        "Debajo – delante",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La anatomía del hilio pulmonar es clave en la semiología torácica. En el hilio derecho, el bronquio principal se encuentra detrás de la arteria pulmonar, mientras que, en el hilio izquierdo, el bronquio se encuentra debajo de la arteria pulmonar. Este patrón “RALS” (Right Anterior, Left Superior) es un recurso mnemotécnico útil: en el lado derecho la arteria está adelante (bronquio atrás), y en el lado izquierdo la arteria está arriba (bronquio debajo). Esto es relevante para interpretar imágenes como TAC torácico o radiografías. La opción A recoge adecuadamente esta disposición anatómica.",
+      "comentario": "La anatomía del hilio pulmonar es clave en la semiología torácica. En el hilio derecho, el bronquio principal se encuentra detrás de la arteria pulmonar, mientras que, en el hilio izquierdo, el bronquio se encuentra debajo de la arteria pulmonar. Este patrón “RALS” (Right Anterior, Left Superior) es un recurso mnemotécnico útil: en el lado derecho la arteria está adelante (bronquio atrás), y en el lado izquierdo la arteria está arriba (bronquio debajo). Esto es relevante para interpretar imágenes como TAC torácico o radiografías. La opción A recoge adecuadamente esta disposición anatómica.",
+      "tema": "Anatomía del hilio pulmonar",
+      "año": 2021
+    },
+    {
+      "id": "CB-063",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "En una consulta de control de salud en el trabajo, la radiografía de un trabajador muestra una tumoración a nivel de la língula. La lesión se ubicaría en:",
+      "opciones": [
+        "Bronquio derecho",
+        "Pulmón izquierdo",
+        "Pulmón derecho",
+        "Carina traqueal",
+        "Diazepam"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La língula es una estructura del lóbulo superior del pulmón izquierdo, considerada análoga al lóbulo medio del pulmón derecho. Su nombre deriva de su forma de “lengüeta”. Una lesión en la língula, evidenciada radiológicamente, indica afectación pulmonar izquierda, no bronquial ni de carina. Esta localización es importante para el diagnóstico diferencial de nódulos o masas en imágenes de tórax. Dado que la carina está a nivel central y la língula es periférica y exclusiva del lado izquierdo, se confirma que la opción correcta es pulmón izquierdo.",
+      "comentario": "La língula es una estructura del lóbulo superior del pulmón izquierdo, considerada análoga al lóbulo medio del pulmón derecho. Su nombre deriva de su forma de “lengüeta”. Una lesión en la língula, evidenciada radiológicamente, indica afectación pulmonar izquierda, no bronquial ni de carina. Esta localización es importante para el diagnóstico diferencial de nódulos o masas en imágenes de tórax. Dado que la carina está a nivel central y la língula es periférica y exclusiva del lado izquierdo, se confirma que la opción correcta es pulmón izquierdo.",
+      "tema": "Língula: pulmón izquierdo",
+      "año": 2021
+    },
+    {
+      "id": "CB-064",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "El aumento de la presión parcial de CO2 arterial estimula la respiración. ¿A qué nivel de localización se encuentran los receptores que generan dicha estimulación?",
+      "opciones": [
+        "Cuerpos carotídeos y aórticos",
+        "Haz espinoso de la médula espinal",
+        "Nervio hipogloso intracraneal",
+        "Bulbo raquídeo y protuberancia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El CO₂ estimula la respiración sobre todo a través de los quimiorreceptores centrales del bulbo raquídeo: el CO₂ atraviesa la barrera hematoencefálica, baja el pH del LCR y los H⁺ activan estas neuronas, que explican alrededor del 70-80% de la respuesta ventilatoria a la hipercapnia. Los cuerpos carotídeos y aórticos (quimiorreceptores periféricos) responden principalmente a la hipoxemia y solo en menor medida al CO₂.",
+      "comentario": "El CO₂ estimula la respiración sobre todo a través de los quimiorreceptores centrales del bulbo raquídeo: el CO₂ atraviesa la barrera hematoencefálica, baja el pH del LCR y los H⁺ activan estas neuronas, que explican alrededor del 70-80% de la respuesta ventilatoria a la hipercapnia. Los cuerpos carotídeos y aórticos (quimiorreceptores periféricos) responden principalmente a la hipoxemia y solo en menor medida al CO₂.",
+      "tema": "Quimiorreceptores centrales: respuesta al CO₂",
+      "año": 2021
+    },
+    {
+      "id": "CB-065",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "El aire inspirado que fisiológicamente NO participa en la hematosis corresponde a:",
+      "opciones": [
+        "Volumen residual",
+        "Volumen tidal",
+        "Capacidad vital",
+        "Espacio muerto",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El espacio muerto se refiere al volumen de aire que se encuentra en las vías respiratorias de conducción (nariz, faringe, laringe, tráquea y bronquios) que no participa en los intercambios gaseosos. Aunque forma parte del aire inspirado, no llega a los alvéolos y, por tanto, no contribuye a la hematosis. A diferencia del volumen tidal o la capacidad vital, el espacio muerto representa una fracción funcionalmente inactiva. Su aumento puede verse en patologías como el TEP o EPOC, donde hay ventilación sin perfusión.",
+      "comentario": "El espacio muerto se refiere al volumen de aire que se encuentra en las vías respiratorias de conducción (nariz, faringe, laringe, tráquea y bronquios) que no participa en los intercambios gaseosos. Aunque forma parte del aire inspirado, no llega a los alvéolos y, por tanto, no contribuye a la hematosis. A diferencia del volumen tidal o la capacidad vital, el espacio muerto representa una fracción funcionalmente inactiva. Su aumento puede verse en patologías como el TEP o EPOC, donde hay ventilación sin perfusión.",
+      "tema": "Espacio muerto",
+      "año": 2021
+    },
+    {
+      "id": "CB-066",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "La capacidad vital está conformada por: volumen corriente + ______",
+      "opciones": [
+        "Reserva espiratoria + reserva inspiratoria",
+        "Reserva espiratoria + volumen residual",
+        "Volumen residual + volumen de reserva inspiratoria",
+        "Volumen residual + volumen inspiratorio",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La capacidad vital es el volumen máximo que puede espirarse tras una inspiración máxima: volumen corriente + volumen de reserva inspiratoria + volumen de reserva espiratoria. No incluye el volumen residual, que queda en el pulmón y no puede expulsarse; la suma de la capacidad vital y el volumen residual es la capacidad pulmonar total.",
+      "comentario": "La capacidad vital es el volumen máximo que puede espirarse tras una inspiración máxima: volumen corriente + volumen de reserva inspiratoria + volumen de reserva espiratoria. No incluye el volumen residual, que queda en el pulmón y no puede expulsarse; la suma de la capacidad vital y el volumen residual es la capacidad pulmonar total.",
+      "tema": "Capacidad vital",
+      "año": 2021
+    },
+    {
+      "id": "CB-067",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "El coeficiente de difusión del oxígeno comparado con el coeficiente de difusión del CO2 es:",
+      "opciones": [
+        "Mayor porque el oxígeno se combina con la hemoglobina",
+        "Menor porque el oxígeno es menos soluble",
+        "Mayor porque es alta su gradiente de presión",
+        "Básicamente es igual",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El CO₂ difunde a través de la membrana alveolocapilar unas 20 veces más rápido que el O₂. Ambos gases tienen tamaño parecido, pero el CO₂ es mucho más soluble en agua, y el coeficiente de difusión es proporcional a la solubilidad. Por eso el O₂ necesita un gradiente de presión mucho mayor (unos 60 mmHg frente a unos 5 mmHg del CO₂) y su intercambio se afecta antes cuando la membrana está engrosada.",
+      "comentario": "El CO₂ difunde a través de la membrana alveolocapilar unas 20 veces más rápido que el O₂. Ambos gases tienen tamaño parecido, pero el CO₂ es mucho más soluble en agua, y el coeficiente de difusión es proporcional a la solubilidad. Por eso el O₂ necesita un gradiente de presión mucho mayor (unos 60 mmHg frente a unos 5 mmHg del CO₂) y su intercambio se afecta antes cuando la membrana está engrosada.",
+      "tema": "Difusión del oxígeno frente al CO₂",
+      "año": 2021
+    },
+    {
+      "id": "CB-068",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 25 años consulta por infertilidad. Los exámenes auxiliares evidencian un problema de maduración de los espermatozoides. Los exámenes de la esposa resultaron normales. La explicación a esta situación se debe a disfunción del/de la ______",
+      "opciones": [
+        "Cuerpo del epidídimo",
+        "Conducto eyaculador",
+        "Vesícula seminal",
+        "Conducto deferente",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente varón de 25 años consulta por infertilidad, hallándose alteración en la maduración espermática. El proceso normal de espermatogénesis se inicia en los túbulos seminíferos, pero la maduración funcional del espermatozoide —que incluye adquisición de motilidad y capacidad fecundante — ocurre en el epidídimo, específicamente en su porción media o cuerpo. Una disfunción a este nivel comprometería la calidad del semen pese a una espermatogénesis conservada. Las estructuras como los conductos deferentes y vesículas seminales están implicadas en el transporte y volumen del semen, no en su maduración. Dado que el estudio de la esposa es normal, se confirma origen masculino.",
+      "comentario": "Paciente varón de 25 años consulta por infertilidad, hallándose alteración en la maduración espermática. El proceso normal de espermatogénesis se inicia en los túbulos seminíferos, pero la maduración funcional del espermatozoide —que incluye adquisición de motilidad y capacidad fecundante — ocurre en el epidídimo, específicamente en su porción media o cuerpo. Una disfunción a este nivel comprometería la calidad del semen pese a una espermatogénesis conservada. Las estructuras como los conductos deferentes y vesículas seminales están implicadas en el transporte y volumen del semen, no en su maduración. Dado que el estudio de la esposa es normal, se confirma origen masculino.",
+      "tema": "Maduración espermática: epidídimo",
+      "año": 2021
+    },
+    {
+      "id": "CB-069",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 32 años, con diagnóstico de Giardiasis intestinal, en el cuarto día de tratamiento con metronidazol 500 mg dos veces al día, luego de participar en una reunión social donde ingiere licor, lo llevan a la emergencia por presentar dificultad respiratoria, náuseas, vómitos, palpitaciones y excitación psicomotriz. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Efecto antabus",
+        "Ingesta excesiva de alimentos grasos",
+        "Excesiva dosis de metronidazol",
+        "Toxicidad por alcohol",
+        "Valores normales"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente con giardiasis, tratado con metronidazol, presenta síntomas abruptos tras ingerir alcohol: disnea, náuseas, vómitos, palpitaciones y agitación. Esto sugiere una reacción tipo antabus (efecto disulfiram-like), que ocurre por la inhibición del aldehído deshidrogenasa, acumulando acetaldehído en el organismo. El metronidazol es uno de los fármacos más conocidos por generar esta reacción si se combina con alcohol. Los síntomas son característicos y autolimitados si se suspende el consumo de licor. No se trata de sobredosis ni de toxicidad directa por el fármaco ni de efecto de alimentos.",
+      "comentario": "El paciente con giardiasis, tratado con metronidazol, presenta síntomas abruptos tras ingerir alcohol: disnea, náuseas, vómitos, palpitaciones y agitación. Esto sugiere una reacción tipo antabus (efecto disulfiram-like), que ocurre por la inhibición del aldehído deshidrogenasa, acumulando acetaldehído en el organismo. El metronidazol es uno de los fármacos más conocidos por generar esta reacción si se combina con alcohol. Los síntomas son característicos y autolimitados si se suspende el consumo de licor. No se trata de sobredosis ni de toxicidad directa por el fármaco ni de efecto de alimentos.",
+      "tema": "Metronidazol y alcohol: efecto antabús",
+      "año": 2021
+    },
+    {
+      "id": "CB-070",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Preescolar de 3 años con familia en extrema pobreza, hace 3 meses presenta fatiga, anorexia, náuseas, dolor abdominal, diarreas y calambres. Recibe tratamiento variados sin mejoría. Antecedentes: no recibió lactancia materna. Dieta pobre en carnes. Al examen: muy adelgazado, edematoso, pálido y presenta marcada disminución de los reflejos tendinosos profundos. ¿Qué déficit vitamínico es el más probable?",
+      "opciones": [
+        "Riboflavina",
+        "Tiamina",
+        "Piridoxina",
+        "Niacina",
+        "Omeprazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Niño con malnutrición, dieta deficiente en carnes, síntomas neuromusculares (calambres, hiporreflexia) y edema sugiere un déficit de tiamina (vitamina B1). Este cuadro clínico es compatible con beriberi seco, asociado al sistema nervioso periférico. La tiamina es vital en el metabolismo energético celular y su deficiencia es frecuente en contextos de pobreza, dietas restringidas o lactancia artificial. Riboflavina, piridoxina y niacina producen otros síndromes carenciales distintos, pero no explican con claridad todos los síntomas del caso.",
+      "comentario": "Niño con malnutrición, dieta deficiente en carnes, síntomas neuromusculares (calambres, hiporreflexia) y edema sugiere un déficit de tiamina (vitamina B1). Este cuadro clínico es compatible con beriberi seco, asociado al sistema nervioso periférico. La tiamina es vital en el metabolismo energético celular y su deficiencia es frecuente en contextos de pobreza, dietas restringidas o lactancia artificial. Riboflavina, piridoxina y niacina producen otros síndromes carenciales distintos, pero no explican con claridad todos los síntomas del caso.",
+      "tema": "Déficit de tiamina en el niño desnutrido",
+      "año": 2021
+    },
+    {
+      "id": "CB-071",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 30 años se encuentra amamantando a su bebé. ¿Qué respuesta hormonal se espera en la madre?",
+      "opciones": [
+        "Aumento de la secreción de oxitocina",
+        "Disminución de secreción de FSH",
+        "Disminución de la secreción de prolactina",
+        "Aumento de la secreción de vasopresina",
+        "Atropina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Durante la lactancia materna, el estímulo de succión del pezón genera un reflejo neuroendocrino que activa la liberación de oxitocina desde la neurohipófisis. Esta hormona induce contracción de las células mioepiteliales en los alvéolos mamarios, facilitando la eyección de la leche. En paralelo, la prolactina (de la adenohipófisis) se incrementa para sostener la producción de leche, no disminuye. La FSH se inhibe por el aumento de prolactina, dificultando la ovulación en este periodo. La vasopresina no se altera directamente por la lactancia. La oxitocina también favorece el vínculo materno-infantil.",
+      "comentario": "Durante la lactancia materna, el estímulo de succión del pezón genera un reflejo neuroendocrino que activa la liberación de oxitocina desde la neurohipófisis. Esta hormona induce contracción de las células mioepiteliales en los alvéolos mamarios, facilitando la eyección de la leche. En paralelo, la prolactina (de la adenohipófisis) se incrementa para sostener la producción de leche, no disminuye. La FSH se inhibe por el aumento de prolactina, dificultando la ovulación en este periodo. La vasopresina no se altera directamente por la lactancia. La oxitocina también favorece el vínculo materno-infantil.",
+      "tema": "Lactancia: oxitocina",
+      "año": 2021
+    },
+    {
+      "id": "CB-072",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Diabético de 68 años, bebedor habitual, es traído a Emergencia por presentar mareos asociados a vómitos y visión borrosa. Al examen: FR 35 x', SaO₂ 98%, FC 115 x', PA 90/60 mmHg. SNC: somnoliento, refiere visión de bultos. AGA: acidosis metabólica con anión gap elevado. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Intoxicación por alcohol metílico",
+        "Cetoacidosis diabética",
+        "Intoxicación por metformina",
+        "Acidosis láctica",
+        "Paracetamol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Bebedor que presenta vómitos, visión borrosa (\"visión de bultos\"), somnolencia, taquipnea y acidosis metabólica con anión gap elevado: el cuadro orienta a intoxicación por metanol (alcohol adulterado). Su metabolito, el ácido fórmico, daña la retina y el nervio óptico y causa acidosis grave. Se trata con fomepizol o etanol, bicarbonato y hemodiálisis. La cetoacidosis diabética no explica la alteración visual.",
+      "comentario": "Bebedor que presenta vómitos, visión borrosa (\"visión de bultos\"), somnolencia, taquipnea y acidosis metabólica con anión gap elevado: el cuadro orienta a intoxicación por metanol (alcohol adulterado). Su metabolito, el ácido fórmico, daña la retina y el nervio óptico y causa acidosis grave. Se trata con fomepizol o etanol, bicarbonato y hemodiálisis. La cetoacidosis diabética no explica la alteración visual.",
+      "tema": "Intoxicación por metanol: visión borrosa y anión gap alto",
+      "año": 2022
+    },
+    {
+      "id": "CB-073",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 25 años, es traído a Emergencia por haber sido encontrado desmayado cuando realizaba la limpieza y mantenimiento de un pozo séptico. Al examen: PA 100/60 mmHg, FC 100 x', FR 26 x', SatO₂ 96%, disneico, leve cianosis, despierto, aunque desorientado, congestión ocular y tos exigente. ¿Cuál es el agente causal del cuadro?",
+      "opciones": [
+        "Cianuro",
+        "Ácido sulfhídrico",
+        "Monóxido de carbono",
+        "Ácido fluorhídrico",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Trabajador que se desmaya al limpiar un pozo séptico: la materia orgánica en descomposición libera ácido sulfhídrico (H₂S), gas con olor a huevo podrido que produce fatiga olfatoria, irritación ocular y respiratoria (conjuntivitis, tos, edema pulmonar) y, a concentraciones altas, pérdida brusca de la conciencia (\"knockdown\") por bloqueo de la citocromo oxidasa. La SatO₂ puede ser normal. El monóxido de carbono se asocia a combustión en ambientes cerrados y el cianuro a incendios o industria.",
+      "comentario": "Trabajador que se desmaya al limpiar un pozo séptico: la materia orgánica en descomposición libera ácido sulfhídrico (H₂S), gas con olor a huevo podrido que produce fatiga olfatoria, irritación ocular y respiratoria (conjuntivitis, tos, edema pulmonar) y, a concentraciones altas, pérdida brusca de la conciencia (\"knockdown\") por bloqueo de la citocromo oxidasa. La SatO₂ puede ser normal. El monóxido de carbono se asocia a combustión en ambientes cerrados y el cianuro a incendios o industria.",
+      "tema": "Intoxicación por ácido sulfhídrico en pozo séptico",
+      "año": 2022
+    },
+    {
+      "id": "CB-074",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 5 años sufre intoxicación por monóxido de carbono (CO) por inhalación de humo. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Oxígeno al 50%",
+        "Oxígeno al 100%",
+        "Oxígeno hiperbárico",
+        "Tiosulfato de sodio",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El tratamiento inicial para la intoxicación por monóxido de carbono (CO) es la administración de oxígeno al 100%, lo que ayuda a acelerar la eliminación del CO del cuerpo y a restaurar la oxigenación adecuada de los tejidos. La oxigenoterapia al 100% se debe administrar de inmediato, ya que el CO se une a la hemoglobina con mayor afinidad que el oxígeno, y esta intervención permite desplazar el CO de la hemoglobina y aumentar el suministro de oxígeno a los órganos vitales.",
+      "comentario": "El tratamiento inicial para la intoxicación por monóxido de carbono (CO) es la administración de oxígeno al 100%, lo que ayuda a acelerar la eliminación del CO del cuerpo y a restaurar la oxigenación adecuada de los tejidos. La oxigenoterapia al 100% se debe administrar de inmediato, ya que el CO se une a la hemoglobina con mayor afinidad que el oxígeno, y esta intervención permite desplazar el CO de la hemoglobina y aumentar el suministro de oxígeno a los órganos vitales.",
+      "tema": "Intoxicación por monóxido de carbono: oxígeno al 100%",
+      "año": 2023
+    },
+    {
+      "id": "CB-075",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Durante la reparación de las heridas se observan células conocidas como miofibroblastos que se diferencian de los fibroblastos por tener mayor cantidad de:",
+      "opciones": [
+        "Cromogranina y vimentina.",
+        "Desmina y distrofina.",
+        "Actina y miosina.",
+        "Citoqueratina y nebulina.",
+        "Epinefrina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Durante el proceso de cicatrización, los miofibroblastos desempeñan un papel clave en la contracción de la herida y la remodelación de la matriz extracelular. Estas células derivan de los fibroblastos y se diferencian por adquirir características contráctiles similares a las de las células musculares lisas. En particular, los miofibroblastos expresan mayores cantidades de actina alfa del músculo liso y miosina, proteínas fundamentales para generar fuerza contráctil. Esta capacidad permite que colaboren activamente en la reducción del tamaño de la herida al acercar los bordes del tejido dañado. En contraste, los fibroblastos típicos carecen de ese fenotipo contráctil especializado. Las otras opciones (desmina, cromogranina, citoqueratina) corresponden a otros tipos celulares.",
+      "comentario": "Durante el proceso de cicatrización, los miofibroblastos desempeñan un papel clave en la contracción de la herida y la remodelación de la matriz extracelular. Estas células derivan de los fibroblastos y se diferencian por adquirir características contráctiles similares a las de las células musculares lisas. En particular, los miofibroblastos expresan mayores cantidades de actina alfa del músculo liso y miosina, proteínas fundamentales para generar fuerza contráctil. Esta capacidad permite que colaboren activamente en la reducción del tamaño de la herida al acercar los bordes del tejido dañado. En contraste, los fibroblastos típicos carecen de ese fenotipo contráctil especializado. Las otras opciones (desmina, cromogranina, citoqueratina) corresponden a otros tipos celulares.",
+      "tema": "Miofibroblastos: actina y miosina",
+      "año": 2023
+    },
+    {
+      "id": "CB-076",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Maratonista que realiza ejercicio aeróbico por tiempo prolongado. A nivel del tejido hepático ¿Cuál es la principal respuesta metabólica-fisiológica que espera encontrar?",
+      "opciones": [
+        "Activación de la gluconeogénesis",
+        "Reducción de la glicólisis",
+        "Reducción de la glucogenólisis",
+        "Activación de la glucogenosíntesis",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Durante el ejercicio aeróbico prolongado, el cuerpo necesita mantener los niveles de glucosa en sangre para proporcionar energía continua a los músculos. Cuando las reservas de glucógeno hepático se agotan, el hígado comienza a producir glucosa a partir de precursores no glucídicos como lactato, glicerol y aminoácidos a través de la gluconeogénesis (Alternativa A). Esto ayuda a mantener la glucosa en sangre y a suministrar energía a los tejidos que dependen de ella.",
+      "comentario": "Durante el ejercicio aeróbico prolongado, el cuerpo necesita mantener los niveles de glucosa en sangre para proporcionar energía continua a los músculos. Cuando las reservas de glucógeno hepático se agotan, el hígado comienza a producir glucosa a partir de precursores no glucídicos como lactato, glicerol y aminoácidos a través de la gluconeogénesis (Alternativa A). Esto ayuda a mantener la glucosa en sangre y a suministrar energía a los tejidos que dependen de ella.",
+      "tema": "Ejercicio prolongado: gluconeogénesis hepática",
+      "año": 2024
+    },
+    {
+      "id": "CB-077",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 30 años, fisicoculturista con dolor en el antebrazo y debilidad a la pronación. Examen: Prueba de pronación (+). ¿Cuál es el nervio lesionado?",
+      "opciones": [
+        "Musculocutáneo",
+        "Radial",
+        "Mediano",
+        "Cubital",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor en el antebrazo y una prueba de pronación positiva (debilidad o dolor asociado con la pronación del antebrazo) son signos que apuntan directamente a una lesión del nervio mediano (Alternativa C). El nervio mediano se origina de los fascículos lateral y medial del plexo braquial y es responsable de la inervación motora de varios músculos del antebrazo anterior, incluyendo el pronador redondo y el pronador cuadrado, los cuales son cruciales para la pronación del antebrazo.",
+      "comentario": "El dolor en el antebrazo y una prueba de pronación positiva (debilidad o dolor asociado con la pronación del antebrazo) son signos que apuntan directamente a una lesión del nervio mediano (Alternativa C). El nervio mediano se origina de los fascículos lateral y medial del plexo braquial y es responsable de la inervación motora de varios músculos del antebrazo anterior, incluyendo el pronador redondo y el pronador cuadrado, los cuales son cruciales para la pronación del antebrazo.",
+      "tema": "Debilidad para la pronación: nervio mediano",
+      "año": 2024
+    },
+    {
+      "id": "CB-078",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es la enzima que inicia el proceso de digestión de proteínas?",
+      "opciones": [
+        "Pepsina",
+        "Lipasa",
+        "Elastasa",
+        "Tripsina",
+        "Ibuprofeno"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La digestión de proteínas comienza en el estómago, donde la pepsina, una enzima proteolítica producida en su forma inactiva como pepsinógeno, se activa en presencia de ácido gástrico. Esta enzima es responsable de descomponer las proteínas en péptidos más pequeños, facilitando su posterior digestión en el intestino delgado.",
+      "comentario": "La digestión de proteínas comienza en el estómago, donde la pepsina, una enzima proteolítica producida en su forma inactiva como pepsinógeno, se activa en presencia de ácido gástrico. Esta enzima es responsable de descomponer las proteínas en péptidos más pequeños, facilitando su posterior digestión en el intestino delgado.",
+      "tema": "Digestión de proteínas: pepsina",
+      "año": 2024
+    }
+  ]
+}

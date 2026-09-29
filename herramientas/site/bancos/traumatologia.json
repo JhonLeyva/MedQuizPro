@@ -1,0 +1,933 @@
+{
+  "especialidad": "Traumatología y Ortopedia",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "TRA-001",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?",
+      "opciones": {
+        "A": "Alta sin inmovilización",
+        "B": "Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días",
+        "C": "Artroscopía de muñeca de urgencia",
+        "D": "Infiltración de corticoide",
+        "E": "Solo antiinflamatorios y movilización precoz"
+      },
+      "clave_correcta": "B",
+      "comentario": "El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."
+    },
+    {
+      "id": "TRA-002",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses, en la evaluación clínica presenta contractura de aductores y asimetría de extremidades. ¿Cuál es el examen auxiliar a solicitar para descartar luxación de cadera?",
+      "opciones": [
+        "Ecografía",
+        "Resonancia magnética",
+        "Radiografía",
+        "Electromiografía",
+        "Electrocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.",
+      "comentario": "En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.",
+      "tema": "Displasia de cadera",
+      "año": 2020
+    },
+    {
+      "id": "TRA-003",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años que acude a consulta por dificultad para cerrar el puño de la mano derecha, producto de herida cortante en la palma de 6 cm de longitud hace 2 semanas. ¿Qué músculo se encuentra lesionado con mayor probabilidad?",
+      "opciones": [
+        "Extensor común de los dedos",
+        "Palmar mayor",
+        "Palmar menor",
+        "Flexor superficial de los dedos",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.",
+      "comentario": "El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.",
+      "tema": "Lesiones de partes blandas",
+      "año": 2020
+    },
+    {
+      "id": "TRA-004",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 20 años ingresa a emergencia tras accidente en moto; presenta aumento marcado de volumen en muslo izquierdo, parestesia y dolor intenso a la extensión. Al examen: ausencia de pulsos poplíteo y pedio. ¿Cuál es la conducta de urgencia a seguir?",
+      "opciones": [
+        "Fasciotomía",
+        "Radiografía de muslo",
+        "Inmovilización",
+        "Ecografía Doppler",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La sospecha de síndrome compartimental por dolor desproporcionado a la elongación pasiva, parestesias y compromiso vascular requiere una descompresión quirúrgica inmediata mediante fasciotomía amplia urgente.",
+      "comentario": "La sospecha de síndrome compartimental por dolor desproporcionado a la elongación pasiva, parestesias y compromiso vascular requiere una descompresión quirúrgica inmediata mediante fasciotomía amplia urgente.",
+      "tema": "Emergencias traumatológicas",
+      "año": 2020
+    },
+    {
+      "id": "TRA-005",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 12 años consulta por pie plano y dolor de espalda. Prueba de Adams revela curvatura lateral anormal de columna dorsal (Rx muestra escoliosis). ¿Cuál es la alteración detectada?",
+      "opciones": [
+        "Lordosis compensatoria",
+        "Cifosis estructural",
+        "Escoliosis estructural",
+        "Fusión del sacro",
+        "Neumonía adquirida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.",
+      "comentario": "La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.",
+      "tema": "Deformidades de columna",
+      "año": 2020
+    },
+    {
+      "id": "TRA-006",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Hombre de 34 años que llega a emergencia luego de sufrir un accidente manejando su auto que fue colisionado en su parte posterior. ¿Qué lesión sospecha en el conductor recién ingresado?",
+      "opciones": [
+        "Lesión cervical",
+        "Ruptura esplácnica",
+        "Neumotórax a tensión",
+        "Lesión aórtica traumática",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón con accidente vehicular por impacto posterior, lo que sugiere un mecanismo de hiperextensión cervical. En este tipo de colisiones, es común la lesión por latigazo o el compromiso medular cervical. Los síntomas pueden no ser evidentes inicialmente, pero se requiere alta sospecha clínica. Las otras opciones (lesiones esplácnicas, neumotórax a tensión, lesión aórtica) son más frecuentes en traumas por impacto frontal o lateral, con síntomas respiratorios o hemodinámicos marcados. Por tanto, la sospecha inmediata debe ser una lesión cervical.",
+      "comentario": "Varón con accidente vehicular por impacto posterior, lo que sugiere un mecanismo de hiperextensión cervical. En este tipo de colisiones, es común la lesión por latigazo o el compromiso medular cervical. Los síntomas pueden no ser evidentes inicialmente, pero se requiere alta sospecha clínica. Las otras opciones (lesiones esplácnicas, neumotórax a tensión, lesión aórtica) son más frecuentes en traumas por impacto frontal o lateral, con síntomas respiratorios o hemodinámicos marcados. Por tanto, la sospecha inmediata debe ser una lesión cervical.",
+      "tema": "Trauma cervical por latigazo",
+      "año": 2020
+    },
+    {
+      "id": "TRA-007",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 32 años que hace 4 horas sufrió accidente de tránsito en motocicleta. Al examen: estable, en pierna derecha se evidencia herida de 12 cm con exposición ósea, contaminación severa, denudación perióstica, pulsos periféricos normales. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Lavado y desbridamiento",
+        "Lavado y fijación externa",
+        "Antibióticos y lavado",
+        "Irrigación y osteosíntesis",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fractura expuesta con herida >10 cm, exposición ósea y denudación perióstica indica una lesión tipo Gustilo-Anderson IIIA. Esta lesión presenta contaminación severa, pero con pulsos presentes y sin compromiso vascular mayor. El primer paso clave es el control del foco séptico: lavado quirúrgico profuso con solución salina y desbridamiento quirúrgico completo del tejido necrótico. Este manejo disminuye la carga bacteriana y previene la infección. La estabilización definitiva, como la fijación externa, se puede plantear luego del desbridamiento inicial. Por tanto, el tratamiento de elección inmediato es el lavado y desbridamiento.",
+      "comentario": "La fractura expuesta con herida >10 cm, exposición ósea y denudación perióstica indica una lesión tipo Gustilo-Anderson IIIA. Esta lesión presenta contaminación severa, pero con pulsos presentes y sin compromiso vascular mayor. El primer paso clave es el control del foco séptico: lavado quirúrgico profuso con solución salina y desbridamiento quirúrgico completo del tejido necrótico. Este manejo disminuye la carga bacteriana y previene la infección. La estabilización definitiva, como la fijación externa, se puede plantear luego del desbridamiento inicial. Por tanto, el tratamiento de elección inmediato es el lavado y desbridamiento.",
+      "tema": "Fractura expuesta de alta energía",
+      "año": 2020
+    },
+    {
+      "id": "TRA-008",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente con dolor en 1/3 distal de muslo izquierdo que lo despierta en las noches, no cede con analgésicos local ni oral, posteriormente aumento de volumen y marcha inestable. Rx. de fémur: destrucción esclerótica de 1/3 distal de fémur. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Osteosarcoma",
+        "Osteomielitis",
+        "Sarcoma de Ewing",
+        "Linfoma",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El dolor óseo nocturno, progresivo y que no cede con analgésicos, acompañado de aumento de volumen y alteraciones radiológicas con destrucción ósea esclerótica, es característico del osteosarcoma, el tumor óseo maligno primario más común en adolescentes. Suele afectar el tercio distal del fémur o proximal de la tibia, en la metáfisis. Requiere diagnóstico histológico, estadiaje completo y tratamiento quirúrgico y quimioterapia.",
+      "comentario": "El dolor óseo nocturno, progresivo y que no cede con analgésicos, acompañado de aumento de volumen y alteraciones radiológicas con destrucción ósea esclerótica, es característico del osteosarcoma, el tumor óseo maligno primario más común en adolescentes. Suele afectar el tercio distal del fémur o proximal de la tibia, en la metáfisis. Requiere diagnóstico histológico, estadiaje completo y tratamiento quirúrgico y quimioterapia.",
+      "tema": "Osteosarcoma",
+      "año": 2020
+    },
+    {
+      "id": "TRA-009",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 75 años, acude porque hace 4 horas sufre caída sobre la mano izquierda extendida, presenta dolor y deformación en tercio medio del brazo izquierdo. Al examen: no puede extender la muñeca y los dedos y no abduce el pulgar. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Fractura de la diáfisis del húmero",
+        "Fractura de epífisis distal del húmero",
+        "Fractura del codo",
+        "Luxación del codo",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón adulto mayor con caída sobre la mano extendida y dolor con deformidad en el tercio medio del brazo, presenta signos de lesión nerviosa como incapacidad para extender muñeca y dedos, y pérdida de abducción del pulgar. Esto es característico de fractura de la diáfisis del húmero, ya que el nervio radial puede lesionarse en esta fractura, causando parálisis de los músculos extensores de la mano. La fractura distal o del codo, o luxación, suelen presentar otros hallazgos clínicos diferentes. El diagnóstico oportuno permite tratamiento adecuado y prevención de secuelas neurológicas.",
+      "comentario": "Varón adulto mayor con caída sobre la mano extendida y dolor con deformidad en el tercio medio del brazo, presenta signos de lesión nerviosa como incapacidad para extender muñeca y dedos, y pérdida de abducción del pulgar. Esto es característico de fractura de la diáfisis del húmero, ya que el nervio radial puede lesionarse en esta fractura, causando parálisis de los músculos extensores de la mano. La fractura distal o del codo, o luxación, suelen presentar otros hallazgos clínicos diferentes. El diagnóstico oportuno permite tratamiento adecuado y prevención de secuelas neurológicas.",
+      "tema": "Fractura de la diáfisis humeral",
+      "año": 2021
+    },
+    {
+      "id": "TRA-010",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, es atendida por atropello de automóvil, presenta dolor, deformación e inmovilidad de pierna derecha. Al examen: aumento de volumen, piel tensa brillante, pulso pedio ausente. Rx pierna: fractura de tibia. ¿Cuál es la indicación pertinente?",
+      "opciones": [
+        "Férula muslo-pié",
+        "Fasciotomía descompresiva",
+        "Fijación externa",
+        "Fijación interna",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Nos encontramos ante un caso clásico de síndrome compartimental agudo postraumático, evidenciado por dolor severo, piel tensa y brillante, y ausencia de pulso distal. Estos signos indican una presión elevada en los compartimentos musculares que compromete la perfusión, lo cual constituye una emergencia quirúrgica. La conducta inmediata no debe ser inmovilizar ni fijar la fractura, ya que ello no resuelve la isquemia tisular. La fasciotomía descompresiva inmediata es la única intervención que puede preservar la viabilidad del miembro. El retraso puede conllevar necrosis muscular, rabdomiólisis e incluso amputación. Este caso refuerza la importancia de reconocer y tratar oportunamente una complicación grave de fractura cerrada.",
+      "comentario": "Nos encontramos ante un caso clásico de síndrome compartimental agudo postraumático, evidenciado por dolor severo, piel tensa y brillante, y ausencia de pulso distal. Estos signos indican una presión elevada en los compartimentos musculares que compromete la perfusión, lo cual constituye una emergencia quirúrgica. La conducta inmediata no debe ser inmovilizar ni fijar la fractura, ya que ello no resuelve la isquemia tisular. La fasciotomía descompresiva inmediata es la única intervención que puede preservar la viabilidad del miembro. El retraso puede conllevar necrosis muscular, rabdomiólisis e incluso amputación. Este caso refuerza la importancia de reconocer y tratar oportunamente una complicación grave de fractura cerrada.",
+      "tema": "Síndrome compartimental agudo",
+      "año": 2021
+    },
+    {
+      "id": "TRA-011",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 30 años que sufre fractura del fémur derecho por un accidente en motocicleta. Luego de 3 días presenta confusión, disnea y erupción petequial en el pecho. Al examen: pulmones normales. AGA: pO₂: 50 mmHg, pCO₂: 28 mmHg, pH: 7.49. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Embolismo graso",
+        "Contusión pulmonar",
+        "Neumonitis química",
+        "Osteomielitis estafilocócica",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Este paciente presenta una triada clásica del síndrome de embolismo graso (SEG): confusión mental, dificultad respiratoria e infiltrados petequiales, con antecedente traumático óseo de gran calibre (fémur). Suele presentarse entre 24 a 72 horas tras el trauma. La hipoxemia severa con alcalosis respiratoria (pO₂: 50, pCO₂: 28, pH: 7.49) confirma un trastorno de oxigenación. Aunque los pulmones están clínicamente normales, el cuadro es sistémico, asociado a microémbolos de grasa liberados a la circulación tras la fractura. Este diagnóstico debe sospecharse en todo paciente con trauma largo y síntomas respiratorios y neurológicos subagudos. El tratamiento es de soporte, con oxígeno y en casos graves, ventilación mecánica.",
+      "comentario": "Este paciente presenta una triada clásica del síndrome de embolismo graso (SEG): confusión mental, dificultad respiratoria e infiltrados petequiales, con antecedente traumático óseo de gran calibre (fémur). Suele presentarse entre 24 a 72 horas tras el trauma. La hipoxemia severa con alcalosis respiratoria (pO₂: 50, pCO₂: 28, pH: 7.49) confirma un trastorno de oxigenación. Aunque los pulmones están clínicamente normales, el cuadro es sistémico, asociado a microémbolos de grasa liberados a la circulación tras la fractura. Este diagnóstico debe sospecharse en todo paciente con trauma largo y síntomas respiratorios y neurológicos subagudos. El tratamiento es de soporte, con oxígeno y en casos graves, ventilación mecánica.",
+      "tema": "Síndrome de embolia grasa",
+      "año": 2021
+    },
+    {
+      "id": "TRA-012",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 50 años se resbala y al caerse el peso de su cuerpo es amortiguado por su extremidad superior izquierda. Al examen: deformación y aumento de volumen de brazo izquierdo, pulsos presentes. RX: fractura del tercio medio de la diáfisis del húmero. ¿Qué manifestación clínica se debe presentar?",
+      "opciones": [
+        "Mano péndula",
+        "Parestesia hipotenar",
+        "Mano en garra",
+        "Llenado capilar prolongado",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fractura del tercio medio del húmero compromete con frecuencia el nervio radial, ya que este pasa por el surco espiral en esa región. El signo clínico característico de esta lesión es la \"mano péndula\", resultado de la parálisis de los músculos extensores de la muñeca. El paciente no puede extender la muñeca ni los dedos, y la mano cuelga flácida. Esta manifestación neurológica es crucial en el diagnóstico y debe guiar tanto el manejo ortopédico como neurológico. La sensibilidad dorsal del antebrazo también puede estar afectada.",
+      "comentario": "La fractura del tercio medio del húmero compromete con frecuencia el nervio radial, ya que este pasa por el surco espiral en esa región. El signo clínico característico de esta lesión es la \"mano péndula\", resultado de la parálisis de los músculos extensores de la muñeca. El paciente no puede extender la muñeca ni los dedos, y la mano cuelga flácida. Esta manifestación neurológica es crucial en el diagnóstico y debe guiar tanto el manejo ortopédico como neurológico. La sensibilidad dorsal del antebrazo también puede estar afectada.",
+      "tema": "Fractura de diáfisis humeral: mano péndula",
+      "año": 2021
+    },
+    {
+      "id": "TRA-013",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Chofer de 28 años que, tras sufrir un accidente de tráfico con impacto frontal, presenta deformidad del miembro inferior derecho en aducción y rotación interna de la cadera. Manipulación le produce intenso dolor en cadera. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Luxación coxofemoral anterior",
+        "Fractura diafisiaria de fémur",
+        "Luxación coxofemoral posterior",
+        "Fractura subtrocantérica de fémur",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón politraumatizado con accidente de alta energía (impacto frontal), lo que sugiere mecanismo indirecto de lesión sobre la cadera. Presenta deformidad en aducción y rotación interna del miembro inferior, hallazgos típicos de luxación coxofemoral posterior. Este tipo de luxación es la más común y ocurre por fuerza axial con la cadera en flexión, como al golpear con las rodillas el tablero del vehículo. El dolor intenso a la manipulación confirma la lesión articular. Las otras alternativas muestran posiciones clínicas distintas. El diagnóstico más probable es luxación coxofemoral posterior.",
+      "comentario": "Varón politraumatizado con accidente de alta energía (impacto frontal), lo que sugiere mecanismo indirecto de lesión sobre la cadera. Presenta deformidad en aducción y rotación interna del miembro inferior, hallazgos típicos de luxación coxofemoral posterior. Este tipo de luxación es la más común y ocurre por fuerza axial con la cadera en flexión, como al golpear con las rodillas el tablero del vehículo. El dolor intenso a la manipulación confirma la lesión articular. Las otras alternativas muestran posiciones clínicas distintas. El diagnóstico más probable es luxación coxofemoral posterior.",
+      "tema": "Luxación posterior de cadera",
+      "año": 2022
+    },
+    {
+      "id": "TRA-014",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 25 años sufre traumatismo del hombro izquierdo, con dolor a la abducción. La resonancia magnética revela compromiso del manguito de los rotadores. ¿Cuál es el músculo más frecuentemente afectado?",
+      "opciones": [
+        "Redondo mayor",
+        "Coracobraquial",
+        "Deltoides",
+        "Supraespinoso",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón joven con traumatismo de hombro e imposibilidad para la abducción sugiere afectación del complejo musculotendinoso del manguito rotador. Este está formado por los músculos supraespinoso, infraespinoso, subescapular y redondo menor. De estos, el supraespinoso es el músculo más frecuentemente comprometido en lesiones traumáticas o degenerativas del manguito, ya que pasa por un espacio estrecho entre el acromion y la cabeza humeral, siendo susceptible a compresión o desgarros. Su función principal es iniciar la abducción del brazo, por lo que el síntoma de dolor o limitación en dicho movimiento apoya el diagnóstico. El redondo mayor, coracobraquial y deltoides no forman parte del manguito rotador. La RMN confirma la lesión del tendón y orienta el manejo quirúrgico o conservador.",
+      "comentario": "Varón joven con traumatismo de hombro e imposibilidad para la abducción sugiere afectación del complejo musculotendinoso del manguito rotador. Este está formado por los músculos supraespinoso, infraespinoso, subescapular y redondo menor. De estos, el supraespinoso es el músculo más frecuentemente comprometido en lesiones traumáticas o degenerativas del manguito, ya que pasa por un espacio estrecho entre el acromion y la cabeza humeral, siendo susceptible a compresión o desgarros. Su función principal es iniciar la abducción del brazo, por lo que el síntoma de dolor o limitación en dicho movimiento apoya el diagnóstico. El redondo mayor, coracobraquial y deltoides no forman parte del manguito rotador. La RMN confirma la lesión del tendón y orienta el manejo quirúrgico o conservador.",
+      "tema": "Lesión del manguito rotador",
+      "año": 2022
+    },
+    {
+      "id": "TRA-015",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Futbolista de 32 años ingresa al hospital con dolor e inflamación en la cara lateral del tobillo. El médico diagnostica esguince por inversión. ¿Qué ligamento se ha lesionado?",
+      "opciones": [
+        "Calcaneonavicular",
+        "Plantar larga",
+        "Calcaneoperoneo",
+        "Tibial anterior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El esguince por inversión del tobillo es una de las lesiones más frecuentes en deportistas. Este mecanismo lesiona principalmente las estructuras del compartimiento lateral del tobillo. En dicho compartimiento se encuentran los ligamentos peroneoastragalino anterior, calcaneoperoneo y peroneoastragalino posterior. El ligamento más comúnmente afectado en estos casos es el peroneoastragalino anterior, pero si el esguince es más severo o el compromiso es mayor, el siguiente en lesionarse es el calcaneoperoneo, que conecta el peroné con el calcáneo y resiste fuerzas de inversión. Los ligamentos mencionados en otras alternativas (como el tibial anterior, calcaneonavicular y plantar largo) no forman parte del complejo lateral. En este caso, el cuadro clínico con dolor en la cara lateral del tobillo tras inversión orienta hacia lesión del ligamento calcaneoperoneo.",
+      "comentario": "El esguince por inversión del tobillo es una de las lesiones más frecuentes en deportistas. Este mecanismo lesiona principalmente las estructuras del compartimiento lateral del tobillo. En dicho compartimiento se encuentran los ligamentos peroneoastragalino anterior, calcaneoperoneo y peroneoastragalino posterior. El ligamento más comúnmente afectado en estos casos es el peroneoastragalino anterior, pero si el esguince es más severo o el compromiso es mayor, el siguiente en lesionarse es el calcaneoperoneo, que conecta el peroné con el calcáneo y resiste fuerzas de inversión. Los ligamentos mencionados en otras alternativas (como el tibial anterior, calcaneonavicular y plantar largo) no forman parte del complejo lateral. En este caso, el cuadro clínico con dolor en la cara lateral del tobillo tras inversión orienta hacia lesión del ligamento calcaneoperoneo.",
+      "tema": "Esguince de tobillo por inversión",
+      "año": 2023
+    },
+    {
+      "id": "TRA-016",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Para un recién nacido. ¿Cuál es el estudio Gold Standard para el despistaje de la displasia luxante de cadera?",
+      "opciones": [
+        "TAC",
+        "Radiografía",
+        "RMN",
+        "Ecografía",
+        "Radiografía simple"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La displasia del desarrollo de la cadera (DDC) o displasia luxante de cadera es una condición en la que la cadera del recién nacido no se forma correctamente, lo que puede llevar a luxación o subluxación de la articulación. Esta condición se evalúa mediante el despistaje temprano para asegurar un tratamiento oportuno. El estudio Gold Standard para el despistaje de esta condición en recién nacidos es la ecografía de cadera. La ecografía es especialmente útil en los primeros meses de vida porque permite evaluar la estabilidad de la cadera en los bebés, antes de que las estructuras óseas estén lo suficientemente calcificadas como para ser evaluadas de forma confiable mediante radiografía.",
+      "comentario": "La displasia del desarrollo de la cadera (DDC) o displasia luxante de cadera es una condición en la que la cadera del recién nacido no se forma correctamente, lo que puede llevar a luxación o subluxación de la articulación. Esta condición se evalúa mediante el despistaje temprano para asegurar un tratamiento oportuno. El estudio Gold Standard para el despistaje de esta condición en recién nacidos es la ecografía de cadera. La ecografía es especialmente útil en los primeros meses de vida porque permite evaluar la estabilidad de la cadera en los bebés, antes de que las estructuras óseas estén lo suficientemente calcificadas como para ser evaluadas de forma confiable mediante radiografía.",
+      "tema": "Displasia del desarrollo de la cadera: ecografía",
+      "año": 2023
+    },
+    {
+      "id": "TRA-017",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 4 años, en estudio por escoliosis, al evaluar la radiografía de columna se encuentra el ángulo de Cobb en 30º. ¿Cuál es el grado de severidad?",
+      "opciones": [
+        "Severa",
+        "Moderada",
+        "Muy severa",
+        "Leve",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El ángulo de Cobb es la medida radiológica estándar para determinar la severidad de la escoliosis. Se calcula entre las vértebras más inclinadas del segmento curvo. En general, una escoliosis se clasifica como leve si el ángulo es menor a 20°, moderada entre 20° y 40°, y severa si supera los 40°. En este caso, un niño de 4 años con un ángulo de 30° se encuentra dentro del rango de escoliosis moderada, lo que suele requerir seguimiento más cercano y en muchos casos ortesis (corsé). El tratamiento dependerá del pronóstico de progresión de la curva, la edad ósea y la sintomatología. Escoliosis severa y muy severa se asocian con compromiso funcional o estético significativo, lo cual no es el caso aquí.",
+      "comentario": "El ángulo de Cobb es la medida radiológica estándar para determinar la severidad de la escoliosis. Se calcula entre las vértebras más inclinadas del segmento curvo. En general, una escoliosis se clasifica como leve si el ángulo es menor a 20°, moderada entre 20° y 40°, y severa si supera los 40°. En este caso, un niño de 4 años con un ángulo de 30° se encuentra dentro del rango de escoliosis moderada, lo que suele requerir seguimiento más cercano y en muchos casos ortesis (corsé). El tratamiento dependerá del pronóstico de progresión de la curva, la edad ósea y la sintomatología. Escoliosis severa y muy severa se asocian con compromiso funcional o estético significativo, lo cual no es el caso aquí.",
+      "tema": "Escoliosis: ángulo de Cobb",
+      "año": 2023
+    },
+    {
+      "id": "TRA-018",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses de sexo femenino, nacida de parto podálico. Examen: asimetría de los pliegues de glúteos y muslos. Prueba de Ortolani (+). ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Fijación interna",
+        "Arnés de Pavlik",
+        "Osteotomía de cadera",
+        "Ortesis de abducción",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La displasia del desarrollo de la cadera (DDC) es más frecuente en niñas, especialmente con factores de riesgo como presentación podálica, como en este caso. Los signos clínicos en lactantes incluyen asimetría de pliegues y una prueba de Ortolani positiva, lo que indica luxación reducible de la cabeza femoral. El tratamiento de elección hasta los 6 meses de edad es el arnés de Pavlik, que permite mantener la cadera en abducción y flexión, favoreciendo el desarrollo normal de la articulación sin necesidad de intervención quirúrgica. La fijación interna y la osteotomía están indicadas en etapas más tardías o si fracasa el tratamiento ortopédico. La órtesis de abducción también se usa, pero el arnés de Pavlik tiene mayor eficacia y seguridad en menores de 6 meses.",
+      "comentario": "La displasia del desarrollo de la cadera (DDC) es más frecuente en niñas, especialmente con factores de riesgo como presentación podálica, como en este caso. Los signos clínicos en lactantes incluyen asimetría de pliegues y una prueba de Ortolani positiva, lo que indica luxación reducible de la cabeza femoral. El tratamiento de elección hasta los 6 meses de edad es el arnés de Pavlik, que permite mantener la cadera en abducción y flexión, favoreciendo el desarrollo normal de la articulación sin necesidad de intervención quirúrgica. La fijación interna y la osteotomía están indicadas en etapas más tardías o si fracasa el tratamiento ortopédico. La órtesis de abducción también se usa, pero el arnés de Pavlik tiene mayor eficacia y seguridad en menores de 6 meses.",
+      "tema": "Displasia de cadera: arnés de Pavlik",
+      "año": 2023
+    },
+    {
+      "id": "TRA-019",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 20 años que sufre atropello por moto. Examen: pierna herida abierta y fractura conminuta en tibia derecha. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Tracción continua",
+        "Aparato de yeso",
+        "Fijación externa",
+        "Fijación interna",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En un paciente con fractura conminuta de la tibia y una herida abierta, la opción de tratamiento más adecuada es la Fijación externa (Opción C). La fijación externa implica la colocación de clavos o tornillos a través del hueso, que se conectan a una barra externa para proporcionar estabilización. Es una opción de tratamiento adecuada en casos de fracturas conminutas y heridas abiertas, ya que permite una fijación estable de la fractura mientras se facilita el cuidado de la herida. Además, la fijación externa puede permitir la movilización temprana y la reducción del riesgo de complicaciones asociadas con la inmovilización prolongada.",
+      "comentario": "En un paciente con fractura conminuta de la tibia y una herida abierta, la opción de tratamiento más adecuada es la Fijación externa (Opción C). La fijación externa implica la colocación de clavos o tornillos a través del hueso, que se conectan a una barra externa para proporcionar estabilización. Es una opción de tratamiento adecuada en casos de fracturas conminutas y heridas abiertas, ya que permite una fijación estable de la fractura mientras se facilita el cuidado de la herida. Además, la fijación externa puede permitir la movilización temprana y la reducción del riesgo de complicaciones asociadas con la inmovilización prolongada.",
+      "tema": "Fractura expuesta conminuta de tibia: fijación externa",
+      "año": 2023
+    },
+    {
+      "id": "TRA-020",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Automovilista es traído a emergencia por que hace 6 horas sufre volcadura, presenta dolor de cuello. Examen: PA 100/70 mmHg, FC 120 X', FR 24 X', SatO₂ 96 %; orientado y colabora con el interrogatorio, dolor a la palpación en columna cervical, disminución de la fuerza y sensibilidad de MMSS a predominio de manos. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Inmovilizar la columna cervical con collar duro",
+        "Tracción de la columna cervical",
+        "Fijación externa de columna cervical",
+        "Cirugía descompresiva de columna",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante un paciente que ha sufrido un accidente automovilístico con sospecha de lesión cervical, la prioridad es la estabilización de la columna cervical para prevenir lesiones adicionales a la médula espinal y la médula cervical. Debido a esto, la conducta a seguir en este caso es Inmovilizar la columna cervical con collar duro (Opción A). Esto ayuda a prevenir movimientos bruscos del cuello que podrían empeorar una lesión existente en la columna cervical y protege la médula espinal. Es fundamental inmovilizar la columna cervical antes de realizar cualquier evaluación adicional o movilización del paciente.",
+      "comentario": "Ante un paciente que ha sufrido un accidente automovilístico con sospecha de lesión cervical, la prioridad es la estabilización de la columna cervical para prevenir lesiones adicionales a la médula espinal y la médula cervical. Debido a esto, la conducta a seguir en este caso es Inmovilizar la columna cervical con collar duro (Opción A). Esto ayuda a prevenir movimientos bruscos del cuello que podrían empeorar una lesión existente en la columna cervical y protege la médula espinal. Es fundamental inmovilizar la columna cervical antes de realizar cualquier evaluación adicional o movilización del paciente.",
+      "tema": "Trauma cervical: collarín rígido",
+      "año": 2023
+    },
+    {
+      "id": "TRA-021",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Lactante de 1 mes, traído a control por consultorio de pediatría y se diagnostica pie equinovaro. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Solicitar TC de pies",
+        "Referirlo a un ortopedista infantil",
+        "Seguimiento clínico por tres meses",
+        "Solicitar radiografía de pies",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Para el manejo de un lactante de 1 mes con diagnóstico de pie equinovaro, la conducta más adecuada es referirlo a un ortopedista infantil (Alternativa B). La referencia a un ortopedista infantil es crucial para el manejo temprano y adecuado del pie equinovaro. El ortopedista podrá evaluar la severidad del problema y decidir el mejor plan de tratamiento, que generalmente incluye métodos no quirúrgicos como el método de Ponseti, que utiliza yesos seriados para corregir la deformidad. Si el tratamiento no se inicia a tiempo, la deformidad puede volverse más rígida y difícil de tratar.",
+      "comentario": "Para el manejo de un lactante de 1 mes con diagnóstico de pie equinovaro, la conducta más adecuada es referirlo a un ortopedista infantil (Alternativa B). La referencia a un ortopedista infantil es crucial para el manejo temprano y adecuado del pie equinovaro. El ortopedista podrá evaluar la severidad del problema y decidir el mejor plan de tratamiento, que generalmente incluye métodos no quirúrgicos como el método de Ponseti, que utiliza yesos seriados para corregir la deformidad. Si el tratamiento no se inicia a tiempo, la deformidad puede volverse más rígida y difícil de tratar.",
+      "tema": "Pie equinovaro congénito: referencia",
+      "año": 2024
+    },
+    {
+      "id": "TRA-022",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 25 años acude a emergencia porque hace dos horas sufre golpe por caída de persiana (directo sobre el brazo derecho). Examen: Miembro superior inestable, doloroso, lo sostiene con la otra mano. No compromiso del nervio radial. RX: Fractura diáfisis humeral no desplazada. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Inmovilización con yeso",
+        "Enclavijado",
+        "Ortesis",
+        "Cerclaje",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La ortesis (Alternativa C) es el tratamiento de elección para una fractura diafisaria de húmero no desplazada. Este método permite una inmovilización adecuada, manteniendo la alineación y proporcionando comodidad al paciente. Las ortesis específicas para el húmero (como las ortesis de Sarmiento) permiten cierto grado de movilidad del codo y del hombro, lo cual es beneficioso para mantener la función y prevenir la rigidez articular. Además, permiten ajustes para mantener la alineación adecuada durante el proceso de curación.",
+      "comentario": "La ortesis (Alternativa C) es el tratamiento de elección para una fractura diafisaria de húmero no desplazada. Este método permite una inmovilización adecuada, manteniendo la alineación y proporcionando comodidad al paciente. Las ortesis específicas para el húmero (como las ortesis de Sarmiento) permiten cierto grado de movilidad del codo y del hombro, lo cual es beneficioso para mantener la función y prevenir la rigidez articular. Además, permiten ajustes para mantener la alineación adecuada durante el proceso de curación.",
+      "tema": "Fractura diafisaria de húmero: ortesis funcional",
+      "año": 2024
+    },
+    {
+      "id": "TRA-023",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Niño de 8 años que jugando fútbol sufre caída sobre su mano derecha extendida presentando fractura del hueso escafoides. ¿Cuál es la arteria que puede lesionarse?",
+      "opciones": [
+        "Cubital",
+        "Braquial",
+        "Interósea",
+        "Radial",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La fractura del escafoides es común en caídas sobre la mano en extensión. Su principal complicación es la necrosis avascular, debido a la afectación del flujo sanguíneo. La arteria más comprometida en esta lesión es la arteria radial, ya que irriga el escafoides en un patrón retrógrado, lo que lo hace vulnerable a isquemia si se interrumpe el flujo.",
+      "comentario": "La fractura del escafoides es común en caídas sobre la mano en extensión. Su principal complicación es la necrosis avascular, debido a la afectación del flujo sanguíneo. La arteria más comprometida en esta lesión es la arteria radial, ya que irriga el escafoides en un patrón retrógrado, lo que lo hace vulnerable a isquemia si se interrumpe el flujo.",
+      "tema": "Fractura de escafoides: arteria radial",
+      "año": 2024
+    },
+    {
+      "id": "TRA-024",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es la complicación más común asociada a las fracturas abiertas?",
+      "opciones": [
+        "Infección",
+        "Lesión neurovascular",
+        "Síndrome compartimental",
+        "Embolia grasa",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las fracturas abiertas tienen un alto riesgo de infección debido a la exposición del hueso y los tejidos blandos al medio externo. Los microorganismos pueden ingresar al sitio de la fractura y causar osteomielitis o infecciones de tejidos blandos. Aunque las lesiones neurovasculares y el síndrome compartimental pueden ocurrir, la infección es la complicación más frecuente. La embolia grasa se asocia más comúnmente a fracturas cerradas de huesos largos.",
+      "comentario": "Las fracturas abiertas tienen un alto riesgo de infección debido a la exposición del hueso y los tejidos blandos al medio externo. Los microorganismos pueden ingresar al sitio de la fractura y causar osteomielitis o infecciones de tejidos blandos. Aunque las lesiones neurovasculares y el síndrome compartimental pueden ocurrir, la infección es la complicación más frecuente. La embolia grasa se asocia más comúnmente a fracturas cerradas de huesos largos.",
+      "tema": "Fracturas abiertas: infección",
+      "año": 2024
+    },
+    {
+      "id": "TRA-025",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿Cuál es la complicación más probable en el anciano postrado con fractura de cadera?",
+      "opciones": [
+        "Celulitis de miembro inferior",
+        "Trombosis venosa profunda",
+        "Trombosis venosa superficial",
+        "Claudicación arterial",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente anciano postrado con fractura de cadera tiene elevado riesgo de complicaciones tromboembólicas debido a inmovilización prolongada. La trombosis venosa profunda (TVP) es la complicación más frecuente y temida en este contexto, especialmente en miembros inferiores. La estasis venosa, daño endotelial y el estado protrombótico en el anciano conforman la tríada de Virchow, que facilita la formación de trombos. La celulitis puede presentarse, pero es menos común; la trombosis superficial tiene menor repercusión clínica; y la claudicación arterial se relaciona con enfermedad arterial crónica, no con inmovilidad aguda. Por tanto, la complicación más esperada es TVP.",
+      "comentario": "Paciente anciano postrado con fractura de cadera tiene elevado riesgo de complicaciones tromboembólicas debido a inmovilización prolongada. La trombosis venosa profunda (TVP) es la complicación más frecuente y temida en este contexto, especialmente en miembros inferiores. La estasis venosa, daño endotelial y el estado protrombótico en el anciano conforman la tríada de Virchow, que facilita la formación de trombos. La celulitis puede presentarse, pero es menos común; la trombosis superficial tiene menor repercusión clínica; y la claudicación arterial se relaciona con enfermedad arterial crónica, no con inmovilidad aguda. Por tanto, la complicación más esperada es TVP.",
+      "tema": "Fractura de cadera en el anciano: trombosis venosa profunda",
+      "año": 2025
+    },
+    {
+      "id": "TRA-026",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 45 años con herida punzo cortante en compartimento anterior de la pierna derecha presentando parestesias, dolor, dificultad para bajar las escaleras y el \"pie caído\". ¿Cuál es el nervio que puede estar comprometido?",
+      "opciones": [
+        "Sural",
+        "Tibial",
+        "Safeno",
+        "Peroneo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta una lesión punzocortante en el compartimento anterior de la pierna derecha, lo cual se asocia clásicamente al síndrome compartimental que puede comprometer estructuras vasculonerviosas. Clínicamente hay parestesias, dolor y pie caído, lo que indica afectación del nervio que dorsiflexiona el pie. El nervio peroneo común se divide en ramas profunda y superficial: la rama profunda inerva los músculos dorsiflexores (tibial anterior), cuya lesión causa el clásico pie caído, y también genera hipoestesia en el dorso del pie. El sural es sensitivo, el tibial controla la flexión plantar, y el safeno es solo sensitivo.",
+      "comentario": "El paciente presenta una lesión punzocortante en el compartimento anterior de la pierna derecha, lo cual se asocia clásicamente al síndrome compartimental que puede comprometer estructuras vasculonerviosas. Clínicamente hay parestesias, dolor y pie caído, lo que indica afectación del nervio que dorsiflexiona el pie. El nervio peroneo común se divide en ramas profunda y superficial: la rama profunda inerva los músculos dorsiflexores (tibial anterior), cuya lesión causa el clásico pie caído, y también genera hipoestesia en el dorso del pie. El sural es sensitivo, el tibial controla la flexión plantar, y el safeno es solo sensitivo.",
+      "tema": "Pie caído: lesión del nervio peroneo",
+      "año": 2025
+    },
+    {
+      "id": "TRA-027",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Escolar de 6 años consulta por “pies chuecos”. Examen: pie plano flexible, sin dolor, ni limitación funcional. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Inmovilizar con yeso corrector",
+        "Indicar uso de plantillas ortopédicas rígidas",
+        "Derivar a cirugía correctiva inmediata",
+        "No requiere tratamiento específico",
+        "Terapia de rehabilitación"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Niño de 6 años con pie plano flexible, sin dolor ni limitación funcional, cuadro que corresponde a una variante fisiológica del desarrollo del arco plantar. Fisiopatológicamente, el pie plano flexible se debe a la inmadurez del arco longitudinal interno, que se forma progresivamente hasta los 7-10 años conforme maduran los ligamentos y músculos plantares. En el examen, al ponerse de puntas reaparece el arco, lo cual descarta rigidez o patología estructural. No hay indicación de yesos, plantillas rígidas ni cirugía, ya que dichas medidas no modifican la evolución natural y podrían causar molestias. La conducta adecuada es la observación, uso de calzado cómodo y control periódico. En conclusión, el pie plano flexible infantil no requiere tratamiento específico, pues es un hallazgo benigno y autolimitado.",
+      "comentario": "Niño de 6 años con pie plano flexible, sin dolor ni limitación funcional, cuadro que corresponde a una variante fisiológica del desarrollo del arco plantar. Fisiopatológicamente, el pie plano flexible se debe a la inmadurez del arco longitudinal interno, que se forma progresivamente hasta los 7-10 años conforme maduran los ligamentos y músculos plantares. En el examen, al ponerse de puntas reaparece el arco, lo cual descarta rigidez o patología estructural. No hay indicación de yesos, plantillas rígidas ni cirugía, ya que dichas medidas no modifican la evolución natural y podrían causar molestias. La conducta adecuada es la observación, uso de calzado cómodo y control periódico. En conclusión, el pie plano flexible infantil no requiere tratamiento específico, pues es un hallazgo benigno y autolimitado.",
+      "tema": "Pie plano flexible: sin tratamiento",
+      "año": 2025
+    },
+    {
+      "id": "TRA-028",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 60 años con dolor lumbar tras caída desde su propia altura hace 2 semanas. Antecedente: menopausia precoz. Al examen: dolor a la palpación en L4 –L5 y contractura paraespinal. Radiografía: fractura vertebral por acuñamiento en L4. Con el propósito de confirmar el diagnóstico de osteoporosis como causa subyacente, ¿Qué examen solicitaría?",
+      "opciones": [
+        "RM de columna",
+        "Densitometría ósea",
+        "Biopsia ósea vertebral",
+        "Gammagrafía ósea",
+        "Electrocardiograma"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer de 60 años con fractura vertebral por acuñamiento tras una caída de baja energía y antecedente de menopausia precoz, lo que orienta clínicamente a osteoporosis secundaria a déficit estrogénico. Fisiopatológicamente, la deficiencia de estrógenos aumenta la resorción ósea mediada por osteoclastos, reduciendo la densidad mineral y predisponiendo a fracturas por fragilidad. En este contexto, el examen de elección para confirmar el diagnóstico etiológico es la densitometría ósea por absorciometría dual de rayos X (DEXA), que cuantifica la densidad mineral en columna lumbar y cuello femoral. Un T-score ≤ -2.5 confirma osteoporosis. La RM se reserva para descartar metástasis o compresión medular, la gammagrafía evalúa actividad ósea y la biopsia se usa solo en casos atípicos.",
+      "comentario": "Mujer de 60 años con fractura vertebral por acuñamiento tras una caída de baja energía y antecedente de menopausia precoz, lo que orienta clínicamente a osteoporosis secundaria a déficit estrogénico. Fisiopatológicamente, la deficiencia de estrógenos aumenta la resorción ósea mediada por osteoclastos, reduciendo la densidad mineral y predisponiendo a fracturas por fragilidad. En este contexto, el examen de elección para confirmar el diagnóstico etiológico es la densitometría ósea por absorciometría dual de rayos X (DEXA), que cuantifica la densidad mineral en columna lumbar y cuello femoral. Un T-score ≤ -2.5 confirma osteoporosis. La RM se reserva para descartar metástasis o compresión medular, la gammagrafía evalúa actividad ósea y la biopsia se usa solo en casos atípicos.",
+      "tema": "Fractura vertebral por fragilidad: densitometría ósea",
+      "año": 2025
+    },
+    {
+      "id": "TRA-029",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 66 años con dolor en ambas rodillas que en ocasiones limita la marcha y mejora tras los primeros minutos de actividad. Al examen: sin aumento de volumen; crujido/crepitación a la flexo-extensión de ambas rodillas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Gota",
+        "Reumatismo extra-articular",
+        "Gonartrosis",
+        "Artritis reumatoide",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón de 66 años con dolor bilateral de rodillas que mejora con la movilización inicial y presenta crepitación a la flexo-extensión muestra un cuadro típico de gonartrosis. La artrosis se caracteriza por la degeneración progresiva del cartílago articular y formación de osteofitos marginales. El dolor mecánico, que cede con el movimiento y empeora al final del día, distingue esta entidad de procesos inflamatorios. Fisiopatológicamente, el desequilibrio entre la degradación y reparación del cartílago lleva a pérdida del espacio articular y rigidez matutina breve. El tratamiento inicial es conservador con analgésicos y fisioterapia, reservando la cirugía para casos avanzados.",
+      "comentario": "Varón de 66 años con dolor bilateral de rodillas que mejora con la movilización inicial y presenta crepitación a la flexo-extensión muestra un cuadro típico de gonartrosis. La artrosis se caracteriza por la degeneración progresiva del cartílago articular y formación de osteofitos marginales. El dolor mecánico, que cede con el movimiento y empeora al final del día, distingue esta entidad de procesos inflamatorios. Fisiopatológicamente, el desequilibrio entre la degradación y reparación del cartílago lleva a pérdida del espacio articular y rigidez matutina breve. El tratamiento inicial es conservador con analgésicos y fisioterapia, reservando la cirugía para casos avanzados.",
+      "tema": "Gonartrosis",
+      "año": 2025
+    },
+    {
+      "id": "TRA-030",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 48 años, hace 3 meses sufrió traumatismo en muñeca derecha. En los últimos 15 días presenta adormecimiento del 4.º y 5.º dedo, atribuible al compromiso del:",
+      "opciones": [
+        "Trapezoide",
+        "Semilunar",
+        "Canal ulnar",
+        "Trapecio",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta parestesias en el cuarto y quinto dedo tras un traumatismo en muñeca, hallazgo característico de compromiso del nervio cubital. Este nervio transcurre por el canal ulnar (de Guyon), localizado entre el pisiforme y el ganchoso. Su atrapamiento o lesión produce alteración sensitiva en el borde cubital de la mano y debilidad en los músculos interóseos. El diagnóstico se confirma con estudios de conducción nerviosa. El manejo inicial es conservador con inmovilización y analgesia; si persiste el déficit, se indica descompresión quirúrgica.",
+      "comentario": "El paciente presenta parestesias en el cuarto y quinto dedo tras un traumatismo en muñeca, hallazgo característico de compromiso del nervio cubital. Este nervio transcurre por el canal ulnar (de Guyon), localizado entre el pisiforme y el ganchoso. Su atrapamiento o lesión produce alteración sensitiva en el borde cubital de la mano y debilidad en los músculos interóseos. El diagnóstico se confirma con estudios de conducción nerviosa. El manejo inicial es conservador con inmovilización y analgesia; si persiste el déficit, se indica descompresión quirúrgica.",
+      "tema": "Canal de Guyon: nervio cubital",
+      "año": 2025
+    },
+    {
+      "id": "TRA-031",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 20 años, ingresa a emergencia por accidente de tránsito, con dolor en brazo derecho. Examen: estable y con deformación del tercio medio de brazo derecho con signo de “mano péndula”. Rx: fractura tercio medio de húmero derecho. ¿Qué nervio está comprometido?",
+      "opciones": [
+        "Radial",
+        "Mediano",
+        "Cubital",
+        "Circunflejo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fractura del tercio medio del húmero se asocia frecuentemente con lesión del nervio radial, que recorre el surco espiral de esta región. La presencia del signo de “mano péndula” (incapacidad para extender la muñeca y los dedos) es característico de esta lesión neurológica. El nervio radial controla los músculos extensores del antebrazo, por lo que su afectación produce esta parálisis característica. Por tanto, el nervio comprometido en este caso es el radial.",
+      "comentario": "La fractura del tercio medio del húmero se asocia frecuentemente con lesión del nervio radial, que recorre el surco espiral de esta región. La presencia del signo de “mano péndula” (incapacidad para extender la muñeca y los dedos) es característico de esta lesión neurológica. El nervio radial controla los músculos extensores del antebrazo, por lo que su afectación produce esta parálisis característica. Por tanto, el nervio comprometido en este caso es el radial.",
+      "tema": "Fractura diafisaria de húmero: nervio radial",
+      "año": 2023
+    },
+    {
+      "id": "TRA-032",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 36 años, que sufre aplastamiento por caída de pared sobre los MMII, llega a la emergencia a las 2 horas del incidente presentando parestesias y dolor refractario a analgésicos. Examen: palidez, tumefacción muscular y pulso pedio ausente en miembro inferior izquierdo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Embolismo graso",
+        "Trombosis venosa",
+        "Radiculopatía traumática",
+        "Síndrome compartimental",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Este paciente sufrió un aplastamiento directo en miembros inferiores y llega con signos clínicos cardinales del síndrome compartimental agudo: dolor severo y refractario a analgésicos, parestesias, palidez, aumento del volumen muscular y ausencia de pulsos distales. Este cuadro se produce cuando aumenta la presión en un compartimento muscular cerrado, comprometiendo el flujo sanguíneo y la función neuromuscular. Es una urgencia quirúrgica que, de no ser tratada a tiempo mediante fasciotomía, puede llevar a necrosis muscular, insuficiencia renal por mioglobinuria o amputación. El embolismo graso se presenta más tardíamente con disnea, petequias y alteración neurológica. La trombosis venosa profunda causa edema y dolor, pero no pérdida de pulsos ni parestesias. La radiculopatía traumática causa dolor irradiado, no edema ni compromiso vascular. Por ello, el diagnóstico correcto es síndrome compartimental.",
+      "comentario": "Este paciente sufrió un aplastamiento directo en miembros inferiores y llega con signos clínicos cardinales del síndrome compartimental agudo: dolor severo y refractario a analgésicos, parestesias, palidez, aumento del volumen muscular y ausencia de pulsos distales. Este cuadro se produce cuando aumenta la presión en un compartimento muscular cerrado, comprometiendo el flujo sanguíneo y la función neuromuscular. Es una urgencia quirúrgica que, de no ser tratada a tiempo mediante fasciotomía, puede llevar a necrosis muscular, insuficiencia renal por mioglobinuria o amputación. El embolismo graso se presenta más tardíamente con disnea, petequias y alteración neurológica. La trombosis venosa profunda causa edema y dolor, pero no pérdida de pulsos ni parestesias. La radiculopatía traumática causa dolor irradiado, no edema ni compromiso vascular. Por ello, el diagnóstico correcto es síndrome compartimental.",
+      "tema": "Síndrome compartimental por aplastamiento",
+      "año": 2023
+    },
+    {
+      "id": "TRA-033",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es la prescripción inicial en un paciente con traumatismo cervical alto?",
+      "opciones": [
+        "Collarín",
+        "Vasopresores",
+        "Antibióticos",
+        "Corticoides",
+        "Ceftriaxona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En un paciente con traumatismo cervical alto, la prescripción inicial fundamental es la inmovilización mediante collarín cervical. Esto es esencial para prevenir el desplazamiento de las vértebras y evitar un daño medular secundario que podría provocar parálisis o compromiso neurológico grave. La inmovilización temprana estabiliza la columna cervical durante la evaluación clínica y los estudios diagnósticos, garantizando la protección de las vías nerviosas. Otras intervenciones, como vasopresores o corticoides, se consideran después de la estabilización inicial y dependiendo del cuadro clínico específico.",
+      "comentario": "En un paciente con traumatismo cervical alto, la prescripción inicial fundamental es la inmovilización mediante collarín cervical. Esto es esencial para prevenir el desplazamiento de las vértebras y evitar un daño medular secundario que podría provocar parálisis o compromiso neurológico grave. La inmovilización temprana estabiliza la columna cervical durante la evaluación clínica y los estudios diagnósticos, garantizando la protección de las vías nerviosas. Otras intervenciones, como vasopresores o corticoides, se consideran después de la estabilización inicial y dependiendo del cuadro clínico específico.",
+      "tema": "Trauma cervical alto: collarín",
+      "año": 2020
+    },
+    {
+      "id": "TRA-034",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Diabética de 85 años, traída en camilla por caída, dolor intenso e incapacidad para movilizar la pierna derecha. Al examen: MID acortado y con rotación externa. ¿Cuál es el diagnóstico presuntivo?",
+      "opciones": [
+        "Luxación de cadera",
+        "Fractura de cadera",
+        "Fractura de tibia",
+        "Luxación de tobillo",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer anciana diabética con caída, dolor intenso, incapacidad para movilizar pierna y extremidad inferior acortada y en rotación externa sugiere fuertemente una fractura de cadera, específicamente fractura del cuello femoral. Esta lesión es frecuente en adultos mayores con osteoporosis tras trauma de baja energía. La luxación de cadera suele presentar extremidad en rotación interna o externa según tipo, pero el acortamiento es típico de fractura. Diagnóstico y manejo temprano evitan complicaciones graves como trombosis o necrosis avascular.",
+      "comentario": "Mujer anciana diabética con caída, dolor intenso, incapacidad para movilizar pierna y extremidad inferior acortada y en rotación externa sugiere fuertemente una fractura de cadera, específicamente fractura del cuello femoral. Esta lesión es frecuente en adultos mayores con osteoporosis tras trauma de baja energía. La luxación de cadera suele presentar extremidad en rotación interna o externa según tipo, pero el acortamiento es típico de fractura. Diagnóstico y manejo temprano evitan complicaciones graves como trombosis o necrosis avascular.",
+      "tema": "Fractura de cadera: acortamiento y rotación externa",
+      "año": 2021
+    },
+    {
+      "id": "TRA-035",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Traumatizado por accidente de tránsito, ingresa directo a Shock Trauma en estado de coma. Al examen: PA:120/80 mmHg, FC: 100x', FR: 20x', SatO₂: 84 %. ¿Cuál es la primera conducta a seguir?",
+      "opciones": [
+        "Consulta inmediatamente a neurocirugía",
+        "TEM cerebral",
+        "Oxigenoterapia",
+        "Solicitar análisis de gases arteriales",
+        "Ecografía Doppler"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente politraumatizado en estado de coma y con saturación de oxígeno del 84 % requiere una actuación inmediata y prioritaria centrada en la estabilización de la vía aérea, respiración y circulación (ABC del trauma). La hipoxemia representa un riesgo inmediato para la vida y el cerebro, especialmente en un paciente con compromiso neurológico. Por lo tanto, la oxigenoterapia es la primera medida que se debe implementar, idealmente con mascarilla con reservorio o intubación si hay deterioro progresivo. La consulta a neurocirugía y la tomografía cerebral son necesarias, per o no pueden anteceder a la estabilización respiratoria. El análisis de gases arteriales ayuda a evaluar el estado ácido-base y oxigenación, pero tampoco debe retrasar el aporte inmediato de oxígeno. En resumen, la prioridad es corregir la hipoxia, que puede empeorar el daño neurológico. Luego se procede con estudios e interconsultas según protocolo ATLS.",
+      "comentario": "El paciente politraumatizado en estado de coma y con saturación de oxígeno del 84 % requiere una actuación inmediata y prioritaria centrada en la estabilización de la vía aérea, respiración y circulación (ABC del trauma). La hipoxemia representa un riesgo inmediato para la vida y el cerebro, especialmente en un paciente con compromiso neurológico. Por lo tanto, la oxigenoterapia es la primera medida que se debe implementar, idealmente con mascarilla con reservorio o intubación si hay deterioro progresivo. La consulta a neurocirugía y la tomografía cerebral son necesarias, per o no pueden anteceder a la estabilización respiratoria. El análisis de gases arteriales ayuda a evaluar el estado ácido-base y oxigenación, pero tampoco debe retrasar el aporte inmediato de oxígeno. En resumen, la prioridad es corregir la hipoxia, que puede empeorar el daño neurológico. Luego se procede con estudios e interconsultas según protocolo ATLS.",
+      "tema": "Politraumatizado en coma e hipoxémico: oxígeno",
+      "año": 2021
+    },
+    {
+      "id": "TRA-036",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 20 años que sufrió atropello, es trasladado a Emergencia. Al examen: PA: 100/70 mmHg, FC: 100 x´,FR. 34 x´,T° 36.5 °C, herida sangrante en cuero cabelludo, deformación del muslo derecho. Glasgow: 10. ECOFAST: no líquido libre. ¿Cuál es la primera medida a tomar?",
+      "opciones": [
+        "Despejar la vía aérea y proteger el cuello",
+        "Colocar férula en MID y proveer aporte de líquidos",
+        "Detener hemorragias y proveer aporte de líquidos",
+        "Evaluar compromiso de conciencia y colocar férula en MID",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Este paciente politraumatizado presenta signos de compromiso neurológico (Glasgow 10), fractura de fémur y sangrado de cuero cabelludo. Sin embargo, en todo paciente con trauma grave, se debe seguir el protocolo ABCDE del trauma, donde la prioridad siempre es la A: vía aérea y protección cervical. El descenso del Glasgow (< 13) implica riesgo de obstrucción aérea, por lo que asegurar la vía respiratoria y estabilizar la columna cervical es la intervención más inmediata y prioritaria. Controlar hemorragias, colocar férulas o evaluar conciencia son importantes, pero la vida se asegura primero despejando y protegiendo la vía aérea.",
+      "comentario": "Este paciente politraumatizado presenta signos de compromiso neurológico (Glasgow 10), fractura de fémur y sangrado de cuero cabelludo. Sin embargo, en todo paciente con trauma grave, se debe seguir el protocolo ABCDE del trauma, donde la prioridad siempre es la A: vía aérea y protección cervical. El descenso del Glasgow (< 13) implica riesgo de obstrucción aérea, por lo que asegurar la vía respiratoria y estabilizar la columna cervical es la intervención más inmediata y prioritaria. Controlar hemorragias, colocar férulas o evaluar conciencia son importantes, pero la vida se asegura primero despejando y protegiendo la vía aérea.",
+      "tema": "Politraumatizado con Glasgow 10: vía aérea y cuello",
+      "año": 2021
+    },
+    {
+      "id": "TRA-037",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Minero de 24 años, trasladado por sufrir el impacto de alud de piedras en pierna derecha. Examen: herida en pierna que compromete todo el tercio medio, donde se exponen los músculos y el hueso con presencia de restos de tierra. Rx: fractura conminuta de tibia. ¿Cuál es la indicación prioritaria a seguir?",
+      "opciones": [
+        "Irrigación y desbridamiento",
+        "Antiinflamatorio y vacuna antitetánica",
+        "Férula de yeso y antibiótico parenteral",
+        "Analgésico opioide y tracción del miembro",
+        "Amoxicilina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Estamos ante un trauma severo de extremidad con fractura expuesta grado III, donde se evidencian tejidos musculares y óseos expuestos, con alta probabilidad de contaminación por restos de tierra. En estos casos, la prioridad absoluta es prevenir la infección y preservar la viabilidad del miembro. Por ello, el manejo inicial debe incluir irrigación profusa con solución salina y desbridamiento quirúrgico amplio, que permita eliminar tejido desvitalizado y restos contaminantes. Esta conducta debe realizarse de forma inmediata antes de colocar cualquier inmovilización o antibiótico. El uso de antibióticos, analgesia y vacuna antitetánica es complementario, pero nunca sustituye el desbridamiento, que es el paso más crítico para evitar complicaciones como osteomielitis o amputación. Este caso refleja una urgencia quirúrgica traumática, donde el tiempo y la limpieza del foco lesionado definen el pronóstico funcional del miembro.",
+      "comentario": "Estamos ante un trauma severo de extremidad con fractura expuesta grado III, donde se evidencian tejidos musculares y óseos expuestos, con alta probabilidad de contaminación por restos de tierra. En estos casos, la prioridad absoluta es prevenir la infección y preservar la viabilidad del miembro. Por ello, el manejo inicial debe incluir irrigación profusa con solución salina y desbridamiento quirúrgico amplio, que permita eliminar tejido desvitalizado y restos contaminantes. Esta conducta debe realizarse de forma inmediata antes de colocar cualquier inmovilización o antibiótico. El uso de antibióticos, analgesia y vacuna antitetánica es complementario, pero nunca sustituye el desbridamiento, que es el paso más crítico para evitar complicaciones como osteomielitis o amputación. Este caso refleja una urgencia quirúrgica traumática, donde el tiempo y la limpieza del foco lesionado definen el pronóstico funcional del miembro.",
+      "tema": "Fractura expuesta de tibia: irrigación y desbridamiento",
+      "año": 2021
+    },
+    {
+      "id": "TRA-038",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 23 años, sufre torcedura de pie que le ocasiona dolor y dificultad para la marcha. Al examen: aumento de volumen y equimosis en cara lateral del tobillo derecho, dolor a la inversión e inestabilidad moderada del tobillo. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Fractura del calcáneo",
+        "Esguince de tobillo grado 1",
+        "Esguince de tobillo grado 2",
+        "Fractura del escafoides",
+        "Cirrosis hepática"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente refiere dolor e imposibilidad para deambular tras una torcedura, con hallazgos clínicos como equimosis, aumento de volumen y dolor a la inversión, lo cual orienta a una lesión ligamentaria lateral, típicamente del ligamento peroneoastragalino anterior. La presencia de inestabilidad moderada y equimosis ya descarta el grado 1, que es solo distensión leve sin inestabilidad ni equimosis marcada. El grado 2 se caracteriza por una ruptura parcial de ligamentos, con dolor moderado, edema, hematoma y limitación funcional. No hay signos clínicos ni radiográficos que orienten a fractura ósea como el calcáneo o escafoides. El manejo incluye inmovilización temporal, elevación, hielo, AINES y fisioterapia. Es clave diferenciar correctamente el grado del esguince para evitar secuelas crónicas como inestabilidad residual.",
+      "comentario": "El paciente refiere dolor e imposibilidad para deambular tras una torcedura, con hallazgos clínicos como equimosis, aumento de volumen y dolor a la inversión, lo cual orienta a una lesión ligamentaria lateral, típicamente del ligamento peroneoastragalino anterior. La presencia de inestabilidad moderada y equimosis ya descarta el grado 1, que es solo distensión leve sin inestabilidad ni equimosis marcada. El grado 2 se caracteriza por una ruptura parcial de ligamentos, con dolor moderado, edema, hematoma y limitación funcional. No hay signos clínicos ni radiográficos que orienten a fractura ósea como el calcáneo o escafoides. El manejo incluye inmovilización temporal, elevación, hielo, AINES y fisioterapia. Es clave diferenciar correctamente el grado del esguince para evitar secuelas crónicas como inestabilidad residual.",
+      "tema": "Esguince de tobillo grado 2",
+      "año": 2021
+    },
+    {
+      "id": "TRA-039",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años sufre accidente de tránsito. Presenta dolor, intensidad 9/10 e impotencia funcional. Se diagnostica luxación posterior de cadera, la reducción es realizada a las 72 horas. ¿Cuál es la complicación ósea que se podría presentar a mediano o largo plazo?",
+      "opciones": [
+        "Anquilosis ósea",
+        "Necrosis avascular",
+        "Fractura del acetábulo",
+        "Lesión del nervio ciático",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La luxación posterior de cadera es una urgencia ortopédica que debe reducirse idealmente dentro de las primeras 6 horas para evitar complicaciones. Cuando la reducción se retrasa más allá de las 72 horas, como en este caso, el riesgo de necrosis avascular de la cabeza femoral aumenta significativamente. Esto se debe al compromiso del flujo sanguíneo de la arteria circunfleja medial femoral, que irriga dicha zona. La anquilosis ósea es muy rara en este tipo de lesión y la lesión del nervio ciático, si bien frecuente, ocurre de manera inmediata, no como complicación tardía.",
+      "comentario": "La luxación posterior de cadera es una urgencia ortopédica que debe reducirse idealmente dentro de las primeras 6 horas para evitar complicaciones. Cuando la reducción se retrasa más allá de las 72 horas, como en este caso, el riesgo de necrosis avascular de la cabeza femoral aumenta significativamente. Esto se debe al compromiso del flujo sanguíneo de la arteria circunfleja medial femoral, que irriga dicha zona. La anquilosis ósea es muy rara en este tipo de lesión y la lesión del nervio ciático, si bien frecuente, ocurre de manera inmediata, no como complicación tardía.",
+      "tema": "Luxación posterior de cadera: necrosis avascular",
+      "año": 2021
+    },
+    {
+      "id": "TRA-040",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Lactante mujer de 11 meses nacida por cesárea debido a presentación podálica y macrosomía. Al examen: asimetría de pliegues en glúteos y signo de Galeazzi positivo. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Artritis de cadera",
+        "Agenesia sacra",
+        "Artrosis de cadera",
+        "Displasia de cadera",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los signos físicos como asimetría de pliegues glúteos y signo de Galeazzi positivo indican acortamiento del fémur por desplazamiento de la cabeza femoral. Estos hallazgos son altamente sugestivos de displasia del desarrollo de cadera (DDC), especialmente en una niña con factores de riesgo como presentación podálica y macrosomía. La artrosis y la artritis no se presentan a esta edad. La agenesia sacra no suele cursar con signos clínicos como los mencionados.",
+      "comentario": "Los signos físicos como asimetría de pliegues glúteos y signo de Galeazzi positivo indican acortamiento del fémur por desplazamiento de la cabeza femoral. Estos hallazgos son altamente sugestivos de displasia del desarrollo de cadera (DDC), especialmente en una niña con factores de riesgo como presentación podálica y macrosomía. La artrosis y la artritis no se presentan a esta edad. La agenesia sacra no suele cursar con signos clínicos como los mencionados.",
+      "tema": "Displasia del desarrollo de la cadera: signo de Galeazzi",
+      "año": 2021
+    },
+    {
+      "id": "TRA-041",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 13 años, desde hace tres días presenta dolor en rodilla derecha que le impide caminar y fiebre de 38,5°C. Al examen: rodilla derecha dolorosa, aumentada de volumen y con signos inflamatorios. Hemograma con leucocitos de 25000 x mm³ y 10% de abastonados. ¿Cuál es el probable germen responsable de la infección?",
+      "opciones": [
+        "Staphylococcus aureus",
+        "Escherichia coli",
+        "Corynebacterium pyogenes",
+        "Haemophilus influenzae",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Adolescente con fiebre, leucocitosis con abastonados y artritis aguda séptica (signos inflamatorios locales intensos), muy probablemente presenta una artritis séptica, una urgencia reumatológica común en la infancia y adolescencia. El germen más frecuentemente aislado en este tipo de cuadros es el Staphylococcus aureus, sobre todo en adolescentes. Haemophilus influenzae era una causa más frecuente antes de la vacunación. E. coli se asocia a infecciones urinarias y Corynebacterium no es causante habitual de artritis.",
+      "comentario": "Adolescente con fiebre, leucocitosis con abastonados y artritis aguda séptica (signos inflamatorios locales intensos), muy probablemente presenta una artritis séptica, una urgencia reumatológica común en la infancia y adolescencia. El germen más frecuentemente aislado en este tipo de cuadros es el Staphylococcus aureus, sobre todo en adolescentes. Haemophilus influenzae era una causa más frecuente antes de la vacunación. E. coli se asocia a infecciones urinarias y Corynebacterium no es causante habitual de artritis.",
+      "tema": "Artritis séptica en el adolescente: Staphylococcus aureus",
+      "año": 2021
+    },
+    {
+      "id": "TRA-042",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 32 años de edad que sufre caída con apoyo en la mano izquierda con hiperextensión de la muñeca. Al examen: dolor a la palpación en la tabaquera anatómica. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Luxación del semilunar",
+        "Fractura del escafoides",
+        "Fractura de la epífisis distal del cúbito",
+        "Luxación del hueso ganchoso",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente varón joven que sufre una caída con hiperextensión de muñeca y dolor localizado en la tabaquera anatómica, hallazgo altamente sugerente de fractura de escafoides. Este hueso carpiano es el más comúnmente fracturado en lesiones por mecanismo indirecto (caída con la mano extendida) y su diagnóstico clínico se basa en el dolor a la palpación en dicha zona. La importancia de su identificación radica en el riesgo elevado de necrosis avascular debido a su irrigación retrógrada. Las otras opciones, como la luxación del semilunar o fractura decúbito distal, no presentan esta localización de dolor específica. La radiografía puede ser negativa inicialmente, por lo que se recomienda inmovilización y reevaluación.",
+      "comentario": "Paciente varón joven que sufre una caída con hiperextensión de muñeca y dolor localizado en la tabaquera anatómica, hallazgo altamente sugerente de fractura de escafoides. Este hueso carpiano es el más comúnmente fracturado en lesiones por mecanismo indirecto (caída con la mano extendida) y su diagnóstico clínico se basa en el dolor a la palpación en dicha zona. La importancia de su identificación radica en el riesgo elevado de necrosis avascular debido a su irrigación retrógrada. Las otras opciones, como la luxación del semilunar o fractura decúbito distal, no presentan esta localización de dolor específica. La radiografía puede ser negativa inicialmente, por lo que se recomienda inmovilización y reevaluación.",
+      "tema": "Fractura de escafoides: tabaquera anatómica",
+      "año": 2022
+    },
+    {
+      "id": "TRA-043",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses de edad. En un examen clínico de rutina se evidencia los signos de Ortolani y Barlow positivos. Se le colocó un arnés de Pavlik, a la segunda semana es llevado a consulta por irritabilidad. Al examen: abducción excesiva. Se toma radiografía de control donde se encuentra:",
+      "opciones": [
+        "Necrosis avascular de la cabeza del fémur",
+        "Epífisis femoral capital deslizada",
+        "Artrosis de articulación coxo-femoral",
+        "Sinovitis monoarticular transitoria",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Lactante de 2 meses con signos positivos de Ortolani y Barlow, lo que indica displasia del desarrollo de la cadera (DDC), fue manejado con arnés de Pavlik. A las dos semanas, presenta irritabilidad y hallazgos de abducción excesiva, lo que sugiere una complicación del tratamiento. La más temida es la necrosis avascular de la cabeza femoral, ocasionada por compresión de la arteria circunfleja medial al no respetar la posición segura del arnés. La radiografía de control muestra alteración de la epífisis femoral. Esta complicación es indicación para suspender el uso del dispositivo.",
+      "comentario": "Lactante de 2 meses con signos positivos de Ortolani y Barlow, lo que indica displasia del desarrollo de la cadera (DDC), fue manejado con arnés de Pavlik. A las dos semanas, presenta irritabilidad y hallazgos de abducción excesiva, lo que sugiere una complicación del tratamiento. La más temida es la necrosis avascular de la cabeza femoral, ocasionada por compresión de la arteria circunfleja medial al no respetar la posición segura del arnés. La radiografía de control muestra alteración de la epífisis femoral. Esta complicación es indicación para suspender el uso del dispositivo.",
+      "tema": "Arnés de Pavlik: necrosis avascular por abducción excesiva",
+      "año": 2022
+    },
+    {
+      "id": "TRA-044",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Niña de 7 años refiere tumoración detrás de la rodilla que no le impide realizar actividad física, dice “la bolita” no me molesta ni duele. Al examen: formación quística de 3 cm de diámetro en región poplítea interna de la rodilla izquierda, de consistencia firme, no dolorosa y que no interfiere con la movilidad articular. Resto del examen normal. La información a otorgar a la madre es que corresponde a:",
+      "opciones": [
+        "Ganglión",
+        "Adenomegalia",
+        "Absceso",
+        "Lipoma",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Niña en edad escolar presenta una tumoración poplítea de 3 cm, no dolorosa, firme, sin signos inflamatorios ni compromiso funcional, lo que orienta a una masa benigna. La localización en región poplítea sugiere un quiste de Baker o ganglión, el cual es una protrusión sinovial generalmente relacionada con articulaciones adyacentes, y es típico en niños. La ausencia de síntomas y la movilidad articular conservada refuerzan esta sospecha. No hay signos inflamatorios que sugieran absceso, ni características compatibles con adenomegalia (más frecuente en regiones inguinales o cervicales) o lipoma (blando, móvil).",
+      "comentario": "Niña en edad escolar presenta una tumoración poplítea de 3 cm, no dolorosa, firme, sin signos inflamatorios ni compromiso funcional, lo que orienta a una masa benigna. La localización en región poplítea sugiere un quiste de Baker o ganglión, el cual es una protrusión sinovial generalmente relacionada con articulaciones adyacentes, y es típico en niños. La ausencia de síntomas y la movilidad articular conservada refuerzan esta sospecha. No hay signos inflamatorios que sugieran absceso, ni características compatibles con adenomegalia (más frecuente en regiones inguinales o cervicales) o lipoma (blando, móvil).",
+      "tema": "Quiste poplíteo (ganglión) en el niño",
+      "año": 2022
+    },
+    {
+      "id": "TRA-045",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Escolar de 7 años de edad procedente de zona rural que al caer de un árbol presenta herida sangrante en pantorrilla. A las dos semanas es llevado a consulta por presentar eritema caliente en la pantorrilla, claudicación y fiebre. Se prescribe terapia antibiótica con mejoría de síntomas excepto la aparición de dolor en la zona. ¿Qué examen solicitaría para seguimiento?",
+      "opciones": [
+        "Hemocultivo",
+        "Velocidad de sedimentación",
+        "Radiografía de pierna",
+        "Hemograma",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Escolar de 7 años con antecedente de caída y herida abierta en pantorrilla, quien semanas después desarrolla fiebre, claudicación y eritema local, compatible con una celulitis o incluso una osteomielitis subaguda. A pesar del tratamiento antibiótico, persiste el dolor focalizado, lo que orienta a un compromiso óseo residual. En el seguimiento de osteomielitis, la prueba más accesible y útil es la radiografía, la cual puede mostrar lesiones típicas como rarefacción ósea, elevación del periostio, secuestros y destrucción cortical a partir de la segunda semana. La VSG y el hemograma son inespecíficos, útiles para evaluar inflamación, pero no localizan ni caracterizan el daño estructural. El hemocultivo tiene más valor al inicio, pero no para evaluar evolución. En este contexto, la prueba más indicada para el seguimiento del caso es la radiografía simple de pierna.",
+      "comentario": "Escolar de 7 años con antecedente de caída y herida abierta en pantorrilla, quien semanas después desarrolla fiebre, claudicación y eritema local, compatible con una celulitis o incluso una osteomielitis subaguda. A pesar del tratamiento antibiótico, persiste el dolor focalizado, lo que orienta a un compromiso óseo residual. En el seguimiento de osteomielitis, la prueba más accesible y útil es la radiografía, la cual puede mostrar lesiones típicas como rarefacción ósea, elevación del periostio, secuestros y destrucción cortical a partir de la segunda semana. La VSG y el hemograma son inespecíficos, útiles para evaluar inflamación, pero no localizan ni caracterizan el daño estructural. El hemocultivo tiene más valor al inicio, pero no para evaluar evolución. En este contexto, la prueba más indicada para el seguimiento del caso es la radiografía simple de pierna.",
+      "tema": "Osteomielitis subaguda: radiografía",
+      "año": 2022
+    },
+    {
+      "id": "TRA-046",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 20 años que sufre caída sobre la mano derecha en extensión. Examen: dolor e impotencia funcional del hombro, se observa relieve angulado debajo de la piel (signo de la charretera). ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Fijar con placas",
+        "Tracción",
+        "Vendaje en ocho",
+        "Fijar con clavijas",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En este paciente con dolor, impotencia funcional y el signo de la charretera tras un traumatismo es sugestivo de una luxación anterior del hombro. El tratamiento de elección para una luxación anterior del hombro es la reducción cerrada de la luxación, a través de un método de tracción-contratracción (Alternativa B), seguido de inmovilización y rehabilitación. Este procedimiento debe realizarse bajo sedación o anestesia adecuada para aliviar el dolor y facilitar la manipulación de la articulación de vuelta a su posición normal. Después de la reducción, se debe inmovilizar el hombro con un cabestrillo o una férula durante un período de tiempo específico, seguido de ejercicios de rehabilitación para restaurar el rango de movimiento y la fuerza del hombro.",
+      "comentario": "En este paciente con dolor, impotencia funcional y el signo de la charretera tras un traumatismo es sugestivo de una luxación anterior del hombro. El tratamiento de elección para una luxación anterior del hombro es la reducción cerrada de la luxación, a través de un método de tracción-contratracción (Alternativa B), seguido de inmovilización y rehabilitación. Este procedimiento debe realizarse bajo sedación o anestesia adecuada para aliviar el dolor y facilitar la manipulación de la articulación de vuelta a su posición normal. Después de la reducción, se debe inmovilizar el hombro con un cabestrillo o una férula durante un período de tiempo específico, seguido de ejercicios de rehabilitación para restaurar el rango de movimiento y la fuerza del hombro.",
+      "tema": "Luxación anterior de hombro: reducción por tracción",
+      "año": 2024
+    },
+    {
+      "id": "TRA-047",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 33 años, traído a emergencia 30 minutos después de sufrir un accidente de tránsito. Examen: Despierto, confuso; laceraciones y hematomas en cara, tórax, abdomen y miembros superiores. En los miembros inferiores persiste el sangrado a pesar de la presión firme aplicada en la zona lesionada. ¿Cuál es la primera respuesta fisiológica esperada?",
+      "opciones": [
+        "Incremento de la presión de pulso",
+        "Incremento de la frecuencia cardíaca",
+        "Demora del llenado capilar",
+        "Disminución de la diuresis",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En el contexto de hemorragia aguda, como la que se describe en este caso, el cuerpo activa varios mecanismos compensatorios para intentar mantener la homeostasis. La respuesta inmediata incluye la activación del sistema nervioso simpático con la liberación de catecolaminas (adrenalina y noradrenalina), que causan vasoconstricción periférica y aumento de la frecuencia cardíaca para mantener el gasto cardíaco. El incremento de la frecuencia cardíaca (alternativa B) es el primer cambio fisiológico notable, ya que el corazón intenta compensar la pérdida de volumen aumentando su ritmo para mantener la perfusión a órganos vitales.",
+      "comentario": "En el contexto de hemorragia aguda, como la que se describe en este caso, el cuerpo activa varios mecanismos compensatorios para intentar mantener la homeostasis. La respuesta inmediata incluye la activación del sistema nervioso simpático con la liberación de catecolaminas (adrenalina y noradrenalina), que causan vasoconstricción periférica y aumento de la frecuencia cardíaca para mantener el gasto cardíaco. El incremento de la frecuencia cardíaca (alternativa B) es el primer cambio fisiológico notable, ya que el corazón intenta compensar la pérdida de volumen aumentando su ritmo para mantener la perfusión a órganos vitales.",
+      "tema": "Hemorragia aguda: primero taquicardia",
+      "año": 2024
+    },
+    {
+      "id": "TRA-048",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 36 años, llega a emergencia 3 horas después de haber sufrido accidente de tránsito. Examen: pierna izquierda con dolor intenso a la extensión de los dedos del pie, edema marcado, cianosis del pie y disminución de pulso pedio. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Daño neurológico tipo neuropraxia",
+        "Desgarro de la arteria tibial anterior",
+        "Fractura multifragmentaria",
+        "Síndrome compartimental",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta dolor intenso a la extensión de los dedos del pie, edema marcado, cianosis del pie y disminución de pulso pedio después de un accidente de tránsito. Estos hallazgos son característicos de un síndrome compartimental, una condición en la que la presión dentro de un compartimento muscular aumenta, comprometiendo el flujo sanguíneo y llevando a la isquemia de los tejidos. Es una urgencia médica que requiere tratamiento inmediato para evitar daños irreversibles. Los otros diagnósticos no explican todos estos síntomas de manera tan consistente como el síndrome compartimental.",
+      "comentario": "El paciente presenta dolor intenso a la extensión de los dedos del pie, edema marcado, cianosis del pie y disminución de pulso pedio después de un accidente de tránsito. Estos hallazgos son característicos de un síndrome compartimental, una condición en la que la presión dentro de un compartimento muscular aumenta, comprometiendo el flujo sanguíneo y llevando a la isquemia de los tejidos. Es una urgencia médica que requiere tratamiento inmediato para evitar daños irreversibles. Los otros diagnósticos no explican todos estos síntomas de manera tan consistente como el síndrome compartimental.",
+      "tema": "Síndrome compartimental de pierna",
+      "año": 2024
+    },
+    {
+      "id": "TRA-049",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Adolescente de sexo femenino, acude por dolor esporádico en espalda y región lumbar. Antecedente: hermano con problemas en la columna. Examen: FR: 20 X´, FC: 80 X´, SatO₂: 96%, desigualdad de hombros, desplazamiento lateral del tronco y asimetría del tórax al inclinarse hacia adelante (prueba de Adams). ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tumor medular",
+        "Escoliosis",
+        "Espondilosis",
+        "Hernia discal",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta signos clínicos característicos de escoliosis, una deformidad estructural de la columna vertebral con desviación lateral y rotación de los cuerpos vertebrales. La asimetría de hombros, el desplazamiento del tronco y la prueba de Adams positiva (asimetría torácica al inclinarse hacia adelante) son hallazgos típicos. El antecedente familiar refuerza la sospecha, ya que la escoliosis idiopática tiene un componente genético. Es fundamental realizar una radiografía de columna en proyección posteroanterior para evaluar el ángulo de Cobb y determinar la severidad de la curvatura, lo que guiará el tratamiento.",
+      "comentario": "La paciente presenta signos clínicos característicos de escoliosis, una deformidad estructural de la columna vertebral con desviación lateral y rotación de los cuerpos vertebrales. La asimetría de hombros, el desplazamiento del tronco y la prueba de Adams positiva (asimetría torácica al inclinarse hacia adelante) son hallazgos típicos. El antecedente familiar refuerza la sospecha, ya que la escoliosis idiopática tiene un componente genético. Es fundamental realizar una radiografía de columna en proyección posteroanterior para evaluar el ángulo de Cobb y determinar la severidad de la curvatura, lo que guiará el tratamiento.",
+      "tema": "Escoliosis: prueba de Adams",
+      "año": 2024
+    }
+  ]
+}

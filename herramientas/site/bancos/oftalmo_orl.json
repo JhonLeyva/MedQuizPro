@@ -1,0 +1,990 @@
+{
+  "especialidad": "Oftalmología y Otorrinolaringología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "OFT-001",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Conjuntivitis bacteriana",
+        "B": "Glaucoma agudo de ángulo cerrado",
+        "C": "Uveítis anterior",
+        "D": "Desprendimiento de retina",
+        "E": "Migraña con aura"
+      },
+      "clave_correcta": "B",
+      "comentario": "Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."
+    },
+    {
+      "id": "OFT-002",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, acude a emergencia porque limpiando el inodoro le salpica accidentalmente ácido muriático en el ojo derecho. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        "Irrigar el ojo inmediatamente con suero fisiológico y agua",
+        "Limpiar ojo con un paño limpio y colocar ungüento antiséptico",
+        "Administrar corticoides tópicos para disminuir la inflamación",
+        "Colocar un parche y llamar rápidamente al especialista",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.",
+      "comentario": "En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.",
+      "tema": "Urgencias oftalmológicas",
+      "año": 2020
+    },
+    {
+      "id": "OFT-003",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de 2 semanas con epífora, fotofobia y disminución del brillo corneal. Al examen: presión intraocular elevada, nervio óptico con depresión marcada. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Trabeculoplastia",
+        "Goniotomía",
+        "Dacriorrinocistostomía",
+        "Iridectomía",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Epífora, fotofobia, blefaroespasmo y edema corneal (pérdida de brillo) junto a hipertensión ocular definen el glaucoma congénito. Su tratamiento de elección es netamente quirúrgico mediante goniotomía.",
+      "comentario": "Epífora, fotofobia, blefaroespasmo y edema corneal (pérdida de brillo) junto a hipertensión ocular definen el glaucoma congénito. Su tratamiento de elección es netamente quirúrgico mediante goniotomía.",
+      "tema": "Glaucoma",
+      "año": 2020
+    },
+    {
+      "id": "OFT-004",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 50 años, hace una hora sufre golpe en nariz y presenta sangrado nasal. Al examen: hemorragia activa, se le realiza taponamiento anterior. Después de 2 horas presenta vómitos con sangre. ¿Cuál sería la acción a seguir?",
+      "opciones": [
+        "Derivar a especialista para taponamiento posterior",
+        "Proceder a cauterización química",
+        "Administrar vasoconstrictor tópico",
+        "Administrar coagulantes en dosis máxima",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
+      "comentario": "El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.",
+      "tema": "Epistaxis",
+      "año": 2020
+    },
+    {
+      "id": "OFT-005",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 12 años, presenta prurito ocular intenso en ambos ojos con espesa secreción mucoide, lagrimeo, fotofobia e hiperemia conjuntival. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Chalazion",
+        "Pterigion",
+        "Iritis",
+        "Conjuntivitis",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.",
+      "comentario": "El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.",
+      "tema": "Patología conjuntival",
+      "año": 2020
+    },
+    {
+      "id": "OFT-006",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, a la cual se le retira una sonda nasogástrica, inmediatamente después comienza con epistaxis. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Cauterización",
+        "Taponamiento nasal posterior",
+        "Taponamiento nasal anterior",
+        "Pegamento",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La epistaxis tras la extracción de una sonda nasogástrica suele deberse a un traumatismo de la mucosa nasal, especialmente en la zona de Kiesselbach, altamente vascularizada. En estos casos, el sangrado generalmente es anterior y de bajo volumen. La primera medida terapéutica no invasiva es el taponamiento anterior con gasa o mechas impregnadas en vasoconstrictores tópicos. El uso de cauterización o taponamiento posterior se reserva para epistaxis más severas o persistentes, que son menos frecuentes en este contexto. Por tanto, el tratamiento de elección inicial y más eficaz es el taponamiento nasal anterior.",
+      "comentario": "La epistaxis tras la extracción de una sonda nasogástrica suele deberse a un traumatismo de la mucosa nasal, especialmente en la zona de Kiesselbach, altamente vascularizada. En estos casos, el sangrado generalmente es anterior y de bajo volumen. La primera medida terapéutica no invasiva es el taponamiento anterior con gasa o mechas impregnadas en vasoconstrictores tópicos. El uso de cauterización o taponamiento posterior se reserva para epistaxis más severas o persistentes, que son menos frecuentes en este contexto. Por tanto, el tratamiento de elección inicial y más eficaz es el taponamiento nasal anterior.",
+      "tema": "Epistaxis anterior",
+      "año": 2020
+    },
+    {
+      "id": "OFT-007",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con episodios de rinorrea y congestión nasal por los cambios de temperatura ambiental. Examen: hipertrofia de cornetes. Pruebas cutáneas negativas. No detecta IgE, ni eosinofilia. ¿Cuál es el tipo de rinitis?",
+      "opciones": [
+        "Vasomotora",
+        "Alérgica",
+        "Crónica",
+        "Atrófica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La rinitis vasomotora es un tipo de rinitis no alérgica desencadenada por estímulos inespecíficos como cambios de temperatura, olores fuertes, estrés o humo. Clínicamente se presenta con rinorrea, obstrucción nasal y estornudos, pero sin prurito ocular ni antecedentes atópicos. En este caso, los exámenes confirman la ausencia de IgE elevada, eosinofilia y pruebas cutáneas negativas, lo que descarta rinitis alérgica. La hipertrofia de cornetes también es un hallazgo común en esta condición. El tratamiento incluye esteroides tópicos y anticolinérgicos intranasales.",
+      "comentario": "La rinitis vasomotora es un tipo de rinitis no alérgica desencadenada por estímulos inespecíficos como cambios de temperatura, olores fuertes, estrés o humo. Clínicamente se presenta con rinorrea, obstrucción nasal y estornudos, pero sin prurito ocular ni antecedentes atópicos. En este caso, los exámenes confirman la ausencia de IgE elevada, eosinofilia y pruebas cutáneas negativas, lo que descarta rinitis alérgica. La hipertrofia de cornetes también es un hallazgo común en esta condición. El tratamiento incluye esteroides tópicos y anticolinérgicos intranasales.",
+      "tema": "Rinitis vasomotora",
+      "año": 2020
+    },
+    {
+      "id": "OFT-008",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Preescolar con otalgia de inicio agudo. A la otoscopía: se evidencia secreción purulenta en conducto auditivo y abombamiento de la membrana timpánica ¿Cuál es el tratamiento de primera elección?",
+      "opciones": [
+        "Amoxicilina",
+        "Trimetropin",
+        "Ampicilina",
+        "Clindamicina",
+        "Atropina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un preescolar con otalgia aguda, secreción purulenta y abombamiento timpánico presenta un cuadro clínico compatible con otitis media aguda supurada. El tratamiento de primera elección para esta infección bacteriana es la amoxicilina, por su alta eficacia frente a los patógenos más comunes: Streptococcus pneumoniae, Haemophilus influenzae y Moraxella catarrhalis. Trimetoprim, ampicilina y clindamicina no son fármacos de primera línea en esta condición; clindamicina, en particular, está reservada para sospecha de anaerobios o infecciones más complicadas. La otitis media aguda debe ser tratada rápidamente para evitar complicaciones como mastoiditis o pérdida auditiva conductiva. La amoxicilina debe administrarse por vía oral durante 7 a 10 días, según edad y gravedad. El uso oportuno de antibióticos de primera línea mejora el pronóstico y acorta la evolución del cuadro infeccioso.",
+      "comentario": "Un preescolar con otalgia aguda, secreción purulenta y abombamiento timpánico presenta un cuadro clínico compatible con otitis media aguda supurada. El tratamiento de primera elección para esta infección bacteriana es la amoxicilina, por su alta eficacia frente a los patógenos más comunes: Streptococcus pneumoniae, Haemophilus influenzae y Moraxella catarrhalis. Trimetoprim, ampicilina y clindamicina no son fármacos de primera línea en esta condición; clindamicina, en particular, está reservada para sospecha de anaerobios o infecciones más complicadas. La otitis media aguda debe ser tratada rápidamente para evitar complicaciones como mastoiditis o pérdida auditiva conductiva. La amoxicilina debe administrarse por vía oral durante 7 a 10 días, según edad y gravedad. El uso oportuno de antibióticos de primera línea mejora el pronóstico y acorta la evolución del cuadro infeccioso.",
+      "tema": "Otitis media aguda",
+      "año": 2021
+    },
+    {
+      "id": "OFT-009",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Escolar con estornudos matutinos, rinorrea y prurito nasal. Al examen: ojeroso, con respiración bucal y pliegue nasal transverso. Laboratorio: IgE sérica 500 UI/mL. ¿A qué tipo de rinitis corresponde?",
+      "opciones": [
+        "Vasomotora",
+        "Alérgica",
+        "Infecciosa",
+        "Medicamentosa",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El caso describe claramente un cuadro típico de rinitis alérgica, enfermedad crónica de la infancia mediada por IgE, desencadenada por alérgenos ambientales. Los estornudos matutinos, la rinorrea hialina, el prurito nasal y los signos como las ojeras alérg icas (\"shiners\"), respiración bucal y el pliegue nasal transverso (por frotamiento repetido) son característicos. El laboratorio confirma la hipersensibilidad tipo I al mostrar una IgE total elevada. En contraste, la rinitis vasomotora no presenta niveles elevados de IgE ni síntomas clásicos de alergia; la infecciosa suele ser purulenta, con fiebre, y la medicamentosa ocurre en usuarios crónicos de descongestionantes tópicos (rinitis medicamentosa por rebote). Se trata entonces de una rinitis alérgica, diagnóstico clínico confirmado por perfil inmunológico.",
+      "comentario": "El caso describe claramente un cuadro típico de rinitis alérgica, enfermedad crónica de la infancia mediada por IgE, desencadenada por alérgenos ambientales. Los estornudos matutinos, la rinorrea hialina, el prurito nasal y los signos como las ojeras alérg icas (\"shiners\"), respiración bucal y el pliegue nasal transverso (por frotamiento repetido) son característicos. El laboratorio confirma la hipersensibilidad tipo I al mostrar una IgE total elevada. En contraste, la rinitis vasomotora no presenta niveles elevados de IgE ni síntomas clásicos de alergia; la infecciosa suele ser purulenta, con fiebre, y la medicamentosa ocurre en usuarios crónicos de descongestionantes tópicos (rinitis medicamentosa por rebote). Se trata entonces de una rinitis alérgica, diagnóstico clínico confirmado por perfil inmunológico.",
+      "tema": "Rinitis alérgica",
+      "año": 2021
+    },
+    {
+      "id": "OFT-010",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 18 años, hace 2 horas sufre impacto de piedra en el ojo derecho. Al examen: diplopía, enoftalmos derecho y fractura de órbita. ¿Qué pared de la órbita del ojo se compromete en esta situación?",
+      "opciones": [
+        "Superior",
+        "Inferior",
+        "Lateral",
+        "Medial",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El trauma facial contundente que genera enoftalmos (hundimiento del globo ocular) y diplopía es característico de una fractura del piso de la órbita, también conocida como \"blow-out fracture\". Esta fractura afecta la pared inferior, que es la más delgada d e la órbita y está formada por el hueso maxilar. La diplopía se debe al atrapamiento del músculo recto inferior o tejido orbitario, lo que impide el movimiento ocular normal. El enoftalmos, por otro lado, es causado por el colapso del soporte orbitario y la herniación del contenido al seno maxilar. Las fracturas de las paredes superior o lateral suelen ser menos frecuentes y se presentan con otros signos clínicos. Por tanto, en un trauma de estas características, el compromiso más frecuente es del piso de l a órbita (pared inferior), que requiere evaluación tomográfica y, muchas veces, tratamiento quirúrgico reconstructivo.",
+      "comentario": "El trauma facial contundente que genera enoftalmos (hundimiento del globo ocular) y diplopía es característico de una fractura del piso de la órbita, también conocida como \"blow-out fracture\". Esta fractura afecta la pared inferior, que es la más delgada d e la órbita y está formada por el hueso maxilar. La diplopía se debe al atrapamiento del músculo recto inferior o tejido orbitario, lo que impide el movimiento ocular normal. El enoftalmos, por otro lado, es causado por el colapso del soporte orbitario y la herniación del contenido al seno maxilar. Las fracturas de las paredes superior o lateral suelen ser menos frecuentes y se presentan con otros signos clínicos. Por tanto, en un trauma de estas características, el compromiso más frecuente es del piso de l a órbita (pared inferior), que requiere evaluación tomográfica y, muchas veces, tratamiento quirúrgico reconstructivo.",
+      "tema": "Fractura del piso de la órbita",
+      "año": 2021
+    },
+    {
+      "id": "OFT-011",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 22 años acude por presentar ojo rojo y lagrimeo. Al examen: hemorragias conjuntivales en ambos ojos y opacidades epiteliales corneales redondeadas centrales. Ganglio linfático solitario preauricular doloroso. ¿Cuál es el agente causante de esta patología?",
+      "opciones": [
+        "Adenovirus",
+        "Chlamydia",
+        "Herpes",
+        "Varicela",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Nos encontramos ante una conjuntivitis viral epidémica, cuyo agente etiológico más frecuente es el adenovirus, especialmente en adultos jóvenes. Los signos característicos son el ojo rojo bilateral, lagrimeo, hemorragias subconjuntivales y opacidades corneales (infiltrados subepiteliales), que suelen aparecer en fases más avanzadas. El dato clave es la adenopatía preauricular dolorosa, que distingue esta forma viral de otras etiologías. La queratoconjuntivitis epidémica es altamente contagiosa y autolimitada, pero puede persistir por semanas. El manejo incluye medidas de soporte, como lubricantes y compresas frías, y aislamiento para evitar brotes nosocomiales. Otras causas como herpes, Chlamydia o varicela presentan hallazgos más focales o sistémicos distintos. Por ello, el cuadro clínico completo y típico nos orienta de forma directa a una infección por adenovirus.",
+      "comentario": "Nos encontramos ante una conjuntivitis viral epidémica, cuyo agente etiológico más frecuente es el adenovirus, especialmente en adultos jóvenes. Los signos característicos son el ojo rojo bilateral, lagrimeo, hemorragias subconjuntivales y opacidades corneales (infiltrados subepiteliales), que suelen aparecer en fases más avanzadas. El dato clave es la adenopatía preauricular dolorosa, que distingue esta forma viral de otras etiologías. La queratoconjuntivitis epidémica es altamente contagiosa y autolimitada, pero puede persistir por semanas. El manejo incluye medidas de soporte, como lubricantes y compresas frías, y aislamiento para evitar brotes nosocomiales. Otras causas como herpes, Chlamydia o varicela presentan hallazgos más focales o sistémicos distintos. Por ello, el cuadro clínico completo y típico nos orienta de forma directa a una infección por adenovirus.",
+      "tema": "Conjuntivitis por adenovirus",
+      "año": 2021
+    },
+    {
+      "id": "OFT-012",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 20 años acude por secreción nasal acuosa, estornudos en salva y obstrucción nasal. Al examen: mucosa nasal pálida, con cornetes engrosados, edematosos con reacción vascular y recubiertos por abundante secreción clara. IgE en secreción nasal incrementada. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Sinusitis aguda",
+        "Influenza",
+        "Rinitis alérgica",
+        "Rinitis eosinofílica",
+        "Cirrosis hepática"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente femenina de 20 años con síntomas respiratorios altos típicos de una reacción alérgica tipo I: estornudos en salva, rinorrea acuosa, congestión nasal y mucosa pálida con cornetes engrosados. Estos signos son sugestivos de rinitis alérgica, patología inmunológica mediada por IgE, generalmente desencadenada por exposición a alérgenos ambientales como polvo, ácaros o polen. El hallazgo adicional de IgE elevada en secreción nasal refuerza el diagnóstico. La rinitis alérgica es común en adultos jóvenes y se asocia a atopia y antecedentes familiares. Se diferencia de una rinitis eosinofílica no alérgica (respuesta D) por la presencia de IgE y de una historia de sensibilización. La sinusitis o infecciones virales (respuestas A y B) se acompañan de fiebre y secreciones purulentas, ausentes en este caso.",
+      "comentario": "Paciente femenina de 20 años con síntomas respiratorios altos típicos de una reacción alérgica tipo I: estornudos en salva, rinorrea acuosa, congestión nasal y mucosa pálida con cornetes engrosados. Estos signos son sugestivos de rinitis alérgica, patología inmunológica mediada por IgE, generalmente desencadenada por exposición a alérgenos ambientales como polvo, ácaros o polen. El hallazgo adicional de IgE elevada en secreción nasal refuerza el diagnóstico. La rinitis alérgica es común en adultos jóvenes y se asocia a atopia y antecedentes familiares. Se diferencia de una rinitis eosinofílica no alérgica (respuesta D) por la presencia de IgE y de una historia de sensibilización. La sinusitis o infecciones virales (respuestas A y B) se acompañan de fiebre y secreciones purulentas, ausentes en este caso.",
+      "tema": "Rinitis alérgica",
+      "año": 2021
+    },
+    {
+      "id": "OFT-013",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuál es la acción inmediata a realizar en un paciente que llega con sangrado nasal por traumatismo?",
+      "opciones": [
+        "Taponamiento nasal posterior",
+        "Taponamiento nasal anterior",
+        "Cauterización con pinza bipolar",
+        "Indicar anticoagulantes",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Ante un paciente que presenta sangrado nasal posterior a traumatismo, la acción inmediata más indicada es el taponamiento nasal anterior, ya que en la mayoría de casos el sangrado proviene del plexo de Kiesselbach (epistaxis anterior), una región altamente vascularizada. Esta técnica e s de fácil aplicación, poco invasiva y permite controlar hasta el 90% de los casos sin necesidad de intervención mayor. El taponamiento posterior se reserva para sangrados persistentes o de origen posterior. La cauterización, aunque útil en epistaxis recurrente localizada, no es el primer paso en un escenario agudo y traumático sin localización precisa del sangrado. La administración de anticoagulantes está contraindicada, pues podría agravar el cuadro hemorrágico.",
+      "comentario": "Ante un paciente que presenta sangrado nasal posterior a traumatismo, la acción inmediata más indicada es el taponamiento nasal anterior, ya que en la mayoría de casos el sangrado proviene del plexo de Kiesselbach (epistaxis anterior), una región altamente vascularizada. Esta técnica e s de fácil aplicación, poco invasiva y permite controlar hasta el 90% de los casos sin necesidad de intervención mayor. El taponamiento posterior se reserva para sangrados persistentes o de origen posterior. La cauterización, aunque útil en epistaxis recurrente localizada, no es el primer paso en un escenario agudo y traumático sin localización precisa del sangrado. La administración de anticoagulantes está contraindicada, pues podría agravar el cuadro hemorrágico.",
+      "tema": "Epistaxis traumática: taponamiento anterior",
+      "año": 2021
+    },
+    {
+      "id": "OFT-014",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Lactante de 8 meses, traído a consulta por presentar desde hace 5 días fiebre, rinorrea y tos esporádica. Hoy el niño presenta llanto constante, rechaza la alimentación y se golpea compulsivamente con ambas manos las orejas. ¿Qué examen confirmaría el diagnóstico?",
+      "opciones": [
+        "Otoscopía",
+        "Visualización de la faringe",
+        "Auscultación de los pulmones",
+        "Búsqueda de reflejo rojo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un lactante de 8 meses con fiebre, rechazo a la alimentación y signos de dolor auricular como el llanto constante y golpearse las orejas, sugiere un cuadro de otitis media aguda. Para confirmar este diagnóstico, el examen más específico y diagnóstico es la otoscopía, que permite visualizar el estado de la membrana timpánica (opacidad, abombamiento, pérdida del reflejo luminoso, entre otros). La visualización de la faringe o la auscultación pulmonar pueden ser útiles para descartar otros diagnósticos diferen ciales, pero no confirman el proceso infeccioso en oído medio.",
+      "comentario": "Un lactante de 8 meses con fiebre, rechazo a la alimentación y signos de dolor auricular como el llanto constante y golpearse las orejas, sugiere un cuadro de otitis media aguda. Para confirmar este diagnóstico, el examen más específico y diagnóstico es la otoscopía, que permite visualizar el estado de la membrana timpánica (opacidad, abombamiento, pérdida del reflejo luminoso, entre otros). La visualización de la faringe o la auscultación pulmonar pueden ser útiles para descartar otros diagnósticos diferen ciales, pero no confirman el proceso infeccioso en oído medio.",
+      "tema": "Otitis media aguda en el lactante: otoscopía",
+      "año": 2021
+    },
+    {
+      "id": "OFT-015",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 74 años refiere pérdida brusca de la visión del ojo derecho con dolor intenso. Antecedente de asma bronquial y de alergia a las sulfonamidas. La lámpara de hendidura revela edema del epitelio corneal, ángulo esclerocorneal cerrado y cámara anterior poco profunda. ¿Cuál es el tratamiento a indicar?",
+      "opciones": [
+        "Manitol",
+        "Dorzolamida",
+        "Timolol",
+        "Latanoprost",
+        "Dexametasona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta un cuadro típico de glaucoma agudo de ángulo cerrado, caracterizado por dolor ocular intenso, pérdida súbita de visión, edema corneal y cámara anterior estrecha. En este caso, el tratamiento inicial más importante es reducir la presión intraocular rápidamente para preservar la función visual. El manitol, un agente osmótico IV, es el fármaco de elección inicial para lograr este efecto. No se debe administrar dorzolamida, ya que es una sulfonamida y la paciente tiene antecedentes de alergia a este grupo.",
+      "comentario": "La paciente presenta un cuadro típico de glaucoma agudo de ángulo cerrado, caracterizado por dolor ocular intenso, pérdida súbita de visión, edema corneal y cámara anterior estrecha. En este caso, el tratamiento inicial más importante es reducir la presión intraocular rápidamente para preservar la función visual. El manitol, un agente osmótico IV, es el fármaco de elección inicial para lograr este efecto. No se debe administrar dorzolamida, ya que es una sulfonamida y la paciente tiene antecedentes de alergia a este grupo.",
+      "tema": "Glaucoma agudo de ángulo cerrado",
+      "año": 2021
+    },
+    {
+      "id": "OFT-016",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 56 años con antecedente de HTA con tratamiento irregular, hace 12 horas que viene presentando sangrado nasal, motivo por lo que acude a la emergencia. Al examen: PA 170/100 mmHg, FC 88 x', SatO₂ 95%. Se evidencia sangrado nasal profuso a nivel vestibular. ¿Cuál es la medida terapéutica inicial?",
+      "opciones": [
+        "Uso de vasoconstrictores locales",
+        "Compresión digital",
+        "Cauterización vestibular",
+        "Taponamiento anterior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con hipertensión arterial y epistaxis anterior activa, evidenciada por sangrado en región vestibular nasal (generalmente plexo de Kiesselbach). La medida inmediata más efectiva y accesible es la compresión digital de la región anterior de la nariz durante varios minutos, lo cual suele detener el sangrado en la mayoría de casos. Si falla, se pasa al uso de vasoconstrictores o cauterización con nitrato de plata. El taponamiento anterior es una opción más invasiva, reservada para sangrados persistente s. Por tanto, el primer paso recomendado es la compresión digital directa.",
+      "comentario": "Paciente con hipertensión arterial y epistaxis anterior activa, evidenciada por sangrado en región vestibular nasal (generalmente plexo de Kiesselbach). La medida inmediata más efectiva y accesible es la compresión digital de la región anterior de la nariz durante varios minutos, lo cual suele detener el sangrado en la mayoría de casos. Si falla, se pasa al uso de vasoconstrictores o cauterización con nitrato de plata. El taponamiento anterior es una opción más invasiva, reservada para sangrados persistente s. Por tanto, el primer paso recomendado es la compresión digital directa.",
+      "tema": "Epistaxis anterior: compresión digital",
+      "año": 2022
+    },
+    {
+      "id": "OFT-017",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años que hace 5 días inicia dolor al deglutir los alimentos, hace 2 días fiebre y dificultad para la apertura oral. Al examen: PA 130/80 mmHg, FC 98 x', T 38.7 °C, eritema en el velo del paladar a predominio del pilar anterior derecho con desviación de la úvula hacia el lado izquierdo. No secreción. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "TAC cervical con contraste",
+        "Ecodoppler cervical",
+        "Punción y drenaje",
+        "Amigdalectomía",
+        "Endoscopia digestiva"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Adolescente con odinofagia progresiva, fiebre y dificultad para abrir la boca, que al examen presenta desviación de la úvula, lo cual sugiere un absceso periamigdalino. Este cuadro es una complicación de la faringoamigdalitis, generalmente de origen bacteriano (estreptococo grupo A). Clínicamente se presenta con trismus, voz gangosa, fiebre y desviación uvular. La punción y drenaje del absceso es el manejo inicial adecuado, acompañado de antibióticos empíricos. No se recomienda amigdalectomía en fase aguda. La ecografía o TAC solo son necesarias si el diagnóstico no es claro o si hay sospecha de extensión.",
+      "comentario": "Adolescente con odinofagia progresiva, fiebre y dificultad para abrir la boca, que al examen presenta desviación de la úvula, lo cual sugiere un absceso periamigdalino. Este cuadro es una complicación de la faringoamigdalitis, generalmente de origen bacteriano (estreptococo grupo A). Clínicamente se presenta con trismus, voz gangosa, fiebre y desviación uvular. La punción y drenaje del absceso es el manejo inicial adecuado, acompañado de antibióticos empíricos. No se recomienda amigdalectomía en fase aguda. La ecografía o TAC solo son necesarias si el diagnóstico no es claro o si hay sospecha de extensión.",
+      "tema": "Absceso periamigdalino",
+      "año": 2022
+    },
+    {
+      "id": "OFT-018",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Adolescente de 12 años presenta cefalea desde hace 1 mes. Se asocia tos a predominio nocturno y rinorrea intermitente. Al examen: secreción purulenta en la pared posterior de la faringe. ¿Cuál es el diagnóstico a plantear?",
+      "opciones": [
+        "Sinusitis subaguda",
+        "Rinitis alérgica",
+        "Rinofaringitis crónica",
+        "Rinosinusitis aguda",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Adolescente con cefalea de un mes de evolución, asociada a rinorrea intermitente y tos nocturna, síntomas que orientan a patología inflamatoria de las vías aéreas superiores. El hallazgo de secreción purulenta en la pared posterior de la faringe indica goteo postnasal, característico de una sinusitis subaguda, la cual se define como la inflamación de los senos paranasales con duración entre 4 y 12 semanas. La rinitis alérgica suele ser crónica, con síntomas como estornudos, prurito nasal y rinorrea hialina, no purulenta. La rinofaringitis crónica también es más prolongada, con síntomas menos intensos. La rinosinusitis aguda se presenta por menos de 4 semanas y con mayor compromiso sistémico. Por tanto, el cuadro clínico y la duración guían a sinusitis subaguda.",
+      "comentario": "Adolescente con cefalea de un mes de evolución, asociada a rinorrea intermitente y tos nocturna, síntomas que orientan a patología inflamatoria de las vías aéreas superiores. El hallazgo de secreción purulenta en la pared posterior de la faringe indica goteo postnasal, característico de una sinusitis subaguda, la cual se define como la inflamación de los senos paranasales con duración entre 4 y 12 semanas. La rinitis alérgica suele ser crónica, con síntomas como estornudos, prurito nasal y rinorrea hialina, no purulenta. La rinofaringitis crónica también es más prolongada, con síntomas menos intensos. La rinosinusitis aguda se presenta por menos de 4 semanas y con mayor compromiso sistémico. Por tanto, el cuadro clínico y la duración guían a sinusitis subaguda.",
+      "tema": "Sinusitis subaguda",
+      "año": 2022
+    },
+    {
+      "id": "OFT-019",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 45 años, sometido a un examen de retina, luego del cual presenta fotofobia y visión borrosa. Pupilas: midriasis bilateral, no reactivas a la luz ni a la acomodación. No otro trastorno oculomotor. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Midriasis farmacológica",
+        "Parálisis del III par craneal",
+        "Pupilas de Argyll Robertson",
+        "Síndrome de Horner",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta midriasis bilateral no reactiva, sin alteraciones oculomotoras, tras un procedimiento oftalmológico. La aplicación de fármacos midriáticos como la tropicamida o fenilefrina es una práctica común para dilatar pupilas durante un examen de retina. Es tos agentes bloquean la respuesta parasimpática, generando midriasis sin alteración motora. La parálisis del III par craneal suele asociarse con ptosis y desviación del globo ocular. Las pupilas de Argyll Robertson son mióticas, no reactivas a la luz pero sí a la acomodación, y se observan en neurosífilis. El síndrome de Horner genera miosis, ptosis y anhidrosis. Por tanto, la causa más probable del cuadro clínico es una midriasis farmacológica inducida iatrogénicamente.",
+      "comentario": "El paciente presenta midriasis bilateral no reactiva, sin alteraciones oculomotoras, tras un procedimiento oftalmológico. La aplicación de fármacos midriáticos como la tropicamida o fenilefrina es una práctica común para dilatar pupilas durante un examen de retina. Es tos agentes bloquean la respuesta parasimpática, generando midriasis sin alteración motora. La parálisis del III par craneal suele asociarse con ptosis y desviación del globo ocular. Las pupilas de Argyll Robertson son mióticas, no reactivas a la luz pero sí a la acomodación, y se observan en neurosífilis. El síndrome de Horner genera miosis, ptosis y anhidrosis. Por tanto, la causa más probable del cuadro clínico es una midriasis farmacológica inducida iatrogénicamente.",
+      "tema": "Midriasis farmacológica",
+      "año": 2022
+    },
+    {
+      "id": "OFT-020",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 5 años es llevado por madre, porque se introdujo semilla en el conducto auditivo externo. ¿Cuál es la indicación?",
+      "opciones": [
+        "Taponamiento con algodón",
+        "Irrigación con suero fisiológico",
+        "Extracción instrumentada",
+        "Irrigación con glicerina",
+        "Ceftriaxona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Cuando el cuerpo extraño es una semilla o material vegetal, la irrigación está contraindicada, ya que puede hincharse y dificultar su extracción. Por tanto, la extracción instrumentada es el procedimiento indicado en estos casos. Se recomienda hacerlo en un ambiente controlado, idealmente por personal capacitado, para evitar lesiones en el conducto auditivo externo o membrana timpánica.",
+      "comentario": "Cuando el cuerpo extraño es una semilla o material vegetal, la irrigación está contraindicada, ya que puede hincharse y dificultar su extracción. Por tanto, la extracción instrumentada es el procedimiento indicado en estos casos. Se recomienda hacerlo en un ambiente controlado, idealmente por personal capacitado, para evitar lesiones en el conducto auditivo externo o membrana timpánica.",
+      "tema": "Cuerpo extraño vegetal en el oído",
+      "año": 2023
+    },
+    {
+      "id": "OFT-021",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 27 años con diagnóstico de LES desde hace 3 años y con nefritis lúpica severa. Recibe esteroides e hidroxicloroquina permanentemente, consulta por pérdida progresiva de la visión, especialmente la nocturna, desde hace dos meses. Examen: PA:180/80 mmHg, FC: 100 X’, FR: 20X’, T°:37°, lúcida facies de luna llena; severa disminución de la agudeza visual, fondo de ojo: “maculopatía bilateral severa”. ¿Cuál es la etiología más probable de la lesión retiniana?",
+      "opciones": [
+        "Corticoides",
+        "Hipertensión arterial",
+        "Vasculitis por LES",
+        "Hidroxicloroquina",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La hidroxicloroquina, aunque fundamental en el tratamiento del lupus eritematoso sistémico, puede causar toxicidad ocular crónica, especialmente con el uso prolongado. La complicación más temida es la maculopatía en ojo de buey, que compromete severamente la agudeza visual, sobre todo en visión nocturna. Por ello, se recomienda control oftalmológico anual en pacientes que reciben este fármaco.",
+      "comentario": "La hidroxicloroquina, aunque fundamental en el tratamiento del lupus eritematoso sistémico, puede causar toxicidad ocular crónica, especialmente con el uso prolongado. La complicación más temida es la maculopatía en ojo de buey, que compromete severamente la agudeza visual, sobre todo en visión nocturna. Por ello, se recomienda control oftalmológico anual en pacientes que reciben este fármaco.",
+      "tema": "Maculopatía por hidroxicloroquina",
+      "año": 2023
+    },
+    {
+      "id": "OFT-022",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 10 años que sufre golpe en pabellón auricular hace dos horas. Examen edema y nódulo en pabellón auricular. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hematoma en subpericondrio",
+        "Seroma auricular",
+        "Pericondritis",
+        "Absceso auricular",
+        "Asma bronquial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El diagnóstico más probable es hematoma en subpericondrio. Este tipo de hematoma ocurre generalmente después de un traumatismo en el pabellón auricular, como el golpe descrito en el caso. Se caracteriza por la acumulación de sangre entre el cartílago y el pericondrio, lo que causa edema y una deformidad palpable (nódulo) en el área afectada. Si no se trata adecuadamente, puede dar lugar a la formación de un \"oreja en coliflor\", debido a la fibrosis y el daño del cartílago.",
+      "comentario": "El diagnóstico más probable es hematoma en subpericondrio. Este tipo de hematoma ocurre generalmente después de un traumatismo en el pabellón auricular, como el golpe descrito en el caso. Se caracteriza por la acumulación de sangre entre el cartílago y el pericondrio, lo que causa edema y una deformidad palpable (nódulo) en el área afectada. Si no se trata adecuadamente, puede dar lugar a la formación de un \"oreja en coliflor\", debido a la fibrosis y el daño del cartílago.",
+      "tema": "Hematoma subpericóndrico auricular",
+      "año": 2023
+    },
+    {
+      "id": "OFT-023",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál es la forma de glaucoma más frecuente?",
+      "opciones": [
+        "Primario de ángulo estrecho",
+        "Facogénico",
+        "Iatrógeno",
+        "Primario de ángulo abierto",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El glaucoma es una neuropatía óptica progresiva que lleva a pérdida visual irreversible. El tipo más frecuente es el primario de ángulo abierto, que representa alrededor del 80–90% de los casos. Se caracteriza por una evolución lenta, asintomática en etapas iniciales y sin dolor, con ángulo iridocorneal abierto en la gonioscopía. En contraste, el glaucoma de ángulo estrecho (o cerrado) es más agudo y sintomático, mientras que el facogénico e iatrógeno son formas secundarias menos comunes. El diagnóstico temprano del tipo de ángulo abierto es esencial debido a su presentación silente y al riesgo de pérdida visual si no se detecta a tiempo. Por ello, la forma más frecuente de glaucoma es el primario de ángulo abierto.",
+      "comentario": "El glaucoma es una neuropatía óptica progresiva que lleva a pérdida visual irreversible. El tipo más frecuente es el primario de ángulo abierto, que representa alrededor del 80–90% de los casos. Se caracteriza por una evolución lenta, asintomática en etapas iniciales y sin dolor, con ángulo iridocorneal abierto en la gonioscopía. En contraste, el glaucoma de ángulo estrecho (o cerrado) es más agudo y sintomático, mientras que el facogénico e iatrógeno son formas secundarias menos comunes. El diagnóstico temprano del tipo de ángulo abierto es esencial debido a su presentación silente y al riesgo de pérdida visual si no se detecta a tiempo. Por ello, la forma más frecuente de glaucoma es el primario de ángulo abierto.",
+      "tema": "Glaucoma primario de ángulo abierto",
+      "año": 2023
+    },
+    {
+      "id": "OFT-024",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 15 años, refiere prurito intenso en el conducto auditivo externo derecho e hipoacusia. Examen: T 39ºC, otorrea purulenta y adenopatía retroauricular. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        "Dermatosis",
+        "Celulitis",
+        "Otitis interna",
+        "Otitis externa",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de prurito intenso en conducto auditivo externo, otorrea purulenta, hipoacusia y otros síntomas sugieren que el diagnóstico más probable es la otitis externa (Opción D). La otitis externa es una infección del conducto auditivo externo, que puede ser aguda o crónica. Los síntomas típicos incluyen prurito en el conducto auditivo externo, dolor de oído, otorrea purulenta, sensibilidad al tacto y pérdida de audición.",
+      "comentario": "La presencia de prurito intenso en conducto auditivo externo, otorrea purulenta, hipoacusia y otros síntomas sugieren que el diagnóstico más probable es la otitis externa (Opción D). La otitis externa es una infección del conducto auditivo externo, que puede ser aguda o crónica. Los síntomas típicos incluyen prurito en el conducto auditivo externo, dolor de oído, otorrea purulenta, sensibilidad al tacto y pérdida de audición.",
+      "tema": "Otitis externa",
+      "año": 2023
+    },
+    {
+      "id": "OFT-025",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años que desde hace tres días presenta secreción mucopurulenta con formación de legañas en ambos ojos, sensación de cuerpo extraño sin dolor. Examen: Hiperemia marcada, no pérdida de la visión. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Dacriocistitis",
+        "Queratitis",
+        "Conjuntivitis infecciosa",
+        "Queroconjuntivitis",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Adolescente con cuadro de tres días de secreción mucopurulenta ocular bilateral, presencia de legañas, sensación de cuerpo extraño sin dolor ni pérdida visual. Este patrón es altamente sugestivo de conjuntivitis infecciosa bacteriana, especialmente por el carácter bilateral, la secreción purulenta y la hiperemia conjuntival marcada. Se descarta dacriocistitis por ausencia de dolor e inflamación en región medial ocular. La queratitis se asocia con dolor ocular e impacto en la agudeza visual. La queroconjuntivitis suele presentar componente alérgico o viral más crónico. En este caso, el cuadro es agudo, clásico y de resolución habitual con antibióticos tópicos.",
+      "comentario": "Adolescente con cuadro de tres días de secreción mucopurulenta ocular bilateral, presencia de legañas, sensación de cuerpo extraño sin dolor ni pérdida visual. Este patrón es altamente sugestivo de conjuntivitis infecciosa bacteriana, especialmente por el carácter bilateral, la secreción purulenta y la hiperemia conjuntival marcada. Se descarta dacriocistitis por ausencia de dolor e inflamación en región medial ocular. La queratitis se asocia con dolor ocular e impacto en la agudeza visual. La queroconjuntivitis suele presentar componente alérgico o viral más crónico. En este caso, el cuadro es agudo, clásico y de resolución habitual con antibióticos tópicos.",
+      "tema": "Conjuntivitis bacteriana",
+      "año": 2023
+    },
+    {
+      "id": "OFT-026",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Niño de 6 años con pobre ganancia pondoestatural, solicitan evaluación en el colegio por bajo rendimiento escolar. Examen otoscópico: tímpano perforado, otorrea maloliente. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Otitis media aguda",
+        "Mastoiditis",
+        "Otitis media crónica",
+        "Cuerpo extraño",
+        "Tuberculosis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico del paciente (perforación timpánica, otorrea maloliente, pobre ganancia pondoestatural y bajo rendimiento escolar) es altamente sugestivo de otitis media crónica (Alternativa C). La otitis media crónica es una inflamación crónica del oído medio que puede resultar en una perforación timpánica persistente y otorrea maloliente. Esta condición crónica puede tener un impacto significativo en el desarrollo auditivo y, por consiguiente, en el desarrollo general del niño.",
+      "comentario": "El cuadro clínico del paciente (perforación timpánica, otorrea maloliente, pobre ganancia pondoestatural y bajo rendimiento escolar) es altamente sugestivo de otitis media crónica (Alternativa C). La otitis media crónica es una inflamación crónica del oído medio que puede resultar en una perforación timpánica persistente y otorrea maloliente. Esta condición crónica puede tener un impacto significativo en el desarrollo auditivo y, por consiguiente, en el desarrollo general del niño.",
+      "tema": "Otitis media crónica",
+      "año": 2024
+    },
+    {
+      "id": "OFT-027",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Adolescente de 16 años, quien presenta disminución de la audición, prurito, sensación de zumbido. Examen: obstrucción del conducto auditivo externo por abundante cerumen. ¿Con qué solución o líquido debe realizar la irrigación para extraerlo?",
+      "opciones": [
+        "Salina tibia",
+        "Glicerina",
+        "Agua oxigenada",
+        "Agua destilada helada",
+        "Ibuprofeno"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Para la irrigación del conducto auditivo externo con obstrucción por cerumen, la opción más segura y recomendada es la solución salina tibia (Alternativa A). Esta solución es efectiva para ablandar y remover el cerumen sin causar irritación ni inducir vértigo. Mantener la temperatura tibia es crucial para el confort del paciente y para evitar el reflejo vestibular que puede ser desencadenado por el uso de líquidos fríos.",
+      "comentario": "Para la irrigación del conducto auditivo externo con obstrucción por cerumen, la opción más segura y recomendada es la solución salina tibia (Alternativa A). Esta solución es efectiva para ablandar y remover el cerumen sin causar irritación ni inducir vértigo. Mantener la temperatura tibia es crucial para el confort del paciente y para evitar el reflejo vestibular que puede ser desencadenado por el uso de líquidos fríos.",
+      "tema": "Tapón de cerumen: irrigación con salino tibio",
+      "año": 2024
+    },
+    {
+      "id": "OFT-028",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 47 años con cuerpo extraño incrustado en el ojo izquierdo con perforación ocular. ¿Qué medida de precaución debemos tener en cuenta en un establecimiento del primer nivel de atención?",
+      "opciones": [
+        "No frotar el ojo",
+        "No irrigar el ojo con un chorro suave de agua limpia",
+        "No tratar de quitar el objeto incrustado en el ojo",
+        "No cubrir el ojo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La medida de precaución más importante a tener en cuenta en un establecimiento de primer nivel de atención para un varón de 47 años con un cuerpo extraño incrustado en el ojo izquierdo y perforación ocular es No tratar de quitar el objeto incrustado en el ojo (Alternativa C). Intentar quitar el objeto incrustado puede causar más daño, aumentar el riesgo de infección y provocar una mayor pérdida de contenido ocular. Es fundamental que el manejo del cuerpo extraño incrustado y la perforación ocular sea realizado por un especialista en un entorno controlado y con los recursos adecuados para el manejo quirúrgico.",
+      "comentario": "La medida de precaución más importante a tener en cuenta en un establecimiento de primer nivel de atención para un varón de 47 años con un cuerpo extraño incrustado en el ojo izquierdo y perforación ocular es No tratar de quitar el objeto incrustado en el ojo (Alternativa C). Intentar quitar el objeto incrustado puede causar más daño, aumentar el riesgo de infección y provocar una mayor pérdida de contenido ocular. Es fundamental que el manejo del cuerpo extraño incrustado y la perforación ocular sea realizado por un especialista en un entorno controlado y con los recursos adecuados para el manejo quirúrgico.",
+      "tema": "Cuerpo extraño ocular penetrante: no retirarlo",
+      "año": 2024
+    },
+    {
+      "id": "OFT-029",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 18 años, hace 4 horas recibió golpe en el ojo mientras jugaba fútbol; presenta dolor en el ojo afectado, sensibilidad a la luz, visión borrosa, sangrado en cuerpo ciliar generando un nivel líquido. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Conjuntivitis aguda",
+        "Hipema",
+        "Rotura de globo ocular",
+        "Abrasión corneal",
+        "Asma bronquial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un cuadro compatible con hipema, caracterizado por dolor ocular, fotofobia, visión borrosa y un nivel líquido en la cámara anterior del ojo tras un trauma contuso. El sangrado en el cuerpo ciliar confirma el diagnóstico. Es importante descartar elevación de la presión intraocular y otras lesiones asociadas. El manejo incluye reposo con la cabeza elevada, control oftalmológico estricto y evitar AINEs por el riesgo de re-sangrado.",
+      "comentario": "El paciente presenta un cuadro compatible con hipema, caracterizado por dolor ocular, fotofobia, visión borrosa y un nivel líquido en la cámara anterior del ojo tras un trauma contuso. El sangrado en el cuerpo ciliar confirma el diagnóstico. Es importante descartar elevación de la presión intraocular y otras lesiones asociadas. El manejo incluye reposo con la cabeza elevada, control oftalmológico estricto y evitar AINEs por el riesgo de re-sangrado.",
+      "tema": "Hipema traumático",
+      "año": 2024
+    },
+    {
+      "id": "OFT-030",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es la localización más frecuente de sangrado al introducir una sonda nasogástrica?",
+      "opciones": [
+        "Seno paranasal",
+        "Tabique nasal anterior",
+        "Tabique nasal posterior",
+        "Vestíbulo nasal",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La localización más frecuente de sangrado al introducir una sonda nasogástrica es el tabique nasal anterior, específicamente en el plexo de Kiesselbach, una zona vascularizada y propensa a lesiones por trauma mecánico. Esta área es la principal fuente de epistaxis anterior y suele sangrar fácilmente ante manipulaciones nasales. Para minimizar el riesgo de sangrado, se recomienda lubricar la sonda y avanzar con suavidad.",
+      "comentario": "La localización más frecuente de sangrado al introducir una sonda nasogástrica es el tabique nasal anterior, específicamente en el plexo de Kiesselbach, una zona vascularizada y propensa a lesiones por trauma mecánico. Esta área es la principal fuente de epistaxis anterior y suele sangrar fácilmente ante manipulaciones nasales. Para minimizar el riesgo de sangrado, se recomienda lubricar la sonda y avanzar con suavidad.",
+      "tema": "Plexo de Kiesselbach: sangrado al pasar una sonda",
+      "año": 2024
+    },
+    {
+      "id": "OFT-031",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes medicamentos es comúnmente utilizado para reducir la presión intraocular en pacientes con glaucoma?",
+      "opciones": [
+        "Betabloqueantes",
+        "Antibióticos",
+        "Antihistamínicos",
+        "Corticoides",
+        "Ceftriaxona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los betabloqueantes, como el timolol, son fármacos de primera línea en el tratamiento del glaucoma. Actúan reduciendo la producción de humor acuoso en el cuerpo ciliar, lo que disminuye la presión intraocular (PIO). Son particularmente útiles en el glaucoma de ángulo abierto.",
+      "comentario": "Los betabloqueantes, como el timolol, son fármacos de primera línea en el tratamiento del glaucoma. Actúan reduciendo la producción de humor acuoso en el cuerpo ciliar, lo que disminuye la presión intraocular (PIO). Son particularmente útiles en el glaucoma de ángulo abierto.",
+      "tema": "Glaucoma: betabloqueantes tópicos",
+      "año": 2024
+    },
+    {
+      "id": "OFT-032",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Lactante de 18 meses es traído por estrabismo y dolor ocular. Examen: ojo derecho con hiperemia conjuntival y reflejo pupilar blanco. ¿En qué diagnóstico sospecha?",
+      "opciones": [
+        "Queratitis autoinmune",
+        "Uveítis aguda",
+        "Conjuntivitis viral",
+        "Retinoblastoma",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de leucocoria (reflejo pupilar blanco) en un lactante es altamente sugestiva de retinoblastoma, una neoplasia ocular que puede presentarse con estrabismo y dolor ocular. Este es el diagnóstico más probable, ya que es la causa más frecuente de leucocoria en menores de 3 años. La queratitis autoinmune (A) y la uveítis aguda (B) podrían causar dolor ocular, pero no leucocoria, que es un hallazgo específico del retinoblastoma. La conjuntivitis viral (C) típicamente se presenta con enrojecimiento ocular y secreción, pero sin leucocoria ni dolor severo.",
+      "comentario": "La presencia de leucocoria (reflejo pupilar blanco) en un lactante es altamente sugestiva de retinoblastoma, una neoplasia ocular que puede presentarse con estrabismo y dolor ocular. Este es el diagnóstico más probable, ya que es la causa más frecuente de leucocoria en menores de 3 años. La queratitis autoinmune (A) y la uveítis aguda (B) podrían causar dolor ocular, pero no leucocoria, que es un hallazgo específico del retinoblastoma. La conjuntivitis viral (C) típicamente se presenta con enrojecimiento ocular y secreción, pero sin leucocoria ni dolor severo.",
+      "tema": "Leucocoria: retinoblastoma",
+      "año": 2024
+    },
+    {
+      "id": "OFT-033",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 60 años acude por emergencia, porque hace cuatro horas ha notado disminución de la visión y halos de colores alrededor de las luces, dolor ocular intenso, malestar general, cefalea frontal, náuseas y vómitos. Examen: hiperemia difusa, cámara anterior estrecha y la pupila en midriasis media no reactiva, palpación del ojo izquierdo más tensa de lo normal. ¿Cuál es la indicación inicial prioritaria?",
+      "opciones": [
+        "Lágrimas artificiales",
+        "Ketorolaco 10 mg",
+        "Tobramicina colirio",
+        "Acetazolamida 500 mg",
+        "Solicitar nuevo cultivo"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico de la paciente sugiere un glaucoma agudo de ángulo cerrado, una emergencia oftalmológica caracterizada por dolor ocular intenso, visión borrosa, náuseas, vómitos, cefalea y una pupila en midriasis media no reactiva. La hiperemia ocular y la tensión ocular aumentada (ojo tenso a la palpación) son hallazgos clave. La acetazolamida 500 mg IV es el tratamiento inicial prioritario, ya que actúa disminuyendo la producción de humor acuoso, lo que reduce la presión intraocular. El manejo debe incluir también agentes para reducir la presión ocular (como los beta-bloqueadores y prostaglandinas) y se puede necesitar una intervención quirúrgica si no responde al tratamiento inicial.",
+      "comentario": "El cuadro clínico de la paciente sugiere un glaucoma agudo de ángulo cerrado, una emergencia oftalmológica caracterizada por dolor ocular intenso, visión borrosa, náuseas, vómitos, cefalea y una pupila en midriasis media no reactiva. La hiperemia ocular y la tensión ocular aumentada (ojo tenso a la palpación) son hallazgos clave. La acetazolamida 500 mg IV es el tratamiento inicial prioritario, ya que actúa disminuyendo la producción de humor acuoso, lo que reduce la presión intraocular. El manejo debe incluir también agentes para reducir la presión ocular (como los beta-bloqueadores y prostaglandinas) y se puede necesitar una intervención quirúrgica si no responde al tratamiento inicial.",
+      "tema": "Glaucoma agudo: acetazolamida",
+      "año": 2023
+    },
+    {
+      "id": "OFT-034",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 2 años presenta inflamación peri orbitaria y \"desviación convergente\" de ojo derecho. Examen: irregularidad y ausencia de reflejo pupilar derecho. ¿Cuál es el Diagnostico probable?",
+      "opciones": [
+        "Endooftalmitis",
+        "Vítreo hiperplásico",
+        "Catarata",
+        "Retinoblastoma",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presentación de desviación ocular (estrabismo), pérdida del reflejo rojo pupilar (leucocoria) y síntomas como inflamación peri orbitaria en un niño pequeño, son sugestivos de retinoblastoma, el tumor intraocular más frecuente en pediatría. Es potencialmente mortal y puede comprometer la vi sión, por lo que requiere diagnóstico rápido con fondo de ojo y estudios de imagen. El tratamiento incluye enucleación, quimioterapia o terapia local.",
+      "comentario": "La presentación de desviación ocular (estrabismo), pérdida del reflejo rojo pupilar (leucocoria) y síntomas como inflamación peri orbitaria en un niño pequeño, son sugestivos de retinoblastoma, el tumor intraocular más frecuente en pediatría. Es potencialmente mortal y puede comprometer la vi sión, por lo que requiere diagnóstico rápido con fondo de ojo y estudios de imagen. El tratamiento incluye enucleación, quimioterapia o terapia local.",
+      "tema": "Retinoblastoma: estrabismo y reflejo pupilar anormal",
+      "año": 2020
+    },
+    {
+      "id": "OFT-035",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 21 años, desde hace 5 días presenta dolor faríngeo, alza térmica, odinofagia y otalgia derecha. Al examen: trismus, aumento de volumen de la amígdala palatina derecha y secreción purulenta. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Absceso submaxilar",
+        "Uvulitis infecciosa",
+        "Absceso amigdaliano",
+        "Edema alérgico de Quicke",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón joven con dolor faríngeo intenso, fiebre, otalgia y trismus (dificultad para abrir la boca) tiene un cuadro clínico compatible con absceso periamigdalino, también llamado absceso amigdaliano. Este es una complicación de una faringoamigdalitis mal tratada o resistente. El trismus es un signo característico debido a la afectación del músculo pterigoideo por la inflamación cercana. El aumento de volumen unilateral de la amígdala con desviación de la úvula y la secreción purulenta refuerzan el diagnóstico. El tratamiento es drenaje del absceso, antibióticos y analgesia. Un absceso submaxilar afecta el piso de la boca (Ludwig), la uvulitis es menos extensa y el edema de Quicke es una reacción alérgica, no purulenta.",
+      "comentario": "Varón joven con dolor faríngeo intenso, fiebre, otalgia y trismus (dificultad para abrir la boca) tiene un cuadro clínico compatible con absceso periamigdalino, también llamado absceso amigdaliano. Este es una complicación de una faringoamigdalitis mal tratada o resistente. El trismus es un signo característico debido a la afectación del músculo pterigoideo por la inflamación cercana. El aumento de volumen unilateral de la amígdala con desviación de la úvula y la secreción purulenta refuerzan el diagnóstico. El tratamiento es drenaje del absceso, antibióticos y analgesia. Un absceso submaxilar afecta el piso de la boca (Ludwig), la uvulitis es menos extensa y el edema de Quicke es una reacción alérgica, no purulenta.",
+      "tema": "Absceso periamigdalino: trismus y otalgia",
+      "año": 2021
+    },
+    {
+      "id": "OFT-036",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 22 años presenta ojo rojo y secreción purulenta en moderada cantidad y otalgia. Al examen: conjuntiva con engrosamiento folicular y papilar. ¿Cuál es antibiótico de elección?",
+      "opciones": [
+        "Cloranfenicol",
+        "Doxiciclina",
+        "Cotrimoxazol",
+        "Polimixina",
+        "Metronidazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta una conjuntivitis folicular con secreción purulenta y otalgia, cuadro clínico compatible con conjuntivitis por Chlamydia trachomatis en un adulto joven. La otalgia sugiere afectación por vía de la trompa de Eustaquio o coinfección. El antibiótico de elección es la doxiciclina, por vía sistémica, ya que Chlamydia es un patógeno intra celular. El cloranfenicol es útil para infecciones bacterianas comunes, pero no intracelulares. Cotrimoxazol no es el tratamiento de elección para clamidias. La polimixina es tópica y más útil frente a gramnegativos como Pseudomonas, no frente a Chlamydia.",
+      "comentario": "La paciente presenta una conjuntivitis folicular con secreción purulenta y otalgia, cuadro clínico compatible con conjuntivitis por Chlamydia trachomatis en un adulto joven. La otalgia sugiere afectación por vía de la trompa de Eustaquio o coinfección. El antibiótico de elección es la doxiciclina, por vía sistémica, ya que Chlamydia es un patógeno intra celular. El cloranfenicol es útil para infecciones bacterianas comunes, pero no intracelulares. Cotrimoxazol no es el tratamiento de elección para clamidias. La polimixina es tópica y más útil frente a gramnegativos como Pseudomonas, no frente a Chlamydia.",
+      "tema": "Conjuntivitis de inclusión por Chlamydia: doxiciclina",
+      "año": 2021
+    },
+    {
+      "id": "OFT-037",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 40 años, que sufre un fuerte golpe con un palo en su ojo derecho. Al examen: pupila deformada, hematoma subconjuntival e hifema. ¿Cuál es la conducta inicial?",
+      "opciones": [
+        "Protección ocular y derivación al especialista",
+        "Instilación de antibióticos y analgésicos",
+        "Analgésicos y control para evolución de sangrado",
+        "Maniobra de Valsalva y protección ocular",
+        "Insulina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente ha sufrido un traumatismo ocular contuso con signos de lesión ocular severa, como pupila deformada, hematoma subconjuntival e hifema (sangre en la cámara anterior del ojo). Estos hallazgos sugieren daño intraocular que puede comprometer estructuras importantes como el iris, el cristalino o el ángulo iridocorneal. La conducta inicial debe ser proteger el globo ocular con un escudo rígido (no compresivo), evitar cualquier manipulación o aumento de presión intraocular (por ejemplo, evitar maniobras de Valsalva), y referir de inmediato al oftalmólogo. La instilación de gotas oculares sin evaluación especializada está contraindicada en este tipo de traumas. La atención oportuna puede preservar la visión y evitar complicaciones como glaucoma o hifema recurrente.",
+      "comentario": "La paciente ha sufrido un traumatismo ocular contuso con signos de lesión ocular severa, como pupila deformada, hematoma subconjuntival e hifema (sangre en la cámara anterior del ojo). Estos hallazgos sugieren daño intraocular que puede comprometer estructuras importantes como el iris, el cristalino o el ángulo iridocorneal. La conducta inicial debe ser proteger el globo ocular con un escudo rígido (no compresivo), evitar cualquier manipulación o aumento de presión intraocular (por ejemplo, evitar maniobras de Valsalva), y referir de inmediato al oftalmólogo. La instilación de gotas oculares sin evaluación especializada está contraindicada en este tipo de traumas. La atención oportuna puede preservar la visión y evitar complicaciones como glaucoma o hifema recurrente.",
+      "tema": "Trauma ocular con hifema: proteger y derivar",
+      "año": 2021
+    },
+    {
+      "id": "OFT-038",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niño de 3 años que hace una hora se introdujo al oído una pila de reloj. Otoscopia: pila de botón y edema leve del conducto auditivo. ¿Qué tratamiento está indicado?",
+      "opciones": [
+        "Inyectar lubricante",
+        "Extracción con pinza",
+        "Lavado de oído",
+        "Miringotomía",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La introducción de cuerpos extraños en oído es frecuente en niños pequeños. En el caso clínico, la presencia de una pila de botón representa una urgencia otorrinolaringológica debido a su potencial de liberar hidróxido de sodio y causar necrosis tisular por quemadura cáustica, incluso en pocas horas. El manejo inmediato consiste en la extracción mecánica cuidadosa con pinzas bajo visualización directa, idealmente por personal entrenado. El lavado de oído está contraindicado con pilas, ya que puede facilitar la fuga de electrolitos o ruptura del revestimiento. El lubricante no es útil y podría retrasar el procedimiento. La miringotomía solo se considera si hay perforación timpánica con colección purulenta o complicación evidente. El manejo precoz evita daño auditivo irreversible y complicaciones infecciosas.",
+      "comentario": "La introducción de cuerpos extraños en oído es frecuente en niños pequeños. En el caso clínico, la presencia de una pila de botón representa una urgencia otorrinolaringológica debido a su potencial de liberar hidróxido de sodio y causar necrosis tisular por quemadura cáustica, incluso en pocas horas. El manejo inmediato consiste en la extracción mecánica cuidadosa con pinzas bajo visualización directa, idealmente por personal entrenado. El lavado de oído está contraindicado con pilas, ya que puede facilitar la fuga de electrolitos o ruptura del revestimiento. El lubricante no es útil y podría retrasar el procedimiento. La miringotomía solo se considera si hay perforación timpánica con colección purulenta o complicación evidente. El manejo precoz evita daño auditivo irreversible y complicaciones infecciosas.",
+      "tema": "Pila de botón en el oído: extracción inmediata",
+      "año": 2021
+    },
+    {
+      "id": "OFT-039",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 17 años, luego de estar nadando en piscina, presenta otalgia, secreción seropurulenta e hipoacusia. Al examen: dolor al traccionar el pabellón auricular afectado, inflamación y edema que no permite la otoscopía. ¿Qué agente microbiano sería la causa de esta dolencia?",
+      "opciones": [
+        "Escherichia coli",
+        "Estafilococo dorado",
+        "Haemophilus catarralis",
+        "Pseudomona aeruginosa",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Se trata de un varón de 17 años con clínica típica de otitis externa mal llamada “otitis del nadador”, enfermedad frecuente en adolescentes y adultos jóvenes tras exposición prolongada al agua, especialmente en piscinas. Presenta otalgia, otorrea seropurulenta e hipoacusia, con signos al examen físico muy característicos: dolor a la movilización del pabellón auricular e inflamación del conducto auditivo externo que impide visualizar el tímpano. El principal agente etiológico en estos casos es Pseudomona aer µginosa, bacteria gramnegativa oportunista que prospera en ambientes húmedos y que coloniza el epitelio dañado del conducto auditivo. Estafilococo aureus también puede ser causal, pero con menor frecuencia. No hay indicios de infección de oído medio ni compromiso sistémico. El tratamiento se basa en antibióticos tópicos con acción antipseudomónica.",
+      "comentario": "Se trata de un varón de 17 años con clínica típica de otitis externa mal llamada “otitis del nadador”, enfermedad frecuente en adolescentes y adultos jóvenes tras exposición prolongada al agua, especialmente en piscinas. Presenta otalgia, otorrea seropurulenta e hipoacusia, con signos al examen físico muy característicos: dolor a la movilización del pabellón auricular e inflamación del conducto auditivo externo que impide visualizar el tímpano. El principal agente etiológico en estos casos es Pseudomona aer µginosa, bacteria gramnegativa oportunista que prospera en ambientes húmedos y que coloniza el epitelio dañado del conducto auditivo. Estafilococo aureus también puede ser causal, pero con menor frecuencia. No hay indicios de infección de oído medio ni compromiso sistémico. El tratamiento se basa en antibióticos tópicos con acción antipseudomónica.",
+      "tema": "Otitis externa del nadador: Pseudomonas",
+      "año": 2021
+    },
+    {
+      "id": "OFT-040",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón 83 años acude por sangrado nasal severo. Examen: funciones vitales estables, palidez leve de piel y mucosas. Se observa sangrado en regular cantidad por fosa nasal derecha y por boca. ¿Cuál es el procedimiento de elección?",
+      "opciones": [
+        "Taponamiento posterior",
+        "Taponamiento anterior",
+        "Cauterización del vestíbulo nasal",
+        "Compresión nasal externa",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Adulto mayor con epistaxis severa, sangrado visible por fosa nasal y orofaringe, sugiere epistaxis posterior, probablemente desde la arteria esfenopalatina. A diferencia de la epistaxis anterior (más frecuente y menos grave), este tipo requiere manejo más agresivo. El procedimiento de elección en este caso es el taponamiento posterior, debido a la localización y severidad del sangrado. La cauterización y taponamiento anterior no serán efectivos aquí. El control rápido evita complicaciones como anemia aguda o shock.",
+      "comentario": "Adulto mayor con epistaxis severa, sangrado visible por fosa nasal y orofaringe, sugiere epistaxis posterior, probablemente desde la arteria esfenopalatina. A diferencia de la epistaxis anterior (más frecuente y menos grave), este tipo requiere manejo más agresivo. El procedimiento de elección en este caso es el taponamiento posterior, debido a la localización y severidad del sangrado. La cauterización y taponamiento anterior no serán efectivos aquí. El control rápido evita complicaciones como anemia aguda o shock.",
+      "tema": "Epistaxis posterior: taponamiento posterior",
+      "año": 2021
+    },
+    {
+      "id": "OFT-041",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niño de 6 años, llevado por su madre por referir dolor en oído desde hace 3 horas. Otoscopía: insecto vivo que se mueve en el canal auditivo externo. ¿Cuál es el manejo inicial?",
+      "opciones": [
+        "Lavado de oído con solución salina",
+        "Extracción instrumental con pinza",
+        "Instilación ótica de aceite mineral",
+        "Irrigación ótica con agua oxigenada",
+        "Ibuprofeno"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el caso de cuerpos extraños vivos en el conducto auditivo externo, como insectos, el primer paso es inmovilizar al insecto antes de intentar extraerlo. Esto se logra mediante la instilación de aceite mineral, el cual tiene un efecto inmovilizante o asfixiante, reduciendo el riesgo de daño al tímpano o canal durante la extracción. Procedimientos como lavado o irrigación con agua oxigenada no son recomendables inicialmente, ya que pueden provocar movimiento del insecto y aumentar el dolor o daño. Tampoco se debe hacer extracción instrumental mientras el insecto esté activo.",
+      "comentario": "En el caso de cuerpos extraños vivos en el conducto auditivo externo, como insectos, el primer paso es inmovilizar al insecto antes de intentar extraerlo. Esto se logra mediante la instilación de aceite mineral, el cual tiene un efecto inmovilizante o asfixiante, reduciendo el riesgo de daño al tímpano o canal durante la extracción. Procedimientos como lavado o irrigación con agua oxigenada no son recomendables inicialmente, ya que pueden provocar movimiento del insecto y aumentar el dolor o daño. Tampoco se debe hacer extracción instrumental mientras el insecto esté activo.",
+      "tema": "Insecto vivo en el oído: aceite mineral",
+      "año": 2021
+    },
+    {
+      "id": "OFT-042",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 38 años, refiere intenso dolor ocular, lagrimeo y enrojecimiento mientras trabajaba con una amoladora eléctrica sin contar con protector facial. Al examen: cuerpo extraño metálico que atraviesa córnea, iris y cristalino. ¿Cuál es el manejo inicial?",
+      "opciones": [
+        "Colirio analgésico",
+        "Analgesia endovenosa",
+        "Parche compresivo",
+        "Tonometría",
+        "Azitromicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un cuadro de trauma ocular penetrante con cuerpo extraño metálico que atraviesa córnea, iris y cristalino. Esta lesión grave representa una emergencia oftalmológica. El manejo inicial prioritario es asegurar la comodidad del paciente mediante analgesia endovenosa, evitar cualquier manipulación del ojo y remitir de inmediato a cirugía oftálmica. El uso de colirios o parches está contraindicado, pues pueden agravar la lesión o retrasar el tratamiento quirúrgico. Tampoco debe realizarse tonometría en este contexto, ya que puede inducir salida de contenido ocular por la herida penetrante. El control del dolor y la protección ocular no invasiva son esenciales.",
+      "comentario": "El paciente presenta un cuadro de trauma ocular penetrante con cuerpo extraño metálico que atraviesa córnea, iris y cristalino. Esta lesión grave representa una emergencia oftalmológica. El manejo inicial prioritario es asegurar la comodidad del paciente mediante analgesia endovenosa, evitar cualquier manipulación del ojo y remitir de inmediato a cirugía oftálmica. El uso de colirios o parches está contraindicado, pues pueden agravar la lesión o retrasar el tratamiento quirúrgico. Tampoco debe realizarse tonometría en este contexto, ya que puede inducir salida de contenido ocular por la herida penetrante. El control del dolor y la protección ocular no invasiva son esenciales.",
+      "tema": "Trauma ocular penetrante: analgesia sin manipular el ojo",
+      "año": 2021
+    },
+    {
+      "id": "OFT-043",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Niño de 3 años que hace 2 días presenta dolor de oído, refiere la madre que se lleva la mano al oído frecuentemente, sensación de alza térmica no cuantificada. Antecedente: hace un mes presentó un episodio de otalgia, fiebre acompañada de irritabilidad, recibiendo amoxicilina 40 mg/kg/día. Al examen: T 38.5°C, PA 90/50, FC 100 x'. Otoscopía: se observa un tímpano abombado, congestivo e hiperémico. ¿Cuál es el tratamiento antibiótico de elección?",
+      "opciones": [
+        "Amoxicilina",
+        "Amoxicilina–ácido clavulánico",
+        "Cefuroxima",
+        "Claritromicina",
+        "Tramadol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Niño en edad preescolar con signos y síntomas de otitis media aguda recurrente, ya tratado previamente con amoxicilina hace un mes. Actualmente presenta fiebre, dolor de oído, irritabilidad y otoscopía con tímpano abombado e hiperémico, lo que indica infección activa. Dado el antecedente de tratamiento reciente con amoxicilina, se recomienda iniciar antibiótico con mayor espectro que cubra gérmenes resistentes como H. influenzae productor de beta-lactamasas. En este caso, el antibiótico de elección es amoxicilina –ácido clavulánico. Las otras alternativas pueden usarse, pero no son primera línea en este contexto.",
+      "comentario": "Niño en edad preescolar con signos y síntomas de otitis media aguda recurrente, ya tratado previamente con amoxicilina hace un mes. Actualmente presenta fiebre, dolor de oído, irritabilidad y otoscopía con tímpano abombado e hiperémico, lo que indica infección activa. Dado el antecedente de tratamiento reciente con amoxicilina, se recomienda iniciar antibiótico con mayor espectro que cubra gérmenes resistentes como H. influenzae productor de beta-lactamasas. En este caso, el antibiótico de elección es amoxicilina –ácido clavulánico. Las otras alternativas pueden usarse, pero no son primera línea en este contexto.",
+      "tema": "Otitis media recurrente tras amoxicilina: amoxicilina-clavulánico",
+      "año": 2022
+    },
+    {
+      "id": "OFT-044",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 65 años, acude por hipoacusia y tinnitus en oído derecho desde hace 2 días. Acostumbra, luego de baño diario, realizar la limpieza de oídos con hisopo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Otitis media",
+        "Hipoacusia neurosensorial",
+        "Otitis externa",
+        "Tapón de cerumen",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente adulto mayor con inicio brusco de hipoacusia y tinnitus unilateral posterior a maniobra de limpieza auricular. El uso de hisopos con frecuencia genera empuje del cerumen hacia el conducto auditivo externo, formándose un tapón. Este se manifiesta clínicamente con pérdida auditiva conductiva súbita, sensación de oído tapado y zumbido. La ausencia de fiebre, dolor o secreción purulenta descarta una otitis externa o media. Además, la hipoacusia neurosensorial suele ser progresiva, bilateral y no asociada a maniobras mecánicas. El antecedente directo del baño y limpieza refuerz a el diagnóstico de tapón de cerumen.",
+      "comentario": "Paciente adulto mayor con inicio brusco de hipoacusia y tinnitus unilateral posterior a maniobra de limpieza auricular. El uso de hisopos con frecuencia genera empuje del cerumen hacia el conducto auditivo externo, formándose un tapón. Este se manifiesta clínicamente con pérdida auditiva conductiva súbita, sensación de oído tapado y zumbido. La ausencia de fiebre, dolor o secreción purulenta descarta una otitis externa o media. Además, la hipoacusia neurosensorial suele ser progresiva, bilateral y no asociada a maniobras mecánicas. El antecedente directo del baño y limpieza refuerz a el diagnóstico de tapón de cerumen.",
+      "tema": "Tapón de cerumen por uso de hisopos",
+      "año": 2022
+    },
+    {
+      "id": "OFT-045",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 30 años que hace una semana presenta dolor en ojo derecho de impactar con la rama de un arbusto. Antecedente no contribuido. Oftalmoscopia: úlcera corneal de color grisáceo con lesiones satélites. ¿Cuál es el agente más probable?",
+      "opciones": [
+        "Herpes simple",
+        "Acarthamoeba sp",
+        "Aspergillus",
+        "Candida sp",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico de úlcera corneal grisácea con lesiones satélites, tras un traumatismo ocular, sugiere una infección fúngica, específicamente por Aspergillus. Este hongo es una causa común de queratitis micótica, especialmente en pacientes con antecedentes de trauma ocular, como en este caso, al impactar con una rama. Las lesiones satélites son características de infecciones fúngicas, ya que el hongo tiende a formar colonias en áreas adyacentes a la úlcera primaria. Aunque Acanthamoeba también puede causar queratitis en casos de trauma, especialmente en usuarios de lentes de contacto, la presentación aquí es más consistente con Aspergillus.",
+      "comentario": "El cuadro clínico de úlcera corneal grisácea con lesiones satélites, tras un traumatismo ocular, sugiere una infección fúngica, específicamente por Aspergillus. Este hongo es una causa común de queratitis micótica, especialmente en pacientes con antecedentes de trauma ocular, como en este caso, al impactar con una rama. Las lesiones satélites son características de infecciones fúngicas, ya que el hongo tiende a formar colonias en áreas adyacentes a la úlcera primaria. Aunque Acanthamoeba también puede causar queratitis en casos de trauma, especialmente en usuarios de lentes de contacto, la presentación aquí es más consistente con Aspergillus.",
+      "tema": "Queratitis micótica tras trauma vegetal",
+      "año": 2023
+    },
+    {
+      "id": "OFT-046",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 14 años que consulta por disnea que desde hace 10 días presenta secreción nasal incolora, prurito nasal y ocular. Examen: mucosa nasal eritematosa, edema bilateral y secreción incolora. ¿Cuál es el estudio inicial para confirmar el diagnóstico?",
+      "opciones": [
+        "Test epicutáneo",
+        "Citograma nasal",
+        "Dosaje de IgM en sangre",
+        "Recuento de eosinófilos en sangre",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El test epicutáneo o prick test es la prueba inicial más útil para confirmar el diagnóstico de rinitis alérgica, que es sugerido clínicamente por la presencia de secreción nasal clara, prurito ocular y nasal, y antecedentes compatibles. Esta prueba permite identificar sensibilización a alérgenos específicos, guiando el manejo y las medidas de evitación. Aunque el citograma nasal o el recuento de eosinófilos pueden apoyar, el test epicutáneo es más específico y orientador.",
+      "comentario": "El test epicutáneo o prick test es la prueba inicial más útil para confirmar el diagnóstico de rinitis alérgica, que es sugerido clínicamente por la presencia de secreción nasal clara, prurito ocular y nasal, y antecedentes compatibles. Esta prueba permite identificar sensibilización a alérgenos específicos, guiando el manejo y las medidas de evitación. Aunque el citograma nasal o el recuento de eosinófilos pueden apoyar, el test epicutáneo es más específico y orientador.",
+      "tema": "Rinitis alérgica: prueba cutánea",
+      "año": 2023
+    },
+    {
+      "id": "OFT-047",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de epistaxis anterior?",
+      "opciones": [
+        "Perforación del tabique",
+        "Barotrauma",
+        "Rinitis seca anterior",
+        "Traumatismo nasal",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La epistaxis anterior representa más del 90% de los casos de sangrado nasal y suele originarse en el plexo de Kiesselbach, ubicado en el tabique anterior. Entre sus causas, la más frecuente es la rinitis seca anterior, que produce irritación crónica de la mucosa nasal y formación de costras, facilitando el sangrado espontáneo o por manipulación. Es común en climas secos o por exposición a ambientes calefaccionados. El traumatismo nasal también es causa frecuente, pero generalmente más evidente y en menor proporción que la rinitis seca. La perforación del tabique es una complicación más tardía de cuadros crónicos. El barotrauma es poco común y se asocia más a buceo o cambios bruscos de presión.",
+      "comentario": "La epistaxis anterior representa más del 90% de los casos de sangrado nasal y suele originarse en el plexo de Kiesselbach, ubicado en el tabique anterior. Entre sus causas, la más frecuente es la rinitis seca anterior, que produce irritación crónica de la mucosa nasal y formación de costras, facilitando el sangrado espontáneo o por manipulación. Es común en climas secos o por exposición a ambientes calefaccionados. El traumatismo nasal también es causa frecuente, pero generalmente más evidente y en menor proporción que la rinitis seca. La perforación del tabique es una complicación más tardía de cuadros crónicos. El barotrauma es poco común y se asocia más a buceo o cambios bruscos de presión.",
+      "tema": "Epistaxis anterior: rinitis seca",
+      "año": 2023
+    },
+    {
+      "id": "OFT-048",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Recién nacida de 32 semanas recibe ventilación mecánica, con FiO2 40% durante varios días, con riesgo de retinopatía de la prematuridad. La primera evaluación oftalmológica debe realizarse a las ______ semanas.",
+      "opciones": [
+        "4",
+        "8",
+        "10",
+        "2",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La retinopatía de la prematuridad (ROP) es una enfermedad ocular que afecta a los recién nacidos prematuros y puede llevar a la ceguera si no se diagnostica y trata a tiempo. En ese sentido, la evaluación oftalmológica temprana es crucial para detectar y manejar esta condición. La American Academy of Pediatrics y otras organizaciones recomiendan realizar la primera evaluación oftalmológica para los recién nacidos prematuros de acuerdo con su edad gestacional. Es así como para todos los nacidos después de las 30 semanas, se recomienda que la primera evaluación oftalmológica debe realizarse cuatros semanas después del nacimiento (Alternativa A).",
+      "comentario": "La retinopatía de la prematuridad (ROP) es una enfermedad ocular que afecta a los recién nacidos prematuros y puede llevar a la ceguera si no se diagnostica y trata a tiempo. En ese sentido, la evaluación oftalmológica temprana es crucial para detectar y manejar esta condición. La American Academy of Pediatrics y otras organizaciones recomiendan realizar la primera evaluación oftalmológica para los recién nacidos prematuros de acuerdo con su edad gestacional. Es así como para todos los nacidos después de las 30 semanas, se recomienda que la primera evaluación oftalmológica debe realizarse cuatros semanas después del nacimiento (Alternativa A).",
+      "tema": "Retinopatía del prematuro: primer examen a las 4 semanas",
+      "año": 2024
+    },
+    {
+      "id": "OFT-049",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Niño de 12 años que sufre quemadura ocular con lejía, se diagnostica queratitis. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Aplicación de corticoide tópico",
+        "Colocación de parche ocular",
+        "Irrigación abundante con suero fisiológico",
+        "Instilación de anestésico tópico",
+        "Prednisona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El manejo inicial de una quemadura ocular con lejía (un álcalis fuerte) debe realizarse con irrigación abundante con suero fisiológico (Alternativa C). La irrigación abundante con suero fisiológico es el tratamiento inicial de elección en quemaduras oculares químicas. Este procedimiento ayuda a diluir y eliminar el agente cáustico, reduciendo el daño a los tejidos oculares. La irrigación debe continuar durante al menos 15-30 minutos o hasta que el pH del ojo se normalice.",
+      "comentario": "El manejo inicial de una quemadura ocular con lejía (un álcalis fuerte) debe realizarse con irrigación abundante con suero fisiológico (Alternativa C). La irrigación abundante con suero fisiológico es el tratamiento inicial de elección en quemaduras oculares químicas. Este procedimiento ayuda a diluir y eliminar el agente cáustico, reduciendo el daño a los tejidos oculares. La irrigación debe continuar durante al menos 15-30 minutos o hasta que el pH del ojo se normalice.",
+      "tema": "Quemadura ocular por álcali: irrigación abundante",
+      "año": 2024
+    },
+    {
+      "id": "OFT-050",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es el factor de riesgo más significativo para el desarrollo de glaucoma?",
+      "opciones": [
+        "Miopía extrema",
+        "Uso de vitamina C",
+        "Aumento de la presión intraocular",
+        "Hipertensión arterial",
+        "Insulina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El factor de riesgo más significativo para el desarrollo de glaucoma es el aumento de la presión intraocular. Este es el principal mecanismo detrás de la mayoría de los casos de glaucoma, una enfermedad ocular que daña el nervio óptico debido a la presión elevada dentro del ojo. Aunque la miopía extrema, la hipertensión arterial y otros factores pueden estar relacionados, la presión intraocular alta es el factor determinante y más prevalente en la patogenia del glaucoma. Mantener controlada la presión ocular es clave en la prevención y tratamiento de esta condición",
+      "comentario": "El factor de riesgo más significativo para el desarrollo de glaucoma es el aumento de la presión intraocular. Este es el principal mecanismo detrás de la mayoría de los casos de glaucoma, una enfermedad ocular que daña el nervio óptico debido a la presión elevada dentro del ojo. Aunque la miopía extrema, la hipertensión arterial y otros factores pueden estar relacionados, la presión intraocular alta es el factor determinante y más prevalente en la patogenia del glaucoma. Mantener controlada la presión ocular es clave en la prevención y tratamiento de esta condición",
+      "tema": "Glaucoma: presión intraocular elevada",
+      "año": 2024
+    },
+    {
+      "id": "OFT-051",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 15 años, desde hace 3 días presenta tumefacción y dolor en el ojo derecho, después de una picadura de insecto en el párpado, malestar general y fiebre de 39°C. Examen: no lesión ocular, diplopía, intenso edema palpebral y exoftalmos unilateral. Lab: Leucocitos: 15000 mm 3. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Uveítis aguda",
+        "Celulitis orbitaria",
+        "Queratoconjuntivitis",
+        "Mucormicosis",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La celulitis orbitaria se caracterizada por inflamación severa de los tejidos orbitarios posteriores al septo, secundaria a infecciones locales (como picaduras). La presentación incluye fiebre alta, dolor ocular, edema palpebral intenso, exoftalmos unilateral y diplopía por compromiso de músculos extraoculares. El hemograma muestra leucocitosis, compatible con infección bacteriana. La uveítis aguda (A) típicamente cursa con dolor ocular, fotofobia y disminución visual, sin tumefacción ni exoftalmos. La queratoconjuntivitis (C) se manifiesta con conjuntivitis y alteraciones corneales, ausentes aquí. La mucormicosis (D) ocurre en inmunosuprimidos, con necrosis tisular, lo cual no se observa.",
+      "comentario": "La celulitis orbitaria se caracterizada por inflamación severa de los tejidos orbitarios posteriores al septo, secundaria a infecciones locales (como picaduras). La presentación incluye fiebre alta, dolor ocular, edema palpebral intenso, exoftalmos unilateral y diplopía por compromiso de músculos extraoculares. El hemograma muestra leucocitosis, compatible con infección bacteriana. La uveítis aguda (A) típicamente cursa con dolor ocular, fotofobia y disminución visual, sin tumefacción ni exoftalmos. La queratoconjuntivitis (C) se manifiesta con conjuntivitis y alteraciones corneales, ausentes aquí. La mucormicosis (D) ocurre en inmunosuprimidos, con necrosis tisular, lo cual no se observa.",
+      "tema": "Celulitis orbitaria",
+      "año": 2024
+    },
+    {
+      "id": "OFT-052",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 54 años desde hace 1 día presenta visión con destellos luminosos y moscas volantes, sombra que se mueve como cortina en el campo visual. Antecedente: miopía severa. Examen: hiperemia conjuntival, tono ocular normal, disminución de la agudeza visual. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Desprendimiento de retina",
+        "Glaucoma ángulo cerrado",
+        "Catarata evolutiva",
+        "Luxación del cristalino",
+        "Ibuprofeno"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El desprendimiento de retina cursa con destellos, moscas volantes y pérdida de campo visual en forma de “cortina”. Factores de riesgo incluyen miopía severa. El glaucoma genera dolor ocular y aumento del tono; la catarata es progresiva y no aguda; la luxación del cristalino afecta enfoque visual, sin sombra en el campo visual.",
+      "comentario": "El desprendimiento de retina cursa con destellos, moscas volantes y pérdida de campo visual en forma de “cortina”. Factores de riesgo incluyen miopía severa. El glaucoma genera dolor ocular y aumento del tono; la catarata es progresiva y no aguda; la luxación del cristalino afecta enfoque visual, sin sombra en el campo visual.",
+      "tema": "Desprendimiento de retina",
+      "año": 2024
+    }
+  ]
+}

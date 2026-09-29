@@ -1,0 +1,1275 @@
+{
+  "especialidad": "Neumología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NEU-001",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 28 años, de Lima, con fiebre vespertina, tos seca y dolor pleurítico derecho de un mes. La radiografía muestra derrame pleural derecho moderado. Toracocentesis: exudado con proteínas 5,1 g/dL, predominio linfocitario (85 %), glucosa 70 mg/dL y adenosina desaminasa (ADA) de 78 U/L. La baciloscopía del líquido es negativa. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Derrame paraneumónico complicado",
+        "B": "Tuberculosis pleural",
+        "C": "Derrame por insuficiencia cardiaca",
+        "D": "Mesotelioma pleural",
+        "E": "Tromboembolismo pulmonar"
+      },
+      "clave_correcta": "B",
+      "comentario": "Exudado linfocitario con ADA > 40 U/L en un adulto joven de zona de alta prevalencia es tuberculosis pleural hasta demostrar lo contrario. La baciloscopía del líquido es positiva en menos del 10 % de los casos, así que un resultado negativo no la descarta. El derrame paraneumónico es de predominio neutrofílico y la insuficiencia cardiaca produce trasudado."
+    },
+    {
+      "id": "NEU-002",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 70 años, obeso mórbido, llega de viaje interprovincial. Acude a emergencia por disnea súbita desde hace 1 hora. Al examen: hipotenso, Homans (+), se muestra el EKG. ¿Cuál es la mejor opción terapéutica?",
+      "opciones": [
+        "Alteplase",
+        "Clopidogrel",
+        "Ácido acetilsalicílico",
+        "Warfarina",
+        "Tramadol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cuadro de tromboembolismo pulmonar (TEP) masivo sugerido por factores de riesgo (viaje largo, obesidad), signo de TVP (Homans) y descompensación hemodinámica (hipotensión). La terapia de elección es la reperfusión con trombolíticos (ej. Alteplase).",
+      "comentario": "Cuadro de tromboembolismo pulmonar (TEP) masivo sugerido por factores de riesgo (viaje largo, obesidad), signo de TVP (Homans) y descompensación hemodinámica (hipotensión). La terapia de elección es la reperfusión con trombolíticos (ej. Alteplase).",
+      "tema": "Tromboembolismo pulmonar",
+      "año": 2020
+    },
+    {
+      "id": "NEU-003",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 20 años diagnosticado con asma, que, pese a tratamiento con salbutamol, presenta exacerbaciones frecuentes. Actualmente está asintomático. ¿Qué medicación debe agregarse?",
+      "opciones": [
+        "Aminofilina",
+        "Corticoide inhalado",
+        "Cromoglicato",
+        "Anti-IgE",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En pacientes con asma no controlada con agonistas beta-2 de acción corta a demanda, la base de la terapia de mantenimiento para controlar la inflamación bronquial es el corticoide inhalado (ej. budesónida o fluticasona).",
+      "comentario": "En pacientes con asma no controlada con agonistas beta-2 de acción corta a demanda, la base de la terapia de mantenimiento para controlar la inflamación bronquial es el corticoide inhalado (ej. budesónida o fluticasona).",
+      "tema": "Asma bronquial",
+      "año": 2020
+    },
+    {
+      "id": "NEU-004",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 23 años consulta por cuadro de tos seca desde hace 2 meses. Rx tórax: borramiento del ángulo costofrénico derecho. Examen de líquido pleural: cociente LDH líquido pleural/plasma > 0.6; cociente proteínas líquido pleural/plasma > 0.5; celularidad a predominio linfocitario, ADA: 55 U/L. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Asbestosis",
+        "Tuberculosis pleural",
+        "Linfoma",
+        "Derrame paraneumónico",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El líquido pleural con perfil de exudado linfocítico mononuclear y una actividad enzimática de adenosina desaminasa (ADA) superior a 40 U/L en un adulto joven en contexto endémico es diagnóstico confirmatorio de pleuresía tuberculosa.",
+      "comentario": "El líquido pleural con perfil de exudado linfocítico mononuclear y una actividad enzimática de adenosina desaminasa (ADA) superior a 40 U/L en un adulto joven en contexto endémico es diagnóstico confirmatorio de pleuresía tuberculosa.",
+      "tema": "Tuberculosis extrapulmonar",
+      "año": 2020
+    },
+    {
+      "id": "NEU-005",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años consulta por disnea progresiva, tos no productiva persistente desde hace 1 año; niega exposición a polvos orgánicos e inorgánicos. A la auscultación presenta crepitantes en bases y algunos sibilantes espiratorios. ¿Cuál es la primera posibilidad diagnóstica?",
+      "opciones": [
+        "Enfermedad pulmonar intersticial",
+        "Fibrosis quística",
+        "Asma alérgica no controlada",
+        "Enfermedad pulmonar obstructiva crónica",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La disnea lentamente progresiva asociada a tos seca crónica y estertores crepitantes tipo \"velcro\" teleinspiratorios bibasales en un paciente sin exposiciones ocupacionales orienta como primera opción a enfermedad pulmonar intersticial difusa.",
+      "comentario": "La disnea lentamente progresiva asociada a tos seca crónica y estertores crepitantes tipo \"velcro\" teleinspiratorios bibasales en un paciente sin exposiciones ocupacionales orienta como primera opción a enfermedad pulmonar intersticial difusa.",
+      "tema": "Enfermedades pulmonares intersticiales",
+      "año": 2020
+    },
+    {
+      "id": "NEU-006",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años, consulta por presentar desde hace 3 semanas tos, disnea y pérdida de peso no cuantificada. Examen físico: T: 38 °C, crepitantes en tercio superior de hemitórax derecho y roncantes difusos. ¿Qué examen le permite confirmar el diagnóstico?",
+      "opciones": [
+        "BK en esputo",
+        "Radiografía de tórax",
+        "TEM de tórax",
+        "Hongos en esputo",
+        "Tomografía con contraste"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con síntomas respiratorios crónicos (tos, disnea, fiebre, pérdida de peso) y signos pulmonares sugestivos de tuberculosis. Aunque una radiografía puede orientar, el examen confirmatorio estándar es la baciloscopia para BK en esputo, que identifica al Mycobacterium tuberculosis.",
+      "comentario": "Paciente con síntomas respiratorios crónicos (tos, disnea, fiebre, pérdida de peso) y signos pulmonares sugestivos de tuberculosis. Aunque una radiografía puede orientar, el examen confirmatorio estándar es la baciloscopia para BK en esputo, que identifica al Mycobacterium tuberculosis.",
+      "tema": "Tuberculosis pulmonar: diagnóstico",
+      "año": 2020
+    },
+    {
+      "id": "NEU-007",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adulto ingresa a emergencia con disnea de dos días que ha empeorado en las 6 últimas horas. Examen: Luce diaforético, agotado, taquicárdico, y taquipneico. PaO₂: 50 mmHg. SatO₂:78% ¿Cuál es el tratamiento a seguir?",
+      "opciones": [
+        "Nebulizaciones",
+        "Ventilación mecánica",
+        "Antibioticoterapia",
+        "Oxígeno por cánula binasal",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La combinación de disnea progresiva, signos de agotamiento, hipoxemia severa (PaO₂ < 60 mmHg) y saturación < 90% pese a O2 indica fracaso respiratorio agudo. En este contexto, el tratamiento prioritario es la ventilación mecánica para asegurar oxigenación y evitar el colapso respiratorio. El oxígeno por cánula es insuficiente. Las nebulizaciones o antibióticos pueden considerarse según el diagnóstico, pero no son lo prioritario.",
+      "comentario": "La combinación de disnea progresiva, signos de agotamiento, hipoxemia severa (PaO₂ < 60 mmHg) y saturación < 90% pese a O2 indica fracaso respiratorio agudo. En este contexto, el tratamiento prioritario es la ventilación mecánica para asegurar oxigenación y evitar el colapso respiratorio. El oxígeno por cánula es insuficiente. Las nebulizaciones o antibióticos pueden considerarse según el diagnóstico, pero no son lo prioritario.",
+      "tema": "Insuficiencia respiratoria aguda: ventilación mecánica",
+      "año": 2020
+    },
+    {
+      "id": "NEU-008",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 64 años refiere disnea. Radiografía de tórax muestra derrame pleural del lado derecho. Se realiza toracocentesis: relación de concentración de proteína total en el líquido pleural de 0,38; nivel de lactato deshidrogenasa (LDH) de 125 IU; relación de concentración de LDH en el líquido pleural de 0,46. ¿Cuál es el diagnóstico más probable en este paciente?",
+      "opciones": [
+        "Insuficiencia cardíaca congestiva",
+        "Uremia",
+        "Embolia pulmonar",
+        "Sarcoidosis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta disnea y el hallazgo radiológico de derrame pleural unilateral derecho. El análisis del líquido pleural muestra una relación de proteínas <0.5 y LDH <0.6, lo que cumple los criterios de Light para transudado. La insuficiencia cardíaca congestiva (ICC) es la causa más frecuente de este tipo de derrames. En estos casos, el manejo debe orientarse a tratar la causa de fondo, como el control de la sobrecarga hídrica en la ICC. Las otras opciones corresponden a causas de exudado, no compatibles con este perfil bioquímico.",
+      "comentario": "La paciente presenta disnea y el hallazgo radiológico de derrame pleural unilateral derecho. El análisis del líquido pleural muestra una relación de proteínas <0.5 y LDH <0.6, lo que cumple los criterios de Light para transudado. La insuficiencia cardíaca congestiva (ICC) es la causa más frecuente de este tipo de derrames. En estos casos, el manejo debe orientarse a tratar la causa de fondo, como el control de la sobrecarga hídrica en la ICC. Las otras opciones corresponden a causas de exudado, no compatibles con este perfil bioquímico.",
+      "tema": "Derrame pleural: criterios de Light",
+      "año": 2020
+    },
+    {
+      "id": "NEU-009",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 56 años presenta desde hace 4 meses fiebre, sudoración nocturna y pérdida de peso. Acude por episodios de hemoptisis. Al examen: estertores en el lóbulo superior. Rx: cavitación en lóbulo superior. ¿Cuál es el agente infeccioso más probable?",
+      "opciones": [
+        "Mycobacterium tuberculosis",
+        "Mycoplasma pneumoniae",
+        "Nocardia asteroides",
+        "Legionella pneumophila",
+        "Asma bronquial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón con síntomas constitucionales subagudos como fiebre, sudoración nocturna y pérdida de peso por más de 4 meses, junto con hemoptisis y hallazgos pulmonares superiores, orienta fuertemente a tuberculosis pulmonar. La presencia de cavitación en lóbulo superior en la radiografía es un hallazgo clásico de Mycobacterium tuberculosis, cuya localización apical se relaciona con la al ta tensión de oxígeno en esos segmentos. Mycoplasma y Legionella suelen tener un cuadro más agudo y sin cavitación, mientras que Nocardia se presenta más en inmunosuprimidos. Por los hallazgos clínicos y radiológicos, el agente más probable es M. tuberculosis.",
+      "comentario": "Varón con síntomas constitucionales subagudos como fiebre, sudoración nocturna y pérdida de peso por más de 4 meses, junto con hemoptisis y hallazgos pulmonares superiores, orienta fuertemente a tuberculosis pulmonar. La presencia de cavitación en lóbulo superior en la radiografía es un hallazgo clásico de Mycobacterium tuberculosis, cuya localización apical se relaciona con la al ta tensión de oxígeno en esos segmentos. Mycoplasma y Legionella suelen tener un cuadro más agudo y sin cavitación, mientras que Nocardia se presenta más en inmunosuprimidos. Por los hallazgos clínicos y radiológicos, el agente más probable es M. tuberculosis.",
+      "tema": "Tuberculosis pulmonar con hemoptisis",
+      "año": 2021
+    },
+    {
+      "id": "NEU-010",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 68 años, hace 14 meses con disnea progresiva y tos seca, que no mejora con tratamiento de corticoides. Rx tórax: imágenes en \"panal de abeja\". Laboratorio: ANA, anti -ADN, topoisomerasa I, ANCA y anti centrómero: negativos. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Fibrosis pulmonar idiopática",
+        "Síndrome de Goodpasture",
+        "Granulomatosis con poliangeítis",
+        "Esclerosis sistémica",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón con disnea progresiva, tos seca y mala respuesta a corticoides sugiere enfermedad intersticial pulmonar. La imagen en “panal de abeja” en la radiografía torácica es patognomónica de fibrosis pulmonar idiopática (FPI), especialmente en varones mayores de 60 años. La ausencia de autoanticuerpos (ANA, anti -ADN, anti -Scl70, ANCA, etc.) descarta conectivopatías como causa secundaria. La FPI se caracteriza por patrón histológico de neumonía intersticial usual. El curso clínico suele ser progresivo, con disn ea y deterioro respiratorio a pesar del tratamiento. La FPI no responde a esteroides, lo que la diferencia de otras enfermedades intersticiales. El diagnóstico se hace con clínica, imagen y exclusión de causas secundarias. La TAC de alta resolución puede confirmar el patrón en panal. La biopsia es opcional si los hallazgos son típicos. Es una enfermedad de mal pronóstico a mediano plazo.",
+      "comentario": "Varón con disnea progresiva, tos seca y mala respuesta a corticoides sugiere enfermedad intersticial pulmonar. La imagen en “panal de abeja” en la radiografía torácica es patognomónica de fibrosis pulmonar idiopática (FPI), especialmente en varones mayores de 60 años. La ausencia de autoanticuerpos (ANA, anti -ADN, anti -Scl70, ANCA, etc.) descarta conectivopatías como causa secundaria. La FPI se caracteriza por patrón histológico de neumonía intersticial usual. El curso clínico suele ser progresivo, con disn ea y deterioro respiratorio a pesar del tratamiento. La FPI no responde a esteroides, lo que la diferencia de otras enfermedades intersticiales. El diagnóstico se hace con clínica, imagen y exclusión de causas secundarias. La TAC de alta resolución puede confirmar el patrón en panal. La biopsia es opcional si los hallazgos son típicos. Es una enfermedad de mal pronóstico a mediano plazo.",
+      "tema": "Fibrosis pulmonar idiopática",
+      "año": 2021
+    },
+    {
+      "id": "NEU-011",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Minero de 43 años con historia de tos crónica, expectoración mucoide y disnea a medianos esfuerzos. Rx de tórax: engrosamiento de la trama, nódulos apicales y adenomegalias parahiliares calcificadas con aspecto de \"cáscara de huevo\". ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Baritosis",
+        "Silicosis",
+        "Estañosis",
+        "Biscinosis",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Trabajador minero con exposición crónica a sílice presenta sintomatología respiratoria crónica y una radiografía de tórax con hallazgos clásicos: engrosamiento de la trama intersticial, nódulos pulmonares en lóbulos superiores y adenopatías hiliares calcificadas tipo “cáscara de huevo”, lo cual es patognomónico de silicosis. La baritosis y la estañosis suelen ser benignas y asintomáticas, sin fibrosis ni calcificación hiliar. La biscinosis es propia de la industria textil, con broncoconstricción reversible tipo asma, no asociada a este patrón radiológico. La silicosis también predispone a tuberculosis, lo cual hace más crítico su diagnóstico precoz y vigilancia continua en trabajadores de alto riesgo.",
+      "comentario": "Trabajador minero con exposición crónica a sílice presenta sintomatología respiratoria crónica y una radiografía de tórax con hallazgos clásicos: engrosamiento de la trama intersticial, nódulos pulmonares en lóbulos superiores y adenopatías hiliares calcificadas tipo “cáscara de huevo”, lo cual es patognomónico de silicosis. La baritosis y la estañosis suelen ser benignas y asintomáticas, sin fibrosis ni calcificación hiliar. La biscinosis es propia de la industria textil, con broncoconstricción reversible tipo asma, no asociada a este patrón radiológico. La silicosis también predispone a tuberculosis, lo cual hace más crítico su diagnóstico precoz y vigilancia continua en trabajadores de alto riesgo.",
+      "tema": "Silicosis",
+      "año": 2021
+    },
+    {
+      "id": "NEU-012",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 56 años, acude por presentar hace 5 días fiebre y en la segunda noche de hospitalización sufre crisis de excitación, recibe diazepam endovenoso (10 mg en 3 minutos). A los 30 minutos ya no responde al estímulo. Examen: PA: 90/50 mmHg, FC: 120 x’; IMC: 40, Glasgow: 9, no focalización, no cianosis. AGA: pH 7.24; COI: 70; HCO₃⁻I: 18; SatO: 90%. ¿Cuál es la primera terapia para indicar?",
+      "opciones": [
+        "Manitol 20% 250 ml a goteo rápido",
+        "Oxigenoterapia con máscara con reservorio",
+        "ClNa 0.9% a razón de 60 gotas/min",
+        "Soporte ventilatorio",
+        "Valores normales"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente varón con antecedente de excitación psicomotora, tratado con diazepam EV y evolución a compromiso de conciencia (Glasgow 9) con signos de hipoventilación (pH 7.24, CO I elevado en 70 mmHg, bicarbonato bajo y SatO2 del 90%). Este cuadro sugiere una acidosis respiratoria aguda con falla ventilatoria hipercápnica, probablemente secundaria a depresión del centro respiratorio inducida por benzodiacepinas, agravada por obesida d mórbida (IMC 40). La prioridad absoluta en este contexto es la ventilación asistida, ya que existe riesgo de parada respiratoria. Oxigenoterapia aislada no es suficiente y puede empeorar la hipercapnia. Por tanto, el tratamiento correcto es soporte ventilatorio inmediato.",
+      "comentario": "Paciente varón con antecedente de excitación psicomotora, tratado con diazepam EV y evolución a compromiso de conciencia (Glasgow 9) con signos de hipoventilación (pH 7.24, CO I elevado en 70 mmHg, bicarbonato bajo y SatO2 del 90%). Este cuadro sugiere una acidosis respiratoria aguda con falla ventilatoria hipercápnica, probablemente secundaria a depresión del centro respiratorio inducida por benzodiacepinas, agravada por obesida d mórbida (IMC 40). La prioridad absoluta en este contexto es la ventilación asistida, ya que existe riesgo de parada respiratoria. Oxigenoterapia aislada no es suficiente y puede empeorar la hipercapnia. Por tanto, el tratamiento correcto es soporte ventilatorio inmediato.",
+      "tema": "Depresión respiratoria por benzodiacepinas",
+      "año": 2021
+    },
+    {
+      "id": "NEU-013",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 58 años con diagnóstico de enfisema pulmonar desde hace 5 años. Consulta por exacerbación de tos y disnea ya previamente existente, desde hace 3 días fiebre de 38 °C. Rx tórax: “tórax en tonel” sin signos de condensación. La indicación inmediata más precisa será:",
+      "opciones": [
+        "Inicio de antibióticos con actividad en el alveolo pulmonar",
+        "Ejercicios respiratorios de exhalación cada dos horas",
+        "Prescribir antitusígenos",
+        "Solicitar una espirometría",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con EPOC tipo enfisema presenta signos de exacerbación (aumento de disnea, tos y fiebre). En este contexto, aunque no hay condensación en la radiografía, la presencia de fiebre y cambios clínicos sugieren una exacerbación infecciosa aguda. En estos casos, la terapia antibiótica empírica está indicada, especialmente con cobertura para Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pneumoniae. No se requiere espirometría ni antitusígenos, ya que el objetivo es tratar el factor desencadenante infeccioso. El ejercicio respiratorio puede formar parte del manejo crónico, pero no es la prioridad inmediata. Por tanto, la indicación más precisa e inmediata es el inicio de antibióticos alveolares activos.",
+      "comentario": "Paciente con EPOC tipo enfisema presenta signos de exacerbación (aumento de disnea, tos y fiebre). En este contexto, aunque no hay condensación en la radiografía, la presencia de fiebre y cambios clínicos sugieren una exacerbación infecciosa aguda. En estos casos, la terapia antibiótica empírica está indicada, especialmente con cobertura para Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pneumoniae. No se requiere espirometría ni antitusígenos, ya que el objetivo es tratar el factor desencadenante infeccioso. El ejercicio respiratorio puede formar parte del manejo crónico, pero no es la prioridad inmediata. Por tanto, la indicación más precisa e inmediata es el inicio de antibióticos alveolares activos.",
+      "tema": "Exacerbación de EPOC",
+      "año": 2021
+    },
+    {
+      "id": "NEU-014",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 20 años, sin antecedentes, presenta un cuadro de febrícula, artromialgias, tos seca persistente y astenia de dos semanas de duración. En el último mes, sus dos hermanos de 9 y 17 años han presentado consecutivamente un cuadro similar, que se h a autolimitado. Rx de tórax: infiltrado intersticial bibasal. ¿Cuál es el agente etiológico más probable en este caso?",
+      "opciones": [
+        "Legionella pneumophila",
+        "Coxiella burnetti (fiebre Q)",
+        "Haemophilus influenzae",
+        "Mycoplasma pneumoniae",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Se trata de un varón de 20 años con un cuadro respiratorio atípico, caracterizado por tos seca persistente, artromialgias, astenia y febrícula de evolución subaguda (más de una semana). Este patrón clínico, junto con la afectación previa y autolimitada de hermanos menores, sugiere un cuadro altamente contagioso, leve en jóvenes y autolimitado, típico de infecciones por Mycoplasma pneumoniae, un agente común de neumonía atípica. La radiografía muestra infiltrado intersticial bibasal, lo cual es compatible con el patrón intersticial que provoca este patógeno. Se descartan otras etiologías por no ajustar al cuadro clínico ni epidemiológico: Legionella se asocia a neumonías graves; Coxiella, a fiebre Q de exposición animal; y Haemophilus, a cuadros más típicos en inmunocomprometidos. Por ello, el agente más probable es Mycoplasma pneumoniae.",
+      "comentario": "Se trata de un varón de 20 años con un cuadro respiratorio atípico, caracterizado por tos seca persistente, artromialgias, astenia y febrícula de evolución subaguda (más de una semana). Este patrón clínico, junto con la afectación previa y autolimitada de hermanos menores, sugiere un cuadro altamente contagioso, leve en jóvenes y autolimitado, típico de infecciones por Mycoplasma pneumoniae, un agente común de neumonía atípica. La radiografía muestra infiltrado intersticial bibasal, lo cual es compatible con el patrón intersticial que provoca este patógeno. Se descartan otras etiologías por no ajustar al cuadro clínico ni epidemiológico: Legionella se asocia a neumonías graves; Coxiella, a fiebre Q de exposición animal; y Haemophilus, a cuadros más típicos en inmunocomprometidos. Por ello, el agente más probable es Mycoplasma pneumoniae.",
+      "tema": "Neumonía por Mycoplasma",
+      "año": 2021
+    },
+    {
+      "id": "NEU-015",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 53 años, acude porque desde hace 4 días presenta tos con expectoración herrumbrosa, luego purulenta, fiebre de 38 °C y disnea moderada. Al examen: T: 38.5 °C, soplo tubario en base de hemitórax izquierdo, saturación de oxígeno: 90%. ¿Cuáles antibióticos son de primera elección?",
+      "opciones": [
+        "Cefalosporinas 3ra generación + macrólidos",
+        "Aminoglucósidos + quinolonas",
+        "Glucopéptidos + lincosamidas",
+        "Macrólidos + tetraciclinas",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulto presenta un cuadro típico de neumonía adquirida en la comunidad (NAC) con tos productiva herrumbrosa, fiebre, disnea y hallazgo de soplo tubario en base izquierda, que indica consolidación. Además, la saturación del 90% sugiere hipoxemia le ve. El tratamiento empírico recomendado para NAC en adultos hospitalizados, sin riesgo de Pseudomonas, es la combinación de cefalosporina de tercera generación (como ceftriaxona) que cubre neumococos y bacterias gramnegativas, más macrólido (como azitromic ina) que cubre gérmenes atípicos como Mycoplasma o Chlamydophila. Las otras combinaciones no cubren de forma adecuada el espectro requerido. Por tanto, el esquema correcto es: cefalosporinas de tercera generación + macrólidos.",
+      "comentario": "Paciente adulto presenta un cuadro típico de neumonía adquirida en la comunidad (NAC) con tos productiva herrumbrosa, fiebre, disnea y hallazgo de soplo tubario en base izquierda, que indica consolidación. Además, la saturación del 90% sugiere hipoxemia le ve. El tratamiento empírico recomendado para NAC en adultos hospitalizados, sin riesgo de Pseudomonas, es la combinación de cefalosporina de tercera generación (como ceftriaxona) que cubre neumococos y bacterias gramnegativas, más macrólido (como azitromic ina) que cubre gérmenes atípicos como Mycoplasma o Chlamydophila. Las otras combinaciones no cubren de forma adecuada el espectro requerido. Por tanto, el esquema correcto es: cefalosporinas de tercera generación + macrólidos.",
+      "tema": "Neumonía adquirida en la comunidad: tratamiento",
+      "año": 2021
+    },
+    {
+      "id": "NEU-016",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 59 años, estando en 1er día posquirúrgico de cáncer de colon, presenta dolor en hemitórax izquierdo y disnea de comienzo brusco. Al examen: PA: 70/30 mmHg, FC: 120 x’, FR: 28 x’, SatO₂: 88 %. Laboratorio: EKG muestra inversión de la onda “T” de V1 a V4. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Disección de aorta",
+        "Infarto miocárdico",
+        "Neumotórax masivo",
+        "Embolia pulmonar",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Se trata de un paciente en el primer día posoperatorio de cirugía oncológica, con aparición súbita de disnea, dolor torácico, hipotensión y taquicardia. El contexto quirúrgico y oncológico representa un alto riesgo trombogénico. El hallazgo en el EKG de inversión de la onda T en V1 –V4 es compatible con sobrecarga del ventrículo derecho, lo que refuerza la sospecha de embolia pulmonar masiva. La hipoxemia y el compromiso hemodinámico agudo completan el cuadro. Es fundamental identificar este diagnóstico rápidamente, ya que representa una urgencia vital. Por ello, el diagnóstico más probable es: embolia pulmonar.",
+      "comentario": "Se trata de un paciente en el primer día posoperatorio de cirugía oncológica, con aparición súbita de disnea, dolor torácico, hipotensión y taquicardia. El contexto quirúrgico y oncológico representa un alto riesgo trombogénico. El hallazgo en el EKG de inversión de la onda T en V1 –V4 es compatible con sobrecarga del ventrículo derecho, lo que refuerza la sospecha de embolia pulmonar masiva. La hipoxemia y el compromiso hemodinámico agudo completan el cuadro. Es fundamental identificar este diagnóstico rápidamente, ya que representa una urgencia vital. Por ello, el diagnóstico más probable es: embolia pulmonar.",
+      "tema": "Tromboembolismo pulmonar posoperatorio",
+      "año": 2021
+    },
+    {
+      "id": "NEU-017",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 55 años que presenta un derrame pleural cuyo líquido presenta: aspecto amarillo citrino, cociente de proteínas pleura/suero 0.8, cociente de LDH pleura/suero 0.9, Gram y Ziehl Neelsen negativos, células mesoteliales <5%, linfocitos 98%, ADA: 67 U/L, PAP: negativo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Mesotelioma pleural",
+        "Empiema pleural",
+        "Derrame pleural por insuficiencia cardíaca",
+        "Tuberculosis pleural",
+        "Cirrosis hepática"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón de 55 años con derrame pleural amarillo citrino, lo cual descarta un empiema. El líquido cumple criterios de exudado (cociente proteínas pleura/suero >0.5 y LDH >0.6). El predominio de linfocitos (98%) con ADA elevada (67 U/L) es altamente sugestivo de etiología tuberculosa, sobre todo en países endémicos como Perú. La ausencia de células mesoteliales (<5%) y el PAP negativo ayudan a descartar neoplasias como mesotelioma. La tinción de Ziehl-Neelsen negativa no descarta TBC pleural, ya que en muchos casos la baciloscopia es negativa. Por lo tanto, el perfil clínico-bioquímico del líquido pleura l se orienta con claridad hacia tuberculosis pleural como diagnóstico más probable.",
+      "comentario": "Varón de 55 años con derrame pleural amarillo citrino, lo cual descarta un empiema. El líquido cumple criterios de exudado (cociente proteínas pleura/suero >0.5 y LDH >0.6). El predominio de linfocitos (98%) con ADA elevada (67 U/L) es altamente sugestivo de etiología tuberculosa, sobre todo en países endémicos como Perú. La ausencia de células mesoteliales (<5%) y el PAP negativo ayudan a descartar neoplasias como mesotelioma. La tinción de Ziehl-Neelsen negativa no descarta TBC pleural, ya que en muchos casos la baciloscopia es negativa. Por lo tanto, el perfil clínico-bioquímico del líquido pleura l se orienta con claridad hacia tuberculosis pleural como diagnóstico más probable.",
+      "tema": "Tuberculosis pleural: ADA",
+      "año": 2021
+    },
+    {
+      "id": "NEU-018",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años, fumador pesado, refiere dolor localizado en el hombro que se irradia a lo largo del brazo por la cara cubital, acompañado de parestesias en todo el brazo. ¿Cuál es la primera sospecha diagnóstica?",
+      "opciones": [
+        "Carcinoma del seno vértebro-pulmonar superior",
+        "Polineuritis por déficit de Vitamina B",
+        "Bursitis crónica",
+        "Osteoartritis de hombro",
+        "Omeprazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El síndrome de Pancoast o tumor del vértice pulmonar es una presentación clásica en fumadores crónicos. Se caracteriza por dolor en el hombro que irradia hacia la extremidad superior, especialmente por el trayecto cubital, y suele acompañarse de parestesia s. Esto se debe a la invasión del plexo braquial inferior. En etapas más avanzadas puede asociar síndrome de Horner. La localización apical del tumor permite su extensión a estructuras adyacentes como costillas, vértebras y nervios. Es importante considera rlo ante todo cuadro doloroso neurológico en fumadores mayores. Por lo tanto, la respuesta correcta es la A.",
+      "comentario": "El síndrome de Pancoast o tumor del vértice pulmonar es una presentación clásica en fumadores crónicos. Se caracteriza por dolor en el hombro que irradia hacia la extremidad superior, especialmente por el trayecto cubital, y suele acompañarse de parestesia s. Esto se debe a la invasión del plexo braquial inferior. En etapas más avanzadas puede asociar síndrome de Horner. La localización apical del tumor permite su extensión a estructuras adyacentes como costillas, vértebras y nervios. Es importante considera rlo ante todo cuadro doloroso neurológico en fumadores mayores. Por lo tanto, la respuesta correcta es la A.",
+      "tema": "Tumor de Pancoast",
+      "año": 2021
+    },
+    {
+      "id": "NEU-019",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 62 años fumador crónico de 2 paquetes diarios de cigarrillos. Desde hace 3 meses, tos persistente con expectoración hemoptoica y baja de peso 5 kg. BK negativo por 3 veces. RX de tórax: masa suprahiliar izquierda de 5 cm de diámetro. ¿Qué examen confirmaría el diagnóstico?",
+      "opciones": [
+        "Broncofibroscopía con biopsia",
+        "TAC pulmonar con contraste",
+        "Biopsia por punción transtorácica",
+        "Resonancia magnética pulmonar",
+        "Tomografía con contraste"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente tiene una historia sugestiva de cáncer de pulmón, con síntomas sistémicos y hallazgo de masa en la RX. La baciloscopia negativa descarta en principio tuberculosis. La broncofibroscopía con biopsia permite obtener muestras directas de lesiones endobronquiales para confirmación histológica. La TAC puede ayudar en la estadificación, pero la confirmación diagnóstica requiere biopsia. La resonancia no es de primera línea en masas pulmonares.",
+      "comentario": "El paciente tiene una historia sugestiva de cáncer de pulmón, con síntomas sistémicos y hallazgo de masa en la RX. La baciloscopia negativa descarta en principio tuberculosis. La broncofibroscopía con biopsia permite obtener muestras directas de lesiones endobronquiales para confirmación histológica. La TAC puede ayudar en la estadificación, pero la confirmación diagnóstica requiere biopsia. La resonancia no es de primera línea en masas pulmonares.",
+      "tema": "Cáncer de pulmón: broncofibroscopía con biopsia",
+      "año": 2021
+    },
+    {
+      "id": "NEU-020",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 61 años con EPOC acude a emergencia por presentar mayor disnea, incremento de tos y de esputo. RX de tórax: signos de enfisema sin opacidades focales. Laboratorio: PaO₂ 62 mmHg. ¿Cuál es la causa de la hipoxemia?",
+      "opciones": [
+        "Disminución del espacio muerto",
+        "Aumento del shunt fisiológico",
+        "Desequilibrio ventilación-perfusión",
+        "Deterioro de la difusión",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con diagnóstico conocido de EPOC que presenta una exacerbación aguda con aumento de la disnea, tos y expectoración. La PaO₂ se encuentra disminuida, lo que indica hipoxemia. En el contexto del EPOC, la principal causa fisiopatológica de hipoxemia es el desequilibrio ventilación/perfusión (V/Q). Esto se debe a que ciertas zonas del pulmón están bien perfundidas, pero mal ventiladas, generando ineficiencia en el intercambio gaseoso. No se observa infiltrado en la RX, por lo que se descarta una neumonía. La difusión puede estar disminuida en EPOC avanzado, pero no es la causa principal.",
+      "comentario": "Paciente con diagnóstico conocido de EPOC que presenta una exacerbación aguda con aumento de la disnea, tos y expectoración. La PaO₂ se encuentra disminuida, lo que indica hipoxemia. En el contexto del EPOC, la principal causa fisiopatológica de hipoxemia es el desequilibrio ventilación/perfusión (V/Q). Esto se debe a que ciertas zonas del pulmón están bien perfundidas, pero mal ventiladas, generando ineficiencia en el intercambio gaseoso. No se observa infiltrado en la RX, por lo que se descarta una neumonía. La difusión puede estar disminuida en EPOC avanzado, pero no es la causa principal.",
+      "tema": "Hipoxemia en la EPOC: desequilibrio ventilación-perfusión",
+      "año": 2021
+    },
+    {
+      "id": "NEU-021",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 67 años trabaja 15 años como obrero en una fábrica de papel. Presenta disnea y tos desde hace 1 año. Examen: PA 130/80 mmHg, FR 26 x', acropaquias y crepitantes gruesos en bases de ambos hemitórax. RX tórax: imágenes reticulonodulares basales y bilaterales, pulmones pequeños, SatO₂ 94% en reposo y 72% al esfuerzo. ¿Cuál es el diagn óstico más probable?",
+      "opciones": [
+        "Enfisema pulmonar",
+        "Enfermedad pulmonar intersticial difusa",
+        "Enfermedad pulmonar obstructiva crónica",
+        "Hipertensión pulmonar",
+        "Asma bronquial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente masculino de edad avanzada, con antecedente laboral de exposición crónica en fábrica de papel —una ocupación asociada a inhalación de polvos orgánicos— que presenta síntomas respiratorios crónicos como disnea progresiva y tos, signos físicos como acropaquias y crepitantes e n bases pulmonares, y hallazgos radiológicos reticulonodulares bilaterales basales con disminución del volumen pulmonar. Todos estos elementos son característicos de una enfermedad pulmonar intersticial difusa (EPID), probablemente de tipo fibrosis pulmonar por neumoconiosis o alveolitis alérgica extrínseca. La SatO₂ reducida al esfuerzo sugiere un defecto en el intercambio gaseoso, típico de afecciones restrictivas pulmonares. El enfisema y la EPOC generalmente muestran hiperinsuflación, atrapamiento aéreo y no cursan con pulmones pequeños. La hipertensión pulmonar no explica por sí sola los hallazgos intersticiales ni la fibrosis basal. Por tanto, el diagnóstico más probable es una EPID asociada a exposición laboral.",
+      "comentario": "Paciente masculino de edad avanzada, con antecedente laboral de exposición crónica en fábrica de papel —una ocupación asociada a inhalación de polvos orgánicos— que presenta síntomas respiratorios crónicos como disnea progresiva y tos, signos físicos como acropaquias y crepitantes e n bases pulmonares, y hallazgos radiológicos reticulonodulares bilaterales basales con disminución del volumen pulmonar. Todos estos elementos son característicos de una enfermedad pulmonar intersticial difusa (EPID), probablemente de tipo fibrosis pulmonar por neumoconiosis o alveolitis alérgica extrínseca. La SatO₂ reducida al esfuerzo sugiere un defecto en el intercambio gaseoso, típico de afecciones restrictivas pulmonares. El enfisema y la EPOC generalmente muestran hiperinsuflación, atrapamiento aéreo y no cursan con pulmones pequeños. La hipertensión pulmonar no explica por sí sola los hallazgos intersticiales ni la fibrosis basal. Por tanto, el diagnóstico más probable es una EPID asociada a exposición laboral.",
+      "tema": "Enfermedad pulmonar intersticial difusa",
+      "año": 2021
+    },
+    {
+      "id": "NEU-022",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 68 años, postoperada de cadera, súbitamente presenta disnea marcada, palpitaciones, diaforesis y dolor torácico pleurítico. Al examen: taquipnea, taquicardia e hipotensión arterial. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Angina inestable",
+        "Edema agudo pulmonar",
+        "Shock hipovolémico",
+        "Tromboembolismo pulmonar",
+        "Omeprazol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente postoperada de cadera, con aparición súbita de disnea, palpitaciones, diaforesis, dolor torácico pleurítico y signos de inestabilidad hemodinámica, cuadro clínico altamente sugestivo de tromboembolismo pulmonar masivo. La cirugía ortopédica es un factor de riesgo importante para tromboembolismo venoso, y la clínica con taquicardia, hipotensión y disnea aguda lo refuerza. El dolor torácico pleurítico indica compromiso pulmonar y no un síndrome coronario. El edema agudo pulmonar se acompaña de estertores y ortopnea, lo cual no se menciona. Se trata de una emergencia que requiere diagnóstico inmediato con angio-TC y tratamiento anticoagulante o trombolítico.",
+      "comentario": "Paciente postoperada de cadera, con aparición súbita de disnea, palpitaciones, diaforesis, dolor torácico pleurítico y signos de inestabilidad hemodinámica, cuadro clínico altamente sugestivo de tromboembolismo pulmonar masivo. La cirugía ortopédica es un factor de riesgo importante para tromboembolismo venoso, y la clínica con taquicardia, hipotensión y disnea aguda lo refuerza. El dolor torácico pleurítico indica compromiso pulmonar y no un síndrome coronario. El edema agudo pulmonar se acompaña de estertores y ortopnea, lo cual no se menciona. Se trata de una emergencia que requiere diagnóstico inmediato con angio-TC y tratamiento anticoagulante o trombolítico.",
+      "tema": "Tromboembolismo pulmonar tras cirugía de cadera",
+      "año": 2022
+    },
+    {
+      "id": "NEU-023",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Paciente de 23 años, con diagnóstico de asma bronquial desde su niñez, viene por crisis que se inició hace 3 horas. Al examen PA 110/70 mmHg, FC 130 x', FR 32 x', despierto con politirajes y silencio en la auscultación de ambos hemitórax. De todo lo expuesto, ¿qué indica una peor evolución?",
+      "opciones": [
+        "Politirajes",
+        "Polipnea",
+        "Silencio auscultatorio",
+        "Duración de la crisis",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con asma bronquial que presenta una crisis severa con signos de dificultad respiratoria: taquicardia, polipnea y uso de músculos accesorios (politirajes). Sin embargo, el hallazgo más preocupante es el silencio auscultatorio bilateral, ya que indica una obstrucción bronquial tan severa que no permite el paso de aire, ni siquiera para generar sibilancias. Este signo clínico es característico del estatus asmático severo o inminente paro respiratorio, y marca un estadio avanzado de la crisis, en el que hay riesgo de hipoxia y colapso ventilatorio. En contraste, la polipnea y los tirajes reflejan aún un esfuerzo respiratorio, pero no indican agotamiento. La duración de la crisis también es un dato importante, pero no tiene tanta implicancia inmediata como el silencio auscultatorio. Por tanto, el signo que más indica una evolución desfavorable y que requiere manejo urgente es la ausencia de ruidos respiratorios.",
+      "comentario": "Paciente con asma bronquial que presenta una crisis severa con signos de dificultad respiratoria: taquicardia, polipnea y uso de músculos accesorios (politirajes). Sin embargo, el hallazgo más preocupante es el silencio auscultatorio bilateral, ya que indica una obstrucción bronquial tan severa que no permite el paso de aire, ni siquiera para generar sibilancias. Este signo clínico es característico del estatus asmático severo o inminente paro respiratorio, y marca un estadio avanzado de la crisis, en el que hay riesgo de hipoxia y colapso ventilatorio. En contraste, la polipnea y los tirajes reflejan aún un esfuerzo respiratorio, pero no indican agotamiento. La duración de la crisis también es un dato importante, pero no tiene tanta implicancia inmediata como el silencio auscultatorio. Por tanto, el signo que más indica una evolución desfavorable y que requiere manejo urgente es la ausencia de ruidos respiratorios.",
+      "tema": "Crisis asmática grave: silencio auscultatorio",
+      "año": 2022
+    },
+    {
+      "id": "NEU-024",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 68 años con EPOC, acude a Emergencia por presentar súbitamente dolor torácico y disnea que no responde a oxigenoterapia ni a broncodilatadores. Al examen: 110/60 mmHg, FC 110 x', FR 30 x', SaO₂ 86%, hiperresonancia a la percusión de hemitórax derecho. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Neumotórax agudo",
+        "Embolismo pulmonar",
+        "Exacerbación del EPOC",
+        "Neumonía lobar",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón adulto mayor con diagnóstico de EPOC que acude con dolor torácico súbito y disnea intensa que no mejora con oxígeno ni broncodilatadores. La saturación de oxígeno es baja (86%) y presenta hiperresonancia a la percusión del hemitórax derecho, lo cual es un dato clave que orienta al diagnóstico de neumotórax. Esta complicación es frecuente en pacientes con EPOC debido a la ruptura espontánea de bullas enfisematosas. A diferencia del embolismo pulmonar, aquí hay alteraciones claras a la percusión torácica, y no hay signos de TVP ni inestabilidad hemodinámica grave. La exacerbación del EPOC suele ser progresiva, no súbita, y no se asocia a hiperresonancia. La neumonía también tiene una presentación distinta, con fiebre y matidez. Por tanto, el diagnóstico más probable es un neumotórax espontáneo secundario, que requiere descompresión inmediata.",
+      "comentario": "Varón adulto mayor con diagnóstico de EPOC que acude con dolor torácico súbito y disnea intensa que no mejora con oxígeno ni broncodilatadores. La saturación de oxígeno es baja (86%) y presenta hiperresonancia a la percusión del hemitórax derecho, lo cual es un dato clave que orienta al diagnóstico de neumotórax. Esta complicación es frecuente en pacientes con EPOC debido a la ruptura espontánea de bullas enfisematosas. A diferencia del embolismo pulmonar, aquí hay alteraciones claras a la percusión torácica, y no hay signos de TVP ni inestabilidad hemodinámica grave. La exacerbación del EPOC suele ser progresiva, no súbita, y no se asocia a hiperresonancia. La neumonía también tiene una presentación distinta, con fiebre y matidez. Por tanto, el diagnóstico más probable es un neumotórax espontáneo secundario, que requiere descompresión inmediata.",
+      "tema": "Neumotórax espontáneo secundario en EPOC",
+      "año": 2022
+    },
+    {
+      "id": "NEU-025",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Gestante de 24 semanas, asintomática, con prueba de tuberculina positiva y RX de tórax normal. Esposo acaba de ser diagnosticado de TBC, BK Positivo. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Radiografía en seis meses",
+        "TEM de tórax en un mes",
+        "Isoniacida profiláctica",
+        "BK seriado por tres tomas",
+        "Colonoscopia"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente está en contacto estrecho con un caso de TBC bacilífera (su esposo) y tiene una prueba de tuberculina positiva sin signos de enfermedad activa en la radiografía. En gestantes, la profilaxis con isoniacida está indicada en esta situación para prevenir la progresión a tuberculosis activa. No se debe esperar a que termine el embarazo ni repetir imágenes innecesariamente. El BK seriado es útil si hubiera síntomas respiratorios, lo cual no es el caso. El tratamiento profiláctico debe iniciarse incluso en ausencia de síntomas.",
+      "comentario": "La paciente está en contacto estrecho con un caso de TBC bacilífera (su esposo) y tiene una prueba de tuberculina positiva sin signos de enfermedad activa en la radiografía. En gestantes, la profilaxis con isoniacida está indicada en esta situación para prevenir la progresión a tuberculosis activa. No se debe esperar a que termine el embarazo ni repetir imágenes innecesariamente. El BK seriado es útil si hubiera síntomas respiratorios, lo cual no es el caso. El tratamiento profiláctico debe iniciarse incluso en ausencia de síntomas.",
+      "tema": "Tuberculosis latente en la gestante: isoniacida",
+      "año": 2022
+    },
+    {
+      "id": "NEU-026",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 73 años que ingresó al hospital por un DVC isquémico; al octavo día presenta roncantes y polipneas, SatO₂: 90%, Rx tórax: consolidación basal derecha. ¿Qué etiologiía es la más probable?",
+      "opciones": [
+        "Hongos",
+        "Flora mixta",
+        "Bacilos Gram negativos",
+        "Cocos Gram positivos",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La consolidación basal derecha en este paciente, junto con la presencia de roncantes, polipneas y una saturación de oxígeno baja, sugiere una neumonía nosocomial asociada a la hospitalización por el DVC isquémico. En pacientes hospitalizados y de edad avanzada, los bacilos Gram negativos son la causa más común de neumonía nosocomial, especialmente en aquellos con comorbilidades como enfermedades cardiovasculares. Estos microorganismos incluyen Pseudomonas aeruginosa y Klebsiella pneumoniae, que son frecuentes en infecciones nosocomiales y tienen una alta resistencia a los antibióticos.",
+      "comentario": "La consolidación basal derecha en este paciente, junto con la presencia de roncantes, polipneas y una saturación de oxígeno baja, sugiere una neumonía nosocomial asociada a la hospitalización por el DVC isquémico. En pacientes hospitalizados y de edad avanzada, los bacilos Gram negativos son la causa más común de neumonía nosocomial, especialmente en aquellos con comorbilidades como enfermedades cardiovasculares. Estos microorganismos incluyen Pseudomonas aeruginosa y Klebsiella pneumoniae, que son frecuentes en infecciones nosocomiales y tienen una alta resistencia a los antibióticos.",
+      "tema": "Neumonía intrahospitalaria: bacilos gramnegativos",
+      "año": 2023
+    },
+    {
+      "id": "NEU-027",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 76 años, que trabajó con asbesto por 30 años, desde hace cuatro años presenta disnea progresiva. Examen: PA 120/75 mmHg, FC 70 X´, FR 30 X´, T 36,8°C. Rx de tórax: engrosamiento pleural, opacidades reticulares lineales con aspecto en \"panal de abeja\". ¿Qué espera encontrar en la biopsia?",
+      "opciones": [
+        "Calcificación distrófica",
+        "Granulomas",
+        "Infiltración linfocítica",
+        "Cuerpos ferruginosos",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta una historia ocupacional significativa con exposición prolongada al asbesto, sustancia conocida por generar neumopatías intersticiales crónicas. El cuadro clínico de disnea progresiva y los hallazgos radiológicos de engrosamiento pleural, opacidades reticulares y patrón en panal d e abeja sugieren fibrosis pulmonar avanzada, característica de la asbestosis. Esta fibrosis produce cambios histológicos típicos como la presencia de cuerpos ferruginosos (cuerpos de asbesto), los cuales se visualizan mediante técnicas de tinción especiales como la de Prusia azul. Estas estructuras son fibras de asbesto recubiertas de hierro, indicativas de exposición previa. El diagnóstico diferencial incluye silicosis, sarcoidosis o neumonía intersticial, pero el contexto clínico-ocupacional y la imagen en panal orientan a asbestosis. El manejo incluye evitar la exposición, terapia broncodilatadora, oxigenoterapia y evaluación para trasplante pulmonar en casos graves. La vigilancia oncológica también es clave debido al riesgo de mesotelioma.",
+      "comentario": "El paciente presenta una historia ocupacional significativa con exposición prolongada al asbesto, sustancia conocida por generar neumopatías intersticiales crónicas. El cuadro clínico de disnea progresiva y los hallazgos radiológicos de engrosamiento pleural, opacidades reticulares y patrón en panal d e abeja sugieren fibrosis pulmonar avanzada, característica de la asbestosis. Esta fibrosis produce cambios histológicos típicos como la presencia de cuerpos ferruginosos (cuerpos de asbesto), los cuales se visualizan mediante técnicas de tinción especiales como la de Prusia azul. Estas estructuras son fibras de asbesto recubiertas de hierro, indicativas de exposición previa. El diagnóstico diferencial incluye silicosis, sarcoidosis o neumonía intersticial, pero el contexto clínico-ocupacional y la imagen en panal orientan a asbestosis. El manejo incluye evitar la exposición, terapia broncodilatadora, oxigenoterapia y evaluación para trasplante pulmonar en casos graves. La vigilancia oncológica también es clave debido al riesgo de mesotelioma.",
+      "tema": "Asbestosis: cuerpos ferruginosos",
+      "año": 2023
+    },
+    {
+      "id": "NEU-028",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 32 años, con asma bronquial, traído a emergencia por dificultad para respirar. Examen: FC 62 X', FR 18 X', SatO₂ 85%, somnoliento, incapaz de hablar, tiene movimiento toracoabdominal. Silencio auscultatorio en AHT. ¿Cuál es el procedimiento inmediato a seguir?",
+      "opciones": [
+        "Ventilación no invasiva",
+        "Oxigenoterapia por cánula nasal de alto flujo",
+        "Colocación de vía venosa para administrar medicamentos",
+        "Intubación orotraqueal y ventilación mecánica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En este paciente con antecedente de asma encontramos signos de insuficiencia respiratoria severa, con hipoxia grave (SatO₂ 85%), somnolencia (indicativo de hipercapnia y fatiga respiratoria), y silencio auscultatorio en ambos campos pulmonares, lo cual sugiere una obstrucción severa de las vías aéreas. La intubación orotraqueal y ventilación mecánica es la intervención inmediata indicada en este caso (Alternativa D). La intubación asegura la vía aérea, permite una ventilación adecuada y administración de oxígeno, y previene un paro respiratorio inminente.",
+      "comentario": "En este paciente con antecedente de asma encontramos signos de insuficiencia respiratoria severa, con hipoxia grave (SatO₂ 85%), somnolencia (indicativo de hipercapnia y fatiga respiratoria), y silencio auscultatorio en ambos campos pulmonares, lo cual sugiere una obstrucción severa de las vías aéreas. La intubación orotraqueal y ventilación mecánica es la intervención inmediata indicada en este caso (Alternativa D). La intubación asegura la vía aérea, permite una ventilación adecuada y administración de oxígeno, y previene un paro respiratorio inminente.",
+      "tema": "Asma casi fatal: intubación",
+      "año": 2024
+    },
+    {
+      "id": "NEU-029",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 63 años es evaluado en triaje por estar desaturando y le administran oxigeno con máscara de reservorio. Antecedente de bronquitis. Hace 2 días, el esputo había aumentado y se tornó de color verdoso. Posteriormente presentó disnea y confusión. Examen: sibilancias espiratorias difusas; edema periférico. AGA: pH 7.08, PO2 50 mmHg, PCO2 60 mmHg ¿Cuál es la conducta inmediata a seguir?",
+      "opciones": [
+        "Oxigeno por CBN",
+        "Administrar corticoides",
+        "Oxígeno a alto flujo",
+        "Intubación orotraqueal",
+        "Diazepam"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En este caso, el paciente presenta una situación crítica con acidosis respiratoria severa, hipoxemia e hipercapnia, indicativa de insuficiencia respiratoria aguda. La administración de oxígeno por máscara de reservorio no ha mejorado su estado, lo que sugiere la necesidad de una intervención más agresiva. Por ese motivo, la conducta inmediata a seguir es intubación orotraqueal (Alternativa D). Esto permitirá un control más preciso de los niveles de oxígeno y dióxido de carbono, mejorando la ventilación y la oxigenación del paciente.",
+      "comentario": "En este caso, el paciente presenta una situación crítica con acidosis respiratoria severa, hipoxemia e hipercapnia, indicativa de insuficiencia respiratoria aguda. La administración de oxígeno por máscara de reservorio no ha mejorado su estado, lo que sugiere la necesidad de una intervención más agresiva. Por ese motivo, la conducta inmediata a seguir es intubación orotraqueal (Alternativa D). Esto permitirá un control más preciso de los niveles de oxígeno y dióxido de carbono, mejorando la ventilación y la oxigenación del paciente.",
+      "tema": "Exacerbación de EPOC con acidosis grave: intubación",
+      "año": 2024
+    },
+    {
+      "id": "NEU-030",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 46 años, desde hace 5 días presenta tos y fiebre. Ocupación: obrero de construcción civil. Examen: Tórax asimétrico, abombamiento en el lado derecho, matidez, abolición del MV y egofonía en base del mismo lado. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Atelectasia",
+        "Neumotórax",
+        "Síndrome de consolidación",
+        "Derrame pleural",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de tórax asimétrico, abombamiento en el lado derecho, matidez, abolición del murmullo vesicular y egofonía en la base derecha son todos hallazgos clásicos de un derrame pleural (Alternativa D). Se denomina derrame pleural a la acumulación de líquido en el espacio pleural. La clínica incluye disnea, dolor torácico, matidez a la percusión, abolición del murmullo vesicular y en ocasiones egofonía en la parte superior del derrame. Este cuadro clínico es común en pacientes con infecciones pulmonares que evolucionan derrame pleural como el presente en el paciente.",
+      "comentario": "La presencia de tórax asimétrico, abombamiento en el lado derecho, matidez, abolición del murmullo vesicular y egofonía en la base derecha son todos hallazgos clásicos de un derrame pleural (Alternativa D). Se denomina derrame pleural a la acumulación de líquido en el espacio pleural. La clínica incluye disnea, dolor torácico, matidez a la percusión, abolición del murmullo vesicular y en ocasiones egofonía en la parte superior del derrame. Este cuadro clínico es común en pacientes con infecciones pulmonares que evolucionan derrame pleural como el presente en el paciente.",
+      "tema": "Derrame pleural: semiología",
+      "año": 2024
+    },
+    {
+      "id": "NEU-031",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Paciente que presenta disnea y broncoespasmo 2 días por semana y durante la noche 2 veces al mes. Según la clasificación de GINA, corresponde a asma:",
+      "opciones": [
+        "Persistente leve.",
+        "Persistente moderada.",
+        "Persistente grave",
+        "Intermitente.",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La clasificación de asma según GINA (Global Initiative for Asthma) se basa en la frecuencia de los síntomas diurnos y nocturnos, así como en la limitación de actividades y la necesidad de medicación de rescate. En este caso, el paciente presenta disnea y broncoespasmo 2 días por semana y síntomas nocturnos 2 veces al mes. Ambos se encuentran dentro de los criterios de asma intermitente. Los síntomas del paciente no interfieren significativamente con la actividad diaria o el sueño, y no se mencionan exacerbaciones frecuentes que puedan llevar a una clasificación más severa. Por lo tanto, según los criterios de GINA, este paciente tiene asma intermitente (Alternativa D).",
+      "comentario": "La clasificación de asma según GINA (Global Initiative for Asthma) se basa en la frecuencia de los síntomas diurnos y nocturnos, así como en la limitación de actividades y la necesidad de medicación de rescate. En este caso, el paciente presenta disnea y broncoespasmo 2 días por semana y síntomas nocturnos 2 veces al mes. Ambos se encuentran dentro de los criterios de asma intermitente. Los síntomas del paciente no interfieren significativamente con la actividad diaria o el sueño, y no se mencionan exacerbaciones frecuentes que puedan llevar a una clasificación más severa. Por lo tanto, según los criterios de GINA, este paciente tiene asma intermitente (Alternativa D).",
+      "tema": "Asma intermitente: clasificación",
+      "año": 2024
+    },
+    {
+      "id": "NEU-032",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 65 años, desde hace 2 horas presenta disnea súbita, dolor torácico y tos con esputo hemoptoico. Antecedente: recibe quimioterapia por cáncer de mama. Examen: sudorosa, pálida, en ortopnea. PA: 100/60 mmHg, FC: 100 X´, FR: 26 X´, edema en miembros inferiores. ECG: ventrículo derecho dilatado. RX de tórax: corazón en límites normales y arco medio rectificado. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Infarto agudo de miocardio",
+        "Neumonía adquirida en la comunidad",
+        "Tromboembolia pulmonar",
+        "Metástasis pulmonar",
+        "Apendicitis aguda"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente presenta un cuadro clínico altamente sugestivo de tromboembolia pulmonar (TEP), caracterizado por disnea súbita, dolor torácico, hemoptisis y taquicardia. Su antecedente de cáncer de mama en tratamiento con quimioterapia es un factor de riesgo importante para tromboembolismo venoso. Además, el examen físico muestra signos de inestabilidad hemodinámica y edema en miembros inferiores, lo que sugiere trombosis venosa profunda como origen del émbolo. El hallazgo en el ECG de dilatación del ventrículo derecho refuerza la sospecha, ya que indica sobrecarga en la circulación pulmonar. La radiografía de tórax con arco medio rectificado puede ser indicativa de la joroba de Hampton o el signo de Westermark, hallazgos característicos pero inespecíficos en la TEP.",
+      "comentario": "La paciente presenta un cuadro clínico altamente sugestivo de tromboembolia pulmonar (TEP), caracterizado por disnea súbita, dolor torácico, hemoptisis y taquicardia. Su antecedente de cáncer de mama en tratamiento con quimioterapia es un factor de riesgo importante para tromboembolismo venoso. Además, el examen físico muestra signos de inestabilidad hemodinámica y edema en miembros inferiores, lo que sugiere trombosis venosa profunda como origen del émbolo. El hallazgo en el ECG de dilatación del ventrículo derecho refuerza la sospecha, ya que indica sobrecarga en la circulación pulmonar. La radiografía de tórax con arco medio rectificado puede ser indicativa de la joroba de Hampton o el signo de Westermark, hallazgos característicos pero inespecíficos en la TEP.",
+      "tema": "Tromboembolia pulmonar en paciente oncológica",
+      "año": 2024
+    },
+    {
+      "id": "NEU-033",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Alpinista de 35 años es traído de 5530 m.s.n.m. a Huaraz por dificultad respiratoria y tos con esputo espumoso. Examen: PA: 140/85 mmHg, FC: 110 X´, FR: 30 X´, SatO₂: 75%, T°: 36.8 °C, crepitantes en AHT, retracción costal. Laboratorio: pH: 7.32, pCO2: 48 mmHg, HCO3: 24 mEq/L, pO2: 50 mmHg, SatO₂: 75%. RX tórax: Infiltrados alveolares bilaterales difusos, sin cardiomegalia. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Seguir descendiendo",
+        "Ventilación mecánica asistida",
+        "Furosemida",
+        "Oxígeno suplementario",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta un edema pulmonar de gran altitud (EPGA), cuadro que ocurre en personas que ascienden rápidamente a grandes alturas (>2500 m s. n. m.), sin adecuada aclimatación. Clínicamente se manifiesta con disnea, tos con esputo espumoso y signos de hipoxemia. La radiografía muestra infiltrados alveolares bilaterales sin cardiomegalia, lo que descarta edema cardiogénico. La conducta inicial y más importante es la administración de oxígeno suplementario, que mejora la oxigenación y reduce la presión pulmonar. El descenso también es importante, pero primero se estabiliza al paciente con oxígeno.",
+      "comentario": "El paciente presenta un edema pulmonar de gran altitud (EPGA), cuadro que ocurre en personas que ascienden rápidamente a grandes alturas (>2500 m s. n. m.), sin adecuada aclimatación. Clínicamente se manifiesta con disnea, tos con esputo espumoso y signos de hipoxemia. La radiografía muestra infiltrados alveolares bilaterales sin cardiomegalia, lo que descarta edema cardiogénico. La conducta inicial y más importante es la administración de oxígeno suplementario, que mejora la oxigenación y reduce la presión pulmonar. El descenso también es importante, pero primero se estabiliza al paciente con oxígeno.",
+      "tema": "Edema pulmonar de altura: oxígeno",
+      "año": 2024
+    },
+    {
+      "id": "NEU-034",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 28 años, acude a consulta con diagnóstico de tuberculosis pulmonar y trae resultados de BK en esputo (+++). ¿Qué examen solicita antes de iniciar el tratamiento?",
+      "opciones": [
+        "Repetir BK",
+        "Perfil hepático",
+        "PPD",
+        "TC Pulmonar",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Antes de iniciar tratamiento antituberculoso, es fundamental evaluar la función hepática debido a la hepatotoxicidad asociada con medicamentos como isoniazida, rifampicina y pirazinamida. No se requiere repetir BK, ya que el diagnóstico está confirmado. La prueba de tuberculina (PPD) no tiene utilidad en este contexto, pues su indicación es diagnóstica y no afecta el manejo del tratamiento. La TC pulmonar no es necesaria aquí, ya que la baciloscopia positiva es suficiente para diagnosticar tuberculosis pulmonar activa.",
+      "comentario": "Antes de iniciar tratamiento antituberculoso, es fundamental evaluar la función hepática debido a la hepatotoxicidad asociada con medicamentos como isoniazida, rifampicina y pirazinamida. No se requiere repetir BK, ya que el diagnóstico está confirmado. La prueba de tuberculina (PPD) no tiene utilidad en este contexto, pues su indicación es diagnóstica y no afecta el manejo del tratamiento. La TC pulmonar no es necesaria aquí, ya que la baciloscopia positiva es suficiente para diagnosticar tuberculosis pulmonar activa.",
+      "tema": "Tuberculosis: perfil hepático antes del tratamiento",
+      "año": 2024
+    },
+    {
+      "id": "NEU-035",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 72 años, con diagnóstico de EPOC, traído a emergencia por trastorno del sensorio. Lab: AGA: pH: 7.32, pCO2: 60 mmHg, pO2: 52 mmHg, SatO₂ 82%. ¿Qué soporte oxigenatorio está indicado?",
+      "opciones": [
+        "Cánula binasal",
+        "Máscara de reservorio",
+        "Ventilación no invasiva",
+        "Oxigenoterapia nocturna",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Se trata de un paciente con EPOC descompensado, manifestado por alteración del sensorio e insuficiencia respiratoria hipercápnica (pCO₂: 60 mmHg, pO₂: 52 mmHg, SatO₂: 82%). El pH acid ótico (7.32) confirma una acidosis respiratoria. La presencia de hipercapnia con deterioro del estado de conciencia indica una retención de CO₂ grave que pone en riesgo la vida. En este contexto, la medida más adecuada es la ventilación no invasiva (VNI), como la BiPAP, la cual mejora el intercambio gaseoso, reduce la carga respiratoria y evita la intubación endotraqueal. El uso de oxígeno solo (cánula o máscara) puede empeorar la retención de CO₂ al suprimir el estímulo respiratorio en EPOC. La oxigenoterapia nocturna no es útil en la fase aguda.",
+      "comentario": "Se trata de un paciente con EPOC descompensado, manifestado por alteración del sensorio e insuficiencia respiratoria hipercápnica (pCO₂: 60 mmHg, pO₂: 52 mmHg, SatO₂: 82%). El pH acid ótico (7.32) confirma una acidosis respiratoria. La presencia de hipercapnia con deterioro del estado de conciencia indica una retención de CO₂ grave que pone en riesgo la vida. En este contexto, la medida más adecuada es la ventilación no invasiva (VNI), como la BiPAP, la cual mejora el intercambio gaseoso, reduce la carga respiratoria y evita la intubación endotraqueal. El uso de oxígeno solo (cánula o máscara) puede empeorar la retención de CO₂ al suprimir el estímulo respiratorio en EPOC. La oxigenoterapia nocturna no es útil en la fase aguda.",
+      "tema": "EPOC con acidosis respiratoria: ventilación no invasiva",
+      "año": 2024
+    },
+    {
+      "id": "NEU-036",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 47 años, sin antecedentes importantes, fue ingresado recientemente en el hospital por un accidente cerebrovascular isquémico en la arteria cerebral media derecha. Su esposa refiere que ronca al dormir y deja de respirar varias veces en la noche desde hace 7 años. Su IMC es de 35 kg/m2. ¿Qué prueba solicitaría para diagnosticar la enfermedad de fondo que se complicó con el ACV?",
+      "opciones": [
+        "Oximetría de pulso nocturna",
+        "Ecocardiograma",
+        "Polisomnografía nocturna",
+        "Gasometría arterial",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con antecedente de ronquido crónico, pausas respiratorias nocturnas e IMC elevado, lo que sugiere apnea obstructiva del sueño (AOS). Este trastorno es un factor de riesgo importante para enfermedades cardiovasculares y ACV. El examen de elección para su diagnóstico es la polisomnografía nocturna. No obstante, según la clave brindada (B), se sugiere el ecocardiograma, que podría aportar información complementaria si se sospecha de complicaciones cardiacas secundarias como hipertensión pulmonar. Se respeta la clave, aunque clínicamente no sería el examen diagnóstico primario para AOS.",
+      "comentario": "Paciente con antecedente de ronquido crónico, pausas respiratorias nocturnas e IMC elevado, lo que sugiere apnea obstructiva del sueño (AOS). Este trastorno es un factor de riesgo importante para enfermedades cardiovasculares y ACV. El examen de elección para su diagnóstico es la polisomnografía nocturna. No obstante, según la clave brindada (B), se sugiere el ecocardiograma, que podría aportar información complementaria si se sospecha de complicaciones cardiacas secundarias como hipertensión pulmonar. Se respeta la clave, aunque clínicamente no sería el examen diagnóstico primario para AOS.",
+      "tema": "Apnea obstructiva del sueño: polisomnografía",
+      "año": 2025
+    },
+    {
+      "id": "NEU-037",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 69 años acude a emergencia por fiebre, tos y expectoración purulenta desde hace cuatro días. Examen: PA 110/75 mmHg, FC 100 X', FR 32 X', T 38 °C, SatO₂ 94%, orientado en T, E y P, crepitantes en base de HTD. RX de tórax muestra un infiltrado alveolar en lóbulo medio. Al valorar el estado de gravedad aplicando la escala de CURB-65. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Hospitalización en medicina",
+        "Alta con indicaciones",
+        "Alta y control ambulatorio",
+        "Hospitalización en UCI",
+        "Derivación a especialista"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón con neumonía adquirida en la comunidad (NAC), criterios clínicos y radiológicos compatibles. Para valorar su gravedad usamos la escala CURB-65, que asigna un punto por cada uno: Confusión, Urea >7 mmol/L, RR ≥30, BPA sistólica <90 o diastólica ≤60 mmHg, edad ≥65 años. Este paciente tiene edad >65 años y FR 32 x', por tanto, CURB-65 = 2. Según la guía, un CURB-65 de 2 indica neumonía moderada, que requiere hospitalización en medicina general para vigilancia y antibióticos endovenosos.",
+      "comentario": "Varón con neumonía adquirida en la comunidad (NAC), criterios clínicos y radiológicos compatibles. Para valorar su gravedad usamos la escala CURB-65, que asigna un punto por cada uno: Confusión, Urea >7 mmol/L, RR ≥30, BPA sistólica <90 o diastólica ≤60 mmHg, edad ≥65 años. Este paciente tiene edad >65 años y FR 32 x', por tanto, CURB-65 = 2. Según la guía, un CURB-65 de 2 indica neumonía moderada, que requiere hospitalización en medicina general para vigilancia y antibióticos endovenosos.",
+      "tema": "Neumonía con CURB-65 de 2: hospitalizar",
+      "año": 2025
+    },
+    {
+      "id": "NEU-038",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 78 años, desde hace 5 días presenta fiebre, disnea, tos exigente y expectoración abundante. Examen: T 38 °C, PA 119/65 mmHg, FC 110 X', FR 26 X', SatO₂ 88%; MV disminuido y matidez a la percusión en 1/3 inferior de HTI. TC: consolidación del lóbulo inferior y derrame pleural HTI. Luego de iniciar antibióticoterapia empírica y oxigenoterapia. ¿Cuál es el procedimiento a seguir?",
+      "opciones": [
+        "Traqueotomía",
+        "Espirometría",
+        "Toracocentesis",
+        "Prueba de difusión de gases",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulto mayor con síntomas respiratorios agudos (fiebre, disnea, tos con expectoración), signos clínicos de consolidación y derrame pleural (matidez, MV disminuido), y confirmación radiológica de neumonía con derrame pleural izquierdo. Frente a este hallazgo, es fundamental determinar si el derrame es paraneumónico no complicado, complicado o empiema, lo cual solo se logra mediante el análisis del líquido pleural. Por ello, la toracocentesis diagnóstica es el siguiente paso indicado, pues permitirá decidir si se requiere drenaje, además de continuar con antibióticos. Procedimientos como espirometría, difusión de gases o traqueotomía no están indicados en esta fase.",
+      "comentario": "Paciente adulto mayor con síntomas respiratorios agudos (fiebre, disnea, tos con expectoración), signos clínicos de consolidación y derrame pleural (matidez, MV disminuido), y confirmación radiológica de neumonía con derrame pleural izquierdo. Frente a este hallazgo, es fundamental determinar si el derrame es paraneumónico no complicado, complicado o empiema, lo cual solo se logra mediante el análisis del líquido pleural. Por ello, la toracocentesis diagnóstica es el siguiente paso indicado, pues permitirá decidir si se requiere drenaje, además de continuar con antibióticos. Procedimientos como espirometría, difusión de gases o traqueotomía no están indicados en esta fase.",
+      "tema": "Neumonía con derrame pleural: toracocentesis",
+      "año": 2025
+    },
+    {
+      "id": "NEU-039",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Gestante de 20 semanas con tos >2 semanas, sensación febril, dolor tipo contracción leve y pérdida de peso. Antecedente familiar: abuela fallecida por “tos”. Examen: crepitantes dispersos en ambos campos pulmonares. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Asma bronquial",
+        "Neumonía atípica",
+        "Amenaza de aborto",
+        "Tuberculosis pulmonar",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente gestante con tos de más de dos semanas, fiebre, pérdida de peso y antecedentes familiares de “tos crónica” sugiere una infección por Mycobacterium tuberculosis. En el embarazo, la inmunomodulación celular facilita la reactivación del bacilo. Los crepitantes dispersos en ambos campos pulmonares refuerzan el diagnóstico de tuberculosis pulmonar activa. El diagnóstico se confirma con baciloscopía o prueba molecular (GeneXpert). El tratamiento incluye esquema antituberculoso estándar, priorizando la protección materno-fetal. El control prenatal debe continuar con vigilancia de efectos adversos de los fármacos.",
+      "comentario": "La paciente gestante con tos de más de dos semanas, fiebre, pérdida de peso y antecedentes familiares de “tos crónica” sugiere una infección por Mycobacterium tuberculosis. En el embarazo, la inmunomodulación celular facilita la reactivación del bacilo. Los crepitantes dispersos en ambos campos pulmonares refuerzan el diagnóstico de tuberculosis pulmonar activa. El diagnóstico se confirma con baciloscopía o prueba molecular (GeneXpert). El tratamiento incluye esquema antituberculoso estándar, priorizando la protección materno-fetal. El control prenatal debe continuar con vigilancia de efectos adversos de los fármacos.",
+      "tema": "Tuberculosis pulmonar en la gestante",
+      "año": 2025
+    },
+    {
+      "id": "NEU-040",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 26 años con asma persistente leve no controlada, 6 días de disnea con habla entrecortada, SatO₂ 93%, FR 24 rpm, uso de musculatura accesoria, PEF/FEV1 66%. ¿Cómo clasifica la crisis asmática?",
+      "opciones": [
+        "Casi fatal",
+        "Grave",
+        "Moderada",
+        "Leve",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente joven con asma persistente leve que presenta aumento progresivo de síntomas por seis días, evidenciando disnea con habla entrecortada, lo cual indica limitación del flujo aéreo sin comprometer la ventilación extrema. La saturación de oxígeno en 93% es un dato sugestivo de moderación, pues en crisis graves suele hallarse <90%. La frecuencia respiratoria de 24 rpm muestra taquipnea pero sin signos de fatiga marcada. El uso de musculatura accesoria refleja incremento del trabajo ventilatorio, elemento que complementa la interpretación clínica. El valor de PEF/FEV1 en 66% traduce obstrucción bronquial moderada. Fisiopatológicamente, la broncoconstricción mediada por inflamación eosinofílica se mantiene pero no alcanza el umbral de inminente falla. La crisis casi fatal exhibe hipercapnia o agotamiento. Por ello, corresponde crisis asmática moderada.",
+      "comentario": "Paciente joven con asma persistente leve que presenta aumento progresivo de síntomas por seis días, evidenciando disnea con habla entrecortada, lo cual indica limitación del flujo aéreo sin comprometer la ventilación extrema. La saturación de oxígeno en 93% es un dato sugestivo de moderación, pues en crisis graves suele hallarse <90%. La frecuencia respiratoria de 24 rpm muestra taquipnea pero sin signos de fatiga marcada. El uso de musculatura accesoria refleja incremento del trabajo ventilatorio, elemento que complementa la interpretación clínica. El valor de PEF/FEV1 en 66% traduce obstrucción bronquial moderada. Fisiopatológicamente, la broncoconstricción mediada por inflamación eosinofílica se mantiene pero no alcanza el umbral de inminente falla. La crisis casi fatal exhibe hipercapnia o agotamiento. Por ello, corresponde crisis asmática moderada.",
+      "tema": "Crisis asmática moderada",
+      "año": 2025
+    },
+    {
+      "id": "NEU-041",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Un paciente hospitalizado presenta disnea súbita con hipoxemia, se descarta problema coronario. La radiografía de tórax es normal. Señale cual sería el diagnóstico más probable.",
+      "opciones": [
+        "Crisis de ansiedad",
+        "Neumonía atípica",
+        "Neumonía intrahospitalaria",
+        "Tromboembolismo pulmonar",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En pacientes hospitalizados que presentan disnea súbita e hipoxemia sin hallazgos en la radiografía de tórax, se debe sospechar tromboembolismo pulmonar (TEP). Es un diagnóstico frecuente en este contexto, especialmente si existen factores de riesgo como inmovilización, cirugías o infecciones. La neumonía generalmente produce hallazgos en la radiografía. Una crisis de ansiedad puede producir disnea, pero no hipoxemia. El TEP es la única opción que explica la presentación aguda con hipoxemia y estudios de imagen normales.",
+      "comentario": "En pacientes hospitalizados que presentan disnea súbita e hipoxemia sin hallazgos en la radiografía de tórax, se debe sospechar tromboembolismo pulmonar (TEP). Es un diagnóstico frecuente en este contexto, especialmente si existen factores de riesgo como inmovilización, cirugías o infecciones. La neumonía generalmente produce hallazgos en la radiografía. Una crisis de ansiedad puede producir disnea, pero no hipoxemia. El TEP es la única opción que explica la presentación aguda con hipoxemia y estudios de imagen normales.",
+      "tema": "Disnea súbita con hipoxemia y Rx normal: TEP",
+      "año": 2020
+    },
+    {
+      "id": "NEU-042",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 68 años hospitalizada por infarto cerebral. 2 semanas después al comenzar a caminar presenta súbitamente disnea grave con dolor torácico y diaforesis. Se halla un Dímero D > 500 ng/ml. ¿Cuál sería el siguiente examen a realizar?",
+      "opciones": [
+        "Rayos x",
+        "Angio TEM",
+        "Doppler",
+        "Cateterismo cardiaco",
+        "Electrocardiograma"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente, inmovilizada tras un evento vascular cerebral, presenta disnea súbita con dolor torácico, lo que sugiere un tromboembolismo pulmonar (TEP). El dímero D elevado apoya esta sospecha. El siguiente paso diagnóstico ideal es la angio-TEM pulmonar, que confirma o descarta TEP. El Doppler puede usarse para buscar TVP en miembros inferiores, pero no es concluyente para TEP. Rx tiene baja sensibilidad, y el cateterismo no es diagnóstico en esta etapa.",
+      "comentario": "La paciente, inmovilizada tras un evento vascular cerebral, presenta disnea súbita con dolor torácico, lo que sugiere un tromboembolismo pulmonar (TEP). El dímero D elevado apoya esta sospecha. El siguiente paso diagnóstico ideal es la angio-TEM pulmonar, que confirma o descarta TEP. El Doppler puede usarse para buscar TVP en miembros inferiores, pero no es concluyente para TEP. Rx tiene baja sensibilidad, y el cateterismo no es diagnóstico en esta etapa.",
+      "tema": "Sospecha de TEP con dímero D alto: angio-TEM",
+      "año": 2020
+    },
+    {
+      "id": "NEU-043",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 20 años, previamente sano, se tropieza y cae al suelo mientras corre. Súbitamente experimenta disnea pronunciada. Al examen: no se ausculta murmullo vesicular en hemitorax derecho. Rx de tórax: desplazamiento del mediastino de derecha a la izquierda. Se coloca un tubo de tórax en el lado derecho y se observa salida de aire. ¿Cuál es la patología más probable?",
+      "opciones": [
+        "Embolismo graso",
+        "Asma bronquial",
+        "Hemotórax espontáneo",
+        "Enfisema acinar distal",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Joven sano con disnea súbita post-traumatismo leve, ausencia de murmullo y desviación mediastínica: sospecha de neumotórax a tensión. La salida de aire al colocar tubo lo confirma. En jóvenes, el neumotórax espontáneo primario se asocia a enfisema acinar distal, que implica ruptura de bullas subpleurales. No hay datos de trauma severo ni antecedentes para sospechar embolismo graso o hemotórax.",
+      "comentario": "Joven sano con disnea súbita post-traumatismo leve, ausencia de murmullo y desviación mediastínica: sospecha de neumotórax a tensión. La salida de aire al colocar tubo lo confirma. En jóvenes, el neumotórax espontáneo primario se asocia a enfisema acinar distal, que implica ruptura de bullas subpleurales. No hay datos de trauma severo ni antecedentes para sospechar embolismo graso o hemotórax.",
+      "tema": "Neumotórax espontáneo primario: bullas subpleurales",
+      "año": 2020
+    },
+    {
+      "id": "NEU-044",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "En el asma ¿Cuál es un factor biológico de mortalidad?",
+      "opciones": [
+        "Mala respuesta a corticosteroides",
+        "Exposición al humo del tabaco",
+        "Asistencia médica inadecuada",
+        "Trastorno psicológico en la madre",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los factores de mortalidad en el asma se agrupan en biológicos, ambientales y asistenciales. Dentro de los factores biológicos, uno de los más importantes es la mala respuesta a los corticosteroides, lo cual impide controlar adecuadamente la inflamación bronquial. Esta resistencia puede llevar a crisis severas con pobre respuesta al tratamiento convencional. A diferencia de factores ambientales como el humo o sociales como el acceso médico, este condicionante biológico influye directamente en la gravedad del asma y su mortalidad.",
+      "comentario": "Los factores de mortalidad en el asma se agrupan en biológicos, ambientales y asistenciales. Dentro de los factores biológicos, uno de los más importantes es la mala respuesta a los corticosteroides, lo cual impide controlar adecuadamente la inflamación bronquial. Esta resistencia puede llevar a crisis severas con pobre respuesta al tratamiento convencional. A diferencia de factores ambientales como el humo o sociales como el acceso médico, este condicionante biológico influye directamente en la gravedad del asma y su mortalidad.",
+      "tema": "Asma: factor biológico de mortalidad",
+      "año": 2020
+    },
+    {
+      "id": "NEU-045",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuál es el antituberculoso contraindicado en la Gestante?",
+      "opciones": [
+        "Estreptomicina",
+        "Pirazinamida",
+        "Rifampicina",
+        "Etambutol",
+        "Azitromicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La estreptomicina, un aminoglucósido utilizado como fármaco de segunda línea para tuberculosis, está contraindicada durante la gestación por su capacidad de atravesar la placenta y generar toxicidad coclear en el feto, lo cual puede producir sordera congénita. Su efecto ototóxico es dosis-dependiente y se ha documentado en múltiples estudios. En cambio, medicamentos como la rifampicina, pirazinamida y etambutol están autorizados por la OMS para el tratamiento de tuberculosis sensible durante el embarazo, ya que han demostrado seguridad relativa. Por tanto, el régimen estándar de primera línea incluye estos tres fármacos, junto con isoniacida. El riesgo fetal de la estreptomicina supera ampliamente los beneficios, por lo cual debe evitarse en cualquier trimestre.",
+      "comentario": "La estreptomicina, un aminoglucósido utilizado como fármaco de segunda línea para tuberculosis, está contraindicada durante la gestación por su capacidad de atravesar la placenta y generar toxicidad coclear en el feto, lo cual puede producir sordera congénita. Su efecto ototóxico es dosis-dependiente y se ha documentado en múltiples estudios. En cambio, medicamentos como la rifampicina, pirazinamida y etambutol están autorizados por la OMS para el tratamiento de tuberculosis sensible durante el embarazo, ya que han demostrado seguridad relativa. Por tanto, el régimen estándar de primera línea incluye estos tres fármacos, junto con isoniacida. El riesgo fetal de la estreptomicina supera ampliamente los beneficios, por lo cual debe evitarse en cualquier trimestre.",
+      "tema": "Tuberculosis en la gestante: estreptomicina contraindicada",
+      "año": 2021
+    },
+    {
+      "id": "NEU-046",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Maratonista de 39 años, tras competencia a 3,600 m de altura presenta severo deterioro físico. Se le realizan exámenes que mostraron importantes desequilibrios. Se decide entonces instaurar ventilación mecánica basándose en el hallazgo de:",
+      "opciones": [
+        "Hipercapnia severa",
+        "Dímero D elevado",
+        "Troponina I elevada",
+        "Saturación de O₂ de 85%",
+        "Azitromicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Maratonista sometido a esfuerzo físico extremo a gran altitud (3,600 m), que tras la competencia presenta deterioro sistémico severo. En este contexto, es esperable hipoxemia; sin embargo, la indicación de ventilación mecánica se basa en la presencia de hipercapnia severa, ya que este hallazgo refleja fallo ventilatorio con retención de CO₂, lo cual es un criterio claro de insuficiencia respiratoria aguda. Otras alteraciones (como dímero D o troponina elevada) pueden indicar daño tisular, pero no justifican ventilación mecánica por sí solas. La retención de CO₂ compromete el pH y la función cerebral, por lo que se convierte en la variable crítica a corregir.",
+      "comentario": "Maratonista sometido a esfuerzo físico extremo a gran altitud (3,600 m), que tras la competencia presenta deterioro sistémico severo. En este contexto, es esperable hipoxemia; sin embargo, la indicación de ventilación mecánica se basa en la presencia de hipercapnia severa, ya que este hallazgo refleja fallo ventilatorio con retención de CO₂, lo cual es un criterio claro de insuficiencia respiratoria aguda. Otras alteraciones (como dímero D o troponina elevada) pueden indicar daño tisular, pero no justifican ventilación mecánica por sí solas. La retención de CO₂ compromete el pH y la función cerebral, por lo que se convierte en la variable crítica a corregir.",
+      "tema": "Indicación de ventilación mecánica: hipercapnia severa",
+      "año": 2021
+    },
+    {
+      "id": "NEU-047",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "La relación existente entre el ritmo circadiano y las crisis de asma bronquial, determinan que las crisis asmáticas se produzcan con más frecuencia en el horario de:",
+      "opciones": [
+        "14 a 16",
+        "10 a 12",
+        "4 a 6",
+        "20 a 22",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Está bien documentado que el asma bronquial presenta un patrón circadiano que condiciona empeoramiento de los síntomas en la madrugada. Esto se debe a fenómenos como la reducción del cortisol endógeno, aumento del tono vagal y variación nocturna de la función pulmonar, como el volumen espiratorio forzado (VEF1). Por eso, los pacientes asmáticos frecuentemente despiertan en la madrugada con disnea o tos seca. El intervalo horario más comprometido es entre las 4 a.m. y 6 a.m., por lo que esta alternativa representa la respuesta correcta con base fisiológica y clínica clara.",
+      "comentario": "Está bien documentado que el asma bronquial presenta un patrón circadiano que condiciona empeoramiento de los síntomas en la madrugada. Esto se debe a fenómenos como la reducción del cortisol endógeno, aumento del tono vagal y variación nocturna de la función pulmonar, como el volumen espiratorio forzado (VEF1). Por eso, los pacientes asmáticos frecuentemente despiertan en la madrugada con disnea o tos seca. El intervalo horario más comprometido es entre las 4 a.m. y 6 a.m., por lo que esta alternativa representa la respuesta correcta con base fisiológica y clínica clara.",
+      "tema": "Asma: crisis de madrugada",
+      "año": 2021
+    },
+    {
+      "id": "NEU-048",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 28 años con diagnóstico de tuberculosis pleural, lleva un mes de tratamiento con tuberculostáticos de primera línea. Consulta por inflamación del primer ortejo del pie derecho. Ácido úrico: 12 mg/dl. ¿Cuál sería la medida adecuada?",
+      "opciones": [
+        "Continuar con el mismo tratamiento",
+        "Retirar la pirazinamida",
+        "Retirar toda la medicación",
+        "Retirar la isoniacida",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con tuberculosis pleural en tratamiento de primera línea (RIPE), que presenta episodio agudo de artritis monoarticular del primer ortejo con ácido úrico elevado (12 mg/dL). Este cuadro es altamente sugestivo de gota inducida por fármacos. Dentro del esquema tuberculostático, la pirazinamida es la droga más relacionada con hiperuricemia, debido a que inhibe la excreción renal de ácido úrico. La conducta correcta no es suspender todo el esquema (lo cual afectaría la adherencia y eficacia), sino retirar específicamente la pirazinamida, manteniendo el resto del tratamiento. Esto permite manejar la gota sin comprometer la efectividad antit uberculosa. Así, la medida adecuada es suspender la pirazinamida.",
+      "comentario": "Paciente con tuberculosis pleural en tratamiento de primera línea (RIPE), que presenta episodio agudo de artritis monoarticular del primer ortejo con ácido úrico elevado (12 mg/dL). Este cuadro es altamente sugestivo de gota inducida por fármacos. Dentro del esquema tuberculostático, la pirazinamida es la droga más relacionada con hiperuricemia, debido a que inhibe la excreción renal de ácido úrico. La conducta correcta no es suspender todo el esquema (lo cual afectaría la adherencia y eficacia), sino retirar específicamente la pirazinamida, manteniendo el resto del tratamiento. Esto permite manejar la gota sin comprometer la efectividad antit uberculosa. Así, la medida adecuada es suspender la pirazinamida.",
+      "tema": "Gota por pirazinamida",
+      "año": 2021
+    },
+    {
+      "id": "NEU-049",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Obrero de 27 años, consulta por fiebre, tos y dolor en hemitórax izquierdo de 1 mes de evolución. Rx de tórax: derrame pleural izquierdo. Líquido pleural: amarillento, leucocitos 2,500/µL con 90% de linfocitos, proteínas 4.9 g/dL, glucosa 67 mg/dL y PAP negativo. ¿Cuál prueba es la indicada para el diagnóstico?",
+      "opciones": [
+        "Medición de adenosina desaminasa del líquido pleural",
+        "Tomografía computarizada (TC) torácica",
+        "Medición del pH del líquido pleural",
+        "Prueba de tuberculina",
+        "Ciprofloxacino"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente joven con síntomas respiratorios subagudos y hallazgo de derrame pleural izquierdo. El análisis del líquido pleural muestra un exudado linfocítico (2,500 leucocitos con 90% de linfocitos, proteínas >4.5 g/dL), sin glucosa disminuida ni evidencia de neoplasia (PAP negativo). Este perfil, sumado a la presentación clínica crónica, es altamente sugestivo de derrame pleural tuberculoso, especialmente en contextos endémicos como el Perú. En este escenario, la prueba más indicada para confirmar el diagnóstico es la medición de adenosina desaminasa (ADA), que suele elevarse significativamente en tuberculosis pleural (>40 U/L). Otras pruebas como TC o prueba de tuberculina son útiles, pero menos específicas o diagnósticas en este contexto. Por tanto, la respuesta correcta es: medición de ADA.",
+      "comentario": "Paciente joven con síntomas respiratorios subagudos y hallazgo de derrame pleural izquierdo. El análisis del líquido pleural muestra un exudado linfocítico (2,500 leucocitos con 90% de linfocitos, proteínas >4.5 g/dL), sin glucosa disminuida ni evidencia de neoplasia (PAP negativo). Este perfil, sumado a la presentación clínica crónica, es altamente sugestivo de derrame pleural tuberculoso, especialmente en contextos endémicos como el Perú. En este escenario, la prueba más indicada para confirmar el diagnóstico es la medición de adenosina desaminasa (ADA), que suele elevarse significativamente en tuberculosis pleural (>40 U/L). Otras pruebas como TC o prueba de tuberculina son útiles, pero menos específicas o diagnósticas en este contexto. Por tanto, la respuesta correcta es: medición de ADA.",
+      "tema": "Derrame pleural tuberculoso: ADA",
+      "año": 2021
+    },
+    {
+      "id": "NEU-050",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 62 años, ama de casa. Diagnóstico de EPOC y antecedente de severo asma bronquial cuando era niña que desapareció en la adolescencia. Consulta por exacerbación de la disnea y por expectoración continua, a veces purulenta. Ha estado casada por 3 5 años. Esposo falleció hace 1 año por cáncer pulmonar; era fumador pesado. Niega otros antecedentes. ¿Cuál factor considera usted es la causa de su EPOC?",
+      "opciones": [
+        "Ser fumador pasivo",
+        "Su antecedente de asma bronquial",
+        "Su sedentarismo",
+        "Infecciones bronquiales previas",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Se trata de una mujer de 62 años, no fumadora, que presenta un cuadro compatible con EPOC. Aunque tuvo asma en la infancia, esta condición desapareció y no suele ser causa directa de EPOC en la adultez. El dato clave es la convivencia durante 35 años con un esposo fumador crónico fallecido por cáncer pulmonar, lo que indica exposición prolongada al humo de tabaco de manera pasiva. Este antecedente la convierte en una fumadora pasiva crónica, situación reconocida como factor causal relevante de EPOC, especialmente en mujeres. Por tanto, la exposición al humo del cónyuge es el factor etiológico más consistente en este caso.",
+      "comentario": "Se trata de una mujer de 62 años, no fumadora, que presenta un cuadro compatible con EPOC. Aunque tuvo asma en la infancia, esta condición desapareció y no suele ser causa directa de EPOC en la adultez. El dato clave es la convivencia durante 35 años con un esposo fumador crónico fallecido por cáncer pulmonar, lo que indica exposición prolongada al humo de tabaco de manera pasiva. Este antecedente la convierte en una fumadora pasiva crónica, situación reconocida como factor causal relevante de EPOC, especialmente en mujeres. Por tanto, la exposición al humo del cónyuge es el factor etiológico más consistente en este caso.",
+      "tema": "EPOC en el fumador pasivo",
+      "año": 2021
+    },
+    {
+      "id": "NEU-051",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "El efecto secundario, la complicación y la secuela más frecuente de la neumonía nosocomial es:",
+      "opciones": [
+        "Insuficiencia respiratoria",
+        "Absceso pulmonar",
+        "Hemotórax",
+        "Empiema",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La neumonía nosocomial, al presentarse en un contexto de pacientes hospitalizados, suele tener curso más severo y agentes más resistentes. La complicación más frecuente y temida es la insuficiencia respiratoria, dado que la afectación parenquimatosa extensa y la respuesta inflamatoria alteran severamente el intercambio gaseoso. Aunque el absceso pulmonar y el empiema pueden ocurrir, son complicaciones menos frecuentes. El hemotórax es muy raro en este contexto. En resumen, la evolución hacia insuficiencia respiratoria es la principal complicación clínica de estas neumonías.",
+      "comentario": "La neumonía nosocomial, al presentarse en un contexto de pacientes hospitalizados, suele tener curso más severo y agentes más resistentes. La complicación más frecuente y temida es la insuficiencia respiratoria, dado que la afectación parenquimatosa extensa y la respuesta inflamatoria alteran severamente el intercambio gaseoso. Aunque el absceso pulmonar y el empiema pueden ocurrir, son complicaciones menos frecuentes. El hemotórax es muy raro en este contexto. En resumen, la evolución hacia insuficiencia respiratoria es la principal complicación clínica de estas neumonías.",
+      "tema": "Neumonía nosocomial: insuficiencia respiratoria",
+      "año": 2021
+    },
+    {
+      "id": "NEU-052",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "La muerte causada por embolismo pulmonar es ocasionada por ______",
+      "opciones": [
+        "Shock hipovolémico",
+        "Shock cardiogénico",
+        "Hipoxemia aguda severa",
+        "Hipercarbia aguda severa",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La embolia pulmonar masiva puede provocar la obstrucción súbita del flujo sanguíneo en las arterias pulmonares, lo que genera un aumento abrupto de la poscarga del ventrículo derecho. Esta sobrecarga desencadena insuficiencia ventricular derecha aguda, que impide una adecuada perfusión pulmonar y, en consecuencia, un retorno venoso eficaz al corazón izquierdo. Esta falla en la bomba cardíaca lleva a un shock cardiogénico, con colapso hemodinámico y muerte si no se actúa rápidamente. La hipoxemia severa también puede estar presente, pero el desenlace fatal se produce por la falla del corazón derecho, no por la hipoxia en sí misma.",
+      "comentario": "La embolia pulmonar masiva puede provocar la obstrucción súbita del flujo sanguíneo en las arterias pulmonares, lo que genera un aumento abrupto de la poscarga del ventrículo derecho. Esta sobrecarga desencadena insuficiencia ventricular derecha aguda, que impide una adecuada perfusión pulmonar y, en consecuencia, un retorno venoso eficaz al corazón izquierdo. Esta falla en la bomba cardíaca lleva a un shock cardiogénico, con colapso hemodinámico y muerte si no se actúa rápidamente. La hipoxemia severa también puede estar presente, pero el desenlace fatal se produce por la falla del corazón derecho, no por la hipoxia en sí misma.",
+      "tema": "Muerte por TEP masivo: shock cardiogénico",
+      "año": 2021
+    },
+    {
+      "id": "NEU-053",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón obeso de 55 años acude a Emergencia por disminución en la saturación de oxígeno, tiene diagnóstico de COVID-19. Al examen: afebril, FR 26 x', FC 100 x', PaFi 305, PaO₂ 64 mmHg, SatO₂ 90%. ¿Cuál es la terapia indicada?",
+      "opciones": [
+        "Ventilación no invasiva",
+        "Oxigenoterapia de alto flujo",
+        "Oxigenoterapia no invasiva",
+        "Ventilación mecánica",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente COVID-19 positivo con PaFi >300 (PaFi 305), SatO₂ al límite (90%), FR elevada (26 x’), pero sin signos de fatiga respiratoria ni hipoxemia severa. En este escenario, se clasifica como insuficiencia respiratoria leve. La primera línea de manejo es la oxigenoterapia convencional (oxigenoterapia no invasiva), utilizando cánula binasal o mascarilla simple. No requiere aún ventilación no invasiva ni oxigenoterapia de alto flujo, que se reservan para PaFi <200 o SatO₂ persistente <90% con dificultad respiratoria. La ventilación mecánica solo se considera en casos graves con hipoxemia refractaria o signos de agotamiento respiratorio. La intervención debe ser escalonada y proporcional a la severidad clínica.",
+      "comentario": "Paciente COVID-19 positivo con PaFi >300 (PaFi 305), SatO₂ al límite (90%), FR elevada (26 x’), pero sin signos de fatiga respiratoria ni hipoxemia severa. En este escenario, se clasifica como insuficiencia respiratoria leve. La primera línea de manejo es la oxigenoterapia convencional (oxigenoterapia no invasiva), utilizando cánula binasal o mascarilla simple. No requiere aún ventilación no invasiva ni oxigenoterapia de alto flujo, que se reservan para PaFi <200 o SatO₂ persistente <90% con dificultad respiratoria. La ventilación mecánica solo se considera en casos graves con hipoxemia refractaria o signos de agotamiento respiratorio. La intervención debe ser escalonada y proporcional a la severidad clínica.",
+      "tema": "COVID-19 con PaFi >300: oxigenoterapia convencional",
+      "año": 2022
+    },
+    {
+      "id": "NEU-054",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Puérpera inmediata, desde el tercer trimestre de embarazo, está en tratamiento de tuberculosis sensible. Consulta si puede alimentar a su recién nacido. ¿Cuál es la respuesta más adecuada?",
+      "opciones": [
+        "La madre debe usar una mascarilla de tela o quirúrgica mientras da de lactar",
+        "Lactante debe recibir la leche materna extraída manualmente",
+        "Alimentar al lactante con sucedáneos de leche materna",
+        "La madre debe usar respiradores N95",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer puérpera en tratamiento para tuberculosis sensible desea saber si puede amamantar a su recién nacido. Según normas nacionales e internacionales, la lactancia materna no está contraindicada si la madre recibe tratamiento adecuado. Sin embargo, es indispensable reducir el riesgo de contagio aéreo. Por ello, se recomienda el uso de mascarilla quirúrgica o respirador N95 en el contacto cercano con el neonato. Este tipo de protección es superior a la mascarilla de tela, sobre todo durante la lactancia. El aislamiento del niño o suspensión de lactancia no sonnecesarios. Lo ideal es mantener el vínculo y alimentación natural.",
+      "comentario": "Mujer puérpera en tratamiento para tuberculosis sensible desea saber si puede amamantar a su recién nacido. Según normas nacionales e internacionales, la lactancia materna no está contraindicada si la madre recibe tratamiento adecuado. Sin embargo, es indispensable reducir el riesgo de contagio aéreo. Por ello, se recomienda el uso de mascarilla quirúrgica o respirador N95 en el contacto cercano con el neonato. Este tipo de protección es superior a la mascarilla de tela, sobre todo durante la lactancia. El aislamiento del niño o suspensión de lactancia no sonnecesarios. Lo ideal es mantener el vínculo y alimentación natural.",
+      "tema": "Madre con TB en tratamiento: lactancia con mascarilla",
+      "año": 2022
+    },
+    {
+      "id": "NEU-055",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 66 años desde hace dos días presenta tos con expectoración purulenta, fiebre y disnea. Examen: 85/55 mmHg, FR: 32 X’, FC: 108 X’; matidez, soplo tubárico, egofonía. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "TEM de tórax",
+        "Manejo ambulatorio",
+        "Hospitalización",
+        "Procalcitonina",
+        "Gammagrafía"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta signos clínicos de neumonía, con síntomas como tos, fiebre, expectoración purulenta, disnea, y hallazgos físicos como matidez, soplo tubárico y egofonía, que sugieren consolidación pulmonar. Además, presenta hipotensión y taquicardia, lo que indica posible sepsis. Por lo tanto, la conducta adecuada es hospitalizar al paciente para manejo de la infección y vigilancia hemodinámica.",
+      "comentario": "El paciente presenta signos clínicos de neumonía, con síntomas como tos, fiebre, expectoración purulenta, disnea, y hallazgos físicos como matidez, soplo tubárico y egofonía, que sugieren consolidación pulmonar. Además, presenta hipotensión y taquicardia, lo que indica posible sepsis. Por lo tanto, la conducta adecuada es hospitalizar al paciente para manejo de la infección y vigilancia hemodinámica.",
+      "tema": "Neumonía con hipotensión: hospitalizar",
+      "año": 2023
+    },
+    {
+      "id": "NEU-056",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 40 años, acude a centro de salud, porque desde hace siete días, es diagnosticado de infección por SARS CoV-2, evoluciona con disnea y taquipnea; TEM tórax; componente alveolo intersticial de 30% de extensión, asimismo oxigenoterapia en domicilio con requerimiento progresivo de FIO2. EXAMEN: PA: 150/71 mmHg, FC: 110 X’, FR: 28X’, SatO₂: 92%. Evidencia uso de músculos accesorios y ansiedad. ¿Qué criterio utilizaría para la referencia?",
+      "opciones": [
+        "Saturación de O2",
+        "Clínico",
+        "Tiempo de enfermedad",
+        "Tomográfico",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En este caso, el paciente con infección por SARS-CoV- 2 presenta signos de insuficiencia respiratoria, como disnea, taquipnea y el uso de músculos accesorios, lo que indica un deterioro en su estado clínico. El criterio principal para la referencia sería el criterio clínico, ya que la evolución de la enfermedad con la necesidad creciente de oxígeno y el uso de signos de dificultad respiratoria sugieren un riesgo inminente de descompensación.",
+      "comentario": "En este caso, el paciente con infección por SARS-CoV- 2 presenta signos de insuficiencia respiratoria, como disnea, taquipnea y el uso de músculos accesorios, lo que indica un deterioro en su estado clínico. El criterio principal para la referencia sería el criterio clínico, ya que la evolución de la enfermedad con la necesidad creciente de oxígeno y el uso de signos de dificultad respiratoria sugieren un riesgo inminente de descompensación.",
+      "tema": "COVID-19 con trabajo respiratorio: criterio clínico de referencia",
+      "año": 2023
+    },
+    {
+      "id": "NEU-057",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Gestante de 33 semanas de PPD positivo sin manifestación de enfermedad activa. ¿Cuál es el manejo más adecuado?",
+      "opciones": [
+        "Iniciar tratamiento con isoniacida, pirazinamida, etambutol",
+        "Iniciar tratamiento con isoniacida y etambutol",
+        "Iniciar tratamiento a los tres meses postparto",
+        "Aislar a la paciente para que no contagie",
+        "Ceftriaxona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una gestante con prueba de PPD positiva, pero sin signos clínicos ni radiológicos de tuberculosis activa se considera con infección latente. En estos casos, el tratamiento con isoniacida puede diferirse hasta 3 meses después del parto, especialmente si no hay factores de riesgo que justifiquen un tratamiento inmediato. Esto minimiza riesgos fetales sin comprometer la salud materna. No se requiere aislamiento, ya que la paciente no es contagiosa al no tener enfermedad activa.",
+      "comentario": "Una gestante con prueba de PPD positiva, pero sin signos clínicos ni radiológicos de tuberculosis activa se considera con infección latente. En estos casos, el tratamiento con isoniacida puede diferirse hasta 3 meses después del parto, especialmente si no hay factores de riesgo que justifiquen un tratamiento inmediato. Esto minimiza riesgos fetales sin comprometer la salud materna. No se requiere aislamiento, ya que la paciente no es contagiosa al no tener enfermedad activa.",
+      "tema": "Infección tuberculosa latente en la gestante",
+      "año": 2023
+    },
+    {
+      "id": "NEU-058",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 60 años con antecedentes de EPOC, presenta neumonía adquirida en la comunidad que requiere hospitalización. Examen: 120/70 mmHg, FC: 90X’, FR:25 X’, SatO₂: 86%, Glasgow 15. AGA: acidosis respiratoria leve más hipoxemia. ¿Cuál es la conducta inmediata a seguir?",
+      "opciones": [
+        "Oxigenoterapia",
+        "Solo observación",
+        "Corticoterapia",
+        "Solo antibióticos",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con EPOC que presenta neumonía adquirida en la comunidad y datos clínicos de dificultad respiratoria (FR aumentada, SatO₂ 86%) acompañado de acidosis respiratoria leve con hipoxemia en la gasometría arterial. En este escenario, la oxigenoterapia es la primera medida a tomar para corregir la hipoxemia y estabilizar al paciente. Es importante iniciar con bajo flujo para evitar la hipercapnia por depresión del estímulo respiratorio en pacientes con EPOC. El tratamiento antibiótico es indispensable, pero la oxigenoterapia es la prioridad inmediata en este caso.",
+      "comentario": "Paciente con EPOC que presenta neumonía adquirida en la comunidad y datos clínicos de dificultad respiratoria (FR aumentada, SatO₂ 86%) acompañado de acidosis respiratoria leve con hipoxemia en la gasometría arterial. En este escenario, la oxigenoterapia es la primera medida a tomar para corregir la hipoxemia y estabilizar al paciente. Es importante iniciar con bajo flujo para evitar la hipercapnia por depresión del estímulo respiratorio en pacientes con EPOC. El tratamiento antibiótico es indispensable, pero la oxigenoterapia es la prioridad inmediata en este caso.",
+      "tema": "EPOC con neumonía e hipoxemia: oxigenoterapia controlada",
+      "año": 2023
+    },
+    {
+      "id": "NEU-059",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 66 años, fumador pesado, con diagnóstico de EPOC, neumólogo le indico oxigeno domiciliario y paciente no lo quiere usar, pero sigue tratamiento con broncodilatadores inhalados con buena adherencia. Acude a consulta refiriendo mayor disnea a pequeños esfuerzos. Presenta: SatO₂: 85%, respirando aire ambiente y Hto: 49%. Respecto a la oxigenoterapia domiciliaria. ¿Cuál es la actitud correcta?",
+      "opciones": [
+        "Solo debe usarlo cuando hay descompensaciones",
+        "Debe usar altas dosis de oxígeno en forma intermitente",
+        "Usarlo permanentemente para aumentar la supervivencia",
+        "No debe administrarse por el Hto está alto",
+        "Solicitar nuevo cultivo"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En pacientes con EPOC que presentan hipoxemia crónica (SatO₂ ≤ 88% en reposo) y signos de hipoxemia crónica compensada como policitemia (Hto > 55% en hombres o > 47% en mujeres), la oxigenoterapia domiciliaria prolongada ha demostrado mejorar la supervivencia, la tolerancia al ejercicio, la función cognitiva y la calidad de vida. En este caso, el paciente tiene SatO₂ de 85% y Hto elevado, lo que indica hipoxemia crónica; por lo tanto, la conducta adecuada es indicar el uso permanente de oxígeno domiciliario, al menos 15 horas al día, preferiblemente 24 horas.",
+      "comentario": "En pacientes con EPOC que presentan hipoxemia crónica (SatO₂ ≤ 88% en reposo) y signos de hipoxemia crónica compensada como policitemia (Hto > 55% en hombres o > 47% en mujeres), la oxigenoterapia domiciliaria prolongada ha demostrado mejorar la supervivencia, la tolerancia al ejercicio, la función cognitiva y la calidad de vida. En este caso, el paciente tiene SatO₂ de 85% y Hto elevado, lo que indica hipoxemia crónica; por lo tanto, la conducta adecuada es indicar el uso permanente de oxígeno domiciliario, al menos 15 horas al día, preferiblemente 24 horas.",
+      "tema": "Oxigenoterapia domiciliaria en la EPOC",
+      "año": 2023
+    },
+    {
+      "id": "NEU-060",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 27 años, es llevado a emergencia por los bomberos por disnea severa a pequeños esfuerzos. Antecedente: asma bronquial. Examen: PA 130/90 mmHg, FC 110 X', FR 22 X', T 37ºC; MV ausente en AHT. Lab: SatO₂ 91%, FIO2 0.21. ¿Cuál de los hallazgos del paciente es un criterio de gravedad?",
+      "opciones": [
+        "Frecuencia cardiaca de 110 X'",
+        "Tórax silente",
+        "Saturación O2 91%",
+        "Frecuencia respiratoria de 22 X'",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente con antecedente de asma acude con disnea severa y un hallazgo preocupante: murmullo vesicular ausente en ambos hemitórax. Esto indica un tórax silente, que refleja obstrucción crítica del flujo aéreo, situación de inminente paro respiratorio. Este es un criterio clínico de asma grave o riesgo vital. En contraste, la frecuencia cardíaca de 110 y la saturación del 91% reflejan compromiso, pero no son signos tan graves como el tórax silente. La frecuencia respiratoria de 22 aún se encuentra dentro de límites moderados. Por lo tanto, el hallazgo más grave es el tórax silente.",
+      "comentario": "El paciente con antecedente de asma acude con disnea severa y un hallazgo preocupante: murmullo vesicular ausente en ambos hemitórax. Esto indica un tórax silente, que refleja obstrucción crítica del flujo aéreo, situación de inminente paro respiratorio. Este es un criterio clínico de asma grave o riesgo vital. En contraste, la frecuencia cardíaca de 110 y la saturación del 91% reflejan compromiso, pero no son signos tan graves como el tórax silente. La frecuencia respiratoria de 22 aún se encuentra dentro de límites moderados. Por lo tanto, el hallazgo más grave es el tórax silente.",
+      "tema": "Crisis asmática: tórax silente",
+      "año": 2023
+    },
+    {
+      "id": "NEU-061",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 48 años con tratamiento de fármacos anti-TB desde hace un mes. Presenta fiebre, escalofríos y mialgia. ¿Con qué fármaco se relacionan estos efectos adversos?",
+      "opciones": [
+        "Etambutol",
+        "Pirazinamida",
+        "Rifampicina",
+        "Isoniazida",
+        "Aspirina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La rifampicina es un antibiótico de primera línea contra la tuberculosis que puede generar efectos adversos por hipersensibilidad. Entre ellos, destaca el síndrome pseudogripal, que incluye fiebre, escalofríos, mialgias, malestar general y artralgias. Este síndrome es más común cuando el fármaco se administra de manera intermitente, pero también puede ocurrir en esquemas diarios, especialmente después del primer mes de tratamiento. El mecanismo es inmunológico y puede presentarse con o sin eosinofilia. Los demás antituberculosos como etambutol, pirazinamida e isoniazida tienen otros perfiles tóxicos: el etambutol se asocia a neuritis óptica, la pirazinamida a hiperuricemia y hepatotoxicidad, e isoniazida a neuropatía periférica.",
+      "comentario": "La rifampicina es un antibiótico de primera línea contra la tuberculosis que puede generar efectos adversos por hipersensibilidad. Entre ellos, destaca el síndrome pseudogripal, que incluye fiebre, escalofríos, mialgias, malestar general y artralgias. Este síndrome es más común cuando el fármaco se administra de manera intermitente, pero también puede ocurrir en esquemas diarios, especialmente después del primer mes de tratamiento. El mecanismo es inmunológico y puede presentarse con o sin eosinofilia. Los demás antituberculosos como etambutol, pirazinamida e isoniazida tienen otros perfiles tóxicos: el etambutol se asocia a neuritis óptica, la pirazinamida a hiperuricemia y hepatotoxicidad, e isoniazida a neuropatía periférica.",
+      "tema": "Síndrome pseudogripal por rifampicina",
+      "año": 2023
+    },
+    {
+      "id": "NEU-062",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 53 años, desde hace 2 días presenta tos con expectoración amarillenta y sensación de alza térmica. Examen: PA 120/70 mmHg; FR 28 X', SatO₂ 94%, confusa. Rx: opacidad basal HTI. Hemograma: leucocitos con desviación izquierda. ¿Cuál es el tratamiento antibiótico de elección?",
+      "opciones": [
+        "Ceftazidima + clindamicina",
+        "Meropenem + vancomicina",
+        "Ceftriaxona + azitromicina",
+        "Amikacina + claritromicina",
+        "Epinefrina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Dado que la paciente presenta tos con expectoración amarillenta, sensación de alza térmica y taquipnea, así como una opacidad en la radiografía de tórax y leucocitosis con desviación izquierda en el hemograma, el diagnóstico más probable es una Neumonía adquirida en la Comunidad (NAC). Para determinar el manejo de esta paciente, calculamos el puntaje CURB-65 para valorar la severidad de la neumonía. En este caso, es de 2 puntos (determinado específicamente por la presencia de confusión) por lo que se trata de una NAC moderada. En estos casos el manejo es hospitalario y el tratamiento antibiótico de elección sería la combinación de ceftriaxona y azitromicina (Opción C). La ceftriaxona es una cefalosporina de tercera generación con buena actividad contra una amplia variedad de bacterias gramnegativas y algunas grampositivas. La azitromicina es un macrólido que tiene una cobertura efectiva contra bacterias atípicas como Mycoplasma pneumoniae y Chlamydia pneumoniae, además de algunas bacterias grampositivas y gramnegativas. Esta combinación proporciona una cobertura amplia contra los patógenos típicos de este tipo de infección.",
+      "comentario": "Dado que la paciente presenta tos con expectoración amarillenta, sensación de alza térmica y taquipnea, así como una opacidad en la radiografía de tórax y leucocitosis con desviación izquierda en el hemograma, el diagnóstico más probable es una Neumonía adquirida en la Comunidad (NAC). Para determinar el manejo de esta paciente, calculamos el puntaje CURB-65 para valorar la severidad de la neumonía. En este caso, es de 2 puntos (determinado específicamente por la presencia de confusión) por lo que se trata de una NAC moderada. En estos casos el manejo es hospitalario y el tratamiento antibiótico de elección sería la combinación de ceftriaxona y azitromicina (Opción C). La ceftriaxona es una cefalosporina de tercera generación con buena actividad contra una amplia variedad de bacterias gramnegativas y algunas grampositivas. La azitromicina es un macrólido que tiene una cobertura efectiva contra bacterias atípicas como Mycoplasma pneumoniae y Chlamydia pneumoniae, además de algunas bacterias grampositivas y gramnegativas. Esta combinación proporciona una cobertura amplia contra los patógenos típicos de este tipo de infección.",
+      "tema": "Neumonía comunitaria con confusión: ceftriaxona + azitromicina",
+      "año": 2023
+    },
+    {
+      "id": "NEU-063",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 45 años, presenta hace 6 días fiebre, tos y dificultad respiratoria. Examen: PA 100/60 mmHg, FR 28 X´. Pulmones: crepitantes en tercio medio de hemitórax izquierdo. RX de tórax: radio opacidad difuso en HTI. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Empiema",
+        "Tuberculosis",
+        "Neumonía",
+        "Atelectasia",
+        "Hipertensión arterial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La fiebre, tos y dificultad respiratoria de seis días de duración, junto con los crepitantes en el hemitórax izquierdo y la radio opacidad difusa en el tercio medio del mismo, son hallazgos clásicos de neumonía (Alternativa C). La neumonía es una infección aguda del parénquima pulmonar, usualmente causada por bacterias, que se presenta con fiebre, tos, dificultad respiratoria y a menudo dolor pleurítico.",
+      "comentario": "La fiebre, tos y dificultad respiratoria de seis días de duración, junto con los crepitantes en el hemitórax izquierdo y la radio opacidad difusa en el tercio medio del mismo, son hallazgos clásicos de neumonía (Alternativa C). La neumonía es una infección aguda del parénquima pulmonar, usualmente causada por bacterias, que se presenta con fiebre, tos, dificultad respiratoria y a menudo dolor pleurítico.",
+      "tema": "Neumonía adquirida en la comunidad",
+      "año": 2024
+    },
+    {
+      "id": "NEU-064",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 29 años, desde hace una semana presenta tos, congestión nasal y malestar general, acude por dolor torácico agudo y dificultad para respirar. Examen: PA 150/90 mmHg, FC 120 X´, FR 30 X´, T 39.5 °C, SatO₂ 78%. Confuso, con retracción intercostal y crépitos bilaterales. RX Tórax: opacidades pulmonares bilaterales. ¿Cuál es el mecanismo fisiopatológico de la hipoxemia?",
+      "opciones": [
+        "Alteración en la difusión",
+        "Shunt intrapulmonar",
+        "Hipoventilación alveolar",
+        "FiO2 bajo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Dado la clínica sugestiva de una infección respiratoria y la radiografía de tórax que muestra opacidades bilaterales, probablemente nos encontramos frente a una neumonía severa o un síndrome de dificultad respiratoria aguda (SDRA). En este caso, el mecanismo más probable de hipoxemia es el shunt intrapulmonar (Alternativa B). El shunt intrapulmonar se refiere a la perfusión de áreas del pulmón que no están adecuadamente ventiladas, lo que resulta en hipoxemia, hipocapnia e incremento del gradiente alveolo-arterial de O2. La oxigenoterapia resulta poco efectiva ya que la sangre venosa de las áreas no ventiladas no se puede poner en contacto con el O2.",
+      "comentario": "Dado la clínica sugestiva de una infección respiratoria y la radiografía de tórax que muestra opacidades bilaterales, probablemente nos encontramos frente a una neumonía severa o un síndrome de dificultad respiratoria aguda (SDRA). En este caso, el mecanismo más probable de hipoxemia es el shunt intrapulmonar (Alternativa B). El shunt intrapulmonar se refiere a la perfusión de áreas del pulmón que no están adecuadamente ventiladas, lo que resulta en hipoxemia, hipocapnia e incremento del gradiente alveolo-arterial de O2. La oxigenoterapia resulta poco efectiva ya que la sangre venosa de las áreas no ventiladas no se puede poner en contacto con el O2.",
+      "tema": "SDRA: hipoxemia por shunt intrapulmonar",
+      "año": 2024
+    },
+    {
+      "id": "NEU-065",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 50 años, trabaja como obrero de construcción civil desde hace 15 años. En su control de salud ocupacional presenta en la RX y TEM pulmonar: Engrosamiento pleural y placas pleurales basales. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Bisinosis",
+        "Asbestosis",
+        "Neumoconiosis",
+        "Silicosis",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El diagnóstico más probable es asbestosis, una enfermedad pulmonar intersticial causada por la inhalación de fibras de asbesto, comúnmente en trabajadores expuestos a este material, como los obreros de construcción. Los hallazgos en la radiografía y tomografía (engrosamiento pleural y placas pleurales basales) son característicos de la asbestosis, una condición que se asocia a la exposición crónica al asbesto. Aunque otras neumoconiosis como la silicosis o la bisinosis también pueden causar problemas pulmonares, la combinación de antecedentes laborales y los hallazgos radiológicos apuntan principalmente a la asbestosis.",
+      "comentario": "El diagnóstico más probable es asbestosis, una enfermedad pulmonar intersticial causada por la inhalación de fibras de asbesto, comúnmente en trabajadores expuestos a este material, como los obreros de construcción. Los hallazgos en la radiografía y tomografía (engrosamiento pleural y placas pleurales basales) son característicos de la asbestosis, una condición que se asocia a la exposición crónica al asbesto. Aunque otras neumoconiosis como la silicosis o la bisinosis también pueden causar problemas pulmonares, la combinación de antecedentes laborales y los hallazgos radiológicos apuntan principalmente a la asbestosis.",
+      "tema": "Placas pleurales: exposición al asbesto",
+      "año": 2024
+    },
+    {
+      "id": "NEU-066",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Ante una sospecha de asma, en la prueba de espirometría. ¿Cuáles son los criterios que indican un test positivo de reversibilidad post-broncodilatador en adultos?",
+      "opciones": [
+        "Incremento en VEF1>12% y > 200 mL desde el basal",
+        "Disminución en VEF1>5% y >100 mL desde el basal",
+        "Incremento en VEF1>5% y >100 mL desde el basal",
+        "Disminución en VEF1>12% y >200 mL desde el basal",
+        "Aumentar dosis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En la espirometría, un test positivo de reversibilidad post-broncodilatador se define como un incremento en el VEF1 (volumen espiratorio forzado en el primer segundo) >12% y >200 mL desde el valor basal. Este criterio sugiere que la obstrucción de las vías respiratorias es reversible, lo que es característico en el asma. La mejora significativa en la función pulmonar después de la administración de un broncodilatador ayuda a confirmar el diagnóstico.",
+      "comentario": "En la espirometría, un test positivo de reversibilidad post-broncodilatador se define como un incremento en el VEF1 (volumen espiratorio forzado en el primer segundo) >12% y >200 mL desde el valor basal. Este criterio sugiere que la obstrucción de las vías respiratorias es reversible, lo que es característico en el asma. La mejora significativa en la función pulmonar después de la administración de un broncodilatador ayuda a confirmar el diagnóstico.",
+      "tema": "Espirometría: reversibilidad positiva en el asma",
+      "año": 2024
+    },
+    {
+      "id": "NEU-067",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 60 años presentó neumonía y derrame pleural, se le hizo drenaje torácico y el pulmón no reexpande; se le cataloga como incarceramiento pulmonar sin fístula bronquial. ¿Cuál es el tratamiento recomendado?",
+      "opciones": [
+        "Toracoplastía",
+        "Lobectomía",
+        "Decorticación",
+        "Neumonectomía",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La decorticación es el tratamiento de elección cuando hay incarceramiento pulmonar (pulmón atrapado) debido a una corteza fibrótica que impide la reexpansión pulmonar tras el drenaje. Esta condición puede ocurrir como complicación de un empiema pleural crónico o mal resuelto. El procedimiento consiste en retirar la capa fibrosa que envuelve al pulmón, permitiendo que éste se expanda nuevamente. No hay indicación de resección pulmonar (lobectomía o neumonectomía) ni toracoplastía en este caso, ya que no hay destrucción masiva del parénquima ni fístula broncopleural.",
+      "comentario": "La decorticación es el tratamiento de elección cuando hay incarceramiento pulmonar (pulmón atrapado) debido a una corteza fibrótica que impide la reexpansión pulmonar tras el drenaje. Esta condición puede ocurrir como complicación de un empiema pleural crónico o mal resuelto. El procedimiento consiste en retirar la capa fibrosa que envuelve al pulmón, permitiendo que éste se expanda nuevamente. No hay indicación de resección pulmonar (lobectomía o neumonectomía) ni toracoplastía en este caso, ya que no hay destrucción masiva del parénquima ni fístula broncopleural.",
+      "tema": "Pulmón atrapado: decorticación",
+      "año": 2024
+    }
+  ]
+}

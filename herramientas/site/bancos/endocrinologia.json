@@ -1,0 +1,1180 @@
+{
+  "especialidad": "Endocrinología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "END-001",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?",
+      "opciones": {
+        "A": "Bolo de insulina rápida subcutánea",
+        "B": "Bicarbonato de sodio endovenoso",
+        "C": "Solución salina al 0,9 % endovenosa",
+        "D": "Dextrosa al 5 % endovenosa",
+        "E": "Cloruro de potasio en bolo"
+      },
+      "clave_correcta": "C",
+      "comentario": "En la cetoacidosis diabética la primera medida es restaurar el volumen con solución salina isotónica (1-1,5 L en la primera hora). La insulina se inicia en infusión endovenosa una vez que el potasio es ≥ 3,3 mEq/L. El bicarbonato se reserva para pH < 6,9 y la dextrosa se agrega cuando la glucosa baja a unos 200-250 mg/dL."
+    },
+    {
+      "id": "END-002",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 58 años acude a consulta externa por presentar leve malestar general y tendencia al sueño. Antecedentes: diabetes mellitus en tratamiento irregular. Examen físico: leve palidez, adelgazada, resto negativo. Laboratorio: TSH aumentada con T4 libre normal. El diagnóstico probable es:",
+      "opciones": [
+        "Hipotiroidismo subclínico",
+        "Tirotoxicosis",
+        "Hipertiroidismo subclínico",
+        "Hipotiroidismo primario",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La elevación de la TSH con niveles de hormonas tiroideas periféricas (T4 libre) dentro de rangos normales define bioquímicamente al hipotiroidismo subclínico.",
+      "comentario": "La elevación de la TSH con niveles de hormonas tiroideas periféricas (T4 libre) dentro de rangos normales define bioquímicamente al hipotiroidismo subclínico.",
+      "tema": "Trastornos tiroideos",
+      "año": 2020
+    },
+    {
+      "id": "END-003",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer 35 años, acude a emergencia por severo trastorno confusional agudo. Desde hace 6 meses nerviosismo, palpitaciones. Al examen: PA: 160/80 mmHg, FC: 130 x min, T: 39.5 °C, exoftalmos, glándula tiroidea aumentada de volumen. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tiroiditis de Hashimoto",
+        "Tormenta tiroidea",
+        "Tirotoxicosis apática",
+        "Hipertiroidismo",
+        "Asma bronquial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Cuadro de hipertiroidismo de base (Graves) que se descompensa con fiebre alta, taquicardia severa y trastorno del sensorio, configurando una emergencia endocrinológica llamada tormenta tiroidea.",
+      "comentario": "Cuadro de hipertiroidismo de base (Graves) que se descompensa con fiebre alta, taquicardia severa y trastorno del sensorio, configurando una emergencia endocrinológica llamada tormenta tiroidea.",
+      "tema": "Emergencias tiroideas",
+      "año": 2020
+    },
+    {
+      "id": "END-004",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 48 años que acude a consulta por poliuria, polifagia desde hace 2 meses, obesa, con antecedente de padres diabéticos. Se requiere valorar la secreción máxima de insulina. ¿Cuál de las siguientes pruebas se solicitará?",
+      "opciones": [
+        "Glicemia en ayunas",
+        "Péptido C",
+        "Tolerancia oral a la glucosa",
+        "Hemoglobina glicosilada A1C",
+        "Epinefrina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Para evaluar de forma dinámica la capacidad de secreción máxima de insulina por las células beta pancreáticas frente a una sobrecarga directa, la prueba indicada es la prueba de tolerancia oral a la glucosa (PTOG).",
+      "comentario": "Para evaluar de forma dinámica la capacidad de secreción máxima de insulina por las células beta pancreáticas frente a una sobrecarga directa, la prueba indicada es la prueba de tolerancia oral a la glucosa (PTOG).",
+      "tema": "Diabetes Mellitus",
+      "año": 2020
+    },
+    {
+      "id": "END-005",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 50 años con intolerancia al frío, estreñimiento, piel seca y áspera desde hace 4 meses. Laboratorio: TSH elevada, T4 libre baja, colesterol total 250 mg/dL, triglicéridos 200 mg/dL. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Fenofibrato",
+        "Ezetimibe",
+        "Estatinas",
+        "Levotiroxina",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.",
+      "comentario": "La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.",
+      "tema": "Trastornos tiroideos",
+      "año": 2020
+    },
+    {
+      "id": "END-006",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón 58 años consulta por astenia, debilidad y constipación de 7 meses de evolución, los que han ido en aumento. Examen: FC: 50 x’, PA: 110/80 mmHg, T°: 35.2 °C, facies algo edematosa, piel seca, áspera, resto normal. Estudio por imágenes: gammagrafía Tc 99: hipocaptación difusa. Laboratorio Na 130 mEq/l, Hb 10 g/dl. La conducta más adecuada es:",
+      "opciones": [
+        "Levotiroxina",
+        "Propiltiouracilo",
+        "Paroxetina",
+        "Hidrocortisona",
+        "Ketorolaco"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico e imagenológico es compatible con hipotiroidismo primario, probablemente de causa autoinmune (tiroiditis de Hashimoto). La hipocaptación en gammagrafía y el cuadro de mixedema, bradicardia, constipación, hiponatremia apuntan a esta etiología. El manejo de elección es la reposición hormonal con levotiroxina.",
+      "comentario": "El cuadro clínico e imagenológico es compatible con hipotiroidismo primario, probablemente de causa autoinmune (tiroiditis de Hashimoto). La hipocaptación en gammagrafía y el cuadro de mixedema, bradicardia, constipación, hiponatremia apuntan a esta etiología. El manejo de elección es la reposición hormonal con levotiroxina.",
+      "tema": "Hipotiroidismo primario",
+      "año": 2020
+    },
+    {
+      "id": "END-007",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 26 años, con baja de peso, temblorosa, piel caliente, hiperfagia, diarreas frecuentes. Hallazgos: T°:39ºC. taquiarritmia. desorientada. Signos de insuficiencia cardiaca. Gammagrafía tiroidea con hipercaptación. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Tirotoxicosis facticia",
+        "Feocromocitoma",
+        "Tormenta tiroidea",
+        "Bocio hiperfuncionante",
+        "Apendicitis aguda"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro descrito —hipertermia, taquiarritmia, trastorno de conciencia e insuficiencia cardiaca— en una paciente con hipercaptación gammagráfica indica una tormenta tiroidea, emergencia endocrinológica que amenaza la vida. No es una tirotoxicosis facticia, ya que esta última suele tener baja captación tiroidea. La tormenta tiroidea requiere manejo intensivo: betabloqueadores, antitiroideos, yodo y esteroides. La identificación temprana es vital para disminuir la mortalidad.",
+      "comentario": "El cuadro descrito —hipertermia, taquiarritmia, trastorno de conciencia e insuficiencia cardiaca— en una paciente con hipercaptación gammagráfica indica una tormenta tiroidea, emergencia endocrinológica que amenaza la vida. No es una tirotoxicosis facticia, ya que esta última suele tener baja captación tiroidea. La tormenta tiroidea requiere manejo intensivo: betabloqueadores, antitiroideos, yodo y esteroides. La identificación temprana es vital para disminuir la mortalidad.",
+      "tema": "Tormenta tiroidea",
+      "año": 2020
+    },
+    {
+      "id": "END-008",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 55 años de 1.60 m de estatura y 80 kg de peso, con poliuria, nicturia y polidipsia. Ambos padres diabéticos. ¿Cuál es el procedimiento diagnóstico adecuado para el primer nivel de atención?",
+      "opciones": [
+        "Glicemia en ayunas",
+        "Glucosa en orina",
+        "Albúmina glicosilada",
+        "Péptido C en orina",
+        "Epinefrina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un varón con síntomas cardinales de diabetes mellitus tipo 2 —poliuria, polidipsia y nicturia, además de antecedentes familiares directos— debe ser evaluado en el primer nivel con un examen sencillo, accesible y validado: la glicemia en ayunas. Esta prueba mide la glucosa plasmática luego de 8 horas de ayuno y es uno de los criterios diagnósticos aceptados por la ADA y la OMS. Una cifra ≥126 mg/dL confirma el diagnóstico si es repetida o si hay síntomas asociados. La glucosuria ya no se emplea como método diagnóstico por su baja sensibilidad. La albúmina glicosilada (HbA1c) requiere equipamiento especializado y no siempre está disponible en el primer nivel. El péptido C en orina evalúa función pancreática endógena, pero no tiene valor diagnóstico inicial. Por lo tanto, la prueba más práctica, directa y útil en atención primaria es la glicemia en ayunas.",
+      "comentario": "Un varón con síntomas cardinales de diabetes mellitus tipo 2 —poliuria, polidipsia y nicturia, además de antecedentes familiares directos— debe ser evaluado en el primer nivel con un examen sencillo, accesible y validado: la glicemia en ayunas. Esta prueba mide la glucosa plasmática luego de 8 horas de ayuno y es uno de los criterios diagnósticos aceptados por la ADA y la OMS. Una cifra ≥126 mg/dL confirma el diagnóstico si es repetida o si hay síntomas asociados. La glucosuria ya no se emplea como método diagnóstico por su baja sensibilidad. La albúmina glicosilada (HbA1c) requiere equipamiento especializado y no siempre está disponible en el primer nivel. El péptido C en orina evalúa función pancreática endógena, pero no tiene valor diagnóstico inicial. Por lo tanto, la prueba más práctica, directa y útil en atención primaria es la glicemia en ayunas.",
+      "tema": "Diabetes mellitus: diagnóstico",
+      "año": 2021
+    },
+    {
+      "id": "END-009",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años hospitalizado por neumonía COVID-19, recibió corticoterapia durante 20 días. Siete días después presenta anorexia, astenia, dolor abdominal y nauseas. Al examen: PA: 80/50 mmHg. Laboratorio: Na: 130 mEq/L, glucosa: 60 mg/dL, K 3.5 mEq/L. Luego de expandir volumen con 2 litros de solución salina continúa hipotenso. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Vasopresores",
+        "Plasma residual",
+        "Hidrocortisona",
+        "Paquete globular",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulto mayor con antecedente de uso prolongado de corticoides (20 días) y posterior presentación de síntomas constitucionales (anorexia, astenia, dolor abdominal, náuseas) junto con hipotensión refractaria a volumen, hiponatremia e hipoglucemia, sugiere con alta probabilidad una insuficiencia suprarrenal secundaria, más específicamente una crisis suprarrenal inducida por supresión del eje hipotálamo-hipófisis-adrenal. En este contexto clínico, el tratamiento más indicado es la hidrocortisona, que reemplaza el déficit agudo de cortisol endógen o y corrige la disfunción hemodinámica y metabólica. Los vasopresores no corrigen el defecto primario, el plasma residual no es útil aquí, y los paquetes globulares solo se indican ante anemia significativa, la cual no se evidencia. La reposición con glucocorticoides debe iniciarse de forma inmediata para revertir el shock suprarrenal y prevenir complicaciones multiorgánicas.",
+      "comentario": "Paciente adulto mayor con antecedente de uso prolongado de corticoides (20 días) y posterior presentación de síntomas constitucionales (anorexia, astenia, dolor abdominal, náuseas) junto con hipotensión refractaria a volumen, hiponatremia e hipoglucemia, sugiere con alta probabilidad una insuficiencia suprarrenal secundaria, más específicamente una crisis suprarrenal inducida por supresión del eje hipotálamo-hipófisis-adrenal. En este contexto clínico, el tratamiento más indicado es la hidrocortisona, que reemplaza el déficit agudo de cortisol endógen o y corrige la disfunción hemodinámica y metabólica. Los vasopresores no corrigen el defecto primario, el plasma residual no es útil aquí, y los paquetes globulares solo se indican ante anemia significativa, la cual no se evidencia. La reposición con glucocorticoides debe iniciarse de forma inmediata para revertir el shock suprarrenal y prevenir complicaciones multiorgánicas.",
+      "tema": "Insuficiencia suprarrenal por retiro de corticoides",
+      "año": 2021
+    },
+    {
+      "id": "END-010",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 38 años, consulta por masa en región cervical. Al examen: bocio difuso 2N, indoloro y de consistencia aumentada. Laboratorio: T4 libre bajo, TSH elevado, captación de I -131 suprimida. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Enfermedad Job-Basedow",
+        "Tiroiditis de Quervain",
+        "Tiroiditis de Hashimoto",
+        "Enfermedad de Graves-Basedow",
+        "Tuberculosis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulta con bocio difuso de consistencia aumentada, indoloro, que presenta hipotiroidismo clínico (T4 libre baja, TSH elevada) y una captación de I-131 suprimida, lo cual es incompatible con un hipertiroidismo verdadero y más bien sugiere una destrucción glandular progresiva. La tiroiditis de Hashimoto es la causa más frecuente d e hipotiroidismo en adultos, especialmente en mujeres. Se caracteriza por infiltración linfocitaria y fibrosis que progresivamente lleva a falla funcional. La tiroiditis subaguda (de Quervain) sería dolorosa; la enfermedad de Graves y la de Jod-Basedow cursan con hipertiroidismo. En este caso, el perfil inmunológico y funcional apoya el diagnóstico de tiroiditis de Hashimoto.",
+      "comentario": "Paciente adulta con bocio difuso de consistencia aumentada, indoloro, que presenta hipotiroidismo clínico (T4 libre baja, TSH elevada) y una captación de I-131 suprimida, lo cual es incompatible con un hipertiroidismo verdadero y más bien sugiere una destrucción glandular progresiva. La tiroiditis de Hashimoto es la causa más frecuente d e hipotiroidismo en adultos, especialmente en mujeres. Se caracteriza por infiltración linfocitaria y fibrosis que progresivamente lleva a falla funcional. La tiroiditis subaguda (de Quervain) sería dolorosa; la enfermedad de Graves y la de Jod-Basedow cursan con hipertiroidismo. En este caso, el perfil inmunológico y funcional apoya el diagnóstico de tiroiditis de Hashimoto.",
+      "tema": "Tiroiditis de Hashimoto",
+      "año": 2021
+    },
+    {
+      "id": "END-011",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 71 años, diabética tipo 2 desde hace 35 años. Hospitalizada hace 5 días por cuadro de COVID dependiente de oxígeno, de 3 días atrás comienza con poliuria, y depresión del sensorio hasta el coma. Al examen: deshidratada, glucosa: 800 mg/dL, no cuerpos cetónicos, ni cetonuria. La primera posibilidad diagnóstica es coma por:",
+      "opciones": [
+        "Cetoacidosis",
+        "Hiperosmolaridad",
+        "Ayuno prolongado",
+        "Hiperglucemia reactiva",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente anciana con diabetes de larga data, hospitalizada por COVID, que presenta alteración progresiva del sensorio, poliuria y coma, con glucosa sérica de 800 mg/dL y ausencia de cuerpos cetónicos, lo cual descarta cetoacidosis diabética. Este cuadro es típico de un estado hiperglucémico hiperosmolar (EHH), caracterizado por hiperglicemia severa, deshidratación extrema, hiperosmolalidad plasmática y alteración del sensorio, en ausencia de cetosis significativa. Esta entidad es más frecuente en pacientes añosos con DM2, sobre todo ante infecciones intercurrentes. El diagnóstico es claro: coma hiperosmolar no cetósico.",
+      "comentario": "Paciente anciana con diabetes de larga data, hospitalizada por COVID, que presenta alteración progresiva del sensorio, poliuria y coma, con glucosa sérica de 800 mg/dL y ausencia de cuerpos cetónicos, lo cual descarta cetoacidosis diabética. Este cuadro es típico de un estado hiperglucémico hiperosmolar (EHH), caracterizado por hiperglicemia severa, deshidratación extrema, hiperosmolalidad plasmática y alteración del sensorio, en ausencia de cetosis significativa. Esta entidad es más frecuente en pacientes añosos con DM2, sobre todo ante infecciones intercurrentes. El diagnóstico es claro: coma hiperosmolar no cetósico.",
+      "tema": "Estado hiperglucémico hiperosmolar",
+      "año": 2021
+    },
+    {
+      "id": "END-012",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 38 años con diagnóstico de Diabetes Mellitus insulinodependiente, traído por los bomberos a emergencia por compromiso de consciencia, diaforesis profusa y palpitaciones. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Tomar muestra de glucosa y administrar glucosa EV",
+        "Hidratación agresiva con salino isotónico",
+        "Realizar punción lumbar previo bolo de manitol",
+        "Oxigenoterapia y esperar resultados de bioquímica",
+        "Paracetamol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Diabético tipo 1 que presenta síntomas autonómicos clásicos (diaforesis, palpitaciones) y alteración del sensorio, lo que sugiere un cuadro de hipoglucemia severa, una urgencia médica frecuente en pacientes insulinodependientes. La prioridad en estos casos es la corrección inmediata de la hipoglucemia con glucosa endovenosa, sin esperar resultados de laboratorio. No se debe retrasar la intervención tomando exámenes complejos ni esperar confirmación bioquímica antes de actuar. Por lo tanto, la conducta inmediata es administrar glucosa IV y luego confirmar el diagnóstico con una muestra de glucosa. Esto puede evitar un daño neurológico irreversible.",
+      "comentario": "Diabético tipo 1 que presenta síntomas autonómicos clásicos (diaforesis, palpitaciones) y alteración del sensorio, lo que sugiere un cuadro de hipoglucemia severa, una urgencia médica frecuente en pacientes insulinodependientes. La prioridad en estos casos es la corrección inmediata de la hipoglucemia con glucosa endovenosa, sin esperar resultados de laboratorio. No se debe retrasar la intervención tomando exámenes complejos ni esperar confirmación bioquímica antes de actuar. Por lo tanto, la conducta inmediata es administrar glucosa IV y luego confirmar el diagnóstico con una muestra de glucosa. Esto puede evitar un daño neurológico irreversible.",
+      "tema": "Hipoglucemia grave",
+      "año": 2021
+    },
+    {
+      "id": "END-013",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 48 años post operada de tiroidectomía, 24 horas después presenta calambres musculares, luego dificultad para respirar, convulsiones y arritmias. La terapia inmediata debe ser antecedida por dosaje en sangre de:",
+      "opciones": [
+        "Calcio iónico",
+        "T4 libre",
+        "TSH",
+        "CPK total",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente en el postoperatorio temprano de tiroidectomía total, con signos típicos de hipocalcemia aguda: calambres musculares, parestesias, disnea (por laringoespasmo), convulsiones y arritmias. Esto se debe generalmente a la lesión o extirpación accidenta l de glándulas paratiroides, lo que provoca hipoparatiroidismo postquirúrgico. En estos casos, el examen prioritario es el calcio iónico, ya que representa la fracción fisiológicamente activa del calcio, especialmente útil en situaciones críticas. Ni T4 libre ni TSH explican estos síntomas agudos, y la CPK no es relevante aquí. Por ello, el dosaje clave para confirmar y guiar el tratamiento inmediato es: calcio iónico.",
+      "comentario": "Paciente en el postoperatorio temprano de tiroidectomía total, con signos típicos de hipocalcemia aguda: calambres musculares, parestesias, disnea (por laringoespasmo), convulsiones y arritmias. Esto se debe generalmente a la lesión o extirpación accidenta l de glándulas paratiroides, lo que provoca hipoparatiroidismo postquirúrgico. En estos casos, el examen prioritario es el calcio iónico, ya que representa la fracción fisiológicamente activa del calcio, especialmente útil en situaciones críticas. Ni T4 libre ni TSH explican estos síntomas agudos, y la CPK no es relevante aquí. Por ello, el dosaje clave para confirmar y guiar el tratamiento inmediato es: calcio iónico.",
+      "tema": "Hipocalcemia tras tiroidectomía",
+      "año": 2021
+    },
+    {
+      "id": "END-014",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niña de 7 años presenta telarquia, pubarquia y talla alta desde hace un año. El estudio de edad ósea revela edad de 9 años. Ecografía pélvica: alargamiento del útero. ¿Cuál estudio solicita para definir si el origen es de nivel central?",
+      "opciones": [
+        "Dosaje de gonadotropinas al estímulo con GnRH",
+        "Tomografía computada pélvica con contraste",
+        "Dosaje de FSH",
+        "Ecografía Doppler de ovarios",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Niña de 7 años con signos de desarrollo puberal precoz (telarquia, pubarquia y crecimiento acelerado) y edad ósea adelantada (9 años), lo cual sugiere una pubertad precoz verdadera. La presencia de útero alargado en ecografía indica estimulación estrogénica. El paso crucial es distinguir si el proceso es central (dependiente de GnRH) o periférico. Para ello, el test de estímulo con GnRH es el estudio de elección: si hay aumento de LH por encima de FSH tras el estímulo, se confirma eje activado. Las otras opciones no permiten diferenciar este origen con precisión.",
+      "comentario": "Niña de 7 años con signos de desarrollo puberal precoz (telarquia, pubarquia y crecimiento acelerado) y edad ósea adelantada (9 años), lo cual sugiere una pubertad precoz verdadera. La presencia de útero alargado en ecografía indica estimulación estrogénica. El paso crucial es distinguir si el proceso es central (dependiente de GnRH) o periférico. Para ello, el test de estímulo con GnRH es el estudio de elección: si hay aumento de LH por encima de FSH tras el estímulo, se confirma eje activado. Las otras opciones no permiten diferenciar este origen con precisión.",
+      "tema": "Pubertad precoz central: prueba de GnRH",
+      "año": 2021
+    },
+    {
+      "id": "END-015",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 21 años, con perfil lipídico: colesterol total 390 mg/dl, triglicéridos 125 mg/dl, HDL 45 mg/dl y LDL 320 mg/dl. Al examen: xantomas en talón de Aquiles y extensores de las manos. Padre con colesterol y LDL muy aumentados. Hermana con colesterol de 400 mg/dl. Madre y hermano sin alteraciones. ¿Cuál es el trastorno más probable?",
+      "opciones": [
+        "Hipercolesterolemia poligénica",
+        "Hiperlipidemia familiar combinada",
+        "Hipercolesterolemia familiar",
+        "Hipertrigliceridemia familiar",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los niveles de colesterol total y LDL son sumamente elevados, con HDL y triglicéridos normales. Además, hay hallazgos clínicos típicos como xantomas tendinosos y antecedentes familiares marcados. Estos datos son altamente sugerentes de una hipercolesterolemia familiar, trastorno genético autosómico dominante, usualmente por mutaciones en el gen del receptor LDL. La forma poligénica y combinada no explican cifras tan altas ni los xantomas.",
+      "comentario": "Los niveles de colesterol total y LDL son sumamente elevados, con HDL y triglicéridos normales. Además, hay hallazgos clínicos típicos como xantomas tendinosos y antecedentes familiares marcados. Estos datos son altamente sugerentes de una hipercolesterolemia familiar, trastorno genético autosómico dominante, usualmente por mutaciones en el gen del receptor LDL. La forma poligénica y combinada no explican cifras tan altas ni los xantomas.",
+      "tema": "Hipercolesterolemia familiar",
+      "año": 2021
+    },
+    {
+      "id": "END-016",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 34 años, consulta por baja de peso de aproximadamente 6 kilos en un mes. Refiere incremento de apetito y sed, intolerancia al calor y sudoración excesiva. Al examen: PA 120/50 mmHg, FC 120 x', FR 16 x', T 37,5°C, piel húmeda y caliente. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Adenopatía hipofisiaria",
+        "Hipertiroidismo",
+        "Feocromocitoma",
+        "Diabetes tipo 2",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer joven que presenta un síndrome hipermetabólico caracterizado por pérdida de peso con apetito aumentado, intolerancia al calor, sudoración excesiva, piel caliente y taquicardia. Estos signos y síntomas son clásicos de un hipertiroidismo, el cual se produce por exceso de hormonas tiroideas. La frecuencia cardíaca elevada y presión diferencial aumentada refuerzan el diagnóstico. Feocromocitoma cursa con hipertensión paroxística, la diabetes con poliuria más marcada y el adenoma hipofisiario con síntomas relacionados al tipo de hormona afectada, no este perfil.",
+      "comentario": "Mujer joven que presenta un síndrome hipermetabólico caracterizado por pérdida de peso con apetito aumentado, intolerancia al calor, sudoración excesiva, piel caliente y taquicardia. Estos signos y síntomas son clásicos de un hipertiroidismo, el cual se produce por exceso de hormonas tiroideas. La frecuencia cardíaca elevada y presión diferencial aumentada refuerzan el diagnóstico. Feocromocitoma cursa con hipertensión paroxística, la diabetes con poliuria más marcada y el adenoma hipofisiario con síntomas relacionados al tipo de hormona afectada, no este perfil.",
+      "tema": "Hipertiroidismo",
+      "año": 2021
+    },
+    {
+      "id": "END-017",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, desde hace 3 meses presenta episodios de palpitaciones, cefalea e hiperhidrosis. Al examen: PA 180/120 mmHg, FC 100 x', piel pálida, fría y sudorosa; ruidos cardíacos de buena intensidad. Laboratorio: elevación de catecolaminas y metanefrinas urinarias. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipertensión renovascular",
+        "Feocromocitoma",
+        "Hiperaldosteronismo",
+        "Hipertensión arterial esencial",
+        "Cirrosis hepática"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente joven con síntomas paroxísticos de hiperactividad simpática: palpitaciones, cefalea e hiperhidrosis, asociados a una hipertensión arterial severa. Al examen se describe piel fría, sudorosa y pálida, lo cual corresponde a una activación adrenérgica. El hallazgo más relevante es la elevación de catecolaminas y metanefrinas urinarias, marcadores bioquímicos característicos de la feocromocitoma, tumor productor de catecolaminas originado en la médula suprarrenal. Este tumor puede causar crisis hiperten sivas recurrentes y debe ser descartado en pacientes jóvenes con HTA severa y síntomas adrenérgicos. El diagnóstico se confirma con estudios bioquímicos y de imagen.",
+      "comentario": "Paciente joven con síntomas paroxísticos de hiperactividad simpática: palpitaciones, cefalea e hiperhidrosis, asociados a una hipertensión arterial severa. Al examen se describe piel fría, sudorosa y pálida, lo cual corresponde a una activación adrenérgica. El hallazgo más relevante es la elevación de catecolaminas y metanefrinas urinarias, marcadores bioquímicos característicos de la feocromocitoma, tumor productor de catecolaminas originado en la médula suprarrenal. Este tumor puede causar crisis hiperten sivas recurrentes y debe ser descartado en pacientes jóvenes con HTA severa y síntomas adrenérgicos. El diagnóstico se confirma con estudios bioquímicos y de imagen.",
+      "tema": "Feocromocitoma",
+      "año": 2021
+    },
+    {
+      "id": "END-018",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 18 años acude por presentar pápulas blanco-amarillentas pruriginosas en cara extensora de brazos y en los glúteos. Perfil lipídico: triglicéridos 1000 mg/dl, colesterol 280 mg/dl, HDL 35 mg/dl, LDL 90 mg/dl. Suero de aspecto lechoso. ¿Cuál es el mayor riesgo que plantea esta alteración?",
+      "opciones": [
+        "Infarto de miocardio",
+        "Pancreatitis aguda",
+        "Cirrosis hepática",
+        "Esteatohepatitis",
+        "Asma bronquial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón joven con dislipidemia severa, evidenciada por triglicéridos >1000 mg/dl y presencia de xantomas eruptivos, hallazgo característico en hipertrigliceridemia. El suero lechoso es patognomónico. Clínicamente, este perfil lipídico se asocia a un alto riesgo de pancreatitis aguda, debido a la toxicidad directa de los quilomicrones sobre el páncreas. A diferencia del riesgo cardiovascular de una dislipidemia mixta, aquí el riesgo más inminente es inflamación pancreática. La hipertrigliceridemia severa puede inducir pancreatitis incluso en ausencia de litiasis. Por tanto, el tratamiento urgente con dieta baja en grasa, fibratos y eventualmente insulinoterapia o plasmaféresis está indicado. Se descartan otras opciones por su menor asociación. El riesgo prioritario es pancreatitis.",
+      "comentario": "Varón joven con dislipidemia severa, evidenciada por triglicéridos >1000 mg/dl y presencia de xantomas eruptivos, hallazgo característico en hipertrigliceridemia. El suero lechoso es patognomónico. Clínicamente, este perfil lipídico se asocia a un alto riesgo de pancreatitis aguda, debido a la toxicidad directa de los quilomicrones sobre el páncreas. A diferencia del riesgo cardiovascular de una dislipidemia mixta, aquí el riesgo más inminente es inflamación pancreática. La hipertrigliceridemia severa puede inducir pancreatitis incluso en ausencia de litiasis. Por tanto, el tratamiento urgente con dieta baja en grasa, fibratos y eventualmente insulinoterapia o plasmaféresis está indicado. Se descartan otras opciones por su menor asociación. El riesgo prioritario es pancreatitis.",
+      "tema": "Hipertrigliceridemia y pancreatitis",
+      "año": 2022
+    },
+    {
+      "id": "END-019",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 47 años diagnosticada hace 10 años de diabetes, no presenta sintomatología de otras complicaciones, excepto que hace 3 meses le diagnosticaron retinopatía. ¿Qué prueba le solicitaría pensando en inicio de nefropatía diabética?",
+      "opciones": [
+        "Proteinuria de 24 horas",
+        "Microalbuminuria",
+        "Creatinina sérica",
+        "Excreción fraccional de sodio",
+        "Omeprazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente con 10 años de diabetes y evidencia de retinopatía ya se encuentra en una etapa donde es necesario descartar otras complicaciones microvasculares, como la nefropatía diabética. La primera alteración renal es la microalbuminuria, que precede a la proteinuria franca. Esta prueba detecta excreción de albúmina entre 30–300 mg/día, antes de que se altere la creatinina. Es altamente sensible y recomendada en guías como parte del despistaje anual en pacientes con diabetes de más de 5 años. La proteinuria de 24 horas es útil en fases avanzadas, pero no en el inicio. La creatinina puede permanecer normal en etapas iniciales. Por tanto, la microalbuminuria es el estudio inicial de elección.",
+      "comentario": "La paciente con 10 años de diabetes y evidencia de retinopatía ya se encuentra en una etapa donde es necesario descartar otras complicaciones microvasculares, como la nefropatía diabética. La primera alteración renal es la microalbuminuria, que precede a la proteinuria franca. Esta prueba detecta excreción de albúmina entre 30–300 mg/día, antes de que se altere la creatinina. Es altamente sensible y recomendada en guías como parte del despistaje anual en pacientes con diabetes de más de 5 años. La proteinuria de 24 horas es útil en fases avanzadas, pero no en el inicio. La creatinina puede permanecer normal en etapas iniciales. Por tanto, la microalbuminuria es el estudio inicial de elección.",
+      "tema": "Nefropatía diabética: microalbuminuria",
+      "año": 2022
+    },
+    {
+      "id": "END-020",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Una madre trae a consulta a su hija de 16 años por presentar retraso en la menarquia. Al examen: talla 145 cm, cuello ancho, vello púbico y mama en estadio I de Tanner, pezones mamarios separados. ¿Qué examen solicitaría para confirmar su diagnóstico?",
+      "opciones": [
+        "Hormona de crecimiento",
+        "Hormonas tiroideas",
+        "Hormona luteinizante",
+        "Estudio de cariotipo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Adolescente de 16 años con retraso puberal y menarquia ausente, acompañada de talla baja, cuello ancho, pezones separados y escaso desarrollo mamario y piloso. Estos datos clínicos configuran un fenotipo clásico del síndrome de Turner, una disgenesia gonadal secundaria a monosomía del cromosoma X. Las alteraciones somáticas y sexuales indican un trastorno genético, no endocrino aislado. Si bien puede haber alteraciones hormonales asociadas (LH elevada, hipotiroidismo), el examen confirmatorio es el estudio de cariotipo, que muestra 45,X0 en la mayoría de los casos. La hormona de crecimiento puede ser parte del tratamiento, pero no del diagnóstico. Por lo tanto, se debe solicitar cariotipo.",
+      "comentario": "Adolescente de 16 años con retraso puberal y menarquia ausente, acompañada de talla baja, cuello ancho, pezones separados y escaso desarrollo mamario y piloso. Estos datos clínicos configuran un fenotipo clásico del síndrome de Turner, una disgenesia gonadal secundaria a monosomía del cromosoma X. Las alteraciones somáticas y sexuales indican un trastorno genético, no endocrino aislado. Si bien puede haber alteraciones hormonales asociadas (LH elevada, hipotiroidismo), el examen confirmatorio es el estudio de cariotipo, que muestra 45,X0 en la mayoría de los casos. La hormona de crecimiento puede ser parte del tratamiento, pero no del diagnóstico. Por lo tanto, se debe solicitar cariotipo.",
+      "tema": "Síndrome de Turner: cariotipo",
+      "año": 2022
+    },
+    {
+      "id": "END-021",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 45 años con colitis ulcerativa de 3 años de evolución. Hospitalizado por exacerbación de la colitis, consunción, dolor abdominal y apatía. Perfil tiroideo, T3 total y libre disminuido, T4 libre y TSH normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipotiroidismo primario",
+        "Síndrome del eutiroideo enfermo",
+        "Hipotiroidismo subclínico",
+        "Hipertiroidismo subclínico",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con colitis ulcerativa severa en fase de exacerbación, acompañado de signos de enfermedad sistémica como consunción y apatía. El perfil tiroideo muestra T3 total y libre disminuidas, T4 libre también baja o normal, y TSH normal. Estos hallazgos son característicos del síndrome del eutiroideo enfermo, también llamado síndrome del paciente eutiroideo con enfermedad no tiroidea. Es una condición adaptativa del eje tiroideo durante enfermedades críticas o inflamatorias crónicas, sin alteración primaria de la glándula tiroides. A diferencia del hipotiroidismo primario, aquí la TSH no está elevada. En el hipotiroidismo subclínico, la TSH estaría aumentada con T4 normal. En el hipertiroidismo subclínico, la TSH estaría suprimida. El diagnóstico no requiere tratamiento hormonal, ya que es transitorio y se resuelve con la mejoría del cuadro sistémico.",
+      "comentario": "Paciente con colitis ulcerativa severa en fase de exacerbación, acompañado de signos de enfermedad sistémica como consunción y apatía. El perfil tiroideo muestra T3 total y libre disminuidas, T4 libre también baja o normal, y TSH normal. Estos hallazgos son característicos del síndrome del eutiroideo enfermo, también llamado síndrome del paciente eutiroideo con enfermedad no tiroidea. Es una condición adaptativa del eje tiroideo durante enfermedades críticas o inflamatorias crónicas, sin alteración primaria de la glándula tiroides. A diferencia del hipotiroidismo primario, aquí la TSH no está elevada. En el hipotiroidismo subclínico, la TSH estaría aumentada con T4 normal. En el hipertiroidismo subclínico, la TSH estaría suprimida. El diagnóstico no requiere tratamiento hormonal, ya que es transitorio y se resuelve con la mejoría del cuadro sistémico.",
+      "tema": "Síndrome del eutiroideo enfermo",
+      "año": 2022
+    },
+    {
+      "id": "END-022",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, acude al consultorio por debilidad muscular, intolerancia al calor, baja de peso con apetito conservado y amenorrea desde hace cinco meses. Examen: piel caliente y húmeda, temblor fino de manos y taquicardia. Laboratorio: TSH disminuido, T4L elevado, βhCG negativo. ¿Cuál es el tratamiento?",
+      "opciones": [
+        "Metimazol",
+        "Ácido acetil salicílico",
+        "Levotiroxina",
+        "Prednisona",
+        "Dexametasona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta un cuadro clínico compatible con hipertiroidismo: pérdida de peso con apetito conservado, intolerancia al calor, amenorrea, temblor fino y taquicardia. Los exámenes confirman el diagnóstico: TSH suprimida y T4 libre elevada. El tratamiento de primera línea en este contexto es con antitiroideos de síntesis, siendo el metimazol el fármaco de elección en la mayoría de los casos no gestantes. Las demás opciones no corrigen la causa del hipertiroidismo.",
+      "comentario": "La paciente presenta un cuadro clínico compatible con hipertiroidismo: pérdida de peso con apetito conservado, intolerancia al calor, amenorrea, temblor fino y taquicardia. Los exámenes confirman el diagnóstico: TSH suprimida y T4 libre elevada. El tratamiento de primera línea en este contexto es con antitiroideos de síntesis, siendo el metimazol el fármaco de elección en la mayoría de los casos no gestantes. Las demás opciones no corrigen la causa del hipertiroidismo.",
+      "tema": "Hipertiroidismo: metimazol",
+      "año": 2023
+    },
+    {
+      "id": "END-023",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 28 años, en forma brusca presenta episodios de cefalea, sudoración, palpitaciones, temblor, palidez y pérdida de peso desde hace 6 meses. Examen: PA: 190/95 mmHg, FC: 120 X’. Aparato respiratorio y cardiovascular, sin alteraciones. Recibe terapia antihipertensiva con tres fármacos sin respuesta adecuada. Laboratorio: incremento de metanefrinas en orina. ¿Cuál es el diagnostico más probable?",
+      "opciones": [
+        "Hipertiroidismo",
+        "Hipercortisolismo",
+        "Feocromocitoma",
+        "Hiperaldosteronismo",
+        "Cirrosis hepática"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico de crisis adrenérgicas episódicas (cefalea, sudoración, palpitaciones, temblor, palidez) asociadas a hipertensión arterial resistente a tratamiento en un paciente joven sugiere fuertemente feocromocitoma, un tumor productor de catecolaminas. La confirmación diagnóstica se realiza con niveles elevados de metanefrinas en orina o plasma. Es fundamental sospecharlo ante hipertensión secundaria con síntomas autonómicos marcados. La localización s e realiza posteriormente mediante estudios de imagen (TAC, RMN o centellografía con MIBG).",
+      "comentario": "El cuadro clínico de crisis adrenérgicas episódicas (cefalea, sudoración, palpitaciones, temblor, palidez) asociadas a hipertensión arterial resistente a tratamiento en un paciente joven sugiere fuertemente feocromocitoma, un tumor productor de catecolaminas. La confirmación diagnóstica se realiza con niveles elevados de metanefrinas en orina o plasma. Es fundamental sospecharlo ante hipertensión secundaria con síntomas autonómicos marcados. La localización s e realiza posteriormente mediante estudios de imagen (TAC, RMN o centellografía con MIBG).",
+      "tema": "Feocromocitoma",
+      "año": 2023
+    },
+    {
+      "id": "END-024",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 45 años acude a consulta por sensación de calor, nerviosismo, polimenorrea y caída de cabello, desde hace un mes. Examen FC: 110 X’, PA: 130/80 mmHg, FR: 21 X’, T°:37.8°C IMC: 28. Piel caliente. ¿Cuáles son los exámenes de laboratorio indicados en este caso?",
+      "opciones": [
+        "T4L y TSH",
+        "GnRH y TSH",
+        "LH y FSH",
+        "T4L y T3",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico sugiere un hipertiroidismo (sensación de calor, nerviosismo, polimenorrea, caída de cabello, piel caliente y taquicardia). El enfoque diagnóstico inicial debe incluir T4 libre (T4L) y TSH, ya que permiten confirmar el estado tiroideo y diferenciar entre un hipertiroidismo primario (TSH baja, T4L alta) o secundario. Son las pruebas más sensibles y específicas para evaluar la función tiroidea en estos casos.",
+      "comentario": "El cuadro clínico sugiere un hipertiroidismo (sensación de calor, nerviosismo, polimenorrea, caída de cabello, piel caliente y taquicardia). El enfoque diagnóstico inicial debe incluir T4 libre (T4L) y TSH, ya que permiten confirmar el estado tiroideo y diferenciar entre un hipertiroidismo primario (TSH baja, T4L alta) o secundario. Son las pruebas más sensibles y específicas para evaluar la función tiroidea en estos casos.",
+      "tema": "Sospecha de hipertiroidismo: T4 libre y TSH",
+      "año": 2023
+    },
+    {
+      "id": "END-025",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 58 años desde hace un año presenta fatiga, ganancia de peso y estreñimiento. Examen. Facies edematosa, piel áspera y seca; ROT aquíleo lento. Laboratorio: TSH sérica 52 mU/l, T4L: 0.3 ng/dl. ¿Con cuál de las siguientes opciones debe iniciar el tratamiento?",
+      "opciones": [
+        "Triyodotironina",
+        "Tiroglobulina",
+        "Tiroxina",
+        "T4 y T3",
+        "Prednisona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente presenta síntomas y signos clínicos compatibles con hipotiroidismo primario, confirmado por TSH elevada y T4 libre disminuida. El tratamiento de elección es la levotiroxina (T4), que se administra por vía oral en una sola toma diaria y permite una conversión fisiológica a T3 en los tejidos periféricos. No se recomienda iniciar con T3 ni combinaciones de T4/T3 en el tratamiento inicial.",
+      "comentario": "La paciente presenta síntomas y signos clínicos compatibles con hipotiroidismo primario, confirmado por TSH elevada y T4 libre disminuida. El tratamiento de elección es la levotiroxina (T4), que se administra por vía oral en una sola toma diaria y permite una conversión fisiológica a T3 en los tejidos periféricos. No se recomienda iniciar con T3 ni combinaciones de T4/T3 en el tratamiento inicial.",
+      "tema": "Hipotiroidismo primario: levotiroxina",
+      "año": 2023
+    },
+    {
+      "id": "END-026",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 24 años, consulta por haber presentado tres síncopes. Antecedente: TBC pulmonar en su niñez. Examen: PA decúbito: 110/70 mmHg: de pie: 80/69 mmHg leve hiperpigmentación difusa en piel y mucosas, resto normal. Laboratorio: 130 mEq/l, K: 6.3 mEq/l, glucosa: 85 mg/dl. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Deficiencia pura de aldosterona",
+        "Hipotiroidismo",
+        "Diabetes mellitus con neuropatía",
+        "Insuficiencia suprarrenal primaria",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta hipotensión ortostática, hiperpigmentación de piel y mucosas, hiponatremia, hiperkalemia y glucosa normal. Estos hallazgos son característicos de insuficiencia suprarrenal primaria (enfermedad de Addison), donde existe un déficit de cortisol y aldosterona. La hiperpigmentación se debe al aumento de ACTH, que estimula los melanocitos. La pérdida de aldosterona genera la alteración hidroelectrolítica observada. Estos hallazgos explican también los episodios de síncope por hipotensión.",
+      "comentario": "La paciente presenta hipotensión ortostática, hiperpigmentación de piel y mucosas, hiponatremia, hiperkalemia y glucosa normal. Estos hallazgos son característicos de insuficiencia suprarrenal primaria (enfermedad de Addison), donde existe un déficit de cortisol y aldosterona. La hiperpigmentación se debe al aumento de ACTH, que estimula los melanocitos. La pérdida de aldosterona genera la alteración hidroelectrolítica observada. Estos hallazgos explican también los episodios de síncope por hipotensión.",
+      "tema": "Insuficiencia suprarrenal primaria",
+      "año": 2023
+    },
+    {
+      "id": "END-027",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 28 años, presenta amenorrea, tiene como antecedente una hemorragia posparto que le produjo pérdida súbita y grave de la presión arterial. No pudo dar de lactar. ¿Cuál sería su diagnóstico?",
+      "opciones": [
+        "Amenorrea hipotalámica",
+        "Síndrome de Sheehan",
+        "Falla ovárica prematura",
+        "Síndrome de Asherman",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Dada la presentación clínica de amenorrea y agalactia (incapacidad para producir leche) después de una hemorragia posparto grave, el diagnóstico más probable sería el síndrome de Sheehan (Opción B). El síndrome de Sheehan es una condición en la que hay necrosis (muerte celular) del tejido de la glándula pituitaria debido a una pérdida súbita y grave de la presión arterial durante o después del parto, generalmente debido a una hemorragia posparto severa. Esto puede llevar a insuficiencia de la glándula pituitaria, lo que resulta en amenorrea, incapacidad para producir leche materna (lactancia), fatiga, debilidad y otros síntomas relaciona dos con la insuficiencia hormonal.",
+      "comentario": "Dada la presentación clínica de amenorrea y agalactia (incapacidad para producir leche) después de una hemorragia posparto grave, el diagnóstico más probable sería el síndrome de Sheehan (Opción B). El síndrome de Sheehan es una condición en la que hay necrosis (muerte celular) del tejido de la glándula pituitaria debido a una pérdida súbita y grave de la presión arterial durante o después del parto, generalmente debido a una hemorragia posparto severa. Esto puede llevar a insuficiencia de la glándula pituitaria, lo que resulta en amenorrea, incapacidad para producir leche materna (lactancia), fatiga, debilidad y otros síntomas relaciona dos con la insuficiencia hormonal.",
+      "tema": "Síndrome de Sheehan",
+      "año": 2023
+    },
+    {
+      "id": "END-028",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes parámetros distinguiría mejor a una persona sana, pero con privación severa de agua de una persona con SIADH (Síndrome de secreción inadecuada de hormona antidiurética)?",
+      "opciones": [
+        "Depuración de agua libre",
+        "Osmolaridad plasmática",
+        "Osmolaridad urinaria",
+        "Concentración circulante de ADH",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La privación severa de agua en una persona sana y el síndrome de secreción inadecuada de hormona antidiurética (SIADH) son dos situaciones distintas pero que tienen como característica común que en ambos casos existe un incremento en la secreción de la hormona antidiurética (ADH). En el caso de la privación severa de agua como un mecanismo compensatorio para reabsorber mayor cantidad de agua a nivel renal y así evitar la deshidratación, y, en el caso del SIADH de forma patológica debido a una condición mórbida que incrementa la secreción de esta hormona. En este sentido, el mejor parámetro para distinguirlas es la Osmolaridad plasmática (Opción B). La osmolaridad plasmática es el número total de partículas osmóticamente activas en una unidad de volumen de plasma. En la privación severa de agua, la osmolaridad plasmática tiende a aumentar debido a la concentración de solutos en el plasma como resultado de la pérdida de agua. En el SIADH, la osmolaridad plasmática es baja debido a la retención inapropiada de agua y la dilución del plasma.",
+      "comentario": "La privación severa de agua en una persona sana y el síndrome de secreción inadecuada de hormona antidiurética (SIADH) son dos situaciones distintas pero que tienen como característica común que en ambos casos existe un incremento en la secreción de la hormona antidiurética (ADH). En el caso de la privación severa de agua como un mecanismo compensatorio para reabsorber mayor cantidad de agua a nivel renal y así evitar la deshidratación, y, en el caso del SIADH de forma patológica debido a una condición mórbida que incrementa la secreción de esta hormona. En este sentido, el mejor parámetro para distinguirlas es la Osmolaridad plasmática (Opción B). La osmolaridad plasmática es el número total de partículas osmóticamente activas en una unidad de volumen de plasma. En la privación severa de agua, la osmolaridad plasmática tiende a aumentar debido a la concentración de solutos en el plasma como resultado de la pérdida de agua. En el SIADH, la osmolaridad plasmática es baja debido a la retención inapropiada de agua y la dilución del plasma.",
+      "tema": "SIADH frente a deshidratación: osmolaridad plasmática",
+      "año": 2023
+    },
+    {
+      "id": "END-029",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Durante el examen de un paciente: \"al elevar ambos brazos se produce distensión venosa en el cuello y dificultad respiratoria\". ¿A qué tipo de bocio corresponde?",
+      "opciones": [
+        "Sumergido",
+        "Hiperfuncionante",
+        "Endémico",
+        "Abscedado",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El hallazgo de distensión venosa en el cuello y dificultad respiratoria al elevar ambos brazos sugiere la presencia de una obstrucción venosa, que puede estar asociada con un tipo específico de bocio conocido como bocio sumergido (Opción A). El bocio sumergido se caracteriza por el crecimiento del tejido tiroideo dentro del tórax, lo que puede ejercer presión sobre las estructuras circundantes, incluidas las venas y las vías respiratorias superiores. Esta presión puede resultar en distensión venosa en el cuello y dificultad respiratoria, especialmente cuando se realizan movimientos que aumentan la presión intratorácica, como elevar ambos brazos.",
+      "comentario": "El hallazgo de distensión venosa en el cuello y dificultad respiratoria al elevar ambos brazos sugiere la presencia de una obstrucción venosa, que puede estar asociada con un tipo específico de bocio conocido como bocio sumergido (Opción A). El bocio sumergido se caracteriza por el crecimiento del tejido tiroideo dentro del tórax, lo que puede ejercer presión sobre las estructuras circundantes, incluidas las venas y las vías respiratorias superiores. Esta presión puede resultar en distensión venosa en el cuello y dificultad respiratoria, especialmente cuando se realizan movimientos que aumentan la presión intratorácica, como elevar ambos brazos.",
+      "tema": "Bocio sumergido: signo de Pemberton",
+      "año": 2023
+    },
+    {
+      "id": "END-030",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "En la diabetes mellitus tipo 2, para prevención y tratamiento se indica actividad física. ¿Qué característica debe cumplir en adultos de 18 a 64 años?",
+      "opciones": [
+        "Grupal, previa evaluación por entrenador físico personal",
+        "Consentimiento informado firmado por familiar",
+        "Mínimo 150 minutos semanales de intensidad moderada",
+        "No se realiza el mismo día del tratamiento con metformina",
+        "Ketorolaco"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Para adultos de 18 a 64 años con diabetes mellitus tipo 2, la recomendación de acuerdo con las guías internacionales, incluidas las de la Asociación Americana de Diabetes (ADA) y la Organización Mundial de la Salud (OMS), es realizar un mínimo de 150 minutos semanales de actividad física de intensidad moderada (Alternativa C). Esta actividad puede incluir caminar a paso ligero, nadar, andar en bicicleta, etc. Esta recomendación específica es ampliamente respaldada por la evidencia científica y es efectiva para mejorar el control glucémico, reducir el riesgo cardiovascular y mejorar la salud general en personas con diabetes mellitus tipo 2.",
+      "comentario": "Para adultos de 18 a 64 años con diabetes mellitus tipo 2, la recomendación de acuerdo con las guías internacionales, incluidas las de la Asociación Americana de Diabetes (ADA) y la Organización Mundial de la Salud (OMS), es realizar un mínimo de 150 minutos semanales de actividad física de intensidad moderada (Alternativa C). Esta actividad puede incluir caminar a paso ligero, nadar, andar en bicicleta, etc. Esta recomendación específica es ampliamente respaldada por la evidencia científica y es efectiva para mejorar el control glucémico, reducir el riesgo cardiovascular y mejorar la salud general en personas con diabetes mellitus tipo 2.",
+      "tema": "Diabetes tipo 2: actividad física 150 min/semana",
+      "año": 2024
+    },
+    {
+      "id": "END-031",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 34 años, acude a urgencias por fatiga persistente y palpitaciones. Durante el último mes, ha estado siguiendo un programa de pérdida de peso que incluye dieta, ejercicios e ingesta diaria de dos pastillas cuyos nombres desconoce; pero ha logrado bajar hasta el momento, 5 kilos. Examen: PA 150/80 mmHg, FC 122 X´. Piel caliente y temblor fino en ambas manos. La glándula tiroides no es palpable y no se detecta TSH sérico. ¿Cuál de las siguientes opciones es la causa más probable?",
+      "opciones": [
+        "Tiroiditis de Hashimoto",
+        "Uso de amiodarona",
+        "Enfermedad de Graves",
+        "Tirotoxicosis facticia",
+        "Asma bronquial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La combinación de ingesta de pastillas para la pérdida de peso, síntomas de hipertiroidismo y TSH indetectable apuntan fuertemente a una tirotoxicosis facticia (Alternativa D). La tirotoxicosis facticia ocurre cuando hay una ingesta exógena de hormona tiroidea. Lo más probable es que en este caso se la haya indicado hormona tiroidea a la paciente como un suplemento para la pérdida de peso, lo cual es una práctica indebida pero que se suele observar y que puede llevar a un cuadro clínico de tirotoxicosis. Este diagnóstico se confirma típicamente con la historia clínica y puede requerir pruebas adicionales como niveles séricos de T3 y T4, tiroglobulina y escaneo tiroideo para diferenciarla de otras causas de hipertiroidismo.",
+      "comentario": "La combinación de ingesta de pastillas para la pérdida de peso, síntomas de hipertiroidismo y TSH indetectable apuntan fuertemente a una tirotoxicosis facticia (Alternativa D). La tirotoxicosis facticia ocurre cuando hay una ingesta exógena de hormona tiroidea. Lo más probable es que en este caso se la haya indicado hormona tiroidea a la paciente como un suplemento para la pérdida de peso, lo cual es una práctica indebida pero que se suele observar y que puede llevar a un cuadro clínico de tirotoxicosis. Este diagnóstico se confirma típicamente con la historia clínica y puede requerir pruebas adicionales como niveles séricos de T3 y T4, tiroglobulina y escaneo tiroideo para diferenciarla de otras causas de hipertiroidismo.",
+      "tema": "Tirotoxicosis facticia",
+      "año": 2024
+    },
+    {
+      "id": "END-032",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 26 años, desde hace 3 meses presenta pérdida de peso de 12 kg, palpitaciones, nerviosismo, intolerancia al calor. Examen: Aumento de volumen de la glándula tiroides, exoftalmos bilateral y mixedema pretibial. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Bocio multinodular",
+        "Tiroiditis de Hashimoto",
+        "Tiroiditis de Quervain",
+        "Enfermedad de Graves",
+        "Asma bronquial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La enfermedad de Graves (Alternativa D) es el diagnóstico más probable para esta paciente debido a la combinación de síntomas de hipertiroidismo (pérdida de peso, palpitaciones, nerviosismo, intolerancia al calor) junto con signos específicos como el aumento de volumen de la glándula tiroides, exoftalmos bilateral y mixedema pretibial. La enfermedad de Graves es una enfermedad autoinmune que afecta la glándula tiroides y es la causa más común de hipertiroidismo. En esta patología, el sistema inmunológico produce anticuerpos que estimulan la tiroides para que produzca en exceso hormonas tiroideas (T3 y T4), lo que resulta en un metabolismo acelerado.",
+      "comentario": "La enfermedad de Graves (Alternativa D) es el diagnóstico más probable para esta paciente debido a la combinación de síntomas de hipertiroidismo (pérdida de peso, palpitaciones, nerviosismo, intolerancia al calor) junto con signos específicos como el aumento de volumen de la glándula tiroides, exoftalmos bilateral y mixedema pretibial. La enfermedad de Graves es una enfermedad autoinmune que afecta la glándula tiroides y es la causa más común de hipertiroidismo. En esta patología, el sistema inmunológico produce anticuerpos que estimulan la tiroides para que produzca en exceso hormonas tiroideas (T3 y T4), lo que resulta en un metabolismo acelerado.",
+      "tema": "Enfermedad de Graves",
+      "año": 2024
+    },
+    {
+      "id": "END-033",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 20 años desde hace 6 meses con poliuria, polidipsia y cefalea global. El diagnóstico de diabetes insípida se puede establecer con:",
+      "opciones": [
+        "Poliuria, densidad urinaria alta e hipernatremia",
+        "Poliuria, densidad urinaria baja e hipernatremia",
+        "Oliguria, densidad urinaria alta e hiponatremia",
+        "Poliuria, densidad urinaria alta e hiponatremia",
+        "Reposo absoluto"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El diagnóstico de diabetes insípida se establece cuando el paciente presenta poliuria (gran volumen de orina), densidad urinaria baja (debido a la incapacidad de concentrar la orina) e hipernatremia (por la pérdida excesiva de agua libre). En este caso, la orina diluida (baja densidad) y la hipernatremia son características fundamentales, ya que el cuerpo pierde grandes cantidades de agua sin poder concentrar adecuadamente la orina. Esta condición puede ser central (deficiencia de ADH) o nefrogénica (resistencia a ADH).",
+      "comentario": "El diagnóstico de diabetes insípida se establece cuando el paciente presenta poliuria (gran volumen de orina), densidad urinaria baja (debido a la incapacidad de concentrar la orina) e hipernatremia (por la pérdida excesiva de agua libre). En este caso, la orina diluida (baja densidad) y la hipernatremia son características fundamentales, ya que el cuerpo pierde grandes cantidades de agua sin poder concentrar adecuadamente la orina. Esta condición puede ser central (deficiencia de ADH) o nefrogénica (resistencia a ADH).",
+      "tema": "Diabetes insípida: orina diluida e hipernatremia",
+      "año": 2024
+    },
+    {
+      "id": "END-034",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 45 años que acude a urgencias por debilidad, dolor abdominal, náusea y vómitos. Desde hace 6 meses con ketoconazol por micosis sistémica. Examen: PA: 100/60 mmHg, FC: 80 X', hipotensión ortostática, muy adelgazada, hiperpigmentación de la piel y mucosas. Laboratorio: Na: 130 mEq/L, K: 4.5 mEq/L, Cl: 102 mEq/L, G: 65 mg/dL. Prueba de estimulación con ACTH negativa. ¿Qué hormona se encuentran disminuida?",
+      "opciones": [
+        "Cortisol",
+        "Aldosterona",
+        "Insulina",
+        "ACTH",
+        "Omeprazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta síntomas de insuficiencia adrenal primaria (enfermedad de Addison), como debilidad, dolor abdominal, náuseas, vómitos y hiperpigmentación. El ketoconazol puede inducir esta condición. La prueba de estimulación con ACTH negativa confirma que la disfunción es a nivel suprarrenal. La hormona disminuida es el cortisol.",
+      "comentario": "La paciente presenta síntomas de insuficiencia adrenal primaria (enfermedad de Addison), como debilidad, dolor abdominal, náuseas, vómitos y hiperpigmentación. El ketoconazol puede inducir esta condición. La prueba de estimulación con ACTH negativa confirma que la disfunción es a nivel suprarrenal. La hormona disminuida es el cortisol.",
+      "tema": "Insuficiencia suprarrenal por ketoconazol",
+      "año": 2024
+    },
+    {
+      "id": "END-035",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 48 años, desde hace tres semanas presenta cervicalgia que aumenta al deglutir, palpitaciones, intolerancia al calor y pérdida de peso. Antecedente: hace 2 meses presentó faringitis. Examen: signos vitales normales, sin datos de oftalmopatía, dolor a la palpación en tiroides y temblor distal en manos. Laboratorio: TSH disminuido, T4 elevado; antitiroglobulina y antiperoxidasa (-); VSG: 58 mm/h. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Enfermedad de Graves",
+        "Tiroiditis de Hashimoto",
+        "Tiroiditis de Quervain",
+        "Tirotoxicosis facticia",
+        "Apendicitis aguda"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El diagnóstico más probable es tiroiditis de Quervain. Esta condición se caracteriza por dolor cervical, que a menudo aumenta al deglutir, asociado con síntomas de hipertiroidismo como palpitaciones, intolerancia al calor y pérdida de peso. La ausencia de oftalmopatía y la presencia de dolor a la palpación en la tiroides también favorecen este diagnóstico. La tiroiditis de Quervain es una tiroiditis subaguda, típicamente desencadenada por una infección viral (como en el antecedente de faringitis de la paciente), y suele asociarse con niveles elevados de T4 y TSH disminuida debido a la liberación de hormonas tiroideas almacenadas. La VSG elevada también es indicativa de inflamación, lo que apoya aún más el diagnóstico.",
+      "comentario": "El diagnóstico más probable es tiroiditis de Quervain. Esta condición se caracteriza por dolor cervical, que a menudo aumenta al deglutir, asociado con síntomas de hipertiroidismo como palpitaciones, intolerancia al calor y pérdida de peso. La ausencia de oftalmopatía y la presencia de dolor a la palpación en la tiroides también favorecen este diagnóstico. La tiroiditis de Quervain es una tiroiditis subaguda, típicamente desencadenada por una infección viral (como en el antecedente de faringitis de la paciente), y suele asociarse con niveles elevados de T4 y TSH disminuida debido a la liberación de hormonas tiroideas almacenadas. La VSG elevada también es indicativa de inflamación, lo que apoya aún más el diagnóstico.",
+      "tema": "Tiroiditis subaguda de De Quervain",
+      "año": 2024
+    },
+    {
+      "id": "END-036",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 64 años, diabética e hipertensa, desde hace 3 días recibe antibióticos intravenosos por ITU; hace 24 horas persiste hipotensa a pesar de líquidos y vasopresores. Examen: PA 80/50 mmHg, FC 120 X´, FR 22 X´, T° 38.6 °C, SatO₂ 91%. Desorientada, piel fría, pulso débil. Lab: glucosa 150 mg/dl, Na 130 mEq/l, K 4.8 mEq/l, creatinina 1.9 mg/dl, pH 7.30, lactato 4.5 mmol/l, cortisol bajo, ACTH elevado. Leucocitosis con neutrofilia. ¿Cuál es la causa probable de la falta de respuesta al tratamiento?",
+      "opciones": [
+        "Insuficiencia adrenal primaria",
+        "Acidosis láctica",
+        "Cetoacidosis diabética",
+        "Insuficiencia adrenal secundaria",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico, incluyendo hipotensión persistente a pesar del tratamiento adecuado, acidosis metabólica, y niveles bajos de cortisol con ACTH elevado, sugiere insuficiencia adrenal primaria (A). La insuficiencia adrenal primaria, o enfermedad de Addison, se caracteriza por la incapacidad de las glándulas suprarrenales para producir cortisol en respuesta al estrés, como se observa en este caso. La acidosis láctica (B) podría ser una complicación de sepsis, pero no explica la disfunción adrenal observada. La cetoacidosis diabética (C) es poco probable dado que los niveles de glucosa son relativamente bajos y no hay evidencia de cetonuria. La insuficiencia adrenal secundaria (D) no sería compatible con el ACTH elevado, lo que indica que el problema es primario.",
+      "comentario": "El cuadro clínico, incluyendo hipotensión persistente a pesar del tratamiento adecuado, acidosis metabólica, y niveles bajos de cortisol con ACTH elevado, sugiere insuficiencia adrenal primaria (A). La insuficiencia adrenal primaria, o enfermedad de Addison, se caracteriza por la incapacidad de las glándulas suprarrenales para producir cortisol en respuesta al estrés, como se observa en este caso. La acidosis láctica (B) podría ser una complicación de sepsis, pero no explica la disfunción adrenal observada. La cetoacidosis diabética (C) es poco probable dado que los niveles de glucosa son relativamente bajos y no hay evidencia de cetonuria. La insuficiencia adrenal secundaria (D) no sería compatible con el ACTH elevado, lo que indica que el problema es primario.",
+      "tema": "Choque séptico refractario por insuficiencia suprarrenal primaria",
+      "año": 2024
+    },
+    {
+      "id": "END-037",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 22 años con diabetes tipo 1, en tratamiento irregular, desde hace 24 horas presenta dolor abdominal difuso, confusión progresiva y respiración rápida. Examen: PA 80/40 mmHg, FC 110 X´, FR 28 X´, T 37 °C, SatO₂ 94%. Somnoliento, respiración de Kussmaul, piel fría y cianosis distal. Lab: Glucosa 480 mg/dl, cetonas en sangre negativo, pH arterial 7.15, HCO₃⁻ 8 mEq/l, Na 132 mEq/l, K 5 mEq/l, Anión GAP 18, Lactato 10 mmol/l. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Cetoacidosis diabética",
+        "Acidosis láctica",
+        "Intoxicación por salicilatos",
+        "Ingestión de metanol",
+        "Azitromicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La acidosis láctica cursa con hipoperfusión, aumento del lactato y anión GAP elevado. El cuadro clínico es compatible con acidosis láctica secundaria a hipoperfusión en un paciente con diabetes tipo 1 y manejo irregular, probablemente precipitado por un evento agudo (como un shock hipovolémico o séptico). La ausencia de cetonas descarta cetoacidosis diabética. Las intoxicaciones suelen tener historia sugestiva, como ingesta de tóxicos.",
+      "comentario": "La acidosis láctica cursa con hipoperfusión, aumento del lactato y anión GAP elevado. El cuadro clínico es compatible con acidosis láctica secundaria a hipoperfusión en un paciente con diabetes tipo 1 y manejo irregular, probablemente precipitado por un evento agudo (como un shock hipovolémico o séptico). La ausencia de cetonas descarta cetoacidosis diabética. Las intoxicaciones suelen tener historia sugestiva, como ingesta de tóxicos.",
+      "tema": "Diabético con acidosis láctica",
+      "año": 2024
+    },
+    {
+      "id": "END-038",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 72 años con antecedente de insuficiencia renal y diabetes mellitus tipo 2 en terapia con metformina luego de cambio de dosis presenta debilidad, náuseas, vómitos y dificultad respiratoria. ¿Cuál es el efecto adverso relacionado?",
+      "opciones": [
+        "Acidosis láctica",
+        "Hiperglicemia",
+        "Hipotiroidismo",
+        "Hipopotasemia",
+        "Asma bronquial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La metformina es un antidiabético oral de elección por su bajo riesgo de hipoglicemia y beneficio cardiovascular. Sin embargo, su uso en pacientes con insuficiencia renal puede llevar a la acumulación del fármaco y, por tanto, al desarrollo de una complicación grave: la acidosis láctica. Esta paciente de 72 años presenta factores de riesgo claros como insuficiencia renal crónica y el aumento de dosis reciente. La clínica de debilidad, náuseas, vómitos y disnea es típica de esta entidad, la cual se debe a alteración en el metabolismo mitocondrial y acumulación de lactato. No hay datos que sugieran hiperglicemia, hipopotasemia ni hipotiroidismo. Por tanto, el efecto adverso más probable asociado a metformina en este contexto es la acidosis láctica.",
+      "comentario": "La metformina es un antidiabético oral de elección por su bajo riesgo de hipoglicemia y beneficio cardiovascular. Sin embargo, su uso en pacientes con insuficiencia renal puede llevar a la acumulación del fármaco y, por tanto, al desarrollo de una complicación grave: la acidosis láctica. Esta paciente de 72 años presenta factores de riesgo claros como insuficiencia renal crónica y el aumento de dosis reciente. La clínica de debilidad, náuseas, vómitos y disnea es típica de esta entidad, la cual se debe a alteración en el metabolismo mitocondrial y acumulación de lactato. No hay datos que sugieran hiperglicemia, hipopotasemia ni hipotiroidismo. Por tanto, el efecto adverso más probable asociado a metformina en este contexto es la acidosis láctica.",
+      "tema": "Metformina en insuficiencia renal: acidosis láctica",
+      "año": 2024
+    },
+    {
+      "id": "END-039",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, desde hace 6 meses presenta pérdida de conocimiento en varias oportunidades. Examen: PA 110/70 mmHg, FC 100 X´, somnolienta, desorientada, diaforética y con frialdad de piel. Lab: glucosa 70 mg/dL, insulina sérica elevada, RNM: lesión nodular en cara anterior del páncreas de 2 cm de diámetro. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Quimioterapia",
+        "Terapia biológica",
+        "Resección quirúrgica",
+        "Radioterapia",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente femenina de 50 años con episodios de pérdida de conciencia, diaforesis, frialdad y alteración del sensorio, lo cual sugiere hipoglicemias. Aunque su glucosa es de 70 mg/dL al momento del examen, presenta niveles elevados de insulina sérica, lo que orienta al diagnóstico de insulinoma. La presencia de una lesión nodular en la cabeza del páncreas de 2 cm en RNM confirma esta sospecha. El tratamiento de elección para insulinoma es la resección quirúrgica, ya que usualmente son tumores benignos y localizados, con excelente pronóstico postoperatorio si se extraen completamente.",
+      "comentario": "Paciente femenina de 50 años con episodios de pérdida de conciencia, diaforesis, frialdad y alteración del sensorio, lo cual sugiere hipoglicemias. Aunque su glucosa es de 70 mg/dL al momento del examen, presenta niveles elevados de insulina sérica, lo que orienta al diagnóstico de insulinoma. La presencia de una lesión nodular en la cabeza del páncreas de 2 cm en RNM confirma esta sospecha. El tratamiento de elección para insulinoma es la resección quirúrgica, ya que usualmente son tumores benignos y localizados, con excelente pronóstico postoperatorio si se extraen completamente.",
+      "tema": "Insulinoma: resección quirúrgica",
+      "año": 2024
+    },
+    {
+      "id": "END-040",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 28 años presenta secreción láctea a la presión de los pezones y amenorrea de 3 meses de evolución. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hiperprolactinemia",
+        "Enfermedad de Addison",
+        "Tuberculosis mamaria",
+        "Hipertiroidismo",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer joven con amenorrea de 3 meses y galactorrea inducida a la presión mamaria. Este binomio clínico sugiere una alteración en el eje hipotálamo-hipófisis, siendo la hiperprolactinemia la causa más probable. La prolactina inhibe la secreción pulsátil de GnRH, lo que lleva a anovulación y amenorrea. Las causas incluyen prolactinomas, medicamentos dopaminérgicos y disfunción hipotalámica. Se descartan tuberculosis mamaria y enfermedad de Addison por la ausencia de síntomas sistémicos. 2 Tampoco hay signos compatibles con hipertiroidismo. Por lo tanto, el diagnóstico más probable es hiperprolactinemia.",
+      "comentario": "Mujer joven con amenorrea de 3 meses y galactorrea inducida a la presión mamaria. Este binomio clínico sugiere una alteración en el eje hipotálamo-hipófisis, siendo la hiperprolactinemia la causa más probable. La prolactina inhibe la secreción pulsátil de GnRH, lo que lleva a anovulación y amenorrea. Las causas incluyen prolactinomas, medicamentos dopaminérgicos y disfunción hipotalámica. Se descartan tuberculosis mamaria y enfermedad de Addison por la ausencia de síntomas sistémicos. 2 Tampoco hay signos compatibles con hipertiroidismo. Por lo tanto, el diagnóstico más probable es hiperprolactinemia.",
+      "tema": "Galactorrea y amenorrea: hiperprolactinemia",
+      "año": 2025
+    },
+    {
+      "id": "END-041",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Adolescente de 12 años, traído por mancha negruzca en cuello y axilas. Examen: IMC +3 DE según curvas OMS; acantosis nigricans en cuello y axilas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Cushing",
+        "Pubertad precoz",
+        "Hipotiroidismo primario",
+        "Obesidad con resistencia a la insulina",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La acantosis nigricans en pliegues, acompañada de obesidad y un IMC superior a +3 DE, sugiere resistencia a la insulina, fenómeno metabólico que precede a la diabetes tipo 2. Esta hiperpigmentación aterciopelada se produce por el estímulo hiperinsulinémico sobre receptores del factor de crecimiento epidérmico. En adolescentes obesos, constituye un marcador dermatológico de riesgo metabólico, más que un signo de endocrinopatías primarias como el Cushing o el hipotiroidismo.",
+      "comentario": "La acantosis nigricans en pliegues, acompañada de obesidad y un IMC superior a +3 DE, sugiere resistencia a la insulina, fenómeno metabólico que precede a la diabetes tipo 2. Esta hiperpigmentación aterciopelada se produce por el estímulo hiperinsulinémico sobre receptores del factor de crecimiento epidérmico. En adolescentes obesos, constituye un marcador dermatológico de riesgo metabólico, más que un signo de endocrinopatías primarias como el Cushing o el hipotiroidismo.",
+      "tema": "Acantosis nigricans: resistencia a la insulina",
+      "año": 2025
+    },
+    {
+      "id": "END-042",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 55 años con DM2 de 10 años, hemoglobina glicosilada 7%, urea y creatinina normales. ¿Qué examen complementario solicita para detectar daño renal precoz?",
+      "opciones": [
+        "Sedimento urinario en recolección de 24 horas",
+        "Relación albúmina/creatinina en orina aislada",
+        "Ecografía renal",
+        "Sodio en orina de 24 horas",
+        "Azitromicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En el paciente diabético con función renal aparente normal, la detección precoz de nefropatía requiere identificar microalbuminuria, marcador inicial de daño glomerular antes del aumento de la creatinina. El método más sensible y práctico es la relación albúmina/creatinina en una muestra aislada de orina, la cual corrige la variación por concentración urinaria y evita errores de recolección de 24 horas. Un valor >30 mg/g indica microalbuminuria. El examen de orina simple o ecografía no detectan daño temprano. Su identificación temprana permite intervenir con IECAs o ARA II.",
+      "comentario": "En el paciente diabético con función renal aparente normal, la detección precoz de nefropatía requiere identificar microalbuminuria, marcador inicial de daño glomerular antes del aumento de la creatinina. El método más sensible y práctico es la relación albúmina/creatinina en una muestra aislada de orina, la cual corrige la variación por concentración urinaria y evita errores de recolección de 24 horas. Un valor >30 mg/g indica microalbuminuria. El examen de orina simple o ecografía no detectan daño temprano. Su identificación temprana permite intervenir con IECAs o ARA II.",
+      "tema": "Nefropatía diabética: cociente albúmina/creatinina",
+      "año": 2025
+    },
+    {
+      "id": "END-043",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 35 años, desde hace 5 meses con astenia, diarrea y pérdida de peso. Al examen: PA 85/60 mmHg, FC 70 x’, hiperpigmentación de piel, hiperkalemia, hiponatremia e hipoglicemia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Enfermedad de Addison",
+        "Hiperaldosteronismo",
+        "Feocromocitoma",
+        "Hipotiroidismo primario",
+        "Tuberculosis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta síntomas y signos típicos de insuficiencia suprarrenal primaria (enfermedad de Addison): astenia, pérdida de peso, hipotensión, hiperkalemia, hiponatremia e hipoglicemia. La hiperpigmentación es característica por el aumento de MSH. Estos datos confirman un déficit de cortisol y aldosterona.",
+      "comentario": "La paciente presenta síntomas y signos típicos de insuficiencia suprarrenal primaria (enfermedad de Addison): astenia, pérdida de peso, hipotensión, hiperkalemia, hiponatremia e hipoglicemia. La hiperpigmentación es característica por el aumento de MSH. Estos datos confirman un déficit de cortisol y aldosterona.",
+      "tema": "Enfermedad de Addison",
+      "año": 2020
+    },
+    {
+      "id": "END-044",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Obeso con perfil lipídico de: triglicéridos 400 mg/dl, colesterol 210 mg/dl, HDL 35 mg/dl, LDL 95 mg/dl. Se recomienda dieta en base a:",
+      "opciones": [
+        "Aceite de coco",
+        "Aceitunas",
+        "Pescados azules",
+        "Hígado de pollo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta una hipertrigliceridemia severa con colesterol total y HDL alterados, lo que sugiere un perfil dislipidémico mixto. En este contexto, se debe priorizar el consumo de grasas poliinsaturadas, como las contenidas en los pescados azules (salmón, atún, caballa). Estos ácidos grasos omega-3 ayudan a reducir significativamente los niveles de triglicéridos y tienen efectos antiinflamatorios. Las aceitunas y el aceite de coco no son ideales por su contenido en grasas saturadas o efectos neutros. El hígado de pollo, además, es rico en colesterol. Por tanto, los pescados azules son la mejor recomendación dietética inicial.",
+      "comentario": "El paciente presenta una hipertrigliceridemia severa con colesterol total y HDL alterados, lo que sugiere un perfil dislipidémico mixto. En este contexto, se debe priorizar el consumo de grasas poliinsaturadas, como las contenidas en los pescados azules (salmón, atún, caballa). Estos ácidos grasos omega-3 ayudan a reducir significativamente los niveles de triglicéridos y tienen efectos antiinflamatorios. Las aceitunas y el aceite de coco no son ideales por su contenido en grasas saturadas o efectos neutros. El hígado de pollo, además, es rico en colesterol. Por tanto, los pescados azules son la mejor recomendación dietética inicial.",
+      "tema": "Hipertrigliceridemia: dieta con pescado azul",
+      "año": 2020
+    },
+    {
+      "id": "END-045",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 59 años en consulta, con antecedentes de diabetes insulino-dependiente. Refiere que hoy, 3 horas después de aplicación de insulina, presenta: diaforesis, palidez, desorientación. Glucocinta: 38 mg%. ¿Cuál sería la indicación de emergencia inmediata?",
+      "opciones": [
+        "Administrar dextrosa al 33% endovenosa",
+        "Administrar 100 ml de dextrosa al 5%",
+        "Realizar un EKG",
+        "Aplicar gluconato de calcio EV",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente con glucosa de 38 mg/dL y síntomas neuroglucopénicos severos (diaforesis, desorientación, palidez) está cursando una hipoglicemia severa, situación de emergencia médica. En este contexto, la medida inmediata es la administración de glucosa hipe rtonica endovenosa, comúnmente en forma de dextrosa al 33% EV para una rápida reversión de los síntomas. No corresponde esperar, usar soluciones hipotónicas ni gluconato de calcio. El EKG es irrelevante en esta urgencia.",
+      "comentario": "El paciente con glucosa de 38 mg/dL y síntomas neuroglucopénicos severos (diaforesis, desorientación, palidez) está cursando una hipoglicemia severa, situación de emergencia médica. En este contexto, la medida inmediata es la administración de glucosa hipe rtonica endovenosa, comúnmente en forma de dextrosa al 33% EV para una rápida reversión de los síntomas. No corresponde esperar, usar soluciones hipotónicas ni gluconato de calcio. El EKG es irrelevante en esta urgencia.",
+      "tema": "Hipoglucemia grave: dextrosa hipertónica EV",
+      "año": 2020
+    },
+    {
+      "id": "END-046",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Gestante de 10 semanas, acude por presentar temblor, nerviosismo, pérdida de peso y siente mucho calor. Al examen: exoftalmos, edema duro pretibial y bocio difuso, no doloroso. Laboratorio: TSH 0.01 mUI/L y T4 libre 30 ng/dL. ¿Cuál es el tratamiento a seguir?",
+      "opciones": [
+        "Yodo radiactivo",
+        "Levotiroxina",
+        "Propiltiouracilo",
+        "Metimazol",
+        "Ciprofloxacino"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Gestante de 10 semanas con cuadro clínico y bioquímico compatible con hipertiroidismo primario (TSH suprimida y T4 libre elevada), más signos típicos de enfermedad de Graves-Basedow: exoftalmos, bocio difuso no doloroso y mixedema pretibial. En el embarazo, el antitiroideo de elección durante el primer trimestre es el propiltiouracilo (PTU), porque el metimazol se asocia a embriopatía. Luego del primer trimestre, se puede cambiar a metimazol si es necesario. El yodo radiactivo está contraindicado en el embarazo y la levotiroxina se usa en hipotiroidismo, no en este caso.",
+      "comentario": "Gestante de 10 semanas con cuadro clínico y bioquímico compatible con hipertiroidismo primario (TSH suprimida y T4 libre elevada), más signos típicos de enfermedad de Graves-Basedow: exoftalmos, bocio difuso no doloroso y mixedema pretibial. En el embarazo, el antitiroideo de elección durante el primer trimestre es el propiltiouracilo (PTU), porque el metimazol se asocia a embriopatía. Luego del primer trimestre, se puede cambiar a metimazol si es necesario. El yodo radiactivo está contraindicado en el embarazo y la levotiroxina se usa en hipotiroidismo, no en este caso.",
+      "tema": "Enfermedad de Graves en el primer trimestre: propiltiouracilo",
+      "año": 2021
+    },
+    {
+      "id": "END-047",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 35 años presenta hace 3 días dolor cervical, nerviosismo y temblor fino de manos. Hace 10 días infección de vía respiratoria alta. Al examen: taquicardia, cuello con bocio difuso moderado, dolor a la palpación. Laboratorio: TSH 0,2 mUI/L. ¿Cuál es el tratamiento?",
+      "opciones": [
+        "AINEs y propanolol",
+        "AINEs y propiltiuracilo",
+        "Levotiroxina y prednisona",
+        "Metimazol y propanolol",
+        "Omeprazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer con síntomas de tirotoxicosis (temblor, taquicardia, nerviosismo), antecedente reciente de infección respiratoria y tiroides dolorosa a la palpación, todo lo cual sugiere una tiroiditis subaguda (de Quervain). En esta entidad, el hipertiroidismo es transitorio, por lo que no se usan antitiroideos como metimazol o PTU. El tratamiento es sintomático con antiinflamatorios (AINEs) para el dolor y propranolol para controlar síntomas adrenérgicos. La levotiroxina estaría contraindicada en fase tirotóxica.",
+      "comentario": "Mujer con síntomas de tirotoxicosis (temblor, taquicardia, nerviosismo), antecedente reciente de infección respiratoria y tiroides dolorosa a la palpación, todo lo cual sugiere una tiroiditis subaguda (de Quervain). En esta entidad, el hipertiroidismo es transitorio, por lo que no se usan antitiroideos como metimazol o PTU. El tratamiento es sintomático con antiinflamatorios (AINEs) para el dolor y propranolol para controlar síntomas adrenérgicos. La levotiroxina estaría contraindicada en fase tirotóxica.",
+      "tema": "Tiroiditis subaguda: AINE y propranolol",
+      "año": 2021
+    },
+    {
+      "id": "END-048",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 57 años, diabético tipo 2, en tratamiento con dieta y metformina 2 g/día. Al examen: agudeza visual disminuida. Laboratorio: HbA1c: 9.5 %, glicemia: 450 mg/dL, creatinina 2,3 mg/dL. ¿Cuál es la conducta terapéutica más adecuada?",
+      "opciones": [
+        "Glibenclamida",
+        "Insulina",
+        "Glimepirida",
+        "Hemodiálisis",
+        "Ketorolaco"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con diabetes mellitus tipo 2 mal controlada (HbA1c: 9.5%) y deterioro de función renal (creatinina 2.3 mg/dL), con probable nefropatía diabética. El nivel de glicemia (450 mg/dL) indica hiperglicemia severa que no está siendo controlada con metformina, la cual debe suspenderse por riesgo de acidosis láctica en insuficiencia renal. Las sulfonilureas (glibenclamida, glimepirida) también son riesgosas por potencial de hipoglicemia. En este contexto, el tratamiento más seguro y eficaz es la insulina. Aún no hay criterios inmediatos para hemodiálisis.",
+      "comentario": "Paciente con diabetes mellitus tipo 2 mal controlada (HbA1c: 9.5%) y deterioro de función renal (creatinina 2.3 mg/dL), con probable nefropatía diabética. El nivel de glicemia (450 mg/dL) indica hiperglicemia severa que no está siendo controlada con metformina, la cual debe suspenderse por riesgo de acidosis láctica en insuficiencia renal. Las sulfonilureas (glibenclamida, glimepirida) también son riesgosas por potencial de hipoglicemia. En este contexto, el tratamiento más seguro y eficaz es la insulina. Aún no hay criterios inmediatos para hemodiálisis.",
+      "tema": "DM2 descompensada con falla renal: insulina",
+      "año": 2021
+    },
+    {
+      "id": "END-049",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Gestante de 20 semanas, consulta por aumento de sensibilidad al calor, sudoración excesiva y diarreas frecuentes. Al examen: T°: 39.8 ºC, FC: 150 x´, confusa, exoftalmos, ingurgitación yugular, bocio difuso. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Enfermedad molar",
+        "Tormenta tiroidea",
+        "Adenoma tóxico",
+        "Tirotoxicosis transitoria del embarazo",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Gestante de segundo trimestre con signos de hipermetabolismo severo (fiebre alta, taquicardia extrema, diarrea, exoftalmos, alteración del sensorio) sugiere una tormenta tiroidea, que es una emergencia endocrinológica. Esta condición ocurre en pacientes con hipertiroidismo descompensado (frecuentemente por enfermedad de Graves), desencadenada por infecciones, estrés o embarazo. El diagnóstico es clínico y debe sospecharse ante síntomas severos de tirotoxicosis con compromiso multisistémico. La tirotoxicosis transitoria del embarazo no genera síntomas tan extremos ni alteración de conciencia. El adenoma tóxico no se presenta con oftalmopatía ni curso agudo. La enfermedad molar no explica el bocio ni el perfil clínico descrito. El tratamiento debe iniciarse de inmediato con betabloqueadores, antitiroideos, y soporte intensivo.",
+      "comentario": "Gestante de segundo trimestre con signos de hipermetabolismo severo (fiebre alta, taquicardia extrema, diarrea, exoftalmos, alteración del sensorio) sugiere una tormenta tiroidea, que es una emergencia endocrinológica. Esta condición ocurre en pacientes con hipertiroidismo descompensado (frecuentemente por enfermedad de Graves), desencadenada por infecciones, estrés o embarazo. El diagnóstico es clínico y debe sospecharse ante síntomas severos de tirotoxicosis con compromiso multisistémico. La tirotoxicosis transitoria del embarazo no genera síntomas tan extremos ni alteración de conciencia. El adenoma tóxico no se presenta con oftalmopatía ni curso agudo. La enfermedad molar no explica el bocio ni el perfil clínico descrito. El tratamiento debe iniciarse de inmediato con betabloqueadores, antitiroideos, y soporte intensivo.",
+      "tema": "Tormenta tiroidea en la gestante",
+      "año": 2021
+    },
+    {
+      "id": "END-050",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 26 años diagnosticada de hipertiroidismo hace 6 meses recibe terapia con Iodo radioactivo. Consulta por debilidad muscular que se ha ido incrementando. CPK total y mioglobina, ambas elevadas. La primera posibilidad diagnóstica es:",
+      "opciones": [
+        "Hiperparatiroidismo",
+        "Hipertiroidismo",
+        "Hipoparatiroidismo",
+        "Hipotiroidismo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con antecedente de hipertiroidismo tratado con yodo radioactivo, que consulta por debilidad muscular progresiva, acompañada de elevación de CPK y mioglobina, hallazgos característicos de una miopatía por hipotiroidismo. Esto es una complicación esperada tras terapia ablativa si no se realiza un control hormonal adecuado. Aunque el cuadro muscular podría parecer relacionado con el hipertiroidismo previo, el perfil bioquímico orienta claramente al estado opuesto. Además, ni el hiperparatiroidismo ni los trastornos del calcio explican este patrón. Así, la primera sospecha diagnóstica debe ser hipotiroidismo post tratamiento con yodo.",
+      "comentario": "Paciente con antecedente de hipertiroidismo tratado con yodo radioactivo, que consulta por debilidad muscular progresiva, acompañada de elevación de CPK y mioglobina, hallazgos característicos de una miopatía por hipotiroidismo. Esto es una complicación esperada tras terapia ablativa si no se realiza un control hormonal adecuado. Aunque el cuadro muscular podría parecer relacionado con el hipertiroidismo previo, el perfil bioquímico orienta claramente al estado opuesto. Además, ni el hiperparatiroidismo ni los trastornos del calcio explican este patrón. Así, la primera sospecha diagnóstica debe ser hipotiroidismo post tratamiento con yodo.",
+      "tema": "Hipotiroidismo tras yodo radiactivo: miopatía",
+      "año": 2021
+    },
+    {
+      "id": "END-051",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 65 años, diabético desde hace 20 años, ingresa por emergencia con trastorno de conciencia y respiración de Kussmaul. Laboratorio: glucosa 400 mg/dl, pH 7.23, pCO₂ 30 mmHg, HCO₃⁻ 18 mEq/L. Orina: presencia de betahidroxibutirato. ¿Qué cambios fisiológicos esperaría encontrar?",
+      "opciones": [
+        "Disminución de la excreción renal de bicarbonato",
+        "Disminución de la excreción de amonio en la orina",
+        "Aumento de la excreción pulmonar de amonio",
+        "Disminución de la eliminación pulmonar de CO₂",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta un cuadro de cetoacidosis diabética evidenciado por hiperglucemia, acidosis metabólica con pH bajo, bicarbonato disminuido, respiración de Kussmaul y presencia de cuerpos cetónicos en orina. Frente a este trastorno, el organismo intenta compensar la acidosis eliminando ácidos por vías respiratorias (hiperventilación) y por el riñón. Como parte del mecanismo renal, aumenta la reabsorción de bicarbonato y su conservación, lo que implica una disminución de la excreción renal de bicarbonato, buscando restaurar el equilibrio ácido-base.",
+      "comentario": "El paciente presenta un cuadro de cetoacidosis diabética evidenciado por hiperglucemia, acidosis metabólica con pH bajo, bicarbonato disminuido, respiración de Kussmaul y presencia de cuerpos cetónicos en orina. Frente a este trastorno, el organismo intenta compensar la acidosis eliminando ácidos por vías respiratorias (hiperventilación) y por el riñón. Como parte del mecanismo renal, aumenta la reabsorción de bicarbonato y su conservación, lo que implica una disminución de la excreción renal de bicarbonato, buscando restaurar el equilibrio ácido-base.",
+      "tema": "Cetoacidosis diabética: compensación renal",
+      "año": 2021
+    },
+    {
+      "id": "END-052",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, con Diabetes Mellitus tipo 2 de 15 años de evolución, con mal control metabólico. Refiere desde hace 1 año dolor y parestesias en MMII. Al examen: pérdida de sensibilidad al dolor en MMII. ¿Cuál es el medicamento más apropiado para este problema?",
+      "opciones": [
+        "Tiamina",
+        "Gabapentina",
+        "Tramadol",
+        "Propanolol",
+        "Amoxicilina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente tiene una neuropatía diabética periférica, manifestada por dolor, parestesias y pérdida de sensibilidad. Es una complicación frecuente en diabetes de larga evolución mal controlada. El manejo incluye control glucémico, pero también tratamiento sintomático del dolor neuropático. En este caso, el fármaco más útil es la gabapentina, un modulador del sistema nervioso que alivia el dolor sin depender del metabolismo de la glucosa. La tiamina puede apoyar en casos carenciales, pero no alivia el dolor. Tramadol es analgésico, pero no es de primera línea por riesgo de dependencia.",
+      "comentario": "La paciente tiene una neuropatía diabética periférica, manifestada por dolor, parestesias y pérdida de sensibilidad. Es una complicación frecuente en diabetes de larga evolución mal controlada. El manejo incluye control glucémico, pero también tratamiento sintomático del dolor neuropático. En este caso, el fármaco más útil es la gabapentina, un modulador del sistema nervioso que alivia el dolor sin depender del metabolismo de la glucosa. La tiamina puede apoyar en casos carenciales, pero no alivia el dolor. Tramadol es analgésico, pero no es de primera línea por riesgo de dependencia.",
+      "tema": "Neuropatía diabética dolorosa: gabapentina",
+      "año": 2021
+    },
+    {
+      "id": "END-053",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 38 años, con IMC de 38, obeso desde los 17 años. Ha probado múltiples tratamientos sin éxito, pierde peso y posteriormente lo recupera. Comienza a automedicarse con Orlistat (inhibidor de absorción de grasa), consulta sobre qué otro tratamiento podría adicionar. Su recomendación sería:",
+      "opciones": [
+        "Dieta vegana",
+        "Metformina",
+        "Dieta mediterránea",
+        "Ejercicios aeróbicos",
+        "Ibuprofeno"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón con obesidad grado II, resistente a múltiples intentos de tratamiento, actualmente usa orlistat. En estos casos, la actividad física regular, especialmente el ejercicio aeróbico, es parte clave del tratamiento integral, demostrado científicamente como eficaz en la reducción de peso y mantenimiento a largo plazo. La dieta también es fundamental, pero no sustituye el impacto del ejercicio en la pérdida de masa grasa. Metformina puede usarse en pacientes con insulinorresistencia, pero no es de primera línea para todos los obesos.",
+      "comentario": "Varón con obesidad grado II, resistente a múltiples intentos de tratamiento, actualmente usa orlistat. En estos casos, la actividad física regular, especialmente el ejercicio aeróbico, es parte clave del tratamiento integral, demostrado científicamente como eficaz en la reducción de peso y mantenimiento a largo plazo. La dieta también es fundamental, pero no sustituye el impacto del ejercicio en la pérdida de masa grasa. Metformina puede usarse en pacientes con insulinorresistencia, pero no es de primera línea para todos los obesos.",
+      "tema": "Obesidad: ejercicio aeróbico",
+      "año": 2021
+    },
+    {
+      "id": "END-054",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Interconsulta por mujer de 76 años que permanece estuporosa luego de intervención quirúrgica sin incidentes, por abdomen agudo. Antecedente: hiperlipidemia y angina de pecho. Al examen: en ventilación mecánica por IRA tipo III, cicatriz en la base del cuello, T 32 °C. Laboratorio: Na 127 mEq/L. ¿Cuál es su sospecha diagnóstica?",
+      "opciones": [
+        "Goma mixedematoso",
+        "Hiponatremia severa",
+        "Encefalopatía hipóxica",
+        "Accidente cerebrovascular",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer de edad avanzada, postoperatorio reciente por abdomen agudo, que permanece estuporosa pese a cirugía sin incidentes. Tiene antecedentes cardiovasculares, cicatriz en la base del cuello (probablemente de tiroidectomía previa), ventilación mecánica por insuficiencia respiratoria y temperatura central baja (hipotermia de 32 °C), con hiponatremia moderada. El cuadro clínico es altamente sugerente de coma mixedematoso, una urgencia endocrinológica grave asociada al hipotiroidismo descompensado. Este cuadro se precipita por eventos estresantes (cirugía, infecciones) y se caracteriza por alteración de conciencia, hipotermia, hipoventilación, hiponatremia e hipoglucemia. La presencia de cicatriz cervical sugiere tiroidectomía, reforzando la hipótesis. Ni la encefalopatía hipóxica ni el ACV justifican la hipotermia ni la hiponatremia.",
+      "comentario": "Mujer de edad avanzada, postoperatorio reciente por abdomen agudo, que permanece estuporosa pese a cirugía sin incidentes. Tiene antecedentes cardiovasculares, cicatriz en la base del cuello (probablemente de tiroidectomía previa), ventilación mecánica por insuficiencia respiratoria y temperatura central baja (hipotermia de 32 °C), con hiponatremia moderada. El cuadro clínico es altamente sugerente de coma mixedematoso, una urgencia endocrinológica grave asociada al hipotiroidismo descompensado. Este cuadro se precipita por eventos estresantes (cirugía, infecciones) y se caracteriza por alteración de conciencia, hipotermia, hipoventilación, hiponatremia e hipoglucemia. La presencia de cicatriz cervical sugiere tiroidectomía, reforzando la hipótesis. Ni la encefalopatía hipóxica ni el ACV justifican la hipotermia ni la hiponatremia.",
+      "tema": "Coma mixedematoso posoperatorio",
+      "año": 2022
+    },
+    {
+      "id": "END-055",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Diabético de 78 años. Ingresa a emergencia por presentar conducta bizarra e ideas paranoides, cefalea, confusión mental, debilidad, mareos, visión borrosa. Recibe medicamentos antidiabéticos. Creatinina sérica de 1.8 mg/dl, glicemia 50 mg/dl. ¿Cuál de los siguientes fármacos es responsable de estos síntomas?",
+      "opciones": [
+        "Pioglitazona",
+        "Glibenclamida",
+        "Acarbosa",
+        "Metformina",
+        "Omeprazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente geriátrico con antecedentes de diabetes tipo 2, presenta hipoglicemia sintomática severa (glicemia 50 mg/dL) y síntomas neurológicos como confusión, conducta bizarra e ideas paranoides. La creatinina elevada (1.8 mg/dL) indica disfunción renal, lo cual potencia los efectos de ciertos hipoglicemiantes. Entre ellos, la glibenclamida, una sulfonilurea de vida media prolongada, es la más asociada a hipoglicemia persistente, especialmente en ancianos y pacientes con compromiso renal, ya que su depuración se encuentra disminuida. Pioglitazona y acarbosa no causan hipoglicemia por sí solas, y la metformina se relaciona más con acidosis láctica, no con síntomas hipoglicémicos.",
+      "comentario": "Paciente geriátrico con antecedentes de diabetes tipo 2, presenta hipoglicemia sintomática severa (glicemia 50 mg/dL) y síntomas neurológicos como confusión, conducta bizarra e ideas paranoides. La creatinina elevada (1.8 mg/dL) indica disfunción renal, lo cual potencia los efectos de ciertos hipoglicemiantes. Entre ellos, la glibenclamida, una sulfonilurea de vida media prolongada, es la más asociada a hipoglicemia persistente, especialmente en ancianos y pacientes con compromiso renal, ya que su depuración se encuentra disminuida. Pioglitazona y acarbosa no causan hipoglicemia por sí solas, y la metformina se relaciona más con acidosis láctica, no con síntomas hipoglicémicos.",
+      "tema": "Hipoglucemia por glibenclamida en el adulto mayor con falla renal",
+      "año": 2022
+    },
+    {
+      "id": "END-056",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 45 años, es diagnosticado con DM2 en un establecimiento de salud I-4, consulta por exacerbación de sed excesiva. ¿Cuál criterio determina que sea referido al siguiente nivel?",
+      "opciones": [
+        "Creatinina sérica de 1.2 mg/dl",
+        "Albuminuria mayor de 300 mg/24 horas",
+        "Confirmación diagnóstica por endocrinólogo",
+        "Falta de adherencia al tratamiento instalado",
+        "Aumentar dosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con diagnóstico de diabetes mellitus tipo 2 presenta signos de descompensación clínica. En el contexto de atención primaria en un centro I-4, uno de los criterios de referencia al siguiente nivel de atención es la presencia de daño renal establecido, siendo la albuminuria >300 mg/24 h un marcador de nefropatía diabética significativa. Este hallazgo indica afectación orgánica que excede las capacidades resolutivas del primer nivel. La creatinina aún dentro de límites normales y la falta de adherencia no son criterios formales de referencia inmediata.",
+      "comentario": "Paciente con diagnóstico de diabetes mellitus tipo 2 presenta signos de descompensación clínica. En el contexto de atención primaria en un centro I-4, uno de los criterios de referencia al siguiente nivel de atención es la presencia de daño renal establecido, siendo la albuminuria >300 mg/24 h un marcador de nefropatía diabética significativa. Este hallazgo indica afectación orgánica que excede las capacidades resolutivas del primer nivel. La creatinina aún dentro de límites normales y la falta de adherencia no son criterios formales de referencia inmediata.",
+      "tema": "Diabetes en el primer nivel: referir por albuminuria",
+      "año": 2022
+    },
+    {
+      "id": "END-057",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 57 años sometida a tiroidectomía por carcinoma de tiroides, en el segundo día del postoperatorio cursa con parestesias y calambres en miembros inferiores y en labios. Al examen: fasciculación involuntaria de los músculos faciales desencadenada por un golpe suave sobre el nervio facial. ¿Qué exámenes de laboratorio solicitaría inmediatamente?",
+      "opciones": [
+        "Potasio sérico",
+        "Calcio sérico",
+        "Vitamina D",
+        "TSH",
+        "Ceftriaxona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer de 57 años sometida a tiroidectomía que en el segundo día postoperatorio desarrolla parestesias, calambres en extremidades inferiores y labios, además de fasciculación facial provocada por golpeteo en el nervio facial (signo de Chvostek). Estos signos son altamente sugestivos de hipocalcemia aguda, complicación frecuente luego de cirugía tiroidea por daño o resección accidental de las glándulas paratiroides. La disminución del calcio sérico genera hiperexcitabilidad neuromuscular, manifestada por los síntomas descritos. La vitamina D no se altera de manera aguda y no causa estos signos en el corto plazo. El potasio bajo no provoca fasciculaciones. La TSH tampoco se relaciona con la clínica inmediata. El examen prioritario a solicitar es el calcio sérico.",
+      "comentario": "Mujer de 57 años sometida a tiroidectomía que en el segundo día postoperatorio desarrolla parestesias, calambres en extremidades inferiores y labios, además de fasciculación facial provocada por golpeteo en el nervio facial (signo de Chvostek). Estos signos son altamente sugestivos de hipocalcemia aguda, complicación frecuente luego de cirugía tiroidea por daño o resección accidental de las glándulas paratiroides. La disminución del calcio sérico genera hiperexcitabilidad neuromuscular, manifestada por los síntomas descritos. La vitamina D no se altera de manera aguda y no causa estos signos en el corto plazo. El potasio bajo no provoca fasciculaciones. La TSH tampoco se relaciona con la clínica inmediata. El examen prioritario a solicitar es el calcio sérico.",
+      "tema": "Hipocalcemia postiroidectomía: signo de Chvostek",
+      "año": 2022
+    },
+    {
+      "id": "END-058",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 76 años acude a consulta por dolores musculares y fracturas patológicas. Se le prescribe terapia suplementaria de vitamina D. ¿Cuál es la forma más adecuada para este caso?",
+      "opciones": [
+        "Calcitriol",
+        "Teriparatide",
+        "Cinacalcet",
+        "Colecalciferol",
+        "Prednisona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En adultos mayores con fracturas patológicas y dolores musculares por probable osteoporosis o déficit de vitamina D, la forma más adecuada de suplementación es el colecalciferol (vitamina D3). Esta es la forma inactiva que el organismo puede convertir progresivamente en la forma activa, según necesidad fisiológica, evitando efectos adversos como hipercalcemia. El calcitriol, al ser la forma activa, se reserva para pacientes con insuficiencia renal crónica o alteraciones en la conversión metabólica.",
+      "comentario": "En adultos mayores con fracturas patológicas y dolores musculares por probable osteoporosis o déficit de vitamina D, la forma más adecuada de suplementación es el colecalciferol (vitamina D3). Esta es la forma inactiva que el organismo puede convertir progresivamente en la forma activa, según necesidad fisiológica, evitando efectos adversos como hipercalcemia. El calcitriol, al ser la forma activa, se reserva para pacientes con insuficiencia renal crónica o alteraciones en la conversión metabólica.",
+      "tema": "Suplementación de vitamina D: colecalciferol",
+      "año": 2023
+    },
+    {
+      "id": "END-059",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 28 años, ingresa a UCI con diagnóstico de debut de diabetes mellitus en cetoacidosis diabética. Examen: PA: 80/60 mmHg, FC: 130 X’, SatO₂: 96%, Glasgow 15. ¿Cuál es la medida que NO se debe realizar?",
+      "opciones": [
+        "Insulinoterapia endovenosa para optimizar el medio interno",
+        "Fluidoterapia endovenosa para disminuir la taquicardia sinusal",
+        "Oxigenoterapia para disminuir la frecuencia respiratoria",
+        "Ingesta de líquido vía oral",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En este caso de cetoacidosis diabética, la medida que NO se debe realizar es la ingesta de líquido vía oral, ya que el paciente se encuentra en un estado de shock con una presión arterial baja (PA: 80/60 mmHg), lo que indica una condición crítica. La rehidratación debe ser endovenosa para asegurar una corrección adecuada de la volemia y el equilibrio electrolítico. Además, la ingestión de líquidos por vía oral puede no ser efectiva ni segura en un paciente con deterioro hemodinámico y riesgo de aspiración. Las demás medidas (insulinoterapia, fluidoterapia endovenosa y oxigenoterapia) son fundamentales para el manejo adecuado de la cetoacidosis diabética.",
+      "comentario": "En este caso de cetoacidosis diabética, la medida que NO se debe realizar es la ingesta de líquido vía oral, ya que el paciente se encuentra en un estado de shock con una presión arterial baja (PA: 80/60 mmHg), lo que indica una condición crítica. La rehidratación debe ser endovenosa para asegurar una corrección adecuada de la volemia y el equilibrio electrolítico. Además, la ingestión de líquidos por vía oral puede no ser efectiva ni segura en un paciente con deterioro hemodinámico y riesgo de aspiración. Las demás medidas (insulinoterapia, fluidoterapia endovenosa y oxigenoterapia) son fundamentales para el manejo adecuado de la cetoacidosis diabética.",
+      "tema": "Cetoacidosis diabética con hipotensión: no usar la vía oral",
+      "año": 2023
+    },
+    {
+      "id": "END-060",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Enfermero de 34 años, que durante la pandemia COVID-19 trabajó en UCI durante largas jornadas en 3 hospitales. Se queja de dolores osteoarticulares de intensidad creciente y falta de fuerza proximal. Lab: calcio y fósforo: disminuídos; fosfatasa alcalina: elevada; PTH: 100 pg/m; Rx de huesos: osteopenia. ¿Qué vitamina es necesario administrar?",
+      "opciones": [
+        "C",
+        "A",
+        "E",
+        "D",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Dada la presentación clínica del paciente, que incluye dolores osteoarticulares, debilidad proximal, niveles bajos de calcio y fósforo, fosfatasa alcalina elevada y osteopenia en la radiografía de huesos, la deficiencia más probable es la de vitamina D (Opción D). La vitamina D es crucial para la absorción adecuada de calcio y fósforo en el intestino y la adecuada mineralización de los huesos.",
+      "comentario": "Dada la presentación clínica del paciente, que incluye dolores osteoarticulares, debilidad proximal, niveles bajos de calcio y fósforo, fosfatasa alcalina elevada y osteopenia en la radiografía de huesos, la deficiencia más probable es la de vitamina D (Opción D). La vitamina D es crucial para la absorción adecuada de calcio y fósforo en el intestino y la adecuada mineralización de los huesos.",
+      "tema": "Osteomalacia por déficit de vitamina D",
+      "año": 2023
+    },
+    {
+      "id": "END-061",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, presenta palpitaciones, debilidad y calambres musculares, refiere que está ingiriendo un medicamento para bajar de peso que aumenta la frecuencia del ritmo evacuatorio y ha perdido 8 kilos en un mes. Examen: PA 120/60 mmHg, FC 110 X´, FR 20 X´, T 38.2°C, ansiosa, temblor fino distal, hiperreflexia, no presenta bocio, AGA: alcalosis metabólica, K 3 mEq/l. ¿Cuál es el fármaco causante de esta situación?",
+      "opciones": [
+        "Antipsicóticos",
+        "Anfetaminas",
+        "Hormona tiroidea",
+        "Diuréticos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas descritos, como palpitaciones, temblor fino distal, hiperreflexia, y pérdida de peso, son consistentes de tirotoxicosis que en el contexto de la paciente estar tomando medicamento para bajar de peso suponemos la ingesta de hormonas tiroideas (levotiroxina) (C).",
+      "comentario": "Los síntomas descritos, como palpitaciones, temblor fino distal, hiperreflexia, y pérdida de peso, son consistentes de tirotoxicosis que en el contexto de la paciente estar tomando medicamento para bajar de peso suponemos la ingesta de hormonas tiroideas (levotiroxina) (C).",
+      "tema": "Tirotoxicosis facticia por productos para adelgazar",
+      "año": 2024
+    },
+    {
+      "id": "END-062",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Puérpera de 22 años, hace 1 semana tuvo un parto con gran laceración vaginal, politransfundida, acude por imposibilidad para la lactancia asociado a cefalea intensa. Examen: PA 60/30 mmHg, FC 148 X´, SatO₂ 95%, FiO2 0.40, desorientada, pálida y diaforética. Lab: glucosa 45 mg/dl, Hb 7 g/dl, leucocitos normales. No responde a expansores plasmáticos. ¿Qué medicamento administraría en primer lugar?",
+      "opciones": [
+        "Infusión de glucosa",
+        "Tiroxina",
+        "Hidrocortisona",
+        "Piperacilina/tazobactam",
+        "Ciprofloxacino"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La clínica de choque refractario, hipoglucemia y antecedentes de parto complicado sugieren insuficiencia suprarrenal secundaria a síndrome de Sheehan, atribuido a una crisis adrenal. La hidrocortisona es el tratamiento de elección. La infusión de glucosa corrige parcialmente, pero no trata la causa; la tiroxina es para hipotiroidismo y los antibióticos para infecciones.",
+      "comentario": "La clínica de choque refractario, hipoglucemia y antecedentes de parto complicado sugieren insuficiencia suprarrenal secundaria a síndrome de Sheehan, atribuido a una crisis adrenal. La hidrocortisona es el tratamiento de elección. La infusión de glucosa corrige parcialmente, pero no trata la causa; la tiroxina es para hipotiroidismo y los antibióticos para infecciones.",
+      "tema": "Síndrome de Sheehan con crisis suprarrenal: hidrocortisona",
+      "año": 2024
+    }
+  ]
+}

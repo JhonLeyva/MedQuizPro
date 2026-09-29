@@ -1,0 +1,781 @@
+{
+  "especialidad": "Psiquiatría",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "PSI-001",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?",
+      "opciones": {
+        "A": "Haloperidol",
+        "B": "Diazepam como monoterapia",
+        "C": "Un inhibidor selectivo de la recaptación de serotonina, como sertralina",
+        "D": "Carbonato de litio como monoterapia",
+        "E": "Terapia electroconvulsiva"
+      },
+      "clave_correcta": "C",
+      "comentario": "Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."
+    },
+    {
+      "id": "PSI-002",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años que acude a emergencia por episodios de palpitaciones, falta de aire, temblor, miedo a morir, parestesias y dolor en el pecho. Laboratorio: gases arteriales y EKG normales. Ha tenido 6 episodios en 2 meses. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Esquizofrenia simple",
+        "Trastorno bipolar",
+        "Trastorno de pánico",
+        "Agitación psicomotriz",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.",
+      "comentario": "Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.",
+      "tema": "Trastornos de ansiedad",
+      "año": 2020
+    },
+    {
+      "id": "PSI-003",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 15 años, admitida por náuseas, vómitos, parestesias peribucales y espasmo carpopedal. Familiar informa que tras discusión con la madre la observó agitada y taquipneica. AGA: pH=7.45, PCO2=28, HCO3=22. ¿Cuál sería la conducta inicial?",
+      "opciones": [
+        "Infusión de bicarbonato",
+        "Interconsulta a psicología",
+        "Hacerla respirar en bolsa de papel",
+        "Administrar ansiolíticos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
+      "comentario": "La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.",
+      "tema": "Trastornos ácido-base y psiquiatría",
+      "año": 2020
+    },
+    {
+      "id": "PSI-004",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente de 15 años traída a emergencia por pérdida de conciencia. Examen: no responde, bradipnea y respiración superficial. Familiares refieren aislamiento, llanto, insomnio y falta de aseo tras agresión en el colegio hace 3 semanas. Madre consume ansiolíticos. Se sospecha intento suicida. ¿Cuál es el fármaco adecuado?",
+      "opciones": [
+        "Atropina",
+        "Naloxona",
+        "Flumazenilo",
+        "Epinefrina",
+        "Ibuprofeno"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.",
+      "comentario": "Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.",
+      "tema": "Urgencias toxicológicas",
+      "año": 2020
+    },
+    {
+      "id": "PSI-005",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 24 años con lesiones cortantes autoinfligidas tras ruptura sentimental. Refiere que lo hizo para que su enamorada regresara. La madre informa que ya antes tomó clonazepam en disputas de pareja. Se considera un caso de:",
+      "opciones": [
+        "Intento suicida",
+        "Gesto suicida",
+        "Depresión",
+        "Riesgo suicida",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
+      "comentario": "La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.",
+      "tema": "Urgencias psiquiátricas",
+      "año": 2020
+    },
+    {
+      "id": "PSI-006",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 32 años es llevada a emergencia por intentos de autoagresión y mal control de impulsos. Familiares refieren promiscuidad sexual, historia de abuso de sustancias tóxicas y malas relaciones familiares. Aliento alcohólico. ¿Qué tipo de personalidad presenta la paciente?",
+      "opciones": [
+        "Histriónica",
+        "Antisocial",
+        "Obsesiva-compulsiva",
+        "Limítrofe",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).",
+      "comentario": "La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).",
+      "tema": "Trastornos de la personalidad",
+      "año": 2020
+    },
+    {
+      "id": "PSI-007",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente quien luego de la pérdida de su madre, queda con sentimientos de culpa, no puede dormir y se ha aislado. ¿Cuál de los siguientes riesgos con mayor frecuencia tiene el paciente?",
+      "opciones": [
+        "Psicosis",
+        "Autolesión",
+        "Suicidio",
+        "Drogadicción",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El adolescente que experimenta la pérdida de un ser querido, como la madre, está en un alto riesgo emocional debido a sentimientos de culpa, insomnio y aislamiento social. Estas manifestaciones son factores de riesgo importantes para conductas suicidas. La depresión reactiva tras una pérdida puede intensificar la ideación suicida, especialmente en jóvenes. Aunque la autolesión y la drogadicción también son posibles, el suicidio es la complicación más grave y frecuente en este contexto. La intervención temprana y el apoyo psicológico son esenciales para prevenir este desenlace. Por ello, se debe monitorizar y brindar acompañamiento constante al paciente.",
+      "comentario": "El adolescente que experimenta la pérdida de un ser querido, como la madre, está en un alto riesgo emocional debido a sentimientos de culpa, insomnio y aislamiento social. Estas manifestaciones son factores de riesgo importantes para conductas suicidas. La depresión reactiva tras una pérdida puede intensificar la ideación suicida, especialmente en jóvenes. Aunque la autolesión y la drogadicción también son posibles, el suicidio es la complicación más grave y frecuente en este contexto. La intervención temprana y el apoyo psicológico son esenciales para prevenir este desenlace. Por ello, se debe monitorizar y brindar acompañamiento constante al paciente.",
+      "tema": "Duelo y riesgo suicida en adolescentes",
+      "año": 2020
+    },
+    {
+      "id": "PSI-008",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 40 años, desde el inicio de la pandemia COVID-19, se lava las manos en forma muy frecuente, piensa que todo está contaminado, motivo por el cual usa guantes desechables, desinfecta constantemente sus objetos de uso personal con alcohol. Se ha aislado socialmente. Reconoce que su conducta es exagerada, pero no puede evitarlo. ¿Cuál es el probable trastorno?",
+      "opciones": [
+        "Mixto ansioso-depresivo",
+        "Obsesivo-compulsivo",
+        "Depresivo con síntomas obsesivos",
+        "Esquizoafectivo",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un trastorno obsesivo-compulsivo (TOC), caracterizado por obsesiones (pensamientos repetitivos sobre contaminación) y compulsiones (lavado excesivo de manos). La conciencia de la irracionalidad de su conducta no evita que persista. El aislamiento social y la exagerada higiene son comunes en este trastorno. La pandemia pudo haber exacerbado los síntomas por el miedo al contagio. El TOC requiere abordaje psicológico y, a menudo, farmacológico para mejorar la calidad de vida. Detectarlo a tiempo es esencial para un manejo adecuado.",
+      "comentario": "El paciente presenta un trastorno obsesivo-compulsivo (TOC), caracterizado por obsesiones (pensamientos repetitivos sobre contaminación) y compulsiones (lavado excesivo de manos). La conciencia de la irracionalidad de su conducta no evita que persista. El aislamiento social y la exagerada higiene son comunes en este trastorno. La pandemia pudo haber exacerbado los síntomas por el miedo al contagio. El TOC requiere abordaje psicológico y, a menudo, farmacológico para mejorar la calidad de vida. Detectarlo a tiempo es esencial para un manejo adecuado.",
+      "tema": "Trastorno obsesivo-compulsivo",
+      "año": 2020
+    },
+    {
+      "id": "PSI-009",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 58 años, vive sola. HTA y artritis reumatoide en tratamiento. Desde hace 4 meses presenta alucinaciones auditivas y cenestésicas, con ideas delirantes de perjuicio por parte de sus vecinos, refiere conversar con Dios. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome confusional",
+        "Demencia frontal",
+        "Esquizofrenia paranoide",
+        "Psicosis psicógena",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro descrito es característico de una esquizofrenia paranoide, donde predominan las alucinaciones auditivas y cenestésicas, junto con ideas delirantes de perjuicio. La edad y la historia clínica no excluyen este diagnóstico, pues puede presentarse en adultos mayores. La presencia de conversaciones con Dios sugiere contenido delirante de tipo religioso, común en este trastorno. Es fundamental diferenciarlo de síndromes confusionales y demencias para un manejo adecuado. El tratamiento antipsicótico es la base del abordaje para mejorar la calidad de vida del paciente.",
+      "comentario": "El cuadro descrito es característico de una esquizofrenia paranoide, donde predominan las alucinaciones auditivas y cenestésicas, junto con ideas delirantes de perjuicio. La edad y la historia clínica no excluyen este diagnóstico, pues puede presentarse en adultos mayores. La presencia de conversaciones con Dios sugiere contenido delirante de tipo religioso, común en este trastorno. Es fundamental diferenciarlo de síndromes confusionales y demencias para un manejo adecuado. El tratamiento antipsicótico es la base del abordaje para mejorar la calidad de vida del paciente.",
+      "tema": "Esquizofrenia paranoide",
+      "año": 2020
+    },
+    {
+      "id": "PSI-010",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente de 16 años desde hace 3 meses hiporexia e insomnio. Ha desaprobado 4 cursos y no desea salir con sus amigas y se siente irritada con su familia, aunque no lo entiende. Tiene dolores de cabeza y a veces le viene la idea de quitarse la vida, ya que no lo haría por sus creencias religiosas. Nunca le había sucedido algo parecido. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Anorexia nervosa",
+        "Trastorno ciclotímico",
+        "Trastorno distímico",
+        "Episodio depresivo mayor",
+        "Tuberculosis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La adolescente presenta signos típicos de un episodio depresivo mayor, con hiporexia, insomnio, irritabilidad, bajo rendimiento académico y pensamientos suicidas sin intención activa. La duración mayor a dos semanas y la afectación funcional confirman el diagnóstico. La ausencia previa de síntomas y la negación a actuar sobre sus ideas suicidas fortalecen la identificación del episodio. Es esencial realizar evaluación psiquiátrica integral y brindar apoyo psicológico y farmacológico oportuno para evitar complicaciones mayores. La detección temprana mejora el pronóstico.",
+      "comentario": "La adolescente presenta signos típicos de un episodio depresivo mayor, con hiporexia, insomnio, irritabilidad, bajo rendimiento académico y pensamientos suicidas sin intención activa. La duración mayor a dos semanas y la afectación funcional confirman el diagnóstico. La ausencia previa de síntomas y la negación a actuar sobre sus ideas suicidas fortalecen la identificación del episodio. Es esencial realizar evaluación psiquiátrica integral y brindar apoyo psicológico y farmacológico oportuno para evitar complicaciones mayores. La detección temprana mejora el pronóstico.",
+      "tema": "Episodio depresivo mayor",
+      "año": 2020
+    },
+    {
+      "id": "PSI-011",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 45 años que vive sola en aislamiento estricto por la pandemia COVID-19, es atendida por un médico en su domicilio. Manifiesta sensación de muerte, falta de aire, palpitaciones y temblores. Examen: PA: 150/85 mmHg, FC: 100 x´, FR: 24 x´, Sat O2 97 %, diaforética, aparato respiratorio: normal. Al término de la atención se siente aliviada. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Crisis hipertensiva",
+        "Ataque de pánico",
+        "Síndrome conversivo",
+        "Depresión enmascarada",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El cuadro clínico es característico de un ataque de pánico, con inicio súbito de síntomas como disnea, palpitaciones, temblores, sensación de muerte inminente y diaforesis, en un contexto de aislamiento por pandemia. El examen físico no revela hallazgos orgánicos que expliquen los síntomas, lo cual refuerza el origen psicógeno. La resolución espontánea tras la visita médica también es típica de este trastorno. Es fundamental realizar un diagnóstico diferencial con causas médicas agudas, pero una vez descartadas, se debe brindar manejo psicoterapéutico y considerar tratamiento farmacológico si los episodios se repiten.",
+      "comentario": "El cuadro clínico es característico de un ataque de pánico, con inicio súbito de síntomas como disnea, palpitaciones, temblores, sensación de muerte inminente y diaforesis, en un contexto de aislamiento por pandemia. El examen físico no revela hallazgos orgánicos que expliquen los síntomas, lo cual refuerza el origen psicógeno. La resolución espontánea tras la visita médica también es típica de este trastorno. Es fundamental realizar un diagnóstico diferencial con causas médicas agudas, pero una vez descartadas, se debe brindar manejo psicoterapéutico y considerar tratamiento farmacológico si los episodios se repiten.",
+      "tema": "Ataque de pánico",
+      "año": 2020
+    },
+    {
+      "id": "PSI-012",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 17 años, tras frustrado ingreso a la universidad hace 30 días, se encierra en su dormitorio evitando el contacto familiar y presenta sueño intranquilo e interrumpido. Familiares refieren que previamente al examen lo notaron hiperactivo, verborreico y muy autosuficiente. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Esquizofrenia",
+        "Depresión mayor",
+        "Estado bipolar",
+        "Trastorno de adaptación",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente de 17 años que atraviesa una fase depresiva tras un evento negativo (fracaso en examen), pero con antecedentes recientes de hiperactividad, verborrea y autoestima exagerada, características de un episodio maníaco o hipomaníaco. El curso bifásico del trastorno, con fase de exaltación seguida por fase depresiva, es altamente sugestivo de un trastorno afectivo bipolar tipo I o II, dependiendo de la intensidad del episodio previo. La esquizofrenia queda descartada por ausencia de síntomas psicóticos; la depresión mayor no explica la fase eufórica anterior, y el trastorno de adaptación no presenta síntomas tan polarizados. Por lo tanto, la opción más adecuada es el estado bipolar.",
+      "comentario": "Paciente de 17 años que atraviesa una fase depresiva tras un evento negativo (fracaso en examen), pero con antecedentes recientes de hiperactividad, verborrea y autoestima exagerada, características de un episodio maníaco o hipomaníaco. El curso bifásico del trastorno, con fase de exaltación seguida por fase depresiva, es altamente sugestivo de un trastorno afectivo bipolar tipo I o II, dependiendo de la intensidad del episodio previo. La esquizofrenia queda descartada por ausencia de síntomas psicóticos; la depresión mayor no explica la fase eufórica anterior, y el trastorno de adaptación no presenta síntomas tan polarizados. Por lo tanto, la opción más adecuada es el estado bipolar.",
+      "tema": "Trastorno bipolar",
+      "año": 2021
+    },
+    {
+      "id": "PSI-013",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 43 años llegó a Lima para trabajar hace 3 meses y desde entonces presenta insomnio, cambios de humor e irritabilidad. Habla poco, es muy desconfiada, en el trabajo se desenvuelve lo mejor que puede y se alegra cuando escucha noticias de su terruño o de sus familiares. ¿Qué trastorno se evidencia en este caso?",
+      "opciones": [
+        "Disociativo",
+        "Somatización",
+        "Adaptación",
+        "Ansioso-depresivo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El caso describe a una mujer con síntomas emocionales tras un cambio importante en su entorno: insomnio, irritabilidad, desconfianza y fluctuaciones del estado de ánimo desde que se mudó a Lima. Pese a estas molestias, conserva funcionalidad en el trabajo y encuentra alivio con estímulos vinculados a su hogar. Todo ello encaja con un trastorno de adaptación, común ante estresores psicosociales significativos. No se trata de un trastorno disociativo (con desconexión de la identidad), ni de somatización (síntomas físicos sin causa médica), ni de un cuadro ansioso-depresivo clínico establecido.",
+      "comentario": "El caso describe a una mujer con síntomas emocionales tras un cambio importante en su entorno: insomnio, irritabilidad, desconfianza y fluctuaciones del estado de ánimo desde que se mudó a Lima. Pese a estas molestias, conserva funcionalidad en el trabajo y encuentra alivio con estímulos vinculados a su hogar. Todo ello encaja con un trastorno de adaptación, común ante estresores psicosociales significativos. No se trata de un trastorno disociativo (con desconexión de la identidad), ni de somatización (síntomas físicos sin causa médica), ni de un cuadro ansioso-depresivo clínico establecido.",
+      "tema": "Trastorno de adaptación",
+      "año": 2021
+    },
+    {
+      "id": "PSI-014",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 22 años desde hace 1 hora presenta sensación de falta de aire, sudoración, palpitaciones, dolor torácico opresivo y temblor generalizado que la hacen sentir “que se va a morir”. El cuadro cede espontáneamente. Refiere que el episodio suele repetirse de forma esporádica ante situaciones de estrés. ¿Cuál es el diagnósti co más probable?",
+      "opciones": [
+        "Crisis de pánico",
+        "Depresión mayor",
+        "Trastorno obsesivo",
+        "Síndrome de abstinencia",
+        "Asma bronquial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Se trata de una paciente joven que presenta un episodio autolimitado caracterizado por disnea súbita, palpitaciones, sudoración, temblores, dolor torácico y sensación de muerte inminente. La intensidad del cuadro, su duración limitada y la aparición en contextos de estrés orientan claramente a una crisis de pánico. Esta es una entidad del espectro de los trastornos de ansiedad, en la cual los episodios pueden parecer clínicamente severos, pero no tienen una causa orgánica subyacente. La ausencia de alteraciones fisiológicas en los exámenes y la historia de recurrencias confirman el diagnóstico.",
+      "comentario": "Se trata de una paciente joven que presenta un episodio autolimitado caracterizado por disnea súbita, palpitaciones, sudoración, temblores, dolor torácico y sensación de muerte inminente. La intensidad del cuadro, su duración limitada y la aparición en contextos de estrés orientan claramente a una crisis de pánico. Esta es una entidad del espectro de los trastornos de ansiedad, en la cual los episodios pueden parecer clínicamente severos, pero no tienen una causa orgánica subyacente. La ausencia de alteraciones fisiológicas en los exámenes y la historia de recurrencias confirman el diagnóstico.",
+      "tema": "Crisis de pánico",
+      "año": 2021
+    },
+    {
+      "id": "PSI-015",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Adolescente de 13 años, hospitalizada por deshidratación y desnutrición con IMC 15. La madre refiere que con frecuencia su hija se provoca vómitos. ¿Qué trastorno del medio interno espera encontrar?",
+      "opciones": [
+        "Acidosis metabólica",
+        "Acidosis hipoclorémica",
+        "Alcalosis hiperclorémica",
+        "Alcalosis hipoclorémica",
+        "Tuberculosis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta signos de trastorno alimentario tipo bulimia nerviosa, caracterizado por provocarse vómitos con frecuencia. Esto conlleva pérdida significativa de ácido gástrico (HCl), produciendo un desequilibrio hidroelectrolítico típico: alcalosis metabólica e hipocloremia. Esta pérdida de protones (H⁺) eleva el pH sanguíneo, mientras que la pérdida de cloro (Cl⁻) reduce su concentración plasmática. Además, la hipopotasemia suele acompañar al cuadro, ya que el organismo compensa el déficit de volumen activando el sistema renina-angiotensina- aldosterona, promoviendo la excreción de potasio. La combinación de alcalosis con hipocloremia es un hallazgo clásico en pacientes con vómitos inducidos. Las otras alternativas no se ajustan al mecanismo fisiopatológico descrito.",
+      "comentario": "La paciente presenta signos de trastorno alimentario tipo bulimia nerviosa, caracterizado por provocarse vómitos con frecuencia. Esto conlleva pérdida significativa de ácido gástrico (HCl), produciendo un desequilibrio hidroelectrolítico típico: alcalosis metabólica e hipocloremia. Esta pérdida de protones (H⁺) eleva el pH sanguíneo, mientras que la pérdida de cloro (Cl⁻) reduce su concentración plasmática. Además, la hipopotasemia suele acompañar al cuadro, ya que el organismo compensa el déficit de volumen activando el sistema renina-angiotensina- aldosterona, promoviendo la excreción de potasio. La combinación de alcalosis con hipocloremia es un hallazgo clásico en pacientes con vómitos inducidos. Las otras alternativas no se ajustan al mecanismo fisiopatológico descrito.",
+      "tema": "Conducta purgativa: alcalosis hipoclorémica",
+      "año": 2022
+    },
+    {
+      "id": "PSI-016",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Médico infectólogo de 45 años, desde hace 3 meses se ha aislado de sus compañeros de trabajo. Refiere que ha inventado una vacuna contra el coronavirus y que por eso le darán el Premio Nobel. Además, expresa que le quieren robar su invento y que quieren matarlo. Cree que le han puesto micrófonos y cámaras en su departamento. Al examen: desaseado y ansioso. ¿Cuál es su diagnóstico probable?",
+      "opciones": [
+        "Síndrome de Burnout",
+        "Psicosis depresiva",
+        "Esquizofrenia paranoide",
+        "Trastorno Bipolar",
+        "Neumonía adquirida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico muestra un aislamiento social progresivo, delirios de grandeza (cree haber creado una vacuna) y de persecución (cree que lo quieren matar y espían su casa), sin alteración evidente del estado de ánimo. Estos síntomas son característicos de la esquizofrenia paranoide, subtipo donde predominan los delirios y alucinaciones con conservación del lenguaje y la afectividad en etapas iniciales. El síndrome de Burnout cursa con agotamiento laboral y despersonalización, pero sin delirios. La psicosis depresiva se manifiesta con tristeza profunda y delirios congruentes con el est ado de ánimo, no de grandeza. El trastorno bipolar requiere fases alternantes de manía y depresión, lo cual no se describe aquí. Por tanto, el diagnóstico más probable es esquizofrenia paranoide.",
+      "comentario": "El cuadro clínico muestra un aislamiento social progresivo, delirios de grandeza (cree haber creado una vacuna) y de persecución (cree que lo quieren matar y espían su casa), sin alteración evidente del estado de ánimo. Estos síntomas son característicos de la esquizofrenia paranoide, subtipo donde predominan los delirios y alucinaciones con conservación del lenguaje y la afectividad en etapas iniciales. El síndrome de Burnout cursa con agotamiento laboral y despersonalización, pero sin delirios. La psicosis depresiva se manifiesta con tristeza profunda y delirios congruentes con el est ado de ánimo, no de grandeza. El trastorno bipolar requiere fases alternantes de manía y depresión, lo cual no se describe aquí. Por tanto, el diagnóstico más probable es esquizofrenia paranoide.",
+      "tema": "Esquizofrenia paranoide",
+      "año": 2022
+    },
+    {
+      "id": "PSI-017",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 58 años desde hace seis semanas refiere que se siente triste, vacío, en las noches insomnio y no tiene ganas de levantarse en las mañanas. Ha presentado problemas de atención en el trabajo y en última semana tiene ideas suicidas recurrentes. ¿Cuál es el diagnostico más probable?",
+      "opciones": [
+        "Fibromialgia",
+        "Trastorno de ansiedad",
+        "Síndrome depresivo",
+        "Seudodemencia",
+        "Cirrosis hepática"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente varón adulto que presenta un cuadro clínico de más de dos semanas de evolución caracterizado por ánimo triste, anhedonia, insomnio, dificultad para iniciar el día, alteraciones cognitivas (problemas de atención) e ideas suicidas, lo cual cumple criterios para síndrome depresivo mayor. Estos síntomas afectan significativamente su funcionamiento social y laboral, y son característicos de un trastorno afectivo depresivo. La aparición de ideas suicidas indica además la necesidad de intervención urgente. Por lo tanto, el diagnóstico más probable es síndrome depresivo.",
+      "comentario": "Paciente varón adulto que presenta un cuadro clínico de más de dos semanas de evolución caracterizado por ánimo triste, anhedonia, insomnio, dificultad para iniciar el día, alteraciones cognitivas (problemas de atención) e ideas suicidas, lo cual cumple criterios para síndrome depresivo mayor. Estos síntomas afectan significativamente su funcionamiento social y laboral, y son característicos de un trastorno afectivo depresivo. La aparición de ideas suicidas indica además la necesidad de intervención urgente. Por lo tanto, el diagnóstico más probable es síndrome depresivo.",
+      "tema": "Episodio depresivo con ideación suicida",
+      "año": 2023
+    },
+    {
+      "id": "PSI-018",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 24 años, desde hace cuatro meses empezó a faltar a su trabajo varios días y descuidó su aseo personal. Examen: orientado en tiempo y persona, refiere que no va a su trabajo porque le quieren hacer daño, escucha voces que le advierten que la quieren atacar. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Bournout",
+        "Psicosis",
+        "Fobia social",
+        "Depresión",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta un cuadro de cuatro meses de evolución con síntomas psicóticos claros: ideas delirantes de persecución (\"le quieren hacer daño\") y alucinaciones auditivas (voces que le advierten). A pesar de estar orientada, estos síntomas indican una desconexión con la realidad. La alteración funcional (abandono del trabajo y del aseo personal) refuerza la sospecha. No hay síntomas típicos de fobia social (ansiedad en contextos sociales), ni de burnout (agotamiento laboral sin psicosis), ni se evidencian criterios suficientes para un diagnóstico primario de depresión mayor. Por tanto, la opción correcta es psicosis, por presencia de síntomas positivos (alucinaciones, delirios).",
+      "comentario": "La paciente presenta un cuadro de cuatro meses de evolución con síntomas psicóticos claros: ideas delirantes de persecución (\"le quieren hacer daño\") y alucinaciones auditivas (voces que le advierten). A pesar de estar orientada, estos síntomas indican una desconexión con la realidad. La alteración funcional (abandono del trabajo y del aseo personal) refuerza la sospecha. No hay síntomas típicos de fobia social (ansiedad en contextos sociales), ni de burnout (agotamiento laboral sin psicosis), ni se evidencian criterios suficientes para un diagnóstico primario de depresión mayor. Por tanto, la opción correcta es psicosis, por presencia de síntomas positivos (alucinaciones, delirios).",
+      "tema": "Psicosis: delirios y alucinaciones",
+      "año": 2023
+    },
+    {
+      "id": "PSI-019",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 73 años, con diagnóstico de demencia, desde hace tres días recibe haloperidol 10 mg cada 8 horas por vía intravenosa, actualmente presenta rigidez muscular generalizada y diaforesis profusa. Examen: PA 80/50 mmHg, FC 110 X', T 39.2°C, incapacidad para la deambulación. Lab: creatinina 1.8 mg/dL, CPK 2220 U/L. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome neuroléptico maligno",
+        "Acatisia",
+        "Encefalopatía tóxica",
+        "Trastorno bipolar en fase de manía",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En este caso clínico, la presentación de rigidez muscular generalizada, diaforesis profusa, hipotensión, taquicardia, hipertermia y elevaciones significativas de la creatinina y la creatina quinasa (CPK) sugieren fuertemente la posibilidad de síndrome neuroléptico maligno (Opción A). El Síndrome Neuroléptico Maligno (SNM) es una complicación potencialmente mortal asociada con el uso de antipsicóticos, como el haloperidol. Los síntomas incluyen rigidez muscular, alteraciones en el estado mental, hipertermia, taquicardia, hipotensión, diaforesis y cambios en los niveles de CPK. La elevación de la creatinina sugiere daño renal, que también puede ocurrir en el SNM.",
+      "comentario": "En este caso clínico, la presentación de rigidez muscular generalizada, diaforesis profusa, hipotensión, taquicardia, hipertermia y elevaciones significativas de la creatinina y la creatina quinasa (CPK) sugieren fuertemente la posibilidad de síndrome neuroléptico maligno (Opción A). El Síndrome Neuroléptico Maligno (SNM) es una complicación potencialmente mortal asociada con el uso de antipsicóticos, como el haloperidol. Los síntomas incluyen rigidez muscular, alteraciones en el estado mental, hipertermia, taquicardia, hipotensión, diaforesis y cambios en los niveles de CPK. La elevación de la creatinina sugiere daño renal, que también puede ocurrir en el SNM.",
+      "tema": "Síndrome neuroléptico maligno",
+      "año": 2023
+    },
+    {
+      "id": "PSI-020",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 49 años que ha perdido su trabajo y era el único sustento de su familia, se siente con ánimo muy decaído, no puede dormir e incluso está pensado en \"quitarse la vida\" porque no encuentra la solución para sus problemas. Se inicia soporte psicológico. ¿Qué tratamiento indicaría?",
+      "opciones": [
+        "Haloperidol",
+        "Risperidona",
+        "Sertralina",
+        "Quetiapina",
+        "Furosemida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Ante un paciente con síntomas de depresión mayor, como tristeza persistente, dificultad para conciliar el sueño, pensamientos de suicidio y un evento estresante significativo como la pérdida del empleo, el tratamiento más adecuado es Sertralina (Opción C). La sertralina es un antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina (ISRS) y es una opción de tratamiento de primera línea para la depresión mayor. Ha demostrado ser efectiva y segura en el tratamiento de los síntomas depresivos, incluidos los pensamientos suicidas. Además, puede ser útil en pacientes con trastornos de ansiedad concomitantes, ya que también está aprobada para el tratamiento de trastornos de ansiedad.",
+      "comentario": "Ante un paciente con síntomas de depresión mayor, como tristeza persistente, dificultad para conciliar el sueño, pensamientos de suicidio y un evento estresante significativo como la pérdida del empleo, el tratamiento más adecuado es Sertralina (Opción C). La sertralina es un antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina (ISRS) y es una opción de tratamiento de primera línea para la depresión mayor. Ha demostrado ser efectiva y segura en el tratamiento de los síntomas depresivos, incluidos los pensamientos suicidas. Además, puede ser útil en pacientes con trastornos de ansiedad concomitantes, ya que también está aprobada para el tratamiento de trastornos de ansiedad.",
+      "tema": "Depresión con ideación suicida: sertralina",
+      "año": 2023
+    },
+    {
+      "id": "PSI-021",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Puérpera de 36 años, que acaba de tener su primer hijo hace 22 días, acude por presentar llanto frecuente, tristeza, preocupación y miedo, se siente incapaz de cuidar a su hijo, por lo que ha necesitado asistencia para el cuidado de su bebé y refiere pensamientos de autolesión. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Labilidad puerperal",
+        "Psicosis posparto",
+        "Trastorno adaptativo",
+        "Depresión posparto",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El diagnóstico más probable es depresión posparto. Este trastorno afecta a muchas mujeres después del parto y se caracteriza por síntomas como tristeza persistente, llanto frecuente, preocupaciones, miedos, incapacidad para cuidar al bebé, y pensamientos de autolesión, como se describe en el caso de la paciente. La depresión posparto suele ocurrir en las primeras semanas o meses después del nacimiento, y no debe confundirse con la labilidad puerperal, que es más transitoria y no suele incluir pensamientos d e autolesión. Además, este trastorno debe ser tratado con intervención profesional para evitar complicaciones.",
+      "comentario": "El diagnóstico más probable es depresión posparto. Este trastorno afecta a muchas mujeres después del parto y se caracteriza por síntomas como tristeza persistente, llanto frecuente, preocupaciones, miedos, incapacidad para cuidar al bebé, y pensamientos de autolesión, como se describe en el caso de la paciente. La depresión posparto suele ocurrir en las primeras semanas o meses después del nacimiento, y no debe confundirse con la labilidad puerperal, que es más transitoria y no suele incluir pensamientos d e autolesión. Además, este trastorno debe ser tratado con intervención profesional para evitar complicaciones.",
+      "tema": "Depresión posparto",
+      "año": 2024
+    },
+    {
+      "id": "PSI-022",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, presenta en forma brusca palpitaciones, sensación de ahogo y de muerte inminente sin causa aparente. Hace 3 meses presentó episodio similar. Examen: PA: 160/85 mmHg, FC: 110 X´, FR: 30 X´, T°: 37 °C, SatO₂ 95 %; facies ansiosa, sudoración profusa, aparato cardiovascular sin alteraciones. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Encefalopatía hipertensiva",
+        "Ataque de pánico",
+        "Síndrome conversivo",
+        "Infarto de miocardio",
+        "Cirrosis hepática"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta un cuadro típico de ataque de pánico, caracterizado por palpitaciones, sensación de ahogo, miedo intenso y sudoración profusa, sin una causa aparente. La hipertensión transitoria y la taquicardia pueden ser consecuencia de la respuesta adrenérgica al episodio de ansiedad aguda. Además, el antecedente de un episodio similar refuerza el diagnóstico. No hay datos clínicos que sugieran encefalopatía hipertensiva, síndrome conversivo o infarto de miocardio, ya que el examen cardiovascular es normal y la saturación de oxígeno es adecuada.",
+      "comentario": "La paciente presenta un cuadro típico de ataque de pánico, caracterizado por palpitaciones, sensación de ahogo, miedo intenso y sudoración profusa, sin una causa aparente. La hipertensión transitoria y la taquicardia pueden ser consecuencia de la respuesta adrenérgica al episodio de ansiedad aguda. Además, el antecedente de un episodio similar refuerza el diagnóstico. No hay datos clínicos que sugieran encefalopatía hipertensiva, síndrome conversivo o infarto de miocardio, ya que el examen cardiovascular es normal y la saturación de oxígeno es adecuada.",
+      "tema": "Ataque de pánico",
+      "año": 2024
+    },
+    {
+      "id": "PSI-023",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 52 años con trastorno bipolar y tratamiento regular. Traída por intento de suicidio con convulsiones y alteración del estado de conciencia. Examen: somnolienta, movimientos involuntarios, ataxia y disartria. RC arritmicos. Laboratorio: creatinina: 1.8 mg/dL, litio sérico: 6 mEq/L (valor referencial 1.5). ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Lavado gástrico",
+        "Fluidoterapia",
+        "Diuréticos",
+        "Hemodiálisis",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta una intoxicación grave por litio, evidenciada por niveles séricos de 6 mEq/L (muy por encima del valor terapéutico). Los síntomas neurológicos y la insuficiencia renal (creatinina elevada) indican una depuración disminuida del fármaco. La hemodiálisis es el tratamiento de elección en intoxicaciones severas para eliminar rápidamente el litio del organismo y evitar complicaciones neurológicas y cardiovasculares.",
+      "comentario": "La paciente presenta una intoxicación grave por litio, evidenciada por niveles séricos de 6 mEq/L (muy por encima del valor terapéutico). Los síntomas neurológicos y la insuficiencia renal (creatinina elevada) indican una depuración disminuida del fármaco. La hemodiálisis es el tratamiento de elección en intoxicaciones severas para eliminar rápidamente el litio del organismo y evitar complicaciones neurológicas y cardiovasculares.",
+      "tema": "Intoxicación grave por litio: hemodiálisis",
+      "año": 2024
+    },
+    {
+      "id": "PSI-024",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 24 años, es diagnosticado hace 2 años de esquizofrenia. Sus síntomas psicóticos se manejan bien con haloperidol; sin embargo, la familia refiere que no puede estar quieto y camina por toda la casa. ¿Cuál es el mejor agente para tratar esta acatisia inducida por el antipsicótico?",
+      "opciones": [
+        "Propranolol",
+        "Bromocriptina",
+        "Benzodiazepina",
+        "Dantronelo",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La acatisia es un efecto secundario común de los antipsicóticos, y el tratamiento de elección es el propranolol (A), un beta-bloqueante que ha demostrado eficacia para aliviar los síntomas motores de la acatisia, como la inquietud y la incapacidad para quedarse quieto. La bromocriptina (B) es útil en el tratamiento del parkinsonismo, pero no es la mejor opción para la acatisia. Las benzodiacepinas (C) pueden aliviar la ansiedad, pero no abordan el síntoma motor específico de la acatisia, y el dantroleno (D) es más indicado para el tratamiento de la hipertermia maligna o rigidez muscular.",
+      "comentario": "La acatisia es un efecto secundario común de los antipsicóticos, y el tratamiento de elección es el propranolol (A), un beta-bloqueante que ha demostrado eficacia para aliviar los síntomas motores de la acatisia, como la inquietud y la incapacidad para quedarse quieto. La bromocriptina (B) es útil en el tratamiento del parkinsonismo, pero no es la mejor opción para la acatisia. Las benzodiacepinas (C) pueden aliviar la ansiedad, pero no abordan el síntoma motor específico de la acatisia, y el dantroleno (D) es más indicado para el tratamiento de la hipertermia maligna o rigidez muscular.",
+      "tema": "Acatisia por antipsicóticos: propranolol",
+      "año": 2024
+    },
+    {
+      "id": "PSI-025",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, desde hace 12 meses presenta intensa preocupación por cualquier actividad diaria, lo cual la pone inquieta e irritable. Refiere falta de concentración y tensión muscular asociada a insomnio, iniciaron cuando comenzaron a reducir el personal del trabajo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Trastorno por somatización",
+        "Fobia específica",
+        "Trastorno de ansiedad",
+        "Trastorno distímico",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Mujer joven con síntomas ansiosos persistentes por al menos 12 meses, con preocupación excesiva por múltiples aspectos de la vida diaria, acompañada de síntomas físicos como tensión muscular, insomnio, irritabilidad y dificultad para concentrarse. No se asocia a situaciones específicas ni a síntomas somáticos múltiples ni a humor deprimido persistente. El cuadro es típico de un trastorno de ansiedad generalizada (TAG), especialmente considerando el desencadenante laboral. La duración mayor a 6 meses apoya este diagnóstico.",
+      "comentario": "Mujer joven con síntomas ansiosos persistentes por al menos 12 meses, con preocupación excesiva por múltiples aspectos de la vida diaria, acompañada de síntomas físicos como tensión muscular, insomnio, irritabilidad y dificultad para concentrarse. No se asocia a situaciones específicas ni a síntomas somáticos múltiples ni a humor deprimido persistente. El cuadro es típico de un trastorno de ansiedad generalizada (TAG), especialmente considerando el desencadenante laboral. La duración mayor a 6 meses apoya este diagnóstico.",
+      "tema": "Trastorno de ansiedad generalizada",
+      "año": 2024
+    },
+    {
+      "id": "PSI-026",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 32 años es llevado a emergencia por sus familiares por gran agitación psicomotriz y porque dice que “me persiguen unos sicarios para matarme”. Examen: PA 165/95 mmHg, FC 115 X´, T 38.5°C, midriasis bilateral reactiva, perforación del tabique nasal y movimientos estereotipados. ¿Cuál es la causa más probable de este cuadro?",
+      "opciones": [
+        "Cocaína",
+        "Fentanilo",
+        "Éxtasis",
+        "Marihuana",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente joven presenta un cuadro sugestivo de psicosis tóxica acompañado de hipertermia, hipertensión, taquicardia, midriasis, movimientos estereotipados y perforación del tabique nasal. Este último hallazgo es especialmente relevante, ya que es característico del consumo crónico de cocaína, que por vasoconstricción intensa causa necrosis del tabique nasal. Además, la agitación, paranoia intensa y el delirio persecutorio también son típicos del cuadro psicótico inducido por cocaína. El éxtasis puede causar hipertermia y midriasis, pero no perfora el tabique; el fentanilo no genera psicosis y la marihuana tampoco induce este cuadro.",
+      "comentario": "El paciente joven presenta un cuadro sugestivo de psicosis tóxica acompañado de hipertermia, hipertensión, taquicardia, midriasis, movimientos estereotipados y perforación del tabique nasal. Este último hallazgo es especialmente relevante, ya que es característico del consumo crónico de cocaína, que por vasoconstricción intensa causa necrosis del tabique nasal. Además, la agitación, paranoia intensa y el delirio persecutorio también son típicos del cuadro psicótico inducido por cocaína. El éxtasis puede causar hipertermia y midriasis, pero no perfora el tabique; el fentanilo no genera psicosis y la marihuana tampoco induce este cuadro.",
+      "tema": "Intoxicación por cocaína",
+      "año": 2024
+    },
+    {
+      "id": "PSI-027",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Adolescente de 14 años, hace 1 año comienza a perder interés por la ingestión de alimentos y temor excesivo a engordar. ¿Qué alteración cardíaca ocurre más frecuentemente en esta patología?",
+      "opciones": [
+        "Intervalo QT largo",
+        "Onda T hiperaguda",
+        "Onda Q prominente",
+        "Bajo voltaje de la onda P",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Adolescente con historia de un año de restricción alimentaria y temor excesivo a subir de peso, altamente sugestivo de anorexia nerviosa, trastorno de la conducta alimentaria con múltiples repercusiones sistémicas. A nivel cardíaco, las complicaciones más frecuentes son bradicardia sinusal y prolongación del intervalo QT, esta última asociada a desequilibrios electrolíticos como hipopotasemia, hipomagnesemia o hipocalcemia, y representa un riesgo potencial de arritmias malignas como torsade de pointes. No es común hallar onda T hiperaguda, ni Q prominente o P de bajo voltaje como manifestaciones típicas. Por tanto, el hallazgo más frecuente y clínicamente relevante es el intervalo QT prolongado.",
+      "comentario": "Adolescente con historia de un año de restricción alimentaria y temor excesivo a subir de peso, altamente sugestivo de anorexia nerviosa, trastorno de la conducta alimentaria con múltiples repercusiones sistémicas. A nivel cardíaco, las complicaciones más frecuentes son bradicardia sinusal y prolongación del intervalo QT, esta última asociada a desequilibrios electrolíticos como hipopotasemia, hipomagnesemia o hipocalcemia, y representa un riesgo potencial de arritmias malignas como torsade de pointes. No es común hallar onda T hiperaguda, ni Q prominente o P de bajo voltaje como manifestaciones típicas. Por tanto, el hallazgo más frecuente y clínicamente relevante es el intervalo QT prolongado.",
+      "tema": "Anorexia nerviosa: QT largo",
+      "año": 2025
+    },
+    {
+      "id": "PSI-028",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Adolescente de 13 años quien presenta miedo intenso a ganar peso, alteración en la forma en que percibe su propio peso y restricción de la ingesta energética. ¿Cuál es el diagnóstico adecuado?",
+      "opciones": [
+        "Trastorno de evitación",
+        "Anorexia nerviosa",
+        "Bulimia nerviosa",
+        "Trastorno por atracón",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Adolescente de 13 años con miedo intenso a ganar peso, alteración de la imagen corporal y restricción alimentaria marcada. Este patrón clínico es característico de la anorexia nerviosa, un trastorno del comportamiento alimentario con origen multifactorial, donde intervienen factores biológicos, psicológicos y socioculturales. Fisiopatológicamente, la restricción calórica prolongada produce hipoestrogenismo, bradicardia, hipotermia y alteraciones hidroelectrolíticas por desnutrición. El componente central es la distorsión de la autoimagen y el temor patológico a engordar, incluso con bajo peso evidente. A diferencia de la bulimia, aquí no hay atracones recurrentes seguidos de purgas, sino control estricto de la ingesta. Clínicamente, predomina la negación del problema y la búsqueda compulsiva de delgadez.",
+      "comentario": "Adolescente de 13 años con miedo intenso a ganar peso, alteración de la imagen corporal y restricción alimentaria marcada. Este patrón clínico es característico de la anorexia nerviosa, un trastorno del comportamiento alimentario con origen multifactorial, donde intervienen factores biológicos, psicológicos y socioculturales. Fisiopatológicamente, la restricción calórica prolongada produce hipoestrogenismo, bradicardia, hipotermia y alteraciones hidroelectrolíticas por desnutrición. El componente central es la distorsión de la autoimagen y el temor patológico a engordar, incluso con bajo peso evidente. A diferencia de la bulimia, aquí no hay atracones recurrentes seguidos de purgas, sino control estricto de la ingesta. Clínicamente, predomina la negación del problema y la búsqueda compulsiva de delgadez.",
+      "tema": "Anorexia nerviosa",
+      "año": 2025
+    },
+    {
+      "id": "PSI-029",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Un paciente viene a su consulta, con síntomas de llanto fácil, sentimientos de minusvalía, bradipsiquia. Usted decide darle un inhibidor selectivo de la recaptación de serotonina (ISRS). ¿Qué condiciones debe tener en cuenta al prescribirlo?",
+      "opciones": [
+        "La interrupción del tratamiento debe ser gradual y bajo supervisión médica",
+        "Puede causar tolerancia rápidamente",
+        "Se debe iniciar con una dosis alta y paulatinamente ir disminuyendo, para impregnar el fármaco",
+        "No es de elección primaria en caso de ansiedad",
+        "Solicitar nuevo cultivo"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con síntomas depresivos caracterizados por bradipsiquia, llanto fácil y sentimientos de minusvalía requiere tratamiento con un inhibidor selectivo de la recaptación de serotonina (ISRS). Estos fármacos aumentan la disponibilidad sináptica de serotonina, mejorando el estado afectivo. Sin embargo, su suspensión brusca puede generar síndrome de discontinuación con síntomas como irritabilidad, mareos y parestesias. La fisiopatología subyacente es el reajuste abrupto de receptores serotoninérgicos centrales. Por ello, la interrupción debe realizarse de manera gradual y bajo control médico. Además, los ISRS son de primera elección en depresión y ansiedad, sin generar tolerancia significativa.",
+      "comentario": "Paciente con síntomas depresivos caracterizados por bradipsiquia, llanto fácil y sentimientos de minusvalía requiere tratamiento con un inhibidor selectivo de la recaptación de serotonina (ISRS). Estos fármacos aumentan la disponibilidad sináptica de serotonina, mejorando el estado afectivo. Sin embargo, su suspensión brusca puede generar síndrome de discontinuación con síntomas como irritabilidad, mareos y parestesias. La fisiopatología subyacente es el reajuste abrupto de receptores serotoninérgicos centrales. Por ello, la interrupción debe realizarse de manera gradual y bajo control médico. Además, los ISRS son de primera elección en depresión y ansiedad, sin generar tolerancia significativa.",
+      "tema": "ISRS: retiro gradual",
+      "año": 2025
+    },
+    {
+      "id": "PSI-030",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 34 años con amenorrea de 24 semanas, náuseas, congestión mamaria y percepción de movimientos fetales. Ecografía: útero normal sin saco gestacional. β -hCG: 0.1 mUI/mL. ¿Diagnóstico más probable?",
+      "opciones": [
+        "Embarazo ectópico",
+        "Gestación inicial",
+        "Aborto incompleto",
+        "Pseudociesis",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente mujer con amenorrea prolongada de 24 semanas, asociada a síntomas típicos de gestación como náuseas, congestión mamaria y percepción subjetiva de movimientos fetales. Sin embargo, la ecografía muestra un útero de tamaño normal sin saco gestacional ni embrión, hallazgo que descarta presencia real de embarazo intrauterino o ectópico. El valor de β -hCG en 0.1 mUI/mL confirma ausencia absoluta de actividad trofoblástica. Fisiopatológicamente, la pseudociesis se relaciona con alteraciones neuroendocrinas inducidas por factores psicológicos, generando síntomas somáticos reales. No corresponde a aborto incompleto, ya que este tendría restos concepcionales y β -hCG detectables. La gestación inicial se descarta por amenorrea prolongada. Por lo tanto, el cuadro es compatible con pseudociesis.",
+      "comentario": "Paciente mujer con amenorrea prolongada de 24 semanas, asociada a síntomas típicos de gestación como náuseas, congestión mamaria y percepción subjetiva de movimientos fetales. Sin embargo, la ecografía muestra un útero de tamaño normal sin saco gestacional ni embrión, hallazgo que descarta presencia real de embarazo intrauterino o ectópico. El valor de β -hCG en 0.1 mUI/mL confirma ausencia absoluta de actividad trofoblástica. Fisiopatológicamente, la pseudociesis se relaciona con alteraciones neuroendocrinas inducidas por factores psicológicos, generando síntomas somáticos reales. No corresponde a aborto incompleto, ya que este tendría restos concepcionales y β -hCG detectables. La gestación inicial se descarta por amenorrea prolongada. Por lo tanto, el cuadro es compatible con pseudociesis.",
+      "tema": "Pseudociesis",
+      "año": 2025
+    },
+    {
+      "id": "PSI-031",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 40 años postoperado en 2 día por fractura de fémur, se le encuentra ansioso, confuso y refiere visión de serpientes y escorpiones que se mueven en su cama. Es consumidor más de 40 g de alcohol al día. Al examen: FC: 100 X´, T: 38 °C, midriasis, temblor de manos y los párpados, sudoración profusa. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de abstinencia",
+        "Embolia grasa",
+        "Hematoma subdural",
+        "Encefalopatía urémica",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con antecedentes de alto consumo de alcohol, postoperado reciente, que presenta síntomas neuropsiquiátricos como alucinaciones visuales (zoopsias), ansiedad, confusión, temblores y signos de hiperactividad autonómica (taquicardia, fiebre, midriasis, sudoración). Este cuadro es altamente sugestivo de delirium tremens, una forma grave del síndrome de abstinencia alcohólica, que suele iniciarse 48–72 horas tras la suspensión del consumo en personas dependientes. La embolia grasa se considera en fracturas de huesos largos, pero presenta disnea y petequias, no alucinaciones. El hematoma subdural y la encefalopatía urémica no encajan con el contexto ni el cuadro clínico.",
+      "comentario": "Paciente con antecedentes de alto consumo de alcohol, postoperado reciente, que presenta síntomas neuropsiquiátricos como alucinaciones visuales (zoopsias), ansiedad, confusión, temblores y signos de hiperactividad autonómica (taquicardia, fiebre, midriasis, sudoración). Este cuadro es altamente sugestivo de delirium tremens, una forma grave del síndrome de abstinencia alcohólica, que suele iniciarse 48–72 horas tras la suspensión del consumo en personas dependientes. La embolia grasa se considera en fracturas de huesos largos, pero presenta disnea y petequias, no alucinaciones. El hematoma subdural y la encefalopatía urémica no encajan con el contexto ni el cuadro clínico.",
+      "tema": "Delirium tremens en el posoperatorio",
+      "año": 2021
+    },
+    {
+      "id": "PSI-032",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 21 años, es traída por su madre, refiere epigastralgia, dice que siente que ha aumentado de peso como consecuencia de “episodios de atracones” de alimentos y que necesita “purga” de manera recurrente como mecanismo compensatorio. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Bulimia",
+        "Anorexia nerviosa",
+        "Depresión reactiva",
+        "Síndrome ansioso",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente femenina joven refiere episodios recurrentes de ingesta excesiva de alimentos (atracones), seguidos por conductas compensatorias como el deseo de “purgarse” para evitar el aumento de peso, lo que es característico del trastorno por bulimia nerviosa. A diferencia de la anorexia, en la bulimia el peso suele mantenerse dentro de rangos normales o incluso ligeramente elevados. No hay indicios de distorsión grave de la imagen corporal ni pérdida de peso extrema, lo cual también aleja el diagnóstico de anorexia. Asimismo, aunque puede haber síntomas depresivos o ansiosos asociados, el núcleo del trastorno es la conducta alimentaria desadaptativa, por lo que la bulimia es el diagnóstico correcto.",
+      "comentario": "Paciente femenina joven refiere episodios recurrentes de ingesta excesiva de alimentos (atracones), seguidos por conductas compensatorias como el deseo de “purgarse” para evitar el aumento de peso, lo que es característico del trastorno por bulimia nerviosa. A diferencia de la anorexia, en la bulimia el peso suele mantenerse dentro de rangos normales o incluso ligeramente elevados. No hay indicios de distorsión grave de la imagen corporal ni pérdida de peso extrema, lo cual también aleja el diagnóstico de anorexia. Asimismo, aunque puede haber síntomas depresivos o ansiosos asociados, el núcleo del trastorno es la conducta alimentaria desadaptativa, por lo que la bulimia es el diagnóstico correcto.",
+      "tema": "Bulimia nerviosa",
+      "año": 2021
+    },
+    {
+      "id": "PSI-033",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 17 años, luego de discusión con la madre, presenta pérdida de la conexión con el medio, movimientos tónicos y aparente opistótonos, movimientos rotatorios en la cama, recuperó conexión con el medio apenas terminado el cuadro. No antecedentes d e convulsiones. Al examen: funciones vitales estables, se aprecia en punta de lengua escoriaciones. No otros signos. La primera posibilidad diagnóstica es crisis:",
+      "opciones": [
+        "Mioclónica",
+        "Parcial simple",
+        "Focal generalizada",
+        "Pseudoepiléptica",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente adolescente que, tras una discusión, desarrolla un episodio agudo con desconexión del medio, movimientos tónicos y opistótonos, seguido de recuperación completa inmediata y sin antecedentes neurológicos. La presencia de desencadenante emocional agudo, movimientos no estereotipados (rotación en cama) y recuperación súbita son altamente sugestivos de una crisis psicógena no epiléptica o pseudoepiléptica, más común en adolescentes y mujeres. La ausencia de signos como mordedura de lengua lateral, incontinencia urinaria o confusión postictal también apoya este diagnóstico. Se descartan crisis epilépticas verdaderas por su semiología atípica y contexto psicológico claro. Se trata de un cuadro funcional de conversión.",
+      "comentario": "Paciente adolescente que, tras una discusión, desarrolla un episodio agudo con desconexión del medio, movimientos tónicos y opistótonos, seguido de recuperación completa inmediata y sin antecedentes neurológicos. La presencia de desencadenante emocional agudo, movimientos no estereotipados (rotación en cama) y recuperación súbita son altamente sugestivos de una crisis psicógena no epiléptica o pseudoepiléptica, más común en adolescentes y mujeres. La ausencia de signos como mordedura de lengua lateral, incontinencia urinaria o confusión postictal también apoya este diagnóstico. Se descartan crisis epilépticas verdaderas por su semiología atípica y contexto psicológico claro. Se trata de un cuadro funcional de conversión.",
+      "tema": "Crisis psicógena no epiléptica",
+      "año": 2021
+    },
+    {
+      "id": "PSI-034",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Adolescente con cambios bipolares del estado de ánimo, de impulsivo y agresivo a intensa depresión. ¿Cuál de los siguientes será el factor más determinante para predisponerlo a un mayor riesgo suicida?",
+      "opciones": [
+        "Agresión sexual",
+        "Sufrir accidente doméstico",
+        "Pertenecer a grupo religioso",
+        "Tener varios hermanos",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente es un adolescente con fluctuaciones intensas del estado de ánimo, compatibles con un trastorno afectivo bipolar, que alterna fases de impulsividad/agresividad con depresión profunda. En este contexto, se debe evaluar el riesgo suicida, el cual se incrementa con factores estresantes severos. La agresión sexual se reconoce como uno de los desencadenantes más importantes y graves, especialmente en adolescentes, ya que conlleva sentimientos de vergüenza, culpa, disociación y trastornos de ansiedad o depresivos persistentes, lo cual multiplica el riesgo suicida. Las otras opciones (accidente doméstico, grupo religioso o número de hermanos) no tienen una asociación significativa o consistente con suicidio. Por lo tanto, la agresión sexual es el factor más determinante en este escenario clínico.",
+      "comentario": "El paciente es un adolescente con fluctuaciones intensas del estado de ánimo, compatibles con un trastorno afectivo bipolar, que alterna fases de impulsividad/agresividad con depresión profunda. En este contexto, se debe evaluar el riesgo suicida, el cual se incrementa con factores estresantes severos. La agresión sexual se reconoce como uno de los desencadenantes más importantes y graves, especialmente en adolescentes, ya que conlleva sentimientos de vergüenza, culpa, disociación y trastornos de ansiedad o depresivos persistentes, lo cual multiplica el riesgo suicida. Las otras opciones (accidente doméstico, grupo religioso o número de hermanos) no tienen una asociación significativa o consistente con suicidio. Por lo tanto, la agresión sexual es el factor más determinante en este escenario clínico.",
+      "tema": "Riesgo suicida en el adolescente: agresión sexual",
+      "año": 2021
+    },
+    {
+      "id": "PSI-035",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "La dislexia es una disfunción del desarrollo que se caracteriza por discapacidad para:",
+      "opciones": [
+        "Realizar operaciones matemáticas",
+        "Enhebrar frases",
+        "Escribir",
+        "Leer",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La dislexia es un trastorno del neurodesarrollo caracterizado principalmente por la dificultad en el aprendizaje de la lectura. Los niños con dislexia presentan alteraciones en la decodificación de palabras, fluidez lectora y comprensión. No se debe a déficit intelectual ni a falta de oportunidades educativas, sino a una disfunción en el procesamiento fonológico del lenguaje. Puede asociarse con errores de sustitución o inversión de letras y lentitud al leer. Es fundamental identificarla a tiempo para evitar repercusiones emocionales y académicas. A diferencia de otras dificultades como la discalculia (matemáticas) o disgrafía (escritura), la dislexia afecta directamente la lectura.",
+      "comentario": "La dislexia es un trastorno del neurodesarrollo caracterizado principalmente por la dificultad en el aprendizaje de la lectura. Los niños con dislexia presentan alteraciones en la decodificación de palabras, fluidez lectora y comprensión. No se debe a déficit intelectual ni a falta de oportunidades educativas, sino a una disfunción en el procesamiento fonológico del lenguaje. Puede asociarse con errores de sustitución o inversión de letras y lentitud al leer. Es fundamental identificarla a tiempo para evitar repercusiones emocionales y académicas. A diferencia de otras dificultades como la discalculia (matemáticas) o disgrafía (escritura), la dislexia afecta directamente la lectura.",
+      "tema": "Dislexia: trastorno de la lectura",
+      "año": 2021
+    },
+    {
+      "id": "PSI-036",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 50 años que presenta sensación persistente de tristeza y desesperanza, dificultad para concentrarse e ideas suicidas. Refiere que últimamente escucha voces y ve personas que sus familiares ni oyen ni ven. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Trastorno afectivo estacional",
+        "Depresión mayor",
+        "Distimia",
+        "Depresión psicótica",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con síntomas cardinales de depresión mayor (tristeza, desesperanza, ideas suicidas) a los que se suman síntomas psicóticos (alucinaciones auditivas y visuales). La presencia de síntomas psicóticos en el contexto de un trastorno depresivo grave define el cuadro de depresión psicótica, una condición severa que requiere tratamiento con antidepresivos y antipsicóticos, o incluso terapia electroconvulsiva. Es importante diferenciarla del trastorno esquizoafectivo y de los trastornos psicóticos primarios por el predominio claro del ánimo deprimido. El diagnóstico oportuno puede prevenir conductas suicidas.",
+      "comentario": "Paciente con síntomas cardinales de depresión mayor (tristeza, desesperanza, ideas suicidas) a los que se suman síntomas psicóticos (alucinaciones auditivas y visuales). La presencia de síntomas psicóticos en el contexto de un trastorno depresivo grave define el cuadro de depresión psicótica, una condición severa que requiere tratamiento con antidepresivos y antipsicóticos, o incluso terapia electroconvulsiva. Es importante diferenciarla del trastorno esquizoafectivo y de los trastornos psicóticos primarios por el predominio claro del ánimo deprimido. El diagnóstico oportuno puede prevenir conductas suicidas.",
+      "tema": "Depresión psicótica",
+      "año": 2021
+    },
+    {
+      "id": "PSI-037",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Niño de 4 años, padres consultan porque desde hace 3 meses presenta episodios de despertar nocturno brusco a razón de una vez por semana, se asocia a sensación de pánico, llegando a sentarse en la cama. No presenta enuresis y al despertar en la mañana no tiene recuerdo del episodio. Al examen: eutrófico, facies no característica, el lenguaje y desarrollo psicomotor está de acuerdo a su edad. ¿Qué recomendación daría?",
+      "opciones": [
+        "Evaluación de psicólogo al niño y padres",
+        "Solicitar polisomnografía",
+        "Explicar a padres que se autolimita",
+        "Realizar electroencefalograma",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Niño con episodios recurrentes de despertar nocturno brusco, sensación de pánico y amnesia del episodio matutino. Este patrón es característico del terror nocturno, un trastorno del sueño no REM típico de la infancia. No se asocia a patología neurológica ni requiere estudios especializados como polisomnografía o EEG salvo que haya signos atípicos. El niño tiene desarrollo normal, sin enuresis ni alteraciones del comportamiento. La mejor conducta es explicar a los padres que estos episodios son benignos, autolimitados y desaparecen con la edad. Evitar factores estresantes o privación de sueño ayuda. No requiere intervención médica ni psicológica activa.",
+      "comentario": "Niño con episodios recurrentes de despertar nocturno brusco, sensación de pánico y amnesia del episodio matutino. Este patrón es característico del terror nocturno, un trastorno del sueño no REM típico de la infancia. No se asocia a patología neurológica ni requiere estudios especializados como polisomnografía o EEG salvo que haya signos atípicos. El niño tiene desarrollo normal, sin enuresis ni alteraciones del comportamiento. La mejor conducta es explicar a los padres que estos episodios son benignos, autolimitados y desaparecen con la edad. Evitar factores estresantes o privación de sueño ayuda. No requiere intervención médica ni psicológica activa.",
+      "tema": "Terrores nocturnos: explicar que se autolimitan",
+      "año": 2022
+    },
+    {
+      "id": "PSI-038",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 34 años, en su tercer matrimonio, discute constantemente con su esposo; luego se provoca cortes en los brazos y acude a emergencia para que la suturen. Amenaza con suicidarse y pelea permanentemente con sus vecinos. Consume marihuana ocasionalmente y tiene miedo de que su actual esposo la abandone. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Fase maníaca de un trastorno afectivo bipolar",
+        "Trastorno de ansiedad generalizada",
+        "Trastorno de personalidad esquizotípico",
+        "Trastorno de personalidad limite",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El trastorno de personalidad límite (TPL) se caracteriza por un patrón generalizado de inestabilidad en: • Relaciones interpersonales • Autoimagen • Afectividad Además, se asocia a una marcada impulsividad. Síntomas frecuentes: • Inestabilidad emocional (cambios rápidos del estado de ánimo) • Comportamiento impulsivo (cortes, amenazas de suicidio) • Dificultad para mantener relaciones estables (peleas frecuentes, temor al abandono) • Sentimientos crónicos de vacío y problemas de regulación emocional En este caso, la paciente presenta cortes en los brazos, amenazas de suicidio, miedo al abandono y conflictos interpersonales constantes, lo que orienta al diagnóstico de TPL.",
+      "comentario": "El trastorno de personalidad límite (TPL) se caracteriza por un patrón generalizado de inestabilidad en: • Relaciones interpersonales • Autoimagen • Afectividad Además, se asocia a una marcada impulsividad. Síntomas frecuentes: • Inestabilidad emocional (cambios rápidos del estado de ánimo) • Comportamiento impulsivo (cortes, amenazas de suicidio) • Dificultad para mantener relaciones estables (peleas frecuentes, temor al abandono) • Sentimientos crónicos de vacío y problemas de regulación emocional En este caso, la paciente presenta cortes en los brazos, amenazas de suicidio, miedo al abandono y conflictos interpersonales constantes, lo que orienta al diagnóstico de TPL.",
+      "tema": "Trastorno límite de la personalidad",
+      "año": 2023
+    },
+    {
+      "id": "PSI-039",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Adolescente de 17 años, consume cocaína por primera vez y le produce agitación psicomotriz, taquicardia, palpitaciones y sensación de muerte. Llega al hospital y usted decide pasarlo a observación para monitoreo. ¿Cuál es el tratamiento inmediato?",
+      "opciones": [
+        "Lanatósido C",
+        "Amiodarona",
+        "Propanolol",
+        "Diazepam",
+        "Metronidazol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta una intoxicación aguda por cocaína tras el primer consumo, con manifestaciones de estimulación simpática: agitación, taquicardia, palpitaciones y ansiedad severa con sensación de muerte. Este cuadro es típico de una crisis adrenérgica inducida por cocaína, la cual aumenta los niveles de dopamina, noradrenalina y serotonina. El tratamiento inmediato busca controlar la agitación psicomotora, reducir el riesgo de arritmias y prevenir complicaciones cardiovasculares. Las benzodiacepinas como el diazepam son el tratamiento de primera línea porque disminuyen la excitación del sistema nervioso central, controlan la ansiedad y la hiperactividad autonómica sin interferir con la conducción cardíaca. Los betabloqueadores como el propranolol están contraindicados porque pueden causar vasoconstricción paradójica por bloqueo beta con estimulación alfa sin oposición. El lanatósido C y la amiodarona no están indicados en ausencia de arritmias graves.",
+      "comentario": "El paciente presenta una intoxicación aguda por cocaína tras el primer consumo, con manifestaciones de estimulación simpática: agitación, taquicardia, palpitaciones y ansiedad severa con sensación de muerte. Este cuadro es típico de una crisis adrenérgica inducida por cocaína, la cual aumenta los niveles de dopamina, noradrenalina y serotonina. El tratamiento inmediato busca controlar la agitación psicomotora, reducir el riesgo de arritmias y prevenir complicaciones cardiovasculares. Las benzodiacepinas como el diazepam son el tratamiento de primera línea porque disminuyen la excitación del sistema nervioso central, controlan la ansiedad y la hiperactividad autonómica sin interferir con la conducción cardíaca. Los betabloqueadores como el propranolol están contraindicados porque pueden causar vasoconstricción paradójica por bloqueo beta con estimulación alfa sin oposición. El lanatósido C y la amiodarona no están indicados en ausencia de arritmias graves.",
+      "tema": "Intoxicación aguda por cocaína: benzodiacepinas",
+      "año": 2023
+    },
+    {
+      "id": "PSI-040",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 8 años es traído por su tía al médico por presentar cefalea. Examen: niño muestra facies de tristeza. Resto del examen sin alteraciones. Ampliando la anamnesis, refiere que su madre se fue de casa hace un año y constantemente su padre le echa la culpa de cualquier problema, lo humilla y constantemente lo insulta. ¿Cuál es su conducta a seguir ante este maltrato psicológico?",
+      "opciones": [
+        "Informar a la autoridad competente",
+        "Hablar con el padre",
+        "Hablar con la asistenta social",
+        "Interconsulta a psicología",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El maltrato psicológico reiterado (humillaciones, insultos, culpabilización) es una forma de violencia contra el niño. En el Perú, el Código de los Niños y Adolescentes y la Ley 30364 obligan al personal de salud a comunicarlo a la autoridad competente (Defensoría Municipal del Niño, Policía, Fiscalía o Centro Emergencia Mujer), además de dar atención médica y apoyo psicológico. Derivar solo a psicología o conversar con el agresor no protege al menor.",
+      "comentario": "El maltrato psicológico reiterado (humillaciones, insultos, culpabilización) es una forma de violencia contra el niño. En el Perú, el Código de los Niños y Adolescentes y la Ley 30364 obligan al personal de salud a comunicarlo a la autoridad competente (Defensoría Municipal del Niño, Policía, Fiscalía o Centro Emergencia Mujer), además de dar atención médica y apoyo psicológico. Derivar solo a psicología o conversar con el agresor no protege al menor.",
+      "tema": "Maltrato psicológico infantil: comunicar a la autoridad",
+      "año": 2023
+    },
+    {
+      "id": "PSI-041",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 18 años con familia disfuncional; vive con su madre y dos hermanos. Refiere que desde la infancia la madre le delegó muchas responsabilidades, además tiene conflictos con sus hermanos porque dice que hablan mal de ella; al pasar un avión dice que el ruido lo han enviado sus hermanos para incomodarla. No come por temor que la envenenen. ¿Qué tipo de psicosis presenta?",
+      "opciones": [
+        "Catatónica",
+        "Confusional",
+        "Esquizofrénica",
+        "Paranoide",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta un cuadro compatible con psicosis paranoide, caracterizado por ideas delirantes de perjuicio y persecución, como el temor a ser envenenada y la creencia de que sus hermanos conspiran contra ella. Además, interpreta de manera delirante estímulos externos, como el ruido de un avión. Este tipo de psicosis se asocia con la esquizofrenia paranoide, donde predominan los delirios sistematizados y las alucinaciones auditivas o persecutorias. Es fundamental una evaluación psiquiátrica para confirmar el diagnóstico e iniciar tratamiento con antipsicóticos, además de un abordaje psicosocial para mejorar su funcionalidad.",
+      "comentario": "La paciente presenta un cuadro compatible con psicosis paranoide, caracterizado por ideas delirantes de perjuicio y persecución, como el temor a ser envenenada y la creencia de que sus hermanos conspiran contra ella. Además, interpreta de manera delirante estímulos externos, como el ruido de un avión. Este tipo de psicosis se asocia con la esquizofrenia paranoide, donde predominan los delirios sistematizados y las alucinaciones auditivas o persecutorias. Es fundamental una evaluación psiquiátrica para confirmar el diagnóstico e iniciar tratamiento con antipsicóticos, además de un abordaje psicosocial para mejorar su funcionalidad.",
+      "tema": "Psicosis paranoide",
+      "año": 2024
+    }
+  ]
+}

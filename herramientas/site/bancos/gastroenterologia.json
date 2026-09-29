@@ -1,0 +1,1370 @@
+{
+  "especialidad": "Gastroenterología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "GAS-001",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 55 años con cirrosis hepática por alcohol llega a emergencia con hematemesis abundante. PA 90/60 mmHg, FC 112 lpm. Se aseguran dos vías venosas y se inicia la reposición de volumen de forma restrictiva. Mientras se prepara la endoscopía, ¿qué fármaco debe iniciarse?",
+      "opciones": {
+        "A": "Propranolol endovenoso",
+        "B": "Terlipresina u octreotide endovenoso",
+        "C": "Vitamina K como única medida",
+        "D": "Omeprazol oral",
+        "E": "Lactulosa por sonda nasogástrica como única medida"
+      },
+      "clave_correcta": "B",
+      "comentario": "Ante sospecha de hemorragia variceal en un cirrótico se inicia de inmediato un vasoactivo esplácnico (terlipresina, somatostatina u octreotide), junto con profilaxis antibiótica (ceftriaxona) y endoscopía con ligadura en las primeras 12 horas. Los betabloqueadores no selectivos se usan en profilaxis, no en el sangrado agudo con hipotensión. La reposición de volumen debe ser restrictiva (hemoglobina objetivo 7-8 g/dL) para no aumentar la presión portal."
+    },
+    {
+      "id": "GAS-002",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 27 años, ingiere alimentos en ambulante, desde hace 3 días diarreas sanguinolentas, fiebre y dolor abdominal. Deshidratado. Examen de heces: presencia de leucocitos. ¿Qué clase de tratamiento indicaría?",
+      "opciones": [
+        "Antibióticos",
+        "Sales de bismuto",
+        "Antipiréticos",
+        "Bloqueadores H2",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La presencia de diarrea disentérica (sanguinolenta con fiebre y leucocitos fecales) sugiere una infección bacteriana enteroinvasiva (Shigella, Campylobacter). Está indicado el tratamiento antibiótico empírico.",
+      "comentario": "La presencia de diarrea disentérica (sanguinolenta con fiebre y leucocitos fecales) sugiere una infección bacteriana enteroinvasiva (Shigella, Campylobacter). Está indicado el tratamiento antibiótico empírico.",
+      "tema": "Enfermedad diarreica aguda",
+      "año": 2020
+    },
+    {
+      "id": "GAS-003",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años, desde hace 6 meses dolor abdominal intenso y continuo que no cede con analgésicos. Antecedente: alcoholismo crónico y pancreatitis crónica. ¿Cuál es la medida más adecuada para el manejo del dolor?",
+      "opciones": [
+        "Bloqueo neuronal visceral",
+        "Inhibidores de la COX-2",
+        "Opioides de larga duración",
+        "Colocación de endoprótesis",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En pancreatitis crónica avanzada con dolor abdominal refractario a escalones analgésicos convencionales, está indicado el bloqueo del plexo celíaco (bloqueo neuronal visceral) para el control del dolor.",
+      "comentario": "En pancreatitis crónica avanzada con dolor abdominal refractario a escalones analgésicos convencionales, está indicado el bloqueo del plexo celíaco (bloqueo neuronal visceral) para el control del dolor.",
+      "tema": "Pancreatitis crónica",
+      "año": 2020
+    },
+    {
+      "id": "GAS-004",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años acude por presentar desde hace un mes pirosis, regurgitación ácida y tos nocturna que aumenta con la ingesta de café. Niega disfagia y pérdida de peso. IMC: 35. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Espasmo esofágico distal",
+        "Divertículo de Zenker",
+        "Enfermedad por reflujo gastroesofágico",
+        "Acalasia",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Pirosis y regurgitación exacerbadas por factores relajantes del EEI (café) y aumento de presión intraabdominal (obesidad IMC 35) conforman la sintomatología típica de la Enfermedad por Reflujo Gastroesofágico (ERGE).",
+      "comentario": "Pirosis y regurgitación exacerbadas por factores relajantes del EEI (café) y aumento de presión intraabdominal (obesidad IMC 35) conforman la sintomatología típica de la Enfermedad por Reflujo Gastroesofágico (ERGE).",
+      "tema": "ERGE",
+      "año": 2020
+    },
+    {
+      "id": "GAS-005",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 52 años, desde hace 6 meses dolor abdominal y alteración del ritmo defecatorio. Antecedente: madre con poliposis adenomatosa familiar. Thevenon y parásitos en heces negativos. Reacción inflamatoria: leucocitos de 1-10 x campo. ¿Qué examen es el indicado?",
+      "opciones": [
+        "Colonoscopia",
+        "Endoscopía alta",
+        "Cápsula endoscópica",
+        "Tomografía abdominal",
+        "Hospitalización en UCI"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Por los síntomas crónicos sugestivos de neoplasia, edad >50 años y el antecedente genético de alto riesgo (poliposis familiar), el estudio de elección obligatoria es la colonoscopia total para despistaje de cáncer colorrectal.",
+      "comentario": "Por los síntomas crónicos sugestivos de neoplasia, edad >50 años y el antecedente genético de alto riesgo (poliposis familiar), el estudio de elección obligatoria es la colonoscopia total para despistaje de cáncer colorrectal.",
+      "tema": "Cáncer colorrectal",
+      "año": 2020
+    },
+    {
+      "id": "GAS-006",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 45 años con epigastralgia desde hace una semana, que calma con alimentos y antiácidos. Desde ayer presenta heces negras. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Reflujo gastroesofágico",
+        "Gastritis aguda",
+        "Úlcera gastroduodenal",
+        "Esófago de Barrett",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor epigástrico rítmico que calma con la ingesta y la aparición de melena orientan hacia una hemorragia digestiva alta secundaria a úlcera gastroduodenal activa.",
+      "comentario": "El dolor epigástrico rítmico que calma con la ingesta y la aparición de melena orientan hacia una hemorragia digestiva alta secundaria a úlcera gastroduodenal activa.",
+      "tema": "Hemorragia digestiva alta",
+      "año": 2020
+    },
+    {
+      "id": "GAS-007",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 48 años, acude a emergencia por dolor, distensión abdominal y hematemesis de aproximadamente 1,200 ml. Antecedente: alcoholismo crónico. Al examen: PA 80/50 mmHg, FC 110x', palmas hepáticas, ictericia, Traube ocupado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Cáncer gástrico",
+        "Síndrome Mallory Weiss",
+        "Diverticulosis",
+        "Várices esofágicas sangrantes",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los estigmas de hepatopatía crónica (palmas hepáticas, esplenomegalia) asociados a hemorragia digestiva alta masiva e inestabilidad hemodinámica corresponden a sangrado por várices esofágicas por hipertensión portal.",
+      "comentario": "Los estigmas de hepatopatía crónica (palmas hepáticas, esplenomegalia) asociados a hemorragia digestiva alta masiva e inestabilidad hemodinámica corresponden a sangrado por várices esofágicas por hipertensión portal.",
+      "tema": "Hemorragia digestiva variceal",
+      "año": 2020
+    },
+    {
+      "id": "GAS-008",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 49 años, alcohólico crónico. Desde hace 2 días, luego de reunión familiar, presenta desorientación y lerdeza al hablar. Al examen: funciones vitales estables, sin signos de focalización, temblor de manos, eritema palmar, abdomen distendido y con matidez desplazable. Glucocinta: 75 mg%. ¿Cuál sería el diagnóstico más probable?",
+      "opciones": [
+        "Colangitis biliar",
+        "Síndrome hepatorrenal",
+        "Intoxicación por metanol",
+        "Encefalopatía hepática grado II",
+        "Clindamicina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente alcohólico crónico con signos de confusión, temblor, eritema palmar y ascitis sugiere un cuadro de encefalopatía hepática, probablemente descompensada por una ingesta alcohólica reciente. No hay datos que apoyen intoxicación por metanol (sin acidosis metabólica severa ni alteración visual), ni colangitis (no hay ictericia ni dolor). La función renal aún no se describe como comprometida. Todo apunta a una encefalopatía hepática grado II.",
+      "comentario": "El paciente alcohólico crónico con signos de confusión, temblor, eritema palmar y ascitis sugiere un cuadro de encefalopatía hepática, probablemente descompensada por una ingesta alcohólica reciente. No hay datos que apoyen intoxicación por metanol (sin acidosis metabólica severa ni alteración visual), ni colangitis (no hay ictericia ni dolor). La función renal aún no se describe como comprometida. Todo apunta a una encefalopatía hepática grado II.",
+      "tema": "Encefalopatía hepática",
+      "año": 2020
+    },
+    {
+      "id": "GAS-009",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 49 años, refiere durante los últimos 20 años episodios autolimitados de diarrea con dolor. Hace 1 mes dolor cólico abdominal y diarreas seguidas. Laboratorio: Thevenon positivo. Colonoscopía: inflamación difusa y continua de la mucosa con úlceras superficiales desde el recto hasta el colon ascendente. Biopsia: criptitis e infiltrado mononuclear. ¿Qué enfermedad aparece con mayor frecuencia como complicación?",
+      "opciones": [
+        "Adenocarcinoma de colon",
+        "Diverticulitis colónica",
+        "Fístula perirrectal",
+        "Colitis pseudomembranosa",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente tiene síntomas compatibles con colitis ulcerosa, una enfermedad inflamatoria intestinal que se caracteriza por afectación continua desde el recto hasta el colon. La colonoscopía y la biopsia lo confirman. Esta condición se asocia con un incremento del riesgo de desarrollar adenocarcinoma de colon, especialmente después de más de 8-10 años de evolución, por la inflamación crónica sostenida del epitelio colónico. Por ello, el control endoscópico periódico es fundamental.",
+      "comentario": "La paciente tiene síntomas compatibles con colitis ulcerosa, una enfermedad inflamatoria intestinal que se caracteriza por afectación continua desde el recto hasta el colon. La colonoscopía y la biopsia lo confirman. Esta condición se asocia con un incremento del riesgo de desarrollar adenocarcinoma de colon, especialmente después de más de 8-10 años de evolución, por la inflamación crónica sostenida del epitelio colónico. Por ello, el control endoscópico periódico es fundamental.",
+      "tema": "Colitis ulcerosa y cáncer colorrectal",
+      "año": 2020
+    },
+    {
+      "id": "GAS-010",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 27 años con dolor intenso súbito abdominal. Examen físico: dolor y distensión abdominales difusos, no se identifican ruidos hidroaéreos. Pasa a cirugía, resección de íleon terminal de 27 cm con superficie serosa firme y eritematosa. Hallazgos microscópicos: inflamación transmural con presencia de granulomas. ¿Qué complicación es más probable que pueda desarrollar el paciente?",
+      "opciones": [
+        "Absceso hepático",
+        "Adenocarcinoma",
+        "Fístula enterocutánea",
+        "Trombosis arteria mesentérica",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente joven con cuadro de abdomen agudo, sometido a resección del íleon terminal, y hallazgos histológicos de inflamación transmural con granulomas, características clásicas de la enfermedad de Crohn. Esta patología inflamatoria intestinal se distingue por el compromiso transmural, lo cual predispone a la formación de fístulas, particularmente enterocutáneas, perianales o enteroentéricas. No es típica la formación de abscesos hepáticos ni el desarrollo primario de cáncer, y la isquemia mesentérica se asocia a otras condiciones.",
+      "comentario": "Paciente joven con cuadro de abdomen agudo, sometido a resección del íleon terminal, y hallazgos histológicos de inflamación transmural con granulomas, características clásicas de la enfermedad de Crohn. Esta patología inflamatoria intestinal se distingue por el compromiso transmural, lo cual predispone a la formación de fístulas, particularmente enterocutáneas, perianales o enteroentéricas. No es típica la formación de abscesos hepáticos ni el desarrollo primario de cáncer, y la isquemia mesentérica se asocia a otras condiciones.",
+      "tema": "Enfermedad de Crohn: fístulas",
+      "año": 2020
+    },
+    {
+      "id": "GAS-011",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 21 años, desde hace 1 año refiere deposiciones voluminosas, malolientes, flatulencia y pérdida de peso. Niega dolor abdominal, hematemesis y melena. Abdomen: no se palpan masas, ruidos hidroaéreos presentes. Ecografía de abdomen normal. Se solicita examen de heces. ¿Cuál es el hallazgo de laboratorio más probable?",
+      "opciones": [
+        "Quistes de Giardia lamblia",
+        "Trofozoítos de Entamoeba histolytica",
+        "Sangre oculta",
+        "Aumento de grasa en las heces",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico es sugestivo de síndrome de malabsorción crónica. La presencia de heces voluminosas, fétidas y grasosas (esteatorrea), junto con pérdida de peso sin dolor ni sangrado, indica un trastorno de absorción. En este contexto, lo más esperable en el examen de heces es el aumento de grasa. Causas frecuentes incluyen enfermedad celíaca, insuficiencia pancreática o sobrecrecimiento bacteriano. No hay datos que sugieran infección aguda por Giardia o Entamoeba, ni sangrado.",
+      "comentario": "El cuadro clínico es sugestivo de síndrome de malabsorción crónica. La presencia de heces voluminosas, fétidas y grasosas (esteatorrea), junto con pérdida de peso sin dolor ni sangrado, indica un trastorno de absorción. En este contexto, lo más esperable en el examen de heces es el aumento de grasa. Causas frecuentes incluyen enfermedad celíaca, insuficiencia pancreática o sobrecrecimiento bacteriano. No hay datos que sugieran infección aguda por Giardia o Entamoeba, ni sangrado.",
+      "tema": "Síndrome de malabsorción: esteatorrea",
+      "año": 2020
+    },
+    {
+      "id": "GAS-012",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 3 años, hace 5 días, malestar general, hiporexia, vómitos, dolor abdominal, fiebre, coluria y acolia. Al examen: ictericia de piel y mucosas, hepatomegalia. ¿Cuál de los siguientes análisis me confirma el diagnostico?",
+      "opciones": [
+        "Ags HB",
+        "Anti VHC",
+        "IgM anti VHA",
+        "Anti VHE",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Niño con ictericia, coluria y hepatomegalia presenta signos clásicos de hepatitis viral aguda. Para confirmar el diagnóstico es necesario identificar anticuerpos específicos en sangre. La IgM anti-VHA es indicativa de infección reciente por el virus de la hepatitis A, el agente más común en niños. Este virus se transmite fecal-oral y suele causar enfermedad autolimitada. La detección temprana permite iniciar medidas de soporte y evitar complicaciones. También es importante para controlar brotes epidémicos en la comunidad. Por tanto, la serología adecuada es fundamental para confirmar el diagnóstico y manejar el caso.",
+      "comentario": "Niño con ictericia, coluria y hepatomegalia presenta signos clásicos de hepatitis viral aguda. Para confirmar el diagnóstico es necesario identificar anticuerpos específicos en sangre. La IgM anti-VHA es indicativa de infección reciente por el virus de la hepatitis A, el agente más común en niños. Este virus se transmite fecal-oral y suele causar enfermedad autolimitada. La detección temprana permite iniciar medidas de soporte y evitar complicaciones. También es importante para controlar brotes epidémicos en la comunidad. Por tanto, la serología adecuada es fundamental para confirmar el diagnóstico y manejar el caso.",
+      "tema": "Hepatitis A: diagnóstico serológico",
+      "año": 2020
+    },
+    {
+      "id": "GAS-013",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 35 años refiere lumbalgia progresiva de 5 años de evolución. El último año artralgias. Laboratorio: Thevenon (+). Rx de pelvis: sacroilitis. Colectomía total muestra en la macroscopía: mucosa granular y friable, con ulceración difusa y seudopólipos. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Colitis ulcerativa",
+        "Colitis amebiana",
+        "Tuberculosis intestinal",
+        "Linfoma intestinal",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con cuadro crónico de lumbalgia inflamatoria y artralgias, asociado a Thevenon (+), orienta a un espondilo artropatía seronegativa. La sacroilitis en la radiografía confirma el compromiso axial. La colectomía revela mucosa con ulceraciones difusas, seudopólipos y aspecto granular, hallazgos típicos de colitis ulcerativa. Esta enfermedad inflamatoria intestinal se asocia frecuentemente a espondilo artropatías. Las otras opciones presentan lesiones más focalizadas o infecciosas, y el linfoma no tiene ulceración difusa. El diagnóstico es colitis ulcerativa con manifestaciones articulares asociadas.",
+      "comentario": "Paciente con cuadro crónico de lumbalgia inflamatoria y artralgias, asociado a Thevenon (+), orienta a un espondilo artropatía seronegativa. La sacroilitis en la radiografía confirma el compromiso axial. La colectomía revela mucosa con ulceraciones difusas, seudopólipos y aspecto granular, hallazgos típicos de colitis ulcerativa. Esta enfermedad inflamatoria intestinal se asocia frecuentemente a espondilo artropatías. Las otras opciones presentan lesiones más focalizadas o infecciosas, y el linfoma no tiene ulceración difusa. El diagnóstico es colitis ulcerativa con manifestaciones articulares asociadas.",
+      "tema": "Colitis ulcerosa con espondiloartritis",
+      "año": 2021
+    },
+    {
+      "id": "GAS-014",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 53 años, hace 5 meses presenta náuseas, vómitos y dolor epigástrico. TAC abdominal: obstrucción al tracto de salida gástrico. Endoscopia digestiva alta: tumoración en píloro de 2 × 4 cm, ulcerada. Laboratorio: ureasa positiva ¿Cuál neoplasia se encontrará en la biopsia?",
+      "opciones": [
+        "Leiomiosarcoma",
+        "Carcinoma epidermoide",
+        "Carcinoma neuroendocrino",
+        "Adenocarcinoma",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer mayor de 50 años con síntomas digestivos persistentes y masa pilórica ulcerada en endoscopia debe hacer sospechar una neoplasia gástrica. La ureasa positiva indica infección por Helicobacter pylori, un factor de riesgo importante para el desarrollo de adenocarcinoma gástrico, especialmente en la región pilórica. El adenocarcinoma es el tipo más frecuente de cáncer gástrico. El leiomiosarcoma es raro y submucoso, no ulcerado; el carcinoma epidermoide no es típico del estómago, y el neuroendocrino presenta un patrón clínico distinto. La biopsia confirmará adenocarcinoma.",
+      "comentario": "Mujer mayor de 50 años con síntomas digestivos persistentes y masa pilórica ulcerada en endoscopia debe hacer sospechar una neoplasia gástrica. La ureasa positiva indica infección por Helicobacter pylori, un factor de riesgo importante para el desarrollo de adenocarcinoma gástrico, especialmente en la región pilórica. El adenocarcinoma es el tipo más frecuente de cáncer gástrico. El leiomiosarcoma es raro y submucoso, no ulcerado; el carcinoma epidermoide no es típico del estómago, y el neuroendocrino presenta un patrón clínico distinto. La biopsia confirmará adenocarcinoma.",
+      "tema": "Cáncer gástrico: adenocarcinoma",
+      "año": 2021
+    },
+    {
+      "id": "GAS-015",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 30 años con 3 meses de dolor epigástrico, náuseas y llenura. Exámenes normales de laboratorio y endoscopia alta. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Dispepsia funcional",
+        "Gastritis crónica",
+        "Ulcera Péptica.",
+        "Enfermedad por Reflujo.",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta una clínica típica de dispepsia (dolor epigástrico, náuseas, sensación de llenura) con duración mayor a 4 semanas, pero con laboratorios y endoscopía alta normales, lo cual descarta causas orgánicas como úlcera péptica o gastritis eros iva. Ante este contexto clínico y con hallazgos negativos en estudios complementarios, el diagnóstico más probable es dispepsia funcional, según los criterios de Roma IV. Esta es una entidad frecuente, de origen multifactorial, asociada a hipersensibilidad visceral, trastornos motores gástricos y, en ocasiones, factores psicosociales. La enfermedad por reflujo gastroesofágico se caracteriza por pirosis y regurgitación, más que plenitud o dolor postprandial. El manejo inicial incluye medidas dietéticas, procinéticos y tratamiento empírico con inhibidores de bomba de protones.",
+      "comentario": "El paciente presenta una clínica típica de dispepsia (dolor epigástrico, náuseas, sensación de llenura) con duración mayor a 4 semanas, pero con laboratorios y endoscopía alta normales, lo cual descarta causas orgánicas como úlcera péptica o gastritis eros iva. Ante este contexto clínico y con hallazgos negativos en estudios complementarios, el diagnóstico más probable es dispepsia funcional, según los criterios de Roma IV. Esta es una entidad frecuente, de origen multifactorial, asociada a hipersensibilidad visceral, trastornos motores gástricos y, en ocasiones, factores psicosociales. La enfermedad por reflujo gastroesofágico se caracteriza por pirosis y regurgitación, más que plenitud o dolor postprandial. El manejo inicial incluye medidas dietéticas, procinéticos y tratamiento empírico con inhibidores de bomba de protones.",
+      "tema": "Dispepsia funcional",
+      "año": 2021
+    },
+    {
+      "id": "GAS-016",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Adulto cirrótico que ingresa por hematemesis. Hemodinamia estable. Endoscopía: dilatación anormal de las venas de alrededor del esófago con evidencia de sangrado. ¿Cuál tratamiento es el indicado?",
+      "opciones": [
+        "Ligadura de várices de esófago",
+        "Colocación de Sonda Sengstaken- Blakemore",
+        "Infusión de Octreotide",
+        "Transfusión de plaquetas",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente cirrótico con hematemesis y endoscopía que confirma várices esofágicas sangrantes está cursando una hemorragia digestiva alta por hipertensión portal, la complicación más temida de la cirrosis. En pacientes hemodinámicamente estables, el tratamiento de elección es la ligadura endoscópica de várices, ya que reduce la mortalidad, controla el sangrado y previene recurrencias. La sonda de Sengstaken-Blakemore se reserva para casos graves con sangrado masivo no controlado por endoscopía. El octreotide es útil como manejo inicial, pero no reemplaza a la intervención endoscópica. La transfusión de plaquetas solo se indica si hay trombocitopenia severa o coagulopatía activa. El enfoque debe ser multidisciplinario, con profilaxis antibiótica y evaluación para trasplante si es necesario.",
+      "comentario": "El paciente cirrótico con hematemesis y endoscopía que confirma várices esofágicas sangrantes está cursando una hemorragia digestiva alta por hipertensión portal, la complicación más temida de la cirrosis. En pacientes hemodinámicamente estables, el tratamiento de elección es la ligadura endoscópica de várices, ya que reduce la mortalidad, controla el sangrado y previene recurrencias. La sonda de Sengstaken-Blakemore se reserva para casos graves con sangrado masivo no controlado por endoscopía. El octreotide es útil como manejo inicial, pero no reemplaza a la intervención endoscópica. La transfusión de plaquetas solo se indica si hay trombocitopenia severa o coagulopatía activa. El enfoque debe ser multidisciplinario, con profilaxis antibiótica y evaluación para trasplante si es necesario.",
+      "tema": "Hemorragia por várices esofágicas",
+      "año": 2021
+    },
+    {
+      "id": "GAS-017",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niña de 2 años, con 6 días de fiebre, anorexia, náuseas, vómitos y dolor abdominal. Examen: dolor a la palpación en hemiabdomen superior derecho, borde hepático a 2 cm. debajo del reborde costal derecho a nivel de línea medioclavicular, sin ictericia. ¿Cuál prueba solicitaría para confirmar inflamación hepática?",
+      "opciones": [
+        "Hemocultivo",
+        "Fosfatasa alcalina",
+        "Velocidad de sedimentación",
+        "Transaminasas",
+        "Ceftriaxona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico sugiere hepatitis aguda, dada la fiebre persistente, síntomas digestivos (náuseas, vómitos, anorexia) y hallazgos focales como dolor en hipocondrio derecho y borde hepático palpable. La prueba de elección para confirmar inflamación hepática es la determinación de transaminasas (ALT y AST), que se elevan en respuesta al daño hepatocelular. La fosfatasa alcalina se eleva más en colestasis, la VSG es inespecífica y el hemocultivo es útil si se sospecha absceso hepático, pero no es la prueba inicial para inflamación hepática simple. En este contexto, las transaminasas permiten confirmar el compromiso hepático agudo.",
+      "comentario": "El cuadro clínico sugiere hepatitis aguda, dada la fiebre persistente, síntomas digestivos (náuseas, vómitos, anorexia) y hallazgos focales como dolor en hipocondrio derecho y borde hepático palpable. La prueba de elección para confirmar inflamación hepática es la determinación de transaminasas (ALT y AST), que se elevan en respuesta al daño hepatocelular. La fosfatasa alcalina se eleva más en colestasis, la VSG es inespecífica y el hemocultivo es útil si se sospecha absceso hepático, pero no es la prueba inicial para inflamación hepática simple. En este contexto, las transaminasas permiten confirmar el compromiso hepático agudo.",
+      "tema": "Hepatitis aguda en el niño: transaminasas",
+      "año": 2021
+    },
+    {
+      "id": "GAS-018",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 38 años que 6 horas después de haber ingerido licor presenta bruscamente epigastralgia de tipo terebrante, intensa y persistente que se irradia a la espalda, concomitantemente náuseas y vómitos. Al examen: signo de Cullen. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Obstrucción intestinal alta",
+        "Pancreatitis aguda",
+        "Trombosis mesentérica",
+        "Úlcera perforada",
+        "Alta médica con indicaciones"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Se trata de un cuadro clínico clásico de pancreatitis aguda de origen alcohólico, en un varón con dolor epigástrico irradiado en cinturón a la espalda, náuseas y vómitos. El signo de Cullen (equimosis periumbilical) indica sangrado retroperitoneal, típico de pancreatitis severa. El antecedente de consumo etílico reciente refuerza la etiología. Las otras opciones son menos probables: obstrucción intestinal no cursa con dolor retroirradiante ni signo de Cullen; trombosis mesentérica tiene dolor más súbito, intenso y desproporcionado al examen; y la úlcera perforada cursa con abdomen en tabla y aire libre en Rx, no con este patrón irradiado. Diagnóstico: pancreatitis aguda.",
+      "comentario": "Se trata de un cuadro clínico clásico de pancreatitis aguda de origen alcohólico, en un varón con dolor epigástrico irradiado en cinturón a la espalda, náuseas y vómitos. El signo de Cullen (equimosis periumbilical) indica sangrado retroperitoneal, típico de pancreatitis severa. El antecedente de consumo etílico reciente refuerza la etiología. Las otras opciones son menos probables: obstrucción intestinal no cursa con dolor retroirradiante ni signo de Cullen; trombosis mesentérica tiene dolor más súbito, intenso y desproporcionado al examen; y la úlcera perforada cursa con abdomen en tabla y aire libre en Rx, no con este patrón irradiado. Diagnóstico: pancreatitis aguda.",
+      "tema": "Pancreatitis aguda alcohólica",
+      "año": 2021
+    },
+    {
+      "id": "GAS-019",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Músico de 55 años, estando en plena actuación sufre desorientación que se agudiza con las horas. Evaluado en emergencia le hallan taquicardia, distensión abdominal, ascitis, edema tibial ++++. La primera posibilidad diagnóstica es falla:",
+      "opciones": [
+        "Hepática crónica",
+        "Cardiaca derecha",
+        "Cardiaca izquierda",
+        "Renal aguda",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulto mayor, aparentemente sano, que súbitamente presenta confusión, distensión abdominal, ascitis y edemas periféricos intensos, en el contexto de probable consumo de alcohol (dato indirecto al ser músico en actuación pública). Esta triada clínica es clásica de descompensación de cirrosis hepática, con encefalopatía hepática, hipertensión portal (ascitis) e hipoalbuminemia (edema). La taq uicardia y signos periféricos pueden ser manifestaciones de hipovolemia relativa. No hay datos clínicos de falla cardíaca ni renal aguda predominantes. Se concluye que el paciente presenta un cuadro de falla hepática crónica descompensada, probablemente cirrosis alcohólica con encefalopatía.",
+      "comentario": "Paciente adulto mayor, aparentemente sano, que súbitamente presenta confusión, distensión abdominal, ascitis y edemas periféricos intensos, en el contexto de probable consumo de alcohol (dato indirecto al ser músico en actuación pública). Esta triada clínica es clásica de descompensación de cirrosis hepática, con encefalopatía hepática, hipertensión portal (ascitis) e hipoalbuminemia (edema). La taq uicardia y signos periféricos pueden ser manifestaciones de hipovolemia relativa. No hay datos clínicos de falla cardíaca ni renal aguda predominantes. Se concluye que el paciente presenta un cuadro de falla hepática crónica descompensada, probablemente cirrosis alcohólica con encefalopatía.",
+      "tema": "Encefalopatía hepática en cirrosis",
+      "año": 2021
+    },
+    {
+      "id": "GAS-020",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 44 años con litiasis biliar de varios años, ingresa por dolor abdominal alto, severo, irradiado a la espalda. Unos días después, se objetiva radiológicamente derrame pleural izquierdo. Líquido pleural serohemorrágico, con caracteres de exudado y abundantes eosinófilos. ¿Qué estudio del líquido pleural solicitaría para establecer un posible diagnóstico?",
+      "opciones": [
+        "Cultivo",
+        "DHL",
+        "Amilasa",
+        "PAP",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Mujer con antecedente de litiasis biliar, que presenta cuadro de dolor abdominal alto irradiado a la espalda, característico de pancreatitis aguda. A los días, se objetiva derrame pleural izquierdo, con líquido serohemorrágico, de tipo exudado y eosinofili a pleural. Esta asociación clínica orienta a una complicación pleuropulmonar secundaria a pancreatitis, especialmente por mecanismos de paso de enzimas hacia la cavidad pleural. El estudio más útil y específico para confirmar el origen pancreático del derrame es la amilasa en líquido pleural, que se eleva significativamente en estos casos (>1,000 UI/L). Ni el cultivo ni el PAP orientan en esta dirección. Por tanto, el examen clave es: amilasa en líquido pleural.",
+      "comentario": "Mujer con antecedente de litiasis biliar, que presenta cuadro de dolor abdominal alto irradiado a la espalda, característico de pancreatitis aguda. A los días, se objetiva derrame pleural izquierdo, con líquido serohemorrágico, de tipo exudado y eosinofili a pleural. Esta asociación clínica orienta a una complicación pleuropulmonar secundaria a pancreatitis, especialmente por mecanismos de paso de enzimas hacia la cavidad pleural. El estudio más útil y específico para confirmar el origen pancreático del derrame es la amilasa en líquido pleural, que se eleva significativamente en estos casos (>1,000 UI/L). Ni el cultivo ni el PAP orientan en esta dirección. Por tanto, el examen clave es: amilasa en líquido pleural.",
+      "tema": "Derrame pleural pancreático",
+      "año": 2021
+    },
+    {
+      "id": "GAS-021",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años, obeso, acude a emergencia por presentar dolor abdominal epigástrico irradiado a la espalda, vómitos biliosos incoercibles. Al examen: FC 120 x’, PA 80/60 mmHg, soporoso, dolor abdominal difuso, ictericia. Triglicéridos elevados, amilasa normal. ¿Cuál es la conducta inicial a seguir?",
+      "opciones": [
+        "Hidratación EV agresiva",
+        "Alimentación enteral",
+        "CPRE urgente",
+        "Antibiótico profilaxis",
+        "Amoxicilina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón obeso con dolor abdominal epigástrico irradiado a la espalda, signos de hipotensión, ictericia y vómitos, en contexto de triglicéridos elevados, sugiere un cuadro de pancreatitis aguda severa de origen hiperlipidémico. Aunque los niveles de amilasa pueden estar normales en este tipo de pancreatitis, la clínica es muy sugestiva. La hidratación intravenosa agresiva con soluciones cristaloides es la primera medida terapéutica para estabilizar al paciente, corregir la hipovolemia y prevenir complicaciones locales y sistémicas. Las otras opciones se valoran posteriormente según evolución clínica y hallazgos por imágenes.",
+      "comentario": "Varón obeso con dolor abdominal epigástrico irradiado a la espalda, signos de hipotensión, ictericia y vómitos, en contexto de triglicéridos elevados, sugiere un cuadro de pancreatitis aguda severa de origen hiperlipidémico. Aunque los niveles de amilasa pueden estar normales en este tipo de pancreatitis, la clínica es muy sugestiva. La hidratación intravenosa agresiva con soluciones cristaloides es la primera medida terapéutica para estabilizar al paciente, corregir la hipovolemia y prevenir complicaciones locales y sistémicas. Las otras opciones se valoran posteriormente según evolución clínica y hallazgos por imágenes.",
+      "tema": "Pancreatitis aguda por hipertrigliceridemia",
+      "año": 2021
+    },
+    {
+      "id": "GAS-022",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 69 años con diagnóstico de pancreatitis crónica y alcoholismo crónico, desde hace 6 meses muestra aumento en la frecuencia de deposiciones las cuales son de consistencia semisólida, de aspecto pálido, brillantes y untuosas. ¿Cuál es el diagnó stico más probable?",
+      "opciones": [
+        "Insuficiencia pancreática exocrina",
+        "Síndrome Zollinger-Ellison",
+        "Ampuloma",
+        "Gastritis atrófica",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con historia de pancreatitis crónica secundaria al alcoholismo, que presenta heces semisólidas, pálidas, brillantes y de aspecto graso (esteatorrea). Esta sintomatología se relaciona con insuficiencia pancreática exocrina, donde hay deficiencia en la producción de enzimas digestivas, particularmente lipasa. Esto impide la digestión y absorción normal de grasas, lo cual genera heces características. La asociación con enfermedad pancreática de larga evolución hace muy probable este diagnóstico. Además, su cronicidad y progresividad son congruentes con la fisiopatología de la insuficiencia pancreática.",
+      "comentario": "Paciente con historia de pancreatitis crónica secundaria al alcoholismo, que presenta heces semisólidas, pálidas, brillantes y de aspecto graso (esteatorrea). Esta sintomatología se relaciona con insuficiencia pancreática exocrina, donde hay deficiencia en la producción de enzimas digestivas, particularmente lipasa. Esto impide la digestión y absorción normal de grasas, lo cual genera heces características. La asociación con enfermedad pancreática de larga evolución hace muy probable este diagnóstico. Además, su cronicidad y progresividad son congruentes con la fisiopatología de la insuficiencia pancreática.",
+      "tema": "Insuficiencia pancreática exocrina",
+      "año": 2021
+    },
+    {
+      "id": "GAS-023",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 60 años con antecedente de colitis ulcerosa, desde hace una semana presenta diarreas, indicándose con loperamida sin éxito. Al examen: FC 120 x’, T 39 °C. soporoso, distensión abdominal con RHA ausentes. Hemograma: leucocitosis con neutrofilia, Hb 7 g/dl. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Estenosis sigmoidea",
+        "Isquemia mesentérica",
+        "Diverticulitis aguda",
+        "Megacolon tóxico",
+        "Sepsis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con colitis ulcerosa y evolución tórpida pese a antidiarreicos (loperamida), presenta cuadro sistémico severo: fiebre alta, taquicardia, sopor, distensión abdominal y ausencia de ruidos hidroaéreos, lo que indica íleo paralítico. Estos datos, junto con leucocitosis severa y anemia, hacen sospechar un megacolon tóxico, una complicación grave y potencialmente mortal de las enfermedades inflamatorias intestinales. El uso de antidiarreicos en este contexto está contraindicado, ya que favorece la distensión colónica y agrava el cuadro. El diagnóstico es clínico, apoyado por radiografía abdominal.",
+      "comentario": "Paciente con colitis ulcerosa y evolución tórpida pese a antidiarreicos (loperamida), presenta cuadro sistémico severo: fiebre alta, taquicardia, sopor, distensión abdominal y ausencia de ruidos hidroaéreos, lo que indica íleo paralítico. Estos datos, junto con leucocitosis severa y anemia, hacen sospechar un megacolon tóxico, una complicación grave y potencialmente mortal de las enfermedades inflamatorias intestinales. El uso de antidiarreicos en este contexto está contraindicado, ya que favorece la distensión colónica y agrava el cuadro. El diagnóstico es clínico, apoyado por radiografía abdominal.",
+      "tema": "Megacolon tóxico",
+      "año": 2021
+    },
+    {
+      "id": "GAS-024",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 65 años, desde hace un mes presenta anorexia y pérdida de peso considerable. Posteriormente se agrega dolor en abdomen superior, ictericia marcada y prurito. Ecografía abdominal muestra dilatación de vías biliares intrahepáticas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Estenosis benigna de vías biliares",
+        "Coledocolitiasis",
+        "Síndrome de Mirizzi",
+        "Carcinoma de vías biliares",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente adulto mayor con síndrome ictérico obstructivo, caracterizado por ictericia, coluria, heces hipocolóricas y prurito. La pérdida de peso y el dolor epigástrico progresivo orientan a una causa maligna. La ecografía que muestra dilatación de vías biliares intrahepáticas indica obstrucción distal, probablemente por una masa en la vía biliar principal. El carcinoma de colédoco o de la ampolla de Vater es la causa más probable. Se descarta coledocolitiasis por la evolución crónica y sin cólico biliar, y el síndrome de Mirizzi requiere litiasis impactada en el cístico. La estenosis benigna es menos frecuente. Así, el diagnóstico más coherente es carcinoma de vías biliares.",
+      "comentario": "Paciente adulto mayor con síndrome ictérico obstructivo, caracterizado por ictericia, coluria, heces hipocolóricas y prurito. La pérdida de peso y el dolor epigástrico progresivo orientan a una causa maligna. La ecografía que muestra dilatación de vías biliares intrahepáticas indica obstrucción distal, probablemente por una masa en la vía biliar principal. El carcinoma de colédoco o de la ampolla de Vater es la causa más probable. Se descarta coledocolitiasis por la evolución crónica y sin cólico biliar, y el síndrome de Mirizzi requiere litiasis impactada en el cístico. La estenosis benigna es menos frecuente. Así, el diagnóstico más coherente es carcinoma de vías biliares.",
+      "tema": "Colangiocarcinoma",
+      "año": 2022
+    },
+    {
+      "id": "GAS-025",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 35 años de edad, sin antecedentes de enfermedad digestiva ni consumo de medicamentos. Refiere ingesta de alcohol moderada en una reunión social la noche anterior. Consulta por episodio de náuseas y vómitos exigentes con sangre, por lo que acude a Emergencia. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Mallory-Weiss",
+        "Úlcera péptica sangrante",
+        "Divertículo de Zenker",
+        "Cáncer esofágico",
+        "Tuberculosis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulta con antecedente claro de vómitos intensos tras ingesta alcohólica, que desarrolla hematemesis fresca. Este patrón es clásico del síndrome de Mallory-Weiss, que corresponde a una laceración mucosa del cardias o esófago distal secundaria a esfuerzo emético. Es una causa frecuente de hemorragia digestiva alta en personas jóvenes tras vómitos intensos, sin historia de enfermedad ulcerosa. Se descarta úlcera péptica por falta de síntomas previos; el divertículo de Zenker causa disfagia y regurgitación, no sangrado; el cáncer esofágico no presenta sangrado súbito postemético. La cronología y síntomas agudos apuntan a un desgarro de Mallory-Weiss como la causa más probable.",
+      "comentario": "Paciente adulta con antecedente claro de vómitos intensos tras ingesta alcohólica, que desarrolla hematemesis fresca. Este patrón es clásico del síndrome de Mallory-Weiss, que corresponde a una laceración mucosa del cardias o esófago distal secundaria a esfuerzo emético. Es una causa frecuente de hemorragia digestiva alta en personas jóvenes tras vómitos intensos, sin historia de enfermedad ulcerosa. Se descarta úlcera péptica por falta de síntomas previos; el divertículo de Zenker causa disfagia y regurgitación, no sangrado; el cáncer esofágico no presenta sangrado súbito postemético. La cronología y síntomas agudos apuntan a un desgarro de Mallory-Weiss como la causa más probable.",
+      "tema": "Síndrome de Mallory-Weiss",
+      "año": 2022
+    },
+    {
+      "id": "GAS-026",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 56 años, ingresa a Emergencia con hematemesis de aproximadamente 500 ml, refiriendo que desde hace una semana tiene deposiciones negras. Antecedente de cirrosis alcohólica. Al examen: PA 80/50 mmHg, FC 120 x', FR 24 x', T 38 °C, SatO₂ 90%, palidez marcada, frialdad distal, escleras ictéricas. Abdomen distendido, matidez desplazable, RHA disminuidos. ¿Cuál es la primera acción a realizar?",
+      "opciones": [
+        "Endoscopía post cese de sangrado",
+        "Infundir cristaloides",
+        "Paracentesis diagnóstica",
+        "Colocar balón esofágico",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente cirrótico con hemorragia digestiva alta severa (hematemesis + melenas), con signos clínicos de shock hipovolémico: hipotensión, taquicardia, palidez, frialdad distal. La prioridad en esta situación es la estabilización hemodinámica inmediata. El manejo debe iniciar con infusión rápida de cristaloides (solución salina o Ringer Lactato) para restaurar el volumen circulante. La endoscopía se realiza luego de la estabilización inicial. El balón de Sengstaken-Blakemore se reserva para hemorragias masiva s refractarias. La paracentesis no es prioritaria en este contexto agudo. Por lo tanto, lo primero es infundir cristaloides.",
+      "comentario": "Paciente cirrótico con hemorragia digestiva alta severa (hematemesis + melenas), con signos clínicos de shock hipovolémico: hipotensión, taquicardia, palidez, frialdad distal. La prioridad en esta situación es la estabilización hemodinámica inmediata. El manejo debe iniciar con infusión rápida de cristaloides (solución salina o Ringer Lactato) para restaurar el volumen circulante. La endoscopía se realiza luego de la estabilización inicial. El balón de Sengstaken-Blakemore se reserva para hemorragias masiva s refractarias. La paracentesis no es prioritaria en este contexto agudo. Por lo tanto, lo primero es infundir cristaloides.",
+      "tema": "Hemorragia digestiva alta en el cirrótico: reanimación",
+      "año": 2022
+    },
+    {
+      "id": "GAS-027",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 45 años consulta porque desde hace tres días, presenta intenso dolor cólico en epigastrio con náuseas y vómitos, al día siguiente, ictericia, fiebre y escalofríos. Laboratorio: hiperbilirrubinemia a predominio directo y fosfatasa alcalina elevada. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Pancreatitis biliar",
+        "Colangitis aguda",
+        "Colecistitis aguda",
+        "Síndrome de Mirizzi",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente mujer con dolor epigástrico tipo cólico, náuseas, vómitos y al día siguiente ictericia, fiebre y escalofríos, presenta un cuadro clínico compatible con colangitis aguda. Se identifica la clásica tríada de Charcot: dolor, fiebre e ictericia, además de elevación de bilirrubina directa y fosfatasa alcalina, signos de colestasis. La colecistitis aguda pue de producir fiebre y dolor, pero no ictericia marcada. El síndrome de Mirizzi es una entidad crónica que produce ictericia sin fiebre. La pancreatitis biliar se manifiesta con dolor abdominal intenso y enzimas pancreáticas elevadas. En este escenario clínico, el diagnóstico más probable es colangitis aguda.",
+      "comentario": "Paciente mujer con dolor epigástrico tipo cólico, náuseas, vómitos y al día siguiente ictericia, fiebre y escalofríos, presenta un cuadro clínico compatible con colangitis aguda. Se identifica la clásica tríada de Charcot: dolor, fiebre e ictericia, además de elevación de bilirrubina directa y fosfatasa alcalina, signos de colestasis. La colecistitis aguda pue de producir fiebre y dolor, pero no ictericia marcada. El síndrome de Mirizzi es una entidad crónica que produce ictericia sin fiebre. La pancreatitis biliar se manifiesta con dolor abdominal intenso y enzimas pancreáticas elevadas. En este escenario clínico, el diagnóstico más probable es colangitis aguda.",
+      "tema": "Colangitis aguda",
+      "año": 2022
+    },
+    {
+      "id": "GAS-028",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 62 años, desde hace 5 meses sangrado al defecar. Colonoscopia: pólipos pediculados de 2 cm en colon descendente. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Marcadores tumorales y control endoscópico trimestral",
+        "Marcadores tumorales y conducta según resultados",
+        "Colonoscopía cada 6 meses y AINES",
+        "Extirpación endoscópica y estudio histopatológico",
+        "Metronidazol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con hematoquecia crónica y hallazgo colonoscópico de pólipos pediculados de 2 cm en colon descendente. Esta presentación indica un riesgo significativo de malignidad, por lo cual la conducta inmediata debe ser la resección endoscópica. El pólipo debe ser enviado a estudio histopatológico para determinar si es adenomatoso, hiperplásico o displásico. No corresponde observar ni controlar sin antes extraerlo. Los AINES no tienen rol aquí, y el seguimiento endoscópico se programa después del resultado histológico. La evaluación con marcadores tumorales sin resección no es adecuada. Por tanto, lo correcto es extirpación y análisis patológico.",
+      "comentario": "Paciente con hematoquecia crónica y hallazgo colonoscópico de pólipos pediculados de 2 cm en colon descendente. Esta presentación indica un riesgo significativo de malignidad, por lo cual la conducta inmediata debe ser la resección endoscópica. El pólipo debe ser enviado a estudio histopatológico para determinar si es adenomatoso, hiperplásico o displásico. No corresponde observar ni controlar sin antes extraerlo. Los AINES no tienen rol aquí, y el seguimiento endoscópico se programa después del resultado histológico. La evaluación con marcadores tumorales sin resección no es adecuada. Por tanto, lo correcto es extirpación y análisis patológico.",
+      "tema": "Pólipos de colon: polipectomía",
+      "año": 2022
+    },
+    {
+      "id": "GAS-029",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 18 años que consulta por presentar desde hace 8 días inapetencia, fiebre, náuseas, vómitos y astenia, tres días después se agrega sensación de malestar en el hipocondrio derecho, ictericia y se toma afebril. ¿Cuál es el diagnostico más probable?",
+      "opciones": [
+        "Hepatitis Viral",
+        "Anemia hemolítica",
+        "Hepatitis Toxica",
+        "Hepatitis Autoinmune",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente joven con cuadro clínico clásico de hepatitis aguda: pródromos inespecíficos como fiebre, náuseas, vómitos, astenia e hiporexia que progresan a fase ictérica, caracterizada por coloración amarillenta de piel y mucosas, y dolor en hipocondrio derecho. La resolución de la fiebre coincide con la aparición de la ictericia, patrón típico en hepatitis viral aguda, especialmente por el virus A. La anemia hemolítica puede presentar ictericia, pero no causa los pródromos constitucionales ni dolor hepático. La hepatitis tóxica suele tener historia de exposición a fármacos o tóxicos, ausente aquí. La hepatitis autoinmune afecta más a mujeres y tiene curso más insidioso. El cuadro clínico, edad y evolución son compatibles con hepatitis viral aguda, siendo la etiología más probable.",
+      "comentario": "Paciente joven con cuadro clínico clásico de hepatitis aguda: pródromos inespecíficos como fiebre, náuseas, vómitos, astenia e hiporexia que progresan a fase ictérica, caracterizada por coloración amarillenta de piel y mucosas, y dolor en hipocondrio derecho. La resolución de la fiebre coincide con la aparición de la ictericia, patrón típico en hepatitis viral aguda, especialmente por el virus A. La anemia hemolítica puede presentar ictericia, pero no causa los pródromos constitucionales ni dolor hepático. La hepatitis tóxica suele tener historia de exposición a fármacos o tóxicos, ausente aquí. La hepatitis autoinmune afecta más a mujeres y tiene curso más insidioso. El cuadro clínico, edad y evolución son compatibles con hepatitis viral aguda, siendo la etiología más probable.",
+      "tema": "Hepatitis viral aguda",
+      "año": 2022
+    },
+    {
+      "id": "GAS-030",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 44 años, se le realiza endoscopía digestiva alta, evidenciándose zona de excoriación de mucosa a nivel de curvatura menor, cerca del antro y del píloro. ¿Cuál es la causa básica que origina este hallazgo?",
+      "opciones": [
+        "Aumento de producción de moco por las glándulas gástricas pilóricas profundas",
+        "Desequilibrio entre la secreción gástrica y el grado de protección de la mucosa",
+        "Deficiente acción neutralizante biliar frente al ácido gástrico",
+        "Aumento de la secreción de bicarbonato de sodio",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con lesión erosiva de la mucosa gástrica a nivel de curvatura menor del estómago, una localización típica de úlcera gástrica. La fisiopatología de esta condición no se debe únicamente al aumento de secreción ácida, sino más bien a un desequilibrio entre los factores agresores (como HCl, pepsina y H. pylori) y los mecanismos protectores de la mucosa (moco, bicarbonato, prostaglandinas). Cuando la barrera mucosa se debilita, el epitelio gástrico queda expuesto a la acción del ácido clorhídrico, generando excoriaciones. El hallazgo endoscópico descrito sugiere un proceso ulcerativo en etapa inicial. Las opciones que mencionan aumento de bicarbonato o moco no explican una lesión, sino más bien protección; y la neutralización biliar ocurre en el duodeno, no en el estómago. Por tanto, el origen básico del hallazgo es el desequilibrio mucoso-agresor.",
+      "comentario": "Paciente con lesión erosiva de la mucosa gástrica a nivel de curvatura menor del estómago, una localización típica de úlcera gástrica. La fisiopatología de esta condición no se debe únicamente al aumento de secreción ácida, sino más bien a un desequilibrio entre los factores agresores (como HCl, pepsina y H. pylori) y los mecanismos protectores de la mucosa (moco, bicarbonato, prostaglandinas). Cuando la barrera mucosa se debilita, el epitelio gástrico queda expuesto a la acción del ácido clorhídrico, generando excoriaciones. El hallazgo endoscópico descrito sugiere un proceso ulcerativo en etapa inicial. Las opciones que mencionan aumento de bicarbonato o moco no explican una lesión, sino más bien protección; y la neutralización biliar ocurre en el duodeno, no en el estómago. Por tanto, el origen básico del hallazgo es el desequilibrio mucoso-agresor.",
+      "tema": "Úlcera péptica: fisiopatología",
+      "año": 2022
+    },
+    {
+      "id": "GAS-031",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 50 años acude por dolor abdominal intenso en epigastrio con irradiación a región lumbar que se inició hace 7 días, hace 2 días se agrega náuseas e hiporexia. Antecedente de alcoholismo crónico. ¿Qué examen debe solicitar para confirmar diagnóstico?",
+      "opciones": [
+        "Fosfatasa alcalina",
+        "Amilasa",
+        "Lipasa",
+        "Transaminasas",
+        "Clindamicina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente masculino de 50 años con historia de dolor epigástrico irradiado a dorso, hiporexia y náuseas, en contexto de alcoholismo crónico, lo que orienta fuertemente hacia el diagnóstico de pancreatitis aguda alcohólica. El dolor epigástrico con irradiación a región lumbar es característico. Aunque la amilasa puede elevarse, la lipasa es más específica y se eleva por mayor tiempo (hasta 7-14 días). Fosfatasa alcalina y transaminasas pueden estar alteradas si hay daño hepático o biliar, pero no son útiles para confirmar una pancreatitis. Por tanto, el mejor examen para confirmar el diagnóstico clínico de pancreatitis en este contexto es la lipasa sérica.",
+      "comentario": "Paciente masculino de 50 años con historia de dolor epigástrico irradiado a dorso, hiporexia y náuseas, en contexto de alcoholismo crónico, lo que orienta fuertemente hacia el diagnóstico de pancreatitis aguda alcohólica. El dolor epigástrico con irradiación a región lumbar es característico. Aunque la amilasa puede elevarse, la lipasa es más específica y se eleva por mayor tiempo (hasta 7-14 días). Fosfatasa alcalina y transaminasas pueden estar alteradas si hay daño hepático o biliar, pero no son útiles para confirmar una pancreatitis. Por tanto, el mejor examen para confirmar el diagnóstico clínico de pancreatitis en este contexto es la lipasa sérica.",
+      "tema": "Pancreatitis aguda: lipasa",
+      "año": 2022
+    },
+    {
+      "id": "GAS-032",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 45 años, acude a consultorio por presentar desde hace un mes dolor tipo urente en epigastrio que aparece 5 a 6 horas después de la ingesta de alimentos, ocasionalmente el dolor lo despierta por las noches. Niega pérdida de peso y disfagia. Sin antecedentes relevantes. Al examen: no evidencia hallazgos significativos. ¿Cuál sería el diagnóstico más probable?",
+      "opciones": [
+        "Gastritis aguda",
+        "Reflujo gastroesofágico",
+        "Úlcera péptica",
+        "Cáncer de estómago",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor epigástrico de tipo urente que aparece varias horas después de la ingesta y que incluso despierta al paciente por la noche es característico de una úlcera duodenal, una forma de úlcera péptica. La ausencia de síntomas como disfagia o pérdida de peso orienta a una patología benigna. La gastritis aguda suele producir dolor más inmediato tras las comidas, y el reflujo gastroesofágico se caracteriza por pirosis retroesternal posprandial, no por dolor epigástrico tardío. El cáncer gástrico se presenta con síntomas sistémicos, pérdida de peso o vómitos persistentes, los cuales no se evidencian aquí. La localización epigástrica, el patrón temporal del dolor y su alivio tras la ingesta tardía encajan mejor con úlcera péptica.",
+      "comentario": "El dolor epigástrico de tipo urente que aparece varias horas después de la ingesta y que incluso despierta al paciente por la noche es característico de una úlcera duodenal, una forma de úlcera péptica. La ausencia de síntomas como disfagia o pérdida de peso orienta a una patología benigna. La gastritis aguda suele producir dolor más inmediato tras las comidas, y el reflujo gastroesofágico se caracteriza por pirosis retroesternal posprandial, no por dolor epigástrico tardío. El cáncer gástrico se presenta con síntomas sistémicos, pérdida de peso o vómitos persistentes, los cuales no se evidencian aquí. La localización epigástrica, el patrón temporal del dolor y su alivio tras la ingesta tardía encajan mejor con úlcera péptica.",
+      "tema": "Úlcera duodenal: dolor que despierta",
+      "año": 2022
+    },
+    {
+      "id": "GAS-033",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 52 años, obesa presenta desde hace 24 horas dolor epigástrica intenso irradiado en cinturón. PA: 65/40 mmHg, soporosa, TEM abdominal: páncreas con agrandamiento difuso, contorno irregular, inflamación alrededor de la glándula y acumulación de líquido intrapancreático. ¿Cuál es la medida terapéutica inicial?",
+      "opciones": [
+        "Antibioticoterapia profiláctica",
+        "Fluidoterapia agresiva",
+        "Nutrición parenteral total",
+        "Inhibidores de la proteasa",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta una pancreatitis aguda grave, evidenciada por dolor epigástrico intenso en cinturón, hipotensión (PA 65/40 mmHg), estado mental alterado (soporosa) y hallazgos tomográficos característicos. La medida terapéutica inicial más importante es la fluidoterapia agresiva, ya que la hipovolemia secundaria a la tercera espacio e inflamación severa es una causa común de choque en estos casos. La restitución adecuada del volumen intravascular mejora la perfusión tisular y reduce el riesgo de complicaciones sistémicas. El uso de antibióticos, nutrición parenteral o inhibidores de proteasa no son prioritarios en la fase inicial del manejo. La reanimación con cristaloides debe iniciarse lo antes posible, guiada por parámetros clínicos y hemodinámicos.",
+      "comentario": "La paciente presenta una pancreatitis aguda grave, evidenciada por dolor epigástrico intenso en cinturón, hipotensión (PA 65/40 mmHg), estado mental alterado (soporosa) y hallazgos tomográficos característicos. La medida terapéutica inicial más importante es la fluidoterapia agresiva, ya que la hipovolemia secundaria a la tercera espacio e inflamación severa es una causa común de choque en estos casos. La restitución adecuada del volumen intravascular mejora la perfusión tisular y reduce el riesgo de complicaciones sistémicas. El uso de antibióticos, nutrición parenteral o inhibidores de proteasa no son prioritarios en la fase inicial del manejo. La reanimación con cristaloides debe iniciarse lo antes posible, guiada por parámetros clínicos y hemodinámicos.",
+      "tema": "Pancreatitis aguda grave con choque: fluidoterapia",
+      "año": 2023
+    },
+    {
+      "id": "GAS-034",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Adolescente que presenta hace cinco días malestar, fiebre, pérdida de apetito, prurito, náusea y vómitos. Examen: mucosas secas, ictericia, hepatomegalia. ¿Cuál es el examen que confirma el diagnóstico?",
+      "opciones": [
+        "IgM anti-VHA",
+        "IgG anti-VHA",
+        "IgG anti-VHB",
+        "IgM anti-VHB",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico descrito sugiere una hepatitis viral aguda, y dado el inicio súbito con síntomas gastrointestinales, ictericia y hepatomegalia en un adolescente, la hepatitis A es una posibilidad frecuente. El IgM anti-VHA es el marcador serológico que confirma la infección aguda por el virus de la hepatitis A, siendo útil para el diagnóstico temprano. Esta inmunoglobulina aparece en la fase aguda y desaparece en semanas a meses.",
+      "comentario": "El cuadro clínico descrito sugiere una hepatitis viral aguda, y dado el inicio súbito con síntomas gastrointestinales, ictericia y hepatomegalia en un adolescente, la hepatitis A es una posibilidad frecuente. El IgM anti-VHA es el marcador serológico que confirma la infección aguda por el virus de la hepatitis A, siendo útil para el diagnóstico temprano. Esta inmunoglobulina aparece en la fase aguda y desaparece en semanas a meses.",
+      "tema": "Hepatitis A: IgM anti-VHA",
+      "año": 2023
+    },
+    {
+      "id": "GAS-035",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 23 años acude por presentar ictericia de escleras, ha notado que está asociado a ayunos prolongado y se normalizaba en dos días. Niega dolor abdominal, náuseas, coluria, acolia, prurito y pérdida de peso. Examen: escleras ictéricas +/+++, no arañas vasculares, abdomen blando, altura hepática 10 cm borde liso, bazo no palpable. Laboratorio: Hto normal. Bilirrubina total: 3.1 mg/dl, bilirrubina directa 0.3 mg/dl, TGO, TGP, FA, DHL y haptoglobina normales. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Anemia hemolítica",
+        "Síndrome de Gilbert",
+        "Hepatitis viral",
+        "Cirrosis hepática",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta ictericia de escleras sin otros síntomas sistémicos, como dolor abdominal, náuseas o pérdida de peso, lo que sugiere una causa no hepática ni de obstrucción biliar. Los resultados de laboratorio muestran una bilirrubina total elevada, pero con bilirrubina directa dentro de los límites normales, lo que indica que la ictericia es predominantemente por bilirrubina no conjugada. La normalidad de las pruebas hepáticas (TGO, TGP, FA, DHL, haptoglobina) también descarta una hepatopatía activa o hemólisis significativa. El diagnóstico más probable es Síndrome de Gilbert, una condición benigna del metabolismo de la bilirrubina debido a una deficiencia parcial de la enzima UDP - glucuroniltransferasa. Este síndrome suele desencadenarse por factores como el ayuno prolongado, estrés o infecciones, lo que concuerda con la historia clínica del paciente. La ictericia tiende a ser intermitente y se resuelve espontáneamente, como en este caso.",
+      "comentario": "El paciente presenta ictericia de escleras sin otros síntomas sistémicos, como dolor abdominal, náuseas o pérdida de peso, lo que sugiere una causa no hepática ni de obstrucción biliar. Los resultados de laboratorio muestran una bilirrubina total elevada, pero con bilirrubina directa dentro de los límites normales, lo que indica que la ictericia es predominantemente por bilirrubina no conjugada. La normalidad de las pruebas hepáticas (TGO, TGP, FA, DHL, haptoglobina) también descarta una hepatopatía activa o hemólisis significativa. El diagnóstico más probable es Síndrome de Gilbert, una condición benigna del metabolismo de la bilirrubina debido a una deficiencia parcial de la enzima UDP - glucuroniltransferasa. Este síndrome suele desencadenarse por factores como el ayuno prolongado, estrés o infecciones, lo que concuerda con la historia clínica del paciente. La ictericia tiende a ser intermitente y se resuelve espontáneamente, como en este caso.",
+      "tema": "Síndrome de Gilbert",
+      "año": 2023
+    },
+    {
+      "id": "GAS-036",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 27 años, hace 5 días presentó episodios de \"migraña\" y se automedicó con paracetamol, es traído por náuseas, vómitos y somnolencia. Examen: ictérico, desorientado en espacio, asterixis (+), hiperreflexia y gingivorragia. Lab: INR 6, TP 30 segundos, K 3.5 mEq/L, Glucosa: 65 mg/dL, Creatinina 1.9 mg/dL. AGA: pH: 7.32, HCO3 16 mEq/L, pCO2 32 mmHg. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "N-acetilcisteína",
+        "Lavado gástrico",
+        "Trasplante hepático",
+        "Vitamina K endovenosa",
+        "Paracetamol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón de 27 años con signos de hepatotoxicidad tras ingesta de paracetamol: encefalopatía, ictericia, asterixis, hipoglucemia, INR elevado y creatinina alta. Este cuadro clínico cumple con los criterios de falla hepática fulminante, en este caso probablemente inducida por sobredosis de paracetamol, incluso si fue dentro del rango terapéutico en pacientes con factores de riesgo. La primera línea de tratamiento es la N-acetilcisteína, que actúa como antídoto al reponer glutatión y detoxificar el metabolito hepatotóxico NAPQI. Aunque presenta encefalopatía y alteración de la coagulación que indican mal pronóstico, la N-acetilcisteína es beneficiosa incluso en fases tardías. La vitamina K no resuelve el daño hepático. El trasplante hepático es una opción definitiva en casos de fallo hepático irreversible, pero no se plantea de inicio. El lavado gástrico es inútil a los 5 días de la ingesta. El tratamiento oportuno con N - acetilcisteína puede revertir la evolución clínica.",
+      "comentario": "Varón de 27 años con signos de hepatotoxicidad tras ingesta de paracetamol: encefalopatía, ictericia, asterixis, hipoglucemia, INR elevado y creatinina alta. Este cuadro clínico cumple con los criterios de falla hepática fulminante, en este caso probablemente inducida por sobredosis de paracetamol, incluso si fue dentro del rango terapéutico en pacientes con factores de riesgo. La primera línea de tratamiento es la N-acetilcisteína, que actúa como antídoto al reponer glutatión y detoxificar el metabolito hepatotóxico NAPQI. Aunque presenta encefalopatía y alteración de la coagulación que indican mal pronóstico, la N-acetilcisteína es beneficiosa incluso en fases tardías. La vitamina K no resuelve el daño hepático. El trasplante hepático es una opción definitiva en casos de fallo hepático irreversible, pero no se plantea de inicio. El lavado gástrico es inútil a los 5 días de la ingesta. El tratamiento oportuno con N - acetilcisteína puede revertir la evolución clínica.",
+      "tema": "Falla hepática aguda por paracetamol: N-acetilcisteína",
+      "año": 2023
+    },
+    {
+      "id": "GAS-037",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 52 años, con antecedentes de alcoholismo con cuadro de encefalopatía hepática grado II. Examen: PA 90/60 mmHg; T 38.3 ºC; despierto, asterixis (+); abdomen: dolor a la palpación, matidez desplazable, RHA (+). Líquido ascítico: leucocitos 7000/mm3 a predominio de neutrófilos y proteínas 5 g/L. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Ciprofloxacina",
+        "Ceftriaxona",
+        "Amikacina",
+        "Azitromicina",
+        "Epinefrina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El dolor abdominal a la palpación, la matidez desplazable y la presencia de leucocitos en el líquido ascítico sugieren una posible infección intraabdominal, como la peritonitis bacteriana espontánea (PBE). Este es un hallazgo común en pacientes con cirrosis hepática y ascitis. Se caracteriza por la infección bacteriana del líquido ascítico en ausencia de una fuente intraabdominal evidente. Los pacientes pueden presentar fiebre, dolor abdominal, sensibilidad a la palpación y otros signos de infección. El predominio de neutrófilos en el líquido ascítico es un hallazgo característico de la PBE. El tratamiento indicado en estos casos es Ceftriaxona (Opción B). La ceftriaxona es un antibiótico de tercera generación que tiene buena penetración en el líquido ascítico y es activo contra una amplia gama de bacterias, incluidos los patógenos más comunes implicados en la peritonitis bacteriana espontánea, como Escherichia coli y Streptococcus pneumoniae.",
+      "comentario": "El dolor abdominal a la palpación, la matidez desplazable y la presencia de leucocitos en el líquido ascítico sugieren una posible infección intraabdominal, como la peritonitis bacteriana espontánea (PBE). Este es un hallazgo común en pacientes con cirrosis hepática y ascitis. Se caracteriza por la infección bacteriana del líquido ascítico en ausencia de una fuente intraabdominal evidente. Los pacientes pueden presentar fiebre, dolor abdominal, sensibilidad a la palpación y otros signos de infección. El predominio de neutrófilos en el líquido ascítico es un hallazgo característico de la PBE. El tratamiento indicado en estos casos es Ceftriaxona (Opción B). La ceftriaxona es un antibiótico de tercera generación que tiene buena penetración en el líquido ascítico y es activo contra una amplia gama de bacterias, incluidos los patógenos más comunes implicados en la peritonitis bacteriana espontánea, como Escherichia coli y Streptococcus pneumoniae.",
+      "tema": "Peritonitis bacteriana espontánea: ceftriaxona",
+      "año": 2023
+    },
+    {
+      "id": "GAS-038",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 7 años, cursa con fatiga, anorexia, pérdida de peso, urticaria, lesiones purpúricas e ictericia. Antecedentes: hace 7 semanas operado de apendicitis complicada recibió transfusión sanguínea en sala de operaciones. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Leptospirosis",
+        "Hepatitis B",
+        "Hepatitis E",
+        "Hepatitis A",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Dado que los síntomas del niño son consistentes con una infección viral hepática y teniendo en cuenta el antecedente de transfusión sanguínea, la opción más probable es una infección aguda por Hepatitis B (Opción B). La hepatitis B es una infección viral que afecta al hígado y puede causar fatiga, anorexia, pérdida de peso, ictericia y en ocasiones, manifestaciones cutáneas como urticaria y lesiones purpúricas. Además, el antecedente de transfusión sanguínea aumenta el riesgo de exposición al virus de la hepatitis B. Por lo tanto, considerando los síntomas presentados y el antecedente de la transfusión sanguínea, la hepatitis B es una posibilidad relevante a considerar.",
+      "comentario": "Dado que los síntomas del niño son consistentes con una infección viral hepática y teniendo en cuenta el antecedente de transfusión sanguínea, la opción más probable es una infección aguda por Hepatitis B (Opción B). La hepatitis B es una infección viral que afecta al hígado y puede causar fatiga, anorexia, pérdida de peso, ictericia y en ocasiones, manifestaciones cutáneas como urticaria y lesiones purpúricas. Además, el antecedente de transfusión sanguínea aumenta el riesgo de exposición al virus de la hepatitis B. Por lo tanto, considerando los síntomas presentados y el antecedente de la transfusión sanguínea, la hepatitis B es una posibilidad relevante a considerar.",
+      "tema": "Hepatitis B postransfusional",
+      "año": 2023
+    },
+    {
+      "id": "GAS-039",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 34 años, desde hace dos días presenta dolor abdominal difuso asociado a vómitos, ictericia y alza térmica no cuantificada. Examen: deshidratado; abdomen ligeramente distendido con ausencia de RHA. Lab: amilasa 2400 U/L, BT: 4.0 mg/dL, BD: 3.5 mg/dL, proteína C reactiva 5.6 mg/L. ¿Cuál es la conducta para definir la etiología?",
+      "opciones": [
+        "Colangioresonancia",
+        "Monitoreo de amilasa",
+        "TEM de abdomen",
+        "Rx abdomen simple",
+        "Resonancia magnética"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con dolor abdominal, fiebre, ictericia y amilasa elevada presenta un cuadro clínico de pancreatitis aguda. La ictericia y la bilirrubina directa elevada hacen sospechar una etiología biliar, especialmente una litiasis coledociana. En estos casos, la conducta no debe centrarse en el seguimiento de enzimas pancreáticas, pues no pred icen la causa. Tampoco es útil inicialmente una tomografía, que es mejor reservar para casos severos o complicaciones. La colangioresonancia (RMN de vías biliares) es el estudio no invasivo ideal para evaluar la vía biliar, identificar cálculos en colédoco y definir si se requiere una CPRE. Por tanto, ante sospecha de pancreatitis biliar, el estudio indicado para definir etiología es la colangioresonancia.",
+      "comentario": "Paciente con dolor abdominal, fiebre, ictericia y amilasa elevada presenta un cuadro clínico de pancreatitis aguda. La ictericia y la bilirrubina directa elevada hacen sospechar una etiología biliar, especialmente una litiasis coledociana. En estos casos, la conducta no debe centrarse en el seguimiento de enzimas pancreáticas, pues no pred icen la causa. Tampoco es útil inicialmente una tomografía, que es mejor reservar para casos severos o complicaciones. La colangioresonancia (RMN de vías biliares) es el estudio no invasivo ideal para evaluar la vía biliar, identificar cálculos en colédoco y definir si se requiere una CPRE. Por tanto, ante sospecha de pancreatitis biliar, el estudio indicado para definir etiología es la colangioresonancia.",
+      "tema": "Pancreatitis biliar: colangiorresonancia",
+      "año": 2023
+    },
+    {
+      "id": "GAS-040",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Obeso de 45 años, presenta desde hace un año dolor retroesternal atípico, disfagia, pirosis y en las noches \"le ronca el pecho y piensa que tiene asma\". ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Solicitar TEM de tórax con contraste",
+        "Iniciar inhibidor de la bomba de protones",
+        "Medir el pH gástrico",
+        "Realizar espirometría forzada",
+        "Ecografía Doppler"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta síntomas consistentes con enfermedad por reflujo gastroesofágico (ERGE), que es una condición común en individuos obesos y se manifiesta típicamente con dolor retroesternal (pirosis), disfagia y regurgitación ácida (sensación de \"roncar el pecho\"). La disfagia y el dolor retroesternal pueden indicar una lesión esofágica por el reflujo ácido crónico. La pirosis es un síntoma cardinal de la ERGE, que se produce cuando el ácido gástrico refluye hacia el esófago. En estos casos, la conducta más apropiada a seguir es Iniciar inhibidor de la bomba de protones (IBP) (Opción B). Los IBP son el tratamiento de primera línea para la ERGE. Actúan inhibiendo la secreción ácida gástrica y proporcionan alivio sintomático eficaz para la pirosis y otros síntomas relacionados con el reflujo ácido. La prescripción de un IBP sería apropiada en este caso, considerando los síntomas del paciente y su probable diagnóstico de ERGE.",
+      "comentario": "El paciente presenta síntomas consistentes con enfermedad por reflujo gastroesofágico (ERGE), que es una condición común en individuos obesos y se manifiesta típicamente con dolor retroesternal (pirosis), disfagia y regurgitación ácida (sensación de \"roncar el pecho\"). La disfagia y el dolor retroesternal pueden indicar una lesión esofágica por el reflujo ácido crónico. La pirosis es un síntoma cardinal de la ERGE, que se produce cuando el ácido gástrico refluye hacia el esófago. En estos casos, la conducta más apropiada a seguir es Iniciar inhibidor de la bomba de protones (IBP) (Opción B). Los IBP son el tratamiento de primera línea para la ERGE. Actúan inhibiendo la secreción ácida gástrica y proporcionan alivio sintomático eficaz para la pirosis y otros síntomas relacionados con el reflujo ácido. La prescripción de un IBP sería apropiada en este caso, considerando los síntomas del paciente y su probable diagnóstico de ERGE.",
+      "tema": "ERGE con síntomas extraesofágicos: IBP",
+      "año": 2023
+    },
+    {
+      "id": "GAS-041",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 55 años, con diagnóstico de pancreatitis aguda grave en la cual se sospecha de necrosis y se considera que la intervención está indicada. ¿Entre que semanas se debe realizar el drenaje percutáneo?",
+      "opciones": [
+        "7 a 8",
+        "6 a 7",
+        "1 a 2",
+        "3 a 4",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La necrosis pancreática es una complicación grave de la pancreatitis aguda, que ocurre cuando hay muerte de tejido pancreático debido a la inflamación y la falta de irrigación sanguínea adecuada. Esta condición puede llevar a la formación de abscesos pancreáticos y puede aumentar el riesgo de infección. El drenaje percutáneo es una opción de tratamiento para la pancreatitis aguda grave cuando hay evidencia de necrosis pancreática infectada. Se recomienda realizar el drenaje percutáneo dentro de las 3 a 4 semanas posteriores al inicio de los síntomas de la pancreatitis aguda (Opción D), especialmente si hay evidencia radiológica de necrosis infectada.",
+      "comentario": "La necrosis pancreática es una complicación grave de la pancreatitis aguda, que ocurre cuando hay muerte de tejido pancreático debido a la inflamación y la falta de irrigación sanguínea adecuada. Esta condición puede llevar a la formación de abscesos pancreáticos y puede aumentar el riesgo de infección. El drenaje percutáneo es una opción de tratamiento para la pancreatitis aguda grave cuando hay evidencia de necrosis pancreática infectada. Se recomienda realizar el drenaje percutáneo dentro de las 3 a 4 semanas posteriores al inicio de los síntomas de la pancreatitis aguda (Opción D), especialmente si hay evidencia radiológica de necrosis infectada.",
+      "tema": "Necrosis pancreática: drenaje diferido 3-4 semanas",
+      "año": 2023
+    },
+    {
+      "id": "GAS-042",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 60 años, alcohólico crónico con cirrosis hepática, es traído por estar confundido, con dolor abdominal intenso y diarrea. Examen: PA 100/60 mmHg, FC 102 X’, FR 24 X’, T 38.5 °C, Sat.O2 94%, ictérico, confuso, asterixis, abdomen distendido con matidez desplazable y dolor difuso a la palpación. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        "Evaluación por cirugía",
+        "Realizar paracentesis",
+        "Antiespasmódicos",
+        "Iniciar probióticos",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El caso clínico nos presenta a un paciente con cirrosis hepática descompensada que ingresa con encefalopatía hepática (confusión y asterixis) y ascitis (abdomen distendido con matidez desplazable). En relación con la ascitis, vemos que además se acompaña de dolor abdominal y fiebre lo que sugiere una peritonitis bacteriana espontánea (PBE). En estos casos, realizar una paracentesis (Alternativa B) es la conducta más apropiada para evaluar el líquido ascítico. La paracentesis permite obtener muestras para análisis de células, cultivo, y proteínas, lo cual es crucial para diagnosticar y tratar PBE de manera oportuna.",
+      "comentario": "El caso clínico nos presenta a un paciente con cirrosis hepática descompensada que ingresa con encefalopatía hepática (confusión y asterixis) y ascitis (abdomen distendido con matidez desplazable). En relación con la ascitis, vemos que además se acompaña de dolor abdominal y fiebre lo que sugiere una peritonitis bacteriana espontánea (PBE). En estos casos, realizar una paracentesis (Alternativa B) es la conducta más apropiada para evaluar el líquido ascítico. La paracentesis permite obtener muestras para análisis de células, cultivo, y proteínas, lo cual es crucial para diagnosticar y tratar PBE de manera oportuna.",
+      "tema": "Cirrótico con fiebre y dolor abdominal: paracentesis",
+      "año": 2024
+    },
+    {
+      "id": "GAS-043",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 45 años, es llevado a urgencias por cambio brusco de su estado mental en las últimas 24 horas, está más somnoliento y confuso. Hace dos semanas inicio con fiebre, malestar general y a los 6 días nota coloración amarillenta en ojos y piel. Examen: PA 110/70 mmHg, FC 118 X´, FR 22 X´, T 39.1 °C, ictérico, desorientado, somnoliento, habla incoherencias, asterixis, hiperreflexia. Laboratorio: Bilirrubina total 19.6 mg/dL, Tiempo de protrombina 68 segundos, INR 6. ¿Qué tipo de insuficiencia hepática presenta?",
+      "opciones": [
+        "Subaguda",
+        "Hiperaguda",
+        "Aguda",
+        "Rápidamente progresivo",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta signos de insuficiencia hepática caracterizada por ictericia, coagulopatía severa (tiempo de protrombina prolongado, INR elevado) y encefalopatía (somnolencia, confusión, asterixis, habla incoherente). La insuficiencia hepática se clasifica según el tiempo transcurrido entre el inicio de la ictericia y el desarrollo de encefalopatía hepática. En este caso, la ictericia empezó entre 1 a 2 semanas antes de la encefalopatía por lo que se consideraría que se trata de una insuficiencia hepática aguda (Alternativa C). Una insuficiencia hepática aguda es aquella en la que existe un intervalo de 1 a 4 semanas entre la aparición de la ictericia y la encefalopatía hepática.",
+      "comentario": "El paciente presenta signos de insuficiencia hepática caracterizada por ictericia, coagulopatía severa (tiempo de protrombina prolongado, INR elevado) y encefalopatía (somnolencia, confusión, asterixis, habla incoherente). La insuficiencia hepática se clasifica según el tiempo transcurrido entre el inicio de la ictericia y el desarrollo de encefalopatía hepática. En este caso, la ictericia empezó entre 1 a 2 semanas antes de la encefalopatía por lo que se consideraría que se trata de una insuficiencia hepática aguda (Alternativa C). Una insuficiencia hepática aguda es aquella en la que existe un intervalo de 1 a 4 semanas entre la aparición de la ictericia y la encefalopatía hepática.",
+      "tema": "Insuficiencia hepática aguda: clasificación temporal",
+      "año": 2024
+    },
+    {
+      "id": "GAS-044",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 62 años, alcohólico crónico, refiere cuadro de dispepsia. Endoscopía digestiva alta: várices esofágicas de gran tamaño. Examen: Lúcido, no matidez desplazable, no asterixis. ¿Cuál es la actitud terapéutica más adecuada como prevención del primer episodio de hemorragia por várices?",
+      "opciones": [
+        "Administrar betabloqueante no cardioselectivo",
+        "Administrar somatostatina",
+        "Derivación proto sistémica percutánea intra hepática",
+        "Infusión continua de omeprazol",
+        "Atropina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El caso clínico nos presenta un paciente con diagnóstico probable de cirrosis hepática con un hallazgo endoscópico de várices esofágicas de gran tamaño no complicadas. En este paciente, la estrategia recomendada para la prevención primaria de hemorragia por várices esofágicas es la administración de betabloqueantes no cardio selectivos (Alternativa A). Los betabloqueantes no cardio selectivos (como propranolol o nadolol) se utilizan comúnmente para prevenir el primer episodio de hemorragia por várices esofágicas en pacientes con cirrosis y várices grandes. Estos medicamentos reducen la presión portal, disminuyendo el riesgo de hemorragia.",
+      "comentario": "El caso clínico nos presenta un paciente con diagnóstico probable de cirrosis hepática con un hallazgo endoscópico de várices esofágicas de gran tamaño no complicadas. En este paciente, la estrategia recomendada para la prevención primaria de hemorragia por várices esofágicas es la administración de betabloqueantes no cardio selectivos (Alternativa A). Los betabloqueantes no cardio selectivos (como propranolol o nadolol) se utilizan comúnmente para prevenir el primer episodio de hemorragia por várices esofágicas en pacientes con cirrosis y várices grandes. Estos medicamentos reducen la presión portal, disminuyendo el riesgo de hemorragia.",
+      "tema": "Profilaxis primaria de hemorragia variceal: betabloqueante",
+      "año": 2024
+    },
+    {
+      "id": "GAS-045",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 48 años con cirrosis hepática, desde hace dos días presenta alteraciones del comportamiento, somnolencia y confusión progresiva; baja adherencia a la dieta hipoproteica y estreñimiento en la última semana. Examen: ascitis, circulación colateral y flapping (+). ¿Cuál es la conducta inicial?",
+      "opciones": [
+        "Antibiótico profiláctico",
+        "Paracentesis",
+        "Lactulosa",
+        "Dieta rica en residuos",
+        "Amoxicilina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La conducta inicial en este paciente es lactulosa. El paciente presenta signos de encefalopatía hepática, como alteraciones del comportamiento, somnolencia, confusión progesiva y flapping que son síntomas característicos de esta condición. La encefalopatía hepática se asocia a la acumulación de amoníaco debido a la disfunción hepática, y la lactulosa es un tratamiento estándar para reducir los niveles de amoníaco en la sangre. Este tratamiento funciona como un laxante, disminuyendo la absorción de amoníaco en el tracto intestinal y ayudando a mejorar los síntomas.",
+      "comentario": "La conducta inicial en este paciente es lactulosa. El paciente presenta signos de encefalopatía hepática, como alteraciones del comportamiento, somnolencia, confusión progesiva y flapping que son síntomas característicos de esta condición. La encefalopatía hepática se asocia a la acumulación de amoníaco debido a la disfunción hepática, y la lactulosa es un tratamiento estándar para reducir los niveles de amoníaco en la sangre. Este tratamiento funciona como un laxante, disminuyendo la absorción de amoníaco en el tracto intestinal y ayudando a mejorar los síntomas.",
+      "tema": "Encefalopatía hepática: lactulosa",
+      "año": 2024
+    },
+    {
+      "id": "GAS-046",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, con HBsAg (+), IgM Anti HBc (+), anticuerpos totales Anti HBc (+), anticuerpos anti HBs (-); se considera Hepatitis B. ¿En qué fase se encuentra?",
+      "opciones": [
+        "Incubación",
+        "Recuperación",
+        "Convalecencia",
+        "Aguda",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El perfil serológico de la paciente indica una infección aguda por hepatitis B. La presencia de HBsAg (+) confirma la infección en curso, mientras que la IgM Anti-HBc (+) es un marcador de infección reciente, característico de la fase aguda. Los anticuerpos totales Anti-HBc (+) reflejan una respuesta inmune en desarrollo, y la ausencia de Anti-HBs (-) indica que aún no ha alcanzado la fase de recuperación. En este contexto, el diagnóstico es hepatitis B aguda.",
+      "comentario": "El perfil serológico de la paciente indica una infección aguda por hepatitis B. La presencia de HBsAg (+) confirma la infección en curso, mientras que la IgM Anti-HBc (+) es un marcador de infección reciente, característico de la fase aguda. Los anticuerpos totales Anti-HBc (+) reflejan una respuesta inmune en desarrollo, y la ausencia de Anti-HBs (-) indica que aún no ha alcanzado la fase de recuperación. En este contexto, el diagnóstico es hepatitis B aguda.",
+      "tema": "Serología de hepatitis B aguda",
+      "año": 2024
+    },
+    {
+      "id": "GAS-047",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 36 años, acude por ictericia. Hace 10 días operado por trauma abdominal cerrado y recibió 7 unidades de paquete globular. Examen: abdomen doloroso a la palpación, no rebote. Lab: Hb 9.7 g/dl, BT 3.9 mg/dl, BI 3.7 mg/dl, BD 0.2 mg/dl, AST 55 UI /l, ALT 89 UI/l. TC abdominal: hematoma retroperitoneal en proceso de resolución. ¿Cuál es la causa más probable de ictericia en este paciente?",
+      "opciones": [
+        "Reabsorción del hematoma",
+        "Inhibición de la conjugación",
+        "Disminución de la captación 2",
+        "Defecto en la excreción celular",
+        "Apendicitis aguda"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente tuvo un trauma abdominal cerrado que requirió transfusión masiva (7 paquetes globulares) y presenta un hematoma retroperitoneal en proceso de resolución. Presenta ictericia con predominio de bilirrubina indirecta (BI 3.7 mg/dl, BD 0.2 mg/dl), con AST y ALT elevadas, pero sin patrón de lesión hepática severa. Durante la resolución de un hematoma, los glóbulos rojos descompuestos liberan hemoglobina. Esta se metaboliza en biliverdina y luego en bilirrubina indirecta (no conjugada), que se transporta al hígado para conjugación. Un hematoma grande puede liberar cantidades significativas de bilirrubina, superando la capacidad hepática de conjugación temporalmente, causando hiperbilirrubinemia indirecta transitoria.",
+      "comentario": "El paciente tuvo un trauma abdominal cerrado que requirió transfusión masiva (7 paquetes globulares) y presenta un hematoma retroperitoneal en proceso de resolución. Presenta ictericia con predominio de bilirrubina indirecta (BI 3.7 mg/dl, BD 0.2 mg/dl), con AST y ALT elevadas, pero sin patrón de lesión hepática severa. Durante la resolución de un hematoma, los glóbulos rojos descompuestos liberan hemoglobina. Esta se metaboliza en biliverdina y luego en bilirrubina indirecta (no conjugada), que se transporta al hígado para conjugación. Un hematoma grande puede liberar cantidades significativas de bilirrubina, superando la capacidad hepática de conjugación temporalmente, causando hiperbilirrubinemia indirecta transitoria.",
+      "tema": "Ictericia por reabsorción de hematoma",
+      "año": 2024
+    },
+    {
+      "id": "GAS-048",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Niño de 6 años presenta náuseas, distensión abdominal, diarreas y flatulencia después de la ingesta de productos lácteos. ¿Cuál es la enzima deficiente?",
+      "opciones": [
+        "Sacarasa",
+        "Amilasa",
+        "Maltasa",
+        "Lactasa",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Niño con cuadro gastrointestinal post-ingesta de productos lácteos: náuseas, distensión abdominal, flatulencia y diarrea, lo que clínicamente sugiere una intolerancia alimentaria. El diagnóstico más probable es intolerancia a la lactosa, causada por deficiencia de la enzima lactasa, que normalmente hidroliza la lactosa en glucosa y galactosa. Sin embargo, se ha marcado como respuesta correcta la opción \"maltasa\", enzima encargada de descomponer la maltosa en glucosa, que no está implicada en la digestión de productos lácteos. La opción correcta fisiopatológicamente sería lactasa. La sacarasa y amilasa intervienen en la digestión de sacarosa y almidón respectivamente. La presentación clínica es característica de malabsorción de lactosa.",
+      "comentario": "Niño con cuadro gastrointestinal post-ingesta de productos lácteos: náuseas, distensión abdominal, flatulencia y diarrea, lo que clínicamente sugiere una intolerancia alimentaria. El diagnóstico más probable es intolerancia a la lactosa, causada por deficiencia de la enzima lactasa, que normalmente hidroliza la lactosa en glucosa y galactosa. Sin embargo, se ha marcado como respuesta correcta la opción \"maltasa\", enzima encargada de descomponer la maltosa en glucosa, que no está implicada en la digestión de productos lácteos. La opción correcta fisiopatológicamente sería lactasa. La sacarasa y amilasa intervienen en la digestión de sacarosa y almidón respectivamente. La presentación clínica es característica de malabsorción de lactosa.",
+      "tema": "Intolerancia a la lactosa",
+      "año": 2025
+    },
+    {
+      "id": "GAS-049",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 58 años con antecedente de hepatitis C crónica no tratada consulta por distensión abdominal progresiva y edema en miembros inferiores. Al examen: ictericia leve, circulación colateral abdominal y ascitis moderada. Laboratorio: albúmina 2.4 g/dL, bilirrubina total 3.1 mg/dL, INR 1.7, plaquetas 85 000/µL. Ecografía: hígado de contornos irregulares, esplenomegalia y ascitis. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Budd–Chiari",
+        "Cirrosis hepática descompensada",
+        "Hepatitis viral aguda fulminante",
+        "Carcinoma hepatocelular",
+        "Asma bronquial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta signos clásicos de hepatopatía crónica avanzada, con distensión abdominal, ictericia leve, circulación colateral y ascitis, hallazgos compatibles con hipertensión portal. Los exámenes evidencian hipoproteinemia, alteración de la coagulación y trombocitopenia por hiperesplenismo. La ecografía confirma un hígado de contornos irregulares y esplenomegalia, configurando un cuadro típico de cirrosis hepática descompensada. En la fisiopatología, la necroinflamación persistente por hepatitis C genera fibrosis progresiva y nódulos regenerativos que alteran el flujo portal, originando ascitis y edema por hipoalbuminemia y retención de sodio. El INR prolongado refleja disfunción hepatocelular.",
+      "comentario": "El paciente presenta signos clásicos de hepatopatía crónica avanzada, con distensión abdominal, ictericia leve, circulación colateral y ascitis, hallazgos compatibles con hipertensión portal. Los exámenes evidencian hipoproteinemia, alteración de la coagulación y trombocitopenia por hiperesplenismo. La ecografía confirma un hígado de contornos irregulares y esplenomegalia, configurando un cuadro típico de cirrosis hepática descompensada. En la fisiopatología, la necroinflamación persistente por hepatitis C genera fibrosis progresiva y nódulos regenerativos que alteran el flujo portal, originando ascitis y edema por hipoalbuminemia y retención de sodio. El INR prolongado refleja disfunción hepatocelular.",
+      "tema": "Cirrosis hepática descompensada",
+      "año": 2025
+    },
+    {
+      "id": "GAS-050",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 30 años acude a Emergencia por hematemesis iniciada hace 30 minutos. Refiere múltiples vómitos incoercibles el día previo tras ingesta excesiva de alcohol. Al examen: hemodinámicamente estable, sin palidez ni estigmas de hepatopatía. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Várices esofágicas",
+        "Desgarro de Mallory-Weiss",
+        "Gastritis erosiva",
+        "Úlcera gástrica",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente con antecedente de vómitos repetidos seguidos de hematemesis, sin signos de hepatopatía ni inestabilidad hemodinámica, presenta el patrón típico del síndrome de Mallory-Weiss. La fisiopatología radica en un desgarro mucoso longitudinal en la unión gastroesofágica causado por el aumento súbito de la presión intraabdominal al vomitar. El sangrado suele ser autolimitado y no compromete la estabilidad del paciente. El diagnóstico diferencial incluye várices esofágicas y gastritis erosiva, pero la ausencia de hepatopatía y la historia de vómitos intensos orientan al desgarro mucoso. El tratamiento es conservador, con inhibidores de bomba de protones y vigilancia. En síntesis, el diagnóstico más probable es desgarro de Mallory-Weiss.",
+      "comentario": "El paciente con antecedente de vómitos repetidos seguidos de hematemesis, sin signos de hepatopatía ni inestabilidad hemodinámica, presenta el patrón típico del síndrome de Mallory-Weiss. La fisiopatología radica en un desgarro mucoso longitudinal en la unión gastroesofágica causado por el aumento súbito de la presión intraabdominal al vomitar. El sangrado suele ser autolimitado y no compromete la estabilidad del paciente. El diagnóstico diferencial incluye várices esofágicas y gastritis erosiva, pero la ausencia de hepatopatía y la historia de vómitos intensos orientan al desgarro mucoso. El tratamiento es conservador, con inhibidores de bomba de protones y vigilancia. En síntesis, el diagnóstico más probable es desgarro de Mallory-Weiss.",
+      "tema": "Síndrome de Mallory-Weiss",
+      "año": 2025
+    },
+    {
+      "id": "GAS-051",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 64 años, consulta por cansancio, pérdida de peso (10 kilos), episodios de constipación y hematoquecia. Examen: pálido, PA 100/60 mmHg, pulso 100 x', FR 22 x'. Abdomen: normal. ¿Qué examen auxiliar de inicio solicitaría?",
+      "opciones": [
+        "Tomografía axial computada abdominal",
+        "RX de colon con enema opaco",
+        "Colonoscopía",
+        "Endoscopía digestiva alta",
+        "Arteriografía"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón de 64 años con astenia, pérdida ponderal significativa, constipación y hematoquecia, síntomas cardinales de una posible neoplasia colorrectal. Fisiopatológicamente, la pérdida de sangre crónica por ulceración tumoral y el tránsito intestinal lento por obstrucción parcial explican la anemia, el cansancio y la alteración del hábito intestinal. La hematoquecia indica un origen distal del sangrado, generalmente en colon o recto, lo que descarta inicialmente lesiones del tracto digestivo superior. El examen físico abdominal puede ser normal en fases iniciales, por lo que se requiere exploración directa de la mucosa colónica. La colonoscopía es el método diagnóstico de elección, pues permite visualizar el tumor, determinar su localización exacta y tomar biopsias para confirmación histológica.",
+      "comentario": "Varón de 64 años con astenia, pérdida ponderal significativa, constipación y hematoquecia, síntomas cardinales de una posible neoplasia colorrectal. Fisiopatológicamente, la pérdida de sangre crónica por ulceración tumoral y el tránsito intestinal lento por obstrucción parcial explican la anemia, el cansancio y la alteración del hábito intestinal. La hematoquecia indica un origen distal del sangrado, generalmente en colon o recto, lo que descarta inicialmente lesiones del tracto digestivo superior. El examen físico abdominal puede ser normal en fases iniciales, por lo que se requiere exploración directa de la mucosa colónica. La colonoscopía es el método diagnóstico de elección, pues permite visualizar el tumor, determinar su localización exacta y tomar biopsias para confirmación histológica.",
+      "tema": "Sospecha de cáncer colorrectal: colonoscopía",
+      "año": 2025
+    },
+    {
+      "id": "GAS-052",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿Cuál es el marcador tumoral más sensible y específico para el adenocarcinoma de páncreas?",
+      "opciones": [
+        "Ca 153",
+        "Antígeno carcinoembrionario",
+        "Ca 19-9",
+        "Alfafetoproteínas",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El adenocarcinoma de páncreas se caracteriza por su diagnóstico tardío y su escasa resecabilidad. El marcador tumoral más sensible y específico es el Ca 19-9, el cual se eleva en más del 80% de los casos. Este antígeno se asocia con el epitelio ductal pancreático y permite evaluar respuesta terapéutica o recurrencia postquirúrgica. Aunque el antígeno carcinoembrionario también puede elevarse, su especificidad es menor. Las alfafetoproteínas corresponden al hepatocarcinoma y el Ca 15-3 al carcinoma mamario.",
+      "comentario": "El adenocarcinoma de páncreas se caracteriza por su diagnóstico tardío y su escasa resecabilidad. El marcador tumoral más sensible y específico es el Ca 19-9, el cual se eleva en más del 80% de los casos. Este antígeno se asocia con el epitelio ductal pancreático y permite evaluar respuesta terapéutica o recurrencia postquirúrgica. Aunque el antígeno carcinoembrionario también puede elevarse, su especificidad es menor. Las alfafetoproteínas corresponden al hepatocarcinoma y el Ca 15-3 al carcinoma mamario.",
+      "tema": "Cáncer de páncreas: CA 19-9",
+      "año": 2025
+    },
+    {
+      "id": "GAS-053",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 48 años con pancreatitis aguda moderada presenta disnea leve, taquipnea y SatO₂ 92%. ¿Cuál es el mecanismo fisiopatológico que explica la hipoxemia?",
+      "opciones": [
+        "Alteración de la relación ventilación/perfusión por atelectasias y derrame pleural",
+        "Reducción del volumen minuto por depresión respiratoria central",
+        "Aumento del espacio muerto fisiológico por broncoespasmo",
+        "Alcalosis respiratoria primaria por hiperventilación psicógena",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En la pancreatitis aguda, la inflamación sistémica libera mediadores que aumentan la permeabilidad capilar pulmonar, favoreciendo atelectasias basales y derrames pleurales. Estas alteraciones generan desigualdad en la relación ventilación/perfusión (V/Q), principal causa de hipoxemia en estos casos. La disnea y la disminución de la saturación de oxígeno reflejan compromiso alveolar secundario al proceso inflamatorio, no por depresión respiratoria ni broncoespasmo. En fases severas puede progresar a SDRA. Por ello, la hipoxemia en pancreatitis moderada se explica fisiopatológicamente por alteración V/Q.",
+      "comentario": "En la pancreatitis aguda, la inflamación sistémica libera mediadores que aumentan la permeabilidad capilar pulmonar, favoreciendo atelectasias basales y derrames pleurales. Estas alteraciones generan desigualdad en la relación ventilación/perfusión (V/Q), principal causa de hipoxemia en estos casos. La disnea y la disminución de la saturación de oxígeno reflejan compromiso alveolar secundario al proceso inflamatorio, no por depresión respiratoria ni broncoespasmo. En fases severas puede progresar a SDRA. Por ello, la hipoxemia en pancreatitis moderada se explica fisiopatológicamente por alteración V/Q.",
+      "tema": "Pancreatitis aguda: hipoxemia por alteración V/Q",
+      "año": 2025
+    },
+    {
+      "id": "GAS-054",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 32 años, multípara con antecedentes de ictericia intercurrente, desde hace dos días dolor tipo cólico en cuadrante superior derecho, náuseas y vómitos. Examen: T°: 39°C, ictericia. Ecografía: colédoco de 15 mm de diámetro. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Apendicitis aguda",
+        "Colangitis aguda",
+        "Pancreatitis aguda",
+        "Colecistitis aguda",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El diagnóstico más probable en este caso es colangitis aguda, una infección del tracto biliar que a menudo se presenta con síntomas de dolor abdominal en el cuadrante superior derecho, ictericia y fiebre (como en este caso, con 39°C). La ecografía muestra un colédoco dilatado (15 mm de diámetro), lo que sugiere la presencia de una obstrucción biliar, comúnmente debido a cálculos biliares o estenosis, lo que aumenta el riesgo de infección bacteriana. La colangitis aguda es una urgencia médica que requiere tratamiento inmediato, que generalmente incluye antibióticos y, en algunos casos, descompresión biliar mediante procedimientos como la colangiopancreatografía retrógrada endoscópica (CPRE).",
+      "comentario": "El diagnóstico más probable en este caso es colangitis aguda, una infección del tracto biliar que a menudo se presenta con síntomas de dolor abdominal en el cuadrante superior derecho, ictericia y fiebre (como en este caso, con 39°C). La ecografía muestra un colédoco dilatado (15 mm de diámetro), lo que sugiere la presencia de una obstrucción biliar, comúnmente debido a cálculos biliares o estenosis, lo que aumenta el riesgo de infección bacteriana. La colangitis aguda es una urgencia médica que requiere tratamiento inmediato, que generalmente incluye antibióticos y, en algunos casos, descompresión biliar mediante procedimientos como la colangiopancreatografía retrógrada endoscópica (CPRE).",
+      "tema": "Colangitis aguda por coledocolitiasis",
+      "año": 2023
+    },
+    {
+      "id": "GAS-055",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 55 años, desde hace 6 meses presenta disfagia progresiva. Endoscopia digestiva alta: áreas de mucosa eritematosa a 3 cm por encima de la línea Z. Bx de esófago distal: epitelio cilíndrico simple con células caliciformes. Pensando en complicaciones posteriores. ¿Cuál es la probable?",
+      "opciones": [
+        "Adenocarcinoma",
+        "Acalasia",
+        "Carcinoma epidermoide",
+        "Formación de divertículos",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con disfagia progresiva y hallazgos endoscópicos compatibles con esófago de Barrett (epitelio cilíndrico con células caliciformes). Esta condición representa una metaplasia intestinal secundaria al reflujo gastroesofágico crónico. Su principal complicación es el desarrollo de displasia y progresión a adenocarcinoma de esófago. Acalasia y carcinoma epidermoide se relacionan con otras etiologías. Los divertículos son hallazgos anatómicos no relacionados con Barrett.",
+      "comentario": "Paciente con disfagia progresiva y hallazgos endoscópicos compatibles con esófago de Barrett (epitelio cilíndrico con células caliciformes). Esta condición representa una metaplasia intestinal secundaria al reflujo gastroesofágico crónico. Su principal complicación es el desarrollo de displasia y progresión a adenocarcinoma de esófago. Acalasia y carcinoma epidermoide se relacionan con otras etiologías. Los divertículos son hallazgos anatómicos no relacionados con Barrett.",
+      "tema": "Esófago de Barrett: adenocarcinoma",
+      "año": 2020
+    },
+    {
+      "id": "GAS-056",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 34 años, una semana antes nota conjuntivas amarillas, 3 días después vómitos, desde ayer desorientada. Al examen: soporosa, flapping (+), ictericia y equimosis en muslos. Laboratorio: glicemia 55 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Crisis hipoglucémico",
+        "Colecistitis crónica reagudizada",
+        "Absceso hepático",
+        "Insuficiencia hepática aguda",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente joven que en pocos días presenta ictericia, vómitos, alteración del sensorio, signos de sangrado y flapping, signo de encefalopatía hepática. El cuadro es compatible con insuficiencia hepática aguda, definida por deterioro rápido de la función hepática (ictericia, coagulopatía y encefalopatía) en un paciente sin hepatopatía previa conocida. La hipoglucemia es frecuente por disminución de la gluconeogénesis hepática. Otras causas como colecistitis o absceso hepático no explican el cuadro neurológico. El flapping descarta hipoglucemia como única causa.",
+      "comentario": "Paciente joven que en pocos días presenta ictericia, vómitos, alteración del sensorio, signos de sangrado y flapping, signo de encefalopatía hepática. El cuadro es compatible con insuficiencia hepática aguda, definida por deterioro rápido de la función hepática (ictericia, coagulopatía y encefalopatía) en un paciente sin hepatopatía previa conocida. La hipoglucemia es frecuente por disminución de la gluconeogénesis hepática. Otras causas como colecistitis o absceso hepático no explican el cuadro neurológico. El flapping descarta hipoglucemia como única causa.",
+      "tema": "Insuficiencia hepática aguda: encefalopatía y coagulopatía",
+      "año": 2021
+    },
+    {
+      "id": "GAS-057",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 45 años con antecedente de úlcera péptica con terapia irregular, hace 2 horas presenta deposiciones negras malolientes, se torna ansiosa, llegando a emergencia presenta hematemesis (2 tazas). PA: 80/40 mmHg, FC: 118 x´, ¿Qué tipo de shock se estaría presentando?",
+      "opciones": [
+        "Hipovolémico",
+        "Distributivo",
+        "Cardiogénico",
+        "Obstructivo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer con antecedentes de úlcera péptica, que presenta melena, hematemesis y signos de hipoperfusión (hipotensión y taquicardia). Este perfil clínico corresponde a un shock hipovolémico secundario a hemorragia digestiva alta. Es un shock tipo I o II, donde la pérdida sanguínea disminuye el volumen intravascular y compromete el gasto cardíaco. El paciente entra en respuesta compensatoria con taquicardia. El shock distributivo cursa con vasodilatación (como en sepsis), el cardiogénico con falla de bomba y el obstructivo con impedimento al llenado.",
+      "comentario": "Mujer con antecedentes de úlcera péptica, que presenta melena, hematemesis y signos de hipoperfusión (hipotensión y taquicardia). Este perfil clínico corresponde a un shock hipovolémico secundario a hemorragia digestiva alta. Es un shock tipo I o II, donde la pérdida sanguínea disminuye el volumen intravascular y compromete el gasto cardíaco. El paciente entra en respuesta compensatoria con taquicardia. El shock distributivo cursa con vasodilatación (como en sepsis), el cardiogénico con falla de bomba y el obstructivo con impedimento al llenado.",
+      "tema": "Hemorragia digestiva alta: shock hipovolémico",
+      "año": 2021
+    },
+    {
+      "id": "GAS-058",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuál es la metástasis que con más frecuencia presenta el cáncer colorrectal?",
+      "opciones": [
+        "Hígado",
+        "Pulmón",
+        "Bazo",
+        "Tiroides",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cáncer colorrectal es una neoplasia frecuente del tracto digestivo, y una de sus principales características es su alta tasa de metástasis. La vía más común de diseminación es hematógena, a través de la vena porta hacia el hígado, que es el órgano más frecuentemente afectado. Las células tumorales colonizan el parénquima hepático, donde pueden desarrollarse múltiples metástasis sincrónicas o metacrónicas. El pulmón es el segundo sitio más común, especialmente cuando hay invasión del sistema venoso sistémico. Bazo y tiroides son sitios inusuales de metástasis en esta enfermedad. El reconocimiento temprano de metástasis hepática es clave para decidir si es resecable o requiere terapia sistémica.",
+      "comentario": "El cáncer colorrectal es una neoplasia frecuente del tracto digestivo, y una de sus principales características es su alta tasa de metástasis. La vía más común de diseminación es hematógena, a través de la vena porta hacia el hígado, que es el órgano más frecuentemente afectado. Las células tumorales colonizan el parénquima hepático, donde pueden desarrollarse múltiples metástasis sincrónicas o metacrónicas. El pulmón es el segundo sitio más común, especialmente cuando hay invasión del sistema venoso sistémico. Bazo y tiroides son sitios inusuales de metástasis en esta enfermedad. El reconocimiento temprano de metástasis hepática es clave para decidir si es resecable o requiere terapia sistémica.",
+      "tema": "Cáncer colorrectal: metástasis hepáticas",
+      "año": 2021
+    },
+    {
+      "id": "GAS-059",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 67 años, fumador pesado, desde hace 2 meses dolor sordo en epigastrio e hipocondrio derecho irradiado a la espalda, deposiciones blanquecinas y baja de peso de 10 kg/2 meses. Al examen: piel y mucosas pálidas e ictéricas, masa dura e irregular en epigastrio de 7 cm de diámetro. Laboratorio: Ca 19.9: 77 kU/l ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Cáncer de páncreas",
+        "Colecistitis crónica",
+        "Coledocolitiasis",
+        "Pancreatitis crónica",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente varón, adulto mayor, con factores de riesgo como tabaquismo crónico y pérdida ponderal acelerada, presenta síntomas clásicos de neoplasia pancreática: dolor epigástrico irradiado a dorso, ictericia progresiva (coluria, acolia), masa epigástrica y elevación del marcador tumoral Ca 19.9. La localización más común del cáncer pancreático es la cabeza del páncreas, lo cual explica la obstrucción biliar extrínseca y la ictericia. La colecistitis crónica no genera baja ponderal ni masa palpable. La coledocolitiasis puede dar ictericia, pero no explica la masa ni la pérdida de peso significativa. La pancreatitis crónica puede parecerse, pero suele tener historia más prolongada y sin tumor palpable. Por tanto, lo más probable es un adenocarcinoma de páncreas.",
+      "comentario": "Paciente varón, adulto mayor, con factores de riesgo como tabaquismo crónico y pérdida ponderal acelerada, presenta síntomas clásicos de neoplasia pancreática: dolor epigástrico irradiado a dorso, ictericia progresiva (coluria, acolia), masa epigástrica y elevación del marcador tumoral Ca 19.9. La localización más común del cáncer pancreático es la cabeza del páncreas, lo cual explica la obstrucción biliar extrínseca y la ictericia. La colecistitis crónica no genera baja ponderal ni masa palpable. La coledocolitiasis puede dar ictericia, pero no explica la masa ni la pérdida de peso significativa. La pancreatitis crónica puede parecerse, pero suele tener historia más prolongada y sin tumor palpable. Por tanto, lo más probable es un adenocarcinoma de páncreas.",
+      "tema": "Cáncer de cabeza de páncreas",
+      "año": 2021
+    },
+    {
+      "id": "GAS-060",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 55 años diagnosticado de pancreatitis crónica post alcohólica, recibe terapia con enzimas pancreáticas. En actual control refiere que desde hace 20 días tiene dolor abdominal que calma con AINEs. Evidencia disminución de peso de 5 kg en los últimos dos meses. ¿Cuál es la más relevante conducta a seguir?",
+      "opciones": [
+        "Ordenar tomografía de abdomen",
+        "Retirar la terapia de enzimas pancreáticas",
+        "Prohibir AINEs",
+        "Prescribir dieta hiperproteica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón con pancreatitis crónica de etiología alcohólica, que presenta pérdida de peso significativa y dolor abdominal persistente no resuelto con tratamiento enzimático. Estos hallazgos son banderas rojas para descartar una complicación grave como cáncer de páncreas, especialmente si se localiza en la cabeza del órgano. El dolor que calma con AINEs puede ser engañoso, pero el cambio en el patrón de síntomas y la pérdida ponderal exigen un estudio por imagen. Por tanto, la conducta más relevante y urgente es solicitar una tomografía contrastada de abdomen, para evaluar estructuras pancreáticas y descartar una neoplasia o complicaciones locales como pseudoquistes.",
+      "comentario": "Varón con pancreatitis crónica de etiología alcohólica, que presenta pérdida de peso significativa y dolor abdominal persistente no resuelto con tratamiento enzimático. Estos hallazgos son banderas rojas para descartar una complicación grave como cáncer de páncreas, especialmente si se localiza en la cabeza del órgano. El dolor que calma con AINEs puede ser engañoso, pero el cambio en el patrón de síntomas y la pérdida ponderal exigen un estudio por imagen. Por tanto, la conducta más relevante y urgente es solicitar una tomografía contrastada de abdomen, para evaluar estructuras pancreáticas y descartar una neoplasia o complicaciones locales como pseudoquistes.",
+      "tema": "Pancreatitis crónica con baja de peso: descartar cáncer",
+      "año": 2021
+    },
+    {
+      "id": "GAS-061",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 78 años, consulta por dolor abdominal, anorexia, baja de peso y prurito generalizado. Al examen: mal estado de nutrición, ictericia de piel y escleras, masa palpable dolorosa en hipocondrio derecho, RHA presentes. Ecografía: vesícula biliar aumentada de tamaño y sin cálculos. ¿Qué estudio auxiliar se debe solicitar para confirmar diagnóstico?",
+      "opciones": [
+        "TEM de abdomen",
+        "Colangiorresonancia",
+        "Gammagrafía con HIDA",
+        "Colangiopancreatografía retrógrada endoscópica",
+        "Endoscopia digestiva"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulto mayor con un cuadro clínico compatible con obstrucción biliar de origen no litiásico: ictericia progresiva, prurito, pérdida de peso, anorexia y una masa palpable dolorosa en hipocondrio derecho. El hallazgo ecográfico de vesícula distendida sin litiasis sugiere una causa obstructiva extrínseca o tumoral, siendo altamente sospechoso un colangiocarcinoma o un cáncer de cabeza de páncreas. La tomografía espiral multicorte (TEM) de abdomen permite caracterizar lesiones hepáticas, pancreáticas o de la vía biliar, evaluar compromiso vascular y determinar extensión locorregional, por lo cual se considera el estudio de primera línea en esta paciente para confirmar diagnóstico e iniciar estadificación. Procedimientos como la CPRE o colangiorresonancia son útiles en otros contextos, pero aquí se prioriza definir naturaleza tumoral.",
+      "comentario": "Paciente adulto mayor con un cuadro clínico compatible con obstrucción biliar de origen no litiásico: ictericia progresiva, prurito, pérdida de peso, anorexia y una masa palpable dolorosa en hipocondrio derecho. El hallazgo ecográfico de vesícula distendida sin litiasis sugiere una causa obstructiva extrínseca o tumoral, siendo altamente sospechoso un colangiocarcinoma o un cáncer de cabeza de páncreas. La tomografía espiral multicorte (TEM) de abdomen permite caracterizar lesiones hepáticas, pancreáticas o de la vía biliar, evaluar compromiso vascular y determinar extensión locorregional, por lo cual se considera el estudio de primera línea en esta paciente para confirmar diagnóstico e iniciar estadificación. Procedimientos como la CPRE o colangiorresonancia son útiles en otros contextos, pero aquí se prioriza definir naturaleza tumoral.",
+      "tema": "Vesícula palpable sin cálculos: tomografía",
+      "año": 2021
+    },
+    {
+      "id": "GAS-062",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 65 años, desde hace 8 semanas refiere llenura precoz, disminución de peso y distensión abdominal. Al examen: adelgazado, pálido, se palpa adenopatía supraclavicular izquierda de consistencia pétrea y abdomen globuloso con signo de oleada positivo. Laboratorio: anemia microcítica e hipocrómica. ¿Qué examen es necesario para proponer un diagnóstico?",
+      "opciones": [
+        "Biopsia ganglionar",
+        "Paracentesis exploratoria",
+        "Endoscopia digestiva alta",
+        "Colonoscopía virtual",
+        "Arteriografía"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con síntomas de cáncer gástrico avanzado: llenura precoz, pérdida de peso, anemia microcítica e hipocrómica (por sangrado crónico), ascitis y adenopatía supraclavicular izquierda pétrea (ganglio de Virchow). El examen más indicado para confirmar la sospecha clínica de cáncer gástrico es la endoscopía digestiva alta, que permite observar directamente la mucosa gástrica y tomar biopsias para estudio histológico. Aunque la biopsia ganglionar o la paracentesis pueden aportar, no tienen valor diagnóstico inicial.",
+      "comentario": "Paciente con síntomas de cáncer gástrico avanzado: llenura precoz, pérdida de peso, anemia microcítica e hipocrómica (por sangrado crónico), ascitis y adenopatía supraclavicular izquierda pétrea (ganglio de Virchow). El examen más indicado para confirmar la sospecha clínica de cáncer gástrico es la endoscopía digestiva alta, que permite observar directamente la mucosa gástrica y tomar biopsias para estudio histológico. Aunque la biopsia ganglionar o la paracentesis pueden aportar, no tienen valor diagnóstico inicial.",
+      "tema": "Cáncer gástrico avanzado con ganglio de Virchow: endoscopia",
+      "año": 2021
+    },
+    {
+      "id": "GAS-063",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 35 años que trabaja en ventas, desde hace un año presenta 3 a 4 veces al mes episodios de dolor cólico abdominal y borborigmos que ceden con la defecación, acompañado de distensión abdominal ocasional y alternancia de diarrea y estreñimiento. El examen físico es norma l. ¿Cuál es su impresión diagnóstica?",
+      "opciones": [
+        "Colon irritable",
+        "Distensión abdominal funcional",
+        "Dispepsia funcional",
+        "Colecistitis crónica",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico describe una paciente joven con episodios recurrentes de dolor abdominal tipo cólico, borborigmos, distensión abdominal y patrón alterado del hábito intestinal (diarrea alternando con estreñimiento), sin hallazgos positivos al examen físico. Esta presentación es característica del síndrome de intestino irritable (SII), también conocido como colon irritable, un trastorno funcional gastrointestinal que afecta principalmente a mujeres jóvenes en contextos de estrés. No hay signos que sugieran enfermedad orgánica, como fiebre, pérdida de peso o anemia. La dispepsia funcional se limita al epigastrio y no involucra alteraciones del tránsito intestinal. La distensión funcional y la colecistitis crónica no explican el cuadro completo.",
+      "comentario": "El cuadro clínico describe una paciente joven con episodios recurrentes de dolor abdominal tipo cólico, borborigmos, distensión abdominal y patrón alterado del hábito intestinal (diarrea alternando con estreñimiento), sin hallazgos positivos al examen físico. Esta presentación es característica del síndrome de intestino irritable (SII), también conocido como colon irritable, un trastorno funcional gastrointestinal que afecta principalmente a mujeres jóvenes en contextos de estrés. No hay signos que sugieran enfermedad orgánica, como fiebre, pérdida de peso o anemia. La dispepsia funcional se limita al epigastrio y no involucra alteraciones del tránsito intestinal. La distensión funcional y la colecistitis crónica no explican el cuadro completo.",
+      "tema": "Síndrome de intestino irritable",
+      "año": 2021
+    },
+    {
+      "id": "GAS-064",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 60 años, alcohólico crónico con dolor abdominal en faja desde hace 24 horas. Laboratorio: amilasa y lipasa elevadas, leucocitos: 11 000/mm³, AST 100 mg/dl, bilirrubina total 2 mg/dL. Según los criterios de Ranson. ¿Qué indicador se relaciona con mayor mortalidad?",
+      "opciones": [
+        "Leucocitosis",
+        "Edad",
+        "Bilirrubina total",
+        "AST",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los criterios de Ranson al ingreso (pancreatitis no biliar) son: edad >55 años, leucocitos >16 000/mm³, glucosa >200 mg/dL, LDH >350 UI/L y AST >250 UI/L. En este paciente solo se cumple la edad (60 años): los leucocitos (11 000) y la AST (100) no alcanzan el punto de corte, y la bilirrubina no forma parte de la escala. Cada criterio suma un punto y la mortalidad aumenta con el total.",
+      "comentario": "Los criterios de Ranson al ingreso (pancreatitis no biliar) son: edad >55 años, leucocitos >16 000/mm³, glucosa >200 mg/dL, LDH >350 UI/L y AST >250 UI/L. En este paciente solo se cumple la edad (60 años): los leucocitos (11 000) y la AST (100) no alcanzan el punto de corte, y la bilirrubina no forma parte de la escala. Cada criterio suma un punto y la mortalidad aumenta con el total.",
+      "tema": "Criterios de Ranson",
+      "año": 2022
+    },
+    {
+      "id": "GAS-065",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 62 años con diagnóstico de cirrosis hepática severa, desde hace tres días presenta fiebre, dolor abdominal difuso y somnolencia. Radiografía simple de abdomen: leve edema de pared intestinal, resto normal. Líquido ascítico: 500 polimorfonucleares/µL y glucosa 40 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hemorragia intraperitoneal",
+        "Síndrome hepatorrenal",
+        "Peritonitis bacteriana espontánea",
+        "Enteritis aguda",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente cirrótico con fiebre, dolor abdominal difuso y somnolencia, lo cual es sugestivo de una complicación infecciosa del líquido ascítico, como la peritonitis bacteriana espontánea (PBE). Este diagnóstico se basa en la presencia de más de 250 polimorfonucleares/µL en el líquido ascítico, en este caso con 500, y una glucosa disminuida (40 mg/dL), lo que respalda la presencia de infección. La somnolencia puede deberse a una encefalopatía hepática secundaria a la infección. La radiografía no muestra hallazgos relevantes, y el edema de la pared intestinal es inespecífico. El síndrome hepatorrenal no da fiebre ni dolor. La hemorragia intraperitoneal tendría otros signos clínicos. Enteritis aguda no explica los hallazgos del líquido ascítico.",
+      "comentario": "Paciente cirrótico con fiebre, dolor abdominal difuso y somnolencia, lo cual es sugestivo de una complicación infecciosa del líquido ascítico, como la peritonitis bacteriana espontánea (PBE). Este diagnóstico se basa en la presencia de más de 250 polimorfonucleares/µL en el líquido ascítico, en este caso con 500, y una glucosa disminuida (40 mg/dL), lo que respalda la presencia de infección. La somnolencia puede deberse a una encefalopatía hepática secundaria a la infección. La radiografía no muestra hallazgos relevantes, y el edema de la pared intestinal es inespecífico. El síndrome hepatorrenal no da fiebre ni dolor. La hemorragia intraperitoneal tendría otros signos clínicos. Enteritis aguda no explica los hallazgos del líquido ascítico.",
+      "tema": "Peritonitis bacteriana espontánea",
+      "año": 2022
+    },
+    {
+      "id": "GAS-066",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 68 años, asintomático, en un control pre vacacional le encuentran Hb: 11 g/dl. Thevenon seriado en heces: positiva. Examen: leve palidez de piel y mucosas resto normal. ¿Cuál es el siguiente paso en su atención",
+      "opciones": [
+        "Sigmoidoscopía",
+        "Colonoscopía",
+        "Ecografía abdominal",
+        "Gammagrafía",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta una anemia con hemoglobina de 11 g/dl y un test de heces positivo para sangre oculta (Thevenon). Ante la sospecha de una pérdida crónica de sangre, especialmente en un paciente asintomático, la prueba de sangre oculta en heces es indicativa de un sangrado gastrointestinal. La siguiente prueba diagnóstica más apropiada es la colonoscopía, ya que es el estudio de elección para evaluar la causa de sangrados ocultos en el tracto gastrointestinal inferior, como podría ser la presencia de pólipos, cáncer de colon o enfermedad diverticular. La sigmoidoscopía es menos completa ya que solo evalúa el recto y el colon sigmoide.",
+      "comentario": "El paciente presenta una anemia con hemoglobina de 11 g/dl y un test de heces positivo para sangre oculta (Thevenon). Ante la sospecha de una pérdida crónica de sangre, especialmente en un paciente asintomático, la prueba de sangre oculta en heces es indicativa de un sangrado gastrointestinal. La siguiente prueba diagnóstica más apropiada es la colonoscopía, ya que es el estudio de elección para evaluar la causa de sangrados ocultos en el tracto gastrointestinal inferior, como podría ser la presencia de pólipos, cáncer de colon o enfermedad diverticular. La sigmoidoscopía es menos completa ya que solo evalúa el recto y el colon sigmoide.",
+      "tema": "Anemia con sangre oculta en heces: colonoscopia",
+      "año": 2023
+    },
+    {
+      "id": "GAS-067",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Enfermera de 32 años, desde hace 3 días presenta malestar general, dolor lumbar, astenia, náuseas. Antecedente: lesión punzo cortante hace 7 meses. Examen: T 36,4 ºC, ictericia. Laboratorio: TGO 2000 U/L; TGP 3360 U/L; GGT 274 U/L; fosfatasa alcalina 6 18 U/L; bilirrubina total 7,0 mg/dL; alfafetoproteína 6,28 ng/ml; amilasa 44 U/L. Anti-VHC y ARN-VHC (PCR) positivos. Ecografía: hepatomegalia a nivel de lóbulo hepático izquierdo. Pendiente resultado histológico. ¿Cómo identifica la severidad de la enfermedad?",
+      "opciones": [
+        "Genotipo del virus",
+        "Resonancia",
+        "Tomografía",
+        "Estudio histológico",
+        "Radiografía simple"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el contexto de una infección por VHC, la severidad de la enfermedad hepática se evalúa mejor mediante el estudio histológico (Alternativa D). Aunque las alternativas no invasivas como los marcadores séricos de fibrosis y la elastografía hepática (FibroScan) también se están utilizando cada vez más en la práctica clínica, el estudio histológico, generalmente a través de una biopsia hepática, es el estándar de oro para evaluar la severidad de la enfermedad hepática. Este método permite evaluar directamente el grado de inflamación, necrosis, y fibrosis en el hígado. La histología hepática proporciona información crucial sobre el estadio de la enfermedad y la extensión del daño hepático, lo cual es fundamental para el manejo clínico y pronóstico del paciente.",
+      "comentario": "En el contexto de una infección por VHC, la severidad de la enfermedad hepática se evalúa mejor mediante el estudio histológico (Alternativa D). Aunque las alternativas no invasivas como los marcadores séricos de fibrosis y la elastografía hepática (FibroScan) también se están utilizando cada vez más en la práctica clínica, el estudio histológico, generalmente a través de una biopsia hepática, es el estándar de oro para evaluar la severidad de la enfermedad hepática. Este método permite evaluar directamente el grado de inflamación, necrosis, y fibrosis en el hígado. La histología hepática proporciona información crucial sobre el estadio de la enfermedad y la extensión del daño hepático, lo cual es fundamental para el manejo clínico y pronóstico del paciente.",
+      "tema": "Hepatitis C: la histología define la gravedad",
+      "año": 2024
+    },
+    {
+      "id": "GAS-068",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 26 años desde hace 6 meses presenta fiebre continua y deposiciones 2-3 cámaras/día. Examen: palidez; dolor en cuadrante inferior derecho y matidez desplazable. Laparoscopia: nódulos blanquecinos que semejan “granos de mijo”, < 5 mm, sobre el hígado, asas intestinales y peritoneo. BX de mesenterio: células gigantes multinucleadas tipo Langerhans y granulomas caseosos. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Esprúe tropical",
+        "Linfomatosis peritoneal",
+        "Actinomicosis abdominal",
+        "Tuberculosis peritoneal",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los hallazgos clínicos, laparoscópicos e histológicos son clásicos de tuberculosis peritoneal (Alternativa D). La tuberculosis peritoneal es una forma de tuberculosis extrapulmonar que afecta el peritoneo. Los síntomas típicos incluyen fiebre, dolor abdominal, y ascitis. Los hallazgos laparoscópicos de nódulos blanquecinos que semejan \"granos de mijo\" (tubérculos) sobre el hígado, asas intestinales y peritoneo, junto con la biopsia que muestra granulomas caseosos y células gigantes multinucleadas tipo Langerhans, son altamente sugestivos de tuberculosis peritoneal.",
+      "comentario": "Los hallazgos clínicos, laparoscópicos e histológicos son clásicos de tuberculosis peritoneal (Alternativa D). La tuberculosis peritoneal es una forma de tuberculosis extrapulmonar que afecta el peritoneo. Los síntomas típicos incluyen fiebre, dolor abdominal, y ascitis. Los hallazgos laparoscópicos de nódulos blanquecinos que semejan \"granos de mijo\" (tubérculos) sobre el hígado, asas intestinales y peritoneo, junto con la biopsia que muestra granulomas caseosos y células gigantes multinucleadas tipo Langerhans, son altamente sugestivos de tuberculosis peritoneal.",
+      "tema": "Tuberculosis peritoneal",
+      "año": 2024
+    },
+    {
+      "id": "GAS-069",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 38 años, alcohólico crónico, acude por epigastralgia muy intensa que se irradia al dorso. Examen: PA 90/55 mmHg, FC 135 X’, T 38.5 ºC, FR 28 X’; abdomen doloroso con RHA ausentes. Signo de Cullen (+). Laboratorio: Leucocitosis y desviación izquierda, amilasa 370 U/L, lipasa 620 U/L, bilirrubina total 3.5 mg/dL, TGP 55 U/L, TGO 120 U/L. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Pancreatitis aguda",
+        "Colecistitis aguda",
+        "Hematoma retroperitoneal",
+        "Colangitis aguda",
+        "Apendicitis aguda"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El conjunto de los hallazgos clínicos y de laboratorio descritos en el caso hacen de la pancreatitis aguda (Alternativa A) el diagnóstico más congruente. La pancreatitis aguda es una inflamación del páncreas que puede presentarse con epigastralgia intensa que se irradia al dorso, acompañado de signos sistémicos como fiebre, taquicardia, e hipotensión. La presencia del signo de Cullen (equimosis periumbilical) indica hemorragia intrabdominal, común en pancreatitis grave. Los hallazgos de laboratorio muestran elevaciones significativas de amilasa y lipasa, que son marcadores específicos de pancreatitis aguda. Además, el historial de alcoholismo crónico del paciente es un factor de riesgo conocido para esta condición.",
+      "comentario": "El conjunto de los hallazgos clínicos y de laboratorio descritos en el caso hacen de la pancreatitis aguda (Alternativa A) el diagnóstico más congruente. La pancreatitis aguda es una inflamación del páncreas que puede presentarse con epigastralgia intensa que se irradia al dorso, acompañado de signos sistémicos como fiebre, taquicardia, e hipotensión. La presencia del signo de Cullen (equimosis periumbilical) indica hemorragia intrabdominal, común en pancreatitis grave. Los hallazgos de laboratorio muestran elevaciones significativas de amilasa y lipasa, que son marcadores específicos de pancreatitis aguda. Además, el historial de alcoholismo crónico del paciente es un factor de riesgo conocido para esta condición.",
+      "tema": "Pancreatitis aguda con signo de Cullen",
+      "año": 2024
+    },
+    {
+      "id": "GAS-070",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 45 años, antecedente de litiasis vesicular; es llevada a emergencia por presentar hace 2 horas dolor en epigastrio irradiado a la espalda, muy intenso, asociado a náusea y vómitos. Examen: ictericia en escleras; abdomen: RHA disminuidos, dolor en epigastrio e hipocondrio derecho a la palpación. ¿Cuál es la conducta inicial?",
+      "opciones": [
+        "Antiespasmódicos",
+        "Hidratación por vía EV",
+        "Esfinterotomía biliar",
+        "Antibióticos de amplio espectro",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta un cuadro sugestivo de cólico biliar o colangitis, con dolor en epigastrio irradiado, ictericia y antecedentes de litiasis vesicular. La primera medida es iniciar hidratación intravenosa para estabilizarla y evitar complicaciones, antes de considerar otros tratamientos o procedimientos.",
+      "comentario": "La paciente presenta un cuadro sugestivo de cólico biliar o colangitis, con dolor en epigastrio irradiado, ictericia y antecedentes de litiasis vesicular. La primera medida es iniciar hidratación intravenosa para estabilizarla y evitar complicaciones, antes de considerar otros tratamientos o procedimientos.",
+      "tema": "Pancreatitis biliar: hidratación endovenosa",
+      "año": 2024
+    },
+    {
+      "id": "GAS-071",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 41 años, acude a emergencia por dolor abdominal en epigastrio irradiado a ambos flancos desde hace 24 horas. Sin antecedentes de abuso de alcohol ni presencia de litiasis vesicular. Se observa que el suero es de aspecto lechoso. ¿Cuál es el examen de laboratorio a solicitar?",
+      "opciones": [
+        "Electroféresis de hemoglobina",
+        "Creatinina quinasa MB",
+        "Amilasa",
+        "Lipasa",
+        "Diazepam"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta un cuadro clínico compatible con pancreatitis aguda, caracterizado por dolor epigástrico irradiado a los flancos y suero de aspecto lechoso, lo que sugiere hipertrigliceridemia como posible causa. Para confirmar el diagnóstico, el examen de laboratorio más específico es la lipasa, ya que tiene mayor sensibilidad y especificidad que la amilasa para pancreatitis aguda.",
+      "comentario": "El paciente presenta un cuadro clínico compatible con pancreatitis aguda, caracterizado por dolor epigástrico irradiado a los flancos y suero de aspecto lechoso, lo que sugiere hipertrigliceridemia como posible causa. Para confirmar el diagnóstico, el examen de laboratorio más específico es la lipasa, ya que tiene mayor sensibilidad y especificidad que la amilasa para pancreatitis aguda.",
+      "tema": "Pancreatitis por hipertrigliceridemia: lipasa",
+      "año": 2024
+    },
+    {
+      "id": "GAS-072",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 70 años, estreñida crónica, con episodios dolorosos intermitentes en FII, que no guarda relación con la ingesta de alimentos. Hace 2 meses tuvo náuseas y dolor en FII, los cuales cedieron con dieta y antibióticos cuyo nombre no recuerda. Examen: abdomen indoloro no reacción peritoneal. ¿Qué examen confirma la sospecha diagnóstica?",
+      "opciones": [
+        "TC abdominal con contraste",
+        "Ultrasonografía intraluminal",
+        "Angiografía abdominal",
+        "Rx simple de abdomen de pie",
+        "Endoscopia digestiva"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer mayor, estreñida crónica, con episodios recurrentes de dolor en la fosa ilíaca izquierda, uno de ellos tratado con dieta y antibióticos: el cuadro orienta a enfermedad diverticular del colon sigmoides con diverticulitis previa. La tomografía abdominal con contraste es el examen de elección para confirmar la diverticulitis y sus complicaciones (absceso, perforación, fístula). La colonoscopia se difiere 6-8 semanas tras el episodio agudo para descartar neoplasia.",
+      "comentario": "Mujer mayor, estreñida crónica, con episodios recurrentes de dolor en la fosa ilíaca izquierda, uno de ellos tratado con dieta y antibióticos: el cuadro orienta a enfermedad diverticular del colon sigmoides con diverticulitis previa. La tomografía abdominal con contraste es el examen de elección para confirmar la diverticulitis y sus complicaciones (absceso, perforación, fístula). La colonoscopia se difiere 6-8 semanas tras el episodio agudo para descartar neoplasia.",
+      "tema": "Sospecha de diverticulitis: tomografía con contraste",
+      "año": 2024
+    }
+  ]
+}

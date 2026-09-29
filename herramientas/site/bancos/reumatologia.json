@@ -1,0 +1,1237 @@
+{
+  "especialidad": "Reumatología y Dermatología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "REU-001",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?",
+      "opciones": {
+        "A": "Pirofosfato de calcio",
+        "B": "Urato monosódico",
+        "C": "Hidroxiapatita",
+        "D": "Oxalato de calcio",
+        "E": "Colesterol"
+      },
+      "clave_correcta": "B",
+      "comentario": "Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."
+    },
+    {
+      "id": "REU-002",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 24 años acude a consulta por \"color amarillento de piel\", sin coluria. Antecedente: alimentación vegana. Examen: coloración amarillenta cutánea, escleras limpias. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Terapia con quinacrina",
+        "Hepatitis viral",
+        "Xantocromía",
+        "Carotinemia",
+        "Atropina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
+      "comentario": "La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.",
+      "tema": "Trastornos de pigmentación cutánea",
+      "año": 2020
+    },
+    {
+      "id": "REU-003",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años, desde hace 2 meses dolor articular en hombros y muñecas de moderada intensidad. Hace un mes se agrega dolor en manos con rigidez matutina. Al examen: sinovitis de pequeñas articulaciones. ¿Qué examen tiene mayor especificidad diagnóstica?",
+      "opciones": [
+        "Anticuerpos antinucleares",
+        "Factor reumatoideo",
+        "Anticuerpos anticitrulinados",
+        "Anti-DNA doble cadena",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.",
+      "comentario": "En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.",
+      "tema": "Artritis Reumatoide",
+      "año": 2020
+    },
+    {
+      "id": "REU-004",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 52 años, presenta por primera vez erupción fugaz de habones pruriginosos diseminados en toda la superficie corporal y una amplia placa edematosa en cara. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Vasculitis urticarial",
+        "Eritema multiforme",
+        "Angioedema hereditario",
+        "Urticaria aguda",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.",
+      "comentario": "La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.",
+      "tema": "Reacciones adversas cutáneas",
+      "año": 2020
+    },
+    {
+      "id": "REU-005",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 8 meses con irritabilidad y prurito nocturno. Al examen: pápulas eritematosas, vesículas y pústulas en cara, tronco, palmas y plantas. Madre con lesiones similares. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Ectima",
+        "Acarosis",
+        "Dermatitis",
+        "Impétigo",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
+      "comentario": "Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).",
+      "tema": "Infecciones parasitarias de la piel",
+      "año": 2020
+    },
+    {
+      "id": "REU-006",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 25 años presenta lesiones pápulo eritematosas y pústulas dolorosas de repetición alrededor de los folículos pilosos en la región de la barba. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Rifaximina",
+        "Amikacina",
+        "Dicloxacilina",
+        "Claritromicina",
+        "Paracetamol"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
+      "comentario": "La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.",
+      "tema": "Infecciones bacterianas de piel",
+      "año": 2020
+    },
+    {
+      "id": "REU-007",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 20 años con dolores articulares desde hace 1 año, malestar, febrícula y lesiones dérmicas. Examen: púrpura palpable y piel marmórea. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Artritis reumatoide",
+        "Artropatía degenerativa",
+        "Vasculitis",
+        "Esclerodermia",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.",
+      "comentario": "El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.",
+      "tema": "Vasculitis sistémicas",
+      "año": 2020
+    },
+    {
+      "id": "REU-008",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 10 años que presenta lesiones pruriginosas en cuero cabelludo. Al examen: lesiones papulares que se extienden en forma concéntrica formando placas eritematosas, con descamación central, pelo frágil y algunas áreas de alopecia. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Tiña capitis",
+        "Psoriasis puntata",
+        "Alopecia areata",
+        "Tricotilomanía",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.",
+      "comentario": "Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.",
+      "tema": "Micosis superficiales",
+      "año": 2020
+    },
+    {
+      "id": "REU-009",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Se evalúa lactante de 8 meses de edad con lesiones eccematosas descamativas muy pruriginosas en forma de monedas en tórax y ambos brazos. Se plantea diagnóstico de:",
+      "opciones": [
+        "Dermatitis seborreica",
+        "Dermatitis atópica",
+        "Dermatitis por contacto",
+        "Dermatosis infantil",
+        "Apendicitis aguda"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Lactante con lesiones eccematosas, pruriginosas, descamativas y en forma de placas redondeadas (en “moneda”), ubicadas en tronco y extremidades, lo cual es característico de la dermatitis atópica en su forma infantil. Esta suele presentarse después de los 6 meses con compromiso de superficies extensoras.",
+      "comentario": "Lactante con lesiones eccematosas, pruriginosas, descamativas y en forma de placas redondeadas (en “moneda”), ubicadas en tronco y extremidades, lo cual es característico de la dermatitis atópica en su forma infantil. Esta suele presentarse después de los 6 meses con compromiso de superficies extensoras.",
+      "tema": "Dermatitis atópica del lactante",
+      "año": 2020
+    },
+    {
+      "id": "REU-010",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante con prurito nocturno y lesiones recurrentes pápulo - eritematosas, descamativas con exudado seroso en cuero cabelludo, cara y regiones extensoras de extremidades. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        "Acarosis",
+        "Psoriasis",
+        "Dermatitis alérgica",
+        "Dermatitis atópica",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La dermatitis atópica es una enfermedad inflamatoria crónica de la piel que comienza en la infancia. Se caracteriza por lesiones eccematosas pruriginosas, con localización según la edad: en lactantes, cuero cabelludo, cara y superficies extensoras. El prurito intenso, sobre todo nocturno, y el exudado en lesiones sugieren inflamación activa. Es importante diferenciarla de escabiosis y psoriasis, que tienen otras distribuciones y características clínicas. La dermatitis atópica tiene un fuerte componente genético y alérgico.",
+      "comentario": "La dermatitis atópica es una enfermedad inflamatoria crónica de la piel que comienza en la infancia. Se caracteriza por lesiones eccematosas pruriginosas, con localización según la edad: en lactantes, cuero cabelludo, cara y superficies extensoras. El prurito intenso, sobre todo nocturno, y el exudado en lesiones sugieren inflamación activa. Es importante diferenciarla de escabiosis y psoriasis, que tienen otras distribuciones y características clínicas. La dermatitis atópica tiene un fuerte componente genético y alérgico.",
+      "tema": "Dermatitis atópica: distribución según la edad",
+      "año": 2020
+    },
+    {
+      "id": "REU-011",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 48 años, refiere desde hace 9 meses dolores musculares generalizados, mayor por las mañanas y no mejora con AINEs, insomnio y falta de apetito. Al examen: dolor a la palpación en región cervical, lumbar, rodillas, y codos. Laboratorio: VSG: 12 mm/h, PCR: 8 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Fibromialgia",
+        "Polimiositis infecciosa",
+        "Polimialgia reumática",
+        "Policondritis recidivante",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer con dolor musculoesquelético generalizado de larga evolución, sin mejoría con AINEs, insomnio y síntomas depresivos, y examen físico positivo a puntos dolorosos característicos. Esto sugiere fibromialgia, un trastorno del procesamiento central del dolor, común en mujeres de mediana edad. La VSG y PCR normales ayudan a excluir enfermedades inflamatorias como polimialgia reumática. La polimiositis genera debilidad más que dolor y se asocia a enzimas musculares elevadas. La policondritis compromete cartílagos, no músculos.",
+      "comentario": "Mujer con dolor musculoesquelético generalizado de larga evolución, sin mejoría con AINEs, insomnio y síntomas depresivos, y examen físico positivo a puntos dolorosos característicos. Esto sugiere fibromialgia, un trastorno del procesamiento central del dolor, común en mujeres de mediana edad. La VSG y PCR normales ayudan a excluir enfermedades inflamatorias como polimialgia reumática. La polimiositis genera debilidad más que dolor y se asocia a enzimas musculares elevadas. La policondritis compromete cartílagos, no músculos.",
+      "tema": "Fibromialgia",
+      "año": 2021
+    },
+    {
+      "id": "REU-012",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 50 años, desde hace 2 días presenta lesiones pruriginosas diseminadas por toda la superficie corporal. Examen de piel: presencia de habones. ¿Cuál es el tratamiento?",
+      "opciones": [
+        "Antihistamínico",
+        "Corticoide tópico",
+        "Antibiótico tópico",
+        "Antimicótico",
+        "Tramadol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con cuadro de inicio agudo de lesiones pruriginosas generalizadas en forma de habones, que son lesiones edematosas, transitorias y elevadas de la piel, típicas de una urticaria aguda. Esta se produce por liberación de histamina y otros mediadores de mastocitos en respuesta a diversos estímulos (alérgenos, infecciones, medicamentos). El tratamiento de elección es con antihistamínicos, preferiblemente de segunda generación (loratadina, cetirizina) por su menor efecto sedante. El uso de corticoides tópicos, antibióticos o antimicóticos no está indicado en esta situación.",
+      "comentario": "Paciente con cuadro de inicio agudo de lesiones pruriginosas generalizadas en forma de habones, que son lesiones edematosas, transitorias y elevadas de la piel, típicas de una urticaria aguda. Esta se produce por liberación de histamina y otros mediadores de mastocitos en respuesta a diversos estímulos (alérgenos, infecciones, medicamentos). El tratamiento de elección es con antihistamínicos, preferiblemente de segunda generación (loratadina, cetirizina) por su menor efecto sedante. El uso de corticoides tópicos, antibióticos o antimicóticos no está indicado en esta situación.",
+      "tema": "Urticaria aguda: tratamiento",
+      "año": 2021
+    },
+    {
+      "id": "REU-013",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Lactante de 10 meses, desde hace 20 días presenta lesiones dérmicas papulares, eritematosas y pequeñas en axilas, cara, cuero cabelludo, palmas y plantas. La madre presenta lesiones similares en la región mamaria y axila. ¿Cuál sería el tratamiento más indicado?",
+      "opciones": [
+        "Mupirocina",
+        "Aciclovir",
+        "Permetrina",
+        "Betametasona",
+        "Paracetamol"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Lactante con lesiones pruriginosas papulares en zonas típicas como palmas, plantas y axilas, además de afectación en la madre, es indicativo de escabiosis (sarna). El tratamiento de elección en mayores de 2 meses es la permetrina tópica al 5%, aplicada en todo el cuerpo y repetida a los 7 días. No se recomienda mupirocina (antibiótico), aciclovir (antiviral) ni corticoides tópicos como tratamiento de primera línea. Es clave tratar también a los convivientes para evitar la reinfestación.",
+      "comentario": "Lactante con lesiones pruriginosas papulares en zonas típicas como palmas, plantas y axilas, además de afectación en la madre, es indicativo de escabiosis (sarna). El tratamiento de elección en mayores de 2 meses es la permetrina tópica al 5%, aplicada en todo el cuerpo y repetida a los 7 días. No se recomienda mupirocina (antibiótico), aciclovir (antiviral) ni corticoides tópicos como tratamiento de primera línea. Es clave tratar también a los convivientes para evitar la reinfestación.",
+      "tema": "Escabiosis en el lactante",
+      "año": 2021
+    },
+    {
+      "id": "REU-014",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Ama de casa de 48 años, desde hace varios años presenta enrojecimiento de los pliegues proximales de las uñas en varios dedos de las manos, que ocasionalmente supuran. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Liquen plano",
+        "Dermatitis de contacto",
+        "Psoriasis guttata",
+        "Paroniquia candidiásica",
+        "Sepsis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con historia prolongada de enrojecimiento e inflamación crónica de los pliegues proximales de las uñas, acompañada de supuración ocasional, sugiere un diagnóstico de paroniquia crónica, y en el contexto de una ama de casa (exposición constante a h umedad), el agente más probable es Candida spp. La paroniquia candidiásica suele afectar a personas con manos frecuentemente húmedas, generando una inflamación persistente y dolorosa del pliegue ungueal, que puede secretar líquido claro o purulento. No hay lesiones típicas de psoriasis ni datos para sospechar dermatitis de contacto o liquen plano. Por tanto, el diagnóstico más probable es: paroniquia candidiásica.",
+      "comentario": "Paciente con historia prolongada de enrojecimiento e inflamación crónica de los pliegues proximales de las uñas, acompañada de supuración ocasional, sugiere un diagnóstico de paroniquia crónica, y en el contexto de una ama de casa (exposición constante a h umedad), el agente más probable es Candida spp. La paroniquia candidiásica suele afectar a personas con manos frecuentemente húmedas, generando una inflamación persistente y dolorosa del pliegue ungueal, que puede secretar líquido claro o purulento. No hay lesiones típicas de psoriasis ni datos para sospechar dermatitis de contacto o liquen plano. Por tanto, el diagnóstico más probable es: paroniquia candidiásica.",
+      "tema": "Paroniquia candidiásica",
+      "año": 2021
+    },
+    {
+      "id": "REU-015",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Agricultor de 38 años que sufre picadura de abeja, luego de lo cual presenta urticaria aguda, disnea y shock. Al examen: estridor laríngeo y sibilantes en ambos campos pulmonares. ¿Cuál es el medicamento más urgente a usar para este paciente?",
+      "opciones": [
+        "Adrenalina",
+        "Corticoide",
+        "Antihistamínico",
+        "Broncodilatador",
+        "Ciprofloxacino"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente desarrolla un cuadro súbito de anafilaxia severa posterior a una picadura de abeja, con manifestaciones cutáneas (urticaria), respiratorias (disnea, estridor y sibilantes) y circulatorias (shock). La adrenalina intramuscular es el fármaco de elección y debe administrarse de inmediato, ya que revierte la broncoconstricción, la vasodilatación y el edema laríngeo, al estimular receptores α y β adrenérgicos. Aunque los corticoides y antihistamínicos tienen un rol complementario, su inicio de acción es tardío. El uso precoz de adrenalina disminuye la mortalidad en reacciones anafilácticas. Por lo tanto, el medicamento más urgente a administrar es: adrenalina.",
+      "comentario": "El paciente desarrolla un cuadro súbito de anafilaxia severa posterior a una picadura de abeja, con manifestaciones cutáneas (urticaria), respiratorias (disnea, estridor y sibilantes) y circulatorias (shock). La adrenalina intramuscular es el fármaco de elección y debe administrarse de inmediato, ya que revierte la broncoconstricción, la vasodilatación y el edema laríngeo, al estimular receptores α y β adrenérgicos. Aunque los corticoides y antihistamínicos tienen un rol complementario, su inicio de acción es tardío. El uso precoz de adrenalina disminuye la mortalidad en reacciones anafilácticas. Por lo tanto, el medicamento más urgente a administrar es: adrenalina.",
+      "tema": "Anafilaxia por picadura de abeja",
+      "año": 2021
+    },
+    {
+      "id": "REU-016",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niño de 2 años, refiere la madre que hace dos días comenzó con rinorrea acuosa transparente y a la fecha presenta lesiones que se iniciaron alrededor de las fosas nasales y se diseminaron sobre el labio superior. Examen: lesiones vesiculares de base eritematosa, algunas rotas y otras costrosas con contenido marrón claro transparente. ¿Cuál es el agente más probable de esta infección?",
+      "opciones": [
+        "Estreptococo piógeno",
+        "Herpes simple",
+        "Cándida albicans",
+        "Sarcoptes scabiei",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Se presenta un cuadro clásico de impétigo, en este caso probablemente del tipo no ampollar, que suele iniciarse en zonas de piel previamente irritada (por ejemplo, por rinorrea) y que progresa a vesículas y luego a costras melicéricas (color miel o marrón claro), típicas del impétigo. En niños pequeños, el agente más frecuente es Streptococcus pyogenes (grupo A), aunque Staphylococcus aureus también puede estar involucrado. No hay características de herpes (vesículas agrupadas, evolución dolorosa), ni hallazgos que sugieran escabiosis o infección fúngica. Por tanto, el agente más probable es Estreptococo piógeno.",
+      "comentario": "Se presenta un cuadro clásico de impétigo, en este caso probablemente del tipo no ampollar, que suele iniciarse en zonas de piel previamente irritada (por ejemplo, por rinorrea) y que progresa a vesículas y luego a costras melicéricas (color miel o marrón claro), típicas del impétigo. En niños pequeños, el agente más frecuente es Streptococcus pyogenes (grupo A), aunque Staphylococcus aureus también puede estar involucrado. No hay características de herpes (vesículas agrupadas, evolución dolorosa), ni hallazgos que sugieran escabiosis o infección fúngica. Por tanto, el agente más probable es Estreptococo piógeno.",
+      "tema": "Impétigo",
+      "año": 2021
+    },
+    {
+      "id": "REU-017",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Escolar de 9 años presenta en cuero cabelludo área circular pruriginosa con pérdida de cabello. Niega fiebre. Examen: lesiones circulares de 2 a 3 cm de diámetro, bordes definidos, cabellos fracturados, superficie descamativa, color cenizo, en el centro placas escamosas. Se palpa adenopatía retroauricular y cervical posterior. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Tricotilomanía",
+        "Querion",
+        "Alopecia areata",
+        "Tiña capitis",
+        "Cirrosis hepática"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico es sugestivo de dermatofitosis del cuero cabelludo, particularmente por especies como Microsporum o Trichophyton. Se caracteriza por lesiones bien delimitadas, pruriginosas, con descamación, cabellos cortos o rotos, y frecuentemente con adenopatías regionales. La tiña capitis es común en edad escolar, y su forma más frecuente es la no inflamatoria (sin querion). Tricotilomanía implica pérdida de cabello irregular sin descamación ni inflamación. Alopecia areata no produce descamación ni prurito. En conclusión, se trata de una tiña capitis no inflamatoria.",
+      "comentario": "El cuadro clínico es sugestivo de dermatofitosis del cuero cabelludo, particularmente por especies como Microsporum o Trichophyton. Se caracteriza por lesiones bien delimitadas, pruriginosas, con descamación, cabellos cortos o rotos, y frecuentemente con adenopatías regionales. La tiña capitis es común en edad escolar, y su forma más frecuente es la no inflamatoria (sin querion). Tricotilomanía implica pérdida de cabello irregular sin descamación ni inflamación. Alopecia areata no produce descamación ni prurito. En conclusión, se trata de una tiña capitis no inflamatoria.",
+      "tema": "Tiña capitis",
+      "año": 2021
+    },
+    {
+      "id": "REU-018",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 45 años luego de larga caminata presenta dolor con aumento de volumen de la rodilla izquierda. Artrocentesis: leucocitosis de 12000 x mm³. ¿Cómo clasificaría a este líquido?",
+      "opciones": [
+        "Séptico",
+        "Normal",
+        "Inflamatorio",
+        "Hemorrágico",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El líquido sinovial extraído presenta leucocitosis de 12,000/mm³, lo que indica una respuesta inflamatoria significativa, aunque no lo suficiente para considerarlo séptico (generalmente >50,000/mm³). En el contexto de sobrecarga mecánica (caminata larga), pue de tratarse de una artritis inflamatoria no infecciosa, como una artritis por cristales (gota o pseudogota) o una sinovitis reactiva. El líquido inflamatorio se caracteriza por aspecto turbio, aumento de leucocitos y predomino de neutrófilos. No hay datos que sugieran hemartrosis o infección severa.",
+      "comentario": "El líquido sinovial extraído presenta leucocitosis de 12,000/mm³, lo que indica una respuesta inflamatoria significativa, aunque no lo suficiente para considerarlo séptico (generalmente >50,000/mm³). En el contexto de sobrecarga mecánica (caminata larga), pue de tratarse de una artritis inflamatoria no infecciosa, como una artritis por cristales (gota o pseudogota) o una sinovitis reactiva. El líquido inflamatorio se caracteriza por aspecto turbio, aumento de leucocitos y predomino de neutrófilos. No hay datos que sugieran hemartrosis o infección severa.",
+      "tema": "Líquido sinovial inflamatorio",
+      "año": 2021
+    },
+    {
+      "id": "REU-019",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 65 años, hace 5 meses fiebre intermitente, cefalea y artralgias. Al examen: dolor a la presión en la región temporal bilateral, claudicación de la mandíbula y amaurosis bilateral. Laboratorio: Hb 8.5 g/dl, VSG 150 mm/h. ¿Cuál es la conducta terapéutica a seguir?",
+      "opciones": [
+        "Ciclofosfamida",
+        "Metrotexate",
+        "Ácido acetilsalicílico",
+        "Corticoesteroides",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Se trata de un cuadro clásico de arteritis de células gigantes, también conocida como arteritis temporal. Los hallazgos claves son fiebre prolongada, cefalea, dolor en región temporal, claudicación mandibular y amaurosis, junto a anemia y una VSG muy elevada. Esta es una urgencia médica debido al riesgo de ceguera irreversible. El tratamiento de elección es corticoide a altas dosis, que debe n iniciarse de inmediato sin esperar confirmación histológica. El uso precoz de esteroides puede preservar la visión y reducir complicaciones.",
+      "comentario": "Se trata de un cuadro clásico de arteritis de células gigantes, también conocida como arteritis temporal. Los hallazgos claves son fiebre prolongada, cefalea, dolor en región temporal, claudicación mandibular y amaurosis, junto a anemia y una VSG muy elevada. Esta es una urgencia médica debido al riesgo de ceguera irreversible. El tratamiento de elección es corticoide a altas dosis, que debe n iniciarse de inmediato sin esperar confirmación histológica. El uso precoz de esteroides puede preservar la visión y reducir complicaciones.",
+      "tema": "Arteritis de células gigantes",
+      "año": 2021
+    },
+    {
+      "id": "REU-020",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 24 años acude por fiebre y artralgias. Al examen: acné severo con diferentes lesiones, incluso cicatriciales, en cara y tórax. Hemograma: leucocitosis. ¿Cuál es el tipo de acné más probable?",
+      "opciones": [
+        "Pustuloso",
+        "Fulminante",
+        "Nodular",
+        "Vulgar",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón joven que presenta fiebre, artralgias y acné severo con lesiones de tipo cicatricial sugiere un cuadro inflamatorio sistémico grave. Ante estos hallazgos, se debe sospechar de acné fulminante, una forma rara pero grave de acné noduloquístico que se acompaña de síntomas sistémicos como fiebre, leucocitosis y malestar general. A diferencia de las formas clásicas, esta entidad puede requerir tratamiento sistémico con corticosteroides y retinoides orales. El diagnóstico es clínico y el manejo debe ser rápido para evitar secuelas físicas y sistémicas graves.",
+      "comentario": "Varón joven que presenta fiebre, artralgias y acné severo con lesiones de tipo cicatricial sugiere un cuadro inflamatorio sistémico grave. Ante estos hallazgos, se debe sospechar de acné fulminante, una forma rara pero grave de acné noduloquístico que se acompaña de síntomas sistémicos como fiebre, leucocitosis y malestar general. A diferencia de las formas clásicas, esta entidad puede requerir tratamiento sistémico con corticosteroides y retinoides orales. El diagnóstico es clínico y el manejo debe ser rápido para evitar secuelas físicas y sistémicas graves.",
+      "tema": "Acné fulminante",
+      "año": 2021
+    },
+    {
+      "id": "REU-021",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 17 años con antecedente de rinitis alérgica, consulta por dermatitis atópica. ¿Cuál es la terapia tópica recomendada?",
+      "opciones": [
+        "Higiene constante (≥3 veces por día)",
+        "Aplicación de emolientes e hidratantes",
+        "Corticoides tópicos de alta potencia",
+        "Neomicina en ungüento",
+        "Aislamiento estricto"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La dermatitis atópica se relaciona con una disfunción de la barrera cutánea, por lo que la hidratación es un pilar fundamental del tratamiento. La aplicación regular de emolientes e hidratantes, especialmente tras el baño, ayuda a reducir la frecuencia de brotes y a mejorar los síntomas. El uso de corticoides tópicos está indicado solo durante los brotes activos, y en potencias adecuadas según la localización y edad. El lavado excesivo puede empeorar la barrera cutánea, y el uso de neomicina no tiene utilidad aquí.",
+      "comentario": "La dermatitis atópica se relaciona con una disfunción de la barrera cutánea, por lo que la hidratación es un pilar fundamental del tratamiento. La aplicación regular de emolientes e hidratantes, especialmente tras el baño, ayuda a reducir la frecuencia de brotes y a mejorar los síntomas. El uso de corticoides tópicos está indicado solo durante los brotes activos, y en potencias adecuadas según la localización y edad. El lavado excesivo puede empeorar la barrera cutánea, y el uso de neomicina no tiene utilidad aquí.",
+      "tema": "Dermatitis atópica: emolientes",
+      "año": 2021
+    },
+    {
+      "id": "REU-022",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Interno de medicina de 27 años, refiere que desde hace 10 meses presenta, después de jugar fulbito, lesiones eritemato-edematosas de diferentes tamaños. Son muy pruriginosas y desaparecen completamente a las 2 horas. Dichas lesiones aparecen incluso al ducharse con agua caliente. Al examen: máculas pequeñas en tórax y cuello. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Eritema multiforme",
+        "Miliaria cristalina",
+        "Liquen plano",
+        "Urticaria colinérgica",
+        "Dexametasona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón joven que presenta, tras estímulos como ejercicio o ducha caliente, aparición de lesiones eritematosas muy pruriginosas que desaparecen en menos de 2 horas. Esta evolución súbita y autolimitada sugiere una urticaria, y el desencadenante térmico-emocional orienta a la variante colinérgica. Es una forma de urticaria inducida por calor o aumento de temperatura corporal, mediada por acetilcolina. Las lesiones pequeñas, distribuidas en tórax y cuello, que surgen por sudoración, son típicas de esta forma clínica. El eritema multiforme tiene evolución más lenta y suele estar relacionado con infecciones o fármacos. La miliaria cristalina produce vesículas, no habones, y el liquen plano es crónico y no evanescente. Por presentación clínica y curso, el diagnóstico es urticaria colinérgica.",
+      "comentario": "Varón joven que presenta, tras estímulos como ejercicio o ducha caliente, aparición de lesiones eritematosas muy pruriginosas que desaparecen en menos de 2 horas. Esta evolución súbita y autolimitada sugiere una urticaria, y el desencadenante térmico-emocional orienta a la variante colinérgica. Es una forma de urticaria inducida por calor o aumento de temperatura corporal, mediada por acetilcolina. Las lesiones pequeñas, distribuidas en tórax y cuello, que surgen por sudoración, son típicas de esta forma clínica. El eritema multiforme tiene evolución más lenta y suele estar relacionado con infecciones o fármacos. La miliaria cristalina produce vesículas, no habones, y el liquen plano es crónico y no evanescente. Por presentación clínica y curso, el diagnóstico es urticaria colinérgica.",
+      "tema": "Urticaria colinérgica",
+      "año": 2022
+    },
+    {
+      "id": "REU-023",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 15 años consulta por múltiples lesiones cutáneas hipopigmentadas, que se distribuyen en la zona media de la espalda y del pecho. Las lesiones aparecieron hace cerca de un mes y no presentan dolor ni prurito. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Anfotericina B",
+        "Nistatina",
+        "Sulfuro de selenio",
+        "Voriconazol",
+        "Epinefrina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón adolescente con lesiones hipopigmentadas de un mes de evolución en tórax y espalda, sin prurito ni dolor, lo cual sugiere una infección superficial fúngica crónica. El cuadro clínico es típico de pitiriasis versicolor, también llamada tiña versicolor, causada por el hongo Malassezia furfur. Esta levadura lipofílica afecta las capas superficiales de la piel, inhibiendo la melanogénesis y causando las características máculas hipopigmentadas. El tratamiento de elección para casos leves o localizados es el uso tópico de sulfuro de selenio al 2.5%, que actúa reduciendo la carga fúngica y normalizando la pigmentación progresivamente. La nistatina es útil en candidiasis, mientras que anfotericina B y voriconazol se reservan para micosis invasivas. El diagnóstico puede confirmarse con lámpara de Wood (fluorescencia amarillo verdosa) o KOH (hifas y esporas en “espaguetis con albóndigas”).",
+      "comentario": "Varón adolescente con lesiones hipopigmentadas de un mes de evolución en tórax y espalda, sin prurito ni dolor, lo cual sugiere una infección superficial fúngica crónica. El cuadro clínico es típico de pitiriasis versicolor, también llamada tiña versicolor, causada por el hongo Malassezia furfur. Esta levadura lipofílica afecta las capas superficiales de la piel, inhibiendo la melanogénesis y causando las características máculas hipopigmentadas. El tratamiento de elección para casos leves o localizados es el uso tópico de sulfuro de selenio al 2.5%, que actúa reduciendo la carga fúngica y normalizando la pigmentación progresivamente. La nistatina es útil en candidiasis, mientras que anfotericina B y voriconazol se reservan para micosis invasivas. El diagnóstico puede confirmarse con lámpara de Wood (fluorescencia amarillo verdosa) o KOH (hifas y esporas en “espaguetis con albóndigas”).",
+      "tema": "Pitiriasis versicolor",
+      "año": 2022
+    },
+    {
+      "id": "REU-024",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 64 años VIH (+), desde hace 3 días dolor urente en la región lateral de hemitórax izquierdo, seguido de eritema y vesículas de tamaño variable a lo largo del dermatoma. Test de Tzanck: cambios citoplasmáticos típicos y presencia de células gigantes multinucleadas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Herpes zóster",
+        "Dermatitis de contacto",
+        "Pioderma gangrenoso",
+        "Dermatosis neutrofílica",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente VIH positivo con dolor urente torácico, seguido de eritema y vesículas en un patrón lineal que sigue un dermatoma, lo cual es característico del herpes zóster, una reactivación del virus varicela-zóster en ganglios dorsales. La inmunosupresión por VIH favorece su reaparición. El test de Tzanck apoya el diagnóstico al mostrar células gigantes multinucleadas. La distribución unilateral y dermatómica descarta otras patologías como pioderma gangrenoso (ulcerativa y más agresiva), dermatitis de contacto (más difusa y bilateral), y dermatosis neutrofílica (generalmente asociada a enfermedades sistémicas). El cuadro clínico y antecedentes permiten un diagnóstico claro.",
+      "comentario": "Paciente VIH positivo con dolor urente torácico, seguido de eritema y vesículas en un patrón lineal que sigue un dermatoma, lo cual es característico del herpes zóster, una reactivación del virus varicela-zóster en ganglios dorsales. La inmunosupresión por VIH favorece su reaparición. El test de Tzanck apoya el diagnóstico al mostrar células gigantes multinucleadas. La distribución unilateral y dermatómica descarta otras patologías como pioderma gangrenoso (ulcerativa y más agresiva), dermatitis de contacto (más difusa y bilateral), y dermatosis neutrofílica (generalmente asociada a enfermedades sistémicas). El cuadro clínico y antecedentes permiten un diagnóstico claro.",
+      "tema": "Herpes zóster en paciente con VIH",
+      "año": 2022
+    },
+    {
+      "id": "REU-025",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Estibador de 48 años, se queja desde hace un mes de tumoraciones dolorosas en sus axilas y hace una semana drenan pus. Examen: afebril. Tumoraciones en axilas en 1 cm de diámetro, eritematosas, algunas drenan pus y otras con cicatrices. Resto del examen normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hidradenitis supurativa",
+        "Forunculosis",
+        "Ántrax estafilocócico",
+        "Tuberculosis ganglionar",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El diagnóstico más probable es hidradenitis supurativa, una enfermedad inflamatoria crónica de la piel que afecta principalmente a las áreas con glándulas sudoríparas apocrinas, como las axilas. La presencia de tumoraciones dolorosas, algunas de las cuales drenan pus y otras presentan cicatrices, es característica de esta afección. La evolución crónica y la recurrencia de los abscesos, junto con la ausencia de fiebre, descartan infecciones bacterianas agudas como la forunculosis o el ántrax. La hidradenitis supurativa se asocia con factores como el sudor, la fricción y, en ocasiones, con antecedentes familiares. El tratamiento se enfoca en el control de la inflamación y la prevención de brotes recurrentes.",
+      "comentario": "El diagnóstico más probable es hidradenitis supurativa, una enfermedad inflamatoria crónica de la piel que afecta principalmente a las áreas con glándulas sudoríparas apocrinas, como las axilas. La presencia de tumoraciones dolorosas, algunas de las cuales drenan pus y otras presentan cicatrices, es característica de esta afección. La evolución crónica y la recurrencia de los abscesos, junto con la ausencia de fiebre, descartan infecciones bacterianas agudas como la forunculosis o el ántrax. La hidradenitis supurativa se asocia con factores como el sudor, la fricción y, en ocasiones, con antecedentes familiares. El tratamiento se enfoca en el control de la inflamación y la prevención de brotes recurrentes.",
+      "tema": "Hidradenitis supurativa",
+      "año": 2023
+    },
+    {
+      "id": "REU-026",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 53 años acude porque desde hace dos meses presenta debilidad muscular proximal en brazos y piernas asociadas a exantema de coloración violácea en párpados y exantema en zona de exposición de cuello y pecho. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Dermatomiositis",
+        "Esclerodermia",
+        "Lupus discoide",
+        "Vasculitis IgA",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta debilidad muscular proximal junto con manifestaciones cutáneas típicas como el eritema heliotropo (coloración violácea en los párpados) y el signo del escote (exantema en zonas fotoexpuestas del cuello y pecho), hallazgos clínicos característicos de la dermatomiositis (respuesta A). Esta es una miopatía inflamatoria idiopática que afecta principalmente músculos proximales y piel, y su diagnóstico es fundamentalmente clínico, aunque puede complementarse con estudios como enzimas musculares elevadas, EMG, resonancia y biopsia muscular. Es importante también descartar neoplasias asociadas, sobre todo en mujeres mayores de 50 años.",
+      "comentario": "La paciente presenta debilidad muscular proximal junto con manifestaciones cutáneas típicas como el eritema heliotropo (coloración violácea en los párpados) y el signo del escote (exantema en zonas fotoexpuestas del cuello y pecho), hallazgos clínicos característicos de la dermatomiositis (respuesta A). Esta es una miopatía inflamatoria idiopática que afecta principalmente músculos proximales y piel, y su diagnóstico es fundamentalmente clínico, aunque puede complementarse con estudios como enzimas musculares elevadas, EMG, resonancia y biopsia muscular. Es importante también descartar neoplasias asociadas, sobre todo en mujeres mayores de 50 años.",
+      "tema": "Dermatomiositis",
+      "año": 2023
+    },
+    {
+      "id": "REU-027",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 20 años desde hace dos días presenta dolor intenso y tumefacción de rodilla derecha, signo del témpano (+). Liquido sinovial: recuento leucocitario mayor de 80000/mm3 y el porcentaje de PMN del 80%. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Osteoartritis",
+        "Artritis gotosa",
+        "Artritis infecciosa",
+        "Artritis reumatoide",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro clínico agudo de dolor intenso, tumefacción de rodilla derecha y el hallazgo de un líquido sinovial con recuento leucocitario elevado y predominio de neutrófilos es sugerente de Artritis infecciosa (Opción C). La artritis infecciosa es una inflamación de una articulación causada por la invasión de microorganismos patógenos, como bacterias, virus u hongos. Se caracteriza por un inicio agudo de dolor intenso, tumefacción de la articulación y signos de inflamación local, como el signo del témpano (elevación de la piel alrededor de la articulación afectada debido a la acumulación de líquido sinovial). El líquido sinovial en la artritis infecciosa muestra un recuento leucocitario elevado, con predominio de neutrófilos, como se describe en el caso presentado.",
+      "comentario": "El cuadro clínico agudo de dolor intenso, tumefacción de rodilla derecha y el hallazgo de un líquido sinovial con recuento leucocitario elevado y predominio de neutrófilos es sugerente de Artritis infecciosa (Opción C). La artritis infecciosa es una inflamación de una articulación causada por la invasión de microorganismos patógenos, como bacterias, virus u hongos. Se caracteriza por un inicio agudo de dolor intenso, tumefacción de la articulación y signos de inflamación local, como el signo del témpano (elevación de la piel alrededor de la articulación afectada debido a la acumulación de líquido sinovial). El líquido sinovial en la artritis infecciosa muestra un recuento leucocitario elevado, con predominio de neutrófilos, como se describe en el caso presentado.",
+      "tema": "Artritis séptica: líquido sinovial",
+      "año": 2023
+    },
+    {
+      "id": "REU-028",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 9 años, es traído por presentar desde hace un mes prurito intenso generalizado que se intensifica en la noche respetando cara, cabeza y cuello. Examen: pápulas pruriginosas inflamatorias en pliegues interdigitales de los dedos, zonas flexoras de las muñecas, codos, axilas, glúteos y genitales. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Urticaria papulosa",
+        "Exantema vírico",
+        "Escabiosis",
+        "Dermatitis herpetiforme",
+        "Neumonía adquirida"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El diagnóstico más probable es Escabiosis (Opción C). La escabiosis es una infestación cutánea causada por el ácaro Sarcoptes scabiei. Se caracteriza por el prurito intenso, especialmente por la noche, y la presencia de pápulas pruriginosas inflamatorias que tienden a agruparse en áreas específicas del cuerpo, como los pliegues interdigitales de los dedos, zonas flexoras de las muñecas, codos, axilas, glúteos y genitales. Esta descripción coincide con los síntomas y la distribución de las lesiones del paciente.",
+      "comentario": "El diagnóstico más probable es Escabiosis (Opción C). La escabiosis es una infestación cutánea causada por el ácaro Sarcoptes scabiei. Se caracteriza por el prurito intenso, especialmente por la noche, y la presencia de pápulas pruriginosas inflamatorias que tienden a agruparse en áreas específicas del cuerpo, como los pliegues interdigitales de los dedos, zonas flexoras de las muñecas, codos, axilas, glúteos y genitales. Esta descripción coincide con los síntomas y la distribución de las lesiones del paciente.",
+      "tema": "Escabiosis en el niño",
+      "año": 2023
+    },
+    {
+      "id": "REU-029",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niña de 12 años, con acné. Examen: se aprecia aproximadamente 30 comedones en el rostro. ¿Cuál es el grado de severidad?",
+      "opciones": [
+        "Leve",
+        "Muy grave",
+        "Moderada",
+        "Grave",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Niña de 12 años presenta acné caracterizado por aproximadamente 30 comedones distribuidos en el rostro. En la clasificación clínica del acné, el grado leve se define por la presencia de lesiones no inflamatorias como comedones abiertos y cerrados en número limitado (menos de 30), sin compromiso profundo ni inflamatorio. No hay pápulas, pústulas ni nódulos, lo que excluye formas más severas. Esta presentación es frecuente en adolescentes durante la pubertad y suele responder bien a tratamiento tópico. Por tanto, la cantidad y tipo de lesión indican un acné comedoniano leve.",
+      "comentario": "Niña de 12 años presenta acné caracterizado por aproximadamente 30 comedones distribuidos en el rostro. En la clasificación clínica del acné, el grado leve se define por la presencia de lesiones no inflamatorias como comedones abiertos y cerrados en número limitado (menos de 30), sin compromiso profundo ni inflamatorio. No hay pápulas, pústulas ni nódulos, lo que excluye formas más severas. Esta presentación es frecuente en adolescentes durante la pubertad y suele responder bien a tratamiento tópico. Por tanto, la cantidad y tipo de lesión indican un acné comedoniano leve.",
+      "tema": "Acné comedoniano leve",
+      "año": 2023
+    },
+    {
+      "id": "REU-030",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 40 años, acude por presentar placas eritematosas bien delimitadas, cubiertas de escamas finas y nacaradas de tamaño variable, pruriginosas en piel y cuero cabelludo. Examen: onicolisis, presencia de piqueteado ungueal. ¿Cuál es el diagnóstico ?",
+      "opciones": [
+        "Dermatitis atópica",
+        "Psoriasis",
+        "Ictiosis",
+        "Linfoma cutáneo",
+        "Sepsis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El cuadro clínico descrito es consistente con psoriasis (Opción B). La psoriasis es una enfermedad inflamatoria crónica de la piel que se caracteriza por la presencia de placas eritematosas bien delimitadas, cubiertas de escamas plateadas o blancas. Estas placas pueden aparecer en cualquier parte del cuerpo, incluido el cuero cabelludo y las uñas. La presencia de onicolisis (separación de la uña del lecho ungueal) y el piqueteado ungueal (depósitos de material queratínico debajo de la uña) son hallazgos típicos de la psoriasis ungueal, que es común en pacientes con psoriasis cutánea.",
+      "comentario": "El cuadro clínico descrito es consistente con psoriasis (Opción B). La psoriasis es una enfermedad inflamatoria crónica de la piel que se caracteriza por la presencia de placas eritematosas bien delimitadas, cubiertas de escamas plateadas o blancas. Estas placas pueden aparecer en cualquier parte del cuerpo, incluido el cuero cabelludo y las uñas. La presencia de onicolisis (separación de la uña del lecho ungueal) y el piqueteado ungueal (depósitos de material queratínico debajo de la uña) son hallazgos típicos de la psoriasis ungueal, que es común en pacientes con psoriasis cutánea.",
+      "tema": "Psoriasis",
+      "año": 2023
+    },
+    {
+      "id": "REU-031",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, consulta por presentar desde hace 6 meses dificultad para subir las escaleras, levantarse de la silla y peinarse. Examen: disminución de fuerza muscular proximal y simétrica. Niega artralgias, no compromiso cutáneo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Miastenia gravis",
+        "Mielitis longitudinal",
+        "Síndrome de Guillain-Barré",
+        "Polimiositis",
+        "Sepsis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presentación de debilidad proximal y simétrica sin compromiso cutáneo, de evolución progresiva durante meses, es típica de polimiositis (Alternativa D). La poliomiositis es una enfermedad inflamatoria idiopática de los músculos, que se caracteriza por debilidad muscular proximal simétrica progresiva. A menudo no hay compromiso cutáneo, lo que la diferencia de la dermatomiositis. Puede asociarse con otros síntomas como disfonía y disfagia. Este diagnóstico debe considerarse y confirmarse con estudios adicionales, como enzimas musculares elevadas y estudios de electromiografía y biopsia muscular si es necesario.",
+      "comentario": "La presentación de debilidad proximal y simétrica sin compromiso cutáneo, de evolución progresiva durante meses, es típica de polimiositis (Alternativa D). La poliomiositis es una enfermedad inflamatoria idiopática de los músculos, que se caracteriza por debilidad muscular proximal simétrica progresiva. A menudo no hay compromiso cutáneo, lo que la diferencia de la dermatomiositis. Puede asociarse con otros síntomas como disfonía y disfagia. Este diagnóstico debe considerarse y confirmarse con estudios adicionales, como enzimas musculares elevadas y estudios de electromiografía y biopsia muscular si es necesario.",
+      "tema": "Polimiositis",
+      "año": 2024
+    },
+    {
+      "id": "REU-032",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 59 años acude por fiebre, pérdida de peso, dolor testicular, mialgias y artralgias. Antecedente de hepatitis B. Examen: PA 160/90 mmHg. Nódulos subcutáneos en abdomen, livedo reticularis y debilidad muscular. Laboratorio: leucocitosis con desviación izquierda. VSG: 58 mm/h, Factor Reumatoide 60 UI/ml, PCR 8,3 mg/dl. Electromiografía: polineuropatía sensorial y distal. Bx: vasculitis necrotizante en arterias de pequeño y mediano calibre. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Poliarteritis nudosa",
+        "Vasculitis por IgA",
+        "Vasculitis crioglobulenémica",
+        "Granulomatosis con poliangeítis",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El diagnóstico más probable en este caso es la poliarteritis nudosa (PAN) (Alternativa A). La PAN es una vasculitis sistémica que afecta principalmente a arterias de pequeño y mediano calibre. Suele presentarse con síntomas como fiebre, artralgias y mialgias, pérdida de peso, dolor abdominal, neuropatía, y manifestaciones cutáneas como nódulos eritematosos dolorosos, livedo reticularis o úlceras cutáneas. Un porcentaje de los pacientes con este cuadro suele tener antecedente de hepatitis B o C. La biopsia característicamente presenta hallazgos de vasculitis necrotizante.",
+      "comentario": "El diagnóstico más probable en este caso es la poliarteritis nudosa (PAN) (Alternativa A). La PAN es una vasculitis sistémica que afecta principalmente a arterias de pequeño y mediano calibre. Suele presentarse con síntomas como fiebre, artralgias y mialgias, pérdida de peso, dolor abdominal, neuropatía, y manifestaciones cutáneas como nódulos eritematosos dolorosos, livedo reticularis o úlceras cutáneas. Un porcentaje de los pacientes con este cuadro suele tener antecedente de hepatitis B o C. La biopsia característicamente presenta hallazgos de vasculitis necrotizante.",
+      "tema": "Poliarteritis nudosa asociada a hepatitis B",
+      "año": 2024
+    },
+    {
+      "id": "REU-033",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, consulta por presentar hace 2 meses edema de miembros inferiores y orina espumosas. Desde hace un mes se agrega, artralgia, cansancio y fotosensibilidad. Examen: Eritema facial; Pulmones: MV abolido en bases de AHT. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Artritis Reumatoide",
+        "Tuberculosis pulmonar",
+        "Lupus eritematoso sistémico",
+        "Dermatomiositis",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La combinación de edema de miembros inferiores (indicativo de nefropatía), orina espumosa (proteinuria), artralgia, fotosensibilidad, eritema facial y posible afectación pulmonar (MV abolido en bases) encaja bien con un diagnóstico de lupus eritematoso sistémico (LES) (Alternativa C). El LES es una enfermedad autoinmune multisistémica que puede afectar la piel, las articulaciones, los riñones, el sistema nervioso y otros órganos. Síntomas comunes incluyen fotosensibilidad, eritema malar (eritema facial en forma de mariposa), artralgias, fatiga, manifestaciones renales como el síndrome nefrótico (edema y orina espumosa) o compromiso de serosas (derrame pleural o pericarditis).",
+      "comentario": "La combinación de edema de miembros inferiores (indicativo de nefropatía), orina espumosa (proteinuria), artralgia, fotosensibilidad, eritema facial y posible afectación pulmonar (MV abolido en bases) encaja bien con un diagnóstico de lupus eritematoso sistémico (LES) (Alternativa C). El LES es una enfermedad autoinmune multisistémica que puede afectar la piel, las articulaciones, los riñones, el sistema nervioso y otros órganos. Síntomas comunes incluyen fotosensibilidad, eritema malar (eritema facial en forma de mariposa), artralgias, fatiga, manifestaciones renales como el síndrome nefrótico (edema y orina espumosa) o compromiso de serosas (derrame pleural o pericarditis).",
+      "tema": "Lupus eritematoso sistémico con nefropatía y serositis",
+      "año": 2024
+    },
+    {
+      "id": "REU-034",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Niña de 7 años, desde hace un mes presenta escozor en cuero cabelludo. Examen: lesiones de rascado en cuero cabelludo, en la longitud del cabello se aprecian pequeñas protuberancias blanco nacaradas. Se palpan adenopatías cervicales y occipitales. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Impétigo",
+        "Celulitis",
+        "Pediculosis",
+        "Eccema atópico",
+        "Tuberculosis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El escozor en el cuero cabelludo, las lesiones de rascado, las protuberancias blanco nacaradas en el cabello y las adenopatías coinciden con la pediculosis (Alternativa C). La pediculosis capitis, o infestación por piojos, es común en niños en edad escolar. Se presenta con prurito en el cuero cabelludo y la presencia de liendres (huevos de piojos) que aparecen como pequeñas protuberancias blanco nacaradas adheridas a la base del cabello. Las adenopatías cervicales y occipitales pueden presentarse debido a la respuesta inflamatoria local.",
+      "comentario": "El escozor en el cuero cabelludo, las lesiones de rascado, las protuberancias blanco nacaradas en el cabello y las adenopatías coinciden con la pediculosis (Alternativa C). La pediculosis capitis, o infestación por piojos, es común en niños en edad escolar. Se presenta con prurito en el cuero cabelludo y la presencia de liendres (huevos de piojos) que aparecen como pequeñas protuberancias blanco nacaradas adheridas a la base del cabello. Las adenopatías cervicales y occipitales pueden presentarse debido a la respuesta inflamatoria local.",
+      "tema": "Pediculosis capitis",
+      "año": 2024
+    },
+    {
+      "id": "REU-035",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, obesa y diabética, presenta desde hace 15 días dolor y prurito en zona inguinal, no respeta horarios. Examen: En ambos pliegues inguinales: lesiones eritematosas, decamativas con escoriaciones por rascado. Se aplico cremas locales, respeta horarios. Examen: En ambos pliegues inguinales: lesiones eritematosas, descamativas con escoriaciones por rascado. Se aplicó cremas locales, sin mejoría. ¿Cúal es el agente etiológico más probable?",
+      "opciones": [
+        "Pityrosporum ovale",
+        "Trichophyton rubrum",
+        "Candida albicans",
+        "Malassezia furfur",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La presencia de lesiones eritematosas y descamativas asociadas a dolor y prurito en zona inguinal, en una paciente obesa y diabética, los cuales no mejoran con cremas locales, es altamente sugestivo de un intertrigo candidiásico, infección causada por Candida albicans (Alternativa C). Se desarrolla en áreas de la piel donde hay pliegues y humedad como las inglés, axilas o pliegues inframamarios sobretodo en pacientes obesos o con diabetes mellitus. Se presenta con máculas y pequeñas vesículas sobre un fondo eritematoedematoso asociadas a prurito y dolor, que pueden evolucionar hacia placas maceradas con erosiones y una descamación fina en periferia, junto a lesiones satélite en forma de pápulas eritematosas y pústulas.",
+      "comentario": "La presencia de lesiones eritematosas y descamativas asociadas a dolor y prurito en zona inguinal, en una paciente obesa y diabética, los cuales no mejoran con cremas locales, es altamente sugestivo de un intertrigo candidiásico, infección causada por Candida albicans (Alternativa C). Se desarrolla en áreas de la piel donde hay pliegues y humedad como las inglés, axilas o pliegues inframamarios sobretodo en pacientes obesos o con diabetes mellitus. Se presenta con máculas y pequeñas vesículas sobre un fondo eritematoedematoso asociadas a prurito y dolor, que pueden evolucionar hacia placas maceradas con erosiones y una descamación fina en periferia, junto a lesiones satélite en forma de pápulas eritematosas y pústulas.",
+      "tema": "Intertrigo candidiásico",
+      "año": 2024
+    },
+    {
+      "id": "REU-036",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Lactante de 9 meses, presenta lesión en la zona del pañal desde hace 2 semanas. Examen: placa eritematosa, brillante, bien delimitada en los pliegues inguinales y en la zona perianal. ¿Qué tratamiento recomendaría?",
+      "opciones": [
+        "Econazol al 1% en crema",
+        "Óxido de zinc en crema",
+        "Mupirocina tópica",
+        "Vaselina",
+        "Metronidazol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La descripción de la lesión en el lactante sugiere una dermatitis del pañal con una posible infección por hongos, dado que la lesión es eritematosa, brillante y bien delimitada, especialmente en los pliegues inguinales y perianales. Estas características son comunes en las infecciones por hongos, como las causadas por Candida albicans, que frecuentemente se asocian con dermatitis en los lactantes. El tratamiento de elección en este caso sería un antifúngico tópico, como el econazol al 1% en crema, que es eficaz contra las infecciones por hongos, como la candidiasis.",
+      "comentario": "La descripción de la lesión en el lactante sugiere una dermatitis del pañal con una posible infección por hongos, dado que la lesión es eritematosa, brillante y bien delimitada, especialmente en los pliegues inguinales y perianales. Estas características son comunes en las infecciones por hongos, como las causadas por Candida albicans, que frecuentemente se asocian con dermatitis en los lactantes. El tratamiento de elección en este caso sería un antifúngico tópico, como el econazol al 1% en crema, que es eficaz contra las infecciones por hongos, como la candidiasis.",
+      "tema": "Dermatitis del pañal candidiásica",
+      "año": 2024
+    },
+    {
+      "id": "REU-037",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 19 años, desde hace 6 años presenta prurito moderado en pliegues de la piel, detrás de las rodillas, codos, cuello y las muñecas. Antecedente: asma bronquial. Examen: piel de aspecto reseca, escaldada con descamación y fisuras en pliegues. BX piel: espongiosis, infiltrado inflamatorio a predominio de linfocitos, en la dermis. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Dermatitis atópica",
+        "Dermatitis de contacto",
+        "Sarna noruega",
+        "Acrodermatitis enteropática",
+        "Sepsis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer con prurito crónico en pliegues flexurales, xerosis, descamación y fisuras, junto con antecedentes de asma, lo que sugiere una diátesis atópica. La biopsia de piel confirma la presencia de espongiosis e infiltrado linfocítico dérmico, hallazgos característicos de dermatitis atópica. Sin embargo, en esta pregunta se marca como correcta la dermatitis de contacto, que se asocia a reacciones eccematosas por exposición a alérgenos, aunque típicamente es más localizada y no tan crónica ni vinculada con antecedentes personales de atopía. Este conflicto de criterios puede responder al diseño del examen, pero clínicamente la dermatitis atópica sería más coherente.",
+      "comentario": "Mujer con prurito crónico en pliegues flexurales, xerosis, descamación y fisuras, junto con antecedentes de asma, lo que sugiere una diátesis atópica. La biopsia de piel confirma la presencia de espongiosis e infiltrado linfocítico dérmico, hallazgos característicos de dermatitis atópica. Sin embargo, en esta pregunta se marca como correcta la dermatitis de contacto, que se asocia a reacciones eccematosas por exposición a alérgenos, aunque típicamente es más localizada y no tan crónica ni vinculada con antecedentes personales de atopía. Este conflicto de criterios puede responder al diseño del examen, pero clínicamente la dermatitis atópica sería más coherente.",
+      "tema": "Dermatitis atópica",
+      "año": 2025
+    },
+    {
+      "id": "REU-038",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 45 años, divorciada, con diagnóstico de fibromialgia, está en tratamiento con terapia física y conductual, pero los dolores musculares y el insomnio persiste. ¿Qué fármaco le agregaría?",
+      "opciones": [
+        "Codeina",
+        "Ibuprofeno",
+        "Amitriptilina",
+        "Dexametasona",
+        "Clindamicina"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La fibromialgia es un trastorno caracterizado por dolor musculoesquelético crónico, fatiga e insomnio. El manejo farmacológico suele incluir antidepresivos tricíclicos como amitriptilina por su efecto analgésico y sedante. Sin embargo, en esta pregunta, se ha marcado como correcta la dexametasona (clave D), pese a que no es de primera línea ni se recomienda por sus efectos adversos a largo plazo. La codeína tiene riesgo de dependencia y el ibuprofeno no es efectivo en fibromialgia. Se respeta la respuesta brindada, aunque no corresponde a la recomendación terapéutica actual.",
+      "comentario": "La fibromialgia es un trastorno caracterizado por dolor musculoesquelético crónico, fatiga e insomnio. El manejo farmacológico suele incluir antidepresivos tricíclicos como amitriptilina por su efecto analgésico y sedante. Sin embargo, en esta pregunta, se ha marcado como correcta la dexametasona (clave D), pese a que no es de primera línea ni se recomienda por sus efectos adversos a largo plazo. La codeína tiene riesgo de dependencia y el ibuprofeno no es efectivo en fibromialgia. Se respeta la respuesta brindada, aunque no corresponde a la recomendación terapéutica actual.",
+      "tema": "Fibromialgia: amitriptilina",
+      "año": 2025
+    },
+    {
+      "id": "REU-039",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 63 años, obrero de construcción civil, consulta por una lesión ulcerosa en el borde libre del labio inferior de un año de evolución, de 2 cm de diámetro, bordes netos, irregulares, base infiltrada y aumento de consistencia de los tejidos profundos, superficie de la úlcera cubierta por una costra sanguinolenta. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Carcinoma espinocelular",
+        "Queilitis actínica",
+        "Linfoma cutáneo",
+        "Carcinoma basocelular",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulto mayor, obrero (con exposición solar crónica), presenta lesión ulcerosa de larga evolución en labio inferior, con características de malignidad: bordes netos, irregulares, base infiltrada y costra sanguinolenta. Esto es altamente sugestivo de carcinoma espinocelular (CEC), neoplasia maligna frecuente en zonas fotoexpuestas y en mucosas. Es el tumor labial más común (especialmente en el labio inferior) y su presentación clínica incluye ulceraciones de bordes duros e indurados. No se trata de una queilitis (lesión premaligna), ni de basocelular (menos frecuente en labios), ni linfoma.",
+      "comentario": "Paciente adulto mayor, obrero (con exposición solar crónica), presenta lesión ulcerosa de larga evolución en labio inferior, con características de malignidad: bordes netos, irregulares, base infiltrada y costra sanguinolenta. Esto es altamente sugestivo de carcinoma espinocelular (CEC), neoplasia maligna frecuente en zonas fotoexpuestas y en mucosas. Es el tumor labial más común (especialmente en el labio inferior) y su presentación clínica incluye ulceraciones de bordes duros e indurados. No se trata de una queilitis (lesión premaligna), ni de basocelular (menos frecuente en labios), ni linfoma.",
+      "tema": "Carcinoma espinocelular del labio",
+      "año": 2025
+    },
+    {
+      "id": "REU-040",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 75 años con lesión nodular de crecimiento lento en cara desde hace 1 año, con ulceración central reciente. Nódulo perlado con telangiectasias arborizantes. ¿Diagnóstico más probable?",
+      "opciones": [
+        "Micosis fungoide",
+        "Melanoma",
+        "Carcinoma basocelular",
+        "Lupus discoide",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulto mayor con lesión nodular facial de crecimiento lento durante un año, patrón típico de tumor cutáneo de bajo grado. La presencia de ulceración central reciente, conocida como úlcus rodens, es característica del carcinoma basocelular. El nódulo perlado con telangiectasias arborizantes refleja proliferación neoplásica en la capa basal de la epidermis. Fisiopatológicamente, la exposición solar crónica induce mutaciones en p53 y vía hedgehog. El melanoma usualmente presenta cambios pigmentarios irregulares y agresividad. La micosis fungoide cursa con placas eccematosas. El lupus discoide muestra lesiones eritematodescamativas fotosensibles. Por su comportamiento indolente, localización y morfología, el diagnóstico más probable es carcinoma basocelular.",
+      "comentario": "Paciente adulto mayor con lesión nodular facial de crecimiento lento durante un año, patrón típico de tumor cutáneo de bajo grado. La presencia de ulceración central reciente, conocida como úlcus rodens, es característica del carcinoma basocelular. El nódulo perlado con telangiectasias arborizantes refleja proliferación neoplásica en la capa basal de la epidermis. Fisiopatológicamente, la exposición solar crónica induce mutaciones en p53 y vía hedgehog. El melanoma usualmente presenta cambios pigmentarios irregulares y agresividad. La micosis fungoide cursa con placas eccematosas. El lupus discoide muestra lesiones eritematodescamativas fotosensibles. Por su comportamiento indolente, localización y morfología, el diagnóstico más probable es carcinoma basocelular.",
+      "tema": "Carcinoma basocelular",
+      "año": 2025
+    },
+    {
+      "id": "REU-041",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 16 años inicia con lesiones vesiculosas y costrosas de color miel en antebrazos y cuatro días más tarde, alrededor de la boca, sin afectación general; hermano menor con similares lesiones. Procede de un pueblo joven que no tiene servicios básicos, sin antecedentes de importancia. Examen: costras meliséricas escasas alrededor de la boca y antebrazos. ¿Cuál es el tratamiento más adecuado?",
+      "opciones": [
+        "Vancomicina IV",
+        "Mupirocina tópica",
+        "Clotrimazol tópico",
+        "Aciclovir VO",
+        "Dexametasona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un cuadro típico de impétigo: lesiones vesiculosas que evolucionan a costras color miel (meliséricas), altamente contagiosas, frecuente en zonas de hacinamiento y mala higiene. El tratamiento de elección para casos leves o localizados es mupirocina tópica, un antibiótico que combate principalmente Staphylococcus aureus y Streptococcus pyogenes. En casos extensos se usaría antibiótico sistémico.",
+      "comentario": "El paciente presenta un cuadro típico de impétigo: lesiones vesiculosas que evolucionan a costras color miel (meliséricas), altamente contagiosas, frecuente en zonas de hacinamiento y mala higiene. El tratamiento de elección para casos leves o localizados es mupirocina tópica, un antibiótico que combate principalmente Staphylococcus aureus y Streptococcus pyogenes. En casos extensos se usaría antibiótico sistémico.",
+      "tema": "Impétigo localizado: mupirocina",
+      "año": 2023
+    },
+    {
+      "id": "REU-042",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 24 años acude por presentar desde hace 3 meses, dolor, tumefacción y alteración funcional de las articulaciones en manos, muñecas y rodillas en forma simétrica asociado a rigidez matutina prolongada. ¿Qué examen solicitaría como marcador diagnóstico y pronóstico de enfermedad?",
+      "opciones": [
+        "Ac anti-Smith",
+        "Anti DNA de doble cadena",
+        "Ac anticentrómero",
+        "Ac anti-péptidos citrulinados",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta síntomas típicos de artritis reumatoide: dolor articular simétrico, tumefacción, afectación de pequeñas y grandes articulaciones, y rigidez matutina prolongada. El anticuerpo anti-péptido cíclico citrulinado (anti-CCP) es el marcador diagnóstico y pronóstico más específico para artritis reumatoide, incluso más que el factor reumatoide. Su presencia está asociada a formas más agresivas y erosivas de la enfermedad.",
+      "comentario": "La paciente presenta síntomas típicos de artritis reumatoide: dolor articular simétrico, tumefacción, afectación de pequeñas y grandes articulaciones, y rigidez matutina prolongada. El anticuerpo anti-péptido cíclico citrulinado (anti-CCP) es el marcador diagnóstico y pronóstico más específico para artritis reumatoide, incluso más que el factor reumatoide. Su presencia está asociada a formas más agresivas y erosivas de la enfermedad.",
+      "tema": "Artritis reumatoide: anti-CCP",
+      "año": 2023
+    },
+    {
+      "id": "REU-043",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Joven de 20 años, es traído a la emergencia por sufrir de picaduras de abejas. Refiere sensación de cuerpo extraño, cefalea y disnea. Examen: PA 80/50 mmHg, FC 120 X', FR 22 X', cianosis, estridor, dificultad para respirar, se auscultan sibilantes en AHT. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Clorfeniramina",
+        "Adrenalina",
+        "Hidrocortisona",
+        "Salbutamol",
+        "Omeprazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un cuadro clínico severo de anafilaxia secundaria a picaduras múltiples de abejas. Los síntomas de hipotensión, disnea, cianosis, estridor y sibilantes indican compromiso multisistémico, incluyendo colapso cardiovascular y obstrucción de vía aérea. La anafilaxia es una reacción de hipersensibilidad tipo I mediada por IgE, que requiere intervención inmediata. La adrenalina (epinefrina) intramuscular es el tratamiento de elección y debe administrarse sin demora, pues revierte rápidamente la vasodilatación, broncoconstricción y edema laríngeo. Los otros medicamentos como antihistamínicos (clorfeniramina), corticosteroides (hidrocortisona) y broncodilatadores (salbutamol) tienen un rol coadyuvante, pero no reemplazan el uso urgente de adrenalina. La vía de administración intramuscular, preferiblemente en el músculo vasto lateral del muslo, asegura absorción rápida. El retraso en su uso se asocia a mayor mortalidad.",
+      "comentario": "El paciente presenta un cuadro clínico severo de anafilaxia secundaria a picaduras múltiples de abejas. Los síntomas de hipotensión, disnea, cianosis, estridor y sibilantes indican compromiso multisistémico, incluyendo colapso cardiovascular y obstrucción de vía aérea. La anafilaxia es una reacción de hipersensibilidad tipo I mediada por IgE, que requiere intervención inmediata. La adrenalina (epinefrina) intramuscular es el tratamiento de elección y debe administrarse sin demora, pues revierte rápidamente la vasodilatación, broncoconstricción y edema laríngeo. Los otros medicamentos como antihistamínicos (clorfeniramina), corticosteroides (hidrocortisona) y broncodilatadores (salbutamol) tienen un rol coadyuvante, pero no reemplazan el uso urgente de adrenalina. La vía de administración intramuscular, preferiblemente en el músculo vasto lateral del muslo, asegura absorción rápida. El retraso en su uso se asocia a mayor mortalidad.",
+      "tema": "Anafilaxia por picadura de abejas: adrenalina",
+      "año": 2023
+    },
+    {
+      "id": "REU-044",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 51 años, desde hace más de 5 años presenta episodios de dolor glúteo bilateral, de predominio nocturno, que interfiere el sueño y alivia con la movilización. Examen: Test de Schöber positivo. Laboratorio: PCR 20.5 mg/dl. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Espondiloartritis seronegativa",
+        "Esclerosis sistémica",
+        "Osteoartritis focal",
+        "Artritis reumatoide",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Clínicamente, el dolor inflamatorio de columna (dolor nocturno, alivio con movimiento) en un adulto mayor, sumado a la rigidez matutina y a un Test de Schöber positivo (limitación de movilidad lumbar), orienta a una espondiloartritis axial. La elevación de PCR respalda inflamación activa. Dado que no se menciona factor reumatoide positivo, se trata de una espondiloartropatía seronegativa, siendo la más común la espondilitis anquilosante.",
+      "comentario": "Clínicamente, el dolor inflamatorio de columna (dolor nocturno, alivio con movimiento) en un adulto mayor, sumado a la rigidez matutina y a un Test de Schöber positivo (limitación de movilidad lumbar), orienta a una espondiloartritis axial. La elevación de PCR respalda inflamación activa. Dado que no se menciona factor reumatoide positivo, se trata de una espondiloartropatía seronegativa, siendo la más común la espondilitis anquilosante.",
+      "tema": "Espondiloartritis axial: dolor lumbar inflamatorio",
+      "año": 2020
+    },
+    {
+      "id": "REU-045",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante de 18 meses con lesiones pruriginosas con surcos lineales y pápulas puntiformes con costras en las muñecas, tronco, regiones interdigitales, palmas y planta de los pies y en cara. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Permetrina",
+        "Azufre precipitado",
+        "Benzoato de bencilo",
+        "Hexacloruro de benceno",
+        "Dexametasona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La escabiosis se manifiesta como prurito intenso, sobre todo nocturno, y lesiones lineales (surcos) en zonas características como pliegues, muñecas, palmas, plantas y tronco. En menores de 2 años, también puede afectar la cara. El tratamiento de elección en lactantes mayores de 2 meses es la permetrina al 5%, una crema segura y eficaz que debe aplicarse en todo el cuerpo por la noche. El benzoato de bencilo es más irritante. El azufre precipitado es alternativa, pero de menor uso por olor y dificultad de aplicación.",
+      "comentario": "La escabiosis se manifiesta como prurito intenso, sobre todo nocturno, y lesiones lineales (surcos) en zonas características como pliegues, muñecas, palmas, plantas y tronco. En menores de 2 años, también puede afectar la cara. El tratamiento de elección en lactantes mayores de 2 meses es la permetrina al 5%, una crema segura y eficaz que debe aplicarse en todo el cuerpo por la noche. El benzoato de bencilo es más irritante. El azufre precipitado es alternativa, pero de menor uso por olor y dificultad de aplicación.",
+      "tema": "Escabiosis en el lactante: permetrina",
+      "año": 2020
+    },
+    {
+      "id": "REU-046",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Lactante, tercer día con fiebre de 39ºC, irritable y anoréxico. Al examen: eritema difuso periodifícales y en flexuras junto con vesículas y ampollas fláccidas. Signo de Nikolsky (+). ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Epidermólisis ampollosa",
+        "Impétigo ampolloso",
+        "Pénfigo",
+        "Enfermedad de Ritter",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La descripción clínica: fiebre alta, irritabilidad, eritema difuso, ampollas fláccidas y signo de Nikolsky positivo, es característica del síndrome de la piel escaldada estafilocócica o enfermedad de Ritter. Afecta principalmente lactantes y es causada por la toxina exfoliativa del Staphylococcus aureus. Se diferencia del impétigo ampolloso porque en este último las lesiones son más localizadas y sin compromiso sistémico. Requiere hospitalización, manejo antibiótico y soporte general.",
+      "comentario": "La descripción clínica: fiebre alta, irritabilidad, eritema difuso, ampollas fláccidas y signo de Nikolsky positivo, es característica del síndrome de la piel escaldada estafilocócica o enfermedad de Ritter. Afecta principalmente lactantes y es causada por la toxina exfoliativa del Staphylococcus aureus. Se diferencia del impétigo ampolloso porque en este último las lesiones son más localizadas y sin compromiso sistémico. Requiere hospitalización, manejo antibiótico y soporte general.",
+      "tema": "Síndrome de piel escaldada estafilocócica (Ritter)",
+      "año": 2020
+    },
+    {
+      "id": "REU-047",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Adolescente deportista, presenta coloración blanquecina difusa y engrosamiento con separación distal de lecho ungueal del primer dedo de ambos pies. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Deficiencia de Zinc",
+        "Psoriasis",
+        "Micosis",
+        "Traumatismo",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La onicomicosis es una infección micótica de las uñas, común en deportistas por el uso prolongado de calzado cerrado, sudoración y microtraumatismos. La presentación típica es engrosamiento ungueal, coloración blanquecina o amarilla, fragilidad y separación distal del lecho ungueal. La psoriasis también puede alterar las uñas, pero suele acompañarse de otras lesiones cutáneas. El diagnóstico es clínico, apoyado por examen micológico, y el tratamiento incluye antifúngicos tópicos o sistémicos.",
+      "comentario": "La onicomicosis es una infección micótica de las uñas, común en deportistas por el uso prolongado de calzado cerrado, sudoración y microtraumatismos. La presentación típica es engrosamiento ungueal, coloración blanquecina o amarilla, fragilidad y separación distal del lecho ungueal. La psoriasis también puede alterar las uñas, pero suele acompañarse de otras lesiones cutáneas. El diagnóstico es clínico, apoyado por examen micológico, y el tratamiento incluye antifúngicos tópicos o sistémicos.",
+      "tema": "Onicomicosis en el deportista",
+      "año": 2020
+    },
+    {
+      "id": "REU-048",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 23 años, refiere tres días de fiebre, artralgias en muñecas y rodilla derecha. Además, presenta leucorrea. Al examen: rodilla derecha aumentada de volumen, caliente, eritematosa, dolorosa a la palpación y con limitación severa para el flexoextensión. Puntos ureterales (-), PPL (-). Se realiza artrocentesis y la identificación del microorganismo muestra ______",
+      "opciones": [
+        "Hifas filamentosas",
+        "Diplococos Gram negativo",
+        "Bacilos Gram negativos",
+        "Espiroquetas",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer joven con fiebre, artralgias, leucorrea y artritis séptica monoarticular, lo que sugiere artritis gonocócica diseminada, una complicación de la infección por Neisseria gonorrhoeae. La presentación típica incluye fiebre, poliartralgias migratorias y u na artritis franca monoarticular, además de síntomas genitourinarios. El microorganismo característico es un diplococo Gram negativo intracelular, visible en el líquido sinovial o en cultivo. Las otras opciones (hifas, bacilos, espiroquetas) no concuerdan con el cuadro clínico ni con la epidemiología en mujeres jóvenes sexualmente activas.",
+      "comentario": "Mujer joven con fiebre, artralgias, leucorrea y artritis séptica monoarticular, lo que sugiere artritis gonocócica diseminada, una complicación de la infección por Neisseria gonorrhoeae. La presentación típica incluye fiebre, poliartralgias migratorias y u na artritis franca monoarticular, además de síntomas genitourinarios. El microorganismo característico es un diplococo Gram negativo intracelular, visible en el líquido sinovial o en cultivo. Las otras opciones (hifas, bacilos, espiroquetas) no concuerdan con el cuadro clínico ni con la epidemiología en mujeres jóvenes sexualmente activas.",
+      "tema": "Artritis gonocócica: diplococos gramnegativos",
+      "año": 2021
+    },
+    {
+      "id": "REU-049",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 25 años desde hace 6 meses, dolor y tumefacción de pequeñas articulaciones. Al examen: eritema malar, alopecia. Rx de tórax: derrame pleural izquierdo. Laboratorio: Hb: 10 g/dL, plaquetas: 40,000/mm3, sedimento de orina con glóbulos rojos, cilindros leucocitarios y granulosos. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Dermatomiositis",
+        "Artritis reumatoide",
+        "Crisis gotosa",
+        "Lupus eritematoso sistémico",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer joven con compromiso multisistémico: artritis, eritema malar, alopecia, derrame pleural, anemia, trombocitopenia y nefropatía activa con cilindros, lo cual configura un cuadro clásico de lupus eritematoso sistémico (LES). La afectación renal (glomerulonefritis), hematológica y articular es muy frecuente en LES. La artritis reumatoide no explica la afectación sistémica tan amplia. La dermatomiositis suele dar debilidad muscular, no daño renal ni trombocitopenia. No hay datos que sugieran gota.",
+      "comentario": "Mujer joven con compromiso multisistémico: artritis, eritema malar, alopecia, derrame pleural, anemia, trombocitopenia y nefropatía activa con cilindros, lo cual configura un cuadro clásico de lupus eritematoso sistémico (LES). La afectación renal (glomerulonefritis), hematológica y articular es muy frecuente en LES. La artritis reumatoide no explica la afectación sistémica tan amplia. La dermatomiositis suele dar debilidad muscular, no daño renal ni trombocitopenia. No hay datos que sugieran gota.",
+      "tema": "Lupus con nefritis y serositis",
+      "año": 2021
+    },
+    {
+      "id": "REU-050",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 43 años, desde hace 1 mes presenta eritrodermia y malestar general. Al examen: uñas con lesiones puntiformes (uña en dedal), piel: lesiones eritematosas con placas cubiertas de escamas nacaradas, en codos, rodillas y cuero cabelludo ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Linfoma cutáneo",
+        "Psoriasis",
+        "Dermatitis atópica",
+        "Celulitis",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un cuadro de eritrodermia, junto con signos dermatológicos típicos como placas eritematoescamosas, localizadas en zonas características: codos, rodillas y cuero cabelludo. Además, se observa una alteración ungueal conocida como uña en dedal, altamente específica de psoriasis en placas. Esta enfermedad autoinmune tiene varias formas clínicas, siendo la forma en placas la más común. El linfoma cutáneo puede causar eritrodermia, pero no presenta las lesiones típicas descritas. La dermatitis atópica no da placas con escamas nacaradas ni compromiso ungueal. La celulitis es infecciosa, unilateral y no crónica.",
+      "comentario": "El paciente presenta un cuadro de eritrodermia, junto con signos dermatológicos típicos como placas eritematoescamosas, localizadas en zonas características: codos, rodillas y cuero cabelludo. Además, se observa una alteración ungueal conocida como uña en dedal, altamente específica de psoriasis en placas. Esta enfermedad autoinmune tiene varias formas clínicas, siendo la forma en placas la más común. El linfoma cutáneo puede causar eritrodermia, pero no presenta las lesiones típicas descritas. La dermatitis atópica no da placas con escamas nacaradas ni compromiso ungueal. La celulitis es infecciosa, unilateral y no crónica.",
+      "tema": "Psoriasis con uñas en dedal",
+      "año": 2021
+    },
+    {
+      "id": "REU-051",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Preescolar que luego de ingerir cítricos presenta lesiones papulares de diversos tamaños, eritematosas con centro pálido y muy pruriginosas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Dermatitis",
+        "Urticaria",
+        "Tiña córporis",
+        "Anafilaxia",
+        "Cirrosis hepática"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Niño preescolar que desarrolla lesiones papulares pruriginosas con centro pálido tras la ingesta de cítricos, lo que sugiere una reacción de hipersensibilidad inmediata (tipo I). El patrón clínico descrito corresponde a urticaria, que es frecuente en niños y se desencadena por alimentos, fármacos o infecciones. La tiña corporis se presenta con lesiones anulares con borde activo. La anafilaxia sería más sistémica, con compromiso respiratorio o cardiovascular. Dermatitis de contacto es más localizada y no tiene ese patrón de habón típico.",
+      "comentario": "Niño preescolar que desarrolla lesiones papulares pruriginosas con centro pálido tras la ingesta de cítricos, lo que sugiere una reacción de hipersensibilidad inmediata (tipo I). El patrón clínico descrito corresponde a urticaria, que es frecuente en niños y se desencadena por alimentos, fármacos o infecciones. La tiña corporis se presenta con lesiones anulares con borde activo. La anafilaxia sería más sistémica, con compromiso respiratorio o cardiovascular. Dermatitis de contacto es más localizada y no tiene ese patrón de habón típico.",
+      "tema": "Urticaria aguda por alimentos",
+      "año": 2021
+    },
+    {
+      "id": "REU-052",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Preescolar de 5 años, con episodios previos de urticaria; hace 4 días presenta lesiones vesiculares en zona de rascado, que se incrementan en número y extensión y eclosionan presentando una erosión húmeda con costras mieliséricas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Celulitis",
+        "Piodermitis",
+        "Erisipela",
+        "Varicela",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Niño con antecedentes de urticaria que desarrolla vesículas sobre áreas de rascado, las cuales se rompen dejando costras color miel, es característico de piodermitis (impétigo), en su forma ampollosa o no ampollosa. Esta infección bacteriana superficial es común en la infancia y causada por Staphylococcus aureus o Streptococcus pyogenes. No hay signos de afectación profunda como en la celulitis ni enrojecimiento marcado con fiebre como en la erisipela. La varicela también causa vesículas, pero no produce costras melicéricas.",
+      "comentario": "Niño con antecedentes de urticaria que desarrolla vesículas sobre áreas de rascado, las cuales se rompen dejando costras color miel, es característico de piodermitis (impétigo), en su forma ampollosa o no ampollosa. Esta infección bacteriana superficial es común en la infancia y causada por Staphylococcus aureus o Streptococcus pyogenes. No hay signos de afectación profunda como en la celulitis ni enrojecimiento marcado con fiebre como en la erisipela. La varicela también causa vesículas, pero no produce costras melicéricas.",
+      "tema": "Impétigo sobre lesiones de rascado",
+      "año": 2021
+    },
+    {
+      "id": "REU-053",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Madre consulta porque su hijo se rasca insistentemente el cuero cabelludo, descubre numerosos pequeños cuerpos ovoideos blanquecinos adosados a los cabellos. Hermano menor con similares molestias. ¿Cuál es el tratamiento más adecuado?",
+      "opciones": [
+        "Aplicación de vinagre",
+        "Solución con permetrina",
+        "Aplicar loción de violeta de genciana",
+        "Lavado del cabello con sulfuro de selenio",
+        "Ibuprofeno"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Caso clásico de pediculosis capitis en un escolar, evidenciado por prurito intenso del cuero cabelludo y la presencia de liendres (huevos del piojo) adheridas al tallo piloso. El antecedente de contagio intrafamiliar refuerza el diagnóstico clínico. El tratamiento de elección es la permetrina al 1%, que actúa como pediculicida seguro y eficaz. El vinagre puede ayudar a desprender liendres, pero no erradica al parásito. La violeta de genciana y el sulfuro de selenio no están indicados en este contexto. Por tanto, el manejo adecuado se basa en la aplicación tópica de permetrina, acompañado de medidas higiénicas y tratamiento de contactos.",
+      "comentario": "Caso clásico de pediculosis capitis en un escolar, evidenciado por prurito intenso del cuero cabelludo y la presencia de liendres (huevos del piojo) adheridas al tallo piloso. El antecedente de contagio intrafamiliar refuerza el diagnóstico clínico. El tratamiento de elección es la permetrina al 1%, que actúa como pediculicida seguro y eficaz. El vinagre puede ayudar a desprender liendres, pero no erradica al parásito. La violeta de genciana y el sulfuro de selenio no están indicados en este contexto. Por tanto, el manejo adecuado se basa en la aplicación tópica de permetrina, acompañado de medidas higiénicas y tratamiento de contactos.",
+      "tema": "Pediculosis de la cabeza: permetrina",
+      "año": 2021
+    },
+    {
+      "id": "REU-054",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Taxista de 42 años, desde hace 1 año lesiones en piel y desde 6 meses hinchazón y dolor articular. Al examen: lesiones cutáneas, eritematosas descamativas y pruriginosas en codos. Laboratorio: ANA, factor reumatoide y serología de lúes negativos; VSG 50 mm/h. RX mano: erosiones periarticulares en interfalángicas distales de 2do y 3er dedo de mano derecha. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Artritis reumatoide",
+        "Artritis psoriásica",
+        "Síndrome de Reiter",
+        "Artropatía amiloide",
+        "Cirrosis hepática"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con lesiones eritemato-descamativas en codos (psoriasis) y artritis con afectación de interfalángicas distales, característica poco común en la artritis reumatoide. Además, presenta VSG elevada, con ANA y FR negativos. Todo esto orienta al diagnóstico de artritis psoriásica, una espondiloartropatía seronegativa. Las características clave son la asociación con psoriasis, distribución asimétrica, afectación distal y hallazgos radiológicos de erosiones óseas. La artritis reumatoide suele respetar las interfalángicas distales. El tratamiento se basa en AINES, DMARDs y, en casos graves, agentes biológicos.",
+      "comentario": "Paciente con lesiones eritemato-descamativas en codos (psoriasis) y artritis con afectación de interfalángicas distales, característica poco común en la artritis reumatoide. Además, presenta VSG elevada, con ANA y FR negativos. Todo esto orienta al diagnóstico de artritis psoriásica, una espondiloartropatía seronegativa. Las características clave son la asociación con psoriasis, distribución asimétrica, afectación distal y hallazgos radiológicos de erosiones óseas. La artritis reumatoide suele respetar las interfalángicas distales. El tratamiento se basa en AINES, DMARDs y, en casos graves, agentes biológicos.",
+      "tema": "Artritis psoriásica: interfalángicas distales",
+      "año": 2021
+    },
+    {
+      "id": "REU-055",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 35 años, con artritis de rodilla izquierda. El líquido sinovial con tinción de Gram demuestra bacterias grampositivas agrupadas en racimos de uva. ¿Cuál es la mejor conducta a seguir?",
+      "opciones": [
+        "Drenaje y antibióticos vía parenteral",
+        "Antibióticos vía parenteral con antiinflamatorios",
+        "Drenaje y antiinflamatorios parenterales",
+        "Lavado intraarticular continuo",
+        "Biopsia excisional"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta una artritis séptica confirmada por grampositivos en racimos (típico de Staphylococcus aureus) en el líquido sinovial. Esta es una urgencia médica que requiere drenaje articular inmediato y antibióticos parenterales, sin esperar cultivo definitivo. La articulación comprometida (rodilla) debe ser evacuada para evitar daño estructural irreversible. Los antiinflamatorios pueden usarse como adyuvantes, pero no reemplazan el tratamiento causal. El lavado intraarticular no es primera línea en todos los casos y debe considerarse según evolución.",
+      "comentario": "La paciente presenta una artritis séptica confirmada por grampositivos en racimos (típico de Staphylococcus aureus) en el líquido sinovial. Esta es una urgencia médica que requiere drenaje articular inmediato y antibióticos parenterales, sin esperar cultivo definitivo. La articulación comprometida (rodilla) debe ser evacuada para evitar daño estructural irreversible. Los antiinflamatorios pueden usarse como adyuvantes, pero no reemplazan el tratamiento causal. El lavado intraarticular no es primera línea en todos los casos y debe considerarse según evolución.",
+      "tema": "Artritis séptica estafilocócica: drenaje y antibióticos",
+      "año": 2021
+    },
+    {
+      "id": "REU-056",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 23 años, obeso, presenta por primera vez cuadro inflamatorio severo de rodilla. Al examen: aumento de volumen y dolor intenso a la palpación. Laboratorio: Ácido úrico sérico 9 mg/dl. ¿Cuál es el examen para confirmar el diagnóstico?",
+      "opciones": [
+        "Estudio de líquido sinovial",
+        "Radiografía de rodilla",
+        "Resonancia magnética de rodilla",
+        "Ecografía de partes blandas",
+        "Radiografía simple"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente joven y obeso, con primer episodio de monoartritis aguda en rodilla, dolor intenso y volumen aumentado, junto a hiperuricemia (ácido úrico 9 mg/dL), lo cual sugiere un ataque de artritis gotosa aguda. Sin embargo, el diagnóstico definitivo de gota no se hace por ácido úrico sérico ni por imagen, sino por el estudio del líquido sinovial, donde se identifican cristales de urato monosódico con birrefringencia negativa en forma de aguja. Este examen confirma la etiología del derrame articular y descarta otras causas como artritis séptica o traumática.",
+      "comentario": "Paciente joven y obeso, con primer episodio de monoartritis aguda en rodilla, dolor intenso y volumen aumentado, junto a hiperuricemia (ácido úrico 9 mg/dL), lo cual sugiere un ataque de artritis gotosa aguda. Sin embargo, el diagnóstico definitivo de gota no se hace por ácido úrico sérico ni por imagen, sino por el estudio del líquido sinovial, donde se identifican cristales de urato monosódico con birrefringencia negativa en forma de aguja. Este examen confirma la etiología del derrame articular y descarta otras causas como artritis séptica o traumática.",
+      "tema": "Monoartritis con hiperuricemia: estudio del líquido sinovial",
+      "año": 2022
+    },
+    {
+      "id": "REU-057",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Adolescente de 16 años con acné vulgar en rostro y tronco. ¿Cuál es el tratamiento de primera elección?",
+      "opciones": [
+        "Antibióticos orales",
+        "Antibióticos tópicos",
+        "Retinoides tópicos",
+        "Dieta",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El tratamiento de primera elección en acné vulgar es el uso de retinoides tópicos, como el adapaleno, que regulan la renovación celular y previenen la obstrucción de los poros. Son eficaces y bien tolerados, siendo la opción inicial en casos no graves. Los antibióticos tópicos y orales se reservan para formas más graves, y la dieta no tiene un impacto comprobado en el tratamiento del acné.",
+      "comentario": "El tratamiento de primera elección en acné vulgar es el uso de retinoides tópicos, como el adapaleno, que regulan la renovación celular y previenen la obstrucción de los poros. Son eficaces y bien tolerados, siendo la opción inicial en casos no graves. Los antibióticos tópicos y orales se reservan para formas más graves, y la dieta no tiene un impacto comprobado en el tratamiento del acné.",
+      "tema": "Acné vulgar: retinoides tópicos",
+      "año": 2023
+    },
+    {
+      "id": "REU-058",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 38 años procedente de Ayacucho, desde hace dos años presenta lesiones hiperqueratósicas y escamo costrosas diseminadas en tórax y abdomen, poco pruriginosas, con presencia de surcos acarinos. Antecedente de infección por HTVL 1-2. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Psoriasis vulgar",
+        "Síndrome de Sweet",
+        "Ictiosis adquirida",
+        "Sarna noruega",
+        "Asma bronquial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente presenta un cuadro clínico compatible con sarna noruega (o sarna costrosa), caracterizada por lesiones hiperqueratósicas, escamo-costrosas, poco pruriginosas y extensas, con presencia de surcos acarinos. Esta forma grave de escabiosis ocurre en pacientes inmunocomprometidos, como en este caso con antecedente de infección por HTLV-1/2. A diferencia de la sarna clásica, la sarna noruega se manifiesta con una gran carga parasitaria y escaso prurito, y es altamente contagiosa. Las otras opciones como psoriasis, síndrome de Sweet o ictiosis no explican la presencia de ácaros ni el patrón clínico e inmunológico del caso.",
+      "comentario": "El paciente presenta un cuadro clínico compatible con sarna noruega (o sarna costrosa), caracterizada por lesiones hiperqueratósicas, escamo-costrosas, poco pruriginosas y extensas, con presencia de surcos acarinos. Esta forma grave de escabiosis ocurre en pacientes inmunocomprometidos, como en este caso con antecedente de infección por HTLV-1/2. A diferencia de la sarna clásica, la sarna noruega se manifiesta con una gran carga parasitaria y escaso prurito, y es altamente contagiosa. Las otras opciones como psoriasis, síndrome de Sweet o ictiosis no explican la presencia de ácaros ni el patrón clínico e inmunológico del caso.",
+      "tema": "Sarna noruega en el paciente con HTLV-1",
+      "año": 2023
+    },
+    {
+      "id": "REU-059",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Niño de 8 años, es traído por presentar máculas hipo e hiperpigmentadas, delimitadas, descamativas, de diferentes tamaños y situadas en el tronco. Examen: KOH: pared gruesa y numerosas hifas anguladas dan un aspecto en espaguetis y albóndiga. ¿Cuál es el agente etiológico?",
+      "opciones": [
+        "Trichophyton tonsurans",
+        "Malassezia globosa",
+        "Phaeoannellomyces werneckii",
+        "Candida albicans",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La presencia de máculas hipo e hiperpigmentadas, delimitadas y descamativas en el tronco, junto con la visualización de hifas anguladas y el patrón de \"espaguetis y albóndigas\" en el examen KOH, son características distintivas de la tiña versicolor, causada por hongos del género Malassezia, comúnmente Malassezia globosa.Los agentes causales de pitiriasis versicolor son M. globosa (97%), asociada a M. sympodialis en una tercera parte y más raras M. slooffiae (7%) y M. furfur. Tradicionalmente Malassezia furfur era considerada el agente etiológico. Dentro del espectro de infecciones causadas por este género, se encuentran dermatitis seborréica (DS), foliculitis, septicemia, pustulosis neonatal, papilomatosis confluente y reticulada, onicomicosis, blefaritis seborreica, dermatitis atópica y la psoriasis. Existe relación con padecimientos no dermatológicos, como la dacriocistitis, otitis, sinusitis, neumonía intersticial, peritonitis y septicemia. La pitiriasis versicolor es una micosis de distribución mundial, representa 5% de las micosis en general, en climas calurosos se observa en 32 a 50%, predomina en adultos entre 20 y 30 años de edad. Como auxiliares de diagnóstico se utilizan la luz de Wood, examen microscópico directo, el cultivo no es necesario para el diagnóstico. Ahora hay técnicas moleculares como cariotipificación,, secuencias de ARNr y ADN. Como profilaxis se recomienda higiene adecuada, uso de ropa absorbente de algodón con cambio frecuente, evitar la sudación, así como el control de enfermedades subyacentes como la diabetes. Los tratamientos son variados, siempre hay que eliminar los factores predisponentes.",
+      "comentario": "La presencia de máculas hipo e hiperpigmentadas, delimitadas y descamativas en el tronco, junto con la visualización de hifas anguladas y el patrón de \"espaguetis y albóndigas\" en el examen KOH, son características distintivas de la tiña versicolor, causada por hongos del género Malassezia, comúnmente Malassezia globosa.Los agentes causales de pitiriasis versicolor son M. globosa (97%), asociada a M. sympodialis en una tercera parte y más raras M. slooffiae (7%) y M. furfur. Tradicionalmente Malassezia furfur era considerada el agente etiológico. Dentro del espectro de infecciones causadas por este género, se encuentran dermatitis seborréica (DS), foliculitis, septicemia, pustulosis neonatal, papilomatosis confluente y reticulada, onicomicosis, blefaritis seborreica, dermatitis atópica y la psoriasis. Existe relación con padecimientos no dermatológicos, como la dacriocistitis, otitis, sinusitis, neumonía intersticial, peritonitis y septicemia. La pitiriasis versicolor es una micosis de distribución mundial, representa 5% de las micosis en general, en climas calurosos se observa en 32 a 50%, predomina en adultos entre 20 y 30 años de edad. Como auxiliares de diagnóstico se utilizan la luz de Wood, examen microscópico directo, el cultivo no es necesario para el diagnóstico. Ahora hay técnicas moleculares como cariotipificación,, secuencias de ARNr y ADN. Como profilaxis se recomienda higiene adecuada, uso de ropa absorbente de algodón con cambio frecuente, evitar la sudación, así como el control de enfermedades subyacentes como la diabetes. Los tratamientos son variados, siempre hay que eliminar los factores predisponentes.",
+      "tema": "Pitiriasis versicolor: Malassezia globosa",
+      "año": 2023
+    },
+    {
+      "id": "REU-060",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 35 años, presenta desde hace 4 meses dolor en pequeñas y medianas articulaciones asociado a rigidez matutina. Examen: Dolor y tumefacción de manos y muñecas. Lab: Ac anti-péptido citrulinado cíclico (+) y ANA (+). Rx. de manos: osteopenia periarticular y erosiones óseas. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Artritis reumatoide",
+        "Osteoartrosis",
+        "Lupus eritematoso sistémico",
+        "Enfermedad mixta del tejido conectivo",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente de 35 años con dolor articular en pequeñas y medianas articulaciones, rigidez matutina y hallazgos radiográficos de osteopenia periarticular con erosiones. Esta clínica es típica de artritis reumatoide, una enfermedad autoinmune inflamatoria crónica. La presencia de rigidez matinal prolongada (>30 minutos) y afectación simétrica de articulaciones como metacarpofalángicas y muñecas es muy característica. Además, el hallazgo de anticuerpo anti-péptido citrulinado cíclico (anti-CCP) positivo confiere alta especificidad diagnóstica para AR. Aunque el ANA puede estar positivo en muchas enfermedades autoinmunes, en este caso el perfil clínico y radiográfico apuntan claramente a AR.",
+      "comentario": "Paciente de 35 años con dolor articular en pequeñas y medianas articulaciones, rigidez matutina y hallazgos radiográficos de osteopenia periarticular con erosiones. Esta clínica es típica de artritis reumatoide, una enfermedad autoinmune inflamatoria crónica. La presencia de rigidez matinal prolongada (>30 minutos) y afectación simétrica de articulaciones como metacarpofalángicas y muñecas es muy característica. Además, el hallazgo de anticuerpo anti-péptido citrulinado cíclico (anti-CCP) positivo confiere alta especificidad diagnóstica para AR. Aunque el ANA puede estar positivo en muchas enfermedades autoinmunes, en este caso el perfil clínico y radiográfico apuntan claramente a AR.",
+      "tema": "Artritis reumatoide: anti-CCP y erosiones",
+      "año": 2023
+    },
+    {
+      "id": "REU-061",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 40 años, desde hace 3 meses presenta dificultad para levantarse de la silla y no puede subir a los micros. Examen: PA 120/85 mmHg, FC 66 X´, FR 20 X´, T 37 ºC; pápulas eritematosas en la superficie extensora de los dedos, dolor a la palpación de músculos de la cintura escapular y pélvica. Lab: CPK 34000 U/L. ¿Qué examen solicita para confirmar su diagnóstico?",
+      "opciones": [
+        "Biopsia de nervio",
+        "Electromiografía",
+        "RM de músculos",
+        "Biopsia de músculo",
+        "Arteriografía"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer con debilidad proximal de cinturas, pápulas eritematosas sobre las articulaciones de los dedos (pápulas de Gottron) y CPK muy elevada: el cuadro corresponde a dermatomiositis. La electromiografía muestra un patrón miopático que apoya el diagnóstico, pero no es específica. El examen que lo confirma es la biopsia muscular, que muestra infiltrado inflamatorio perivascular y perifascicular con atrofia perifascicular. Se deben buscar también los anticuerpos específicos de miositis y descartar una neoplasia asociada.",
+      "comentario": "Mujer con debilidad proximal de cinturas, pápulas eritematosas sobre las articulaciones de los dedos (pápulas de Gottron) y CPK muy elevada: el cuadro corresponde a dermatomiositis. La electromiografía muestra un patrón miopático que apoya el diagnóstico, pero no es específica. El examen que lo confirma es la biopsia muscular, que muestra infiltrado inflamatorio perivascular y perifascicular con atrofia perifascicular. Se deben buscar también los anticuerpos específicos de miositis y descartar una neoplasia asociada.",
+      "tema": "Dermatomiositis: biopsia muscular",
+      "año": 2023
+    },
+    {
+      "id": "REU-062",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Niño de 7 años consulta por lesiones dérmicas, inició con lesión en tronco tipo \"medallón heráldico\" a los 10 días se diseminan en la espalda. Niega prurito y dolor. Antecedente: hace una semana rinofaringitis aguda; vacunación completa. Examen: afebril, en espalda máculas rosadas, pálidas, múltiples con descamación de menor tamaño, tipo \"árbol de navidad\". ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Tiña cutis",
+        "Pitiriasis rosada",
+        "Dermatitis seborreica",
+        "Psoriasis",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El niño presenta lesiones dérmicas características de pitiriasis rosada, con una lesión inicial en forma de \"medallón heráldico\" seguida de la aparición de máculas rosadas en \"árbol de navidad\" en la espalda. La falta de prurito o dolor y el antecedente de rinofaringitis aguda refuerzan el diagnóstico. Esta es una enfermedad autolimitada, generalmente benigna, que suele resolverse por sí sola en pocas semanas.",
+      "comentario": "El niño presenta lesiones dérmicas características de pitiriasis rosada, con una lesión inicial en forma de \"medallón heráldico\" seguida de la aparición de máculas rosadas en \"árbol de navidad\" en la espalda. La falta de prurito o dolor y el antecedente de rinofaringitis aguda refuerzan el diagnóstico. Esta es una enfermedad autolimitada, generalmente benigna, que suele resolverse por sí sola en pocas semanas.",
+      "tema": "Pitiriasis rosada",
+      "año": 2024
+    },
+    {
+      "id": "REU-063",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 40 años diagnosticada de artritis reumatoide hace 12 meses acude por persistencia de síntomas pese a tratamiento con AINEs. ¿Qué fármaco de primera linea añadiría?",
+      "opciones": [
+        "Hidroxicloroquina",
+        "Sulfasalazina",
+        "Rituximab",
+        "Metrotexato",
+        "Tramadol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El metotrexato es el fármaco de primera línea en el tratamiento de la artritis reumatoide cuando los AINEs no logran controlar los síntomas. Es un fármaco modificador de la enfermedad (FAME) que reduce la progresión del daño articular y la inflamación sistémica. La hidroxicloroquina y la sulfasalazina también son FAMEs, pero su uso es más común en combinaciones o en casos leves. El rituximab, un anticuerpo monoclonal, se reserva para casos refractarios a otros tratamientos.",
+      "comentario": "El metotrexato es el fármaco de primera línea en el tratamiento de la artritis reumatoide cuando los AINEs no logran controlar los síntomas. Es un fármaco modificador de la enfermedad (FAME) que reduce la progresión del daño articular y la inflamación sistémica. La hidroxicloroquina y la sulfasalazina también son FAMEs, pero su uso es más común en combinaciones o en casos leves. El rituximab, un anticuerpo monoclonal, se reserva para casos refractarios a otros tratamientos.",
+      "tema": "Artritis reumatoide: metotrexato",
+      "año": 2024
+    },
+    {
+      "id": "REU-064",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, desde hace 2 años presenta fatiga, mialgias generalizadas, que se agravan con el ejercicio. Examen: PA 110/70 mmHg, FC 78 X´, FR 16 X´; rigidez y dolor al palpar cuello, hombros, zona lumbar y caderas, hay puntos en que el dolor es más intenso. Lab: VSG: 5 mm/h, PCR: 6mg/l, CPK: 60 U/l, RX de columna y caderas: sin alteraciones. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Artropatía neurógena",
+        "Polimialgia reumática",
+        "Polimiositis",
+        "Fibromialgia",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La fibromialgia se caracteriza por dolor musculoesquelético generalizado, rigidez y sensibilidad en puntos específicos, sin evidencia de inflamación o daño estructural. Los niveles normales de VSG, PCR y CPK descartan patologías inflamatorias como polimialgia reumática y polimiositis. La artropatía neurógena no se correlaciona con el cuadro clínico. La fibromialgia es un diagnóstico clínico basado en la persistencia de síntomas y el descarte de otras condiciones.",
+      "comentario": "La fibromialgia se caracteriza por dolor musculoesquelético generalizado, rigidez y sensibilidad en puntos específicos, sin evidencia de inflamación o daño estructural. Los niveles normales de VSG, PCR y CPK descartan patologías inflamatorias como polimialgia reumática y polimiositis. La artropatía neurógena no se correlaciona con el cuadro clínico. La fibromialgia es un diagnóstico clínico basado en la persistencia de síntomas y el descarte de otras condiciones.",
+      "tema": "Fibromialgia",
+      "año": 2024
+    },
+    {
+      "id": "REU-065",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 50 años, acude por dolor intenso en el pie izquierdo, que inició de forma brusca postingesta de comida y alcohol en exceso. Examen: sobrepeso; tobillo izquierdo: caliente, dolor intenso a la flexo-extensión e inflamación de la articulación metatarsofalángica del primer ortejo pie izquierdo. ¿Qué artritis es la más probable?",
+      "opciones": [
+        "Reactiva post venérea",
+        "Reumatoide",
+        "Séptica",
+        "Gotosa",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El diagnóstico más probable es la artritis gotosa (D), caracterizada por la aparición súbita de dolor intenso en una articulación, frecuentemente en el primer dedo del pie (podagra), después de la ingestión de alcohol y alimentos ricos en purinas. Esta condición se debe a la acumulación de cristales de ácido úrico en las articulaciones. La artritis séptica (C) también podría causar dolor articular, pero la presentación aguda después de la comida y el alcohol es más típica de la gota. Las artritis reactivas (A) y reumatoides (B) tienen un curso más crónico y no están tan asociadas a los factores desencadenantes descritos.",
+      "comentario": "El diagnóstico más probable es la artritis gotosa (D), caracterizada por la aparición súbita de dolor intenso en una articulación, frecuentemente en el primer dedo del pie (podagra), después de la ingestión de alcohol y alimentos ricos en purinas. Esta condición se debe a la acumulación de cristales de ácido úrico en las articulaciones. La artritis séptica (C) también podría causar dolor articular, pero la presentación aguda después de la comida y el alcohol es más típica de la gota. Las artritis reactivas (A) y reumatoides (B) tienen un curso más crónico y no están tan asociadas a los factores desencadenantes descritos.",
+      "tema": "Podagra: artritis gotosa",
+      "año": 2024
+    }
+  ]
+}

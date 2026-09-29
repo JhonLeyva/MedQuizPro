@@ -1,0 +1,1636 @@
+{
+  "especialidad": "Nefrología y Urología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NEF-001",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?",
+      "opciones": {
+        "A": "Resina de intercambio catiónico oral",
+        "B": "Furosemida endovenosa",
+        "C": "Gluconato de calcio endovenoso",
+        "D": "Bicarbonato de sodio oral",
+        "E": "Hemodiálisis programada para el día siguiente"
+      },
+      "clave_correcta": "C",
+      "comentario": "Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."
+    },
+    {
+      "id": "NEF-002",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 70 años, sin antecedentes, presenta diarreas profusas y oligoanuria. Laboratorio: creatinina 3.6 mg/dL. EKG: ondas T picudas. ¿Qué trastorno electrolítico presenta?",
+      "opciones": [
+        "Hipercalcemia",
+        "Hiponatremia",
+        "Hipomagnesemia",
+        "Hiperpotasemia",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.",
+      "comentario": "La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.",
+      "tema": "Trastornos del potasio",
+      "año": 2020
+    },
+    {
+      "id": "NEF-003",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 36 años acude a emergencia por presentar desde hace 6 días escalofríos, sensación de alza térmica, náuseas, malestar general y dolor lumbar derecho. Al examen: T: 38.5 °C, dolor difuso leve en abdomen. Examen de orina: presencia de nitritos. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Cistitis",
+        "Vaginitis",
+        "Pielonefritis",
+        "Uretritis",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
+      "comentario": "Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).",
+      "tema": "Infecciones del tracto urinario",
+      "año": 2020
+    },
+    {
+      "id": "NEF-004",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar de 7 años presenta hipertensión arterial, edema palpebral, hematuria, proteinuria leve y complemento C3 bajo. Antecedente de faringoamigdalitis hace 10 días. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Glomeruloesclerosis",
+        "Insuficiencia renal",
+        "Glomerulonefritis",
+        "Nefrosis lipoidea",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.",
+      "comentario": "La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.",
+      "tema": "Síndrome nefrítico",
+      "año": 2020
+    },
+    {
+      "id": "NEF-005",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Niño de 6 años con edema bipalpebral y pretibial, sedimento urinario con proteínas (+++), filtración glomerular 90 ml/min/1.73m2, albúmina sérica 2 g/dL, creatinina 0.8 mg/dL y sodio 130 mEq/L. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Insuficiencia renal aguda",
+        "Insuficiencia renal crónica",
+        "Síndrome nefrítico",
+        "Síndrome nefrótico",
+        "Apendicitis aguda"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.",
+      "comentario": "La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.",
+      "tema": "Síndrome nefrótico",
+      "año": 2020
+    },
+    {
+      "id": "NEF-006",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Obrero traído a emergencia tras sufrir aplastamiento por caída de pared. Llega inconsciente con múltiples hematomas en tórax y miembros. Dos días después presenta 200 ml de orina en 24 h, creatinina 2.4 mg/dL, ácido úrico 10 mg/dL, CPK: 1,500 U/L. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Fracaso renal por rabdomiólisis",
+        "Fracaso renal por uratos",
+        "Azoemia prerrenal",
+        "Necrosis tubular aguda",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.",
+      "comentario": "El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.",
+      "tema": "Insuficiencia renal aguda",
+      "año": 2020
+    },
+    {
+      "id": "NEF-007",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con edema progresivo de piernas y orina espumosa desde hace un mes. PA: 130/80 mmHg. Anasarca. Albuminuria 3.9 g/día, albúmina sérica 2.9 g/dL, triglicéridos 400 mg/dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome nefrótico",
+        "Necrosis tubular aguda",
+        "Pielonefritis crónica",
+        "Síndrome nefrítico",
+        "Tuberculosis"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
+      "comentario": "Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.",
+      "tema": "Glomerulopatías",
+      "año": 2020
+    },
+    {
+      "id": "NEF-008",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 36 años, IMC 34, dolor cólico 5/10 en fosa lumbar derecha, irradiado a flanco y testículo derecho, con náuseas y sudoración. ¿Cuál es el examen de elección?",
+      "opciones": [
+        "Resonancia magnética nuclear",
+        "Radiografía simple de abdomen",
+        "Ecografía renal y de vías urinarias",
+        "UroTAC (UroTEM)",
+        "Gammagrafía"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.",
+      "comentario": "La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.",
+      "tema": "Litiasis urinaria",
+      "año": 2020
+    },
+    {
+      "id": "NEF-009",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 15 años refiere dolor testicular derecho de 6 horas de evolución. Antecedente de testículo retráctil del mismo lado. Al examen físico destaca discreta horizontalización de testículo derecho y reflejo cremastérico ausente. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hidrocele testicular",
+        "Epididimitis aguda",
+        "Torsión testicular",
+        "Quiste de epidídimo",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.",
+      "comentario": "El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.",
+      "tema": "Escroto agudo",
+      "año": 2020
+    },
+    {
+      "id": "NEF-010",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 56 años, diabético acude a control. Antecedente: filtrado glomerular 20 ml/min/1.73 m², anemia en tratamiento con eritropoyetina. Laboratorio: hemoglobina 9.7 g/dl, hematocrito 32.4 %, ferritina 56 ng/ml, índice de saturación de la transferrina del 12 %. ¿Qué tratamiento se debe continuar?",
+      "opciones": [
+        "Administrar hierro y mantener la misma dosis de eritropoyetina.",
+        "Aumentar solo la dosis de eritropoyetina.",
+        "Suspender la eritropoyetina y administrar hierro.",
+        "Transfundir paquete globular",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta anemia en el contexto de enfermedad renal crónica avanzada y tratamiento con eritropoyetina. Sin embargo, los parámetros de hierro muestran deficiencia funcional (ferritina <100 ng/ml e índice de saturación <20%). Para que la eritropoyetina sea eficaz, es necesario corregir primero la deficiencia de hierro. Por ello, se debe administrar hierro y mantener la misma dosis de eritropoyetina. El monitoreo periódico de estos parámetros es fundamental en la ERC.",
+      "comentario": "El paciente presenta anemia en el contexto de enfermedad renal crónica avanzada y tratamiento con eritropoyetina. Sin embargo, los parámetros de hierro muestran deficiencia funcional (ferritina <100 ng/ml e índice de saturación <20%). Para que la eritropoyetina sea eficaz, es necesario corregir primero la deficiencia de hierro. Por ello, se debe administrar hierro y mantener la misma dosis de eritropoyetina. El monitoreo periódico de estos parámetros es fundamental en la ERC.",
+      "tema": "Anemia en enfermedad renal crónica",
+      "año": 2020
+    },
+    {
+      "id": "NEF-011",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Obrero de construcción civil de 25 años, es aplastado por una pared. Lo rescatan después de 36 horas inconsciente. Examen: múltiples hematomas. Laboratorio: urea de 200 mg/dL, creatinina de 6 mg/dL, ácido úrico de 10 mg/dL y CPK de 1500 U/ml. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Necrosis tubular aguda por AINES",
+        "Fracaso renal agudo por rabdomiolisis",
+        "Fracaso renal agudo por uratos",
+        "Necrosis tubular aguda por hemólisis",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta datos compatibles con rabdomiolisis severa por síndrome de aplastamiento: CPK elevada, urea y creatinina elevadas, y ácido úrico aumentado. Estos hallazgos, junto con el antecedente traumático, explican un fracaso renal agudo secundario a liberación masiva de mioglobina. La necrosis tubular aguda es el mecanismo fisiopatológico. El manejo incluye hidratación intensiva, corrección de alteraciones hidroelectrolíticas y vigilancia de función renal. Es un caso clásico de lesión renal postraumática.",
+      "comentario": "El paciente presenta datos compatibles con rabdomiolisis severa por síndrome de aplastamiento: CPK elevada, urea y creatinina elevadas, y ácido úrico aumentado. Estos hallazgos, junto con el antecedente traumático, explican un fracaso renal agudo secundario a liberación masiva de mioglobina. La necrosis tubular aguda es el mecanismo fisiopatológico. El manejo incluye hidratación intensiva, corrección de alteraciones hidroelectrolíticas y vigilancia de función renal. Es un caso clásico de lesión renal postraumática.",
+      "tema": "Rabdomiólisis y lesión renal aguda",
+      "año": 2020
+    },
+    {
+      "id": "NEF-012",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años con diagnóstico de glomeruloesclerosis nodular, acude al consultorio por anasarca. Examen: PA: 160/90 mmHg, FC: 90 x′. Laboratorio: urea: 32 mg/dL, creatinina: 0.9 mg/dL. Proteínas en orina: 4 gr/24 horas. ¿Cuál sería el medicamento indicado?",
+      "opciones": [
+        "Captopril",
+        "Propranolol",
+        "Tiazidas",
+        "Amlodipino",
+        "Ciprofloxacino"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente presenta un síndrome nefrótico con proteinuria masiva y antecedentes compatibles con nefropatía diabética. El tratamiento de elección incluye IECAs como captopril, que disminuyen la proteinuria al reducir la presión intraglomerular. Además, ofrecen beneficio en el control de la hipertensión y protección renal a largo plazo. No se indica propranolol ni diuréticos como primera línea sin edema severo. El control de presión y proteinuria es prioritario para evitar progresión a enfermedad renal crónica.",
+      "comentario": "El paciente presenta un síndrome nefrótico con proteinuria masiva y antecedentes compatibles con nefropatía diabética. El tratamiento de elección incluye IECAs como captopril, que disminuyen la proteinuria al reducir la presión intraglomerular. Además, ofrecen beneficio en el control de la hipertensión y protección renal a largo plazo. No se indica propranolol ni diuréticos como primera línea sin edema severo. El control de presión y proteinuria es prioritario para evitar progresión a enfermedad renal crónica.",
+      "tema": "Nefropatía diabética",
+      "año": 2020
+    },
+    {
+      "id": "NEF-013",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 39 años en emergencia, llevado por un familiar. Refiere que la noche previa estuvo en fiesta patronal e ingirió abundante licor. Hacia el mediodía manifestó visión borrosa y hace unas horas que no despierta. Al examen: presenta respiración profunda, ECG sin focalización, gasometría: pH 6.8, HCO₃⁻ 7 mEq/L, PaO₂ 78 mmHg. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        "Consumo de benzodiazepinas",
+        "Encefalopatía hepática grado II",
+        "Intoxicación por CO",
+        "Intoxicación por metanol",
+        "Ceftriaxona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con acidosis metabólica severa (pH 6.8, HCO₃⁻ 7), visión borrosa y antecedentes de ingesta alcohólica sugiere intoxicación por metanol, frecuente en alcoholes adulterados. El metanol se metaboliza a ácido fórmico, causante de acidosis grave y daño ocular. La respiración profunda (Kussmaul) es compensatoria. La intoxicación por CO no genera acidosis tan severa. Las benzodiacepinas no producen alteraciones visuales ni acidosis. Encefalopatía hepática suele acompañarse de signos neurológicos focales. Por ello, el diagnóstico más probable es intoxicación por metanol.",
+      "comentario": "Paciente con acidosis metabólica severa (pH 6.8, HCO₃⁻ 7), visión borrosa y antecedentes de ingesta alcohólica sugiere intoxicación por metanol, frecuente en alcoholes adulterados. El metanol se metaboliza a ácido fórmico, causante de acidosis grave y daño ocular. La respiración profunda (Kussmaul) es compensatoria. La intoxicación por CO no genera acidosis tan severa. Las benzodiacepinas no producen alteraciones visuales ni acidosis. Encefalopatía hepática suele acompañarse de signos neurológicos focales. Por ello, el diagnóstico más probable es intoxicación por metanol.",
+      "tema": "Intoxicación por metanol y acidosis metabólica",
+      "año": 2020
+    },
+    {
+      "id": "NEF-014",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 14 años que acude por hinchazón y dolor de escroto derecho. Al examen: testículo aumentado de tamaño y doloroso. Prueba de transiluminación (+). ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hidrocele",
+        "Criptorquidia",
+        "Seminoma",
+        "Torsión",
+        "Apendicitis aguda"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Adolescente con aumento de volumen escrotal, dolor, transiluminación positiva, sugiere la presencia de líquido alrededor del testículo, compatible con hidrocele. Este se caracteriza por la acumulación de líquido en la túnica vaginal, que permite el paso de luz en el examen. La torsión testicular generalmente no transilumina y es una urgencia quirúrgica. El seminoma es raro a esta edad, y la criptorquidia se presenta como testículo no palpable, no como aumento de volumen. La respuesta correcta es A: hidrocele.",
+      "comentario": "Adolescente con aumento de volumen escrotal, dolor, transiluminación positiva, sugiere la presencia de líquido alrededor del testículo, compatible con hidrocele. Este se caracteriza por la acumulación de líquido en la túnica vaginal, que permite el paso de luz en el examen. La torsión testicular generalmente no transilumina y es una urgencia quirúrgica. El seminoma es raro a esta edad, y la criptorquidia se presenta como testículo no palpable, no como aumento de volumen. La respuesta correcta es A: hidrocele.",
+      "tema": "Hidrocele",
+      "año": 2020
+    },
+    {
+      "id": "NEF-015",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Mujer de 56 años, ingresa a emergencia por dolor intenso, hematuria y fiebre. Antecedente: infecciones urinarias a repetición. Al Examen: PPLD (+) y PRUSD (+). Varios urocultivos: proteus sp. UROTEM: litiasis coraliforme en riñón derecho. ¿Cuál es la composición probable del cálculo renal?",
+      "opciones": [
+        "Oxalato cálcico",
+        "Estruvita",
+        "Ácido úrico",
+        "Urato de amonio",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer con litiasis coraliforme, infecciones urinarias recurrentes y cultivo con Proteus, que es un productor de ureasa. Este ambiente favorece la formación de cálculos de estruvita (fosfato amónico magnésico). La urea se convierte en amoníaco, elevando el pH urinario y precipitando estos cristales. Es característico que formen litiasis de gran tamaño, tipo coraliformes. Oxalato cálcico y ácido úrico son más comunes, pero no se asocian a infecciones por ureasa positiva.",
+      "comentario": "Mujer con litiasis coraliforme, infecciones urinarias recurrentes y cultivo con Proteus, que es un productor de ureasa. Este ambiente favorece la formación de cálculos de estruvita (fosfato amónico magnésico). La urea se convierte en amoníaco, elevando el pH urinario y precipitando estos cristales. Es característico que formen litiasis de gran tamaño, tipo coraliformes. Oxalato cálcico y ácido úrico son más comunes, pero no se asocian a infecciones por ureasa positiva.",
+      "tema": "Litiasis coraliforme de estruvita",
+      "año": 2020
+    },
+    {
+      "id": "NEF-016",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 35 años operado en la infancia por presentar criptorquidia. Hace dos meses nota tumoración en el testículo derecho de 3x3 cm indoloro. La ecografía documenta dicha tumoración. No se palpan ganglios inguinales. ¿Cuál es su sospecha diagnóstica?",
+      "opciones": [
+        "Cáncer testicular",
+        "Linfoma",
+        "Hernia inguinal",
+        "Hidrocele",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La criptorquidia es un importante factor de riesgo para cáncer testicular, incluso si fue corregida quirúrgicamente en la infancia. Un adulto joven con masa testicular indolora, sólida y sin ganglios palpables debe hacer sospechar fuertemente neoplasia testicular, siendo el seminoma el tipo más común. El linfoma testicular es más frecuente en adultos mayores. La hernia inguinal o hidrocele no se presentan como una masa sólida intratesticular. Por tanto, el antecedente clínico y la presentación sugieren fuertemente un cáncer testicular.",
+      "comentario": "La criptorquidia es un importante factor de riesgo para cáncer testicular, incluso si fue corregida quirúrgicamente en la infancia. Un adulto joven con masa testicular indolora, sólida y sin ganglios palpables debe hacer sospechar fuertemente neoplasia testicular, siendo el seminoma el tipo más común. El linfoma testicular es más frecuente en adultos mayores. La hernia inguinal o hidrocele no se presentan como una masa sólida intratesticular. Por tanto, el antecedente clínico y la presentación sugieren fuertemente un cáncer testicular.",
+      "tema": "Cáncer testicular y criptorquidia",
+      "año": 2020
+    },
+    {
+      "id": "NEF-017",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Escolar presenta bruscamente dolor en testículo derecho. Examen: tumefacción y dolor a la palpación escrotal con reflejo cremasteriano ausente. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Epididimitis",
+        "Torsión testicular",
+        "Orquitis urleana",
+        "Varicocele",
+        "Tuberculosis"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Un escolar con dolor testicular súbito, tumefacción y reflejo cremastérico ausente sugiere torsión testicular, una urgencia quirúrgica. La torsión implica compromiso del flujo sanguíneo y pone en riesgo la viabilidad del testículo. Es fundamental un diagnóstico precoz para evitar necrosis y pérdida irreversible. La exploración física es clave, aunque la ecografía Doppler puede ayudar. El tratamiento inmediato es la cirugía para destorcer y fijar el testículo afectado. El pronóstico mejora significativamente con intervención rápida. Esta patología debe ser reconocida de inmediato por pediatras y urgenciólogos.",
+      "comentario": "Un escolar con dolor testicular súbito, tumefacción y reflejo cremastérico ausente sugiere torsión testicular, una urgencia quirúrgica. La torsión implica compromiso del flujo sanguíneo y pone en riesgo la viabilidad del testículo. Es fundamental un diagnóstico precoz para evitar necrosis y pérdida irreversible. La exploración física es clave, aunque la ecografía Doppler puede ayudar. El tratamiento inmediato es la cirugía para destorcer y fijar el testículo afectado. El pronóstico mejora significativamente con intervención rápida. Esta patología debe ser reconocida de inmediato por pediatras y urgenciólogos.",
+      "tema": "Torsión testicular",
+      "año": 2020
+    },
+    {
+      "id": "NEF-018",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 62 años consulta por edema de MMII. Antecedente de artritis reumatoide hace 27 años. Laboratorio: VSG 110 mm/h, albúmina 2,4 g/dL, creatinina 2,1 mg/dL y proteinuria 6 g/24 h. Bx renal: tinción de rojo de Congo (+). ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Vasculitis reumatoide",
+        "Nefropatía por AINES",
+        "Amiloidosis secundaria",
+        "Glomerulonefritis focal y segmentaria",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con artritis reumatoide de larga evolución, que ahora presenta síndrome nefrótico (edema, hipoalbuminemia, proteinuria en rango nefrótico) y disfunción renal. El hallazgo clave es la positividad de la tinción con rojo Congo, que indica depósitos de amiloide. En este contexto, se trata de una amiloidosis secundaria (AA), una complicación conocida de enfermedades inflamatorias crónicas. El diagnóstico se confirma por biopsia. La vasculitis reumatoide no cursa con estos hallazgos renales. La nefropatía por AINES suele causar lesión intersticial.",
+      "comentario": "Paciente con artritis reumatoide de larga evolución, que ahora presenta síndrome nefrótico (edema, hipoalbuminemia, proteinuria en rango nefrótico) y disfunción renal. El hallazgo clave es la positividad de la tinción con rojo Congo, que indica depósitos de amiloide. En este contexto, se trata de una amiloidosis secundaria (AA), una complicación conocida de enfermedades inflamatorias crónicas. El diagnóstico se confirma por biopsia. La vasculitis reumatoide no cursa con estos hallazgos renales. La nefropatía por AINES suele causar lesión intersticial.",
+      "tema": "Amiloidosis secundaria renal",
+      "año": 2021
+    },
+    {
+      "id": "NEF-019",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 26 años con diagnóstico de insuficiencia renal crónica, desde hace 3 días dolor precordial intenso que empeora con la inspiración profunda. Al examen: PA: 100/70 mmHg, FC: 98 x´, ruidos cardíacos disminuidos de intensidad, frote pericárdico. Laboratorio: creatinina: 5 mg/dL, K 5.4 mEq/L. ¿Cuál es el tratamiento inmediato?",
+      "opciones": [
+        "Hemodiálisis",
+        "Corticoides",
+        "Pericardiectomía",
+        "Gluconato de calcio",
+        "Ceftriaxona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer con enfermedad renal crónica que presenta dolor torácico pleurítico, ruidos cardíacos apagados y frote pericárdico, cuadro compatible con pericarditis urémica, una complicación común en pacientes con uremia avanzada. La creatinina elevada (5 mg/dL) respalda esta sospecha. En estos casos, el tratamiento de elección es la hemodiálisis, ya que reduce las toxinas urémicas responsables de la inflamación pericárdica. Los corticoides no son primera línea, y la pericardiectomía es una opción en casos crónicos o con taponamiento. El gluconato de calcio no es relevante en este contexto.",
+      "comentario": "Mujer con enfermedad renal crónica que presenta dolor torácico pleurítico, ruidos cardíacos apagados y frote pericárdico, cuadro compatible con pericarditis urémica, una complicación común en pacientes con uremia avanzada. La creatinina elevada (5 mg/dL) respalda esta sospecha. En estos casos, el tratamiento de elección es la hemodiálisis, ya que reduce las toxinas urémicas responsables de la inflamación pericárdica. Los corticoides no son primera línea, y la pericardiectomía es una opción en casos crónicos o con taponamiento. El gluconato de calcio no es relevante en este contexto.",
+      "tema": "Pericarditis urémica",
+      "año": 2021
+    },
+    {
+      "id": "NEF-020",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 35 años en segundo dia postoperatorio presenta neumonía intrahospitalaria y recibe ceftazidima. En su quinto día oliguria, hematuria macroscópica Laboratorio: creatinina 2,4 mg/dL, proteinuria de 2 g/24 h, sedimento urinario: hematíes deformados y algunos eosinófilos y complemento sérico: normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Glomerulonefritis postinfecciosa",
+        "Síndrome pulmón-riñón",
+        "Nefritis intersticial aguda",
+        "Glomerulonefritis membranosa",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con antibióticoterapia reciente y aparición de insuficiencia renal aguda con hematuria, proteinuria y sedimento urinario activo que muestra eosinófilos, hallazgo característico de nefritis intersticial aguda (NIA). Esta entidad suele ser secundari a a fármacos, especialmente antibióticos como la ceftazidima. El complemento normal ayuda a diferenciarla de glomerulonefritis post infecciosas o autoinmunes. Además, el inicio en pocos días tras la exposición y la presencia de eosinofilia urinaria son datos diagnósticos clave. No hay datos suficientes para pensar en síndrome pulmón-riñón.",
+      "comentario": "Paciente con antibióticoterapia reciente y aparición de insuficiencia renal aguda con hematuria, proteinuria y sedimento urinario activo que muestra eosinófilos, hallazgo característico de nefritis intersticial aguda (NIA). Esta entidad suele ser secundari a a fármacos, especialmente antibióticos como la ceftazidima. El complemento normal ayuda a diferenciarla de glomerulonefritis post infecciosas o autoinmunes. Además, el inicio en pocos días tras la exposición y la presencia de eosinofilia urinaria son datos diagnósticos clave. No hay datos suficientes para pensar en síndrome pulmón-riñón.",
+      "tema": "Nefritis intersticial aguda por fármacos",
+      "año": 2021
+    },
+    {
+      "id": "NEF-021",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "¿Cuáles son los fármacos de primera línea utilizados en el tratamiento de la hipertrofia benigna de próstata sintomática?",
+      "opciones": [
+        "Bloqueadores alfa selectivos / Inhibidores de la 5 alfa Reductasa",
+        "Bloqueadores Beta / Anticolinérgicos",
+        "Antiespasmódicos / Miorelajantes",
+        "Corticoides / Antiespasmódicos",
+        "Azitromicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La hiperplasia prostática benigna (HPB) es una patología frecuente en varones mayores de 50 años y se presenta clínicamente con síntomas obstructivos urinarios: nicturia, disminución del calibre del chorro urinario, pujo y sensación de vaciamiento incompleto. El manejo farmacológico de primera línea se basa en dos grupos clave: los bloqueadores alfa -1 selectivos (como tamsulosina), que relajan el músculo liso del cuello vesical y la próstata para mejorar el flujo urinario, y los inhibidores de la 5 alfa reductasa (como finasteride), que reducen el volumen prostático al disminuir la conversión de testosterona a dihidrotestosterona. Los betabloqueadores, antiespasmódicos o corticoides no tienen indicación en este contexto. La elección del tratamiento se adapta a la severidad del cuadro clínico, volumen prostático y tolerancia del paciente.",
+      "comentario": "La hiperplasia prostática benigna (HPB) es una patología frecuente en varones mayores de 50 años y se presenta clínicamente con síntomas obstructivos urinarios: nicturia, disminución del calibre del chorro urinario, pujo y sensación de vaciamiento incompleto. El manejo farmacológico de primera línea se basa en dos grupos clave: los bloqueadores alfa -1 selectivos (como tamsulosina), que relajan el músculo liso del cuello vesical y la próstata para mejorar el flujo urinario, y los inhibidores de la 5 alfa reductasa (como finasteride), que reducen el volumen prostático al disminuir la conversión de testosterona a dihidrotestosterona. Los betabloqueadores, antiespasmódicos o corticoides no tienen indicación en este contexto. La elección del tratamiento se adapta a la severidad del cuadro clínico, volumen prostático y tolerancia del paciente.",
+      "tema": "Hiperplasia benigna de próstata: tratamiento",
+      "año": 2021
+    },
+    {
+      "id": "NEF-022",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 45 años, con dolor precordial y taquicardia. EKG: complejo QRS ancho e imperfecto, ondas T muy altas, delgadas y puntiagudas. ¿Cuál alteración electrolítica sería responsable de estas alteraciones?",
+      "opciones": [
+        "Hipernatremia",
+        "Hipercalcemia",
+        "Hiperpotasemia",
+        "Hipopotasemia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El patrón electrocardiográfico descrito es característico de hiperpotasemia, una urgencia médica que afecta directamente la conducción eléctrica del corazón. Los signos tempranos incluyen ondas T picudas, altas y simétricas, progresando a ensanchamiento de l QRS, pérdida de ondas P y fibrilación ventricular si no se corrige. Clínicamente, puede cursar con dolor torácico y arritmias. La hiponatremia y la hipocalcemia tienen otras manifestaciones en el EKG, mientras que la hipopotasemia produce ondas T planas, ondas U y taquiarritmias ventriculares, no lo que se describe en el caso. El diagnóstico de hiperpotasemia debe llevar a un tratamiento inmediato para evitar complicaciones letales como paro cardíaco. Este caso ilustra una presentación típica con signos electrocardiográficos clásicos.",
+      "comentario": "El patrón electrocardiográfico descrito es característico de hiperpotasemia, una urgencia médica que afecta directamente la conducción eléctrica del corazón. Los signos tempranos incluyen ondas T picudas, altas y simétricas, progresando a ensanchamiento de l QRS, pérdida de ondas P y fibrilación ventricular si no se corrige. Clínicamente, puede cursar con dolor torácico y arritmias. La hiponatremia y la hipocalcemia tienen otras manifestaciones en el EKG, mientras que la hipopotasemia produce ondas T planas, ondas U y taquiarritmias ventriculares, no lo que se describe en el caso. El diagnóstico de hiperpotasemia debe llevar a un tratamiento inmediato para evitar complicaciones letales como paro cardíaco. Este caso ilustra una presentación típica con signos electrocardiográficos clásicos.",
+      "tema": "Hiperpotasemia: electrocardiograma",
+      "año": 2021
+    },
+    {
+      "id": "NEF-023",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 65 años, 06 horas post prostatectomía presenta hematuria e hipotensión sostenida por 4 horas. En las siguientes dos horas oligoanuria. Examen de orina: cilindros granulosos, Hb: 9 g/dl, urea y creatinina en sangre indican duplicación de la creatinina basal (de 1.2 a 2.4 mg/dl). ¿Cuál será el manejo prioritario?",
+      "opciones": [
+        "Mantener volumen arterial efectivo",
+        "Hemotransfusión para llevar hemoglobina a 10 g/dl",
+        "Furosemida 120 mg en bolo",
+        "Terapia de remplazo renal urgente",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente posquirúrgico con evidencia de sangrado activo (hematuria + Hb 9 g/dl), asociado a hipotensión sostenida y posterior oligoanuria, lo cual indica una probable lesión renal aguda prerrenal por hipoperfusión secundaria a hipovolemia. La duplicación de la creatinina basal y la aparición de cilindros granulosos apoyan esta interpretación. El objetivo inmediato debe ser restaurar el volumen arterial efectivo para revertir el compromiso renal. Furosemida está contraindicada en este contexto, pues no trata la causa subyacente. La terapia de remplazo renal se reserva para fracaso establecido o complicaciones refractarias. Por tanto, el manejo prioritario es reponer el volumen efectivo circulante, con cristaloides y transfusión si es necesario.",
+      "comentario": "Paciente posquirúrgico con evidencia de sangrado activo (hematuria + Hb 9 g/dl), asociado a hipotensión sostenida y posterior oligoanuria, lo cual indica una probable lesión renal aguda prerrenal por hipoperfusión secundaria a hipovolemia. La duplicación de la creatinina basal y la aparición de cilindros granulosos apoyan esta interpretación. El objetivo inmediato debe ser restaurar el volumen arterial efectivo para revertir el compromiso renal. Furosemida está contraindicada en este contexto, pues no trata la causa subyacente. La terapia de remplazo renal se reserva para fracaso establecido o complicaciones refractarias. Por tanto, el manejo prioritario es reponer el volumen efectivo circulante, con cristaloides y transfusión si es necesario.",
+      "tema": "Lesión renal aguda prerrenal posoperatoria",
+      "año": 2021
+    },
+    {
+      "id": "NEF-024",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 76 años, hospitalizado desde hace 4 días por presentar diarreas profusas. Se indica dextrosa al 5% en agua destilada 3,000 ml/día y 3 litros de agua libre por boca por día. Al tercer día: lenguaje incoherente y somnolencia progresiva hasta llegar al coma. ¿Cuál sería la medida inicial?",
+      "opciones": [
+        "Dosaje de sodio en sangre",
+        "Resonancia magnética cerebral",
+        "Dosaje de amonio en sangre",
+        "Punción lumbar",
+        "Electrocardiograma"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente adulto mayor hospitalizado por diarrea, que recibe líquidos hipotónicos (DAD5% y agua libre), desarrollando progresivamente alteración del sensorio hasta llegar al coma. Este cuadro sugiere una hiponatremia dilucional aguda, común cuando se administran grandes volúmenes sin control electrolítico. La hiponatremia severa (<120 mEq/L) puede provocar edema cerebral y disfunción neurológica. El paso inmediato es confirmar la sospecha con un dosaje de sodio sérico, lo que permitirá indicar corrección cuidadosa. Las demás opciones (RM, punción lumbar, amonio) no son útiles en el contexto agudo descrito. Medida inmediata: dosaje de sodio en sangre.",
+      "comentario": "Paciente adulto mayor hospitalizado por diarrea, que recibe líquidos hipotónicos (DAD5% y agua libre), desarrollando progresivamente alteración del sensorio hasta llegar al coma. Este cuadro sugiere una hiponatremia dilucional aguda, común cuando se administran grandes volúmenes sin control electrolítico. La hiponatremia severa (<120 mEq/L) puede provocar edema cerebral y disfunción neurológica. El paso inmediato es confirmar la sospecha con un dosaje de sodio sérico, lo que permitirá indicar corrección cuidadosa. Las demás opciones (RM, punción lumbar, amonio) no son útiles en el contexto agudo descrito. Medida inmediata: dosaje de sodio en sangre.",
+      "tema": "Hiponatremia hospitalaria",
+      "año": 2021
+    },
+    {
+      "id": "NEF-025",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Diabético de 56 años, con enfermedad renal crónica estadio 4, evaluado por presentar debilidad generalizada y potasio sérico de 7 mEq/L, con alteraciones electrocardiográficas de la onda T y sensorio cambiante entre depresión y sopor. ¿Cuál es la primera medida de urgencia a tomar?",
+      "opciones": [
+        "Resinas de intercambio catiónico",
+        "Gluconato cálcico endovenoso",
+        "Catéter para iniciar diálisis",
+        "Furosemida parenteral",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente diabético con ERC estadio 4 presenta hiperpotasemia severa (K: 7 mEq/L), alteraciones en el ECG (ondas T picudas), y compromiso del sensorio. Este es un cuadro de urgencia médica, ya que el potasio elevado desestabiliza la conducción cardíaca. La medida más urgente y prioritaria no es eliminar el potasio, sino estabilizar la membrana miocárdica, lo cual se logra con gluconato de calcio EV. Las resinas, diálisis o furosemida ayudan a eliminar potasio, pero no actúan de inmediato. Por eso, la primera medida de urgencia es: gluconato cálcico endovenoso.",
+      "comentario": "Paciente diabético con ERC estadio 4 presenta hiperpotasemia severa (K: 7 mEq/L), alteraciones en el ECG (ondas T picudas), y compromiso del sensorio. Este es un cuadro de urgencia médica, ya que el potasio elevado desestabiliza la conducción cardíaca. La medida más urgente y prioritaria no es eliminar el potasio, sino estabilizar la membrana miocárdica, lo cual se logra con gluconato de calcio EV. Las resinas, diálisis o furosemida ayudan a eliminar potasio, pero no actúan de inmediato. Por eso, la primera medida de urgencia es: gluconato cálcico endovenoso.",
+      "tema": "Hiperpotasemia grave: gluconato de calcio",
+      "año": 2021
+    },
+    {
+      "id": "NEF-026",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "En el último temblor de Piura una pared aplastó a un varón de 56 años, es rescatado por los bomberos que lo encuentran inconsciente. Al examen: múltiples hematomas en todo el cuerpo. A las 72 horas se encuentra urea: 200 mg/dL, creatinina: 6 mg/dL, ácido úrico: 10 mg/dL y CPK: 1500 U/L. El diagnóstico más probable es:",
+      "opciones": [
+        "Fracaso renal agudo por rabdomiólisis",
+        "Fracaso renal agudo por urato",
+        "Necrosis tubular aguda por hemólisis",
+        "Insuficiencia renal aguda por embolia grasa",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón aplastado durante un sismo, con múltiples lesiones corporales. A las 72 horas desarrolla azotemia severa (urea y creatinina elevadas), hiperuricemia y CPK elevada, lo cual es altamente sugestivo de rabdomiólisis traumática. La destrucción muscular masiva libera mioglobina, que es nefrotóxica y precipita en los túbulos renales, generando necrosis tubular aguda. El manejo precoz y agresivo con hidratación podría evitar esta evolución. El contexto clínico y laboratorial apunta con claridad a un fracaso renal agudo por rabdomiólisis como la causa más probable.",
+      "comentario": "Varón aplastado durante un sismo, con múltiples lesiones corporales. A las 72 horas desarrolla azotemia severa (urea y creatinina elevadas), hiperuricemia y CPK elevada, lo cual es altamente sugestivo de rabdomiólisis traumática. La destrucción muscular masiva libera mioglobina, que es nefrotóxica y precipita en los túbulos renales, generando necrosis tubular aguda. El manejo precoz y agresivo con hidratación podría evitar esta evolución. El contexto clínico y laboratorial apunta con claridad a un fracaso renal agudo por rabdomiólisis como la causa más probable.",
+      "tema": "Rabdomiólisis por aplastamiento",
+      "año": 2021
+    },
+    {
+      "id": "NEF-027",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 15 años, acude al centro de salud por presentar aumento de volumen y de consistencia del testículo derecho, indoloro. Transiluminación negativa. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Orcoepididimitis viral",
+        "Hidrocele congénita",
+        "Cáncer de testículo",
+        "Torsión testicular",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En varones jóvenes entre 15 y 35 años, el aumento indoloro del volumen testicular debe hacer sospechar inmediatamente un tumor testicular hasta no demostrar lo contrario. La transiluminación negativa permite descartar hidrocele, y la ausencia de dolor o signos inflamatorios aleja una orquiepididimitis o torsión. El cáncer testicular más frecuente a esta edad es el seminoma o tumor de células germinales, y su presentación típica es como una masa sólida, firme, no dolorosa. El diagnóstico debe ser confirmado con ecografía testicular, que mostrará una masa hipoecoica sólida, y se completa con marcadores tumorales (AFP, β-HCG, LDH). Este caso representa una presentación clínica clásica de neoplasia testicular, lo que lo convierte en una emergencia urológica diferida, que debe abordarse con rapidez, pero sin biopsia previa.",
+      "comentario": "En varones jóvenes entre 15 y 35 años, el aumento indoloro del volumen testicular debe hacer sospechar inmediatamente un tumor testicular hasta no demostrar lo contrario. La transiluminación negativa permite descartar hidrocele, y la ausencia de dolor o signos inflamatorios aleja una orquiepididimitis o torsión. El cáncer testicular más frecuente a esta edad es el seminoma o tumor de células germinales, y su presentación típica es como una masa sólida, firme, no dolorosa. El diagnóstico debe ser confirmado con ecografía testicular, que mostrará una masa hipoecoica sólida, y se completa con marcadores tumorales (AFP, β-HCG, LDH). Este caso representa una presentación clínica clásica de neoplasia testicular, lo que lo convierte en una emergencia urológica diferida, que debe abordarse con rapidez, pero sin biopsia previa.",
+      "tema": "Cáncer testicular",
+      "año": 2021
+    },
+    {
+      "id": "NEF-028",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 40 años, acude a consulta por dolor lumbar derecho tipo cólico de 2 meses de evolución, en ocasiones intenso dolor que se irradia a los genitales. Examen: puño percusión positiva derecha. Punto renoureteral medio y alto derecho positivo. ¿Cuál sería el medio diagnóstico por imágenes de elección para identificar el origen?",
+      "opciones": [
+        "Tomografía Helicoidal",
+        "Radiografía abdomen",
+        "Ecografía Abdominal",
+        "Urografía excretora",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico descrito corresponde a una litiasis renal sintomática, probablemente obstructiva, por el dolor tipo cólico que irradia al área genital, además del signo de puño percusión positiva y puntos renoureterales dolorosos. En este contexto, la tomografía helicoidal sin contraste es el estudio de elección, ya que permite identificar cálculos desde la pelvis renal hasta la vejiga, medir su tamaño, localización y grado de obstrucción. La radiografía de abdomen es poco sensible y la ecografía, aunque útil en emergencia, tiene baja sensibilidad para cálculos ureterales. La urografía excretora ha caído en desuso. En suma, por su alta sensibilidad y especificidad, la TAC helicoidal sin contraste es la prueba ideal para el diagnóstico etiológico y planificación terapéutica.",
+      "comentario": "El cuadro clínico descrito corresponde a una litiasis renal sintomática, probablemente obstructiva, por el dolor tipo cólico que irradia al área genital, además del signo de puño percusión positiva y puntos renoureterales dolorosos. En este contexto, la tomografía helicoidal sin contraste es el estudio de elección, ya que permite identificar cálculos desde la pelvis renal hasta la vejiga, medir su tamaño, localización y grado de obstrucción. La radiografía de abdomen es poco sensible y la ecografía, aunque útil en emergencia, tiene baja sensibilidad para cálculos ureterales. La urografía excretora ha caído en desuso. En suma, por su alta sensibilidad y especificidad, la TAC helicoidal sin contraste es la prueba ideal para el diagnóstico etiológico y planificación terapéutica.",
+      "tema": "Litiasis urinaria: tomografía helicoidal",
+      "año": 2021
+    },
+    {
+      "id": "NEF-029",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 23 años sufre atricción por caída de pared sobre ambos miembros inferiores, luego de unas horas es llevado de emergencia por presentar oligoanuria. ¿Qué examen requiere para establecer el diagnóstico?",
+      "opciones": [
+        "Hematocrito seriado",
+        "Sedimento urinario",
+        "CPK total",
+        "Sodio sérico",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente ha sufrido un síndrome de aplastamiento (crush syndrome), lo que implica daño muscular extenso con liberación masiva de mioglobina y enzimas musculares. Esto puede llevar a insuficiencia renal aguda por mioglobinuria. El examen más útil para confirmar el daño muscular extenso es la CPK total, que se eleva significativamente en estos casos. La detección temprana permite iniciar hidratación agresiva y medidas preventivas de daño renal. El hematocrito, el sedimento urinario o el sodio sérico pueden aportar información, pero no son diagnósticos.",
+      "comentario": "El paciente ha sufrido un síndrome de aplastamiento (crush syndrome), lo que implica daño muscular extenso con liberación masiva de mioglobina y enzimas musculares. Esto puede llevar a insuficiencia renal aguda por mioglobinuria. El examen más útil para confirmar el daño muscular extenso es la CPK total, que se eleva significativamente en estos casos. La detección temprana permite iniciar hidratación agresiva y medidas preventivas de daño renal. El hematocrito, el sedimento urinario o el sodio sérico pueden aportar información, pero no son diagnósticos.",
+      "tema": "Síndrome de aplastamiento: CPK",
+      "año": 2021
+    },
+    {
+      "id": "NEF-030",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 22 años acude porque súbitamente presenta dolor lumbar izquierdo irradiado hacia región inguinal del mismo lado que no calma con analgésicos. Al examen PPL izquierdo +++. Examen de orina: hematíes 20 a 50 x campo, cilindros eritrocitarios y cristales de oxalato. ¿Cuál es el probable diagnóstico?",
+      "opciones": [
+        "Cistitis aguda",
+        "Litiasis vesical",
+        "Litiasis renal",
+        "Uretritis",
+        "Tuberculosis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Mujer joven que presenta dolor lumbar izquierdo de inicio súbito, irradiado a la ingle, que no mejora con analgésicos comunes. Al examen físico destaca puño- percusión lumbar positivo, lo cual orienta hacia una causa renal. El análisis de orina evidencia hematuria microscópica, cilindros eritrocitarios y cristales de oxalato, elementos sugestivos de litiasis renal. El cólico nefrítico es el cuadro clínico típico, caracterizado por dolor cólico intenso debido al paso de cálculos a través del uréter. El diagnó stico se confirma con ecografía renal o tomografía sin contraste. Se debe iniciar analgesia y valorar necesidad de derivación a urología.",
+      "comentario": "Mujer joven que presenta dolor lumbar izquierdo de inicio súbito, irradiado a la ingle, que no mejora con analgésicos comunes. Al examen físico destaca puño- percusión lumbar positivo, lo cual orienta hacia una causa renal. El análisis de orina evidencia hematuria microscópica, cilindros eritrocitarios y cristales de oxalato, elementos sugestivos de litiasis renal. El cólico nefrítico es el cuadro clínico típico, caracterizado por dolor cólico intenso debido al paso de cálculos a través del uréter. El diagnó stico se confirma con ecografía renal o tomografía sin contraste. Se debe iniciar analgesia y valorar necesidad de derivación a urología.",
+      "tema": "Litiasis renal: cólico nefrítico",
+      "año": 2021
+    },
+    {
+      "id": "NEF-031",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 64 años, ingresa por hemorragia digestiva severa. Al examen: PA 60/30 mmHg, FC 130 x', pálidez de piel y mucosas, resto normal. Hb 6 g/dL. Gastroendoscopia: úlcera sangrante. Los 3 primeros días con oligoanuria. Laboratorio: creatinina 2.9 mg/dL, Na plasmático 130 mEq/L, Na urinario 45 mEq/L. ¿Cuál es la causa más probable de la alteración renal?",
+      "opciones": [
+        "Insuficiencia post renal",
+        "Nefritis intersticial",
+        "Glomerulonefritis aguda",
+        "Necrosis tubular aguda",
+        "Asma bronquial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con sangrado digestivo severo, hipotensión (PA 60/30) y anemia marcada (Hb 6 g/dL), que en los primeros tres días desarrolla oligoanuria. El laboratorio revela creatinina elevada y sodio urinario alto (45 mEq/L), lo cual indica que los túbulos renales han perdido la capacidad de reabsor ber sodio. Esto no ocurre en una insuficiencia prerrenal, donde el Na urinario sería bajo. El diagnóstico más probable es necrosis tubular aguda, secundaria a hipoperfusión renal prolongada. Se descartan causas posrenales o glomerulares por el contexto clínico. La respuesta correcta es D.",
+      "comentario": "Paciente con sangrado digestivo severo, hipotensión (PA 60/30) y anemia marcada (Hb 6 g/dL), que en los primeros tres días desarrolla oligoanuria. El laboratorio revela creatinina elevada y sodio urinario alto (45 mEq/L), lo cual indica que los túbulos renales han perdido la capacidad de reabsor ber sodio. Esto no ocurre en una insuficiencia prerrenal, donde el Na urinario sería bajo. El diagnóstico más probable es necrosis tubular aguda, secundaria a hipoperfusión renal prolongada. Se descartan causas posrenales o glomerulares por el contexto clínico. La respuesta correcta es D.",
+      "tema": "Necrosis tubular aguda",
+      "año": 2022
+    },
+    {
+      "id": "NEF-032",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Mujer de 86 años, con hipotiroidismo en tratamiento, es traída a Emergencia por deterioro del estado general progresivo. Los familiares refieren que hace tres días se le administró laxantes salinos por estreñimiento hasta conseguir deposiciones líquidas. Al examen: PA 100/55 mmHg, FC 57 x', T 35 °C, rubor facial, reflejos hipoactivos. EKG: prolongación del intervalo PR, ensanchamiento del QRS. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Hipertiroidismo medicamentoso",
+        "Accidente cerebrovascular",
+        "Encefalopatía hipóxica",
+        "Hipermagnesemia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer de 86 años con hipotiroidismo tratado, que presenta deterioro progresivo tras uso de laxantes salinos, probablemente con contenido de magnesio. Llega con signos de bradicardia, hipotermia, hipotensión y reflejos hipoactivos, además de alteraciones en el EKG (PR prolongado, QRS ensanchado), hallazgo s compatibles con hipermagnesemia. En adultos mayores, los riñones tienen menor capacidad de excreción de magnesio, especialmente si hay deterioro renal funcional o uso de diuréticos o laxantes. La intoxicación con magnesio genera depresión del sistema nervioso central, bradicardia y trastornos de conducción eléctrica. El cuadro es incompatible con hipertiroidismo, ACV o encefalopatía hipóxica, que no presentan este patrón electrocardiográfico ni mejoran con supresión de magnesio.",
+      "comentario": "Mujer de 86 años con hipotiroidismo tratado, que presenta deterioro progresivo tras uso de laxantes salinos, probablemente con contenido de magnesio. Llega con signos de bradicardia, hipotermia, hipotensión y reflejos hipoactivos, además de alteraciones en el EKG (PR prolongado, QRS ensanchado), hallazgo s compatibles con hipermagnesemia. En adultos mayores, los riñones tienen menor capacidad de excreción de magnesio, especialmente si hay deterioro renal funcional o uso de diuréticos o laxantes. La intoxicación con magnesio genera depresión del sistema nervioso central, bradicardia y trastornos de conducción eléctrica. El cuadro es incompatible con hipertiroidismo, ACV o encefalopatía hipóxica, que no presentan este patrón electrocardiográfico ni mejoran con supresión de magnesio.",
+      "tema": "Hipermagnesemia por laxantes",
+      "año": 2022
+    },
+    {
+      "id": "NEF-033",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿A partir de cuantas unidades formadores de colonias (UFC) se considere el diagnóstico de infección urinaria?",
+      "opciones": [
+        "50 000",
+        "20 000",
+        "100 000",
+        "10 000",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El diagnóstico de infección urinaria se establece generalmente cuando se encuentra un crecimiento de 100,000 UFC/mL de un único microorganismo en el urocultivo. Este umbral es utilizado para diferenciar entre una infección significativa y una posible contaminación. Valores inferiores a 100,000 UFC/mL pueden ser indicativos de una infección urinaria en algunos casos, pero no siempre son concluyentes sin la presencia de síntomas clínicos.",
+      "comentario": "El diagnóstico de infección urinaria se establece generalmente cuando se encuentra un crecimiento de 100,000 UFC/mL de un único microorganismo en el urocultivo. Este umbral es utilizado para diferenciar entre una infección significativa y una posible contaminación. Valores inferiores a 100,000 UFC/mL pueden ser indicativos de una infección urinaria en algunos casos, pero no siempre son concluyentes sin la presencia de síntomas clínicos.",
+      "tema": "Urocultivo: 100 000 UFC/mL",
+      "año": 2023
+    },
+    {
+      "id": "NEF-034",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 35 años acude a emergencia por dolor lumbar intenso y orina roja. Examen facies dolorosas, PPL (+) derecho. Rx abdomen: cálculo radiopaco en riñón derecho. Laboratorio: orina: hematíes >100/campo. Calcio sérico: 8.8 mg/dl, fosforo sérico: 3.5 mg/dl y urocultivo subsiguiente fue negativo: ¿Cuál es el tipo de cálculo más probable en este cuadro?",
+      "opciones": [
+        "Estruvita",
+        "Ácido úrico",
+        "Cistina",
+        "Oxalato de calcio",
+        "Tramadol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico sugiere un cálculo renal de oxalato de calcio, el tipo más común de cálculo renal. La presencia de un cálculo radiopaco en la radiografía abdominal y el dolor lumbar intenso son típicos de los cálculos renales de oxalato de calcio. Además, la orina con hematíes >100/campo es indicativa de sangrado asociado con la obstrucción del tracto urinario. Los niveles de calcio sérico no elevados (8.8 mg/dl) y el urocultivo negativo descartan infecciones urinarias como causa de cálculos, como los de estruvita. Los cálculos de ácido úrico o cistina también son posibles, pero menos probables debido a la ausencia de factores predisponentes como la acidosis urinaria o los antecedentes de cistinuria.",
+      "comentario": "El cuadro clínico sugiere un cálculo renal de oxalato de calcio, el tipo más común de cálculo renal. La presencia de un cálculo radiopaco en la radiografía abdominal y el dolor lumbar intenso son típicos de los cálculos renales de oxalato de calcio. Además, la orina con hematíes >100/campo es indicativa de sangrado asociado con la obstrucción del tracto urinario. Los niveles de calcio sérico no elevados (8.8 mg/dl) y el urocultivo negativo descartan infecciones urinarias como causa de cálculos, como los de estruvita. Los cálculos de ácido úrico o cistina también son posibles, pero menos probables debido a la ausencia de factores predisponentes como la acidosis urinaria o los antecedentes de cistinuria.",
+      "tema": "Litiasis renal: oxalato de calcio",
+      "año": 2023
+    },
+    {
+      "id": "NEF-035",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 18 años que hace dos semanas presenta infección respiratoria alta, desde hace seis días edema de MMII y hematuria. Examen: PA: 150/100 mmHg. Laboratorio: creatinina: 1.2 mg/dl; orina cilindros hemáticos, proteínas: 1.2g/24 h. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Glomerulonefritis membranoproliferativa",
+        "Nefropatía por Ig A",
+        "Glomerulonefritis aguda postinfecciosa",
+        "Glomerulonefritis por lesiones mínimas",
+        "Cirrosis hepática"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta un cuadro clásico de glomerulonefritis aguda postinfecciosa, caracterizado por la aparición de hematuria, edema e hipertensión tras una infección respiratoria alta (frecuentemente por estreptococo beta hemolítico del grupo A ). El hallazgo de cilindros hemáticos y proteinuria refuerza el diagnóstico de síndrome nefrítico. Aunque la nefropatía por IgA también puede seguir a infecciones respiratorias, su presentación es más rápida (coincide o se da a las 24-48h). En cambio, la glomerulonefritis postinfecciosa aparece generalmente una a dos semanas después, como en este caso. La función renal aún está conservada (creatinina normal), lo cual es común en fases iniciales.",
+      "comentario": "El paciente presenta un cuadro clásico de glomerulonefritis aguda postinfecciosa, caracterizado por la aparición de hematuria, edema e hipertensión tras una infección respiratoria alta (frecuentemente por estreptococo beta hemolítico del grupo A ). El hallazgo de cilindros hemáticos y proteinuria refuerza el diagnóstico de síndrome nefrítico. Aunque la nefropatía por IgA también puede seguir a infecciones respiratorias, su presentación es más rápida (coincide o se da a las 24-48h). En cambio, la glomerulonefritis postinfecciosa aparece generalmente una a dos semanas después, como en este caso. La función renal aún está conservada (creatinina normal), lo cual es común en fases iniciales.",
+      "tema": "Glomerulonefritis aguda postinfecciosa",
+      "año": 2023
+    },
+    {
+      "id": "NEF-036",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 24 años, hace tres días presenta fiebre, disuria, polaquiuria asociada a retardo miccional y dolor en zona perineal. Examen: PPL negativa; dolor a la palpación en la exploración prostática. ¿Cuál es el diagnostico más probable?",
+      "opciones": [
+        "Absceso perianal",
+        "Pielonefritis aguda",
+        "Prostatitis aguda",
+        "Uretritis",
+        "Asma bronquial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente presenta síntomas urinarios bajos (disuria, polaquiuria, retardo miccional) y fiebre, junto con dolor prostático a la exploración. Esto es característico de una prostatitis aguda, una infección de la glándula prostática, generalmente de origen bacteriano.",
+      "comentario": "El paciente presenta síntomas urinarios bajos (disuria, polaquiuria, retardo miccional) y fiebre, junto con dolor prostático a la exploración. Esto es característico de una prostatitis aguda, una infección de la glándula prostática, generalmente de origen bacteriano.",
+      "tema": "Prostatitis aguda",
+      "año": 2023
+    },
+    {
+      "id": "NEF-037",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 58 años con antecedente de diabetes mellitus que acude a control anual. Examen: PA 140/90 mmHg, edema de MMII. Lab: depuración de creatinina 45 ml/min.; albúmina en orina 1g/24 h, K: 4.5 mEq/L. ¿Cuál es el medicamento indicado para disminuir la proteinuria?",
+      "opciones": [
+        "Atorvastatina",
+        "IECA",
+        "Insulina",
+        "Sulfonilurea",
+        "Diazepam"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Este paciente diabético de 58 años presenta datos de nefropatía diabética: depuración de creatinina disminuida (45 ml/min) y proteinuria significativa (1 g/24h), acompañados de hipertensión arterial y edema periférico. En este contexto, el objetivo terapéutico principal es reducir la proteinuria y enlentecer la progresión de la enfermedad renal. Los inhibidores de la enzima convertidora de angiotensina (IECA) son la primera línea de tratamiento, ya que disminuyen la presión intraglomerular y tienen efecto antiproteinúrico demostrado. Además, aportan beneficios cardiovasculares en pacientes diabéticos. Las estatinas (atorvastatina) no reducen directamente la proteinuria; su indicación es para dislipidemia. La insulina controla la glicemia, pero no detiene el daño renal. Las sulfonilureas pueden inducir hipoglicemia en pacientes con función renal comprometida. Por tanto, los IECA son el fármaco indicado en este caso. Se debe monitorear la función renal y los niveles de potasio al iniciar este tratamiento.",
+      "comentario": "Este paciente diabético de 58 años presenta datos de nefropatía diabética: depuración de creatinina disminuida (45 ml/min) y proteinuria significativa (1 g/24h), acompañados de hipertensión arterial y edema periférico. En este contexto, el objetivo terapéutico principal es reducir la proteinuria y enlentecer la progresión de la enfermedad renal. Los inhibidores de la enzima convertidora de angiotensina (IECA) son la primera línea de tratamiento, ya que disminuyen la presión intraglomerular y tienen efecto antiproteinúrico demostrado. Además, aportan beneficios cardiovasculares en pacientes diabéticos. Las estatinas (atorvastatina) no reducen directamente la proteinuria; su indicación es para dislipidemia. La insulina controla la glicemia, pero no detiene el daño renal. Las sulfonilureas pueden inducir hipoglicemia en pacientes con función renal comprometida. Por tanto, los IECA son el fármaco indicado en este caso. Se debe monitorear la función renal y los niveles de potasio al iniciar este tratamiento.",
+      "tema": "Nefropatía diabética: IECA",
+      "año": 2023
+    },
+    {
+      "id": "NEF-038",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 3 años refiere disminución del chorro urinario y nicturia. Refiere náusea, vómitos y fatiga desde hace 1 mes. Examen: PA 145/85 mmHg, FC 102 X', FR 20 X'; palidez terrosa. Lab: Hb 9 g/dL, creatinina: 3.5 mg/dL; ECO: próstata de 4x3x2 cm, con gran residuo vesical. ¿Cuál es el tratamiento definitivo?",
+      "opciones": [
+        "Resección transuretral prostática",
+        "Diálisis peritoneal",
+        "Sonda vesical intermitente",
+        "Transfusión de glóbulos rojos",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente muestra síntomas del tracto urinario inferior de larga evolución (nicturia, chorro disminuido) y signos de daño renal crónico posiblemente obstructivo (creatinina elevada, gran residuo vesical). La causa más probable es una obstrucción urinaria por HBP, confirmada por ecografía prostática. Aunque requiere manejo inmediato del residuo con sondaje, el tratamiento definitivo es la resección transuretral de próstata (RTU), que aliviará la obstrucción. La transfusión y la diálisis serían medidas de soporte según severidad, pero no resuelven la causa de fondo. Por tanto, la RTU es el tratamiento de elección definitivo.",
+      "comentario": "El paciente muestra síntomas del tracto urinario inferior de larga evolución (nicturia, chorro disminuido) y signos de daño renal crónico posiblemente obstructivo (creatinina elevada, gran residuo vesical). La causa más probable es una obstrucción urinaria por HBP, confirmada por ecografía prostática. Aunque requiere manejo inmediato del residuo con sondaje, el tratamiento definitivo es la resección transuretral de próstata (RTU), que aliviará la obstrucción. La transfusión y la diálisis serían medidas de soporte según severidad, pero no resuelven la causa de fondo. Por tanto, la RTU es el tratamiento de elección definitivo.",
+      "tema": "Uropatía obstructiva por HBP: resección transuretral",
+      "año": 2023
+    },
+    {
+      "id": "NEF-039",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 30 años desde hace 2 días presenta náuseas y vómitos. Antecedente: litiasis renal. Examen: PA 90/60 mmHg, FC 100X', FR 24X', T 39.5ºC; PPL derecho (++), PRU derecho (++). Leucocitosis con desviación izquierda, UROTEM: cálculo enclavado en ureter y dilatación de sistema pielocalicial. Recibe antibióticoterapia de amplio espectro sin mejoría clínica. ¿Cuál es la indicación más adecuada?",
+      "opciones": [
+        "Ureterotomía laparoscópica",
+        "Endoprótesis ureteral",
+        "Nefrostomía laparoscópica",
+        "Litotricia percutánea",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente con historia de litiasis renal ahora presenta fiebre alta, dolor a la palpación renal, hipotensión y leucocitosis con desviación izquierda, lo que sugiere una pielonefritis obstructiva complicada. A pesar del antibiótico, no hay mejoría clínica, lo cual obliga a actuar rápidamente para drenar la vía urinaria y evitar sepsis. La colocación de una endoprótesis ureteral (stent doble J) es la intervención inicial indicada para desobstruir el uréter y permitir salida de orina. Procedimientos como la nefrostomía o la ureterotomía son más invasivos y reservados para casos específicos. Así, la endoprótesis es el manejo más adecuado.",
+      "comentario": "El paciente con historia de litiasis renal ahora presenta fiebre alta, dolor a la palpación renal, hipotensión y leucocitosis con desviación izquierda, lo que sugiere una pielonefritis obstructiva complicada. A pesar del antibiótico, no hay mejoría clínica, lo cual obliga a actuar rápidamente para drenar la vía urinaria y evitar sepsis. La colocación de una endoprótesis ureteral (stent doble J) es la intervención inicial indicada para desobstruir el uréter y permitir salida de orina. Procedimientos como la nefrostomía o la ureterotomía son más invasivos y reservados para casos específicos. Así, la endoprótesis es el manejo más adecuado.",
+      "tema": "Pielonefritis obstructiva: derivación con catéter ureteral",
+      "año": 2023
+    },
+    {
+      "id": "NEF-040",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 78 años, traída a emergencia con alteración de la conciencia, hace dos días desorientada y ahora soporosa. Antecedentes: ICC en tratamiento con losartán, digoxina, atorvastatina e hidroclorotiazida. Examen: PA 120/80 mmHg, FC 80 X'. Lab: Na 115 mEq/L. El tratamiento con …. fue el causante más probable de su cuadro clínico.",
+      "opciones": [
+        "Atorvastatina",
+        "Hidroclorotiazida",
+        "Losartán",
+        "Digoxina",
+        "Epinefrina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente adulta mayor con antecedente de insuficiencia cardíaca y polifarmacia, acude por trastorno progresivo del sensorio. Se evidencia una hiponatremia severa (Na: 115 mEq/L), lo cual explica clínicamente su desorientación y sopor. En pacientes añosos, esta alteración suele estar asociada a fármacos, especialmente diuréticos tiazídicos como la hidroclorotiazida, que provocan pérdida de sodio y aumento de secreción de ADH. Aunque digoxina puede inducir toxicidad neurológica, no produce hiponatremia. Losartán y atorvastatina no explican este cuadro clínico. La correlación temporal y la fisiopatología señalan a la hidroclorotiazida como el agente causal más probable. Por lo tanto, se debe suspenderla y corregir la natremia con monitoreo estricto.",
+      "comentario": "Paciente adulta mayor con antecedente de insuficiencia cardíaca y polifarmacia, acude por trastorno progresivo del sensorio. Se evidencia una hiponatremia severa (Na: 115 mEq/L), lo cual explica clínicamente su desorientación y sopor. En pacientes añosos, esta alteración suele estar asociada a fármacos, especialmente diuréticos tiazídicos como la hidroclorotiazida, que provocan pérdida de sodio y aumento de secreción de ADH. Aunque digoxina puede inducir toxicidad neurológica, no produce hiponatremia. Losartán y atorvastatina no explican este cuadro clínico. La correlación temporal y la fisiopatología señalan a la hidroclorotiazida como el agente causal más probable. Por lo tanto, se debe suspenderla y corregir la natremia con monitoreo estricto.",
+      "tema": "Hiponatremia por tiazidas",
+      "año": 2023
+    },
+    {
+      "id": "NEF-041",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 28 años, desde hace 6 meses presenta hipertensión de inicio súbito, encontrándose presión arterial de 190/100 mmHg refractaria al tratamiento con tres fármacos. Examen: soplo en flanco derecho. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hipertensión arterial esencial",
+        "Estenosis de la arteria renal",
+        "Coartación de aorta",
+        "Feocromocitoma",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hipertensión de inicio súbito y refractaria al tratamiento con tres fármacos, junto con la presencia de un soplo en el flanco derecho, es altamente sugestiva de estenosis de la arteria renal (Alternativa B). Esta condición Es una causa secundaria de hipertensión, resultante de un estrechamiento de una o ambas arterias renales, lo que reduce el flujo sanguíneo renal y activa el sistema renina-angiotensina-aldosterona. La combinación de hipertensión resistente y un soplo abdominal es muy sugestiva de esta condición, que puede ser confirmada con estudios de imagen como la ecografía Doppler renal.",
+      "comentario": "La hipertensión de inicio súbito y refractaria al tratamiento con tres fármacos, junto con la presencia de un soplo en el flanco derecho, es altamente sugestiva de estenosis de la arteria renal (Alternativa B). Esta condición Es una causa secundaria de hipertensión, resultante de un estrechamiento de una o ambas arterias renales, lo que reduce el flujo sanguíneo renal y activa el sistema renina-angiotensina-aldosterona. La combinación de hipertensión resistente y un soplo abdominal es muy sugestiva de esta condición, que puede ser confirmada con estudios de imagen como la ecografía Doppler renal.",
+      "tema": "Hipertensión renovascular: estenosis de arteria renal",
+      "año": 2024
+    },
+    {
+      "id": "NEF-042",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 78 años, acude a urgencias por presentar dolor en hipogastrio que ha ido incrementándose en los últimos días. Examen: se palpa masa redondeada, ligeramente tensa debajo del ombligo y en región del hipogastrio. Laboratorio: creatinina 2.8 mg/dL, potasio 6 mEq/L. ¿Cuál es la conducta inmediata?",
+      "opciones": [
+        "Cateterización vesical",
+        "TC abdominal",
+        "Cistoscopia",
+        "Hemodiálisis",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En este escenario clínico, el paciente presenta síntomas de retención urinaria aguda (dolor en hipogastrio, masa palpable debajo del ombligo) junto con alteraciones en los niveles de creatinina y potasio, sugiriendo una posible injuria renal aguda postrenal. En este caso, la cateterización vesical (Alternativa A) es esencial para aliviar la retención urinaria y evaluar la función renal de manera inmediata. Esto permite manejar la causa potencial de las alteraciones bioquímicas y los síntomas urinarios del paciente.",
+      "comentario": "En este escenario clínico, el paciente presenta síntomas de retención urinaria aguda (dolor en hipogastrio, masa palpable debajo del ombligo) junto con alteraciones en los niveles de creatinina y potasio, sugiriendo una posible injuria renal aguda postrenal. En este caso, la cateterización vesical (Alternativa A) es esencial para aliviar la retención urinaria y evaluar la función renal de manera inmediata. Esto permite manejar la causa potencial de las alteraciones bioquímicas y los síntomas urinarios del paciente.",
+      "tema": "Retención urinaria aguda: sondaje vesical",
+      "año": 2024
+    },
+    {
+      "id": "NEF-043",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 38 años, es traído a urgencias luego de ser liberado de un secuestro. Informa que no ha consumido alimentos ni agua, durante un día y medio, y presenta oligoanuria. Examen: PA 95/60 mmHg, FC 120 X´, FR 20 X´, T 36 °C, turgencia de piel disminuida, mucosas secas. ¿Qué esperaría encontrar en una muestra de orina?",
+      "opciones": [
+        "Proteínas altas",
+        "Sodio bajo",
+        "Osmolalidad baja",
+        "Cilindros eritrocitarios",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En un paciente con oligoanuria tras privación de agua y deshidratación severa, lo más probable es que nos encontremos con una injuria renal aguda prerenal. Una de las características de este tipo de injuria renal aguda es la presencia de sodio urinario bajo (Alternativa B). La injuria renal aguda prerenal se refiere a una disminución repentina del flujo sanguíneo renal, que compromete temporalmente la función renal sin causar daño estructural permanente. Esto puede ocurrir en situaciones donde hay una reducción del volumen intravascular o una disminución del flujo sanguíneo renal efectivo, como en casos de deshidratación severa, insuficiencia cardiaca congestiva o shock. Los hallazgos de laboratorio característicos de una injuria renal aguda prerenal en una muestra de orina serán una fracción excretada de sodio menor del 1%, un sodio urinario menor de 20meq/L y una osmolalidad urinaria incrementada (usual >500 mOsm/kg).",
+      "comentario": "En un paciente con oligoanuria tras privación de agua y deshidratación severa, lo más probable es que nos encontremos con una injuria renal aguda prerenal. Una de las características de este tipo de injuria renal aguda es la presencia de sodio urinario bajo (Alternativa B). La injuria renal aguda prerenal se refiere a una disminución repentina del flujo sanguíneo renal, que compromete temporalmente la función renal sin causar daño estructural permanente. Esto puede ocurrir en situaciones donde hay una reducción del volumen intravascular o una disminución del flujo sanguíneo renal efectivo, como en casos de deshidratación severa, insuficiencia cardiaca congestiva o shock. Los hallazgos de laboratorio característicos de una injuria renal aguda prerenal en una muestra de orina serán una fracción excretada de sodio menor del 1%, un sodio urinario menor de 20meq/L y una osmolalidad urinaria incrementada (usual >500 mOsm/kg).",
+      "tema": "Lesión renal prerrenal: sodio urinario bajo",
+      "año": 2024
+    },
+    {
+      "id": "NEF-044",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 62 años, desde hace un mes fiebre y dolor continuo en fosa lumbar derecha. Antecedente: litiasis renal e infecciones urinarias a repetición. Examen: PPL (+) bilateral. Laboratorio: leucocitosis sin desviación izquierda, Hb 9 g/dL, sedimento urinario: leucocituria. Citología de orina con abundantes macrófagos de aspecto espumoso. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tuberculosis renal",
+        "Absceso renal",
+        "Adenocarcinoma renal",
+        "Pielonefritis xantogranulomatosa",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En una paciente con fiebre, dolor lumbar, antecedentes de litiasis renal e infecciones urinarias recurrentes, leucocitosis, anemia, leucocituria, y citología de orina con abundantes macrófagos espumosos, el diagnóstico más probable es pielonefritis xantogranulomatosa (Alternativa D). La pielonefritis xantogranulomatosa es una forma crónica de pielonefritis que se asocia con infecciones urinarias recurrentes y litiasis renal. Se caracteriza por la presencia de macrófagos espumosos en la citología de orina.",
+      "comentario": "En una paciente con fiebre, dolor lumbar, antecedentes de litiasis renal e infecciones urinarias recurrentes, leucocitosis, anemia, leucocituria, y citología de orina con abundantes macrófagos espumosos, el diagnóstico más probable es pielonefritis xantogranulomatosa (Alternativa D). La pielonefritis xantogranulomatosa es una forma crónica de pielonefritis que se asocia con infecciones urinarias recurrentes y litiasis renal. Se caracteriza por la presencia de macrófagos espumosos en la citología de orina.",
+      "tema": "Pielonefritis xantogranulomatosa",
+      "año": 2024
+    },
+    {
+      "id": "NEF-045",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 42 años, con dolor tipo cólico de inicio brusco e intenso (EVA 9-10/10) en flanco derecho y región lumbar derecha, irradiándose hacia ingle y testículo derecho, sin lograr mejoría postural, agregándose vómitos y diaforesis. Examen: clínicamente estable; abdomen blando, depresible, no reacción peritoneal. Laboratorio: No leucocitosis. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Perforación gástrica",
+        "Apendicitis aguda",
+        "Cólico renal",
+        "Infección urinaria",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Basado en la presentación clínica del paciente con dolor cólico de inicio brusco e intenso en flanco derecho y región lumbar derecha, irradiándose hacia la ingle y testículo derecho, acompañado de vómitos y diaforesis, pero sin evidencia de reacción peritoneal ni leucocitosis en el laboratorio, el diagnóstico probable es cólico renal (Alternativa C). El cólico renal es caracterizado por un dolor intenso y súbito que se irradia desde la región lumbar hacia el abdomen inferior, la ingle y los genitales. Los vómitos y la diaforesis son comunes debido al intenso dolor. A menudo, no hay hallazgos significativos en el examen físico abdominal aparte del dolor cólico. La ausencia de leucocitosis sugiere que no hay una respuesta inflamatoria aguda significativa, lo cual es consistente con el cólico renal donde el dolor es principalmente de origen mecánico por la obstrucción ureteral, no por una infección.",
+      "comentario": "Basado en la presentación clínica del paciente con dolor cólico de inicio brusco e intenso en flanco derecho y región lumbar derecha, irradiándose hacia la ingle y testículo derecho, acompañado de vómitos y diaforesis, pero sin evidencia de reacción peritoneal ni leucocitosis en el laboratorio, el diagnóstico probable es cólico renal (Alternativa C). El cólico renal es caracterizado por un dolor intenso y súbito que se irradia desde la región lumbar hacia el abdomen inferior, la ingle y los genitales. Los vómitos y la diaforesis son comunes debido al intenso dolor. A menudo, no hay hallazgos significativos en el examen físico abdominal aparte del dolor cólico. La ausencia de leucocitosis sugiere que no hay una respuesta inflamatoria aguda significativa, lo cual es consistente con el cólico renal donde el dolor es principalmente de origen mecánico por la obstrucción ureteral, no por una infección.",
+      "tema": "Cólico renoureteral",
+      "año": 2024
+    },
+    {
+      "id": "NEF-046",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 60 años que acude por emergencia, porque desde hace 20 horas tiene deseos de miccionar y solo “gotea” la orina. Antecedente: diabético hace 30 años en tratamiento irregular. Examen: Abdomen globuloso, RHA (+), se palpa tumoración suprapúbica dolorosa. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Cálculo ureteral",
+        "Infección del tracto urinario",
+        "Trigonitis aguda",
+        "Vejiga neurogénica",
+        "Cirrosis hepática"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Dado el contexto clínico descrito, el diagnóstico más probable para el varón de 60 años con antecedente de diabetes y síntomas urinarios es Vejiga neurogénica (Alternativa D). La vejiga neurogénica es la disfunción de la vejiga (flácida o espástica) causada por un daño neurológico, siendo una de las causas la diabetes de larga data con mal control glicémico. Los síntomas típicos incluyen dificultad para iniciar o completar la micción, sensación de vaciamiento incompleto de la vejiga, y en casos más avanzado s, distensión de la vejiga con formación de una tumoración suprapúbica palpable y dolorosa debido a la retención urinaria crónica.",
+      "comentario": "Dado el contexto clínico descrito, el diagnóstico más probable para el varón de 60 años con antecedente de diabetes y síntomas urinarios es Vejiga neurogénica (Alternativa D). La vejiga neurogénica es la disfunción de la vejiga (flácida o espástica) causada por un daño neurológico, siendo una de las causas la diabetes de larga data con mal control glicémico. Los síntomas típicos incluyen dificultad para iniciar o completar la micción, sensación de vaciamiento incompleto de la vejiga, y en casos más avanzado s, distensión de la vejiga con formación de una tumoración suprapúbica palpable y dolorosa debido a la retención urinaria crónica.",
+      "tema": "Vejiga neurogénica diabética: retención urinaria",
+      "año": 2024
+    },
+    {
+      "id": "NEF-047",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 45 años, desde hace dos días acude a urgencias por mareos, debilidad y adormecimiento de miembros inferiores. Antecedente: HTA tratada con hidroclorotiazida y se automedica con antiácidos. Examen: PA: 140/90 mmHg, FC: 88 X', FR: 16 X', SatO₂: 98%; hiperestesia en extremidades. Laboratorio: creatinina: 0.8 mg/dL, Na: 138 mEq/L, K: 2.8 mEq/L, Cl: 88 mEq/L, HCO3: 32 mEq/L, Ca: 10.2 mg/dL. ¿Cuál es el trastorno ácido básico más probable?",
+      "opciones": [
+        "Alcalosis metabólica",
+        "Acidosis metabólica",
+        "Acidosis respiratoria",
+        "Alcalosis respiratoria",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El trastorno ácido-base más probable en este caso es alcalosis metabólica. La paciente presenta niveles elevados de bicarbonato (HCO3: 32 mEq/L), lo que indica una alcalosis metabólica. Además, tiene hipokalemia (K: 2.8 mEq/L), que es comúnmente observada en alcalosis metabólica, especialmente si se asocia con el uso de diuréticos como la hidroclorotiazida.El hecho de que la paciente se automedique con antiácidos también podría contribuir a la alcalosis metabólica, ya que los antiácidos pueden aumentar los niveles de bicarbonato en sangre.",
+      "comentario": "El trastorno ácido-base más probable en este caso es alcalosis metabólica. La paciente presenta niveles elevados de bicarbonato (HCO3: 32 mEq/L), lo que indica una alcalosis metabólica. Además, tiene hipokalemia (K: 2.8 mEq/L), que es comúnmente observada en alcalosis metabólica, especialmente si se asocia con el uso de diuréticos como la hidroclorotiazida.El hecho de que la paciente se automedique con antiácidos también podría contribuir a la alcalosis metabólica, ya que los antiácidos pueden aumentar los niveles de bicarbonato en sangre.",
+      "tema": "Alcalosis metabólica por tiazidas",
+      "año": 2024
+    },
+    {
+      "id": "NEF-048",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 58 años parapléjico, monorreno y usuario de catéter vesical, acude a urgencias por anuria. Examen: PA: 140/80 mmHg, FC: 90 X’, FR: 22 X’, SatO₂: 96%. Laboratorio: creatinina: 3 mg/dL, K: 5.8 mEq/L. Ecografía: hidronefrosis. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Litotricia con láser",
+        "Cambio de catéter vesical",
+        "Cistoscopía",
+        "Nefrostomía percutánea",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta anuria, una elevación de la creatinina y potasio, y una ecografía que muestra hidronefrosis, lo que sugiere una obstrucción en el tracto urinario. Dado que el paciente es usuario de catéter vesical, lo más probable es que la obstrucción sea debido a un catéter vesical obstruido o mal colocado. Por lo tanto, la conducta más adecuada es realizar un cambio de catéter vesical, lo que puede aliviar la obstrucción y mejorar la función renal. Otras opciones como la cistoscopia o nefrostomía serían necesarias solo si el cambio de catéter no resuelve el problema.",
+      "comentario": "El paciente presenta anuria, una elevación de la creatinina y potasio, y una ecografía que muestra hidronefrosis, lo que sugiere una obstrucción en el tracto urinario. Dado que el paciente es usuario de catéter vesical, lo más probable es que la obstrucción sea debido a un catéter vesical obstruido o mal colocado. Por lo tanto, la conducta más adecuada es realizar un cambio de catéter vesical, lo que puede aliviar la obstrucción y mejorar la función renal. Otras opciones como la cistoscopia o nefrostomía serían necesarias solo si el cambio de catéter no resuelve el problema.",
+      "tema": "Obstrucción del catéter vesical: recambio",
+      "año": 2024
+    },
+    {
+      "id": "NEF-049",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es el tratamiento más efectivo para un paciente con litiasis vesical sintomática de tamaño considerable, que no responde a medidas conservadoras?",
+      "opciones": [
+        "Litotricia extracorpórea por ondas de choque",
+        "Tratamiento médico para disolver el lito",
+        "Manejo con anticolinérgicos",
+        "Cistoscopía con litotripsia láser",
+        "Reposo absoluto"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El tratamiento más efectivo para un paciente con litiasis vesical sintomática de tamaño considerable, que no responde a medidas conservadoras, es la cistoscopia con litotripsia láser. Este procedimiento permite la fragmentación del cálculo de manera mínimamente invasiva, lo que facilita su eliminación sin necesidad de cirugía abierta. La litotricia extracorpórea por ondas de choque es más comúnmente utilizada para cálculos renales o ureterales, no para cálculos vesicales grandes. Por lo tanto, la opción correcta es D. Cistoscopía con litotripsia láser.",
+      "comentario": "El tratamiento más efectivo para un paciente con litiasis vesical sintomática de tamaño considerable, que no responde a medidas conservadoras, es la cistoscopia con litotripsia láser. Este procedimiento permite la fragmentación del cálculo de manera mínimamente invasiva, lo que facilita su eliminación sin necesidad de cirugía abierta. La litotricia extracorpórea por ondas de choque es más comúnmente utilizada para cálculos renales o ureterales, no para cálculos vesicales grandes. Por lo tanto, la opción correcta es D. Cistoscopía con litotripsia láser.",
+      "tema": "Litiasis vesical: cistolitotricia endoscópica",
+      "año": 2024
+    },
+    {
+      "id": "NEF-050",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 40 años consulta por presentar hace 8 meses, cansancio, astenia y pérdida de peso. Examen: PA: 160/100 mmHg, FC: 100 X', palidez facial, edema de miembros inferiores con fovea (++). Laboratorio: Hb: 7.8 g/dL, creatinina: 5 mg/dL, urea: 120 mg /dL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Insuficiencia renal crónica",
+        "Hipotiroidismo primario",
+        "Hiperparatiroidismo",
+        "Enfermedad renal aguda",
+        "Neumonía adquirida"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente presenta síntomas sistémicos crónicos (cansancio, astenia y pérdida de peso), junto con hipertensión arterial, anemia, edema y deterioro de la función renal (creatinina elevada y urea alta), lo que sugiere insuficiencia renal crónica (IRC). La anemia normocítica es común en la IRC debido a la disminución de la producción de eritropoyetina. El diagnóstico se confirma con estudios adicionales como la ecografía renal, que en la IRC muestra riñones pequeños y aumento de la ecogenicidad.",
+      "comentario": "La paciente presenta síntomas sistémicos crónicos (cansancio, astenia y pérdida de peso), junto con hipertensión arterial, anemia, edema y deterioro de la función renal (creatinina elevada y urea alta), lo que sugiere insuficiencia renal crónica (IRC). La anemia normocítica es común en la IRC debido a la disminución de la producción de eritropoyetina. El diagnóstico se confirma con estudios adicionales como la ecografía renal, que en la IRC muestra riñones pequeños y aumento de la ecogenicidad.",
+      "tema": "Enfermedad renal crónica",
+      "año": 2024
+    },
+    {
+      "id": "NEF-051",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 15 años desde hace 4 días presenta disminución de volumen urinario y orina como \"agua de lavado de carne\". Antecedente: amigdalitis hace 3 semanas. Examen: PA: 160/85 mmHg, FC:110 X´, FR: 24 X´, T°: 37 °C, SatO₂ 98 %; piel y mucosas hidratada s, edema duro en tobillos. Laboratorio: creatinina: 3 mg/dL, K: 4.5 mEq/L. Orina: cilindros hemáticos, hematíes >100/campo, Na urinario: 8 mEq/L. ¿Qué medida terapéutica es la más adecuada?",
+      "opciones": [
+        "Furosemida",
+        "Suero fisiológico",
+        "Insulina",
+        "Gluconato cálcico",
+        "Ibuprofeno"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico es compatible con una glomerulonefritis postestreptocócica, caracterizada por hematuria (orina en \"agua de lavado de carne\"), hipertensión arterial, edema y compromiso renal agudo. El tratamiento inicial se basa en el manejo del volumen y la presión arterial. La furosemida, un diurético de asa, es de elección para reducir la sobrecarga de volumen y la hipertensión. La restricción de líquidos y sodio también es clave en el manejo.",
+      "comentario": "El cuadro clínico es compatible con una glomerulonefritis postestreptocócica, caracterizada por hematuria (orina en \"agua de lavado de carne\"), hipertensión arterial, edema y compromiso renal agudo. El tratamiento inicial se basa en el manejo del volumen y la presión arterial. La furosemida, un diurético de asa, es de elección para reducir la sobrecarga de volumen y la hipertensión. La restricción de líquidos y sodio también es clave en el manejo.",
+      "tema": "Glomerulonefritis postestreptocócica: furosemida",
+      "año": 2024
+    },
+    {
+      "id": "NEF-052",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "- Mujer de 72 años hipertensa mal controlada, desde hace 10 días dolor articular y se automedica con ibuprofeno. Desde hace dos días náusea y orina poco. Examen: PA: 160/100 mmHg, FC: 95 X', FR: 18 X', SatO₂: 98%. Edema hasta rodillas. Laboratorio: Hb: 12.8 g/dL, G: 115 mg/dL, creatinina: 3.0 mg/dL, Na:140 mEq/L, K: 6.0 mEq/L, Cl: 102 mEq/L. Sedimento: cilindros granulosos (+). Ecografía renal: tamaño normal y parénquima hiperecogénico. ¿Cuál es la causa de la falla renal?",
+      "opciones": [
+        "Hipertensión mal controlada",
+        "Nefropatía tóxica",
+        "Diabetes mellitus tipo 2",
+        "Deshidratación",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El uso prolongado de AINEs como el ibuprofeno puede generar nefropatía tóxica, provocando insuficiencia renal aguda por daño tubular y disminución de la perfusión renal. Los cilindros granulosos y el parénquima hiperecogénico en la ecografía sugieren un proceso tubular agudo. Aunque la hipertensión crónica puede contribuir al daño renal, el desencadenante en este caso es la automedicación con AINEs.",
+      "comentario": "El uso prolongado de AINEs como el ibuprofeno puede generar nefropatía tóxica, provocando insuficiencia renal aguda por daño tubular y disminución de la perfusión renal. Los cilindros granulosos y el parénquima hiperecogénico en la ecografía sugieren un proceso tubular agudo. Aunque la hipertensión crónica puede contribuir al daño renal, el desencadenante en este caso es la automedicación con AINEs.",
+      "tema": "Nefrotoxicidad por AINE",
+      "año": 2024
+    },
+    {
+      "id": "NEF-053",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 70 años, desde hace 6 meses presenta dificultad al iniciar la micción, polaquiuria y nicturia; dolor progresivo en caderas. Antecedente: fumador pesado. Examen: TR próstata indurada e irregular. PSA total 8 ng/ml. ¿Cuál es la indicación a seguir?",
+      "opciones": [
+        "Tomografía pélvica",
+        "Resonancia pélvica",
+        "Cistoscopía",
+        "Biopsia transrectal",
+        "Tomografía con contraste"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La próstata indurada e irregular junto con un PSA elevado sugiere cáncer prostático. La biopsia transrectal guiada por ecografía es el método diagnóstico definitivo. La resonancia pélvica y la tomografía evalúan extensión local y a distancia, pero no son iniciales.",
+      "comentario": "La próstata indurada e irregular junto con un PSA elevado sugiere cáncer prostático. La biopsia transrectal guiada por ecografía es el método diagnóstico definitivo. La resonancia pélvica y la tomografía evalúan extensión local y a distancia, pero no son iniciales.",
+      "tema": "Sospecha de cáncer de próstata: biopsia transrectal",
+      "año": 2024
+    },
+    {
+      "id": "NEF-054",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 38 años, consulta por dolor en flanco, que aumenta en la posición de pie y disminuye en el decúbito, niega disuria, polaquiuria. Hermano con ERC. Examen: abdomen distendido, se palpa masa dolorosa en flanco derecho. PPL derecho (++). Lab: Hb 12.8 g/dL, creatinina 2.85 mg/dL, examen de orina normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Poliquistosis renal",
+        "Glomerulonefritis",
+        "Absceso renal",
+        "Amiloidosis renal",
+        "Hipertensión arterial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El caso clínico describe a un paciente con dolor en flanco derecho, aumento de creatinina, masa palpable en el flanco y antecedentes familiares de enfermedad renal crónica, lo que sugiere poliquistosis renal como diagnóstico más probable (CLAVE). La poliquistosis renal autosómica dominante es la forma más frecuente y se presenta con quistes renales bilaterales que pueden causar aumento de tamaño renal, compresión de estructuras adyacentes y, en algunos casos, dolor lumbar o en flanco. El hallazgo de masa palpable junto con el antecedente familiar y la elevación de creatinina refuerzan este diagnóstico. Glomerulonefritis típicamente se presenta con alteraciones en el examen de orina como hematuria, proteinuria o cilindros, los cuales no están presentes aquí. Un absceso renal usualmente se manifiesta con fiebre, disuria, leucocitosis y dolor localizado, además de alteraciones en el examen de orina, que tampoco están descritas en este caso. La amiloidosis renal se asocia más a proteinuria severa o síndrome nefrótico y no a masas palpables ni dolor en flanco, siendo más común en pacientes con enfermedades inflamatorias crónicas o infecciones prolongadas. En este paciente, la presencia de una masa dolorosa y el antecedente familiar de ERC hacen de la poliquistosis renal el diagnóstico más razonable basado en la clínica y los hallazgos descritos.",
+      "comentario": "El caso clínico describe a un paciente con dolor en flanco derecho, aumento de creatinina, masa palpable en el flanco y antecedentes familiares de enfermedad renal crónica, lo que sugiere poliquistosis renal como diagnóstico más probable (CLAVE). La poliquistosis renal autosómica dominante es la forma más frecuente y se presenta con quistes renales bilaterales que pueden causar aumento de tamaño renal, compresión de estructuras adyacentes y, en algunos casos, dolor lumbar o en flanco. El hallazgo de masa palpable junto con el antecedente familiar y la elevación de creatinina refuerzan este diagnóstico. Glomerulonefritis típicamente se presenta con alteraciones en el examen de orina como hematuria, proteinuria o cilindros, los cuales no están presentes aquí. Un absceso renal usualmente se manifiesta con fiebre, disuria, leucocitosis y dolor localizado, además de alteraciones en el examen de orina, que tampoco están descritas en este caso. La amiloidosis renal se asocia más a proteinuria severa o síndrome nefrótico y no a masas palpables ni dolor en flanco, siendo más común en pacientes con enfermedades inflamatorias crónicas o infecciones prolongadas. En este paciente, la presencia de una masa dolorosa y el antecedente familiar de ERC hacen de la poliquistosis renal el diagnóstico más razonable basado en la clínica y los hallazgos descritos.",
+      "tema": "Poliquistosis renal autosómica dominante",
+      "año": 2024
+    },
+    {
+      "id": "NEF-055",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Paciente al que le han hecho una vasectomía y pregunta en que tiempo quedará estéril. Su respuesta es:",
+      "opciones": [
+        "En dos meses",
+        "En un mes",
+        "Inmediatamente",
+        "En tres meses",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La vasectomía es un método anticonceptivo quirúrgico definitivo que impide el paso de espermatozoides al eyaculado mediante la sección de los conductos deferentes. Sin embargo, tras el procedimiento, persisten espermatozoides viables en los conductos distales por semanas. Por ello, no se considera estéril inmediatamente. La esterilidad se alcanza usualmente después de aproximadamente tres meses o 20 eyaculaciones, tiempo necesario para eliminar por completo los espermatozoides. Durante ese periodo debe usarse otro método anticonceptivo complementario. Así, afirmar que el paciente es estéril de forma inmediata sería incorrecto. Por ello, la respuesta adecuada es que quedará estéril en tres meses postvasectomía.",
+      "comentario": "La vasectomía es un método anticonceptivo quirúrgico definitivo que impide el paso de espermatozoides al eyaculado mediante la sección de los conductos deferentes. Sin embargo, tras el procedimiento, persisten espermatozoides viables en los conductos distales por semanas. Por ello, no se considera estéril inmediatamente. La esterilidad se alcanza usualmente después de aproximadamente tres meses o 20 eyaculaciones, tiempo necesario para eliminar por completo los espermatozoides. Durante ese periodo debe usarse otro método anticonceptivo complementario. Así, afirmar que el paciente es estéril de forma inmediata sería incorrecto. Por ello, la respuesta adecuada es que quedará estéril en tres meses postvasectomía.",
+      "tema": "Vasectomía: esterilidad a los tres meses",
+      "año": 2024
+    },
+    {
+      "id": "NEF-056",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 56 años con enfermedad renal crónica desde hace 3 años en terapia de reemplazo renal, en terapia adecuada de eritropoyetina; acude por disnea. No evidencia de sangrado. Examen: PA 130/85 mmHg, FC 105 X´, FR 22 X´, palidez terrosa. Lab: Hb 8,7 g/dl, ferritina 56 ng/ml, índice de saturación de transferrina 10%. ¿Cuál es el tratamiento a seguir?",
+      "opciones": [
+        "No modificar el tratamiento",
+        "Aumentar dosis de eritropoyetina y tiamina",
+        "Suspender la eritropoyetina y administrar hierro",
+        "Administrar hierro y mantener eritropoyetina",
+        "Solicitar nuevo cultivo"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Este paciente con enfermedad renal crónica presenta anemia, caracterizada por hemoglobina baja (8,7 g/dL), índice de saturación de transferrina disminuido (<20%) y niveles de ferritina <100 ng/ml, lo que indica deficiencia de hierro funcional. En estos casos, el tratamiento incluye la administración de hierro para corregir la deficiencia y optimizar la respuesta a la eritropoyetina, que debe mantenerse. La opción A es incorrecta porque continuar sin cambios perpetúa la anemia y sus síntomas. La opción B es errada porque aumentar la dosis de eritropoyetina sin tratar la deficiencia de hierro no es eficaz y puede aumentar los riesgos cardiovasculares, ya que la EPO estimulará la producción de la serie roja, en caso de no tener suficiente hierro, producirá hematíes con baja hemoglobina y en grandes cantidades, causando hiperviscosidad, además, la EPO tiene un efecto de vasoconstricción directa sobre las arterias, aumentando la RVS, la PA y los requermientos cardíacos de O2. La opción C es incorrecta, ya que suspender la eritropoyetina agravaría la anemia. Las guías sugieren hierro intravenoso como la vía preferida en pacientes en terapia de reemplazo renal para garantizar absorción adecuada y rápida corrección. Este manejo mejora la calidad de vida y reduce los síntomas como la disnea.",
+      "comentario": "Este paciente con enfermedad renal crónica presenta anemia, caracterizada por hemoglobina baja (8,7 g/dL), índice de saturación de transferrina disminuido (<20%) y niveles de ferritina <100 ng/ml, lo que indica deficiencia de hierro funcional. En estos casos, el tratamiento incluye la administración de hierro para corregir la deficiencia y optimizar la respuesta a la eritropoyetina, que debe mantenerse. La opción A es incorrecta porque continuar sin cambios perpetúa la anemia y sus síntomas. La opción B es errada porque aumentar la dosis de eritropoyetina sin tratar la deficiencia de hierro no es eficaz y puede aumentar los riesgos cardiovasculares, ya que la EPO estimulará la producción de la serie roja, en caso de no tener suficiente hierro, producirá hematíes con baja hemoglobina y en grandes cantidades, causando hiperviscosidad, además, la EPO tiene un efecto de vasoconstricción directa sobre las arterias, aumentando la RVS, la PA y los requermientos cardíacos de O2. La opción C es incorrecta, ya que suspender la eritropoyetina agravaría la anemia. Las guías sugieren hierro intravenoso como la vía preferida en pacientes en terapia de reemplazo renal para garantizar absorción adecuada y rápida corrección. Este manejo mejora la calidad de vida y reduce los síntomas como la disnea.",
+      "tema": "Anemia de la ERC con ferropenia: hierro y mantener eritropoyetina",
+      "año": 2024
+    },
+    {
+      "id": "NEF-057",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 56 años, diabético e hipertenso, desde hace dos días post toma de TC con contraste presenta dolor lumbar, fatiga y disminución de diuresis. Examen: funciones vitales normales, despierto, no edemas. Lab: Creatinina 2.5 mg/dl, Na 138 mEq/l, K 4.1 mEq/l. Sedimento urinario: cilindros granulosos hiperpigmentados. Ecografía renal: cambios ecogénicos difusos en la corteza renal. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Diálisis de urgencia",
+        "Hidratación intravenosa",
+        "N- acetilcisteína en nebulización",
+        "Administración de diuréticos",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente diabético e hipertenso con inicio agudo de insuficiencia renal tras exposición a contraste, compatible con nefropatía inducida por contraste (NIC). El cuadro incluye oliguria, elevación de creatinina y presencia de cilindros granulosos, sin otros signos de sobrecarga o necesidad urgente de diálisis. El manejo inicial se basa en hidratación intravenosa con solución salina isotónica, lo cual mejora la perfusión renal y facilita la eliminación del contraste. N-acetilcisteína se usaba como preventivo, no como tratamiento. Diálisis solo es indicada si hay sobrecarga o trastornos severos del medio interno.",
+      "comentario": "Paciente diabético e hipertenso con inicio agudo de insuficiencia renal tras exposición a contraste, compatible con nefropatía inducida por contraste (NIC). El cuadro incluye oliguria, elevación de creatinina y presencia de cilindros granulosos, sin otros signos de sobrecarga o necesidad urgente de diálisis. El manejo inicial se basa en hidratación intravenosa con solución salina isotónica, lo cual mejora la perfusión renal y facilita la eliminación del contraste. N-acetilcisteína se usaba como preventivo, no como tratamiento. Diálisis solo es indicada si hay sobrecarga o trastornos severos del medio interno.",
+      "tema": "Nefropatía por contraste: hidratación",
+      "año": 2024
+    },
+    {
+      "id": "NEF-058",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 45 años con cólico renal que cede al tratamiento médico. TC sin contraste: cálculo < 6 mm tercio inferior del uréter. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Catéter doble J",
+        "Tratamiento médico",
+        "Endoprótesis",
+        "Nefrostomía",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta un cólico renal que cedió al manejo médico. El cálculo se localiza en el tercio inferior del uréter y mide menos de 6 mm. En estos casos, se recomienda tratamiento médico expulsivo, basado en hidratación, control del dolor y uso de bloqueadores alfa (como tamsulosina), ya que el tamaño y ubicación favorecen la expulsión espontánea en la mayoría de casos. La colocación de catéter o nefrostomía se reserva para obstrucciones severas, infecciones asociadas o cálculos mayores que no responden al tratamiento conservador.",
+      "comentario": "La paciente presenta un cólico renal que cedió al manejo médico. El cálculo se localiza en el tercio inferior del uréter y mide menos de 6 mm. En estos casos, se recomienda tratamiento médico expulsivo, basado en hidratación, control del dolor y uso de bloqueadores alfa (como tamsulosina), ya que el tamaño y ubicación favorecen la expulsión espontánea en la mayoría de casos. La colocación de catéter o nefrostomía se reserva para obstrucciones severas, infecciones asociadas o cálculos mayores que no responden al tratamiento conservador.",
+      "tema": "Litiasis ureteral distal pequeña: terapia expulsiva",
+      "año": 2024
+    },
+    {
+      "id": "NEF-059",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 23 años, presenta desde hace 3 días dolor perineal, disuria y polaquiuria. Niega fiebre, vómito, dolor abdominal. Usa anticonceptivos trimestrales regularmente y no tiene patologías previas. Examen: buen estado general, sin hallazgos anormales. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Ecografía ginecológica por gestación",
+        "Tratamiento empírico con antibiótico oral",
+        "Iniciar carbapenem y luego desescalar",
+        "Iniciar ceftriaxona EV durante 7 días",
+        "Ciprofloxacino"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente joven con síntomas de disuria, polaquiuria y dolor perineal sin fiebre ni síntomas sistémicos, compatible con una cistitis no complicada. El manejo en estos casos es ambulatorio, con tratamiento empírico por vía oral, usando antibióticos de primer a línea como nitrofurantoína, fosfomicina o trimetoprim- sulfametoxazol, dependiendo de resistencias locales. No está indicado el uso de antibióticos de amplio espectro como carbapenémicos ni hospitalización con terapia endovenosa, ya que no hay criterios d e gravedad ni pielonefritis. El abordaje empírico temprano permite rápida resolución de síntomas y previene complicaciones.",
+      "comentario": "Paciente joven con síntomas de disuria, polaquiuria y dolor perineal sin fiebre ni síntomas sistémicos, compatible con una cistitis no complicada. El manejo en estos casos es ambulatorio, con tratamiento empírico por vía oral, usando antibióticos de primer a línea como nitrofurantoína, fosfomicina o trimetoprim- sulfametoxazol, dependiendo de resistencias locales. No está indicado el uso de antibióticos de amplio espectro como carbapenémicos ni hospitalización con terapia endovenosa, ya que no hay criterios d e gravedad ni pielonefritis. El abordaje empírico temprano permite rápida resolución de síntomas y previene complicaciones.",
+      "tema": "Cistitis no complicada: antibiótico oral empírico",
+      "año": 2025
+    },
+    {
+      "id": "NEF-060",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 64 años con HTA, acude por disnea y oliguria de 24 horas. Hace 3 días presenta fiebre y tos con expectoración purulenta. Examen: PA 80/50 mmHg, FC 118 X', FR 26 X', T 38.7 °C, SatO₂ 90%. Piel fría, llenado capilar >4’’, crepitantes en base derecha. Lab: creatinina 2.8 mg/dl, urea 89 mg/dl, Na urinario 8 mEq/l, FENa 0.4%, osmolalidad urinaria 700 mOsm/kg. Eco renal: normal. ¿Cuál es el mecanismo compensatorio del riñón en este paciente?",
+      "opciones": [
+        "Vasodilatación de la arteriola aferente",
+        "Vasoconstricción de la arteriola eferente",
+        "Aumento de la TFG",
+        "Aumento de la excreción de sodio",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente adulto mayor con sepsis respiratoria probable (neumonía) complicada con hipotensión, oliguria, y datos de injuria renal aguda prerrenal. FENa <1% (0.4%), Na urinario bajo (8 mEq/L) y osmolalidad urinaria alta indican una respuesta renal de conservación de volumen. En este contexto, el riñón busca mantener la TFG a través de mecanismos compensatorios. El más importante es la vasoconstricción de la arteriola eferente, mediada por angiotensina II, que mantiene la presión de filtración glomerular pese a la caída del volumen efectivo circulante. Este mecanismo es clave en el shock séptico para evitar daño renal estructural.",
+      "comentario": "Paciente adulto mayor con sepsis respiratoria probable (neumonía) complicada con hipotensión, oliguria, y datos de injuria renal aguda prerrenal. FENa <1% (0.4%), Na urinario bajo (8 mEq/L) y osmolalidad urinaria alta indican una respuesta renal de conservación de volumen. En este contexto, el riñón busca mantener la TFG a través de mecanismos compensatorios. El más importante es la vasoconstricción de la arteriola eferente, mediada por angiotensina II, que mantiene la presión de filtración glomerular pese a la caída del volumen efectivo circulante. Este mecanismo es clave en el shock séptico para evitar daño renal estructural.",
+      "tema": "Lesión prerrenal: vasoconstricción de la arteriola eferente",
+      "año": 2025
+    },
+    {
+      "id": "NEF-061",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 49 años desde hace 6 meses presenta disuria, nicturia y adelgazamiento del chorro urinario. Examen: TR próstata aumentada de consistencia. Lab: PSA 5,9 ng/ml, cociente de PSA libre/PSA total del 11%. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Solicitar ecografía transrectal para biopsia prostática",
+        "Solicitar ecografía transrrectal",
+        "Iniciar tratamiento con Inhibidores de la 5 alfa reductasa",
+        "Iniciar tratamiento combinado de análogos de la LHRH",
+        "Endoscopia digestiva"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón adulto con síntomas del tracto urinario inferior (disuria, nicturia, chorro débil) y un tacto rectal que revela una próstata aumentada de consistencia, lo que indica una sospecha clínica de neoplasia prostática. El PSA total es de 5.9 ng/ml, un valor en zona gris, pero el cociente PSA libre/total del 11% sugiere fuertemente malignidad (<15% es indicativo de alto riesgo de cáncer). En este contexto, la conducta más razonable sería confirmar el diagnóstico mediante una biopsia guiada por ecografía transrectal. Sin embargo, se ha optado por la alternativa D, que corresponde a una medida terapéutica para cáncer de próstata avanzado: terapia hormonal con análogos de LHRH. Esta conducta se justificaría si se asume que el diagnóstico ya fue confirmado previamente o si hay evidencia de enfermedad metastásica.",
+      "comentario": "Varón adulto con síntomas del tracto urinario inferior (disuria, nicturia, chorro débil) y un tacto rectal que revela una próstata aumentada de consistencia, lo que indica una sospecha clínica de neoplasia prostática. El PSA total es de 5.9 ng/ml, un valor en zona gris, pero el cociente PSA libre/total del 11% sugiere fuertemente malignidad (<15% es indicativo de alto riesgo de cáncer). En este contexto, la conducta más razonable sería confirmar el diagnóstico mediante una biopsia guiada por ecografía transrectal. Sin embargo, se ha optado por la alternativa D, que corresponde a una medida terapéutica para cáncer de próstata avanzado: terapia hormonal con análogos de LHRH. Esta conducta se justificaría si se asume que el diagnóstico ya fue confirmado previamente o si hay evidencia de enfermedad metastásica.",
+      "tema": "PSA en zona gris con cociente libre/total bajo: biopsia",
+      "año": 2025
+    },
+    {
+      "id": "NEF-062",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 63 años, presenta dificultad para iniciar la micción, menciona tener chorro débil y necesidad de hacer esfuerzo para orinar. Según su sospecha diagnóstica, ¿Cuál sería la conducta a seguir?",
+      "opciones": [
+        "Examen de orina",
+        "Tacto rectal",
+        "Antígeno Prostático Específico (PSA)",
+        "Cistoscopía",
+        "Prednisona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente varón mayor de 60 años con disuria de esfuerzo, chorro débil y dificultad para iniciar la micción presenta un cuadro clásico de obstrucción infravesical por hiperplasia prostática benigna (HPB). El tacto rectal constituye el examen clínico inicial indispensable, pues permite valorar tamaño, consistencia y simetría de la glándula prostática, orientando el diagnóstico diferencial frente al cáncer de próstata. El PSA y otros estudios son complementarios, pero nunca deben solicitarse sin una exploración física previa. La HPB genera resistencia uretral progresiva, reteniendo orina residual y aumentando la presión intravesical.",
+      "comentario": "El paciente varón mayor de 60 años con disuria de esfuerzo, chorro débil y dificultad para iniciar la micción presenta un cuadro clásico de obstrucción infravesical por hiperplasia prostática benigna (HPB). El tacto rectal constituye el examen clínico inicial indispensable, pues permite valorar tamaño, consistencia y simetría de la glándula prostática, orientando el diagnóstico diferencial frente al cáncer de próstata. El PSA y otros estudios son complementarios, pero nunca deben solicitarse sin una exploración física previa. La HPB genera resistencia uretral progresiva, reteniendo orina residual y aumentando la presión intravesical.",
+      "tema": "Síntomas prostáticos: tacto rectal",
+      "año": 2025
+    },
+    {
+      "id": "NEF-063",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 45 años con síndrome nefrótico por nefropatía membranosa (proteinuria 8 g/24h, albúmina 1.8 g/dL). Acude con disnea, dolor torácico pleurítico derecho y SatO₂ 88%. ECG: taquicardia sinusal. ¿Qué complicación debe sospecharse y descartarse de inmediato?",
+      "opciones": [
+        "Derrame pleural nefrótico bilateral",
+        "Infección respiratoria bacteriana",
+        "Edema agudo de pulmón por sobrecarga de volumen",
+        "Tromboembolismo pulmonar",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón con síndrome nefrótico por nefropatía membranosa presenta disnea súbita, dolor pleurítico y saturación baja, hallazgos altamente sugestivos de tromboembolismo pulmonar (TEP). En este contexto, la hipoalbuminemia y la proteinuria severa inducen un estado hipercoagulable por pérdida urinaria de antitrombina III, proteínas C y S. El ECG con taquicardia sinusal es hallazgo inespecífico pero frecuente. La conducta inmediata es descartar TEP mediante angio-TAC pulmonar o gammagrafía de ventilación-perfusión, e iniciar anticoagulación si la sospecha es alta. El derrame pleural o la infección no explican la clínica súbita ni la desaturación marcada.",
+      "comentario": "Varón con síndrome nefrótico por nefropatía membranosa presenta disnea súbita, dolor pleurítico y saturación baja, hallazgos altamente sugestivos de tromboembolismo pulmonar (TEP). En este contexto, la hipoalbuminemia y la proteinuria severa inducen un estado hipercoagulable por pérdida urinaria de antitrombina III, proteínas C y S. El ECG con taquicardia sinusal es hallazgo inespecífico pero frecuente. La conducta inmediata es descartar TEP mediante angio-TAC pulmonar o gammagrafía de ventilación-perfusión, e iniciar anticoagulación si la sospecha es alta. El derrame pleural o la infección no explican la clínica súbita ni la desaturación marcada.",
+      "tema": "Síndrome nefrótico: tromboembolismo pulmonar",
+      "año": 2025
+    },
+    {
+      "id": "NEF-064",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 55 años sometido a prostatectomía radical robótica. Para evitar disfunción eréctil, el cirujano debe identificar y preservar los nervios:",
+      "opciones": [
+        "Esponjosos",
+        "Hipogástricos superiores",
+        "Pudendos externos",
+        "Cavernosos",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Durante la prostatectomía radical, el principal riesgo es la disfunción eréctil posoperatoria, causada por lesión de los nervios cavernosos, que son fibras parasimpáticas responsables de la erección. Estos nervios se originan del plexo pélvico y discurren a lo largo de la cápsula prostática posterolateral, por lo que su preservación requiere una técnica meticulosa conocida como prostatectomía con preservación neurovascular. Si se dañan, se pierde la capacidad de vasodilatación de los cuerpos cavernosos. Los nervios pudendos intervienen en la eyaculación y el control esfinteriano, no en la erección.",
+      "comentario": "Durante la prostatectomía radical, el principal riesgo es la disfunción eréctil posoperatoria, causada por lesión de los nervios cavernosos, que son fibras parasimpáticas responsables de la erección. Estos nervios se originan del plexo pélvico y discurren a lo largo de la cápsula prostática posterolateral, por lo que su preservación requiere una técnica meticulosa conocida como prostatectomía con preservación neurovascular. Si se dañan, se pierde la capacidad de vasodilatación de los cuerpos cavernosos. Los nervios pudendos intervienen en la eyaculación y el control esfinteriano, no en la erección.",
+      "tema": "Prostatectomía radical: nervios cavernosos",
+      "año": 2025
+    },
+    {
+      "id": "NEF-065",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 76 años que, desde hace 1 año, presenta polaquiuria, disuria y urgencia vesical, hace dos meses vaciado incompleto de vejiga y goteo postmiccional. Al tacto: próstata aumentada de tamaño en forma difusa. PSA 5 ng/ml. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Agonistas de la GnRH",
+        "Resección transuretral de la próstata",
+        "Bloqueadores alfa adrenérgicos",
+        "Vaporización de la próstata con láser",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente adulto mayor con síntomas obstructivos urinarios crónicos progresivos, incluyendo polaquiuria, disuria, urgencia vesical y sensación de vaciado incompleto, que son característicos de una hiperplasia prostática benigna (HPB). Al tacto rectal se evidencia aumento de volumen prostático difuso y el PSA es de 5 ng/ml, lo cual no es sugestivo de malignidad, sino compatible con HPB. El tratamiento inicial recomendado para pacientes sintomáticos y sin complicaciones es el uso de bloqueadores alfa-adrenérgicos, como tamsulosina, que mejoran el flujo urinario relajando el músculo liso del cuello vesical. La resección transuretral de próstata se reserva para casos severos o refractarios. Los agonistas de GnRH se utilizan en cáncer de próstata. La vaporización prostática es otra opción quirúrgica, no de primera línea.",
+      "comentario": "Paciente adulto mayor con síntomas obstructivos urinarios crónicos progresivos, incluyendo polaquiuria, disuria, urgencia vesical y sensación de vaciado incompleto, que son característicos de una hiperplasia prostática benigna (HPB). Al tacto rectal se evidencia aumento de volumen prostático difuso y el PSA es de 5 ng/ml, lo cual no es sugestivo de malignidad, sino compatible con HPB. El tratamiento inicial recomendado para pacientes sintomáticos y sin complicaciones es el uso de bloqueadores alfa-adrenérgicos, como tamsulosina, que mejoran el flujo urinario relajando el músculo liso del cuello vesical. La resección transuretral de próstata se reserva para casos severos o refractarios. Los agonistas de GnRH se utilizan en cáncer de próstata. La vaporización prostática es otra opción quirúrgica, no de primera línea.",
+      "tema": "Hiperplasia prostática: alfabloqueadores",
+      "año": 2022
+    },
+    {
+      "id": "NEF-066",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Adolescente de 13 años que desde hace tres horas inicia dolor intenso y súbito en testículo derecho. Examen: aumento de volumen y posición alta de testículo derecho ¿Cuáles es el diagnostico probable?",
+      "opciones": [
+        "Hematocele",
+        "Hidrocele",
+        "Torsión testicular",
+        "Hernia inguinal incarcerada",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La torsión testicular es una emergencia urológica que se presenta con dolor testicular súbito, intenso y de rápida evolución. El signo clásico es un testículo en posición alta y horizontalizada, con aumento de volumen y reflejo cremastérico ausente. Ocurre típicamente en adolescentes y requiere intervención quirúrgica inmediata para evitar la necrosis testicular. La sospecha clínica basta para proceder a cirugía sin necesidad de esperar exámenes auxiliares.",
+      "comentario": "La torsión testicular es una emergencia urológica que se presenta con dolor testicular súbito, intenso y de rápida evolución. El signo clásico es un testículo en posición alta y horizontalizada, con aumento de volumen y reflejo cremastérico ausente. Ocurre típicamente en adolescentes y requiere intervención quirúrgica inmediata para evitar la necrosis testicular. La sospecha clínica basta para proceder a cirugía sin necesidad de esperar exámenes auxiliares.",
+      "tema": "Torsión testicular",
+      "año": 2023
+    },
+    {
+      "id": "NEF-067",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 48 años con diarrea de alto flujo presenta diuresis de 200 ml en 24 horas. Lab: Na (orina) <20 meq/L, excreción fraccionada de sodio <1%, creatinina en orina/plasma > 40, creatinina sérica 1.8 mg/dl. ¿Cuál es la indicación a seguir?",
+      "opciones": [
+        "Reto de fluidos",
+        "Observación ambulatoria",
+        "Uso de diuréticos",
+        "Dopamina a dosis diuréticas",
+        "Repetir examen en 24 horas"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con diarrea severa y signos de hipoperfusión renal (oliguria, Na urinario <20, FENa <1%, razón Cr orina/plasma >40), compatible con una injuria renal prerrenal por deshidratación. El tratamiento inmediato es la reposición con fluidos (reto de volumen), lo cual permite revertir la hipoperfusión si es detectada a tiempo.",
+      "comentario": "Paciente con diarrea severa y signos de hipoperfusión renal (oliguria, Na urinario <20, FENa <1%, razón Cr orina/plasma >40), compatible con una injuria renal prerrenal por deshidratación. El tratamiento inmediato es la reposición con fluidos (reto de volumen), lo cual permite revertir la hipoperfusión si es detectada a tiempo.",
+      "tema": "Lesión renal prerrenal por diarrea: reto de fluidos",
+      "año": 2020
+    },
+    {
+      "id": "NEF-068",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2020 · pregunta oficial",
+      "enunciado": "Varón de 65 años, inicia enfermedad con nicturia y hemospermia de manera súbita. Antecedentes: Padre falleció de cáncer de próstata. TR: próstata indurada. APS: 11,5 ng/ml. Gleason < 6.TEM: No extensión extra prostática. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Prostatectomía radical",
+        "Radioterapia y hormonoterapia",
+        "Hormonoterapia y quimioterapia",
+        "Orquidectomía y radioterapia",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con síntomas de cáncer de próstata, antecedentes familiares y un PSA elevado (11,5 ng/mL), con tacto rectal sugestivo y un Gleason bajo (<6), sin evidencia de extensión extracapsular. En este caso de cáncer localizado y bajo riesgo, la prostatectomía radical es una opción curativa. En casos más avanzados o con Gleason altos se considerarían hormonoterapia y/o radioterapia. Por tanto, en este escenario inicial y localizado, la respuesta correcta es A: prostatectomía radical.",
+      "comentario": "Paciente con síntomas de cáncer de próstata, antecedentes familiares y un PSA elevado (11,5 ng/mL), con tacto rectal sugestivo y un Gleason bajo (<6), sin evidencia de extensión extracapsular. En este caso de cáncer localizado y bajo riesgo, la prostatectomía radical es una opción curativa. En casos más avanzados o con Gleason altos se considerarían hormonoterapia y/o radioterapia. Por tanto, en este escenario inicial y localizado, la respuesta correcta es A: prostatectomía radical.",
+      "tema": "Cáncer de próstata localizado: prostatectomía radical",
+      "año": 2020
+    },
+    {
+      "id": "NEF-069",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Los testículos se originan de la cavidad retroperitoneal. Antes de los 2 años debe haber descendido al escroto. La falta de descenso se conoce como criptorquidia bilateral. ¿Cuál de las siguientes es una consecuencia de esta anomalía?",
+      "opciones": [
+        "Azoospermia",
+        "Teratospermia",
+        "Varicocele",
+        "Hidrocele",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La criptorquidia bilateral es una anomalía congénita en la que los testículos no descienden del abdomen al escroto. La exposición prolongada al calor intraabdominal afecta gravemente la espermatogénesis, lo que puede conducir a azoospermia, es decir, ausencia de espermatozoides en el semen. Esto se traduce en infertilidad. Además, existe un mayor riesgo de torsión testicular y transformación maligna (seminoma). El varicocele no está relacionado directamente con la criptorquidia. La hidrocele es acumulación de líquido en la túnica vaginal, sin relación con el descenso testicular.",
+      "comentario": "La criptorquidia bilateral es una anomalía congénita en la que los testículos no descienden del abdomen al escroto. La exposición prolongada al calor intraabdominal afecta gravemente la espermatogénesis, lo que puede conducir a azoospermia, es decir, ausencia de espermatozoides en el semen. Esto se traduce en infertilidad. Además, existe un mayor riesgo de torsión testicular y transformación maligna (seminoma). El varicocele no está relacionado directamente con la criptorquidia. La hidrocele es acumulación de líquido en la túnica vaginal, sin relación con el descenso testicular.",
+      "tema": "Criptorquidia bilateral: azoospermia",
+      "año": 2021
+    },
+    {
+      "id": "NEF-070",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 18 años, consulta por tumor en testículo derecho, la biopsia revela: cáncer de testículo tipo no seminoma. ¿Cuál es el marcador tumoral que solicitaría para hacer su seguimiento?",
+      "opciones": [
+        "Alfa Feto Proteína",
+        "Antígeno carcinoembrionario",
+        "Antígeno polipeptídico tisular",
+        "Antígeno prostático específico",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cáncer testicular no seminomatoso incluye varios subtipos: carcinoma embrionario, tumor del saco vitelino, coriocarcinoma y teratoma. Dentro de estos, la alfa-fetoproteína (AFP) es especialmente útil en el seguimiento de tumores del saco vitelino y carcinoma embrionario, ya que se eleva significativamente en estos tipos. Su dosificación es clave tanto en el diagnóstico como en la evaluación de la respuesta al tratamiento y en la detección de recidivas. Otros marcadores útiles son la beta-HCG y LDH, pero no se mencionan en las alternativas. Las demás opciones — antígeno carcinoembrionario, antígeno polipeptídico tisular y PSA— no tienen utilidad específica en este tipo de cáncer, siendo más propias de otros órganos (colon, pulmón, próstata). Por lo tanto, l a AFP es el marcador de elección en este contexto clínico.",
+      "comentario": "El cáncer testicular no seminomatoso incluye varios subtipos: carcinoma embrionario, tumor del saco vitelino, coriocarcinoma y teratoma. Dentro de estos, la alfa-fetoproteína (AFP) es especialmente útil en el seguimiento de tumores del saco vitelino y carcinoma embrionario, ya que se eleva significativamente en estos tipos. Su dosificación es clave tanto en el diagnóstico como en la evaluación de la respuesta al tratamiento y en la detección de recidivas. Otros marcadores útiles son la beta-HCG y LDH, pero no se mencionan en las alternativas. Las demás opciones — antígeno carcinoembrionario, antígeno polipeptídico tisular y PSA— no tienen utilidad específica en este tipo de cáncer, siendo más propias de otros órganos (colon, pulmón, próstata). Por lo tanto, l a AFP es el marcador de elección en este contexto clínico.",
+      "tema": "Tumor testicular no seminomatoso: alfafetoproteína",
+      "año": 2021
+    },
+    {
+      "id": "NEF-071",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niño de 7 años, con antecedente de impétigo 3 semanas antes, que acude a consulta con su padre, por presentar orina escasa, hematúrica y edema periorbitario. Al examen: PA: 140/90 mmHg. Laboratorio: C3 23 mg/mL. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Glomerulonefritis postestreptocócica",
+        "Síndrome Nefrótico a cambios mínimos",
+        "Glomerulonefritis membranoproliferativa",
+        "Nefropatía por Ig A",
+        "Diabetes Mellitus"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El contexto clínico es típico de glomerulonefritis postestreptocócica (GNPE), que ocurre 2-3 semanas después de una infección por estreptococo del grupo A, especialmente cutánea (impétigo) o faríngea. El niño presenta signos del síndrome nefrítico: hematuria macroscópica, edema periorbitario, hipertensión arterial y oliguria. El complemento C3 disminuido (hipocomplementemia) es un hallazgo clave y transitorio en esta entidad. A diferencia de la nefropatía por IgA, que se presenta con hematuria sin hipocomplementemia y en días posteriores a una infección respiratoria; la glomerulonefritis membranoproliferativa también puede tener C3 bajo, pero es crónica; y el síndrome nefrótico a cambios mínimos no cursa con hematuria ni HTA. Diagnóstico: GNPE.",
+      "comentario": "El contexto clínico es típico de glomerulonefritis postestreptocócica (GNPE), que ocurre 2-3 semanas después de una infección por estreptococo del grupo A, especialmente cutánea (impétigo) o faríngea. El niño presenta signos del síndrome nefrítico: hematuria macroscópica, edema periorbitario, hipertensión arterial y oliguria. El complemento C3 disminuido (hipocomplementemia) es un hallazgo clave y transitorio en esta entidad. A diferencia de la nefropatía por IgA, que se presenta con hematuria sin hipocomplementemia y en días posteriores a una infección respiratoria; la glomerulonefritis membranoproliferativa también puede tener C3 bajo, pero es crónica; y el síndrome nefrótico a cambios mínimos no cursa con hematuria ni HTA. Diagnóstico: GNPE.",
+      "tema": "Glomerulonefritis postestreptocócica tras impétigo",
+      "año": 2021
+    },
+    {
+      "id": "NEF-072",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Niño de 9 años, presenta cuadro clínico de inicio agudo de intenso dolor tipo cólico en todo el abdomen, polaquiuria y tenesmo. No fiebre. Sedimento de orina muestra hematíes abundantes por campo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Cistitis aguda",
+        "Pielonefritis aguda",
+        "Litiasis renal",
+        "Uretritis hemorrágica",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Niño de 9 años con inicio agudo de dolor abdominal tipo cólico generalizado, acompañado de síntomas urinarios bajos (polaquiuria, tenesmo) y hematuria abundante sin fiebre. Este cuadro sugiere un proceso obstructivo o irritativo del tracto urinario bajo o medio, siendo la litiasis renal la principal sospecha, dado el tipo de dolor y la ausencia de fiebre. La hematuria macroscópica sin piuria ni leucocitosis descarta pielonefritis. La cistitis y uretritis hemorrágica suelen cursar con disuria, ardor y, generalmente, fiebre o síntomas más localizados. En contraste, la litiasis se manifiesta con dolor intenso tipo cólico y hematuria franca, siendo típica en escolares. Así, el diagnóstico más probable es litiasis renal, y se debe confirmar con ecografía renal y urinaria.",
+      "comentario": "Niño de 9 años con inicio agudo de dolor abdominal tipo cólico generalizado, acompañado de síntomas urinarios bajos (polaquiuria, tenesmo) y hematuria abundante sin fiebre. Este cuadro sugiere un proceso obstructivo o irritativo del tracto urinario bajo o medio, siendo la litiasis renal la principal sospecha, dado el tipo de dolor y la ausencia de fiebre. La hematuria macroscópica sin piuria ni leucocitosis descarta pielonefritis. La cistitis y uretritis hemorrágica suelen cursar con disuria, ardor y, generalmente, fiebre o síntomas más localizados. En contraste, la litiasis se manifiesta con dolor intenso tipo cólico y hematuria franca, siendo típica en escolares. Así, el diagnóstico más probable es litiasis renal, y se debe confirmar con ecografía renal y urinaria.",
+      "tema": "Litiasis urinaria en el niño",
+      "año": 2021
+    },
+    {
+      "id": "NEF-073",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 33 años acude al servicio de urología por presentar disminución de volumen testicular. Antecedente: hace un año fue sometido a cirugía por traumatismo pélvico. ¿Qué complicación quirúrgica explica este cuadro?",
+      "opciones": [
+        "Ablación del cuerpo del epidídimo",
+        "Ligadura de arteria testicular",
+        "Sección del conducto deferente",
+        "Desgarro de la arteria funicular",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón con antecedente de cirugía pélvica que presenta atrofia testicular. Esto sugiere una complicación vascular postquirúrgica. La ligadura de la arteria testicular reduce el flujo sanguíneo al testículo, ocasionando hipoxia tisular y atrofia progresiva. La sección del conducto deferente afecta la fertilidad, pero no el volumen testicular. La ablación del cuerpo del epidídimo afectaría más bien el almacenamiento de espermatozoides. La arteria funicular como término anatómico no es correcto ni específico.",
+      "comentario": "Varón con antecedente de cirugía pélvica que presenta atrofia testicular. Esto sugiere una complicación vascular postquirúrgica. La ligadura de la arteria testicular reduce el flujo sanguíneo al testículo, ocasionando hipoxia tisular y atrofia progresiva. La sección del conducto deferente afecta la fertilidad, pero no el volumen testicular. La ablación del cuerpo del epidídimo afectaría más bien el almacenamiento de espermatozoides. La arteria funicular como término anatómico no es correcto ni específico.",
+      "tema": "Atrofia testicular por ligadura de la arteria testicular",
+      "año": 2021
+    },
+    {
+      "id": "NEF-074",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Varón de 68 años, en terapia con hidroclorotiazida. Desde hace 15 días presenta debilidad muscular, incluso se ha caído en dos ocasiones. Al examen: presenta debilidad generalizada con hiporreflexia. ¿Cuál es el procedimiento inicial?",
+      "opciones": [
+        "TAC cerebral",
+        "Electromiografía",
+        "Electroencefalografía",
+        "Electrocardiografía",
+        "Ecocardiograma"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El paciente está en tratamiento con hidroclorotiazida, un diurético tiazídico que puede producir hipopotasemia, causa frecuente de debilidad muscular e hiporreflexia. La hipopotasemia también puede provocar alteraciones electrocardiográficas como aplanamiento de la onda T, ondas U prominentes y arritmias. Por tanto, el electrocardiograma (ECG) es el examen inicial más útil para detectar estas complicaciones cardiacas. El TAC, la electromiografía y el EEG no son útiles como primeras medidas en este contexto clínico.",
+      "comentario": "El paciente está en tratamiento con hidroclorotiazida, un diurético tiazídico que puede producir hipopotasemia, causa frecuente de debilidad muscular e hiporreflexia. La hipopotasemia también puede provocar alteraciones electrocardiográficas como aplanamiento de la onda T, ondas U prominentes y arritmias. Por tanto, el electrocardiograma (ECG) es el examen inicial más útil para detectar estas complicaciones cardiacas. El TAC, la electromiografía y el EEG no son útiles como primeras medidas en este contexto clínico.",
+      "tema": "Hipopotasemia por tiazidas: electrocardiograma",
+      "año": 2021
+    },
+    {
+      "id": "NEF-075",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2021 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, desde hace 5 meses tiene molestias urinarias recurrentes. Examen de orina muestra pH ácido, leucocitos 60 x campo. Urocultivo negativo. ¿Cuál es la sospecha diagnóstica?",
+      "opciones": [
+        "Absceso perirrenal",
+        "Cistitis crónica",
+        "Pielonefritis crónica",
+        "Tuberculosis urogenital",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con síntomas urinarios recurrentes por meses, pH ácido, piuria marcada y urocultivo negativo. En este contexto, se debe sospechar tuberculosis urogenital, entidad que simula una infección urinaria crónica, pero con cultivos negativos por gérmenes comunes. Es una forma extrapulmonar de TB que puede comprometer vejiga, uréteres y riñones. La cistitis crónica o la pielonefritis suelen tener urocultivo positivo. El absceso perirrenal se acompaña de fiebre y dolor en flanco. La TB urinaria debe confirmarse con cultivo para Mycobacterium tuberculosis o PCR.",
+      "comentario": "Paciente con síntomas urinarios recurrentes por meses, pH ácido, piuria marcada y urocultivo negativo. En este contexto, se debe sospechar tuberculosis urogenital, entidad que simula una infección urinaria crónica, pero con cultivos negativos por gérmenes comunes. Es una forma extrapulmonar de TB que puede comprometer vejiga, uréteres y riñones. La cistitis crónica o la pielonefritis suelen tener urocultivo positivo. El absceso perirrenal se acompaña de fiebre y dolor en flanco. La TB urinaria debe confirmarse con cultivo para Mycobacterium tuberculosis o PCR.",
+      "tema": "Piuria estéril: tuberculosis urogenital",
+      "año": 2021
+    },
+    {
+      "id": "NEF-076",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 66 años, desde hace 20 años con osteomielitis. Inicia hace 8 meses edema progresivo que evoluciona a anasarca. Al examen: PA 150/80 mmHg. Laboratorio: proteinuria de 7 g/24 h, albúmina sérica 2.1 g/dl, creatinina 3.5 mg/dl, hemoglobina glicosilada 6%. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Nefropatía hipertensiva",
+        "Amiloidosis renal",
+        "Glomerulonefritis post infecciosa",
+        "Nefropatía diabética",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Varón adulto mayor con antecedente de osteomielitis crónica y con cuadro clínico de síndrome nefrótico: edema progresivo, anasarca, proteinuria en rango nefrótico, hipoalbuminemia y deterioro de la función renal. La relación con una enfermedad inflamatoria crónica (como osteomielitis) orienta hacia una amiloidosis secundaria (AA), en la que los depósitos de proteínas amiloides en el riñón producen proteinuria masiva. La HbA1c normal excluye nefropatía diabética; la hipertensión por sí sola no genera este grado de proteinuria. Tampoco es una glomerulonefritis postinfecciosa, pues no hay antecedente reciente de faringitis ni características compatibles.",
+      "comentario": "Varón adulto mayor con antecedente de osteomielitis crónica y con cuadro clínico de síndrome nefrótico: edema progresivo, anasarca, proteinuria en rango nefrótico, hipoalbuminemia y deterioro de la función renal. La relación con una enfermedad inflamatoria crónica (como osteomielitis) orienta hacia una amiloidosis secundaria (AA), en la que los depósitos de proteínas amiloides en el riñón producen proteinuria masiva. La HbA1c normal excluye nefropatía diabética; la hipertensión por sí sola no genera este grado de proteinuria. Tampoco es una glomerulonefritis postinfecciosa, pues no hay antecedente reciente de faringitis ni características compatibles.",
+      "tema": "Amiloidosis renal secundaria a osteomielitis",
+      "año": 2022
+    },
+    {
+      "id": "NEF-077",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2022 · pregunta oficial",
+      "enunciado": "Varón de 24 años acude por orinas rojas. Antecedente: episodios de hematuria después de infecciones respiratorias altas desde hace 5 años. Laboratorio: examen de orina: hematíes 89 x campo (siendo el 80% dismórficos), creatinina 1 mg/dl, proteinuria de 0,8 gramos en 24 horas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Glomerulonefritis membranosa",
+        "Glomeruloesclerosis focal y segmentaria primaria",
+        "Nefropatía por IgA",
+        "Nefropatía de cambios mínimos",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente joven con episodios repetidos de hematuria macroscópica inmediatamente posteriores a infecciones respiratorias altas, lo cual es una característica clásica de nefropatía por IgA (enfermedad de Berger). La presencia de hematíes dismórficos en el sedimento urinario (80%) sugiere origen glomerular. La creatinina normal y la proteinuria <1 g/24 h apuntan a daño renal leve sin síndrome nefrótico. La glomerulonefritis membranosa y la GEFS primaria usualmente se presentan con proteinuria nefrótica; la enfermedad de cambios mínimos no se asocia a hematuria significativa ni hematíes dismórficos.",
+      "comentario": "Paciente joven con episodios repetidos de hematuria macroscópica inmediatamente posteriores a infecciones respiratorias altas, lo cual es una característica clásica de nefropatía por IgA (enfermedad de Berger). La presencia de hematíes dismórficos en el sedimento urinario (80%) sugiere origen glomerular. La creatinina normal y la proteinuria <1 g/24 h apuntan a daño renal leve sin síndrome nefrótico. La glomerulonefritis membranosa y la GEFS primaria usualmente se presentan con proteinuria nefrótica; la enfermedad de cambios mínimos no se asocia a hematuria significativa ni hematíes dismórficos.",
+      "tema": "Nefropatía por IgA: hematuria tras infección respiratoria",
+      "año": 2022
+    },
+    {
+      "id": "NEF-078",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "¿Cuál es el pilar del tratamiento NO quirúrgico de la hipertrofia benigna de próstata?",
+      "opciones": [
+        "Bloqueadores de los receptores adrenérgicos β1",
+        "Inhibidores del óxido nitroso",
+        "Inhibidores de la 5 α reductasa",
+        "Bloqueadores de los receptores adrenérgicos α1",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El tratamiento médico inicial de la hiperplasia prostática benigna (HPB) incluye dos grupos principales de fármacos: los bloqueadores α1 - adrenérgicos (como tamsulosina) y los inhibidores de la 5α -reductasa. Sin embargo, los bloqueadores α1 son el pilar inicial, ya que actúan rápidamente relajando el músculo liso prostático y uretral, mejorando el flujo urinario y reduciendo los síntomas obstructivos. Los inhibidores de la 5α -reductasa se usan como tratamiento complementario en casos de próstata aumentada de tamaño.",
+      "comentario": "El tratamiento médico inicial de la hiperplasia prostática benigna (HPB) incluye dos grupos principales de fármacos: los bloqueadores α1 - adrenérgicos (como tamsulosina) y los inhibidores de la 5α -reductasa. Sin embargo, los bloqueadores α1 son el pilar inicial, ya que actúan rápidamente relajando el músculo liso prostático y uretral, mejorando el flujo urinario y reduciendo los síntomas obstructivos. Los inhibidores de la 5α -reductasa se usan como tratamiento complementario en casos de próstata aumentada de tamaño.",
+      "tema": "Hiperplasia benigna de próstata: alfa-bloqueadores",
+      "año": 2023
+    },
+    {
+      "id": "NEF-079",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Paciente adulto en UCI, con neumonía asociada a ventilación mecánica, en shock con disfunción de órganos que cursa con falla renal aguda, la mejor opción de terapia de reemplazo es:",
+      "opciones": [
+        "Hemodiálisis continua",
+        "Hemodiálisis intermitente",
+        "Hemodiálisis interdiaria",
+        "Diálisis peritoneal",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En pacientes críticos con shock y disfunción multiorgánica, como en el caso de una neumonía asociada a ventilación mecánica con falla renal aguda, la opción más adecuada de terapia de reemplazo renal es la hemodiálisis continua (también conocida como CRRT por sus siglas en inglés). Esta técnica permite una depuración lenta y constante, evitando la inestabilidad hemodinámica que podría causar una hemodiálisis intermitente. Además, permite un mejor control del balance hídrico y metabólico en pacientes en estado crítico.",
+      "comentario": "En pacientes críticos con shock y disfunción multiorgánica, como en el caso de una neumonía asociada a ventilación mecánica con falla renal aguda, la opción más adecuada de terapia de reemplazo renal es la hemodiálisis continua (también conocida como CRRT por sus siglas en inglés). Esta técnica permite una depuración lenta y constante, evitando la inestabilidad hemodinámica que podría causar una hemodiálisis intermitente. Además, permite un mejor control del balance hídrico y metabólico en pacientes en estado crítico.",
+      "tema": "Lesión renal aguda en el paciente en shock: terapia continua",
+      "año": 2023
+    },
+    {
+      "id": "NEF-080",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 55 años, antecedentes de hipertensión arterial, insuficiencia renal crónica leve e hipertrofia benigna prostática; cursa con infección urinaria y falla renal aguda con tendencia a oliguria. Laboratorio: creatinina 4mg/dl, AGA: pH: 7,28, HCO3: 12 mEq/l, PCO2: 28 mmHg, PO2: 70 mmHg, K: 8 mEq/l. Rx tórax: sin congestión pulmonar, EKG: bradiarritmia con intermitencias de bloque de 2do grado. ¿Cuál es la prioridad terapéutica?",
+      "opciones": [
+        "Corregir la acidosis metabólica",
+        "Incrementar el flujo urinario",
+        "Uso de marcapaso transitorio",
+        "Corregir la hiperkalemia",
+        "Apendicitis aguda"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La prioridad terapéutica en este paciente es corregir la hiperkalemia (opción D), ya que los niveles elevados de potasio pueden causar arritmias cardíacas graves. La hiperkalemia debe tratarse de inmediato con medidas como calcio intravenoso, bicarbonato sódico y glucosa con insulina. Aun que la acidosis metabólica y otras intervenciones son importantes, la corrección de la hiperkalemia es crucial para evitar complicaciones mortales.",
+      "comentario": "La prioridad terapéutica en este paciente es corregir la hiperkalemia (opción D), ya que los niveles elevados de potasio pueden causar arritmias cardíacas graves. La hiperkalemia debe tratarse de inmediato con medidas como calcio intravenoso, bicarbonato sódico y glucosa con insulina. Aun que la acidosis metabólica y otras intervenciones son importantes, la corrección de la hiperkalemia es crucial para evitar complicaciones mortales.",
+      "tema": "Hiperpotasemia con bradiarritmia: corregir el potasio",
+      "año": 2023
+    },
+    {
+      "id": "NEF-081",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Mujer de 48 años, con nefropatía diabética, médico naturista hace un mes le indica magnesio 1 sobre c/8h. Desde hace 3 días presenta disminución de fuerza en extremidades con dificultad para levantar objetos. Examen: PA 80/50 mmHg, FC 68 X', FR 28 X', SatO₂ 91 %; tendencia al sueño, pupilas dilatadas; ROT: hipoactivos. Lab: magnesio: 4.2 mmol/L. ¿Cuál es el tratamiento inmediato?",
+      "opciones": [
+        "Nifedipino",
+        "Hemodiálisis",
+        "Furosemida",
+        "Enemas",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta signos de intoxicación por magnesio (magnesio: 4.2 mmol/L ≈ 10.2 mg/dL), con alteraciones neuromusculares (debilidad, reflejos hipoactivos), cardiovasculares (hipotensión, bradicardia) y neurológicas (somnolencia). En pacientes con insuficiencia renal como esta (nefropatía diabética), la excreción de magnesio está severamente reducida, lo que favorece la acumulación. Ante cuadros graves de hipermagnesemia, el tratamiento inmediato de elección es la hemodiálisis. Furosemida puede considerarse si hay función renal conservada, lo que no ocurre aquí. Nifedipino no está indicado y los enemas son irrelevantes. Por tanto, el tratamiento indicado es la hemodiálisis.",
+      "comentario": "La paciente presenta signos de intoxicación por magnesio (magnesio: 4.2 mmol/L ≈ 10.2 mg/dL), con alteraciones neuromusculares (debilidad, reflejos hipoactivos), cardiovasculares (hipotensión, bradicardia) y neurológicas (somnolencia). En pacientes con insuficiencia renal como esta (nefropatía diabética), la excreción de magnesio está severamente reducida, lo que favorece la acumulación. Ante cuadros graves de hipermagnesemia, el tratamiento inmediato de elección es la hemodiálisis. Furosemida puede considerarse si hay función renal conservada, lo que no ocurre aquí. Nifedipino no está indicado y los enemas son irrelevantes. Por tanto, el tratamiento indicado es la hemodiálisis.",
+      "tema": "Hipermagnesemia grave con falla renal: hemodiálisis",
+      "año": 2023
+    },
+    {
+      "id": "NEF-082",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2023 · pregunta oficial",
+      "enunciado": "Varón de 24 años, hace 3 días presentó dolor lumbar derecho irradiado a testículo asociado a hematuria. Hoy acude a emergencia por dolor suprapúbico y ha notado disminución del volumen de orina. Examen: se palpa masa abdominal en hipogastrio. Lab: creatinina: 2.8 mg/dL y potasio: 5,6 mEq/l. ¿Cuál es el tipo de insuficiencia renal aguda?",
+      "opciones": [
+        "Prerrenal",
+        "Renal",
+        "Intrínseca",
+        "Posrenal",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La presentación clínica descrita sugiere una insuficiencia renal aguda (IRA) posrenal (Opción D). La insuficiencia renal posrenal se produce debido a una obstrucción del tracto urinario que impide el flujo de la orina fuera del riñón. Esta obstrucción puede deberse a cálculos renales, tumores u otras causas mecánicas. La disminución del volumen urinario, dolor lumbar irradiado al testículo, hematuria, dolor suprapúbico y la presencia de una masa abdominal en hipogastrio, junto con los hallazgos de laboratorio de elevación de creatinina y potasio, son consistentes con una obstrucción del tracto urinario, lo que lleva a una acumulación de orina y, finalmente, a una disfunción renal.",
+      "comentario": "La presentación clínica descrita sugiere una insuficiencia renal aguda (IRA) posrenal (Opción D). La insuficiencia renal posrenal se produce debido a una obstrucción del tracto urinario que impide el flujo de la orina fuera del riñón. Esta obstrucción puede deberse a cálculos renales, tumores u otras causas mecánicas. La disminución del volumen urinario, dolor lumbar irradiado al testículo, hematuria, dolor suprapúbico y la presencia de una masa abdominal en hipogastrio, junto con los hallazgos de laboratorio de elevación de creatinina y potasio, son consistentes con una obstrucción del tracto urinario, lo que lleva a una acumulación de orina y, finalmente, a una disfunción renal.",
+      "tema": "Lesión renal aguda posrenal: globo vesical",
+      "año": 2023
+    },
+    {
+      "id": "NEF-083",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 29 años, acude a urgencias por cansancio, debilidad muscular y calambres durante estos últimos 5 días. Ha perdido 8 kilos de peso desde hace 3 semanas. Examen: PA 90/60, FC 100, piel y mucosas secas, ROT disminuidos. ECG: ondas U prominentes y aplanamiento de la onda T. ¿Cuál de las siguientes opciones sería la explicación más probable por los hallazgos del ECG?",
+      "opciones": [
+        "Sobredosis de vitamina B6",
+        "Mal uso de polietilenglicol",
+        "Uso liotironina",
+        "Abuso de espironolactona",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los hallazgos descritos en el cuadro clínico, así como los del ECG son típicos de hipokalemia. La hipokalemia puede causar debilidad muscular, calambres, disminución de los reflejos osteotendinosos y cambios específicos en el ECG, como las ondas U prominentes y el aplanamiento de la onda T. Dentro de las alternativas propuestas, la que se asocia a hipokalemia con mayor probabilidad es el mal uso de polietilenglicol (Alternativa B). El polietilenglicol es un laxante osmótico que, si se usa en exceso, puede causar deshidratación y pérdida de electrolitos, incluyendo potasio, lo que puede llevar a hipokalemia. Esto explica tanto los síntomas clínicos de la paciente como los hallazgos en el ECG.",
+      "comentario": "Los hallazgos descritos en el cuadro clínico, así como los del ECG son típicos de hipokalemia. La hipokalemia puede causar debilidad muscular, calambres, disminución de los reflejos osteotendinosos y cambios específicos en el ECG, como las ondas U prominentes y el aplanamiento de la onda T. Dentro de las alternativas propuestas, la que se asocia a hipokalemia con mayor probabilidad es el mal uso de polietilenglicol (Alternativa B). El polietilenglicol es un laxante osmótico que, si se usa en exceso, puede causar deshidratación y pérdida de electrolitos, incluyendo potasio, lo que puede llevar a hipokalemia. Esto explica tanto los síntomas clínicos de la paciente como los hallazgos en el ECG.",
+      "tema": "Hipopotasemia por abuso de laxantes",
+      "año": 2024
+    },
+    {
+      "id": "NEF-084",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, consulta por hinchazón en las piernas, orinas espumosas y caída de cabello desde hace un año. Antecedente: artralgias. Examen: PA: 140/90 mmHg; eritema malar y alopecia difusa; edema de miembros inferiores frío, no doloroso, fovea (+). Laboratorio: creatinina: 1.8 mg/dL, urea: 32mg/dL. ¿Qué examen es criterio diagnóstico?",
+      "opciones": [
+        "Examen completo de orina",
+        "Proteínas en orina de 24 horas",
+        "Perfil lipídico",
+        "Depuración de creatinina",
+        "Epinefrina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La paciente presenta signos sugestivos de síndrome nefrótico, como edema en miembros inferiores, orina espumosa y proteinuria. El antecedente de artralgias y eritema malar también son indicativos de una posible enfermedad autoinmune, como lupus eritematoso sistémico, que comúnmente afecta los riñones. El examen de proteínas en orina de 24 horas es clave para confirmar la presencia de proteinuria significativa, que es criterio diagnóstico en el síndrome nefrótico.",
+      "comentario": "La paciente presenta signos sugestivos de síndrome nefrótico, como edema en miembros inferiores, orina espumosa y proteinuria. El antecedente de artralgias y eritema malar también son indicativos de una posible enfermedad autoinmune, como lupus eritematoso sistémico, que comúnmente afecta los riñones. El examen de proteínas en orina de 24 horas es clave para confirmar la presencia de proteinuria significativa, que es criterio diagnóstico en el síndrome nefrótico.",
+      "tema": "Nefritis lúpica: proteinuria de 24 horas",
+      "año": 2024
+    },
+    {
+      "id": "NEF-085",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 60 años con falla cardíaca y diabetes tipo 2, presenta insuficiencia renal aguda. EKG: T picudas, prolongación del PR y ensanchamiento del QRS. ¿Cuál es el manejo inicial para la estabilización miocárdica?",
+      "opciones": [
+        "Resinas de intercambio iónico",
+        "Hidrocortisona",
+        "Gluconato de calcio",
+        "Diuréticos de asa",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El paciente con insuficiencia renal aguda presenta alteraciones electrocardiográficas compatibles con hiperpotasemia grave (T picudas, PR prolongado, QRS ensanchado). La hiperpotasemia severa puede provocar arritmias letales, por lo que el manejo inicial es la estabilización de la membrana miocárdica con gluconato de calcio. Este tratamiento no reduce el potasio, pero protege el corazón de sus efectos arrítmicos. Posteriormente, se deben usar medidas para disminuir el potasio como diuréticos, resinas de intercambio, insulina con glucosa o hemodiálisis, según la gravedad del caso.",
+      "comentario": "El paciente con insuficiencia renal aguda presenta alteraciones electrocardiográficas compatibles con hiperpotasemia grave (T picudas, PR prolongado, QRS ensanchado). La hiperpotasemia severa puede provocar arritmias letales, por lo que el manejo inicial es la estabilización de la membrana miocárdica con gluconato de calcio. Este tratamiento no reduce el potasio, pero protege el corazón de sus efectos arrítmicos. Posteriormente, se deben usar medidas para disminuir el potasio como diuréticos, resinas de intercambio, insulina con glucosa o hemodiálisis, según la gravedad del caso.",
+      "tema": "Hiperpotasemia con cambios en el ECG: gluconato de calcio",
+      "año": 2024
+    },
+    {
+      "id": "NEF-086",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 72 años, con cardiopatía coronaria crónica, desde hace dos días presenta diarrea copiosas y oliguria. Acude por dificultad respiratoria y fatiga. Examen: PA 90/60 mmHg, FR 24 X´, FC 110 X´, T 37.5 °C, SatO₂ 90%; edema MMII (++), crepitantes en bases, RC arrítmicos. Lab: creatinina 2.1 mg/dl, K 4.2 mEq/l, FENa < 1%, sedimento urinario: cilindros hialinos transparentes. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Insuficiencia renal aguda prerrenal",
+        "Deshidratación severa sin compromiso renal",
+        "Insuficiencia renal aguda postrenal",
+        "Insuficiencia renal aguda intrínseca",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los hallazgos de presión arterial baja, diarreas copiosas, oliguria, edema y sugieren un cuadro de insuficiencia renal aguda prerrenal (A), probablemente debido a hipoperfusión renal secundaria a la disminución del volumen efectivo, como puede ocurrir en un estado de deshidratación o insuficiencia cardíaca. El FENa < 1% y el sedimento urinario con cilindros hialinos son típicos de insuficiencia renal prerrenal. La insuficiencia renal aguda postrenal (C) es menos probable en ausencia de litiasis renal o HBP en varones.",
+      "comentario": "Los hallazgos de presión arterial baja, diarreas copiosas, oliguria, edema y sugieren un cuadro de insuficiencia renal aguda prerrenal (A), probablemente debido a hipoperfusión renal secundaria a la disminución del volumen efectivo, como puede ocurrir en un estado de deshidratación o insuficiencia cardíaca. El FENa < 1% y el sedimento urinario con cilindros hialinos son típicos de insuficiencia renal prerrenal. La insuficiencia renal aguda postrenal (C) es menos probable en ausencia de litiasis renal o HBP en varones.",
+      "tema": "Lesión renal aguda prerrenal: FENa <1%",
+      "año": 2024
+    }
+  ]
+}
