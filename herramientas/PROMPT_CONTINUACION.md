@@ -17,6 +17,12 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - Último paquete: `MedQuizPro_flujogramas_bloque8.zip`, con `algoritmos.js` de 1713 entradas (en `herramientas/flujo/`: `content8a…d.py`, `c8.py`, `build8f.py`, `finish8.py`, `chk8.sh`, `existing_names8.txt`; el bloque 7 usa `content7a…n.py`, `c7.py`, `build7f.py`, `finish7.py`).
   - Para un bloque 9, añade a `existing_names8.txt` los nombres de `out8/flujogramas` y usa como base `out8/pack/algoritmos.js`.
   - Hecho: `MedQuizPro_flujogramas_sin_palabra_respuesta.zip` corrige 143 SVG (80 del bloque 6, regenerados con `herramientas/flujo/rebuild6.py`; 63 de los bloques 2–5, texto reemplazado). Nombres sin cambio. Bloques 2–8 revisados: ya no dicen «respuesta». Los 97 SVG antiguos del bloque 1 solo están en el servidor y no se revisaron.
+- **Banco de Ciencias Básicas (nuevo, 29-sep-2026):** del PDF `Banco_Ciencias_Básicas.pdf` (Villamedic, ed. 2019, 458 preguntas con tabla de claves y sin comentarios) entraron 393 preguntas, todas en `ciencias_basicas.json` (CB-093 a CB-485; CB queda en 485 y el total del sitio en 2106).
+  - Paquete: `MedQuizPro_ciencias_basicas_393_preguntas.zip` (solo `bancos/ciencias_basicas.json` + `LEEME.txt`).
+  - `examen_origen`: "Banco de Ciencias Básicas 2019 · pregunta de práctica", `año` 2019. Cada una lleva comentario docente propio.
+  - Herramientas en `herramientas/cb/`: `parse.py` (PDF → `cbq.json`), `r00…r09.py` (revisión: `D[n]=(tema, clave, comentario)`, `O` opciones, `N` enunciado, `X` excluidas con motivo), `merge.py` (valida), `build.py` (lista FIX de ortografía), `leeme.py`, `testcb.cjs`, `nuevoscb.json`.
+  - 65 omitidas (56 repetidas, 9 mal planteadas) y 12 claves del PDF corregidas.
+  - Faltan sus flujogramas (393 IDs de `nuevoscb.json`); para hacerlos, sigue el Flujo B con base `out8/pack/algoritmos.js` (1713).
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 
@@ -127,4 +133,5 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
 ## Próxima tarea sugerida
+Si el usuario lo pide: flujogramas de las 393 preguntas nuevas de Ciencias Básicas (bloque CB).
 Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).

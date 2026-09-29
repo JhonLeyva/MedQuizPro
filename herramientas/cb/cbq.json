@@ -1,0 +1,5489 @@
+[
+{
+"n": 1,
+"enunciado": "Es un barbitúrico de acción ultracorta:",
+"opciones": {
+"A": "Amobarbital",
+"B": "Pentobarbital",
+"C": "Tiopental",
+"D": "Fenobarbital",
+"E": "Secobarbital"
+},
+"clave": "C"
+},
+{
+"n": 2,
+"enunciado": "Acerca de los fármacos antineoplásicos, marque Verdadero o Falso:  La asparaginasa actúa e la fase G2  El cisplatino es un antimetabolito  La ciclofosfamida y la mercaptopurina se administran vía oral  El metabolito principal de la procarbazina es el ácido nisopropiltereflalico  El mecanismo de acción de los agentes alquilantes es similar al de los metales pesados Es correcto:",
+"opciones": {
+"A": "VFVFV",
+"B": "VFVVV",
+"C": "FVFVV",
+"D": "FVFFV",
+"E": "FFVVV"
+},
+"clave": "B"
+},
+{
+"n": 3,
+"enunciado": "No es un miembro de la superfamilias de la inmunoglobulinas:",
+"opciones": {
+"A": "Receptor de las células T",
+"B": "Clase I del complejo mayor de histocompatibilidad",
+"C": "Clase II del complejo mayor de histocompatibilidad",
+"D": "A y C",
+"E": "Ninguna anterior"
+},
+"clave": "E"
+},
+{
+"n": 4,
+"enunciado": "Señale la respuesta correcta:",
+"opciones": {
+"A": "La intolerancia medicamentosa es una respuesta anormal, cualitativamente diferente de los efectos farmacológicos característicos de las drogas que se producen en la inmensa mayoría de individuos.",
+"B": "La idiosincrasia consiste en una respuesta muy exagerada de un individuo a la dosis ordinaria de un medicamento; se trata de una desviación cuantitativa de la respuesta anormal",
+"C": "La idiosincrasia tiene origen inmunológico",
+"D": "La tolerancia es una resistencia exagerada del individuo, de carácter pasajero a responder a la dosis ordinaria de la droga",
+"E": "Ninguna anterior"
+},
+"clave": "E"
+},
+{
+"n": 5,
+"enunciado": "Relaciones ambas columnas: (a) Hipersensibilidad tipo I (b) Hipersensibilidad tipo II (c) Hipersensibilidad tipo III (d) Hipersensibilidad tipo IV (1) Síndrome de Goodpasture (2) Tuberculosis (3) Anafilaxia (4) Enfermedad del suero",
+"opciones": {
+"A": "a-1; b-3; c-4; d-2",
+"B": "a-3; b-2; c-1; d-4",
+"C": "a-3; b-1; c-4; d-2",
+"D": "a-2; b-1; c-4; d-3",
+"E": "a-1; b-2; c-4; d-3"
+},
+"clave": "C"
+},
+{
+"n": 6,
+"enunciado": "Es una inmunodeficiencia congénita de las células B:",
+"opciones": {
+"A": "Síndrome de di George",
+"B": "Disgenesia reticular",
+"C": "Síndrome de Wistkott-Aldrich",
+"D": "Sólo A y C",
+"E": "Todas"
+},
+"clave": "B"
+},
+{
+"n": 7,
+"enunciado": "La abertura entre las hojas anterior y derecha del tendón central del diafragma se conoce como:",
+"opciones": {
+"A": "Hiato aórtico",
+"B": "Hiato esofágico",
+"C": "Trígono costo vertebral",
+"D": "Agujero de la vena cava",
+"E": "Agujero del conducto torácico"
+},
+"clave": "D"
+},
+{
+"n": 8,
+"enunciado": "La cuerda del tímpano:",
+"opciones": {
+"A": "Se une al nervio bucal",
+"B": "Proporciona inervación a la membrana timpánica",
+"C": "Surge del nervio glosofarínego",
+"D": "Lleva fibras gustativas al tercio posterior de la lengua",
+"E": "Ninguna anterior"
+},
+"clave": "B"
+},
+{
+"n": 9,
+"enunciado": "La arteria primitiva se divide en sus ramas interna y externa a nivel del borde superior del:",
+"opciones": {
+"A": "Hioides",
+"B": "Cricoides",
+"C": "Cartílago tiroides",
+"D": "Cartílago cricotiroideo",
+"E": "Ninguna anterior"
+},
+"clave": "C"
+},
+{
+"n": 10,
+"enunciado": "¿Cuál de los siguientes músculos pertenece a grupo de los infrahioideos?",
+"opciones": {
+"A": "Milohioideo",
+"B": "Genihioideo",
+"C": "Digástrico",
+"D": "Omohioideo",
+"E": "Todos"
+},
+"clave": "D"
+},
+{
+"n": 11,
+"enunciado": "En el músculo transverso profundo del perineo se encuentra(n):",
+"opciones": {
+"A": "Las glándulas uretrales",
+"B": "Las glándulas vestibulares",
+"C": "Las glándulas bulbouretrales",
+"D": "La uretra prostática",
+"E": "La uretra esponjosa"
+},
+"clave": "C"
+},
+{
+"n": 12,
+"enunciado": "Señale lo FALSO:",
+"opciones": {
+"A": "Las fibras colágenas se observan con la técnica especial de orceina",
+"B": "Las fibras reticulares se observan con la técnica especial de PAS",
+"C": "Las fibras reticulares se observan con la técnica de impregnación argéntica",
+"D": "Con la técnica de hematoxilina y eosina, la eucromatina se tiñe de rosado",
+"E": "La sustancia fundamental se tiñe azul con la técnica hematoxilina - eosina"
+},
+"clave": "E"
+},
+{
+"n": 13,
+"enunciado": "La penicilina actúa en las bacterias a nivel de:",
+"opciones": {
+"A": "La síntesis de ADN",
+"B": "La síntesis de ácido fólico",
+"C": "La pared celular",
+"D": "La membrana celular",
+"E": "B y D"
+},
+"clave": "C"
+},
+{
+"n": 14,
+"enunciado": "Indique cuál de los fármacos que se nombran a continuación actúa inhibiendo la ARN polimerasa:",
+"opciones": {
+"A": "Pirazinamida",
+"B": "Etambutol",
+"C": "Estreptomicina",
+"D": "Rifampicina",
+"E": "Ninguna anterior"
+},
+"clave": "D"
+},
+{
+"n": 15,
+"enunciado": "La hematopoyesis en el embrión se realiza por primera vez en:",
+"opciones": {
+"A": "Bazo",
+"B": "Hígado",
+"C": "Médula ósea",
+"D": "Saco vitelino",
+"E": "Timo"
+},
+"clave": "D"
+},
+{
+"n": 16,
+"enunciado": "El triángulo de Calot está formado por:",
+"opciones": {
+"A": "Conducto cístico, hepático derecho, arteria hepática",
+"B": "Arteria cística, conducto cístico, hígado",
+"C": "Hepático común, hígado, vesícula biliar",
+"D": "Conducto cístico, hepático común, arteria cística",
+"E": "Arteria hepática, colédoco, conducto cístico"
+},
+"clave": "D"
+},
+{
+"n": 17,
+"enunciado": "El arco arterial de la curvatura menor del estómago está formado por:",
+"opciones": {
+"A": "Gastroepiploica derecha + gastroepiploica izquierda",
+"B": "Coronaria estomáquica + pilórica",
+"C": "Gástrica derecha + pilórica",
+"D": "Gástrica izquierda + coronaria estomáquica",
+"E": "Último vaso corto y gástrica izquierda"
+},
+"clave": "B"
+},
+{
+"n": 18,
+"enunciado": "Referente a embriología del aparato genital femenino, marque el enunciado INCORRECTO:",
+"opciones": {
+"A": "Los labios mayores se originan de la cloaca ectodérmica",
+"B": "El útero deriva de la diferenciación de los conductos paramesonéfricos (Müller)",
+"C": "La diferenciación gonadal depense del factor inhibidor de Müller",
+"D": "Las gónadas controlan la dirección del desarrollo de los conductos sexuales",
+"E": "El sexo del embrión es determinado genéticamente en la fecundación"
+},
+"clave": "D"
+},
+{
+"n": 19,
+"enunciado": "El nutriente que no tiene función antioxidante es:",
+"opciones": {
+"A": "Betacaroteno",
+"B": "Cobre",
+"C": "Vitamina C",
+"D": "Tocoferoles",
+"E": "Retinol"
+},
+"clave": "B"
+},
+{
+"n": 20,
+"enunciado": "En el edema angioneurótico el tratamiento preferencial es:",
+"opciones": {
+"A": "Antihistamínicos",
+"B": "Epinefrina parenteral",
+"C": "Corticoesteroides",
+"D": "Gluconato de calcio EV",
+"E": "Aminofilina"
+},
+"clave": "B"
+},
+{
+"n": 21,
+"enunciado": "El músculo ocular oblicuo mayor es inervado por:",
+"opciones": {
+"A": "Motor ocular común",
+"B": "Motor ocular externo",
+"C": "Patético",
+"D": "Óptico",
+"E": "Oftálmico"
+},
+"clave": "C"
+},
+{
+"n": 22,
+"enunciado": "El ciclo de Krebs se lleva a cabo en el:",
+"opciones": {
+"A": "Citosol",
+"B": "Núcleo",
+"C": "Mitocondria",
+"D": "Retículo endoplasmático",
+"E": "Aparato de Golgi"
+},
+"clave": "C"
+},
+{
+"n": 23,
+"enunciado": "Los siguientes son fármacos activos contra Pseudomonas aeruginosa, excepto:",
+"opciones": {
+"A": "Aztreonam",
+"B": "Cefoperazona",
+"C": "Ceftriaxona",
+"D": "Piperacilina / tazobactam",
+"E": "Imipenem / Cilastatina"
+},
+"clave": "C"
+},
+{
+"n": 24,
+"enunciado": "No actúa contra Bacteroides fragilis:",
+"opciones": {
+"A": "Cefoxitina",
+"B": "Vancomicina",
+"C": "Clindamicina",
+"D": "Metronidazol",
+"E": "Cloranfenicol"
+},
+"clave": "B"
+},
+{
+"n": 25,
+"enunciado": "El tratamiento antibiótico que se recomienda en pacientes portadores de osteomielitis durante un mínimo de semanas:",
+"opciones": {
+"A": "3",
+"B": "2",
+"C": "10",
+"D": "6",
+"E": "8"
+},
+"clave": "D"
+},
+{
+"n": 26,
+"enunciado": "Entre los efectos adversos frecuentes de los diuréticos se encuentran los siguientes, EXCEPTO uno:",
+"opciones": {
+"A": "Ginecomastia",
+"B": "Calambres musculares",
+"C": "Dislipidemia secundaria",
+"D": "Anemia hemolítica",
+"E": "Intolerancia hidrocarbonada"
+},
+"clave": "D"
+},
+{
+"n": 27,
+"enunciado": "El pie equino puede ser resultado de una lesión del nervio:",
+"opciones": {
+"A": "Femoral",
+"B": "Tibial posterior",
+"C": "Tibial anterior",
+"D": "Crural",
+"E": "Pudendo"
+},
+"clave": "C"
+},
+{
+"n": 28,
+"enunciado": "La inhibición de la anhidrasa carbónica, en los túbulos renales, dará lugar a:",
+"opciones": {
+"A": "Una reducción de las reservas de bicarbonato del plasma",
+"B": "Mayor retención de potasio",
+"C": "Una reducción de la diuresis",
+"D": "Una mayor excreción de calcio",
+"E": "Una mayor eliminación y glucosa por la orina"
+},
+"clave": "A"
+},
+{
+"n": 29,
+"enunciado": "La inervación del diafragma está dado por:",
+"opciones": {
+"A": "Nervio frénico",
+"B": "XI par",
+"C": "XII par",
+"D": "IX par",
+"E": "VIII par"
+},
+"clave": "A"
+},
+{
+"n": 30,
+"enunciado": "¿Qué cantidad de sodio lleva una solución salina fisiológica normal?",
+"opciones": {
+"A": "124 meq/l",
+"B": "134 meq/l",
+"C": "144 meq/l",
+"D": "154 meq/l",
+"E": "164 meq/l"
+},
+"clave": "D"
+},
+{
+"n": 31,
+"enunciado": "No es antimicótico sistémico:",
+"opciones": {
+"A": "Anfotericina B",
+"B": "Fluconazol",
+"C": "Flucitosina",
+"D": "Econazol",
+"E": "Ketoconazol"
+},
+"clave": "D"
+},
+{
+"n": 32,
+"enunciado": "¿Cuál de los siguientes antibióticos se asocia con mayor frecuencia a reacciones dérmicas?",
+"opciones": {
+"A": "Quinolonas",
+"B": "Betalactámicos",
+"C": "Cotrimoxazol",
+"D": "Eritromicina",
+"E": "Cloranfenicol"
+},
+"clave": "B"
+},
+{
+"n": 33,
+"enunciado": "Son indicaciones de profilaxis antibiótica, todas las siguientes, EXCEPTO una:",
+"opciones": {
+"A": "Procedimiento estomatológico en un niño que presenta una comunicación interventricular",
+"B": "Gastroenteritis recidivante",
+"C": "Urodismorfias con infecciones urinarias recurrentes",
+"D": "Contacto inmediato con meningitis meningocócica",
+"E": "Otitis aguda recurrente"
+},
+"clave": "B"
+},
+{
+"n": 34,
+"enunciado": "La ausencia de útero y vagina, y otras malformaciones del tracto genital se asocian a malformaciones de:",
+"opciones": {
+"A": "Tracto urinario",
+"B": "Sistema portal",
+"C": "Tubo digestivo bajo",
+"D": "Sistema neurológico",
+"E": "Sistema óseo pélvico"
+},
+"clave": "A"
+},
+{
+"n": 35,
+"enunciado": "¿Qué vena pasa por el canal formado entre el deltoides y el pectoral mayor?",
+"opciones": {
+"A": "Cefálica",
+"B": "Humeral",
+"C": "Basílica",
+"D": "Axilar",
+"E": "Circunfleja"
+},
+"clave": "A"
+},
+{
+"n": 36,
+"enunciado": "¿Qué tipo de articulación es la radiocarpiana?",
+"opciones": {
+"A": "Enartrosis",
+"B": "Condílea",
+"C": "Artrodia",
+"D": "Trocoide",
+"E": "Troclear"
+},
+"clave": "B"
+},
+{
+"n": 37,
+"enunciado": "La primera hilera de la articulación carpiana de adentro hacia afuera es:",
+"opciones": {
+"A": "Piramidal, pisiforme, semilunar, escafoides",
+"B": "Pisiforme, semilunar, escafoides, piramidal",
+"C": "Semilunar, pisiforme, escafoides, piramidal",
+"D": "Escafoides, semilunar, pisiforme, piramidal",
+"E": "Pisiforme, piramidal, semilunar, escafoides"
+},
+"clave": "E"
+},
+{
+"n": 38,
+"enunciado": "¿Qué compartimento del cuerpo tiene más sodio?",
+"opciones": {
+"A": "Hueso",
+"B": "Nervio",
+"C": "Piel",
+"D": "Musculo",
+"E": "Una"
+},
+"clave": "A"
+},
+{
+"n": 39,
+"enunciado": "Paciente mujer de 30 años refiere dolor abdominal luego de la ingesta abundante de comida grasa, con cuál hormona cree usted que incrementa el dolor:",
+"opciones": {
+"A": "Gastrina",
+"B": "Enteroquinasa",
+"C": "Histamina",
+"D": "Colecistoquinina",
+"E": "Acetilcolina"
+},
+"clave": "D"
+},
+{
+"n": 40,
+"enunciado": "En dónde se encuentra la mayor concentración de Na en el organismo:",
+"opciones": {
+"A": "Intracelular",
+"B": "Intersticial",
+"C": "Vascular",
+"D": "Renal",
+"E": "Peritoneal"
+},
+"clave": "B"
+},
+{
+"n": 41,
+"enunciado": "¿Cuántos mEq contiene un litro de cloruro de sodio en una solución normal?",
+"opciones": {
+"A": "134 mEq",
+"B": "100 mEq",
+"C": "154 mEq",
+"D": "0.09 mEq",
+"E": "14.5 mEq"
+},
+"clave": "C"
+},
+{
+"n": 42,
+"enunciado": "En un niño de 3 años, ¿qué porcentaje ocupa de agua corporal?",
+"opciones": {
+"A": "30%",
+"B": "50%",
+"C": "65%",
+"D": "75%",
+"E": "85%"
+},
+"clave": "C"
+},
+{
+"n": 43,
+"enunciado": "En una gestante de 35 semanas, el estudio ecográfico reveló feto anencefálico. ¿En qué semana del desarrollo fetal se originó la anomalía?",
+"opciones": {
+"A": "Segunda",
+"B": "Tercera",
+"C": "Cuarta",
+"D": "Quinta",
+"E": "Sexta"
+},
+"clave": "C"
+},
+{
+"n": 44,
+"enunciado": "¿Cuál de las siguientes acciones corresponde a los diuréticos de asa?",
+"opciones": {
+"A": "Disminuyen la excreción urinaria de potasio",
+"B": "Disminuyen la filtración glomerular",
+"C": "Disminuyen la presión de llenado del ventrículo izquierdo",
+"D": "Estimulan la reabsorción de calcio y magnesio",
+"E": "Tienen actividad estimulante de la enzima anhidrasa carbónica"
+},
+"clave": "C"
+},
+{
+"n": 45,
+"enunciado": "¿Qué fenómeno bioquímico se produce cuando el músculo se contrae en un medio anaeróbico?",
+"opciones": {
+"A": "Acumulación de piruvato",
+"B": "Conversión de lactato en piruvato",
+"C": "Disminución de la formación de lactato",
+"D": "Incremento de la síntesis de glucógeno",
+"E": "Incremento de lactato"
+},
+"clave": "E"
+},
+{
+"n": 46,
+"enunciado": "Mujer de 20 años de edad, con tratamiento farmacológico anti-TBC desde hace 3 meses, recientemente refiere disminución de la agudeza visual y pérdida de la discriminación entre el color rojo y verde. ¿Qué fármaco debe suspenderse?",
+"opciones": {
+"A": "Cicloserina",
+"B": "Estreptolisina",
+"C": "Etambutol",
+"D": "Pirazinamida",
+"E": "Rifampicina"
+},
+"clave": "C"
+},
+{
+"n": 47,
+"enunciado": "En la terapia de la hiponatremia severa sintomática se utiliza ClNa al 3%. ¿Qué cantidad de mEq de sodio contiene dicha solución?:",
+"opciones": {
+"A": "0,3 mEq/ml",
+"B": "0,5 mEq/ml",
+"C": "0,9 mEq/ml",
+"D": "1,1 mEq/ml",
+"E": "0,75 mEq/ml"
+},
+"clave": "B"
+},
+{
+"n": 48,
+"enunciado": "El mecanismo de acción de las quinolonas es:",
+"opciones": {
+"A": "Inhibe la ARN polimerasa",
+"B": "Inhibe el ADN girasa para los Gram (-)",
+"C": "Inhibe el ADN y ARN",
+"D": "Inhibe la subunidad 30S"
+},
+"clave": "B"
+},
+{
+"n": 49,
+"enunciado": "Con respecto a la apoptosis, ¿cuál de estas afirmaciones es correcta?",
+"opciones": {
+"A": "Afecta a pequeños grupos celulares",
+"B": "Es una necrosis fisiológica",
+"C": "Se presenta pocos cambios morfológicos nucleares",
+"D": "La rotura de la membrana celular produce cuerpos apoptoticos",
+"E": "No produce inflamación circundante"
+},
+"clave": "E"
+},
+{
+"n": 50,
+"enunciado": "Al nacimiento, en los testículos se encuentran:",
+"opciones": {
+"A": "Espermatocitos ll.",
+"B": "Espermatogonias.",
+"C": "Espermatocito I",
+"D": "Células germinales.",
+"E": "Folículos primordiales."
+},
+"clave": "B"
+},
+{
+"n": 51,
+"enunciado": "¿El labio mayor es el homólogo de una de las siguientes estructuras masculinas?",
+"opciones": {
+"A": "Glande.",
+"B": "Escroto.",
+"C": "Gubemáculum Testis.",
+"D": "Cuerpo Cavemoso.",
+"E": "Cuerpo Esponjoso."
+},
+"clave": "B"
+},
+{
+"n": 52,
+"enunciado": "Marque cual es el cariotipo más frecuente del Síndrome de Down",
+"opciones": {
+"A": "Trisomía 21.",
+"B": "Translocación 14-21.",
+"C": "Mosaico.",
+"D": "Mosaico + translocación.",
+"E": "Trisomía más Monosomia 14."
+},
+"clave": "A"
+},
+{
+"n": 53,
+"enunciado": "La histamina es una molécula que se sintetiza en las células a partir de histidina, se almacena en gránulos para ser secretada frente a una señal. Las células que almacenan mayor cantidad de histamina son:",
+"opciones": {
+"A": "Mastocitos.",
+"B": "Epiteliales.",
+"C": "Neutrófilos.",
+"D": "Basófilos.",
+"E": "Fibroblastos."
+},
+"clave": "A"
+},
+{
+"n": 54,
+"enunciado": "Se encuentra epitelio plano poliestratificado queratinizado en:",
+"opciones": {
+"A": "Vagina.",
+"B": "Piel.",
+"C": "Esófago.",
+"D": "Tráquea.",
+"E": "Riñón."
+},
+"clave": "B"
+},
+{
+"n": 55,
+"enunciado": "Son las células encargadas de la contracción de la herida, durante el proceso de cicatrización:",
+"opciones": {
+"A": "Neutrófilos.",
+"B": "Polimorfonucleares.",
+"C": "Fibroblastos.",
+"D": "Macrófagos.",
+"E": "Fibrocitos."
+},
+"clave": "C"
+},
+{
+"n": 56,
+"enunciado": "Entre las células clasificadas según su capacidad de regeneración un ejemplo de célula permanente es:",
+"opciones": {
+"A": "Hepatocito",
+"B": "Osteocito",
+"C": "Eritrocito",
+"D": "Célula de la mucosa del colon",
+"E": "Célula acinar del pancreas"
+},
+"clave": "E"
+},
+{
+"n": 57,
+"enunciado": "Cuál de los siguientes presenta el pH mayor:",
+"opciones": {
+"A": "Jugo gástrico",
+"B": "Bilis en la vesícula biliar",
+"C": "Jugo pancreático",
+"D": "Saliva",
+"E": "Secreción de las glándulas intestinales"
+},
+"clave": "C"
+},
+{
+"n": 58,
+"enunciado": "Después que usted le salvó la vida a un paciente intoxicado por órganos fosforados y le administró suficiente antídoto atropina, al examinarlo le encontrará lo siguiente:",
+"opciones": {
+"A": "Broncoconstricción",
+"B": "Hipermotilidad intestinal",
+"C": "Relajación de esfínteres",
+"D": "Bradicardia",
+"E": "Midriasis"
+},
+"clave": "E"
+},
+{
+"n": 59,
+"enunciado": "Principal hormona que regula la concentración renal de sodio:",
+"opciones": {
+"A": "Aldosterona",
+"B": "Angiotensina",
+"C": "Factor natriurético",
+"D": "Hormona antidiurética",
+"E": "Renina"
+},
+"clave": "A"
+},
+{
+"n": 60,
+"enunciado": "En una paciente que hace 4 horas ha ingerido 20 TABLETAS DE 500 mg CADA UNA DE paracetamol. ¿Cuál de las siguientes sería su indicación?",
+"opciones": {
+"A": "Quelante del calcio",
+"B": "N acetilcisteína",
+"C": "Sulfato de Protamina",
+"D": "Alcalinización de la orina",
+"E": "Deferoxamina"
+},
+"clave": "B"
+},
+{
+"n": 61,
+"enunciado": "El órgano que entre su componente linfático predominante presenta en su zona medular los denominados corpúsculos epiteliales de Hassal es:",
+"opciones": {
+"A": "El ganglio linfático",
+"B": "El bazo",
+"C": "El timo",
+"D": "Las glándulas de Peyer",
+"E": "El glomus carotideo"
+},
+"clave": "C"
+},
+{
+"n": 62,
+"enunciado": "Vértebras que poseen apófisis espinosas bífidas y un agujero en sus apófisis trasversas por el cual transcurren las arterias vertebrales:",
+"opciones": {
+"A": "Cervicales",
+"B": "Dorsales",
+"C": "Lumbares",
+"D": "Torácicas",
+"E": "Sacras"
+},
+"clave": "A"
+},
+{
+"n": 63,
+"enunciado": "¿Qué nervio es responsable de la sensibilidad de la planta del pie?:",
+"opciones": {
+"A": "Safeno interno",
+"B": "Pedio",
+"C": "Tibial posterior",
+"D": "Músculo cutáneo",
+"E": "Ciático"
+},
+"clave": "C"
+},
+{
+"n": 64,
+"enunciado": "Donde se produce la hormona que antagoniza la prolactina:",
+"opciones": {
+"A": "Tálamo",
+"B": "Hipotálamo",
+"C": "Hipófisis anterior",
+"D": "Hipófisis posterior",
+"E": "Ganglios basales"
+},
+"clave": "B"
+},
+{
+"n": 65,
+"enunciado": "¿Cuál es la arteria que irriga la planta del pie?:",
+"opciones": {
+"A": "Safena interna",
+"B": "Tibial posterior",
+"C": "Peroneo profundo",
+"D": "Musculocutáeo",
+"E": "Safena externa"
+},
+"clave": "B"
+},
+{
+"n": 66,
+"enunciado": "Proteína más abundante del suero:",
+"opciones": {
+"A": "Ceruloplasmina",
+"B": "Albúmina",
+"C": "Fibrinógeno",
+"D": "Proteína C",
+"E": "Fibronectina"
+},
+"clave": "B"
+},
+{
+"n": 67,
+"enunciado": "¿Qué deficiencia vitamínica se asocia a las manchas de Bitot?",
+"opciones": {
+"A": "Vitamina A",
+"B": "Vitamina c",
+"C": "Vitamina b1",
+"D": "Vitamina b12",
+"E": "Vitamina b3"
+},
+"clave": "A"
+},
+{
+"n": 68,
+"enunciado": "Marque cuál es el cariotipo más frecuente del Síndrome de Down:",
+"opciones": {
+"A": "Trisomia 21.",
+"B": "Translocación 14-21.",
+"C": "Mosaico.",
+"D": "Mosaico+translocación.",
+"E": "Trisomia más Monosomia 14."
+},
+"clave": "A"
+},
+{
+"n": 69,
+"enunciado": "La ototoxicidad es una respuesta adversa de:",
+"opciones": {
+"A": "Macrólidos",
+"B": "Fluorquinolonas",
+"C": "Aminoglucósidos",
+"D": "Oxazolidinonas",
+"E": "Tetraciclinas"
+},
+"clave": "C"
+},
+{
+"n": 70,
+"enunciado": "Las arterias que conforman el arco de la curvatura menor del estómago son:",
+"opciones": {
+"A": "Pilórica más coronaria estomáquica",
+"B": "Gastroduodenal izquierda más gástrica derecha",
+"C": "Gastroduodenal derecha más gástrica izquierda",
+"D": "Pilórica más gastroduodenal derecha",
+"E": "Coronaria estomática más gastroduodenal derecha"
+},
+"clave": "A"
+},
+{
+"n": 71,
+"enunciado": "Hueso que no tiene inserción muscular:",
+"opciones": {
+"A": "Astrágalo",
+"B": "Semilunar",
+"C": "Cuboides",
+"D": "Rotula"
+},
+"clave": "A"
+},
+{
+"n": 72,
+"enunciado": "Núcleo del cerebelo que regula la presión arterial:",
+"opciones": {
+"A": "Globoso",
+"B": "Dentado",
+"C": "Emboliforme",
+"D": "Interpósito",
+"E": "Fastigio"
+},
+"clave": "D"
+},
+{
+"n": 73,
+"enunciado": "Con que comienza la glucogénesis:",
+"opciones": {
+"A": "Glucosa",
+"B": "Glucosa 6 p",
+"C": "Glucosa 1,6 p",
+"D": "Glucosa 1 p",
+"E": "Piruvato"
+},
+"clave": "A"
+},
+{
+"n": 74,
+"enunciado": "Glucosa pasa a las células por:",
+"opciones": {
+"A": "Difusión facilitada",
+"B": "Transporte activo",
+"C": "Difusión simple",
+"D": "Por vesículas",
+"E": "Desmosomas"
+},
+"clave": "A"
+},
+{
+"n": 75,
+"enunciado": "Antihistamínico RAM nauseas vómitos taquicardia:",
+"opciones": {
+"A": "Loratadina",
+"B": "Clorfenamina",
+"C": "Difenhidramina",
+"D": "Ciproheptadina",
+"E": "Ketotifeno"
+},
+"clave": "C"
+},
+{
+"n": 76,
+"enunciado": "Sustancia que se encarga de darle la coloración a la piel:",
+"opciones": {
+"A": "Melanina",
+"B": "Rodopsina",
+"C": "Treonina",
+"D": "Queratina",
+"E": "Tirocina"
+},
+"clave": "A"
+},
+{
+"n": 77,
+"enunciado": "El hongo que actúa de manera sistémica:",
+"opciones": {
+"A": "Sporotrix Eschenki",
+"B": "Malazesia Furfur",
+"C": "Blastomyces dermatitides",
+"D": "Trychophyton",
+"E": "Epydermophyton"
+},
+"clave": "C"
+},
+{
+"n": 78,
+"enunciado": "El precursor del ARN es:",
+"opciones": {
+"A": "Nucleótido monofosfato",
+"B": "Ribonucleótido monofosfato",
+"C": "Ribonucleótido trifosfato",
+"D": "Mononucleótido monofosfato",
+"E": "Mononucleótido trifosfato"
+},
+"clave": "C"
+},
+{
+"n": 79,
+"enunciado": "La vitamina B12 se absorbe en:",
+"opciones": {
+"A": "Duodeno",
+"B": "Yeyuno",
+"C": "Ileon.",
+"D": "Estómago",
+"E": "Mucosa pancreática"
+},
+"clave": "C"
+},
+{
+"n": 80,
+"enunciado": "Agente etiológico del Linfoma de Burkit:",
+"opciones": {
+"A": "Herpes Simple",
+"B": "Epstein Baar",
+"C": "Citomegalovirus",
+"D": "Sarcoma de Kaposi",
+"E": "VHS-6"
+},
+"clave": "B"
+},
+{
+"n": 81,
+"enunciado": "Conocido como el segundo marcapasos del corazón:",
+"opciones": {
+"A": "Nodo Sinusal",
+"B": "Nodo Auriculo VEntricular",
+"C": "Haz de hiss",
+"D": "Fibras de Purkinge"
+},
+"clave": "B"
+},
+{
+"n": 82,
+"enunciado": "La glucosa se transporta en el Glomérulo a través del siguiente mecanismo:",
+"opciones": {
+"A": "Transporte activo primario",
+"B": "Transporte activo secundario",
+"C": "Transporte pasivo",
+"D": "Ultrafiltración",
+"E": "NA"
+},
+"clave": "D"
+},
+{
+"n": 83,
+"enunciado": "La reabsorción de Agua en los túbulos renales se da principalmente en:",
+"opciones": {
+"A": "Túbulo proximal",
+"B": "Túbulo distal",
+"C": "Asa de henle",
+"D": "Túbulo colector",
+"E": "Nefrona"
+},
+"clave": "A"
+},
+{
+"n": 84,
+"enunciado": "Causante del Kal-azhar:",
+"opciones": {
+"A": "Leishmania",
+"B": "Tripanosoma",
+"C": "Amebiasis",
+"D": "Lutzomyia",
+"E": "Malaria"
+},
+"clave": "A"
+},
+{
+"n": 85,
+"enunciado": "¿Dónde observa la cianosis central?",
+"opciones": {
+"A": "Labios",
+"B": "Lengua",
+"C": "Alrdedor de la boca",
+"D": "Lecho ungueal",
+"E": "Manos y pies"
+},
+"clave": "C"
+},
+{
+"n": 86,
+"enunciado": "El mecanismo que se altera para que se produzca el mosaicismo es:",
+"opciones": {
+"A": "Fallo en meiosis I",
+"B": "Fallo en Meiosis II",
+"C": "Fallo en el cross – over",
+"D": "Fusion anormal de cigotos",
+"E": "Alteración en la división mitótica del cigoto"
+},
+"clave": "E"
+},
+{
+"n": 87,
+"enunciado": "Si la biodisponibilidad de un fármaco es del 90%, señale cuál de las siguientes aseveraciones es CORRECTA:",
+"opciones": {
+"A": "Que el 10% del fármaco es metabolizado en el hígado",
+"B": "Que el 10% del fármaco no es eliminado presitémicamente",
+"C": "Que hemos administrado el 90% de la dosis",
+"D": "Que el 90% del fármaco administrado accede a circulación sistémica",
+"E": "Que hemos administrado un 90% más de la dosis recomendada"
+},
+"clave": "D"
+},
+{
+"n": 88,
+"enunciado": "¿Cuál de las siguientes características NO es propia de los aminoglucósidos?",
+"opciones": {
+"A": "Algunos fármacos de esta familia presentan buena actividad frente a M. tuberculosis",
+"B": "La actividad bactericida depende de las concentraciones alcanzadas, por lo que pueden administrarse en dosis única diaria",
+"C": "Todos los fármacos presentan buena actividad frente a bacilos Gram positivos",
+"D": "La toxicidad producida por los fármacos de este grupo se relaciona con el mantenimiento de una concentración mínima (concentración previa a una dosis) elevada",
+"E": "Cuando existe inflamación meníngea resultan muy útiles en el tratamiento de las infecciones bacterianas localizadas en el sistema nervioso central, especialmente las producidas por bacterias Gram negativas"
+},
+"clave": "E"
+},
+{
+"n": 89,
+"enunciado": "Respecto a la cefazolina, señale la respuesta INCORRECTA:",
+"opciones": {
+"A": "Es una cefalosporina de 2ª generación",
+"B": "Suele ser el antibiótico de elección para la profilaxis bacteriana en muchas cirugías",
+"C": "Es activo frente a cocos GP exceptuando enterococo y S. aureus Meticilín resistente",
+"D": "Es activo frente a gérmenes GN como E.coli, Neisseria, Klebsiella, Salmonella y Shigella",
+"E": "Su espectro incluye bacilos anaerobios GN como Fusobacterium y Bacteroides excepto B. fragilis"
+},
+"clave": "A"
+},
+{
+"n": 90,
+"enunciado": "Varón de 70 años, HTA, angor inestable, by-pass aorto- bifemoral hace 3 años y hemiparesia derecha desde hace 10 años; tratamiento habitual: losartán. Señale en qué grupo de riesgo de la Asociación Americana de Anestesiología (ASA) encuadraría a este paciente:",
+"opciones": {
+"A": "2",
+"B": "3",
+"C": "4",
+"D": "5",
+"E": "6"
+},
+"clave": "C"
+},
+{
+"n": 91,
+"enunciado": "Las fibras nerviosas aferentes más directamente implicadas en la transmisión del dolor son:",
+"opciones": {
+"A": "A delta y C",
+"B": "A alfa",
+"C": "B",
+"D": "C",
+"E": "Gamma"
+},
+"clave": "A"
+},
+{
+"n": 92,
+"enunciado": "El dolor postoperatorio suele ser:",
+"opciones": {
+"A": "Nociceptivo",
+"B": "Neuropático",
+"C": "Simpático",
+"D": "Psicógeno",
+"E": "Visceral"
+},
+"clave": "A"
+},
+{
+"n": 93,
+"enunciado": "Respecto a la escala APACHE II, señale la respuesta INCORRECTA:",
+"opciones": {
+"A": "Su principal utilidad radica en su capacidad de cuantificar la gravedad de un paciente con independencia del diagnóstico",
+"B": "Se calcula sumando las puntuaciones obtenidas en tres subapartados (edad, variables fisiológicas y enfermedad crónica)",
+"C": "Puntuaciones altas en la escala se correlacionan con buen pronóstico",
+"D": "La incapacidad para realizar 4 de las ABVD constituye un factor de riesgo independiente de morbi-mortalidad hospitalaria",
+"E": "Es una escala relativamente útil para predecir precozmente la gravedad de una pancreatitis aguda"
+},
+"clave": "C"
+},
+{
+"n": 94,
+"enunciado": "¿Qué arteria recorre la curvatura menor del estómago?",
+"opciones": {
+"A": "Gastroomental derecha",
+"B": "Gastroomental izquierda",
+"C": "Gastroduodenal",
+"D": "Gástrica izquierda",
+"E": "Supraduodenal"
+},
+"clave": "D"
+},
+{
+"n": 95,
+"enunciado": "El grupo ganglionar 11 se encuentra a nivel de:",
+"opciones": {
+"A": "Arteria gástrica izquierda",
+"B": "Arteria hepática común",
+"C": "Tronco celiaco",
+"D": "Hilio esplénico",
+"E": "Arteria esplénica"
+},
+"clave": "E"
+},
+{
+"n": 96,
+"enunciado": "Los glucocorticoides actúan a nivel:",
+"opciones": {
+"A": "AMPc",
+"B": "Tirocincinasa",
+"C": "Proteína G",
+"D": "Fosfolipasa",
+"E": "Receptores intracelulares"
+},
+"clave": "E"
+},
+{
+"n": 97,
+"enunciado": "¿Qué células que forman el plexo mioentérico y tiene la función de marcapaso del sistema gastrointestinal?",
+"opciones": {
+"A": "Neuronas",
+"B": "Células intersticiales de Cajal",
+"C": "Miocitos de la muscularismucosae",
+"D": "Células Parietales",
+"E": "Enterocitos"
+},
+"clave": "B"
+},
+{
+"n": 98,
+"enunciado": "¿Cuál de las siguientes sustancias se absorbe en el íleon?",
+"opciones": {
+"A": "Calcio",
+"B": "Hierro",
+"C": "Fósforo",
+"D": "Vit. B12",
+"E": "Vit. A"
+},
+"clave": "D"
+},
+{
+"n": 99,
+"enunciado": "De las siguientes no es función de la secretina:",
+"opciones": {
+"A": "Estimula la secreción de bicarbonato",
+"B": "Estimula la secreción pancreática",
+"C": "Estimula la secreción de bilis",
+"D": "Estimula la secreción de ácido gástrico",
+"E": "Estimula al estómago para que produzca pepsinógeno"
+},
+"clave": "D"
+},
+{
+"n": 100,
+"enunciado": "Mencione la relación incorrecta con respecto a la fisiología de gastrointestinal según la producción de líquidos al día:",
+"opciones": {
+"A": "Saliva 1000cc",
+"B": "Secreción biliar 1000cc",
+"C": "Secreción pancreática 1500cc",
+"D": "Secreción gástrica 2500cc",
+"E": "Secreción del intestino delgado 1800cc"
+},
+"clave": "A"
+},
+{
+"n": 101,
+"enunciado": "¿Cuál de las siguientes sustancias se absorbe en el íleon?",
+"opciones": {
+"A": "Calcio",
+"B": "Hierro",
+"C": "fósforo",
+"D": "Vitamina B12",
+"E": "Vitamina A"
+},
+"clave": "D"
+},
+{
+"n": 102,
+"enunciado": "¿Qué secretan las células parietales del estómago?",
+"opciones": {
+"A": "Ácido clorhídrico",
+"B": "Pepsinógeno",
+"C": "Moco",
+"D": "Gastrina",
+"E": "a y b"
+},
+"clave": "A"
+},
+{
+"n": 103,
+"enunciado": "¿Qué arteria es la encargada de irrigar la curvatura menor del estómago?",
+"opciones": {
+"A": "Arteria gástrica derecha",
+"B": "Arteria esplénica",
+"C": "Tronco celiaco",
+"D": "Arteria gástrica izquierda",
+"E": "Arteria gastroduodenall"
+},
+"clave": "D"
+},
+{
+"n": 104,
+"enunciado": "La arteria pancreatoduodenal posterosuperior es rama de:",
+"opciones": {
+"A": "Esplénica",
+"B": "Mesentérica superior",
+"C": "Mes. Inferior",
+"D": "Gastroduodenal",
+"E": "Gastroepiploica"
+},
+"clave": "D"
+},
+{
+"n": 105,
+"enunciado": "Todos los siguientes derivan de los conductos mesonefricos, excepto:",
+"opciones": {
+"A": "Túbulos seminíferos.",
+"B": "Epidídimo",
+"C": "Conducto deferente",
+"D": "Conducto eyaculatorio",
+"E": "Rete testis"
+},
+"clave": "A"
+},
+{
+"n": 106,
+"enunciado": "Cual no es una consecuencia del efecto muscarinico",
+"opciones": {
+"A": "Broncorrea",
+"B": "Hipertensión",
+"C": "Miosis",
+"D": "Bradicardia",
+"E": "epifora"
+},
+"clave": "B"
+},
+{
+"n": 107,
+"enunciado": "Paciente de 15 años de edad, soporoso, quien presenta vómito, diarrea, sialorrea, miosis, broncoespasmo, fasciculaciones musculares y convulsiones ¿Cuál es el diagnóstico probable?",
+"opciones": {
+"A": "Intoxicación por salicilatos",
+"B": "Epilepsia",
+"C": "Meningitis bacteriana.",
+"D": "Intoxicación por organofosforados.",
+"E": "Intoxicación por benzodiacepinas"
+},
+"clave": "D"
+},
+{
+"n": 108,
+"enunciado": "Con respecto a los siguientes patógenos marcar el enunciado correcto:",
+"opciones": {
+"A": "Neumococo es sensible a norfloxacina",
+"B": "Enterococo compromete el 30% de infecciones nosocomiales",
+"C": "Cándida es muy importante en diabéticos y nutrición parenteral",
+"D": "Acinetobacter es predominantemente hospitalario",
+"E": "Estafilococo epidermidis no muestra resistencia a meticilina"
+},
+"clave": "D"
+},
+{
+"n": 109,
+"enunciado": "El antídoto correcto para intoxicación por:",
+"opciones": {
+"A": "Carbamatos es la pralidoxima",
+"B": "Etanol es el etilenglicol",
+"C": "Paracetamol es la N-acetilcisteina",
+"D": "Benzodiacepinas es el naloxone",
+"E": "Talio es la atropina"
+},
+"clave": "C"
+},
+{
+"n": 110,
+"enunciado": "La liberación masiva de antígenos a partir del Treponema pocas horas después del tratamiento con penicilina se denomina reacción de:",
+"opciones": {
+"A": "Weinberg",
+"B": "Takata",
+"C": "Nonne - Apelt",
+"D": "Jarish-Herxheimer",
+"E": "Middle Brook-Dubos"
+},
+"clave": "D"
+},
+{
+"n": 111,
+"enunciado": "Un niño es llevado a la emergencia con cuadro clínico de intoxicación por órganofosforados, se debe administrar como antídoto:",
+"opciones": {
+"A": "Dimercaprol",
+"B": "N-acetilcisteina",
+"C": "Naloxona",
+"D": "Flumazeníl",
+"E": "Sulfato de atropina"
+},
+"clave": "E"
+},
+{
+"n": 112,
+"enunciado": "En relación con los edemas ¿cuál es INCORRECTA?",
+"opciones": {
+"A": "Se aprecia cuando se han acumulado más de 5 litres en el espacio intersticial",
+"B": "Es un signo relativamente precoz de insuficiencia cardiaca derecha",
+"C": "Se intensifica a lo largo del día y disminuye tras el descanso nocturno",
+"D": "Su localización depende sobretodo de la ley de la gravedad",
+"E": "En pacientes encamados se localiza preferentemente en el área sacra"
+},
+"clave": "B"
+},
+{
+"n": 113,
+"enunciado": "El músculo oponente del pulgar está inervado por el nervio:",
+"opciones": {
+"A": "Cutáneo",
+"B": "Radial",
+"C": "Cubital",
+"D": "Humeral",
+"E": "Mediano"
+},
+"clave": "E"
+},
+{
+"n": 114,
+"enunciado": "El Pie equino puede ser resultado de una lesión del nervio:",
+"opciones": {
+"A": "Femoral",
+"B": "Tibial posterior",
+"C": "Tibial anterior",
+"D": "Crural",
+"E": "Pudendo"
+},
+"clave": "C"
+},
+{
+"n": 115,
+"enunciado": "Paciente varón de 36 años, sufre un accidente de tránsito. Presenta hematocrito de 20%, en shock hipovolemico ¿Que fluido debe administrarse?:",
+"opciones": {
+"A": "Coloides",
+"B": "Cristaloides",
+"C": "Sangre total",
+"D": "Paquete globular",
+"E": "Plasma fresco"
+},
+"clave": "B"
+},
+{
+"n": 116,
+"enunciado": "Paciente de 5 años, ingresa a Emergencia con antecedente de ingesta de sustancia desconocida. Presenta diarrea, vómitos, bradicardia, miosis, fasciculaciones musculares, sialorrea. El síndrome tóxico más probable es:",
+"opciones": {
+"A": "Colinérgico",
+"B": "Anticolinérgico",
+"C": "Simpaticomimético",
+"D": "Extrapiramidal",
+"E": "Narcótico"
+},
+"clave": "A"
+},
+{
+"n": 117,
+"enunciado": "Fármaco que se emplea para reducir la uricemia es:",
+"opciones": {
+"A": "Indometacina",
+"B": "Colchicina",
+"C": "Furosemida",
+"D": "Allopurinol",
+"E": "Pirazolona"
+},
+"clave": "D"
+},
+{
+"n": 118,
+"enunciado": "En la reacción asmática aguda intervienen los siguientes mediadores, EXCEPTO:",
+"opciones": {
+"A": "Leucotrienos",
+"B": "Óxido nítrico",
+"C": "Neuropéptidos",
+"D": "Histamina",
+"E": "Prostaglandina E2"
+},
+"clave": "C"
+},
+{
+"n": 119,
+"enunciado": "El lavado gástrico está contraindicado después de la ingestión de:",
+"opciones": {
+"A": "Aspirina",
+"B": "Diazepam",
+"C": "Barbitúricos",
+"D": "Vitaminas",
+"E": "Alcali"
+},
+"clave": "E"
+},
+{
+"n": 120,
+"enunciado": "En un paciente de 32 años con frecuencia cardiaca 50 por minuto, miosis, sudoración y peristalsis intestinal aumentada, el diagnóstico más probable es:",
+"opciones": {
+"A": "Botulismo",
+"B": "Intoxicación por mercurio",
+"C": "Intoxicación por cocaína",
+"D": "Intoxicación por órgano fosforado",
+"E": "Intoxicación por arsénico"
+},
+"clave": "D"
+},
+{
+"n": 121,
+"enunciado": "El uso de eritromicina puede producir:",
+"opciones": {
+"A": "Bloqueo AV completo",
+"B": "Alargamiento de Q-T en el ECG",
+"C": "Bradicardia sinusal",
+"D": "Aparición de ondas delta en el ECG",
+"E": "Presencia de P-R alargado"
+},
+"clave": "B"
+},
+{
+"n": 122,
+"enunciado": "El manejo en la intoxicación por hidrocarburos es:",
+"opciones": {
+"A": "Ventilación mecánica",
+"B": "Inducción de tmesis",
+"C": "Observación clínica por 12 horas",
+"D": "Administración de aceite mineral",
+"E": "Administración de antibióticos"
+},
+"clave": "A"
+},
+{
+"n": 123,
+"enunciado": "¿Qué nervio se afecta en una fractura que compromete al canal de torsión del humero?",
+"opciones": {
+"A": "Mediano",
+"B": "Circunflejo",
+"C": "Cutáneo",
+"D": "Radial",
+"E": "Cubital"
+},
+"clave": "D"
+},
+{
+"n": 124,
+"enunciado": "En la lesión de canal epitrocelo clecraneano se afecta el nervio:",
+"opciones": {
+"A": "Cubital",
+"B": "Radial",
+"C": "Mediano",
+"D": "Cutáneo",
+"E": "Olecraneano"
+},
+"clave": "A"
+},
+{
+"n": 125,
+"enunciado": "Mujer de 20 años, ingresa a emergencia por referir que luego de discusión familiar, ingiere un producto para matar roedores a base de hidroxicurnarina. ¿Cuál es la terapia especifica?",
+"opciones": {
+"A": "Administración de factor VIII",
+"B": "Lavado gástrico",
+"C": "Administración de plasma fresco o crioprecipitado",
+"D": "Administración de fitomenadona",
+"E": "Administración de atropina"
+},
+"clave": "D"
+},
+{
+"n": 126,
+"enunciado": "Varón de 25 años de edad que trabaja en limpieza y mantenimiento de pozos sépticos, durante su labor presenta súbitamente irritación de mucosas, cianosis, disnea y depresión del nivel de conciencia. La presunción diagnostica es intoxicación por:",
+"opciones": {
+"A": "Monóxido de carbono",
+"B": "Acido sulfhídrico",
+"C": "Cianuro",
+"D": "Arsénico",
+"E": "Vapores nitrosos"
+},
+"clave": "B"
+},
+{
+"n": 127,
+"enunciado": "Niño de 3 años es llevado a emergencia con antecedentes de ingesta de sustancia desconocida. Al examen: T° 36°C, FC 80 por minuto; FR 24 por minuto. Despierto, miosis, sialorrea, fasciculaciones, roncantes pulmonares bilaterales. La conducta apropiada es administrar por via EV:",
+"opciones": {
+"A": "Naloxona",
+"B": "Fisosligmina",
+"C": "Antihistaminico",
+"D": "Atropina",
+"E": "Flumazenil"
+},
+"clave": "D"
+},
+{
+"n": 128,
+"enunciado": "Paciente de 28 años, consulta por dificultad para extender la muñeca y los dedos de la mano derecha. Refiere que la noche anterior estuvo bebiendo licor hasta embriagarse y se quedó dormido apoyado sobre una mesa. Diga usted cuál es el nervio comprometido",
+"opciones": {
+"A": "Radial",
+"B": "Cubital",
+"C": "Músculo cutáneo",
+"D": "Mediano",
+"E": "Circunflejo"
+},
+"clave": "A"
+},
+{
+"n": 129,
+"enunciado": "¿Cuál es el origen embriológico de la parte proximal de la vagina?",
+"opciones": {
+"A": "Los conductos de Muller",
+"B": "Los conductos de Wolf",
+"C": "El seno urogenital",
+"D": "Los proneiros",
+"E": "Los mesonefros"
+},
+"clave": "A"
+},
+{
+"n": 130,
+"enunciado": "Niño con neumonía estafilocócica resistente a meticilina. ¿Cuál es el antibiótico de elección?",
+"opciones": {
+"A": "Ceftriaxona",
+"B": "Dicloxacilina",
+"C": "Lincomicina",
+"D": "Teicoplanina",
+"E": "Azitromicina"
+},
+"clave": "D"
+},
+{
+"n": 131,
+"enunciado": "En caso de intoxicación aguda por acetaminofén, además de las medidas de urgencia, se indica… para evitar la toxicidad hepática:",
+"opciones": {
+"A": "Carón vegetal activado",
+"B": "N-acetilcisteína",
+"C": "Naloxona",
+"D": "Dimercaprol",
+"E": "Azul de metileno"
+},
+"clave": "B"
+},
+{
+"n": 132,
+"enunciado": "Paciente de 12 años de edad, presenta vómito, diarrea, sialorrea, miosis, broncoespasmo, fasciculaciones musculares y convulsiones. ¿Cuál es el diagnóstico probable?:",
+"opciones": {
+"A": "Intoxicación por organofosforados",
+"B": "Meningitis bacteriana",
+"C": "Gastroenteritis con deshidratación severa",
+"D": "Intoxicación por salicilatos",
+"E": "Epilepsia"
+},
+"clave": "A"
+},
+{
+"n": 133,
+"enunciado": "Paciente de 40 años de edad, con TEC severo, en coma e hiperventilación, lo cual indica un proceso de hipertensión endocraneana. Para realizar el seguimiento del caso, usted necesita conocer la PaCO2. ¿Cuál es el valor normal en mmHg?",
+"opciones": {
+"A": "50",
+"B": "45",
+"C": "40",
+"D": "35",
+"E": "55"
+},
+"clave": "D"
+},
+{
+"n": 134,
+"enunciado": "Un niño de 8 años es llevado a emergencia con sialorrea, tos productiva, miosis, fasciculaciones y sudoración profusa. La mama refiere que ingirió un producto que desconoce. ¿Cuál es la sustancia más probable que ocasiono dicha reacción?",
+"opciones": {
+"A": "Paracetamol",
+"B": "Hioscina",
+"C": "Benzodiazepina",
+"D": "Órganofosforado",
+"E": "Fenotiacina"
+},
+"clave": "D"
+},
+{
+"n": 135,
+"enunciado": "Varón de 23 años con antecedente de depresión que acude a emergencia por ingesta de sustancia desconocida. Examen físico: Miosis, fasciculaciones y sialorrea. ¿Cuál de las siguientes medidas de tratamiento es la más indicada?",
+"opciones": {
+"A": "Hemodiálisis",
+"B": "Forzar la diuresis",
+"C": "Baño inmediato",
+"D": "Administrar alcohol",
+"E": "Atropinización"
+},
+"clave": "E"
+},
+{
+"n": 136,
+"enunciado": "Durante el periodo embrionario, el desarrollo humano se divide en tres fases esenciales que se relacionan en cierto grado. ¿Cuál es la primera fase?",
+"opciones": {
+"A": "Formación de tejidos y órganos",
+"B": "Morfogénesis",
+"C": "Diferenciación",
+"D": "Replicación celular",
+"E": "Maduración de procesos fisiológicos"
+},
+"clave": "B"
+},
+{
+"n": 137,
+"enunciado": "¿Cuál de los siguientes efectos secundarios se observe frecuentemente por uso prolongado de la fenitoína?",
+"opciones": {
+"A": "Hipercarotinemia",
+"B": "Anemia microcítica",
+"C": "Hipoglicemia severa",
+"D": "Hiponatremia frecuente",
+"E": "Hipertrofia gingival"
+},
+"clave": "E"
+},
+{
+"n": 138,
+"enunciado": "¿En qué semana de gestación se produce el descenso testicular?",
+"opciones": {
+"A": "32",
+"B": "28",
+"C": "36",
+"D": "25",
+"E": "20"
+},
+"clave": "B"
+},
+{
+"n": 139,
+"enunciado": "¿Cuáles son las articulaciones que tienen movimientos poliaxiales?",
+"opciones": {
+"A": "Trocoides",
+"B": "Condíleas",
+"C": "Esféricas",
+"D": "Trocleares",
+"E": "Planas"
+},
+"clave": "C"
+},
+{
+"n": 140,
+"enunciado": "La mayor cantidad de aire que puede espirarse después de un esfuerzo inspiratorio máximo se llama:",
+"opciones": {
+"A": "Capacidad pulmonar total",
+"B": "Capacidad residual total",
+"C": "Capacidad vital",
+"D": "Volumen de reserva espiratorio",
+"E": "Capacidad inspiratoria"
+},
+"clave": "C"
+},
+{
+"n": 141,
+"enunciado": "Paciente de 14 años de edad acude al consultorio por presentar albuminuria masiva. Teniendo en cuenta la histología del glomérulo. ¿Qué estructura se encuentra dañada?",
+"opciones": {
+"A": "Arteriola eferente",
+"B": "Macula densa",
+"C": "Células mesangiales",
+"D": "Podocitos",
+"E": "Lámina basal"
+},
+"clave": "D"
+},
+{
+"n": 142,
+"enunciado": "En paciente de edad avanzada con trombosis completa del tronco celiaco. ¿Cuál de los siguientes órganos mantiene su irrigación?",
+"opciones": {
+"A": "Vesícula biliar",
+"B": "Hígado",
+"C": "Bazo",
+"D": "Intestino",
+"E": "Estómago"
+},
+"clave": "D"
+},
+{
+"n": 143,
+"enunciado": "¿En qué organos se presentan infartos blancos o anémicos, debido a una oclusión arterial?",
+"opciones": {
+"A": "Bazo",
+"B": "Púlmon",
+"C": "Ovario",
+"D": "Intestino grueso",
+"E": "Intestino delgado"
+},
+"clave": "A"
+},
+{
+"n": 144,
+"enunciado": "Niño de 6 años de edad, acude por náuseas y vómitos de dos días de evolución. Presenta fiebre y rinorrea por lo cual recibió antipiréticos, descongestionante nasal y vitamina C. Posteriormente cursa con ictericia, bilirrubinas y transaminasas muy elevadas. Usted podría sospechar intoxicación por:",
+"opciones": {
+"A": "Clorfenamina",
+"B": "Vitamina C",
+"C": "Salicilatos",
+"D": "Acetaminofén",
+"E": "Loratadina"
+},
+"clave": "D"
+},
+{
+"n": 145,
+"enunciado": "En el desarrollo del embrión, el primer indicio de la formación del corazón es la aparición de dos bandas endoteliales llamadas cordones angioblásticos. Esto ocurre durante la:",
+"opciones": {
+"A": "Tercera semana",
+"B": "Sexta semana",
+"C": "Segunda semana",
+"D": "Cuarta semana",
+"E": "48 a 72 horas después de la fecundación"
+},
+"clave": "A"
+},
+{
+"n": 146,
+"enunciado": "Varón de 9 años de edad, que vive en un centro minero. Presenta encefalopatía precedida por alteraciones de la conducta y dolor abdominal tipo cólico. Se puede diagnosticar intoxicación por: (2009 B)",
+"opciones": {
+"A": "Magnesio",
+"B": "Plomo",
+"C": "Mercurio",
+"D": "Arsénico",
+"E": "Litio"
+},
+"clave": "B"
+},
+{
+"n": 147,
+"enunciado": "¿Cuál es el origen embriológico de la corteza suprarrenal? (2009 B)",
+"opciones": {
+"A": "Ectodermo",
+"B": "Endodermo",
+"C": "Mesoendodermo",
+"D": "Neuroblasto",
+"E": "Células pluripotenciales"
+},
+"clave": "C"
+},
+{
+"n": 148,
+"enunciado": "No es característica de los linfocitos: (2009 B)",
+"opciones": {
+"A": "Poseen ligando para VIH",
+"B": "Sufren diferenciación en el timo",
+"C": "Participan en la inmunidad mediada por células",
+"D": "Tienen vida media prolongada",
+"E": "Participan en la producción de anticuerpos circulares"
+},
+"clave": "A"
+},
+{
+"n": 149,
+"enunciado": "¿Cuál de las siguientes funciones NO se relaciona con las células de Sertoli?",
+"opciones": {
+"A": "Conservan la espermatogénesis",
+"B": "Producen factor estimulante de los conductos de Muller",
+"C": "Sostienen la barrera hemato-testicular",
+"D": "Producen inhibina",
+"E": "Aromatizan la testosterona"
+},
+"clave": "B"
+},
+{
+"n": 150,
+"enunciado": "¿Cuál de las siguientes alternativas corresponde al metabolismo del fierro?",
+"opciones": {
+"A": "El ácido ascórbico inhibe la absorción intestinal.",
+"B": "Los fitatos favorecen su absorción",
+"C": "El valor de ferritina representa el depósito",
+"D": "Se deposita como transferrina",
+"E": "El 90% de lo ingerido se absorbe a nivel intestinal."
+},
+"clave": "C"
+},
+{
+"n": 151,
+"enunciado": "¿Cuál es el elemento que unido a la fracción C de la troponina inicia la contracción muscular?",
+"opciones": {
+"A": "Hialuronidasa",
+"B": "Ion fosfato",
+"C": "Proteína transportadora",
+"D": "Ion calcio",
+"E": "Ion sodio"
+},
+"clave": "D"
+},
+{
+"n": 152,
+"enunciado": "¿Cuál de las siguientes sustancias inhibe la motilidad intestinal?",
+"opciones": {
+"A": "Noradrenalina",
+"B": "Insulina",
+"C": "Motilina",
+"D": "Colecistocinina",
+"E": "Serotonina"
+},
+"clave": "A"
+},
+{
+"n": 153,
+"enunciado": "¿Cuál es el tipo de epitelio que presenta la tráquea?",
+"opciones": {
+"A": "Estratificado cuboidal",
+"B": "Estratificado cilíndrico",
+"C": "Escamoso",
+"D": "Cilíndrico simple",
+"E": "Pseudoestratificado cilíndrico ciliado"
+},
+"clave": "E"
+},
+{
+"n": 154,
+"enunciado": "Desde el punto de vista embriológico ¿En qué semana del desarrollo fetal aparecen los esbozos de las extremidades superiores e inferiores?",
+"opciones": {
+"A": "Cuarta",
+"B": "Tercera",
+"C": "Séptima",
+"D": "Decima",
+"E": "Novena"
+},
+"clave": "A"
+},
+{
+"n": 155,
+"enunciado": "¿Qué tipo de receptores celulares interactúan con la hormona luteinizante?",
+"opciones": {
+"A": "Canales iónicos",
+"B": "Intranucleares",
+"C": "Acoplados a proteína G",
+"D": "Intramembrana nuclear",
+"E": "Proteinquinasa"
+},
+"clave": "C"
+},
+{
+"n": 156,
+"enunciado": "¿Cuál es el flujo sanguíneo renal por minuto, que llega a ambos riñones, en un varón de 70kilos?",
+"opciones": {
+"A": "1500 ml/min",
+"B": "660 ml/min",
+"C": "1100 ml/min",
+"D": "800 ml/min",
+"E": "500 ml/min"
+},
+"clave": "C"
+},
+{
+"n": 157,
+"enunciado": "¿Cuál es el efecto adverso más frecuente en la administración de clindamicina?",
+"opciones": {
+"A": "Colitis pseudomembranosa",
+"B": "Nefrotoxicidad",
+"C": "Ototoxicidad",
+"D": "Anemia aplásica",
+"E": "Artropatía"
+},
+"clave": "A"
+},
+{
+"n": 158,
+"enunciado": "¿Cuál es la base nitrogenada que NO interviene en la síntesis del ADN?",
+"opciones": {
+"A": "Timina",
+"B": "Guaninarq",
+"C": "Citocina",
+"D": "Adenina",
+"E": "Uracilo"
+},
+"clave": "E"
+},
+{
+"n": 159,
+"enunciado": "Respecto a la fisiología intestinal, con la secreción de iones bicarbonato en el ileon y el intestino grueso se produce la absorción simultánea de iones …",
+"opciones": {
+"A": "Cloro",
+"B": "Sodio",
+"C": "Calcio",
+"D": "Potasio",
+"E": "Fosfato"
+},
+"clave": "A"
+},
+{
+"n": 160,
+"enunciado": "¿Cuál de los siguientes parásitos, es hematófago?",
+"opciones": {
+"A": "Enterobius vermicularis",
+"B": "Ascaris lumbricoides",
+"C": "Giardia lamblia",
+"D": "Stronyloides stercoralis",
+"E": "Trichocephalos dispar"
+},
+"clave": "E"
+},
+{
+"n": 161,
+"enunciado": "El disturbio electrolítico que se presenta en desnutrición crónica es …",
+"opciones": {
+"A": "Hiperkalemia con alteración de la repolarización ventricular",
+"B": "Hipernatremia por alteración de bomba Na-K-ATPasa",
+"C": "Hipercalcemia con alteración de la repolarización ventricular",
+"D": "Hiponatremia con sodio corporal total aumentado",
+"E": "Hiperkalemia con hipernatremia"
+},
+"clave": "D"
+},
+{
+"n": 162,
+"enunciado": "Varón de 7 años, 15 días después de cumplir tratamiento por faringoamigdalitis estreptocócica presenta náuseas, vómitos, cólicos abdominales e ictericia. ¿Cuál de los siguientes fármacos se asocia a estos efectos adversos?",
+"opciones": {
+"A": "Clindamicina fosfato",
+"B": "Cefradina",
+"C": "Vancomicina",
+"D": "Ampicilina",
+"E": "Eritromicina estolato"
+},
+"clave": "E"
+},
+{
+"n": 163,
+"enunciado": "¿Cuál es la hormona que estimula la secreción de testosterona por las células de Leydig?",
+"opciones": {
+"A": "Tiroxina",
+"B": "Foliculoestimulante",
+"C": "Estrógeno",
+"D": "Somatostatina",
+"E": "Luteinizante"
+},
+"clave": "E"
+},
+{
+"n": 164,
+"enunciado": "El reflejo de eyección presente durante el amamantamiento es mediado por la hormona:",
+"opciones": {
+"A": "Oxitocina",
+"B": "Prolactina",
+"C": "Estrógeno progesterona",
+"D": "Progesterona",
+"E": "Triyodotironina"
+},
+"clave": "A"
+},
+{
+"n": 165,
+"enunciado": "Paciente con anemia macrocítica crónica, cuya biopsia gástrica muestra gastritis crónica atrófica. La causa probable de la anemia se debe a una disminución del número de células …",
+"opciones": {
+"A": "Enterocitos",
+"B": "Principales",
+"C": "Argentafines",
+"D": "Cimógenas",
+"E": "Parietales"
+},
+"clave": "E"
+},
+{
+"n": 166,
+"enunciado": "¿Cuál es la hormona producida por las células alfa de los islotes de Langerhans del páncreas?",
+"opciones": {
+"A": "Somatostatina",
+"B": "Insulina",
+"C": "Gastrina",
+"D": "Glucagón",
+"E": "Polipéptido pancreático"
+},
+"clave": "D"
+},
+{
+"n": 167,
+"enunciado": "Se indica el lavado gástrico, cuando el paciente ha ingerido recientemente …",
+"opciones": {
+"A": "Hipoclorito de sodio",
+"B": "Kerosene",
+"C": "Organofosforados",
+"D": "Ácido muriático",
+"E": "Permanganato de potasio"
+},
+"clave": "C"
+},
+{
+"n": 168,
+"enunciado": "Varón de 52 años con excéresis de tumor de la región póstero superior del cuello que se extiende hasta el músculo esternocleidomastoideo. En el post operatorio el paciente no puede elevar el hombro derecho ni rotar la cabeza hacia la izquierda ¿Cuál es el nervio lesionado?",
+"opciones": {
+"A": "Mandibular",
+"B": "Cérvicofacial",
+"C": "Aurículotemporal",
+"D": "Trigémino",
+"E": "Espinal accesorio"
+},
+"clave": "E"
+},
+{
+"n": 169,
+"enunciado": "Varón de 16 años que ingresa a emergencia por intento de suicidio. Recibe el tratamiento adecuado y posteriormente en el paciente se observa fasciculaciones, sequedad de lengua y mucosas, midriasis y taquicardia. ¿A qué tipo de efecto farmacológico corresponde el cuadro clínico?",
+"opciones": {
+"A": "Agonista colinérgico",
+"B": "Bloqueador colinérgico",
+"C": "Bloqueador adrenérgico",
+"D": "Simpaticolitico",
+"E": "Parasimpáticomimetico"
+},
+"clave": "B"
+},
+{
+"n": 170,
+"enunciado": "¿Cuál es el nombre de la alteración, cuando todo o parte de un cromosoma se une a otro?",
+"opciones": {
+"A": "Inversión",
+"B": "Duplicación",
+"C": "Replicación",
+"D": "Translocación",
+"E": "Deleción"
+},
+"clave": "D"
+},
+{
+"n": 171,
+"enunciado": "El 95% de los errores innatos del metabolismo son heredados en forma:",
+"opciones": {
+"A": "Autosómica dominante",
+"B": "Ligada al cromosoma X",
+"C": "Autosómica recesiva",
+"D": "Ligada al cromosoma Y",
+"E": "Asociado a cromosoma frágil"
+},
+"clave": "C"
+},
+{
+"n": 172,
+"enunciado": "Mujer de 30 años natural de Arequipa acude por sensación de llenura y dolor retroestemal con regurgitación de alimentos. Rx de esófago contrastada: acalasia. ¿Cuál es el neurotransmisor que presenta una deficiente liberación?",
+"opciones": {
+"A": "Acetilcolina",
+"B": "Somatostatina",
+"C": "Péptido intestinal vasoactivo",
+"D": "Sustancia P",
+"E": "Serotonina"
+},
+"clave": "C"
+},
+{
+"n": 173,
+"enunciado": "¿Qué vía tiene menor biodisponibilidad?",
+"opciones": {
+"A": "Oral",
+"B": "Intramuscular",
+"C": "Subcutánea",
+"D": "Intradérmica",
+"E": "Endovenosa"
+},
+"clave": "A"
+},
+{
+"n": 174,
+"enunciado": "Lesión de cargas negativas de la membrana basal y ampliación de los poros de los podocitos ¿Qué se espera encontrar?",
+"opciones": {
+"A": "Proteinuria masiva",
+"B": "Microalbuminuria",
+"C": "Hematuria",
+"D": "Macroalbuminuria",
+"E": "Piuria"
+},
+"clave": "A"
+},
+{
+"n": 175,
+"enunciado": "¿En cuál de los siguientes órganos se encuentra células epiteliales estratificadas no queratinizadas?",
+"opciones": {
+"A": "Estómago",
+"B": "Ileon",
+"C": "Esófago",
+"D": "Colon",
+"E": "e.Duodeno"
+},
+"clave": "C"
+},
+{
+"n": 176,
+"enunciado": "¿Por dónde pasa el impulso al ventrículo?",
+"opciones": {
+"A": "Has de Bachman",
+"B": "Has de Wenckebach",
+"C": "Has de Thorel",
+"D": "Has de Hiss",
+"E": "Fibras de Purkinje"
+},
+"clave": "D"
+},
+{
+"n": 177,
+"enunciado": "¿Qué tipo de articulación es la de rodilla?",
+"opciones": {
+"A": "Anfiartrosis",
+"B": "Sinartrosis",
+"C": "Diartrosis",
+"D": "Enartrosis",
+"E": "Trocleartrosis"
+},
+"clave": "C"
+},
+{
+"n": 178,
+"enunciado": "¿Cuál es el efecto adverso más frecuente de la tetraciclina?",
+"opciones": {
+"A": "Hepatitis",
+"B": "Gastritis",
+"C": "Diarrea",
+"D": "Rush",
+"E": "Vértigo"
+},
+"clave": "C"
+},
+{
+"n": 179,
+"enunciado": "En caso de shock ¿Qué fluido se debe indicar?",
+"opciones": {
+"A": "Albúmina",
+"B": "Coloides",
+"C": "ClNa 20%",
+"D": "CLNa 9 %O",
+"E": "CLNa 3%"
+},
+"clave": "D"
+},
+{
+"n": 180,
+"enunciado": "¿Cuál es el lugar de acción de los diuréticos de asa?",
+"opciones": {
+"A": "Túbulo contorneado proximal",
+"B": "Túbulo contorneado distal",
+"C": "Asa de Henle gruesa ascendente",
+"D": "Túbulo colector",
+"E": "Asa de Henle delgada"
+},
+"clave": "C"
+},
+{
+"n": 181,
+"enunciado": "El medicamento cuya acción es estabilizar los mastocitos es:",
+"opciones": {
+"A": "Omalizumab",
+"B": "Montelukast",
+"C": "Teofilina",
+"D": "Bromuro de ipratropio",
+"E": "Cromoglicato sódico"
+},
+"clave": "E"
+},
+{
+"n": 182,
+"enunciado": "Mujer joven es llevada a Emergencia presentando sialorrea, náuseas y vómitos. En el examen físico se encuentra miosis y fasciculaciones. ¿Cuál es el diagnóstico más probable?",
+"opciones": {
+"A": "Hiperreactividad bronquial",
+"B": "Intoxicación alcohólica",
+"C": "Intoxicación por carbamatos",
+"D": "Edema agudo pulmonar",
+"E": "Neurosis conversiva"
+},
+"clave": "C"
+},
+{
+"n": 183,
+"enunciado": "¿Cómo se denominan los macrófagos que recubren los sinusoides hepáticos?",
+"opciones": {
+"A": "Merkel",
+"B": "Kupffer",
+"C": "Lieberkhun",
+"D": "Ito",
+"E": "Panetti"
+},
+"clave": "B"
+},
+{
+"n": 184,
+"enunciado": "Mujer de 35 años, nativa de costa, se desplaza a una altura de 3800 metros sobre el nivel del mar. ¿Cuál de los siguientes mecanismos aumenta inmediatamente para su aclimatación?",
+"opciones": {
+"A": "Producción de eritrocitos",
+"B": "Capacidad de difusión pulmonar",
+"C": "Capacidad tisular",
+"D": "Uso celular de oxígeno",
+"E": "Ventilación pulmonar"
+},
+"clave": "E"
+},
+{
+"n": 185,
+"enunciado": "¿Cuál es el mecanismo de acción del diurético usado como preventivo del mal de altura?",
+"opciones": {
+"A": "Antagonista de aldosterina",
+"B": "Inhibición de la bomba Na+ Cl-",
+"C": "Inhibición de anhidrasa carbónica",
+"D": "Inhibición de labomba Na+ K+ 2Cl-",
+"E": "Antagonista de vasopresina"
+},
+"clave": "C"
+},
+{
+"n": 186,
+"enunciado": "Mujer de 25 años con diagnóstico de glaucoma. ¿Cuál de los siguientes grupos farmacológicos están contraindicados?",
+"opciones": {
+"A": "Antiespasmódicos",
+"B": "Antihistamínicos",
+"C": "Anticolinérgicos",
+"D": "Antibióticos",
+"E": "AINES"
+},
+"clave": "C"
+},
+{
+"n": 187,
+"enunciado": "Mujer de 33 años, obesa, diagnosticada de micosis inguinal bilateral le indican ketoconazol una tableta de 200mg diaria. Reevaluada a los 15 días no se observa mejoría. El dermatólogo pregunta si está tomando alguna otra medicación. ¿Qué fármaco disminuye la acción de ketoconazol?",
+"opciones": {
+"A": "Penicilina",
+"B": "Rifampicina",
+"C": "Amiodarona",
+"D": "Omeprazol",
+"E": "Amikacina"
+},
+"clave": "B"
+},
+{
+"n": 188,
+"enunciado": "En la enfermedad hemolítica del recién nacido: madre Rh (-), feto Rh (+). ¿Cuál es la inmunoglobulina que atraviesa la placenta y produce hemólisis?",
+"opciones": {
+"A": "A",
+"B": "M",
+"C": "D",
+"D": "G",
+"E": "E"
+},
+"clave": "D"
+},
+{
+"n": 189,
+"enunciado": "Mujer de 34 años, asintomática sin antecedentes de hepatopatía. Al examen: coloración amarilla de la piel, no hepatomegalia. Perfil hepático normal. La seudoictericia se debe a la cantidad incrementada de:",
+"opciones": {
+"A": "Caroteno",
+"B": "Bilirrubina",
+"C": "Cianocobalamina",
+"D": "Melanina",
+"E": "Fenilalanina"
+},
+"clave": "A"
+},
+{
+"n": 190,
+"enunciado": "Dermatopatía acral, alopecia y diarrea se debe a déficit de:",
+"opciones": {
+"A": "Vitamina A",
+"B": "Vitamina B12",
+"C": "Zinc",
+"D": "Calcio",
+"E": "Magnesio"
+},
+"clave": "C"
+},
+{
+"n": 191,
+"enunciado": "Pre – escolar de 2 años de edad es traído a Emergencia por haber ingerido pan contaminado con insecticidad. Al examen físico: fasciculaciones, sialorrea, miosis, broncorrea. El diagnóstico es intoxicación por órganos fosforados ¿Cuál es el tratamiento?",
+"opciones": {
+"A": "Naloxona",
+"B": "Atropina",
+"C": "Flumazenil",
+"D": "N – acetil cisteína",
+"E": "Crabón activado"
+},
+"clave": "B"
+},
+{
+"n": 192,
+"enunciado": "¿Cuál es la capa histológica que afecta el cáncer precoz?",
+"opciones": {
+"A": "Solo mucosa",
+"B": "Submucosa",
+"C": "Muscular circular",
+"D": "Muscular longitudinal",
+"E": "Serosa"
+},
+"clave": "B"
+},
+{
+"n": 193,
+"enunciado": "Indique cuál de las siguientes afirmaciones es correcta en relación a la fisiología y farmacología del estómago:",
+"opciones": {
+"A": "Los fármacos más potentes en inhibir la secreción gástrica son los prazoles.",
+"B": "Los anhistamínicos inhiben la secreción gástrica por bloqueo de los receptores H2.",
+"C": "Los antihistamínicos son fármacos menos potentes pero más económicos.",
+"D": "La hitamina es una hormona que aumenta la secreción gástrica vía AMPc.",
+"E": "Los antihistamínicos previenen de la úlcera duodenal por AINEs."
+},
+"clave": "E"
+},
+{
+"n": 194,
+"enunciado": "En relación a la fisiología de la absorción indique la respuesta incorrecta:",
+"opciones": {
+"A": "Las sales de hierro se absorben mejor en ayunas y en su forma férrica.",
+"B": "El hierro se absorbe en el duodeno.",
+"C": "La mayor parte del agua se absorbe en el intestino delgado.",
+"D": "La vitamina B12 y las sales biliares se absorben en el ileon.",
+"E": "La insuficiencia pancreática puede condicionar anemia megaloblástica."
+},
+"clave": "A"
+},
+{
+"n": 195,
+"enunciado": "Paciente de 27 años de edad que acude a urgencias del hospital refiriendo mal estado general, mucha sed y mucho apetito a pesar de lo cual sigue perdiendo peso. En la bioquímica que se le realiza llama la atención una glucosa de 345 mg/dl. De lo que a continuación se enumera, no esperaría encontrar:",
+"opciones": {
+"A": "Poliuria.",
+"B": "Disminución del tono ocular.",
+"C": "Hipernatremia.",
+"D": "Hiperpotasemia falsa con acidosis metabólica.",
+"E": "Cortejo vegetativo."
+},
+"clave": "C"
+},
+{
+"n": 196,
+"enunciado": "La pelagra es una enfermedad producida por el déficit de:",
+"opciones": {
+"A": "Biotina",
+"B": "Niacina",
+"C": "Piridoxina",
+"D": "Riboflavina",
+"E": "Vitamina C"
+},
+"clave": "B"
+},
+{
+"n": 197,
+"enunciado": "Mujer de 20 años encontrada inconsciente en casa, al examen físico: soporosa, sudoración con rubicundez facial, sialorrea persistente, pupilas otros reactivas de 2mm y fasciculaciones en cara, roncantes y siblantes difusos en ambos mapas pulmonares. Taquicardia sinusual. Al estímulo moviliza las 4 extremidades. ¿Cuál es el diagnostico probable?",
+"opciones": {
+"A": "Intoxicación por órganos fosforados.",
+"B": "Crisis bronquial.",
+"C": "Intoxicación por benzodiacepinas.",
+"D": "Estado postictal.",
+"E": "Hipoglicemia."
+},
+"clave": "A"
+},
+{
+"n": 198,
+"enunciado": "En bien conocido la importancia que tiene el metabolismo lipídico en el desarrollo de enfermedad arterioesclerótica. El conocimiento del mismo, ha habilitado el desarrollo de nuevas líneas farmacológicas destinada a un buen control del colesterol. ¿Podría usted señalar cuál es el enzima limitante en la síntesis de colesterol?:",
+"opciones": {
+"A": "Hidroximetil-glutaril-coA-reductasa.",
+"B": "Lipoproteinlipasa.",
+"C": "Elastasa.",
+"D": "Hidroxilasa.",
+"E": "Monoaminoxidasa."
+},
+"clave": "A"
+},
+{
+"n": 199,
+"enunciado": "El control de la coagulación es algo que cualquier médico debe conocer. En relación a ello podría señalar cuál de las siguientes afirmaciones en incorrecta:",
+"opciones": {
+"A": "La proteína C y S son inhibidores de la coagulación.",
+"B": "Los anticoagulantes orales se titulan con el INR.",
+"C": "La heparina sódica modifica la vía intrínseca de la coagulación.",
+"D": "Las heparinas de bajo peso molecular tienen menor riesgo de sangrado y trombopenia. Se administran subcutáneamente y su dosis de ajusta con el TTPA.",
+"E": "Los anticoagulantes orales alteran la vía extrínseca."
+},
+"clave": "D"
+},
+{
+"n": 200,
+"enunciado": "¿Cuál de los siguientes fenómenos es el responsable de la fase 0 (fase rápida) de despolarización de un miocardiocito ventricular?:",
+"opciones": {
+"A": "Aumento de conductancia para el sodio (gNa)",
+"B": "Aumento de conductancia para el potasio (gK)",
+"C": "Aumento de conductancia para el cloruro (gCl)",
+"D": "Aumento de conductancia para el calcio (gCa)",
+"E": "Aumento de conductancia para el potasio (gK) dependiente de Calcio"
+},
+"clave": "A"
+},
+{
+"n": 201,
+"enunciado": "El potencial de acción de la fibra muscular cardiaca presenta una meseta que dura unos 300 milisegundos (cercana al pico del potencial de acción) y que se debe a la apertura de canales de membrana voltaje-dependientes para el calcio. Este fenómeno es de gran significación fisiológica por su consecuencia directa sobre:",
+"opciones": {
+"A": "La frecuencia cardiaca",
+"B": "La contractilidad de la fibra cardiaca",
+"C": "El retardo aurículo-ventricular",
+"D": "El retorno venoso",
+"E": "El llenado ventricular"
+},
+"clave": "B"
+},
+{
+"n": 202,
+"enunciado": "¿Qué tipo de alteración tiene un paciente con la siguiente gasometría arterial: pH 7,20, bicarbonato de 15 mEq/l y PCO2 30 mmHg?",
+"opciones": {
+"A": "Acidosis metabólica.",
+"B": "Acidosis respiratoria.",
+"C": "Acidosis metabólica compensada.",
+"D": "Acidosis mixta.",
+"E": "Alcalosis respiratoria."
+},
+"clave": "A"
+},
+{
+"n": 203,
+"enunciado": "¿Cuál de las siguientes alteraciones produce acidosis metabólica con anión GAP elevado?:",
+"opciones": {
+"A": "Diarrea y fístulas intestinales.",
+"B": "Ureterosigmoidostomía.",
+"C": "Cloruro amónico.",
+"D": "Acidosis tubular renal.",
+"E": "Aspirina."
+},
+"clave": "E"
+},
+{
+"n": 204,
+"enunciado": "¿Cuál de los siguientes fármacos produce hiponatremia con más frecuencia?:",
+"opciones": {
+"A": "Hidroclorotiazica.",
+"B": "Espironolactona.",
+"C": "Furosemida.",
+"D": "Manitol.",
+"E": "Acetazolamida."
+},
+"clave": "A"
+},
+{
+"n": 205,
+"enunciado": "¿Cuál de los siguientes huesos forma parte del tabique nasal?",
+"opciones": {
+"A": "Esfenoides",
+"B": "Maxilar superior",
+"C": "Etmoides",
+"D": "Palatino",
+"E": "Cigomatico"
+},
+"clave": "C"
+},
+{
+"n": 206,
+"enunciado": "¿Cuál es el tratamiento empleado en la intoxicación por paracetamol?",
+"opciones": {
+"A": "Acetilcisteina",
+"B": "Atropina",
+"C": "Fenobarbital",
+"D": "Naloxona",
+"E": "Clorpromazina"
+},
+"clave": "A"
+},
+{
+"n": 207,
+"enunciado": "Según el mecanismo de secreción. ¿A qué tipo corresponden las glándulas sebáceas?",
+"opciones": {
+"A": "Apocrinas",
+"B": "Holocrinas",
+"C": "Ecrinas",
+"D": "Holocrinas y Ecrinas",
+"E": "Apocrinas y Ecrinas"
+},
+"clave": "B"
+},
+{
+"n": 208,
+"enunciado": "¿Cómo se llama el estado en el cual hay ausencia de manos y pies?",
+"opciones": {
+"A": "Focomelia.",
+"B": "Meromelia.",
+"C": "Siringomelia",
+"D": "Braquicefalia",
+"E": "Sinfalangismo"
+},
+"clave": "B"
+},
+{
+"n": 209,
+"enunciado": "¿El ombligo esta inervado por cual dermatoma?",
+"opciones": {
+"A": "T10",
+"B": "L1",
+"C": "T4",
+"D": "L5",
+"E": "L2"
+},
+"clave": "A"
+},
+{
+"n": 210,
+"enunciado": "Cuáles son las arterias que irrigan tercio superior de vagina:",
+"opciones": {
+"A": "Arteria uterina",
+"B": "Arteria pudenda interna",
+"C": "Arteria vaginal",
+"D": "Arteria Pudenda",
+"E": "Arteria Glútea"
+},
+"clave": "A"
+},
+{
+"n": 211,
+"enunciado": "¿Gracias a qué célula maduran los espermatozoides?",
+"opciones": {
+"A": "Celulas M",
+"B": "Sertoli",
+"C": "Leydig",
+"D": "Células Z",
+"E": "Céulas Y"
+},
+"clave": "B"
+},
+{
+"n": 212,
+"enunciado": "¿Qué medicamento produce el síndrome de hombre rojo?",
+"opciones": {
+"A": "Vancomicina",
+"B": "Cloranfenicol",
+"C": "Fenitoina",
+"D": "Imipenem",
+"E": "Claritromicina"
+},
+"clave": "A"
+},
+{
+"n": 213,
+"enunciado": "Un agricultor fue encontrado por su familia con pupilas midiráticas, Eufórico, piel seca. ¿Cuál es la causa probable de intoxicación?",
+"opciones": {
+"A": "Cocaína",
+"B": "Ayahuasca.",
+"C": "Heroína",
+"D": "Marihuana",
+"E": "Crack"
+},
+"clave": "B"
+},
+{
+"n": 214,
+"enunciado": "Mujer que había discutido con su pareja llega a emergencia con broncorrea, fasciculaciones de cara. Su diagnóstico es intoxicación con:",
+"opciones": {
+"A": "BZD",
+"B": "Organofosforados",
+"C": "Heroína",
+"D": "Cocaína",
+"E": "Éxtasis"
+},
+"clave": "B"
+},
+{
+"n": 215,
+"enunciado": "¿Cuál es el antituberulosos que está contraindicado en la gestación?",
+"opciones": {
+"A": "Isomacina.",
+"B": "Rifampicina.",
+"C": "Estreptomicina",
+"D": "Clindamicina",
+"E": "NA"
+},
+"clave": "C"
+},
+{
+"n": 216,
+"enunciado": "Cuál de los siguientes fármacos es la mejor combinación antipseudomonicos",
+"opciones": {
+"A": "Aminoglucosidos + Macrolidos",
+"B": "Macrolidos + B lactamicos",
+"C": "Aminoglucosisdos + B lactamicos",
+"D": "B – lactámicos",
+"E": "NA"
+},
+"clave": "C"
+},
+{
+"n": 217,
+"enunciado": "El dolor se percibe a través de:",
+"opciones": {
+"A": "Corpusculo de Meckel",
+"B": "Paccini",
+"C": "Krause",
+"D": "Terminaciones nerviosas libre",
+"E": "Meissner"
+},
+"clave": "D"
+},
+{
+"n": 218,
+"enunciado": "Cuál es el receptor que detecta los cambios bruscos de la Pa Co2 a. Quimioreceptores periféricos b. Quimiorreceptores centrales c. Seno aórtico d. Seno carotideo e. Bulbo raquideo",
+"opciones": {},
+"clave": "B"
+},
+{
+"n": 219,
+"enunciado": "¿A dónde desemboca la vena gonadal izquierda?",
+"opciones": {
+"A": "A la vena iliaca interna",
+"B": "A la vena iliaca externa",
+"C": "A la vena cava inferior",
+"D": "A la vena ácigos",
+"E": "A la vena renal izquierda"
+},
+"clave": "E"
+},
+{
+"n": 220,
+"enunciado": "La agenesia de los conductos de muller produciría lo siguiente",
+"opciones": {
+"A": "Ausencia de ovarios",
+"B": "Agenesia de vagina tercio inferior",
+"C": "Útero didelfo",
+"D": "Ausencia de útero",
+"E": "Utero tabicado"
+},
+"clave": "D"
+},
+{
+"n": 221,
+"enunciado": "Llega a emergencia un niño que se tomó hace 5 horas un frasco de clorfenamina al examen, mucosas secas, rubicundo ¿Que indicaría usted?",
+"opciones": {
+"A": "Sintomático",
+"B": "Atropina",
+"C": "Fisostigmina",
+"D": "Naloxona",
+"E": "N acetilcisteina"
+},
+"clave": "A"
+},
+{
+"n": 222,
+"enunciado": "¿Cómo se llama la interconexión por cartílago con 2 huesos separados?",
+"opciones": {
+"A": "Sutura",
+"B": "Gonfosis",
+"C": "Sinfisis",
+"D": "Sinconcrodosis",
+"E": "Sindesmosis"
+},
+"clave": "C"
+},
+{
+"n": 223,
+"enunciado": "¿Dónde se almacenan los espermatozoides antes de la eyaculación?",
+"opciones": {
+"A": "Conducto deferente",
+"B": "Vesícula seminal",
+"C": "Epidídimo",
+"D": "Uretra prostática",
+"E": "Cordón espermático"
+},
+"clave": "C"
+},
+{
+"n": 224,
+"enunciado": "Varón de 40 años con náuseas y dolor abdominal tipo cólico, le medican diversos sintomáticos, presentando a las horas blefarospasmo ¿Cuál de los siguientes fármacos es responsable?",
+"opciones": {
+"A": "Metilbromuro de hioscina",
+"B": "Dimenhidrinato",
+"C": "Metoclopramida",
+"D": "Loperamida",
+"E": "Tramadol"
+},
+"clave": "C"
+},
+{
+"n": 225,
+"enunciado": "¿Cuál es el origen de la arteria carótida común derecha?",
+"opciones": {
+"A": "Tronco braquiocefálico",
+"B": "Arteria subclavia derecha",
+"C": "Aorta descendente",
+"D": "Cayado aórtico",
+"E": "Aorta descendente"
+},
+"clave": "A"
+},
+{
+"n": 226,
+"enunciado": "Varón de 31 años consulta con su pareja porque llevan 2 años de relaciones sexuales regulares sin protección y sin lograr el embarazo. Espermatograma OMS disminución de la concentración de espermatozoides ¿Cuál es el diagnóstico?",
+"opciones": {
+"A": "Astenospermia",
+"B": "Teratospermia",
+"C": "Azoospermia",
+"D": "Criptospermia",
+"E": "Oligospermia"
+},
+"clave": "E"
+},
+{
+"n": 227,
+"enunciado": "¿Cuál de los siguientes nervios se encarga del control motor del músculo masetero?",
+"opciones": {
+"A": "Facial",
+"B": "Cérvico-facial",
+"C": "Maxilar superior",
+"D": "Maxilar inferior",
+"E": "Oftálmico"
+},
+"clave": "D"
+},
+{
+"n": 228,
+"enunciado": "En la formación del polígono de Willis, contribuyen las arterias:",
+"opciones": {
+"A": "Cerebrales anteriores y cerebelosas superiores",
+"B": "Cerebrales medias y cerebelosas posteriores",
+"C": "Cerebrales anteriores y cerebelosas posteriores",
+"D": "Cerebrales medias y cerebrales posteriores",
+"E": "Comunicante media y cerebrales posteriores"
+},
+"clave": "C"
+},
+{
+"n": 229,
+"enunciado": "Son núcleos de cerebelo…",
+"opciones": {
+"A": "Núcleo del fastigio (o del techo), el globoso, el emboliforme y el dentado",
+"B": "Núcleo de edinger westphal, globoso y emboliforme",
+"C": "Núcleo de edinger westphal, núcleo del fastigio (o del techo), el globoso, el emboliforme y el dentado",
+"D": "Putamen, globoso, emboliforme",
+"E": "Emboliforme, putamen, dentado"
+},
+"clave": "A"
+},
+{
+"n": 230,
+"enunciado": "Las ramas de los nervios raquídeos que forman el plexo cervical son:",
+"opciones": {
+"A": "Antero lateral",
+"B": "Posteriores",
+"C": "Anteroposterior",
+"D": "Laterales",
+"E": "Anteriores"
+},
+"clave": "E"
+},
+{
+"n": 231,
+"enunciado": "¿A qué segmento del encéfalo corresponde el diencéfalo?",
+"opciones": {
+"A": "Romboencéfalo",
+"B": "Prosencéfalo",
+"C": "Mesencéfalo",
+"D": "Metencéfalo",
+"E": "Mielencéfalo"
+},
+"clave": "B"
+},
+{
+"n": 232,
+"enunciado": "El triángulo de la auscultación está delimitado por el dorsal ancho, el ……. y el ……. :",
+"opciones": {
+"A": "Serrato mayor / Trapecio",
+"B": "Trapecio / Borde medial de la escápula",
+"C": "Romboides mayor / Romboide menor",
+"D": "Redondo mayor / Romboide mayor",
+"E": "Redondo menor / Trapecio"
+},
+"clave": "B"
+},
+{
+"n": 233,
+"enunciado": "Si un paciente queda disfónico después de haber sido sometido a una hemitiroidetomía izquierda, es porque se ha lesionado:",
+"opciones": {
+"A": "Cadena simpática izquierda",
+"B": "Nervio frénico izquierdo",
+"C": "Nervio frénico y laríngeo superior izquierdo",
+"D": "Nervio laríngeo inferior izquierdo",
+"E": "Nervio laríngeo superior izquierdo"
+},
+"clave": "D"
+},
+{
+"n": 234,
+"enunciado": "El esófago torácico se encuentra ubicado en el mediastino:",
+"opciones": {
+"A": "Anterior y medio",
+"B": "Medio y posterior",
+"C": "Superior y anterior",
+"D": "Superior y medio",
+"E": "Superior y posterior"
+},
+"clave": "E"
+},
+{
+"n": 235,
+"enunciado": "Anatómicamente ¿Qué estructura coincide con una estrechez del esófago?",
+"opciones": {
+"A": "Primera vértebra cervical",
+"B": "Ápice cardiaco",
+"C": "Cayado de la aorta",
+"D": "Primera porción del duodeno",
+"E": "Pilares diafragmáticos"
+},
+"clave": "C"
+},
+{
+"n": 236,
+"enunciado": "Los cartílagos impares de la laringe son epiglotis, tiroides y…",
+"opciones": {
+"A": "corniculado.",
+"B": "aritenoides.",
+"C": "cricoides.",
+"D": "cuneiforme.",
+"E": "triticio."
+},
+"clave": "C"
+},
+{
+"n": 237,
+"enunciado": "paciente que en la radiografía de tórax presenta tumoración a nivel de la lingula. ¿en qué lóbulo se encuentra la lesión?",
+"opciones": {
+"A": "superior derecho",
+"B": "superior izquierdo",
+"C": "inferior derecho",
+"D": "medio derecho",
+"E": "inferior izquierdo"
+},
+"clave": "B"
+},
+{
+"n": 238,
+"enunciado": "El plexo cardiaco tiene su origen en:",
+"opciones": {
+"A": "Ramas cervicales del vago y tronco simpático",
+"B": "Nervio vago y ganglios simpáticos",
+"C": "Ramas cervicales anteriores y ramo anterior del nervio T12",
+"D": "Ramas anteriores del vago y del nervio T12",
+"E": "Ganglios simpáticos y ramas posteriores de nervios C3 – 5"
+},
+"clave": "A"
+},
+{
+"n": 239,
+"enunciado": "En relación a la vascularización pulmonar marque la alternativa que corresponde:",
+"opciones": {
+"A": "Las venas pulmonares transportan sangre pobre en oxigeno",
+"B": "Las arterias pulmonares transportan sangre altamente oxigenada",
+"C": "Las venas bronquiales drenan parcialmente la sangre aportada a los pulmones",
+"D": "La vena bronquial derecha drena en la vena hemiácigos",
+"E": "La vena bronquial izquierda drena en la vena ácigos"
+},
+"clave": "C"
+},
+{
+"n": 240,
+"enunciado": "¿Cuál de los siguientes enunciados caracteriza la ubicación de la arteria pulmonar derecha?",
+"opciones": {
+"A": "Posterior a la aorta ascendente",
+"B": "Anterior a la aorta descendente",
+"C": "Posterior a la vena pulmonar inferior",
+"D": "Posterior al bronquio principal derecho",
+"E": "Anterior a la aorta ascendente"
+},
+"clave": "A"
+},
+{
+"n": 241,
+"enunciado": "En la mayoría de los casos, los nodos sinusal y auriculoventricular están irrigados por la arteria:",
+"opciones": {
+"A": "Coronaria derecha",
+"B": "Ramas de la circunfleja",
+"C": "Marginal",
+"D": "Coronaria izquierda",
+"E": "Interventricular"
+},
+"clave": "A"
+},
+{
+"n": 242,
+"enunciado": "Las cuerdas vocales están inervadas por el:",
+"opciones": {
+"A": "Hipogloso",
+"B": "Simpático cervical",
+"C": "Laríngeo recurrente",
+"D": "Laríngeo superior",
+"E": "Glosofaríngeo"
+},
+"clave": "C"
+},
+{
+"n": 243,
+"enunciado": "En un adulto sano. ¿Qué estructura se localiza habitualmente en el mediastino posterior?",
+"opciones": {
+"A": "Aorta descendente",
+"B": "Glándula timo",
+"C": "Arteria mamaria interna",
+"D": "Nervio frénico",
+"E": "Tráquea"
+},
+"clave": "A"
+},
+{
+"n": 244,
+"enunciado": "El colon ascendente esta irrigado por la arteria:",
+"opciones": {
+"A": "Hemorroidal derecha",
+"B": "Mesentérica inferior",
+"C": "Tronco celiaco",
+"D": "Cólica izquierda",
+"E": "Mesentérica superior"
+},
+"clave": "E"
+},
+{
+"n": 245,
+"enunciado": "El círculo arterial de la curvatura menor del estómago está formado por:",
+"opciones": {
+"A": "Gástrica izquierda y gastroepiploica izquierda",
+"B": "Gastroepiploica derecha e izquierda",
+"C": "Gástrica derecha y gastroepiploica derecha",
+"D": "Gástrica derecha e izquierda",
+"E": "Gástrica derecha y primer vaso corto"
+},
+"clave": "D"
+},
+{
+"n": 246,
+"enunciado": "¿De qué musculo procede ligamento inguinal de Poupart?",
+"opciones": {
+"A": "Oblicuo mayor",
+"B": "Transverso",
+"C": "Recto anterior",
+"D": "Oblicuo menor",
+"E": "Piramidal"
+},
+"clave": "A"
+},
+{
+"n": 247,
+"enunciado": "¿Cuál de las siguientes arterias, transcurre por la curvatura menor de estómago?",
+"opciones": {
+"A": "Gastroomental izquierda",
+"B": "Gastroduodenal",
+"C": "Gastroomental derecha",
+"D": "Coronaria estomáquica",
+"E": "Vasos cortos"
+},
+"clave": "D"
+},
+{
+"n": 248,
+"enunciado": "La triada portal está conformada por la vena porta:",
+"opciones": {
+"A": "La arteria hepática y el conducto biliar",
+"B": "La vena hepática y el ligamento hepatoduodenal",
+"C": "El epiplón mayor y el ligamento hepatoduodenal",
+"D": "La arteria hepática y el conduto colédoco",
+"E": "El epiplón menor y el ligamento hepatoduodenal"
+},
+"clave": "A"
+},
+{
+"n": 249,
+"enunciado": "¿Qué porción del páncreas está dentro de la concavidad en forma de C del duodeno?",
+"opciones": {
+"A": "Cabeza",
+"B": "Cuello",
+"C": "Proceso unciforme",
+"D": "Cuerpo",
+"E": "Cola"
+},
+"clave": "A"
+},
+{
+"n": 250,
+"enunciado": "La irrigación del apéndice cecal se da a través de una rama de la arteria",
+"opciones": {
+"A": "Mesentérica superior",
+"B": "Rectal superior",
+"C": "Cólica media accesoria",
+"D": "Cólica izquierda",
+"E": "Sigmoidea superior"
+},
+"clave": "A"
+},
+{
+"n": 251,
+"enunciado": "El principal sostén del útero lo brindan los ligamentos",
+"opciones": {
+"A": "Ligamentos ancho y redondo",
+"B": "Ligamentos uterosacros y cardinales",
+"C": "Parametrio y ligamento cardinal",
+"D": "Ligamento cardinal y ligamento ancho",
+"E": "Ligamento uterosacro y ligamento redondo"
+},
+"clave": "B"
+},
+{
+"n": 252,
+"enunciado": "¿Cuál de las siguientes alternativas corresponde al músculo elevador del ano?",
+"opciones": {
+"A": "Pubocoxígeo",
+"B": "Piramidal",
+"C": "Transverso profundo",
+"D": "Íleo rectal",
+"E": "Íleo cavernoso"
+},
+"clave": "A"
+},
+{
+"n": 253,
+"enunciado": "La arteria dorsal del pie es rama de la arteria:",
+"opciones": {
+"A": "Arco dorsal del tarso",
+"B": "Pedia",
+"C": "Peronea anterior",
+"D": "Tibioperoneal anterior",
+"E": "Tibial anterior"
+},
+"clave": "E"
+},
+{
+"n": 254,
+"enunciado": "Indicar los músculos que forman el canal del pulso:",
+"opciones": {
+"A": "Supinador largo y palmar mayor",
+"B": "Supinador largo y palmar menor",
+"C": "Palmar mayor y palmar menor",
+"D": "Abductor largo y extensor lago del pulgar",
+"E": "Supinador largo y primer radial externo"
+},
+"clave": "A"
+},
+{
+"n": 255,
+"enunciado": "El canal del pulso está limitado por los tendones de los músculos …… y su contenido es la arteria ……:",
+"opciones": {
+"A": "Primar radial externo, supinador largo / radial",
+"B": "Palmar mayor, palmar menor / radial",
+"C": "Supinador largo, palmar mayor / radial",
+"D": "Supinador corto, palmar mayor / cubital",
+"E": "Flexor común de los dedos, palmar menor / cubital"
+},
+"clave": "C"
+},
+{
+"n": 256,
+"enunciado": "En el hombro se consideran cinco articulaciones de las cuales, tres tienen las características propias de una articulación y dos denominadas funciones. Estas articulaciones son: (1) acromioclavicular, (2) esternoclavicular, (3) gleno – humeral, (4) bursa subacromio – deltoidea y (5) ……….:",
+"opciones": {
+"A": "Corredor bicipital corto",
+"B": "Corredor bicipital largo",
+"C": "Corredor supra – espinoso",
+"D": "Espacio escápulo – torácico",
+"E": "Manguito de los rotadores"
+},
+"clave": "D"
+},
+{
+"n": 257,
+"enunciado": "El canal del pulso está limitado por los tendones de los músculos… Y su contenido es la arteria…",
+"opciones": {
+"A": "Primer radial externo, superior largo/Radial",
+"B": "Palmar mayor, palmar menor/Radial",
+"C": "Supinador largo, palmar mayor/Radial",
+"D": "Supinador largo, palmar menor/cubital",
+"E": "Flexor común de los dedos, palmar menor/cubital"
+},
+"clave": "C"
+},
+{
+"n": 258,
+"enunciado": "¿Cuál es la articulación sinovial más grande del organismo?",
+"opciones": {
+"A": "Cadera",
+"B": "Codo",
+"C": "Tobillo",
+"D": "Rodilla",
+"E": "Hombro"
+},
+"clave": "D"
+},
+{
+"n": 259,
+"enunciado": "¿Cuál es el canal por donde pasa la vena cefálica y que se debe recordar cuando se le realiza una flebotomía?",
+"opciones": {
+"A": "radial",
+"B": "guyon",
+"C": "torsion",
+"D": "bicipital",
+"E": "deltopectoral"
+},
+"clave": "E"
+},
+{
+"n": 260,
+"enunciado": "¿Cuál es el musculo que permite la flexión plantar del pie y flexión de la rodilla?",
+"opciones": {
+"A": "Soleo",
+"B": "Semitendinoso",
+"C": "Gastrocnemio",
+"D": "Semimembranoso",
+"E": "Aductor mayor."
+},
+"clave": "C"
+},
+{
+"n": 261,
+"enunciado": "¿Qué articulación es de tipo sinovial?",
+"opciones": {
+"A": "Coxofemoral",
+"B": "Pubocoxígea",
+"C": "Acromioclavicular",
+"D": "Intervertebral",
+"E": "Esternoclavicular"
+},
+"clave": "A"
+},
+{
+"n": 262,
+"enunciado": "El índice metabólico basal se mide después de ……. horas de ayuno:",
+"opciones": {
+"A": "Ocho",
+"B": "Diez",
+"C": "Doce",
+"D": "Seis",
+"E": "Cuatro"
+},
+"clave": "C"
+},
+{
+"n": 263,
+"enunciado": "¿Cómo se absorbe la fructosa?",
+"opciones": {
+"A": "Transporte activo",
+"B": "Difusión facilitada",
+"C": "Difusión simple",
+"D": "Pinocitosis",
+"E": "Fagocitosis"
+},
+"clave": "B"
+},
+{
+"n": 264,
+"enunciado": "¿Qué porcentaje de la energía total se consume en reposo?",
+"opciones": {
+"A": "40%",
+"B": "50%",
+"C": "60%",
+"D": "30%",
+"E": "20%"
+},
+"clave": "C"
+},
+{
+"n": 265,
+"enunciado": "¿Cuáles son los principales órganos o tejidos en los que se realiza la gluconeogénesis?",
+"opciones": {
+"A": "Riñón y musculo",
+"B": "Cerebro e hígado",
+"C": "Musculo y tejido adiposo",
+"D": "Hígado y riñón",
+"E": "Cerebro y riñón"
+},
+"clave": "D"
+},
+{
+"n": 266,
+"enunciado": "¿Qué fenómeno bioquímico se produce cuando el músculo se contrae en un medio anaeróbico?:",
+"opciones": {
+"A": "Acumulación de piruvato",
+"B": "Conversión de lactato en piruvato",
+"C": "Disminución de la formación de lactato",
+"D": "Incremento de la síntesis de glucógeno",
+"E": "Incremento del lactato"
+},
+"clave": "E"
+},
+{
+"n": 267,
+"enunciado": "¿Después de cuantas horas de ayuno se debe medir el índice metabólico basal?",
+"opciones": {
+"A": "Cuatro",
+"B": "Seis",
+"C": "Ocho",
+"D": "Diez",
+"E": "Doce"
+},
+"clave": "E"
+},
+{
+"n": 268,
+"enunciado": "La gluconeogénesis se realiza principalmente en:",
+"opciones": {
+"A": "Cerebro e hígado",
+"B": "Cerebro y riñones",
+"C": "Hígado y riñones",
+"D": "Musculo y tejido adiposo",
+"E": "Riñones y musculo"
+},
+"clave": "C"
+},
+{
+"n": 269,
+"enunciado": "¿Cuál es el transportador que permite la reabsorción renal de la glucosa en el túbulo contorneado proximal?",
+"opciones": {
+"A": "GLUT-1",
+"B": "GLUT-3",
+"C": "SGLT-1",
+"D": "SGLT-2",
+"E": "GLUT 2"
+},
+"clave": "D"
+},
+{
+"n": 270,
+"enunciado": "Infante de 3 años, con diarrea crónica, que se exacerba luego de ingesta de leche. Sospecha de deficiencia de lactasa. ¿En qué monosacáridos se fragmenta la lactosa?",
+"opciones": {
+"A": "Fructosa y galactosa",
+"B": "Sacarosa y manosa",
+"C": "Manosa y fructosa",
+"D": "Galactosa y glucosa",
+"E": "Glucosa y celulosa"
+},
+"clave": "D"
+},
+{
+"n": 271,
+"enunciado": "Los ácidos grasos libres presentes en el plasma, son transportados en asociación a:",
+"opciones": {
+"A": "Betaproteinas",
+"B": "Gammaglobulinas",
+"C": "Ig G",
+"D": "Albúmina",
+"E": "Quilomicrones"
+},
+"clave": "D"
+},
+{
+"n": 272,
+"enunciado": "En el aceite de pescado predomina:",
+"opciones": {
+"A": "Ácido araquidónico (AA)",
+"B": "Ácido esteárico",
+"C": "Ácido eicosapentanoico (EPA)",
+"D": "Ácido palmítico",
+"E": "Ácido oleico"
+},
+"clave": "C"
+},
+{
+"n": 273,
+"enunciado": "¿Cuál es la lipoproteína que recoge el colesterol desde el tejido periférico hacia el hígado (transporte inverso)?",
+"opciones": {
+"A": "Lipoproteína de densidad intermedia (IDL)",
+"B": "Quilomicrón (QM)",
+"C": "Lipoproteína de baja densidad (LDL)",
+"D": "Lipoproteína de muy baja densidad (VLDL)",
+"E": "Lipoproteína de alta densidad (HDL)"
+},
+"clave": "E"
+},
+{
+"n": 274,
+"enunciado": "¿Cuál es la mayor reserva de energía (en kilocalorías) que existe en el cuerpo humano?",
+"opciones": {
+"A": "Glucógeno hepático",
+"B": "Glucosa sanguínea",
+"C": "Triglicéridos",
+"D": "Proteína muscular",
+"E": "Glucógeno muscular"
+},
+"clave": "C"
+},
+{
+"n": 275,
+"enunciado": "La leptina se sintetiza en el:",
+"opciones": {
+"A": "Hígado",
+"B": "Hipotálamo",
+"C": "Tejido adiposo",
+"D": "Intestino delgado",
+"E": "Páncreas"
+},
+"clave": "C"
+},
+{
+"n": 276,
+"enunciado": "La dieta normal de un adulto contiene poca cantidad de ácidos grasos de cadena:",
+"opciones": {
+"A": "Media",
+"B": "Media y larga",
+"C": "Corta",
+"D": "Media y corta",
+"E": "Larga"
+},
+"clave": "D"
+},
+{
+"n": 277,
+"enunciado": "El incremento de la oxidación de ácidos grasos es una característica de:",
+"opciones": {
+"A": "Ayuno prolongado",
+"B": "La fase postprandial",
+"C": "Aumento de la gluconeogénesis",
+"D": "Aumento de carnitina palmitoiltransferasa",
+"E": "Hiperglicemia"
+},
+"clave": "A"
+},
+{
+"n": 278,
+"enunciado": "Infante de 3 años, con diarrea crónica, que se exacerba luego de ingesta de leche. Sospecha de deficiencia de lactasa. ¿En qué monosacáridos se fragmenta la lactosa?",
+"opciones": {
+"A": "Sacarosa y manosa",
+"B": "Glucosa y celulosa",
+"C": "Manosa y fructosa",
+"D": "Fructosa y galactosa",
+"E": "Galactosa y glucose"
+},
+"clave": "E"
+},
+{
+"n": 279,
+"enunciado": "Los ácidos grasos libres presentes en el plasma, son transportados en asociación a:",
+"opciones": {
+"A": "Betaproteínas",
+"B": "Gammaglobulinas",
+"C": "Inmunoglobulina G",
+"D": "Albúmina",
+"E": "Quiiomicrones"
+},
+"clave": "D"
+},
+{
+"n": 280,
+"enunciado": "Por decarboxilación del triptófano se obtiene el siguiente neurotransmisor:",
+"opciones": {
+"A": "Gamma Amino Butirato (GABA)",
+"B": "Histamina",
+"C": "Óxido nítrico",
+"D": "Acetilcolina",
+"E": "Serotonina"
+},
+"clave": "E"
+},
+{
+"n": 281,
+"enunciado": "¿Cuál es el precursor del óxido nítrico?",
+"opciones": {
+"A": "Renina",
+"B": "Calmodulina",
+"C": "Glucógeno",
+"D": "Acetilcolina",
+"E": "L – arginina"
+},
+"clave": "E"
+},
+{
+"n": 282,
+"enunciado": "Principal neurotransmisor inhibidor en el sistema nervioso:",
+"opciones": {
+"A": "Glicina",
+"B": "Dopamina",
+"C": "Glutamato",
+"D": "Acetilcolina",
+"E": "GABA"
+},
+"clave": "C"
+},
+{
+"n": 283,
+"enunciado": "La melatonina se produce principalmente a nivel de:",
+"opciones": {
+"A": "Adenohipofisis",
+"B": "neurohipofisis",
+"C": "Epífisis",
+"D": "Hipotálamo",
+"E": "Corteza cerebral"
+},
+"clave": "C"
+},
+{
+"n": 284,
+"enunciado": "En el metabolismo de las proteínas, una de las funciones principales del hígado es:",
+"opciones": {
+"A": "Eliminación de ácido sulfúrico",
+"B": "Formación de urea",
+"C": "Desalquilación de las proteínas",
+"D": "Desanimación de eritropoyetina",
+"E": "Eliminación de ácido fosfórico"
+},
+"clave": "B"
+},
+{
+"n": 285,
+"enunciado": "El Beri – Beri es producido por carencia de:",
+"opciones": {
+"A": "Niacina",
+"B": "Piridoxina",
+"C": "Riboflavina",
+"D": "Tiamina",
+"E": "Ácido ascórbico"
+},
+"clave": "D"
+},
+{
+"n": 286,
+"enunciado": "Anemia refractaria, osteoporosis, neutropenia, Hipopigmentación, retardo de edad ósea, pseudoparálisis y ataxia son efectos de la carencia de:",
+"opciones": {
+"A": "Cobre",
+"B": "Cromo",
+"C": "Zinc",
+"D": "Hierro",
+"E": "Yodo"
+},
+"clave": "A"
+},
+{
+"n": 287,
+"enunciado": "Para la síntesis de colágeno es necesaria la presencia de:",
+"opciones": {
+"A": "Ácido pantoténico",
+"B": "Biotina",
+"C": "Vitamina C",
+"D": "Ácido fólico",
+"E": "Vitamina E"
+},
+"clave": "C"
+},
+{
+"n": 288,
+"enunciado": "El síndrome de Wernicke – Korsakoff se produce en alcohólicos por deficiencia de:",
+"opciones": {
+"A": "Piridoxina",
+"B": "Riboflavina",
+"C": "Niacina",
+"D": "Tiamina",
+"E": "Ácido pantoténico"
+},
+"clave": "D"
+},
+{
+"n": 289,
+"enunciado": "En los niños pequeños, el signo clínico de mayor valor diagnóstico en la deficiencia de vitamina A es:",
+"opciones": {
+"A": "Mancha de Bitot",
+"B": "Ceguera nocturna",
+"C": "Desmatitis",
+"D": "Xeroftalmia",
+"E": "Conjuntivitis"
+},
+"clave": "A"
+},
+{
+"n": 290,
+"enunciado": "Proteína que se sintetiza en el hígado y es transportadora de cobre:",
+"opciones": {
+"A": "Transferrina",
+"B": "Haptoglobina",
+"C": "Transcortina",
+"D": "Ceruloplasmina",
+"E": "Pre – albúmina"
+},
+"clave": "D"
+},
+{
+"n": 291,
+"enunciado": "El beriberi es una enfermedad producida por deficiencia de:",
+"opciones": {
+"A": "Folacina",
+"B": "Riboflavina",
+"C": "Niacina",
+"D": "Piridoxina",
+"E": "Tiamina"
+},
+"clave": "E"
+},
+{
+"n": 292,
+"enunciado": "Es función de la vitamina E:",
+"opciones": {
+"A": "Cicatrización de las heridas",
+"B": "Síntesis de colágeno",
+"C": "Antioxidante",
+"D": "Síntesis de algunos factores de la coagulación",
+"E": "Regulación sanguínea de los niveles de Ca y F"
+},
+"clave": "C"
+},
+{
+"n": 293,
+"enunciado": "La vitamina B12 (cianocobalamina) se absorbe principalmente mediante:",
+"opciones": {
+"A": "Transporte pasivo",
+"B": "Transporte activo",
+"C": "Difusión compleja",
+"D": "Osmosis",
+"E": "Difusión simple"
+},
+"clave": "B"
+},
+{
+"n": 294,
+"enunciado": "Entre las funciones de la vitamina C se encuentra:",
+"opciones": {
+"A": "Síntesis de la colágena",
+"B": "Síntesis de homocisteína",
+"C": "Síntesis de algunos factores de la coagulación",
+"D": "Biosíntesis de ácidos grasos",
+"E": "Biosíntesis de colesterol"
+},
+"clave": "A"
+},
+{
+"n": 295,
+"enunciado": "El beriberi tipo húmedo cursa con:",
+"opciones": {
+"A": "Rinorrea",
+"B": "Polaquiuria",
+"C": "Lesiones dérmicas con exudado",
+"D": "Incremento de la transpiración",
+"E": "Edema"
+},
+"clave": "E"
+},
+{
+"n": 296,
+"enunciado": "El mielomeningocele podría prevenirse administrando a la madre antes del embarazo y en los primeros meses del mismo:",
+"opciones": {
+"A": "Cianocobalamina",
+"B": "Riboflavina",
+"C": "Piridoxina",
+"D": "Ácido nicotínico",
+"E": "Ácido fólico"
+},
+"clave": "E"
+},
+{
+"n": 297,
+"enunciado": "¿Cuál es la función principal de la vitamina E?",
+"opciones": {
+"A": "Cicatrización de las heridas",
+"B": "Síntesis de colágeno",
+"C": "Antioxidante",
+"D": "Síntesis de algunos factores de la coagulación",
+"E": "Regulación de los niveles de calcio y fosforo en sangre"
+},
+"clave": "C"
+},
+{
+"n": 298,
+"enunciado": "¿Cuál de los siguientes minerales ejerce efectos en el cuerpo, sin ser considerado un mineral esencial?",
+"opciones": {
+"A": "Sílice",
+"B": "Flúor",
+"C": "Vanadio",
+"D": "Níquel",
+"E": "Estaño"
+},
+"clave": "B"
+},
+{
+"n": 299,
+"enunciado": "La pelagra es una enfermedad producida por el déficit de:",
+"opciones": {
+"A": "Biotina",
+"B": "Niacina",
+"C": "Piridoxina",
+"D": "Riboflavina",
+"E": "Vitamina C"
+},
+"clave": "B"
+},
+{
+"n": 300,
+"enunciado": "¿Cuál de las siguientes acciones corresponde a la vitamina K?",
+"opciones": {
+"A": "Antioxidante",
+"B": "Cicatrización de las heridas",
+"C": "Regulación de los niveles de calcio y fósforo en sangre",
+"D": "Síntesis de algunos factores de la coagulación",
+"E": "Síntesis de colágeno"
+},
+"clave": "A"
+},
+{
+"n": 301,
+"enunciado": "¿Cuál de las siguientes vitaminas se comporta como hormona esteroidea?",
+"opciones": {
+"A": "A",
+"B": "B5",
+"C": "D",
+"D": "E",
+"E": "K"
+},
+"clave": "C"
+},
+{
+"n": 302,
+"enunciado": "La forma de absorción de la cianocobalamina (B12) es por:",
+"opciones": {
+"A": "Retinol",
+"B": "Retinol – trans",
+"C": "Rodopsina",
+"D": "Yodopsina",
+"E": "Yoduro"
+},
+"clave": "D"
+},
+{
+"n": 303,
+"enunciado": "¿A que se denomina segundo mensajero hormonal?",
+"opciones": {
+"A": "Intermediarios de las respuestas extracelulares frente hormonas y neurotransmisores diferentes",
+"B": "Intermediarios de las respuestas intracelulares frente hormonas y neurotransmisores diferentes",
+"C": "Intermediarios de las respuestas intracelulares exclusivamente frente hormonas",
+"D": "Intermediarios de las respuestas intracelulares exclusivamente frente neurotransmisores diferentes",
+"E": "Intermediarios de las respuestas intracelulares exclusivamente frente neurotransmisores idénticos"
+},
+"clave": "B"
+},
+{
+"n": 304,
+"enunciado": "¿Cuál de las siguientes vitaminas revierte los efectos de los corticoides en la cicatrización de las heridas?",
+"opciones": {
+"A": "C",
+"B": "K",
+"C": "B",
+"D": "A",
+"E": "E"
+},
+"clave": "D"
+},
+{
+"n": 305,
+"enunciado": "¿Cuál es la deficiencia vitamínica que produce demencia, dermatitis y diarrea?",
+"opciones": {
+"A": "Piridoxina",
+"B": "Niacina",
+"C": "Riboflavina",
+"D": "Cianocobalamina",
+"E": "Tiamina"
+},
+"clave": "B"
+},
+{
+"n": 306,
+"enunciado": "La deficiencia de la vitamina B2 (Riboflavina), se caracteriza por…",
+"opciones": {
+"A": "Ageusia",
+"B": "Hepatomegalia",
+"C": "Desorientación",
+"D": "Neuropatía periférica",
+"E": "Atrofia de las papilar linguales"
+},
+"clave": "E"
+},
+{
+"n": 307,
+"enunciado": "La penetración del espermatozoide a la zona pelúcida se debe a:",
+"opciones": {
+"A": "Enzimas proteolíticas y lepolíticas",
+"B": "Reacción cortical",
+"C": "Activación metabólica del óvulo",
+"D": "Liberación de enzimas acrosómicas",
+"E": "Hialuronidasa"
+},
+"clave": "D"
+},
+{
+"n": 308,
+"enunciado": "La principal fuente de energía del espermatozoide es la fructosa, la cual se produce mayormente en la:",
+"opciones": {
+"A": "Próstata",
+"B": "Vesícula seminal",
+"C": "Uretra prostática",
+"D": "Glándula de cooper",
+"E": "Glándula de Tyson"
+},
+"clave": "B"
+},
+{
+"n": 309,
+"enunciado": "¿cuál es la principal fuente de energía que utilizan los espermatozoides eyaculados?",
+"opciones": {
+"A": "glucosa interna",
+"B": "fructuosa de líquido seminal",
+"C": "fosfatasa acida prostática",
+"D": "ácido cítrico prostático",
+"E": "glucógeno del epitelio vaginal"
+},
+"clave": "B"
+},
+{
+"n": 310,
+"enunciado": "¿En qué etapa del desarrollo gestacional se produce la implantación endometrial?",
+"opciones": {
+"A": "Oocito maduro",
+"B": "Mórula",
+"C": "Blastocisto",
+"D": "Blastómero",
+"E": "Cigoto"
+},
+"clave": "C"
+},
+{
+"n": 311,
+"enunciado": "En el proceso de fecundación. ¿Cuándo se induce la reacción acrosomal?",
+"opciones": {
+"A": "Luego que el espermatozoide penetra la zona pelúcida",
+"B": "Al momento de formarse el pronúcleo femenino",
+"C": "Con la aparición del segundo corpúsculo polar",
+"D": "Después de la formación del pronúcleo masculino",
+"E": "Después de la reanudación de la segunda división meiótica"
+},
+"clave": "A"
+},
+{
+"n": 312,
+"enunciado": "¿En qué etapa del ciclo general del desarrollo se produce la cavitación e implantación?",
+"opciones": {
+"A": "Histogénesis",
+"B": "Blastulación",
+"C": "Gastrulación",
+"D": "Segmentación",
+"E": "Gametogénesis"
+},
+"clave": "B"
+},
+{
+"n": 313,
+"enunciado": "En una gestante de 35 semanas, el estudio ecográfico reveló feto anencefálico. ¿En qué semana del desarrollo fetal se originó la anomalía?:",
+"opciones": {
+"A": "Segunda",
+"B": "Tercera",
+"C": "Cuarta",
+"D": "Quinta",
+"E": "Sexta"
+},
+"clave": "C"
+},
+{
+"n": 314,
+"enunciado": "Recién nacido con amputación de los dedos de la mano derecha y de los pies izquierdos por bridas amnióticas. ¿Cómo se denomina a este defecto?",
+"opciones": {
+"A": "hipoplasia",
+"B": "displasia",
+"C": "disrupcion",
+"D": "asociacion",
+"E": "agenesia"
+},
+"clave": "C"
+},
+{
+"n": 315,
+"enunciado": "La hematopoyesis en el embrión se realiza por primera vez en:",
+"opciones": {
+"A": "Bazo.",
+"B": "Hígado.",
+"C": "Médula ósea.",
+"D": "Saco vitelino.",
+"E": "Timo."
+},
+"clave": "D"
+},
+{
+"n": 316,
+"enunciado": "¿Cuál de los siguiente se originan a partir del trofoblasto?",
+"opciones": {
+"A": "Placenta",
+"B": "Epidermis cutánea",
+"C": "Alantoides",
+"D": "Saco vitelino",
+"E": "Óvulo"
+},
+"clave": "A"
+},
+{
+"n": 317,
+"enunciado": "En la eritropoyesis fetal, la producción de la hormona eritropoyetina ...",
+"opciones": {
+"A": "se inicia a partir del 3er trimestre.",
+"B": "ocurre a nivel del túbulo proximal renal.",
+"C": "se inhibe por el factor inducible de hipoxia.",
+"D": "no ocurre pues es suficiente la materna.",
+"E": "se da en células de origen monocitario hepáticas."
+},
+"clave": "E"
+},
+{
+"n": 318,
+"enunciado": "¿Cuál es característica de los quistes del conducto de Gartner?",
+"opciones": {
+"A": "Son remanentes vestigiales del conducto de Müller",
+"B": "Están localizados en la pared posterior de la vagina",
+"C": "Están localizados en la pared anterior de la vagina",
+"D": "Son remanentes vestigiales del conducto de Wolff",
+"E": "Están tapizados por epitelio escamoso estratificado"
+},
+"clave": "D"
+},
+{
+"n": 319,
+"enunciado": "La diferenciación completa de los órganos genitales externos fetales se establece desde la:",
+"opciones": {
+"A": "Octava semana",
+"B": "Décima semana",
+"C": "Vigésima octava semana",
+"D": "Vigésima semana",
+"E": "Trigésima segunda semana"
+},
+"clave": "B"
+},
+{
+"n": 320,
+"enunciado": "¿A partir de qué semana de gestación la testosterona comienza a ser elaborada por los testículos?",
+"opciones": {
+"A": "12",
+"B": "4",
+"C": "7",
+"D": "24",
+"E": "32"
+},
+"clave": "C"
+},
+{
+"n": 321,
+"enunciado": "Es incorrecto sobre la circulación fetal:",
+"opciones": {
+"A": "Resistencia vascular pulmonar es mayor que resistencia vascular periférica",
+"B": "Existen 3 shunts fisiológicos con flujo sanguíneo de izquierda a derecha",
+"C": "El corazón derecho es responsable del 65% del gasto cardiaco",
+"D": "LaPaO2 del feto es de 25 a 40 mmHg",
+"E": "La circulación fetal es una circulación en paralelo"
+},
+"clave": "B"
+},
+{
+"n": 322,
+"enunciado": "Desde el punto de vista embriológico, ¿Qué es el conducto de Gardner?",
+"opciones": {
+"A": "Remanente del conducto meso néfrico de Wolf",
+"B": "Remanente del conducto meso néfrico de Müller",
+"C": "Forma diferenciada de las células de Leydig",
+"D": "Parte de la red de Haller",
+"E": "El seno urogenital"
+},
+"clave": "A"
+},
+{
+"n": 323,
+"enunciado": "¿En qué etapa del ciclo general del desarrollo ocurre la formación de los pronúcleos femenino y masculino?",
+"opciones": {
+"A": "Fecundación",
+"B": "Segmentación",
+"C": "Segmentación",
+"D": "Gastrulación",
+"E": "Gametogénesis"
+},
+"clave": "A"
+},
+{
+"n": 324,
+"enunciado": "Durante el desarrollo fetal normal, la formación de los alveolos primitivos y el inicio de la producción del agente tensioactivo, ocurre entre las:",
+"opciones": {
+"A": "20 y 24 semanas de gestación",
+"B": "32 y 36 semanas de gestación",
+"C": "9 y 12 semanas de gestación",
+"D": "26 y 30 semanas de gestación",
+"E": "14 y 18 semanas de gestación"
+},
+"clave": "A"
+},
+{
+"n": 325,
+"enunciado": "¿En qué semana de gestación se produce el descenso de los testículos a través del conducto inguinal?",
+"opciones": {
+"A": "26",
+"B": "20",
+"C": "24",
+"D": "28",
+"E": "30"
+},
+"clave": "D"
+},
+{
+"n": 326,
+"enunciado": "Cuando uno de los conductos paramesonéfricos no se desarrolla, se produce la ausencia de:",
+"opciones": {
+"A": "Riñones, uréteres y vesícula seminal",
+"B": "Riñones, colon transverso y descendente",
+"C": "Páncreas, riñones y vesícula seminal",
+"D": "Uretra, recto y vesícula seminal",
+"E": "Recto, colon transverso y descendente"
+},
+"clave": "A"
+},
+{
+"n": 327,
+"enunciado": "Se considera un feto maduro cuando principalmente ha alcanzado la madurez anatómica y funcional en:",
+"opciones": {
+"A": "sistema nervioso",
+"B": "pulmones",
+"C": "piel",
+"D": "hígado",
+"E": "riñones"
+},
+"clave": "B"
+},
+{
+"n": 328,
+"enunciado": "¿Durante qué semana gestacional aparece el riñón definitivo?",
+"opciones": {
+"A": "Cuarta",
+"B": "Tercera",
+"C": "Sétima",
+"D": "Novena",
+"E": "Quinta"
+},
+"clave": "E"
+},
+{
+"n": 329,
+"enunciado": "Recién nacido varón con Sindrome de Patau. ¿Cuál es la anomalía cromosómica que se relaciona con esta patología?",
+"opciones": {
+"A": "Trisomía 13",
+"B": "Trisomía 21",
+"C": "Trisomía 18",
+"D": "Trisomía de X",
+"E": "Monosomía de X"
+},
+"clave": "A"
+},
+{
+"n": 330,
+"enunciado": "¿Cuál es el síndrome que se caracteriza por retraso mental, polidactilia, pie valgo, onfalocele e hipotonía muscular?",
+"opciones": {
+"A": "Patau",
+"B": "Turner",
+"C": "Edwards",
+"D": "Klinefelter",
+"E": "Down"
+},
+"clave": "A"
+},
+{
+"n": 331,
+"enunciado": "Definición que describe el concepto de biodisponibilidad de un medicamento, administrado por cualquier vía:",
+"opciones": {
+"A": "Fracción de fármaco inalterado que llega a la circulación sistémica",
+"B": "Cantidad de fármaco degradado que llega a la circulación sistémica",
+"C": "Porcentaje de fármaco absorbido no excretado",
+"D": "Cantidad de fármaco que llega al tejido donde ejerce su acción terapéutica",
+"E": "Cantidad total (inalterado y transformado) de fármaco no eliminado"
+},
+"clave": "A"
+},
+{
+"n": 332,
+"enunciado": "¿cómo se denomina el tiempo necesario para que se reduzca la concentración plasmática de una droga al 50%?",
+"opciones": {
+"A": "Intervalo terapéutico",
+"B": "Ventana terapéutica",
+"C": "Periodo de latencia",
+"D": "Vida media",
+"E": "Estado de equilibrio"
+},
+"clave": "D"
+},
+{
+"n": 333,
+"enunciado": "Es un fármaco que induce la actividad enzimática:",
+"opciones": {
+"A": "Pregabalina",
+"B": "Gabapentina",
+"C": "Valproato",
+"D": "Tiagabina",
+"E": "Fenitoina"
+},
+"clave": "E"
+},
+{
+"n": 334,
+"enunciado": "¿Cuál es el único neurotransmisor que actúa en la unión neuromuscular?",
+"opciones": {
+"A": "Acetilcolina",
+"B": "Glicina",
+"C": "GABA",
+"D": "Dopamina",
+"E": "Serotonina"
+},
+"clave": "A"
+},
+{
+"n": 335,
+"enunciado": "Relacione las siguientes cefalosporinas con su correspondiente generación: a. Cefuroxima b. Cefepima c. Ceftazidima d. Cefadroxilo 1. Primera generación 2. Segunda generación 3. Tercera generación 4. Cuarta generación",
+"opciones": {
+"A": "(a.3) (b.1) (c.2) (d.4)",
+"B": "(a.2) (b.4) (c.3) (d.1)",
+"C": "(a.1) (b.4) (c.2) (d.3)",
+"D": "(a.4) (b.2) (c.1) (d.3)",
+"E": "(a.2) (b.3) (c.4) (d.1)"
+},
+"clave": "B"
+},
+{
+"n": 336,
+"enunciado": "De los siguientes fármacos, ¿Cuál no es responsable de colestasis intrahepática?",
+"opciones": {
+"A": "Carbamazepina",
+"B": "Cloropromazina",
+"C": "Nifedipina",
+"D": "Ampicilina",
+"E": "Anovulatorios"
+},
+"clave": "D"
+},
+{
+"n": 337,
+"enunciado": "De las siguientes cefalosporinas, ¿Cuál es activa contra Bacteroides fragilis?",
+"opciones": {
+"A": "Cefoxitima",
+"B": "Cefalotina",
+"C": "Cefuroxima",
+"D": "Ceftriaxona",
+"E": "Cefotaxima"
+},
+"clave": "A"
+},
+{
+"n": 338,
+"enunciado": "¿Cuál de los siguientes antimicrobianos no actúa inhibiendo la síntesis de proteínas?",
+"opciones": {
+"A": "Aminoglucósidos",
+"B": "Polimixina",
+"C": "Tetraciclina",
+"D": "Macrólidos",
+"E": "Clindamicina"
+},
+"clave": "B"
+},
+{
+"n": 339,
+"enunciado": "En la lepra lepromatosa, para mantener la eficacia y disminuir la aparición de resistencia a la dapsona se recomienda asociarla con:",
+"opciones": {
+"A": "Capreomicina",
+"B": "Cicloserina",
+"C": "Etambutol",
+"D": "Pirazinamida",
+"E": "Rifampicina"
+},
+"clave": "E"
+},
+{
+"n": 340,
+"enunciado": "Mujer de 20 años de edad, con tratamiento farmacológico anti-TBC desde hace 3 meses, recientemente refiere disminución de la agudeza visual y pérdida de la discriminación entre el color rojo y verde. ¿Qué fármaco debe suspenderse?:",
+"opciones": {
+"A": "Cicloserina",
+"B": "Estreptomicina",
+"C": "Etambutol",
+"D": "Pirazinamida",
+"E": "Rifampicina"
+},
+"clave": "C"
+},
+{
+"n": 341,
+"enunciado": "Paciente con quemaduras de tercer grado, presenta fiebre persistente y compromiso del estado general. De las heridas se aisló Pseudomonas aeruginosa. ¿Cuál de los siguientes antibióticos es el más apropiado?:",
+"opciones": {
+"A": "Cefaclor",
+"B": "Cefalotina",
+"C": "Cefoxitina",
+"D": "Ceftazidima",
+"E": "Cefuroxima"
+},
+"clave": "D"
+},
+{
+"n": 342,
+"enunciado": "Paciente con antecedente de shock anafiláctico por penicilina que presenta infección severa por Pseudomonas aeruginosa. ¿Cuál es el antimicrobiano de elección?",
+"opciones": {
+"A": "Aztreonam",
+"B": "Ceftazidima",
+"C": "Meropenem",
+"D": "Mezlocilina",
+"E": "Piperacilina / tazobactam"
+},
+"clave": "A"
+},
+{
+"n": 343,
+"enunciado": "Paciente inmunosuprimido con infección severa de la cavidad abdominal de origen intrahospitalario, existesospecha de infección por Pseudomonas aeruginosa y anaerobios gramnegativos. ¿Cuál es la terapia antimicrobiana empírica de elección?",
+"opciones": {
+"A": "Amikacina + penicilina G sódica",
+"B": "Ampicilina / sulbactam",
+"C": "Aztreonam + amikacina",
+"D": "Ceftriaxona + Clindamicina",
+"E": "Piperacilina / tazobactam"
+},
+"clave": "E"
+},
+{
+"n": 344,
+"enunciado": "¿Cuál de los siguientes fármacos produce con mayor frecuencia reacciones cutáneas?",
+"opciones": {
+"A": "Amoxicilina",
+"B": "Cotrimoxazol",
+"C": "Fluoroquinolonas",
+"D": "Macrólidos",
+"E": "Tetraciclinas"
+},
+"clave": "B"
+},
+{
+"n": 345,
+"enunciado": "¿Cuál de los siguientes antimicrobianos no actúa inhibiendo la síntesis de la pared de las células bacterianas?",
+"opciones": {
+"A": "Bacitracina",
+"B": "Ceftriaxona",
+"C": "Claritromicina",
+"D": "Imipenem",
+"E": "Vacomicina"
+},
+"clave": "C"
+},
+{
+"n": 346,
+"enunciado": "¿Cuál es el fármaco de elección para el tratamiento de la diarrea por Campylobacter jejuni?",
+"opciones": {
+"A": "Ampicilina",
+"B": "Azitromicina",
+"C": "Ciprofloxacina",
+"D": "Cotrimoxazol",
+"E": "Furazolidona"
+},
+"clave": "B"
+},
+{
+"n": 347,
+"enunciado": "¿Cuál de los siguientes antibióticos antibacterianos no actúa inhibiendo la síntesis de la pared celular?",
+"opciones": {
+"A": "Cefalosporinas.",
+"B": "Carbopenems.",
+"C": "Macrólidos.",
+"D": "Vancomicina.",
+"E": "Na"
+},
+"clave": "C"
+},
+{
+"n": 348,
+"enunciado": "Es una cefalosporina con acción anti-pseudomona:",
+"opciones": {
+"A": "Cefalotina",
+"B": "Ceftadizina",
+"C": "Cefradina",
+"D": "Cefoxitina",
+"E": "Ceftazidima"
+},
+"clave": "E"
+},
+{
+"n": 349,
+"enunciado": "Mecanismo de acción de las fluoroquinolonas",
+"opciones": {
+"A": "Inhiben la síntesis de pared bacteriana",
+"B": "Inhiben la enzima ADN girasa",
+"C": "Bloquean la síntesis de colesterol",
+"D": "Inhiben la enzina RNA polimerasa",
+"E": "Inhiben la sub unidad 30 S del ribosomal"
+},
+"clave": "B"
+},
+{
+"n": 350,
+"enunciado": "¿En cuál de las siguientes patologías se agrega corticoides al tratamiento específico?",
+"opciones": {
+"A": "Tuberculosis primaria",
+"B": "Tuberculosis miliar",
+"C": "Meningitis tuberculosa",
+"D": "Pleuritis tuberculosa",
+"E": "Tuberculosis peritoneal"
+},
+"clave": "C"
+},
+{
+"n": 351,
+"enunciado": "La disfunción que se desarrolla por efecto tóxico de los aminoglucósidos en el sistema nervioso central se presenta a nivel de:",
+"opciones": {
+"A": "Coclear y olivar",
+"B": "Cerebeloso y vestibular",
+"C": "Vestibular y coclear",
+"D": "Talámico y cortical",
+"E": "Hipotalámico y talámico"
+},
+"clave": "C"
+},
+{
+"n": 352,
+"enunciado": "¿Cuál de los siguientes antibióticos no requiere ajuste de dosis en pacientes con insuficiencia renal severa?",
+"opciones": {
+"A": "Ticarcilina",
+"B": "Azitromicina",
+"C": "Amikacina",
+"D": "Ceftazidima",
+"E": "Levofloxacino"
+},
+"clave": "B"
+},
+{
+"n": 353,
+"enunciado": "¿Cuál es el mecanismo de acción de las sulfonamidas?",
+"opciones": {
+"A": "Inhibición competitiva de la dihidropteroato sintasa",
+"B": "Inhibición de la DNA girasa",
+"C": "Inhibición de la transpeptidasa",
+"D": "Unión a la subunidad 30S ribosomal",
+"E": "Inhibición de las enzimas CYP hepáticas"
+},
+"clave": "A"
+},
+{
+"n": 354,
+"enunciado": "¿Qué antibióticos pueden generar disfunción vestibular y auditiva?",
+"opciones": {
+"A": "Aminoglicósidos",
+"B": "Quinolonas",
+"C": "Carbapenémicos",
+"D": "Cefalosporinas",
+"E": "Sulfonamidas"
+},
+"clave": "A"
+},
+{
+"n": 355,
+"enunciado": "Cuatro niñas preescolares que habían ingerido un licuado de hierbas y flores mientras jugaban fueron llevadas a Emergencia con irritabilidad, desecamiento de piel y mucosas, alucinaciones. En el examen físico se encontró piel rojiza y midriasis bilateral. El diagnóstico más probable es intoxicación por:",
+"opciones": {
+"A": "Atropínicos",
+"B": "Carbamatos",
+"C": "DDT",
+"D": "Inhibidores de la acetilcolinesterasa",
+"E": "Organoclorados"
+},
+"clave": "A"
+},
+{
+"n": 356,
+"enunciado": "¿Cuáles son las manifestaciones clínicas que se encuentran en la intoxicación por órgano fosforados?",
+"opciones": {
+"A": "Somnolencia, midriasis y sudoración",
+"B": "Palidez, convulsiones y coma",
+"C": "Sialorrea, miosis y fasciculaciones",
+"D": "Hemiplejia, nistagmus y fasciculaciones",
+"E": "Hipertonía, fotofobia y anisocoria"
+},
+"clave": "C"
+},
+{
+"n": 357,
+"enunciado": "Niño de 4 años, presenta sialorrea, diarrea y debilidad muscular. Al examen: taquicardia, fasciculaciones. Tórax: roncantes, sibilantes y subcrepitantes en ambos campos pulmonares. Pupilas mióticas. ¿Cuál es el fármaco indicado?",
+"opciones": {
+"A": "Flumazelino",
+"B": "Fisostegmina",
+"C": "Pilocarpina",
+"D": "Sulfato de atropina",
+"E": "N-acetilcisteina"
+},
+"clave": "D"
+},
+{
+"n": 358,
+"enunciado": "¿Cuál es el antídoto de elección para la intoxicación por paracetamol?",
+"opciones": {
+"A": "Flumazenilo",
+"B": "Azul de metileno",
+"C": "Pralidoxina",
+"D": "Piridoxina",
+"E": "N-acetilcisteina"
+},
+"clave": "E"
+},
+{
+"n": 359,
+"enunciado": "varon alcohólico de 54 años es traido a emergencia por compromiso de la visión, se sospecha de intoxicación por alcohol metílico. ¿Cuál de las siguientes alternativas es de elecccion para tratar el trastorno visual?",
+"opciones": {
+"A": "piridoxina",
+"B": "etanol",
+"C": "cianocobalamina",
+"D": "glucosa",
+"E": "tiamina"
+},
+"clave": "B"
+},
+{
+"n": 360,
+"enunciado": "Preescolar de 3 años que ha ingerido dosis toxica de hierro. ¿Cuáles son las primeras manifestaciones clínicas que se espera encontrar?",
+"opciones": {
+"A": "petequias y hemorragia gingival",
+"B": "vomitos y convulsiones",
+"C": "coma y petequias",
+"D": "alucinaciones y convulsiones",
+"E": "vomitos y diarrea con sangre"
+},
+"clave": "E"
+},
+{
+"n": 361,
+"enunciado": "En la sala de urgencias, en el manejo de la intoxicación por Paracetamol, el tratamiento específico es:",
+"opciones": {
+"A": "N-acetilcisteina",
+"B": "Naloxona",
+"C": "Pralidoxima",
+"D": "Fomepizol",
+"E": "Disulfiram"
+},
+"clave": "A"
+},
+{
+"n": 362,
+"enunciado": "En la intoxicación aguda por organofosforados. ¿Cuál es el tratamiento indicado?",
+"opciones": {
+"A": "Vitamina K",
+"B": "Flumazenilo",
+"C": "Sulfato de protamina",
+"D": "Hidrocortisona",
+"E": "Atropina"
+},
+"clave": "E"
+},
+{
+"n": 363,
+"enunciado": "El inicio de un potencial de acción en el musculo esquelético requiere la secreción de…",
+"opciones": {
+"A": "Cloro",
+"B": "Potasio",
+"C": "Acetilcolina",
+"D": "Noradrenalina",
+"E": "Adrenalina."
+},
+"clave": "C"
+},
+{
+"n": 364,
+"enunciado": "¿Cuál es el mecanismo de acción del bromuro de Ipratropio?",
+"opciones": {
+"A": "Bloquea los receptores Cis_LT1",
+"B": "Activa los receptores adrenérgicos beta 2",
+"C": "Antagoniza los receptores muscarínicos",
+"D": "Disminuye el número de células inflamatorias",
+"E": "Inhibe la fosfodiesterasa del músculo liso"
+},
+"clave": "C"
+},
+{
+"n": 365,
+"enunciado": "¿Qué fármaco actúa como antagonista competitivo de la acetilcolina endógena en los receptores muscarínicos?",
+"opciones": {
+"A": "Albuterol",
+"B": "Sulfato de magnesio",
+"C": "Metilxantina",
+"D": "Bromuro de ipratropio",
+"E": "Teofilina"
+},
+"clave": "D"
+},
+{
+"n": 366,
+"enunciado": "Paciente con artritis reumatoide, tratado con diclofenaco a dosis completa por 3 semanas, muestra evidente recuperación. ¿Cuál de los siguientes mecanismos explica la efectividad del fármaco?:",
+"opciones": {
+"A": "Alteración del turnover de la dopamina",
+"B": "Estimulación de la producción de endorfinas",
+"C": "Inhibición de la producción de prostaglandinas",
+"D": "Inhibición de los receptores delta",
+"E": "Inhibición de los receptores mu"
+},
+"clave": "C"
+},
+{
+"n": 367,
+"enunciado": "Identifique como verdadero (V) o falso (F). ¿Cuál es la combinación correcta sobre los efectos de la cocaína? ( ) Acción vasoconstrictora ( ) Ester del ácido benzoico y de la metilecgonina ( ) Bloquea la recaptación de noradrenalina ( ) Antagonista GABA",
+"opciones": {
+"A": "FFVV",
+"B": "FVVF",
+"C": "VFFV",
+"D": "VVFF",
+"E": "VVVF"
+},
+"clave": "E"
+},
+{
+"n": 368,
+"enunciado": "Los efectos estimulantes de la anfetamina están mediados por la liberación central de...",
+"opciones": {
+"A": "Acetilcolina, noradrenalina y dopamina",
+"B": "Histamina, acetilcolina y noradrenalina",
+"C": "Serotonina, histamina y noradrenalina",
+"D": "Histamina, acetilcolina y serotonina",
+"E": "Noradrenalina, dopamina y serotonina"
+},
+"clave": "E"
+},
+{
+"n": 369,
+"enunciado": "Varón de 38 años, hipertenso, en tratamiento con captropil e hidroclortiazida, consulta por presentar tos sin expectoración por más de 20 días, antecedentes de TBC con tratamiento completo hace 5 años, PA: 110/70 mmHg. Trae consigo exámenes auxiliares que le solicitaron en un plocilínico: BK (-), Radiografía de tórax con informe normal. ¿Cuál es la causa más probable de la clínica mencionadas?",
+"opciones": {
+"A": "TBC reactivada",
+"B": "TBC miliar",
+"C": "Efecto secundario por diurético de ASA",
+"D": "Efecto secundario por IECA",
+"E": "Neumonía atípica"
+},
+"clave": "D"
+},
+{
+"n": 370,
+"enunciado": "Fármaco que como efecto secundario produce tos en pacientes",
+"opciones": {
+"A": "Amoxicilina",
+"B": "Diltiazen",
+"C": "Prednisona",
+"D": "Captotril",
+"E": "Dextrometorfano"
+},
+"clave": "D"
+},
+{
+"n": 371,
+"enunciado": "la furosemida es un diurético cuyo mecanismo de acción es inhibir.",
+"opciones": {
+"A": "la bomba de Na+/Cl-",
+"B": "la anhidrasa carbonica",
+"C": "la bomba de Na+/k+/2Cl-",
+"D": "el canal epitelial de na+",
+"E": "el receptor v2"
+},
+"clave": "C"
+},
+{
+"n": 372,
+"enunciado": "El aumento de presión arterial secundario a la administración rápida de dosis altas de adrenalina endovenosa se produce debido a …",
+"opciones": {
+"A": "Efecto inotrópico negativo directo",
+"B": "Disminución de la frecuencia cardiaca",
+"C": "Vasodilatación venenosa",
+"D": "Predominancia del efecto alfa 1 adrenérgico",
+"E": "Vasodilatación de las arterias coronarias"
+},
+"clave": "D"
+},
+{
+"n": 373,
+"enunciado": "Varón de 70 años hipertenso, diabético, hipertiroideo, llevado a emergencia por presentar dolor en primer dedo de pie derecho. Examen: aumento de volumen en primera articulación metatarso falángica derecha. ¿Cuál es el fármaco asociado a este efecto adverso?",
+"opciones": {
+"A": "Insulina",
+"B": "Metformina",
+"C": "Enalapril",
+"D": "Hidroclorotiazida",
+"E": "Levotiroxina"
+},
+"clave": "D"
+},
+{
+"n": 374,
+"enunciado": "En la intoxicación por opioides, la administración de naloxona, evita:",
+"opciones": {
+"A": "Depresión respiratoria",
+"B": "Síndrome de abstinencia",
+"C": "Midriasis",
+"D": "Taquicardia",
+"E": "Hipertonía muscular"
+},
+"clave": "A"
+},
+{
+"n": 375,
+"enunciado": "Varón de 30 años en el post operatorio de colecistectomía refiere dolor intenso en la herida operatoria, recibiendo un analgésico. Dos horas después cursa con convulsiones tónico clónicas generalizadas. ¿Qué analgésico se relaciona con dicho efecto secundario?",
+"opciones": {
+"A": "Tramadol",
+"B": "Ketorolaco",
+"C": "Celecoxib",
+"D": "Meloxicam",
+"E": "Paracetamol"
+},
+"clave": "A"
+},
+{
+"n": 376,
+"enunciado": "Paciente de 58 años, presenta lumbalgia aguda con irradiación a la pierna izquierda. Le prescriben un medicamento 3 veces al día, pero al cuarto día refiere dolor epigástrico intenso asociado con melena. ¿Qué fármaco sería el responsable de este cuadro clínico?:",
+"opciones": {
+"A": "Gabapentina",
+"B": "Indometacina",
+"C": "Orfenandrina",
+"D": "Paracetamol",
+"E": "Vitamina B12"
+},
+"clave": "B"
+},
+{
+"n": 377,
+"enunciado": "Los fármacos analgésicos en el paciente permiten:",
+"opciones": {
+"A": "Disminuir el umbral doloroso",
+"B": "Anestesia subaracnoidea",
+"C": "Aumentar el umbral doloroso",
+"D": "Analgesia supraespinal y espinal",
+"E": "Algesia medular y cortical"
+},
+"clave": "C"
+},
+{
+"n": 378,
+"enunciado": "Niño de 3 años ingirió accidentalmente paracetamol. Se calcula que ha recibido una dosis de 150 mg/Kg. Como complicación se podría esperar insuficiencia…",
+"opciones": {
+"A": "Hepática",
+"B": "Pancreática",
+"C": "Renal",
+"D": "Adrenal",
+"E": "Respiratoria"
+},
+"clave": "A"
+},
+{
+"n": 379,
+"enunciado": "¿Cuál es la fisiopatología de la inducción de enfermedad gástrica producida por consumo de AINES?",
+"opciones": {
+"A": "Interrupción de la síntesis de prostaglandinas",
+"B": "Por respuesta inflamatoria",
+"C": "Por aumento de la secreción de bicarbonato",
+"D": "Por aumento de la proliferación celular epitelial",
+"E": "Por aumento de secreción de mucina"
+},
+"clave": "A"
+},
+{
+"n": 380,
+"enunciado": "Los efectos antiplaquetarios del ácido acetilsalicílico persisten por:",
+"opciones": {
+"A": "4 – 6 días",
+"B": "1 – 2 días",
+"C": "8 – 10 días",
+"D": "12 – 14 días",
+"E": "16 – 18 días"
+},
+"clave": "C"
+},
+{
+"n": 381,
+"enunciado": "Para disminuir el riesgo de trombosis venosa profunda recurrente, se decide utilizar heparina no fraccionada. ¿Cuál es el examen de laboratorio para monitoreo?",
+"opciones": {
+"A": "Cociente internacional normalizado (INR)",
+"B": "Tiempo de tromboplastina parcial activado",
+"C": "Tiempo de protrombina",
+"D": "Recuento de plaquetas",
+"E": "Dosaje de vitamina K"
+},
+"clave": "B"
+},
+{
+"n": 382,
+"enunciado": "Paciente de 65 años, diagnosticado de fibrilación auricular, en tratamiento con warfarina hace 2 meses; consulta por equímosis. ¿Qué prueba solicita como control de la anticoagulación?",
+"opciones": {
+"A": "Cuantificación de fibrinógeno",
+"B": "Tiempo de reptilase",
+"C": "Tiempo de tromboplastina parcial activado",
+"D": "Tiempo de trombina",
+"E": "Tiempo de protrombina (INR)"
+},
+"clave": "E"
+},
+{
+"n": 383,
+"enunciado": "¿Cuál es un antihistamínico H – 1 de primera generación?",
+"opciones": {
+"A": "Astemizol",
+"B": "Loratadina",
+"C": "Terfenadina",
+"D": "Prometazina",
+"E": "Levocabastatina"
+},
+"clave": "D"
+},
+{
+"n": 384,
+"enunciado": "¿Qué fármaco posee la siguiente característica?: “bloqueo neuromuscular muy rápido e hidrólisis inmediata en plasma e hígado por la colinestarasa”:",
+"opciones": {
+"A": "Atracurio",
+"B": "Succinilcolina",
+"C": "Pancuronio",
+"D": "Turbocurarina",
+"E": "Rocuronio"
+},
+"clave": "B"
+},
+{
+"n": 385,
+"enunciado": "El misoprostol, derivado de la prostanglandia E1, está mejor indicado para:",
+"opciones": {
+"A": "Prevenir el daño mucoso gastroduodenal provocado por AINE",
+"B": "Cicatrizar la úlcera péptica duodenal",
+"C": "Tratar el síndrome de Zollinger – Ellison",
+"D": "La erradicación del Helicobacter pylori",
+"E": "Tratar la esofagitis por reflujo"
+},
+"clave": "A"
+},
+{
+"n": 386,
+"enunciado": "¿Cuál es el tratamiento de elección para giardiosis?",
+"opciones": {
+"A": "Albendazol",
+"B": "Fluconazol",
+"C": "Mebendazol",
+"D": "Metronidazol",
+"E": "Mintezol"
+},
+"clave": "D"
+},
+{
+"n": 387,
+"enunciado": "Niña de 3 años, con abundante movilización de secreciones bronquiales, diaforesis y somnolencias, sin respuesta a repetidas nebulizaciones con beta – 2 agonista y bromuro de ipratropio. Al examen pupilas mióticas y fasciculaciones musculares. ¿Cuál es el diagnóstico probable?",
+"opciones": {
+"A": "Bronquiolitis",
+"B": "Bronquitis aguda",
+"C": "Intoxicación por atropínicos",
+"D": "Intoxicación por inhibidor de colinesterasa",
+"E": "Reacción anafiláctica"
+},
+"clave": "C"
+},
+{
+"n": 388,
+"enunciado": "El efecto adverso más frecuente de la terapia prolongada con corticoides sistémicos para enfermedades del tejido conectivo y vasculitis es:",
+"opciones": {
+"A": "Colapso vertebral osteoporótico",
+"B": "Convulsiones",
+"C": "Hemorragia digestiva masiva",
+"D": "Psicosis",
+"E": "Queratitis y queratomalacia"
+},
+"clave": "A"
+},
+{
+"n": 389,
+"enunciado": "El antidepresivo con menor efecto sedante es:",
+"opciones": {
+"A": "Amitriptilina",
+"B": "Clomipramina",
+"C": "Doxepina",
+"D": "Fluoxetina",
+"E": "Trazodone"
+},
+"clave": "D"
+},
+{
+"n": 390,
+"enunciado": "El pamoato de pirantel actúa inhibiendo la:",
+"opciones": {
+"A": "Monoaminooxidasa",
+"B": "Descarboxilasa de glutamato",
+"C": "Acetil-colinesterasa",
+"D": "Histaminasa",
+"E": "N-Metil-Transferasa"
+},
+"clave": "C"
+},
+{
+"n": 391,
+"enunciado": "¿Cuál de las siguientes causas está relacionada con hipoxia citotóxica?",
+"opciones": {
+"A": "Infarto agudo de miocardio",
+"B": "Paro cardiaco",
+"C": "Intoxicación por monóxido de carbono",
+"D": "Choque hipovolémico",
+"E": "Asfixia por inmersión"
+},
+"clave": "C"
+},
+{
+"n": 392,
+"enunciado": "¿Cuál es un antineoplásico alquilante?",
+"opciones": {
+"A": "Doxorrubicina",
+"B": "Asparaginasa",
+"C": "Cisplatino",
+"D": "Citarabina",
+"E": "Actinomicina D"
+},
+"clave": "C"
+},
+{
+"n": 393,
+"enunciado": "¿Cuál es el antineoplásico alquilante cuyo mecanismo de acción es la interacción directa con el DNA?:",
+"opciones": {
+"A": "6 - Mercaptopurina",
+"B": "Citarabina",
+"C": "Ciclofosfamida",
+"D": "5 - Fluouracilo",
+"E": "Vincristina"
+},
+"clave": "C"
+},
+{
+"n": 394,
+"enunciado": "En qué caso está demostrada la utilidad del uso de antidepresivos en el manejo del dolor:",
+"opciones": {
+"A": "Lumbalgia aguda",
+"B": "Desgarro muscular",
+"C": "Neuropatía diabética",
+"D": "Post colecistectomía",
+"E": "Esguince de tobillo"
+},
+"clave": "C"
+},
+{
+"n": 395,
+"enunciado": "¿Cuál de los siguientes neurotransmisores es liberado cuando en un paciente se administra anfetamina?",
+"opciones": {
+"A": "Acetilcolina",
+"B": "Serotonina",
+"C": "Encefalina",
+"D": "Gaba",
+"E": "Dopamina"
+},
+"clave": "E"
+},
+{
+"n": 396,
+"enunciado": "Paciente de 20 años, posterior a discusión con su pareja, ingiere 30 tabletas de clonazepam de 2 mg. ¿Cuál es el antídoto de elección?",
+"opciones": {
+"A": "Flumazenilo",
+"B": "Atropina",
+"C": "Pralidoxima",
+"D": "Naloxona",
+"E": "Carbón activado"
+},
+"clave": "A"
+},
+{
+"n": 397,
+"enunciado": "¿Cuál de los siguientes fármacos anticonvulsionantes es químicamente similar a los antidepresivos tricíclicos?",
+"opciones": {
+"A": "Ácido valproico",
+"B": "Fenitoina",
+"C": "Gabapentina",
+"D": "Tiagabina",
+"E": "Carbamazepina"
+},
+"clave": "E"
+},
+{
+"n": 398,
+"enunciado": "En el tratamiento de la neuropatía diabética. ¿Cuál de los siguientes fármacos actúa como un inhibidor selectivo de la recaptación de la serotonina y norepinefrina?",
+"opciones": {
+"A": "Duloxetina",
+"B": "Mexiletina",
+"C": "Desipramina",
+"D": "Gabapentina",
+"E": "Pregabalina"
+},
+"clave": "A"
+},
+{
+"n": 399,
+"enunciado": "Mujer de 25 años presenta artralgias y orinas espumosas. Examen: eritema en alas de mariposa, edema periférico (++). Laboratorio: ANA: (+), complemento C3: disminuido. Inicia tratamiento con corticoide por vía oral a altas dosis. ¿Qué efecto espera encontrar?",
+"opciones": {
+"A": "Disminución de la producción de linfocitos T",
+"B": "Incremento en la liberación de interleukina I",
+"C": "Disminución de la gluconeogénesis",
+"D": "Incremento de la permeabilidad de los capilares",
+"E": "Disminución de la movilización de ácidos grasos"
+},
+"clave": "A"
+},
+{
+"n": 400,
+"enunciado": "¿Cuál es el rango en minutos de la duración de acción de la lidocaína?",
+"opciones": {
+"A": "60-180",
+"B": "30-50",
+"C": "20-50",
+"D": "180-360",
+"E": "180-420"
+},
+"clave": "A"
+},
+{
+"n": 401,
+"enunciado": "Mujer de 50 años hipertensa, hipotiroidea, con enfermedad renal crónica estadío III y con antecedente de infecciones urinarias a repetición, desarrolla neuropatía periférica. ¿Cuál es el fármaco más asociado a este efecto adverso?",
+"opciones": {
+"A": "Tiamazol",
+"B": "Nitrofurantoína",
+"C": "Enalapril",
+"D": "Furosemida",
+"E": "Levotiroxina"
+},
+"clave": "B"
+},
+{
+"n": 402,
+"enunciado": "¿Cuál de los siguientes anticonvulsivantes produce hiponatremia?",
+"opciones": {
+"A": "Lamotrigina",
+"B": "Topiramato",
+"C": "Fenitoína",
+"D": "Fenobarbital",
+"E": "Carbamazepina"
+},
+"clave": "E"
+},
+{
+"n": 403,
+"enunciado": "El cambio reversible en el cual una célula adulta (epitelial o mesenquimal) es sustituida por otra de un tipo deferente se denomina:",
+"opciones": {
+"A": "Metaplasia",
+"B": "Hiperplasia",
+"C": "Hipertrofia",
+"D": "Hipoplasia",
+"E": "Displasia"
+},
+"clave": "A"
+},
+{
+"n": 404,
+"enunciado": "¿Cuál de los siguientes cambios es un fenómeno de adaptación celular?",
+"opciones": {
+"A": "Apoptosis",
+"B": "Autolisis",
+"C": "Cariolisis",
+"D": "Cariorrexia",
+"E": "Metaplasia"
+},
+"clave": "E"
+},
+{
+"n": 405,
+"enunciado": "¿Cuál de las siguientes alteraciones celulares caracteriza a las células malignas?",
+"opciones": {
+"A": "Anaplasia",
+"B": "Atrofia",
+"C": "Hiperplasia",
+"D": "Hipertrofia",
+"E": "Metaplasia"
+},
+"clave": "A"
+},
+{
+"n": 406,
+"enunciado": "De las siguientes enfermedades, ¿Cuál es una neoplasia maligna intraepitelilal?",
+"opciones": {
+"A": "Enfermedad de Bowen",
+"B": "Enfermedad de Darier",
+"C": "Enfermedad de Takayasu",
+"D": "Enfermedad de fibroquística de la mama",
+"E": "Esófago de Barrett"
+},
+"clave": "A"
+},
+{
+"n": 407,
+"enunciado": "¿Cuál es el tipo de epitelio que constituyen los folículos tiroideos?",
+"opciones": {
+"A": "Estratificado plano",
+"B": "Simple cúbico",
+"C": "Simple cilíndrico",
+"D": "Estratificado cúbico",
+"E": "Seudoestratificado"
+},
+"clave": "B"
+},
+{
+"n": 408,
+"enunciado": "Varón de 50 años, con baja de peso y tos productiva. Antecedentes: consumo de cigarrillos desde los 15 años. Luego de evaluación y estudios, se diagnostica carcinoma epidermoide pulmonar. En estadíos iniciales del cáncer. ¿A qué tipo de epitelio se transforma el pseudoestratificado cilíndrico?",
+"opciones": {
+"A": "Estratificado escamoso",
+"B": "Simple cilíndrico",
+"C": "Simple cúbico",
+"D": "Simple granular",
+"E": "Poliestratificado mucinoso"
+},
+"clave": "A"
+},
+{
+"n": 409,
+"enunciado": "El cartílago es un tipo de tejido conjuntivo especializado que:",
+"opciones": {
+"A": "Es muy vascularizado",
+"B": "Tiene sustancia osteoide",
+"C": "Carece de irrigación",
+"D": "Tiene sustancia osiforme",
+"E": "Tiene trabéculas directrices"
+},
+"clave": "C"
+},
+{
+"n": 410,
+"enunciado": "En la formación de la “barrea hemato – encefálica” la célula que participa es:",
+"opciones": {
+"A": "La de Schwann",
+"B": "La astroglia",
+"C": "La neuroglia",
+"D": "La ependimaria",
+"E": "El astrocito"
+},
+"clave": "E"
+},
+{
+"n": 411,
+"enunciado": "Se contrae por efecto de impulsos noradrenérgicos:",
+"opciones": {
+"A": "Músculo pilomotor",
+"B": "Músculo esfínter del iris",
+"C": "Músculo bronquial",
+"D": "Músculo detrusor",
+"E": "Músculo de la vesícula biliar"
+},
+"clave": "A"
+},
+{
+"n": 412,
+"enunciado": "En la formación de la barrera hematoencefálica la célula que participa es…",
+"opciones": {
+"A": "Oligodendrocito",
+"B": "El astrocito",
+"C": "Células de Kajal",
+"D": "Células gliales",
+"E": "Cuerpos neuronales"
+},
+"clave": "B"
+},
+{
+"n": 413,
+"enunciado": "Varón adulto sufre contusión en cráneo, presenta pérdida de la memoria y edema cerebral. Se sospecha extenso daño en las células cerebrales. ¿Qué células fagocitan los detritos celulares producidos por el daño neuronal?",
+"opciones": {
+"A": "Oligodendrocitos",
+"B": "Astrocitos fibrosos",
+"C": "Astrocitos protoplasmáticos",
+"D": "Microglía",
+"E": "Macrófagos"
+},
+"clave": "D"
+},
+{
+"n": 414,
+"enunciado": "Realizan el transporte transepitelial de antígenos y patógenos al sistema inmuno – mucoso intestinal:",
+"opciones": {
+"A": "Macrófagos",
+"B": "Células de paneth",
+"C": "Enterocitos de las vellosidades",
+"D": "Células M",
+"E": "Linfocitos intraepiteliales"
+},
+"clave": "D"
+},
+{
+"n": 415,
+"enunciado": "¿Qué tipo de tejido presenta la válvula cardíaca?",
+"opciones": {
+"A": "Tejido conectivo laxo recubierto por pericardio",
+"B": "Tejido conectivo denso recubierto por miocardio",
+"C": "Tejido conectivo laxo recubierto por endocardio",
+"D": "Tejido conectivo denso recubierto por pericardio",
+"E": "Tejido conectivo denso recubierto por endocardio"
+},
+"clave": "E"
+},
+{
+"n": 416,
+"enunciado": "Los vasa vassorun irriga a las células de:",
+"opciones": {
+"A": "La capa adventicia de los vasos sanguíneos",
+"B": "El endotelio vascular",
+"C": "Los nervios periféricos",
+"D": "Las arterias coronarias",
+"E": "Las venas pulmonares"
+},
+"clave": "A"
+},
+{
+"n": 417,
+"enunciado": "La túnica adventicia tiene tejido conjuntivo laxo en:",
+"opciones": {
+"A": "Arterias musculares",
+"B": "Arterias elásticas",
+"C": "Arteriolas",
+"D": "Venas grandes",
+"E": "Vénulas"
+},
+"clave": "C"
+},
+{
+"n": 418,
+"enunciado": "En los varones, ¿Qué células producen inhibina?",
+"opciones": {
+"A": "Células de Ito",
+"B": "Células de Leydig",
+"C": "Células de Paneth",
+"D": "Células de Sertoli",
+"E": "Células intersticiales de Cajal"
+},
+"clave": "D"
+},
+{
+"n": 419,
+"enunciado": "Las prostangladinas del semen son producidas en:",
+"opciones": {
+"A": "Las vesículas seminales",
+"B": "La próstata",
+"C": "El epidídimo",
+"D": "El testículo",
+"E": "El conducto deferente"
+},
+"clave": "A"
+},
+{
+"n": 420,
+"enunciado": "¿En qué tipo de célula se produce principalmente la testosterona?",
+"opciones": {
+"A": "Leydig",
+"B": "Sertoli",
+"C": "Paneth",
+"D": "Germinativa",
+"E": "Intercalada"
+},
+"clave": "A"
+},
+{
+"n": 421,
+"enunciado": "De qué tipo son las glándulas exocrinas del páncreas:",
+"opciones": {
+"A": "Mucosas",
+"B": "Seromucosas",
+"C": "Calciformes",
+"D": "Serosas",
+"E": "Endocrinas"
+},
+"clave": "D"
+},
+{
+"n": 422,
+"enunciado": "¿Cuál es el tipo de epitelio que reviste la mucosa de la vesicula biliar?",
+"opciones": {
+"A": "cilíndrico simple",
+"B": "pseudoestrateficado cilindrico ciliaco",
+"C": "cubito simple",
+"D": "simple plano",
+"E": "poliestratificado plano"
+},
+"clave": "A"
+},
+{
+"n": 423,
+"enunciado": "Las células que producen ácido clorhídrico y factor intrínseco son las:",
+"opciones": {
+"A": "Del sistema neuroendocrino difuso",
+"B": "Principales",
+"C": "Parietales",
+"D": "Caliciformes",
+"E": "Granulosas"
+},
+"clave": "C"
+},
+{
+"n": 424,
+"enunciado": "¿Qué células glandulares gástricas secretan ácido clorhídrico?",
+"opciones": {
+"A": "Parietales",
+"B": "Intercaladas",
+"C": "Mucinosas",
+"D": "Madre",
+"E": "Principales"
+},
+"clave": "A"
+},
+{
+"n": 425,
+"enunciado": "Varón de 63 años con pérdida de peso, y astenia. Examen: tumoración inguinal izquierda de 1.5x1.5 cm, dura, poco móvil, biopsia: carcinoma de células escamosas. ¿Cuál es el origen primario del tumor?",
+"opciones": {
+"A": "Ano",
+"B": "Próstata",
+"C": "Testículo",
+"D": "Recto",
+"E": "Sigmoides"
+},
+"clave": "A"
+},
+{
+"n": 426,
+"enunciado": "¿Qué células del estómago transportan H+ y Cl-?",
+"opciones": {
+"A": "Mucosas",
+"B": "Absortivas",
+"C": "Cimógenas",
+"D": "Parietales",
+"E": "Intercaladas"
+},
+"clave": "D"
+},
+{
+"n": 427,
+"enunciado": "Se puede observar una reacción leucemoide neutrofílica en:",
+"opciones": {
+"A": "Infestación parasitaria masiva",
+"B": "Mononucleosis infecciosa",
+"C": "Neoplasia gástrica no metastásica",
+"D": "Post hemólisis o hemorragia aguda",
+"E": "TBC pulmonar aguda"
+},
+"clave": "D"
+},
+{
+"n": 428,
+"enunciado": "¿Cuál de las siguientes alternativas indica una infección preclínica o subclínica?",
+"opciones": {
+"A": "Aislamiento e identificación de un agente infeccioso",
+"B": "Elevación o descenso de los títulos de anticuerpos",
+"C": "Grado de infectividad inespecífica",
+"D": "Signos y síntomas moderados o graves",
+"E": "Presencia o ausencia de signos y síntomas clínicos inespecíficos"
+},
+"clave": "B"
+},
+{
+"n": 429,
+"enunciado": "¿Qué componente de la inmunidad innata fagocita y destruye microorganismos además de secretar citoquinas inflamatorias?",
+"opciones": {
+"A": "Epitelio",
+"B": "Macrófago",
+"C": "TNF-alfa",
+"D": "Lectina",
+"E": "IL-1"
+},
+"clave": "B"
+},
+{
+"n": 430,
+"enunciado": "¿En qué órgano se presentan infartos blancos o anémicos, debido a una oclusión arterial?",
+"opciones": {
+"A": "Bazo",
+"B": "Intestino delgado",
+"C": "Intestino grueso",
+"D": "Ovario",
+"E": "Pulmón"
+},
+"clave": "A"
+},
+{
+"n": 431,
+"enunciado": "¿En cuál de las siguientes patologías se encuentra esplenomegalia masiva?",
+"opciones": {
+"A": "Mielodisplasia",
+"B": "Tuberculosis esplénica",
+"C": "Sepsis",
+"D": "Insuficiencia cardiaca congestiva",
+"E": "Linfomas"
+},
+"clave": "E"
+},
+{
+"n": 432,
+"enunciado": "En la anafilaxia y la atopia, la Ig que se encuentra elevada es:",
+"opciones": {
+"A": "M",
+"B": "G",
+"C": "D",
+"D": "E",
+"E": "A"
+},
+"clave": "D"
+},
+{
+"n": 433,
+"enunciado": "¿Qué tipo de inmunoglobulina es generalmente mediadora en la anafilaxia?",
+"opciones": {
+"A": "E",
+"B": "A",
+"C": "D",
+"D": "G",
+"E": "M"
+},
+"clave": "A"
+},
+{
+"n": 434,
+"enunciado": "¿Cuál de los componentes del Bacteroides fragilis induce la formación de abscesos?",
+"opciones": {
+"A": "Beta – lactamasa",
+"B": "Aglutininas",
+"C": "Cápsula",
+"D": "Neuraminidasa",
+"E": "Heparinasa"
+},
+"clave": "C"
+},
+{
+"n": 435,
+"enunciado": "En un neonato con diagnóstico clínico de meningitis bacteriana que en el LCR presenta cocobacilos gram positivos intra y extracelulares, ¿en cuál de los siguientes microorganismos se debería sospechar?:",
+"opciones": {
+"A": "Enterococo fecalis",
+"B": "Escherichia coli",
+"C": "Klebsiella pneumoniae",
+"D": "Listeria monocytogenes",
+"E": "Streptococcus agalactie"
+},
+"clave": "D"
+},
+{
+"n": 436,
+"enunciado": "Niño de 3 años de edad, con diagnóstico clínico de meningitis. El LCR muestra cocobacilos gramnegativos intra y extracelulares. ¿En cuál microorganismo sospecharía?:",
+"opciones": {
+"A": "Escherichia coli",
+"B": "Hemophilus influenzae",
+"C": "Klebsiella pneumoniae",
+"D": "Listeria monocytogenes",
+"E": "Streptococcus pneumoniae"
+},
+"clave": "B"
+},
+{
+"n": 437,
+"enunciado": "Paciente que ingresó de la selva, presentó a las pocas horas malestar general, anorexia, dolor abdominal y diarreas acuosas abundantes. Al día siguiente se agrega debilidad, vómitos e hipotensión; en el cultivo se aisló Vibrio cholerae. ¿Qué tipo de receptor de membrana está comprometido en el desarrollo de esta enfermedad?:",
+"opciones": {
+"A": "Gangliósido Gm1",
+"B": "Gangliósido Gm2",
+"C": "Gangliósido Gm3",
+"D": "Proteína G",
+"E": "Receptor PDGF (factor de crecimiento derivado de plaquetas)"
+},
+"clave": "A"
+},
+{
+"n": 438,
+"enunciado": "En el estudio de líquido cefalorraquídeo se encuentra: recuento de leucocitos 50 células por μl, a predominio de linfocitos, con hipoglucorraquia e hiperproteinorraquia. ¿Cuál es el agente etiológico más probable?",
+"opciones": {
+"A": "Virus de la inmunodeficiencia humana",
+"B": "Cryptococcus neoformans",
+"C": "Micobacterium tuberculosae",
+"D": "Diplococcus pneumoniae",
+"E": "Naegleria fowleri"
+},
+"clave": "C"
+},
+{
+"n": 439,
+"enunciado": "La sustancia responsable del shock tóxico originado por Staphylococcus aureus es:",
+"opciones": {
+"A": "Toxina I",
+"B": "Coagulasa",
+"C": "Fibrinolisina",
+"D": "Toxina exfoliativa",
+"E": "Leucocidina"
+},
+"clave": "A"
+},
+{
+"n": 440,
+"enunciado": "¿Cuál es la especie microbiana predominante en la flora colonica?",
+"opciones": {
+"A": "Bifidobacterium",
+"B": "Bacteroides",
+"C": "Clostridium perfringens",
+"D": "Escherichia coli",
+"E": "Enterococo"
+},
+"clave": "B"
+},
+{
+"n": 441,
+"enunciado": "De los factores de virulencia del Staphylococcus aureus, ¿cuál inhibe la opsonización y la fagocitosis?",
+"opciones": {
+"A": "Membrana citoplasmática",
+"B": "Proteína A.",
+"C": "Peptidoglicano",
+"D": "Ácido teicoico",
+"E": "Capsula"
+},
+"clave": "E"
+},
+{
+"n": 442,
+"enunciado": "¿Cuál de las especies de Campylobacter se relaciona con el síndrome de Guillain-Barré?:",
+"opciones": {
+"A": "Coli",
+"B": "Fetus",
+"C": "Hyointestinalis",
+"D": "Jejuni",
+"E": "Lari"
+},
+"clave": "D"
+},
+{
+"n": 443,
+"enunciado": "La estreptolisina S, indicador de virulencia del Streptococcus pyogenes, tiene múltiples factores biológicos. Seleccione el que NO le corresponde:",
+"opciones": {
+"A": "Inmunogenicidad",
+"B": "Libera enzimas lisosomales",
+"C": "Lisa eritrocitos",
+"D": "Lisa leucocitos",
+"E": "Lisa plaquetas"
+},
+"clave": "A"
+},
+{
+"n": 444,
+"enunciado": "¿En cuál de las siguientes bacterias la ureasa indica virulencia?:",
+"opciones": {
+"A": "Campylobacter coli",
+"B": "Campylobacter jejuni",
+"C": "Campylobacter lari",
+"D": "Campylobacter upsaliensis",
+"E": "Helicobacter pylori"
+},
+"clave": "E"
+},
+{
+"n": 445,
+"enunciado": "La muestra preferida para el diagnóstico de legionella es:",
+"opciones": {
+"A": "Orina",
+"B": "Secreciones pulmonares",
+"C": "Heces",
+"D": "Sangre",
+"E": "Tejido pulmonar"
+},
+"clave": "A"
+},
+{
+"n": 446,
+"enunciado": "¿Cuál de los componentes estructurales del Bacteroides fragilis induce la formación abscesos?",
+"opciones": {
+"A": "Toxinas",
+"B": "Flagelo",
+"C": "Membrana",
+"D": "Lipopolisacárido",
+"E": "Capsula"
+},
+"clave": "E"
+},
+{
+"n": 447,
+"enunciado": "¿Cuál es la especie de Clostridium capaz de producir una toxina cuasnate de un cuadro neurológico en el ser humano?",
+"opciones": {
+"A": "Clostridium botulinum",
+"B": "Clostridium difficile",
+"C": "Treponema pallidum",
+"D": "Pseudomona aureginosa",
+"E": "Salmonella"
+},
+"clave": "A"
+},
+{
+"n": 448,
+"enunciado": "¿En cuál de las infecciones, los gérmenes anaerobios se encuentra con menos frecuencia?",
+"opciones": {
+"A": "Abscesos uretrales",
+"B": "Maxilofaciales",
+"C": "Tracto genital femenino",
+"D": "Infecciones urinarias",
+"E": "Partes blandas profundas"
+},
+"clave": "D"
+},
+{
+"n": 449,
+"enunciado": "¿Cuál de los antibióticos es más eficaz para el tratamiento de infecciones intestinales causadas por Clostridium difficile?:",
+"opciones": {
+"A": "Vancomicina",
+"B": "Bacitracina",
+"C": "Ácido Fusídico",
+"D": "Eritromicina",
+"E": "Nitazoxanida"
+},
+"clave": "A"
+},
+{
+"n": 450,
+"enunciado": "Uno de los siguientes estadios no forma parte del ciclo evolutivo del género Anopheles:",
+"opciones": {
+"A": "Pupa",
+"B": "Adulto",
+"C": "Huevo",
+"D": "Ninfa",
+"E": "Larva"
+},
+"clave": "D"
+},
+{
+"n": 451,
+"enunciado": "¿Cuál es la forma infectante de Strongyloides stercolaris?",
+"opciones": {
+"A": "Larva filariforme",
+"B": "Hueso",
+"C": "Larva rhabditiforme",
+"D": "Parasito adulto hembra",
+"E": "Parasito adulto macho"
+},
+"clave": "A"
+},
+{
+"n": 452,
+"enunciado": "Paciente con sida y neumonía aguda en quien se sospecha infección oportunista por Pneumocrystis carinli. ¿Cuál de las siguientes muestras no es útil para determinar el agente etiológico?",
+"opciones": {
+"A": "Aspiración bronquial",
+"B": "Muestra de esputo inducido",
+"C": "Biopsia pulmonar",
+"D": "Muestra de sangre para hemocultivo",
+"E": "Lavado broncoalveolar"
+},
+"clave": "D"
+},
+{
+"n": 453,
+"enunciado": "El “cuerpo de Negri” es una inclusión viral intracitoplasmática que aparece en la infección por:",
+"opciones": {
+"A": "Poliomielitis",
+"B": "Rabia",
+"C": "Herpes genital",
+"D": "Papiloma virus",
+"E": "Molluscum contagioso"
+},
+"clave": "B"
+},
+{
+"n": 454,
+"enunciado": "El agente etiológico de la parotiditis epidémica es:",
+"opciones": {
+"A": "Enterovirus",
+"B": "Adenovirus",
+"C": "Herpes simple 1",
+"D": "Paramixovirus",
+"E": "Rotavirus"
+},
+"clave": "D"
+},
+{
+"n": 455,
+"enunciado": "Existen parásitos que realizan un ciclo a nivel pulmonar. Entre ellos se encuentra: 1. Ascaris lumbricoides 2. Necator americanus 3. Toxocara canis 4. Enterobius vermicularis 5. Strongyloides stercolaris",
+"opciones": {
+"A": "1, 3, 5",
+"B": "1, 2, 5",
+"C": "2, 3, 5",
+"D": "1, 3, 4",
+"E": "2, 3, 4"
+},
+"clave": "B"
+},
+{
+"n": 456,
+"enunciado": "¿Cuál de los siguientes enteroparásitos NO transmite por fecalismo?:",
+"opciones": {
+"A": "Áscaris lumbricoides",
+"B": "Cryptosporidium parvum",
+"C": "Entamoeba histolytica",
+"D": "Strongyloides stercolaris",
+"E": "Trichuris trichiuria"
+},
+"clave": "D"
+},
+{
+"n": 457,
+"enunciado": "¿Cuál de las siguientes características NO corresponde a Blastocystis hominis?:",
+"opciones": {
+"A": "Ácido-alcohol resistente",
+"B": "Anaerobio estricto",
+"C": "Emite pseudópodos",
+"D": "Posee mitocondrias",
+"E": "Se detecta por inmunofluorescencia"
+},
+"clave": "A"
+},
+{
+"n": 458,
+"enunciado": "Se consideran parasitosis trasmitida desde el suelo a…",
+"opciones": {
+"A": "Anquilostomiasis, oxiuriasis",
+"B": "Paragonimiasis, trichuriasis",
+"C": "Áscaridiasis, trichuriasis.",
+"D": "Fasciolasis, anquilostomiasis",
+"E": "Amebiasis, fasciolasis"
+},
+"clave": "C"
+}
+]
