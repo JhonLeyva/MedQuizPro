@@ -1080,6 +1080,82 @@
       "comentario": "Este paciente presenta signos clásicos de un accidente cerebrovascular isquémico agudo (ACV), como afasia motora y hemiparesia, sin antecedentes relevantes. El tratamiento de elección en las primeras 3-4.5 horas desde el inicio de los síntomas de un ACV isquémico es el uso de Alteplase (C), un trombolítico que puede disolver el coágulo responsable de la isquemia cerebral. La heparina (A) no se recomienda en el manejo inicial, ya que no tiene un efecto trombolítico inmediato. El clopidogrel (B) y el ácido acetilsalicílico (D) se usa para la antiagregación secundaria.",
       "tema": "ACV isquémico en ventana: alteplasa",
       "año": 2024
+    },
+    {
+      "id": "NRL-058",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 20 años politraumatizado por accidente de moto hace una hora. Hemodinámicamente estable. Examen neurológico: abre los ojos y retira las manos solo ante el estímulo doloroso y emite sonidos incomprensibles. ¿Qué puntaje en la escala de Glasgow le corresponde?",
+      "opciones": [
+        "3",
+        "10",
+        "8",
+        "6",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La escala de Glasgow suma apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Este paciente abre los ojos solo al dolor (O2), emite sonidos incomprensibles (V2) y retira la mano ante el dolor (M4): 2 + 2 + 4 = 8 puntos. Un Glasgow de 8 o menos define un traumatismo craneoencefálico grave e indica asegurar la vía aérea con intubación.",
+      "comentario": "La escala de Glasgow suma apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Este paciente abre los ojos solo al dolor (O2), emite sonidos incomprensibles (V2) y retira la mano ante el dolor (M4): 2 + 2 + 4 = 8 puntos. Un Glasgow de 8 o menos define un traumatismo craneoencefálico grave e indica asegurar la vía aérea con intubación.",
+      "tema": "Escala de Glasgow: 8 puntos",
+      "año": 2024
+    },
+    {
+      "id": "NRL-059",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 70 años con enfermedad de Parkinson que presenta recaídas de su cuadro clínico periódicamente, a pesar de recibir tratamiento farmacológico regular. ¿Qué neurotransmisor se encuentra involucrado?",
+      "opciones": [
+        "Dopamina",
+        "Serotonina",
+        "GABA",
+        "Glutamato",
+        "Diazepam"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con enfermedad de Parkinson y recaídas clínicas recurrentes a pesar del tratamiento. Esta enfermedad neurodegenerativa se caracteriza por la pérdida de neuronas dopaminérgicas en la sustancia negra pars compacta, lo que conlleva a síntomas motores (temblor, rigidez, bradicinesia). El neurotransmisor fundamental implicado es la dopamina, cuya deficiencia explica la clínica. El tratamiento suele incluir levodopa o agonistas dopaminérgicos. Ni serotonina, GABA ni glutamato explican el origen principal del trastorno.",
+      "comentario": "Paciente con enfermedad de Parkinson y recaídas clínicas recurrentes a pesar del tratamiento. Esta enfermedad neurodegenerativa se caracteriza por la pérdida de neuronas dopaminérgicas en la sustancia negra pars compacta, lo que conlleva a síntomas motores (temblor, rigidez, bradicinesia). El neurotransmisor fundamental implicado es la dopamina, cuya deficiencia explica la clínica. El tratamiento suele incluir levodopa o agonistas dopaminérgicos. Ni serotonina, GABA ni glutamato explican el origen principal del trastorno.",
+      "tema": "Enfermedad de Parkinson: déficit de dopamina",
+      "año": 2025
+    },
+    {
+      "id": "NRL-060",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 77 años con enfermedad de Parkinson diagnosticada hace 6 meses. Tras iniciar tratamiento antiparkinsoniano, presenta deterioro de la memoria y confusión. ¿Qué fármaco se asocia más frecuentemente con este efecto adverso?",
+      "opciones": [
+        "Pramipexol",
+        "Selegilina",
+        "Levodopa",
+        "Biperideno",
+        "Epinefrina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En un paciente de 77 años con Parkinson, el fármaco que con más frecuencia produce deterioro de la memoria y confusión es el biperideno, un anticolinérgico que bloquea los receptores muscarínicos centrales. Por este efecto cognitivo y por otros efectos anticolinérgicos (retención urinaria, estreñimiento, glaucoma) se evita en los adultos mayores. La levodopa y los agonistas dopaminérgicos pueden causar alucinaciones, pero la confusión y la amnesia son más típicas de los anticolinérgicos.",
+      "comentario": "En un paciente de 77 años con Parkinson, el fármaco que con más frecuencia produce deterioro de la memoria y confusión es el biperideno, un anticolinérgico que bloquea los receptores muscarínicos centrales. Por este efecto cognitivo y por otros efectos anticolinérgicos (retención urinaria, estreñimiento, glaucoma) se evita en los adultos mayores. La levodopa y los agonistas dopaminérgicos pueden causar alucinaciones, pero la confusión y la amnesia son más típicas de los anticolinérgicos.",
+      "tema": "Anticolinérgicos en el Parkinson del adulto mayor: confusión",
+      "año": 2025
+    },
+    {
+      "id": "NRL-061",
+      "especialidad": "Neurología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 28 años con TEC y fractura de base de cráneo. Examen: orientado en persona, midriasis paralítica derecha, ojo desviado hacia abajo y afuera. ¿Cuál es el par craneal afectado?",
+      "opciones": [
+        "VI",
+        "IV",
+        "III",
+        "VII",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La combinación de midriasis paralítica, ptosis palpebral y desviación ocular “hacia abajo y afuera” es característica de una parálisis del III par craneal (oculomotor común). Este nervio controla los músculos recto superior, medial e inferior, además del oblicuo inferior, y también la constricción pupilar mediante fibras parasimpáticas. La fractura de base de cráneo o la compresión del nervio por herniación del uncus son causas frecuentes. El diagnóstico diferencial con la lesión del VI par se basa en que esta última solo produce diplopía horizontal sin midriasis.",
+      "comentario": "La combinación de midriasis paralítica, ptosis palpebral y desviación ocular “hacia abajo y afuera” es característica de una parálisis del III par craneal (oculomotor común). Este nervio controla los músculos recto superior, medial e inferior, además del oblicuo inferior, y también la constricción pupilar mediante fibras parasimpáticas. La fractura de base de cráneo o la compresión del nervio por herniación del uncus son causas frecuentes. El diagnóstico diferencial con la lesión del VI par se basa en que esta última solo produce diplopía horizontal sin midriasis.",
+      "tema": "Midriasis con ojo desviado hacia abajo y afuera: III par craneal",
+      "año": 2025
     }
   ]
 }

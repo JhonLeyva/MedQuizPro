@@ -8,17 +8,17 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - El pie de cada commit lo indica el system-reminder de la sesión nueva. No pongas identificadores de modelo en commits ni en archivos.
 - Trabaja en tu scratchpad. Copia primero `herramientas/` ahí: `cp -r /home/user/MedQuizPro/herramientas/. $S/`. Los scripts usan rutas relativas a esa carpeta y a `$S/flujo/`.
 
-## Estado actual (29-sep-2026)
-- **Bancos:** 1579 preguntas, bloques 1 a 7.
-  - Último paquete: `MedQuizPro_bloque7_500_preguntas.zip` (commit 047ef18).
+## Estado actual (29-sep-2026, actualizado)
+- **Rama usada en la última sesión:** `claude/sweet-franklin-dbg0mc` (creada desde `claude/clever-rubin-xv0or7`). Ahí están los paquetes de flujogramas del bloque 7 y de preguntas del bloque 8.
+- **Bancos:** 1713 preguntas, bloques 1 a 8.
+  - Último paquete: `MedQuizPro_bloque8_134_preguntas.zip`.
   - `herramientas/site/bancos/` ya contiene esos 17 JSON finales.
-- **Flujogramas:** existen para las 1079 preguntas de los bloques 1–6.
-  - Último paquete: `MedQuizPro_flujogramas_bloque6.zip`, con `algoritmos.js` de 1079 entradas.
-  - **Faltan los 500 del bloque 7.** Sus IDs, temas y textos están en `herramientas/nuevos7.json`.
+- **Flujogramas:** existen para las 1579 preguntas de los bloques 1–7.
+  - Último paquete: `MedQuizPro_flujogramas_bloque7.zip`, con `algoritmos.js` de 1579 entradas (en `herramientas/flujo/`: `content7a…n.py`, `c7.py`, `build7f.py`, `finish7.py`).
+  - **Faltan los 134 del bloque 8.** Sus IDs, temas y textos están en `herramientas/nuevos8.json`.
+  - Pendiente menor: los SVG radiales del bloque 6 dicen «CÓMO LLEGA EL CASO A LA RESPUESTA»; en `engine3.py` ya se cambió a «…AL DIAGNÓSTICO», falta regenerarlos si el usuario lo pide.
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
-- **Pendientes del PDF:** 391 sin revisar, n.º 1840 a 2497.
-  - Cálculo: `pool7.json` menos `SEL` y `EXC` de `sel7.py`.
-  - Hay que volver a filtrar: dependen de imagen, repetidas contra el banco, claves dudosas.
+- **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 
 ## Contenido de `herramientas/`
 **Datos del PDF y selección**
@@ -127,4 +127,4 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
 ## Próxima tarea sugerida
-Flujogramas del bloque 7 (Flujo B). Después, el bloque 8 de preguntas con las 391 pendientes (Flujo A). Antes de empezar, pregunta al usuario cuál quiere.
+Flujogramas de las 134 preguntas del bloque 8 (Flujo B, con `nuevos8.json`, `c8.py`/`content8*.py`/`build8f.py` en `out8`, `algoritmos.js` de 1579 + 134 = 1713 entradas). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale si quiere preguntas de práctica nuevas (no oficiales) antes de empezar.

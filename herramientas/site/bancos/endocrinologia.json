@@ -1175,6 +1175,120 @@
       "comentario": "La clínica de choque refractario, hipoglucemia y antecedentes de parto complicado sugieren insuficiencia suprarrenal secundaria a síndrome de Sheehan, atribuido a una crisis adrenal. La hidrocortisona es el tratamiento de elección. La infusión de glucosa corrige parcialmente, pero no trata la causa; la tiroxina es para hipotiroidismo y los antibióticos para infecciones.",
       "tema": "Síndrome de Sheehan con crisis suprarrenal: hidrocortisona",
       "año": 2024
+    },
+    {
+      "id": "END-063",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 63 años, desde hace 3 meses presenta polidipsia, poliuria, polifagia y pérdida de 12 kg en los últimos 2 meses. Examen: PA 120/80 mmHg, IMC 34 kg/m2, lúcido. Lab: glucosa basal 472mg/dl, HbA1c 12.7%, creatinina 0.72 mg/dl. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Glibenclamida",
+        "Pioglitazona",
+        "Insulina",
+        "Metformina",
+        "Dexametasona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con síntomas cardinales de diabetes mellitus (polidipsia, poliuria, polifagia) y glucosa basal de 472 mg/dL con una HbA1c de 12.7%, lo cual indica descompensación metabólica severa. A pesar de no tener cetosis ni alteración del sensorio, estos niveles sugieren un inicio reciente de DM2 con hiperglicemia severa, donde la insulina es el tratamiento de elección inicial para lograr un control rápido y evitar complicaciones agudas. Una vez estabilizado, podría considerarse metformina.",
+      "comentario": "Paciente con síntomas cardinales de diabetes mellitus (polidipsia, poliuria, polifagia) y glucosa basal de 472 mg/dL con una HbA1c de 12.7%, lo cual indica descompensación metabólica severa. A pesar de no tener cetosis ni alteración del sensorio, estos niveles sugieren un inicio reciente de DM2 con hiperglicemia severa, donde la insulina es el tratamiento de elección inicial para lograr un control rápido y evitar complicaciones agudas. Una vez estabilizado, podría considerarse metformina.",
+      "tema": "DM2 de debut con hiperglucemia sintomática grave: insulina",
+      "año": 2024
+    },
+    {
+      "id": "END-064",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 54 años, obeso, sedentario, asintomático, en el control prevacacional presenta una primera glucemia basal de 153 mg/dl con glucosuria negativa. En las semanas siguientes ha tenido otras dos cifras de glucemias basales de 115 mg/dl y 146 mg/dl. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Control en un mes",
+        "Iniciar metformina",
+        "Insulinoterapia",
+        "Dosaje de péptido C",
+        "Aspirina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El diagnóstico de diabetes se confirma con dos glucemias en ayunas ≥126 mg/dL en días distintos. Este paciente tiene 153 y 146 mg/dL (la de 115 mg/dL corresponde a glucosa alterada en ayunas), por lo que ya es diabético. Por ser obeso, asintomático y sin descompensación, se inicia metformina junto con cambios en el estilo de vida (dieta y actividad física). No corresponde esperar un mes, la insulina se reserva para hiperglucemia grave o sintomática y el péptido C no es necesario para el diagnóstico.",
+      "comentario": "El diagnóstico de diabetes se confirma con dos glucemias en ayunas ≥126 mg/dL en días distintos. Este paciente tiene 153 y 146 mg/dL (la de 115 mg/dL corresponde a glucosa alterada en ayunas), por lo que ya es diabético. Por ser obeso, asintomático y sin descompensación, se inicia metformina junto con cambios en el estilo de vida (dieta y actividad física). No corresponde esperar un mes, la insulina se reserva para hiperglucemia grave o sintomática y el péptido C no es necesario para el diagnóstico.",
+      "tema": "Diabetes confirmada por dos glucemias en ayunas ≥126 mg/dL: metformina",
+      "año": 2025
+    },
+    {
+      "id": "END-065",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 18 años, desde hace tres días polidipsia, poliuria y astenia. Ingresa con náuseas, vómitos y dolor abdominal difuso. Examen: PA 90/60 mmHg, FC 120 X', FR 30 X', T 36.5°C, SatO₂ 98%. Alerta, mucosas secas e hiperpnea. Abdomen: dolor difuso a la palpación, no signos de irritación peritoneal. Llenado capilar 3 ’’. Lab: pH 7.12, HCO₃⁻ 8 mEq/l, glucosa 480 mg/dl, cetonas en orina: (+++), Na: 128 mEq/l, K 3.2 mEq/l, creatinina: 1.4 mg/dl. Luego de reposición hídrica con solución salina. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Corrección de hipokalemia",
+        "Corregir el bicarbonato",
+        "Detectar las comorbilidades",
+        "Administración de insulina",
+        "Ketorolaco"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cetoacidosis diabética (glucosa 480 mg/dL, pH 7,12, HCO₃⁻ 8 mEq/L, cetonuria) con potasio de 3,2 mEq/L. Tras la hidratación inicial con suero salino, si el potasio está por debajo de 3,3 mEq/L se debe reponer potasio antes de iniciar la insulina, porque la insulina lo introduce en las células y puede provocar una hipopotasemia grave con arritmias. Cuando el potasio supera 3,3 mEq/L se inicia la insulina. El bicarbonato solo se considera si el pH es menor de 6,9.",
+      "comentario": "Cetoacidosis diabética (glucosa 480 mg/dL, pH 7,12, HCO₃⁻ 8 mEq/L, cetonuria) con potasio de 3,2 mEq/L. Tras la hidratación inicial con suero salino, si el potasio está por debajo de 3,3 mEq/L se debe reponer potasio antes de iniciar la insulina, porque la insulina lo introduce en las células y puede provocar una hipopotasemia grave con arritmias. Cuando el potasio supera 3,3 mEq/L se inicia la insulina. El bicarbonato solo se considera si el pH es menor de 6,9.",
+      "tema": "Cetoacidosis diabética con potasio bajo: reponer potasio antes de la insulina",
+      "año": 2025
+    },
+    {
+      "id": "END-066",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 50 años diabético de larga data que inicia tratamiento con un inhibidor del cotransportador sodio-glucosa tipo 2 (SGLT2). ¿Cuál es el principal mecanismo fisiológico de este fármaco en la función renal?",
+      "opciones": [
+        "Disminución de la filtración glomerular",
+        "Aumento de la excreción urinaria de glucosa",
+        "Aumento de la reabsorción de glucosa",
+        "Reducción de la diuresis osmótica",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los inhibidores del cotransportador sodio-glucosa tipo 2 (gliflozinas, como empagliflozina o dapagliflozina) bloquean el SGLT2 del túbulo contorneado proximal, que reabsorbe la mayor parte de la glucosa filtrada. Así aumentan la excreción urinaria de glucosa (glucosuria), lo que baja la glucemia, produce diuresis osmótica y natriuresis leves y pérdida de peso. Además tienen efecto protector renal y cardiovascular.",
+      "comentario": "Los inhibidores del cotransportador sodio-glucosa tipo 2 (gliflozinas, como empagliflozina o dapagliflozina) bloquean el SGLT2 del túbulo contorneado proximal, que reabsorbe la mayor parte de la glucosa filtrada. Así aumentan la excreción urinaria de glucosa (glucosuria), lo que baja la glucemia, produce diuresis osmótica y natriuresis leves y pérdida de peso. Además tienen efecto protector renal y cardiovascular.",
+      "tema": "Inhibidores de SGLT2: aumentan la glucosuria",
+      "año": 2025
+    },
+    {
+      "id": "END-067",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 29 años, refiere disminución de grasa en miembros inferiores y aumento de grasa en las regiones torácica y superior del abdomen. Al examen físico: edema facial, acné e hirsutismo. ¿Cuál es el antecedente más relevante para establecer el diagnóstico?",
+      "opciones": [
+        "Antecedente familiar de obesidad mórbida",
+        "Antecedente de trastorno nutricional",
+        "Tratamiento hormonal combinado de anticonceptivo",
+        "Uso prolongado de dosis alta de dexametasona",
+        "Solicitar nuevo cultivo"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer con redistribución de la grasa (pérdida en extremidades y acúmulo en tronco y abdomen superior), cara edematosa (facies de luna llena), acné e hirsutismo: síndrome de Cushing. La causa más frecuente es la exógena o iatrogénica, por uso prolongado de glucocorticoides a dosis altas como la dexametasona, por lo que este es el antecedente más relevante. Los anticonceptivos, los trastornos nutricionales o la obesidad familiar no producen este cuadro.",
+      "comentario": "Mujer con redistribución de la grasa (pérdida en extremidades y acúmulo en tronco y abdomen superior), cara edematosa (facies de luna llena), acné e hirsutismo: síndrome de Cushing. La causa más frecuente es la exógena o iatrogénica, por uso prolongado de glucocorticoides a dosis altas como la dexametasona, por lo que este es el antecedente más relevante. Los anticonceptivos, los trastornos nutricionales o la obesidad familiar no producen este cuadro.",
+      "tema": "Síndrome de Cushing exógeno: corticoides a dosis altas",
+      "año": 2025
+    },
+    {
+      "id": "END-068",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 34 años con enfermedad de Graves tratado con propranolol y tiamazol. Desde hace 2 días presenta fiebre alta, escalofríos y odinofagia intensa. ¿Cuál es la conducta inicial más apropiada?",
+      "opciones": [
+        "Iniciar antibiótico, de preferencia, azitromicina",
+        "Iniciar ibuprofeno vía oral y observar",
+        "Solicitar cultivo de secreción faríngea",
+        "Solicitar un hemograma con urgencia",
+        "Tramadol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Paciente con enfermedad de Graves tratado con tiamazol (metimazol) que presenta fiebre alta y odinofagia: se debe sospechar agranulocitosis inducida por antitiroideos, una complicación rara pero grave que suele aparecer en los primeros meses de tratamiento. La conducta inicial es suspender el tiamazol y pedir un hemograma urgente; si los neutrófilos son menores de 500/mm³, se hospitaliza y se inician antibióticos de amplio espectro. Tratarlo como una faringitis común retrasa el diagnóstico.",
+      "comentario": "Paciente con enfermedad de Graves tratado con tiamazol (metimazol) que presenta fiebre alta y odinofagia: se debe sospechar agranulocitosis inducida por antitiroideos, una complicación rara pero grave que suele aparecer en los primeros meses de tratamiento. La conducta inicial es suspender el tiamazol y pedir un hemograma urgente; si los neutrófilos son menores de 500/mm³, se hospitaliza y se inician antibióticos de amplio espectro. Tratarlo como una faringitis común retrasa el diagnóstico.",
+      "tema": "Fiebre y odinofagia con tiamazol: hemograma urgente por agranulocitosis",
+      "año": 2025
     }
   ]
 }

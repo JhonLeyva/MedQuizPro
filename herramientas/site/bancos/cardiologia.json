@@ -1338,6 +1338,63 @@
       "comentario": "El paciente presenta triada de Beck (hipotensión, ruidos cardiacos apagados e ingurgitación yugular), lo cual sugiere taponamiento cardíaco, una urgencia potencialmente letal secundaria a trauma penetrante torácico. El examen de elección para confirmar este diagnóstico es el ecocardiograma, ya que permite visualizar directamente la presencia de derrame pericárdico con compromiso hemodinámico. La radiografía de tórax puede ser normal, el ECG puede mostrar signos inespecíficos (como alternancia eléctrica) y las troponinas no confirman la causa del compromiso hemodinámico.",
       "tema": "Taponamiento cardiaco: ecocardiograma",
       "año": 2024
+    },
+    {
+      "id": "CAR-072",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 69 años con insuficiencia cardíaca crónica en tratamiento con enalapril, carvedilol, furosemida y espironolactona; acude a urgencias por sensación de mareo en las últimas 48 horas. Examen: PA 100/60 mmHg, FC 89 X', FR 20 X', lengua seca, no se auscultan crépitos. Lab: creatinina, hemoglobina y electrolitos son normales, EKG: bloqueo de rama izquierda a 90 X', previamente diagnosticado. ¿Qué fármaco debe suspender?",
+      "opciones": [
+        "Enalapril",
+        "Furosemida",
+        "Carvedilol",
+        "Espironolactona",
+        "Dexametasona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con insuficiencia cardiaca crónica que consulta por mareo, PA baja-normal y lengua seca, sin crepitantes ni signos de congestión: está hipovolémico por exceso de diurético. El fármaco que debe suspenderse (o reducirse) es la furosemida, porque los diuréticos de asa solo alivian la congestión y no mejoran la supervivencia. El enalapril, el carvedilol y la espironolactona sí disminuyen la mortalidad y deben mantenerse si la PA, la función renal y el potasio lo permiten.",
+      "comentario": "Paciente con insuficiencia cardiaca crónica que consulta por mareo, PA baja-normal y lengua seca, sin crepitantes ni signos de congestión: está hipovolémico por exceso de diurético. El fármaco que debe suspenderse (o reducirse) es la furosemida, porque los diuréticos de asa solo alivian la congestión y no mejoran la supervivencia. El enalapril, el carvedilol y la espironolactona sí disminuyen la mortalidad y deben mantenerse si la PA, la función renal y el potasio lo permiten.",
+      "tema": "Insuficiencia cardiaca con hipovolemia: suspender el diurético de asa",
+      "año": 2025
+    },
+    {
+      "id": "CAR-073",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 48 años, gran fumador, presenta desde hace 30 minutos dolor torácico opresivo que inició en reposo. Refiere episodios similares que cedían con el reposo. Examen: PA 135/85 mmHg, FC 92 x’, FR 18 x’, SatO₂ 98%. Consciente, sudoroso, ansioso, MV pasa bien en AHT, RC r ítmicos, no soplos, pulsos r ítmicos. Lab: Troponina límite superior normal, CK-MB normal. ECG infradesnivel del ST en cara inferior y lateral. ¿Cuál es la conducta inicial más apropiada?",
+      "opciones": [
+        "Administrar AINES y observación",
+        "Iniciar antiagregación, anticoagulación y nitroglicerina",
+        "Administrar calcio antagonistas y egreso",
+        "Realizar prueba de esfuerzo en emergencia",
+        "Aspirina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Dolor torácico opresivo en reposo con episodios previos, ECG con infradesnivel del ST y marcadores aún normales: síndrome coronario agudo sin elevación del ST (angina inestable o infarto sin elevación en evolución). El manejo inicial es antiagregación plaquetaria doble (aspirina más un inhibidor P2Y12), anticoagulación (heparina) y nitroglicerina para el dolor, con monitoreo, troponinas seriadas y estratificación de riesgo. La aspirina sola es insuficiente y la prueba de esfuerzo está contraindicada en la fase aguda.",
+      "comentario": "Dolor torácico opresivo en reposo con episodios previos, ECG con infradesnivel del ST y marcadores aún normales: síndrome coronario agudo sin elevación del ST (angina inestable o infarto sin elevación en evolución). El manejo inicial es antiagregación plaquetaria doble (aspirina más un inhibidor P2Y12), anticoagulación (heparina) y nitroglicerina para el dolor, con monitoreo, troponinas seriadas y estratificación de riesgo. La aspirina sola es insuficiente y la prueba de esfuerzo está contraindicada en la fase aguda.",
+      "tema": "Síndrome coronario agudo sin elevación del ST: antiagregación, anticoagulación y nitratos",
+      "año": 2025
+    },
+    {
+      "id": "CAR-074",
+      "especialidad": "Cardiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 65 años, hipertensa, consulta porque hace 2 meses presenta disnea y fatiga al subir al segundo piso. Hace un mes se agrega tos seca y palpitaciones. EKG: eje del QRS en-30°. Según la clasificación funcional NYHA, ¿cuál es el estadio?",
+      "opciones": [
+        "IV",
+        "III",
+        "I",
+        "II",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La clasificación funcional de la NYHA es: clase I, sin limitación de la actividad física; clase II, limitación leve, asintomático en reposo pero con síntomas (disnea, fatiga, palpitaciones) con la actividad física ordinaria; clase III, limitación marcada, síntomas con actividad menor que la ordinaria; clase IV, síntomas en reposo. Esta paciente tiene disnea y fatiga al subir al segundo piso, una actividad ordinaria, por lo que corresponde a la clase II.",
+      "comentario": "La clasificación funcional de la NYHA es: clase I, sin limitación de la actividad física; clase II, limitación leve, asintomático en reposo pero con síntomas (disnea, fatiga, palpitaciones) con la actividad física ordinaria; clase III, limitación marcada, síntomas con actividad menor que la ordinaria; clase IV, síntomas en reposo. Esta paciente tiene disnea y fatiga al subir al segundo piso, una actividad ordinaria, por lo que corresponde a la clase II.",
+      "tema": "Clasificación funcional NYHA: clase II",
+      "año": 2025
     }
   ]
 }

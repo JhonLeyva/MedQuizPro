@@ -1365,6 +1365,120 @@
       "comentario": "Mujer mayor, estreñida crónica, con episodios recurrentes de dolor en la fosa ilíaca izquierda, uno de ellos tratado con dieta y antibióticos: el cuadro orienta a enfermedad diverticular del colon sigmoides con diverticulitis previa. La tomografía abdominal con contraste es el examen de elección para confirmar la diverticulitis y sus complicaciones (absceso, perforación, fístula). La colonoscopia se difiere 6-8 semanas tras el episodio agudo para descartar neoplasia.",
       "tema": "Sospecha de diverticulitis: tomografía con contraste",
       "año": 2024
+    },
+    {
+      "id": "GAS-073",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 55 años con cirrosis hepática es traído por dolor abdominal difuso y fiebre. Antecedente: alergia a ceftriaxona. Examen: PA: 100/60 mmHg, FC: 110 X´, FR: 20 X´, T°: 38.5 °C, distensión abdominal, dolor a la palpación, rebote (+), RHA disminuidos. Laboratorio: creatinina: 1.4 mg/dL. Líquido ascítico turbio, 500 neutrófilos/mm3. ¿Cuál es el antibiótico de elección?",
+      "opciones": [
+        "Penicilinas",
+        "Aminoglucósidos",
+        "Cefalosporinas",
+        "Fluoroquinolonas",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cirrótico con fiebre, dolor abdominal y líquido ascítico con ≥250 neutrófilos/mm³ (aquí 500): peritonitis bacteriana espontánea. El tratamiento empírico de elección es una cefalosporina de tercera generación, pero el paciente es alérgico a la ceftriaxona. La alternativa es una fluoroquinolona (ciprofloxacino o levofloxacino), siempre que no la haya recibido como profilaxis. Se asocia albúmina EV porque la creatinina está elevada (>1 mg/dL), para prevenir el síndrome hepatorrenal.",
+      "comentario": "Cirrótico con fiebre, dolor abdominal y líquido ascítico con ≥250 neutrófilos/mm³ (aquí 500): peritonitis bacteriana espontánea. El tratamiento empírico de elección es una cefalosporina de tercera generación, pero el paciente es alérgico a la ceftriaxona. La alternativa es una fluoroquinolona (ciprofloxacino o levofloxacino), siempre que no la haya recibido como profilaxis. Se asocia albúmina EV porque la creatinina está elevada (>1 mg/dL), para prevenir el síndrome hepatorrenal.",
+      "tema": "Peritonitis bacteriana espontánea con alergia a cefalosporinas: fluoroquinolona",
+      "año": 2024
+    },
+    {
+      "id": "GAS-074",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 58 años acude por distensión abdominal y hematemesis con melena. Antecedente: cirrosis hepática y recibe diuréticos. Examen: PA 90/55 mmHg, FC 115 X', FR 20 X', T 36.5°C, SatO₂ 96%. Bradipsiquia, ictérica, Abdomen: ascitis a tensión con circulación colateral. Lab: BD 3.9 mg/dl, INR 2.0, lactato normal, creatinina 1.6 mg/dl (a pesar de resucitación con cristaloides y albúmina), Na 129 mEq/l, Na urinario 8 mEq/l. Líquido ascítico: trasudado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Insuficiencia renal prerrenal",
+        "Necrosis tubular aguda",
+        "Síndrome hepatorrenal",
+        "Nefropatía por diuréticos",
+        "Sepsis"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Cirrótico con ascitis a tensión y hemorragia digestiva que desarrolla lesión renal (creatinina 1,6 mg/dL) que no mejora pese a suspender diuréticos y expandir con albúmina, con sodio urinario muy bajo (<10 mEq/L), hiponatremia y sin shock, sepsis ni nefrotóxicos: síndrome hepatorrenal. Es una lesión funcional por vasodilatación esplácnica y vasoconstricción renal intensa. Se trata con terlipresina (o noradrenalina) más albúmina. A diferencia de la insuficiencia prerrenal, no responde a la expansión de volumen.",
+      "comentario": "Cirrótico con ascitis a tensión y hemorragia digestiva que desarrolla lesión renal (creatinina 1,6 mg/dL) que no mejora pese a suspender diuréticos y expandir con albúmina, con sodio urinario muy bajo (<10 mEq/L), hiponatremia y sin shock, sepsis ni nefrotóxicos: síndrome hepatorrenal. Es una lesión funcional por vasodilatación esplácnica y vasoconstricción renal intensa. Se trata con terlipresina (o noradrenalina) más albúmina. A diferencia de la insuficiencia prerrenal, no responde a la expansión de volumen.",
+      "tema": "Síndrome hepatorrenal",
+      "año": 2025
+    },
+    {
+      "id": "GAS-075",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 55 años, desde hace 7 días presenta dolor abdominal con incremento del perímetro abdominal, náuseas y llenura precoz. Examen: matidez en flancos. Lab: gradiente de albúmina entre suero y ascitis (GASA): 1.4 g/dl. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome de Meigs",
+        "Hipertensión portal",
+        "Carcinomatosis peritoneal",
+        "TB peritoneal",
+        "Neumonía adquirida"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El gradiente de albúmina suero-ascitis (GASA) se calcula restando la albúmina del líquido ascítico de la sérica. Un GASA ≥1,1 g/dL indica ascitis por hipertensión portal (cirrosis, insuficiencia cardiaca, síndrome de Budd-Chiari), y un GASA <1,1 g/dL orienta a causas peritoneales como la carcinomatosis, la tuberculosis peritoneal o la pancreatitis. Con un GASA de 1,4 g/dL, lo más probable es la hipertensión portal.",
+      "comentario": "El gradiente de albúmina suero-ascitis (GASA) se calcula restando la albúmina del líquido ascítico de la sérica. Un GASA ≥1,1 g/dL indica ascitis por hipertensión portal (cirrosis, insuficiencia cardiaca, síndrome de Budd-Chiari), y un GASA <1,1 g/dL orienta a causas peritoneales como la carcinomatosis, la tuberculosis peritoneal o la pancreatitis. Con un GASA de 1,4 g/dL, lo más probable es la hipertensión portal.",
+      "tema": "Gradiente de albúmina suero-ascitis ≥1,1: hipertensión portal",
+      "año": 2025
+    },
+    {
+      "id": "GAS-076",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 40 años con antecedente de haber tenido dos episodios de pancreatitis aguda leve. Refiere dolor en epigastrio y cuadrante superior derecho luego de ingesta de comida grasa, asociado a vómitos de contenido bilioso y orina colúrica. Examen: ictericia. Abdomen con sensibilidad dolorosa en cuadrante superior derecho. Signo Murphy (+). Laboratorio: BT 4.2 mg/dL, TGO 120, TGP 100, FA 250 mg/dL, GGT 200 mg/dL. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Pancreatitis",
+        "Colecistitis aguda",
+        "Colédocolitiasis",
+        "Colangitis aguda",
+        "Hipertensión arterial"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Mujer con pancreatitis previas, dolor en hipocondrio derecho tras comida grasa, ictericia, coluria y un perfil colestásico (bilirrubina 4,2 mg/dL, fosfatasa alcalina y GGT elevadas, con transaminasas moderadas): el cálculo está en la vía biliar principal, es una coledocolitiasis. La colecistitis aguda no suele dar ictericia importante, la colangitis añade fiebre (tríada de Charcot) y la pancreatitis se diagnostica con lipasa o amilasa elevadas. Se confirma con ecografía y colangiorresonancia y se trata con CPRE.",
+      "comentario": "Mujer con pancreatitis previas, dolor en hipocondrio derecho tras comida grasa, ictericia, coluria y un perfil colestásico (bilirrubina 4,2 mg/dL, fosfatasa alcalina y GGT elevadas, con transaminasas moderadas): el cálculo está en la vía biliar principal, es una coledocolitiasis. La colecistitis aguda no suele dar ictericia importante, la colangitis añade fiebre (tríada de Charcot) y la pancreatitis se diagnostica con lipasa o amilasa elevadas. Se confirma con ecografía y colangiorresonancia y se trata con CPRE.",
+      "tema": "Coledocolitiasis: ictericia con patrón colestásico",
+      "año": 2025
+    },
+    {
+      "id": "GAS-077",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con antecedentes de DM1 e hipotiroidismo en tratamiento. Acude a urgencias por malestar general y astenia intensa desde hace 1 semana que se ha intensificado los últimos 3 días, dificultad al subir escaleras, náuseas, vómitos y febrícula. Al examen: ictericia de piel y mucosas, hepatomegalia no dolorosa, TGO 1200, TGP 2150, ANA 1/160, SMA 1/160, anti-LKM 1/40. ¿Cuál es el tipo de hepatitis aguda más probable?",
+      "opciones": [
+        "Viral",
+        "Autoinmune tipo 3",
+        "Autoinmune de tipo 1",
+        "Autoinmune de tipo 2",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Mujer con enfermedades autoinmunes (DM1 e hipotiroidismo), hepatitis aguda con transaminasas muy elevadas e ictericia, y anticuerpos antinucleares (ANA) y anti-músculo liso (SMA) positivos a títulos altos: hepatitis autoinmune tipo 1, la forma más frecuente, típica de mujeres jóvenes y adultas. La tipo 2 se caracteriza por anticuerpos anti-LKM1 a títulos altos y predomina en niños; el título de 1/40 aquí es bajo. Se confirma con biopsia hepática y responde a corticoides y azatioprina.",
+      "comentario": "Mujer con enfermedades autoinmunes (DM1 e hipotiroidismo), hepatitis aguda con transaminasas muy elevadas e ictericia, y anticuerpos antinucleares (ANA) y anti-músculo liso (SMA) positivos a títulos altos: hepatitis autoinmune tipo 1, la forma más frecuente, típica de mujeres jóvenes y adultas. La tipo 2 se caracteriza por anticuerpos anti-LKM1 a títulos altos y predomina en niños; el título de 1/40 aquí es bajo. Se confirma con biopsia hepática y responde a corticoides y azatioprina.",
+      "tema": "Hepatitis autoinmune tipo 1: ANA y anti-músculo liso",
+      "año": 2025
+    },
+    {
+      "id": "GAS-078",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 52 años, presenta dolor agudo en el hemiabdomen superior, se confirma obstrucción de la ampolla de Vater por un cálculo biliar, 2 diagnosticándose pancreatitis aguda. ¿Cuál es el evento enzimático que produce la lesión pancreática?",
+      "opciones": [
+        "Quimotripsinógeno activa enzimas proteolíticas en los conductos pancreáticos",
+        "Las enzimas digestivas pancreáticas y biliares destruyen acinos pancreáticos",
+        "La secreción biliar activa el tripsinógeno de la secreción pancreática",
+        "Tripsinógeno que se activa y forma tripsina en el páncreas",
+        "Insulina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En la pancreatitis aguda biliar, el cálculo en la ampolla de Vater aumenta la presión en el conducto pancreático y altera la secreción. El evento clave es la activación prematura del tripsinógeno a tripsina dentro de las células acinares del propio páncreas, que a su vez activa las demás proenzimas (quimotripsinógeno, fosfolipasa, elastasa) y produce autodigestión, inflamación y necrosis. La bilis no es la que activa el tripsinógeno; normalmente la tripsina se activa en el duodeno por la enteropeptidasa.",
+      "comentario": "En la pancreatitis aguda biliar, el cálculo en la ampolla de Vater aumenta la presión en el conducto pancreático y altera la secreción. El evento clave es la activación prematura del tripsinógeno a tripsina dentro de las células acinares del propio páncreas, que a su vez activa las demás proenzimas (quimotripsinógeno, fosfolipasa, elastasa) y produce autodigestión, inflamación y necrosis. La bilis no es la que activa el tripsinógeno; normalmente la tripsina se activa en el duodeno por la enteropeptidasa.",
+      "tema": "Pancreatitis aguda: activación intrapancreática del tripsinógeno",
+      "año": 2025
     }
   ]
 }

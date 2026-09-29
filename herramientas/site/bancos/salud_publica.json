@@ -3208,6 +3208,443 @@
       "comentario": "El caso describe un escenario rural con muy baja cobertura vacunal, a pesar de campañas dominicales, lo que sugiere barreras geográficas y de acceso. La estrategia más efectiva en estas condiciones es llevar el servicio directamente a la población mediante brigadas de vacunación itinerantes, que permiten superar obstáculos como la dispersión territorial y la falta de transporte. Promocionar en sala de espera o fortalecer mensajes radiales no es suficiente cuando la comunidad tiene dificultades físicas para llegar al centro. Convocar al director regional no resuelve el problema operativo inmediato. La solución debe centrarse en la accesibilidad directa y el enfoque territorial.",
       "tema": "Población rural dispersa: brigadas itinerantes de vacunación",
       "año": 2024
+    },
+    {
+      "id": "SP-170",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Multigesta de 18 semanas, con insuficiencia renal crónica avanzada acude a su primer control prenatal. En junta médica se determina que el embarazo pone en riesgo su vida. La paciente solicita aborto terapéutico. ¿Cuál es el principio ético que guía la decisión de realizar un aborto en este caso?",
+      "opciones": [
+        "Autonomía",
+        "No maleficencia",
+        "Justicia",
+        "Beneficencia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El principio de beneficencia guía la acción médica hacia hacer el bien y maximizar los beneficios para la paciente, en este caso, protegiendo su vida. Dado que la multigesta tiene insuficiencia renal crónica avanzada, continuar con el embarazo representa u n grave riesgo para su salud y vida. En este escenario, la junta médica debe considerar el bienestar de la paciente al tomar decisiones terapéuticas, en las que el aborto podría ser necesario para evitar mayores daños. Aunque el principio de autonomía (A) es importante, ya que la paciente solicita el aborto, la beneficencia es la base de la recomendación médica para salvaguardar la vida de la madre. La no maleficencia (B) busca evitar el daño, pero se equilibra con la beneficencia cuando se trata de prevenir riesgos serios para la vida.",
+      "comentario": "El principio de beneficencia guía la acción médica hacia hacer el bien y maximizar los beneficios para la paciente, en este caso, protegiendo su vida. Dado que la multigesta tiene insuficiencia renal crónica avanzada, continuar con el embarazo representa u n grave riesgo para su salud y vida. En este escenario, la junta médica debe considerar el bienestar de la paciente al tomar decisiones terapéuticas, en las que el aborto podría ser necesario para evitar mayores daños. Aunque el principio de autonomía (A) es importante, ya que la paciente solicita el aborto, la beneficencia es la base de la recomendación médica para salvaguardar la vida de la madre. La no maleficencia (B) busca evitar el daño, pero se equilibra con la beneficencia cuando se trata de prevenir riesgos serios para la vida.",
+      "tema": "Aborto terapéutico por riesgo materno: beneficencia",
+      "año": 2024
+    },
+    {
+      "id": "SP-171",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Está realizando su SERUMS en un establecimiento de salud de ámbito rural andino con capacidad resolutiva para atención de parto con pertinencia cultural. ¿Qué se deberá observar respecto al destino de la placenta?",
+      "opciones": [
+        "Eliminar según la rutina del establecimiento",
+        "Entregar la placenta a la promotora que acompañó",
+        "Incinerar la placenta con participación de la pareja",
+        "Preguntar a los familiares si desean llevar la placenta",
+        "Amoxicilina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Durante la atención del parto en un contexto rural andino, es importante reconocer y respetar la pertinencia cultural, especialmente en lo referente al manejo de la placenta. En muchas comunidades indígenas, la placenta tiene un valor simbólico y espiritual, y suele enterrarse en un lugar especial. Por ello, el personal de salud debe preguntar a los familiares si desean llevar la placenta, respetando su decisión. Eliminarla sin consultar o imponer una práctica institucional podría considerarse una falta de sensibilidad cultural. La interculturalidad en salud exige un enfoque centrado en la persona, la familia y su cosmovisión.",
+      "comentario": "Durante la atención del parto en un contexto rural andino, es importante reconocer y respetar la pertinencia cultural, especialmente en lo referente al manejo de la placenta. En muchas comunidades indígenas, la placenta tiene un valor simbólico y espiritual, y suele enterrarse en un lugar especial. Por ello, el personal de salud debe preguntar a los familiares si desean llevar la placenta, respetando su decisión. Eliminarla sin consultar o imponer una práctica institucional podría considerarse una falta de sensibilidad cultural. La interculturalidad en salud exige un enfoque centrado en la persona, la familia y su cosmovisión.",
+      "tema": "Parto con pertinencia cultural: destino de la placenta",
+      "año": 2024
+    },
+    {
+      "id": "SP-172",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿En qué fase del ensayo clínico (ECA) se estudian los efectos secundarios severos de un tratamiento nuevo a lo largo del tiempo después de su aprobación y comercialización?",
+      "opciones": [
+        "I",
+        "III",
+        "IV",
+        "II",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La fase IV del ensayo clínico (farmacovigilancia poscomercialización) se realiza después de que el fármaco ha sido aprobado y comercializado. Busca efectos adversos raros o graves y datos de seguridad a largo plazo en poblaciones grandes y variadas, que no se detectan en las fases previas por su tamaño limitado. La fase I evalúa seguridad y farmacocinética en pocos voluntarios, la fase II eficacia y dosis, y la fase III compara el nuevo tratamiento con el estándar antes de la aprobación.",
+      "comentario": "La fase IV del ensayo clínico (farmacovigilancia poscomercialización) se realiza después de que el fármaco ha sido aprobado y comercializado. Busca efectos adversos raros o graves y datos de seguridad a largo plazo en poblaciones grandes y variadas, que no se detectan en las fases previas por su tamaño limitado. La fase I evalúa seguridad y farmacocinética en pocos voluntarios, la fase II eficacia y dosis, y la fase III compara el nuevo tratamiento con el estándar antes de la aprobación.",
+      "tema": "Ensayo clínico fase IV: vigilancia poscomercialización",
+      "año": 2024
+    },
+    {
+      "id": "SP-173",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿En base a qué enfoque se desarrolla el Modelo de Cuidado Integral de Salud?",
+      "opciones": [
+        "Interculturalidad",
+        "Rehabilitación",
+        "Recuperación",
+        "Promoción",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El Modelo de Cuidado Integral de Salud (MAIS) implementado por el Ministerio de Salud en el Perú se sustenta en principios fundamentales que buscan garantizar la atención centrada en la persona, familia y comunidad, con enfoque de curso de vida. Uno de sus pilares principales es el enfoque de interculturalidad, el cual permite adecuar la atención sanitaria al contexto cultural, social y lingüístico de cada población, garantizando pertinencia, respeto y equidad. Este enfoque busca superar las barreras estructurales que generan exclusión, especial mente en poblaciones indígenas o rurales. La promoción, recuperación y rehabilitación son componentes del proceso de atención, pero no constituyen el enfoque principal que lo estructura. Por tanto, la opción correcta es la que refleja la base filosófica que orienta todo el modelo, que es la interculturalidad como eje articulador del cuidado integral.",
+      "comentario": "El Modelo de Cuidado Integral de Salud (MAIS) implementado por el Ministerio de Salud en el Perú se sustenta en principios fundamentales que buscan garantizar la atención centrada en la persona, familia y comunidad, con enfoque de curso de vida. Uno de sus pilares principales es el enfoque de interculturalidad, el cual permite adecuar la atención sanitaria al contexto cultural, social y lingüístico de cada población, garantizando pertinencia, respeto y equidad. Este enfoque busca superar las barreras estructurales que generan exclusión, especial mente en poblaciones indígenas o rurales. La promoción, recuperación y rehabilitación son componentes del proceso de atención, pero no constituyen el enfoque principal que lo estructura. Por tanto, la opción correcta es la que refleja la base filosófica que orienta todo el modelo, que es la interculturalidad como eje articulador del cuidado integral.",
+      "tema": "Modelo de Cuidado Integral de Salud: enfoque intercultural",
+      "año": 2024
+    },
+    {
+      "id": "SP-174",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Cirujano de guardia evalúa a paciente con herida cortante en pierna derecha y realiza la curación sin uso de guantes. ¿Qué principio bioético está incumpliendo?",
+      "opciones": [
+        "No maleficencia",
+        "Autonomía",
+        "Beneficencia",
+        "Justicia",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con herida cortante es atendido por un cirujano que realiza la curación sin utilizar guantes, lo cual constituye una violación grave de las normas básicas de bioseguridad y del principio de no maleficencia. Este principio implica la obligación ética del profesional de la salud de evitar causar daño al paciente. El contacto directo con una herida abierta sin protección puede facilitar la transmisión de agentes patógenos tanto del profesional al paciente como a la inversa, incrementando el riesgo de infección. Además, representa un comportamiento negligente que compromete la seguridad del acto médico. Esta omisión no respeta el estándar mínimo de protección esperado en la atención sanitaria y genera un riesgo prevenible.",
+      "comentario": "Paciente con herida cortante es atendido por un cirujano que realiza la curación sin utilizar guantes, lo cual constituye una violación grave de las normas básicas de bioseguridad y del principio de no maleficencia. Este principio implica la obligación ética del profesional de la salud de evitar causar daño al paciente. El contacto directo con una herida abierta sin protección puede facilitar la transmisión de agentes patógenos tanto del profesional al paciente como a la inversa, incrementando el riesgo de infección. Además, representa un comportamiento negligente que compromete la seguridad del acto médico. Esta omisión no respeta el estándar mínimo de protección esperado en la atención sanitaria y genera un riesgo prevenible.",
+      "tema": "Curación sin guantes: falta al principio de no maleficencia",
+      "año": 2024
+    },
+    {
+      "id": "SP-175",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "El Código de Ética y Deontología del CMP, menciona: \"En pacientes que requieren procedimientos diagnósticos o terapéuticos que impliquen riesgos mayores que el mínimo, el médico debe solicitar consentimiento informado por escrito.\". ¿Con cuál de los principios bioéticos se relaciona este artículo?",
+      "opciones": [
+        "Autonomía",
+        "Beneficencia",
+        "Justicia",
+        "No Maleficencia",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El artículo del Código de Ética y Deontología del CMP exige que en procedimientos con riesgos mayores que el mínimo, se solicite el consentimiento informado por escrito. Esta práctica está directamente relacionada con el principio de autonomía, que reconoce el derecho del paciente a decidir sobre su cuerpo y tratamiento, previa información clara, veraz y suficiente. Este principio es fundamental en la bioética moderna y se basa en el respeto a la capacidad del individuo para tomar decisiones informadas sobre su salud. No se trata de beneficencia (hacer el bien), ni de no maleficencia (no hacer daño), aunque estén relacionados. Tampoco se refiere a justicia, que implica equidad en el acceso a recursos. El núcleo aquí es el respeto por la voluntad del paciente.",
+      "comentario": "El artículo del Código de Ética y Deontología del CMP exige que en procedimientos con riesgos mayores que el mínimo, se solicite el consentimiento informado por escrito. Esta práctica está directamente relacionada con el principio de autonomía, que reconoce el derecho del paciente a decidir sobre su cuerpo y tratamiento, previa información clara, veraz y suficiente. Este principio es fundamental en la bioética moderna y se basa en el respeto a la capacidad del individuo para tomar decisiones informadas sobre su salud. No se trata de beneficencia (hacer el bien), ni de no maleficencia (no hacer daño), aunque estén relacionados. Tampoco se refiere a justicia, que implica equidad en el acceso a recursos. El núcleo aquí es el respeto por la voluntad del paciente.",
+      "tema": "Consentimiento informado por escrito: principio de autonomía",
+      "año": 2024
+    },
+    {
+      "id": "SP-176",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es la unidad productora de servicios de salud (UPSS) de cumplimiento obligatorio en un establecimiento de salud I- 4?",
+      "opciones": [
+        "Laboratorio clínico",
+        "Banco de sangre",
+        "Centro quirúrgico",
+        "Cuidados intensivos",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Según la norma técnica de categorización del MINSA, el establecimiento I-4 debe contar obligatoriamente con las UPSS de consulta externa, patología clínica (laboratorio clínico), farmacia e internamiento. El centro quirúrgico es opcional en el I-4. El banco de sangre y las unidades de cuidados intensivos corresponden a establecimientos de mayor complejidad, del segundo y tercer nivel.",
+      "comentario": "Según la norma técnica de categorización del MINSA, el establecimiento I-4 debe contar obligatoriamente con las UPSS de consulta externa, patología clínica (laboratorio clínico), farmacia e internamiento. El centro quirúrgico es opcional en el I-4. El banco de sangre y las unidades de cuidados intensivos corresponden a establecimientos de mayor complejidad, del segundo y tercer nivel.",
+      "tema": "UPSS obligatoria en el establecimiento I-4: patología clínica",
+      "año": 2024
+    },
+    {
+      "id": "SP-177",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "En el ámbito sanitario del centro de salud desde hace tres años se evidencia incremento de casos de dengue autóctono, coincidiendo con la instalación de nuevos asentamientos humanos que no cuentan con sistema de agua potable. ¿Qué intervención se priorizará para disminuir la incidencia?",
+      "opciones": [
+        "Fortalecer el servicio de emergencia",
+        "Capacitar al personal de salud",
+        "Intensificar la vigilancia de febriles",
+        "Abordar los determinantes sociales",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La pregunta describe un problema de salud pública con aumento de casos de dengue autóctono relacionado con condiciones de pobreza estructural, específicamente la falta de acceso a agua potable. En estos contextos, los criaderos del vector (Aedes aegypti) aumentan por el almacenamiento inadecuado de agua. Por ello, la respuesta más efectiva no está en mejorar servicios asistenciales sino en abordar los determinantes sociales que perpetúan el riesgo, como el acceso al agua y al saneamiento básico.",
+      "comentario": "La pregunta describe un problema de salud pública con aumento de casos de dengue autóctono relacionado con condiciones de pobreza estructural, específicamente la falta de acceso a agua potable. En estos contextos, los criaderos del vector (Aedes aegypti) aumentan por el almacenamiento inadecuado de agua. Por ello, la respuesta más efectiva no está en mejorar servicios asistenciales sino en abordar los determinantes sociales que perpetúan el riesgo, como el acceso al agua y al saneamiento básico.",
+      "tema": "Dengue en asentamientos sin agua potable: abordar determinantes sociales",
+      "año": 2024
+    },
+    {
+      "id": "SP-178",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En un ámbito sanitario con alta incidencia de dengue, el director del colegio coordina con el jefe del centro de salud para incluir contenidos sobre la prevención en su programa de estudios. ¿Qué acción será prioritaria para lograr la participación de los alumnos en la disminución de casos?",
+      "opciones": [
+        "Educar en manejo de medicamentos antipiréticos",
+        "Promover prácticas de eliminación de criaderos",
+        "Instruir en la aplicación de exámenes de laboratorio",
+        "Fortalecer la información sobre signos de alarma",
+        "Manejo expectante"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En una zona de alta incidencia de dengue, la acción educativa prioritaria con los escolares es promover la eliminación de criaderos del Aedes aegypti en el hogar y la escuela (tapar, lavar y escobillar recipientes con agua, desechar inservibles). Así los alumnos se vuelven agentes de cambio en sus familias y se reduce la transmisión. Conocer los signos de alarma y evitar la automedicación es útil para el manejo del enfermo, pero no disminuye la aparición de casos.",
+      "comentario": "En una zona de alta incidencia de dengue, la acción educativa prioritaria con los escolares es promover la eliminación de criaderos del Aedes aegypti en el hogar y la escuela (tapar, lavar y escobillar recipientes con agua, desechar inservibles). Así los alumnos se vuelven agentes de cambio en sus familias y se reduce la transmisión. Conocer los signos de alarma y evitar la automedicación es útil para el manejo del enfermo, pero no disminuye la aparición de casos.",
+      "tema": "Educación escolar contra el dengue: eliminar criaderos",
+      "año": 2025
+    },
+    {
+      "id": "SP-179",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "El jefe de un establecimiento de salud se caracteriza por exigir que los trabajadores cumplan con sus órdenes, sin tomar en cuenta la opinión de los responsables de las diversas tareas encomendadas. ¿Cuál es el tipo de liderazgo que ejerce?",
+      "opciones": [
+        "Autoritario",
+        "Ausente",
+        "Democrático",
+        "Transformacional",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El caso describe a un jefe que toma decisiones de forma unilateral y exige obediencia estricta, sin permitir retroalimentación ni participación del equipo. Aunque este perfil suele encajar con el liderazgo autoritario, hay elementos que pueden sugerir una actitud de desconexión o indiferencia con el trabajo en equipo. El líder ausente se caracteriza por una escasa o nula intervención en la gestión del grupo, delega sin seguimiento, y se desentiende de las funciones del equipo, lo cual puede manifestarse también como rigidez sin interacción. En ese sentido, si el jefe simplemente impone sin preocuparse por el desarrollo, la motivación o los resultados del grupo, podría interpretarse como una forma de ausencia funcional. El liderazgo democrático promueve la participación grupal; el transformacional, la inspiración; y el autoritario, el control estricto.",
+      "comentario": "El caso describe a un jefe que toma decisiones de forma unilateral y exige obediencia estricta, sin permitir retroalimentación ni participación del equipo. Aunque este perfil suele encajar con el liderazgo autoritario, hay elementos que pueden sugerir una actitud de desconexión o indiferencia con el trabajo en equipo. El líder ausente se caracteriza por una escasa o nula intervención en la gestión del grupo, delega sin seguimiento, y se desentiende de las funciones del equipo, lo cual puede manifestarse también como rigidez sin interacción. En ese sentido, si el jefe simplemente impone sin preocuparse por el desarrollo, la motivación o los resultados del grupo, podría interpretarse como una forma de ausencia funcional. El liderazgo democrático promueve la participación grupal; el transformacional, la inspiración; y el autoritario, el control estricto.",
+      "tema": "Liderazgo autoritario",
+      "año": 2025
+    },
+    {
+      "id": "SP-180",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Un ámbito sanitario presenta elevado índice de mortalidad materna, el mayor porcentaje proviene del poblado rural con menos de 300 habitantes. ¿Cuál es la intervención que deberá priorizar el equipo de gestión?",
+      "opciones": [
+        "Instalar banco de sangre tipo I-C",
+        "Financiar contrato de ginecobstetras",
+        "Construcción de hospital materno infantil",
+        "Implementar vigilancia comunitaria",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Cuando la mortalidad materna se concentra en un poblado rural pequeño y disperso, lo prioritario es acercar la vigilancia a la comunidad: implementar la vigilancia comunitaria con agentes comunitarios que identifiquen y registren a las gestantes, reconozcan los signos de alarma y activen la referencia oportuna (incluida la casa de espera materna). Construir un hospital, instalar un banco de sangre o contratar especialistas en una población de menos de 300 habitantes no es factible ni costo-efectivo.",
+      "comentario": "Cuando la mortalidad materna se concentra en un poblado rural pequeño y disperso, lo prioritario es acercar la vigilancia a la comunidad: implementar la vigilancia comunitaria con agentes comunitarios que identifiquen y registren a las gestantes, reconozcan los signos de alarma y activen la referencia oportuna (incluida la casa de espera materna). Construir un hospital, instalar un banco de sangre o contratar especialistas en una población de menos de 300 habitantes no es factible ni costo-efectivo.",
+      "tema": "Mortalidad materna en poblados rurales pequeños: vigilancia comunitaria",
+      "año": 2025
+    },
+    {
+      "id": "SP-181",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Inmigrante de sexo femenino de 13 años es traída por la directora del centro educativo por presentar llanto frecuente y desinterés por actividades educativas. Antecedente de abandono paternal. ¿Qué determinante social es prioritario intervenir?",
+      "opciones": [
+        "Posición socioeconómica",
+        "Acceso a servicios de salud",
+        "Trastornos hormonales",
+        "Desestructuración familiar",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Adolescente inmigrante de 13 años con síntomas depresivos como llanto frecuente y anhedonia escolar, en el contexto de abandono parental, lo cual representa un entorno familiar disfuncional. Dentro de los determinantes sociales de la salud, la desestructuración familiar tiene un peso importante en el bienestar emocional, especialmente en menores. Este tipo de determinante tiene implicancias directas sobre el desarrollo psicosocial y el rendimiento escolar, siendo prioritario abordarlo mediante soporte psicológico y familiar.",
+      "comentario": "Adolescente inmigrante de 13 años con síntomas depresivos como llanto frecuente y anhedonia escolar, en el contexto de abandono parental, lo cual representa un entorno familiar disfuncional. Dentro de los determinantes sociales de la salud, la desestructuración familiar tiene un peso importante en el bienestar emocional, especialmente en menores. Este tipo de determinante tiene implicancias directas sobre el desarrollo psicosocial y el rendimiento escolar, siendo prioritario abordarlo mediante soporte psicológico y familiar.",
+      "tema": "Adolescente con abandono paterno: desestructuración familiar como determinante social",
+      "año": 2025
+    },
+    {
+      "id": "SP-182",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "El endocrinólogo informa que más del 30% de los pacientes con diagnóstico de diabetes 2, con tratamiento más de un año, NO presentan adherencia regular. ¿Qué intervención se deberá implementar?",
+      "opciones": [
+        "Tratamiento domiciliario",
+        "Referencia a psiquiatría",
+        "Fortalecer la actividad física",
+        "Programa educativo continuo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Si más del 30 % de los pacientes con diabetes tipo 2 no tienen buena adherencia al tratamiento, la intervención prioritaria es implementar un programa educativo continuo y estructurado en autocuidado: explica la enfermedad, el uso de los fármacos, la dieta, la actividad física y el automonitoreo, y está demostrado que mejora la adherencia y el control glucémico. El tratamiento domiciliario y la referencia a psiquiatría no abordan la causa del problema.",
+      "comentario": "Si más del 30 % de los pacientes con diabetes tipo 2 no tienen buena adherencia al tratamiento, la intervención prioritaria es implementar un programa educativo continuo y estructurado en autocuidado: explica la enfermedad, el uso de los fármacos, la dieta, la actividad física y el automonitoreo, y está demostrado que mejora la adherencia y el control glucémico. El tratamiento domiciliario y la referencia a psiquiatría no abordan la causa del problema.",
+      "tema": "Mala adherencia en diabetes: programa educativo continuo",
+      "año": 2025
+    },
+    {
+      "id": "SP-183",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En un distrito periurbano con alta densidad poblacional, de escasa infraestructura deportiva, escuelas sin programa de alimentación saludable y con amplio acceso a productos ultraprocesados, se observa incremento de obesidad infantil. ¿Cuál es la intervención de salud pública prioritaria para lograr prevención sostenida de la obesidad infantil?",
+      "opciones": [
+        "Fortalecer políticas de regulación sobre publicidad y comercialización de alimentos procesados",
+        "Distribuir suplementos nutricionales gratuitos escolares",
+        "Capacitar a las asociaciones de padres de familia en cocina saludable, mediante talleres presenciales",
+        "Implementar controles nutricionales mensuales para monitorear el peso en niños",
+        "Epinefrina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Frente al aumento de la obesidad infantil en un entorno con amplio acceso a ultraprocesados, pocas áreas deportivas y escuelas sin programas de alimentación saludable, la intervención de salud pública más sostenida es actuar sobre el entorno mediante políticas: regular la publicidad y la comercialización de alimentos procesados (en el Perú, la Ley de Alimentación Saludable y los octógonos de advertencia). Los talleres, los suplementos o los controles de peso actúan sobre individuos y tienen menor alcance poblacional.",
+      "comentario": "Frente al aumento de la obesidad infantil en un entorno con amplio acceso a ultraprocesados, pocas áreas deportivas y escuelas sin programas de alimentación saludable, la intervención de salud pública más sostenida es actuar sobre el entorno mediante políticas: regular la publicidad y la comercialización de alimentos procesados (en el Perú, la Ley de Alimentación Saludable y los octógonos de advertencia). Los talleres, los suplementos o los controles de peso actúan sobre individuos y tienen menor alcance poblacional.",
+      "tema": "Obesidad infantil: regular la publicidad de alimentos procesados",
+      "año": 2025
+    },
+    {
+      "id": "SP-184",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Durante una visita programada a un establecimiento de salud la responsable de inmunizaciones revisa la documentación para contrastar las metas programadas, levanta un acta y luego realiza una reunión con todo el equipo para analizar problemas y proponer acciones de mejora ante metas bajas. ¿Qué técnica de control está aplicando?",
+      "opciones": [
+        "Inspección",
+        "Supervisión",
+        "Monitoreo",
+        "Evaluación",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La supervisión es la técnica de control en la que un responsable acude al establecimiento, revisa y compara lo programado con lo ejecutado, levanta un acta y, sobre todo, acompaña al equipo para analizar los problemas y proponer acciones de mejora (asistencia técnica y capacitación en servicio). El monitoreo es el seguimiento continuo de indicadores durante la ejecución, la evaluación mide resultados al final de un periodo, y la inspección verifica el cumplimiento de normas sin fines de asistencia técnica.",
+      "comentario": "La supervisión es la técnica de control en la que un responsable acude al establecimiento, revisa y compara lo programado con lo ejecutado, levanta un acta y, sobre todo, acompaña al equipo para analizar los problemas y proponer acciones de mejora (asistencia técnica y capacitación en servicio). El monitoreo es el seguimiento continuo de indicadores durante la ejecución, la evaluación mide resultados al final de un periodo, y la inspección verifica el cumplimiento de normas sin fines de asistencia técnica.",
+      "tema": "Técnica de control: supervisión",
+      "año": 2025
+    },
+    {
+      "id": "SP-185",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 52 años, consulta por cefalea y mareo constante. Se diagnostica hipertensión arterial. Su IMC es mayor de 35. Se realiza visita domiciliaria evidenciándose acceso limitado a alimentos saludables, sedentarismo y dificultad para el seguimiento de indicaciones médicas por ser quechua hablante. ¿Cuál de los siguientes es un determinante social que contribuye a la situación de salud de María?",
+      "opciones": [
+        "Acceso a tecnología médica",
+        "Edad avanzada",
+        "Historia familiar de hipertensión",
+        "Nivel socioeconómico bajo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Mujer de 52 años, obesa, hipertensa y quechua hablante, con limitaciones para acceder a alimentos saludables y servicios médicos adecuados, refleja el impacto de los determinantes sociales en salud. Fisiopatológicamente, los factores socioeconómicos bajos condicionan menor acceso a educación sanitaria, alimentación balanceada y actividad física, aumentando el riesgo de enfermedades crónicas no transmisibles como la hipertensión. Además, las barreras lingüísticas reducen la adherencia terapéutica y el aprove chamiento del sistema de salud. Por tanto, el principal determinante social que contribuye a su situación es el nivel socioeconómico bajo, que engloba carencias materiales y educativas.",
+      "comentario": "Mujer de 52 años, obesa, hipertensa y quechua hablante, con limitaciones para acceder a alimentos saludables y servicios médicos adecuados, refleja el impacto de los determinantes sociales en salud. Fisiopatológicamente, los factores socioeconómicos bajos condicionan menor acceso a educación sanitaria, alimentación balanceada y actividad física, aumentando el riesgo de enfermedades crónicas no transmisibles como la hipertensión. Además, las barreras lingüísticas reducen la adherencia terapéutica y el aprove chamiento del sistema de salud. Por tanto, el principal determinante social que contribuye a su situación es el nivel socioeconómico bajo, que engloba carencias materiales y educativas.",
+      "tema": "Determinante social de la salud: nivel socioeconómico bajo",
+      "año": 2025
+    },
+    {
+      "id": "SP-186",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Según OMS/OPS. ¿Cuál de las siguientes afirmaciones corresponde a un mito relacionado con la promoción de la salud?",
+      "opciones": [
+        "Reconoce la influencia de los determinantes sociales",
+        "Se articula con el enfoque biopsicosocial",
+        "Limita la autonomía al imponer los estilos de vida",
+        "Prioriza intervenciones poblacionales costo- efectivas",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La promoción de la salud, según OMS/OPS, se fundamenta en la participación activa de la población, los determinantes sociales y el empoderamiento comunitario. Un mito frecuente es considerar que “limita la autonomía al imponer estilos de vida”, lo cual es falso, ya que su enfoque no impone conductas, sino que facilita decisiones informadas y ambientes saludables. Fisiopatológicamente, la salud no depende solo del individuo, sino del entorno social, económico y político. Por tanto, imponer hábitos contradice el principio de participación voluntaria y equidad. Las políticas de promoción buscan generar condiciones que favorezcan opciones saludables, no imponerlas.",
+      "comentario": "La promoción de la salud, según OMS/OPS, se fundamenta en la participación activa de la población, los determinantes sociales y el empoderamiento comunitario. Un mito frecuente es considerar que “limita la autonomía al imponer estilos de vida”, lo cual es falso, ya que su enfoque no impone conductas, sino que facilita decisiones informadas y ambientes saludables. Fisiopatológicamente, la salud no depende solo del individuo, sino del entorno social, económico y político. Por tanto, imponer hábitos contradice el principio de participación voluntaria y equidad. Las políticas de promoción buscan generar condiciones que favorezcan opciones saludables, no imponerlas.",
+      "tema": "Promoción de la salud: el mito de que impone estilos de vida",
+      "año": 2025
+    },
+    {
+      "id": "SP-187",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En una comunidad indígena rural ubicada a más de 24 horas de navegación fluvial del centro de salud más cercano, se tiene 4 niños menores de seis meses de edad a quienes se programa visita domiciliaria mensual para fomentar la lactancia materna exclusiva. Considerando que el equipo del centro de salud realiza visita trimestral a la comunidad, ¿Qué estrategia será la más efectiva para la promoción de la lactancia materna exclusiva?",
+      "opciones": [
+        "Promover la creación de un lactario comunitario",
+        "Entregar cartillas informativas sobre técnicas de lactancia",
+        "Programar consulta mensual en el centro de salud",
+        "Capacitar agentes comunitarios de salud",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En contextos rurales aislados con limitado acceso a centros de salud, la intervención más efectiva y sostenible es capacitar agentes comunitarios de salud, ya que actúan como multiplicadores del conocimiento y promotores permanentes de la lactancia materna exclusiva. Esta estrategia fortalece la autonomía local, permite visitas domiciliarias regulares y asegura continuidad educativa incluso en ausencia del personal profesional. Otras opciones, como lactarios o cartillas, son poco viables por falta de recursos o bajo impacto conductual. La capacitación comunitaria está alineada con el enfoque de atención primaria y los determinantes sociales de la salud.",
+      "comentario": "En contextos rurales aislados con limitado acceso a centros de salud, la intervención más efectiva y sostenible es capacitar agentes comunitarios de salud, ya que actúan como multiplicadores del conocimiento y promotores permanentes de la lactancia materna exclusiva. Esta estrategia fortalece la autonomía local, permite visitas domiciliarias regulares y asegura continuidad educativa incluso en ausencia del personal profesional. Otras opciones, como lactarios o cartillas, son poco viables por falta de recursos o bajo impacto conductual. La capacitación comunitaria está alineada con el enfoque de atención primaria y los determinantes sociales de la salud.",
+      "tema": "Comunidad aislada: capacitar agentes comunitarios para promover la lactancia",
+      "año": 2025
+    },
+    {
+      "id": "SP-188",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Durante una pandemia, un hospital cuenta con solo dos ventiladores para cuatro pacientes. Dos tienen alta probabilidad de recuperación y los otros dos, enfermedades avanzadas. ¿Qué criterio ético se debe aplicar?",
+      "opciones": [
+        "Priorizar a quienes tienen más probabilidad de recuperación",
+        "Asignar los equipos a quienes tengan más recursos económicos",
+        "Asignar al que llegó primero al hospital",
+        "Asignar los ventiladores al azar para garantizar igualdad",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El dilema ético descrito corresponde a un contexto de asignación de recursos escasos en una emergencia sanitaria, donde deben prevalecer los principios de justicia distributiva y beneficencia. En estas circunstancias, el criterio ético más aceptado es el utilitarista, que busca maximizar el beneficio global priorizando a los pacientes con mayor probabilidad de recuperación o mejor pronóstico vital. Esto se justifica porque permite salvar la mayor cantidad de vidas o años de vida ajustados por calidad. No deben usarse criterios económicos ni de llegada, pues serían discriminatorios o arbitrarios.",
+      "comentario": "El dilema ético descrito corresponde a un contexto de asignación de recursos escasos en una emergencia sanitaria, donde deben prevalecer los principios de justicia distributiva y beneficencia. En estas circunstancias, el criterio ético más aceptado es el utilitarista, que busca maximizar el beneficio global priorizando a los pacientes con mayor probabilidad de recuperación o mejor pronóstico vital. Esto se justifica porque permite salvar la mayor cantidad de vidas o años de vida ajustados por calidad. No deben usarse criterios económicos ni de llegada, pues serían discriminatorios o arbitrarios.",
+      "tema": "Recursos escasos en una pandemia: priorizar la mayor probabilidad de recuperación",
+      "año": 2025
+    },
+    {
+      "id": "SP-189",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Cuando en el objetivo general de un estudio se emplean verbos como evaluar, controlar o calibrar, el nivel de investigación es:",
+      "opciones": [
+        "Descriptivo",
+        "Aplicativo",
+        "Predictivo",
+        "Explicativo",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Cuando los objetivos de un estudio utilizan verbos como evaluar, controlar o calibrar, se hace referencia a la aplicación práctica del conocimiento científico, orientada a la resolución de un problema específico. Este tipo de diseño corresponde al nivel aplicativo, pues busca trasladar los hallazgos teóricos o descriptivos hacia la práctica mediante la intervención o el perfeccionamiento de un procedimiento o instrumento. No se limita a describir fenómenos (como en el nivel descriptivo) ni a establecer causas (como en el explicativo), sino que busca optimizar resultados o medir eficacia.",
+      "comentario": "Cuando los objetivos de un estudio utilizan verbos como evaluar, controlar o calibrar, se hace referencia a la aplicación práctica del conocimiento científico, orientada a la resolución de un problema específico. Este tipo de diseño corresponde al nivel aplicativo, pues busca trasladar los hallazgos teóricos o descriptivos hacia la práctica mediante la intervención o el perfeccionamiento de un procedimiento o instrumento. No se limita a describir fenómenos (como en el nivel descriptivo) ni a establecer causas (como en el explicativo), sino que busca optimizar resultados o medir eficacia.",
+      "tema": "Niveles de investigación: aplicativo",
+      "año": 2025
+    },
+    {
+      "id": "SP-190",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En una comunidad agrícola y ganadera con baja cobertura sanitaria, se observa alta anemia por deficiencia de hierro en menores de cinco años. Se identifica escaso conocimiento sobre nutrición infantil y baja adherencia a controles. ¿Qué estrategia de promoción priorizará?",
+      "opciones": [
+        "Implementar sesiones demostrativas sobre alimentación saludable para menores de cinco años",
+        "Capacitar a los profesionales de salud para el adecuado control de peso y talla de los niños",
+        "Difundir campañas de desparasitación infantil en medios de comunicación",
+        "Elaborar y distribuir folletos para prevención de anemia",
+        "Epinefrina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En comunidades agrícolas con alta anemia ferropénica infantil, el problema radica en los determinantes educativos y culturales más que en la falta absoluta de alimentos. Por ello, la estrategia de promoción de la salud más efectiva en primera fase es la educación participativa, mediante sesiones demostrativas sobre alimentación saludable, donde las madres aprenden prácticas concretas para mejorar la dieta con insumos locales ricos en hierro. Esta intervención genera empoderamiento y cambio sostenido de hábitos, base de la atención primaria. Acciones aisladas como folletos o campañas no modifican conductas.",
+      "comentario": "En comunidades agrícolas con alta anemia ferropénica infantil, el problema radica en los determinantes educativos y culturales más que en la falta absoluta de alimentos. Por ello, la estrategia de promoción de la salud más efectiva en primera fase es la educación participativa, mediante sesiones demostrativas sobre alimentación saludable, donde las madres aprenden prácticas concretas para mejorar la dieta con insumos locales ricos en hierro. Esta intervención genera empoderamiento y cambio sostenido de hábitos, base de la atención primaria. Acciones aisladas como folletos o campañas no modifican conductas.",
+      "tema": "Anemia infantil en zona rural: sesiones demostrativas de alimentación",
+      "año": 2025
+    },
+    {
+      "id": "SP-191",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En estudio multicéntrico sobre leishmaniasis (1,200 pacientes), se evalúa la asociación entre tipo de ocupación y forma clínica de la enfermedad. ¿Qué prueba estadística es la más adecuada para analizar la asociación entre variables categóricas?",
+      "opciones": [
+        "Prueba t de Student para muestras independientes",
+        "Prueba de chi-cuadrado",
+        "Regresión logística multivariada",
+        "ANOVA de una vía",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En este estudio se busca analizar la relación entre dos variables categóricas: tipo de ocupación y forma clínica de leishmaniasis. La prueba estadística indicada es el chi-cuadrado (χ²), que evalúa si existe una asociación significativa entre ambas variables nominales o ordinales. No aplica prueba t ni ANOVA, ya que estas se utilizan para variables cuantitativas. La regresión logística podría usarse en análisis multivariado posterior, pero no en la comparación bivariada inicial. Por ello, el chi-cuadrado es el método de elección en estudios de frecuencia y asociación categórica.",
+      "comentario": "En este estudio se busca analizar la relación entre dos variables categóricas: tipo de ocupación y forma clínica de leishmaniasis. La prueba estadística indicada es el chi-cuadrado (χ²), que evalúa si existe una asociación significativa entre ambas variables nominales o ordinales. No aplica prueba t ni ANOVA, ya que estas se utilizan para variables cuantitativas. La regresión logística podría usarse en análisis multivariado posterior, pero no en la comparación bivariada inicial. Por ello, el chi-cuadrado es el método de elección en estudios de frecuencia y asociación categórica.",
+      "tema": "Asociación entre variables categóricas: prueba de chi-cuadrado",
+      "año": 2025
+    },
+    {
+      "id": "SP-192",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Un médico obliga a pacientes a grabar mensajes de agradecimiento y los publica, pese a ser advertido. ¿Acción adecuada?",
+      "opciones": [
+        "Incentivar a pacientes a denunciar",
+        "Mostrarse indiferente",
+        "Notificar al Consejo Médico Regional",
+        "Pedirle que grabe fuera del establecimiento",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El médico obliga a pacientes vulnerables a grabar mensajes, constituyendo transgresión ética grave contra derechos de autonomía, confidencialidad y dignidad. Además, persiste la conducta pese a advertencias previas, lo cual indica intencionalidad y conocimiento de la falta. Desde el punto de vista ético, se vulnera el principio de no maleficencia al generar daño moral y exposición indebida. Incentivar denuncias sería tardío y delega responsabilidad institucional. Mostrar indiferencia permite continuidad del abuso, agravando el daño reputacional del sistema. Pedir grabaciones fuera del establecimiento perpetúa el acto ilícito en otra sede. La acción correcta es activar mecanismos regulatorios formales. Por ello, la notificación al Consejo Regional del Colegio Médico permite investigación, sanción y protección de pacientes, garantizando estándares deontológicos.",
+      "comentario": "El médico obliga a pacientes vulnerables a grabar mensajes, constituyendo transgresión ética grave contra derechos de autonomía, confidencialidad y dignidad. Además, persiste la conducta pese a advertencias previas, lo cual indica intencionalidad y conocimiento de la falta. Desde el punto de vista ético, se vulnera el principio de no maleficencia al generar daño moral y exposición indebida. Incentivar denuncias sería tardío y delega responsabilidad institucional. Mostrar indiferencia permite continuidad del abuso, agravando el daño reputacional del sistema. Pedir grabaciones fuera del establecimiento perpetúa el acto ilícito en otra sede. La acción correcta es activar mecanismos regulatorios formales. Por ello, la notificación al Consejo Regional del Colegio Médico permite investigación, sanción y protección de pacientes, garantizando estándares deontológicos.",
+      "tema": "Falta ética reiterada de un colega: notificar al Consejo Regional",
+      "año": 2025
     }
   ]
 }

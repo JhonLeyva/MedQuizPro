@@ -2144,6 +2144,215 @@
       "comentario": "En esta paciente que se presenta con dolor abdominal intenso, náuseas, vómitos, Murphy positivo y una ecografía donde se evidencia una vesícula con paredes engrosadas y un lito en bacinete, el diagnóstico es una colecistitis aguda. En pacientes jóvenes con colecistitis aguda y sin complicaciones significativas, como la descrita en este caso, la colecistectomía laparoscópica (Alternativa C) es el tratamiento de elección debido a sus beneficios en términos de recuperación, menos complicaciones postoperatorias, mejor resultado estético y menor estancia hospitalaria comparada con la colecistectomía convencional.",
       "tema": "Colecistitis aguda: colecistectomía laparoscópica",
       "año": 2024
+    },
+    {
+      "id": "CIR-114",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es la arteria de elección para el acceso vascular percutáneo en intervenciones para injertos arteriales?",
+      "opciones": [
+        "Carótida",
+        "Iliaca externa",
+        "Femoral común",
+        "Humeral Izquierda",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En procedimientos percutáneos para injertos arteriales, se prefiere una arteria accesible, de gran calibre y que permita un abordaje seguro y directo. La arteria femoral común es la más utilizada por su localización anatómica superficial, fácil palpación y trayectoria directa hacia los vasos ilíacos y aórticos. La carótida y la humeral no son de elección por su menor calibre y mayor riesgo de complicaciones. La iliaca externa, aunque viable, es de acceso más profundo y requiere técnicas más invasivas.",
+      "comentario": "En procedimientos percutáneos para injertos arteriales, se prefiere una arteria accesible, de gran calibre y que permita un abordaje seguro y directo. La arteria femoral común es la más utilizada por su localización anatómica superficial, fácil palpación y trayectoria directa hacia los vasos ilíacos y aórticos. La carótida y la humeral no son de elección por su menor calibre y mayor riesgo de complicaciones. La iliaca externa, aunque viable, es de acceso más profundo y requiere técnicas más invasivas.",
+      "tema": "Acceso vascular percutáneo: arteria femoral común",
+      "año": 2024
+    },
+    {
+      "id": "CIR-115",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 65 años desde hace 4 días presenta dolor y aumento de volumen de las extremidades inferiores a predominio derecho. Antecedente: postrado desde hace 6 meses por fractura de cadera izquierda, fumador crónico. Examen: pierna derecha con tumefacción masiva, edema fóvea (+), dolor y coloración blanquecina, signo de Homans (++). Ecografía dúplex positiva. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Tromboflebitis superficial",
+        "Flegmasía blanca dolorosa",
+        "Flegmasía cerúlea dolorosa",
+        "Linfedema agudo",
+        "Hipertensión arterial"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente postrado por fractura de cadera, con trombosis venosa profunda confirmada por dúplex, edema masivo doloroso de toda la pierna y coloración blanquecina: flegmasía alba dolens. Se debe a una trombosis iliofemoral extensa con espasmo arterial reflejo, sin isquemia establecida. Si la obstrucción venosa progresa y compromete la circulación, la pierna se vuelve cianótica y aparece la flegmasía cerúlea dolens, con riesgo de gangrena venosa. La tromboflebitis superficial afecta venas subcutáneas y no produce edema masivo.",
+      "comentario": "Paciente postrado por fractura de cadera, con trombosis venosa profunda confirmada por dúplex, edema masivo doloroso de toda la pierna y coloración blanquecina: flegmasía alba dolens. Se debe a una trombosis iliofemoral extensa con espasmo arterial reflejo, sin isquemia establecida. Si la obstrucción venosa progresa y compromete la circulación, la pierna se vuelve cianótica y aparece la flegmasía cerúlea dolens, con riesgo de gangrena venosa. La tromboflebitis superficial afecta venas subcutáneas y no produce edema masivo.",
+      "tema": "Flegmasía alba dolens",
+      "año": 2025
+    },
+    {
+      "id": "CIR-116",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 35 años chofer interprovincial desde hace 48 horas presenta dolor agudo perianal y fiebre alta. Examen: tumoración anal inflamatoria dolorosa de 2x2 cm, en hora 7, fluctuante. ¿Cuál es el tratamiento inicial de elección?",
+      "opciones": [
+        "Punción",
+        "Antibióticos",
+        "Baños de asiento",
+        "Drenaje",
+        "Amputación"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón joven con dolor perianal agudo, fiebre y masa fluctuante en región anal compatible con absceso perianal. El hallazgo de fluctuación indica colección purulenta, y la fiebre sugiere un proceso infeccioso activo. El tratamiento inicial de elección en un absceso perianal fluctuante es el drenaje quirúrgico inmediato, que permite eliminar el pus y controlar la infección. El uso exclusivo de antibióticos sin drenaje es inadecuado en casos con colección evidente. Los baños de asiento ayudan en etapas más tempranas o como medida coadyuvante tras el drenaje. Tu respuesta, “baños de asiento”, no es la indicada como manejo inicial.",
+      "comentario": "Varón joven con dolor perianal agudo, fiebre y masa fluctuante en región anal compatible con absceso perianal. El hallazgo de fluctuación indica colección purulenta, y la fiebre sugiere un proceso infeccioso activo. El tratamiento inicial de elección en un absceso perianal fluctuante es el drenaje quirúrgico inmediato, que permite eliminar el pus y controlar la infección. El uso exclusivo de antibióticos sin drenaje es inadecuado en casos con colección evidente. Los baños de asiento ayudan en etapas más tempranas o como medida coadyuvante tras el drenaje. Tu respuesta, “baños de asiento”, no es la indicada como manejo inicial.",
+      "tema": "Absceso perianal fluctuante: drenaje",
+      "año": 2025
+    },
+    {
+      "id": "CIR-117",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 45 años que acude a emergencia del hospital refiriendo dolor súbito en región anal después de subir escaleras. Examen: región anal, tumor púrpura de 1 cm de diámetro a horas 5. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Escleroterapia",
+        "Hospitalización",
+        "Trombectomía",
+        "Esfinterotomía",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Dolor anal súbito tras un esfuerzo con un nódulo violáceo perianal de 1 cm: trombosis hemorroidal externa. Si el paciente consulta en las primeras 72 horas y el dolor es intenso, el tratamiento de elección es la trombectomía (escisión del trombo o de la hemorroide trombosada) con anestesia local, que alivia rápido el dolor y reduce las recurrencias. Pasadas las 72 horas se prefiere el manejo conservador (analgésicos, baños de asiento, laxantes). La escleroterapia se usa en hemorroides internas y la esfinterotomía en la fisura anal.",
+      "comentario": "Dolor anal súbito tras un esfuerzo con un nódulo violáceo perianal de 1 cm: trombosis hemorroidal externa. Si el paciente consulta en las primeras 72 horas y el dolor es intenso, el tratamiento de elección es la trombectomía (escisión del trombo o de la hemorroide trombosada) con anestesia local, que alivia rápido el dolor y reduce las recurrencias. Pasadas las 72 horas se prefiere el manejo conservador (analgésicos, baños de asiento, laxantes). La escleroterapia se usa en hemorroides internas y la esfinterotomía en la fisura anal.",
+      "tema": "Trombosis hemorroidal externa aguda: trombectomía",
+      "año": 2025
+    },
+    {
+      "id": "CIR-118",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 25 años transferido de provincia, con diagnóstico de plastrón apendicular desde hace 7 días con terapia antibiótica. Evolución estable. Examen: PA 120/70 mmHg, FC 90 X', FR 24 X', T 37 °C. Abdomen RHA presentes, blando, no reacción peritoneal, tumoración de 3x3 cm. Ecografía: no absceso localizado. ¿Cuál es la indicación inicial a seguir a continuación?",
+      "opciones": [
+        "Apendicetomía Laparoscópica",
+        "Laparotomía exploratoria",
+        "Apendicetomía convencional",
+        "Observación",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Plastrón apendicular de 7 días en tratamiento antibiótico, clínicamente estable, sin signos peritoneales y sin absceso en la ecografía: se continúa el manejo conservador (antibióticos y observación), porque operar un plastrón formado aumenta el riesgo de lesionar asas y de complicaciones. Si aparece un absceso se drena por vía percutánea, y si hay peritonitis o deterioro se opera. La apendicectomía diferida (a intervalo) se valora semanas después.",
+      "comentario": "Plastrón apendicular de 7 días en tratamiento antibiótico, clínicamente estable, sin signos peritoneales y sin absceso en la ecografía: se continúa el manejo conservador (antibióticos y observación), porque operar un plastrón formado aumenta el riesgo de lesionar asas y de complicaciones. Si aparece un absceso se drena por vía percutánea, y si hay peritonitis o deterioro se opera. La apendicectomía diferida (a intervalo) se valora semanas después.",
+      "tema": "Plastrón apendicular estable sin absceso: manejo conservador",
+      "año": 2025
+    },
+    {
+      "id": "CIR-119",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 27 años que desde hace 2 días presenta dolor abdominal de inicio en epigastrio y luego en flanco derecho. Examen físico: abdomen signo de Blumberg (+). Ecografía no concluyente y TAC no disponible; tiene un score de 9 en la AIR. ¿Cuál es la indicación?",
+      "opciones": [
+        "Cirugía sin más estudios",
+        "Colonoscopía urgente",
+        "Antibióticos y observación",
+        "RMN con contraste",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer joven con dolor que migra de epigastrio a fosa ilíaca derecha y signo de Blumberg: sospecha de apendicitis. La escala AIR (Appendicitis Inflammatory Response) clasifica de 0-4 como riesgo bajo, 5-8 intermedio y 9-12 alto. Con un puntaje de 9 (probabilidad alta) y sin posibilidad de tomografía, se indica la cirugía (apendicectomía) sin más estudios, para no retrasar el tratamiento y evitar la perforación. La observación con antibióticos se reserva para casos de riesgo intermedio mientras se completan estudios.",
+      "comentario": "Mujer joven con dolor que migra de epigastrio a fosa ilíaca derecha y signo de Blumberg: sospecha de apendicitis. La escala AIR (Appendicitis Inflammatory Response) clasifica de 0-4 como riesgo bajo, 5-8 intermedio y 9-12 alto. Con un puntaje de 9 (probabilidad alta) y sin posibilidad de tomografía, se indica la cirugía (apendicectomía) sin más estudios, para no retrasar el tratamiento y evitar la perforación. La observación con antibióticos se reserva para casos de riesgo intermedio mientras se completan estudios.",
+      "tema": "Apendicitis con puntaje AIR alto y ecografía no concluyente: cirugía",
+      "año": 2025
+    },
+    {
+      "id": "CIR-120",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "La prueba de Trendelenburg es una maniobra exploratoria en la valoración de:",
+      "opciones": [
+        "Patología oclusiva de troncos superficiales",
+        "El síndrome de claudicación intermitente",
+        "Las estasis linfáticas crónicas de miembros inferiores",
+        "Insuficiencia venosa de los miembros inferiores",
+        "Sepsis"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La prueba de Trendelenburg (de Brodie-Trendelenburg) valora la insuficiencia venosa de los miembros inferiores: con el paciente acostado y la pierna elevada se vacían las venas, se coloca un torniquete en el muslo y se pide que se ponga de pie. Si las várices se llenan rápido desde arriba al retirar el torniquete, hay insuficiencia de la válvula safenofemoral; si se llenan con el torniquete puesto, hay incompetencia de las venas perforantes. Hoy se complementa con la ecografía Doppler.",
+      "comentario": "La prueba de Trendelenburg (de Brodie-Trendelenburg) valora la insuficiencia venosa de los miembros inferiores: con el paciente acostado y la pierna elevada se vacían las venas, se coloca un torniquete en el muslo y se pide que se ponga de pie. Si las várices se llenan rápido desde arriba al retirar el torniquete, hay insuficiencia de la válvula safenofemoral; si se llenan con el torniquete puesto, hay incompetencia de las venas perforantes. Hoy se complementa con la ecografía Doppler.",
+      "tema": "Prueba de Trendelenburg: insuficiencia venosa",
+      "año": 2025
+    },
+    {
+      "id": "CIR-121",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 28 años, desde hace 7 días presenta dolor al defecar. Tacto rectal: hipertonía de esfínter anal. Anoscopía: úlcera de 1 cm en cara lateral del ano. Antecedente: TB pulmonar en tratamiento. ¿Cuál es la causa más probable de la úlcera?",
+      "opciones": [
+        "Fístula criptoglándular",
+        "Sífilis",
+        "Leucemia",
+        "Tuberculosis",
+        "Neumonía adquirida"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta una úlcera anal de 1 cm con hipertonía esfinteriana y antecedente de tuberculosis pulmonar, lo que orienta hacia una etiología tuberculosa. La tuberculosis extrapulmonar puede afectar el canal anal mediante diseminación hematógena o por extensión directa de lesiones intestinales. Las úlceras tuberculosas suelen localizarse en la cara lateral o posterior del ano, con bordes irregulares e indurados, y acompañarse de síntomas locales como dolor y sangrado. El diagnóstico se confirma con biopsia y baciloscopia positiva. Es clave mantener el tratamiento antituberculoso sistémico y evitar manipulación quirúrgica innecesaria.",
+      "comentario": "La paciente presenta una úlcera anal de 1 cm con hipertonía esfinteriana y antecedente de tuberculosis pulmonar, lo que orienta hacia una etiología tuberculosa. La tuberculosis extrapulmonar puede afectar el canal anal mediante diseminación hematógena o por extensión directa de lesiones intestinales. Las úlceras tuberculosas suelen localizarse en la cara lateral o posterior del ano, con bordes irregulares e indurados, y acompañarse de síntomas locales como dolor y sangrado. El diagnóstico se confirma con biopsia y baciloscopia positiva. Es clave mantener el tratamiento antituberculoso sistémico y evitar manipulación quirúrgica innecesaria.",
+      "tema": "Úlcera anal lateral: causa secundaria (tuberculosis)",
+      "año": 2025
+    },
+    {
+      "id": "CIR-122",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 32 años con dolor abdominal de 2 horas. Examen: hernia umbilical de 4 cm dolorosa e irreductible, TAC: sin signos de obstrucción ni isquemia. La hernia se reduce manualmente, desaparece el dolor. ¿Cuál es el siguiente paso?",
+      "opciones": [
+        "Alta con terapia antibiótica",
+        "Continuar la observación",
+        "Cirugía electiva",
+        "Cirugía de emergencia",
+        "Alta médica con indicaciones"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente con hernia umbilical dolorosa e irreductible, sin signos tomográficos de isquemia ni obstrucción, que se reduce manualmente con alivio total del dolor, corresponde a una hernia umbilical encarcelada reducida. La reducción exitosa indica que no hubo compromiso vascular ni necrosis intestinal, por lo que no se requiere cirugía de emergencia. Sin embargo, el riesgo de recurrencia y nueva incarceración persiste. Fisiopatológicamente, el defecto fascial en la línea alba permite la protrusión del contenido abdominal, que puede quedar atrapado. La conducta adecuada es programar una hernioplastia electiva, tras descartar complicaciones y estabilizar al paciente.",
+      "comentario": "Paciente con hernia umbilical dolorosa e irreductible, sin signos tomográficos de isquemia ni obstrucción, que se reduce manualmente con alivio total del dolor, corresponde a una hernia umbilical encarcelada reducida. La reducción exitosa indica que no hubo compromiso vascular ni necrosis intestinal, por lo que no se requiere cirugía de emergencia. Sin embargo, el riesgo de recurrencia y nueva incarceración persiste. Fisiopatológicamente, el defecto fascial en la línea alba permite la protrusión del contenido abdominal, que puede quedar atrapado. La conducta adecuada es programar una hernioplastia electiva, tras descartar complicaciones y estabilizar al paciente.",
+      "tema": "Hernia umbilical encarcelada reducida sin complicaciones: cirugía electiva",
+      "año": 2025
+    },
+    {
+      "id": "CIR-123",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 45 años con obesidad y litiasis vesicular, presenta dolor en hipocondrio derecho, fiebre y leucocitosis (18,000). Diagnóstico: colecistitis aguda complicada. ¿Qué microorganismos deben ser cubiertos por la terapia antibiótica empírica inicial ?",
+      "opciones": [
+        "Gramnegativos",
+        "Gramnegativos y anaerobios",
+        "Grampositivos",
+        "Anaerobios y grampositivos",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con obesidad y litiasis vesicular que desarrolla fiebre, dolor en hipocondrio derecho y leucocitosis presenta un cuadro típico de colecistitis aguda complicada, generalmente por obstrucción del conducto cístico y proliferación bacteriana. Los agentes más frecuentes son enterobacterias gramnegativas (E. coli, Klebsiella, Enterobacter) y anaerobios (Bacteroides fragilis, Clostridium). Por ello, la terapia empírica inicial debe cubrir ambos grupos, utilizando esquemas como ceftriaxona más metronidazol o piperacilina/tazobactam. Los grampositivos tienen menor implicancia clínica. Esta cobertura mixta previene la progresión a sepsis o absceso pericolecístico.",
+      "comentario": "Paciente con obesidad y litiasis vesicular que desarrolla fiebre, dolor en hipocondrio derecho y leucocitosis presenta un cuadro típico de colecistitis aguda complicada, generalmente por obstrucción del conducto cístico y proliferación bacteriana. Los agentes más frecuentes son enterobacterias gramnegativas (E. coli, Klebsiella, Enterobacter) y anaerobios (Bacteroides fragilis, Clostridium). Por ello, la terapia empírica inicial debe cubrir ambos grupos, utilizando esquemas como ceftriaxona más metronidazol o piperacilina/tazobactam. Los grampositivos tienen menor implicancia clínica. Esta cobertura mixta previene la progresión a sepsis o absceso pericolecístico.",
+      "tema": "Colecistitis aguda complicada: cubrir gramnegativos y anaerobios",
+      "año": 2025
+    },
+    {
+      "id": "CIR-124",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Niño de 6 años sufre accidente de tránsito hace 2 horas. Dolor abdominal, abdomen distendido, Hto 44%, FAST: líquido libre perihepático. TAC: hematoma subcapsular hepático de 2 cm. ¿Qué indicación es la más apropiada?",
+      "opciones": [
+        "Paracentesis diagnóstica",
+        "Observación continua",
+        "Transfusión de un paquete globular",
+        "Laparotomía exploratoria",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El trauma hepático en pediatría suele ser consecuencia de contusiones cerradas, como accidentes de tránsito. El hematoma subcapsular hepático de 2 cm sin inestabilidad hemodinámica ni signos de hemorragia activa corresponde a un trauma hepático grado I–II (leve) según la clasificación de la AAST. En estos casos, el manejo es no quirúrgico, con observación continua, control hemodinámico, reposo y monitoreo del hematocrito, reservando la laparotomía para casos con hemoperitoneo masivo o shock refractario. El Hto estable (44%) y el líquido libre escaso en FAST apoyan la conducta conservadora.",
+      "comentario": "El trauma hepático en pediatría suele ser consecuencia de contusiones cerradas, como accidentes de tránsito. El hematoma subcapsular hepático de 2 cm sin inestabilidad hemodinámica ni signos de hemorragia activa corresponde a un trauma hepático grado I–II (leve) según la clasificación de la AAST. En estos casos, el manejo es no quirúrgico, con observación continua, control hemodinámico, reposo y monitoreo del hematocrito, reservando la laparotomía para casos con hemoperitoneo masivo o shock refractario. El Hto estable (44%) y el líquido libre escaso en FAST apoyan la conducta conservadora.",
+      "tema": "Trauma hepático leve en el niño estable: manejo no operatorio",
+      "año": 2025
     }
   ]
 }

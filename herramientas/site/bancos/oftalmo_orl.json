@@ -985,6 +985,63 @@
       "comentario": "El desprendimiento de retina cursa con destellos, moscas volantes y pérdida de campo visual en forma de “cortina”. Factores de riesgo incluyen miopía severa. El glaucoma genera dolor ocular y aumento del tono; la catarata es progresiva y no aguda; la luxación del cristalino afecta enfoque visual, sin sombra en el campo visual.",
       "tema": "Desprendimiento de retina",
       "año": 2024
+    },
+    {
+      "id": "OFT-053",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Niño de 10 años que después de bañarse en piscina pública presenta ardor en los ojos y enrojecimiento. Examen: hiperemia conjuntival. No hay afectación visual. ¿Qué tipo de conjuntivitis padece?",
+      "opciones": [
+        "Alérgica",
+        "Química",
+        "Bacteriana",
+        "Viral",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Niño que tras exposición a piscina presenta hiperemia conjuntival y ardor ocular sin compromiso visual. El antecedente inmediato de baño en piscina apunta a una causa ambiental. La conjuntivitis química por cloro es la forma más probable, ya que el cloro puede generar irritación directa de la mucosa conjuntival, generando ardor y enrojecimiento ocular agudo. La conjuntivitis alérgica suele asociarse a prurito ocular intenso, lagrimeo claro, papilas y antecedentes atópicos, lo cual no se menciona en el caso. La bacteriana suele cursar con secreción purulenta; la viral con lagrimeo acuoso y adenopatía preauricular.",
+      "comentario": "Niño que tras exposición a piscina presenta hiperemia conjuntival y ardor ocular sin compromiso visual. El antecedente inmediato de baño en piscina apunta a una causa ambiental. La conjuntivitis química por cloro es la forma más probable, ya que el cloro puede generar irritación directa de la mucosa conjuntival, generando ardor y enrojecimiento ocular agudo. La conjuntivitis alérgica suele asociarse a prurito ocular intenso, lagrimeo claro, papilas y antecedentes atópicos, lo cual no se menciona en el caso. La bacteriana suele cursar con secreción purulenta; la viral con lagrimeo acuoso y adenopatía preauricular.",
+      "tema": "Conjuntivitis química por cloro de piscina",
+      "año": 2025
+    },
+    {
+      "id": "OFT-054",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 60 años con diagnóstico de glaucoma por el uso prolongado de corticoides tópicos. ¿Cuál es el tipo de glaucoma que padece?",
+      "opciones": [
+        "Secundario de ángulo abierto",
+        "Facogénico",
+        "Neovascular",
+        "Primario de ángulo abierto",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El uso prolongado de corticoides (sobre todo tópicos oftálmicos) produce un glaucoma cortisónico: los corticoides aumentan la resistencia al flujo del humor acuoso en la malla trabecular y elevan la presión intraocular con el ángulo abierto. Por tener una causa identificable es un glaucoma secundario de ángulo abierto. El primario de ángulo abierto no tiene causa conocida; el facogénico se debe al cristalino y el neovascular a la neoformación de vasos por isquemia retiniana.",
+      "comentario": "El uso prolongado de corticoides (sobre todo tópicos oftálmicos) produce un glaucoma cortisónico: los corticoides aumentan la resistencia al flujo del humor acuoso en la malla trabecular y elevan la presión intraocular con el ángulo abierto. Por tener una causa identificable es un glaucoma secundario de ángulo abierto. El primario de ángulo abierto no tiene causa conocida; el facogénico se debe al cristalino y el neovascular a la neoformación de vasos por isquemia retiniana.",
+      "tema": "Glaucoma por corticoides: secundario de ángulo abierto",
+      "año": 2025
+    },
+    {
+      "id": "OFT-055",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 23 años, soldador, presenta sensación de cuerpo extraño en ojo derecho. Examen: esquirla corneal, agudeza visual conservada. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Lavado abundante, antibiótico y parche ocular",
+        "Retiro de cuerpo extraño, antibiótico y parche ocular",
+        "Ungüento antibiótico y parche ocular",
+        "Antihistamínico, antibiótico y parche ocular",
+        "Ceftriaxona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Soldador con una esquirla corneal superficial y agudeza visual conservada: el tratamiento es retirar el cuerpo extraño bajo anestesia tópica (con aguja o fresa, en lámpara de hendidura), incluido el anillo de óxido si lo hay, y luego aplicar antibiótico tópico para prevenir la queratitis, con control en 24 horas. El lavado solo no retira un cuerpo extraño incrustado en la córnea. Si hubiera sospecha de perforación o cuerpo extraño intraocular, no se retira y se deriva de urgencia.",
+      "comentario": "Soldador con una esquirla corneal superficial y agudeza visual conservada: el tratamiento es retirar el cuerpo extraño bajo anestesia tópica (con aguja o fresa, en lámpara de hendidura), incluido el anillo de óxido si lo hay, y luego aplicar antibiótico tópico para prevenir la queratitis, con control en 24 horas. El lavado solo no retira un cuerpo extraño incrustado en la córnea. Si hubiera sospecha de perforación o cuerpo extraño intraocular, no se retira y se deriva de urgencia.",
+      "tema": "Cuerpo extraño corneal superficial: retiro y antibiótico tópico",
+      "año": 2025
     }
   ]
 }

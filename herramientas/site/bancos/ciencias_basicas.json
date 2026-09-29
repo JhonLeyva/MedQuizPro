@@ -1479,6 +1479,272 @@
       "comentario": "La digestión de proteínas comienza en el estómago, donde la pepsina, una enzima proteolítica producida en su forma inactiva como pepsinógeno, se activa en presencia de ácido gástrico. Esta enzima es responsable de descomponer las proteínas en péptidos más pequeños, facilitando su posterior digestión en el intestino delgado.",
       "tema": "Digestión de proteínas: pepsina",
       "año": 2024
+    },
+    {
+      "id": "CB-079",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes enzimas con diversas funciones en el metabolismo protegen al organismo contra el daño por radicales libres?",
+      "opciones": [
+        "Oxidasas",
+        "Oxigenasas",
+        "Hidroperoxidasas",
+        "Deshidrogenasas",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las hidroperoxidasas (peroxidasas y catalasa) protegen al organismo frente a los peróxidos y los radicales libres: descomponen el peróxido de hidrógeno y los peróxidos lipídicos generados en el metabolismo, evitando el estrés oxidativo. Las oxidasas y deshidrogenasas transfieren electrones o hidrógeno en reacciones de oxidación-reducción, y las oxigenasas incorporan oxígeno a los sustratos; ninguna tiene como función principal la protección antioxidante.",
+      "comentario": "Las hidroperoxidasas (peroxidasas y catalasa) protegen al organismo frente a los peróxidos y los radicales libres: descomponen el peróxido de hidrógeno y los peróxidos lipídicos generados en el metabolismo, evitando el estrés oxidativo. Las oxidasas y deshidrogenasas transfieren electrones o hidrógeno en reacciones de oxidación-reducción, y las oxigenasas incorporan oxígeno a los sustratos; ninguna tiene como función principal la protección antioxidante.",
+      "tema": "Hidroperoxidasas: protección frente a los radicales libres",
+      "año": 2024
+    },
+    {
+      "id": "CB-080",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 35 años, acude a una posta médica por una herida cortante. Durante el proceso de reparación normal. ¿Cuál es la célula principal con función en la cicatrización?",
+      "opciones": [
+        "Fibrosina",
+        "Fibrocito",
+        "Miofibroblasto",
+        "Fibroblasto",
+        "Clindamicina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El fibroblasto es la célula clave en la cicatrización, ya que es responsable de la síntesis de colágeno y otros componentes de la matriz extracelular, fundamentales para la reparación tisular. Los miofibroblastos contribuyen a la contracción de la herida en etapas posteriores, mientras que los fibrocitos son fibroblastos inactivos. La fibrosina no es una célula involucrada en este proceso.",
+      "comentario": "El fibroblasto es la célula clave en la cicatrización, ya que es responsable de la síntesis de colágeno y otros componentes de la matriz extracelular, fundamentales para la reparación tisular. Los miofibroblastos contribuyen a la contracción de la herida en etapas posteriores, mientras que los fibrocitos son fibroblastos inactivos. La fibrosina no es una célula involucrada en este proceso.",
+      "tema": "Cicatrización: el fibroblasto",
+      "año": 2024
+    },
+    {
+      "id": "CB-081",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 20 años presenta hormigueo y adormecimiento de lengua y labios, posterior a la infiltración de xilocaína al 2% para exéresis de lipoma, Antecedente: Niega alergias. Examen: FC 90X’, PA 90/60 mmHg, SatO₂ 90%; se encuentra desorientada. ¿Cuál es el tratamiento inicial indicado?",
+      "opciones": [
+        "Midazolam",
+        "Hidrocortisona",
+        "Benzodiazepina",
+        "Oxígeno",
+        "Ceftriaxona"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Hormigueo peribucal y de la lengua, desorientación, hipotensión y SatO₂ de 90 % tras infiltrar lidocaína: toxicidad sistémica por anestésicos locales. Lo primero es detener la administración, pedir ayuda y asegurar la vía aérea con oxígeno al 100 %, porque la hipoxia y la acidosis agravan la toxicidad neurológica y cardiaca. Si aparecen convulsiones se usan benzodiacepinas, y ante toxicidad grave o colapso cardiovascular se administra emulsión lipídica al 20 %. La hidrocortisona no tiene papel: no es una reacción alérgica.",
+      "comentario": "Hormigueo peribucal y de la lengua, desorientación, hipotensión y SatO₂ de 90 % tras infiltrar lidocaína: toxicidad sistémica por anestésicos locales. Lo primero es detener la administración, pedir ayuda y asegurar la vía aérea con oxígeno al 100 %, porque la hipoxia y la acidosis agravan la toxicidad neurológica y cardiaca. Si aparecen convulsiones se usan benzodiacepinas, y ante toxicidad grave o colapso cardiovascular se administra emulsión lipídica al 20 %. La hidrocortisona no tiene papel: no es una reacción alérgica.",
+      "tema": "Toxicidad por anestésicos locales: oxígeno primero",
+      "año": 2024
+    },
+    {
+      "id": "CB-082",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 58 años, con insuficiencia renal en terapia por pielonefritis aguda, presenta bruscamente convulsiones. ¿Cuál es el fármaco que esta más relacionado con este efecto adverso?",
+      "opciones": [
+        "Imipenem",
+        "Ceftriaxona",
+        "Amikacina",
+        "Ampicilina",
+        "Paracetamol"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente con insuficiencia renal tratado por pielonefritis que presenta convulsiones: el fármaco más relacionado es el imipenem. Este carbapenémico disminuye el umbral convulsivo al antagonizar los receptores GABA-A, y el riesgo aumenta cuando se acumula por falla renal sin ajustar la dosis o hay enfermedad del sistema nervioso central. La ceftriaxona, la amikacina y la ampicilina a dosis habituales rara vez producen convulsiones; la amikacina se asocia más a nefrotoxicidad y ototoxicidad.",
+      "comentario": "Paciente con insuficiencia renal tratado por pielonefritis que presenta convulsiones: el fármaco más relacionado es el imipenem. Este carbapenémico disminuye el umbral convulsivo al antagonizar los receptores GABA-A, y el riesgo aumenta cuando se acumula por falla renal sin ajustar la dosis o hay enfermedad del sistema nervioso central. La ceftriaxona, la amikacina y la ampicilina a dosis habituales rara vez producen convulsiones; la amikacina se asocia más a nefrotoxicidad y ototoxicidad.",
+      "tema": "Imipenem en insuficiencia renal: convulsiones",
+      "año": 2024
+    },
+    {
+      "id": "CB-083",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Escolar de 7 años presenta desde hace 30 minutos \"ronchas\" muy pruriginosas. En tratamiento de amigdalitis exudativa con amoxicilina. Examen: T 36°C, FC 78 X´, FR 18 X´, piel lesiones máculo papulares en forma de habones que desaparecen a la digitopresión en tronco y extremidades. Según la clasificación de Gell y Coombs. ¿A qué tipo de hipersensibilidad corresponde?",
+      "opciones": [
+        "IV",
+        "II",
+        "III",
+        "I",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Ronchas pruriginosas (habones) que aparecen a los 30 minutos de recibir amoxicilina corresponden a una urticaria aguda por reacción de hipersensibilidad tipo I de Gell y Coombs. Es inmediata y está mediada por IgE: el alérgeno se une a la IgE fijada en mastocitos y basófilos, que liberan histamina y otros mediadores. La tipo II es citotóxica por anticuerpos, la tipo III por inmunocomplejos y la tipo IV es tardía, mediada por linfocitos T.",
+      "comentario": "Ronchas pruriginosas (habones) que aparecen a los 30 minutos de recibir amoxicilina corresponden a una urticaria aguda por reacción de hipersensibilidad tipo I de Gell y Coombs. Es inmediata y está mediada por IgE: el alérgeno se une a la IgE fijada en mastocitos y basófilos, que liberan histamina y otros mediadores. La tipo II es citotóxica por anticuerpos, la tipo III por inmunocomplejos y la tipo IV es tardía, mediada por linfocitos T.",
+      "tema": "Urticaria aguda por amoxicilina: hipersensibilidad tipo I",
+      "año": 2024
+    },
+    {
+      "id": "CB-084",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 28 años, consulta por dolor abdominal, hematuria, anuria, náuseas y vómitos. Hace 24 horas estuvo trabajando en el jardín. Examen: FC 98 X´, equimosis, petequias. En el tobillo se observa una lesión necrótica. Hb 8.5 g/dl, creatinina 3.8mg/dl. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Antibiótico tópico",
+        "Hidratación enérgica",
+        "Corticoides",
+        "Transfusión sanguínea",
+        "Metronidazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente presenta un cuadro agudo con falla renal (anuria, creatinina elevada), hematuria, anemia y signos de hemorragia cutánea (petequias, equimosis), tras contacto reciente en el jardín. La lesión necrótica en el tobillo sugiere mordedura de araña Loxosceles (araña violinista), cuyo veneno causa hemólisis intravascular y necrosis cutánea. El tratamiento inicial consiste en una hidratación enérgica, para prevenir daño renal por mioglobinuria y hemoglobina libre. Los corticoides y transfusiones pueden indicarse en casos seleccionados, pero la base del tratamiento es el manejo de soporte y protección renal.",
+      "comentario": "El paciente presenta un cuadro agudo con falla renal (anuria, creatinina elevada), hematuria, anemia y signos de hemorragia cutánea (petequias, equimosis), tras contacto reciente en el jardín. La lesión necrótica en el tobillo sugiere mordedura de araña Loxosceles (araña violinista), cuyo veneno causa hemólisis intravascular y necrosis cutánea. El tratamiento inicial consiste en una hidratación enérgica, para prevenir daño renal por mioglobinuria y hemoglobina libre. Los corticoides y transfusiones pueden indicarse en casos seleccionados, pero la base del tratamiento es el manejo de soporte y protección renal.",
+      "tema": "Loxoscelismo cutáneo-visceral: hidratación enérgica",
+      "año": 2024
+    },
+    {
+      "id": "CB-085",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Al examinar una muestra de médula ósea, se observan células gigantes multinucleadas con signos de resorción. ¿Cómo se denominan estas células?",
+      "opciones": [
+        "Megacariocitos",
+        "Osteocitos",
+        "Osteoclastos",
+        "Osteoblastos",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las células gigantes multinucleadas que reabsorben el hueso son los osteoclastos. Derivan de la línea monocito-macrófago, se ubican en las lagunas de Howship y degradan la matriz ósea mediante enzimas y ácido. Los osteoblastos forman hueso y los osteocitos son osteoblastos maduros atrapados en la matriz. Los megacariocitos también son células grandes de la médula ósea, pero tienen un núcleo único multilobulado (poliploide) y producen plaquetas, no reabsorben hueso.",
+      "comentario": "Las células gigantes multinucleadas que reabsorben el hueso son los osteoclastos. Derivan de la línea monocito-macrófago, se ubican en las lagunas de Howship y degradan la matriz ósea mediante enzimas y ácido. Los osteoblastos forman hueso y los osteocitos son osteoblastos maduros atrapados en la matriz. Los megacariocitos también son células grandes de la médula ósea, pero tienen un núcleo único multilobulado (poliploide) y producen plaquetas, no reabsorben hueso.",
+      "tema": "Osteoclasto: célula multinucleada de la resorción ósea",
+      "año": 2024
+    },
+    {
+      "id": "CB-086",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Bombero de 50 años traído porque desde hace 2 horas presenta disnea moderada y fatiga. Estuvo trabajando 12 horas continuas en incendio de edificios que eran depósitos de plásticos. Examen: PA 110/75 mmHg, FC 110 X´, FR 27 X´, T 36.5 °C, SatO₂ 89%, somnoliento; resto sin alteraciones. Lab: COHb 30%. Recibe hidroxicobalamina EV y oxígeno a alto flujo, con mejoría clínica y presenta orina roja. ¿Cuál es la causa más probable del color de la orina?",
+      "opciones": [
+        "Hidroxicobalamina",
+        "Mioglobinuria",
+        "Hematuria",
+        "Ácido α aminolevulínico",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Bombero expuesto al humo de un incendio de plásticos: puede tener intoxicación por monóxido de carbono y también por cianuro, por lo que se trata con oxígeno a alto flujo e hidroxicobalamina, el antídoto del cianuro. La hidroxicobalamina es un compuesto de color rojo intenso que se elimina por la orina y la tiñe de rojo (cromaturia), además de dar coloración rojiza a la piel; es un efecto esperado y benigno. No indica hematuria ni mioglobinuria, aunque puede interferir con algunas pruebas colorimétricas.",
+      "comentario": "Bombero expuesto al humo de un incendio de plásticos: puede tener intoxicación por monóxido de carbono y también por cianuro, por lo que se trata con oxígeno a alto flujo e hidroxicobalamina, el antídoto del cianuro. La hidroxicobalamina es un compuesto de color rojo intenso que se elimina por la orina y la tiñe de rojo (cromaturia), además de dar coloración rojiza a la piel; es un efecto esperado y benigno. No indica hematuria ni mioglobinuria, aunque puede interferir con algunas pruebas colorimétricas.",
+      "tema": "Hidroxicobalamina: orina de color rojo",
+      "año": 2025
+    },
+    {
+      "id": "CB-087",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 42 años, alcohólico e hipertenso, es encontrado en su domicilio con alteración del estado de conciencia y respiración lenta. Familiares refieren que tuvo una discusión horas antes y fue hallado con varios blísteres vacíos de alprazolam y una botella de licor vacía. Examen: PA: 100/60 mmHg, FC 58 X', FR 8 X', SatO₂ 89%. somnoliento. Glasgow 10, pupilas mióticas reactivas, hipoventilación e hiporreflexia generalizada, hipotonía marcada. ¿Cuál es la conducta inicial más apropiada?",
+      "opciones": [
+        "Inicio de fluidoterapia",
+        "Administración de flumazenil",
+        "Realización de hemoglucotest",
+        "Protección de la vía aérea",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Intoxicación mixta por alprazolam y alcohol con depresión del sensorio (Glasgow 10), FR de 8 y SatO₂ de 89 %: lo primero es proteger la vía aérea y asegurar la ventilación (posición, oxígeno y, si no mejora, intubación). El flumazenil no es la conducta inicial: su beneficio es limitado cuando hay alcohol u otros depresores y puede desencadenar convulsiones en consumidores crónicos de benzodiacepinas. Después se realiza el hemoglucotest y el resto del manejo de soporte.",
+      "comentario": "Intoxicación mixta por alprazolam y alcohol con depresión del sensorio (Glasgow 10), FR de 8 y SatO₂ de 89 %: lo primero es proteger la vía aérea y asegurar la ventilación (posición, oxígeno y, si no mejora, intubación). El flumazenil no es la conducta inicial: su beneficio es limitado cuando hay alcohol u otros depresores y puede desencadenar convulsiones en consumidores crónicos de benzodiacepinas. Después se realiza el hemoglucotest y el resto del manejo de soporte.",
+      "tema": "Intoxicación por benzodiacepinas y alcohol con depresión respiratoria: proteger la vía aérea",
+      "año": 2025
+    },
+    {
+      "id": "CB-088",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 65 años con diagnóstico de infección urinaria que inicia tratamiento con antibiótico. A la semana presenta dolor y tumefacción de ambos tendones aquíleos con marcada limitación funcional. ¿Qué fármaco se relaciona con este efecto adverso?",
+      "opciones": [
+        "Ceftriaxona",
+        "Ciprofloxacina",
+        "Cotrimoxazol",
+        "Gentamicina",
+        "Nitrofurantoína"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Paciente con infección urinaria que tras iniciar tratamiento antibiótico desarrolla dolor y tumefacción en ambos tendones aquíleos, lo cual orienta hacia un efecto adverso específico: tendinitis aquilea y riesgo de ruptura tendinosa. Esta reacción adversa está claramente asociada a las fluoroquinolonas, como la ciprofloxacina, sobre todo en adultos mayores y pacientes con comorbilidades. Su mecanismo es probablemente mediado por degeneración del colágeno. Las otras alternativas no se relacionan típicamente con esta complicación.",
+      "comentario": "Paciente con infección urinaria que tras iniciar tratamiento antibiótico desarrolla dolor y tumefacción en ambos tendones aquíleos, lo cual orienta hacia un efecto adverso específico: tendinitis aquilea y riesgo de ruptura tendinosa. Esta reacción adversa está claramente asociada a las fluoroquinolonas, como la ciprofloxacina, sobre todo en adultos mayores y pacientes con comorbilidades. Su mecanismo es probablemente mediado por degeneración del colágeno. Las otras alternativas no se relacionan típicamente con esta complicación.",
+      "tema": "Fluoroquinolonas: tendinitis aquílea",
+      "año": 2025
+    },
+    {
+      "id": "CB-089",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 68 años con fibrilación auricular crónica en tratamiento con Apixaban para reducir el riesgo de eventos tromboembólicos. ¿Cuál es el mecanismo de acción de dicho fármaco?",
+      "opciones": [
+        "Inhibe el factor IXa",
+        "Activa la antitrombina III",
+        "Inhibe el factor Xa",
+        "Inhibe la vitamina K",
+        "Ciprofloxacino"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El apixabán es un anticoagulante oral directo que inhibe de forma directa y reversible el factor Xa (libre y unido al complejo protrombinasa), sin necesitar antitrombina; así disminuye la generación de trombina. La heparina actúa activando la antitrombina III, la warfarina inhibe la vitamina K epóxido reductasa (factores II, VII, IX y X) y el dabigatrán inhibe directamente la trombina.",
+      "comentario": "El apixabán es un anticoagulante oral directo que inhibe de forma directa y reversible el factor Xa (libre y unido al complejo protrombinasa), sin necesitar antitrombina; así disminuye la generación de trombina. La heparina actúa activando la antitrombina III, la warfarina inhibe la vitamina K epóxido reductasa (factores II, VII, IX y X) y el dabigatrán inhibe directamente la trombina.",
+      "tema": "Apixabán: inhibidor directo del factor Xa",
+      "año": 2025
+    },
+    {
+      "id": "CB-090",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 10 días con diagnóstico de deficiencia de acetil-CoA deshidrogenasa de cadena media (MCAD), por reducción de la beta-oxidación de ácidos grasos. Acude por presentar movimientos involuntarios tras varias horas de ayuno. ¿Cuál valor de glucemia es más probable de encontrar?",
+      "opciones": [
+        "Marcado aumento",
+        "Aumento moderado",
+        "Disminuida",
+        "Normal",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El déficit de acil-CoA deshidrogenasa de cadena media (MCAD) es el trastorno más frecuente de la beta-oxidación de ácidos grasos. En el ayuno, el organismo no puede usar las grasas para producir energía ni cuerpos cetónicos, por lo que agota rápidamente la glucosa y aparece una hipoglucemia hipocetósica, que puede causar convulsiones, letargia e incluso muerte súbita. El tratamiento es evitar el ayuno prolongado y dar glucosa en las descompensaciones.",
+      "comentario": "El déficit de acil-CoA deshidrogenasa de cadena media (MCAD) es el trastorno más frecuente de la beta-oxidación de ácidos grasos. En el ayuno, el organismo no puede usar las grasas para producir energía ni cuerpos cetónicos, por lo que agota rápidamente la glucosa y aparece una hipoglucemia hipocetósica, que puede causar convulsiones, letargia e incluso muerte súbita. El tratamiento es evitar el ayuno prolongado y dar glucosa en las descompensaciones.",
+      "tema": "Déficit de MCAD: hipoglucemia en ayuno",
+      "año": 2025
+    },
+    {
+      "id": "CB-091",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Los movimientos corporales embrionarios pueden objetivarse por ultrasonido desde las ocho semanas de edad gestacional, estos embriológicamente están relacionados con la ______ como parte del neurodesarrollo.",
+      "opciones": [
+        "Aparición de los primeros tractos de fibras nerviosas",
+        "Aparición de los tractos motores descendentes principales",
+        "Mielinización de los tractos corticoespinales",
+        "Mielinización de fibras nerviosas de la médula espinal",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los movimientos embrionarios visibles por ecografía desde las 8 semanas se asocian al desarrollo inicial del sistema nervioso central, específicamente a la aparición de los primeros tractos de fibras nerviosas. En esta etapa, los neuroblastos comienzan a extender axones que forman conexiones básicas dentro del tubo neural y médula espinal, permitiendo respuestas motoras espontáneas. Aún no existe mielinización ni madurez cortical; los movimientos son reflejos primitivos generados por circuitos espinales y del tallo cerebral. Por tanto, esta actividad refleja el inicio funcional del sistema nervioso y la maduración sináptica inicial del embrión.",
+      "comentario": "Los movimientos embrionarios visibles por ecografía desde las 8 semanas se asocian al desarrollo inicial del sistema nervioso central, específicamente a la aparición de los primeros tractos de fibras nerviosas. En esta etapa, los neuroblastos comienzan a extender axones que forman conexiones básicas dentro del tubo neural y médula espinal, permitiendo respuestas motoras espontáneas. Aún no existe mielinización ni madurez cortical; los movimientos son reflejos primitivos generados por circuitos espinales y del tallo cerebral. Por tanto, esta actividad refleja el inicio funcional del sistema nervioso y la maduración sináptica inicial del embrión.",
+      "tema": "Movimientos embrionarios a las 8 semanas: primeros tractos de fibras nerviosas",
+      "año": 2025
+    },
+    {
+      "id": "CB-092",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 51 años con larga historia de diabetes mellitus tipo 2 severa, ha recibido farmacoterapia que incluye dos formulaciones de insulina. Las formulaciones de insulina disponibles difieren entre sí principalmente por:",
+      "opciones": [
+        "Biodisponibilidad oral",
+        "Volumen de distribución",
+        "Velocidad de absorción",
+        "Metabolismo total",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la diabetes tipo 2 avanzada se emplean distintas formulaciones de insulina que difieren fundamentalmente por su velocidad de absorción desde el tejido subcutáneo, lo que determina el inicio y duración de su acción. Las variaciones estructurales en la molécula de insulina o la adición de compuestos modificadores (como zinc o protamina) alteran su disociación y absorción, generando tipos de acción rápida, intermedia o prolongada. No existen diferencias relevantes en metabolismo, biodisponibilidad oral o volumen de distribución, ya que la administración siempre es parenteral y el metabolismo hepático y renal es similar.",
+      "comentario": "En la diabetes tipo 2 avanzada se emplean distintas formulaciones de insulina que difieren fundamentalmente por su velocidad de absorción desde el tejido subcutáneo, lo que determina el inicio y duración de su acción. Las variaciones estructurales en la molécula de insulina o la adición de compuestos modificadores (como zinc o protamina) alteran su disociación y absorción, generando tipos de acción rápida, intermedia o prolongada. No existen diferencias relevantes en metabolismo, biodisponibilidad oral o volumen de distribución, ya que la administración siempre es parenteral y el metabolismo hepático y renal es similar.",
+      "tema": "Formulaciones de insulina: difieren en la velocidad de absorción",
+      "año": 2025
     }
   ]
 }

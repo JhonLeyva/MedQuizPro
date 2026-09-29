@@ -928,6 +928,82 @@
       "comentario": "La paciente presenta signos clínicos característicos de escoliosis, una deformidad estructural de la columna vertebral con desviación lateral y rotación de los cuerpos vertebrales. La asimetría de hombros, el desplazamiento del tronco y la prueba de Adams positiva (asimetría torácica al inclinarse hacia adelante) son hallazgos típicos. El antecedente familiar refuerza la sospecha, ya que la escoliosis idiopática tiene un componente genético. Es fundamental realizar una radiografía de columna en proyección posteroanterior para evaluar el ángulo de Cobb y determinar la severidad de la curvatura, lo que guiará el tratamiento.",
       "tema": "Escoliosis: prueba de Adams",
       "año": 2024
+    },
+    {
+      "id": "TRA-050",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Qué nervio se compromete en la luxación posterior de la articulación coxo-femoral?",
+      "opciones": [
+        "Ciático",
+        "Ciático poplíteo externo",
+        "Femorocutáneo",
+        "Obturatriz",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En la luxación posterior de la cadera, el nervio más comúnmente afectado es el nervio ciático debido a su proximidad a la articulación coxo-femoral. Este nervio puede sufrir estiramiento o compresión, lo que genera síntomas como debilidad en la dorsiflexión del pie (pie caído) y alteraciones sensitivas en la parte posterior de la pierna. La evaluación neurológica es fundamental para detectar signos de compromiso nervioso y determinar la necesidad de intervención.",
+      "comentario": "En la luxación posterior de la cadera, el nervio más comúnmente afectado es el nervio ciático debido a su proximidad a la articulación coxo-femoral. Este nervio puede sufrir estiramiento o compresión, lo que genera síntomas como debilidad en la dorsiflexión del pie (pie caído) y alteraciones sensitivas en la parte posterior de la pierna. La evaluación neurológica es fundamental para detectar signos de compromiso nervioso y determinar la necesidad de intervención.",
+      "tema": "Luxación posterior de cadera: lesión del nervio ciático",
+      "año": 2024
+    },
+    {
+      "id": "TRA-051",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es el tratamiento más importante en el manejo de las fracturas abiertas?",
+      "opciones": [
+        "Fijación externa de los segmentos fracturados",
+        "Inmunización pasiva en el prehospitalario",
+        "Administración temprana de antibióticos",
+        "Tracción de la extremidad afectada",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La fractura abierta se considera una urgencia quirúrgica por el alto riesgo de infección ósea y de tejidos blandos. El tratamiento más importante y que debe iniciarse incluso antes del traslado hospitalario es la administración temprana de antibióticos de amplio espectro, idealmente dentro de la primera hora, para reducir la carga bacteriana. Aunque la fijación externa y el lavado quirúrgico son fundamentales, el antibiótico precoz es el único factor que ha demostrado reducir significativamente la tasa de infección.",
+      "comentario": "La fractura abierta se considera una urgencia quirúrgica por el alto riesgo de infección ósea y de tejidos blandos. El tratamiento más importante y que debe iniciarse incluso antes del traslado hospitalario es la administración temprana de antibióticos de amplio espectro, idealmente dentro de la primera hora, para reducir la carga bacteriana. Aunque la fijación externa y el lavado quirúrgico son fundamentales, el antibiótico precoz es el único factor que ha demostrado reducir significativamente la tasa de infección.",
+      "tema": "Fractura abierta: antibióticos precoces",
+      "año": 2024
+    },
+    {
+      "id": "TRA-052",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 70 años, que sufre caída golpeándose el codo derecho. Examen: dolor en el segmento distal del húmero, motilidad pasiva y activa dolorosa. RX: fractura lineal supracondílea con mínimo desplazamiento. ¿Cuál es el tipo de férula a utilizar?",
+      "opciones": [
+        "Con fijación de placas",
+        "Colgante",
+        "Con codo flexionado 90°",
+        "Por coaptación",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Fractura supracondílea del húmero con desplazamiento mínimo en una paciente adulta mayor: se puede manejar de forma conservadora con una férula braquiopalmar posterior con el codo en flexión de 90° y el antebrazo en posición neutra, vigilando el estado neurovascular. La férula colgante y la de coaptación se usan en las fracturas de la diáfisis del húmero, y la fijación con placas se reserva para fracturas desplazadas o inestables.",
+      "comentario": "Fractura supracondílea del húmero con desplazamiento mínimo en una paciente adulta mayor: se puede manejar de forma conservadora con una férula braquiopalmar posterior con el codo en flexión de 90° y el antebrazo en posición neutra, vigilando el estado neurovascular. La férula colgante y la de coaptación se usan en las fracturas de la diáfisis del húmero, y la fijación con placas se reserva para fracturas desplazadas o inestables.",
+      "tema": "Fractura supracondílea no desplazada del adulto: férula con codo a 90°",
+      "año": 2024
+    },
+    {
+      "id": "TRA-053",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 30 años atropellado hace 30 minutos y es trasladado a emergencia. Examen: hipotenso, taquicárdico; pelvis dolorosa con crepitación e inestabilidad. No otros compromisos. RX: fracturas de ramas isquiopúbicas. Se administra cristaloides y no mejoran sus funciones vitales. ¿Qué medida debe indicar de inmediato?",
+      "opciones": [
+        "Estabilización de la pelvis",
+        "Laparotomía exploratoria",
+        "Reducción cruenta de la fractura",
+        "TC de pelvis con contraste",
+        "Cirrosis hepática"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Paciente politraumatizado con mecanismo cerrado de alta energía (atropello) y evidencia clínica de inestabilidad hemodinámica (hipotensión, taquicardia) sin respuesta a cristaloides. El examen físico revela pelvis dolorosa, inestable y con crepitación, además de fractura de ramas isquiopúbicas en la radiografía. Aunque estas fracturas pueden producir sangrado retroperitoneal, la presencia de shock persistente obliga a descartar una fuente de sangrado intraabdominal activa. Dado que ya se ha iniciado reanimación sin mejoría, y no hay otros focos evidentes, la laparotomía exploratoria se convierte en una medida urgente para descartar o tratar hemorragias ocultas. En trauma, se prioriza el control del sangrado para evitar el agravamiento del shock hipovolémico.",
+      "comentario": "Paciente politraumatizado con mecanismo cerrado de alta energía (atropello) y evidencia clínica de inestabilidad hemodinámica (hipotensión, taquicardia) sin respuesta a cristaloides. El examen físico revela pelvis dolorosa, inestable y con crepitación, además de fractura de ramas isquiopúbicas en la radiografía. Aunque estas fracturas pueden producir sangrado retroperitoneal, la presencia de shock persistente obliga a descartar una fuente de sangrado intraabdominal activa. Dado que ya se ha iniciado reanimación sin mejoría, y no hay otros focos evidentes, la laparotomía exploratoria se convierte en una medida urgente para descartar o tratar hemorragias ocultas. En trauma, se prioriza el control del sangrado para evitar el agravamiento del shock hipovolémico.",
+      "tema": "Fractura de pelvis inestable con shock: estabilizar la pelvis",
+      "año": 2025
     }
   ]
 }

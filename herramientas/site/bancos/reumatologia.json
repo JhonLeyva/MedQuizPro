@@ -1232,6 +1232,63 @@
       "comentario": "El diagnóstico más probable es la artritis gotosa (D), caracterizada por la aparición súbita de dolor intenso en una articulación, frecuentemente en el primer dedo del pie (podagra), después de la ingestión de alcohol y alimentos ricos en purinas. Esta condición se debe a la acumulación de cristales de ácido úrico en las articulaciones. La artritis séptica (C) también podría causar dolor articular, pero la presentación aguda después de la comida y el alcohol es más típica de la gota. Las artritis reactivas (A) y reumatoides (B) tienen un curso más crónico y no están tan asociadas a los factores desencadenantes descritos.",
       "tema": "Podagra: artritis gotosa",
       "año": 2024
+    },
+    {
+      "id": "REU-066",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Adolescente varón, acude por presentar en cara, tórax anterior y espalda, \"granitos\" infectados, costras y nódulos, además preocupado porque las lesiones aumentan. Examen: cara tórax y espalda: comedones, numerosas pápulas-pustulosas y nódulos quísticos. ¿ Cuál es el tipo de acné que presenta?",
+      "opciones": [
+        "Leve",
+        "Grave",
+        "Moderado",
+        "Moderadamente grave",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El adolescente presenta un cuadro de acné grave, caracterizado por la presencia de comedones, pápulas-pustulosas y nódulos quísticos, lo que sugiere una forma inflamatoria y severa de la enfermedad. Este tipo de acné puede dejar cicatrices y requiere un tratamiento más agresivo, como terapias sistémicas o tópicas específicas para controlar la inflamación y prevenir las complicaciones a largo plazo.",
+      "comentario": "El adolescente presenta un cuadro de acné grave, caracterizado por la presencia de comedones, pápulas-pustulosas y nódulos quísticos, lo que sugiere una forma inflamatoria y severa de la enfermedad. Este tipo de acné puede dejar cicatrices y requiere un tratamiento más agresivo, como terapias sistémicas o tópicas específicas para controlar la inflamación y prevenir las complicaciones a largo plazo.",
+      "tema": "Acné grave: nódulos y quistes",
+      "año": 2024
+    },
+    {
+      "id": "REU-067",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "El Instituto Nacional de Enfermedades Neoplásicas reporta incremento de casos de cáncer de piel en jóvenes militares. ¿Cuál es el factor de riesgo asociado?",
+      "opciones": [
+        "Exposición al benceno",
+        "Radiación ultravioleta",
+        "Radiación ionizante",
+        "Contaminación del agua",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El principal factor de riesgo del cáncer de piel (carcinoma basocelular, espinocelular y melanoma) es la exposición a la radiación ultravioleta solar, sobre todo acumulada e intermitente intensa, con quemaduras. Los militares jóvenes que realizan actividades prolongadas al aire libre sin fotoprotección están especialmente expuestos. El benceno se asocia a leucemias, la radiación ionizante a leucemias y cáncer de tiroides, y la contaminación del agua con arsénico a lesiones cutáneas, pero no explican este aumento.",
+      "comentario": "El principal factor de riesgo del cáncer de piel (carcinoma basocelular, espinocelular y melanoma) es la exposición a la radiación ultravioleta solar, sobre todo acumulada e intermitente intensa, con quemaduras. Los militares jóvenes que realizan actividades prolongadas al aire libre sin fotoprotección están especialmente expuestos. El benceno se asocia a leucemias, la radiación ionizante a leucemias y cáncer de tiroides, y la contaminación del agua con arsénico a lesiones cutáneas, pero no explican este aumento.",
+      "tema": "Cáncer de piel: radiación ultravioleta",
+      "año": 2024
+    },
+    {
+      "id": "REU-068",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 66 años, acude por dolor en rodilla izquierda asociado a aumento de volumen y limitación funcional. Artrocentesis: cristales romboides con birrefringencia positiva débil. RX de rodillas: condrocalcinosis. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Osteoartrosis",
+        "Pseudogota",
+        "Hipoparatiroidismo",
+        "Hipermagnesemia",
+        "Lupus eritematoso sistémico"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Monoartritis de rodilla en una adulta mayor con cristales romboidales de birrefringencia positiva débil en el líquido sinovial y condrocalcinosis radiológica: artritis aguda por cristales de pirofosfato de calcio (pseudogota). Los cristales de urato de la gota son en aguja y con birrefringencia negativa intensa. La pseudogota se asocia al envejecimiento, al hiperparatiroidismo, la hemocromatosis y la hipomagnesemia.",
+      "comentario": "Monoartritis de rodilla en una adulta mayor con cristales romboidales de birrefringencia positiva débil en el líquido sinovial y condrocalcinosis radiológica: artritis aguda por cristales de pirofosfato de calcio (pseudogota). Los cristales de urato de la gota son en aguja y con birrefringencia negativa intensa. La pseudogota se asocia al envejecimiento, al hiperparatiroidismo, la hemocromatosis y la hipomagnesemia.",
+      "tema": "Pseudogota: cristales de pirofosfato de calcio",
+      "año": 2025
     }
   ]
 }

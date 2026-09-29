@@ -4158,6 +4158,424 @@
       "comentario": "La pérdida de peso >10%, irritabilidad, fiebre y sodio elevado sugieren deshidratación hipernatrémica, causada por insuficiente ingesta de leche materna. La ictericia por leche materna no produce hipernatremia; la sepsis cursa con leucopenia o leucocitosis sin hipernatremia.",
       "tema": "Deshidratación hipernatrémica neonatal por lactancia insuficiente",
       "año": 2024
+    },
+    {
+      "id": "PED-220",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Niño de 3 años, acude a consulta, por presentar diarrea persistente amarillenta con moco. Examen microscópico de heces: trofozoíto de forma elipsoidal con dos núcleos en la zona ventral. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Bitionol",
+        "Metronidazol",
+        "Praziquantel",
+        "Albendazol",
+        "Insulina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El niño presenta síntomas de giardiasis, una infección intestinal causada por el protozoo Giardia lamblia. El hallazgo del trofozoíto con dos núcleos en el examen microscópico de heces es característico. El tratamiento de elección es metronidazol, que es efectivo contra este parásito.",
+      "comentario": "El niño presenta síntomas de giardiasis, una infección intestinal causada por el protozoo Giardia lamblia. El hallazgo del trofozoíto con dos núcleos en el examen microscópico de heces es característico. El tratamiento de elección es metronidazol, que es efectivo contra este parásito.",
+      "tema": "Giardiasis: metronidazol",
+      "año": 2024
+    },
+    {
+      "id": "PED-221",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Neonato de 1 hora de vida con succión débil. Antecedente: cesárea por desprendimiento de placenta. Examen: letárgico, hipoactivo, hiporefléxico, Moro incompleto. Sarnat III. Lab: pH: 6,5. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Anticonvulsivante oral",
+        "Antibioticoterapia",
+        "Hipotermia terapéutica",
+        "Monitoreo electroencefalográfico",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El neonato presenta signos clínicos y laboratoriales indicativos de encefalopatía hipóxico-isquémica (Sarnat III), y la intervención más efectiva es la hipotermia terapéutica (C), que se utiliza para mejorar los resultados neurológicos en casos de asfixia perinatal severa. El anticonvulsivante (A) como el fenobarbital se indica cuando el paciente presenta convulsiones sea o no por asfixia. El monitoreo electroencefalográfico (D) podría ser útil, pero no es la primera intervención frente a la encefalopatía hipóxico-isquémica.",
+      "comentario": "El neonato presenta signos clínicos y laboratoriales indicativos de encefalopatía hipóxico-isquémica (Sarnat III), y la intervención más efectiva es la hipotermia terapéutica (C), que se utiliza para mejorar los resultados neurológicos en casos de asfixia perinatal severa. El anticonvulsivante (A) como el fenobarbital se indica cuando el paciente presenta convulsiones sea o no por asfixia. El monitoreo electroencefalográfico (D) podría ser útil, pero no es la primera intervención frente a la encefalopatía hipóxico-isquémica.",
+      "tema": "Encefalopatía hipóxico-isquémica grave: hipotermia terapéutica",
+      "año": 2024
+    },
+    {
+      "id": "PED-222",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Lactante de 11 meses, acude a consulta de seguimiento con baja ganancia ponderal y anemia. Lab: Hb 9 g/dl, microcítica e hipocrómica y ferritina disminuida. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Cianocobalamina",
+        "Eritropoyetina",
+        "Hierro polimaltosado",
+        "Ácido fólico",
+        "Dexametasona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Lactante de 11 meses con Hb 9 g/dL, anemia microcítica e hipocrómica y ferritina baja: anemia ferropénica. El tratamiento es hierro por vía oral, a 3 mg/kg/día de hierro elemental (sulfato ferroso o complejo polimaltosado férrico), durante 6 meses continuos según la norma MINSA, con control de hemoglobina al mes, a los 3 y a los 6 meses, junto con consejería para dar alimentos de origen animal ricos en hierro. La cianocobalamina y el ácido fólico tratan las anemias megaloblásticas y la eritropoyetina se reserva para la anemia de la enfermedad renal crónica.",
+      "comentario": "Lactante de 11 meses con Hb 9 g/dL, anemia microcítica e hipocrómica y ferritina baja: anemia ferropénica. El tratamiento es hierro por vía oral, a 3 mg/kg/día de hierro elemental (sulfato ferroso o complejo polimaltosado férrico), durante 6 meses continuos según la norma MINSA, con control de hemoglobina al mes, a los 3 y a los 6 meses, junto con consejería para dar alimentos de origen animal ricos en hierro. La cianocobalamina y el ácido fólico tratan las anemias megaloblásticas y la eritropoyetina se reserva para la anemia de la enfermedad renal crónica.",
+      "tema": "Anemia ferropénica del lactante: hierro oral",
+      "año": 2024
+    },
+    {
+      "id": "PED-223",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "¿Cuál es el tipo de lesión más frecuente de síndrome nefrótico en la infancia?",
+      "opciones": [
+        "Membranosa",
+        "Esclerosis focal",
+        "Segmentaria",
+        "De cambios mínimos",
+        "Hipertensión arterial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En la infancia, el síndrome nefrótico primario se presenta mayormente como un trastorno idiopático y su causa más frecuente es la enfermedad de cambios mínimos. Esta entidad se caracteriza por una disfunción podocitaria que genera proteinuria masiva, hipoalbuminemia y edema sin alteraciones significativas en la biopsia con tinciones de rutina, aunque la microscopía electrónica revela fusión de podocitos. Su prevalencia en niños supera el 80% de casos y responde favorablemente a corticoides, por lo que muchas veces no se realiza biopsia inicial. Las otras opciones, como la glomerulonefritis membranosa o la esclerosis focal y segmentaria, son más frecuentes en adultos y se asocian a peor pronóstico.",
+      "comentario": "En la infancia, el síndrome nefrótico primario se presenta mayormente como un trastorno idiopático y su causa más frecuente es la enfermedad de cambios mínimos. Esta entidad se caracteriza por una disfunción podocitaria que genera proteinuria masiva, hipoalbuminemia y edema sin alteraciones significativas en la biopsia con tinciones de rutina, aunque la microscopía electrónica revela fusión de podocitos. Su prevalencia en niños supera el 80% de casos y responde favorablemente a corticoides, por lo que muchas veces no se realiza biopsia inicial. Las otras opciones, como la glomerulonefritis membranosa o la esclerosis focal y segmentaria, son más frecuentes en adultos y se asocian a peor pronóstico.",
+      "tema": "Síndrome nefrótico infantil: enfermedad de cambios mínimos",
+      "año": 2024
+    },
+    {
+      "id": "PED-224",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Prescolar de 4 años presenta desde hace 3 días deposiciones semilíquidas, 6-8 veces/día con moco y sangre. Antecedente: ingirió hace 4 días hamburguesa de carne. Examen: FC 130 X´, FR 26 X´, pálido, mucosas secas. Abdomen: distendido, doloroso a la palpación. Lab: Leucocitos 21400/mm3, Hb 7.5 g/dl, plaquetas 90000/mm3, creatinina 0.8 mg/dl. ¿Cuál es el agente etiológico más probable?",
+      "opciones": [
+        "Escherichia coli",
+        "Campylobacter jejuni",
+        "Shigella dysenteriae",
+        "Yersinia enterocolítica",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Niño en edad preescolar presenta diarrea con moco y sangre, acompañado de palidez, mucosas secas y signos de deshidratación. Destaca antecedente de ingesta de carne, hallazgo clave que sugiere colitis hemorrágica. El laboratorio revela anemia, 2 trombocitopenia y leucocitosis, datos que sugieren una complicación severa como el síndrome hemolítico urémico (SHU). Esta tríada clínica es característica de la infección por Escherichia coli productora de toxina Shiga (serotipo O157:H7), generalmente asociada a carne mal cocida. La bacteria daña el endotelio intestinal y renal, provocando microangiopatía trombótica. A diferencia de Shigella dysenteriae, que también da disentería, no suele causar SHU con tanta frecuencia. Campylobacter y Yersinia pueden dar cuadros diarreicos, pero sin esta triada característica. Por tanto, el agente etiológico más probable es Escherichia coli O157:H7, que puede desencadenar SHU en niños.",
+      "comentario": "Niño en edad preescolar presenta diarrea con moco y sangre, acompañado de palidez, mucosas secas y signos de deshidratación. Destaca antecedente de ingesta de carne, hallazgo clave que sugiere colitis hemorrágica. El laboratorio revela anemia, 2 trombocitopenia y leucocitosis, datos que sugieren una complicación severa como el síndrome hemolítico urémico (SHU). Esta tríada clínica es característica de la infección por Escherichia coli productora de toxina Shiga (serotipo O157:H7), generalmente asociada a carne mal cocida. La bacteria daña el endotelio intestinal y renal, provocando microangiopatía trombótica. A diferencia de Shigella dysenteriae, que también da disentería, no suele causar SHU con tanta frecuencia. Campylobacter y Yersinia pueden dar cuadros diarreicos, pero sin esta triada característica. Por tanto, el agente etiológico más probable es Escherichia coli O157:H7, que puede desencadenar SHU en niños.",
+      "tema": "Colitis hemorrágica con síndrome urémico hemolítico: E. coli productora de toxina Shiga",
+      "año": 2024
+    },
+    {
+      "id": "PED-225",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 18 meses, sin antecedentes patológicos. Hace 4 días presenta tos, rinorrea, irritabilidad y fiebre. Otoscopía: tímpano derecho hiperémico y abombado. Se inicia tratamiento con amoxicilina 90 mg/k/día. ¿Cuántos días de terapia antibiótica se indica?",
+      "opciones": [
+        "7",
+        "14",
+        "5",
+        "10",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Lactante de 18 meses con otitis media aguda tratado con amoxicilina a 90 mg/kg/día. En menores de 2 años (y en casos graves o con otorrea) se recomienda un tratamiento de 10 días, porque los esquemas cortos tienen más fracasos en este grupo. En niños de 2 a 5 años con cuadro leve o moderado se pueden usar 7 días, y en mayores de 6 años, 5 a 7 días.",
+      "comentario": "Lactante de 18 meses con otitis media aguda tratado con amoxicilina a 90 mg/kg/día. En menores de 2 años (y en casos graves o con otorrea) se recomienda un tratamiento de 10 días, porque los esquemas cortos tienen más fracasos en este grupo. En niños de 2 a 5 años con cuadro leve o moderado se pueden usar 7 días, y en mayores de 6 años, 5 a 7 días.",
+      "tema": "Otitis media aguda en menores de 2 años: 10 días de antibiótico",
+      "año": 2025
+    },
+    {
+      "id": "PED-226",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa de la hipoglicemia neonatal en hijos de madre diabética?",
+      "opciones": [
+        "Hipoglicemia materna peri parto",
+        "Hiperinsulinismo fetal",
+        "Hipotrofia de celulas B pancreáticas",
+        "Glucógeno disminuido",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En el hijo de madre diabética, la hiperglucemia materna atraviesa la placenta y estimula de forma sostenida las células beta del páncreas fetal, que se hiperplasian y producen hiperinsulinismo. Al nacer se corta bruscamente el aporte de glucosa materna, pero la insulina sigue alta, lo que causa hipoglucemia en las primeras horas de vida. Por eso se vigila la glucemia desde el nacimiento y se inicia alimentación precoz. Hay hiperplasia, no hipotrofia, de las células beta.",
+      "comentario": "En el hijo de madre diabética, la hiperglucemia materna atraviesa la placenta y estimula de forma sostenida las células beta del páncreas fetal, que se hiperplasian y producen hiperinsulinismo. Al nacer se corta bruscamente el aporte de glucosa materna, pero la insulina sigue alta, lo que causa hipoglucemia en las primeras horas de vida. Por eso se vigila la glucemia desde el nacimiento y se inicia alimentación precoz. Hay hiperplasia, no hipotrofia, de las células beta.",
+      "tema": "Hijo de madre diabética: hipoglucemia por hiperinsulinismo",
+      "año": 2025
+    },
+    {
+      "id": "PED-227",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿Cuál es el mecanismo que explica la insuficiencia cardíaca en las cardiopatías congénitas acianóticas CIA, CIV y PCA?",
+      "opciones": [
+        "Secundario a cardiopatía valvular",
+        "Gasto pulmonar/Gasto sistémico mayor a 1",
+        "Cortocircuito de derecha a izquierda",
+        "Hipoflujo pulmonar",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La comunicación interauricular, la comunicación interventricular y la persistencia del conducto arterioso son cardiopatías acianóticas con cortocircuito de izquierda a derecha. Parte de la sangre oxigenada vuelve a la circulación pulmonar, por lo que el flujo pulmonar supera al sistémico (Qp/Qs >1). Este hiperflujo pulmonar produce sobrecarga de volumen y, cuando es grande, insuficiencia cardiaca (taquipnea, sudoración al lactar, mala ganancia de peso). El cortocircuito de derecha a izquierda y el hipoflujo pulmonar son propios de las cardiopatías cianóticas.",
+      "comentario": "La comunicación interauricular, la comunicación interventricular y la persistencia del conducto arterioso son cardiopatías acianóticas con cortocircuito de izquierda a derecha. Parte de la sangre oxigenada vuelve a la circulación pulmonar, por lo que el flujo pulmonar supera al sistémico (Qp/Qs >1). Este hiperflujo pulmonar produce sobrecarga de volumen y, cuando es grande, insuficiencia cardiaca (taquipnea, sudoración al lactar, mala ganancia de peso). El cortocircuito de derecha a izquierda y el hipoflujo pulmonar son propios de las cardiopatías cianóticas.",
+      "tema": "Cardiopatías con cortocircuito de izquierda a derecha: Qp/Qs mayor que 1",
+      "año": 2025
+    },
+    {
+      "id": "PED-228",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 40 días, alimentado hasta ese momento con lactancia materna exclusiva, tras recibir fórmula láctea, presenta urticaria generalizada. Examen: FC 145 X', FR 56 X', T 37°C, SatO₂ 95%. Piel: habones generalizados de tamaño pequeño. Tórax: MV presente, sibilantes difusos en AHT. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Alergia a las proteínas de la leche de vaca",
+        "Urticaria inducida por infecciones",
+        "Intolerancia transitoria a la lactosa",
+        "Urticaria por picadura de insectos",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Lactante de 40 días previamente con lactancia materna exclusiva desarrolla urticaria generalizada y sibilantes tras recibir fórmula. Clínicamente, destaca una reacción inmediata al contacto con un nuevo alimento, lo que sugiere hipersensibilidad. La intolerancia a la lactosa es una alteración no inmunológica que cursa con síntomas digestivos como diarrea y distensión, no con urticaria ni broncoespasmo. La presencia de habones y sibilantes es altamente sugestiva de una reacción alérgica tipo I (IgE mediada). La leche de fórmula contiene proteína de leche de vaca, el alérgeno más común en lactantes. Por eso el diagnóstico es alergia a las proteínas de la leche de vaca, con manifestaciones de reacción alérgica inmediata.",
+      "comentario": "Lactante de 40 días previamente con lactancia materna exclusiva desarrolla urticaria generalizada y sibilantes tras recibir fórmula. Clínicamente, destaca una reacción inmediata al contacto con un nuevo alimento, lo que sugiere hipersensibilidad. La intolerancia a la lactosa es una alteración no inmunológica que cursa con síntomas digestivos como diarrea y distensión, no con urticaria ni broncoespasmo. La presencia de habones y sibilantes es altamente sugestiva de una reacción alérgica tipo I (IgE mediada). La leche de fórmula contiene proteína de leche de vaca, el alérgeno más común en lactantes. Por eso el diagnóstico es alergia a las proteínas de la leche de vaca, con manifestaciones de reacción alérgica inmediata.",
+      "tema": "Alergia a las proteínas de la leche de vaca",
+      "año": 2025
+    },
+    {
+      "id": "PED-229",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de un mes es traído por la madre a la consulta por presentar regurgitaciones frecuentes, episodios de asfixia y retraso del crecimiento. Esofagograma: falta de peristaltismo del esófago y signo de \"pico de pájaro\" positivo. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Estenosis de esófago congénita",
+        "Esofagitis por reflujo",
+        "Atresia de esófago",
+        "Acalasia de esófago",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Lactante con regurgitación persistente, episodios de asfixia y falla de medro obliga a descartar una obstrucción funcional del esófago. El esofagograma muestra el clásico “signo en pico de pájaro”, hallazgo patognomónico de acalasia, caracterizado por estrechamiento del esfínter esofágico inferior y dilatación proximal. Esta condición refleja una falla en la relajación del EEI y ausencia de peristalsis esofágica secundaria a alteración de las células ganglionares del plexo de Auerbach. Si bien es poco frecuente en lactantes, puede presentarse con síntomas severos desde los primeros meses. La clínica coincide con dificultad para alimentarse, regurgitación y desnutrición progresiva. A diferencia de reflujo o atresia, aquí no hay vómitos explosivos ni discontinuidad anatómica.",
+      "comentario": "Lactante con regurgitación persistente, episodios de asfixia y falla de medro obliga a descartar una obstrucción funcional del esófago. El esofagograma muestra el clásico “signo en pico de pájaro”, hallazgo patognomónico de acalasia, caracterizado por estrechamiento del esfínter esofágico inferior y dilatación proximal. Esta condición refleja una falla en la relajación del EEI y ausencia de peristalsis esofágica secundaria a alteración de las células ganglionares del plexo de Auerbach. Si bien es poco frecuente en lactantes, puede presentarse con síntomas severos desde los primeros meses. La clínica coincide con dificultad para alimentarse, regurgitación y desnutrición progresiva. A diferencia de reflujo o atresia, aquí no hay vómitos explosivos ni discontinuidad anatómica.",
+      "tema": "Acalasia: signo del pico de pájaro",
+      "año": 2025
+    },
+    {
+      "id": "PED-230",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Escolar de 5 años, procedente de una comunidad rural, posterior a la picadura de un alacrán presenta súbitamente tos, dificultad respiratoria, nistagmo, sialorrea profusa y debilidad de miembros inferiores que le dificulta la marcha. ¿Cuál es la indicación inicial recomendada?",
+      "opciones": [
+        "Antibióticos",
+        "Atropina",
+        "Antitusígeno",
+        "Faboterapia",
+        "Epinefrina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Niño picado por un alacrán que presenta manifestaciones sistémicas por liberación de neurotransmisores (tos y dificultad respiratoria, sialorrea, nistagmo, debilidad): es un escorpionismo moderado a grave. El tratamiento específico es la faboterapia (antiveneno o suero antialacránico) lo antes posible, junto con soporte y monitoreo en un establecimiento con capacidad resolutiva. Los antibióticos no están indicados, y la atropina puede agravar los efectos adrenérgicos.",
+      "comentario": "Niño picado por un alacrán que presenta manifestaciones sistémicas por liberación de neurotransmisores (tos y dificultad respiratoria, sialorrea, nistagmo, debilidad): es un escorpionismo moderado a grave. El tratamiento específico es la faboterapia (antiveneno o suero antialacránico) lo antes posible, junto con soporte y monitoreo en un establecimiento con capacidad resolutiva. Los antibióticos no están indicados, y la atropina puede agravar los efectos adrenérgicos.",
+      "tema": "Escorpionismo con compromiso sistémico: faboterapia",
+      "año": 2025
+    },
+    {
+      "id": "PED-231",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 2 meses VIH expuesto es traído a control. Antecedente: madre diagnosticada de infección por VIH durante el trabajo de parto y se inició quimioprofilaxis con Zidovudina, Lamivudina y Nevirapina post parto. Lab: resultado de PCR al 1er mes reactiva; al 2do mes también reactiva. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Iniciar tratamiento antirretroviral de inmediato",
+        "Esperar hasta los 12 meses para iniciar TARV",
+        "El inicio de TARV está condicionado a los síntomas clínicos",
+        "El inicio de TARV está condicionado al estado inmune",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Lactante expuesto al VIH cuya madre fue diagnosticada durante el parto y que recibe profilaxis postnatal, presenta dos PCR positivas en los primeros dos meses de vida, lo cual confirma la infección por VIH. Según las guías nacionales e internacionales (OMS, MINSA), todo niño con VIH confirmado, independientemente del estado inmunológico o clínico, debe iniciar tratamiento antirretroviral (TARV) inmediato, pues esto mejora la supervivencia y reduce progresión a SIDA. No se debe esperar síntomas ni resultados inmunológicos. Por tanto, la conducta correcta es iniciar TARV de inmediato.",
+      "comentario": "Lactante expuesto al VIH cuya madre fue diagnosticada durante el parto y que recibe profilaxis postnatal, presenta dos PCR positivas en los primeros dos meses de vida, lo cual confirma la infección por VIH. Según las guías nacionales e internacionales (OMS, MINSA), todo niño con VIH confirmado, independientemente del estado inmunológico o clínico, debe iniciar tratamiento antirretroviral (TARV) inmediato, pues esto mejora la supervivencia y reduce progresión a SIDA. No se debe esperar síntomas ni resultados inmunológicos. Por tanto, la conducta correcta es iniciar TARV de inmediato.",
+      "tema": "Lactante con VIH confirmado por PCR: TAR inmediato",
+      "año": 2025
+    },
+    {
+      "id": "PED-232",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Neonato a término de 8 días, alimentado con lactancia materna exclusiva, presenta ictericia que se extiende hasta los muslos. La bilirrubina total es de 12 mg/dL a predominio indirecto. El bebé está activo, se alimenta bien y no tiene otros hallazgos patológicos. ¿Cuál es la conducta más apropiada?",
+      "opciones": [
+        "Fototerapia intensiva",
+        "Suspender la lactancia materna",
+        "Exanguineotransfusión",
+        "Observación",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Neonato a término de 8 días, con lactancia materna exclusiva, activo y alimentándose bien, con bilirrubina de 12 mg/dL a predominio indirecto: ictericia asociada a la lactancia materna (ictericia por leche materna). Con esa cifra y a esa edad no alcanza el umbral de fototerapia, por lo que la conducta es la observación y seguir con la lactancia, sin suspenderla. Se controla la bilirrubina si aumenta la ictericia y se descarta colestasis si persiste más de 2-3 semanas.",
+      "comentario": "Neonato a término de 8 días, con lactancia materna exclusiva, activo y alimentándose bien, con bilirrubina de 12 mg/dL a predominio indirecto: ictericia asociada a la lactancia materna (ictericia por leche materna). Con esa cifra y a esa edad no alcanza el umbral de fototerapia, por lo que la conducta es la observación y seguir con la lactancia, sin suspenderla. Se controla la bilirrubina si aumenta la ictericia y se descarta colestasis si persiste más de 2-3 semanas.",
+      "tema": "Ictericia por lactancia materna en neonato sano: observación",
+      "año": 2025
+    },
+    {
+      "id": "PED-233",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 10 meses, alimentado con lactancia materna exclusiva sin suplementación. Sin antecedentes de importancia. Examen: retraso motor y a nivel condrocostal se palpa ensanchado. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Raquitismo",
+        "Osteogénesis imperfecta",
+        "Hipofosfatasia",
+        "Déficit de vitamina C",
+        "Clindamicina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Lactante de 10 meses con lactancia materna exclusiva sin suplementos (la leche materna tiene poca vitamina D), retraso motor y ensanchamiento de las uniones condrocostales (rosario raquítico): raquitismo carencial por déficit de vitamina D. Otros signos son el craneotabes, el ensanchamiento de muñecas y el retraso en el cierre de fontanelas. En el escorbuto (déficit de vitamina C) también puede haber rosario costal, pero predominan el dolor óseo, la irritabilidad y las hemorragias de encías.",
+      "comentario": "Lactante de 10 meses con lactancia materna exclusiva sin suplementos (la leche materna tiene poca vitamina D), retraso motor y ensanchamiento de las uniones condrocostales (rosario raquítico): raquitismo carencial por déficit de vitamina D. Otros signos son el craneotabes, el ensanchamiento de muñecas y el retraso en el cierre de fontanelas. En el escorbuto (déficit de vitamina C) también puede haber rosario costal, pero predominan el dolor óseo, la irritabilidad y las hemorragias de encías.",
+      "tema": "Raquitismo carencial: rosario costal",
+      "año": 2025
+    },
+    {
+      "id": "PED-234",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 18 meses, hace 3 días presenta rinorrea, estornudos y febrícula. Cede la febrícula, se agrega disfonía y tos perruna; por la noche se agrega estridor inspiratorio con el llanto. Examen: faringe ligeramente inflamada, voz ronca y estridor inspiratorio audible al llanto. ¿Cuál es la conducta inicial recomendada?",
+      "opciones": [
+        "Adrenalina nebulizada y observación 4 horas",
+        "Dexametasona intramuscular y observación 6 horas",
+        "Adrenalina nebulizada y hospitalización",
+        "Dexametasona vía oral y manejo ambulatorio",
+        "Aislamiento estricto"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Lactante de 18 meses con rinorrea, tos perruna, disfonía y estridor al llanto, presenta cuadro típico de laringotraqueítis viral o crup leve. Fisiopatológicamente, la inflamación subglótica produce estrechamiento de la vía aérea, generando estridor y tos metálica. La ausencia de tiraje en reposo o cianosis indica compromiso leve, por lo que el tratamiento se basa en corticoide sistémico para reducir el edema. La dexametasona oral es tan efectiva como la parenteral y permite manejo ambulatorio con vigilancia. La adrenalina nebulizada se reserva para casos moderados o graves con estridor en reposo.",
+      "comentario": "Lactante de 18 meses con rinorrea, tos perruna, disfonía y estridor al llanto, presenta cuadro típico de laringotraqueítis viral o crup leve. Fisiopatológicamente, la inflamación subglótica produce estrechamiento de la vía aérea, generando estridor y tos metálica. La ausencia de tiraje en reposo o cianosis indica compromiso leve, por lo que el tratamiento se basa en corticoide sistémico para reducir el edema. La dexametasona oral es tan efectiva como la parenteral y permite manejo ambulatorio con vigilancia. La adrenalina nebulizada se reserva para casos moderados o graves con estridor en reposo.",
+      "tema": "Crup leve: dexametasona oral y manejo ambulatorio",
+      "año": 2025
+    },
+    {
+      "id": "PED-235",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Neonato a término, nace flácido con esfuerzo respiratorio débil, se realiza flujograma de reanimación neonatal y luego de aplicar los pasos iniciales presenta FC de 110 X´ y esfuerzo respiratorio adecuado, cianosis perioral persistente. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Iniciar oxígeno suplementario",
+        "Pasar a cuidados de rutina y reevaluar luego del periodo de adaptación",
+        "Iniciar Ventilación a Presión Positiva",
+        "Continuar con secado y estimulación de mayor intensidad",
+        "Ketorolaco"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Neonato que tras los pasos iniciales tiene FC >100 lpm y respira bien, pero mantiene cianosis central persistente: no necesita ventilación a presión positiva (que se indica si hay apnea, boqueo o FC <100). Lo que corresponde es colocar el oxímetro en la mano derecha y administrar oxígeno suplementario a flujo libre (o CPAP si hay dificultad respiratoria), ajustándolo según la saturación objetivo para los minutos de vida. La cianosis de las manos y los pies (acrocianosis) es normal.",
+      "comentario": "Neonato que tras los pasos iniciales tiene FC >100 lpm y respira bien, pero mantiene cianosis central persistente: no necesita ventilación a presión positiva (que se indica si hay apnea, boqueo o FC <100). Lo que corresponde es colocar el oxímetro en la mano derecha y administrar oxígeno suplementario a flujo libre (o CPAP si hay dificultad respiratoria), ajustándolo según la saturación objetivo para los minutos de vida. La cianosis de las manos y los pies (acrocianosis) es normal.",
+      "tema": "Reanimación neonatal: cianosis persistente con buena respiración, oxígeno suplementario",
+      "año": 2025
+    },
+    {
+      "id": "PED-236",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Escolar de 8 años, previamente sano, con fiebre, tos productiva y vesículas pruriginosas de 3 días en tronco y cara, que se extendieron a extremidades. Examen: T° 39°C, SatO₂ 89%, lesiones en diferentes estadios y cr épitos bibasales. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Iniciar oseltamivir y antibiótico empírico",
+        "Iniciar aciclovir intravenoso y soporte respiratorio",
+        "Manejo sintomático con hidratación y antipiréticos",
+        "Indicar antibiótico oral y continuar manejo ambulatorio",
+        "Observación clínica"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Escolar con cuadro clínico de varicela complicada que presenta fiebre elevada, lesiones vesiculosas en distintos estadios evolutivos y datos respiratorios anormales (SatO₂ 89% y cr épitos bibasales), lo cual sugiere neumonía varicelosa. Esta complicación ocurre principalmente en niños inmunocomprometidos o adultos, pero también puede aparecer en pacientes sanos con alta carga viral. El tratamiento requiere aciclovir intravenoso para inhibir la replicación del virus varicela-zóster y soporte respiratorio según la hipoxemia. Los antibióticos no son útiles a menos que exista sobreinfección bacteriana documentada. El manejo sintomático exclusivo sería insuficiente ante el compromiso pulmonar.",
+      "comentario": "Escolar con cuadro clínico de varicela complicada que presenta fiebre elevada, lesiones vesiculosas en distintos estadios evolutivos y datos respiratorios anormales (SatO₂ 89% y cr épitos bibasales), lo cual sugiere neumonía varicelosa. Esta complicación ocurre principalmente en niños inmunocomprometidos o adultos, pero también puede aparecer en pacientes sanos con alta carga viral. El tratamiento requiere aciclovir intravenoso para inhibir la replicación del virus varicela-zóster y soporte respiratorio según la hipoxemia. Los antibióticos no son útiles a menos que exista sobreinfección bacteriana documentada. El manejo sintomático exclusivo sería insuficiente ante el compromiso pulmonar.",
+      "tema": "Neumonía por varicela: aciclovir intravenoso",
+      "año": 2025
+    },
+    {
+      "id": "PED-237",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Preescolar de 3 años con prurito perianal intenso nocturno y ardor al orinar. Lab: urocultivo negativo, test de Graham positivo. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Metronidazol",
+        "Cefalexina",
+        "Albendazol",
+        "Piperazina",
+        "Diazepam"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro descrito —prurito anal nocturno intenso y test de Graham positivo — es característico de oxiuriasis (Enterobius vermicularis), una parasitosis intestinal común en la infancia. El tratamiento de elección es albendazol, un antihelmíntico de amplio espectro que actúa inhibiendo la captación de glucosa del parásito, provocando su muerte. Debe administrarse una dosis única y repetirse a las dos semanas para eliminar huevos residuales, recomendando además tratar a todos los convivientes y reforzar medidas higiénicas para prevenir reinfestaciones.",
+      "comentario": "El cuadro descrito —prurito anal nocturno intenso y test de Graham positivo — es característico de oxiuriasis (Enterobius vermicularis), una parasitosis intestinal común en la infancia. El tratamiento de elección es albendazol, un antihelmíntico de amplio espectro que actúa inhibiendo la captación de glucosa del parásito, provocando su muerte. Debe administrarse una dosis única y repetirse a las dos semanas para eliminar huevos residuales, recomendando además tratar a todos los convivientes y reforzar medidas higiénicas para prevenir reinfestaciones.",
+      "tema": "Oxiuriasis: albendazol",
+      "año": 2025
+    },
+    {
+      "id": "PED-238",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Lactante de 10 meses con lesiones rojizas morbiliformes en cuello y tronco. Madre refiere fiebre y malestar que cedieron un día antes del exantema. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Exantema súbito",
+        "Sarampión",
+        "Varicela",
+        "Enfermedad de Kawasaki",
+        "Asma bronquial"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro clínico de un lactante con fiebre alta seguida de un exantema morbiliforme que aparece al ceder la fiebre es típico del exantema súbito (roseola infantil), causado por el virus herpes humano tipo 6 (HHV-6). La secuencia temporal —fiebre intensa por 3- 4 días y posterior erupción súbita sin prurito ni descamación— lo diferencia de sarampión o varicela. Es un cuadro benigno y autolimitado, de manejo sintomático, cuyo diagnóstico es clínico. La correlación fisiopatológica radica en la respuesta inmunológica al descenso de la viremia.",
+      "comentario": "El cuadro clínico de un lactante con fiebre alta seguida de un exantema morbiliforme que aparece al ceder la fiebre es típico del exantema súbito (roseola infantil), causado por el virus herpes humano tipo 6 (HHV-6). La secuencia temporal —fiebre intensa por 3- 4 días y posterior erupción súbita sin prurito ni descamación— lo diferencia de sarampión o varicela. Es un cuadro benigno y autolimitado, de manejo sintomático, cuyo diagnóstico es clínico. La correlación fisiopatológica radica en la respuesta inmunológica al descenso de la viremia.",
+      "tema": "Exantema súbito: exantema al ceder la fiebre",
+      "año": 2025
+    },
+    {
+      "id": "PED-239",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "RN prematuro de 27 semanas, tratado con ventilación mecánica y oxígeno prolongado. A los 28 días persiste dificultad respiratoria, RX: hiperinflación y atelectasias. ¿Cuál es el factor predictivo más potente para esta complicación?",
+      "opciones": [
+        "Edad gestacional baja",
+        "Uso de surfactante exógeno",
+        "Infección bacteriana neonatal",
+        "Prematuridad tardía",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El prematuro extremo ventilado con oxígeno prolongado que mantiene dificultad respiratoria y radiografía con hiperinflación y atelectasias sugiere displasia broncopulmonar, una forma crónica de lesión pulmonar secundaria a barotrauma y toxicidad por oxígeno. El factor predictivo más potente es la baja edad gestacional, especialmente <28 semanas, ya que sus pulmones son inmaduros y con deficiencia de surfactante endógeno, lo que los hace vulnerables a daño alveolar y fibrosis. Ni el uso de surfactante ni la infección son causas principales, sino factores contribuyentes.",
+      "comentario": "El prematuro extremo ventilado con oxígeno prolongado que mantiene dificultad respiratoria y radiografía con hiperinflación y atelectasias sugiere displasia broncopulmonar, una forma crónica de lesión pulmonar secundaria a barotrauma y toxicidad por oxígeno. El factor predictivo más potente es la baja edad gestacional, especialmente <28 semanas, ya que sus pulmones son inmaduros y con deficiencia de surfactante endógeno, lo que los hace vulnerables a daño alveolar y fibrosis. Ni el uso de surfactante ni la infección son causas principales, sino factores contribuyentes.",
+      "tema": "Displasia broncopulmonar: la menor edad gestacional es el principal factor de riesgo",
+      "año": 2025
+    },
+    {
+      "id": "PED-240",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Primigesta de 22 años, control postnatal al 5.º día. Refiere que su bebé llora con frecuencia y se prende y suelta del pecho, con pezones adoloridos y agrietados. Observa que el neonato se prende solo del pezón con labios poco evertidos. ¿Sobre qué problema debe enfocar su intervención?",
+      "opciones": [
+        "Técnica inadecuada de agarre en la lactancia",
+        "Incremento del aporte de leche con fórmula",
+        "Mastitis que requiere hospitalización",
+        "Trastorno neurológico en el neonato",
+        "Infección del tracto urinario"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La clínica describe un problema típico de agarre inadecuado al pecho, evidenciado por el dolor y la fisura del pezón, junto al llanto del lactante que no logra succionar eficazmente. El agarre correcto implica que el bebé abarque gran parte de la areola, con labios evertidos y mentón en contacto con el seno. Cuando solo se prende del pezón, no se genera vacío efectivo, causando traumatismo del pezón y pobre extracción de leche. La intervención debe centrarse en corregir la técnica de lactancia, educando sobre posición y contacto madre-hijo. La fórmula no es necesaria si se corrige la técnica a tiempo.",
+      "comentario": "La clínica describe un problema típico de agarre inadecuado al pecho, evidenciado por el dolor y la fisura del pezón, junto al llanto del lactante que no logra succionar eficazmente. El agarre correcto implica que el bebé abarque gran parte de la areola, con labios evertidos y mentón en contacto con el seno. Cuando solo se prende del pezón, no se genera vacío efectivo, causando traumatismo del pezón y pobre extracción de leche. La intervención debe centrarse en corregir la técnica de lactancia, educando sobre posición y contacto madre-hijo. La fórmula no es necesaria si se corrige la técnica a tiempo.",
+      "tema": "Grietas del pezón: técnica inadecuada de agarre",
+      "año": 2025
+    },
+    {
+      "id": "PED-241",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Primigesta con polihidramnios derivada a hospital nivel III. ¿Qué patología debe descartarse en el neonato?",
+      "opciones": [
+        "Hipoplasia pulmonar",
+        "Riñón en herradura",
+        "Atresia de esófago",
+        "Síndrome de Potter",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Paciente primigesta con polihidramnios diagnosticado durante la gestación, hallazgo que sugiere alteración en la deglución fetal. El exceso de líquido amniótico ocurre cuando el feto no puede ingerirlo adecuadamente, por obstrucción o déficit neuromuscular. Dentro de las causas estructurales destaca la atresia de esófago, donde el líquido no pasa al tracto gastrointestinal. La hipoplasia pulmonar es consecuencia de oligohidramnios, no polihidramnios. El síndrome de Potter también se asocia a oligohidramnios por agenesia renal. El riñón en herradura generalmente es asintomático e incidental. Fisiopatológicamente, la atresia evita el drenaje del líquido, acumulándolo en cavidad amniótica. Por ello, esta patología debe descartarse prioritariamente en el neonato.",
+      "comentario": "Paciente primigesta con polihidramnios diagnosticado durante la gestación, hallazgo que sugiere alteración en la deglución fetal. El exceso de líquido amniótico ocurre cuando el feto no puede ingerirlo adecuadamente, por obstrucción o déficit neuromuscular. Dentro de las causas estructurales destaca la atresia de esófago, donde el líquido no pasa al tracto gastrointestinal. La hipoplasia pulmonar es consecuencia de oligohidramnios, no polihidramnios. El síndrome de Potter también se asocia a oligohidramnios por agenesia renal. El riñón en herradura generalmente es asintomático e incidental. Fisiopatológicamente, la atresia evita el drenaje del líquido, acumulándolo en cavidad amniótica. Por ello, esta patología debe descartarse prioritariamente en el neonato.",
+      "tema": "Polihidramnios: descartar atresia de esófago",
+      "año": 2025
     }
   ]
 }

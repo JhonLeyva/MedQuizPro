@@ -1973,6 +1973,196 @@
       "comentario": "En niños con VIH, un resultado positivo se define con induración ≥5 mm. Una medida de 4 mm se considera negativa. Los valores mayores (10-15 mm) son relevantes en pacientes inmunocompetentes.",
       "tema": "PPD en el niño con VIH: <5 mm es negativo",
       "año": 2024
+    },
+    {
+      "id": "INF-105",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Interno de medicina reporta lesión cortante en la palma de la mano durante atención en emergencia ¿Cómo clasifica esta exposición al VIH?",
+      "opciones": [
+        "Negligencia",
+        "De riesgo",
+        "Ocupacional",
+        "Incidente adverso",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El interno sufre una lesión cortante durante la atención en emergencia, lo cual implica contacto directo con sangre y posibles fluidos contaminados, en un ambiente clínico. Este tipo de accidente se clasifica como una exposición ocupacional, definida como aquella que ocurre en el contexto del trabajo asistencial y con potencial riesgo de transmisión de VIH u otras infecciones. No es una negligencia, pues no hay evidencia de mala práctica intencional; tampoco es un incidente adverso según la definición del sistema de notificación de eventos relacionados a la atención médica. Aunque sí representa un riesgo, la clasificación técnica y legal adecuada en salud pública es “ocupacional”, lo cual justifica medidas como el reporte inmediato, evaluación de la fuente y profilaxis postexposición.",
+      "comentario": "El interno sufre una lesión cortante durante la atención en emergencia, lo cual implica contacto directo con sangre y posibles fluidos contaminados, en un ambiente clínico. Este tipo de accidente se clasifica como una exposición ocupacional, definida como aquella que ocurre en el contexto del trabajo asistencial y con potencial riesgo de transmisión de VIH u otras infecciones. No es una negligencia, pues no hay evidencia de mala práctica intencional; tampoco es un incidente adverso según la definición del sistema de notificación de eventos relacionados a la atención médica. Aunque sí representa un riesgo, la clasificación técnica y legal adecuada en salud pública es “ocupacional”, lo cual justifica medidas como el reporte inmediato, evaluación de la fuente y profilaxis postexposición.",
+      "tema": "Accidente punzocortante del personal de salud: exposición ocupacional",
+      "año": 2024
+    },
+    {
+      "id": "INF-106",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 23 años, soltero, desde hace 12 días fiebre y malestar general. Hace 2 meses tuvo una úlcera en glande, no dolorosa y que luego desapareció sin ningún tratamiento. Examen: pápulas en ambas palmas, de color marrón. Lab: HIV negativo, RPR 1/320, TPHA 1/160. ¿Qué tratamiento le prescribiría?",
+      "opciones": [
+        "Ceftriaxona",
+        "Penicilina Benzatínica",
+        "Azitromicina",
+        "Ciprofloxacina",
+        "Atropina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Úlcera genital indolora que curó sola hace 2 meses (chancro) y ahora fiebre con pápulas marrones en palmas: sífilis secundaria, confirmada por RPR 1/320 y TPHA reactivo. El tratamiento de elección de la sífilis temprana (primaria, secundaria o latente precoz) es penicilina G benzatínica 2,4 millones UI IM en dosis única. La ceftriaxona y la azitromicina son alternativas solo ante alergia a penicilina, y el ciprofloxacino no trata la sífilis.",
+      "comentario": "Úlcera genital indolora que curó sola hace 2 meses (chancro) y ahora fiebre con pápulas marrones en palmas: sífilis secundaria, confirmada por RPR 1/320 y TPHA reactivo. El tratamiento de elección de la sífilis temprana (primaria, secundaria o latente precoz) es penicilina G benzatínica 2,4 millones UI IM en dosis única. La ceftriaxona y la azitromicina son alternativas solo ante alergia a penicilina, y el ciprofloxacino no trata la sífilis.",
+      "tema": "Sífilis secundaria: penicilina benzatínica",
+      "año": 2024
+    },
+    {
+      "id": "INF-107",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Medico serumista de 25 años, viajará a Chanchamayo para trabajar por un año. ¿Cuántos días antes del viaje, como mínimo, debe ponerse la vacuna contra fiebre amarilla para desarrollar inmunidad?",
+      "opciones": [
+        "30",
+        "20",
+        "5",
+        "10",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La vacuna contra la fiebre amarilla debe aplicarse al menos 10 días antes del viaje a zonas endémicas para que el cuerpo desarrolle inmunidad protectora. Este es el mínimo requerido para que la persona esté inmunizada y además sea válida para el certificado internacional de vacunación. La OMS y el CDC recomiendan esta anticipación mínima para viajeros a zonas como la selva central del Perú.",
+      "comentario": "La vacuna contra la fiebre amarilla debe aplicarse al menos 10 días antes del viaje a zonas endémicas para que el cuerpo desarrolle inmunidad protectora. Este es el mínimo requerido para que la persona esté inmunizada y además sea válida para el certificado internacional de vacunación. La OMS y el CDC recomiendan esta anticipación mínima para viajeros a zonas como la selva central del Perú.",
+      "tema": "Vacuna contra la fiebre amarilla: al menos 10 días antes del viaje",
+      "año": 2024
+    },
+    {
+      "id": "INF-108",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 21 años, acude por dolor anal, urgencia defecatoria con secreción mucopurulenta. Hace 4 días coito anal receptivo. ¿Cuál es el agente causal más probable?",
+      "opciones": [
+        "Neisseria gonorrhoeae",
+        "Yersinia enterocolítica",
+        "Cryptosporidium hominis",
+        "Treponema pallidum",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Proctitis aguda (dolor anal, tenesmo o urgencia defecatoria y secreción mucopurulenta) pocos días después de un coito anal receptivo: es una infección de transmisión sexual, y el agente más frecuente es Neisseria gonorrhoeae, seguido de Chlamydia trachomatis. Se trata empíricamente con ceftriaxona más doxiciclina. Treponema pallidum produce un chancro anal, Cryptosporidium diarrea acuosa, y Yersinia una enterocolitis por alimentos, no una proctitis de transmisión sexual.",
+      "comentario": "Proctitis aguda (dolor anal, tenesmo o urgencia defecatoria y secreción mucopurulenta) pocos días después de un coito anal receptivo: es una infección de transmisión sexual, y el agente más frecuente es Neisseria gonorrhoeae, seguido de Chlamydia trachomatis. Se trata empíricamente con ceftriaxona más doxiciclina. Treponema pallidum produce un chancro anal, Cryptosporidium diarrea acuosa, y Yersinia una enterocolitis por alimentos, no una proctitis de transmisión sexual.",
+      "tema": "Proctitis tras coito anal receptivo: gonococo",
+      "año": 2025
+    },
+    {
+      "id": "INF-109",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 34 años en cuarto mes de tratamiento TB sensible; persiste baciloscopía positiva. ¿Cómo considera el caso según la evolución?",
+      "opciones": [
+        "Reacción adversa",
+        "Pérdida en el seguimiento",
+        "Fracaso bacteriológico",
+        "Conversión bacteriológica",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Según la norma técnica de tuberculosis del MINSA, se considera fracaso al tratamiento de la TB sensible cuando la baciloscopía o el cultivo siguen positivos a partir del cuarto mes de tratamiento (o se positivizan de nuevo tras haberse negativizado). Esta paciente, en su cuarto mes con baciloscopía positiva, es un fracaso bacteriológico: se debe solicitar prueba de sensibilidad (molecular y convencional) para descartar resistencia. La conversión es la negativización del esputo, y la pérdida en el seguimiento es la interrupción del tratamiento por 30 días o más.",
+      "comentario": "Según la norma técnica de tuberculosis del MINSA, se considera fracaso al tratamiento de la TB sensible cuando la baciloscopía o el cultivo siguen positivos a partir del cuarto mes de tratamiento (o se positivizan de nuevo tras haberse negativizado). Esta paciente, en su cuarto mes con baciloscopía positiva, es un fracaso bacteriológico: se debe solicitar prueba de sensibilidad (molecular y convencional) para descartar resistencia. La conversión es la negativización del esputo, y la pérdida en el seguimiento es la interrupción del tratamiento por 30 días o más.",
+      "tema": "Tuberculosis con baciloscopía positiva al cuarto mes: fracaso",
+      "año": 2025
+    },
+    {
+      "id": "INF-110",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 24 años, HSH que hace 9 días tiene relación sexual con pareja casual sin protección, a los cinco días presenta fiebre, malestar general, pápula indolora en genitales que cicatrizó en forma espontánea luego tumefacción dolorosa en región inguinal y femoral. Examen: ganglios linfáticos inguinales con bubones, fístulas y secreción seropurulenta. ¿Cuál es el agente causal más probable?",
+      "opciones": [
+        "Mycoplasma genitalium",
+        "Neisseria gonorrhoeae",
+        "Chlamydia trachomatis",
+        "Haemophilus ducreyi",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón que tuvo sexo sin protección, con una pápula genital indolora que curó sola y luego bubones inguinales dolorosos que fistulizan (a veces con el signo del surco, por afectación inguinal y femoral): linfogranuloma venéreo, causado por Chlamydia trachomatis serotipos L1, L2 y L3. Se trata con doxiciclina 100 mg cada 12 horas por 21 días. Haemophilus ducreyi (chancroide) produce úlceras dolorosas de fondo sucio con adenopatía, y la gonorrea causa uretritis purulenta.",
+      "comentario": "Varón que tuvo sexo sin protección, con una pápula genital indolora que curó sola y luego bubones inguinales dolorosos que fistulizan (a veces con el signo del surco, por afectación inguinal y femoral): linfogranuloma venéreo, causado por Chlamydia trachomatis serotipos L1, L2 y L3. Se trata con doxiciclina 100 mg cada 12 horas por 21 días. Haemophilus ducreyi (chancroide) produce úlceras dolorosas de fondo sucio con adenopatía, y la gonorrea causa uretritis purulenta.",
+      "tema": "Linfogranuloma venéreo: Chlamydia trachomatis",
+      "año": 2025
+    },
+    {
+      "id": "INF-111",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 20 años sin antecedentes acude a emergencia por 5 días de inicio repentino de cólico periumbilical y diarrea, de 4 a 6 deposiciones con sangre por día. Hace 2 días tuvo fiebre y dolores musculares generalizados. El dolor se irradia al hemiabdomen inferior. Niega náuseas o vómitos. No tiene antecedentes de viajes recientes. Su temperatura es de 38.2 °C. Examen abdominal: dolor leve a la palpación profunda en mesogastrio y flancos y los ruidos intestinales están aumentados. No hay peritonismo. Una muestra de heces muestra numerosos leucocitos y sangre oculta positiva. Además de rehidratación oral. ¿Qué tratamiento debe indicar?",
+      "opciones": [
+        "Metronidazol",
+        "Sulfametoxazol",
+        "Ciprofloxacina",
+        "Loperamida",
+        "Ceftriaxona"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Adulto con diarrea disentérica aguda (sangre y leucocitos en heces), fiebre y dolor abdominal: diarrea bacteriana invasiva, probablemente por Shigella, Campylobacter o Salmonella. Además de la rehidratación oral, está indicado un antibiótico; en el adulto se usa ciprofloxacino (o azitromicina si se sospecha resistencia o Campylobacter). La loperamida está contraindicada en la diarrea con sangre y fiebre, y el metronidazol se reserva para amebiasis o giardiasis.",
+      "comentario": "Adulto con diarrea disentérica aguda (sangre y leucocitos en heces), fiebre y dolor abdominal: diarrea bacteriana invasiva, probablemente por Shigella, Campylobacter o Salmonella. Además de la rehidratación oral, está indicado un antibiótico; en el adulto se usa ciprofloxacino (o azitromicina si se sospecha resistencia o Campylobacter). La loperamida está contraindicada en la diarrea con sangre y fiebre, y el metronidazol se reserva para amebiasis o giardiasis.",
+      "tema": "Diarrea disentérica del adulto: ciprofloxacino",
+      "año": 2025
+    },
+    {
+      "id": "INF-112",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 18 años, natural y procedente de Huancayo, presenta por primera vez convulsiones tónico-clónicas. Refiere hace 1 año episodios de cefalea y alucinaciones visuales. RM cerebral: múltiples quistes parenquimatosos viables con edema perilesional y algunas lesiones calcificadas. ¿Cuál es el tratamiento etiológico más adecuado?",
+      "opciones": [
+        "Levamizol VO",
+        "Niclosamida VO",
+        "Albendazol VO",
+        "Mebendazol VO",
+        "Diazepam"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón joven de zona endémica andina con convulsiones, cefalea y lesiones quísticas viables con calcificaciones cerebrales orienta a neurocisticercosis, producida por Taenia solium en su fase larvaria. La fisiopatología implica invasión del parénquima cerebral por cisticercos que generan respuesta inflamatoria local, edema y crisis epilépticas. El tratamiento etiológico busca eliminar las formas viables mediante albendazol, que actúa inhibiendo la polimerización de tubulina del parásito, provocando su degeneración. Debe asociarse a corticoides para reducir el edema inflamatorio y anticonvulsivantes para controlar crisis. Mebendazol y niclosamida no son eficaces a nivel tisular.",
+      "comentario": "Varón joven de zona endémica andina con convulsiones, cefalea y lesiones quísticas viables con calcificaciones cerebrales orienta a neurocisticercosis, producida por Taenia solium en su fase larvaria. La fisiopatología implica invasión del parénquima cerebral por cisticercos que generan respuesta inflamatoria local, edema y crisis epilépticas. El tratamiento etiológico busca eliminar las formas viables mediante albendazol, que actúa inhibiendo la polimerización de tubulina del parásito, provocando su degeneración. Debe asociarse a corticoides para reducir el edema inflamatorio y anticonvulsivantes para controlar crisis. Mebendazol y niclosamida no son eficaces a nivel tisular.",
+      "tema": "Neurocisticercosis con quistes viables: albendazol",
+      "año": 2025
+    },
+    {
+      "id": "INF-113",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En zona con presencia comprobada de Aedes aegypti, paciente con 5 días de fiebre, dolor retroocular y prueba positiva para dengue, sin viajes recientes. ¿Cómo se clasifica el caso?",
+      "opciones": [
+        "Probable",
+        "Importado",
+        "Descartado",
+        "Autóctono",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Un caso confirmado de dengue en una persona que no ha viajado y vive en una zona con presencia comprobada de Aedes aegypti se clasifica como autóctono: la infección se adquirió en el mismo lugar, por transmisión local. El caso importado es el que se infectó en otra zona (con antecedente de viaje a un área con transmisión). El caso probable no tiene aún confirmación de laboratorio, y el descartado tiene resultados negativos.",
+      "comentario": "Un caso confirmado de dengue en una persona que no ha viajado y vive en una zona con presencia comprobada de Aedes aegypti se clasifica como autóctono: la infección se adquirió en el mismo lugar, por transmisión local. El caso importado es el que se infectó en otra zona (con antecedente de viaje a un área con transmisión). El caso probable no tiene aún confirmación de laboratorio, y el descartado tiene resultados negativos.",
+      "tema": "Dengue sin viajes en zona con Aedes aegypti: caso autóctono",
+      "año": 2025
+    },
+    {
+      "id": "INF-114",
+      "especialidad": "Infectología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 40 años, contacto domiciliario de caso de tuberculosis bacilífera. Asintomático, PPD 22 mm, radiografía normal. Descartada enfermedad activa. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Iniciar tratamiento completo contra tuberculosis activa (2HRZE/4HR)",
+        "Indicar tratamiento de infección tuberculosa atente con isoniazida",
+        "Repetir la prueba de tuberculina en 3 meses",
+        "No realizar ninguna intervención",
+        "Insulina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paciente, contacto domiciliario de un caso bacilífero, presenta prueba de tuberculina fuertemente positiva (22 mm) y radiografía normal, lo cual descarta enfermedad activa y confirma una infección tuberculosa latente. En este contexto, la conducta indicada es iniciar tratamiento preventivo con isoniazida (6-9 meses) para evitar la progresión a tuberculosis activa. No se justifica repetir la PPD ni administrar el esquema completo para TB activa. Esta estrategia forma parte del control epidemiológico y rompe la cadena de transmisión en contactos de alto riesgo.",
+      "comentario": "El paciente, contacto domiciliario de un caso bacilífero, presenta prueba de tuberculina fuertemente positiva (22 mm) y radiografía normal, lo cual descarta enfermedad activa y confirma una infección tuberculosa latente. En este contexto, la conducta indicada es iniciar tratamiento preventivo con isoniazida (6-9 meses) para evitar la progresión a tuberculosis activa. No se justifica repetir la PPD ni administrar el esquema completo para TB activa. Esta estrategia forma parte del control epidemiológico y rompe la cadena de transmisión en contactos de alto riesgo.",
+      "tema": "Contacto adulto con infección tuberculosa latente: terapia preventiva",
+      "año": 2025
     }
   ]
 }

@@ -1270,6 +1270,63 @@
       "comentario": "La decorticación es el tratamiento de elección cuando hay incarceramiento pulmonar (pulmón atrapado) debido a una corteza fibrótica que impide la reexpansión pulmonar tras el drenaje. Esta condición puede ocurrir como complicación de un empiema pleural crónico o mal resuelto. El procedimiento consiste en retirar la capa fibrosa que envuelve al pulmón, permitiendo que éste se expanda nuevamente. No hay indicación de resección pulmonar (lobectomía o neumonectomía) ni toracoplastía en este caso, ya que no hay destrucción masiva del parénquima ni fístula broncopleural.",
       "tema": "Pulmón atrapado: decorticación",
       "año": 2024
+    },
+    {
+      "id": "NEU-068",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Ante la sospecha clínica de neumonía atípica. ¿Cuál es el antibiótico a indicar?",
+      "opciones": [
+        "Ceftriaxona",
+        "Amoxicilina",
+        "Clindamicina",
+        "Azitromicina",
+        "Paracetamol"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro clínico sugiere una neumonía atípica, que típicamente se presenta con síntomas respiratorios leves a moderados, fiebre, tos seca y patrón radiológico no consolidativo. Los agentes etiológicos más frecuentes incluyen Mycoplasma pneumoniae, Chlamydophila pneumoniae y Legionella pneumophila. Estos patógenos carecen de pared celular o tienen una pared poco convencional, por lo cual los antibióticos betalactámicos como la amoxicilina o ceftriaxona no son efectivos. El tratamiento de elección es un macrólido, como la azitromicina, por su efectividad contra estos microorganismos intracelulares. La clindamicina no cubre adecuadamente estos agentes y se reserva para anaerobios o cocos grampositivos.",
+      "comentario": "El cuadro clínico sugiere una neumonía atípica, que típicamente se presenta con síntomas respiratorios leves a moderados, fiebre, tos seca y patrón radiológico no consolidativo. Los agentes etiológicos más frecuentes incluyen Mycoplasma pneumoniae, Chlamydophila pneumoniae y Legionella pneumophila. Estos patógenos carecen de pared celular o tienen una pared poco convencional, por lo cual los antibióticos betalactámicos como la amoxicilina o ceftriaxona no son efectivos. El tratamiento de elección es un macrólido, como la azitromicina, por su efectividad contra estos microorganismos intracelulares. La clindamicina no cubre adecuadamente estos agentes y se reserva para anaerobios o cocos grampositivos.",
+      "tema": "Neumonía atípica: macrólido",
+      "año": 2024
+    },
+    {
+      "id": "NEU-069",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Albañil de 55 años, consulta por disnea, tos seca y hemoptisis. Antecedente: fumador pesado desde hace 20 años. Examen: no adenopatías cervicales, murmullo vesicular: disminuido en tercio medio de hemitórax derecho y sibilancias en el mismo lado; no crepitantes. ¿Qué examen solicita inicialmente?",
+      "opciones": [
+        "Gammagrafía pulmonar",
+        "PET scan",
+        "Tomografia de torax",
+        "Ecografía pulmonar",
+        "Todas las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón fumador pesado de 55 años con tos, disnea, hemoptisis, hipoventilación localizada y sibilancias unilaterales (sugieren obstrucción bronquial): se debe descartar un cáncer de pulmón. Entre las opciones, el examen inicial indicado es la tomografía de tórax con contraste, que caracteriza la lesión, los ganglios y guía la broncoscopia para obtener biopsia. El PET se usa después para la estadificación, y la gammagrafía y la ecografía pulmonar no sirven para evaluar una masa central.",
+      "comentario": "Varón fumador pesado de 55 años con tos, disnea, hemoptisis, hipoventilación localizada y sibilancias unilaterales (sugieren obstrucción bronquial): se debe descartar un cáncer de pulmón. Entre las opciones, el examen inicial indicado es la tomografía de tórax con contraste, que caracteriza la lesión, los ganglios y guía la broncoscopia para obtener biopsia. El PET se usa después para la estadificación, y la gammagrafía y la ecografía pulmonar no sirven para evaluar una masa central.",
+      "tema": "Hemoptisis en fumador: tomografía de tórax",
+      "año": 2025
+    },
+    {
+      "id": "NEU-070",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 68 años, con EPOC mal controlado, presenta disnea progresiva. Refiere tos con escasa expectoración amarillenta. Examen: PA 135/80 mmHg, FC 110 X', FR 28 X', T 36.2°C, SatO₂ 86%. Politirajes, MV disminuido, sibilancias difusas bilaterales. Lab: pH 7.29, pCO₂ 65 mmHg, pO₂ 55 mmHg, HCO₃⁻ 29 mEq/l. RX: Hiperinsuflación pulmonar, diafragma aplanado, sin consolidaciones. ¿Cuál es el tratamiento inicial más adecuado?",
+      "opciones": [
+        "Broncodilatadores + mucolíticos + antibióticos",
+        "Broncodilatadores + corticoides + oxígeno controlado",
+        "Antibióticos + corticoides + mucolíticos",
+        "Corticoides + broncodilatadores + oxígeno a alto flujo",
+        "Metronidazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "EPOC con exacerbación aguda y acidosis respiratoria (pH 7,29, pCO₂ 65 mmHg) sin neumonía: se trata con broncodilatadores de acción corta (salbutamol e ipratropio), corticoides sistémicos (prednisona 40 mg por 5 días) y oxígeno controlado para una SatO₂ de 88-92 %, porque el oxígeno a alto flujo puede empeorar la hipercapnia. Con pH <7,35 y pCO₂ >45 mmHg está indicada además la ventilación no invasiva. Los antibióticos se indican si aumenta la purulencia del esputo, y los mucolíticos no forman parte del manejo agudo.",
+      "comentario": "EPOC con exacerbación aguda y acidosis respiratoria (pH 7,29, pCO₂ 65 mmHg) sin neumonía: se trata con broncodilatadores de acción corta (salbutamol e ipratropio), corticoides sistémicos (prednisona 40 mg por 5 días) y oxígeno controlado para una SatO₂ de 88-92 %, porque el oxígeno a alto flujo puede empeorar la hipercapnia. Con pH <7,35 y pCO₂ >45 mmHg está indicada además la ventilación no invasiva. Los antibióticos se indican si aumenta la purulencia del esputo, y los mucolíticos no forman parte del manejo agudo.",
+      "tema": "Exacerbación de EPOC con hipercapnia: broncodilatadores, corticoides y oxígeno controlado",
+      "año": 2025
     }
   ]
 }

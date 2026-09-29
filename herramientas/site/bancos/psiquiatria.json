@@ -776,6 +776,25 @@
       "comentario": "La paciente presenta un cuadro compatible con psicosis paranoide, caracterizado por ideas delirantes de perjuicio y persecución, como el temor a ser envenenada y la creencia de que sus hermanos conspiran contra ella. Además, interpreta de manera delirante estímulos externos, como el ruido de un avión. Este tipo de psicosis se asocia con la esquizofrenia paranoide, donde predominan los delirios sistematizados y las alucinaciones auditivas o persecutorias. Es fundamental una evaluación psiquiátrica para confirmar el diagnóstico e iniciar tratamiento con antipsicóticos, además de un abordaje psicosocial para mejorar su funcionalidad.",
       "tema": "Psicosis paranoide",
       "año": 2024
+    },
+    {
+      "id": "PSI-042",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Escolar de 12 años presenta desde hace 1 año, episodios de ingesta incontrolada y atracones de comida, seguidos de vómitos autoprovocados. Examen: FC 72 X´, FR 18 X´, PA 90/60 mmHg. Palidez de piel y mucosas. ACV: RC arrítmicos. ¿Cuál es la complicación electrolítica más frecuente?",
+      "opciones": [
+        "Hipercalcemia",
+        "Hipermagnesemia",
+        "Hipernatremia",
+        "Hipokalemia",
+        "Todas las anteriores"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Escolar con cuadro típico de bulimia nerviosa: episodios de atracones seguidos de vómitos autoprovocados. Esta conducta purgativa frecuente conduce a pérdida de electrolitos gástricos, especialmente potasio. La hipokalemia es la complicación electrolítica más frecuente y relevante en estos casos. Clínicamente, puede manifestarse con debilidad, palpitaciones, y arritmias, como se evidencia en el caso por los ruidos cardíacos arrítmicos. La hipokalemia severa puede llevar a arritmias potencialmente mortales, por lo cual debe corregirse con prontitud.",
+      "comentario": "Escolar con cuadro típico de bulimia nerviosa: episodios de atracones seguidos de vómitos autoprovocados. Esta conducta purgativa frecuente conduce a pérdida de electrolitos gástricos, especialmente potasio. La hipokalemia es la complicación electrolítica más frecuente y relevante en estos casos. Clínicamente, puede manifestarse con debilidad, palpitaciones, y arritmias, como se evidencia en el caso por los ruidos cardíacos arrítmicos. La hipokalemia severa puede llevar a arritmias potencialmente mortales, por lo cual debe corregirse con prontitud.",
+      "tema": "Bulimia nerviosa: hipopotasemia",
+      "año": 2024
     }
   ]
 }

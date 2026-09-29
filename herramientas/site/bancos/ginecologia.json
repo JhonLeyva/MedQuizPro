@@ -4424,6 +4424,272 @@
       "comentario": "A las 12 semanas, el útero se palpa en el borde superior del pubis. A medida que progresa el embarazo, sube al nivel umbilical (20 semanas) y más allá (32 semanas). Antes de las 12 semanas, aproximadamente a las 8 semanas es intrapélvico.",
       "tema": "Altura uterina a las 12 semanas: borde del pubis",
       "año": 2024
+    },
+    {
+      "id": "GIN-234",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 22 años, G1P0, acude por amenorrea de 5 semanas y sangrado vaginal escaso. Examen: especuloscopía: no sangrado vaginal. TV: útero de 7 cm ocupado, orificio cervical externo e interno cerrado. Eco TV: diámetro de saco gestacional medio: 10 mm, sin presencia de embrión. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Administrar misoprostol",
+        "Programar para AMEU",
+        "Indicar laparoscopía diagnóstica",
+        "Control posterior ecográfico",
+        "Ibuprofeno"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La paciente presenta una gestación temprana de 5 semanas con un saco gestacional visible de 10 mm sin embrión. En esta etapa, la ausencia de embrión no es necesariamente indicativa de un embarazo anembrionado, ya que aún puede ser demasiado pronto para visualizarlo. La conducta recomendada es un control ecográfico posterior en 7-10 días para evaluar la evolución del saco gestacional y la posible aparición del embrión con actividad cardiaca. No se indica aún misoprostol ni AMEU, ya que no se ha confirmado un embarazo fallido. La laparoscopía diagnóstica no está indicada, pues no hay signos de embarazo ectópico.",
+      "comentario": "La paciente presenta una gestación temprana de 5 semanas con un saco gestacional visible de 10 mm sin embrión. En esta etapa, la ausencia de embrión no es necesariamente indicativa de un embarazo anembrionado, ya que aún puede ser demasiado pronto para visualizarlo. La conducta recomendada es un control ecográfico posterior en 7-10 días para evaluar la evolución del saco gestacional y la posible aparición del embrión con actividad cardiaca. No se indica aún misoprostol ni AMEU, ya que no se ha confirmado un embarazo fallido. La laparoscopía diagnóstica no está indicada, pues no hay signos de embarazo ectópico.",
+      "tema": "Saco gestacional pequeño sin embrión: control ecográfico",
+      "año": 2024
+    },
+    {
+      "id": "GIN-235",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 55 años, sexualmente activa, G5 P5005, acude por sensación de bulto en zona vaginal desde hace 1 año. Tiene antecedente de histerectomía vaginal con cura quirúrgica hace 5 años. Examen: POPQ: con punto C +6. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Cistocele",
+        "Prolapso de cúpula",
+        "Uretrocele",
+        "Rectocele",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Mujer con histerectomía vaginal previa y sensación de bulto vaginal. En el sistema POP-Q, el punto C marca el cuello uterino o, si no hay útero, la cúpula vaginal. Un punto C en +6 significa que la cúpula desciende 6 cm por fuera del himen: es un prolapso de cúpula vaginal (compartimento apical). El cistocele y el uretrocele afectan la pared anterior (puntos Aa y Ba) y el rectocele la pared posterior (puntos Ap y Bp).",
+      "comentario": "Mujer con histerectomía vaginal previa y sensación de bulto vaginal. En el sistema POP-Q, el punto C marca el cuello uterino o, si no hay útero, la cúpula vaginal. Un punto C en +6 significa que la cúpula desciende 6 cm por fuera del himen: es un prolapso de cúpula vaginal (compartimento apical). El cistocele y el uretrocele afectan la pared anterior (puntos Aa y Ba) y el rectocele la pared posterior (puntos Ap y Bp).",
+      "tema": "Prolapso de cúpula vaginal tras histerectomía",
+      "año": 2024
+    },
+    {
+      "id": "GIN-236",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Usted se encuentra en su SERUMS en un centro de salud nivel I - 3, donde acude una gestante de 36 semanas, por presentar epigastralgia desde hace una hora. Examen: PA 150/90 mmHg, AU 30 cm, LCF 140 X'. Dinámica uterina ausente. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Nifedipino y derivar",
+        "Sulfato de magnesio y derivar",
+        "Observación ambulatoria",
+        "Inducción del trabajo de parto",
+        "Derivación a especialista"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Gestante de 36 semanas acude por epigastralgia súbita, con presión arterial elevada (150/90 mmHg), sin dinámica uterina. Esta combinación clínica debe alertar sobre una preeclampsia con síntomas de severidad, siendo la epigastralgia un signo de irritación hepática que puede preceder a un síndrome HELLP o eclampsia. La ausencia de dinámica uterina indica que no está en trabajo de parto. En un centro de salud nivel I-3, lo indicado es estabilizar a la paciente y referirla inmediatamente a un centro con capacidad resolutiva. El sulfato de magnesio es esencial para prevenir convulsiones, por lo que debe iniciarse antes de la derivación. El nifedipino podría usarse para control de PA, pero el manejo anticonvulsivante es prioritario.",
+      "comentario": "Gestante de 36 semanas acude por epigastralgia súbita, con presión arterial elevada (150/90 mmHg), sin dinámica uterina. Esta combinación clínica debe alertar sobre una preeclampsia con síntomas de severidad, siendo la epigastralgia un signo de irritación hepática que puede preceder a un síndrome HELLP o eclampsia. La ausencia de dinámica uterina indica que no está en trabajo de parto. En un centro de salud nivel I-3, lo indicado es estabilizar a la paciente y referirla inmediatamente a un centro con capacidad resolutiva. El sulfato de magnesio es esencial para prevenir convulsiones, por lo que debe iniciarse antes de la derivación. El nifedipino podría usarse para control de PA, pero el manejo anticonvulsivante es prioritario.",
+      "tema": "Preeclampsia con signos de severidad en el primer nivel: sulfato de magnesio y referir",
+      "año": 2024
+    },
+    {
+      "id": "GIN-237",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Gestante de 40 semanas, se le realiza Test no estresante durante 20 minutos, en el que se observa más de 2 movimientos fetales, aceleraciones transitorias típicas, y ausencia de desaceleraciones. El resultado del estado fetal se informa de la siguiente manera:",
+      "opciones": [
+        "Reactivo",
+        "Positivo",
+        "Insatisfactorio",
+        "Negativo",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El test no estresante (NST) evalúa la reactividad de la frecuencia cardiaca fetal. Es reactivo cuando en 20 minutos hay al menos 2 aceleraciones (≥15 latidos por 15 segundos a término) asociadas a movimientos fetales, con variabilidad normal y sin desaceleraciones: indica bienestar fetal. Los términos positivo y negativo se usan para el test estresante (prueba de tolerancia a las contracciones), no para el NST. Es no reactivo si no cumple esos criterios tras 40 minutos.",
+      "comentario": "El test no estresante (NST) evalúa la reactividad de la frecuencia cardiaca fetal. Es reactivo cuando en 20 minutos hay al menos 2 aceleraciones (≥15 latidos por 15 segundos a término) asociadas a movimientos fetales, con variabilidad normal y sin desaceleraciones: indica bienestar fetal. Los términos positivo y negativo se usan para el test estresante (prueba de tolerancia a las contracciones), no para el NST. Es no reactivo si no cumple esos criterios tras 40 minutos.",
+      "tema": "Test no estresante reactivo",
+      "año": 2025
+    },
+    {
+      "id": "GIN-238",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "En la evaluación del prolapso genital, según la evaluación POPQ el punto Aa corresponde a:",
+      "opciones": [
+        "Cervix",
+        "Fornix anterior",
+        "Union uretrovesical",
+        "Fornix posterior",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el sistema POP-Q, el punto Aa se ubica en la línea media de la pared vaginal anterior, 3 cm proximal al meato uretral externo, y corresponde aproximadamente a la unión uretrovesical. Su rango va de -3 a +3. El punto Ba es el punto más declive del resto de la pared anterior, el punto C es el cuello uterino (o la cúpula tras la histerectomía) y el punto D el fondo de saco posterior (fórnix posterior).",
+      "comentario": "En el sistema POP-Q, el punto Aa se ubica en la línea media de la pared vaginal anterior, 3 cm proximal al meato uretral externo, y corresponde aproximadamente a la unión uretrovesical. Su rango va de -3 a +3. El punto Ba es el punto más declive del resto de la pared anterior, el punto C es el cuello uterino (o la cúpula tras la histerectomía) y el punto D el fondo de saco posterior (fórnix posterior).",
+      "tema": "POP-Q: el punto Aa corresponde a la unión uretrovesical",
+      "año": 2025
+    },
+    {
+      "id": "GIN-239",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Primigesta de 38 semanas, acude por cefalea y escotomas. Examen: PA 160/100 mm Hg, FC 72 X'. Abdomen: AU 32 cm, SPP: LCI. Laboratorio: Plaquetas 80 000 µL, TGO 80 U/L, TGP 95 U/L, DHL 700 UI/L. ¿Cuál es la complicación más probable que podría presentar la paciente?",
+      "opciones": [
+        "Desprendimiento prematuro de placenta",
+        "Placenta previa",
+        "Parto postérmino",
+        "Ruptura prematura de membranas",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Primigesta de 38 semanas con PA de 160/100 mmHg, cefalea, escotomas, plaquetas de 80 000, transaminasas elevadas y DHL de 700 UI/L: preeclampsia con signos de severidad y síndrome HELLP. Entre las opciones, la complicación más probable es el desprendimiento prematuro de placenta normoinserta, cuyo riesgo aumenta por la hipertensión grave y el daño endotelial. Otras complicaciones del HELLP son la CID, la eclampsia, el hematoma hepático, la insuficiencia renal y el edema pulmonar. La placenta previa y la rotura de membranas no guardan relación con la preeclampsia.",
+      "comentario": "Primigesta de 38 semanas con PA de 160/100 mmHg, cefalea, escotomas, plaquetas de 80 000, transaminasas elevadas y DHL de 700 UI/L: preeclampsia con signos de severidad y síndrome HELLP. Entre las opciones, la complicación más probable es el desprendimiento prematuro de placenta normoinserta, cuyo riesgo aumenta por la hipertensión grave y el daño endotelial. Otras complicaciones del HELLP son la CID, la eclampsia, el hematoma hepático, la insuficiencia renal y el edema pulmonar. La placenta previa y la rotura de membranas no guardan relación con la preeclampsia.",
+      "tema": "Síndrome HELLP: riesgo de desprendimiento prematuro de placenta",
+      "año": 2025
+    },
+    {
+      "id": "GIN-240",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Primigesta de 24 semanas, con diagnóstico de diabetes gestacional. Se indica tratamiento dietético y ejercicios y durante sus controles de glucosa, presenta niveles de glicemia en ayunas entre 130 mg/dl-140 mg/dl. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Aumentar ejercicio",
+        "Usar metformina",
+        "Ajustar dieta diabética",
+        "Iniciar insulina",
+        "Ibuprofeno"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Primigesta con diabetes gestacional diagnosticada a las 24 semanas, en manejo dietético y ejercicio físico. La persistencia de glicemias en ayunas elevadas (130– 140 mg/dl) pese al tratamiento no farmacológico evidencia falla del manejo inicial. La guía actual recomienda iniciar tratamiento farmacológico cuando la dieta y el ejercicio no logran metas glucémicas (<95 mg/dl en ayunas). La metformina es una opción válida en gestantes, ya que atraviesa la placenta, pero su perfil de seguridad ha sido respaldado en estudios recientes. La elección entre metformina e insulina depende de la disponibilidad, adherencia y riesgos asociados, pero metformina suele preferirse como primer escalón farmacológico en algunos protocolos.",
+      "comentario": "Primigesta con diabetes gestacional diagnosticada a las 24 semanas, en manejo dietético y ejercicio físico. La persistencia de glicemias en ayunas elevadas (130– 140 mg/dl) pese al tratamiento no farmacológico evidencia falla del manejo inicial. La guía actual recomienda iniciar tratamiento farmacológico cuando la dieta y el ejercicio no logran metas glucémicas (<95 mg/dl en ayunas). La metformina es una opción válida en gestantes, ya que atraviesa la placenta, pero su perfil de seguridad ha sido respaldado en estudios recientes. La elección entre metformina e insulina depende de la disponibilidad, adherencia y riesgos asociados, pero metformina suele preferirse como primer escalón farmacológico en algunos protocolos.",
+      "tema": "Diabetes gestacional sin control con dieta: insulina",
+      "año": 2025
+    },
+    {
+      "id": "GIN-241",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Multípara de 8 semanas. Acude por emergencia con dolor pélvico y sangrado vaginal. Afebril, con orificios cervicales cerrados. En la ecografía se observa embrión de 8 mm sin actividad cardíaca. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Aborto séptico",
+        "Aborto retenido",
+        "Aborto completo",
+        "Amenaza de aborto",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Gestante de 8 semanas con sangrado y dolor, cuello cerrado y un embrión de 8 mm sin actividad cardiaca: es un aborto retenido (pérdida gestacional temprana con el producto muerto retenido en el útero). Un embrión con longitud cráneo-caudal ≥7 mm sin latido confirma la muerte embrionaria. En la amenaza de aborto el embrión tiene latido; el aborto completo ya expulsó el contenido y el séptico cursa con fiebre e infección.",
+      "comentario": "Gestante de 8 semanas con sangrado y dolor, cuello cerrado y un embrión de 8 mm sin actividad cardiaca: es un aborto retenido (pérdida gestacional temprana con el producto muerto retenido en el útero). Un embrión con longitud cráneo-caudal ≥7 mm sin latido confirma la muerte embrionaria. En la amenaza de aborto el embrión tiene latido; el aborto completo ya expulsó el contenido y el séptico cursa con fiebre e infección.",
+      "tema": "Embrión sin actividad cardiaca con cuello cerrado: aborto retenido",
+      "año": 2025
+    },
+    {
+      "id": "GIN-242",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Nulípara de 35 años, quien presentó diagnóstico de embarazo ectópico y recibió tratamiento exitoso con metrotexate. ¿Cuántos meses después de la terapia se recomienda que pueda tener un nuevo embarazo?",
+      "opciones": [
+        "1",
+        "3",
+        "6",
+        "2",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Tras el tratamiento de un embarazo ectópico con metotrexato, se recomienda esperar al menos 3 meses antes de buscar un nuevo embarazo. El metotrexato es un antagonista del ácido fólico con potencial teratogénico, y ese intervalo permite eliminarlo del organismo y recuperar los depósitos de folato. Durante ese tiempo se usa anticoncepción y conviene suplementar ácido fólico.",
+      "comentario": "Tras el tratamiento de un embarazo ectópico con metotrexato, se recomienda esperar al menos 3 meses antes de buscar un nuevo embarazo. El metotrexato es un antagonista del ácido fólico con potencial teratogénico, y ese intervalo permite eliminarlo del organismo y recuperar los depósitos de folato. Durante ese tiempo se usa anticoncepción y conviene suplementar ácido fólico.",
+      "tema": "Ectópico tratado con metotrexato: esperar 3 meses para un nuevo embarazo",
+      "año": 2025
+    },
+    {
+      "id": "GIN-243",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Primigesta de 29 semanas, acude por dolor tipo contracción. Se diagnostica amenaza de parto pretérmino y se indica tocólisis con nifedipino. ¿En cuál de las siguientes condiciones maternas está contraindicado su uso?",
+      "opciones": [
+        "Insuficiencia hepática",
+        "Insuficiencia renal",
+        "Insuficiencia cardiaca",
+        "Diabetes mellitus",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El nifedipino, bloqueador de canales de calcio, es un tocolítico de primera línea, pero produce vasodilatación, hipotensión, taquicardia refleja y efecto inotrópico negativo. Por eso está contraindicado en gestantes con insuficiencia cardiaca o disfunción ventricular izquierda, cardiopatías con gasto dependiente de precarga, hipotensión y cuando se usa junto con sulfato de magnesio. La diabetes no contraindica el nifedipino, pero sí los betamiméticos, que elevan la glucemia.",
+      "comentario": "El nifedipino, bloqueador de canales de calcio, es un tocolítico de primera línea, pero produce vasodilatación, hipotensión, taquicardia refleja y efecto inotrópico negativo. Por eso está contraindicado en gestantes con insuficiencia cardiaca o disfunción ventricular izquierda, cardiopatías con gasto dependiente de precarga, hipotensión y cuando se usa junto con sulfato de magnesio. La diabetes no contraindica el nifedipino, pero sí los betamiméticos, que elevan la glucemia.",
+      "tema": "Tocólisis con nifedipino: contraindicada en insuficiencia cardiaca",
+      "año": 2025
+    },
+    {
+      "id": "GIN-244",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Primigesta de 34 años, tuvo trabajo de parto disfuncional y distocia de hombros, secundario a macrosomía fetal. ¿Cuál de las siguientes condiciones maternas pudo haber presentado la paciente durante su gestación?",
+      "opciones": [
+        "Diabetes gestacional",
+        "Infección urinaria recurrente",
+        "Preeclampsia severa",
+        "Ruptura prematura de membranas",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La macrosomía fetal (peso mayor de 4000 g) predispone a trabajo de parto disfuncional y a distocia de hombros. La causa materna más frecuente es la diabetes gestacional: la hiperglucemia materna produce hiperinsulinismo fetal, que estimula el crecimiento y el depósito de grasa en hombros y tronco. Otros factores son la obesidad materna, la ganancia excesiva de peso y el embarazo prolongado. La preeclampsia, en cambio, se asocia a restricción del crecimiento fetal.",
+      "comentario": "La macrosomía fetal (peso mayor de 4000 g) predispone a trabajo de parto disfuncional y a distocia de hombros. La causa materna más frecuente es la diabetes gestacional: la hiperglucemia materna produce hiperinsulinismo fetal, que estimula el crecimiento y el depósito de grasa en hombros y tronco. Otros factores son la obesidad materna, la ganancia excesiva de peso y el embarazo prolongado. La preeclampsia, en cambio, se asocia a restricción del crecimiento fetal.",
+      "tema": "Macrosomía y distocia de hombros: diabetes gestacional",
+      "año": 2025
+    },
+    {
+      "id": "GIN-245",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "De acuerdo con la escala de Bishop, ¿Cuál es la puntuación total para una gestante con: posición cervical media, consistencia media, borramiento 50%, dilatación 2 cm y altura de presentación -3?",
+      "opciones": [
+        "4",
+        "3",
+        "5",
+        "6",
+        "Faltan datos para decidir"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La escala de Bishop puntúa cinco parámetros. Dilatación: 0 cm = 0, 1-2 cm = 1, 3-4 cm = 2, ≥5 cm = 3. Borramiento: 0-30 % = 0, 40-50 % = 1, 60-70 % = 2, ≥80 % = 3. Altura de la presentación: -3 = 0, -2 = 1, -1/0 = 2, +1/+2 = 3. Consistencia: firme = 0, media = 1, blanda = 2. Posición: posterior = 0, media = 1, anterior = 2. En este caso: dilatación 2 cm (1) + borramiento 50 % (1) + altura -3 (0) + consistencia media (1) + posición media (1) = 4 puntos, un cuello desfavorable (menos de 6).",
+      "comentario": "La escala de Bishop puntúa cinco parámetros. Dilatación: 0 cm = 0, 1-2 cm = 1, 3-4 cm = 2, ≥5 cm = 3. Borramiento: 0-30 % = 0, 40-50 % = 1, 60-70 % = 2, ≥80 % = 3. Altura de la presentación: -3 = 0, -2 = 1, -1/0 = 2, +1/+2 = 3. Consistencia: firme = 0, media = 1, blanda = 2. Posición: posterior = 0, media = 1, anterior = 2. En este caso: dilatación 2 cm (1) + borramiento 50 % (1) + altura -3 (0) + consistencia media (1) + posición media (1) = 4 puntos, un cuello desfavorable (menos de 6).",
+      "tema": "Escala de Bishop: cálculo del puntaje",
+      "año": 2025
+    },
+    {
+      "id": "GIN-246",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Gestante a término en trabajo de parto espontáneo presenta 6 a 7 contracciones en 10 minutos según monitoreo uterino de 30 minutos. ¿Cuál es la interpretación?",
+      "opciones": [
+        "Hiperestimulación",
+        "Actividad uterina normal",
+        "Bradisistolia",
+        "Taquisistolia",
+        "Insulina"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Durante el trabajo de parto, una actividad uterina normal corresponde a 3 a 5 contracciones en 10 minutos. Cuando el número excede las 5 contracciones en 10 minutos durante 30 minutos continuos, se define como taquisistolia. Este patrón indica exceso de actividad uterina, generalmente por hiperestimulación con oxitocina o hipersensibilidad uterina, lo que puede comprometer la oxigenación fetal. La diferencia con la hiperestimulación es que esta última incluye taquisistolia más alteraciones del registro fetal. El manejo inicial consiste en suspender uterotónicos y vigilar la respuesta fetal al disminuir la frecuencia contráctil.",
+      "comentario": "Durante el trabajo de parto, una actividad uterina normal corresponde a 3 a 5 contracciones en 10 minutos. Cuando el número excede las 5 contracciones en 10 minutos durante 30 minutos continuos, se define como taquisistolia. Este patrón indica exceso de actividad uterina, generalmente por hiperestimulación con oxitocina o hipersensibilidad uterina, lo que puede comprometer la oxigenación fetal. La diferencia con la hiperestimulación es que esta última incluye taquisistolia más alteraciones del registro fetal. El manejo inicial consiste en suspender uterotónicos y vigilar la respuesta fetal al disminuir la frecuencia contráctil.",
+      "tema": "Más de 5 contracciones en 10 minutos: taquisistolia",
+      "año": 2025
+    },
+    {
+      "id": "GIN-247",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Gestante de 24 semanas se realiza PTGO con 75 g: ayuno 90 mg/dL, 1 hora 160 mg/dL, 2 horas 140 mg/dL. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Resistencia a la insulina",
+        "Gestante no diabética",
+        "Diabetes mellitus tipo 2",
+        "Diabetes gestacional",
+        "Dexametasona"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La prueba de tolerancia oral con 75 g de glucosa entre las 24 y 28 semanas diagnostica diabetes gestacional si al menos un valor alcanza o supera los puntos de corte: ayunas ≥92 mg/dL, 1 hora ≥180 mg/dL o 2 horas ≥153 mg/dL. Esta gestante tiene 90, 160 y 140 mg/dL, todos por debajo de esos límites, por lo que la prueba es normal: es una gestante no diabética y continúa con su control prenatal habitual.",
+      "comentario": "La prueba de tolerancia oral con 75 g de glucosa entre las 24 y 28 semanas diagnostica diabetes gestacional si al menos un valor alcanza o supera los puntos de corte: ayunas ≥92 mg/dL, 1 hora ≥180 mg/dL o 2 horas ≥153 mg/dL. Esta gestante tiene 90, 160 y 140 mg/dL, todos por debajo de esos límites, por lo que la prueba es normal: es una gestante no diabética y continúa con su control prenatal habitual.",
+      "tema": "PTGO de 75 g con valores por debajo del punto de corte: sin diabetes gestacional",
+      "año": 2025
     }
   ]
 }

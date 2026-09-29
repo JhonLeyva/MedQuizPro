@@ -1631,6 +1631,139 @@
       "comentario": "Los hallazgos de presión arterial baja, diarreas copiosas, oliguria, edema y sugieren un cuadro de insuficiencia renal aguda prerrenal (A), probablemente debido a hipoperfusión renal secundaria a la disminución del volumen efectivo, como puede ocurrir en un estado de deshidratación o insuficiencia cardíaca. El FENa < 1% y el sedimento urinario con cilindros hialinos son típicos de insuficiencia renal prerrenal. La insuficiencia renal aguda postrenal (C) es menos probable en ausencia de litiasis renal o HBP en varones.",
       "tema": "Lesión renal aguda prerrenal: FENa <1%",
       "año": 2024
+    },
+    {
+      "id": "NEF-087",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 35 años, operado por criptorquidia hace 25 años. Hace 6 meses nota tumoración sólida en testículo izquierdo que aumenta progresivamente de tamaño y sensación de peso. Examen: tumoración de 5x5 cm, bien delimitada. No se palpan ganglios inguinales. Ecografía: tumoración sólida. ¿Cuál es el marcador que solicita?",
+      "opciones": [
+        "β-hCG",
+        "PSA",
+        "Tiroglobulina",
+        "CA 125",
+        "Prednisona"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Varón de 35 años con antecedente de criptorquidia operada en la infancia, que actualmente presenta una tumoración testicular sólida de crecimiento progresivo. La criptorquidia es un factor de riesgo importante para el desarrollo de tumores germinales testiculares, entre los cuales los seminomas y no seminomas son los más comunes. Frente a un hallazgo ecográfico de masa sólida testicular en un adulto joven, se deben solicitar marcadores tumorales para orientar el diagnóstico: alfa-fetoproteína (AFP), β-hCG y LDH. Entre estos, la β -hCG es especialmente útil porque puede elevarse en seminomas y tumores mixtos, ayudando tanto en el diagnóstico como en el seguimiento.",
+      "comentario": "Varón de 35 años con antecedente de criptorquidia operada en la infancia, que actualmente presenta una tumoración testicular sólida de crecimiento progresivo. La criptorquidia es un factor de riesgo importante para el desarrollo de tumores germinales testiculares, entre los cuales los seminomas y no seminomas son los más comunes. Frente a un hallazgo ecográfico de masa sólida testicular en un adulto joven, se deben solicitar marcadores tumorales para orientar el diagnóstico: alfa-fetoproteína (AFP), β-hCG y LDH. Entre estos, la β -hCG es especialmente útil porque puede elevarse en seminomas y tumores mixtos, ayudando tanto en el diagnóstico como en el seguimiento.",
+      "tema": "Tumor testicular: marcadores tumorales (β-hCG)",
+      "año": 2024
+    },
+    {
+      "id": "NEF-088",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Mujer de 48 años consulta por dolor en región lumbar derecha tipo cólico, irradiado hacia la región de genitales y orinas oscuras. Antecedente de cuadros similares. Examen: FC 98 X´, sudorosa y pálida. Dolor en ángulo costovertebral (++). ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Litotricia extracorpórea",
+        "Analgesia e hidratación",
+        "Reposo y antibiótico",
+        "Diuréticos de asa",
+        "Omeprazol"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Dolor lumbar tipo cólico irradiado a genitales, orina oscura y puñopercusión positiva en una paciente con episodios previos: cólico renal por litiasis. El tratamiento inicial es la analgesia, de preferencia con AINE (diclofenaco o ketorolaco) y, si no basta, opioides, junto con una hidratación adecuada (sin forzar líquidos). La litotricia extracorpórea se reserva para cálculos que no se expulsan, y no están indicados los diuréticos. Los antibióticos solo se usan si hay infección asociada.",
+      "comentario": "Dolor lumbar tipo cólico irradiado a genitales, orina oscura y puñopercusión positiva en una paciente con episodios previos: cólico renal por litiasis. El tratamiento inicial es la analgesia, de preferencia con AINE (diclofenaco o ketorolaco) y, si no basta, opioides, junto con una hidratación adecuada (sin forzar líquidos). La litotricia extracorpórea se reserva para cálculos que no se expulsan, y no están indicados los diuréticos. Los antibióticos solo se usan si hay infección asociada.",
+      "tema": "Cólico renal: analgesia",
+      "año": 2024
+    },
+    {
+      "id": "NEF-089",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2024 · pregunta oficial",
+      "enunciado": "Varón de 28 años, desde hace 10 días con fiebre de 39ºC y dolor en fosa renal izquierda. Examen: PPLI (+), PRUSI (+). Lab: leucocitosis y PCR 20 mg/dl. Ex de orina: hematuria microscópica, leucocituria y piuria. Urocultivo: E. coli sensible. Se inicia tratamiento indicado, pero sintomatología persiste. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Prostatitis aguda",
+        "TB renal",
+        "Absceso renal",
+        "Cáncer renal",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón con cuadro clínico compatible con pielonefritis aguda complicada (fiebre persistente, dolor en fosa renal, signos inflamatorios elevados, urocultivo positivo para E. coli sensible), pero que no mejora con antibiótico adecuado. Esto obliga a sospechar una complicación, siendo la más frecuente en este contexto el absceso renal, que debe confirmarse con imágenes (usualmente TC). La TB renal es más insidiosa y no responde a antibióticos comunes; el cáncer renal generalmente no presenta fiebre ni piuria.",
+      "comentario": "Varón con cuadro clínico compatible con pielonefritis aguda complicada (fiebre persistente, dolor en fosa renal, signos inflamatorios elevados, urocultivo positivo para E. coli sensible), pero que no mejora con antibiótico adecuado. Esto obliga a sospechar una complicación, siendo la más frecuente en este contexto el absceso renal, que debe confirmarse con imágenes (usualmente TC). La TB renal es más insidiosa y no responde a antibióticos comunes; el cáncer renal generalmente no presenta fiebre ni piuria.",
+      "tema": "Pielonefritis que no mejora con antibiótico adecuado: absceso renal",
+      "año": 2024
+    },
+    {
+      "id": "NEF-090",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "¿En cuál de los segmentos del uréter es más probable que se atasque un cálculo urinario?",
+      "opciones": [
+        "Intersección con los vasos espermáticos",
+        "Unión ureterovesical",
+        "Adyacente al músculo psoas mayor",
+        "Intersección con los nervios genitofemorales",
+        "Todas las anteriores"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El uréter tiene tres estrechamientos fisiológicos donde se detienen los cálculos: la unión pieloureteral, el cruce con los vasos ilíacos y la unión ureterovesical. La unión ureterovesical es el segmento más estrecho y el sitio donde con mayor frecuencia se enclava un cálculo, lo que explica el dolor irradiado a genitales y los síntomas miccionales irritativos cuando el cálculo está en el uréter distal.",
+      "comentario": "El uréter tiene tres estrechamientos fisiológicos donde se detienen los cálculos: la unión pieloureteral, el cruce con los vasos ilíacos y la unión ureterovesical. La unión ureterovesical es el segmento más estrecho y el sitio donde con mayor frecuencia se enclava un cálculo, lo que explica el dolor irradiado a genitales y los síntomas miccionales irritativos cuando el cálculo está en el uréter distal.",
+      "tema": "Litiasis ureteral: enclavamiento en la unión ureterovesical",
+      "año": 2025
+    },
+    {
+      "id": "NEF-091",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Mujer de 28 años ingresa por disnea leve y nauseas. Antecedente de pielonefritis a repetición. 2 Examen: palidez terrosa, resto normal. Lab: Hb 8.2 g/dl, filtración glomerular: 12 ml/min/1,72 m2, Eco renal: desdiferenciación córtico medular. ¿Qué trastornos metabólicos podríamos encontrar en este paciente?",
+      "opciones": [
+        "Hiperpotasemia, hiperfosforemia, hipocalcemia y acidosis metabólica",
+        "Hiperpotasemia, hipofosforemia, hipercalcemia y acidosis metabólica",
+        "Hiperpotasemia, hiperfosforemia, hipocalcemia y alcalosis metabólica",
+        "Hipopotasemia, hipofosforemia, hipocalcemia y acidosis metabólica",
+        "Insuficiencia cardíaca"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Mujer con pielonefritis a repetición, filtrado glomerular de 12 mL/min, anemia y riñones con pérdida de la diferenciación córtico-medular: enfermedad renal crónica estadio 5. El riñón no excreta potasio ni fosfato (hiperpotasemia e hiperfosfatemia), no produce calcitriol y el fosfato se une al calcio (hipocalcemia, con hiperparatiroidismo secundario), y no elimina los ácidos fijos ni regenera bicarbonato (acidosis metabólica).",
+      "comentario": "Mujer con pielonefritis a repetición, filtrado glomerular de 12 mL/min, anemia y riñones con pérdida de la diferenciación córtico-medular: enfermedad renal crónica estadio 5. El riñón no excreta potasio ni fosfato (hiperpotasemia e hiperfosfatemia), no produce calcitriol y el fosfato se une al calcio (hipocalcemia, con hiperparatiroidismo secundario), y no elimina los ácidos fijos ni regenera bicarbonato (acidosis metabólica).",
+      "tema": "Enfermedad renal crónica avanzada: hiperpotasemia, hiperfosfatemia, hipocalcemia y acidosis",
+      "año": 2025
+    },
+    {
+      "id": "NEF-092",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón obeso de 30 años, posterior a una liposucción abdominal, presenta un deterioro progresivo del estado de consciencia, convulsiones y coma. Examen: PA 120/80 mmHg, FC 110 X', FR 26 X', T 37 °C, SatO₂ 93% y flebitis en el sitio de infusión. Lab: Na sérico 187 mEq/L. El paciente es intubado y conectado al ventilador mecánico. ¿Cuál es el principal mecanismo que explica el deterioro neurológico agudo?",
+      "opciones": [
+        "Alteración del gradiente osmótico neuronal",
+        "Hipoperfusión cerebral por anestésicos",
+        "Meningoencefalitis con sepsis secundaria",
+        "Embolia grasa con disfunción neurológica",
+        "Síndrome de Guillain-Barré"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Hipernatremia grave (Na 187 mEq/L) con convulsiones y coma. El aumento brusco de la osmolaridad plasmática crea un gradiente osmótico que saca agua de las neuronas: el cerebro se deshidrata y se retrae, lo que causa disfunción neuronal y puede romper venas puente con hemorragias. Por eso aparecen letargia, convulsiones y coma. La corrección debe ser lenta (no más de 10-12 mEq/L al día) para evitar el edema cerebral.",
+      "comentario": "Hipernatremia grave (Na 187 mEq/L) con convulsiones y coma. El aumento brusco de la osmolaridad plasmática crea un gradiente osmótico que saca agua de las neuronas: el cerebro se deshidrata y se retrae, lo que causa disfunción neuronal y puede romper venas puente con hemorragias. Por eso aparecen letargia, convulsiones y coma. La corrección debe ser lenta (no más de 10-12 mEq/L al día) para evitar el edema cerebral.",
+      "tema": "Hipernatremia grave: deshidratación neuronal por gradiente osmótico",
+      "año": 2025
+    },
+    {
+      "id": "NEF-093",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "ENAM 2025 · pregunta oficial",
+      "enunciado": "Varón de 57 años con diabetes mellitus y enfermedad renal crónica (creatinina basal 1.8 mg/dL) se somete a cateterismo cardíaco por infarto agudo de miocardio. Desarrolla insuficiencia renal aguda atribuida al medio de contraste yodado. ¿Cuál de las siguientes afirmaciones es correcta respecto a la nefropatía asociada a medio de contraste en este paciente?",
+      "opciones": [
+        "El medio de contraste es inocuo para los riñones",
+        "La diabetes y la nefropatía preexistente son factores predisponentes",
+        "Se observarán cilindros de leucocitos en el sedimento urinario",
+        "La excreción fraccionada de sodio será elevada",
+        "Azitromicina"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La nefropatía por contraste es una lesión renal aguda que aparece en las 48-72 horas siguientes a la administración de contraste yodado. Sus principales factores de riesgo son la enfermedad renal crónica previa y la diabetes (sobre todo juntas), además de la deshidratación, la insuficiencia cardiaca, la edad avanzada y los volúmenes altos de contraste. Suele producir necrosis tubular con sedimento de cilindros granulosos (no leucocitarios), y la prevención principal es la hidratación con suero salino.",
+      "comentario": "La nefropatía por contraste es una lesión renal aguda que aparece en las 48-72 horas siguientes a la administración de contraste yodado. Sus principales factores de riesgo son la enfermedad renal crónica previa y la diabetes (sobre todo juntas), además de la deshidratación, la insuficiencia cardiaca, la edad avanzada y los volúmenes altos de contraste. Suele producir necrosis tubular con sedimento de cilindros granulosos (no leucocitarios), y la prevención principal es la hidratación con suero salino.",
+      "tema": "Nefropatía por contraste: diabetes y enfermedad renal previa como factores de riesgo",
+      "año": 2025
     }
   ]
 }
