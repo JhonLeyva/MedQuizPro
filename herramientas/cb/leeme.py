@@ -9,7 +9,7 @@ L = ["MedQuizPro - Banco de Ciencias Básicas (%d preguntas nuevas)" % len(N), "
 "- bancos/ciencias_basicas.json completo: las 92 preguntas que ya tenía + %d nuevas (%d en total)." % (len(N), 92 + len(N)),
 "  Solo cambia ese archivo; las demás especialidades no se tocan.",
 "- Origen: PDF \"Banco de preguntas Ciencias Básicas, ed. 2019\" (458 preguntas con su tabla de claves).",
-"  En la web aparecen como \"Banco de Ciencias Básicas 2019 · pregunta de práctica\".",
+"  En la web aparecen como \"ENAM · Ciencias Básicas 2019\".",
 "- Cada pregunta trae un comentario docente nuevo, escrito para esta entrega (el PDF no traía",
 "  comentarios): explica por qué la opción correcta lo es, por qué fallan las demás y añade el",
 "  dato clínico útil para el ENAM, según la literatura actual y las normas del MINSA.",

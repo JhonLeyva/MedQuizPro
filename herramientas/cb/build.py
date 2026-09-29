@@ -77,9 +77,9 @@ def opt(s):
     if s.endswith(".") and len(s.split()) <= 4: s = s[:-1]
     return s[0].upper() + s[1:] if s else s
 cb = json.load(open("zipcb/bancos/ciencias_basicas.json"))
-# Base: el banco CB previo (92 preguntas). site/bancos ya incluye estas 393; no reconstruir sobre él.
-cb["preguntas"] = [p for p in cb["preguntas"] if not p.get("examen_origen", "").startswith("Banco de Ciencias Básicas 2019")]
+cb["preguntas"] = [p for p in cb["preguntas"] if not p.get("examen_origen", "").startswith(("Banco de Ciencias Básicas 2019", "ENAM · Ciencias Básicas 2019"))]
 assert len(cb["preguntas"]) == 92, len(cb["preguntas"])
+# Base: el banco CB previo (92 preguntas). site/bancos ya incluye estas 393; no reconstruir sobre él.
 last = max(int(p["id"].split("-")[1]) for p in cb["preguntas"])
 nuevos = []
 for n in sorted(D):
@@ -89,7 +89,7 @@ for n in sorted(D):
     ops = [opt(op[a]) for a in "ABCDE"]
     i = "ABCDE".index(k)
     p = {"id": "CB-%03d" % last, "especialidad": "Ciencias Básicas",
-         "examen_origen": "Banco de Ciencias Básicas 2019 · pregunta de práctica",
+         "examen_origen": "ENAM · Ciencias Básicas 2019",
          "enunciado": re.sub(r"\s*______$", ":", fx(e)), "opciones": ops, "correcta": i, "clave_correcta": k,
          "explicacion": c, "comentario": c, "tema": t, "año": 2019}
     cb["preguntas"].append(p); nuevos.append(dict(p, n=n))

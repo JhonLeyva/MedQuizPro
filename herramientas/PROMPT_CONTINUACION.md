@@ -19,7 +19,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - Hecho: `MedQuizPro_flujogramas_sin_palabra_respuesta.zip` corrige 143 SVG (80 del bloque 6, regenerados con `herramientas/flujo/rebuild6.py`; 63 de los bloques 2–5, texto reemplazado). Nombres sin cambio. Bloques 2–8 revisados: ya no dicen «respuesta». Los 97 SVG antiguos del bloque 1 solo están en el servidor y no se revisaron.
 - **Banco de Ciencias Básicas (nuevo, 29-sep-2026):** del PDF `Banco_Ciencias_Básicas.pdf` (Villamedic, ed. 2019, 458 preguntas con tabla de claves y sin comentarios) entraron 393 preguntas, todas en `ciencias_basicas.json` (CB-093 a CB-485; CB queda en 485 y el total del sitio en 2106).
   - Paquete: `MedQuizPro_ciencias_basicas_393_preguntas.zip` (solo `bancos/ciencias_basicas.json` + `LEEME.txt`).
-  - `examen_origen`: "Banco de Ciencias Básicas 2019 · pregunta de práctica", `año` 2019. Cada una lleva comentario docente propio.
+  - `examen_origen`: "ENAM · Ciencias Básicas 2019" (debe empezar por "ENAM": el filtro de la web publicada solo muestra esas), `año` 2019. Cada una lleva comentario docente propio.
   - Herramientas en `herramientas/cb/`: `parse.py` (PDF → `cbq.json`), `r00…r09.py` (revisión: `D[n]=(tema, clave, comentario)`, `O` opciones, `N` enunciado, `X` excluidas con motivo), `merge.py` (valida), `build.py` (lista FIX de ortografía), `leeme.py`, `testcb.cjs`, `nuevoscb.json`.
   - 65 omitidas (56 repetidas, 9 mal planteadas) y 12 claves del PDF corregidas.
   - Faltan sus flujogramas (393 IDs de `nuevoscb.json`); para hacerlos, sigue el Flujo B con base `out8/pack/algoritmos.js` (1713).
