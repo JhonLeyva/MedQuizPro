@@ -322,5 +322,6 @@ FIX8=[("profilaxis postexposición. 2","profilaxis postexposición."),("con 2 an
 ("postrado desde 2 hace","postrado desde hace"),("atraviesa la 2 placenta","atraviesa la placenta"),("cólico 2 periumbilical","cólico periumbilical"),
 ("retraso motor 2 y","retraso motor y"),("social que 2 contribuye","social que contribuye"),("del 2 parásito","del parásito"),
 (" Aunque se ha marcado como respuesta “intolerancia transitoria”, los hallazgos clínicos refieren anafilaxia leve."," Por eso el diagnóstico es alergia a las proteínas de la leche de vaca, con manifestaciones de reacción alérgica inmediata."),
-("Fisiopatológicamente en ética médica, se vulnera","Desde el punto de vista ético, se vulnera"),("Consejo Médico Regional permite","Consejo Regional del Colegio Médico permite")]
+("Fisiopatológicamente en ética médica, se vulnera","Desde el punto de vista ético, se vulnera"),("Consejo Médico Regional permite","Consejo Regional del Colegio Médico permite"),
+("anemia, 2 trombocitopenia","anemia, trombocitopenia"),("a repetición. 2 Examen","a repetición. Examen"),("cálculo biliar, 2 diagnosticándose","cálculo biliar, diagnosticándose")]
 OPT[2421]={"D":"Anaerobios y grampositivos"}

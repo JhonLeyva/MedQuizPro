@@ -834,8 +834,8 @@
   ],
   "correcta": 0,
   "clave_correcta": "A",
-  "explicacion": "Niño en edad preescolar presenta diarrea con moco y sangre, acompañado de palidez, mucosas secas y signos de deshidratación. Destaca antecedente de ingesta de carne, hallazgo clave que sugiere colitis hemorrágica. El laboratorio revela anemia, 2 trombocitopenia y leucocitosis, datos que sugieren una complicación severa como el síndrome hemolítico urémico (SHU). Esta tríada clínica es característica de la infección por Escherichia coli productora de toxina Shiga (serotipo O157:H7), generalmente asociada a carne mal cocida. La bacteria daña el endotelio intestinal y renal, provocando microangiopatía trombótica. A diferencia de Shigella dysenteriae, que también da disentería, no suele causar SHU con tanta frecuencia. Campylobacter y Yersinia pueden dar cuadros diarreicos, pero sin esta triada característica. Por tanto, el agente etiológico más probable es Escherichia coli O157:H7, que puede desencadenar SHU en niños.",
-  "comentario": "Niño en edad preescolar presenta diarrea con moco y sangre, acompañado de palidez, mucosas secas y signos de deshidratación. Destaca antecedente de ingesta de carne, hallazgo clave que sugiere colitis hemorrágica. El laboratorio revela anemia, 2 trombocitopenia y leucocitosis, datos que sugieren una complicación severa como el síndrome hemolítico urémico (SHU). Esta tríada clínica es característica de la infección por Escherichia coli productora de toxina Shiga (serotipo O157:H7), generalmente asociada a carne mal cocida. La bacteria daña el endotelio intestinal y renal, provocando microangiopatía trombótica. A diferencia de Shigella dysenteriae, que también da disentería, no suele causar SHU con tanta frecuencia. Campylobacter y Yersinia pueden dar cuadros diarreicos, pero sin esta triada característica. Por tanto, el agente etiológico más probable es Escherichia coli O157:H7, que puede desencadenar SHU en niños.",
+  "explicacion": "Niño en edad preescolar presenta diarrea con moco y sangre, acompañado de palidez, mucosas secas y signos de deshidratación. Destaca antecedente de ingesta de carne, hallazgo clave que sugiere colitis hemorrágica. El laboratorio revela anemia, trombocitopenia y leucocitosis, datos que sugieren una complicación severa como el síndrome hemolítico urémico (SHU). Esta tríada clínica es característica de la infección por Escherichia coli productora de toxina Shiga (serotipo O157:H7), generalmente asociada a carne mal cocida. La bacteria daña el endotelio intestinal y renal, provocando microangiopatía trombótica. A diferencia de Shigella dysenteriae, que también da disentería, no suele causar SHU con tanta frecuencia. Campylobacter y Yersinia pueden dar cuadros diarreicos, pero sin esta triada característica. Por tanto, el agente etiológico más probable es Escherichia coli O157:H7, que puede desencadenar SHU en niños.",
+  "comentario": "Niño en edad preescolar presenta diarrea con moco y sangre, acompañado de palidez, mucosas secas y signos de deshidratación. Destaca antecedente de ingesta de carne, hallazgo clave que sugiere colitis hemorrágica. El laboratorio revela anemia, trombocitopenia y leucocitosis, datos que sugieren una complicación severa como el síndrome hemolítico urémico (SHU). Esta tríada clínica es característica de la infección por Escherichia coli productora de toxina Shiga (serotipo O157:H7), generalmente asociada a carne mal cocida. La bacteria daña el endotelio intestinal y renal, provocando microangiopatía trombótica. A diferencia de Shigella dysenteriae, que también da disentería, no suele causar SHU con tanta frecuencia. Campylobacter y Yersinia pueden dar cuadros diarreicos, pero sin esta triada característica. Por tanto, el agente etiológico más probable es Escherichia coli O157:H7, que puede desencadenar SHU en niños.",
   "tema": "Colitis hemorrágica con síndrome urémico hemolítico: E. coli productora de toxina Shiga",
   "año": 2024
  },
@@ -1454,7 +1454,7 @@
   "id": "NEF-091",
   "especialidad": "Nefrología y Urología",
   "examen_origen": "ENAM 2025 · pregunta oficial",
-  "enunciado": "Mujer de 28 años ingresa por disnea leve y nauseas. Antecedente de pielonefritis a repetición. 2 Examen: palidez terrosa, resto normal. Lab: Hb 8.2 g/dl, filtración glomerular: 12 ml/min/1,72 m2, Eco renal: desdiferenciación córtico medular. ¿Qué trastornos metabólicos podríamos encontrar en este paciente?",
+  "enunciado": "Mujer de 28 años ingresa por disnea leve y nauseas. Antecedente de pielonefritis a repetición. Examen: palidez terrosa, resto normal. Lab: Hb 8.2 g/dl, filtración glomerular: 12 ml/min/1,72 m2, Eco renal: desdiferenciación córtico medular. ¿Qué trastornos metabólicos podríamos encontrar en este paciente?",
   "opciones": [
    "Hiperpotasemia, hiperfosforemia, hipocalcemia y acidosis metabólica",
    "Hiperpotasemia, hipofosforemia, hipercalcemia y acidosis metabólica",
@@ -2399,7 +2399,7 @@
   "id": "GAS-078",
   "especialidad": "Gastroenterología",
   "examen_origen": "ENAM 2025 · pregunta oficial",
-  "enunciado": "Varón de 52 años, presenta dolor agudo en el hemiabdomen superior, se confirma obstrucción de la ampolla de Vater por un cálculo biliar, 2 diagnosticándose pancreatitis aguda. ¿Cuál es el evento enzimático que produce la lesión pancreática?",
+  "enunciado": "Varón de 52 años, presenta dolor agudo en el hemiabdomen superior, se confirma obstrucción de la ampolla de Vater por un cálculo biliar, diagnosticándose pancreatitis aguda. ¿Cuál es el evento enzimático que produce la lesión pancreática?",
   "opciones": [
    "Quimotripsinógeno activa enzimas proteolíticas en los conductos pancreáticos",
    "Las enzimas digestivas pancreáticas y biliares destruyen acinos pancreáticos",
