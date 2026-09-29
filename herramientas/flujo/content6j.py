@@ -102,7 +102,7 @@ V("matriz", "PED-130", "lactante-vih-sintomatico-rotavirus-prescripcion", "Vacun
              [("Inactivadas", []), ("Aplicar", [])]]},
   ["BCG contraindicada en el niño con VIH sintomático.",
    "SPR y varicela: solo si CD4 ≥ 15%.",
-   "Las inactivadas son seguras aunque la respuesta sea menor."],
+   "Las inactivadas son seguras aunque protejan menos."],
   "MINSA – NTS N.° 196-MINSA/DGIESP-2022 (Esquema Nacional de Vacunación) y modificatorias · CDC/ACIP – Altered immunocompetence (2024)")
 
 # CIR-067 · árbol
@@ -148,7 +148,7 @@ V("termometro", "CIR-068", "sangrado-defecar-no-prolapsa-coagulacion-infrarroja"
   "CIRUGÍA ENAM: HEMORROIDES INTERNAS", "CIRUGÍA",
   ("Hemorroides internas", ["Se clasifican por el prolapso (Goligher)",
    "Grado I-II que no responde al manejo médico: procedimientos en consultorio"]),
-  ("Mujer de 40 años multípara", ["Sangrado al defecar por 2 meses, sin respuesta", "Anoscopía: no rebasan el orificio anal"]),
+  ("Mujer de 40 años multípara", ["Sangrado al defecar por 2 meses, sin mejoría", "Anoscopía: no rebasan el orificio anal"]),
   {"rotulo": "Clasificación de Goligher",
    "niveles": [("Grado I", "No prolapsa", ["Solo sangra"]),
                ("Grado II", "Reduce sola", ["Prolapso al pujar"]),
@@ -206,7 +206,7 @@ V("termometro", "NRL-036", "tec-grave-coma-rigidez-decorticacion-hemisferios", "
   {"rotulo": "Postura y nivel de lesión",
    "niveles": [("Hemisferios", "Decorticación", ["Flexión de brazos"]),
                ("Mesencéfalo", "Descerebración", ["Extensión de las 4 extremidades"]),
-               ("Bulbo", "Flacidez", ["Sin respuesta motora"])],
+               ("Bulbo", "Flacidez", ["Motor: ninguno"])],
    "caso_nivel": 0, "ruta_titulo": "Glasgow motor", "paso_label": "PASO",
    "pasos": [(1, "MOTOR 3: FLEXIÓN ANORMAL", ["Decorticación"], True),
              (2, "Motor 2: extensión", ["Descerebración"], False),

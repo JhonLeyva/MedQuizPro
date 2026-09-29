@@ -16,7 +16,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - **Flujogramas:** existen para las 1713 preguntas de los bloques 1–8. No falta ninguno.
   - Último paquete: `MedQuizPro_flujogramas_bloque8.zip`, con `algoritmos.js` de 1713 entradas (en `herramientas/flujo/`: `content8a…d.py`, `c8.py`, `build8f.py`, `finish8.py`, `chk8.sh`, `existing_names8.txt`; el bloque 7 usa `content7a…n.py`, `c7.py`, `build7f.py`, `finish7.py`).
   - Para un bloque 9, añade a `existing_names8.txt` los nombres de `out8/flujogramas` y usa como base `out8/pack/algoritmos.js`.
-  - Pendiente menor: los SVG radiales del bloque 6 dicen «CÓMO LLEGA EL CASO A LA RESPUESTA»; en `engine3.py` ya se cambió a «…AL DIAGNÓSTICO», falta regenerarlos si el usuario lo pide.
+  - Hecho: `MedQuizPro_flujogramas_sin_palabra_respuesta.zip` corrige 143 SVG (80 del bloque 6, regenerados con `herramientas/flujo/rebuild6.py`; 63 de los bloques 2–5, texto reemplazado). Nombres sin cambio. Bloques 2–8 revisados: ya no dicen «respuesta». Los 97 SVG antiguos del bloque 1 solo están en el servidor y no se revisaron.
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 
@@ -127,4 +127,4 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
 ## Próxima tarea sugerida
-Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales). Pendiente menor: regenerar los radiales del bloque 6 que dicen «…A LA RESPUESTA».
+Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).

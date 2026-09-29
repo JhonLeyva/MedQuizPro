@@ -93,7 +93,7 @@ V("embudo", "NEU-024", "epoc-disnea-subita-hiperresonancia-neumotorax", "Disnea 
   "NEUMOLOGÍA ENAM: NEUMOTÓRAX ESPONTÁNEO SECUNDARIO", "NEUMOLOGÍA",
   ("Disnea súbita en un paciente con EPOC", ["La rotura de bullas enfisematosas causa neumotórax secundario",
    "Hiperresonancia y murmullo disminuido de un lado = neumotórax"]),
-  ("Varón de 68 años con EPOC", ["Dolor torácico y disnea súbitos, sin respuesta a O₂", "SatO₂ 86% · hiperresonancia en hemitórax derecho"]),
+  ("Varón de 68 años con EPOC", ["Dolor torácico y disnea súbitos, sin mejoría con O₂", "SatO₂ 86% · hiperresonancia en hemitórax derecho"]),
   {"rotulo": "Embudo diagnóstico",
    "inicio": "EPOC con disnea y dolor torácico",
    "candidatos": ["Neumotórax", "TEP", "Exacerbación", "Neumonía", "Infarto"],

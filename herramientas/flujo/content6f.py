@@ -438,7 +438,7 @@ V("embudo", "NRL-031", "espasmos-mano-al-escribir-distonia-focal", "Espasmos de 
 # CB-036 · fases
 V("fases", "CB-036", "lima-puno-cefalea-nauseas-alcalosis-respiratoria", "Adaptación a la altura",
   "CIENCIAS BÁSICAS ENAM: FISIOLOGÍA DE LA ALTURA", "CIENCIAS BÁSICAS",
-  ("Respuesta a la altura", ["La hipoxia estimula la hiperventilación",
+  ("Adaptación a la altura", ["La hipoxia estimula la hiperventilación",
    "Baja la PaCO₂: alcalosis respiratoria, luego compensada por el riñón"]),
   ("Varón de 45 años de Lima que viaja a Puno", ["Al llegar: cefalea, fatiga", "Náuseas y vómitos"]),
   {"rotulo": "Aclimatación", "ans": 0,

@@ -416,7 +416,7 @@ V("fases", "INF-043", "reinfeccion-dengue-choque-mediadores-vasoactivos", "Dengu
    "chips_titulo": "Mecanismo · marcado el correcto",
    "chips": [("Mediadores vasoactivos", True), ("Menor carga viral", False), ("Menos granulocitos", False), ("Menos mediadores", False)]},
   ["El choque por dengue es por fuga capilar, no por hemorragia en primer lugar.",
-   "Tratamiento: cristaloides en bolos según respuesta.",
+   "Tratamiento: cristaloides en bolos según evolución.",
    "Hematocrito en ascenso con plaquetas en descenso anuncia la fase crítica."],
   "OPS – Directrices para el diagnóstico clínico y el tratamiento del dengue, chikungunya y zika (2022)")
 
@@ -621,7 +621,7 @@ V("termometro", "SP-059", "covid-casos-esperados-vacunados-endemia", "Niveles de
                ("Mundial", "Pandémico", ["Varios continentes"])],
    "caso_nivel": 1, "ruta_titulo": "Cómo se reconoce", "paso_label": "PASO",
    "pasos": [(1, "Comparar con el canal endémico", ["Casos dentro de lo esperado"], True),
-             (2, "Si supera el umbral: epidemia", ["Activar respuesta"], False),
+             (2, "Si supera el umbral: epidemia", ["Activar acciones"], False),
              (3, "Mantener vigilancia", ["Notificación semanal"], False)]},
   ["El canal endémico usa los datos de 5-7 años previos.",
    "La OMS terminó la emergencia internacional por COVID-19 en mayo de 2023.",

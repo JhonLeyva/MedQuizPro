@@ -40,7 +40,7 @@ V("fases", "SP-100", "victima-violencia-sexual-atencion-medica-primero", "Atenci
   ["No se requiere autorización judicial para atender.",
    "Anticoncepción de emergencia dentro de las 72-120 horas.",
    "Respetar la confidencialidad y el consentimiento."],
-  "MINSA – NT N.° 179-2021 (Atención integral a víctimas de violencia sexual) · OMS – Respuesta a la violencia sexual (2013)")
+  "MINSA – NT N.° 179-2021 (Atención integral a víctimas de violencia sexual) · OMS – Guía clínica sobre violencia sexual (2013)")
 
 # INF-070 · termómetro
 V("termometro", "INF-070", "mordedura-perro-mano-desgarrante-lavado", "Mordedura de perro",

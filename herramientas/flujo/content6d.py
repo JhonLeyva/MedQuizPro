@@ -328,7 +328,7 @@ V("matriz", "INF-050", "lcr-linfocitos-glucosa-baja-miliar-meningitis-tb", "Meni
 V("embudo", "PED-108", "vacuna-influenza-contraindicacion-menor-6-meses", "Contraindicación de la vacuna contra influenza",
   "PEDIATRÍA ENAM: VACUNA CONTRA INFLUENZA", "PEDIATRÍA",
   ("Vacuna contra influenza", ["Virus inactivado: se aplica desde los 6 meses",
-   "Antes de esa edad no genera respuesta adecuada"]),
+   "Antes de esa edad no genera inmunidad adecuada"]),
   ("Pregunta de concepto", ["Contraindicación absoluta", "de la vacuna contra influenza en niños"]),
   {"rotulo": "Embudo de opciones",
    "inicio": "Niño que acude a vacunarse",

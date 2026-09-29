@@ -335,7 +335,7 @@ V("fases", "GIN-139", "hemorragia-posparto-atonia-refractaria-balon", "Hemorragi
   "OBSTETRICIA ENAM: HEMORRAGIA POSPARTO", "OBSTETRICIA",
   ("Hemorragia posparto por atonía", ["Uterotónicos y compresión bimanual primero",
    "Si fallan: taponamiento con balón intrauterino"]),
-  ("Puérpera inmediata tras feto macrosómico", ["Útero no contraído, 3 cm sobre el ombligo", "Oxitocina, ergometrina y misoprostol sin respuesta"]),
+  ("Puérpera inmediata tras feto macrosómico", ["Útero no contraído, 3 cm sobre el ombligo", "Oxitocina, ergometrina y misoprostol sin efecto"]),
   {"rotulo": "Escalones de la clave roja", "ans": 2,
    "fases": [("Inicio", "Minutos", "Uterotónicos", ["Oxitocina, ergometrina, misoprostol"]),
              ("Compresión", "Minutos", "Bimanual", ["Masaje uterino"]),
@@ -653,9 +653,9 @@ V("radial", "HEM-027", "lma-pronostico-citogenetica", "Pronóstico en leucemia m
   "ELN – Diagnosis and management of AML in adults (Blood 2022)")
 
 # CIR-079 · fases
-V("fases", "CIR-079", "quemado-50-taquicardia-fiebre-catabolismo-hipermetabolismo", "Respuesta metabólica al gran quemado",
+V("fases", "CIR-079", "quemado-50-taquicardia-fiebre-catabolismo-hipermetabolismo", "Metabolismo del gran quemado",
   "CIRUGÍA ENAM: HIPERMETABOLISMO DEL QUEMADO", "CIRUGÍA",
-  ("Respuesta hipermetabólica", ["Catecolaminas, cortisol y citocinas elevan el metabolismo",
+  ("Estado hipermetabólico", ["Catecolaminas, cortisol y citocinas elevan el metabolismo",
    "Taquicardia, fiebre, hiperglucemia y catabolismo proteico"]),
   ("Varón de 45 años con quemaduras del 50%", ["24 horas después, en reanimación", "Taquicardia, fiebre, hiperglucemia, catabolismo"]),
   {"rotulo": "Fases metabólicas", "ans": 1,

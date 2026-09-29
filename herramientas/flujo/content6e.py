@@ -19,7 +19,7 @@ V("matriz", "INF-052", "estudiante-medicina-anti-hbs-inmunidad", "Serología de 
              [("Positivo", ["> 6 meses"]), ("Negativo", []), ("IgG positivo", [])]]},
   ["El anti-HBc solo aparece tras la infección, nunca por la vacuna.",
    "Anti-HBs < 10: completar o repetir el esquema de 3 dosis.",
-   "El personal de salud debe tener constancia de su respuesta a la vacuna."],
+   "El personal de salud debe tener constancia de su inmunidad tras la vacuna."],
   "MINSA – NTS N.° 196-MINSA/DGIESP-2022 (Esquema Nacional de Vacunación) · CDC – Hepatitis B serologic test interpretation (2023)")
 
 # CAR-042 · fases
@@ -556,7 +556,7 @@ V("radial", "GAS-040", "obeso-pirosis-asma-nocturna-ibp", "ERGE con síntomas ex
              ("Típicos", ["Pirosis, regurgitación"]),
              ("Extraesofágicos", ["Asma nocturna, tos, disfonía"]),
              ("Estilo de vida", ["Bajar de peso, elevar cabecera"]),
-             ("Endoscopia", ["Alarma o falta de respuesta"])],
+             ("Endoscopia", ["Alarma o sin mejoría"])],
    "ruta": ["Pirosis + asma nocturna", "Obesidad: factor de riesgo", "Prueba terapéutica", "IBP"]},
   ["Si la disfagia progresa o hay pérdida de peso o sangrado: endoscopia.",
    "La pH-metría se reserva para casos refractarios.",

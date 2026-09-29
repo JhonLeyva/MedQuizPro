@@ -382,7 +382,7 @@ V("matriz", "PED-125", "osteomielitis-aguda-nino-staphylococcus-aureus", "Osteom
              [("Salmonella", []), ("Cefalosporina 3.ª", [])],
              [("Pseudomonas", ["Por la zapatilla"]), ("Ceftazidima", [])]]},
   ["La RM es el estudio más sensible; la Rx tarda 10-14 días.",
-   "PCR y VSG sirven para seguir la respuesta.",
+   "PCR y VSG sirven para seguir la evolución.",
    "Antibiótico EV corto y paso a vía oral al mejorar."],
   "PIDS/IDSA – Guideline on acute hematogenous osteomyelitis in children (2021) · " + NELSON)
 

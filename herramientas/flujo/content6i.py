@@ -76,7 +76,7 @@ V("tarjetas", "CB-043", "pielolitotomia-hipoestesia-muslo-anterior-nervio-femora
 V("puntaje", "END-034", "ketoconazol-hiperpigmentacion-hiponatremia-cortisol-bajo", "Insuficiencia suprarrenal por ketoconazol",
   "ENDOCRINOLOGÍA ENAM: INSUFICIENCIA SUPRARRENAL", "ENDOCRINOLOGÍA",
   ("Insuficiencia suprarrenal", ["El ketoconazol inhibe la síntesis de cortisol",
-   "ACTH alta (hiperpigmentación) y sin respuesta a la estimulación"]),
+   "ACTH alta (hiperpigmentación) y sin aumento tras la estimulación"]),
   ("Mujer de 45 años con ketoconazol por 6 meses", ["Debilidad, vómitos, hipotensión ortostática", "Hiperpigmentación · Na 130, glucosa 65"]),
   {"rotulo": "Hallazgos en el caso", "escala": "Insuficiencia suprarrenal", "total": 6, "max": 7,
    "total_label": "Hallazgos presentes",
@@ -682,9 +682,9 @@ V("matriz", "PED-129", "crianza-aves-disenteria-bacilo-curvo-campylobacter-azitr
   "OMS/OPS – AIEPI · IDSA – Clinical practice guidelines for infectious diarrhea (2017)")
 
 # CB-044 · tarjetas
-V("tarjetas", "CB-044", "discusion-taquicardia-hipertension-catecolaminas", "Respuesta al estrés agudo",
-  "CIENCIAS BÁSICAS ENAM: RESPUESTA AL ESTRÉS", "CIENCIAS BÁSICAS",
-  ("Respuesta simpática al estrés", ["Noradrenalina (terminales simpáticas) y adrenalina (médula suprarrenal)",
+V("tarjetas", "CB-044", "discusion-taquicardia-hipertension-catecolaminas", "Reacción al estrés agudo",
+  "CIENCIAS BÁSICAS ENAM: REACCIÓN AL ESTRÉS", "CIENCIAS BÁSICAS",
+  ("Reacción simpática al estrés", ["Noradrenalina (terminales simpáticas) y adrenalina (médula suprarrenal)",
    "Aumentan la FC y la PA en segundos"]),
   ("Varón de 60 años tras una discusión", ["Taquicardia", "Presión arterial elevada"]),
   {"rotulo": "¿Qué lo media?", "ans": 0, "cards": [

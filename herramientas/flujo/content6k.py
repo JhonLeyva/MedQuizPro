@@ -83,12 +83,12 @@ V("fases", "NEF-057", "tc-contraste-diabetico-creatinina-25-hidratacion", "Nefro
 # INF-065 · tarjetas
 V("tarjetas", "INF-065", "vih-inicio-tar-respuesta-carga-viral", "Pruebas de VIH y su uso",
   "INFECTOLOGÍA ENAM: SEGUIMIENTO DEL TAR", "INFECTOLOGÍA",
-  ("Respuesta al TAR", ["Se mide con la carga viral en plasma",
+  ("Eficacia del TAR", ["Se mide con la carga viral en plasma",
    "Meta: indetectable (< 50 copias) a los 6 meses"]),
-  ("Varón de 37 años con VIH confirmado", ["Diarrea crónica y consunción", "Inicia TAR: ¿cómo evaluar la respuesta?"]),
+  ("Varón de 37 años con VIH confirmado", ["Diarrea crónica y consunción", "Inicia TAR: ¿cómo evaluar su eficacia?"]),
   {"rotulo": "¿Para qué sirve cada prueba?", "ans": 0, "cards": [
       {"titulo": "CARGA VIRAL", "datos": [
-          ("Uso", "Respuesta al TAR", True), ("Cuándo", "1-3 meses, luego c/6 m", True),
+          ("Uso", "Eficacia del TAR", True), ("Cuándo", "1-3 meses, luego c/6 m", True),
           ("Meta", "< 50 copias/mL", True)],
        "pie": "Detecta la falla virológica"},
       {"titulo": "ELISA", "datos": [
@@ -435,7 +435,7 @@ V("matriz", "GIN-132", "incompatibilidad-rh-anemia-fetal-cerebral-media", "Doppl
 # NEF-060 · fases
 V("fases", "NEF-060", "neumonia-hipotension-fena-04-vasoconstriccion-eferente", "Compensación renal en la hipoperfusión",
   "NEFROLOGÍA ENAM: LESIÓN RENAL PRERRENAL", "NEFROLOGÍA",
-  ("Respuesta renal a la hipoperfusión", ["La angiotensina II contrae la arteriola eferente",
+  ("Reacción renal a la hipoperfusión", ["La angiotensina II contrae la arteriola eferente",
    "Así se mantiene la presión glomerular y la filtración"]),
   ("Varón de 64 años con neumonía y choque", ["PA 80/50 · oliguria", "Na urinario 8, FeNa 0.4%, osmolalidad 700"]),
   {"rotulo": "Secuencia compensatoria", "ans": 2,
