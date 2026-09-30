@@ -22,7 +22,9 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - `examen_origen`: "ENAM · Ciencias Básicas 2019" (debe empezar por "ENAM": el filtro de la web publicada solo muestra esas), `año` 2019. Cada una lleva comentario docente propio.
   - Herramientas en `herramientas/cb/`: `parse.py` (PDF → `cbq.json`), `r00…r09.py` (revisión: `D[n]=(tema, clave, comentario)`, `O` opciones, `N` enunciado, `X` excluidas con motivo), `merge.py` (valida), `build.py` (lista FIX de ortografía), `leeme.py`, `testcb.cjs`, `nuevoscb.json`.
   - 65 omitidas (56 repetidas, 9 mal planteadas) y 12 claves del PDF corregidas.
-  - Faltan sus flujogramas (393 IDs de `nuevoscb.json`); para hacerlos, sigue el Flujo B con base `out8/pack/algoritmos.js` (1713).
+  - Flujogramas hechos: `MedQuizPro_flujogramas_ciencias_basicas.zip` (393 SVG, `algoritmos.js` con 2106 entradas, verificadores `verificar-flujogramas-bloquecb.html` y general a 2106).
+    Herramientas en `herramientas/flujo/`: `ccb.py` (lista `FCB`; curva por defecto en `fases`), `refcb.py` (fuentes), `contentcba…j.py`, `buildcbf.py`, `finishcb.py`, `chkcb.sh`, `e2ecb.cjs`, `existing_namescb.txt`, `ordercb.json`.
+    Para un bloque siguiente: añade a `existing_namescb.txt` los nombres de `ordercb.json` y usa como base `outcb/pack/algoritmos.js` (2106).
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 
@@ -133,5 +135,5 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
 ## Próxima tarea sugerida
-Si el usuario lo pide: flujogramas de las 393 preguntas nuevas de Ciencias Básicas (bloque CB).
+Bancos y flujogramas al día: 2106 preguntas y 2106 flujogramas.
 Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).
