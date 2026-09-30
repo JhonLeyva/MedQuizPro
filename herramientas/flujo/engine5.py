@@ -300,24 +300,33 @@ def cronologia(s, y, d):
         h = card(s, x, cy, w, tit, lines, on=on, color=AMBER if on else TEAL, tag=d.get("tag") if on else None, fs=11)
         cy += h + 10
     y = max(y + PH, cy) + 22
-    # eje de semanas
+    # eje de semanas: nombres en columna fija a la izquierda y barra en la misma fila (tipo Gantt)
     a, b = d["eje"]
-    ax0, ax1 = X0 + 20, X1 - 20
+    LW = 290                                   # ancho de la columna de nombres
+    ax0, ax1 = X0 + LW + 20, X1 - 16
     sx = lambda wk: ax0 + (wk - a) / (b - a) * (ax1 - ax0)
     s.text(X0, y + 12, d["eje_titulo"].upper(), 11, 800, MUTED, "start", 900)
     y += 50
     rows = d["hitos"]
-    base = y + len(rows) * 34 + 6
+    RH = 36
+    base = y + len(rows) * RH + 4
+    # guías verticales de semanas
+    for wk in range(a, b + 1, d.get("paso", 4)):
+        s.line(sx(wk), y - 6, sx(wk), base, "#e2e8f0", 1)
     for i, (w0, w1, lab, sub, on) in enumerate(rows):
-        ry = y + i * 34
+        ry = y + i * RH
+        if on:
+            s.rect(X0, ry - 2, X1 - X0, RH - 4, TEAL_L, "none", 0, rx=8)
+        s.text(X0 + 10, ry + 13, lab, 11.5, 800, TEAL_D if on else INK, "start", LW - 16)
+        s.text(X0 + 10, ry + 27, sub, 10.5, 600, TEAL if on else MUTED, "start", LW - 16)
         x0, x1 = sx(w0), sx(w1)
-        s.rect(x0, ry, max(x1 - x0, 8), 26, TEAL if on else "#e2e8f0", TEAL if on else "#cbd5e1", 1.2, rx=13)
-        txt = f"{lab} · {sub}"
-        inside = tw(txt, 11, True) + 20 < (x1 - x0)
-        if inside:
-            s.text((x0 + x1) / 2, ry + 17.5, txt, 11, 700, "#ffffff" if on else "#334155", maxw=x1 - x0 - 12)
+        s.rect(x0, ry + 5, max(x1 - x0, 8), 20, TEAL if on else "#94a3b8", "none", 0, rx=10)
+        rng = f"{w0}-{w1} sem"
+        if tw(rng, 10, True) + 14 < x1 - x0:
+            s.text((x0 + x1) / 2, ry + 19, rng, 10, 700, "#ffffff", maxw=x1 - x0 - 8)
         else:
-            s.text(x1 + 8, ry + 17.5, txt, 11, 700, TEAL_D if on else "#334155", "start", ax1 - x1)
+            s.text(x1 + 6, ry + 19, rng, 10, 700, TEAL_D if on else MUTED, "start", 80)
+        s.line(X0 + LW, ry + 15, x0 - 4, ry + 15, "#cbd5e1", 1, "2 4")
     s.line(ax0, base, ax1, base, "#94a3b8", 1.5)
     for wk in range(a, b + 1, d.get("paso", 4)):
         s.line(sx(wk), base - 4, sx(wk), base + 4, "#94a3b8", 1.5)
@@ -326,7 +335,7 @@ def cronologia(s, y, d):
     if d.get("marca"):
         mx = sx(d["marca"])
         s.line(mx, y - 8, mx, base, ORANGE, 2, "5 4")
-        case_chip(s, mx, y - 12, d.get("tag", "ESTE CASO"))
+        case_chip(s, mx, y - 14, d.get("tag", "ESTE CASO"))
     return base + 40
 
 
