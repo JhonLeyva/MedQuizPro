@@ -6,8 +6,9 @@ dest = sys.argv[2]
 w = int(sys.argv[3]) if len(sys.argv) > 3 else 9999
 h = hashlib.md5(name.encode()).hexdigest()
 q = urllib.parse.quote(name)
-if w > 960:
-    url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/960px-{q}"
+if w > 500:
+    tw_ = 960 if w > 960 else 500
+    url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{tw_}px-{q}"
 else:
     url = f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}"
 subprocess.run(["curl", "-sS", "-A", "MedQuizPro/1.0 (educational; contact jhonleyva)", "-o", dest, url], check=True)

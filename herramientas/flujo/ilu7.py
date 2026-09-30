@@ -223,8 +223,8 @@ def pared_capas(s, x, y, capas=CAPAS_EST, invade=None, etiquetas_t=None, sonda=F
 
 
 # ════════════════════════════════════════════════════════════ BARRAS DE LABORATORIO
-def lab_barras(s, x, y, items, W=320, xmax=10, titulo="Veces el valor normal", sc=1.0):
-    """items: (nombre, valor, veces, on). Barra horizontal con línea en 1× (límite normal)."""
+def lab_barras(s, x, y, items, W=320, xmax=10, titulo="Veces el valor normal", sc=1.0, ref=1):
+    """items: (nombre, valor, veces, on). Barra horizontal con línea en ref (límite normal); ref=None la omite."""
     LW = 118
     bw = W - LW - 10
     p = t(LW, 12, titulo, MUTED, 10, "start", 700, halo=False)
@@ -236,10 +236,11 @@ def lab_barras(s, x, y, items, W=320, xmax=10, titulo="Veces el valor normal", s
         p += f'<rect x="{LW}" y="{yy}" width="{max(w,3):.1f}" height="22" rx="4" fill="{ORANGE if on else "#94a3b8"}"/>'
         p += t(LW + max(w, 3) + 6 if w < bw - 60 else LW + w - 6, yy + 15, val, INK if w < bw - 60 else "#ffffff", 10.5,
                "start" if w < bw - 60 else "end", 800, halo=False)
-    x1 = LW + bw / xmax
-    hh = 24 + len(items) * 34
-    p += f'<line x1="{x1:.1f}" y1="20" x2="{x1:.1f}" y2="{hh}" stroke="{TEAL}" stroke-width="2" stroke-dasharray="4 3"/>'
-    p += t(x1, hh + 12, "normal", TEAL, 10, halo=False)
+    if ref is not None:
+        x1 = LW + ref * bw / xmax
+        hh = 24 + len(items) * 34
+        p += f'<line x1="{x1:.1f}" y1="20" x2="{x1:.1f}" y2="{hh}" stroke="{TEAL}" stroke-width="2" stroke-dasharray="4 3"/>'
+        p += t(x1, hh + 12, "normal", TEAL, 10, halo=False)
     g(s, x, y, p, sc)
 
 
@@ -994,7 +995,7 @@ def tira_orina(s, x, y, valores, sc=1.0):
 
 
 def curva_percentil(s, x, y, punto=(0.8, 0.28), xlab="Semanas", ylab="Peso", ticks=("24", "28", "32", "36", "40"),
-                    etiquetas=("p97", "p90", "p50", "p10", "p3"), marca="este caso", sc=1.0):
+                    etiquetas=("p97", "p90", "p50", "p10", "p3"), marca="este caso", sc=1.0, r=7):
     """Curvas de percentiles genéricas; punto en fracciones (x, y) del área (y=0 abajo) (lienzo 340×230)."""
     X0_, Y0_, W_, H_ = 44, 12, 250, 180
     p = f'<rect x="{X0_}" y="{Y0_}" width="{W_}" height="{H_}" fill="#f8fafc" stroke="#cbd5e1"/>'
@@ -1006,7 +1007,7 @@ def curva_percentil(s, x, y, punto=(0.8, 0.28), xlab="Semanas", ylab="Peso", tic
     for k, tk in enumerate(ticks):
         p += t(X0_ + k * W_ / (len(ticks) - 1), Y0_ + H_ + 14, tk, MUTED, 10, halo=False)
     px, py = X0_ + punto[0] * W_, Y0_ + H_ - punto[1] * H_
-    p += C(px, py, 7, ORANGE, "#7c2d12", 2) + t(px - 10, py + 22, marca, "#9a3412", 10.5, "end")
+    p += C(px, py, r, ORANGE, "#7c2d12", 2) + t(px - 10, py + 22, marca, "#9a3412", 10.5, "end")
     p += t(X0_ + W_ / 2, Y0_ + H_ + 30, xlab, MUTED, 10, halo=False) + t(8, Y0_ + 10, ylab, MUTED, 10, "start", halo=False)
     g(s, x, y, p, sc)
 
@@ -1074,4 +1075,344 @@ def embarazos_linea(s, x, y, items, sc=1.0):
         p += t(56, yy - 4, tit, INK, 11.5, "start", halo=False) + t(56, yy + 12, det, SLATE, 10.5, "start", 600, halo=False)
         p += f'<rect x="56" y="{yy+20}" width="{len(cuenta)*6.4+14:.0f}" height="18" rx="9" fill="{ORANGE_L}" stroke="{ORANGE}"/>'
         p += t(63, yy + 33, cuenta, "#9a3412", 10, "start", halo=False)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ RX DE TÓRAX DIBUJADA (lienzo 300×280)
+def torax_rx(s, x, y, patron="normal", lado="der", sc=1.0, rotulos=(), marcas=()):
+    """Rx PA esquemática. patron: normal | intersticial | consolidacion | hiperinsuflacion | derrame | cavidad |
+    nivel | edema | sdra | fibrosis | neumotorax | dbp. lado de la lesión = lado del paciente (der = izquierda del dibujo)."""
+    p = ('<rect x="0" y="0" width="300" height="280" rx="8" fill="#0b1220"/>'
+         + P("M40 40 C40 20 130 16 140 40 L140 240 C100 250 50 246 30 230 C24 170 26 90 40 40 Z", "#1f2937", "none", 0)
+         + P("M260 40 C260 20 170 16 160 40 L160 240 C200 250 250 246 270 230 C276 170 274 90 260 40 Z", "#1f2937", "none", 0)
+         + "".join(f'<path d="M{34+k*2} {60+k*30} Q90 {40+k*30} 146 {70+k*30}" fill="none" stroke="#475569" stroke-width="3"/>'
+                   f'<path d="M{266-k*2} {60+k*30} Q210 {40+k*30} 154 {70+k*30}" fill="none" stroke="#475569" stroke-width="3"/>' for k in range(6))
+         + '<rect x="140" y="10" width="20" height="260" fill="#64748b"/>'
+         + P("M126 120 C110 150 112 210 140 232 L200 232 C226 214 218 150 170 128 Z", "#94a3b8", "none", 0)
+         + P("M30 236 Q80 212 140 238 M160 238 Q220 212 270 236", "none", "#cbd5e1", 4)
+         + t(14, 18, "D", "#94a3b8", 12, "start", halo=False) + t(286, 18, "I", "#94a3b8", 12, "end", halo=False))
+    L_ = lado == "der"
+    xl = 80 if L_ else 220
+    if patron == "intersticial":
+        import random as _r
+        rr = _r.Random(3)
+        p += "".join(f'<circle cx="{rr.uniform(40,136) if i%2 else rr.uniform(164,262):.0f}" cy="{rr.uniform(50,226):.0f}" r="1.8" fill="#e2e8f0" opacity="0.7"/>' for i in range(260))
+        p += "".join(f'<path d="M{rr.uniform(40,130):.0f} {rr.uniform(50,220):.0f} l{rr.uniform(-12,12):.0f} {rr.uniform(-12,12):.0f}" stroke="#cbd5e1" stroke-width="1" opacity="0.6"/>' for _ in range(60))
+    elif patron == "consolidacion":
+        p += E(xl, 170 if L_ else 160, 44, 40, "#e5e7eb", "none", 0, extra='opacity="0.85"')
+        p += "".join(f'<path d="M{xl-20+k*10} {160+k*6} l16 -4" stroke="#1f2937" stroke-width="2"/>' for k in range(4))
+    elif patron == "hiperinsuflacion":
+        p += P("M30 250 Q80 236 140 252 M160 252 Q220 236 270 250", "none", "#cbd5e1", 4)
+    elif patron == "derrame":
+        p += P(f"M{30 if L_ else 160} 160 Q{90 if L_ else 250} 176 {140 if L_ else 270} 150 L{140 if L_ else 270} 240 L{30 if L_ else 160} 240 Z", "#e5e7eb", "none", 0)
+    elif patron in ("cavidad", "nivel"):
+        cy_ = 80 if patron == "cavidad" else 150
+        p += C(xl, cy_, 28, "#e5e7eb", "none", 0) + C(xl, cy_, 18, "#0b1220", "none", 0)
+        if patron == "nivel":
+            p += f'<rect x="{xl-18}" y="{cy_}" width="36" height="18" fill="#e5e7eb"/>' + f'<line x1="{xl-18}" y1="{cy_}" x2="{xl+18}" y2="{cy_}" stroke="#ffffff" stroke-width="2"/>'
+        else:
+            p += "".join(C(xl + dx, cy_ + dy, 3, "#e5e7eb", "none", 0) for dx, dy in [(-40, 30), (30, 36), (-20, 50), (20, 60)])
+    elif patron in ("edema", "sdra"):
+        for cx_ in (90, 210):
+            p += E(cx_, 150, 48, 70, "#e5e7eb", "none", 0, extra='opacity="0.55"')
+        if patron == "edema":
+            p += P("M110 110 C80 150 90 200 140 236 L204 236 C240 200 222 140 180 118 Z", "#cbd5e1", "none", 0)
+    elif patron == "fibrosis":
+        import random as _r
+        rr = _r.Random(5)
+        for cx_ in (70, 230):
+            p += "".join(C(cx_ + rr.uniform(-30, 30), rr.uniform(150, 226), rr.uniform(4, 7), "none", "#e2e8f0", 1.4) for _ in range(26))
+    elif patron == "neumotorax":
+        p += P(f"M{130 if L_ else 170} 60 C{100 if L_ else 200} 90 {100 if L_ else 200} 180 {130 if L_ else 170} 210", "none", "#e5e7eb", 2)
+    elif patron == "dbp":
+        import random as _r
+        rr = _r.Random(8)
+        p += "".join(f'<path d="M{rr.uniform(40,130) if i%2 else rr.uniform(170,260):.0f} {rr.uniform(50,220):.0f} l{rr.uniform(-18,18):.0f} {rr.uniform(-18,18):.0f}" stroke="#e5e7eb" stroke-width="2" opacity="0.7"/>' for i in range(60))
+        p += "".join(C(rr.uniform(44, 128) if i % 2 else rr.uniform(172, 256), rr.uniform(60, 210), rr.uniform(5, 9), "#0b1220", "#94a3b8", 1) for i in range(12))
+    for n, mx, my in marcas:
+        p += num(mx, my, n)
+    for rx_, ry_, txt, anc in rotulos:
+        p += f'<text x="{rx_}" y="{ry_}" font-size="10.5" font-weight="800" fill="#facc15" text-anchor="{anc}" data-max="0">{escape(txt)}</text>'
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ NIÑO DE PIE (lienzo 220×380)
+def nino(s, x, y, zonas=None, marcas=(), extra="", rotulos=(), sc=1.0, obeso=False, genu_varo=False):
+    """Niño de frente. zonas: cabeza, torax, abdomen, brazo_d/i, pierna_d/i, mano_d/i."""
+    z = zonas or {}
+    f = lambda k: z.get(k, SKIN)
+    tw_ = 30 if obeso else 0
+    p = (C(110, 56, 42, f("cabeza"), SKIN_D, 2) + C(95, 52, 3.5, "#334155", "none", 0) + C(125, 52, 3.5, "#334155", "none", 0)
+         + '<path d="M100 74 Q110 80 120 74" fill="none" stroke="#9a6b52" stroke-width="2"/>'
+         + f'<rect x="102" y="96" width="16" height="10" fill="{SKIN}" stroke="{SKIN_D}" stroke-width="2"/>'
+         + P(f"M{74-tw_/2} 106 H{146+tw_/2} L{150+tw_/2} 170 H{70-tw_/2} Z", f("torax"), SKIN_D, 2)
+         + P(f"M{70-tw_/2} 170 H{150+tw_/2} C{154+tw_} 206 {148+tw_/2} 222 {144+tw_/2} 232 H{76-tw_/2} C{72-tw_/2} 222 {66-tw_} 206 {70-tw_/2} 170 Z", f("abdomen"), SKIN_D, 2)
+         + P(f"M{74-tw_/2} 110 L{50-tw_/2} 120 L{40-tw_/2} 214 L{56-tw_/2} 216 L{70-tw_/2} 150 Z", f("brazo_d"), SKIN_D, 2)
+         + P(f"M{146+tw_/2} 110 L{170+tw_/2} 120 L{180+tw_/2} 214 L{164+tw_/2} 216 L{150+tw_/2} 150 Z", f("brazo_i"), SKIN_D, 2)
+         + C(48 - tw_ / 2, 224, 10, f("mano_d"), SKIN_D, 2) + C(172 + tw_ / 2, 224, 10, f("mano_i"), SKIN_D, 2))
+    if genu_varo:
+        p += P("M80 232 L106 232 Q86 300 104 364 L84 364 Q56 300 80 232 Z", f("pierna_d"), SKIN_D, 2)
+        p += P("M114 232 L140 232 Q164 300 136 364 L116 364 Q134 300 114 232 Z", f("pierna_i"), SKIN_D, 2)
+    else:
+        p += P("M80 232 H106 L104 364 H84 Z", f("pierna_d"), SKIN_D, 2) + P("M114 232 H140 L136 364 H116 Z", f("pierna_i"), SKIN_D, 2)
+    p += E(92, 370, 14, 6, SKIN, SKIN_D, 2) + E(128, 370, 14, 6, SKIN, SKIN_D, 2)
+    p += extra
+    for n, mx, my in marcas:
+        p += num(mx, my, n)
+    for rx_, ry_, txt, anc in rotulos:
+        p += t(rx_, ry_, txt, INK, 10.5, anc)
+    g(s, x, y, p, sc)
+
+
+def puntos_piel(zona_bbox, n, col="#b91c1c", r=(2.5, 4), seed=1, op=0.85):
+    """Lesiones puntiformes aleatorias dentro de un rectángulo (x0, y0, x1, y1)."""
+    import random as _r
+    rr = _r.Random(seed)
+    x0, y0, x1, y1 = zona_bbox
+    return "".join(C(f"{rr.uniform(x0,x1):.1f}", f"{rr.uniform(y0,y1):.1f}", f"{rr.uniform(*r):.1f}", col, "none", 0, f'opacity="{op}"') for _ in range(n))
+
+
+# ════════════════════════════════════════════════════════════ TINCIÓN DE GRAM (lienzo 220×160)
+def gram(s, x, y, tipo="cocos_cadena", sc=1.0):
+    """Campo de microscopio. tipo: cocos_cadena | cocos_racimo | diplococos | bacilos_neg | bacilos_pos | cocobacilos."""
+    import random as _r
+    rr = _r.Random(4)
+    pos = tipo in ("cocos_cadena", "cocos_racimo", "diplococos", "bacilos_pos")
+    col = "#6d28d9" if pos else "#e11d48"
+    p = C(110, 80, 76, "#fdf4ff" if pos else "#fff1f2", "#94a3b8", 3)
+    for k in range(8):
+        cx, cy = 60 + rr.uniform(0, 100), 40 + rr.uniform(0, 80)
+        if tipo == "cocos_cadena":
+            p += "".join(C(cx + i * 7, cy + i * 2, 3.2, col, "none", 0) for i in range(5))
+        elif tipo == "cocos_racimo":
+            p += "".join(C(cx + rr.uniform(-7, 7), cy + rr.uniform(-7, 7), 3.2, col, "none", 0) for _ in range(6))
+        elif tipo == "diplococos":
+            p += C(cx, cy, 3.4, col, "none", 0) + C(cx + 7, cy, 3.4, col, "none", 0)
+        elif tipo in ("bacilos_neg", "bacilos_pos"):
+            p += f'<rect x="{cx:.0f}" y="{cy:.0f}" width="13" height="5" rx="2.5" fill="{col}" transform="rotate({rr.uniform(0,180):.0f} {cx:.0f} {cy:.0f})"/>'
+        else:
+            p += f'<rect x="{cx:.0f}" y="{cy:.0f}" width="7" height="4.5" rx="2.2" fill="{col}"/>'
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ FROTIS DE SANGRE (lienzo 300×200)
+def frotis(s, x, y, tipo="normal", sc=1.0):
+    """tipo: normal | microcitica | esferocitos | drepanocitos | blastos_auer | vivax | hemofagocito | plaquetas_bajas."""
+    import random as _r
+    rr = _r.Random(11)
+    p = f'<rect x="0" y="0" width="300" height="200" rx="10" fill="#fdf2f8"/>'
+    pts = [(rr.uniform(16, 284), rr.uniform(16, 184)) for _ in range(34)]
+    for i, (cx, cy) in enumerate(pts):
+        if tipo == "microcitica":
+            p += C(cx, cy, 9, "#fecdd3", "#e11d48", 1.2) + C(cx, cy, 6, "#fff1f2", "none", 0)
+        elif tipo == "esferocitos" and i % 3 == 0:
+            p += C(cx, cy, 9, "#e11d48", "#9f1239", 1)
+        elif tipo == "drepanocitos" and i % 3 == 0:
+            p += P(f"M{cx-12} {cy} Q{cx} {cy-12} {cx+12} {cy} Q{cx} {cy-5} {cx-12} {cy} Z", "#e11d48", "#9f1239", 1)
+        else:
+            p += C(cx, cy, 12, "#fda4af", "#e11d48", 1) + C(cx, cy, 4.5, "#fecdd3", "none", 0)
+        if tipo == "vivax" and i % 7 == 0:
+            p += C(cx, cy, 14, "#fbcfe8", "#be185d", 1) + P(f"M{cx-6} {cy} q6 -8 12 0", "none", "#6d28d9", 2) + C(cx + 6, cy, 2, "#7f1d1d", "none", 0)
+    if tipo == "blastos_auer":
+        for cx, cy in [(80, 70), (200, 120), (140, 150)]:
+            p += C(cx, cy, 24, "#c4b5fd", "#6d28d9", 1.5) + C(cx, cy, 17, "#7c3aed", "none", 0)
+            p += f'<line x1="{cx-8}" y1="{cy-24}" x2="{cx+10}" y2="{cy-10}" stroke="#be123c" stroke-width="2.5"/>'
+    if tipo == "hemofagocito":
+        p += C(150, 100, 46, "#e9d5ff", "#7c3aed", 2) + C(130, 90, 10, "#fda4af", "#e11d48", 1) + C(160, 110, 10, "#fda4af", "#e11d48", 1) + C(150, 80, 6, "#6d28d9", "none", 0)
+    if tipo == "plaquetas_bajas":
+        p += C(60, 60, 3, "#7c3aed", "none", 0)
+    elif tipo == "normal":
+        p += "".join(C(rr.uniform(20, 280), rr.uniform(20, 180), 2.5, "#7c3aed", "none", 0) for _ in range(10))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ CEREBRO EN CORTE (TC o eco) (lienzo 280×260)
+def tc_craneo(s, x, y, lesion="normal", estilo="tc", sc=1.0):
+    """lesion: normal | cmv | toxo | ncc | lacunas | epidural | edema | occipital | ventriculos."""
+    bg = "#0b1220"
+    p = f'<rect x="0" y="0" width="280" height="260" rx="10" fill="{bg}"/>'
+    if estilo == "eco":
+        p += P("M140 10 L14 250 Q140 290 266 250 Z", "#1f2937", "none", 0)
+    p += E(140, 132, 116, 118, "#e5e7eb" if estilo == "tc" else "none", "#e5e7eb" if estilo == "eco" else "none", 0 if estilo == "tc" else 1)
+    p += E(140, 132, 106, 108, "#6b7280", "none", 0)
+    grande = lesion in ("cmv", "ventriculos")
+    vw = 18 if grande else 9
+    p += P(f"M{128-vw} 96 C{120-vw} 120 {122-vw} 150 {132-vw/2} 164 L136 150 L136 100 Z", "#111827", "none", 0)
+    p += P(f"M{152+vw} 96 C{160+vw} 120 {158+vw} 150 {148+vw/2} 164 L144 150 L144 100 Z", "#111827", "none", 0)
+    if lesion == "cmv":
+        p += "".join(C(cx, cy, 4, "#ffffff", "none", 0) for cx, cy in [(104, 100), (100, 124), (106, 150), (176, 100), (180, 126), (174, 152)])
+    elif lesion == "toxo":
+        p += "".join(C(cx, cy, 4, "#ffffff", "none", 0) for cx, cy in [(70, 90), (210, 160), (120, 200), (190, 70), (90, 180)])
+    elif lesion == "ncc":
+        for cx, cy in [(80, 110), (200, 150), (170, 70)]:
+            p += C(cx, cy, 13, "#0f172a", "#cbd5e1", 1.5) + C(cx + 4, cy - 3, 3, "#f8fafc", "none", 0)
+        p += C(100, 190, 5, "#ffffff", "none", 0)
+    elif lesion == "lacunas":
+        p += "".join(C(cx, cy, 5, "#111827", "none", 0) for cx, cy in [(116, 120), (164, 128), (126, 150), (158, 104), (112, 96)])
+    elif lesion == "epidural":
+        p += P("M40 80 C30 120 34 160 50 190 C66 170 70 120 60 84 Z", "#f8fafc", "none", 0)
+        p += P("M150 40 L150 230", "none", "#fbbf24", 1.5, 'stroke-dasharray="4 3"')
+    elif lesion == "edema":
+        p += E(140, 132, 106, 108, "#9ca3af", "none", 0, 'opacity="0.35"')
+    elif lesion == "occipital":
+        p += P("M100 220 C120 236 160 236 180 220 L170 190 C150 200 130 200 110 190 Z", "#374151", "none", 0)
+    p += t(140, 250, "adelante ↑" if estilo == "tc" else "", "#94a3b8", 9.5, halo=False)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ RIÑONES Y VÍAS URINARIAS (lienzo 300×280)
+def rinon_vias(s, x, y, opcion="normal", lado="der", sc=1.0, rotulos=()):
+    """opcion: normal | pielonefritis | rvu | litiasis | trauma | hidronefrosis | rinones_pequenos | prostata."""
+    p = (P("M50 40 C20 50 20 130 50 140 C70 146 84 120 76 90 C84 60 70 34 50 40 Z", ORG["rinon"], "#9f1239", 2)
+         + P("M250 40 C280 50 280 130 250 140 C230 146 216 120 224 90 C216 60 230 34 250 40 Z", ORG["rinon"], "#9f1239", 2)
+         + P("M76 96 C90 150 118 200 136 232", "none", "#fde68a", 7, 'stroke-linecap="round"')
+         + P("M224 96 C210 150 182 200 164 232", "none", "#fde68a", 7, 'stroke-linecap="round"')
+         + E(150, 244, 44, 30, ORG["vejiga"], "#ca8a04", 2) + t(150, 250, "vejiga", "#a16207", 10, halo=False)
+         + t(10, 16, "D", MUTED, 11, "start", halo=False) + t(290, 16, "I", MUTED, 11, "end", halo=False))
+    xk = 50 if lado == "der" else 250
+    if opcion == "pielonefritis":
+        p += P(f"M{xk} 40 C{xk-30 if lado=='der' else xk+30} 50 {xk-30 if lado=='der' else xk+30} 130 {xk} 140", "none", ORANGE, 5)
+        p += "".join(C(xk + dx, 70 + dy, 4, ORANGE, "none", 0) for dx, dy in [(-6, 0), (4, 20), (-4, 40), (6, 54)])
+    elif opcion == "rvu":
+        p += P("M76 96 C90 150 118 200 136 232", "none", "#fbbf24", 14, 'stroke-linecap="round" opacity="0.8"')
+        p += "".join(flecha(128 - k * 16, 214 - k * 36, 120 - k * 16, 196 - k * 36, ORANGE, 2.2) for k in range(3))
+        p += P("M50 60 C40 70 40 110 50 120", "none", "#fbbf24", 8)
+        p += t(96, 150, "orina que sube", ORANGE, 10.5, "start")
+    elif opcion == "litiasis":
+        p += piedra(112 if lado == "der" else 188, 196, 6)
+        p += P("M76 96 C86 130 100 170 110 190", "none", "#fbbf24", 11, 'stroke-linecap="round"') if lado == "der" else ""
+    elif opcion == "trauma":
+        p += P(f"M{xk-8} 60 L{xk+6} 80 L{xk-6} 96 L{xk+8} 116", "none", "#7f1d1d", 4)
+        p += E(xk + (22 if lado == "izq" else -22), 100, 22, 40, "#b91c1c", "none", 0, 'opacity="0.55"')
+    elif opcion == "rinones_pequenos":
+        p = p.replace("M50 40 C20 50 20 130 50 140", "M50 60 C34 66 34 116 50 122").replace("M250 40 C280 50 280 130 250 140", "M250 60 C266 66 266 116 250 122")
+    elif opcion == "prostata":
+        p += E(150, 280, 26, 14, "#fdba74", "#c2410c", 2) + t(186, 284, "próstata", "#c2410c", 10, "start")
+    for rx_, ry_, txt, anc in rotulos:
+        p += t(rx_, ry_, txt, INK, 10.5, anc)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ GLOMÉRULO (lienzo 260×220)
+def glomerulo(s, x, y, tipo="normal", sc=1.0):
+    """tipo: normal | cambios_minimos | membranosa | proliferativo (lupus IV)."""
+    p = C(130, 110, 96, "#f8fafc", "#94a3b8", 3) + t(130, 214, "cápsula de Bowman", MUTED, 10, halo=False)
+    loops = [(100, 80), (150, 70), (180, 110), (160, 150), (110, 150), (90, 115), (130, 112)]
+    for cx, cy in loops:
+        p += C(cx, cy, 24, "#fecaca", "#b91c1c", 2)
+        if tipo == "membranosa":
+            p += "".join(C(cx + 24 * math.cos(a), cy + 24 * math.sin(a), 3, "#1d4ed8", "none", 0) for a in [k * math.pi / 5 for k in range(10)])
+        if tipo == "proliferativo":
+            p += "".join(C(cx + rx_, cy + ry_, 3.2, "#4c1d95", "none", 0) for rx_, ry_ in [(-8, -6), (6, 4), (-4, 10), (9, -9)])
+            p += C(cx, cy, 24, "none", "#f59e0b", 4, 'opacity="0.7"')
+    if tipo == "cambios_minimos":
+        p += t(130, 34, "podocitos con pies «borrados»", "#9f1239", 10)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ OTROS PEDIÁTRICOS
+def hematocrito(s, x, y, valor=68, sc=1.0):
+    """Tubo capilar con el hematocrito (lienzo 220×230)."""
+    H = 180
+    p = (f'<rect x="80" y="20" width="36" height="{H}" rx="6" fill="#fef9c3" stroke="#64748b" stroke-width="2"/>'
+         + f'<rect x="82" y="{20+H-H*valor/100:.0f}" width="32" height="{H*valor/100-2:.0f}" rx="4" fill="#b91c1c"/>'
+         + f'<rect x="82" y="{20+H-H*valor/100-4:.0f}" width="32" height="4" fill="#f8fafc"/>'
+         + t(130, 20 + H - H * valor / 100 + 6, f"{valor} %", "#7f1d1d", 14, "start")
+         + f'<line x1="70" y1="{20+H-H*0.65:.0f}" x2="126" y2="{20+H-H*0.65:.0f}" stroke="{ORANGE}" stroke-width="2" stroke-dasharray="4 3"/>'
+         + t(66, 20 + H - H * 0.65 + 4, "65 %", ORANGE, 10.5, "end") + t(98, 224, "plasma arriba, glóbulos rojos abajo", MUTED, 10))
+    g(s, x, y, p, sc)
+
+
+def vasos(s, x, y, caso=3, sc=1.0):
+    """Cuatro bebidas con sus cucharaditas de azúcar (lienzo 440×170)."""
+    it = [("Gaseosa", "#78350f", 8), ("Jugo envasado", "#f59e0b", 6), ("Leche entera", "#f8fafc", 3), ("Agua", "#bae6fd", 0)]
+    p = ""
+    for k, (nom, col, az) in enumerate(it):
+        cx = 56 + k * 108
+        on = k == caso
+        p += f'<rect x="{cx-50}" y="2" width="100" height="164" rx="10" fill="{ORANGE_L if on else "#ffffff"}" stroke="{ORANGE if on else "#cbd5e1"}" stroke-width="{2.5 if on else 1.2}"/>'
+        p += P(f"M{cx-22} 20 L{cx-16} 96 H{cx+16} L{cx+22} 20 Z", "#ffffff", "#94a3b8", 2) + P(f"M{cx-20} 36 L{cx-16} 96 H{cx+16} L{cx+20} 36 Z", col, "none", 0, 'opacity="0.85"')
+        p += "".join(f'<rect x="{cx-34+(i%4)*18}" y="{106+(i//4)*12}" width="12" height="9" rx="2" fill="#ffffff" stroke="#94a3b8"/>' for i in range(az))
+        p += t(cx, 150, nom, ORANGE if on else INK, 10.5) + t(cx, 162, f"{az} cdtas de azúcar" if az else "sin azúcar", SLATE, 9.5, fw=600)
+    g(s, x, y, p, sc)
+
+
+def columna_disrafia(s, x, y, tipo="oculta", sc=1.0):
+    """Corte transversal de la columna lumbar: oculta | meningocele | mielomeningocele (lienzo 220×244)."""
+    p = (P("M20 200 H180", "none", SKIN_D, 5) + t(100, 214, "piel", MUTED, 10, halo=False)
+         + C(100, 60, 34, "#e7e5e4", "#a8a29e", 3) + C(100, 60, 16, "#fef3c7", "#ca8a04", 2) + t(100, 64, "médula", "#92400e", 9, halo=False)
+         + P("M70 80 L60 130 M130 80 L140 130", "none", "#a8a29e", 10, 'stroke-linecap="round"'))
+    if tipo == "oculta":
+        p += P("M60 130 L84 150 M140 130 L116 150", "none", "#a8a29e", 10, 'stroke-linecap="round"')
+        p += E(100, 196, 8, 5, "#9a6b52", "none", 0) + "".join(f'<path d="M{96+i*2} 192 q-4 -14 -2 -24" stroke="#1f2937" stroke-width="1.4" fill="none"/>' for i in range(5))
+        p += t(116, 172, "mechón de pelo", "#9a3412", 10, "start") + t(116, 186, "y hoyuelo", "#9a3412", 10, "start")
+    elif tipo == "meningocele":
+        p += P("M70 130 C40 196 60 222 100 222 C140 222 160 196 130 130", "#bae6fd", "#0369a1", 2)
+        p += t(100, 238, "solo meninges y LCR", "#0369a1", 10)
+    else:
+        p += P("M70 130 C40 196 60 222 100 222 C140 222 160 196 130 130", "#fecaca", "#b91c1c", 2)
+        p += P("M100 76 L100 206", "none", "#ca8a04", 6) + t(100, 238, "médula y raíces afuera", "#b91c1c", 10)
+    g(s, x, y, p, sc)
+
+
+def esofago_caustico(s, x, y, tipo="alcali", sc=1.0):
+    """Esófago y estómago con la lesión cáustica (lienzo 220×260)."""
+    p = (P("M100 10 L100 150 C100 170 80 190 90 210 C110 250 190 250 200 200 C206 170 170 150 124 152 L124 10 Z", "#fbcfe8", "#be185d", 2)
+         + t(150, 30, "esófago", "#9d174d", 10.5, "start") + t(150, 256, "estómago", "#9d174d", 10.5))
+    if tipo == "alcali":
+        p += P("M100 30 L100 150 L124 150 L124 30 Z", "#7f1d1d", "none", 0, 'opacity="0.8"')
+        p += "".join(f'<path d="M{96} {40+k*22} l-8 6 M{128} {50+k*22} l8 6" stroke="#7f1d1d" stroke-width="2"/>' for k in range(5))
+        p += t(82, 96, "necrosis de", "#7f1d1d", 10.5, "end") + t(82, 110, "licuefacción:", "#7f1d1d", 10.5, "end") + t(82, 124, "penetra", "#7f1d1d", 10.5, "end") + t(82, 138, "la pared", "#7f1d1d", 10.5, "end")
+    else:
+        p += P("M92 190 C110 230 180 230 192 196 L180 190 C160 210 120 214 104 186 Z", "#57534e", "none", 0)
+        p += t(88, 120, "ácido: escara", "#44403c", 10.5, "end") + t(88, 134, "(coagulación)", "#44403c", 10.5, "end")
+    g(s, x, y, p, sc)
+
+
+def linea_xy(s, x, y, puntos, xs, ys, x_label, y_label, bandas=(), marca=None, W=320, H=200, sc=1.0):
+    """Gráfico de línea genérico. puntos en unidades; bandas: [(y0, y1, color, etiqueta)]."""
+    X0_, Y0_ = 46, 12
+    x0, x1 = xs
+    y0, y1 = ys
+    fx = lambda v: X0_ + (v - x0) / (x1 - x0) * W
+    fy = lambda v: Y0_ + (y1 - v) / (y1 - y0) * H
+    p = f'<rect x="{X0_}" y="{Y0_}" width="{W}" height="{H}" fill="#f8fafc" stroke="#cbd5e1"/>'
+    for b0, b1, col, lab in bandas:
+        p += f'<rect x="{X0_}" y="{fy(b1):.1f}" width="{W}" height="{fy(b0)-fy(b1):.1f}" fill="{col}" opacity="0.35"/>'
+        p += t(X0_ + W - 4, fy(b1) + 12, lab, SLATE, 9.5, "end", 700, halo=False)
+    pts = " ".join(f"{fx(a):.1f},{fy(b):.1f}" for a, b in puntos)
+    p += f'<polyline points="{pts}" fill="none" stroke="{TEAL}" stroke-width="2.5"/>'
+    if marca:
+        mx, my, lab = marca
+        p += C(fx(mx), fy(my), 7, ORANGE, "#7c2d12", 2) + t(fx(mx) + 10, fy(my) - 10, lab, "#9a3412", 10.5, "start")
+    p += t(X0_ + W / 2, Y0_ + H + 26, x_label, MUTED, 10, halo=False) + t(4, Y0_ + 8, y_label, MUTED, 10, "start", halo=False)
+    for v in (x0, (x0 + x1) / 2, x1):
+        p += t(fx(v), Y0_ + H + 13, f"{v:g}", MUTED, 9.5, halo=False)
+    for v in (y0, (y0 + y1) / 2, y1):
+        p += t(X0_ - 4, fy(v) + 4, f"{v:g}", MUTED, 9.5, "end", halo=False)
+    g(s, x, y, p, sc)
+
+
+def via_aerea_niveles(s, x, y, caso=2, sc=1.0):
+    """Cuatro niveles de compromiso respiratorio (lienzo 300×300): 0 extratorácico, 1 intratorácico, 2 alveolar, 3 central."""
+    p = (C(150, 30, 26, "#e0e7ff" if caso != 3 else ORANGE_L, "#6366f1" if caso != 3 else ORANGE, 2) + t(150, 34, "cerebro", "#3730a3", 10)
+         + P("M142 60 L142 110 L158 110 L158 60 Z", "#bae6fd" if caso != 0 else ORANGE_L, "#0369a1" if caso != 0 else ORANGE, 2)
+         + P("M150 110 L150 150 M150 150 C120 170 90 190 70 220 M150 150 C180 170 210 190 230 220", "none", "#0369a1" if caso != 1 else ORANGE, 7, 'stroke-linecap="round"')
+         + "".join(C(cx, cy, 11, "#fecdd3" if caso != 2 else ORANGE, "#be185d", 1.5) for cx, cy in [(62, 232), (78, 246), (222, 232), (238, 246), (70, 260), (230, 260)]))
+    labs = [("Extratorácica: estridor", 184, 86), ("Intratorácica: sibilancias", 196, 176), ("Alveolointersticial: crepitantes, quejido", 150, 290),
+            ("Central: respiración irregular", 184, 36)]
+    for k, (tx, lx, ly) in enumerate(labs):
+        p += t(lx, ly, tx, ORANGE if k == caso else SLATE, 10.5, "start" if k != 2 else "middle", 800 if k == caso else 600)
+    g(s, x, y, p, sc)
+
+
+def pieza_t(s, x, y, sc=1.0):
+    """Reanimador con pieza en T (lienzo 330×170)."""
+    p = (f'<rect x="10" y="30" width="110" height="90" rx="10" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>'
+         + C(45, 70, 22, "#ffffff", "#475569", 2) + P("M45 70 L58 56", "none", RED, 2.5) + t(45, 108, "PIP 20-25", INK, 10)
+         + C(95, 70, 16, "#ffffff", "#475569", 2) + P("M95 70 L103 62", "none", "#1d4ed8", 2.5) + t(95, 108, "PEEP 5-6", INK, 10)
+         + P("M120 76 C170 76 190 90 220 90", "none", "#94a3b8", 8) + P("M220 70 L220 110 M220 90 L262 90", "none", "#475569", 10, 'stroke-linecap="round"')
+         + C(222, 60, 7, "#ffffff", "#0f766e", 2) + t(236, 52, "se tapa para dar", TEAL_D, 10, "start") + t(236, 64, "cada insuflación", TEAL_D, 10, "start")
+         + E(284, 90, 22, 20, "#fde68a", "#ca8a04", 2) + t(284, 130, "mascarilla", MUTED, 10, halo=False)
+         + t(65, 150, "presiones fijas y PEEP: menos daño pulmonar", "#0f766e", 10.5, "start"))
     g(s, x, y, p, sc)

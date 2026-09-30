@@ -213,8 +213,8 @@ def balanza(s, y, d):
         col = ORANGE if on else "#64748b"
         s.add(f'<line x1="{sx:.1f}" y1="{sy:.1f}" x2="{sx-28:.1f}" y2="{sy+62:.1f}" stroke="#64748b" stroke-width="2"/>'
               f'<line x1="{sx:.1f}" y1="{sy:.1f}" x2="{sx+28:.1f}" y2="{sy+62:.1f}" stroke="#64748b" stroke-width="2"/>'
-              f'<path d="M{sx-38:.1f} {sy+62:.1f} H{sx+38:.1f} Q{sx:.1f} {sy+94:.1f} {sx-38:.1f} {sy+62:.1f} Z" fill="{col}"/>')
-        s.text(sx, sy + 79, d[lado]["peso"], 10.5, 800, "#ffffff", maxw=66)
+              f'<path d="M{sx-38:.1f} {sy+62:.1f} H{sx+38:.1f} Q{sx:.1f} {sy+106:.1f} {sx-38:.1f} {sy+62:.1f} Z" fill="{col}"/>')
+        s.text(sx, sy + 77, d[lado]["peso"], 10.5, 800, "#ffffff", maxw=66)
     s.text(cx, by + 232, d.get("pregunta", ""), 12, 800, "#334155", maxw=W - 2 * colw - 40)
     # columnas
     for lado, x in (("izq", X0), ("der", X1 - colw)):

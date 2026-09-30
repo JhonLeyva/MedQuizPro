@@ -13,3 +13,6 @@ guardar(G("neumoperitoneo.jpg").crop((20, 10, 940, 780)), "neumoperitoneo.jpg", 
 guardar(G("seudoquiste.png").crop((0, 0, 920, 751)), "seudoquiste.jpg", 700, 80)
 # Gemelos bicoriales a las 8 semanas (Nevit Dilmen, CC BY-SA 3.0): se recorta el texto del equipo
 guardar(G("gemelar_lambda.jpg").crop((0, 0, 491, 290)), "gemelar_lambda.jpg", 491, 85)
+# Loxosceles laeta (Mampato, dominio público) y varicela (CDC, dominio público)
+guardar(C("loxosceles.jpg").crop((160, 180, 580, 600)), "loxosceles.jpg", 420, 85)
+guardar(C("varicela.jpg").crop((0, 100, 500, 744)), "varicela.jpg", 500, 85)
