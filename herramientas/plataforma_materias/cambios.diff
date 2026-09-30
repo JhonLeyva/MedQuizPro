@@ -1,0 +1,483 @@
+--- original/catalogo.js
++++ nuevo/catalogo.js
+@@ -18,8 +18,10 @@
+  *   - Nueva especialidad: se crea el .json y se añade una línea en ESPECIALIDADES.
+  *   - Residentado / EsSalud con banco propio: basta con cargar preguntas con ese
+  *     "examen_origen" y cambiar su estado a "disponible" en EXAMENES.
+- *   - Categorías dentro de una especialidad: cada especialidad tiene "categorias: []"
+- *     reservado; hoy las preguntas oficiales traen "tema", que se muestra en la pregunta.
++ *   - Categorías (materias) dentro de una especialidad: se listan en "categorias: [...]"
++ *     y cada pregunta de ese banco lleva el campo "categoria" con uno de esos nombres.
++ *     Con la lista llena, la tarjeta y el armador del banco dejan elegir una materia o
++ *     todas. Hoy la usa Ciencias Básicas; las demás tienen "categorias: []".
+  */
+ (function () {
+   "use strict";
+@@ -113,7 +115,10 @@
+     { nombre: "Oftalmología y Otorrinolaringología", archivo: "oftalmo_orl", icono: "ojo", area: "cirugia", categorias: [] },
+     { nombre: "Psiquiatría", archivo: "psiquiatria", icono: "mente", area: "medicina", categorias: [] },
+     { nombre: "Salud Pública, Gestión y Epidemiología", archivo: "salud_publica", icono: "grafico", area: "salud_publica", categorias: [] },
+-    { nombre: "Ciencias Básicas", archivo: "ciencias_basicas", icono: "matraz", area: "basicas", categorias: [] }
++    { nombre: "Ciencias Básicas", archivo: "ciencias_basicas", icono: "matraz", area: "basicas",
++      categorias: ["Anatomía", "Histología y Biología Celular", "Embriología", "Fisiología",
++        "Bioquímica y Genética", "Microbiología e Inmunología", "Farmacología básica y autonómica",
++        "Patología general", "Epidemiología y Bioestadística"] }
+   ];
+ 
+   /* ---------- simuladores ----------
+@@ -152,7 +157,7 @@
+ 
+   /* ---------- carga de bancos ----------
+      Formato: { especialidad, preguntas: [ { id, especialidad, examen_origen, enunciado,
+-     opciones: { A: "…" } o [ "…" ], clave_correcta: "B", comentario, tema?, año? } ] }.
++     opciones: { A: "…" } o [ "…" ], clave_correcta: "B", comentario, tema?, categoria?, año? } ] }.
+      Si la página es un solo archivo (artifact.html), los bancos vienen en window.MQP_BANCOS. */
+   function normalizar(datos, archivo) {
+     var lista = Array.isArray(datos) ? datos : (datos && Array.isArray(datos.preguntas) ? datos.preguntas : null);
+@@ -172,7 +177,7 @@
+       salida.push({
+         id: p.id, especialidad: p.especialidad, archivo: archivo, examen: origen,
+         examenId: examenDe(origen), oficial: /oficial/i.test(origen),
+-        tema: p.tema ? String(p.tema) : "", anio: p["año"] || p.anio || null,
++        tema: p.tema ? String(p.tema) : "", categoria: p.categoria ? String(p.categoria) : "", anio: p["año"] || p.anio || null,
+         enunciado: String(p.enunciado), opciones: ops,
+         clave: String(p.clave_correcta || "").trim().toUpperCase(),
+         comentario: p.comentario ? String(p.comentario) : ""
+@@ -220,12 +225,14 @@
+ 
+   /* ---------- selección de preguntas ----------
+      opciones: { examen, archivos: [], origen: RegExp, filtro: "todas" | "no-respondidas"
+-     | "falladas" | "favoritas", ids: [] } */
++     | "falladas" | "favoritas", ids: [], categorias: [] (o categoria: "…") }.
++     "categorias" solo recorta las especialidades que tienen materias; las demás pasan igual. */
+   function filtrar(preguntas, o) {
+     o = o || {};
+     var archivos = o.archivos && o.archivos.length ? o.archivos : null;
+     var ids = o.ids && o.ids.length ? o.ids : null;
+     var estado = o.filtro && o.filtro !== "todas" ? progreso.leer() : null;
++    var cats = o.categorias && o.categorias.length ? o.categorias : (o.categoria ? [o.categoria] : null);
+     var salida = [];
+     for (var k = 0; k < preguntas.length; k++) {
+       var q = preguntas[k];
+@@ -233,6 +240,7 @@
+       if (o.examen && q.examenId !== o.examen) continue;
+       if (archivos && archivos.indexOf(q.archivo) < 0) continue;
+       if (o.origen && !o.origen.test(q.examen)) continue;
++      if (cats && tieneCategorias(q.archivo) && cats.indexOf(q.categoria) < 0) continue;
+       if (estado) {
+         var r = estado.respuestas[q.id];
+         if (o.filtro === "no-respondidas" && r) continue;
+@@ -245,6 +253,22 @@
+     return salida;
+   }
+ 
++  function tieneCategorias(archivo) {
++    for (var k = 0; k < ESPECIALIDADES.length; k++)
++      if (ESPECIALIDADES[k].archivo === archivo) return ESPECIALIDADES[k].categorias.length > 0;
++    return false;
++  }
++
++  /* Cuántas preguntas hay de cada materia: { "Anatomía": 70, … }. */
++  function contarCategorias(preguntas) {
++    var c = {};
++    for (var k = 0; k < preguntas.length; k++) {
++      var n = preguntas[k].categoria;
++      if (n) c[n] = (c[n] || 0) + 1;
++    }
++    return c;
++  }
++
+   function barajar(lista) {
+     var a = lista.slice();
+     for (var k = a.length - 1; k > 0; k--) {
+@@ -374,6 +398,7 @@
+     cargarBanco: cargarBanco,
+     cargarTodo: cargarTodo,
+     filtrar: filtrar,
++    contarCategorias: contarCategorias,
+     barajar: barajar,
+     progreso: progreso,
+     miles: miles,
+--- original/main.js
++++ nuevo/main.js
+@@ -534,7 +534,7 @@
+           mensaje("No se pudo cargar " + (archivos.length === 1 ? "el banco de " + (cfg.titulo || "esta especialidad") : "el banco de preguntas") + ". Revisa tu conexión e inténtalo de nuevo.");
+           return;
+         }
+-        var lista = M.filtrar(todas, { examen: cfg.examen, origen: cfg.origen, filtro: cfg.filtro, ids: cfg.ids });
++        var lista = M.filtrar(todas, { examen: cfg.examen, origen: cfg.origen, filtro: cfg.filtro, ids: cfg.ids, categorias: cfg.categorias, categoria: cfg.categoria });
+         if (!cfg.ids) {
+           if (cfg.orden === "aleatorio") lista = M.barajar(lista);
+           if (cfg.cantidad) lista = lista.slice(0, cfg.cantidad);
+@@ -643,8 +643,8 @@
+       el.area.textContent = q.especialidad || actual.cfg.titulo || "";
+       el.exam.hidden = !q.examen;
+       el.exam.textContent = q.examen;
+-      el.tema.hidden = !q.tema;
+-      el.tema.textContent = q.tema;
++      el.tema.hidden = !q.tema && !q.categoria;
++      el.tema.textContent = q.categoria && q.tema ? q.categoria + " · " + q.tema : (q.tema || q.categoria);
+       el.stem.textContent = q.enunciado;
+ 
+       el.options.innerHTML = "";
+@@ -960,7 +960,9 @@
+     if (!M) return;
+ 
+     /* Tarjeta de especialidad. info: { estado: "cargando" | "ok" | "vacio" | "error",
+-       total, respondidas, correctas, tipo } */
++       total, respondidas, correctas, tipo, materias: { "Anatomía": 70, … } }.
++       Si la especialidad tiene categorías (materias), la tarjeta muestra un selector y
++       alEntrenar recibe (esp, materia): materia es "" cuando se eligen todas. */
+     function tarjetaEspecialidad(esp, k, alEntrenar) {
+       var area = M.area(esp.area);
+       var card = document.createElement("article");
+@@ -976,6 +978,9 @@
+         '<h3 class="spec__name"></h3>' +
+         '<p class="spec__meta">' + M.icono("libro") + '<span>Contando preguntas…</span></p>' +
+         '<div class="spec__progress" hidden><span class="spec__track"><span class="spec__fill"></span></span><span class="spec__ptext"></span></div>' +
++        (esp.categorias && esp.categorias.length
++          ? '<label class="spec__materia"><span class="spec__materia-label">Materia</span><select class="spec__materia-select"></select></label>'
++          : '') +
+         '<button class="btn spec__cta" type="button"><span class="spec__cta-text">Entrenar</span>' + M.icono("flecha", "btn__arrow") + '</button>';
+       card.querySelector(".spec__area").textContent = area ? area.nombre : "";
+       card.querySelector(".spec__name").textContent = esp.nombre;
+@@ -984,8 +989,37 @@
+       var prog = card.querySelector(".spec__progress");
+       var btn = card.querySelector(".spec__cta");
+       var btnTxt = card.querySelector(".spec__cta-text");
++      var sel = card.querySelector(".spec__materia-select");
+       btn.setAttribute("aria-label", "Entrenar " + esp.nombre);
+-      btn.addEventListener("click", function () { if (!btn.disabled) alEntrenar(esp); });
++      btn.addEventListener("click", function () { if (!btn.disabled) alEntrenar(esp, sel ? sel.value : ""); });
++
++      /* selector de materia: "Todas las materias" + una opción por categoría, con su conteo */
++      function pintarMaterias(materias, total) {
++        if (!sel) return;
++        var previa = sel.value;
++        sel.innerHTML = "";
++        var todas = document.createElement("option");
++        todas.value = "";
++        todas.textContent = "Todas las materias" + (total ? " (" + total + ")" : "");
++        sel.appendChild(todas);
++        for (var j = 0; j < esp.categorias.length; j++) {
++          var nombre = esp.categorias[j], n = materias ? (materias[nombre] || 0) : null;
++          var op = document.createElement("option");
++          op.value = nombre;
++          op.textContent = nombre + (n !== null ? " (" + n + ")" : "");
++          if (n === 0) op.disabled = true;   // sin preguntas todavía para este examen
++          sel.appendChild(op);
++        }
++        sel.value = previa;
++        if (sel.selectedIndex < 0 || sel.options[sel.selectedIndex].disabled) sel.value = "";
++      }
++      if (sel) {
++        pintarMaterias(null, 0);
++        sel.setAttribute("aria-label", "Materia de " + esp.nombre);
++        sel.addEventListener("change", function () {
++          btn.setAttribute("aria-label", "Entrenar " + esp.nombre + (sel.value ? " · " + sel.value : ""));
++        });
++      }
+ 
+       function actualizar(info) {
+         info = info || {};
+@@ -1001,6 +1035,7 @@
+           pill.className = "spec__status spec__status--off"; pill.textContent = "No disponible";
+           meta.textContent = "No se pudo cargar por ahora";
+         } else if (!info.total) {
++          pintarMaterias(null, 0);
+           card.classList.add("spec--soon");
+           pill.className = "spec__status spec__status--soon"; pill.textContent = "Próximamente";
+           pill.hidden = true;   // el botón ya lo dice
+@@ -1011,6 +1046,7 @@
+           pill.className = "spec__status spec__status--ok"; pill.textContent = "Disponible";
+           pill.hidden = true;   // solo se muestran los estados que informan algo
+           meta.textContent = M.plural(info.total, info.tipo ? "pregunta tipo" : "pregunta comentada", info.tipo ? "preguntas tipo" : "preguntas comentadas");
++          pintarMaterias(info.materias || null, info.total);
+           if (info.respondidas) {
+             prog.hidden = false;
+             var v = Math.min(100, Math.round(info.respondidas / info.total * 100));
+@@ -1021,6 +1057,7 @@
+         }
+       }
+       actualizar({ estado: "cargando" });
++      if (sel) card.classList.add("spec--materias");
+       return { nodo: card, actualizar: actualizar };
+     }
+ 
+@@ -1039,12 +1076,26 @@
+       return c;
+     }
+ 
++    /* Preguntas por materia de una especialidad dentro de un examen: { "Anatomía": 70, … }. */
++    function contarMaterias(preguntas, archivo, examen) {
++      var lista = [];
++      for (var k = 0; k < preguntas.length; k++) {
++        var q = preguntas[k];
++        if (q.archivo === archivo && (!examen || q.examenId === examen)) lista.push(q);
++      }
++      return M.contarCategorias(lista);
++    }
++
++    /* Título de sesión con la materia, si se eligió una. */
++    function tituloMateria(titulo, materia) { return materia ? titulo + " · " + materia : titulo; }
++
+     /* Respuestas del estudiante limitadas a un examen, por especialidad. */
+     function progresoPorArchivo(examen) {
+       return M.progreso.resumen(examen).porArchivo;
+     }
+ 
+-    M.ui = { tarjetaEspecialidad: tarjetaEspecialidad, contarPorExamen: contarPorExamen, progresoPorArchivo: progresoPorArchivo };
++    M.ui = { tarjetaEspecialidad: tarjetaEspecialidad, contarPorExamen: contarPorExamen, progresoPorArchivo: progresoPorArchivo,
++      contarMaterias: contarMaterias, tituloMateria: tituloMateria };
+   });
+ 
+   /* ---------- web pública: explorador de bancos por examen ---------- */
+@@ -1067,11 +1118,11 @@
+     var ordenAreas = M.areas.map(function (a) { return a.id; });
+     var lista = M.especialidades.slice().sort(function (a, b) { return ordenAreas.indexOf(a.area) - ordenAreas.indexOf(b.area); });
+     for (var k = 0; k < lista.length; k++) {
+-      var t = M.ui.tarjetaEspecialidad(lista[k], k, function (esp) {
++      var t = M.ui.tarjetaEspecialidad(lista[k], k, function (esp, materia) {
+         var ex = M.examen(examen);
+         M.practica.abrir({
+-          titulo: esp.nombre + (examen !== "enam" ? " · " + ex.nombre : ""), archivos: [esp.archivo], examen: examen,
+-          volverTexto: "Volver a especialidades"
++          titulo: M.ui.tituloMateria(esp.nombre, materia) + (examen !== "enam" ? " · " + ex.nombre : ""), archivos: [esp.archivo], examen: examen,
++          categoria: materia || "", volverTexto: "Volver a especialidades"
+         });
+       });
+       tarjetas[lista[k].archivo] = t;
+@@ -1109,7 +1160,8 @@
+         var ok = datos.porArchivo[a] && datos.porArchivo[a].ok;
+         var p = prog[a] || {};
+         tarjetas[a].actualizar(ok
+-          ? { estado: "ok", total: info.porArchivo[a] || 0, respondidas: p.respondidas || 0, tipo: ex.estado !== "disponible" }
++          ? { estado: "ok", total: info.porArchivo[a] || 0, respondidas: p.respondidas || 0, tipo: ex.estado !== "disponible",
++              materias: M.especialidad(a).categorias.length ? M.ui.contarMaterias(datos.preguntas, a, examen) : null }
+           : { estado: "error" });
+       }
+       /* resumen del examen, solo con datos contados */
+--- original/styles.css
++++ nuevo/styles.css
+@@ -1593,6 +1593,18 @@
+ .spec__cta[disabled]::after { content: none; }
+ .spec__cta[disabled] .btn__arrow { display: none; }
+ .spec--soon:hover .spec__cta[disabled] { background: transparent; color: var(--ink-3); border-color: var(--line); box-shadow: none; }
++/* selector de materia (especialidades con categorías, p. ej. Ciencias Básicas):
++   va por encima de la capa clicable del botón para poder abrirse */
++.spec__materia { position: relative; z-index: 1; display: grid; gap: 5px; margin: -6px 0 14px; }
++.spec__materia-label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
++.spec__materia-select {
++  width: 100%; min-height: 40px; padding: 0 10px; border-radius: 10px;
++  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
++  font-family: var(--f-body); font-size: .88rem; cursor: pointer;
++}
++.spec__materia-select:focus-visible { outline: none; border-color: var(--brand); box-shadow: var(--ring); }
++.spec--soon .spec__materia { display: none; }
++@media (max-width: 560px) { .spec__materia { grid-column: 1 / -1; margin: 10px 0 0; } }
+ @media (max-width: 560px) {
+   .spec { grid-template-areas: "icon area area" "icon name name" "icon meta status" "prog prog prog" "cta cta cta"; }
+   .spec__area { grid-area: area; margin: 0; }
+--- original/index.html
++++ nuevo/index.html
+@@ -14,7 +14,7 @@
+   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
+   try { var t = localStorage.getItem("mqp_tema"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+ </script>
+-<link rel="stylesheet" href="styles.css?v=20260928-plataforma">
++<link rel="stylesheet" href="styles.css?v=20260930-materias">
+ </head>
+ <body>
+ 
+@@ -757,8 +757,8 @@
+ <div data-mqp-chat></div>
+ <!-- chat:fin -->
+ 
+-<script defer src="catalogo.js?v=20260928-plataforma"></script>
++<script defer src="catalogo.js?v=20260930-materias"></script>
+ <script defer src="algoritmos.js?v=20260927-2"></script>
+-<script defer src="main.js?v=20260928-plataforma"></script>
++<script defer src="main.js?v=20260930-materias"></script>
+ </body>
+ </html>
+--- original/app/app.js
++++ nuevo/app/app.js
+@@ -102,7 +102,9 @@
+   };
+   ACCIONES.especialidad = function (b) {
+     var esp = M.especialidad(b.getAttribute("data-archivo")), ex = M.examen(b.getAttribute("data-examen"));
+-    iniciar({ titulo: esp.nombre + (ex.id !== "enam" ? " · " + ex.nombre : ""), archivos: [esp.archivo], examen: ex.id, volverTexto: "Volver a " + ex.nombre });
++    var materia = b.getAttribute("data-categoria") || "";
++    iniciar({ titulo: M.ui.tituloMateria(esp.nombre, materia) + (ex.id !== "enam" ? " · " + ex.nombre : ""), archivos: [esp.archivo], examen: ex.id,
++      categoria: materia, volverTexto: "Volver a " + ex.nombre });
+   };
+   ACCIONES.area = function (b) {
+     var area = M.area(b.getAttribute("data-area")), ex = M.examen(b.getAttribute("data-examen"));
+@@ -273,32 +275,38 @@
+       var area = grids[g].getAttribute("data-area-grid");
+       M.especialidades.forEach(function (esp) {
+         if (esp.area !== area) return;
+-        var t = M.ui.tarjetaEspecialidad(esp, k++, function () {
+-          ACCIONES.especialidad({ getAttribute: function (n) { return n === "data-archivo" ? esp.archivo : exId; } });
++        var t = M.ui.tarjetaEspecialidad(esp, k++, function (e, materia) {
++          var attrs = { "data-archivo": esp.archivo, "data-examen": exId, "data-categoria": materia || "" };
++          ACCIONES.especialidad({ getAttribute: function (n) { return attrs[n]; } });
+         });
+         var ok = datos.porArchivo[esp.archivo] && datos.porArchivo[esp.archivo].ok;
+         var p = prog[esp.archivo] || {};
+-        t.actualizar(ok ? { estado: "ok", total: c.porArchivo[esp.archivo] || 0, respondidas: p.respondidas || 0, tipo: !vivo } : { estado: "error" });
++        t.actualizar(ok ? { estado: "ok", total: c.porArchivo[esp.archivo] || 0, respondidas: p.respondidas || 0, tipo: !vivo,
++          materias: esp.categorias.length ? M.ui.contarMaterias(datos.preguntas, esp.archivo, exId) : null } : { estado: "error" });
+         grids[g].appendChild(t.nodo);
+       });
+     }
+   }
+ 
+   /* ---------- Banco de preguntas: configurador de sesión ---------- */
+-  var conf = { examen: null, archivos: [], filtro: "todas", cantidad: 20, orden: "aleatorio", modo: "estudio" };
++  var conf = { examen: null, archivos: [], categorias: [], filtro: "todas", cantidad: 20, orden: "aleatorio", modo: "estudio" };
++  /* especialidades elegidas que se pueden recortar por materia (hoy: Ciencias Básicas) */
++  function conMaterias() {
++    return conf.archivos.filter(function (a) { var e = M.especialidad(a); return e && e.categorias.length; });
++  }
+   function opcion(nombre, valor, texto, detalle, activo, deshabilitado) {
+     return '<label class="pick' + (deshabilitado ? " is-disabled" : "") + '">' +
+       '<input type="radio" name="' + nombre + '" value="' + esc(valor) + '"' + (activo ? " checked" : "") + (deshabilitado ? " disabled" : "") + '>' +
+       '<span class="pick__box"><b>' + esc(texto) + '</b>' + (detalle ? '<small>' + esc(detalle) + '</small>' : "") + '</span></label>';
+   }
+   function candidatas() {
+-    return M.filtrar(datos.preguntas, { examen: conf.examen, archivos: conf.archivos, filtro: conf.filtro });
++    return M.filtrar(datos.preguntas, { examen: conf.examen, archivos: conf.archivos, categorias: conf.categorias, filtro: conf.filtro });
+   }
+   function vistaBanco() {
+     if (!conf.examen) conf.examen = examenPreferido();
+     var c = conteo[conf.examen];
+     var p = M.progreso.leer();
+-    var base = M.filtrar(datos.preguntas, { examen: conf.examen, archivos: conf.archivos });
++    var base = M.filtrar(datos.preguntas, { examen: conf.examen, archivos: conf.archivos, categorias: conf.categorias });
+     var nNo = 0, nFa = 0, nFav = 0;
+     for (var k = 0; k < base.length; k++) {
+       var r = p.respuestas[base[k].id];
+@@ -321,6 +329,27 @@
+         }).join("");
+       }).join("");
+ 
++    /* materias: aparecen solo si entre las especialidades elegidas hay una con categorías */
++    var paso = 0;
++    var conCat = conMaterias(), materias = "";
++    if (conCat.length) {
++      var nombres = [], cuenta = {};
++      conCat.forEach(function (a) {
++        var e = M.especialidad(a), cm = M.ui.contarMaterias(datos.preguntas, a, conf.examen);
++        e.categorias.forEach(function (nm) {
++          if (nombres.indexOf(nm) < 0) nombres.push(nm);
++          cuenta[nm] = (cuenta[nm] || 0) + (cm[nm] || 0);
++        });
++      });
++      var chipsMat = '<button class="chip" type="button" data-cat="" aria-pressed="' + (!conf.categorias.length) + '">Todas las materias</button>' +
++        nombres.map(function (nm) {
++          var t = cuenta[nm] || 0;
++          return '<button class="chip" type="button" data-cat="' + esc(nm) + '" aria-pressed="' + (conf.categorias.indexOf(nm) >= 0) + '"' + (t ? "" : " disabled") + '>' + esc(nm) + ' <span class="chip__n">' + t + '</span></button>';
++        }).join("");
++      materias = '<fieldset class="builder__step"><legend><span>' + (++paso + 2) + '</span>Materias <small>' +
++        (conf.categorias.length ? M.plural(conf.categorias.length, "elegida", "elegidas") : "todas") + (conCat.length === 1 ? " · " + esc(M.especialidad(conCat[0]).nombre) : "") +
++        '</small></legend><div class="chips chips--compact chips--wrap" id="bCat">' + chipsMat + '</div></fieldset>';
++    }
+     var cantidades = [10, 20, 40, 0].map(function (q) {
+       return opcion("cantidad", String(q), q ? String(q) : "Todas", "", conf.cantidad === q, false);
+     }).join("");
+@@ -330,18 +359,19 @@
+       '<form class="builder" id="builder" onsubmit="return false">' +
+         '<fieldset class="builder__step"><legend><span>1</span>Examen</legend><div class="picks">' + exams + '</div></fieldset>' +
+         '<fieldset class="builder__step"><legend><span>2</span>Especialidades <small>' + (conf.archivos.length ? M.plural(conf.archivos.length, "elegida", "elegidas") : "todas") + '</small></legend><div class="chips chips--compact chips--wrap" id="bEsp">' + chips + '</div></fieldset>' +
+-        '<fieldset class="builder__step"><legend><span>3</span>Preguntas</legend><div class="picks">' +
++        materias +
++        '<fieldset class="builder__step"><legend><span>' + (3 + paso) + '</span>Preguntas</legend><div class="picks">' +
+           opcion("filtro", "todas", "Todas", M.plural(base.length, "pregunta", "preguntas"), conf.filtro === "todas", !base.length) +
+           opcion("filtro", "no-respondidas", "No respondidas", String(nNo), conf.filtro === "no-respondidas", !nNo) +
+           opcion("filtro", "falladas", "Falladas", String(nFa), conf.filtro === "falladas", !nFa) +
+           opcion("filtro", "favoritas", "Favoritas", String(nFav), conf.filtro === "favoritas", !nFav) +
+         '</div></fieldset>' +
+-        '<fieldset class="builder__step"><legend><span>4</span>Número de preguntas</legend><div class="picks picks--compact">' + cantidades + '</div></fieldset>' +
+-        '<fieldset class="builder__step"><legend><span>5</span>Orden</legend><div class="picks">' +
++        '<fieldset class="builder__step"><legend><span>' + (4 + paso) + '</span>Número de preguntas</legend><div class="picks picks--compact">' + cantidades + '</div></fieldset>' +
++        '<fieldset class="builder__step"><legend><span>' + (5 + paso) + '</span>Orden</legend><div class="picks">' +
+           opcion("orden", "aleatorio", "Aleatorio", "Mezcla las preguntas", conf.orden === "aleatorio") +
+           opcion("orden", "secuencial", "En orden", "Como están en el banco", conf.orden === "secuencial") +
+         '</div></fieldset>' +
+-        '<fieldset class="builder__step"><legend><span>6</span>Modo</legend><div class="picks">' +
++        '<fieldset class="builder__step"><legend><span>' + (6 + paso) + '</span>Modo</legend><div class="picks">' +
+           opcion("modo", "estudio", "Estudio", "Ves la explicación al responder", conf.modo === "estudio") +
+           opcion("modo", "simulacro", "Simulacro", "Cronometrado, resultado al final", conf.modo === "simulacro") +
+         '</div></fieldset>' +
+@@ -356,7 +386,7 @@
+     if (!f) return;
+     f.addEventListener("change", function (ev) {
+       var t = ev.target;
+-      if (t.name === "examen") { conf.examen = t.value; conf.archivos = []; conf.filtro = "todas"; }
++      if (t.name === "examen") { conf.examen = t.value; conf.archivos = []; conf.categorias = []; conf.filtro = "todas"; }
+       else if (t.name === "filtro") conf.filtro = t.value;
+       else if (t.name === "cantidad") conf.cantidad = parseInt(t.value, 10);
+       else if (t.name === "orden") conf.orden = t.value;
+@@ -370,9 +400,22 @@
+       if (!a) conf.archivos = [];
+       else if (conf.archivos.indexOf(a) >= 0) conf.archivos.splice(conf.archivos.indexOf(a), 1);
+       else conf.archivos.push(a);
++      if (!conMaterias().length) conf.categorias = [];
+       if (conf.filtro !== "todas") conf.filtro = "todas";
+       repintar('#bEsp [data-esp="' + a + '"]');
+     });
++    var bCat = document.getElementById("bCat");
++    if (bCat) bCat.addEventListener("click", function (ev) {
++      var b = ev.target.closest ? ev.target.closest(".chip") : null;
++      if (!b || b.disabled) return;
++      var c = b.getAttribute("data-cat");
++      if (!c) conf.categorias = [];
++      else if (conf.categorias.indexOf(c) >= 0) conf.categorias.splice(conf.categorias.indexOf(c), 1);
++      else conf.categorias.push(c);
++      if (conf.filtro !== "todas") conf.filtro = "todas";
++      var sel = '#bCat .chip[data-cat="' + (window.CSS && CSS.escape ? CSS.escape(c) : c) + '"]';
++      repintar(sel);
++    });
+   }
+   /* repinta la vista sin perder el foco del control que se tocó */
+   function repintar(selectorFoco) {
+@@ -384,10 +427,11 @@
+   ACCIONES.comenzar = function () {
+     var ex = M.examen(conf.examen);
+     var partes = conf.archivos.length === 1 ? M.especialidad(conf.archivos[0]).nombre : conf.archivos.length ? M.plural(conf.archivos.length, "especialidad", "especialidades") : "Todas las especialidades";
++    if (conf.categorias.length) partes += " · " + (conf.categorias.length === 1 ? conf.categorias[0] : M.plural(conf.categorias.length, "materia", "materias"));
+     var n = candidatas().length, usar = conf.cantidad ? Math.min(conf.cantidad, n) : n;
+     iniciar({
+       titulo: (conf.modo === "simulacro" ? "Simulacro · " : "") + ({ "no-respondidas": "No respondidas · ", falladas: "Falladas · ", favoritas: "Favoritas · " }[conf.filtro] || "") + ex.nombre + " · " + partes,
+-      examen: conf.examen, archivos: conf.archivos.slice(), filtro: conf.filtro,
++      examen: conf.examen, archivos: conf.archivos.slice(), categorias: conf.categorias.slice(), filtro: conf.filtro,
+       cantidad: conf.cantidad || null, orden: conf.orden, modo: conf.modo,
+       tiempo: conf.modo === "simulacro" ? usar * 60 : null,
+       volverTexto: "Volver al banco", repetirIds: conf.filtro === "todas"
+--- original/app/index.html
++++ nuevo/app/index.html
+@@ -14,8 +14,8 @@
+ <script>
+   try { var t = localStorage.getItem("mqp_tema"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+ </script>
+-<link rel="stylesheet" href="../styles.css?v=20260928-plataforma">
+-<link rel="stylesheet" href="app.css?v=20260928-plataforma">
++<link rel="stylesheet" href="../styles.css?v=20260930-materias">
++<link rel="stylesheet" href="app.css?v=20260930-materias">
+ </head>
+ <body class="app-body">
+ 
+@@ -92,9 +92,9 @@
+ <div data-mqp-chat></div>
+ <!-- chat:fin -->
+ 
+-<script defer src="../catalogo.js?v=20260928-plataforma"></script>
++<script defer src="../catalogo.js?v=20260930-materias"></script>
+ <script defer src="../algoritmos.js?v=20260927-2"></script>
+-<script defer src="../main.js?v=20260928-plataforma"></script>
+-<script defer src="app.js?v=20260928-plataforma"></script>
++<script defer src="../main.js?v=20260930-materias"></script>
++<script defer src="app.js?v=20260930-materias"></script>
+ </body>
+ </html>

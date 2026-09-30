@@ -1,0 +1,53 @@
+MATERIAS EN CIENCIAS BÁSICAS
+============================
+
+Qué incluye
+-----------
+bancos/ciencias_basicas.json   Las 485 preguntas, cada una con el campo "categoria"
+                               (su materia). Se corrigieron además dos erratas:
+                               "úterosacros" -> "uterosacros" y "A-3; b-1…" -> "a-3; b-1…".
+catalogo.js                    Lista de las 9 materias en Ciencias Básicas y filtro por materia.
+main.js                        Selector "Materia" en la tarjeta de Ciencias Básicas (web pública
+                               y plataforma) y la materia visible junto al tema en cada pregunta.
+styles.css                     Estilo del selector.
+index.html, app/index.html     Solo cambia la versión (?v=20260930-materias) para que el
+                               navegador no use los archivos viejos guardados.
+app/app.js                     En "Banco de preguntas" aparece el paso "Materias" cuando
+                               eliges Ciencias Básicas (una, varias o todas).
+cambios.diff                   Las líneas exactas que cambiaron, por si prefieres copiarlas
+                               a mano en tus archivos.
+
+Preguntas por materia (examen ENAM)
+-----------------------------------
+Anatomía ............................ 70
+Histología y Biología Celular ....... 32
+Embriología ......................... 35
+Fisiología .......................... 62
+Bioquímica y Genética ............... 55
+Microbiología e Inmunología ......... 42
+Farmacología básica y autonómica ... 166
+Patología general ................... 20
+Epidemiología y Bioestadística ....... 3
+Total .............................. 485
+
+Nota: el banco casi no tiene preguntas de Epidemiología y Bioestadística; la materia
+queda lista y se llenará sola al añadir preguntas con "categoria": "Epidemiología y Bioestadística".
+
+Cómo subirlo
+------------
+Reemplaza en tu servidor, en las mismas carpetas:
+  bancos/ciencias_basicas.json, catalogo.js, main.js, styles.css, index.html,
+  app/app.js, app/index.html
+Luego borra la caché (o Ctrl+F5).
+
+IMPORTANTE: el código se hizo sobre la versión de la plataforma del 28-sep
+(rama clever-franklin). Si después cambiaste index.html o app/index.html en tu
+servidor, no los reemplaces: solo cambia en ellos "?v=..." por "?v=20260930-materias".
+
+Para añadir preguntas nuevas
+----------------------------
+Cada pregunta de Ciencias Básicas debe llevar "categoria" con uno de estos nombres
+exactos: Anatomía · Histología y Biología Celular · Embriología · Fisiología ·
+Bioquímica y Genética · Microbiología e Inmunología · Farmacología básica y autonómica ·
+Patología general · Epidemiología y Bioestadística.
+Si otra especialidad quiere materias, basta llenar su "categorias: [...]" en catalogo.js.
