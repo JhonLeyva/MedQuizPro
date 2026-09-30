@@ -8,6 +8,9 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - El pie de cada commit lo indica el system-reminder de la sesión nueva. No pongas identificadores de modelo en commits ni en archivos.
 - Trabaja en tu scratchpad. Copia primero `herramientas/` ahí: `cp -r /home/user/MedQuizPro/herramientas/. $S/`. Los scripts usan rutas relativas a esa carpeta y a `$S/flujo/`.
 
+- **Código de la web:** la copia más reciente está en `herramientas/plataforma_materias/` (versión `?v=20260930-materias`); la anterior, en la rama `origin/claude/clever-franklin-1fao9i` (versión `20260928-plataforma`). Antes de entregar cambios de código, pide al usuario que abra `public_html/index.html` en Hostinger y busque el texto `?v=`: si coincide con una de esas versiones, trabaja sobre esa copia; si no, pídele que descargue los archivos que vas a tocar y trabaja sobre ellos.
+- **Al terminar cada tarea, actualiza este archivo** (estado, herramientas nuevas, próxima tarea) y súbelo con commit y push, para que el siguiente chat sepa todo lo hecho.
+
 ## Estado actual (30-sep-2026)
 - **Rama con el trabajo más reciente:** `claude/sweet-franklin-dbg0mc`. Tiene los bloques 7 y 8, el banco de Ciencias Básicas (485) y sus flujogramas (total 2106 preguntas y 2106 flujogramas).
 - **Bancos:** 2106 preguntas (bloques 1 a 8 = 1713 + 393 nuevas de Ciencias Básicas).
