@@ -193,6 +193,12 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 3. Recarga con Ctrl+F5.
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
+## Flujogramas con ilustración y 20 diseños (pedido del usuario, 30-sep-2026)
+- Cada flujograma debe ir acorde a su pregunta (datos del caso, alternativas) y llevar un **dibujo propio del tema que muestre el caso** (p. ej. quemaduras: cuerpo con la regla de los 9 y las zonas quemadas; hernias: pelvis con los orificios; Rx, ecografías, ECG, lesiones…).
+- Se amplía a **20 diseños**: los 8 de antes + 12 nuevos: 9 cálculo, 10 mapa anatómico, 11 semáforo, 12 cronología (hechos en `flujo/engine5.py`), y por hacer: 13 comparador de imágenes, 14 escalera terapéutica, 15 ciclo/mecanismo, 16 lista de criterios, 17 balanza, 18 red de atención (niveles I-1 a III), 19 mapa corporal de signos, 20 árbol con imagen.
+- `flujo/engine5.py`: `build5(spec)`, ilustraciones `ilu_cuerpo_nueve`, `ilu_pelvis_hernias`, `ilu_rx_volvulo`, `ilu_eco_tn` (SVG dibujado a mano dentro de `panel()`, con `pie()` después del dibujo). `flujo/demo26.py`: los 4 ejemplos (CIR-133, CIR-158, CIR-150, GIN-274), salida en `flujo/out26demo/`. Entregado `MedQuizPro_ejemplo_4_flujogramas_ENAM2026.zip` (4 SVG + PNG + algoritmos.js con 2110). **Esperar la aprobación del usuario antes de hacer los 270 restantes.**
+- Para ver PNG: `node shot.cjs <dir_svg> <dir_png>` (script en `flujo/shot26.cjs`); controles: `check.cjs` (0 desbordes). `check2.cjs` marca como «fuera de caja» los rótulos dentro de los dibujos: es esperado.
+
 ## Próxima tarea sugerida
 Hacer los 274 flujogramas del bloque ENAM 2026 (base `herramientas/e26/nuevos26.json`; `algoritmos.js` pasa de 2106 a 2380; verificador general a 2380). Antes: 2106 preguntas y 2106 flujogramas. Ciencias Básicas ya está clasificada por materias (pendiente solo que el usuario suba el ZIP de materias o te pase sus archivos del servidor para adaptarlo).
 Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).

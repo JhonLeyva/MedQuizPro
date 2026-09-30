@@ -1505,10 +1505,10 @@
   "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
   "enunciado": "Varón de 36 años, 70 kg, sufre explosión de gas doméstico. Presenta quemaduras con flictenas dolorosas en tórax anterior, abdomen, ambos brazos y cara anterior de ambos muslos, además de algunas áreas blanquecinas y carbonizadas. Se estima clínicamente una superficie corporal quemada del 30% según la regla de los 9. ¿Cuál es el volumen total aproximado de solución cristaloide que debe indicarse utilizando la fórmula de Parkland, considerando que la mitad debe pasar en las primeras 8 horas?",
   "opciones": [
-   "4 200 mi",
-   "10 500 mi",
-   "5 600 mi",
-   "8 400 mil"
+   "4 200 mL",
+   "10 500 mL",
+   "5 600 mL",
+   "8 400 mL"
   ],
   "correcta": 3,
   "clave_correcta": "D",

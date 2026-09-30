@@ -26,7 +26,7 @@ for c in ok:
     d=out[a]; pref=re.match(r"([A-Z]+)-",d["preguntas"][0]["id"]).group(1)
     last=max(int(p["id"].split("-")[1]) for p in d["preguntas"])
     nid=f"{pref}-{last+1:03d}"
-    ops=[tidy(o) for o in c['opciones']]; com=tidy(c['comentario']); enu=tidy(c['enunciado'])
+    ops=[re.sub(r' mil?$',' mL',tidy(o)) for o in c['opciones']]; com=tidy(c['comentario']); enu=tidy(c['enunciado'])
     p={"id":nid,"especialidad":d["especialidad"]}
     if a=="ciencias_basicas": p["categoria"]=MAT[mat]
     p.update({"examen_origen":ORIG[c['src']],"enunciado":enu,"opciones":ops,"correcta":"ABCD".index(c['clave']),
