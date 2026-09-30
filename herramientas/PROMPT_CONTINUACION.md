@@ -3,13 +3,13 @@
 Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del ENAM (examen médico peruano) publicado en Hostinger: https://lime-louse-621404.hostingersite.com. Responde siempre en español, de forma breve y sin jerga.
 
 ## Reglas del repositorio
-- Repo `jhonleyva/medquizpro`, clonado en `/home/user/MedQuizPro`. Trabaja solo en la rama `claude/clever-rubin-xv0or7`. No abras PR salvo que te lo pida.
-- Cada entrega es un ZIP en la raíz del repo, con commit y `git push -u origin claude/clever-rubin-xv0or7`. Si falla por red, reintenta a los 2, 4, 8 y 16 s. Después envíalo con SendUserFile (display `attach`).
+- Repo `jhonleyva/medquizpro`, clonado en `/home/user/MedQuizPro`. Trabaja en la rama que te asigne la sesión; si es nueva, créala desde `origin/claude/sweet-franklin-dbg0mc` (ahí está todo el trabajo más reciente). No abras PR salvo que te lo pida.
+- Cada entrega es un ZIP en la raíz del repo, con commit y `git push -u origin <tu rama>`. Si falla por red, reintenta a los 2, 4, 8 y 16 s. Después envíalo con SendUserFile (display `attach`).
 - El pie de cada commit lo indica el system-reminder de la sesión nueva. No pongas identificadores de modelo en commits ni en archivos.
 - Trabaja en tu scratchpad. Copia primero `herramientas/` ahí: `cp -r /home/user/MedQuizPro/herramientas/. $S/`. Los scripts usan rutas relativas a esa carpeta y a `$S/flujo/`.
 
 ## Estado actual (29-sep-2026, actualizado)
-- **Rama usada en la última sesión:** `claude/sweet-franklin-dbg0mc` (creada desde `claude/clever-rubin-xv0or7`). Ahí están los paquetes de flujogramas del bloque 7 y de preguntas del bloque 8.
+- **Rama con el trabajo más reciente:** `claude/sweet-franklin-dbg0mc`. Tiene los bloques 7 y 8, el banco de Ciencias Básicas (485) y sus flujogramas (total 2106 preguntas y 2106 flujogramas).
 - **Bancos:** 1713 preguntas, bloques 1 a 8.
   - Último paquete: `MedQuizPro_bloque8_134_preguntas.zip`.
   - `herramientas/site/bancos/` ya contiene esos 17 JSON finales.
