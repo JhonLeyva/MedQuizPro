@@ -1,0 +1,52 @@
+MedQuizPro - Ejemplo 2: 4 flujogramas con imágenes reales (bloque ENAM 2026)
+===========================================================================
+
+Qué contiene
+- flujogramas/: 8 SVG = los 4 nuevos de este ejemplo + los 4 del ejemplo anterior
+  (van a public_html/flujogramas/). Las fotos van dentro del SVG: no hay archivos sueltos.
+- vistas/: los 4 nuevos en PNG, solo para mirarlos rápido (no se suben).
+- algoritmos.js: registro actual (2106) + 4 del ejemplo anterior + 4 nuevos = 2114 entradas.
+- bancos/traumatologia.json: corrige una errata de OCR en la explicación de TRA-057
+  ("a los Y meses" → "a los 9 meses"). Reemplaza al de public_html/bancos/.
+
+Los 4 ejemplos nuevos
+1. CIR-136  Neumotórax traumático: toracostomía con tubo
+   Diseño 13 COMPARADOR DE IMÁGENES. Dos Rx reales lado a lado: neumotórax derecho grande
+   (antes) y pulmón reexpandido con tubo de drenaje (después), con flechas y rótulos encima.
+   Tarjetas de conducta y tabla con las 4 alternativas.
+2. CAR-079  Taquicardia supraventricular inestable: cardioversión sincronizada
+   Diseño 14 ESCALERA TERAPÉUTICA. ECG real en DII a 179 lpm con marcas: RR regular, QRS
+   estrecho, sin ondas P, FC. Chequeo de inestabilidad del caso y escalera de 4 peldaños; el
+   paciente inestable salta directo al último.
+3. PED-247  Sarampión
+   Diseño 19 MAPA CORPORAL DE SIGNOS. Niño dibujado con el exantema de arriba hacia abajo
+   (día 1 cara, día 2 tronco, día 3 piernas) y los signos numerados; fotos reales de las
+   manchas de Koplik y del exantema, con sus marcas. Tabla de los 4 exantemas.
+4. TRA-057  Displasia del desarrollo de la cadera a los 9 meses: radiografía
+   Diseño 20 ÁRBOL CON IMAGEN. Árbol por edad (ecografía o Rx) y, en la rama del caso, esquema
+   dibujado de la Rx de pelvis con las líneas de Hilgenreiner, Perkins y Shenton y el índice
+   acetabular. Aquí se dibujó porque una Rx real de lactante con licencia libre no mostraba
+   bien las líneas; el dibujo dice que es esquema.
+
+Créditos de las imágenes reales (todas de licencia libre, Wikimedia Commons)
+- Rx neumotórax derecho: James Heilman, MD, "Rt sided pneumoD.jpg", CC BY 3.0.
+  Cambios: recorte, escala de grises y se quitó la flecha azul original.
+- Rx tras el drenaje: Bonilla A, Blair AJ, Alamro SM, et al., "Chest X-ray of pneumothorax.png",
+  CC BY 4.0. Cambios: recorte del panel A derecho.
+- ECG: Displaced y James Heilman, MD, "SVT Lead II.JPG", dominio público.
+- Manchas de Koplik: CDC, PHIL 6111, dominio público. Cambios: recorte ampliado.
+- Exantema del sarampión: CDC, PHIL 4497, dominio público.
+Cada flujograma lleva el crédito debajo de su imagen. Las flechas y rótulos amarillos son
+nuestros.
+
+Verificación hecha
+- 0 textos desbordados (check.cjs) · sin la palabra "respuesta" · nombres nuevos, sin tildes.
+- Revisado en PNG que cada flecha cae sobre lo que nombra (borde pulmonar, tubo, QRS, onda T,
+  manchas de Koplik, exantema).
+- Probados como <img> igual que en la web: cargan y muestran las fotos.
+- algoritmos.js carga sin errores: 2114 entradas.
+
+Cómo verlos en la web
+1. Copia de respaldo de public_html/algoritmos.js y de public_html/bancos/traumatologia.json.
+2. Sube el ZIP a public_html y usa "Extraer" hacia public_html. Acepta reemplazar.
+3. Ctrl+F5 y abre en el banco CIR-136, CAR-079, PED-247 o TRA-057 → "Ver algoritmo".
