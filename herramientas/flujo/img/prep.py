@@ -36,12 +36,13 @@ def guardar(im, nombre, ancho, q=80):
     print(nombre, im.size)
 
 
-# Rx de neumotórax derecho grande (J. Heilman, CC BY 3.0)
-guardar(borrar_azul(Image.open("orig/rx_neumotorax_der.jpg")).crop((100, 80, 930, 910)), "rx_neumotorax_grande.jpg", 620)
-# Mismo tipo de caso tras el drenaje con tubo (Bonilla et al., CC BY 4.0), panel A derecho
-guardar(Image.open("orig/rx_antes_despues.png").convert("L").crop((520, 15, 957, 452)), "rx_tras_drenaje.jpg", 437, 85)
-# ECG DII de TSV a 179 lpm (dominio público)
-guardar(Image.open("orig/ecg_tsv_d2.jpg").convert("RGB"), "ecg_tsv_d2.jpg", 1400, 78)
-# Manchas de Koplik y exantema del sarampión (CDC, dominio público)
-guardar(Image.open("orig/koplik.jpg").convert("RGB").crop((120, 50, 400, 254)), "koplik.jpg", 280, 88)
-guardar(Image.open("orig/sarampion_exantema.jpg").convert("RGB"), "sarampion_exantema.jpg", 700, 80)
+if __name__ == "__main__":
+    # Rx de neumotórax derecho grande (J. Heilman, CC BY 3.0)
+    guardar(borrar_azul(Image.open("orig/rx_neumotorax_der.jpg")).crop((100, 80, 930, 910)), "rx_neumotorax_grande.jpg", 620)
+    # Mismo tipo de caso tras el drenaje con tubo (Bonilla et al., CC BY 4.0), panel A derecho
+    guardar(Image.open("orig/rx_antes_despues.png").convert("L").crop((520, 15, 957, 452)), "rx_tras_drenaje.jpg", 437, 85)
+    # ECG DII de TSV a 179 lpm (dominio público)
+    guardar(Image.open("orig/ecg_tsv_d2.jpg").convert("RGB"), "ecg_tsv_d2.jpg", 1400, 78)
+    # Manchas de Koplik y exantema del sarampión (CDC, dominio público)
+    guardar(Image.open("orig/koplik.jpg").convert("RGB").crop((120, 50, 400, 254)), "koplik.jpg", 280, 88)
+    guardar(Image.open("orig/sarampion_exantema.jpg").convert("RGB"), "sarampion_exantema.jpg", 700, 80)

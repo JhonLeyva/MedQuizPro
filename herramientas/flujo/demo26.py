@@ -70,7 +70,7 @@ V("anatomia", "CIR-158", "hernia-obturatriz-mapa-pelvico-howship-romberg",
                             "Mujer; bulto en la raíz del muslo."]),
                ("Obturatriz", ["Sale por el agujero obturador y comprime el nervio obturador.",
                                "Anciana delgada; no se ve bulto: se palpa por tacto vaginal o rectal."])],
-       signo=dict(titulo="Signo de Howship-Romberg",
+       signo=dict(muslo=True, titulo="Signo de Howship-Romberg",
                   lines=["Dolor o parestesias en la cara interna del muslo que empeoran al extender, abducir o rotar "
                          "hacia dentro la cadera: la hernia aprieta el nervio obturador.",
                          "Con obstrucción intestinal en una anciana delgada, este signo casi confirma la hernia obturatriz."])),

@@ -236,9 +236,10 @@ def anatomia(s, y, d):
         s.rect(X0, y, X1 - X0, h, AMBER_L, AMBER, 1.5, rx=12)
         s.text(X0 + 20, y + 26, sg["titulo"], 13, 800, "#92400e", "start", 700)
         s.text(X0 + 20, y + 46, bl, 11.5, 500, "#78350f", "start", 700, lh=16)
-        # mini muslo con zona de dolor
+        # mini muslo con zona de dolor (solo si se pide)
         mx = X1 - 210
-        s.add(f'<g transform="translate({mx},{y+8})">'
+        if sg.get("muslo"):
+          s.add(f'<g transform="translate({mx},{y+8})">'
               f'<path d="M20 4 H80 L72 {h-18} H34 Z" fill="{SKIN}" stroke="{SKIN_D}" stroke-width="2"/>'
               f'<path d="M24 14 Q30 {h/2} 38 {h-20}" stroke="#eab308" stroke-width="3" fill="none"/>'
               f'<ellipse cx="34" cy="{h/2}" rx="10" ry="{h/4:.0f}" fill="{ORANGE}" opacity="0.55"/>'
@@ -321,7 +322,7 @@ def cronologia(s, y, d):
         s.text(X0 + 10, ry + 27, sub, 10.5, 600, TEAL if on else MUTED, "start", LW - 16)
         x0, x1 = sx(w0), sx(w1)
         s.rect(x0, ry + 5, max(x1 - x0, 8), 20, TEAL if on else "#94a3b8", "none", 0, rx=10)
-        rng = f"{w0}-{w1} sem"
+        rng = f"{w0}-{w1} {d.get('unidad', 'sem')}"
         if tw(rng, 10, True) + 14 < x1 - x0:
             s.text((x0 + x1) / 2, ry + 19, rng, 10, 700, "#ffffff", maxw=x1 - x0 - 8)
         else:
@@ -331,7 +332,7 @@ def cronologia(s, y, d):
     for wk in range(a, b + 1, d.get("paso", 4)):
         s.line(sx(wk), base - 4, sx(wk), base + 4, "#94a3b8", 1.5)
         s.text(sx(wk), base + 18, str(wk), 10.5, 600, MUTED, maxw=0)
-    s.text(ax1, base + 34, "semanas de gestación", 10.5, 600, MUTED, "end", 200)
+    s.text(ax1, base + 34, d.get("eje_nombre", "semanas de gestación"), 10.5, 600, MUTED, "end", 300)
     if d.get("marca"):
         mx = sx(d["marca"])
         s.line(mx, y - 8, mx, base, ORANGE, 2, "5 4")

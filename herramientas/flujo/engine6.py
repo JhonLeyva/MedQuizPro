@@ -30,6 +30,14 @@ def foto(s, x, y, w, h, archivo, marcas=(), fondo="#000000"):
         MARCAS[m[0]](s, x, y, w, h, *m[1:])
 
 
+def _img(s, x, y, w, h, im, fondo="#000000"):
+    """Foto (im["archivo"]) o dibujo (im["ilu"](s, x, y)) en un recuadro w×h."""
+    if im.get("ilu"):
+        im["ilu"](s, x, y)
+    else:
+        foto(s, x, y, w, h, im["archivo"], im.get("marcas", ()), fondo)
+
+
 def _etq(s, x, y, w, h, cx, cy, texto, color=YEL):
     """Rótulo con fondo oscuro centrado en (cx, cy), sin salirse del recuadro. Devuelve su caja."""
     ls = texto.split("\n")
@@ -294,9 +302,10 @@ def comparador(s, y, d):
         s.text(x + 21, y + 24, im["titulo"].upper(), 10, 800, TEAL, "start", 0)
         if im.get("on"):
             case_chip(s, x + PW - 70, y, d.get("tag", "ESTE CASO"))
-        foto(s, x + 12, y + 38, PW - 24, IH, im["archivo"], im.get("marcas", ()))
+        _img(s, x + 12, y + 38, PW - 24, IH, im)
         _pie(s, x + 14, y + 38 + IH + 6, PW - 28, im["pie"])
-        credito(s, x + 14, y + H - 10, PW - 28, im["credito"])
+        if im.get("credito"):
+            credito(s, x + 14, y + H - 10, PW - 28, im["credito"])
     # flecha entre las dos imágenes
     my = y + 38 + IH / 2
     s.circle(X0 + PW + gap / 2, my, 17, ORANGE)
@@ -314,9 +323,10 @@ def escalera(s, y, d):
     ph = _pie_h(e["pie"], X1 - X0 - 28)
     H = 40 + e["IH"] + 8 + ph + 24
     panel(s, X0, y, X1 - X0, H, e["titulo"])
-    foto(s, X0 + 12, y + 38, X1 - X0 - 24, e["IH"], e["archivo"], e.get("marcas", ()), "#f8fafc")
+    _img(s, X0 + 12, y + 38, X1 - X0 - 24, e["IH"], e, "#f8fafc")
     _pie(s, X0 + 14, y + 38 + e["IH"] + 4, X1 - X0 - 28, e["pie"])
-    credito(s, X0 + 14, y + H - 10, X1 - X0 - 28, e["credito"])
+    if e.get("credito"):
+        credito(s, X0 + 14, y + H - 10, X1 - X0 - 28, e["credito"])
     y += H + 22
     # izquierda: chequeo de inestabilidad
     LW = 290
@@ -410,8 +420,9 @@ def mapa_signos(s, y, d):
         s.text(x + 40, cy + 26 + len(tl) * 17 + 4, bl, 11, 400, SLATE, "start", tw_, lh=15)
         if f:
             fx = x + w - fw - 12
-            foto(s, fx, cy + 12, fw, fh, f["archivo"], f.get("marcas", ()))
-            credito(s, fx, cy + 12 + fh + 14, fw, f["credito"])
+            _img(s, fx, cy + 12, fw, fh, f)
+            if f.get("credito"):
+                credito(s, fx, cy + 12 + fh + 14, fw, f["credito"])
         if on and d.get("tag"):
             case_chip(s, x + w - 70, cy, d["tag"])
         cy += h + 10
