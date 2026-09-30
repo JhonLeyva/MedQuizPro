@@ -8,14 +8,14 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - El pie de cada commit lo indica el system-reminder de la sesión nueva. No pongas identificadores de modelo en commits ni en archivos.
 - Trabaja en tu scratchpad. Copia primero `herramientas/` ahí: `cp -r /home/user/MedQuizPro/herramientas/. $S/`. Los scripts usan rutas relativas a esa carpeta y a `$S/flujo/`.
 
-## Estado actual (29-sep-2026, actualizado)
+## Estado actual (30-sep-2026)
 - **Rama con el trabajo más reciente:** `claude/sweet-franklin-dbg0mc`. Tiene los bloques 7 y 8, el banco de Ciencias Básicas (485) y sus flujogramas (total 2106 preguntas y 2106 flujogramas).
-- **Bancos:** 1713 preguntas, bloques 1 a 8.
-  - Último paquete: `MedQuizPro_bloque8_134_preguntas.zip`.
-  - `herramientas/site/bancos/` ya contiene esos 17 JSON finales.
-- **Flujogramas:** existen para las 1713 preguntas de los bloques 1–8. No falta ninguno.
-  - Último paquete: `MedQuizPro_flujogramas_bloque8.zip`, con `algoritmos.js` de 1713 entradas (en `herramientas/flujo/`: `content8a…d.py`, `c8.py`, `build8f.py`, `finish8.py`, `chk8.sh`, `existing_names8.txt`; el bloque 7 usa `content7a…n.py`, `c7.py`, `build7f.py`, `finish7.py`).
-  - Para un bloque 9, añade a `existing_names8.txt` los nombres de `out8/flujogramas` y usa como base `out8/pack/algoritmos.js`.
+- **Bancos:** 2106 preguntas (bloques 1 a 8 = 1713 + 393 nuevas de Ciencias Básicas).
+  - `herramientas/site/bancos/` tiene los 17 JSON finales (ciencias_basicas.json con 485).
+- **Flujogramas:** 2106, uno por pregunta. No falta ninguno.
+  - `herramientas/site/algoritmos.js` es el registro completo actual (2106 entradas); úsalo como base del próximo bloque.
+  - `herramientas/site/verificar-flujogramas.html` ya espera 2106.
+  - `herramientas/flujo/existing_names_todos.txt`: todos los nombres de SVG ya usados. Ningún nombre nuevo puede repetirse.
   - Hecho: `MedQuizPro_flujogramas_sin_palabra_respuesta.zip` corrige 143 SVG (80 del bloque 6, regenerados con `herramientas/flujo/rebuild6.py`; 63 de los bloques 2–5, texto reemplazado). Nombres sin cambio. Bloques 2–8 revisados: ya no dicen «respuesta». Los 97 SVG antiguos del bloque 1 solo están en el servidor y no se revisaron.
 - **Banco de Ciencias Básicas (nuevo, 29-sep-2026):** del PDF `Banco_Ciencias_Básicas.pdf` (Villamedic, ed. 2019, 458 preguntas con tabla de claves y sin comentarios) entraron 393 preguntas, todas en `ciencias_basicas.json` (CB-093 a CB-485; CB queda en 485 y el total del sitio en 2106).
   - Paquete: `MedQuizPro_ciencias_basicas_393_preguntas.zip` (solo `bancos/ciencias_basicas.json` + `LEEME.txt`).
@@ -27,6 +27,46 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
     Para un bloque siguiente: añade a `existing_namescb.txt` los nombres de `ordercb.json` y usa como base `outcb/pack/algoritmos.js` (2106).
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
+
+## GUÍA RÁPIDA: cómo trabajar (léela antes de empezar)
+
+### A. Si el usuario pide preguntas nuevas (de un PDF o de otra fuente)
+1. **Extraer.** Instala `pymupdf` (`pip install pymupdf`) y usa `herramientas/cb/parse.py` como modelo: separa cada pregunta en `{n, enunciado, opciones{A..E}, clave}`; si el PDF trae tabla de claves al final, léela.
+2. **Revisar una por una** en archivos `rNN.py` (modelo: `herramientas/cb/r00.py`), por tandas de 50:
+   - `D[n] = ("tema corto", "LETRA", "comentario docente")`
+   - `O[n] = {"C": "texto corregido"}` para arreglar o completar opciones (siempre 5 opciones).
+   - `N[n] = "enunciado corregido"` y `X[n] = "motivo"` para excluir.
+   - Tú decides la clave: si la del PDF está mal u obsoleta, corrígela (y cuéntalo en el LEEME). Si dos opciones son correctas, cambia una opción para que quede una sola.
+   - Excluye repetidas (dentro del PDF o ya publicadas en `site/bancos/`), mal planteadas o que dependen de una imagen.
+3. **Comentario docente** (lo que el usuario pidió explícitamente): 90-160 palabras, en español claro, explicando por qué la opción correcta lo es, por qué fallan las demás y un dato clínico útil para el ENAM (MINSA, guías vigentes, textos de referencia). No copiar el comentario del PDF si está mal.
+4. **Construir** con `merge.py` (valida que no falte ninguna) y `build.py` (lista FIX de ortografía, blancos → `______`). Formato de cada pregunta nueva:
+   `{id, especialidad, examen_origen, enunciado, opciones:[5], correcta:índice, clave_correcta:"A".."E", explicacion, comentario (igual), tema, año}`.
+   - **`examen_origen` DEBE empezar por "ENAM"** (p. ej. "ENAM 2024 · pregunta oficial" o "ENAM · Ciencias Básicas 2019"): la web publicada solo muestra esas.
+   - IDs consecutivos por archivo (`PREFIJO-NNN`). Base: `site/bancos/`. **Cuidado:** no reconstruyas sobre un banco que ya contiene las nuevas (se duplican).
+   - Van al archivo de la especialidad correspondiente (si el usuario dice una carpeta, todas ahí).
+5. **Probar** con Playwright (`testcb.cjs` como modelo): cargan todas, total correcto, sin errores JS.
+6. **Entregar** ZIP con `bancos/<archivo>.json` (solo los que cambian) + `LEEME.txt` (qué contiene, cuántas entraron/omitidas, claves corregidas, cómo instalar, lista de IDs).
+
+### B. Si el usuario pide los flujogramas de un bloque
+1. Copia `herramientas/flujo/*` al scratchpad. Crea `cXX.py` (copia de `ccb.py`), `buildXXf.py` (copia de `buildcbf.py` apuntando a tu `nuevosXX.json`, a `existing_names_todos.txt` y a `outXX/`) y `contentXXa…py` por tandas de 40.
+2. Cada flujograma es propio de su pregunta. Campos comunes:
+   `V("tipo", "ID", "nombre-archivo-ascii", "Título", "ESPECIALIDAD ENAM: TEMA", "ESPECIALIDAD", ("Tema general", [2 líneas]), ("Caso o 'Pregunta de …'", [1-2 líneas]), {datos del diseño}, [3 perlas], "Fuente")`.
+   Árbol: `A("ID", "archivo", "Título", barra, esp, tema, caso, Q("¿Pregunta?", [L("rama", "TÍTULO", ["línea"], path=True), ...], path=True), ("Tabla", [("Col1", True), ("Col2", False)], [("Fila", ["c1", "c2"]), ...]), perlas, fuente)`.
+3. **Los 8 diseños y sus datos** (ver ejemplos en `contentcba.py`):
+   - `tarjetas`: `{"rotulo", "ans": índice, "cards": [4 × {"titulo", "datos": [3 × ("Etiqueta", "valor", bool)], "pie"}]}`
+   - `embudo`: `{"rotulo", "inicio", "candidatos": [4], "pasos": [2 × ("criterio", [descartados])], "final": ("DIAGNÓSTICO", [2 líneas]), "nota"}` (cada paso debe descartar al menos uno).
+   - `fases`: `{"rotulo", "ans", "fases": [3 × ("Nombre", "tiempo", "CLAVE", [líneas])], "chips_titulo", "chips": [4 × ("texto", bool)]}` (la curva es opcional; `ccb.py` pone una por defecto).
+   - `matriz`: `{"rotulo", "eje_x", "eje_y", "cols": [2], "rows": [3], "caso": (fila, col), "cells": [3 filas × 2 celdas ("TÍTULO", [líneas])]}`
+   - `puntaje`: `{"rotulo", "escala", "total": número, "max": número, "total_label", "interpreta", "items": [3 × ("ítem", "valor", bool)], "bandas": [3 × ("rango", "nombre", "acción", bool)]}` (el número del círculo debe ser corto: ≤ 4 cifras).
+   - `radial`: `{"rotulo", "centro", "centro_sub", "ans", "items": [5 × ("TÍTULO", [1-2 líneas])], "ruta": [4 pasos]}`
+   - `termometro`: `{"rotulo", "niveles": [4 × ("nombre", "sub", [líneas])], "caso_nivel", "ruta_titulo", "paso_label", "pasos": [3 × (n, "título", [línea], bool)]}` (se dibuja de abajo arriba).
+   - `arbol`: `A(...)` con `Q()` y `L()` como arriba.
+   Reparte los diseños más o menos por igual.
+4. **Límites de texto** (si se pasan, `check.cjs` lo marca): nombre de nivel del termómetro ≤ ~92 px (≈ 14 caracteres en negrita), valor de ítem de puntaje ≤ ~90 px, rango de banda de puntaje ≤ ~100 px, títulos de tarjeta cortos. Acorta y vuelve a correr.
+5. **Prohibido:** la palabra «respuesta» en cualquier texto del SVG (el build lo rechaza: usa «reacción», «efecto», «defensa»…), el sello «✓ RESPUESTA», nombres no ASCII o repetidos, etiqueta de especialidad equivocada.
+6. **Comprobar cada tanda** con `./chkXX.sh contentXXa`: build + `overlap` (0 solapamientos) + `check.cjs` (0 desbordes) + `check2.cjs` (0 fuera de caja) + hoja de contacto (`../sh_*.png`, mírala).
+7. **Empaquetar** con `finishXX.py` (modelo `finishcb.py`): `algoritmos.js` = base `site/algoritmos.js` + nuevas; galería `verificar-flujogramas-bloqueXX.html`; verificador general con el nuevo total; `LEEME.txt`. Prueba e2e (`e2ecb.cjs` como modelo) y entrega el ZIP (`flujogramas/`, `algoritmos.js`, verificadores, `LEEME.txt`).
+8. Al terminar, copia las herramientas nuevas a `herramientas/flujo/`, actualiza `site/algoritmos.js`, `site/verificar-flujogramas.html`, `existing_names_todos.txt` y este archivo; commit y push.
 
 ## Contenido de `herramientas/`
 **Datos del PDF y selección**
@@ -96,7 +136,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 
 **`algoritmos.js`**: objeto `window.MQP_ALGORITMOS` con entradas `"ID": { titulo, imagen: "flujogramas/<archivo>.svg", alt: "Flujograma: <titulo>" }`. Las nuevas se añaden antes del `};` final. Sin entrada, el modal muestra un "esquema de ejemplo".
 
-## Flujo A: nuevo bloque de preguntas
+## Flujo A: nuevo bloque de preguntas (detalle histórico; la guía rápida manda)
 1. **Candidatas.** Del pool, calcula las no usadas (fuera de `SEL`/`EXC` de todos los `sel*.py`). Crea vistas de 45–50 preguntas con estado OK/VER/SIN, `hl` y similitud contra el banco. Descarta las que tienen similitud ≥0,3 con el banco o con otra ya aceptada.
 2. **Revisión, una por una.** Tú decides la clave; no te fíes del resaltado.
    - Incluye las "Verificar" y las sin resaltado si la clave es clara según el comentario, MINSA y guías vigentes.
@@ -112,7 +152,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. **Duplicados.** Compara las nuevas con todo el banco por `tema` y enunciado. Reemplaza las que repitan concepto y respuesta.
 5. **Entrega.** LEEME → prueba en `site` (bancos cargan, total correcto, preguntas nuevas visibles, sin errores de JS) → ZIP `MedQuizPro_bloqueN_500_preguntas.zip` (`bancos/` + `LEEME.txt`) → commit, push y envío.
 
-## Flujo B: flujogramas de un bloque (siguiente: bloque 7, 500 IDs de `nuevos7.json`)
+## Flujo B: flujogramas de un bloque (detalle histórico; la guía rápida manda)
 - **Estilo MedQuizPlus.** Barra de título, "TEMA GENERAL" y "CASO CLÍNICO" resaltado (en `top_row`), algoritmo, tabla opcional, perlas y fuente. Contenido basado en MINSA y literatura actual (Harrison 22.ª, Williams 26.ª, Nelson, ATLS 11.ª, guías vigentes).
 - **Variedad de diseños.** Repártelos más o menos por igual entre `arbol` (`A()`) y los 7 diseños de `V()`: embudo, fases, matriz, puntaje, radial, tarjetas y termómetro.
 - **Prohibido:**

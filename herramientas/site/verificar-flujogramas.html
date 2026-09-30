@@ -217,7 +217,7 @@
     var m = index.match(/algoritmos\.js\?v=([^"']+)/);
     var entradas = Object.keys(A);
     $("version").innerHTML = "<h2>Archivos publicados</h2>" +
-      "algoritmos.js en el servidor: <b>" + entradas.length + " entradas</b> (con los bloques 1 a 6 deben ser 1079).<br>" +
+      "algoritmos.js en el servidor: <b>" + entradas.length + " entradas</b> (con los bloques 1 a 8 y Ciencias Básicas deben ser 2106).<br>" +
       "index.html pide <code>algoritmos.js?v=" + (m ? m[1] : "¿?") + "</code>" +
       (m && m[1] === "20260930" ? " — <b style='color:var(--bad)'>versión antigua: sube el index.html nuevo o el navegador seguirá usando la copia vieja.</b>" : " — correcto.");
     $("estado").textContent = "Revisando " + entradas.length + " flujogramas…";
