@@ -1,0 +1,13 @@
+@100|PE|Clasificación del asma: persistente leve
+E: Niña escolar de 7 años con diagnóstico de asma desde hace 2 años. En el último mes ha tenido tos y sibilancias más de 2 veces por semana, no presentó despertares nocturnos, no tuvo visitas a emergencias ni limitación importante en sus actividades escolares. ¿Cuál es la clasificación de asma que padece?
+A: Intermitente
+B: Persistente moderada
+C: Persistente grave
+D: Persistente leve
+K: D
+M: Para clasificar la gravedad del asma se mira con qué frecuencia aparecen los síntomas de día y de noche y cuánto limitan la actividad. En el asma intermitente los síntomas diurnos aparecen dos veces por semana o menos, sin despertares nocturnos frecuentes ni limitación. Esta niña ya supera ese umbral, porque tiene tos y sibilancias más de dos veces por semana, pero no todos los días, no se despierta de noche, no ha necesitado ir a emergencia y sus actividades escolares no se ven afectadas de forma importante. Ese perfil, síntomas más de dos veces por semana pero no diarios y sin compromiso nocturno ni funcional relevante, corresponde al asma persistente leve, que ya justifica un tratamiento controlador diario a dosis baja, como un corticoide inhalado. No es intermitente porque la frecuencia de síntomas diurnos supera las dos veces por semana. No es persistente moderada, que exige síntomas diarios, despertares nocturnos más de una vez por semana o limitación de la actividad. Y la persistente grave implica síntomas continuos a lo largo del día, despertares nocturnos frecuentes y actividad física muy limitada, nada de lo cual presenta esta paciente.
+P: Síntomas de asma más de 2 veces por semana pero no diarios, sin despertares nocturnos ni limitación importante = asma persistente leve. Intermitente es 2 veces por semana o menos; la moderada exige síntomas diarios o despertares frecuentes.
+
+@101|X|Página faltante en el PDF 2 (pregunta incompleta)
+
+@102|X|Página faltante en el PDF 2 (enunciado incompleto: policitemia vera)

@@ -12,8 +12,8 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - **Al terminar cada tarea, actualiza este archivo** (estado, herramientas nuevas, próxima tarea) y súbelo con commit y push, para que el siguiente chat sepa todo lo hecho.
 
 ## Estado actual (30-sep-2026)
-- **Rama con el trabajo más reciente:** `claude/sweet-franklin-dbg0mc`. Tiene los bloques 7 y 8, el banco de Ciencias Básicas (485) y sus flujogramas (total 2106 preguntas y 2106 flujogramas).
-- **Bancos:** 2106 preguntas (bloques 1 a 8 = 1713 + 393 nuevas de Ciencias Básicas).
+- **Rama con el trabajo más reciente:** `claude/vibrant-albattani-g7t3b3` (parte de `claude/sweet-franklin-dbg0mc` + bloque ENAM 2026). Total 2380 preguntas y 2106 flujogramas: **faltan los 274 flujogramas del bloque ENAM 2026**.
+- **Bancos:** 2380 preguntas (bloques 1 a 8 = 1713 + 393 de Ciencias Básicas + 274 del bloque ENAM 2026). `site/bancos/` ya tiene las 2380.
   - `herramientas/site/bancos/` tiene los 17 JSON finales (ciencias_basicas.json con 485).
 - **Flujogramas:** 2106, uno por pregunta. No falta ninguno.
   - `herramientas/site/algoritmos.js` es el registro completo actual (2106 entradas); úsalo como base del próximo bloque.
@@ -38,6 +38,13 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - Herramientas de la clasificación: `herramientas/cb/materias/` (`rules.py` reglas por palabras, `ov1.py` correcciones manuales por número de pregunta, `apply.py`, `e2e.cjs` prueba en navegador). Preguntas nuevas de Ciencias Básicas deben traer `"categoria"` con uno de los 9 nombres exactos.
   - Segunda revisión independiente (otro chat, 30-sep-2026): coincide en 460 de 485. Las 25 diferencias (casos de frontera: tóxicos, anafilaxia, vitaminas, reparación tisular) están en `herramientas/cb/materias/comparacion_segunda_revision.txt` (id | segunda revisión | la publicada). No se cambió nada: manda la clasificación publicada.
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
+- **Bloque ENAM 2026 (30-sep-2026):** de los 2 PDF `ENAM COMENTADO 2026 - 1.pdf` y `- 2.pdf` (están en la rama `main`; 180 preguntas cada uno, 4 alternativas A-D, clave y comentario Villamedic) entraron 274 (PDF 1: 143; PDF 2: 131). Paquete: `MedQuizPro_bloque_ENAM2026_274_preguntas.zip` (17 bancos + LEEME con la lista de IDs y de omitidas).
+  - Omitidas 86: 83 por repetir concepto y respuesta ya publicados (lista en `e26/dupx.py` y en `t2/*.txt` con código `X`), 2 por página faltante en el PDF 2 (n.º 101-102) y 1 por clave dudosa (PDF 1 n.º 112).
+  - `examen_origen`: «ENAM Extraordinario 2026 · pregunta oficial» (PDF 1) y «ENAM Extraordinario II 2026 · pregunta oficial» (PDF 2), `año` 2026. Se dejaron 4 opciones (la web las acepta). Las de Ciencias Básicas llevan `categoria`.
+  - Comentario: el del PDF (sin «como vimos en clase» ni menciones a la academia); en el PDF 2 se añade al final la «perla». Solo la PDF 2 n.º 100 lleva comentario propio (faltaba en el PDF).
+  - Herramientas en `herramientas/e26/`: PDF 1 tiene texto limpio por OCR (`render.py` + tesseract `spa --psm 4` → `parse.py` → `p1.json`; `fix.py`/`fix2` corrige OCR; `man1.py` parches y exclusiones; `a1.txt` = `n|código|tema`). PDF 2 es imagen con marca de agua: el OCR sale mal, se transcribió a mano mirando las páginas (`t2/*.txt`, formato `@n|código|tema`, líneas `E:` `A:`-`D:` `K:` `M:` `P:`). `cand.py` junta ambos → `cand.json`; `build26.py` construye `zip26/bancos` desde `site/bancos` (¡no volver a correrlo sobre bancos que ya tienen las 274: se duplican!); `leeme26.py`; `test26.cjs` (Playwright sobre `plataforma_materias` con los bancos nuevos: 2380, 0 errores).
+  - Tesseract no viene instalado: `apt-get install -y tesseract-ocr tesseract-ocr-spa`; también `pip install pymupdf pillow numpy scikit-learn`. Usa `OMP_THREAD_LIMIT=1` y `xargs -P 4` o el OCR es lentísimo.
+  - Para los flujogramas del bloque: la base es `nuevos26.json` (274, con `id`, `tema`, `especialidad`); los nombres nuevos no deben repetir `flujo/existing_names_todos.txt`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 
 ## GUÍA RÁPIDA: cómo trabajar (léela antes de empezar)
@@ -187,5 +194,5 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
 ## Próxima tarea sugerida
-Bancos y flujogramas al día: 2106 preguntas y 2106 flujogramas. Ciencias Básicas ya está clasificada por materias (pendiente solo que el usuario suba el ZIP de materias o te pase sus archivos del servidor para adaptarlo).
+Hacer los 274 flujogramas del bloque ENAM 2026 (base `herramientas/e26/nuevos26.json`; `algoritmos.js` pasa de 2106 a 2380; verificador general a 2380). Antes: 2106 preguntas y 2106 flujogramas. Ciencias Básicas ya está clasificada por materias (pendiente solo que el usuario suba el ZIP de materias o te pase sus archivos del servidor para adaptarlo).
 Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).

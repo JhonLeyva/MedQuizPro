@@ -1,0 +1,29 @@
+@35|CI|Trombosis hemorroidal externa
+E: Mujer de 30 años que, después de esfuerzo, presenta en región perianal dolor continuo e intenso con sensación de bulto que imposibilita sentarse. Examen: nódulo violáceo, tenso y doloroso en margen anal. ¿Cuál es el diagnóstico?
+A: Fisura anal
+B: Absceso perianal
+C: Trombosis hemorroidal
+D: Fístula perianal
+K: C
+M: La imagen clínica es muy característica: tras un esfuerzo aparece de golpe un nódulo en el borde del ano, tenso, de color violáceo y muy doloroso, que impide hasta sentarse. Ese color violáceo es la firma de un coágulo dentro de una vena hemorroidal externa, es decir una hemorroide externa trombosada. El esfuerzo aumentó la presión venosa, la sangre se estancó y coaguló, y ese trombo bajo la piel perianal es lo que se palpa como el bulto duro y azulado que duele tanto. La fisura anal produce un dolor intenso pero de tipo cortante que aparece con la defecación y deja una úlcera lineal en el canal, no un nódulo violáceo. El absceso perianal daría una tumoración pero caliente, roja, fluctuante y habitualmente con fiebre, porque es una colección de pus, mientras que aquí el nódulo es violáceo y tenso por sangre coagulada, no por infección. La fístula perianal se manifiesta como un orificio que drena secreción de forma crónica, no como un bulto agudo, tenso y doloroso de aparición súbita tras el esfuerzo.
+P: Nódulo perianal violáceo, tenso y muy doloroso de aparición súbita tras esfuerzo = trombosis hemorroidal externa (coágulo en vena hemorroidal). El color violáceo la distingue del absceso (rojo, caliente, fluctuante) y de la fisura (dolor cortante con úlcera lineal).
+
+@36|EN|Cetoacidosis diabética con hipopotasemia: reponer potasio antes de la insulina
+E: Varón de 30 años, diabético tipo 1, es traído inconsciente a emergencia. Sus familiares refieren que dejó de usar insulina desde hace una semana. Examen: PA 110/70 mmHg, FC 70 x', FR 28 x'. AGA: pH 6,81, PaCO₂ 9,3 mmHg, HCO₃⁻ 6,5 mmol/L, anión gap 29,7 mmol/L. Laboratorio: glucosa 894 mg/dL, Na⁺ 137 mmol/L, K⁺ 2,7 mmol/L, Cl⁻ 107 mmol/L, lactato 12,8 mmol/L. Se ha asegurado vía aérea permeable, respiración y circulación, y se ha iniciado reposición con solución salina isotónica. Antes de comenzar la infusión de insulina intravenosa, ¿qué alteración debe corregirse en primer lugar?
+A: Hipopotasemia
+B: Acidosis metabólica
+C: Hiponatremia
+D: Hiperglicemia
+K: A
+M: Este es un cetoacidótico severo, pero el peligro inmediato no es el que salta a la vista. La glucosa está altísima y la acidosis es profunda, sí, pero el dato que cambia el orden de las cosas es el potasio de 2,7, que es una hipopotasemia grave. Y acá está la lógica fina: la insulina, además de bajar el azúcar, empuja el potasio hacia adentro de las células. Si tú inicias la insulina con un potasio ya en 2,7, ese potasio va a desplomarse todavía más y puede desencadenar una arritmia cardiaca fatal o una parálisis respiratoria. Por eso la regla es clara: antes de tocar la insulina hay que reponer potasio hasta llevarlo a un nivel seguro. Primero se corrige la hipopotasemia, y recién entonces entra la insulina. La acidosis metabólica es intensa, pero se corrige sola en gran parte al reponer volumen y al frenar la producción de cetonas con la propia insulina; no se ataca de entrada con bicarbonato salvo casos extremos, y no es lo primero que amenaza la vida en este orden. La hiperglicemia es la que uno querría bajar, pero justamente la herramienta para bajarla, la insulina, es la que no se puede dar hasta corregir el potasio, así que no puede ir primero. Y el sodio de 137 es normal, no hay hiponatremia real que corregir.
+P: En cetoacidosis con potasio bajo (2,7), primero se repone el potasio y recién después se inicia la insulina. La insulina mete potasio a la célula y un potasio ya bajo se desplomaría a nivel de arritmia fatal; con K menor de 3,3 no se inicia insulina sin corregirlo antes.
+
+@37|SP|Tamizaje de hemoglobina en el CRED: acción de prevención
+E: Un lactante de 4 meses es llevado a su control de CRED, en donde le realizan su tamizaje de hemoglobina para descarte de anemia. Esta actividad corresponde a una acción de:
+A: Promoción
+B: Rehabilitación
+C: Recuperación
+D: Prevención
+K: D
+M: La clave es entender qué se está haciendo con ese tamizaje: buscar la anemia en un niño que todavía no tiene síntomas, para detectarla temprano y actuar antes de que haga daño. Detectar precozmente una enfermedad en fase temprana, mediante una prueba de cribado, es una acción de prevención, concretamente del nivel que se anticipa a las complicaciones identificando el problema apenas empieza. Por eso el tamizaje de hemoglobina es prevención. La promoción de la salud es distinta: apunta a fomentar hábitos y entornos saludables en toda la población sana, como enseñar alimentación adecuada, no a buscar una enfermedad concreta en un individuo con una prueba. La rehabilitación actúa cuando el daño ya se instaló y hay que recuperar función perdida, que no es el caso de un niño al que recién se le hace el descarte. Lo recuperativo o asistencial es tratar la enfermedad ya establecida, y aquí no se está tratando una anemia diagnosticada, se la está buscando; ese acto de búsqueda anticipada es prevención, no recuperación.
+P: El tamizaje busca la enfermedad antes de que dé síntomas = acción de prevención (detección precoz). La promoción fomenta hábitos saludables en la población sana; lo recuperativo trata la enfermedad ya establecida; la rehabilitación recupera función perdida.

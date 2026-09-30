@@ -1004,6 +1004,78 @@
       "comentario": "Paciente politraumatizado con mecanismo cerrado de alta energía (atropello) y evidencia clínica de inestabilidad hemodinámica (hipotensión, taquicardia) sin respuesta a cristaloides. El examen físico revela pelvis dolorosa, inestable y con crepitación, además de fractura de ramas isquiopúbicas en la radiografía. Aunque estas fracturas pueden producir sangrado retroperitoneal, la presencia de shock persistente obliga a descartar una fuente de sangrado intraabdominal activa. Dado que ya se ha iniciado reanimación sin mejoría, y no hay otros focos evidentes, la laparotomía exploratoria se convierte en una medida urgente para descartar o tratar hemorragias ocultas. En trauma, se prioriza el control del sangrado para evitar el agravamiento del shock hipovolémico.",
       "tema": "Fractura de pelvis inestable con shock: estabilizar la pelvis",
       "año": 2025
+    },
+    {
+      "id": "TRA-054",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Usted se encuentra como médico en un centro de salud del primer nivel, atiende a un varón de 30 años que hace una hora sufre corte con cuchillo en la región palmar de la mano que afecta al dedo índice, con compromiso del tendón flexor profundo. Examen: herida limpia bordes netos y limitación a la flexión de la falange distal. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Limpieza de la herida y derivar al hospital de referencia",
+        "Apertura de la vaina tendinosa y férula del dedo índice",
+        "Suturar la piel con nylon monofilamento 3/0 y antibióticos orales",
+        "Reparación total del tendón con ácido poliglicólico 3/0"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el primer nivel de atención, la lesión de tendón flexor profundo del dedo índice exige derivación a centro especializado porque la reparación tendinosa requiere técnica microquirúrgica con material específico, anestesia regional y cirujano de mano. La conducta correcta es realizar limpieza adecuada de la herida con suero fisiológico, cubrir con apósito estéril, inmovilizar el dedo en posición funcional y derivar al hospital de referencia con servicio de cirugía de mano u ortopedia. La reparación tendinosa óptima debe realizarse en las primeras 12 a 24 horas para mejor pronóstico funcional. La apertura de la vaina tendinosa en primer nivel está formalmente contraindicada porque expone el tendón a contaminación y daño ¡iatrogénico irreversible, y además de no contar con el equipamiento necesario para su manejo. Suturar solo la piel sin reparar el tendón compromete la cicatrización funcional, atrapa el tendón retraído y genera adherencias y rigidez articular permanente. La reparación tendinosa primaria con ácido poliglicólico requiere cirujano experto, microscopio o lupa quirúrgica y técnica con sutura central tipo Kessler o modificada, recursos no disponibles en primer nivel. Limpieza, inmovilización y derivar es la regla.",
+      "comentario": "En el primer nivel de atención, la lesión de tendón flexor profundo del dedo índice exige derivación a centro especializado porque la reparación tendinosa requiere técnica microquirúrgica con material específico, anestesia regional y cirujano de mano. La conducta correcta es realizar limpieza adecuada de la herida con suero fisiológico, cubrir con apósito estéril, inmovilizar el dedo en posición funcional y derivar al hospital de referencia con servicio de cirugía de mano u ortopedia. La reparación tendinosa óptima debe realizarse en las primeras 12 a 24 horas para mejor pronóstico funcional. La apertura de la vaina tendinosa en primer nivel está formalmente contraindicada porque expone el tendón a contaminación y daño ¡iatrogénico irreversible, y además de no contar con el equipamiento necesario para su manejo. Suturar solo la piel sin reparar el tendón compromete la cicatrización funcional, atrapa el tendón retraído y genera adherencias y rigidez articular permanente. La reparación tendinosa primaria con ácido poliglicólico requiere cirujano experto, microscopio o lupa quirúrgica y técnica con sutura central tipo Kessler o modificada, recursos no disponibles en primer nivel. Limpieza, inmovilización y derivar es la regla.",
+      "tema": "Lesión del tendón flexor profundo: referencia",
+      "año": 2026
+    },
+    {
+      "id": "TRA-055",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Varón de 55 años con artritis reumatoide seropositiva y erosiva de 12 años de evolución, en tratamiento irregular con metotrexato, consulta por progresión de dolor y rigidez cervical desde hace 6 meses. Refiere episodios esporádicos de parestesias en ambas manos al flexionar el cuello, sin debilidad manifiesta. Examen: limitación de la movilidad cervical, sin déficit motor ni sensitivo, reflejos osteotendinosos levemente vivos en las cuatro extremidades. ¿Cuál es el examen auxiliar a indicar?",
+      "opciones": [
+        "Radiografía simple de columna lumbar en bipedestación",
+        "TC de articulaciones sacroilíacas para descartar espondilitis anquilosante",
+        "Resonancia magnética de columna dorsal para descartar espondilodiscitis",
+        "Radiografía cervical dinámica (flexión y extensión) para evaluar inestabilidad atlantoaxial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En artritis reumatoide de larga data y mal controlada, la subluxación atlantoaxial es complicación neurológica grave (presente en 25-30% de pacientes con AR establecida) por erosión del ligamento transverso del atlas y de la apófisis odontoides, generando inestabilidad de la articulación Cl-C2, Los síntomas iniciales son dolor cervical, parestesias al flexionar el cuello (signo de Lhermitte) y reflejos hiperactivos por compresión medular incipiente. El examen de elección es la radiografía cervical dinámica en flexión y extensión, que mide la distancia atlantodental anterior: mayor de 3 mm en adultos confirma inestabilidad y obliga a manejo neurológico-quirúrgico. La radiografía lumbar en bipedestación no aporta para la sintomatología cervical ni para AR, donde el compromiso lumbar es infrecuente, La TC de sacroilíacas se utiliza para sospecha de espondilitis anquilosante (espondiloartritis HLA-B27 con sacroileítis), entidad distinta de AR. la resonancia de columna dorsal busca espondilodiscitis (infección discal), patología poco probable sin fiebre ni síndrome radicular dorsal. La RX cervical dinámica es la herramienta diagnóstica específica y costo-efectiva para detectar subluxación atlantoaxial, complicación esperable en este perfil de paciente.",
+      "comentario": "En artritis reumatoide de larga data y mal controlada, la subluxación atlantoaxial es complicación neurológica grave (presente en 25-30% de pacientes con AR establecida) por erosión del ligamento transverso del atlas y de la apófisis odontoides, generando inestabilidad de la articulación Cl-C2, Los síntomas iniciales son dolor cervical, parestesias al flexionar el cuello (signo de Lhermitte) y reflejos hiperactivos por compresión medular incipiente. El examen de elección es la radiografía cervical dinámica en flexión y extensión, que mide la distancia atlantodental anterior: mayor de 3 mm en adultos confirma inestabilidad y obliga a manejo neurológico-quirúrgico. La radiografía lumbar en bipedestación no aporta para la sintomatología cervical ni para AR, donde el compromiso lumbar es infrecuente, La TC de sacroilíacas se utiliza para sospecha de espondilitis anquilosante (espondiloartritis HLA-B27 con sacroileítis), entidad distinta de AR. la resonancia de columna dorsal busca espondilodiscitis (infección discal), patología poco probable sin fiebre ni síndrome radicular dorsal. La RX cervical dinámica es la herramienta diagnóstica específica y costo-efectiva para detectar subluxación atlantoaxial, complicación esperable en este perfil de paciente.",
+      "tema": "Mielopatía cervical: radiografía dinámica en flexión y extensión",
+      "año": 2026
+    },
+    {
+      "id": "TRA-056",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Niña de 13 meses es traída al consultorio por marcha anómala. La madre refiere que en el puesto de salud le indicaron \"doble pañal” desde los 12 hasta los 18 meses por asimetría de pliegues glúteos. Examen: cojera leve y limitación de la abducción de cadera derecha. Rx de pelvis en proyección anteroposterior muestra luxación de cadera derecha con desplazamiento proximal de la cabeza femoral (índice de Tönnis 111), sin signos de reducción. ¿Cuál es el tratamiento de elección en este momento?",
+      "opciones": [
+        "Bota de yeso corta para corrección",
+        "Arnés de Pavlik a tiempo completo",
+        "Cojín de Frejka intermitente",
+        "Cirugía para reducción abierta de la cadera"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En displasia del desarrollo de cadera diagnosticada después de los 18 meses con luxación franca (Tönnis 111), las opciones conservadoras como arnés de Pavlik (efectivo solo hasta los 6 meses) o cojín de Frejka han perdido su ventana de aplicación. El tratamiento de elección en este escenario es la reducción abierta de la cadera por cirugía, frecuentemente combinada con osteotomía pélvica (Salter) o femoral (varización-desrotación) según el grado de displasia acetabular y femoral, para asegurar congruencia articular y desarrollo posterior normal. La bota de yeso corta no tiene utilidad en displasia de cadera; se usa para correcciones distales del pie. El arnés de Pavlik es eficaz solo en menores de 6 meses con cadera reducible o luxable; a los 18 meses con luxación establecida no logra reducción y puede causar necrosis avascular, El cojín de Frejka tiene aplicación en displasia leve en lactantes pequeños, no en luxación tardía. La cirugía abierta es la única intervención con probabilidad razonable de éxito en niñas mayores de 18 meses con luxación, idealmente antes de la deambulación independiente o lo más temprano posible para optimizar resultados,",
+      "comentario": "En displasia del desarrollo de cadera diagnosticada después de los 18 meses con luxación franca (Tönnis 111), las opciones conservadoras como arnés de Pavlik (efectivo solo hasta los 6 meses) o cojín de Frejka han perdido su ventana de aplicación. El tratamiento de elección en este escenario es la reducción abierta de la cadera por cirugía, frecuentemente combinada con osteotomía pélvica (Salter) o femoral (varización-desrotación) según el grado de displasia acetabular y femoral, para asegurar congruencia articular y desarrollo posterior normal. La bota de yeso corta no tiene utilidad en displasia de cadera; se usa para correcciones distales del pie. El arnés de Pavlik es eficaz solo en menores de 6 meses con cadera reducible o luxable; a los 18 meses con luxación establecida no logra reducción y puede causar necrosis avascular, El cojín de Frejka tiene aplicación en displasia leve en lactantes pequeños, no en luxación tardía. La cirugía abierta es la única intervención con probabilidad razonable de éxito en niñas mayores de 18 meses con luxación, idealmente antes de la deambulación independiente o lo más temprano posible para optimizar resultados,",
+      "tema": "Displasia del desarrollo de cadera: reducción abierta",
+      "año": 2026
+    },
+    {
+      "id": "TRA-057",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Lactante de 9 meses, nacido por parto en presentación podálica, sin otros antecedentes relevantes. Los padres refieren que, al gatear, parece arrastrar la pierna izquierda. Al examen físico se encuentra limitación de la abducción de la cadera izquierda y aparente acortamiento de la extremidad inferior izquierda. Se sospecha displasia del desarrollo de la cadera. ¿Cuál es la indicación más adecuada?",
+      "opciones": [
+        "Solicitar radiografía de pelvis y caderas",
+        "Iniciar uso de arnés de Pavlik de manera inmediata",
+        "Solicitar ecografía de caderas",
+        "Continuar observación y reevaluar en 3 meses"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En lactante mayor de 4 a 6 meses con sospecha clínica de displasia del desarrollo de cadera (parto podálico es factor de riesgo, limitación de abducción, aparente acortamiento de pierna), la herramienta diagnóstica de elección es la radiografía de pelvis y caderas en proyección anteroposterior. A esta edad ya se ha completado la osificación del núcleo cefálico femoral y la radiografía permite evaluar el índice acetabular, las líneas de Hilgenreiner, Perkins y Shenton, y clasificar el grado de displasia o luxación según la escala de Tönnis, El arnés de Pavlik tiene su indicación en menores de 6 meses con cadera reducible o luxable detectable por maniobras de Ortolani-Barlow; iniciarlo a los 9 meses sin diagnóstico anatómico claro es subóptimo y puede ser ineficaz si hay luxación irreductible, La ecografía de caderas es de elección en menores de 4-6 meses, antes de la osificación del núcleo cefálico, donde la radiografía no es concluyente; a los Y meses la radiografía la supera. Continuar observación y reevaluar en 3 meses es peligroso porque retrasa el diagnóstico en una ventana crítica para tratamiento. Radiografía de pelvis eso es lo que cae siempre,",
+      "comentario": "En lactante mayor de 4 a 6 meses con sospecha clínica de displasia del desarrollo de cadera (parto podálico es factor de riesgo, limitación de abducción, aparente acortamiento de pierna), la herramienta diagnóstica de elección es la radiografía de pelvis y caderas en proyección anteroposterior. A esta edad ya se ha completado la osificación del núcleo cefálico femoral y la radiografía permite evaluar el índice acetabular, las líneas de Hilgenreiner, Perkins y Shenton, y clasificar el grado de displasia o luxación según la escala de Tönnis, El arnés de Pavlik tiene su indicación en menores de 6 meses con cadera reducible o luxable detectable por maniobras de Ortolani-Barlow; iniciarlo a los 9 meses sin diagnóstico anatómico claro es subóptimo y puede ser ineficaz si hay luxación irreductible, La ecografía de caderas es de elección en menores de 4-6 meses, antes de la osificación del núcleo cefálico, donde la radiografía no es concluyente; a los Y meses la radiografía la supera. Continuar observación y reevaluar en 3 meses es peligroso porque retrasa el diagnóstico en una ventana crítica para tratamiento. Radiografía de pelvis eso es lo que cae siempre,",
+      "tema": "Displasia del desarrollo de la cadera en niño que camina: radiografía",
+      "año": 2026
     }
   ]
 }

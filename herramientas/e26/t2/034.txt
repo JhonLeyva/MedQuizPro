@@ -1,0 +1,21 @@
+@52|GI|Diástasis de la sínfisis del pubis tras parto macrosómico
+E: Puérpera de 24 horas, tras parto vaginal de recién nacido de 4200 g con analgesia epidural, consulta por dolor intenso en la región púbica y lumbar, con irradiación a ambos muslos, que le impide deambular. Examen: PA 100/60 mmHg, FC 72 x'. Refiere dolor muy intenso a la palpación sobre la sínfisis del pubis. ¿Cuál es el diagnóstico más probable?
+A: Luxación sacrococcígea secundaria al paso del feto
+B: Fractura del acetábulo por esfuerzo del trabajo de parto
+C: Diástasis de la sínfisis del pubis
+D: Bloqueo motor secundario a analgesia epidural
+K: C
+M: Los ingredientes están todos: un bebé grande, de más de cuatro kilos, que forzó el paso por la pelvis, y una puérpera que a las veinticuatro horas no puede caminar por un dolor intenso justo sobre la sínfisis del pubis, con irradiación a los muslos. El punto doloroso exactamente sobre la sínfisis es la pista central. Durante el embarazo, las hormonas relajan los ligamentos de la pelvis para facilitar el parto, y cuando pasa un feto macrosómico esa unión de los dos huesos púbicos por delante puede separarse más de la cuenta y hasta desgarrarse: eso es la diástasis de la sínfisis del pubis, que produce un dolor púbico severo que impide la marcha, tal como aquí. La luxación sacrococcígea afecta la parte posterior de la pelvis, el cóccix, y daría dolor en la región del sacro y el coxis al sentarse, no un dolor exquisito sobre el pubis por delante. La fractura de acetábulo no ocurre por el esfuerzo de un parto normal; requiere un traumatismo de alta energía sobre la cadera. El bloqueo motor de la epidural sería una debilidad de las piernas por el anestésico, sin dolor localizado en la sínfisis, y además a las veinticuatro horas ya debería haberse resuelto el efecto del bloqueo; lo que tiene esta paciente es dolor púbico focal, no parálisis por anestesia.
+P: Parto de feto macrosómico + dolor púbico intenso que impide caminar y punto exquisito sobre la sínfisis = diástasis de la sínfisis del pubis (separación de los huesos púbicos favorecida por la laxitud hormonal). El punto doloroso sobre el pubis la distingue del dolor coccígeo o del bloqueo epidural.
+
+@53|X|Repite el concepto de la pregunta 119 del PDF 1 (cáncer de colon ascendente localizado: resección quirúrgica)
+
+@54|SP|Análisis de situación de salud (ASIS)
+E: ¿Cuál es el proceso que permite describir y explicar el estado de salud y sus determinantes sociales en una población definida?
+A: Plan de gestión institucional
+B: Análisis situacional de salud
+C: Plan operativo institucional
+D: Análisis estratégico multisectorial
+K: B
+M: La pregunta describe con precisión una herramienta concreta de salud pública: un proceso cuyo objetivo es retratar el estado de salud de una población y explicar por qué está así, analizando sus determinantes sociales. Ese proceso tiene un nombre propio, el análisis situacional de salud, que es el diagnóstico integral que caracteriza los problemas sanitarios de un territorio, cómo se distribuyen y qué factores sociales, económicos y ambientales los condicionan, para servir de base a la planificación. Por eso es la opción correcta. El plan de gestión institucional y el plan operativo institucional son documentos de planificación y ejecución de una institución: dicen qué se va a hacer, con qué recursos y en qué plazos, pero no son el diagnóstico que describe y explica la salud de la población; de hecho, se construyen a partir del análisis situacional, no lo reemplazan. El análisis estratégico multisectorial suena parecido, pero apunta a coordinar a distintos sectores para una estrategia común; no es el proceso específico de caracterizar el estado de salud y sus determinantes en una población definida, que es exactamente lo que define al análisis situacional de salud.
+P: Describir y explicar el estado de salud de una población y sus determinantes sociales = análisis situacional de salud, el diagnóstico que fundamenta la planificación. Los planes de gestión u operativos ejecutan acciones; se construyen a partir del análisis, no lo sustituyen.

@@ -1,0 +1,13 @@
+@152|X|Repite el concepto de la pregunta 117 de este mismo PDF (dengue con signos de alarma: internamiento)
+
+@153|X|Repite el concepto de CB-288 ya publicado (antituberculoso contraindicado en la gestación: estreptomicina)
+
+@154|CI|Politraumatizado en shock hemorrágico: oxígeno, cristaloides y control de la hemorragia
+E: Varón de 27 años sufre un accidente de tránsito y es trasladado a un centro de salud ubicado a 3 horas del hospital de mayor complejidad. Examen: diaforético, PA 80/50 mmHg, FC 132 x', SatO₂ 86 %, múltiples heridas y deformidad evidente en el fémur derecho. ¿Cuál es la conducta a seguir?
+A: Administrar O₂, fluidoterapia con cristaloides y controlar la hemorragia
+B: Inmovilizar el fémur con férula, analgésicos y referir de inmediato
+C: Collarín cervical, inmovilizar el fémur y solicitar exámenes básicos
+D: Observación y referir si persiste inestabilidad hemodinámica
+K: A
+M: Este paciente está en shock, y eso ordena las prioridades. Tiene todos los signos del shock hemorrágico: sudoración fría, presión baja de ochenta sobre cincuenta, taquicardia intensa de ciento treinta y dos, y una saturación caída. Además, la fractura de fémur puede por sí sola secuestrar una gran cantidad de sangre. En el manejo del politraumatizado, lo primero siempre es reanimar según la secuencia vital: asegurar la oxigenación, reponer el volumen perdido y controlar el sangrado, porque de nada sirve trasladar bien inmovilizado a un paciente que se está desangrando y desoxigenando. Por eso la conducta inicial es administrar oxígeno, iniciar fluidoterapia con cristaloides para levantar la presión y controlar las fuentes de hemorragia. Esa es la base que estabiliza al paciente. Inmovilizar el fémur con férula, dar analgésicos y referir de inmediato tiene su parte correcta, porque la férula ayuda a reducir el sangrado de la fractura, pero como conducta aislada omite lo esencial: la reanimación con oxígeno y líquidos del paciente en shock; primero se estabiliza, luego se traslada. Poner collarín, inmovilizar y solicitar exámenes básicos pierde tiempo en estudios en un paciente que necesita reanimación inmediata, no análisis. Observar y referir solo si persiste la inestabilidad es directamente peligroso: el paciente ya está inestable ahora, en shock, y esperar es dejar que se agrave; hay que actuar de inmediato con oxígeno, volumen y control de la hemorragia.
+P: Politraumatizado en shock hemorrágico (hipotensión, taquicardia, desaturación) = reanimar primero según la secuencia vital: oxígeno, fluidoterapia con cristaloides y control de la hemorragia. La inmovilización del fémur ayuda, pero primero se estabiliza al paciente en shock; no se pierde tiempo en exámenes ni se observa.

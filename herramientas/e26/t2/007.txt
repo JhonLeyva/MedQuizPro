@@ -1,0 +1,29 @@
+@10|GA|Ictericia obstructiva: fosfatasa alcalina
+E: Varón de 25 años acude por ictericia de inicio súbito posterior a dolor abdominal tipo cólico. Examen: vesícula biliar palpable. Bilirrubina directa sérica elevada. ¿Cuál es el marcador bioquímico sérico que espera encontrar elevado?
+A: Aspartato aminotransferasa
+B: Alanina aminotransferasa
+C: Glucuronosiltransferasa
+D: Fosfatasa alcalina
+K: D
+M: El cuadro apunta a una ictericia obstructiva. Tienes ictericia de aparición brusca tras un cólico, con vesícula palpable y una bilirrubina que sube a expensas de la fracción directa, es decir la ya conjugada por el hígado. Que sea directa la que se eleva significa que el hígado sí procesó la bilirrubina pero esta no puede salir hacia el intestino porque la vía biliar está obstruida, y refluye a la sangre. En ese escenario de colestasis, la enzima que se dispara es la que vive en el epitelio de los conductos biliares y que la obstrucción induce a liberar: la fosfatasa alcalina. Por eso el marcador que esperas encontrar elevado, coherente con el patrón obstructivo, es ese. Las aminotransferasas, tanto la aspartato como la alanina, marcan daño del hepatocito, es decir un patrón de lesión celular hepática; pueden subir algo en una obstrucción, pero no son el marcador que define la colestasis ni el que se pide como característico de este patrón. La glucuronosiltransferasa es la enzima intracelular que conjuga la bilirrubina dentro del hepatocito, no es un marcador sérico que uno dose para evaluar obstrucción; además, si estuviera fallando esa conjugación, la bilirrubina que subiría sería la indirecta, justo lo contrario de lo que muestra este paciente.
+P: Ictericia obstructiva (bilirrubina directa elevada, vesícula palpable tras cólico) = patrón colestásico con fosfatasa alcalina elevada. Las transaminasas marcan daño del hepatocito; la fosfatasa alcalina marca obstrucción de la vía biliar.
+
+@11|SP|Rendimiento hora médico en consulta externa
+E: En una clínica, el administrador desea medir la productividad del médico en consulta externa, definida como el número de atenciones realizadas en relación con el recurso médico utilizado por unidad de tiempo. ¿Qué indicador describe mejor este concepto?
+A: Relación entre número de consultas y número de egresos
+B: Porcentaje de internamiento a través de consulta externa
+C: Porcentaje de consultas programadas atendidas
+D: Rendimiento hora médico en consulta externa
+K: D
+M: La pregunta te da la definición exacta del indicador y te pide ponerle nombre: atenciones producidas por recurso médico y por unidad de tiempo. Eso es literalmente un cociente entre producto (consultas) e insumo por tiempo (horas de médico), y ese cociente tiene un nombre en gestión: rendimiento hora médico. Mide cuántas atenciones genera cada hora de trabajo médico, que es la definición pura de productividad. Cuando un indicador junta producción sobre recurso sobre tiempo, estás midiendo eficiencia productiva, y ninguno de los otros lo hace. Relacionar consultas con egresos mezcla la actividad ambulatoria con la hospitalaria y sirve para estimar cuántas consultas terminan en internamiento, no la productividad por hora. El porcentaje de internamiento a través de consulta externa mide una proporción de derivación, es decir qué fracción de los que consultan terminan hospitalizados, que es un dato de flujo, no de productividad. El porcentaje de consultas programadas atendidas mide cumplimiento de agenda o inasistencia, o sea si el paciente vino o no, pero no relaciona la producción con el recurso médico invertido por tiempo.
+P: Producción (atenciones) sobre recurso médico y por unidad de tiempo = rendimiento hora médico. Es el indicador puro de productividad. Los que mezclan egresos o internamiento miden flujo o derivación, no productividad.
+
+@12|PE|Tamizaje nutricional en escolares: índice de masa corporal
+E: Niño de 9 años evaluado en consulta ambulatoria por aumento progresivo de peso en el último año. Para el tamizaje y el seguimiento inicial de su estado nutricional, ¿cuál es la medida antropométrica más útil y estandarizada?
+A: Pliegue cutáneo tricipital exclusivamente
+B: Circunferencia de cintura únicamente
+C: Índice de masa corporal
+D: Bioimpedancia eléctrica portátil
+K: C
+M: Para tamizar y seguir el estado nutricional de un niño necesitas una medida que sea barata, reproducible, comparable contra referencias por edad y sexo, y que cualquier consultorio pueda repetir en cada control. El índice de masa corporal cumple todo eso: se calcula con peso y talla, se ubica en las curvas de percentiles o puntaje Z para la edad, y permite ver la tendencia a lo largo del tiempo, que es justo lo que se necesita en un niño que está ganando peso progresivamente. Por eso es la herramienta estandarizada de tamizaje y seguimiento. El pliegue cutáneo tricipital estima grasa subcutánea, pero depende mucho de quién y cómo lo mida, tiene alta variabilidad entre observadores y no es la medida de primera línea para tamizar. La circunferencia de cintura aporta información sobre distribución de grasa abdominal y riesgo metabólico, pero es complementaria: no reemplaza al IMC como cribado inicial del estado nutricional global. La bioimpedancia estima composición corporal, pero requiere equipo, se afecta por el estado de hidratación y no es la medida estandarizada de tamizaje en atención primaria pediátrica.
+P: Tamizaje y seguimiento nutricional de un niño = índice de masa corporal para la edad y sexo, por barato, reproducible y comparable en el tiempo. Pliegues, cintura y bioimpedancia son complementarios, no el cribado inicial.

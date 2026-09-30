@@ -1,0 +1,29 @@
+@16|SP|Brote de enfermedad transmitida por agua: notificar y tomar muestras
+E: Un médico del primer nivel de atención en una zona rural del Perú identifica un aumento inusual de casos de diarrea aguda en los últimos 7 días, sospechando un brote de enfermedad transmitida por agua. Para cumplir con la función esencial de vigilancia epidemiológica, ¿cuál es la acción inmediata que debe realizar?
+A: Notificar los casos sospechosos al Sistema Nacional de Vigilancia Epidemiológica y coordinar la toma de muestras de agua y heces para su análisis
+B: Organizar charlas de educación sanitaria en escuelas sobre higiene de manos y manipulación de alimentos
+C: Distribuir de forma masiva medicamentos antidiarreicos a la población afectada sin esperar evaluación clínica individual
+D: Gestionar con las autoridades locales la construcción de nuevos pozos de agua para la comunidad
+K: A
+M: La pregunta te ancla en una función concreta: vigilancia epidemiológica ante un brote. Y lo primero que exige la vigilancia frente a un aumento inusual de casos es doble y simultáneo: avisar al sistema para que se active la respuesta organizada, y confirmar la causa recogiendo muestras del presunto vehículo, que aquí es el agua, y de los enfermos, es decir las heces. Notificar sin investigar dejaría el brote sin explicación; investigar sin notificar aislaría al médico de la maquinaria de salud pública que puede intervenir a escala. Por eso la acción inmediata correcta une ambas cosas. Las charlas de educación sanitaria son valiosas como prevención sostenida, pero no son la acción inmediata frente a un brote en curso: no cortan la transmisión que ya está ocurriendo. Repartir antidiarreicos de forma masiva sin evaluar a cada paciente es directamente peligroso, porque en una diarrea infecciosa esos fármacos pueden retener el patógeno y agravar cuadros, y además no ataca la fuente. Construir nuevos pozos es una medida estructural correcta a mediano plazo para el saneamiento, pero toma tiempo y no resuelve la emergencia del brote que hay que contener ahora.
+P: Brote sospechoso frente a la función de vigilancia = notificar al sistema y tomar muestras del vehículo (agua) y de los enfermos (heces) de inmediato. Educación y saneamiento son medidas de fondo, no la respuesta inmediata al brote en curso.
+
+@17|CB:FA|Cardiotoxicidad de anestésicos locales: bupivacaína
+E: Los anestésicos locales inyectados accidentalmente en el torrente sanguíneo pueden producir colapso cardiovascular. ¿Cuál de los siguientes anestésicos presenta las complicaciones cardiovasculares más severas?
+A: Bupivacaína
+B: Levocaína
+C: Ropivacaína
+D: Lidocaína
+K: A
+M: La clave está en cuál de estos anestésicos se queda pegado más tiempo al canal de sodio del corazón, porque de eso depende su toxicidad cardiaca. La bupivacaína es la más liposoluble y la que se une con más fuerza y se suelta más lento de esos canales, así que cuando llega en exceso a la sangre bloquea la conducción cardiaca de forma prolongada y produce arritmias graves y colapso que son notoriamente difíciles de revertir, incluso resistentes a la reanimación habitual. Por eso es el anestésico local con la cardiotoxicidad más severa y el que más respeto exige al calcular dosis y al aspirar antes de inyectar. La lidocaína también es cardiotóxica si se sobredosifica, pero se une y se suelta rápido del canal, así que su toxicidad es más manejable y de hecho a dosis controladas se usa como antiarrítmico. La ropivacaína se diseñó precisamente para conservar la potencia anestésica de la bupivacaína pero con menor afinidad cardiaca, de modo que es bastante menos cardiotóxica. La levocaína no es un anestésico local de uso reconocido en este grupo, así que no compite como opción; el patrón de cardiotoxicidad severa lo define la bupivacaína.
+P: El anestésico local más cardiotóxico es la bupivacaína: se une fuerte y se suelta lento del canal de sodio cardiaco, produciendo colapso difícil de revertir. La ropivacaína nació para ser menos cardiotóxica y la lidocaína se suelta rápido del canal.
+
+@18|SP|Revisión sistemática: fuente secundaria
+E: Un estudiante realiza la búsqueda de antecedentes de su investigación empleando revisiones sistemáticas. ¿A qué tipo de fuente ha accedido?
+A: Secundaria
+B: Primaria
+C: Terciaria
+D: Cuaternaria
+K: A
+M: Lo que hay que distinguir es quién genera el dato y quién lo procesa. Una fuente primaria es la que produce conocimiento nuevo de primera mano: el estudio original, el ensayo clínico, el artículo donde se reportan los resultados por primera vez. Una revisión sistemática no genera datos nuevos, sino que rastrea, selecciona y sintetiza muchos estudios primarios ya publicados para dar una respuesta integrada; ese acto de recopilar y resumir lo ya producido es exactamente lo que define a una fuente secundaria. Por eso el estudiante que se apoya en revisiones sistemáticas está usando fuente secundaria. Llamarla primaria confundiría el resumen con el estudio original, que es justo lo que la revisión no es. Las fuentes terciarias son las que organizan e indexan las secundarias y primarias para facilitar su localización, como las enciclopedias, los directorios o las bases de datos que apuntan a otros trabajos, no una síntesis analítica de resultados. La categoría cuaternaria no forma parte de la clasificación estándar de fuentes de información en investigación, así que no aplica.
+P: Revisión sistemática = fuente secundaria: recopila y sintetiza estudios primarios ya publicados, no genera datos nuevos. La primaria es el estudio original; la terciaria indexa y organiza (enciclopedias, bases de datos).

@@ -1042,6 +1042,42 @@
       "comentario": "Soldador con una esquirla corneal superficial y agudeza visual conservada: el tratamiento es retirar el cuerpo extraño bajo anestesia tópica (con aguja o fresa, en lámpara de hendidura), incluido el anillo de óxido si lo hay, y luego aplicar antibiótico tópico para prevenir la queratitis, con control en 24 horas. El lavado solo no retira un cuerpo extraño incrustado en la córnea. Si hubiera sospecha de perforación o cuerpo extraño intraocular, no se retira y se deriva de urgencia.",
       "tema": "Cuerpo extraño corneal superficial: retiro y antibiótico tópico",
       "año": 2025
+    },
+    {
+      "id": "OFT-056",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "En un centro de salud, un niño de 2 años es traído por fiebre y llanto irritativo de 24 horas de evolución. Usted sabe que el uso innecesario de antibióticos en otitis media aumenta la resistencia bacteriana en la comunidad, por lo que decide basar su decisión terapéutica en criterios diagnósticos estrictos. La otoscopía muestra aumento de presión purulenta en el oído medio. ¿Qué hallazgo adicional justificaría el uso de antibiótico?",
+      "opciones": [
+        "Tímpano levemente eritematoso, con movilidad conservada",
+        "Abombamiento intenso y difuso de la membrana timpánica",
+        "Membrana timpánica retraída, con mango del martillo muy prominente",
+        "Tímpano opaco, de color ámbar, con burbujas de aire visibles"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los criterios diagnósticos estrictos de la AAP para otitis media aguda exigen evidencia objetiva de derrame en oído medio (movilidad timpánica disminuida o ausente) más signos inflamatorios. El abombamiento intenso y difuso de la membrana timpánica es el hallazgo otoscópico más específico de OMA bacteriana y el que mayor respaldo tiene para indicar antibioticoterapia, sobre todo cuando se acompaña de fiebre y llanto irritativo en un menor de 2 años. Un tímpano abombado refleja presión purulenta acumulada que no puede drenar y predice mayor probabilidad de patógeno bacteriano (S. pneumoniae, H. influenzae no tipable o M. catarrhalis). Un tímpano levemente eritematoso con movilidad conservada puede deberse a llanto, fiebre o miringitis sin derrame, y no cumple criterios estrictos. Ojo: la membrana retraída con mango del martillo prominente es signo de disfunción tubárica con efusión crónica, no de OMA bacteriana, y suele evolucionar sin antibiótico. El tímpano ámbar con burbujas indica otitis media con efusión serosa, situación frecuente postcatarro que se maneja con observación y no requiere antibiótico. Solo el abombamiento intenso justifica el uso terapéutico y reduce riesgo de complicaciones como mastoiditis,",
+      "comentario": "Los criterios diagnósticos estrictos de la AAP para otitis media aguda exigen evidencia objetiva de derrame en oído medio (movilidad timpánica disminuida o ausente) más signos inflamatorios. El abombamiento intenso y difuso de la membrana timpánica es el hallazgo otoscópico más específico de OMA bacteriana y el que mayor respaldo tiene para indicar antibioticoterapia, sobre todo cuando se acompaña de fiebre y llanto irritativo en un menor de 2 años. Un tímpano abombado refleja presión purulenta acumulada que no puede drenar y predice mayor probabilidad de patógeno bacteriano (S. pneumoniae, H. influenzae no tipable o M. catarrhalis). Un tímpano levemente eritematoso con movilidad conservada puede deberse a llanto, fiebre o miringitis sin derrame, y no cumple criterios estrictos. Ojo: la membrana retraída con mango del martillo prominente es signo de disfunción tubárica con efusión crónica, no de OMA bacteriana, y suele evolucionar sin antibiótico. El tímpano ámbar con burbujas indica otitis media con efusión serosa, situación frecuente postcatarro que se maneja con observación y no requiere antibiótico. Solo el abombamiento intenso justifica el uso terapéutico y reduce riesgo de complicaciones como mastoiditis,",
+      "tema": "Otitis media aguda: criterio para antibiótico",
+      "año": 2026
+    },
+    {
+      "id": "OFT-057",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "En una urgencia oftalmológica, algunas situaciones requieren tratamiento en cuestión de minutos para disminuir el riesgo de pérdida visual permanente. ¿Cuál se considera una verdadera urgencia ocular?",
+      "opciones": [
+        "Pterigion nasal que invade levemente la córnea",
+        "Golpe contuso en ojo sin alteración de la agudeza visual",
+        "Orzuelo en párpado superior de 24 horas de evolución",
+        "Quemadura química ocular por producto de limpieza doméstico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La quemadura química ocular es la verdadera urgencia oftalmológica que requiere intervención en minutos para evitar pérdida visual permanente. La conducta inmediata es lavado abundante con suero fisiológico o agua durante al menos 15-30 minutos antes de cualquier otra evaluación, midiendo el pH de la conjuntiva hasta normalizar a 7.0-7,4, Las quemaduras por álcali (lejía, amoníaco, productos de limpieza) son más graves que las ácidas porque penetran rápidamente en cámara anterior por necrosis de licuefacción, generando opacidad corneal, cataratas, glaucoma e isquemia limbar irreversible. El pterigion nasal con invasión leve de córnea es proceso crónico, no requiere manejo en minutos y se trata con cirugía electiva si compromete eje visual. El golpe contuso sin alteración de agudeza visual amerita evaluación oftalmológica para descartar contusión ocular, hipema o desprendimiento retinal pero no necesita intervención inmediata en minutos. El orzuelo es infección estafilocócica del borde palpebral, autolimitada o tratada con compresas calientes y antibiótico tópico, sin riesgo de pérdida visual permanente, Quemadura química = lavar de inmediato es la regla de oro oftalmológica.",
+      "comentario": "La quemadura química ocular es la verdadera urgencia oftalmológica que requiere intervención en minutos para evitar pérdida visual permanente. La conducta inmediata es lavado abundante con suero fisiológico o agua durante al menos 15-30 minutos antes de cualquier otra evaluación, midiendo el pH de la conjuntiva hasta normalizar a 7.0-7,4, Las quemaduras por álcali (lejía, amoníaco, productos de limpieza) son más graves que las ácidas porque penetran rápidamente en cámara anterior por necrosis de licuefacción, generando opacidad corneal, cataratas, glaucoma e isquemia limbar irreversible. El pterigion nasal con invasión leve de córnea es proceso crónico, no requiere manejo en minutos y se trata con cirugía electiva si compromete eje visual. El golpe contuso sin alteración de agudeza visual amerita evaluación oftalmológica para descartar contusión ocular, hipema o desprendimiento retinal pero no necesita intervención inmediata en minutos. El orzuelo es infección estafilocócica del borde palpebral, autolimitada o tratada con compresas calientes y antibiótico tópico, sin riesgo de pérdida visual permanente, Quemadura química = lavar de inmediato es la regla de oro oftalmológica.",
+      "tema": "Quemadura química ocular: urgencia verdadera",
+      "año": 2026
     }
   ]
 }

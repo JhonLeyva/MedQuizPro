@@ -1,0 +1,21 @@
+@55|SP|Vigilancia epidemiológica activa
+E: En un distrito con incremento de casos de enfermedad diarreica aguda, el equipo de la red de salud visita periódicamente los establecimientos de salud y revisa activamente los registros de atención, además de llamar a los responsables de estadísticas para identificar nuevos casos y notificarlos de inmediato. ¿Qué tipo de vigilancia epidemiológica están realizando principalmente?
+A: Centinela
+B: Activa
+C: Pasiva
+D: Sindrómica
+K: B
+M: La clave está en quién da el primer paso para encontrar los casos. Aquí el equipo de salud no se queda esperando a que los establecimientos reporten: sale a buscar, visita periódicamente los servicios, revisa por su cuenta los registros de atención y llama a los encargados de estadística para detectar casos nuevos. Ese comportamiento de ir tras el dato, de rastrearlo activamente en las fuentes, es la definición de la vigilancia activa, en la que el sistema de salud toma la iniciativa de buscar los casos en lugar de aguardar la notificación espontánea. Precisamente por contraste, la vigilancia pasiva es lo opuesto: el nivel central espera y recibe los reportes que los establecimientos envían por rutina, sin salir a buscarlos, así que no describe lo que hace este equipo. La vigilancia centinela se basa en unos pocos establecimientos seleccionados que monitorizan de forma intensiva un evento específico para estimar tendencias, no en visitar y revisar activamente todos los registros del distrito. La vigilancia sindrómica clasifica los casos por conjuntos de síntomas para detectar brotes de forma precoz, un enfoque distinto que se refiere a qué se vigila, no a la búsqueda activa que caracteriza a este operativo.
+P: Cuando el equipo sale a buscar los casos, visita servicios y revisa registros por iniciativa propia = vigilancia activa. La pasiva espera que lleguen los reportes; la centinela usa pocos establecimientos selectos; la sindrómica agrupa por síntomas.
+
+@56|TR|Signo de Ortolani positivo en recién nacida: abducción de cadera
+E: Recién nacida de 3 días, producto de parto podálico, sana y hemodinámicamente estable. En el examen físico se encuentra signo de Ortolani positivo en la cadera izquierda. ¿Cuál es la indicación inicial más apropiada?
+A: Mantener cadera en abducción
+B: Observación y control mensual
+C: Administrar vitamina D y controles CRED
+D: Solicitar radiografía de cadera
+K: A
+M: El signo de Ortolani positivo significa que la cabeza del fémur está fuera de su sitio y, al abrir la cadera, entra al acetábulo con un resalto palpable: es decir, hay una cadera luxada que se puede reducir, el hallazgo cardinal de la displasia del desarrollo de la cadera. Y el parto podálico es justamente uno de los principales factores de riesgo. Frente a un Ortolani positivo en un recién nacido, la conducta inicial es mantener la cadera reducida y estable en abducción, que es lo que hace el arnés de Pavlik: sostiene las caderas flexionadas y abiertas para que la cabeza femoral se mantenga dentro del acetábulo y este termine de formarse correctamente. Por eso la indicación es la abducción. Observar y controlar cada mes sería dejar pasar el tiempo en una cadera que ya está luxada y que necesita tratamiento ahora; cuanto antes se reduce y se estabiliza, mejor se desarrolla la articulación. Dar vitamina D y seguir los controles habituales trata la displasia como si fuera un problema nutricional del hueso, que no es el caso: aquí el problema es mecánico, de posición articular. Pedir una radiografía de cadera en un recién nacido es poco útil porque a esa edad la cabeza femoral todavía es cartílago y no se ve bien en la radiografía; el estudio de imagen apropiado en el lactante pequeño es la ecografía, pero con un Ortolani claramente positivo la indicación inmediata es tratar con abducción.
+P: Ortolani positivo (cadera luxada reductible) en recién nacido, más aún con parto podálico = displasia del desarrollo de la cadera. La conducta inicial es mantener la cadera en abducción (arnés de Pavlik); la radiografía es poco útil en el neonato porque la cabeza femoral aún es cartílago.
+
+@57|X|Repite el concepto de la pregunta 110 del PDF 1 (neumotórax a tensión: descompresión con aguja)

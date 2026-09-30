@@ -795,6 +795,60 @@
       "comentario": "Escolar con cuadro típico de bulimia nerviosa: episodios de atracones seguidos de vómitos autoprovocados. Esta conducta purgativa frecuente conduce a pérdida de electrolitos gástricos, especialmente potasio. La hipokalemia es la complicación electrolítica más frecuente y relevante en estos casos. Clínicamente, puede manifestarse con debilidad, palpitaciones, y arritmias, como se evidencia en el caso por los ruidos cardíacos arrítmicos. La hipokalemia severa puede llevar a arritmias potencialmente mortales, por lo cual debe corregirse con prontitud.",
       "tema": "Bulimia nerviosa: hipopotasemia",
       "año": 2024
+    },
+    {
+      "id": "PSI-043",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Mujer de 35 años, hace 2 semanas sufre la pérdida de una gestación in vitro muy deseada, desde esa fecha acusa debilidad en ambas piernas con dificultad para caminar y dificultad para deglutir, lo que ha condicionado baja de peso y dependencia de los cuidados de su pareja. Refiere además cefalea opresiva leve- moderada y, en los últimos días, temblor en el miembro superior derecho y visión borrosa intermitente. Examen neurológico normal. Neuroimágenes y electromiografía normal. Se ha descartado infecciones y enfermedades autoinmunes. Es derivada a psiquiatría. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Consumo de sustancias hormonales",
+        "Pródromos de esquizofrenia",
+        "Trastorno de conversión",
+        "Trastorno facticio impuesto a sí misma"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El detalle que define el caso: un trastorno de conversión (trastorno por síntomas neurológicos funcionales según DSM-5): aparición súbita de síntomas neurológicos motores y sensoriales (debilidad bilateral, disfagia, temblor, visión borrosa) que no se explican por enfermedad neurológica orgánica ni por sustancias, y que tienen estrecha relación temporal con un estresor psicológico identificable, en este caso el duelo gestacional reciente tras una FIV muy deseada. Los exámenes neurológicos, neuroimágenes y EMG son normales, y el descarte de causa orgánica es el pilar diagnóstico. El paciente no produce los síntomas de manera consciente, El consumo de sustancias hormonales no produce este patrón pluri-sintomático focal y no encaja con el contexto. Los pródromos de esquizofrenia incluyen aislamiento social, ideas extrañas o alteraciones perceptuales, no debilidad bilateral con disfagia. El trastorno facticio implica producción intencional de síntomas para asumir el rol de enfermo, sin estresor identificable y con conducta manipulativa ante el examen, lo cual aquí no se describe. La conversión surge ante un trauma psicológico real y los síntomas no son fingidos: son experimentados como reales por la paciente y mejoran con psicoterapia y manejo del duelo.",
+      "comentario": "El detalle que define el caso: un trastorno de conversión (trastorno por síntomas neurológicos funcionales según DSM-5): aparición súbita de síntomas neurológicos motores y sensoriales (debilidad bilateral, disfagia, temblor, visión borrosa) que no se explican por enfermedad neurológica orgánica ni por sustancias, y que tienen estrecha relación temporal con un estresor psicológico identificable, en este caso el duelo gestacional reciente tras una FIV muy deseada. Los exámenes neurológicos, neuroimágenes y EMG son normales, y el descarte de causa orgánica es el pilar diagnóstico. El paciente no produce los síntomas de manera consciente, El consumo de sustancias hormonales no produce este patrón pluri-sintomático focal y no encaja con el contexto. Los pródromos de esquizofrenia incluyen aislamiento social, ideas extrañas o alteraciones perceptuales, no debilidad bilateral con disfagia. El trastorno facticio implica producción intencional de síntomas para asumir el rol de enfermo, sin estresor identificable y con conducta manipulativa ante el examen, lo cual aquí no se describe. La conversión surge ante un trauma psicológico real y los síntomas no son fingidos: son experimentados como reales por la paciente y mejoran con psicoterapia y manejo del duelo.",
+      "tema": "Trastorno de conversión",
+      "año": 2026
+    },
+    {
+      "id": "PSI-044",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Varón de 32 años, con consumo diario de heroína por vía endovenosa desde hace 4 años, desea dejar de consumir. Refiere varios intentos de suspensión brusca con aparición de intenso malestar, insomnio y fuerte conducta adictiva, por lo que recae rápidamente. Acude a un centro especializado para iniciar un programa ambulatorio de mantenimiento farmacológico a largo plazo para su trastorno por uso de opioides. ¿Cuál es el medicamento de elección más adecuado?",
+      "opciones": [
+        "Metadona",
+        "Diazepam",
+        "Haloperidol",
+        "Acido valproico"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el trastorno por uso de opioides con dependencia y múltiples intentos fallidos de suspensión, la metadona es el agonista opioide de larga duración utilizado en programas de mantenimiento ambulatorio. Su mecanismo se basa en ocupar los receptores y con un perfil farmacocinético prolongado (vida media 24-36 horas) que evita los picos y valles de la heroína, suprime el síndrome de abstinencia y reduce el craving. Está respaldada por evidencia robusta como tratamiento que reduce mortalidad, conducta de riesgo y comorbilidad infecciosa (VIH, hepatitis C) asociada al uso endovenoso. El diazepam y otras benzodiacepinas pueden usarse para manejo sintomático puntual de la abstinencia pero no son tratamiento de mantenimiento; su uso prolongado genera dependencia y no actúa sobre los receptores opioides. El haloperidol es antipsicótico y no tiene rol en mantenimiento de adicción a opioides; podría usarse en casos de psicosis comórbida. El ácido valproico es estabilizador del ánimo en trastorno bipolar y no aplica al trastorno por uso de opioides. La metadona y, alternativamente, la buprenorfina son los agonistas de elección en mantenimiento de adicción a opioides.",
+      "comentario": "En el trastorno por uso de opioides con dependencia y múltiples intentos fallidos de suspensión, la metadona es el agonista opioide de larga duración utilizado en programas de mantenimiento ambulatorio. Su mecanismo se basa en ocupar los receptores y con un perfil farmacocinético prolongado (vida media 24-36 horas) que evita los picos y valles de la heroína, suprime el síndrome de abstinencia y reduce el craving. Está respaldada por evidencia robusta como tratamiento que reduce mortalidad, conducta de riesgo y comorbilidad infecciosa (VIH, hepatitis C) asociada al uso endovenoso. El diazepam y otras benzodiacepinas pueden usarse para manejo sintomático puntual de la abstinencia pero no son tratamiento de mantenimiento; su uso prolongado genera dependencia y no actúa sobre los receptores opioides. El haloperidol es antipsicótico y no tiene rol en mantenimiento de adicción a opioides; podría usarse en casos de psicosis comórbida. El ácido valproico es estabilizador del ánimo en trastorno bipolar y no aplica al trastorno por uso de opioides. La metadona y, alternativamente, la buprenorfina son los agonistas de elección en mantenimiento de adicción a opioides.",
+      "tema": "Trastorno por uso de opioides: metadona",
+      "año": 2026
+    },
+    {
+      "id": "PSI-045",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Varón de 40 años, inicia hace pocas horas desviación dolorosa e involuntaria del cuello hacia un lado, con limitación marcada del movimiento cervical. Tres días antes empezó tratamiento con haloperidol por alucinaciones auditivas y delirio persecutorio. Examen: afebril, consciente y sin compromiso de la vía aérea, con desviación dolorosa e involuntaria del cuello y de los ojos hacia arriba, dificultad para hablar por protrusión de la lengua y gran ansiedad. ¿Cuál es el tratamiento farmacológico de primera elección para este cuadro?",
+      "opciones": [
+        "Clonazepam",
+        "Levodopa",
+        "Orfenadrina",
+        "Biperideno"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro es inconfundible una vez que unes el fármaco con los signos. Empezó haloperidol hace tres días, un neuroléptico potente, y ahora tiene el cuello torcido de forma dolorosa e involuntaria, los ojos desviados hacia arriba y la lengua protruyendo con dificultad para hablar. Esa tríada de tortícolis, crisis oculógira y afectación de la lengua es una distonía aguda, una reacción extrapiramidal precoz que aparece porque el bloqueo brusco de la dopamina deja al sistema colinérgico del cerebro sin contrapeso, y ese exceso relativo de acetilcolina desencadena las contracciones distónicas. La lógica del tratamiento se cae por su propio peso: si el problema es un predominio colinérgico, la solución es un anticolinérgico que restablezca el equilibrio, y el de elección para esto es el biperideno, que corta la distonía en minutos. La levodopa hace lo contrario de lo necesario en salud mental: aporta más dopamina y en un paciente psicótico puede reactivar las alucinaciones y el delirio, así que no se usa aquí. El clonazepam es una benzodiacepina que puede servir como coadyuvante para la ansiedad o en distonías refractarias, pero no es el tratamiento de primera línea porque no corrige el desequilibrio dopamina-acetilcolina que causa el cuadro. La orfenadrina también tiene acción anticolinérgica, pero el fármaco de primera elección disponible y estandarizado para la distonía aguda por neurolépticos es el biperideno. Tortícolis + crisis oculógira + protrusión lingual poco después de iniciar haloperidol = distonía aguda por bloqueo dopaminérgico con predominio colinérgico. Se trata con un anticolinérgico, el biperideno, de primera elección; la levodopa reactivaría la psicosis.",
+      "comentario": "El cuadro es inconfundible una vez que unes el fármaco con los signos. Empezó haloperidol hace tres días, un neuroléptico potente, y ahora tiene el cuello torcido de forma dolorosa e involuntaria, los ojos desviados hacia arriba y la lengua protruyendo con dificultad para hablar. Esa tríada de tortícolis, crisis oculógira y afectación de la lengua es una distonía aguda, una reacción extrapiramidal precoz que aparece porque el bloqueo brusco de la dopamina deja al sistema colinérgico del cerebro sin contrapeso, y ese exceso relativo de acetilcolina desencadena las contracciones distónicas. La lógica del tratamiento se cae por su propio peso: si el problema es un predominio colinérgico, la solución es un anticolinérgico que restablezca el equilibrio, y el de elección para esto es el biperideno, que corta la distonía en minutos. La levodopa hace lo contrario de lo necesario en salud mental: aporta más dopamina y en un paciente psicótico puede reactivar las alucinaciones y el delirio, así que no se usa aquí. El clonazepam es una benzodiacepina que puede servir como coadyuvante para la ansiedad o en distonías refractarias, pero no es el tratamiento de primera línea porque no corrige el desequilibrio dopamina-acetilcolina que causa el cuadro. La orfenadrina también tiene acción anticolinérgica, pero el fármaco de primera elección disponible y estandarizado para la distonía aguda por neurolépticos es el biperideno. Tortícolis + crisis oculógira + protrusión lingual poco después de iniciar haloperidol = distonía aguda por bloqueo dopaminérgico con predominio colinérgico. Se trata con un anticolinérgico, el biperideno, de primera elección; la levodopa reactivaría la psicosis.",
+      "tema": "Distonía aguda por haloperidol: biperideno",
+      "año": 2026
     }
   ]
 }

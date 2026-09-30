@@ -9697,6 +9697,348 @@
       "tema": "Geohelmintiasis: ascariasis, trichuriasis y uncinariasis",
       "categoria": "Microbiología e Inmunología",
       "año": 2019
+    },
+    {
+      "id": "CB-486",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Mujer de 35 años es encontrada inconsciente en la habitación de un hotel que se estaba incendiando. Los bomberos detectan niveles elevados de monóxido de carbono en el ambiente. A su llegada al servicio de emergencia, la paciente está comatosa (Glasgow 6), hemodinámicamente estable con una PaO₂ de 98 mmHg. Se le asegura la vía aérea con intubación más oxigeno suplementario al 100% sin mejoría clínica. ¿Cuál es la siguiente intervención terapéutica a considerar en este momento?",
+      "opciones": [
+        "Traslado urgente a una cámara de oxigeno hiperbárico",
+        "Administrar hidroxocobalamina por EV",
+        "Iniciar un bolo EV de N-acetilcisteína",
+        "Comenzar una infusión EV de bicarbonato de sodio"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En un incendio en espacio cerrado, la víctima inhala simultáneamente monóxido de carbono y cianuro (proveniente de la combustión de plásticos, lana y materiales sintéticos). El criterio clínico clave para sospechar intoxicación por cianuro mixta con CO es justamente la falta de mejoría neurológica pese a oxígeno al 100%, ya que el CO sí responde parcialmente a oxigenoterapia mientras que el cianuro bloquea la citocromo oxidasa mitocondrial y mantiene el bloqueo respiratorio celular pese a oxígeno alveolar normal. La hidroxocobalamina es el antídoto de elección cuando se sospecha cianuro porque se une formando cianocobalamina eliminable por orina, y a diferencia de los nitritos no compromete la capacidad transportadora del CO en pacientes con coexposición. La hidroxocobalamina debe administrarse empíricamente ante el cuadro clínico clásico (incendio cerrado + coma + sin mejoría con FiO2 100%), idealmente con apoyo de lactato sérico mayor de 8-10 mmol/L y acidosis metabólica con anión gap elevado, marcadores que refuerzan la sospecha. El oxígeno hiperbárico es útil para CO aislado con síntomas neurológicos severos y disponibilidad inmediata, pero ante coexposición con cianuro la prioridad es neutralizar el cianuro. La N-acetilcisteína es antídoto del paracetamol, no del humo. El bicarbonato puede usarse como adyuvante en acidosis láctica grave pero no es la intervención específica para revertir el bloqueo mitocondrial del cianuro.",
+      "comentario": "En un incendio en espacio cerrado, la víctima inhala simultáneamente monóxido de carbono y cianuro (proveniente de la combustión de plásticos, lana y materiales sintéticos). El criterio clínico clave para sospechar intoxicación por cianuro mixta con CO es justamente la falta de mejoría neurológica pese a oxígeno al 100%, ya que el CO sí responde parcialmente a oxigenoterapia mientras que el cianuro bloquea la citocromo oxidasa mitocondrial y mantiene el bloqueo respiratorio celular pese a oxígeno alveolar normal. La hidroxocobalamina es el antídoto de elección cuando se sospecha cianuro porque se une formando cianocobalamina eliminable por orina, y a diferencia de los nitritos no compromete la capacidad transportadora del CO en pacientes con coexposición. La hidroxocobalamina debe administrarse empíricamente ante el cuadro clínico clásico (incendio cerrado + coma + sin mejoría con FiO2 100%), idealmente con apoyo de lactato sérico mayor de 8-10 mmol/L y acidosis metabólica con anión gap elevado, marcadores que refuerzan la sospecha. El oxígeno hiperbárico es útil para CO aislado con síntomas neurológicos severos y disponibilidad inmediata, pero ante coexposición con cianuro la prioridad es neutralizar el cianuro. La N-acetilcisteína es antídoto del paracetamol, no del humo. El bicarbonato puede usarse como adyuvante en acidosis láctica grave pero no es la intervención específica para revertir el bloqueo mitocondrial del cianuro.",
+      "tema": "Intoxicación por cianuro en incendio: hidroxocobalamina",
+      "año": 2026
+    },
+    {
+      "id": "CB-487",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "En el tratamiento de la dislipidemia mixta, el riesgo de rabdomiólisis aumenta cuando se asocia estatinas con:",
+      "opciones": [
+        "Fenofibratos",
+        "Ácidos omega 3",
+        "Ezetimiba",
+        "Etilo de icosapento"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La asociación de estatinas con fibratos eleva el riesgo de rabdomiólisis por interferencia en el metabolismo hepático y muscular, y entre los fibratos disponibles los fenofibratos comparten esa interacción aunque con menor intensidad que el gemfibrozilo, ya retirado de prácticamente todas las guías por su perfil de toxicidad muscular en combinación con estatinas. La dislipidemia mixta con triglicéridos altos a veces requiere combinar estatina con fibrato cuando la monoterapia no controla, y en ese escenario la elección preferente es fenofibrato porque tiene menor inhibición de la glucuronidación de las estatinas, pero el riesgo de miopatía y rabdomiólisis persiste y obliga a vigilancia clínica y de CK. Los ácidos omega 3 (incluyendo el etilo de icosapento) reducen triglicéridos sin aumentar riesgo de rabdomiólisis con estatinas, por eso se prefieren cuando el paciente ya recibe estatina y necesita reducción adicional de TG. La ezetimiba, inhibidor de la absorción intestinal de colesterol, también combina seguro con estatinas y se usa en pacientes que no alcanzan meta de LDL con dosis máximas toleradas, El paciente que toma estatina más fenofibrato debe ser educado en signos de alarma muscular (mialgias, debilidad, orina oscura) y monitorizado con CK ante síntomas, sobre todo si hay falla renal o edad avanzada.",
+      "comentario": "La asociación de estatinas con fibratos eleva el riesgo de rabdomiólisis por interferencia en el metabolismo hepático y muscular, y entre los fibratos disponibles los fenofibratos comparten esa interacción aunque con menor intensidad que el gemfibrozilo, ya retirado de prácticamente todas las guías por su perfil de toxicidad muscular en combinación con estatinas. La dislipidemia mixta con triglicéridos altos a veces requiere combinar estatina con fibrato cuando la monoterapia no controla, y en ese escenario la elección preferente es fenofibrato porque tiene menor inhibición de la glucuronidación de las estatinas, pero el riesgo de miopatía y rabdomiólisis persiste y obliga a vigilancia clínica y de CK. Los ácidos omega 3 (incluyendo el etilo de icosapento) reducen triglicéridos sin aumentar riesgo de rabdomiólisis con estatinas, por eso se prefieren cuando el paciente ya recibe estatina y necesita reducción adicional de TG. La ezetimiba, inhibidor de la absorción intestinal de colesterol, también combina seguro con estatinas y se usa en pacientes que no alcanzan meta de LDL con dosis máximas toleradas, El paciente que toma estatina más fenofibrato debe ser educado en signos de alarma muscular (mialgias, debilidad, orina oscura) y monitorizado con CK ante síntomas, sobre todo si hay falla renal o edad avanzada.",
+      "tema": "Estatinas y fibratos: riesgo de rabdomiólisis",
+      "año": 2026
+    },
+    {
+      "id": "CB-488",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Niño de 6 años acude a emergencia 30 horas después de una mordedura de araña en muslo derecho. Presenta dolor intenso y progresivo en la zona. Examen: FC 130 x', PA 85/50 mmHg, hepatomegalia de 3 cm, ictericia leve y lesión cutánea violáceo-necrótica de 10 cm de diámetro con borde eritematoso. ¿Cuál es la conducta inicial más adecuada?",
+      "opciones": [
+        "Iniciar corticoides sistémicos como única medida terapéutica",
+        "Indicar manejo local con antibióticos tópicos",
+        "Administrar suero antiloxoscélico, hidratación endovenosa",
+        "Realizar desbridamiento quirúrgico de la lesión cutánea"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Lo que delata el diagnóstico: loxoscelismo cutáneo-visceral forma grave de la mordedura por Loxosceles laeta (araña marrón o de los rincones), endémica en el Perú. La presentación combina lesión necrótica en escarapela con borde eritematoso (signo característico) y compromiso sistémico con hemólisis intravascular masiva (ictericia, hepatomegalia, hipotensión, taquicardia). Constituye una emergencia médica que requiere administración inmediata de suero antiloxoscélico endovenoso, hidratación con cristaloides para mantener perfusión renal y prevenir falla por hemoglobinuria, y soporte transfusional según necesidad, Los corticoides sistémicos pueden tener un rol adyuvante en loxoscelismo, pero administrarlos como única medida terapéutica deja al paciente sin neutralización del veneno y sin reanimación adecuada. El manejo local con antibióticos tópicos no actúa sobre la fisiopatología, ya que la necrosis es por daño tóxico directo del veneno (esfingomielinasa D) y la activación del complemento, no por infección bacteriana primaria. El desbridamiento quirúrgico precoz está contraindicado en las primeras 72 horas porque amplifica la respuesta inflamatoria y el daño tisular; se realiza tardíamente cuando la zona necrótica está bien delimitada. Suero antiloxoscélico y reanimación son la conducta correcta.",
+      "comentario": "Lo que delata el diagnóstico: loxoscelismo cutáneo-visceral forma grave de la mordedura por Loxosceles laeta (araña marrón o de los rincones), endémica en el Perú. La presentación combina lesión necrótica en escarapela con borde eritematoso (signo característico) y compromiso sistémico con hemólisis intravascular masiva (ictericia, hepatomegalia, hipotensión, taquicardia). Constituye una emergencia médica que requiere administración inmediata de suero antiloxoscélico endovenoso, hidratación con cristaloides para mantener perfusión renal y prevenir falla por hemoglobinuria, y soporte transfusional según necesidad, Los corticoides sistémicos pueden tener un rol adyuvante en loxoscelismo, pero administrarlos como única medida terapéutica deja al paciente sin neutralización del veneno y sin reanimación adecuada. El manejo local con antibióticos tópicos no actúa sobre la fisiopatología, ya que la necrosis es por daño tóxico directo del veneno (esfingomielinasa D) y la activación del complemento, no por infección bacteriana primaria. El desbridamiento quirúrgico precoz está contraindicado en las primeras 72 horas porque amplifica la respuesta inflamatoria y el daño tisular; se realiza tardíamente cuando la zona necrótica está bien delimitada. Suero antiloxoscélico y reanimación son la conducta correcta.",
+      "tema": "Loxoscelismo cutáneo-visceral: suero antiloxoscélico",
+      "año": 2026
+    },
+    {
+      "id": "CB-489",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Anatomía",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Varón de 55 años, fumador crónico, acude para una Rx de tórax como parte de un chequeo de salud. En la radiografía postero anterior y lateral se observa una dilatación fusiforme de la aorta torácica descendente, proyectada por delante de los cuerpos vertebrales, sin compromiso del corazón ni de la tráquea. Con base en la localización anatómica del hallazgo, ¿cuál de las siguientes estructuras es más probable que se encuentre en el mismo compartimiento mediastínico que la arteria afectada?",
+      "opciones": [
+        "Vena cava superior",
+        "Esófago torácico",
+        "Nervio frénico derecho",
+        "Tronco pulmonar"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La aorta torácica descendente se ubica en el mediastino posterior, compartimiento delimitado anteriormente por el pericardio, posteriormente por los cuerpos vertebrales (15-112), e inferiormente por el diafragma. Las estructuras propias del mediastino posterior son la aorta torácica descendente, el esófago torácico, la vena ácigos y la hemiácigos, los conductos torácicos, el sistema nervioso simpático torácico y los nervios esplácnicos. Por lo tanto, el esófago torácico es la estructura que comparte compartimiento con la aorta descendente. la vena cava superior se ubica en el mediastino superior y medio, junto con el corazón y la aorta ascendente, no en el posterior. El nervio frénico derecho recorre el mediastino medio, descendiendo lateral al pericardio y al hilio pulmonar, sin entrar al posterior. El tronco pulmonar emerge del ventrículo derecho y se ubica en el mediastino medio, también separado del posterior. Diferenciar los compartimientos mediastínicos (anterior, medio, posterior, superior) es competencia básica para interpretar imágenes y localizar lesiones torácicas.",
+      "comentario": "La aorta torácica descendente se ubica en el mediastino posterior, compartimiento delimitado anteriormente por el pericardio, posteriormente por los cuerpos vertebrales (15-112), e inferiormente por el diafragma. Las estructuras propias del mediastino posterior son la aorta torácica descendente, el esófago torácico, la vena ácigos y la hemiácigos, los conductos torácicos, el sistema nervioso simpático torácico y los nervios esplácnicos. Por lo tanto, el esófago torácico es la estructura que comparte compartimiento con la aorta descendente. la vena cava superior se ubica en el mediastino superior y medio, junto con el corazón y la aorta ascendente, no en el posterior. El nervio frénico derecho recorre el mediastino medio, descendiendo lateral al pericardio y al hilio pulmonar, sin entrar al posterior. El tronco pulmonar emerge del ventrículo derecho y se ubica en el mediastino medio, también separado del posterior. Diferenciar los compartimientos mediastínicos (anterior, medio, posterior, superior) es competencia básica para interpretar imágenes y localizar lesiones torácicas.",
+      "tema": "Mediastino posterior: aorta descendente y esófago",
+      "año": 2026
+    },
+    {
+      "id": "CB-490",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Anatomía",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "En un hospital de referencia, se reporta un aumento de casos de disfonía persistente posterior a tiroidectomía total, con parálisis unilateral de pliegue vocal verdadero. El comité de calidad identifica como causa probable la lesión de un nervio durante la disección quirúrgica del cuello. Desde el punto de vista anatómico y funcional, ¿cuál de los siguientes nervios explica mejor la parálisis del pliegue vocal verdadero?",
+      "opciones": [
+        "Laríngeo superior (rama externa)",
+        "Laríngeo recurrente",
+        "Glosofaríngeo (IX)",
+        "Tronco Simpático cervical"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El nervio laríngeo recurrente, rama del vago (X), inerva todos los músculos intrínsecos de la laringe excepto el cricotiroideo. Su lesión durante la tiroidectomía produce parálisis del pliegue vocal verdadero ipsilateral con disfonía persistente, voz bitonal o, si es bilateral, compromiso de la vía aérea con estridor, El nervio recorre el surco traqueoesofágico y mantiene relación íntima con la cápsula tiroidea posterior y la arteria tiroidea inferior, por lo que es el más vulnerable en la cirugía tiroidea, sobre todo en tiroidectomías totales por bocio multinodular o cáncer. La rama externa del laríngeo superior inerva al músculo cricotiroideo, su lesión produce dificultad para los tonos altos y voz monótona pero no parálisis del pliegue vocal verdadero. El nervio glosofaríngeo (IX) inerva la musculatura faríngea, la mucosa orofaríngea y la base de la lengua, sin relación con la motricidad del pliegue vocal verdadero. El tronco simpático cervical contribuye con fibras autonómicas a estructuras cervicales pero no inerva los músculos intrínsecos laríngeos. Disfonía + parálisis de cuerda vocal posterior a tiroidectomía = lesión del nervio laríngeo recurrente.",
+      "comentario": "El nervio laríngeo recurrente, rama del vago (X), inerva todos los músculos intrínsecos de la laringe excepto el cricotiroideo. Su lesión durante la tiroidectomía produce parálisis del pliegue vocal verdadero ipsilateral con disfonía persistente, voz bitonal o, si es bilateral, compromiso de la vía aérea con estridor, El nervio recorre el surco traqueoesofágico y mantiene relación íntima con la cápsula tiroidea posterior y la arteria tiroidea inferior, por lo que es el más vulnerable en la cirugía tiroidea, sobre todo en tiroidectomías totales por bocio multinodular o cáncer. La rama externa del laríngeo superior inerva al músculo cricotiroideo, su lesión produce dificultad para los tonos altos y voz monótona pero no parálisis del pliegue vocal verdadero. El nervio glosofaríngeo (IX) inerva la musculatura faríngea, la mucosa orofaríngea y la base de la lengua, sin relación con la motricidad del pliegue vocal verdadero. El tronco simpático cervical contribuye con fibras autonómicas a estructuras cervicales pero no inerva los músculos intrínsecos laríngeos. Disfonía + parálisis de cuerda vocal posterior a tiroidectomía = lesión del nervio laríngeo recurrente.",
+      "tema": "Nervio laríngeo recurrente y parálisis de la cuerda vocal",
+      "año": 2026
+    },
+    {
+      "id": "CB-491",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Anatomía",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Varón de 35 años se somete a la extracción quirúrgica de un tercer molar inferior incluido. Días después, refiere pérdida de la sensibilidad al tacto, dolor y temperatura en los dos tercios anteriores de la lengua del mismo lado, conserva la percepción del sabor en esa zona. Considerando la neuroanatomía de la lengua. ¿Qué nervio probablemente sea el lesionado?",
+      "opciones": [
+        "Nervio lingual (rama del nervio mandibular, V3)",
+        "Nervio glosofaríngeo (IX)",
+        "Cuerda del tímpano (rama del nervio facial, VII)",
+        "Nervio hipogloso (XII)"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El nervio lingual, rama del nervio mandibular (V3), proporciona la sensibilidad general (tacto, dolor, temperatura) de los dos tercios anteriores de la lengua, mientras que la sensibilidad gustativa de esa misma región es transportada por la cuerda del tímpano (rama del facial VI), que viaja unida al nervio lingual pero es funcionalmente independiente. La extracción del tercer molar inferior (M3 incluido) puede dañar el nervio lingual por su trayecto cercano a la cara lingual del alvéolo, generando hipoestesia táctil y térmica con preservación del gusto, escenario que encaja exactamente con este caso. El nervio glosofaríngeo (IX) inerva el tercio posterior de la lengua tanto en sensibilidad general como en gusto, no aplica al territorio anterior afectado. La cuerda del tímpano (rama del VII) lleva el gusto de los dos tercios anteriores: si esta hubiera sido la lesionada, se perdería el sabor pero no la sensibilidad táctil; aquí ocurre lo opuesto, lo cual descarta. El nervio hipogloso (XII) es motor puro y produce parálisis de la motilidad lingual con desviación al lado lesionado, no compromete la sensibilidad. Sensibilidad general perdida + gusto conservado en 2/3 anteriores = nervio lingual.",
+      "comentario": "El nervio lingual, rama del nervio mandibular (V3), proporciona la sensibilidad general (tacto, dolor, temperatura) de los dos tercios anteriores de la lengua, mientras que la sensibilidad gustativa de esa misma región es transportada por la cuerda del tímpano (rama del facial VI), que viaja unida al nervio lingual pero es funcionalmente independiente. La extracción del tercer molar inferior (M3 incluido) puede dañar el nervio lingual por su trayecto cercano a la cara lingual del alvéolo, generando hipoestesia táctil y térmica con preservación del gusto, escenario que encaja exactamente con este caso. El nervio glosofaríngeo (IX) inerva el tercio posterior de la lengua tanto en sensibilidad general como en gusto, no aplica al territorio anterior afectado. La cuerda del tímpano (rama del VII) lleva el gusto de los dos tercios anteriores: si esta hubiera sido la lesionada, se perdería el sabor pero no la sensibilidad táctil; aquí ocurre lo opuesto, lo cual descarta. El nervio hipogloso (XII) es motor puro y produce parálisis de la motilidad lingual con desviación al lado lesionado, no compromete la sensibilidad. Sensibilidad general perdida + gusto conservado en 2/3 anteriores = nervio lingual.",
+      "tema": "Nervio lingual: sensibilidad general de la lengua",
+      "año": 2026
+    },
+    {
+      "id": "CB-492",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "En un hospital regional, una mujer de 45 años con antecedente de depresión tratada con amitriptilina es llevada a emergencia, 3 horas después de ingerir intencionalmente 30 tabletas de 75 mg cada una. Al ingreso: PA 80/40 mmHg, FC 135 x', FR 24 x', T 36,5 °C, Glasgow 9, pupilas midriáticas y piel seca. EKG: QRS 140 ms y QT prolongado. Laboratorio: pH 7,25, HCO3- 18 mEq/L y potasio 3,7 mEq/L. Tras asegurar la vía aérea y administrar cristaloides sin mejoría significativa, se decide iniciar tratamiento farmacológico, ¿Cuál es la intervención farmacológica más adecuada?",
+      "opciones": [
+        "Bicarbonato de sodio EV en bolos titulados hasta lograr pH 7,45 - 7,55",
+        "Fisostigmina intravenosa para revertir el síndrome anticolinérgico central",
+        "Gluconato de calcio intravenoso para estabilizar la membrana miocárdica",
+        "Antagonista H2 intravenoso para disminuir la absorción gastrointestinal del fármaco"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En intoxicación por antidepresivos tricíclicos como amitriptilina, el QRS mayor de 100 ms en el ECG es marcador de toxicidad por bloqueo de canales rápidos de sodio cardiacos, con riesgo elevado de arritmias ventriculares y paro cardíaco. El tratamiento de elección es bicarbonato de sodio endovenoso en bolos titulados (1-2 mEq/kg) para alcalinizar el plasma a pH 745-755, con dos efectos terapéuticos sinérgicos: alcalinización plasmática reduce la fracción de fármaco libre y desplaza la unión a canales de sodio cardiacos, y sobrecarga de sodio compite con el bloqueo y restaura la conducción ventricular, La fisostigmina puede revertir síntomas anticolinérgicos centrales pero está contraindicada en intoxicación por tricíclicos porque puede precipitar convulsiones, asistolia y arritmias graves, El gluconato de calcio se usa en hiperkalemia o intoxicación por bloqueadores de canales de calcio, no para tricíclicos donde el problema es bloqueo de sodio. Los antagonistas H2 no aceleran la eliminación ni revierten la cardiotoxicidad de los tricíclicos. El bicarbonato de sodio es la terapia específica con mayor evidencia y debe iniciarse de inmediato cuando el QRS supera los 100 ms.",
+      "comentario": "En intoxicación por antidepresivos tricíclicos como amitriptilina, el QRS mayor de 100 ms en el ECG es marcador de toxicidad por bloqueo de canales rápidos de sodio cardiacos, con riesgo elevado de arritmias ventriculares y paro cardíaco. El tratamiento de elección es bicarbonato de sodio endovenoso en bolos titulados (1-2 mEq/kg) para alcalinizar el plasma a pH 745-755, con dos efectos terapéuticos sinérgicos: alcalinización plasmática reduce la fracción de fármaco libre y desplaza la unión a canales de sodio cardiacos, y sobrecarga de sodio compite con el bloqueo y restaura la conducción ventricular, La fisostigmina puede revertir síntomas anticolinérgicos centrales pero está contraindicada en intoxicación por tricíclicos porque puede precipitar convulsiones, asistolia y arritmias graves, El gluconato de calcio se usa en hiperkalemia o intoxicación por bloqueadores de canales de calcio, no para tricíclicos donde el problema es bloqueo de sodio. Los antagonistas H2 no aceleran la eliminación ni revierten la cardiotoxicidad de los tricíclicos. El bicarbonato de sodio es la terapia específica con mayor evidencia y debe iniciarse de inmediato cuando el QRS supera los 100 ms.",
+      "tema": "Intoxicación por antidepresivos tricíclicos: bicarbonato de sodio",
+      "año": 2026
+    },
+    {
+      "id": "CB-493",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Varón de 45 años, con antecedente de enfermedad por reflujo gastroesofágico, consulta por pirosis intensa de varios meses de duración. Ha usado antiácidos de venta libre con alivio parcial. El médico decide iniciar un tratamiento que inhiba específicamente la bomba H+/K+-ATPasa de las células responsables de la secreción de ácido clorhídrico en el cuerpo gástrico. ¿Sobre qué tipo de células actúa principalmente el fármaco prescrito para lograr este efecto?",
+      "opciones": [
+        "Mucosas superficiales del epitelio gástrico",
+        "Parietales (oxínticas) de las glándulas del cuerpo gástrico",
+        "G del antro gástrico",
+        "Principales (zimógenas) de las glándulas gástricas"
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los inhibidores de la bomba de protones (omeprazol, pantoprazol, esomeprazol, etc.) actúan específicamente sobre la bomba H+/K+-ATPasa localizada en las células parietales (oxínticas) de las glándulas del cuerpo gástrico. Estas células son las responsables exclusivas de la secreción del ácido clorhídrico (HCl) gástrico mediante el intercambio activo de protones por potasio en su membrana apical. El bloqueo irreversible de la bomba H+/K+-ATPasa por los IBP reduce drásticamente la producción de ácido y permite la cicatrización de la mucosa esofágica en ERGE. Las células mucosas superficiales del epitelio gástrico secretan moco protector, no ácido; los IBP no actúan sobre ellas. Las células G del antro gástrico secretan gastrina, que estimula a las parietales pero no producen ácido; los IBP no las afectan en su función endocrina, aunque secundariamente la gastrina puede aumentar por feedback. Las células principales (zimógenas) producen pepsinógeno, precursor de la pepsina, no ácido clorhídrico. La bomba H+/K+-ATPasa es marca registrada de las células parietales del cuerpo gástrico.",
+      "comentario": "Los inhibidores de la bomba de protones (omeprazol, pantoprazol, esomeprazol, etc.) actúan específicamente sobre la bomba H+/K+-ATPasa localizada en las células parietales (oxínticas) de las glándulas del cuerpo gástrico. Estas células son las responsables exclusivas de la secreción del ácido clorhídrico (HCl) gástrico mediante el intercambio activo de protones por potasio en su membrana apical. El bloqueo irreversible de la bomba H+/K+-ATPasa por los IBP reduce drásticamente la producción de ácido y permite la cicatrización de la mucosa esofágica en ERGE. Las células mucosas superficiales del epitelio gástrico secretan moco protector, no ácido; los IBP no actúan sobre ellas. Las células G del antro gástrico secretan gastrina, que estimula a las parietales pero no producen ácido; los IBP no las afectan en su función endocrina, aunque secundariamente la gastrina puede aumentar por feedback. Las células principales (zimógenas) producen pepsinógeno, precursor de la pepsina, no ácido clorhídrico. La bomba H+/K+-ATPasa es marca registrada de las células parietales del cuerpo gástrico.",
+      "tema": "Inhibidores de la bomba de protones: células parietales",
+      "año": 2026
+    },
+    {
+      "id": "CB-494",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Patología general",
+      "examen_origen": "ENAM Extraordinario 2026 · pregunta oficial",
+      "enunciado": "Varón de 58 años, con diabetes mellitus tipo 2 mal controlada (HbA1c 9,5%), es sometido a apendicectomía abierta. A las 36 horas de la cirugía, el examen de la herida muestra bordes algo edematosos, eritema leve y exudado serohemático escaso, sin signos de colección purulenta ni dehiscencia. A nivel histológico ¿en qué fase de la cicatrización se encuentra predominantemente la herida quirúrgica de este paciente?",
+      "opciones": [
+        "Inflamatoria temprana",
+        "Remodelación de la matriz extracelular",
+        "Epitelización avanzada",
+        "Fibroblástica (proliferativa)"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "A las 36 horas de una herida quirúrgica, la cicatrización se encuentra predominantemente en la fase inflamatoria temprana, también llamada fase exudativa, que abarca aproximadamente del día 0 al día 3 postlesión. Esta fase se caracteriza por vasodilatación local, aumento de la permeabilidad capilar, exudado serohemático con migración de neutrófilos y luego macrófagos, y los signos clínicos descritos: bordes edematosos, eritema leve y exudado escaso. El paciente diabético mal controlado puede tener prolongación o alteración de esta fase por defecto en la quimiotaxis y fagocitosis. La fase de remodelación de la matriz extracelular ocurre desde el día 21 hasta meses después, donde el colágeno tipo III es reemplazado progresivamente por colágeno tipo I y la cicatriz adquiere su resistencia tensil definitiva, escenario muy posterior al actual. La epitelización avanzada se produce desde el día 4-5 hacia adelante, con cobertura del defecto cutáneo, y aún no se ha alcanzado a las 36 horas. La fase fibroblástica o proliferativa ocurre del día 3 al 21, con formación de tejido de granulación, depósito de colágeno III y angiogénesis, también posterior al momento actual. 36 horas = fase inflamatoria temprana.",
+      "comentario": "A las 36 horas de una herida quirúrgica, la cicatrización se encuentra predominantemente en la fase inflamatoria temprana, también llamada fase exudativa, que abarca aproximadamente del día 0 al día 3 postlesión. Esta fase se caracteriza por vasodilatación local, aumento de la permeabilidad capilar, exudado serohemático con migración de neutrófilos y luego macrófagos, y los signos clínicos descritos: bordes edematosos, eritema leve y exudado escaso. El paciente diabético mal controlado puede tener prolongación o alteración de esta fase por defecto en la quimiotaxis y fagocitosis. La fase de remodelación de la matriz extracelular ocurre desde el día 21 hasta meses después, donde el colágeno tipo III es reemplazado progresivamente por colágeno tipo I y la cicatriz adquiere su resistencia tensil definitiva, escenario muy posterior al actual. La epitelización avanzada se produce desde el día 4-5 hacia adelante, con cobertura del defecto cutáneo, y aún no se ha alcanzado a las 36 horas. La fase fibroblástica o proliferativa ocurre del día 3 al 21, con formación de tejido de granulación, depósito de colágeno III y angiogénesis, también posterior al momento actual. 36 horas = fase inflamatoria temprana.",
+      "tema": "Fases de la cicatrización: fase inflamatoria",
+      "año": 2026
+    },
+    {
+      "id": "CB-495",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Bioquímica y Genética",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Varón de 25 años, maratonista aficionado, realiza una carrera de alta intensidad sin calentamiento previo. A los minutos presenta dolor intenso y calambres en las pantorrillas, con gemelos muy contraídos y dolorosos a la palpación, que le impiden continuar el ejercicio. Desde el punto de vista bioquímico, ¿qué fenómeno se produce en este cuadro?",
+      "opciones": [
+        "Disminución de piruvato",
+        "Disminución de malonato",
+        "Acumulación de oxalacetato",
+        "Incremento de producción de lactato"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El músculo en ejercicio de alta intensidad consume oxígeno más rápido de lo que la circulación puede reponerlo, así que la mitocondria se queda corta y la célula tiene que seguir sacando ATP por la vía rápida: la glucólisis anaeróbica. El problema es que esa vía necesita reciclar NAD+ para no frenarse, y la única forma de regenerarlo sin oxígeno es que la lactato deshidrogenasa tome el piruvato y lo convierta en lactato. Por eso, cuando el gemelo trabaja al límite sin haber calentado, el piruvato no baja: al contrario, se desvía masivamente hacia lactato, que se acumula, baja el pH intracelular y dispara el calambre doloroso. Que el piruvato disminuya no encaja porque justamente la glucólisis acelerada lo está produciendo en exceso; lo que cambia es su destino, no su cantidad. El malonato no es un metabolito que se mueva con el ejercicio: es un inhibidor de la succinato deshidrogenasa que se usa en el laboratorio, no algo que el músculo acumule al correr. El oxalacetato tampoco se acumula porque pertenece al ciclo de Krebs, que precisamente está frenado por falta de oxígeno, no sobrecargado. Ejercicio intenso sin oxígeno suficiente = glucólisis anaeróbica que regenera NAD+ convirtiendo piruvato en lactato. El calambre por acidosis láctica no baja el piruvato, incrementa el lactato.",
+      "comentario": "El músculo en ejercicio de alta intensidad consume oxígeno más rápido de lo que la circulación puede reponerlo, así que la mitocondria se queda corta y la célula tiene que seguir sacando ATP por la vía rápida: la glucólisis anaeróbica. El problema es que esa vía necesita reciclar NAD+ para no frenarse, y la única forma de regenerarlo sin oxígeno es que la lactato deshidrogenasa tome el piruvato y lo convierta en lactato. Por eso, cuando el gemelo trabaja al límite sin haber calentado, el piruvato no baja: al contrario, se desvía masivamente hacia lactato, que se acumula, baja el pH intracelular y dispara el calambre doloroso. Que el piruvato disminuya no encaja porque justamente la glucólisis acelerada lo está produciendo en exceso; lo que cambia es su destino, no su cantidad. El malonato no es un metabolito que se mueva con el ejercicio: es un inhibidor de la succinato deshidrogenasa que se usa en el laboratorio, no algo que el músculo acumule al correr. El oxalacetato tampoco se acumula porque pertenece al ciclo de Krebs, que precisamente está frenado por falta de oxígeno, no sobrecargado. Ejercicio intenso sin oxígeno suficiente = glucólisis anaeróbica que regenera NAD+ convirtiendo piruvato en lactato. El calambre por acidosis láctica no baja el piruvato, incrementa el lactato.",
+      "tema": "Glucólisis anaeróbica en el ejercicio intenso: lactato",
+      "año": 2026
+    },
+    {
+      "id": "CB-496",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Los anestésicos locales inyectados accidentalmente en el torrente sanguíneo pueden producir colapso cardiovascular. ¿Cuál de los siguientes anestésicos presenta las complicaciones cardiovasculares más severas?",
+      "opciones": [
+        "Bupivacaína",
+        "Levocaína",
+        "Ropivacaína",
+        "Lidocaína"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La clave está en cuál de estos anestésicos se queda pegado más tiempo al canal de sodio del corazón, porque de eso depende su toxicidad cardiaca. La bupivacaína es la más liposoluble y la que se une con más fuerza y se suelta más lento de esos canales, así que cuando llega en exceso a la sangre bloquea la conducción cardiaca de forma prolongada y produce arritmias graves y colapso que son notoriamente difíciles de revertir, incluso resistentes a la reanimación habitual. Por eso es el anestésico local con la cardiotoxicidad más severa y el que más respeto exige al calcular dosis y al aspirar antes de inyectar. La lidocaína también es cardiotóxica si se sobredosifica, pero se une y se suelta rápido del canal, así que su toxicidad es más manejable y de hecho a dosis controladas se usa como antiarrítmico. La ropivacaína se diseñó precisamente para conservar la potencia anestésica de la bupivacaína pero con menor afinidad cardiaca, de modo que es bastante menos cardiotóxica. La levocaína no es un anestésico local de uso reconocido en este grupo, así que no compite como opción; el patrón de cardiotoxicidad severa lo define la bupivacaína. El anestésico local más cardiotóxico es la bupivacaína: se une fuerte y se suelta lento del canal de sodio cardiaco, produciendo colapso difícil de revertir. La ropivacaína nació para ser menos cardiotóxica y la lidocaína se suelta rápido del canal.",
+      "comentario": "La clave está en cuál de estos anestésicos se queda pegado más tiempo al canal de sodio del corazón, porque de eso depende su toxicidad cardiaca. La bupivacaína es la más liposoluble y la que se une con más fuerza y se suelta más lento de esos canales, así que cuando llega en exceso a la sangre bloquea la conducción cardiaca de forma prolongada y produce arritmias graves y colapso que son notoriamente difíciles de revertir, incluso resistentes a la reanimación habitual. Por eso es el anestésico local con la cardiotoxicidad más severa y el que más respeto exige al calcular dosis y al aspirar antes de inyectar. La lidocaína también es cardiotóxica si se sobredosifica, pero se une y se suelta rápido del canal, así que su toxicidad es más manejable y de hecho a dosis controladas se usa como antiarrítmico. La ropivacaína se diseñó precisamente para conservar la potencia anestésica de la bupivacaína pero con menor afinidad cardiaca, de modo que es bastante menos cardiotóxica. La levocaína no es un anestésico local de uso reconocido en este grupo, así que no compite como opción; el patrón de cardiotoxicidad severa lo define la bupivacaína. El anestésico local más cardiotóxico es la bupivacaína: se une fuerte y se suelta lento del canal de sodio cardiaco, produciendo colapso difícil de revertir. La ropivacaína nació para ser menos cardiotóxica y la lidocaína se suelta rápido del canal.",
+      "tema": "Cardiotoxicidad de anestésicos locales: bupivacaína",
+      "año": 2026
+    },
+    {
+      "id": "CB-497",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Patología general",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Mujer de 58 años, diabética e hipertensa, que ingresa a la unidad de cuidados intensivos por un shock séptico de origen urinario. A pesar de la reanimación con fluidos y vasopresores, su estado se deteriora y es colocada en ventilación mecánica con FiO₂ 90 %. Considerando el síndrome de dificultad respiratoria aguda (SDRA) como causa de su falla respiratoria, ¿cuál de los siguientes hallazgos histopatológicos se esperaría encontrar en esta fase de la enfermedad?",
+      "opciones": [
+        "Hiperplasia de células caliciformes con engrosamiento muscular bronquial difuso",
+        "Necrosis caseosa central rodeada de granulomas epitelioides y células gigantes",
+        "Destrucción de tabiques alveolares con espacios aéreos agrandados y escasa fibrosis",
+        "Daño alveolar difuso con membranas hialinas y edema intersticial y alveolar"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El síndrome de dificultad respiratoria aguda tiene un correlato microscópico con nombre propio: el daño alveolar difuso. En su fase aguda o exudativa, que es la que corresponde a esta paciente recién colapsada por la sepsis, la inflamación destruye la barrera entre el alvéolo y el capilar, se vuelve permeable y deja escapar líquido rico en proteínas hacia el intersticio y el propio alvéolo, produciendo edema. Además, sobre las paredes alveolares dañadas se depositan las membranas hialinas, unas láminas de material proteináceo que son el sello histológico de esta fase. Por eso lo que se espera encontrar es precisamente daño alveolar difuso con membranas hialinas y edema intersticial y alveolar. La hiperplasia de células caliciformes con engrosamiento del músculo bronquial describe las vías aéreas del asma o la bronquitis crónica, no el daño del parénquima alveolar del síndrome. La necrosis caseosa rodeada de granulomas con células gigantes es la lesión de la tuberculosis, una reacción granulomatosa que nada tiene que ver con el edema y las membranas hialinas de este cuadro agudo. La destrucción de los tabiques alveolares con espacios agrandados y poca fibrosis es la descripción del enfisema, una enfermedad crónica y destructiva por tabaco, opuesta al proceso exudativo agudo que ocurre aquí. El correlato histológico del SDRA es el daño alveolar difuso: en la fase aguda, membranas hialinas sobre las paredes alveolares y edema intersticial y alveolar por rotura de la barrera alvéolo-capilar. La hiperplasia caliciforme es del asma, el granuloma caseoso de la tuberculosis y la destrucción de tabiques del enfisema.",
+      "comentario": "El síndrome de dificultad respiratoria aguda tiene un correlato microscópico con nombre propio: el daño alveolar difuso. En su fase aguda o exudativa, que es la que corresponde a esta paciente recién colapsada por la sepsis, la inflamación destruye la barrera entre el alvéolo y el capilar, se vuelve permeable y deja escapar líquido rico en proteínas hacia el intersticio y el propio alvéolo, produciendo edema. Además, sobre las paredes alveolares dañadas se depositan las membranas hialinas, unas láminas de material proteináceo que son el sello histológico de esta fase. Por eso lo que se espera encontrar es precisamente daño alveolar difuso con membranas hialinas y edema intersticial y alveolar. La hiperplasia de células caliciformes con engrosamiento del músculo bronquial describe las vías aéreas del asma o la bronquitis crónica, no el daño del parénquima alveolar del síndrome. La necrosis caseosa rodeada de granulomas con células gigantes es la lesión de la tuberculosis, una reacción granulomatosa que nada tiene que ver con el edema y las membranas hialinas de este cuadro agudo. La destrucción de los tabiques alveolares con espacios agrandados y poca fibrosis es la descripción del enfisema, una enfermedad crónica y destructiva por tabaco, opuesta al proceso exudativo agudo que ocurre aquí. El correlato histológico del SDRA es el daño alveolar difuso: en la fase aguda, membranas hialinas sobre las paredes alveolares y edema intersticial y alveolar por rotura de la barrera alvéolo-capilar. La hiperplasia caliciforme es del asma, el granuloma caseoso de la tuberculosis y la destrucción de tabiques del enfisema.",
+      "tema": "SDRA: daño alveolar difuso con membranas hialinas",
+      "año": 2026
+    },
+    {
+      "id": "CB-498",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Respecto al uso de antiepilépticos en mujeres embarazadas, ¿cuál fármaco se asocia de manera más consistente con un alto riesgo teratogénico?",
+      "opciones": [
+        "Lamotrigina",
+        "Levetiracetam",
+        "Fenobarbital",
+        "Ácido valproico"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Entre todos los antiepilépticos, el que carga la peor reputación en el embarazo, y de manera más consistente, es el ácido valproico. Es el que más se asocia a malformaciones graves, en especial los defectos de cierre del tubo neural como la espina bífida, pero también cardiopatías y anomalías faciales, y a algo que va más allá del nacimiento: un mayor riesgo de menor coeficiente intelectual y de trastornos del neurodesarrollo en el niño expuesto dentro del útero. Ese daño combinado, estructural y del desarrollo cognitivo, es lo que lo convierte en el fármaco a evitar cuando se puede en una mujer que planea embarazarse. El fenobarbital también es teratogénico, pertenece a los antiepilépticos clásicos con riesgo, pero el valproico lo supera de forma clara y consistente en la evidencia. La lamotrigina es, al contrario, uno de los antiepilépticos considerados más seguros durante la gestación, de los preferidos cuando hay que mantener el tratamiento en una embarazada. El levetiracetam es igualmente de los de menor riesgo teratogénico conocido, otra de las opciones que se eligen en el embarazo justamente para huir del valproico. El antiepiléptico más teratogénico de forma consistente es el ácido valproico: defectos del tubo neural, malformaciones y daño del neurodesarrollo con menor coeficiente intelectual. Lamotrigina y levetiracetam son de los más seguros en el embarazo.",
+      "comentario": "Entre todos los antiepilépticos, el que carga la peor reputación en el embarazo, y de manera más consistente, es el ácido valproico. Es el que más se asocia a malformaciones graves, en especial los defectos de cierre del tubo neural como la espina bífida, pero también cardiopatías y anomalías faciales, y a algo que va más allá del nacimiento: un mayor riesgo de menor coeficiente intelectual y de trastornos del neurodesarrollo en el niño expuesto dentro del útero. Ese daño combinado, estructural y del desarrollo cognitivo, es lo que lo convierte en el fármaco a evitar cuando se puede en una mujer que planea embarazarse. El fenobarbital también es teratogénico, pertenece a los antiepilépticos clásicos con riesgo, pero el valproico lo supera de forma clara y consistente en la evidencia. La lamotrigina es, al contrario, uno de los antiepilépticos considerados más seguros durante la gestación, de los preferidos cuando hay que mantener el tratamiento en una embarazada. El levetiracetam es igualmente de los de menor riesgo teratogénico conocido, otra de las opciones que se eligen en el embarazo justamente para huir del valproico. El antiepiléptico más teratogénico de forma consistente es el ácido valproico: defectos del tubo neural, malformaciones y daño del neurodesarrollo con menor coeficiente intelectual. Lamotrigina y levetiracetam son de los más seguros en el embarazo.",
+      "tema": "Antiepilépticos en el embarazo: ácido valproico, el más teratógeno",
+      "año": 2026
+    },
+    {
+      "id": "CB-499",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Fisiología",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "En un laboratorio de enseñanza se analiza la coagulación de una muestra de sangre normal colocada en un tubo de vidrio sin anticoagulante. Se observa que la coagulación se inicia por activación de la vía intrínseca a través del contacto con la superficie cargada del vidrio. ¿Cuál es el principal factor responsable de la activación por contacto?",
+      "opciones": [
+        "X",
+        "VII",
+        "XII",
+        "VIII"
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La pista está en las palabras vía intrínseca y activación por contacto. La cascada de la coagulación tiene dos entradas: la vía extrínseca, que arranca con el factor tisular liberado por el daño, y la vía intrínseca, que puede dispararse cuando la sangre toca una superficie cargada negativamente, como el vidrio del tubo. El factor que detecta ese contacto y enciende la vía intrínseca es el factor doce, también llamado factor de Hageman: al pegarse a la superficie de vidrio se activa y pone en marcha toda la cascada intrínseca. Por eso es el responsable de la activación por contacto. El factor siete es el iniciador de la otra vía, la extrínseca, junto con el factor tisular, así que no corresponde a la activación por vidrio. El factor ocho actúa más adelante dentro de la vía intrínseca, como cofactor amplificador, pero no es el que inicia el contacto con la superficie; es un eslabón posterior. El factor diez es el punto donde ambas vías confluyen, la vía común, así que tampoco es el iniciador del contacto, sino un paso posterior compartido; el que enciende la mecha en el vidrio es el factor doce. La activación por contacto con una superficie cargada (vidrio) inicia la vía intrínseca a través del factor XII (de Hageman). El factor VII inicia la vía extrínseca con el factor tisular; el X es el punto de confluencia de la vía común.",
+      "comentario": "La pista está en las palabras vía intrínseca y activación por contacto. La cascada de la coagulación tiene dos entradas: la vía extrínseca, que arranca con el factor tisular liberado por el daño, y la vía intrínseca, que puede dispararse cuando la sangre toca una superficie cargada negativamente, como el vidrio del tubo. El factor que detecta ese contacto y enciende la vía intrínseca es el factor doce, también llamado factor de Hageman: al pegarse a la superficie de vidrio se activa y pone en marcha toda la cascada intrínseca. Por eso es el responsable de la activación por contacto. El factor siete es el iniciador de la otra vía, la extrínseca, junto con el factor tisular, así que no corresponde a la activación por vidrio. El factor ocho actúa más adelante dentro de la vía intrínseca, como cofactor amplificador, pero no es el que inicia el contacto con la superficie; es un eslabón posterior. El factor diez es el punto donde ambas vías confluyen, la vía común, así que tampoco es el iniciador del contacto, sino un paso posterior compartido; el que enciende la mecha en el vidrio es el factor doce. La activación por contacto con una superficie cargada (vidrio) inicia la vía intrínseca a través del factor XII (de Hageman). El factor VII inicia la vía extrínseca con el factor tisular; el X es el punto de confluencia de la vía común.",
+      "tema": "Activación por contacto de la vía intrínseca: factor XII",
+      "año": 2026
+    },
+    {
+      "id": "CB-500",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Varón de 55 años con diabetes tipo 2 y obesidad (IMC 32 kg/m²) no alcanza metas de HbA1c pese a cambios en el estilo de vida y metformina en dosis máximas. El médico decide añadir un agonista del receptor de GLP-1. El mecanismo farmacodinámico que contribuye de manera más directa al mejor control glucémico con este grupo de fármacos es la ______",
+      "opciones": [
+        "disminución de la secreción de glucagón, con reducción de la producción hepática de glucosa en presencia de hiperglicemia",
+        "estimulación de la reabsorción tubular de glucosa, con incremento leve compensatorio de la secreción de insulina basal",
+        "inhibición directa de la gluconeogénesis hepática independiente de los niveles de glucosa plasmática",
+        "activación de receptores adrenérgicos β2 hepáticos, con incremento de la glucogenólisis y sensibilidad a la insulina"
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los agonistas del receptor de GLP-1 imitan a una hormona intestinal que el cuerpo libera cuando comemos, la incretina, y su efecto sobre la glucosa se apoya en dos brazos: por un lado aumentan la liberación de insulina, y por otro, el que la pregunta busca, frenan la secreción de glucagón. El glucagón es la hormona que le ordena al hígado fabricar y soltar glucosa; al bajar el glucagón, el hígado reduce su producción de glucosa y por eso cae la glucemia. Lo elegante y seguro de este mecanismo es que es dependiente de la glucosa: actúa cuando hay hiperglicemia y se atenúa cuando la glucosa está normal, lo que explica el bajo riesgo de hipoglucemia de estos fármacos. Por eso la opción correcta une la caída del glucagón con la menor producción hepática de glucosa en presencia de hiperglicemia. Estimular la reabsorción tubular de glucosa es lo contrario de lo que se quiere y describe mal el mecanismo; de hecho los fármacos que actúan en el riñón, los del otro grupo, bloquean esa reabsorción para eliminar glucosa por la orina. Inhibir la gluconeogénesis de forma independiente de la glucosa describe más bien a la metformina, y además pierde justamente la característica de dependencia de glucosa que define al GLP-1. Activar receptores beta dos hepáticos para aumentar la glucogenólisis subiría la glucosa, lo opuesto a un antidiabético, así que no tiene sentido. Los agonistas de GLP-1 mejoran la glucemia sobre todo suprimiendo el glucagón, lo que reduce la producción hepática de glucosa, y lo hacen de forma dependiente de la glucosa (bajo riesgo de hipoglucemia). Bloquear la reabsorción tubular de glucosa es de los SGLT2; inhibir la gluconeogénesis basal es de la metformina.",
+      "comentario": "Los agonistas del receptor de GLP-1 imitan a una hormona intestinal que el cuerpo libera cuando comemos, la incretina, y su efecto sobre la glucosa se apoya en dos brazos: por un lado aumentan la liberación de insulina, y por otro, el que la pregunta busca, frenan la secreción de glucagón. El glucagón es la hormona que le ordena al hígado fabricar y soltar glucosa; al bajar el glucagón, el hígado reduce su producción de glucosa y por eso cae la glucemia. Lo elegante y seguro de este mecanismo es que es dependiente de la glucosa: actúa cuando hay hiperglicemia y se atenúa cuando la glucosa está normal, lo que explica el bajo riesgo de hipoglucemia de estos fármacos. Por eso la opción correcta une la caída del glucagón con la menor producción hepática de glucosa en presencia de hiperglicemia. Estimular la reabsorción tubular de glucosa es lo contrario de lo que se quiere y describe mal el mecanismo; de hecho los fármacos que actúan en el riñón, los del otro grupo, bloquean esa reabsorción para eliminar glucosa por la orina. Inhibir la gluconeogénesis de forma independiente de la glucosa describe más bien a la metformina, y además pierde justamente la característica de dependencia de glucosa que define al GLP-1. Activar receptores beta dos hepáticos para aumentar la glucogenólisis subiría la glucosa, lo opuesto a un antidiabético, así que no tiene sentido. Los agonistas de GLP-1 mejoran la glucemia sobre todo suprimiendo el glucagón, lo que reduce la producción hepática de glucosa, y lo hacen de forma dependiente de la glucosa (bajo riesgo de hipoglucemia). Bloquear la reabsorción tubular de glucosa es de los SGLT2; inhibir la gluconeogénesis basal es de la metformina.",
+      "tema": "Agonistas del receptor de GLP-1: supresión del glucagón",
+      "año": 2026
+    },
+    {
+      "id": "CB-501",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Patología general",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Las células cancerosas suelen evadir la apoptosis, lo que contribuye a su proliferación descontrolada. ¿Cuál es el cambio molecular que se asocia de manera más directa con la pérdida de esta respuesta apoptótica ante el daño del ADN en estas células?",
+      "opciones": [
+        "Sobreexpresión de proteínas proapoptóticas de la familia BAX/BAK mitocondrial",
+        "Activación constitutiva de caspasas efectoras en la vía intrínseca",
+        "Disminución de la expresión de la proteína antiapoptótica BCL-2",
+        "Pérdida de la función del gen supresor tumoral TP53"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La pregunta pide el cambio que más directamente hace que una célula, cuando su ADN se daña, ya no se autodestruya. El personaje central de esa decisión es el gen supresor de tumores TP53, que fabrica la proteína p53, conocida como el guardián del genoma. Cuando el ADN sufre un daño importante, la p53 detiene el ciclo para intentar reparar y, si el daño es irreparable, ordena a la célula suicidarse por apoptosis para que no se propague una célula con mutaciones peligrosas. Si el TP53 pierde su función, ese guardián desaparece: la célula dañada ya no recibe la orden de morir, sobrevive con su ADN alterado y prolifera sin control. Por eso la pérdida de función de TP53 es el cambio más directamente ligado a la evasión de la apoptosis ante el daño del ADN, y es la mutación más frecuente en los cánceres humanos. Las otras opciones describen cambios que, si ocurrieran, favorecerían la muerte celular, es decir lo contrario de evadirla. Sobreexpresar las proteínas que abren el poro mitocondrial y disparan la apoptosis empujaría a la célula a morir, no a sobrevivir. Activar de forma constitutiva las caspasas ejecutoras también ejecutaría la apoptosis. Y disminuir una proteína que protege de la muerte celular dejaría a la célula más propensa a apoptar; la evasión, al revés, se logra perdiendo el gatillo que es el TP53. El cambio que más directamente permite evadir la apoptosis ante daño del ADN es la pérdida de función de TP53 (la p53, guardián del genoma, que ordena el suicidio de la célula dañada). Es la mutación más frecuente en cáncer; las otras opciones favorecerían la muerte celular, no su evasión.",
+      "comentario": "La pregunta pide el cambio que más directamente hace que una célula, cuando su ADN se daña, ya no se autodestruya. El personaje central de esa decisión es el gen supresor de tumores TP53, que fabrica la proteína p53, conocida como el guardián del genoma. Cuando el ADN sufre un daño importante, la p53 detiene el ciclo para intentar reparar y, si el daño es irreparable, ordena a la célula suicidarse por apoptosis para que no se propague una célula con mutaciones peligrosas. Si el TP53 pierde su función, ese guardián desaparece: la célula dañada ya no recibe la orden de morir, sobrevive con su ADN alterado y prolifera sin control. Por eso la pérdida de función de TP53 es el cambio más directamente ligado a la evasión de la apoptosis ante el daño del ADN, y es la mutación más frecuente en los cánceres humanos. Las otras opciones describen cambios que, si ocurrieran, favorecerían la muerte celular, es decir lo contrario de evadirla. Sobreexpresar las proteínas que abren el poro mitocondrial y disparan la apoptosis empujaría a la célula a morir, no a sobrevivir. Activar de forma constitutiva las caspasas ejecutoras también ejecutaría la apoptosis. Y disminuir una proteína que protege de la muerte celular dejaría a la célula más propensa a apoptar; la evasión, al revés, se logra perdiendo el gatillo que es el TP53. El cambio que más directamente permite evadir la apoptosis ante daño del ADN es la pérdida de función de TP53 (la p53, guardián del genoma, que ordena el suicidio de la célula dañada). Es la mutación más frecuente en cáncer; las otras opciones favorecerían la muerte celular, no su evasión.",
+      "tema": "Evasión de la apoptosis en el cáncer: pérdida de función de TP53",
+      "año": 2026
+    },
+    {
+      "id": "CB-502",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Microbiología e Inmunología",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "En las infecciones urinarias bajas no complicadas causadas por Escherichia coli, la colonización del urotelio depende de un mecanismo específico de adhesión bacteriana. ¿Cuál es el principal factor de virulencia con que se fija E. coli a las células del tracto urinario?",
+      "opciones": [
+        "Liberación de exotoxinas que producen daño directo y necrosis del urotelio",
+        "Secreción de enzimas proteolíticas que degradan proteínas de la matriz extracelular urotelial",
+        "Producción de una cápsula mucoide que dificulta la fagocitosis por neutrófilos",
+        "Fimbrias tipo I que se unen a receptores glucídicos de la superficie urotelial"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La pregunta pide el mecanismo con que la bacteria se agarra al urotelio, y ese es el paso decisivo de la infección urinaria: si la Escherichia coli no logra fijarse a la pared de la vía urinaria, la orina la arrastra y la elimina antes de que colonice. La herramienta que le permite anclarse son las fimbrias, unas prolongaciones filamentosas en su superficie que funcionan como ganchos moleculares; las fimbrias tipo uno tienen en su punta una adhesina que reconoce y se une a los azúcares presentes en los receptores glucídicos de las células del urotelio, lo que fija la bacteria a la superficie y le permite resistir el barrido de la orina y colonizar. Por eso el principal factor de virulencia para la adhesión son esas fimbrias. Las exotoxinas que dañan y necrosan el urotelio contribuyen a la lesión del tejido en algunas cepas, pero eso es hacer daño una vez instalada, no el mecanismo de fijación inicial que pregunta el caso. Las enzimas proteolíticas que degradan la matriz favorecen la invasión de tejidos, pero tampoco son el gancho que ancla la bacteria a la célula. La cápsula mucoide ayuda a la bacteria a escapar de la fagocitosis, es un mecanismo de defensa frente al sistema inmune, no de adhesión al urotelio; el agarre lo dan las fimbrias. La Escherichia coli uropatógena se fija al urotelio con fimbrias tipo I, cuya adhesina reconoce receptores glucídicos de la superficie celular; ese anclaje le permite resistir el barrido de la orina y colonizar. Las exotoxinas dañan el tejido y la cápsula evade la fagocitosis, pero la adhesión la dan las fimbrias.",
+      "comentario": "La pregunta pide el mecanismo con que la bacteria se agarra al urotelio, y ese es el paso decisivo de la infección urinaria: si la Escherichia coli no logra fijarse a la pared de la vía urinaria, la orina la arrastra y la elimina antes de que colonice. La herramienta que le permite anclarse son las fimbrias, unas prolongaciones filamentosas en su superficie que funcionan como ganchos moleculares; las fimbrias tipo uno tienen en su punta una adhesina que reconoce y se une a los azúcares presentes en los receptores glucídicos de las células del urotelio, lo que fija la bacteria a la superficie y le permite resistir el barrido de la orina y colonizar. Por eso el principal factor de virulencia para la adhesión son esas fimbrias. Las exotoxinas que dañan y necrosan el urotelio contribuyen a la lesión del tejido en algunas cepas, pero eso es hacer daño una vez instalada, no el mecanismo de fijación inicial que pregunta el caso. Las enzimas proteolíticas que degradan la matriz favorecen la invasión de tejidos, pero tampoco son el gancho que ancla la bacteria a la célula. La cápsula mucoide ayuda a la bacteria a escapar de la fagocitosis, es un mecanismo de defensa frente al sistema inmune, no de adhesión al urotelio; el agarre lo dan las fimbrias. La Escherichia coli uropatógena se fija al urotelio con fimbrias tipo I, cuya adhesina reconoce receptores glucídicos de la superficie celular; ese anclaje le permite resistir el barrido de la orina y colonizar. Las exotoxinas dañan el tejido y la cápsula evade la fagocitosis, pero la adhesión la dan las fimbrias.",
+      "tema": "Escherichia coli uropatógena: adhesión por fimbrias tipo I",
+      "año": 2026
+    },
+    {
+      "id": "CB-503",
+      "especialidad": "Ciencias Básicas",
+      "categoria": "Farmacología básica y autonómica",
+      "examen_origen": "ENAM Extraordinario II 2026 · pregunta oficial",
+      "enunciado": "Se requiere administrar un fármaco muy hidrofílico, pero fuertemente irritante para la mucosa gastrointestinal, necesario para alcanzar concentraciones plasmáticas rápidas y seguras. ¿Cuál es la vía de administración sistémica alternativa?",
+      "opciones": [
+        "Oral mediante comprimidos o cápsulas recubiertas",
+        "Intramuscular profunda en músculo grande",
+        "Inhalatoria mediante aerosol dosificado",
+        "Endovenosa en infusión controlada"
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La estrategia es leer cada propiedad del fármaco como un requisito que va descartando vías hasta dejar una sola. Son tres exigencias. Primera, es muy hidrofílico, es decir se disuelve bien en agua pero atraviesa mal las membranas, que son grasas; por eso se absorbe de forma pobre e irregular cuando hay que cruzar barreras, como en el intestino. Segunda, es fuertemente irritante para la mucosa gastrointestinal, lo que hace peligrosa o mal tolerada la vía oral. Y tercera, se necesita alcanzar concentraciones en sangre rápidas y seguras. Si vamos descartando: la vía oral queda eliminada por partida doble, porque el fármaco irrita el tubo digestivo y además, al ser tan hidrofílico, se absorbería mal; ni siquiera las cápsulas recubiertas resuelven la mala absorción ni garantizan rapidez. La vía inhalatoria sirve para gases y fármacos volátiles que se absorben por el pulmón, no para cualquier fármaco hidrofílico, y no aplica aquí. La intramuscular podría evitar el estómago, pero un fármaco fuertemente irritante también dañaría el músculo y produciría dolor y lesión en el sitio de inyección, y la absorción desde el músculo no es tan inmediata ni tan predecible como se exige. La única vía que cumple las tres condiciones es la endovenosa: al inyectar directamente en la sangre se evita por completo el tubo digestivo irritable, no importa que el fármaco sea hidrofílico porque no tiene que atravesar ninguna membrana para absorberse, y se consiguen concentraciones plasmáticas inmediatas; además, administrarla en infusión controlada permite hacerlo de forma segura, dosificando la velocidad. Un fármaco muy hidrofílico (mala absorción), irritante para la mucosa digestiva (descarta la vía oral) y que requiere niveles plasmáticos rápidos y seguros = vía endovenosa en infusión controlada. La vía intravenosa evita el tubo digestivo, no depende de atravesar membranas y logra concentraciones inmediatas.",
+      "comentario": "La estrategia es leer cada propiedad del fármaco como un requisito que va descartando vías hasta dejar una sola. Son tres exigencias. Primera, es muy hidrofílico, es decir se disuelve bien en agua pero atraviesa mal las membranas, que son grasas; por eso se absorbe de forma pobre e irregular cuando hay que cruzar barreras, como en el intestino. Segunda, es fuertemente irritante para la mucosa gastrointestinal, lo que hace peligrosa o mal tolerada la vía oral. Y tercera, se necesita alcanzar concentraciones en sangre rápidas y seguras. Si vamos descartando: la vía oral queda eliminada por partida doble, porque el fármaco irrita el tubo digestivo y además, al ser tan hidrofílico, se absorbería mal; ni siquiera las cápsulas recubiertas resuelven la mala absorción ni garantizan rapidez. La vía inhalatoria sirve para gases y fármacos volátiles que se absorben por el pulmón, no para cualquier fármaco hidrofílico, y no aplica aquí. La intramuscular podría evitar el estómago, pero un fármaco fuertemente irritante también dañaría el músculo y produciría dolor y lesión en el sitio de inyección, y la absorción desde el músculo no es tan inmediata ni tan predecible como se exige. La única vía que cumple las tres condiciones es la endovenosa: al inyectar directamente en la sangre se evita por completo el tubo digestivo irritable, no importa que el fármaco sea hidrofílico porque no tiene que atravesar ninguna membrana para absorberse, y se consiguen concentraciones plasmáticas inmediatas; además, administrarla en infusión controlada permite hacerlo de forma segura, dosificando la velocidad. Un fármaco muy hidrofílico (mala absorción), irritante para la mucosa digestiva (descarta la vía oral) y que requiere niveles plasmáticos rápidos y seguros = vía endovenosa en infusión controlada. La vía intravenosa evita el tubo digestivo, no depende de atravesar membranas y logra concentraciones inmediatas.",
+      "tema": "Fármaco hidrofílico e irritante gastrointestinal: vía endovenosa en infusión",
+      "año": 2026
     }
   ]
 }

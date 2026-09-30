@@ -1,0 +1,29 @@
+@84|CB:FA|Intoxicación por paracetamol en dosis tóxica: N-acetilcisteína inmediata
+E: Mujer de 22 años, con antecedente de depresión mayor, acude a emergencia 1 hora después de ingerir aproximadamente 20 tabletas de paracetamol de 500 mg con intención suicida. Se encuentra consciente, asintomática y hemodinámicamente estable. Mientras se esperan los resultados de laboratorio, ¿cuál es la acción terapéutica de elección?
+A: Programar hemodiálisis de urgencia
+B: Iniciar de inmediato N-acetilcisteína IV
+C: Indicar observación clínica estricta
+D: Realizar lavado gástrico e inducir el vómito
+K: B
+M: Lo que decide la conducta es la cantidad ingerida y el antídoto disponible. Veinte tabletas de quinientos miligramos son diez gramos de paracetamol, una dosis dentro del rango tóxico capaz de producir una lesión grave del hígado. El punto engañoso del cuadro es que la paciente está asintomática, pero eso es normal en las primeras horas: el daño hepático del paracetamol es silencioso al inicio y se manifiesta días después, cuando ya puede ser irreversible. El antídoto es la N-acetilcisteína, que repone el compuesto que el hígado necesita para neutralizar el metabolito tóxico, y su gran ventaja es que es más eficaz cuanto antes se administra y es muy segura. Por eso, ante una ingesta de dosis tóxica confirmada por la historia, lo correcto es iniciar la N-acetilcisteína sin esperar a que aparezcan síntomas ni a que el hígado ya esté dañado. La observación clínica estricta es insuficiente y peligrosa: esperar a ver qué pasa desperdicia la ventana en la que el antídoto realmente protege. La hemodiálisis de urgencia no es el tratamiento de elección de la intoxicación por paracetamol; el manejo es el antídoto, no depurar por diálisis. El lavado gástrico y la inducción del vómito prácticamente ya no se recomiendan por su escaso beneficio y el riesgo de aspiración, y de todos modos no sustituyen a la N-acetilcisteína, que es la que evita la falla hepática.
+P: Ingesta de dosis tóxica de paracetamol (10 g) = iniciar N-acetilcisteína de inmediato, sin esperar que aparezcan síntomas, porque el daño hepático es silencioso al inicio y el antídoto es más eficaz cuanto más temprano se da. La observación sola es peligrosa y el lavado gástrico ya no se recomienda.
+
+@85|SP|Categoría mínima con internamiento general: II-1
+E: Según la norma técnica de salud, ¿cuál es la categoría mínima de establecimiento que está autorizada para brindar atención con camas de internamiento general para pacientes?
+A: I-2
+B: II-1
+C: I-4
+D: I-3
+K: B
+M: La clave está en las palabras internamiento general. En la categorización de los establecimientos de salud, todo el primer nivel de atención, desde el puesto de salud más básico hasta el centro de salud más completo, está orientado a la atención ambulatoria y a acciones de promoción, prevención y recuperación de baja complejidad. Aun cuando algunos establecimientos del primer nivel disponen de camas para observación o para la atención del parto, no brindan hospitalización general de pacientes. El internamiento general, es decir la hospitalización de pacientes en camas para el manejo de diversas patologías, comienza en el segundo nivel de atención, cuya categoría de entrada es la II-1, el hospital de atención general. Por eso la categoría mínima autorizada para internamiento general es la II-1. Las categorías del primer nivel, el I-2, el I-3 y el I-4, pertenecen todas a ese primer nivel ambulatorio: el I-2 es un puesto con médico, el I-3 un centro de salud sin internamiento y el I-4 un centro de salud que puede tener algunas camas para funciones específicas, pero ninguno de ellos alcanza la hospitalización general de pacientes que define al hospital del segundo nivel.
+P: La hospitalización o internamiento general de pacientes comienza en el segundo nivel de atención, cuya categoría mínima es II-1 (hospital de atención general). El primer nivel (I-1 a I-4) es ambulatorio; aunque el I-4 tenga algunas camas, no brinda internamiento general.
+
+@86|GI|Translucencia nucal aumentada: riesgo de cromosomopatía
+E: Mujer de 35 años, primigesta de 12 semanas, acude a su primer control prenatal. Ecografía del primer trimestre: translucencia nucal por encima del percentil 95 para la edad gestacional. Este hallazgo principalmente indica un incremento del riesgo de:
+A: Restricción del crecimiento fetal
+B: Defectos del tubo neural
+C: Preeclampsia de inicio precoz
+D: Cromosomopatía fetal
+K: D
+M: La translucencia nucal es la medición del pequeño acúmulo de líquido bajo la piel de la nuca del feto en el primer trimestre, y es uno de los marcadores más útiles del tamizaje ecográfico temprano. Cuando ese espacio está aumentado, por encima del percentil noventa y cinco para la edad gestacional, lo que principalmente señala es un mayor riesgo de que el feto tenga una alteración de los cromosomas, sobre todo la trisomía veintiuno o síndrome de Down, pero también otras trisomías. Por eso el hallazgo de una translucencia nucal gruesa se interpreta como un incremento del riesgo de cromosomopatía fetal, y obliga a ofrecer pruebas de confirmación. Los defectos del tubo neural, como la espina bífida, se rastrean con otros métodos, como la alfafetoproteína en sangre materna y la ecografía de la columna y el cráneo en el segundo trimestre, no con la translucencia nucal. La restricción del crecimiento fetal y la preeclampsia de inicio precoz se predicen con otros marcadores, como el estudio Doppler de las arterias uterinas y factores placentarios, no con el grosor de la nuca en el primer trimestre; el aumento de la translucencia nucal apunta específicamente a las anomalías cromosómicas.
+P: Translucencia nucal aumentada (por encima del percentil 95) en el primer trimestre = mayor riesgo de cromosomopatía fetal, sobre todo trisomía 21. Los defectos del tubo neural se tamizan con alfafetoproteína y ecografía del segundo trimestre, no con la translucencia nucal.

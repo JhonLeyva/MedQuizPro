@@ -1,0 +1,180 @@
+1|SP|Ciclo de políticas públicas de la OPS
+2|PE|Tamizaje de cardiopatía congénita crítica en la altura
+3|CI|Íleo biliar: tríada de Rigler
+4|PE|Tamizaje auditivo en lactante con factores de riesgo
+5|GI|Retención placentaria: extracción manual
+6|GI|Maduración cervical con Bishop desfavorable
+7|CB:FA|Intoxicación por cianuro en incendio: hidroxocobalamina
+8|OF|Otitis media aguda: criterio para antibiótico
+9|NE|Criptorquidia corregida y riesgo de cáncer testicular
+10|PE|Compromiso alveolointersticial en el lactante
+11|CI|Herida abdominal con evisceración: laparotomía
+12|CI|Quemadura de segundo grado: manejo inicial
+13|CB:FA|Estatinas y fibratos: riesgo de rabdomiólisis
+14|IN|Diarrea disentérica por Shigella
+15|GI|Colestasis intrahepática gestacional
+16|SP|Mediana en datos asimétricos
+17|PE|Roséola infantil (exantema súbito)
+18|PS|Trastorno de conversión
+19|PE|Raquitismo carencial
+20|GI|Corticoides prenatales en RPM
+21|SP|Confidencialidad: foto de paciente en redes sociales
+22|PE|Escala de Bierman y Pierson
+23|CB:FI|Eritropoyesis fetal y eritropoyetina hepática
+24|PE|Faringoamigdalitis estreptocócica con exantema escarlatiniforme
+25|GI|Absceso mamario puerperal: drenaje
+26|CA|Trombosis venosa profunda
+27|GI|Aborto retenido
+28|RE|Vitíligo
+29|NE|Trauma renal: TC con contraste
+30|GI|Placenta previa
+31|CI|Hemorroides internas grado III
+32|PE|Sarampión
+33|RE|Esclerodermia: compromiso esofágico
+34|CI|Fisura anal crónica: esfinterotomía lateral interna
+35|TR|Lesión del tendón flexor profundo: referencia
+36|SP|Hepatitis A en escolar: control de contactos
+37|CI|Diverticulitis no complicada: manejo ambulatorio
+38|CA|Insuficiencia cardiaca con FEVI preservada
+39|PE|Hipoglucemia neonatal sintomática
+40|PE|Reanimación neonatal: frecuencia cardiaca menor de 100
+41|GI|Gestación anembrionaria: misoprostol
+42|SP|Programa médico funcional
+43|NL|TEC moderado sin tomografía: referencia
+44|RE|Síndrome de Stevens-Johnson
+45|GI|Hemorragia uterina anormal: biopsia endometrial
+46|GI|Eclampsia: culminar la gestación
+47|SP|Validez externa
+48|GA|Pancreatitis aguda: hipotensión persistente y pronóstico
+49|NE|Litiasis ureteral
+50|GI|Torsión anexial
+51|PS|Intoxicación por cocaína
+52|GI|Defecto paravaginal: arco tendinoso de la fascia pélvica
+53|IN|Absceso hepático amebiano
+54|NE|Tamizaje de cáncer de próstata: decisión compartida
+55|IN|Molusco contagioso en paciente con VIH
+56|PE|Sepsis neonatal precoz por estreptococo del grupo B
+57|NL|Síndrome de Guillain-Barré
+58|SP|Período de latencia en el dengue
+59|CA|Fibrilación ventricular refractaria: amiodarona
+60|CI|Absceso apendicular: drenaje percutáneo
+61|CB:FA|Loxoscelismo cutáneo-visceral: suero antiloxoscélico
+62|CI|Colecistitis aguda: colecistectomía laparoscópica temprana
+63|CB:AN|Mediastino posterior: aorta descendente y esófago
+64|PE|Enterobiasis (oxiuriasis)
+65|IN|Infección aguda por VIH: prueba de ácido nucleico
+66|NE|Enfermedad renal crónica por nefropatía diabética
+67|RE|Osteoartritis de manos
+68|GI|Hipertensión gestacional
+69|SP|Ensayo clínico fase III
+70|HE|Crisis vasooclusiva en drepanocitosis
+71|NL|Demencia vascular: infartos lacunares
+72|GI|Desprendimiento prematuro de placenta: cesárea de emergencia
+73|IN|Dengue grave con choque: bolo de cristaloides
+74|PE|Hipernatremia por lactancia materna ineficaz
+75|GA|Lesiones precursoras de cáncer gástrico: displasia
+76|SP|Control vectorial del dengue
+77|GI|Endometritis puerperal: clindamicina más gentamicina
+78|NE|Nefritis intersticial aguda por fármacos
+79|CB:AN|Nervio laríngeo recurrente y parálisis de la cuerda vocal
+80|CB:AN|Nervio lingual: sensibilidad general de la lengua
+81|CA|Insuficiencia aórtica crónica
+82|CI|Hernia estrangulada: criterio de resección intestinal
+83|OF|Quemadura química ocular: urgencia verdadera
+84|TR|Mielopatía cervical: radiografía dinámica en flexión y extensión
+85|SP|Tuberculosis: notificación obligatoria y confidencialidad
+86|PE|Vasculitis por IgA (púrpura de Schönlein-Henoch): manejo sintomático
+87|PE|Citomegalovirus congénito
+88|CI|Fórmula de Parkland en quemados
+89|CI|Adenocarcinoma de esófago T1b: esofagectomía
+90|RE|Fibromialgia: amitriptilina
+91|IN|Chancroide: azitromicina
+92|SP|Causa básica de muerte materna
+93|NL|Temblor esencial
+94|CI|Escala de Mallampati: predicción de intubación
+95|CI|Colecistitis aguda litiásica: antibióticos y colecistectomía
+96|CI|Neumotórax traumático: toracostomía con tubo
+97|SP|Residuos sólidos hospitalarios: residuos especiales
+98|CI|Cierre primario de herida
+99|CB:FA|Intoxicación por antidepresivos tricíclicos: bicarbonato de sodio
+100|GI|VIH en la gestante: inicio inmediato de TAR
+101|SP|Ergonomía
+102|NL|TEC grave con signos de herniación: TC urgente
+103|CA|Taquicardia supraventricular inestable: cardioversión
+104|NL|TEC con fractura de base de cráneo: intubación antes del traslado
+105|TR|Displasia del desarrollo de cadera: reducción abierta
+106|RE|Impétigo
+107|NE|Hiperpotasemia grave: gluconato de calcio e insulina
+108|CB:FA|Inhibidores de la bomba de protones: células parietales
+109|PE|Ingesta de álcali: necrosis de licuefacción
+110|CI|Neumotórax a tensión: descompresión con aguja
+111|CI|Fístula perianal
+112|GI|Pico de LH y ovulación
+113|PS|Trastorno por uso de opioides: metadona
+114|NE|Nefritis lúpica: biopsia renal
+115|PE|Dificultad respiratoria del lactante en primer nivel: oxígeno y referencia
+116|GI|Insuficiencia cervical: cerclaje
+117|SP|Enfermedad emergente: virus del Zika
+118|GI|Estrechez pélvica: cesárea
+119|CI|Cáncer de colon localizado: resección oncológica
+120|SP|Principio de beneficencia en la urgencia
+121|GI|Corioamnionitis con patrón sinusoidal: terminar la gestación
+122|SP|Formulación de problemas priorizados: debilidad organizacional
+123|GI|Cistocele y rectocele: colporrafia anterior y posterior
+124|SP|Fragmentación del sistema de salud peruano
+125|NE|Síndrome post-RTU de próstata: hiponatremia
+126|GA|Erradicación de H. pylori con alta resistencia a claritromicina
+127|GI|Factores de riesgo obstétrico: control prenatal tardío
+128|PE|Fibrosis quística con hiponatremia hipovolémica: NaCl 0,9 %
+129|CI|Úlcera péptica perforada: laparotomía
+130|SP|Categorización de establecimientos: centro de salud I-3
+131|NE|Hipopotasemia con alcalosis metabólica por diuréticos
+132|PE|Deshidratación leve: sales de rehidratación oral
+133|TR|Displasia del desarrollo de la cadera en niño que camina: radiografía
+134|GI|Infertilidad por factor ovulatorio: clomifeno
+135|CB:PA|Fases de la cicatrización: fase inflamatoria
+136|GA|Encefalopatía hepática con hipertensión intracraneal: manitol
+137|GI|Prevención de preeclampsia: ácido acetilsalicílico
+138|PE|Estado epiléptico: consecuencias sistémicas
+139|TR|Pie plano flexible infantil
+140|SP|Promoción de la salud: prevención del consumo de alcohol en escolares
+141|CI|Quemadura con lesión inhalatoria: intubación precoz
+142|GI|Tamoxifeno y sangrado uterino: ecografía transvaginal
+143|GI|Gestación monocoriónica biamniótica: signo de la T
+144|PE|Displasia broncopulmonar: aporte nutricional
+145|GI|Fiebre puerperal por pirógenos endógenos
+146|CA|Edema agudo de pulmón: furosemida
+147|CI|Escala de Alvarado
+148|PE|Suplementación de hierro en el lactante
+149|NL|Síndrome de cola de caballo tras anestesia raquídea
+150|CB:EM|Reacción acrosómica: zona pelúcida
+151|RE|Micosis fungoide: linfoma cutáneo T
+152|SP|Reducción relativa del riesgo
+153|GA|Cálculos pigmentarios marrones
+154|NE|Nefritis lúpica clase IV: ciclofosfamida
+155|PE|Infección urinaria febril en lactante: antibiótico EV y ecografía
+156|PE|Síndrome de Prader-Willi
+157|SP|Principio de justicia en políticas sanitarias
+158|NL|Hemorragia subaracnoidea
+159|PE|Sepsis neonatal: hemocultivo y cultivo de LCR
+160|HE|Leucemia mieloide crónica: BCR-ABL1
+161|SP|Carta de Ottawa: acción intersectorial
+162|PE|Policitemia neonatal asintomática
+163|IN|Leishmaniasis visceral
+164|NR|EPOC: diagnóstico espirométrico
+165|IN|Malaria por P. vivax: primaquina y déficit de G6PD
+166|CB:FA|Intoxicación por opioides: naloxona
+167|SP|Seguridad del paciente: estrategia proactiva
+168|PE|Síndrome nefrótico
+169|CB:BQ|Pelagra: déficit de niacina
+170|PE|Bebidas azucaradas en escolares
+171|HE|Enfermedad de von Willebrand: cofactor de ristocetina
+172|CI|Hernia incisional estrangulada: laparotomía
+173|HE|Anemia hemolítica autoinmune: corticoides
+174|GA|Peritonitis bacteriana espontánea: cefotaxima y albúmina
+175|PE|Ingesta de paracetamol no tóxica
+176|EN|Enfermedad de Graves: anticuerpos TRAb
+177|PE|Hipotiroidismo congénito: levotiroxina
+178|PE|Malformación anorrectal: descartar malformaciones asociadas
+179|SP|Enfoque intercultural contra la anemia
+180|CI|Quemadura circunferencial: escarotomía
