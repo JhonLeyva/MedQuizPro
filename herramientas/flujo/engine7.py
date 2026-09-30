@@ -81,7 +81,7 @@ def ciclo(s, y, d):
     W = X1 - x0
     pasos = d["pasos"]
     n = len(pasos)
-    bw = min(190, W / 2 - 20)
+    bw = min(176, W / 2 - 20)
     cx = x0 + W / 2
     hs = []
     for t, l in pasos:
@@ -113,8 +113,9 @@ def ciclo(s, y, d):
         tx, ty = tx / L, ty / L
         s.add(f'<polygon points="{px+tx*9:.1f},{py+ty*9:.1f} {px-tx*6-ty*7:.1f},{py-ty*6+tx*7:.1f} {px-tx*6+ty*7:.1f},{py-ty*6-tx*7:.1f}" fill="{TEAL}"/>')
     if d.get("centro"):
-        cl = wrap(d["centro"], Rx * 1.1, 12.5, True)
-        s.text(cx, cy + 4 - (len(cl) - 1) * 8.5, cl, 12.5, 800, MUTED, maxw=Rx * 1.1, lh=17)
+        cw_ = max(90, 2 * Rx - bw - 16)
+        cl = wrap(d["centro"], cw_, 12.5, True)
+        s.text(cx, cy + 4 - (len(cl) - 1) * 8.5, cl, 12.5, 800, MUTED, maxw=cw_, lh=17)
     for i, ((tl, bl, h), (px, py)) in enumerate(zip(hs, pos)):
         on = i == d.get("ans", -1)
         bx, by = px - bw / 2, py - h / 2

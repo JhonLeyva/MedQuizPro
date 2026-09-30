@@ -11,3 +11,5 @@ guardar(G("ileo_biliar.jpg").crop((548, 455, 960, 803)), "ib_tc.jpg", 412, 85)
 guardar(G("neumoperitoneo.jpg").crop((20, 10, 940, 780)), "neumoperitoneo.jpg", 700, 80)
 # Seudoquiste pancreático (J. Heilman, CC BY-SA 3.0)
 guardar(G("seudoquiste.png").crop((0, 0, 920, 751)), "seudoquiste.jpg", 700, 80)
+# Gemelos bicoriales a las 8 semanas (Nevit Dilmen, CC BY-SA 3.0): se recorta el texto del equipo
+guardar(G("gemelar_lambda.jpg").crop((0, 0, 491, 290)), "gemelar_lambda.jpg", 491, 85)

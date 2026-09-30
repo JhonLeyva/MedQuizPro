@@ -656,3 +656,422 @@ def mucosa_correa(s, x, y, caso=3, sc=1.0):
         if k < 4:
             p += flecha(cx + 50, 50, cx + 62, 50, SLATE, 1.6)
     g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ OBSTETRICIA
+PINK, PINK_D, AMN = "#fbcfe8", "#be185d", "#dbeafe"
+
+
+def _feto(cx, cy, sc=1.0, col="#fcd5b5"):
+    """Feto cefálico (cabeza abajo) centrado en (cx, cy)."""
+    k = sc
+    return (E(cx + 6 * k, cy - 48 * k, 44 * k, 58 * k, col, SKIN_D, 1.6, rot=-10)
+            + C(cx, cy + 34 * k, 36 * k, col, SKIN_D, 1.6)
+            + P(f"M{cx+30*k} {cy-70*k} q26 {18*k} 8 {44*k}", "none", SKIN_D, 5 * k, 'stroke-linecap="round"')
+            + P(f"M{cx-28*k} {cy-20*k} q-18 {22*k} 6 {36*k}", "none", SKIN_D, 5 * k, 'stroke-linecap="round"'))
+
+
+def utero_gestante(s, x, y, tipo="normal", marcas=(), rotulos=(), sc=1.0):
+    """Útero gestante en corte (lienzo 300×330). tipo: normal | dpp | rotura | rpm | oligo | corio | saf | dilatado."""
+    liq = {"oligo": "#e0f2fe", "corio": "#fef3c7"}.get(tipo, AMN)
+    p = (E(150, 150, 124, 142, PINK, PINK_D, 3) + E(150, 150, 108 if tipo != "oligo" else 96, 126 if tipo != "oligo" else 112, liq, "#93c5fd", 1.5)
+         + P("M40 70 C80 20 170 10 230 30 L210 62 C160 44 100 50 62 88 Z", "#9f1239", "#881337", 1.5))
+    p += _feto(150, 170, 0.95 if tipo != "oligo" else 0.85)
+    # cuello
+    if tipo == "dilatado":
+        p += P("M118 286 L126 322 M182 286 L174 322", "none", PINK_D, 8) + t(214, 316, "5 cm", ORANGE, 11, "start")
+    else:
+        p += P("M138 288 L138 324 M162 288 L162 324", "none", PINK_D, 8)
+    if tipo == "dpp":
+        p += P("M70 62 C110 44 176 36 222 44 L214 70 C170 66 120 72 84 92 Z", "#450a0a", "none", 0, 'opacity="0.9"')
+        p += P("M150 324 q-4 10 0 16 q4 10 0 16", "none", "#450a0a", 3)
+        p += t(248, 20, "Hematoma", "#450a0a", 10.5, "start") + t(248, 34, "retroplacentario", "#450a0a", 10.5, "start") + guia(246, 38, 200, 52)
+    if tipo == "rotura":
+        p += (P("M44 230 L58 216 L50 204 L66 190", "none", "#7f1d1d", 5) + E(20, 250, 20, 30, "#b91c1c", "none", 0, 'opacity="0.8"')
+              + t(4, 300, "Desgarro del segmento", "#7f1d1d", 10.5, "start") + t(4, 314, "(cicatriz previa)", "#7f1d1d", 10, "start", 600))
+    if tipo == "rpm":
+        p += "".join(f'<path d="M{146+k*8} {330+k*4} q3 6 0 10" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>' for k in range(2))
+        p += t(214, 326, "líquido claro", "#1d4ed8", 10.5, "start") + P("M142 290 L158 290", "none", "#ffffff", 4)
+    if tipo == "corio":
+        p += E(150, 150, 108, 126, "none", RED, 3, extra='stroke-dasharray="6 4"')
+        p += t(238, 110, "Membranas", RED, 10.5, "start") + t(238, 124, "infectadas", RED, 10.5, "start")
+    if tipo == "saf":
+        p += "".join(C(cx, cy, 5, "#1f2937", "none", 0) for cx, cy in [(96, 66), (130, 50), (170, 44), (204, 48)])
+        p += t(238, 24, "Trombos en la", "#1f2937", 10.5, "start") + t(238, 38, "placenta", "#1f2937", 10.5, "start")
+    p += t(250, 60, "placenta", "#9f1239", 10, "start") if tipo not in ("dpp", "saf") else ""
+    for n, mx, my in marcas:
+        p += num(mx, my, n)
+    for rx_, ry_, txt, anc in rotulos:
+        p += t(rx_, ry_, txt, INK, 10.5, anc)
+    g(s, x, y, p, sc)
+
+
+def cervix(s, x, y, largo=25, cerclaje=True, sc=1.0):
+    """Cuello uterino en corte con la longitud medida (lienzo 300×220)."""
+    L_ = 60 + largo * 2
+    p = (P(f"M40 20 C40 10 260 10 260 20 L260 60 C200 70 180 80 180 90 L180 {90+L_} L120 {90+L_} L120 90 C120 80 100 70 40 60 Z", PINK, PINK_D, 2)
+         + f'<line x1="150" y1="84" x2="150" y2="{90+L_}" stroke="#9f1239" stroke-width="2" stroke-dasharray="4 3"/>'
+         + t(150, 40, "cavidad uterina", PINK_D, 10.5))
+    p += (f'<line x1="200" y1="88" x2="200" y2="{90+L_}" stroke="{TEAL}" stroke-width="2"/>'
+          + f'<line x1="194" y1="88" x2="206" y2="88" stroke="{TEAL}" stroke-width="2"/><line x1="194" y1="{90+L_}" x2="206" y2="{90+L_}" stroke="{TEAL}" stroke-width="2"/>'
+          + t(212, 94 + L_ / 2, f"{largo} mm", TEAL_D, 12, "start"))
+    if cerclaje:
+        p += (E(150, 90 + L_ * 0.35, 36, 8, "none", "#1d4ed8", 3) + t(40, 90 + L_ * 0.35 + 4, "cerclaje", "#1d4ed8", 11, "start"))
+    p += t(150, 108 + L_, "orificio externo", MUTED, 10, halo=False)
+    g(s, x, y, p, sc)
+
+
+def ctg(s, x, y, patron="tardias", W=560, sc=1.0):
+    """Cardiotocografía: FCF arriba (60-200 lpm) y contracciones abajo, 10 minutos (lienzo W×230)."""
+    H1, H2 = 130, 60
+    X0_, X1_ = 40, W - 10
+    fy = lambda v: 10 + (200 - v) / 140 * H1
+    p = f'<rect x="{X0_}" y="10" width="{X1_-X0_}" height="{H1}" fill="#fff1f2" stroke="#fecdd3"/>'
+    p += f'<rect x="{X0_}" y="{H1+30}" width="{X1_-X0_}" height="{H2}" fill="#f0fdf4" stroke="#bbf7d0"/>'
+    for v in (80, 110, 140, 170):
+        p += f'<line x1="{X0_}" y1="{fy(v):.1f}" x2="{X1_}" y2="{fy(v):.1f}" stroke="#fecdd3" stroke-width="1"/>'
+        p += t(X0_ - 4, fy(v) + 4, str(v), MUTED, 9.5, "end", 600, halo=False)
+    for k in range(11):
+        xx = X0_ + k * (X1_ - X0_) / 10
+        p += f'<line x1="{xx:.1f}" y1="10" x2="{xx:.1f}" y2="{H1+30+H2}" stroke="#e2e8f0" stroke-width="1"/>'
+    n = 400
+    pts, cpts = [], []
+    import math as _m
+    for i in range(n + 1):
+        tt = i / n * 10
+        if patron == "sinusoidal":
+            v = 150 + 10 * _m.sin(2 * _m.pi * tt / 0.33) if tt < 7.5 else 150 - (tt - 7.5) * 26 + 3 * _m.sin(i)
+            v = max(v, 88)
+            c = 0.12 + 0.1 * max(0, _m.sin(2 * _m.pi * tt / 3.3)) ** 2
+        elif patron == "tardias":
+            c = sum(max(0, _m.cos(_m.pi * (tt - (0.9 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (0.9 + 2 * k)) < 0.65)
+            dec = sum(max(0, _m.cos(_m.pi * (tt - (1.6 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (1.6 + 2 * k)) < 0.65)
+            v = 145 - 28 * dec + 1.2 * _m.sin(i * 1.7)
+            c = 0.1 + 0.85 * c
+        else:
+            v = 140 + 6 * _m.sin(i * 0.9) + 4 * _m.sin(i * 0.37)
+            c = 0.1 + 0.7 * max(0, _m.sin(2 * _m.pi * tt / 3.3)) ** 6
+        xx = X0_ + tt / 10 * (X1_ - X0_)
+        pts.append(f"{xx:.1f},{fy(v):.1f}")
+        cpts.append(f"{xx:.1f},{H1+30+H2-c*H2*0.95:.1f}")
+    p += f'<polyline points="{" ".join(pts)}" fill="none" stroke="#1e293b" stroke-width="1.6"/>'
+    p += f'<polyline points="{" ".join(cpts)}" fill="none" stroke="#15803d" stroke-width="1.6"/>'
+    p += t(X0_ + 4, 24, "FCF (lpm)", "#9f1239", 10, "start", halo=False) + t(X0_ + 4, H1 + 44, "Contracciones", "#15803d", 10, "start", halo=False)
+    p += t((X0_ + X1_) / 2, H1 + 30 + H2 + 16, "10 minutos", MUTED, 10, halo=False)
+    g(s, x, y, p, sc)
+
+
+def partograma(s, x, y, puntos=((0, 6), (4, 6)), sc=1.0):
+    """Dilatación (4-10 cm) contra horas (0-10); puntos del caso en naranja (lienzo 460×250)."""
+    X0_, Y0_, W_, H_ = 50, 16, 390, 190
+    fx = lambda h: X0_ + h / 10 * W_
+    fy = lambda d: Y0_ + (10 - d) / 6 * H_
+    p = f'<rect x="{X0_}" y="{Y0_}" width="{W_}" height="{H_}" fill="#f8fafc" stroke="#cbd5e1"/>'
+    for d in range(4, 11):
+        p += f'<line x1="{X0_}" y1="{fy(d):.1f}" x2="{X0_+W_}" y2="{fy(d):.1f}" stroke="#e2e8f0"/>' + t(X0_ - 6, fy(d) + 4, f"{d}", MUTED, 10, "end", 600, halo=False)
+    for h in range(0, 11, 2):
+        p += t(fx(h), Y0_ + H_ + 16, f"{h} h", MUTED, 10, halo=False)
+    p += f'<line x1="{fx(0):.1f}" y1="{fy(6):.1f}" x2="{fx(4):.1f}" y2="{fy(10):.1f}" stroke="{GREEN}" stroke-width="2.5"/>'
+    p += t(fx(4) + 6, fy(10) + 14, "progreso esperado (≥ 1 cm/h)", GREEN, 10, "start")
+    p += P(f"M{fx(puntos[0][0]):.1f} {fy(puntos[0][1]):.1f} L{fx(puntos[-1][0]):.1f} {fy(puntos[-1][1]):.1f}", "none", ORANGE, 3)
+    for hh, dd in puntos:
+        p += C(fx(hh), fy(dd), 7, ORANGE, "#7c2d12", 2)
+    p += t(fx(2), fy(6) + 24, "4 h sin cambio con buenas contracciones", "#9a3412", 10.5)
+    p += t(12, Y0_ + H_ / 2, "cm", MUTED, 10, halo=False)
+    g(s, x, y, p, sc)
+
+
+def pelvis_sagital(s, x, y, defecto="cistocele", sc=1.0):
+    """Pelvis femenina en corte sagital (lienzo 320×300). Adelante = izquierda.
+    defecto: normal | cistocele | rectocele | cisto_recto | uterino | cupula | cupula_malla."""
+    cist = defecto in ("cistocele", "cisto_recto")
+    rect = defecto in ("rectocele", "cisto_recto")
+    p = (E(58, 170, 16, 30, "#e7e5e4", "#a8a29e", 2, rot=20)
+         + P("M246 20 C300 70 300 170 250 236 L236 226 C280 164 278 76 232 32 Z", "#e7e5e4", "#a8a29e", 2)
+         + t(40, 214, "pubis", MUTED, 10, halo=False) + t(298, 250, "sacro", MUTED, 10, "end", halo=False)
+         + '<line x1="20" y1="262" x2="300" y2="262" stroke="#e9b48f" stroke-width="3"/>' + t(24, 256, "periné", MUTED, 10, "start", halo=False))
+    # recto (detrás)
+    rpath = "M252 40 C262 110 236 170 204 206 C190 222 182 240 178 262" if not rect else "M252 40 C262 110 236 170 204 196 C160 206 170 236 178 262"
+    p += P(rpath, "none", "#fcd34d", 20, 'stroke-linecap="round"') + P(rpath, "none", "#d97706", 2)
+    # vagina
+    if defecto in ("uterino",):
+        vpath = "M168 150 C156 196 140 230 128 262"
+    elif defecto.startswith("cupula"):
+        vpath = "M150 230 C142 244 136 254 128 262"
+    else:
+        vpath = "M168 150 C156 196 140 230 128 262"
+    p += P(vpath, "none", "#f9a8d4", 16, 'stroke-linecap="round"') + P(vpath, "none", PINK_D, 1.5)
+    # vejiga
+    p += P("M78 110 C74 70 140 62 146 104 C150 136 132 150 108 150 C88 150 80 132 78 110 Z", ORG["vejiga"], "#ca8a04", 2)
+    if cist:
+        p += E(140, 196, 20, 24, ORG["vejiga"], "#ca8a04", 2) + P("M112 150 C124 162 132 170 136 176", "none", ORG["vejiga"], 14)
+    # útero
+    if defecto == "uterino":
+        p += (P("M120 250 C110 220 140 200 160 214 C176 226 170 254 156 268 Z", PINK, PINK_D, 2)
+              + E(142, 280, 22, 11, "#fda4af", PINK_D, 2) + E(146, 282, 9, 5, "#7f1d1d", "none", 0)
+              + t(160, 300, "cérvix fuera de la vulva, con úlcera", "#7f1d1d", 10.5))
+    elif defecto.startswith("cupula"):
+        p += E(130, 274, 26, 12, "#f9a8d4", PINK_D, 2) + t(160, 300, "cúpula vaginal evertida (sin útero)", "#9d174d", 10.5)
+        if defecto == "cupula_malla":
+            p += P("M150 232 C200 200 240 130 256 96", "none", "#2563eb", 3, 'stroke-dasharray="6 3"') + t(196, 128, "malla al promontorio", "#1d4ed8", 10.5, "start")
+    else:
+        p += E(176, 108, 40, 26, PINK, PINK_D, 2, rot=-50) + E(168, 146, 12, 10, PINK, PINK_D, 2)
+        p += t(200, 70, "útero", PINK_D, 10.5, "start")
+    if cist:
+        p += t(8, 40, "Cistocele: la vejiga baja", "#a16207", 10.5, "start") + t(8, 54, "por la pared anterior", "#a16207", 10.5, "start")
+        p += guia(60, 58, 132, 190, "#a16207")
+    if rect:
+        p += t(236, 284, "Rectocele: el recto", "#b45309", 10.5) + t(236, 298, "empuja la pared posterior", "#b45309", 10.5)
+        p += guia(236, 274, 178, 214, "#b45309")
+    if defecto not in ("uterino",) and not defecto.startswith("cupula"):
+        p += t(76, 104, "vejiga", "#a16207", 10, "end", halo=True) if not cist else ""
+    g(s, x, y, p, sc)
+
+
+def atfp(s, x, y, sc=1.0):
+    """Piso pélvico visto desde arriba: arco tendinoso de la fascia pélvica (ATFP) y la fascia pubocervical (lienzo 330×240)."""
+    p = (P("M165 18 C100 20 50 60 34 120 C28 170 60 214 110 226 L220 226 C270 214 302 170 296 120 C280 60 230 20 165 18 Z", "#f5f5f4", "#a8a29e", 3)
+         + P("M130 24 L200 24 L196 40 L134 40 Z", "#e7e5e4", "#a8a29e", 2) + t(165, 36, "pubis", MUTED, 10, halo=False)
+         + C(62, 170, 7, "#e7e5e4", "#a8a29e", 2) + C(268, 170, 7, "#e7e5e4", "#a8a29e", 2)
+         + t(58, 194, "espina", MUTED, 10, halo=False) + t(272, 194, "ciática", MUTED, 10, halo=False)
+         + P("M136 40 L62 170", "none", "#ffffff", 5) + P("M136 40 L62 170", "none", TEAL, 2.5)
+         + P("M194 40 L268 170", "none", "#ffffff", 5) + P("M194 40 L268 170", "none", TEAL, 2.5)
+         + P("M140 70 C150 66 180 66 190 70 L196 160 C180 170 150 170 134 160 Z", "#fce7f3", PINK_D, 2)
+         + t(165, 120, "vagina y", PINK_D, 10) + t(165, 134, "fascia", PINK_D, 10)
+         + P("M190 90 L230 92 M192 130 L246 134", "none", PINK_D, 2)
+         + P("M140 90 L118 92 M138 130 L108 134", "none", ORANGE, 2, 'stroke-dasharray="4 3"')
+         + t(18, 60, "ATFP (línea blanca)", TEAL_D, 10.5, "start") + guia(80, 64, 96, 100, TEAL)
+         + t(10, 130, "desinsertada:", ORANGE, 10.5, "start") + t(10, 144, "defecto paravaginal", ORANGE, 10.5, "start"))
+    g(s, x, y, p, sc)
+
+
+def anexo_torsion(s, x, y, lado="der", sc=1.0):
+    """Útero y anexos de frente; el anexo del lado indicado está torcido (lienzo 330×220).
+    lado = lado de la paciente (der = izquierda del dibujo)."""
+    p = (P("M130 60 C130 30 200 30 200 60 L196 130 C190 150 140 150 134 130 Z", PINK, PINK_D, 2) + P("M152 146 L152 176 L178 176 L178 146", PINK, PINK_D, 2)
+         + t(165, 100, "útero", PINK_D, 10.5))
+    torc = 0 if lado == "der" else 1
+    for k, sx in enumerate((1, -1)):
+        bx = 165 - sx * 35
+        ox = 165 - sx * 110
+        tw_ = k == torc
+        p += P(f"M{bx} 60 C{bx - sx*30} 40 {ox + sx*30} 40 {ox} 60", "none", "#f472b6", 6, 'stroke-linecap="round"')
+        if tw_:
+            p += "".join(f'<line x1="{(bx+ox)/2 - 14 + i*7}" y1="44" x2="{(bx+ox)/2 - 8 + i*7}" y2="60" stroke="{ORANGE}" stroke-width="3"/>' for i in range(5))
+            p += C(ox, 100, 46, "#7e22ce", "#3b0764", 2.5) + C(ox + 8, 94, 26, "#a855f7", "none", 0, 'opacity="0.6"')
+            p += t(ox, 164, "8 cm, torcido", "#581c87", 10.5) + t((bx + ox) / 2, 34, "pedículo girado", ORANGE, 10.5)
+        else:
+            p += E(ox, 86, 20, 14, "#fde68a", "#ca8a04", 1.6) + t(ox, 118, "ovario normal", MUTED, 10, halo=False)
+    p += t(10, 14, "D", MUTED, 11, "start", halo=False) + t(320, 14, "I", MUTED, 11, "end", halo=False)
+    g(s, x, y, p, sc)
+
+
+def utero_frontal(s, x, y, tipo="adenomiosis", sc=1.0):
+    """Útero en corte frontal (lienzo 300×240). tipo: adenomiosis | endometrio | tamoxifeno | mioma."""
+    grande = tipo == "adenomiosis"
+    if grande:
+        p = P("M60 40 C60 0 240 0 240 40 L232 150 C224 190 76 190 68 150 Z", "#f9a8d4", PINK_D, 2.5)
+        p += "".join(C(cx, cy, 4, "#9d174d", "none", 0, 'opacity="0.7"') for cx, cy in [(90, 60), (210, 70), (100, 130), (200, 140), (150, 30), (120, 100), (190, 104)])
+        p += P("M130 60 L170 60 L162 130 L138 130 Z", "#fecdd3", "#be185d", 1.5)
+        p += t(150, 210, "Útero grande, globuloso y blando:", "#9d174d", 10.5) + t(150, 224, "endometrio dentro del músculo", "#9d174d", 10.5)
+    else:
+        p = P("M90 40 C90 10 210 10 210 40 L204 140 C198 170 102 170 96 140 Z", "#f9a8d4", PINK_D, 2.5)
+        ancho = {"endometrio": 18, "tamoxifeno": 16, "mioma": 6}[tipo]
+        p += P(f"M{150-ancho} 44 L{150+ancho} 44 L{150+ancho*0.5} 140 L{150-ancho*0.5} 140 Z", "#fda4af", "#be185d", 1.5)
+        if tipo in ("endometrio", "tamoxifeno"):
+            p += (f'<line x1="{150-ancho}" y1="76" x2="{150+ancho}" y2="76" stroke="{TEAL}" stroke-width="2"/>'
+                  + t(230, 80, f"{'18 mm' if tipo == 'endometrio' else '> 4-5 mm'}", TEAL_D, 11.5, "start") + guia(228, 76, 150 + ancho, 76, TEAL))
+            if tipo == "tamoxifeno":
+                p += E(150, 104, 7, 10, "#e11d48", "#9f1239", 1.2) + t(230, 110, "pólipo o hiperplasia", "#9f1239", 10.5, "start")
+        if tipo == "mioma":
+            p += C(106, 70, 20, "#fef3c7", "#a16207", 2) + C(196, 110, 16, "#fef3c7", "#a16207", 2)
+        p += P("M138 160 L138 200 L162 200 L162 160", "#f9a8d4", PINK_D, 2)
+        p += t(150, 226, "endometrio" if tipo != "mioma" else "miomas", "#9d174d", 10.5)
+    g(s, x, y, p, sc)
+
+
+def mama(s, x, y, tipo="absceso", lado="izq", sc=1.0):
+    """Mama de frente (lienzo 300×240). lado de la paciente: define dónde queda el cuadrante externo."""
+    ext = 1 if lado == "izq" else -1       # izq: lo externo (axila) queda a la derecha del dibujo
+    p = (C(150, 125, 100, SKIN, SKIN_D, 2) + C(150, 125, 24, "#d6a684", "#9a6b52", 1.5) + C(150, 125, 8, "#9a6b52", "none", 0)
+         + "".join(P(f"M{150+18*math.cos(a):.0f} {125+18*math.sin(a):.0f} L{150+80*math.cos(a):.0f} {125+80*math.sin(a):.0f}", "none", "#f9a8d4", 2)
+                   for a in [k * math.pi / 4 for k in range(8)])
+         + '<line x1="150" y1="22" x2="150" y2="228" stroke="#cbd5e1" stroke-dasharray="4 4"/><line x1="46" y1="125" x2="254" y2="125" stroke="#cbd5e1" stroke-dasharray="4 4"/>'
+         + t(150 + ext * 120, 20, "axila", MUTED, 10, halo=False))
+    if tipo in ("absceso", "mastitis"):
+        cx, cy = 150 + ext * 52, 76
+        if tipo == "mastitis":
+            p += P(f"M150 125 L{150+ext*96} 60 L{150+ext*60} 30 Z", "#f87171", "none", 0, 'opacity="0.55"')
+        else:
+            p += C(cx, cy, 34, "#fca5a5", "#b91c1c", 2.5) + C(cx, cy, 18, "#fde68a", "#ca8a04", 1.5)
+            p += t(cx, cy - 42, "absceso de 5 cm", "#7f1d1d", 10.5)
+        p += t(150 + ext * 60, 236, "cuadrante superoexterno", MUTED, 10, halo=False)
+    if tipo == "papiloma":
+        p += (P(f"M150 125 L{150+ext*60} 70", "none", "#be185d", 4) + E(150 + ext * 34, 100, 8, 5, "#e11d48", "#881337", 1.2)
+              + P("M150 133 q-4 10 0 16 q4 -6 0 -16 Z", RED, "#7f1d1d", 1)
+              + t(150 + ext * 30, 172, "papiloma dentro de un conducto", "#881337", 10.5)
+              + t(150, 222, "secreción con sangre por el pezón", RED, 10.5))
+    g(s, x, y, p, sc)
+
+
+def gemelar_t(s, x, y, sc=1.0):
+    """Esquema ecográfico del signo de la T (monocoriónica biamniótica) (lienzo 330×250)."""
+    p = (f'<rect x="0" y="0" width="330" height="250" rx="8" fill="#0b0f19"/>'
+         + P("M20 40 C80 20 250 20 310 40 L310 70 C250 56 80 56 20 70 Z", "#94a3b8", "none", 0)
+         + t(165, 34, "UNA placenta", "#0b0f19", 11, halo=False)
+         + E(96, 150, 68, 76, "#111827", "#475569", 1) + E(234, 150, 68, 76, "#111827", "#475569", 1)
+         + '<line x1="165" y1="62" x2="165" y2="230" stroke="#e5e7eb" stroke-width="2"/>'
+         + C(96, 150, 22, "#6b7280", "none", 0) + C(234, 150, 22, "#6b7280", "none", 0)
+         + t(96, 196, "saco 1", "#9ca3af", 10, halo=False) + t(234, 196, "saco 2", "#9ca3af", 10, halo=False)
+         + P("M150 66 L180 66", "none", "#facc15", 3) + P("M165 66 L165 100", "none", "#facc15", 3)
+         + t(200, 100, "«T»: membrana fina", "#facc15", 11, "start", halo=False) + t(200, 114, "que llega recta", "#facc15", 11, "start", halo=False))
+    g(s, x, y, p, sc)
+
+
+def pelvis_sinfisis(s, x, y, sc=1.0):
+    """Pelvis ósea de frente con la sínfisis del pubis separada (lienzo 330×220)."""
+    b, b2 = "#f5f5f4", "#a8a29e"
+    p = (P("M160 60 C120 20 60 20 30 50 C14 80 30 120 60 140 L110 170 C130 150 150 130 158 110 Z", b, b2, 2.5)
+         + P("M170 60 C210 20 270 20 300 50 C316 80 300 120 270 140 L220 170 C200 150 180 130 172 110 Z", b, b2, 2.5)
+         + P("M140 56 H190 L184 120 C176 140 154 140 146 120 Z", "#e7e5e4", b2, 2)
+         + P("M84 150 C100 190 130 200 150 196 L150 162 C130 164 110 156 100 146 Z", b, b2, 2)
+         + P("M246 150 C230 190 200 200 180 196 L180 162 C200 164 220 156 230 146 Z", b, b2, 2)
+         + f'<rect x="150" y="160" width="30" height="40" fill="#fee2e2" stroke="{RED}" stroke-width="2" stroke-dasharray="4 3"/>'
+         + flecha(160, 214, 130, 214, RED, 2) + flecha(170, 214, 200, 214, RED, 2)
+         + t(165, 238, "sínfisis separada: dolor que impide caminar", "#7f1d1d", 10.5))
+    g(s, x, y, p, sc)
+
+
+def formula_obstetrica(s, x, y, G=3, P4=(1, 1, 1, 2), sc=1.0, resaltar=(0, 1, 2, 3, 4)):
+    """Recuadros G y P (T-P-A-V) (lienzo 470×150)."""
+    labs = [("G", str(G), "gestaciones"), ("T", str(P4[0]), "a término"), ("P", str(P4[1]), "pretérmino"),
+            ("A", str(P4[2]), "abortos"), ("V", str(P4[3]), "hijos vivos")]
+    p = ""
+    for k, (l, v, desc) in enumerate(labs):
+        bx = 10 + k * 92 + (16 if k > 0 else 0)
+        on = k in resaltar
+        p += f'<rect x="{bx}" y="20" width="80" height="80" rx="12" fill="{ORANGE_L if on else "#ffffff"}" stroke="{ORANGE if on else "#cbd5e1"}" stroke-width="{2.5 if on else 1.3}"/>'
+        p += t(bx + 40, 72, v, ORANGE if on else INK, 34, halo=False) + t(bx + 40, 16, l, TEAL_D, 12, halo=False)
+        p += t(bx + 40, 118, desc, SLATE, 10.5, fw=700, halo=False)
+    p += t(115, 140, "P = T · P · A · V", MUTED, 10.5, halo=False)
+    g(s, x, y, p, sc)
+
+
+def gestante(s, x, y, zonas=None, marcas=(), extra="", rotulos=(), sc=1.0):
+    """Mujer embarazada de frente (cuerpo + útero grávido)."""
+    panza = (E(120, 208, 64, 54, SKIN, SKIN_D, 2) + C(120, 214, 2.5, "#9a6b52", "none", 0))
+    cuerpo(s, x, y, zonas, marcas, panza + extra, rotulos, sc)
+
+
+def alveolo(s, x, y, sc=1.0):
+    """Alveolos sin y con surfactante (lienzo 360×190)."""
+    p = ""
+    for k, (tit, ok) in enumerate((("Sin surfactante", False), ("Con surfactante", True))):
+        cx = 90 + k * 180
+        p += f'<rect x="{cx-84}" y="4" width="168" height="182" rx="10" fill="{ORANGE_L if ok else "#ffffff"}" stroke="{ORANGE if ok else "#cbd5e1"}" stroke-width="{2.5 if ok else 1.3}"/>'
+        if ok:
+            p += C(cx, 90, 52, "#e0f2fe", "#0369a1", 2) + C(cx, 90, 48, "none", "#facc15", 3, 'stroke-dasharray="3 3"')
+            p += E(cx - 44, 118, 10, 7, "#fde68a", "#ca8a04", 1.2) + t(cx, 164, "Abierto: se ventila", "#0369a1", 10.5)
+            p += t(cx + 40, 34, "surfactante", "#a16207", 10, halo=False)
+        else:
+            p += P(f"M{cx-40} 90 C{cx-30} 70 {cx+30} 70 {cx+40} 90 C{cx+30} 104 {cx-30} 104 {cx-40} 90 Z", "#e0f2fe", "#0369a1", 2)
+            p += t(cx, 164, "Colapsa: membrana hialina", "#b91c1c", 10.5)
+        p += t(cx, 24, tit, INK, 11.5)
+    p += t(270, 130, "neumocito II", "#a16207", 9.5, "start", halo=False)
+    g(s, x, y, p, sc)
+
+
+def tira_orina(s, x, y, valores, sc=1.0):
+    """Tira reactiva: valores = [(nombre, color, texto, on)] (lienzo 460×120)."""
+    n = len(valores)
+    p = f'<rect x="10" y="30" width="{n*66+20}" height="30" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>'
+    for k, (nom, col, txt, on) in enumerate(valores):
+        bx = 22 + k * 66
+        p += f'<rect x="{bx}" y="34" width="42" height="22" rx="3" fill="{col}" stroke="{ORANGE if on else "#94a3b8"}" stroke-width="{3 if on else 1}"/>'
+        p += t(bx + 21, 22, nom, INK if on else SLATE, 10, fw=800 if on else 600, halo=False)
+        p += t(bx + 21, 78, txt, ORANGE if on else SLATE, 11, fw=800, halo=False)
+    g(s, x, y, p, sc)
+
+
+def curva_percentil(s, x, y, punto=(0.8, 0.28), xlab="Semanas", ylab="Peso", ticks=("24", "28", "32", "36", "40"),
+                    etiquetas=("p97", "p90", "p50", "p10", "p3"), marca="este caso", sc=1.0):
+    """Curvas de percentiles genéricas; punto en fracciones (x, y) del área (y=0 abajo) (lienzo 340×230)."""
+    X0_, Y0_, W_, H_ = 44, 12, 250, 180
+    p = f'<rect x="{X0_}" y="{Y0_}" width="{W_}" height="{H_}" fill="#f8fafc" stroke="#cbd5e1"/>'
+    offs = [0.9, 0.78, 0.55, 0.33, 0.22]
+    for k, (o, lab) in enumerate(zip(offs, etiquetas)):
+        pts = " ".join(f"{X0_+i/20*W_:.1f},{Y0_+H_-(o*(0.35+0.65*i/20)**1.1)*H_:.1f}" for i in range(21))
+        p += f'<polyline points="{pts}" fill="none" stroke="{TEAL if lab == "p50" else "#94a3b8"}" stroke-width="{2 if lab == "p50" else 1.4}"/>'
+        p += t(X0_ + W_ + 4, Y0_ + H_ - o * H_ + 4, lab, TEAL_D if lab == "p50" else MUTED, 10, "start", 700, halo=False)
+    for k, tk in enumerate(ticks):
+        p += t(X0_ + k * W_ / (len(ticks) - 1), Y0_ + H_ + 14, tk, MUTED, 10, halo=False)
+    px, py = X0_ + punto[0] * W_, Y0_ + H_ - punto[1] * H_
+    p += C(px, py, 7, ORANGE, "#7c2d12", 2) + t(px - 10, py + 22, marca, "#9a3412", 10.5, "end")
+    p += t(X0_ + W_ / 2, Y0_ + H_ + 30, xlab, MUTED, 10, halo=False) + t(8, Y0_ + 10, ylab, MUTED, 10, "start", halo=False)
+    g(s, x, y, p, sc)
+
+
+def eje_hho(s, x, y, bloqueo=True, sc=1.0):
+    """Eje hipotálamo-hipófisis-ovario con la retroalimentación de estrógenos (lienzo 300×290)."""
+    p = (E(150, 34, 70, 22, "#e0e7ff", "#6366f1", 2) + t(150, 39, "Hipotálamo", "#3730a3", 11)
+         + flecha(150, 58, 150, 94, "#6366f1", 2.4) + t(160, 80, "GnRH", "#3730a3", 10.5, "start")
+         + E(150, 116, 52, 20, "#fae8ff", "#a21caf", 2) + t(150, 121, "Hipófisis", "#86198f", 11)
+         + flecha(150, 138, 150, 176, "#a21caf", 2.4) + t(160, 162, "FSH y LH", "#86198f", 10.5, "start")
+         + E(150, 206, 62, 30, "#fef3c7", "#ca8a04", 2) + C(170, 202, 16, "#ffffff", "#ca8a04", 1.5) + t(128, 210, "Ovario", "#92400e", 11)
+         + t(208, 246, "folículo → ovulación", "#92400e", 10.5)
+         + P("M86 206 C30 180 30 60 80 36", "none", RED, 2.4, 'stroke-dasharray="6 4"') + t(6, 128, "estrógenos (–)", RED, 10.5, "start"))
+    if bloqueo:
+        p += (C(80, 36, 13, "#ffffff", ORANGE, 3) + P("M72 28 L88 44 M88 28 L72 44", "none", ORANGE, 3)
+              + t(20, 276, "Clomifeno bloquea el receptor: el hipotálamo", ORANGE, 10.5, "start")
+              + t(20, 290, "«no ve» estrógenos y sube la GnRH", ORANGE, 10.5, "start"))
+    g(s, x, y, p, sc)
+
+
+def vwf(s, x, y, sc=1.0):
+    """Adhesión plaquetaria: el factor de von Willebrand une colágeno y plaqueta y transporta el FVIII (lienzo 360×200)."""
+    p = (f'<rect x="0" y="150" width="360" height="40" fill="#fecaca"/>' + t(180, 176, "colágeno expuesto (vaso lesionado)", "#7f1d1d", 10.5)
+         + P("M40 150 Q60 120 90 130 Q120 140 140 110 Q160 80 190 96", "none", "#7c3aed", 5, 'stroke-linecap="round"')
+         + E(220, 80, 44, 26, "#fde68a", "#ca8a04", 2) + t(220, 84, "plaqueta", "#92400e", 10.5)
+         + C(190, 96, 6, "#16a34a", "none", 0) + t(196, 120, "GPIb", "#15803d", 10, "start")
+         + C(100, 128, 9, "#0ea5e9", "#0369a1", 1.5) + t(100, 110, "FVIII", "#0369a1", 10.5)
+         + t(20, 40, "Factor de von Willebrand (violeta):", "#6d28d9", 10.5, "start")
+         + t(20, 54, "puente entre colágeno y plaqueta", "#6d28d9", 10.5, "start")
+         + t(20, 68, "y protege al factor VIII", "#6d28d9", 10.5, "start"))
+    g(s, x, y, p, sc)
+
+
+def bebe(s, x, y, zonas=None, marcas=(), extra="", rotulos=(), sc=1.0):
+    """Lactante de frente (lienzo 240×330). zonas: cabeza, torax, abdomen, brazo_d/i, pierna_d/i, higado."""
+    z = zonas or {}
+    f = lambda k: z.get(k, SKIN)
+    p = (P("M76 128 C72 110 168 110 164 128 L172 222 C160 248 80 248 68 222 Z", f("torax"), SKIN_D, 2)
+         + P("M72 180 H168 L172 222 C160 248 80 248 68 222 Z", f("abdomen"), SKIN_D, 2)
+         + P("M76 132 L40 170 L52 184 L82 156 Z", f("brazo_d"), SKIN_D, 2) + P("M164 132 L200 170 L188 184 L158 156 Z", f("brazo_i"), SKIN_D, 2)
+         + C(44, 182, 10, f("brazo_d"), SKIN_D, 2) + C(196, 182, 10, f("brazo_i"), SKIN_D, 2)
+         + P("M84 236 L70 300 L94 304 L108 244 Z", f("pierna_d"), SKIN_D, 2) + P("M156 236 L170 300 L146 304 L132 244 Z", f("pierna_i"), SKIN_D, 2)
+         + E(80, 308, 14, 7, f("pierna_d"), SKIN_D, 2) + E(160, 308, 14, 7, f("pierna_i"), SKIN_D, 2)
+         + C(120, 70, 54, f("cabeza"), SKIN_D, 2)
+         + C(100, 66, 4, "#334155", "none", 0) + C(140, 66, 4, "#334155", "none", 0)
+         + '<path d="M110 96 Q120 102 130 96" fill="none" stroke="#9a6b52" stroke-width="2"/>'
+         + P("M116 76 Q120 86 124 76", "none", "#9a6b52", 2) + C(120, 214, 3, "#9a6b52", "none", 0))
+    if "higado" in z:
+        p += P("M74 184 C96 176 140 178 150 190 C140 210 96 214 76 206 Z", z["higado"], "#9a3412", 1.8, 'opacity="0.85"')
+    p += extra
+    for n, mx, my in marcas:
+        p += num(mx, my, n)
+    for rx_, ry_, txt, anc in rotulos:
+        p += t(rx_, ry_, txt, INK, 10.5, anc)
+    g(s, x, y, p, sc)
+
+
+def embarazos_linea(s, x, y, items, sc=1.0):
+    """Lista vertical de embarazos: items = [(título, detalle, cuenta_como, color)] (lienzo 220×400)."""
+    p = '<line x1="30" y1="20" x2="30" y2="320" stroke="#cbd5e1" stroke-width="3"/>'
+    n = len(items)
+    for k, (tit, det, cuenta, col) in enumerate(items):
+        yy = 30 + k * (280 / max(n - 1, 1)) if n > 1 else 60
+        p += C(30, yy, 16, col, "#ffffff", 3) + t(30, yy + 5, str(k + 1), "#ffffff", 12, halo=False)
+        p += t(56, yy - 4, tit, INK, 11.5, "start", halo=False) + t(56, yy + 12, det, SLATE, 10.5, "start", 600, halo=False)
+        p += f'<rect x="56" y="{yy+20}" width="{len(cuenta)*6.4+14:.0f}" height="18" rx="9" fill="{ORANGE_L}" stroke="{ORANGE}"/>'
+        p += t(63, yy + 33, cuenta, "#9a3412", 10, "start", halo=False)
+    g(s, x, y, p, sc)
