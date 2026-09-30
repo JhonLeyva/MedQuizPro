@@ -36,6 +36,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
     - Versión de caché: `?v=20260930-materias`.
   - **Ojo:** ese código se hizo sobre la copia de la plataforma del 28-sep (rama `origin/claude/clever-franklin-1fao9i`). Si el usuario trae sus archivos reales del servidor (Hostinger, `public_html`), aplica sobre ellos los cambios de `cambios.diff` en lugar de reemplazar a ciegas. Si su `index.html` contiene `20260928-plataforma`, es la misma versión y el ZIP sirve tal cual.
   - Herramientas de la clasificación: `herramientas/cb/materias/` (`rules.py` reglas por palabras, `ov1.py` correcciones manuales por número de pregunta, `apply.py`, `e2e.cjs` prueba en navegador). Preguntas nuevas de Ciencias Básicas deben traer `"categoria"` con uno de los 9 nombres exactos.
+  - Segunda revisión independiente (otro chat, 30-sep-2026): coincide en 460 de 485. Las 25 diferencias (casos de frontera: tóxicos, anafilaxia, vitaminas, reparación tisular) están en `herramientas/cb/materias/comparacion_segunda_revision.txt` (id | segunda revisión | la publicada). No se cambió nada: manda la clasificación publicada.
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 

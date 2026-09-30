@@ -1,0 +1,26 @@
+485 diferencias: 25
+CB-010 | Farmacología básica y autonómica | Microbiología e Inmunología
+CB-060 | Histología y Biología Celular | Microbiología e Inmunología
+CB-122 | Farmacología básica y autonómica | Fisiología
+CB-138 | Farmacología básica y autonómica | Fisiología
+CB-144 | Microbiología e Inmunología | Histología y Biología Celular
+CB-147 | Patología general | Histología y Biología Celular
+CB-161 | Anatomía | Fisiología
+CB-167 | Fisiología | Bioquímica y Genética
+CB-188 | Fisiología | Histología y Biología Celular
+CB-198 | Farmacología básica y autonómica | Patología general
+CB-227 | Histología y Biología Celular | Embriología
+CB-230 | Fisiología | Farmacología básica y autonómica
+CB-243 | Patología general | Histología y Biología Celular
+CB-244 | Fisiología | Histología y Biología Celular
+CB-250 | Fisiología | Patología general
+CB-257 | Farmacología básica y autonómica | Fisiología
+CB-261 | Histología y Biología Celular | Microbiología e Inmunología
+CB-270 | Fisiología | Bioquímica y Genética
+CB-296 | Anatomía | Histología y Biología Celular
+CB-355 | Fisiología | Bioquímica y Genética
+CB-362 | Patología general | Bioquímica y Genética
+CB-427 | Fisiología | Farmacología básica y autonómica
+CB-446 | Histología y Biología Celular | Fisiología
+CB-448 | Histología y Biología Celular | Microbiología e Inmunología
+CB-452 | Histología y Biología Celular | Fisiología
