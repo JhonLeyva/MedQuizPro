@@ -25,6 +25,14 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - Flujogramas hechos: `MedQuizPro_flujogramas_ciencias_basicas.zip` (393 SVG, `algoritmos.js` con 2106 entradas, verificadores `verificar-flujogramas-bloquecb.html` y general a 2106).
     Herramientas en `herramientas/flujo/`: `ccb.py` (lista `FCB`; curva por defecto en `fases`), `refcb.py` (fuentes), `contentcba…j.py`, `buildcbf.py`, `finishcb.py`, `chkcb.sh`, `e2ecb.cjs`, `existing_namescb.txt`, `ordercb.json`.
     Para un bloque siguiente: añade a `existing_namescb.txt` los nombres de `ordercb.json` y usa como base `outcb/pack/algoritmos.js` (2106).
+- **Materias de Ciencias Básicas (30-sep-2026):** las 485 preguntas de `ciencias_basicas.json` llevan el campo `"categoria"` con una de 9 materias (Anatomía 70 · Histología y Biología Celular 32 · Embriología 35 · Fisiología 62 · Bioquímica y Genética 55 · Microbiología e Inmunología 42 · Farmacología básica y autonómica 166 · Patología general 20 · Epidemiología y Bioestadística 3).
+  - Código de la plataforma modificado en `herramientas/plataforma_materias/` (catalogo.js, main.js, styles.css, index.html, app/app.js, app/index.html, `cambios.diff` y LEEME). Paquete: `MedQuizPro_ciencias_basicas_materias.zip`.
+    - catalogo.js: `categorias: [9 nombres]` en Ciencias Básicas; `normalizar` copia `categoria`; `filtrar` acepta `categorias: []` o `categoria` (solo recorta especialidades con categorías); `MQP.contarCategorias`.
+    - main.js: selector «Materia» en la tarjeta (`alEntrenar(esp, materia)`), `abrir(cfg)` pasa `cfg.categoria/categorias`, `M.ui.contarMaterias` y `M.ui.tituloMateria`, la etiqueta de tema muestra «Materia · tema».
+    - app/app.js: paso «Materias» en el armador cuando se elige Ciencias Básicas (`conf.categorias`), tarjetas y `ACCIONES.especialidad` pasan la materia.
+    - Versión de caché: `?v=20260930-materias`.
+  - **Ojo:** ese código se hizo sobre la copia de la plataforma del 28-sep (rama `origin/claude/clever-franklin-1fao9i`). Si el usuario trae sus archivos reales del servidor (Hostinger, `public_html`), aplica sobre ellos los cambios de `cambios.diff` en lugar de reemplazar a ciegas. Si su `index.html` contiene `20260928-plataforma`, es la misma versión y el ZIP sirve tal cual.
+  - Herramientas de la clasificación: `herramientas/cb/materias/` (`rules.py` reglas por palabras, `ov1.py` correcciones manuales por número de pregunta, `apply.py`, `e2e.cjs` prueba en navegador). Preguntas nuevas de Ciencias Básicas deben traer `"categoria"` con uno de los 9 nombres exactos.
 - **PDF original** (`Banco_ENAM_Respuestas_Resaltadas.pdf`, 2497 preguntas): ya no está en disco. Su versión procesada es `herramientas/parsed.json`.
 - **PDF revisado completo.** Las 391 pendientes se revisaron en el bloque 8 (`sel8.py`: 134 en `SEL`, 257 en `EXC`). Ya no quedan preguntas del PDF por usar.
 
@@ -175,5 +183,5 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 4. Opcional: abre `verificar-flujogramas.html` y revisa que el total cuadre y no haya ninguno "sin pregunta".
 
 ## Próxima tarea sugerida
-Bancos y flujogramas al día: 2106 preguntas y 2106 flujogramas.
+Bancos y flujogramas al día: 2106 preguntas y 2106 flujogramas. Ciencias Básicas ya está clasificada por materias (pendiente solo que el usuario suba el ZIP de materias o te pase sus archivos del servidor para adaptarlo).
 Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).
