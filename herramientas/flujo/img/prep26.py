@@ -16,3 +16,11 @@ guardar(G("gemelar_lambda.jpg").crop((0, 0, 491, 290)), "gemelar_lambda.jpg", 49
 # Loxosceles laeta (Mampato, dominio público) y varicela (CDC, dominio público)
 guardar(C("loxosceles.jpg").crop((160, 180, 580, 600)), "loxosceles.jpg", 420, 85)
 guardar(C("varicela.jpg").crop((0, 100, 500, 744)), "varicela.jpg", 500, 85)
+# Tanda 4. Absceso pulmonar (J. Heilman, CC BY-SA 4.0); TB cavitaria (CDC, dominio público);
+# molusco contagioso (Gzzz, CC BY-SA 4.0); bastones de Auer (AFIP, dominio público);
+# retinitis por CMV (National Eye Institute, dominio público)
+guardar(G("absceso_heilman.png"), "absceso_rx.jpg", 500, 85)
+guardar(G("tb_cdc.jpg"), "tb_cavitaria.jpg", 500, 85)
+guardar(C("molusco.jpg").crop((120, 180, 640, 860)), "molusco.jpg", 520, 85)
+guardar(C("auer.jpg").crop((90, 20, 330, 400)), "auer.jpg", 240, 90)
+guardar(C("retinitis_cmv.jpg").crop((140, 60, 760, 560)), "retinitis_cmv.jpg", 620, 85)

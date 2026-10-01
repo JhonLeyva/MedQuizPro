@@ -1112,11 +1112,23 @@ def torax_rx(s, x, y, patron="normal", lado="der", sc=1.0, rotulos=(), marcas=()
             p += f'<rect x="{xl-18}" y="{cy_}" width="36" height="18" fill="#e5e7eb"/>' + f'<line x1="{xl-18}" y1="{cy_}" x2="{xl+18}" y2="{cy_}" stroke="#ffffff" stroke-width="2"/>'
         else:
             p += "".join(C(xl + dx, cy_ + dy, 3, "#e5e7eb", "none", 0) for dx, dy in [(-40, 30), (30, 36), (-20, 50), (20, 60)])
-    elif patron in ("edema", "sdra"):
+    elif patron == "sdra":
         for cx_ in (90, 210):
             p += E(cx_, 150, 48, 70, "#e5e7eb", "none", 0, extra='opacity="0.55"')
-        if patron == "edema":
-            p += P("M110 110 C80 150 90 200 140 236 L204 236 C240 200 222 140 180 118 Z", "#cbd5e1", "none", 0)
+    elif patron == "edema":
+        import random as _r
+        rr = _r.Random(12)
+        p += '<defs><filter id="rxblur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter></defs><g filter="url(#rxblur)">'
+        for sgn in (-1, 1):
+            for _ in range(22):
+                ang, rad = rr.uniform(-1.3, 1.3), rr.uniform(8, 62)
+                cx_ = 150 + sgn * (22 + rad * abs(__import__("math").cos(ang)))
+                cy_ = 140 + rad * __import__("math").sin(ang) * 1.2
+                p += C(f"{cx_:.0f}", f"{cy_:.0f}", f"{rr.uniform(9, 16):.0f}", "#e5e7eb", "none", 0, 'opacity="0.45"')
+        p += '</g>'
+        for sgn in (-1, 1):
+            p += "".join(f'<line x1="{150+sgn*104}" y1="{196+k*9}" x2="{150+sgn*118}" y2="{196+k*9}" stroke="#e5e7eb" stroke-width="1.6"/>' for k in range(4))
+        p += P("M110 110 C80 150 90 200 140 236 L204 236 C240 200 222 140 180 118 Z", "#cbd5e1", "none", 0)
     elif patron == "fibrosis":
         import random as _r
         rr = _r.Random(5)
@@ -1285,7 +1297,11 @@ def rinon_vias(s, x, y, opcion="normal", lado="der", sc=1.0, rotulos=()):
         p += P(f"M{xk-8} 60 L{xk+6} 80 L{xk-6} 96 L{xk+8} 116", "none", "#7f1d1d", 4)
         p += E(xk + (22 if lado == "izq" else -22), 100, 22, 40, "#b91c1c", "none", 0, 'opacity="0.55"')
     elif opcion == "rinones_pequenos":
-        p = p.replace("M50 40 C20 50 20 130 50 140", "M50 60 C34 66 34 116 50 122").replace("M250 40 C280 50 280 130 250 140", "M250 60 C266 66 266 116 250 122")
+        p = (p.replace("M50 40 C20 50 20 130 50 140 C70 146 84 120 76 90 C84 60 70 34 50 40 Z",
+                       "M50 57.5 C30.5 64 30.5 116 50 122.5 C63 126.4 72.1 109.5 66.9 90 C72.1 70.5 63 53.6 50 57.5 Z")
+              .replace("M250 40 C280 50 280 130 250 140 C230 146 216 120 224 90 C216 60 230 34 250 40 Z",
+                       "M250 57.5 C269.5 64 269.5 116 250 122.5 C237 126.4 227.9 109.5 233.1 90 C227.9 70.5 237 53.6 250 57.5 Z")
+              .replace("M76 96 C90 150", "M67 96 C90 150").replace("M224 96 C210 150", "M233 96 C210 150"))
     elif opcion == "prostata":
         p += E(150, 280, 26, 14, "#fdba74", "#c2410c", 2) + t(186, 284, "próstata", "#c2410c", 10, "start")
     for rx_, ry_, txt, anc in rotulos:
@@ -1415,4 +1431,208 @@ def pieza_t(s, x, y, sc=1.0):
          + C(222, 60, 7, "#ffffff", "#0f766e", 2) + t(236, 52, "se tapa para dar", TEAL_D, 10, "start") + t(236, 64, "cada insuflación", TEAL_D, 10, "start")
          + E(284, 90, 22, 20, "#fde68a", "#ca8a04", 2) + t(284, 130, "mascarilla", MUTED, 10, halo=False)
          + t(65, 150, "presiones fijas y PEEP: menos daño pulmonar", "#0f766e", 10.5, "start"))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ CORAZÓN EN 4 CÁMARAS (lienzo 260×250)
+def corazon4(s, x, y, caso="normal", sc=1.0):
+    """Esquema de 4 cámaras (derecha del paciente = izquierda del dibujo).
+    caso: normal | vd_dilatado | hvi (pared del VI gruesa) | ia (VI dilatado con chorro de regurgitación aórtica)."""
+    MIO, CAV_D, CAV_I = "#f87171", "#bfdbfe", "#fecaca"
+    vd = (86, 160, 52, 52) if caso != "vd_dilatado" else (96, 160, 76, 68)
+    vi = (176, 162, 50, 62) if caso not in ("vd_dilatado", "ia") else ((186, 166, 36, 46) if caso == "vd_dilatado" else (176, 168, 64, 70))
+    pared = 16 if caso == "hvi" else 8
+    p = (E(82, 74, 42, 34, CAV_D, "#1d4ed8", 2) + t(82, 78, "AD", "#1e3a8a", 11)
+         + E(184, 74, 40, 30, CAV_I, "#b91c1c", 2) + t(184, 78, "AI", "#7f1d1d", 11))
+    if caso == "ia":
+        p += P("M124 120 C122 70 128 30 146 6 L164 12 C148 32 144 70 150 120 Z", "#fca5a5", "#b91c1c", 2) + t(170, 16, "aorta", "#991b1b", 10, "start")
+    cx, cy, rx, ry = vi
+    p += E(cx, cy, rx + pared, ry + pared, MIO, "#991b1b", 2) + E(cx, cy, rx, ry, CAV_I, "none", 0) + t(cx, cy + 4, "VI", "#7f1d1d", 12)
+    cx, cy, rx, ry = vd
+    p += E(cx, cy, rx + 6, ry + 6, "#fca5a5", "#991b1b", 2) + E(cx, cy, rx, ry, CAV_D, "none", 0) + t(cx, cy + 4, "VD", "#1e3a8a", 12)
+    if caso == "vd_dilatado":
+        p += t(96, 244, "VD dilatado aplasta al VI", ORANGE, 10.5)
+    elif caso == "hvi":
+        p += t(176, 246, "pared gruesa y rígida", ORANGE, 10.5)
+    elif caso == "ia":
+        p += "".join(flecha(132 + k * 10, 60, 146 + k * 12, 132, ORANGE, 2.4) for k in range(2))
+        p += t(130, 246, "la sangre vuelve de la aorta al VI", ORANGE, 10.5)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ TIRA DE ECG (lienzo W×100)
+def ecg_tira(s, x, y, ritmo="fv", W=760, sc=1.0):
+    """ritmo: fv | sinusal | asistolia | hipok (ST descendido, T plana y onda U grande)."""
+    import math as _m
+    p = f'<rect x="0" y="0" width="{W}" height="100" rx="8" fill="#fff1f2" stroke="#fecdd3"/>'
+    p += "".join(f'<line x1="{i}" y1="0" x2="{i}" y2="100" stroke="#fecdd3" stroke-width="0.8"/>' for i in range(20, W, 20))
+    p += "".join(f'<line x1="0" y1="{j}" x2="{W}" y2="{j}" stroke="#fecdd3" stroke-width="0.8"/>' for j in range(20, 100, 20))
+    pts = []
+    for i in range(0, W - 10, 3):
+        if ritmo == "fv":
+            v = 18 * _m.sin(i / 9.0) + 10 * _m.sin(i / 4.3 + 1) + 6 * _m.sin(i / 23.0)
+        elif ritmo == "asistolia":
+            v = 1.5 * _m.sin(i / 30.0)
+        elif ritmo == "hipok":
+            ph = i % 150
+            v = (-34 if 58 <= ph < 62 else 10 if 62 <= ph < 66 else -6 * _m.sin((ph - 20) / 12 * _m.pi) if 20 <= ph < 32 else
+                 4 if 70 <= ph < 92 else -3 * _m.sin((ph - 92) / 16 * _m.pi) if 92 <= ph < 108 else
+                 -15 * _m.sin((ph - 108) / 26 * _m.pi) if 108 <= ph < 134 else 0)
+        else:
+            ph = i % 120
+            v = (-34 if 58 <= ph < 62 else 10 if 62 <= ph < 66 else -6 * _m.sin((ph - 20) / 12 * _m.pi) if 20 <= ph < 32 else
+                 -8 * _m.sin((ph - 80) / 24 * _m.pi) if 80 <= ph < 104 else 0)
+        pts.append(f"{i + 6},{50 + v:.1f}")
+    p += f'<polyline points="{" ".join(pts)}" fill="none" stroke="#111827" stroke-width="2"/>'
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ ESPIROMETRÍA VOLUMEN-TIEMPO (lienzo 340×230)
+def espirometria(s, x, y, sc=1.0, W_=260, H_=170):
+    """Curva normal frente a obstructiva: FEV1 (1 s) y FVC (lienzo (W_+80)×(H_+60))."""
+    import math as _m
+    X0_, Y0_ = 44, 14
+    fx = lambda tt: X0_ + tt / 6 * W_
+    fy = lambda v: Y0_ + H_ - v / 5 * H_
+    p = f'<rect x="{X0_}" y="{Y0_}" width="{W_}" height="{H_}" fill="#f8fafc" stroke="#cbd5e1"/>'
+    for nombre, fvc, k, col in (("normal", 4.6, 1.6, TEAL), ("EPOC", 3.4, 0.8, ORANGE)):
+        pts = " ".join(f"{fx(tt/10):.1f},{fy(fvc*(1-_m.exp(-k*tt/10))):.1f}" for tt in range(0, 61))
+        p += f'<polyline points="{pts}" fill="none" stroke="{col}" stroke-width="2.6"/>'
+        v1 = fvc * (1 - _m.exp(-k))
+        p += C(fx(1), fy(v1), 4.5, col, "#ffffff", 1.5)
+        p += t(fx(6) - 4, fy(fvc) - 6, f"{nombre}: {v1/fvc:.2f}".replace(".", ","), col, 10.5, "end")
+    p += f'<line x1="{fx(1):.1f}" y1="{Y0_}" x2="{fx(1):.1f}" y2="{Y0_+H_}" stroke="#94a3b8" stroke-dasharray="4 3"/>'
+    p += t(fx(1), Y0_ + H_ + 14, "1 s", MUTED, 10, halo=False) + t(fx(6), Y0_ + H_ + 14, "6 s", MUTED, 10, halo=False)
+    p += t(X0_ + W_ / 2, Y0_ + H_ + 30, "Tiempo (FEV1/FVC al final de cada curva)", MUTED, 10, halo=False) + t(6, Y0_ - 2, "Volumen (L)", MUTED, 10, "start", halo=False)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ TESTÍCULOS (lienzo 260×230)
+def testiculo(s, x, y, tipo="normal", sc=1.0):
+    """tipo: normal | masa (masa sólida en el testículo derecho) | criptorquidia (izquierdo descendido con orquidopexia).
+    Derecha del paciente = izquierda del dibujo."""
+    p = (P("M40 70 C30 150 70 210 130 212 C190 210 230 150 220 70 Z", SKIN, SKIN_D, 2)
+         + P("M130 76 L130 206", "none", SKIN_D, 1.5, 'stroke-dasharray="4 3"')
+         + P("M70 10 L86 74 M190 10 L174 74", "none", "#94a3b8", 5, 'stroke-linecap="round"')
+         + t(48, 14, "conducto inguinal", MUTED, 9.5, "start", halo=False)
+         + t(8, 226, "D", MUTED, 11, "start", halo=False) + t(252, 226, "I", MUTED, 11, "end", halo=False))
+    der = E(88, 140, 30, 40, "#fde7f3", "#9d174d", 2)
+    izq = E(172, 140, 30, 40, "#fde7f3", "#9d174d", 2)
+    if tipo == "masa":
+        der += P("M74 124 C82 110 104 114 106 132 C108 150 92 160 80 152 C70 146 68 134 74 124 Z", "#78716c", "#44403c", 1.5)
+        der += t(88, 196, "masa sólida", ORANGE, 10.5)
+    elif tipo == "criptorquidia":
+        izq = E(172, 146, 24, 32, "#fde7f3", "#9d174d", 2) + E(172, 146, 34, 42, "none", ORANGE, 2.5, 'stroke-dasharray="5 4"')
+        izq += P("M186 30 C190 70 182 96 174 108", "none", ORANGE, 2.5, 'stroke-dasharray="6 4"') + flecha(176, 92, 174, 110, ORANGE, 2.5)
+        izq += t(258, 40, "bajado con", ORANGE, 10, "end") + t(258, 52, "orquidopexia", ORANGE, 10, "end")
+        izq += t(172, 204, "riesgo mayor", ORANGE, 10.5)
+    p += der + izq
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ SÍNDROME POST-RTU (lienzo 340×210)
+def rtu(s, x, y, sc=1.0):
+    """Irrigación hipotónica → se absorbe → sodio diluido → agua entra a las neuronas."""
+    p = (f'<rect x="20" y="10" width="60" height="78" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>'
+         + t(50, 44, "glicina", "#075985", 10) + t(50, 58, "1,5 %", "#075985", 10)
+         + P("M50 88 L50 130", "none", "#0369a1", 3) + E(50, 152, 30, 22, "#fecdd3", "#9f1239", 2) + t(50, 156, "próstata", "#9f1239", 9.5)
+         + t(50, 196, "1. se irriga", SLATE, 10.5)
+         + flecha(86, 150, 132, 112, ORANGE, 2.6)
+         + f'<rect x="138" y="40" width="40" height="130" rx="14" fill="#fee2e2" stroke="{RED}" stroke-width="2"/>'
+         + "".join(C(150 + (k % 2) * 16, 60 + k * 14, 4, "#bae6fd", "#0369a1", 1) for k in range(8))
+         + t(158, 186, "2. vena:", SLATE, 10.5) + t(158, 200, "Na baja", ORANGE, 10.5)
+         + flecha(184, 106, 222, 106, ORANGE, 2.6)
+         + C(282, 106, 48, "#fbcfe8", "#be185d", 2.5) + C(282, 106, 16, "#f9a8d4", "#9d174d", 1.5)
+         + "".join(flecha(282 + 70 * __import__("math").cos(a), 106 + 70 * __import__("math").sin(a),
+                          282 + 52 * __import__("math").cos(a), 106 + 52 * __import__("math").sin(a), "#0284c7", 2)
+                   for a in (0.3, 1.2, 2.2, 3.4, 4.4, 5.4))
+         + t(282, 186, "3. el agua entra", SLATE, 10.5) + t(282, 200, "a las neuronas", SLATE, 10.5))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ CUELLO CON BOCIO (lienzo 300×230)
+def cuello_bocio(s, x, y, compresivo=True, sc=1.0):
+    """Corte transversal del cuello: tiroides agrandada que comprime y desvía la tráquea."""
+    p = (E(150, 115, 140, 104, SKIN, SKIN_D, 2) + t(150, 222, "corte del cuello (visto desde abajo)", MUTED, 10, halo=False)
+         + E(150, 180, 22, 18, "#e7e5e4", "#78716c", 2) + t(150, 184, "vértebra", "#57534e", 9.5)
+         + E(150, 146, 14, 9, "#fecaca", "#b91c1c", 1.5))
+    if compresivo:
+        p += (P("M60 90 C50 40 120 30 140 70 L160 70 C180 30 250 40 240 90 C236 140 190 150 168 118 L132 118 C110 150 64 140 60 90 Z",
+                "#fda4af", "#be123c", 2.5)
+              + E(150, 100, 14, 8, "#e0f2fe", "#0369a1", 3) + t(150, 74, "tráquea aplastada", "#075985", 10)
+              + "".join(flecha(98 + k * 104, 100, 128 + k * 44, 100, ORANGE, 2.4) for k in range(2))
+              + t(60, 26, "bocio grado III", "#9f1239", 10.5, "start"))
+    else:
+        p += (P("M100 96 C96 76 128 72 138 90 L162 90 C172 72 204 76 200 96 C196 116 170 118 162 108 L138 108 C130 118 104 116 100 96 Z",
+                "#fda4af", "#be123c", 2) + C(150, 98, 14, "#e0f2fe", "#0369a1", 3) + t(150, 70, "tráquea", "#075985", 10))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ CROMOSOMA FILADELFIA (lienzo 360×200)
+def filadelfia(s, x, y, sc=1.0):
+    """t(9;22): el ABL del cromosoma 9 se une al BCR del 22; el 22 corto es el Filadelfia."""
+    def crom(cx, top, h, col, rotulo, cola=None):
+        q = f'<rect x="{cx-12}" y="{top}" width="24" height="{h}" rx="12" fill="{col}" stroke="#334155" stroke-width="1.5"/>'
+        q += f'<line x1="{cx-12}" y1="{top+h*0.3:.0f}" x2="{cx+12}" y2="{top+h*0.3:.0f}" stroke="#334155" stroke-width="2"/>'
+        if cola:
+            c2, h2 = cola
+            q += f'<rect x="{cx-12}" y="{top+h}" width="24" height="{h2}" rx="10" fill="{c2}" stroke="#334155" stroke-width="1.5"/>'
+        return q + t(cx, 196, rotulo, INK, 10.5)
+    p = (crom(50, 20, 120, "#bfdbfe", "9 normal") + crom(110, 60, 70, "#fde68a", "22 normal")
+         + flecha(150, 100, 196, 100, ORANGE, 3) + t(173, 90, "t(9;22)", ORANGE, 10.5)
+         + crom(240, 20, 100, "#bfdbfe", "9 largo", ("#fde68a", 30))
+         + crom(310, 60, 46, "#fde68a", "Filadelfia", ("#bfdbfe", 26))
+         + f'<rect x="296" y="96" width="28" height="22" rx="4" fill="none" stroke="{RED}" stroke-width="2.5"/>'
+         + t(310, 52, "BCR-ABL1", RED, 10.5))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ MARCADORES DEL VIH EN EL TIEMPO (lienzo 380×230)
+def vih_marcadores(s, x, y, semana=4, sc=1.0):
+    import math as _m
+    X0_, Y0_, W_, H_ = 40, 16, 300, 160
+    fx = lambda w: X0_ + w / 12 * W_
+    fy = lambda v: Y0_ + H_ - v * H_
+    p = f'<rect x="{X0_}" y="{Y0_}" width="{W_}" height="{H_}" fill="#f8fafc" stroke="#cbd5e1"/>'
+    curvas = [("ARN (NAT)", "#dc2626", lambda w: max(0.9 * _m.exp(-((w - 3) / 1.4) ** 2), 0.35 if w > 3 else 0)),
+              ("Antígeno p24", "#7c3aed", lambda w: 0.7 * _m.exp(-((w - 3.6) / 1.2) ** 2)),
+              ("Anticuerpos", "#0f766e", lambda w: 0.85 / (1 + _m.exp(-(w - 6) * 1.4)))]
+    for k, (nom, col, f) in enumerate(curvas):
+        pts = " ".join(f"{fx(i/10):.1f},{fy(max(0, f(i/10))):.1f}" for i in range(0, 121))
+        p += f'<polyline points="{pts}" fill="none" stroke="{col}" stroke-width="2.6"/>'
+        p += f'<line x1="{X0_+8+k*104}" y1="{Y0_+H_+40}" x2="{X0_+28+k*104}" y2="{Y0_+H_+40}" stroke="{col}" stroke-width="3"/>' + t(X0_ + 32 + k * 104, Y0_ + H_ + 44, nom, col, 10, "start")
+    p += f'<line x1="{fx(semana):.1f}" y1="{Y0_}" x2="{fx(semana):.1f}" y2="{Y0_+H_}" stroke="{ORANGE}" stroke-width="2" stroke-dasharray="5 4"/>'
+    p += t(fx(semana) + 4, Y0_ + 12, "este caso", ORANGE, 10.5, "start")
+    for w in (0, 4, 8, 12):
+        p += t(fx(w), Y0_ + H_ + 14, str(w), MUTED, 10, halo=False)
+    p += t(X0_ + W_ / 2, Y0_ + H_ + 26, "semanas desde la exposición", MUTED, 10, halo=False)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ ÚLCERA GENITAL (lienzo 220×200)
+def ulcera_genital(s, x, y, tipo="chancroide", sc=1.0):
+    """tipo: chancroide (dolorosa, blanda, bordes irregulares, ganglio que supura) | sifilis (indolora, dura, limpia)."""
+    p = f'<rect x="0" y="0" width="220" height="200" rx="10" fill="{SKIN}" stroke="{SKIN_D}"/>'
+    if tipo == "chancroide":
+        p += (P("M60 50 C80 30 120 40 132 60 C150 70 140 104 118 110 C96 124 62 112 56 90 C44 76 50 60 60 50 Z", "#fecaca", RED, 3)
+              + P("M74 64 C90 56 112 62 118 78 C122 94 100 102 86 98 C70 94 64 78 74 64 Z", "#fef3c7", "#ca8a04", 1.5)
+              + E(172, 160, 28, 18, "#fca5a5", RED, 2.5) + C(172, 160, 7, "#fef9c3", "#ca8a04", 1.5)
+              + t(92, 134, "dolorosa, blanda, sucia", RED, 10.5) + t(160, 194, "ganglio que supura", RED, 10.5))
+    else:
+        p += (C(96, 82, 34, "#fecaca", "#9f1239", 4) + C(96, 82, 22, "#fda4af", "none", 0)
+              + E(172, 160, 22, 14, "#fde2e2", "#9f1239", 1.5)
+              + t(96, 134, "indolora, dura, limpia", "#9f1239", 10.5) + t(150, 194, "ganglio duro, no supura", "#9f1239", 10.5))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ FONDO DE OJO (lienzo 240×240)
+def fondo_ojo(s, x, y, tipo="toxo", sc=1.0):
+    """tipo: toxo (foco blanco junto a cicatriz pigmentada, «faro en la niebla») | normal."""
+    p = (C(120, 120, 112, "#1c0a00", "none", 0) + C(120, 120, 104, "#ea580c", "none", 0, 'opacity="0.9"')
+         + C(150, 112, 18, "#fde68a", "#f59e0b", 1.5)
+         + "".join(P(f"M150 112 C{150+dx} {112+dy/2} {150+dx*1.6:.0f} {112+dy} {150+dx*2.2:.0f} {112+dy*1.4:.0f}", "none", "#b91c1c", 3)
+                   for dx, dy in [(-40, -40), (-40, 40), (-30, -60), (-30, 60)]))
+    if tipo == "toxo":
+        p += (C(74, 150, 20, "#3f1d0b", "#1c0a00", 1.5) + C(86, 170, 26, "#fff7ed", "none", 0, 'opacity="0.9"')
+              + C(86, 170, 34, "#fef3c7", "none", 0, 'opacity="0.35"'))
     g(s, x, y, p, sc)

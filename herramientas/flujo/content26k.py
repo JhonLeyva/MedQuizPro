@@ -324,7 +324,7 @@ S("embudo", "PED-267", "nino-2-anos-zona-andina-anemia-microcitica-deficiencia-h
                 ("¿Inflamación o infección crónica de fondo?", ["Enfermedad crónica"])],
          final=("Deficiencia de hierro", ["VCM 65 y HCM baja con dieta pobre en hierro"]),
          nota="Glóbulos rojos pequeños y pálidos, sin otra enfermedad: falta de hierro."),
-  banda=B("Frotis (esquema)", D(lambda s, x, y: I.frotis(s, x + 20, y, "microcitica", sc=1.1), 280, 180),
+  banda=B("Frotis (esquema)", D(lambda s, x, y: I.frotis(s, x, y, "microcitica", sc=1.1), 330, 220),
           ["Glóbulos rojos pequeños (microcitosis).", "Centro pálido amplio (hipocromía).", "Blancos y plaquetas normales."]),
   tabla=("Opciones de la pregunta", [("Hemolítica autoinmune", False), ("Deficiencia de hierro", True), ("Enfermedad crónica", False),
                                      ("Déficit de B12", False)],

@@ -465,7 +465,7 @@ S("termometro", "PED-287", "nina-3-anos-plaquetas-25000-epistaxis-persistente-pt
          pasos=[(1, "Prednisona 2 mg/kg/día", ["5-7 días y luego suspender"], True),
                 (2, "Alternativa: inmunoglobulina EV", ["Sube las plaquetas más rápido"], False),
                 (3, "Sangrado grave", ["IgIV + metilprednisolona + plaquetas"], False)]),
-  banda=B("Frotis de sangre (esquema)", D(lambda s, x, y: I.frotis(s, x + 20, y, "plaquetas_bajas", sc=1.1), 280, 180),
+  banda=B("Frotis de sangre (esquema)", D(lambda s, x, y: I.frotis(s, x, y, "plaquetas_bajas", sc=1.1), 330, 220),
           ["Glóbulos rojos de forma normal.", "Casi no se ven plaquetas.", "Sin blastos: no parece leucemia."], ans=1),
   tabla=("Opciones de la pregunta", [("Ácido tranexámico", False), ("Prednisona 2 mg/kg/día", True), ("Dexametasona 0,6 mg/kg", False),
                                      ("Metilprednisolona 30 mg/kg", False)],
