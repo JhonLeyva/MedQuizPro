@@ -57,6 +57,8 @@ def P(d, fill, stroke=STK, sw=1.8, extra=""):
 
 
 def E(cx, cy, rx, ry, fill, stroke=STK, sw=1.8, rot=0, extra=""):
+    if isinstance(rot, str):
+        rot, extra = 0, rot
     tr = f' transform="rotate({rot} {cx} {cy})"' if rot else ""
     return f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="{fill}" stroke="{stroke}" stroke-width="{sw}"{tr} {extra}/>'
 
@@ -589,7 +591,7 @@ def cerebro_osmosis(s, x, y, sc=1.0):
     p = (C(110, 110, 96, "#e7e5e4", "#57534e", 5) + C(110, 110, 88, "#fbcfe8", "#be185d", 2)
          + "".join(f'<path d="M{50+k*24} {60+(k%2)*10} q12 16 0 32 q-12 16 0 32" fill="none" stroke="#be185d" stroke-width="1.6"/>' for k in range(6))
          + t(110, 214, "Cerebro edematoso: ↑ PIC", "#9d174d", 11)
-         + P("M236 20 L236 200", "none", "#fecaca", 30) + P("M236 20 L236 200", "none", RED, 2, 'fill="none" opacity="0.5"')
+         + P("M236 20 L236 200", "none", "#fecaca", 30) + P("M236 20 L236 200", "none", RED, 2, 'opacity="0.5"')
          + "".join(t(236, 50 + k * 40, "M", "#1d4ed8", 12) for k in range(4))
          + t(236, 216, "vaso", RED, 10.5)
          + "".join(flecha(170, 70 + k * 36, 216, 70 + k * 36, "#0284c7", 2.4) for k in range(4))
@@ -1239,16 +1241,16 @@ def frotis(s, x, y, tipo="normal", sc=1.0):
 
 
 # ════════════════════════════════════════════════════════════ CEREBRO EN CORTE (TC o eco) (lienzo 280×260)
-def tc_craneo(s, x, y, lesion="normal", estilo="tc", sc=1.0):
-    """lesion: normal | cmv | toxo | ncc | lacunas | epidural | edema | occipital | ventriculos."""
+def tc_craneo(s, x, y, lesion="normal", estilo="tc", sc=1.0, lado="der"):
+    """lesion: normal | cmv | toxo | ncc | lacunas | epidural | edema | occipital | ventriculos.
+    lado (epidural): der = izquierda de la imagen; izq = derecha de la imagen (convención radiológica)."""
     bg = "#0b1220"
     p = f'<rect x="0" y="0" width="280" height="260" rx="10" fill="{bg}"/>'
     if estilo == "eco":
         p += P("M140 10 L14 250 Q140 290 266 250 Z", "#1f2937", "none", 0)
     p += E(140, 132, 116, 118, "#e5e7eb" if estilo == "tc" else "none", "#e5e7eb" if estilo == "eco" else "none", 0 if estilo == "tc" else 1)
     p += E(140, 132, 106, 108, "#6b7280", "none", 0)
-    grande = lesion in ("cmv", "ventriculos")
-    vw = 18 if grande else 9
+    vw = {"cmv": 18, "ventriculos": 32}.get(lesion, 9)
     p += P(f"M{128-vw} 96 C{120-vw} 120 {122-vw} 150 {132-vw/2} 164 L136 150 L136 100 Z", "#111827", "none", 0)
     p += P(f"M{152+vw} 96 C{160+vw} 120 {158+vw} 150 {148+vw/2} 164 L144 150 L144 100 Z", "#111827", "none", 0)
     if lesion == "cmv":
@@ -1260,15 +1262,20 @@ def tc_craneo(s, x, y, lesion="normal", estilo="tc", sc=1.0):
             p += C(cx, cy, 13, "#0f172a", "#cbd5e1", 1.5) + C(cx + 4, cy - 3, 3, "#f8fafc", "none", 0)
         p += C(100, 190, 5, "#ffffff", "none", 0)
     elif lesion == "lacunas":
-        p += "".join(C(cx, cy, 5, "#111827", "none", 0) for cx, cy in [(116, 120), (164, 128), (126, 150), (158, 104), (112, 96)])
+        p += "".join(E(cx, cy, 16, 26, "#4b5563", "none", 0, 'opacity="0.8"') for cx, cy in [(100, 118), (180, 118)])
+        p += "".join(C(cx, cy, 6.5, "#111827", "none", 0) for cx, cy in [(116, 124), (164, 130), (124, 154), (158, 106), (104, 96), (176, 150), (92, 140)])
     elif lesion == "epidural":
-        p += P("M40 80 C30 120 34 160 50 190 C66 170 70 120 60 84 Z", "#f8fafc", "none", 0)
-        p += P("M150 40 L150 230", "none", "#fbbf24", 1.5, 'stroke-dasharray="4 3"')
+        if lado == "izq":
+            p += P("M240 80 C250 120 246 160 230 190 C214 170 210 120 220 84 Z", "#f8fafc", "none", 0)
+            p += P("M130 40 L130 230", "none", "#fbbf24", 1.5, 'stroke-dasharray="4 3"')
+        else:
+            p += P("M40 80 C30 120 34 160 50 190 C66 170 70 120 60 84 Z", "#f8fafc", "none", 0)
+            p += P("M150 40 L150 230", "none", "#fbbf24", 1.5, 'stroke-dasharray="4 3"')
     elif lesion == "edema":
         p += E(140, 132, 106, 108, "#9ca3af", "none", 0, 'opacity="0.35"')
     elif lesion == "occipital":
         p += P("M100 220 C120 236 160 236 180 220 L170 190 C150 200 130 200 110 190 Z", "#374151", "none", 0)
-    p += t(140, 250, "adelante ↑" if estilo == "tc" else "", "#94a3b8", 9.5, halo=False)
+    p += t(140, 11, "adelante" if estilo == "tc" else "", "#94a3b8", 9, halo=False)
     g(s, x, y, p, sc)
 
 
@@ -1635,4 +1642,173 @@ def fondo_ojo(s, x, y, tipo="toxo", sc=1.0):
     if tipo == "toxo":
         p += (C(74, 150, 20, "#3f1d0b", "#1c0a00", 1.5) + C(86, 170, 26, "#fff7ed", "none", 0, 'opacity="0.9"')
               + C(86, 170, 34, "#fef3c7", "none", 0, 'opacity="0.35"'))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ ESPIRAL DE ARQUÍMEDES (lienzo 360×180)
+def espiral(s, x, y, sc=1.0):
+    """Espiral dibujada por el paciente: temblor de acción (trazo ondulado) frente a la normal."""
+    import math as _m
+    def sp(cx, cy, amp):
+        pts = []
+        for i in range(0, 420):
+            a = i / 30
+            r = 4 + a * 6.2
+            w = amp * _m.sin(i * 1.3)
+            pts.append(f"{cx + (r + w) * _m.cos(a):.1f},{cy + (r + w) * _m.sin(a):.1f}")
+        return f'<polyline points="{" ".join(pts)}" fill="none" stroke="#1e3a8a" stroke-width="1.8"/>'
+    p = (f'<rect x="0" y="0" width="170" height="160" rx="8" fill="#ffffff" stroke="#cbd5e1"/>'
+         + f'<rect x="190" y="0" width="170" height="160" rx="8" fill="#fff7ed" stroke="{ORANGE}" stroke-width="2"/>'
+         + sp(85, 76, 0) + sp(275, 76, 3.2) + t(85, 176, "normal", SLATE, 10.5) + t(275, 176, "temblor de acción", ORANGE, 10.5))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ EEG PUNTA-ONDA 3 HZ (lienzo W×110)
+def eeg_3hz(s, x, y, W=620, sc=1.0):
+    import math as _m
+    p = f'<rect x="0" y="0" width="{W}" height="110" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>'
+    pts = []
+    for i in range(0, W - 12, 2):
+        if 140 <= i < 460:
+            ph = (i - 140) % 40
+            v = -34 if ph < 3 else (30 * _m.sin((ph - 3) / 37 * _m.pi) if ph >= 3 else 0)
+        else:
+            v = 5 * _m.sin(i / 3.1) + 3 * _m.sin(i / 1.7)
+        pts.append(f"{i + 6},{56 + v:.1f}")
+    p += f'<polyline points="{" ".join(pts)}" fill="none" stroke="#111827" stroke-width="1.6"/>'
+    p += f'<rect x="146" y="6" width="320" height="98" rx="6" fill="none" stroke="{ORANGE}" stroke-width="2" stroke-dasharray="5 4"/>'
+    p += t(306, 104 - 4, "punta-onda a 3 por segundo (ausencia)", ORANGE, 10.5)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ DEDO: TENDONES FLEXORES (lienzo 360×170)
+def dedo_flexor(s, x, y, sc=1.0):
+    """Dedo de perfil: el flexor profundo llega a la falange distal; aquí está cortado."""
+    p = (P("M10 60 C10 40 40 34 120 36 L330 44 C352 46 356 70 340 80 L120 92 C40 96 10 84 10 60 Z", SKIN, SKIN_D, 2)
+         + "".join(f'<rect x="{x0}" y="52" width="{w}" height="22" rx="8" fill="#f5f5f4" stroke="#a8a29e" stroke-width="1.5"/>'
+                   for x0, w in [(20, 110), (140, 90), (240, 80)])
+         + P("M20 86 L150 86", "none", "#f59e0b", 5, 'stroke-linecap="round"') + P("M186 86 L300 82", "none", "#f59e0b", 5, 'stroke-linecap="round"')
+         + P("M20 80 L200 80", "none", "#fbbf24", 3) + t(60, 112, "tendón flexor profundo", "#b45309", 10.5, "start")
+         + P("M160 70 L176 102", "none", RED, 3) + t(168, 128, "corte", RED, 10.5)
+         + t(296, 140, "no dobla la punta", ORANGE, 10.5) + flecha(310, 126, 318, 96, ORANGE, 2.2)
+         + t(80, 26, "falange proximal", MUTED, 9.5) + t(186, 26, "media", MUTED, 9.5) + t(280, 26, "distal", MUTED, 9.5))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ C1-C2 EN FLEXIÓN (lienzo 360×200)
+def atlas_axis(s, x, y, sc=1.0):
+    """Perfil de C1 (atlas) y C2 (odontoides): en extensión el intervalo es normal; en flexión el atlas se desliza."""
+    def par(ox, desliz, rot):
+        q = (f'<g transform="translate({ox},0)">'
+             + f'<rect x="40" y="100" width="70" height="70" rx="8" fill="#e7e5e4" stroke="#78716c" stroke-width="2"/>'
+             + P("M66 100 L66 40 C66 26 86 26 86 40 L86 100 Z", "#e7e5e4", "#78716c", 2)
+             + f'<g transform="translate({-desliz},0)"><rect x="{18}" y="44" width="34" height="26" rx="8" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>'
+             + f'<rect x="96" y="44" width="34" height="26" rx="8" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/></g>'
+             + P(f"M{94 - desliz} 34 L{94 - desliz} 80", "none", "#0f172a", 1, 'stroke-dasharray="3 3"')
+             + '</g>')
+        return q
+    p = (par(0, 0, 0) + par(190, 22, 0)
+         + t(85, 190, "extensión: normal", SLATE, 10.5) + t(275, 190, "flexión: C1 se desliza", ORANGE, 10.5)
+         + t(85, 24, "C1 (atlas)", "#1d4ed8", 10) + t(85, 132, "C2", "#57534e", 10.5) + t(275, 132, "C2", "#57534e", 10.5)
+         + f'<line x1="250" y1="58" x2="276" y2="58" stroke="{ORANGE}" stroke-width="3"/>' + t(262, 92, "espacio > 3 mm", ORANGE, 10))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ PELVIS CON LUXACIÓN DE CADERA (lienzo 320×230)
+def pelvis_ddh(s, x, y, lado="der", sc=1.0):
+    """Rx AP esquemática: cadera luxada (cabeza femoral fuera del acetábulo, arriba y afuera). der = izquierda del dibujo."""
+    p = (f'<rect x="0" y="0" width="320" height="230" rx="8" fill="#0b1220"/>'
+         + P("M40 40 C80 20 130 40 150 90 L170 90 C190 40 240 20 280 40 L270 120 L190 130 L160 150 L130 130 L50 120 Z", "#cbd5e1", "none", 0, 'opacity="0.85"')
+         + t(14, 18, "D", "#94a3b8", 12, "start", halo=False) + t(306, 18, "I", "#94a3b8", 12, "end", halo=False))
+    for side in ("der", "izq"):
+        sx = 1 if side == "izq" else -1
+        cx = 160 + sx * 92
+        lux = side == lado
+        acet = f'<path d="M{cx - 24} 118 C{cx - 18} 100 {cx + 18} 100 {cx + 24} 118" fill="none" stroke="#f8fafc" stroke-width="3"/>'
+        hx, hy = (cx + sx * 26, 92) if lux else (cx, 124)
+        p += acet + C(hx, hy, 15, "#e5e7eb", "none", 0) + P(f"M{hx} {hy + 10} L{hx + sx * 6} 210", "none", "#e5e7eb", 16, 'stroke-linecap="round"')
+        if lux:
+            p += t(hx + sx * 2, 64, "luxada", ORANGE, 10.5) + C(hx, hy, 19, "none", ORANGE, 2.5)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ NIVELES DE OPIOIDE (lienzo 380×200)
+def opioide_niveles(s, x, y, sc=1.0):
+    import math as _m
+    X0_, Y0_, W_, H_ = 40, 14, 310, 140
+    p = f'<rect x="{X0_}" y="{Y0_}" width="{W_}" height="{H_}" fill="#f8fafc" stroke="#cbd5e1"/>'
+    p += f'<rect x="{X0_}" y="{Y0_ + 18}" width="{W_}" height="34" fill="#fecaca" opacity="0.5"/>' + t(X0_ + W_ - 4, Y0_ + 30, "euforia / sobredosis", RED, 9.5, "end")
+    p += f'<rect x="{X0_}" y="{Y0_ + 104}" width="{W_}" height="36" fill="#fde68a" opacity="0.5"/>' + t(X0_ + W_ - 4, Y0_ + 134, "abstinencia", "#a16207", 9.5, "end")
+    her = " ".join(f"{X0_ + i:.0f},{Y0_ + H_ - 8 - 118 * max(0, _m.sin((i % 78) / 78 * _m.pi)) ** 3:.1f}" for i in range(0, W_, 2))
+    p += f'<polyline points="{her}" fill="none" stroke="{RED}" stroke-width="2.4"/>'
+    p += f'<line x1="{X0_}" y1="{Y0_ + 78}" x2="{X0_ + W_}" y2="{Y0_ + 78}" stroke="{TEAL}" stroke-width="3"/>'
+    p += (f'<line x1="{X0_ + 6}" y1="{Y0_ + H_ + 22}" x2="{X0_ + 26}" y2="{Y0_ + H_ + 22}" stroke="{RED}" stroke-width="3"/>' + t(X0_ + 30, Y0_ + H_ + 26, "heroína: picos y caídas", RED, 10, "start")
+          + f'<line x1="{X0_ + 176}" y1="{Y0_ + H_ + 22}" x2="{X0_ + 196}" y2="{Y0_ + H_ + 22}" stroke="{TEAL}" stroke-width="3"/>' + t(X0_ + 200, Y0_ + H_ + 26, "metadona: nivel estable", TEAL, 10, "start"))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ DISTONÍA AGUDA (lienzo 240×230)
+def cabeza_distonia(s, x, y, sc=1.0):
+    p = (P("M80 230 L92 146 L148 146 L160 230 Z", SKIN, SKIN_D, 2)
+         + f'<g transform="rotate(-24 120 110)">' + C(120, 100, 58, SKIN, SKIN_D, 2)
+         + C(100, 84, 9, "#ffffff", "#334155", 1.5) + C(140, 84, 9, "#ffffff", "#334155", 1.5)
+         + C(100, 78, 4, "#334155", "none", 0) + C(140, 78, 4, "#334155", "none", 0)
+         + E(120, 128, 16, 8, "#7f1d1d", "none", 0) + E(120, 140, 9, 9, "#f472b6", "#be185d", 1.5) + '</g>'
+         + flecha(170, 160, 206, 118, ORANGE, 2.6) + t(206, 196, "cuello torcido", ORANGE, 10.5)
+         + t(30, 24, "ojos hacia arriba", "#1d4ed8", 10.5, "start") + t(20, 214, "lengua afuera", "#be185d", 10.5, "start"))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ TÍMPANO (lienzo 220×200)
+def timpano(s, x, y, tipo="abombado", sc=1.0):
+    """tipo: abombado (pus a presión) | normal | retraido | derrame (ámbar con burbujas) (lienzo 220×212)."""
+    fill = {"abombado": "#fde68a", "normal": "#e2e8f0", "retraido": "#e2e8f0", "derrame": "#fcd34d"}[tipo]
+    p = C(110, 96, 88, "#fde2e2", "#be123c", 3) + C(110, 96, 74, fill, "#94a3b8", 2)
+    if tipo == "abombado":
+        p += C(110, 96, 74, "none", RED, 4) + E(96, 86, 26, 18, "#fffbeb", "none", 0, 'opacity="0.8"') + t(110, 204, "abombado, rojo y opaco", RED, 10.5)
+    elif tipo == "retraido":
+        p += P("M110 44 L120 110", "none", "#57534e", 5, 'stroke-linecap="round"') + t(110, 204, "retraído: martillo marcado", SLATE, 10.5)
+    elif tipo == "derrame":
+        p += "".join(C(cx, cy, 6, "none", "#a16207", 1.5) for cx, cy in [(80, 80), (130, 70), (100, 120), (140, 118)]) + t(110, 204, "ámbar con burbujas", "#a16207", 10.5)
+    else:
+        p += P("M110 44 L116 100", "none", "#57534e", 3) + P("M116 100 L150 140 L170 120 Z", "#ffffff", "none", 0, 'opacity="0.8"') + t(110, 204, "normal: gris, translúcido", SLATE, 10.5)
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ LAVADO OCULAR (lienzo 300×200)
+def ojo_lavado(s, x, y, sc=1.0):
+    p = (E(150, 110, 120, 60, "#ffffff", "#334155", 2.5) + C(150, 110, 44, "#93c5fd", "#1e3a8a", 2) + C(150, 110, 18, "#0f172a", "none", 0)
+         + E(150, 110, 120, 60, "none", RED, 3, 'opacity="0.5"')
+         + f'<rect x="10" y="10" width="50" height="34" rx="6" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>' + t(35, 32, "suero", "#075985", 10)
+         + P("M60 30 C100 30 120 50 132 70", "none", "#0284c7", 4)
+         + "".join(C(140 + k * 14, 76 + k * 6, 3, "#38bdf8", "none", 0) for k in range(5))
+         + t(150, 194, "lavar 15-30 min hasta pH neutro", "#0369a1", 10.5))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ ESCALA T (DENSITOMETRÍA) (lienzo 380×120)
+def tscore(s, x, y, valor=-2.7, sc=1.0):
+    X0_, W_ = 20, 340
+    fx = lambda v: X0_ + (1 - v) / 5 * W_
+    p = (f'<rect x="{fx(1):.0f}" y="30" width="{fx(-1) - fx(1):.0f}" height="26" fill="#bbf7d0"/>'
+         + f'<rect x="{fx(-1):.0f}" y="30" width="{fx(-2.5) - fx(-1):.0f}" height="26" fill="#fde68a"/>'
+         + f'<rect x="{fx(-2.5):.0f}" y="30" width="{fx(-4) - fx(-2.5):.0f}" height="26" fill="#fecaca"/>'
+         + t((fx(1) + fx(-1)) / 2, 72, "normal", "#15803d", 10.5) + t((fx(-1) + fx(-2.5)) / 2, 72, "osteopenia", "#a16207", 10.5)
+         + t((fx(-2.5) + fx(-4)) / 2, 72, "osteoporosis", RED, 10.5)
+         + "".join(t(fx(v), 92, f"{v:g}".replace(".", ","), MUTED, 10, halo=False) for v in (1, 0, -1, -2.5, -4))
+         + P(f"M{fx(valor):.0f} 18 L{fx(valor):.0f} 64", "none", "#0f172a", 3) + t(fx(valor), 12, f"T = {valor:g}".replace(".", ","), "#0f172a", 11))
+    g(s, x, y, p, sc)
+
+
+# ════════════════════════════════════════════════════════════ CABEZA CON FRACTURA DE BASE (lienzo 250×270)
+def cabeza_base(s, x, y, sc=1.0):
+    p = (P("M95 230 L100 260 L150 260 L155 230 Z", SKIN, SKIN_D, 2) + E(125, 120, 86, 106, SKIN, SKIN_D, 2)
+         + E(38, 130, 12, 22, SKIN, SKIN_D, 2) + E(212, 130, 12, 22, SKIN, SKIN_D, 2)
+         + E(92, 112, 26, 18, "#7c3aed", "none", 0, 'opacity="0.5"') + E(158, 112, 26, 18, "#7c3aed", "none", 0, 'opacity="0.5"')
+         + C(92, 112, 6, "#334155", "none", 0) + C(158, 112, 6, "#334155", "none", 0)
+         + P("M125 116 L116 156 L134 156", "none", "#9a6b52", 2)
+         + P("M120 158 C118 172 122 182 120 192", "none", "#38bdf8", 3) + C(120, 194, 3.5, "#38bdf8", "none", 0)
+         + E(224, 160, 9, 14, "#7c3aed", "none", 0, 'opacity="0.6"')
+         + P("M104 200 Q125 210 146 200", "none", "#9a6b52", 2)
+         + num(64, 92, 1) + num(236, 186, 2) + num(150, 186, 3))
     g(s, x, y, p, sc)

@@ -3,3 +3,7 @@ pediatria
 neumologia
 hematologia
 infectologia
+neurologia
+reumatologia
+ciencias_basicas
+salud_publica

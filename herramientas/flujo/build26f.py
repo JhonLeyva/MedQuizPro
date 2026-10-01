@@ -1,5 +1,6 @@
 """Construye los flujogramas del bloque ENAM 2026 (contenido en content26*.py).
 Uso: python3 build26f.py [--full]   → out26/flujogramas + out26/order.json"""
+import xml.etree.ElementTree as _ET
 import os, sys, json, shutil, importlib, re
 from collections import Counter
 from engine7 import build7
@@ -40,6 +41,10 @@ for i in ids:
     tiene_img = f["tipo"] in {"calculo", "anatomia", "semaforo", "cronologia", "comparador", "escalera",
                               "mapa_signos", "arbol_imagen", "ciclo", "criterios", "balanza", "red"} or f.get("banda")
     assert tiene_img, "sin imagen: " + i
+    try:
+        _ET.fromstring(svg)
+    except _ET.ParseError as e:
+        raise AssertionError("SVG no es XML válido en " + i + ": " + str(e))
     open("out26/flujogramas/" + n, "w").write(svg)
     order.append((i, f["archivo"], f["titulo"], f["tipo"]))
 json.dump(order, open("out26/order.json", "w"), ensure_ascii=False)

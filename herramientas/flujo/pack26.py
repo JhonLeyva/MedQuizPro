@@ -21,6 +21,10 @@ for f in F27D:
     shutil.copy(f"out27demo/flujogramas/{f['archivo']}.svg", P + "/flujogramas/")
 for b in sorted(set(BANCOS_TOCADOS)):
     shutil.copy(f"../site/bancos/{b}.json", P + "/bancos/")
+    json.load(open(f"{P}/bancos/{b}.json"))
+import xml.etree.ElementTree as _ET
+for f in os.listdir(P + "/flujogramas"):
+    _ET.parse(f"{P}/flujogramas/{f}")  # todo SVG entregado debe ser XML válido
 
 js = open("../site/algoritmos.js", encoding="utf-8").read().rstrip()
 assert js.endswith("};")
