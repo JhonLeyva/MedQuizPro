@@ -11,7 +11,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - **Código de la web:** la copia más reciente está en `herramientas/plataforma_materias/` (versión `?v=20260930-materias`); la anterior, en la rama `origin/claude/clever-franklin-1fao9i` (versión `20260928-plataforma`). Antes de entregar cambios de código, pide al usuario que abra `public_html/index.html` en Hostinger y busque el texto `?v=`: si coincide con una de esas versiones, trabaja sobre esa copia; si no, pídele que descargue los archivos que vas a tocar y trabaja sobre ellos.
 - **Al terminar cada tarea, actualiza este archivo** (estado, herramientas nuevas, próxima tarea) y súbelo con commit y push, para que el siguiente chat sepa todo lo hecho.
 
-## Estado actual (30-sep-2026)
+## Estado actual (2-oct-2026: ver al final «Tanda de mejora»)
 - **Rama con el trabajo más reciente:** `claude/vibrant-albattani-g7t3b3` (parte de `claude/sweet-franklin-dbg0mc` + bloque ENAM 2026). Total 2380 preguntas y 2106 flujogramas: **faltan los 274 flujogramas del bloque ENAM 2026**.
 - **Bancos:** 2380 preguntas (bloques 1 a 8 = 1713 + 393 de Ciencias Básicas + 274 del bloque ENAM 2026). `site/bancos/` ya tiene las 2380.
   - `herramientas/site/bancos/` tiene los 17 JSON finales (ciencias_basicas.json con 485).
@@ -222,6 +222,25 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - Controles añadidos: `build26f.py` y `pack26.py` verifican que cada SVG sea XML válido (se encontraron y corrigieron 13 inválidos por un parámetro de `E()` mal pasado).
 - Si el usuario dice que la web sigue mostrando 2106: es caché; que cambie en `public_html/index.html` el valor de `algoritmos.js?v=` (p. ej. 20261001).
 
+## Tanda de mejora: 500 flujogramas con imagen real y tríadas (pedido 2-oct-2026) — EJEMPLOS ENTREGADOS
+- Pedido del usuario: rehacer 500 flujogramas ya publicados (elegidos por nosotros de los 2380) con
+  1) **imágenes reales** solo donde aporten (Rx, TC, RM, eco, ECG, fotos clínicas o de piezas), con marcas en español en el sitio exacto; nada de dibujos que no informan (p. ej. el útero esquemático del DPP o la Rx dibujada de neumonía). Dibujar solo si no hay imagen real, y realista; ECG y esquemas rotulados que sí informan están bien;
+  2) **tríadas/tétradas/péntadas oficiales** (Charcot, Reynolds, Beck, Cushing, Fallot, Horner, Wernicke, péntada de PTT, tríada del ectópico…) solo donde la explicación lo pide;
+  3) **todo encajado**: sin superposiciones ni insignias o rótulos fuera de su recuadro;
+  4) entregar las 500 **todas juntas** al final.
+- **Hecho y entregado:** `MedQuizPro_ejemplo_10_flujogramas_mejorados.zip` (10 SVG con el mismo nombre de archivo + PNG + `algoritmos.js` con títulos nuevos + LEEME con créditos). IDs: GAS-054, CAR-071, NRL-052, PED-211, NEU-018, GIN-121, NRL-013, HEM-009, GIN-255, NEU-072. **Esperar la aprobación del usuario antes de hacer las otras 490.**
+- Motor (`flujo/engine7.py`):
+  - `banda`: la insignia numerada ahora queda entera dentro de su nota (antes se salía: el «2» recortado que mostró el usuario). Afecta a todos los flujogramas con franja: al final hay que reconstruir los 266 del bloque ENAM 2026 (`build26f.py`) además de los 500.
+  - `triada(s, y, t)` y `spec["triada"]` (va después de la franja y antes de la tabla). Formato con `c27.TR(items, grupos, nota)`: `items=[(signo, dato del caso, True/False/None)]` (True «EN EL CASO», False «NO DESCRITO», None = componente anatómico sin estado, p. ej. Fallot); `grupos=[(nombre, desde, hasta)]` = corchetes sobre las tarjetas (los cortos abajo: Charcot dentro de Reynolds).
+  - `imagen()` envuelve cada imagen en `<g data-box="x y w h">` para que el verificador compruebe que nada se salga.
+  - `engine3.fases`: la línea punteada del caso ahora empieza bajo el título y la leyenda (antes cruzaba el título de la fase).
+- Ayudantes `flujo/c27.py`: `S` (registra en `F27`), `DOS(a, b, vertical=)` (dos fotos con su crédito en un recuadro), `CON_CREDITO(P(...), dx=)` (para diseños 9-12 de engine5, que no dibujan crédito; ojo: en esos paneles fijos de 350 px el pie se dibuja encima, así que imagen + crédito deben dejar sitio a un pie de 1 línea), `TR`. `c26.S` acepta `triada=`.
+- Contenido: `flujo/content27a.py` (8 antiguos rehechos como specs nuevas de build7, mismo nombre de archivo). GIN-255 y NEU-072 se cambiaron en `content26g.py` y `content26m.py`.
+- Constructor: `flujo/build27.py <salida> [IDs]` (construye F27 o los IDs pedidos de F27/F26; exige que el nombre coincida con el publicado en `site/algoritmos.js`, XML válido, sin la palabra prohibida). Paquete de ejemplos: `flujo/pack27ej.py` (actualiza título y `alt` en una copia de `algoritmos.js`).
+- Verificador nuevo `flujo/check27.cjs <svg> <png|-> [patrón]`: ancho de texto, marcas fuera de su imagen (`data-box`), insignias que asoman de su recuadro (las centradas en un borde o esquina son diseño y no cuentan), texto fuera de su recuadro, textos que se pisan y líneas que cruzan texto (ignora cuadrícula clara, tachados y líneas tapadas por una etiqueta opaca). Los 10 ejemplos: 0 problemas. En los 266 del bloque 2026 aún marca ~40 dibujos propios que se salen de su recuadro (p. ej. «Hematoma retroplacentario» que llegaba al borde): corregirlos al reconstruir.
+- Imágenes: `flujo/img/prep27.py` (recortes; `rellenar()` borra flechas/letras del autor por difusión; `caja()` máscara). Licencias verificadas en Commons (lista en el LEEME del ZIP). Ubicar marcas con una cuadrícula sobre el recorte y revisar el PNG ampliado; lateralidad: la derecha del paciente es la izquierda de la imagen (en la foto de Horner el ojo afectado es el de la derecha de la imagen).
+- La API de Commons responde 429 por curl: buscar con WebFetch (`Special:MediaSearch` o la página `File:`) y bajar con `img/wm.py`.
+- Prueba en la app: copiar `site/` al scratchpad, poner encima el paquete, servir con `python3 -m http.server 8768` y cargar las imágenes de `MQP_ALGORITMOS` (10/10 cargan, 0 errores JS). Para detener el servidor, matar el PID (no usar `pkill -f` con el patrón dentro del mismo comando: mata la propia shell).
+
 ## Próxima tarea sugerida
-Los 2380 flujogramas están hechos (2106 anteriores + 274 del bloque ENAM 2026). Esperar instrucciones del usuario. Antes: 2106 preguntas y 2106 flujogramas. Ciencias Básicas ya está clasificada por materias (pendiente solo que el usuario suba el ZIP de materias o te pase sus archivos del servidor para adaptarlo).
-Bancos y flujogramas están al día (1713). El PDF ya no tiene más preguntas: si el usuario pide más, pregúntale qué prefiere antes de empezar: (1) aceptar las ~250 oficiales omitidas por repetir tema, (2) rescatar algunas de clave dudosa, o (3) escribir preguntas de práctica nuevas (no oficiales).
+Esperar la opinión del usuario sobre los 10 ejemplos. Si aprueba: elegir las otras 490 (prioridad: temas con hallazgo de imagen típico —Rx, TC, eco, ECG, frotis, fotos clínicas— y las que tengan dibujos esquemáticos poco informativos; tríadas solo donde la explicación las use), rehacerlas en `content27b…`, reconstruir también los 266 del bloque 2026 con la insignia corregida y entregar todo junto con `algoritmos.js` actualizado, galería y LEEME de créditos.

@@ -10,9 +10,13 @@ for m in sorted(f[:-3] for f in os.listdir(".") if re.fullmatch(r"content26[a-z]
     importlib.import_module(m)
 full = "--full" in sys.argv
 ex = set(open("existing_names_todos.txt").read().split())
-ex |= {l.split('"flujogramas/')[1].split('"')[0] for l in open("../site/algoritmos.js") if '"flujogramas/' in l}
+_js = open("../site/algoritmos.js").read()
+# Los nombres ya publicados de este mismo bloque no cuentan como repetidos (se reconstruyen).
+_propios = {f["archivo"] + ".svg" for f in F26}
+ex |= {l.split('"flujogramas/')[1].split('"')[0] for l in _js.splitlines() if '"flujogramas/' in l} - _propios
 for dd in ("out26demo/flujogramas", "out27demo/flujogramas"):
     ex |= set(os.listdir(dd))
+
 HECHOS = {"CIR-133", "CIR-158", "CIR-150", "GIN-274", "CIR-136", "CAR-079", "PED-247", "TRA-057"}
 nuevos = [p["id"] for p in json.load(open("../e26/nuevos26.json"))]
 specs = {}

@@ -1,4 +1,5 @@
 """Bloque ENAM 2026 · Cardiología y Neumología."""
+from c27 import CON_CREDITO
 from c26 import S, D, P, B, ILU, Q, L, HARRISON, MINSA
 from engine7 import _img_draw
 import ilu7 as I
@@ -325,9 +326,12 @@ S("cronologia", "NEU-072", "hospitalizada-7-dias-fiebre-esputo-purulento-neumoni
    "La confusión en el adulto mayor puede ser la primera señal de la neumonía."],
   "IDSA/ATS, neumonía intrahospitalaria (2016); ERS/ESICM (2017).",
   d=dict(rotulo="Cuándo empezó la neumonía", tag="ESTE CASO",
-         ilu_titulo="Rx de tórax (esquema)",
-         ilu=ILU(D(lambda s, x, y: I.torax_rx(s, x + 20, y, "consolidacion", "izq", sc=0.95), 330, 280)),
-         ilu_pie="Consolidación en la base izquierda.",
+         ilu_titulo="Rx de tórax típica",
+         ilu=CON_CREDITO(P("neumonia_lii.jpg", 288, 258, [("texto", 0.07, 0.05, "DER"), ("texto", 0.93, 0.05, "IZQ"),
+                                                          ("circulo", 0.80, 0.80, 0.14, "base izquierda\nopaca", 0.55, 0.45),
+                                                          ("flecha", 0.16, 0.835, 0.22, 0.60, "diafragma derecho\nvisible")],
+                           credito="James Heilman · Wikimedia Commons · CC BY 3.0"), dx=21),
+         ilu_pie="Base izquierda blanca: se pierde el diafragma.",
          claves=[("Neumonía intrahospitalaria", ["Empezó al día 7 del ingreso."], True),
                  ("Neumonía de la comunidad", ["Solo si empieza antes de las 48 h."], False),
                  ("TEP o neumonía atípica", ["No explican el esputo purulento ni la cronología."], False)],

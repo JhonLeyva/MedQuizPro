@@ -33,13 +33,14 @@ def B(titulo, img, notas, pie=None, ans=-1, rotulo="Así se ve en este caso"):
     return {"titulo": titulo, "img": img, "notas": notas, "pie": pie, "ans": ans, "rotulo": rotulo}
 
 
-def S(tipo, id_, archivo, titulo, barra, esp, tema, caso, perlas, fuente, d=None, arbol=None, banda=None, tabla=None):
+def S(tipo, id_, archivo, titulo, barra, esp, tema, caso, perlas, fuente, d=None, arbol=None, banda=None, tabla=None,
+      triada=None, _reg=None):
     f = dict(tipo=tipo, id=id_, archivo=archivo, titulo=titulo, barra=barra, esp=esp,
              tema={"title": tema[0], "lines": tema[1]}, caso={"title": caso[0], "lines": caso[1]},
-             perlas=perlas, fuente=fuente, banda=banda, tabla=T(*tabla) if tabla else None)
+             perlas=perlas, fuente=fuente, banda=banda, tabla=T(*tabla) if tabla else None, triada=triada)
     if tipo == "arbol":
         f["arbol"] = {"kind": "topic", "title": "", "children": [arbol]}
     else:
         f["d"] = d
-    F26.append(f)
+    (F26 if _reg is None else _reg).append(f)
     return f

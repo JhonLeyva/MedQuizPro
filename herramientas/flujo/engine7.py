@@ -17,10 +17,13 @@ VIEJOS = {"arbol", "radial", "fases", "termometro", "tarjetas", "embudo", "punta
 def imagen(s, x, y, im):
     """Dibuja im en (x, y) y devuelve (ancho, alto). im: {"ilu": f(s,x,y), "W", "H"} o
     {"foto": archivo, "W", "H", "marcas", "credito"}."""
+    # data-box: el verificador comprueba que nada de la imagen (marcas, rótulos) se salga de su recuadro.
+    s.add(f'<g data-box="{x:.1f} {y:.1f} {im["W"]:.1f} {im["H"]:.1f}">')
     if im.get("foto"):
         foto(s, x, y, im["W"], im["H"], im["foto"], im.get("marcas", ()), im.get("fondo", "#000000"))
     else:
         im["ilu"](s, x, y)
+    s.add('</g>')
     return im["W"], im["H"]
 
 
@@ -47,7 +50,7 @@ def banda(s, y, b):
     nl = []
     for i, n in enumerate(b["notas"]):
         nl.append(wrap(n, w - 44, 12))
-    nh = sum(len(l) * 17 + 14 for l in nl)
+    nh = sum(len(l) * 17 + 14 + 7 for l in nl) - 7
     tl = wrap(b["titulo"], PW - 60, 10, True)
     H = max(40 + ih + 12 + (len(wrap(b.get("pie", ""), PW - 28, 11)) * 15 if b.get("pie") else 0) + 10, nh + 10)
     s.rect(X0, y, PW, H, "#ffffff", LINE, 1.5, rx=12)
@@ -59,14 +62,77 @@ def banda(s, y, b):
         s.text(X0 + 14, y + 38 + ih + 16, pl, 11, 600, SLATE, "start", PW - 28, lh=15)
     cy = y
     for i, l in enumerate(nl):
+        # La insignia numerada queda entera dentro de su nota (antes se salía por abajo).
         h = len(l) * 17 + 14
         on = i == b.get("ans", -1)
-        s.rect(x, cy, w, h - 6, TEAL_L if on else "#f8fafc", TEAL if on else LINE, 1.8 if on else 1.2, rx=10)
-        s.circle(x + 18, cy + 18, 11, ORANGE if b.get("numeros", True) else TEAL)
-        s.text(x + 18, cy + 22, str(i + 1), 11.5, 800, "#ffffff", maxw=0)
-        s.text(x + 38, cy + 22, l, 12, 600 if on else 400, TEAL_D if on else "#334155", "start", w - 44, lh=17)
-        cy += h
-    return y + max(H, cy - y)
+        s.rect(x, cy, w, h, TEAL_L if on else "#f8fafc", TEAL if on else LINE, 1.8 if on else 1.2, rx=10)
+        s.circle(x + 18, cy + 15.5, 9.5, ORANGE if b.get("numeros", True) else TEAL)
+        s.text(x + 18, cy + 19.5, str(i + 1), 11, 800, "#ffffff", maxw=0)
+        s.text(x + 36, cy + 20, l, 12, 600 if on else 400, TEAL_D if on else "#334155", "start", w - 44, lh=17)
+        cy += h + 7
+    return y + max(H, cy - 7 - y)
+
+
+# ════════════════════════════════════════════════════════════ TRÍADAS / TÉTRADAS / PÉNTADAS
+def triada(s, y, t):
+    """Signos epónimos oficiales (Charcot, Beck, Cushing, Fallot...) contrastados con el caso.
+    t: {"rotulo", "items": [(signo, dato del caso, presente)], "grupos": [(nombre, desde, hasta)], "nota"}.
+    Cada grupo es un corchete sobre las tarjetas desde..hasta (índices desde 0, inclusive)."""
+    y = section(s, y + 6, t.get("rotulo", "Signos con nombre propio"))
+    items, grupos = t["items"], t.get("grupos", [])
+    n = len(items)
+    PAD, GAP = 16, 12
+    cw = (X1 - X0 - 2 * PAD - GAP * (n - 1)) / n
+    xs = [X0 + PAD + i * (cw + GAP) for i in range(n)]
+    # niveles de corchete: los grupos más cortos van más abajo (más cerca de las tarjetas)
+    orden = sorted(range(len(grupos)), key=lambda g: grupos[g][2] - grupos[g][1])
+    LV = 40
+    top = y + 22 + LV * len(grupos)
+    cuerpos = []
+    for i, (signo, dato, pres) in enumerate(items):
+        nl = wrap(signo, cw - 46, 12.5, True)
+        dl = wrap(dato, cw - 24, 11.5)
+        cuerpos.append((nl, dl, pres))
+    # pres None = componente anatómico (p. ej. Fallot): sin marca «en el caso»
+    estado = any(p is not None for _, _, p in items)
+    ch = max(14 + max(len(nl) * 17, 22) + 6 + len(dl) * 16 + 12 + (34 if estado else 0) for nl, dl, _ in cuerpos)
+    nota = wrap(t["nota"], X1 - X0 - 2 * PAD, 12) if t.get("nota") else []
+    H = (top - y) + ch + (14 + len(nota) * 17 if nota else 0) + 16
+    s.rect(X0, y, X1 - X0, H, "#ffffff", LINE, 1.5, rx=12)
+    for k, g in enumerate(orden):
+        nombre, a, b = grupos[g]
+        gy = top - 20 - LV * k          # el rótulo del corchete queda 8 px por encima de las tarjetas
+        xa, xb = xs[a] + 6, xs[b] + cw - 6
+        pres = sum(1 for i in range(a, b + 1) if items[i][2])
+        tot = b - a + 1
+        if not estado:
+            pres = tot
+        col = TEAL if pres == tot else MUTED
+        s.line(xa, gy, xb, gy, col, 2)
+        s.line(xa, gy, xa, gy + 8, col, 2)
+        s.line(xb, gy, xb, gy + 8, col, 2)
+        lab = f"{nombre.upper()} · {pres} de {tot} en el caso" if estado else nombre.upper()
+        lw = tw(lab, 10.5, True) + 22
+        lx = (xa + xb) / 2
+        s.rect(lx - lw / 2, gy - 12, lw, 24, TEAL_L if pres == tot else "#f1f5f9", col, 1.4, rx=12)
+        s.text(lx, gy + 4, lab, 10.5, 800, TEAL_D if pres == tot else SLATE, maxw=lw - 14)
+    for i, (nl, dl, pres) in enumerate(cuerpos):
+        x = xs[i]
+        if not estado:
+            pres = True
+        s.rect(x, top, cw, ch, "#f0fdfa" if pres else "#f8fafc", TEAL if pres else LINE, 1.6 if pres else 1.2, rx=10)
+        s.circle(x + 20, top + 23, 10, ORANGE if pres else "#94a3b8")
+        s.text(x + 20, top + 27, str(i + 1), 11, 800, "#ffffff", maxw=0)
+        hn = max(len(nl) * 17, 22)
+        s.text(x + 38, top + 28 - (0 if len(nl) > 1 else 0), nl, 12.5, 800, TEAL_D if pres else SLATE, "start", cw - 46, lh=17)
+        s.text(x + 12, top + 14 + hn + 6 + 12, dl, 11.5, 400, "#334155" if pres else MUTED, "start", cw - 24, lh=16)
+        if estado:
+            etq = "✓ EN EL CASO" if pres else "— NO DESCRITO"
+            s.rect(x + 12, top + ch - 12 - 22, cw - 24, 22, GREEN_L if pres else "#e2e8f0", GREEN if pres else "#cbd5e1", 1, rx=11)
+            s.text(x + cw / 2, top + ch - 12 - 7, etq, 10.5, 800, "#15803d" if pres else SLATE, maxw=cw - 36)
+    if nota:
+        s.text(X0 + PAD, top + ch + 14 + 13, nota, 12, 600, TEAL_D, "start", X1 - X0 - 2 * PAD, lh=17)
+    return y + H
 
 
 # ════════════════════════════════════════════════════════════ DISEÑO 15: CICLO / MECANISMO
@@ -319,6 +385,8 @@ def build7(spec):
         y = L[tipo](s, y + 8, spec["d"])
     if spec.get("banda"):
         y = banda(s, y + 20, spec["banda"])
+    if spec.get("triada"):
+        y = triada(s, y + 20, spec["triada"])
     if spec.get("tabla"):
         y = table(s, y + 26, spec["tabla"])
     y = perlas(s, y + 24, spec["perlas"], spec["fuente"])

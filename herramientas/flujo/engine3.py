@@ -109,7 +109,7 @@ def fases(s, y, d):
         lx += 40 + tw(name, 10.5, True)
     # marcador del caso
     mx = X0 + ans * colw + colw / 2
-    s.line(mx, y + 2, mx, y + gh + 20, AMBER, 2, "5 4")
+    s.line(mx, y + 52, mx, y + gh + 20, AMBER, 2, "5 4")   # empieza bajo el título y la leyenda
     case_chip(s, mx, y + gh + 14)
     # tarjetas por fase
     ty = y + gh + 58
