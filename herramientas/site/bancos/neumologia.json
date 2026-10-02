@@ -27,7 +27,7 @@
         "Clopidogrel",
         "Ácido acetilsalicílico",
         "Warfarina",
-        "Tramadol"
+        "Heparina de bajo peso molecular sola"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -46,7 +46,7 @@
         "Corticoide inhalado",
         "Cromoglicato",
         "Anti-IgE",
-        "Atropina"
+        "Antibiótico profiláctico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -65,7 +65,7 @@
         "Tuberculosis pleural",
         "Linfoma",
         "Derrame paraneumónico",
-        "Diabetes Mellitus"
+        "Derrame por insuficiencia cardiaca"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -84,7 +84,7 @@
         "Fibrosis quística",
         "Asma alérgica no controlada",
         "Enfermedad pulmonar obstructiva crónica",
-        "Lupus eritematoso sistémico"
+        "Bronquiectasias"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -103,7 +103,7 @@
         "Radiografía de tórax",
         "TEM de tórax",
         "Hongos en esputo",
-        "Tomografía con contraste"
+        "Hemocultivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -122,7 +122,7 @@
         "Ventilación mecánica",
         "Antibioticoterapia",
         "Oxígeno por cánula binasal",
-        "Ninguna de las anteriores"
+        "Salbutamol inhalado"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -141,7 +141,7 @@
         "Uremia",
         "Embolia pulmonar",
         "Sarcoidosis",
-        "Infección del tracto urinario"
+        "Neumonía con derrame paraneumónico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "Mycoplasma pneumoniae",
         "Nocardia asteroides",
         "Legionella pneumophila",
-        "Asma bronquial"
+        "Streptococcus pneumoniae"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -179,7 +179,7 @@
         "Síndrome de Goodpasture",
         "Granulomatosis con poliangeítis",
         "Esclerosis sistémica",
-        "Infección del tracto urinario"
+        "Neumonía organizada criptogénica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -198,7 +198,7 @@
         "Silicosis",
         "Estañosis",
         "Biscinosis",
-        "Apendicitis aguda"
+        "Asbestosis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -217,7 +217,7 @@
         "Oxigenoterapia con máscara con reservorio",
         "ClNa 0.9% a razón de 60 gotas/min",
         "Soporte ventilatorio",
-        "Valores normales"
+        "Flumazenilo y observación sin oxígeno"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -236,7 +236,7 @@
         "Ejercicios respiratorios de exhalación cada dos horas",
         "Prescribir antitusígenos",
         "Solicitar una espirometría",
-        "Faltan datos para decidir"
+        "Corticoides orales como única medida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -255,7 +255,7 @@
         "Coxiella burnetti (fiebre Q)",
         "Haemophilus influenzae",
         "Mycoplasma pneumoniae",
-        "Ninguna de las anteriores"
+        "Pneumocystis jirovecii"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -274,7 +274,7 @@
         "Aminoglucósidos + quinolonas",
         "Glucopéptidos + lincosamidas",
         "Macrólidos + tetraciclinas",
-        "Faltan datos para decidir"
+        "Penicilina benzatínica sola"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -293,7 +293,7 @@
         "Infarto miocárdico",
         "Neumotórax masivo",
         "Embolia pulmonar",
-        "Diabetes Mellitus"
+        "Neumonía intrahospitalaria"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -312,7 +312,7 @@
         "Empiema pleural",
         "Derrame pleural por insuficiencia cardíaca",
         "Tuberculosis pleural",
-        "Cirrosis hepática"
+        "Derrame paraneumónico complicado"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -331,7 +331,7 @@
         "Polineuritis por déficit de Vitamina B",
         "Bursitis crónica",
         "Osteoartritis de hombro",
-        "Omeprazol"
+        "Síndrome del túnel carpiano"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -350,7 +350,7 @@
         "TAC pulmonar con contraste",
         "Biopsia por punción transtorácica",
         "Resonancia magnética pulmonar",
-        "Tomografía con contraste"
+        "Citología de esputo seriada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -369,7 +369,7 @@
         "Aumento del shunt fisiológico",
         "Desequilibrio ventilación-perfusión",
         "Deterioro de la difusión",
-        "Faltan datos para decidir"
+        "Hipoventilación alveolar pura"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -388,7 +388,7 @@
         "Enfermedad pulmonar intersticial difusa",
         "Enfermedad pulmonar obstructiva crónica",
         "Hipertensión pulmonar",
-        "Asma bronquial"
+        "Bronquiectasias"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -407,7 +407,7 @@
         "Edema agudo pulmonar",
         "Shock hipovolémico",
         "Tromboembolismo pulmonar",
-        "Omeprazol"
+        "Neumotórax espontáneo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -426,7 +426,7 @@
         "Polipnea",
         "Silencio auscultatorio",
         "Duración de la crisis",
-        "Ninguna de las anteriores"
+        "Frecuencia cardiaca de 130"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -445,7 +445,7 @@
         "Embolismo pulmonar",
         "Exacerbación del EPOC",
         "Neumonía lobar",
-        "Faltan datos para decidir"
+        "Infarto agudo de miocardio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -464,7 +464,7 @@
         "TEM de tórax en un mes",
         "Isoniacida profiláctica",
         "BK seriado por tres tomas",
-        "Colonoscopia"
+        "Vacuna BCG a la gestante"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -483,7 +483,7 @@
         "Flora mixta",
         "Bacilos Gram negativos",
         "Cocos Gram positivos",
-        "Ninguna de las anteriores"
+        "Mycobacterium tuberculosis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -502,7 +502,7 @@
         "Granulomas",
         "Infiltración linfocítica",
         "Cuerpos ferruginosos",
-        "Todas las anteriores"
+        "Granulomas no caseificantes"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -521,7 +521,7 @@
         "Oxigenoterapia por cánula nasal de alto flujo",
         "Colocación de vía venosa para administrar medicamentos",
         "Intubación orotraqueal y ventilación mecánica",
-        "Ninguna de las anteriores"
+        "Nebulización con salbutamol y observación"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -540,7 +540,7 @@
         "Administrar corticoides",
         "Oxígeno a alto flujo",
         "Intubación orotraqueal",
-        "Diazepam"
+        "Ventilación no invasiva diferida"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -559,7 +559,7 @@
         "Neumotórax",
         "Síndrome de consolidación",
         "Derrame pleural",
-        "Hipertensión arterial"
+        "Absceso pulmonar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -578,7 +578,7 @@
         "Persistente moderada.",
         "Persistente grave",
         "Intermitente.",
-        "Ninguna de las anteriores"
+        "Persistente muy grave"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -597,7 +597,7 @@
         "Neumonía adquirida en la comunidad",
         "Tromboembolia pulmonar",
         "Metástasis pulmonar",
-        "Apendicitis aguda"
+        "Neumotórax espontáneo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -616,7 +616,7 @@
         "Ventilación mecánica asistida",
         "Furosemida",
         "Oxígeno suplementario",
-        "Todas las anteriores"
+        "Antibióticos de amplio espectro"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -635,7 +635,7 @@
         "Perfil hepático",
         "PPD",
         "TC Pulmonar",
-        "Todas las anteriores"
+        "Prueba de VIH obligatoria antes de cualquier medida"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -654,7 +654,7 @@
         "Máscara de reservorio",
         "Ventilación no invasiva",
         "Oxigenoterapia nocturna",
-        "Todas las anteriores"
+        "Intubación orotraqueal inmediata"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Ecocardiograma",
         "Polisomnografía nocturna",
         "Gasometría arterial",
-        "Todas las anteriores"
+        "Espirometría"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -692,7 +692,7 @@
         "Alta con indicaciones",
         "Alta y control ambulatorio",
         "Hospitalización en UCI",
-        "Derivación a especialista"
+        "Hospitalización en UCI con ventilación mecánica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -711,7 +711,7 @@
         "Espirometría",
         "Toracocentesis",
         "Prueba de difusión de gases",
-        "Faltan datos para decidir"
+        "Broncoscopía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -730,7 +730,7 @@
         "Neumonía atípica",
         "Amenaza de aborto",
         "Tuberculosis pulmonar",
-        "Infección del tracto urinario"
+        "Neumonía bacteriana"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -749,7 +749,7 @@
         "Grave",
         "Moderada",
         "Leve",
-        "Faltan datos para decidir"
+        "Leve con riesgo de paro"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -768,7 +768,7 @@
         "Neumonía atípica",
         "Neumonía intrahospitalaria",
         "Tromboembolismo pulmonar",
-        "Todas las anteriores"
+        "Edema agudo de pulmón"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -787,7 +787,7 @@
         "Angio TEM",
         "Doppler",
         "Cateterismo cardiaco",
-        "Electrocardiograma"
+        "Gammagrafía ósea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -806,7 +806,7 @@
         "Asma bronquial",
         "Hemotórax espontáneo",
         "Enfisema acinar distal",
-        "Ninguna de las anteriores"
+        "Neumonía lobar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -825,7 +825,7 @@
         "Exposición al humo del tabaco",
         "Asistencia médica inadecuada",
         "Trastorno psicológico en la madre",
-        "Diabetes Mellitus"
+        "Sexo femenino"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -844,7 +844,7 @@
         "Pirazinamida",
         "Rifampicina",
         "Etambutol",
-        "Azitromicina"
+        "Isoniazida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -863,7 +863,7 @@
         "Dímero D elevado",
         "Troponina I elevada",
         "Saturación de O₂ de 85%",
-        "Azitromicina"
+        "Leucocitosis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -882,7 +882,7 @@
         "10 a 12",
         "4 a 6",
         "20 a 22",
-        "Faltan datos para decidir"
+        "8 a 10"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -901,7 +901,7 @@
         "Retirar la pirazinamida",
         "Retirar toda la medicación",
         "Retirar la isoniacida",
-        "Ninguna de las anteriores"
+        "Retirar la rifampicina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -920,7 +920,7 @@
         "Tomografía computarizada (TC) torácica",
         "Medición del pH del líquido pleural",
         "Prueba de tuberculina",
-        "Ciprofloxacino"
+        "Biopsia pleural cerrada inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -939,7 +939,7 @@
         "Su antecedente de asma bronquial",
         "Su sedentarismo",
         "Infecciones bronquiales previas",
-        "Faltan datos para decidir"
+        "Exposición laboral a asbesto"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -958,7 +958,7 @@
         "Absceso pulmonar",
         "Hemotórax",
         "Empiema",
-        "Faltan datos para decidir"
+        "Neumotórax"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Shock cardiogénico",
         "Hipoxemia aguda severa",
         "Hipercarbia aguda severa",
-        "Faltan datos para decidir"
+        "Shock séptico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -996,7 +996,7 @@
         "Oxigenoterapia de alto flujo",
         "Oxigenoterapia no invasiva",
         "Ventilación mecánica",
-        "Todas las anteriores"
+        "Intubación inmediata"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1015,7 +1015,7 @@
         "Lactante debe recibir la leche materna extraída manualmente",
         "Alimentar al lactante con sucedáneos de leche materna",
         "La madre debe usar respiradores N95",
-        "Faltan datos para decidir"
+        "Suspender la lactancia por 6 meses"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1034,7 +1034,7 @@
         "Manejo ambulatorio",
         "Hospitalización",
         "Procalcitonina",
-        "Gammagrafía"
+        "Alta con amoxicilina oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1053,7 +1053,7 @@
         "Clínico",
         "Tiempo de enfermedad",
         "Tomográfico",
-        "Apendicitis aguda"
+        "Edad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1072,7 +1072,7 @@
         "Iniciar tratamiento con isoniacida y etambutol",
         "Iniciar tratamiento a los tres meses postparto",
         "Aislar a la paciente para que no contagie",
-        "Ceftriaxona"
+        "Iniciar los cuatro fármacos de primera línea de inmediato"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1091,7 +1091,7 @@
         "Solo observación",
         "Corticoterapia",
         "Solo antibióticos",
-        "Ninguna de las anteriores"
+        "Ventilación mecánica invasiva inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1110,7 +1110,7 @@
         "Debe usar altas dosis de oxígeno en forma intermitente",
         "Usarlo permanentemente para aumentar la supervivencia",
         "No debe administrarse por el Hto está alto",
-        "Solicitar nuevo cultivo"
+        "Suspender los broncodilatadores"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1129,7 +1129,7 @@
         "Tórax silente",
         "Saturación O2 91%",
         "Frecuencia respiratoria de 22 X'",
-        "Todas las anteriores"
+        "Temperatura de 37 °C"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1148,7 +1148,7 @@
         "Pirazinamida",
         "Rifampicina",
         "Isoniazida",
-        "Aspirina"
+        "Estreptomicina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1167,7 +1167,7 @@
         "Meropenem + vancomicina",
         "Ceftriaxona + azitromicina",
         "Amikacina + claritromicina",
-        "Epinefrina"
+        "Amoxicilina oral sola"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1186,7 +1186,7 @@
         "Tuberculosis",
         "Neumonía",
         "Atelectasia",
-        "Hipertensión arterial"
+        "Edema agudo de pulmón"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1205,7 +1205,7 @@
         "Shunt intrapulmonar",
         "Hipoventilación alveolar",
         "FiO2 bajo",
-        "Ninguna de las anteriores"
+        "Aumento del espacio muerto"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1224,7 +1224,7 @@
         "Asbestosis",
         "Neumoconiosis",
         "Silicosis",
-        "Infección del tracto urinario"
+        "Sarcoidosis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1243,7 +1243,7 @@
         "Disminución en VEF1>5% y >100 mL desde el basal",
         "Incremento en VEF1>5% y >100 mL desde el basal",
         "Disminución en VEF1>12% y >200 mL desde el basal",
-        "Aumentar dosis"
+        "Incremento en VEF1 > 30% sin importar el volumen"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1262,7 +1262,7 @@
         "Lobectomía",
         "Decorticación",
         "Neumonectomía",
-        "Faltan datos para decidir"
+        "Pleurodesis química"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1281,7 +1281,7 @@
         "Amoxicilina",
         "Clindamicina",
         "Azitromicina",
-        "Paracetamol"
+        "Vancomicina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1300,7 +1300,7 @@
         "PET scan",
         "Tomografia de torax",
         "Ecografía pulmonar",
-        "Todas las anteriores"
+        "Espirometría"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1319,7 +1319,7 @@
         "Broncodilatadores + corticoides + oxígeno controlado",
         "Antibióticos + corticoides + mucolíticos",
         "Corticoides + broncodilatadores + oxígeno a alto flujo",
-        "Metronidazol"
+        "Antibióticos + oxígeno a alto flujo sin broncodilatadores"
       ],
       "correcta": 1,
       "clave_correcta": "B",

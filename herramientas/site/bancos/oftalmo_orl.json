@@ -27,7 +27,7 @@
         "Limpiar ojo con un paño limpio y colocar ungüento antiséptico",
         "Administrar corticoides tópicos para disminuir la inflamación",
         "Colocar un parche y llamar rápidamente al especialista",
-        "Metronidazol"
+        "Neutralizar con una solución alcalina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -46,7 +46,7 @@
         "Goniotomía",
         "Dacriorrinocistostomía",
         "Iridectomía",
-        "Faltan datos para decidir"
+        "Colirio de timolol de por vida como único tratamiento"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -65,7 +65,7 @@
         "Proceder a cauterización química",
         "Administrar vasoconstrictor tópico",
         "Administrar coagulantes en dosis máxima",
-        "Repetir examen en 24 horas"
+        "Retirar el taponamiento y observar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -84,7 +84,7 @@
         "Pterigion",
         "Iritis",
         "Conjuntivitis",
-        "Hipertensión arterial"
+        "Glaucoma agudo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -103,7 +103,7 @@
         "Taponamiento nasal posterior",
         "Taponamiento nasal anterior",
         "Pegamento",
-        "Faltan datos para decidir"
+        "Ligadura de la arteria esfenopalatina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -122,7 +122,7 @@
         "Alérgica",
         "Crónica",
         "Atrófica",
-        "Ninguna de las anteriores"
+        "Medicamentosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -141,7 +141,7 @@
         "Trimetropin",
         "Ampicilina",
         "Clindamicina",
-        "Atropina"
+        "Ciprofloxacino oral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "Alérgica",
         "Infecciosa",
         "Medicamentosa",
-        "Todas las anteriores"
+        "Atrófica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -179,7 +179,7 @@
         "Inferior",
         "Lateral",
         "Medial",
-        "Faltan datos para decidir"
+        "Techo y pared lateral a la vez"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -198,7 +198,7 @@
         "Chlamydia",
         "Herpes",
         "Varicela",
-        "Faltan datos para decidir"
+        "Neisseria gonorrhoeae"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -217,7 +217,7 @@
         "Influenza",
         "Rinitis alérgica",
         "Rinitis eosinofílica",
-        "Cirrosis hepática"
+        "Rinitis vasomotora"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -236,7 +236,7 @@
         "Taponamiento nasal anterior",
         "Cauterización con pinza bipolar",
         "Indicar anticoagulantes",
-        "Faltan datos para decidir"
+        "Ligadura de la arteria maxilar interna"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -255,7 +255,7 @@
         "Visualización de la faringe",
         "Auscultación de los pulmones",
         "Búsqueda de reflejo rojo",
-        "Faltan datos para decidir"
+        "Radiografía de senos paranasales"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -274,7 +274,7 @@
         "Dorzolamida",
         "Timolol",
         "Latanoprost",
-        "Dexametasona"
+        "Acetazolamida oral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -293,7 +293,7 @@
         "Compresión digital",
         "Cauterización vestibular",
         "Taponamiento anterior",
-        "Ninguna de las anteriores"
+        "Ligadura arterial de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -312,7 +312,7 @@
         "Ecodoppler cervical",
         "Punción y drenaje",
         "Amigdalectomía",
-        "Endoscopia digestiva"
+        "Antibiótico oral y alta sin drenaje"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -331,7 +331,7 @@
         "Rinitis alérgica",
         "Rinofaringitis crónica",
         "Rinosinusitis aguda",
-        "Infección del tracto urinario"
+        "Adenoiditis aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -350,7 +350,7 @@
         "Parálisis del III par craneal",
         "Pupilas de Argyll Robertson",
         "Síndrome de Horner",
-        "Hipertensión arterial"
+        "Glaucoma agudo bilateral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -369,7 +369,7 @@
         "Irrigación con suero fisiológico",
         "Extracción instrumentada",
         "Irrigación con glicerina",
-        "Ceftriaxona"
+        "Irrigación con agua a presión"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -388,7 +388,7 @@
         "Hipertensión arterial",
         "Vasculitis por LES",
         "Hidroxicloroquina",
-        "Amoxicilina"
+        "Retinopatía diabética"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -407,7 +407,7 @@
         "Seroma auricular",
         "Pericondritis",
         "Absceso auricular",
-        "Asma bronquial"
+        "Fractura del cartílago auricular"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -426,7 +426,7 @@
         "Facogénico",
         "Iatrógeno",
         "Primario de ángulo abierto",
-        "Faltan datos para decidir"
+        "Congénito"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -445,7 +445,7 @@
         "Celulitis",
         "Otitis interna",
         "Otitis externa",
-        "Insuficiencia cardíaca"
+        "Mastoiditis aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -464,7 +464,7 @@
         "Queratitis",
         "Conjuntivitis infecciosa",
         "Queroconjuntivitis",
-        "Sepsis"
+        "Uveítis anterior"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -483,7 +483,7 @@
         "Mastoiditis",
         "Otitis media crónica",
         "Cuerpo extraño",
-        "Tuberculosis"
+        "Tapón de cerumen"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -502,7 +502,7 @@
         "Glicerina",
         "Agua oxigenada",
         "Agua destilada helada",
-        "Ibuprofeno"
+        "Alcohol al 70%"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -521,7 +521,7 @@
         "No irrigar el ojo con un chorro suave de agua limpia",
         "No tratar de quitar el objeto incrustado en el ojo",
         "No cubrir el ojo",
-        "Ninguna de las anteriores"
+        "No aplicar anestésico tópico repetidamente"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -540,7 +540,7 @@
         "Hipema",
         "Rotura de globo ocular",
         "Abrasión corneal",
-        "Asma bronquial"
+        "Desprendimiento de retina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -559,7 +559,7 @@
         "Tabique nasal anterior",
         "Tabique nasal posterior",
         "Vestíbulo nasal",
-        "Todas las anteriores"
+        "Cornete inferior posterior"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -578,7 +578,7 @@
         "Antibióticos",
         "Antihistamínicos",
         "Corticoides",
-        "Ceftriaxona"
+        "Anticolinérgicos tópicos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -597,7 +597,7 @@
         "Uveítis aguda",
         "Conjuntivitis viral",
         "Retinoblastoma",
-        "Hipertensión arterial"
+        "Catarata congénita"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -616,7 +616,7 @@
         "Ketorolaco 10 mg",
         "Tobramicina colirio",
         "Acetazolamida 500 mg",
-        "Solicitar nuevo cultivo"
+        "Atropina en colirio"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -635,7 +635,7 @@
         "Vítreo hiperplásico",
         "Catarata",
         "Retinoblastoma",
-        "Infección del tracto urinario"
+        "Conjuntivitis bacteriana"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -654,7 +654,7 @@
         "Uvulitis infecciosa",
         "Absceso amigdaliano",
         "Edema alérgico de Quicke",
-        "Infección del tracto urinario"
+        "Faringitis viral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Doxiciclina",
         "Cotrimoxazol",
         "Polimixina",
-        "Metronidazol"
+        "Aciclovir"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -692,7 +692,7 @@
         "Instilación de antibióticos y analgésicos",
         "Analgésicos y control para evolución de sangrado",
         "Maniobra de Valsalva y protección ocular",
-        "Insulina"
+        "Retirar el coágulo de la cámara anterior en el centro de salud"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -711,7 +711,7 @@
         "Extracción con pinza",
         "Lavado de oído",
         "Miringotomía",
-        "Todas las anteriores"
+        "Irrigación con agua"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -730,7 +730,7 @@
         "Estafilococo dorado",
         "Haemophilus catarralis",
         "Pseudomona aeruginosa",
-        "Faltan datos para decidir"
+        "Candida albicans"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -749,7 +749,7 @@
         "Taponamiento anterior",
         "Cauterización del vestíbulo nasal",
         "Compresión nasal externa",
-        "Todas las anteriores"
+        "Antihipertensivo y observación"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -768,7 +768,7 @@
         "Extracción instrumental con pinza",
         "Instilación ótica de aceite mineral",
         "Irrigación ótica con agua oxigenada",
-        "Ibuprofeno"
+        "Antibiótico ótico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -787,7 +787,7 @@
         "Analgesia endovenosa",
         "Parche compresivo",
         "Tonometría",
-        "Azitromicina"
+        "Extracción del cuerpo extraño en el centro de salud"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -806,7 +806,7 @@
         "Amoxicilina–ácido clavulánico",
         "Cefuroxima",
         "Claritromicina",
-        "Tramadol"
+        "Ciprofloxacino ótico solo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -825,7 +825,7 @@
         "Hipoacusia neurosensorial",
         "Otitis externa",
         "Tapón de cerumen",
-        "Lupus eritematoso sistémico"
+        "Presbiacusia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -844,7 +844,7 @@
         "Acarthamoeba sp",
         "Aspergillus",
         "Candida sp",
-        "Todas las anteriores"
+        "Pseudomonas aeruginosa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -863,7 +863,7 @@
         "Citograma nasal",
         "Dosaje de IgM en sangre",
         "Recuento de eosinófilos en sangre",
-        "Ninguna de las anteriores"
+        "Tomografía de senos paranasales"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -882,7 +882,7 @@
         "Barotrauma",
         "Rinitis seca anterior",
         "Traumatismo nasal",
-        "Síndrome de Guillain-Barré"
+        "Tumor nasal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -901,7 +901,7 @@
         "8",
         "10",
         "2",
-        "Faltan datos para decidir"
+        "12"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -920,7 +920,7 @@
         "Colocación de parche ocular",
         "Irrigación abundante con suero fisiológico",
         "Instilación de anestésico tópico",
-        "Prednisona"
+        "Neutralizar con ácido acético"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -939,7 +939,7 @@
         "Uso de vitamina C",
         "Aumento de la presión intraocular",
         "Hipertensión arterial",
-        "Insulina"
+        "Diabetes mellitus"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -958,7 +958,7 @@
         "Celulitis orbitaria",
         "Queratoconjuntivitis",
         "Mucormicosis",
-        "Neumonía adquirida"
+        "Orzuelo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -977,7 +977,7 @@
         "Glaucoma ángulo cerrado",
         "Catarata evolutiva",
         "Luxación del cristalino",
-        "Ibuprofeno"
+        "Migraña con aura visual"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -996,7 +996,7 @@
         "Química",
         "Bacteriana",
         "Viral",
-        "Todas las anteriores"
+        "Herpética"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1015,7 +1015,7 @@
         "Facogénico",
         "Neovascular",
         "Primario de ángulo abierto",
-        "Faltan datos para decidir"
+        "Primario de ángulo cerrado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1034,7 +1034,7 @@
         "Retiro de cuerpo extraño, antibiótico y parche ocular",
         "Ungüento antibiótico y parche ocular",
         "Antihistamínico, antibiótico y parche ocular",
-        "Ceftriaxona"
+        "Corticoide tópico y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",

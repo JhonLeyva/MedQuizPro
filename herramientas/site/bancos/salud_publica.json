@@ -27,7 +27,7 @@
         "Parto humanizado con acompañante",
         "Referencia a casa de espera",
         "Atención por partera",
-        "Todas las anteriores"
+        "Parto domiciliario sin atención"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -46,7 +46,7 @@
         "Suplementación con ácido fólico",
         "Fortificación con vitamina B12",
         "Abogacía con gobierno local",
-        "Omeprazol"
+        "Suplementación con vitamina A"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -65,7 +65,7 @@
         "Autonomía",
         "Beneficencia",
         "Justicia",
-        "Ninguna de las anteriores"
+        "Confidencialidad no aplica a personajes públicos"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -84,7 +84,7 @@
         "Consejería a las autoridades sanitarias",
         "Entrega periódica de anticonceptivos",
         "Intervención educativa continua",
-        "Ninguna de las anteriores"
+        "Charla única al inicio del año escolar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -103,7 +103,7 @@
         "Conflicto de intereses",
         "Uso de principio de precaución",
         "Vulneración del principio de autonomía",
-        "Ninguna de las anteriores"
+        "Error de medición"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -122,7 +122,7 @@
         "Ecológico",
         "Experimental",
         "Cuasi experimental",
-        "Faltan datos para decidir"
+        "Casos y controles"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -141,7 +141,7 @@
         "Jefe médico de Pediatría",
         "Todo el personal de salud",
         "Departamento de nutrición",
-        "Faltan datos para decidir"
+        "Solo el médico tratante"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -160,7 +160,7 @@
         "Lo refiere a otro hospital",
         "No realiza procedimiento",
         "Realiza el procedimiento",
-        "Faltan datos para decidir"
+        "Realiza el procedimiento con la firma del adolescente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -179,7 +179,7 @@
         "Secundario",
         "Cuaternario",
         "Terciario",
-        "Ninguna de las anteriores"
+        "Promoción de la salud"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -198,7 +198,7 @@
         "Referencia y contrarreferencia",
         "Captación y seguimiento",
         "Supervisión y evaluación",
-        "Ninguna de las anteriores"
+        "Construcción de un nuevo hospital"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -217,7 +217,7 @@
         "Trabajadores del sector formal y sus dependientes",
         "Militares, policías y sus dependientes",
         "Población pobre con seguro público",
-        "Hospitalización en UCI"
+        "Toda la población sin seguro"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -236,7 +236,7 @@
         "Pandemia",
         "Endemia",
         "Letalidad",
-        "Ninguna de las anteriores"
+        "Epidemia sostenida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -255,7 +255,7 @@
         "Disminuya",
         "Aumenta",
         "Indiferente",
-        "Faltan datos para decidir"
+        "Se mantiene estable"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -274,7 +274,7 @@
         "Negarse a brindar información",
         "Derivar al área social",
         "Informar verazmente el diagnóstico y pronóstico",
-        "Hospitalización en UCI"
+        "Informar solo a la paciente y ocultar a los padres en toda circunstancia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -293,7 +293,7 @@
         "Coagulación intravascular diseminada",
         "Violencia familiar",
         "Trombocitopenia inmune",
-        "Faltan datos para decidir"
+        "Lupus eritematoso sistémico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -312,7 +312,7 @@
         "Condiciones de empleo y trabajo de los padres",
         "Nivel educativo y cultural de la familia",
         "Ubicación y accesibilidad al centro de salud",
-        "Todas las anteriores"
+        "Carga genética familiar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -331,7 +331,7 @@
         "Prevención con isoniacida",
         "Fortalecer estudio de contactos",
         "Asegurar la disponibilidad de respiradores",
-        "Todas las anteriores"
+        "Uso de mascarillas quirúrgicas por todo el personal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -350,7 +350,7 @@
         "Vigilancia de migrantes",
         "Administrar quimioprofilaxis",
         "Identificar serotipo",
-        "Ceftriaxona"
+        "Vacunación masiva contra fiebre amarilla"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -369,7 +369,7 @@
         "Negarse a atenderla",
         "Convencerla de usar otro método",
         "Derivar a la paciente a otro colega",
-        "Terapia de rehabilitación"
+        "Pedirle autorización al esposo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -388,7 +388,7 @@
         "Pedirle una prueba en la empresa",
         "Que continúe laborando porque es asintomático",
         "Que vuelva a venir si presenta síntomas",
-        "Todas las anteriores"
+        "Hospitalizarlo de inmediato"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -407,7 +407,7 @@
         "Derivar a hospital de mayor resolución",
         "Rotar a antibióticos más potentes",
         "Cuidados paliativos",
-        "Alta médica con indicaciones"
+        "Iniciar quimioterapia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -426,7 +426,7 @@
         "Otorgar el certificado",
         "Realizar la necropsia",
         "Indagar con más pobladores",
-        "Ninguna de las anteriores"
+        "Firmar como muerte natural"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -445,7 +445,7 @@
         "Transversal",
         "Ecológico",
         "Casos y controles",
-        "Todas las anteriores"
+        "Ensayo clínico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -464,7 +464,7 @@
         "Secundaria",
         "Terciaria",
         "Primaria",
-        "Ninguna de las anteriores"
+        "Cuaternaria"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -483,7 +483,7 @@
         "Ha visitado al enfermo un período de 7 días antes del inicio de la enfermedad",
         "Asistió al velatorio de un fallecido por peste",
         "Que atendió sanitariamente al paciente",
-        "Sepsis"
+        "Vive en la misma provincia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -502,7 +502,7 @@
         "Confiabilidad",
         "Aspectos tangibles",
         "Seguridad",
-        "Faltan datos para decidir"
+        "Empatía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Autonomía",
         "No maleficencia",
         "Beneficencia",
-        "Faltan datos para decidir"
+        "Autonomía relativa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -540,7 +540,7 @@
         "De cohorte longitudinal",
         "Ecológico transversal",
         "Correlacional de tipo transversal",
-        "Ninguna de las anteriores"
+        "Ensayo clínico aleatorizado"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -559,7 +559,7 @@
         "Cruzado",
         "Indirecto",
         "Directo",
-        "Todas las anteriores"
+        "Ocasional"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -578,7 +578,7 @@
         "Asistencia paliativa",
         "Obstinación terapéutica",
         "Decisión anticipada",
-        "Ninguna de las anteriores"
+        "Eutanasia activa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -597,7 +597,7 @@
         "Denunciar ante las autoridades",
         "Conversar con el esposo",
         "Referir a la asistenta social",
-        "Derivación a especialista"
+        "Indicar analgésicos y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -616,7 +616,7 @@
         "De la dignidad de la persona",
         "Libertad individual",
         "Igualdad de las personas",
-        "Faltan datos para decidir"
+        "Libre tránsito"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -635,7 +635,7 @@
         "Atención Básica de Salud",
         "Atención Integral de Salud",
         "Salud para todos en el año 2000",
-        "Ninguna de las anteriores"
+        "Medicina familiar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -654,7 +654,7 @@
         "Registro de migraciones",
         "Cuidado de la salud mental",
         "Incorporación de sujetos de investigación",
-        "Faltan datos para decidir"
+        "Cierre de los establecimientos de salud"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Gestión",
         "Prestación",
         "Organización",
-        "Faltan datos para decidir"
+        "Vigilancia epidemiológica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -692,7 +692,7 @@
         "Enfermo",
         "Complejo",
         "Independiente",
-        "Todas las anteriores"
+        "Saludable"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -711,7 +711,7 @@
         "Costo-utilidad",
         "Costo-efectividad",
         "Minimización de costos",
-        "Todas las anteriores"
+        "Costo-beneficio"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -730,7 +730,7 @@
         "Beneficencia",
         "No maleficencia",
         "Autonomía",
-        "Todas las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -749,7 +749,7 @@
         "Sistemas de salud",
         "Etnia o raza",
         "Condiciones laborales",
-        "Ninguna de las anteriores"
+        "Hábitos alimentarios"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -768,7 +768,7 @@
         "Ecológico",
         "Descriptivo",
         "Cohorte",
-        "Todas las anteriores"
+        "Serie de casos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -787,7 +787,7 @@
         "Alto riesgo para el grupo A",
         "Alto riesgo para el grupo B",
         "Perjuicio económico a la institución",
-        "Faltan datos para decidir"
+        "Falta de financiamiento"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -806,7 +806,7 @@
         "Casos y controles",
         "Estudio descriptivo",
         "Estudio de cohortes",
-        "Faltan datos para decidir"
+        "Estudio ecológico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -825,7 +825,7 @@
         "Profesionalismo",
         "Adaptación al cambio",
         "Liderazgo",
-        "Ninguna de las anteriores"
+        "Negociación"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -844,7 +844,7 @@
         "Fiscalía de prevención",
         "Policía Nacional",
         "Dirección de educación",
-        "Faltan datos para decidir"
+        "Ministerio de Agricultura"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -863,7 +863,7 @@
         "Identificación de actores",
         "Definición de líneas de acción",
         "Análisis del entorno",
-        "Ninguna de las anteriores"
+        "Evaluación de resultados"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -882,7 +882,7 @@
         "No uso de mascarilla",
         "Determinantes sociales",
         "Multidrogoresistencia",
-        "Ninguna de las anteriores"
+        "Baja cobertura de vacunación BCG en adultos"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -901,7 +901,7 @@
         "Justicia",
         "Beneficencia",
         "Autonomía",
-        "Faltan datos para decidir"
+        "Confidencialidad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -920,7 +920,7 @@
         "Estudio descriptivo",
         "Estudio transversal analítico",
         "Casos y controles",
-        "Ninguna de las anteriores"
+        "Ensayo clínico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -939,7 +939,7 @@
         "Atentar contra la autoría",
         "Conflicto de intereses",
         "Desechar principio de beneficencia",
-        "Ninguna de las anteriores"
+        "Error de muestreo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -958,7 +958,7 @@
         "Actividad laboral",
         "Genética",
         "Migración del área urbana",
-        "Faltan datos para decidir"
+        "Lugar de nacimiento"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Infectividad",
         "Patogenicidad",
         "Inmunogenicidad",
-        "Ninguna de las anteriores"
+        "Virulencia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -996,7 +996,7 @@
         "Accesibilidad",
         "Libre elección",
         "Calidad de la atención",
-        "Todas las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1015,7 +1015,7 @@
         "Beneficencia",
         "No maleficencia",
         "Autonomía",
-        "Todas las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1034,7 +1034,7 @@
         "Ministerio de la Mujer",
         "Hospital de tercer nivel",
         "Instituto Nacional de Salud Mental",
-        "Faltan datos para decidir"
+        "Comisaría del sector"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1053,7 +1053,7 @@
         "Determinación de los problemas sanitarios",
         "Determinación de actividades",
         "Asignación de recursos",
-        "Faltan datos para decidir"
+        "Contratación de personal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1072,7 +1072,7 @@
         "Arrepentimiento",
         "Acumulación de tensión",
         "Reconciliación",
-        "Ninguna de las anteriores"
+        "Luna de miel"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1091,7 +1091,7 @@
         "Democratización de la salud",
         "Participación ciudadana",
         "Concertación política en salud",
-        "Ninguna de las anteriores"
+        "Asistencialismo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1110,7 +1110,7 @@
         "Epidémica",
         "Brote esporádico",
         "Pandémica",
-        "Todas las anteriores"
+        "Erradicada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1129,7 +1129,7 @@
         "Higiene y seguridad en el trabajo",
         "Higiene industrial ocupacional",
         "Medicina ocupacional",
-        "Paracetamol"
+        "Medicina física y rehabilitación"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1148,7 +1148,7 @@
         "De derechos humanos",
         "De territorialidad",
         "De interculturalidad",
-        "Faltan datos para decidir"
+        "De género"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1167,7 +1167,7 @@
         "Equidad",
         "Eficacia",
         "Eficiencia",
-        "Faltan datos para decidir"
+        "Universalidad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1186,7 +1186,7 @@
         "Fortalecer los servicios de salud",
         "Desarrollo de habilidades personales",
         "Fomento de acciones preventivas",
-        "Faltan datos para decidir"
+        "Elaborar políticas públicas saludables"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1205,7 +1205,7 @@
         "Ensayo clínico",
         "Transversal",
         "Cohorte",
-        "Atropina"
+        "Serie de casos"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1224,7 +1224,7 @@
         "Portador",
         "Colegio",
         "Hospital",
-        "Faltan datos para decidir"
+        "Centro penitenciario"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1243,7 +1243,7 @@
         "Notificación por escrito a los padres",
         "Disponer que los agentes comunitarios vacunen",
         "Informar al gobierno local",
-        "Ninguna de las anteriores"
+        "Suspender la vacunación hasta las vacaciones"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1262,7 +1262,7 @@
         "Autonomía",
         "No maleficencia",
         "Justicia",
-        "Faltan datos para decidir"
+        "Confidencialidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1281,7 +1281,7 @@
         "Sostenibilidad",
         "Equidad",
         "Calidad",
-        "Faltan datos para decidir"
+        "Universalidad"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1300,7 +1300,7 @@
         "Disminuida",
         "Nula",
         "Estancada",
-        "Todas las anteriores"
+        "Igual a la incidencia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1319,7 +1319,7 @@
         "Cuaternario",
         "Secundario",
         "Terciario",
-        "Todas las anteriores"
+        "Promoción de la salud"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1338,7 +1338,7 @@
         "Tabaco",
         "Sedentarismo",
         "Estrés",
-        "Clindamicina"
+        "Contaminación ambiental"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1357,7 +1357,7 @@
         "Agente",
         "Hospedador",
         "Tiempo",
-        "Todas las anteriores"
+        "Edad del paciente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1376,7 +1376,7 @@
         "Muestra",
         "Agrupamiento",
         "Estrato",
-        "Faltan datos para decidir"
+        "Cohorte"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1395,7 +1395,7 @@
         "Consentimiento informado",
         "Consentimiento paterno",
         "Consentimiento clínico",
-        "Faltan datos para decidir"
+        "Consentimiento presunto"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1414,7 +1414,7 @@
         "Examen de laboratorio al personal de salud",
         "Abastecimiento de antipiréticos",
         "Vacunación preventiva",
-        "Ninguna de las anteriores"
+        "Tratamiento antibiótico a los febriles"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1433,7 +1433,7 @@
         "Liberal",
         "Paternal",
         "Autocrático",
-        "Todas las anteriores"
+        "Burocrático"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1452,7 +1452,7 @@
         "Resultado",
         "Impacto",
         "Soporte",
-        "Ninguna de las anteriores"
+        "Estructura"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1471,7 +1471,7 @@
         "Categórica",
         "Discreta",
         "Continua",
-        "Ninguna de las anteriores"
+        "Nominal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1490,7 +1490,7 @@
         "Adistanasia",
         "Distanasia",
         "Ortotanasia",
-        "Faltan datos para decidir"
+        "Suicidio asistido"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1509,7 +1509,7 @@
         "Patogenicidad",
         "Virulencia",
         "Infección",
-        "Ninguna de las anteriores"
+        "Inmunogenicidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1528,7 +1528,7 @@
         "Conglomerados.",
         "Redes.",
         "Cuotas.",
-        "Ninguna de las anteriores"
+        "Aleatorio simple"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1547,7 +1547,7 @@
         "Radiografía pulmonar a todos los pobladores",
         "Comunicación educativa para reconocimiento precoz de síntomas",
         "Promover cambio de ubicación de la población",
-        "Todas las anteriores"
+        "Aislar a todos los migrantes"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1566,7 +1566,7 @@
         "Ortotanasia",
         "Eutanasia pasiva",
         "Eutanasia activa",
-        "Ninguna de las anteriores"
+        "Sedación paliativa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1585,7 +1585,7 @@
         "Uso responsable de medicamentos",
         "Conflicto de interés",
         "Promoción de libertad terapéutica",
-        "Ninguna de las anteriores"
+        "Consentimiento informado"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1604,7 +1604,7 @@
         "Solidaridad",
         "Beneficencia",
         "Justicia",
-        "Ninguna de las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1623,7 +1623,7 @@
         "Cuaternaria",
         "Terciaria",
         "Primaria",
-        "Faltan datos para decidir"
+        "Promoción de la salud"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1642,7 +1642,7 @@
         "Comunicar a la enfermera",
         "Administrar sedantes",
         "Denunciar a las autoridades",
-        "Ninguna de las anteriores"
+        "Indicar terapia familiar en 6 meses"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1661,7 +1661,7 @@
         "Justicia social",
         "Intersectorialidad",
         "Solidaridad",
-        "Faltan datos para decidir"
+        "Universalidad"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1680,7 +1680,7 @@
         "Primer contacto",
         "Formación profesional",
         "Longitudinalidad",
-        "Ninguna de las anteriores"
+        "Gratuidad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1699,7 +1699,7 @@
         "Ni suficiente ni necesaria",
         "Necesaria y suficiente",
         "Necesaria pero no suficiente",
-        "Faltan datos para decidir"
+        "Suficiente y necesaria según la edad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1718,7 +1718,7 @@
         "Índice",
         "Primario",
         "Probable",
-        "Ninguna de las anteriores"
+        "Confirmado"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1737,7 +1737,7 @@
         "Rehabilitación",
         "Recuperación",
         "Prevención",
-        "Todas las anteriores"
+        "Tratamiento"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1756,7 +1756,7 @@
         "Ácido fólico más sales cobre",
         "Cianocobalamina más zinc",
         "Complejo B más zinc",
-        "Insulina"
+        "Vitamina A en dosis alta"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1775,7 +1775,7 @@
         "Trofoterapia",
         "Tradicional",
         "Complementaria",
-        "Faltan datos para decidir"
+        "Alopática"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1794,7 +1794,7 @@
         "Cíclico",
         "Ascendente",
         "Horizontal",
-        "Faltan datos para decidir"
+        "Secular"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1813,7 +1813,7 @@
         "Variabilidad",
         "Pérdida",
         "Sistemático",
-        "Todas las anteriores"
+        "Error de confusión"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1832,7 +1832,7 @@
         "Iatrogenia",
         "Imprudencia",
         "Negligencia",
-        "Faltan datos para decidir"
+        "Eutanasia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1851,7 +1851,7 @@
         "Debilidad",
         "Oportunidad",
         "Amenaza",
-        "Todas las anteriores"
+        "Fortaleza y oportunidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1870,7 +1870,7 @@
         "Conductual",
         "Biomédico",
         "Comunitario",
-        "Ninguna de las anteriores"
+        "Intersectorial"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1889,7 +1889,7 @@
         "Brindar atención médica y estabilización clínica",
         "Solicitar autorización judicial antes de proceder",
         "Informar primero a los familiares directos",
-        "Todas las anteriores"
+        "Exigir la denuncia policial antes de atender"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1908,7 +1908,7 @@
         "No probabilístico",
         "Sistemático",
         "Aleatorio simple",
-        "Faltan datos para decidir"
+        "Por conglomerados"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1927,7 +1927,7 @@
         "Justificación",
         "Descripción del problema",
         "Marco teórico",
-        "Ninguna de las anteriores"
+        "Cronograma"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1946,7 +1946,7 @@
         "Reglamento interno de trabajo",
         "Manual de procedimientos",
         "Plan estratégico multianual",
-        "Todas las anteriores"
+        "Plan operativo anual"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1965,7 +1965,7 @@
         "La prevalencia de la enfermedad en la universidad",
         "La velocidad con la que se propagó la enfermedad",
         "Riesgo de un expuesto de enfermar durante el brote",
-        "Cirrosis hepática"
+        "La letalidad de la enfermedad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1984,7 +1984,7 @@
         "Hospitales nacionales y regionales",
         "Redes Integradas de Salud",
         "Centros de salud del primer nivel",
-        "Todas las anteriores"
+        "Aseguradoras privadas de salud"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2003,7 +2003,7 @@
         "Fomentar viviendas cercanas a ríos",
         "Promover calzado y agua segura",
         "Prescribir antibióticos profilácticos",
-        "Faltan datos para decidir"
+        "Construcción de hospitales especializados"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2022,7 +2022,7 @@
         "Eliminar o reducir la fuente de contaminación",
         "Fortalecer la educación en higiene personal",
         "Control médico anual a trabajadores",
-        "Metronidazol"
+        "Rotación de turnos sin otras medidas"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2041,7 +2041,7 @@
         "Acupuntura",
         "Homeopatía",
         "Ayurveda",
-        "Faltan datos para decidir"
+        "Fitoterapia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2060,7 +2060,7 @@
         "Aprobar políticas públicas saludables",
         "Fortalecer la acción comunitaria para la salud",
         "Solicitar contrato de infectólogos",
-        "Ninguna de las anteriores"
+        "Construir un hospital de nivel III"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2079,7 +2079,7 @@
         "Error de diseño metodológico",
         "Error tipo I (alfa)",
         "Error de aleatorización",
-        "Ninguna de las anteriores"
+        "Error de medición"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2098,7 +2098,7 @@
         "Promocionar el aceite yodado",
         "Retirar de la dieta alimentos bociógenos",
         "Potabilizar el agua",
-        "Ninguna de las anteriores"
+        "Levotiroxina a toda la población"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2117,7 +2117,7 @@
         "Uso de analgésicos (independiente), música de fondo (dependiente)",
         "Música de fondo (independiente), uso de analgésicos (dependiente)",
         "Música de fondo (independiente), ruido ambiental (dependiente)",
-        "Ninguna de las anteriores"
+        "Uso de analgésicos (independiente), ruido ambiental (dependiente)"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2136,7 +2136,7 @@
         "Asociación",
         "Regresión",
         "Variación",
-        "Faltan datos para decidir"
+        "Causalidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2155,7 +2155,7 @@
         "Hepatitis, VIH, tuberculosis, COVID-19",
         "Hepatitis, tuberculosis, malaria, dengue",
         "VIH, tuberculosis, fiebre amarilla, COVID-19",
-        "Azitromicina"
+        "Diabetes, hipertensión, asma, obesidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2174,7 +2174,7 @@
         "Carga global de enfermedad",
         "Estudios descriptivos",
         "El ASIS",
-        "Diabetes Mellitus"
+        "Censo de población"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2193,7 +2193,7 @@
         "Sospechoso",
         "Autóctono",
         "Inmunizado",
-        "Todas las anteriores"
+        "Descartado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2212,7 +2212,7 @@
         "La prevalencia es de 45 por 1000",
         "El riesgo relativo es de 45 por 1000",
         "El riesgo atribuible es de 45 por 1000",
-        "Todas las anteriores"
+        "La letalidad es de 45 por 1000"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2231,7 +2231,7 @@
         "Vehículo",
         "Vectorial",
         "Fluidos",
-        "Faltan datos para decidir"
+        "Contacto directo persona a persona"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2250,7 +2250,7 @@
         "Evaluación externa",
         "Retroalimentación",
         "Juicio de expertos",
-        "Faltan datos para decidir"
+        "Auditoría médica externa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2269,7 +2269,7 @@
         "Enfermo, clima, vivienda inadecuada",
         "Enfermo, criaderos y susceptibles",
         "Susceptibles criaderos y mosquitos",
-        "Faltan datos para decidir"
+        "Vacuna, clima y agua"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2288,7 +2288,7 @@
         "Que es manipulada con el fin de producir efectos en la otra variable",
         "En la cual se observan los cambios",
         "Que representa a un concepto mal definido",
-        "Faltan datos para decidir"
+        "Que se mantiene constante durante el estudio"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2307,7 +2307,7 @@
         "Condones",
         "Cumplir el tratamiento",
         "Calidad de atención",
-        "Ninguna de las anteriores"
+        "Contactos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2326,7 +2326,7 @@
         "Densidad de incidencia de los fumadores e hipertensos",
         "Riesgo relativo de los fumadores e hipertensos",
         "Fracción atribuible de los fumadores e hipertensos",
-        "Todas las anteriores"
+        "Prevalencia de cardiopatía en la población general"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2345,7 +2345,7 @@
         "Dispersión",
         "Formación",
         "Contracción",
-        "Ninguna de las anteriores"
+        "Nido vacío temprano"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2364,7 +2364,7 @@
         "Adulto joven",
         "Recién nacido",
         "Adulto mayor",
-        "Faltan datos para decidir"
+        "Lactante"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2383,7 +2383,7 @@
         "Llamar inmediatamente al fiscal para que ordene la operación",
         "Que el cirujano autorice la intervención",
         "Esperar la llegada de los familiares",
-        "Ninguna de las anteriores"
+        "Trasladar al paciente a otro hospital"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2402,7 +2402,7 @@
         "La mitad de los sujetos de la muestra tienen valores de glicemia inferiores a 95 mg/dL",
         "El valor de glicemia con la mayor frecuencia en los sujetos de la muestra es de 90 mg/dL",
         "La desviación estándar de los valores de glicemia en la muestra es de 5 mg/dL",
-        "Ninguna de las anteriores"
+        "La moda es 95 mg/dL"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2421,7 +2421,7 @@
         "30",
         "15",
         "66",
-        "Todas las anteriores"
+        "150"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2440,7 +2440,7 @@
         "Razón",
         "Tasa",
         "Incidencia",
-        "Ninguna de las anteriores"
+        "Proporción"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2459,7 +2459,7 @@
         "No maleficencia",
         "Justicia",
         "Beneficencia",
-        "Ninguna de las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2478,7 +2478,7 @@
         "Control de contactos y fuentes de infección",
         "Aplicación de vacuna contra el dengue",
         "Tratamiento antibiótico domiciliario de casos",
-        "Ibuprofeno"
+        "Vacunación masiva contra influenza"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2497,7 +2497,7 @@
         "Respeto a la persona",
         "Ninguno",
         "Justicia",
-        "Ninguna de las anteriores"
+        "Autonomía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2516,7 +2516,7 @@
         "Educación a domicilio",
         "Escenificación teatral en parques",
         "Charlas en centros laborales",
-        "Faltan datos para decidir"
+        "Vacunación masiva"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2535,7 +2535,7 @@
         "Niveles de estrés educativo en universitarios",
         "Criterios de estilos de vida saludable en adultos jóvenes",
         "Secuela por confinamiento",
-        "Todas las anteriores"
+        "Indicadores de la economía nacional"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2554,7 +2554,7 @@
         "Comunicación educativa grupal",
         "Clausura del quiosco escolar",
         "Difusión radial de factores protectores",
-        "Ninguna de las anteriores"
+        "Prescripción de fármacos para bajar de peso"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2573,7 +2573,7 @@
         "Evaluación psiquiátrica más autorización judicial",
         "Bastaría con solicitud de los familiares directos",
         "Evaluación previa del psiquiatra",
-        "Ninguna de las anteriores"
+        "Solo la firma de la propia paciente"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2592,7 +2592,7 @@
         "Efecto protector",
         "Factor de riesgo",
         "Asociación positiva",
-        "Todas las anteriores"
+        "Asociación causal comprobada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2611,7 +2611,7 @@
         "Transversal",
         "Caso control",
         "Experimental",
-        "Ceftriaxona"
+        "Ecológico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2630,7 +2630,7 @@
         "El paciente debe firmar consentimiento escrito en quechua",
         "La madre también debe firmar el consentimiento",
         "Basta con la firma del paciente por ser mayor de 8 años",
-        "Faltan datos para decidir"
+        "Que el investigador lo firme en su nombre"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2649,7 +2649,7 @@
         "Efectividad",
         "Satisfacción",
         "Calidad",
-        "Ninguna de las anteriores"
+        "Accesibilidad geográfica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2668,7 +2668,7 @@
         "Hospitalizar a los pacientes en el Instituto Nacional de Rehabilitación",
         "Implementar unidad productora de servicios de salud de medicina de rehabilitación",
         "Solicitar recategorización del centro de salud para ser nivel 2",
-        "Epinefrina"
+        "Esperar que acudan espontáneamente al centro de salud"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2687,7 +2687,7 @@
         "Organización de equipos de intervención integral",
         "Coordinar con las clínicas locales",
         "Adquisición de oxímetros de pulso",
-        "Todas las anteriores"
+        "Construir un nuevo establecimiento"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2706,7 +2706,7 @@
         "Comunitario",
         "Familiar",
         "Individual",
-        "Ninguna de las anteriores"
+        "Hospitalario"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2725,7 +2725,7 @@
         "Objetivo",
         "Analítico",
         "Permanente",
-        "Ninguna de las anteriores"
+        "Subjetivo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2744,7 +2744,7 @@
         "Experimental",
         "Histórico",
         "Ecológico",
-        "Todas las anteriores"
+        "Transversal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2763,7 +2763,7 @@
         "Primaria",
         "Terciaria",
         "Secundaria",
-        "Todas las anteriores"
+        "Promoción de la salud"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2782,7 +2782,7 @@
         "Justicia",
         "No maleficencia",
         "Beneficencia",
-        "Ninguna de las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2801,7 +2801,7 @@
         "Evaluación",
         "Previsión",
         "Dirección",
-        "Faltan datos para decidir"
+        "Ejecución"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2820,7 +2820,7 @@
         "Acceso/protección",
         "Promoción/prevención",
         "Protección/prevención",
-        "Todas las anteriores"
+        "Tecnología/especialización"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2839,7 +2839,7 @@
         "Financiamiento de la salud",
         "Promoción de la salud",
         "Desarrollo de los recursos humanos para la salud",
-        "Ninguna de las anteriores"
+        "Atención hospitalaria especializada"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2858,7 +2858,7 @@
         "No permite identificar múltiples factores de riesgo",
         "Ineficiente para el estudio de enfermedades crónicas",
         "Ineficiente para el estudio de enfermedades raras",
-        "Todas las anteriores"
+        "No permite calcular el odds ratio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2877,7 +2877,7 @@
         "Epidemia",
         "Brote",
         "Endemia",
-        "Faltan datos para decidir"
+        "Pandemia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2896,7 +2896,7 @@
         "Cobertura",
         "Solidaridad",
         "Longitudinalidad",
-        "Faltan datos para decidir"
+        "Especialización"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2915,7 +2915,7 @@
         "Plan de atención individual",
         "Análisis de determinantes sociales de salud",
         "Instrumentos para evaluar desarrollo infantil",
-        "Todas las anteriores"
+        "Historia clínica individual"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2934,7 +2934,7 @@
         "Folletos de signos de alarma para la gestante",
         "Los kits de la clave roja, amarilla y azul",
         "Radar de gestantes",
-        "Ninguna de las anteriores"
+        "Historia clínica de emergencia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2953,7 +2953,7 @@
         "Designar responsables",
         "Establecer estrategias",
         "Ejecución presupuestal",
-        "Faltan datos para decidir"
+        "Contratar personal especializado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2972,7 +2972,7 @@
         "Realizar capacitación en salud sexual y reproductiva en colegios del ámbito",
         "Aplicar las funciones obstétricas y neonatales esenciales en establecimientos I-1 y I-2",
         "Eliminación de barreras que impidan acceso de la adolescente a la atención de parto",
-        "Todas las anteriores"
+        "Construir un hospital materno"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2991,7 +2991,7 @@
         "Administración de terapia preventiva de tuberculosis pulmonar",
         "Evaluar sobre reacciones adversas al tratamiento TB",
         "Capacitación sobre control de infecciones respiratorias TB",
-        "Omeprazol"
+        "Vacunación contra la fiebre amarilla"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3010,7 +3010,7 @@
         "Inobservancia",
         "Impericia",
         "Negligencia",
-        "Ninguna de las anteriores"
+        "Caso fortuito"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3029,7 +3029,7 @@
         "Vigilancia clínica de eventos adversos a la vacunación",
         "Difusión de mensajes clave de comunicación educativa",
         "Intensificación de vacunación con la vacuna SPR",
-        "Furosemida"
+        "Cierre de colegios"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3048,7 +3048,7 @@
         "Plan estratégico",
         "Plan operativo institucional",
         "Análisis de la situación de salud",
-        "Ninguna de las anteriores"
+        "Reglamento de organización y funciones"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3067,7 +3067,7 @@
         "3",
         "6",
         "2",
-        "Ninguna de las anteriores"
+        "1.5"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3086,7 +3086,7 @@
         "Se mantiene",
         "Disminuye",
         "Se incrementa",
-        "Todas las anteriores"
+        "Desaparece"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3105,7 +3105,7 @@
         "40",
         "20",
         "30",
-        "Todas las anteriores"
+        "5"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3124,7 +3124,7 @@
         "Recuperación",
         "Rehabilitación",
         "Promoción",
-        "Ninguna de las anteriores"
+        "Tratamiento"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3143,7 +3143,7 @@
         "Equidad en salud",
         "Salud ambiental y comunitaria",
         "Abogacía y políticas públicas",
-        "Faltan datos para decidir"
+        "Rehabilitación"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3162,7 +3162,7 @@
         "Desempeño (Performing)",
         "Formación (Forming)",
         "Tormenta (Storming)",
-        "Faltan datos para decidir"
+        "Disolución (Adjourning)"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3181,7 +3181,7 @@
         "Integra resultados de múltiples estudios",
         "Mas rápido que los estudios primarios",
         "Lo puede realizar un equipo pequeño.",
-        "Ninguna de las anteriores"
+        "Se basa en la opinión de expertos"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3200,7 +3200,7 @@
         "Convocar al director regional de salud",
         "Fortalecer los mensajes radiales",
         "Brigadas de vacunación itinerantes",
-        "Faltan datos para decidir"
+        "Esperar la demanda espontánea"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3219,7 +3219,7 @@
         "No maleficencia",
         "Justicia",
         "Beneficencia",
-        "Ninguna de las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3238,7 +3238,7 @@
         "Entregar la placenta a la promotora que acompañó",
         "Incinerar la placenta con participación de la pareja",
         "Preguntar a los familiares si desean llevar la placenta",
-        "Amoxicilina"
+        "Prohibir que la familia se la lleve"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3257,7 +3257,7 @@
         "III",
         "IV",
         "II",
-        "Faltan datos para decidir"
+        "0"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3276,7 +3276,7 @@
         "Rehabilitación",
         "Recuperación",
         "Promoción",
-        "Ninguna de las anteriores"
+        "Hospitalario"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3295,7 +3295,7 @@
         "Autonomía",
         "Beneficencia",
         "Justicia",
-        "Todas las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3314,7 +3314,7 @@
         "Beneficencia",
         "Justicia",
         "No Maleficencia",
-        "Ninguna de las anteriores"
+        "Confidencialidad"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3333,7 +3333,7 @@
         "Banco de sangre",
         "Centro quirúrgico",
         "Cuidados intensivos",
-        "Todas las anteriores"
+        "Unidad de hemodiálisis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3352,7 +3352,7 @@
         "Capacitar al personal de salud",
         "Intensificar la vigilancia de febriles",
         "Abordar los determinantes sociales",
-        "Faltan datos para decidir"
+        "Comprar más camas hospitalarias"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3371,7 +3371,7 @@
         "Promover prácticas de eliminación de criaderos",
         "Instruir en la aplicación de exámenes de laboratorio",
         "Fortalecer la información sobre signos de alarma",
-        "Manejo expectante"
+        "Uso de antibióticos ante fiebre"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3390,7 +3390,7 @@
         "Ausente",
         "Democrático",
         "Transformacional",
-        "Ninguna de las anteriores"
+        "Situacional"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3409,7 +3409,7 @@
         "Financiar contrato de ginecobstetras",
         "Construcción de hospital materno infantil",
         "Implementar vigilancia comunitaria",
-        "Todas las anteriores"
+        "Comprar ambulancias para el hospital regional"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3428,7 +3428,7 @@
         "Acceso a servicios de salud",
         "Trastornos hormonales",
         "Desestructuración familiar",
-        "Ninguna de las anteriores"
+        "Carga genética"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3447,7 +3447,7 @@
         "Referencia a psiquiatría",
         "Fortalecer la actividad física",
         "Programa educativo continuo",
-        "Faltan datos para decidir"
+        "Cambiar a insulina a todos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3466,7 +3466,7 @@
         "Distribuir suplementos nutricionales gratuitos escolares",
         "Capacitar a las asociaciones de padres de familia en cocina saludable, mediante talleres presenciales",
         "Implementar controles nutricionales mensuales para monitorear el peso en niños",
-        "Epinefrina"
+        "Medicación preventiva masiva"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3485,7 +3485,7 @@
         "Supervisión",
         "Monitoreo",
         "Evaluación",
-        "Faltan datos para decidir"
+        "Auditoría financiera"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3504,7 +3504,7 @@
         "Edad avanzada",
         "Historia familiar de hipertensión",
         "Nivel socioeconómico bajo",
-        "Ninguna de las anteriores"
+        "Sexo femenino"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3523,7 +3523,7 @@
         "Se articula con el enfoque biopsicosocial",
         "Limita la autonomía al imponer los estilos de vida",
         "Prioriza intervenciones poblacionales costo- efectivas",
-        "Todas las anteriores"
+        "Considera la salud como un derecho"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3542,7 +3542,7 @@
         "Entregar cartillas informativas sobre técnicas de lactancia",
         "Programar consulta mensual en el centro de salud",
         "Capacitar agentes comunitarios de salud",
-        "Faltan datos para decidir"
+        "Indicar fórmula láctea"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3561,7 +3561,7 @@
         "Asignar los equipos a quienes tengan más recursos económicos",
         "Asignar al que llegó primero al hospital",
         "Asignar los ventiladores al azar para garantizar igualdad",
-        "Faltan datos para decidir"
+        "Priorizar a los de mayor edad"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3580,7 +3580,7 @@
         "Aplicativo",
         "Predictivo",
         "Explicativo",
-        "Faltan datos para decidir"
+        "Exploratorio"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3599,7 +3599,7 @@
         "Capacitar a los profesionales de salud para el adecuado control de peso y talla de los niños",
         "Difundir campañas de desparasitación infantil en medios de comunicación",
         "Elaborar y distribuir folletos para prevención de anemia",
-        "Epinefrina"
+        "Repartir suplementos sin educación"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3618,7 +3618,7 @@
         "Prueba de chi-cuadrado",
         "Regresión logística multivariada",
         "ANOVA de una vía",
-        "Todas las anteriores"
+        "Correlación de Pearson"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3637,7 +3637,7 @@
         "Mostrarse indiferente",
         "Notificar al Consejo Médico Regional",
         "Pedirle que grabe fuera del establecimiento",
-        "Faltan datos para decidir"
+        "Felicitarlo por la iniciativa"
       ],
       "correcta": 2,
       "clave_correcta": "C",

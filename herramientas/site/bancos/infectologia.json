@@ -27,7 +27,7 @@
         "Rabdovirus",
         "Flavivirus",
         "Coronavirus",
-        "Faltan datos para decidir"
+        "Herpesvirus"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -46,7 +46,7 @@
         "Toxoplasmosis",
         "Rubéola",
         "Linfoma",
-        "Lupus eritematoso sistémico"
+        "Faringitis estreptocócica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -65,7 +65,7 @@
         "Chancro luético",
         "Quiste de Bartholino",
         "Vulvovaginitis mixta",
-        "Tuberculosis"
+        "Chancroide"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -84,7 +84,7 @@
         "Pneumocystosis",
         "Tuberculosis pulmonar",
         "Micosis pulmonar",
-        "Neumonía adquirida"
+        "Sarcoma de Kaposi pulmonar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -103,7 +103,7 @@
         "Anfotericina B",
         "Paromomicina",
         "Antimonio pentavalente",
-        "Amoxicilina"
+        "Ivermectina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -122,7 +122,7 @@
         "Leptospirosis",
         "Dengue",
         "Malaria",
-        "Lupus eritematoso sistémico"
+        "Fiebre amarilla"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -141,7 +141,7 @@
         "Ceftazidima - oxacilina - amikacina",
         "Amikacina - ceftazidima - ciprofloxacina",
         "Ceftriaxona - azitromicina - amikacina",
-        "Diazepam"
+        "Amoxicilina - claritromicina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "PPD",
         "ADA en líquido cefalorraquídeo",
         "Rx de tórax",
-        "Endoscopia digestiva"
+        "Electroencefalograma"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -179,7 +179,7 @@
         "Leishmania",
         "Malaria",
         "Tuberculosis",
-        "Neumonía adquirida"
+        "Leptospirosis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -198,7 +198,7 @@
         "Amikacina",
         "Penicilina benzatínica",
         "Ceftriaxona",
-        "Paracetamol"
+        "Metronidazol"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -217,7 +217,7 @@
         "Usar mascarilla al dar de lactar",
         "Continuar la lactancia sin restricción",
         "Dar de lactar al terminar el tratamiento",
-        "Ninguna de las anteriores"
+        "Suspender la lactancia hasta terminar el tratamiento"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -236,7 +236,7 @@
         "Carga viral de VIH < 1000 copias/ml",
         "Membranas íntegras",
         "Pródromos de trabajo de parto",
-        "Suspender tratamiento"
+        "Primiparidad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -255,7 +255,7 @@
         "Shock por hemorragia gastrointestinal",
         "Bronquitis aguda",
         "Artritis séptica",
-        "Síndrome de Guillain-Barré"
+        "Neumonía por aspiración"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -274,7 +274,7 @@
         "Aguda con formación de abscesos",
         "Granulomatosa con caseificación",
         "Gomosa con necrosis",
-        "Diabetes Mellitus"
+        "Linfocitaria con eosinófilos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -293,7 +293,7 @@
         "Flebotomus papatasi",
         "Xenoposylla cheopis",
         "Pediculus capitis",
-        "Cirrosis hepática"
+        "Anopheles"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -312,7 +312,7 @@
         "Ciprofloxacino en dosis única",
         "Metronidazol más tinidazol",
         "Ceftriaxona más azitromicina",
-        "Aumentar dosis"
+        "Penicilina benzatínica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -331,7 +331,7 @@
         "Haemophilus influenzae tipo B",
         "Staphylococcus aureus",
         "Pseudomonas aeruginosa",
-        "Todas las anteriores"
+        "Listeria monocytogenes"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -350,7 +350,7 @@
         "Aciclovir",
         "Tocilizumab",
         "Anfotericina B",
-        "Dexametasona"
+        "Ganciclovir"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -369,7 +369,7 @@
         "Bacteriana",
         "Micótica",
         "Tuberculosa",
-        "Ninguna de las anteriores"
+        "Parasitaria"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -388,7 +388,7 @@
         "Trofozoítos",
         "Quistes",
         "Larvas",
-        "Ninguna de las anteriores"
+        "Cisticercos"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -407,7 +407,7 @@
         "Dengue con signos de alarma",
         "Dengue hemorrágico",
         "Dengue severo",
-        "Faltan datos para decidir"
+        "Dengue sin signos de alarma"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -426,7 +426,7 @@
         "Shigella dysenteriae",
         "Entamoeba coli",
         "Toxina estafilocócica",
-        "Atropina"
+        "Rotavirus"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -445,7 +445,7 @@
         "Zika",
         "Fiebre tifoidea",
         "Leptospirosis",
-        "Hipertensión arterial"
+        "Dengue"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -464,7 +464,7 @@
         "Ascaridiasis, trichuriasis",
         "Paragonimiasis, oxiuriasis",
         "Ancylostomiasis, estrongiloidiasis",
-        "Faltan datos para decidir"
+        "Toxoplasmosis, cisticercosis"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -483,7 +483,7 @@
         "Histoplasmosis de la cavidad oral",
         "Criptococosis diseminada",
         "Leishmaniasis cutáneo-mucosa",
-        "Tuberculosis"
+        "Cáncer de pulmón"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -502,7 +502,7 @@
         "Praziquantel",
         "Albendazol",
         "Metronidazol",
-        "Insulina"
+        "Ivermectina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Su material genético ingresa a la célula como DNA",
         "Su replicación es controlada por el DNA del neumocito",
         "La proteína M le da su morfología típica",
-        "Faltan datos para decidir"
+        "Es un virus ADN de doble cadena"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -540,7 +540,7 @@
         "Dengue",
         "Bartonella",
         "Malaria",
-        "Ninguna de las anteriores"
+        "Fiebre tifoidea"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -559,7 +559,7 @@
         "Triatoma infestans",
         "Lutzomyia sp.",
         "Phlebotomus verrucarum",
-        "Insuficiencia cardíaca"
+        "Culex"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -578,7 +578,7 @@
         "Falciparum",
         "Malariae",
         "Knowlesi",
-        "Todas las anteriores"
+        "Ovale"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -597,7 +597,7 @@
         "Micótica",
         "Bacteriana",
         "Protozoario",
-        "Todas las anteriores"
+        "Tuberculosa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -616,7 +616,7 @@
         "Toxoplasmosis cerebral",
         "Leucoencefalopatía multifocal progresiva",
         "Meningoencefalitis criptococósica",
-        "Sepsis"
+        "Absceso bacteriano"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -635,7 +635,7 @@
         "Cyclospora cayetanensis",
         "Blastocystis hominis",
         "Balantidium coli",
-        "Faltan datos para decidir"
+        "Entamoeba histolytica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -654,7 +654,7 @@
         "Ritonavir",
         "Zidovudina",
         "Nevirapina",
-        "Prednisona"
+        "Tenofovir"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Neisseria gonorrhoeae",
         "Treponema pallidum",
         "Chlamydia trachomatis",
-        "Faltan datos para decidir"
+        "Haemophilus ducreyi"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -692,7 +692,7 @@
         "Sospechoso de dengue clásico",
         "Síndrome de choque por dengue",
         "Probable dengue con signos de alarma",
-        "Sepsis"
+        "Dengue grave"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -707,11 +707,11 @@
       "examen_origen": "ENAM 2022 · pregunta oficial",
       "enunciado": "En un análisis de heces de rutina se encuentran huevos de Strongyloides stercoralis. ¿Cuál de las siguientes opciones sería el tratamiento de primera elección?",
       "opciones": [
-        "Centro de Salud Mental Comunitario",
+        "Metronidazol",
         "Mebendazol",
         "Ivermectina",
         "Albendazol",
-        "Paracetamol"
+        "Praziquantel"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -730,7 +730,7 @@
         "Fiebre amarilla",
         "Dengue",
         "Leptospirosis",
-        "Hipertensión arterial"
+        "Fiebre tifoidea"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -749,7 +749,7 @@
         "Etambutol",
         "Pirazinamida",
         "Rifampicina",
-        "Clindamicina"
+        "Ciprofloxacino por 7 días"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -768,7 +768,7 @@
         "Enterobius varmicularis",
         "Candida albicans",
         "Escherichia coli",
-        "Todas las anteriores"
+        "Gardnerella vaginalis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -787,7 +787,7 @@
         "Leishmaniasis",
         "Esporotricosis",
         "Blastomicosis",
-        "Infección del tracto urinario"
+        "Tuberculosis cutánea"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -806,7 +806,7 @@
         "Disminución de la carga viral",
         "Reducción de granulocitos",
         "Disminución de mediadores endoteliales",
-        "Ninguna de las anteriores"
+        "Destrucción directa del hepatocito por el virus"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -825,7 +825,7 @@
         "Colitis ulcerativa",
         "Peritonitis tuberculosa",
         "Ascitis bacteriana",
-        "Infección del tracto urinario"
+        "Carcinomatosis peritoneal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -844,7 +844,7 @@
         "Rifampicina",
         "Etambutol",
         "Isoniacida",
-        "Tramadol"
+        "Estreptomicina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -863,7 +863,7 @@
         "Artrotomía descompresiva",
         "Vancomicina intrarticular",
         "Ceftriaxona intravenosa",
-        "Paracetamol"
+        "Antiinflamatorios y reposo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -882,7 +882,7 @@
         "Molusco contagioso",
         "Angiomatosis bacilar",
         "Foliculitis eosinofílica",
-        "Asma bronquial"
+        "Hemangioma cereza"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -901,7 +901,7 @@
         "Eschericha coli",
         "Vibrio cholerae",
         "Shigella spp",
-        "Faltan datos para decidir"
+        "Giardia lamblia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -920,7 +920,7 @@
         "No vacunarse",
         "Refuerzo antes de viajar",
         "Refuerzo a los 4 años",
-        "Ninguna de las anteriores"
+        "Refuerzo anual"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -939,7 +939,7 @@
         "Mycobacterium tuberculosis",
         "Neisseria meningitidis",
         "Estreptococcus pneumoniae",
-        "Hipertensión arterial"
+        "Cryptococcus neoformans"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -958,7 +958,7 @@
         "Tuberculoma",
         "Neurocisticercosis",
         "Absceso cerebral",
-        "Insuficiencia cardíaca"
+        "Glioblastoma"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -977,7 +977,7 @@
         "Antígeno E",
         "Anticuerpo contra antígeno de superficie",
         "Anticuerpo anti-core total",
-        "Todas las anteriores"
+        "Antígeno de superficie (HBsAg)"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -996,7 +996,7 @@
         "Leptospirosis",
         "Nocardiosis",
         "Actinomicosis",
-        "Lupus eritematoso sistémico"
+        "Hepatitis A"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1015,7 +1015,7 @@
         "Mycobacterium tuberculosis",
         "Haemophilus influenzae",
         "Streptococcus pneumoniae",
-        "Neumonía adquirida"
+        "Virus herpes simple"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1034,7 +1034,7 @@
         "Posible",
         "Descartado",
         "Confirmado",
-        "Ninguna de las anteriores"
+        "Sospechoso"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1053,7 +1053,7 @@
         "Fiebre Tifoidea",
         "Bartonelosis",
         "Dengue clásico",
-        "Cirrosis hepática"
+        "Tuberculosis vertebral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1072,7 +1072,7 @@
         "Genotipificación del VIH-1",
         "Inmunofluorescencia indirecta",
         "Western blot para VIH",
-        "Todas las anteriores"
+        "Recuento de CD4"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1091,7 +1091,7 @@
         "Tuberculosis ganglionar",
         "Linfadenitis reactiva",
         "Sarcoidosis",
-        "Hipertensión arterial"
+        "Linfadenitis por arañazo de gato"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1110,7 +1110,7 @@
         "Pseudomonas aeruginosa",
         "Staphylococcus aureus",
         "Streptococcus pneumoniae",
-        "Ninguna de las anteriores"
+        "Candida albicans"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1129,7 +1129,7 @@
         "Anticuerpos IgM dengue",
         "Inhibición-hemaglutinación",
         "Anticuerpos IgG dengue",
-        "Todas las anteriores"
+        "Gota gruesa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1148,7 +1148,7 @@
         "Aislar el caso positivo por 4 semanas",
         "Solicitar análisis de sangre para TB",
         "Iniciar terapia preventiva de TB",
-        "Ninguna de las anteriores"
+        "Vacunar con BCG"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1167,7 +1167,7 @@
         "Ciprofloxacino",
         "Metronidazol",
         "Cotrimoxazol",
-        "Aspirina"
+        "Fluconazol"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1186,7 +1186,7 @@
         "Itraconazol",
         "Prednisona",
         "Ritonavir",
-        "Furosemida"
+        "Ganciclovir"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1205,7 +1205,7 @@
         "Malaria",
         "Brucellosis",
         "Fiebre tifoidea",
-        "Diabetes Mellitus"
+        "Leptospirosis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1224,7 +1224,7 @@
         "Cuantificación de la carga viral en plasma",
         "Detección de anticuerpos por técnica de Western blot",
         "Detección de antígeno p24",
-        "Todas las anteriores"
+        "Recuento de linfocitos totales"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1243,7 +1243,7 @@
         "Ig equina",
         "Ig humana",
         "Toxoide",
-        "Paracetamol"
+        "Antibiótico sin limpieza de la herida"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1262,7 +1262,7 @@
         "Cefalea",
         "Ictericia",
         "Fiebre",
-        "Faltan datos para decidir"
+        "Mialgias"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1281,7 +1281,7 @@
         "Síndrome de reconstitución inmune",
         "Reacción adversa al tratamiento antirretroviral",
         "Blastomicosis sistémica",
-        "Cirrosis hepática"
+        "Tuberculosis multidrogorresistente"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1300,7 +1300,7 @@
         "Sucralfato",
         "Hidratación oral",
         "Metronidazol vía oral",
-        "Clindamicina"
+        "Loperamida a dosis altas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1319,7 +1319,7 @@
         "Lavado profuso de la herida con SF y jabón",
         "Antibioticoterapia profiláctica",
         "Administración de antirrábico humano",
-        "Todas las anteriores"
+        "Cierre con puntos y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1338,7 +1338,7 @@
         "Penicilina benzatínica",
         "Penicilina G sódica",
         "Ceftriaxona",
-        "Epinefrina"
+        "Azitromicina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1357,7 +1357,7 @@
         "Pioderma gangrenoso",
         "Leishmaniasis cutánea",
         "Tuberculosis cutánea",
-        "Lupus eritematoso sistémico"
+        "Esporotricosis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1376,7 +1376,7 @@
         "Cefalosporina de 3ª generación",
         "Analgésicos/antipiréticos",
         "Antivirales (aciclovir)",
-        "Aspirina"
+        "Anfotericina B"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1395,7 +1395,7 @@
         "Citología en base líquida",
         "Pruebas serológicas",
         "Pruebas virológicas de lesiones genitales",
-        "Faltan datos para decidir"
+        "Urocultivo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1414,7 +1414,7 @@
         "Foscarnet",
         "Ganciclovir",
         "Glucocorticoides",
-        "Metronidazol"
+        "Aciclovir oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1433,7 +1433,7 @@
         "Praziquantel en dosis fraccionada",
         "Nitazoxanida en dosis única",
         "Metronidazol seguido de paromomicina",
-        "Repetir examen en 24 horas"
+        "Ivermectina en dosis única"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1452,7 +1452,7 @@
         "Escarlatina",
         "Linfangitis",
         "Mononucleosis infecciosa",
-        "Ibuprofeno"
+        "Rubéola"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1471,7 +1471,7 @@
         "Estudio directo de líquido cefalorraquídeo con tinta china",
         "Gota gruesa con tinción ortocromática",
         "RMN de encéfalo con difusión",
-        "Arteriografía"
+        "Electroencefalograma"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1490,7 +1490,7 @@
         "Picadura de zancudo aedes",
         "Consumo de ostras crudas",
         "Contacto personal estrecho (besos)",
-        "Furosemida"
+        "Transfusión sanguínea reciente"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1509,7 +1509,7 @@
         "Ascaridiasis",
         "Estrongiloidosis",
         "Esquistosomiasis",
-        "Lupus eritematoso sistémico"
+        "Ancilostomiasis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1528,7 +1528,7 @@
         "Levofloxacino EV",
         "Penicilina EV",
         "Imipenem EV",
-        "Diazepam"
+        "Metronidazol EV"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1547,7 +1547,7 @@
         "Loxocelismo",
         "Bartonelosis",
         "Tripanosomiasis",
-        "Síndrome de Guillain-Barré"
+        "Celulitis periorbitaria bacteriana"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1566,7 +1566,7 @@
         "Aspergilosis",
         "Candidiasis",
         "Actinomicosis",
-        "Sepsis"
+        "Celulitis facial estreptocócica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1585,7 +1585,7 @@
         "Paracetamol",
         "Ácido acetilsalicílico",
         "Ketoprofeno",
-        "Omeprazol"
+        "Corticoides orales"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1604,7 +1604,7 @@
         "Amikacina con Ciprofloxacina",
         "Cloramfenicol con Amoxicilina",
         "Azitromicina con Ticarcilina",
-        "Furosemida"
+        "Amoxicilina oral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1623,7 +1623,7 @@
         "Estreptomicina, isoniazida, rifampicina, pirazinamida",
         "Estreptomicina, isoniazida, etambutol, pirazinamida",
         "Isoniazida, rifampicina, etambutol",
-        "Amoxicilina"
+        "Isoniazida y rifampicina por 2 meses"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1642,7 +1642,7 @@
         "Medir capacidad de respuesta inmunológica del infectado",
         "Regular dosis de tuberculostáticos",
         "Detectar resistencia a antimicrobianos",
-        "Repetir examen en 24 horas"
+        "Confirmar tuberculosis activa con bacilos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1661,7 +1661,7 @@
         "Reemplazar el circuito del ventilador cada 24 horas",
         "Descontaminación selectiva con norfloxacino",
         "Profilaxis para úlcera por estrés con sucralfato",
-        "Atropina"
+        "Mantener al paciente en decúbito supino plano"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1680,7 +1680,7 @@
         "Sospecha de peste",
         "Confirmado de dengue",
         "Contacto de fiebre amarilla",
-        "Neumonía adquirida"
+        "Caso confirmado de leptospirosis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1699,7 +1699,7 @@
         "Ceftriaxona + azitromicina",
         "Clindamicina + amikacina",
         "Penicilina benzatínica + clindamicina",
-        "Insulina"
+        "Metronidazol dosis única"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1718,7 +1718,7 @@
         "Shigella",
         "Salmonella",
         "Vibrio cholerae",
-        "Faltan datos para decidir"
+        "Rotavirus"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1737,7 +1737,7 @@
         "Uncinarias",
         "Clostridium difficile",
         "Fasciola hepática",
-        "Faltan datos para decidir"
+        "Giardia lamblia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1756,7 +1756,7 @@
         "Isoniazida, Rifampicina, Pirazinamida, Etambutol",
         "Isoniazida, Rifampicina, Pirazinamida",
         "Isoniazida por 6 meses",
-        "Ketorolaco"
+        "Rifampicina por 2 meses"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1775,7 +1775,7 @@
         "Micosis fungoide",
         "Lepra lepromatosa",
         "Tuberculosis cutánea",
-        "Infección del tracto urinario"
+        "Vitíligo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1794,7 +1794,7 @@
         "Pseudomonas aeruginosa",
         "Escherichia coli",
         "Klebsiella sp.",
-        "Faltan datos para decidir"
+        "Bacteroides fragilis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1813,7 +1813,7 @@
         "Enterobius vermicularis",
         "Ascaris lumbricoides",
         "Tricocephalo dispar",
-        "Faltan datos para decidir"
+        "Strongyloides stercoralis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1832,7 +1832,7 @@
         "Cotrimoxazol + rifampicina",
         "Rifampicina + doxiciclina",
         "Ciprofloxacino + rifampicina",
-        "Diazepam"
+        "Penicilina benzatínica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1851,7 +1851,7 @@
         "Mycoplasma pneumoniae",
         "Streptococcus pneumoniae",
         "Haemophilus influenzae",
-        "Ninguna de las anteriores"
+        "Legionella pneumophila"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1870,7 +1870,7 @@
         "Suspender la lactancia y administrarle Ig contra hepatitis B dentro de las 24 h",
         "Suspender la lactancia materna e indicar alimentación exclusivamente con fórmula",
         "Iniciar la lactancia y administrarle la vacuna contra hepatitis B dentro de las 72 h",
-        "Paracetamol"
+        "Iniciar la lactancia y no vacunar hasta los 2 meses"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1889,7 +1889,7 @@
         "Chancroide",
         "Sífilis",
         "Linfogranuloma venéreo",
-        "Apendicitis aguda"
+        "Granuloma inguinal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1908,7 +1908,7 @@
         "Meningitis",
         "Peritoneal",
         "Pulmonar",
-        "Apendicitis aguda"
+        "Ganglionar periférica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1927,7 +1927,7 @@
         "Dermatosis inflamatoria",
         "Celulitis estafilocócica",
         "Erisipela estreptocócica",
-        "Lupus eritematoso sistémico"
+        "Trombosis venosa profunda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1946,7 +1946,7 @@
         "Campylobacter jejuni",
         "Escherichia coli enteroinvasiva",
         "Clostridium difficile",
-        "Faltan datos para decidir"
+        "Shigella dysenteriae"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1965,7 +1965,7 @@
         "15",
         "4",
         "10",
-        "Todas las anteriores"
+        "20"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1984,7 +1984,7 @@
         "De riesgo",
         "Ocupacional",
         "Incidente adverso",
-        "Ninguna de las anteriores"
+        "Exposición no ocupacional"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2003,7 +2003,7 @@
         "Penicilina Benzatínica",
         "Azitromicina",
         "Ciprofloxacina",
-        "Atropina"
+        "Doxiciclina por 7 días"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2022,7 +2022,7 @@
         "20",
         "5",
         "10",
-        "Ninguna de las anteriores"
+        "2"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2041,7 +2041,7 @@
         "Yersinia enterocolítica",
         "Cryptosporidium hominis",
         "Treponema pallidum",
-        "Faltan datos para decidir"
+        "Herpes simple"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2060,7 +2060,7 @@
         "Pérdida en el seguimiento",
         "Fracaso bacteriológico",
         "Conversión bacteriológica",
-        "Faltan datos para decidir"
+        "Recaída"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2079,7 +2079,7 @@
         "Neisseria gonorrhoeae",
         "Chlamydia trachomatis",
         "Haemophilus ducreyi",
-        "Todas las anteriores"
+        "Treponema pallidum"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2098,7 +2098,7 @@
         "Sulfametoxazol",
         "Ciprofloxacina",
         "Loperamida",
-        "Ceftriaxona"
+        "Albendazol"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2117,7 +2117,7 @@
         "Niclosamida VO",
         "Albendazol VO",
         "Mebendazol VO",
-        "Diazepam"
+        "Prazicuantel más corticoide en dosis única"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2136,7 +2136,7 @@
         "Importado",
         "Descartado",
         "Autóctono",
-        "Todas las anteriores"
+        "Confirmado importado"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2155,7 +2155,7 @@
         "Indicar tratamiento de infección tuberculosa atente con isoniazida",
         "Repetir la prueba de tuberculina en 3 meses",
         "No realizar ninguna intervención",
-        "Insulina"
+        "Vacunar con BCG"
       ],
       "correcta": 1,
       "clave_correcta": "B",

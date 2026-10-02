@@ -27,7 +27,7 @@
         "Hiponatremia",
         "Hipomagnesemia",
         "Hiperpotasemia",
-        "Faltan datos para decidir"
+        "Hipopotasemia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -46,7 +46,7 @@
         "Vaginitis",
         "Pielonefritis",
         "Uretritis",
-        "Asma bronquial"
+        "Apendicitis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -65,7 +65,7 @@
         "Insuficiencia renal",
         "Glomerulonefritis",
         "Nefrosis lipoidea",
-        "Insuficiencia cardíaca"
+        "Síndrome nefrótico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -84,7 +84,7 @@
         "Insuficiencia renal crónica",
         "Síndrome nefrítico",
         "Síndrome nefrótico",
-        "Apendicitis aguda"
+        "Glomerulonefritis postestreptocócica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -103,7 +103,7 @@
         "Fracaso renal por uratos",
         "Azoemia prerrenal",
         "Necrosis tubular aguda",
-        "Cirrosis hepática"
+        "Nefritis intersticial aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -122,7 +122,7 @@
         "Necrosis tubular aguda",
         "Pielonefritis crónica",
         "Síndrome nefrítico",
-        "Tuberculosis"
+        "Glomerulonefritis rápidamente progresiva"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -141,7 +141,7 @@
         "Radiografía simple de abdomen",
         "Ecografía renal y de vías urinarias",
         "UroTAC (UroTEM)",
-        "Gammagrafía"
+        "Urografía excretora"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -160,7 +160,7 @@
         "Epididimitis aguda",
         "Torsión testicular",
         "Quiste de epidídimo",
-        "Sepsis"
+        "Orquitis urliana"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -179,7 +179,7 @@
         "Aumentar solo la dosis de eritropoyetina.",
         "Suspender la eritropoyetina y administrar hierro.",
         "Transfundir paquete globular",
-        "Repetir examen en 24 horas"
+        "Suspender la eritropoyetina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -198,7 +198,7 @@
         "Fracaso renal agudo por rabdomiolisis",
         "Fracaso renal agudo por uratos",
         "Necrosis tubular aguda por hemólisis",
-        "Diabetes Mellitus"
+        "Glomerulonefritis aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -217,7 +217,7 @@
         "Propranolol",
         "Tiazidas",
         "Amlodipino",
-        "Ciprofloxacino"
+        "Furosemida en monoterapia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -236,7 +236,7 @@
         "Encefalopatía hepática grado II",
         "Intoxicación por CO",
         "Intoxicación por metanol",
-        "Ceftriaxona"
+        "Cetoacidosis diabética"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -255,7 +255,7 @@
         "Criptorquidia",
         "Seminoma",
         "Torsión",
-        "Apendicitis aguda"
+        "Varicocele"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -274,7 +274,7 @@
         "Estruvita",
         "Ácido úrico",
         "Urato de amonio",
-        "Faltan datos para decidir"
+        "Cistina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -293,7 +293,7 @@
         "Linfoma",
         "Hernia inguinal",
         "Hidrocele",
-        "Neumonía adquirida"
+        "Varicocele"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -312,7 +312,7 @@
         "Torsión testicular",
         "Orquitis urleana",
         "Varicocele",
-        "Tuberculosis"
+        "Hidrocele"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -331,7 +331,7 @@
         "Nefropatía por AINES",
         "Amiloidosis secundaria",
         "Glomerulonefritis focal y segmentaria",
-        "Insuficiencia cardíaca"
+        "Nefropatía membranosa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -350,7 +350,7 @@
         "Corticoides",
         "Pericardiectomía",
         "Gluconato de calcio",
-        "Ceftriaxona"
+        "Antiinflamatorios no esteroideos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -369,7 +369,7 @@
         "Síndrome pulmón-riñón",
         "Nefritis intersticial aguda",
         "Glomerulonefritis membranosa",
-        "Sepsis"
+        "Necrosis tubular aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -388,7 +388,7 @@
         "Bloqueadores Beta / Anticolinérgicos",
         "Antiespasmódicos / Miorelajantes",
         "Corticoides / Antiespasmódicos",
-        "Azitromicina"
+        "Diuréticos tiazídicos / Antiespasmódicos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -407,7 +407,7 @@
         "Hipercalcemia",
         "Hiperpotasemia",
         "Hipopotasemia",
-        "Ninguna de las anteriores"
+        "Hipocalcemia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -426,7 +426,7 @@
         "Hemotransfusión para llevar hemoglobina a 10 g/dl",
         "Furosemida 120 mg en bolo",
         "Terapia de remplazo renal urgente",
-        "Repetir examen en 24 horas"
+        "Nefrostomía percutánea"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -445,7 +445,7 @@
         "Resonancia magnética cerebral",
         "Dosaje de amonio en sangre",
         "Punción lumbar",
-        "Electrocardiograma"
+        "Tomografía cerebral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -464,7 +464,7 @@
         "Gluconato cálcico endovenoso",
         "Catéter para iniciar diálisis",
         "Furosemida parenteral",
-        "Todas las anteriores"
+        "Bicarbonato de sodio oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -483,7 +483,7 @@
         "Fracaso renal agudo por urato",
         "Necrosis tubular aguda por hemólisis",
         "Insuficiencia renal aguda por embolia grasa",
-        "Neumonía adquirida"
+        "Glomerulonefritis aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -502,7 +502,7 @@
         "Hidrocele congénita",
         "Cáncer de testículo",
         "Torsión testicular",
-        "Asma bronquial"
+        "Varicocele"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Radiografía abdomen",
         "Ecografía Abdominal",
         "Urografía excretora",
-        "Faltan datos para decidir"
+        "Gammagrafía renal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -540,7 +540,7 @@
         "Sedimento urinario",
         "CPK total",
         "Sodio sérico",
-        "Todas las anteriores"
+        "Urocultivo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -559,7 +559,7 @@
         "Litiasis vesical",
         "Litiasis renal",
         "Uretritis",
-        "Tuberculosis"
+        "Pielonefritis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -578,7 +578,7 @@
         "Nefritis intersticial",
         "Glomerulonefritis aguda",
         "Necrosis tubular aguda",
-        "Asma bronquial"
+        "Azoemia prerrenal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -597,7 +597,7 @@
         "Accidente cerebrovascular",
         "Encefalopatía hipóxica",
         "Hipermagnesemia",
-        "Ninguna de las anteriores"
+        "Hiperpotasemia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -616,7 +616,7 @@
         "20 000",
         "100 000",
         "10 000",
-        "Todas las anteriores"
+        "1 000"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -635,7 +635,7 @@
         "Ácido úrico",
         "Cistina",
         "Oxalato de calcio",
-        "Tramadol"
+        "Fosfato de calcio"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -654,7 +654,7 @@
         "Nefropatía por Ig A",
         "Glomerulonefritis aguda postinfecciosa",
         "Glomerulonefritis por lesiones mínimas",
-        "Cirrosis hepática"
+        "Síndrome de Alport"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Pielonefritis aguda",
         "Prostatitis aguda",
         "Uretritis",
-        "Asma bronquial"
+        "Epididimitis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -692,7 +692,7 @@
         "IECA",
         "Insulina",
         "Sulfonilurea",
-        "Diazepam"
+        "Hidroclorotiazida"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -711,7 +711,7 @@
         "Diálisis peritoneal",
         "Sonda vesical intermitente",
         "Transfusión de glóbulos rojos",
-        "Todas las anteriores"
+        "Tamsulosina de por vida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -730,7 +730,7 @@
         "Endoprótesis ureteral",
         "Nefrostomía laparoscópica",
         "Litotricia percutánea",
-        "Ninguna de las anteriores"
+        "Cambio a antibiótico oral y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -749,7 +749,7 @@
         "Hidroclorotiazida",
         "Losartán",
         "Digoxina",
-        "Epinefrina"
+        "Hidrocortisona"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -768,7 +768,7 @@
         "Estenosis de la arteria renal",
         "Coartación de aorta",
         "Feocromocitoma",
-        "Diabetes Mellitus"
+        "Hiperaldosteronismo primario"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -787,7 +787,7 @@
         "TC abdominal",
         "Cistoscopia",
         "Hemodiálisis",
-        "Faltan datos para decidir"
+        "Furosemida endovenosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -806,7 +806,7 @@
         "Sodio bajo",
         "Osmolalidad baja",
         "Cilindros eritrocitarios",
-        "Ninguna de las anteriores"
+        "Sodio alto"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -825,7 +825,7 @@
         "Absceso renal",
         "Adenocarcinoma renal",
         "Pielonefritis xantogranulomatosa",
-        "Síndrome de Guillain-Barré"
+        "Riñón poliquístico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -844,7 +844,7 @@
         "Apendicitis aguda",
         "Cólico renal",
         "Infección urinaria",
-        "Lupus eritematoso sistémico"
+        "Diverticulitis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -863,7 +863,7 @@
         "Infección del tracto urinario",
         "Trigonitis aguda",
         "Vejiga neurogénica",
-        "Cirrosis hepática"
+        "Hiperplasia prostática con retención aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -882,7 +882,7 @@
         "Acidosis metabólica",
         "Acidosis respiratoria",
         "Alcalosis respiratoria",
-        "Infección del tracto urinario"
+        "Alcalosis mixta respiratoria y metabólica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -901,7 +901,7 @@
         "Cambio de catéter vesical",
         "Cistoscopía",
         "Nefrostomía percutánea",
-        "Faltan datos para decidir"
+        "Hemodiálisis de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -920,7 +920,7 @@
         "Tratamiento médico para disolver el lito",
         "Manejo con anticolinérgicos",
         "Cistoscopía con litotripsia láser",
-        "Reposo absoluto"
+        "Nefrostomía percutánea"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -939,7 +939,7 @@
         "Hipotiroidismo primario",
         "Hiperparatiroidismo",
         "Enfermedad renal aguda",
-        "Neumonía adquirida"
+        "Síndrome nefrótico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -958,7 +958,7 @@
         "Suero fisiológico",
         "Insulina",
         "Gluconato cálcico",
-        "Ibuprofeno"
+        "Prednisona"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Nefropatía tóxica",
         "Diabetes mellitus tipo 2",
         "Deshidratación",
-        "Todas las anteriores"
+        "Glomerulonefritis aguda postinfecciosa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -996,7 +996,7 @@
         "Resonancia pélvica",
         "Cistoscopía",
         "Biopsia transrectal",
-        "Tomografía con contraste"
+        "Repetir PSA en 6 meses"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1015,7 +1015,7 @@
         "Glomerulonefritis",
         "Absceso renal",
         "Amiloidosis renal",
-        "Hipertensión arterial"
+        "Riñón en esponja medular"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1034,7 +1034,7 @@
         "En un mes",
         "Inmediatamente",
         "En tres meses",
-        "Ninguna de las anteriores"
+        "En una semana"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1053,7 +1053,7 @@
         "Aumentar dosis de eritropoyetina y tiamina",
         "Suspender la eritropoyetina y administrar hierro",
         "Administrar hierro y mantener eritropoyetina",
-        "Solicitar nuevo cultivo"
+        "Transfundir paquete globular"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1072,7 +1072,7 @@
         "Hidratación intravenosa",
         "N- acetilcisteína en nebulización",
         "Administración de diuréticos",
-        "Todas las anteriores"
+        "Bicarbonato de sodio en bolo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1091,7 +1091,7 @@
         "Tratamiento médico",
         "Endoprótesis",
         "Nefrostomía",
-        "Ninguna de las anteriores"
+        "Ureteroscopía de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1110,7 +1110,7 @@
         "Tratamiento empírico con antibiótico oral",
         "Iniciar carbapenem y luego desescalar",
         "Iniciar ceftriaxona EV durante 7 días",
-        "Ciprofloxacino"
+        "Urocultivo y esperar el resultado sin tratar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1129,7 +1129,7 @@
         "Vasoconstricción de la arteriola eferente",
         "Aumento de la TFG",
         "Aumento de la excreción de sodio",
-        "Todas las anteriores"
+        "Aumento de la secreción de sodio en el túbulo distal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1148,7 +1148,7 @@
         "Solicitar ecografía transrrectal",
         "Iniciar tratamiento con Inhibidores de la 5 alfa reductasa",
         "Iniciar tratamiento combinado de análogos de la LHRH",
-        "Endoscopia digestiva"
+        "Repetir PSA en un año"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1167,7 +1167,7 @@
         "Tacto rectal",
         "Antígeno Prostático Específico (PSA)",
         "Cistoscopía",
-        "Prednisona"
+        "Urografía excretora"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1186,7 +1186,7 @@
         "Infección respiratoria bacteriana",
         "Edema agudo de pulmón por sobrecarga de volumen",
         "Tromboembolismo pulmonar",
-        "Faltan datos para decidir"
+        "Neumotórax espontáneo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1205,7 +1205,7 @@
         "Hipogástricos superiores",
         "Pudendos externos",
         "Cavernosos",
-        "Faltan datos para decidir"
+        "Obturadores"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1224,7 +1224,7 @@
         "Resección transuretral de la próstata",
         "Bloqueadores alfa adrenérgicos",
         "Vaporización de la próstata con láser",
-        "Todas las anteriores"
+        "Prostatectomía radical"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1243,7 +1243,7 @@
         "Hidrocele",
         "Torsión testicular",
         "Hernia inguinal incarcerada",
-        "Todas las anteriores"
+        "Epididimitis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1262,7 +1262,7 @@
         "Observación ambulatoria",
         "Uso de diuréticos",
         "Dopamina a dosis diuréticas",
-        "Repetir examen en 24 horas"
+        "Hemodiálisis de urgencia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1281,7 +1281,7 @@
         "Radioterapia y hormonoterapia",
         "Hormonoterapia y quimioterapia",
         "Orquidectomía y radioterapia",
-        "Todas las anteriores"
+        "Vigilancia sin tratamiento"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1300,7 +1300,7 @@
         "Teratospermia",
         "Varicocele",
         "Hidrocele",
-        "Todas las anteriores"
+        "Ginecomastia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1319,7 +1319,7 @@
         "Antígeno carcinoembrionario",
         "Antígeno polipeptídico tisular",
         "Antígeno prostático específico",
-        "Todas las anteriores"
+        "Ca 19-9"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1338,7 +1338,7 @@
         "Síndrome Nefrótico a cambios mínimos",
         "Glomerulonefritis membranoproliferativa",
         "Nefropatía por Ig A",
-        "Diabetes Mellitus"
+        "Síndrome hemolítico urémico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1357,7 +1357,7 @@
         "Pielonefritis aguda",
         "Litiasis renal",
         "Uretritis hemorrágica",
-        "Lupus eritematoso sistémico"
+        "Apendicitis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1376,7 +1376,7 @@
         "Ligadura de arteria testicular",
         "Sección del conducto deferente",
         "Desgarro de la arteria funicular",
-        "Todas las anteriores"
+        "Hernia inguinal recidivante"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1414,7 +1414,7 @@
         "Cistitis crónica",
         "Pielonefritis crónica",
         "Tuberculosis urogenital",
-        "Hipertensión arterial"
+        "Pielonefritis aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1433,7 +1433,7 @@
         "Amiloidosis renal",
         "Glomerulonefritis post infecciosa",
         "Nefropatía diabética",
-        "Neumonía adquirida"
+        "Nefropatía por IgA"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1452,7 +1452,7 @@
         "Glomeruloesclerosis focal y segmentaria primaria",
         "Nefropatía por IgA",
         "Nefropatía de cambios mínimos",
-        "Insuficiencia cardíaca"
+        "Glomerulonefritis postestreptocócica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1471,7 +1471,7 @@
         "Inhibidores del óxido nitroso",
         "Inhibidores de la 5 α reductasa",
         "Bloqueadores de los receptores adrenérgicos α1",
-        "Todas las anteriores"
+        "Diuréticos tiazídicos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1490,7 +1490,7 @@
         "Hemodiálisis intermitente",
         "Hemodiálisis interdiaria",
         "Diálisis peritoneal",
-        "Faltan datos para decidir"
+        "Diálisis peritoneal intermitente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1509,7 +1509,7 @@
         "Incrementar el flujo urinario",
         "Uso de marcapaso transitorio",
         "Corregir la hiperkalemia",
-        "Apendicitis aguda"
+        "Iniciar antibiótico de amplio espectro"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1528,7 +1528,7 @@
         "Hemodiálisis",
         "Furosemida",
         "Enemas",
-        "Faltan datos para decidir"
+        "Gluconato de calcio solo y observar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1547,7 +1547,7 @@
         "Renal",
         "Intrínseca",
         "Posrenal",
-        "Ninguna de las anteriores"
+        "Mixta prerrenal y renal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1566,7 +1566,7 @@
         "Mal uso de polietilenglicol",
         "Uso liotironina",
         "Abuso de espironolactona",
-        "Atropina"
+        "Hipertiroidismo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1585,7 +1585,7 @@
         "Proteínas en orina de 24 horas",
         "Perfil lipídico",
         "Depuración de creatinina",
-        "Epinefrina"
+        "Ecografía renal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1604,7 +1604,7 @@
         "Hidrocortisona",
         "Gluconato de calcio",
         "Diuréticos de asa",
-        "Faltan datos para decidir"
+        "Bicarbonato de sodio"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1623,7 +1623,7 @@
         "Deshidratación severa sin compromiso renal",
         "Insuficiencia renal aguda postrenal",
         "Insuficiencia renal aguda intrínseca",
-        "Faltan datos para decidir"
+        "Nefritis intersticial aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1642,7 +1642,7 @@
         "PSA",
         "Tiroglobulina",
         "CA 125",
-        "Prednisona"
+        "Ca 19-9"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1661,7 +1661,7 @@
         "Analgesia e hidratación",
         "Reposo y antibiótico",
         "Diuréticos de asa",
-        "Omeprazol"
+        "Nefrolitotomía percutánea de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1680,7 +1680,7 @@
         "TB renal",
         "Absceso renal",
         "Cáncer renal",
-        "Síndrome de Guillain-Barré"
+        "Pielonefritis no complicada"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1699,7 +1699,7 @@
         "Unión ureterovesical",
         "Adyacente al músculo psoas mayor",
         "Intersección con los nervios genitofemorales",
-        "Todas las anteriores"
+        "Pelvis renal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1718,7 +1718,7 @@
         "Hiperpotasemia, hipofosforemia, hipercalcemia y acidosis metabólica",
         "Hiperpotasemia, hiperfosforemia, hipocalcemia y alcalosis metabólica",
         "Hipopotasemia, hipofosforemia, hipocalcemia y acidosis metabólica",
-        "Insuficiencia cardíaca"
+        "Hipopotasemia, hiperfosforemia, hipercalcemia y alcalosis metabólica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1737,7 +1737,7 @@
         "Hipoperfusión cerebral por anestésicos",
         "Meningoencefalitis con sepsis secundaria",
         "Embolia grasa con disfunción neurológica",
-        "Síndrome de Guillain-Barré"
+        "Hipoglucemia por ayuno prolongado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1756,7 +1756,7 @@
         "La diabetes y la nefropatía preexistente son factores predisponentes",
         "Se observarán cilindros de leucocitos en el sedimento urinario",
         "La excreción fraccionada de sodio será elevada",
-        "Azitromicina"
+        "El daño aparece recién a las 4 semanas"
       ],
       "correcta": 1,
       "clave_correcta": "B",

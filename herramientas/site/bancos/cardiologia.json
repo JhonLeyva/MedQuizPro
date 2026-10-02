@@ -57,7 +57,7 @@
         "Administrar antihipertensivo y derivar para estudio",
         "Programar al mes para realizar nuevo control",
         "Recomendar ejercicio aeróbico",
-        "Terapia de rehabilitación"
+        "Iniciar ácido acetilsalicílico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -76,7 +76,7 @@
         "Comunicación interventricular",
         "Persistencia del conducto arterioso",
         "Transposición de grandes arterias",
-        "Todas las anteriores"
+        "Tronco arterioso"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -95,7 +95,7 @@
         "Disección de aorta",
         "Infarto de miocardio",
         "Espasmo esofágico",
-        "Prednisona"
+        "Pericarditis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -133,7 +133,7 @@
         "Betabloqueadores",
         "Amiodarona",
         "Desfibrilador automático",
-        "Ninguna de las anteriores"
+        "Verapamilo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -152,7 +152,7 @@
         "Amiodarona",
         "Desfibrilación",
         "Masaje cardíaco",
-        "Ninguna de las anteriores"
+        "Adrenalina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -190,7 +190,7 @@
         "Inotrópicos",
         "Diuréticos",
         "Vasodilatadores",
-        "Ninguna de las anteriores"
+        "Betabloqueadores"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -228,7 +228,7 @@
         "Verificar que no respira y de ser así dar 2 respiraciones de rescate y luego dar golpe precordial",
         "Verificar que no hay pulso, llamar al 116 y poner la cabeza hacia el lado derecho",
         "Evaluar si respira, de no hacerlo, dar golpe precordial, luego 2 respiraciones y 15 compresiones por 2 minutos",
-        "Ninguna de las anteriores"
+        "Buscar un DEA y recién después iniciar compresiones"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -247,7 +247,7 @@
         "Pletismografía",
         "Dímero D",
         "Ecografía dúplex",
-        "Faltan datos para decidir"
+        "Angiotomografía pulmonar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -266,7 +266,7 @@
         "Infarto agudo de miocardio",
         "Angina inestable de alto riesgo",
         "Síndrome X",
-        "Clindamicina"
+        "Pericarditis aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -285,7 +285,7 @@
         "Digitálicos",
         "Betabloqueadores",
         "Antiagregantes",
-        "Todas las anteriores"
+        "Hidralazina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -304,7 +304,7 @@
         "Síndrome de Tietze",
         "Cardiopatía isquémica",
         "Síndrome de Dressler",
-        "Síndrome de Guillain-Barré"
+        "Miocarditis viral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -323,7 +323,7 @@
         "Miocardiopatía hipertrófica",
         "Miocardiopatía dilatada",
         "Síndrome coronario agudo",
-        "Neumonía adquirida"
+        "Prolapso de válvula mitral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -342,7 +342,7 @@
         "Administrar oxígeno y adrenalina",
         "Proporcionar oxígeno y conectar monitor/desfibrilador",
         "Cristaloides a goteo rápido",
-        "Azitromicina"
+        "Intubar antes de continuar las compresiones"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -361,7 +361,7 @@
         "Angioplastia coronaria",
         "Trombólisis",
         "Embolectomía pulmonar",
-        "Todas las anteriores"
+        "Furosemida endovenosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -380,7 +380,7 @@
         "Estenosis mitral",
         "Insuficiencia mitral",
         "Insuficiencia aórtica",
-        "Diabetes Mellitus"
+        "Comunicación interauricular"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -399,7 +399,7 @@
         "Cardiopatía isquémica crónica",
         "Fibrilación auricular",
         "Síndrome ansioso",
-        "Cirrosis hepática"
+        "Taquicardia sinusal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -418,7 +418,7 @@
         "Dilatada",
         "Restrictiva",
         "Inflamatoria",
-        "Todas las anteriores"
+        "Arritmogénica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -437,7 +437,7 @@
         "Bisoprolol",
         "Furosemida",
         "Nevibolol",
-        "Ceftriaxona"
+        "Espironolactona"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -456,7 +456,7 @@
         "Edema maleolar",
         "Hepatomegalia",
         "Disnea paroxística nocturna",
-        "Faltan datos para decidir"
+        "Tos nocturna"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -475,7 +475,7 @@
         "Recuperar “ad integrum” el miocardio",
         "Prevenir embolismo arterial",
         "Prevenir desgarro del músculo papilar",
-        "Ninguna de las anteriores"
+        "Controlar la frecuencia cardiaca"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -494,7 +494,7 @@
         "Enalapril",
         "Metformina",
         "Levodopa",
-        "Clindamicina"
+        "Tiroxina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -513,7 +513,7 @@
         "Cardioversión",
         "Ablación",
         "Betabloqueante EV",
-        "Ninguna de las anteriores"
+        "Amiodarona endovenosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -532,7 +532,7 @@
         "Disminuir ventilaciones",
         "Disminuir FiO₂",
         "Iniciar sedación",
-        "Todas las anteriores"
+        "Aumentar el volumen corriente"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -551,7 +551,7 @@
         "Pericarditis",
         "Bacteriemia",
         "Endocarditis",
-        "Neumonía adquirida"
+        "Fiebre reumática aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -570,7 +570,7 @@
         "Ficticia",
         "Enmascarada",
         "Secundaria",
-        "Todas las anteriores"
+        "Resistente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -589,7 +589,7 @@
         "Embolia del tronco braquiocefálico derecho",
         "Trombosis de la vena cava inferior",
         "Embolia de la subclavia derecha",
-        "Diabetes Mellitus"
+        "Insuficiencia cardiaca derecha"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -608,7 +608,7 @@
         "Heparinización",
         "Pericardiocentesis",
         "Angioplastía",
-        "Faltan datos para decidir"
+        "Furosemida endovenosa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -627,7 +627,7 @@
         "TAC de tórax",
         "EKG seriado",
         "Ecocardiografía",
-        "Colonoscopia"
+        "Gammagrafía de perfusión miocárdica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -646,7 +646,7 @@
         "Ecocardiograma transesofágica",
         "Hemocultivo",
         "Ecocardiograma transtorácico",
-        "Faltan datos para decidir"
+        "Iniciar antibiótico sin tomar cultivos"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -665,7 +665,7 @@
         "Solo masaje cardiaco por un operador",
         "Masaje cardiaco y respiración boca a boca",
         "Esperar llegada de los servicios de ambulancia",
-        "Faltan datos para decidir"
+        "Respiración boca a boca sin masaje"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -684,7 +684,7 @@
         "Enfermedad de Chagas",
         "Beriberi húmedo",
         "Cardiomiopatía hipertrófica",
-        "Neumonía adquirida"
+        "Miocarditis viral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -703,7 +703,7 @@
         "Insuficiencia mitral",
         "Insuficiencia aórtica",
         "Estenosis mitral",
-        "Síndrome de Guillain-Barré"
+        "Coartación de aorta"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -722,7 +722,7 @@
         "Bypass coronario",
         "Oxigenoterapia",
         "Angioplastia coronaria",
-        "Todas las anteriores"
+        "Betabloqueante endovenoso como única medida"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -741,7 +741,7 @@
         "Forzar diuresis",
         "Trombectomía",
         "Inótropos",
-        "Faltan datos para decidir"
+        "Nitroglicerina endovenosa"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -760,7 +760,7 @@
         "Hipertrófica",
         "Ateroesclerótica",
         "Idiopática",
-        "Todas las anteriores"
+        "Valvular reumática"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -779,7 +779,7 @@
         "Colocar a la víctima boca arriba",
         "Solicitar los servicios de emergencia",
         "Comprobar que el escenario sea seguro",
-        "Faltan datos para decidir"
+        "Iniciar 30 compresiones torácicas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -817,7 +817,7 @@
         "Asistolia",
         "Fibrilación auricular",
         "Actividad eléctrica sin pulso",
-        "Ninguna de las anteriores"
+        "Taquicardia supraventricular"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -836,7 +836,7 @@
         "Furosemida",
         "Enalapril",
         "Rivaroxaban",
-        "Clindamicina"
+        "Amlodipino"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -855,7 +855,7 @@
         "Nifedipino",
         "Labetalol",
         "Nitroglicerina",
-        "Dexametasona"
+        "Furosemida"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -874,7 +874,7 @@
         "Procainamida",
         "Amiodarona",
         "Flecainida",
-        "Todas las anteriores"
+        "Digoxina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -893,7 +893,7 @@
         "Alta",
         "Muy baja",
         "Baja",
-        "Reposo absoluto"
+        "Normal con poscarga baja"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -912,7 +912,7 @@
         "Digoxina",
         "Verapamilo",
         "Cardioversión eléctrica",
-        "Atropina"
+        "Adenosina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -931,7 +931,7 @@
         "Embolismo pulmonar",
         "Disección aórtica",
         "Pericarditis aguda",
-        "Prednisona"
+        "Infarto agudo de miocardio"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -950,7 +950,7 @@
         "Aliskiren",
         "Clortalidona",
         "Hidralazina",
-        "Amoxicilina"
+        "Espironolactona"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -969,7 +969,7 @@
         "Shock cardiogénico",
         "Tromboembolia pulmonar",
         "Neumonía atípica",
-        "Faltan datos para decidir"
+        "Crisis asmática"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -988,7 +988,7 @@
         "Fibrato",
         "Inhibidores del PCSK9",
         "Ezetimiba",
-        "Tramadol"
+        "Ácidos grasos omega-3"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1007,7 +1007,7 @@
         "Estenosis aórtica",
         "Estenosis mitral",
         "Enfermedad de Takayasu",
-        "Cirrosis hepática"
+        "Feocromocitoma"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1026,7 +1026,7 @@
         "Retirar captopril",
         "Retirar amlodipino",
         "Agregar codeína",
-        "Ninguna de las anteriores"
+        "Agregar un antihistamínico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1045,7 +1045,7 @@
         "Fiebre reumática",
         "Fibrilación auricular",
         "Endocarditis infecciosa",
-        "Cirrosis hepática"
+        "Hemorragia cerebral hipertensiva"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1064,7 +1064,7 @@
         "Masaje cardíaco y espera ver resultados en el monitor",
         "Continúa con masaje cardíaco y administra lidocaína",
         "Administra adrenalina y lidocaína",
-        "Dexametasona"
+        "Cardioversión sincronizada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1083,7 +1083,7 @@
         "Shock cardiogénico",
         "Taponamiento cardíaco",
         "Neumotórax a tensión",
-        "Ninguna de las anteriores"
+        "Disección aórtica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1102,7 +1102,7 @@
         "Beta bloqueadores",
         "Ácido acetilsalicílico",
         "Furosemida",
-        "Faltan datos para decidir"
+        "Digoxina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1140,7 +1140,7 @@
         "Shock cardiogénico",
         "Rotura cardiaca",
         "Infarto del ventrículo derecho",
-        "Lupus eritematoso sistémico"
+        "Taponamiento cardiaco"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1159,7 +1159,7 @@
         "Desfibrilación inmediata",
         "Intubación orotraqueal",
         "Compresión cardiaca",
-        "Ninguna de las anteriores"
+        "Ventilación con bolsa y máscara antes de comprimir"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1178,7 +1178,7 @@
         "Insuficiencia aórtica",
         "Insuficiencia mitral",
         "Estenosis aórtica",
-        "Infección del tracto urinario"
+        "Coartación de aorta"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1197,7 +1197,7 @@
         "Administrar adrenalina",
         "Golpe precordial",
         "Intubación endotraqueal",
-        "Ceftriaxona"
+        "Amiodarona endovenosa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1216,7 +1216,7 @@
         "Interleukina",
         "Procalcitonina",
         "Proteína C reactiva",
-        "Diazepam"
+        "Troponina I"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1235,7 +1235,7 @@
         "Asistolia",
         "Fibrilación ventricular",
         "Taquicardia ventricular sin pulso",
-        "Faltan datos para decidir"
+        "Bradicardia sinusal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1254,7 +1254,7 @@
         "6 cm de profundidad, 80 a 90 compresiones por minuto",
         "5 cm de profundidad, 80 a 100 compresiones por minuto",
         "5 cm de profundidad, 100 a 120 compresiones por minuto",
-        "Faltan datos para decidir"
+        "3 cm de profundidad, 120 a 140 compresiones por minuto"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1273,7 +1273,7 @@
         "Anteroseptal",
         "Anteroapical",
         "Cara inferior",
-        "Ninguna de las anteriores"
+        "Posterior aislada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1292,7 +1292,7 @@
         "Diuréticos de asa",
         "Anticoagulantes",
         "Digitálicos",
-        "Todas las anteriores"
+        "Calcioantagonistas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1330,7 +1330,7 @@
         "Radiografía de tórax",
         "Troponina I",
         "Ecocardiograma",
-        "Atropina"
+        "Gammagrafía de perfusión miocárdica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1349,7 +1349,7 @@
         "Furosemida",
         "Carvedilol",
         "Espironolactona",
-        "Dexametasona"
+        "Digoxina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1368,7 +1368,7 @@
         "Iniciar antiagregación, anticoagulación y nitroglicerina",
         "Administrar calcio antagonistas y egreso",
         "Realizar prueba de esfuerzo en emergencia",
-        "Aspirina"
+        "Trombólisis inmediata"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1387,7 +1387,7 @@
         "III",
         "I",
         "II",
-        "Todas las anteriores"
+        "Clase funcional V"
       ],
       "correcta": 3,
       "clave_correcta": "D",

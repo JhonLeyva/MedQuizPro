@@ -27,7 +27,7 @@
         "Maduración cervical",
         "Inducción de trabajo de parto",
         "Protección con antimicrobianos",
-        "Laparoscopía diagnóstica"
+        "Alta con reposo domiciliario"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -46,7 +46,7 @@
         "Posición decúbito lateral derecho",
         "Realizar amniotomía",
         "Acentuación con oxitocina",
-        "Amputación"
+        "Esperar dilatación completa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -65,7 +65,7 @@
         "Preeclampsia severa",
         "Hipertensión gestacional",
         "Eclampsia",
-        "Faltan datos para decidir"
+        "Hipertensión crónica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -84,7 +84,7 @@
         "Preeclampsia sin severidad",
         "Hipertensión esencial",
         "Preeclampsia con severidad",
-        "Ninguna de las anteriores"
+        "Síndrome HELLP completo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -103,7 +103,7 @@
         "Dicloxacilina",
         "Ciprofloxacina",
         "Doxiciclina",
-        "Aspirina"
+        "Suspender la lactancia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -122,7 +122,7 @@
         "Cistitis",
         "Apendicitis aguda",
         "Pielonefritis aguda",
-        "Neumonía adquirida"
+        "Litiasis renal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -141,7 +141,7 @@
         "Esperar parto espontáneo",
         "Maduración cervical",
         "Inducción de trabajo de parto",
-        "Laparotomía exploratoria"
+        "Amniotomía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -160,7 +160,7 @@
         "Culdocentesis",
         "B-HCG seriada",
         "Ecografía transvaginal",
-        "Ninguna de las anteriores"
+        "Histerosalpingografía"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -179,7 +179,7 @@
         "Realizar la maniobra de McRoberts para liberación de hombros",
         "Derivar paciente a un centro de mayor nivel resolutivo",
         "Dejar en espontáneo hasta la aparición de los omóplatos",
-        "Terapia de rehabilitación"
+        "Realizar versión cefálica externa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -198,7 +198,7 @@
         "Solicitar test stressante",
         "Inducción de parto vaginal",
         "Cesárea inmediata",
-        "Toracocentesis"
+        "Amnioinfusión"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -217,7 +217,7 @@
         "Hidrocortisona",
         "Betametasona",
         "Prednisona",
-        "Insulina"
+        "Dexametasona en dosis única oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -236,7 +236,7 @@
         "Quiste de ovario",
         "Mioma subseroso",
         "Enfermedad pélvica inflamatoria",
-        "Diabetes Mellitus"
+        "Embarazo ectópico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -255,7 +255,7 @@
         "Amenaza de aborto",
         "Aborto inevitable",
         "Aborto frustro",
-        "Ninguna de las anteriores"
+        "Aborto incompleto"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -274,7 +274,7 @@
         "Laparotomía y miomectomía",
         "Histerectomía total abdominal",
         "Miomectomía laparoscópica",
-        "Ninguna de las anteriores"
+        "Ablación endometrial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -293,7 +293,7 @@
         "Aborto retenido",
         "Embarazo molar",
         "Gestación anembrionada",
-        "Faltan datos para decidir"
+        "Embarazo de menor edad gestacional"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -312,7 +312,7 @@
         "Mixta",
         "Bacteriana",
         "Micótica",
-        "Todas las anteriores"
+        "Trichomoniasis"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -331,7 +331,7 @@
         "Revisión de cérvix",
         "Revisión de vagina",
         "Palpar tono del útero",
-        "Prednisona"
+        "Ecografía abdominal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -350,7 +350,7 @@
         "Parto instrumentado",
         "Parto vaginal",
         "Cesárea inmediata",
-        "Resección quirúrgica"
+        "Parto vaginal con episiotomía"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -369,7 +369,7 @@
         "Estimular con oxitocina",
         "Hidratar a la paciente y observarla",
         "Estimular con prostaglandinas",
-        "Intubación endotraqueal"
+        "Cesárea inmediata"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -388,7 +388,7 @@
         "Tuboperitoneal",
         "Ovárico",
         "Uterino",
-        "Todas las anteriores"
+        "Masculino"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -407,7 +407,7 @@
         "Coordinar con establecimiento de nivel intermedio",
         "Derivar a casa de espera cercana",
         "Interconsulta a ginecólogo de otra IPRESS",
-        "Alta médica con indicaciones"
+        "Control en una semana"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -426,7 +426,7 @@
         "Curaciones diarias con yodopovidona",
         "Aplicación tópica de antibióticos",
         "Aplicación tópica de estrógenos",
-        "Todas las anteriores"
+        "Pesario y alta"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -445,7 +445,7 @@
         "Desprendimiento prematuro de placenta",
         "Ruptura de vasa previa",
         "Mioma abortivo",
-        "Neumonía adquirida"
+        "Rotura uterina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -464,7 +464,7 @@
         "Biopsia de endometrio",
         "Histerectomía laparoscópica",
         "Histerectomía abdominal",
-        "Ecocardiograma"
+        "Repetir ecografía en 1 año"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -483,7 +483,7 @@
         "18",
         "9",
         "15",
-        "Faltan datos para decidir"
+        "24"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -502,7 +502,7 @@
         "Labor de parto prematuro",
         "Amenaza parto prematuro",
         "Contracciones de Braxton Hicks",
-        "Faltan datos para decidir"
+        "Trabajo de parto en fase activa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Administrar corticoides",
         "Prescribir progesterona",
         "Ecografía transvaginal",
-        "Furosemida"
+        "Legrado uterino inmediato"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -540,7 +540,7 @@
         "Hidratación y estimulación",
         "Parto instrumentado",
         "Cesárea inmediata",
-        "Resección quirúrgica"
+        "Uso de prostaglandinas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -559,7 +559,7 @@
         "Acentuación con oxitocina",
         "Conducta expectante",
         "Cesárea",
-        "Fijación externa"
+        "Inducción con misoprostol"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -578,7 +578,7 @@
         "Endometritis puerperal",
         "Infección de herida operatoria",
         "Dehiscencia de histerotomía",
-        "Asma bronquial"
+        "Mastitis puerperal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -597,7 +597,7 @@
         "Fiebre por misoprostol",
         "Fiebre por la analgesia",
         "Corioamnionitis",
-        "Metronidazol"
+        "Pielonefritis aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -616,7 +616,7 @@
         "Desprendimiento prematuro de placenta",
         "Vasa previa",
         "Placenta previa",
-        "Ceftriaxona"
+        "Rotura del seno marginal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -635,7 +635,7 @@
         "Examen pélvico vaginal",
         "Hospitalización y solicitar ecografía",
         "Taponamiento vaginal",
-        "Todas las anteriores"
+        "Inducción inmediata del parto"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -654,7 +654,7 @@
         "Acudir a su control prenatal normal",
         "Repetir la glicemia en ayunas",
         "Iniciar tratamiento con metformina",
-        "Insulina"
+        "Hemoglobina glicosilada mensual"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -673,7 +673,7 @@
         "Que el producto sea Rh positivo",
         "Si el padre es Rh positivo",
         "Si el Coombs indirecto es negativo",
-        "Faltan datos para decidir"
+        "Que sea su primer parto"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -692,7 +692,7 @@
         "Test de Coombs indirecto",
         "Aplicar la inmunoprofilaxis",
         "Test de Coombs directo",
-        "Ninguna de las anteriores"
+        "Amniocentesis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -711,7 +711,7 @@
         "Terminar la gestación",
         "Ecografía Doppler",
         "Prueba no estresante",
-        "Faltan datos para decidir"
+        "Amniocentesis para madurez pulmonar"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -730,7 +730,7 @@
         "Perforación uterina",
         "Dolor pélvico crónico",
         "Endometriosis",
-        "Ciprofloxacino"
+        "Embarazo ectópico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -749,7 +749,7 @@
         "Mola hidatiforme",
         "Aborto diferido",
         "Amenaza de aborto",
-        "Todas las anteriores"
+        "Embarazo gemelar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -768,7 +768,7 @@
         "Aborto incompleto",
         "Aborto inevitable",
         "Aborto inminente",
-        "Ninguna de las anteriores"
+        "Amenaza de aborto"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -787,7 +787,7 @@
         "Rotura uterina",
         "Rotura del seno marginal",
         "Placenta previa",
-        "Clindamicina"
+        "Vasa previa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -806,7 +806,7 @@
         "Corioamnionitis",
         "Apendicitis",
         "Diverticulitis",
-        "Apendicitis aguda"
+        "Colecistitis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -825,7 +825,7 @@
         "Los pies en la vulva",
         "El borde inferior de los omoplatos",
         "La cadera en la vulva",
-        "Faltan datos para decidir"
+        "La cabeza en la vulva"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -844,7 +844,7 @@
         "Butoconazol por una semana",
         "Itraconazol por tres meses",
         "Fluconazol por seis meses",
-        "Tramadol"
+        "Clotrimazol vaginal por tres días"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -863,7 +863,7 @@
         "Insistir con aborto",
         "Pedir autorización al esposo y a los padres",
         "Dar sedación continua",
-        "Tuberculosis"
+        "Hemodiálisis suspendida durante el embarazo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -882,7 +882,7 @@
         "8 y 12",
         "28 y 32",
         "32 y 36",
-        "Faltan datos para decidir"
+        "Inmediatamente al diagnóstico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -901,7 +901,7 @@
         "Placenta previa",
         "Vasa previa",
         "Rotura uterina",
-        "Ceftriaxona"
+        "Rotura del seno marginal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -920,7 +920,7 @@
         "Endometritis puerperal",
         "Corioamnionitis",
         "Dehiscencia de episiorrafia",
-        "Infección del tracto urinario"
+        "Mastitis puerperal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -939,7 +939,7 @@
         "Salpingitis",
         "Pielonefritis",
         "Endometritis",
-        "Neumonía adquirida"
+        "Infección urinaria baja"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Maduración cervical",
         "Repetir sus pruebas de bienestar fetal",
         "Manejo expectante",
-        "Derivación a especialista"
+        "Cesárea electiva"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -996,7 +996,7 @@
         "Contracción del hombro posterior",
         "Tracción enérgica de la cabeza fetal",
         "Presión intensa del fondo uterino",
-        "Ninguna de las anteriores"
+        "Episiotomía amplia como única maniobra"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1015,7 +1015,7 @@
         "Histerectomía abdominal",
         "Hístero sonografía",
         "Histerectomía laparoscópica",
-        "Arteriografía"
+        "Terapia de reemplazo hormonal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1034,7 +1034,7 @@
         "Ceftriaxona más doxiciclina",
         "Ciprofloxacino más Azitromicina",
         "Clindamicina y medicar a la pareja",
-        "Paracetamol"
+        "Fluconazol como única medida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1053,7 +1053,7 @@
         "Epitelial seroso papilífero",
         "Células germinales",
         "Tumor de Brenner",
-        "Lupus eritematoso sistémico"
+        "Cistoadenoma mucinoso"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1072,7 +1072,7 @@
         "Enfermedad hipertensiva del embarazo",
         "Hemorragias",
         "Ruptura prematura de membranas",
-        "Cirrosis hepática"
+        "Trabajo de parto prolongado"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1091,7 +1091,7 @@
         "Trichomonas vaginalis",
         "Herpes simple",
         "Candida albicans",
-        "Faltan datos para decidir"
+        "Chlamydia trachomatis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1110,7 +1110,7 @@
         "Tromboastenia de Glanzmann",
         "Acretismo placentario",
         "Atonía uterina",
-        "Aspirina"
+        "Rotura uterina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1148,7 +1148,7 @@
         "Mamografía de mama",
         "Biopsia con aguja gruesa",
         "Drenaje y control en 2 semanas",
-        "Resonancia magnética"
+        "Suspender la lactancia materna"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1167,7 +1167,7 @@
         "Rotura uterina",
         "Rotura de vasa previa",
         "Placenta previa",
-        "Tramadol"
+        "Atonía uterina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1186,7 +1186,7 @@
         "Maduración pulmonar, profilaxis antibiótica y referencia a hospital de mayor complejidad",
         "Neuroprotección, maduración pulmonar y reevaluación en 4 horas",
         "Profilaxis antibiótica y evolución espontánea de trabajo de parto",
-        "Ninguna de las anteriores"
+        "Inducción del parto en el centro de salud"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1205,7 +1205,7 @@
         "Solicitar un test de tolerancia a la glucosa",
         "Medir glucosa cada tres semanas",
         "Realizar CPN normal",
-        "Todas las anteriores"
+        "Iniciar metformina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1224,7 +1224,7 @@
         "Fenobarbital",
         "Disminuir los tactos vaginales innecesarios",
         "Rasurar el vello púbico a todas las gestantes",
-        "Ninguna de las anteriores"
+        "Antibióticos profilácticos a todas las puérperas por 7 días"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1243,7 +1243,7 @@
         "Vulvovaginitis candidiásica",
         "Vaginosis bacteriana",
         "Vaginitis atrófica",
-        "Apendicitis aguda"
+        "Liquen escleroso"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1262,7 +1262,7 @@
         "Obstructivo",
         "Bomba (cardiogénico)",
         "Contenido (hipovolémico)",
-        "Faltan datos para decidir"
+        "Séptico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1281,7 +1281,7 @@
         "Repetir nuevamente glucosa basal",
         "Realizar test de tolerancia oral a la glucosa",
         "Realizar examen de hemoglobina glicosilada",
-        "Azitromicina"
+        "Iniciar insulina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1300,7 +1300,7 @@
         "Espontáneo",
         "Eugenésico",
         "Criminal",
-        "Todas las anteriores"
+        "Electivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1319,7 +1319,7 @@
         "Placenta previa",
         "Rotura de vasa previa",
         "Rotura uterina",
-        "Omeprazol"
+        "Rotura del seno marginal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1338,7 +1338,7 @@
         "Útero",
         "Colon",
         "Pulmón",
-        "Faltan datos para decidir"
+        "Estómago"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1357,7 +1357,7 @@
         "Indicar colposcopia",
         "Realizar test de Schiller",
         "Indicar prueba de detección de VPH",
-        "Ninguna de las anteriores"
+        "Citología de cúpula vaginal anual"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1376,7 +1376,7 @@
         "Hospitalizar para tratamiento antibiótico endovenoso",
         "Preparar para laparotomía exploratoria",
         "Realizar histero-salpingografía para evaluación tubárica",
-        "Metronidazol"
+        "Retirar el tratamiento y observar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1395,7 +1395,7 @@
         "Cistoadenoma seroso",
         "Teratoma",
         "Endometrioma",
-        "Diabetes Mellitus"
+        "Absceso tubo-ovárico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1414,7 +1414,7 @@
         "Repetir el urocultivo",
         "Dar tratamiento con dosis múltiple",
         "Dar tratamiento con dosis única",
-        "Valores normales"
+        "Tratar con nitrofurantoína"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1433,7 +1433,7 @@
         "TAC con contraste",
         "RMN abdomen con contraste",
         "Ecografía abdominal",
-        "Gammagrafía"
+        "Radiografía simple de abdomen"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1452,7 +1452,7 @@
         "Analgesia epidural",
         "Inducción con oxitocina",
         "Manejo expectante",
-        "Hemodiálisis"
+        "Amnioinfusión"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1471,7 +1471,7 @@
         "Solicitando una Beta-HCG cuantitativa",
         "Estableciendo la altura uterina",
         "Considerando la fecha de la última regla",
-        "Ibuprofeno"
+        "Midiendo el diámetro biparietal a las 20 semanas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1490,7 +1490,7 @@
         "Ecografía Doppler semanal y cesárea a programar",
         "Nifedipina y manejo expectante hasta las 40 semanas",
         "Alfa metildopa y programar cesárea a las 38 semanas",
-        "Laparotomía exploratoria"
+        "Furosemida y manejo expectante"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1509,7 +1509,7 @@
         "Solicitar ecografía transvaginal",
         "Preparación para legrado puerperal",
         "Iniciar antibioticoterapia",
-        "Todas las anteriores"
+        "Histerectomía de urgencia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1528,7 +1528,7 @@
         "Solicitar ecografía transvaginal",
         "Solicitar B-hCG",
         "Preparar para legrado uterino",
-        "Faltan datos para decidir"
+        "Indicar progesterona y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1547,7 +1547,7 @@
         "Proteína C reactiva",
         "Rx simple de abdomen",
         "TEM abdominal sin contraste",
-        "Ecografía Doppler"
+        "Paracentesis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1566,7 +1566,7 @@
         "Inducir el parto",
         "Darle de alta",
         "Derivar a un centro de mayor complejidad",
-        "Derivación a especialista"
+        "Realizar amniotomía"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1585,7 +1585,7 @@
         "Hipofisiaria",
         "Hipotalámica",
         "Uterina",
-        "Ceftriaxona"
+        "Ovárica por falla prematura"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1604,7 +1604,7 @@
         "Suspender el nifedipino",
         "Suspender el sulfato de magnesio",
         "Indicar una cesárea",
-        "Hemodiálisis"
+        "Aumentar la dosis de sulfato de magnesio"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1623,7 +1623,7 @@
         "Manejo expectante",
         "Uso de oxitocina",
         "Legrado uterino",
-        "Aislamiento estricto"
+        "Histerectomía inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1642,7 +1642,7 @@
         "DIU medicado",
         "Anticonceptivos orales medicados",
         "Ampollas anticonceptivas mensuales",
-        "Faltan datos para decidir"
+        "Anillo vaginal combinado"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1661,7 +1661,7 @@
         "Lesión del canal del parto",
         "Acretismo placentario",
         "Trastorno de coagulación",
-        "Insulina"
+        "Inversión uterina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1680,7 +1680,7 @@
         "Riboflavina",
         "Cianozepam",
         "Zinc",
-        "Metronidazol"
+        "Vitamina B12"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1699,7 +1699,7 @@
         "Evacuación quirúrgica",
         "Conducta expectante",
         "Quimioterapia",
-        "Todas las anteriores"
+        "Legrado y metotrexato profiláctico a todas"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1718,7 +1718,7 @@
         "Neuroprotección con sulfato de magnesio",
         "Cesárea de emergencia",
         "Manejo expectante",
-        "Amputación"
+        "Cerclaje cervical de emergencia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1737,7 +1737,7 @@
         "Produce estasis vesical",
         "Controla el sangrado en el postparto",
         "Permite el estiramiento del útero",
-        "Faltan datos para decidir"
+        "Facilita el descenso fetal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1756,7 +1756,7 @@
         "Esperar inicio de labor de parto",
         "Cesárea entre las 34 y 35 semanas",
         "Inducir labor de parto a las 37 semanas",
-        "Fijación externa"
+        "Parto vaginal con monitoreo continuo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1775,7 +1775,7 @@
         "Metoclopramida + ranitidina",
         "Prometazina + cianocobalamina",
         "Doxilamina + piridoxina",
-        "Ciprofloxacino"
+        "Hidratación endovenosa y ayuno"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1794,7 +1794,7 @@
         "Fenobarbital",
         "Ácido valproico",
         "Levetiracetam",
-        "Aspirina"
+        "Fenitoína"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1813,7 +1813,7 @@
         "Hidrosonografía",
         "Legrado uterino",
         "Laparotomía",
-        "Colonoscopia"
+        "Histerectomía total"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1832,7 +1832,7 @@
         "Insulina",
         "Dieta",
         "Metformina",
-        "Metronidazol"
+        "Glimepirida"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1851,7 +1851,7 @@
         "Colpoperineoplastía anterior",
         "Ejercicios de Kegel",
         "Histeropéxia",
-        "Todas las anteriores"
+        "Colpocleisis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1870,7 +1870,7 @@
         "Hipoplasia nasal",
         "Hipertelorismo ocular",
         "Retraso de crecimiento intrauterino",
-        "Faltan datos para decidir"
+        "Macrosomía fetal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1889,7 +1889,7 @@
         "Quiste de ovario",
         "Apendicitis",
         "Embarazo ectópico",
-        "Síndrome de Guillain-Barré"
+        "Torsión anexial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1908,7 +1908,7 @@
         "Zidovudina y parto vaginal",
         "Tenofovir y tocólisis",
         "Zidovudina y programar cesárea",
-        "Toracocentesis"
+        "Cesárea de emergencia sin antirretroviral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1927,7 +1927,7 @@
         "Terminar la gestación",
         "Iniciar antibióticos",
         "Esperar inicio labor de parto",
-        "Ninguna de las anteriores"
+        "Doppler semanal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1946,7 +1946,7 @@
         "Ácido tranexámico",
         "Atosibán",
         "Oxitocina",
-        "Prednisona"
+        "Misoprostol rectal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1965,7 +1965,7 @@
         "Combinados orales",
         "T de cobre",
         "DIU medicado",
-        "Todas las anteriores"
+        "Implante de levonorgestrel"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1983,8 +1983,8 @@
         "Pre eclampsia severa",
         "Eclampsia",
         "Síndrome de Hellp",
-        "Ipertensión crónica",
-        "Hipertensión arterial"
+        "Hipertensión crónica",
+        "Preeclampsia sobreagregada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2003,7 +2003,7 @@
         "Durante el puerperio",
         "A la semana 18",
         "Inmediatamente",
-        "Todas las anteriores"
+        "A la semana 32"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2022,7 +2022,7 @@
         "Amenorrea hipofisiaria",
         "Falla ovárica prematura",
         "Amenorrea hipotalámica",
-        "Síndrome de Guillain-Barré"
+        "Síndrome de Asherman"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2041,7 +2041,7 @@
         "Cervicitis crónica",
         "Ca de cérvix",
         "Úlcera vaginal de decúbito",
-        "Sepsis"
+        "Ca de vagina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2060,7 +2060,7 @@
         "Cesárea de emergencia",
         "Parto vaginal espontáneo",
         "Uso de vacuum",
-        "Hemodiálisis"
+        "Versión interna"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2079,7 +2079,7 @@
         "Colposcopía y biopsia",
         "Cono LEEP y AP",
         "Tipificación de VPH",
-        "Ecografía Doppler"
+        "Histerectomía total"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2098,7 +2098,7 @@
         "Cesárea de emergencia",
         "Parto instrumentado",
         "Cesárea programada",
-        "Hemodiálisis"
+        "Cesárea con anestesia general"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2117,7 +2117,7 @@
         "Estrógeno y cervicometría control",
         "Progesterona y amniocentesis",
         "Corticoides y tocolíticos",
-        "Paracetamol"
+        "Reposo absoluto y alta"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2136,7 +2136,7 @@
         "Trichomona vaginalis",
         "Gardnerella vaginalis",
         "Neisseria gonorrhoeae",
-        "Faltan datos para decidir"
+        "Chlamydia trachomatis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2155,7 +2155,7 @@
         "T de cobre",
         "Implante de progestina",
         "Preservativo",
-        "Tramadol"
+        "Anticonceptivos orales combinados"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2174,7 +2174,7 @@
         "Dehiscencia de cicatriz uterina",
         "Laceración vaginal",
         "Hematoma perineal disecante",
-        "Furosemida"
+        "Inversión uterina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2193,7 +2193,7 @@
         "Iniciar la terapia antirretroviral",
         "Iniciar antirretroviral a partir de las 20 semanas de gestación",
         "Solicitar resultado CD4 previo a terapia antirretroviral",
-        "Ninguna de las anteriores"
+        "Esperar al tercer trimestre para iniciar tratamiento"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2212,7 +2212,7 @@
         "Placenta previa",
         "Desprendimiento prematuro de placenta",
         "Rotura uterina",
-        "Prednisona"
+        "Rotura del seno marginal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2231,7 +2231,7 @@
         "Diabetes gestacional",
         "Corioangioma",
         "Consumo de IECA",
-        "Diabetes Mellitus"
+        "Hipertensión crónica mal controlada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2250,7 +2250,7 @@
         "12 a 16.5",
         "12.5 a 18",
         "5 a 9",
-        "Todas las anteriores"
+        "15 a 20"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2269,7 +2269,7 @@
         "Iniciar tratamiento con la mitad de la dosis",
         "Iniciar tratamiento inmediato",
         "Iniciar tratamiento en la semana 10",
-        "Repetir examen en 24 horas"
+        "Iniciar tratamiento en el segundo trimestre"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2288,7 +2288,7 @@
         "Aborto incompleto",
         "Aborto en curso",
         "Cuerpo lúteo hemorrágico",
-        "Ninguna de las anteriores"
+        "Apendicitis aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2307,7 +2307,7 @@
         "Esofagitis aguda",
         "Suboclusión intestinal",
         "Hiperemesis gravídica",
-        "Sepsis"
+        "Embarazo molar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2326,7 +2326,7 @@
         "Sulfametoxazol/Trimetoprima",
         "Nitrofurantoina",
         "Gentamicina",
-        "Diazepam"
+        "Ciprofloxacino"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2345,7 +2345,7 @@
         "RCIU temprano",
         "Pequeño para la edad gestacional",
         "RCIU tardío",
-        "Todas las anteriores"
+        "Feto constitucionalmente pequeño"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2364,7 +2364,7 @@
         "Cesárea de emergencia",
         "Trabajo de parto espontáneo",
         "Monitoreo fetal y reevaluación",
-        "Laparotomía exploratoria"
+        "Amnioinfusión y parto vaginal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2383,7 +2383,7 @@
         "Síndrome de Hellp",
         "Púrpura trombocitopénica",
         "Preeclampsia leve",
-        "Apendicitis aguda"
+        "Hígado graso agudo del embarazo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2402,7 +2402,7 @@
         "Muy deficiente",
         "Excesiva",
         "Deficiente",
-        "Todas las anteriores"
+        "Adecuada para su IMC"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2421,7 +2421,7 @@
         "37 y 40",
         "8 y 18",
         "27 y 36",
-        "Faltan datos para decidir"
+        "En el puerperio"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2440,7 +2440,7 @@
         "G4P1223",
         "G4P1233",
         "G4P3123",
-        "Faltan datos para decidir"
+        "G4P1133"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2459,7 +2459,7 @@
         "Estimular con oxitocina",
         "Continuar con el trabajo de parto",
         "Estimular con misoprostol",
-        "Fijación externa"
+        "Realizar amniotomía y fórceps"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2478,7 +2478,7 @@
         "Uso de fórceps",
         "Cesárea de emergencia",
         "Amniotransfusión",
-        "Intubación endotraqueal"
+        "Tocólisis y observación"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2497,7 +2497,7 @@
         "Cerebral media.",
         "Umbilical.",
         "Uterina.",
-        "Diazepam"
+        "Aorta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2516,7 +2516,7 @@
         "Descontinuar antirretrovirales",
         "Aislar al niño de la madre",
         "Lactancia por tres meses",
-        "Faltan datos para decidir"
+        "Lactancia mixta"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2535,7 +2535,7 @@
         "Realizar maniobras externas a la gestante",
         "Realizar una amniotomía",
         "Realizar una cesárea de emergencia",
-        "Fijación externa"
+        "Esperar el parto vaginal asistido"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2554,7 +2554,7 @@
         "Placenta previa marginal",
         "Espectro de acretismo placentario",
         "Placenta previa total",
-        "Faltan datos para decidir"
+        "Placenta previa parcial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2573,7 +2573,7 @@
         "Ac Anti ß2 glucoproteína-I",
         "Hidrosonografía",
         "Cervicometría",
-        "Faltan datos para decidir"
+        "Cariotipo de la pareja"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2592,7 +2592,7 @@
         "Síndrome hiperandrogénico",
         "Síndrome de virilización",
         "Enfermedad de Cushing",
-        "Tuberculosis"
+        "Hiperplasia suprarrenal congénita clásica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2611,7 +2611,7 @@
         "Ligadura tubárica bilateral",
         "Histerectomía laparoscópica",
         "Salpinguectomía bilateral oportunista",
-        "Todas las anteriores"
+        "Vasectomía de la pareja"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2630,7 +2630,7 @@
         "Histerectomía abdominal",
         "Acido tranexámico",
         "Embolización angiográfica",
-        "Ninguna de las anteriores"
+        "Repetir oxitocina en bolo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2649,7 +2649,7 @@
         "20 años",
         "15 años",
         "Hasta los 60 años",
-        "Ninguna de las anteriores"
+        "5 años"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2664,11 +2664,11 @@
       "examen_origen": "ENAM 2025 · pregunta oficial",
       "enunciado": "Mujer de 30 años acude por flujo vaginal abundante y maloliente, prurito ocasional, edema y dolor en los labios genitales externos, que empeoran durante la menstruación. Examen: presenta eritema vaginal y múltiples lesiones petequiales en el cérvix. ¿Cuál es el agente causal más probable?",
       "opciones": [
-        "Trichomonas vaginalis 2",
+        "Trichomonas vaginalis",
         "Ureaplasma urealiticum",
         "Neisseria gonorrhoeae",
         "Chlamydia trachomatis",
-        "Ninguna de las anteriores"
+        "Candida albicans"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2687,7 +2687,7 @@
         "Desgarros vagino-perineales",
         "Atonía uterina",
         "Alumbramiento incompleto",
-        "Ibuprofeno"
+        "Inversión uterina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2706,7 +2706,7 @@
         "Atonía uterina",
         "Liberación de catecolaminas",
         "Vasoconstricción umbilical",
-        "Atropina"
+        "Hipotensión materna por anestesia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2725,7 +2725,7 @@
         "Flexión",
         "Rotación interna",
         "Rotación externa",
-        "Faltan datos para decidir"
+        "Descenso"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2763,7 +2763,7 @@
         "Control de sangrado, solicitar grupo sanguíneo y Rh",
         "Monitoreo electrónico",
         "Inducción de parto vaginal",
-        "Intubación endotraqueal"
+        "Esperar parto vaginal con monitoreo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2782,7 +2782,7 @@
         "Tamaño de los gemelos",
         "Número de placentas",
         "Dinámica uterina",
-        "Tramadol"
+        "Peso materno"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2801,7 +2801,7 @@
         "Tocolíticos",
         "Corticoides",
         "Sulfato de magnesio",
-        "Diazepam"
+        "Paracetamol"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2820,7 +2820,7 @@
         "Que deambule hasta que se encuentre en fase activa",
         "Hospitalización e hidratación",
         "Estimulación uterina",
-        "Fijación externa"
+        "Fórceps profiláctico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2839,7 +2839,7 @@
         "Hipotiroidismo y feto macrosómico",
         "Hipertiroidismo y bajo peso al nacer",
         "Diabetes y RCIU",
-        "Faltan datos para decidir"
+        "Hipotiroidismo y RCIU"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2858,7 +2858,7 @@
         "Ligadura tubárica",
         "Anticonceptivos orales combinados",
         "Dispositivo intrauterino T de cobre",
-        "Ninguna de las anteriores"
+        "Anillo vaginal combinado"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2877,7 +2877,7 @@
         "Captopril",
         "Hidralazina",
         "Nifedipino",
-        "Metronidazol"
+        "Enalapril"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2896,7 +2896,7 @@
         "Hipertensión arterial",
         "Parto pretérmino",
         "Diabetes Mellitus",
-        "Ninguna de las anteriores"
+        "Preeclampsia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2915,7 +2915,7 @@
         "Hasta las 12 semanas de la gestación",
         "Desde las 13 hasta las 19 semanas de la gestación",
         "Las últimas 4 semanas de la gestación",
-        "Todas las anteriores"
+        "Solo durante el puerperio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2934,7 +2934,7 @@
         "Parto inmaduro",
         "Útero bicorne",
         "Incompetencia cervical",
-        "Faltan datos para decidir"
+        "Amenaza de aborto"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2953,7 +2953,7 @@
         "No indicar profilaxis",
         "Indicar dentro de las 48 horas",
         "Indicar dentro de las 72 horas",
-        "Todas las anteriores"
+        "Indicar a las 28 semanas del siguiente embarazo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2972,7 +2972,7 @@
         "Inducir el parto con oxitocina",
         "Estimular el parto con oxitocina",
         "Madurar el cuello con misoprostol",
-        "Omeprazol"
+        "Cesárea electiva"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2991,7 +2991,7 @@
         "G4P1021",
         "G3P1021",
         "G4P2021",
-        "Todas las anteriores"
+        "G4P1111"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3010,7 +3010,7 @@
         "Ceftriaxona + amoxicilina",
         "Clindamicina + dicloxacilina",
         "Ampicilina – sulbactam",
-        "Diazepam"
+        "Metronidazol solo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3029,7 +3029,7 @@
         "Disminuir la presentación de pre-eclampsia",
         "Controlar el incremento de peso materno",
         "Disminución de volumen sanguíneo",
-        "Ninguna de las anteriores"
+        "Prevenir la diabetes gestacional"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3048,7 +3048,7 @@
         "Edema gestacional",
         "Eclampsia",
         "Hipertensión crónica",
-        "Faltan datos para decidir"
+        "Síndrome nefrótico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3067,7 +3067,7 @@
         "Vaginosis bacteriana y sífilis",
         "Chlamydia y gonorrea",
         "Tricomoniasis y gonorrea",
-        "Ninguna de las anteriores"
+        "VIH y hepatitis C"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3086,7 +3086,7 @@
         "Perineal IV grado",
         "Perineal III grado",
         "Perineal II grado",
-        "Ninguna de las anteriores"
+        "Perineal I grado"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3105,7 +3105,7 @@
         "Uso de tocolíticos",
         "Corticoides para madurez pulmonar",
         "Uso de antibióticos",
-        "Paracetamol"
+        "Cesárea de emergencia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3124,7 +3124,7 @@
         "Saturación arterial de oxígeno",
         "Recuperación de diuresis",
         "Disminución de la sed",
-        "Ninguna de las anteriores"
+        "Aumento de la frecuencia cardiaca"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3143,7 +3143,7 @@
         "Test de tolerancia con 50 g de glucosa",
         "Test de tolerancia con 75 g de glucosa",
         "Test de tolerancia con 100 g de glucosa",
-        "Todas las anteriores"
+        "Hemoglobina glicosilada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3162,7 +3162,7 @@
         "Hipertiroidismo",
         "Diabetes Mellitus",
         "Alteración genética",
-        "Faltan datos para decidir"
+        "Hipotiroidismo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3181,7 +3181,7 @@
         "Compresión de cabeza fetal",
         "Sufrimiento fetal",
         "Distocia de cordón",
-        "Faltan datos para decidir"
+        "Insuficiencia placentaria"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3200,7 +3200,7 @@
         "10",
         "30",
         "40",
-        "Ninguna de las anteriores"
+        "5"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3219,7 +3219,7 @@
         "Estimular la maduración pulmonar",
         "Terminar la gestación",
         "Controlarla en dos semanas",
-        "Faltan datos para decidir"
+        "Iniciar sulfato de magnesio"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3238,7 +3238,7 @@
         "Una ecografía actualizada",
         "Un test no estresante",
         "La ecografía del primer trimestre",
-        "Todas las anteriores"
+        "La altura uterina actual"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3257,7 +3257,7 @@
         "Urea y creatinina",
         "Hemograma completo",
         "Urocultivo y antibiograma opcional",
-        "Omeprazol"
+        "Grupo sanguíneo y factor Rh"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3276,7 +3276,7 @@
         "Descenso de la pinza clampada al cordón",
         "Aumento de la pérdida sanguínea transitoria",
         "Útero adopta una forma globular",
-        "Faltan datos para decidir"
+        "Salida de sangre oscura en escasa cantidad"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3295,7 +3295,7 @@
         "Transfusión feto-fetal",
         "Parto pretérmino",
         "Hemorragia posparto",
-        "Todas las anteriores"
+        "Anemia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3314,7 +3314,7 @@
         "Ecografía transvaginal",
         "Examen completo de orina",
         "Dosaje de Beta HCG",
-        "Ibuprofeno"
+        "Prueba de VIH"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3333,7 +3333,7 @@
         "Hospitalización, antibioticoterapia y culminar gestación",
         "Seguimiento ambulatorio, antibioticoterapia y corticoides",
         "Hospitalización y culminar gestación vía abdominal",
-        "Ciprofloxacino"
+        "Tocólisis y alta"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3352,7 +3352,7 @@
         "HCG beta y ecografía transvaginal",
         "Dosaje de estrógeno y progesterona",
         "Dosaje de Prolactina si existiera galactorrea",
-        "Prednisona"
+        "Tomografía de silla turca"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3371,7 +3371,7 @@
         "Histerectomía vaginal",
         "Colposuspensión",
         "Suspensión colpo sacra",
-        "Todas las anteriores"
+        "Pesario como tratamiento definitivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3390,7 +3390,7 @@
         "Ácido acetilsalicílico a dosis bajas",
         "Suplemento de vitamina D",
         "Enoxaparina",
-        "Suspender tratamiento"
+        "Enalapril profiláctico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3409,7 +3409,7 @@
         "Reposo en casa",
         "Maduración pulmonar y tocólisis",
         "Término de gestación por cesárea",
-        "Drenaje percutáneo"
+        "Amniocentesis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3428,7 +3428,7 @@
         "Solicitar una ecografía transvaginal",
         "Solicitar un β-hCG cuantitativa seriada",
         "Retirar el dispositivo intrauterino",
-        "Todas las anteriores"
+        "Mantener el DIU hasta el parto"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3447,7 +3447,7 @@
         "Labor de parto pretérmino",
         "Amenaza de labor de parto pretérmino",
         "Incompetencia cervical",
-        "Faltan datos para decidir"
+        "Trabajo de parto a término"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3466,7 +3466,7 @@
         "Tacto vaginal",
         "Especuloscopía",
         "Ecografía transvaginal",
-        "Ninguna de las anteriores"
+        "Monitoreo fetal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3485,7 +3485,7 @@
         "Poner vía endovenosa, romper bolsas y esperar el parto vaginal",
         "Hospitalización y conducta expectante",
         "Acentuación del parto con oxitocina",
-        "Toracocentesis"
+        "Taponamiento vaginal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3504,7 +3504,7 @@
         "Observación",
         "Solicitar alfa feto proteína",
         "Prescribir anticonceptivos orales",
-        "Faltan datos para decidir"
+        "Ooforectomía"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3523,7 +3523,7 @@
         "Zidovudina endovenosa",
         "Parto por vía vaginal",
         "Continuar con TARGA",
-        "Fijación externa"
+        "Lactancia con TARGA"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3542,7 +3542,7 @@
         "Que suspenda la hidroxicloroquina",
         "Que aumente la dosis de corticoides",
         "Preferible que no salga gestando",
-        "Valores normales"
+        "Que suspenda todos sus medicamentos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3561,7 +3561,7 @@
         "22 a 25",
         "7 a 10",
         "15 a 18",
-        "Faltan datos para decidir"
+        "28 a 32"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3580,7 +3580,7 @@
         "Drenar con una jeringa con aguja",
         "Abrir y drenar la episiotomía",
         "Analgésicos y observación",
-        "Faltan datos para decidir"
+        "Resuturar la episiotomía"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3599,7 +3599,7 @@
         "Tomografía pélvica",
         "Ejercicios de Kegel",
         "Urodinamia",
-        "Todas las anteriores"
+        "Cirugía de cistocele"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3618,7 +3618,7 @@
         "Atención de parto por cesárea",
         "Atención de parto vaginal",
         "Inducción con oxitocina",
-        "Hemodiálisis"
+        "Versión cefálica externa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3637,7 +3637,7 @@
         "Laparotomía exploratoria",
         "Control de funciones vitales",
         "Transfusión sanguínea",
-        "Omeprazol"
+        "Histerectomía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3656,7 +3656,7 @@
         "Prolapso de cordón",
         "Asinclitismo anterior",
         "Asinclitismo posterior",
-        "Ninguna de las anteriores"
+        "Desprendimiento prematuro de placenta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3675,7 +3675,7 @@
         "Evolución espontánea de labor de parto",
         "Colocar oxitocina y mejorar dinámica",
         "Preparar para cesárea",
-        "Laparotomía exploratoria"
+        "Fórceps"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3694,7 +3694,7 @@
         "Moderado",
         "Alto",
         "Bajo",
-        "Faltan datos para decidir"
+        "Igual que la población general"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3713,7 +3713,7 @@
         "Programar cesárea",
         "Observar otras 4 horas",
         "Estimular con oxitocina",
-        "Lavado quirúrgico"
+        "Tocólisis"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3732,7 +3732,7 @@
         "Clotrimazol 500 mg óvulo en monodosis",
         "Clindamicina 300 mg VO cada 12 horas por 3 días",
         "Metronidazol 500 mg VO cada 12 horas por 7 días",
-        "Aumentar dosis"
+        "Ceftriaxona 500 mg IM dosis única"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3751,7 +3751,7 @@
         "Continuar lactancia sólo con mama no infectada",
         "Continuar con lactancia materna",
         "Suspender lactancia hasta terminar antibióticos",
-        "Faltan datos para decidir"
+        "Drenar la mama inmediatamente"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3770,7 +3770,7 @@
         "Aborto retenido",
         "Amenaza de aborto",
         "Aborto inminente",
-        "Todas las anteriores"
+        "Aborto incompleto"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3789,7 +3789,7 @@
         "Esperar 6 meses para iniciar estudio",
         "Fertilización in vitro",
         "Coitos dirigidos con temperatura basal",
-        "Ninguna de las anteriores"
+        "Inseminación artificial inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3808,7 +3808,7 @@
         "Previo a la siguiente gestación",
         "Dos semanas posteriores al parto",
         "Semana 14 de gestación",
-        "Todas las anteriores"
+        "Inmediatamente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3827,7 +3827,7 @@
         "Cesárea de emergencia",
         "Programar cesárea a las 40 semanas",
         "Reevaluación en 2 horas",
-        "Drenaje percutáneo"
+        "Tocólisis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3846,7 +3846,7 @@
         "Cobertura antibiótica y traslado a hospital",
         "Corticoides y esperar inicio de labor de parto",
         "Uso de tocolíticos y maduración pulmonar",
-        "Ketorolaco"
+        "Alta con antibiótico oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3865,7 +3865,7 @@
         "Β-hCG cuantitativa",
         "Ecografía transvaginal",
         "Β-hCG cualitativa",
-        "Tramadol"
+        "Fecha probable por examen pélvico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3884,7 +3884,7 @@
         "Legrado uterino",
         "Metrotexate",
         "Salpinguectomía",
-        "Ibuprofeno"
+        "Observación con β-hCG en un mes"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3903,7 +3903,7 @@
         "Explicarle que lo expulsó",
         "Rx de abdomen",
         "Laparotomía exploratoria",
-        "Electrocardiograma"
+        "Histeroscopía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3922,7 +3922,7 @@
         "Observación",
         "Tocólisis",
         "Cerclaje cervical",
-        "Faltan datos para decidir"
+        "Corticoides y cesárea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3941,7 +3941,7 @@
         "21",
         "17",
         "27",
-        "Ninguna de las anteriores"
+        "31"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3960,7 +3960,7 @@
         "Programación de cesárea a las 42 semanas",
         "Maduración cervical con misoprostol",
         "Esperar parto vaginal espontáneo",
-        "Fijación externa"
+        "Alta y control en una semana"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3979,7 +3979,7 @@
         "Antibioticoterapia y parto vaginal",
         "Antibioticoterapia y cesárea",
         "Corticoide y parto vaginal",
-        "Fijación externa"
+        "Tocólisis y antibióticos"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3998,7 +3998,7 @@
         "72 horas después del parto",
         "24 horas después del parto",
         "24 horas después del diagnóstico de preeclampsia",
-        "Faltan datos para decidir"
+        "Hasta el alta hospitalaria"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4017,7 +4017,7 @@
         "Maduración con misoprostol",
         "Inducción con oxitocina",
         "Cesárea",
-        "Hemodiálisis"
+        "Fórceps"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4036,7 +4036,7 @@
         "Realizar cesárea",
         "Inducir el parto",
         "Realizar pruebas de bienestar fetal",
-        "Toracocentesis"
+        "Hospitalizar para inducción inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4055,7 +4055,7 @@
         "Sarampión",
         "Pertussis",
         "Antitetánica",
-        "Ninguna de las anteriores"
+        "Influenza inactivada"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4074,7 +4074,7 @@
         "Urocultivo mensual hasta final del embarazo",
         "Terapia supresiva con ciprofloxacina",
         "Continuar con CPN de rutina",
-        "Amoxicilina"
+        "Nitrofurantoína solo por 3 días"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4093,7 +4093,7 @@
         "Cabergolina y vendaje de mamas inmediatamente después del parto",
         "Medroxiprogesterona a las 72 horas post parto sin vendaje de mamas",
         "Mifepristona y vendaje compresivo en 48 horas post parto",
-        "Epinefrina"
+        "Lactancia materna exclusiva con TAR"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4112,7 +4112,7 @@
         "Solicitar ß-hCG control",
         "Dejar evolución espontánea",
         "Realizar ecografía en una semana",
-        "Ciprofloxacino"
+        "Cerclaje cervical"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4131,7 +4131,7 @@
         "Rotación externa",
         "Rotación interna",
         "Extensión",
-        "Faltan datos para decidir"
+        "Flexión"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4150,7 +4150,7 @@
         "Equívoca sospechosa.",
         "Insatisfactoria.",
         "Negativa.",
-        "Todas las anteriores"
+        "Indeterminada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4169,7 +4169,7 @@
         "20 a 24",
         "22 a 24",
         "30 a 38",
-        "Ninguna de las anteriores"
+        "37 a 40"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4188,7 +4188,7 @@
         "60 mg + 400 µg",
         "120 mg + 800 µg",
         "60 mg + 800 µg",
-        "Valores normales"
+        "200 mg + 5 mg"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4207,7 +4207,7 @@
         "Histerectomía total",
         "Observación",
         "Histeroscopía quirúrgica",
-        "Todas las anteriores"
+        "Embolización de arterias uterinas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4226,7 +4226,7 @@
         "IV",
         "II",
         "I",
-        "Todas las anteriores"
+        "V"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4245,7 +4245,7 @@
         "Circular simple de cordón",
         "Presentación compuesta",
         "Distocia de hombros",
-        "Faltan datos para decidir"
+        "Prolapso de cordón"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4264,7 +4264,7 @@
         "Iniciar tratamiento con progesterona",
         "Referir a centro de mayor complejidad",
         "Dar nifedipino 10 mg diarios",
-        "Suspender tratamiento"
+        "Cerclaje y reposo absoluto"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4283,7 +4283,7 @@
         "Bicarbonato de sodio",
         "Cristaloides",
         "Vasopresores",
-        "Todas las anteriores"
+        "Transfusión de plaquetas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4302,7 +4302,7 @@
         "Descontinuar screening",
         "Continuar con PAP anual",
         "Realizar colposcopía cada 3 años",
-        "Ninguna de las anteriores"
+        "PAP cada 6 meses"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4321,7 +4321,7 @@
         "Polihidramnios",
         "Macrosomía fetal",
         "Síndrome de post termino",
-        "Asma bronquial"
+        "Gastrosquisis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4340,7 +4340,7 @@
         "Útero",
         "Ovarios",
         "Hipófisis",
-        "Ninguna de las anteriores"
+        "Glándula tiroides"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4359,7 +4359,7 @@
         "Pseudohermafroditismo",
         "Síndrome de Turner",
         "Disgenesia gonadal",
-        "Insuficiencia cardíaca"
+        "Síndrome de Kallmann"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4378,7 +4378,7 @@
         "Prueba sin stress más medición de líquido amniótico",
         "Ultrasonografía Doppler de la arteria umbilical",
         "Índice de pulsatilidad de las arterias uterinas",
-        "Ninguna de las anteriores"
+        "Perfil de coagulación"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4397,7 +4397,7 @@
         "Absceso de glándula Bartolino",
         "Quiste de inclusión",
         "Quiste de glándula de Skene",
-        "Ninguna de las anteriores"
+        "Carcinoma de vulva"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4416,7 +4416,7 @@
         "4 cms debajo de cicatriz umbilical",
         "Intrapélvico",
         "Borde superior del pubis",
-        "Ninguna de las anteriores"
+        "Apéndice xifoides"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4435,7 +4435,7 @@
         "Programar para AMEU",
         "Indicar laparoscopía diagnóstica",
         "Control posterior ecográfico",
-        "Ibuprofeno"
+        "Metotrexato"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4454,7 +4454,7 @@
         "Prolapso de cúpula",
         "Uretrocele",
         "Rectocele",
-        "Ninguna de las anteriores"
+        "Enterocele aislado"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4473,7 +4473,7 @@
         "Sulfato de magnesio y derivar",
         "Observación ambulatoria",
         "Inducción del trabajo de parto",
-        "Derivación a especialista"
+        "Alta y control en una semana"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4492,7 +4492,7 @@
         "Positivo",
         "Insatisfactorio",
         "Negativo",
-        "Ninguna de las anteriores"
+        "No reactivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4511,7 +4511,7 @@
         "Fornix anterior",
         "Union uretrovesical",
         "Fornix posterior",
-        "Ninguna de las anteriores"
+        "Cuerpo perineal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4530,7 +4530,7 @@
         "Placenta previa",
         "Parto postérmino",
         "Ruptura prematura de membranas",
-        "Faltan datos para decidir"
+        "Polihidramnios"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4549,7 +4549,7 @@
         "Usar metformina",
         "Ajustar dieta diabética",
         "Iniciar insulina",
-        "Ibuprofeno"
+        "Glibenclamida"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4568,7 +4568,7 @@
         "Aborto retenido",
         "Aborto completo",
         "Amenaza de aborto",
-        "Faltan datos para decidir"
+        "Embarazo ectópico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4587,7 +4587,7 @@
         "3",
         "6",
         "2",
-        "Todas las anteriores"
+        "12"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4606,7 +4606,7 @@
         "Insuficiencia renal",
         "Insuficiencia cardiaca",
         "Diabetes mellitus",
-        "Faltan datos para decidir"
+        "Asma"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4625,7 +4625,7 @@
         "Infección urinaria recurrente",
         "Preeclampsia severa",
         "Ruptura prematura de membranas",
-        "Todas las anteriores"
+        "Hipertiroidismo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4644,7 +4644,7 @@
         "3",
         "5",
         "6",
-        "Faltan datos para decidir"
+        "8"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4663,7 +4663,7 @@
         "Actividad uterina normal",
         "Bradisistolia",
         "Taquisistolia",
-        "Insulina"
+        "Hipertonía uterina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4682,7 +4682,7 @@
         "Gestante no diabética",
         "Diabetes mellitus tipo 2",
         "Diabetes gestacional",
-        "Dexametasona"
+        "Intolerancia a la glucosa"
       ],
       "correcta": 1,
       "clave_correcta": "B",

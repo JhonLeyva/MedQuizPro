@@ -27,7 +27,7 @@
         "Hepatitis viral",
         "Xantocromía",
         "Carotinemia",
-        "Atropina"
+        "Ictericia obstructiva"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -46,7 +46,7 @@
         "Factor reumatoideo",
         "Anticuerpos anticitrulinados",
         "Anti-DNA doble cadena",
-        "Todas las anteriores"
+        "Velocidad de sedimentación"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -65,7 +65,7 @@
         "Eritema multiforme",
         "Angioedema hereditario",
         "Urticaria aguda",
-        "Infección del tracto urinario"
+        "Dermatitis de contacto"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -84,7 +84,7 @@
         "Acarosis",
         "Dermatitis",
         "Impétigo",
-        "Síndrome de Guillain-Barré"
+        "Varicela"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -103,7 +103,7 @@
         "Amikacina",
         "Dicloxacilina",
         "Claritromicina",
-        "Paracetamol"
+        "Ketoconazol"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -122,7 +122,7 @@
         "Artropatía degenerativa",
         "Vasculitis",
         "Esclerodermia",
-        "Lupus eritematoso sistémico"
+        "Fibromialgia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -141,7 +141,7 @@
         "Psoriasis puntata",
         "Alopecia areata",
         "Tricotilomanía",
-        "Sepsis"
+        "Dermatitis seborreica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "Dermatitis atópica",
         "Dermatitis por contacto",
         "Dermatosis infantil",
-        "Apendicitis aguda"
+        "Psoriasis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -179,7 +179,7 @@
         "Psoriasis",
         "Dermatitis alérgica",
         "Dermatitis atópica",
-        "Neumonía adquirida"
+        "Impétigo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -198,7 +198,7 @@
         "Polimiositis infecciosa",
         "Polimialgia reumática",
         "Policondritis recidivante",
-        "Síndrome de Guillain-Barré"
+        "Hipotiroidismo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -217,7 +217,7 @@
         "Corticoide tópico",
         "Antibiótico tópico",
         "Antimicótico",
-        "Tramadol"
+        "Antiviral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -236,7 +236,7 @@
         "Aciclovir",
         "Permetrina",
         "Betametasona",
-        "Paracetamol"
+        "Clotrimazol"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -255,7 +255,7 @@
         "Dermatitis de contacto",
         "Psoriasis guttata",
         "Paroniquia candidiásica",
-        "Sepsis"
+        "Onicomicosis por dermatofitos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -274,7 +274,7 @@
         "Corticoide",
         "Antihistamínico",
         "Broncodilatador",
-        "Ciprofloxacino"
+        "Gluconato de calcio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -293,7 +293,7 @@
         "Herpes simple",
         "Cándida albicans",
         "Sarcoptes scabiei",
-        "Todas las anteriores"
+        "Virus varicela zóster"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -312,7 +312,7 @@
         "Querion",
         "Alopecia areata",
         "Tiña capitis",
-        "Cirrosis hepática"
+        "Psoriasis del cuero cabelludo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -331,7 +331,7 @@
         "Normal",
         "Inflamatorio",
         "Hemorrágico",
-        "Ninguna de las anteriores"
+        "Mecánico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -350,7 +350,7 @@
         "Metrotexate",
         "Ácido acetilsalicílico",
         "Corticoesteroides",
-        "Todas las anteriores"
+        "Antiinflamatorios no esteroideos solos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -369,7 +369,7 @@
         "Fulminante",
         "Nodular",
         "Vulgar",
-        "Todas las anteriores"
+        "Rosácea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -388,7 +388,7 @@
         "Aplicación de emolientes e hidratantes",
         "Corticoides tópicos de alta potencia",
         "Neomicina en ungüento",
-        "Aislamiento estricto"
+        "Antibiótico tópico de uso diario"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -407,7 +407,7 @@
         "Miliaria cristalina",
         "Liquen plano",
         "Urticaria colinérgica",
-        "Dexametasona"
+        "Urticaria por frío"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -426,7 +426,7 @@
         "Nistatina",
         "Sulfuro de selenio",
         "Voriconazol",
-        "Epinefrina"
+        "Mupirocina tópica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -445,7 +445,7 @@
         "Dermatitis de contacto",
         "Pioderma gangrenoso",
         "Dermatosis neutrofílica",
-        "Sepsis"
+        "Varicela"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -464,7 +464,7 @@
         "Forunculosis",
         "Ántrax estafilocócico",
         "Tuberculosis ganglionar",
-        "Síndrome de Guillain-Barré"
+        "Linfadenitis tuberculosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -483,7 +483,7 @@
         "Esclerodermia",
         "Lupus discoide",
         "Vasculitis IgA",
-        "Infección del tracto urinario"
+        "Hipotiroidismo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -502,7 +502,7 @@
         "Artritis gotosa",
         "Artritis infecciosa",
         "Artritis reumatoide",
-        "Diabetes Mellitus"
+        "Artritis reactiva"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Exantema vírico",
         "Escabiosis",
         "Dermatitis herpetiforme",
-        "Neumonía adquirida"
+        "Pediculosis corporis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -540,7 +540,7 @@
         "Muy grave",
         "Moderada",
         "Grave",
-        "Ninguna de las anteriores"
+        "Moderadamente grave"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -559,7 +559,7 @@
         "Psoriasis",
         "Ictiosis",
         "Linfoma cutáneo",
-        "Sepsis"
+        "Pitiriasis rosada"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -578,7 +578,7 @@
         "Mielitis longitudinal",
         "Síndrome de Guillain-Barré",
         "Polimiositis",
-        "Sepsis"
+        "Hipotiroidismo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -597,7 +597,7 @@
         "Vasculitis por IgA",
         "Vasculitis crioglobulenémica",
         "Granulomatosis con poliangeítis",
-        "Insuficiencia cardíaca"
+        "Arteritis de células gigantes"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -616,7 +616,7 @@
         "Tuberculosis pulmonar",
         "Lupus eritematoso sistémico",
         "Dermatomiositis",
-        "Síndrome de Guillain-Barré"
+        "Síndrome nefrótico idiopático"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -635,7 +635,7 @@
         "Celulitis",
         "Pediculosis",
         "Eccema atópico",
-        "Tuberculosis"
+        "Tiña capitis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -654,7 +654,7 @@
         "Trichophyton rubrum",
         "Candida albicans",
         "Malassezia furfur",
-        "Todas las anteriores"
+        "Dermatitis de contacto"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Óxido de zinc en crema",
         "Mupirocina tópica",
         "Vaselina",
-        "Metronidazol"
+        "Corticoide tópico de alta potencia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -692,7 +692,7 @@
         "Dermatitis de contacto",
         "Sarna noruega",
         "Acrodermatitis enteropática",
-        "Sepsis"
+        "Psoriasis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -711,7 +711,7 @@
         "Ibuprofeno",
         "Amitriptilina",
         "Dexametasona",
-        "Clindamicina"
+        "Diazepam"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -730,7 +730,7 @@
         "Queilitis actínica",
         "Linfoma cutáneo",
         "Carcinoma basocelular",
-        "Neumonía adquirida"
+        "Herpes simple labial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -749,7 +749,7 @@
         "Melanoma",
         "Carcinoma basocelular",
         "Lupus discoide",
-        "Diabetes Mellitus"
+        "Queratosis seborreica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -768,7 +768,7 @@
         "Mupirocina tópica",
         "Clotrimazol tópico",
         "Aciclovir VO",
-        "Dexametasona"
+        "Fluconazol oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -787,7 +787,7 @@
         "Anti DNA de doble cadena",
         "Ac anticentrómero",
         "Ac anti-péptidos citrulinados",
-        "Faltan datos para decidir"
+        "Factor reumatoide"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -806,7 +806,7 @@
         "Adrenalina",
         "Hidrocortisona",
         "Salbutamol",
-        "Omeprazol"
+        "Ranitidina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -825,7 +825,7 @@
         "Esclerosis sistémica",
         "Osteoartritis focal",
         "Artritis reumatoide",
-        "Diabetes Mellitus"
+        "Lumbalgia mecánica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -844,7 +844,7 @@
         "Azufre precipitado",
         "Benzoato de bencilo",
         "Hexacloruro de benceno",
-        "Dexametasona"
+        "Ivermectina tópica en menores de 15 kg"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -863,7 +863,7 @@
         "Impétigo ampolloso",
         "Pénfigo",
         "Enfermedad de Ritter",
-        "Infección del tracto urinario"
+        "Necrólisis epidérmica tóxica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -882,7 +882,7 @@
         "Psoriasis",
         "Micosis",
         "Traumatismo",
-        "Asma bronquial"
+        "Paroniquia bacteriana"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -901,7 +901,7 @@
         "Diplococos Gram negativo",
         "Bacilos Gram negativos",
         "Espiroquetas",
-        "Todas las anteriores"
+        "Cristales de urato"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -920,7 +920,7 @@
         "Artritis reumatoide",
         "Crisis gotosa",
         "Lupus eritematoso sistémico",
-        "Neumonía adquirida"
+        "Esclerodermia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -939,7 +939,7 @@
         "Psoriasis",
         "Dermatitis atópica",
         "Celulitis",
-        "Neumonía adquirida"
+        "Pitiriasis versicolor"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -958,7 +958,7 @@
         "Urticaria",
         "Tiña córporis",
         "Anafilaxia",
-        "Cirrosis hepática"
+        "Escabiosis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -977,7 +977,7 @@
         "Piodermitis",
         "Erisipela",
         "Varicela",
-        "Lupus eritematoso sistémico"
+        "Herpes simple"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -996,7 +996,7 @@
         "Solución con permetrina",
         "Aplicar loción de violeta de genciana",
         "Lavado del cabello con sulfuro de selenio",
-        "Ibuprofeno"
+        "Rasurar el cabello y nada más"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1015,7 +1015,7 @@
         "Artritis psoriásica",
         "Síndrome de Reiter",
         "Artropatía amiloide",
-        "Cirrosis hepática"
+        "Gota tofácea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1034,7 +1034,7 @@
         "Antibióticos vía parenteral con antiinflamatorios",
         "Drenaje y antiinflamatorios parenterales",
         "Lavado intraarticular continuo",
-        "Biopsia excisional"
+        "Corticoide intraarticular"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1053,7 +1053,7 @@
         "Radiografía de rodilla",
         "Resonancia magnética de rodilla",
         "Ecografía de partes blandas",
-        "Radiografía simple"
+        "Ácido úrico en orina de 24 horas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1072,7 +1072,7 @@
         "Antibióticos tópicos",
         "Retinoides tópicos",
         "Dieta",
-        "Faltan datos para decidir"
+        "Isotretinoína oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1091,7 +1091,7 @@
         "Síndrome de Sweet",
         "Ictiosis adquirida",
         "Sarna noruega",
-        "Asma bronquial"
+        "Dermatitis atópica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1110,7 +1110,7 @@
         "Malassezia globosa",
         "Phaeoannellomyces werneckii",
         "Candida albicans",
-        "Ninguna de las anteriores"
+        "Microsporum canis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1129,7 +1129,7 @@
         "Osteoartrosis",
         "Lupus eritematoso sistémico",
         "Enfermedad mixta del tejido conectivo",
-        "Síndrome de Guillain-Barré"
+        "Fiebre reumática"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1148,7 +1148,7 @@
         "Electromiografía",
         "RM de músculos",
         "Biopsia de músculo",
-        "Arteriografía"
+        "Ecografía de músculos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1167,7 +1167,7 @@
         "Pitiriasis rosada",
         "Dermatitis seborreica",
         "Psoriasis",
-        "Tuberculosis"
+        "Sífilis secundaria"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1186,7 +1186,7 @@
         "Sulfasalazina",
         "Rituximab",
         "Metrotexato",
-        "Tramadol"
+        "Prednisona en dosis altas indefinida"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1205,7 +1205,7 @@
         "Polimialgia reumática",
         "Polimiositis",
         "Fibromialgia",
-        "Diabetes Mellitus"
+        "Hipotiroidismo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1224,7 +1224,7 @@
         "Reumatoide",
         "Séptica",
         "Gotosa",
-        "Ninguna de las anteriores"
+        "Pseudogota"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1243,7 +1243,7 @@
         "Grave",
         "Moderado",
         "Moderadamente grave",
-        "Ninguna de las anteriores"
+        "Rosácea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1262,7 +1262,7 @@
         "Radiación ultravioleta",
         "Radiación ionizante",
         "Contaminación del agua",
-        "Ninguna de las anteriores"
+        "Radiación de microondas"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1281,7 +1281,7 @@
         "Pseudogota",
         "Hipoparatiroidismo",
         "Hipermagnesemia",
-        "Lupus eritematoso sistémico"
+        "Gota"
       ],
       "correcta": 1,
       "clave_correcta": "B",

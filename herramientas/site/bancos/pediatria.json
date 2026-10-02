@@ -27,7 +27,7 @@
         "Fractura de rótula",
         "Artritis séptica",
         "Hemartrosis",
-        "Infección del tracto urinario"
+        "Sinovitis transitoria de cadera"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -46,7 +46,7 @@
         "Trisomía 21",
         "Trisomía 13",
         "Aneuploidia XXY",
-        "Faltan datos para decidir"
+        "Trisomía 18"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -65,7 +65,7 @@
         "Taquipnea transitoria",
         "Neumonía connatal",
         "Síndrome aspirativo",
-        "Clindamicina"
+        "Ductus arterioso persistente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -84,7 +84,7 @@
         "Sarpullido",
         "Varicela",
         "Rubéola",
-        "Faltan datos para decidir"
+        "Sarampión"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -103,7 +103,7 @@
         "Rotavirus",
         "Campylobacter",
         "Shigella",
-        "Faltan datos para decidir"
+        "Vibrio cholerae"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -122,7 +122,7 @@
         "IPV, Rotavirus",
         "APO, SPR",
         "DPT, VPH",
-        "Faltan datos para decidir"
+        "Pentavalente y neumococo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -141,7 +141,7 @@
         "Fibrosis quística",
         "Hipotiroidismo",
         "Tapón meconial",
-        "Insuficiencia cardíaca"
+        "Atresia anal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -160,7 +160,7 @@
         "Otitis externa",
         "Otitis media aguda",
         "Osteoma",
-        "Lupus eritematoso sistémico"
+        "Faringitis viral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -179,7 +179,7 @@
         "Rinofaringitis aguda",
         "Bronquiolitis",
         "Bronconeumonía",
-        "Hipertensión arterial"
+        "Neumonía lobar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -198,7 +198,7 @@
         "Hiponatremia",
         "Hipomagnesemia",
         "Hipoglicemia",
-        "Ninguna de las anteriores"
+        "Hipotiroidismo congénito"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -217,7 +217,7 @@
         "Desnutrición crónica reagudizada",
         "Desnutrición aguda",
         "Restricción del crecimiento",
-        "Faltan datos para decidir"
+        "Talla baja familiar"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -236,7 +236,7 @@
         "Ceftriaxona + ampicilina",
         "Ampicilina + cloranfenicol",
         "Ampicilina + amikacina",
-        "Tramadol"
+        "Vancomicina + meropenem"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -255,7 +255,7 @@
         "Eritema infeccioso",
         "Exantema súbito",
         "Acarosis infectada",
-        "Lupus eritematoso sistémico"
+        "Impétigo ampolloso"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -274,7 +274,7 @@
         "Administración de bicarbonato de sodio",
         "Corrección de acidosis respiratoria",
         "Rehidratación parenteral",
-        "Diabetes Mellitus"
+        "Cirugía inmediata sin corregir líquidos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -293,7 +293,7 @@
         "Laringotraqueítis",
         "Cuerpo extraño",
         "Bronquitis",
-        "Tuberculosis"
+        "Epiglotitis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -312,7 +312,7 @@
         "Amoxicilina",
         "Neomicina",
         "Polimixina B",
-        "Atropina"
+        "Ciprofloxacino ótico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -331,7 +331,7 @@
         "Giardiasis",
         "Ascaridiosis",
         "Enterobiasis",
-        "Hipertensión arterial"
+        "Enfermedad celíaca"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -350,7 +350,7 @@
         "Posmaduros",
         "Prematuros",
         "A término",
-        "Faltan datos para decidir"
+        "Hijos de madre diabética"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -369,7 +369,7 @@
         "Hipoglicemia",
         "Hipotermia",
         "Neumonía",
-        "Sepsis"
+        "Hemorragia intraventricular"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -388,7 +388,7 @@
         "Escherichia coli",
         "Chlamydia trachomatis",
         "Listeria monocytogenes",
-        "Faltan datos para decidir"
+        "Staphylococcus aureus"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -407,7 +407,7 @@
         "Sepsis neonatal",
         "Enfermedad diarreica aguda",
         "Shock hipovolémico",
-        "Insuficiencia cardíaca"
+        "Hiperplasia suprarrenal congénita"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -426,7 +426,7 @@
         "Presencia de linfocitos atípicos >18%",
         "Leucocitosis de 15,000 con predominio de neutrófilos",
         "Incremento en la frecuencia de paroxismos de tos cianotizante",
-        "Infección del tracto urinario"
+        "Fiebre persistente de 38 °C"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -445,7 +445,7 @@
         "Intususcepción",
         "Divertículo de Meckel",
         "Hipertrofia del píloro",
-        "Lupus eritematoso sistémico"
+        "Gastroenteritis aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -464,7 +464,7 @@
         "Hidrocarburo",
         "Opioide",
         "Cumarínico",
-        "Ninguna de las anteriores"
+        "Benzodiacepinas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -483,7 +483,7 @@
         "Fenitoína",
         "Diazepam",
         "Clonazepam",
-        "Faltan datos para decidir"
+        "Ácido valproico oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -502,7 +502,7 @@
         "Reforzamiento de trama bronquial en HTD",
         "Imágenes hiliofugales en mitad inferior de HTD",
         "Infiltrado alveolar en mitad inferior de HTD",
-        "Todas las anteriores"
+        "Neumotórax derecho"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -521,7 +521,7 @@
         "Púrpura de Henoch-Schönlein",
         "Anemia aplásica",
         "Púrpura trombocitopénica",
-        "Todas las anteriores"
+        "Hemofilia A"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -540,7 +540,7 @@
         "Demora en el envío de la muestra",
         "Orina muy concentrada",
         "Orina mal refrigerada",
-        "Metronidazol"
+        "Contaminación con flora perineal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -559,7 +559,7 @@
         "Rinitis alérgica",
         "Adenoiditis",
         "Cuerpo extraño nasal",
-        "Insuficiencia cardíaca"
+        "Sinusitis aguda bacteriana"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -578,7 +578,7 @@
         "Esferocitosis hereditaria",
         "Deficiencia de hierro",
         "Deficiencia de zinc",
-        "Diabetes Mellitus"
+        "Talasemia menor"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -597,7 +597,7 @@
         "Hepatitis A",
         "Fiebre tifoidea",
         "Leptospirosis",
-        "Tuberculosis"
+        "Colecistitis aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -616,7 +616,7 @@
         "Adrenalina",
         "Dexametasona",
         "Lidocaína",
-        "Metronidazol"
+        "Naloxona"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -635,7 +635,7 @@
         "Fibrosis pulmonar",
         "Enfermedad de membrana hialina",
         "Hipertensión pulmonar primaria",
-        "Dexametasona"
+        "Neumonía por aspiración"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -654,7 +654,7 @@
         "Intususcepción",
         "Divertículo de Meckel",
         "Enfermedad de Hirschsprung",
-        "Diabetes Mellitus"
+        "Apendicitis aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -673,7 +673,7 @@
         "Cistouretrografía miccional seriada",
         "Gamagrafía renal",
         "Cistografía",
-        "Ninguna de las anteriores"
+        "Urografía excretora"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -692,7 +692,7 @@
         "Dicloxacilina",
         "Penicilina G sódica",
         "Ceftriaxona",
-        "Metronidazol"
+        "Amoxicilina oral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -711,7 +711,7 @@
         "Aporte de oxígeno en mascarilla",
         "Aplicar Adrenalina EV",
         "Realizar masaje cardiaco",
-        "Paracetamol"
+        "Esperar 5 minutos y reevaluar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -730,7 +730,7 @@
         "Síndrome nefrítico",
         "Desnutrición severa",
         "Síndrome nefrótico",
-        "Síndrome de Guillain-Barré"
+        "Insuficiencia cardiaca congestiva"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -749,7 +749,7 @@
         "Obstrucción intestinal",
         "Reflujo gastroesofágico",
         "Sepsis neonatal temprana",
-        "Faltan datos para decidir"
+        "Atresia esofágica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -768,7 +768,7 @@
         "Digoxina",
         "Dopamina",
         "Furosemida",
-        "Metronidazol"
+        "Propranolol"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -787,7 +787,7 @@
         "Neumonía típica",
         "Bronconeumonía",
         "Bronquitis aguda",
-        "Insuficiencia cardíaca"
+        "Neumonía aspirativa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -806,7 +806,7 @@
         "Nefritis lúpica",
         "Vasculitis por hipersensibilidad",
         "Síndrome de Goodpasture",
-        "Apendicitis aguda"
+        "Síndrome nefrótico idiopático"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -825,7 +825,7 @@
         "Parálisis de Klumpke",
         "Fractura epifisaria del húmero",
         "Parálisis de Erb-Duchenne",
-        "Cirrosis hepática"
+        "Parálisis total del plexo braquial"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -844,7 +844,7 @@
         "Clónicas",
         "Tónicas",
         "Mioclónicas",
-        "Todas las anteriores"
+        "Espasmos infantiles"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -863,7 +863,7 @@
         "Incompatibilidad ABO",
         "Incompatibilidad Rh",
         "Esferocitosis",
-        "Cirrosis hepática"
+        "Ictericia por leche materna"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -882,7 +882,7 @@
         "Hipertrofia congénita de píloro",
         "Vólvulo de intestino ileal",
         "Mal rotación intestinal",
-        "Todas las anteriores"
+        "Enfermedad de Hirschsprung"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -901,7 +901,7 @@
         "Bronquiolitis",
         "Insuficiencia cardiaca",
         "Bronconeumonía",
-        "Diabetes Mellitus"
+        "Neumonía lobar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -920,7 +920,7 @@
         "Ceftriaxona",
         "Doxiciclina",
         "Ciprofloxacina",
-        "Epinefrina"
+        "Amoxicilina oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -939,7 +939,7 @@
         "Ecografía abdominal",
         "Gammagrafía abdominal",
         "Radiografía de tórax",
-        "Faltan datos para decidir"
+        "Endoscopía digestiva alta"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -958,7 +958,7 @@
         "Déficit de Calcio",
         "Osteogénesis imperfecta",
         "Osteomalacia grave",
-        "Faltan datos para decidir"
+        "Raquitismo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Gammagrafía pulmonar",
         "TAC de tórax baritado",
         "Radiografía de tórax",
-        "Tomografía con contraste"
+        "Ecografía abdominal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -996,7 +996,7 @@
         "Expansión de volumen con solución hipertónica",
         "Sales de rehidratación oral a demanda",
         "Expansión de volumen con solución isotónica",
-        "Faltan datos para decidir"
+        "Ayuno y antiemético"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1015,7 +1015,7 @@
         "TAC cerebral",
         "Resonancia magnética cerebral",
         "Hemocultivo",
-        "Radiografía simple"
+        "Urocultivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1034,7 +1034,7 @@
         "Sordera",
         "Macrocefalia",
         "Coriorretinitis",
-        "Neumonía adquirida"
+        "Hidrocefalia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1053,7 +1053,7 @@
         "Más bajo",
         "Más alto",
         "No relacionado",
-        "Faltan datos para decidir"
+        "Varía solo por la alimentación"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1072,7 +1072,7 @@
         "Síndrome nefrítico",
         "Glomerulonefritis",
         "Insuficiencia renal",
-        "Infección del tracto urinario"
+        "Síndrome hemolítico urémico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1091,7 +1091,7 @@
         "Difenilhidantoína",
         "Fenobarbital",
         "Diazepam",
-        "Todas las anteriores"
+        "Gluconato de calcio"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1110,7 +1110,7 @@
         "Invaginación intestinal",
         "Apendicitis complicada",
         "Estenosis de píloro",
-        "Infección del tracto urinario"
+        "Enfermedad de Hirschsprung"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1129,7 +1129,7 @@
         "Hemocultivo",
         "Hemograma completo",
         "Electrolitos séricos",
-        "Todas las anteriores"
+        "TAC cerebral antes de cualquier otro estudio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1148,7 +1148,7 @@
         "Amigdalitis estreptocócica",
         "Rinitis alérgica",
         "Faringitis aguda",
-        "Apendicitis aguda"
+        "Bronquiolitis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1167,7 +1167,7 @@
         "Severa",
         "Leve",
         "Con shock",
-        "Todas las anteriores"
+        "Sin deshidratación"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1186,7 +1186,7 @@
         "Púrpura trombocitopénica idiopática",
         "Leucemia aleucémica",
         "Síndrome hemofagocítico",
-        "Hipertensión arterial"
+        "Púrpura de Henoch-Schönlein"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1205,7 +1205,7 @@
         "Bronquitis",
         "Traqueobronquitis",
         "Laringotraqueítis aguda",
-        "Síndrome de Guillain-Barré"
+        "Epiglotitis aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1224,7 +1224,7 @@
         "Quiste broncogénico",
         "Teratoma quístico",
         "Neumotórax a tensión",
-        "Insuficiencia cardíaca"
+        "Neumonía congénita"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1243,7 +1243,7 @@
         "Antidiftérica",
         "Antitetánica",
         "Anti hepatitis B",
-        "Lupus eritematoso sistémico"
+        "Antipoliomielítica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1262,7 +1262,7 @@
         "Cuerpo extraño",
         "Bronquitis",
         "Bronquiolitis",
-        "Diabetes Mellitus"
+        "Neumonía bacteriana"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1281,7 +1281,7 @@
         "Maltrato infantil",
         "Enfermedad de Kawasaki",
         "Déficit de antitrombina",
-        "Furosemida"
+        "Púrpura de Henoch-Schönlein"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1300,7 +1300,7 @@
         "Ampicilina + amikacina",
         "Vancomicina + cefotaxima",
         "Ampicilina + cefotaxima",
-        "Paracetamol"
+        "Amoxicilina oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1319,7 +1319,7 @@
         "Alimentar con sucedáneos de leche materna",
         "Incluir diariamente alimentos de origen animal",
         "Dar término a la lactancia materna",
-        "Todas las anteriores"
+        "Iniciar con leche de vaca entera"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1338,7 +1338,7 @@
         "Atresia esofágica",
         "Estenosis hipertrófica de píloro",
         "Atresia de colon distal",
-        "Insuficiencia cardíaca"
+        "Enfermedad de Hirschsprung"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1357,7 +1357,7 @@
         "Si tuvo contacto con varicela",
         "Si tiene alergia a medicamento o alimento",
         "Si tuvo contacto con garrapatas",
-        "Faltan datos para decidir"
+        "Si tuvo contacto con escarlatina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1376,7 +1376,7 @@
         "Hipoglicemia",
         "Neurosis conversiva",
         "Intoxicación por insecticidas",
-        "Apendicitis aguda"
+        "Gastroenteritis viral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1395,7 +1395,7 @@
         "Visita domiciliaria",
         "Insistir en programación mensual",
         "Referencia a tercer nivel de atención",
-        "Faltan datos para decidir"
+        "Cambiar a fórmula láctea sin evaluar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1414,7 +1414,7 @@
         "Estenosis duodenal",
         "Hipertrofia de píloro",
         "Gastrosquisis",
-        "Infección del tracto urinario"
+        "Reflujo gastroesofágico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1433,7 +1433,7 @@
         "Atípica",
         "Complicada con efusión",
         "Complicada con empiema",
-        "Todas las anteriores"
+        "Aspirativa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1452,7 +1452,7 @@
         "Epilepsia parcial continua",
         "Estatus epiléptico febril",
         "Convulsión febril compleja",
-        "Todas las anteriores"
+        "Síncope vasovagal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1471,7 +1471,7 @@
         "Ducto arterioso persistente",
         "Miocarditis viral",
         "Enfermedad de Kawasaki",
-        "Lupus eritematoso sistémico"
+        "Bronquiolitis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1490,7 +1490,7 @@
         "Amoxicilina",
         "Azitromicina",
         "Clindamicina",
-        "Metronidazol"
+        "Ceftriaxona"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1509,7 +1509,7 @@
         "Fenilalanina",
         "Tirosina",
         "Fenilacetato",
-        "Clindamicina"
+        "Lactosa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1528,7 +1528,7 @@
         "Absceso perinefrítico",
         "Peritonitis primaria",
         "Vólvulo intestinal",
-        "Síndrome de Guillain-Barré"
+        "Glomerulonefritis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1547,7 +1547,7 @@
         "Anemia megaloblástica",
         "Anemia ferropénica",
         "Anemia falciforme",
-        "Tuberculosis"
+        "Anemia aplásica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1566,7 +1566,7 @@
         "Crup viral",
         "Debut de asma bronquial",
         "Neumonía viral",
-        "Neumonía adquirida"
+        "Cuerpo extraño en vía aérea"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1585,7 +1585,7 @@
         "Atelectasia neonatal",
         "Enfermedad de membrana hialina",
         "Síndrome de aspiración de líquido meconial",
-        "Prednisona"
+        "Taquipnea transitoria del recién nacido"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1604,7 +1604,7 @@
         "Baño corporal",
         "Reposición electrolítica",
         "Prescribir antieméticos",
-        "Faltan datos para decidir"
+        "Lavado gástrico inmediato"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1623,7 +1623,7 @@
         "Antituberculosos de primera línea",
         "Antituberculosos de segunda línea",
         "Control mensual del caso sin tratamiento",
-        "Amoxicilina"
+        "Repetir el PPD en un año"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1642,7 +1642,7 @@
         "Síndrome obstructivo bronquial",
         "Bronconeumonía bacteriana",
         "Insuficiencia cardíaca congestiva",
-        "Hipertensión arterial"
+        "Anemia ferropénica severa"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1661,7 +1661,7 @@
         "Estenosis del cardias",
         "Atresia esofágica",
         "Acalasia",
-        "Sepsis"
+        "Reflujo gastroesofágico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1680,7 +1680,7 @@
         "Cereales con frutas",
         "Carnes y vísceras",
         "Frutas cítricas y verduras",
-        "Todas las anteriores"
+        "Lácteos y derivados"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1699,7 +1699,7 @@
         "Lavado gástrico",
         "Atropina",
         "N-acetilcisteína",
-        "Ketorolaco"
+        "Carbón activado como única medida"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1718,7 +1718,7 @@
         "Acidosis metabólica hipernatrémica",
         "Alcalosis metabólica hiperclorémica",
         "Alcalosis metabólica hipoclorémica",
-        "Apendicitis aguda"
+        "Acidosis respiratoria"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1737,7 +1737,7 @@
         "Comunicación interventricular",
         "Estenosis pulmonar",
         "Comunicación interauricular",
-        "Infección del tracto urinario"
+        "Neumonía neonatal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1756,7 +1756,7 @@
         "Taquipnea transitoria del recién nacido",
         "Hemorragia intraventricular",
         "Neumonía neonatal",
-        "Dexametasona"
+        "Hipoglicemia neonatal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1775,7 +1775,7 @@
         "Laringitis aguda",
         "Rinofaringitis aguda",
         "Tos ferina",
-        "Diazepam"
+        "Neumonía atípica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1794,7 +1794,7 @@
         "Comunicación interventricular",
         "Coartación de aorta",
         "Corazón izquierdo hipoplásico",
-        "Todas las anteriores"
+        "Tetralogía de Fallot"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1813,7 +1813,7 @@
         "Exanguineotransfusión",
         "Hidratación por vía endovenosa",
         "Fototerapia natural",
-        "Faltan datos para decidir"
+        "Fototerapia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1832,7 +1832,7 @@
         "Proveer calor e iniciar ventilación a presión positiva",
         "Aspirar secreciones e iniciar ventilación mecánica",
         "Proveer oxígeno al 100% con cánula nasal",
-        "Faltan datos para decidir"
+        "Administrar adrenalina endovenosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1851,7 +1851,7 @@
         "Kwashiorkor",
         "Desnutrición aguda grave",
         "Marasmo",
-        "Todas las anteriores"
+        "Desnutrición crónica leve"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1870,7 +1870,7 @@
         "Hidratación oral",
         "Adsorbentes y antisecretores",
         "Probióticos",
-        "Faltan datos para decidir"
+        "Antibiótico oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1889,7 +1889,7 @@
         "Persistencia de cloaca",
         "Fístula cutaneoperineal",
         "Defecto rectouretral",
-        "Faltan datos para decidir"
+        "Fístula rectovesical"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1908,7 +1908,7 @@
         "Hidrocefalia incipiente",
         "Hemorragia subaracnoidea",
         "Hemorragia intraventricular",
-        "Faltan datos para decidir"
+        "Hipoglicemia neonatal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1927,7 +1927,7 @@
         "Sepsis neonatal temprana",
         "Ictericia neonatal",
         "Sepsis neonatal tardía",
-        "Todas las anteriores"
+        "Ictericia por leche materna"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1946,7 +1946,7 @@
         "50 mg/m/h",
         "40 mg/m/h",
         "4 g/día",
-        "Solicitar nuevo cultivo"
+        "100 mg/m²/h"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1965,7 +1965,7 @@
         "Hepatitis neonatal tardía",
         "Anemia neonatal tardío",
         "Hipotiroidismo congénito",
-        "Cirrosis hepática"
+        "Ictericia por leche materna"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1984,7 +1984,7 @@
         "Carbón activado",
         "Corticoides endovenoso",
         "Lavado gástrico",
-        "Metronidazol"
+        "Inducción del vómito"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2003,7 +2003,7 @@
         "Tetralogía de Fallot",
         "Coartación de aorta",
         "Ductus arterioso persistente",
-        "Todas las anteriores"
+        "Transposición de grandes arterias"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2022,7 +2022,7 @@
         "Amoxicilina por 10 días",
         "Amoxicilina por 5 días",
         "Azitromicina por 5 días",
-        "Atropina"
+        "Penicilina benzatínica más azitromicina por 10 días"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2041,7 +2041,7 @@
         "Pacientes con neoplasia",
         "Inmunosuprimido",
         "Antecedente de COVID-19 severa",
-        "Ninguna de las anteriores"
+        "Asma bronquial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2060,7 +2060,7 @@
         "Sondaje vesical",
         "Orina a mitad de la micción (Chorro medio)",
         "Bolsa colectora perineal",
-        "Prednisona"
+        "Orina de la primera micción en pañal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2079,7 +2079,7 @@
         "Dextrosa 5%: 20 ml/kg EV",
         "Nacl 0.9%: 50 ml/kg en 6 horas",
         "Suero oral: 50 ml/kg en 4 horas",
-        "Suspender tratamiento"
+        "Suero oral a libre demanda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2098,7 +2098,7 @@
         "Rx a los 10 días de terapia antimicrobiana",
         "Rx antes del alta",
         "No es necesaria Rx de control",
-        "Endoscopia digestiva"
+        "Tomografía de tórax de control"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2117,7 +2117,7 @@
         "Persistencia de la comunicación interventricular",
         "Coartación de la aorta",
         "Persistencia del conducto arterioso",
-        "Ninguna de las anteriores"
+        "Tetralogía de Fallot"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2136,7 +2136,7 @@
         "Adenopatía inguinal",
         "Agenesia testicular",
         "Ectopia testicular",
-        "Faltan datos para decidir"
+        "Hernia inguinal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2155,7 +2155,7 @@
         "Resonancia magnética",
         "Ecografía transfontanelar",
         "Tomografía cerebral",
-        "Radiografía simple"
+        "Electroencefalograma"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2174,7 +2174,7 @@
         "Sarampión",
         "Varicela",
         "Eritema infeccioso",
-        "Sepsis"
+        "Rubéola"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2193,7 +2193,7 @@
         "Ventilación a presión positiva con FiO2 21%",
         "Estimulación táctil enérgica en el dorso",
         "Ventilación con bolsa y máscara FiO2 100%",
-        "Todas las anteriores"
+        "Masaje cardiaco inmediato"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2212,7 +2212,7 @@
         "Diabetes materna",
         "Madre adicta a heroína",
         "Corticoides prenatales",
-        "Diazepam"
+        "Rotura prematura de membranas prolongada"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2231,7 +2231,7 @@
         "Cefalohematoma",
         "Hemorragia subgaleal",
         "Caput succedaneum",
-        "Infección del tracto urinario"
+        "Hematoma subdural"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2250,7 +2250,7 @@
         "Neutrófilos inmaduros/totales > 0.2",
         "Velocidad de sedimentación 4 mm/h",
         "Recuento de plaquetas < 150 000 x mm3",
-        "Todas las anteriores"
+        "Bilirrubina indirecta elevada"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2269,7 +2269,7 @@
         "Epilepsia",
         "Ataxia cerebelosa",
         "Síndrome de Reye",
-        "Lupus eritematoso sistémico"
+        "Meningitis bacteriana"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2288,7 +2288,7 @@
         "Ecografía abdominal",
         "Colangiografía por RMN",
         "Biopsia dirigida",
-        "Tomografía con contraste"
+        "Dosaje de TSH"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2307,7 +2307,7 @@
         "Aplicación de nitrato de plata",
         "Aplicación de tintura de yodo y alcohol",
         "Inicio inmediato de antibioticoterapia",
-        "Paracetamol"
+        "Curación con alcohol cada 8 horas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2326,7 +2326,7 @@
         "Meningoencefalitis",
         "Hipoglicemia",
         "Sepsis",
-        "Síndrome de Guillain-Barré"
+        "Hipocalcemia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2345,7 +2345,7 @@
         "Ruptura prolongada de membranas",
         "Presencia de desaceleraciones variables",
         "Desprendimiento de placenta",
-        "Todas las anteriores"
+        "Líquido amniótico claro"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2364,7 +2364,7 @@
         "Streptococcus pneumoniae",
         "Escherichia coli",
         "Pseudomonas aeruginosa",
-        "Ninguna de las anteriores"
+        "Salmonella spp."
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2383,7 +2383,7 @@
         "Streptococcus hemolítico grupo B",
         "Haemophilus influenzae tipo B",
         "Streptococcus pneumoniae",
-        "Faltan datos para decidir"
+        "Virus sincitial respiratorio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2402,7 +2402,7 @@
         "Realizar ecografía transfontanelar",
         "Pedir glicemia y electrolitos séricos",
         "Administrar antibióticos parenterales",
-        "Ninguna de las anteriores"
+        "Esperar el hemocultivo antes de tratar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2421,7 +2421,7 @@
         "Cloranfenicol",
         "Cotrimoxazol",
         "Cefdinir",
-        "Atropina"
+        "Amoxicilina en dosis altas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2440,7 +2440,7 @@
         "Dimenhidrinato, paracetamol, Saccharomyces boulardii",
         "Compresas de agua fría, paracetamol, loperamida",
         "Coprocultivo, metoclopramida, amoxicilina",
-        "Atropina"
+        "Ayuno y antibiótico endovenoso"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2459,7 +2459,7 @@
         "Polio Inactiva (IPV)",
         "Neumococo",
         "Rotavirus",
-        "Ninguna de las anteriores"
+        "BCG"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2478,7 +2478,7 @@
         "Ceftriaxona",
         "Cotrimoxazol",
         "Cefuroxima",
-        "Ciprofloxacino"
+        "Nitrofurantoína"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2497,7 +2497,7 @@
         "Neumatocele",
         "Hipertensión pulmonar",
         "Restricción del crecimiento",
-        "Ninguna de las anteriores"
+        "Hemorragia intraventricular"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2516,7 +2516,7 @@
         "Reacción inflamatoria de la zona",
         "Anafilaxia",
         "Necrosis de la zona",
-        "Síndrome de Guillain-Barré"
+        "Celulitis secundaria"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2535,7 +2535,7 @@
         "Comunicación interauricular",
         "Comunicación auriculoventricular",
         "Comunicación interventricular",
-        "Ninguna de las anteriores"
+        "Tetralogía de Fallot"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2554,7 +2554,7 @@
         "Dentro de la primera hora",
         "Dentro de las 24 horas",
         "Entre las 6 y 12 horas",
-        "Faltan datos para decidir"
+        "Al alta hospitalaria"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2573,7 +2573,7 @@
         "Doxiciclina",
         "Ciprofloxacina",
         "Amikacina",
-        "Aspirina"
+        "Metronidazol"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2592,7 +2592,7 @@
         "Enfermedad de membrana hialina",
         "Displasia broncopulmonar",
         "Traqueomalacia",
-        "Ceftriaxona"
+        "Neumonía por aspiración"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2611,7 +2611,7 @@
         "Enterovirus",
         "Coronavirus",
         "Coxsackie",
-        "Todas las anteriores"
+        "Virus sincitial respiratorio"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2630,7 +2630,7 @@
         "Drenaje cerrado con tubo de tórax e instilar fibrinolíticos",
         "Decorticación quirúrgica",
         "Toracocentesis repetida para extraer todo el derrame posible",
-        "Hemodiálisis"
+        "Cambiar a amoxicilina oral y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2649,7 +2649,7 @@
         "Hemograma",
         "Urocultivo",
         "PCR",
-        "Todas las anteriores"
+        "Ecografía renal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2668,7 +2668,7 @@
         "Deshidratación hipernatrémica",
         "Síndrome de Cushing",
         "Diabetes insípida",
-        "Hipertensión arterial"
+        "Hipoglicemia neonatal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2687,7 +2687,7 @@
         "Administrar un ciclo prolongado de corticosteroides sistémicos para reducir la inflamación pulmonar y la dependencia de oxígeno",
         "Prescribir eritropoyetina recombinante humana para estimular la eritropoyesis y el desarrollo neurológico",
         "Monitorización estricta de la SatO₂ en el rango recomendado de 90-95% y asegurar la continuidad de los exámenes oftalmológicos",
-        "Metronidazol"
+        "Suspender los controles oftalmológicos si mejora la respiración"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2706,7 +2706,7 @@
         "Fenobarbital",
         "Difenilhidantoina",
         "Midazolam",
-        "Ketorolaco"
+        "Diazepam rectal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2725,7 +2725,7 @@
         "Enfermedad de membrana hialina",
         "Taquipnea transitoria del RN",
         "Neumomediastino",
-        "Dexametasona"
+        "Síndrome de aspiración meconial"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2744,7 +2744,7 @@
         "RM con contraste",
         "Rx de abdomen simple",
         "Ecografía abdominal",
-        "Colonoscopia"
+        "Tránsito intestinal baritado"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2763,7 +2763,7 @@
         "Gastrosquisis",
         "Hipertrofia de píloro",
         "Atresia esofágica",
-        "Faltan datos para decidir"
+        "Fístula traqueoesofágica en H aislada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2782,7 +2782,7 @@
         "Varicela",
         "Sarampión",
         "Piodermitis",
-        "Insuficiencia cardíaca"
+        "Impétigo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2801,7 +2801,7 @@
         "Rinitis vasomotora",
         "Rinosinusitis",
         "Faringitis aguda",
-        "Apendicitis aguda"
+        "Mononucleosis infecciosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2820,7 +2820,7 @@
         "Nódulos pulmonares miliares",
         "Consolidación neumónica",
         "Cavitación en el lóbulo superior",
-        "Ninguna de las anteriores"
+        "Derrame pleural masivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2839,7 +2839,7 @@
         "Revacunar de inmediato",
         "Revacunar al ingreso escolar",
         "Revacunar al año de edad",
-        "Ninguna de las anteriores"
+        "Aplicar PPD antes de revacunar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2858,7 +2858,7 @@
         "Frotis sanguíneo con tinción Gram",
         "Hemocultivo y antibiograma",
         "Mielocultivo y recuento diferencial",
-        "Faltan datos para decidir"
+        "Coprocultivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2877,7 +2877,7 @@
         "200mgr/kg glucosa EV",
         "Dar leche maternizada",
         "Solución glucosada al 5% VO",
-        "Faltan datos para decidir"
+        "Fototerapia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2896,7 +2896,7 @@
         "6 en el año bimensual",
         "4 en el primer mes y uno cada mes",
         "2 en el año cada seis meses",
-        "Faltan datos para decidir"
+        "1 al año"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2915,7 +2915,7 @@
         "Retinopatía",
         "Insuficiencia respiratoria",
         "Malabsorción intestinal",
-        "Todas las anteriores"
+        "Retinopatía del prematuro"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2934,7 +2934,7 @@
         "Hemocultivo",
         "Hemograma",
         "Recuento plaquetas",
-        "Ninguna de las anteriores"
+        "Bilirrubina sérica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2953,7 +2953,7 @@
         "Absceso retrofaríngeo",
         "Mononucleosis infecciosa",
         "Difteria",
-        "Hipertensión arterial"
+        "Faringitis viral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2972,7 +2972,7 @@
         "Ano imperforado",
         "Íleo meconial",
         "Malrotación intestinal",
-        "Insuficiencia cardíaca"
+        "Atresia de colon"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2991,7 +2991,7 @@
         "Retardo global del desarrollo",
         "Desarrollo precoz",
         "Retraso desarrollo psicomotor",
-        "Todas las anteriores"
+        "Hipotonía central"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3010,7 +3010,7 @@
         "Dextrosa 5% 15 ml/kg",
         "Dextrosa 10% 20 ml/kg",
         "Plasma fresco 10 ml/kg",
-        "Aumentar dosis"
+        "Sales de rehidratación oral a demanda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3029,7 +3029,7 @@
         "Limpieza local",
         "Nitrato de plata 10%",
         "Observación",
-        "Todas las anteriores"
+        "Antibiótico sistémico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3048,7 +3048,7 @@
         "4 ml al 10%, EV",
         "20 ml al 5%, VO",
         "3.9 ml al 5%, EV",
-        "Valores normales"
+        "40 ml al 5%, VO"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3067,7 +3067,7 @@
         "Leucocitos normales y linfocitosis",
         "Eosinofilia absoluta",
         "Leucocitosis con neutrofilia",
-        "Sepsis"
+        "Plaquetas normales"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3086,7 +3086,7 @@
         "Comunicación interauricular",
         "Comunicación interventricular",
         "Ductus aterioso permeable",
-        "Faltan datos para decidir"
+        "Coartación de aorta"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3105,7 +3105,7 @@
         "Encefalopatía hipóxico isquémica",
         "Asfixia perinatal",
         "Apnea neonatal",
-        "Ninguna de las anteriores"
+        "Hipoglicemia neonatal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3124,7 +3124,7 @@
         "Salmonella Typhimurium",
         "Shigella dysenteriae",
         "Campylobacter jejuni",
-        "Todas las anteriores"
+        "Entamoeba histolytica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3143,7 +3143,7 @@
         "Control del desarrollo",
         "Inmunización",
         "Estimulación temprana",
-        "Ceftriaxona"
+        "Vigilancia nutricional"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3162,7 +3162,7 @@
         "Examen completo de orina mayor de 5 leucocitos/campo",
         "Tinción de Gram positivo en orina no centrifugada",
         "Urocultivo por cateterismo vesical con 1000 ufc/ml",
-        "Aumentar dosis"
+        "Urocultivo por bolsa colectora con 10 000 ufc/ml"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3181,7 +3181,7 @@
         "Escherichia coli",
         "Neisseria meningitidis",
         "Streptococcus agalactiae",
-        "Faltan datos para decidir"
+        "Haemophilus influenzae"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3200,7 +3200,7 @@
         "Ampicilina",
         "Cloranfenicol",
         "Ceftriaxona",
-        "Ketorolaco"
+        "Metronidazol"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3219,7 +3219,7 @@
         "Ictericia por lactancia materna",
         "Ictericia fisiológica",
         "Hepatitis neonatal",
-        "Neumonía adquirida"
+        "Atresia de vías biliares"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3238,7 +3238,7 @@
         "9",
         "6",
         "8",
-        "Ninguna de las anteriores"
+        "10"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3257,7 +3257,7 @@
         "Tos ferina",
         "Neumonía",
         "Faringolaringitis",
-        "Ketorolaco"
+        "Laringotraqueobronquitis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3276,7 +3276,7 @@
         "C",
         "B",
         "A",
-        "Faltan datos para decidir"
+        "D"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3295,7 +3295,7 @@
         "La dosis faltante de pentavalente y de rotavirus",
         "Iniciar nuevo esquema completo",
         "Solamente la dosis faltante de rotavirus",
-        "Valores normales"
+        "Solo la dosis faltante de rotavirus"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3314,7 +3314,7 @@
         "Ampicilina + gentamicina",
         "Penicilina + ciprofloxacino",
         "Oxacilina + ceftazidima",
-        "Epinefrina"
+        "Azitromicina + metronidazol"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3333,7 +3333,7 @@
         "Simeticona vía oral",
         "Profilaxis antibiótica",
         "Suspender la vía oral",
-        "Todas las anteriores"
+        "Alimentar con fórmula espesada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3352,7 +3352,7 @@
         "Colonoscopia",
         "Colon con enema",
         "Laparotomía exploratoria",
-        "Todas las anteriores"
+        "Observación y analgesia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3371,7 +3371,7 @@
         "C",
         "E",
         "A",
-        "Faltan datos para decidir"
+        "B12"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3390,7 +3390,7 @@
         "Hepatoprotectores y fitomenadiona",
         "Hidratación y sintomáticos",
         "Administrar interferón gamma a dosis terapéutica",
-        "Aumentar dosis"
+        "Corticoides sistémicos"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3409,7 +3409,7 @@
         "Interconsulta a neurología",
         "Administración de anticonvulsivantes",
         "Realizar electroencefalograma",
-        "Todas las anteriores"
+        "Diazepam endovenoso de rutina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3428,7 +3428,7 @@
         "Retraso secundario a problemas del uraco",
         "Retraso de caída del cordón sin patología asociada",
         "Retraso por defecto congénito de la adhesividad leucocitaria",
-        "Faltan datos para decidir"
+        "Onfalitis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3447,7 +3447,7 @@
         "Campylobacter",
         "Rotavirus",
         "Shigella",
-        "Todas las anteriores"
+        "Escherichia coli enterohemorrágica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3466,7 +3466,7 @@
         "RX de enema con aire o contraste",
         "Resonancia magnética abdominal",
         "TAC abdominal sin contraste",
-        "Radiografía simple"
+        "Ecografía doppler testicular"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3485,7 +3485,7 @@
         "Recaída parcial",
         "Corticodependencia",
         "Córtico-resistencia",
-        "Todas las anteriores"
+        "Recaída infrecuente"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3504,7 +3504,7 @@
         "Síndrome de Marfán",
         "Osteogénesis imperfecta",
         "Artrogriposis",
-        "Insulina"
+        "Raquitismo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3523,7 +3523,7 @@
         "Intolerancia a la lactosa",
         "Enterocolitis necrotizante",
         "Atresia duodenal",
-        "Apendicitis aguda"
+        "Hirschsprung"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3542,7 +3542,7 @@
         "Radiografía de tórax",
         "Hemograma",
         "Hemocultivo",
-        "Todas las anteriores"
+        "Ecografía pulmonar de rutina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3561,7 +3561,7 @@
         "Uno",
         "Tres",
         "Cuatro",
-        "Ninguna de las anteriores"
+        "Seis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3580,7 +3580,7 @@
         "Coagulación intravascular diseminada",
         "Hemofilia",
         "Déficit de Proteína C",
-        "Diazepam"
+        "Púrpura trombocitopénica inmune"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3599,7 +3599,7 @@
         "Reevaluar a las 24 horas",
         "Anorrectoplastia sagital",
         "Realizar fistulografía",
-        "Todas las anteriores"
+        "Enema con contraste"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3618,7 +3618,7 @@
         "Calcular el déficit de electrolitos para su reposición",
         "Administrar antibióticos de amplio espectro",
         "Administrar diuréticos para eliminar exceso de sodio",
-        "Todas las anteriores"
+        "Corregir el sodio en menos de 6 horas"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3637,7 +3637,7 @@
         "Rehidratación por sonda nasogástrica",
         "Rehidratación endovenosa",
         "Reposición de las pérdidas",
-        "Todas las anteriores"
+        "Ayuno y antiemético"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3656,7 +3656,7 @@
         "Amebiasis",
         "Giardiasis",
         "Shigellosis",
-        "Síndrome de Guillain-Barré"
+        "Rotavirus"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3675,7 +3675,7 @@
         "2.5",
         "1",
         "3",
-        "Faltan datos para decidir"
+        "1.5"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3694,7 +3694,7 @@
         "4",
         "2",
         "1",
-        "Todas las anteriores"
+        "10"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3713,7 +3713,7 @@
         "Clorfeniramina",
         "Dexametasona",
         "Salbutamol",
-        "Aspirina"
+        "Loratadina oral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3732,7 +3732,7 @@
         "Marasmo",
         "Desnutrición crónica",
         "Desnutrición aguda",
-        "Ninguna de las anteriores"
+        "Obesidad"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3751,7 +3751,7 @@
         "21",
         "13",
         "18",
-        "Todas las anteriores"
+        "Monosomía X"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3770,7 +3770,7 @@
         "Transitorio precoz",
         "Persistente",
         "Inicio intermedio",
-        "Ninguna de las anteriores"
+        "Sibilancias por reflujo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3789,7 +3789,7 @@
         "Hospitalización para monitoreo e hidratación",
         "Alta con salbutamol inhalado y control en 24 horas",
         "Hospitalización para inicio de antibióticos",
-        "Hospitalización en UCI"
+        "Alta con antibiótico oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3808,7 +3808,7 @@
         "Apendicitis aguda",
         "Torsión testicular",
         "Adenitis mesentérica",
-        "Neumonía adquirida"
+        "Gastroenteritis aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3827,7 +3827,7 @@
         "Comunicación interauricular",
         "Transposición de grandes vasos",
         "Tetralogía de Fallot",
-        "Todas las anteriores"
+        "Coartación de aorta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3846,7 +3846,7 @@
         "Neumonía viral",
         "Bronquiolitis aguda",
         "Bronquitis aguda",
-        "Hipertensión arterial"
+        "Laringotraqueítis"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3865,7 +3865,7 @@
         "Adrenalina EV solución 1:10 000",
         "Intubación endotraqueal",
         "Aumentar con FiO2 al 100%",
-        "Ciprofloxacino"
+        "Masaje cardiaco"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3884,7 +3884,7 @@
         "Estado hipovolémico",
         "Estrés por calor ambiental",
         "Vacuna contra la Influenza",
-        "Diazepam"
+        "Uso de hierro profiláctico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -3903,7 +3903,7 @@
         "NaCl 0.9% 10 ml/kg, repetir los bolos durante dos veces",
         "Lactato Ringer 30 ml/kg en 0.5 hora, 70 ml/kg para 2.5 horas",
         "Lactato Ringer 30 ml/kg en 1 hora y 70 ml/kg en 5 horas",
-        "Solicitar nuevo cultivo"
+        "Suero oral a demanda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3922,7 +3922,7 @@
         "Solicitar recuento de linfocitos CD4.",
         "Iniciar TAR sólo si está sintomático.",
         "Programar TAR al año de edad.",
-        "Faltan datos para decidir"
+        "Esperar a los 18 meses para confirmar con ELISA"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -3941,7 +3941,7 @@
         "5",
         "14",
         "21",
-        "Ninguna de las anteriores"
+        "10"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3960,7 +3960,7 @@
         "18",
         "12",
         "6",
-        "Ninguna de las anteriores"
+        "48"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -3979,7 +3979,7 @@
         "Volumen corpuscular medio",
         "Ferritina sérica",
         "Saturación de transferrina",
-        "Amoxicilina"
+        "Hemoglobina glicosilada"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -3998,7 +3998,7 @@
         "Comunicación interventricular",
         "Estenosis pulmonar",
         "Tetralogía de Fallot",
-        "Infección del tracto urinario"
+        "Transposición de grandes arterias"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4017,7 +4017,7 @@
         "Cloramfenicol EV por 7 dias",
         "Ampicilina + amikacina EV por 7 días",
         "Amikacina IM por 3 días",
-        "Azitromicina"
+        "Nitrofurantoína oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4036,7 +4036,7 @@
         "MAV pulmonar",
         "Proteinosis alveolar",
         "Asma bronquial",
-        "Apendicitis aguda"
+        "Cuerpo extraño bronquial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4055,7 +4055,7 @@
         "Hemorragia intraventricular",
         "Sepsis neonatal tardía",
         "Anemia del prematuro",
-        "Ninguna de las anteriores"
+        "Enterocolitis necrotizante"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4074,7 +4074,7 @@
         "Haemophilus influenzae",
         "Klebsiella pneumoniae",
         "Moraxella catarrhalis",
-        "Ninguna de las anteriores"
+        "Mycoplasma pneumoniae"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4093,7 +4093,7 @@
         "Tomar EEG",
         "Realizar TC cerebral",
         "Realizar punción lumbar",
-        "Todas las anteriores"
+        "Indicar antipirético y alta"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4112,7 +4112,7 @@
         "Ambroxol",
         "Codeína",
         "Ibuprofeno",
-        "Paracetamol"
+        "Clorfenamina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4131,7 +4131,7 @@
         "Distributivo",
         "Obstructivo",
         "Cardiogénico",
-        "Faltan datos para decidir"
+        "Neurogénico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4150,7 +4150,7 @@
         "Deshidratación hipernatrémica",
         "Sepsis precoz",
         "Pérdida de peso fisiológica",
-        "Todas las anteriores"
+        "Hipotiroidismo congénito"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4169,7 +4169,7 @@
         "Metronidazol",
         "Praziquantel",
         "Albendazol",
-        "Insulina"
+        "Ivermectina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4188,7 +4188,7 @@
         "Antibioticoterapia",
         "Hipotermia terapéutica",
         "Monitoreo electroencefalográfico",
-        "Faltan datos para decidir"
+        "Fototerapia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4207,7 +4207,7 @@
         "Eritropoyetina",
         "Hierro polimaltosado",
         "Ácido fólico",
-        "Dexametasona"
+        "Vitamina C"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4226,7 +4226,7 @@
         "Esclerosis focal",
         "Segmentaria",
         "De cambios mínimos",
-        "Hipertensión arterial"
+        "Mesangial por IgA"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4245,7 +4245,7 @@
         "Campylobacter jejuni",
         "Shigella dysenteriae",
         "Yersinia enterocolítica",
-        "Faltan datos para decidir"
+        "Rotavirus"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4264,7 +4264,7 @@
         "14",
         "5",
         "10",
-        "Ninguna de las anteriores"
+        "3"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4283,7 +4283,7 @@
         "Hiperinsulinismo fetal",
         "Hipotrofia de celulas B pancreáticas",
         "Glucógeno disminuido",
-        "Todas las anteriores"
+        "Insuficiencia suprarrenal neonatal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4302,7 +4302,7 @@
         "Gasto pulmonar/Gasto sistémico mayor a 1",
         "Cortocircuito de derecha a izquierda",
         "Hipoflujo pulmonar",
-        "Todas las anteriores"
+        "Obstrucción al tracto de salida izquierdo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4321,7 +4321,7 @@
         "Urticaria inducida por infecciones",
         "Intolerancia transitoria a la lactosa",
         "Urticaria por picadura de insectos",
-        "Todas las anteriores"
+        "Dermatitis atópica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4340,7 +4340,7 @@
         "Esofagitis por reflujo",
         "Atresia de esófago",
         "Acalasia de esófago",
-        "Infección del tracto urinario"
+        "Hernia hiatal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4359,7 +4359,7 @@
         "Atropina",
         "Antitusígeno",
         "Faboterapia",
-        "Epinefrina"
+        "Corticoides endovenosos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4378,7 +4378,7 @@
         "Esperar hasta los 12 meses para iniciar TARV",
         "El inicio de TARV está condicionado a los síntomas clínicos",
         "El inicio de TARV está condicionado al estado inmune",
-        "Ninguna de las anteriores"
+        "Repetir la PCR a los 6 meses"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4397,7 +4397,7 @@
         "Suspender la lactancia materna",
         "Exanguineotransfusión",
         "Observación",
-        "Faltan datos para decidir"
+        "Fenobarbital"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4416,7 +4416,7 @@
         "Osteogénesis imperfecta",
         "Hipofosfatasia",
         "Déficit de vitamina C",
-        "Clindamicina"
+        "Escorbuto"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4435,7 +4435,7 @@
         "Dexametasona intramuscular y observación 6 horas",
         "Adrenalina nebulizada y hospitalización",
         "Dexametasona vía oral y manejo ambulatorio",
-        "Aislamiento estricto"
+        "Intubación orotraqueal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -4454,7 +4454,7 @@
         "Pasar a cuidados de rutina y reevaluar luego del periodo de adaptación",
         "Iniciar Ventilación a Presión Positiva",
         "Continuar con secado y estimulación de mayor intensidad",
-        "Ketorolaco"
+        "Masaje cardiaco"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4473,7 +4473,7 @@
         "Iniciar aciclovir intravenoso y soporte respiratorio",
         "Manejo sintomático con hidratación y antipiréticos",
         "Indicar antibiótico oral y continuar manejo ambulatorio",
-        "Observación clínica"
+        "Antibiótico tópico en las lesiones"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -4492,7 +4492,7 @@
         "Cefalexina",
         "Albendazol",
         "Piperazina",
-        "Diazepam"
+        "Nistatina tópica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -4511,7 +4511,7 @@
         "Sarampión",
         "Varicela",
         "Enfermedad de Kawasaki",
-        "Asma bronquial"
+        "Escarlatina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4530,7 +4530,7 @@
         "Uso de surfactante exógeno",
         "Infección bacteriana neonatal",
         "Prematuridad tardía",
-        "Ninguna de las anteriores"
+        "Sexo femenino"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4549,7 +4549,7 @@
         "Incremento del aporte de leche con fórmula",
         "Mastitis que requiere hospitalización",
         "Trastorno neurológico en el neonato",
-        "Infección del tracto urinario"
+        "Uso de chupón para calmarlo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -4568,7 +4568,7 @@
         "Riñón en herradura",
         "Atresia de esófago",
         "Síndrome de Potter",
-        "Síndrome de Guillain-Barré"
+        "Ano imperforado"
       ],
       "correcta": 2,
       "clave_correcta": "C",

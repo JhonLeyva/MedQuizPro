@@ -28,7 +28,7 @@
         "Artrosis de rodillas",
         "Polineuropatía diabética",
         "Gota aguda",
-        "Cirrosis hepática"
+        "Miopatía hipotiroidea"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -48,7 +48,7 @@
         "Flumazenilo",
         "Epinefrina",
         "Atropina sulfato",
-        "Ceftriaxona"
+        "Naloxona"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -68,7 +68,7 @@
         "Intoxicación por alcohol metílico",
         "Neumonía aspirativa",
         "Estado postictal",
-        "Ciprofloxacino"
+        "Cetoacidosis alcohólica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -88,7 +88,7 @@
         "Célula plasmática",
         "Linfocito T",
         "Mastocito",
-        "Todas las anteriores"
+        "Neutrófilo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -108,7 +108,7 @@
         "Incremento de fracción de eyección",
         "Aumento de la resistencia periférica",
         "Disminución de la frecuencia cardíaca",
-        "Faltan datos para decidir"
+        "Aumento del volumen sanguíneo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -128,7 +128,7 @@
         "Oxidación de cuerpos cetónicos",
         "Ciclo de Krebs",
         "Degradación de glucógeno",
-        "Todas las anteriores"
+        "Ciclo de la urea"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -148,7 +148,7 @@
         "Ácido acetil salicílico",
         "Naproxeno",
         "Acetaminofén",
-        "Todas las anteriores"
+        "Ibuprofeno"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -168,7 +168,7 @@
         "Mórula",
         "Cigoto",
         "Blastómero",
-        "Todas las anteriores"
+        "Gástrula"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -188,7 +188,7 @@
         "Dopamina",
         "Clorfeniramina",
         "Hielo local",
-        "Azitromicina"
+        "Hidrocortisona endovenosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -208,7 +208,7 @@
         "Cloroprocaína",
         "Procaína",
         "Bupivacaína",
-        "Faltan datos para decidir"
+        "Mepivacaína"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -228,7 +228,7 @@
         "Es inhibidora de la ciprofloxacina",
         "Es inhibidora de la P450",
         "Disminuye su concentración por la ciprofloxacina",
-        "Ciprofloxacino"
+        "Induce el citocromo P450"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -248,7 +248,7 @@
         "Cisteína",
         "Ácido hialurónico",
         "Ácido linoleico",
-        "Ketorolaco"
+        "Colesterol"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -268,7 +268,7 @@
         "Elástica externa",
         "Íntima",
         "Media",
-        "Todas las anteriores"
+        "Todas las capas por igual"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -288,7 +288,7 @@
         "Taquipnea",
         "Taquicardia sinusal",
         "Aumento de la retención de sodio",
-        "Todas las anteriores"
+        "Liberación de aldosterona"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -308,7 +308,7 @@
         "Organofosforado",
         "Marihuana",
         "Cocaína",
-        "Dexametasona"
+        "Etanol"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -328,7 +328,7 @@
         "Mutación que alteran los controles de regulación",
         "Inactivación del gen supresor",
         "Implica variaciones en la secuencia de ARN",
-        "Ninguna de las anteriores"
+        "Aumento del volumen celular por edema"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -348,7 +348,7 @@
         "Efectividad",
         "Potencia farmacológica",
         "Eficacia",
-        "Todas las anteriores"
+        "Eficiencia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -368,7 +368,7 @@
         "Ezetimiba",
         "Atorvastatina",
         "Levotiroxina",
-        "Amoxicilina"
+        "Fenofibrato"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -388,7 +388,7 @@
         "Tiroaritenoideo",
         "Ariaritenoideo",
         "Estilofaríngeo",
-        "Ninguna de las anteriores"
+        "Cricotiroideo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -408,7 +408,7 @@
         "Flumazenil",
         "Nitrito de amilo",
         "Dimercaprol",
-        "Aspirina"
+        "Naloxona"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -428,7 +428,7 @@
         "Antidepresivos",
         "Morfina",
         "Benzodiacepinas",
-        "Diazepam"
+        "Cocaína"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -448,7 +448,7 @@
         "Intubación endotraqueal",
         "Oxígeno al 100%",
         "Ventilación a alto flujo a 30 lt/min",
-        "Todas las anteriores"
+        "Hiperventilación con aire ambiental"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -468,7 +468,7 @@
         "Carbamato",
         "Cianuro",
         "Benzodiacepina",
-        "Amoxicilina"
+        "Opioide"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -488,7 +488,7 @@
         "Síntesis de la VLDL",
         "Receptor de LDL",
         "Esterificación del colesterol",
-        "Atropina"
+        "Lipoproteína lipasa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -508,7 +508,7 @@
         "Sobredosis de cafeína",
         "Ataque de pánico",
         "Ansiedad extrema",
-        "Síndrome de Guillain-Barré"
+        "Intoxicación por etanol"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -528,7 +528,7 @@
         "Hipoxemia leve con hipoxia por disociación O2Hb",
         "Hiperoxemia con hipoxia tisular por disociación O2Hb",
         "Hipoxemia moderada con hipoxia por disociación O2Hb",
-        "Todas las anteriores"
+        "Normoxemia sin hipoxia tisular"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -548,7 +548,7 @@
         "Fluidoterapia enérgica, bicarbonato IV más diuréticos",
         "Estabilización con medidas de soporte más hemodiálisis de urgencia",
         "Ventilación mecánica, fluidoterapia enérgica y diuréticos",
-        "Todas las anteriores"
+        "Diuréticos y observación sin diálisis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -568,7 +568,7 @@
         "Conjugación con nucleótidos",
         "Hidroxilación enzimática",
         "Esterificación con glicerol",
-        "Amoxicilina"
+        "Excreción directa sin cambios"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -588,7 +588,7 @@
         "Testoterona",
         "Sildenafilo",
         "Alprostadilo",
-        "Ceftriaxona"
+        "Tadalafilo en dosis baja"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -628,7 +628,7 @@
         "Dentro del conducto femoral",
         "Directamente medial al nervio femoral",
         "Lateral a la arteria femoral",
-        "Todas las anteriores"
+        "Lateral al nervio femoral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -648,7 +648,7 @@
         "Yuxtaglomerulares",
         "Mesangiales",
         "Intersticiales",
-        "Faltan datos para decidir"
+        "Intercaladas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -668,7 +668,7 @@
         "Hiperglicemia",
         "Hipercloremia",
         "Hipofosfatemia",
-        "Ninguna de las anteriores"
+        "Hipercalcemia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -688,7 +688,7 @@
         "Ácido fólico",
         "Cianocobalamina",
         "Piridoxina",
-        "Ciprofloxacino"
+        "Vitamina K"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -708,7 +708,7 @@
         "Acidosis respiratoria",
         "Alcalosis respiratoria",
         "Alcalosis metabólica",
-        "Sepsis"
+        "Normal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -728,7 +728,7 @@
         "Activación alfa-2",
         "Bloqueo alfa-1",
         "Bloqueo beta-2",
-        "Todas las anteriores"
+        "Bloqueo beta-1"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -748,7 +748,7 @@
         "Prednisona",
         "Fenoterol",
         "Bromuro de ipratropio",
-        "Tramadol"
+        "Montelukast"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -788,7 +788,7 @@
         "Palatogloso",
         "Geniogloso",
         "Hiogloso",
-        "Todas las anteriores"
+        "Milohioideo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -808,7 +808,7 @@
         "Nitrofurantoina",
         "Cotrimoxazol",
         "Levofloxacina",
-        "Prednisona"
+        "Fosfomicina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -828,7 +828,7 @@
         "Ácido ascórbico",
         "Selenio",
         "Zinc",
-        "Ceftriaxona"
+        "Tiamina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -848,7 +848,7 @@
         "Femoral",
         "Tibial",
         "Sural",
-        "Faltan datos para decidir"
+        "Obturador"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -868,7 +868,7 @@
         "Noradrenalina y Acetilcolina",
         "Noradrenalina y Adrenalina",
         "Dopamina y Serotonina",
-        "Omeprazol"
+        "Histamina y bradicinina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -888,7 +888,7 @@
         "Disminución de la motilidad intestinal",
         "Aumento del metabolismo basal",
         "Disminución del gasto cardíaco",
-        "Clindamicina"
+        "Disminución del consumo de oxígeno"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -908,7 +908,7 @@
         "Metanefro",
         "Mesonefro",
         "Mesodermo",
-        "Ninguna de las anteriores"
+        "Seno urogenital"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -928,7 +928,7 @@
         "Gastroenterocolitis",
         "Intoxicación por plomo",
         "Enfermedad de Reiter",
-        "Prednisona"
+        "Intoxicación por mercurio"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -948,7 +948,7 @@
         "Síndrome serotoninérgico",
         "Respuesta muscarínica",
         "Inhibición de la acetilcolinesterasa",
-        "Infección del tracto urinario"
+        "Síndrome neuroléptico maligno"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -968,7 +968,7 @@
         "Tityus trivittatus",
         "Alacrán chamuco",
         "Loxosceles laeta",
-        "Tramadol"
+        "Bothrops atrox"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -988,7 +988,7 @@
         "Embrionario",
         "Preimplantación",
         "Teratogénico",
-        "Todas las anteriores"
+        "Perinatal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1008,7 +1008,7 @@
         "Betabloqueantes",
         "Neurolépticos",
         "Naloxona",
-        "Todas las anteriores"
+        "Flumazenilo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1028,7 +1028,7 @@
         "Metotrexato / Neumonitis aguda",
         "Antraciclinas / Cardiotoxicidad",
         "Ciclofosfamida / Pancreatitis",
-        "Lupus eritematoso sistémico"
+        "Vincristina / Fibrosis pulmonar"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1048,7 +1048,7 @@
         "Alta liposolubilidad",
         "Buena fijación a proteínas plasmáticas",
         "Afinidad a receptores diana",
-        "Derivación a especialista"
+        "Alto peso molecular"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1068,7 +1068,7 @@
         "Diazepam",
         "Cocaína",
         "Haloperidol",
-        "Paracetamol"
+        "Etanol"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1088,7 +1088,7 @@
         "B1",
         "B6",
         "K",
-        "Faltan datos para decidir"
+        "B12"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1108,7 +1108,7 @@
         "Loxocelismo",
         "Escorpionismo",
         "Lactrodectismo",
-        "Insuficiencia cardíaca"
+        "Ofidismo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1128,7 +1128,7 @@
         "Neuroblastos",
         "Stem cell",
         "Neuroepiteliales",
-        "Todas las anteriores"
+        "Fibroblastos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1148,7 +1148,7 @@
         "Carbamatos",
         "Benzodiacepinas",
         "Fenitoína",
-        "Ninguna de las anteriores"
+        "Paracetamol"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1168,7 +1168,7 @@
         "Pasiva",
         "Activa",
         "Heterógrada",
-        "Faltan datos para decidir"
+        "Innata"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1188,7 +1188,7 @@
         "Neumocito tipo II",
         "Neumocito tipo I",
         "Célula en cepillo",
-        "Todas las anteriores"
+        "Célula de Clara"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1208,7 +1208,7 @@
         "Flumazenilo",
         "Atropina",
         "Vitamina K",
-        "Ciprofloxacino"
+        "Fisostigmina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1228,7 +1228,7 @@
         "Delante-detrás",
         "Arriba-detrás",
         "Debajo – delante",
-        "Todas las anteriores"
+        "Arriba-delante"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1248,7 +1248,7 @@
         "Pulmón izquierdo",
         "Pulmón derecho",
         "Carina traqueal",
-        "Diazepam"
+        "Lóbulo medio derecho"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1268,7 +1268,7 @@
         "Haz espinoso de la médula espinal",
         "Nervio hipogloso intracraneal",
         "Bulbo raquídeo y protuberancia",
-        "Faltan datos para decidir"
+        "Hipotálamo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1288,7 +1288,7 @@
         "Volumen tidal",
         "Capacidad vital",
         "Espacio muerto",
-        "Ninguna de las anteriores"
+        "Volumen de reserva inspiratoria"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1308,7 +1308,7 @@
         "Reserva espiratoria + volumen residual",
         "Volumen residual + volumen de reserva inspiratoria",
         "Volumen residual + volumen inspiratorio",
-        "Todas las anteriores"
+        "Capacidad residual funcional"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1328,7 +1328,7 @@
         "Menor porque el oxígeno es menos soluble",
         "Mayor porque es alta su gradiente de presión",
         "Básicamente es igual",
-        "Hospitalización en UCI"
+        "Mayor porque el oxígeno es más soluble"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1348,7 +1348,7 @@
         "Conducto eyaculador",
         "Vesícula seminal",
         "Conducto deferente",
-        "Todas las anteriores"
+        "Próstata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1368,7 +1368,7 @@
         "Ingesta excesiva de alimentos grasos",
         "Excesiva dosis de metronidazol",
         "Toxicidad por alcohol",
-        "Valores normales"
+        "Reacción alérgica al metronidazol"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1388,7 +1388,7 @@
         "Tiamina",
         "Piridoxina",
         "Niacina",
-        "Omeprazol"
+        "Cianocobalamina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1408,7 +1408,7 @@
         "Disminución de secreción de FSH",
         "Disminución de la secreción de prolactina",
         "Aumento de la secreción de vasopresina",
-        "Atropina"
+        "Aumento de la secreción de estrógenos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1428,7 +1428,7 @@
         "Cetoacidosis diabética",
         "Intoxicación por metformina",
         "Acidosis láctica",
-        "Paracetamol"
+        "Intoxicación por etilenglicol"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1448,7 +1448,7 @@
         "Ácido sulfhídrico",
         "Monóxido de carbono",
         "Ácido fluorhídrico",
-        "Faltan datos para decidir"
+        "Metano"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1468,7 +1468,7 @@
         "Oxígeno al 100%",
         "Oxígeno hiperbárico",
         "Tiosulfato de sodio",
-        "Faltan datos para decidir"
+        "Azul de metileno"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1488,7 +1488,7 @@
         "Desmina y distrofina.",
         "Actina y miosina.",
         "Citoqueratina y nebulina.",
-        "Epinefrina"
+        "Colágeno tipo I y fibronectina."
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1508,7 +1508,7 @@
         "Reducción de la glicólisis",
         "Reducción de la glucogenólisis",
         "Activación de la glucogenosíntesis",
-        "Todas las anteriores"
+        "Activación de la lipogénesis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1528,7 +1528,7 @@
         "Radial",
         "Mediano",
         "Cubital",
-        "Ninguna de las anteriores"
+        "Axilar"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1548,7 +1548,7 @@
         "Lipasa",
         "Elastasa",
         "Tripsina",
-        "Ibuprofeno"
+        "Amilasa salival"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1568,7 +1568,7 @@
         "Oxigenasas",
         "Hidroperoxidasas",
         "Deshidrogenasas",
-        "Todas las anteriores"
+        "Transaminasas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1588,7 +1588,7 @@
         "Fibrocito",
         "Miofibroblasto",
         "Fibroblasto",
-        "Clindamicina"
+        "Neutrófilo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1608,7 +1608,7 @@
         "Hidrocortisona",
         "Benzodiazepina",
         "Oxígeno",
-        "Ceftriaxona"
+        "Adrenalina intramuscular"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1628,7 +1628,7 @@
         "Ceftriaxona",
         "Amikacina",
         "Ampicilina",
-        "Paracetamol"
+        "Cotrimoxazol"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1648,7 +1648,7 @@
         "II",
         "III",
         "I",
-        "Faltan datos para decidir"
+        "V"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1668,7 +1668,7 @@
         "Hidratación enérgica",
         "Corticoides",
         "Transfusión sanguínea",
-        "Metronidazol"
+        "Diuréticos de asa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1688,7 +1688,7 @@
         "Osteocitos",
         "Osteoclastos",
         "Osteoblastos",
-        "Ninguna de las anteriores"
+        "Macrófagos espumosos"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1708,7 +1708,7 @@
         "Mioglobinuria",
         "Hematuria",
         "Ácido α aminolevulínico",
-        "Clindamicina"
+        "Porfiria aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1728,7 +1728,7 @@
         "Administración de flumazenil",
         "Realización de hemoglucotest",
         "Protección de la vía aérea",
-        "Ninguna de las anteriores"
+        "Lavado gástrico inmediato"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1768,7 +1768,7 @@
         "Activa la antitrombina III",
         "Inhibe el factor Xa",
         "Inhibe la vitamina K",
-        "Ciprofloxacino"
+        "Inhibe directamente la trombina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1788,7 +1788,7 @@
         "Aumento moderado",
         "Disminuida",
         "Normal",
-        "Todas las anteriores"
+        "Variable, sin relación con el ayuno"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1808,7 +1808,7 @@
         "Aparición de los tractos motores descendentes principales",
         "Mielinización de los tractos corticoespinales",
         "Mielinización de fibras nerviosas de la médula espinal",
-        "Todas las anteriores"
+        "Maduración de la corteza prefrontal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1828,7 +1828,7 @@
         "Volumen de distribución",
         "Velocidad de absorción",
         "Metabolismo total",
-        "Ninguna de las anteriores"
+        "Mecanismo de acción en el receptor"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1887,13 +1887,13 @@
         "Receptor de las células T",
         "Clase I del complejo mayor de histocompatibilidad",
         "Clase II del complejo mayor de histocompatibilidad",
-        "A y C",
-        "Ninguna anterior"
+        "CD4",
+        "Integrina LFA-1"
       ],
       "correcta": 4,
       "clave_correcta": "E",
-      "explicacion": "La superfamilia de las inmunoglobulinas agrupa a las proteínas que tienen al menos un dominio de tipo inmunoglobulina: unos 110 aminoácidos plegados en dos láminas beta unidas por un puente disulfuro. Pertenecen a ella las inmunoglobulinas, el receptor de la célula T (TCR), las moléculas MHC de clase I y de clase II, CD4, CD8, CD2, CD28, las moléculas de adhesión ICAM y VCAM y varios receptores Fc. Por eso las opciones A, B y C son miembros, y también lo es la combinación D. Ninguna de las opciones deja de pertenecer a la superfamilia. Dato útil: en cambio, las integrinas y las selectinas no pertenecen a ella; son otras familias de moléculas de adhesión.",
-      "comentario": "La superfamilia de las inmunoglobulinas agrupa a las proteínas que tienen al menos un dominio de tipo inmunoglobulina: unos 110 aminoácidos plegados en dos láminas beta unidas por un puente disulfuro. Pertenecen a ella las inmunoglobulinas, el receptor de la célula T (TCR), las moléculas MHC de clase I y de clase II, CD4, CD8, CD2, CD28, las moléculas de adhesión ICAM y VCAM y varios receptores Fc. Por eso las opciones A, B y C son miembros, y también lo es la combinación D. Ninguna de las opciones deja de pertenecer a la superfamilia. Dato útil: en cambio, las integrinas y las selectinas no pertenecen a ella; son otras familias de moléculas de adhesión.",
+      "explicacion": "La superfamilia de las inmunoglobulinas agrupa a las proteínas que tienen al menos un dominio de tipo inmunoglobulina: unos 110 aminoácidos plegados en dos láminas beta unidas por un puente disulfuro. Pertenecen a ella las inmunoglobulinas, el receptor de la célula T (TCR), las moléculas MHC de clase I y de clase II, CD4, CD8, CD2, CD28, las moléculas de adhesión ICAM y VCAM y varios receptores Fc. Por eso A, B, C y D (CD4) son miembros. La integrina LFA-1 (CD11a/CD18) no lo es: las integrinas forman otra familia de moléculas de adhesión, igual que las selectinas. Dato útil: LFA-1 se une a ICAM-1, que sí pertenece a la superfamilia.",
+      "comentario": "La superfamilia de las inmunoglobulinas agrupa a las proteínas que tienen al menos un dominio de tipo inmunoglobulina: unos 110 aminoácidos plegados en dos láminas beta unidas por un puente disulfuro. Pertenecen a ella las inmunoglobulinas, el receptor de la célula T (TCR), las moléculas MHC de clase I y de clase II, CD4, CD8, CD2, CD28, las moléculas de adhesión ICAM y VCAM y varios receptores Fc. Por eso A, B, C y D (CD4) son miembros. La integrina LFA-1 (CD11a/CD18) no lo es: las integrinas forman otra familia de moléculas de adhesión, igual que las selectinas. Dato útil: LFA-1 se une a ICAM-1, que sí pertenece a la superfamilia.",
       "tema": "Superfamilia de las inmunoglobulinas: incluye TCR y MHC I y II",
       "categoria": "Microbiología e Inmunología",
       "año": 2019
@@ -1908,12 +1908,12 @@
         "La idiosincrasia consiste en una respuesta muy exagerada de un individuo a la dosis ordinaria de un medicamento; se trata de una desviación cuantitativa de la respuesta anormal",
         "La idiosincrasia tiene origen inmunológico",
         "La tolerancia es una resistencia exagerada del individuo, de carácter pasajero a responder a la dosis ordinaria de la droga",
-        "Ninguna anterior"
+        "La taquifilaxia es la disminución rápida del efecto tras dosis repetidas en poco tiempo"
       ],
       "correcta": 4,
       "clave_correcta": "E",
-      "explicacion": "Hay que ubicar bien cada término. La intolerancia es una reacción exagerada a una dosis habitual: la diferencia con lo normal es de cantidad, no de tipo. La idiosincrasia es una reacción cualitativamente distinta a lo esperado, de origen genético, sin intervención inmunológica; por ejemplo, la hemólisis por primaquina en el déficit de G6PD. La tolerancia es la disminución del efecto con el uso repetido, que obliga a subir la dosis; no es pasajera ni congénita. Así, A atribuye a la intolerancia la definición de idiosincrasia; B atribuye a la idiosincrasia la de intolerancia; C es falsa porque la reacción inmunológica es la alergia, y D describe mal la tolerancia. Ninguna afirmación es correcta.",
-      "comentario": "Hay que ubicar bien cada término. La intolerancia es una reacción exagerada a una dosis habitual: la diferencia con lo normal es de cantidad, no de tipo. La idiosincrasia es una reacción cualitativamente distinta a lo esperado, de origen genético, sin intervención inmunológica; por ejemplo, la hemólisis por primaquina en el déficit de G6PD. La tolerancia es la disminución del efecto con el uso repetido, que obliga a subir la dosis; no es pasajera ni congénita. Así, A atribuye a la intolerancia la definición de idiosincrasia; B atribuye a la idiosincrasia la de intolerancia; C es falsa porque la reacción inmunológica es la alergia, y D describe mal la tolerancia. Ninguna afirmación es correcta.",
+      "explicacion": "Hay que ubicar bien cada término. La intolerancia es una reacción exagerada a una dosis habitual: la diferencia con lo normal es de cantidad, no de tipo. La idiosincrasia es una reacción cualitativamente distinta a lo esperado, de origen genético, sin intervención inmunológica; por ejemplo, la hemólisis por primaquina en el déficit de G6PD. La tolerancia es la disminución del efecto con el uso repetido, que obliga a subir la dosis; no es pasajera ni congénita. Así, A atribuye a la intolerancia la definición de idiosincrasia; B atribuye a la idiosincrasia la de intolerancia; C es falsa porque la reacción inmunológica es la alergia, y D describe mal la tolerancia. La única correcta es E: la taquifilaxia es la pérdida rápida del efecto tras dosis repetidas en poco tiempo (por ejemplo, con la efedrina o los nitratos), a diferencia de la tolerancia, que se instala de forma gradual.",
+      "comentario": "Hay que ubicar bien cada término. La intolerancia es una reacción exagerada a una dosis habitual: la diferencia con lo normal es de cantidad, no de tipo. La idiosincrasia es una reacción cualitativamente distinta a lo esperado, de origen genético, sin intervención inmunológica; por ejemplo, la hemólisis por primaquina en el déficit de G6PD. La tolerancia es la disminución del efecto con el uso repetido, que obliga a subir la dosis; no es pasajera ni congénita. Así, A atribuye a la intolerancia la definición de idiosincrasia; B atribuye a la idiosincrasia la de intolerancia; C es falsa porque la reacción inmunológica es la alergia, y D describe mal la tolerancia. La única correcta es E: la taquifilaxia es la pérdida rápida del efecto tras dosis repetidas en poco tiempo (por ejemplo, con la efedrina o los nitratos), a diferencia de la tolerancia, que se instala de forma gradual.",
       "tema": "Reacciones a fármacos: intolerancia, idiosincrasia y tolerancia",
       "categoria": "Farmacología básica y autonómica",
       "año": 2019
@@ -1947,8 +1947,8 @@
         "Síndrome de di George",
         "Disgenesia reticular",
         "Síndrome de Wiskott-Aldrich",
-        "Sólo A y C",
-        "Todas"
+        "Inmunodeficiencia común variable",
+        "Agammaglobulinemia ligada al X"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1988,12 +1988,12 @@
         "Proporciona inervación a la membrana timpánica",
         "Surge del nervio glosofaríngeo",
         "Lleva fibras gustativas al tercio posterior de la lengua",
-        "Ninguna anterior"
+        "Lleva fibras gustativas de los dos tercios anteriores de la lengua"
       ],
       "correcta": 4,
       "clave_correcta": "E",
-      "explicacion": "La cuerda del tímpano es una rama del nervio facial (VII par). Nace en el conducto facial, cruza la caja del tímpano por la cara interna de la membrana timpánica, pero no la inerva, y sale por la fisura petrotimpánica para unirse al nervio lingual (rama del V3). Lleva dos tipos de fibras: las gustativas de los dos tercios anteriores de la lengua y las parasimpáticas preganglionares para las glándulas submandibular y sublingual, que hacen sinapsis en el ganglio submandibular. Por eso las cuatro primeras opciones son falsas: no se une al nervio bucal sino al lingual; la membrana timpánica recibe inervación del auriculotemporal, del vago y del glosofaríngeo; no nace del glosofaríngeo, y el tercio posterior de la lengua depende del IX par.",
-      "comentario": "La cuerda del tímpano es una rama del nervio facial (VII par). Nace en el conducto facial, cruza la caja del tímpano por la cara interna de la membrana timpánica, pero no la inerva, y sale por la fisura petrotimpánica para unirse al nervio lingual (rama del V3). Lleva dos tipos de fibras: las gustativas de los dos tercios anteriores de la lengua y las parasimpáticas preganglionares para las glándulas submandibular y sublingual, que hacen sinapsis en el ganglio submandibular. Por eso las cuatro primeras opciones son falsas: no se une al nervio bucal sino al lingual; la membrana timpánica recibe inervación del auriculotemporal, del vago y del glosofaríngeo; no nace del glosofaríngeo, y el tercio posterior de la lengua depende del IX par.",
+      "explicacion": "La cuerda del tímpano es una rama del nervio facial (VII par). Nace en el conducto facial, cruza la caja del tímpano por la cara interna de la membrana timpánica, pero no la inerva, y sale por la fisura petrotimpánica para unirse al nervio lingual (rama del V3). Lleva dos tipos de fibras: las gustativas de los dos tercios anteriores de la lengua y las parasimpáticas preganglionares para las glándulas submandibular y sublingual, que hacen sinapsis en el ganglio submandibular. Por eso las cuatro primeras opciones son falsas: no se une al nervio bucal sino al lingual; la membrana timpánica recibe inervación del auriculotemporal, del vago y del glosofaríngeo; no nace del glosofaríngeo, y el tercio posterior de la lengua depende del IX par. La correcta es E.",
+      "comentario": "La cuerda del tímpano es una rama del nervio facial (VII par). Nace en el conducto facial, cruza la caja del tímpano por la cara interna de la membrana timpánica, pero no la inerva, y sale por la fisura petrotimpánica para unirse al nervio lingual (rama del V3). Lleva dos tipos de fibras: las gustativas de los dos tercios anteriores de la lengua y las parasimpáticas preganglionares para las glándulas submandibular y sublingual, que hacen sinapsis en el ganglio submandibular. Por eso las cuatro primeras opciones son falsas: no se une al nervio bucal sino al lingual; la membrana timpánica recibe inervación del auriculotemporal, del vago y del glosofaríngeo; no nace del glosofaríngeo, y el tercio posterior de la lengua depende del IX par. La correcta es E.",
       "tema": "Cuerda del tímpano: gusto de los 2/3 anteriores de la lengua",
       "categoria": "Anatomía",
       "año": 2019
@@ -2008,7 +2008,7 @@
         "Cricoides",
         "Cartílago tiroides",
         "Cartílago cricotiroideo",
-        "Ninguna anterior"
+        "Ángulo de la mandíbula"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2028,7 +2028,7 @@
         "Genihioideo",
         "Digástrico",
         "Omohioideo",
-        "Todos"
+        "Estilohioideo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2088,7 +2088,7 @@
         "La síntesis de ácido fólico",
         "La pared celular",
         "La membrana celular",
-        "B y D"
+        "Los ribosomas 30S"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2108,7 +2108,7 @@
         "Etambutol",
         "Estreptomicina",
         "Rifampicina",
-        "Ninguna anterior"
+        "Isoniazida"
       ],
       "correcta": 3,
       "clave_correcta": "D",

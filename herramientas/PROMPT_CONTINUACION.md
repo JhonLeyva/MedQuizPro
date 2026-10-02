@@ -11,7 +11,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - **Código de la web:** la copia más reciente está en `herramientas/plataforma_materias/` (versión `?v=20260930-materias`); la anterior, en la rama `origin/claude/clever-franklin-1fao9i` (versión `20260928-plataforma`). Antes de entregar cambios de código, pide al usuario que abra `public_html/index.html` en Hostinger y busque el texto `?v=`: si coincide con una de esas versiones, trabaja sobre esa copia; si no, pídele que descargue los archivos que vas a tocar y trabaja sobre ellos.
 - **Al terminar cada tarea, actualiza este archivo** (estado, herramientas nuevas, próxima tarea) y súbelo con commit y push, para que el siguiente chat sepa todo lo hecho.
 
-## Estado actual (2-oct-2026: ver al final «Tanda de mejora»)
+## Estado actual (2-oct-2026: ver al final «Tanda de mejora» y «Alternativas corregidas»)
 - **Rama con el trabajo más reciente:** `claude/vibrant-albattani-g7t3b3` (parte de `claude/sweet-franklin-dbg0mc` + bloque ENAM 2026). Total 2380 preguntas y 2106 flujogramas: **faltan los 274 flujogramas del bloque ENAM 2026**.
 - **Bancos:** 2380 preguntas (bloques 1 a 8 = 1713 + 393 de Ciencias Básicas + 274 del bloque ENAM 2026). `site/bancos/` ya tiene las 2380.
   - `herramientas/site/bancos/` tiene los 17 JSON finales (ciencias_basicas.json con 485).
@@ -241,6 +241,18 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - Imágenes: `flujo/img/prep27.py` (recortes; `rellenar()` borra flechas/letras del autor por difusión; `caja()` máscara). Licencias verificadas en Commons (lista en el LEEME del ZIP). Ubicar marcas con una cuadrícula sobre el recorte y revisar el PNG ampliado; lateralidad: la derecha del paciente es la izquierda de la imagen (en la foto de Horner el ojo afectado es el de la derecha de la imagen).
 - La API de Commons responde 429 por curl: buscar con WebFetch (`Special:MediaSearch` o la página `File:`) y bajar con `img/wm.py`.
 - Prueba en la app: copiar `site/` al scratchpad, poner encima el paquete, servir con `python3 -m http.server 8768` y cargar las imágenes de `MQP_ALGORITMOS` (10/10 cargan, 0 errores JS). Para detener el servidor, matar el PID (no usar `pkill -f` con el patrón dentro del mismo comando: mata la propia shell).
+
+## Alternativas de relleno corregidas en los 17 bancos (pedido 2-oct-2026) — TERMINADO
+- Pedido: quitar las alternativas «Faltan datos», «Ninguna de las anteriores», «Todas las anteriores», «Ninguna»… y las absurdas del PDF (Colonoscopia en TEC, Omeprazol en Pancoast) y poner distractores acordes al caso. Entregado `MedQuizPro_bancos_alternativas_corregidas.zip` (17 bancos + 3 SVG + LEEME + `cambios_alternativas.csv`).
+- Resultado: 1692 alternativas en 1686 preguntas; la correcta sigue en la misma letra. Solo cambia `opciones` (y la explicación de CB-095/096/100 y una errata en NRL-038). 5 cambios tocan el texto de la correcta: CB-095/096/100 («Ninguna anterior» → respuesta explícita) y erratas en GIN-105 y GIN-141. «Ninguno» de SP-132 se deja: es la correcta.
+- Herramientas en `herramientas/alt/`:
+  - `r00.py`…`r29.py`: `R = {"ID": "texto nuevo de E"}` o `{"ID": {índice: "texto"}}` para otras letras. Una entrada por pregunta (aplicar.py exige que no se repitan entre archivos).
+  - `comentarios.py`: `C = {"ID": [(viejo, nuevo)]}` reemplazos en `explicacion`/`comentario`.
+  - `aplicar.py`: lee los bancos ORIGINALES con `git show 4ba94e6c2654:herramientas/site/bancos/…` (commit anterior al cambio; `site/bancos` ya tiene la versión corregida) y escribe `alt/out/bancos/*.json` + `alt/out/cambios.json` (`[banco, id, letra, antes, ahora, es_la_correcta]`). Exige 5 opciones, texto distinto al viejo y sin opciones repetidas. Luego `cp alt/out/bancos/*.json site/bancos/`.
+  - `svg_chips.py <svgs_viejos> <salida>`: corrige los chips de CIR-075, OFT-015 y PED-088 (los únicos flujogramas antiguos que mostraban una alternativa cambiada; los SVG viejos solo están en los ZIP entregados).
+  - `pack.py`: arma el ZIP desde `site/bancos` y `alt/out/flujogramas`.
+- Los 10 ejemplos de la tanda de mejora (`flujo/content27a.py`) ya usan las alternativas nuevas en su tabla; `MedQuizPro_ejemplo_10_flujogramas_mejorados.zip` se reempaquetó.
+- Al hacer flujogramas nuevos, tomar las opciones de `site/bancos` (no de `parsed.json`, que conserva los rellenos del PDF).
 
 ## Próxima tarea sugerida
 Esperar la opinión del usuario sobre los 10 ejemplos. Si aprueba: elegir las otras 490 (prioridad: temas con hallazgo de imagen típico —Rx, TC, eco, ECG, frotis, fotos clínicas— y las que tengan dibujos esquemáticos poco informativos; tríadas solo donde la explicación las use), rehacerlas en `content27b…`, reconstruir también los 266 del bloque 2026 con la insignia corregida y entregar todo junto con `algoritmos.js` actualizado, galería y LEEME de créditos.

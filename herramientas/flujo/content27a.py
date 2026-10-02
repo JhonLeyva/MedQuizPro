@@ -37,9 +37,9 @@ S("arbol", "GAS-054", "fiebre-ictericia-dolor-coledoco-15-mm-colangitis",
             [("Tríada de Charcot", 0, 2), ("Péntada de Reynolds", 0, 4)],
             "Charcot completa sin hipotensión ni confusión: colangitis sin choque. Si aparecieran, sería Reynolds: CPRE urgente."),
   tabla=("Opciones de la pregunta", [("Apendicitis aguda", False), ("Colangitis aguda", True), ("Pancreatitis aguda", False),
-                                     ("Colecistitis aguda", False), ("Neumonía adquirida", False)],
+                                     ("Colecistitis aguda", False), ("Hepatitis viral aguda", False)],
          [("¿Encaja?", ["No: dolor en fosa ilíaca derecha", "Sí: Charcot + colédoco ancho", "No explica el colédoco dilatado",
-                        "No: no da ictericia ni colédoco ancho", "No: no hay datos respiratorios"])]))
+                        "No: no da ictericia ni colédoco ancho", "No: no dilata el colédoco"])]))
 
 # CAR-071 · Taponamiento cardiaco · EMBUDO + eco subcostal y ECG reales + tríada de Beck
 S("embudo", "CAR-071", "herida-precordial-beck-ecocardiograma-taponamiento",
@@ -54,8 +54,8 @@ S("embudo", "CAR-071", "herida-precordial-beck-ecocardiograma-taponamiento",
    "El ECG puede mostrar bajo voltaje y alternancia eléctrica, pero no confirma el líquido."],
   ATLS + "; ESC, guía de miocarditis y pericarditis (2025).",
   d=dict(rotulo="Qué examen confirma", inicio="Sospecha de taponamiento",
-         candidatos=["Ecocardiograma", "Electrocardiograma", "Radiografía de tórax", "Troponina I", "Atropina"],
-         pasos=[("No es un examen", ["Atropina"]),
+         candidatos=["Ecocardiograma", "Electrocardiograma", "Radiografía de tórax", "Troponina I", "Gammagrafía miocárdica"],
+         pasos=[("Tarda: no sirve en el paciente inestable", ["Gammagrafía miocárdica"]),
                 ("No ven el líquido", ["Electrocardiograma", "Troponina I"]),
                 ("Puede ser normal en el sangrado agudo", ["Radiografía de tórax"])],
          final=("Ecocardiograma", ["Líquido alrededor del corazón y colapso de las cavidades derechas"]),
@@ -76,9 +76,9 @@ S("embudo", "CAR-071", "herida-precordial-beck-ecocardiograma-taponamiento",
             [("Tríada de Beck", 0, 2)],
             "Beck completa con herida precordial: el paciente necesita confirmar con eco y descomprimir ya."),
   tabla=("Opciones de la pregunta", [("Electrocardiograma", False), ("Radiografía de tórax", False), ("Troponina I", False),
-                                     ("Ecocardiograma", True), ("Atropina", False)],
+                                     ("Ecocardiograma", True), ("Gammagrafía de perfusión miocárdica", False)],
          [("¿Confirma?", ["No: solo signos indirectos", "No: puede ser normal", "No: no muestra la causa",
-                          "Sí: ve el líquido y el colapso", "No es un examen"])]))
+                          "Sí: ve el líquido y el colapso", "No: tarda y busca isquemia"])]))
 
 # NRL-052 · Hematoma epidural · FASES + TC real + tríada de Cushing
 S("fases", "NRL-052", "golpe-ladrillo-intervalo-lucido-midriasis-hematoma-epidural",
@@ -112,9 +112,9 @@ S("fases", "NRL-052", "golpe-ladrillo-intervalo-lucido-midriasis-hematoma-epidur
             [("Tríada de Cushing", 0, 2)],
             "HTA con bradicardia = presión intracraneal muy alta: herniación inminente; la TC y la cirugía no esperan."),
   tabla=("Opciones de la pregunta", [("TEM cerebral", True), ("Doppler transcraneal", False), ("Potenciales evocados", False),
-                                     ("EEG", False), ("Colonoscopia", False)],
+                                     ("EEG", False), ("Radiografía de cráneo", False)],
          [("¿Sirve aquí?", ["Sí: muestra el hematoma", "No: mide flujo, no sangrado", "No: no ve lesiones",
-                            "No: es para crisis", "No tiene relación"])]))
+                            "No: es para crisis", "No: ve la fractura, no el hematoma"])]))
 
 # PED-211 · Tetralogía de Fallot · TARJETAS + esquema real rotulado + tétrada
 S("tarjetas", "PED-211", "rn-cianosis-al-llanto-corazon-en-bota-fallot",
@@ -150,8 +150,8 @@ S("tarjetas", "PED-211", "rn-cianosis-al-llanto-corazon-en-bota-fallot",
             [("Tétrada de Fallot", 0, 3)],
             "El corazón en bota sale de dos defectos: la punta levantada (hipertrofia del VD) y el arco pulmonar hundido (estenosis)."),
   tabla=("Opciones de la pregunta", [("CIA", False), ("CIV", False), ("Estenosis pulmonar", False),
-                                     ("Tetralogía de Fallot", True), ("Infección urinaria", False)],
-         [("¿Encaja?", ["No: sin cianosis", "No: sin cianosis", "No: sin corazón en bota", "Sí", "No: no explica nada"])]))
+                                     ("Tetralogía de Fallot", True), ("Transposición de grandes arterias", False)],
+         [("¿Encaja?", ["No: sin cianosis", "No: sin cianosis", "No: sin corazón en bota", "Sí", "No: cianosis desde el nacimiento, corazón en huevo"])]))
 
 # NEU-018 · Tumor de Pancoast · EMBUDO + Rx real + foto de Horner + síndrome con la tríada de Horner
 S("embudo", "NEU-018", "dolor-hombro-fumador-pancoast",
@@ -191,9 +191,9 @@ S("embudo", "NEU-018", "dolor-hombro-fumador-pancoast",
             [("Tríada de Horner", 2, 4), ("Síndrome de Pancoast", 0, 4)],
             "El caso ya tiene el dolor y las parestesias del plexo: basta para sospecharlo. Horner aparece cuando invade el simpático."),
   tabla=("Opciones de la pregunta", [("Carcinoma del vértice pulmonar", True), ("Polineuritis por déficit de B", False),
-                                     ("Bursitis crónica", False), ("Osteoartritis de hombro", False), ("Omeprazol", False)],
+                                     ("Bursitis crónica", False), ("Osteoartritis de hombro", False), ("Síndrome del túnel carpiano", False)],
          [("¿Encaja?", ["Sí: fumador, dolor C8-T1", "No: es simétrica y distal", "No: no irradia ni da parestesias",
-                        "No: dolor articular", "No es un diagnóstico"])]))
+                        "No: dolor articular", "No: mediano, no cubital ni hombro"])]))
 
 # GIN-121 · Embarazo ectópico roto · ÁRBOL + laparoscopía real + tríada clásica
 S("arbol", "GIN-121", "amenorrea-6-semanas-choque-culdocentesis-ectopico-roto",
@@ -226,9 +226,9 @@ S("arbol", "GIN-121", "amenorrea-6-semanas-choque-culdocentesis-ectopico-roto",
             [("Tríada clásica del ectópico", 0, 2)],
             "Falta el sangrado vaginal, pero hay choque y culdocentesis (+): el sangrado es interno."),
   tabla=("Opciones de la pregunta", [("Embarazo ectópico roto", True), ("Aborto incompleto", False), ("Aborto en curso", False),
-                                     ("Cuerpo lúteo hemorrágico", False), ("Ninguna", False)],
+                                     ("Cuerpo lúteo hemorrágico", False), ("Apendicitis aguda", False)],
          [("¿Encaja?", ["Sí", "No: sangrado vaginal, no interno", "No: sangrado vaginal y cuello abierto",
-                        "Raro con amenorrea y choque así", "No"])]))
+                        "Raro con amenorrea y choque así", "No: no da sangrado ni choque así"])]))
 
 # NRL-013 · Encefalopatía de Wernicke · ÁRBOL + RM real + tríada de Wernicke
 S("arbol", "NRL-013", "coma-alcoholico-tiamina-ev",
@@ -290,5 +290,5 @@ S("arbol", "HEM-009", "microangiopatia-trombotica-ptt-plasma",
             [("Péntada clásica de la PTT", 0, 4)],
             "La péntada completa es rara; hoy basta la anemia con esquistocitos y las plaquetas bajas para tratar."),
   tabla=("Opciones de la pregunta", [("Eritrocitos lavados", False), ("Sangre total", False), ("Paquete globular", False),
-                                     ("Plasma fresco congelado", True), ("Todas las anteriores", False)],
-         [("¿Trata la causa?", ["No", "No", "No: solo sube la Hb", "Sí: aporta ADAMTS13", "No"])]))
+                                     ("Plasma fresco congelado", True), ("Concentrado de plaquetas", False)],
+         [("¿Trata la causa?", ["No", "No", "No: solo sube la Hb", "Sí: aporta ADAMTS13", "No: empeora la trombosis"])]))

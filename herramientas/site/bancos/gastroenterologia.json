@@ -27,7 +27,7 @@
         "Sales de bismuto",
         "Antipiréticos",
         "Bloqueadores H2",
-        "Faltan datos para decidir"
+        "Loperamida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -46,7 +46,7 @@
         "Inhibidores de la COX-2",
         "Opioides de larga duración",
         "Colocación de endoprótesis",
-        "Ninguna de las anteriores"
+        "Pancreatectomía total"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -65,7 +65,7 @@
         "Divertículo de Zenker",
         "Enfermedad por reflujo gastroesofágico",
         "Acalasia",
-        "Asma bronquial"
+        "Esofagitis eosinofílica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -84,7 +84,7 @@
         "Endoscopía alta",
         "Cápsula endoscópica",
         "Tomografía abdominal",
-        "Hospitalización en UCI"
+        "Gastroscopía con biopsia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -103,7 +103,7 @@
         "Gastritis aguda",
         "Úlcera gastroduodenal",
         "Esófago de Barrett",
-        "Infección del tracto urinario"
+        "Várices esofágicas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -122,7 +122,7 @@
         "Síndrome Mallory Weiss",
         "Diverticulosis",
         "Várices esofágicas sangrantes",
-        "Síndrome de Guillain-Barré"
+        "Úlcera duodenal sangrante"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -141,7 +141,7 @@
         "Síndrome hepatorrenal",
         "Intoxicación por metanol",
         "Encefalopatía hepática grado II",
-        "Clindamicina"
+        "Hipoglucemia"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -160,7 +160,7 @@
         "Diverticulitis colónica",
         "Fístula perirrectal",
         "Colitis pseudomembranosa",
-        "Hipertensión arterial"
+        "Linfoma intestinal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -179,7 +179,7 @@
         "Adenocarcinoma",
         "Fístula enterocutánea",
         "Trombosis arteria mesentérica",
-        "Diabetes Mellitus"
+        "Megacolon tóxico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -198,7 +198,7 @@
         "Trofozoítos de Entamoeba histolytica",
         "Sangre oculta",
         "Aumento de grasa en las heces",
-        "Ninguna de las anteriores"
+        "Leucocitos fecales abundantes"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -217,7 +217,7 @@
         "Anti VHC",
         "IgM anti VHA",
         "Anti VHE",
-        "Todas las anteriores"
+        "IgG anti VHA"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -236,7 +236,7 @@
         "Colitis amebiana",
         "Tuberculosis intestinal",
         "Linfoma intestinal",
-        "Síndrome de Guillain-Barré"
+        "Enfermedad de Crohn"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -255,7 +255,7 @@
         "Carcinoma epidermoide",
         "Carcinoma neuroendocrino",
         "Adenocarcinoma",
-        "Síndrome de Guillain-Barré"
+        "Linfoma MALT"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -274,7 +274,7 @@
         "Gastritis crónica",
         "Ulcera Péptica.",
         "Enfermedad por Reflujo.",
-        "Hipertensión arterial"
+        "Gastroparesia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -293,7 +293,7 @@
         "Colocación de Sonda Sengstaken- Blakemore",
         "Infusión de Octreotide",
         "Transfusión de plaquetas",
-        "Faltan datos para decidir"
+        "Escleroterapia con alcohol absoluto"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -312,7 +312,7 @@
         "Fosfatasa alcalina",
         "Velocidad de sedimentación",
         "Transaminasas",
-        "Ceftriaxona"
+        "Amilasa"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -331,7 +331,7 @@
         "Pancreatitis aguda",
         "Trombosis mesentérica",
         "Úlcera perforada",
-        "Alta médica con indicaciones"
+        "Infarto agudo de miocardio inferior"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -350,7 +350,7 @@
         "Cardiaca derecha",
         "Cardiaca izquierda",
         "Renal aguda",
-        "Todas las anteriores"
+        "Respiratoria"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -369,7 +369,7 @@
         "DHL",
         "Amilasa",
         "PAP",
-        "Todas las anteriores"
+        "Glucosa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -388,7 +388,7 @@
         "Alimentación enteral",
         "CPRE urgente",
         "Antibiótico profilaxis",
-        "Amoxicilina"
+        "Nutrición parenteral total"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -407,7 +407,7 @@
         "Síndrome Zollinger-Ellison",
         "Ampuloma",
         "Gastritis atrófica",
-        "Metronidazol"
+        "Síndrome de intestino irritable"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -426,7 +426,7 @@
         "Isquemia mesentérica",
         "Diverticulitis aguda",
         "Megacolon tóxico",
-        "Sepsis"
+        "Colitis infecciosa por Clostridioides difficile"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -445,7 +445,7 @@
         "Coledocolitiasis",
         "Síndrome de Mirizzi",
         "Carcinoma de vías biliares",
-        "Lupus eritematoso sistémico"
+        "Hepatitis viral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -464,7 +464,7 @@
         "Úlcera péptica sangrante",
         "Divertículo de Zenker",
         "Cáncer esofágico",
-        "Tuberculosis"
+        "Várices esofágicas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -483,7 +483,7 @@
         "Infundir cristaloides",
         "Paracentesis diagnóstica",
         "Colocar balón esofágico",
-        "Faltan datos para decidir"
+        "Lactulosa oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -502,7 +502,7 @@
         "Colangitis aguda",
         "Colecistitis aguda",
         "Síndrome de Mirizzi",
-        "Apendicitis aguda"
+        "Hepatitis viral aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -521,7 +521,7 @@
         "Marcadores tumorales y conducta según resultados",
         "Colonoscopía cada 6 meses y AINES",
         "Extirpación endoscópica y estudio histopatológico",
-        "Metronidazol"
+        "Hemicolectomía izquierda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -540,7 +540,7 @@
         "Anemia hemolítica",
         "Hepatitis Toxica",
         "Hepatitis Autoinmune",
-        "Síndrome de Guillain-Barré"
+        "Coledocolitiasis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -559,7 +559,7 @@
         "Desequilibrio entre la secreción gástrica y el grado de protección de la mucosa",
         "Deficiente acción neutralizante biliar frente al ácido gástrico",
         "Aumento de la secreción de bicarbonato de sodio",
-        "Todas las anteriores"
+        "Hipersecreción de pepsinógeno por células principales"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -578,7 +578,7 @@
         "Amilasa",
         "Lipasa",
         "Transaminasas",
-        "Clindamicina"
+        "Gamma glutamil transferasa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -597,7 +597,7 @@
         "Reflujo gastroesofágico",
         "Úlcera péptica",
         "Cáncer de estómago",
-        "Diabetes Mellitus"
+        "Pancreatitis crónica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -616,7 +616,7 @@
         "Fluidoterapia agresiva",
         "Nutrición parenteral total",
         "Inhibidores de la proteasa",
-        "Faltan datos para decidir"
+        "Colecistectomía de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -635,7 +635,7 @@
         "IgG anti-VHA",
         "IgG anti-VHB",
         "IgM anti-VHB",
-        "Ninguna de las anteriores"
+        "Anticuerpos anti-VHC"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -654,7 +654,7 @@
         "Síndrome de Gilbert",
         "Hepatitis viral",
         "Cirrosis hepática",
-        "Diabetes Mellitus"
+        "Síndrome de Dubin-Johnson"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -673,7 +673,7 @@
         "Lavado gástrico",
         "Trasplante hepático",
         "Vitamina K endovenosa",
-        "Paracetamol"
+        "Hemodiálisis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -692,7 +692,7 @@
         "Ceftriaxona",
         "Amikacina",
         "Azitromicina",
-        "Epinefrina"
+        "Metronidazol"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -711,7 +711,7 @@
         "Hepatitis B",
         "Hepatitis E",
         "Hepatitis A",
-        "Diabetes Mellitus"
+        "Hepatitis C aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -730,7 +730,7 @@
         "Monitoreo de amilasa",
         "TEM de abdomen",
         "Rx abdomen simple",
-        "Resonancia magnética"
+        "Ecografía endoscópica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -749,7 +749,7 @@
         "Iniciar inhibidor de la bomba de protones",
         "Medir el pH gástrico",
         "Realizar espirometría forzada",
-        "Ecografía Doppler"
+        "Prueba de esfuerzo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -768,7 +768,7 @@
         "6 a 7",
         "1 a 2",
         "3 a 4",
-        "Ninguna de las anteriores"
+        "Inmediatamente al ingreso"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -787,7 +787,7 @@
         "Realizar paracentesis",
         "Antiespasmódicos",
         "Iniciar probióticos",
-        "Todas las anteriores"
+        "Antibiótico oral ambulatorio"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -806,7 +806,7 @@
         "Hiperaguda",
         "Aguda",
         "Rápidamente progresivo",
-        "Todas las anteriores"
+        "Crónica agudizada"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -825,7 +825,7 @@
         "Administrar somatostatina",
         "Derivación proto sistémica percutánea intra hepática",
         "Infusión continua de omeprazol",
-        "Atropina"
+        "Ligadura y omeprazol en infusión"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -844,7 +844,7 @@
         "Paracentesis",
         "Lactulosa",
         "Dieta rica en residuos",
-        "Amoxicilina"
+        "Diuréticos a dosis altas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -863,7 +863,7 @@
         "Recuperación",
         "Convalecencia",
         "Aguda",
-        "Todas las anteriores"
+        "Portador crónico inactivo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -882,7 +882,7 @@
         "Inhibición de la conjugación",
         "Disminución de la captación 2",
         "Defecto en la excreción celular",
-        "Apendicitis aguda"
+        "Hepatitis viral postransfusional aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -901,7 +901,7 @@
         "Amilasa",
         "Maltasa",
         "Lactasa",
-        "Faltan datos para decidir"
+        "Lipasa"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -920,7 +920,7 @@
         "Cirrosis hepática descompensada",
         "Hepatitis viral aguda fulminante",
         "Carcinoma hepatocelular",
-        "Asma bronquial"
+        "Insuficiencia cardiaca derecha"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -939,7 +939,7 @@
         "Desgarro de Mallory-Weiss",
         "Gastritis erosiva",
         "Úlcera gástrica",
-        "Tuberculosis"
+        "Esofagitis por reflujo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -958,7 +958,7 @@
         "RX de colon con enema opaco",
         "Colonoscopía",
         "Endoscopía digestiva alta",
-        "Arteriografía"
+        "Ecografía abdominal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -977,7 +977,7 @@
         "Antígeno carcinoembrionario",
         "Ca 19-9",
         "Alfafetoproteínas",
-        "Ninguna de las anteriores"
+        "Ca 125"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -996,7 +996,7 @@
         "Reducción del volumen minuto por depresión respiratoria central",
         "Aumento del espacio muerto fisiológico por broncoespasmo",
         "Alcalosis respiratoria primaria por hiperventilación psicógena",
-        "Lupus eritematoso sistémico"
+        "Edema pulmonar cardiogénico por insuficiencia cardiaca"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1015,7 +1015,7 @@
         "Colangitis aguda",
         "Pancreatitis aguda",
         "Colecistitis aguda",
-        "Neumonía adquirida"
+        "Hepatitis viral aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1034,7 +1034,7 @@
         "Acalasia",
         "Carcinoma epidermoide",
         "Formación de divertículos",
-        "Infección del tracto urinario"
+        "Estenosis péptica benigna únicamente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1053,7 +1053,7 @@
         "Colecistitis crónica reagudizada",
         "Absceso hepático",
         "Insuficiencia hepática aguda",
-        "Infección del tracto urinario"
+        "Hepatitis alcohólica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1072,7 +1072,7 @@
         "Distributivo",
         "Cardiogénico",
         "Obstructivo",
-        "Faltan datos para decidir"
+        "Neurogénico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1091,7 +1091,7 @@
         "Pulmón",
         "Bazo",
         "Tiroides",
-        "Ninguna de las anteriores"
+        "Hueso"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1110,7 +1110,7 @@
         "Colecistitis crónica",
         "Coledocolitiasis",
         "Pancreatitis crónica",
-        "Síndrome de Guillain-Barré"
+        "Colangiocarcinoma hiliar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1129,7 +1129,7 @@
         "Retirar la terapia de enzimas pancreáticas",
         "Prohibir AINEs",
         "Prescribir dieta hiperproteica",
-        "Ninguna de las anteriores"
+        "Aumentar la dosis de enzimas y observar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1148,7 +1148,7 @@
         "Colangiorresonancia",
         "Gammagrafía con HIDA",
         "Colangiopancreatografía retrógrada endoscópica",
-        "Endoscopia digestiva"
+        "Ecografía Doppler hepática"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1167,7 +1167,7 @@
         "Paracentesis exploratoria",
         "Endoscopia digestiva alta",
         "Colonoscopía virtual",
-        "Arteriografía"
+        "Tomografía de tórax"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1186,7 +1186,7 @@
         "Distensión abdominal funcional",
         "Dispepsia funcional",
         "Colecistitis crónica",
-        "Lupus eritematoso sistémico"
+        "Enfermedad celíaca"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1205,7 +1205,7 @@
         "Edad",
         "Bilirrubina total",
         "AST",
-        "Atropina"
+        "Lipasa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1224,7 +1224,7 @@
         "Síndrome hepatorrenal",
         "Peritonitis bacteriana espontánea",
         "Enteritis aguda",
-        "Insuficiencia cardíaca"
+        "Peritonitis bacteriana secundaria a perforación"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1243,7 +1243,7 @@
         "Colonoscopía",
         "Ecografía abdominal",
         "Gammagrafía",
-        "Ninguna de las anteriores"
+        "Endoscopía digestiva alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1262,7 +1262,7 @@
         "Resonancia",
         "Tomografía",
         "Estudio histológico",
-        "Radiografía simple"
+        "Carga viral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1281,7 +1281,7 @@
         "Linfomatosis peritoneal",
         "Actinomicosis abdominal",
         "Tuberculosis peritoneal",
-        "Insuficiencia cardíaca"
+        "Carcinomatosis peritoneal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1300,7 +1300,7 @@
         "Colecistitis aguda",
         "Hematoma retroperitoneal",
         "Colangitis aguda",
-        "Apendicitis aguda"
+        "Úlcera péptica perforada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1319,7 +1319,7 @@
         "Hidratación por vía EV",
         "Esfinterotomía biliar",
         "Antibióticos de amplio espectro",
-        "Faltan datos para decidir"
+        "Colecistectomía de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1338,7 +1338,7 @@
         "Creatinina quinasa MB",
         "Amilasa",
         "Lipasa",
-        "Diazepam"
+        "Ecografía abdominal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1357,7 +1357,7 @@
         "Ultrasonografía intraluminal",
         "Angiografía abdominal",
         "Rx simple de abdomen de pie",
-        "Endoscopia digestiva"
+        "Colonoscopía en la fase aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1376,7 +1376,7 @@
         "Aminoglucósidos",
         "Cefalosporinas",
         "Fluoroquinolonas",
-        "Ninguna de las anteriores"
+        "Carbapenémicos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1395,7 +1395,7 @@
         "Necrosis tubular aguda",
         "Síndrome hepatorrenal",
         "Nefropatía por diuréticos",
-        "Sepsis"
+        "Glomerulonefritis aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1414,7 +1414,7 @@
         "Hipertensión portal",
         "Carcinomatosis peritoneal",
         "TB peritoneal",
-        "Neumonía adquirida"
+        "Pancreatitis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1433,7 +1433,7 @@
         "Colecistitis aguda",
         "Colédocolitiasis",
         "Colangitis aguda",
-        "Hipertensión arterial"
+        "Hepatitis viral aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1452,7 +1452,7 @@
         "Autoinmune tipo 3",
         "Autoinmune de tipo 1",
         "Autoinmune de tipo 2",
-        "Todas las anteriores"
+        "Hepatitis tóxica por levotiroxina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1471,7 +1471,7 @@
         "Las enzimas digestivas pancreáticas y biliares destruyen acinos pancreáticos",
         "La secreción biliar activa el tripsinógeno de la secreción pancreática",
         "Tripsinógeno que se activa y forma tripsina en el páncreas",
-        "Insulina"
+        "La lipasa activa directamente el tripsinógeno"
       ],
       "correcta": 3,
       "clave_correcta": "D",

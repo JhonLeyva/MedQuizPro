@@ -27,7 +27,7 @@
         "Resonancia magnética",
         "Radiografía",
         "Electromiografía",
-        "Electrocardiograma"
+        "Tomografía de cadera"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -46,7 +46,7 @@
         "Palmar mayor",
         "Palmar menor",
         "Flexor superficial de los dedos",
-        "Todas las anteriores"
+        "Supinador corto"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -65,7 +65,7 @@
         "Radiografía de muslo",
         "Inmovilización",
         "Ecografía Doppler",
-        "Todas las anteriores"
+        "Analgésicos y observación"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -84,7 +84,7 @@
         "Cifosis estructural",
         "Escoliosis estructural",
         "Fusión del sacro",
-        "Neumonía adquirida"
+        "Espondilolistesis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -103,7 +103,7 @@
         "Ruptura esplácnica",
         "Neumotórax a tensión",
         "Lesión aórtica traumática",
-        "Faltan datos para decidir"
+        "Fractura de clavícula"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -122,7 +122,7 @@
         "Lavado y fijación externa",
         "Antibióticos y lavado",
         "Irrigación y osteosíntesis",
-        "Faltan datos para decidir"
+        "Cierre primario inmediato de la herida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -141,7 +141,7 @@
         "Osteomielitis",
         "Sarcoma de Ewing",
         "Linfoma",
-        "Hipertensión arterial"
+        "Osteocondroma"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "Fractura de epífisis distal del húmero",
         "Fractura del codo",
         "Luxación del codo",
-        "Hipertensión arterial"
+        "Fractura de clavícula"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -179,7 +179,7 @@
         "Fasciotomía descompresiva",
         "Fijación externa",
         "Fijación interna",
-        "Faltan datos para decidir"
+        "Yeso cerrado circular"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -198,7 +198,7 @@
         "Contusión pulmonar",
         "Neumonitis química",
         "Osteomielitis estafilocócica",
-        "Hipertensión arterial"
+        "Tromboembolismo pulmonar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -217,7 +217,7 @@
         "Parestesia hipotenar",
         "Mano en garra",
         "Llenado capilar prolongado",
-        "Ninguna de las anteriores"
+        "Mano en bendición"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -236,7 +236,7 @@
         "Fractura diafisiaria de fémur",
         "Luxación coxofemoral posterior",
         "Fractura subtrocantérica de fémur",
-        "Infección del tracto urinario"
+        "Fractura de rótula"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -255,7 +255,7 @@
         "Coracobraquial",
         "Deltoides",
         "Supraespinoso",
-        "Todas las anteriores"
+        "Bíceps braquial"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -274,7 +274,7 @@
         "Plantar larga",
         "Calcaneoperoneo",
         "Tibial anterior",
-        "Ninguna de las anteriores"
+        "Deltoideo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -293,7 +293,7 @@
         "Radiografía",
         "RMN",
         "Ecografía",
-        "Radiografía simple"
+        "Gammagrafía ósea"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -312,7 +312,7 @@
         "Moderada",
         "Muy severa",
         "Leve",
-        "Faltan datos para decidir"
+        "Normal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -331,7 +331,7 @@
         "Arnés de Pavlik",
         "Osteotomía de cadera",
         "Ortesis de abducción",
-        "Ninguna de las anteriores"
+        "Yeso pelvipédico inmediato"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -350,7 +350,7 @@
         "Aparato de yeso",
         "Fijación externa",
         "Fijación interna",
-        "Faltan datos para decidir"
+        "Vendaje elástico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -369,7 +369,7 @@
         "Tracción de la columna cervical",
         "Fijación externa de columna cervical",
         "Cirugía descompresiva de columna",
-        "Todas las anteriores"
+        "Radiografía antes de inmovilizar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -388,7 +388,7 @@
         "Referirlo a un ortopedista infantil",
         "Seguimiento clínico por tres meses",
         "Solicitar radiografía de pies",
-        "Ninguna de las anteriores"
+        "Zapatos ortopédicos y alta"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -407,7 +407,7 @@
         "Enclavijado",
         "Ortesis",
         "Cerclaje",
-        "Ninguna de las anteriores"
+        "Placa y tornillos de urgencia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -426,7 +426,7 @@
         "Braquial",
         "Interósea",
         "Radial",
-        "Ninguna de las anteriores"
+        "Humeral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -445,7 +445,7 @@
         "Lesión neurovascular",
         "Síndrome compartimental",
         "Embolia grasa",
-        "Lupus eritematoso sistémico"
+        "Pseudoartrosis inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -464,7 +464,7 @@
         "Trombosis venosa profunda",
         "Trombosis venosa superficial",
         "Claudicación arterial",
-        "Infección del tracto urinario"
+        "Úlcera duodenal"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -483,7 +483,7 @@
         "Tibial",
         "Safeno",
         "Peroneo",
-        "Ninguna de las anteriores"
+        "Femoral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -502,7 +502,7 @@
         "Indicar uso de plantillas ortopédicas rígidas",
         "Derivar a cirugía correctiva inmediata",
         "No requiere tratamiento específico",
-        "Terapia de rehabilitación"
+        "Cirugía de alargamiento del tendón de Aquiles"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -521,7 +521,7 @@
         "Densitometría ósea",
         "Biopsia ósea vertebral",
         "Gammagrafía ósea",
-        "Electrocardiograma"
+        "Calcio sérico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -540,7 +540,7 @@
         "Reumatismo extra-articular",
         "Gonartrosis",
         "Artritis reumatoide",
-        "Infección del tracto urinario"
+        "Fibromialgia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -559,7 +559,7 @@
         "Semilunar",
         "Canal ulnar",
         "Trapecio",
-        "Faltan datos para decidir"
+        "Túnel carpiano"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -578,7 +578,7 @@
         "Mediano",
         "Cubital",
         "Circunflejo",
-        "Faltan datos para decidir"
+        "Musculocutáneo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -597,7 +597,7 @@
         "Trombosis venosa",
         "Radiculopatía traumática",
         "Síndrome compartimental",
-        "Infección del tracto urinario"
+        "Rabdomiólisis aislada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -616,7 +616,7 @@
         "Vasopresores",
         "Antibióticos",
         "Corticoides",
-        "Ceftriaxona"
+        "Tracción cervical inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -635,7 +635,7 @@
         "Fractura de cadera",
         "Fractura de tibia",
         "Luxación de tobillo",
-        "Diabetes Mellitus"
+        "Esguince de rodilla"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -654,7 +654,7 @@
         "TEM cerebral",
         "Oxigenoterapia",
         "Solicitar análisis de gases arteriales",
-        "Ecografía Doppler"
+        "Radiografía de columna cervical"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Colocar férula en MID y proveer aporte de líquidos",
         "Detener hemorragias y proveer aporte de líquidos",
         "Evaluar compromiso de conciencia y colocar férula en MID",
-        "Todas las anteriores"
+        "TEM cerebral inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -692,7 +692,7 @@
         "Antiinflamatorio y vacuna antitetánica",
         "Férula de yeso y antibiótico parenteral",
         "Analgésico opioide y tracción del miembro",
-        "Amoxicilina"
+        "Cierre primario de la herida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -711,7 +711,7 @@
         "Esguince de tobillo grado 1",
         "Esguince de tobillo grado 2",
         "Fractura del escafoides",
-        "Cirrosis hepática"
+        "Esguince de tobillo grado 3"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -730,7 +730,7 @@
         "Necrosis avascular",
         "Fractura del acetábulo",
         "Lesión del nervio ciático",
-        "Apendicitis aguda"
+        "Osteomielitis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -749,7 +749,7 @@
         "Agenesia sacra",
         "Artrosis de cadera",
         "Displasia de cadera",
-        "Diabetes Mellitus"
+        "Coxa vara congénita"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -768,7 +768,7 @@
         "Escherichia coli",
         "Corynebacterium pyogenes",
         "Haemophilus influenzae",
-        "Faltan datos para decidir"
+        "Streptococcus pneumoniae"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -787,7 +787,7 @@
         "Fractura del escafoides",
         "Fractura de la epífisis distal del cúbito",
         "Luxación del hueso ganchoso",
-        "Lupus eritematoso sistémico"
+        "Fractura de Colles"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -806,7 +806,7 @@
         "Epífisis femoral capital deslizada",
         "Artrosis de articulación coxo-femoral",
         "Sinovitis monoarticular transitoria",
-        "Lupus eritematoso sistémico"
+        "Displasia residual de cadera"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -825,7 +825,7 @@
         "Adenomegalia",
         "Absceso",
         "Lipoma",
-        "Cirrosis hepática"
+        "Quiste de Baker roto"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -844,7 +844,7 @@
         "Velocidad de sedimentación",
         "Radiografía de pierna",
         "Hemograma",
-        "Ninguna de las anteriores"
+        "Ecografía Doppler venosa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -863,7 +863,7 @@
         "Tracción",
         "Vendaje en ocho",
         "Fijar con clavijas",
-        "Todas las anteriores"
+        "Osteosíntesis con placa de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -882,7 +882,7 @@
         "Incremento de la frecuencia cardíaca",
         "Demora del llenado capilar",
         "Disminución de la diuresis",
-        "Todas las anteriores"
+        "Aumento de la presión arterial sistólica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -901,7 +901,7 @@
         "Desgarro de la arteria tibial anterior",
         "Fractura multifragmentaria",
         "Síndrome compartimental",
-        "Infección del tracto urinario"
+        "Trombosis venosa profunda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -920,7 +920,7 @@
         "Escoliosis",
         "Espondilosis",
         "Hernia discal",
-        "Apendicitis aguda"
+        "Espondilitis anquilosante"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -939,7 +939,7 @@
         "Ciático poplíteo externo",
         "Femorocutáneo",
         "Obturatriz",
-        "Todas las anteriores"
+        "Femoral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -958,7 +958,7 @@
         "Inmunización pasiva en el prehospitalario",
         "Administración temprana de antibióticos",
         "Tracción de la extremidad afectada",
-        "Ninguna de las anteriores"
+        "Inmovilización con yeso cerrado"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -977,7 +977,7 @@
         "Colgante",
         "Con codo flexionado 90°",
         "Por coaptación",
-        "Todas las anteriores"
+        "Yeso en extensión completa"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -996,7 +996,7 @@
         "Laparotomía exploratoria",
         "Reducción cruenta de la fractura",
         "TC de pelvis con contraste",
-        "Cirrosis hepática"
+        "Radiografía de columna lumbar"
       ],
       "correcta": 0,
       "clave_correcta": "A",

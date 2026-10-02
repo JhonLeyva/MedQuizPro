@@ -1,0 +1,13538 @@
+[
+[
+"cardiologia.json",
+"CAR-004",
+"E",
+"Terapia de rehabilitación",
+"Iniciar ácido acetilsalicílico",
+false
+],
+[
+"cardiologia.json",
+"CAR-005",
+"E",
+"Todas las anteriores",
+"Tronco arterioso",
+false
+],
+[
+"cardiologia.json",
+"CAR-006",
+"E",
+"Prednisona",
+"Pericarditis aguda",
+false
+],
+[
+"cardiologia.json",
+"CAR-008",
+"E",
+"Ninguna de las anteriores",
+"Verapamilo",
+false
+],
+[
+"cardiologia.json",
+"CAR-009",
+"E",
+"Ninguna de las anteriores",
+"Adrenalina",
+false
+],
+[
+"cardiologia.json",
+"CAR-011",
+"E",
+"Ninguna de las anteriores",
+"Betabloqueadores",
+false
+],
+[
+"cardiologia.json",
+"CAR-013",
+"E",
+"Ninguna de las anteriores",
+"Buscar un DEA y recién después iniciar compresiones",
+false
+],
+[
+"cardiologia.json",
+"CAR-014",
+"E",
+"Faltan datos para decidir",
+"Angiotomografía pulmonar",
+false
+],
+[
+"cardiologia.json",
+"CAR-015",
+"E",
+"Clindamicina",
+"Pericarditis aguda",
+false
+],
+[
+"cardiologia.json",
+"CAR-016",
+"E",
+"Todas las anteriores",
+"Hidralazina",
+false
+],
+[
+"cardiologia.json",
+"CAR-017",
+"E",
+"Síndrome de Guillain-Barré",
+"Miocarditis viral",
+false
+],
+[
+"cardiologia.json",
+"CAR-018",
+"E",
+"Neumonía adquirida",
+"Prolapso de válvula mitral",
+false
+],
+[
+"cardiologia.json",
+"CAR-019",
+"E",
+"Azitromicina",
+"Intubar antes de continuar las compresiones",
+false
+],
+[
+"cardiologia.json",
+"CAR-020",
+"E",
+"Todas las anteriores",
+"Furosemida endovenosa",
+false
+],
+[
+"cardiologia.json",
+"CAR-021",
+"E",
+"Diabetes Mellitus",
+"Comunicación interauricular",
+false
+],
+[
+"cardiologia.json",
+"CAR-022",
+"E",
+"Cirrosis hepática",
+"Taquicardia sinusal",
+false
+],
+[
+"cardiologia.json",
+"CAR-023",
+"E",
+"Todas las anteriores",
+"Arritmogénica",
+false
+],
+[
+"cardiologia.json",
+"CAR-024",
+"E",
+"Ceftriaxona",
+"Espironolactona",
+false
+],
+[
+"cardiologia.json",
+"CAR-025",
+"E",
+"Faltan datos para decidir",
+"Tos nocturna",
+false
+],
+[
+"cardiologia.json",
+"CAR-026",
+"E",
+"Ninguna de las anteriores",
+"Controlar la frecuencia cardiaca",
+false
+],
+[
+"cardiologia.json",
+"CAR-027",
+"E",
+"Clindamicina",
+"Tiroxina",
+false
+],
+[
+"cardiologia.json",
+"CAR-028",
+"E",
+"Ninguna de las anteriores",
+"Amiodarona endovenosa",
+false
+],
+[
+"cardiologia.json",
+"CAR-029",
+"E",
+"Todas las anteriores",
+"Aumentar el volumen corriente",
+false
+],
+[
+"cardiologia.json",
+"CAR-030",
+"E",
+"Neumonía adquirida",
+"Fiebre reumática aguda",
+false
+],
+[
+"cardiologia.json",
+"CAR-031",
+"E",
+"Todas las anteriores",
+"Resistente",
+false
+],
+[
+"cardiologia.json",
+"CAR-032",
+"E",
+"Diabetes Mellitus",
+"Insuficiencia cardiaca derecha",
+false
+],
+[
+"cardiologia.json",
+"CAR-033",
+"E",
+"Faltan datos para decidir",
+"Furosemida endovenosa",
+false
+],
+[
+"cardiologia.json",
+"CAR-034",
+"E",
+"Colonoscopia",
+"Gammagrafía de perfusión miocárdica",
+false
+],
+[
+"cardiologia.json",
+"CAR-035",
+"E",
+"Faltan datos para decidir",
+"Iniciar antibiótico sin tomar cultivos",
+false
+],
+[
+"cardiologia.json",
+"CAR-036",
+"E",
+"Faltan datos para decidir",
+"Respiración boca a boca sin masaje",
+false
+],
+[
+"cardiologia.json",
+"CAR-037",
+"E",
+"Neumonía adquirida",
+"Miocarditis viral",
+false
+],
+[
+"cardiologia.json",
+"CAR-038",
+"E",
+"Síndrome de Guillain-Barré",
+"Coartación de aorta",
+false
+],
+[
+"cardiologia.json",
+"CAR-039",
+"E",
+"Todas las anteriores",
+"Betabloqueante endovenoso como única medida",
+false
+],
+[
+"cardiologia.json",
+"CAR-040",
+"E",
+"Faltan datos para decidir",
+"Nitroglicerina endovenosa",
+false
+],
+[
+"cardiologia.json",
+"CAR-041",
+"E",
+"Todas las anteriores",
+"Valvular reumática",
+false
+],
+[
+"cardiologia.json",
+"CAR-042",
+"E",
+"Faltan datos para decidir",
+"Iniciar 30 compresiones torácicas",
+false
+],
+[
+"cardiologia.json",
+"CAR-044",
+"E",
+"Ninguna de las anteriores",
+"Taquicardia supraventricular",
+false
+],
+[
+"cardiologia.json",
+"CAR-045",
+"E",
+"Clindamicina",
+"Amlodipino",
+false
+],
+[
+"cardiologia.json",
+"CAR-046",
+"E",
+"Dexametasona",
+"Furosemida",
+false
+],
+[
+"cardiologia.json",
+"CAR-047",
+"E",
+"Todas las anteriores",
+"Digoxina",
+false
+],
+[
+"cardiologia.json",
+"CAR-048",
+"E",
+"Reposo absoluto",
+"Normal con poscarga baja",
+false
+],
+[
+"cardiologia.json",
+"CAR-049",
+"E",
+"Atropina",
+"Adenosina",
+false
+],
+[
+"cardiologia.json",
+"CAR-050",
+"E",
+"Prednisona",
+"Infarto agudo de miocardio",
+false
+],
+[
+"cardiologia.json",
+"CAR-051",
+"E",
+"Amoxicilina",
+"Espironolactona",
+false
+],
+[
+"cardiologia.json",
+"CAR-052",
+"E",
+"Faltan datos para decidir",
+"Crisis asmática",
+false
+],
+[
+"cardiologia.json",
+"CAR-053",
+"E",
+"Tramadol",
+"Ácidos grasos omega-3",
+false
+],
+[
+"cardiologia.json",
+"CAR-054",
+"E",
+"Cirrosis hepática",
+"Feocromocitoma",
+false
+],
+[
+"cardiologia.json",
+"CAR-055",
+"E",
+"Ninguna de las anteriores",
+"Agregar un antihistamínico",
+false
+],
+[
+"cardiologia.json",
+"CAR-056",
+"E",
+"Cirrosis hepática",
+"Hemorragia cerebral hipertensiva",
+false
+],
+[
+"cardiologia.json",
+"CAR-057",
+"E",
+"Dexametasona",
+"Cardioversión sincronizada",
+false
+],
+[
+"cardiologia.json",
+"CAR-058",
+"E",
+"Ninguna de las anteriores",
+"Disección aórtica",
+false
+],
+[
+"cardiologia.json",
+"CAR-059",
+"E",
+"Faltan datos para decidir",
+"Digoxina",
+false
+],
+[
+"cardiologia.json",
+"CAR-061",
+"E",
+"Lupus eritematoso sistémico",
+"Taponamiento cardiaco",
+false
+],
+[
+"cardiologia.json",
+"CAR-062",
+"E",
+"Ninguna de las anteriores",
+"Ventilación con bolsa y máscara antes de comprimir",
+false
+],
+[
+"cardiologia.json",
+"CAR-063",
+"E",
+"Infección del tracto urinario",
+"Coartación de aorta",
+false
+],
+[
+"cardiologia.json",
+"CAR-064",
+"E",
+"Ceftriaxona",
+"Amiodarona endovenosa",
+false
+],
+[
+"cardiologia.json",
+"CAR-065",
+"E",
+"Diazepam",
+"Troponina I",
+false
+],
+[
+"cardiologia.json",
+"CAR-066",
+"E",
+"Faltan datos para decidir",
+"Bradicardia sinusal",
+false
+],
+[
+"cardiologia.json",
+"CAR-067",
+"E",
+"Faltan datos para decidir",
+"3 cm de profundidad, 120 a 140 compresiones por minuto",
+false
+],
+[
+"cardiologia.json",
+"CAR-068",
+"E",
+"Ninguna de las anteriores",
+"Posterior aislada",
+false
+],
+[
+"cardiologia.json",
+"CAR-069",
+"E",
+"Todas las anteriores",
+"Calcioantagonistas",
+false
+],
+[
+"cardiologia.json",
+"CAR-071",
+"E",
+"Atropina",
+"Gammagrafía de perfusión miocárdica",
+false
+],
+[
+"cardiologia.json",
+"CAR-072",
+"E",
+"Dexametasona",
+"Digoxina",
+false
+],
+[
+"cardiologia.json",
+"CAR-073",
+"E",
+"Aspirina",
+"Trombólisis inmediata",
+false
+],
+[
+"cardiologia.json",
+"CAR-074",
+"E",
+"Todas las anteriores",
+"Clase funcional V",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-002",
+"E",
+"Cirrosis hepática",
+"Miopatía hipotiroidea",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-003",
+"E",
+"Ceftriaxona",
+"Naloxona",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-004",
+"E",
+"Ciprofloxacino",
+"Cetoacidosis alcohólica",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-005",
+"E",
+"Todas las anteriores",
+"Neutrófilo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-006",
+"E",
+"Faltan datos para decidir",
+"Aumento del volumen sanguíneo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-007",
+"E",
+"Todas las anteriores",
+"Ciclo de la urea",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-008",
+"E",
+"Todas las anteriores",
+"Ibuprofeno",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-009",
+"E",
+"Todas las anteriores",
+"Gástrula",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-010",
+"E",
+"Azitromicina",
+"Hidrocortisona endovenosa",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-011",
+"E",
+"Faltan datos para decidir",
+"Mepivacaína",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-012",
+"E",
+"Ciprofloxacino",
+"Induce el citocromo P450",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-013",
+"E",
+"Ketorolaco",
+"Colesterol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-014",
+"E",
+"Todas las anteriores",
+"Todas las capas por igual",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-015",
+"E",
+"Todas las anteriores",
+"Liberación de aldosterona",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-016",
+"E",
+"Dexametasona",
+"Etanol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-017",
+"E",
+"Ninguna de las anteriores",
+"Aumento del volumen celular por edema",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-018",
+"E",
+"Todas las anteriores",
+"Eficiencia",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-019",
+"E",
+"Amoxicilina",
+"Fenofibrato",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-020",
+"E",
+"Ninguna de las anteriores",
+"Cricotiroideo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-021",
+"E",
+"Aspirina",
+"Naloxona",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-022",
+"E",
+"Diazepam",
+"Cocaína",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-023",
+"E",
+"Todas las anteriores",
+"Hiperventilación con aire ambiental",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-024",
+"E",
+"Amoxicilina",
+"Opioide",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-025",
+"E",
+"Atropina",
+"Lipoproteína lipasa",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-026",
+"E",
+"Síndrome de Guillain-Barré",
+"Intoxicación por etanol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-027",
+"E",
+"Todas las anteriores",
+"Normoxemia sin hipoxia tisular",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-028",
+"E",
+"Todas las anteriores",
+"Diuréticos y observación sin diálisis",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-029",
+"E",
+"Amoxicilina",
+"Excreción directa sin cambios",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-030",
+"E",
+"Ceftriaxona",
+"Tadalafilo en dosis baja",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-032",
+"E",
+"Todas las anteriores",
+"Lateral al nervio femoral",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-033",
+"E",
+"Faltan datos para decidir",
+"Intercaladas",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-034",
+"E",
+"Ninguna de las anteriores",
+"Hipercalcemia",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-035",
+"E",
+"Ciprofloxacino",
+"Vitamina K",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-036",
+"E",
+"Sepsis",
+"Normal",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-037",
+"E",
+"Todas las anteriores",
+"Bloqueo beta-1",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-038",
+"E",
+"Tramadol",
+"Montelukast",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-040",
+"E",
+"Todas las anteriores",
+"Milohioideo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-041",
+"E",
+"Prednisona",
+"Fosfomicina",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-042",
+"E",
+"Ceftriaxona",
+"Tiamina",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-043",
+"E",
+"Faltan datos para decidir",
+"Obturador",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-044",
+"E",
+"Omeprazol",
+"Histamina y bradicinina",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-045",
+"E",
+"Clindamicina",
+"Disminución del consumo de oxígeno",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-046",
+"E",
+"Ninguna de las anteriores",
+"Seno urogenital",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-047",
+"E",
+"Prednisona",
+"Intoxicación por mercurio",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-048",
+"E",
+"Infección del tracto urinario",
+"Síndrome neuroléptico maligno",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-049",
+"E",
+"Tramadol",
+"Bothrops atrox",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-050",
+"E",
+"Todas las anteriores",
+"Perinatal",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-051",
+"E",
+"Todas las anteriores",
+"Flumazenilo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-052",
+"E",
+"Lupus eritematoso sistémico",
+"Vincristina / Fibrosis pulmonar",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-053",
+"E",
+"Derivación a especialista",
+"Alto peso molecular",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-054",
+"E",
+"Paracetamol",
+"Etanol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-055",
+"E",
+"Faltan datos para decidir",
+"B12",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-056",
+"E",
+"Insuficiencia cardíaca",
+"Ofidismo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-057",
+"E",
+"Todas las anteriores",
+"Fibroblastos",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-058",
+"E",
+"Ninguna de las anteriores",
+"Paracetamol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-059",
+"E",
+"Faltan datos para decidir",
+"Innata",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-060",
+"E",
+"Todas las anteriores",
+"Célula de Clara",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-061",
+"E",
+"Ciprofloxacino",
+"Fisostigmina",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-062",
+"E",
+"Todas las anteriores",
+"Arriba-delante",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-063",
+"E",
+"Diazepam",
+"Lóbulo medio derecho",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-064",
+"E",
+"Faltan datos para decidir",
+"Hipotálamo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-065",
+"E",
+"Ninguna de las anteriores",
+"Volumen de reserva inspiratoria",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-066",
+"E",
+"Todas las anteriores",
+"Capacidad residual funcional",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-067",
+"E",
+"Hospitalización en UCI",
+"Mayor porque el oxígeno es más soluble",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-068",
+"E",
+"Todas las anteriores",
+"Próstata",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-069",
+"E",
+"Valores normales",
+"Reacción alérgica al metronidazol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-070",
+"E",
+"Omeprazol",
+"Cianocobalamina",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-071",
+"E",
+"Atropina",
+"Aumento de la secreción de estrógenos",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-072",
+"E",
+"Paracetamol",
+"Intoxicación por etilenglicol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-073",
+"E",
+"Faltan datos para decidir",
+"Metano",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-074",
+"E",
+"Faltan datos para decidir",
+"Azul de metileno",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-075",
+"E",
+"Epinefrina",
+"Colágeno tipo I y fibronectina.",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-076",
+"E",
+"Todas las anteriores",
+"Activación de la lipogénesis",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-077",
+"E",
+"Ninguna de las anteriores",
+"Axilar",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-078",
+"E",
+"Ibuprofeno",
+"Amilasa salival",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-079",
+"E",
+"Todas las anteriores",
+"Transaminasas",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-080",
+"E",
+"Clindamicina",
+"Neutrófilo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-081",
+"E",
+"Ceftriaxona",
+"Adrenalina intramuscular",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-082",
+"E",
+"Paracetamol",
+"Cotrimoxazol",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-083",
+"E",
+"Faltan datos para decidir",
+"V",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-084",
+"E",
+"Metronidazol",
+"Diuréticos de asa",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-085",
+"E",
+"Ninguna de las anteriores",
+"Macrófagos espumosos",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-086",
+"E",
+"Clindamicina",
+"Porfiria aguda",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-087",
+"E",
+"Ninguna de las anteriores",
+"Lavado gástrico inmediato",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-089",
+"E",
+"Ciprofloxacino",
+"Inhibe directamente la trombina",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-090",
+"E",
+"Todas las anteriores",
+"Variable, sin relación con el ayuno",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-091",
+"E",
+"Todas las anteriores",
+"Maduración de la corteza prefrontal",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-092",
+"E",
+"Ninguna de las anteriores",
+"Mecanismo de acción en el receptor",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-095",
+"D",
+"A y C",
+"CD4",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-095",
+"E",
+"Ninguna anterior",
+"Integrina LFA-1",
+true
+],
+[
+"ciencias_basicas.json",
+"CB-096",
+"E",
+"Ninguna anterior",
+"La taquifilaxia es la disminución rápida del efecto tras dosis repetidas en poco tiempo",
+true
+],
+[
+"ciencias_basicas.json",
+"CB-098",
+"D",
+"Sólo A y C",
+"Inmunodeficiencia común variable",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-098",
+"E",
+"Todas",
+"Agammaglobulinemia ligada al X",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-100",
+"E",
+"Ninguna anterior",
+"Lleva fibras gustativas de los dos tercios anteriores de la lengua",
+true
+],
+[
+"ciencias_basicas.json",
+"CB-101",
+"E",
+"Ninguna anterior",
+"Ángulo de la mandíbula",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-102",
+"E",
+"Todos",
+"Estilohioideo",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-105",
+"E",
+"B y D",
+"Los ribosomas 30S",
+false
+],
+[
+"ciencias_basicas.json",
+"CB-106",
+"E",
+"Ninguna anterior",
+"Isoniazida",
+false
+],
+[
+"cirugia.json",
+"CIR-002",
+"E",
+"Hipertensión arterial",
+"Pielonefritis aguda",
+false
+],
+[
+"cirugia.json",
+"CIR-003",
+"E",
+"Lavado quirúrgico",
+"Fijación quirúrgica costal inmediata",
+false
+],
+[
+"cirugia.json",
+"CIR-004",
+"E",
+"Ninguna de las anteriores",
+"Taponamiento cardiaco",
+false
+],
+[
+"cirugia.json",
+"CIR-005",
+"E",
+"Clindamicina",
+"Aplicar hielo directamente",
+false
+],
+[
+"cirugia.json",
+"CIR-006",
+"E",
+"Todas las anteriores",
+"Ablación endovenosa con láser",
+false
+],
+[
+"cirugia.json",
+"CIR-007",
+"E",
+"Ninguna de las anteriores",
+"54%",
+false
+],
+[
+"cirugia.json",
+"CIR-008",
+"E",
+"Ninguna de las anteriores",
+"Fluidoterapia según Parkland",
+false
+],
+[
+"cirugia.json",
+"CIR-009",
+"E",
+"Azitromicina",
+"Fibrinólisis intraarterial",
+false
+],
+[
+"cirugia.json",
+"CIR-010",
+"E",
+"Infección del tracto urinario",
+"Hidrocele postoperatorio",
+false
+],
+[
+"cirugia.json",
+"CIR-011",
+"E",
+"Ninguna de las anteriores",
+"Fractura de pelvis",
+false
+],
+[
+"cirugia.json",
+"CIR-012",
+"E",
+"Insuficiencia cardíaca",
+"Hemorroide externa trombosada",
+false
+],
+[
+"cirugia.json",
+"CIR-013",
+"E",
+"Ninguna de las anteriores",
+"Hernia umbilical",
+false
+],
+[
+"cirugia.json",
+"CIR-014",
+"E",
+"Faltan datos para decidir",
+"Cáncer de recto",
+false
+],
+[
+"cirugia.json",
+"CIR-015",
+"E",
+"Diabetes Mellitus",
+"Absceso tubo-ovárico",
+false
+],
+[
+"cirugia.json",
+"CIR-016",
+"E",
+"Colonoscopia",
+"Radiografía de columna cervical",
+false
+],
+[
+"cirugia.json",
+"CIR-017",
+"E",
+"Furosemida",
+"Aplicar hielo sobre las quemaduras",
+false
+],
+[
+"cirugia.json",
+"CIR-018",
+"E",
+"Aspirina",
+"Penicilina benzatínica sola",
+false
+],
+[
+"cirugia.json",
+"CIR-019",
+"E",
+"Cirrosis hepática",
+"Celulitis estreptocócica",
+false
+],
+[
+"cirugia.json",
+"CIR-020",
+"E",
+"Insuficiencia cardíaca",
+"Contusión pulmonar",
+false
+],
+[
+"cirugia.json",
+"CIR-021",
+"E",
+"Infección del tracto urinario",
+"Torsión testicular",
+false
+],
+[
+"cirugia.json",
+"CIR-022",
+"E",
+"Asma bronquial",
+"Pancreatitis aguda",
+false
+],
+[
+"cirugia.json",
+"CIR-023",
+"E",
+"Infección del tracto urinario",
+"Íleo paralítico",
+false
+],
+[
+"cirugia.json",
+"CIR-024",
+"E",
+"Faltan datos para decidir",
+"Hernia crural",
+false
+],
+[
+"cirugia.json",
+"CIR-025",
+"E",
+"Solicitar nuevo cultivo",
+"Solo cuando el paciente esté afebril",
+false
+],
+[
+"cirugia.json",
+"CIR-026",
+"E",
+"Ninguna de las anteriores",
+"Profilaxis antirrábica",
+false
+],
+[
+"cirugia.json",
+"CIR-027",
+"E",
+"Ninguna de las anteriores",
+"Colocar sonda nasogástrica",
+false
+],
+[
+"cirugia.json",
+"CIR-028",
+"E",
+"Atropina",
+"Simpatectomía lumbar",
+false
+],
+[
+"cirugia.json",
+"CIR-029",
+"E",
+"Asma bronquial",
+"Coledocolitiasis",
+false
+],
+[
+"cirugia.json",
+"CIR-030",
+"E",
+"Todas las anteriores",
+"Shock neurogénico",
+false
+],
+[
+"cirugia.json",
+"CIR-031",
+"E",
+"Ninguna de las anteriores",
+"Bradicardia sinusal",
+false
+],
+[
+"cirugia.json",
+"CIR-032",
+"E",
+"Ninguna de las anteriores",
+"Angiotomografía de miembros inferiores",
+false
+],
+[
+"cirugia.json",
+"CIR-033",
+"E",
+"Asma bronquial",
+"Divertículo de Meckel complicado",
+false
+],
+[
+"cirugia.json",
+"CIR-034",
+"E",
+"Infección del tracto urinario",
+"Linfedema postraumático",
+false
+],
+[
+"cirugia.json",
+"CIR-035",
+"E",
+"Cirrosis hepática",
+"Insuficiencia cardiaca derecha",
+false
+],
+[
+"cirugia.json",
+"CIR-036",
+"E",
+"Ninguna de las anteriores",
+"Colocar un segundo tubo de tórax",
+false
+],
+[
+"cirugia.json",
+"CIR-037",
+"E",
+"Hipertensión arterial",
+"Quiste pilonidal",
+false
+],
+[
+"cirugia.json",
+"CIR-038",
+"E",
+"Faltan datos para decidir",
+"Hemorroides externas",
+false
+],
+[
+"cirugia.json",
+"CIR-039",
+"E",
+"Faltan datos para decidir",
+"TEM cerebral inmediata",
+false
+],
+[
+"cirugia.json",
+"CIR-040",
+"E",
+"Amputación",
+"Radiografía de tórax antes de actuar",
+false
+],
+[
+"cirugia.json",
+"CIR-041",
+"E",
+"Dexametasona",
+"Oxígeno por cánula nasal",
+false
+],
+[
+"cirugia.json",
+"CIR-042",
+"E",
+"Faltan datos para decidir",
+"Repetir la pericardiocentesis",
+false
+],
+[
+"cirugia.json",
+"CIR-044",
+"E",
+"Cirrosis hepática",
+"Celulitis",
+false
+],
+[
+"cirugia.json",
+"CIR-045",
+"E",
+"Neumonía adquirida",
+"Vólvulo de ciego",
+false
+],
+[
+"cirugia.json",
+"CIR-046",
+"E",
+"Ninguna de las anteriores",
+"Tromboembolismo pulmonar",
+false
+],
+[
+"cirugia.json",
+"CIR-047",
+"E",
+"Ninguna de las anteriores",
+"Cierre con injerto de piel",
+false
+],
+[
+"cirugia.json",
+"CIR-048",
+"E",
+"Faltan datos para decidir",
+"Absceso perianal",
+false
+],
+[
+"cirugia.json",
+"CIR-049",
+"E",
+"Neumonía adquirida",
+"Hernia inguinal indirecta incarcerada",
+false
+],
+[
+"cirugia.json",
+"CIR-051",
+"E",
+"Tuberculosis",
+"Íleo biliar",
+false
+],
+[
+"cirugia.json",
+"CIR-052",
+"E",
+"Diabetes Mellitus",
+"Infección urinaria",
+false
+],
+[
+"cirugia.json",
+"CIR-053",
+"E",
+"Todas las anteriores",
+"Hidrocele",
+false
+],
+[
+"cirugia.json",
+"CIR-054",
+"E",
+"Ecografía Doppler",
+"Edad del paciente",
+false
+],
+[
+"cirugia.json",
+"CIR-055",
+"E",
+"Todas las anteriores",
+"Enema evacuante",
+false
+],
+[
+"cirugia.json",
+"CIR-056",
+"E",
+"Ecocardiograma",
+"Radiografía de tórax",
+false
+],
+[
+"cirugia.json",
+"CIR-057",
+"E",
+"Infección del tracto urinario",
+"Hidrocele a tensión",
+false
+],
+[
+"cirugia.json",
+"CIR-058",
+"E",
+"Resonancia magnética",
+"Pericardiocentesis",
+false
+],
+[
+"cirugia.json",
+"CIR-059",
+"E",
+"Ninguna de las anteriores",
+"Vólvulo de sigmoides",
+false
+],
+[
+"cirugia.json",
+"CIR-060",
+"E",
+"Gammagrafía",
+"Lavado peritoneal diagnóstico",
+false
+],
+[
+"cirugia.json",
+"CIR-061",
+"E",
+"Todas las anteriores",
+"Amputación supracondílea",
+false
+],
+[
+"cirugia.json",
+"CIR-062",
+"E",
+"Todas las anteriores",
+"Renal",
+false
+],
+[
+"cirugia.json",
+"CIR-063",
+"E",
+"Epinefrina",
+"Colangiopancreatografía retrógrada endoscópica",
+false
+],
+[
+"cirugia.json",
+"CIR-064",
+"E",
+"Ninguna de las anteriores",
+"Aplicar hielo sobre las quemaduras",
+false
+],
+[
+"cirugia.json",
+"CIR-065",
+"E",
+"Faltan datos para decidir",
+"Fijación quirúrgica de las costillas de urgencia",
+false
+],
+[
+"cirugia.json",
+"CIR-066",
+"E",
+"Todas las anteriores",
+"Séptico",
+false
+],
+[
+"cirugia.json",
+"CIR-067",
+"E",
+"Ninguna de las anteriores",
+"Resección local del tumor con margen",
+false
+],
+[
+"cirugia.json",
+"CIR-068",
+"E",
+"Ninguna de las anteriores",
+"Hemorroidopexia con grapas",
+false
+],
+[
+"cirugia.json",
+"CIR-069",
+"E",
+"Metronidazol",
+"Fistulotomía",
+false
+],
+[
+"cirugia.json",
+"CIR-070",
+"E",
+"Ninguna de las anteriores",
+"Tomografía cerebral",
+false
+],
+[
+"cirugia.json",
+"CIR-071",
+"E",
+"Todas las anteriores",
+"Superficial con necrosis dérmica",
+false
+],
+[
+"cirugia.json",
+"CIR-072",
+"E",
+"Drenaje percutáneo",
+"Toracotomía de emergencia",
+false
+],
+[
+"cirugia.json",
+"CIR-073",
+"E",
+"Diabetes Mellitus",
+"Gangrena gaseosa por clostridios",
+false
+],
+[
+"cirugia.json",
+"CIR-074",
+"E",
+"Faltan datos para decidir",
+"Alta inmediata con analgésicos",
+false
+],
+[
+"cirugia.json",
+"CIR-075",
+"E",
+"Azitromicina",
+"Amoxicilina-ácido clavulánico oral y alta",
+false
+],
+[
+"cirugia.json",
+"CIR-076",
+"E",
+"Todas las anteriores",
+"Escarectomía temprana",
+false
+],
+[
+"cirugia.json",
+"CIR-077",
+"E",
+"Ninguna de las anteriores",
+"Cuarto con trombosis",
+false
+],
+[
+"cirugia.json",
+"CIR-078",
+"E",
+"Faltan datos para decidir",
+"Sedación sin bloqueo",
+false
+],
+[
+"cirugia.json",
+"CIR-079",
+"E",
+"Diabetes Mellitus",
+"Hipotiroidismo agudo",
+false
+],
+[
+"cirugia.json",
+"CIR-080",
+"E",
+"Lavado quirúrgico",
+"Colectomía con anastomosis primaria inmediata",
+false
+],
+[
+"cirugia.json",
+"CIR-081",
+"E",
+"Faltan datos para decidir",
+"Enema baritado",
+false
+],
+[
+"cirugia.json",
+"CIR-082",
+"E",
+"Faltan datos para decidir",
+"Hipopotasemia por diarrea",
+false
+],
+[
+"cirugia.json",
+"CIR-083",
+"E",
+"Infección del tracto urinario",
+"Diverticulitis de colon derecho",
+false
+],
+[
+"cirugia.json",
+"CIR-084",
+"E",
+"Faltan datos para decidir",
+"Menor tiempo quirúrgico en todos los casos",
+false
+],
+[
+"cirugia.json",
+"CIR-085",
+"E",
+"Faltan datos para decidir",
+"Lipoma",
+false
+],
+[
+"cirugia.json",
+"CIR-086",
+"E",
+"Hipertensión arterial",
+"Hepatitis aguda viral",
+false
+],
+[
+"cirugia.json",
+"CIR-087",
+"E",
+"Insuficiencia cardíaca",
+"Trombosis venosa profunda",
+false
+],
+[
+"cirugia.json",
+"CIR-088",
+"E",
+"Faltan datos para decidir",
+"Laparoscopía diagnóstica diferida",
+false
+],
+[
+"cirugia.json",
+"CIR-089",
+"E",
+"Todas las anteriores",
+"Contusión miocárdica",
+false
+],
+[
+"cirugia.json",
+"CIR-090",
+"E",
+"Faltan datos para decidir",
+"Neumotórax simple",
+false
+],
+[
+"cirugia.json",
+"CIR-091",
+"E",
+"Todas las anteriores",
+"Vasopresores como primera medida",
+false
+],
+[
+"cirugia.json",
+"CIR-092",
+"E",
+"Faltan datos para decidir",
+"45%",
+false
+],
+[
+"cirugia.json",
+"CIR-093",
+"E",
+"Todas las anteriores",
+"I",
+false
+],
+[
+"cirugia.json",
+"CIR-094",
+"E",
+"Todas las anteriores",
+"Antibióticos y analgésicos",
+false
+],
+[
+"cirugia.json",
+"CIR-095",
+"E",
+"Todas las anteriores",
+"Tomografía de abdomen antes de decidir",
+false
+],
+[
+"cirugia.json",
+"CIR-096",
+"E",
+"Faltan datos para decidir",
+"II superficial extensa",
+false
+],
+[
+"cirugia.json",
+"CIR-097",
+"E",
+"Ninguna de las anteriores",
+"Colecistectomía de revisión",
+false
+],
+[
+"cirugia.json",
+"CIR-098",
+"E",
+"Lavado quirúrgico",
+"Laparotomía exploratoria",
+false
+],
+[
+"cirugia.json",
+"CIR-099",
+"E",
+"Todas las anteriores",
+"Riñón izquierdo",
+false
+],
+[
+"cirugia.json",
+"CIR-100",
+"E",
+"Apendicitis aguda",
+"Trombosis venosa profunda",
+false
+],
+[
+"cirugia.json",
+"CIR-101",
+"E",
+"Todas las anteriores",
+"Riñón",
+false
+],
+[
+"cirugia.json",
+"CIR-102",
+"E",
+"Arteriografía",
+"Colonoscopía",
+false
+],
+[
+"cirugia.json",
+"CIR-103",
+"E",
+"Ninguna de las anteriores",
+"Safenectomía de emergencia",
+false
+],
+[
+"cirugia.json",
+"CIR-104",
+"E",
+"Síndrome de Guillain-Barré",
+"Úlcera péptica perforada",
+false
+],
+[
+"cirugia.json",
+"CIR-105",
+"E",
+"Ninguna de las anteriores",
+"1° grado en el 30% SCT",
+false
+],
+[
+"cirugia.json",
+"CIR-106",
+"E",
+"Colonoscopia",
+"Endoscopía digestiva alta",
+false
+],
+[
+"cirugia.json",
+"CIR-107",
+"E",
+"Amputación",
+"Gastroyeyunostomía inmediata",
+false
+],
+[
+"cirugia.json",
+"CIR-108",
+"E",
+"Lavado quirúrgico",
+"Cierre de la herida con nuevos puntos",
+false
+],
+[
+"cirugia.json",
+"CIR-109",
+"E",
+"Insuficiencia cardíaca",
+"Atelectasia",
+false
+],
+[
+"cirugia.json",
+"CIR-110",
+"E",
+"Epinefrina",
+"Antibióticos profilácticos",
+false
+],
+[
+"cirugia.json",
+"CIR-111",
+"E",
+"Ecocardiograma",
+"Tomografía con contraste oral",
+false
+],
+[
+"cirugia.json",
+"CIR-112",
+"E",
+"Resección quirúrgica",
+"Toracocentesis con aguja",
+false
+],
+[
+"cirugia.json",
+"CIR-113",
+"E",
+"Ninguna de las anteriores",
+"Esfinterotomía endoscópica",
+false
+],
+[
+"cirugia.json",
+"CIR-114",
+"E",
+"Ninguna de las anteriores",
+"Radial",
+false
+],
+[
+"cirugia.json",
+"CIR-115",
+"E",
+"Hipertensión arterial",
+"Celulitis",
+false
+],
+[
+"cirugia.json",
+"CIR-116",
+"E",
+"Amputación",
+"Hemorroidectomía",
+false
+],
+[
+"cirugia.json",
+"CIR-117",
+"E",
+"Faltan datos para decidir",
+"Hemorroidectomía cerrada urgente",
+false
+],
+[
+"cirugia.json",
+"CIR-118",
+"E",
+"Ninguna de las anteriores",
+"Drenaje percutáneo del plastrón",
+false
+],
+[
+"cirugia.json",
+"CIR-119",
+"E",
+"Faltan datos para decidir",
+"Repetir la ecografía en 24 horas",
+false
+],
+[
+"cirugia.json",
+"CIR-120",
+"E",
+"Sepsis",
+"Las trombosis arteriales agudas",
+false
+],
+[
+"cirugia.json",
+"CIR-121",
+"E",
+"Neumonía adquirida",
+"Enfermedad de Crohn",
+false
+],
+[
+"cirugia.json",
+"CIR-122",
+"E",
+"Alta médica con indicaciones",
+"Colocar faja abdominal y alta",
+false
+],
+[
+"cirugia.json",
+"CIR-123",
+"E",
+"Ninguna de las anteriores",
+"Hongos y grampositivos",
+false
+],
+[
+"cirugia.json",
+"CIR-124",
+"E",
+"Ninguna de las anteriores",
+"Hepatorrafia por laparoscopía",
+false
+],
+[
+"endocrinologia.json",
+"END-002",
+"E",
+"Infección del tracto urinario",
+"Síndrome del eutiroideo enfermo",
+false
+],
+[
+"endocrinologia.json",
+"END-003",
+"E",
+"Asma bronquial",
+"Feocromocitoma",
+false
+],
+[
+"endocrinologia.json",
+"END-004",
+"E",
+"Epinefrina",
+"Insulina en ayunas",
+false
+],
+[
+"endocrinologia.json",
+"END-005",
+"E",
+"Amoxicilina",
+"Atorvastatina más fenofibrato",
+false
+],
+[
+"endocrinologia.json",
+"END-006",
+"E",
+"Ketorolaco",
+"Yodo radiactivo",
+false
+],
+[
+"endocrinologia.json",
+"END-007",
+"E",
+"Apendicitis aguda",
+"Ansiedad generalizada",
+false
+],
+[
+"endocrinologia.json",
+"END-008",
+"E",
+"Epinefrina",
+"Prueba de tolerancia oral a la glucosa con insulinemia",
+false
+],
+[
+"endocrinologia.json",
+"END-009",
+"E",
+"Ninguna de las anteriores",
+"Antibióticos de amplio espectro",
+false
+],
+[
+"endocrinologia.json",
+"END-010",
+"E",
+"Tuberculosis",
+"Tiroiditis subaguda linfocítica",
+false
+],
+[
+"endocrinologia.json",
+"END-011",
+"E",
+"Diabetes Mellitus",
+"Acidosis láctica",
+false
+],
+[
+"endocrinologia.json",
+"END-012",
+"E",
+"Paracetamol",
+"Insulina rápida endovenosa",
+false
+],
+[
+"endocrinologia.json",
+"END-013",
+"E",
+"Faltan datos para decidir",
+"Magnesio sérico aislado",
+false
+],
+[
+"endocrinologia.json",
+"END-014",
+"E",
+"Faltan datos para decidir",
+"Dosaje de estradiol aislado",
+false
+],
+[
+"endocrinologia.json",
+"END-015",
+"E",
+"Todas las anteriores",
+"Disbetalipoproteinemia",
+false
+],
+[
+"endocrinologia.json",
+"END-016",
+"E",
+"Síndrome de Guillain-Barré",
+"Trastorno de ansiedad",
+false
+],
+[
+"endocrinologia.json",
+"END-017",
+"E",
+"Cirrosis hepática",
+"Hipertiroidismo",
+false
+],
+[
+"endocrinologia.json",
+"END-018",
+"E",
+"Asma bronquial",
+"Diabetes mellitus",
+false
+],
+[
+"endocrinologia.json",
+"END-019",
+"E",
+"Omeprazol",
+"Glucosa en orina",
+false
+],
+[
+"endocrinologia.json",
+"END-020",
+"E",
+"Faltan datos para decidir",
+"Dosaje de prolactina",
+false
+],
+[
+"endocrinologia.json",
+"END-021",
+"E",
+"Síndrome de Guillain-Barré",
+"Hipotiroidismo central",
+false
+],
+[
+"endocrinologia.json",
+"END-022",
+"E",
+"Dexametasona",
+"Yodo radiactivo durante el embarazo",
+false
+],
+[
+"endocrinologia.json",
+"END-023",
+"E",
+"Cirrosis hepática",
+"Ataque de pánico",
+false
+],
+[
+"endocrinologia.json",
+"END-024",
+"E",
+"Faltan datos para decidir",
+"Anticuerpos antitiroideos solamente",
+false
+],
+[
+"endocrinologia.json",
+"END-025",
+"E",
+"Prednisona",
+"Yodo oral",
+false
+],
+[
+"endocrinologia.json",
+"END-026",
+"E",
+"Todas las anteriores",
+"Síndrome de Cushing",
+false
+],
+[
+"endocrinologia.json",
+"END-027",
+"E",
+"Apendicitis aguda",
+"Prolactinoma",
+false
+],
+[
+"endocrinologia.json",
+"END-028",
+"E",
+"Todas las anteriores",
+"Sodio urinario",
+false
+],
+[
+"endocrinologia.json",
+"END-029",
+"E",
+"Ninguna de las anteriores",
+"Nodular tóxico",
+false
+],
+[
+"endocrinologia.json",
+"END-030",
+"E",
+"Ketorolaco",
+"Ejercicio intenso diario sin descanso",
+false
+],
+[
+"endocrinologia.json",
+"END-031",
+"E",
+"Asma bronquial",
+"Tiroiditis subaguda",
+false
+],
+[
+"endocrinologia.json",
+"END-032",
+"E",
+"Asma bronquial",
+"Adenoma tóxico",
+false
+],
+[
+"endocrinologia.json",
+"END-033",
+"E",
+"Reposo absoluto",
+"Poliuria, densidad urinaria baja e hiponatremia",
+false
+],
+[
+"endocrinologia.json",
+"END-034",
+"E",
+"Omeprazol",
+"Prolactina",
+false
+],
+[
+"endocrinologia.json",
+"END-035",
+"E",
+"Apendicitis aguda",
+"Tiroiditis supurativa aguda",
+false
+],
+[
+"endocrinologia.json",
+"END-036",
+"E",
+"Cirrosis hepática",
+"Hipotiroidismo",
+false
+],
+[
+"endocrinologia.json",
+"END-037",
+"E",
+"Azitromicina",
+"Estado hiperosmolar",
+false
+],
+[
+"endocrinologia.json",
+"END-038",
+"E",
+"Asma bronquial",
+"Pancreatitis aguda",
+false
+],
+[
+"endocrinologia.json",
+"END-039",
+"E",
+"Todas las anteriores",
+"Octreótido como única medida",
+false
+],
+[
+"endocrinologia.json",
+"END-040",
+"E",
+"Diabetes Mellitus",
+"Síndrome de ovario poliquístico",
+false
+],
+[
+"endocrinologia.json",
+"END-041",
+"E",
+"Atropina",
+"Enfermedad de Addison",
+false
+],
+[
+"endocrinologia.json",
+"END-042",
+"E",
+"Azitromicina",
+"Creatinina sérica",
+false
+],
+[
+"endocrinologia.json",
+"END-043",
+"E",
+"Tuberculosis",
+"Hipoparatiroidismo",
+false
+],
+[
+"endocrinologia.json",
+"END-044",
+"E",
+"Ninguna de las anteriores",
+"Mantequilla y lácteos enteros",
+false
+],
+[
+"endocrinologia.json",
+"END-045",
+"E",
+"Repetir examen en 24 horas",
+"Insulina rápida subcutánea",
+false
+],
+[
+"endocrinologia.json",
+"END-046",
+"E",
+"Ciprofloxacino",
+"Tiroidectomía inmediata",
+false
+],
+[
+"endocrinologia.json",
+"END-047",
+"E",
+"Omeprazol",
+"Yodo radiactivo",
+false
+],
+[
+"endocrinologia.json",
+"END-048",
+"E",
+"Ketorolaco",
+"Aumentar metformina a 3 g/día",
+false
+],
+[
+"endocrinologia.json",
+"END-049",
+"E",
+"Lupus eritematoso sistémico",
+"Preeclampsia severa",
+false
+],
+[
+"endocrinologia.json",
+"END-050",
+"E",
+"Ninguna de las anteriores",
+"Miositis por yodo radiactivo",
+false
+],
+[
+"endocrinologia.json",
+"END-051",
+"E",
+"Clindamicina",
+"Aumento de la excreción renal de bicarbonato",
+false
+],
+[
+"endocrinologia.json",
+"END-052",
+"E",
+"Amoxicilina",
+"Insulina rápida",
+false
+],
+[
+"endocrinologia.json",
+"END-053",
+"E",
+"Ibuprofeno",
+"Suspender el orlistat y solo vigilar",
+false
+],
+[
+"endocrinologia.json",
+"END-054",
+"E",
+"Diabetes Mellitus",
+"Coma hiperosmolar",
+false
+],
+[
+"endocrinologia.json",
+"END-055",
+"E",
+"Omeprazol",
+"Insulina glargina",
+false
+],
+[
+"endocrinologia.json",
+"END-056",
+"E",
+"Aumentar dosis",
+"Glucosa en ayunas de 180 mg/dl",
+false
+],
+[
+"endocrinologia.json",
+"END-057",
+"E",
+"Ceftriaxona",
+"Glucosa sérica",
+false
+],
+[
+"endocrinologia.json",
+"END-058",
+"E",
+"Prednisona",
+"Calcitonina",
+false
+],
+[
+"endocrinologia.json",
+"END-059",
+"E",
+"Faltan datos para decidir",
+"Monitorizar el potasio sérico",
+false
+],
+[
+"endocrinologia.json",
+"END-060",
+"E",
+"Todas las anteriores",
+"B12",
+false
+],
+[
+"endocrinologia.json",
+"END-061",
+"E",
+"Faltan datos para decidir",
+"Metformina",
+false
+],
+[
+"endocrinologia.json",
+"END-062",
+"E",
+"Ciprofloxacino",
+"Solución salina hipertónica",
+false
+],
+[
+"endocrinologia.json",
+"END-063",
+"E",
+"Dexametasona",
+"Sitagliptina",
+false
+],
+[
+"endocrinologia.json",
+"END-064",
+"E",
+"Aspirina",
+"Repetir la glucemia en un año",
+false
+],
+[
+"endocrinologia.json",
+"END-065",
+"E",
+"Ketorolaco",
+"Bicarbonato de sodio en bolo",
+false
+],
+[
+"endocrinologia.json",
+"END-066",
+"E",
+"Ninguna de las anteriores",
+"Bloqueo de la reabsorción de sodio en el asa de Henle",
+false
+],
+[
+"endocrinologia.json",
+"END-067",
+"E",
+"Solicitar nuevo cultivo",
+"Hipotiroidismo no tratado",
+false
+],
+[
+"endocrinologia.json",
+"END-068",
+"E",
+"Tramadol",
+"Aumentar la dosis de tiamazol",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-002",
+"E",
+"Faltan datos para decidir",
+"Loperamida",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-003",
+"E",
+"Ninguna de las anteriores",
+"Pancreatectomía total",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-004",
+"E",
+"Asma bronquial",
+"Esofagitis eosinofílica",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-005",
+"E",
+"Hospitalización en UCI",
+"Gastroscopía con biopsia",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-006",
+"E",
+"Infección del tracto urinario",
+"Várices esofágicas",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-007",
+"E",
+"Síndrome de Guillain-Barré",
+"Úlcera duodenal sangrante",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-008",
+"E",
+"Clindamicina",
+"Hipoglucemia",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-009",
+"E",
+"Hipertensión arterial",
+"Linfoma intestinal",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-010",
+"E",
+"Diabetes Mellitus",
+"Megacolon tóxico",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-011",
+"E",
+"Ninguna de las anteriores",
+"Leucocitos fecales abundantes",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-012",
+"E",
+"Todas las anteriores",
+"IgG anti VHA",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-013",
+"E",
+"Síndrome de Guillain-Barré",
+"Enfermedad de Crohn",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-014",
+"E",
+"Síndrome de Guillain-Barré",
+"Linfoma MALT",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-015",
+"E",
+"Hipertensión arterial",
+"Gastroparesia",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-016",
+"E",
+"Faltan datos para decidir",
+"Escleroterapia con alcohol absoluto",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-017",
+"E",
+"Ceftriaxona",
+"Amilasa",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-018",
+"E",
+"Alta médica con indicaciones",
+"Infarto agudo de miocardio inferior",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-019",
+"E",
+"Todas las anteriores",
+"Respiratoria",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-020",
+"E",
+"Todas las anteriores",
+"Glucosa",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-021",
+"E",
+"Amoxicilina",
+"Nutrición parenteral total",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-022",
+"E",
+"Metronidazol",
+"Síndrome de intestino irritable",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-023",
+"E",
+"Sepsis",
+"Colitis infecciosa por Clostridioides difficile",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-024",
+"E",
+"Lupus eritematoso sistémico",
+"Hepatitis viral",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-025",
+"E",
+"Tuberculosis",
+"Várices esofágicas",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-026",
+"E",
+"Faltan datos para decidir",
+"Lactulosa oral",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-027",
+"E",
+"Apendicitis aguda",
+"Hepatitis viral aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-028",
+"E",
+"Metronidazol",
+"Hemicolectomía izquierda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-029",
+"E",
+"Síndrome de Guillain-Barré",
+"Coledocolitiasis",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-030",
+"E",
+"Todas las anteriores",
+"Hipersecreción de pepsinógeno por células principales",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-031",
+"E",
+"Clindamicina",
+"Gamma glutamil transferasa",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-032",
+"E",
+"Diabetes Mellitus",
+"Pancreatitis crónica",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-033",
+"E",
+"Faltan datos para decidir",
+"Colecistectomía de urgencia",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-034",
+"E",
+"Ninguna de las anteriores",
+"Anticuerpos anti-VHC",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-035",
+"E",
+"Diabetes Mellitus",
+"Síndrome de Dubin-Johnson",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-036",
+"E",
+"Paracetamol",
+"Hemodiálisis",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-037",
+"E",
+"Epinefrina",
+"Metronidazol",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-038",
+"E",
+"Diabetes Mellitus",
+"Hepatitis C aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-039",
+"E",
+"Resonancia magnética",
+"Ecografía endoscópica",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-040",
+"E",
+"Ecografía Doppler",
+"Prueba de esfuerzo",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-041",
+"E",
+"Ninguna de las anteriores",
+"Inmediatamente al ingreso",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-042",
+"E",
+"Todas las anteriores",
+"Antibiótico oral ambulatorio",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-043",
+"E",
+"Todas las anteriores",
+"Crónica agudizada",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-044",
+"E",
+"Atropina",
+"Ligadura y omeprazol en infusión",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-045",
+"E",
+"Amoxicilina",
+"Diuréticos a dosis altas",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-046",
+"E",
+"Todas las anteriores",
+"Portador crónico inactivo",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-047",
+"E",
+"Apendicitis aguda",
+"Hepatitis viral postransfusional aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-048",
+"E",
+"Faltan datos para decidir",
+"Lipasa",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-049",
+"E",
+"Asma bronquial",
+"Insuficiencia cardiaca derecha",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-050",
+"E",
+"Tuberculosis",
+"Esofagitis por reflujo",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-051",
+"E",
+"Arteriografía",
+"Ecografía abdominal",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-052",
+"E",
+"Ninguna de las anteriores",
+"Ca 125",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-053",
+"E",
+"Lupus eritematoso sistémico",
+"Edema pulmonar cardiogénico por insuficiencia cardiaca",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-054",
+"E",
+"Neumonía adquirida",
+"Hepatitis viral aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-055",
+"E",
+"Infección del tracto urinario",
+"Estenosis péptica benigna únicamente",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-056",
+"E",
+"Infección del tracto urinario",
+"Hepatitis alcohólica",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-057",
+"E",
+"Faltan datos para decidir",
+"Neurogénico",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-058",
+"E",
+"Ninguna de las anteriores",
+"Hueso",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-059",
+"E",
+"Síndrome de Guillain-Barré",
+"Colangiocarcinoma hiliar",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-060",
+"E",
+"Ninguna de las anteriores",
+"Aumentar la dosis de enzimas y observar",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-061",
+"E",
+"Endoscopia digestiva",
+"Ecografía Doppler hepática",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-062",
+"E",
+"Arteriografía",
+"Tomografía de tórax",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-063",
+"E",
+"Lupus eritematoso sistémico",
+"Enfermedad celíaca",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-064",
+"E",
+"Atropina",
+"Lipasa",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-065",
+"E",
+"Insuficiencia cardíaca",
+"Peritonitis bacteriana secundaria a perforación",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-066",
+"E",
+"Ninguna de las anteriores",
+"Endoscopía digestiva alta",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-067",
+"E",
+"Radiografía simple",
+"Carga viral",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-068",
+"E",
+"Insuficiencia cardíaca",
+"Carcinomatosis peritoneal",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-069",
+"E",
+"Apendicitis aguda",
+"Úlcera péptica perforada",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-070",
+"E",
+"Faltan datos para decidir",
+"Colecistectomía de urgencia",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-071",
+"E",
+"Diazepam",
+"Ecografía abdominal",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-072",
+"E",
+"Endoscopia digestiva",
+"Colonoscopía en la fase aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-073",
+"E",
+"Ninguna de las anteriores",
+"Carbapenémicos",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-074",
+"E",
+"Sepsis",
+"Glomerulonefritis aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-075",
+"E",
+"Neumonía adquirida",
+"Pancreatitis",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-076",
+"E",
+"Hipertensión arterial",
+"Hepatitis viral aguda",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-077",
+"E",
+"Todas las anteriores",
+"Hepatitis tóxica por levotiroxina",
+false
+],
+[
+"gastroenterologia.json",
+"GAS-078",
+"E",
+"Insulina",
+"La lipasa activa directamente el tripsinógeno",
+false
+],
+[
+"ginecologia.json",
+"GIN-002",
+"E",
+"Laparoscopía diagnóstica",
+"Alta con reposo domiciliario",
+false
+],
+[
+"ginecologia.json",
+"GIN-003",
+"E",
+"Amputación",
+"Esperar dilatación completa",
+false
+],
+[
+"ginecologia.json",
+"GIN-004",
+"E",
+"Faltan datos para decidir",
+"Hipertensión crónica",
+false
+],
+[
+"ginecologia.json",
+"GIN-005",
+"E",
+"Ninguna de las anteriores",
+"Síndrome HELLP completo",
+false
+],
+[
+"ginecologia.json",
+"GIN-006",
+"E",
+"Aspirina",
+"Suspender la lactancia",
+false
+],
+[
+"ginecologia.json",
+"GIN-007",
+"E",
+"Neumonía adquirida",
+"Litiasis renal",
+false
+],
+[
+"ginecologia.json",
+"GIN-008",
+"E",
+"Laparotomía exploratoria",
+"Amniotomía",
+false
+],
+[
+"ginecologia.json",
+"GIN-009",
+"E",
+"Ninguna de las anteriores",
+"Histerosalpingografía",
+false
+],
+[
+"ginecologia.json",
+"GIN-010",
+"E",
+"Terapia de rehabilitación",
+"Realizar versión cefálica externa",
+false
+],
+[
+"ginecologia.json",
+"GIN-011",
+"E",
+"Toracocentesis",
+"Amnioinfusión",
+false
+],
+[
+"ginecologia.json",
+"GIN-012",
+"E",
+"Insulina",
+"Dexametasona en dosis única oral",
+false
+],
+[
+"ginecologia.json",
+"GIN-013",
+"E",
+"Diabetes Mellitus",
+"Embarazo ectópico",
+false
+],
+[
+"ginecologia.json",
+"GIN-014",
+"E",
+"Ninguna de las anteriores",
+"Aborto incompleto",
+false
+],
+[
+"ginecologia.json",
+"GIN-015",
+"E",
+"Ninguna de las anteriores",
+"Ablación endometrial",
+false
+],
+[
+"ginecologia.json",
+"GIN-016",
+"E",
+"Faltan datos para decidir",
+"Embarazo de menor edad gestacional",
+false
+],
+[
+"ginecologia.json",
+"GIN-017",
+"E",
+"Todas las anteriores",
+"Trichomoniasis",
+false
+],
+[
+"ginecologia.json",
+"GIN-018",
+"E",
+"Prednisona",
+"Ecografía abdominal",
+false
+],
+[
+"ginecologia.json",
+"GIN-019",
+"E",
+"Resección quirúrgica",
+"Parto vaginal con episiotomía",
+false
+],
+[
+"ginecologia.json",
+"GIN-020",
+"E",
+"Intubación endotraqueal",
+"Cesárea inmediata",
+false
+],
+[
+"ginecologia.json",
+"GIN-021",
+"E",
+"Todas las anteriores",
+"Masculino",
+false
+],
+[
+"ginecologia.json",
+"GIN-022",
+"E",
+"Alta médica con indicaciones",
+"Control en una semana",
+false
+],
+[
+"ginecologia.json",
+"GIN-023",
+"E",
+"Todas las anteriores",
+"Pesario y alta",
+false
+],
+[
+"ginecologia.json",
+"GIN-024",
+"E",
+"Neumonía adquirida",
+"Rotura uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-025",
+"E",
+"Ecocardiograma",
+"Repetir ecografía en 1 año",
+false
+],
+[
+"ginecologia.json",
+"GIN-026",
+"E",
+"Faltan datos para decidir",
+"24",
+false
+],
+[
+"ginecologia.json",
+"GIN-027",
+"E",
+"Faltan datos para decidir",
+"Trabajo de parto en fase activa",
+false
+],
+[
+"ginecologia.json",
+"GIN-028",
+"E",
+"Furosemida",
+"Legrado uterino inmediato",
+false
+],
+[
+"ginecologia.json",
+"GIN-029",
+"E",
+"Resección quirúrgica",
+"Uso de prostaglandinas",
+false
+],
+[
+"ginecologia.json",
+"GIN-030",
+"E",
+"Fijación externa",
+"Inducción con misoprostol",
+false
+],
+[
+"ginecologia.json",
+"GIN-031",
+"E",
+"Asma bronquial",
+"Mastitis puerperal",
+false
+],
+[
+"ginecologia.json",
+"GIN-032",
+"E",
+"Metronidazol",
+"Pielonefritis aguda",
+false
+],
+[
+"ginecologia.json",
+"GIN-033",
+"E",
+"Ceftriaxona",
+"Rotura del seno marginal",
+false
+],
+[
+"ginecologia.json",
+"GIN-034",
+"E",
+"Todas las anteriores",
+"Inducción inmediata del parto",
+false
+],
+[
+"ginecologia.json",
+"GIN-035",
+"E",
+"Insulina",
+"Hemoglobina glicosilada mensual",
+false
+],
+[
+"ginecologia.json",
+"GIN-036",
+"E",
+"Faltan datos para decidir",
+"Que sea su primer parto",
+false
+],
+[
+"ginecologia.json",
+"GIN-037",
+"E",
+"Ninguna de las anteriores",
+"Amniocentesis",
+false
+],
+[
+"ginecologia.json",
+"GIN-038",
+"E",
+"Faltan datos para decidir",
+"Amniocentesis para madurez pulmonar",
+false
+],
+[
+"ginecologia.json",
+"GIN-039",
+"E",
+"Ciprofloxacino",
+"Embarazo ectópico",
+false
+],
+[
+"ginecologia.json",
+"GIN-040",
+"E",
+"Todas las anteriores",
+"Embarazo gemelar",
+false
+],
+[
+"ginecologia.json",
+"GIN-041",
+"E",
+"Ninguna de las anteriores",
+"Amenaza de aborto",
+false
+],
+[
+"ginecologia.json",
+"GIN-042",
+"E",
+"Clindamicina",
+"Vasa previa",
+false
+],
+[
+"ginecologia.json",
+"GIN-043",
+"E",
+"Apendicitis aguda",
+"Colecistitis aguda",
+false
+],
+[
+"ginecologia.json",
+"GIN-044",
+"E",
+"Faltan datos para decidir",
+"La cabeza en la vulva",
+false
+],
+[
+"ginecologia.json",
+"GIN-045",
+"E",
+"Tramadol",
+"Clotrimazol vaginal por tres días",
+false
+],
+[
+"ginecologia.json",
+"GIN-046",
+"E",
+"Tuberculosis",
+"Hemodiálisis suspendida durante el embarazo",
+false
+],
+[
+"ginecologia.json",
+"GIN-047",
+"E",
+"Faltan datos para decidir",
+"Inmediatamente al diagnóstico",
+false
+],
+[
+"ginecologia.json",
+"GIN-048",
+"E",
+"Ceftriaxona",
+"Rotura del seno marginal",
+false
+],
+[
+"ginecologia.json",
+"GIN-049",
+"E",
+"Infección del tracto urinario",
+"Mastitis puerperal",
+false
+],
+[
+"ginecologia.json",
+"GIN-050",
+"E",
+"Neumonía adquirida",
+"Infección urinaria baja",
+false
+],
+[
+"ginecologia.json",
+"GIN-052",
+"E",
+"Derivación a especialista",
+"Cesárea electiva",
+false
+],
+[
+"ginecologia.json",
+"GIN-053",
+"E",
+"Ninguna de las anteriores",
+"Episiotomía amplia como única maniobra",
+false
+],
+[
+"ginecologia.json",
+"GIN-054",
+"E",
+"Arteriografía",
+"Terapia de reemplazo hormonal",
+false
+],
+[
+"ginecologia.json",
+"GIN-055",
+"E",
+"Paracetamol",
+"Fluconazol como única medida",
+false
+],
+[
+"ginecologia.json",
+"GIN-056",
+"E",
+"Lupus eritematoso sistémico",
+"Cistoadenoma mucinoso",
+false
+],
+[
+"ginecologia.json",
+"GIN-057",
+"E",
+"Cirrosis hepática",
+"Trabajo de parto prolongado",
+false
+],
+[
+"ginecologia.json",
+"GIN-058",
+"E",
+"Faltan datos para decidir",
+"Chlamydia trachomatis",
+false
+],
+[
+"ginecologia.json",
+"GIN-059",
+"E",
+"Aspirina",
+"Rotura uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-061",
+"E",
+"Resonancia magnética",
+"Suspender la lactancia materna",
+false
+],
+[
+"ginecologia.json",
+"GIN-062",
+"E",
+"Tramadol",
+"Atonía uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-063",
+"E",
+"Ninguna de las anteriores",
+"Inducción del parto en el centro de salud",
+false
+],
+[
+"ginecologia.json",
+"GIN-064",
+"E",
+"Todas las anteriores",
+"Iniciar metformina",
+false
+],
+[
+"ginecologia.json",
+"GIN-065",
+"E",
+"Ninguna de las anteriores",
+"Antibióticos profilácticos a todas las puérperas por 7 días",
+false
+],
+[
+"ginecologia.json",
+"GIN-066",
+"E",
+"Apendicitis aguda",
+"Liquen escleroso",
+false
+],
+[
+"ginecologia.json",
+"GIN-067",
+"E",
+"Faltan datos para decidir",
+"Séptico",
+false
+],
+[
+"ginecologia.json",
+"GIN-068",
+"E",
+"Azitromicina",
+"Iniciar insulina",
+false
+],
+[
+"ginecologia.json",
+"GIN-069",
+"E",
+"Todas las anteriores",
+"Electivo",
+false
+],
+[
+"ginecologia.json",
+"GIN-070",
+"E",
+"Omeprazol",
+"Rotura del seno marginal",
+false
+],
+[
+"ginecologia.json",
+"GIN-071",
+"E",
+"Faltan datos para decidir",
+"Estómago",
+false
+],
+[
+"ginecologia.json",
+"GIN-072",
+"E",
+"Ninguna de las anteriores",
+"Citología de cúpula vaginal anual",
+false
+],
+[
+"ginecologia.json",
+"GIN-073",
+"E",
+"Metronidazol",
+"Retirar el tratamiento y observar",
+false
+],
+[
+"ginecologia.json",
+"GIN-074",
+"E",
+"Diabetes Mellitus",
+"Absceso tubo-ovárico",
+false
+],
+[
+"ginecologia.json",
+"GIN-075",
+"E",
+"Valores normales",
+"Tratar con nitrofurantoína",
+false
+],
+[
+"ginecologia.json",
+"GIN-076",
+"E",
+"Gammagrafía",
+"Radiografía simple de abdomen",
+false
+],
+[
+"ginecologia.json",
+"GIN-077",
+"E",
+"Hemodiálisis",
+"Amnioinfusión",
+false
+],
+[
+"ginecologia.json",
+"GIN-078",
+"E",
+"Ibuprofeno",
+"Midiendo el diámetro biparietal a las 20 semanas",
+false
+],
+[
+"ginecologia.json",
+"GIN-079",
+"E",
+"Laparotomía exploratoria",
+"Furosemida y manejo expectante",
+false
+],
+[
+"ginecologia.json",
+"GIN-080",
+"E",
+"Todas las anteriores",
+"Histerectomía de urgencia",
+false
+],
+[
+"ginecologia.json",
+"GIN-081",
+"E",
+"Faltan datos para decidir",
+"Indicar progesterona y alta",
+false
+],
+[
+"ginecologia.json",
+"GIN-082",
+"E",
+"Ecografía Doppler",
+"Paracentesis",
+false
+],
+[
+"ginecologia.json",
+"GIN-083",
+"E",
+"Derivación a especialista",
+"Realizar amniotomía",
+false
+],
+[
+"ginecologia.json",
+"GIN-084",
+"E",
+"Ceftriaxona",
+"Ovárica por falla prematura",
+false
+],
+[
+"ginecologia.json",
+"GIN-085",
+"E",
+"Hemodiálisis",
+"Aumentar la dosis de sulfato de magnesio",
+false
+],
+[
+"ginecologia.json",
+"GIN-086",
+"E",
+"Aislamiento estricto",
+"Histerectomía inmediata",
+false
+],
+[
+"ginecologia.json",
+"GIN-087",
+"E",
+"Faltan datos para decidir",
+"Anillo vaginal combinado",
+false
+],
+[
+"ginecologia.json",
+"GIN-088",
+"E",
+"Insulina",
+"Inversión uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-089",
+"E",
+"Metronidazol",
+"Vitamina B12",
+false
+],
+[
+"ginecologia.json",
+"GIN-090",
+"E",
+"Todas las anteriores",
+"Legrado y metotrexato profiláctico a todas",
+false
+],
+[
+"ginecologia.json",
+"GIN-091",
+"E",
+"Amputación",
+"Cerclaje cervical de emergencia",
+false
+],
+[
+"ginecologia.json",
+"GIN-092",
+"E",
+"Faltan datos para decidir",
+"Facilita el descenso fetal",
+false
+],
+[
+"ginecologia.json",
+"GIN-093",
+"E",
+"Fijación externa",
+"Parto vaginal con monitoreo continuo",
+false
+],
+[
+"ginecologia.json",
+"GIN-094",
+"E",
+"Ciprofloxacino",
+"Hidratación endovenosa y ayuno",
+false
+],
+[
+"ginecologia.json",
+"GIN-095",
+"E",
+"Aspirina",
+"Fenitoína",
+false
+],
+[
+"ginecologia.json",
+"GIN-096",
+"E",
+"Colonoscopia",
+"Histerectomía total",
+false
+],
+[
+"ginecologia.json",
+"GIN-097",
+"E",
+"Metronidazol",
+"Glimepirida",
+false
+],
+[
+"ginecologia.json",
+"GIN-098",
+"E",
+"Todas las anteriores",
+"Colpocleisis",
+false
+],
+[
+"ginecologia.json",
+"GIN-099",
+"E",
+"Faltan datos para decidir",
+"Macrosomía fetal",
+false
+],
+[
+"ginecologia.json",
+"GIN-100",
+"E",
+"Síndrome de Guillain-Barré",
+"Torsión anexial",
+false
+],
+[
+"ginecologia.json",
+"GIN-101",
+"E",
+"Toracocentesis",
+"Cesárea de emergencia sin antirretroviral",
+false
+],
+[
+"ginecologia.json",
+"GIN-102",
+"E",
+"Ninguna de las anteriores",
+"Doppler semanal",
+false
+],
+[
+"ginecologia.json",
+"GIN-103",
+"E",
+"Prednisona",
+"Misoprostol rectal",
+false
+],
+[
+"ginecologia.json",
+"GIN-104",
+"E",
+"Todas las anteriores",
+"Implante de levonorgestrel",
+false
+],
+[
+"ginecologia.json",
+"GIN-105",
+"D",
+"Ipertensión crónica",
+"Hipertensión crónica",
+true
+],
+[
+"ginecologia.json",
+"GIN-105",
+"E",
+"Hipertensión arterial",
+"Preeclampsia sobreagregada",
+false
+],
+[
+"ginecologia.json",
+"GIN-106",
+"E",
+"Todas las anteriores",
+"A la semana 32",
+false
+],
+[
+"ginecologia.json",
+"GIN-107",
+"E",
+"Síndrome de Guillain-Barré",
+"Síndrome de Asherman",
+false
+],
+[
+"ginecologia.json",
+"GIN-108",
+"E",
+"Sepsis",
+"Ca de vagina",
+false
+],
+[
+"ginecologia.json",
+"GIN-109",
+"E",
+"Hemodiálisis",
+"Versión interna",
+false
+],
+[
+"ginecologia.json",
+"GIN-110",
+"E",
+"Ecografía Doppler",
+"Histerectomía total",
+false
+],
+[
+"ginecologia.json",
+"GIN-111",
+"E",
+"Hemodiálisis",
+"Cesárea con anestesia general",
+false
+],
+[
+"ginecologia.json",
+"GIN-112",
+"E",
+"Paracetamol",
+"Reposo absoluto y alta",
+false
+],
+[
+"ginecologia.json",
+"GIN-113",
+"E",
+"Faltan datos para decidir",
+"Chlamydia trachomatis",
+false
+],
+[
+"ginecologia.json",
+"GIN-114",
+"E",
+"Tramadol",
+"Anticonceptivos orales combinados",
+false
+],
+[
+"ginecologia.json",
+"GIN-115",
+"E",
+"Furosemida",
+"Inversión uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-116",
+"E",
+"Ninguna de las anteriores",
+"Esperar al tercer trimestre para iniciar tratamiento",
+false
+],
+[
+"ginecologia.json",
+"GIN-117",
+"E",
+"Prednisona",
+"Rotura del seno marginal",
+false
+],
+[
+"ginecologia.json",
+"GIN-118",
+"E",
+"Diabetes Mellitus",
+"Hipertensión crónica mal controlada",
+false
+],
+[
+"ginecologia.json",
+"GIN-119",
+"E",
+"Todas las anteriores",
+"15 a 20",
+false
+],
+[
+"ginecologia.json",
+"GIN-120",
+"E",
+"Repetir examen en 24 horas",
+"Iniciar tratamiento en el segundo trimestre",
+false
+],
+[
+"ginecologia.json",
+"GIN-121",
+"E",
+"Ninguna de las anteriores",
+"Apendicitis aguda",
+false
+],
+[
+"ginecologia.json",
+"GIN-122",
+"E",
+"Sepsis",
+"Embarazo molar",
+false
+],
+[
+"ginecologia.json",
+"GIN-123",
+"E",
+"Diazepam",
+"Ciprofloxacino",
+false
+],
+[
+"ginecologia.json",
+"GIN-124",
+"E",
+"Todas las anteriores",
+"Feto constitucionalmente pequeño",
+false
+],
+[
+"ginecologia.json",
+"GIN-125",
+"E",
+"Laparotomía exploratoria",
+"Amnioinfusión y parto vaginal",
+false
+],
+[
+"ginecologia.json",
+"GIN-126",
+"E",
+"Apendicitis aguda",
+"Hígado graso agudo del embarazo",
+false
+],
+[
+"ginecologia.json",
+"GIN-127",
+"E",
+"Todas las anteriores",
+"Adecuada para su IMC",
+false
+],
+[
+"ginecologia.json",
+"GIN-128",
+"E",
+"Faltan datos para decidir",
+"En el puerperio",
+false
+],
+[
+"ginecologia.json",
+"GIN-129",
+"E",
+"Faltan datos para decidir",
+"G4P1133",
+false
+],
+[
+"ginecologia.json",
+"GIN-130",
+"E",
+"Fijación externa",
+"Realizar amniotomía y fórceps",
+false
+],
+[
+"ginecologia.json",
+"GIN-131",
+"E",
+"Intubación endotraqueal",
+"Tocólisis y observación",
+false
+],
+[
+"ginecologia.json",
+"GIN-132",
+"E",
+"Diazepam",
+"Aorta",
+false
+],
+[
+"ginecologia.json",
+"GIN-133",
+"E",
+"Faltan datos para decidir",
+"Lactancia mixta",
+false
+],
+[
+"ginecologia.json",
+"GIN-134",
+"E",
+"Fijación externa",
+"Esperar el parto vaginal asistido",
+false
+],
+[
+"ginecologia.json",
+"GIN-135",
+"E",
+"Faltan datos para decidir",
+"Placenta previa parcial",
+false
+],
+[
+"ginecologia.json",
+"GIN-136",
+"E",
+"Faltan datos para decidir",
+"Cariotipo de la pareja",
+false
+],
+[
+"ginecologia.json",
+"GIN-137",
+"E",
+"Tuberculosis",
+"Hiperplasia suprarrenal congénita clásica",
+false
+],
+[
+"ginecologia.json",
+"GIN-138",
+"E",
+"Todas las anteriores",
+"Vasectomía de la pareja",
+false
+],
+[
+"ginecologia.json",
+"GIN-139",
+"E",
+"Ninguna de las anteriores",
+"Repetir oxitocina en bolo",
+false
+],
+[
+"ginecologia.json",
+"GIN-140",
+"E",
+"Ninguna de las anteriores",
+"5 años",
+false
+],
+[
+"ginecologia.json",
+"GIN-141",
+"A",
+"Trichomonas vaginalis 2",
+"Trichomonas vaginalis",
+true
+],
+[
+"ginecologia.json",
+"GIN-141",
+"E",
+"Ninguna de las anteriores",
+"Candida albicans",
+false
+],
+[
+"ginecologia.json",
+"GIN-142",
+"E",
+"Ibuprofeno",
+"Inversión uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-143",
+"E",
+"Atropina",
+"Hipotensión materna por anestesia",
+false
+],
+[
+"ginecologia.json",
+"GIN-144",
+"E",
+"Faltan datos para decidir",
+"Descenso",
+false
+],
+[
+"ginecologia.json",
+"GIN-146",
+"E",
+"Intubación endotraqueal",
+"Esperar parto vaginal con monitoreo",
+false
+],
+[
+"ginecologia.json",
+"GIN-147",
+"E",
+"Tramadol",
+"Peso materno",
+false
+],
+[
+"ginecologia.json",
+"GIN-148",
+"E",
+"Diazepam",
+"Paracetamol",
+false
+],
+[
+"ginecologia.json",
+"GIN-149",
+"E",
+"Fijación externa",
+"Fórceps profiláctico",
+false
+],
+[
+"ginecologia.json",
+"GIN-150",
+"E",
+"Faltan datos para decidir",
+"Hipotiroidismo y RCIU",
+false
+],
+[
+"ginecologia.json",
+"GIN-151",
+"E",
+"Ninguna de las anteriores",
+"Anillo vaginal combinado",
+false
+],
+[
+"ginecologia.json",
+"GIN-152",
+"E",
+"Metronidazol",
+"Enalapril",
+false
+],
+[
+"ginecologia.json",
+"GIN-153",
+"E",
+"Ninguna de las anteriores",
+"Preeclampsia",
+false
+],
+[
+"ginecologia.json",
+"GIN-154",
+"E",
+"Todas las anteriores",
+"Solo durante el puerperio",
+false
+],
+[
+"ginecologia.json",
+"GIN-155",
+"E",
+"Faltan datos para decidir",
+"Amenaza de aborto",
+false
+],
+[
+"ginecologia.json",
+"GIN-156",
+"E",
+"Todas las anteriores",
+"Indicar a las 28 semanas del siguiente embarazo",
+false
+],
+[
+"ginecologia.json",
+"GIN-157",
+"E",
+"Omeprazol",
+"Cesárea electiva",
+false
+],
+[
+"ginecologia.json",
+"GIN-158",
+"E",
+"Todas las anteriores",
+"G4P1111",
+false
+],
+[
+"ginecologia.json",
+"GIN-159",
+"E",
+"Diazepam",
+"Metronidazol solo",
+false
+],
+[
+"ginecologia.json",
+"GIN-160",
+"E",
+"Ninguna de las anteriores",
+"Prevenir la diabetes gestacional",
+false
+],
+[
+"ginecologia.json",
+"GIN-161",
+"E",
+"Faltan datos para decidir",
+"Síndrome nefrótico",
+false
+],
+[
+"ginecologia.json",
+"GIN-162",
+"E",
+"Ninguna de las anteriores",
+"VIH y hepatitis C",
+false
+],
+[
+"ginecologia.json",
+"GIN-163",
+"E",
+"Ninguna de las anteriores",
+"Perineal I grado",
+false
+],
+[
+"ginecologia.json",
+"GIN-164",
+"E",
+"Paracetamol",
+"Cesárea de emergencia",
+false
+],
+[
+"ginecologia.json",
+"GIN-165",
+"E",
+"Ninguna de las anteriores",
+"Aumento de la frecuencia cardiaca",
+false
+],
+[
+"ginecologia.json",
+"GIN-166",
+"E",
+"Todas las anteriores",
+"Hemoglobina glicosilada",
+false
+],
+[
+"ginecologia.json",
+"GIN-167",
+"E",
+"Faltan datos para decidir",
+"Hipotiroidismo",
+false
+],
+[
+"ginecologia.json",
+"GIN-168",
+"E",
+"Faltan datos para decidir",
+"Insuficiencia placentaria",
+false
+],
+[
+"ginecologia.json",
+"GIN-169",
+"E",
+"Ninguna de las anteriores",
+"5",
+false
+],
+[
+"ginecologia.json",
+"GIN-170",
+"E",
+"Faltan datos para decidir",
+"Iniciar sulfato de magnesio",
+false
+],
+[
+"ginecologia.json",
+"GIN-171",
+"E",
+"Todas las anteriores",
+"La altura uterina actual",
+false
+],
+[
+"ginecologia.json",
+"GIN-172",
+"E",
+"Omeprazol",
+"Grupo sanguíneo y factor Rh",
+false
+],
+[
+"ginecologia.json",
+"GIN-173",
+"E",
+"Faltan datos para decidir",
+"Salida de sangre oscura en escasa cantidad",
+false
+],
+[
+"ginecologia.json",
+"GIN-174",
+"E",
+"Todas las anteriores",
+"Anemia",
+false
+],
+[
+"ginecologia.json",
+"GIN-175",
+"E",
+"Ibuprofeno",
+"Prueba de VIH",
+false
+],
+[
+"ginecologia.json",
+"GIN-176",
+"E",
+"Ciprofloxacino",
+"Tocólisis y alta",
+false
+],
+[
+"ginecologia.json",
+"GIN-177",
+"E",
+"Prednisona",
+"Tomografía de silla turca",
+false
+],
+[
+"ginecologia.json",
+"GIN-178",
+"E",
+"Todas las anteriores",
+"Pesario como tratamiento definitivo",
+false
+],
+[
+"ginecologia.json",
+"GIN-179",
+"E",
+"Suspender tratamiento",
+"Enalapril profiláctico",
+false
+],
+[
+"ginecologia.json",
+"GIN-180",
+"E",
+"Drenaje percutáneo",
+"Amniocentesis",
+false
+],
+[
+"ginecologia.json",
+"GIN-181",
+"E",
+"Todas las anteriores",
+"Mantener el DIU hasta el parto",
+false
+],
+[
+"ginecologia.json",
+"GIN-182",
+"E",
+"Faltan datos para decidir",
+"Trabajo de parto a término",
+false
+],
+[
+"ginecologia.json",
+"GIN-183",
+"E",
+"Ninguna de las anteriores",
+"Monitoreo fetal",
+false
+],
+[
+"ginecologia.json",
+"GIN-184",
+"E",
+"Toracocentesis",
+"Taponamiento vaginal",
+false
+],
+[
+"ginecologia.json",
+"GIN-185",
+"E",
+"Faltan datos para decidir",
+"Ooforectomía",
+false
+],
+[
+"ginecologia.json",
+"GIN-186",
+"E",
+"Fijación externa",
+"Lactancia con TARGA",
+false
+],
+[
+"ginecologia.json",
+"GIN-187",
+"E",
+"Valores normales",
+"Que suspenda todos sus medicamentos",
+false
+],
+[
+"ginecologia.json",
+"GIN-188",
+"E",
+"Faltan datos para decidir",
+"28 a 32",
+false
+],
+[
+"ginecologia.json",
+"GIN-189",
+"E",
+"Faltan datos para decidir",
+"Resuturar la episiotomía",
+false
+],
+[
+"ginecologia.json",
+"GIN-190",
+"E",
+"Todas las anteriores",
+"Cirugía de cistocele",
+false
+],
+[
+"ginecologia.json",
+"GIN-191",
+"E",
+"Hemodiálisis",
+"Versión cefálica externa",
+false
+],
+[
+"ginecologia.json",
+"GIN-192",
+"E",
+"Omeprazol",
+"Histerectomía",
+false
+],
+[
+"ginecologia.json",
+"GIN-193",
+"E",
+"Ninguna de las anteriores",
+"Desprendimiento prematuro de placenta",
+false
+],
+[
+"ginecologia.json",
+"GIN-194",
+"E",
+"Laparotomía exploratoria",
+"Fórceps",
+false
+],
+[
+"ginecologia.json",
+"GIN-195",
+"E",
+"Faltan datos para decidir",
+"Igual que la población general",
+false
+],
+[
+"ginecologia.json",
+"GIN-196",
+"E",
+"Lavado quirúrgico",
+"Tocólisis",
+false
+],
+[
+"ginecologia.json",
+"GIN-197",
+"E",
+"Aumentar dosis",
+"Ceftriaxona 500 mg IM dosis única",
+false
+],
+[
+"ginecologia.json",
+"GIN-198",
+"E",
+"Faltan datos para decidir",
+"Drenar la mama inmediatamente",
+false
+],
+[
+"ginecologia.json",
+"GIN-199",
+"E",
+"Todas las anteriores",
+"Aborto incompleto",
+false
+],
+[
+"ginecologia.json",
+"GIN-200",
+"E",
+"Ninguna de las anteriores",
+"Inseminación artificial inmediata",
+false
+],
+[
+"ginecologia.json",
+"GIN-201",
+"E",
+"Todas las anteriores",
+"Inmediatamente",
+false
+],
+[
+"ginecologia.json",
+"GIN-202",
+"E",
+"Drenaje percutáneo",
+"Tocólisis",
+false
+],
+[
+"ginecologia.json",
+"GIN-203",
+"E",
+"Ketorolaco",
+"Alta con antibiótico oral",
+false
+],
+[
+"ginecologia.json",
+"GIN-204",
+"E",
+"Tramadol",
+"Fecha probable por examen pélvico",
+false
+],
+[
+"ginecologia.json",
+"GIN-205",
+"E",
+"Ibuprofeno",
+"Observación con β-hCG en un mes",
+false
+],
+[
+"ginecologia.json",
+"GIN-206",
+"E",
+"Electrocardiograma",
+"Histeroscopía",
+false
+],
+[
+"ginecologia.json",
+"GIN-207",
+"E",
+"Faltan datos para decidir",
+"Corticoides y cesárea",
+false
+],
+[
+"ginecologia.json",
+"GIN-208",
+"E",
+"Ninguna de las anteriores",
+"31",
+false
+],
+[
+"ginecologia.json",
+"GIN-209",
+"E",
+"Fijación externa",
+"Alta y control en una semana",
+false
+],
+[
+"ginecologia.json",
+"GIN-210",
+"E",
+"Fijación externa",
+"Tocólisis y antibióticos",
+false
+],
+[
+"ginecologia.json",
+"GIN-211",
+"E",
+"Faltan datos para decidir",
+"Hasta el alta hospitalaria",
+false
+],
+[
+"ginecologia.json",
+"GIN-212",
+"E",
+"Hemodiálisis",
+"Fórceps",
+false
+],
+[
+"ginecologia.json",
+"GIN-213",
+"E",
+"Toracocentesis",
+"Hospitalizar para inducción inmediata",
+false
+],
+[
+"ginecologia.json",
+"GIN-214",
+"E",
+"Ninguna de las anteriores",
+"Influenza inactivada",
+false
+],
+[
+"ginecologia.json",
+"GIN-215",
+"E",
+"Amoxicilina",
+"Nitrofurantoína solo por 3 días",
+false
+],
+[
+"ginecologia.json",
+"GIN-216",
+"E",
+"Epinefrina",
+"Lactancia materna exclusiva con TAR",
+false
+],
+[
+"ginecologia.json",
+"GIN-217",
+"E",
+"Ciprofloxacino",
+"Cerclaje cervical",
+false
+],
+[
+"ginecologia.json",
+"GIN-218",
+"E",
+"Faltan datos para decidir",
+"Flexión",
+false
+],
+[
+"ginecologia.json",
+"GIN-219",
+"E",
+"Todas las anteriores",
+"Indeterminada",
+false
+],
+[
+"ginecologia.json",
+"GIN-220",
+"E",
+"Ninguna de las anteriores",
+"37 a 40",
+false
+],
+[
+"ginecologia.json",
+"GIN-221",
+"E",
+"Valores normales",
+"200 mg + 5 mg",
+false
+],
+[
+"ginecologia.json",
+"GIN-222",
+"E",
+"Todas las anteriores",
+"Embolización de arterias uterinas",
+false
+],
+[
+"ginecologia.json",
+"GIN-223",
+"E",
+"Todas las anteriores",
+"V",
+false
+],
+[
+"ginecologia.json",
+"GIN-224",
+"E",
+"Faltan datos para decidir",
+"Prolapso de cordón",
+false
+],
+[
+"ginecologia.json",
+"GIN-225",
+"E",
+"Suspender tratamiento",
+"Cerclaje y reposo absoluto",
+false
+],
+[
+"ginecologia.json",
+"GIN-226",
+"E",
+"Todas las anteriores",
+"Transfusión de plaquetas",
+false
+],
+[
+"ginecologia.json",
+"GIN-227",
+"E",
+"Ninguna de las anteriores",
+"PAP cada 6 meses",
+false
+],
+[
+"ginecologia.json",
+"GIN-228",
+"E",
+"Asma bronquial",
+"Gastrosquisis",
+false
+],
+[
+"ginecologia.json",
+"GIN-229",
+"E",
+"Ninguna de las anteriores",
+"Glándula tiroides",
+false
+],
+[
+"ginecologia.json",
+"GIN-230",
+"E",
+"Insuficiencia cardíaca",
+"Síndrome de Kallmann",
+false
+],
+[
+"ginecologia.json",
+"GIN-231",
+"E",
+"Ninguna de las anteriores",
+"Perfil de coagulación",
+false
+],
+[
+"ginecologia.json",
+"GIN-232",
+"E",
+"Ninguna de las anteriores",
+"Carcinoma de vulva",
+false
+],
+[
+"ginecologia.json",
+"GIN-233",
+"E",
+"Ninguna de las anteriores",
+"Apéndice xifoides",
+false
+],
+[
+"ginecologia.json",
+"GIN-234",
+"E",
+"Ibuprofeno",
+"Metotrexato",
+false
+],
+[
+"ginecologia.json",
+"GIN-235",
+"E",
+"Ninguna de las anteriores",
+"Enterocele aislado",
+false
+],
+[
+"ginecologia.json",
+"GIN-236",
+"E",
+"Derivación a especialista",
+"Alta y control en una semana",
+false
+],
+[
+"ginecologia.json",
+"GIN-237",
+"E",
+"Ninguna de las anteriores",
+"No reactivo",
+false
+],
+[
+"ginecologia.json",
+"GIN-238",
+"E",
+"Ninguna de las anteriores",
+"Cuerpo perineal",
+false
+],
+[
+"ginecologia.json",
+"GIN-239",
+"E",
+"Faltan datos para decidir",
+"Polihidramnios",
+false
+],
+[
+"ginecologia.json",
+"GIN-240",
+"E",
+"Ibuprofeno",
+"Glibenclamida",
+false
+],
+[
+"ginecologia.json",
+"GIN-241",
+"E",
+"Faltan datos para decidir",
+"Embarazo ectópico",
+false
+],
+[
+"ginecologia.json",
+"GIN-242",
+"E",
+"Todas las anteriores",
+"12",
+false
+],
+[
+"ginecologia.json",
+"GIN-243",
+"E",
+"Faltan datos para decidir",
+"Asma",
+false
+],
+[
+"ginecologia.json",
+"GIN-244",
+"E",
+"Todas las anteriores",
+"Hipertiroidismo",
+false
+],
+[
+"ginecologia.json",
+"GIN-245",
+"E",
+"Faltan datos para decidir",
+"8",
+false
+],
+[
+"ginecologia.json",
+"GIN-246",
+"E",
+"Insulina",
+"Hipertonía uterina",
+false
+],
+[
+"ginecologia.json",
+"GIN-247",
+"E",
+"Dexametasona",
+"Intolerancia a la glucosa",
+false
+],
+[
+"hematologia.json",
+"HEM-002",
+"E",
+"Ninguna de las anteriores",
+"Sideroblástica",
+false
+],
+[
+"hematologia.json",
+"HEM-003",
+"E",
+"Infección del tracto urinario",
+"Anemia aplásica",
+false
+],
+[
+"hematologia.json",
+"HEM-004",
+"E",
+"Clindamicina",
+"Hierro",
+false
+],
+[
+"hematologia.json",
+"HEM-005",
+"E",
+"Todas las anteriores",
+"Esferocitosis hereditaria",
+false
+],
+[
+"hematologia.json",
+"HEM-006",
+"E",
+"Ciprofloxacino",
+"Plaquetas",
+false
+],
+[
+"hematologia.json",
+"HEM-007",
+"E",
+"Radiografía simple",
+"Vitamina B12",
+false
+],
+[
+"hematologia.json",
+"HEM-008",
+"E",
+"Neumonía adquirida",
+"Metástasis de cáncer de mama",
+false
+],
+[
+"hematologia.json",
+"HEM-009",
+"E",
+"Todas las anteriores",
+"Concentrado de plaquetas",
+false
+],
+[
+"hematologia.json",
+"HEM-010",
+"E",
+"Ibuprofeno",
+"Sideroblástica",
+false
+],
+[
+"hematologia.json",
+"HEM-011",
+"E",
+"Cirrosis hepática",
+"Talasemia menor",
+false
+],
+[
+"hematologia.json",
+"HEM-012",
+"E",
+"Todas las anteriores",
+"4,500",
+false
+],
+[
+"hematologia.json",
+"HEM-013",
+"E",
+"Tomografía con contraste",
+"Punción aspirativa con aguja fina",
+false
+],
+[
+"hematologia.json",
+"HEM-014",
+"E",
+"Gammagrafía",
+"Tomografía de tórax",
+false
+],
+[
+"hematologia.json",
+"HEM-015",
+"E",
+"Ninguna de las anteriores",
+"Caliciformes",
+false
+],
+[
+"hematologia.json",
+"HEM-016",
+"E",
+"Insuficiencia cardíaca",
+"Leucemia mieloide aguda",
+false
+],
+[
+"hematologia.json",
+"HEM-017",
+"E",
+"Furosemida",
+"Déficit de vitamina K",
+false
+],
+[
+"hematologia.json",
+"HEM-018",
+"E",
+"Omeprazol",
+"Disminución de la síntesis de fibrinógeno",
+false
+],
+[
+"hematologia.json",
+"HEM-019",
+"E",
+"Neumonía adquirida",
+"Mononucleosis infecciosa",
+false
+],
+[
+"hematologia.json",
+"HEM-020",
+"E",
+"Ceftriaxona",
+"Déficit de vitamina K",
+false
+],
+[
+"hematologia.json",
+"HEM-021",
+"E",
+"Hipertensión arterial",
+"Leucemia linfoblástica aguda",
+false
+],
+[
+"hematologia.json",
+"HEM-022",
+"E",
+"Ninguna de las anteriores",
+"Anemia de enfermedad crónica",
+false
+],
+[
+"hematologia.json",
+"HEM-023",
+"E",
+"Todas las anteriores",
+"Por gotas",
+false
+],
+[
+"hematologia.json",
+"HEM-024",
+"E",
+"Hipertensión arterial",
+"Mal de montaña crónico",
+false
+],
+[
+"hematologia.json",
+"HEM-025",
+"E",
+"Azitromicina",
+"Transfusión de plaquetas",
+false
+],
+[
+"hematologia.json",
+"HEM-026",
+"E",
+"Faltan datos para decidir",
+"Prader-Willi",
+false
+],
+[
+"hematologia.json",
+"HEM-027",
+"E",
+"Ninguna de las anteriores",
+"Sexo",
+false
+],
+[
+"hematologia.json",
+"HEM-028",
+"E",
+"Cirrosis hepática",
+"Púrpura trombocitopénica inmune",
+false
+],
+[
+"hematologia.json",
+"HEM-029",
+"E",
+"Metronidazol",
+"Púrpura trombocitopénica trombótica",
+false
+],
+[
+"hematologia.json",
+"HEM-030",
+"E",
+"Faltan datos para decidir",
+"Sideroblástica",
+false
+],
+[
+"hematologia.json",
+"HEM-031",
+"E",
+"Neumonía adquirida",
+"Celulitis",
+false
+],
+[
+"hematologia.json",
+"HEM-032",
+"E",
+"Faltan datos para decidir",
+"Viajes recientes",
+false
+],
+[
+"hematologia.json",
+"HEM-033",
+"E",
+"Ninguna de las anteriores",
+"Infección viral",
+false
+],
+[
+"hematologia.json",
+"HEM-034",
+"E",
+"Lupus eritematoso sistémico",
+"Sangrado agudo",
+false
+],
+[
+"hematologia.json",
+"HEM-035",
+"E",
+"Todas las anteriores",
+"Leucemia mieloide crónica",
+false
+],
+[
+"hematologia.json",
+"HEM-036",
+"E",
+"Todas las anteriores",
+"Esferocitos",
+false
+],
+[
+"hematologia.json",
+"HEM-037",
+"E",
+"Aspirina",
+"Hierro oral",
+false
+],
+[
+"hematologia.json",
+"HEM-038",
+"E",
+"Ecografía Doppler",
+"Electroforesis de hemoglobina",
+false
+],
+[
+"hematologia.json",
+"HEM-039",
+"E",
+"Apendicitis aguda",
+"Trombocitopenia inmune",
+false
+],
+[
+"hematologia.json",
+"HEM-040",
+"E",
+"Furosemida",
+"Suspender la warfarina y solo observar",
+false
+],
+[
+"hematologia.json",
+"HEM-041",
+"E",
+"Todas las anteriores",
+"Tiempo de sangría",
+false
+],
+[
+"infectologia.json",
+"INF-002",
+"E",
+"Faltan datos para decidir",
+"Herpesvirus",
+false
+],
+[
+"infectologia.json",
+"INF-003",
+"E",
+"Lupus eritematoso sistémico",
+"Faringitis estreptocócica",
+false
+],
+[
+"infectologia.json",
+"INF-004",
+"E",
+"Tuberculosis",
+"Chancroide",
+false
+],
+[
+"infectologia.json",
+"INF-005",
+"E",
+"Neumonía adquirida",
+"Sarcoma de Kaposi pulmonar",
+false
+],
+[
+"infectologia.json",
+"INF-006",
+"E",
+"Amoxicilina",
+"Ivermectina",
+false
+],
+[
+"infectologia.json",
+"INF-007",
+"E",
+"Lupus eritematoso sistémico",
+"Fiebre amarilla",
+false
+],
+[
+"infectologia.json",
+"INF-008",
+"E",
+"Diazepam",
+"Amoxicilina - claritromicina",
+false
+],
+[
+"infectologia.json",
+"INF-009",
+"E",
+"Endoscopia digestiva",
+"Electroencefalograma",
+false
+],
+[
+"infectologia.json",
+"INF-010",
+"E",
+"Neumonía adquirida",
+"Leptospirosis",
+false
+],
+[
+"infectologia.json",
+"INF-011",
+"E",
+"Paracetamol",
+"Metronidazol",
+false
+],
+[
+"infectologia.json",
+"INF-012",
+"E",
+"Ninguna de las anteriores",
+"Suspender la lactancia hasta terminar el tratamiento",
+false
+],
+[
+"infectologia.json",
+"INF-013",
+"E",
+"Suspender tratamiento",
+"Primiparidad",
+false
+],
+[
+"infectologia.json",
+"INF-014",
+"E",
+"Síndrome de Guillain-Barré",
+"Neumonía por aspiración",
+false
+],
+[
+"infectologia.json",
+"INF-015",
+"E",
+"Diabetes Mellitus",
+"Linfocitaria con eosinófilos",
+false
+],
+[
+"infectologia.json",
+"INF-016",
+"E",
+"Cirrosis hepática",
+"Anopheles",
+false
+],
+[
+"infectologia.json",
+"INF-017",
+"E",
+"Aumentar dosis",
+"Penicilina benzatínica",
+false
+],
+[
+"infectologia.json",
+"INF-018",
+"E",
+"Todas las anteriores",
+"Listeria monocytogenes",
+false
+],
+[
+"infectologia.json",
+"INF-019",
+"E",
+"Dexametasona",
+"Ganciclovir",
+false
+],
+[
+"infectologia.json",
+"INF-020",
+"E",
+"Ninguna de las anteriores",
+"Parasitaria",
+false
+],
+[
+"infectologia.json",
+"INF-021",
+"E",
+"Ninguna de las anteriores",
+"Cisticercos",
+false
+],
+[
+"infectologia.json",
+"INF-022",
+"E",
+"Faltan datos para decidir",
+"Dengue sin signos de alarma",
+false
+],
+[
+"infectologia.json",
+"INF-023",
+"E",
+"Atropina",
+"Rotavirus",
+false
+],
+[
+"infectologia.json",
+"INF-024",
+"E",
+"Hipertensión arterial",
+"Dengue",
+false
+],
+[
+"infectologia.json",
+"INF-025",
+"E",
+"Faltan datos para decidir",
+"Toxoplasmosis, cisticercosis",
+false
+],
+[
+"infectologia.json",
+"INF-026",
+"E",
+"Tuberculosis",
+"Cáncer de pulmón",
+false
+],
+[
+"infectologia.json",
+"INF-027",
+"E",
+"Insulina",
+"Ivermectina",
+false
+],
+[
+"infectologia.json",
+"INF-028",
+"E",
+"Faltan datos para decidir",
+"Es un virus ADN de doble cadena",
+false
+],
+[
+"infectologia.json",
+"INF-029",
+"E",
+"Ninguna de las anteriores",
+"Fiebre tifoidea",
+false
+],
+[
+"infectologia.json",
+"INF-030",
+"E",
+"Insuficiencia cardíaca",
+"Culex",
+false
+],
+[
+"infectologia.json",
+"INF-031",
+"E",
+"Todas las anteriores",
+"Ovale",
+false
+],
+[
+"infectologia.json",
+"INF-032",
+"E",
+"Todas las anteriores",
+"Tuberculosa",
+false
+],
+[
+"infectologia.json",
+"INF-033",
+"E",
+"Sepsis",
+"Absceso bacteriano",
+false
+],
+[
+"infectologia.json",
+"INF-034",
+"E",
+"Faltan datos para decidir",
+"Entamoeba histolytica",
+false
+],
+[
+"infectologia.json",
+"INF-035",
+"E",
+"Prednisona",
+"Tenofovir",
+false
+],
+[
+"infectologia.json",
+"INF-036",
+"E",
+"Faltan datos para decidir",
+"Haemophilus ducreyi",
+false
+],
+[
+"infectologia.json",
+"INF-037",
+"E",
+"Sepsis",
+"Dengue grave",
+false
+],
+[
+"infectologia.json",
+"INF-038",
+"A",
+"Centro de Salud Mental Comunitario",
+"Metronidazol",
+false
+],
+[
+"infectologia.json",
+"INF-038",
+"E",
+"Paracetamol",
+"Praziquantel",
+false
+],
+[
+"infectologia.json",
+"INF-039",
+"E",
+"Hipertensión arterial",
+"Fiebre tifoidea",
+false
+],
+[
+"infectologia.json",
+"INF-040",
+"E",
+"Clindamicina",
+"Ciprofloxacino por 7 días",
+false
+],
+[
+"infectologia.json",
+"INF-041",
+"E",
+"Todas las anteriores",
+"Gardnerella vaginalis",
+false
+],
+[
+"infectologia.json",
+"INF-042",
+"E",
+"Infección del tracto urinario",
+"Tuberculosis cutánea",
+false
+],
+[
+"infectologia.json",
+"INF-043",
+"E",
+"Ninguna de las anteriores",
+"Destrucción directa del hepatocito por el virus",
+false
+],
+[
+"infectologia.json",
+"INF-044",
+"E",
+"Infección del tracto urinario",
+"Carcinomatosis peritoneal",
+false
+],
+[
+"infectologia.json",
+"INF-045",
+"E",
+"Tramadol",
+"Estreptomicina",
+false
+],
+[
+"infectologia.json",
+"INF-046",
+"E",
+"Paracetamol",
+"Antiinflamatorios y reposo",
+false
+],
+[
+"infectologia.json",
+"INF-047",
+"E",
+"Asma bronquial",
+"Hemangioma cereza",
+false
+],
+[
+"infectologia.json",
+"INF-048",
+"E",
+"Faltan datos para decidir",
+"Giardia lamblia",
+false
+],
+[
+"infectologia.json",
+"INF-049",
+"E",
+"Ninguna de las anteriores",
+"Refuerzo anual",
+false
+],
+[
+"infectologia.json",
+"INF-050",
+"E",
+"Hipertensión arterial",
+"Cryptococcus neoformans",
+false
+],
+[
+"infectologia.json",
+"INF-051",
+"E",
+"Insuficiencia cardíaca",
+"Glioblastoma",
+false
+],
+[
+"infectologia.json",
+"INF-052",
+"E",
+"Todas las anteriores",
+"Antígeno de superficie (HBsAg)",
+false
+],
+[
+"infectologia.json",
+"INF-053",
+"E",
+"Lupus eritematoso sistémico",
+"Hepatitis A",
+false
+],
+[
+"infectologia.json",
+"INF-054",
+"E",
+"Neumonía adquirida",
+"Virus herpes simple",
+false
+],
+[
+"infectologia.json",
+"INF-055",
+"E",
+"Ninguna de las anteriores",
+"Sospechoso",
+false
+],
+[
+"infectologia.json",
+"INF-056",
+"E",
+"Cirrosis hepática",
+"Tuberculosis vertebral",
+false
+],
+[
+"infectologia.json",
+"INF-057",
+"E",
+"Todas las anteriores",
+"Recuento de CD4",
+false
+],
+[
+"infectologia.json",
+"INF-058",
+"E",
+"Hipertensión arterial",
+"Linfadenitis por arañazo de gato",
+false
+],
+[
+"infectologia.json",
+"INF-059",
+"E",
+"Ninguna de las anteriores",
+"Candida albicans",
+false
+],
+[
+"infectologia.json",
+"INF-060",
+"E",
+"Todas las anteriores",
+"Gota gruesa",
+false
+],
+[
+"infectologia.json",
+"INF-061",
+"E",
+"Ninguna de las anteriores",
+"Vacunar con BCG",
+false
+],
+[
+"infectologia.json",
+"INF-062",
+"E",
+"Aspirina",
+"Fluconazol",
+false
+],
+[
+"infectologia.json",
+"INF-063",
+"E",
+"Furosemida",
+"Ganciclovir",
+false
+],
+[
+"infectologia.json",
+"INF-064",
+"E",
+"Diabetes Mellitus",
+"Leptospirosis",
+false
+],
+[
+"infectologia.json",
+"INF-065",
+"E",
+"Todas las anteriores",
+"Recuento de linfocitos totales",
+false
+],
+[
+"infectologia.json",
+"INF-066",
+"E",
+"Paracetamol",
+"Antibiótico sin limpieza de la herida",
+false
+],
+[
+"infectologia.json",
+"INF-067",
+"E",
+"Faltan datos para decidir",
+"Mialgias",
+false
+],
+[
+"infectologia.json",
+"INF-068",
+"E",
+"Cirrosis hepática",
+"Tuberculosis multidrogorresistente",
+false
+],
+[
+"infectologia.json",
+"INF-069",
+"E",
+"Clindamicina",
+"Loperamida a dosis altas",
+false
+],
+[
+"infectologia.json",
+"INF-070",
+"E",
+"Todas las anteriores",
+"Cierre con puntos y alta",
+false
+],
+[
+"infectologia.json",
+"INF-071",
+"E",
+"Epinefrina",
+"Azitromicina",
+false
+],
+[
+"infectologia.json",
+"INF-072",
+"E",
+"Lupus eritematoso sistémico",
+"Esporotricosis",
+false
+],
+[
+"infectologia.json",
+"INF-073",
+"E",
+"Aspirina",
+"Anfotericina B",
+false
+],
+[
+"infectologia.json",
+"INF-074",
+"E",
+"Faltan datos para decidir",
+"Urocultivo",
+false
+],
+[
+"infectologia.json",
+"INF-075",
+"E",
+"Metronidazol",
+"Aciclovir oral",
+false
+],
+[
+"infectologia.json",
+"INF-076",
+"E",
+"Repetir examen en 24 horas",
+"Ivermectina en dosis única",
+false
+],
+[
+"infectologia.json",
+"INF-077",
+"E",
+"Ibuprofeno",
+"Rubéola",
+false
+],
+[
+"infectologia.json",
+"INF-078",
+"E",
+"Arteriografía",
+"Electroencefalograma",
+false
+],
+[
+"infectologia.json",
+"INF-079",
+"E",
+"Furosemida",
+"Transfusión sanguínea reciente",
+false
+],
+[
+"infectologia.json",
+"INF-080",
+"E",
+"Lupus eritematoso sistémico",
+"Ancilostomiasis",
+false
+],
+[
+"infectologia.json",
+"INF-081",
+"E",
+"Diazepam",
+"Metronidazol EV",
+false
+],
+[
+"infectologia.json",
+"INF-082",
+"E",
+"Síndrome de Guillain-Barré",
+"Celulitis periorbitaria bacteriana",
+false
+],
+[
+"infectologia.json",
+"INF-083",
+"E",
+"Sepsis",
+"Celulitis facial estreptocócica",
+false
+],
+[
+"infectologia.json",
+"INF-084",
+"E",
+"Omeprazol",
+"Corticoides orales",
+false
+],
+[
+"infectologia.json",
+"INF-085",
+"E",
+"Furosemida",
+"Amoxicilina oral",
+false
+],
+[
+"infectologia.json",
+"INF-086",
+"E",
+"Amoxicilina",
+"Isoniazida y rifampicina por 2 meses",
+false
+],
+[
+"infectologia.json",
+"INF-087",
+"E",
+"Repetir examen en 24 horas",
+"Confirmar tuberculosis activa con bacilos",
+false
+],
+[
+"infectologia.json",
+"INF-088",
+"E",
+"Atropina",
+"Mantener al paciente en decúbito supino plano",
+false
+],
+[
+"infectologia.json",
+"INF-089",
+"E",
+"Neumonía adquirida",
+"Caso confirmado de leptospirosis",
+false
+],
+[
+"infectologia.json",
+"INF-090",
+"E",
+"Insulina",
+"Metronidazol dosis única",
+false
+],
+[
+"infectologia.json",
+"INF-091",
+"E",
+"Faltan datos para decidir",
+"Rotavirus",
+false
+],
+[
+"infectologia.json",
+"INF-092",
+"E",
+"Faltan datos para decidir",
+"Giardia lamblia",
+false
+],
+[
+"infectologia.json",
+"INF-093",
+"E",
+"Ketorolaco",
+"Rifampicina por 2 meses",
+false
+],
+[
+"infectologia.json",
+"INF-094",
+"E",
+"Infección del tracto urinario",
+"Vitíligo",
+false
+],
+[
+"infectologia.json",
+"INF-095",
+"E",
+"Faltan datos para decidir",
+"Bacteroides fragilis",
+false
+],
+[
+"infectologia.json",
+"INF-096",
+"E",
+"Faltan datos para decidir",
+"Strongyloides stercoralis",
+false
+],
+[
+"infectologia.json",
+"INF-097",
+"E",
+"Diazepam",
+"Penicilina benzatínica",
+false
+],
+[
+"infectologia.json",
+"INF-098",
+"E",
+"Ninguna de las anteriores",
+"Legionella pneumophila",
+false
+],
+[
+"infectologia.json",
+"INF-099",
+"E",
+"Paracetamol",
+"Iniciar la lactancia y no vacunar hasta los 2 meses",
+false
+],
+[
+"infectologia.json",
+"INF-100",
+"E",
+"Apendicitis aguda",
+"Granuloma inguinal",
+false
+],
+[
+"infectologia.json",
+"INF-101",
+"E",
+"Apendicitis aguda",
+"Ganglionar periférica",
+false
+],
+[
+"infectologia.json",
+"INF-102",
+"E",
+"Lupus eritematoso sistémico",
+"Trombosis venosa profunda",
+false
+],
+[
+"infectologia.json",
+"INF-103",
+"E",
+"Faltan datos para decidir",
+"Shigella dysenteriae",
+false
+],
+[
+"infectologia.json",
+"INF-104",
+"E",
+"Todas las anteriores",
+"20",
+false
+],
+[
+"infectologia.json",
+"INF-105",
+"E",
+"Ninguna de las anteriores",
+"Exposición no ocupacional",
+false
+],
+[
+"infectologia.json",
+"INF-106",
+"E",
+"Atropina",
+"Doxiciclina por 7 días",
+false
+],
+[
+"infectologia.json",
+"INF-107",
+"E",
+"Ninguna de las anteriores",
+"2",
+false
+],
+[
+"infectologia.json",
+"INF-108",
+"E",
+"Faltan datos para decidir",
+"Herpes simple",
+false
+],
+[
+"infectologia.json",
+"INF-109",
+"E",
+"Faltan datos para decidir",
+"Recaída",
+false
+],
+[
+"infectologia.json",
+"INF-110",
+"E",
+"Todas las anteriores",
+"Treponema pallidum",
+false
+],
+[
+"infectologia.json",
+"INF-111",
+"E",
+"Ceftriaxona",
+"Albendazol",
+false
+],
+[
+"infectologia.json",
+"INF-112",
+"E",
+"Diazepam",
+"Prazicuantel más corticoide en dosis única",
+false
+],
+[
+"infectologia.json",
+"INF-113",
+"E",
+"Todas las anteriores",
+"Confirmado importado",
+false
+],
+[
+"infectologia.json",
+"INF-114",
+"E",
+"Insulina",
+"Vacunar con BCG",
+false
+],
+[
+"nefrologia.json",
+"NEF-002",
+"E",
+"Faltan datos para decidir",
+"Hipopotasemia",
+false
+],
+[
+"nefrologia.json",
+"NEF-003",
+"E",
+"Asma bronquial",
+"Apendicitis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-004",
+"E",
+"Insuficiencia cardíaca",
+"Síndrome nefrótico",
+false
+],
+[
+"nefrologia.json",
+"NEF-005",
+"E",
+"Apendicitis aguda",
+"Glomerulonefritis postestreptocócica",
+false
+],
+[
+"nefrologia.json",
+"NEF-006",
+"E",
+"Cirrosis hepática",
+"Nefritis intersticial aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-007",
+"E",
+"Tuberculosis",
+"Glomerulonefritis rápidamente progresiva",
+false
+],
+[
+"nefrologia.json",
+"NEF-008",
+"E",
+"Gammagrafía",
+"Urografía excretora",
+false
+],
+[
+"nefrologia.json",
+"NEF-009",
+"E",
+"Sepsis",
+"Orquitis urliana",
+false
+],
+[
+"nefrologia.json",
+"NEF-010",
+"E",
+"Repetir examen en 24 horas",
+"Suspender la eritropoyetina",
+false
+],
+[
+"nefrologia.json",
+"NEF-011",
+"E",
+"Diabetes Mellitus",
+"Glomerulonefritis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-012",
+"E",
+"Ciprofloxacino",
+"Furosemida en monoterapia",
+false
+],
+[
+"nefrologia.json",
+"NEF-013",
+"E",
+"Ceftriaxona",
+"Cetoacidosis diabética",
+false
+],
+[
+"nefrologia.json",
+"NEF-014",
+"E",
+"Apendicitis aguda",
+"Varicocele",
+false
+],
+[
+"nefrologia.json",
+"NEF-015",
+"E",
+"Faltan datos para decidir",
+"Cistina",
+false
+],
+[
+"nefrologia.json",
+"NEF-016",
+"E",
+"Neumonía adquirida",
+"Varicocele",
+false
+],
+[
+"nefrologia.json",
+"NEF-017",
+"E",
+"Tuberculosis",
+"Hidrocele",
+false
+],
+[
+"nefrologia.json",
+"NEF-018",
+"E",
+"Insuficiencia cardíaca",
+"Nefropatía membranosa",
+false
+],
+[
+"nefrologia.json",
+"NEF-019",
+"E",
+"Ceftriaxona",
+"Antiinflamatorios no esteroideos",
+false
+],
+[
+"nefrologia.json",
+"NEF-020",
+"E",
+"Sepsis",
+"Necrosis tubular aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-021",
+"E",
+"Azitromicina",
+"Diuréticos tiazídicos / Antiespasmódicos",
+false
+],
+[
+"nefrologia.json",
+"NEF-022",
+"E",
+"Ninguna de las anteriores",
+"Hipocalcemia",
+false
+],
+[
+"nefrologia.json",
+"NEF-023",
+"E",
+"Repetir examen en 24 horas",
+"Nefrostomía percutánea",
+false
+],
+[
+"nefrologia.json",
+"NEF-024",
+"E",
+"Electrocardiograma",
+"Tomografía cerebral",
+false
+],
+[
+"nefrologia.json",
+"NEF-025",
+"E",
+"Todas las anteriores",
+"Bicarbonato de sodio oral",
+false
+],
+[
+"nefrologia.json",
+"NEF-026",
+"E",
+"Neumonía adquirida",
+"Glomerulonefritis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-027",
+"E",
+"Asma bronquial",
+"Varicocele",
+false
+],
+[
+"nefrologia.json",
+"NEF-028",
+"E",
+"Faltan datos para decidir",
+"Gammagrafía renal",
+false
+],
+[
+"nefrologia.json",
+"NEF-029",
+"E",
+"Todas las anteriores",
+"Urocultivo",
+false
+],
+[
+"nefrologia.json",
+"NEF-030",
+"E",
+"Tuberculosis",
+"Pielonefritis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-031",
+"E",
+"Asma bronquial",
+"Azoemia prerrenal",
+false
+],
+[
+"nefrologia.json",
+"NEF-032",
+"E",
+"Ninguna de las anteriores",
+"Hiperpotasemia",
+false
+],
+[
+"nefrologia.json",
+"NEF-033",
+"E",
+"Todas las anteriores",
+"1 000",
+false
+],
+[
+"nefrologia.json",
+"NEF-034",
+"E",
+"Tramadol",
+"Fosfato de calcio",
+false
+],
+[
+"nefrologia.json",
+"NEF-035",
+"E",
+"Cirrosis hepática",
+"Síndrome de Alport",
+false
+],
+[
+"nefrologia.json",
+"NEF-036",
+"E",
+"Asma bronquial",
+"Epididimitis",
+false
+],
+[
+"nefrologia.json",
+"NEF-037",
+"E",
+"Diazepam",
+"Hidroclorotiazida",
+false
+],
+[
+"nefrologia.json",
+"NEF-038",
+"E",
+"Todas las anteriores",
+"Tamsulosina de por vida",
+false
+],
+[
+"nefrologia.json",
+"NEF-039",
+"E",
+"Ninguna de las anteriores",
+"Cambio a antibiótico oral y alta",
+false
+],
+[
+"nefrologia.json",
+"NEF-040",
+"E",
+"Epinefrina",
+"Hidrocortisona",
+false
+],
+[
+"nefrologia.json",
+"NEF-041",
+"E",
+"Diabetes Mellitus",
+"Hiperaldosteronismo primario",
+false
+],
+[
+"nefrologia.json",
+"NEF-042",
+"E",
+"Faltan datos para decidir",
+"Furosemida endovenosa",
+false
+],
+[
+"nefrologia.json",
+"NEF-043",
+"E",
+"Ninguna de las anteriores",
+"Sodio alto",
+false
+],
+[
+"nefrologia.json",
+"NEF-044",
+"E",
+"Síndrome de Guillain-Barré",
+"Riñón poliquístico",
+false
+],
+[
+"nefrologia.json",
+"NEF-045",
+"E",
+"Lupus eritematoso sistémico",
+"Diverticulitis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-046",
+"E",
+"Cirrosis hepática",
+"Hiperplasia prostática con retención aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-047",
+"E",
+"Infección del tracto urinario",
+"Alcalosis mixta respiratoria y metabólica",
+false
+],
+[
+"nefrologia.json",
+"NEF-048",
+"E",
+"Faltan datos para decidir",
+"Hemodiálisis de urgencia",
+false
+],
+[
+"nefrologia.json",
+"NEF-049",
+"E",
+"Reposo absoluto",
+"Nefrostomía percutánea",
+false
+],
+[
+"nefrologia.json",
+"NEF-050",
+"E",
+"Neumonía adquirida",
+"Síndrome nefrótico",
+false
+],
+[
+"nefrologia.json",
+"NEF-051",
+"E",
+"Ibuprofeno",
+"Prednisona",
+false
+],
+[
+"nefrologia.json",
+"NEF-052",
+"E",
+"Todas las anteriores",
+"Glomerulonefritis aguda postinfecciosa",
+false
+],
+[
+"nefrologia.json",
+"NEF-053",
+"E",
+"Tomografía con contraste",
+"Repetir PSA en 6 meses",
+false
+],
+[
+"nefrologia.json",
+"NEF-054",
+"E",
+"Hipertensión arterial",
+"Riñón en esponja medular",
+false
+],
+[
+"nefrologia.json",
+"NEF-055",
+"E",
+"Ninguna de las anteriores",
+"En una semana",
+false
+],
+[
+"nefrologia.json",
+"NEF-056",
+"E",
+"Solicitar nuevo cultivo",
+"Transfundir paquete globular",
+false
+],
+[
+"nefrologia.json",
+"NEF-057",
+"E",
+"Todas las anteriores",
+"Bicarbonato de sodio en bolo",
+false
+],
+[
+"nefrologia.json",
+"NEF-058",
+"E",
+"Ninguna de las anteriores",
+"Ureteroscopía de urgencia",
+false
+],
+[
+"nefrologia.json",
+"NEF-059",
+"E",
+"Ciprofloxacino",
+"Urocultivo y esperar el resultado sin tratar",
+false
+],
+[
+"nefrologia.json",
+"NEF-060",
+"E",
+"Todas las anteriores",
+"Aumento de la secreción de sodio en el túbulo distal",
+false
+],
+[
+"nefrologia.json",
+"NEF-061",
+"E",
+"Endoscopia digestiva",
+"Repetir PSA en un año",
+false
+],
+[
+"nefrologia.json",
+"NEF-062",
+"E",
+"Prednisona",
+"Urografía excretora",
+false
+],
+[
+"nefrologia.json",
+"NEF-063",
+"E",
+"Faltan datos para decidir",
+"Neumotórax espontáneo",
+false
+],
+[
+"nefrologia.json",
+"NEF-064",
+"E",
+"Faltan datos para decidir",
+"Obturadores",
+false
+],
+[
+"nefrologia.json",
+"NEF-065",
+"E",
+"Todas las anteriores",
+"Prostatectomía radical",
+false
+],
+[
+"nefrologia.json",
+"NEF-066",
+"E",
+"Todas las anteriores",
+"Epididimitis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-067",
+"E",
+"Repetir examen en 24 horas",
+"Hemodiálisis de urgencia",
+false
+],
+[
+"nefrologia.json",
+"NEF-068",
+"E",
+"Todas las anteriores",
+"Vigilancia sin tratamiento",
+false
+],
+[
+"nefrologia.json",
+"NEF-069",
+"E",
+"Todas las anteriores",
+"Ginecomastia",
+false
+],
+[
+"nefrologia.json",
+"NEF-070",
+"E",
+"Todas las anteriores",
+"Ca 19-9",
+false
+],
+[
+"nefrologia.json",
+"NEF-071",
+"E",
+"Diabetes Mellitus",
+"Síndrome hemolítico urémico",
+false
+],
+[
+"nefrologia.json",
+"NEF-072",
+"E",
+"Lupus eritematoso sistémico",
+"Apendicitis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-073",
+"E",
+"Todas las anteriores",
+"Hernia inguinal recidivante",
+false
+],
+[
+"nefrologia.json",
+"NEF-075",
+"E",
+"Hipertensión arterial",
+"Pielonefritis aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-076",
+"E",
+"Neumonía adquirida",
+"Nefropatía por IgA",
+false
+],
+[
+"nefrologia.json",
+"NEF-077",
+"E",
+"Insuficiencia cardíaca",
+"Glomerulonefritis postestreptocócica",
+false
+],
+[
+"nefrologia.json",
+"NEF-078",
+"E",
+"Todas las anteriores",
+"Diuréticos tiazídicos",
+false
+],
+[
+"nefrologia.json",
+"NEF-079",
+"E",
+"Faltan datos para decidir",
+"Diálisis peritoneal intermitente",
+false
+],
+[
+"nefrologia.json",
+"NEF-080",
+"E",
+"Apendicitis aguda",
+"Iniciar antibiótico de amplio espectro",
+false
+],
+[
+"nefrologia.json",
+"NEF-081",
+"E",
+"Faltan datos para decidir",
+"Gluconato de calcio solo y observar",
+false
+],
+[
+"nefrologia.json",
+"NEF-082",
+"E",
+"Ninguna de las anteriores",
+"Mixta prerrenal y renal",
+false
+],
+[
+"nefrologia.json",
+"NEF-083",
+"E",
+"Atropina",
+"Hipertiroidismo",
+false
+],
+[
+"nefrologia.json",
+"NEF-084",
+"E",
+"Epinefrina",
+"Ecografía renal",
+false
+],
+[
+"nefrologia.json",
+"NEF-085",
+"E",
+"Faltan datos para decidir",
+"Bicarbonato de sodio",
+false
+],
+[
+"nefrologia.json",
+"NEF-086",
+"E",
+"Faltan datos para decidir",
+"Nefritis intersticial aguda",
+false
+],
+[
+"nefrologia.json",
+"NEF-087",
+"E",
+"Prednisona",
+"Ca 19-9",
+false
+],
+[
+"nefrologia.json",
+"NEF-088",
+"E",
+"Omeprazol",
+"Nefrolitotomía percutánea de urgencia",
+false
+],
+[
+"nefrologia.json",
+"NEF-089",
+"E",
+"Síndrome de Guillain-Barré",
+"Pielonefritis no complicada",
+false
+],
+[
+"nefrologia.json",
+"NEF-090",
+"E",
+"Todas las anteriores",
+"Pelvis renal",
+false
+],
+[
+"nefrologia.json",
+"NEF-091",
+"E",
+"Insuficiencia cardíaca",
+"Hipopotasemia, hiperfosforemia, hipercalcemia y alcalosis metabólica",
+false
+],
+[
+"nefrologia.json",
+"NEF-092",
+"E",
+"Síndrome de Guillain-Barré",
+"Hipoglucemia por ayuno prolongado",
+false
+],
+[
+"nefrologia.json",
+"NEF-093",
+"E",
+"Azitromicina",
+"El daño aparece recién a las 4 semanas",
+false
+],
+[
+"neumologia.json",
+"NEU-002",
+"E",
+"Tramadol",
+"Heparina de bajo peso molecular sola",
+false
+],
+[
+"neumologia.json",
+"NEU-003",
+"E",
+"Atropina",
+"Antibiótico profiláctico",
+false
+],
+[
+"neumologia.json",
+"NEU-004",
+"E",
+"Diabetes Mellitus",
+"Derrame por insuficiencia cardiaca",
+false
+],
+[
+"neumologia.json",
+"NEU-005",
+"E",
+"Lupus eritematoso sistémico",
+"Bronquiectasias",
+false
+],
+[
+"neumologia.json",
+"NEU-006",
+"E",
+"Tomografía con contraste",
+"Hemocultivo",
+false
+],
+[
+"neumologia.json",
+"NEU-007",
+"E",
+"Ninguna de las anteriores",
+"Salbutamol inhalado",
+false
+],
+[
+"neumologia.json",
+"NEU-008",
+"E",
+"Infección del tracto urinario",
+"Neumonía con derrame paraneumónico",
+false
+],
+[
+"neumologia.json",
+"NEU-009",
+"E",
+"Asma bronquial",
+"Streptococcus pneumoniae",
+false
+],
+[
+"neumologia.json",
+"NEU-010",
+"E",
+"Infección del tracto urinario",
+"Neumonía organizada criptogénica",
+false
+],
+[
+"neumologia.json",
+"NEU-011",
+"E",
+"Apendicitis aguda",
+"Asbestosis",
+false
+],
+[
+"neumologia.json",
+"NEU-012",
+"E",
+"Valores normales",
+"Flumazenilo y observación sin oxígeno",
+false
+],
+[
+"neumologia.json",
+"NEU-013",
+"E",
+"Faltan datos para decidir",
+"Corticoides orales como única medida",
+false
+],
+[
+"neumologia.json",
+"NEU-014",
+"E",
+"Ninguna de las anteriores",
+"Pneumocystis jirovecii",
+false
+],
+[
+"neumologia.json",
+"NEU-015",
+"E",
+"Faltan datos para decidir",
+"Penicilina benzatínica sola",
+false
+],
+[
+"neumologia.json",
+"NEU-016",
+"E",
+"Diabetes Mellitus",
+"Neumonía intrahospitalaria",
+false
+],
+[
+"neumologia.json",
+"NEU-017",
+"E",
+"Cirrosis hepática",
+"Derrame paraneumónico complicado",
+false
+],
+[
+"neumologia.json",
+"NEU-018",
+"E",
+"Omeprazol",
+"Síndrome del túnel carpiano",
+false
+],
+[
+"neumologia.json",
+"NEU-019",
+"E",
+"Tomografía con contraste",
+"Citología de esputo seriada",
+false
+],
+[
+"neumologia.json",
+"NEU-020",
+"E",
+"Faltan datos para decidir",
+"Hipoventilación alveolar pura",
+false
+],
+[
+"neumologia.json",
+"NEU-021",
+"E",
+"Asma bronquial",
+"Bronquiectasias",
+false
+],
+[
+"neumologia.json",
+"NEU-022",
+"E",
+"Omeprazol",
+"Neumotórax espontáneo",
+false
+],
+[
+"neumologia.json",
+"NEU-023",
+"E",
+"Ninguna de las anteriores",
+"Frecuencia cardiaca de 130",
+false
+],
+[
+"neumologia.json",
+"NEU-024",
+"E",
+"Faltan datos para decidir",
+"Infarto agudo de miocardio",
+false
+],
+[
+"neumologia.json",
+"NEU-025",
+"E",
+"Colonoscopia",
+"Vacuna BCG a la gestante",
+false
+],
+[
+"neumologia.json",
+"NEU-026",
+"E",
+"Ninguna de las anteriores",
+"Mycobacterium tuberculosis",
+false
+],
+[
+"neumologia.json",
+"NEU-027",
+"E",
+"Todas las anteriores",
+"Granulomas no caseificantes",
+false
+],
+[
+"neumologia.json",
+"NEU-028",
+"E",
+"Ninguna de las anteriores",
+"Nebulización con salbutamol y observación",
+false
+],
+[
+"neumologia.json",
+"NEU-029",
+"E",
+"Diazepam",
+"Ventilación no invasiva diferida",
+false
+],
+[
+"neumologia.json",
+"NEU-030",
+"E",
+"Hipertensión arterial",
+"Absceso pulmonar",
+false
+],
+[
+"neumologia.json",
+"NEU-031",
+"E",
+"Ninguna de las anteriores",
+"Persistente muy grave",
+false
+],
+[
+"neumologia.json",
+"NEU-032",
+"E",
+"Apendicitis aguda",
+"Neumotórax espontáneo",
+false
+],
+[
+"neumologia.json",
+"NEU-033",
+"E",
+"Todas las anteriores",
+"Antibióticos de amplio espectro",
+false
+],
+[
+"neumologia.json",
+"NEU-034",
+"E",
+"Todas las anteriores",
+"Prueba de VIH obligatoria antes de cualquier medida",
+false
+],
+[
+"neumologia.json",
+"NEU-035",
+"E",
+"Todas las anteriores",
+"Intubación orotraqueal inmediata",
+false
+],
+[
+"neumologia.json",
+"NEU-036",
+"E",
+"Todas las anteriores",
+"Espirometría",
+false
+],
+[
+"neumologia.json",
+"NEU-037",
+"E",
+"Derivación a especialista",
+"Hospitalización en UCI con ventilación mecánica",
+false
+],
+[
+"neumologia.json",
+"NEU-038",
+"E",
+"Faltan datos para decidir",
+"Broncoscopía",
+false
+],
+[
+"neumologia.json",
+"NEU-039",
+"E",
+"Infección del tracto urinario",
+"Neumonía bacteriana",
+false
+],
+[
+"neumologia.json",
+"NEU-040",
+"E",
+"Faltan datos para decidir",
+"Leve con riesgo de paro",
+false
+],
+[
+"neumologia.json",
+"NEU-041",
+"E",
+"Todas las anteriores",
+"Edema agudo de pulmón",
+false
+],
+[
+"neumologia.json",
+"NEU-042",
+"E",
+"Electrocardiograma",
+"Gammagrafía ósea",
+false
+],
+[
+"neumologia.json",
+"NEU-043",
+"E",
+"Ninguna de las anteriores",
+"Neumonía lobar",
+false
+],
+[
+"neumologia.json",
+"NEU-044",
+"E",
+"Diabetes Mellitus",
+"Sexo femenino",
+false
+],
+[
+"neumologia.json",
+"NEU-045",
+"E",
+"Azitromicina",
+"Isoniazida",
+false
+],
+[
+"neumologia.json",
+"NEU-046",
+"E",
+"Azitromicina",
+"Leucocitosis",
+false
+],
+[
+"neumologia.json",
+"NEU-047",
+"E",
+"Faltan datos para decidir",
+"8 a 10",
+false
+],
+[
+"neumologia.json",
+"NEU-048",
+"E",
+"Ninguna de las anteriores",
+"Retirar la rifampicina",
+false
+],
+[
+"neumologia.json",
+"NEU-049",
+"E",
+"Ciprofloxacino",
+"Biopsia pleural cerrada inmediata",
+false
+],
+[
+"neumologia.json",
+"NEU-050",
+"E",
+"Faltan datos para decidir",
+"Exposición laboral a asbesto",
+false
+],
+[
+"neumologia.json",
+"NEU-051",
+"E",
+"Faltan datos para decidir",
+"Neumotórax",
+false
+],
+[
+"neumologia.json",
+"NEU-052",
+"E",
+"Faltan datos para decidir",
+"Shock séptico",
+false
+],
+[
+"neumologia.json",
+"NEU-053",
+"E",
+"Todas las anteriores",
+"Intubación inmediata",
+false
+],
+[
+"neumologia.json",
+"NEU-054",
+"E",
+"Faltan datos para decidir",
+"Suspender la lactancia por 6 meses",
+false
+],
+[
+"neumologia.json",
+"NEU-055",
+"E",
+"Gammagrafía",
+"Alta con amoxicilina oral",
+false
+],
+[
+"neumologia.json",
+"NEU-056",
+"E",
+"Apendicitis aguda",
+"Edad",
+false
+],
+[
+"neumologia.json",
+"NEU-057",
+"E",
+"Ceftriaxona",
+"Iniciar los cuatro fármacos de primera línea de inmediato",
+false
+],
+[
+"neumologia.json",
+"NEU-058",
+"E",
+"Ninguna de las anteriores",
+"Ventilación mecánica invasiva inmediata",
+false
+],
+[
+"neumologia.json",
+"NEU-059",
+"E",
+"Solicitar nuevo cultivo",
+"Suspender los broncodilatadores",
+false
+],
+[
+"neumologia.json",
+"NEU-060",
+"E",
+"Todas las anteriores",
+"Temperatura de 37 °C",
+false
+],
+[
+"neumologia.json",
+"NEU-061",
+"E",
+"Aspirina",
+"Estreptomicina",
+false
+],
+[
+"neumologia.json",
+"NEU-062",
+"E",
+"Epinefrina",
+"Amoxicilina oral sola",
+false
+],
+[
+"neumologia.json",
+"NEU-063",
+"E",
+"Hipertensión arterial",
+"Edema agudo de pulmón",
+false
+],
+[
+"neumologia.json",
+"NEU-064",
+"E",
+"Ninguna de las anteriores",
+"Aumento del espacio muerto",
+false
+],
+[
+"neumologia.json",
+"NEU-065",
+"E",
+"Infección del tracto urinario",
+"Sarcoidosis",
+false
+],
+[
+"neumologia.json",
+"NEU-066",
+"E",
+"Aumentar dosis",
+"Incremento en VEF1 > 30% sin importar el volumen",
+false
+],
+[
+"neumologia.json",
+"NEU-067",
+"E",
+"Faltan datos para decidir",
+"Pleurodesis química",
+false
+],
+[
+"neumologia.json",
+"NEU-068",
+"E",
+"Paracetamol",
+"Vancomicina",
+false
+],
+[
+"neumologia.json",
+"NEU-069",
+"E",
+"Todas las anteriores",
+"Espirometría",
+false
+],
+[
+"neumologia.json",
+"NEU-070",
+"E",
+"Metronidazol",
+"Antibióticos + oxígeno a alto flujo sin broncodilatadores",
+false
+],
+[
+"neurologia.json",
+"NRL-002",
+"E",
+"Infección del tracto urinario",
+"Migraña con aura",
+false
+],
+[
+"neurologia.json",
+"NRL-003",
+"E",
+"Ninguna de las anteriores",
+"Ninguna requiere cirugía urgente",
+false
+],
+[
+"neurologia.json",
+"NRL-004",
+"E",
+"Aspirina",
+"Polineuropatía por déficit de tiamina",
+false
+],
+[
+"neurologia.json",
+"NRL-005",
+"E",
+"Diabetes Mellitus",
+"Hemorragia subaracnoidea",
+false
+],
+[
+"neurologia.json",
+"NRL-006",
+"E",
+"Síndrome de Guillain-Barré",
+"Contusión cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-007",
+"E",
+"Apendicitis aguda",
+"Cefalea pospunción",
+false
+],
+[
+"neurologia.json",
+"NRL-008",
+"E",
+"Todas las anteriores",
+"Haloperidol",
+false
+],
+[
+"neurologia.json",
+"NRL-009",
+"E",
+"Diabetes Mellitus",
+"Contusión cerebral frontal",
+false
+],
+[
+"neurologia.json",
+"NRL-010",
+"E",
+"Infección del tracto urinario",
+"Esclerosis múltiple",
+false
+],
+[
+"neurologia.json",
+"NRL-011",
+"E",
+"Todas las anteriores",
+"Edad menor de 40 años",
+false
+],
+[
+"neurologia.json",
+"NRL-012",
+"E",
+"Ciprofloxacino",
+"Haloperidol",
+false
+],
+[
+"neurologia.json",
+"NRL-014",
+"E",
+"Paracetamol",
+"Carbamazepina",
+false
+],
+[
+"neurologia.json",
+"NRL-015",
+"E",
+"Todas las anteriores",
+"Calcificaciones puntiformes sin edema",
+false
+],
+[
+"neurologia.json",
+"NRL-016",
+"E",
+"Lupus eritematoso sistémico",
+"Contusión cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-017",
+"E",
+"Electrocardiograma",
+"Radiografía simple de columna cervical",
+false
+],
+[
+"neurologia.json",
+"NRL-018",
+"E",
+"Ninguna de las anteriores",
+"Migraña con aura",
+false
+],
+[
+"neurologia.json",
+"NRL-019",
+"E",
+"Lupus eritematoso sistémico",
+"Tics motores",
+false
+],
+[
+"neurologia.json",
+"NRL-020",
+"E",
+"Neumonía adquirida",
+"Crisis convulsiva parcial",
+false
+],
+[
+"neurologia.json",
+"NRL-021",
+"E",
+"Todas las anteriores",
+"Electroencefalograma",
+false
+],
+[
+"neurologia.json",
+"NRL-022",
+"E",
+"Clindamicina",
+"Dexametasona endovenosa",
+false
+],
+[
+"neurologia.json",
+"NRL-023",
+"E",
+"Faltan datos para decidir",
+"Hidrocefalia normotensiva",
+false
+],
+[
+"neurologia.json",
+"NRL-024",
+"E",
+"Hipertensión arterial",
+"Encefalitis herpética",
+false
+],
+[
+"neurologia.json",
+"NRL-025",
+"E",
+"Infección del tracto urinario",
+"Absceso cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-026",
+"E",
+"Todas las anteriores",
+"Demencia vascular",
+false
+],
+[
+"neurologia.json",
+"NRL-027",
+"E",
+"Todas las anteriores",
+"Restricción de líquidos y observación",
+false
+],
+[
+"neurologia.json",
+"NRL-028",
+"E",
+"Radiografía simple",
+"Nimodipino y alta",
+false
+],
+[
+"neurologia.json",
+"NRL-029",
+"E",
+"Faltan datos para decidir",
+"Lóbulo frontal",
+false
+],
+[
+"neurologia.json",
+"NRL-030",
+"E",
+"Apendicitis aguda",
+"Depresión mayor",
+false
+],
+[
+"neurologia.json",
+"NRL-031",
+"E",
+"Infección del tracto urinario",
+"Enfermedad de Parkinson",
+false
+],
+[
+"neurologia.json",
+"NRL-032",
+"E",
+"Biopsia excisional",
+"Trombólisis con alteplase",
+false
+],
+[
+"neurologia.json",
+"NRL-033",
+"E",
+"Asma bronquial",
+"Absceso cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-034",
+"E",
+"Faltan datos para decidir",
+"Muscarínicos",
+false
+],
+[
+"neurologia.json",
+"NRL-035",
+"E",
+"Todas las anteriores",
+"Trombólisis endovenosa",
+false
+],
+[
+"neurologia.json",
+"NRL-036",
+"E",
+"Todas las anteriores",
+"Médula cervical",
+false
+],
+[
+"neurologia.json",
+"NRL-037",
+"E",
+"Faltan datos para decidir",
+"Psicógeno",
+false
+],
+[
+"neurologia.json",
+"NRL-038",
+"A",
+"Tetina",
+"Titina",
+false
+],
+[
+"neurologia.json",
+"NRL-038",
+"E",
+"Metronidazol",
+"Laminina",
+false
+],
+[
+"neurologia.json",
+"NRL-039",
+"E",
+"Atropina",
+"Anticoagulación inmediata con heparina",
+false
+],
+[
+"neurologia.json",
+"NRL-040",
+"E",
+"Ninguna de las anteriores",
+"Sinusitis aguda",
+false
+],
+[
+"neurologia.json",
+"NRL-041",
+"E",
+"Apendicitis aguda",
+"Contusión cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-042",
+"E",
+"Aspirina",
+"Aumento de la recaptación de acetilcolina",
+false
+],
+[
+"neurologia.json",
+"NRL-043",
+"E",
+"Azitromicina",
+"Punción lumbar evacuadora",
+false
+],
+[
+"neurologia.json",
+"NRL-044",
+"E",
+"Todas las anteriores",
+"Cerebeloso",
+false
+],
+[
+"neurologia.json",
+"NRL-045",
+"E",
+"Ninguna de las anteriores",
+"Migraña sin aura",
+false
+],
+[
+"neurologia.json",
+"NRL-046",
+"E",
+"Sepsis",
+"Tumor cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-047",
+"E",
+"Diazepam",
+"Iniciar heparina",
+false
+],
+[
+"neurologia.json",
+"NRL-048",
+"E",
+"Furosemida",
+"Ergotamina diaria",
+false
+],
+[
+"neurologia.json",
+"NRL-049",
+"E",
+"Todas las anteriores",
+"Toxoplasma gondii",
+false
+],
+[
+"neurologia.json",
+"NRL-050",
+"E",
+"Faltan datos para decidir",
+"Distónico",
+false
+],
+[
+"neurologia.json",
+"NRL-051",
+"E",
+"Colonoscopia",
+"Plasmaféresis antes de asegurar la vía aérea",
+false
+],
+[
+"neurologia.json",
+"NRL-052",
+"E",
+"Colonoscopia",
+"Radiografía de cráneo",
+false
+],
+[
+"neurologia.json",
+"NRL-053",
+"E",
+"Todas las anteriores",
+"8",
+false
+],
+[
+"neurologia.json",
+"NRL-054",
+"E",
+"Apendicitis aguda",
+"Absceso cerebral",
+false
+],
+[
+"neurologia.json",
+"NRL-055",
+"E",
+"Cirrosis hepática",
+"Depresión",
+false
+],
+[
+"neurologia.json",
+"NRL-056",
+"E",
+"Todas las anteriores",
+"V",
+false
+],
+[
+"neurologia.json",
+"NRL-057",
+"E",
+"Metronidazol",
+"Warfarina",
+false
+],
+[
+"neurologia.json",
+"NRL-058",
+"E",
+"Faltan datos para decidir",
+"9",
+false
+],
+[
+"neurologia.json",
+"NRL-059",
+"E",
+"Diazepam",
+"Noradrenalina",
+false
+],
+[
+"neurologia.json",
+"NRL-060",
+"E",
+"Epinefrina",
+"Amantadina",
+false
+],
+[
+"neurologia.json",
+"NRL-061",
+"E",
+"Ninguna de las anteriores",
+"II",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-002",
+"E",
+"Metronidazol",
+"Neutralizar con una solución alcalina",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-003",
+"E",
+"Faltan datos para decidir",
+"Colirio de timolol de por vida como único tratamiento",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-004",
+"E",
+"Repetir examen en 24 horas",
+"Retirar el taponamiento y observar",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-005",
+"E",
+"Hipertensión arterial",
+"Glaucoma agudo",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-006",
+"E",
+"Faltan datos para decidir",
+"Ligadura de la arteria esfenopalatina",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-007",
+"E",
+"Ninguna de las anteriores",
+"Medicamentosa",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-008",
+"E",
+"Atropina",
+"Ciprofloxacino oral",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-009",
+"E",
+"Todas las anteriores",
+"Atrófica",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-010",
+"E",
+"Faltan datos para decidir",
+"Techo y pared lateral a la vez",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-011",
+"E",
+"Faltan datos para decidir",
+"Neisseria gonorrhoeae",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-012",
+"E",
+"Cirrosis hepática",
+"Rinitis vasomotora",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-013",
+"E",
+"Faltan datos para decidir",
+"Ligadura de la arteria maxilar interna",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-014",
+"E",
+"Faltan datos para decidir",
+"Radiografía de senos paranasales",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-015",
+"E",
+"Dexametasona",
+"Acetazolamida oral",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-016",
+"E",
+"Ninguna de las anteriores",
+"Ligadura arterial de urgencia",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-017",
+"E",
+"Endoscopia digestiva",
+"Antibiótico oral y alta sin drenaje",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-018",
+"E",
+"Infección del tracto urinario",
+"Adenoiditis aguda",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-019",
+"E",
+"Hipertensión arterial",
+"Glaucoma agudo bilateral",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-020",
+"E",
+"Ceftriaxona",
+"Irrigación con agua a presión",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-021",
+"E",
+"Amoxicilina",
+"Retinopatía diabética",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-022",
+"E",
+"Asma bronquial",
+"Fractura del cartílago auricular",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-023",
+"E",
+"Faltan datos para decidir",
+"Congénito",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-024",
+"E",
+"Insuficiencia cardíaca",
+"Mastoiditis aguda",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-025",
+"E",
+"Sepsis",
+"Uveítis anterior",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-026",
+"E",
+"Tuberculosis",
+"Tapón de cerumen",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-027",
+"E",
+"Ibuprofeno",
+"Alcohol al 70%",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-028",
+"E",
+"Ninguna de las anteriores",
+"No aplicar anestésico tópico repetidamente",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-029",
+"E",
+"Asma bronquial",
+"Desprendimiento de retina",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-030",
+"E",
+"Todas las anteriores",
+"Cornete inferior posterior",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-031",
+"E",
+"Ceftriaxona",
+"Anticolinérgicos tópicos",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-032",
+"E",
+"Hipertensión arterial",
+"Catarata congénita",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-033",
+"E",
+"Solicitar nuevo cultivo",
+"Atropina en colirio",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-034",
+"E",
+"Infección del tracto urinario",
+"Conjuntivitis bacteriana",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-035",
+"E",
+"Infección del tracto urinario",
+"Faringitis viral",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-036",
+"E",
+"Metronidazol",
+"Aciclovir",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-037",
+"E",
+"Insulina",
+"Retirar el coágulo de la cámara anterior en el centro de salud",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-038",
+"E",
+"Todas las anteriores",
+"Irrigación con agua",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-039",
+"E",
+"Faltan datos para decidir",
+"Candida albicans",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-040",
+"E",
+"Todas las anteriores",
+"Antihipertensivo y observación",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-041",
+"E",
+"Ibuprofeno",
+"Antibiótico ótico",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-042",
+"E",
+"Azitromicina",
+"Extracción del cuerpo extraño en el centro de salud",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-043",
+"E",
+"Tramadol",
+"Ciprofloxacino ótico solo",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-044",
+"E",
+"Lupus eritematoso sistémico",
+"Presbiacusia",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-045",
+"E",
+"Todas las anteriores",
+"Pseudomonas aeruginosa",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-046",
+"E",
+"Ninguna de las anteriores",
+"Tomografía de senos paranasales",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-047",
+"E",
+"Síndrome de Guillain-Barré",
+"Tumor nasal",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-048",
+"E",
+"Faltan datos para decidir",
+"12",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-049",
+"E",
+"Prednisona",
+"Neutralizar con ácido acético",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-050",
+"E",
+"Insulina",
+"Diabetes mellitus",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-051",
+"E",
+"Neumonía adquirida",
+"Orzuelo",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-052",
+"E",
+"Ibuprofeno",
+"Migraña con aura visual",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-053",
+"E",
+"Todas las anteriores",
+"Herpética",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-054",
+"E",
+"Faltan datos para decidir",
+"Primario de ángulo cerrado",
+false
+],
+[
+"oftalmo_orl.json",
+"OFT-055",
+"E",
+"Ceftriaxona",
+"Corticoide tópico y alta",
+false
+],
+[
+"pediatria.json",
+"PED-002",
+"E",
+"Infección del tracto urinario",
+"Sinovitis transitoria de cadera",
+false
+],
+[
+"pediatria.json",
+"PED-003",
+"E",
+"Faltan datos para decidir",
+"Trisomía 18",
+false
+],
+[
+"pediatria.json",
+"PED-004",
+"E",
+"Clindamicina",
+"Ductus arterioso persistente",
+false
+],
+[
+"pediatria.json",
+"PED-005",
+"E",
+"Faltan datos para decidir",
+"Sarampión",
+false
+],
+[
+"pediatria.json",
+"PED-006",
+"E",
+"Faltan datos para decidir",
+"Vibrio cholerae",
+false
+],
+[
+"pediatria.json",
+"PED-007",
+"E",
+"Faltan datos para decidir",
+"Pentavalente y neumococo",
+false
+],
+[
+"pediatria.json",
+"PED-008",
+"E",
+"Insuficiencia cardíaca",
+"Atresia anal",
+false
+],
+[
+"pediatria.json",
+"PED-009",
+"E",
+"Lupus eritematoso sistémico",
+"Faringitis viral",
+false
+],
+[
+"pediatria.json",
+"PED-010",
+"E",
+"Hipertensión arterial",
+"Neumonía lobar",
+false
+],
+[
+"pediatria.json",
+"PED-011",
+"E",
+"Ninguna de las anteriores",
+"Hipotiroidismo congénito",
+false
+],
+[
+"pediatria.json",
+"PED-012",
+"E",
+"Faltan datos para decidir",
+"Talla baja familiar",
+false
+],
+[
+"pediatria.json",
+"PED-013",
+"E",
+"Tramadol",
+"Vancomicina + meropenem",
+false
+],
+[
+"pediatria.json",
+"PED-014",
+"E",
+"Lupus eritematoso sistémico",
+"Impétigo ampolloso",
+false
+],
+[
+"pediatria.json",
+"PED-015",
+"E",
+"Diabetes Mellitus",
+"Cirugía inmediata sin corregir líquidos",
+false
+],
+[
+"pediatria.json",
+"PED-016",
+"E",
+"Tuberculosis",
+"Epiglotitis",
+false
+],
+[
+"pediatria.json",
+"PED-017",
+"E",
+"Atropina",
+"Ciprofloxacino ótico",
+false
+],
+[
+"pediatria.json",
+"PED-018",
+"E",
+"Hipertensión arterial",
+"Enfermedad celíaca",
+false
+],
+[
+"pediatria.json",
+"PED-019",
+"E",
+"Faltan datos para decidir",
+"Hijos de madre diabética",
+false
+],
+[
+"pediatria.json",
+"PED-020",
+"E",
+"Sepsis",
+"Hemorragia intraventricular",
+false
+],
+[
+"pediatria.json",
+"PED-021",
+"E",
+"Faltan datos para decidir",
+"Staphylococcus aureus",
+false
+],
+[
+"pediatria.json",
+"PED-022",
+"E",
+"Insuficiencia cardíaca",
+"Hiperplasia suprarrenal congénita",
+false
+],
+[
+"pediatria.json",
+"PED-023",
+"E",
+"Infección del tracto urinario",
+"Fiebre persistente de 38 °C",
+false
+],
+[
+"pediatria.json",
+"PED-024",
+"E",
+"Lupus eritematoso sistémico",
+"Gastroenteritis aguda",
+false
+],
+[
+"pediatria.json",
+"PED-025",
+"E",
+"Ninguna de las anteriores",
+"Benzodiacepinas",
+false
+],
+[
+"pediatria.json",
+"PED-026",
+"E",
+"Faltan datos para decidir",
+"Ácido valproico oral",
+false
+],
+[
+"pediatria.json",
+"PED-027",
+"E",
+"Todas las anteriores",
+"Neumotórax derecho",
+false
+],
+[
+"pediatria.json",
+"PED-028",
+"E",
+"Todas las anteriores",
+"Hemofilia A",
+false
+],
+[
+"pediatria.json",
+"PED-029",
+"E",
+"Metronidazol",
+"Contaminación con flora perineal",
+false
+],
+[
+"pediatria.json",
+"PED-030",
+"E",
+"Insuficiencia cardíaca",
+"Sinusitis aguda bacteriana",
+false
+],
+[
+"pediatria.json",
+"PED-031",
+"E",
+"Diabetes Mellitus",
+"Talasemia menor",
+false
+],
+[
+"pediatria.json",
+"PED-032",
+"E",
+"Tuberculosis",
+"Colecistitis aguda",
+false
+],
+[
+"pediatria.json",
+"PED-033",
+"E",
+"Metronidazol",
+"Naloxona",
+false
+],
+[
+"pediatria.json",
+"PED-034",
+"E",
+"Dexametasona",
+"Neumonía por aspiración",
+false
+],
+[
+"pediatria.json",
+"PED-035",
+"E",
+"Diabetes Mellitus",
+"Apendicitis aguda",
+false
+],
+[
+"pediatria.json",
+"PED-036",
+"E",
+"Ninguna de las anteriores",
+"Urografía excretora",
+false
+],
+[
+"pediatria.json",
+"PED-037",
+"E",
+"Metronidazol",
+"Amoxicilina oral",
+false
+],
+[
+"pediatria.json",
+"PED-038",
+"E",
+"Paracetamol",
+"Esperar 5 minutos y reevaluar",
+false
+],
+[
+"pediatria.json",
+"PED-039",
+"E",
+"Síndrome de Guillain-Barré",
+"Insuficiencia cardiaca congestiva",
+false
+],
+[
+"pediatria.json",
+"PED-040",
+"E",
+"Faltan datos para decidir",
+"Atresia esofágica",
+false
+],
+[
+"pediatria.json",
+"PED-041",
+"E",
+"Metronidazol",
+"Propranolol",
+false
+],
+[
+"pediatria.json",
+"PED-042",
+"E",
+"Insuficiencia cardíaca",
+"Neumonía aspirativa",
+false
+],
+[
+"pediatria.json",
+"PED-043",
+"E",
+"Apendicitis aguda",
+"Síndrome nefrótico idiopático",
+false
+],
+[
+"pediatria.json",
+"PED-044",
+"E",
+"Cirrosis hepática",
+"Parálisis total del plexo braquial",
+false
+],
+[
+"pediatria.json",
+"PED-045",
+"E",
+"Todas las anteriores",
+"Espasmos infantiles",
+false
+],
+[
+"pediatria.json",
+"PED-046",
+"E",
+"Cirrosis hepática",
+"Ictericia por leche materna",
+false
+],
+[
+"pediatria.json",
+"PED-047",
+"E",
+"Todas las anteriores",
+"Enfermedad de Hirschsprung",
+false
+],
+[
+"pediatria.json",
+"PED-048",
+"E",
+"Diabetes Mellitus",
+"Neumonía lobar",
+false
+],
+[
+"pediatria.json",
+"PED-049",
+"E",
+"Epinefrina",
+"Amoxicilina oral",
+false
+],
+[
+"pediatria.json",
+"PED-050",
+"E",
+"Faltan datos para decidir",
+"Endoscopía digestiva alta",
+false
+],
+[
+"pediatria.json",
+"PED-051",
+"E",
+"Faltan datos para decidir",
+"Raquitismo",
+false
+],
+[
+"pediatria.json",
+"PED-052",
+"E",
+"Tomografía con contraste",
+"Ecografía abdominal",
+false
+],
+[
+"pediatria.json",
+"PED-053",
+"E",
+"Faltan datos para decidir",
+"Ayuno y antiemético",
+false
+],
+[
+"pediatria.json",
+"PED-054",
+"E",
+"Radiografía simple",
+"Urocultivo",
+false
+],
+[
+"pediatria.json",
+"PED-055",
+"E",
+"Neumonía adquirida",
+"Hidrocefalia",
+false
+],
+[
+"pediatria.json",
+"PED-056",
+"E",
+"Faltan datos para decidir",
+"Varía solo por la alimentación",
+false
+],
+[
+"pediatria.json",
+"PED-057",
+"E",
+"Infección del tracto urinario",
+"Síndrome hemolítico urémico",
+false
+],
+[
+"pediatria.json",
+"PED-058",
+"E",
+"Todas las anteriores",
+"Gluconato de calcio",
+false
+],
+[
+"pediatria.json",
+"PED-059",
+"E",
+"Infección del tracto urinario",
+"Enfermedad de Hirschsprung",
+false
+],
+[
+"pediatria.json",
+"PED-060",
+"E",
+"Todas las anteriores",
+"TAC cerebral antes de cualquier otro estudio",
+false
+],
+[
+"pediatria.json",
+"PED-061",
+"E",
+"Apendicitis aguda",
+"Bronquiolitis",
+false
+],
+[
+"pediatria.json",
+"PED-062",
+"E",
+"Todas las anteriores",
+"Sin deshidratación",
+false
+],
+[
+"pediatria.json",
+"PED-063",
+"E",
+"Hipertensión arterial",
+"Púrpura de Henoch-Schönlein",
+false
+],
+[
+"pediatria.json",
+"PED-064",
+"E",
+"Síndrome de Guillain-Barré",
+"Epiglotitis aguda",
+false
+],
+[
+"pediatria.json",
+"PED-065",
+"E",
+"Insuficiencia cardíaca",
+"Neumonía congénita",
+false
+],
+[
+"pediatria.json",
+"PED-066",
+"E",
+"Lupus eritematoso sistémico",
+"Antipoliomielítica",
+false
+],
+[
+"pediatria.json",
+"PED-067",
+"E",
+"Diabetes Mellitus",
+"Neumonía bacteriana",
+false
+],
+[
+"pediatria.json",
+"PED-068",
+"E",
+"Furosemida",
+"Púrpura de Henoch-Schönlein",
+false
+],
+[
+"pediatria.json",
+"PED-069",
+"E",
+"Paracetamol",
+"Amoxicilina oral",
+false
+],
+[
+"pediatria.json",
+"PED-070",
+"E",
+"Todas las anteriores",
+"Iniciar con leche de vaca entera",
+false
+],
+[
+"pediatria.json",
+"PED-071",
+"E",
+"Insuficiencia cardíaca",
+"Enfermedad de Hirschsprung",
+false
+],
+[
+"pediatria.json",
+"PED-072",
+"E",
+"Faltan datos para decidir",
+"Si tuvo contacto con escarlatina",
+false
+],
+[
+"pediatria.json",
+"PED-073",
+"E",
+"Apendicitis aguda",
+"Gastroenteritis viral",
+false
+],
+[
+"pediatria.json",
+"PED-074",
+"E",
+"Faltan datos para decidir",
+"Cambiar a fórmula láctea sin evaluar",
+false
+],
+[
+"pediatria.json",
+"PED-075",
+"E",
+"Infección del tracto urinario",
+"Reflujo gastroesofágico",
+false
+],
+[
+"pediatria.json",
+"PED-076",
+"E",
+"Todas las anteriores",
+"Aspirativa",
+false
+],
+[
+"pediatria.json",
+"PED-077",
+"E",
+"Todas las anteriores",
+"Síncope vasovagal",
+false
+],
+[
+"pediatria.json",
+"PED-078",
+"E",
+"Lupus eritematoso sistémico",
+"Bronquiolitis",
+false
+],
+[
+"pediatria.json",
+"PED-079",
+"E",
+"Metronidazol",
+"Ceftriaxona",
+false
+],
+[
+"pediatria.json",
+"PED-080",
+"E",
+"Clindamicina",
+"Lactosa",
+false
+],
+[
+"pediatria.json",
+"PED-081",
+"E",
+"Síndrome de Guillain-Barré",
+"Glomerulonefritis aguda",
+false
+],
+[
+"pediatria.json",
+"PED-082",
+"E",
+"Tuberculosis",
+"Anemia aplásica",
+false
+],
+[
+"pediatria.json",
+"PED-083",
+"E",
+"Neumonía adquirida",
+"Cuerpo extraño en vía aérea",
+false
+],
+[
+"pediatria.json",
+"PED-084",
+"E",
+"Prednisona",
+"Taquipnea transitoria del recién nacido",
+false
+],
+[
+"pediatria.json",
+"PED-085",
+"E",
+"Faltan datos para decidir",
+"Lavado gástrico inmediato",
+false
+],
+[
+"pediatria.json",
+"PED-086",
+"E",
+"Amoxicilina",
+"Repetir el PPD en un año",
+false
+],
+[
+"pediatria.json",
+"PED-087",
+"E",
+"Hipertensión arterial",
+"Anemia ferropénica severa",
+false
+],
+[
+"pediatria.json",
+"PED-088",
+"E",
+"Sepsis",
+"Reflujo gastroesofágico",
+false
+],
+[
+"pediatria.json",
+"PED-089",
+"E",
+"Todas las anteriores",
+"Lácteos y derivados",
+false
+],
+[
+"pediatria.json",
+"PED-090",
+"E",
+"Ketorolaco",
+"Carbón activado como única medida",
+false
+],
+[
+"pediatria.json",
+"PED-091",
+"E",
+"Apendicitis aguda",
+"Acidosis respiratoria",
+false
+],
+[
+"pediatria.json",
+"PED-092",
+"E",
+"Infección del tracto urinario",
+"Neumonía neonatal",
+false
+],
+[
+"pediatria.json",
+"PED-093",
+"E",
+"Dexametasona",
+"Hipoglicemia neonatal",
+false
+],
+[
+"pediatria.json",
+"PED-094",
+"E",
+"Diazepam",
+"Neumonía atípica",
+false
+],
+[
+"pediatria.json",
+"PED-095",
+"E",
+"Todas las anteriores",
+"Tetralogía de Fallot",
+false
+],
+[
+"pediatria.json",
+"PED-096",
+"E",
+"Faltan datos para decidir",
+"Fototerapia",
+false
+],
+[
+"pediatria.json",
+"PED-097",
+"E",
+"Faltan datos para decidir",
+"Administrar adrenalina endovenosa",
+false
+],
+[
+"pediatria.json",
+"PED-098",
+"E",
+"Todas las anteriores",
+"Desnutrición crónica leve",
+false
+],
+[
+"pediatria.json",
+"PED-099",
+"E",
+"Faltan datos para decidir",
+"Antibiótico oral",
+false
+],
+[
+"pediatria.json",
+"PED-100",
+"E",
+"Faltan datos para decidir",
+"Fístula rectovesical",
+false
+],
+[
+"pediatria.json",
+"PED-101",
+"E",
+"Faltan datos para decidir",
+"Hipoglicemia neonatal",
+false
+],
+[
+"pediatria.json",
+"PED-102",
+"E",
+"Todas las anteriores",
+"Ictericia por leche materna",
+false
+],
+[
+"pediatria.json",
+"PED-103",
+"E",
+"Solicitar nuevo cultivo",
+"100 mg/m²/h",
+false
+],
+[
+"pediatria.json",
+"PED-104",
+"E",
+"Cirrosis hepática",
+"Ictericia por leche materna",
+false
+],
+[
+"pediatria.json",
+"PED-105",
+"E",
+"Metronidazol",
+"Inducción del vómito",
+false
+],
+[
+"pediatria.json",
+"PED-106",
+"E",
+"Todas las anteriores",
+"Transposición de grandes arterias",
+false
+],
+[
+"pediatria.json",
+"PED-107",
+"E",
+"Atropina",
+"Penicilina benzatínica más azitromicina por 10 días",
+false
+],
+[
+"pediatria.json",
+"PED-108",
+"E",
+"Ninguna de las anteriores",
+"Asma bronquial",
+false
+],
+[
+"pediatria.json",
+"PED-109",
+"E",
+"Prednisona",
+"Orina de la primera micción en pañal",
+false
+],
+[
+"pediatria.json",
+"PED-110",
+"E",
+"Suspender tratamiento",
+"Suero oral a libre demanda",
+false
+],
+[
+"pediatria.json",
+"PED-111",
+"E",
+"Endoscopia digestiva",
+"Tomografía de tórax de control",
+false
+],
+[
+"pediatria.json",
+"PED-112",
+"E",
+"Ninguna de las anteriores",
+"Tetralogía de Fallot",
+false
+],
+[
+"pediatria.json",
+"PED-113",
+"E",
+"Faltan datos para decidir",
+"Hernia inguinal",
+false
+],
+[
+"pediatria.json",
+"PED-114",
+"E",
+"Radiografía simple",
+"Electroencefalograma",
+false
+],
+[
+"pediatria.json",
+"PED-115",
+"E",
+"Sepsis",
+"Rubéola",
+false
+],
+[
+"pediatria.json",
+"PED-116",
+"E",
+"Todas las anteriores",
+"Masaje cardiaco inmediato",
+false
+],
+[
+"pediatria.json",
+"PED-117",
+"E",
+"Diazepam",
+"Rotura prematura de membranas prolongada",
+false
+],
+[
+"pediatria.json",
+"PED-118",
+"E",
+"Infección del tracto urinario",
+"Hematoma subdural",
+false
+],
+[
+"pediatria.json",
+"PED-119",
+"E",
+"Todas las anteriores",
+"Bilirrubina indirecta elevada",
+false
+],
+[
+"pediatria.json",
+"PED-120",
+"E",
+"Lupus eritematoso sistémico",
+"Meningitis bacteriana",
+false
+],
+[
+"pediatria.json",
+"PED-121",
+"E",
+"Tomografía con contraste",
+"Dosaje de TSH",
+false
+],
+[
+"pediatria.json",
+"PED-122",
+"E",
+"Paracetamol",
+"Curación con alcohol cada 8 horas",
+false
+],
+[
+"pediatria.json",
+"PED-123",
+"E",
+"Síndrome de Guillain-Barré",
+"Hipocalcemia",
+false
+],
+[
+"pediatria.json",
+"PED-124",
+"E",
+"Todas las anteriores",
+"Líquido amniótico claro",
+false
+],
+[
+"pediatria.json",
+"PED-125",
+"E",
+"Ninguna de las anteriores",
+"Salmonella spp.",
+false
+],
+[
+"pediatria.json",
+"PED-126",
+"E",
+"Faltan datos para decidir",
+"Virus sincitial respiratorio",
+false
+],
+[
+"pediatria.json",
+"PED-127",
+"E",
+"Ninguna de las anteriores",
+"Esperar el hemocultivo antes de tratar",
+false
+],
+[
+"pediatria.json",
+"PED-128",
+"E",
+"Atropina",
+"Amoxicilina en dosis altas",
+false
+],
+[
+"pediatria.json",
+"PED-129",
+"E",
+"Atropina",
+"Ayuno y antibiótico endovenoso",
+false
+],
+[
+"pediatria.json",
+"PED-130",
+"E",
+"Ninguna de las anteriores",
+"BCG",
+false
+],
+[
+"pediatria.json",
+"PED-131",
+"E",
+"Ciprofloxacino",
+"Nitrofurantoína",
+false
+],
+[
+"pediatria.json",
+"PED-132",
+"E",
+"Ninguna de las anteriores",
+"Hemorragia intraventricular",
+false
+],
+[
+"pediatria.json",
+"PED-133",
+"E",
+"Síndrome de Guillain-Barré",
+"Celulitis secundaria",
+false
+],
+[
+"pediatria.json",
+"PED-134",
+"E",
+"Ninguna de las anteriores",
+"Tetralogía de Fallot",
+false
+],
+[
+"pediatria.json",
+"PED-135",
+"E",
+"Faltan datos para decidir",
+"Al alta hospitalaria",
+false
+],
+[
+"pediatria.json",
+"PED-136",
+"E",
+"Aspirina",
+"Metronidazol",
+false
+],
+[
+"pediatria.json",
+"PED-137",
+"E",
+"Ceftriaxona",
+"Neumonía por aspiración",
+false
+],
+[
+"pediatria.json",
+"PED-138",
+"E",
+"Todas las anteriores",
+"Virus sincitial respiratorio",
+false
+],
+[
+"pediatria.json",
+"PED-139",
+"E",
+"Hemodiálisis",
+"Cambiar a amoxicilina oral y alta",
+false
+],
+[
+"pediatria.json",
+"PED-140",
+"E",
+"Todas las anteriores",
+"Ecografía renal",
+false
+],
+[
+"pediatria.json",
+"PED-141",
+"E",
+"Hipertensión arterial",
+"Hipoglicemia neonatal",
+false
+],
+[
+"pediatria.json",
+"PED-142",
+"E",
+"Metronidazol",
+"Suspender los controles oftalmológicos si mejora la respiración",
+false
+],
+[
+"pediatria.json",
+"PED-143",
+"E",
+"Ketorolaco",
+"Diazepam rectal",
+false
+],
+[
+"pediatria.json",
+"PED-144",
+"E",
+"Dexametasona",
+"Síndrome de aspiración meconial",
+false
+],
+[
+"pediatria.json",
+"PED-145",
+"E",
+"Colonoscopia",
+"Tránsito intestinal baritado",
+false
+],
+[
+"pediatria.json",
+"PED-146",
+"E",
+"Faltan datos para decidir",
+"Fístula traqueoesofágica en H aislada",
+false
+],
+[
+"pediatria.json",
+"PED-147",
+"E",
+"Insuficiencia cardíaca",
+"Impétigo",
+false
+],
+[
+"pediatria.json",
+"PED-148",
+"E",
+"Apendicitis aguda",
+"Mononucleosis infecciosa",
+false
+],
+[
+"pediatria.json",
+"PED-149",
+"E",
+"Ninguna de las anteriores",
+"Derrame pleural masivo",
+false
+],
+[
+"pediatria.json",
+"PED-150",
+"E",
+"Ninguna de las anteriores",
+"Aplicar PPD antes de revacunar",
+false
+],
+[
+"pediatria.json",
+"PED-151",
+"E",
+"Faltan datos para decidir",
+"Coprocultivo",
+false
+],
+[
+"pediatria.json",
+"PED-152",
+"E",
+"Faltan datos para decidir",
+"Fototerapia",
+false
+],
+[
+"pediatria.json",
+"PED-153",
+"E",
+"Faltan datos para decidir",
+"1 al año",
+false
+],
+[
+"pediatria.json",
+"PED-154",
+"E",
+"Todas las anteriores",
+"Retinopatía del prematuro",
+false
+],
+[
+"pediatria.json",
+"PED-155",
+"E",
+"Ninguna de las anteriores",
+"Bilirrubina sérica",
+false
+],
+[
+"pediatria.json",
+"PED-156",
+"E",
+"Hipertensión arterial",
+"Faringitis viral",
+false
+],
+[
+"pediatria.json",
+"PED-157",
+"E",
+"Insuficiencia cardíaca",
+"Atresia de colon",
+false
+],
+[
+"pediatria.json",
+"PED-158",
+"E",
+"Todas las anteriores",
+"Hipotonía central",
+false
+],
+[
+"pediatria.json",
+"PED-159",
+"E",
+"Aumentar dosis",
+"Sales de rehidratación oral a demanda",
+false
+],
+[
+"pediatria.json",
+"PED-160",
+"E",
+"Todas las anteriores",
+"Antibiótico sistémico",
+false
+],
+[
+"pediatria.json",
+"PED-161",
+"E",
+"Valores normales",
+"40 ml al 5%, VO",
+false
+],
+[
+"pediatria.json",
+"PED-162",
+"E",
+"Sepsis",
+"Plaquetas normales",
+false
+],
+[
+"pediatria.json",
+"PED-163",
+"E",
+"Faltan datos para decidir",
+"Coartación de aorta",
+false
+],
+[
+"pediatria.json",
+"PED-164",
+"E",
+"Ninguna de las anteriores",
+"Hipoglicemia neonatal",
+false
+],
+[
+"pediatria.json",
+"PED-165",
+"E",
+"Todas las anteriores",
+"Entamoeba histolytica",
+false
+],
+[
+"pediatria.json",
+"PED-166",
+"E",
+"Ceftriaxona",
+"Vigilancia nutricional",
+false
+],
+[
+"pediatria.json",
+"PED-167",
+"E",
+"Aumentar dosis",
+"Urocultivo por bolsa colectora con 10 000 ufc/ml",
+false
+],
+[
+"pediatria.json",
+"PED-168",
+"E",
+"Faltan datos para decidir",
+"Haemophilus influenzae",
+false
+],
+[
+"pediatria.json",
+"PED-169",
+"E",
+"Ketorolaco",
+"Metronidazol",
+false
+],
+[
+"pediatria.json",
+"PED-170",
+"E",
+"Neumonía adquirida",
+"Atresia de vías biliares",
+false
+],
+[
+"pediatria.json",
+"PED-171",
+"E",
+"Ninguna de las anteriores",
+"10",
+false
+],
+[
+"pediatria.json",
+"PED-172",
+"E",
+"Ketorolaco",
+"Laringotraqueobronquitis",
+false
+],
+[
+"pediatria.json",
+"PED-173",
+"E",
+"Faltan datos para decidir",
+"D",
+false
+],
+[
+"pediatria.json",
+"PED-174",
+"E",
+"Valores normales",
+"Solo la dosis faltante de rotavirus",
+false
+],
+[
+"pediatria.json",
+"PED-175",
+"E",
+"Epinefrina",
+"Azitromicina + metronidazol",
+false
+],
+[
+"pediatria.json",
+"PED-176",
+"E",
+"Todas las anteriores",
+"Alimentar con fórmula espesada",
+false
+],
+[
+"pediatria.json",
+"PED-177",
+"E",
+"Todas las anteriores",
+"Observación y analgesia",
+false
+],
+[
+"pediatria.json",
+"PED-178",
+"E",
+"Faltan datos para decidir",
+"B12",
+false
+],
+[
+"pediatria.json",
+"PED-179",
+"E",
+"Aumentar dosis",
+"Corticoides sistémicos",
+false
+],
+[
+"pediatria.json",
+"PED-180",
+"E",
+"Todas las anteriores",
+"Diazepam endovenoso de rutina",
+false
+],
+[
+"pediatria.json",
+"PED-181",
+"E",
+"Faltan datos para decidir",
+"Onfalitis",
+false
+],
+[
+"pediatria.json",
+"PED-182",
+"E",
+"Todas las anteriores",
+"Escherichia coli enterohemorrágica",
+false
+],
+[
+"pediatria.json",
+"PED-183",
+"E",
+"Radiografía simple",
+"Ecografía doppler testicular",
+false
+],
+[
+"pediatria.json",
+"PED-184",
+"E",
+"Todas las anteriores",
+"Recaída infrecuente",
+false
+],
+[
+"pediatria.json",
+"PED-185",
+"E",
+"Insulina",
+"Raquitismo",
+false
+],
+[
+"pediatria.json",
+"PED-186",
+"E",
+"Apendicitis aguda",
+"Hirschsprung",
+false
+],
+[
+"pediatria.json",
+"PED-187",
+"E",
+"Todas las anteriores",
+"Ecografía pulmonar de rutina",
+false
+],
+[
+"pediatria.json",
+"PED-188",
+"E",
+"Ninguna de las anteriores",
+"Seis",
+false
+],
+[
+"pediatria.json",
+"PED-189",
+"E",
+"Diazepam",
+"Púrpura trombocitopénica inmune",
+false
+],
+[
+"pediatria.json",
+"PED-190",
+"E",
+"Todas las anteriores",
+"Enema con contraste",
+false
+],
+[
+"pediatria.json",
+"PED-191",
+"E",
+"Todas las anteriores",
+"Corregir el sodio en menos de 6 horas",
+false
+],
+[
+"pediatria.json",
+"PED-192",
+"E",
+"Todas las anteriores",
+"Ayuno y antiemético",
+false
+],
+[
+"pediatria.json",
+"PED-193",
+"E",
+"Síndrome de Guillain-Barré",
+"Rotavirus",
+false
+],
+[
+"pediatria.json",
+"PED-194",
+"E",
+"Faltan datos para decidir",
+"1.5",
+false
+],
+[
+"pediatria.json",
+"PED-195",
+"E",
+"Todas las anteriores",
+"10",
+false
+],
+[
+"pediatria.json",
+"PED-196",
+"E",
+"Aspirina",
+"Loratadina oral",
+false
+],
+[
+"pediatria.json",
+"PED-197",
+"E",
+"Ninguna de las anteriores",
+"Obesidad",
+false
+],
+[
+"pediatria.json",
+"PED-198",
+"E",
+"Todas las anteriores",
+"Monosomía X",
+false
+],
+[
+"pediatria.json",
+"PED-199",
+"E",
+"Ninguna de las anteriores",
+"Sibilancias por reflujo",
+false
+],
+[
+"pediatria.json",
+"PED-200",
+"E",
+"Hospitalización en UCI",
+"Alta con antibiótico oral",
+false
+],
+[
+"pediatria.json",
+"PED-201",
+"E",
+"Neumonía adquirida",
+"Gastroenteritis aguda",
+false
+],
+[
+"pediatria.json",
+"PED-202",
+"E",
+"Todas las anteriores",
+"Coartación de aorta",
+false
+],
+[
+"pediatria.json",
+"PED-203",
+"E",
+"Hipertensión arterial",
+"Laringotraqueítis",
+false
+],
+[
+"pediatria.json",
+"PED-204",
+"E",
+"Ciprofloxacino",
+"Masaje cardiaco",
+false
+],
+[
+"pediatria.json",
+"PED-205",
+"E",
+"Diazepam",
+"Uso de hierro profiláctico",
+false
+],
+[
+"pediatria.json",
+"PED-206",
+"E",
+"Solicitar nuevo cultivo",
+"Suero oral a demanda",
+false
+],
+[
+"pediatria.json",
+"PED-207",
+"E",
+"Faltan datos para decidir",
+"Esperar a los 18 meses para confirmar con ELISA",
+false
+],
+[
+"pediatria.json",
+"PED-208",
+"E",
+"Ninguna de las anteriores",
+"10",
+false
+],
+[
+"pediatria.json",
+"PED-209",
+"E",
+"Ninguna de las anteriores",
+"48",
+false
+],
+[
+"pediatria.json",
+"PED-210",
+"E",
+"Amoxicilina",
+"Hemoglobina glicosilada",
+false
+],
+[
+"pediatria.json",
+"PED-211",
+"E",
+"Infección del tracto urinario",
+"Transposición de grandes arterias",
+false
+],
+[
+"pediatria.json",
+"PED-212",
+"E",
+"Azitromicina",
+"Nitrofurantoína oral",
+false
+],
+[
+"pediatria.json",
+"PED-213",
+"E",
+"Apendicitis aguda",
+"Cuerpo extraño bronquial",
+false
+],
+[
+"pediatria.json",
+"PED-214",
+"E",
+"Ninguna de las anteriores",
+"Enterocolitis necrotizante",
+false
+],
+[
+"pediatria.json",
+"PED-215",
+"E",
+"Ninguna de las anteriores",
+"Mycoplasma pneumoniae",
+false
+],
+[
+"pediatria.json",
+"PED-216",
+"E",
+"Todas las anteriores",
+"Indicar antipirético y alta",
+false
+],
+[
+"pediatria.json",
+"PED-217",
+"E",
+"Paracetamol",
+"Clorfenamina",
+false
+],
+[
+"pediatria.json",
+"PED-218",
+"E",
+"Faltan datos para decidir",
+"Neurogénico",
+false
+],
+[
+"pediatria.json",
+"PED-219",
+"E",
+"Todas las anteriores",
+"Hipotiroidismo congénito",
+false
+],
+[
+"pediatria.json",
+"PED-220",
+"E",
+"Insulina",
+"Ivermectina",
+false
+],
+[
+"pediatria.json",
+"PED-221",
+"E",
+"Faltan datos para decidir",
+"Fototerapia",
+false
+],
+[
+"pediatria.json",
+"PED-222",
+"E",
+"Dexametasona",
+"Vitamina C",
+false
+],
+[
+"pediatria.json",
+"PED-223",
+"E",
+"Hipertensión arterial",
+"Mesangial por IgA",
+false
+],
+[
+"pediatria.json",
+"PED-224",
+"E",
+"Faltan datos para decidir",
+"Rotavirus",
+false
+],
+[
+"pediatria.json",
+"PED-225",
+"E",
+"Ninguna de las anteriores",
+"3",
+false
+],
+[
+"pediatria.json",
+"PED-226",
+"E",
+"Todas las anteriores",
+"Insuficiencia suprarrenal neonatal",
+false
+],
+[
+"pediatria.json",
+"PED-227",
+"E",
+"Todas las anteriores",
+"Obstrucción al tracto de salida izquierdo",
+false
+],
+[
+"pediatria.json",
+"PED-228",
+"E",
+"Todas las anteriores",
+"Dermatitis atópica",
+false
+],
+[
+"pediatria.json",
+"PED-229",
+"E",
+"Infección del tracto urinario",
+"Hernia hiatal",
+false
+],
+[
+"pediatria.json",
+"PED-230",
+"E",
+"Epinefrina",
+"Corticoides endovenosos",
+false
+],
+[
+"pediatria.json",
+"PED-231",
+"E",
+"Ninguna de las anteriores",
+"Repetir la PCR a los 6 meses",
+false
+],
+[
+"pediatria.json",
+"PED-232",
+"E",
+"Faltan datos para decidir",
+"Fenobarbital",
+false
+],
+[
+"pediatria.json",
+"PED-233",
+"E",
+"Clindamicina",
+"Escorbuto",
+false
+],
+[
+"pediatria.json",
+"PED-234",
+"E",
+"Aislamiento estricto",
+"Intubación orotraqueal",
+false
+],
+[
+"pediatria.json",
+"PED-235",
+"E",
+"Ketorolaco",
+"Masaje cardiaco",
+false
+],
+[
+"pediatria.json",
+"PED-236",
+"E",
+"Observación clínica",
+"Antibiótico tópico en las lesiones",
+false
+],
+[
+"pediatria.json",
+"PED-237",
+"E",
+"Diazepam",
+"Nistatina tópica",
+false
+],
+[
+"pediatria.json",
+"PED-238",
+"E",
+"Asma bronquial",
+"Escarlatina",
+false
+],
+[
+"pediatria.json",
+"PED-239",
+"E",
+"Ninguna de las anteriores",
+"Sexo femenino",
+false
+],
+[
+"pediatria.json",
+"PED-240",
+"E",
+"Infección del tracto urinario",
+"Uso de chupón para calmarlo",
+false
+],
+[
+"pediatria.json",
+"PED-241",
+"E",
+"Síndrome de Guillain-Barré",
+"Ano imperforado",
+false
+],
+[
+"psiquiatria.json",
+"PSI-002",
+"E",
+"Diabetes Mellitus",
+"Hipertiroidismo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-003",
+"E",
+"Faltan datos para decidir",
+"Intubación orotraqueal",
+false
+],
+[
+"psiquiatria.json",
+"PSI-004",
+"E",
+"Ibuprofeno",
+"Carbón activado como única medida",
+false
+],
+[
+"psiquiatria.json",
+"PSI-005",
+"E",
+"Faltan datos para decidir",
+"Trastorno psicótico breve",
+false
+],
+[
+"psiquiatria.json",
+"PSI-006",
+"E",
+"Ninguna de las anteriores",
+"Esquizoide",
+false
+],
+[
+"psiquiatria.json",
+"PSI-007",
+"E",
+"Asma bronquial",
+"Trastorno de pánico",
+false
+],
+[
+"psiquiatria.json",
+"PSI-008",
+"E",
+"Todas las anteriores",
+"Trastorno de ansiedad generalizada",
+false
+],
+[
+"psiquiatria.json",
+"PSI-009",
+"E",
+"Asma bronquial",
+"Hipotiroidismo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-010",
+"E",
+"Tuberculosis",
+"Trastorno de déficit de atención",
+false
+],
+[
+"psiquiatria.json",
+"PSI-011",
+"E",
+"Apendicitis aguda",
+"Infarto agudo de miocardio",
+false
+],
+[
+"psiquiatria.json",
+"PSI-012",
+"E",
+"Diabetes Mellitus",
+"Trastorno de pánico",
+false
+],
+[
+"psiquiatria.json",
+"PSI-013",
+"E",
+"Ninguna de las anteriores",
+"Esquizofrenia paranoide",
+false
+],
+[
+"psiquiatria.json",
+"PSI-014",
+"E",
+"Asma bronquial",
+"Infarto agudo de miocardio",
+false
+],
+[
+"psiquiatria.json",
+"PSI-015",
+"E",
+"Tuberculosis",
+"Acidosis respiratoria",
+false
+],
+[
+"psiquiatria.json",
+"PSI-016",
+"E",
+"Neumonía adquirida",
+"Demencia frontotemporal",
+false
+],
+[
+"psiquiatria.json",
+"PSI-017",
+"E",
+"Cirrosis hepática",
+"Hipotiroidismo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-018",
+"E",
+"Insuficiencia cardíaca",
+"Trastorno de ansiedad",
+false
+],
+[
+"psiquiatria.json",
+"PSI-019",
+"E",
+"Diabetes Mellitus",
+"Hipertermia maligna por anestesia",
+false
+],
+[
+"psiquiatria.json",
+"PSI-020",
+"E",
+"Furosemida",
+"Diazepam en monoterapia",
+false
+],
+[
+"psiquiatria.json",
+"PSI-021",
+"E",
+"Síndrome de Guillain-Barré",
+"Hipotiroidismo posparto",
+false
+],
+[
+"psiquiatria.json",
+"PSI-022",
+"E",
+"Cirrosis hepática",
+"Feocromocitoma",
+false
+],
+[
+"psiquiatria.json",
+"PSI-023",
+"E",
+"Faltan datos para decidir",
+"Naloxona",
+false
+],
+[
+"psiquiatria.json",
+"PSI-024",
+"E",
+"Clindamicina",
+"Aumentar la dosis de haloperidol",
+false
+],
+[
+"psiquiatria.json",
+"PSI-025",
+"E",
+"Asma bronquial",
+"Hipertiroidismo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-026",
+"E",
+"Faltan datos para decidir",
+"Esquizofrenia paranoide",
+false
+],
+[
+"psiquiatria.json",
+"PSI-027",
+"E",
+"Todas las anteriores",
+"Elevación del ST difusa",
+false
+],
+[
+"psiquiatria.json",
+"PSI-028",
+"E",
+"Neumonía adquirida",
+"Trastorno obsesivo-compulsivo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-029",
+"E",
+"Solicitar nuevo cultivo",
+"Se pueden combinar con IMAO sin riesgo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-030",
+"E",
+"Todas las anteriores",
+"Mola hidatiforme",
+false
+],
+[
+"psiquiatria.json",
+"PSI-031",
+"E",
+"Lupus eritematoso sistémico",
+"Encefalopatía de Wernicke aislada",
+false
+],
+[
+"psiquiatria.json",
+"PSI-032",
+"E",
+"Cirrosis hepática",
+"Hipotiroidismo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-033",
+"E",
+"Todas las anteriores",
+"Tónico-clónica generalizada",
+false
+],
+[
+"psiquiatria.json",
+"PSI-034",
+"E",
+"Ninguna de las anteriores",
+"Practicar deporte",
+false
+],
+[
+"psiquiatria.json",
+"PSI-035",
+"E",
+"Faltan datos para decidir",
+"Hablar con fluidez",
+false
+],
+[
+"psiquiatria.json",
+"PSI-036",
+"E",
+"Insuficiencia cardíaca",
+"Esquizofrenia simple",
+false
+],
+[
+"psiquiatria.json",
+"PSI-037",
+"E",
+"Todas las anteriores",
+"Iniciar benzodiazepinas nocturnas",
+false
+],
+[
+"psiquiatria.json",
+"PSI-038",
+"E",
+"Neumonía adquirida",
+"Trastorno obsesivo-compulsivo",
+false
+],
+[
+"psiquiatria.json",
+"PSI-039",
+"E",
+"Metronidazol",
+"Haloperidol en dosis alta",
+false
+],
+[
+"psiquiatria.json",
+"PSI-040",
+"E",
+"Ninguna de las anteriores",
+"Dar de alta sin intervención",
+false
+],
+[
+"psiquiatria.json",
+"PSI-041",
+"E",
+"Faltan datos para decidir",
+"Maníaca",
+false
+],
+[
+"psiquiatria.json",
+"PSI-042",
+"E",
+"Todas las anteriores",
+"Hipocloremia aislada sin otros cambios",
+false
+],
+[
+"reumatologia.json",
+"REU-002",
+"E",
+"Atropina",
+"Ictericia obstructiva",
+false
+],
+[
+"reumatologia.json",
+"REU-003",
+"E",
+"Todas las anteriores",
+"Velocidad de sedimentación",
+false
+],
+[
+"reumatologia.json",
+"REU-004",
+"E",
+"Infección del tracto urinario",
+"Dermatitis de contacto",
+false
+],
+[
+"reumatologia.json",
+"REU-005",
+"E",
+"Síndrome de Guillain-Barré",
+"Varicela",
+false
+],
+[
+"reumatologia.json",
+"REU-006",
+"E",
+"Paracetamol",
+"Ketoconazol",
+false
+],
+[
+"reumatologia.json",
+"REU-007",
+"E",
+"Lupus eritematoso sistémico",
+"Fibromialgia",
+false
+],
+[
+"reumatologia.json",
+"REU-008",
+"E",
+"Sepsis",
+"Dermatitis seborreica",
+false
+],
+[
+"reumatologia.json",
+"REU-009",
+"E",
+"Apendicitis aguda",
+"Psoriasis",
+false
+],
+[
+"reumatologia.json",
+"REU-010",
+"E",
+"Neumonía adquirida",
+"Impétigo",
+false
+],
+[
+"reumatologia.json",
+"REU-011",
+"E",
+"Síndrome de Guillain-Barré",
+"Hipotiroidismo",
+false
+],
+[
+"reumatologia.json",
+"REU-012",
+"E",
+"Tramadol",
+"Antiviral",
+false
+],
+[
+"reumatologia.json",
+"REU-013",
+"E",
+"Paracetamol",
+"Clotrimazol",
+false
+],
+[
+"reumatologia.json",
+"REU-014",
+"E",
+"Sepsis",
+"Onicomicosis por dermatofitos",
+false
+],
+[
+"reumatologia.json",
+"REU-015",
+"E",
+"Ciprofloxacino",
+"Gluconato de calcio",
+false
+],
+[
+"reumatologia.json",
+"REU-016",
+"E",
+"Todas las anteriores",
+"Virus varicela zóster",
+false
+],
+[
+"reumatologia.json",
+"REU-017",
+"E",
+"Cirrosis hepática",
+"Psoriasis del cuero cabelludo",
+false
+],
+[
+"reumatologia.json",
+"REU-018",
+"E",
+"Ninguna de las anteriores",
+"Mecánico",
+false
+],
+[
+"reumatologia.json",
+"REU-019",
+"E",
+"Todas las anteriores",
+"Antiinflamatorios no esteroideos solos",
+false
+],
+[
+"reumatologia.json",
+"REU-020",
+"E",
+"Todas las anteriores",
+"Rosácea",
+false
+],
+[
+"reumatologia.json",
+"REU-021",
+"E",
+"Aislamiento estricto",
+"Antibiótico tópico de uso diario",
+false
+],
+[
+"reumatologia.json",
+"REU-022",
+"E",
+"Dexametasona",
+"Urticaria por frío",
+false
+],
+[
+"reumatologia.json",
+"REU-023",
+"E",
+"Epinefrina",
+"Mupirocina tópica",
+false
+],
+[
+"reumatologia.json",
+"REU-024",
+"E",
+"Sepsis",
+"Varicela",
+false
+],
+[
+"reumatologia.json",
+"REU-025",
+"E",
+"Síndrome de Guillain-Barré",
+"Linfadenitis tuberculosa",
+false
+],
+[
+"reumatologia.json",
+"REU-026",
+"E",
+"Infección del tracto urinario",
+"Hipotiroidismo",
+false
+],
+[
+"reumatologia.json",
+"REU-027",
+"E",
+"Diabetes Mellitus",
+"Artritis reactiva",
+false
+],
+[
+"reumatologia.json",
+"REU-028",
+"E",
+"Neumonía adquirida",
+"Pediculosis corporis",
+false
+],
+[
+"reumatologia.json",
+"REU-029",
+"E",
+"Ninguna de las anteriores",
+"Moderadamente grave",
+false
+],
+[
+"reumatologia.json",
+"REU-030",
+"E",
+"Sepsis",
+"Pitiriasis rosada",
+false
+],
+[
+"reumatologia.json",
+"REU-031",
+"E",
+"Sepsis",
+"Hipotiroidismo",
+false
+],
+[
+"reumatologia.json",
+"REU-032",
+"E",
+"Insuficiencia cardíaca",
+"Arteritis de células gigantes",
+false
+],
+[
+"reumatologia.json",
+"REU-033",
+"E",
+"Síndrome de Guillain-Barré",
+"Síndrome nefrótico idiopático",
+false
+],
+[
+"reumatologia.json",
+"REU-034",
+"E",
+"Tuberculosis",
+"Tiña capitis",
+false
+],
+[
+"reumatologia.json",
+"REU-035",
+"E",
+"Todas las anteriores",
+"Dermatitis de contacto",
+false
+],
+[
+"reumatologia.json",
+"REU-036",
+"E",
+"Metronidazol",
+"Corticoide tópico de alta potencia",
+false
+],
+[
+"reumatologia.json",
+"REU-037",
+"E",
+"Sepsis",
+"Psoriasis",
+false
+],
+[
+"reumatologia.json",
+"REU-038",
+"E",
+"Clindamicina",
+"Diazepam",
+false
+],
+[
+"reumatologia.json",
+"REU-039",
+"E",
+"Neumonía adquirida",
+"Herpes simple labial",
+false
+],
+[
+"reumatologia.json",
+"REU-040",
+"E",
+"Diabetes Mellitus",
+"Queratosis seborreica",
+false
+],
+[
+"reumatologia.json",
+"REU-041",
+"E",
+"Dexametasona",
+"Fluconazol oral",
+false
+],
+[
+"reumatologia.json",
+"REU-042",
+"E",
+"Faltan datos para decidir",
+"Factor reumatoide",
+false
+],
+[
+"reumatologia.json",
+"REU-043",
+"E",
+"Omeprazol",
+"Ranitidina",
+false
+],
+[
+"reumatologia.json",
+"REU-044",
+"E",
+"Diabetes Mellitus",
+"Lumbalgia mecánica",
+false
+],
+[
+"reumatologia.json",
+"REU-045",
+"E",
+"Dexametasona",
+"Ivermectina tópica en menores de 15 kg",
+false
+],
+[
+"reumatologia.json",
+"REU-046",
+"E",
+"Infección del tracto urinario",
+"Necrólisis epidérmica tóxica",
+false
+],
+[
+"reumatologia.json",
+"REU-047",
+"E",
+"Asma bronquial",
+"Paroniquia bacteriana",
+false
+],
+[
+"reumatologia.json",
+"REU-048",
+"E",
+"Todas las anteriores",
+"Cristales de urato",
+false
+],
+[
+"reumatologia.json",
+"REU-049",
+"E",
+"Neumonía adquirida",
+"Esclerodermia",
+false
+],
+[
+"reumatologia.json",
+"REU-050",
+"E",
+"Neumonía adquirida",
+"Pitiriasis versicolor",
+false
+],
+[
+"reumatologia.json",
+"REU-051",
+"E",
+"Cirrosis hepática",
+"Escabiosis",
+false
+],
+[
+"reumatologia.json",
+"REU-052",
+"E",
+"Lupus eritematoso sistémico",
+"Herpes simple",
+false
+],
+[
+"reumatologia.json",
+"REU-053",
+"E",
+"Ibuprofeno",
+"Rasurar el cabello y nada más",
+false
+],
+[
+"reumatologia.json",
+"REU-054",
+"E",
+"Cirrosis hepática",
+"Gota tofácea",
+false
+],
+[
+"reumatologia.json",
+"REU-055",
+"E",
+"Biopsia excisional",
+"Corticoide intraarticular",
+false
+],
+[
+"reumatologia.json",
+"REU-056",
+"E",
+"Radiografía simple",
+"Ácido úrico en orina de 24 horas",
+false
+],
+[
+"reumatologia.json",
+"REU-057",
+"E",
+"Faltan datos para decidir",
+"Isotretinoína oral",
+false
+],
+[
+"reumatologia.json",
+"REU-058",
+"E",
+"Asma bronquial",
+"Dermatitis atópica",
+false
+],
+[
+"reumatologia.json",
+"REU-059",
+"E",
+"Ninguna de las anteriores",
+"Microsporum canis",
+false
+],
+[
+"reumatologia.json",
+"REU-060",
+"E",
+"Síndrome de Guillain-Barré",
+"Fiebre reumática",
+false
+],
+[
+"reumatologia.json",
+"REU-061",
+"E",
+"Arteriografía",
+"Ecografía de músculos",
+false
+],
+[
+"reumatologia.json",
+"REU-062",
+"E",
+"Tuberculosis",
+"Sífilis secundaria",
+false
+],
+[
+"reumatologia.json",
+"REU-063",
+"E",
+"Tramadol",
+"Prednisona en dosis altas indefinida",
+false
+],
+[
+"reumatologia.json",
+"REU-064",
+"E",
+"Diabetes Mellitus",
+"Hipotiroidismo",
+false
+],
+[
+"reumatologia.json",
+"REU-065",
+"E",
+"Ninguna de las anteriores",
+"Pseudogota",
+false
+],
+[
+"reumatologia.json",
+"REU-066",
+"E",
+"Ninguna de las anteriores",
+"Rosácea",
+false
+],
+[
+"reumatologia.json",
+"REU-067",
+"E",
+"Ninguna de las anteriores",
+"Radiación de microondas",
+false
+],
+[
+"reumatologia.json",
+"REU-068",
+"E",
+"Lupus eritematoso sistémico",
+"Gota",
+false
+],
+[
+"salud_publica.json",
+"SP-002",
+"E",
+"Todas las anteriores",
+"Parto domiciliario sin atención",
+false
+],
+[
+"salud_publica.json",
+"SP-003",
+"E",
+"Omeprazol",
+"Suplementación con vitamina A",
+false
+],
+[
+"salud_publica.json",
+"SP-004",
+"E",
+"Ninguna de las anteriores",
+"Confidencialidad no aplica a personajes públicos",
+false
+],
+[
+"salud_publica.json",
+"SP-005",
+"E",
+"Ninguna de las anteriores",
+"Charla única al inicio del año escolar",
+false
+],
+[
+"salud_publica.json",
+"SP-006",
+"E",
+"Ninguna de las anteriores",
+"Error de medición",
+false
+],
+[
+"salud_publica.json",
+"SP-007",
+"E",
+"Faltan datos para decidir",
+"Casos y controles",
+false
+],
+[
+"salud_publica.json",
+"SP-008",
+"E",
+"Faltan datos para decidir",
+"Solo el médico tratante",
+false
+],
+[
+"salud_publica.json",
+"SP-009",
+"E",
+"Faltan datos para decidir",
+"Realiza el procedimiento con la firma del adolescente",
+false
+],
+[
+"salud_publica.json",
+"SP-010",
+"E",
+"Ninguna de las anteriores",
+"Promoción de la salud",
+false
+],
+[
+"salud_publica.json",
+"SP-011",
+"E",
+"Ninguna de las anteriores",
+"Construcción de un nuevo hospital",
+false
+],
+[
+"salud_publica.json",
+"SP-012",
+"E",
+"Hospitalización en UCI",
+"Toda la población sin seguro",
+false
+],
+[
+"salud_publica.json",
+"SP-013",
+"E",
+"Ninguna de las anteriores",
+"Epidemia sostenida",
+false
+],
+[
+"salud_publica.json",
+"SP-014",
+"E",
+"Faltan datos para decidir",
+"Se mantiene estable",
+false
+],
+[
+"salud_publica.json",
+"SP-015",
+"E",
+"Hospitalización en UCI",
+"Informar solo a la paciente y ocultar a los padres en toda circunstancia",
+false
+],
+[
+"salud_publica.json",
+"SP-016",
+"E",
+"Faltan datos para decidir",
+"Lupus eritematoso sistémico",
+false
+],
+[
+"salud_publica.json",
+"SP-017",
+"E",
+"Todas las anteriores",
+"Carga genética familiar",
+false
+],
+[
+"salud_publica.json",
+"SP-018",
+"E",
+"Todas las anteriores",
+"Uso de mascarillas quirúrgicas por todo el personal",
+false
+],
+[
+"salud_publica.json",
+"SP-019",
+"E",
+"Ceftriaxona",
+"Vacunación masiva contra fiebre amarilla",
+false
+],
+[
+"salud_publica.json",
+"SP-020",
+"E",
+"Terapia de rehabilitación",
+"Pedirle autorización al esposo",
+false
+],
+[
+"salud_publica.json",
+"SP-021",
+"E",
+"Todas las anteriores",
+"Hospitalizarlo de inmediato",
+false
+],
+[
+"salud_publica.json",
+"SP-022",
+"E",
+"Alta médica con indicaciones",
+"Iniciar quimioterapia",
+false
+],
+[
+"salud_publica.json",
+"SP-023",
+"E",
+"Ninguna de las anteriores",
+"Firmar como muerte natural",
+false
+],
+[
+"salud_publica.json",
+"SP-024",
+"E",
+"Todas las anteriores",
+"Ensayo clínico",
+false
+],
+[
+"salud_publica.json",
+"SP-025",
+"E",
+"Ninguna de las anteriores",
+"Cuaternaria",
+false
+],
+[
+"salud_publica.json",
+"SP-026",
+"E",
+"Sepsis",
+"Vive en la misma provincia",
+false
+],
+[
+"salud_publica.json",
+"SP-027",
+"E",
+"Faltan datos para decidir",
+"Empatía",
+false
+],
+[
+"salud_publica.json",
+"SP-028",
+"E",
+"Faltan datos para decidir",
+"Autonomía relativa",
+false
+],
+[
+"salud_publica.json",
+"SP-029",
+"E",
+"Ninguna de las anteriores",
+"Ensayo clínico aleatorizado",
+false
+],
+[
+"salud_publica.json",
+"SP-030",
+"E",
+"Todas las anteriores",
+"Ocasional",
+false
+],
+[
+"salud_publica.json",
+"SP-031",
+"E",
+"Ninguna de las anteriores",
+"Eutanasia activa",
+false
+],
+[
+"salud_publica.json",
+"SP-032",
+"E",
+"Derivación a especialista",
+"Indicar analgésicos y alta",
+false
+],
+[
+"salud_publica.json",
+"SP-033",
+"E",
+"Faltan datos para decidir",
+"Libre tránsito",
+false
+],
+[
+"salud_publica.json",
+"SP-034",
+"E",
+"Ninguna de las anteriores",
+"Medicina familiar",
+false
+],
+[
+"salud_publica.json",
+"SP-035",
+"E",
+"Faltan datos para decidir",
+"Cierre de los establecimientos de salud",
+false
+],
+[
+"salud_publica.json",
+"SP-036",
+"E",
+"Faltan datos para decidir",
+"Vigilancia epidemiológica",
+false
+],
+[
+"salud_publica.json",
+"SP-037",
+"E",
+"Todas las anteriores",
+"Saludable",
+false
+],
+[
+"salud_publica.json",
+"SP-038",
+"E",
+"Todas las anteriores",
+"Costo-beneficio",
+false
+],
+[
+"salud_publica.json",
+"SP-039",
+"E",
+"Todas las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-040",
+"E",
+"Ninguna de las anteriores",
+"Hábitos alimentarios",
+false
+],
+[
+"salud_publica.json",
+"SP-041",
+"E",
+"Todas las anteriores",
+"Serie de casos",
+false
+],
+[
+"salud_publica.json",
+"SP-042",
+"E",
+"Faltan datos para decidir",
+"Falta de financiamiento",
+false
+],
+[
+"salud_publica.json",
+"SP-043",
+"E",
+"Faltan datos para decidir",
+"Estudio ecológico",
+false
+],
+[
+"salud_publica.json",
+"SP-044",
+"E",
+"Ninguna de las anteriores",
+"Negociación",
+false
+],
+[
+"salud_publica.json",
+"SP-045",
+"E",
+"Faltan datos para decidir",
+"Ministerio de Agricultura",
+false
+],
+[
+"salud_publica.json",
+"SP-046",
+"E",
+"Ninguna de las anteriores",
+"Evaluación de resultados",
+false
+],
+[
+"salud_publica.json",
+"SP-047",
+"E",
+"Ninguna de las anteriores",
+"Baja cobertura de vacunación BCG en adultos",
+false
+],
+[
+"salud_publica.json",
+"SP-048",
+"E",
+"Faltan datos para decidir",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-049",
+"E",
+"Ninguna de las anteriores",
+"Ensayo clínico",
+false
+],
+[
+"salud_publica.json",
+"SP-050",
+"E",
+"Ninguna de las anteriores",
+"Error de muestreo",
+false
+],
+[
+"salud_publica.json",
+"SP-051",
+"E",
+"Faltan datos para decidir",
+"Lugar de nacimiento",
+false
+],
+[
+"salud_publica.json",
+"SP-052",
+"E",
+"Ninguna de las anteriores",
+"Virulencia",
+false
+],
+[
+"salud_publica.json",
+"SP-053",
+"E",
+"Todas las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-054",
+"E",
+"Todas las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-055",
+"E",
+"Faltan datos para decidir",
+"Comisaría del sector",
+false
+],
+[
+"salud_publica.json",
+"SP-056",
+"E",
+"Faltan datos para decidir",
+"Contratación de personal",
+false
+],
+[
+"salud_publica.json",
+"SP-057",
+"E",
+"Ninguna de las anteriores",
+"Luna de miel",
+false
+],
+[
+"salud_publica.json",
+"SP-058",
+"E",
+"Ninguna de las anteriores",
+"Asistencialismo",
+false
+],
+[
+"salud_publica.json",
+"SP-059",
+"E",
+"Todas las anteriores",
+"Erradicada",
+false
+],
+[
+"salud_publica.json",
+"SP-060",
+"E",
+"Paracetamol",
+"Medicina física y rehabilitación",
+false
+],
+[
+"salud_publica.json",
+"SP-061",
+"E",
+"Faltan datos para decidir",
+"De género",
+false
+],
+[
+"salud_publica.json",
+"SP-062",
+"E",
+"Faltan datos para decidir",
+"Universalidad",
+false
+],
+[
+"salud_publica.json",
+"SP-063",
+"E",
+"Faltan datos para decidir",
+"Elaborar políticas públicas saludables",
+false
+],
+[
+"salud_publica.json",
+"SP-064",
+"E",
+"Atropina",
+"Serie de casos",
+false
+],
+[
+"salud_publica.json",
+"SP-065",
+"E",
+"Faltan datos para decidir",
+"Centro penitenciario",
+false
+],
+[
+"salud_publica.json",
+"SP-066",
+"E",
+"Ninguna de las anteriores",
+"Suspender la vacunación hasta las vacaciones",
+false
+],
+[
+"salud_publica.json",
+"SP-067",
+"E",
+"Faltan datos para decidir",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-068",
+"E",
+"Faltan datos para decidir",
+"Universalidad",
+false
+],
+[
+"salud_publica.json",
+"SP-069",
+"E",
+"Todas las anteriores",
+"Igual a la incidencia",
+false
+],
+[
+"salud_publica.json",
+"SP-070",
+"E",
+"Todas las anteriores",
+"Promoción de la salud",
+false
+],
+[
+"salud_publica.json",
+"SP-071",
+"E",
+"Clindamicina",
+"Contaminación ambiental",
+false
+],
+[
+"salud_publica.json",
+"SP-072",
+"E",
+"Todas las anteriores",
+"Edad del paciente",
+false
+],
+[
+"salud_publica.json",
+"SP-073",
+"E",
+"Faltan datos para decidir",
+"Cohorte",
+false
+],
+[
+"salud_publica.json",
+"SP-074",
+"E",
+"Faltan datos para decidir",
+"Consentimiento presunto",
+false
+],
+[
+"salud_publica.json",
+"SP-075",
+"E",
+"Ninguna de las anteriores",
+"Tratamiento antibiótico a los febriles",
+false
+],
+[
+"salud_publica.json",
+"SP-076",
+"E",
+"Todas las anteriores",
+"Burocrático",
+false
+],
+[
+"salud_publica.json",
+"SP-077",
+"E",
+"Ninguna de las anteriores",
+"Estructura",
+false
+],
+[
+"salud_publica.json",
+"SP-078",
+"E",
+"Ninguna de las anteriores",
+"Nominal",
+false
+],
+[
+"salud_publica.json",
+"SP-079",
+"E",
+"Faltan datos para decidir",
+"Suicidio asistido",
+false
+],
+[
+"salud_publica.json",
+"SP-080",
+"E",
+"Ninguna de las anteriores",
+"Inmunogenicidad",
+false
+],
+[
+"salud_publica.json",
+"SP-081",
+"E",
+"Ninguna de las anteriores",
+"Aleatorio simple",
+false
+],
+[
+"salud_publica.json",
+"SP-082",
+"E",
+"Todas las anteriores",
+"Aislar a todos los migrantes",
+false
+],
+[
+"salud_publica.json",
+"SP-083",
+"E",
+"Ninguna de las anteriores",
+"Sedación paliativa",
+false
+],
+[
+"salud_publica.json",
+"SP-084",
+"E",
+"Ninguna de las anteriores",
+"Consentimiento informado",
+false
+],
+[
+"salud_publica.json",
+"SP-085",
+"E",
+"Ninguna de las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-086",
+"E",
+"Faltan datos para decidir",
+"Promoción de la salud",
+false
+],
+[
+"salud_publica.json",
+"SP-087",
+"E",
+"Ninguna de las anteriores",
+"Indicar terapia familiar en 6 meses",
+false
+],
+[
+"salud_publica.json",
+"SP-088",
+"E",
+"Faltan datos para decidir",
+"Universalidad",
+false
+],
+[
+"salud_publica.json",
+"SP-089",
+"E",
+"Ninguna de las anteriores",
+"Gratuidad",
+false
+],
+[
+"salud_publica.json",
+"SP-090",
+"E",
+"Faltan datos para decidir",
+"Suficiente y necesaria según la edad",
+false
+],
+[
+"salud_publica.json",
+"SP-091",
+"E",
+"Ninguna de las anteriores",
+"Confirmado",
+false
+],
+[
+"salud_publica.json",
+"SP-092",
+"E",
+"Todas las anteriores",
+"Tratamiento",
+false
+],
+[
+"salud_publica.json",
+"SP-093",
+"E",
+"Insulina",
+"Vitamina A en dosis alta",
+false
+],
+[
+"salud_publica.json",
+"SP-094",
+"E",
+"Faltan datos para decidir",
+"Alopática",
+false
+],
+[
+"salud_publica.json",
+"SP-095",
+"E",
+"Faltan datos para decidir",
+"Secular",
+false
+],
+[
+"salud_publica.json",
+"SP-096",
+"E",
+"Todas las anteriores",
+"Error de confusión",
+false
+],
+[
+"salud_publica.json",
+"SP-097",
+"E",
+"Faltan datos para decidir",
+"Eutanasia",
+false
+],
+[
+"salud_publica.json",
+"SP-098",
+"E",
+"Todas las anteriores",
+"Fortaleza y oportunidad",
+false
+],
+[
+"salud_publica.json",
+"SP-099",
+"E",
+"Ninguna de las anteriores",
+"Intersectorial",
+false
+],
+[
+"salud_publica.json",
+"SP-100",
+"E",
+"Todas las anteriores",
+"Exigir la denuncia policial antes de atender",
+false
+],
+[
+"salud_publica.json",
+"SP-101",
+"E",
+"Faltan datos para decidir",
+"Por conglomerados",
+false
+],
+[
+"salud_publica.json",
+"SP-102",
+"E",
+"Ninguna de las anteriores",
+"Cronograma",
+false
+],
+[
+"salud_publica.json",
+"SP-103",
+"E",
+"Todas las anteriores",
+"Plan operativo anual",
+false
+],
+[
+"salud_publica.json",
+"SP-104",
+"E",
+"Cirrosis hepática",
+"La letalidad de la enfermedad",
+false
+],
+[
+"salud_publica.json",
+"SP-105",
+"E",
+"Todas las anteriores",
+"Aseguradoras privadas de salud",
+false
+],
+[
+"salud_publica.json",
+"SP-106",
+"E",
+"Faltan datos para decidir",
+"Construcción de hospitales especializados",
+false
+],
+[
+"salud_publica.json",
+"SP-107",
+"E",
+"Metronidazol",
+"Rotación de turnos sin otras medidas",
+false
+],
+[
+"salud_publica.json",
+"SP-108",
+"E",
+"Faltan datos para decidir",
+"Fitoterapia",
+false
+],
+[
+"salud_publica.json",
+"SP-109",
+"E",
+"Ninguna de las anteriores",
+"Construir un hospital de nivel III",
+false
+],
+[
+"salud_publica.json",
+"SP-110",
+"E",
+"Ninguna de las anteriores",
+"Error de medición",
+false
+],
+[
+"salud_publica.json",
+"SP-111",
+"E",
+"Ninguna de las anteriores",
+"Levotiroxina a toda la población",
+false
+],
+[
+"salud_publica.json",
+"SP-112",
+"E",
+"Ninguna de las anteriores",
+"Uso de analgésicos (independiente), ruido ambiental (dependiente)",
+false
+],
+[
+"salud_publica.json",
+"SP-113",
+"E",
+"Faltan datos para decidir",
+"Causalidad",
+false
+],
+[
+"salud_publica.json",
+"SP-114",
+"E",
+"Azitromicina",
+"Diabetes, hipertensión, asma, obesidad",
+false
+],
+[
+"salud_publica.json",
+"SP-115",
+"E",
+"Diabetes Mellitus",
+"Censo de población",
+false
+],
+[
+"salud_publica.json",
+"SP-116",
+"E",
+"Todas las anteriores",
+"Descartado",
+false
+],
+[
+"salud_publica.json",
+"SP-117",
+"E",
+"Todas las anteriores",
+"La letalidad es de 45 por 1000",
+false
+],
+[
+"salud_publica.json",
+"SP-118",
+"E",
+"Faltan datos para decidir",
+"Contacto directo persona a persona",
+false
+],
+[
+"salud_publica.json",
+"SP-119",
+"E",
+"Faltan datos para decidir",
+"Auditoría médica externa",
+false
+],
+[
+"salud_publica.json",
+"SP-120",
+"E",
+"Faltan datos para decidir",
+"Vacuna, clima y agua",
+false
+],
+[
+"salud_publica.json",
+"SP-121",
+"E",
+"Faltan datos para decidir",
+"Que se mantiene constante durante el estudio",
+false
+],
+[
+"salud_publica.json",
+"SP-122",
+"E",
+"Ninguna de las anteriores",
+"Contactos",
+false
+],
+[
+"salud_publica.json",
+"SP-123",
+"E",
+"Todas las anteriores",
+"Prevalencia de cardiopatía en la población general",
+false
+],
+[
+"salud_publica.json",
+"SP-124",
+"E",
+"Ninguna de las anteriores",
+"Nido vacío temprano",
+false
+],
+[
+"salud_publica.json",
+"SP-125",
+"E",
+"Faltan datos para decidir",
+"Lactante",
+false
+],
+[
+"salud_publica.json",
+"SP-126",
+"E",
+"Ninguna de las anteriores",
+"Trasladar al paciente a otro hospital",
+false
+],
+[
+"salud_publica.json",
+"SP-127",
+"E",
+"Ninguna de las anteriores",
+"La moda es 95 mg/dL",
+false
+],
+[
+"salud_publica.json",
+"SP-128",
+"E",
+"Todas las anteriores",
+"150",
+false
+],
+[
+"salud_publica.json",
+"SP-129",
+"E",
+"Ninguna de las anteriores",
+"Proporción",
+false
+],
+[
+"salud_publica.json",
+"SP-130",
+"E",
+"Ninguna de las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-131",
+"E",
+"Ibuprofeno",
+"Vacunación masiva contra influenza",
+false
+],
+[
+"salud_publica.json",
+"SP-132",
+"E",
+"Ninguna de las anteriores",
+"Autonomía",
+false
+],
+[
+"salud_publica.json",
+"SP-133",
+"E",
+"Faltan datos para decidir",
+"Vacunación masiva",
+false
+],
+[
+"salud_publica.json",
+"SP-134",
+"E",
+"Todas las anteriores",
+"Indicadores de la economía nacional",
+false
+],
+[
+"salud_publica.json",
+"SP-135",
+"E",
+"Ninguna de las anteriores",
+"Prescripción de fármacos para bajar de peso",
+false
+],
+[
+"salud_publica.json",
+"SP-136",
+"E",
+"Ninguna de las anteriores",
+"Solo la firma de la propia paciente",
+false
+],
+[
+"salud_publica.json",
+"SP-137",
+"E",
+"Todas las anteriores",
+"Asociación causal comprobada",
+false
+],
+[
+"salud_publica.json",
+"SP-138",
+"E",
+"Ceftriaxona",
+"Ecológico",
+false
+],
+[
+"salud_publica.json",
+"SP-139",
+"E",
+"Faltan datos para decidir",
+"Que el investigador lo firme en su nombre",
+false
+],
+[
+"salud_publica.json",
+"SP-140",
+"E",
+"Ninguna de las anteriores",
+"Accesibilidad geográfica",
+false
+],
+[
+"salud_publica.json",
+"SP-141",
+"E",
+"Epinefrina",
+"Esperar que acudan espontáneamente al centro de salud",
+false
+],
+[
+"salud_publica.json",
+"SP-142",
+"E",
+"Todas las anteriores",
+"Construir un nuevo establecimiento",
+false
+],
+[
+"salud_publica.json",
+"SP-143",
+"E",
+"Ninguna de las anteriores",
+"Hospitalario",
+false
+],
+[
+"salud_publica.json",
+"SP-144",
+"E",
+"Ninguna de las anteriores",
+"Subjetivo",
+false
+],
+[
+"salud_publica.json",
+"SP-145",
+"E",
+"Todas las anteriores",
+"Transversal",
+false
+],
+[
+"salud_publica.json",
+"SP-146",
+"E",
+"Todas las anteriores",
+"Promoción de la salud",
+false
+],
+[
+"salud_publica.json",
+"SP-147",
+"E",
+"Ninguna de las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-148",
+"E",
+"Faltan datos para decidir",
+"Ejecución",
+false
+],
+[
+"salud_publica.json",
+"SP-149",
+"E",
+"Todas las anteriores",
+"Tecnología/especialización",
+false
+],
+[
+"salud_publica.json",
+"SP-150",
+"E",
+"Ninguna de las anteriores",
+"Atención hospitalaria especializada",
+false
+],
+[
+"salud_publica.json",
+"SP-151",
+"E",
+"Todas las anteriores",
+"No permite calcular el odds ratio",
+false
+],
+[
+"salud_publica.json",
+"SP-152",
+"E",
+"Faltan datos para decidir",
+"Pandemia",
+false
+],
+[
+"salud_publica.json",
+"SP-153",
+"E",
+"Faltan datos para decidir",
+"Especialización",
+false
+],
+[
+"salud_publica.json",
+"SP-154",
+"E",
+"Todas las anteriores",
+"Historia clínica individual",
+false
+],
+[
+"salud_publica.json",
+"SP-155",
+"E",
+"Ninguna de las anteriores",
+"Historia clínica de emergencia",
+false
+],
+[
+"salud_publica.json",
+"SP-156",
+"E",
+"Faltan datos para decidir",
+"Contratar personal especializado",
+false
+],
+[
+"salud_publica.json",
+"SP-157",
+"E",
+"Todas las anteriores",
+"Construir un hospital materno",
+false
+],
+[
+"salud_publica.json",
+"SP-158",
+"E",
+"Omeprazol",
+"Vacunación contra la fiebre amarilla",
+false
+],
+[
+"salud_publica.json",
+"SP-159",
+"E",
+"Ninguna de las anteriores",
+"Caso fortuito",
+false
+],
+[
+"salud_publica.json",
+"SP-160",
+"E",
+"Furosemida",
+"Cierre de colegios",
+false
+],
+[
+"salud_publica.json",
+"SP-161",
+"E",
+"Ninguna de las anteriores",
+"Reglamento de organización y funciones",
+false
+],
+[
+"salud_publica.json",
+"SP-162",
+"E",
+"Ninguna de las anteriores",
+"1.5",
+false
+],
+[
+"salud_publica.json",
+"SP-163",
+"E",
+"Todas las anteriores",
+"Desaparece",
+false
+],
+[
+"salud_publica.json",
+"SP-164",
+"E",
+"Todas las anteriores",
+"5",
+false
+],
+[
+"salud_publica.json",
+"SP-165",
+"E",
+"Ninguna de las anteriores",
+"Tratamiento",
+false
+],
+[
+"salud_publica.json",
+"SP-166",
+"E",
+"Faltan datos para decidir",
+"Rehabilitación",
+false
+],
+[
+"salud_publica.json",
+"SP-167",
+"E",
+"Faltan datos para decidir",
+"Disolución (Adjourning)",
+false
+],
+[
+"salud_publica.json",
+"SP-168",
+"E",
+"Ninguna de las anteriores",
+"Se basa en la opinión de expertos",
+false
+],
+[
+"salud_publica.json",
+"SP-169",
+"E",
+"Faltan datos para decidir",
+"Esperar la demanda espontánea",
+false
+],
+[
+"salud_publica.json",
+"SP-170",
+"E",
+"Ninguna de las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-171",
+"E",
+"Amoxicilina",
+"Prohibir que la familia se la lleve",
+false
+],
+[
+"salud_publica.json",
+"SP-172",
+"E",
+"Faltan datos para decidir",
+"0",
+false
+],
+[
+"salud_publica.json",
+"SP-173",
+"E",
+"Ninguna de las anteriores",
+"Hospitalario",
+false
+],
+[
+"salud_publica.json",
+"SP-174",
+"E",
+"Todas las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-175",
+"E",
+"Ninguna de las anteriores",
+"Confidencialidad",
+false
+],
+[
+"salud_publica.json",
+"SP-176",
+"E",
+"Todas las anteriores",
+"Unidad de hemodiálisis",
+false
+],
+[
+"salud_publica.json",
+"SP-177",
+"E",
+"Faltan datos para decidir",
+"Comprar más camas hospitalarias",
+false
+],
+[
+"salud_publica.json",
+"SP-178",
+"E",
+"Manejo expectante",
+"Uso de antibióticos ante fiebre",
+false
+],
+[
+"salud_publica.json",
+"SP-179",
+"E",
+"Ninguna de las anteriores",
+"Situacional",
+false
+],
+[
+"salud_publica.json",
+"SP-180",
+"E",
+"Todas las anteriores",
+"Comprar ambulancias para el hospital regional",
+false
+],
+[
+"salud_publica.json",
+"SP-181",
+"E",
+"Ninguna de las anteriores",
+"Carga genética",
+false
+],
+[
+"salud_publica.json",
+"SP-182",
+"E",
+"Faltan datos para decidir",
+"Cambiar a insulina a todos",
+false
+],
+[
+"salud_publica.json",
+"SP-183",
+"E",
+"Epinefrina",
+"Medicación preventiva masiva",
+false
+],
+[
+"salud_publica.json",
+"SP-184",
+"E",
+"Faltan datos para decidir",
+"Auditoría financiera",
+false
+],
+[
+"salud_publica.json",
+"SP-185",
+"E",
+"Ninguna de las anteriores",
+"Sexo femenino",
+false
+],
+[
+"salud_publica.json",
+"SP-186",
+"E",
+"Todas las anteriores",
+"Considera la salud como un derecho",
+false
+],
+[
+"salud_publica.json",
+"SP-187",
+"E",
+"Faltan datos para decidir",
+"Indicar fórmula láctea",
+false
+],
+[
+"salud_publica.json",
+"SP-188",
+"E",
+"Faltan datos para decidir",
+"Priorizar a los de mayor edad",
+false
+],
+[
+"salud_publica.json",
+"SP-189",
+"E",
+"Faltan datos para decidir",
+"Exploratorio",
+false
+],
+[
+"salud_publica.json",
+"SP-190",
+"E",
+"Epinefrina",
+"Repartir suplementos sin educación",
+false
+],
+[
+"salud_publica.json",
+"SP-191",
+"E",
+"Todas las anteriores",
+"Correlación de Pearson",
+false
+],
+[
+"salud_publica.json",
+"SP-192",
+"E",
+"Faltan datos para decidir",
+"Felicitarlo por la iniciativa",
+false
+],
+[
+"traumatologia.json",
+"TRA-002",
+"E",
+"Electrocardiograma",
+"Tomografía de cadera",
+false
+],
+[
+"traumatologia.json",
+"TRA-003",
+"E",
+"Todas las anteriores",
+"Supinador corto",
+false
+],
+[
+"traumatologia.json",
+"TRA-004",
+"E",
+"Todas las anteriores",
+"Analgésicos y observación",
+false
+],
+[
+"traumatologia.json",
+"TRA-005",
+"E",
+"Neumonía adquirida",
+"Espondilolistesis",
+false
+],
+[
+"traumatologia.json",
+"TRA-006",
+"E",
+"Faltan datos para decidir",
+"Fractura de clavícula",
+false
+],
+[
+"traumatologia.json",
+"TRA-007",
+"E",
+"Faltan datos para decidir",
+"Cierre primario inmediato de la herida",
+false
+],
+[
+"traumatologia.json",
+"TRA-008",
+"E",
+"Hipertensión arterial",
+"Osteocondroma",
+false
+],
+[
+"traumatologia.json",
+"TRA-009",
+"E",
+"Hipertensión arterial",
+"Fractura de clavícula",
+false
+],
+[
+"traumatologia.json",
+"TRA-010",
+"E",
+"Faltan datos para decidir",
+"Yeso cerrado circular",
+false
+],
+[
+"traumatologia.json",
+"TRA-011",
+"E",
+"Hipertensión arterial",
+"Tromboembolismo pulmonar",
+false
+],
+[
+"traumatologia.json",
+"TRA-012",
+"E",
+"Ninguna de las anteriores",
+"Mano en bendición",
+false
+],
+[
+"traumatologia.json",
+"TRA-013",
+"E",
+"Infección del tracto urinario",
+"Fractura de rótula",
+false
+],
+[
+"traumatologia.json",
+"TRA-014",
+"E",
+"Todas las anteriores",
+"Bíceps braquial",
+false
+],
+[
+"traumatologia.json",
+"TRA-015",
+"E",
+"Ninguna de las anteriores",
+"Deltoideo",
+false
+],
+[
+"traumatologia.json",
+"TRA-016",
+"E",
+"Radiografía simple",
+"Gammagrafía ósea",
+false
+],
+[
+"traumatologia.json",
+"TRA-017",
+"E",
+"Faltan datos para decidir",
+"Normal",
+false
+],
+[
+"traumatologia.json",
+"TRA-018",
+"E",
+"Ninguna de las anteriores",
+"Yeso pelvipédico inmediato",
+false
+],
+[
+"traumatologia.json",
+"TRA-019",
+"E",
+"Faltan datos para decidir",
+"Vendaje elástico",
+false
+],
+[
+"traumatologia.json",
+"TRA-020",
+"E",
+"Todas las anteriores",
+"Radiografía antes de inmovilizar",
+false
+],
+[
+"traumatologia.json",
+"TRA-021",
+"E",
+"Ninguna de las anteriores",
+"Zapatos ortopédicos y alta",
+false
+],
+[
+"traumatologia.json",
+"TRA-022",
+"E",
+"Ninguna de las anteriores",
+"Placa y tornillos de urgencia",
+false
+],
+[
+"traumatologia.json",
+"TRA-023",
+"E",
+"Ninguna de las anteriores",
+"Humeral",
+false
+],
+[
+"traumatologia.json",
+"TRA-024",
+"E",
+"Lupus eritematoso sistémico",
+"Pseudoartrosis inmediata",
+false
+],
+[
+"traumatologia.json",
+"TRA-025",
+"E",
+"Infección del tracto urinario",
+"Úlcera duodenal",
+false
+],
+[
+"traumatologia.json",
+"TRA-026",
+"E",
+"Ninguna de las anteriores",
+"Femoral",
+false
+],
+[
+"traumatologia.json",
+"TRA-027",
+"E",
+"Terapia de rehabilitación",
+"Cirugía de alargamiento del tendón de Aquiles",
+false
+],
+[
+"traumatologia.json",
+"TRA-028",
+"E",
+"Electrocardiograma",
+"Calcio sérico",
+false
+],
+[
+"traumatologia.json",
+"TRA-029",
+"E",
+"Infección del tracto urinario",
+"Fibromialgia",
+false
+],
+[
+"traumatologia.json",
+"TRA-030",
+"E",
+"Faltan datos para decidir",
+"Túnel carpiano",
+false
+],
+[
+"traumatologia.json",
+"TRA-031",
+"E",
+"Faltan datos para decidir",
+"Musculocutáneo",
+false
+],
+[
+"traumatologia.json",
+"TRA-032",
+"E",
+"Infección del tracto urinario",
+"Rabdomiólisis aislada",
+false
+],
+[
+"traumatologia.json",
+"TRA-033",
+"E",
+"Ceftriaxona",
+"Tracción cervical inmediata",
+false
+],
+[
+"traumatologia.json",
+"TRA-034",
+"E",
+"Diabetes Mellitus",
+"Esguince de rodilla",
+false
+],
+[
+"traumatologia.json",
+"TRA-035",
+"E",
+"Ecografía Doppler",
+"Radiografía de columna cervical",
+false
+],
+[
+"traumatologia.json",
+"TRA-036",
+"E",
+"Todas las anteriores",
+"TEM cerebral inmediata",
+false
+],
+[
+"traumatologia.json",
+"TRA-037",
+"E",
+"Amoxicilina",
+"Cierre primario de la herida",
+false
+],
+[
+"traumatologia.json",
+"TRA-038",
+"E",
+"Cirrosis hepática",
+"Esguince de tobillo grado 3",
+false
+],
+[
+"traumatologia.json",
+"TRA-039",
+"E",
+"Apendicitis aguda",
+"Osteomielitis",
+false
+],
+[
+"traumatologia.json",
+"TRA-040",
+"E",
+"Diabetes Mellitus",
+"Coxa vara congénita",
+false
+],
+[
+"traumatologia.json",
+"TRA-041",
+"E",
+"Faltan datos para decidir",
+"Streptococcus pneumoniae",
+false
+],
+[
+"traumatologia.json",
+"TRA-042",
+"E",
+"Lupus eritematoso sistémico",
+"Fractura de Colles",
+false
+],
+[
+"traumatologia.json",
+"TRA-043",
+"E",
+"Lupus eritematoso sistémico",
+"Displasia residual de cadera",
+false
+],
+[
+"traumatologia.json",
+"TRA-044",
+"E",
+"Cirrosis hepática",
+"Quiste de Baker roto",
+false
+],
+[
+"traumatologia.json",
+"TRA-045",
+"E",
+"Ninguna de las anteriores",
+"Ecografía Doppler venosa",
+false
+],
+[
+"traumatologia.json",
+"TRA-046",
+"E",
+"Todas las anteriores",
+"Osteosíntesis con placa de urgencia",
+false
+],
+[
+"traumatologia.json",
+"TRA-047",
+"E",
+"Todas las anteriores",
+"Aumento de la presión arterial sistólica",
+false
+],
+[
+"traumatologia.json",
+"TRA-048",
+"E",
+"Infección del tracto urinario",
+"Trombosis venosa profunda",
+false
+],
+[
+"traumatologia.json",
+"TRA-049",
+"E",
+"Apendicitis aguda",
+"Espondilitis anquilosante",
+false
+],
+[
+"traumatologia.json",
+"TRA-050",
+"E",
+"Todas las anteriores",
+"Femoral",
+false
+],
+[
+"traumatologia.json",
+"TRA-051",
+"E",
+"Ninguna de las anteriores",
+"Inmovilización con yeso cerrado",
+false
+],
+[
+"traumatologia.json",
+"TRA-052",
+"E",
+"Todas las anteriores",
+"Yeso en extensión completa",
+false
+],
+[
+"traumatologia.json",
+"TRA-053",
+"E",
+"Cirrosis hepática",
+"Radiografía de columna lumbar",
+false
+]
+]

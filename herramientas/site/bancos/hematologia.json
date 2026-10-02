@@ -27,7 +27,7 @@
         "Megaloblástica",
         "Hemolítica",
         "Falciforme",
-        "Ninguna de las anteriores"
+        "Sideroblástica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -46,7 +46,7 @@
         "Talasemia",
         "Anemia ferropénica",
         "Esferocitosis",
-        "Infección del tracto urinario"
+        "Anemia aplásica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -65,7 +65,7 @@
         "Gastrina",
         "Urogastrona",
         "Defensina",
-        "Clindamicina"
+        "Hierro"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -84,7 +84,7 @@
         "Anemia hemolítica autoinmune",
         "β-talasemia menor",
         "Infección por Plasmodium vivax",
-        "Todas las anteriores"
+        "Esferocitosis hereditaria"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -103,7 +103,7 @@
         "Haptoglobina",
         "Fibrinógeno",
         "Factor VIIIa",
-        "Ciprofloxacino"
+        "Plaquetas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -122,7 +122,7 @@
         "Biopsia de médula ósea",
         "Electroforesis de hemoglobina",
         "Ferritina sérica",
-        "Radiografía simple"
+        "Vitamina B12"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -141,7 +141,7 @@
         "Policitemia vera",
         "Macroglobulinemia",
         "Osteoporosis severa",
-        "Neumonía adquirida"
+        "Metástasis de cáncer de mama"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "Sangre total",
         "Paquete globular",
         "Plasma fresco congelado",
-        "Todas las anteriores"
+        "Concentrado de plaquetas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -179,7 +179,7 @@
         "Esferocítica",
         "Por deficiencia de vitamina B12",
         "Por deficiencia de folatos",
-        "Ibuprofeno"
+        "Sideroblástica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -198,7 +198,7 @@
         "Carencia de hierro",
         "Déficit de B12",
         "Hemólisis intravascular",
-        "Cirrosis hepática"
+        "Talasemia menor"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -217,7 +217,7 @@
         "3,500",
         "5,000",
         "500",
-        "Todas las anteriores"
+        "4,500"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -236,7 +236,7 @@
         "Tomografía de tórax, abdomen y pelvis",
         "Biopsia de médula ósea por aspiración",
         "Endoscopía digestiva y fibrobroncoscopía pulmonar",
-        "Tomografía con contraste"
+        "Punción aspirativa con aguja fina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -255,7 +255,7 @@
         "Radiografía de extremidades",
         "Ecografía abdominal",
         "Aspirado de médula ósea",
-        "Gammagrafía"
+        "Tomografía de tórax"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -274,7 +274,7 @@
         "Principales",
         "Argentafines",
         "Parietales",
-        "Ninguna de las anteriores"
+        "Caliciformes"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -293,7 +293,7 @@
         "Leucemia mieloide crónica",
         "Mielofibrosis primaria",
         "Leucemia linfocítica crónica",
-        "Insuficiencia cardíaca"
+        "Leucemia mieloide aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -312,7 +312,7 @@
         "Hiperhomocisteinemia",
         "Insuficiencia de antitrombina III",
         "Mutación de protrombina",
-        "Furosemida"
+        "Déficit de vitamina K"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -331,7 +331,7 @@
         "Incremento de la síntesis de factores de coagulación",
         "Incremento de síntesis de antitrombina III",
         "Incremento de la síntesis de proteína C",
-        "Omeprazol"
+        "Disminución de la síntesis de fibrinógeno"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -350,7 +350,7 @@
         "Leucemia linfoblástica aguda",
         "Rabdomiosarcoma",
         "Anemia aplásica",
-        "Neumonía adquirida"
+        "Mononucleosis infecciosa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -369,7 +369,7 @@
         "Heparina no fraccionada",
         "CID",
         "Hemofilia adquirida",
-        "Ceftriaxona"
+        "Déficit de vitamina K"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -388,7 +388,7 @@
         "Enfermedad de Von Willebrandt",
         "Síndrome hemolítico urémico",
         "Trombocitopenia inmune primaria",
-        "Hipertensión arterial"
+        "Leucemia linfoblástica aguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -407,7 +407,7 @@
         "Talasemia",
         "Anemia sideroblástica",
         "Anemia ferropénica",
-        "Ninguna de las anteriores"
+        "Anemia de enfermedad crónica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -426,7 +426,7 @@
         "Inverso",
         "De contacto",
         "Respiratorio",
-        "Todas las anteriores"
+        "Por gotas"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -445,7 +445,7 @@
         "Policitemia vera",
         "Quistes Renales",
         "Poliglobulia del fumador",
-        "Hipertensión arterial"
+        "Mal de montaña crónico"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -464,7 +464,7 @@
         "Plasma fresco",
         "Plasmaféresis",
         "Crioprecipitado",
-        "Azitromicina"
+        "Transfusión de plaquetas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -483,7 +483,7 @@
         "Klinefelter",
         "Turner",
         "Down",
-        "Faltan datos para decidir"
+        "Prader-Willi"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -502,7 +502,7 @@
         "Leucemias agudas secundarias",
         "Alteraciones citogenéticas",
         "Recuento leucocitario",
-        "Ninguna de las anteriores"
+        "Sexo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Enfermedad de von Willebrand",
         "Hemofilia B leve",
         "Hemofilia A leve",
-        "Cirrosis hepática"
+        "Púrpura trombocitopénica inmune"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -540,7 +540,7 @@
         "Hemofilia A",
         "Púrpura trombocitopénica autoinmune",
         "Coagulación intravascular diseminada",
-        "Metronidazol"
+        "Púrpura trombocitopénica trombótica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -559,7 +559,7 @@
         "Aplásica",
         "Ferropénica",
         "Hemolítica",
-        "Faltan datos para decidir"
+        "Sideroblástica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -578,7 +578,7 @@
         "Venas varicosas",
         "Linfedema",
         "Trombosis de venas profundas",
-        "Neumonía adquirida"
+        "Celulitis"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -597,7 +597,7 @@
         "Antecedentes familiares de anemias",
         "Hábitos dietéticos permanentes",
         "Infecciones bacterianas recientes",
-        "Faltan datos para decidir"
+        "Viajes recientes"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -616,7 +616,7 @@
         "Enfermedades autoinmunes",
         "Leucemia aguda",
         "Hiperesplenismo",
-        "Ninguna de las anteriores"
+        "Infección viral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -635,7 +635,7 @@
         "Deficiencia nutricional",
         "Hemólisis",
         "Trastorno medular primario",
-        "Lupus eritematoso sistémico"
+        "Sangrado agudo"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -654,7 +654,7 @@
         "Mal de montaña crónico",
         "Hipoxemia refractaria",
         "Policitemia fisiológica secundaria",
-        "Todas las anteriores"
+        "Leucemia mieloide crónica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -673,7 +673,7 @@
         "Microcitos",
         "Eliptocitos",
         "Drepanocitos",
-        "Todas las anteriores"
+        "Esferocitos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -692,7 +692,7 @@
         "Cianocobalamina",
         "Riboflavina",
         "Tiamina",
-        "Aspirina"
+        "Hierro oral"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -711,7 +711,7 @@
         "Punción y biopsia de médula ósea",
         "Constantes corpusculares",
         "Test de autohemólisis",
-        "Ecografía Doppler"
+        "Electroforesis de hemoglobina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -730,7 +730,7 @@
         "Deficiencia de proteína C y S",
         "Enfermedad de von Willebrand",
         "Hemofilia A",
-        "Apendicitis aguda"
+        "Trombocitopenia inmune"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -749,7 +749,7 @@
         "Administrar vitamina K",
         "Transfundir plaquetas",
         "Administrar plasma fresco",
-        "Furosemida"
+        "Suspender la warfarina y solo observar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -768,7 +768,7 @@
         "Plaquetas",
         "TTPA",
         "Factor III",
-        "Todas las anteriores"
+        "Tiempo de sangría"
       ],
       "correcta": 0,
       "clave_correcta": "A",

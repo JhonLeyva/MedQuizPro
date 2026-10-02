@@ -27,7 +27,7 @@
         "Apendicitis aguda",
         "Adenitis mesentérica",
         "Invaginación intestinal",
-        "Hipertensión arterial"
+        "Pielonefritis aguda"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -46,7 +46,7 @@
         "Drenaje quirúrgico torácico",
         "Analgesia óptima",
         "Intubación orotraqueal",
-        "Lavado quirúrgico"
+        "Fijación quirúrgica costal inmediata"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -65,7 +65,7 @@
         "Neumotórax a tensión",
         "Derrame pleural",
         "Hemotórax derecho",
-        "Ninguna de las anteriores"
+        "Taponamiento cardiaco"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -84,7 +84,7 @@
         "Irrigar con agua a temperatura ambiental",
         "Corticoides en bolo",
         "Analgésicos parenterales",
-        "Clindamicina"
+        "Aplicar hielo directamente"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -103,7 +103,7 @@
         "Antiinflamatorios tópicos",
         "Extracción segmentaria",
         "Safenectomía",
-        "Todas las anteriores"
+        "Ablación endovenosa con láser"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -122,7 +122,7 @@
         "45%",
         "18%",
         "36%",
-        "Ninguna de las anteriores"
+        "54%"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -141,7 +141,7 @@
         "Intubación orotraqueal",
         "Cobertura antibiótica",
         "Administrar albúmina",
-        "Ninguna de las anteriores"
+        "Fluidoterapia según Parkland"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -160,7 +160,7 @@
         "Bypass distal",
         "Trombectomía urgente",
         "Heparina en infusión",
-        "Azitromicina"
+        "Fibrinólisis intraarterial"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -179,7 +179,7 @@
         "Orquitis isquémica",
         "Torsión testicular",
         "Absceso testicular",
-        "Infección del tracto urinario"
+        "Hidrocele postoperatorio"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -198,7 +198,7 @@
         "Traumatismo abdominal cerrado",
         "Hemorragia pericárdica",
         "Distrés respiratorio agudo",
-        "Ninguna de las anteriores"
+        "Fractura de pelvis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -217,7 +217,7 @@
         "Quiste pilonidal fistulizado",
         "Carcinoma anal",
         "Fisura anal",
-        "Insuficiencia cardíaca"
+        "Hemorroide externa trombosada"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -236,7 +236,7 @@
         "Crural",
         "Obturatriz",
         "Inguinal indirecta",
-        "Ninguna de las anteriores"
+        "Hernia umbilical"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -255,7 +255,7 @@
         "Prolapso rectal",
         "Fisura anal",
         "Absceso perianal",
-        "Faltan datos para decidir"
+        "Cáncer de recto"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -274,7 +274,7 @@
         "Mucocele apendicular",
         "Quiste dermoide de anexo derecho",
         "Plastrón apendicular",
-        "Diabetes Mellitus"
+        "Absceso tubo-ovárico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -293,7 +293,7 @@
         "TAC cerebral",
         "Esperar evaluar con el neurocirujano",
         "Colocar catéter venoso central",
-        "Colonoscopia"
+        "Radiografía de columna cervical"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -312,7 +312,7 @@
         "Colocarle paños húmedos",
         "Colocarle apósitos con sulfadiazina",
         "Mantenerlo descubierto",
-        "Furosemida"
+        "Aplicar hielo sobre las quemaduras"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -331,7 +331,7 @@
         "Ceftriaxona y metronidazol",
         "Cefradina y ciprofloxacino",
         "Amoxicilina y clindamicina",
-        "Aspirina"
+        "Penicilina benzatínica sola"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -350,7 +350,7 @@
         "Síndrome compartimental",
         "Gangrena de Fournier",
         "Trombosis arterial",
-        "Cirrosis hepática"
+        "Celulitis estreptocócica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -369,7 +369,7 @@
         "Hidrotórax",
         "Neumotórax a tensión",
         "Fractura costal múltiple",
-        "Insuficiencia cardíaca"
+        "Contusión pulmonar"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -388,7 +388,7 @@
         "Recidiva",
         "Hematocele",
         "Orquitis",
-        "Infección del tracto urinario"
+        "Torsión testicular"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -407,7 +407,7 @@
         "Colecistitis",
         "Colitis pseudomembranosa",
         "Apendicitis",
-        "Asma bronquial"
+        "Pancreatitis aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -426,7 +426,7 @@
         "Enfermedad de Crohn",
         "Colitis ulcerativa",
         "Obstrucción intestinal",
-        "Infección del tracto urinario"
+        "Íleo paralítico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -445,7 +445,7 @@
         "Inguinal directa",
         "Crural incarcerada",
         "Inguinal irreductible",
-        "Faltan datos para decidir"
+        "Hernia crural"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -464,7 +464,7 @@
         "Esperar que no dependa de vasopresores",
         "Luego de al menos dos dosis de antibióticos",
         "Lo más pronto como sea posible",
-        "Solicitar nuevo cultivo"
+        "Solo cuando el paciente esté afebril"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -483,7 +483,7 @@
         "Aplicación de pomada antibiótica",
         "Cubrir la mordedura con gasas",
         "Inmovilización de brazo",
-        "Ninguna de las anteriores"
+        "Profilaxis antirrábica"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -502,7 +502,7 @@
         "Retirar vestimenta y objetos",
         "Colocar mascarilla con oxígeno",
         "Inyectar analgésicos EV",
-        "Ninguna de las anteriores"
+        "Colocar sonda nasogástrica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -521,7 +521,7 @@
         "Bypass femoropoplíteo con prótesis",
         "Angioplastía con balón",
         "Cilostazol",
-        "Atropina"
+        "Simpatectomía lumbar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -540,7 +540,7 @@
         "Pancreatitis aguda",
         "Isquemia mesentérica",
         "Apendicitis aguda",
-        "Asma bronquial"
+        "Coledocolitiasis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -559,7 +559,7 @@
         "Neumotórax a tensión",
         "Taponamiento pericárdico",
         "Contusión del miocardio",
-        "Todas las anteriores"
+        "Shock neurogénico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -578,7 +578,7 @@
         "Asistolia",
         "Disociación electromecánica",
         "Taquicardia ventricular sin pulso",
-        "Ninguna de las anteriores"
+        "Bradicardia sinusal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -597,7 +597,7 @@
         "Eco Doppler de miembros inferiores",
         "Oximetría transcutánea de miembros inferiores",
         "Índice tobillo/brazo",
-        "Ninguna de las anteriores"
+        "Angiotomografía de miembros inferiores"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -616,7 +616,7 @@
         "Pancreatitis aguda",
         "Apendicitis aguda",
         "Obstrucción intestinal",
-        "Asma bronquial"
+        "Divertículo de Meckel complicado"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -635,7 +635,7 @@
         "Trombosis venosa profunda",
         "Trombosis arterial profunda",
         "Flemón en muslo izquierdo",
-        "Infección del tracto urinario"
+        "Linfedema postraumático"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -654,7 +654,7 @@
         "Trombosis venosa profunda",
         "Isquemia arterial",
         "Insuficiencia venosa crónica",
-        "Cirrosis hepática"
+        "Insuficiencia cardiaca derecha"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -673,7 +673,7 @@
         "Decorticación pleural",
         "Continuar con Hemotransfusión",
         "Toracoscopía diagnóstica",
-        "Ninguna de las anteriores"
+        "Colocar un segundo tubo de tórax"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -692,7 +692,7 @@
         "Hemorroide trombosada",
         "Fisura anal",
         "Cáncer de recto",
-        "Hipertensión arterial"
+        "Quiste pilonidal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -711,7 +711,7 @@
         "Hemorroide interna",
         "Neoplasia colorrectal",
         "Úlcera solitaria",
-        "Faltan datos para decidir"
+        "Hemorroides externas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -730,7 +730,7 @@
         "Suturar herida de la cabeza",
         "Colocar vía central",
         "Radiografía de cráneo",
-        "Faltan datos para decidir"
+        "TEM cerebral inmediata"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -749,7 +749,7 @@
         "Fluidoterapia con cristaloides",
         "Pase a cuidados intensivos",
         "Drenaje pleural izquierdo",
-        "Amputación"
+        "Radiografía de tórax antes de actuar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -768,7 +768,7 @@
         "Radiografía de tórax",
         "Tomografía cervical",
         "Corticoides EV",
-        "Dexametasona"
+        "Oxígeno por cánula nasal"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -787,7 +787,7 @@
         "Toracoscopía diagnóstica",
         "Ventana pericárdica",
         "Decorticación pericárdica",
-        "Faltan datos para decidir"
+        "Repetir la pericardiocentesis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -825,7 +825,7 @@
         "Absceso multilocular",
         "Fasceitis necrotizante",
         "Hematoma infectado",
-        "Cirrosis hepática"
+        "Celulitis"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -844,7 +844,7 @@
         "Perforación de víscera hueca",
         "Diverticulitis aguda",
         "Vólvulo de sigmoides",
-        "Neumonía adquirida"
+        "Vólvulo de ciego"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -863,7 +863,7 @@
         "Bronconeumonía aguda",
         "Neumonía intrahospitalaria",
         "Atelectasia pulmonar",
-        "Ninguna de las anteriores"
+        "Tromboembolismo pulmonar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -882,7 +882,7 @@
         "Segunda intención",
         "Primera intención",
         "Tercera intención",
-        "Ninguna de las anteriores"
+        "Cierre con injerto de piel"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -901,7 +901,7 @@
         "Tumor desmoide",
         "Quiste pilonidal",
         "Quiste sebáceo",
-        "Faltan datos para decidir"
+        "Absceso perianal"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -920,7 +920,7 @@
         "Adenitis inguinal necrosada",
         "Hernia obturatriz",
         "Hernia crural estrangulada",
-        "Neumonía adquirida"
+        "Hernia inguinal indirecta incarcerada"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -958,7 +958,7 @@
         "Apendicitis aguda",
         "Vólvulo de sigmoides",
         "Diverticulitis aguda",
-        "Tuberculosis"
+        "Íleo biliar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Invaginación intestinal",
         "Gastroenterocolitis",
         "Diverticulitis",
-        "Diabetes Mellitus"
+        "Infección urinaria"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -996,7 +996,7 @@
         "Eventración abdominal",
         "Hernia inguinal directa",
         "Hernia inguinal indirecta",
-        "Todas las anteriores"
+        "Hidrocele"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1015,7 +1015,7 @@
         "TEM de abdomen completo normal",
         "Nivel de sodio sérico",
         "Estabilidad hemodinámica",
-        "Ecografía Doppler"
+        "Edad del paciente"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1034,7 +1034,7 @@
         "Colostomía",
         "Sonda rectal",
         "Colonoscopía",
-        "Todas las anteriores"
+        "Enema evacuante"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1053,7 +1053,7 @@
         "Analgésicos",
         "Manitol",
         "TEM cerebral",
-        "Ecocardiograma"
+        "Radiografía de tórax"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1072,7 +1072,7 @@
         "Hernia inguinal complicada",
         "Torsión testicular",
         "Orquitis recidivante",
-        "Infección del tracto urinario"
+        "Hidrocele a tensión"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1091,7 +1091,7 @@
         "TEM tórax",
         "Ventilación mecánica",
         "Tubo de drenaje torácico",
-        "Resonancia magnética"
+        "Pericardiocentesis"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1110,7 +1110,7 @@
         "Hernia femoral estrangulada",
         "Hernia inguinal encarcelada",
         "Eventración abdominal estrangulada",
-        "Ninguna de las anteriores"
+        "Vólvulo de sigmoides"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1129,7 +1129,7 @@
         "RX simple de abdomen",
         "RMN de abdomen",
         "TEM de abdomen",
-        "Gammagrafía"
+        "Lavado peritoneal diagnóstico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1148,7 +1148,7 @@
         "Escarotomía",
         "Drenajes múltiples",
         "Colocar apósitos",
-        "Todas las anteriores"
+        "Amputación supracondílea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1167,7 +1167,7 @@
         "Vesical",
         "Hepático",
         "Pancreático",
-        "Todas las anteriores"
+        "Renal"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1186,7 +1186,7 @@
         "Hidratación y antibiótico",
         "Colecistectomía diferida por 30 días",
         "Colecistectomía de emergencia",
-        "Epinefrina"
+        "Colangiopancreatografía retrógrada endoscópica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1205,7 +1205,7 @@
         "Envolverlo en una sábana limpia y seca",
         "Mantenerlo descubierto",
         "Proteger las quemaduras con apósitos húmedos",
-        "Ninguna de las anteriores"
+        "Aplicar hielo sobre las quemaduras"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1224,7 +1224,7 @@
         "Intubación y ventilación mecánica",
         "Máscara de oxígeno con 4 litros por minuto",
         "Vendaje circular apretado en tórax",
-        "Faltan datos para decidir"
+        "Fijación quirúrgica de las costillas de urgencia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1243,7 +1243,7 @@
         "Cardiogénico",
         "Hipovolémico",
         "Obstructivo",
-        "Todas las anteriores"
+        "Séptico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1262,7 +1262,7 @@
         "Hemicolectomía derecha",
         "Ileostomía",
         "Apendicetomía",
-        "Ninguna de las anteriores"
+        "Resección local del tumor con margen"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1281,7 +1281,7 @@
         "Resección anterior baja",
         "Hemorroidectomía cerrada",
         "Coagulación infrarroja",
-        "Ninguna de las anteriores"
+        "Hemorroidopexia con grapas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1300,7 +1300,7 @@
         "Esfinterotomía quirúrgica",
         "Ablandadores de heces y baños de asiento",
         "Jalea de lidocaína al 2% y toxina botulínica",
-        "Metronidazol"
+        "Fistulotomía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1319,7 +1319,7 @@
         "Radiografía de mano",
         "Eco Doppler",
         "Electromiografía",
-        "Ninguna de las anteriores"
+        "Tomografía cerebral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1338,7 +1338,7 @@
         "Superficial simple",
         "Espesor parcial profundo",
         "Espesor parcial superficial",
-        "Todas las anteriores"
+        "Superficial con necrosis dérmica"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1357,7 +1357,7 @@
         "Colocación de tubo de drenaje pleural",
         "Descompresión inmediata con aguja",
         "Intubación orotraqueal y ventilación asistida",
-        "Drenaje percutáneo"
+        "Toracotomía de emergencia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1376,7 +1376,7 @@
         "Fascitis necrotizante",
         "Absceso isquiorrectal",
         "Fístula anal",
-        "Diabetes Mellitus"
+        "Gangrena gaseosa por clostridios"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1395,7 +1395,7 @@
         "Exploración local de la herida",
         "Lavado peritoneal diagnóstico",
         "Laparotomía exploratoria",
-        "Faltan datos para decidir"
+        "Alta inmediata con analgésicos"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1414,7 +1414,7 @@
         "Proceder al cierre primario de la herida",
         "Exploración quirúrgica y lavado",
         "Indicar vacuna antitetánica y antibióticos",
-        "Azitromicina"
+        "Amoxicilina-ácido clavulánico oral y alta"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1433,7 +1433,7 @@
         "Analgésicos por vía oral",
         "Apósitos con antimicrobianos",
         "Apósitos larga duración con plata",
-        "Todas las anteriores"
+        "Escarectomía temprana"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1452,7 +1452,7 @@
         "Primer",
         "Segundo",
         "Cuarto",
-        "Ninguna de las anteriores"
+        "Cuarto con trombosis"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1471,7 +1471,7 @@
         "Bloqueo nervio periférico",
         "Anestesia epidural",
         "General balanceada",
-        "Faltan datos para decidir"
+        "Sedación sin bloqueo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1490,7 +1490,7 @@
         "Síndrome de insuficiencia suprarrenal",
         "Sepsis incipiente por foco desconocido",
         "Acidosis láctica por hipoperfusión persistente",
-        "Diabetes Mellitus"
+        "Hipotiroidismo agudo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1509,7 +1509,7 @@
         "Drenaje percutáneo y antibióticos",
         "Laparotomía exploratoria de urgencia",
         "Colonoscopía terapéutica",
-        "Lavado quirúrgico"
+        "Colectomía con anastomosis primaria inmediata"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1528,7 +1528,7 @@
         "Tomografía",
         "Ecografía",
         "FAST",
-        "Faltan datos para decidir"
+        "Enema baritado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1547,7 +1547,7 @@
         "Analgésicos opioides",
         "Anestésicos inhalatorios",
         "Atelectasia pulmonar",
-        "Faltan datos para decidir"
+        "Hipopotasemia por diarrea"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1566,7 +1566,7 @@
         "Divertículo de Meckel",
         "Oblito abdominal",
         "Apendicitis del muñón",
-        "Infección del tracto urinario"
+        "Diverticulitis de colon derecho"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1585,7 +1585,7 @@
         "Disminuye necesidad de analgesia epidural",
         "Evita uso de antibióticos endovenosos",
         "Menor riesgo tromboembólico",
-        "Faltan datos para decidir"
+        "Menor tiempo quirúrgico en todos los casos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1604,7 +1604,7 @@
         "Diástasis de los rectos",
         "Hernia umbilical",
         "Tumor desmoides",
-        "Faltan datos para decidir"
+        "Lipoma"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1623,7 +1623,7 @@
         "Úlcera duodenal perforada",
         "Plastrón apendicular",
         "Pancreatitis aguda",
-        "Hipertensión arterial"
+        "Hepatitis aguda viral"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1642,7 +1642,7 @@
         "Síndrome compartimental crónico",
         "Claudicación venosa",
         "Quiste de Baker sintomático",
-        "Insuficiencia cardíaca"
+        "Trombosis venosa profunda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1661,7 +1661,7 @@
         "Laparotomía mediana",
         "Inguinal derecha",
         "Posterior",
-        "Faltan datos para decidir"
+        "Laparoscopía diagnóstica diferida"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1680,7 +1680,7 @@
         "Taponamiento cardíaco",
         "Neumotórax simple",
         "Hemotórax",
-        "Todas las anteriores"
+        "Contusión miocárdica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1699,7 +1699,7 @@
         "Neumotórax a tensión derecho",
         "Contusión pulmonar",
         "Taponamiento cardíaco traumático",
-        "Faltan datos para decidir"
+        "Neumotórax simple"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1718,7 +1718,7 @@
         "Transfusión de sangre tipo específica",
         "Infusión de expansor plasmático",
         "Infusión de coloides",
-        "Todas las anteriores"
+        "Vasopresores como primera medida"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1737,7 +1737,7 @@
         "27%",
         "42%",
         "18%",
-        "Faltan datos para decidir"
+        "45%"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1756,7 +1756,7 @@
         "IIa",
         "IIb",
         "III",
-        "Todas las anteriores"
+        "I"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1775,7 +1775,7 @@
         "Orquiectomía y cefalosporinas",
         "Detorsión y eversión de la vaginal",
         "Detorsión y orquidopexia",
-        "Todas las anteriores"
+        "Antibióticos y analgésicos"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1794,7 +1794,7 @@
         "Laparotomía exploratoria",
         "Explorar herida para extraer bala",
         "Ecografía FAST",
-        "Todas las anteriores"
+        "Tomografía de abdomen antes de decidir"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1813,7 +1813,7 @@
         "III",
         "I",
         "II profunda",
-        "Faltan datos para decidir"
+        "II superficial extensa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1832,7 +1832,7 @@
         "Exploración quirúrgica de vías biliares",
         "Programar cirugía laparoscópica",
         "Colangiopancreatografía retrógrada endoscópica",
-        "Ninguna de las anteriores"
+        "Colecistectomía de revisión"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1851,7 +1851,7 @@
         "Colecistectomía abierta urgente",
         "Administrar amikacina y ampicilina",
         "Mantener tratamiento médico Conservador",
-        "Lavado quirúrgico"
+        "Laparotomía exploratoria"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1870,7 +1870,7 @@
         "Fondo gástrico",
         "Ángulo esplénico del colon",
         "Bazo",
-        "Todas las anteriores"
+        "Riñón izquierdo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1889,7 +1889,7 @@
         "Insuficiencia venosa profunda",
         "Trombosis ateroesclerótica",
         "Espasmo arterial",
-        "Apendicitis aguda"
+        "Trombosis venosa profunda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1908,7 +1908,7 @@
         "Hígado",
         "Intestino",
         "Páncreas",
-        "Todas las anteriores"
+        "Riñón"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1927,7 +1927,7 @@
         "Rx abdomen simple",
         "Ecografía abdominal",
         "Tránsito intestinal",
-        "Arteriografía"
+        "Colonoscopía"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1946,7 +1946,7 @@
         "Medidas higiénico-dietéticas",
         "Terapia compresiva",
         "Escleroterapia",
-        "Ninguna de las anteriores"
+        "Safenectomía de emergencia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1965,7 +1965,7 @@
         "Isquemia mesentérica aguda",
         "Pancreatitis aguda",
         "Obstrucción intestinal",
-        "Síndrome de Guillain-Barré"
+        "Úlcera péptica perforada"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1984,7 +1984,7 @@
         "3° grado en muslo cara anterior",
         "3° grado hasta el 10% SCT",
         "2° grado en antebrazo cara anterior",
-        "Ninguna de las anteriores"
+        "1° grado en el 30% SCT"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2003,7 +2003,7 @@
         "Laparoscopia diagnostica",
         "Rx simple de abdomen de pie",
         "Ecografía abdominal",
-        "Colonoscopia"
+        "Endoscopía digestiva alta"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2022,7 +2022,7 @@
         "Laparoscopía diagnóstica",
         "Observación continua",
         "Laparotomía exploratoria",
-        "Amputación"
+        "Gastroyeyunostomía inmediata"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2041,7 +2041,7 @@
         "Observación + analgésicos",
         "Observación + antibióticos",
         "Drenaje + observación",
-        "Lavado quirúrgico"
+        "Cierre de la herida con nuevos puntos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2060,7 +2060,7 @@
         "Colangitis aguda",
         "Neumonía basal",
         "Pancreatitis aguda",
-        "Insuficiencia cardíaca"
+        "Atelectasia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2079,7 +2079,7 @@
         "Oxigeno húmedo con mascarilla",
         "Corticoides endovenosos",
         "Monitorizar funciones vitales",
-        "Epinefrina"
+        "Antibióticos profilácticos"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2098,7 +2098,7 @@
         "Resonancia magnética abdominal",
         "Lavado peritoneal diagnóstico",
         "Laparotomía exploradora",
-        "Ecocardiograma"
+        "Tomografía con contraste oral"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2117,7 +2117,7 @@
         "Pericardiocentesis",
         "Drenaje pleural",
         "Toracotomía exploratoria",
-        "Resección quirúrgica"
+        "Toracocentesis con aguja"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2136,7 +2136,7 @@
         "Colecistostomía convencional",
         "Colecistectomía laparoscópica",
         "Colecistectomía convencional",
-        "Ninguna de las anteriores"
+        "Esfinterotomía endoscópica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2155,7 +2155,7 @@
         "Iliaca externa",
         "Femoral común",
         "Humeral Izquierda",
-        "Ninguna de las anteriores"
+        "Radial"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2174,7 +2174,7 @@
         "Flegmasía blanca dolorosa",
         "Flegmasía cerúlea dolorosa",
         "Linfedema agudo",
-        "Hipertensión arterial"
+        "Celulitis"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2193,7 +2193,7 @@
         "Antibióticos",
         "Baños de asiento",
         "Drenaje",
-        "Amputación"
+        "Hemorroidectomía"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2212,7 +2212,7 @@
         "Hospitalización",
         "Trombectomía",
         "Esfinterotomía",
-        "Faltan datos para decidir"
+        "Hemorroidectomía cerrada urgente"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2231,7 +2231,7 @@
         "Laparotomía exploratoria",
         "Apendicetomía convencional",
         "Observación",
-        "Ninguna de las anteriores"
+        "Drenaje percutáneo del plastrón"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2250,7 +2250,7 @@
         "Colonoscopía urgente",
         "Antibióticos y observación",
         "RMN con contraste",
-        "Faltan datos para decidir"
+        "Repetir la ecografía en 24 horas"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -2269,7 +2269,7 @@
         "El síndrome de claudicación intermitente",
         "Las estasis linfáticas crónicas de miembros inferiores",
         "Insuficiencia venosa de los miembros inferiores",
-        "Sepsis"
+        "Las trombosis arteriales agudas"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2288,7 +2288,7 @@
         "Sífilis",
         "Leucemia",
         "Tuberculosis",
-        "Neumonía adquirida"
+        "Enfermedad de Crohn"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -2307,7 +2307,7 @@
         "Continuar la observación",
         "Cirugía electiva",
         "Cirugía de emergencia",
-        "Alta médica con indicaciones"
+        "Colocar faja abdominal y alta"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -2326,7 +2326,7 @@
         "Gramnegativos y anaerobios",
         "Grampositivos",
         "Anaerobios y grampositivos",
-        "Ninguna de las anteriores"
+        "Hongos y grampositivos"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -2345,7 +2345,7 @@
         "Observación continua",
         "Transfusión de un paquete globular",
         "Laparotomía exploratoria",
-        "Ninguna de las anteriores"
+        "Hepatorrafia por laparoscopía"
       ],
       "correcta": 1,
       "clave_correcta": "B",

@@ -27,7 +27,7 @@
         "Tirotoxicosis",
         "Hipertiroidismo subclínico",
         "Hipotiroidismo primario",
-        "Infección del tracto urinario"
+        "Síndrome del eutiroideo enfermo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -46,7 +46,7 @@
         "Tormenta tiroidea",
         "Tirotoxicosis apática",
         "Hipertiroidismo",
-        "Asma bronquial"
+        "Feocromocitoma"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -65,7 +65,7 @@
         "Péptido C",
         "Tolerancia oral a la glucosa",
         "Hemoglobina glicosilada A1C",
-        "Epinefrina"
+        "Insulina en ayunas"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -84,7 +84,7 @@
         "Ezetimibe",
         "Estatinas",
         "Levotiroxina",
-        "Amoxicilina"
+        "Atorvastatina más fenofibrato"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -103,7 +103,7 @@
         "Propiltiouracilo",
         "Paroxetina",
         "Hidrocortisona",
-        "Ketorolaco"
+        "Yodo radiactivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -122,7 +122,7 @@
         "Feocromocitoma",
         "Tormenta tiroidea",
         "Bocio hiperfuncionante",
-        "Apendicitis aguda"
+        "Ansiedad generalizada"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -141,7 +141,7 @@
         "Glucosa en orina",
         "Albúmina glicosilada",
         "Péptido C en orina",
-        "Epinefrina"
+        "Prueba de tolerancia oral a la glucosa con insulinemia"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -160,7 +160,7 @@
         "Plasma residual",
         "Hidrocortisona",
         "Paquete globular",
-        "Ninguna de las anteriores"
+        "Antibióticos de amplio espectro"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -179,7 +179,7 @@
         "Tiroiditis de Quervain",
         "Tiroiditis de Hashimoto",
         "Enfermedad de Graves-Basedow",
-        "Tuberculosis"
+        "Tiroiditis subaguda linfocítica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -198,7 +198,7 @@
         "Hiperosmolaridad",
         "Ayuno prolongado",
         "Hiperglucemia reactiva",
-        "Diabetes Mellitus"
+        "Acidosis láctica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -217,7 +217,7 @@
         "Hidratación agresiva con salino isotónico",
         "Realizar punción lumbar previo bolo de manitol",
         "Oxigenoterapia y esperar resultados de bioquímica",
-        "Paracetamol"
+        "Insulina rápida endovenosa"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -236,7 +236,7 @@
         "T4 libre",
         "TSH",
         "CPK total",
-        "Faltan datos para decidir"
+        "Magnesio sérico aislado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -255,7 +255,7 @@
         "Tomografía computada pélvica con contraste",
         "Dosaje de FSH",
         "Ecografía Doppler de ovarios",
-        "Faltan datos para decidir"
+        "Dosaje de estradiol aislado"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -274,7 +274,7 @@
         "Hiperlipidemia familiar combinada",
         "Hipercolesterolemia familiar",
         "Hipertrigliceridemia familiar",
-        "Todas las anteriores"
+        "Disbetalipoproteinemia"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -293,7 +293,7 @@
         "Hipertiroidismo",
         "Feocromocitoma",
         "Diabetes tipo 2",
-        "Síndrome de Guillain-Barré"
+        "Trastorno de ansiedad"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -312,7 +312,7 @@
         "Feocromocitoma",
         "Hiperaldosteronismo",
         "Hipertensión arterial esencial",
-        "Cirrosis hepática"
+        "Hipertiroidismo"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -331,7 +331,7 @@
         "Pancreatitis aguda",
         "Cirrosis hepática",
         "Esteatohepatitis",
-        "Asma bronquial"
+        "Diabetes mellitus"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -350,7 +350,7 @@
         "Microalbuminuria",
         "Creatinina sérica",
         "Excreción fraccional de sodio",
-        "Omeprazol"
+        "Glucosa en orina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -369,7 +369,7 @@
         "Hormonas tiroideas",
         "Hormona luteinizante",
         "Estudio de cariotipo",
-        "Faltan datos para decidir"
+        "Dosaje de prolactina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -388,7 +388,7 @@
         "Síndrome del eutiroideo enfermo",
         "Hipotiroidismo subclínico",
         "Hipertiroidismo subclínico",
-        "Síndrome de Guillain-Barré"
+        "Hipotiroidismo central"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -407,7 +407,7 @@
         "Ácido acetil salicílico",
         "Levotiroxina",
         "Prednisona",
-        "Dexametasona"
+        "Yodo radiactivo durante el embarazo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -426,7 +426,7 @@
         "Hipercortisolismo",
         "Feocromocitoma",
         "Hiperaldosteronismo",
-        "Cirrosis hepática"
+        "Ataque de pánico"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -445,7 +445,7 @@
         "GnRH y TSH",
         "LH y FSH",
         "T4L y T3",
-        "Faltan datos para decidir"
+        "Anticuerpos antitiroideos solamente"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -464,7 +464,7 @@
         "Tiroglobulina",
         "Tiroxina",
         "T4 y T3",
-        "Prednisona"
+        "Yodo oral"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -483,7 +483,7 @@
         "Hipotiroidismo",
         "Diabetes mellitus con neuropatía",
         "Insuficiencia suprarrenal primaria",
-        "Todas las anteriores"
+        "Síndrome de Cushing"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -502,7 +502,7 @@
         "Síndrome de Sheehan",
         "Falla ovárica prematura",
         "Síndrome de Asherman",
-        "Apendicitis aguda"
+        "Prolactinoma"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -521,7 +521,7 @@
         "Osmolaridad plasmática",
         "Osmolaridad urinaria",
         "Concentración circulante de ADH",
-        "Todas las anteriores"
+        "Sodio urinario"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -540,7 +540,7 @@
         "Hiperfuncionante",
         "Endémico",
         "Abscedado",
-        "Ninguna de las anteriores"
+        "Nodular tóxico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -559,7 +559,7 @@
         "Consentimiento informado firmado por familiar",
         "Mínimo 150 minutos semanales de intensidad moderada",
         "No se realiza el mismo día del tratamiento con metformina",
-        "Ketorolaco"
+        "Ejercicio intenso diario sin descanso"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -578,7 +578,7 @@
         "Uso de amiodarona",
         "Enfermedad de Graves",
         "Tirotoxicosis facticia",
-        "Asma bronquial"
+        "Tiroiditis subaguda"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -597,7 +597,7 @@
         "Tiroiditis de Hashimoto",
         "Tiroiditis de Quervain",
         "Enfermedad de Graves",
-        "Asma bronquial"
+        "Adenoma tóxico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -616,7 +616,7 @@
         "Poliuria, densidad urinaria baja e hipernatremia",
         "Oliguria, densidad urinaria alta e hiponatremia",
         "Poliuria, densidad urinaria alta e hiponatremia",
-        "Reposo absoluto"
+        "Poliuria, densidad urinaria baja e hiponatremia"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -635,7 +635,7 @@
         "Aldosterona",
         "Insulina",
         "ACTH",
-        "Omeprazol"
+        "Prolactina"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -654,7 +654,7 @@
         "Tiroiditis de Hashimoto",
         "Tiroiditis de Quervain",
         "Tirotoxicosis facticia",
-        "Apendicitis aguda"
+        "Tiroiditis supurativa aguda"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -673,7 +673,7 @@
         "Acidosis láctica",
         "Cetoacidosis diabética",
         "Insuficiencia adrenal secundaria",
-        "Cirrosis hepática"
+        "Hipotiroidismo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -692,7 +692,7 @@
         "Acidosis láctica",
         "Intoxicación por salicilatos",
         "Ingestión de metanol",
-        "Azitromicina"
+        "Estado hiperosmolar"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -711,7 +711,7 @@
         "Hiperglicemia",
         "Hipotiroidismo",
         "Hipopotasemia",
-        "Asma bronquial"
+        "Pancreatitis aguda"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -730,7 +730,7 @@
         "Terapia biológica",
         "Resección quirúrgica",
         "Radioterapia",
-        "Todas las anteriores"
+        "Octreótido como única medida"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -749,7 +749,7 @@
         "Enfermedad de Addison",
         "Tuberculosis mamaria",
         "Hipertiroidismo",
-        "Diabetes Mellitus"
+        "Síndrome de ovario poliquístico"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -768,7 +768,7 @@
         "Pubertad precoz",
         "Hipotiroidismo primario",
         "Obesidad con resistencia a la insulina",
-        "Atropina"
+        "Enfermedad de Addison"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -787,7 +787,7 @@
         "Relación albúmina/creatinina en orina aislada",
         "Ecografía renal",
         "Sodio en orina de 24 horas",
-        "Azitromicina"
+        "Creatinina sérica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -806,7 +806,7 @@
         "Hiperaldosteronismo",
         "Feocromocitoma",
         "Hipotiroidismo primario",
-        "Tuberculosis"
+        "Hipoparatiroidismo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -825,7 +825,7 @@
         "Aceitunas",
         "Pescados azules",
         "Hígado de pollo",
-        "Ninguna de las anteriores"
+        "Mantequilla y lácteos enteros"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -844,7 +844,7 @@
         "Administrar 100 ml de dextrosa al 5%",
         "Realizar un EKG",
         "Aplicar gluconato de calcio EV",
-        "Repetir examen en 24 horas"
+        "Insulina rápida subcutánea"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -863,7 +863,7 @@
         "Levotiroxina",
         "Propiltiouracilo",
         "Metimazol",
-        "Ciprofloxacino"
+        "Tiroidectomía inmediata"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -882,7 +882,7 @@
         "AINEs y propiltiuracilo",
         "Levotiroxina y prednisona",
         "Metimazol y propanolol",
-        "Omeprazol"
+        "Yodo radiactivo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -901,7 +901,7 @@
         "Insulina",
         "Glimepirida",
         "Hemodiálisis",
-        "Ketorolaco"
+        "Aumentar metformina a 3 g/día"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -920,7 +920,7 @@
         "Tormenta tiroidea",
         "Adenoma tóxico",
         "Tirotoxicosis transitoria del embarazo",
-        "Lupus eritematoso sistémico"
+        "Preeclampsia severa"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -939,7 +939,7 @@
         "Hipertiroidismo",
         "Hipoparatiroidismo",
         "Hipotiroidismo",
-        "Ninguna de las anteriores"
+        "Miositis por yodo radiactivo"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -958,7 +958,7 @@
         "Disminución de la excreción de amonio en la orina",
         "Aumento de la excreción pulmonar de amonio",
         "Disminución de la eliminación pulmonar de CO₂",
-        "Clindamicina"
+        "Aumento de la excreción renal de bicarbonato"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -977,7 +977,7 @@
         "Gabapentina",
         "Tramadol",
         "Propanolol",
-        "Amoxicilina"
+        "Insulina rápida"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -996,7 +996,7 @@
         "Metformina",
         "Dieta mediterránea",
         "Ejercicios aeróbicos",
-        "Ibuprofeno"
+        "Suspender el orlistat y solo vigilar"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1015,7 +1015,7 @@
         "Hiponatremia severa",
         "Encefalopatía hipóxica",
         "Accidente cerebrovascular",
-        "Diabetes Mellitus"
+        "Coma hiperosmolar"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1034,7 +1034,7 @@
         "Glibenclamida",
         "Acarbosa",
         "Metformina",
-        "Omeprazol"
+        "Insulina glargina"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1053,7 +1053,7 @@
         "Albuminuria mayor de 300 mg/24 horas",
         "Confirmación diagnóstica por endocrinólogo",
         "Falta de adherencia al tratamiento instalado",
-        "Aumentar dosis"
+        "Glucosa en ayunas de 180 mg/dl"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1072,7 +1072,7 @@
         "Calcio sérico",
         "Vitamina D",
         "TSH",
-        "Ceftriaxona"
+        "Glucosa sérica"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1091,7 +1091,7 @@
         "Teriparatide",
         "Cinacalcet",
         "Colecalciferol",
-        "Prednisona"
+        "Calcitonina"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1110,7 +1110,7 @@
         "Fluidoterapia endovenosa para disminuir la taquicardia sinusal",
         "Oxigenoterapia para disminuir la frecuencia respiratoria",
         "Ingesta de líquido vía oral",
-        "Faltan datos para decidir"
+        "Monitorizar el potasio sérico"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1129,7 +1129,7 @@
         "A",
         "E",
         "D",
-        "Todas las anteriores"
+        "B12"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1148,7 +1148,7 @@
         "Anfetaminas",
         "Hormona tiroidea",
         "Diuréticos",
-        "Faltan datos para decidir"
+        "Metformina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1167,7 +1167,7 @@
         "Tiroxina",
         "Hidrocortisona",
         "Piperacilina/tazobactam",
-        "Ciprofloxacino"
+        "Solución salina hipertónica"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1186,7 +1186,7 @@
         "Pioglitazona",
         "Insulina",
         "Metformina",
-        "Dexametasona"
+        "Sitagliptina"
       ],
       "correcta": 2,
       "clave_correcta": "C",
@@ -1205,7 +1205,7 @@
         "Iniciar metformina",
         "Insulinoterapia",
         "Dosaje de péptido C",
-        "Aspirina"
+        "Repetir la glucemia en un año"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1224,7 +1224,7 @@
         "Corregir el bicarbonato",
         "Detectar las comorbilidades",
         "Administración de insulina",
-        "Ketorolaco"
+        "Bicarbonato de sodio en bolo"
       ],
       "correcta": 0,
       "clave_correcta": "A",
@@ -1243,7 +1243,7 @@
         "Aumento de la excreción urinaria de glucosa",
         "Aumento de la reabsorción de glucosa",
         "Reducción de la diuresis osmótica",
-        "Ninguna de las anteriores"
+        "Bloqueo de la reabsorción de sodio en el asa de Henle"
       ],
       "correcta": 1,
       "clave_correcta": "B",
@@ -1262,7 +1262,7 @@
         "Antecedente de trastorno nutricional",
         "Tratamiento hormonal combinado de anticonceptivo",
         "Uso prolongado de dosis alta de dexametasona",
-        "Solicitar nuevo cultivo"
+        "Hipotiroidismo no tratado"
       ],
       "correcta": 3,
       "clave_correcta": "D",
@@ -1281,7 +1281,7 @@
         "Iniciar ibuprofeno vía oral y observar",
         "Solicitar cultivo de secreción faríngea",
         "Solicitar un hemograma con urgencia",
-        "Tramadol"
+        "Aumentar la dosis de tiamazol"
       ],
       "correcta": 3,
       "clave_correcta": "D",
