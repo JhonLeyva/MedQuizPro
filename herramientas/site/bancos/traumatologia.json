@@ -48,10 +48,10 @@
         "Flexor superficial de los dedos",
         "Supinador corto"
       ],
-      "correcta": 2,
-      "clave_correcta": "C",
-      "explicacion": "El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.",
-      "comentario": "El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.",
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El palmar menor (palmar largo) no flexiona los dedos y falta en el 15 % de las personas; una herida en la palma que impide cerrar el puño secciona los tendones flexores: flexor superficial de los dedos.",
+      "comentario": "El palmar menor (palmar largo) no flexiona los dedos y falta en el 15 % de las personas; una herida en la palma que impide cerrar el puño secciona los tendones flexores: flexor superficial de los dedos. Nota: la clave oficial publicada para esta pregunta fue C (palmar menor); se corrige porque el palmar menor no participa en el cierre del puño.",
       "tema": "Lesiones de partes blandas",
       "año": 2020
     },
