@@ -1,0 +1,224 @@
+### REU-001 | None | None
+Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?
+   A) Pirofosfato de calcio
+  *B) Urato monosódico
+   C) Hidroxiapatita
+   D) Oxalato de calcio
+   E) Colesterol
+EXP: 
+
+### SP-001 | None | None
+Se evalúa una prueba rápida para detectar una enfermedad en 300 personas. De 100 enfermos, 80 tienen la prueba positiva; de 200 sanos, 180 tienen la prueba negativa. ¿Cuál es la especificidad de la prueba?
+   A) 80 %
+  *B) 90 %
+   C) 75 %
+   D) 85,7 %
+   E) 60 %
+EXP: 
+
+### TRA-001 | None | None
+Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?
+   A) Alta sin inmovilización
+  *B) Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días
+   C) Artroscopía de muñeca de urgencia
+   D) Infiltración de corticoide
+   E) Solo antiinflamatorios y movilización precoz
+EXP: 
+
+### CIR-014 | Fisura anal | 2020
+Varón de 42 años, desde hace 5 días dolor intenso al defecar que persiste varias horas después, manchas rojo rutilante al higienizarse. Al tacto rectal esfínter hipertónico, no masas. ¿Cuál es el diagnóstico más probable?
+   A) Hemorroide trombosada
+   B) Prolapso rectal
+  *C) Fisura anal
+   D) Absceso perianal
+   E) Cáncer de recto
+EXP: Dolor anal intenso al defecar que persiste por horas, hemorragia roja rutilante y esfínter hipertónico sin masas palpables son características típicas de fisura anal. No hay signos de absceso (tumor, fiebre) ni de hemorroides (prolapso, sangrado sin dolor).
+
+### NEU-006 | Tuberculosis pulmonar: diagnóstico | 2020
+Varón de 35 años, consulta por presentar desde hace 3 semanas tos, disnea y pérdida de peso no cuantificada. Examen físico: T: 38 °C, crepitantes en tercio superior de hemitórax derecho y roncantes difusos. ¿Qué examen le permite confirmar el diagnóstico?
+  *A) BK en esputo
+   B) Radiografía de tórax
+   C) TEM de tórax
+   D) Hongos en esputo
+   E) Hemocultivo
+EXP: Paciente con síntomas respiratorios crónicos (tos, disnea, fiebre, pérdida de peso) y signos pulmonares sugestivos de tuberculosis. Aunque una radiografía puede orientar, el examen confirmatorio estándar es la baciloscopia para BK en esputo, que identifica al Mycobacterium tuberculosis.
+
+### INF-011 | Uretritis gonocócica | 2020
+Varón de 30 años de edad, sexualmente activo, refiere disuria y secreción uretral purulenta. Laboratorio: diplococos gramnegativos intracelulares. ¿Cuál es el tratamiento de elección?
+   A) Ciprofloxacino
+   B) Amikacina
+   C) Penicilina benzatínica
+  *D) Ceftriaxona
+   E) Metronidazol
+EXP: El cuadro clínico más el hallazgo de diplococos gramnegativos intracelulares es típico de gonorrea. El tratamiento actual de elección, debido a la resistencia a fluoroquinolonas, es una monodosis de ceftriaxona intramuscular.
+
+### REU-009 | Dermatitis atópica del lactante | 2020
+Se evalúa lactante de 8 meses de edad con lesiones eccematosas descamativas muy pruriginosas en forma de monedas en tórax y ambos brazos. Se plantea diagnóstico de:
+   A) Dermatitis seborreica
+  *B) Dermatitis atópica
+   C) Dermatitis por contacto
+   D) Dermatosis infantil
+   E) Psoriasis
+EXP: Lactante con lesiones eccematosas, pruriginosas, descamativas y en forma de placas redondeadas (en “moneda”), ubicadas en tronco y extremidades, lo cual es característico de la dermatitis atópica en su forma infantil. Esta suele presentarse después de los 6 meses con compromiso de superficies extensoras.
+
+### GIN-029 | Trabajo de parto prolongado | 2020
+Multígesta de 39 semanas presenta trabajo de parto prolongado y agotamiento materno. Latidos cardíacos fetales normales con poca variabilidad. ¿Cuál es el manejo?
+   A) Esperar parto vaginal
+   B) Hidratación y estimulación
+   C) Parto instrumentado
+  *D) Cesárea inmediata
+   E) Uso de prostaglandinas
+EXP: Paciente con trabajo de parto prolongado, agotamiento materno y signos de sospecha de compromiso fetal (variabilidad disminuida en LCF). Esto indica sufrimiento fetal inminente, por lo que se debe optar por cesárea inmediata.
+
+### CIR-015 | Plastrón apendicular | 2020
+Mujer de 43 años, hace 7 días dolor abdominal en región umbilical que luego se localiza en fosa ilíaca derecha, ingirió antibióticos y analgésicos. Al examen: masa palpable en fosa ilíaca derecha algo dolorosa. ¿Cuál es el diagnóstico más probable?
+   A) Diverticulitis de colon derecho
+   B) Mucocele apendicular
+   C) Quiste dermoide de anexo derecho
+  *D) Plastrón apendicular
+   E) Absceso tubo-ovárico
+EXP: Dolor que migra de región umbilical a fosa ilíaca derecha con masa palpable tras automedicación sugiere una apendicitis complicada con formación de plastrón apendicular, que es una masa inflamatoria organizada por el cuerpo para aislar la infección.
+
+### END-006 | Hipotiroidismo primario | 2020
+Varón 58 años consulta por astenia, debilidad y constipación de 7 meses de evolución, los que han ido en aumento. Examen: FC: 50 x’, PA: 110/80 mmHg, T°: 35.2 °C, facies algo edematosa, piel seca, áspera, resto normal. Estudio por imágenes: gammagrafía Tc 99: hipocaptación difusa. Laboratorio Na 130 mEq/l, Hb 10 g/dl. La conducta más adecuada es:
+  *A) Levotiroxina
+   B) Propiltiouracilo
+   C) Paroxetina
+   D) Hidrocortisona
+   E) Yodo radiactivo
+EXP: El cuadro clínico e imagenológico es compatible con hipotiroidismo primario, probablemente de causa autoinmune (tiroiditis de Hashimoto). La hipocaptación en gammagrafía y el cuadro de mixedema, bradicardia, constipación, hiponatremia apuntan a esta etiología. El manejo de elección es la reposición hormonal con levotiroxina.
+
+### CB-007 | Beta oxidación de ácidos grasos | 2020
+Niño de 1 año que presenta vómitos y hepatomegalia. Examen de laboratorio: glucosa 50 mg/dl, cuerpos cetónicos negativos. Orina: aciduria dicarboxílica, presencia de octanoil carnitina. Se sospecha un trastorno hereditario del metabolismo. ¿Cuál sería la vía metabólica afectada?
+  *A) Beta oxidación de ácidos grasos
+   B) Oxidación de cuerpos cetónicos
+   C) Ciclo de Krebs
+   D) Degradación de glucógeno
+   E) Ciclo de la urea
+EXP: El cuadro clínico (hipoglucemia sin cetosis, aciduria dicarboxílica y octanoilcarnitina) sugiere un defecto en la beta oxidación de ácidos grasos. Es típico del déficit de acil-CoA deshidrogenasa de cadena media (MCAD), un error innato del metabolismo que impide el uso de lípidos como fuente energética en ayuno. Su manejo incluye evitar el ayuno prolongado y asegurar aporte constante de glucosa. La acumulación de metabolitos tóxicos también puede inducir hepatopatía y encefalopatía si no se trata a tiempo.
+
+### NRL-008 | Enfermedad de Parkinson | 2020
+Varón de 76 años, desde hace 1 año presenta dificultad para incorporarse, movilizarse y temblor en las manos. Examen: orientado en tiempo, espacio y persona, expresión facial fija, facies de tristeza, temblor en ambas manos que desaparece al movimiento. No ha perdido ninguna habilidad mental. Resto del examen normal. ¿Cuál es el tratamiento de primera elección que debe prescribirse?
+  *A) Levodopa
+   B) Anticolinérgicos
+   C) Betabloqueantes
+   D) Agonistas post-sinápticos
+   E) Haloperidol
+EXP: El paciente presenta síntomas cardinales de enfermedad de Parkinson: bradicinesia, temblor en reposo, rigidez y facies en máscara. La orientación preservada y la ausencia de deterioro cognitivo apoyan un diagnóstico temprano. La levodopa es el tratamiento de primera elección, especialmente en mayores de 70 años o con síntomas motores que afectan su calidad de vida. Actúa como precursor de la dopamina, compensando su déficit en los ganglios basales. Su uso mejora la movilidad y reduce los temblores. Es importante monitorear los efectos secundarios como discinesias a largo plazo.
+
+### PSI-007 | Duelo y riesgo suicida en adolescentes | 2020
+Adolescente quien luego de la pérdida de su madre, queda con sentimientos de culpa, no puede dormir y se ha aislado. ¿Cuál de los siguientes riesgos con mayor frecuencia tiene el paciente?
+   A) Psicosis
+   B) Autolesión
+  *C) Suicidio
+   D) Drogadicción
+   E) Trastorno de pánico
+EXP: El adolescente que experimenta la pérdida de un ser querido, como la madre, está en un alto riesgo emocional debido a sentimientos de culpa, insomnio y aislamiento social. Estas manifestaciones son factores de riesgo importantes para conductas suicidas. La depresión reactiva tras una pérdida puede intensificar la ideación suicida, especialmente en jóvenes. Aunque la autolesión y la drogadicción también son posibles, el suicidio es la complicación más grave y frecuente en este contexto. La intervención temprana y el apoyo psicológico son esenciales para prevenir este desenlace. Por ello, se debe monitorizar y brindar acompañamiento constante al paciente.
+
+### PSI-008 | Trastorno obsesivo-compulsivo | 2020
+Varón de 40 años, desde el inicio de la pandemia COVID-19, se lava las manos en forma muy frecuente, piensa que todo está contaminado, motivo por el cual usa guantes desechables, desinfecta constantemente sus objetos de uso personal con alcohol. Se ha aislado socialmente. Reconoce que su conducta es exagerada, pero no puede evitarlo. ¿Cuál es el probable trastorno?
+   A) Mixto ansioso-depresivo
+  *B) Obsesivo-compulsivo
+   C) Depresivo con síntomas obsesivos
+   D) Esquizoafectivo
+   E) Trastorno de ansiedad generalizada
+EXP: El paciente presenta un trastorno obsesivo-compulsivo (TOC), caracterizado por obsesiones (pensamientos repetitivos sobre contaminación) y compulsiones (lavado excesivo de manos). La conciencia de la irracionalidad de su conducta no evita que persista. El aislamiento social y la exagerada higiene son comunes en este trastorno. La pandemia pudo haber exacerbado los síntomas por el miedo al contagio. El TOC requiere abordaje psicológico y, a menudo, farmacológico para mejorar la calidad de vida. Detectarlo a tiempo es esencial para un manejo adecuado.
+
+### PSI-009 | Esquizofrenia paranoide | 2020
+Mujer de 58 años, vive sola. HTA y artritis reumatoide en tratamiento. Desde hace 4 meses presenta alucinaciones auditivas y cenestésicas, con ideas delirantes de perjuicio por parte de sus vecinos, refiere conversar con Dios. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome confusional
+   B) Demencia frontal
+  *C) Esquizofrenia paranoide
+   D) Psicosis psicógena
+   E) Hipotiroidismo
+EXP: El cuadro descrito es característico de una esquizofrenia paranoide, donde predominan las alucinaciones auditivas y cenestésicas, junto con ideas delirantes de perjuicio. La edad y la historia clínica no excluyen este diagnóstico, pues puede presentarse en adultos mayores. La presencia de conversaciones con Dios sugiere contenido delirante de tipo religioso, común en este trastorno. Es fundamental diferenciarlo de síndromes confusionales y demencias para un manejo adecuado. El tratamiento antipsicótico es la base del abordaje para mejorar la calidad de vida del paciente.
+
+### PSI-010 | Episodio depresivo mayor | 2020
+Adolescente de 16 años desde hace 3 meses hiporexia e insomnio. Ha desaprobado 4 cursos y no desea salir con sus amigas y se siente irritada con su familia, aunque no lo entiende. Tiene dolores de cabeza y a veces le viene la idea de quitarse la vida, ya que no lo haría por sus creencias religiosas. Nunca le había sucedido algo parecido. ¿Cuál es el diagnóstico más probable?
+   A) Anorexia nervosa
+   B) Trastorno ciclotímico
+   C) Trastorno distímico
+  *D) Episodio depresivo mayor
+   E) Trastorno de déficit de atención
+EXP: La adolescente presenta signos típicos de un episodio depresivo mayor, con hiporexia, insomnio, irritabilidad, bajo rendimiento académico y pensamientos suicidas sin intención activa. La duración mayor a dos semanas y la afectación funcional confirman el diagnóstico. La ausencia previa de síntomas y la negación a actuar sobre sus ideas suicidas fortalecen la identificación del episodio. Es esencial realizar evaluación psiquiátrica integral y brindar apoyo psicológico y farmacológico oportuno para evitar complicaciones mayores. La detección temprana mejora el pronóstico.
+
+### PSI-011 | Ataque de pánico | 2020
+Mujer de 45 años que vive sola en aislamiento estricto por la pandemia COVID-19, es atendida por un médico en su domicilio. Manifiesta sensación de muerte, falta de aire, palpitaciones y temblores. Examen: PA: 150/85 mmHg, FC: 100 x´, FR: 24 x´, Sat O2 97 %, diaforética, aparato respiratorio: normal. Al término de la atención se siente aliviada. ¿Cuál es el diagnóstico más probable?
+   A) Crisis hipertensiva
+  *B) Ataque de pánico
+   C) Síndrome conversivo
+   D) Depresión enmascarada
+   E) Infarto agudo de miocardio
+EXP: El cuadro clínico es característico de un ataque de pánico, con inicio súbito de síntomas como disnea, palpitaciones, temblores, sensación de muerte inminente y diaforesis, en un contexto de aislamiento por pandemia. El examen físico no revela hallazgos orgánicos que expliquen los síntomas, lo cual refuerza el origen psicógeno. La resolución espontánea tras la visita médica también es típica de este trastorno. Es fundamental realizar un diagnóstico diferencial con causas médicas agudas, pero una vez descartadas, se debe brindar manejo psicoterapéutico y considerar tratamiento farmacológico si los episodios se repiten.
+
+### SP-020 | Objeción de conciencia | 2020
+Mujer que solicita le coloquen dispositivo intrauterino de anticoncepción. Médico tratante por sus convicciones religiosas de oposición, debería:
+   A) Atender su pedido
+   B) Negarse a atenderla
+   C) Convencerla de usar otro método
+  *D) Derivar a la paciente a otro colega
+   E) Pedirle autorización al esposo
+EXP: Ante una objeción de conciencia del médico, lo ético y legal es derivar a la paciente a otro profesional sin obstaculizar su acceso al servicio solicitado. Las convicciones personales no deben interferir en el derecho de la mujer a decidir sobre su salud reproductiva. Esta situación está contemplada en los principios de bioética y en normativas nacionales. El respeto a la autonomía de la paciente es clave. Derivar garantiza atención oportuna sin vulnerar derechos ni principios médicos.
+
+### PED-033 | Intoxicación por organofosforados | 2020
+Preescolar de 3 años de edad, procedente del campo, traído a emergencia por presentar compromiso de conciencia, sialorrea y vómitos. Examen: FC= 60x', FR= 15x'; pálido, sialorrea intensa, confuso, por momentos irritable, con fasciculaciones musculares, conjuntivas hiperémicas y miosis. ¿Cuál es el tratamiento indicado?
+  *A) Atropina
+   B) Adrenalina
+   C) Dexametasona
+   D) Lidocaína
+   E) Naloxona
+EXP: El cuadro clínico es típico de intoxicación por órganos fosforados, frecuente en áreas rurales por exposición a pesticidas. La miosis, sialorrea, bradicardia, confusión y fasciculaciones orientan a un síndrome colinérgico. El tratamiento de elección es atropina, que antagoniza la acción de la acetilcolina en receptores muscarínicos. Puede requerirse también pralidoxima si se confirma la etiología. El manejo debe ser rápido y en ambiente hospitalario por riesgo de complicaciones respiratorias.
+
+### NEF-010 | Anemia en enfermedad renal crónica | 2020
+Varón de 56 años, diabético acude a control. Antecedente: filtrado glomerular 20 ml/min/1.73 m², anemia en tratamiento con eritropoyetina. Laboratorio: hemoglobina 9.7 g/dl, hematocrito 32.4 %, ferritina 56 ng/ml, índice de saturación de la transferrina del 12 %. ¿Qué tratamiento se debe continuar?
+  *A) Administrar hierro y mantener la misma dosis de eritropoyetina.
+   B) Aumentar solo la dosis de eritropoyetina.
+   C) Suspender la eritropoyetina y administrar hierro.
+   D) Transfundir paquete globular
+   E) Suspender la eritropoyetina
+EXP: El paciente presenta anemia en el contexto de enfermedad renal crónica avanzada y tratamiento con eritropoyetina. Sin embargo, los parámetros de hierro muestran deficiencia funcional (ferritina <100 ng/ml e índice de saturación <20%). Para que la eritropoyetina sea eficaz, es necesario corregir primero la deficiencia de hierro. Por ello, se debe administrar hierro y mantener la misma dosis de eritropoyetina. El monitoreo periódico de estos parámetros es fundamental en la ERC.
+
+### NEF-011 | Rabdomiólisis y lesión renal aguda | 2020
+Obrero de construcción civil de 25 años, es aplastado por una pared. Lo rescatan después de 36 horas inconsciente. Examen: múltiples hematomas. Laboratorio: urea de 200 mg/dL, creatinina de 6 mg/dL, ácido úrico de 10 mg/dL y CPK de 1500 U/ml. ¿Cuál es el diagnóstico más probable?
+   A) Necrosis tubular aguda por AINES
+  *B) Fracaso renal agudo por rabdomiolisis
+   C) Fracaso renal agudo por uratos
+   D) Necrosis tubular aguda por hemólisis
+   E) Glomerulonefritis aguda
+EXP: El paciente presenta datos compatibles con rabdomiolisis severa por síndrome de aplastamiento: CPK elevada, urea y creatinina elevadas, y ácido úrico aumentado. Estos hallazgos, junto con el antecedente traumático, explican un fracaso renal agudo secundario a liberación masiva de mioglobina. La necrosis tubular aguda es el mecanismo fisiopatológico. El manejo incluye hidratación intensiva, corrección de alteraciones hidroelectrolíticas y vigilancia de función renal. Es un caso clásico de lesión renal postraumática.
+
+### CB-008 | Farmacología del paracetamol | 2020
+Mujer de 60 años, inicia hombro doloroso, pero es alérgica a AINES, se busca entonces un medicamento que sea inhibidor reversible no competitivo de la ciclooxigenasa y que sea analgésico, aunque tenga poca actividad antiinflamatoria. ¿Cuál propondría?
+   A) Celecoxib
+   B) Ácido acetil salicílico
+   C) Naproxeno
+  *D) Acetaminofén
+   E) Ibuprofeno
+EXP: El acetaminofén es el analgésico de elección en pacientes alérgicos a AINES, ya que actúa como inhibidor reversible no competitivo de la ciclooxigenasa, principalmente en el sistema nervioso central. Tiene buena acción analgésica y antipirética, pero escasa actividad antiinflamatoria. Es seguro en pacientes con riesgo gastrointestinal o alérgicos a AINES. Debe usarse con precaución en hepatopatías. Representa una alternativa útil para dolor leve a moderado, especialmente en adultos mayores.
+
+### NEF-012 | Nefropatía diabética | 2020
+Varón de 60 años con diagnóstico de glomeruloesclerosis nodular, acude al consultorio por anasarca. Examen: PA: 160/90 mmHg, FC: 90 x′. Laboratorio: urea: 32 mg/dL, creatinina: 0.9 mg/dL. Proteínas en orina: 4 gr/24 horas. ¿Cuál sería el medicamento indicado?
+  *A) Captopril
+   B) Propranolol
+   C) Tiazidas
+   D) Amlodipino
+   E) Furosemida en monoterapia
+EXP: El paciente presenta un síndrome nefrótico con proteinuria masiva y antecedentes compatibles con nefropatía diabética. El tratamiento de elección incluye IECAs como captopril, que disminuyen la proteinuria al reducir la presión intraglomerular. Además, ofrecen beneficio en el control de la hipertensión y protección renal a largo plazo. No se indica propranolol ni diuréticos como primera línea sin edema severo. El control de presión y proteinuria es prioritario para evitar progresión a enfermedad renal crónica.
+
+### CIR-016 | Politraumatizado en shock: manejo inicial | 2020
+Joven que sufre accidente de tránsito. Llega a Trauma Shock en estado de coma, PA: 80/50 mmHg, FC: 118 x′, FR: 24 x′, SatO₂: 95%. ¿Qué es lo primero que debe hacerse?
+  *A) Infusión de solución salina
+   B) TAC cerebral
+   C) Esperar evaluar con el neurocirujano
+   D) Colocar catéter venoso central
+   E) Radiografía de columna cervical
+EXP: Paciente politraumatizado en estado de coma y con signos vitales inestables requiere enfoque inicial ABC. La hipotensión (PA 80/50 mmHg) y taquicardia (FC 118 x′) indican probable shock hipovolémico. Por tanto, lo primero es asegurar vía venosa periférica e iniciar infusión de solución salina. TAC cerebral no es prioritario hasta estabilización hemodinámica. Catéter venoso central no es urgente en el manejo inicial. La reanimación con fluidos busca restaurar perfusión cerebral y sistémica. El manejo del trauma sigue el enfoque del ATLS. Evaluación neurológica vendrá después de estabilizar al paciente.
+
+### GIN-030 | Presentación podálica | 2020
+Gestante de 39 semanas. G2, P:1001. El primer hijo nació por vía vaginal con un peso de 2900 gramos. Actualmente el feto en presentación podálica completa. El ponderado fetal es de 3500 gr. Al examen: pelvis ginecoide, dilatación: 3 cm y presentación: -3. ¿Cuál es la conducta más apropiada?
+   A) Versión cefálica externa
+   B) Acentuación con oxitocina
+   C) Conducta expectante
+  *D) Cesárea
+   E) Inducción con misoprostol
+EXP: En gestantes con feto en presentación podálica y peso estimado mayor a 3500 g, el riesgo de complicaciones durante el parto vaginal se incrementa significativamente. Si bien la pelvis es ginecoide y hay trabajo de parto en curso, la combinación de estos factores justifica la indicación de cesárea electiva. La versión cefálica externa no se realiza con trabajo de parto activo. Acentuar el trabajo con oxitocina sería riesgoso. La conducta expectante tampoco es segura en este contexto. Por tanto, la cesárea es la opción más adecuada para proteger la salud fetal y materna.

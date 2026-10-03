@@ -1,0 +1,224 @@
+### GIN-055 | Vaginitis mixta | 2021
+Mujer de 26 años acude por flujo vaginal maloliente, que empeora con relación sexual y cuando se lava con jabón. Desde hace 24 horas se agrega prurito intenso y enrojecimiento vulvar. ¿Cuál es la terapia a indicar?
+  *A) Metronidazol más Clotrimazol
+   B) Ceftriaxona más doxiciclina
+   C) Ciprofloxacino más Azitromicina
+   D) Clindamicina y medicar a la pareja
+   E) Fluconazol como única medida
+EXP: El cuadro clínico sugiere una vaginitis mixta, probablemente causada por Gardnerella vaginalis (vaginosis bacteriana) y Candida albicans (candidiasis vulvovaginal). El mal olor que empeora con relaciones sexuales y jabón es típico de Gardnerella, mientras que el prurito y enrojecimiento vulvar sugieren sobreinfección por cándida. El tratamiento ideal debe cubrir ambas etiologías: metronidazol para la vaginosis bacteriana y clotrimazol para la candidiasis. Las otras opciones están orientadas a infecciones de transmisión sexual (ITS) como gonorrea o clamidia, lo cual no es lo que se sospecha en este caso. Por tanto, el enfoque debe ser mixto.
+
+### GIN-056 | Tumores ováricos en la niña | 2021
+Niña de 7 años, presenta dolor en cuadrante inferior izquierdo abdominal; y es consultado con el especialista por identificarse una neoplasia ovárica por ultrasonido. ¿Cuál tipo de tumor ovárico se esperaría encontrar?
+   A) Fibrosarcoma
+   B) Epitelial seroso papilífero
+  *C) Células germinales
+   D) Tumor de Brenner
+   E) Cistoadenoma mucinoso
+EXP: En niñas prepuberales, la mayoría de tumores ováricos tienen origen en células germinales, representando más del 60% de los casos. Este grupo incluye entidades como el teratoma maduro (benigno) y el disgerminoma (maligno más frecuente en esta edad). En contraste, los tumores epiteliales como el seroso papilífero son comunes en mujeres adultas, no en preadolescentes. La presentación con dolor abdominal y masa palpable es frecuente. La localización en el cuadrante inferior izquierdo también es compatible con un ovario afectado. Por lo tanto, en una niña, el diagnóstico más probable ante una masa ovárica es un tumor de células germinales.
+
+### PED-066 | Vacunación tardía: Haemophilus influenzae tipo b | 2021
+Niño que recién a los 6 años de edad es llevado a consulta pediátrica, en donde se constata que no ha recibido ninguna vacuna. ¿Cuál vacuna NO es necesario prescribir?
+  *A) Anti Haemophilus influenzae tipo B
+   B) Antidiftérica
+   C) Antitetánica
+   D) Anti hepatitis B
+   E) Antipoliomielítica
+EXP: El Haemophilus influenzae tipo B (Hib) causa enfermedades graves en menores de 5 años como meningitis, epiglotitis y neumonía. Su vacuna se administra en los primeros meses de vida porque es en ese rango de edad cuando el niño está en mayor riesgo. A los 6 años, el sistema inmunológico ya es más maduro y las infecciones por Hib son menos frecuentes, por lo que no está incluida en los esquemas de vacunación de recuperación. En cambio, las vacunas antidiftéricas, antitetánica y anti hepatitis B sí deben administrarse, ya que protegen contra infecciones que pueden presentarse en cualquier edad si no se ha inmunizado previamente.
+
+### CB-017 | Apoptosis | 2021
+¿Cuál es el daño determinante que debe sufrir una célula para producirse la apoptosis?
+  *A) Daño irreversible del ADN celular
+   B) Mutación que alteran los controles de regulación
+   C) Inactivación del gen supresor
+   D) Implica variaciones en la secuencia de ARN
+   E) Aumento del volumen celular por edema
+EXP: La apoptosis es un proceso fisiológico de muerte celular programada que se desencadena ante diversos estímulos, siendo el daño irreversible del ADN uno de los más determinantes. Este daño activa vías de señalización específicas que involucran proteínas como p53, las cuales inician la cascada de caspasas. Estas enzimas promueven la fragmentación controlada del material nuclear y citoplasmático, sin inducir inflamación. Es importante diferenciar este proceso de la necrosis, que implica inflamación y daño tisular colateral. La apoptosis permite eliminar células peligrosas como las cancerígenas o con mutaciones severas. Por tanto, la integridad del ADN es clave para la supervivencia celular.
+
+### CB-018 | Eficacia farmacológica | 2021
+La capacidad de un medicamento para producir el efecto deseado en condiciones ideales de uso es lo que llamamos:
+   A) Afinidad intrínseca
+   B) Efectividad
+   C) Potencia farmacológica
+  *D) Eficacia
+   E) Eficiencia
+EXP: La eficacia farmacológica se define como la capacidad de un medicamento para producir el efecto terapéutico deseado en condiciones ideales, como en ensayos clínicos controlados. Es importante distinguirla de la efectividad, que se refiere al comportamiento del fármaco en condiciones reales. La potencia se relaciona con la cantidad de fármaco necesaria para obtener un efecto determinado, mientras que la afinidad intrínseca indica cuán bien se une el fármaco a su receptor. Por tanto, cuando se evalúa un nuevo medicamento, se considera su eficacia como un parámetro crucial para decidir su aprobación y comercialización.
+
+### CB-019 | Miopatía por estatinas | 2021
+Mujer de 58 años con antecedente de hipotiroidismo, acude a consulta por dislipidemia, se inicia tratamiento y una semana después presenta mialgias, no recuerda qué medicamento ha tomado. ¿Cuál es el medicamento que produjo la RAM?
+   A) Omega 3
+   B) Ezetimiba
+  *C) Atorvastatina
+   D) Levotiroxina
+   E) Fenofibrato
+EXP: Paciente con antecedente de hipotiroidismo, patología que por sí sola incrementa el riesgo de dislipidemia, recibe tratamiento y desarrolla mialgias tras una semana. Las estatinas, en especial la atorvastatina, son el tratamiento más común para dislipidemia y conocidas por su principal RAM: mialgias, miopatías e incluso rabdomiólisis. Aunque el paciente no recuerda el fármaco usado, el contexto clínico apunta claramente al uso de estatinas como causa. Omega 3 y ezetimiba rara vez provocan mialgias, y la levotiroxina no se usa como tratamiento primario de dislipidemia. Por tanto, la reacción adversa es atribuida a atorvastatina.
+
+### CB-020 | Anatomía laríngea: músculo cricoaritenoideo posterior | 2021
+En una cirugía correctiva de fístula traqueal por intubación orotraqueal muy prolongada, se evidencia, en el posoperatorio, severa dificultad para controlar la apertura de la glotis. ¿Cuál músculo ha sido comprometido por la intervención quirúrgica?
+  *A) Cricoaritenoideo posterior
+   B) Tiroaritenoideo
+   C) Ariaritenoideo
+   D) Estilofaríngeo
+   E) Cricotiroideo
+EXP: La paciente posoperada de fístula traqueal presenta dificultad para controlar la apertura de la glotis, lo que sugiere un compromiso neuromuscular laríngeo. El único músculo que abduce (abre) las cuerdas vocales es el cricoaritenoideo posterior. Este músculo es fundamental para permitir el paso de aire a través de la glotis. Su lesión se asocia con disnea, estridor e incapacidad de abducción. Los otros músculos laríngeos, como el tiroaritenoideo y el ariaritenoideo, participan en el cierre o fonación. Por tanto, el cuadro clínico orienta a una lesión del cricoaritenoideo posterior como secuela de la intervención.
+
+### GIN-057 | Clave roja: hemorragia obstétrica | 2021
+La clave roja en la emergencia obstétricas activa en:
+   A) Infecciones
+   B) Enfermedad hipertensiva del embarazo
+  *C) Hemorragias
+   D) Ruptura prematura de membranas
+   E) Trabajo de parto prolongado
+EXP: La “clave roja” en el contexto de emergencias obstétricas corresponde a situaciones de emergencia vital, siendo la hemorragia obstétrica una de las principales causas de muerte materna. Este código permite activar un protocolo inmediato de atención multidisciplinaria, optimizando tiempos de respuesta y recursos. La pérdida masiva de sangre durante el embarazo, parto o puerperio requiere manejo urgente para prevenir shock hipovolémico. Además, su instauración rápida puede hacer la diferencia entre la vida y la muerte. Otras emergencias tienen sus propios códigos de activación diferenciada. La hemorragia posparto es su ejemplo más clásico. Por tanto, la respuesta correcta es la C.
+
+### NEU-018 | Tumor de Pancoast | 2021
+Varón de 60 años, fumador pesado, refiere dolor localizado en el hombro que se irradia a lo largo del brazo por la cara cubital, acompañado de parestesias en todo el brazo. ¿Cuál es la primera sospecha diagnóstica?
+  *A) Carcinoma del seno vértebro-pulmonar superior
+   B) Polineuritis por déficit de Vitamina B
+   C) Bursitis crónica
+   D) Osteoartritis de hombro
+   E) Síndrome del túnel carpiano
+EXP: El síndrome de Pancoast o tumor del vértice pulmonar es una presentación clásica en fumadores crónicos. Se caracteriza por dolor en el hombro que irradia hacia la extremidad superior, especialmente por el trayecto cubital, y suele acompañarse de parestesia s. Esto se debe a la invasión del plexo braquial inferior. En etapas más avanzadas puede asociar síndrome de Horner. La localización apical del tumor permite su extensión a estructuras adyacentes como costillas, vértebras y nervios. Es importante considera rlo ante todo cuadro doloroso neurológico en fumadores mayores. Por lo tanto, la respuesta correcta es la A.
+
+### SP-040 | Determinantes sociales de la salud | 2021
+Los determinantes sociales de la salud son las circunstancias en las cuales las personas nacen, crecen, trabajan, viven y envejecen, se incluye el conjunto más amplio de fuerzas y sistemas que influyen sobre las condiciones de la vida cotidiana. Señale un determinante estructural
+   A) Condiciones de vida
+   B) Sistemas de salud
+  *C) Etnia o raza
+   D) Condiciones laborales
+   E) Hábitos alimentarios
+EXP: La pregunta aborda el marco conceptual de los determinantes sociales de la salud, clave en la salud pública. Estos determinantes se dividen en estructurales y sociales intermedios. Dentro de los estructurales encontramos aspectos que definen la posición social del individuo, como el nivel socioeconómico, la educación, el género y la etnicidad o raza, la cual es la opción correcta. Esta categoría influye de manera decisiva en el acceso a oportunidades, servicios y condiciones de vida. No debe confundirse con determinantes intermedios, como las condiciones de vida o el sistema de salud. Identificar correctamente el nivel del determinante permite diseñar mejores intervenciones. En este caso, se busca reconocer una categoría estructural más que una consecuencia social. Por tanto, el determinante estructural que se señala como correcto es la etnia o raza. Su reconocimiento es fundamental para
+
+### SP-041 | Estudio de cohortes | 2021
+En una localidad se presentaron casos de Zika. ¿Qué diseño de estudio utilizaría considerando que es necesario determinar los factores que preceden a la aparición de los casos?
+   A) Causal
+   B) Ecológico
+   C) Descriptivo
+  *D) Cohorte
+   E) Serie de casos
+EXP: Esta pregunta se orienta al diseño metodológico más adecuado para analizar la aparición de casos de Zika. Para identificar factores que preceden a la aparición de la enfermedad, se requiere un diseño analítico que observe a los individuos en el tiempo. En este sentido, el estudio de cohorte es el que permite hacer un seguimiento a personas expuestas y no expuestas a ciertos factores de riesgo, observando si desarrollan la enfermedad. Los estudios descriptivos o ecológicos no permiten establecer una relación temporal ni causal con precisión. En cambio, el diseño de cohorte permite inferir causalidad al establecer la temporalidad entre la exposición y el desenlace. Es especialmente útil en estudios epidemiológicos prospectivos. Por tanto, ante el escenario planteado, el mejor enfoque es el estudio de cohorte.
+
+### CB-021 | Intoxicación por gas sarín: atropina | 2021
+En 1995 en el metro de Tokio hubo un ataque terrorista con la muerte de 14 personas, el efecto mortal se atribuyó a excesiva sobreestimulación colinérgica. ¿Cuál es el antídoto de uso endovenoso a utilizar en esta situación de envenenamiento?
+  *A) Atropina
+   B) Flumazenil
+   C) Nitrito de amilo
+   D) Dimercaprol
+   E) Naloxona
+EXP: El caso hace referencia a un ataque con gas sarín, un agente neurotóxico organofosforado que provoca un síndrome colinérgico severo al inhibir la acetilcolinesterasa, generando una sobreestimulación colinérgica. Esto se traduce clínicamente en miosis, broncorrea, convulsiones, bradicardia, paro respiratorio, entre otros. El antídoto de elección en estos casos es la atropina, un agente antimuscarínico que bloquea los efectos de la acetilcolina en los receptores muscarínicos. Su uso es endovenoso y debe administrarse en dosis repetidas hasta que se reviertan los síntomas. La atropina se puede complementar con pralidoxima para revertir el bloqueo enzimático, pero esta no reemplaza su acción. Flumazenil y dimercaprol no tienen utilidad en intoxicaciones colinérgicas. Por tanto, la opción correcta es Atropina.
+
+### SP-042 | Ética en investigación: Declaración de Helsinki | 2021
+Un grupo de estudiantes de medicina del último año inician un estudio comparativo en dos grupos de pacientes, ambos hospitalizados por más de 20 días, para evitar sesgos inician el trabajo en secreto, el grupo A recibe alimentación usual y el grupo B un 20% más de proteínas. El comité de ética, sin embargo, ordenó detener la investigación fundamentalmente por:
+  *A) Incumplir la declaración de Helsinki
+   B) Alto riesgo para el grupo A
+   C) Alto riesgo para el grupo B
+   D) Perjuicio económico a la institución
+   E) Falta de financiamiento
+EXP: Este caso describe una investigación clínica realizada sin aprobación ética ni conocimiento institucional, lo cual constituye una grave infracción a los principios fundamentales de la investigación en seres humanos. La Declaración de Helsinki, elaborada por la Asociación Médica Mundial, establece directrices éticas claras para estudios médicos, incluyendo el consentimiento informado, la revisión previa por comités de ética y la obligación de proteger a los participantes. Iniciar un estudio "en secreto" vulnera todos estos principios, incluso si el diseño parece inofensivo. No es necesario que exista un daño evidente para que la investigación sea detenida, basta con que no haya supervisión ética. Por ello, el motivo principal para detener el estudio fue el incumplimiento de la Declaración de Helsinki.
+
+### PED-067 | Bronquiolitis | 2021
+Lactante varón de 6 meses, alimentado con sustituto de leche materna. Inicia hace dos días con fiebre, rinorrea y tos. Al tercer día se añade dificultad respiratoria por lo que es traído a consulta. Al examen: taquipneico con tirajes y sibilancias espiratorias. ¿Cuál es el diagnóstico probable?
+   A) Resfrío común
+   B) Cuerpo extraño
+   C) Bronquitis
+  *D) Bronquiolitis
+   E) Neumonía bacteriana
+EXP: Lactante con antecedentes de alimentación artificial y síntomas respiratorios que progresan a dificultad respiratoria con sibilancias espiratorias y signos de obstrucción de vías aéreas inferiores. Esta presentación clínica es típica de bronquiolitis, infección viral (generalmente por VRS) que afecta a menores de 2 años. Se caracteriza por inflamación de los bronquiolos, obstrucción e hiperreactividad. El cuerpo extraño no es probable por el inicio progresivo y el resfrío común no causa tirajes ni taquipnea. La bronquitis en esta edad es rara y suele usarse el término bronquiolitis.
+
+### END-015 | Hipercolesterolemia familiar | 2021
+Mujer de 21 años, con perfil lipídico: colesterol total 390 mg/dl, triglicéridos 125 mg/dl, HDL 45 mg/dl y LDL 320 mg/dl. Al examen: xantomas en talón de Aquiles y extensores de las manos. Padre con colesterol y LDL muy aumentados. Hermana con colesterol de 400 mg/dl. Madre y hermano sin alteraciones. ¿Cuál es el trastorno más probable?
+   A) Hipercolesterolemia poligénica
+   B) Hiperlipidemia familiar combinada
+  *C) Hipercolesterolemia familiar
+   D) Hipertrigliceridemia familiar
+   E) Disbetalipoproteinemia
+EXP: Los niveles de colesterol total y LDL son sumamente elevados, con HDL y triglicéridos normales. Además, hay hallazgos clínicos típicos como xantomas tendinosos y antecedentes familiares marcados. Estos datos son altamente sugerentes de una hipercolesterolemia familiar, trastorno genético autosómico dominante, usualmente por mutaciones en el gen del receptor LDL. La forma poligénica y combinada no explican cifras tan altas ni los xantomas.
+
+### GIN-058 | Tricomoniasis | 2021
+Mujer de 22 años consulta por flujo vaginal amarillento, espumoso, con mal olor y prurito vaginal. Al examen: se encuentra colpitis en fresa. ¿Cuál es el agente causal?
+   A) Gardnerella vaginalis
+  *B) Trichomonas vaginalis
+   C) Herpes simple
+   D) Candida albicans
+   E) Chlamydia trachomatis
+EXP: La paciente tiene un cuadro típico de tricomoniasis vaginal: flujo amarillo espumoso, maloliente y prurito, junto con el hallazgo clínico característico de “colpitis en fresa” (aspecto punteado del cuello uterino). El agente causal es Trichomonas vaginalis, un protozoo flagelado. Gardnerella se asocia más con vaginosis bacteriana (olor a pescado), Candida con flujo blanco grumoso y Herpes con úlceras dolorosas.
+
+### CB-022 | Intoxicación por benzodiacepinas: flumazenil | 2021
+Varón de 28 años, llevado a emergencia por los bomberos, quienes refieren haberlo encontrado "tirado en la calle". Al examen: FC 62 x', FR 12 x', SatO₂ 90%, T° 35.6 °C, PA 100/60 mmHg, soporoso, pupilas fotoreactivas. Se le administra flumazenilo 0.2 mg EV y el paciente despierta. ¿Qué sustancia química ingirió el paciente?
+   A) Alcohol
+   B) Antidepresivos
+   C) Morfina
+  *D) Benzodiacepinas
+   E) Cocaína
+EXP: El cuadro clínico del paciente es de depresión del sensorio con signos vitales relativamente estables, acompañado de una mejoría inmediata tras la administración de flumazenilo, un antagonista específico de las benzodiacepinas. Esta respuesta positiva confirma que la causa del estado soporoso fue el consumo de esta clase de fármacos. El alcohol y la morfina no responden al flumazenilo, y los antidepresivos tampoco tienen un antídoto específico con esta respuesta clínica. Además, la saturación algo baja y la bradicardia leve son hallazgos compatibles con intoxicación por benzodiacepinas.
+
+### HEM-013 | Linfoma: biopsia ganglionar | 2021
+Varón de 60 años, consulta por aparición de tumoraciones cervicales y axilares indoloras. Al examen: PA 110/70 mmHg, FC 89 x', T° 38.9 °C, se palpan adenopatías cervicales y axilares indoloras, de consistencia elástica. Resto sin alteraciones. ¿Cuál es el procedimiento más recomendable para el diagnóstico?
+  *A) Extirpación de ganglio cervical y estudio anatomopatológico
+   B) Tomografía de tórax, abdomen y pelvis
+   C) Biopsia de médula ósea por aspiración
+   D) Endoscopía digestiva y fibrobroncoscopía pulmonar
+   E) Punción aspirativa con aguja fina
+EXP: Las adenopatías generalizadas, indoloras, elásticas y persistentes, especialmente en pacientes mayores con fiebre, orientan hacia un probable linfoma. Para establecer el diagnóstico definitivo, se requiere un estudio histopatológico del ganglio linfático completo, ya que la punción o biopsia por aspiración no permite evaluar la arquitectura ganglionar. Por ello, el paso más recomendable es la extirpación total del ganglio cervical y su análisis anatomopatológico.
+
+### SP-043 | Estudio experimental | 2021
+Se desea estudiar el impacto de elaborar preguntas de opción múltiple con 3 alternativas de respuesta versus 5 alternativas. ¿Qué tipo de diseño de investigación debe aplicarse?
+  *A) Estudio experimental
+   B) Casos y controles
+   C) Estudio descriptivo
+   D) Estudio de cohortes
+   E) Estudio ecológico
+EXP: La investigación que compara el impacto de utilizar preguntas con tres alternativas versus cinco, está analizando el efecto de una intervención específica (tipo de pregunta) sobre un resultado (comprensión, rendimiento o eficacia). Este enfoque implica manipulación deliberada de una variable independiente y medición de su efecto en una variable dependiente, lo cual caracteriza un estudio experimental. Este tipo de diseño permite establecer relaciones causales, a diferencia de los estudios observacionales qu e solo permiten asociaciones. Además, el investigador tiene control sobre la asignación de los grupos, lo cual refuerza la validez interna del estudio.
+
+### OFT-014 | Otitis media aguda en el lactante: otoscopía | 2021
+Lactante de 8 meses, traído a consulta por presentar desde hace 5 días fiebre, rinorrea y tos esporádica. Hoy el niño presenta llanto constante, rechaza la alimentación y se golpea compulsivamente con ambas manos las orejas. ¿Qué examen confirmaría el diagnóstico?
+  *A) Otoscopía
+   B) Visualización de la faringe
+   C) Auscultación de los pulmones
+   D) Búsqueda de reflejo rojo
+   E) Radiografía de senos paranasales
+EXP: Un lactante de 8 meses con fiebre, rechazo a la alimentación y signos de dolor auricular como el llanto constante y golpearse las orejas, sugiere un cuadro de otitis media aguda. Para confirmar este diagnóstico, el examen más específico y diagnóstico es la otoscopía, que permite visualizar el estado de la membrana timpánica (opacidad, abombamiento, pérdida del reflejo luminoso, entre otros). La visualización de la faringe o la auscultación pulmonar pueden ser útiles para descartar otros diagnósticos diferen ciales, pero no confirman el proceso infeccioso en oído medio.
+
+### NRL-017 | Síndrome de Brown-Séquard | 2021
+Varón de 22 años, trasladado por el SAMU por sufrir asalto con arma blanca. Al examen: herida profunda sangrante en la nuca. No puede movilizar el hemicuerpo derecho y la sensibilidad está afectada en el lado contralateral. ¿Qué estudio es recomendable para el diagnóstico?
+   A) Ecografía de partes blandas
+   B) Gammagrafía cervical
+   C) TAC cervical contrastada
+  *D) Resonancia magnética cervical
+   E) Radiografía simple de columna cervical
+EXP: El paciente presenta signos clínicos de un síndrome medular hemiseccional (Brown-Séquard), caracterizado por parálisis ipsilateral y pérdida de sensibilidad contralateral, típicamente tras un trauma penetrante como herida por arma blanca. El examen de elección en este caso es la resonancia magnética cervical, ya que permite una valoración detallada de la médula espinal y sus estructuras adyacentes. Una tomografía puede ayudar a ver estructuras óseas o cuerpos extraños, pero la RM es superior para valorar el compromiso medular. Es importante actuar con rapidez, pues el pronóstico neurológico depende de una intervención precoz.
+
+### PED-068 | Maltrato infantil: lesiones de distinta antigüedad | 2021
+Lactante de 1 año con rechazo al alimento desde hace 1 mes. Al examen: desnutrido, pálido, cefalohematoma parietal izquierdo, piernas con lesiones hipocrómicas curvadas de 0.8 y 10 mm de longitud, manchas equimóticas redondeadas en muslos y zona escrotal. ¿Cuál es el diagnóstico probable?
+   A) Sepsis fulminante
+  *B) Maltrato infantil
+   C) Enfermedad de Kawasaki
+   D) Déficit de antitrombina
+   E) Púrpura de Henoch-Schönlein
+EXP: Lactante con signos clínicos compatibles con desnutrición y lesiones físicas sugestivas de traumatismos de diferente antigüedad. El cefalohematoma, equimosis redondeadas, lesiones lineales hipocrómicas en extremidades y zona escrotal son hallazgos clásicos que deben alertar ante la posibilidad de maltrato infantil. La localización, forma y patrón de las lesiones no son típicos de caídas accidentales. La desnutrición y el rechazo alimentario también son comunes en estos casos. El enfoque clínico debe ser integral, con intervención del equipo de salud mental y social, y notificación obligatoria por sospecha.
+
+### PED-069 | Sepsis neonatal temprana | 2021
+Recién nacido de 3500 g con hipotermia, débil succión, hipoactividad, signos de dificultad respiratoria, polipneico y tiraje subcostal. Leucocitos 3000 x mm³. Relación abastonados/neutrófilos de 0.3. ¿Cuál es el tratamiento de primera elección luego de la toma de cultivos?
+   A) Ceftriaxona + amikacina
+  *B) Ampicilina + amikacina
+   C) Vancomicina + cefotaxima
+   D) Ampicilina + cefotaxima
+   E) Amoxicilina oral
+EXP: Recién nacido con síntomas compatibles con sepsis neonatal temprana: hipoactividad, dificultad respiratoria, leucopenia y desviación izquierda (reación abastonados/neutrófilos >0.2). Ante este cuadro clínico, el manejo inmediato tras la toma de hemocultivos es iniciar antibióticos empíricos de amplio espectro. El esquema más recomendado en este contexto es ampicilina + amikacina, porque cubre gérmenes comunes como Streptococcus agalactiae, E. coli y otros gramnegativos. La ceftriaxona no se recomienda en neonatos por el riesgo de precipitación con el calcio. El uso de vancomicina se reserva para casos refractarios o sospecha de germen multirresistente.
+
+### SP-044 | Gestión en salud: liderazgo | 2021
+La enfermera comunica al médico jefe que va a devolver las vacunas para el Covid-19 porque la población no solicita su aplicación. El médico encuentra que el 90% de la población ha recibido la primera y segunda dosis, y solo el 30% la tercera dosis. Convoca a todo el personal para formar brigadas de vacunación a domicilio. La campaña resulta exitosa y se logra la cobertura. ¿Qué habilidad de gestión ha aplicado en este nivel el médico jefe?
+   A) Comunicación
+   B) Profesionalismo
+   C) Adaptación al cambio
+  *D) Liderazgo
+   E) Negociación
+EXP: El médico jefe demuestra una clara capacidad de convocatoria, toma de decisiones y movilización del equipo de salud en función de una meta sanitaria concreta: mejorar la cobertura vacunal de la tercera dosis contra la COVID-19. Al asumir el liderazgo y organizar brigadas extramurales, no solo responde ante la falta de demanda, sino que promueve una estrategia activa, efectiva y territorializada. Esta capacidad de guiar, motivar e inspirar a su equipo hacia un objetivo común es característica fundamental del liderazgo, más allá de la mera comunicación o adaptación.
+
+### SP-045 | Mordeduras de perro: coordinación intersectorial | 2021
+Al servicio de urgencia del centro de salud acude un número de personas por mordedura de perro. Refieren que son perros callejeros y no es posible su captura, ante eso el médico jefe decide realizar una coordinación intersectorial. ¿A qué institución deberá convocar prioritariamente?
+  *A) Municipalidad
+   B) Fiscalía de prevención
+   C) Policía Nacional
+   D) Dirección de educación
+   E) Ministerio de Agricultura
+EXP: Ante una situación que involucra un riesgo sanitario colectivo, como múltiples mordeduras de perros callejeros, la intervención no puede limitarse al sector salud. El abordaje efectivo requiere de acciones conjuntas y sostenidas, como el control de animales sin dueño, la vigilancia en las calles y campañas de educación comunitaria. La municipalidad es la entidad responsable de la gestión territorial, el control de animales callejeros y la salud ambiental, por lo tanto, es el primer aliado estratégico que se debe convocar para coordinar acciones inmediatas y sostenidas.

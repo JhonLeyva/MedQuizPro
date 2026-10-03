@@ -1,0 +1,224 @@
+### GIN-025 | Hemorragia uterina anormal | 2020
+Mujer de 62 años, acude a consulta por sangrado ginecológico de 5 días de evolución. Ecografía transvaginal: endometrio de 8 mm y PAP normal. ¿Cuál es el siguiente paso a seguir?
+   A) Prescribir progestágenos
+  *B) Biopsia de endometrio
+   C) Histerectomía laparoscópica
+   D) Histerectomía abdominal
+   E) Repetir ecografía en 1 año
+EXP: Toda metrorragia en la posmenopausia con grosor endometrial ecográfico mayor o igual a 4-5 mm tiene indicación obligatoria de biopsia endometrial para descartar hiperplasia con atipia o adenocarcinoma de endometrio.
+
+### CAR-010 | Endocarditis infecciosa | 2020
+Varón de 45 años presenta fiebre continua desde hace 6 semanas. Antecedente de fiebre reumática en la infancia, hace dos meses extracción dentaria. Al examen: soplo sistólico III/VI en foco mitral, hemiparesia izquierda faciobraquiocrural. Lab: VSG 100 mm/h. ¿Cuál sería el examen más adecuado para definir su diagnóstico?
+  *A) Ecocardiografía transesofágica
+   B) Electrocardiograma
+   C) RMN encéfalo
+   D) TEM cerebral
+   E) Ecocardiograma
+EXP: Ante la sospecha de endocarditis infecciosa subaguda complicada con embolia sistémica en paciente con valvulopatía preexistente, la ecocardiografía transesofágica (ETE) es el método de máxima sensibilidad diagnóstica para visualizar vegetaciones y complicaciones perivalvulares.
+
+### GIN-026 | Semiología obstétrica | 2020
+Primigesta de 30 años, no recuerda la fecha de su última menstruación. Al examen se palpa fondo uterino a nivel de borde superior del pubis. ¿Cuántas semanas de gestación calcula?
+  *A) 12
+   B) 18
+   C) 9
+   D) 15
+   E) 24
+EXP: El fondo uterino se vuelve un órgano pelviabdominal y emerge por encima de la sínfisis púbica alcanzando su borde superior a las 12 semanas de edad gestacional.
+
+### PED-032 | Hepatitis virales | 2020
+Escolar de 12 años, consume alimentos en la puerta del colegio, toma agua sin hervir, tiene malos hábitos de higiene y vacunación incompleta. Consulta por presentar desde hace dos días fiebre, discreto dolor abdominal y orina colúrica. ¿Cuál es el diagnóstico más probable?
+   A) Brucelosis
+  *B) Hepatitis A
+   C) Fiebre tifoidea
+   D) Leptospirosis
+   E) Colecistitis aguda
+EXP: La transmisión fecal-oral por ingesta de agua o alimentos contaminados que debuta con pródromos febriles, malestar y signos de colestasis/hepatocelular aguda (coluria e ictericia) en edad escolar corresponde a hepatitis viral tipo A.
+
+### GIN-027 | Parto pretérmino | 2020
+Primigesta de 33 semanas refiere dolor pélvico tipo cólico menstrual 1 cada 10 a 15 minutos y pérdida de tapón mucoso sanguinolento. Tacto vaginal: cérvix anterior, blando de 1 cm de longitud, dilatación 0. ¿Cuál es el diagnóstico probable?
+   A) Falsa labor de parto
+   B) Labor de parto prematuro
+  *C) Amenaza parto prematuro
+   D) Contracciones de Braxton Hicks
+   E) Trabajo de parto en fase activa
+EXP: Contracciones uterinas regulares y dolorosas antes de las 37 semanas con borramiento cervical incipiente pero sin dilatación cervical activa configurada define a la amenaza de parto pretérmino.
+
+### INF-010 | Dengue | 2020
+Varón de 45 años procedente de Madre de Dios, acude a emergencia por fiebre continua de 38.5°C, dolor retroocular, sangrado nasal, petequias y malestar general. ¿Cuál es el diagnóstico más probable?
+  *A) Dengue
+   B) Leishmania
+   C) Malaria
+   D) Tuberculosis
+   E) Leptospirosis
+EXP: En zona endémica amazónica, el cuadro agudo febril con mialgias intensas, dolor retroorbitario y manifestaciones hemorrágicas espontáneas (epistaxis, petequias) orienta al diagnóstico de dengue con signos de alarma.
+
+### CAR-011 | Insuficiencia cardíaca congestiva | 2020
+Varón de 70 años, desde hace 3 semanas refiere disnea a medianos esfuerzos, edema de miembros inferiores, acude a emergencia porque se despierta bruscamente con dificultad para respirar. Al examen: FR 25xmin, P/A 130/90 mmHg, ortopnea, diaforesis, crepitantes tercios medios bilaterales, ruidos cardíacos arrítmicos, ingurgitación yugular, dolor en hipocondrio derecho. ¿Cuál es el tratamiento farmacológico inicial?
+   A) Digitálicos
+   B) Inotrópicos
+  *C) Diuréticos
+   D) Vasodilatadores
+   E) Betabloqueadores
+EXP: El manejo médico inmediato en la insuficiencia cardíaca aguda descompensada congestiva (congestión pulmonar y sobrecarga hidrosalina) se basa en la administración endovenosa de diuréticos del asa (Furosemida) para reducir la precarga.
+
+### NEU-005 | Enfermedades pulmonares intersticiales | 2020
+Varón de 56 años consulta por disnea progresiva, tos no productiva persistente desde hace 1 año; niega exposición a polvos orgánicos e inorgánicos. A la auscultación presenta crepitantes en bases y algunos sibilantes espiratorios. ¿Cuál es la primera posibilidad diagnóstica?
+  *A) Enfermedad pulmonar intersticial
+   B) Fibrosis quística
+   C) Asma alérgica no controlada
+   D) Enfermedad pulmonar obstructiva crónica
+   E) Bronquiectasias
+EXP: La disnea lentamente progresiva asociada a tos seca crónica y estertores crepitantes tipo "velcro" teleinspiratorios bibasales en un paciente sin exposiciones ocupacionales orienta como primera opción a enfermedad pulmonar intersticial difusa.
+
+### GIN-028 | Hemorragias del primer trimestre | 2020
+Mujer de 25 años refiere atraso menstrual de dos semanas, acude por sangrado vaginal escaso. Al examen: útero de 8 cm, cérvix con orificios cerrados y evidencia de sangrado. ¿Cuál es el manejo más adecuado?
+   A) Reposo absoluto
+   B) Administrar corticoides
+   C) Prescribir progesterona
+  *D) Ecografía transvaginal
+   E) Legrado uterino inmediato
+EXP: Ante todo sangrado de la primera mitad del embarazo con cuello uterino cerrado, la conducta diagnóstica inicial prioritaria es la ecografía transvaginal para evaluar la vitalidad del saco y la localización intra o extrauterina del embrión.
+
+### CAR-007 | Valvulopatías | 2020
+Mujer de 50 años, con antecedentes de amigdalitis supurada repetida en adolescencia. Presenta disnea a medianos esfuerzos. Al examen: PA 110/60 mmHg, FC 80x', pulso deficitario, soplo diastólico mitral. ¿Cuál es el fármaco de elección para la prevención de eventos cardioembólicos?
+   A) Digoxina
+   B) Clopidogrel
+  *C) Warfarina
+   D) Bisoprolol
+   E) Aspirina
+EXP: La estenosis mitral reumática asociada a fibrilación auricular (pulso deficitario) requiere anticoagulación oral de elección con antagonistas de vitamina K (Warfarina) para la prevención de eventos cardioembólicos sistémicos.
+
+### CAR-008 | Arritmias ventriculares y Chagas | 2020
+Varón de 58 años, del sur del Perú, acude por palpitaciones seguidas de síncope. EKG: taquicardia ventricular no sostenida con bloqueo completo de rama derecha. Se sospecha miocardiopatía. ¿Cuál es la primera terapia de elección?
+   A) Propafenona
+   B) Betabloqueadores
+  *C) Amiodarona
+   D) Desfibrilador automático
+   E) Verapamilo
+EXP: La miocardiopatía chagásica crónica predispone a taquiarritmias ventriculares malignas sobre daño estructural; el antiarrítmico de clase III de primera elección para el control de la taquicardia ventricular es la amiodarona.
+
+### CIR-009 | Isquemia arterial aguda | 2020
+Mujer de 90 años, hipertensa, con fibrilación auricular en tratamiento irregular, acude a emergencia con frialdad, cianosis y necrosis en pie izquierdo, ausencia de pulsos y pérdida de movilidad en dedos y tobillo. ¿Cuál es el tratamiento de elección?
+  *A) Amputación primaria
+   B) Bypass distal
+   C) Trombectomía urgente
+   D) Heparina en infusión
+   E) Fibrinólisis intraarterial
+EXP: La presencia de necrosis establecida y parálisis funcional motora irreversible (Rutherford categoría III) contraindica la revascularización por riesgo de síndrome de reperfusión letal; la indicación mandatoria es la amputación primaria.
+
+### CIR-010 | Complicaciones postoperatorias de pared abdominal | 2020
+Varón de 35 años, en 4º día postoperatorio de hernioplastia inguinal derecha, presenta dolor testicular y aumento de volumen escrotal. ¿Cuál es la complicación más probable?
+   A) Hernia inguinal recidivada
+  *B) Orquitis isquémica
+   C) Torsión testicular
+   D) Absceso testicular
+   E) Hidrocele postoperatorio
+EXP: La orquitis isquémica es secundaria a la trombosis del plexo pampiniforme o lesión vascular del cordón espermático durante la disección del saco herniario.
+
+### CIR-011 | Trauma abdominal | 2020
+Varón de 67 años en emergencia por accidente de tránsito. Glasgow 14, FC 100x', FR 16x', pulmones sin ruidos agregados, abdomen distendido y doloroso, ruidos hidroaéreos ausentes. ¿Cuál es la primera sospecha?
+   A) Neumotórax traumático
+  *B) Traumatismo abdominal cerrado
+   C) Hemorragia pericárdica
+   D) Distrés respiratorio agudo
+   E) Fractura de pelvis
+EXP: La distensión, el dolor y la abolición del peristaltismo (íleo reflejo) tras una colisión vehicular cerrada señalan compromiso intraperitoneal compatible con traumatismo abdominal cerrado con hemoperitoneo o perforación visceral.
+
+### CIR-012 | Patología anorrectal | 2020
+Varón de 54 años con dolor perianal y herida que drena pus desde hace 7 días. Hace 4 meses fue drenado por absceso perianal. Examen: posición genupectoral, a las 3 h: orificio con salida purulenta. ¿Cuál es el diagnóstico más probable?
+  *A) Fístula perianal
+   B) Quiste pilonidal fistulizado
+   C) Carcinoma anal
+   D) Fisura anal
+   E) Hemorroide externa trombosada
+EXP: El drenaje persistente o recurrente de material purulento por un orificio externo perianal tras un antecedente de absceso anorrectal drenado constituye la evolución típica de una fístula perianal crónica.
+
+### GAS-006 | Hemorragia digestiva alta | 2020
+Varón de 45 años con epigastralgia desde hace una semana, que calma con alimentos y antiácidos. Desde ayer presenta heces negras. ¿Cuál es el diagnóstico más probable?
+   A) Reflujo gastroesofágico
+   B) Gastritis aguda
+  *C) Úlcera gastroduodenal
+   D) Esófago de Barrett
+   E) Várices esofágicas
+EXP: El dolor epigástrico rítmico que calma con la ingesta y la aparición de melena orientan hacia una hemorragia digestiva alta secundaria a úlcera gastroduodenal activa.
+
+### GAS-007 | Hemorragia digestiva variceal | 2020
+Varón de 48 años, acude a emergencia por dolor, distensión abdominal y hematemesis de aproximadamente 1,200 ml. Antecedente: alcoholismo crónico. Al examen: PA 80/50 mmHg, FC 110x', palmas hepáticas, ictericia, Traube ocupado. ¿Cuál es el diagnóstico más probable?
+   A) Cáncer gástrico
+   B) Síndrome Mallory Weiss
+   C) Diverticulosis
+  *D) Várices esofágicas sangrantes
+   E) Úlcera duodenal sangrante
+EXP: Los estigmas de hepatopatía crónica (palmas hepáticas, esplenomegalia) asociados a hemorragia digestiva alta masiva e inestabilidad hemodinámica corresponden a sangrado por várices esofágicas por hipertensión portal.
+
+### GIN-014 | Hemorragias de la primera mitad del embarazo | 2020
+Gestante de 9 semanas presenta dolor hipogástrico leve y sangrado vaginal escaso desde hace 6 horas. G3P2002. Cérvix cerrado. Ecografía: gestación intrauterina única con latido fetal 165 lpm. ¿Cuál es el diagnóstico?
+   A) Aborto en curso
+  *B) Amenaza de aborto
+   C) Aborto inevitable
+   D) Aborto frustro
+   E) Aborto incompleto
+EXP: Metrorragia en la primera mitad del embarazo con cuello uterino cerrado, membranas íntegras y embrión vital con frecuencia cardíaca verificada corresponde a una amenaza de aborto.
+
+### GIN-015 | Miomatosis uterina | 2020
+Mujer de 38 años con hipermenorrea desde hace 5 meses. G1P0010. Hb: 8 g/dL. Ecografía: mioma submucoso de 38 mm, no pediculado. ¿Cuál es el tratamiento de elección?
+  *A) Miomectomía histeroscópica
+   B) Laparotomía y miomectomía
+   C) Histerectomía total abdominal
+   D) Miomectomía laparoscópica
+   E) Ablación endometrial
+EXP: En mujeres en edad reproductiva que desean preservar la fertilidad con miomas submucosos sintomáticos endocavitarios (< 4-5 cm), la vía de abordaje estándar de elección es la miomectomía por histeroscopia.
+
+### INF-006 | Leishmaniasis | 2020
+Varón mordido por flebótomo en la selva, 7 días después aparece lesión ulcerada con bordes elevados y duros, base limpia en pierna izquierda. Se sospecha leishmaniasis cutánea. ¿Cuál es el tratamiento inicial de elección?
+   A) Miltefosina
+   B) Anfotericina B
+   C) Paromomicina
+  *D) Antimonio pentavalente
+   E) Ivermectina
+EXP: En el Perú, la norma técnica nacional establece que los antimoniales pentavalentes (antimoniato de meglumina o estibogluconato de sodio) continúan siendo el tratamiento de primera línea de elección para la leishmaniasis cutánea.
+
+### INF-007 | Malaria | 2020
+Varón de 60 años de Iquitos, acude con fiebre alta, escalofríos, cefalea, dolor abdominal, mialgias. Examen: pálido, ictérico, picaduras en extremidades, esplenomegalia. Hb: 7 g/dL. ¿Cuál es el diagnóstico más probable?
+   A) Zika
+   B) Leptospirosis
+   C) Dengue
+  *D) Malaria
+   E) Fiebre amarilla
+EXP: Fiebre paroxística con escalofríos, ictericia hemolítica, anemia grave y esplenomegalia en un paciente procedente de la Amazonía peruana (Iquitos) señalan el diagnóstico presuntivo de malaria.
+
+### NEF-005 | Síndrome nefrótico | 2020
+Niño de 6 años con edema bipalpebral y pretibial, sedimento urinario con proteínas (+++), filtración glomerular 90 ml/min/1.73m2, albúmina sérica 2 g/dL, creatinina 0.8 mg/dL y sodio 130 mEq/L. ¿Cuál es el diagnóstico?
+   A) Insuficiencia renal aguda
+   B) Insuficiencia renal crónica
+   C) Síndrome nefrítico
+  *D) Síndrome nefrótico
+   E) Glomerulonefritis postestreptocócica
+EXP: La proteinuria masiva (+++), hipoalbuminemia marcada (< 2.5-3 g/dL) y edema generalizado en un escolar con función renal conservada y sin hematuria constituyen los criterios de síndrome nefrótico.
+
+### NEF-006 | Insuficiencia renal aguda | 2020
+Obrero traído a emergencia tras sufrir aplastamiento por caída de pared. Llega inconsciente con múltiples hematomas en tórax y miembros. Dos días después presenta 200 ml de orina en 24 h, creatinina 2.4 mg/dL, ácido úrico 10 mg/dL, CPK: 1,500 U/L. ¿Cuál es el diagnóstico probable?
+  *A) Fracaso renal por rabdomiólisis
+   B) Fracaso renal por uratos
+   C) Azoemia prerrenal
+   D) Necrosis tubular aguda
+   E) Nefritis intersticial aguda
+EXP: El síndrome de aplastamiento muscular masivo provoca liberación desmedida de mioglobina con elevación de CPK, precipitando toxicidad tubular directa e insuficiencia renal aguda por rabdomiólisis.
+
+### NEF-007 | Glomerulopatías | 2020
+Mujer de 38 años con edema progresivo de piernas y orina espumosa desde hace un mes. PA: 130/80 mmHg. Anasarca. Albuminuria 3.9 g/día, albúmina sérica 2.9 g/dL, triglicéridos 400 mg/dL. ¿Cuál es el diagnóstico más probable?
+  *A) Síndrome nefrótico
+   B) Necrosis tubular aguda
+   C) Pielonefritis crónica
+   D) Síndrome nefrítico
+   E) Glomerulonefritis rápidamente progresiva
+EXP: Proteinuria en rango nefrótico (> 3.5 g/24 horas), hipoalbuminemia, hipertrigliceridemia y anasarca configuran el diagnóstico de síndrome nefrótico.
+
+### NEU-003 | Asma bronquial | 2020
+Varón de 20 años diagnosticado con asma, que, pese a tratamiento con salbutamol, presenta exacerbaciones frecuentes. Actualmente está asintomático. ¿Qué medicación debe agregarse?
+   A) Aminofilina
+  *B) Corticoide inhalado
+   C) Cromoglicato
+   D) Anti-IgE
+   E) Antibiótico profiláctico
+EXP: En pacientes con asma no controlada con agonistas beta-2 de acción corta a demanda, la base de la terapia de mantenimiento para controlar la inflamación bronquial es el corticoide inhalado (ej. budesónida o fluticasona).

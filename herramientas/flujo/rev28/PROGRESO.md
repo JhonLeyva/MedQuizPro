@@ -1,0 +1,8 @@
+# Revisión completa por entregas de 500 (pedido 3-oct-2026)
+Entrega 1 = primeros 500 de algoritmos.js (bloques 1-5). Lista en `rev28/entrega1.json`; fichas en `rev28/tNN.txt` (25 c/u).
+Contenido en `content28a.py` (t00), `content28b.py` (t01)… Construir: `python3 build28.py <out> [IDs]` → `node check27.cjs <out>/flujogramas <out>/png`.
+Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `img/cm.py` (buscar/info), `img/wm.py` (bajar), `img/grid.py` (cuadrícula), `img/prep28.py` (recortes).
+
+| Tanda | Archivo | Estado |
+|---|---|---|
+| t00 | content28a.py | hecha, 0 problemas |

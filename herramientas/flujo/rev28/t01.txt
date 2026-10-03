@@ -1,0 +1,224 @@
+### GIN-007 | Infecciones urinarias en la gestación | 2020
+Gestante de 30 semanas, súbitamente presenta dolor en ambas regiones lumbares, fiebre, anorexia, náuseas y vómitos. Al examen puño percusión lumbar positiva. ¿Cuál es el diagnóstico probable?
+   A) Quiste de ovario a pedículo torcido
+   B) Cistitis
+   C) Apendicitis aguda
+  *D) Pielonefritis aguda
+   E) Litiasis renal
+EXP: Síntomas sistémicos (fiebre, vómitos) asociados a dolor lumbar y puñopercusión positiva en el embarazo configuran el cuadro clásico de pielonefritis aguda, infección urinaria alta.
+
+### OFT-003 | Glaucoma | 2020
+Recién nacido de 2 semanas con epífora, fotofobia y disminución del brillo corneal. Al examen: presión intraocular elevada, nervio óptico con depresión marcada. ¿Cuál es el tratamiento indicado?
+   A) Trabeculoplastia
+  *B) Goniotomía
+   C) Dacriorrinocistostomía
+   D) Iridectomía
+   E) Colirio de timolol de por vida como único tratamiento
+EXP: Epífora, fotofobia, blefaroespasmo y edema corneal (pérdida de brillo) junto a hipertensión ocular definen el glaucoma congénito. Su tratamiento de elección es netamente quirúrgico mediante goniotomía.
+
+### INF-004 | Infecciones de Transmisión Sexual | 2020
+Mujer de 30 años, trabajadora sexual, último control sanitario hace 3 meses sin alteraciones. Desde hace 7 días lesión ulcerativa, indolora en labio menor izquierdo con flujo genital amarillento. RPR: negativa. ¿Cuál es el diagnóstico?
+   A) Herpes genital
+  *B) Chancro luético
+   C) Quiste de Bartholino
+   D) Vulvovaginitis mixta
+   E) Chancroide
+EXP: Una úlcera genital única, de base limpia e indolora sugiere fuertemente chancro sifilítico (sífilis primaria). El RPR puede ser falso negativo en estadios muy tempranos antes de la seroconversión.
+
+### END-003 | Emergencias tiroideas | 2020
+Mujer 35 años, acude a emergencia por severo trastorno confusional agudo. Desde hace 6 meses nerviosismo, palpitaciones. Al examen: PA: 160/80 mmHg, FC: 130 x min, T: 39.5 °C, exoftalmos, glándula tiroidea aumentada de volumen. ¿Cuál es el diagnóstico más probable?
+   A) Tiroiditis de Hashimoto
+  *B) Tormenta tiroidea
+   C) Tirotoxicosis apática
+   D) Hipertiroidismo
+   E) Feocromocitoma
+EXP: Cuadro de hipertiroidismo de base (Graves) que se descompensa con fiebre alta, taquicardia severa y trastorno del sensorio, configurando una emergencia endocrinológica llamada tormenta tiroidea.
+
+### GAS-003 | Pancreatitis crónica | 2020
+Varón de 56 años, desde hace 6 meses dolor abdominal intenso y continuo que no cede con analgésicos. Antecedente: alcoholismo crónico y pancreatitis crónica. ¿Cuál es la medida más adecuada para el manejo del dolor?
+  *A) Bloqueo neuronal visceral
+   B) Inhibidores de la COX-2
+   C) Opioides de larga duración
+   D) Colocación de endoprótesis
+   E) Pancreatectomía total
+EXP: En pancreatitis crónica avanzada con dolor abdominal refractario a escalones analgésicos convencionales, está indicado el bloqueo del plexo celíaco (bloqueo neuronal visceral) para el control del dolor.
+
+### PED-007 | Inmunizaciones | 2020
+Recién nacido de 8 horas, producto de parto domiciliario, es traído al establecimiento de salud. Al examen: 2700 g de peso y no se evidencia alteraciones. Queda con la madre en alojamiento conjunto. ¿Qué vacunas se indican en este caso?
+  *A) BCG, HvB
+   B) IPV, Rotavirus
+   C) APO, SPR
+   D) DPT, VPH
+   E) Pentavalente y neumococo
+EXP: A todo recién nacido con peso adecuado (>2000g) y asintomático, el esquema nacional de vacunación indica la administración de las vacunas BCG (tuberculosis) y HvB (Hepatitis B) en las primeras 24 horas de vida.
+
+### PSI-002 | Trastornos de ansiedad | 2020
+Mujer de 25 años que acude a emergencia por episodios de palpitaciones, falta de aire, temblor, miedo a morir, parestesias y dolor en el pecho. Laboratorio: gases arteriales y EKG normales. Ha tenido 6 episodios en 2 meses. ¿Cuál es el diagnóstico probable?
+   A) Esquizofrenia simple
+   B) Trastorno bipolar
+  *C) Trastorno de pánico
+   D) Agitación psicomotriz
+   E) Hipertiroidismo
+EXP: Los síntomas físicos abruptos (palpitaciones, disnea, dolor torácico) acompañados de intenso miedo a morir, de carácter episódico recurrente y sin etiología orgánica (EKG normal), corresponden al trastorno de pánico.
+
+### PED-008 | Obstrucción intestinal neonatal | 2020
+RN de 24 horas de vida, no ha eliminado meconio. Al examen: distensión abdominal discreta y ano permeable. ¿Cuál es el diagnóstico probable?
+   A) Megacolon agangliónico
+   B) Fibrosis quística
+   C) Hipotiroidismo
+  *D) Tapón meconial
+   E) Atresia anal
+EXP: El retraso en la evacuación de meconio (>24h) con ano permeable y distensión abdominal leve, en un contexto neonatal temprano, orienta como primera causa funcional al síndrome de tapón meconial.
+
+### NEF-003 | Infecciones del tracto urinario | 2020
+Mujer de 36 años acude a emergencia por presentar desde hace 6 días escalofríos, sensación de alza térmica, náuseas, malestar general y dolor lumbar derecho. Al examen: T: 38.5 °C, dolor difuso leve en abdomen. Examen de orina: presencia de nitritos. ¿Cuál es el diagnóstico?
+   A) Cistitis
+   B) Vaginitis
+  *C) Pielonefritis
+   D) Uretritis
+   E) Apendicitis aguda
+EXP: Los síntomas sistémicos severos (fiebre, escalofríos, malestar) más dolor en flanco/lumbar y nitritos positivos (marcador de enterobacterias) configuran el diagnóstico de pielonefritis aguda (ITU alta).
+
+### END-004 | Diabetes Mellitus | 2020
+Mujer de 48 años que acude a consulta por poliuria, polifagia desde hace 2 meses, obesa, con antecedente de padres diabéticos. Se requiere valorar la secreción máxima de insulina. ¿Cuál de las siguientes pruebas se solicitará?
+   A) Glicemia en ayunas
+   B) Péptido C
+  *C) Tolerancia oral a la glucosa
+   D) Hemoglobina glicosilada A1C
+   E) Insulina en ayunas
+EXP: Para evaluar de forma dinámica la capacidad de secreción máxima de insulina por las células beta pancreáticas frente a una sobrecarga directa, la prueba indicada es la prueba de tolerancia oral a la glucosa (PTOG).
+
+### PED-009 | Infecciones de vías respiratorias altas | 2020
+Lactante con rinorrea, congestión nasal y tos seca persistente. Tres días después, bruscamente irritable con llanto persistente, se coge la oreja derecha al parecer por dolor. ¿Cuál es el diagnóstico probable?
+   A) Adenitis
+   B) Otitis externa
+  *C) Otitis media aguda
+   D) Osteoma
+   E) Faringitis viral
+EXP: Cuadro de infección respiratoria alta viral que se complica a los pocos días con dolor de oído (otalgia reflejada por frotarse la oreja) e irritabilidad súbita, es la historia natural clásica de una Otitis Media Aguda (OMA) en lactantes.
+
+### NEU-002 | Tromboembolismo pulmonar | 2020
+Varón de 70 años, obeso mórbido, llega de viaje interprovincial. Acude a emergencia por disnea súbita desde hace 1 hora. Al examen: hipotenso, Homans (+), se muestra el EKG. ¿Cuál es la mejor opción terapéutica?
+  *A) Alteplase
+   B) Clopidogrel
+   C) Ácido acetilsalicílico
+   D) Warfarina
+   E) Heparina de bajo peso molecular sola
+EXP: Cuadro de tromboembolismo pulmonar (TEP) masivo sugerido por factores de riesgo (viaje largo, obesidad), signo de TVP (Homans) y descompensación hemodinámica (hipotensión). La terapia de elección es la reperfusión con trombolíticos (ej. Alteplase).
+
+### SP-004 | Principios bioéticos | 2020
+Personaje público llega en mal estado a emergencia por intento de suicidio. Un personal de salud le toma una fotografía y la publica en redes sociales. ¿Qué principio ético se ha vulnerado principalmente en este caso?
+   A) No maleficencia
+  *B) Autonomía
+   C) Beneficencia
+   D) Justicia
+   E) Confidencialidad no aplica a personajes públicos
+EXP: La publicación de imágenes de un paciente sin su consentimiento es una violación a su intimidad y confidencialidad médica, principios que derivan directamente del respeto a la Autonomía del paciente.
+
+### PED-010 | Infecciones respiratorias agudas | 2020
+Escolar de 6 años, desde hace 4 días presenta tos y fiebre. Al examen: T: 38.3 °C, FR: 22 x min, sin dificultad respiratoria. Se auscultan roncantes diseminados en ambos campos pulmonares, sin otros signos. ¿Cuál es el diagnóstico probable?
+  *A) Bronquitis aguda
+   B) Rinofaringitis aguda
+   C) Bronquiolitis
+   D) Bronconeumonía
+   E) Neumonía lobar
+EXP: Cuadro respiratorio agudo febril con hallazgos auscultatorios limitados a la vía aérea central (roncantes), sin signos de condensación alveolar ni taquipnea significativa, es sugerente de bronquitis aguda.
+
+### REU-004 | Reacciones adversas cutáneas | 2020
+Varón de 52 años, presenta por primera vez erupción fugaz de habones pruriginosos diseminados en toda la superficie corporal y una amplia placa edematosa en cara. ¿Cuál es el diagnóstico más probable?
+   A) Vasculitis urticarial
+   B) Eritema multiforme
+   C) Angioedema hereditario
+  *D) Urticaria aguda
+   E) Dermatitis de contacto
+EXP: La presencia de lesiones elevadas evanescentes, eritematosas y muy pruriginosas (habones) asociadas a edema facial angioedematoso, es el cuadro clínico definitorio de una urticaria aguda.
+
+### SP-005 | Promoción y prevención en adolescentes | 2020
+La directora del centro educativo, ubicado junto al centro de salud, informa que anualmente más del 5% de estudiantes de secundaria abandona los estudios por embarazo. Ante esta situación, ¿qué actividad promocional prioritaria debe realizar el equipo de salud?
+   A) Capacitación a docentes en métodos anticonceptivos
+   B) Consejería a las autoridades sanitarias
+   C) Entrega periódica de anticonceptivos
+  *D) Intervención educativa continua
+   E) Charla única al inicio del año escolar
+EXP: Ante altas tasas de embarazo adolescente y deserción escolar, la acción promocional prioritaria y sostenida es la implementación de intervenciones educativas continuas (educación sexual integral) para empoderar a los adolescentes.
+
+### GAS-004 | ERGE | 2020
+Varón de 35 años acude por presentar desde hace un mes pirosis, regurgitación ácida y tos nocturna que aumenta con la ingesta de café. Niega disfagia y pérdida de peso. IMC: 35. ¿Cuál es el diagnóstico más probable?
+   A) Espasmo esofágico distal
+   B) Divertículo de Zenker
+  *C) Enfermedad por reflujo gastroesofágico
+   D) Acalasia
+   E) Esofagitis eosinofílica
+EXP: Pirosis y regurgitación exacerbadas por factores relajantes del EEI (café) y aumento de presión intraabdominal (obesidad IMC 35) conforman la sintomatología típica de la Enfermedad por Reflujo Gastroesofágico (ERGE).
+
+### INF-005 | Infecciones oportunistas en VIH | 2020
+Varón de 42 años, con diagnóstico de VIH y abandono de tratamiento TARGA. Desde hace 2 semanas presenta disnea progresiva, fiebre, tos sin expectoración. Radiografía de tórax: infiltrado intersticial en bases pulmonares. DHL: elevada. ¿Cuál es el diagnóstico más probable?
+   A) Influenza
+  *B) Pneumocystosis
+   C) Tuberculosis pulmonar
+   D) Micosis pulmonar
+   E) Sarcoma de Kaposi pulmonar
+EXP: En un paciente con VIH sin tratamiento, la disnea insidiosa, tos seca, infiltrado intersticial bilateral en bases y DHL significativamente elevada apuntan clásicamente a neumonía por Pneumocystis jirovecii.
+
+### CIR-004 | Trauma torácico | 2020
+Varón de 18 años acuchillado en región infraclavicular derecha. Presenta disnea súbita, dolor torácico derecho. Examen: PA=80/40 mmHg, FC=110 x' ingurgitación yugular (+), tórax asimétrico, hemitórax derecho timpánico, murmullo vesicular ausente. ¿Cuál es el diagnóstico probable?
+   A) Enfisema subcutáneo
+  *B) Neumotórax a tensión
+   C) Derrame pleural
+   D) Hemotórax derecho
+   E) Taponamiento cardiaco
+EXP: El antecedente de trauma penetrante torácico asociado a shock obstructivo (hipotensión, taquicardia, ingurgitación yugular), junto con hemitórax hipersonoro/timpánico y murmullo ausente, es la presentación de un neumotórax a tensión.
+
+### GIN-008 | Embarazo prolongado e inducción | 2020
+Primigesta de 27 años con 41 semanas confirmadas. Feto en cefálica con bienestar fetal conservado. TV: cérvix posterior, largo, cerrado, incorporación 0%, consistencia dura. Altura de presentación: -4. ¿Cuál es la conducta a seguir?
+   A) Cesárea inmediata
+   B) Esperar parto espontáneo
+  *C) Maduración cervical
+   D) Inducción de trabajo de parto
+   E) Amniotomía
+EXP: Gestación en vías de prolongación (41 ss) con feto en buenas condiciones pero un score de Bishop desfavorable (cérvix duro, cerrado y posterior). La conducta es realizar primero maduración cervical farmacológica antes de la inducción.
+
+### SP-006 | Bioética e integridad científica | 2020
+Durante la epidemia causada por el virus H1N1, diversos expertos aseguraron que el oseltamivir era la mejor alternativa de tratamiento, sin declarar que habían recibido apoyo financiero del laboratorio que producía dicho medicamento. ¿Cómo se tipifica lo sucedido?
+   A) Ausencia de autocrítica
+  *B) Conflicto de intereses
+   C) Uso de principio de precaución
+   D) Vulneración del principio de autonomía
+   E) Error de medición
+EXP: Ocultar financiamiento por parte de un laboratorio farmacéutico al emitir recomendaciones médicas públicas o guías de práctica clínica constituye una falta grave definida como conflicto de intereses.
+
+### GIN-009 | Embarazo ectópico | 2020
+Mujer con antecedente de embarazo ectópico, acude a consulta por atraso menstrual de dos días y un test de B-HCG positivo. ¿Cuál es la conducta a seguir para evaluar viabilidad del producto?
+   A) Laparoscopía diagnóstica
+   B) Culdocentesis
+   C) B-HCG seriada
+  *D) Ecografía transvaginal
+   E) Histerosalpingografía
+EXP: Paciente con alto riesgo de recurrencia de ectópico con prueba de embarazo positiva. La ecografía transvaginal es el método gold standard para determinar precozmente la localización (intra o extrauterina) del saco gestacional.
+
+### REU-005 | Infecciones parasitarias de la piel | 2020
+Lactante de 8 meses con irritabilidad y prurito nocturno. Al examen: pápulas eritematosas, vesículas y pústulas en cara, tronco, palmas y plantas. Madre con lesiones similares. ¿Cuál es el diagnóstico?
+   A) Ectima
+  *B) Acarosis
+   C) Dermatitis
+   D) Impétigo
+   E) Varicela
+EXP: Prurito predominantemente nocturno, con lesiones papulovesiculares en palmas, plantas (distribución típica de lactantes) y antecedentes de contagio en convivientes (madre), es característico de acarosis (escabiosis).
+
+### GAS-005 | Cáncer colorrectal | 2020
+Mujer de 52 años, desde hace 6 meses dolor abdominal y alteración del ritmo defecatorio. Antecedente: madre con poliposis adenomatosa familiar. Thevenon y parásitos en heces negativos. Reacción inflamatoria: leucocitos de 1-10 x campo. ¿Qué examen es el indicado?
+  *A) Colonoscopia
+   B) Endoscopía alta
+   C) Cápsula endoscópica
+   D) Tomografía abdominal
+   E) Gastroscopía con biopsia
+EXP: Por los síntomas crónicos sugestivos de neoplasia, edad >50 años y el antecedente genético de alto riesgo (poliposis familiar), el estudio de elección obligatoria es la colonoscopia total para despistaje de cáncer colorrectal.
+
+### CIR-005 | Quemaduras | 2020
+¿Cuál es la conducta inicial para disminuir la profundidad de una quemadura en los primeros minutos?
+   A) Hidratación parenteral
+  *B) Irrigar con agua a temperatura ambiental
+   C) Corticoides en bolo
+   D) Analgésicos parenterales
+   E) Aplicar hielo directamente
+EXP: La medida inmediata para frenar la progresión del daño térmico hacia capas profundas de la piel es retirar el agente e irrigar profusamente la lesión con agua a temperatura ambiental.

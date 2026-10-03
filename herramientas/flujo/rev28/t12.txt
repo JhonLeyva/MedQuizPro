@@ -1,0 +1,224 @@
+### NEF-019 | Pericarditis urémica | 2021
+Mujer de 26 años con diagnóstico de insuficiencia renal crónica, desde hace 3 días dolor precordial intenso que empeora con la inspiración profunda. Al examen: PA: 100/70 mmHg, FC: 98 x´, ruidos cardíacos disminuidos de intensidad, frote pericárdico. Laboratorio: creatinina: 5 mg/dL, K 5.4 mEq/L. ¿Cuál es el tratamiento inmediato?
+  *A) Hemodiálisis
+   B) Corticoides
+   C) Pericardiectomía
+   D) Gluconato de calcio
+   E) Antiinflamatorios no esteroideos
+EXP: Mujer con enfermedad renal crónica que presenta dolor torácico pleurítico, ruidos cardíacos apagados y frote pericárdico, cuadro compatible con pericarditis urémica, una complicación común en pacientes con uremia avanzada. La creatinina elevada (5 mg/dL) respalda esta sospecha. En estos casos, el tratamiento de elección es la hemodiálisis, ya que reduce las toxinas urémicas responsables de la inflamación pericárdica. Los corticoides no son primera línea, y la pericardiectomía es una opción en casos crónicos o con taponamiento. El gluconato de calcio no es relevante en este contexto.
+
+### NEF-020 | Nefritis intersticial aguda por fármacos | 2021
+Mujer de 35 años en segundo dia postoperatorio presenta neumonía intrahospitalaria y recibe ceftazidima. En su quinto día oliguria, hematuria macroscópica Laboratorio: creatinina 2,4 mg/dL, proteinuria de 2 g/24 h, sedimento urinario: hematíes deformados y algunos eosinófilos y complemento sérico: normal. ¿Cuál es el diagnóstico más probable?
+   A) Glomerulonefritis postinfecciosa
+   B) Síndrome pulmón-riñón
+  *C) Nefritis intersticial aguda
+   D) Glomerulonefritis membranosa
+   E) Necrosis tubular aguda
+EXP: Paciente con antibióticoterapia reciente y aparición de insuficiencia renal aguda con hematuria, proteinuria y sedimento urinario activo que muestra eosinófilos, hallazgo característico de nefritis intersticial aguda (NIA). Esta entidad suele ser secundari a a fármacos, especialmente antibióticos como la ceftazidima. El complemento normal ayuda a diferenciarla de glomerulonefritis post infecciosas o autoinmunes. Además, el inicio en pocos días tras la exposición y la presencia de eosinofilia urinaria son datos diagnósticos clave. No hay datos suficientes para pensar en síndrome pulmón-riñón.
+
+### REU-013 | Escabiosis en el lactante | 2021
+Lactante de 10 meses, desde hace 20 días presenta lesiones dérmicas papulares, eritematosas y pequeñas en axilas, cara, cuero cabelludo, palmas y plantas. La madre presenta lesiones similares en la región mamaria y axila. ¿Cuál sería el tratamiento más indicado?
+   A) Mupirocina
+   B) Aciclovir
+  *C) Permetrina
+   D) Betametasona
+   E) Clotrimazol
+EXP: Lactante con lesiones pruriginosas papulares en zonas típicas como palmas, plantas y axilas, además de afectación en la madre, es indicativo de escabiosis (sarna). El tratamiento de elección en mayores de 2 meses es la permetrina tópica al 5%, aplicada en todo el cuerpo y repetida a los 7 días. No se recomienda mupirocina (antibiótico), aciclovir (antiviral) ni corticoides tópicos como tratamiento de primera línea. Es clave tratar también a los convivientes para evitar la reinfestación.
+
+### CIR-027 | Quemadura con lesión por inhalación | 2021
+Varón de 25 años es trasladado a Emergencia, sufrió quemaduras en una habitación poco ventilada y con abundante humo. Presenta ronquera, tos y expectoración gris. Al examen: FR: 30 x´, quejumbroso, lesiones en párpados, nariz, boca y tórax. ¿Cuál es la medida inmediata a tomar?
+   A) Aplicar antibióticos locales
+   B) Retirar vestimenta y objetos
+  *C) Colocar mascarilla con oxígeno
+   D) Inyectar analgésicos EV
+   E) Colocar sonda nasogástrica
+EXP: Este paciente presenta signos de quemadura por inhalación de humo, como ronquera, tos, expectoración carbonácea y lesiones en cara y vías aéreas superiores. La lesión por inhalación puede causar edema laríngeo progresivo, lo cual pone en riesgo la vía aérea. En estos casos, la medida inmediata es asegurar la oxigenación, iniciando con mascarilla de oxígeno al 100%. La prioridad es mantener la vía aérea permeable antes de proceder a otras intervenciones. Si hay compromiso severo, se puede requerir intubación precoz. Aplicar antibióticos tópicos o quitar ropa no son medidas inmediatas.
+
+### PED-047 | Estenosis hipertrófica del píloro | 2021
+RN de 15 días, presenta vómitos explosivos no biliosos. Al examen: tumoración a nivel del cuadrante superior izquierdo. Ecografía abdominal: engrosamiento a nivel del estómago distal. ¿Cuál es el diagnóstico más probable?
+   A) Atresia duodenal
+  *B) Hipertrofia congénita de píloro
+   C) Vólvulo de intestino ileal
+   D) Mal rotación intestinal
+   E) Enfermedad de Hirschsprung
+EXP: El vómito no bilioso en proyectil en un recién nacido entre la segunda y cuarta semana de vida, asociado a una tumoración palpable en el epigastrio, es altamente sugestivo de estenosis hipertrófica del píloro. La ecografía abdominal confirma el diagnóstico al mostrar engrosamiento pilórico. Esta es una causa común de obstrucción gástrica alta en neonatos. A diferencia de otras patologías como atresia o vólvulo, en la hipertrofia pilórica no hay vómito bilioso. El tratamiento definitivo es quirúrgico mediante pilorotomía de Ramstedt.
+
+### PED-048 | Crisis asmática en el niño | 2021
+Niña de 4 años, hospitalizada por presentar dificultad respiratoria de inicio agudo y desde hace 3 días síntomas catarrales. Al examen: sibilancias en ambos campos pulmonares. ¿Cuál es el diagnóstico más probable?
+  *A) Asma bronquial
+   B) Bronquiolitis
+   C) Insuficiencia cardiaca
+   D) Bronconeumonía
+   E) Neumonía lobar
+EXP: En niños mayores de 2 años, un episodio agudo de dificultad respiratoria, sibilancias bilaterales y antecedente de síntomas catarrales sugiere un primer episodio de asma. Aunque la bronquiolitis es más frecuente en menores de 2 años, a esta edad y con la clínica descrita (sibilancias, sin fiebre o crepitantes), el diagnóstico más probable es asma bronquial. Además, en el asma no suele haber signos de consolidación ni datos sugestivos de infección grave como en la bronconeumonía. La respuesta favorable a broncodilatadores también apoya el diagnóstico.
+
+### PED-049 | Neumonía grave en el preescolar | 2021
+Niña de 4 años, es hospitalizada por presentar desde hace 24 horas fiebre, tos y dificultad respiratoria. T° 38 °C, FR: 35x', crepitantes en ambos campos pulmonares. Leucocitosis con desviación izquierda ¿Cuál es el antibiótico indicado?
+   A) Claritromicina
+  *B) Ceftriaxona
+   C) Doxiciclina
+   D) Ciprofloxacina
+   E) Amoxicilina oral
+EXP: En niños menores de 5 años con neumonía, la etiología más común es bacteriana, especialmente Streptococcus pneumoniae. El cuadro de esta paciente incluye fiebre, taquipnea, crepitantes y leucocitosis con desviación a la izquierda, lo que indica una infección bacteriana aguda. En estos casos, el antibiótico de elección es una cefalosporina de tercera generación como la ceftriaxona, por su amplio espectro y efectividad contra neumococo y Haemophilus. Claritromicina se usa más en casos atípicos y ciprofloxacina o doxiciclina no son de primera línea en pediatría.
+
+### CB-014 | Aterosclerosis: capa íntima | 2021
+Varón de 45 años, con angina de pecho. Perfil lipídico: hipercolesterolemia marcada con LDL colesterol muy alto. Se evidencia: obstrucción de rama de coronaria izquierda. ¿Qué capa vascular se encontraría comprometida?
+   A) Adventicia
+   B) Elástica externa
+  *C) Íntima
+   D) Media
+   E) Todas las capas por igual
+EXP: La aterosclerosis afecta principalmente la íntima vascular, donde se acumulan lípidos, células inflamatorias y tejido fibroso, formando placas ateromatosas. Este paciente tiene hipercolesterolemia con obstrucción coronaria, lo que indica una placa significativa en la íntima que ha progresado hasta comprometer el flujo sanguíneo. La angina es síntoma de isquemia por estenosis coronaria. La capa media está compuesta por músculo liso, y la adventicia por tejido conectivo, pero no son el sitio de inicio del proceso ateroesclerótico.
+
+### CIR-028 | Enfermedad arterial periférica: revascularización | 2021
+Varón de 63 años, desde hace 6 meses claudicación intermitente limitante sin respuesta favorable a la terapia médica. Angiografía muestra oclusión larga de arteria femoral superficial y arteria poplítea sana hasta 5 cm por arriba de la rodilla. ¿Cuál es el tratamiento de primera elección?
+  *A) Bypass femoropoplíteo con vena safena
+   B) Bypass femoropoplíteo con prótesis
+   C) Angioplastía con balón
+   D) Cilostazol
+   E) Simpatectomía lumbar
+EXP: El paciente presenta una claudicación intermitente severa de larga evolución sin mejoría con tratamiento médico, y la angiografía evidencia una oclusión extensa de la arteria femoral superficial, pero con arteria poplítea distal sana. En estos casos, el tratamiento de primera elección es el bypass femoropoplíteo con vena safena autóloga, que ha demostrado mejores tasas de permeabilidad a largo plazo, especialmente en trayectos largos. Las prótesis sintéticas se reservan para casos sin vena adecuada. La angi oplastía con balón tiene menor eficacia en lesiones largas. El cilostazol es parte del manejo médico, útil en casos leves o moderados, pero no en cuadros avanzados como este.
+
+### PED-050 | Hernia diafragmática congénita | 2021
+¿En un recién nacido como confirmaría el diagnóstico hernia diafragmática congénita?
+   A) Manometría esofágica
+   B) Ecografía abdominal
+   C) Gammagrafía abdominal
+  *D) Radiografía de tórax
+   E) Endoscopía digestiva alta
+EXP: La hernia diafragmática congénita (HDC) ocurre por defecto del cierre del diafragma, permitiendo la herniación de vísceras abdominales hacia el tórax, lo cual puede comprimir el pulmón en desarrollo y provocar hipoplasia pulmonar. En el recién nacido, el diagnóstico se sospecha por dificultad respiratoria severa al nacimiento, ruidos respiratorios disminuidos y abdomen excavado. La radiografía de tórax es el estudio inicial más útil: muestra asas intestinales en el hemitórax, desplazamiento mediastínico y ausencia de burbuja gástrica en el abdomen. No se recomienda ecografía ni manometría en este contexto agudo neonatal. La confirmación radiológica orienta el manejo quirúrgico urgente y soporte ventilatorio.
+
+### SP-033 | Derecho a la información del paciente | 2021
+Mujer de 46 años intervenida de hernia inguinal no complicada presenta infección profunda del sitio operatorio, requiriendo ser hospitalizada nuevamente. La paciente afirma no haber sido comunicada de la posibilidad de dicha complicación ¿Qué derecho se habría vulnerado?
+  *A) A ser informado
+   B) De la dignidad de la persona
+   C) Libertad individual
+   D) Igualdad de las personas
+   E) Libre tránsito
+EXP: En la práctica médica, el consentimiento informado es una piedra angular del respeto a la autonomía del paciente. Esta mujer de 46 años fue sometida a una cirugía de hernia inguinal, y posteriormente desarrolló una complicación previsible: infección profunda del sitio operatorio. El hecho de que la paciente no haya sido informada previamente sobre este riesgo constituye una vulneración del derecho a ser informado, el cual implica recibir explicaciones claras y completas sobre el procedimiento, riesgos, beneficios y alternativas antes de dar su consentimiento. Esta omisión genera responsabilidad ética y legal por parte del profesional, y resalta la importancia de una adecuada comunicación médico-paciente.
+
+### HEM-006 | Lesión pulmonar aguda por transfusión (TRALI) | 2021
+Mujer de 72 años, post operada por diverticulitis perforada desarrolla hipotensión arterial. Sangre periférica: leucocitosis y esquistocitos. Se transfunde plasma fresco, presentando a la 5ta bolsa disnea grave y tos con esputo espumoso. Rx: edema de pulmón bilateral. ¿Cuál componente del hemoderivado ha causado esta reacción?
+  *A) Granulocitos
+   B) Haptoglobina
+   C) Fibrinógeno
+   D) Factor VIIIa
+   E) Plaquetas
+EXP: Paciente transfundida con plasma fresco congelado que desarrolla disnea súbita y edema pulmonar bilateral durante la 5ta bolsa, orienta a un síndrome pulmonar post transfusión (TRALI: Transfusion Related Acute Lung Injury). Este cuadro se debe a una reacción inmunológica entre los leucocitos del receptor y los anticuerpos anti -HLA o antigranulocitos del donante, lo que activa los neutrófilos y produce daño pulmonar agudo. El componente responsable son los granulocitos, ya que son los efectores que desencadenan el edema pulmonar. No es una sobrecarga hídrica (TACO), dado que hay disnea aguda, sin hipertensión o signos de sobrecarga.
+
+### CAR-020 | Taponamiento cardiaco | 2021
+Varón de 24 años, acude por disnea y ortopnea. Al examen: PA: 70/40 mmHg. FC: 130 x´, SatO2:92 %, pulso paradojal, RC rítmicos, disminuidos de intensidad, ingurgitación yugular (+). EKG: complejos de bajo voltaje y alternancia eléctrica. ¿Cuál es la conducta a seguir?
+  *A) Pericardiocentesis
+   B) Angioplastia coronaria
+   C) Trombólisis
+   D) Embolectomía pulmonar
+   E) Furosemida endovenosa
+EXP: Varón joven con hipotensión severa (PA 70/40), taquicardia, ingurgitación yugular, pulso paradójico y ruidos cardíacos disminuidos, todos signos del taponamiento cardíaco. El ECG muestra complejos de bajo voltaje y alternancia eléctrica, característicos de derrame pericárdico masivo. El tratamiento inmediato es la pericardiocentesis, que alivia la presión sobre el corazón. Las otras alternativas no corresponden: no hay signos de SCA (descartar angioplastia o trombólisis) ni evidencia de TEP masivo (no va embolectomía).
+
+### HEM-007 | Anemia microcítica: ferritina | 2021
+Varón de 54 años, hace 9 meses nota cansancio con el esfuerzo. Laboratorio: Hb 10,7 g/dl; VCM 73 µm3; leucocitos 8,035/mm3; plaquetas 315,000/mm3. ¿Qué examen ayudaría a precisar el tipo de anemia?
+   A) Haptoglobina sérica
+   B) Biopsia de médula ósea
+   C) Electroforesis de hemoglobina
+  *D) Ferritina sérica
+   E) Vitamina B12
+EXP: Paciente con anemia microcítica (Hb 10.7, VCM 73) con leucocitos y plaquetas normales, lo que orienta a una anemia ferropénica como primera posibilidad. El examen que permite confirmarlo y evaluar el grado de reservas de hierro es la ferritina sérica, marcador más específico de la deficiencia de hierro. La haptoglobina se usa en anemias hemolíticas, la biopsia medular en pancitopenias o síndromes medulares, y la electroforesis en sospecha de hemoglobinopatías (más probable en microcitosis con antecedente familiar).
+
+### CAR-021 | Estenosis mitral | 2021
+Mujer de 33 años desde hace 6 meses presenta disnea progresiva y expectoración hemoptoica. Al examen: impulso paraesternal derecho, RC arrítmicos, soplo diastólico en el ápex y pulso deficitario. Crepitantes en ambas bases pulmonares. ¿Cuál es el diagnóstico más probable?
+   A) Estenosis tricúspidea
+  *B) Estenosis mitral
+   C) Insuficiencia mitral
+   D) Insuficiencia aórtica
+   E) Comunicación interauricular
+EXP: Mujer joven con disnea progresiva, hemoptisis, soplo diastólico en el ápex, crepitantes y pulso deficitario, orienta fuertemente a estenosis mitral. Esta valvulopatía reumática produce obstrucción al flujo auriculoventricular, generando hipertensión pulmonar, crepitantes, hemoptisis y disminución del gasto cardíaco. El impulso paraesternal derecho refleja crecimiento del ventrículo derecho por sobrecarga. El soplo diastólico es clave para el diagnóstico. Las otras valvulopatías tienen características clínicas y soplos distintos.
+
+### CAR-022 | Fibrilación auricular | 2021
+Mujer de 35 años acude a emergencia por presentar bruscamente palpitaciones, fatiga y disnea. Antecedentes: Niega episodios similares, no fiebre, no pérdida de peso. Examen físico: ansiosa, pálida y polipneica. PA: 130/80. FR: 28 por minuto, FP 100 po r minuto arrítmicos. Cardiovascular: FC: 120 por minuto., RC arriticos, no impresiona soplos. Pulmones normales ¿Cuál es el diagnóstico más probable?
+   A) Valvulopatía aortica
+   B) Cardiopatía isquémica crónica
+  *C) Fibrilación auricular
+   D) Síndrome ansioso
+   E) Taquicardia sinusal
+EXP: Mujer joven con inicio brusco de palpitaciones, fatiga y disnea, sin fiebre ni pérdida de peso, con hallazgos de pulso arrítmico y frecuencia cardíaca elevada, sugiere fuertemente una arritmia. La presencia de pulso irregular y respuesta ventricular rápida es característica de la fibrilación auricular (FA). Esta arritmia puede aparecer en personas jóvenes sin cardiopatía e structural, aunque también puede ser secundaria a otras condiciones. La ausencia de soplos y la normalidad pulmonar descartan valvulopatías evidentes. La FA explica la disnea por gasto cardíaco irregular. El síndrome ansioso no justifica las arritmias objetivas halladas.
+
+### GAS-013 | Colitis ulcerosa con espondiloartritis | 2021
+Mujer de 35 años refiere lumbalgia progresiva de 5 años de evolución. El último año artralgias. Laboratorio: Thevenon (+). Rx de pelvis: sacroilitis. Colectomía total muestra en la macroscopía: mucosa granular y friable, con ulceración difusa y seudopólipos. ¿Cuál es el diagnóstico más probable?
+  *A) Colitis ulcerativa
+   B) Colitis amebiana
+   C) Tuberculosis intestinal
+   D) Linfoma intestinal
+   E) Enfermedad de Crohn
+EXP: Paciente con cuadro crónico de lumbalgia inflamatoria y artralgias, asociado a Thevenon (+), orienta a un espondilo artropatía seronegativa. La sacroilitis en la radiografía confirma el compromiso axial. La colectomía revela mucosa con ulceraciones difusas, seudopólipos y aspecto granular, hallazgos típicos de colitis ulcerativa. Esta enfermedad inflamatoria intestinal se asocia frecuentemente a espondilo artropatías. Las otras opciones presentan lesiones más focalizadas o infecciosas, y el linfoma no tiene ulceración difusa. El diagnóstico es colitis ulcerativa con manifestaciones articulares asociadas.
+
+### GAS-014 | Cáncer gástrico: adenocarcinoma | 2021
+Mujer de 53 años, hace 5 meses presenta náuseas, vómitos y dolor epigástrico. TAC abdominal: obstrucción al tracto de salida gástrico. Endoscopia digestiva alta: tumoración en píloro de 2 × 4 cm, ulcerada. Laboratorio: ureasa positiva ¿Cuál neoplasia se encontrará en la biopsia?
+   A) Leiomiosarcoma
+   B) Carcinoma epidermoide
+   C) Carcinoma neuroendocrino
+  *D) Adenocarcinoma
+   E) Linfoma MALT
+EXP: Mujer mayor de 50 años con síntomas digestivos persistentes y masa pilórica ulcerada en endoscopia debe hacer sospechar una neoplasia gástrica. La ureasa positiva indica infección por Helicobacter pylori, un factor de riesgo importante para el desarrollo de adenocarcinoma gástrico, especialmente en la región pilórica. El adenocarcinoma es el tipo más frecuente de cáncer gástrico. El leiomiosarcoma es raro y submucoso, no ulcerado; el carcinoma epidermoide no es típico del estómago, y el neuroendocrino presenta un patrón clínico distinto. La biopsia confirmará adenocarcinoma.
+
+### NEU-009 | Tuberculosis pulmonar con hemoptisis | 2021
+Varón de 56 años presenta desde hace 4 meses fiebre, sudoración nocturna y pérdida de peso. Acude por episodios de hemoptisis. Al examen: estertores en el lóbulo superior. Rx: cavitación en lóbulo superior. ¿Cuál es el agente infeccioso más probable?
+  *A) Mycobacterium tuberculosis
+   B) Mycoplasma pneumoniae
+   C) Nocardia asteroides
+   D) Legionella pneumophila
+   E) Streptococcus pneumoniae
+EXP: Varón con síntomas constitucionales subagudos como fiebre, sudoración nocturna y pérdida de peso por más de 4 meses, junto con hemoptisis y hallazgos pulmonares superiores, orienta fuertemente a tuberculosis pulmonar. La presencia de cavitación en lóbulo superior en la radiografía es un hallazgo clásico de Mycobacterium tuberculosis, cuya localización apical se relaciona con la al ta tensión de oxígeno en esos segmentos. Mycoplasma y Legionella suelen tener un cuadro más agudo y sin cavitación, mientras que Nocardia se presenta más en inmunosuprimidos. Por los hallazgos clínicos y radiológicos, el agente más probable es M. tuberculosis.
+
+### NEU-010 | Fibrosis pulmonar idiopática | 2021
+Varón de 68 años, hace 14 meses con disnea progresiva y tos seca, que no mejora con tratamiento de corticoides. Rx tórax: imágenes en "panal de abeja". Laboratorio: ANA, anti -ADN, topoisomerasa I, ANCA y anti centrómero: negativos. ¿Cuál es el diagnóstico más probable?
+  *A) Fibrosis pulmonar idiopática
+   B) Síndrome de Goodpasture
+   C) Granulomatosis con poliangeítis
+   D) Esclerosis sistémica
+   E) Neumonía organizada criptogénica
+EXP: Varón con disnea progresiva, tos seca y mala respuesta a corticoides sugiere enfermedad intersticial pulmonar. La imagen en “panal de abeja” en la radiografía torácica es patognomónica de fibrosis pulmonar idiopática (FPI), especialmente en varones mayores de 60 años. La ausencia de autoanticuerpos (ANA, anti -ADN, anti -Scl70, ANCA, etc.) descarta conectivopatías como causa secundaria. La FPI se caracteriza por patrón histológico de neumonía intersticial usual. El curso clínico suele ser progresivo, con disn ea y deterioro respiratorio a pesar del tratamiento. La FPI no responde a esteroides, lo que la diferencia de otras enfermedades intersticiales. El diagnóstico se hace con clínica, imagen y exclusión de causas secundarias. La TAC de alta resolución puede confirmar el patrón en panal. La biopsia es opcional si los hallazgos son típicos. Es una enfermedad de mal pronóstico a mediano p
+
+### CAR-023 | Miocardiopatía dilatada alcohólica | 2021
+Varón de 45 años, consumo crónico de alcohol durante 20 años. Ingresa a emergencia por cuadro de insuficiencia cardiaca descompensada. ¿Cuál es el tipo de miocardiopatía?
+   A) Hipertrófica
+  *B) Dilatada
+   C) Restrictiva
+   D) Inflamatoria
+   E) Arritmogénica
+EXP: Varón con consumo crónico de alcohol y falla cardíaca descompensada sugiere una miocardiopatía dilatada. El alcoholismo es una causa conocida de miocardiopatía dilatada, caracterizada por dilatación ventricular y deterioro de la contractilidad. Este tipo d e cardiopatía cursa con síntomas de insuficiencia cardíaca sistólica: disnea, ortopnea, edema y fatiga. La miocardiopatía hipertrófica se asocia más a causas genéticas, con hipertrofia septal. La restrictiva presenta falla diastólica con cavidades normales, típicamente secundaria a amiloidosis o fibrosis endomiocárdica. La inflamatoria (miocarditis) es aguda, muchas veces post -viral, no crónica. La historia clínica de consumo etílico prolongado orienta fuertemente al diagnóstico. El manejo incluye abandono del alcohol, IECA, betabloqueadores y diuréticos. El pronóstico mejora con suspensión del consumo y tratamiento adecuado.
+
+### PED-051 | Maltrato infantil | 2021
+Niño desnutrido de 4 años con dolor en el brazo. La madre refiere que el niño se golpeó durante el juego. Al examen: dolor intenso a la palpación en la zona afectada, con aumento de volumen y limitación del movimiento; cicatrices antiguas en las extremidades. Rx de brazo: fractura en tallo verde. ¿Cuál es la sospecha diagnóstica?
+  *A) Maltrato infantil
+   B) Déficit de Calcio
+   C) Osteogénesis imperfecta
+   D) Osteomalacia grave
+   E) Raquitismo
+EXP: Niño con desnutrición, fractura en tallo verde y múltiples cicatrices antiguas genera alta sospecha de maltrato infantil. La fractura en tallo verde puede ser accidental, pero en conjunto con múltiples lesiones antiguas de diversas etapas evolutivas, se de be sospechar intencionalidad. La desnutrición también puede ser indicio de negligencia. La historia relatada por la madre (“se golpeó jugando”) puede ser inconsistente con la gravedad o patrón de la lesión. El maltrato infantil debe sospecharse siempre ant e hallazgos clínicos o radiológicos inusuales o múltiples lesiones sin explicación adecuada. Las otras alternativas (déficit de calcio, osteomalacia, osteogénesis imperfecta) pueden predisponer a fracturas, pero no explican las cicatrices antiguas. El enfoque debe ser multidisciplinario, notificando a servicios sociales. El diagnóstico no es solo médico sino también legal y social. E
+
+### INF-020 | Meningitis bacteriana: líquido cefalorraquídeo | 2021
+Con el siguiente resultado de estudio de líquido cefalorraquídeo: glucosa 40 mg/dL, proteínas 300 mg/dL, leucocitos 5,000/mL, polimorfonucleares de 60 %. Usted sospecharía de meningoencefalitis de tipo...
+   A) Viral
+  *B) Bacteriana
+   C) Micótica
+   D) Tuberculosa
+   E) Parasitaria
+EXP: LCR con hipoglucorraquia, hiperproteinorraquia y leucocitosis con predominio de polimorfonucleares sugiere fuertemente una meningitis bacteriana. La glucosa baja en el LCR (<50% de la glucemia) indica consumo por bacterias. La elevación marcada de proteínas y leucocitos (>1000 cél/mL) también es típica. El predominio de polimorfonucleares (neutrófilos) es un dato clásico de etiología bacteriana. En contraste, las meningitis virales suelen presentar glucosa normal, menos proteínas y linfocitosis. Las formas tuberculosas o micóticas pueden mostrar linfocitosis, glucosa baja y proteínas altas, pero en niveles más moderados y sin este grado de pleocitosis neutrofílica. El diagnóstico se debe confirmar con cultivo y tinción de Gram. El tratamiento debe iniciarse empíricamente sin esperar resultados microbiológicos. Este patrón de LCR es una urgencia médica que requiere antibióticos parenteral
+
+### PED-052 | Atresia esofágica | 2021
+Neonato de 1 día, desde su nacimiento presenta salivación excesiva con aparición progresiva de distress respiratoria y dificultad para pasaje de sonda orogástrica. ¿Cuál examen es el más indicado para confirmar el diagnóstico?
+   A) Resonancia magnética de tórax
+   B) Gammagrafía pulmonar
+   C) TAC de tórax baritado
+  *D) Radiografía de tórax
+   E) Ecografía abdominal
+EXP: Neonato con salivación excesiva, dificultad respiratoria y fracaso en el paso de sonda nasogástrica sugiere una atresia de esófago con o sin fístula traqueoesofágica. Esta malformación congénita impide el paso del contenido hacia el estómago, generando acumulación de saliva y riesgo de aspiración. El hallazgo clínico de distress respiratorio desde el nacimiento y la imposibilidad de pasar una sonda confirma la sospecha clínica. El estudio más inmediato y útil es una radiografía de tórax y abdomen con la sonda insertada, que mostrará la punta enrollada en el fondo de un esófago ciego. El uso de medio de contraste, TAC o resonancia está reservado para evaluación posterior o diagnósticos diferenciales. Este es un cuadro urgente que requiere cirugía correctiva precoz y soporte respiratorio. Es vital identificar la variante anatómica específica.
+
+### INF-021 | Giardiasis: ciclo biológico | 2021
+Preescolar con diarrea aguda por giardiasis, confirmado por examen de heces, ¿En qué estadío se espera encontrar a la Giardia lamblia?
+   A) Huevos
+  *B) Trofozoítos
+   C) Quistes
+   D) Larvas
+   E) Cisticercos
+EXP: La Giardia lamblia en casos de diarrea aguda sintomática se encuentra principalmente en forma de trofozoito. Esta forma activa es la responsable de la colonización y daño de la mucosa intestinal, lo que explica los síntomas como diarrea, esteatorrea, distensión y malabsorción. En cambio, los quistes son la forma infectante, resistentes al medio ambiente y responsables de la transmisión fecal -oral. Durante el examen parasitológico de heces frescas en fase diarreica es más probable encontrar trofozoitos, debido al tránsito intestinal acelerado. Si el cuadro fuera crónico o asintomático, podrían observarse más quistes. Las otras formas (huevos o larvas) no corresponden a Giardia, sino a helmintos. El tratamiento de elección incluye metronidazol o tinidazol. La higiene adecuada es crucial para evitar reinfecciones.

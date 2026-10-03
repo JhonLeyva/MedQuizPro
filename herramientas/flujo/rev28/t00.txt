@@ -1,0 +1,224 @@
+### OFT-002 | Urgencias oftalmológicas | 2020
+Mujer de 25 años, acude a emergencia porque limpiando el inodoro le salpica accidentalmente ácido muriático en el ojo derecho. ¿Cuál es la conducta más apropiada?
+  *A) Irrigar el ojo inmediatamente con suero fisiológico y agua
+   B) Limpiar ojo con un paño limpio y colocar ungüento antiséptico
+   C) Administrar corticoides tópicos para disminuir la inflamación
+   D) Colocar un parche y llamar rápidamente al especialista
+   E) Neutralizar con una solución alcalina
+EXP: En quemaduras químicas oculares (cáusticos/ácidos), la conducta prioritaria e inmediata es el lavado profuso con suero salino o agua corriente durante al menos 15-30 minutos para eliminar el químico y normalizar el pH antes de cualquier otra intervención.
+
+### PED-003 | Genética y dismorfología neonatal | 2020
+Varón de 7 días de nacido en domicilio, sin controles prenatales, traído a consulta por nariz plana y manchas grises alrededor del iris. Examen: braquicefalia, epicanto, soplo sistólico. ¿Cuál es la alteración cromosómica más probable?
+   A) Monosomía del X
+  *B) Trisomía 21
+   C) Trisomía 13
+   D) Aneuploidia XXY
+   E) Trisomía 18
+EXP: Braquicefalia, pliegue epicántico, puente nasal plano, manchas de Brushfield (iris) y sospecha de cardiopatía congénita (canal AV o CIV) son estigmas fenotípicos cardinales del síndrome de Down o trisomía 21.
+
+### CIR-003 | Trauma torácico | 2020
+Mujer de 34 años por accidente de tránsito presenta contusión en hemitórax izquierdo. Al examen: disneica, FC: 105 x', FR: 27 x', PA: 110/60 mmHg, dolor a la palpación en pared costal y disminución en murmullo vesicular en HTI. Radiografía de tórax muestra 2 trazos de fractura del 2° al 6° arco costal izquierdo con ángulos costofrénicos libres. ¿Cuál es el manejo inicial?
+   A) Tomografía torácica contrastada
+   B) Drenaje quirúrgico torácico
+   C) Analgesia óptima
+  *D) Intubación orotraqueal
+   E) Fijación quirúrgica costal inmediata
+EXP: Múltiples fracturas costales segmentarias consecutivas configuran un tórax inestable (flail chest). Ante la presencia de insuficiencia respiratoria clínica (taquipnea, disnea, hipoventilación), la prioridad del soporte vital es asegurar la vía aérea y la oxigenación mediante intubación orotraqueal y ventilación mecánica para estabilizar la caja torácica.
+
+### INF-002 | Infecciones respiratorias virales | 2020
+Varón de 30 años, consulta por fiebre, cefalea, estornudos y tos desde hace 2 días. Examen: T° 38.6 °C, FC 90 x', FR 18 x'. No antecedentes patológicos. ¿Qué tipo de virus ARN se buscará en sus exámenes de sangre?
+   A) Paramixovirus
+   B) Rabdovirus
+   C) Flavivirus
+  *D) Coronavirus
+   E) Herpesvirus
+EXP: Infección respiratoria aguda alta viral causada por un virus con genoma ARN monocatenario de sentido positivo perteneciente a la familia Coronaviridae.
+
+### GIN-003 | Distocias y sufrimiento fetal | 2020
+Gestante a término en fase activa de trabajo de parto, DU 3 en 10 min, duración 40 seg, con desaceleraciones de latidos fetales. Permanece con dilatación de 6 cm por 6 horas con membranas íntegras. ¿Cuál es la conducta a seguir?
+  *A) Cesárea
+   B) Posición decúbito lateral derecho
+   C) Realizar amniotomía
+   D) Acentuación con oxitocina
+   E) Esperar dilatación completa
+EXP: Detención de la fase activa de dilatación (más de 4 horas estacionaria con dinámica adecuada) asociado a desaceleraciones fetales constituye riesgo inminente de hipoxia y sufrimiento fetal, indicando cesárea de urgencia.
+
+### CIR-002 | Apendicitis aguda | 2020
+Escolar, desde hace 24 horas presenta dolor periumbilical de moderada intensidad, posteriormente vómitos y sensación febril. Examen: dolor y defensa muscular en hemiabdomen inferior derecho, RHA aumentados, signo del rebote (+). ¿Cuál es el diagnóstico probable?
+   A) Gastroenterocolitis
+  *B) Apendicitis aguda
+   C) Adenitis mesentérica
+   D) Invaginación intestinal
+   E) Pielonefritis aguda
+EXP: La cronología de Murphy (dolor periumbilical migrado a fosa ilíaca derecha), fiebre, defensa y signo de rebote (Blumberg positivo) representan la clínica clásica de apendicitis aguda con peritonismo localizado.
+
+### PED-002 | Infecciones osteoarticulares | 2020
+Niño de 5 años, cuya madre refiere que hace 6 días se cayó sobre la rodilla derecha. Examen: fiebre de 38.5 °C, astenia, adinamia, rodilla derecha con dolor, gran aumento de volumen, calor, rubor y posición antiálgica. ¿Cuál es la sospecha diagnóstica?
+   A) Osteomielitis crónica
+   B) Fractura de rótula
+  *C) Artritis séptica
+   D) Hemartrosis
+   E) Sinovitis transitoria de cadera
+EXP: El cuadro agudo de fiebre, signos de flogosis (calor, rubor, volumen aumentado), dolor y posición antiálgica tras antecedente de trauma sugiere una infección articular aguda bacteriana (artritis séptica).
+
+### NRL-002 | Hemorragia subaracnoidea | 2020
+Mujer de 62 años, mientras realizaba labores hogareñas, presenta en forma súbita cefalea muy intensa, acompañada de vómitos y luego pérdida de conciencia. Al examen presenta rigidez de nuca. ¿Cuál es el diagnóstico más probable?
+   A) Hematoma subdural
+   B) Tumor cerebral
+   C) Isquemia cerebral transitoria
+  *D) Hemorragia subaracnoidea
+   E) Migraña con aura
+EXP: Cefalea súbita e intensa ('en trueno'), vómitos y pérdida de conciencia con rigidez de nuca son signos clásicos de hemorragia subaracnoidea por irritación meníngea secundaria a sangre en el espacio subaracnoideo.
+
+### REU-002 | Trastornos de pigmentación cutánea | 2020
+Mujer de 24 años acude a consulta por "color amarillento de piel", sin coluria. Antecedente: alimentación vegana. Examen: coloración amarillenta cutánea, escleras limpias. ¿Cuál es el diagnóstico más probable?
+   A) Terapia con quinacrina
+   B) Hepatitis viral
+   C) Xantocromía
+  *D) Carotinemia
+   E) Ictericia obstructiva
+EXP: La paciente presenta coloración amarillenta de piel sin ictericia escleral (escleras limpias), lo cual descarta hiperbilirrubinemia. La carotinemia es una condición benigna causada por acumulación de carotenoides en palmas, plantas y cara, respetando escleras.
+
+### GIN-002 | Rotura Prematura de Membranas | 2020
+Gestante de 32 semanas, refiere haber perdido líquido en regular cantidad. Se le realiza un test del helecho, encontrándose esta imagen. ¿Cuál es la conducta más adecuada?
+   A) Programar cesárea
+   B) Maduración cervical
+   C) Inducción de trabajo de parto
+  *D) Protección con antimicrobianos
+   E) Alta con reposo domiciliario
+EXP: En gestante de 32 semanas con sospecha de pérdida de líquido amniótico, el test del helecho positivo confirma rotura prematura de membranas (RPM). Dado que el embarazo es pretérmino (<37 semanas), la conducta indicada es conservadora, enfocada en prevenir infecciones y maduración pulmonar: protección antimicrobiana, corticoides y vigilancia.
+
+### PED-004 | Enfermedades respiratorias del RN | 2020
+Recién nacido pretérmino, madre sin control prenatal con diagnóstico de preeclampsia. Examen: distress respiratorio marcado. Radiografía de tórax: imagen de "vidrio esmerilado" en pulmones. ¿Cuál es el diagnóstico?
+  *A) Membrana hialina
+   B) Taquipnea transitoria
+   C) Neumonía connatal
+   D) Síndrome aspirativo
+   E) Ductus arterioso persistente
+EXP: La radiografía con patrón de "vidrio esmerilado" en un prematuro con distress severo es patognomónica del síndrome de dificultad respiratoria neonatal o enfermedad de membrana hialina por déficit de surfactante.
+
+### HEM-002 | Anemias | 2020
+En el hemograma se encuentra: hemoglobina disminuida, microcitosis, VCM disminuido y ferritina sérica disminuida. ¿A qué tipo de anemia corresponde?
+  *A) Ferropénica
+   B) Megaloblástica
+   C) Hemolítica
+   D) Falciforme
+   E) Sideroblástica
+EXP: La anemia microcítica (VCM disminuido) asociada a niveles bajos de ferritina sérica (agotamiento de reservas) es el perfil clásico de la anemia ferropénica.
+
+### NEF-002 | Trastornos del potasio | 2020
+Mujer de 70 años, sin antecedentes, presenta diarreas profusas y oligoanuria. Laboratorio: creatinina 3.6 mg/dL. EKG: ondas T picudas. ¿Qué trastorno electrolítico presenta?
+   A) Hipercalcemia
+   B) Hiponatremia
+   C) Hipomagnesemia
+  *D) Hiperpotasemia
+   E) Hipopotasemia
+EXP: La insuficiencia renal aguda oligúrica genera retención de potasio. El hallazgo electrocardiográfico de ondas T picudas confirma una hiperpotasemia, que requiere manejo urgente.
+
+### GIN-004 | Trastornos hipertensivos del embarazo | 2020
+Gestante de 24 años, 38 semanas, acude a emergencia con contracciones uterinas. Examen obstétrico normal. PA: 145/90 mmHg. No proteinuria. DHL: 376 U/L, TGO: 23 U/L, plaquetas 176,000/mm3. ¿Cuál es el diagnóstico más probable?
+   A) Preeclampsia leve
+   B) Preeclampsia severa
+  *C) Hipertensión gestacional
+   D) Eclampsia
+   E) Hipertensión crónica
+EXP: Presión arterial >=140/90 mmHg después de las 20 semanas en ausencia de proteinuria ni signos de daño a órgano blanco (plaquetas y transaminasas normales) corresponde a hipertensión gestacional.
+
+### SP-002 | Interculturalidad en Salud | 2020
+Gestante que no habla ni entiende castellano; se niega a la atención del parto en el establecimiento de salud por temor a las "personas extrañas". ¿Cuál alternativa debe ofrecer el personal de salud?
+   A) Referencia a tercer nivel
+  *B) Parto humanizado con acompañante
+   C) Referencia a casa de espera
+   D) Atención por partera
+   E) Parto domiciliario sin atención
+EXP: Ante barreras culturales y lingüísticas, se debe aplicar un enfoque intercultural ofreciendo el parto humanizado con acompañante para generar confianza y respetar sus derechos.
+
+### GIN-005 | Trastornos hipertensivos del embarazo | 2020
+Gestante de 35 semanas asintomática. Antecedente de cesárea hace 2 años. En emergencia PA de 150/98 mmHg. Laboratorio: proteinuria negativa, plaquetas 140,000xmm3, TGO: 60 U/L, TGP: 60 U/L, DHL: 600 U/L; creatinina 1.3 mg/dL. ¿Cuál es el diagnóstico?
+   A) Hipertensión gestacional
+   B) Preeclampsia sin severidad
+   C) Hipertensión esencial
+  *D) Preeclampsia con severidad
+   E) Síndrome HELLP completo
+EXP: Aunque no haya proteinuria, la presencia de hipertensión asociada a transaminasas elevadas (TGO/TGP >40) y creatinina >1.1 mg/dL define una preeclampsia con criterios de severidad por daño a órgano blanco.
+
+### NRL-003 | Traumatismo craneoencefálico | 2020
+Deben recibir tratamiento quirúrgico de inmediato los hematomas epidurales ubicados en...
+   A) Fosa parietal
+   B) Fosa temporal
+   C) Piso anterior
+  *D) Fosa posterior
+   E) Ninguna requiere cirugía urgente
+EXP: Los hematomas epidurales en la fosa posterior tienen alto riesgo de comprimir el tronco encefálico rápidamente, comprometiendo funciones vitales como la respiración, por lo que requieren evacuación quirúrgica inmediata.
+
+### REU-003 | Artritis Reumatoide | 2020
+Mujer de 40 años, desde hace 2 meses dolor articular en hombros y muñecas de moderada intensidad. Hace un mes se agrega dolor en manos con rigidez matutina. Al examen: sinovitis de pequeñas articulaciones. ¿Qué examen tiene mayor especificidad diagnóstica?
+   A) Anticuerpos antinucleares
+   B) Factor reumatoideo
+  *C) Anticuerpos anticitrulinados
+   D) Anti-DNA doble cadena
+   E) Velocidad de sedimentación
+EXP: En la artritis reumatoide (poliartritis simétrica con rigidez matutina), los anticuerpos anticitrulinados (anti-CCP) son el marcador con mayor especificidad (cercana al 95%) para confirmar el diagnóstico.
+
+### INF-003 | Infecciones virales | 2020
+Varón de 18 años desde hace 20 días malestar general y mialgias, luego fiebre, faringitis y adenopatías. Al examen 38.3 °C. faringe congestiva, amígdalas hipertróficas, adenopatías en cadena cervical posterior, exantema morbiliforme en brazos y esplenomegalia. ¿Cuál es el diagnóstico más probable?
+  *A) Mononucleosis infecciosa
+   B) Toxoplasmosis
+   C) Rubéola
+   D) Linfoma
+   E) Faringitis estreptocócica
+EXP: La tríada clásica de fiebre, faringitis y adenopatías cervicales (especialmente posteriores), sumado a esplenomegalia y exantema (frecuente tras aminopenicilinas), orienta a mononucleosis infecciosa por virus de Epstein-Barr.
+
+### PED-005 | Enfermedades exantemáticas | 2020
+Lactante de 10 meses, desde hace 3 días fiebre y anorexia. Al examen: linfadenopatías suboccipital y retroauricular dolorosas a la palpación, exantema macular eritematoso que se inició en cara y cuello, luego progresó al tronco. ¿Cuál es el diagnóstico?
+   A) Exantema súbito
+   B) Sarpullido
+   C) Varicela
+  *D) Rubéola
+   E) Sarampión
+EXP: El exantema cefalocaudal acompañado de adenopatías retroauriculares y suboccipitales dolorosas (signo de Theodor) es la presentación patognomónica de la rubéola.
+
+### END-002 | Trastornos tiroideos | 2020
+Mujer de 58 años acude a consulta externa por presentar leve malestar general y tendencia al sueño. Antecedentes: diabetes mellitus en tratamiento irregular. Examen físico: leve palidez, adelgazada, resto negativo. Laboratorio: TSH aumentada con T4 libre normal. El diagnóstico probable es:
+  *A) Hipotiroidismo subclínico
+   B) Tirotoxicosis
+   C) Hipertiroidismo subclínico
+   D) Hipotiroidismo primario
+   E) Síndrome del eutiroideo enfermo
+EXP: La elevación de la TSH con niveles de hormonas tiroideas periféricas (T4 libre) dentro de rangos normales define bioquímicamente al hipotiroidismo subclínico.
+
+### GIN-006 | Complicaciones del puerperio | 2020
+Puérpera de 25 días, acude a consulta por dolor en mama izquierda y sensación de alza térmica. Examen físico: T° 38.7 °C, PA: 110/64 mmHg, pulso: 94 x', mama izquierda con zona endurecida, eritematosa de 6 cm de diámetro y caliente. ¿Cuál es el tratamiento inicial?
+   A) Amikacina
+  *B) Dicloxacilina
+   C) Ciprofloxacina
+   D) Doxiciclina
+   E) Suspender la lactancia
+EXP: Cuadro clínico de mastitis puerperal aguda. El germen más frecuente es S. aureus, por lo que el tratamiento empírico de elección ambulatorio es la dicloxacilina oral, manteniendo la lactancia.
+
+### GAS-002 | Enfermedad diarreica aguda | 2020
+Varón de 27 años, ingiere alimentos en ambulante, desde hace 3 días diarreas sanguinolentas, fiebre y dolor abdominal. Deshidratado. Examen de heces: presencia de leucocitos. ¿Qué clase de tratamiento indicaría?
+  *A) Antibióticos
+   B) Sales de bismuto
+   C) Antipiréticos
+   D) Bloqueadores H2
+   E) Loperamida
+EXP: La presencia de diarrea disentérica (sanguinolenta con fiebre y leucocitos fecales) sugiere una infección bacteriana enteroinvasiva (Shigella, Campylobacter). Está indicado el tratamiento antibiótico empírico.
+
+### SP-003 | Nutrición materna | 2020
+Gestante de 21 años que vive con su suegra que no le permite comer carne o sangrecita pensando que le afectará el parto. Frente a este hecho, ¿qué actividad deberá priorizar el personal de salud?
+  *A) Consejería nutricional
+   B) Suplementación con ácido fólico
+   C) Fortificación con vitamina B12
+   D) Abogacía con gobierno local
+   E) Suplementación con vitamina A
+EXP: Ante mitos y tabúes culturales que afectan la dieta de la gestante, la intervención de primera línea es la consejería nutricional dirigida a la paciente y su entorno familiar inmediato.
+
+### PED-006 | Enfermedad diarreica en pediatría | 2020
+Lactante de 11 meses, desde hace 24 horas deposiciones semilíquidas con moco y sangre 4 a 6 veces por día de escaso volumen. Examen: somnoliento, signos de deshidratación leve, T° 39 °C. ¿Cuál es el probable agente etiológico?
+   A) Enterovirus
+   B) Rotavirus
+  *C) Campylobacter
+   D) Shigella
+   E) Vibrio cholerae
+EXP: Diarrea disentérica en un lactante menor de 2 años con fiebre alta y afectación del estado general apunta a Campylobacter jejuni, patógeno muy frecuente en este grupo etario en países en desarrollo (Shigella es más común en preescolares).

@@ -1,0 +1,224 @@
+### GIN-047 | Masa ovárica en el embarazo | 2021
+En un control prenatal se le detecta a una gestante de 8 semanas, una tumoración quística simple en el ovario derecho de más o menos 8 cm. ¿Entre qué semanas es el mejor momento para operarla?
+  *A) 12 y 20
+   B) 8 y 12
+   C) 28 y 32
+   D) 32 y 36
+   E) Inmediatamente al diagnóstico
+EXP: Las masas ováricas simples detectadas en el primer trimestre, especialmente si son grandes (como esta de 8 cm), requieren monitoreo y eventual intervención quirúrgica por riesgo de torsión ovárica o ruptura. No obstante, la cirugía electiva debe evitarse en el primer trimestre por riesgo teratogénico y de pérdida gestacional. La ventana ideal para operar una masa ovárica es entre las 12 y 20 semanas de gestación, ya que el riesgo fetal es menor y el útero aún permite buena exposición quirúrgica. Intervenciones después de las 20 semanas conllevan mayor riesgo obstétrico. Por lo tanto, la opción correcta y segura es esperar hasta el segundo trimestre temprano para intervenir.
+
+### PSI-012 | Trastorno bipolar | 2021
+Varón de 17 años, tras frustrado ingreso a la universidad hace 30 días, se encierra en su dormitorio evitando el contacto familiar y presenta sueño intranquilo e interrumpido. Familiares refieren que previamente al examen lo notaron hiperactivo, verborreico y muy autosuficiente. ¿Cuál es su diagnóstico?
+   A) Esquizofrenia
+   B) Depresión mayor
+  *C) Estado bipolar
+   D) Trastorno de adaptación
+   E) Trastorno de pánico
+EXP: Paciente de 17 años que atraviesa una fase depresiva tras un evento negativo (fracaso en examen), pero con antecedentes recientes de hiperactividad, verborrea y autoestima exagerada, características de un episodio maníaco o hipomaníaco. El curso bifásico del trastorno, con fase de exaltación seguida por fase depresiva, es altamente sugestivo de un trastorno afectivo bipolar tipo I o II, dependiendo de la intensidad del episodio previo. La esquizofrenia queda descartada por ausencia de síntomas psicóticos; la depresión mayor no explica la fase eufórica anterior, y el trastorno de adaptación no presenta síntomas tan polarizados. Por lo tanto, la opción más adecuada es el estado bipolar.
+
+### HEM-008 | Mieloma múltiple | 2021
+Mujer de 62 años acude por dolor en espalda al movimiento. Ha notado reducción de estatura. Laboratorio: anemia moderada e hipercalcemia. Rx: lesiones osteolíticas en el cráneo y pelvis. ¿Cuál es su diagnóstico?
+  *A) Mieloma múltiple
+   B) Policitemia vera
+   C) Macroglobulinemia
+   D) Osteoporosis severa
+   E) Metástasis de cáncer de mama
+EXP: Mujer de 62 años con síntomas sugestivos de afectación ósea multifocal (dolor, reducción de estatura) y datos clínicos/laboratoriales claves: anemia normocítica, hipercalcemia, y lesiones osteolíticas en cráneo y pelvis. Este conjunto de hallazgos es característico del mie loma múltiple, un cáncer hematológico de células plasmáticas. La hipercalcemia resulta de la reabsorción ósea, y las lesiones líticas reflejan infiltración ósea maligna. La policitemia vera y la macroglobulinemia pueden causar síntomas generales, pero no c ursan con lisis ósea. La osteoporosis puede dar dolor y fracturas, pero no produce hipercalcemia ni lesiones líticas. El diagnóstico más probable es mieloma múltiple.
+
+### HEM-009 | Púrpura trombocitopénica trombótica en el puerperio | 2021
+Mujer de 32 años puérpera de 24 horas presenta cefalea intensa seguida de desorientación y hemiparesia derecha. Hallazgos: T: 38.9°C, diuresis de 400 ml en 24 horas, Hb: 6 g/dl y presencia de esquistocitos en frotis de sangre periférica. Con este cuadro la terapia indicada es transfusión de:
+   A) Eritrocitos lavados
+   B) Sangre total
+   C) Paquete globular
+  *D) Plasma fresco congelado
+   E) Concentrado de plaquetas
+EXP: Paciente puérpera de 24 horas con síntomas neurológicos agudos (cefalea, hemiparesia, desorientación), fiebre, anemia hemolítica microangiopática (evidenciada por esquistocitos) e oliguria grave. Este conjunto clínico es altamente sugestivo de un síndrome de púrpura trombocitopénica trombótica (PTT), que puede manifestarse en el posparto. En este contexto, la terapia de elección es la infusión de plasma fresco congelado, que provee ADAMTS13 funcional y ayuda a detener la cascada trombótica. Transfundir sangre total o paquetes globulares no aborda la fisiopatología subyacente, mientras que el plasma sí interrumpe el proceso autoinmune o deficitario. Por tanto, la intervención inicial más eficaz es el plasma fresco congelado.
+
+### HEM-010 | Anemia ferropénica | 2021
+Mujer de 26 años, sexualmente activa, consulta por cansancio y esporádica sensación de sentir su latido cardiaco. De positivo en el examen se encuentra leve palidez y en sangre microcitosis e hipocromía con niveles bajos de ferritina. La primera posibilidad es una anemia de tipo:
+  *A) Ferropénica
+   B) Esferocítica
+   C) Por deficiencia de vitamina B12
+   D) Por deficiencia de folatos
+   E) Sideroblástica
+EXP: Paciente joven, sexualmente activa, que presenta síntomas constitucionales leves (cansancio, palpitaciones) asociados a signos de anemia (palidez). El hemograma muestra microcitosis e hipocromía, lo cual orienta a una anemia microcítica hipocrómica, y el hallazgo clave es la ferritina sérica baja, que es el marca dor más sensible y específico para anemia ferropénica. Las anemias megaloblásticas (por deficiencia de B12 o folato) cursan con macrocitosis, y la esferocitosis hereditaria muestra esferocitos en el frotis, no microcitosis. Por tanto, el diagnóstico más probable es anemia ferropénica por deficiencia de hierro.
+
+### NEU-012 | Depresión respiratoria por benzodiacepinas | 2021
+Varón de 56 años, acude por presentar hace 5 días fiebre y en la segunda noche de hospitalización sufre crisis de excitación, recibe diazepam endovenoso (10 mg en 3 minutos). A los 30 minutos ya no responde al estímulo. Examen: PA: 90/50 mmHg, FC: 120 x’; IMC: 40, Glasgow: 9, no focalización, no cianosis. AGA: pH 7.24; COI: 70; HCO₃⁻I: 18; SatO: 90%. ¿Cuál es la primera terapia para indicar?
+   A) Manitol 20% 250 ml a goteo rápido
+   B) Oxigenoterapia con máscara con reservorio
+   C) ClNa 0.9% a razón de 60 gotas/min
+  *D) Soporte ventilatorio
+   E) Flumazenilo y observación sin oxígeno
+EXP: Paciente varón con antecedente de excitación psicomotora, tratado con diazepam EV y evolución a compromiso de conciencia (Glasgow 9) con signos de hipoventilación (pH 7.24, CO I elevado en 70 mmHg, bicarbonato bajo y SatO2 del 90%). Este cuadro sugiere una acidosis respiratoria aguda con falla ventilatoria hipercápnica, probablemente secundaria a depresión del centro respiratorio inducida por benzodiacepinas, agravada por obesida d mórbida (IMC 40). La prioridad absoluta en este contexto es la ventilación asistida, ya que existe riesgo de parada respiratoria. Oxigenoterapia aislada no es suficiente y puede empeorar la hipercapnia. Por tanto, el tratamiento correcto es soporte ventilatorio inmediato.
+
+### NEF-023 | Lesión renal aguda prerrenal posoperatoria | 2021
+Varón de 65 años, 06 horas post prostatectomía presenta hematuria e hipotensión sostenida por 4 horas. En las siguientes dos horas oligoanuria. Examen de orina: cilindros granulosos, Hb: 9 g/dl, urea y creatinina en sangre indican duplicación de la creatinina basal (de 1.2 a 2.4 mg/dl). ¿Cuál será el manejo prioritario?
+  *A) Mantener volumen arterial efectivo
+   B) Hemotransfusión para llevar hemoglobina a 10 g/dl
+   C) Furosemida 120 mg en bolo
+   D) Terapia de remplazo renal urgente
+   E) Nefrostomía percutánea
+EXP: Paciente posquirúrgico con evidencia de sangrado activo (hematuria + Hb 9 g/dl), asociado a hipotensión sostenida y posterior oligoanuria, lo cual indica una probable lesión renal aguda prerrenal por hipoperfusión secundaria a hipovolemia. La duplicación de la creatinina basal y la aparición de cilindros granulosos apoyan esta interpretación. El objetivo inmediato debe ser restaurar el volumen arterial efectivo para revertir el compromiso renal. Furosemida está contraindicada en este contexto, pues no trata la causa subyacente. La terapia de remplazo renal se reserva para fracaso establecido o complicaciones refractarias. Por tanto, el manejo prioritario es reponer el volumen efectivo circulante, con cristaloides y transfusión si es necesario.
+
+### END-010 | Tiroiditis de Hashimoto | 2021
+Mujer de 38 años, consulta por masa en región cervical. Al examen: bocio difuso 2N, indoloro y de consistencia aumentada. Laboratorio: T4 libre bajo, TSH elevado, captación de I -131 suprimida. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad Job-Basedow
+   B) Tiroiditis de Quervain
+  *C) Tiroiditis de Hashimoto
+   D) Enfermedad de Graves-Basedow
+   E) Tiroiditis subaguda linfocítica
+EXP: Paciente adulta con bocio difuso de consistencia aumentada, indoloro, que presenta hipotiroidismo clínico (T4 libre baja, TSH elevada) y una captación de I-131 suprimida, lo cual es incompatible con un hipertiroidismo verdadero y más bien sugiere una destrucción glandular progresiva. La tiroiditis de Hashimoto es la causa más frecuente d e hipotiroidismo en adultos, especialmente en mujeres. Se caracteriza por infiltración linfocitaria y fibrosis que progresivamente lleva a falla funcional. La tiroiditis subaguda (de Quervain) sería dolorosa; la enfermedad de Graves y la de Jod-Basedow cursan con hipertiroidismo. En este caso, el perfil inmunológico y funcional apoya el diagnóstico de tiroiditis de Hashimoto.
+
+### END-011 | Estado hiperglucémico hiperosmolar | 2021
+Mujer de 71 años, diabética tipo 2 desde hace 35 años. Hospitalizada hace 5 días por cuadro de COVID dependiente de oxígeno, de 3 días atrás comienza con poliuria, y depresión del sensorio hasta el coma. Al examen: deshidratada, glucosa: 800 mg/dL, no cuerpos cetónicos, ni cetonuria. La primera posibilidad diagnóstica es coma por:
+   A) Cetoacidosis
+  *B) Hiperosmolaridad
+   C) Ayuno prolongado
+   D) Hiperglucemia reactiva
+   E) Acidosis láctica
+EXP: Paciente anciana con diabetes de larga data, hospitalizada por COVID, que presenta alteración progresiva del sensorio, poliuria y coma, con glucosa sérica de 800 mg/dL y ausencia de cuerpos cetónicos, lo cual descarta cetoacidosis diabética. Este cuadro es típico de un estado hiperglucémico hiperosmolar (EHH), caracterizado por hiperglicemia severa, deshidratación extrema, hiperosmolalidad plasmática y alteración del sensorio, en ausencia de cetosis significativa. Esta entidad es más frecuente en pacientes añosos con DM2, sobre todo ante infecciones intercurrentes. El diagnóstico es claro: coma hiperosmolar no cetósico.
+
+### END-012 | Hipoglucemia grave | 2021
+Varón de 38 años con diagnóstico de Diabetes Mellitus insulinodependiente, traído por los bomberos a emergencia por compromiso de consciencia, diaforesis profusa y palpitaciones. ¿Cuál es la conducta a seguir?
+  *A) Tomar muestra de glucosa y administrar glucosa EV
+   B) Hidratación agresiva con salino isotónico
+   C) Realizar punción lumbar previo bolo de manitol
+   D) Oxigenoterapia y esperar resultados de bioquímica
+   E) Insulina rápida endovenosa
+EXP: Diabético tipo 1 que presenta síntomas autonómicos clásicos (diaforesis, palpitaciones) y alteración del sensorio, lo que sugiere un cuadro de hipoglucemia severa, una urgencia médica frecuente en pacientes insulinodependientes. La prioridad en estos casos es la corrección inmediata de la hipoglucemia con glucosa endovenosa, sin esperar resultados de laboratorio. No se debe retrasar la intervención tomando exámenes complejos ni esperar confirmación bioquímica antes de actuar. Por lo tanto, la conducta inmediata es administrar glucosa IV y luego confirmar el diagnóstico con una muestra de glucosa. Esto puede evitar un daño neurológico irreversible.
+
+### GAS-019 | Encefalopatía hepática en cirrosis | 2021
+Músico de 55 años, estando en plena actuación sufre desorientación que se agudiza con las horas. Evaluado en emergencia le hallan taquicardia, distensión abdominal, ascitis, edema tibial ++++. La primera posibilidad diagnóstica es falla:
+  *A) Hepática crónica
+   B) Cardiaca derecha
+   C) Cardiaca izquierda
+   D) Renal aguda
+   E) Respiratoria
+EXP: Paciente adulto mayor, aparentemente sano, que súbitamente presenta confusión, distensión abdominal, ascitis y edemas periféricos intensos, en el contexto de probable consumo de alcohol (dato indirecto al ser músico en actuación pública). Esta triada clínica es clásica de descompensación de cirrosis hepática, con encefalopatía hepática, hipertensión portal (ascitis) e hipoalbuminemia (edema). La taq uicardia y signos periféricos pueden ser manifestaciones de hipovolemia relativa. No hay datos clínicos de falla cardíaca ni renal aguda predominantes. Se concluye que el paciente presenta un cuadro de falla hepática crónica descompensada, probablemente cirrosis alcohólica con encefalopatía.
+
+### NRL-013 | Encefalopatía de Wernicke: tiamina | 2021
+Varón de 60 años, llevado a emergencia por familiares quienes refieren que desde hace aproximadamente 3 meses notan cambios en su conducta, pasando de aletargamiento a excitación de manera cada vez más frecuente hasta hace 24 horas, en que cae en sopor y desde hace dos horas no contesta ni responde al llamado. Antecedente de alcoholismo crónico. La medida terapéutica prioritaria es
+   A) Aplicar naloxona
+  *B) Aplicar tiamina endovenosa
+   C) Iniciar ClNa al 0.9%
+   D) Administrar manitol 100 ml a goteo rápido
+   E) Repetir examen en 24 horas
+EXP: Varón de 60 años con historia de alcoholismo crónico, que presenta un cuadro progresivo de trastornos de conducta, alternancia entre aletargamiento y excitación, seguido de coma en las últimas horas. Esta evolución es altamente sugestiva de una encefalopatía carencial, especialmente la encefalopatía de Wernicke, causada por déficit de tiamina (vitamina B1), frecuente en pacientes alcohólicos por malnutrición y mala absorción. Administrar glucosa sin tiamina en estos casos puede empeorar el cuadro neurológico. Por tanto, la medida terapéutica prioritaria es la administración de tiamina endovenosa, incluso antes de cualquier aporte energético.
+
+### NEU-013 | Exacerbación de EPOC | 2021
+Varón de 58 años con diagnóstico de enfisema pulmonar desde hace 5 años. Consulta por exacerbación de tos y disnea ya previamente existente, desde hace 3 días fiebre de 38 °C. Rx tórax: “tórax en tonel” sin signos de condensación. La indicación inmediata más precisa será:
+  *A) Inicio de antibióticos con actividad en el alveolo pulmonar
+   B) Ejercicios respiratorios de exhalación cada dos horas
+   C) Prescribir antitusígenos
+   D) Solicitar una espirometría
+   E) Corticoides orales como única medida
+EXP: Paciente con EPOC tipo enfisema presenta signos de exacerbación (aumento de disnea, tos y fiebre). En este contexto, aunque no hay condensación en la radiografía, la presencia de fiebre y cambios clínicos sugieren una exacerbación infecciosa aguda. En estos casos, la terapia antibiótica empírica está indicada, especialmente con cobertura para Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pneumoniae. No se requiere espirometría ni antitusígenos, ya que el objetivo es tratar el factor desencadenante infeccioso. El ejercicio respiratorio puede formar parte del manejo crónico, pero no es la prioridad inmediata. Por tanto, la indicación más precisa e inmediata es el inicio de antibióticos alveolares activos.
+
+### INF-025 | Geohelmintiasis | 2021
+Se considera parasitosis trasmitida por contacto con el suelo a:
+   A) Amebiasis, fascioliasis
+   B) Ascaridiasis, trichuriasis
+   C) Paragonimiasis, oxiuriasis
+  *D) Ancylostomiasis, estrongiloidiasis
+   E) Toxoplasmosis, cisticercosis
+EXP: Tanto la ancylostomiasis como la estrongiloidiasis son parasitosis que comparten un mecanismo de transmisión activa a través de la piel, generalmente por contacto con suelos contaminados con larvas infecciosas. Este tipo de transmisión es típica en contextos de mal saneamiento y falta de uso de calzado. Las larvas penetran la piel, migran por vía sanguínea hasta los pulmones, y finalmente llegan al intestino delgado donde maduran. A diferencia de otras parasitosis que requieren ingesta de alimentos o agua contaminada, estas dos son transmitidas por el contacto directo con el suelo, lo cual define claramente la respuesta correcta.
+
+### INF-026 | Paracoccidioidomicosis | 2021
+Agricultor de 50 años, procede de zona selvática. Desde hace 3 meses pérdida de peso, tos, hemoptisis y aflojamiento de piezas dentarias. TEM tórax: tumoraciones parahiliares de 4 cm de diámetro. BK esputo (3): negativo. Elisa HIV: no reactivo. Biopsi a pulmonar: estructuras redondeadas multigemantes de 20 micras aproximadamente. ¿Cuál es el diagnóstico más probable?
+  *A) Paracoccidioidomicosis del adulto
+   B) Histoplasmosis de la cavidad oral
+   C) Criptococosis diseminada
+   D) Leishmaniasis cutáneo-mucosa
+   E) Cáncer de pulmón
+EXP: Este varón con antecedentes de exposición rural (zona selvática), síntomas respiratorios crónicos, hemoptisis y aflojamiento dental progresivo presenta hallazgos en biopsia pulmonar de estructuras multigemantes de 20 micras, característica morfológica patognomónica de la Paracoccidioides brasiliensis. Esta micosis endémica del trópico sudamericano afecta principalmente a hombres adultos expuestos a suelos húmedos, causando lesiones pulmonares, orales y mucocutáneas. La histoplasmosis también puede simular este cuadro, pero no presenta multigemación. Leishmaniasis mucocutánea no produce lesiones pulmonares y la criptococosis ocurre principalmente en inmunocomprometidos, lo cual ha sido descartado (HIV negativo). El diagnóstico más probable y respaldado por los datos clínico-patológicos es la paracoccidioidomicosis.
+
+### NEU-014 | Neumonía por Mycoplasma | 2021
+Varón de 20 años, sin antecedentes, presenta un cuadro de febrícula, artromialgias, tos seca persistente y astenia de dos semanas de duración. En el último mes, sus dos hermanos de 9 y 17 años han presentado consecutivamente un cuadro similar, que se h a autolimitado. Rx de tórax: infiltrado intersticial bibasal. ¿Cuál es el agente etiológico más probable en este caso?
+   A) Legionella pneumophila
+   B) Coxiella burnetti (fiebre Q)
+   C) Haemophilus influenzae
+  *D) Mycoplasma pneumoniae
+   E) Pneumocystis jirovecii
+EXP: Se trata de un varón de 20 años con un cuadro respiratorio atípico, caracterizado por tos seca persistente, artromialgias, astenia y febrícula de evolución subaguda (más de una semana). Este patrón clínico, junto con la afectación previa y autolimitada de hermanos menores, sugiere un cuadro altamente contagioso, leve en jóvenes y autolimitado, típico de infecciones por Mycoplasma pneumoniae, un agente común de neumonía atípica. La radiografía muestra infiltrado intersticial bibasal, lo cual es compatible con el patrón intersticial que provoca este patógeno. Se descartan otras etiologías por no ajustar al cuadro clínico ni epidemiológico: Legionella se asocia a neumonías graves; Coxiella, a fiebre Q de exposición animal; y Haemophilus, a cuadros más típicos en inmunocomprometidos. Por ello, el agente más probable es Mycoplasma pneumoniae.
+
+### NEU-015 | Neumonía adquirida en la comunidad: tratamiento | 2021
+Varón de 53 años, acude porque desde hace 4 días presenta tos con expectoración herrumbrosa, luego purulenta, fiebre de 38 °C y disnea moderada. Al examen: T: 38.5 °C, soplo tubario en base de hemitórax izquierdo, saturación de oxígeno: 90%. ¿Cuáles antibióticos son de primera elección?
+  *A) Cefalosporinas 3ra generación + macrólidos
+   B) Aminoglucósidos + quinolonas
+   C) Glucopéptidos + lincosamidas
+   D) Macrólidos + tetraciclinas
+   E) Penicilina benzatínica sola
+EXP: Paciente adulto presenta un cuadro típico de neumonía adquirida en la comunidad (NAC) con tos productiva herrumbrosa, fiebre, disnea y hallazgo de soplo tubario en base izquierda, que indica consolidación. Además, la saturación del 90% sugiere hipoxemia le ve. El tratamiento empírico recomendado para NAC en adultos hospitalizados, sin riesgo de Pseudomonas, es la combinación de cefalosporina de tercera generación (como ceftriaxona) que cubre neumococos y bacterias gramnegativas, más macrólido (como azitromic ina) que cubre gérmenes atípicos como Mycoplasma o Chlamydophila. Las otras combinaciones no cubren de forma adecuada el espectro requerido. Por tanto, el esquema correcto es: cefalosporinas de tercera generación + macrólidos.
+
+### CAR-024 | Insuficiencia cardiaca aguda: furosemida | 2021
+Varón de 65 años, con coronariopatía crónica, consulta por disnea, taquipnea, ortopnea. Al examen: crepitantes bilaterales, se ausculta ritmo de galope. ¿Cuál es el medicamento más apropiado?
+   A) Hidroclorotiazida
+   B) Bisoprolol
+  *C) Furosemida
+   D) Nevibolol
+   E) Espironolactona
+EXP: Paciente con cardiopatía isquémica crónica que presenta signos clínicos claros de insuficiencia cardiaca descompensada: disnea, ortopnea, taquipnea, y presencia de crepitantes bilaterales en campos pulmonares, además de ritmo de galope. Todo indica sobrecarga de volumen e hipertensión venocapilar. En este escenario, la furosemida, un diurético de asa potente, es el tratamiento de elección para descongestión rápida, mejorar la disnea y estabilizar al paciente. Los betabloqueadores (como bisoprolol o nevibolol) son útiles en fases estables, pero están contraindicados o se deben usar con precaución durante la descompensación aguda. La hidroclorotiazida no es lo suficientemente potente. Por tanto, el fármaco indicado es: furosemida.
+
+### CAR-025 | Criterios de Framingham | 2021
+Para el diagnóstico de insuficiencia cardiaca congestiva, ¿cuál criterio de Framingham es considerado como criterio mayor?
+   A) Taquicardia (>120 x’)
+   B) Edema maleolar
+   C) Hepatomegalia
+  *D) Disnea paroxística nocturna
+   E) Tos nocturna
+EXP: El diagnóstico clínico de insuficiencia cardiaca congestiva (ICC) puede apoyarse en los criterios de Framingham, que se dividen en mayores y menores. Se requieren 2 mayores o 1 mayor + 2 menores para hacer diagnóstico. La disnea paroxística nocturna es uno de los criterios mayores debido a su alta especificidad clínica en ICC, reflejando congestión pulmonar intermitente. Por el contrario, otros síntomas como taquicardia, edema maleolar y hepatomegalia son considerados criterios menores, ya que pueden estar presentes en otras condiciones clínicas. Por lo tanto, entre las opciones, el criterio mayor de Framingham es: disnea paroxística nocturna.
+
+### CAR-026 | Infarto agudo de miocardio: reperfusión | 2021
+Varón de 60 años acude a emergencia con dolor retroesternal intenso de 3 horas de evolución, fumador crónico, con dislipidemia mixta y sedentarismo. El EKG muestra elevación del segmento ST en derivaciones I, aVL y V6. ¿Cuál sería el principal objetivo terapéutico para este paciente?
+  *A) Limitar el área infartada
+   B) Recuperar “ad integrum” el miocardio
+   C) Prevenir embolismo arterial
+   D) Prevenir desgarro del músculo papilar
+   E) Controlar la frecuencia cardiaca
+EXP: Paciente con infarto agudo de miocardio (IAM) con supradesnivel del ST en derivaciones I, aVL y V6, correspondiente a un infarto lateral de alto riesgo, probablemente con afectación de la arteria circunfleja. Se presentan factores de riesgo clásicos: edad, tabaquismo, dislipidemia y sedentarismo. En este escenario, el objetivo terapéutico primario en la fase aguda es limitar el área infartada mediante reperfusión rápida (idealmente dentro de las primeras 90 minutos) con trombólisis o angioplastia primaria, para preservar la mayor cantidad de miocardio viable. La recuperación “ad integrum” es ideal pero poco realista en daño establecido; la prevención de complicaciones es secundaria. Por ello, el objetivo inicial es: limitar el área infartada.
+
+### GAS-020 | Derrame pleural pancreático | 2021
+Mujer de 44 años con litiasis biliar de varios años, ingresa por dolor abdominal alto, severo, irradiado a la espalda. Unos días después, se objetiva radiológicamente derrame pleural izquierdo. Líquido pleural serohemorrágico, con caracteres de exudado y abundantes eosinófilos. ¿Qué estudio del líquido pleural solicitaría para establecer un posible diagnóstico?
+   A) Cultivo
+   B) DHL
+  *C) Amilasa
+   D) PAP
+   E) Glucosa
+EXP: Mujer con antecedente de litiasis biliar, que presenta cuadro de dolor abdominal alto irradiado a la espalda, característico de pancreatitis aguda. A los días, se objetiva derrame pleural izquierdo, con líquido serohemorrágico, de tipo exudado y eosinofili a pleural. Esta asociación clínica orienta a una complicación pleuropulmonar secundaria a pancreatitis, especialmente por mecanismos de paso de enzimas hacia la cavidad pleural. El estudio más útil y específico para confirmar el origen pancreático del derrame es la amilasa en líquido pleural, que se eleva significativamente en estos casos (>1,000 UI/L). Ni el cultivo ni el PAP orientan en esta dirección. Por tanto, el examen clave es: amilasa en líquido pleural.
+
+### NRL-014 | Neuropatía diabética dolorosa | 2021
+Diabético de 60 años de larga evolución, mal controlado, refiere dolor en “bota” en miembros inferiores, parestesias e hiperalgesia. Antecedente de crisis epiléptica de infrecuente presentación. ¿Cuál es el medicamento de primera elección?
+   A) Etosuximida
+  *B) Gabapentina
+   C) Vigabatrina
+   D) Levetiracetam
+   E) Carbamazepina
+EXP: Paciente diabético de larga evolución, mal controlado, con síntomas de neuropatía periférica típicos: dolor en bota, parestesias e hiperalgesia, sugestivos de neuropatía diabética dolorosa, una complicación común en la diabetes crónica. Ante la necesidad d e manejo sintomático del dolor neuropático, los anticonvulsivantes moduladores del calcio, como la gabapentina, son de primera elección, ya que reducen la transmisión nociceptiva sin interactuar negativamente con el control glucémico. Además, su perfil es favorable en pacientes con antecedentes de epilepsia, como en este caso. Etosuximida se indica para ausencias, la vigabatrina tiene riesgo de daño visual irreversible y levetiracetam no es primera línea en dolor neuropático. Por ello, el tratamiento adecuado es: gabapentina.
+
+### END-013 | Hipocalcemia tras tiroidectomía | 2021
+Mujer de 48 años post operada de tiroidectomía, 24 horas después presenta calambres musculares, luego dificultad para respirar, convulsiones y arritmias. La terapia inmediata debe ser antecedida por dosaje en sangre de:
+  *A) Calcio iónico
+   B) T4 libre
+   C) TSH
+   D) CPK total
+   E) Magnesio sérico aislado
+EXP: Paciente en el postoperatorio temprano de tiroidectomía total, con signos típicos de hipocalcemia aguda: calambres musculares, parestesias, disnea (por laringoespasmo), convulsiones y arritmias. Esto se debe generalmente a la lesión o extirpación accidenta l de glándulas paratiroides, lo que provoca hipoparatiroidismo postquirúrgico. En estos casos, el examen prioritario es el calcio iónico, ya que representa la fracción fisiológicamente activa del calcio, especialmente útil en situaciones críticas. Ni T4 libre ni TSH explican estos síntomas agudos, y la CPK no es relevante aquí. Por ello, el dosaje clave para confirmar y guiar el tratamiento inmediato es: calcio iónico.
+
+### NEF-024 | Hiponatremia hospitalaria | 2021
+Varón de 76 años, hospitalizado desde hace 4 días por presentar diarreas profusas. Se indica dextrosa al 5% en agua destilada 3,000 ml/día y 3 litros de agua libre por boca por día. Al tercer día: lenguaje incoherente y somnolencia progresiva hasta llegar al coma. ¿Cuál sería la medida inicial?
+  *A) Dosaje de sodio en sangre
+   B) Resonancia magnética cerebral
+   C) Dosaje de amonio en sangre
+   D) Punción lumbar
+   E) Tomografía cerebral
+EXP: Paciente adulto mayor hospitalizado por diarrea, que recibe líquidos hipotónicos (DAD5% y agua libre), desarrollando progresivamente alteración del sensorio hasta llegar al coma. Este cuadro sugiere una hiponatremia dilucional aguda, común cuando se administran grandes volúmenes sin control electrolítico. La hiponatremia severa (<120 mEq/L) puede provocar edema cerebral y disfunción neurológica. El paso inmediato es confirmar la sospecha con un dosaje de sodio sérico, lo que permitirá indicar corrección cuidadosa. Las demás opciones (RM, punción lumbar, amonio) no son útiles en el contexto agudo descrito. Medida inmediata: dosaje de sodio en sangre.
+
+### NEF-025 | Hiperpotasemia grave: gluconato de calcio | 2021
+Diabético de 56 años, con enfermedad renal crónica estadio 4, evaluado por presentar debilidad generalizada y potasio sérico de 7 mEq/L, con alteraciones electrocardiográficas de la onda T y sensorio cambiante entre depresión y sopor. ¿Cuál es la primera medida de urgencia a tomar?
+   A) Resinas de intercambio catiónico
+  *B) Gluconato cálcico endovenoso
+   C) Catéter para iniciar diálisis
+   D) Furosemida parenteral
+   E) Bicarbonato de sodio oral
+EXP: Paciente diabético con ERC estadio 4 presenta hiperpotasemia severa (K: 7 mEq/L), alteraciones en el ECG (ondas T picudas), y compromiso del sensorio. Este es un cuadro de urgencia médica, ya que el potasio elevado desestabiliza la conducción cardíaca. La medida más urgente y prioritaria no es eliminar el potasio, sino estabilizar la membrana miocárdica, lo cual se logra con gluconato de calcio EV. Las resinas, diálisis o furosemida ayudan a eliminar potasio, pero no actúan de inmediato. Por eso, la primera medida de urgencia es: gluconato cálcico endovenoso.

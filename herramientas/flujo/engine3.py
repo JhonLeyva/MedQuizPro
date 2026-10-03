@@ -96,17 +96,17 @@ def fases(s, y, d):
         s.text(x + colw / 2, y + 18, tag.upper(), 12, 800, TEAL_D if on else "#334155", maxw=colw - 20)
         s.text(x + colw / 2, y + gh + 36, dias, 11, 600, MUTED, maxw=colw - 20)
     # curvas: lista de (nombre, color, valores normalizados 0..1 por punto)
-    for name, col, vals in d["curvas"]:
+    for name, col, vals in d.get("curvas", []):
         k = len(vals)
         pts = [(X0 + 20 + j * (W - 40) / (k - 1), gy + gh - 40 - v * (gh - 70)) for j, v in enumerate(vals)]
         path = "M " + " L ".join(f"{px:.1f},{py:.1f}" for px, py in pts)
         s.add(f'<path d="{path}" fill="none" stroke="{col}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>')
     # leyenda
     lx = X0 + 18
-    ancho = sum(40 + tw(nm, 10.5, True) for nm, _, _ in d["curvas"])
+    ancho = sum(40 + tw(nm, 10.5, True) for nm, _, _ in d.get("curvas", []))
     apilar = ancho > colw - 20          # si no cabe en la primera franja, una leyenda debajo de otra
     ly = y + 40 - (8 if apilar else 0)
-    for name, col, _ in d["curvas"]:
+    for name, col, _ in d.get("curvas", []):
         s.line(lx, ly, lx + 22, ly, col, 3)
         s.text(lx + 28, ly + 4, name, 10.5, 700, col, "start", colw - 70 if apilar else 200)
         if apilar:

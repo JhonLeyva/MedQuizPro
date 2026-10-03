@@ -1,0 +1,224 @@
+### NRL-011 | Traumatismo encefalocraneano: indicación de TC | 2021
+¿Cuándo se recomienda solicitar TAC cerebral en un paciente con un trauma cráneo encefálico?
+   A) Hipotensión arterial persistente
+   B) Herida de cuero cabelludo sangrante
+  *C) Escala de Glasgow menor de 14
+   D) Radiografía de cráneo normal
+   E) Edad menor de 40 años
+EXP: En el contexto del trauma cráneo encefálico, se recomienda solicitar una tomografía axial computarizada cerebral cuando la escala de Glasgow es menor de 14, dado que indica alteración del nivel de conciencia y posible lesión intracraneal grave. Esta prueba permite detectar hemorragias, contusiones o fracturas que requieran manejo urgente. Otros criterios para TAC incluyen signos neurológicos focales o deterioro progresivo. Heridas sangrantes o radiografías normales no son indicación absoluta para TAC. La adecuada evaluación y uso de TAC evita complicaciones neurológicas severas y mejora el pronóstico.
+
+### HEM-005 | Beta talasemia menor | 2020
+Mujer de 25 años refiere desde hace 3 años artralgias. Examen: palidez, no deformidades articulares. Laboratorio: leucocitos 5.890/mm3; Hb 12,5 g/dl; plaquetas 217.000/mm3. Frotis de sangre periférica: hipocromía y microcitosis. Hierro total y ferritina normales. Electroforesis de hemoglobina: HbA1: 93%, HbA2: 5,8% y HbF:1,2%. ¿Cuál es el diagnóstico más probable?
+   A) Anemia ferropénica
+   B) Anemia hemolítica autoinmune
+  *C) β-talasemia menor
+   D) Infección por Plasmodium vivax
+   E) Esferocitosis hereditaria
+EXP: La paciente presenta una anemia microcítica hipocrómica sin ferropenia, lo que ya descarta una anemia ferropénica. La electroforesis de hemoglobina muestra un incremento de HbA2 (5,8%), lo cual es diagnóstico de β-talasemia menor. Esta es una hemoglobinopatía hereditaria que suele cursar de forma asintomática o con síntomas leves como astenia o artralgias, como en este caso. No hay hallazgos sugestivos de hemólisis activa ni de infección.
+
+### PED-039 | Síndrome nefrótico infantil | 2020
+Niño de 2 años traído a consulta pediátrica por presentar edema palpebral y de miembros inferiores que disminuyen durante el día, orina espumosa; sin antecedente de infección respiratoria ni de piel recientes. ¿Cuál es el diagnóstico probable?
+   A) Trastorno del sodio
+   B) Síndrome nefrítico
+   C) Desnutrición severa
+  *D) Síndrome nefrótico
+   E) Insuficiencia cardiaca congestiva
+EXP: El síndrome nefrótico en pediatría se caracteriza por proteinuria masiva, hipoalbuminemia, edema y dislipidemia. En este caso, el edema palpebral matutino que mejora durante el día, junto con orina espumosa (signo de proteinuria), es típico. La ausencia de antecedentes infecciosos recientes y la edad del paciente (2 años) hacen probable una causa idiopática, como la nefrosis lipoidea. Es importante confirmar con análisis de orina y cuantificación de proteínas. El tratamiento incluye esteroides como primera línea y control dietético.
+
+### TRA-009 | Fractura de la diáfisis humeral | 2021
+Varón de 75 años, acude porque hace 4 horas sufre caída sobre la mano izquierda extendida, presenta dolor y deformación en tercio medio del brazo izquierdo. Al examen: no puede extender la muñeca y los dedos y no abduce el pulgar. ¿Cuál es el diagnóstico?
+  *A) Fractura de la diáfisis del húmero
+   B) Fractura de epífisis distal del húmero
+   C) Fractura del codo
+   D) Luxación del codo
+   E) Fractura de clavícula
+EXP: Varón adulto mayor con caída sobre la mano extendida y dolor con deformidad en el tercio medio del brazo, presenta signos de lesión nerviosa como incapacidad para extender muñeca y dedos, y pérdida de abducción del pulgar. Esto es característico de fractura de la diáfisis del húmero, ya que el nervio radial puede lesionarse en esta fractura, causando parálisis de los músculos extensores de la mano. La fractura distal o del codo, o luxación, suelen presentar otros hallazgos clínicos diferentes. El diagnóstico oportuno permite tratamiento adecuado y prevención de secuelas neurológicas.
+
+### CIR-023 | Obstrucción intestinal por bridas | 2021
+Mujer de 45 años, con antecedente de apendicectomía con peritonitis, desde hace 12 horas presenta dolor abdominal, vómitos y estreñimiento. Rx abdominal de pie: múltiples niveles hidroaéreos y ausencia de gas en el recto. ¿Cuál es el diagnóstico más probable?
+   A) Diverticulitis aguda
+   B) Enfermedad de Crohn
+   C) Colitis ulcerativa
+  *D) Obstrucción intestinal
+   E) Íleo paralítico
+EXP: Mujer adulta con antecedente de peritonitis, dolor abdominal, vómitos y estreñimiento, junto con Rx de abdomen que muestra múltiples niveles hidroaéreos y ausencia de gas rectal, indica obstrucción intestinal. Estos signos radiológicos y clínicos señalan bloqueo mecánico o funcional en el intestino, impidiendo el tránsito normal de gases y líquidos. Diagnóstico diferencial con diverticulitis, enfermedad de Crohn o colitis ulcerativa se basa en la presentación clínica y hallazgos específicos. El tratamiento rápido evita isquemia intestinal y perforación.
+
+### SP-028 | Principio bioético de justicia | 2021
+La exigencia al estado de ofrecer al menos un estándar mínimo de cuidados de la salud disponible para aquellos que lo necesiten se fundamenta en el principio de …
+  *A) Justicia
+   B) Autonomía
+   C) No maleficencia
+   D) Beneficencia
+   E) Autonomía relativa
+EXP: El principio ético que fundamenta la obligación del Estado de garantizar un estándar mínimo de cuidados en salud a todas las personas es la justicia. Este principio implica equidad en el acceso y distribución de recursos sanitarios, garantizando que quienes más lo necesiten reciban atención adecuada. La autonomía, no maleficencia y beneficencia también son principios bioéticos importantes, pero la justicia es la base para políticas públicas que aseguran la cobertura universal y acceso equitativo. Su respeto fortalece derechos humanos y la cohesión social.
+
+### SP-029 | Diseño de investigación: estudio transversal | 2021
+Se decide investigar el impacto de la pandemia COVID-19 en la salud mental de los trabajadores de salud. ¿Cuál es el diseño de investigación adecuado para este proyecto?
+   A) Descriptivo retrospectivo
+   B) De cohorte longitudinal
+   C) Ecológico transversal
+  *D) Correlacional de tipo transversal
+   E) Ensayo clínico aleatorizado
+EXP: Para investigar el impacto de la pandemia COVID-19 en la salud mental de los trabajadores de salud, un diseño correlacional de tipo transversal es el más adecuado. Este diseño permite evaluar la relación entre variables en un momento específico sin seguimiento en el tiempo. Permite medir prevalencias y asociaciones simultáneas, ideal para estudios iniciales en situaciones emergentes. Los diseños de cohorte longitudinal o descriptivo retrospectivo no son tan prácticos para medir impacto puntual. Los estudios ecológicos analizan grupos y no individuos, limitando el análisis individual.
+
+### CIR-024 | Hernia inguinal directa | 2021
+Varón de 30 años, hace 2 semanas descubre una tumoración inguinal derecha que aumenta de tamaño al esfuerzo, localizada encima del pliegue inguinal y de forma esférica de 3x3 cm. Maniobra de Landívar: positiva. ¿Qué tipo de hernia es?
+   A) Inguinal indirecta
+  *B) Inguinal directa
+   C) Crural incarcerada
+   D) Inguinal irreductible
+   E) Hernia crural
+EXP: Varón con tumoración inguinal que aumenta con esfuerzo, localizada sobre el pliegue inguinal, con maniobra de Landívar positiva, indica una hernia inguinal directa. Esta hernia protruye medialmente al anillo inguinal profundo y se manifiesta como una masa palpable sobre el pliegue inguinal. La hernia indirecta aparece lateral al anillo y puede extenderse hacia el escroto. Hernias crurales son inferiores y más frecuentes en mujeres. El término irreductible se refiere a la imposibilidad de reducir la hernia, no a la ubicación.
+
+### SP-030 | COVID-19: definición de contacto directo | 2021
+De acuerdo a la Norma Técnica de Salud vigente: "Estar a menos de un metro por más de 15 minutos el día anterior al inicio de síntomas del contagiado", se considera como contacto...
+   A) Intermitente
+   B) Cruzado
+   C) Indirecto
+  *D) Directo
+   E) Ocasional
+EXP: Según la Norma Técnica vigente, se considera contacto directo a la persona que estuvo a menos de un metro durante más de 15 minutos en el día anterior al inicio de síntomas de un caso confirmado. Esta definición busca identificar a quienes tuvieron exposición significativa para establecer medidas de aislamiento o vigilancia. Contactos indirectos o cruzados tienen menor riesgo y requieren acciones distintas. La definición precisa es crucial para control epidemiológico y evitar la transmisión comunitaria.
+
+### CIR-025 | Shock séptico abdominal: control del foco | 2021
+Paciente con diagnóstico de shock séptico originado en el abdomen. Cirugía lo cataloga como foco infeccioso abordable. ¿Cuál es la indicación correcta para erradicar el foco?
+   A) Luego de 6-12 horas de terapia
+   B) Esperar que no dependa de vasopresores
+   C) Luego de al menos dos dosis de antibióticos
+  *D) Lo más pronto como sea posible
+   E) Solo cuando el paciente esté afebril
+EXP: En shock séptico con foco infeccioso abordable quirúrgicamente, la erradicación del foco debe realizarse lo más pronto posible para evitar progresión del estado séptico. La demora en el control quirúrgico aumenta la mortalidad y el daño tisular. El tratamiento antibiótico es fundam ental, pero insuficiente sin el control del foco, como abscesos o peritonitis. No se debe esperar mejoría hemodinámica ni completar ciclos antibióticos antes de la intervención, pues la infección persistente mantiene la inflamación y el shock.
+
+### CAR-019 | Paro cardiorrespiratorio: acciones simultáneas | 2021
+Ante un adulto al que acaba de diagnosticar paro cardiorrespiratorio e iniciar reanimación cardiopulmonar básica. ¿Qué otra acción debe hacer simultáneamente?
+   A) Infundir adrenalina 5mg EV
+   B) Administrar oxígeno y adrenalina
+  *C) Proporcionar oxígeno y conectar monitor/desfibrilador
+   D) Cristaloides a goteo rápido
+   E) Intubar antes de continuar las compresiones
+EXP: En el manejo inicial del paro cardiorrespiratorio, la reanimación cardiopulmonar básica (RCP) debe ir acompañada de la provisión de oxígeno para mejorar la oxigenación tisular. Además, es crucial conectar un monitor cardíaco o desfibrilador lo antes posible para identificar ritmos desfibrilables como fibrilación ventricular o taquicardia ventricular sin pulso, y actuar en consecuencia con desfibrilación. La administración inmediata de adrenalina no es la primera acción simultánea, y la infusión rápida de cristaloides no está indicada en esta fase. Por ello, oxígeno y monitor son prioritarios.
+
+### CB-012 | Interacciones farmacológicas: citocromo P450 | 2021
+Varón de 45 años, con infección urinaria, por lo que recibe ciprofloxacina; este antibiótico forma un compuesto estable con el citocromo P450. El paciente suele tomar dos tazas de café diarias y nota que ha aumentado sus efectos estimulantes por lo que ha reducido su consumo. Esto puede indicar que la cafeína:
+  *A) Es metabolizada por el P450
+   B) Es inhibidora de la ciprofloxacina
+   C) Es inhibidora de la P450
+   D) Disminuye su concentración por la ciprofloxacina
+   E) Induce el citocromo P450
+EXP: La ciprofloxacina inhibe la enzima citocromo P450, responsable del metabolismo de muchas sustancias, incluida la cafeína. Al formar un compuesto estable con P450, la ciprofloxacina reduce el metabolismo de la cafeína, incrementando su concentración y efectos estimulantes, lo que explica que el paciente haya tenido que reducir su consumo. Esto confirma que la cafeína es metabolizada por la enzima P450, por lo que la inhibición del P450 aumenta sus niveles plasmáticos. No es que la cafeína inhiba a la ciprofloxacina ni que disminuya su concentración.
+
+### GIN-042 | Desprendimiento prematuro de placenta por trauma | 2021
+Primigesta de 31 semanas de embarazo, hace 24 horas sufre traumatismo abdominal por accidente de tránsito, desde ese momento refiere dolor abdominal. Al examen: PA:120/80 mmHg, útero hipertónico y evidencia de sangrado vaginal rojo obscuro escaso y constante. ¿Cuál es el diagnóstico más probable?
+  *A) Desprendimiento prematuro de placenta
+   B) Rotura uterina
+   C) Rotura del seno marginal
+   D) Placenta previa
+   E) Vasa previa
+EXP: En una primigesta de 31 semanas que sufre un traumatismo abdominal, la presencia de dolor abdominal, útero hipertónico y sangrado vaginal rojo oscuro constante sugiere un desprendimiento prematuro de placenta (DPP). El DPP es la separación prematura de la placenta antes del nacimiento, con riesgo sig nificativo para la madre y el feto, especialmente en traumatismos. La presión arterial normal no descarta la gravedad, ya que puede estar compensada inicialmente. La placenta previa suele presentar sangrado rojo brillante y no está asociada a trauma. La rotura uterina cursa con sangrado y dolor intenso, pero es menos frecuente en este contexto.
+
+### GIN-043 | Apendicitis en el embarazo | 2021
+Gestante de 14 semanas, refiere malestar general, náuseas y vómitos. Examen: T°: 38 °C, FC: 100 X´, dolor en fosa iliaca derecha, rebote negativo. Laboratorio: hemograma con leucocitosis y desviación izquierda, sedimento de orina: leucocitos 40 -50/campo, hematies 10 -20/campo y presencia de cilindros. ¿Cuál es el diagnóstico más probable?
+   A) Pielonefritis
+   B) Corioamnionitis
+  *C) Apendicitis
+   D) Diverticulitis
+   E) Colecistitis aguda
+EXP: Gestante de 14 semanas con fiebre, malestar general, náuseas y vómitos, junto con dolor en fosa iliaca derecha y sin signos de irritación peritoneal (rebote negativo), orienta hacia una infección urinaria alta. El examen de orina muestra leucocituria, hematuria y cilindros, lo cual es característico de pielonefritis. Esta entidad es frecuente en gestantes d ebido a los cambios fisiológicos del embarazo que favorecen la estasis urinaria. Apendicitis y diverticulitis se presentan con dolor abdominal localizado y más marcados signos peritoneales. Corioamnionitis no es compatible con la edad gestacional ni con los hallazgos urinarios.
+
+### GIN-044 | Parto podálico: maniobras | 2021
+La atención de un parto podálico es semiactiva. Empieza usted a maniobrar cuando se aprecia:
+   A) Los muslos en la vulva
+   B) Los pies en la vulva
+  *C) El borde inferior de los omoplatos
+   D) La cadera en la vulva
+   E) La cabeza en la vulva
+EXP: En la presentación podálica, la atención del parto debe ser semiactiva, es decir, sin intervenciones manuales hasta que ciertas referencias fetales sean visibles. Se espera que la expulsión ocurra espontáneamente hasta que el borde inferior de los omóplatos aparezca en la vulva, lo cual indica que el feto ya ha descendido lo suficiente y se aproxima el desprendimiento de la cabeza. Solo en ese momento se procede con maniobras específicas como la de Mauriceau o de Bracht, para facilitar el parto sin lesionar al neonato. Maniobrar antes puede interferir con el mecanismo natural del parto y aumentar el riesgo de trauma.
+
+### CB-013 | Surfactante pulmonar: composición | 2021
+Recién nacido prematuro con insuficiencia respiratoria aguda, sin signos infecciosos, se sospecha membrana hialina y se decida administrar surfactante, cuyo componente principal es:
+  *A) Lecitina
+   B) Cisteína
+   C) Ácido hialurónico
+   D) Ácido linoleico
+   E) Colesterol
+EXP: El síndrome de membrana hialina o enfermedad de membrana hialina es frecuente en neonatos prematuros debido a la inmadurez pulmonar, específicamente por la deficiencia de surfactante, una sustancia esencial para reducir la tensión superficial alveolar y evitar el colapso de los alvéolos durante la espiración. El componente principal del surfactante es la lecitina, también cono cida como dipalmitoilfosfatidilcolina, un fosfolípido que representa más del 80 % de su composición. La relación lecitina/esfingomielina en el líquido amniótico se usa como marcador de madurez pulmonar. La administración exógena de surfactante mejora la oxigenación y disminuye la necesidad de ventilación mecánica.
+
+### GIN-045 | Candidiasis vulvovaginal recurrente | 2021
+Mujer 26 años que recibió tratamiento hasta en tres oportunidades con butoconazol por tres días en un lapso de tres meses, debido a prurito vulvar y presencia de secreción vaginal grumosa y aún continúa con las mismas molestias. El tratamiento para ella debería ser:
+   A) Ketoconazol por un mes
+   B) Butoconazol por una semana
+   C) Itraconazol por tres meses
+  *D) Fluconazol por seis meses
+   E) Clotrimazol vaginal por tres días
+EXP: Esta paciente de 26 años tiene candidiasis vulvovaginal recurrente (CVVR), definida como ≥4 episodios en un año o ≥3 episodios en 6 meses, lo cual requiere un tratamiento de inducción seguido de uno de mantenimiento. Ya ha recibido múltiples antimicóticos tópicos sin mejoría. El tratamiento más eficaz es fluconazol 150 mg por vía oral, administrado una vez a la semana durante 6 meses, lo cual ha demostrado reducir recurrencias. El itraconazol por 3 meses o ketoconazol no son de elección, ya que tienen mayor hepatotoxicidad o menor eficacia.
+
+### REU-011 | Fibromialgia | 2021
+Mujer de 48 años, refiere desde hace 9 meses dolores musculares generalizados, mayor por las mañanas y no mejora con AINEs, insomnio y falta de apetito. Al examen: dolor a la palpación en región cervical, lumbar, rodillas, y codos. Laboratorio: VSG: 12 mm/h, PCR: 8 mg/dL. ¿Cuál es el diagnóstico más probable?
+  *A) Fibromialgia
+   B) Polimiositis infecciosa
+   C) Polimialgia reumática
+   D) Policondritis recidivante
+   E) Hipotiroidismo
+EXP: Mujer con dolor musculoesquelético generalizado de larga evolución, sin mejoría con AINEs, insomnio y síntomas depresivos, y examen físico positivo a puntos dolorosos característicos. Esto sugiere fibromialgia, un trastorno del procesamiento central del dolor, común en mujeres de mediana edad. La VSG y PCR normales ayudan a excluir enfermedades inflamatorias como polimialgia reumática. La polimiositis genera debilidad más que dolor y se asocia a enzimas musculares elevadas. La policondritis compromete cartílagos, no músculos.
+
+### NRL-012 | Encefalopatía de Wernicke | 2021
+Varón de 50 años, bebedor habitual de alcohol es llevado a urgencias con un cuadro de desorientación, dificultad en la memoria inmediata, marcha torpe. Al examen: nistagmus vertical y paresia del III par craneal izquierdo, ataxia. ¿Cuál es el tratamien to?
+   A) Dexametasona
+   B) Glucosa
+  *C) Tiamina
+   D) Etanol
+   E) Haloperidol
+EXP: Paciente alcohólico crónico con signos de encefalopatía de Wernicke, que se caracteriza por la tríada clásica: confusión, oftalmoplejía y ataxia. En el caso, hay nistagmo, paresia del III par craneal, ataxia y desorientación, lo que encaja con este diagnóstico. Esta encefalopatía se debe a una deficiencia de tiamina (vitamina B1). Es crucial administrar tiamina antes que gluc osa, ya que dar glucosa sin tiamina puede precipitar o empeorar el cuadro neurológico. No se indica dexametasona ni etanol. El tratamiento inmediato es la reposición de tiamina por vía parenteral.
+
+### INF-019 | Meningitis criptocócica en VIH | 2021
+Varón de 23 años seropositivo VIH desde hace 2 años. No recibe TARGA por efectos adversos. Desde hace 16 días cefalea de intensidad creciente. Al examen: T°: 38.2 °C, rigidez de nuca. LCR: claro, 37 células mononucleares,120 mg/dL proteínas, 45 mg/dL. de glucosa, tinta china: positivo. ¿Cuál es el tratamiento más adecuado?
+   A) Pirimetamina
+   B) Aciclovir
+   C) Tocilizumab
+  *D) Anfotericina B
+   E) Ganciclovir
+EXP: Paciente VIH positivo sin tratamiento antirretroviral, con cefalea subaguda, fiebre y rigidez de nuca. El LCR muestra pleocitosis mononuclear, proteínas elevadas y glucosa baja, patrón típico de meningitis fúngica, específicamente por Cryptococcus neoformans. La tinta china positiva confirma e l diagnóstico, ya que identifica la cápsula del hongo. El tratamiento de elección es Anfotericina B, asociado a flucitosina si está disponible, seguido de fluconazol para mantenimiento. Aciclovir se usa en encefalitis por herpes y pirimetamina en toxoplasmosis, pero ninguno corresponde a este cuadro. Tocilizumab es un inmunosupresor, sin rol en meningitis criptocócica.
+
+### CIR-026 | Mordedura humana | 2021
+Niño de 8 años es mordido por su hermano menor: Al examen: marcas de dientes en su brazo, sin sangrado. ¿Cuál es la conducta a seguir?
+  *A) Lavado de mordedura con agua y jabón
+   B) Aplicación de pomada antibiótica
+   C) Cubrir la mordedura con gasas
+   D) Inmovilización de brazo
+   E) Profilaxis antirrábica
+EXP: Mordedura humana, aunque leve y sin sangrado, puede implicar riesgo de infección por bacterias como Eikenella corrodens y Staphylococcus aureus. El primer paso y el más importante en estos casos es el lavado inmediato con agua y jabón, para remover patógenos y restos biológicos. No se indica pomada antibiótica de entrada si no hay signos de infección. Cubrir con gasas puede ser útil después del lavado, pero no reemplaza la limpieza inicial. La inmovilización solo se indica si hay compromiso funcional. La medida más efectiva y de elección en este caso leve, sin complicaciones, es el lavado.
+
+### SP-031 | Obstinación terapéutica | 2021
+Niño de 8 años de edad con diagnóstico de cáncer en fase terminal, presenta sucesivos paros cardiacos; el médico realiza maniobras de reanimación con intubación y tratamiento para recuperación de la actividad cardiaca, quedando en estado de coma; indica antibióticos y reinicio de la quimioterapia. ¿Qué tipo de falta deontológica se ha cometido?
+   A) Negligencia médica
+   B) Asistencia paliativa
+  *C) Obstinación terapéutica
+   D) Decisión anticipada
+   E) Eutanasia activa
+EXP: El paciente es un niño en fase terminal de cáncer que presenta múltiples paros cardíacos, luego de los cuales el médico continúa con maniobras agresivas como reanimación, intubación, antibióticos e incluso reinicio de quimioterapia. Estas intervenciones no buscan calidad de vida ni alivio del sufrimiento, sino solo prolongar artificialmente un proceso de muerte inevitable. Esta conducta corresponde a la obstinación terapéutica, también conocida como encarnizamiento terapéutico. No se trata de negligencia, y a que hay acción médica, ni de asistencia paliativa, que busca confort. La decisión anticipada tampoco aplica porque no se menciona voluntad previa del paciente o su familia.
+
+### SP-032 | Violencia contra la mujer: denuncia | 2021
+Mujer de 37 años, casada, consulta por cefalea. Al examen: PA: 90/60 mmHg, FC: 72 x´, lesiones equimóticas en brazos y tórax causadas por elementos externos; labilidad emocional y ansiosa. Usted sospecha violencia familiar. ¿Cuál es la conducta a seguir?
+   A) Referir al psicólogo
+  *B) Denunciar ante las autoridades
+   C) Conversar con el esposo
+   D) Referir a la asistenta social
+   E) Indicar analgésicos y alta
+EXP: Mujer con signos físicos de agresión (equimosis en brazos y tórax) y síntomas emocionales (labilidad, ansiedad), en un contexto clínico compatible con violencia familiar. Ante esta sospecha, la acción inmediata y prioritaria del médico es denunciar el hecho ante las autoridades competentes. Esto se fundamenta en el principio de protección a la víctima y en el marco legal vigente en Perú (Ley N.º 30364). No basta solo con derivar a psicología o trabajo social, ya que eso no garantiza la seguridad de la víctima. Conversar con el agresor es una conducta inadecuada y riesgosa.
+
+### REU-012 | Urticaria aguda: tratamiento | 2021
+Varón de 50 años, desde hace 2 días presenta lesiones pruriginosas diseminadas por toda la superficie corporal. Examen de piel: presencia de habones. ¿Cuál es el tratamiento?
+  *A) Antihistamínico
+   B) Corticoide tópico
+   C) Antibiótico tópico
+   D) Antimicótico
+   E) Antiviral
+EXP: Paciente con cuadro de inicio agudo de lesiones pruriginosas generalizadas en forma de habones, que son lesiones edematosas, transitorias y elevadas de la piel, típicas de una urticaria aguda. Esta se produce por liberación de histamina y otros mediadores de mastocitos en respuesta a diversos estímulos (alérgenos, infecciones, medicamentos). El tratamiento de elección es con antihistamínicos, preferiblemente de segunda generación (loratadina, cetirizina) por su menor efecto sedante. El uso de corticoides tópicos, antibióticos o antimicóticos no está indicado en esta situación.
+
+### NEF-018 | Amiloidosis secundaria renal | 2021
+Mujer de 62 años consulta por edema de MMII. Antecedente de artritis reumatoide hace 27 años. Laboratorio: VSG 110 mm/h, albúmina 2,4 g/dL, creatinina 2,1 mg/dL y proteinuria 6 g/24 h. Bx renal: tinción de rojo de Congo (+). ¿Cuál es el diagnóstico más probable?
+   A) Vasculitis reumatoide
+   B) Nefropatía por AINES
+  *C) Amiloidosis secundaria
+   D) Glomerulonefritis focal y segmentaria
+   E) Nefropatía membranosa
+EXP: Paciente con artritis reumatoide de larga evolución, que ahora presenta síndrome nefrótico (edema, hipoalbuminemia, proteinuria en rango nefrótico) y disfunción renal. El hallazgo clave es la positividad de la tinción con rojo Congo, que indica depósitos de amiloide. En este contexto, se trata de una amiloidosis secundaria (AA), una complicación conocida de enfermedades inflamatorias crónicas. El diagnóstico se confirma por biopsia. La vasculitis reumatoide no cursa con estos hallazgos renales. La nefropatía por AINES suele causar lesión intersticial.

@@ -1,0 +1,224 @@
+### SP-022 | Cuidados paliativos y futilidad | 2020
+Conocido cantante de 31 años, sufre una hemorragia cerebral casi fatal, sometido a craneotomía descompresiva, actualmente en ventilación mecánica, en tratamiento de sepsis, poca al tratamiento, pronóstico muy malo. ¿Cuál conducta es la adecuada?
+   A) Reintervención quirúrgica
+   B) Derivar a hospital de mayor resolución
+   C) Rotar a antibióticos más potentes
+  *D) Cuidados paliativos
+   E) Iniciar quimioterapia
+EXP: Nos encontramos ante un caso con pronóstico neurológico muy reservado, además de una condición crítica por sepsis refractaria. Las opciones como reintervención, rotación de antibióticos o traslado son invasivas y fútiles en este contexto. La decisión médica más ética y humana es iniciar cuidados paliativos, orientados a confort, manejo del dolor y apoyo a la familia. Se prioriza la calidad de vida ante la ausencia de posibilidad real de recuperación.
+
+### SP-023 | Muerte violenta: comunicar al Ministerio Público | 2020
+Muere un hombre adulto en su comunidad, los pobladores dicen que se cayó de un árbol muy alto y que se encontraba solo, le solicitan que otorgue el certificado de defunción. ¿Cuál es la actitud correcta?
+  *A) Comunicar al Ministerio público
+   B) Otorgar el certificado
+   C) Realizar la necropsia
+   D) Indagar con más pobladores
+   E) Firmar como muerte natural
+EXP: Al tratarse de una muerte violenta y no presenciada, se trata de un caso médico legal que obliga a comunicar al Ministerio Público. El médico no debe extender el certificado de defunción en estas circunstancias, ya que la causa de muerte debe ser investigada. Cualquier muerte sospechosa, violenta o sin atención médica reciente entra en esta categoría. Emitir el certificado sin peritaje sería una falta grave ética y legal.
+
+### END-007 | Tormenta tiroidea | 2020
+Mujer de 26 años, con baja de peso, temblorosa, piel caliente, hiperfagia, diarreas frecuentes. Hallazgos: T°:39ºC. taquiarritmia. desorientada. Signos de insuficiencia cardiaca. Gammagrafía tiroidea con hipercaptación. ¿Cuál es el probable diagnóstico?
+   A) Tirotoxicosis facticia
+   B) Feocromocitoma
+  *C) Tormenta tiroidea
+   D) Bocio hiperfuncionante
+   E) Ansiedad generalizada
+EXP: El cuadro descrito —hipertermia, taquiarritmia, trastorno de conciencia e insuficiencia cardiaca— en una paciente con hipercaptación gammagráfica indica una tormenta tiroidea, emergencia endocrinológica que amenaza la vida. No es una tirotoxicosis facticia, ya que esta última suele tener baja captación tiroidea. La tormenta tiroidea requiere manejo intensivo: betabloqueadores, antitiroideos, yodo y esteroides. La identificación temprana es vital para disminuir la mortalidad.
+
+### PED-036 | Reflujo vesicoureteral: cistouretrografía miccional | 2020
+Niño de 2 años con ITU recurrente, episodios de fiebre, alteraciones en la ecografía renal, signos de disfunción del tracto urinario inferior, antecedentes familiares de reflujo vésico uretral. ¿Qué examen sería de mayor elección para el diagnóstico?
+   A) Ecografía vías urinarias
+  *B) Cistouretrografía miccional seriada
+   C) Gamagrafía renal
+   D) Cistografía
+   E) Urografía excretora
+EXP: El reflujo vesicoureteral (RVU) es una causa frecuente de ITU recurrente en pediatría y puede asociarse a daño renal permanente. La cistouretrografía miccional seriada (CUMS) es el estándar de oro para el diagnóstico de RVU, ya que permite observar el paso retrógrado de orina desde la vejiga hacia los uréteres y riñones durante la micción. La ecografía renal es útil, pero no específica; la gammagrafía se usa más para evaluar daño renal ya instalado.
+
+### PED-037 | Neumonía grave del lactante | 2020
+Niño de 6 meses, tos y fiebre desde hace 5 días. Examen: Fr: 60x´, T: 38.5°C., retracción subcostal, discreta cianosis y crepitantes en ambos campos pulmonares. Hemograma: leucocitosis con desviación izquierda. ¿Cuál es el antibiótico indicado?
+   A) Oseltamivir
+   B) Dicloxacilina
+   C) Penicilina G sódica
+  *D) Ceftriaxona
+   E) Amoxicilina oral
+EXP: Este caso es compatible con una neumonía bacteriana severa, dada la fiebre alta, la taquipnea marcada, la retracción subcostal y la presencia de signos de consolidación bilateral. La leucocitosis con desviación izquierda refuerza la etiología bacteriana. En este grupo etario, la ceftriaxona es el antibiótico de elección por su espectro amplio, facilidad de administración y eficacia en infecciones respiratorias graves. No está indicado oseltamivir, ya que no hay signos claros de influenza.
+
+### PED-038 | Reanimación neonatal: ventilación a presión positiva | 2020
+RN producto de primera gestación, nacido de parto vaginal, APGAR de 3 al minuto. Entra en apnea con FC de 90x'. No se recupera con la aspiración ni con estimulación táctil ¿Cuál es la conducta a seguir?
+  *A) Ventilación a presión positiva
+   B) Aporte de oxígeno en mascarilla
+   C) Aplicar Adrenalina EV
+   D) Realizar masaje cardiaco
+   E) Esperar 5 minutos y reevaluar
+EXP: Un RN con frecuencia cardíaca menor de 100 por minuto y apnea persistente tras aspiración y estimulación requiere ventilación a presión positiva (VPP) de forma inmediata. Es el paso inicial en la reanimación neonatal avanzada según la guía de la AHA y la OMS. El masaje cardíaco solo se indica si la FC < 60 tras VPP adecuada. La adrenalina viene después si no hay respuesta a estas dos medidas.
+
+### SP-024 | Estudio ecológico | 2020
+Cuando se desea saber la relación entre calidad de agua y enfermedades diarreicas agudas y solo se dispone de información de casos a nivel de localidad ¿Cuál es el estudio epidemiológico que se debe plantear?
+   A) Cohorte
+   B) Transversal
+  *C) Ecológico
+   D) Casos y controles
+   E) Ensayo clínico
+EXP: Cuando se estudia una relación entre variables poblacionales, como calidad de agua y prevalencia de enfermedades, sin datos individuales, se utiliza un estudio ecológico. Este tipo de diseño es útil cuando se manejan registros agregados y permite formular hipótesis a nivel poblacional, aunque no se puede inferir causalidad directa. Es ideal para vigilancia en salud pública.
+
+### OFT-007 | Rinitis vasomotora | 2020
+Mujer de 38 años con episodios de rinorrea y congestión nasal por los cambios de temperatura ambiental. Examen: hipertrofia de cornetes. Pruebas cutáneas negativas. No detecta IgE, ni eosinofilia. ¿Cuál es el tipo de rinitis?
+  *A) Vasomotora
+   B) Alérgica
+   C) Crónica
+   D) Atrófica
+   E) Medicamentosa
+EXP: La rinitis vasomotora es un tipo de rinitis no alérgica desencadenada por estímulos inespecíficos como cambios de temperatura, olores fuertes, estrés o humo. Clínicamente se presenta con rinorrea, obstrucción nasal y estornudos, pero sin prurito ocular ni antecedentes atópicos. En este caso, los exámenes confirman la ausencia de IgE elevada, eosinofilia y pruebas cutáneas negativas, lo que descarta rinitis alérgica. La hipertrofia de cornetes también es un hallazgo común en esta condición. El tratamiento incluye esteroides tópicos y anticolinérgicos intranasales.
+
+### SP-025 | Niveles de prevención en tuberculosis | 2020
+En la prevención de la transmisión de tuberculosis pulmonar, el uso de mascarillas, cubrirse la boca y nariz al toser, estornudar o reír, es un nivel de prevención:
+   A) Mixta
+   B) Secundaria
+   C) Terciaria
+  *D) Primaria
+   E) Cuaternaria
+EXP: Las acciones como cubrirse al toser, usar mascarillas, ventilar ambientes y educar sobre higiene respiratoria forman parte de la prevención primaria. Estas medidas buscan reducir la transmisión del bacilo de Koch en la comunidad. Se dirigen a personas sanas o aún no infectadas. Este nivel de prevención es fundamental en enfermedades infecciosas transmisibles como la tuberculosis pulmonar. La prevención secundaria busca diagnosticar y tratar tempranamente al enfermo, mientras que la terciaria se enfoca en evitar secuelas. Por tanto, estas medidas son preventivas antes de que se presente la enfermedad.
+
+### SP-026 | Peste neumónica: contacto cercano | 2020
+En el norte del Perú ocurren aún casos de peste neumónica. Se considera como CONTACTO CERCANO a toda persona que:
+  *A) Estuvo a menos de 2 metros de distancia de un paciente con peste
+   B) Ha visitado al enfermo un período de 7 días antes del inicio de la enfermedad
+   C) Asistió al velatorio de un fallecido por peste
+   D) Que atendió sanitariamente al paciente
+   E) Vive en la misma provincia
+EXP: La peste neumónica es una forma altamente contagiosa de peste, causada por Yersinia pestis y transmitida de persona a persona por gotículas respiratorias. Se considera contacto cercano a cualquier persona que haya estado a menos de 2 metros de un paciente infectado, especialmente sin equipo de protección. Esto incluye familiares, cuidadores o personal de salud expuesto. El contacto debe haber ocurrido durante el período infeccioso del paciente, que incluye el tiempo desde el inicio de síntomas respiratorios. Este criterio es fundamental para la vigilancia y profilaxis.
+
+### PED-040 | Sepsis neonatal temprana | 2020
+Recién nacido de 2 horas, de madre sin control prenatal y con RPM de 20 horas, presenta intolerancia oral y distensión abdominal. ¿Cuál es el diagnóstico probable?
+   A) APLV
+   B) Obstrucción intestinal
+   C) Reflujo gastroesofágico
+  *D) Sepsis neonatal temprana
+   E) Atresia esofágica
+EXP: La sepsis neonatal temprana se presenta en las primeras 72 horas de vida y suele estar asociada a factores de riesgo maternos como rotura prematura de membranas (RPM) prolongada sin control prenatal. Los signos iniciales pueden ser inespecíficos: intolerancia alimentaria, distensión abdominal, letargo o dificultad respiratoria. Ante estos datos clínicos y el contexto perinatal, el diagnóstico más probable es sepsis neonatal. El manejo incluye cultivos, antibióticos empíricos y monitoreo en UCIN.
+
+### PED-041 | Insuficiencia cardiaca en el lactante | 2020
+Varón de 10 meses que presenta lactancia entrecortada, taquipnea y sudoración de cabeza. Al examen: polipneico, con retracción subcostal, FC:160/min, con hepatomegalia leve. soplo sistólico III/VI. ¿Con qué fármaco iniciaría el tratamiento?
+   A) Captopril
+   B) Digoxina
+   C) Dopamina
+  *D) Furosemida
+   E) Propranolol
+EXP: El caso presenta síntomas cardinales de falla cardíaca: lactancia entrecortada, taquipnea, sudoración, hepatomegalia y soplo. En un lactante, estas manifestaciones orientan a una cardiopatía congénita con sobrecarga de volumen, como una comunicación interventricular. El manejo inicial se basa en mejorar la sobrecarga de volumen y síntomas congestivos. En este contexto, el diurético (furosemida) es el fármaco de elección inicial para reducir la precarga y aliviar los síntomas. Posteriormente se evalúa el uso de inotrópicos o vasodilatadores según la respuesta.
+
+### SP-027 | Calidad de atención: aspectos tangibles | 2020
+La dimensión de la calidad que se refiere a las características de las instalaciones, equipos, personal y materiales de comunicación que intervienen en el servicio, constituye el componente de:
+   A) Respuesta rápida
+   B) Confiabilidad
+  *C) Aspectos tangibles
+   D) Seguridad
+   E) Empatía
+EXP: Los aspectos tangibles son una de las dimensiones de la calidad percibida del servicio, según el modelo SERVQUAL. Esta dimensión se refiere a las características físicas del entorno de atención: infraestructura, equipos, apariencia del personal, materiales visuales e informativos. Es el primer aspecto que el usuario percibe al ingresar al establecimiento. Su adecuada presentación genera confianza y mejora la experiencia del paciente. No se relaciona directamente con el resultado clínico, pero influye mucho en la percepción de calidad.
+
+### REU-010 | Dermatitis atópica: distribución según la edad | 2020
+Lactante con prurito nocturno y lesiones recurrentes pápulo - eritematosas, descamativas con exudado seroso en cuero cabelludo, cara y regiones extensoras de extremidades. ¿Cuál es la sospecha diagnóstica?
+   A) Acarosis
+   B) Psoriasis
+   C) Dermatitis alérgica
+  *D) Dermatitis atópica
+   E) Impétigo
+EXP: La dermatitis atópica es una enfermedad inflamatoria crónica de la piel que comienza en la infancia. Se caracteriza por lesiones eccematosas pruriginosas, con localización según la edad: en lactantes, cuero cabelludo, cara y superficies extensoras. El prurito intenso, sobre todo nocturno, y el exudado en lesiones sugieren inflamación activa. Es importante diferenciarla de escabiosis y psoriasis, que tienen otras distribuciones y características clínicas. La dermatitis atópica tiene un fuerte componente genético y alérgico.
+
+### PED-042 | Neumonía típica del lactante | 2020
+Lactante de 9 meses en mal estado general con rinorrea y tos productiva hace 5 días, se agrega fiebre de 39°C. Al examen: polipneico, con tiraje subcostal, repitentes focalizados, algunos roncos y sibilantes. Hemograma con leucocitosis, neutrofilia. Rx de tórax: infiltrados algodonosos en base de hemitórax derecho. ¿Cuál es el probable diagnóstico?
+   A) Neumonía atípica
+  *B) Neumonía típica
+   C) Bronconeumonía
+   D) Bronquitis aguda
+   E) Neumonía aspirativa
+EXP: Este paciente tiene fiebre alta, compromiso del estado general, taquipnea, tiraje y signos de consolidación como crepitantes y sibilancias. La radiografía muestra infiltrado algodonoso, y el hemograma con leucocitosis y neutrofilia sugiere infección bacteriana. Estos hallazgos son típicos de una neumonía típica, generalmente causada por neumococo. Las neumonías atípicas suelen tener síntomas más leves y radiología más difusa. El manejo incluye antibióticos y oxígeno si hay hipoxemia.
+
+### TRA-008 | Osteosarcoma | 2020
+Adolescente con dolor en 1/3 distal de muslo izquierdo que lo despierta en las noches, no cede con analgésicos local ni oral, posteriormente aumento de volumen y marcha inestable. Rx. de fémur: destrucción esclerótica de 1/3 distal de fémur. ¿Cuál es el diagnóstico probable?
+  *A) Osteosarcoma
+   B) Osteomielitis
+   C) Sarcoma de Ewing
+   D) Linfoma
+   E) Osteocondroma
+EXP: El dolor óseo nocturno, progresivo y que no cede con analgésicos, acompañado de aumento de volumen y alteraciones radiológicas con destrucción ósea esclerótica, es característico del osteosarcoma, el tumor óseo maligno primario más común en adolescentes. Suele afectar el tercio distal del fémur o proximal de la tibia, en la metáfisis. Requiere diagnóstico histológico, estadiaje completo y tratamiento quirúrgico y quimioterapia.
+
+### NRL-010 | Mielitis transversa | 2020
+Niño con antecedente de infección viral, presenta bruscamente debilidad muscular progresiva y sensitiva en miembros inferiores. Examen: flaccidez muscular de piernas y con nivel sensitivo a nivel torácico medio. ¿Cuál es el diagnóstico probable?
+   A) Polineuropatía infecciosa
+  *B) Mielitis transversa
+   C) Poliomielitis
+   D) Meningoencefalitis
+   E) Esclerosis múltiple
+EXP: La aparición súbita de debilidad motora y sensitiva en las extremidades inferiores, con nivel sensitivo definido y flacidez, en el contexto de infección viral previa, orienta al diagnóstico de mielitis transversa. Es un proceso inflamatorio agudo de la médula espinal, que afecta tanto vías motoras como sensitivas. Se diferencia del síndrome de Guillain-Barré por el nivel sensitivo. Requiere manejo con corticoides, rehabilitación y vigilancia estrecha.
+
+### PED-043 | Glomerulonefritis postestreptocócica | 2020
+Niño de 7 años con faringoamigdalitis bacteriana hace 7 días. Al examen: edema, cefalea, tensión arterial en el percentil 90 y hematuria. ¿Cuál es el diagnóstico probable?
+  *A) Glomerulonefritis postestreptocócica
+   B) Nefritis lúpica
+   C) Vasculitis por hipersensibilidad
+   D) Síndrome de Goodpasture
+   E) Síndrome nefrótico idiopático
+EXP: La glomerulonefritis postestreptocócica aparece típicamente una semana después de una faringoamigdalitis por estreptococo beta hemolítico del grupo A. En este caso, el niño tiene síntomas compatibles como hematuria, hipertensión y cefalea, todo dentro del contexto post infeccioso. El diagnóstico se apoya en la historia clínica y se confirma con complementos bajos y antiestreptolisinas elevadas. Generalmente es autolimitada, con buen pronóstico en pediatría.
+
+### INF-017 | Uretritis: tratamiento empírico | 2020
+Varón de 18 años, acude por presentar secreción purulenta por meato urinario y disuria. Antecedente: 5 días antes relación sexual casual. ¿Cuál es el tratamiento de elección?
+   A) Cefotaxima más doxiciclina
+   B) Ciprofloxacino en dosis única
+   C) Metronidazol más tinidazol
+  *D) Ceftriaxona más azitromicina
+   E) Penicilina benzatínica
+EXP: El cuadro clínico de secreción purulenta uretral y disuria tras contacto sexual de riesgo es típico de uretritis gonocócica. El tratamiento empírico actual recomendado es ceftriaxona más azitromicina, cubriendo simultáneamente Neisseria gonorrhoeae y Chlamydia trachomatis. Este esquema es eficaz y ayuda a prevenir complicaciones como epididimitis o diseminación sistémica. Además, se debe indicar abstinencia sexual y tamizaje a parejas.
+
+### INF-018 | Meningitis meningocócica | 2020
+Escolar con 2 días de T° axilar 39 a 40º C, anorexia, cefalea persistente que se intensifica con los movimientos y vómitos. Examen: somnoliento, rigidez de nuca, signo de Brudzinski (+), lesiones petequiales y equimosis en áreas de flexión de brazos y piernas. ¿Cuál la etiología probable?
+  *A) Neisseria meningitidis
+   B) Haemophilus influenzae tipo B
+   C) Staphylococcus aureus
+   D) Pseudomonas aeruginosa
+   E) Listeria monocytogenes
+EXP: El cuadro clínico de fiebre elevada, cefalea intensa, rigidez de nuca, somnolencia y signos meníngeos con petequias y equimosis es típico de meningitis meningocócica. La presencia de exantema purpúrico debe hacer sospechar Neisseria meningitidis, una causa fulminante de sepsis y meningitis, especialmente en escolares y adolescentes. Es una urgencia médica que requiere antibióticos de amplio espectro y medidas de soporte en UCI.
+
+### GAS-012 | Hepatitis A: diagnóstico serológico | 2020
+Niño de 3 años, hace 5 días, malestar general, hiporexia, vómitos, dolor abdominal, fiebre, coluria y acolia. Al examen: ictericia de piel y mucosas, hepatomegalia. ¿Cuál de los siguientes análisis me confirma el diagnostico?
+   A) Ags HB
+   B) Anti VHC
+  *C) IgM anti VHA
+   D) Anti VHE
+   E) IgG anti VHA
+EXP: Niño con ictericia, coluria y hepatomegalia presenta signos clásicos de hepatitis viral aguda. Para confirmar el diagnóstico es necesario identificar anticuerpos específicos en sangre. La IgM anti-VHA es indicativa de infección reciente por el virus de la hepatitis A, el agente más común en niños. Este virus se transmite fecal-oral y suele causar enfermedad autolimitada. La detección temprana permite iniciar medidas de soporte y evitar complicaciones. También es importante para controlar brotes epidémicos en la comunidad. Por tanto, la serología adecuada es fundamental para confirmar el diagnóstico y manejar el caso.
+
+### NEF-017 | Torsión testicular | 2020
+Escolar presenta bruscamente dolor en testículo derecho. Examen: tumefacción y dolor a la palpación escrotal con reflejo cremasteriano ausente. ¿Cuál es el diagnóstico probable?
+   A) Epididimitis
+  *B) Torsión testicular
+   C) Orquitis urleana
+   D) Varicocele
+   E) Hidrocele
+EXP: Un escolar con dolor testicular súbito, tumefacción y reflejo cremastérico ausente sugiere torsión testicular, una urgencia quirúrgica. La torsión implica compromiso del flujo sanguíneo y pone en riesgo la viabilidad del testículo. Es fundamental un diagnóstico precoz para evitar necrosis y pérdida irreversible. La exploración física es clave, aunque la ecografía Doppler puede ayudar. El tratamiento inmediato es la cirugía para destorcer y fijar el testículo afectado. El pronóstico mejora significativamente con intervención rápida. Esta patología debe ser reconocida de inmediato por pediatras y urgenciólogos.
+
+### PED-044 | Parálisis de Erb-Duchenne | 2020
+RN macrosómico de parto vaginal traumático. Al Examen: aducción y rotación interna del brazo con pronación del antebrazo: ¿Cuál es el diagnóstico probable?
+   A) Fractura de clavícula
+   B) Parálisis de Klumpke
+   C) Fractura epifisaria del húmero
+  *D) Parálisis de Erb-Duchenne
+   E) Parálisis total del plexo braquial
+EXP: Recién nacido macrosómico con postura característica de aducción, rotación interna del brazo y pronación del antebrazo presenta parálisis de Erb-Duchenne. Esta lesión afecta las raíces nerviosas C5 y C6 del plexo braquial. Es común en partos traumáticos o distócicos con tracción excesiva del cuello. Se manifiesta con debilidad y pérdida de reflejos en el miembro superior. El diagnóstico clínico es clave para iniciar rehabilitación temprana. El pronóstico depende de la extensión del daño y la intervención fisioterapéutica o quirúrgica. La identificación precoz mejora las probabilidades de recuperación funcional.
+
+### PED-045 | Convulsiones neonatales sutiles | 2020
+RN prematuro con Apgar 3 al minuto y 7 a los 10 minutos. A la hora presenta mirada fija, movimientos bucolinguales (masticación y protrusión de la lengua). Sospechará de convulsiones:
+  *A) Sutiles
+   B) Clónicas
+   C) Tónicas
+   D) Mioclónicas
+   E) Espasmos infantiles
+EXP: El recién nacido prematuro con Apgar bajo presenta movimientos bucales y mirada fija que sugieren convulsiones sutiles, las más frecuentes en neonatos. Estas convulsiones se caracterizan por movimientos automáticos y discretos, difíciles de identificar. La detección temprana es vital para evitar daño neurológico. Las convulsiones clónicas, tónicas o mioclónicas tienen manifestaciones distintas y suelen ser menos frecuentes en esta etapa. El manejo requiere monitoreo neurológico y apoyo especializado. El reconocimiento adecuado mejora el pronóstico del neonato afectado.
+
+### PED-046 | Ictericia neonatal por policitemia | 2020
+¿Cuál condición, con recuento de reticulocitos normal, produce ictericia neonatal por aumento de producción?
+  *A) Policitemia
+   B) Incompatibilidad ABO
+   C) Incompatibilidad Rh
+   D) Esferocitosis
+   E) Ictericia por leche materna
+EXP: La policitemia neonatal, con recuento normal de reticulocitos, produce ictericia por aumento en la destrucción de glóbulos rojos. Este aumento de la masa eritrocitaria eleva la producción de bilirrubina. A diferencia de incompatibilidades ABO o Rh, no hay activación inmune ni incremento de reticulocitos. La ictericia secundaria a policitemia requiere diagnóstico temprano para evitar kernicterus. El tratamiento puede incluir fototerapia o exanguinotransfusión según la gravedad. Reconocer esta condición mejora el manejo clínico neonatal.

@@ -24,6 +24,12 @@ def _sev(i, n, orden):
     return SEV[round(i * (min(n, 5) - 1) / (n - 1))] if n <= 5 else SEV[min(4, i * 5 // n)]
 
 
+def _casos(e):
+    """caso: índice, lista de índices o None (el caso no trae datos para ubicarlo: se explica en «porque»)."""
+    c = e.get("caso")
+    return [] if c is None else (list(c) if isinstance(c, (list, tuple)) else [c])
+
+
 def _cabecera(s, y, e):
     """Nombre oficial grande + para qué sirve. Devuelve el alto usado."""
     nom = e["nombre"].upper()
@@ -61,7 +67,7 @@ def _cols_medir(e):
 def _cols(s, y, e):
     g = e["grados"]
     n = len(g)
-    caso = e["caso"] if isinstance(e["caso"], (list, tuple)) else [e["caso"]]
+    caso = _casos(e)
     cw, GAP, cuerpos, head, ch = _cols_medir(e)
     top = y + 16          # sitio para la etiqueta «ESTE CASO» sobre la tarjeta
     # la gravedad se lee en el color de cada franja (verde → rojo)
@@ -97,7 +103,7 @@ def _filas_medir(e):
 
 
 def _filas(s, y, e):
-    caso = e["caso"] if isinstance(e["caso"], (list, tuple)) else [e["caso"]]
+    caso = _casos(e)
     LW, NW, TW_, filas = _filas_medir(e)
     cy = y
     for i, (gr, (nl, rl, h)) in enumerate(zip(e["grados"], filas)):
@@ -145,7 +151,7 @@ def _rangos_medir(e):
     GAP = 10
     rw = (W - 2 * PAD - GAP * (n - 1)) / n
     cu = [(wrap(t, rw - 20, 12, True), wrap(c, rw - 20, 11.5)) for _, t, c in rg]
-    rh = max(30 + len(tl) * 16 + len(cl) * 16 for tl, cl in cu) + 12
+    rh = max(36 + len(tl) * 16 + len(cl) * 16 for tl, cl in cu) + 14
     return rw, rh, cu
 
 
@@ -192,10 +198,10 @@ def _puntaje(s, y, e):
             on = i == e.get("caso_rango", -1)
             bg, fg = _sev(i, n, True)
             s.rect(rx_, cy, rw, rh, AMBER_L if on else "#ffffff", ORANGE if on else LINE, 2.4 if on else 1.2, rx=10)
-            s.rect(rx_ + 1, cy + 1, rw - 2, 26, bg, rx=9)
-            s.text(rx_ + rw / 2, cy + 19, rng, 12, 800, fg, maxw=rw - 16)
-            s.text(rx_ + 10, cy + 46, tl_, 12, 800, INK, "start", rw - 20, lh=16)
-            s.text(rx_ + 10, cy + 46 + len(tl_) * 16, cl_, 11.5, 400, "#334155", "start", rw - 20, lh=16)
+            s.rect(rx_ + 1, cy + 1, rw - 2, 32, bg, rx=9)
+            s.text(rx_ + rw / 2, cy + 26, rng, 12, 800, fg, maxw=rw - 16)       # bajo la etiqueta «ESTE CASO»
+            s.text(rx_ + 10, cy + 52, tl_, 12, 800, INK, "start", rw - 20, lh=16)
+            s.text(rx_ + 10, cy + 52 + len(tl_) * 16, cl_, 11.5, 400, "#334155", "start", rw - 20, lh=16)
             if on:
                 case_chip(s, rx_ + rw / 2, cy, e.get("tag", "ESTE CASO"))
         cy += rh

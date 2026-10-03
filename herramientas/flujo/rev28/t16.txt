@@ -1,0 +1,224 @@
+### CIR-033 | Apendicitis aguda en el adolescente | 2021
+Varón de 13 años, desde hace 2 días presenta dolor abdominal con náuseas y vómitos, pérdida de apetito y constipación. Examen: T: 39 °C, deshidratado, piel sudorosa. Abdomen distendido, dolor y contractura muscular en FID. Niega antecedente infeccioso. ¿Cuál es el diagnóstico más probable?
+   A) Adenitis mesentérica
+   B) Pancreatitis aguda
+  *C) Apendicitis aguda
+   D) Obstrucción intestinal
+   E) Divertículo de Meckel complicado
+EXP: El cuadro clínico es característico de una apendicitis aguda en fase avanzada, donde el dolor abdominal, inicialmente difuso, se localiza en la fosa iliaca derecha (FID) y se asocia a fiebre, náuseas, vómitos y signos de irritación peritoneal como la contractura muscular. El antecedente de constipación y la deshidratación complementan el cuadro de abdomen agudo quirúrgico. La adenitis mesentérica se presenta con menor severidad y no suele causar signos peritoneales. Así, el diagnóstico más probable es apendicitis aguda complicada.
+
+### CIR-034 | Fístula arteriovenosa traumática | 2021
+Varón de 24 años, hace 1 año tuvo herida de bala en muslo izquierdo. Consulta por hinchazón en ese muslo y dolor al caminar. Al examen: cicatriz de herida en muslo izquierdo con aumento de volumen, en la misma zona se palpa frémito y se ausculta soplo holosistólico. Pulso poplíteo y pedio disminuidos. ¿Cuál es el diagnóstico más probable?
+  *A) Fístula arteriovenosa
+   B) Trombosis venosa profunda
+   C) Trombosis arterial profunda
+   D) Flemón en muslo izquierdo
+   E) Linfedema postraumático
+EXP: Los hallazgos físicos clave son la palpación de frémito y la auscultación de un soplo holosistólico en una zona con aumento de volumen, lo cual sugiere flujo turbulento entre una arteria y una vena. Estos signos son característicos de una fístula arteriovenosa postraumática, que en este caso se ha desarrollado de forma crónica tras una herida penetrante. El pulso distal disminuido puede deberse al robo de flujo arterial. La trombosis venosa o arterial no explicaría el soplo. En consecuencia, el diagnóstico es fístula arteriovenosa.
+
+### CIR-035 | Insuficiencia venosa crónica | 2021
+Mujer de 60 años, consulta por pesadez y cansancio en ambos miembros inferiores a predominio vespertino. Al examen físico: hiperpigmentación en la parte inferior de la pantorrilla, pulsos presentes, no edema ni dolor a la palpación. ¿Cuál es el diagnóstico más probable?
+   A) Linfedema
+   B) Trombosis venosa profunda
+   C) Isquemia arterial
+  *D) Insuficiencia venosa crónica
+   E) Insuficiencia cardiaca derecha
+EXP: Nos encontramos ante un cuadro clínico típico de insuficiencia venosa crónica, frecuente en mujeres mayores, caracterizado por pesadez y cansancio en miembros inferiores de predominio vespertino, lo cual sugiere estasis venosa prolongada. La hiperpigmentación de la piel en la región distal de las piernas es un hallazgo clásico, producto de la extravasación de hematíes y depósito de hemosiderina. El hecho de que los pulsos estén presentes permite descartar un compromiso arterial significativo. La ausencia de edema, calor local o dolor a la palpación hace poco probable una trombosis venosa profunda. Tampoco se evidencian signos sugestivos de linfedema, como el signo de fóvea positivo persistente o engrosamiento cutáneo. Finalmente, la historia progresiva sin eventos agudos apoya una etiología crónica. Por lo tanto, el diagnóstico más coherente y respaldado por los signos clínicos es insufi
+
+### CIR-036 | Hemotórax masivo: toracotomía | 2021
+Varón de 44 años, choca su automóvil contra un muro ocasionándole contusiones múltiples. El examen clínico y radiológico evidencia hemotórax que ocupa 2/3 del hemitórax izquierdo. Se coloca dren torácico y se drena sangre más de 1,500 ml en una hora. No obstante, el reemplazo de sangre, la PA permanece < 60 mmHg. ¿Cuál es la conducta terapéutica recomendada?
+  *A) Toracotomía exploratoria
+   B) Decorticación pleural
+   C) Continuar con Hemotransfusión
+   D) Toracoscopía diagnóstica
+   E) Colocar un segundo tubo de tórax
+EXP: Este paciente presenta un hemotórax masivo postraumático, definido por el drenaje de más de 1500 ml de sangre al colocar el tubo de tórax, o más de 200 ml/h por 2 a 4 horas. El hallazgo de una presión arterial persistentemente baja (<60 mmHg) a pesar del reemplazo de volumen indica sangrado activo e incontrolado que compromete seriamente la estabilidad hemodinámica. En este contexto, la conducta inmediata es realizar una toracotomía exploratoria, procedimiento quirúrgico que permite identificar el foco de sangrado, controlarlo y, de ser necesario, realizar reparaciones pulmonares o vasculares. Las otras opciones no son apropiadas: la toracoscopía es diagnóstica y está contraindicada en pacientes inestables, y la decorticación pleural se usa en empiemas o fases crónicas, no en sangrado agudo. En resumen, el paciente requiere una intervención quirúrgica urgente para evitar el desenlace fat
+
+### OFT-010 | Fractura del piso de la órbita | 2021
+Varón de 18 años, hace 2 horas sufre impacto de piedra en el ojo derecho. Al examen: diplopía, enoftalmos derecho y fractura de órbita. ¿Qué pared de la órbita del ojo se compromete en esta situación?
+   A) Superior
+  *B) Inferior
+   C) Lateral
+   D) Medial
+   E) Techo y pared lateral a la vez
+EXP: El trauma facial contundente que genera enoftalmos (hundimiento del globo ocular) y diplopía es característico de una fractura del piso de la órbita, también conocida como "blow-out fracture". Esta fractura afecta la pared inferior, que es la más delgada d e la órbita y está formada por el hueso maxilar. La diplopía se debe al atrapamiento del músculo recto inferior o tejido orbitario, lo que impide el movimiento ocular normal. El enoftalmos, por otro lado, es causado por el colapso del soporte orbitario y la herniación del contenido al seno maxilar. Las fracturas de las paredes superior o lateral suelen ser menos frecuentes y se presentan con otros signos clínicos. Por tanto, en un trauma de estas características, el compromiso más frecuente es del piso de l a órbita (pared inferior), que requiere evaluación tomográfica y, muchas veces, tratamiento quirúrgico reconstructivo.
+
+### OFT-011 | Conjuntivitis por adenovirus | 2021
+Varón de 22 años acude por presentar ojo rojo y lagrimeo. Al examen: hemorragias conjuntivales en ambos ojos y opacidades epiteliales corneales redondeadas centrales. Ganglio linfático solitario preauricular doloroso. ¿Cuál es el agente causante de esta patología?
+  *A) Adenovirus
+   B) Chlamydia
+   C) Herpes
+   D) Varicela
+   E) Neisseria gonorrhoeae
+EXP: Nos encontramos ante una conjuntivitis viral epidémica, cuyo agente etiológico más frecuente es el adenovirus, especialmente en adultos jóvenes. Los signos característicos son el ojo rojo bilateral, lagrimeo, hemorragias subconjuntivales y opacidades corneales (infiltrados subepiteliales), que suelen aparecer en fases más avanzadas. El dato clave es la adenopatía preauricular dolorosa, que distingue esta forma viral de otras etiologías. La queratoconjuntivitis epidémica es altamente contagiosa y autolimitada, pero puede persistir por semanas. El manejo incluye medidas de soporte, como lubricantes y compresas frías, y aislamiento para evitar brotes nosocomiales. Otras causas como herpes, Chlamydia o varicela presentan hallazgos más focales o sistémicos distintos. Por ello, el cuadro clínico completo y típico nos orienta de forma directa a una infección por adenovirus.
+
+### NEF-027 | Cáncer testicular | 2021
+Varón de 15 años, acude al centro de salud por presentar aumento de volumen y de consistencia del testículo derecho, indoloro. Transiluminación negativa. ¿Cuál es el diagnóstico probable?
+   A) Orcoepididimitis viral
+   B) Hidrocele congénita
+  *C) Cáncer de testículo
+   D) Torsión testicular
+   E) Varicocele
+EXP: En varones jóvenes entre 15 y 35 años, el aumento indoloro del volumen testicular debe hacer sospechar inmediatamente un tumor testicular hasta no demostrar lo contrario. La transiluminación negativa permite descartar hidrocele, y la ausencia de dolor o signos inflamatorios aleja una orquiepididimitis o torsión. El cáncer testicular más frecuente a esta edad es el seminoma o tumor de células germinales, y su presentación típica es como una masa sólida, firme, no dolorosa. El diagnóstico debe ser confirmado con ecografía testicular, que mostrará una masa hipoecoica sólida, y se completa con marcadores tumorales (AFP, β-HCG, LDH). Este caso representa una presentación clínica clásica de neoplasia testicular, lo que lo convierte en una emergencia urológica diferida, que debe abordarse con rapidez, pero sin biopsia previa.
+
+### NEF-028 | Litiasis urinaria: tomografía helicoidal | 2021
+Varón de 40 años, acude a consulta por dolor lumbar derecho tipo cólico de 2 meses de evolución, en ocasiones intenso dolor que se irradia a los genitales. Examen: puño percusión positiva derecha. Punto renoureteral medio y alto derecho positivo. ¿Cuál sería el medio diagnóstico por imágenes de elección para identificar el origen?
+  *A) Tomografía Helicoidal
+   B) Radiografía abdomen
+   C) Ecografía Abdominal
+   D) Urografía excretora
+   E) Gammagrafía renal
+EXP: El cuadro clínico descrito corresponde a una litiasis renal sintomática, probablemente obstructiva, por el dolor tipo cólico que irradia al área genital, además del signo de puño percusión positiva y puntos renoureterales dolorosos. En este contexto, la tomografía helicoidal sin contraste es el estudio de elección, ya que permite identificar cálculos desde la pelvis renal hasta la vejiga, medir su tamaño, localización y grado de obstrucción. La radiografía de abdomen es poco sensible y la ecografía, aunque útil en emergencia, tiene baja sensibilidad para cálculos ureterales. La urografía excretora ha caído en desuso. En suma, por su alta sensibilidad y especificidad, la TAC helicoidal sin contraste es la prueba ideal para el diagnóstico etiológico y planificación terapéutica.
+
+### TRA-010 | Síndrome compartimental agudo | 2021
+Mujer de 30 años, es atendida por atropello de automóvil, presenta dolor, deformación e inmovilidad de pierna derecha. Al examen: aumento de volumen, piel tensa brillante, pulso pedio ausente. Rx pierna: fractura de tibia. ¿Cuál es la indicación pertinente?
+   A) Férula muslo-pié
+  *B) Fasciotomía descompresiva
+   C) Fijación externa
+   D) Fijación interna
+   E) Yeso cerrado circular
+EXP: Nos encontramos ante un caso clásico de síndrome compartimental agudo postraumático, evidenciado por dolor severo, piel tensa y brillante, y ausencia de pulso distal. Estos signos indican una presión elevada en los compartimentos musculares que compromete la perfusión, lo cual constituye una emergencia quirúrgica. La conducta inmediata no debe ser inmovilizar ni fijar la fractura, ya que ello no resuelve la isquemia tisular. La fasciotomía descompresiva inmediata es la única intervención que puede preservar la viabilidad del miembro. El retraso puede conllevar necrosis muscular, rabdomiólisis e incluso amputación. Este caso refuerza la importancia de reconocer y tratar oportunamente una complicación grave de fractura cerrada.
+
+### TRA-011 | Síndrome de embolia grasa | 2021
+Varón de 30 años que sufre fractura del fémur derecho por un accidente en motocicleta. Luego de 3 días presenta confusión, disnea y erupción petequial en el pecho. Al examen: pulmones normales. AGA: pO₂: 50 mmHg, pCO₂: 28 mmHg, pH: 7.49. ¿Cuál es el diagnóstico más probable?
+  *A) Embolismo graso
+   B) Contusión pulmonar
+   C) Neumonitis química
+   D) Osteomielitis estafilocócica
+   E) Tromboembolismo pulmonar
+EXP: Este paciente presenta una triada clásica del síndrome de embolismo graso (SEG): confusión mental, dificultad respiratoria e infiltrados petequiales, con antecedente traumático óseo de gran calibre (fémur). Suele presentarse entre 24 a 72 horas tras el trauma. La hipoxemia severa con alcalosis respiratoria (pO₂: 50, pCO₂: 28, pH: 7.49) confirma un trastorno de oxigenación. Aunque los pulmones están clínicamente normales, el cuadro es sistémico, asociado a microémbolos de grasa liberados a la circulación tras la fractura. Este diagnóstico debe sospecharse en todo paciente con trauma largo y síntomas respiratorios y neurológicos subagudos. El tratamiento es de soporte, con oxígeno y en casos graves, ventilación mecánica.
+
+### CIR-037 | Absceso perianal | 2021
+Varón de 50 años, diabético, acude a consulta por presentar dolor perianal, fiebre y aparición de tumefacción anal. Al examen: aumento de volumen del perineo posterior con signos de flogosis. ¿Cuál es el diagnóstico?
+  *A) Absceso perianal
+   B) Hemorroide trombosada
+   C) Fisura anal
+   D) Cáncer de recto
+   E) Quiste pilonidal
+EXP: Este paciente presenta el cuadro típico de absceso perianal, una colección purulenta producto de la infección de las glándulas anales, con signos de inflamación local (dolor, eritema, tumefacción, calor) y fiebre. En personas diabéticas es más frecuente y puede progresar rápidamente, incluso a cuadros graves como fascitis necrotizante o gangrena de Fournier si no se maneja oportunamente. El diagnóstico es clínico, apoyado por el antecedente de dolor intenso y signos de flogosis en región perianal o perineal. El tratamiento incluye drenaje quirúrgico urgente y antibioticoterapia. La trombosis hemorroidal, la fisura anal y el cáncer rectal no cursan típicamente con fiebre ni masa fluctuante dolorosa.
+
+### CIR-038 | Prolapso rectal | 2021
+Mujer de 65 años con estreñimiento crónico que, desde hace 10 años, luego de hacer esfuerzos o defecar presenta salida de una masa por el ano que la puede reintroducir. ¿Cuál es el diagnóstico probable?
+  *A) Prolapso rectal
+   B) Hemorroide interna
+   C) Neoplasia colorrectal
+   D) Úlcera solitaria
+   E) Hemorroides externas
+EXP: El cuadro descrito se caracteriza por la protrusión de una masa a través del ano tras el esfuerzo defecatorio, que puede ser reducida manualmente, lo que es típico del prolapso rectal parcial o completo. Esta entidad es más frecuente en mujeres mayores con estreñimiento crónico, secundario a debilidad del piso pélvico o disfunción del esfínter anal. A diferencia de las hemorroides, que pueden acompañarse de sangrado, el prolapso rectal suele tener una masa concéntrica visible y sensación de masa externa persistente. El diagnóstico se hace clínicamente y puede confirmarse con estudios como defecografía o manometría. El tratamiento puede ser conservador, pero frecuentemente requiere corrección quirúrgica, especialmente si el prolapso se vuelve irreductible o causa incontinencia.
+
+### OFT-012 | Rinitis alérgica | 2021
+Mujer de 20 años acude por secreción nasal acuosa, estornudos en salva y obstrucción nasal. Al examen: mucosa nasal pálida, con cornetes engrosados, edematosos con reacción vascular y recubiertos por abundante secreción clara. IgE en secreción nasal incrementada. ¿Cuál es el diagnóstico?
+   A) Sinusitis aguda
+   B) Influenza
+  *C) Rinitis alérgica
+   D) Rinitis eosinofílica
+   E) Rinitis vasomotora
+EXP: Paciente femenina de 20 años con síntomas respiratorios altos típicos de una reacción alérgica tipo I: estornudos en salva, rinorrea acuosa, congestión nasal y mucosa pálida con cornetes engrosados. Estos signos son sugestivos de rinitis alérgica, patología inmunológica mediada por IgE, generalmente desencadenada por exposición a alérgenos ambientales como polvo, ácaros o polen. El hallazgo adicional de IgE elevada en secreción nasal refuerza el diagnóstico. La rinitis alérgica es común en adultos jóvenes y se asocia a atopia y antecedentes familiares. Se diferencia de una rinitis eosinofílica no alérgica (respuesta D) por la presencia de IgE y de una historia de sensibilización. La sinusitis o infecciones virales (respuestas A y B) se acompañan de fiebre y secreciones purulentas, ausentes en este caso.
+
+### OFT-013 | Epistaxis traumática: taponamiento anterior | 2021
+¿Cuál es la acción inmediata a realizar en un paciente que llega con sangrado nasal por traumatismo?
+   A) Taponamiento nasal posterior
+  *B) Taponamiento nasal anterior
+   C) Cauterización con pinza bipolar
+   D) Indicar anticoagulantes
+   E) Ligadura de la arteria maxilar interna
+EXP: Ante un paciente que presenta sangrado nasal posterior a traumatismo, la acción inmediata más indicada es el taponamiento nasal anterior, ya que en la mayoría de casos el sangrado proviene del plexo de Kiesselbach (epistaxis anterior), una región altamente vascularizada. Esta técnica e s de fácil aplicación, poco invasiva y permite controlar hasta el 90% de los casos sin necesidad de intervención mayor. El taponamiento posterior se reserva para sangrados persistentes o de origen posterior. La cauterización, aunque útil en epistaxis recurrente localizada, no es el primer paso en un escenario agudo y traumático sin localización precisa del sangrado. La administración de anticoagulantes está contraindicada, pues podría agravar el cuadro hemorrágico.
+
+### NRL-015 | Tumor cerebral: lesión en anillo | 2021
+Mujer de 30 años, presenta desde hace 6 meses cefalea, convulsiones, limitación funcional de extremidades del lado izquierdo y con cambios de personalidad. Al examen: regular estado general. Hemiplejia izquierda. Glasgow 15. Fondo de ojo: edema de papila. ¿Qué hallazgos se podrían encontrar en una TEM cerebral?
+  *A) Anillo con edema circundante y efecto de masa
+   B) Lesión quística y edema circundante
+   C) Signos de hidrocefalia ex vacuo
+   D) Atrofia cortical hemisferio derecho
+   E) Calcificaciones puntiformes sin edema
+EXP: Mujer de 30 años con historia de convulsiones, hemiplejia izquierda y cambios de personalidad progresivos, sumado a hallazgo de papiledema en el fondo de ojo, lo cual indica hipertensión endocraneana. El patrón clínico sugiere lesión expansiva intracraneal. La tomografía cerebral típicamente mostrará una imagen en anillo con edema vasogénico periférico y efecto de masa, hallazgo clásico de tumores cerebrales (como glioblastoma) o abscesos cerebrales. Otras opciones como hidrocefalia ex vacuo o atrofia cortical no se correlacionan con el cuadro agudo ni los signos de hipertensión intracraneana. Este patrón de realce en anillo requiere evaluación urgente para definir tratamiento quirúrgico o médico especializado.
+
+### NRL-016 | Hematoma epidural | 2021
+Albañil de 22 años que sufre caída de la escalera, con pérdida inmediata de la conciencia, luego alterna episodios de lucidez con depresión del sensorio. Al examen: pupila derecha midriática, hemiparesia izquierda. ¿Cuál es el diagnóstico más probable?
+   A) Malformación arteriovenosa
+   B) Hematoma subdural
+   C) Hematoma intracerebral
+  *D) Hematoma epidural
+   E) Contusión cerebral
+EXP: El paciente de 22 años sufre un traumatismo craneoencefálico severo tras caída, con pérdida de conciencia seguida por un período de aparente mejoría (intervalo lúcido), y luego deterioro neurológico progresivo con signos de focalización (hemiparesia izquierda) y midriasis homolateral (pupila derecha). Este patrón es clásico del hematoma epidural, generalmente asociado a lesión de la arteria meníngea media. La expansión del hematoma produce efecto de masa y herniación uncal. La evolución rápida y los signos clínicos orientan fuertemente hacia este diagnóstico, que requiere intervención neuroquirúrgica inmediata. Las demás opciones no suelen presentar este patrón clínico tan característico.
+
+### PED-065 | Hernia diafragmática congénita: clínica | 2021
+RN masculino, presenta respiración quejumbrosa, retracciones intercostales, disnea y cianosis. Al examen: disminución de murmullo vesicular en hemitórax izquierdo. Ruidos cardiacos se auscultan en el hemitórax derecho. Abdomen escafoide. ¿Cuál es el diagnóstico?
+  *A) Hernia diafragmática
+   B) Quiste broncogénico
+   C) Teratoma quístico
+   D) Neumotórax a tensión
+   E) Neumonía congénita
+EXP: El RN presenta dificultad respiratoria grave desde el nacimiento, con disminución del murmullo vesicular en el hemitórax izquierdo y desplazamiento de ruidos cardíacos a la derecha, sumado a abdomen escafoide. Esta triada clínica es altamente sugerente de una hernia diafragmática congénita, donde las vísceras abdominales herniadas hacia el tórax comprometen el desarrollo y expansión pulmonar, provocando hipoplasia pulmonar y desplazamiento mediastínico. Se diferencia claramente de un neumotórax por la presencia de abdomen hundido y la historia perinatal. El manejo es de urgencia con estabilización respiratoria y posterior reparación quirúrgica.
+
+### SP-039 | Principio de autonomía: anticoncepción de emergencia | 2021
+Mujer que sufre violación sexual, acude inmediatamente a un centro de salud para solicitar protección frente a un posible embarazo y el médico por cuestiones religiosas, le niega dicha posibilidad. Desde el punto de vista ético a la paciente le fue negado el principio de:
+   A) Justicia
+   B) Beneficencia
+   C) No maleficencia
+  *D) Autonomía
+   E) Confidencialidad
+EXP: La autonomía es un principio bioético fundamental que reconoce el derecho del paciente a tomar decisiones informadas sobre su salud, libre de coacción o imposición externa. En este caso, la mujer acude de forma oportuna a un centro de salud para acceder a un derecho legal y clínicamente reconocido: la anticoncepción de emergencia tras una violación. La negativa del médico basada en creencias personales vulnera directamente su autonomía, al imponerle una barrera subjetiva frente a un acto médico basado en evidencia y derechos. Las creencias personales del profesional no deben interferir con la atención médica que protege la vida y dignidad del paciente. La beneficencia o la no maleficencia también podrían verse involucradas, pero el principio principal afectado es la autonomía.
+
+### GIN-048 | Desprendimiento prematuro de placenta con óbito fetal | 2021
+Gestante de 34 semanas que ingresa a la emergencia con trastorno del sensorio, dolor intenso en abdomen. Al examen físico: soporosa, afebril. PA: 120/70 mmHg, FC: 100 x’. Altura uterina: 36 cm. Útero con contracción sostenida. No se auscultan latidos fetales. Genitales externos con evidencia de sangrado rojo oscuro en escasa cantidad. ¿Cuál es el diagnóstico?
+  *A) Desprendimiento prematuro de placenta
+   B) Placenta previa
+   C) Vasa previa
+   D) Rotura uterina
+   E) Rotura del seno marginal
+EXP: Se trata de una paciente con signos clínicos altamente sugerentes de un desprendimiento prematuro de placenta normoinserta (DPPNI). Presenta dolor abdominal súbito e intenso, sangrado vaginal oscuro y escaso, útero hipertónico y ausencia de latidos cardíacos fetales, lo que indica sufrimiento fetal severo o muerte fetal. El compromiso del estado de conciencia materna puede deberse a hipoperfusión o dolor extremo. Este cuadro es una emergencia obstétrica que requiere diagnóstico y manejo inmediato. La placenta previa se descartaría por la ausencia de sangrado rojo brillante sin dolor, y la rotura uterina suele implicar pérdida del contorno uterino y sangrado más masivo. El DPPNI es la causa más probable y grave en este contexto.
+
+### GIN-049 | Endometritis puerperal | 2021
+Puérpera de parto complicado, a las 36 horas presenta malestar general, fiebre y loquios de mal olor. Funciones vitales estables. Ecografía pélvica: grosor endometrial de 7 mm. ¿Cuál es el diagnóstico probable?
+   A) Retención de restos
+  *B) Endometritis puerperal
+   C) Corioamnionitis
+   D) Dehiscencia de episiorrafia
+   E) Mastitis puerperal
+EXP: La endometritis es la principal causa de fiebre en el puerperio inmediato (primeros 10 días). En esta paciente, los signos clínicos —fiebre, malestar general y loquios malolientes — son clásicos de infección uterina. El grosor endometrial ecográfico >6 mm también refuerza el diagnóstico. Aunque la retención de restos puede estar presente, se asocia típicamente a sangrado persistente y no necesariamente fiebre. La corioamnionitis es un diagnóstico prenatal y la dehiscencia de episiorrafia no explica los síntomas sistémicos. Por lo tanto, este cuadro corresponde a una endometritis puerperal, que debe ser tratada precozmente con antibióticos de amplio espectro.
+
+### GIN-050 | Corioamnionitis | 2021
+Gestante de 34 semanas que acude a la emergencia por sensación de alza térmica no cuantificada, no refiere otra molestia. Al examen clínico T: 39 °C, FC: 100 x’. Altura uterina de 28 cm, feto en longitudinal cefálico izquierdo, latidos fetales en 165 x’. Se le realiza las pruebas de Nitrazina y Fernig saliendo positivas. ¿Cuál es su impresión diagnóstica?
+  *A) Corioamnionitis
+   B) Salpingitis
+   C) Pielonefritis
+   D) Endometritis
+   E) Infección urinaria baja
+EXP: El cuadro clínico describe una gestante con fiebre materna y taquicardia fetal, sumado a rotura prematura de membranas confirmada por las pruebas de Nitrazina y helecho (Fern test), lo cual apunta directamente al diagnóstico de corioamnionitis. Esta es una infección del corion y amnios que suele presentarse tras rotura prolongada de membranas, y se manifiesta por fiebre, taquicardia fetal (>160 lpm), taquicardia materna y dolor uterino. Es una emergencia obstétrica que requiere antibióticos y, en la mayoría de casos, interrupción del embarazo. La endometritis es posparto, la pielonefritis cursa con síntomas urinarios, y la salpingitis no se asocia a RPM. Aquí, el diagnóstico es corioamnionitis.
+
+### GIN-051 | Pielonefritis en el embarazo | 2021
+Gestante de 36 semanas, evaluada por presentar sensación de alza térmica y malestar general. Al examen clínico: T: 39 °C, altura uterina: 34 cm. Puño percusión lumbar derecha: +++. Se decide dar antibiótico de manera empírica. ¿Cuál antibiótico debe ser prescrito?
+   A) Cotrimoxazol
+   B) Nitrofurantoína
+  *C) Ceftriaxona
+   D) Tetraciclina
+   E) Amoxicilina
+EXP: La presentación clínica es altamente sugestiva de pielonefritis aguda en el embarazo, una condición que se manifiesta con fiebre, malestar general y dolor lumbar. En gestantes, este cuadro requiere tratamiento antibiótico parenteral seguro y eficaz. Ceftriaxona, una cefalosporina de tercera generación, es el antibiótico de elección empírico en este contexto, por su espectro contra gramnegativos y su seguridad durante el embarazo. Cotrimoxazol y tetraciclina están contraindicados por sus efectos teratogénicos y la nitrofurantoína no es adecuada para pielonefritis severa. Por tanto, ceftriaxona es la opción correcta.
+
+### GIN-052 | Embarazo prolongado: inducción del parto | 2021
+Gestante de 42 semanas, en hospitalización le realizan perfil biofísico y prueba no estresante las cuales salen normales. Al tacto vaginal: cérvix blando, anterior, borrado un 80%, dilatación en uno, estación cero. El manejo más adecuado para ella es:
+  *A) Inducción con oxitocina
+   B) Maduración cervical
+   C) Repetir sus pruebas de bienestar fetal
+   D) Manejo expectante
+   E) Cesárea electiva
+EXP: Una gestante con edad gestacional mayor a 41 semanas se considera en embarazo postérmino, situación que incrementa el riesgo de eventos perinatales adversos. Si se ha documentado un perfil biofísico normal y prueba no estresante reactiva, y además el tacto vaginal revela un cérvix favorable, no debe continuarse con manejo expectante. La conducta adecuada es inducir el trabajo de parto con oxitocina. Esta medida busca reducir el riesgo de sufrimiento fetal o muerte intraútero. La inducción en un cuello uterino favorable tiene alta tasa de éxito. Esperar innecesariamente puede comprometer la salud fetal. Por tanto, la acción más beneficiosa para la madre y el feto es inducir.
+
+### GIN-053 | Distocia de hombros: maniobra de McRoberts | 2021
+Gestante de 39 semanas, sin control prenatal. Al examen: altura uterina de 37 cm, se sospecha feto grande, en periodo expulsivo con dilatación completa. Durante el trabajo de parto presenta distocia de hombros. ¿Cuál es la maniobra inmediata a seguir?
+  *A) Hiperflexión de muslos de la madre
+   B) Contracción del hombro posterior
+   C) Tracción enérgica de la cabeza fetal
+   D) Presión intensa del fondo uterino
+   E) Episiotomía amplia como única maniobra
+EXP: La distocia de hombros es una urgencia obstétrica que requiere acciones rápidas y coordinadas para evitar complicaciones graves como asfixia perinatal o lesión del plexo braquial. La maniobra de McRoberts, que consiste en la hiperflexión de los muslos de la madre sobre el abdomen, es la primera intervención recomendada. Esta maniobra modifica la inclinación pélvica y ayuda a liberar el hombro impactado detrás de la sínfisis del pubis. Es efectiva, sencilla y tiene bajo riesgo. No se debe realizar tracción enérgica de la cabeza fetal ni aplicar presión en el fondo uterino, pues puede empeorar la situación. Es por ello que la hiperflexión es la conducta inicial más adecuada.
+
+### GIN-054 | Sangrado posmenopáusico: biopsia de endometrio | 2021
+Mujer de 52 años, nulípara, FUR hace 10 años. Hipertensa, DM 2. Acude por presentar ginecorragia en regular cantidad desde hace 48 horas. Al examen: útero de 8 cm, ginecorragia escasa. Ecografía transvaginal muestra útero de 8.5 cm y endometrio de 12 mm. El procedimiento a seguir será:
+  *A) Biopsia de endometrio
+   B) Histerectomía abdominal
+   C) Hístero sonografía
+   D) Histerectomía laparoscópica
+   E) Terapia de reemplazo hormonal
+EXP: La metrorragia en una mujer posmenopáusica siempre debe ser considerada patológica hasta demostrar lo contrario. Esta paciente tiene factores de riesgo como edad >50 años, nuliparidad y antecedentes de enfermedades metabólicas como diabetes. El hallazgo de un endometrio >4 mm en ecografía transvaginal es un criterio indicativo para realizar una biopsia endometrial, ya que existe riesgo de hiperplasia o cáncer de endometrio. La histerosonografía puede ayudar en algunos casos, pero la biopsia es el paso diagnóstico prioritario. Así, ante esta clínica y ecografía, la biopsia de endometrio es el procedimiento inicial correcto.

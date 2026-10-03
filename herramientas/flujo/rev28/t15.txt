@@ -1,0 +1,224 @@
+### REU-014 | Paroniquia candidiásica | 2021
+Ama de casa de 48 años, desde hace varios años presenta enrojecimiento de los pliegues proximales de las uñas en varios dedos de las manos, que ocasionalmente supuran. ¿Cuál es el diagnóstico más probable?
+   A) Liquen plano
+   B) Dermatitis de contacto
+   C) Psoriasis guttata
+  *D) Paroniquia candidiásica
+   E) Onicomicosis por dermatofitos
+EXP: Paciente con historia prolongada de enrojecimiento e inflamación crónica de los pliegues proximales de las uñas, acompañada de supuración ocasional, sugiere un diagnóstico de paroniquia crónica, y en el contexto de una ama de casa (exposición constante a h umedad), el agente más probable es Candida spp. La paroniquia candidiásica suele afectar a personas con manos frecuentemente húmedas, generando una inflamación persistente y dolorosa del pliegue ungueal, que puede secretar líquido claro o purulento. No hay lesiones típicas de psoriasis ni datos para sospechar dermatitis de contacto o liquen plano. Por tanto, el diagnóstico más probable es: paroniquia candidiásica.
+
+### HEM-011 | Anemia de enfermedad crónica | 2021
+Varón de 72 años, refiere sufrir de artritis reumatoide, se queja de disnea y fatiga desde hace 6 meses. Laboratorio: Hb: 8.5 g/dL; VCM: 69 fl; plaquetas: 220,000; sideremia: 30 mg/dL; ferritina: 520 ng/mL. Dichas características apoyan la sospecha de anemia por:
+  *A) Enfermedad crónica
+   B) Carencia de hierro
+   C) Déficit de B12
+   D) Hemólisis intravascular
+   E) Talasemia menor
+EXP: Paciente con artritis reumatoide y síntomas de anemia, presenta laboratorio compatible con anemia microcítica hiposidérica, pero con ferritina elevada, lo que indica adecuada reserva férrica intracelular. Este patrón es típico de la anemia por enfermedad crónica, donde la inflamación crónica (como la A R) causa secuestro de hierro y disminución en su utilización. A diferencia de la deficiencia de hierro (donde la ferritina está baja), aquí los depósitos están elevados. No hay macrocitosis ni signos de hemólisis. Por tanto, la causa más probable es: anemia por enfermedad crónica.
+
+### CIR-031 | Actividad eléctrica sin pulso por neumotórax | 2021
+Anciano que sufre un atropello por automóvil, entra a emergencia con disnea severa y lesiones difusas en el cuerpo. Examen pulmonar concluye en neumotórax a tensión. En esos momentos hace parada cardíaca, detectándose al monitor actividad eléctrica organizada pero no se detecta presión arte rial ni pulso. ¿Cómo se denomina a esta situación?
+   A) Fibrilación ventricular
+   B) Asistolia
+  *C) Disociación electromecánica
+   D) Taquicardia ventricular sin pulso
+   E) Bradicardia sinusal
+EXP: La disociación electromecánica (DEM), también conocida como actividad eléctrica sin pulso (PEA, por sus siglas en inglés), se caracteriza por la presencia de actividad eléctrica organizada en el ECG, sin que exista pulso ni presión arterial detectable. En este caso, el paciente politraumatizado desarrolla un neumotórax a tensión, lo cual puede provocar compromiso hemodinámico severo y finalmente PEA, al impedir el retorno venoso. A diferencia de la asistolia (sin actividad eléctrica) o de las taquiarritmias sin pulso, aquí el corazón “quiere” latir, pero el entorno mecánico se lo impide. Por lo tanto, el diagnóstico correcto es: disociación electromecánica.
+
+### CB-015 | Shock hipovolémico: mecanismos compensadores | 2021
+¿Cuál es el primer mecanismo compensador que se pone en acción ante la caída de presión arterial en un shock hipovolémico?
+   A) Elevación de factor natriurético atrial
+   B) Taquipnea
+  *C) Taquicardia sinusal
+   D) Aumento de la retención de sodio
+   E) Liberación de aldosterona
+EXP: El shock hipovolémico se desencadena por una pérdida aguda de volumen intravascular, lo que provoca una disminución del retorno venoso y del gasto cardíaco. Frente a esta situación, el primer mecanismo compensador que se activa es el sistema simpático, que produce taquicardia sinusal con el fin de mantener el gasto cardíaco a pesar del volumen reducido. Otros mecanismos como la taquipnea, la retención renal de sodio o la secreción hormonal compensadora (ADH, aldosterona) se activan más tarde. Por ello, la taquicardia es el signo clínico más temprano y útil para reconocer este tipo de shock, lo que hace correcta la alternativa: taquicardia sinusal.
+
+### REU-015 | Anafilaxia por picadura de abeja | 2021
+Agricultor de 38 años que sufre picadura de abeja, luego de lo cual presenta urticaria aguda, disnea y shock. Al examen: estridor laríngeo y sibilantes en ambos campos pulmonares. ¿Cuál es el medicamento más urgente a usar para este paciente?
+  *A) Adrenalina
+   B) Corticoide
+   C) Antihistamínico
+   D) Broncodilatador
+   E) Gluconato de calcio
+EXP: El paciente desarrolla un cuadro súbito de anafilaxia severa posterior a una picadura de abeja, con manifestaciones cutáneas (urticaria), respiratorias (disnea, estridor y sibilantes) y circulatorias (shock). La adrenalina intramuscular es el fármaco de elección y debe administrarse de inmediato, ya que revierte la broncoconstricción, la vasodilatación y el edema laríngeo, al estimular receptores α y β adrenérgicos. Aunque los corticoides y antihistamínicos tienen un rol complementario, su inicio de acción es tardío. El uso precoz de adrenalina disminuye la mortalidad en reacciones anafilácticas. Por lo tanto, el medicamento más urgente a administrar es: adrenalina.
+
+### NEU-016 | Tromboembolismo pulmonar posoperatorio | 2021
+Varón de 59 años, estando en 1er día posquirúrgico de cáncer de colon, presenta dolor en hemitórax izquierdo y disnea de comienzo brusco. Al examen: PA: 70/30 mmHg, FC: 120 x’, FR: 28 x’, SatO₂: 88 %. Laboratorio: EKG muestra inversión de la onda “T” de V1 a V4. ¿Cuál es el diagnóstico más probable?
+   A) Disección de aorta
+   B) Infarto miocárdico
+   C) Neumotórax masivo
+  *D) Embolia pulmonar
+   E) Neumonía intrahospitalaria
+EXP: Se trata de un paciente en el primer día posoperatorio de cirugía oncológica, con aparición súbita de disnea, dolor torácico, hipotensión y taquicardia. El contexto quirúrgico y oncológico representa un alto riesgo trombogénico. El hallazgo en el EKG de inversión de la onda T en V1 –V4 es compatible con sobrecarga del ventrículo derecho, lo que refuerza la sospecha de embolia pulmonar masiva. La hipoxemia y el compromiso hemodinámico agudo completan el cuadro. Es fundamental identificar este diagnóstico rápidamente, ya que representa una urgencia vital. Por ello, el diagnóstico más probable es: embolia pulmonar.
+
+### NEF-026 | Rabdomiólisis por aplastamiento | 2021
+En el último temblor de Piura una pared aplastó a un varón de 56 años, es rescatado por los bomberos que lo encuentran inconsciente. Al examen: múltiples hematomas en todo el cuerpo. A las 72 horas se encuentra urea: 200 mg/dL, creatinina: 6 mg/dL, ácido úrico: 10 mg/dL y CPK: 1500 U/L. El diagnóstico más probable es:
+  *A) Fracaso renal agudo por rabdomiólisis
+   B) Fracaso renal agudo por urato
+   C) Necrosis tubular aguda por hemólisis
+   D) Insuficiencia renal aguda por embolia grasa
+   E) Glomerulonefritis aguda
+EXP: Varón aplastado durante un sismo, con múltiples lesiones corporales. A las 72 horas desarrolla azotemia severa (urea y creatinina elevadas), hiperuricemia y CPK elevada, lo cual es altamente sugestivo de rabdomiólisis traumática. La destrucción muscular masiva libera mioglobina, que es nefrotóxica y precipita en los túbulos renales, generando necrosis tubular aguda. El manejo precoz y agresivo con hidratación podría evitar esta evolución. El contexto clínico y laboratorial apunta con claridad a un fracaso renal agudo por rabdomiólisis como la causa más probable.
+
+### CB-016 | Intoxicación por organofosforados | 2021
+Jardinero de 58 años, lo traen inconsciente. Al examen: coma profundo, pupilas mióticas, respuesta favorable pero fugaz a un antídoto EV. ¿Cuál es la causa más probable del cuadro tóxico?
+   A) Metanol
+  *B) Organofosforado
+   C) Marihuana
+   D) Cocaína
+   E) Etanol
+EXP: Se describe un paciente en coma profundo, con miosis bilateral y respuesta transitoria a un antídoto, probablemente atropina. El antecedente de ser jardinero apunta a la exposición a plaguicidas, específicamente organofosforados, que inhiben la acetilcolinesterasa, produciendo una tormenta colinérgica. Los signos clásicos incluyen bradicardia, sialorrea, broncorrea, fasciculaciones y compromiso neurológico severo. La miosis es un dato clave. La respuesta fugaz al antídoto es típica por la corta vida media de la atropina comparada con el tóxico. Todo el cuadro encaja con intoxicación por organofosforado.
+
+### NEU-017 | Tuberculosis pleural: ADA | 2021
+Varón de 55 años que presenta un derrame pleural cuyo líquido presenta: aspecto amarillo citrino, cociente de proteínas pleura/suero 0.8, cociente de LDH pleura/suero 0.9, Gram y Ziehl Neelsen negativos, células mesoteliales <5%, linfocitos 98%, ADA: 67 U/L, PAP: negativo. ¿Cuál es el diagnóstico más probable?
+   A) Mesotelioma pleural
+   B) Empiema pleural
+   C) Derrame pleural por insuficiencia cardíaca
+  *D) Tuberculosis pleural
+   E) Derrame paraneumónico complicado
+EXP: Varón de 55 años con derrame pleural amarillo citrino, lo cual descarta un empiema. El líquido cumple criterios de exudado (cociente proteínas pleura/suero >0.5 y LDH >0.6). El predominio de linfocitos (98%) con ADA elevada (67 U/L) es altamente sugestivo de etiología tuberculosa, sobre todo en países endémicos como Perú. La ausencia de células mesoteliales (<5%) y el PAP negativo ayudan a descartar neoplasias como mesotelioma. La tinción de Ziehl-Neelsen negativa no descarta TBC pleural, ya que en muchos casos la baciloscopia es negativa. Por lo tanto, el perfil clínico-bioquímico del líquido pleura l se orienta con claridad hacia tuberculosis pleural como diagnóstico más probable.
+
+### CIR-032 | Enfermedad arterial periférica: índice tobillo-brazo | 2021
+Diabético de 59 años, fumador pesado, antecedente de dislipidemia severa, acude a consulta manifestando que desde hace 6 meses presenta dolor en la pantorrilla derecha cuando camina unos 100 metros, lo que le obliga a detenerse unos minutos con lo cual mejora. ¿Cuál es la prueba inicial a indicar en busca del diagnóstico?
+   A) Arteriografía de miembros inferiores
+   B) Eco Doppler de miembros inferiores
+   C) Oximetría transcutánea de miembros inferiores
+  *D) Índice tobillo/brazo
+   E) Angiotomografía de miembros inferiores
+EXP: Paciente diabético, dislipidémico y fumador pesado con clínica típica de claudicación intermitente, que sugiere enfermedad arterial periférica. El dolor en pantorrilla que aparece con el ejercicio y mejora con reposo es muy característico. El estudio inici al recomendado es el índice tobillo/brazo (ITB), por ser no invasivo, económico y sensible, además de permitir clasificar la severidad de la obstrucción arterial. Las otras opciones, como eco Doppler o arteriografía, se reservan para casos con diagnóstico incierto o que requieren planificación quirúrgica.
+
+### CAR-027 | Angioedema por IECA | 2021
+Diabético de 72 años que acude a urgencias por presentar un gran angioedema orolingual. No antecedentes de alergias previas. En tratamiento con metformina, simvastatina, enalapril, tiroxina y levodopa. ¿Cuál es el fármaco que con mayor posibilidad sería el causante del cuadro clínico?
+   A) Simvastatina
+  *B) Enalapril
+   C) Metformina
+   D) Levodopa
+   E) Tiroxina
+EXP: Paciente de 72 años con angioedema orolingual agudo, sin antecedentes de alergias, que se presenta en el contexto de tratamiento con múltiples fármacos, entre los que destaca el enalapril, un inhibidor de la enzima convertidora de angiotensina (IECA). Este grupo farmacológico es reconocido por inducir angioedema mediado por bradiquininas, mecanismo diferente al de las reacciones alérgicas clásicas. La aparición del angioedema puede ser inesperada, incluso tras meses o años de uso. Metformina, simvastatina, levodopa y tiroxina no están comúnmente asociadas con este tipo de reacción. Por lo tanto, el enalapril es el agente más probablemente responsable del cuadro y debe ser suspendido inmediatamente.
+
+### PED-056 | Anemia del prematuro | 2021
+En la anemia del prematuro, ¿qué relación tiene el valor mínimo de hemoglobina respecto al RN a término?
+   A) Igual
+  *B) Más bajo
+   C) Más alto
+   D) No relacionado
+   E) Varía solo por la alimentación
+EXP: La anemia del prematuro es un fenómeno fisiológico agravado por la inmadurez de la médula ósea y el menor tiempo de acumulación de hierro. En el prematuro, el nadir hemoglobínico (valor más bajo) ocurre antes (2-4 semanas) y es más profundo que en el RN a término. Esto se debe a una vida media eritrocitaria más corta y mayor tasa de crecimiento, lo cual exige más requerimiento de oxígeno y hierro. En contraste, el RN a término alcanza un nadir más alto y más tardío. Por tanto, el valor de hemoglobina en el prematuro es significativamente más bajo que en el RN a término.
+
+### PED-057 | Síndrome nefrótico en el niño | 2021
+Niño de 3 años, hace 7 días inicia edema de párpados y luego en tobillos. Laboratorio: colesterol 300 mg/dL, proteinuria/creatinuria > 2, albúmina 2 mg/dL, proteinuria: 40 mg/m²/hora. Hematíes en orina: 3 a 4 x campo, PA sistólica percentil 50, C3: normal. ¿Cuál es el diagnóstico más probable?
+  *A) Síndrome nefrótico
+   B) Síndrome nefrítico
+   C) Glomerulonefritis
+   D) Insuficiencia renal
+   E) Síndrome hemolítico urémico
+EXP: Niño de 3 años con historia de edema progresivo en párpados y tobillos, acompañado de colesterol elevado (300 mg/dL), hipoalbuminemia (2 g/dL) y proteinuria significativa (40 mg/m²/h), sin hipertensión ni descenso de C3. Estos hallazgos son clásicos de un síndrome nefrótico idiopático, el cual es la glomerulopatía más común en pediatría, usualmente de tipo nefropatía por cambios mínimos. La presencia de pocos hematíes en orina no descarta este diagnóstico. La presión arterial normal y el complemento C3 normal descartan el síndrome nefrítico o una glomerulonefritis.
+
+### END-014 | Pubertad precoz central: prueba de GnRH | 2021
+Niña de 7 años presenta telarquia, pubarquia y talla alta desde hace un año. El estudio de edad ósea revela edad de 9 años. Ecografía pélvica: alargamiento del útero. ¿Cuál estudio solicita para definir si el origen es de nivel central?
+  *A) Dosaje de gonadotropinas al estímulo con GnRH
+   B) Tomografía computada pélvica con contraste
+   C) Dosaje de FSH
+   D) Ecografía Doppler de ovarios
+   E) Dosaje de estradiol aislado
+EXP: Niña de 7 años con signos de desarrollo puberal precoz (telarquia, pubarquia y crecimiento acelerado) y edad ósea adelantada (9 años), lo cual sugiere una pubertad precoz verdadera. La presencia de útero alargado en ecografía indica estimulación estrogénica. El paso crucial es distinguir si el proceso es central (dependiente de GnRH) o periférico. Para ello, el test de estímulo con GnRH es el estudio de elección: si hay aumento de LH por encima de FSH tras el estímulo, se confirma eje activado. Las otras opciones no permiten diferenciar este origen con precisión.
+
+### PED-058 | Convulsiones neonatales: fenobarbital | 2021
+Neonato a término, cesárea de urgencia por sufrimiento fetal agudo, presenta convulsiones tónicas, APGAR 2 al minuto y 4 al minuto 5. Al examen: hipertonía muscular. Laboratorio: glicemia 60 mg/dL. Se procede a administrar por vía endovenosa:
+   A) Dextrosa al 33%
+   B) Difenilhidantoína
+  *C) Fenobarbital
+   D) Diazepam
+   E) Gluconato de calcio
+EXP: Neonato a término con convulsiones tónicas, hipertonía muscular y un APGAR sumamente deprimido (2 al minuto 1 y 4 al minuto 5), lo cual sugiere una encefalopatía hipóxico-isquémica severa secundaria a sufrimiento fetal agudo. La glicemia es normal (60 mg/dL), por lo tanto, no se trata de hipoglicemia neonatal. Ante la presencia de convulsiones neonatales, el fármaco de elección es el fenobarbital, debido a su eficacia, perfil de seguridad en esta edad y capacidad de actuar sobre el cerebro inmaduro. Difenilhidantoína se considera en segunda línea, mientras que diazepam no es primera opción por su riesgo de depresión respiratoria. Dextrosa al 33% está indicada solo en hipoglicemia, que no es el caso aquí.
+
+### PED-059 | Invaginación intestinal | 2021
+Lactante de 6 meses que presenta dolor abdominal tipo cólico intermitente, vómitos, deposiciones sanguinolentas color rojo grosella y tumoración palpable en fosa iliaca derecha. No hay referencia de otra sintomatología. ¿Cuál es el diagnóstico probable?
+   A) Plastrón apendicular
+  *B) Invaginación intestinal
+   C) Apendicitis complicada
+   D) Estenosis de píloro
+   E) Enfermedad de Hirschsprung
+EXP: Lactante de 6 meses con dolor abdominal tipo cólico intermitente, vómitos, deposiciones sanguinolentas como jalea de grosella y una tumoración palpable en fosa iliaca derecha: esta triada clásica orienta al diagnóstico de invaginación intestinal, que es la causa más frecuente de obstrucción intestinal en menores de 2 años. El cuadro se presenta típicamente luego de infecciones virales (como adenovirus) que generan hiperplasia de placas de Peyer. La masa palpable corresponde al segmento intestinal invaginado. El diagnóstico se confirma con ecografía abdominal (“signo del donut”) y el tratamiento puede ser por enema terapéutico o cirugía si hay complicaciones como isquemia o perforación. Diagnósticos como apendicitis o estenosis pilórica no explican el sangrado ni la masa palpable.
+
+### PED-060 | Meningitis bacteriana en el lactante | 2021
+Lactante de 10 meses, desde hace 3 días presenta fiebre, hace 1 día irritabilidad, convulsiones generalizadas y somnolencia. Al examen: rigidez de nuca, fontanela abombada y fondo de ojo normal. ¿Cuál es el examen de elección a solicitar?
+  *A) Estudio de LCR
+   B) Hemocultivo
+   C) Hemograma completo
+   D) Electrolitos séricos
+   E) TAC cerebral antes de cualquier otro estudio
+EXP: Paciente de 10 meses con cuadro de fiebre persistente, irritabilidad, convulsiones y somnolencia progresiva, acompañado en el examen físico de rigidez de nuca y fontanela abombada, hallazgos altamente sugestivos de meningitis. En este contexto, el examen de elección es el análisis del líquido cefalorraquídeo (LCR) mediante punción lumbar, que permite evaluar parámetros citológicos, bioquímicos y microbiológicos para confirmar el diagnóstico y dirigir el tratamiento. El hemograma y los electrolitos pueden complementar, pero no confirman ni descartan meningitis. El hemocultivo tiene utilidad diagnóstica, pero su rendimiento es limitado en comparación con el LCR. Por lo tanto, el estudio del LCR es la prueba más inmediata y necesaria.
+
+### PED-061 | Resfrío común en el lactante | 2021
+Lactante de 8 meses desde hace dos días presenta fiebre y rinorrea. Madre con estornudos, rinorrea y fiebre. Al examen: T: 38 °C, FR: 30 x’, activo, rinorrea transparente, orofaringe congestiva. ¿Cuál es el diagnóstico más probable?
+  *A) Resfrío común
+   B) Amigdalitis estreptocócica
+   C) Rinitis alérgica
+   D) Faringitis aguda
+   E) Bronquiolitis
+EXP: Paciente menor de 1 año que presenta un cuadro de inicio súbito de fiebre baja, rinorrea clara y congestión orofaríngea, sin signos de dificultad respiratoria ni compromiso del estado general. El antecedente de síntomas similares en la madre indica un entorno viral transmisible. Estos hallazgos son típicos de una infección viral leve del tracto respiratorio superior, como el resfrío común, usualmente causado por rinovirus, adenovirus o coronavirus. La amigdalitis estreptocócica es poco común en lactantes. L a rinitis alérgica no da fiebre, y la faringitis aguda puede confundirse, pero suele haber más dolor faríngeo y enrojecimiento intenso. Por tanto, el diagnóstico más probable es resfrío común.
+
+### INF-027 | Síndrome de Löffler: albendazol | 2021
+Escolar procedente de Lima. Madre refiere que tiene molestias difusas postprandiales y episodios de tos con expectoración con rasgos de sangre. Al examen: peso disminuido, roncantes y sibilantes en ambos campos pulmonares. Estudio de esputo: eosinofilia. ¿Cuál es el tratamiento a indicar?
+   A) Tinidazol
+   B) Praziquantel
+  *C) Albendazol
+   D) Metronidazol
+   E) Ivermectina
+EXP: Niño con síntomas digestivos y respiratorios, incluyendo dolor abdominal postprandial, tos con expectoración hemoptoica y eosinofilia en esputo, en el contexto de procedencia urbana. Estos datos orientan al síndrome de Loeffler, causado por larvas migrator ias de helmintos, especialmente Ascaris lumbricoides. La eosinofilia es un hallazgo cardinal en la fase pulmonar. El tratamiento de elección en este escenario es el albendazol, un antihelmíntico de amplio espectro eficaz contra nemátodos. Praziquantel es útil para esquistosomiasis y teniasis; tinidazol y metronidazol para protozoarios como Giardia o Entamoeba. Por lo tanto, el albendazol es el tratamiento indicado.
+
+### PED-062 | Deshidratación moderada | 2021
+Lactante de 9 meses es traído a emergencia por presentar, desde hace 3 días, vómitos y deposiciones líquidas 6 a 8 veces por día. Al examen: FC: 130 x’, FR: 40 x’, irritable, signo de pliegue (++), sed aumentada, mucosa oral seca, ruidos cardíacos audibles. ¿Cuál es el estado de deshidratación que presenta?
+  *A) Moderada
+   B) Severa
+   C) Leve
+   D) Con shock
+   E) Sin deshidratación
+EXP: Niño menor de 1 año con cuadro de diarrea aguda con signos clínicos de deshidratación: frecuencia cardiaca y respiratoria elevadas, mucosas secas, sed aumentada, signo del pliegue positivo (++), y estado de conciencia conservado (irritabilidad sin letargo). En el esquema de clasificación de la OMS para deshidratación en menores de 5 años, estos signos corresponden a una deshidratación moderada. No se considera severa porque no hay letargia, ojos hundidos ni signos de shock. El manejo será con rehidratación oral intensiva. Por tanto, el diagnóstico es deshidratación moderada.
+
+### PED-063 | Síndrome urémico hemolítico | 2021
+Niña de 4 años ingresa a emergencia por presentar debilidad, cansancio, irritabilidad y palidez marcada. Hace 5 días presentó diarreas. Al examen: T: 40 °C, mal estado general, pálida, petequias generalizadas. Laboratorio: leucocitos 18,000 x mm³, predominio de PMN, plaquetas: 25,000 x mm³, Hb: 6 g/dL, creatinina: 4 mg/dL. ¿Cuál es el probable diagnóstico?
+  *A) Síndrome urémico hemolítico
+   B) Púrpura trombocitopénica idiopática
+   C) Leucemia aleucémica
+   D) Síndrome hemofagocítico
+   E) Púrpura de Henoch-Schönlein
+EXP: Paciente pediátrica con antecedentes de diarrea infecciosa (probablemente por E. coli productora de toxina Shiga) seguida de triada característica del síndrome urémico hemolítico (SUH): anemia hemolítica (Hb: 6 g/dL), trombocitopenia (plaquetas: 25,000) e insuficiencia renal aguda (creatinina: 4 mg/dL). La fiebre, el mal estado general (MEG) y la presencia de petequias refuerzan un cuadro de microangiopatía trombótica. No hay linfoblastos ni pancitopenia para sospechar leucemia; y el hemofagocítico requiere ferritina muy alta y otras evidencias. En conclusión, el cuadro es compatible con SUH típico posdiarreico.
+
+### PED-064 | Laringotraqueítis aguda (crup) | 2021
+Lactante de 18 meses con inmunización incompleta. Inicia con infección respiratoria alta, rinorrea, tos leve y febrícula durante tres días. Es traído por dificultad respiratoria. Examen: T: 39 °C, FR: 50 x’, disfónico, retracción costal y estridor inspiratorio que se agrava con el llanto, escasos roncantes, ruidos cardíacos taquicárdicos. ¿Cuál es el diagnóstico?
+   A) Absceso retrofaríngeo
+   B) Bronquitis
+   C) Traqueobronquitis
+  *D) Laringotraqueítis aguda
+   E) Epiglotitis aguda
+EXP: Niño menor de 2 años que desarrolla cuadro respiratorio superior progresivo con fiebre, estridor inspiratorio y signos de dificultad respiratoria, en el contexto de inmunizaciones incompletas. El estridor inspiratorio que empeora con el llanto es característico de laringotraqueítis aguda (crup), generalmente causada por virus parainfluenza. La disfonía, fiebre y retracciones refuerzan el diagnóstico. No hay signos de absceso retrofaríngeo (posición en tripoide, sialorrea, odinofagia intensa), ni de bronquitis (sin sibilancias ni tos persistente). Por lo tanto, el diagnóstico más probable es crup viral o laringotraqueítis aguda.
+
+### REU-016 | Impétigo | 2021
+Niño de 2 años, refiere la madre que hace dos días comenzó con rinorrea acuosa transparente y a la fecha presenta lesiones que se iniciaron alrededor de las fosas nasales y se diseminaron sobre el labio superior. Examen: lesiones vesiculares de base eritematosa, algunas rotas y otras costrosas con contenido marrón claro transparente. ¿Cuál es el agente más probable de esta infección?
+  *A) Estreptococo piógeno
+   B) Herpes simple
+   C) Cándida albicans
+   D) Sarcoptes scabiei
+   E) Virus varicela zóster
+EXP: Se presenta un cuadro clásico de impétigo, en este caso probablemente del tipo no ampollar, que suele iniciarse en zonas de piel previamente irritada (por ejemplo, por rinorrea) y que progresa a vesículas y luego a costras melicéricas (color miel o marrón claro), típicas del impétigo. En niños pequeños, el agente más frecuente es Streptococcus pyogenes (grupo A), aunque Staphylococcus aureus también puede estar involucrado. No hay características de herpes (vesículas agrupadas, evolución dolorosa), ni hallazgos que sugieran escabiosis o infección fúngica. Por tanto, el agente más probable es Estreptococo piógeno.
+
+### REU-017 | Tiña capitis | 2021
+Escolar de 9 años presenta en cuero cabelludo área circular pruriginosa con pérdida de cabello. Niega fiebre. Examen: lesiones circulares de 2 a 3 cm de diámetro, bordes definidos, cabellos fracturados, superficie descamativa, color cenizo, en el centro placas escamosas. Se palpa adenopatía retroauricular y cervical posterior. ¿Cuál es el diagnóstico?
+   A) Tricotilomanía
+   B) Querion
+   C) Alopecia areata
+  *D) Tiña capitis
+   E) Psoriasis del cuero cabelludo
+EXP: El cuadro clínico es sugestivo de dermatofitosis del cuero cabelludo, particularmente por especies como Microsporum o Trichophyton. Se caracteriza por lesiones bien delimitadas, pruriginosas, con descamación, cabellos cortos o rotos, y frecuentemente con adenopatías regionales. La tiña capitis es común en edad escolar, y su forma más frecuente es la no inflamatoria (sin querion). Tricotilomanía implica pérdida de cabello irregular sin descamación ni inflamación. Alopecia areata no produce descamación ni prurito. En conclusión, se trata de una tiña capitis no inflamatoria.
+
+### HEM-012 | Recuento absoluto de neutrófilos | 2021
+Escolar de 8 años con diagnóstico de leucemia linfoblástica aguda que acude a control. En el hemograma se reporta: leucocitos totales: 10,000 x mm³, 35% segmentados, 5% bastones, 50% linfocitos, 10% monocitos. ¿Cuánto es el recuento absoluto de neutrófilos por mm³?
+  *A) 4,000
+   B) 3,500
+   C) 5,000
+   D) 500
+   E) 4,500
+EXP: Para calcular el recuento absoluto de neutrófilos (RAN) se utiliza la fórmula: RAN = Leucocitos totales x (% segmentados + % bastones)/100. Aplicando los datos: 10,000 x (35 + 5) /100 = 10,000 x 0.40 = 4,000 neutrófilos/mm³. Este valor indica un recuento dentro del rango normal, lo que es relevante para el control de pacientes oncológicos. La interpretación correcta del RAN es fundamental para valorar el riesgo de infecciones en estos casos. Por tanto, la respuesta correcta es 4,000.

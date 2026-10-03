@@ -1,0 +1,224 @@
+### GIN-059 | Atonía uterina | 2021
+Mujer de 30 años, luego de un expulsivo prolongado da a luz a un bebé de 4100 g, alumbramiento normal. En el puerperio inmediato presenta sangrado vaginal abundante. Al examen: PA 50/20 mmHg, FC 120 x', sopor y palidez marcada. Al nivel de la cicatriz umbilical se palpa útero blando. ¿Cuál es el diagnóstico correcto?
+   A) Laceración cervical
+   B) Tromboastenia de Glanzmann
+   C) Acretismo placentario
+  *D) Atonía uterina
+   E) Rotura uterina
+EXP: Esta paciente presenta un cuadro de hemorragia posparto severa, evidenciado por sangrado profuso, hipotensión profunda, taquicardia e hipoperfusión. La exploración revela un útero blando y al nivel umbilical, lo cual es característico de una atonía uterina, la causa más frecuente de hemorragia postparto. Esta se debe a la incapacidad del útero de contraerse adecuadamente tras el alumbramiento, especialmente en partos prolongados o con recién nacidos macrosómicos, como en este caso. La conducta inmediata incluye masajes uterinos, administración de uterotónicos y manejo de soporte hemodinámico.
+
+### PED-070 | Alimentación complementaria y prevención de anemia | 2021
+Madre con su hijo de 5 meses acude a control de crecimiento y desarrollo, solicita orientación para inicio de alimentación complementaria. Si se requiere prevenir la anemia por deficiencia de hierro. ¿Qué indicación se le dará?
+   A) Priorizar papillas en base a frutas y sopas
+   B) Alimentar con sucedáneos de leche materna
+  *C) Incluir diariamente alimentos de origen animal
+   D) Dar término a la lactancia materna
+   E) Iniciar con leche de vaca entera
+EXP: La introducción de la alimentación complementaria debe iniciar a los 6 meses y debe ser rica en hierro, especialmente en bebés en riesgo de anemia, como los alimentados exclusivamente con leche materna sin suplementación adicional. Por ello, es fundamental recomendar incluir alimentos de origen animal diariamente, como hígado, carnes rojas, vísceras, ya que son ricos en hierro hemo de alta biodisponibilidad. Frutas y sopas tienen valor nutricional, pero no aportan hierro suficiente. La lactancia materna debe continuar al menos hasta los 2 años.
+
+### REU-018 | Líquido sinovial inflamatorio | 2021
+Mujer de 45 años luego de larga caminata presenta dolor con aumento de volumen de la rodilla izquierda. Artrocentesis: leucocitosis de 12000 x mm³. ¿Cómo clasificaría a este líquido?
+   A) Séptico
+   B) Normal
+  *C) Inflamatorio
+   D) Hemorrágico
+   E) Mecánico
+EXP: El líquido sinovial extraído presenta leucocitosis de 12,000/mm³, lo que indica una respuesta inflamatoria significativa, aunque no lo suficiente para considerarlo séptico (generalmente >50,000/mm³). En el contexto de sobrecarga mecánica (caminata larga), pue de tratarse de una artritis inflamatoria no infecciosa, como una artritis por cristales (gota o pseudogota) o una sinovitis reactiva. El líquido inflamatorio se caracteriza por aspecto turbio, aumento de leucocitos y predomino de neutrófilos. No hay datos que sugieran hemartrosis o infección severa.
+
+### NEF-029 | Síndrome de aplastamiento: CPK | 2021
+Varón de 23 años sufre atricción por caída de pared sobre ambos miembros inferiores, luego de unas horas es llevado de emergencia por presentar oligoanuria. ¿Qué examen requiere para establecer el diagnóstico?
+   A) Hematocrito seriado
+   B) Sedimento urinario
+  *C) CPK total
+   D) Sodio sérico
+   E) Urocultivo
+EXP: El paciente ha sufrido un síndrome de aplastamiento (crush syndrome), lo que implica daño muscular extenso con liberación masiva de mioglobina y enzimas musculares. Esto puede llevar a insuficiencia renal aguda por mioglobinuria. El examen más útil para confirmar el daño muscular extenso es la CPK total, que se eleva significativamente en estos casos. La detección temprana permite iniciar hidratación agresiva y medidas preventivas de daño renal. El hematocrito, el sedimento urinario o el sodio sérico pueden aportar información, pero no son diagnósticos.
+
+### OFT-015 | Glaucoma agudo de ángulo cerrado | 2021
+Mujer de 74 años refiere pérdida brusca de la visión del ojo derecho con dolor intenso. Antecedente de asma bronquial y de alergia a las sulfonamidas. La lámpara de hendidura revela edema del epitelio corneal, ángulo esclerocorneal cerrado y cámara anterior poco profunda. ¿Cuál es el tratamiento a indicar?
+  *A) Manitol
+   B) Dorzolamida
+   C) Timolol
+   D) Latanoprost
+   E) Acetazolamida oral
+EXP: La paciente presenta un cuadro típico de glaucoma agudo de ángulo cerrado, caracterizado por dolor ocular intenso, pérdida súbita de visión, edema corneal y cámara anterior estrecha. En este caso, el tratamiento inicial más importante es reducir la presión intraocular rápidamente para preservar la función visual. El manitol, un agente osmótico IV, es el fármaco de elección inicial para lograr este efecto. No se debe administrar dorzolamida, ya que es una sulfonamida y la paciente tiene antecedentes de alergia a este grupo.
+
+### GIN-060 | Pielonefritis en el embarazo: profilaxis de recurrencia | 2021
+Gestante de 28 semanas con pielonefritis aguda en resolución. ¿Cuál es el manejo para prevenir la reinfección en esta gestación?
+   A) Amoxicilina 500 mg diario
+   B) Urocultivo semanal
+   C) Examen completo de orina semanal
+  *D) Nitrofurantoína 100 mg diario
+   E) Suspender tratamiento
+EXP: La pielonefritis durante el embarazo incrementa el riesgo de parto pretérmino y complicaciones neonatales. Una vez resuelta la infección aguda, se recomienda instaurar profilaxis antibiótica diaria para evitar recaídas. La nitrofurantoína 100 mg diario es el fármaco de elección en la mayoría de gestantes después del primer trimestre. Los urocultivos y EGO seriados tienen valor en el seguimiento, pero no sustituyen el tratamiento preventivo. La amoxicilina no es la primera opción por su menor eficacia para infecciones urinarias recurrentes.
+
+### NRL-018 | Ataque isquémico transitorio | 2021
+Mujer de 62 años con antecedente de hipertensión arterial. Presenta bruscamente hemiplejia derecha con afasia no afluente que revierte íntegramente luego de 15 minutos. Tomografía cerebral normal. ¿Cuál es el diagnóstico?
+   A) Hemorragia subaracnoidea
+   B) Hemorragia intraparenquimal
+   C) Embolia cerebral
+  *D) Ataque isquémico transitorio
+   E) Migraña con aura
+EXP: La paciente presenta un cuadro de déficit neurológico focal que revierte completamente en menos de 24 horas (en este caso, en 15 minutos), sin hallazgos patológicos en la tomografía. Esto define un ataque isquémico transitorio (AIT), una condición de alto riesgo para un futuro evento cerebrovascular. Las hemorragias intracraneales y embolias no revierten en tan poco tiempo. Reconocer un AIT permite iniciar medidas preventivas urgentes para reducir la morbilidad neurológica.
+
+### CIR-039 | Politraumatizado con Glasgow 8: vía aérea | 2021
+Varón de 28 años ingresa a Emergencia por atropello vehicular. Al examen: PA 100/60 mmHg, FC 110 x', FR 28 x', SatO₂ 92% con una FiO₂ 40%, herida contuso cortante en región parietal derecha, abdomen distendido, RHA presentes y fractura fémur derecho. Al estímulo doloroso abre los ojos, emite sonidos incomprensibles y vuelve a caer en sopor. ¿Cuál es la primera acción a seguir?
+  *A) Intubación orotraqueal
+   B) Suturar herida de la cabeza
+   C) Colocar vía central
+   D) Radiografía de cráneo
+   E) TEM cerebral inmediata
+EXP: Este paciente politraumatizado tiene un Glasgow de 8 (O2, V2, M4), lo cual indica compromiso severo del estado de conciencia. La prioridad en el manejo del trauma es asegurar la vía aérea; por lo tanto, la intubación orotraqueal es la primera medida a realizar para proteger contra aspiración y asegurar oxigenación. Las otras medidas pueden venir luego, pero en todo paciente con trauma craneoencefálico severo y signos de hipoxia o alteración del sensorio, se debe intubar de inmediato.
+
+### NEU-019 | Cáncer de pulmón: broncofibroscopía con biopsia | 2021
+Varón de 62 años fumador crónico de 2 paquetes diarios de cigarrillos. Desde hace 3 meses, tos persistente con expectoración hemoptoica y baja de peso 5 kg. BK negativo por 3 veces. RX de tórax: masa suprahiliar izquierda de 5 cm de diámetro. ¿Qué examen confirmaría el diagnóstico?
+  *A) Broncofibroscopía con biopsia
+   B) TAC pulmonar con contraste
+   C) Biopsia por punción transtorácica
+   D) Resonancia magnética pulmonar
+   E) Citología de esputo seriada
+EXP: El paciente tiene una historia sugestiva de cáncer de pulmón, con síntomas sistémicos y hallazgo de masa en la RX. La baciloscopia negativa descarta en principio tuberculosis. La broncofibroscopía con biopsia permite obtener muestras directas de lesiones endobronquiales para confirmación histológica. La TAC puede ayudar en la estadificación, pero la confirmación diagnóstica requiere biopsia. La resonancia no es de primera línea en masas pulmonares.
+
+### PSI-013 | Trastorno de adaptación | 2021
+Mujer de 43 años llegó a Lima para trabajar hace 3 meses y desde entonces presenta insomnio, cambios de humor e irritabilidad. Habla poco, es muy desconfiada, en el trabajo se desenvuelve lo mejor que puede y se alegra cuando escucha noticias de su terruño o de sus familiares. ¿Qué trastorno se evidencia en este caso?
+   A) Disociativo
+   B) Somatización
+  *C) Adaptación
+   D) Ansioso-depresivo
+   E) Esquizofrenia paranoide
+EXP: El caso describe a una mujer con síntomas emocionales tras un cambio importante en su entorno: insomnio, irritabilidad, desconfianza y fluctuaciones del estado de ánimo desde que se mudó a Lima. Pese a estas molestias, conserva funcionalidad en el trabajo y encuentra alivio con estímulos vinculados a su hogar. Todo ello encaja con un trastorno de adaptación, común ante estresores psicosociales significativos. No se trata de un trastorno disociativo (con desconexión de la identidad), ni de somatización (síntomas físicos sin causa médica), ni de un cuadro ansioso-depresivo clínico establecido.
+
+### PED-071 | Atresia duodenal en síndrome de Down | 2021
+Neonato a término en segundo día de vida con Trisomía 21. Se evidencia intolerancia oral, vómitos biliosos, abdomen moderadamente distendido, timpánico, no signos de irritación peritoneal. ¿Cuál sería el diagnóstico más probable?
+  *A) Atresia duodenal
+   B) Atresia esofágica
+   C) Estenosis hipertrófica de píloro
+   D) Atresia de colon distal
+   E) Enfermedad de Hirschsprung
+EXP: Se trata de un recién nacido con síndrome de Down que presenta vómitos biliosos, intolerancia oral y distensión abdominal en los primeros días de vida. La asociación clásica es con atresia duodenal, malformación congénita frecuente en estos pacientes. La radiografía suele mostrar el signo de la “doble burbuja”. La estenosis hipertrófica del píloro es no biliosa y ocurre más tarde. La atresia esofágica daría imposibilidad para pasar sonda y babeo excesivo, y la atresia de colon distal no se relaciona estrechamente con Trisomía 21.
+
+### PED-072 | Sarampión | 2021
+Niña de 2 años, inicia hace 5 días con fiebre, cuadro catarral intenso con rinorrea, conjuntivitis, fotofobia y tos seca. Al examen: manchas en la mucosa yugal, erupción exantemática maculopapular morbiliforme rojo vinoso y confluente generalizada en todo el cuerpo. ¿Qué antecedente es importante conocer para un diagnóstico probable?
+  *A) Esquema de vacunación antisarampión
+   B) Si tuvo contacto con varicela
+   C) Si tiene alergia a medicamento o alimento
+   D) Si tuvo contacto con garrapatas
+   E) Si tuvo contacto con escarlatina
+EXP: El cuadro clínico descrito en esta niña es altamente sugestivo de sarampión, enfermedad viral caracterizada por fiebre, catarro intenso, conjuntivitis, manchas de Koplik (en mucosa yugal), y posterior exantema morbiliforme. En este contexto, el antecedente más relevante es si recibió la vacuna SPR (sarampión, paperas, rubéola), que se aplica habitualmente al año de edad y refuerzo a los 18 meses. Si no fue vacunada o tiene esquema incompleto, el diagnóstico se confirma con mayor certeza clínica. Los demás antecedentes (alergias, contacto con varicela o garrapatas) no tienen relación directa.
+
+### PED-073 | Intoxicación por insecticidas en el adolescente | 2021
+Adolescente de 15 años, por primera vez ayuda en la cosecha de uvas, presenta dolor abdominal tipo retortijón, vómitos, diarrea y fasciculaciones musculares. ¿Cuál es la sospecha diagnóstica?
+   A) Intoxicación alimentaria
+   B) Hipoglicemia
+   C) Neurosis conversiva
+  *D) Intoxicación por insecticidas
+   E) Gastroenteritis viral
+EXP: El adolescente ha estado en contacto reciente con la cosecha de uvas, una actividad que frecuentemente implica exposición a pesticidas e insecticidas organofosforados. Los síntomas como dolor abdominal, diarrea, vómitos y fasciculaciones musculares son característicos de este tipo de intoxicación, ya que producen acumulación de acetilcolina al inhibir la colinesterasa. No es un cuadro de intoxicación alimentaria común ni neurosis conversiva. El contexto laboral y los signos musculares son claves en el diagnóstico.
+
+### SP-046 | Análisis de situación de salud: análisis del entorno | 2021
+El equipo de gestión de un centro de salud I-4 encuentra que en los últimos 5 años se ha incrementado la población adulta mayor, de los cuales 60% son de sexo femenino, 95% están en situación de pobreza extrema y 90% cuentan con seguro integral de salud. ¿Cuál fase del análisis de la situación de salud está gestionando?
+   A) Priorización de problemas
+   B) Identificación de actores
+   C) Definición de líneas de acción
+  *D) Análisis del entorno
+   E) Evaluación de resultados
+EXP: La pregunta plantea un análisis del perfil demográfico, económico y de aseguramiento de la población adulta mayor en una jurisdicción, lo cual permite comprender el contexto en el que vive este grupo vulnerable. Este tipo de análisis no se enfoca aún en definir problemas ni estrategias, sino que busca caracterizar el entorno, identificando factores sociales, económicos y sanitarios que podrían influir en la salud de la población. Por ello, se encuentra en la fase de análisis del entorno, que es la base para priorizar problemas más adelante.
+
+### REU-019 | Arteritis de células gigantes | 2021
+Varón de 65 años, hace 5 meses fiebre intermitente, cefalea y artralgias. Al examen: dolor a la presión en la región temporal bilateral, claudicación de la mandíbula y amaurosis bilateral. Laboratorio: Hb 8.5 g/dl, VSG 150 mm/h. ¿Cuál es la conducta terapéutica a seguir?
+   A) Ciclofosfamida
+   B) Metrotexate
+   C) Ácido acetilsalicílico
+  *D) Corticoesteroides
+   E) Antiinflamatorios no esteroideos solos
+EXP: Se trata de un cuadro clásico de arteritis de células gigantes, también conocida como arteritis temporal. Los hallazgos claves son fiebre prolongada, cefalea, dolor en región temporal, claudicación mandibular y amaurosis, junto a anemia y una VSG muy elevada. Esta es una urgencia médica debido al riesgo de ceguera irreversible. El tratamiento de elección es corticoide a altas dosis, que debe n iniciarse de inmediato sin esperar confirmación histológica. El uso precoz de esteroides puede preservar la visión y reducir complicaciones.
+
+### END-016 | Hipertiroidismo | 2021
+Mujer de 34 años, consulta por baja de peso de aproximadamente 6 kilos en un mes. Refiere incremento de apetito y sed, intolerancia al calor y sudoración excesiva. Al examen: PA 120/50 mmHg, FC 120 x', FR 16 x', T 37,5°C, piel húmeda y caliente. ¿Cuál es el diagnóstico probable?
+   A) Adenopatía hipofisiaria
+  *B) Hipertiroidismo
+   C) Feocromocitoma
+   D) Diabetes tipo 2
+   E) Trastorno de ansiedad
+EXP: Mujer joven que presenta un síndrome hipermetabólico caracterizado por pérdida de peso con apetito aumentado, intolerancia al calor, sudoración excesiva, piel caliente y taquicardia. Estos signos y síntomas son clásicos de un hipertiroidismo, el cual se produce por exceso de hormonas tiroideas. La frecuencia cardíaca elevada y presión diferencial aumentada refuerzan el diagnóstico. Feocromocitoma cursa con hipertensión paroxística, la diabetes con poliuria más marcada y el adenoma hipofisiario con síntomas relacionados al tipo de hormona afectada, no este perfil.
+
+### GIN-061 | Mastitis puerperal | 2021
+Mujer de 30 años, puérpera de 2 semanas. Consulta por fiebre. Al examen: dolor, enrojecimiento e induración de piel en mama derecha. ¿Cuál es la actitud a seguir?
+  *A) Antibiótico y seguimiento clínico
+   B) Mamografía de mama
+   C) Biopsia con aguja gruesa
+   D) Drenaje y control en 2 semanas
+   E) Suspender la lactancia materna
+EXP: Puérpera de 2 semanas que presenta fiebre, dolor, eritema e induración en una mama, cuadro clínico clásico de mastitis puerperal. Esta es una infección frecuente durante la lactancia y suele ser causada por Staphylococcus aureus. El tratamiento inicial consiste en antibioticoterapia empírica dirigida a cocos Gram positivos y seguimiento clínico estrecho. La lactancia no debe suspenderse a menos que haya un absceso. Mamografía y biopsia no están indicadas inicialmente, pues no se sospecha patología tumoral.
+
+### GIN-062 | Rotura uterina | 2021
+Tercigesta de 39 semanas por FUR en labor de parto, con dolor abdominal súbito y sangrado vaginal. Cesareada anterior con periodo intergenésico corto. Al examen: se palpan partes fetales en abdomen. Tacto vaginal: dilatación 3, estación -3, membranas rotas con líquido sanguinolento. Latidos fetales 100 x'. ¿Cuál es el diagnóstico?
+   A) Desprendimiento prematuro de placenta
+  *B) Rotura uterina
+   C) Rotura de vasa previa
+   D) Placenta previa
+   E) Atonía uterina
+EXP: Gestante de término con antecedente de cesárea anterior, intergenésico corto, inicia con dolor abdominal súbito y sangrado vaginal. La palpación de partes fetales en abdomen, sumado a bradicardia fetal y líquido sanguinolento, es altamente sugestiva de rotura uterina. Este cuadro pone en riesgo inminente la vida fetal y materna. Se diferencia del DPP por la pérdida de la forma uterina y d e la placenta previa porque hay dolor súbito intenso. El manejo debe ser inmediato con laparotomía de emergencia.
+
+### SP-047 | Determinantes sociales y tuberculosis | 2021
+Un centro de salud reporta aumento en la incidencia de tuberculosis pulmonar BK positivo. El análisis de la situación de salud del ámbito muestra hacinamiento y aumento del desempleo ¿Cuál de los siguientes aspectos es el de mayor influencia en este problema?
+   A) Limitada búsqueda de sintomáticos
+   B) No uso de mascarilla
+  *C) Determinantes sociales
+   D) Multidrogoresistencia
+   E) Baja cobertura de vacunación BCG en adultos
+EXP: El aumento de casos de tuberculosis BK positiva en un contexto de hacinamiento y desempleo evidencia que los determinantes sociales son el principal factor causal. La pobreza, el acceso limitado a servicios, la desnutrición y la falta de educación sanitaria son condiciones estructurales que favorecen la transmisión y cronificación de enfermedades como la TB. Aunque el no uso de mascarilla y la resistencia son relevantes, son secundarias al problema estructural de fondo.
+
+### NEF-030 | Litiasis renal: cólico nefrítico | 2021
+Mujer de 22 años acude porque súbitamente presenta dolor lumbar izquierdo irradiado hacia región inguinal del mismo lado que no calma con analgésicos. Al examen PPL izquierdo +++. Examen de orina: hematíes 20 a 50 x campo, cilindros eritrocitarios y cristales de oxalato. ¿Cuál es el probable diagnóstico?
+   A) Cistitis aguda
+   B) Litiasis vesical
+  *C) Litiasis renal
+   D) Uretritis
+   E) Pielonefritis aguda
+EXP: Mujer joven que presenta dolor lumbar izquierdo de inicio súbito, irradiado a la ingle, que no mejora con analgésicos comunes. Al examen físico destaca puño- percusión lumbar positivo, lo cual orienta hacia una causa renal. El análisis de orina evidencia hematuria microscópica, cilindros eritrocitarios y cristales de oxalato, elementos sugestivos de litiasis renal. El cólico nefrítico es el cuadro clínico típico, caracterizado por dolor cólico intenso debido al paso de cálculos a través del uréter. El diagnó stico se confirma con ecografía renal o tomografía sin contraste. Se debe iniciar analgesia y valorar necesidad de derivación a urología.
+
+### PED-074 | Ganancia de peso insuficiente: visita domiciliaria | 2021
+Lactante de 5 meses de edad, durante su primer controlen un establecimiento de salud 1-2 se detectó una ganancia de peso mensual menor de 500 g. No fue llevado a sus citas posteriores. ¿Qué acción se debe priorizar?
+   A) Denunciar a los padres
+  *B) Visita domiciliaria
+   C) Insistir en programación mensual
+   D) Referencia a tercer nivel de atención
+   E) Cambiar a fórmula láctea sin evaluar
+EXP: El lactante de 5 meses con ganancia de peso insuficiente en su primer control y ausencia de seguimiento representa un riesgo importante de desnutrición infantil. En estos casos, lo prioritario es identificar factores ambientales o sociales que puedan estar interfiriendo con el cuidado adecuado. La acción más efectiva y pertinente en el primer nivel de atención es la visita domiciliaria, ya que permite una evaluación integral del entorno familiar, prácticas de alimentación y factores socioeconómicos. Denunciar sin conocer el contexto podría ser prematuro. La programación mensual debe mantenerse, pero no sustituye la necesidad de intervención directa.
+
+### CB-023 | Intoxicación por monóxido de carbono | 2021
+Mujer de 54 años, reiteradamente acude a Emergencia por cefalea pulsátil, náuseas y vómitos. En la anamnesis: habita en ambiente cerrado y refiere usar estufa de gas. Al examen: PA 110/60 mmHg, FC 120 x’, FR 26 x’, SaO₂ 95% a aire ambiental. Desorientada, confusa e intensa debilidad muscular. ¿Cuál es la terapia más adecuada?
+   A) Óxido nitroso en inhalación
+   B) Intubación endotraqueal
+  *C) Oxígeno al 100%
+   D) Ventilación a alto flujo a 30 lt/min
+   E) Hiperventilación con aire ambiental
+EXP: Paciente con cefalea pulsátil, náuseas, vómitos y alteración del sensorio que vive en ambiente cerrado y usa estufa de gas. Esto hace sospechar una intoxicación por monóxido de carbono (CO), gas incoloro e inodoro que se une con alta afinidad a la hemoglobina formando carboxihemoglobina, desplazando el oxígeno. Aunque la saturación de oxígeno puede parecer normal, hay hipoxia tisular real. El tratamiento de elección es oxígeno al 100%, que acelera la disociación del CO de la hemoglobina. El óxido nitroso está contraindicado. La intubación solo se reserva para casos severos con compromiso respiratorio.
+
+### REU-020 | Acné fulminante | 2021
+Varón de 24 años acude por fiebre y artralgias. Al examen: acné severo con diferentes lesiones, incluso cicatriciales, en cara y tórax. Hemograma: leucocitosis. ¿Cuál es el tipo de acné más probable?
+   A) Pustuloso
+  *B) Fulminante
+   C) Nodular
+   D) Vulgar
+   E) Rosácea
+EXP: Varón joven que presenta fiebre, artralgias y acné severo con lesiones de tipo cicatricial sugiere un cuadro inflamatorio sistémico grave. Ante estos hallazgos, se debe sospechar de acné fulminante, una forma rara pero grave de acné noduloquístico que se acompaña de síntomas sistémicos como fiebre, leucocitosis y malestar general. A diferencia de las formas clásicas, esta entidad puede requerir tratamiento sistémico con corticosteroides y retinoides orales. El diagnóstico es clínico y el manejo debe ser rápido para evitar secuelas físicas y sistémicas graves.
+
+### GAS-021 | Pancreatitis aguda por hipertrigliceridemia | 2021
+Varón de 45 años, obeso, acude a emergencia por presentar dolor abdominal epigástrico irradiado a la espalda, vómitos biliosos incoercibles. Al examen: FC 120 x’, PA 80/60 mmHg, soporoso, dolor abdominal difuso, ictericia. Triglicéridos elevados, amilasa normal. ¿Cuál es la conducta inicial a seguir?
+  *A) Hidratación EV agresiva
+   B) Alimentación enteral
+   C) CPRE urgente
+   D) Antibiótico profilaxis
+   E) Nutrición parenteral total
+EXP: Varón obeso con dolor abdominal epigástrico irradiado a la espalda, signos de hipotensión, ictericia y vómitos, en contexto de triglicéridos elevados, sugiere un cuadro de pancreatitis aguda severa de origen hiperlipidémico. Aunque los niveles de amilasa pueden estar normales en este tipo de pancreatitis, la clínica es muy sugestiva. La hidratación intravenosa agresiva con soluciones cristaloides es la primera medida terapéutica para estabilizar al paciente, corregir la hipovolemia y prevenir complicaciones locales y sistémicas. Las otras opciones se valoran posteriormente según evolución clínica y hallazgos por imágenes.
+
+### PED-075 | Estenosis hipertrófica del píloro | 2021
+Primogénito de un mes de edad, llevado a Emergencia por haber presentado vómitos en proyectil, no bilioso. Al examen: deshidratación moderada, se palpa tumoración pequeña en epigastrio. RX abdomen simple: burbuja de gas en el estómago. ¿Cuál es el diagnóst ico?
+   A) Estenosis yeyunal
+   B) Estenosis duodenal
+  *C) Hipertrofia de píloro
+   D) Gastrosquisis
+   E) Reflujo gastroesofágico
+EXP: Lactante varón de un mes con vómitos en proyectil no biliosos, deshidratación moderada y masa palpable en epigastrio (“oliva pilórica”) son hallazgos clásicos de estenosis hipertrófica del píloro. Este cuadro se presenta más frecuentemente en primogénitos varones entre la 3.ª y 6.ª semana de vida. La imagen radiográfica muestra dilatación gástrica, y el diagnóstico se confirma con ecografía abdominal. El tratamiento es quirúrgico mediante piloromiotomía de Ramstedt. Es importante estabilizar con líquidos y corregir alteraciones hidroelectrolíticas antes de la intervención.

@@ -1,0 +1,224 @@
+### CAR-004 | Hipertensión arterial | 2020
+Varón de 47 años, en control pre-vacacional, presenta presión arterial de 160/100 mmHg y a los 15 minutos 164/98 mmHg. Asintomático, sin antecedentes importantes. Al examen: choque de punta amplio, sostenido y desplazado a la izquierda. ¿Cuál es la conducta más adecuada?
+   A) Dieta hiposódica e hipocalórica
+  *B) Administrar antihipertensivo y derivar para estudio
+   C) Programar al mes para realizar nuevo control
+   D) Recomendar ejercicio aeróbico
+   E) Iniciar ácido acetilsalicílico
+EXP: Presenta cifras de HTA estadio II (>160/100) y el choque de punta desplazado indica un daño silente a órgano diana (hipertrofia ventricular izquierda). Se debe iniciar terapia antihipertensiva y derivar a cardiología.
+
+### NRL-004 | Anemias megaloblásticas | 2020
+Varón de 45 años, alcohólico crónico, hace 6 meses con debilidad y parestesias de extremidades, disnea al esfuerzo. Al examen: pálido, pérdida de sensibilidad termoalgésica, cuadriparesia espástica leve a predominio distal. Hb: 7 g/dL, VCM: 120 fl. ¿Cuál sería el diagnóstico más probable?
+   A) Síndrome de Guillain-Barré
+   B) Encefalopatía hepática
+  *C) Déficit de vitamina B12
+   D) Anemia sideroblástica
+   E) Polineuropatía por déficit de tiamina
+EXP: La presencia de anemia macrocítica franca (VCM > 115 fl) asociada a afectación combinada de cordones posteriores y laterales de la médula (degeneración combinada subaguda con parestesias y espasticidad) confirma el déficit de vitamina B12.
+
+### GIN-010 | Distocias de presentación | 2020
+Gestante de 36 semanas acude a un centro de salud por dolor y contracciones de regular intensidad. Al examen: presentación de nalgas, dilatación de 1 cm. ¿Cuál es el manejo más adecuado?
+   A) Realizar la maniobra de Mauriceau para liberación de cabeza
+   B) Realizar la maniobra de McRoberts para liberación de hombros
+  *C) Derivar paciente a un centro de mayor nivel resolutivo
+   D) Dejar en espontáneo hasta la aparición de los omóplatos
+   E) Realizar versión cefálica externa
+EXP: Una gestación pretérmino en trabajo de parto incipiente y con presentación podálica implica un alto riesgo obstétrico. Un centro de salud primario no tiene la capacidad resolutiva, por lo que la derivación es perentoria.
+
+### CAR-005 | Cardiopatías congénitas | 2020
+Lactante de 15 días de vida con lactancia entrecortada, polipnea y cianosis. Rx de tórax: silueta cardiaca de pedículo estrecho y en "forma ovoide", con aumento de flujo sanguíneo pulmonar. ¿Cuál es el diagnóstico más probable?
+   A) Tetralogía de Fallot
+   B) Comunicación interventricular
+   C) Persistencia del conducto arterioso
+  *D) Transposición de grandes arterias
+   E) Tronco arterioso
+EXP: Cardiopatía congénita cianótica de inicio temprano que cursa con insuficiencia cardiaca. El hallazgo radiológico clásico de "huevo acostado" u "ovoide" con pedículo estrecho describe la Transposición de las Grandes Arterias (TGA).
+
+### SP-007 | Diseños de investigación | 2020
+Se desea investigar el efecto de una nueva estrategia educativa sobre la adquisición de competencias de estudiantes de medicina, debiendo asignar a un grupo la intervención de acuerdo a la conveniencia del investigador. ¿Cuál es el diseño metodológico más adecuado?
+   A) De cohorte
+   B) Ecológico
+   C) Experimental
+  *D) Cuasi experimental
+   E) Casos y controles
+EXP: Todo ensayo que implique asignar una intervención activa a un grupo de manera no aleatoria (sino por conveniencia u otros factores logísticos) clasifica como diseño de tipo cuasi experimental.
+
+### PSI-003 | Trastornos ácido-base y psiquiatría | 2020
+Mujer de 15 años, admitida por náuseas, vómitos, parestesias peribucales y espasmo carpopedal. Familiar informa que tras discusión con la madre la observó agitada y taquipneica. AGA: pH=7.45, PCO2=28, HCO3=22. ¿Cuál sería la conducta inicial?
+   A) Infusión de bicarbonato
+   B) Interconsulta a psicología
+  *C) Hacerla respirar en bolsa de papel
+   D) Administrar ansiolíticos
+   E) Intubación orotraqueal
+EXP: La paciente cursa con alcalosis respiratoria aguda e hipocalcemia iónica por crisis de ansiedad e hiperventilación (parestesias y espasmo). Respirar en una bolsa de papel permite reinhalar CO2 y corregir el trastorno ácido-base rápidamente.
+
+### TRA-002 | Displasia de cadera | 2020
+Lactante de 2 meses, en la evaluación clínica presenta contractura de aductores y asimetría de extremidades. ¿Cuál es el examen auxiliar a solicitar para descartar luxación de cadera?
+  *A) Ecografía
+   B) Resonancia magnética
+   C) Radiografía
+   D) Electromiografía
+   E) Tomografía de cadera
+EXP: En menores de 4 a 6 meses de edad con sospecha de Displasia del Desarrollo de la Cadera (DDC), las epífisis femorales son cartilaginosas y no visibles en rayos X, por lo que la ecografía de caderas es el estudio diagnóstico de elección.
+
+### PED-011 | Alteraciones metabólicas del RN | 2020
+Recién nacido macrosómico a término de 24 horas de vida ingresa a emergencia por hipoactividad sin manifestaciones de sepsis. ¿Cuál es el diagnóstico más probable?
+   A) Hipocalcemia
+   B) Hiponatremia
+   C) Hipomagnesemia
+  *D) Hipoglicemia
+   E) Hipotiroidismo congénito
+EXP: En un neonato macrosómico (frecuentemente hijo de madre diabética), la presentación precoz de hipoactividad o letargia se asocia característicamente a hipoglicemia secundaria a hiperinsulinismo fetal residual.
+
+### PED-012 | Evaluación nutricional infantil | 2020
+Varón de 8 años llega a consulta por pérdida de peso e hiporexia. Percentiles: Peso/Edad bajo, Peso/Talla bajo, Talla/Edad normal. ¿Cuál es el probable diagnóstico?
+   A) Desnutrición crónica
+   B) Desnutrición crónica reagudizada
+  *C) Desnutrición aguda
+   D) Restricción del crecimiento
+   E) Talla baja familiar
+EXP: Un déficit pondoestatural con peso para la talla (emaciación) afectado, pero con talla para la edad conservada, indica un evento de pérdida de peso reciente sin afectar el crecimiento histórico, es decir, una desnutrición aguda.
+
+### SP-008 | Políticas de Salud Pública | 2020
+La responsabilidad del monitoreo del tratamiento o prevención de anemia en los niños, según el plan de lucha contra la anemia en un establecimiento de salud, corresponde a:
+   A) Supervisión de enfermería
+   B) Jefe médico de Pediatría
+  *C) Todo el personal de salud
+   D) Departamento de nutrición
+   E) Solo el médico tratante
+EXP: Según el Plan Nacional de Reducción y Control de la Anemia Materno Infantil en Perú, el abordaje es multisectorial e integral, recayendo la responsabilidad de la tamización, educación y seguimiento en todo el equipo de salud del establecimiento.
+
+### CAR-006 | Síndrome coronario agudo | 2020
+Varón de 64 años acude a Emergencia con dolor retroesternal intenso de 2 horas de evolución, fumador crónico, con dislipidemia mixta y sedentarismo. EKG: elevación del ST en derivaciones II, III, aVF. ¿Cuál es el diagnóstico más probable?
+   A) Angina de pecho
+   B) Disección de aorta
+  *C) Infarto de miocardio
+   D) Espasmo esofágico
+   E) Pericarditis aguda
+EXP: La clínica típica de dolor anginoso prolongado de origen isquémico con elevación del segmento ST en la cara inferior (II, III y aVF) confirma el diagnóstico de infarto agudo de miocardio con elevación del ST (IAMCEST).
+
+### CB-002 | Toxicidad farmacológica | 2020
+Varón de 62 años con diabetes mellitus desde hace 4 años y dislipidemia mixta desde hace 2 años, tratado con metformina 1,000 mg, atorvastatina 20 mg/día y gemfibrozilo 600 mg/día junto con aspirina 100 mg/día. Refiere dolores musculares en miembros inferiores desde hace 2 meses, que le dificultan la marcha. ¿Cuál es el diagnóstico más probable?
+  *A) Mialgias por medicamentos
+   B) Artrosis de rodillas
+   C) Polineuropatía diabética
+   D) Gota aguda
+   E) Miopatía hipotiroidea
+EXP: La combinación de una estatina (atorvastatina) y un fibrato (gemfibrozilo) incrementa notablemente el riesgo de miopatía, rabdomiólisis y mialgias farmacológicas bilaterales por interacción metabólica competitiva a nivel del citocromo P450 y glucuronidación.
+
+### CB-003 | Toxicología clínica | 2020
+Mujer de 25 años traída a emergencia luego de encontrarla inconsciente en su trabajo en un invernadero. Examen: miosis, sialorrea, sudoración, roncantes diseminados, bradicardia. ¿Cuál es el fármaco de elección en este caso?
+   A) Salbutamol
+   B) Flumazenilo
+   C) Epinefrina
+  *D) Atropina sulfato
+   E) Naloxona
+EXP: El cuadro corresponde a un síndrome colinérgico por intoxicación por organofosforados; el tratamiento de primera línea antimuscarínico para revertir la bradicardia y la hipersecreción bronquial es la atropina sulfato.
+
+### CIR-006 | Insuficiencia venosa crónica | 2020
+Mujer de 33 años refiere notar cambios venosos en ambas piernas desde hace 3 meses. Al examen: telangiectasias en cara interna de muslos y piernas. No edemas ni lesiones dérmicas. ¿Cuál es el tratamiento más apropiado?
+  *A) Escleroterapia
+   B) Antiinflamatorios tópicos
+   C) Extracción segmentaria
+   D) Safenectomía
+   E) Ablación endovenosa con láser
+EXP: Las telangiectasias corresponden al estadio CEAP C1 (dilataciones intradérmicas superficiales sin compromiso de venas axiales ni reflujo troncular); el tratamiento de elección de tipo mínimamente invasivo es la escleroterapia.
+
+### CIR-007 | Quemaduras | 2020
+Varón de 20 años que presenta quemadura en cara anterior de tronco, miembro superior derecho ambas caras y mano. ¿Cuál es el porcentaje de extensión según la regla de los nueves?
+  *A) 27%
+   B) 45%
+   C) 18%
+   D) 36%
+   E) 54%
+EXP: Cara anterior de tronco (tórax y abdomen = 18%) + todo el miembro superior derecho con su mano (9%) da un total estimado de 27% según la Regla de los Nueves de Pulaski y Tennison.
+
+### CIR-008 | Manejo del paciente quemado | 2020
+Varón de 62 años, pirotécnico, sufre quemaduras en extremidades y cara por explosión e incendio. Se muestra quejumbroso, con dificultad respiratoria y tirajes subcostales bilaterales. ¿Cuál es el tratamiento inicial de elección?
+   A) Cura quirúrgica
+  *B) Intubación orotraqueal
+   C) Cobertura antibiótica
+   D) Administrar albúmina
+   E) Fluidoterapia según Parkland
+EXP: En pacientes con quemaduras faciales e inhalación de humo con dificultad respiratoria o estridor, la prioridad absoluta es asegurar la vía aérea mediante intubación orotraqueal precoz antes de que el edema supraglótico la ocluya por completo.
+
+### END-005 | Trastornos tiroideos | 2020
+Mujer de 50 años con intolerancia al frío, estreñimiento, piel seca y áspera desde hace 4 meses. Laboratorio: TSH elevada, T4 libre baja, colesterol total 250 mg/dL, triglicéridos 200 mg/dL. ¿Cuál es el tratamiento de elección?
+   A) Fenofibrato
+   B) Ezetimibe
+   C) Estatinas
+  *D) Levotiroxina
+   E) Atorvastatina más fenofibrato
+EXP: La paciente presenta hipotiroidismo primario manifiesto (clínica cardinal con TSH alta y T4 libre baja); el tratamiento etiológico y sustitutivo de elección es la levotiroxina sódica, que a su vez normaliza el perfil lipídico secundario.
+
+### GIN-011 | Embarazo en vías de prolongación | 2020
+Gestante de 42 semanas acude por disminución de movimientos fetales. Ecografía: feto LCD, peso 3,756 g, circunferencia abdominal disminuida, piel arrugada, placenta IIIB, oligoamnios severo y latidos fetales con desaceleraciones repetidas. ¿Cuál es la conducta a seguir?
+   A) Observación
+   B) Solicitar test stressante
+   C) Inducción de parto vaginal
+  *D) Cesárea inmediata
+   E) Amnioinfusión
+EXP: En un embarazo postérmino con oligoamnios severo, calcificación placentaria e hipoxia fetal confirmada por desaceleraciones repetidas, la inducción está contraindicada; procede una cesárea de emergencia.
+
+### GIN-012 | Parto pretérmino | 2020
+Gestante de 32 semanas presenta contracciones uterinas cada 5 minutos. Tacto vaginal: dilatación 0, borramiento 30%, estación -3. Se decide tratamiento para maduración pulmonar. ¿Cuál es el tratamiento de elección?
+   A) Cortisol
+   B) Hidrocortisona
+  *C) Betametasona
+   D) Prednisona
+   E) Dexametasona en dosis única oral
+EXP: El glucocorticoide de elección para inducir maduración pulmonar fetal en amenaza de parto pretérmino es la betametasona (12 mg IM cada 24 horas por 2 dosis) debido a su excelente paso transplacentario.
+
+### GIN-013 | Infecciones ginecológicas | 2020
+Mujer de 25 años acude a emergencia por dolor en hipogastrio, sangrado irregular moderado y dismenorrea. FUR: hace 6 días. Usuaria de anticonceptivos orales combinados y con múltiples parejas sexuales. Al examen: dolor a la movilización del cérvix. ¿Cuál es el diagnóstico más probable?
+   A) Pólipo cervical
+   B) Quiste de ovario
+   C) Mioma subseroso
+  *D) Enfermedad pélvica inflamatoria
+   E) Embarazo ectópico
+EXP: El antecedente de promiscuidad, dolor hipogástrico y dolor patognomónico a la movilización cervical (signo de Frenkel positivo) orientan el diagnóstico hacia una enfermedad pélvica inflamatoria aguda.
+
+### HEM-003 | Anemias megaloblásticas | 2020
+Mujer de 40 años con anorexia, pérdida de peso y diarrea crónica. Antecedente de fiebre tifoidea complicada hace 4 años que obligó a resección del íleon terminal. Al examen: palidez marcada, glositis, queilosis e ictericia. ¿Cuál es el diagnóstico más probable?
+  *A) Anemia megaloblástica
+   B) Talasemia
+   C) Anemia ferropénica
+   D) Esferocitosis
+   E) Anemia aplásica
+EXP: La resección del íleon terminal elimina el sitio anatómico de absorción del complejo vitamina B12-factor intrínseco, desencadenando un déficit de cobalamina que se manifiesta como anemia megaloblástica con glositis e ictericia hemolítica intramedular.
+
+### NEF-004 | Síndrome nefrítico | 2020
+Escolar de 7 años presenta hipertensión arterial, edema palpebral, hematuria, proteinuria leve y complemento C3 bajo. Antecedente de faringoamigdalitis hace 10 días. ¿Cuál es el diagnóstico?
+   A) Glomeruloesclerosis
+   B) Insuficiencia renal
+  *C) Glomerulonefritis
+   D) Nefrosis lipoidea
+   E) Síndrome nefrótico
+EXP: La tríada clásica de síndrome nefrítico agudo (edema, hipertensión arterial y hematuria glomerular) sumada a hipocomplementemia transitoria (C3 bajo) postinfección estreptocócica es típica de glomerulonefritis aguda postinfecciosa.
+
+### PED-013 | Infecciones neonatales | 2020
+Neonato a término de 3 días, ingresa a emergencia por dificultad respiratoria. Antecedente: madre primigesta con RPM de 72 horas, APGAR 8 y peso normal. Examen: FR 80x', FC 180x', irritable, reflejos normales. Hemograma: leucocitosis con desviación izquierda. Rx tórax: infiltrado bilateral. ¿Cuál es el tratamiento de elección?
+   A) Ceftriaxona + cloranfenicol
+   B) Ceftriaxona + ampicilina
+   C) Ampicilina + cloranfenicol
+  *D) Ampicilina + amikacina
+   E) Vancomicina + meropenem
+EXP: Ante una sepsis neonatal temprana o neumonía connatal por RPM prolongada (>18 horas), el esquema empírico de elección de primera línea combina Ampicilina (cubre S. agalactiae y Listeria) con un aminoglucósido como Amikacina (o Gentamicina para gramnegativos).
+
+### PED-014 | Enfermedades exantemáticas | 2020
+Preescolar con 2 días de fiebre de 39°C, cefalea y anorexia. Al examen: máculas eritematosas muy pruriginosas, pápulas y vesículas localizadas en cuero cabelludo, cara y tronco. ¿Cuál es el diagnóstico probable?
+  *A) Varicela
+   B) Eritema infeccioso
+   C) Exantema súbito
+   D) Acarosis infectada
+   E) Impétigo ampolloso
+EXP: La varicela se caracteriza por un patrón exantemático centrípeto (cuero cabelludo, cara, tronco), pruriginoso y pleomórfico (coexistencia de máculas, pápulas, vesículas y costras en "cielo estrellado").
+
+### PED-015 | Obstrucción intestinal pediátrica | 2020
+Lactante de 2 meses con diagnóstico de hipertrofia pilórica, al laboratorio AGA: pH 7.35, CO2 40 mmHg, bicarbonato 24 mEq/L. ¿Qué cuidado se debe tomar antes de la operación?
+   A) Corrección de acidosis metabólica
+   B) Administración de bicarbonato de sodio
+   C) Corrección de acidosis respiratoria
+  *D) Rehidratación parenteral
+   E) Cirugía inmediata sin corregir líquidos
+EXP: En la estenosis hipertrófica de píloro la prioridad antes de la cirugía (piloromiotomía) es la estabilización médica mediante rehidratación parenteral enérgica con corrección hidroelectrolítica (hipocloremia, hipokalemia), minimizando el riesgo perioperatorio.

@@ -1,0 +1,224 @@
+### PED-053 | Deshidratación grave: plan C | 2021
+Niño de 3 años, desde 2 días presenta deposiciones acuosas abundantes, de 6 a 8 veces por día y vómitos. Al examen: T° 38,3 °C, FC:140 x’, signo de Pliegue (++/+++), llenado capilar lento, mucosas muy secas, globos oculares hundidos, ¿Cuál es el tratamiento indicado?
+   A) Sales de rehidratación oral por cada deposición
+   B) Expansión de volumen con solución hipertónica
+   C) Sales de rehidratación oral a demanda
+  *D) Expansión de volumen con solución isotónica
+   E) Ayuno y antiemético
+EXP: El niño presenta signos claros de deshidratación severa: fiebre, taquicardia, pliegue cutáneo lento (++/+++), llenado capilar retardado, mucosas secas y ojos hundidos. Este cuadro requiere manejo urgente con líquidos intravenosos para reponer el volumen circulante y evitar el shock. La solución indicada es la solución salina isotónica (ClNa 0.9%) en bolo intravenoso, ya que permite una expansión efectiva del volumen extracelular. Las soluciones hipertónicas no se utilizan en la rehidratación de rutina por r iesgo de hipernatremia. Las sales de rehidratación oral están indicadas en deshidrataciones leves o moderadas, pero no en cuadros como este. El tratamiento debe ser hospitalario con monitoreo clínico estricto. Una vez estabilizado, puede continuarse la rehidratación por vía oral. La causa infecciosa debe investigarse y tratarse si es necesario. Es fundamental educar a los padres en si
+
+### GIN-046 | Hiperémesis gravídica y autonomía de la paciente | 2021
+Gestante de 10 semanas con insuficiencia renal crónica en lista de espera para trasplante. Con cuadro de hiperémesis gravídica grave. Se plantea aborto terapéutico que es rechazado por la paciente. ¿Qué alternativa sugeriría en este caso?
+  *A) Manejar la hiperémesis y la enfermedad de fondo
+   B) Insistir con aborto
+   C) Pedir autorización al esposo y a los padres
+   D) Dar sedación continua
+   E) Hemodiálisis suspendida durante el embarazo
+EXP: En una gestante con enfermedad crónica y cuadro de hiperémesis gravídica severa, la primera línea de manejo es el tratamiento médico sintomático y de soporte. El aborto terapéutico solo debe considerarse cuando la vida materna corre peligro real y no existen alternativas viables. En este caso, la paciente ha rechazado el aborto, lo que debe respetarse según los principios de autonomía y consentimiento informado. Por lo tanto, la conducta más ética y profesional es manejar la hiperémesis con hidratación, antieméticos y corrección de electrolitos, así como controlar la enfermedad renal crónica con un equipo multidisciplinario. La opción de insistir con el aborto o recurrir a familiares para tomar decisiones es inadecuada y vulnera los derechos de la paciente. La sedación no es un manejo médico aceptado para este escenario. Siempre debe priorizarse la atención integral y el respeto por la d
+
+### PED-054 | Meningitis neonatal | 2021
+Neonato de 10 días de edad, con 2 días de fiebre, pobre succión y somnolencia. Al examen: T° 38.5°C, FR: 40 x'. FC: 160 x', irritable, fontanela abombada. ¿Cuál examen realizaría para definir el diagnóstico?
+  *A) Estudio de líquido cefalorraquídeo
+   B) TAC cerebral
+   C) Resonancia magnética cerebral
+   D) Hemocultivo
+   E) Urocultivo
+EXP: Neonato de 10 días con fiebre, pobre succión, somnolencia, irritabilidad y fontanela abombada es sospechoso de una infección del sistema nervioso central, especialmente meningitis neonatal. En este contexto clínico, el examen más útil y urgente para confirmar el diagnóstico es el estudio del líquido cefalorraquídeo (LCR), mediante una punción lumbar. Este procedimiento permite identificar la presencia de células inflamatorias, niveles de glucosa y proteínas, y, con tinción y cultivo, el agente causal. Aunque una TAC cerebral puede ser necesaria si hay signos de hipertensión endocraneana o focalización neurológica, en la mayoría de neonatos no es el estudio inicial. La resonancia magnética tiene un rol más específico y tardío. El hemocultivo también es útil, pero no reemplaza al análisis del LCR para confirmar meningitis. Por tanto, el diagnóstico de elección se hace por análisis directo 
+
+### INF-022 | Dengue con signos de alarma | 2021
+Paciente adulto, hace 2 semanas estuvo en zona transmisión de dengue, presenta desde hace 5 días fiebre, dolor abdominal intenso y continúo, dolor torácico, vómitos persistentes, sangrado de mucosas, disminución de la diuresis, estado mental alterado, hepatomegalia, hematocrito 50%. ¿Como se define el caso?
+   A) Dengue grave
+  *B) Dengue con signos de alarma
+   C) Dengue hemorrágico
+   D) Dengue severo
+   E) Dengue sin signos de alarma
+EXP: El paciente presenta signos clínicos y paraclínicos que corresponden a un caso de dengue con signos de alarma. Los criterios como fiebre de más de dos días, dolor abdominal severo, vómitos persistentes, sangrado de mucosas, disminución de la diuresis y alteración del estado mental indican compromiso sistémico progresivo. El hematocrito elevado (50%) sugiere hemoconcentración por extravasación de plasma. La hepatomegalia es un hallazgo común. A pesar de estos hallazgos graves, aún no hay evidencia de shock, disfunción orgánica severa ni sangrado masivo, por lo que no se clasifica como dengue grave. El término “dengue hemorrágico” ha sido reemplazado por la clasificación actual de la OMS (2009), que incluye: dengue sin signos de alarma, dengue con signos de alarma y dengue grave. En este caso, el diagnóstico adecuado es dengue con signos de alarma, que requiere hospitalización para vigilan
+
+### SP-034 | Atención primaria de salud | 2021
+"El núcleo del Sistema de Salud de un país, es la Asistencia Sanitaria Esencial y accesible a todos los individuos y familias de la comunidad" El concepto corresponde a:
+  *A) Atención Primaria de Salud
+   B) Atención Básica de Salud
+   C) Atención Integral de Salud
+   D) Salud para todos en el año 2000
+   E) Medicina familiar
+EXP: La frase mencionada: “El núcleo del sistema de salud de un país, es la Asistencia Sanitaria Esencial y accesible a todos los individuos y familias de la comunidad”, corresponde al concepto de Atención Primaria de Salud (APS). Esta fue establecida en la Declaración de Alma-Ata en 1978, como la estrategia central para alcanzar la meta de “Salud para todos en el año 2000”. La APS incluye elementos esenciales como el acceso universal, participación comunitaria, uso apropiado de tecnologías y equidad. Se enfoca en la prevención, promoción, curación y rehabilitación, con enfoque familiar y comunitario. No debe confundirse con “atención básica”, que es un término menos técnico, ni con la atención integral, que implica coordinación entre niveles, pero no expresa el enfoque esencial comunitario. Por tanto, la opción correcta es Atención Primaria de Salud, como pilar estratégico de los sistemas mo
+
+### SP-035 | Promoción de la salud mental | 2021
+¿Cuál de las siguientes intervenciones se deben incorporar al autocuidado de salud, promoción de prácticas saludables y acciones de prevención en el contexto de la pandemia de COVID-19 en el primer nivel de atención?
+   A) Provisión de oxígeno a la comunidad
+   B) Registro de migraciones
+  *C) Cuidado de la salud mental
+   D) Incorporación de sujetos de investigación
+   E) Cierre de los establecimientos de salud
+EXP: En el contexto de la pandemia por COVID-19, el primer nivel de atención cumple un rol esencial en la promoción del autocuidado y prevención de la enfermedad. Dentro de las acciones más importantes se encuentra el cuidado de la salud mental, ya que la pandemia generó altos niveles de ansiedad, depresión, duelo no resuelto, estrés postraumático y otros problemas psicosociales, tanto en personal de salud como en la población general. Proveer oxígeno es una intervención terapéutica propia del segundo o tercer nivel de atención. El registro de migraciones es una acción estadística que no forma parte directa del autocuidado. Incorporar sujetos a investigación no es parte del autocuidado, sino de una estrategia académica o científica. Por tanto, la intervención más coherente y prioritaria en el primer nivel de atención es fortalecer la salud mental, promoviendo redes comunitarias de apoyo, espa
+
+### OFT-008 | Otitis media aguda | 2021
+Preescolar con otalgia de inicio agudo. A la otoscopía: se evidencia secreción purulenta en conducto auditivo y abombamiento de la membrana timpánica ¿Cuál es el tratamiento de primera elección?
+  *A) Amoxicilina
+   B) Trimetropin
+   C) Ampicilina
+   D) Clindamicina
+   E) Ciprofloxacino oral
+EXP: Un preescolar con otalgia aguda, secreción purulenta y abombamiento timpánico presenta un cuadro clínico compatible con otitis media aguda supurada. El tratamiento de primera elección para esta infección bacteriana es la amoxicilina, por su alta eficacia frente a los patógenos más comunes: Streptococcus pneumoniae, Haemophilus influenzae y Moraxella catarrhalis. Trimetoprim, ampicilina y clindamicina no son fármacos de primera línea en esta condición; clindamicina, en particular, está reservada para sospecha de anaerobios o infecciones más complicadas. La otitis media aguda debe ser tratada rápidamente para evitar complicaciones como mastoiditis o pérdida auditiva conductiva. La amoxicilina debe administrarse por vía oral durante 7 a 10 días, según edad y gravedad. El uso oportuno de antibióticos de primera línea mejora el pronóstico y acorta la evolución del cuadro infeccioso.
+
+### PED-055 | Rubéola congénita | 2021
+Lactante de 2 meses de edad, hijo de madre adolescente quien presentó un episodio de fiebre con erupción morbiliforme a las 10 semanas de gestación. Al examen del lactante se espera encontrar:
+  *A) Catarata
+   B) Sordera
+   C) Macrocefalia
+   D) Coriorretinitis
+   E) Hidrocefalia
+EXP: Un lactante de 2 meses, cuya madre presentó exantema morbiliforme en el primer trimestre del embarazo, sugiere una infección congénita por rubéola. La rubéola congénita es un síndrome caracterizado por afectación neurosensorial, ocular y cardiaca. Si la infección ocurre durante el primer trimestre (como en este caso, a las 10 semanas), hay alto riesgo de malformaciones graves. La catarata congénita es uno de los hallazgos más típicos, junto con microftalmia, retinopatía pigmentaria y otras alteraciones del segmento anterior ocular. También pueden presentarse hipoacusia neurosensorial y persistencia del conducto arterioso. Aunque macrocefalia puede verse en otras infecciones TORCH, como citomegalovirus o toxoplasmosis, la presencia de cataratas en este contexto clínico es el hallazgo más característico. Por tanto, el examen físico debe enfocarse en el tamizaje oftalmológico temprano.
+
+### SP-036 | Categorización de establecimientos de salud | 2021
+El registro y categorización adecuada de los establecimientos de salud corresponden al componente de................... del modelo de atención integral de salud basado en familia y comunidad.
+   A) Financiamiento
+   B) Gestión
+   C) Prestación
+  *D) Organización
+   E) Vigilancia epidemiológica
+EXP: El modelo de atención integral basado en familia y comunidad, promovido por el MINSA, se estructura en varios componentes funcionales, entre ellos: organización, prestación, financiamiento y gestión. El registro y categorización de los establecimientos de salud es un proceso logístico y estructural que forma parte del componente de organización, ya que se enfoca en definir la infraestructura, recursos, servicios ofertados y el nivel de complejidad de cada establecimiento. Esto permite asignar funciones claras, derivaciones adecuadas y planificación territorial. El componente de prestación se enfoca en la atención directa al usuario, el de gestión en la planificación y toma de decisiones, y el de financiamiento en la asignación de recursos. Así, la categorización institucional es una herramienta organizativa esencial para la articulación de redes integradas de salud.
+
+### END-008 | Diabetes mellitus: diagnóstico | 2021
+Varón de 55 años de 1.60 m de estatura y 80 kg de peso, con poliuria, nicturia y polidipsia. Ambos padres diabéticos. ¿Cuál es el procedimiento diagnóstico adecuado para el primer nivel de atención?
+  *A) Glicemia en ayunas
+   B) Glucosa en orina
+   C) Albúmina glicosilada
+   D) Péptido C en orina
+   E) Prueba de tolerancia oral a la glucosa con insulinemia
+EXP: Un varón con síntomas cardinales de diabetes mellitus tipo 2 —poliuria, polidipsia y nicturia, además de antecedentes familiares directos— debe ser evaluado en el primer nivel con un examen sencillo, accesible y validado: la glicemia en ayunas. Esta prueba mide la glucosa plasmática luego de 8 horas de ayuno y es uno de los criterios diagnósticos aceptados por la ADA y la OMS. Una cifra ≥126 mg/dL confirma el diagnóstico si es repetida o si hay síntomas asociados. La glucosuria ya no se emplea como método diagnóstico por su baja sensibilidad. La albúmina glicosilada (HbA1c) requiere equipamiento especializado y no siempre está disponible en el primer nivel. El péptido C en orina evalúa función pancreática endógena, pero no tiene valor diagnóstico inicial. Por lo tanto, la prueba más práctica, directa y útil en atención primaria es la glicemia en ayunas.
+
+### NEF-021 | Hiperplasia benigna de próstata: tratamiento | 2021
+¿Cuáles son los fármacos de primera línea utilizados en el tratamiento de la hipertrofia benigna de próstata sintomática?
+  *A) Bloqueadores alfa selectivos / Inhibidores de la 5 alfa Reductasa
+   B) Bloqueadores Beta / Anticolinérgicos
+   C) Antiespasmódicos / Miorelajantes
+   D) Corticoides / Antiespasmódicos
+   E) Diuréticos tiazídicos / Antiespasmódicos
+EXP: La hiperplasia prostática benigna (HPB) es una patología frecuente en varones mayores de 50 años y se presenta clínicamente con síntomas obstructivos urinarios: nicturia, disminución del calibre del chorro urinario, pujo y sensación de vaciamiento incompleto. El manejo farmacológico de primera línea se basa en dos grupos clave: los bloqueadores alfa -1 selectivos (como tamsulosina), que relajan el músculo liso del cuello vesical y la próstata para mejorar el flujo urinario, y los inhibidores de la 5 alfa reductasa (como finasteride), que reducen el volumen prostático al disminuir la conversión de testosterona a dihidrotestosterona. Los betabloqueadores, antiespasmódicos o corticoides no tienen indicación en este contexto. La elección del tratamiento se adapta a la severidad del cuadro clínico, volumen prostático y tolerancia del paciente.
+
+### END-009 | Insuficiencia suprarrenal por retiro de corticoides | 2021
+Varón de 60 años hospitalizado por neumonía COVID-19, recibió corticoterapia durante 20 días. Siete días después presenta anorexia, astenia, dolor abdominal y nauseas. Al examen: PA: 80/50 mmHg. Laboratorio: Na: 130 mEq/L, glucosa: 60 mg/dL, K 3.5 mEq/L. Luego de expandir volumen con 2 litros de solución salina continúa hipotenso. ¿Cuál es el tratamiento indicado?
+   A) Vasopresores
+   B) Plasma residual
+  *C) Hidrocortisona
+   D) Paquete globular
+   E) Antibióticos de amplio espectro
+EXP: Paciente adulto mayor con antecedente de uso prolongado de corticoides (20 días) y posterior presentación de síntomas constitucionales (anorexia, astenia, dolor abdominal, náuseas) junto con hipotensión refractaria a volumen, hiponatremia e hipoglucemia, sugiere con alta probabilidad una insuficiencia suprarrenal secundaria, más específicamente una crisis suprarrenal inducida por supresión del eje hipotálamo-hipófisis-adrenal. En este contexto clínico, el tratamiento más indicado es la hidrocortisona, que reemplaza el déficit agudo de cortisol endógen o y corrige la disfunción hemodinámica y metabólica. Los vasopresores no corrigen el defecto primario, el plasma residual no es útil aquí, y los paquetes globulares solo se indican ante anemia significativa, la cual no se evidencia. La reposición con glucocorticoides debe iniciarse de forma inmediata para revertir el shock suprarrenal y pre
+
+### SP-037 | Adulto mayor frágil | 2021
+Varón de 85 años, llevado a control por deterioro cognitivo leve y dependencia parcial. Antecedente: dos caídas en el último año y manifestaciones depresivas. De acuerdo a la Norma vigente del MINSA. ¿Como se le considera a este adulto mayor?
+  *A) Frágil
+   B) Enfermo
+   C) Complejo
+   D) Independiente
+   E) Saludable
+EXP: Según la Norma Técnica de Atención Integral del Adulto Mayor del MINSA, un paciente mayor de 60 años que presenta caídas repetidas, deterioro cognitivo leve, dependencia parcial en actividades básicas o instrumentales y síntomas depresivos, debe ser considerado como un adulto mayor frágil. La fragilidad es un síndrome geriátrico que implica disminución de la reserva fisiológica, hacién dolo vulnerable a descompensaciones ante cualquier estrés. No debe confundirse con un paciente enfermo agudo ni complejo (que requeriría múltiples especialistas o internamiento), y mucho menos como independiente. Esta clasificación es esencial para guiar la atención primaria, definir planes de cuidado individualizados y priorizar estrategias de prevención de deterioro funcional y social.
+
+### GAS-015 | Dispepsia funcional | 2021
+Varón de 30 años con 3 meses de dolor epigástrico, náuseas y llenura. Exámenes normales de laboratorio y endoscopia alta. ¿Cuál es el diagnóstico?
+  *A) Dispepsia funcional
+   B) Gastritis crónica
+   C) Ulcera Péptica.
+   D) Enfermedad por Reflujo.
+   E) Gastroparesia
+EXP: El paciente presenta una clínica típica de dispepsia (dolor epigástrico, náuseas, sensación de llenura) con duración mayor a 4 semanas, pero con laboratorios y endoscopía alta normales, lo cual descarta causas orgánicas como úlcera péptica o gastritis eros iva. Ante este contexto clínico y con hallazgos negativos en estudios complementarios, el diagnóstico más probable es dispepsia funcional, según los criterios de Roma IV. Esta es una entidad frecuente, de origen multifactorial, asociada a hipersensibilidad visceral, trastornos motores gástricos y, en ocasiones, factores psicosociales. La enfermedad por reflujo gastroesofágico se caracteriza por pirosis y regurgitación, más que plenitud o dolor postprandial. El manejo inicial incluye medidas dietéticas, procinéticos y tratamiento empírico con inhibidores de bomba de protones.
+
+### GAS-016 | Hemorragia por várices esofágicas | 2021
+Adulto cirrótico que ingresa por hematemesis. Hemodinamia estable. Endoscopía: dilatación anormal de las venas de alrededor del esófago con evidencia de sangrado. ¿Cuál tratamiento es el indicado?
+  *A) Ligadura de várices de esófago
+   B) Colocación de Sonda Sengstaken- Blakemore
+   C) Infusión de Octreotide
+   D) Transfusión de plaquetas
+   E) Escleroterapia con alcohol absoluto
+EXP: El paciente cirrótico con hematemesis y endoscopía que confirma várices esofágicas sangrantes está cursando una hemorragia digestiva alta por hipertensión portal, la complicación más temida de la cirrosis. En pacientes hemodinámicamente estables, el tratamiento de elección es la ligadura endoscópica de várices, ya que reduce la mortalidad, controla el sangrado y previene recurrencias. La sonda de Sengstaken-Blakemore se reserva para casos graves con sangrado masivo no controlado por endoscopía. El octreotide es útil como manejo inicial, pero no reemplaza a la intervención endoscópica. La transfusión de plaquetas solo se indica si hay trombocitopenia severa o coagulopatía activa. El enfoque debe ser multidisciplinario, con profilaxis antibiótica y evaluación para trasplante si es necesario.
+
+### SP-038 | Evaluación económica: minimización de costos | 2021
+Cuando no existen diferencias entre los efectos de las alternativas que se proponen. ¿Cuál evaluación económica debe utilizarse?
+   A) Estandarización de costos
+   B) Costo-utilidad
+   C) Costo-efectividad
+  *D) Minimización de costos
+   E) Costo-beneficio
+EXP: Cuando las intervenciones comparadas tienen igual eficacia clínica (es decir, generan los mismos resultados en salud), el método adecuado de evaluación económica es el análisis de minimización de costos. Este tipo de análisis busca determinar cuál opción es menos costosa manteniendo la misma efectividad. En cambio, el costo-efectividad y el costo-utilidad se utilizan cuando las alternativas tienen efectividades distintas, y se desea saber cuál proporciona mejor resultado por unidad de costo. La estandarización de costos no es una técnica de evaluación económica per se. Este escenario es típico en decisiones sobre medicamentos genéricos vs. originales con igual bioequivalencia.
+
+### NEU-011 | Silicosis | 2021
+Minero de 43 años con historia de tos crónica, expectoración mucoide y disnea a medianos esfuerzos. Rx de tórax: engrosamiento de la trama, nódulos apicales y adenomegalias parahiliares calcificadas con aspecto de "cáscara de huevo". ¿Cuál es el diagnóstico más probable?
+   A) Baritosis
+  *B) Silicosis
+   C) Estañosis
+   D) Biscinosis
+   E) Asbestosis
+EXP: Trabajador minero con exposición crónica a sílice presenta sintomatología respiratoria crónica y una radiografía de tórax con hallazgos clásicos: engrosamiento de la trama intersticial, nódulos pulmonares en lóbulos superiores y adenopatías hiliares calcificadas tipo “cáscara de huevo”, lo cual es patognomónico de silicosis. La baritosis y la estañosis suelen ser benignas y asintomáticas, sin fibrosis ni calcificación hiliar. La biscinosis es propia de la industria textil, con broncoconstricción reversible tipo asma, no asociada a este patrón radiológico. La silicosis también predispone a tuberculosis, lo cual hace más crítico su diagnóstico precoz y vigilancia continua en trabajadores de alto riesgo.
+
+### OFT-009 | Rinitis alérgica | 2021
+Escolar con estornudos matutinos, rinorrea y prurito nasal. Al examen: ojeroso, con respiración bucal y pliegue nasal transverso. Laboratorio: IgE sérica 500 UI/mL. ¿A qué tipo de rinitis corresponde?
+   A) Vasomotora
+  *B) Alérgica
+   C) Infecciosa
+   D) Medicamentosa
+   E) Atrófica
+EXP: El caso describe claramente un cuadro típico de rinitis alérgica, enfermedad crónica de la infancia mediada por IgE, desencadenada por alérgenos ambientales. Los estornudos matutinos, la rinorrea hialina, el prurito nasal y los signos como las ojeras alérg icas ("shiners"), respiración bucal y el pliegue nasal transverso (por frotamiento repetido) son característicos. El laboratorio confirma la hipersensibilidad tipo I al mostrar una IgE total elevada. En contraste, la rinitis vasomotora no presenta niveles elevados de IgE ni síntomas clásicos de alergia; la infecciosa suele ser purulenta, con fiebre, y la medicamentosa ocurre en usuarios crónicos de descongestionantes tópicos (rinitis medicamentosa por rebote). Se trata entonces de una rinitis alérgica, diagnóstico clínico confirmado por perfil inmunológico.
+
+### CIR-029 | Colecistitis aguda | 2021
+Mujer de 40 años, después de ingerir alimentos grasos presenta dolor abdominal y vómitos. Al examen: se palpa resistencia muscular en hipocondrio derecho. Leucocitosis 16 000 x mm3, BT 2 mg/dL, BD 0.8 mg/dL. Ecografía: vesícula biliar con pared de 5 mm, cálculo de 2 cms fijo en bacinete. Colédoco 4 mm. Páncreas no se visualiza. ¿Cuál es el diagnóstico más probable?
+  *A) Colecistitis aguda
+   B) Pancreatitis aguda
+   C) Isquemia mesentérica
+   D) Apendicitis aguda
+   E) Coledocolitiasis
+EXP: El cuadro clínico es típico de una colecistitis aguda, una inflamación de la vesícula biliar usualmente secundaria a litiasis. El desencadenante frecuente es la ingesta de alimentos grasos, que estimula la contracción vesicular. El dolor en hipocondrio derecho, la resistencia muscular (signo de Murphy), la leucocitosis y la ecografía que muestra engrosamiento de pared (>3 mm) y un cálculo fijo en el cuello vesicular (bacinete) confirman el diagnóstico. El colédoco normal y la ausencia de visualización pancreática descartan pancreatitis. La bilirrubina total ligeramente elevada es compatible con una obstrucción parcial y transitoria. Las otras opciones (pancreatitis, apendicitis, isquemia mesentérica) no corresponden al perfil clínico ni imagenológico. Por tanto, se trata de una colecistitis aguda litiasica.
+
+### NEF-022 | Hiperpotasemia: electrocardiograma | 2021
+Varón de 45 años, con dolor precordial y taquicardia. EKG: complejo QRS ancho e imperfecto, ondas T muy altas, delgadas y puntiagudas. ¿Cuál alteración electrolítica sería responsable de estas alteraciones?
+   A) Hipernatremia
+   B) Hipercalcemia
+  *C) Hiperpotasemia
+   D) Hipopotasemia
+   E) Hipocalcemia
+EXP: El patrón electrocardiográfico descrito es característico de hiperpotasemia, una urgencia médica que afecta directamente la conducción eléctrica del corazón. Los signos tempranos incluyen ondas T picudas, altas y simétricas, progresando a ensanchamiento de l QRS, pérdida de ondas P y fibrilación ventricular si no se corrige. Clínicamente, puede cursar con dolor torácico y arritmias. La hiponatremia y la hipocalcemia tienen otras manifestaciones en el EKG, mientras que la hipopotasemia produce ondas T planas, ondas U y taquiarritmias ventriculares, no lo que se describe en el caso. El diagnóstico de hiperpotasemia debe llevar a un tratamiento inmediato para evitar complicaciones letales como paro cardíaco. Este caso ilustra una presentación típica con signos electrocardiográficos clásicos.
+
+### INF-023 | Shigelosis | 2021
+Varón de 26 años, hace 3 días ingiere alimentos en un puesto ambulante y hoy acude a la emergencia por anorexia, náuseas, vómitos y deposiciones líquidas con moco y sangre en pequeña cantidad y fiebre de 38,5 ºC, ¿Cuál es la etiología más probable?
+   A) Vibrio cholerae
+  *B) Shigella dysenteriae
+   C) Entamoeba coli
+   D) Toxina estafilocócica
+   E) Rotavirus
+EXP: El cuadro clínico presenta una diarrea de tipo invasiva: deposiciones líquidas con moco y sangre, fiebre y síntomas sistémicos como náuseas y vómitos. Esto orienta hacia un agente enteroinvasivo, entre los cuales Shigella dysenteriae destaca por causar disentería bacilar, caracterizada por fiebre alta, dolor abdominal tipo cólico y diarrea con sangre y moco. El antecedente de ingesta callejera es típico. En cambio, Vibrio cholerae causa diarrea acuosa en "agua de arroz" sin sangre ni fiebre; Entamoeba coli no es patógena; y la toxina estafilocócica genera una diarrea tóxica, acuosa, sin fiebre ni sangre, de presentación mucho más rápida (2-6 h). Por lo tanto, este cuadro encaja con una shigelosis de presentación clásica.
+
+### GAS-017 | Hepatitis aguda en el niño: transaminasas | 2021
+Niña de 2 años, con 6 días de fiebre, anorexia, náuseas, vómitos y dolor abdominal. Examen: dolor a la palpación en hemiabdomen superior derecho, borde hepático a 2 cm. debajo del reborde costal derecho a nivel de línea medioclavicular, sin ictericia. ¿Cuál prueba solicitaría para confirmar inflamación hepática?
+   A) Hemocultivo
+   B) Fosfatasa alcalina
+   C) Velocidad de sedimentación
+  *D) Transaminasas
+   E) Amilasa
+EXP: El cuadro clínico sugiere hepatitis aguda, dada la fiebre persistente, síntomas digestivos (náuseas, vómitos, anorexia) y hallazgos focales como dolor en hipocondrio derecho y borde hepático palpable. La prueba de elección para confirmar inflamación hepática es la determinación de transaminasas (ALT y AST), que se elevan en respuesta al daño hepatocelular. La fosfatasa alcalina se eleva más en colestasis, la VSG es inespecífica y el hemocultivo es útil si se sospecha absceso hepático, pero no es la prueba inicial para inflamación hepática simple. En este contexto, las transaminasas permiten confirmar el compromiso hepático agudo.
+
+### GAS-018 | Pancreatitis aguda alcohólica | 2021
+Varón de 38 años que 6 horas después de haber ingerido licor presenta bruscamente epigastralgia de tipo terebrante, intensa y persistente que se irradia a la espalda, concomitantemente náuseas y vómitos. Al examen: signo de Cullen. ¿Cuál es el diagnóstico más probable?
+   A) Obstrucción intestinal alta
+  *B) Pancreatitis aguda
+   C) Trombosis mesentérica
+   D) Úlcera perforada
+   E) Infarto agudo de miocardio inferior
+EXP: Se trata de un cuadro clínico clásico de pancreatitis aguda de origen alcohólico, en un varón con dolor epigástrico irradiado en cinturón a la espalda, náuseas y vómitos. El signo de Cullen (equimosis periumbilical) indica sangrado retroperitoneal, típico de pancreatitis severa. El antecedente de consumo etílico reciente refuerza la etiología. Las otras opciones son menos probables: obstrucción intestinal no cursa con dolor retroirradiante ni signo de Cullen; trombosis mesentérica tiene dolor más súbito, intenso y desproporcionado al examen; y la úlcera perforada cursa con abdomen en tabla y aire libre en Rx, no con este patrón irradiado. Diagnóstico: pancreatitis aguda.
+
+### CIR-030 | Politraumatizado con hemorragia intraabdominal | 2021
+Politraumatizado ingresa a emergencia en mal estado general. Al examen: PA: 70/40 mmHg, FC:156 x', FR: 24x', Sat O2: 92 %; pálido, diaforético con venas yugulares colapsadas y examen de tórax normal. ¿Cuál es el diagnóstico más factible?
+  *A) Hemorragia intraabdominal
+   B) Neumotórax a tensión
+   C) Taponamiento pericárdico
+   D) Contusión del miocardio
+   E) Shock neurogénico
+EXP: El paciente presenta signos de shock hipovolémico: hipotensión severa (PA 70/40), taquicardia intensa (FC 156), palidez, diaforesis, y colapso yugular. El examen de tórax es normal, lo que descarta compromiso torácico directo (como neumotórax o taponamiento). El hallazgo de yugulares colapsadas descarta taponamiento pericárdico y neumotórax a tensión, donde deberían estar distendidas. En politraumatizados, una de las causas más frecuentes de shock hipovolémico es la hemorragia intraabdominal, especialmente si no hay sangrado externo evidente. Por tanto, la causa más probable en este contexto clínico es hemorragia interna abdominal no visible, compatible con el patrón de presentación.
+
+### INF-024 | Malaria en la gestante | 2021
+Primigesta procedente de Tumbes, desde hace 9 días presenta malestar general, cefalea y fatiga que se asocia con fiebre elevada cada 72 horas, además de escalofríos, sudoración profusa, mialgias y artralgias. ¿Cuál es el diagnóstico más probable?
+  *A) Paludismo
+   B) Zika
+   C) Fiebre tifoidea
+   D) Leptospirosis
+   E) Dengue
+EXP: Paciente procedente de una zona endémica del norte peruano (Tumbes), donde el paludismo (malaria) es una enfermedad prevalente. La clínica muestra fiebre periódica cada 72 horas, acompañada de síntomas sistémicos como cefalea, mialgias, artralgias y fatiga, además de escalofríos y sudoración profusa, en un patrón clásico de acceso palúdico. El diagnóstico diferencial incluiría enfermedades como Zika o leptospirosis, pero estas no presentan fiebre periódica. La fiebre tifoidea suele ser continua o en escalera, no intermitente. El dato clave aquí es la periodicidad de la fiebre, altamente sugestiva de paludismo, siendo la especie más común en Perú el Plasmodium vivax. En gestantes, este diagnóstico es crucial por su riesgo fetal.

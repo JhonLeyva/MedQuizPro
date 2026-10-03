@@ -1,0 +1,224 @@
+### GIN-031 | Endometritis puerperal | 2020
+Puérpera, a los 3 días postparto presenta fiebre (38.5 ºC) y malestar general. Útero subinvolucionado, doloroso a la palpación y loquios fétidos. ¿Cuál es el diagnóstico más probable?
+   A) Corioamnionitis
+  *B) Endometritis puerperal
+   C) Infección de herida operatoria
+   D) Dehiscencia de histerotomía
+   E) Mastitis puerperal
+EXP: En una puérpera con fiebre, útero doloroso y subinvolucionado, junto con loquios fétidos, el diagnóstico más probable es endometritis puerperal. Es una infección del endometrio que suele manifestarse en los primeros días postparto, especialmente si hubo manipulación obstétrica o parto prolongado. La corioamnionitis se presenta antes del parto. La infección de herida operatoria no cursa con útero doloroso. La dehiscencia de histerotomía es una complicación poscesárea poco frecuente y de presentación más aguda. El tratamiento incluye antibióticos de amplio espectro y vigilancia estrecha.
+
+### CB-009 | Embriología: implantación | 2020
+¿En qué etapa del desarrollo gestacional se produce la implantación endometrial?
+  *A) Blastocisto
+   B) Mórula
+   C) Cigoto
+   D) Blastómero
+   E) Gástrula
+EXP: La implantación endometrial ocurre en la etapa de blastocisto, aproximadamente entre el día 6 y 7 posfecundación. En esta fase, el blastocisto ya ha salido de la zona pelúcida y se encuentra en capacidad de adherirse al endometrio para iniciar el proceso de implantación. La mórula y el cigoto son etapas previas, mientras que el blastómero es una célula resultante de las divisiones iniciales del cigoto. La correcta implantación es esencial para el desarrollo del embarazo. Por ello, el blastocisto es la estructura clave para este proceso fisiológico.
+
+### GIN-032 | Corioamnionitis | 2020
+Mujer con gestación de 39 semanas, en fase latente de trabajo de parto, presenta fiebre (39 °C). Cuatro horas antes recibió 50 mg de misoprostol, 3 ½ hora después le colocan analgesia peridural. Se detecta taquicardia fetal (165 latidos por minuto). ¿Cuál sería el diagnóstico más probable?
+   A) Sufrimiento fetal agudo
+   B) Fiebre por misoprostol
+   C) Fiebre por la analgesia
+  *D) Corioamnionitis
+   E) Pielonefritis aguda
+EXP: La presencia de fiebre intraparto, taquicardia fetal y administración previa de misoprostol en una gestante con trabajo de parto sugiere un cuadro de corioamnionitis. Aunque tanto el misoprostol como la analgesia pueden elevar la temperatura, no justifican la taquicardia fetal asociada. La corioamnionitis es una infección del corion y la decidua, y su diagnóstico es clínico. Los signos clave son fiebre materna, taquicardia fetal, leucocitosis y dolor uterino. Esta condición requiere tratamiento antibiótico inmediato y decisión obstétrica sobre el parto. Por tanto, el diagnóstico más probable es corioamnionitis.
+
+### GIN-033 | Desprendimiento prematuro de placenta | 2020
+Gestante de 38 semanas, presenta dolor epigástrico y sangrado vaginal rojo vinoso. Al examen físico: presión arterial 140/90 mmHg, latidos cardiacos fetales de 128 por minuto, útero contraído. ¿Cuál es el diagnóstico más probable?
+   A) Rotura uterina
+  *B) Desprendimiento prematuro de placenta
+   C) Vasa previa
+   D) Placenta previa
+   E) Rotura del seno marginal
+EXP: Gestante a término con sangrado rojo oscuro, dolor epigástrico y útero contraído apunta a un desprendimiento prematuro de placenta (DPP). Esta condición ocurre cuando la placenta se separa parcialmente o totalmente del útero antes del parto, generando sufrimiento fetal y compromiso hemodinámico materno. El dolor es continuo e intenso, no asociado a contracciones rítmicas. La PA elevada sugiere preeclampsia, que es un factor de riesgo importante para el DPP. La placenta previa y vasa previa cursan con sangrado indoloro. Por lo tanto, el diagnóstico más probable es desprendimiento prematuro de placenta.
+
+### GIN-034 | Placenta previa | 2020
+Mujer con gestación de 35 semanas, se percata de pérdida sanguínea por vagina en escasa cantidad, sin dolor y sin contracciones. ¿Cuál sería la conducta más apropiada?
+   A) Examen rectal
+   B) Examen pélvico vaginal
+  *C) Hospitalización y solicitar ecografía
+   D) Taponamiento vaginal
+   E) Inducción inmediata del parto
+EXP: Gestante con sangrado escaso, indoloro y sin dinámica uterina sugiere una causa placentaria, como placenta previa. En estos casos, nunca se debe realizar tacto vaginal por el riesgo de hemorragia severa. La conducta segura y correcta es hospitalizar a la paciente para vigilancia fetal y materna, y solicitar ecografía transvaginal o abdominal para evaluar la localización placentaria. El examen rectal o el taponamiento no están indicados. Por tanto, la conducta más apropiada ante este cuadro clínico es hospitalizar y realizar ecografía.
+
+### CIR-017 | Quemaduras: manejo prehospitalario | 2020
+¿Cuál es la indicación prehospitalaria para la persona que ha sufrido lesiones térmicas en extensión y profundidad?
+  *A) Cubrir con apósitos secos
+   B) Colocarle paños húmedos
+   C) Colocarle apósitos con sulfadiazina
+   D) Mantenerlo descubierto
+   E) Aplicar hielo sobre las quemaduras
+EXP: En el manejo prehospitalario de quemaduras, lo prioritario es evitar la contaminación y prevenir mayor pérdida de calor. Cubrir las lesiones con apósitos secos y limpios ayuda a proteger el tejido lesionado sin interferir con el posterior manejo hospitalario. No se deben usar paños húmedos ni cremas tópicas (como sulfadiazina) en esta fase, ya que podrían agravar la lesión o dificultar su evaluación. Dejar al paciente descubierto incrementa el riesgo de hipotermia e infección. Por ello, lo indicado es cubrir con apósitos secos.
+
+### CAR-012 | QT prolongado por fármacos | 2020
+Varón de 57 años, en consulta por palpitaciones, ingresa con diagnóstico de COVID-19 de 8 días. Indica que desde esa fecha se viene automedicando, no recordando el fármaco utilizado. Al examen: EKG evidencia QT prolongado, en sangre K sérico de 3 mEq/L. ¿Qué sobredosis se plantea?
+   A) Levofloxacino
+  *B) Cloroquina
+   C) Enoxaparina
+   D) Dexametasona
+   E) Atropina
+EXP: Paciente con COVID-19, palpitaciones y hallazgo de QT prolongado con hipokalemia orienta a una toxicidad cardiaca inducida por fármacos. Durante la pandemia, se usaron de forma indiscriminada medicamentos como cloroquina, que prolongan el intervalo QT y predisponen a arritmias ventriculares. La hipokalemia potencia este riesgo. Levofloxacino también prolonga el QT, pero es menos frecuente en este contexto. Enoxaparina y dexametasona no alteran el QT. Por lo tanto, se sospecha sobredosis de cloroquina, relacionada a automedicación en COVID-19.
+
+### CB-010 | Anafilaxia e hipersensibilidad | 2020
+Varón de 21 años ingresa por sensación de falta de aire y prurito generalizado. Indica que estuvo en el parque hace 2 horas y sintió una picadura en su brazo. Se halla SatO₂ de 90% y sibilancias audibles. ¿Cuál es el manejo inmediato?
+  *A) Adrenalina
+   B) Dopamina
+   C) Clorfeniramina
+   D) Hielo local
+   E) Hidrocortisona endovenosa
+EXP: Joven con disnea súbita, prurito y saturación baja posterior a picadura sugiere anafilaxia. La presencia de sibilancias y signos cutáneos refuerzan esta sospecha. El manejo inmediato y vital es la administración intramuscular de adrenalina, que revierte el broncoespasmo, vasodilatación y colapso cardiovascular. Antihistamínicos como clorfeniramina son útiles como coadyuvantes, pero no resuelven la crisis. Dopamina y hielo local no son prioritarios en este contexto. La adrenalina es la piedra angular del tratamiento en una reacción anafiláctica.
+
+### NEF-013 | Intoxicación por metanol y acidosis metabólica | 2020
+Varón de 39 años en emergencia, llevado por un familiar. Refiere que la noche previa estuvo en fiesta patronal e ingirió abundante licor. Hacia el mediodía manifestó visión borrosa y hace unas horas que no despierta. Al examen: presenta respiración profunda, ECG sin focalización, gasometría: pH 6.8, HCO₃⁻ 7 mEq/L, PaO₂ 78 mmHg. ¿Cuál es la sospecha diagnóstica?
+   A) Consumo de benzodiazepinas
+   B) Encefalopatía hepática grado II
+   C) Intoxicación por CO
+  *D) Intoxicación por metanol
+   E) Cetoacidosis diabética
+EXP: Paciente con acidosis metabólica severa (pH 6.8, HCO₃⁻ 7), visión borrosa y antecedentes de ingesta alcohólica sugiere intoxicación por metanol, frecuente en alcoholes adulterados. El metanol se metaboliza a ácido fórmico, causante de acidosis grave y daño ocular. La respiración profunda (Kussmaul) es compensatoria. La intoxicación por CO no genera acidosis tan severa. Las benzodiacepinas no producen alteraciones visuales ni acidosis. Encefalopatía hepática suele acompañarse de signos neurológicos focales. Por ello, el diagnóstico más probable es intoxicación por metanol.
+
+### TRA-006 | Trauma cervical por latigazo | 2020
+Hombre de 34 años que llega a emergencia luego de sufrir un accidente manejando su auto que fue colisionado en su parte posterior. ¿Qué lesión sospecha en el conductor recién ingresado?
+  *A) Lesión cervical
+   B) Ruptura esplácnica
+   C) Neumotórax a tensión
+   D) Lesión aórtica traumática
+   E) Fractura de clavícula
+EXP: Varón con accidente vehicular por impacto posterior, lo que sugiere un mecanismo de hiperextensión cervical. En este tipo de colisiones, es común la lesión por latigazo o el compromiso medular cervical. Los síntomas pueden no ser evidentes inicialmente, pero se requiere alta sospecha clínica. Las otras opciones (lesiones esplácnicas, neumotórax a tensión, lesión aórtica) son más frecuentes en traumas por impacto frontal o lateral, con síntomas respiratorios o hemodinámicos marcados. Por tanto, la sospecha inmediata debe ser una lesión cervical.
+
+### GIN-035 | Tamizaje de diabetes gestacional | 2020
+Gestante de 12 semanas, con un IMC de 30, acude a su primer control prenatal con una glicemia en ayunas de 90 mg/dL. Usted recomendaría:
+  *A) Test de tolerancia a la glucosa entre las 24 a 28 semanas
+   B) Acudir a su control prenatal normal
+   C) Repetir la glicemia en ayunas
+   D) Iniciar tratamiento con metformina
+   E) Hemoglobina glicosilada mensual
+EXP: La paciente con obesidad (IMC ≥30) tiene mayor riesgo de diabetes gestacional, aunque la glicemia en ayunas aún está dentro del rango normal. En este contexto, lo recomendable es realizar el tamizaje con test de tolerancia oral a la glucosa entre las 24-28 semanas, según las guías internacionales. No es necesario repetir la glicemia actualmente ni iniciar tratamiento farmacológico sin diagnóstico. Tampoco debe descartarse el control prenatal habitual, sino complementarlo con vigilancia metabólica específica. Por tanto, se indica el test entre las semanas señaladas.
+
+### INF-012 | Tuberculosis y lactancia materna | 2020
+Puérpera inmediata, con tratamiento antituberculoso en segunda fase. ¿Qué recomendación daría con respecto a la lactancia?
+   A) Evitar dar de lactar
+   B) Usar mascarilla al dar de lactar
+  *C) Continuar la lactancia sin restricción
+   D) Dar de lactar al terminar el tratamiento
+   E) Suspender la lactancia hasta terminar el tratamiento
+EXP: En la puérpera que se encuentra en la segunda fase del tratamiento antituberculoso, no hay contraindicación para la lactancia materna. Los fármacos antituberculosos de primera línea (isoniacida, rifampicina, etambutol, pirazinamida) se excretan en bajas concentraciones en la leche materna, sin causar daño al lactante. Además, la madre ya no es altamente contagiosa en esta fase si ha estado en tratamiento regular. Por ello, se debe continuar con la lactancia sin restricciones, ya que los beneficios superan cualquier riesgo potencial. No se requiere aislamiento ni suspensión del amamantamiento.
+
+### PED-034 | Displasia broncopulmonar | 2020
+Lactante de 2 meses de edad, pretérmino (34 sem. de edad gestacional), se mantuvo en ventilación mecánica invasiva durante 30 días. Actualmente requiere aporte de oxígeno 3 L/min por cánula nasal. ¿Cuál es el diagnóstico más probable?
+  *A) Displasia broncopulmonar
+   B) Fibrosis pulmonar
+   C) Enfermedad de membrana hialina
+   D) Hipertensión pulmonar primaria
+   E) Neumonía por aspiración
+EXP: Este lactante prematuro con antecedente de ventilación mecánica prolongada y necesidad persistente de oxígeno suplementario presenta una evolución clínica característica de displasia broncopulmonar. Esta es una complicación frecuente en prematuros con enfermedad respiratoria severa que requieren soporte ventilatorio prolongado. Se diagnostica típicamente cuando hay requerimiento de oxígeno a las 36 semanas de edad postconcepcional. La fibrosis pulmonar es rara a esta edad, y la hipertensión pulmonar suele ser secundaria. La enfermedad de membrana hialina ocurre en etapas neonatales precoces. Por tanto, el diagnóstico más probable es displasia broncopulmonar.
+
+### GIN-036 | Inmunoprofilaxis anti-D | 2020
+En la evaluación de una puérpera inmediata, usted descubre que ella es Factor Rh negativo. ¿Qué característica impediría la prescripción de la inmunoprofilaxis?
+  *A) Presencia de anticuerpos anti-D
+   B) Que el producto sea Rh positivo
+   C) Si el padre es Rh positivo
+   D) Si el Coombs indirecto es negativo
+   E) Que sea su primer parto
+EXP: La inmunoprofilaxis anti-D está indicada en mujeres Rh negativas que han tenido un parto con feto Rh positivo. Sin embargo, si la madre ya ha desarrollado anticuerpos anti-D (inmunización activa previa), entonces la profilaxis es innecesaria e ineficaz. La presencia de anticuerpos anti-D se detecta mediante una prueba de Coombs indirecto positiva. En este caso, ya hay sensibilización materna, y la inmunoglobulina no tiene beneficio. Por ello, la presencia de anticuerpos anti-D es la condición que impide su prescripción.
+
+### GAS-008 | Encefalopatía hepática | 2020
+Varón de 49 años, alcohólico crónico. Desde hace 2 días, luego de reunión familiar, presenta desorientación y lerdeza al hablar. Al examen: funciones vitales estables, sin signos de focalización, temblor de manos, eritema palmar, abdomen distendido y con matidez desplazable. Glucocinta: 75 mg%. ¿Cuál sería el diagnóstico más probable?
+   A) Colangitis biliar
+   B) Síndrome hepatorrenal
+   C) Intoxicación por metanol
+  *D) Encefalopatía hepática grado II
+   E) Hipoglucemia
+EXP: El paciente alcohólico crónico con signos de confusión, temblor, eritema palmar y ascitis sugiere un cuadro de encefalopatía hepática, probablemente descompensada por una ingesta alcohólica reciente. No hay datos que apoyen intoxicación por metanol (sin acidosis metabólica severa ni alteración visual), ni colangitis (no hay ictericia ni dolor). La función renal aún no se describe como comprometida. Todo apunta a una encefalopatía hepática grado II.
+
+### CAR-013 | Reanimación cardiopulmonar básica | 2020
+Adulto mayor que, estando en un centro comercial y próximo a usted, pierde súbitamente la conciencia. Rápidamente evalúa que no hay riesgo situacional. ¿Cuál es la secuencia correcta de su accionar?
+  *A) Diagnosticar que está en parada cardiaca y de ser así pedir ayuda e iniciar 30 compresiones torácicas
+   B) Verificar que no respira y de ser así dar 2 respiraciones de rescate y luego dar golpe precordial
+   C) Verificar que no hay pulso, llamar al 116 y poner la cabeza hacia el lado derecho
+   D) Evaluar si respira, de no hacerlo, dar golpe precordial, luego 2 respiraciones y 15 compresiones por 2 minutos
+   E) Buscar un DEA y recién después iniciar compresiones
+EXP: En un colapso súbito de un adulto, según las guías de reanimación (ACLS/BLS), lo primero es evaluar la seguridad del entorno, luego verificar si responde y respira, y si no lo hace, se diagnostica paro cardíaco. En ese caso, se pide ayuda (activar sistema de emergencias) e inician compresiones torácicas inmediatas (30 compresiones por 2 ventilaciones en RCP básica). El golpe precordial no es parte de la RCP básica. Por tanto, la secuencia correcta es la opción A.
+
+### GIN-037 | Gestante Rh negativa: Coombs indirecto | 2020
+Primigesta de 27 semanas, en su primer control prenatal refiere que tiene factor Rh negativo. La primera medida que va a realizar usted es solicitar:
+   A) Grupo sanguíneo y factor Rh al esposo
+  *B) Test de Coombs indirecto
+   C) Aplicar la inmunoprofilaxis
+   D) Test de Coombs directo
+   E) Amniocentesis
+EXP: Toda gestante Rh negativa debe ser evaluada para determinar si está isoinmunizada. La prueba inicial recomendada es el test de Coombs indirecto, que detecta anticuerpos anti-D en sangre materna. Si es negativo, se aplicará inmunoglobulina anti-D según el protocolo. Si es positivo, la paciente ya está sensibilizada y se hace seguimiento fetal estrecho. El test al esposo puede hacerse luego si es necesario. La inmunoprofilaxis no se aplica sin antes confirmar el estado inmunológico.
+
+### GIN-038 | Restricción del crecimiento intrauterino | 2020
+Gestante de 34 semanas, confiable, altura uterina de 28 cm. Edad gestacional estimada por ecografía: 33 semanas por diámetro biparietal y longitud de fémur, y 29 semanas por circunferencia abdominal. El manejo más adecuado es solicitar:
+   A) Perfil biofísico
+   B) Terminar la gestación
+  *C) Ecografía Doppler
+   D) Prueba no estresante
+   E) Amniocentesis para madurez pulmonar
+EXP: La discordancia en las mediciones ecográficas, especialmente una circunferencia abdominal menor para la edad gestacional, sugiere restricción de crecimiento intrauterino (RCIU). En este contexto, lo más indicado es una ecografía Doppler para evaluar el flujo sanguíneo fetal y placentario (arteria umbilical, cerebral media, ductus venoso), lo que permite establecer la severidad de la RCIU. El perfil biofísico o la prueba no estresante pueden complementar, pero el Doppler es el primer paso.
+
+### SP-021 | Salud ocupacional: aislamiento por COVID-19 | 2020
+Trabajador de 34 años, refiere que, en su familia, desde hace dos días, se encuentran tres integrantes afectados por COVID-19. Él no tiene síntomas, pero su prueba es positiva. La unidad de salud ocupacional debe indicar:
+  *A) Aislarlo por quince días y monitorearlo
+   B) Pedirle una prueba en la empresa
+   C) Que continúe laborando porque es asintomático
+   D) Que vuelva a venir si presenta síntomas
+   E) Hospitalizarlo de inmediato
+EXP: El paciente es un trabajador joven asintomático, pero con prueba positiva para SARS-CoV-2 y antecedentes de exposición intradomiciliaria reciente a contactos confirmados. Según los protocolos establecidos por la OMS y el MINSA durante el periodo de pandemia, todo trabajador con prueba positiva, aun sin síntomas, debe ser aislado para cortar la cadena de transmisión, dado que puede ser un transmisor activo. Además, el periodo de incubación y la posibilidad de desarrollar síntomas posteriormente justifican la vigilancia clínica activa. No se debe permitir que continúe laborando ni tampoco esperar a que desarrolle síntomas.
+
+### INF-013 | VIH y vía del parto | 2020
+Gestante de 38 semanas, presenta contracciones uterinas frecuentes. Antecedente de infección por VIH-SIDA en tratamiento. ¿Cuál es la condición para decidir si el manejo del parto es por vía vaginal?
+   A) Dilatación de 3 cm
+  *B) Carga viral de VIH < 1000 copias/ml
+   C) Membranas íntegras
+   D) Pródromos de trabajo de parto
+   E) Primiparidad
+EXP: En el caso de gestantes VIH positivas, la vía del parto se decide en base a carga viral y no a criterios obstétricos iniciales como dilatación cervical o integridad de membranas. Si la carga viral es menor de 1000 copias/ml, el riesgo de transmisión vertical es muy bajo y se puede permitir el parto vaginal. Por el contrario, si la carga viral es alta, se indica cesárea electiva para reducir la exposición fetal. En este contexto, la carga viral es el factor determinante, más aún cuando la paciente ya se encuentra en trabajo de parto. Por ello, la alternativa correcta es la B: Carga viral de VIH < 1000 copias/ml, lo cual garantiza una conducta segura tanto para la madre como para el recién nacido.
+
+### GIN-039 | Enfermedad inflamatoria pélvica | 2020
+Mujer de 28 años, con dolor en ambas fosas ilíacas, le realizaron hidrosonografía 4 días antes. Se detecta dolor a la movilización del cuello uterino y palpación de los anexos. ¿Cuál sería el diagnóstico más adecuado?
+  *A) Enfermedad Inflamatoria Pélvica
+   B) Perforación uterina
+   C) Dolor pélvico crónico
+   D) Endometriosis
+   E) Embarazo ectópico
+EXP: La paciente presenta dolor en ambas fosas ilíacas, con dolor a la movilización del cuello uterino y en los anexos. Este triple criterio clínico clásico es altamente sugestivo de enfermedad inflamatoria pélvica (EIP), especialmente si se asocia a un procedimiento ginecológico previo como la hidrosonografía, que pudo facilitar la ascensión bacteriana. La EIP es una infección del tracto genital superior que suele ser polimicrobiana y puede comprometer útero, trompas y ovarios. La opción A es la correcta.
+
+### HEM-004 | Anemia perniciosa | 2020
+Varón de 40 años, alcohólico, obeso. Pálido, Hb: 9 g/dl, macrocitosis, B12 baja, ácido fólico normal. Biopsia gástrica: gastritis crónica con atrofia fúndica. ¿Cuál sustancia está deficiente?
+  *A) Factor intrínseco
+   B) Gastrina
+   C) Urogastrona
+   D) Defensina
+   E) Hierro
+EXP: Este paciente presenta anemia macrocítica con niveles bajos de vitamina B12, pero con ácido fólico normal. Además, tiene antecedentes de alcoholismo y se encuentra pálido. La biopsia gástrica revela gastritis atrófica fúndica, una característica típica de anemia perniciosa. Esta condición autoinmune destruye las células parietales responsables de la síntesis del factor intrínseco, necesario para la absorción intestinal de la vitamina B12 en el íleon terminal. Su deficiencia conduce a anemia megaloblástica.
+
+### GIN-040 | Mola hidatiforme | 2020
+Mujer de 16 años, 15 semanas de gestación, sangrado escaso, náuseas y vómitos excesivos, AU: 19 cm, sin FCF. ¿Cuál es el diagnóstico más probable?
+   A) Muerte fetal temprana
+  *B) Mola hidatiforme
+   C) Aborto diferido
+   D) Amenaza de aborto
+   E) Embarazo gemelar
+EXP: Esta gestante adolescente tiene 15 semanas de embarazo con náuseas y vómitos intensos, sangrado vaginal escaso, altura uterina mayor a lo esperado (AU: 19 cm) y ausencia de FCF, lo que sugiere un crecimiento anormal del tejido trofoblástico. Este cuadro clínico es clásico de una mola hidatiforme, una forma de enfermedad trofoblástica gestacional caracterizada por hiperplasia de las vellosidades coriónicas. La presencia de signos de hiperemesis gravídica severa también es típica.
+
+### GIN-041 | Aborto inevitable | 2020
+Gestante de 15 semanas con dolor en hipogastrio, pérdida de sangre y líquido amniótico. Orificios cervicales abiertos, se confirma pérdida de líquido. ¿Cuál es su presunción diagnóstica?
+   A) Aborto frustrado
+   B) Aborto incompleto
+  *C) Aborto inevitable
+   D) Aborto inminente
+   E) Amenaza de aborto
+EXP: La paciente está en la semana 15 de gestación y presenta sangrado y pérdida de líquido amniótico, con cuello uterino abierto. Estos hallazgos son indicativos de un aborto inevitable, ya que existe ruptura de membranas y el proceso de pérdida del embarazo es irreversible, aunque el producto aún no haya sido expulsado. El término “inevitable” se aplica cuando hay evidencia objetiva de progresión hacia el aborto, como dilatación cervical y pérdida de líquido.
+
+### PED-035 | Intususcepción intestinal | 2020
+Niño de 2 años presenta dolor paroxístico abdominal tipo cólico que se acompaña de vómitos intermitentes y deposiciones muco sanguinolentas. Examen: tumoración alargada abdominal en cuadrante superior derecho. ¿Cuál es el diagnóstico probable?
+   A) Linfoma
+  *B) Intususcepción
+   C) Divertículo de Meckel
+   D) Enfermedad de Hirschsprung
+   E) Apendicitis aguda
+EXP: Niño de 2 años con dolor abdominal intermitente, vómitos y deposiciones mucosanguinolentas, junto a una tumoración alargada en el abdomen sugiere fuertemente una invaginación intestinal (intususcepción). Este cuadro clínico es clásico, conocido como la tríada de dolor cólico, masa palpable y heces en «jalea de grosella» (currant jelly stools). La invaginación es una urgencia pediátrica que puede requerir reducción neumática o cirugía. El diagnóstico diferencial incluye enfermedad de Hirschsprung o divertículo de Meckel, pero no se ajustan a la presentación aguda ni al hallazgo de masa.

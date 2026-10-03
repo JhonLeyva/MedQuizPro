@@ -1,0 +1,224 @@
+### CAR-014 | Trombosis venosa profunda | 2020
+Mujer de 37 años, obesa, usuaria de anticonceptivos orales. Consulta por aumento de volumen de la extremidad inferior derecha, dolor a la marcha, signo de Homans (+), piel violácea, pulsos presentes. ¿Qué estudio se recomienda para precisar el diagnóstico?
+   A) Venografía por RMN
+   B) Pletismografía
+   C) Dímero D
+  *D) Ecografía dúplex
+   E) Angiotomografía pulmonar
+EXP: Mujer joven con factores de riesgo para trombosis venosa profunda (obesidad, anticonceptivos), con clínica de aumento de volumen, dolor y signo de Homans positivo. El estudio inicial de elección en sospecha de TVP es la ecografía dúplex venosa, ya que permite visualizar el flujo y la compresibilidad de las venas profundas. El dímero D es útil para descartar en pacientes de bajo riesgo, pero no tiene valor confirmatorio. Por tanto, la mejor herramienta diagnóstica en este caso es D: ecografía dúplex.
+
+### NEF-014 | Hidrocele | 2020
+Varón de 14 años que acude por hinchazón y dolor de escroto derecho. Al examen: testículo aumentado de tamaño y doloroso. Prueba de transiluminación (+). ¿Cuál es el diagnóstico más probable?
+  *A) Hidrocele
+   B) Criptorquidia
+   C) Seminoma
+   D) Torsión
+   E) Varicocele
+EXP: Adolescente con aumento de volumen escrotal, dolor, transiluminación positiva, sugiere la presencia de líquido alrededor del testículo, compatible con hidrocele. Este se caracteriza por la acumulación de líquido en la túnica vaginal, que permite el paso de luz en el examen. La torsión testicular generalmente no transilumina y es una urgencia quirúrgica. El seminoma es raro a esta edad, y la criptorquidia se presenta como testículo no palpable, no como aumento de volumen. La respuesta correcta es A: hidrocele.
+
+### NEF-015 | Litiasis coraliforme de estruvita | 2020
+Mujer de 56 años, ingresa a emergencia por dolor intenso, hematuria y fiebre. Antecedente: infecciones urinarias a repetición. Al Examen: PPLD (+) y PRUSD (+). Varios urocultivos: proteus sp. UROTEM: litiasis coraliforme en riñón derecho. ¿Cuál es la composición probable del cálculo renal?
+   A) Oxalato cálcico
+  *B) Estruvita
+   C) Ácido úrico
+   D) Urato de amonio
+   E) Cistina
+EXP: Mujer con litiasis coraliforme, infecciones urinarias recurrentes y cultivo con Proteus, que es un productor de ureasa. Este ambiente favorece la formación de cálculos de estruvita (fosfato amónico magnésico). La urea se convierte en amoníaco, elevando el pH urinario y precipitando estos cristales. Es característico que formen litiasis de gran tamaño, tipo coraliformes. Oxalato cálcico y ácido úrico son más comunes, pero no se asocian a infecciones por ureasa positiva.
+
+### CIR-018 | Herida contaminada: antibioticoterapia | 2020
+Varón de 30 años, que hace 6 horas sufre accidente de tránsito. Al examen: herida con abundantes restos de piedras y tierra con compromiso de partes blandas. ¿Cuál de los siguientes es el tratamiento antibiótico de elección?
+   A) Cefazolina y penicilina
+  *B) Ceftriaxona y metronidazol
+   C) Cefradina y ciprofloxacino
+   D) Amoxicilina y clindamicina
+   E) Penicilina benzatínica sola
+EXP: Paciente con herida contaminada (tierra, piedras) posterior a trauma, lo cual implica riesgo de infección polimicrobiana (aerobios y anaerobios). La combinación de ceftriaxona y metronidazol ofrece cobertura adecuada: ceftriaxona contra gramnegativos y metronidazol contra anaerobios, incluyendo Clostridium perfringens, causante de gangrena gaseosa. Es un esquema empírico razonable en heridas sucias traumáticas. Las otras opciones no brindan una cobertura tan amplia o adecuada. La respuesta correcta es B: ceftriaxona y metronidazol.
+
+### TRA-007 | Fractura expuesta de alta energía | 2020
+Varón de 32 años que hace 4 horas sufrió accidente de tránsito en motocicleta. Al examen: estable, en pierna derecha se evidencia herida de 12 cm con exposición ósea, contaminación severa, denudación perióstica, pulsos periféricos normales. ¿Cuál es el tratamiento de elección?
+  *A) Lavado y desbridamiento
+   B) Lavado y fijación externa
+   C) Antibióticos y lavado
+   D) Irrigación y osteosíntesis
+   E) Cierre primario inmediato de la herida
+EXP: La fractura expuesta con herida >10 cm, exposición ósea y denudación perióstica indica una lesión tipo Gustilo-Anderson IIIA. Esta lesión presenta contaminación severa, pero con pulsos presentes y sin compromiso vascular mayor. El primer paso clave es el control del foco séptico: lavado quirúrgico profuso con solución salina y desbridamiento quirúrgico completo del tejido necrótico. Este manejo disminuye la carga bacteriana y previene la infección. La estabilización definitiva, como la fijación externa, se puede plantear luego del desbridamiento inicial. Por tanto, el tratamiento de elección inmediato es el lavado y desbridamiento.
+
+### CIR-019 | Gangrena gaseosa | 2020
+Varón de 35 años, hace tres días sufre herida punzo penetrante en muslo derecho. Examen: mal estado general, en muslo derecho piel oscura y ampollas con líquido rojo vinoso, dolor y crepitación. ¿Cuál es el diagnóstico más probable?
+  *A) Gangrena gaseosa
+   B) Síndrome compartimental
+   C) Gangrena de Fournier
+   D) Trombosis arterial
+   E) Celulitis estreptocócica
+EXP: Paciente con herida punzo penetrante y evolución de 3 días con dolor intenso, crepitación y flictenas hemorrágicas, en contexto de mal estado general. Estos signos son característicos de gangrena gaseosa (mionecrosis clostridial), causada típicamente por Clostridium perfringens. La crepitación es por producción de gas en tejidos, y la evolución rápida con dolor desproporcionado es clásica. Es una emergencia quirúrgica que requiere desbridamiento amplio y antibióticoterapia. El cuadro descrito descarta síndrome compartimental, Fournier (zona genital) o trombosis arterial (que no produce ampollas ni crepitación).
+
+### OFT-006 | Epistaxis anterior | 2020
+Mujer de 50 años, a la cual se le retira una sonda nasogástrica, inmediatamente después comienza con epistaxis. ¿Cuál es el tratamiento de elección?
+   A) Cauterización
+   B) Taponamiento nasal posterior
+  *C) Taponamiento nasal anterior
+   D) Pegamento
+   E) Ligadura de la arteria esfenopalatina
+EXP: La epistaxis tras la extracción de una sonda nasogástrica suele deberse a un traumatismo de la mucosa nasal, especialmente en la zona de Kiesselbach, altamente vascularizada. En estos casos, el sangrado generalmente es anterior y de bajo volumen. La primera medida terapéutica no invasiva es el taponamiento anterior con gasa o mechas impregnadas en vasoconstrictores tópicos. El uso de cauterización o taponamiento posterior se reserva para epistaxis más severas o persistentes, que son menos frecuentes en este contexto. Por tanto, el tratamiento de elección inicial y más eficaz es el taponamiento nasal anterior.
+
+### CB-011 | Anestésicos locales: duración de acción | 2020
+Varón de 50 años, a quien es necesario realizarle un bloqueo del plexo braquial por lo menos durante dos horas como mínimo. ¿Cuál de los siguientes anestésicos locales aconsejaría utilizar?
+   A) Lidocaína
+   B) Cloroprocaína
+   C) Procaína
+  *D) Bupivacaína
+   E) Mepivacaína
+EXP: Para bloqueos regionales como el del plexo braquial que deben durar al menos dos horas, es necesario elegir un anestésico local de acción prolongada. La bupivacaína es la mejor opción en este caso, ya que su duración de acción es de 4 a 8 horas, proporcionando analgesia prolongada sin necesidad de reinyecciones frecuentes. La lidocaína, cloroprocaína y procaína son anestésicos de acción corta o intermedia y no brindarían un efecto sostenido adecuado. Además, la bupivacaína tiene una buena eficacia sensitiva y motora, lo cual la hace ideal para procedimientos quirúrgicos prolongados.
+
+### CIR-020 | Neumotórax a tensión | 2020
+Varón de 31 años, que sufre trauma torácico por atropello (accidente de tránsito por auto). En la Emergencia: dolor en hemitórax derecho, insuficiencia respiratoria marcada, ingurgitación yugular,PA: 80/60mmHg. Examen: murmullo vesicular disminuido en hemitórax derecho, hipersonoridad a la percusión en el mismo lado. ¿Cuál es su impresión diagnóstica?
+   A) Taponamiento cardíaco
+   B) Hidrotórax
+  *C) Neumotórax a tensión
+   D) Fractura costal múltiple
+   E) Contusión pulmonar
+EXP: Paciente politraumatizado con clínica de dificultad respiratoria severa, hipotensión, ingurgitación yugular, hipersonoridad a la percusión y disminución del murmullo vesicular en un hemitórax. Este conjunto de hallazgos es característico de un neumotórax a tensión, que representa una urgencia vital. La acumulación de aire bajo presión en el espacio pleural colapsa el pulmón y desplaza el mediastino, comprometiendo el retorno venoso y causando shock obstructivo. El diagnóstico es clínico y el tratamiento inmediato es la descompresión con aguja seguida de tubo torácico.
+
+### NEF-016 | Cáncer testicular y criptorquidia | 2020
+Varón de 35 años operado en la infancia por presentar criptorquidia. Hace dos meses nota tumoración en el testículo derecho de 3x3 cm indoloro. La ecografía documenta dicha tumoración. No se palpan ganglios inguinales. ¿Cuál es su sospecha diagnóstica?
+  *A) Cáncer testicular
+   B) Linfoma
+   C) Hernia inguinal
+   D) Hidrocele
+   E) Varicocele
+EXP: La criptorquidia es un importante factor de riesgo para cáncer testicular, incluso si fue corregida quirúrgicamente en la infancia. Un adulto joven con masa testicular indolora, sólida y sin ganglios palpables debe hacer sospechar fuertemente neoplasia testicular, siendo el seminoma el tipo más común. El linfoma testicular es más frecuente en adultos mayores. La hernia inguinal o hidrocele no se presentan como una masa sólida intratesticular. Por tanto, el antecedente clínico y la presentación sugieren fuertemente un cáncer testicular.
+
+### CIR-021 | Orquitis tras hernioplastia inguinal | 2020
+Varón de 26 años, al que se le realizó una hernioplastia inguinal anterior con malla, por presentar hernia inguinal indirecta derecha. Cinco días después de la intervención refiere temperatura 38.5° Examen: dolor y aumento testicular derecho. ¿Cuál es el diagnóstico probable?
+   A) Hidrocele
+   B) Recidiva
+   C) Hematocele
+  *D) Orquitis
+   E) Torsión testicular
+EXP: La orquitis es una complicación poco frecuente pero reconocida tras una hernioplastia inguinal, especialmente cuando se manipula o se compromete el cordón espermático. El cuadro clínico aparece días después con fiebre, dolor e inflamación testicular. A diferencia del hidrocele o hematocele, que no suelen presentar fiebre, la orquitis sí se manifiesta con signos inflamatorios sistémicos. La recidiva no es esperada tan pronto y no se asocia a fiebre. La presencia de fiebre a los 5 días postoperatorios orienta fuertemente a un proceso infeccioso, como una orquitis.
+
+### NRL-009 | Fractura de base de cráneo | 2020
+Varón de 40 años, que sufre una caída desde el 2do piso. Llega a la Emergencia confuso, con pérdida de líquido cefalorraquídeo por la nariz. Examen: PA: 100/50mmHg, FR: 22x'. signo de "ojo de mapache", anisocoria y otorragia. Derecha. Glasgow: 12. TC de cráneo: fractura de esfenoides y mastoides derechas. ¿Cuál es el diagnóstico?
+  *A) Fractura base de cráneo
+   B) Fractura bóveda de cráneo
+   C) Hematoma epidural
+   D) Hematoma subdural
+   E) Contusión cerebral frontal
+EXP: El paciente presenta signos clásicos de fractura de base de cráneo: rinorrea con líquido cefalorraquídeo, hematoma periorbitario bilateral ("ojos de mapache") y otorragia. Estas manifestaciones, sumadas al mecanismo de trauma de alta energía, indican compromiso de la base del cráneo, especialmente la fosa anterior y media. El diagnóstico se confirma con tomografía que muestra fractura del esfenoides y mastoides. Esta entidad implica alto riesgo de meningitis, por lo que es vital el diagnóstico oportuno. Las otras opciones no explican todos los signos clínicos.
+
+### INF-014 | Fiebre tifoidea complicada | 2020
+Mujer de 34 años, acude a Emergencia por presentar 3 semanas de fiebre continua en las tardes, cefalea intensa, diarreas, tos y hematoquecia. Al examen: PA:70/40mmhg. FC:120x' FR:22x' ¿Cuál es la complicación que presenta?
+   A) Endocarditis + Perforación intestinal
+  *B) Shock por hemorragia gastrointestinal
+   C) Bronquitis aguda
+   D) Artritis séptica
+   E) Neumonía por aspiración
+EXP: El cuadro clínico es compatible con fiebre entérica complicada. Esta patología puede evolucionar con necrosis y perforación intestinal, o causar hemorragia digestiva por ulceraciones del íleon terminal. La hipotensión severa (70/40 mmHg) y la hematoquecia indican una pérdida significativa de volumen sanguíneo, lo que sugiere shock hipovolémico. La endocarditis, aunque puede generar fiebre, no explica la hemorragia digestiva ni la diarrea. La opción que mejor describe el estado del paciente es el shock por hemorragia gastrointestinal.
+
+### CAR-015 | Miocardiopatía de Takotsubo | 2020
+Mujer de 60 años, a las 6 horas de pérdida de ser querido, acude a emergencia por presentar cuadro de dolor torácico opresivo, asociado a cambios en el segmento ST del EKG y por elevación de enzimas cardiacas. A los 7 días presenta remisión completa de los cambios en el EKG y no presenta secuelas. ¿Cuál es el probable diagnóstico?
+  *A) Miocardiopatía de Takotsubo
+   B) Infarto agudo de miocardio
+   C) Angina inestable de alto riesgo
+   D) Síndrome X
+   E) Pericarditis aguda
+EXP: La paciente presenta dolor torácico opresivo con cambios electrocardiográficos y elevación de enzimas cardiacas, lo que inicialmente sugiere un síndrome coronario agudo. Sin embargo, la recuperación completa de los hallazgos y la ausencia de secuelas, sumadas a un desencadenante emocional fuerte (pérdida de un ser querido), orientan al diagnóstico de miocardiopatía de Takotsubo o "miocardiopatía por estrés". Esta entidad imita un infarto agudo de miocardio, pero es transitoria y se resuelve sin daño estructural permanente.
+
+### CAR-016 | Disección aórtica | 2020
+Varón de 32 años, antecedente de síndrome de Marfan, dolor torácico de inicio brusco, desgarrante. Examen. PA:190/10 mmhg (brazo derecho) 90/60 mmhg (brazo izquierdo). FC: 120x, SatO₂: 97%. EKG: taquicardia sinusal. Rx. de tórax: mediastino ensanchado. ¿Qué medicación utilizaría?
+   A) Anticoagulantes
+   B) Digitálicos
+  *C) Betabloqueadores
+   D) Antiagregantes
+   E) Hidralazina
+EXP: El dolor torácico severo, de inicio súbito y carácter desgarrante, asociado a diferencias de presión arterial entre brazos y mediastino ensanchado en Rx, es altamente sugestivo de disección aórtica. En pacientes con síndrome de Marfan, este riesgo es aún mayor. El tratamiento inicial incluye el uso de betabloqueadores para controlar la frecuencia cardíaca y disminuir la presión sobre la pared aórtica. Los anticoagulantes o antiagregantes están contraindicados en esta etapa, ya que podrían agravar la disección.
+
+### NEU-007 | Insuficiencia respiratoria aguda: ventilación mecánica | 2020
+Adulto ingresa a emergencia con disnea de dos días que ha empeorado en las 6 últimas horas. Examen: Luce diaforético, agotado, taquicárdico, y taquipneico. PaO₂: 50 mmHg. SatO₂:78% ¿Cuál es el tratamiento a seguir?
+   A) Nebulizaciones
+  *B) Ventilación mecánica
+   C) Antibioticoterapia
+   D) Oxígeno por cánula binasal
+   E) Salbutamol inhalado
+EXP: La combinación de disnea progresiva, signos de agotamiento, hipoxemia severa (PaO₂ < 60 mmHg) y saturación < 90% pese a O2 indica fracaso respiratorio agudo. En este contexto, el tratamiento prioritario es la ventilación mecánica para asegurar oxigenación y evitar el colapso respiratorio. El oxígeno por cánula es insuficiente. Las nebulizaciones o antibióticos pueden considerarse según el diagnóstico, pero no son lo prioritario.
+
+### CAR-017 | Pericarditis tuberculosa | 2020
+Varón de 38 años, desde hace 2 meses tos productiva y progresiva pérdida de peso. Desde hace 2 semanas dolor precordial tipo hincada que aumenta con la inspiración. Al examen: ruidos cardiacos de muy baja intensidad. Rx Tórax: cardiomegalia leve. ¿Cuál es el diagnóstico más probable?
+  *A) Pericarditis tuberculosa
+   B) Síndrome de Tietze
+   C) Cardiopatía isquémica
+   D) Síndrome de Dressler
+   E) Miocarditis viral
+EXP: El cuadro clínico muestra síntomas constitucionales como tos productiva crónica, pérdida de peso y dolor torácico tipo pleurítico. Además, el examen físico revela ruidos cardíacos disminuidos, y la radiografía de tórax muestra cardiomegalia leve. Todo esto orienta a un derrame pericárdico. La presentación subaguda, con signos inflamatorios y compromiso sistémico, sugiere una causa tuberculosa, especialmente en un país endémico. La pericarditis tuberculosa es una forma común de presentación extrapulmonar en adultos jóvenes.
+
+### INF-015 | Sífilis primaria: histopatología del chancro | 2020
+Varón de 20 años, promiscuo sexual, hace 1 semana úlcera indolora en el pene. Al examen físico: lesión, de 0,6 cm, de base firme eritematosa y bordes muy bien delimitados. Laboratorio: lesión con espiroquetas móviles. Esta inflamación se caracteriza por ser:
+  *A) Perivascular con células plasmáticas
+   B) Aguda con formación de abscesos
+   C) Granulomatosa con caseificación
+   D) Gomosa con necrosis
+   E) Linfocitaria con eosinófilos
+EXP: El paciente presenta una úlcera genital indolora, de bordes netos y base dura, que es característica del chancro sifilítico primario. La confirmación con la presencia de espiroquetas móviles refuerza el diagnóstico de sífilis. Histológicamente, la inflamación de esta lesión se describe como perivascular con abundantes células plasmáticas, patrón típico de la sifilítica primaria. No se observan signos de necrosis, abscesos ni granulomas.
+
+### GAS-009 | Colitis ulcerosa y cáncer colorrectal | 2020
+Mujer de 49 años, refiere durante los últimos 20 años episodios autolimitados de diarrea con dolor. Hace 1 mes dolor cólico abdominal y diarreas seguidas. Laboratorio: Thevenon positivo. Colonoscopía: inflamación difusa y continua de la mucosa con úlceras superficiales desde el recto hasta el colon ascendente. Biopsia: criptitis e infiltrado mononuclear. ¿Qué enfermedad aparece con mayor frecuencia como complicación?
+  *A) Adenocarcinoma de colon
+   B) Diverticulitis colónica
+   C) Fístula perirrectal
+   D) Colitis pseudomembranosa
+   E) Linfoma intestinal
+EXP: La paciente tiene síntomas compatibles con colitis ulcerosa, una enfermedad inflamatoria intestinal que se caracteriza por afectación continua desde el recto hasta el colon. La colonoscopía y la biopsia lo confirman. Esta condición se asocia con un incremento del riesgo de desarrollar adenocarcinoma de colon, especialmente después de más de 8-10 años de evolución, por la inflamación crónica sostenida del epitelio colónico. Por ello, el control endoscópico periódico es fundamental.
+
+### GAS-010 | Enfermedad de Crohn: fístulas | 2020
+Varón de 27 años con dolor intenso súbito abdominal. Examen físico: dolor y distensión abdominales difusos, no se identifican ruidos hidroaéreos. Pasa a cirugía, resección de íleon terminal de 27 cm con superficie serosa firme y eritematosa. Hallazgos microscópicos: inflamación transmural con presencia de granulomas. ¿Qué complicación es más probable que pueda desarrollar el paciente?
+   A) Absceso hepático
+   B) Adenocarcinoma
+  *C) Fístula enterocutánea
+   D) Trombosis arteria mesentérica
+   E) Megacolon tóxico
+EXP: Paciente joven con cuadro de abdomen agudo, sometido a resección del íleon terminal, y hallazgos histológicos de inflamación transmural con granulomas, características clásicas de la enfermedad de Crohn. Esta patología inflamatoria intestinal se distingue por el compromiso transmural, lo cual predispone a la formación de fístulas, particularmente enterocutáneas, perianales o enteroentéricas. No es típica la formación de abscesos hepáticos ni el desarrollo primario de cáncer, y la isquemia mesentérica se asocia a otras condiciones.
+
+### GAS-011 | Síndrome de malabsorción: esteatorrea | 2020
+Varón de 21 años, desde hace 1 año refiere deposiciones voluminosas, malolientes, flatulencia y pérdida de peso. Niega dolor abdominal, hematemesis y melena. Abdomen: no se palpan masas, ruidos hidroaéreos presentes. Ecografía de abdomen normal. Se solicita examen de heces. ¿Cuál es el hallazgo de laboratorio más probable?
+   A) Quistes de Giardia lamblia
+   B) Trofozoítos de Entamoeba histolytica
+   C) Sangre oculta
+  *D) Aumento de grasa en las heces
+   E) Leucocitos fecales abundantes
+EXP: El cuadro clínico es sugestivo de síndrome de malabsorción crónica. La presencia de heces voluminosas, fétidas y grasosas (esteatorrea), junto con pérdida de peso sin dolor ni sangrado, indica un trastorno de absorción. En este contexto, lo más esperable en el examen de heces es el aumento de grasa. Causas frecuentes incluyen enfermedad celíaca, insuficiencia pancreática o sobrecrecimiento bacteriano. No hay datos que sugieran infección aguda por Giardia o Entamoeba, ni sangrado.
+
+### CIR-022 | Isquemia mesentérica aguda | 2020
+Varón de 61 años con antecedente de IMA, hace 24 h. presenta dolor abdominal y diarrea sanguinolenta. Al examen: dolor difuso en el abdomen y ruidos hidroaéreos ausentes. Rx simple de abdomen no se identifica aire libre. Laboratorio: Hemograma, amilasa, lipasa y bilirrubina séricas normales. La HbA1c (hemoglobina glicosilada) es del 10%. Evoluciona con hipotensión. ¿Cuál es el diagnóstico probable?
+  *A) Infarto intestinal
+   B) Colecistitis
+   C) Colitis pseudomembranosa
+   D) Apendicitis
+   E) Pancreatitis aguda
+EXP: El paciente tiene antecedente reciente de infarto agudo de miocardio (IAM) y presenta signos de dolor abdominal con sangre en las heces y ausencia de ruidos intestinales, sin aire libre en la Rx. Este cuadro sugiere isquemia intestinal. La hipoperfusión asociada al IAM y a su mal control metabólico (HbA1c: 10%) agrava la situación. El infarto intestinal suele causar dolor desproporcionado al examen físico, y puede progresar a peritonitis y shock. No hay hallazgos compatibles con colitis pseudomembranosa, colecistitis ni apendicitis.
+
+### CAR-018 | Miocardiopatía hipertrófica y muerte súbita | 2020
+Varón de 21 años, que presenta muerte súbita mientras practicaba deporte de competencia, padre falleció a temprana edad también en forma súbita. ¿Cuál es el diagnóstico más probable?
+   A) Tromboembolismo pulmonar
+  *B) Miocardiopatía hipertrófica
+   C) Miocardiopatía dilatada
+   D) Síndrome coronario agudo
+   E) Prolapso de válvula mitral
+EXP: La muerte súbita en deportistas jóvenes suele deberse a miocardiopatía hipertrófica, una enfermedad genética del músculo cardíaco que puede causar arritmias letales en esfuerzos físicos. El antecedente de muerte súbita familiar refuerza el diagnóstico. Esta miocardiopatía puede pasar desapercibida hasta el momento del evento fatal. Otras causas como tromboembolismo o SCA son menos probables en jóvenes sin factores de riesgo asociados.
+
+### NEU-008 | Derrame pleural: criterios de Light | 2020
+Mujer de 64 años refiere disnea. Radiografía de tórax muestra derrame pleural del lado derecho. Se realiza toracocentesis: relación de concentración de proteína total en el líquido pleural de 0,38; nivel de lactato deshidrogenasa (LDH) de 125 IU; relación de concentración de LDH en el líquido pleural de 0,46. ¿Cuál es el diagnóstico más probable en este paciente?
+  *A) Insuficiencia cardíaca congestiva
+   B) Uremia
+   C) Embolia pulmonar
+   D) Sarcoidosis
+   E) Neumonía con derrame paraneumónico
+EXP: La paciente presenta disnea y el hallazgo radiológico de derrame pleural unilateral derecho. El análisis del líquido pleural muestra una relación de proteínas <0.5 y LDH <0.6, lo que cumple los criterios de Light para transudado. La insuficiencia cardíaca congestiva (ICC) es la causa más frecuente de este tipo de derrames. En estos casos, el manejo debe orientarse a tratar la causa de fondo, como el control de la sobrecarga hídrica en la ICC. Las otras opciones corresponden a causas de exudado, no compatibles con este perfil bioquímico.
+
+### INF-016 | Dengue: vector Aedes aegypti | 2020
+Mujer de 25 años, refiere desde hace 2 días fiebre asociada a cefalea, dolor retroorbitario, artralgias y mialgias. Hace 10 días viajo a Piura. Al examen: adenopatías e inyección conjuntival. ¿Cuál es el agente que la transmite?
+  *A) Aedes aegypti
+   B) Flebotomus papatasi
+   C) Xenoposylla cheopis
+   D) Pediculus capitis
+   E) Anopheles
+EXP: El cuadro clínico sugiere un síndrome febril exantemático viral con cefalea, mialgias, dolor retroocular e inyección conjuntival, hallazgos característicos del dengue. El antecedente epidemiológico de viaje reciente a Piura, zona endémica para arbovirosis, refuerza esta sospecha. El vector responsable es el mosquito Aedes aegypti, que también transmite zika y chikungunya. Las otras opciones no se asocian con este cuadro clínico ni con el área geográfica mencionada. Es clave la vigilancia por riesgo de progresión a formas graves.

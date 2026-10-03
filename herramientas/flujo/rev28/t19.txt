@@ -1,0 +1,224 @@
+### PED-076 | Neumonía adquirida en la comunidad en el niño | 2021
+Lactante de 2 años, desde hace 5 días presenta tos exigente. Hace un día se agrega fiebre y respiración rápida. Al examen: FC 172 x’, FR 50 x’, T° 40 °C, SatO₂ 96%, tirajes subcostales e intercostales moderados. Hemitórax derecho con amplexación y murmullo vesicular disminuidos, y crepitantes diseminados. La principal sospecha es neumonía:
+  *A) Adquirida en la comunidad
+   B) Atípica
+   C) Complicada con efusión
+   D) Complicada con empiema
+   E) Aspirativa
+EXP: Lactante con fiebre alta, taquipnea, tirajes moderados, y signos de compromiso ventilatorio como disminución del murmullo vesicular y presencia de estertores, es sugestivo de neumonía adquirida en la comunidad (NAC). Aunque se menciona murmullo vesicular disminuido, no se especifica la presencia de derrame pleural ni hay signos clínicos como matidez o egofonía que sugieran complicación. Además, la saturación de oxígeno está conservada (96%), lo que refuerza la ausencia de empiema o derrame significativo. El diagnóstico más probable, considerando la edad, el inicio progresivo y los hallazgos clínicos, es neumonía adquirida en la comunidad.
+
+### CIR-040 | Taponamiento cardiaco por herida penetrante | 2021
+Paciente agredido con un objeto penetrante a nivel del quinto espacio intercostal, línea media clavicular izquierda. Funciones vitales: PA 90/60 mmHg, FC 110 x’, PVC 16 mmHg. Al examen: ingurgitación yugular izquierda y ruidos cardíacos apagados. ¿Cuál es la conducta inmediata a seguir?
+  *A) Pericardiocentesis
+   B) Fluidoterapia con cristaloides
+   C) Pase a cuidados intensivos
+   D) Drenaje pleural izquierdo
+   E) Radiografía de tórax antes de actuar
+EXP: El cuadro clínico descrito es clásico de un taponamiento cardíaco traumático, evidenciado por hipotensión, ingurgitación yugular y ruidos cardíacos apagados (tríada de Beck). Además, presenta PVC elevada, lo que confirma la obstrucción al llenado cardíaco. La conducta inmediata ante esta emergencia vital es realizar una pericardiocentesis, lo cual permite liberar la presión intrapericárdica y restaurar el gasto cardíaco. Las otras medidas pueden ser útiles, pero son secundarias. El drenaje pleural no resuelve la causa directa del shock obstructivo.
+
+### SP-048 | Autonomía: voluntad anticipada | 2021
+¿Qué principio bioético se vulnera cuando se brinda asistencia mecánica ventilatoria a un paciente adulto que previamente había documentado su deseo de no ser intubado ni conectado a un ventilador mecánico?
+   A) No maleficencia
+   B) Justicia
+   C) Beneficencia
+  *D) Autonomía
+   E) Confidencialidad
+EXP: El principio bioético vulnerado en este caso es el de autonomía, que implica respetar la voluntad y decisiones informadas de un paciente competente. Si una persona previamente expresó su deseo de no recibir ventilación mecánica, incluso mediante documento firmado (como una directiva anticipada), este deseo debe respetarse. Brindar una intervención médica en contra de su decisión constituye una forma de paternalismo y vulnera su derecho a decidir sobre su cuerpo y tratamiento. Este principio es central en la ética médica moderna, especialmente en decisiones de final de vida.
+
+### TRA-012 | Fractura de diáfisis humeral: mano péndula | 2021
+Mujer de 50 años se resbala y al caerse el peso de su cuerpo es amortiguado por su extremidad superior izquierda. Al examen: deformación y aumento de volumen de brazo izquierdo, pulsos presentes. RX: fractura del tercio medio de la diáfisis del húmero. ¿Qué manifestación clínica se debe presentar?
+  *A) Mano péndula
+   B) Parestesia hipotenar
+   C) Mano en garra
+   D) Llenado capilar prolongado
+   E) Mano en bendición
+EXP: La fractura del tercio medio del húmero compromete con frecuencia el nervio radial, ya que este pasa por el surco espiral en esa región. El signo clínico característico de esta lesión es la "mano péndula", resultado de la parálisis de los músculos extensores de la muñeca. El paciente no puede extender la muñeca ni los dedos, y la mano cuelga flácida. Esta manifestación neurológica es crucial en el diagnóstico y debe guiar tanto el manejo ortopédico como neurológico. La sensibilidad dorsal del antebrazo también puede estar afectada.
+
+### PSI-014 | Crisis de pánico | 2021
+Mujer de 22 años desde hace 1 hora presenta sensación de falta de aire, sudoración, palpitaciones, dolor torácico opresivo y temblor generalizado que la hacen sentir “que se va a morir”. El cuadro cede espontáneamente. Refiere que el episodio suele repetirse de forma esporádica ante situaciones de estrés. ¿Cuál es el diagnósti co más probable?
+  *A) Crisis de pánico
+   B) Depresión mayor
+   C) Trastorno obsesivo
+   D) Síndrome de abstinencia
+   E) Infarto agudo de miocardio
+EXP: Se trata de una paciente joven que presenta un episodio autolimitado caracterizado por disnea súbita, palpitaciones, sudoración, temblores, dolor torácico y sensación de muerte inminente. La intensidad del cuadro, su duración limitada y la aparición en contextos de estrés orientan claramente a una crisis de pánico. Esta es una entidad del espectro de los trastornos de ansiedad, en la cual los episodios pueden parecer clínicamente severos, pero no tienen una causa orgánica subyacente. La ausencia de alteraciones fisiológicas en los exámenes y la historia de recurrencias confirman el diagnóstico.
+
+### GAS-022 | Insuficiencia pancreática exocrina | 2021
+Varón de 69 años con diagnóstico de pancreatitis crónica y alcoholismo crónico, desde hace 6 meses muestra aumento en la frecuencia de deposiciones las cuales son de consistencia semisólida, de aspecto pálido, brillantes y untuosas. ¿Cuál es el diagnó stico más probable?
+  *A) Insuficiencia pancreática exocrina
+   B) Síndrome Zollinger-Ellison
+   C) Ampuloma
+   D) Gastritis atrófica
+   E) Síndrome de intestino irritable
+EXP: Paciente con historia de pancreatitis crónica secundaria al alcoholismo, que presenta heces semisólidas, pálidas, brillantes y de aspecto graso (esteatorrea). Esta sintomatología se relaciona con insuficiencia pancreática exocrina, donde hay deficiencia en la producción de enzimas digestivas, particularmente lipasa. Esto impide la digestión y absorción normal de grasas, lo cual genera heces características. La asociación con enfermedad pancreática de larga evolución hace muy probable este diagnóstico. Además, su cronicidad y progresividad son congruentes con la fisiopatología de la insuficiencia pancreática.
+
+### END-017 | Feocromocitoma | 2021
+Mujer de 30 años, desde hace 3 meses presenta episodios de palpitaciones, cefalea e hiperhidrosis. Al examen: PA 180/120 mmHg, FC 100 x', piel pálida, fría y sudorosa; ruidos cardíacos de buena intensidad. Laboratorio: elevación de catecolaminas y metanefrinas urinarias. ¿Cuál es el diagnóstico más probable?
+   A) Hipertensión renovascular
+  *B) Feocromocitoma
+   C) Hiperaldosteronismo
+   D) Hipertensión arterial esencial
+   E) Hipertiroidismo
+EXP: Paciente joven con síntomas paroxísticos de hiperactividad simpática: palpitaciones, cefalea e hiperhidrosis, asociados a una hipertensión arterial severa. Al examen se describe piel fría, sudorosa y pálida, lo cual corresponde a una activación adrenérgica. El hallazgo más relevante es la elevación de catecolaminas y metanefrinas urinarias, marcadores bioquímicos característicos de la feocromocitoma, tumor productor de catecolaminas originado en la médula suprarrenal. Este tumor puede causar crisis hiperten sivas recurrentes y debe ser descartado en pacientes jóvenes con HTA severa y síntomas adrenérgicos. El diagnóstico se confirma con estudios bioquímicos y de imagen.
+
+### PED-077 | Convulsión febril compleja | 2021
+Lactante de 10 meses, es traído a Emergencia por presentar temperatura de 39.5 °C. La madre refiere que presentó retroversión ocular, movimientos generalizados con relajación de esfínteres y pérdida de la conciencia durante 30 minutos. Luego despertó, lactó durante 5 minutos y quedó dormido. ¿Cuál es el diagnóstico probable?
+   A) Convulsión febril simple
+   B) Epilepsia parcial continua
+   C) Estatus epiléptico febril
+  *D) Convulsión febril compleja
+   E) Síncope vasovagal
+EXP: Se trata de un lactante con fiebre elevada seguido de un episodio convulsivo generalizado prolongado, con signos como retroversión ocular, relajación de esfínteres y pérdida de conciencia, cuya duración fue de 30 minutos. Por definición, una convulsión febril simple es generalizada, dura menos de 15 minutos y no se repite en 24 horas. En este caso, la duración prolongada (>15 minutos) convierte el episodio en una convulsión febril compleja, incluso sin necesidad de otros hallazgos neurológicos. Este tipo de convulsión tiene mayor riesgo de evolucionar a epilepsia, por lo que debe evaluarse con mayor profundidad.
+
+### GIN-063 | Rotura prematura de membranas pretérmino | 2021
+Primigesta de 33 semanas por FUR, acude al centro de salud donde usted está haciendo su SERUMS. Refiere pérdida de líquido hace 8 horas que mojó hasta las rodillas. Signos vitales normales. No se evidencian contracciones uterinas. Al tacto vaginal el cuello uterino no está dilatado, pero sí reblandecido y el líquido amniótico es claro. Latidos fetales 154 x'. ¿Cuál es el manejo más adecuado?
+   A) Tocolisis, hidratación y referencia a hospital de mayor complejidad
+  *B) Maduración pulmonar, profilaxis antibiótica y referencia a hospital de mayor complejidad
+   C) Neuroprotección, maduración pulmonar y reevaluación en 4 horas
+   D) Profilaxis antibiótica y evolución espontánea de trabajo de parto
+   E) Inducción del parto en el centro de salud
+EXP: Gestante de 33 semanas con ruptura prematura de membranas (RPM) de 8 horas de evolución, sin dinámica uterina ni fiebre, con latidos fetales normales. Ante esta situación, se debe realizar maduración pulmonar fetal con corticoides, administrar antibióticos profilácticos para reducir el riesgo de corioamnionitis y referirla a un hospital de mayor complejidad donde se pueda continuar el manejo de un embarazo pretérmino con RPM. No se indica tocolisis porque no hay contracciones. Esta conducta permite reducir complicaciones respiratorias en el neonato, prolongar la gestación y disminuir infecciones materno-fetales.
+
+### NEU-020 | Hipoxemia en la EPOC: desequilibrio ventilación-perfusión | 2021
+Mujer de 61 años con EPOC acude a emergencia por presentar mayor disnea, incremento de tos y de esputo. RX de tórax: signos de enfisema sin opacidades focales. Laboratorio: PaO₂ 62 mmHg. ¿Cuál es la causa de la hipoxemia?
+   A) Disminución del espacio muerto
+   B) Aumento del shunt fisiológico
+  *C) Desequilibrio ventilación-perfusión
+   D) Deterioro de la difusión
+   E) Hipoventilación alveolar pura
+EXP: Paciente con diagnóstico conocido de EPOC que presenta una exacerbación aguda con aumento de la disnea, tos y expectoración. La PaO₂ se encuentra disminuida, lo que indica hipoxemia. En el contexto del EPOC, la principal causa fisiopatológica de hipoxemia es el desequilibrio ventilación/perfusión (V/Q). Esto se debe a que ciertas zonas del pulmón están bien perfundidas, pero mal ventiladas, generando ineficiencia en el intercambio gaseoso. No se observa infiltrado en la RX, por lo que se descarta una neumonía. La difusión puede estar disminuida en EPOC avanzado, pero no es la causa principal.
+
+### PED-078 | Insuficiencia cardiaca en el lactante | 2021
+Lactante de 5 meses con pobre ganancia ponderal. Polipneico y diaforético durante la lactancia. Al examen: taquicárdico, soplo sistólico II/IV en mesocardio, borde hepático a 3 cm debajo del reborde costal. ¿Cuál es el diagnóstico probable?
+  *A) Insuficiencia cardiaca
+   B) Ducto arterioso persistente
+   C) Miocarditis viral
+   D) Enfermedad de Kawasaki
+   E) Bronquiolitis
+EXP: Este lactante presenta signos clínicos clásicos de insuficiencia cardíaca congestiva en pediatría, como pobre ganancia de peso, taquipnea y diaforesis durante la lactancia (por aumento del trabajo respiratorio y gasto energético), así como hepatomegalia. Además, se detecta un soplo sistólico en mesocardio, lo cual sugiere una cardiopatía congénita como CIV o ductus persistente. Sin embargo, independientemente de la etiología específica, el cuadro ya instaurado es de insuficiencia cardíaca, por lo que esa es la mejor respuesta diagnóstica. Enfermedad de Kawasaki no encaja con el cuadro clínico actual.
+
+### CIR-041 | Quemadura facial con lesión inhalatoria: intubación | 2021
+Chef de 30 años sufre quemaduras de 2do y 3er grado en cara y cuello. Al examen: edema de mucosa oral, esputo de color negro, restos carbonizados en boca y fosas nasales, estridor laríngeo y cianosis. ¿Cuál es la acción prioritaria?
+  *A) Intubación endotraqueal
+   B) Radiografía de tórax
+   C) Tomografía cervical
+   D) Corticoides EV
+   E) Oxígeno por cánula nasal
+EXP: El paciente tiene una quemadura facial severa con datos de lesión inhalatoria: esputo negro, restos carbonizados, estridor laríngeo, edema oral y cianosis. Este cuadro indica un riesgo inminente de obstrucción de la vía aérea, por lo que se debe actuar de inmediato. La intubación endotraqueal precoz es la acción prioritaria para asegurar una vía aérea permeable antes de que el edema progrese y la intubación se vuelva imposible. No debe esperarse imágenes como Rx o tomografía. Los corticoides pueden considerarse, pero no sustituyen el manejo de la vía aérea.
+
+### CAR-028 | Paro por taquiarritmia sin pulso: desfibrilación | 2021
+Varón de 45 años, estando en Emergencia presenta súbita pérdida de conciencia con ausencia de pulso y apnea. En el monitor cardíaco se evidencia ritmo acelerado. ¿Cuál es la mejor opción terapéutica?
+  *A) Desfibrilación
+   B) Cardioversión
+   C) Ablación
+   D) Betabloqueante EV
+   E) Amiodarona endovenosa
+EXP: El paciente presenta un paro cardiorrespiratorio súbito con ausencia de pulso y apnea. El monitor muestra un ritmo rápido, lo que indica una taquiarritmia sin pulso, como fibrilación ventricular o taquicardia ventricular sin pulso. En este contexto, la desfibrilación inmediata es la intervención más efectiva para revertir el ritmo. No hay tiempo para fármacos ni cardioversión sincronizada, ya que no hay pulso. La desfibrilación externa automática o manual debe realizarse cuanto antes para mejorar la supervivencia.
+
+### GAS-023 | Megacolon tóxico | 2021
+Varón de 60 años con antecedente de colitis ulcerosa, desde hace una semana presenta diarreas, indicándose con loperamida sin éxito. Al examen: FC 120 x’, T 39 °C. soporoso, distensión abdominal con RHA ausentes. Hemograma: leucocitosis con neutrofilia, Hb 7 g/dl. ¿Cuál es el diagnóstico más probable?
+   A) Estenosis sigmoidea
+   B) Isquemia mesentérica
+   C) Diverticulitis aguda
+  *D) Megacolon tóxico
+   E) Colitis infecciosa por Clostridioides difficile
+EXP: Paciente con colitis ulcerosa y evolución tórpida pese a antidiarreicos (loperamida), presenta cuadro sistémico severo: fiebre alta, taquicardia, sopor, distensión abdominal y ausencia de ruidos hidroaéreos, lo que indica íleo paralítico. Estos datos, junto con leucocitosis severa y anemia, hacen sospechar un megacolon tóxico, una complicación grave y potencialmente mortal de las enfermedades inflamatorias intestinales. El uso de antidiarreicos en este contexto está contraindicado, ya que favorece la distensión colónica y agrava el cuadro. El diagnóstico es clínico, apoyado por radiografía abdominal.
+
+### GIN-064 | Diabetes gestacional: tamizaje | 2021
+Segundigesta de 14 semanas con sobrepeso, acude a su primer control prenatal. Su primer hijo nació con 4400 g. Se le realiza el test de detección de diabetes con 50 g de azúcar, saliendo negativo. ¿Cuál es la conducta a seguir?
+  *A) Repetir la prueba entre las 24 y 28 semanas
+   B) Solicitar un test de tolerancia a la glucosa
+   C) Medir glucosa cada tres semanas
+   D) Realizar CPN normal
+   E) Iniciar metformina
+EXP: En gestantes con antecedentes de macrosomía fetal, incluso con una prueba de tamizaje negativa al inicio del embarazo, el riesgo de diabetes gestacional sigue siendo alto. Por ello, el protocolo del MINSA y la mayoría de guías recomiendan repetir el tamizaje con 50 g de glucosa entre las 24 a 28 semanas, cuando la insulinorresistencia del embarazo se encuentra más acentuada. Esto permite detectar casos que se negativizaron inicialmente. No se justifica por ahora un test de tolerancia completa ni controles muy frecuentes.
+
+### GIN-065 | Prevención de la endometritis puerperal | 2021
+Durante su rotación de ginecología y obstetricia, usted observó un aumento significativo de casos de endometritis puerperal. ¿Qué medida ayudaría a prevenir estas infecciones?
+   A) Usar sonda Foley durante el parto
+   B) Fenobarbital
+  *C) Disminuir los tactos vaginales innecesarios
+   D) Rasurar el vello púbico a todas las gestantes
+   E) Antibióticos profilácticos a todas las puérperas por 7 días
+EXP: La endometritis puerperal es una infección del endometrio que puede aparecer después del parto, más frecuentemente si hay parto prolongado, cesárea o múltiples tactos vaginales. Una medida esencial para prevenir esta complicación es reducir los tactos vaginales innecesarios, ya que cada uno de ellos puede introducir flora vaginal hacia el útero, especialmente cuando ya hay ruptura de membranas. Otras medidas como el rasurado o uso de sonda Foley no han demostrado eficacia preventiva e incluso pueden incrementar otros riesgos.
+
+### REU-021 | Dermatitis atópica: emolientes | 2021
+Varón de 17 años con antecedente de rinitis alérgica, consulta por dermatitis atópica. ¿Cuál es la terapia tópica recomendada?
+   A) Higiene constante (≥3 veces por día)
+  *B) Aplicación de emolientes e hidratantes
+   C) Corticoides tópicos de alta potencia
+   D) Neomicina en ungüento
+   E) Antibiótico tópico de uso diario
+EXP: La dermatitis atópica se relaciona con una disfunción de la barrera cutánea, por lo que la hidratación es un pilar fundamental del tratamiento. La aplicación regular de emolientes e hidratantes, especialmente tras el baño, ayuda a reducir la frecuencia de brotes y a mejorar los síntomas. El uso de corticoides tópicos está indicado solo durante los brotes activos, y en potencias adecuadas según la localización y edad. El lavado excesivo puede empeorar la barrera cutánea, y el uso de neomicina no tiene utilidad aquí.
+
+### INF-028 | SARS-CoV-2: receptor ACE2 | 2021
+Enfermero que labora en UCI, desde hace 5 días presenta fiebre, tos, cefalea, mialgia y odinofagia asociadas a debilidad general. Al examen: FR 22 x', SatO₂ 91%. ¿Qué característica biológica corresponde al agente causal de esta enfermedad?
+  *A) Se une al receptor ACE2 a través de la proteína S
+   B) Su material genético ingresa a la célula como DNA
+   C) Su replicación es controlada por el DNA del neumocito
+   D) La proteína M le da su morfología típica
+   E) Es un virus ADN de doble cadena
+EXP: Los síntomas del paciente son compatibles con una infección por SARS-CoV-2, virus causante de la COVID- 19, muy prevalente en personal de salud en contacto con UCI. Este virus tiene como característica clave su afinidad por el receptor ACE2, al cual se une mediante la proteína S (espiga). Esta unión permite su ingreso al interior celular y el inicio de la replicación. Es un virus RNA, no DNA, y no depende del DNA del huésped para replicarse. La proteína M participa en el ensamblaje, no en la entrada celular.
+
+### CIR-042 | Taponamiento cardiaco traumático: toracotomía | 2021
+Mujer de 32 años, sufre contusión grave toracoabdominal. Al examen: equimosis en tórax anterior bajo y epigastrio, palidez intensa, compromiso de conciencia, ingurgitación yugular marcada. PA 60/30 mmHg, pulso imperceptible, latidos cardiacos poco audibles, SatO₂ 89%. EKG: complejos QRS de bajo voltaje en todas las derivaciones. Se intenta pericardiocentesis sin éxito. ¿Cuál es el procedimiento prioritario a realizar?
+  *A) Toracotomía exploratoria
+   B) Toracoscopía diagnóstica
+   C) Ventana pericárdica
+   D) Decorticación pericárdica
+   E) Repetir la pericardiocentesis
+EXP: Este es un caso clínico típico de taponamiento cardíaco traumático, reflejado por hipotensión severa, ruidos cardíacos apagados e ingurgitación yugular. La pericardiocentesis, primer intento terapéutico, no tuvo éxito. En ese contexto, la opción inmediata más adecuada es la toracotomía exploratoria de emergencia, ya que permite una rápida evacuación de sangre del pericardio y control de lesiones asociadas. La ventana pericárdica es útil en contextos más estables, y la toracoscopía o decorticación no son procedimientos de urgencia.
+
+### CIR-043 | Coledocolitiasis: papilotomía endoscópica | 2021
+Mujer de 48 años, que hace 5 días presenta dolor en epigastrio luego de la ingesta de comidas grasas, 24 horas después aparece coloración amarillenta en piel y escleras. Colangioresonancia: múltiples cálculos en la vía biliar principal, uno grande de 1.3 cm de diámetro impactado en colédoco distal. ¿Cuál es la conducta terapéutica a seguir?
+  *A) Papilotomía endoscópica
+   B) Colecistectomía
+   C) Exploración de vía biliar y drenaje Kher
+   D) Colecistostomía
+   E) Laparoscopía diagnóstica
+EXP: Se presenta un caso clásico de coledocolitiasis complicada con ictericia obstructiva, confirmado por colangioresonancia. La presencia de múltiples cálculos, en especial uno impactado en el colédoco distal, indica la necesidad de una intervención desobstructiva inmediata, siendo la papilotomía endoscópica (CPRE) la mejor opción inicial. Este procedimiento permite extraer el cálculo, aliviar la obstrucción y resolver el cuadro ictérico. La colecistectomía no es prioritaria en esta fase; puede diferirse. La exploración de la vía biliar con drenaje de Kher se reserva para casos quirúrgicos más complejos. La colecistostomía se indica en pacientes críticos con vesícula inflamada, lo cual no es el caso.
+
+### GIN-066 | Vaginitis atrófica | 2021
+Mujer de 60 años, obesa, refiere prurito vulvar y escaso flujo vaginal. Al examen: vulva congestiva, eritematosa, con sequedad de sus paredes. ¿Cuál es el diagnóstico más probable?
+   A) Vulvovaginitis inespecífica
+   B) Vulvovaginitis candidiásica
+   C) Vaginosis bacteriana
+  *D) Vaginitis atrófica
+   E) Liquen escleroso
+EXP: Mujer postmenopáusica con prurito vulvar, flujo escaso, y al examen físico: mucosa vulvovaginal eritematosa y atrófica, lo que es característico de la vaginitis atrófica o atrofia urogenital, consecuencia de la disminución estrogénica. Es frecuente en mujeres mayores y suele confundirse con infecciones. A diferencia de la candidiasis, no hay leucorrea grumosa ni placas blanquecinas; y no hay fetidez como en vaginosis. Tampoco se reporta leucorrea purulenta ni datos sugestivos de una vaginitis infecciosa inespecífica. El manejo incluye terapia con estrógenos locales. No se justifica el uso de antimicóticos si no hay evidencia clínica o microscópica de infección.
+
+### HEM-014 | Leucemia linfoblástica aguda: aspirado de médula ósea | 2021
+Niña de 4 años presenta desde hace un mes palidez, fatiga y dolor óseo en piernas. Al examen: hepatoesplenomegalia. Laboratorio: Hb 7 g/dl, plaquetas 20000/mm³, leucocitos 35000/mm³, linfoblastos 1%. ¿Cuál es la conducta a seguir?
+   A) Biopsia hepática
+   B) Radiografía de extremidades
+   C) Ecografía abdominal
+  *D) Aspirado de médula ósea
+   E) Tomografía de tórax
+EXP: Niña con palidez, fatiga y dolor óseo, presenta pancitopenia y linfocitosis en laboratorio. La presencia de blastos en sangre periférica y el antecedente de hepatoesplenomegalia sugieren un proceso hematológico maligno, probablemente leucemia aguda linfoblástica (LAL), la más común en niños. El examen confirmatorio y necesario para el diagnóstico es el aspirado de médula ósea, que permite evaluar la celularidad y el porcentaje de blastos. La biopsia hepática no es útil aquí. Radiografías o ecografías pueden complementar, pero no confirman.
+
+### CIR-044 | Fascitis necrotizante | 2021
+Mujer de 28 años acude por emergencia con herida profunda en muslo izquierdo de 4 días de evolución. Dolor intenso en muslo izquierdo y alza térmica, siendo atendida en posta médica. Examen: herida cruenta con flogosis, vesículas de color marrón oscuro, secreción de agua con aspecto de lavado de carne. ¿Cuál es el diagnóstico más probable?
+   A) Seroma aplastronado
+   B) Absceso multilocular
+  *C) Fasceitis necrotizante
+   D) Hematoma infectado
+   E) Celulitis
+EXP: Paciente con herida de 4 días con signos de necrosis progresiva: dolor desproporcionado, vesículas oscuras, secreción acuosa y aspecto de “lavado de carne” sugiere claramente una fasceitis necrotizante. Esta infección grave compromete tejidos blandos profundos, incluyendo la fascia muscular, y tiene alta mortalidad si no se trata de forma urgente. El trismus y la toxicidad sistémica pueden acompañarla. El diagnóstico es clínico y requiere desbridamiento quirúrgico inmediato. El seroma y el hematoma no cursan con necrosis ni signos sépticos severos.
+
+### GIN-067 | Shock hipovolémico posparto | 2021
+Puérpera inmediata de 27 años, sometida a cesárea de emergencia presentando sangrado de 500 ml en el acto quirúrgico. Tres horas después hipotensión arterial de 60/40 mmHg, FC 120 x' e incremento de la palidez. El tipo de shock que estaría presentando es de:
+   A) Continente (distributivo)
+   B) Obstructivo
+   C) Bomba (cardiogénico)
+  *D) Contenido (hipovolémico)
+   E) Séptico
+EXP: Puérpera sometida a cesárea presenta signos claros de inestabilidad hemodinámica (PA 60/40 mmHg, FC 120) con antecedente inmediato de sangrado operatorio. La disminución del volumen circulante por pérdida sanguínea es la causa más frecuente de shock en este contexto. El tipo de shock asociado a pérdida de “contenido” (volumen intravascular) se denomina hipovolémico. El shock cardiogénico (bomba) se debe a falla del miocardio, el distributivo a vasodilatación (como en sepsis) y el obstructivo a impedimentos mecánicos del flujo (como TEP o taponamiento). Por lo tanto, el cuadro clínico se asocia al tipo de shock hipovolémico.
+
+### PED-079 | Tos ferina | 2021
+Lactante de 1 mes hospitalizado por presentar paroxismo de tos con estridor y ahogo desde hace una semana. Antecedente: hermano mayor presentó episodio similar hace dos semanas. ¿Cuál es el tratamiento antibiótico de primera línea?
+   A) Cotrimoxazol
+   B) Amoxicilina
+  *C) Azitromicina
+   D) Clindamicina
+   E) Ceftriaxona
+EXP: Lactante con tos paroxística, estridor y signos de dificultad respiratoria sugiere el diagnóstico clínico de tos ferina (Bordetella pertussis). La edad y la presentación clínica, sumado al antecedente de contacto familiar reciente con síntomas similares, refuerzan el diagnóstico. En menores de 1 mes, la eritromicina se ha reemplazado por azitromicina por su mejor perfil de seguridad. Cotrimoxazol se considera alternativa en pacientes mayores de 2 meses, mientras que la amoxicilina y clindamicina no son útiles contra Bordetella. Además del manejo antibiótico, el soporte respiratorio y la monitorización son esenciales en estos casos.

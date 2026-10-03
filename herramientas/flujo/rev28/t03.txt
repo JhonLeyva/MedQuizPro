@@ -1,0 +1,224 @@
+### PED-016 | Infecciones respiratorias altas | 2020
+Escolar de 8 años con disfonía, tos y fiebre desde hace 7 días; 5 días después presenta estridor inspiratorio y tos "perruna" que se intensifica por las noches. ¿Cuál es el diagnóstico más probable?
+   A) Faringitis
+  *B) Laringotraqueítis
+   C) Cuerpo extraño
+   D) Bronquitis
+   E) Epiglotitis
+EXP: La tríada clásica de disfonía, tos perruna (metálica) y estridor laríngeo inspiratorio de predominio nocturno define a la laringotraqueítis aguda (crup viral).
+
+### PED-017 | Infecciones de vía aérea superior | 2020
+Niño de 3 años, desde hace 3 días presenta cuadro catarral, irritabilidad y fiebre. Al examen: tímpano derecho congestivo y abombado. ¿Cuál es el tratamiento indicado?
+   A) Hidrocortisona
+  *B) Amoxicilina
+   C) Neomicina
+   D) Polimixina B
+   E) Ciprofloxacino ótico
+EXP: El tratamiento antimicrobiano de primera línea para la otitis media aguda no complicada en pediatría es la amoxicilina vía oral en dosis estándar/altas para cubrir S. pneumoniae.
+
+### REU-006 | Infecciones bacterianas de piel | 2020
+Varón de 25 años presenta lesiones pápulo eritematosas y pústulas dolorosas de repetición alrededor de los folículos pilosos en la región de la barba. ¿Cuál es el tratamiento de elección?
+   A) Rifaximina
+   B) Amikacina
+  *C) Dicloxacilina
+   D) Claritromicina
+   E) Ketoconazol
+EXP: La foliculitis estafilocócica (sicosis de la barba) es causada por Staphylococcus aureus; el antibiótico de elección antiestafilocócico resistente a betalactamasas es la dicloxacilina.
+
+### SP-009 | Aspectos legales y bioética | 2020
+Adolescente de 15 años, en consulta ambulatoria, que junto con sus padres no autorizan un procedimiento necesario para conocer en forma definitiva el diagnóstico de su enfermedad, hecho que se registra en la historia clínica y lo firma el padre. ¿Cuál es la actitud del médico frente a esta negativa?
+  *A) Llama a la fiscalía
+   B) Lo refiere a otro hospital
+   C) No realiza procedimiento
+   D) Realiza el procedimiento
+   E) Realiza el procedimiento con la firma del adolescente
+EXP: Cuando la negativa de los tutores pone en riesgo la salud, integridad o vida del menor de edad, prima el principio del interés superior del niño; el médico debe poner el caso en conocimiento del Ministerio Público (Fiscalía de Familia) para la autorización correspondiente.
+
+### SP-010 | Niveles de prevención | 2020
+Varón de 35 años con índice de masa corporal de 35 y glucemia de 150 mg/dL. Inicia tratamiento farmacológico junto con programa educativo estructurado. ¿Qué nivel de prevención se está aplicando?
+   A) Primario
+  *B) Secundario
+   C) Cuaternario
+   D) Terciario
+   E) Promoción de la salud
+EXP: La prevención secundaria comprende la detección precoz y el tratamiento oportuno y temprano en fases asintomáticas o iniciales de una enfermedad ya establecida para evitar su progresión.
+
+### SP-011 | Atención primaria y control prenatal | 2020
+Aún no concluye el primer trimestre del año y es la quinta gestante a término que acude al Centro de Salud desde localidades a menos de 2 horas de distancia sin ningún control prenatal. ¿Qué actividad prioritaria debe implementar el equipo de salud?
+   A) Diseño y aplicación de indicadores
+   B) Referencia y contrarreferencia
+  *C) Captación y seguimiento
+   D) Supervisión y evaluación
+   E) Construcción de un nuevo hospital
+EXP: La captación precoz comunitaria y el seguimiento activo mediante visitas domiciliarias resuelven la falta de adherencia y previenen que las gestantes lleguen sin atención prenatal a su parto.
+
+### SP-012 | Organización del sistema de salud | 2020
+¿Cuál es la población usuaria de las IPRESS del Seguro Social del Perú (EsSalud)?
+   A) Población con capacidad de pago alta
+  *B) Trabajadores del sector formal y sus dependientes
+   C) Militares, policías y sus dependientes
+   D) Población pobre con seguro público
+   E) Toda la población sin seguro
+EXP: EsSalud brinda cobertura contributiva a los trabajadores formales y sus derechohabientes (cónyuge/concubino e hijos menores de edad).
+
+### SP-013 | Conceptos básicos de vigilancia | 2020
+El distrito A usualmente presenta 2-3 casos de enfermedad diarreica aguda por semana epidemiológica. Sin embargo, en la semana 5 del 2020 se presentaron 100 casos y desde la semana 6 volvieron a presentarse solo 2 casos por semana. ¿Cómo se define lo ocurrido en la semana 5 del 2020 en el distrito A?
+  *A) Brote
+   B) Pandemia
+   C) Endemia
+   D) Letalidad
+   E) Epidemia sostenida
+EXP: El incremento inhabitual, repentino y circunscrito en el número de casos por encima del nivel endémico basal o esperado en un área geográfica determinada constituye la definición epidemiológica de brote.
+
+### TRA-003 | Lesiones de partes blandas | 2020
+Varón de 30 años que acude a consulta por dificultad para cerrar el puño de la mano derecha, producto de herida cortante en la palma de 6 cm de longitud hace 2 semanas. ¿Qué músculo se encuentra lesionado con mayor probabilidad?
+   A) Extensor común de los dedos
+   B) Palmar mayor
+  *C) Palmar menor
+   D) Flexor superficial de los dedos
+   E) Supinador corto
+EXP: El tendón del músculo palmar menor (palmar largo) transcurre superficialmente insertándose en la aponeurosis palmar superficial y retináculo flexor, siendo la estructura miotendinosa más susceptible de sección en heridas cortantes palmares superficiales.
+
+### TRA-004 | Emergencias traumatológicas | 2020
+Varón de 20 años ingresa a emergencia tras accidente en moto; presenta aumento marcado de volumen en muslo izquierdo, parestesia y dolor intenso a la extensión. Al examen: ausencia de pulsos poplíteo y pedio. ¿Cuál es la conducta de urgencia a seguir?
+  *A) Fasciotomía
+   B) Radiografía de muslo
+   C) Inmovilización
+   D) Ecografía Doppler
+   E) Analgésicos y observación
+EXP: La sospecha de síndrome compartimental por dolor desproporcionado a la elongación pasiva, parestesias y compromiso vascular requiere una descompresión quirúrgica inmediata mediante fasciotomía amplia urgente.
+
+### INF-008 | Neumonía intrahospitalaria | 2020
+Mujer de 60 años, hospitalizada en UCI por intoxicación con barbitúricos en destete de ventilación mecánica. Al quinto día presenta incremento de secreciones bronquiales, fiebre e hipotensión. Rx tórax: infiltrado alveolar difuso. ¿Con qué esquema se debe iniciar el tratamiento antibiótico empírico?
+  *A) Meropenem - vancomicina - amikacina
+   B) Ceftazidima - oxacilina - amikacina
+   C) Amikacina - ceftazidima - ciprofloxacina
+   D) Ceftriaxona - azitromicina - amikacina
+   E) Amoxicilina - claritromicina
+EXP: La neumonía asociada a ventilación mecánica (NAV) tardía en paciente con shock séptico requiere cobertura empírica de amplio espectro frente a Pseudomonas aeruginosa, bacilos gramnegativos multirresistentes y MRSA mediante la combinación de un carbapenémico (Meropenem), un glucopéptido (Vancomicina) y un aminoglucósido (Amikacina).
+
+### TRA-005 | Deformidades de columna | 2020
+Niño de 12 años consulta por pie plano y dolor de espalda. Prueba de Adams revela curvatura lateral anormal de columna dorsal (Rx muestra escoliosis). ¿Cuál es la alteración detectada?
+   A) Lordosis compensatoria
+   B) Cifosis estructural
+  *C) Escoliosis estructural
+   D) Fusión del sacro
+   E) Espondilolistesis
+EXP: La presencia de asimetría del tronco o giba dorsal en el test de flexión anterior de Adams confirma rotación vertebral intrínseca y rigidez, hallazgos definitorios de una escoliosis estructural.
+
+### PED-022 | Shock en pediatría | 2020
+Recién nacido de 3 días, 2,800 g, traído por vómitos lácteos e hipoactividad. Examen: hipotenso, signos de deshidratación severa, palidez, taquicardia, llenado capilar >3 s. Hemograma normal, sin desviación izquierda. ¿Cuál es el diagnóstico más probable?
+   A) Meningoencefalitis
+   B) Sepsis neonatal
+   C) Enfermedad diarreica aguda
+  *D) Shock hipovolémico
+   E) Hiperplasia suprarrenal congénita
+EXP: La combinación de pérdidas digestivas altas con deshidratación grave, palidez, llenado capilar prolongado, taquicardia e hipotensión sin signos inflamatorios infecciosos en el hemograma corresponde fisiopatológicamente a un estado de shock hipovolémico.
+
+### GIN-016 | Pérdida gestacional temprana | 2020
+Mujer de 40 años con 6 semanas de gestación por FUR. Ecografía muestra saco gestacional de 20 mm sin embrión visible. ¿Cuál es el diagnóstico?
+   A) Embarazo ectópico
+   B) Aborto retenido
+   C) Embarazo molar
+  *D) Gestación anembrionada
+   E) Embarazo de menor edad gestacional
+EXP: El hallazgo ecográfico transvaginal de un saco gestacional intrauterino con diámetro medio sacular de 20 mm o superior en ausencia total de polo embrionario define el diagnóstico de gestación anembrionada (huevo huero).
+
+### PED-023 | Tos ferina | 2020
+¿Cuál es el factor de riesgo de peor pronóstico en un lactante de 45 días con diagnóstico de tos ferina?
+  *A) Reacción leucemoide (>50,000) a predominio mononuclear
+   B) Presencia de linfocitos atípicos >18%
+   C) Leucocitosis de 15,000 con predominio de neutrófilos
+   D) Incremento en la frecuencia de paroxismos de tos cianotizante
+   E) Fiebre persistente de 38 °C
+EXP: En lactantes menores con tos ferina (coqueluche), la presencia de reacción leucemoide extrema (>50,000 leucocitos/mm³ a predominio de linfocitos) se correlaciona directamente con microtrombosis vascular pulmonar, hipertensión pulmonar refractaria y letalidad elevada.
+
+### PED-024 | Abdomen agudo obstructivo pediátrico | 2020
+Niño de 9 meses con 8 horas de llanto intermitente alternado con letargia, deposiciones con moco y sangre rutilante. Al examen: masa palpable en fosa iliaca derecha. Rx abdomen: ausencia de gas en colon y distensión del intestino delgado. ¿Cuál es el diagnóstico probable?
+   A) Apendicitis aguda
+  *B) Intususcepción
+   C) Divertículo de Meckel
+   D) Hipertrofia del píloro
+   E) Gastroenteritis aguda
+EXP: La clínica clásica de invaginación intestinal o intususcepción en lactantes cursa con crisis de dolor cólico episódico con letargia, evacuaciones en jalea de grosella y tumoración alargada ("en morcilla") en el abdomen.
+
+### INF-009 | Tuberculosis meníngea | 2020
+Mujer de 35 años con 3 semanas de malestar general, hiporexia, febrícula y sudoración nocturna. Ingresa somnolienta, con cefalea intensa y vómitos. Examen: rigidez de nuca, signo de Kernig (+). ¿Cuál es el examen de elección?
+   A) TAC cerebral
+   B) PPD
+  *C) ADA en líquido cefalorraquídeo
+   D) Rx de tórax
+   E) Electroencefalograma
+EXP: La presencia de síndrome meníngeo subagudo con síntomas constitucionales orienta a meningitis tuberculosa; la determinación de la enzima adenosina desaminasa (ADA) en el líquido cefalorraquídeo es la prueba diagnóstica de elección rápida y altamente sensible/específica.
+
+### PED-025 | Intoxicaciones accidentales | 2020
+Preescolar de 3 años presenta súbitamente sialorrea, broncorrea, diarrea y sudoración profusa. Antecedente: paseo a zona agrícola. Examen: diaforesis, irritabilidad, fasciculaciones. Se sospecha intoxicación aguda por:
+  *A) Organofosforado
+   B) Hidrocarburo
+   C) Opioide
+   D) Cumarínico
+   E) Benzodiacepinas
+EXP: La exposición accidental a pesticidas agrícolas asociada a hiperactividad muscarínica (sialorrea, broncorrea, diarrea, diaforesis) y nicotínica (fasciculaciones musculares) es patognomónica de intoxicación por inhibidores de la colinesterasa (organofosforados).
+
+### SP-017 | Determinantes sociales de la salud | 2020
+Niño de 2 años, con cuadros diarreicos a repetición sin deshidratación. Talla/edad < -2 DE. Vive en casa con piso de tierra, sin agua ni desagüe. ¿Cuáles determinantes sociales influyen más en su situación de salud?
+  *A) Características de la vivienda y acceso a servicios básicos
+   B) Condiciones de empleo y trabajo de los padres
+   C) Nivel educativo y cultural de la familia
+   D) Ubicación y accesibilidad al centro de salud
+   E) Carga genética familiar
+EXP: La carencia estructural de saneamiento básico (agua potable intradomiciliaria y red de alcantarillado) y el piso de tierra son determinantes ambientales intermediarios directamente causantes de infecciones entéricas recurrentes y malnutrición crónica en la primera infancia.
+
+### CB-004 | Intoxicación por alcoholes tóxicos | 2020
+Indigente de 58 años, alcohólico, hallado confuso. Examen: lesiones en lengua, respiración rápida y profunda, amaurosis. Gases: pH 7.20, PCO2 32 mmHg. ¿Cuál es el diagnóstico más probable?
+   A) Insuficiencia respiratoria
+  *B) Intoxicación por alcohol metílico
+   C) Neumonía aspirativa
+   D) Estado postictal
+   E) Cetoacidosis alcohólica
+EXP: La tríada clásica de acidosis metabólica con anión gap elevado, respiración acidótica de Kussmaul y deterioro visual grave hasta la ceguera/amaurosis por toxicidad del ácido fórmico sobre el nervio óptico es diagnóstica de intoxicación por metanol.
+
+### PED-026 | Convulsiones en pediatría | 2020
+Preescolar de 2 años presenta convulsión tónico-clónica generalizada en emergencia. Sin antecedentes. ¿Cuál es el tratamiento inmediato?
+   A) Fenobarbital
+   B) Fenitoína
+  *C) Diazepam
+   D) Clonazepam
+   E) Ácido valproico oral
+EXP: En el manejo agudo de una crisis convulsiva activa en pediatría, los fármacos de primera elección inmediata por su rápido inicio de acción sobre el receptor GABA-A son las benzodiacepinas de acción corta/intermedia como Diazepam (IV o rectal).
+
+### NEF-008 | Litiasis urinaria | 2020
+Varón de 36 años, IMC 34, dolor cólico 5/10 en fosa lumbar derecha, irradiado a flanco y testículo derecho, con náuseas y sudoración. ¿Cuál es el examen de elección?
+   A) Resonancia magnética nuclear
+   B) Radiografía simple de abdomen
+   C) Ecografía renal y de vías urinarias
+  *D) UroTAC (UroTEM)
+   E) Urografía excretora
+EXP: La tomografía helicoidal computarizada abdominopélvica sin contraste (UroTEM/UroTAC) es el patrón de oro y estudio de elección para el cólico renoureteral por su máxima sensibilidad y especificidad, especialmente en obesos donde la ecografía tiene limitaciones técnicas.
+
+### PED-027 | Neumonía bacteriana pediátrica | 2020
+Niño de 8 años con 24 h de fiebre (40°C) y distrés respiratorio. Examen: taquipneico, roncantes, crepitantes en base de hemitórax derecho. ¿Qué hallazgos radiográficos esperarías?
+   A) Infiltrado intersticial con atrapamiento aéreo
+   B) Reforzamiento de trama bronquial en HTD
+   C) Imágenes hiliofugales en mitad inferior de HTD
+  *D) Infiltrado alveolar en mitad inferior de HTD
+   E) Neumotórax derecho
+EXP: El cuadro de neumonía bacteriana adquirida en la comunidad de instauración hiperaguda cursa patológicamente con condensación y ocupación exudativa alveolar, evidenciándose como consolidación o infiltrado alveolar lobar localizado.
+
+### GIN-017 | Infecciones de transmisión sexual y vaginitis | 2020
+Mujer de 25 años con flujo blanco grumoso y prurito vaginal. ¿Cuál es el tipo de vaginitis?
+   A) Viral
+   B) Mixta
+   C) Bacteriana
+  *D) Micótica
+   E) Trichomoniasis
+EXP: La presencia de leucorrea blanquecina espesa, grumosa (en "leche cortada" o "requesón"), adherida a las paredes vaginales y acompañada de prurito vulvovaginal intenso define a la vaginitis micótica (candidiasis vulvovaginal).
+
+### GIN-018 | Hemorragia posparto | 2020
+Puérpera inmediata, gran multípara, con sangrado genital abundante. PA: 80/40 mmHg, FC: 98/min, palidez. ¿Cuál es la primera acción diagnóstica?
+   A) Revisión de cavidad uterina
+   B) Revisión de cérvix
+   C) Revisión de vagina
+  *D) Palpar tono del útero
+   E) Ecografía abdominal
+EXP: La atonía uterina representa más del 70% de las hemorragias posparto primarias en pacientes multíparas; la primera maniobra semiológica diagnóstica e inmediata es la palpación bimanual abdominal para evaluar la contractilidad y tono uterino.

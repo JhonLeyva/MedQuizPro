@@ -1,0 +1,224 @@
+### REU-007 | Vasculitis sistémicas | 2020
+Mujer de 20 años con dolores articulares desde hace 1 año, malestar, febrícula y lesiones dérmicas. Examen: púrpura palpable y piel marmórea. ¿Cuál es el diagnóstico probable?
+   A) Artritis reumatoide
+   B) Artropatía degenerativa
+  *C) Vasculitis
+   D) Esclerodermia
+   E) Fibromialgia
+EXP: El hallazgo dermatológico cardinal de púrpura palpable de evolución subaguda/crónica asociado a livedo reticularis (piel marmórea), poliartralgias y síntomas constitucionales sistémicos corresponde clínicamente a una vasculitis leucocitoclástica o de mediano/pequeño vaso.
+
+### GIN-019 | VIH y embarazo | 2020
+Gestante de 37 semanas en trabajo de parto, membranas íntegras, 4 cm de dilatación. Prueba rápida de VIH: positiva. ¿Cuál es el manejo del parto?
+   A) Acentuación del parto
+   B) Parto instrumentado
+   C) Parto vaginal
+  *D) Cesárea inmediata
+   E) Parto vaginal con episiotomía
+EXP: En una gestante con diagnóstico intraparto de VIH positivo por prueba rápida sin tratamiento antirretroviral previo ni carga viral cuantificada suprimida, la indicación inmediata es la cesárea de emergencia para prevenir la transmisión materno-infantil.
+
+### CB-005 | Anafilaxia e hipersensibilidad | 2020
+Mujer de 20 años en emergencia por dificultad respiratoria e hipotensión luego de recibir una dosis IM de penicilina, considerada como hipersensibilidad mediada por IgE. ¿Cuál es la célula directamente responsable de esta reacción?
+   A) Macrófago
+   B) Célula plasmática
+   C) Linfocito T
+  *D) Mastocito
+   E) Neutrófilo
+EXP: En la reacción de hipersensibilidad inmediata tipo I mediada por IgE (anafilaxia), los mastocitos y basófilos sensibilizados se degranulan tras la unión cruzada del antígeno con los receptores FcεRI, liberando mediadores vasoactivos como histamina y leucotrienos.
+
+### NEU-004 | Tuberculosis extrapulmonar | 2020
+Varón de 23 años consulta por cuadro de tos seca desde hace 2 meses. Rx tórax: borramiento del ángulo costofrénico derecho. Examen de líquido pleural: cociente LDH líquido pleural/plasma > 0.6; cociente proteínas líquido pleural/plasma > 0.5; celularidad a predominio linfocitario, ADA: 55 U/L. ¿Cuál es el diagnóstico más probable?
+   A) Asbestosis
+  *B) Tuberculosis pleural
+   C) Linfoma
+   D) Derrame paraneumónico
+   E) Derrame por insuficiencia cardiaca
+EXP: El líquido pleural con perfil de exudado linfocítico mononuclear y una actividad enzimática de adenosina desaminasa (ADA) superior a 40 U/L en un adulto joven en contexto endémico es diagnóstico confirmatorio de pleuresía tuberculosa.
+
+### PED-028 | Trastornos plaquetarios | 2020
+Niño de 15 meses, hace 2 semanas recibió vacuna contra el sarampión, presenta petequias, equimosis en todo el cuerpo y epistaxis. No visceromegalia. Laboratorio: Hb: 11 g/dL, leucocitos: 10,000/mm3, neutrófilos: 60%, linfocitos: 40%, plaquetas: 20,000. ¿Cuál es el diagnóstico probable?
+   A) Leucemia aguda
+   B) Púrpura de Henoch-Schönlein
+   C) Anemia aplásica
+  *D) Púrpura trombocitopénica
+   E) Hemofilia A
+EXP: La trombocitopenia aislada profunda (<20,000-30,000) de instauración aguda tras un cuadro viral o inmunización previa, sin visceromegalias ni alteración en las otras series hematopoyéticas, define a la púrpura trombocitopénica inmune (PTI) postvacunal.
+
+### PED-029 | Infección del tracto urinario en pediatría | 2020
+Niño de 8 años llega a consulta por fiebre y síntomas compatibles con infección urinaria. Urocultivo: falso negativo. ¿Cuál de los eventos pudo haber ocurrido?
+  *A) Tratamiento antibiótico previo
+   B) Demora en el envío de la muestra
+   C) Orina muy concentrada
+   D) Orina mal refrigerada
+   E) Contaminación con flora perineal
+EXP: La causa más común de resultados falsos negativos en el urocultivo es la administración previa de dosis de antimicrobianos, la cual esteriliza transitoriamente la muestra urinaria o inhibe la proliferación bacteriana in vitro en el medio de cultivo.
+
+### PED-030 | Enfermedades atópicas | 2020
+Niño de 14 años, desde hace varios años se viene incrementando bloqueo nasal con alteración del gusto y olfato, prurito y secreción nasal, actualmente más irritable. Antecedente de asma bronquial. ¿Cuál es el diagnóstico probable?
+   A) Faringoamigdalitis
+  *B) Rinitis alérgica
+   C) Adenoiditis
+   D) Cuerpo extraño nasal
+   E) Sinusitis aguda bacteriana
+EXP: La presencia de rinorrea acuosa crónica, prurito nasal, congestión persistente e hiposmia en un adolescente con comorbilidad atópica (asma bronquial) constituye el cuadro clásico de rinitis alérgica perenne/persistente.
+
+### NRL-005 | Enfermedad cerebrovascular isquémica | 2020
+Varón de 56 años, presenta en forma súbita cefalea intensa, dificultad para la deambulación y disartria evidenciada por la familia. Luego de 30 minutos es evaluado en emergencia no encontrando alteración neurológica alguna. ¿Cuál es el diagnóstico más probable?
+   A) Arteritis temporal
+   B) Cefalea en racimos
+   C) Crisis de pánico
+  *D) Ataque isquémico transitorio
+   E) Hemorragia subaracnoidea
+EXP: Un déficit neurológico focal agudo que revierte completamente en menos de 24 horas (habitualmente en menos de 1 hora) y sin evidencia de lesión tisular isquémica permanente en neuroimagen se clasifica como accidente isquémico transitorio (AIT).
+
+### NRL-006 | Traumatismo encéfalo craneano | 2020
+Varón de 60 años, sufre accidente de tránsito hace 6 horas. Llega con Glasgow: 10. Tiene TAC cerebral. ¿Cuál es su diagnóstico?
+   A) Fractura de base de cráneo
+  *B) Hematoma epidural
+   C) Hematoma intracerebral
+   D) Hematoma subdural
+   E) Contusión cerebral
+EXP: La hemorragia postraumática entre la tabla interna craneal y la duramadre por rotura arterial meníngea media genera en la tomografía computarizada una imagen característica hiperdensa en forma de lente biconvexa que delimita con las suturas craneales: hematoma epidural.
+
+### PSI-006 | Trastornos de la personalidad | 2020
+Mujer de 32 años es llevada a emergencia por intentos de autoagresión y mal control de impulsos. Familiares refieren promiscuidad sexual, historia de abuso de sustancias tóxicas y malas relaciones familiares. Aliento alcohólico. ¿Qué tipo de personalidad presenta la paciente?
+   A) Histriónica
+   B) Antisocial
+   C) Obsesiva-compulsiva
+  *D) Limítrofe
+   E) Esquizoide
+EXP: La inestabilidad afectiva, desregulación conductual con impulsividad marcada, conductas autolesivas recurrentes y relaciones interpersonales caóticas definen el patrón del trastorno de la personalidad límite (borderline).
+
+### CIR-013 | Hernias de la pared abdominal | 2020
+Mujer de 66 años, desde hace 2 horas dolor inguinal derecho después de levantar peso, náuseas y vómitos. Al examen: distensión abdominal, RHA con signos de lucha. Se palpa tumoración dolorosa de 2x2 cm por debajo del pliegue inguinal. ¿Cuál es la hernia más probable?
+   A) Inguinal directa
+  *B) Crural
+   C) Obturatriz
+   D) Inguinal indirecta
+   E) Hernia umbilical
+EXP: Una hernia complicada cuya protrusión se localiza anatómicamente por debajo del ligamento o pliegue inguinal (a través del anillo femoral) corresponde a una hernia crural (femoral), frecuente en mujeres de edad avanzada y con alto índice de incarceración/estrangulamiento.
+
+### SP-018 | Bioseguridad y control de infecciones | 2020
+En un centro de salud se modificó la infraestructura para obtener más consultorios. Seis meses después se reportaron trabajadores del centro con tuberculosis pulmonar. ¿Cuál de las siguientes es la medida de control ambiental que se debe implementar?
+  *A) Maximizar la ventilación natural
+   B) Prevención con isoniacida
+   C) Fortalecer estudio de contactos
+   D) Asegurar la disponibilidad de respiradores
+   E) Uso de mascarillas quirúrgicas por todo el personal
+EXP: La medida de control de ingeniería o ambiental de mayor eficacia, costo-efectividad y prioridad en los establecimientos de atención ambulatoria para disminuir la concentración de aerosoles bacilíferos es optimizar y maximizar la ventilación natural cruzada.
+
+### CB-006 | Fisiología cardiovascular | 2020
+Varón de 30 años traído a emergencia por cefalea y agitación psicomotriz. Examen PA: 140/110 mmHg. Resto del examen sin alteraciones. Antecedentes: consumidor de anfetaminas. ¿Cuál es el principal factor responsable de la elevación de la presión arterial?
+   A) Disminución del gasto cardíaco
+   B) Incremento de fracción de eyección
+  *C) Aumento de la resistencia periférica
+   D) Disminución de la frecuencia cardíaca
+   E) Aumento del volumen sanguíneo
+EXP: Las anfetaminas inducen un estímulo simpático masivo mediante la liberación de catecolaminas endógenas que activan potentemente los receptores alfa-1 adrenérgicos arteriolar periféricos, produciendo vasoconstricción sistémica y aumento de la resistencia vascular periférica.
+
+### GIN-020 | Distocias de la dinámica uterina | 2020
+Al examen 3 horas después: altura uterina 32 cm, dilatación 6 cm, altura de presentación -2. Dinámica uterina: 3 contracciones en 10 minutos, débiles de 30 segundos de duración. ¿Qué acción se deberá tomar?
+   A) Derivar para cesárea
+  *B) Estimular con oxitocina
+   C) Hidratar a la paciente y observarla
+   D) Estimular con prostaglandinas
+   E) Cesárea inmediata
+EXP: En una fase activa del parto con progreso insatisfactorio y disfunción contráctil de tipo hipodinamia secundaria (contracciones cortas y de baja intensidad), la conducta indicada es la conducción/estimulación con oxitocina endovenosa controlada.
+
+### GIN-021 | Amenorrea y anovulación | 2020
+Mujer de 24 años refiere menstruar sólo cuando le administran progesterona. Antecedentes: infertilidad primaria de cuatro años de evolución; obesidad, acné y seborrea. Actualmente 4 meses de amenorrea, prueba de embarazo negativa. Su pareja: exámenes normales. ¿Cuál es el factor afectado?
+   A) Cervical
+   B) Tuboperitoneal
+  *C) Ovárico
+   D) Uterino
+   E) Masculino
+EXP: La presencia de sangrado tras la privación de progesterona confirma indemnidad anatómica endometrial y permeabilidad endocervical (eje normoestrogénico con endometrio proliferativo); por ende, la amenorrea anovulatoria por SOP radica en el factor ovárico.
+
+### PED-031 | Intoxicación por metales pesados | 2020
+Niño de 8 años traído a consulta por dolor abdominal crónico e hiporexia, madre manifiesta que es hiperactivo en la escuela. Al examen: palidez de piel y mucosas, talla baja para la edad. Hb de 10 g/dL, microcitosis e hipocromía. Vive en Cerro de Pasco desde los 6 meses de edad. ¿Cuál es el diagnóstico probable?
+  *A) Intoxicación por plomo
+   B) Esferocitosis hereditaria
+   C) Deficiencia de hierro
+   D) Deficiencia de zinc
+   E) Talasemia menor
+EXP: El dolor abdominal cólico recidivante, retraso pondoestatural, trastornos neurocognitivos/conductuales y anemia microcítica en un niño procedente de un área minera expuesta señalan saturnismo o intoxicación crónica por plomo.
+
+### GIN-022 | Trastornos hipertensivos del embarazo | 2020
+Primigesta de 25 semanas, en su control en el centro de salud 1-3, manifiesta cefalea. Medida de presión arterial en dos oportunidades: 160/110 mmHg. ¿Qué decisión toma en este caso?
+  *A) Referir a establecimiento obstétrico de mayor nivel
+   B) Coordinar con establecimiento de nivel intermedio
+   C) Derivar a casa de espera cercana
+   D) Interconsulta a ginecólogo de otra IPRESS
+   E) Control en una semana
+EXP: El hallazgo de cifras tensionales en rango de severidad (PA ≥160/110 mmHg) en un centro de salud del primer nivel de atención sin capacidad resolutiva exige la estabilización inicial y referencia inmediata a un hospital de nivel II o III con cuidados obstétricos y neonatales especializados.
+
+### GIN-023 | Prolapso de órganos pélvicos | 2020
+Mujer de 62 años refiere sangrado genital. Al examen se evidencia prolapso total, con ulceraciones sangrantes. ¿Cuál es el tratamiento previo a la cirugía?
+   A) Sesiones de cauterización
+   B) Curaciones diarias con yodopovidona
+   C) Aplicación tópica de antibióticos
+  *D) Aplicación tópica de estrógenos
+   E) Pesario y alta
+EXP: Las úlceras por decúbito en prolapsos genitales avanzados en mujeres menopáusicas requieren preparación previa con estrógenos tópicos locales (ej. estriol en crema) para mejorar la troficidad, vascularización y regeneración epitelial de la mucosa.
+
+### OFT-005 | Patología conjuntival | 2020
+Niño de 12 años, presenta prurito ocular intenso en ambos ojos con espesa secreción mucoide, lagrimeo, fotofobia e hiperemia conjuntival. ¿Cuál es el diagnóstico?
+   A) Chalazion
+   B) Pterigion
+   C) Iritis
+  *D) Conjuntivitis
+   E) Glaucoma agudo
+EXP: El síntoma dominante de prurito ocular bilateral intenso sumado a secreción mucosa, lagrimeo e inyección conjuntival en un paciente joven es característico de un cuadro de conjuntivitis alérgica.
+
+### SP-019 | Vigilancia epidemiológica de arbovirosis | 2020
+Varón procedente de Piura, con tres días de fiebre, cefalea, dolor retro ocular, mialgias y artralgias. Acude a centro de salud en Lima, en cuyo ámbito se ha identificado aumento de mosquitos. ¿Qué medida se debe priorizar para prevenir casos autóctonos?
+  *A) Control vectorial
+   B) Vigilancia de migrantes
+   C) Administrar quimioprofilaxis
+   D) Identificar serotipo
+   E) Vacunación masiva contra fiebre amarilla
+EXP: Ante la introducción de un caso importado de dengue en un área con presencia del vector Aedes aegypti, la intervención fundamental para impedir el establecimiento de transmisión autóctona sostenida es el control vectorial focal y nebulización espacial.
+
+### CAR-009 | Reanimación cardiopulmonar avanzada | 2020
+Varón de 70 años, desde hace 2 horas disnea, palpitaciones, dolor precordial. Ingresa en shock traumático, se le coloca oxígeno por bigotera, presentando pérdida súbita de conciencia, respiración agónica y ausencia de pulso. El monitor cardíaco muestra (ver imagen). ¿Cuál es la primera acción a seguir?
+   A) Ventilación
+   B) Amiodarona
+   C) Desfibrilación
+  *D) Masaje cardíaco
+   E) Adrenalina
+EXP: Ante un paciente en paro cardiorrespiratorio confirmado por pérdida súbita de la conciencia, ausencia de pulso central y respiración agónica (gasping), la acción crítica que no debe demorarse es iniciar compresiones torácicas continuas y de alta calidad (C-A-B).
+
+### REU-008 | Micosis superficiales | 2020
+Escolar de 10 años que presenta lesiones pruriginosas en cuero cabelludo. Al examen: lesiones papulares que se extienden en forma concéntrica formando placas eritematosas, con descamación central, pelo frágil y algunas áreas de alopecia. ¿Cuál es el diagnóstico?
+  *A) Tiña capitis
+   B) Psoriasis puntata
+   C) Alopecia areata
+   D) Tricotilomanía
+   E) Dermatitis seborreica
+EXP: Las placas alopécicas eritematoescamosas de crecimiento centrífugo con pelos frágiles cortados a escasos milímetros del orificio folicular son típicas de una tiña de la cabeza (Tinea capitis) por dermatofitos.
+
+### NRL-007 | Complicaciones anestésicas | 2020
+Paciente postoperado de apendicectomía con anestesia raquídea, al primer día presenta disfunción intestinal y vesical, además pérdida sensorial y motora de extremidades inferiores. ¿Cuál es el diagnóstico más probable?
+   A) Radiculitis compresiva
+  *B) Síndrome de cola de caballo
+   C) Hernia del núcleo pulposo
+   D) Síndrome conversivo
+   E) Cefalea pospunción
+EXP: La afectación simultánea motora y sensitiva lumbosacra con pérdida del control de esfínteres (vejiga e intestino neurógenos) tras punción subaracnoidea neuroaxial corresponde al síndrome de cola de caballo (cauda equina).
+
+### NEF-009 | Escroto agudo | 2020
+Varón de 15 años refiere dolor testicular derecho de 6 horas de evolución. Antecedente de testículo retráctil del mismo lado. Al examen físico destaca discreta horizontalización de testículo derecho y reflejo cremastérico ausente. ¿Cuál es el diagnóstico más probable?
+   A) Hidrocele testicular
+   B) Epididimitis aguda
+  *C) Torsión testicular
+   D) Quiste de epidídimo
+   E) Orquitis urliana
+EXP: El dolor testicular agudo unilateral asociado a ascenso u horizontalización testicular (signo de Gouverneur) y abolición unilateral del reflejo cremastérico en un adolescente es mandatorio de torsión del cordón espermático.
+
+### GIN-024 | Hemorragias de la segunda mitad del embarazo | 2020
+Multípara de 37 semanas sin control prenatal, refiere contracciones uterinas frecuentes dolorosas y sangrado por vía vaginal. Examen: contracciones uterinas hipertónicas, moderado sangrado oscuro sin coágulos. ¿Cuál es el diagnóstico probable?
+   A) Placenta previa
+  *B) Desprendimiento prematuro de placenta
+   C) Ruptura de vasa previa
+   D) Mioma abortivo
+   E) Rotura uterina
+EXP: La asociación patognomónica de sangrado genital rojo oscuro no rutilante con dolor abdominal brusco e hipertonía uterina sostenida ("útero leñoso") corresponde a un desprendimiento prematuro de placenta (abruptio placentae).

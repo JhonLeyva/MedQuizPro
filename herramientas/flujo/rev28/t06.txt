@@ -1,0 +1,224 @@
+### OFT-004 | Epistaxis | 2020
+Varón de 50 años, hace una hora sufre golpe en nariz y presenta sangrado nasal. Al examen: hemorragia activa, se le realiza taponamiento anterior. Después de 2 horas presenta vómitos con sangre. ¿Cuál sería la acción a seguir?
+  *A) Derivar a especialista para taponamiento posterior
+   B) Proceder a cauterización química
+   C) Administrar vasoconstrictor tópico
+   D) Administrar coagulantes en dosis máxima
+   E) Retirar el taponamiento y observar
+EXP: El fracaso del taponamiento anterior con sangrado orofaríngeo evidente o deglutido (hematemesis) confirma una epistaxis posterior, la cual requiere derivación urgente a ORL para realizar taponamiento nasal posterior o embolización.
+
+### PED-018 | Parasitosis intestinal | 2020
+Escolar de 10 años con diarrea intermitente desde hace 1 mes, sin moco ni sangre, dolor postprandial, distensión y flatulencia. ¿Cuál es el diagnóstico más probable?
+   A) Fasciolosis
+  *B) Giardiasis
+   C) Ascaridiosis
+   D) Enterobiasis
+   E) Enfermedad celíaca
+EXP: La diarrea crónica/subaguda acuosa o lientérica, esteatorreica, acompañada de meteorismo, distensión abdominal y malabsorción sin sangre orienta a infección por Giardia lamblia.
+
+### PED-019 | Malformaciones digestivas congénitas | 2020
+La atresia intestinal es más frecuente en los recién nacidos:
+   A) Macrosómicos
+   B) Posmaduros
+  *C) Prematuros
+   D) A término
+   E) Hijos de madre diabética
+EXP: Los recién nacidos prematuros presentan una incidencia significativamente mayor de accidentes vasculares mesentéricos intrauterinos que desencadenan atresia yeyunoileal.
+
+### PED-020 | Infecciones del SNC en neonatología | 2020
+Neonato de 36 horas, nacido de madre febril con ruptura prematura de membranas de 19 horas, edad gestacional 34 semanas, APGAR 7 al minuto, presenta irritabilidad alternando con hipoactividad, hipotermia, quejido, fontanela abombada y pulsátil. ¿Cuál es el diagnóstico probable?
+  *A) Meningoencefalitis
+   B) Hipoglicemia
+   C) Hipotermia
+   D) Neumonía
+   E) Hemorragia intraventricular
+EXP: La clínica neurológica caracterizada por irritabilidad, hipoactividad y fontanela anterior abombada/tensa en el marco de una sepsis neonatal temprana por RPM prolongada define a la meningoencefalitis bacteriana neonatal.
+
+### PED-021 | Oftalmia neonatal | 2020
+Neonato de 3 días presenta conjuntivitis purulenta con inflamación marcada. Madre con antecedentes de vulvovaginitis y uretritis preparto. ¿Cuál es el agente causal más probable?
+  *A) Neisseria gonorrhoeae
+   B) Escherichia coli
+   C) Chlamydia trachomatis
+   D) Listeria monocytogenes
+   E) Staphylococcus aureus
+EXP: La conjuntivitis neonatal hiperaguda purulenta en las primeras 24-72 horas de vida (inicio muy precoz) es característicamente causada por Neisseria gonorrhoeae transmitida durante el paso por el canal del parto.
+
+### PSI-004 | Urgencias toxicológicas | 2020
+Adolescente de 15 años traída a emergencia por pérdida de conciencia. Examen: no responde, bradipnea y respiración superficial. Familiares refieren aislamiento, llanto, insomnio y falta de aseo tras agresión en el colegio hace 3 semanas. Madre consume ansiolíticos. Se sospecha intento suicida. ¿Cuál es el fármaco adecuado?
+   A) Atropina
+   B) Naloxona
+  *C) Flumazenilo
+   D) Epinefrina
+   E) Carbón activado como única medida
+EXP: Ante la sospecha de sobredosis/intoxicación aguda por benzodiacepinas que cursa con depresión neurológica y respiratoria, el antídoto específico es el flumazenilo.
+
+### PSI-005 | Urgencias psiquiátricas | 2020
+Varón de 24 años con lesiones cortantes autoinfligidas tras ruptura sentimental. Refiere que lo hizo para que su enamorada regresara. La madre informa que ya antes tomó clonazepam en disputas de pareja. Se considera un caso de:
+   A) Intento suicida
+  *B) Gesto suicida
+   C) Depresión
+   D) Riesgo suicida
+   E) Trastorno psicótico breve
+EXP: La conducta autolesiva sin una letalidad biológica real, motivada primordialmente para demandar atención o manipular una respuesta afectiva interpersonal sin un deseo genuino de muerte, se clasifica como un gesto o conducta parasuicida.
+
+### SP-014 | Epidemiología de enfermedades transmisibles | 2020
+En una zona endémica de tuberculosis, el reporte de vigilancia del VIH muestra incremento reciente y deficiencia en la terapia preventiva para TB en este grupo. ¿Qué se espera respecto a la incidencia de coinfección TB-VIH?
+   A) Latente
+   B) Disminuya
+  *C) Aumenta
+   D) Indiferente
+   E) Se mantiene estable
+EXP: La falta de terapia preventiva con isoniacida (TPI) en personas que viven con VIH dentro de áreas endémicas favorece la reactivación y primoinfección acelerada, incrementando directamente la incidencia de coinfección activa TB-VIH.
+
+### SP-015 | Bioética médica | 2020
+Adolescente posoperada por embarazo ectópico complicado. Los padres, que aseguran que la menor no tiene vida sexual, preguntan por el diagnóstico. ¿Cuál es la conducta adecuada?
+   A) Cambiar el diagnóstico para evitar conflicto
+   B) Negarse a brindar información
+   C) Derivar al área social
+  *D) Informar verazmente el diagnóstico y pronóstico
+   E) Informar solo a la paciente y ocultar a los padres en toda circunstancia
+EXP: La relación médica exige honestidad, veracidad y objetividad con los padres o tutores legales respetando el bienestar de la paciente, informando con precisión el cuadro clínico real y pronóstico.
+
+### SP-016 | Violencia basada en género | 2020
+Mujer de 22 años, conviviente, con dolor orofaríngeo y lesiones equimóticas en brazos y tórax causadas por elementos externos. Examen muestra labilidad emocional y ansiedad. Usted debe sospechar:
+   A) Hemofilia A
+   B) Coagulación intravascular diseminada
+  *C) Violencia familiar
+   D) Trombocitopenia inmune
+   E) Lupus eritematoso sistémico
+EXP: Las equimosis de origen traumático externo asociadas a signos de sofocación cervical/orofaríngea y compromiso emocional reactivo en una mujer conviviente constituyen un cuadro clínico de sospecha directa de violencia familiar o de pareja.
+
+### CAR-002 | None | None
+Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?
+   A) No requiere tratamiento antitrombótico
+   B) Ácido acetilsalicílico 100 mg al día
+  *C) Anticoagulación oral
+   D) Doble antiagregación con aspirina y clopidogrel
+   E) Heparina de bajo peso molecular solo durante un mes
+EXP: 
+
+### CAR-003 | None | None
+Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?
+   A) Insuficiencia aórtica crónica
+   B) Miocardiopatía hipertrófica obstructiva
+  *C) Estenosis aórtica severa
+   D) Insuficiencia mitral
+   E) Comunicación interventricular
+EXP: 
+
+### CB-001 | None | None
+Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?
+  *A) Fenilalanina hidroxilasa
+   B) Homogentisato oxidasa
+   C) Tirosinasa
+   D) Cistationina β-sintasa
+   E) Galactosa-1-fosfato uridiltransferasa
+EXP: 
+
+### CIR-001 | None | None
+Varón de 22 años con dolor abdominal que empezó en el epigastrio hace 18 horas y luego migró a la fosa ilíaca derecha, con náuseas e hiporexia. Temperatura 38,1 °C, dolor a la descompresión en el punto de McBurney y leucocitosis de 14 500/mm³ con desviación izquierda. ¿Cuál es la conducta más adecuada?
+   A) Alta con analgésicos y control en 48 horas
+  *B) Apendicectomía
+   C) Colonoscopía
+   D) Antibióticos orales en domicilio
+   E) Laparotomía exploratoria por línea media como primera opción
+EXP: 
+
+### END-001 | None | None
+Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?
+   A) Bolo de insulina rápida subcutánea
+   B) Bicarbonato de sodio endovenoso
+  *C) Solución salina al 0,9 % endovenosa
+   D) Dextrosa al 5 % endovenosa
+   E) Cloruro de potasio en bolo
+EXP: 
+
+### GAS-001 | None | None
+Varón de 55 años con cirrosis hepática por alcohol llega a emergencia con hematemesis abundante. PA 90/60 mmHg, FC 112 lpm. Se aseguran dos vías venosas y se inicia la reposición de volumen de forma restrictiva. Mientras se prepara la endoscopía, ¿qué fármaco debe iniciarse?
+   A) Propranolol endovenoso
+  *B) Terlipresina u octreotide endovenoso
+   C) Vitamina K como única medida
+   D) Omeprazol oral
+   E) Lactulosa por sonda nasogástrica como única medida
+EXP: 
+
+### GIN-001 | None | None
+Puérpera de 28 años, cuarto parto vaginal, presenta sangrado vaginal abundante 20 minutos después del alumbramiento. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa. ¿Cuál es la primera medida farmacológica?
+  *A) Oxitocina endovenosa
+   B) Misoprostol como única medida
+   C) Ácido tranexámico como única medida
+   D) Sulfato de magnesio
+   E) Nifedipino oral
+EXP: 
+
+### HEM-001 | None | None
+Mujer de 30 años con menstruaciones abundantes, fatiga y caída de cabello. Hemoglobina 8,9 g/dL, VCM 70 fL, HCM 22 pg, RDW elevado. ¿Cuál es el dato de laboratorio más útil para confirmar la causa de la anemia?
+  *A) Ferritina sérica baja
+   B) Hierro sérico elevado
+   C) Electroforesis de hemoglobina con HbA2 elevada
+   D) Reticulocitos elevados
+   E) Vitamina B12 baja
+EXP: 
+
+### INF-001 | None | None
+Varón de 32 años, agricultor de Loreto, con fiebre intermitente, escalofríos y sudoración de cinco días. La gota gruesa muestra Plasmodium vivax. No hay signos de malaria grave y la prueba de G6PD es normal. ¿Cuál es el tratamiento indicado?
+   A) Solo cloroquina por tres días
+  *B) Cloroquina más primaquina
+   C) Artesunato endovenoso
+   D) Solo primaquina por siete días
+   E) Doxiciclina por catorce días
+EXP: 
+
+### NEF-001 | None | None
+Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?
+   A) Resina de intercambio catiónico oral
+   B) Furosemida endovenosa
+  *C) Gluconato de calcio endovenoso
+   D) Bicarbonato de sodio oral
+   E) Hemodiálisis programada para el día siguiente
+EXP: 
+
+### NEU-001 | None | None
+Varón de 28 años, de Lima, con fiebre vespertina, tos seca y dolor pleurítico derecho de un mes. La radiografía muestra derrame pleural derecho moderado. Toracocentesis: exudado con proteínas 5,1 g/dL, predominio linfocitario (85 %), glucosa 70 mg/dL y adenosina desaminasa (ADA) de 78 U/L. La baciloscopía del líquido es negativa. ¿Cuál es el diagnóstico más probable?
+   A) Derrame paraneumónico complicado
+  *B) Tuberculosis pleural
+   C) Derrame por insuficiencia cardiaca
+   D) Mesotelioma pleural
+   E) Tromboembolismo pulmonar
+EXP: 
+
+### NRL-001 | None | None
+Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?
+   A) Resonancia magnética cerebral con gadolinio
+   B) Punción lumbar
+  *C) Tomografía cerebral sin contraste
+   D) Electroencefalograma
+   E) Doppler de vasos del cuello
+EXP: 
+
+### OFT-001 | None | None
+Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?
+   A) Conjuntivitis bacteriana
+  *B) Glaucoma agudo de ángulo cerrado
+   C) Uveítis anterior
+   D) Desprendimiento de retina
+   E) Migraña con aura
+EXP: 
+
+### PED-001 | None | None
+Recién nacido a término de 18 horas de vida, con lactancia materna exclusiva, presenta ictericia que llega hasta el abdomen. La madre es del grupo O Rh positivo y el neonato es A Rh positivo. ¿Cuál es la causa más probable?
+   A) Ictericia fisiológica
+   B) Ictericia por leche materna
+  *C) Enfermedad hemolítica por incompatibilidad ABO
+   D) Atresia de vías biliares
+   E) Síndrome de Gilbert
+EXP: 
+
+### PSI-001 | None | None
+Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?
+   A) Haloperidol
+   B) Diazepam como monoterapia
+  *C) Un inhibidor selectivo de la recaptación de serotonina, como sertralina
+   D) Carbonato de litio como monoterapia
+   E) Terapia electroconvulsiva
+EXP: 
