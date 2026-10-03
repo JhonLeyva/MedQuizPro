@@ -7,3 +7,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 |---|---|---|
 | t00 | content28a.py | hecha, 0 problemas |
 | t01 | content28b.py | hecha, 0 problemas |
+| t02 | content28c.py | hecha, 0 problemas |

@@ -89,3 +89,8 @@ if hacer("pcp_rx.jpg"):
 if hacer("escabiosis.jpg"):
     # Surco de escabiosis (Michael Geary, dominio público)
     guardar(Image.open("orig/escabiosis.jpg").convert("RGB"), "escabiosis.jpg", 420, 85)
+
+# ── tanda 02
+if hacer("iam_inferior.jpg"):
+    # IAM con ST elevado inferior y de VD (James Heilman, CC BY-SA 3.0): derivaciones de los miembros (I-III, aVR-aVF)
+    guardar(Image.open("orig/iam_inferior.jpg").convert("RGB").crop((0, 0, 384, 379)), "iam_inferior.jpg", 384, 88)
