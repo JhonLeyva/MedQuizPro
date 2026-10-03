@@ -109,3 +109,8 @@ if hacer("leish.jpg"):
 if hacer("urato.jpg"):
     # Cristales de urato monosódico con luz polarizada y compensador rojo (Gabriel Caponetti, CC BY-SA 3.0)
     guardar(Image.open("orig/urato.jpg").convert("RGB").crop((120, 60, 900, 660)), "urato.jpg", 460, 85)
+
+# ── tanda 08
+if hacer("mola.jpg"):
+    # Ecografía transvaginal de embarazo molar (Mikael Häggström, CC0): sin los rótulos del equipo
+    guardar(Image.open("orig/mola.jpg").convert("L").crop((20, 60, 440, 380)), "mola.jpg", 420, 85)

@@ -80,3 +80,12 @@ def HIPERK(caso, porque, conducta):
                         ("K⁺ 6,0-6,4", "Moderada", ["Insulina + glucosa", "Monitoreo cardiaco"]),
                         ("K⁺ ≥ 6,5 o ECG alterado", "Grave", ["Gluconato de calcio EV ya", "Insulina + glucosa, salbutamol", "Valorar diálisis"])],
                 caso=caso, porque=porque, conducta=conducta)
+
+
+def MONIF(caso, porque, conducta):
+    """Clasificación de Monif de la enfermedad pélvica inflamatoria."""
+    return dict(nombre="Clasificación de Monif", orden=True, que="Gravedad de la EPI: guía si el manejo es ambulatorio o en hospital.",
+                grados=[("Grado I", "No complicada", ["Sin masa anexial", "Sin signos peritoneales", "Ambulatorio"]),
+                        ("Grado II", "Complicada", ["Masa o absceso tuboovárico", "Hospitalizar"]),
+                        ("Grado III", "Diseminada", ["Absceso roto o pelviperitonitis", "Cirugía"])],
+                caso=caso, porque=porque, conducta=conducta)
