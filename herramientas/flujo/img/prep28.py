@@ -75,3 +75,17 @@ if hacer("rubeola.jpg"):
 if hacer("emh_rx.jpg"):
     # Rx de enfermedad de membrana hialina, 29 semanas (Mikael Häggström, CC0)
     guardar(Image.open("orig/emh_rx.png").convert("L").crop((60, 40, 900, 700)), "emh_rx.jpg", 520, 85)
+
+# ── tanda 01
+if hacer("oma.jpg"):
+    # Otitis media aguda, otoscopia (B. Welleschik, CC BY-SA 3.0): recorte del campo
+    guardar(Image.open("orig/oma.jpg").convert("RGB").crop((130, 30, 830, 730)), "oma.jpg", 420, 85)
+if hacer("tep_ecg.jpg"):
+    # ECG en TEP: taquicardia sinusal y bloqueo de rama derecha (Serra et al., CC BY 2.0): V1 a V3
+    guardar(Image.open("orig/tep_ecg.jpg").convert("RGB").crop((452, 80, 867, 285)), "tep_ecg.jpg", 415, 88)
+if hacer("pcp_rx.jpg"):
+    # Neumonía por Pneumocystis, vidrio esmerilado difuso (Allen et al., CC BY 4.0): Rx de la derecha
+    guardar(Image.open("orig/pcp_rx.jpg").convert("L").crop((510, 0, 960, 421)), "pcp_rx.jpg", 450, 85)
+if hacer("escabiosis.jpg"):
+    # Surco de escabiosis (Michael Geary, dominio público)
+    guardar(Image.open("orig/escabiosis.jpg").convert("RGB"), "escabiosis.jpg", 420, 85)
