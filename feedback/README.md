@@ -13,6 +13,17 @@ Abrir `index.html` en el navegador. No necesita servidor ni build.
 
 En la demo se puede cambiar la respuesta simulada (A–E o «Sin dato») para ver cómo cambia el módulo con cada alternativa.
 
+## Infografías SVG (formato de las imágenes MedQuizPlus)
+
+`svg/` contiene la versión estática de cada tarjeta, en el mismo estilo que las infografías actuales: 1000 px de ancho, cabecera verde azulado y caja amarilla de puntos clave. Se generan desde los mismos datos de `cards/`:
+
+```bash
+node feedback/svg/generar-svg.js              # *-revision.svg: con las marcas ✎ para la revisión médica
+node feedback/svg/generar-svg.js --publicar   # *.svg: sin marcas, para estudiantes
+```
+
+Como el SVG es estático, no sabe qué letra marcó el estudiante. Por eso la tabla «Opciones de la pregunta» explica cada alternativa y qué revisar si la marcaste. El generador ajusta los textos y el alto de cada caja automáticamente. Se verificó en Chromium que ningún texto supera el ancho de su caja.
+
 ## Integración en la plataforma
 
 ```html

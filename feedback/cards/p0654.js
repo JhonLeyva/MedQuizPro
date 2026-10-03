@@ -170,6 +170,7 @@ MQPFeedback.register({
     explicacion: "La forma del útero es lo que separa el DPP de la rotura uterina (P800). A y B no descartan un DPP: son las trampas de este tema. D puede aparecer en ambos cuadros: marca gravedad, no diagnóstico."
   },
 
+  fuenteCorta: "Fuente: Banco ENAM – Respuestas resaltadas, Pregunta 654 (ENAM 2021 Extraordinario II): enunciado, clave y comentario. Variaciones y tabla: P163, P377, P800 y P1039 del mismo banco.",
   fuentes: [
     "Banco ENAM – Respuestas resaltadas, **Pregunta 654** (ENAM 2021 Extraordinario II): enunciado, alternativas, clave A y comentario. Base de las pistas, el razonamiento, la explicación y los motivos de B y D.",
     "**Pregunta 163** (ENAM 2020 Extraordinario I): placenta previa con sangrado rojo brillante y sin dolor.",

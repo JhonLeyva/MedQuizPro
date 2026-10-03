@@ -484,6 +484,7 @@
   window.MQPFeedback = {
     register: function (card) { cards.push(card); },
     cards: function () { return cards.slice(); },
+    figuras: FIGS,
     render: render
   };
 })();

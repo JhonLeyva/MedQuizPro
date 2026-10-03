@@ -148,6 +148,7 @@ MQPFeedback.register({
     explicacion: "El diagnóstico es el mismo (tórax inestable), pero falta la variable que indicaba intubar: la insuficiencia respiratoria. Sin ocupación pleural no hay indicación de drenaje. Si el paciente empeora, se reevalúa la ventilación.✎"
   },
 
+  fuenteCorta: "Fuente: Banco ENAM – Respuestas resaltadas, Pregunta 8 (ENAM 2020 Extraordinario I): enunciado, clave y comentario.",
   fuentes: [
     "Banco ENAM – Respuestas resaltadas, **Pregunta 8** (ENAM 2020 Extraordinario I): enunciado, alternativas, clave D y comentario. Base de la explicación, las pistas, el razonamiento y los motivos de B y C.",
     "Los complementos marcados con ✎ (definición de tórax inestable, mecanismo paradójico, prioridad de la vía aérea frente a la TAC, variaciones del caso) no están en el comentario fuente."
