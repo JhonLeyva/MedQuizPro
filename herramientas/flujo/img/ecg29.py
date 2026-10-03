@@ -182,7 +182,7 @@ def patrones():
                                               "aVL": dict(r=1.3, st=-.06, t=-.1)},
                     nombre="Hipertrofia ventricular izquierda (Sokolow)")
     P["tep"] = dict(ritmo_regular(118), todo=dict(qt=.33),
-                    deriv={"I": dict(s=-.45), "III": dict(q=-.25, t=-.22), "V1": dict(t=-.25), "V2": dict(t=-.2), "V3": dict(t=-.12)},
+                    deriv={"I": dict(s=-.45), "III": dict(q=-.45, r=.40, s=-.05, t=-.25), "V1": dict(t=-.25), "V2": dict(t=-.2), "V3": dict(t=-.12)},
                     nombre="TEP: taquicardia sinusal y S1 Q3 T3")
     # Bloqueos AV
     b1 = ritmo_regular(70, pr=.32)

@@ -113,3 +113,47 @@ if hacer("xantoma_tubo.jpg"):
 if hacer("romana_triatoma.jpg"):
     # Signo de Romaña (PLOS NTD, CC BY 4.0) + Triatoma infestans (CDC/OMS, dominio público)
     lado(["romana.jpg", "triatoma.jpg"], "romana_triatoma.jpg", 330, fondo=(255, 255, 255))
+
+# ── tanda 01
+if hacer("bronquiolitis_rx.jpg"):
+    # Bronquiolitis: hiperinsuflación (Di Nardo et al., CC BY 2.0); sin la letra del borde
+    guardar(Image.open("orig/bronquiolitis_rx.jpg").convert("L").crop((0, 0, 342, 333)), "bronquiolitis_rx.jpg", 342, 88)
+if hacer("meconio_rx.jpg"):
+    # Aspiración de meconio (Kinderradiologie Olgahospital Stuttgart, CC BY-SA 4.0); sin el texto superior
+    guardar(Image.open("orig/meconio_rx.jpg").convert("L").crop((0, 28, 744, 740)), "meconio_rx.jpg", 440, 85)
+if hacer("mallory.jpg"):
+    # Desgarro de Mallory-Weiss con coágulo (Doctor roach, CC BY-SA 4.0)
+    guardar(Image.open("orig/mallory.jpg").convert("RGB"), "mallory.jpg", 440, 85)
+if hacer("retinopatia.jpg"):
+    # Retinopatía diabética (Hao et al., CC BY 4.0); sin la letra del panel
+    guardar(Image.open("orig/retinopatia.png").convert("RGB").crop((60, 0, 860, 730)), "retinopatia.jpg", 420, 85)
+if hacer("mantoux.jpg"):
+    # Aplicación de la tuberculina (Greg Knobloch/CDC, dominio público)
+    guardar(Image.open("orig/mantoux.jpg").convert("RGB").crop((0, 60, 960, 630)), "mantoux.jpg", 440, 85)
+if hacer("toxo_rm.jpg"):
+    # Toxoplasmosis cerebral en sida, RM FLAIR (Jmarchn, CC BY-SA 3.0)
+    guardar(Image.open("orig/toxo_rm.png").convert("L").crop((10, 60, 490, 600)), "toxo_rm.jpg", 400, 85)
+if hacer("giardia.jpg"):
+    # Giardia: trofozoíto (Stefan Walkowski, CC BY-SA 4.0)
+    guardar(Image.open("orig/giardia.jpg").convert("RGB").crop((0, 0, 500, 440)), "giardia.jpg", 420, 85)
+if hacer("atresia_rx.jpg"):
+    # Atresia esofágica: bolsa ciega con contraste y aire gástrico (Nevit Dilmen, CC BY-SA 3.0)
+    guardar(Image.open("orig/atresia_rx.jpg").convert("L").crop((100, 0, 900, 1300)), "atresia_rx.jpg", 320, 85)
+if hacer("janeway.jpg"):
+    # Lesiones de Janeway en la palma (Warfieldian, CC BY-SA 4.0)
+    guardar(Image.open("orig/janeway.jpg").convert("RGB"), "janeway.jpg", 440, 85)
+if hacer("periamig.jpg"):
+    # Absceso periamigdalino derecho (James Heilman, CC BY-SA 3.0); se borró la flecha azul del autor
+    im = Image.open("orig/periamig.jpg").convert("RGB")
+    a = np.array(im).astype(int)
+    m = (a[..., 2] > a[..., 0] + 30) & (a[..., 2] > a[..., 1] + 10)
+    m[:, :350] = False
+    m[700:, :] = False
+    guardar(rellenar(im, m, 7).crop((0, 80, 960, 1123)), "periamig.jpg", 400, 85)
+if hacer("ascitis.jpg"):
+    # Ascitis masiva por cirrosis (James Heilman, CC BY-SA 3.0)
+    guardar(Image.open("orig/ascitis.jpg").convert("RGB"), "ascitis.jpg", 420, 85)
+if hacer("cilindro_granuloso.jpg"):
+    # Cilindro granuloso «pardo» de la necrosis tubular (Mohsenin, CC BY 4.0), panel b ampliado
+    im = Image.open("orig/cilindros4.jpg").convert("RGB").crop((274, 2, 498, 134))
+    guardar(im.resize((im.width * 2, im.height * 2), Image.LANCZOS), "cilindro_granuloso.jpg", 440, 88)

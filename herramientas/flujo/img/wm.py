@@ -9,13 +9,17 @@ q = urllib.parse.quote(name)
 if w > 500:
     tw_ = 960 if w > 960 else 500
     url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{tw_}px-{q}"
+elif w > 120:
+    # miniatura apenas menor que la original: el servidor de miniaturas limita menos que el de originales (429)
+    ext = ".png" if name.lower().endswith((".tif", ".tiff", ".gif", ".svg")) else ""
+    url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{w - 4}px-{q}{ext}"
 else:
     url = f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}"
-subprocess.run(["curl", "-sS", "-A", "MedQuizPro/1.0 (educational; contact jhonleyva)", "-o", dest, url], check=True)
-if open(dest, "rb").read(15).lstrip().startswith(b"<"):
-    # a veces el original directo responde con una página de error: probar por Special:FilePath
-    import time
-    time.sleep(4)
-    url2 = "https://commons.wikimedia.org/wiki/Special:FilePath/" + q + ("?width=960" if w > 960 else "")
-    subprocess.run(["curl", "-sSL", "-A", "MedQuizPro/1.0 (educational; contact jhonleyva)", "-o", dest, url2], check=True)
+import time
+for intento in range(6):
+    # el servidor responde 429 si se piden muchas seguidas: esperar y reintentar la misma URL
+    subprocess.run(["curl", "-sS", "-A", "MedQuizPro/1.0 (educational; contact jhonleyva)", "-o", dest, url])
+    if not open(dest, "rb").read(15).lstrip().startswith(b"<"):
+        break
+    time.sleep(12 * (intento + 1))
 print(subprocess.run(["file", dest], capture_output=True, text=True).stdout.strip())
