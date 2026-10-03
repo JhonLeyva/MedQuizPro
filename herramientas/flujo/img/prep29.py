@@ -284,3 +284,30 @@ if hacer("lla_real.jpg"):
 if hacer("gottron.jpg"):
     # Pápulas de Gottron (Dugan, Huber, Miller y Rider, CC BY-SA 3.0); sin la leyenda
     guardar(Image.open("orig/gottron.jpg").convert("RGB").crop((0, 0, 500, 395)), "gottron.jpg", 440, 85)
+
+# ── tanda 06
+def _rgba_blanco(ruta):
+    a = Image.open(ruta).convert("RGBA")
+    bg = Image.new("RGBA", a.size, "white")
+    bg.alpha_composite(a)
+    return bg.convert("RGB")
+
+
+if hacer("graf.jpg"):
+    # Ángulos de Graf en la ecografía de cadera (Nevit Dilmen, CC BY-SA 3.0)
+    guardar(_rgba_blanco("orig/graf.png"), "graf.jpg", 480, 88)
+if hacer("megaesofago.jpg"):
+    # Megaesófago chagásico con bario (dominio público); sin los números de la placa
+    guardar(Image.open("orig/megaesofago.jpg").convert("L").crop((0, 40, 250, 363)), "megaesofago.jpg", 250, 88)
+if hacer("hematoma_oreja.jpg"):
+    # Hematoma agudo del pabellón auricular (Klaus D. Peter, CC BY 3.0 DE)
+    guardar(Image.open("orig/hematoma_oreja.jpg").convert("RGB").crop((60, 120, 900, 1200)), "hematoma_oreja.jpg", 360, 85)
+if hacer("petequias.jpg"):
+    # Petequias en la pierna en PTI con 3000 plaquetas (James Heilman, CC BY-SA 4.0)
+    guardar(Image.open("orig/petequias.jpg").convert("RGB"), "petequias.jpg", 460, 85)
+if hacer("ishihara.jpg"):
+    # Lámina 9 de Ishihara (dominio público): se lee «74»
+    guardar(_rgba_blanco("orig/ishihara.png"), "ishihara.jpg", 360, 88)
+if hacer("chagas_ecg_rx.jpg"):
+    # ECG de enseñanza (FA, propio) + megaesófago chagásico con bario (dominio público)
+    lado(["ecg_fa.jpg", "megaesofago.jpg"], "chagas_ecg_rx.jpg", 300)

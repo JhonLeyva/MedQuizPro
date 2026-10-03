@@ -202,8 +202,35 @@ def canal_endemico():
     guardar(fig, "dib_canal_endemico.jpg")
 
 
+# ───────────────────────────────────────────────────────── zonas de Kramer
+def kramer():
+    fig, ax = lienzo(100, 80, "#ffffff")
+    piel = "#f3d2b8"
+    # bebé de frente (silueta simple)
+    ax.add_patch(Ellipse((25, 12), 15, 16, fc=piel, ec="#b58a6a", lw=2, zorder=2))           # cabeza
+    ax.add_patch(FancyBboxPatch((15, 20), 20, 26, boxstyle="round,pad=0,rounding_size=6", fc=piel, ec="#b58a6a", lw=2, zorder=2))
+    for x0, ang in ((12, 20), (38, -20)):                                                       # brazos
+        ax.add_patch(Ellipse((x0, 31), 6, 20, angle=ang, fc=piel, ec="#b58a6a", lw=2, zorder=1))
+    for x0 in (20, 30):                                                                         # piernas
+        ax.add_patch(FancyBboxPatch((x0 - 3.5, 45), 7, 26, boxstyle="round,pad=0,rounding_size=3", fc=piel, ec="#b58a6a", lw=2, zorder=1))
+    # zonas (de arriba abajo) con amarillo creciente
+    zonas = [(4, 20, "1", "cabeza y cuello", "≈ 5 mg/dL"), (20, 33, "2", "tórax hasta el ombligo", "≈ 10 mg/dL"),
+             (33, 46, "3", "abdomen bajo y muslos", "≈ 12 mg/dL"), (46, 64, "4", "piernas y brazos", "≈ 15 mg/dL"),
+             (64, 74, "5", "palmas y plantas", "> 15 mg/dL")]
+    amar = ["#fde68a", "#fcd34d", "#fbbf24", "#f59e0b", "#d97706"]
+    for (y0, y1, n, t, v), c in zip(zonas, amar):
+        ax.add_patch(Rectangle((4, y0), 42, y1 - y0, fc=c, ec="none", alpha=.45, zorder=3))
+        ax.plot([4, 50], [y1, y1], color="#92400e", lw=1.2, ls=(0, (4, 3)), zorder=4)
+        ax.add_patch(Circle((54, (y0 + y1) / 2), 3.2, fc="#92400e", zorder=5))
+        rot(ax, 54, (y0 + y1) / 2, n, 18, "#ffffff")
+        rot(ax, 59, (y0 + y1) / 2 - 2, t, 16, TINTA, ha="left")
+        rot(ax, 59, (y0 + y1) / 2 + 2.6, v, 15, "#92400e", "normal", ha="left")
+    rot(ax, 50, 78, "la ictericia avanza de la cabeza a los pies", 17, GRIS, "normal")
+    guardar(fig, "dib_kramer.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
