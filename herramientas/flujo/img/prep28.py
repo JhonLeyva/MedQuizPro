@@ -149,3 +149,8 @@ if hacer("piloro.jpg"):
 if hacer("uip_tc.jpg"):
     # TC de neumonía intersticial usual con panal de abeja (Yale Rosen, CC BY-SA 2.0)
     guardar(Image.open("orig/uip_tc.jpg").convert("L"), "uip_tc.jpg", 430, 85)
+
+# ── tanda 13
+if hacer("cullen.jpg"):
+    # Signo de Cullen en pancreatitis aguda alcohólica (Herbert L. Fred y Hendrik A. van Dijk, CC BY 2.0): sin el marco blanco
+    guardar(Image.open("orig/cullen.jpg").convert("RGB").crop((15, 12, 490, 305)), "cullen.jpg", 420, 85)
