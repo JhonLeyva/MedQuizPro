@@ -36,10 +36,19 @@ NICE = "NICE"
 IDSA = "IDSA"
 
 
+# Claves que se proponen corregir en el banco (el flujograma ya sigue la corrección): {id: (índice correcto, motivo)}
+CORRIGE = {
+    "TRA-003": (3, "El palmar menor (palmar largo) no flexiona los dedos y falta en el 15 % de las personas; una herida "
+                   "en la palma que impide cerrar el puño secciona los tendones flexores: flexor superficial de los dedos."),
+}
+
+
 def opciones(id_):
     q = BANCO[id_]
     ops = list(q["opciones"].values()) if isinstance(q["opciones"], dict) else list(q["opciones"])
     ci = q["correcta"] if "correcta" in q else "ABCDE".index(q["clave_correcta"].strip()[0])
+    if id_ in CORRIGE:
+        ci = CORRIGE[id_][0]
     return ops, ci
 
 

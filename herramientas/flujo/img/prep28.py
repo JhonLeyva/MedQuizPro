@@ -94,3 +94,8 @@ if hacer("escabiosis.jpg"):
 if hacer("iam_inferior.jpg"):
     # IAM con ST elevado inferior y de VD (James Heilman, CC BY-SA 3.0): derivaciones de los miembros (I-III, aVR-aVF)
     guardar(Image.open("orig/iam_inferior.jpg").convert("RGB").crop((0, 0, 384, 379)), "iam_inferior.jpg", 384, 88)
+
+# ── tanda 03
+if hacer("invaginacion_eco.jpg"):
+    # Invaginación intestinal, ecografía con signo de la diana (Kalumet, CC BY-SA 3.0)
+    guardar(Image.open("orig/invag2.jpg").convert("L").crop((40, 0, 920, 766)), "invaginacion_eco.jpg", 440, 85)
