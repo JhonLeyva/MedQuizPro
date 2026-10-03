@@ -141,3 +141,11 @@ if hacer("cripto.jpg"):
 if hacer("amiloide.jpg"):
     # Amiloide con rojo Congo bajo luz polarizada (Ed Uthman, CC BY 2.0)
     guardar(ImageEnhance.Brightness(Image.open("orig/amiloide.jpg").convert("RGB").crop((150, 150, 850, 850))).enhance(1.8), "amiloide.jpg", 360, 85)
+
+# ── tanda 12
+if hacer("piloro.jpg"):
+    # Ecografía de estenosis hipertrófica del píloro (Dr Laughlin Dawes, CC BY-SA 4.0): sin el rótulo inferior del equipo
+    guardar(Image.open("orig/piloro.jpg").convert("RGB").crop((0, 0, 500, 470)), "piloro.jpg", 360, 85)
+if hacer("uip_tc.jpg"):
+    # TC de neumonía intersticial usual con panal de abeja (Yale Rosen, CC BY-SA 2.0)
+    guardar(Image.open("orig/uip_tc.jpg").convert("L"), "uip_tc.jpg", 430, 85)

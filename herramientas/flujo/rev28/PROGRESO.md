@@ -17,3 +17,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t09 | content28j.py | hecha, 0 problemas; imágenes: coraliforme, takotsubo, chancro, aedes |
 | t10 | content28k.py | hecha, 0 problemas; imagen: meningococo; motor: rótulo de grupo de 1 tarjeta dentro del recuadro |
 | t11 | content28l.py | hecha, 0 problemas; imágenes: cripto, amiloide; motor: «fases» sin curvas en franja compacta (sin recuadros vacíos) |
+| t12 | content28m.py | hecha, 0 problemas; imágenes: piloro, uip_tc (+ escabiosis reutilizada) |
