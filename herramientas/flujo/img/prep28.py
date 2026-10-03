@@ -173,3 +173,18 @@ if hacer("tina_capitis.jpg"):
 if hacer("paroniquia.jpg"):
     # Paroniquia crónica (Daifallah M. Al Aboud, CC BY 4.0): la uña y el pliegue proximal
     guardar(Image.open("orig/paroniquia.jpg").convert("RGB").crop((0, 250, 500, 741)), "paroniquia.jpg", 320, 85)
+
+# ── tanda 16
+if hacer("glioblastoma.jpg"):
+    # RM con contraste de glioblastoma con realce en anillo (AFIP, dominio público)
+    guardar(Image.open("orig/glioblastoma.jpg").convert("L"), "glioblastoma.jpg", 360, 85)
+if hacer("orbita_piso.jpg"):
+    # TC coronal con fractura del piso de la órbita izquierda (James Heilman, CC BY-SA 4.0): sin la mesa del tomógrafo
+    guardar(Image.open("orig/orbita.png").convert("L").crop((0, 0, 500, 330)), "orbita_piso.jpg", 400, 85)
+if hacer("queratoconj.jpg"):
+    # Queratoconjuntivitis epidémica por adenovirus (Marco Mayer, CC BY-SA 4.0)
+    guardar(Image.open("orig/queratoconj.jpg").convert("RGB"), "queratoconj.jpg", 420, 85)
+if hacer("prolapso.jpg"):
+    # Dibujo de prolapso rectal completo (A) y mucoso (B) (dominio público): ampliado, es dibujo de línea
+    im = Image.open("orig/prolapso.jpg").convert("L")
+    guardar(im.resize((im.width * 2, im.height * 2), Image.LANCZOS), "prolapso.jpg", 400, 88)
