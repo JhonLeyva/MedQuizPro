@@ -71,3 +71,12 @@ def ABORTO(caso, porque, conducta):
                         ("Cuello cerrado", "Completo", ["Útero vacío", "Sangrado que cede"]),
                         ("Cuello cerrado", "Retenido (frustro)", ["Embrión sin latido o saco vacío", "Sin expulsión"])],
                 caso=caso, porque=porque, conducta=conducta)
+
+
+def HIPERK(caso, porque, conducta):
+    """Gravedad de la hiperpotasemia (UK Kidney Association 2023)."""
+    return dict(nombre="Gravedad de la hiperpotasemia", que="UK Kidney Association 2023: por el nivel de K⁺ y por los cambios en el ECG.",
+                grados=[("K⁺ 5,5-5,9", "Leve", ["Sin cambios en el ECG", "Corregir la causa"]),
+                        ("K⁺ 6,0-6,4", "Moderada", ["Insulina + glucosa", "Monitoreo cardiaco"]),
+                        ("K⁺ ≥ 6,5 o ECG alterado", "Grave", ["Gluconato de calcio EV ya", "Insulina + glucosa, salbutamol", "Valorar diálisis"])],
+                caso=caso, porque=porque, conducta=conducta)

@@ -11,3 +11,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t03 | content28d.py | hecha, 0 problemas (TRA-003: clave propuesta D, ver c28.CORRIGE) |
 | t04 | content28e.py | hecha, 0 problemas; esc28.py con clasificaciones compartidas |
 | t05 | content28f.py | hecha, 0 problemas |
+| t06 | content28g.py | hecha, 0 problemas |
