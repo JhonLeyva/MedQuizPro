@@ -379,3 +379,28 @@ if hacer("acne.jpg"):
 if hacer("fijador.jpg"):
     # Fijador externo en la pierna (Ortopedikus, CC BY-SA 4.0), recortado a la pierna
     guardar(Image.open("orig/fijador.jpg").convert("RGB").crop((400, 150, 960, 639)), "fijador.jpg", 440, 85)
+
+# ── tanda 10
+if hacer("psoriasis_mont.jpg"):
+    # Psoriasis en placas en la espalda (Marnanel, CC BY-SA 3.0) + piqueteado ungueal (Seenms, CC BY-SA 3.0)
+    guardar(Image.open("orig/psoriasis.jpg").convert("RGB"), "psoriasis.jpg", 400, 88)
+    guardar(Image.open("orig/una_psor.jpg").convert("RGB"), "una_psor.jpg", 400, 88)
+    lado(["psoriasis.jpg", "una_psor.jpg"], "psoriasis_mont.jpg", 300)
+if hacer("pca.jpg"):
+    # Esquema del conducto arterioso persistente, rótulos en español (BrownCow, CC BY 4.0)
+    guardar(_rgba_blanco("orig/pca.png"), "pca.jpg", 600, 90)
+if hacer("collarin.jpg"):
+    # Dos rescatistas colocan el collar cervical mientras sostienen la cabeza (Baedr-9439, CC0), dibujo
+    guardar(_rgba_blanco("orig/collar_app.png"), "collarin.jpg", 480, 88)
+if hacer("paracentesis.jpg"):
+    # Paracentesis abdominal, esquema en español (BruceBlaus, CC BY-SA 4.0)
+    guardar(_rgba_blanco("orig/paracentesis.png"), "paracentesis.jpg", 440, 88)
+if hacer("sarampion_mont.jpg"):
+    # Manchas de Koplik (CDC PHIL 6111) + exantema (CDC PHIL 4497), dominio público
+    lado(["koplik.jpg", "sarampion_exantema.jpg"], "sarampion_mont.jpg", 240)
+if hacer("hiv_eco.jpg"):
+    # Hemorragia de la matriz germinal en ecografía transfontanelar (Prashanth Saddala, CC BY-SA 3.0), sin los datos del equipo
+    guardar(Image.open("orig/hiv_eco.jpg").convert("L").crop((90, 0, 470, 330)), "hiv_eco.jpg", 380, 88)
+if hacer("varices_wale.jpg"):
+    # Várices esofágicas con puntos rojos (red wale) en la endoscopía (Samir, dominio público)
+    guardar(Image.open("orig/varices_wale.jpg").convert("RGB"), "varices_wale.jpg", 330, 90)

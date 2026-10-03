@@ -332,8 +332,34 @@ def pupilas():
     guardar(fig, "dib_pupilas.jpg")
 
 
+# ───────────────────────────────────────────────────────── colecciones del cuero cabelludo del recién nacido
+def craneo_rn():
+    fig, ax = lienzo(116, 52, "#ffffff")
+    SANG = "#9f1239"
+    for nombre, txt, x0 in (("CAPUT", "edema de la piel\nCRUZA la sutura", 16),
+                            ("CEFALOHEMATOMA", "bajo el periostio\nNO cruza la sutura", 49),
+                            ("SUBGALEAL", "bajo la galea: cruza\ny puede dar choque", 82)):
+        ax.add_patch(Rectangle((x0, 15), 32, 6, fc="#f6dccb", ec="none", zorder=1))          # piel
+        ax.add_patch(Rectangle((x0, 21), 32, 5, fc="#fdf2e9", ec="none", zorder=1))          # subcutáneo
+        ax.plot([x0, x0 + 32], [26, 26], color="#92400e", lw=3, zorder=4)                    # galea
+        ax.add_patch(Rectangle((x0, 33), 15, 6, fc="#d1d5db", ec="#6b7280", lw=1.5, zorder=5))   # hueso
+        ax.add_patch(Rectangle((x0 + 17, 33), 15, 6, fc="#d1d5db", ec="#6b7280", lw=1.5, zorder=5))
+        ax.plot([x0, x0 + 15, x0 + 16, x0 + 17, x0 + 32], [32.6, 32.6, 37, 32.6, 32.6], color="#7c3aed", lw=2.5, zorder=6)  # periostio
+        if nombre == "CAPUT":
+            ax.add_patch(Ellipse((x0 + 16, 19), 28, 9, fc="#fde68a", ec="#ca8a04", lw=2, alpha=.9, zorder=3))
+        elif nombre == "CEFALOHEMATOMA":
+            ax.add_patch(Ellipse((x0 + 7.5, 32.6), 13, 9, fc=SANG, ec="#7c3aed", lw=2.5, zorder=4.5))
+        else:
+            ax.add_patch(Ellipse((x0 + 16, 29.5), 31, 6, fc=SANG, ec="none", zorder=3))
+        rot(ax, x0 + 16, 6, nombre, 17, TINTA)
+        rot(ax, x0 + 16, 46, txt, 15, SANG if nombre != "CAPUT" else "#a16207")
+    for y, t, c in ((18, "piel", "#7c3f33"), (26, "galea", "#92400e"), (32, "periostio", "#7c3aed"), (36.5, "hueso", GRIS)):
+        rot(ax, 14.5, y, t, 14, c, ha="right")
+    guardar(fig, "dib_craneo_rn.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
