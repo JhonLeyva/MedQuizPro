@@ -23,3 +23,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t15 | content28p.py | hecha, 0 problemas; imágenes: paroniquia, impetigo, tina_capitis (+ tep_ecg, invaginacion_eco) |
 | t16 | content28q.py | hecha, 0 problemas; imágenes: orbita_piso, queratoconj, prolapso (dibujo), glioblastoma (+ epidural_derecho, dpp_pieza) |
 | t17 | content28r.py | hecha, 0 problemas; reutiliza oma, pancoast_rx + horner_ojos; NEU-018 rehecho con notas título+detalle |
+| t18 | content28s.py | hecha, 0 problemas; reutiliza koplik + sarampion_exantema, piloro |
