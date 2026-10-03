@@ -50,7 +50,7 @@
     var sel = defaults[current.id];
     drawLetters(sel);
     view = MQPFeedback.render(root, current, { seleccion: sel, modo: savedMode() });
-    if (location.hash.slice(1) !== current.id) history.replaceState(null, "", "#" + current.id);
+    try { if (location.hash.slice(1) !== current.id) history.replaceState(null, "", "#" + current.id); } catch (e) {}
   }
   function drawLetters(sel) {
     letters.innerHTML = current.alternativas.map(function (a) {
