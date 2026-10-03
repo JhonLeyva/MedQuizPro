@@ -1,0 +1,224 @@
+### CIR-045 | Vólvulo de sigmoides | 2021
+Varón de 60 años, procedente de zona rural de Puno, con un día de dolor abdominal intenso y marcada distensión, asociados a vómitos fecaloideos. RX de abdomen: signo de grano de café. No antecedentes quirúrgicos. ¿Cuál es el diagnóstico más probable?
+   A) Intususcepción intestinal
+   B) Perforación de víscera hueca
+   C) Diverticulitis aguda
+  *D) Vólvulo de sigmoides
+   E) Vólvulo de ciego
+EXP: Varón adulto mayor, procedente de zona rural andina, con dolor abdominal intenso, distensión y vómitos fecaloideos. La imagen en grano de café en la radiografía abdominal es patognomónica del vólvulo de sigmoides, una emergencia quirúrgica frecuente en adultos mayores, especialmente en áreas de dieta rica en fibra. La ausencia de antecedentes quirúrgicos descarta bridas como causa de obstrucción, y el cuadro no es compatible con intususcepción ni con diverticulitis aguda. La perforación visceral suele asociarse a aire libre y signos de irritación peritoneal. El manejo es quirúrgico o endoscópico descompresivo según la estabilidad del paciente.
+
+### NEU-021 | Enfermedad pulmonar intersticial difusa | 2021
+Varón de 67 años trabaja 15 años como obrero en una fábrica de papel. Presenta disnea y tos desde hace 1 año. Examen: PA 130/80 mmHg, FR 26 x', acropaquias y crepitantes gruesos en bases de ambos hemitórax. RX tórax: imágenes reticulonodulares basales y bilaterales, pulmones pequeños, SatO₂ 94% en reposo y 72% al esfuerzo. ¿Cuál es el diagn óstico más probable?
+   A) Enfisema pulmonar
+  *B) Enfermedad pulmonar intersticial difusa
+   C) Enfermedad pulmonar obstructiva crónica
+   D) Hipertensión pulmonar
+   E) Bronquiectasias
+EXP: Paciente masculino de edad avanzada, con antecedente laboral de exposición crónica en fábrica de papel —una ocupación asociada a inhalación de polvos orgánicos— que presenta síntomas respiratorios crónicos como disnea progresiva y tos, signos físicos como acropaquias y crepitantes e n bases pulmonares, y hallazgos radiológicos reticulonodulares bilaterales basales con disminución del volumen pulmonar. Todos estos elementos son característicos de una enfermedad pulmonar intersticial difusa (EPID), probablemente de tipo fibrosis pulmonar por neumoconiosis o alveolitis alérgica extrínseca. La SatO₂ reducida al esfuerzo sugiere un defecto en el intercambio gaseoso, típico de afecciones restrictivas pulmonares. El enfisema y la EPOC generalmente muestran hiperinsuflación, atrapamiento aéreo y no cursan con pulmones pequeños. La hipertensión pulmonar no explica por sí sola los hallazgos inters
+
+### CAR-029 | Cuidados posparo: ventilación | 2022
+Varón de 52 años, post reanimado inmediato recupera circulación espontánea, intubado con ventilación asistida a razón de 14 ventilaciones x'. Al examen: PA media 70 mmHg, SatO₂ 98 %, PaCO₂ 30 mmHg. ¿Qué ajustes se deben realizar en la estabilización inicial?
+   A) Administrar fluidos
+  *B) Disminuir ventilaciones
+   C) Disminuir FiO₂
+   D) Iniciar sedación
+   E) Aumentar el volumen corriente
+EXP: Paciente en fase post-paro cardiorrespiratorio, con ventilación mecánica asistida, se encuentra con PaCO₂ de 30 mmHg, lo cual sugiere hiperventilación y riesgo de hipocapnia, que puede inducir vasoconstricción cerebral y reducir la perfusión cerebral, especialmente indeseable en el contexto post-reanimación. La saturación de oxígeno es adecuada, y la presión arterial está en el límite inferior, pero estable. La prioridad es optimizar el intercambio gaseoso sin causar hipocapnia, por lo que se debe reducir la frecuencia ventilatoria para normalizar la PaCO₂.
+
+### CIR-046 | Atelectasia posoperatoria | 2022
+Varón de 75 años, post laparotomía que presenta alza térmica. Al examen: disminución de MV a predominio del hemitórax derecho, ruidos cardíacos normales, abdomen globuloso, cicatriz quirúrgica sin flogosis, RHA presentes. ¿Cuál es el diagnóstico de la complicación?
+   A) Derrame pleural enquistado
+   B) Bronconeumonía aguda
+   C) Neumonía intrahospitalaria
+  *D) Atelectasia pulmonar
+   E) Tromboembolismo pulmonar
+EXP: Paciente masculino de 75 años, en el contexto postoperatorio de una laparotomía, presenta alza térmica y hallazgos físicos localizados en el hemitórax derecho, como la disminución del murmullo vesicular, sin hallazgos abdominales sugestivos de complicación quirúrgica. En el postoperatorio inmediato, la atelectasia pulmonar es una de las complicaciones más frecuentes, especialmente por hipoventilación secundaria al dolor, sedación o reposo prolongado. La fiebre es una manifestación común en las primeras 48-72 horas, y el hallazgo físico característico es la disminución del murmullo vesicular. No hay elementos clínicos ni radiológicos que sugieran consolidación pulmonar (como en neumonía intrahospitalaria), ni signos de derrame pleural (matidez, egofonía), ni mucho menos de infección parenquimatosa activa (como bronconeumonía). En ausencia de signos de sepsis o hallazgos abdominales agudos
+
+### INF-029 | Malaria | 2022
+Mujer de 28 años procedente de región tropical, desde hace 2 semanas presenta fiebre asociada a escalofríos intensos y diaforesis profusa. Al examen: T 39 °C, palidez marcada, bazo palpable. ¿Cuál es el diagnóstico más probable?
+   A) Chikungunya
+   B) Dengue
+   C) Bartonella
+  *D) Malaria
+   E) Fiebre tifoidea
+EXP: Mujer joven procedente de región tropical endémica, con fiebre de dos semanas de evolución, asociada a escalofríos intensos y diaforesis profusa —patrón febril característico de enfermedades infecciosas con ciclo hemático como la malaria—. La presencia de palidez marcada sugiere anemia hemolítica, y la esplenomegalia es un hallazgo típico por hiperactividad del sistema mononuclear fagocítico, común en infecciones parasitarias crónicas. A diferencia del dengue y la chikungunya, que suelen cursar con manifestaciones más agudas y rash cutáneo, la malaria presenta un curso más prolongado y paroxismos febriles definidos. La bartonelosis también puede presentarse con fiebre y anemia, pero suele incluir lesiones cutáneas (verrugas) y no está asociada a escalofríos típicos ni diaforesis intensa. El conjunto clínico y el contexto epidemiológico hacen de la malaria el diagnóstico más probable.
+
+### CIR-047 | Cierre de heridas por tercera intención | 2022
+Varón de 24 años operado por traumatismo abdominal por arma de fuego. En la laparotomía exploradora se deja colostomía. La piel queda abierta. Luego de 5 días de curaciones, la incisión principal se sutura en tópico. ¿Qué tipo de cierre se realizó?
+   A) Cuarta intención
+   B) Segunda intención
+   C) Primera intención
+  *D) Tercera intención
+   E) Cierre con injerto de piel
+EXP: Paciente masculino de 24 años, sometido a laparotomía exploradora por herida penetrante abdominal por arma de fuego, que requirió colostomía y, por riesgo de infección, dejó la herida quirúrgica inicialmente abierta. Luego de 5 días, tras curaciones y mejor evolución local, se procedió al cierre quirúrgico de la incisión en un segundo tiempo. Este abordaje se denomina cierre por tercera intención, utilizado cuando se deja abierta la herida para observar signos de infección o controlar secreciones antes de suturarla. El cierre por primera intención implica una sutura inmediata con bordes limpios; la segunda intención se produce cuando no se cierra y cicatriza por granulación; la cuarta intención es un concepto poco usado clínicamente. Así, en este contexto postraumático con cierre diferido controlado, se trata de una cicatrización por tercera intención.
+
+### SP-049 | Estudio de casos y controles | 2022
+Se desea hacer una investigación sobre factores de riesgo de mortalidad por COVID-19 y determinar el Odds Ratio para cada uno. ¿Qué tipo de metodología debe emplearse?
+   A) Estudio de cohortes
+   B) Estudio descriptivo
+   C) Estudio transversal analítico
+  *D) Casos y controles
+   E) Ensayo clínico
+EXP: Para determinar la asociación entre ciertos factores y la mortalidad por COVID-19, y calcular el Odds Ratio (OR), el diseño metodológico más adecuado es el estudio casos y controles, ya que se parte del desenlace (mortalidad) para luego investigar retrospectivamente los factores de exposición en los grupos: casos (fallecidos) y controles (sobrevivientes). Este diseño es eficiente para enfermedades raras o eventos poco frecuentes, permite estudiar múltiples factores y es más rápido que una cohorte. Aunque un estudio de cohortes puede calcular el riesgo relativo, no es el más adecuado para OR. El estudio transversal no establece causalidad, y el descriptivo no compara grupos.
+
+### NRL-019 | Corea de Sydenham | 2022
+Varón de 17 años con antecedente de faringoamigdalitis crónica, desde hace dos semanas presenta movimientos involuntarios en manos, cara y boca. Al examen: se objetiva movimientos rápidos, repetitivos y estereotipados, soplo diastólico en foco mitral, resto normal. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad de Wilson
+  *B) Corea de Sydenham
+   C) Atetosis juvenil
+   D) Corea de Huntington
+   E) Tics motores
+EXP: Adolescente varón con antecedentes de faringoamigdalitis crónica y movimientos involuntarios rápidos y estereotipados en cara y extremidades (corea), asociado a soplo diastólico en foco mitral, lo que indica una afectación cardíaca reumática. Este cuadro clínico corresponde a la Corea de Sydenham, una manifestación neurológica de la fiebre reumática aguda, relacionada a infección por Streptococcus pyogenes. Es más común en adolescentes y suele acompañarse de carditis mitral. La corea de Huntington es genética y de inicio tardío, mientras que la enfermedad de Wilson tiene otros signos neurológicos y hepáticos.
+
+### HEM-015 | Anemia perniciosa: células parietales | 2022
+Varón de 45 años con palidez severa. Hemograma: Hb 1 g/dl, VCM aumentado. Estudio de lámina: macrocitosis, polimorfonucleares polisegmentados. Biopsia de estómago: gastritis crónica atrófica. La causa de la anemia se debería a una disminución del número de células:
+   A) Cimógenas
+   B) Principales
+   C) Argentafines
+  *D) Parietales
+   E) Caliciformes
+EXP: Paciente masculino con anemia macrocítica severa (Hb 1 g/dl, VCM aumentado), y hallazgos de macrocitosis y poli segmentación de neutrófilos, hallazgos clásicos de una anemia megaloblástica, típicamente por déficit de vitamina B12. La biopsia gástrica muestra gastritis crónica atrófica, patología en la que se destruyen las células parietales, que son responsables de secretar el factor intrínseco, necesario para la absorción intestinal de vitamina B12 en el íleon terminal. Sin factor intrínseco, se produce mala absorción crónica de B12, lo que lleva a defectos en la síntesis de ADN, causando la morfología megaloblástica. Por tanto, la causa de la anemia se relaciona con la pérdida de células parietales.
+
+### GIN-068 | Diabetes gestacional: test de O'Sullivan | 2022
+Primigesta de 25 semanas que presenta sobreganancia ponderal, actualmente asintomática. Bienestar fetal adecuado. Se le realiza test de O'Sullivan teniendo como resultado 150 mg/dl. ¿Cuál es la conducta a seguir?
+   A) Repetir test de O'Sullivan en 2 semanas
+   B) Repetir nuevamente glucosa basal
+  *C) Realizar test de tolerancia oral a la glucosa
+   D) Realizar examen de hemoglobina glicosilada
+   E) Iniciar insulina
+EXP: Primigesta en segundo trimestre con ganancia de peso excesiva. El test de O’Sullivan, usado como tamizaje para diabetes gestacional, da un resultado de 150 mg/dl, superando el punto de corte de 140 mg/dl, lo que lo convierte en un resultado positivo. Ante esto, el siguiente paso indicado es realizar una curva de tolerancia oral a la glucosa con 100 gramos, que es una prueba confirmatoria para el diagnóstico. No se debe repetir el test de O’Sullivan ni solo la glucosa basal, ya que no serían suficientes para confirmar o descartar la enfermedad. La hemoglobina glicosilada no es una herramienta están dar para diagnóstico de diabetes gestacional.
+
+### PED-080 | Fenilcetonuria | 2022
+Recién nacido de 7 días, se le toma muestra para el tamizaje neonatal. Se detecta aumento de fenilpiruvato. Está indicado el tratamiento dietético con la restricción desde el nacimiento hasta la adolescencia de alimentos que contengan:
+   A) Histidina
+  *B) Fenilalanina
+   C) Tirosina
+   D) Fenilacetato
+   E) Lactosa
+EXP: Recién nacido con hallazgo de fenilpiruvato elevado en el tamizaje neonatal, indicativo de fenilcetonuria (PKU), una enfermedad metabólica congénita autosómica recesiva por deficiencia de la enzima fenilalanina hidroxilasa, encargada de convertir fenilalanina en tirosina. L a acumulación de fenilalanina lleva a metabolitos tóxicos que dañan el sistema nervioso central. El tratamiento consiste en una dieta estricta baja en fenilalanina desde los primeros días de vida hasta al menos la adolescencia, para prevenir retraso mental. La tirosina es, en este caso, un aminoácido esencial que puede necesitar suplementación.
+
+### OFT-016 | Epistaxis anterior: compresión digital | 2022
+Varón de 56 años con antecedente de HTA con tratamiento irregular, hace 12 horas que viene presentando sangrado nasal, motivo por lo que acude a la emergencia. Al examen: PA 170/100 mmHg, FC 88 x', SatO₂ 95%. Se evidencia sangrado nasal profuso a nivel vestibular. ¿Cuál es la medida terapéutica inicial?
+   A) Uso de vasoconstrictores locales
+  *B) Compresión digital
+   C) Cauterización vestibular
+   D) Taponamiento anterior
+   E) Ligadura arterial de urgencia
+EXP: Paciente con hipertensión arterial y epistaxis anterior activa, evidenciada por sangrado en región vestibular nasal (generalmente plexo de Kiesselbach). La medida inmediata más efectiva y accesible es la compresión digital de la región anterior de la nariz durante varios minutos, lo cual suele detener el sangrado en la mayoría de casos. Si falla, se pasa al uso de vasoconstrictores o cauterización con nitrato de plata. El taponamiento anterior es una opción más invasiva, reservada para sangrados persistente s. Por tanto, el primer paso recomendado es la compresión digital directa.
+
+### NRL-020 | Ataque isquémico transitorio en el anciano | 2022
+Anciano, hipertenso mal controlado, súbitamente presenta disartria, debilidad en hemicuerpo izquierdo con dificultad para la marcha. Al examen: dificultad para entender preguntas, incoordinación de movimientos. Laboratorio: glucosa 100 mg/dl, urea 40 mg/dl. Una hora más tarde se constata recuperación espontánea. ¿Cuál es el diagnóstico más probable?
+   A) Hipoglucemia
+   B) Síndrome conversivo
+  *C) Isquemia cerebral transitoria
+   D) Infarto cerebral cortical
+   E) Crisis convulsiva parcial
+EXP: Paciente adulto mayor hipertenso con presentación súbita de signos neurológicos focales (disartria, hemiparesia izquierda, incoordinación), compatibles con evento cerebrovascular. La recuperación completa en menos de una hora, sin evidencia de hipoglucemia ni alteraciones metabólicas, orienta a una isquemia cerebral transitoria (ICT). Esta se define como un déficit neurológico focal súbito y reversible dentro de las primeras 24 horas, típicamente mucho antes. No hay signos ni hallazgos que sustenten infarto establecido (no hay lesión permanente ni síntomas persistentes), ni clínica que respalde un trastorno psicógeno (como el conversivo). La glicemia es normal, descartando hipoglucemia.
+
+### HEM-016 | Leucemia mieloide crónica | 2022
+Varón de 50 años, manifiesta que desde hace 6 meses presenta fatiga, dolor óseo, fiebre recurrente con pérdida de 10 kilos de peso. Al examen: esplenomegalia. Laboratorio: Hb 13 mg/dl, leucocitos 43000/mm³, neutrófilos 95%, 24% de segmentados, promielocitos 5%, blastos 1% y plaquetas 460,000/mm³. ¿Cuál es el diagnóstico más probable?
+   A) Trombocitosis esencial
+  *B) Leucemia mieloide crónica
+   C) Mielofibrosis primaria
+   D) Leucemia linfocítica crónica
+   E) Leucemia mieloide aguda
+EXP: Varón de edad media con síndrome constitucional (fatiga, fiebre, pérdida de peso) y esplenomegalia masiva, lo que sugiere una enfermedad hematológica crónica. El hemograma muestra leucocitosis severa con reacción en cayado (presencia de precursores mieloides en sangre periférica), junto con trombocitosis. Esta característica es típica de la leucemia mieloide crónica (LMC), que cursa con maduración conservada y predomina en adultos. La trombocitosis esencial no presenta esa proliferación leucocitaria. La mielofibrosis tiene leucoeritroblastosis y dacriocitos. La LLC muestra linfocitosis, no neutrofilia.
+
+### INF-030 | Enfermedad de Chagas aguda | 2022
+Varón de 18 años procedente de Arequipa, presenta desde hace 10 días edema periorbitario, fiebre, malestar, adenopatía cervical y hepatoesplenomegalia. ¿Cuál es el vector responsable de esta enfermedad?
+   A) Aedes aegypti
+  *B) Triatoma infestans
+   C) Lutzomyia sp.
+   D) Phlebotomus verrucarum
+   E) Culex
+EXP: Paciente joven, procedente de zona endémica (Arequipa), que presenta un síndrome febril agudo acompañado de edema bipalpebral, linfadenopatía, fiebre y visceromegalia (hepatoesplenomegalia). Este cuadro es altamente sugerente de la fase aguda de enfermedad de Chagas, causada por Trypanosoma cruzi. El signo de Romaña (edema periorbitario unilateral) es patognomónico. El vector responsable de esta enfermedad es la vinchuca ( Triatoma infestans), un insecto hematófago que deposita sus heces cerca del sitio de la picadura, permitiendo el ingreso del parásito. Aedes aegypti transmite arbovirus, Lutzomyia la leishmaniasis y Phlebotomus no está presente en Perú.
+
+### GIN-069 | Aborto terapéutico | 2022
+Mujer de 45 años, quien acude a hospital con embarazo complicado por lupus eritematoso sistémico con daño renal severo. El planteamiento del aborto debe ser considerado entonces como:
+  *A) Terapéutico
+   B) Espontáneo
+   C) Eugenésico
+   D) Criminal
+   E) Electivo
+EXP: Mujer adulta con diagnóstico de lupus eritematoso sistémico (LES) complicado con compromiso renal severo —probablemente una nefritis lúpica avanzada— acude durante el embarazo. El daño renal severo implica un alto riesgo de descompensación materna, pudiendo llevar a insuficiencia renal, hipertensión severa o incluso la muerte materna. Frente a esta amenaza grave para la vida o la salud de la gestante, el Código Penal Peruano permite el aborto terapéutico, entendiendo este como una excepción legal cuando la continuación del embarazo pone en riesgo la vida o salud de la madre. Las otras opciones no aplican: no es un aborto espontáneo (no se ha producido naturalmente), ni eugenésico (no se busca evitar malformaciones del feto), ni criminal (porque está justificado clínicamente).
+
+### INF-031 | Malaria por Plasmodium falciparum | 2022
+En un centro de salud de la selva peruana, consulta un varón por cuadro recidivante de: fiebre alta, anemia severa, ictericia y postración. Usted considera entonces, como probable agente etiológico, al Plasmodium:
+   A) Vivax
+  *B) Falciparum
+   C) Malariae
+   D) Knowlesi
+   E) Ovale
+EXP: Paciente masculino que vive en la selva peruana consulta por episodios recidivantes de fiebre alta, anemia severa, ictericia y postración. Este patrón clínico sugiere un cuadro grave de malaria. Dentro de los Plasmodium causantes de malaria en el Perú, el P. falciparum se asocia a las formas más graves, debido a su capacidad de generar anemia hemolítica intensa, secuestro de eritrocitos, hipoxia tisular e incluso malaria cerebral. El P. vivax también es frecuente, pero no genera tanta gravedad ni mortalidad. El P. malariae es raro en el Perú y tiene curso crónico. El P. knowlesi se asocia más a Asia. En este contexto geográfico y clínico, el agente más probable es P. falciparum.
+
+### PED-081 | Síndrome nefrótico: peritonitis primaria | 2022
+Preescolar de 4 años, ingresa a emergencia por presentar desde hace 10 días, edema periorbitario a predominio matutino, que se ha ido incrementando, actualmente se evidencia edema escrotal y distensión abdominal. Desde hace 2 días fiebre y dolor abdominal intenso con signo de rebote positivo. ¿En qué complicación sospecha?
+   A) Pielonefritis aguda
+   B) Absceso perinefrítico
+  *C) Peritonitis primaria
+   D) Vólvulo intestinal
+   E) Glomerulonefritis aguda
+EXP: Niño con síndrome nefrótico que presenta fiebre y dolor abdominal intenso con rebote positivo. Aunque la peritonitis primaria es una complicación común, la presentación con dolor localizado, fiebre persistente y signos peritoneales sugiere una complicación más grave. El absceso perinefrítico es una infección localizada retroperitoneal que puede desarrollarse por diseminación hematógena o por una infección urinaria en pacientes inmunocomprometidos. La evolución del cuadro y el dolor focalizado, sumado al contexto de síndrome nefrótico, orientan hacia este diagnóstico. Otras opciones como pielonefritis o vólvulo no explican completamente el rebote ni el contexto clínico.
+
+### GIN-070 | Placenta previa | 2022
+Mujer de 36 semanas de gestación, G4 P3003, cesárea anterior 3 veces, acude a emergencia por presentar sangrado vaginal en moderada cantidad, sin dolor, desde hace dos horas. Al examen: útero blando, no doloroso, no se registran contracciones. Test no estresante: feto reactivo, LCF 140 x'. Signos vitales maternos estables. ¿Cuál es el diagnóstico más probable?
+   A) Abruptio placentae
+  *B) Placenta previa
+   C) Rotura de vasa previa
+   D) Rotura uterina
+   E) Rotura del seno marginal
+EXP: Paciente gestante con antecedentes de 3 cesáreas previas, presenta metrorragia indolora en el tercer trimestre, útero blando, sin contracciones y sin compromiso fetal ni materno. Estos hallazgos clínicos son clásicos de placenta previa, una complicación obstétrica en la que la placenta se implanta en el segmento inferior del útero, cubriendo parcial o totalmente el orificio cervical interno. La ausencia de dolor y el útero sin hipertonicidad descartan un abruptio placenta e. La rotura uterina también se asocia a dolor súbito intenso y deterioro fetal, lo cual no se observa aquí.
+
+### GIN-071 | Mutación BRCA1 | 2022
+Mujer de 25 años, en quien se ha detectado por biología molecular alteraciones en el gen BRCA1. ¿A qué tipo de cáncer tendría predisposición?
+  *A) Mama
+   B) Útero
+   C) Colon
+   D) Pulmón
+   E) Estómago
+EXP: El gen BRCA1 está íntimamente relacionado con la regulación de la reparación del ADN. Su mutación germinal confiere una alta predisposición hereditaria al cáncer de mama y ovario, sobre todo en mujeres jóvenes. Esta alteración genética implica vigilancia estrecha y, en algunos casos, intervenciones preventivas. No se ha establecido asociación directa entre mutaciones BRCA1 y cánceres como el de pulmón, colon o útero. El diagnóstico genético permite una medicina personalizada de alto impacto preventivo.
+
+### PED-082 | Anemia ferropénica del lactante | 2022
+Lactante de 8 meses de edad, antecedente de prematuridad. Presenta inapetencia y cursa con palidez de piel y mucosas. En el extendido de lámina reportan eritrocitos microcíticos e hipocrómicos. ¿Cuál es el diagnóstico?
+   A) Esferocitosis
+   B) Anemia megaloblástica
+  *C) Anemia ferropénica
+   D) Anemia falciforme
+   E) Anemia aplásica
+EXP: Lactante de 8 meses, con antecedentes de prematuridad —factor de riesgo para deficiencia de hierro—, que presenta síntomas como palidez e inapetencia. El extendido de lámina periférica muestra eritrocitos microcíticos e hipocrómicos, hallazgos clásicos de anemia ferropénica. Esta es la causa más común de anemia en la infancia, y ocurre por la depleción rápida de reservas de hierro, especialmente en niños prematuros o mal alimentados. Se descartan otras anemias como la megaloblástica (macrocitosis), falciforme (drepanocitos) y esferocitosis (esferocitos y antecedentes familiares). La ferropenia debe tratarse con hierro oral y corrección dietética.
+
+### CIR-048 | Quiste pilonidal | 2022
+Chofer de 30 años que acude por dolor en región sacra y sensación febril. Al examen: piel con hipertricosis, aumento de volumen de la región sacra posterior e interglútea, con signos de flogosis y secreción purulenta. ¿Cuál es el diagnóstico más probable?
+   A) Mielomeningocele
+   B) Tumor desmoide
+  *C) Quiste pilonidal
+   D) Quiste sebáceo
+   E) Absceso perianal
+EXP: Varón joven, conductor de profesión (factor de riesgo importante), consulta por dolor sacro, fiebre, y signos inflamatorios locales en la región interglútea. Al examen físico se identifica aumento de volumen, secreción purulenta y piel con hipertricosis, lo que sugiere un proceso inflamatorio crónico de origen folicular. El diagnóstico más probable es quiste pilonidal infectado, una entidad que se forma por inclusión de pelos en la región sacrococcígea, generando una cavidad que se sobreinfecta. La presencia de secreción indica absceso secundario. Se descarta el quiste sebáceo (más superficial), tumor desmoide (no infeccioso), y mielomeningocele (congénito).
+
+### CB-024 | Intoxicación por carbamatos | 2022
+Mujer de 16 años, traída a la emergencia inconsciente. Al examen: pupilas mióticas, sialorrea, relajación de esfínteres, dificultad respiratoria y fasciculaciones. Se sospecha ingesta de sustancia desconocida por intento de suicidio. El agente más probable es:
+   A) Cocaína
+  *B) Carbamato
+   C) Cianuro
+   D) Benzodiacepina
+   E) Opioide
+EXP: Paciente adolescente es traída inconsciente, con clara sintomatología colinérgica: pupilas mióticas, sialorrea, relajación esfinteriana, dificultad respiratoria y fasciculaciones. Estos signos evidencian un síndrome colinérgico agudo, característico de intoxicaciones por inhibidores de la acetilcolinesterasa. Entre estos, destacan los organofosforados y carbamatos, ampliamente utilizados co mo pesticidas. La presentación clínica coincide especialmente con el efecto de los carbamatos, cuyo cuadro es similar al de los organofosforados, pero menos prolongado. La presencia de fasciculaciones y bradicardia en este contexto también apoya este diagn óstico. La ausencia de midriasis, taquicardia o agitación psicomotora descarta agentes como cocaína o benzodiacepinas. En caso de sospecha, el tratamiento incluye atropina y pralidoxima. El antecedente de intento autolítico y la edad aumentan la sos
+
+### END-018 | Hipertrigliceridemia y pancreatitis | 2022
+Varón de 18 años acude por presentar pápulas blanco-amarillentas pruriginosas en cara extensora de brazos y en los glúteos. Perfil lipídico: triglicéridos 1000 mg/dl, colesterol 280 mg/dl, HDL 35 mg/dl, LDL 90 mg/dl. Suero de aspecto lechoso. ¿Cuál es el mayor riesgo que plantea esta alteración?
+   A) Infarto de miocardio
+  *B) Pancreatitis aguda
+   C) Cirrosis hepática
+   D) Esteatohepatitis
+   E) Diabetes mellitus
+EXP: Varón joven con dislipidemia severa, evidenciada por triglicéridos >1000 mg/dl y presencia de xantomas eruptivos, hallazgo característico en hipertrigliceridemia. El suero lechoso es patognomónico. Clínicamente, este perfil lipídico se asocia a un alto riesgo de pancreatitis aguda, debido a la toxicidad directa de los quilomicrones sobre el páncreas. A diferencia del riesgo cardiovascular de una dislipidemia mixta, aquí el riesgo más inminente es inflamación pancreática. La hipertrigliceridemia severa puede inducir pancreatitis incluso en ausencia de litiasis. Por tanto, el tratamiento urgente con dieta baja en grasa, fibratos y eventualmente insulinoterapia o plasmaféresis está indicado. Se descartan otras opciones por su menor asociación. El riesgo prioritario es pancreatitis.
+
+### GAS-024 | Colangiocarcinoma | 2022
+Varón de 65 años, desde hace un mes presenta anorexia y pérdida de peso considerable. Posteriormente se agrega dolor en abdomen superior, ictericia marcada y prurito. Ecografía abdominal muestra dilatación de vías biliares intrahepáticas. ¿Cuál es el diagnóstico más probable?
+   A) Estenosis benigna de vías biliares
+   B) Coledocolitiasis
+   C) Síndrome de Mirizzi
+  *D) Carcinoma de vías biliares
+   E) Hepatitis viral
+EXP: Paciente adulto mayor con síndrome ictérico obstructivo, caracterizado por ictericia, coluria, heces hipocolóricas y prurito. La pérdida de peso y el dolor epigástrico progresivo orientan a una causa maligna. La ecografía que muestra dilatación de vías biliares intrahepáticas indica obstrucción distal, probablemente por una masa en la vía biliar principal. El carcinoma de colédoco o de la ampolla de Vater es la causa más probable. Se descarta coledocolitiasis por la evolución crónica y sin cólico biliar, y el síndrome de Mirizzi requiere litiasis impactada en el cístico. La estenosis benigna es menos frecuente. Así, el diagnóstico más coherente es carcinoma de vías biliares.

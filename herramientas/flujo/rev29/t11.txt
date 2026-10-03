@@ -1,0 +1,224 @@
+### NRL-030 | Enfermedad de Alzheimer | 2024
+Mujer de 73 años, traída por su hija, por haber ocasionado 3 amagos de incendio al dejar la cocina prendida. Por momentos no reconoce a sus familiares, ha presentado cambios en el estado de ánimo. En dos ocasiones la encontraron deambulando sin rumbo por la calle. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad de Huntington
+  *B) Enfermedad de Alzheimer
+   C) Demencia con cuerpos de Lewy
+   D) Demencia frontotemporal
+   E) Depresión mayor
+EXP: La clínica presentada por la paciente es altamente sugestiva de la enfermedad de Alzheimer (Alternativa B). La enfermedad de Alzheimer es la causa más común de demencia en personas mayores y se caracteriza por deterioro progresivo de la memoria, desorientación, cambios en la personalidad y conducta, y dificultades en el manejo de las actividades diarias. Los síntomas de la paciente, como los episodios de desorientación, los cambios en el estado d e ánimo y los comportamientos peligrosos (como dejar prendida la cocina), son muy característicos de esta enfermedad.
+
+### CAR-044 | Fibrilación ventricular: desfibrilación | 2024
+Mujer de 50 años, con antecedente de HTA controlada, presenta paro cardíaco en plena clase de natación. El instructor la saca de la piscina, inicia maniobras de RCP y llama a emergencia. Administra descarga eléctrica con desfibrilador externo automático, logrando retorno de la circulación espontánea. ¿Cuál es la arritmia más probable que presentó la paciente?
+  *A) Fibrilación ventricular
+   B) Asistolia
+   C) Fibrilación auricular
+   D) Actividad eléctrica sin pulso
+   E) Taquicardia supraventricular
+EXP: La arritmia más probable que presentó la paciente es la fibrilación ventricular (FV) (Alternativa A). La fibrilación ventricular es una arritmia en la que los ventrículos del corazón laten de manera rápida y caótica, impidiendo un bombeo efectivo de sangre. Es la causa más común de paro cardíaco súbito y responde bien a la desfibrilación. El retorno de la circulación espontánea después de una descarga con un desfibrilador externo automático (DEA) es altamente sugestivo de FV. Debe tenerse en cuenta que otro ritmo de paro cardíaco que es desfibrilable es la taquicardia ventricular sin pulso.
+
+### SP-076 | Liderazgo democrático | 2024
+El director de un ámbito sanitario presenta ante el alcalde y los otros integrantes del comité distrital de salud, el incremento de casos de dengue. Expone las actividades que deberán realizar para el control del problema, solicitando que según sus funciones y competencias cada integrante del comité asuma responsabilidades. ¿Qué estilo de liderazgo ejerce?
+  *A) Democrático
+   B) Liberal
+   C) Paternal
+   D) Autocrático
+   E) Burocrático
+EXP: En este caso, el director presenta el problema y las actividades a realizar, y solicita que cada integrante del comité asuma responsabilidades según sus funciones y competencias, promoviendo la colaboración y el consenso. A este estilo de liderazgo participativo y que facilita el compromiso de todos los involucrados lo catalogamos como democrático (Alternativa A). El estilo de liderazgo democrático es particularmente efectivo en situaciones que requieren la colaboración de múltiples partes interesadas y la aceptación y compromiso de los miembros del equipo. En el contexto de salud pública, este estilo puede facilitar una respuesta más coordinada y eficiente a problemas complejos como el control de una epidemia de dengue.
+
+### NRL-031 | Distonía focal: calambre del escribiente | 2024
+Varón de 49 años va al consultorio y refiere dificultad para sostener y utilizar un lápiz desde hace un año y presenta espasmos de la mano y el antebrazo derecho, sólo cuando escribe o cuando está muy ansioso. Examen: normal. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome del túnel carpiano
+   B) Temblor esencial benigno
+   C) Tenosinovitis de Quervain
+  *D) Distonía focal
+   E) Enfermedad de Parkinson
+EXP: En este caso, los espasmos que se producen al escribir o cuando el paciente está ansioso son característicos de la distonía focal (Alternativa D), especialmente de la llamada "distonía del escritor". La distonía focal es un trastorno neurológico que provoca contracciones musculares involuntarias y sostenidas en una parte específica del cuerpo, como la mano y el antebrazo. Este trastorno es frecuentemente desencadenado por actividades motoras específicas, y el hecho de que el paciente tenga espasmos de la ma no y el antebrazo solo al escribir o en situaciones de ansiedad es muy indicativo de este diagnóstico. El examen físico normal también apoya esta hipótesis, ya que la distonía focal no suele presentar anormalidades fuera del contexto de la tarea desencadenante.
+
+### CB-036 | Altura: alcalosis respiratoria | 2024
+Varón de 45 años residente en Lima, decide viajar a Puno durante sus vacaciones. Posteriormente a su llegada presenta cefalea, fatiga, náuseas y vómitos. ¿Cuál de las siguientes alteraciones espera encontrar en la gasometría arterial?
+   A) Acidosis metabólica
+   B) Acidosis respiratoria
+  *C) Alcalosis respiratoria
+   D) Alcalosis metabólica
+   E) Normal
+EXP: Cuando una persona asciende a altitudes elevadas, como Puno (a más de 3,800 metros sobre el nivel del mar), la disminución de la presión parcial de oxígeno (PaO₂) provoca hipoxia. En respuesta a la hipoxia, se estimula la respiración, aumentando la ventilación pulmonar para compensar la baja oxigenación. Este aumento en la ventilación causa una disminución en los niveles de CO2, resultando en alcalosis respiratoria (Alternativa C). La alcalosis respiratoria es un trastorno caracterizado por una disminución de CO2 (hipocapnia) en sangre debido a hiperventilación, lo que resulta en un aumento del pH.
+
+### SP-077 | Indicadores de proceso | 2024
+Los jefes de centros de salud deben presentar el porcentaje de personas con diagnóstico de TB que han recibido visita domiciliaria. ¿Qué tipo de indicador se está solicitando?
+  *A) Proceso
+   B) Resultado
+   C) Impacto
+   D) Soporte
+   E) Estructura
+EXP: El porcentaje de personas con diagnóstico de TB que han recibido visita domiciliaria es un indicador de proceso (Alternativa A), ya que se enfoca en las acciones específicas que se realizan dentro del sistema de salud para asegurar que los pacientes reciban el seguimiento necesario. Un indicador de proceso mide las acciones que se llevan a cabo para alcanzar un objetivo en la atención de salud. Este tipo de indicador evalúa si los procedimientos y protocolos están siendo implementados adecuadamente.
+
+### CB-037 | Alfabloqueadores: hipotensión ortostática | 2024
+Varón de 65 años con hiperplasia benigna de próstata y en tratamiento con fármaco simpaticolítico, presenta hipotensión ortostática. ¿Cuál es el mecanismo de acción que se relaciona a este efecto adverso?
+   A) Activación beta-1
+   B) Activación alfa-2
+  *C) Bloqueo alfa-1
+   D) Bloqueo beta-2
+   E) Bloqueo beta-1
+EXP: El mecanismo relacionado con este efecto adverso es el bloqueo alfa-1 (Alternativa C). Los fármacos simpaticolíticos que se utilizan para tratar la hiperplasia benigna de próstata, como los bloqueadores alfa-1 (por ejemplo, tamsulosina, alfuzosina), relajan el músculo liso del cuello de la vejiga y la próstata, facilitando la micción. Sin embargo, también pueden bloquear los receptores alfa-1 en los vasos sanguíneos, lo que lleva a una vasodilatación y puede causar una caída de la presión arterial al cambiar de posición, resultando en hipotensión ortostática.
+
+### GIN-106 | Tamizaje temprano de diabetes en gestante de alto riesgo | 2024
+Multigesta de 10 semanas, acude al primer control prenatal. Tiene IMC 34, un hijo nacido a término que pesó 4 700 g y una hermana con diabetes tipo 2. ¿Cuándo se debe realizar el estudio glicémico en la paciente?
+   A) A la semana 24
+   B) Durante el puerperio
+   C) A la semana 18
+  *D) Inmediatamente
+   E) A la semana 32
+EXP: Dada la presencia de múltiples factores de riesgo importantes (obesidad, antecedente de macrosomía fetal y antecedentes familiares de diabetes tipo 2), se recomienda realizar un cribado temprano para diabetes gestacional lo antes posible, idealmente en el primer control prenatal con un control de glicemia en ayunas. Por tanto, lo más adecuado en este caso sería realizarlo inmediatamente (Alternativa D).
+
+### GIN-107 | Insuficiencia ovárica prematura | 2024
+Mujer de 19 años presenta amenorrea de 7 meses. Examen: Caracteres sexuales secundarios presentes. Eco transvaginal: se evidencia presencia de útero y ovarios. Dosaje de FSH y LH elevados. ¿Cuál es el diagnóstico?
+   A) Síndrome de ovario poliquístico
+   B) Amenorrea hipofisiaria
+  *C) Falla ovárica prematura
+   D) Amenorrea hipotalámica
+   E) Síndrome de Asherman
+EXP: Los niveles elevados de FSH y LH en una mujer joven con amenorrea secundaria, presencia de útero y ovarios en la ecografía, y caracteres sexuales secundarios presentes es sugestivo de falla ovárica prematura (Alternativa C). La falla ovárica prematura (FOP) se caracteriza por la insuficiencia ovárica antes de los 40 años, y típicamente se presenta con niveles elevados de FSH y LH debido a la falta de retroalimentación negativa de estrógenos producidos por los ovarios.
+
+### PED-116 | Reanimación neonatal: VPP con aire ambiente | 2024
+Recién nacido a término que, al nacer, no llora, no respira y está hipotónico. Después de las medidas iniciales de reanimación continúa en apnea y tiene FC 90 X'. ¿Cuál es el siguiente procedimiento que usted debe iniciar?
+   A) Administración de oxígeno a flujo libre
+  *B) Ventilación a presión positiva con FiO2 21%
+   C) Estimulación táctil enérgica en el dorso
+   D) Ventilación con bolsa y máscara FiO2 100%
+   E) Masaje cardiaco inmediato
+EXP: En un recién nacido que no respira y está hipotónico después de las medidas iniciales de reanimación, la ventilación a presión positiva con FiO2 21% (Alternativa B) es el siguiente paso correcto para proporcionar soporte ventilatorio y estimular la respiración.
+
+### GIN-108 | Úlcera de decúbito en prolapso total | 2024
+Mujer de 65 años con prolapso genital total, vagina seca. Examen: En mucosa vaginal lesión de 2 cm, bordes regulares, con sangrado escaso. Eco transvaginal: Útero y anexos hipotróficos, endometrio de 2 mm. PAP negativo. ¿Cuál es el diagnóstico?
+   A) Ca de endometrio
+   B) Cervicitis crónica
+   C) Ca de cérvix
+  *D) Úlcera vaginal de decúbito
+   E) Ca de vagina
+EXP: La lesión de 2 cm con bordes regulares y sangrado escaso descrita es compatible con una úlcera de decúbito (Alternativa D). Las úlceras de decúbito (por presión) pueden ocurrir en mujeres con prolapso genital severo debido a la fricción y la presión constante sobre la mucosa vaginal expuesta. La sequedad vaginal también puede contribuir a la vulnerabilidad de la mucosa a desarrollar úlceras. En este caso, la paciente probablemente presenta una úlcera vaginal de decúbito debido al prolapso genital total y la fricción crónica de la mucosa vaginal expuesta.
+
+### CB-038 | Ipratropio: retención urinaria | 2024
+Varón de 70 años con asma bronquial en tratamiento, presenta bruscamente retención urinaria. ¿Cuál de los siguientes fármacos se relaciona con este efecto secundario?
+   A) Fluticasona
+   B) Prednisona
+   C) Fenoterol
+  *D) Bromuro de ipratropio
+   E) Montelukast
+EXP: La retención urinaria en un paciente de 70 años con asma bronquial en tratamiento es más probablemente un efecto secundario del bromuro de ipratropio (Alternativa D). El bromuro de ipratropio es un anticolinérgico utilizado en el tratamiento del asma y la enfermedad pulmonar obstructiva crónica (EPOC) para producir broncodilatación. Los anticolinérgicos pueden causar retención urinaria, especialmente en pacientes mayores o aquellos con hipertrofia prostática benigna. Este efecto secundario ocurre porque los anticolinérgicos inhiben la acción del sistema nervioso parasimpático, lo que puede llevar a la relajación del músculo detrusor de la vejiga y dificultar la micción.
+
+### SP-078 | Variable cuantitativa continua | 2024
+En una investigación se ha determinado utilizar la variable "temperatura ambiental". ¿Qué tipo de variable es?
+   A) Cualitativa
+   B) Categórica
+   C) Discreta
+  *D) Continua
+   E) Nominal
+EXP: La variable "temperatura ambiental" es una variable continua (Alternativa D) porque puede tomar cualquier valor en un rango determinado y puede medirse con precisión arbitraria. Las variables continuas son aquellas que pueden tomar cualquier valor dentro de un rango continuo. No están limitadas a valores enteros o discretos. Además, pueden medirse con una precisión arbitraria, dependiendo de la precisión del instrumento de medición, y son capaces de detectar y capturar cambios pequeños y sutiles en el fenómeno que se está estudiando. Otros ejemplos de variables continuas serían el peso, la talla o la concentración de una sustancia.
+
+### OFT-026 | Otitis media crónica | 2024
+Niño de 6 años con pobre ganancia pondoestatural, solicitan evaluación en el colegio por bajo rendimiento escolar. Examen otoscópico: tímpano perforado, otorrea maloliente. ¿Cuál es el diagnóstico?
+   A) Otitis media aguda
+   B) Mastoiditis
+  *C) Otitis media crónica
+   D) Cuerpo extraño
+   E) Tapón de cerumen
+EXP: El cuadro clínico del paciente (perforación timpánica, otorrea maloliente, pobre ganancia pondoestatural y bajo rendimiento escolar) es altamente sugestivo de otitis media crónica (Alternativa C). La otitis media crónica es una inflamación crónica del oído medio que puede resultar en una perforación timpánica persistente y otorrea maloliente. Esta condición crónica puede tener un impacto significativo en el desarrollo auditivo y, por consiguiente, en el desarrollo general del niño.
+
+### NEF-041 | Hipertensión renovascular: estenosis de arteria renal | 2024
+Mujer de 28 años, desde hace 6 meses presenta hipertensión de inicio súbito, encontrándose presión arterial de 190/100 mmHg refractaria al tratamiento con tres fármacos. Examen: soplo en flanco derecho. ¿Cuál es el diagnóstico más probable?
+   A) Hipertensión arterial esencial
+  *B) Estenosis de la arteria renal
+   C) Coartación de aorta
+   D) Feocromocitoma
+   E) Hiperaldosteronismo primario
+EXP: La hipertensión de inicio súbito y refractaria al tratamiento con tres fármacos, junto con la presencia de un soplo en el flanco derecho, es altamente sugestiva de estenosis de la arteria renal (Alternativa B). Esta condición Es una causa secundaria de hipertensión, resultante de un estrechamiento de una o ambas arterias renales, lo que reduce el flujo sanguíneo renal y activa el sistema renina-angiotensina-aldosterona. La combinación de hipertensión resistente y un soplo abdominal es muy sugestiva de esta condición, que puede ser confirmada con estudios de imagen como la ecografía Doppler renal.
+
+### CIR-060 | Trauma abdominal cerrado inestable: ecografía FAST | 2024
+Mujer de 18 años que hace 30 minutos sufre accidente de tránsito, presenta pérdida temporal del conocimiento. Examen: agitada, taquicárdica, con sudoración fría y pulsos periféricos débiles. Pulmones: MV pasa bien en AHT; abdomen doloroso a la palpación y RHA disminuidos. No hay heridas externas. ¿Cuál es el estudio inicial a realizar?
+  *A) Ecografía FAST
+   B) RX simple de abdomen
+   C) RMN de abdomen
+   D) TEM de abdomen
+   E) Lavado peritoneal diagnóstico
+EXP: Dada la agitación, taquicardia, sudoración fría y pulsos periféricos débiles, junto con el abdomen doloroso y los RHA disminuidos, nos encontramos frente a un traumatismo abdominal cerrado con inestabilidad hemodinámica y alta sospecha de hemorragia intraadbominal. En estos casos, el manejo de elección es la laparotomía exploratoria inmediata. Sin embargo, se nos plantea que examen imagenológico se debería realizar, y en estos casos, el estudio inicial de elección es la ecografía FAST (Alternativa A). La ecografía FAST es una técnica de ultrasonido utilizada para evaluar rápidamente la presencia de líquido libre (sangre) en la cavidad peritoneal, pericárdica y pleural en pacientes traumatizados. Permite una evaluación rápida y no invasiva para detectar hemorragias internas, que pueden ser la causa de la hipotensión y el estado de shock del paciente. La ecografía FAST puede guiar decision
+
+### PED-117 | Membrana hialina: diabetes materna como factor de riesgo | 2024
+¿Cuál de los siguientes antecedentes incrementa el riesgo de desarrollar enfermedad de membrana hialina en recién nacidos pretérmino?
+   A) Obesidad mórbida
+  *B) Diabetes materna
+   C) Madre adicta a heroína
+   D) Corticoides prenatales
+   E) Rotura prematura de membranas prolongada
+EXP: El antecedente que incrementa el riesgo de desarrollar enfermedad de membrana hialina en recién nacidos pretérmino es la diabetes materna (Alternativa B). La diabetes materna, tanto pregestacional como gestacional, se asocia con múltiples complicaciones fetales y neonatales, incluyendo macrosomía, hipoglucemia neonatal, y un mayor riesgo de parto prematuro. Los recién nacidos de madres diabéticas tienen un riesgo aumentado de desarrollar enfermedad de membrana hialina debido a que la hiperglucemia materna puede interferir con la maduración del surfactante pulmonar en el feto, lo cual es crucial para mantener la estabilidad alveolar después del nacimiento. Esta condición es más prevalente en los recién nacidos pretérmino de madres diabéticas.
+
+### NEF-042 | Retención urinaria aguda: sondaje vesical | 2024
+Varón de 78 años, acude a urgencias por presentar dolor en hipogastrio que ha ido incrementándose en los últimos días. Examen: se palpa masa redondeada, ligeramente tensa debajo del ombligo y en región del hipogastrio. Laboratorio: creatinina 2.8 mg/dL, potasio 6 mEq/L. ¿Cuál es la conducta inmediata?
+  *A) Cateterización vesical
+   B) TC abdominal
+   C) Cistoscopia
+   D) Hemodiálisis
+   E) Furosemida endovenosa
+EXP: En este escenario clínico, el paciente presenta síntomas de retención urinaria aguda (dolor en hipogastrio, masa palpable debajo del ombligo) junto con alteraciones en los niveles de creatinina y potasio, sugiriendo una posible injuria renal aguda postrenal. En este caso, la cateterización vesical (Alternativa A) es esencial para aliviar la retención urinaria y evaluar la función renal de manera inmediata. Esto permite manejar la causa potencial de las alteraciones bioquímicas y los síntomas urinarios del paciente.
+
+### NEU-030 | Derrame pleural: semiología | 2024
+Varón de 46 años, desde hace 5 días presenta tos y fiebre. Ocupación: obrero de construcción civil. Examen: Tórax asimétrico, abombamiento en el lado derecho, matidez, abolición del MV y egofonía en base del mismo lado. ¿Cuál es el diagnóstico?
+   A) Atelectasia
+   B) Neumotórax
+   C) Síndrome de consolidación
+  *D) Derrame pleural
+   E) Absceso pulmonar
+EXP: La presencia de tórax asimétrico, abombamiento en el lado derecho, matidez, abolición del murmullo vesicular y egofonía en la base derecha son todos hallazgos clásicos de un derrame pleural (Alternativa D). Se denomina derrame pleural a la acumulación de líquido en el espacio pleural. La clínica incluye disnea, dolor torácico, matidez a la percusión, abolición del murmullo vesicular y en ocasiones egofonía en la parte superior del derrame. Este cuadro clínico es común en pacientes con infecciones pulmonares que evolucionan derrame pleural como el presente en el paciente.
+
+### NRL-032 | Hemorragia intraparenquimal hipertensiva: control de la PA | 2024
+Varón de 65 años, con antecedente de HTA con tratamiento irregular, es hallado en casa con alteración del nivel de conciencia y traído a la emergencia. Examen: Glasgow: 10, somnoliento, confuso, PA 180/90 mmHg, FC 90 X´, FR 20 X´, SatO₂ 94%, hay signos de irritabilidad meníngea, hemiparesia derecha y desviación de la mirada hacia la izquierda. No hay signos de trauma craneal externo. TC Cerebral: hemorragia intraparenquimal en hemisferio cerebral izquierdo. ¿Cuál es la conducta inicial a seguir?
+   A) Drenaje de LCR
+  *B) Administración de antihipertensivos
+   C) Intubación orotraqueal
+   D) Oxigenoterapia a bajo flujo
+   E) Trombólisis con alteplase
+EXP: La medida inicial más adecuada para este paciente con hemorragia intraparenquimal e hipertensión arterial es la administración de antihipertensivos (Alternativa B). El objetivo es controlar la presión arterial para prevenir la progresión del sangrado con la consecuente expansión del hematoma y así reducir el riesgo de complicaciones neurológicas adicionales. Se debe reducir la presión arterial sistólica (PAS) a un rango seguro, generalmente por debajo de 150mmHg. Esto debe hacerse de manera controlada para evitar la hipoperfusión cerebral.
+
+### CAR-045 | Insuficiencia cardiaca: fármacos que mejoran la sobrevida | 2024
+Varón de 64 años desde hace 6 meses presenta disnea progresiva, ortopnea y edema de MMII. Antecedente: Cardiopatía isquémica crónica. Examen: PA 120/80 mmHg, FC 110 X’, FR 22 X’; pulmones crepitantes bilaterales; cuello con IY (+), pulso deficitario, R C arrítmicos; edema en MMII. En tratamiento con enalapril, digoxina, furosemida y rivaroxabán. ¿Cuál fármaco mejora la sobrevida?
+   A) Digoxina
+   B) Furosemida
+  *C) Enalapril
+   D) Rivaroxaban
+   E) Amlodipino
+EXP: La presencia de disnea progresiva, ortopnea, edema en MMII, edema agudo de pulmón e ingurgitación yugular en un paciente con antecedente de cardiopatía isquémica crónica y arritmia cardiaca es sugestiva de una insuficiencia cardiaca descompensada. En este caso, el fármaco indicado al paciente y que ha demostrado mejorar la sobrevida es enalapril (Alternativa C). Enalapril y otros inhibidores de la enzima convertidora de angiotensina (IECAs) han demostrado de manera consistente en ensayos clínicos que mejoran l a sobrevida en pacientes con insuficiencia cardíaca. Actúan bloqueando el sistema renina-angiotensina-aldosterona, lo que reduce la postcarga y la precarga, disminuyendo así la progresión de la insuficiencia cardíaca y mejorando los resultados a largo plazo. Además, los IECAs tienen beneficios adicionales, como la mejora de la función ventricular y la reducción de la remodelación c
+
+### OFT-027 | Tapón de cerumen: irrigación con salino tibio | 2024
+Adolescente de 16 años, quien presenta disminución de la audición, prurito, sensación de zumbido. Examen: obstrucción del conducto auditivo externo por abundante cerumen. ¿Con qué solución o líquido debe realizar la irrigación para extraerlo?
+  *A) Salina tibia
+   B) Glicerina
+   C) Agua oxigenada
+   D) Agua destilada helada
+   E) Alcohol al 70%
+EXP: Para la irrigación del conducto auditivo externo con obstrucción por cerumen, la opción más segura y recomendada es la solución salina tibia (Alternativa A). Esta solución es efectiva para ablandar y remover el cerumen sin causar irritación ni inducir vértigo. Mantener la temperatura tibia es crucial para el confort del paciente y para evitar el reflejo vestibular que puede ser desencadenado por el uso de líquidos fríos.
+
+### PED-118 | Cefalohematoma | 2024
+Recién nacido de parto eutócico a término de 2 días de edad. Examen: tumoración suave y fluctuante, que mide aproximadamente 4×4 cm, limitada al hueso parietal derecho y no cruza las líneas de sutura. ¿Cuál es el diagnóstico?
+   A) Encefalocele
+  *B) Cefalohematoma
+   C) Hemorragia subgaleal
+   D) Caput succedaneum
+   E) Hematoma subdural
+EXP: El diagnóstico más probable para el recién nacido con tumoración en el hueso parietal derecho que no cruza las líneas de sutura y es suave y fluctuante es un cefalohematoma (Alternativa B). El cefalohematoma es una colección de sangre subperióstica que se forma entre el periostio y el cráneo. Es más común en el hueso parietal debido a la presión ejercida durante el parto, especialmente en partos instrumentados como los forceps. No cruza las líneas de sutura y se presenta como una tumoración suave, fluctuante y bien delimitada en el área afectada, lo cual coincide con la descripción del caso presentado.
+
+### REU-032 | Poliarteritis nudosa asociada a hepatitis B | 2024
+Varón de 59 años acude por fiebre, pérdida de peso, dolor testicular, mialgias y artralgias. Antecedente de hepatitis B. Examen: PA 160/90 mmHg. Nódulos subcutáneos en abdomen, livedo reticularis y debilidad muscular. Laboratorio: leucocitosis con desviación izquierda. VSG: 58 mm/h, Factor Reumatoide 60 UI/ml, PCR 8,3 mg/dl. Electromiografía: polineuropatía sensorial y distal. Bx: vasculitis necrotizante en arterias de pequeño y mediano calibre. ¿Cuál es el diagnóstico?
+  *A) Poliarteritis nudosa
+   B) Vasculitis por IgA
+   C) Vasculitis crioglobulenémica
+   D) Granulomatosis con poliangeítis
+   E) Arteritis de células gigantes
+EXP: El diagnóstico más probable en este caso es la poliarteritis nudosa (PAN) (Alternativa A). La PAN es una vasculitis sistémica que afecta principalmente a arterias de pequeño y mediano calibre. Suele presentarse con síntomas como fiebre, artralgias y mialgias, pérdida de peso, dolor abdominal, neuropatía, y manifestaciones cutáneas como nódulos eritematosos dolorosos, livedo reticularis o úlceras cutáneas. Un porcentaje de los pacientes con este cuadro suele tener antecedente de hepatitis B o C. La biopsia característicamente presenta hallazgos de vasculitis necrotizante.
+
+### SP-079 | Ortotanasia | 2024
+Mujer de 80 años con diagnóstico de cáncer de mama metastásico a pulmón. Es evaluada en su domicilio por médico tratante quien indica oxigenoterapia y analgésicos. ¿Cómo se denomina esta práctica médica?
+   A) Eutanasia
+   B) Adistanasia
+   C) Distanasia
+  *D) Ortotanasia
+   E) Suicidio asistido
+EXP: Se describe el manejo médico de la paciente con cáncer de mama metastásico a pulmón mediante la administración de oxigenoterapia y analgésicos para mejorar su confort sin prolongar inútilmente su vida ni acelerar su muerte. A esta práctica médica se le conoce como ortotanasia (Alternativa D). La ortotanasia se refiere al tratamiento médico adecuado y proporcionado para aliviar el sufrimiento de un paciente terminal, sin buscar acelerar ni retrasar artificialmente el proceso de muerte. Es el permitir morir con dignidad a una persona.

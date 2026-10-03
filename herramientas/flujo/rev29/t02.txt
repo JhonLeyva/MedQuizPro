@@ -1,0 +1,224 @@
+### INF-036 | Sífilis primaria: chancro | 2022
+Varón de 18 años, consulta por presentar desde hace tres días, luego de relación sexual casual sin protección, lesión ulcerativa indurada, no dolorosa en surco balanoprepucial, sin vesículas. ¿Cuál es el agente etiológico más probable?
+   A) Virus del herpes simple
+   B) Neisseria gonorrhoeae
+  *C) Treponema pallidum
+   D) Chlamydia trachomatis
+   E) Haemophilus ducreyi
+EXP: Varón joven que presenta úlcera genital indurada, no dolorosa y sin vesículas, localizada en el surco balanoprepucial, tres días después de una relación sexual sin protección. La presentación clínica corresponde a un chancro sifilítico, lesión primaria de la sífilis, que se caracteriza por ser una úlcera única, limpia, de bordes bien definidos e indolora. La rápida aparición poscontacto refuerza el diagnóstico. El herpes simple suele cursar con vesículas agrupadas, dolorosas y con ulceración posterior. Gonorrea y clamidia causan uretritis, no chancros. Así, el cuadro clínico es típico de sífilis primaria por Treponema pallidum, agente causal más probable en este contexto.
+
+### GAS-027 | Colangitis aguda | 2022
+Mujer de 45 años consulta porque desde hace tres días, presenta intenso dolor cólico en epigastrio con náuseas y vómitos, al día siguiente, ictericia, fiebre y escalofríos. Laboratorio: hiperbilirrubinemia a predominio directo y fosfatasa alcalina elevada. ¿Cuál es el diagnóstico más probable?
+   A) Pancreatitis biliar
+  *B) Colangitis aguda
+   C) Colecistitis aguda
+   D) Síndrome de Mirizzi
+   E) Hepatitis viral aguda
+EXP: Paciente mujer con dolor epigástrico tipo cólico, náuseas, vómitos y al día siguiente ictericia, fiebre y escalofríos, presenta un cuadro clínico compatible con colangitis aguda. Se identifica la clásica tríada de Charcot: dolor, fiebre e ictericia, además de elevación de bilirrubina directa y fosfatasa alcalina, signos de colestasis. La colecistitis aguda pue de producir fiebre y dolor, pero no ictericia marcada. El síndrome de Mirizzi es una entidad crónica que produce ictericia sin fiebre. La pancreatitis biliar se manifiesta con dolor abdominal intenso y enzimas pancreáticas elevadas. En este escenario clínico, el diagnóstico más probable es colangitis aguda.
+
+### SP-052 | Transmisibilidad: variante ómicron | 2022
+El poder de propagación de la variante ómicron del SARS-CoV-2, se estima que triplicó la media de entre cinco y seis contagios por cada persona infectada, calculado en relación con la variante Delta. ¿Cuál es la propiedad del agente infeccioso involucrada?
+  *A) Transmisibilidad
+   B) Infectividad
+   C) Patogenicidad
+   D) Inmunogenicidad
+   E) Virulencia
+EXP: La variante ómicron del SARS-CoV-2 incrementó significativamente la cantidad de contagios generados por cada persona infectada, comparado con la variante Delta. Este aumento refleja una mayor capacidad de propagación, es decir, cuán fácilmente se transmite el virus entre personas. Esta propiedad se denomina transmisibilidad, que se diferencia d e la infectividad, la cual se refiere a la capacidad de un patógeno para ingresar y multiplicarse en el huésped. La patogenicidad indica la capacidad para causar enfermedad, y la inmunogenicidad su capacidad de inducir respuesta inmune. En este caso, el concepto evaluado es la transmisibilidad del agente.
+
+### GAS-028 | Pólipos de colon: polipectomía | 2022
+Varón de 62 años, desde hace 5 meses sangrado al defecar. Colonoscopia: pólipos pediculados de 2 cm en colon descendente. ¿Cuál es la conducta a seguir?
+   A) Marcadores tumorales y control endoscópico trimestral
+   B) Marcadores tumorales y conducta según resultados
+   C) Colonoscopía cada 6 meses y AINES
+  *D) Extirpación endoscópica y estudio histopatológico
+   E) Hemicolectomía izquierda
+EXP: Paciente con hematoquecia crónica y hallazgo colonoscópico de pólipos pediculados de 2 cm en colon descendente. Esta presentación indica un riesgo significativo de malignidad, por lo cual la conducta inmediata debe ser la resección endoscópica. El pólipo debe ser enviado a estudio histopatológico para determinar si es adenomatoso, hiperplásico o displásico. No corresponde observar ni controlar sin antes extraerlo. Los AINES no tienen rol aquí, y el seguimiento endoscópico se programa después del resultado histológico. La evaluación con marcadores tumorales sin resección no es adecuada. Por tanto, lo correcto es extirpación y análisis patológico.
+
+### CAR-031 | Hipertensión de bata blanca | 2022
+Varón de 55 años, consulta por cefalea moderada e insomnio. Al examen: PA 145/95 mmHg. Se solicita un MAPA, el cual nos muestra mediciones de presión dentro de lo normal. La alteración se cataloga como hipertensión arterial:
+  *A) De bata blanca
+   B) Ficticia
+   C) Enmascarada
+   D) Secundaria
+   E) Resistente
+EXP: Paciente varón de 55 años con presión arterial elevada en consultorio (145/95 mmHg), pero con valores normales en el monitoreo ambulatorio de presión arterial (MAPA). Este hallazgo es típico de la hipertensión arterial de bata blanca, un fenómeno transitorio en el que las cifras se elevan en presencia del personal de salud, por ansiedad o estrés, pero se mantienen normales en la vida diaria. El reconocimiento de esta condición es importante para evitar el inicio innecesario de tratamiento farmacológico. La hipertensión enmascarada se presenta en sentido opuesto: cifras normales en consulta y elevadas fuera. La hipertensión secundaria se debe a causas orgánicas. “Hipertensión ficticia” no es un término médico válido.
+
+### CAR-032 | Síndrome de vena cava superior | 2022
+Pintor de 55 años, consulta por presentar hace 15 días edema facial y en esclavina, posteriormente compromete miembros superiores. Al examen: abotagado, enrojecimiento de las conjuntivas e ingurgitación yugular. ¿Cuál es el diagnóstico más probable?
+  *A) Trombosis de la vena cava superior
+   B) Embolia del tronco braquiocefálico derecho
+   C) Trombosis de la vena cava inferior
+   D) Embolia de la subclavia derecha
+   E) Insuficiencia cardiaca derecha
+EXP: Paciente varón de 55 años con edema progresivo en cara y esclavina, que luego compromete miembros superiores, acompañado de plétora facial, conjuntivas inyectadas e ingurgitación yugular. Este patrón clínico corresponde al síndrome de la vena cava superior, causado comúnmente por compresión extrínseca de dicha vena, generalmente por neoplasias torácicas como el cáncer de pulmón o linfomas. La congestión venosa retrógrada explica el edema y eritema facial. La trombosis de la cava inferior no produce síntomas en cara ni cuello. Las embolias en vasos como la subclavia o tronco braquiocefálico derecho tampoco explican el compromiso simétrico y cefálico. La causa más probable es la obstrucción de la vena cava superior.
+
+### GIN-074 | Endometrioma | 2022
+Mujer de 34 años con dolor pélvico profundo y constante, que empeora con la menstruación, las relaciones sexuales y las deposiciones. Al examen: se palpa una masa anexial de 5 cm, fijada al útero y a los ligamentos útero-sacros. Ecografía transvaginal: tumoración anexial izquierda con patrón de "vidrio esmerilado". ¿Cuál es el diagnóstico más probable?
+   A) Disgerminoma
+   B) Cistoadenoma seroso
+   C) Teratoma
+  *D) Endometrioma
+   E) Absceso tubo-ovárico
+EXP: Paciente de 34 años con dolor pélvico profundo y crónico que se intensifica durante la menstruación, las relaciones sexuales y la defecación, lo cual es clínicamente compatible con endometriosis. Al examen físico se palpa una masa anexial adherida al útero y a los ligamentos útero-sacros, lo cual refuerza la sospecha de enfermedad infiltrativa. La ecografía transvaginal muestra una imagen anexial con patrón de “vidrio esmerilado”, típico de endometriomas, que son quistes hemorrágicos secundarios a implantes endometriósicos en el ovario. Un cistoadenoma seroso es móvil y de contenido claro. El teratoma suele ser asintomático y no adherente. El disgerminoma es sólido, rápido en crecimiento y no se relaciona con dolor cíclico. Por tanto, el diagnóstico más probable es endometrioma.
+
+### END-020 | Síndrome de Turner: cariotipo | 2022
+Una madre trae a consulta a su hija de 16 años por presentar retraso en la menarquia. Al examen: talla 145 cm, cuello ancho, vello púbico y mama en estadio I de Tanner, pezones mamarios separados. ¿Qué examen solicitaría para confirmar su diagnóstico?
+   A) Hormona de crecimiento
+   B) Hormonas tiroideas
+   C) Hormona luteinizante
+  *D) Estudio de cariotipo
+   E) Dosaje de prolactina
+EXP: Adolescente de 16 años con retraso puberal y menarquia ausente, acompañada de talla baja, cuello ancho, pezones separados y escaso desarrollo mamario y piloso. Estos datos clínicos configuran un fenotipo clásico del síndrome de Turner, una disgenesia gonadal secundaria a monosomía del cromosoma X. Las alteraciones somáticas y sexuales indican un trastorno genético, no endocrino aislado. Si bien puede haber alteraciones hormonales asociadas (LH elevada, hipotiroidismo), el examen confirmatorio es el estudio de cariotipo, que muestra 45,X0 en la mayoría de los casos. La hormona de crecimiento puede ser parte del tratamiento, pero no del diagnóstico. Por lo tanto, se debe solicitar cariotipo.
+
+### PED-090 | Intoxicación por paracetamol | 2022
+Preescolar de 3 años de edad, hace 24 horas ingiere paracetamol en sobredosis que le produce náuseas y anorexia. Al examen físico: hipersensibilidad a la palpación de hipocondrio derecho. ¿Cuál es la indicación apropiada?
+   A) Inducción del vómito
+   B) Lavado gástrico
+   C) Atropina
+  *D) N-acetilcisteína
+   E) Carbón activado como única medida
+EXP: Preescolar de 3 años con antecedentes de ingesta de paracetamol en sobredosis hace 24 horas, que presenta síntomas de toxicidad hepática inicial como náuseas, anorexia y dolor en hipocondrio derecho. El paracetamol, en dosis elevadas, se metaboliza por la vía del citocromo P450 generando NAPQI, un metabolito tóxico que produce necrosis hepática. La N-acetilcisteína actúa como antídoto específico, reponiendo los niveles de glutatión hepático y neutralizando el NAPQI. La inducción del vómito y el lavado gástrico no tienen eficacia pa sadas las primeras horas de ingesta. La atropina no tiene indicación en esta intoxicación. El tratamiento correcto y urgente es N-acetilcisteína.
+
+### GIN-075 | Urocultivo con Lactobacillus en gestante | 2022
+Gestante de 10 semanas que acude a su segundo control prenatal, trae urocultivo positivo a Lactobacillus. El procedimiento a seguir es:
+   A) Dar terapia supresiva
+  *B) Repetir el urocultivo
+   C) Dar tratamiento con dosis múltiple
+   D) Dar tratamiento con dosis única
+   E) Tratar con nitrofurantoína
+EXP: Gestante de 10 semanas con urocultivo positivo para Lactobacillus, bacteria considerada parte de la flora vaginal y urinaria normal, especialmente en mujeres en edad fértil. Su presencia en el urocultivo suele ser contaminación o colonización, no infección urinaria. Por ello, iniciar tratamiento antibiótico sería inapropiado, ya que no hay evidencia de infección. Lo correcto es repetir el urocultivo para confirmar si hay bacteriuria verdadera con un uropatógeno clásico como E. coli. Si en el segundo cultivo persiste la ausencia de síntomas y no se detectan bacterias patógenas, no se requiere tratamiento. La terapia antibiótica solo debe iniciarse ante gérmenes confirmados y significativos.
+
+### REU-022 | Urticaria colinérgica | 2022
+Interno de medicina de 27 años, refiere que desde hace 10 meses presenta, después de jugar fulbito, lesiones eritemato-edematosas de diferentes tamaños. Son muy pruriginosas y desaparecen completamente a las 2 horas. Dichas lesiones aparecen incluso al ducharse con agua caliente. Al examen: máculas pequeñas en tórax y cuello. ¿Cuál es el diagnóstico más probable?
+   A) Eritema multiforme
+   B) Miliaria cristalina
+   C) Liquen plano
+  *D) Urticaria colinérgica
+   E) Urticaria por frío
+EXP: Varón joven que presenta, tras estímulos como ejercicio o ducha caliente, aparición de lesiones eritematosas muy pruriginosas que desaparecen en menos de 2 horas. Esta evolución súbita y autolimitada sugiere una urticaria, y el desencadenante térmico-emocional orienta a la variante colinérgica. Es una forma de urticaria inducida por calor o aumento de temperatura corporal, mediada por acetilcolina. Las lesiones pequeñas, distribuidas en tórax y cuello, que surgen por sudoración, son típicas de esta forma clínica. El eritema multiforme tiene evolución más lenta y suele estar relacionado con infecciones o fármacos. La miliaria cristalina produce vesículas, no habones, y el liquen plano es crónico y no evanescente. Por presentación clínica y curso, el diagnóstico es urticaria colinérgica.
+
+### NRL-021 | TEC moderado: tomografía | 2022
+Varón de 25 años, que acude a la emergencia tras impacto en la región frontal de la cabeza contra el parabrisas de su vehículo, niega haber sufrido pérdida de conciencia, manifiesta cefalea leve con dolor cervical. Al examen: Glasgow 12, con desorientación en tiempo, resto del examen normal. ¿Cuál es el examen recomendado?
+   A) Arteriografía cerebral
+  *B) Tomografía cerebral
+   C) Punción lumbar
+   D) Radiografía de cráneo
+   E) Electroencefalograma
+EXP: Varón de 25 años con trauma frontal cerrado tras accidente automovilístico, quien refiere cefalea y dolor cervical, con Glasgow de 12 y desorientación temporal. Estos datos clínicos ya implican un traumatismo craneoencefálico moderado, por lo cual la evaluación debe ser inmediata y precisa. La tomografía cerebral es el estudio de elección en todo paciente con alteración del estado de conciencia, déficit neurológico focal, signos de fractura de base o trauma moderado a severo. El Glasgow menor de 15, la desorientación y el dolor cervical requieren descartar hemorragia, contusión cerebral o fractura. La arteriografía se reserva para sospecha vascular. La punción lumbar está contraindicada si hay posibilidad de hipertensión endocraneana. La radiografía de cráneo tiene muy baja sensibilidad y ya no es recomendada como estudio inicial.
+
+### NEF-032 | Hipermagnesemia por laxantes | 2022
+Mujer de 86 años, con hipotiroidismo en tratamiento, es traída a Emergencia por deterioro del estado general progresivo. Los familiares refieren que hace tres días se le administró laxantes salinos por estreñimiento hasta conseguir deposiciones líquidas. Al examen: PA 100/55 mmHg, FC 57 x', T 35 °C, rubor facial, reflejos hipoactivos. EKG: prolongación del intervalo PR, ensanchamiento del QRS. ¿Cuál es el diagnóstico probable?
+   A) Hipertiroidismo medicamentoso
+   B) Accidente cerebrovascular
+   C) Encefalopatía hipóxica
+  *D) Hipermagnesemia
+   E) Hiperpotasemia
+EXP: Mujer de 86 años con hipotiroidismo tratado, que presenta deterioro progresivo tras uso de laxantes salinos, probablemente con contenido de magnesio. Llega con signos de bradicardia, hipotermia, hipotensión y reflejos hipoactivos, además de alteraciones en el EKG (PR prolongado, QRS ensanchado), hallazgo s compatibles con hipermagnesemia. En adultos mayores, los riñones tienen menor capacidad de excreción de magnesio, especialmente si hay deterioro renal funcional o uso de diuréticos o laxantes. La intoxicación con magnesio genera depresión del sistema nervioso central, bradicardia y trastornos de conducción eléctrica. El cuadro es incompatible con hipertiroidismo, ACV o encefalopatía hipóxica, que no presentan este patrón electrocardiográfico ni mejoran con supresión de magnesio.
+
+### GIN-076 | Apendicitis en el embarazo: ecografía | 2022
+Gestante de 24 semanas, hace 12 horas con dolor en FID, náuseas y vómitos. Al examen: T 38.5 °C, FC 120 x', FR 24 x'. Abdomen: útero ocupado, dolor a la palpación de FID, rebote (+). Laboratorio: leucocitos 14 000/mm³, 10% abastonados, examen de orina: normal. ¿Cuál es la prueba que facilite el diagnóstico?
+   A) TEM sin contraste
+   B) TAC con contraste
+   C) RMN abdomen con contraste
+  *D) Ecografía abdominal
+   E) Radiografía simple de abdomen
+EXP: Gestante de 24 semanas con cuadro clínico de abdomen agudo localizado en fosa iliaca derecha, fiebre y leucocitosis con desviación a la izquierda. El examen de orina es normal, descartando infección urinaria. La sospecha diagnóstica más probable es apendicitis aguda, una de las principales causas de abdomen quirúrgico en embarazadas. La mejor herramienta diagnóstica inicial en gestantes es la ecografía abdominal, por su seguridad, disponibilidad y ausencia de radiación. Aunque la RMN es útil y segura en embarazo, suele reservarse para casos dudosos. La TAC con contraste tiene mayor sensibilidad, pero se evita por los efectos teratogénicos. La TEM también utiliza radiación. Por ello, la ecografía es la prueba de elección inicial.
+
+### SP-053 | Derecho a la calidad de la atención | 2022
+Se intenta desprestigiar a un examen único nacional con falsos comentarios en las redes; la finalidad es eliminarlo por intereses particulares, ya que permite valorar el nivel de formación que imparte una facultad y del profesional que tendrá a cargo el manejo de las vidas humanas. De lograrse el objetivo y anularse la exigencia de rendir este examen, ¿qué derecho de la población se vulnera?
+   A) Acceso a la información
+   B) Accesibilidad
+   C) Libre elección
+  *D) Calidad de la atención
+   E) Confidencialidad
+EXP: El caso plantea un intento de eliminación del Examen Nacional de Medicina (ENAM), el cual sirve como herramienta objetiva para valorar el nivel formativo de los egresados de medicina. Este examen estandarizado garantiza que los futuros médicos cuenten con conocimientos mínimos para ejercer con responsabilidad. La eliminación del ENAM atenta contra el control de calidad del recurso humano en salud, afectando directamente la calidad de la atención médica que recibirá la población. La calidad es un principio fundamental del derecho a la salud y debe ser protegida por el Estado. No se trata de limitar el acceso, la libre elección o la información, sino de asegurar que los profesionales estén adecuadamente capacitados.
+
+### CB-025 | Hipercolesterolemia familiar: receptor de LDL | 2022
+Mujer de 25 años quien tiene un colesterol de 390 mg/dl y presencia de xantomas tendinosos en el talón de Aquiles. Se hace estudio familiar que revela que su hermana tiene colesterol de 400 mg/dl y su padre 350 mg/dl. Esta alteración se debe principal mente a una mutación en el gen:
+   A) Síntesis de HDL
+   B) Síntesis de la VLDL
+  *C) Receptor de LDL
+   D) Esterificación del colesterol
+   E) Lipoproteína lipasa
+EXP: Paciente joven con colesterol total marcadamente elevado (>300 mg/dl), presencia de xantomas tendinosos y antecedentes familiares similares, lo que indica una hipercolesterolemia familiar. Esta dislipidemia monogénica autosómica dominante es causada en la mayoría de los casos por una mutación en el gen del receptor de LDL, lo que impide su adecuada captación hepática y provoca acumulación plasmática. El colesterol LDL elevado aumenta el riesgo cardiovascular de forma acelerada. El diagnóstico se sustenta en hallazgos clínicos, bioquímicos y genéticos. No está relacionado con HDL (opción A), ni con VLDL (B), ni con procesos de esterificación del colesterol (D).
+
+### PED-091 | Estenosis pilórica: alcalosis hipoclorémica | 2022
+Lactante de 2 semanas de vida, la madre refiere que hace 4 días, luego de haber lactado, presenta vómitos "en proyectil" cada vez más frecuentes de leche ingerida. Al examen: pulsos débiles, mal estado de hidratación, signo del pliegue (+++), abdomen distendido, no hay dolor a la palpación, RHA presentes. ¿Qué tipo de desequilibrio metabólico presenta?
+   A) Acidosis metabólica hiponatrémica
+   B) Acidosis metabólica hipernatrémica
+   C) Alcalosis metabólica hiperclorémica
+  *D) Alcalosis metabólica hipoclorémica
+   E) Acidosis respiratoria
+EXP: Lactante de dos semanas con vómitos en proyectil, tras la lactancia, progresivos, sin fiebre ni signos de infección, lo que es altamente sugestivo de estenosis hipertrófica del píloro. Este cuadro causa una obstrucción de salida gástrica, con pérdida constante de contenido gástrico rico en HI y ClI, generando una alcalosis metabólica hipoclorémica. Además, la pérdida de volumen extracelular lleva a deshidratación, como se observa en el examen clínico (pulsos débiles, signo del pliegue +++). En fases avanzadas puede haber hipopotasemia. Las acidosis y la hipercloremia no corresponden al mecanismo fisiopatológico descrito. El cuadro clínico y el desequilibrio son clásicos en este trastorno quirúrgico neonatal.
+
+### CIR-051 | Obstrucción intestinal por bridas | 2022
+Varón de 30 años, desde hace 2 días dolor abdominal difuso, no elimina flatos. Refiere como antecedente que hace 2 años tuvo una laparotomía exploradora. Al examen: abdomen distendido, RHA aumentados tipo metálico. ¿Cuál es el diagnóstico más probable?
+  *A) Obstrucción intestinal
+   B) Apendicitis aguda
+   C) Vólvulo de sigmoides
+   D) Diverticulitis aguda
+   E) Íleo biliar
+EXP: Varón de 30 años con cuadro clínico de oclusión intestinal caracterizado por dolor abdominal difuso, imposibilidad para eliminar flatos y presencia de ruidos hidroaéreos aumentados tipo metálico, que son clásicos en esta patología. El antecedente de cirugía abdominal previa es clave, ya que las bridas o adherencias son la causa más frecuente de obstrucción intestinal en pacientes con antecedentes quirúrgicos. La distensión abdominal y el patrón clínico hacen muy improbable una apendicitis o diverticulitis. El vólvulo, aunque posible, se presenta más en adultos mayores y con síntomas más abruptos. Por tanto, los hallazgos orientan firmemente a una obstrucción mecánica del intestino.
+
+### CAR-033 | Taponamiento cardiaco en lupus | 2022
+Mujer de 45 años, con antecedente de lupus eritematoso sistémico, presenta disnea de dos semanas de evolución que progresa a pequeños esfuerzos. Examen: PA 80/40 mmHg, FC 120 x', FR 20 x', pulso paradójico 15 mmHg, ingurgitación yugular bilateral. EKG: complejos QRS disminuidos. ¿Cuál es el manejo inmediato a seguir?
+   A) Trombolisis
+   B) Heparinización
+  *C) Pericardiocentesis
+   D) Angioplastía
+   E) Furosemida endovenosa
+EXP: Paciente con diagnóstico de lupus eritematoso sistémico presenta disnea progresiva, hipotensión, taquicardia e ingurgitación yugular, datos que apuntan a un compromiso hemodinámico. La presencia de pulso paradójico (15 mmHg) y complejos QRS disminuidos en el electrocardiograma son hallazgos clave que orientan hacia un taponamiento cardíaco, complicación pericárdica común en pacientes con LES. El cuadro descrito corresponde a una triada de Beck incompleta, compatible con derrame pericárdico a tensión. La conducta inmediata en estos casos es la pericardiocentesis, procedimiento que permite aliviar la presión intrapericárdica y mejorar la precarga. La trombólisis (alternativa A) sería útil en una embolia pulmonar masiva, pero en este caso no hay evidencia de ta l evento.
+
+### REU-023 | Pitiriasis versicolor | 2022
+Varón de 15 años consulta por múltiples lesiones cutáneas hipopigmentadas, que se distribuyen en la zona media de la espalda y del pecho. Las lesiones aparecieron hace cerca de un mes y no presentan dolor ni prurito. ¿Cuál es el tratamiento de elección?
+   A) Anfotericina B
+   B) Nistatina
+  *C) Sulfuro de selenio
+   D) Voriconazol
+   E) Mupirocina tópica
+EXP: Varón adolescente con lesiones hipopigmentadas de un mes de evolución en tórax y espalda, sin prurito ni dolor, lo cual sugiere una infección superficial fúngica crónica. El cuadro clínico es típico de pitiriasis versicolor, también llamada tiña versicolor, causada por el hongo Malassezia furfur. Esta levadura lipofílica afecta las capas superficiales de la piel, inhibiendo la melanogénesis y causando las características máculas hipopigmentadas. El tratamiento de elección para casos leves o localizados es el uso tópico de sulfuro de selenio al 2.5%, que actúa reduciendo la carga fúngica y normalizando la pigmentación progresivamente. La nistatina es útil en candidiasis, mientras que anfotericina B y voriconazol se reservan para micosis invasivas. El diagnóstico puede confirmarse con lámpara de Wood (fluorescencia amarillo verdosa) o KOH (hifas y esporas en “espaguetis con albóndigas”).
+
+### SP-054 | No maleficencia en la pandemia | 2022
+Durante la pandemia COVID-19, un médico decide indicar medicamentos con efectos adversos frecuentes y sin evidencia científica suficiente sobre su efectividad contra la infección. ¿Qué principio ético se vulnera en este caso?
+   A) Justicia
+   B) Beneficencia
+  *C) No maleficencia
+   D) Autonomía
+   E) Confidencialidad
+EXP: Durante la pandemia por COVID-19, muchos profesionales enfrentaron decisiones clínicas complejas. En este caso, el médico prescribe medicamentos sin respaldo científico suficiente y con efectos adversos frecuentes, lo cual representa una clara vulneración del principio de no maleficencia. Este principio ético impone el deber de evitar causar daño al paciente, especialmente cuando los riesgos superan los potenciales beneficios. Administrar fármacos con alta probabilidad de efectos secundarios sin pruebas sólidas de eficacia constituye una acción riesgosa que puede empeorar la salud del paciente. La beneficencia, por su parte, implica hacer el bien al paciente, pero debe estar siempre equilibrada con la no maleficencia. La justicia refiere al trato equitativo en salud y la autonomía al respeto por las decisiones del paciente, pero ninguna se ve tan directamente comprometida en este caso co
+
+### CAR-034 | Contusión miocárdica: ECG seriado | 2022
+Mujer de 52 años que sufre accidente de tránsito golpeándose la región precordial; acude a emergencia por dolor intenso y sudoración fría. Al examen: PA 90/60 mmHg, FC 100 x', SatO₂ 97%, ruidos cardiacos arrítmicos, sin soplos. ¿Cuál es el examen recomendado para el diagn óstico?
+   A) Dosaje de enzimas cardiacas
+   B) TAC de tórax
+  *C) EKG seriado
+   D) Ecocardiografía
+   E) Gammagrafía de perfusión miocárdica
+EXP: Una mujer de 52 años presenta traumatismo torácico por accidente de tránsito con dolor precordial, hipotensión y arritmia cardiaca. Ante estos signos clínicos, es fundamental descartar una contusión miocárdica o lesión estructural del corazón. La herramienta diagnóstica más sensible y específica para evaluar la función cardíaca en este contexto es la ecocardiografía, ya que permite visualizar contractilidad, derrames, hematomas o ruptura de estructuras. Si bien el EKG seriado puede detectar arritmias o alteraciones isquémicas, no proporciona información estructural directa. Las enzimas cardíacas pueden elevarse por daño miocárdico, pero no diferencian entre contusión, infarto u otras causas. La TAC de tórax es útil para traumatismo torácico en general, pero no específica para valorar función cardiaca. En este contexto clínico, lo indicado es un ecocardiograma.
+
+### TRA-014 | Lesión del manguito rotador | 2022
+Varón de 25 años sufre traumatismo del hombro izquierdo, con dolor a la abducción. La resonancia magnética revela compromiso del manguito de los rotadores. ¿Cuál es el músculo más frecuentemente afectado?
+   A) Redondo mayor
+   B) Coracobraquial
+   C) Deltoides
+  *D) Supraespinoso
+   E) Bíceps braquial
+EXP: Varón joven con traumatismo de hombro e imposibilidad para la abducción sugiere afectación del complejo musculotendinoso del manguito rotador. Este está formado por los músculos supraespinoso, infraespinoso, subescapular y redondo menor. De estos, el supraespinoso es el músculo más frecuentemente comprometido en lesiones traumáticas o degenerativas del manguito, ya que pasa por un espacio estrecho entre el acromion y la cabeza humeral, siendo susceptible a compresión o desgarros. Su función principal es iniciar la abducción del brazo, por lo que el síntoma de dolor o limitación en dicho movimiento apoya el diagnóstico. El redondo mayor, coracobraquial y deltoides no forman parte del manguito rotador. La RMN confirma la lesión del tendón y orienta el manejo quirúrgico o conservador.
+
+### GIN-077 | Presentación de cara mentoposterior | 2022
+Primigesta de 41 semanas, acude por presentar pérdida de líquido desde hace 12 horas. Al examen: altura uterina 39 cm, al tacto vaginal: altura de presentación 4, dilatación 1 cm y borramiento 60%. La presentación fetal es de cara mento posterior. La frecuencia cardíaca fetal 140 x', no hay contracciones. ¿Cuál es la conducta a seguir?
+  *A) Cesárea segmentaria
+   B) Analgesia epidural
+   C) Inducción con oxitocina
+   D) Manejo expectante
+   E) Amnioinfusión
+EXP: Gestante de 41 semanas con ruptura prematura de membranas de más de 12 horas, sin dinámica uterina y con presentación fetal anómala tipo cara en mentoposterior. Esta posición es una de las más desfavorables, ya que la rotación espontánea hacia una posición anterior es poco probable, dificultando el descenso y progresión del trabajo de parto. A ello se suma la dilatación escasa, borramiento parcial y altura de presentación alta (plano 4), lo que evidencia un cuello uterino poco favorable para inducción. En este escenario, la vía vaginal representa un alto riesgo de distocia y trauma tanto para la madre como para el feto. Por tanto, la conducta adecuada es una cesárea segmentaria que garantice la seguridad materno-fetal y evite complicaciones.
+
+### GIN-078 | Datación del embarazo por ecografía | 2022
+Mujer de 25 años, en su primer control prenatal manifiesta tener 11 semanas de amenorrea. Al realizar la ecografía transvaginal se encuentra un feto de 11 semanas por longitud cráneo-nalga. ¿Cómo se determinaría la real edad gestacional?
+  *A) Usando la ecografía transvaginal
+   B) Solicitando una Beta-HCG cuantitativa
+   C) Estableciendo la altura uterina
+   D) Considerando la fecha de la última regla
+   E) Midiendo el diámetro biparietal a las 20 semanas
+EXP: Mujer embarazada con amenorrea de 11 semanas según FUR y que acude a su primer control prenatal, se realiza ecografía transvaginal que muestra longitud cráneo-nalga (LCN) correspondiente a 11 semanas. En el primer trimestre, la estimación más precisa de la edad gestacional se obtiene mediante ecografía, usando la LCN, con un margen de error de ±5 días. La fecha de última regla (FUR) puede ser útil, pero es menos confiable si hay ciclos irregulares o si se desconoce con certeza. La altura uterina no es útil en etapas tan tempranas y la beta-HCG cuantitativa tiene gran variabilidad individual. Por tanto, en esta etapa del embarazo, se debe utilizar la ecografía como método estándar para establecer la edad gestacional real y planificar los controles obstétricos.

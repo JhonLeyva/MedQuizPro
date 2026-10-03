@@ -1,0 +1,224 @@
+### CB-028 | Intoxicación por metanol: hemodiálisis | 2023
+Mujer 20 años acude a reunión social y bebe licor de dudosa procedencia al cabo de 12 horas presenta trastorno de sensorio y es llevada a emergencia. En el trayecto presenta convulsiones tónico clónicas. Examen: PA: 80/50 mmHg, FC: 130 X’, FR: 30 X’, SatO₂: 92%; Glasgow 7. Laboratorio: AGA: pH: 7.00, HCO3: 5mEq/L, PCO2: 25 mmHg; PO2: 60 mmHg; lactato sérico: 8 mmol/L, úrea 25 mg/dl, creatinina: 1.5 mg/dl, mantiene flujo urinario. ¿Cuáles serían las medidas de manejo inmediato?
+   A) Uso de bicarbonato en infusión, lavado gástrico más diuréticos
+   B) Fluidoterapia enérgica, bicarbonato IV más diuréticos
+  *C) Estabilización con medidas de soporte más hemodiálisis de urgencia
+   D) Ventilación mecánica, fluidoterapia enérgica y diuréticos
+   E) Diuréticos y observación sin diálisis
+EXP: El cuadro clínico sugiere intoxicación por metanol, asociado al consumo de licor de dudosa procedencia. La paciente presenta acidosis metabólica severa (pH: 7.00, HCO₃⁻: 5 mEq/L), trastorno de sensorio, convulsiones y signos de hipoperfusión. El metanol se metaboliza a ácido fórmico, que es altamente tóxico para el sistema nervioso central y la retina. El manejo inmediato incluye medidas de soporte vital y, fundamentalmente, hemodiálisis de urgencia, que permite eliminar el metanol y corregir rápidamente la acidosis severa. El bicarbonato puede ser útil como medida complementaria, pero no sustituye a la diálisis.
+
+### SP-058 | Participación ciudadana en salud | 2023
+El director de una DIRESA, está implementando el Modelo de Atención Integral en Sal basado en familia y comunidad; viene promoviendo y desarrollando instancias o espacios de deliberación, concertación y evaluación del cumplimiento de las responsabilidades y compromisos adquiridos por parte de todos los actores involucrados en su ámbito gestión. ¿Qué estrategia de salud pública viene aplicando?
+   A) Promoción de la salud
+   B) Democratización de la salud
+  *C) Participación ciudadana
+   D) Concertación política en salud
+   E) Asistencialismo
+EXP: El caso describe acciones donde se fomenta la intervención activa de la comunidad y actores sociales en la toma de decisiones y evaluación de resultados en salud, lo que corresponde claramente al principio de participación ciudadana. Esta estrategia busca empoderar a la población en la gestión de su propia salud y en la construcción de políticas públicas más efectivas y sostenibles.
+
+### INF-042 | Esporotricosis linfocutánea | 2023
+Jardinero de 28 años que hace cuatro semanas sufre una lesión en mano con la espina de una rosa, presentando una pápula indolora que se ulcera notando luego nódulos inflamatorios que siguen trayecto de drenaje linfático en miembro superior. ¿Cuál es el diagnostico más probable?
+   A) Micosis fungoide
+   B) Leishmaniasis
+  *C) Esporotricosis
+   D) Blastomicosis
+   E) Tuberculosis cutánea
+EXP: El caso describe claramente una esporotricosis, conocida como "la enfermedad de los jardineros", causada por Sporothrix schenckii. Se adquiere por inoculación traumática (como pinchazo con espinas de rosa), generando una lesión inicial que se ulcera, seguida de nódulos inflamatorios en cadena a lo largo de los vasos linfáticos (linfangitis nodular). Es una infección micótica subcutá nea típica, y su diagnóstico es clínico y microbiológico.
+
+### GIN-087 | Anticoncepción en puérpera con VIH: DIU | 2023
+Puérpera mediata con VIH en tratamiento antirretroviral, no desea salir gestando y para ello Ud. Le recomendaría
+   A) Parches anticonceptivos
+  *B) DIU medicado
+   C) Anticonceptivos orales medicados
+   D) Ampollas anticonceptivas mensuales
+   E) Anillo vaginal combinado
+EXP: El DIU medicado es la opción más adecuada para una puérpera con VIH en tratamiento antirretroviral, ya que ofrece una alta eficacia anticonceptiva sin interferir con los medicamentos antirretrovirales. A diferencia de los anticonceptivos orales o inyectables, el DIU no presenta interacciones con los fármacos antirretrovirales, lo que lo convierte en una opción segura y efectiva en este contexto.
+
+### PED-098 | Desnutrición grave tipo marasmo | 2023
+Lactante de 1 año y 3 mees, referida de una comunidad nativa. Examen: peso 7Kg, talla 64 cm, irritable, pálida, poco colaboradora al examen. Retraso global del desarrollo: Piel flácida y arrugada; cabello mate, escaso, quebradizo; cara simiesca, queilitis, glositis; abdomen distendido con hepatomegalia, emaciación muscular, especialmente en glúteos y muslos. ¿Cuál es el diagnóstico más probable?
+   A) Deshidratación severa
+   B) Kwashiorkor
+   C) Desnutrición aguda grave
+  *D) Marasmo
+   E) Desnutrición crónica leve
+EXP: El caso describe un lactante con características clásicas de marasmo, que es una forma de desnutrición energética grave. Los signos incluyen emaciación muscular, piel flácida y arrugada, cabello quebradizo, y retraso en el desarrollo. En el marasmo, la pérdida de peso y masa muscular es más prominente que el edema, que se observa en otras formas de desnutrición como el Kwashiorkor.
+
+### PED-099 | Diarrea aguda sin deshidratación: hidratación oral | 2023
+Niño de 6 años hace dos días presenta deposiciones líquidas abundantes con moco sin sangre, cinco cámaras al día, fiebre 38°C, dolor abdominal difuso, niega vómitos. ¿Cuál es el tratamiento inicial?
+   A) Hidratación endovenosa
+  *B) Hidratación oral
+   C) Adsorbentes y antisecretores
+   D) Probióticos
+   E) Antibiótico oral
+EXP: En este caso, el niño presenta diarrea aguda con fiebre, dolor abdominal y deposiciones líquidas con moco, sin sangre. La causa probable es una gastroenteritis viral o bacteriana no grave. El tratamiento inicial recomendado es la hidratación oral, que es la primera línea de manejo en estos casos, especialmente si no hay signos de deshidratación severa. El uso de hidratación oral permite reponer líquidos y electrolitos perdidos, lo que es fundamental para evitar la deshidratación en el niño.
+
+### HEM-017 | TTPa prolongado que no corrige: inhibidores | 2023
+Mujer de 58 años acude a emergencia con diátesis hemorrágica. No tiene antecedente de hemorragia; se encuentra TTPA prolongado, se realiza la prueba de mezcla y no corrige. Se sospecha de…
+  *A) Inhibidores de los factores
+   B) Hiperhomocisteinemia
+   C) Insuficiencia de antitrombina III
+   D) Mutación de protrombina
+   E) Déficit de vitamina K
+EXP: El caso presenta una diátesis hemorrágica con un TTPA prolongado que no corrige con la prueba de mezcla, lo cual sugiere la presencia de inhibidores de los factores de coagulación, una condición en la que el cuerpo produce anticuerpos que inactivan los factores de coagulación en lugar de producir la coagulación normal. Esto puede causar una alteración significativa en la hemostasia, como se observa en esta paciente. La prueba de mezcla, que normalmente corrige la prolongación del TTPA si hay una deficiencia de factores, no lo hace en presencia de inhibidores.
+
+### HEM-018 | Anticonceptivos combinados y trombosis | 2023
+Mujer de 34 años acude a consultar por edema y dolor en tobillo izquierdo. Recibe terapia con anticonceptivos orales combinados, fuma ocasionalmente. ¿Cuál es el principal mecanismo responsable de este efecto adverso?
+   A) Disminución de la agregación plaquetaria
+  *B) Incremento de la síntesis de factores de coagulación
+   C) Incremento de síntesis de antitrombina III
+   D) Incremento de la síntesis de proteína C
+   E) Disminución de la síntesis de fibrinógeno
+EXP: Los anticonceptivos orales combinados, especialmente los que contienen estrógenos, incrementan la síntesis hepática de factores de coagulación (como el fibrinógeno y los factores VII, VIII, IX y X), generando un estado de hipercoagulabilidad. Esto, junto con factores de riesgo adicionales como el tabaquismo, favorece la formación de trombosis venosa profunda, manifestada aquí como edema y dolor en el tobillo.
+
+### NEF-036 | Prostatitis aguda | 2023
+Varón de 24 años, hace tres días presenta fiebre, disuria, polaquiuria asociada a retardo miccional y dolor en zona perineal. Examen: PPL negativa; dolor a la palpación en la exploración prostática. ¿Cuál es el diagnostico más probable?
+   A) Absceso perianal
+   B) Pielonefritis aguda
+  *C) Prostatitis aguda
+   D) Uretritis
+   E) Epididimitis
+EXP: El paciente presenta síntomas urinarios bajos (disuria, polaquiuria, retardo miccional) y fiebre, junto con dolor prostático a la exploración. Esto es característico de una prostatitis aguda, una infección de la glándula prostática, generalmente de origen bacteriano.
+
+### INF-043 | Dengue grave por reinfección: mecanismo | 2023
+Mujer de 30 años llevada a emergencia por pérdida de la conciencia hace 30 minutos. Examen: PA: 80/50 mmHg, FC: 90 X’, FR: 18 X’, T°: 39°C; sangrado nasal y petequias. Vive cerca de aguas estancadas y hace un mes presentó fiebre, dolor retroorbitario y mialgias que se aliviaron a los pocos días. ¿Cuál es el mecanismo responsable de la emergencia si se sospecha de reinfección?
+  *A) Aumento de mediadores vasoactivos
+   B) Disminución de la carga viral
+   C) Reducción de granulocitos
+   D) Disminución de mediadores endoteliales
+   E) Destrucción directa del hepatocito por el virus
+EXP: El cuadro clínico sugiere dengue grave por reinfección. En la segunda infección por un serotipo diferente, se activa la respuesta inmunitaria anómala que provoca un aumento masivo de mediadores vasoactivos, favoreciendo la fuga capilar, sangrado y shock hipovolémico. Esto explica la hipotensión, petequias y sangrado nasal en la paciente. La pérdida de conciencia también puede ser secundaria a hipoperfusión cerebral.
+
+### NRL-023 | Hematoma subdural crónico | 2023
+Varón de 80 años, sufre TEC leve hace tres semanas, con cefalea persistente y signos de demencia progresiva con abandono de las reglas de conducta. ¿Cuál es el hematoma más probable?
+   A) Subdural agudo
+  *B) Subdural crónico
+   C) Intracerebral tardío
+   D) Epidural
+   E) Hidrocefalia normotensiva
+EXP: El caso describe un hematoma subdural crónico, típico en adultos mayores tras un trauma leve. Se presenta semanas después del evento inicial con síntomas como cefalea persistente, cambios en el estado mental (demencia progresiva, alteración de la conducta) debido a la acumulación lenta de sangre que ejerce efecto de masa sobre el cerebro. El antecedente de TEC leve y la evolución subaguda son claves para el diagnóstico.
+
+### GIN-088 | Hemorragia posparto por lesión del canal del parto | 2023
+Puérpera inmediata de parto vaginal instrumentado, presenta sangrado vaginal abundante, rojo rutilante, RN de 4100g de peso, alumbramiento normal. Examen: PA: 80/50 mmHg, FC: 104 X’, palidez marcada, sudorosa y útero contraído por debajo de la cicatriz umbilical. ¿Cuál es el diagnóstico más probable?
+   A) Atonía uterina
+  *B) Lesión del canal del parto
+   C) Acretismo placentario
+   D) Trastorno de coagulación
+   E) Inversión uterina
+EXP: El útero se encuentra bien contraído, lo que descarta la atonía como causa del sangrado. El parto fue vaginal e instrumentado, además el recién nacido tuvo un peso elevado (macrosomía), lo que predispone a lesiones del canal del parto (laceraciones del cuello uterino o vagina), una causa frecuente de hemorragia posparto con útero contraído. El diagnóstico se basa en la presentación clínica y requiere inspección ginecológica inmediata.
+
+### NRL-024 | Hemorragia subaracnoidea con compromiso del III par | 2023
+Mujer de 35 años, con antecedente de migraña, presenta de manera súbita cefalea intensa (9/10), náusea, vómitos y convulsiones tónico clónicas con relajación de esfínteres. Es llevada a urgencias en estado postictal. Examen: PA: 170/90 mmHg, FC: 70X’, FR: 14 X’, SatO₂: 95%, afebril; Glasgow 10, anisocoria derecha 5 mm, izquierda 2 mm, ptosis palpebral derecha, no localiza con miembro superior izquierdo y rigidez de nuca. ¿Cuál es el diagnóstico más probable?
+   A) Meningitis
+   B) Hematoma subdural
+  *C) Hemorragia subaracnoidea
+   D) Hemorragia cerebelosa
+   E) Encefalitis herpética
+EXP: La paciente presenta cefalea súbita intensa (en trueno), náuseas, vómitos, convulsiones, rigidez de nuca y déficit neurológico focal, signos clásicos de hemorragia subaracnoidea, muchas veces causada por ruptura de aneurisma cerebral. La anisocoria y ptosis indican compromiso del III par craneal por efecto de masa o sangrado. El antecedente de migraña puede confundir, pero la intensidad súbita, convulsiones y signos meníngeos orientan claramente al diagnóstico. La TAC sin contraste es el estudio inicial para confirmar el sangrado.
+
+### END-023 | Feocromocitoma | 2023
+Varón de 28 años, en forma brusca presenta episodios de cefalea, sudoración, palpitaciones, temblor, palidez y pérdida de peso desde hace 6 meses. Examen: PA: 190/95 mmHg, FC: 120 X’. Aparato respiratorio y cardiovascular, sin alteraciones. Recibe terapia antihipertensiva con tres fármacos sin respuesta adecuada. Laboratorio: incremento de metanefrinas en orina. ¿Cuál es el diagnostico más probable?
+   A) Hipertiroidismo
+   B) Hipercortisolismo
+  *C) Feocromocitoma
+   D) Hiperaldosteronismo
+   E) Ataque de pánico
+EXP: El cuadro clínico de crisis adrenérgicas episódicas (cefalea, sudoración, palpitaciones, temblor, palidez) asociadas a hipertensión arterial resistente a tratamiento en un paciente joven sugiere fuertemente feocromocitoma, un tumor productor de catecolaminas. La confirmación diagnóstica se realiza con niveles elevados de metanefrinas en orina o plasma. Es fundamental sospecharlo ante hipertensión secundaria con síntomas autonómicos marcados. La localización s e realiza posteriormente mediante estudios de imagen (TAC, RMN o centellografía con MIBG).
+
+### CIR-054 | Trauma abdominal cerrado: estabilidad hemodinámica | 2023
+Varón de 30 años que sufre accidente de tránsito hace una hora y que al examen no presenta manifestaciones claras de peritonitis ni otras indicaciones para laparotomía. ¿Cuál es el parámetro que difiere la conducta quirúrgica inmediata?
+   A) Cuantificación de hemoglobina
+   B) TEM de abdomen completo normal
+   C) Nivel de sodio sérico
+  *D) Estabilidad hemodinámica
+   E) Edad del paciente
+EXP: En el contexto de trauma abdominal cerrado sin signos evidentes de peritonitis o indicación quirúrgica inmediata, el parámetro clave para definir la conducta es la estabilidad hemodinámica. Un paciente hemodinámicamente estable permite una conducta expectante o de evaluación por imágenes (como TEM abdominal), mientras que la inestabilidad sugiere hemorragia activa y obliga a una intervención quirúrgica urgente. La estabilidad hemodinámica guía el enfoque inicial y la toma de decisiones en trauma abdominal.
+
+### END-024 | Sospecha de hipertiroidismo: T4 libre y TSH | 2023
+Mujer de 45 años acude a consulta por sensación de calor, nerviosismo, polimenorrea y caída de cabello, desde hace un mes. Examen FC: 110 X’, PA: 130/80 mmHg, FR: 21 X’, T°:37.8°C IMC: 28. Piel caliente. ¿Cuáles son los exámenes de laboratorio indicados en este caso?
+  *A) T4L y TSH
+   B) GnRH y TSH
+   C) LH y FSH
+   D) T4L y T3
+   E) Anticuerpos antitiroideos solamente
+EXP: El cuadro clínico sugiere un hipertiroidismo (sensación de calor, nerviosismo, polimenorrea, caída de cabello, piel caliente y taquicardia). El enfoque diagnóstico inicial debe incluir T4 libre (T4L) y TSH, ya que permiten confirmar el estado tiroideo y diferenciar entre un hipertiroidismo primario (TSH baja, T4L alta) o secundario. Son las pruebas más sensibles y específicas para evaluar la función tiroidea en estos casos.
+
+### HEM-019 | Leucemia linfoblástica aguda en el niño | 2023
+Niño de 4 años presenta hace un mes cansancio, malestar general, irritabilidad, febrícula intermitente y hace 3 días se agrega dolor moderado en MMII que lo hace despertar por la noche. Examen: palidez, petequias, hepatoesplenomegalia. Hemograma: Hb: 9.5 g/dl, leucocitos: 15000/mm3, plaquetas 80000/mm3. ¿Cuál es el diagnóstico más probable?
+   A) Leucemia mieloide aguda
+  *B) Leucemia linfoblástica aguda
+   C) Rabdomiosarcoma
+   D) Anemia aplásica
+   E) Mononucleosis infecciosa
+EXP: El caso describe a un niño con síntomas constitucionales (cansancio, irritabilidad, febrícula), signos de infiltración medular (palidez, petequias), visceromegalias (hepatoesplenomegalia) y dolor óseo nocturno, lo cual es altamente sugestivo de Leucemia Linfoblástica Aguda (LLA), la neoplasia maligna más frecuente en la edad pediátrica. El hemograma muestra anemia, trombocitopenia y leucocitosis, lo cual refuerza la sospecha. El dolor óseo que interfiere con el sueño es un dato clave en la LLA debido a la expansión medular por células blásticas. A diferencia de la anemia aplásica (que no presenta visceromegalias ni dolor óseo), o un rabdomiosarcoma (que no suele generar pancitopenia ni infiltración medular), la LLA explica integralmente el cuadro clínico y los hallazgos de laboratorio.
+
+### NRL-025 | Glioblastoma | 2023
+Mujer de 78 años con cefalea y confusión progresiva desde hace 8 meses; refiere que no puede vestirse sola. No presenta ningún antecedente importante. Examen: PA:140/80 mmHg, FC: 60 X’, FR: 20 X’, T°37°C; no déficit motor; hemianopsia izquierda; resto de examen normal. TEM cerebral: masa con contraste anular, necrosis central y edema periférico en lóbulo parietal derecho. ¿Cuál es el diagnóstico más probable?
+  *A) Glioblastoma
+   B) Linfoma
+   C) Tuberculoma
+   D) Meningioma
+   E) Absceso cerebral
+EXP: El diagnóstico más probable en este caso es glioblastoma (opción A). El glioblastoma es un tumor cerebral primario de alto grado que a menudo presenta un patrón característico en las imágenes por resonancia magnética (IRM), como la masa con realce anular, necrosis central y edema periférico, como se describe en este paciente. Además, los síntomas neurológicos progresivos como la confusión y cefalea son comunes en este tipo de tumor. Este tipo de tumor se presenta con un comportamiento muy agresivo, por lo que requiere tratamiento inmediato y especializado.
+
+### REU-026 | Dermatomiositis | 2023
+Mujer de 53 años acude porque desde hace dos meses presenta debilidad muscular proximal en brazos y piernas asociadas a exantema de coloración violácea en párpados y exantema en zona de exposición de cuello y pecho. ¿Cuál es el diagnóstico más probable?
+  *A) Dermatomiositis
+   B) Esclerodermia
+   C) Lupus discoide
+   D) Vasculitis IgA
+   E) Hipotiroidismo
+EXP: La paciente presenta debilidad muscular proximal junto con manifestaciones cutáneas típicas como el eritema heliotropo (coloración violácea en los párpados) y el signo del escote (exantema en zonas fotoexpuestas del cuello y pecho), hallazgos clínicos característicos de la dermatomiositis (respuesta A). Esta es una miopatía inflamatoria idiopática que afecta principalmente músculos proximales y piel, y su diagnóstico es fundamentalmente clínico, aunque puede complementarse con estudios como enzimas musculares elevadas, EMG, resonancia y biopsia muscular. Es importante también descartar neoplasias asociadas, sobre todo en mujeres mayores de 50 años.
+
+### SP-059 | COVID-19: comportamiento endémico | 2023
+El director de una DIRIS reporta que, hasta el mes de abril del 2023, más del 955 de la población de su jurisdicción ha recibido hasta cuatro dosis de vacuna anticovid; sin embargo, sus establecimientos de salud siguen notificando casos de COVID-19 leves a moderados, los mismos que viene siendo controlados en sus servicios de atención y tienen calculada la incidencia esperada. ¿Cuál es la situación epidemiológica actual del COVID-19 en esta DIRIS?
+  *A) Endémica
+   B) Epidémica
+   C) Brote esporádico
+   D) Pandémica
+   E) Erradicada
+EXP: La situación descrita corresponde a un comportamiento endémico del COVID-19 (respuesta A). Esto se debe a que, a pesar de la alta cobertura de vacunación, continúan notificándose casos leves a moderados con una incidencia que se mantiene dentro de lo esperado, sin exceder los umbrales habituales. En epidemiología, una enfermedad se considera endémica cuando se presenta de forma constante o con una frecuencia predecible en una determinada población o zona geográfica. Este patrón indica un control sostenido del virus, sin aumentos significativos que sugieran una epidemia o pandemia activa.
+
+### GIN-089 | Hiperémesis gravídica: encefalopatía de Wernicke | 2023
+Gestante de 12 semanas que presenta náuseas y vómitos desde hace cinco días. Examen: confusión ataxia y movimientos oculares involuntarios. Además de controlar las náuseas y vómitos, se debe prescribir:
+  *A) Tiamina
+   B) Riboflavina
+   C) Cianozepam
+   D) Zinc
+   E) Vitamina B12
+EXP: La paciente presenta síntomas neurológicos como confusión, ataxia y movimientos oculares anormales en el contexto de vómitos persistentes por hiperémesis gravídica, lo que sugiere encefalopatía de Wernicke, causada por deficiencia de tiamina (respuesta A). Esta es una urgencia médica que requiere administración inmediata de tiamina intravenosa para evitar secuelas neurológicas permanentes o incluso la muerte. Por ello, en pacientes con vómitos prolongados, siempre se debe considerar y tratar la deficiencia de esta vitamina antes de administrar soluciones glucosadas.
+
+### END-025 | Hipotiroidismo primario: levotiroxina | 2023
+Mujer de 58 años desde hace un año presenta fatiga, ganancia de peso y estreñimiento. Examen. Facies edematosa, piel áspera y seca; ROT aquíleo lento. Laboratorio: TSH sérica 52 mU/l, T4L: 0.3 ng/dl. ¿Con cuál de las siguientes opciones debe iniciar el tratamiento?
+   A) Triyodotironina
+   B) Tiroglobulina
+  *C) Tiroxina
+   D) T4 y T3
+   E) Yodo oral
+EXP: La paciente presenta síntomas y signos clínicos compatibles con hipotiroidismo primario, confirmado por TSH elevada y T4 libre disminuida. El tratamiento de elección es la levotiroxina (T4), que se administra por vía oral en una sola toma diaria y permite una conversión fisiológica a T3 en los tejidos periféricos. No se recomienda iniciar con T3 ni combinaciones de T4/T3 en el tratamiento inicial.
+
+### END-026 | Insuficiencia suprarrenal primaria | 2023
+Mujer de 24 años, consulta por haber presentado tres síncopes. Antecedente: TBC pulmonar en su niñez. Examen: PA decúbito: 110/70 mmHg: de pie: 80/69 mmHg leve hiperpigmentación difusa en piel y mucosas, resto normal. Laboratorio: 130 mEq/l, K: 6.3 mEq/l, glucosa: 85 mg/dl. ¿Cuál es el diagnóstico más probable?
+   A) Deficiencia pura de aldosterona
+   B) Hipotiroidismo
+   C) Diabetes mellitus con neuropatía
+  *D) Insuficiencia suprarrenal primaria
+   E) Síndrome de Cushing
+EXP: La paciente presenta hipotensión ortostática, hiperpigmentación de piel y mucosas, hiponatremia, hiperkalemia y glucosa normal. Estos hallazgos son característicos de insuficiencia suprarrenal primaria (enfermedad de Addison), donde existe un déficit de cortisol y aldosterona. La hiperpigmentación se debe al aumento de ACTH, que estimula los melanocitos. La pérdida de aldosterona genera la alteración hidroelectrolítica observada. Estos hallazgos explican también los episodios de síncope por hipotensión.
+
+### SP-060 | Medicina ocupacional | 2023
+¿Cuál es la disciplina que comprende la gestión en promoción, prevención y control de la salud de las personas que trabajan?
+   A) Seguridad ocupacional
+   B) Higiene y seguridad en el trabajo
+   C) Higiene industrial ocupacional
+  *D) Medicina ocupacional
+   E) Medicina física y rehabilitación
+EXP: La medicina ocupacional es la disciplina encargada de promover, prevenir y controlar los riesgos que afectan la salud de los trabajadores. Su enfoque integral considera los factores físicos, químicos, biológicos, ergonómicos y psicosociales presentes en el ambiente laboral, con el objetivo de preservar la capacidad funcional y mejorar la calidad de vida del trabajador. Esta especialidad articula acciones clínicas, preventivas y de gestión en salud en el contexto ocupacional.
+
+### CAR-036 | Paro cardiaco extrahospitalario: desfibrilación con DEA | 2023
+Varón de 55 años, mientras se encontraba en centro comercial (cuenta con DEA), presenta dolor torácico y pérdida súbita de conciencia. Antecedentes: diabético, cardiopatía coronaria crónica e hipertenso. se reconoce que se encuentre en PCR y se activa cadena de supervivencia hasta la llegada de servicios de ambulancia. Al recibir RCP, en el lugar de los hechos los reanimadores discuten. ¿Cuál es la medida inmediata?
+  *A) Cardiodesfibrilación con DEA
+   B) Solo masaje cardiaco por un operador
+   C) Masaje cardiaco y respiración boca a boca
+   D) Esperar llegada de los servicios de ambulancia
+   E) Respiración boca a boca sin masaje
+EXP: Ante un paro cardiorrespiratorio (PCR) presenciado en un lugar público con disponibilidad de un DEA (desfibrilador externo automático), la intervención inmediata más importante es realizar una desfibrilación temprana. Esta medida es clave especialmente si la causa es una arritmia desfibrilable como fibrilación ventricular o taquicardia ventricular sin pulso. Activar el DEA y seguir sus instrucciones, mientras se continúa con RCP de alta calidad, forma parte esencial de la cadena de supervivencia y mejora significativamente las probabilidades de recuperación del paciente.

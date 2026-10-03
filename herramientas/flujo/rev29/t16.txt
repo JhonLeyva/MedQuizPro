@@ -1,0 +1,224 @@
+### CB-044 | Estrés agudo: adrenalina y noradrenalina | 2024
+Varón de 60 años luego de discusión familiar presenta taquicardia y presión arterial elevada. Estos signos están mediados principalmente por la liberación de:
+   A) Acetilcolina y Adrenalina
+   B) Noradrenalina y Acetilcolina
+  *C) Noradrenalina y Adrenalina
+   D) Dopamina y Serotonina
+   E) Histamina y bradicinina
+EXP: La taquicardia y la presión arterial elevada que ocurren después de una situación de estrés, como una discusión familiar, están principalmente mediadas por la liberación de adrenalina y noradrenalina. Estas sustancias son liberadas por las glándulas suprarrenales y las terminaciones nerviosas del sistema simpático en respuesta al estrés, lo que aumenta la frecuencia cardíaca y la presión arterial, preparando al cuerpo para una posible respuesta de "lucha o huida". La acetilcolina, en cambio, está más asociada con la activación del sistema nervioso parasimpático, que tiene efectos contrarios, como la disminución de la frecuencia cardíaca.
+
+### NEU-034 | Tuberculosis: perfil hepático antes del tratamiento | 2024
+Varón de 28 años, acude a consulta con diagnóstico de tuberculosis pulmonar y trae resultados de BK en esputo (+++). ¿Qué examen solicita antes de iniciar el tratamiento?
+   A) Repetir BK
+  *B) Perfil hepático
+   C) PPD
+   D) TC Pulmonar
+   E) Prueba de VIH obligatoria antes de cualquier medida
+EXP: Antes de iniciar tratamiento antituberculoso, es fundamental evaluar la función hepática debido a la hepatotoxicidad asociada con medicamentos como isoniazida, rifampicina y pirazinamida. No se requiere repetir BK, ya que el diagnóstico está confirmado. La prueba de tuberculina (PPD) no tiene utilidad en este contexto, pues su indicación es diagnóstica y no afecta el manejo del tratamiento. La TC pulmonar no es necesaria aquí, ya que la baciloscopia positiva es suficiente para diagnosticar tuberculosis pulmonar activa.
+
+### SP-091 | Caso índice | 2024
+En el sistema de vigilancia epidemiológica. ¿Cómo se denomina al primer caso del problema bajo vigilancia que se identifica en el servicio de salud?
+   A) Sospechoso
+  *B) Índice
+   C) Primario
+   D) Probable
+   E) Confirmado
+EXP: El caso índice es el primer caso identificado de una enfermedad bajo vigilancia en un sistema de salud, utilizado para iniciar la investigación epidemiológica y trazar cadenas de transmisión. Un caso sospechoso es uno que cumple ciertos criterios clínicos, pero requiere confirmación diagnóstica. El caso primario es el primero en introducir una enfermedad en una población, y el caso probable cumple criterios clínicos y epidemiológicos sin confirmación por laboratorio. La correcta identificación del caso índice es esencial en la vigilancia epidemiológica.
+
+### OFT-032 | Leucocoria: retinoblastoma | 2024
+Lactante de 18 meses es traído por estrabismo y dolor ocular. Examen: ojo derecho con hiperemia conjuntival y reflejo pupilar blanco. ¿En qué diagnóstico sospecha?
+   A) Queratitis autoinmune
+   B) Uveítis aguda
+   C) Conjuntivitis viral
+  *D) Retinoblastoma
+   E) Catarata congénita
+EXP: La presencia de leucocoria (reflejo pupilar blanco) en un lactante es altamente sugestiva de retinoblastoma, una neoplasia ocular que puede presentarse con estrabismo y dolor ocular. Este es el diagnóstico más probable, ya que es la causa más frecuente de leucocoria en menores de 3 años. La queratitis autoinmune (A) y la uveítis aguda (B) podrían causar dolor ocular, pero no leucocoria, que es un hallazgo específico del retinoblastoma. La conjuntivitis viral (C) típicamente se presenta con enrojecimiento ocular y secreción, pero sin leucocoria ni dolor severo.
+
+### GIN-126 | Síndrome HELLP | 2024
+Primigesta de 38 semanas, acude por dolor en hipocondrio derecho. Examen: PA 160/110 mmHg. Abdomen: AU 32 cm, SPP LCI, LCF 142 X´. Lab: Plaquetas 90000 /ml, TGO 160 UI/l, TGP 130 UI/l, DHL 700 UI/l. ¿Cuál es el diagnóstico?
+   A) Hipertensión gestacional
+  *B) Síndrome de Hellp
+   C) Púrpura trombocitopénica
+   D) Preeclampsia leve
+   E) Hígado graso agudo del embarazo
+EXP: El diagnóstico más probable es el síndrome de Hellp, una complicación grave de la preeclampsia que se caracteriza por hipertensión, DHL elevado, plaquetopenia y alteraciones hepáticas (TGO/TGP elevados). La paciente presenta dolor en el hipocondrio derecho, lo que sugiere hepatomegalia, un signo clásico del síndrome de Hellp. La hipertensión gestacional (A) no causa estas alteraciones hepáticas ni plaquetopenia. La púrpura trombocitopénica (C) no tiene los cambios hepáticos asociados, y la preeclampsia leve (D) generalmente no presenta alteraciones hepáticas tan marcadas.
+
+### INF-063 | Neumonía por Pneumocystis con hipoxemia: corticoides | 2024
+Varón de 27 años, con VIH sin TAR, es traído por disnea, fiebre y tos seca desde hace 2 semanas. Examen: PA 100/70 mmHg, FC 132 X´, FR 30 X´, T 38.2 °C, SatO₂ 87%. No logra emitir oraciones completas. No candidiasis oral. Lab: AGA: pH 7.50, pCO2 22 mmHg, PaO₂ 60 mmHg, HCO3 20 mEq/l. LDH elevada. CD4 100/mm3. RX tórax: infiltrados intersticiales difusos simétricos. Se inicia antibioticoterapia de elección y apoyo oxigenatorio. ¿Cuál es la terapia coadyuvante a indicar?
+   A) Anfotericina B
+   B) Itraconazol
+  *C) Prednisona
+   D) Ritonavir
+   E) Ganciclovir
+EXP: Este paciente con VIH presenta síntomas respiratorios graves, infiltrados pulmonares típicos de neumonía por Pneumocystis jirovecii (PCP) y un recuento de CD4 bajo, lo que sugiere una infección oportunista. La prednisona (C) se utiliza como terapia coadyuvante en casos de neumonía por P. jirovecii para reducir la inflamación pulmonar y mejorar la oxigenación, especialmente cuando hay hipoxemia grave. La anfotericina B (A) e itraconazol (B) son antimicóticos que no son eficaces para tratar la neumonía por P. jirovecii, cuya terapia de primera línea es el cotrimoxazol. Ritonavir (D) es un inhibidor de la proteasa que se utiliza en la terapia antirretroviral, pero no está indicado en este tratamiento específico.
+
+### PED-130 | Vacunas en el lactante con VIH | 2024
+Lactante de 4 meses con VIH (+) sintomático. De las vacunas consideradas en el Esquema Nacional de Vacunación del MINSA 2024. ¿Cuál debe administrarse bajo prescripción médica?
+   A) Pentavalente
+   B) Polio Inactiva (IPV)
+   C) Neumococo
+  *D) Rotavirus
+   E) BCG
+EXP: Los pacientes con VIH tienen una mayor vulnerabilidad a infecciones graves, por lo que las vacunas vivas atenuadas deben ser aplicadas con precaución, en los pacientes con VIH sintomáticos hay vacunas que deben ser aplicadas bajo prescripción médica como l o es la BCG y el Rotavirus, en nuestro caso clínico al tener 4 meses si se puede aplicar las otras alternativas ya que son inactivas, pero el Rotavirus necesita indicación médica evaluando el estado inmunológico tanto del paciente como su entorno (clave D).
+
+### CIR-067 | Tumor de la base apendicular: hemicolectomía derecha | 2024
+Varón de 27 años operado por probable apendicitis aguda que durante la laparotomía se encuentra masa tumoral de 2 cm en la base apendicular que afecta al mesenterio con lesiones similares. ¿Cuál es la conducta de elección a seguir?
+   A) Colectomía ascendente
+  *B) Hemicolectomía derecha
+   C) Ileostomía
+   D) Apendicetomía
+   E) Resección local del tumor con margen
+EXP: La conducta de elección en este caso es realizar una hemicolectomía derecha (B), ya que la masa tumoral en la base apendicular y las lesiones mesentéricas sugieren un proceso maligno, como un carcinoma de apéndice o un tumor carcinoide, que ha invadido las estructuras adyacentes. La hemicolectomía derecha garantiza una resección más amplia, incluyendo el ciego y el mesenterio afectado, lo cual es necesario para obtener márgenes negativos y prevenir la diseminación tumoral. La colectomía ascendente (A) no aborda adecuadamente el tumor primario ni las lesiones mesentéricas. La ileostomía (C) no es una intervención curativa para este tipo de tumor, y no se justifica en este contexto. La apendicectomía (D) sería insuficiente, ya que no elimina completamente el tumor ni las lesiones mesentéricas involucradas.
+
+### PSI-024 | Acatisia por antipsicóticos: propranolol | 2024
+Varón de 24 años, es diagnosticado hace 2 años de esquizofrenia. Sus síntomas psicóticos se manejan bien con haloperidol; sin embargo, la familia refiere que no puede estar quieto y camina por toda la casa. ¿Cuál es el mejor agente para tratar esta acatisia inducida por el antipsicótico?
+  *A) Propranolol
+   B) Bromocriptina
+   C) Benzodiazepina
+   D) Dantronelo
+   E) Aumentar la dosis de haloperidol
+EXP: La acatisia es un efecto secundario común de los antipsicóticos, y el tratamiento de elección es el propranolol (A), un beta-bloqueante que ha demostrado eficacia para aliviar los síntomas motores de la acatisia, como la inquietud y la incapacidad para quedarse quieto. La bromocriptina (B) es útil en el tratamiento del parkinsonismo, pero no es la mejor opción para la acatisia. Las benzodiacepinas (C) pueden aliviar la ansiedad, pero no abordan el síntoma motor específico de la acatisia, y el dantroleno (D) es más indicado para el tratamiento de la hipertermia maligna o rigidez muscular.
+
+### CIR-068 | Hemorroides grado I: coagulación infrarroja | 2024
+Mujer de 40 años desde hace 2 meses presenta sangrado después de defecar, que no responde a tratamiento médico. Antecedente: Multípara. Examen: ano no lesiones externas. Anoscopía: almohadillas que no rebasan el orificio anal. ¿Cuál es el tratamiento de elección?
+   A) Hemorroidectomía abierta
+   B) Resección anterior baja
+   C) Hemorroidectomía cerrada
+  *D) Coagulación infrarroja
+   E) Hemorroidopexia con grapas
+EXP: El caso clínico nos describe la presencia de almohadillas que no rebasan el orificio anal por lo que estamos frente a una hemorroide grado I (solo sangrado); recordar que las grado II son las que protruyen y se reducen solas, la grado III necesitan reducción manual, las grado IV son las que están trombosadas. Los pacientes con hemorroides grado I que no responden al tratamiento médico, la coagulación infrarroja (D) es un tratamiento eficaz y menos invasivo que puede realizarse en consultorio. La hemorroidectomía abierta (A) y cerrada (C) son opciones para hemorroides más grandes o grados III más de 1 paquete o IV, mientras que la resección anterior baja (B) no es indicada para hemorroides.
+
+### END-036 | Choque séptico refractario por insuficiencia suprarrenal primaria | 2024
+Mujer de 64 años, diabética e hipertensa, desde hace 3 días recibe antibióticos intravenosos por ITU; hace 24 horas persiste hipotensa a pesar de líquidos y vasopresores. Examen: PA 80/50 mmHg, FC 120 X´, FR 22 X´, T° 38.6 °C, SatO₂ 91%. Desorientada, piel fría, pulso débil. Lab: glucosa 150 mg/dl, Na 130 mEq/l, K 4.8 mEq/l, creatinina 1.9 mg/dl, pH 7.30, lactato 4.5 mmol/l, cortisol bajo, ACTH elevado. Leucocitosis con neutrofilia. ¿Cuál es la causa probable de la falta de respuesta al tratamiento?
+  *A) Insuficiencia adrenal primaria
+   B) Acidosis láctica
+   C) Cetoacidosis diabética
+   D) Insuficiencia adrenal secundaria
+   E) Hipotiroidismo
+EXP: El cuadro clínico, incluyendo hipotensión persistente a pesar del tratamiento adecuado, acidosis metabólica, y niveles bajos de cortisol con ACTH elevado, sugiere insuficiencia adrenal primaria (A). La insuficiencia adrenal primaria, o enfermedad de Addison, se caracteriza por la incapacidad de las glándulas suprarrenales para producir cortisol en respuesta al estrés, como se observa en este caso. La acidosis láctica (B) podría ser una complicación de sepsis, pero no explica la disfunción adrenal observada. La cetoacidosis diabética (C) es poco probable dado que los niveles de glucosa son relativamente bajos y no hay evidencia de cetonuria. La insuficiencia adrenal secundaria (D) no sería compatible con el ACTH elevado, lo que indica que el problema es primario.
+
+### CIR-069 | Fisura anal aguda: ablandadores y baños de asiento | 2024
+Mujer de 30 años, que consulta por hematoquecia y dolor muy intenso después de la defecación, acompañado de sensación de espasmo anal. Examen: TR hipertonía de esfínter anal y desgarro en la línea media posterior. ¿Cuál es el tratamiento inicial?
+   A) Toxina botulínica y diltiazem
+   B) Esfinterotomía quirúrgica
+  *C) Ablandadores de heces y baños de asiento
+   D) Jalea de lidocaína al 2% y toxina botulínica
+   E) Fistulotomía
+EXP: El tratamiento inicial de las fisuras anales agudas se basa en medidas conservadoras, como el uso de ablandadores de heces y baños de asiento (C), para aliviar el dolor y reducir la hipertonía del esfínter anal. La toxina botulínica (A) y la esfinterotomía quirúrgica (B) son opciones para fisuras crónicas (> 6 semanas) o recurrentes, pero no son el tratamiento inicial. La jalea de lidocaína (D) puede ser útil para el alivio del dolor local, pero no es suficiente como tratamiento único en este caso.
+
+### NRL-036 | Rigidez de decorticación | 2024
+Varón de 20 años es trasladado a emergencia por paramédicos por sufrir una caída del tercer piso de su casa. Ingresa con un TEC grave. Examen: intubado, en hiperventilación, en coma profundo y con rigidez de decorticación. ¿Cuál es la localización probable de la lesión?
+   A) Cerebelo
+  *B) Hemisferios cerebrales
+   C) Mesencéfalo
+   D) Tálamo
+   E) Médula cervical
+EXP: La rigidez de decorticación es un signo neurológico que indica una lesión por encima del mesencéfalo, es decir, en estructuras superiores como los hemisferios cerebrales, el tálamo o la cápsula interna. Las características clínicas de la rigidez de decorticación incluyen flexión de los brazos sobre el tórax y extensión de las piernas. Indica daño en las vías corticospi nales por encima del núcleo rojo, generalmente a nivel de los hemisferios cerebrales.
+
+### PED-131 | Infección urinaria por E. coli BLEE: meropenem | 2024
+Preescolar de 4 años presenta hace 4 días fiebre, disuria y polaquiuria. Lab: urocultivo: E. coli BLEE (+). ¿Cuál es el tratamiento indicado?
+  *A) Meropenem
+   B) Ceftriaxona
+   C) Cotrimoxazol
+   D) Cefuroxima
+   E) Nitrofurantoína
+EXP: El tratamiento de elección para una infección urinaria complicada por una cepa de E. coli BLEE (betalactamasa de espectro extendido) es meropenem (A), un carbapenémico que tiene actividad contra estas cepas resistentes a cefalosporina de 3ra y 4ta generación además de Astreonam. Los otros antibióticos, como ceftriaxona (B), cotrimoxazol (C) y cefuroxima (D), no son efectivos contra las cepas BLEE, que requieren tratamiento con antibióticos de mayor espectro como los carbapenémicos.
+
+### INF-064 | Malaria: fiebre cuartana | 2024
+Adolescente de 12 años procedente de la selva, cursa con escalofríos, dolor de cabeza, sudoración, fatiga y fiebre paroxística tipo cuartana. Examen: T 38.8 °C, palidez marcada; hepatoesplenomegalia. Lab: Hb 8 gr/dl. ¿Cuál es el diagnóstico más probable?
+   A) Hepatitis viral
+  *B) Malaria
+   C) Brucellosis
+   D) Fiebre tifoidea
+   E) Leptospirosis
+EXP: La fiebre paroxística tipo cuartana (B), que se presenta cada cuatro días, junto con la hepatoesplenomegalia y los síntomas descritos, es altamente sugestiva de malaria por plasmodium Malariae, una infección transmitida por Anopheles en zonas endémicas. La palidez marcada y la anemia también son comunes en la malaria, especialmente debido a la destrucción de los glóbulos rojos. Las otras opciones, como hepatitis viral (A), brucelosis (C) y fiebre tifoidea (D), tienen presentaciones clínicas distintas y no explican la fiebre paroxística y la hepatoesplenomegalia de forma tan característica.
+
+### CAR-050 | Pericarditis aguda | 2024
+Varón de 26 años, fumador, acude por dolor torácico retroesternal tipo opresivo, irradiado al borde superior del trapecio, que aumenta con la inspiración y disminuye en posición genupectoral. Examen: RC rítmicos, de baja intensidad y frote. EKG: Elevación del ST en DI, AVF, V1 y V2. ¿Cuál es el diagnóstico?
+   A) Angina inestable
+   B) Embolismo pulmonar
+   C) Disección aórtica
+  *D) Pericarditis aguda
+   E) Infarto agudo de miocardio
+EXP: El diagnóstico más probable es pericarditis aguda. El dolor torácico en esta condición suele ser de tipo punzante, localizado en el área precordial, y puede irradiar hacia el cuello o trapecio, empeorando con la inspiración y mejorando con la posición genupectoral, lo que concuerda con los hallazgos del paciente. El frote pericárdico, que se escucha en el examen físico, es característico de esta condición. Además, los cambios electrocardiográficos descritos, con elevación del ST en derivaciones como DI, AVF, V1 y V2, son típicos de la pericarditis, que generalmente presenta un patrón de elevación difusa del ST en las derivaciones afectadas, sin ser completamente específico para una zona, lo que la diferencia de un infarto de miocardio. Angina inestable no presenta características posicionales ni un frote pericárdico y suele ir acompañada de una elevación del ST en derivaciones específica
+
+### HEM-023 | Neutropenia grave: aislamiento inverso | 2024
+Mujer de 23 años, hospitalizada desde hace 7 días por presentar fiebre y malestar general. Examen: PA 120/70 mmHg, FC 110 X´, T 39 °C. Lab: Leucocitos: 400 /mm3, Hb 5 g/dl, plaquetas: 3000/mm3. ¿Qué tipo de aislamiento se debe implementar principalmente?
+   A) Entérico
+  *B) Inverso
+   C) De contacto
+   D) Respiratorio
+   E) Por gotas
+EXP: El caso describe a una paciente hospitalizada con fiebre persistente, neutropenia severa (leucocitos 400/mm³, lo cual indica neutrófilos <500/mm³) y pancitopenia (Hb baja y plaquetas disminuidas), lo que la clasifica como inmunosuprimida, en particular con alto riesgo de infecciones oportunistas. La prioridad en estos casos es el aislamiento inverso, que tiene como objetivo proteger a la paciente de patógenos externos debido a su inmunosupresión. El aislamiento inverso incluye medidas como el uso de habitaciones individuales, restricciones de visitas, equipo de protección personal para el personal y cuidados especiales para evitar infecciones por microorganismos externos. El aislamiento entérico estaría indicado para enfermedades gastrointestinales infecciosas como Clostridioides difficile, pero este caso no muestra signos de diarrea ni una sospecha de infección intestinal. El aislamient
+
+### NEF-053 | Sospecha de cáncer de próstata: biopsia transrectal | 2024
+Varón de 70 años, desde hace 6 meses presenta dificultad al iniciar la micción, polaquiuria y nicturia; dolor progresivo en caderas. Antecedente: fumador pesado. Examen: TR próstata indurada e irregular. PSA total 8 ng/ml. ¿Cuál es la indicación a seguir?
+   A) Tomografía pélvica
+   B) Resonancia pélvica
+   C) Cistoscopía
+  *D) Biopsia transrectal
+   E) Repetir PSA en 6 meses
+EXP: La próstata indurada e irregular junto con un PSA elevado sugiere cáncer prostático. La biopsia transrectal guiada por ecografía es el método diagnóstico definitivo. La resonancia pélvica y la tomografía evalúan extensión local y a distancia, pero no son iniciales.
+
+### CB-045 | Hipertiroidismo: aumento del metabolismo basal | 2024
+Mujer de 35 años presenta intolerancia al calor, taquicardia y pérdida de peso. Se le diagnostica hipertiroidismo. ¿Cuál de los siguientes cambios es más probable que presente?
+   A) Aumento del colesterol plasmático
+   B) Disminución de la motilidad intestinal
+  *C) Aumento del metabolismo basal
+   D) Disminución del gasto cardíaco
+   E) Disminución del consumo de oxígeno
+EXP: La paciente presenta un cuadro clínico compatible con hipertiroidismo, caracterizado por intolerancia al calor, taquicardia y pérdida de peso. Estas manifestaciones reflejan un estado hipermetabólico mediado por el exceso de hormonas tiroideas. La respuesta fisiológica más esperable es el aumento del metabolismo basal, que incrementa el consumo de oxígeno y la producción de calor. Esto explica también la pérdida de peso a pesar del apetito normal o aumentado. A diferencia de esto, el colesterol suele disminuir por aumento de su depuración hepática, y la motilidad intestinal se incrementa, provocando a veces diarrea. El gasto cardíaco aumenta debido al efecto cronotrópico e inotrópico positivo de las hormonas tiroideas.
+
+### NRL-037 | Dolor neuropático: alodinia | 2024
+Mujer de 62 años refiere que hace varias semanas presenta dolor al roce de la ropa en la pierna derecha asociado a sensación de electricidad y episodios de adormecimiento. En los últimos días siente “como si le arrancaran” el dedo del pie derecho, limitando la deambulación. ¿Qué tipo de dolor refiere la paciente?
+   A) Visceral
+   B) Nociceptivo
+  *C) Neuropático
+   D) Somático
+   E) Psicógeno
+EXP: El caso describe a una paciente con dolor al roce de la ropa, sensación de electricidad, episodios de adormecimiento y una sensación intensa de que "le arrancan" el dedo, lo cual limita la deambulación. Este cuadro es característico de un dolor neuropático, asociado a daño o disfunción en las fibras nerviosas periféricas o centrales, que produce sensaciones de hiperalgesia, alodinia (dolor ante estímulos normalmente no dolorosos) y dolor tipo quemante o eléctrico, se le denomina también ALODINEA. Este tipo de dolor se diferencia del nociceptivo, que ocurre por activación de receptores del dolor secundarios a lesión tisular o inflamación, generalmente descrito como dolor bien localizado y de tipo opresivo, que no se ajusta a este caso. El dolor visceral, asociado a órganos internos, es profundo, mal localizado y referido, como en cólicos intestinales, lo cual no corresponde aquí. El dolor
+
+### GIN-127 | Ganancia de peso excesiva en gestante obesa | 2024
+Segundigesta de 40 semanas con feto único, quien acude a control prenatal. Tiene índice de masa corporal al inicio del embarazo de 32 kg/m2 y ha ganado 12.5 kg durante todo el embarazo. Su ganancia ponderal es:
+   A) Normal
+   B) Muy deficiente
+  *C) Excesiva
+   D) Deficiente
+   E) Adecuada para su IMC
+EXP: La Guía Técnica de Atención Integral Materna del MINSA Perú, establece que las mujeres con obesidad (IMC ≥30 kg/m² al inicio del embarazo) deben tener una ganancia ponderal recomendada de 5 a 9 kg durante toda la gestación. En el caso planteado, la paciente con un IMC inicial de 32 kg/m² ganó 12.5 kg, lo que clasifica como ganancia excesiva, ya que supera el rango recomendado. Este exceso se asocia a mayores riesgos obstétricos como hipertensión gestacional, diabetes gestacional y macrosomía fetal.
+
+### GAS-047 | Ictericia por reabsorción de hematoma | 2024
+Varón de 36 años, acude por ictericia. Hace 10 días operado por trauma abdominal cerrado y recibió 7 unidades de paquete globular. Examen: abdomen doloroso a la palpación, no rebote. Lab: Hb 9.7 g/dl, BT 3.9 mg/dl, BI 3.7 mg/dl, BD 0.2 mg/dl, AST 55 UI /l, ALT 89 UI/l. TC abdominal: hematoma retroperitoneal en proceso de resolución. ¿Cuál es la causa más probable de ictericia en este paciente?
+  *A) Reabsorción del hematoma
+   B) Inhibición de la conjugación
+   C) Disminución de la captación 2
+   D) Defecto en la excreción celular
+   E) Hepatitis viral postransfusional aguda
+EXP: El paciente tuvo un trauma abdominal cerrado que requirió transfusión masiva (7 paquetes globulares) y presenta un hematoma retroperitoneal en proceso de resolución. Presenta ictericia con predominio de bilirrubina indirecta (BI 3.7 mg/dl, BD 0.2 mg/dl), con AST y ALT elevadas, pero sin patrón de lesión hepática severa. Durante la resolución de un hematoma, los glóbulos rojos descompuestos liberan hemoglobina. Esta se metaboliza en biliverdina y luego en bilirrubina indirecta (no conjugada), que se transporta al hígado para conjugación. Un hematoma grande puede liberar cantidades significativas de bilirrubina, superando la capacidad hepática de conjugación temporalmente, causando hiperbilirrubinemia indirecta transitoria.
+
+### GIN-128 | Vacuna Tdap en la gestación | 2024
+Primigesta de 8 semanas, acude a su primer control prenatal. Ella consulta acerca de la vacuna contra el tétanos-difteria-tos ferina acelular (Tdap). ¿Entre qué semanas se aplica de preferencia esta vacuna?
+   A) 19 y 26
+   B) 37 y 40
+   C) 8 y 18
+  *D) 27 y 36
+   E) En el puerperio
+EXP: Gestante en su primer control prenatal con duda sobre la vacuna Tdap (tétanos, difteria y pertussis acelular). Esta vacuna no solo protege a la madre, sino que genera anticuerpos que cruzan la placenta, brindando inmunidad pasiva al recién nacido, especialmente frente a la tos ferina, que puede ser letal en neonatos. Por eso, la estrategia óptima es aplicarla entre las semanas 27 y 36 de gestación, con preferencia entre la 27 y 32 para maximizar la transferencia de anticuerpos. Las otras opciones corresponden a periodos en los que no se logra este efecto protector eficiente para el neonato.
+
+### PED-132 | Displasia broncopulmonar: hipertensión pulmonar | 2024
+¿Cuál es la complicación más frecuente de displasia broncopulmonar en RN prematuro?
+   A) Insuficiencia cardíaca
+   B) Neumatocele
+  *C) Hipertensión pulmonar
+   D) Restricción del crecimiento
+   E) Hemorragia intraventricular
+EXP: La complicación más frecuente de la displasia broncopulmonar en recién nacidos prematuros es la hipertensión pulmonar debido al daño vascular crónico secundario a inflamación, ventilación mecánica prolongada y exposición a oxígeno suplementario. Este proceso genera remodelación vascular pulmonar con hipertrofia de la capa media de las arteriolas, aumento de la resistencia vascular y sobrecarga del ventrículo derecho. Aunque la insuficiencia cardíaca puede desarrollarse de forma secundaria en casos severos d e hipertensión pulmonar, no es una complicación primaria. Los neumoceles, asociados al barotrauma y la ventilación mecánica, son infrecuentes y no están directamente relacionados con la fisiopatología de la displasia broncopulmonar. La restricción del crecimiento en estos pacientes es multifactorial, influida por prematuridad, enfermedad crónica y malnutrición, pero no es una complica
+
+### NEF-054 | Poliquistosis renal autosómica dominante | 2024
+Varón de 38 años, consulta por dolor en flanco, que aumenta en la posición de pie y disminuye en el decúbito, niega disuria, polaquiuria. Hermano con ERC. Examen: abdomen distendido, se palpa masa dolorosa en flanco derecho. PPL derecho (++). Lab: Hb 12.8 g/dL, creatinina 2.85 mg/dL, examen de orina normal. ¿Cuál es el diagnóstico más probable?
+  *A) Poliquistosis renal
+   B) Glomerulonefritis
+   C) Absceso renal
+   D) Amiloidosis renal
+   E) Riñón en esponja medular
+EXP: El caso clínico describe a un paciente con dolor en flanco derecho, aumento de creatinina, masa palpable en el flanco y antecedentes familiares de enfermedad renal crónica, lo que sugiere poliquistosis renal como diagnóstico más probable (CLAVE). La poliquistosis renal autosómica dominante es la forma más frecuente y se presenta con quistes renales bilaterales que pueden causar aumento de tamaño renal, compresión de estructuras adyacentes y, en algunos casos, dolor lumbar o en flanco. El hallazgo de masa palpable junto con el antecedente familiar y la elevación de creatinina refuerzan este diagnóstico. Glomerulonefritis típicamente se presenta con alteraciones en el examen de orina como hematuria, proteinuria o cilindros, los cuales no están presentes aquí. Un absceso renal usualmente se manifiesta con fiebre, disuria, leucocitosis y dolor localizado, además de alteraciones en el examen 

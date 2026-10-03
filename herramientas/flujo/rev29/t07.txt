@@ -1,0 +1,224 @@
+### PED-104 | Atresia de vías biliares | 2023
+Ud. Evalúa a un RN de 20 días que presenta ictericia, peso al nacer 3150 g; la madre refiere heces blanquecinas, orinas “cargadas”. Examen: peso: 3400g, FC: 138 X’, FR: 38 X’, ictericia generalizada, palidez leve, fontanela normotensa, cicatriz umbilical normal; ruidos cardiacos: normales; abdomen con leve distensión. Neurológico normal. Laboratorio: hemograma normal, BT: 12 mg/dl (BD: 8.1 mg/dl), TGO: 68 mg/dl. ¿Cuál es el diagnóstico más probable?
+  *A) Atresia de vías biliares
+   B) Hepatitis neonatal tardía
+   C) Anemia neonatal tardío
+   D) Hipotiroidismo congénito
+   E) Ictericia por leche materna
+EXP: El diagnóstico más probable es Atresia de vías biliares. Este trastorno se caracteriza por la obstrucción de las vías biliares intrahepáticas y extrahepáticas, lo que lleva a una colestasis neonatal. Los signos clásicos incluyen ictericia persistente que comienza a las primeras semanas de vida, heces acólicas (blanquecinas) y orina oscura. En este caso, la ictericia del recién nacido es progresiva y marcada por una elevación significativa de la bilirrubina directa (BD), lo cual es típico de la atresia de vías biliares. Además, el hallazgo de una distensión abdominal leve también es consistente con la colestasis y posible hepatomegalia, que son comunes en esta condición.
+
+### GIN-092 | Ligaduras vivientes de Pinard | 2023
+La pinza de Pinard, anatómicamente se describe como el entrecruzamiento de las fibras musculares en el útero gestante. ¿Cuál es su función principal?
+   A) Aumenta la incidencia de várices
+   B) Produce estasis vesical
+  *C) Controla el sangrado en el postparto
+   D) Permite el estiramiento del útero
+   E) Facilita el descenso fetal
+EXP: La pinza de Pinard se refiere a un conjunto de fibras musculares en el útero gestante, específicamente en el área del fondo uterino. Su función principal es controlar el sangrado en el postparto. Estas fibras musculares ayudan a la contracción del útero después del parto, lo que facilita la hemostasia y reduce el riesgo de hemorragia postparto. Al contraerse, contribuyen a la compresión de los vasos sanguíneos en el área placentaria, minimizando así el sangrado.
+
+### INF-046 | Artritis gonocócica: ceftriaxona | 2023
+Varón de 25 años, soltero, presenta desde hace 4 días dolor y aumento de volumen de rodilla. Examen: rodilla con dolor a la palpación, edema y eritema. Punción articular: frotis con diplococos Gram negativos. ¿Cuál es el tratamiento indicado?
+   A) Penicilina G sódica
+   B) Artrotomía descompresiva
+   C) Vancomicina intrarticular
+  *D) Ceftriaxona intravenosa
+   E) Antiinflamatorios y reposo
+EXP: El diagnóstico más probable es artritis séptica por Neisseria gonorrhoeae, indicada por los diplococos Gram negativos en el frotis. El tratamiento de elección es ceftriaxona intravenosa (opción D), ya que es eficaz contra esta bacteria. Otras opciones como penicilina G no son adecuadas debido a la resistencia de Neisseria gonorrhoeae, y la artrotomía descompresiva y vancomicina intrarticular no son el tratamiento inicial.
+
+### INF-047 | Sarcoma de Kaposi en VIH | 2023
+Varón de 28 años con VIH en TARGA irregular con CD4<200/µl, presenta desde hace 3 meses lesiones nodulares rojo vinosos que no palidecen con la presión, localizadas en tórax, MMII y cavidad oral. ¿Cuál es el diagnóstico más probable?
+  *A) Sarcoma de Kaposi
+   B) Molusco contagioso
+   C) Angiomatosis bacilar
+   D) Foliculitis eosinofílica
+   E) Hemangioma cereza
+EXP: El diagnóstico más probable es Sarcoma de Kaposi (opción A), una neoplasia asociada al virus de herpes humano tipo 8 (HHV-8) que se presenta con lesiones nodulares rojas o violáceas, especialmente en personas con VIH avanzado (CD4 < 200/µl) y en quienes el tratamiento antirretroviral es irregular. Estas lesiones no palidecen con la presión y suelen estar localizadas en áreas como el tórax, las extremidades inferiores y la cavidad oral. Las otras opciones (molusco contagioso, angiomatosis bacilar y foliculitis eosinofílica) pueden presentar lesiones similares, pero el contexto clínico y la distribución de las lesiones apuntan más a Sarcoma de Kaposi.
+
+### CB-031 | QT largo por azitromicina | 2023
+Varón de 72 años llevado a emergencia por mareos y dolor precordial hace una hora. EKG: QT largo, taquicardia ventricular, no signos de isquemia; resto sin alteraciones. Refiere automedicación con pastillas por un supuesto COVID-19. ¿Cuál es el medicamento responsable?
+   A) Dexametasona
+   B) Paracetamol
+  *C) Azitromicina
+   D) Ivermectina
+   E) Ibuprofeno
+EXP: El medicamento responsable de los síntomas del paciente es Azitromicina (opción C). Este antibiótico ha sido asociado con alargamiento del intervalo QT, lo que puede predisponer a taquicardias ventriculares y otros trastornos del ritmo cardíaco. El paciente presenta un QT largo en el EKG, lo cual es un efecto secundario conocido de la azitromicina.
+
+### NEU-027 | Asbestosis: cuerpos ferruginosos | 2023
+Varón de 76 años, que trabajó con asbesto por 30 años, desde hace cuatro años presenta disnea progresiva. Examen: PA 120/75 mmHg, FC 70 X´, FR 30 X´, T 36,8°C. Rx de tórax: engrosamiento pleural, opacidades reticulares lineales con aspecto en "panal de abeja". ¿Qué espera encontrar en la biopsia?
+   A) Calcificación distrófica
+   B) Granulomas
+   C) Infiltración linfocítica
+  *D) Cuerpos ferruginosos
+   E) Granulomas no caseificantes
+EXP: El paciente presenta una historia ocupacional significativa con exposición prolongada al asbesto, sustancia conocida por generar neumopatías intersticiales crónicas. El cuadro clínico de disnea progresiva y los hallazgos radiológicos de engrosamiento pleural, opacidades reticulares y patrón en panal d e abeja sugieren fibrosis pulmonar avanzada, característica de la asbestosis. Esta fibrosis produce cambios histológicos típicos como la presencia de cuerpos ferruginosos (cuerpos de asbesto), los cuales se visualizan mediante técnicas de tinción especiales como la de Prusia azul. Estas estructuras son fibras de asbesto recubiertas de hierro, indicativas de exposición previa. El diagnóstico diferencial incluye silicosis, sarcoidosis o neumonía intersticial, pero el contexto clínico-ocupacional y la imagen en panal orientan a asbestosis. El manejo incluye evitar la exposición, terapia bronco
+
+### NEF-037 | Nefropatía diabética: IECA | 2023
+Varón de 58 años con antecedente de diabetes mellitus que acude a control anual. Examen: PA 140/90 mmHg, edema de MMII. Lab: depuración de creatinina 45 ml/min.; albúmina en orina 1g/24 h, K: 4.5 mEq/L. ¿Cuál es el medicamento indicado para disminuir la proteinuria?
+   A) Atorvastatina
+  *B) IECA
+   C) Insulina
+   D) Sulfonilurea
+   E) Hidroclorotiazida
+EXP: Este paciente diabético de 58 años presenta datos de nefropatía diabética: depuración de creatinina disminuida (45 ml/min) y proteinuria significativa (1 g/24h), acompañados de hipertensión arterial y edema periférico. En este contexto, el objetivo terapéutico principal es reducir la proteinuria y enlentecer la progresión de la enfermedad renal. Los inhibidores de la enzima convertidora de angiotensina (IECA) son la primera línea de tratamiento, ya que disminuyen la presión intraglomerular y tienen efecto antiproteinúrico demostrado. Además, aportan beneficios cardiovasculares en pacientes diabéticos. Las estatinas (atorvastatina) no reducen directamente la proteinuria; su indicación es para dislipidemia. La insulina controla la glicemia, pero no detiene el daño renal. Las sulfonilureas pueden inducir hipoglicemia en pacientes con función renal comprometida. Por tanto, los IECA son el fá
+
+### SP-063 | Carta de Ottawa: desarrollo de habilidades personales | 2023
+En un distrito la lactancia materna exclusiva es menor de 50% por lo cual el personal del centro de salud del ámbito desarrolla un plan de comunicación educativa en salud dirigido a las gestantes. ¿Cuál de los elementos o estrategias de la Carta de Ottawa se implementa en este caso?
+   A) Crear entornos favorables a la salud
+   B) Fortalecer los servicios de salud
+  *C) Desarrollo de habilidades personales
+   D) Fomento de acciones preventivas
+   E) Elaborar políticas públicas saludables
+EXP: El caso describe una intervención educativa dirigida a gestantes para mejorar la tasa de lactancia materna exclusiva, que se encuentra por debajo del 50%. Según la Carta de Ottawa, uno de los pilares fundamentales de la promoción de la salud es el desarrollo de habilidades personales, lo cual implica brindar información, educación y herramientas prácticas que permitan a las personas tomar decisiones saludables. En este contexto, el personal de salud actúa como agente promotor al empoderar a las gestantes mediante conocimientos que mejoran su capacidad de cuidar adecuadamente a sus hijos. Crear entornos favorables se refiere a cambios en el ambiente físico o social; fortalecer los servicios de salud implica cambios institucionales; y el fomento de acciones preventivas es una estrategia más general. Por tanto, la estrategia concreta utilizada aquí es el desarrollo de habilidades personales
+
+### INF-048 | Cólera | 2023
+Varón de 18 años, que presenta hace 24 h vómitos y deposiciones líquidas, como agua de lavado de arroz, sin moco, sin sangre asociado a calambres generalizados y oliguria. Examen: PA 100/50 mmHg, FC 100 X'; mucosa oral seca y aumento de peristaltismo abdominal. Lab: reacción inflamatoria en heces negativo. ¿Cuál es el organismo patógeno?
+   A) Entamoeba histolytica
+   B) Eschericha coli
+  *C) Vibrio cholerae
+   D) Shigella spp
+   E) Giardia lamblia
+EXP: Se trata de un joven con cuadro clínico típico de diarrea aguda por Vibrio cholerae: deposiciones acuosas en gran volumen con aspecto de “agua de arroz”, sin sangre ni moco, acompañadas de deshidratación severa (mucosa seca, oliguria, hipotensión), calambres y aumento del peristaltismo. La ausencia de reacción inflamatoria en heces confirma que se trata de una diarrea secretora no invasiva. El Vibrio cholerae produce una enterotoxina que activa el AMPc, generando secreción masiva de agua y electrolitos. Entamoeba histolytica genera disentería con moco y sangre; Escherichia coli puede generar cuadros similares, pero muchas cepas son inflamatorias o causan disentería. Shigella genera una colitis invasiva con fiebre y sangre en heces. Así, el cuadro clínico descrito es compatible con cólera
+
+### SP-064 | Estudio transversal | 2023
+En un colegio de secundaria se incrementa el abandono escolar por embarazo. Se decide aplicar una encuesta a todos los alumnos para investigar características sociodemográficas y nivel de conocimiento sobre salud sexual y reproductiva. ¿Cuál es el tipo de estudio?
+   A) Caso control
+   B) Ensayo clínico
+  *C) Transversal
+   D) Cohorte
+   E) Serie de casos
+EXP: El escenario describe una encuesta aplicada a todos los estudiantes de secundaria con el objetivo de conocer simultáneamente las características sociodemográficas y el nivel de conocimiento sobre salud sexual y reproductiva, en el contexto de un incremento en embarazos adolescentes. Este tipo de estudio es observacional, sin intervención, y se realiza en un solo momento, recolectando datos de prevalencia, lo que corresponde a un estudio transversal o de corte. No es un estudio caso-control, ya que no se compara retrospectivamente casos con controles. Tampoco es un ensayo clínico, pues no hay intervención. Y no se trata de una cohorte, ya que no hay seguimiento en el tiempo. Por ello, el diseño más adecuado es el estudio transversal.
+
+### OFT-023 | Glaucoma primario de ángulo abierto | 2023
+¿Cuál es la forma de glaucoma más frecuente?
+   A) Primario de ángulo estrecho
+   B) Facogénico
+   C) Iatrógeno
+  *D) Primario de ángulo abierto
+   E) Congénito
+EXP: El glaucoma es una neuropatía óptica progresiva que lleva a pérdida visual irreversible. El tipo más frecuente es el primario de ángulo abierto, que representa alrededor del 80–90% de los casos. Se caracteriza por una evolución lenta, asintomática en etapas iniciales y sin dolor, con ángulo iridocorneal abierto en la gonioscopía. En contraste, el glaucoma de ángulo estrecho (o cerrado) es más agudo y sintomático, mientras que el facogénico e iatrógeno son formas secundarias menos comunes. El diagnóstico temprano del tipo de ángulo abierto es esencial debido a su presentación silente y al riesgo de pérdida visual si no se detecta a tiempo. Por ello, la forma más frecuente de glaucoma es el primario de ángulo abierto.
+
+### GIN-093 | Vasa previa: cesárea a las 34-35 semanas | 2023
+Primigesta de 24 semanas, acude para ecografía y se encuentra gestación única activa sin alteraciones, placenta fúndica posterior y vasa previa. ¿Cuál es el manejo más adecuado para el parto?
+   A) Cesárea a las 38 semanas
+   B) Esperar inicio de labor de parto
+  *C) Cesárea entre las 34 y 35 semanas
+   D) Inducir labor de parto a las 37 semanas
+   E) Parto vaginal con monitoreo continuo
+EXP: La vasa previa es una complicación obstétrica en la que los vasos fetales no protegidos por cordón o placenta cruzan el orificio cervical interno. Su ruptura puede generar una hemorragia fetal catastrófica. Por ello, está contraindicado esperar el inicio del trabajo de parto o inducirlo. El manejo ideal es la planificación de una cesárea electiva antes de la ruptura de membranas. Las guías recomiendan cesárea entre las 34 y 35 semanas para prevenir complicaciones fatales, previa maduración pulmonar fetal con corticoides. Programarla más allá de las 36 semanas eleva el riesgo de ruptura espontánea. Por tanto, la conducta más adecuada en este caso es realizar cesárea entre las 34 y 35 semanas.
+
+### PED-105 | Ingesta de cáusticos con estridor: vía aérea | 2023
+Niño de 3 años, es traído por mamá a la emergencia, la cual refiere que hace 20 minutos ingiere lejia presentando estridor, dolor abdominal, náuseas y vómitos. Examen: FC 85 X', FR 40X', SatO₂ 91%; olor a lejia, mucosa oral eritematosa y con sialorrea; tórax: MV pasa disminuido en AHT. ¿Cuál es el tratamiento inicial?
+  *A) Intubación endotraqueal
+   B) Carbón activado
+   C) Corticoides endovenoso
+   D) Lavado gástrico
+   E) Inducción del vómito
+EXP: El niño presenta signos de intoxicación por cáustico (lejía), con manifestaciones respiratorias (estridor, disminución del MV, SatO₂ ↓), digestivas (dolor, náuseas, vómitos) y daño local (sialorrea, eritema mucoso). El riesgo principal es el compromiso de vía aérea por edema laríngeo, lo que puede evolucionar rápidamente a obstrucción total. En estos casos, se debe asegurar la vía aérea mediante intubación endotraqueal precoz antes de que el edema la cierre completamente. El carbón activado y el lavado gástrico están contraindicados en cáusticos, y los corticoides tienen utilidad discutida pero no prioridad frente a la necesidad de asegurar oxigenación. Por tanto, el tratamiento inicial es la intubación endotraqueal.
+
+### PSI-018 | Psicosis: delirios y alucinaciones | 2023
+Mujer de 24 años, desde hace cuatro meses empezó a faltar a su trabajo varios días y descuidó su aseo personal. Examen: orientado en tiempo y persona, refiere que no va a su trabajo porque le quieren hacer daño, escucha voces que le advierten que la quieren atacar. ¿Cuál es el diagnóstico?
+   A) Bournout
+  *B) Psicosis
+   C) Fobia social
+   D) Depresión
+   E) Trastorno de ansiedad
+EXP: La paciente presenta un cuadro de cuatro meses de evolución con síntomas psicóticos claros: ideas delirantes de persecución ("le quieren hacer daño") y alucinaciones auditivas (voces que le advierten). A pesar de estar orientada, estos síntomas indican una desconexión con la realidad. La alteración funcional (abandono del trabajo y del aseo personal) refuerza la sospecha. No hay síntomas típicos de fobia social (ansiedad en contextos sociales), ni de burnout (agotamiento laboral sin psicosis), ni se evidencian criterios suficientes para un diagnóstico primario de depresión mayor. Por tanto, la opción correcta es psicosis, por presencia de síntomas positivos (alucinaciones, delirios).
+
+### NEF-038 | Uropatía obstructiva por HBP: resección transuretral | 2023
+Varón de 70 años, desde hace 3 años refiere disminución del chorro urinario y nicturia. Refiere náusea, vómitos y fatiga desde hace 1 mes. Examen: PA 145/85 mmHg, FC 102 X', FR 20 X'; palidez terrosa. Lab: Hb 9 g/dL, creatinina: 3.5 mg/dL; ECO: próstata de 4x3x2 cm, con gran residuo vesical. ¿Cuál es el tratamiento definitivo?
+  *A) Resección transuretral prostática
+   B) Diálisis peritoneal
+   C) Sonda vesical intermitente
+   D) Transfusión de glóbulos rojos
+   E) Tamsulosina de por vida
+EXP: El paciente muestra síntomas del tracto urinario inferior de larga evolución (nicturia, chorro disminuido) y signos de daño renal crónico posiblemente obstructivo (creatinina elevada, gran residuo vesical). La causa más probable es una obstrucción urinaria por HBP, confirmada por ecografía prostática. Aunque requiere manejo inmediato del residuo con sondaje, el tratamiento definitivo es la resección transuretral de próstata (RTU), que aliviará la obstrucción. La transfusión y la diálisis serían medidas de soporte según severidad, pero no resuelven la causa de fondo. Por tanto, la RTU es el tratamiento de elección definitivo.
+
+### NEF-039 | Pielonefritis obstructiva: derivación con catéter ureteral | 2023
+Varón de 30 años desde hace 2 días presenta náuseas y vómitos. Antecedente: litiasis renal. Examen: PA 90/60 mmHg, FC 100X', FR 24X', T 39.5ºC; PPL derecho (++), PRU derecho (++). Leucocitosis con desviación izquierda, UROTEM: cálculo enclavado en ureter y dilatación de sistema pielocalicial. Recibe antibióticoterapia de amplio espectro sin mejoría clínica. ¿Cuál es la indicación más adecuada?
+   A) Ureterotomía laparoscópica
+  *B) Endoprótesis ureteral
+   C) Nefrostomía laparoscópica
+   D) Litotricia percutánea
+   E) Cambio a antibiótico oral y alta
+EXP: El paciente con historia de litiasis renal ahora presenta fiebre alta, dolor a la palpación renal, hipotensión y leucocitosis con desviación izquierda, lo que sugiere una pielonefritis obstructiva complicada. A pesar del antibiótico, no hay mejoría clínica, lo cual obliga a actuar rápidamente para drenar la vía urinaria y evitar sepsis. La colocación de una endoprótesis ureteral (stent doble J) es la intervención inicial indicada para desobstruir el uréter y permitir salida de orina. Procedimientos como la nefrostomía o la ureterotomía son más invasivos y reservados para casos específicos. Así, la endoprótesis es el manejo más adecuado.
+
+### INF-049 | Fiebre amarilla: dosis única de por vida | 2023
+Medico serumista, irá a trabajar a la selva que es endémica de fiebre amarilla y hace 2 años fue vacunado con virus atenuado de fiebre amarilla. ¿Qué medida debe tomarse en relación a la vacuna?
+   A) Refuerzo cada 5 años
+  *B) No vacunarse
+   C) Refuerzo antes de viajar
+   D) Refuerzo a los 4 años
+   E) Refuerzo anual
+EXP: La vacuna contra la fiebre amarilla se considera eficaz y brinda protección a largo plazo, generalmente se acepta que proporciona inmunidad de por vida o al menos durante un período muy prolongado después de una sola dosis. La Organización Mundial de la Salud (OMS) ha indicado que una dosis única de la vacuna contra la fiebre amarilla es suficiente para conferir inmunidad de por vida y no recomienda dosis de refuerzo para la mayoría de los viajeros o residentes en áreas endémicas.
+
+### CAR-039 | Infarto con elevación del ST: angioplastia primaria | 2023
+Varón de 59 años acude por dolor torácico opresivo de inicio súbito desde hace 30 minutos, intensidad 8 de 10. Antecedente de diabetes, hipertensión y tabaquismo desde hace 20 años. Examen: SatO₂ 96%, estable hemodinámicamente. No signos de congestión pulmonar. EKG: elevación de segmento ST (5 mm) en cara anterolateral. Troponina T: 290 (Valor normal menor de 14). ¿Cuál es el tratamiento de elección?
+   A) Anticoagulación terapéutica
+   B) Bypass coronario
+   C) Oxigenoterapia
+  *D) Angioplastia coronaria
+   E) Betabloqueante endovenoso como única medida
+EXP: El cuadro clínico descrito es sugestivo de un infarto agudo de miocardio (IAM). Los hallazgos que respaldan esta conclusión incluyen el dolor torácico característico en un paciente varón con factores de riesgo cardiovascular (diabetes, hipertensión y tabaquismo), enzimas cardiacas positivas y un EKG que evidencia un ST elevado. Frente a este cuadro, el tratamiento de elección es ANGIOPLASTIA CORONARIA (Opción D). La angioplastia coronaria primaria es el tratamiento de elección para restaurar el flujo sanguíneo en la arteria coronaria afectada en el infarto agudo de miocardio con elevación del segmento ST. Es una intervención urgente que se realiza para abrir la arteria obstruida y restablecer el suministro de sangre al músculo cardíaco.
+
+### GIN-094 | Náuseas y vómitos del embarazo: doxilamina-piridoxina | 2023
+Gestante de 8 semanas que presenta náusea, vómitos y ligeros mareos. Examen: funciones vitales estables. Examen de orina: normal. Eco TV: gestación única normal. Además de las medidas higiénico dietéticas en este caso se prescribe:
+   A) Ondansetrón + tiamina
+   B) Metoclopramida + ranitidina
+   C) Prometazina + cianocobalamina
+  *D) Doxilamina + piridoxina
+   E) Hidratación endovenosa y ayuno
+EXP: En gestantes menores de 12 semanas, los síntomas de náuseas, vómitos y mareos son frecuentes y forman parte de la emesis gravídica. Este cuadro no se asocia a deshidratación ni compromiso clínico, por lo que no es hiperémesis. En estos casos, el manejo inicial incluye medidas higiénico-dietéticas y fármacos seguros en embarazo. La combinación de doxilamina (antihistamínico) y piridoxina (vitamina B6) es el tratamiento de primera línea recomendado por guías internacionales para el control de náuseas leves. Otras combinaciones son más agresivas y se reservan para casos moderados o severos.
+
+### PED-106 | Tetralogía de Fallot | 2023
+Lactante de 1 mes, es traído por presentar cianosis al llanto. Rx tórax: corazón en "bota". Ecocardiografía: desplazamiento hacia delante del tabique del tracto de salida del ventrículo que da lugar a una estenosis subpulmonar del tracto de salida del ventrículo derecho, cabalgando sobre la aorta y CIV. ¿Cuál es el diagnóstico?
+   A) Comunicación interauricular
+  *B) Tetralogía de Fallot
+   C) Coartación de aorta
+   D) Ductus arterioso persistente
+   E) Transposición de grandes arterias
+EXP: El lactante de 1 mes con cianosis al llanto sugiere una cardiopatía congénita cianótica. La radiografía con silueta cardíaca en “bota” es un hallazgo clásico. La ecocardiografía confirma la presencia de cuatro alteraciones: estenosis subpulmonar, comunicación interventricular (CIV ), cabalgamiento de la aorta y hipertrofia del ventrículo derecho. Estas cuatro lesiones constituyen la Tetralogía de Fallot. La presentación clínica temprana y la hipoxemia al esfuerzo (llanto) son típicas. Las otras opciones no reúnen esta constelación anatómica ni la imagen radiológica característica. Por tanto, el diagnóstico correcto es Tetralogía de Fallot.
+
+### NRL-027 | Hidrocefalia aguda: medidas iniciales | 2023
+¿Cuál es el manejo inicial en un paciente con hidrocefalia aguda?
+   A) Dextrosa 5% en agua destilada
+  *B) Elevar 30º la cabecera
+   C) Suero hipotónico
+   D) Mantener pCO2 > 40 mmHg
+   E) Restricción de líquidos y observación
+EXP: La medida más apropiada entre las opciones proporcionadas es ELEVAR LA CABECERA DE LA CAMA EN 30 GRADOS (Opción B). Esto puede ayudar a mejorar el drenaje venoso cerebral y reducir la presión intracraneal. El tratamiento específico dependerá de la situación clínica individual del paciente y puede requerir intervenciones adicionales, como la derivación de líquido cefalorraquídeo o la cirugía.
+
+### GIN-095 | Epilepsia en el embarazo: levetiracetam | 2023
+Primigesta de 24 semanas, acude a su primer control gestacional. Refiere al médico antecedente de epilepsia. ¿Cuál es el fármaco de elección para el tratamiento?
+   A) Carbamazepina
+   B) Fenobarbital
+   C) Ácido valproico
+  *D) Levetiracetam
+   E) Fenitoína
+EXP: En gestantes con antecedente de epilepsia, la elección del fármaco antiepiléptico se basa en el equilibrio entre controlar las convulsiones maternas y minimizar los riesgos para el feto. En ese sentido, de las alternativas brindadas, el fármaco de elección es LEVETIRACETAM (Opción D). Este fármaco se considera uno de los anticonvulsivantes con menor riesgo teratogénico. Estudios sugieren que podría tener un perfil más seguro en comparación con algunos otros anticonvulsivantes.
+
+### CAR-040 | Choque cardiogénico: inotrópicos | 2023
+Varón de 52 años, obeso e hipertenso, traído a emergencia con infarto de miocardio con 24 horas de evolución. Examen: PA 90/60 mmHg, FC 100 X', FR 26 X'; IY(+), RC regulares, no soplos. Tórax crepitantes en ambas bases. Diuresis no cuantificada. Lab: Naorina < 20 mEq/L, FeNa < 1%. ¿Cuál es el tratamiento inicial?
+   A) Trombolisis
+   B) Forzar diuresis
+   C) Trombectomía
+  *D) Inótropos
+   E) Nitroglicerina endovenosa
+EXP: La presentación clínica de un varón de 52 años con infarto de miocardio, hipotensión, crepitantes en ambas bases pulmonares, ingurgitación yugular y hallazgos en los exámenes de laboratorio (Naorina < 20 mEq/L, FeNa < 1%) sugiere la posibilidad de una disfunción ventricular con edema pulmonar cardiogénico y compromiso hemodinámico. En este escenario, el tratamiento inicial debe centrarse en estabilizar hemodinámicamente al paciente y abordar la insuficiencia cardíaca aguda. Es por ello que la opción más adecuada sería iniciar tratamiento con INÓTROPOS (Opción D). Los inotrópicos positivos, como la dobutamina, pueden considerarse en pacientes con insuficiencia cardíaca aguda congestiva para mejorar la contractilidad del corazón y el gasto cardíaco. Sin embargo, su uso debe ser cuidadosamente evaluado y monitorizado.
+
+### SP-065 | Prevención del VIH en adolescentes: ámbito escolar | 2023
+Se reporta el incremento de infección por VIH en los adolescentes de un distrito. Al respecto se implementará un plan de comunicación educativa para la prevención y control de la trasmisión. ¿Cuál deberá ser el ámbito de acción priorizado?
+   A) Familia
+   B) Portador
+  *C) Colegio
+   D) Hospital
+   E) Centro penitenciario
+EXP: Cuando se implementa un plan de comunicación educativa para la prevención y control de la transmisión del VIH, es fundamental abordar múltiples ámbitos para lograr un impacto significativo. Sin embargo, la priorización puede depender de la situación específica y de los factores que contribuyen al aumento de las infecciones por VIH en ese distrito. En este sentido, lo ideal sería priorizar un ámbito en el que se tenga contacto directo con la población en riesgo (adolescentes) tal como el COLEGIO (Opción C). El entorno educativo es un lugar clave para implementar programas de educación sexual integral y para promover comportamientos saludables. Los adolescentes pasan gran parte de su tiempo en este lugar y pueden sentirse con la libertad de absolver sus dudas y escuchar las opiniones o vivencias de sus pares.
+
+### GAS-036 | Falla hepática aguda por paracetamol: N-acetilcisteína | 2023
+Varón de 27 años, hace 5 días presentó episodios de "migraña" y se automedicó con paracetamol, es traído por náuseas, vómitos y somnolencia. Examen: ictérico, desorientado en espacio, asterixis (+), hiperreflexia y gingivorragia. Lab: INR 6, TP 30 segundos, K 3.5 mEq/L, Glucosa: 65 mg/dL, Creatinina 1.9 mg/dL. AGA: pH: 7.32, HCO3 16 mEq/L, pCO2 32 mmHg. ¿Cuál es el tratamiento indicado?
+  *A) N-acetilcisteína
+   B) Lavado gástrico
+   C) Trasplante hepático
+   D) Vitamina K endovenosa
+   E) Hemodiálisis
+EXP: Varón de 27 años con signos de hepatotoxicidad tras ingesta de paracetamol: encefalopatía, ictericia, asterixis, hipoglucemia, INR elevado y creatinina alta. Este cuadro clínico cumple con los criterios de falla hepática fulminante, en este caso probablemente inducida por sobredosis de paracetamol, incluso si fue dentro del rango terapéutico en pacientes con factores de riesgo. La primera línea de tratamiento es la N-acetilcisteína, que actúa como antídoto al reponer glutatión y detoxificar el metabolito hepatotóxico NAPQI. Aunque presenta encefalopatía y alteración de la coagulación que indican mal pronóstico, la N-acetilcisteína es beneficiosa incluso en fases tardías. La vitamina K no resuelve el daño hepático. El trasplante hepático es una opción definitiva en casos de fallo hepático irreversible, pero no se plantea de inicio. El lavado gástrico es inútil a los 5 días de la ingesta. 

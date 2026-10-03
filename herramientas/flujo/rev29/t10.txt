@@ -1,0 +1,224 @@
+### END-028 | SIADH frente a deshidratación: osmolaridad plasmática | 2023
+¿Cuál de los siguientes parámetros distinguiría mejor a una persona sana, pero con privación severa de agua de una persona con SIADH (Síndrome de secreción inadecuada de hormona antidiurética)?
+   A) Depuración de agua libre
+  *B) Osmolaridad plasmática
+   C) Osmolaridad urinaria
+   D) Concentración circulante de ADH
+   E) Sodio urinario
+EXP: La privación severa de agua en una persona sana y el síndrome de secreción inadecuada de hormona antidiurética (SIADH) son dos situaciones distintas pero que tienen como característica común que en ambos casos existe un incremento en la secreción de la hormona antidiurética (ADH). En el caso de la privación severa de agua como un mecanismo compensatorio para reabsorber mayor cantidad de agua a nivel renal y así evitar la deshidratación, y, en el caso del SIADH de forma patológica debido a una condición mórbida que incrementa la secreción de esta hormona. En este sentido, el mejor parámetro para distinguirlas es la Osmolaridad plasmática (Opción B). La osmolaridad plasmática es el número total de partículas osmóticamente activas en una unidad de volumen de plasma. En la privación severa de agua, la osmolaridad plasmática tiende a aumentar debido a la concentración de solutos en el plasma 
+
+### GAS-041 | Necrosis pancreática: drenaje diferido 3-4 semanas | 2023
+Mujer de 55 años, con diagnóstico de pancreatitis aguda grave en la cual se sospecha de necrosis y se considera que la intervención está indicada. ¿Entre que semanas se debe realizar el drenaje percutáneo?
+   A) 7 a 8
+   B) 6 a 7
+   C) 1 a 2
+  *D) 3 a 4
+   E) Inmediatamente al ingreso
+EXP: La necrosis pancreática es una complicación grave de la pancreatitis aguda, que ocurre cuando hay muerte de tejido pancreático debido a la inflamación y la falta de irrigación sanguínea adecuada. Esta condición puede llevar a la formación de abscesos pancreáticos y puede aumentar el riesgo de infección. El drenaje percutáneo es una opción de tratamiento para la pancreatitis aguda grave cuando hay evidencia de necrosis pancreática infectada. Se recomienda realizar el drenaje percutáneo dentro de las 3 a 4 semanas posteriores al inicio de los síntomas de la pancreatitis aguda (Opción D), especialmente si hay evidencia radiológica de necrosis infectada.
+
+### GIN-101 | VIH diagnosticado en trabajo de parto avanzado | 2023
+Primigesta de 38 semanas, acude por trabajo de parto, sin controles prenatales. En emergencia se le realiza prueba rápida de VIH (+). Examen: AU: 32cm, Feto: LCI, LCF: 144 X'. Tacto vaginal: D: 8, B: 100%, AP: +1, membranas integras. ¿Cuál es el manejo más adecuado?
+   A) Parto vaginal y episiotomía amplia
+  *B) Zidovudina y parto vaginal
+   C) Tenofovir y tocólisis
+   D) Zidovudina y programar cesárea
+   E) Cesárea de emergencia sin antirretroviral
+EXP: En este caso clínico, estamos frente a un gestante sin controles prenatales que acude en trabajo de parto y a la que se le diagnostica recientemente de VIH. Esta situación clínica se corresponde con el Escenario 3 del MINSA en el manejo del VIH en gestantes. De acuerdo con la Norma Técnica, una gestante en el Escenario 3 debe recibir tratamiento antiretroviral a la brevedad posible junto con Zidovudina endovenosa. Además, el término de la gestación será vía cesárea salvo que la paciente llegará al establecimiento con membranas integras y una dilatación mayor o igual a 4cm, en cuyo caso el término será por vía vaginal siempre que existen condiciones obstétricas. Teniendo en cuenta ello, el manejo más adecuado en esta paciente sería Zidovudina y parto vaginal (Opción B). Este último debido a que la paciente tiene 8cm de dilatación, las membranas están íntegras y existen condiciones para es
+
+### PSI-020 | Depresión con ideación suicida: sertralina | 2023
+Varón de 49 años que ha perdido su trabajo y era el único sustento de su familia, se siente con ánimo muy decaído, no puede dormir e incluso está pensado en "quitarse la vida" porque no encuentra la solución para sus problemas. Se inicia soporte psicológico. ¿Qué tratamiento indicaría?
+   A) Haloperidol
+   B) Risperidona
+  *C) Sertralina
+   D) Quetiapina
+   E) Diazepam en monoterapia
+EXP: Ante un paciente con síntomas de depresión mayor, como tristeza persistente, dificultad para conciliar el sueño, pensamientos de suicidio y un evento estresante significativo como la pérdida del empleo, el tratamiento más adecuado es Sertralina (Opción C). La sertralina es un antidepresivo de la clase de los inhibidores selectivos de la recaptación de serotonina (ISRS) y es una opción de tratamiento de primera línea para la depresión mayor. Ha demostrado ser efectiva y segura en el tratamiento de los síntomas depresivos, incluidos los pensamientos suicidas. Además, puede ser útil en pacientes con trastornos de ansiedad concomitantes, ya que también está aprobada para el tratamiento de trastornos de ansiedad.
+
+### GIN-102 | Restricción del crecimiento con flujo diastólico invertido | 2023
+Primigesta de 36 semanas, acude por disminución de movimientos fetales. Examen: AU: 27 cm; Feto: LCI, LCF: 142 X'. Ecografía obstétrica: gestación única activa con ponderado fetal percentil 2, oligohidramnios y doppler de la arteria umbilical con flujo diastólico final invertido. ¿Cuál es la conducta a seguir?
+   A) Repetir ecografía en 24 horas
+  *B) Terminar la gestación
+   C) Iniciar antibióticos
+   D) Esperar inicio labor de parto
+   E) Doppler semanal
+EXP: Gestante de 36 semanas con signos de restricción del crecimiento intrauterino (RCIU) severo: AU menor al esperado, peso fetal en percentil 2, oligohidramnios y flujo diastólico invertido en el Doppler de la arteria umbilical. Esta alteración hemodinámica es un marcador de redistribución fetal y compromiso placentario severo. Además, refiere disminución de movimientos fetales, lo que sugiere sufrimiento fetal crónico. En este contexto, la conducta debe ser terminar la gestación, ya que el riesgo de muerte fetal es alto. Repetir ecografías o esperar no es seguro. No hay indicación de antibióticos.
+
+### PED-111 | Neumonía en el lactante: sin radiografía de control | 2023
+Niño de 11 meses ha recibido tratamiento antimicrobiano por neumonía adquirida en la comunidad, Rx tórax inicial: opacidad heterogénea amplia en los 2/3 inferiores del HTD. Con mejoría clínica significativa a los 7 días. La madre pregunta sobre la radiografía de control. ¿Cuál es la respuesta más adecuada?
+   A) Por indicación de neumólogo pediatra
+   B) Rx a los 10 días de terapia antimicrobiana
+   C) Rx antes del alta
+  *D) No es necesaria Rx de control
+   E) Tomografía de tórax de control
+EXP: Lactante de 11 meses con neumonía adquirida en la comunidad y buena evolución clínica tras tratamiento antibiótico. En pediatría, si el paciente mejora clínicamente y no hay signos de complicación, no se justifica realizar una radiografía de control. La imagen puede demorar en normalizarse pese a la resolución clínica y su repetición innecesaria expone al niño a radiación sin beneficio. Las radiografías de control solo están indicadas ante neumonías recurrentes, complicadas o mala evolución. Por tanto, la mejor respuesta es no realizar Rx de control en este caso.
+
+### TRA-020 | Trauma cervical: collarín rígido | 2023
+Automovilista es traído a emergencia por que hace 6 horas sufre volcadura, presenta dolor de cuello. Examen: PA 100/70 mmHg, FC 120 X', FR 24 X', SatO₂ 96 %; orientado y colabora con el interrogatorio, dolor a la palpación en columna cervical, disminución de la fuerza y sensibilidad de MMSS a predominio de manos. ¿Cuál es la conducta a seguir?
+  *A) Inmovilizar la columna cervical con collar duro
+   B) Tracción de la columna cervical
+   C) Fijación externa de columna cervical
+   D) Cirugía descompresiva de columna
+   E) Radiografía antes de inmovilizar
+EXP: Ante un paciente que ha sufrido un accidente automovilístico con sospecha de lesión cervical, la prioridad es la estabilización de la columna cervical para prevenir lesiones adicionales a la médula espinal y la médula cervical. Debido a esto, la conducta a seguir en este caso es Inmovilizar la columna cervical con collar duro (Opción A). Esto ayuda a prevenir movimientos bruscos del cuello que podrían empeorar una lesión existente en la columna cervical y protege la médula espinal. Es fundamental inmovilizar la columna cervical antes de realizar cualquier evaluación adicional o movilización del paciente.
+
+### PED-112 | Rubéola congénita: persistencia del conducto arterioso | 2023
+Lactante mujer de 2 meses, es traída a control por insuficiencia cardiaca. Antecedentes: prematura, madre con rubéola. Examen: pulsos arteriales saltones; soplo cardiaco. ¿Cuál es la causa más probable?
+   A) Persistencia de la comunicación interauricular
+   B) Persistencia de la comunicación interventricular
+   C) Coartación de la aorta
+  *D) Persistencia del conducto arterioso
+   E) Tetralogía de Fallot
+EXP: Dado el cuadro clínico de insuficiencia cardíaca en un lactante de 2 meses con antecedentes de prematuridad y exposición materna a rubéola, la causa más probable es la Persistencia del conducto arterioso (Opción D). El conducto arterioso es una conexión normal entre la arteria pulmonar y la aorta durante la vida fetal, que generalmente se cierra poco después del nacimiento. La persistencia del conducto arterioso ocurre cuando esta conexión no se cierra adecuadamente después del nacimiento. Esta anomalía es más frecuente en prematuros y puede provocar un flujo sanguíneo anormal entre la arteria pulmonar y la aorta, lo que puede llevar a una sobrecarga de volumen en el ventrículo izquierdo y, eventualmente, a insuficiencia cardíaca. Los pulsos arteriales saltones pueden ser un hallazgo en esta condición debido a la hipertensión pulmonar.
+
+### END-029 | Bocio sumergido: signo de Pemberton | 2023
+Durante el examen de un paciente: "al elevar ambos brazos se produce distensión venosa en el cuello y dificultad respiratoria". ¿A qué tipo de bocio corresponde?
+  *A) Sumergido
+   B) Hiperfuncionante
+   C) Endémico
+   D) Abscedado
+   E) Nodular tóxico
+EXP: El hallazgo de distensión venosa en el cuello y dificultad respiratoria al elevar ambos brazos sugiere la presencia de una obstrucción venosa, que puede estar asociada con un tipo específico de bocio conocido como bocio sumergido (Opción A). El bocio sumergido se caracteriza por el crecimiento del tejido tiroideo dentro del tórax, lo que puede ejercer presión sobre las estructuras circundantes, incluidas las venas y las vías respiratorias superiores. Esta presión puede resultar en distensión venosa en el cuello y dificultad respiratoria, especialmente cuando se realizan movimientos que aumentan la presión intratorácica, como elevar ambos brazos.
+
+### GIN-103 | Alumbramiento dirigido en preeclampsia: oxitocina | 2023
+Usted decide realizar un alumbramiento dirigido a una gestante preeclamptica, para ello indica a su personal colocar intramuscular una ampolla de …. al minuto de producirse el parto.
+   A) Metilergometrina
+   B) Ácido tranexámico
+   C) Atosibán
+  *D) Oxitocina
+   E) Misoprostol rectal
+EXP: En el manejo de una gestante preeclámptica durante el alumbramiento, es crucial administrar medicamentos específicos para prevenir complicaciones potencialmente graves. Entre los medicamentos utilizados en esta situación, uno de los más comunes es la oxitocina (Opción D). La oxitocina es el medicamento correcto en esta situación. Se administra intramuscularmente inmediatamente después del parto para estimular las contracciones uterinas y prevenir la hemorragia posparto en mujeres con preeclampsia. Las contracciones uterinas inducidas por la oxitocina ayudan a contraer los vasos sanguíneos uterinos y a reducir el riesgo de hemorragia excesiva.
+
+### REU-030 | Psoriasis | 2023
+Varón de 40 años, acude por presentar placas eritematosas bien delimitadas, cubiertas de escamas finas y nacaradas de tamaño variable, pruriginosas en piel y cuero cabelludo. Examen: onicolisis, presencia de piqueteado ungueal. ¿Cuál es el diagnóstico ?
+   A) Dermatitis atópica
+  *B) Psoriasis
+   C) Ictiosis
+   D) Linfoma cutáneo
+   E) Pitiriasis rosada
+EXP: El cuadro clínico descrito es consistente con psoriasis (Opción B). La psoriasis es una enfermedad inflamatoria crónica de la piel que se caracteriza por la presencia de placas eritematosas bien delimitadas, cubiertas de escamas plateadas o blancas. Estas placas pueden aparecer en cualquier parte del cuerpo, incluido el cuero cabelludo y las uñas. La presencia de onicolisis (separación de la uña del lecho ungueal) y el piqueteado ungueal (depósitos de material queratínico debajo de la uña) son hallazgos típicos de la psoriasis ungueal, que es común en pacientes con psoriasis cutánea.
+
+### INF-055 | Dengue importado: caso confirmado por NS1 | 2024
+Mujer de 29 años quien acude al centro de salud donde reside, por presentar desde hace tres días fiebre, mialgias, cefalea y artralgias. Prueba de laboratorio NS1 positiva. Antecedente: Dos semanas antes viajó a región endémica de dengue. En el ámbito geográfico no hay presencia de vector ni reporte de casos. ¿Cómo clasifica el caso?
+   A) Probable
+   B) Posible
+   C) Descartado
+  *D) Confirmado
+   E) Sospechoso
+EXP: La paciente tiene síntomas clínicos compatibles con dengue, una prueba de laboratorio NS1 positiva y un antecedente epidemiológico de viaje a una región endémica, lo cual cumple con los criterios para confirmar un caso de dengue (Alternativa D). Un caso confirmado de dengue se define por la presencia de una prueba de laboratorio positiva (como NS1, PCR o IgM), además de los síntomas clínicos. La NS1 es un marcador específico para la detección temprana de dengue y, junto con los síntomas y el antecedente de viaje, confirma la infección.
+
+### PED-113 | Ectopia testicular | 2024
+Lactante de 30 días que presenta escroto derecho vacío desde el nacimiento y testículo izquierdo palpable en el escroto. En el periné se palpa tumoración ovoidea no dolorosa, renitente, correspondiente al testículo derecho. ¿Cuál es el diagnóstico más probable?
+   A) Testículo retráctil
+   B) Adenopatía inguinal
+   C) Agenesia testicular
+  *D) Ectopia testicular
+   E) Hernia inguinal
+EXP: En el caso de un lactante de 30 días con un escroto derecho vacío desde el nacimiento y un testículo izquierdo palpable en el escroto, junto con una tumoración ovoidea no dolorosa y renitente en el periné, debemos considerar la probabilidad de una ectopia testicular (Alternativa D). La ectopia testicular se refiere a la ubicación anómala de un testículo fuera de su trayecto normal de descenso, es decir fuera del canal inguinal o del escroto. La localización más frecuente en caso de ectopia testicular es la perineal seguida de la abdominal y la femoral.
+
+### NEU-028 | Asma casi fatal: intubación | 2024
+Varón de 32 años, con asma bronquial, traído a emergencia por dificultad para respirar. Examen: FC 62 X', FR 18 X', SatO₂ 85%, somnoliento, incapaz de hablar, tiene movimiento toracoabdominal. Silencio auscultatorio en AHT. ¿Cuál es el procedimiento inmediato a seguir?
+   A) Ventilación no invasiva
+   B) Oxigenoterapia por cánula nasal de alto flujo
+   C) Colocación de vía venosa para administrar medicamentos
+  *D) Intubación orotraqueal y ventilación mecánica
+   E) Nebulización con salbutamol y observación
+EXP: En este paciente con antecedente de asma encontramos signos de insuficiencia respiratoria severa, con hipoxia grave (SatO₂ 85%), somnolencia (indicativo de hipercapnia y fatiga respiratoria), y silencio auscultatorio en ambos campos pulmonares, lo cual sugiere una obstrucción severa de las vías aéreas. La intubación orotraqueal y ventilación mecánica es la intervención inmediata indicada en este caso (Alternativa D). La intubación asegura la vía aérea, permite una ventilación adecuada y administración de oxígeno, y previene un paro respiratorio inminente.
+
+### CB-035 | Intoxicación por isoniazida: piridoxina | 2024
+Varón de 35 años, en tratamiento de TB diagnosticada hace 2 meses es traído por confusión. La esposa notó que había tomado varias dosis de su medicamento. Examen: Taquipnea, Glasgow 12, hiperreflexia. AGA: pH 7.22, HCO3 10, Na 130, ALT 354 UI/L, AST 142 UI/L. ECG prolongación del intervalo QT. ¿Qué medicamento sería más apropiado para revertir el efecto adverso del fármaco?
+   A) Tiamina
+   B) Ácido fólico
+   C) Cianocobalamina
+  *D) Piridoxina
+   E) Vitamina K
+EXP: En esta pregunta debemos sospechar que la clínica presentada por el paciente puede deberse a una reacción adversa de los antituberculosos que recientemente está recibiendo. En ese sentido, los síntomas de confusión y acidosis metabólica, junto con la prolongación del intervalo QT, son indicativos de una toxicidad por isoniazida (INH). Los síntomas de toxicidad por este fármaco incluyen confusión, convulsiones, acidosis metabólica, y en algunos casos, hepatotoxicidad (elevación de ALT y AST). Dado que INH actúa como un antagonista de la piridoxina (vitamina B6), la piridoxina es el antídoto específico para la toxicidad por INH (Alternativa D). Se administra para revertir los efectos neurológicos (como convulsiones y confusión) causados por la deficiencia de esta vitamina.
+
+### GAS-042 | Cirrótico con fiebre y dolor abdominal: paracentesis | 2024
+Varón de 60 años, alcohólico crónico con cirrosis hepática, es traído por estar confundido, con dolor abdominal intenso y diarrea. Examen: PA 100/60 mmHg, FC 102 X’, FR 24 X’, T 38.5 °C, Sat.O2 94%, ictérico, confuso, asterixis, abdomen distendido con matidez desplazable y dolor difuso a la palpación. ¿Cuál es la conducta más apropiada?
+   A) Evaluación por cirugía
+  *B) Realizar paracentesis
+   C) Antiespasmódicos
+   D) Iniciar probióticos
+   E) Antibiótico oral ambulatorio
+EXP: El caso clínico nos presenta a un paciente con cirrosis hepática descompensada que ingresa con encefalopatía hepática (confusión y asterixis) y ascitis (abdomen distendido con matidez desplazable). En relación con la ascitis, vemos que además se acompaña de dolor abdominal y fiebre lo que sugiere una peritonitis bacteriana espontánea (PBE). En estos casos, realizar una paracentesis (Alternativa B) es la conducta más apropiada para evaluar el líquido ascítico. La paracentesis permite obtener muestras para análisis de células, cultivo, y proteínas, lo cual es crucial para diagnosticar y tratar PBE de manera oportuna.
+
+### PED-114 | Hemorragia intraventricular: ecografía transfontanelar | 2024
+Recién nacido de parto vaginal de 32 semanas, peso 1100 g. Requirió reanimación y tuvo Apgar de 3 (1') y 7 (5'). A las 24 h de vida presenta un episodio de apnea y palidez marcada. ¿Qué examen se debe realizar si sospecha de hemorragia intraventricular ?
+   A) Punción lumbar
+   B) Resonancia magnética
+  *C) Ecografía transfontanelar
+   D) Tomografía cerebral
+   E) Electroencefalograma
+EXP: La hemorragia intraventicular (HIV) es una complicación común en los recién nacidos prematuros, especialmente aquellos con muy bajo peso al nacer y que requieren reanimación. Los síntomas pueden incluir apnea, palidez, convulsiones, letargia, y alteraciones en el tono muscular. La incidencia de HIV es mayor en recién nacidos de menos de 32 semanas de gestación. La primera línea de elección para evaluar la HIV en recién nacidos prematuros es la ecografía transfontanelar (Alternativa C). Es un método no invasivo, seguro, accesible y puede realizarse a la cabecera del paciente. Permite detectar y clasificar la extensión de la hemorragia.
+
+### GAS-043 | Insuficiencia hepática aguda: clasificación temporal | 2024
+Varón de 45 años, es llevado a urgencias por cambio brusco de su estado mental en las últimas 24 horas, está más somnoliento y confuso. Hace dos semanas inicio con fiebre, malestar general y a los 6 días nota coloración amarillenta en ojos y piel. Examen: PA 110/70 mmHg, FC 118 X´, FR 22 X´, T 39.1 °C, ictérico, desorientado, somnoliento, habla incoherencias, asterixis, hiperreflexia. Laboratorio: Bilirrubina total 19.6 mg/dL, Tiempo de protrombina 68 segundos, INR 6. ¿Qué tipo de insuficiencia hepática presenta?
+   A) Subaguda
+   B) Hiperaguda
+  *C) Aguda
+   D) Rápidamente progresivo
+   E) Crónica agudizada
+EXP: El paciente presenta signos de insuficiencia hepática caracterizada por ictericia, coagulopatía severa (tiempo de protrombina prolongado, INR elevado) y encefalopatía (somnolencia, confusión, asterixis, habla incoherente). La insuficiencia hepática se clasifica según el tiempo transcurrido entre el inicio de la ictericia y el desarrollo de encefalopatía hepática. En este caso, la ictericia empezó entre 1 a 2 semanas antes de la encefalopatía por lo que se consideraría que se trata de una insuficiencia hepática aguda (Alternativa C). Una insuficiencia hepática aguda es aquella en la que existe un intervalo de 1 a 4 semanas entre la aparición de la ictericia y la encefalopatía hepática.
+
+### GIN-104 | Carbamazepina y anticonceptivos orales | 2024
+Mujer de 28 años, consulta por un método de planificación familiar, tiene un hijo de 3 años nacido de parto normal. Antecedente: Sufre de convulsiones y usa carbamazepina como tratamiento. ¿Cuál de los siguientes anticonceptivos sería el menos efectivo ?
+   A) Depoprovera 150mg IM
+  *B) Combinados orales
+   C) T de cobre
+   D) DIU medicado
+   E) Implante de levonorgestrel
+EXP: La carbamazepina es un potente inductor enzimático del citocromo P450, específicamente del CYP3A4, lo que puede reducir la concentración plasmática de hormonas anticonceptivas, afectando su eficacia. En este caso, el método menos efectivo en los pacientes que consumen este medicamento son los anticonceptivos combinados orales (ACO) (Alternativa B). Los ACO contienen estrógenos y progestágenos. La carbamazepina puede reducir significativamente las concentraciones de ambos componentes debido a la inducción del metabolismo hepático, disminuyendo su eficacia anticonceptiva considerablemente.
+
+### GAS-044 | Profilaxis primaria de hemorragia variceal: betabloqueante | 2024
+Varón de 62 años, alcohólico crónico, refiere cuadro de dispepsia. Endoscopía digestiva alta: várices esofágicas de gran tamaño. Examen: Lúcido, no matidez desplazable, no asterixis. ¿Cuál es la actitud terapéutica más adecuada como prevención del primer episodio de hemorragia por várices?
+  *A) Administrar betabloqueante no cardioselectivo
+   B) Administrar somatostatina
+   C) Derivación proto sistémica percutánea intra hepática
+   D) Infusión continua de omeprazol
+   E) Ligadura y omeprazol en infusión
+EXP: El caso clínico nos presenta un paciente con diagnóstico probable de cirrosis hepática con un hallazgo endoscópico de várices esofágicas de gran tamaño no complicadas. En este paciente, la estrategia recomendada para la prevención primaria de hemorragia por várices esofágicas es la administración de betabloqueantes no cardio selectivos (Alternativa A). Los betabloqueantes no cardio selectivos (como propranolol o nadolol) se utilizan comúnmente para prevenir el primer episodio de hemorragia por várices esofágicas en pacientes con cirrosis y várices grandes. Estos medicamentos reducen la presión portal, disminuyendo el riesgo de hemorragia.
+
+### REU-031 | Polimiositis | 2024
+Mujer de 50 años, consulta por presentar desde hace 6 meses dificultad para subir las escaleras, levantarse de la silla y peinarse. Examen: disminución de fuerza muscular proximal y simétrica. Niega artralgias, no compromiso cutáneo. ¿Cuál es el diagnóstico más probable?
+   A) Miastenia gravis
+   B) Mielitis longitudinal
+   C) Síndrome de Guillain-Barré
+  *D) Polimiositis
+   E) Hipotiroidismo
+EXP: La presentación de debilidad proximal y simétrica sin compromiso cutáneo, de evolución progresiva durante meses, es típica de polimiositis (Alternativa D). La poliomiositis es una enfermedad inflamatoria idiopática de los músculos, que se caracteriza por debilidad muscular proximal simétrica progresiva. A menudo no hay compromiso cutáneo, lo que la diferencia de la dermatomiositis. Puede asociarse con otros síntomas como disfonía y disfagia. Este diagnóstico debe considerarse y confirmarse con estudios adicionales, como enzimas musculares elevadas y estudios de electromiografía y biopsia muscular si es necesario.
+
+### GIN-105 | Hipertensión crónica en el embarazo | 2024
+Tercigesta de 36 semanas de 30 años de edad. Posterior a una discusión presenta cefalea. Se halla en terapia con alfa metildopa desde las 8 semanas, bien controlada y con buena adherencia terapéutica. Examen: PA 130/80 mmHg, FC 90 X', T 37 ºC, FR 20 X' ¿Cuál es el diagnóstico?
+   A) Pre eclampsia severa
+   B) Eclampsia
+   C) Síndrome de Hellp
+  *D) Hipertensión crónica
+   E) Preeclampsia sobreagregada
+EXP: La paciente ha sido diagnosticada con hipertensión y ha estado en tratamiento con alfa metildopa desde las 8 semanas de gestación. Además, su presión arterial actual (130/80 mmHg) está dentro de un rango controlado, y a pesar de presentar cefalea (la cual probablemente es un síntoma aislado relacionado con la discusión o estrés), no presenta signos o síntomas de complicaciones agudas. Por este motivo, el diagnóstico más probable es hipertensión crónica (Alternativa D). La hipertensión crónica en la gestación es aquella hipertensión presente antes del embarazo o diagnosticada antes de las 20 semanas de gestación. Ante una gestante con hipertensión crónica es indispensable hacer el control de presión arterial durante todo el embarazo, así como valorar la aparición de hallazgos que puedan sugerir una complicación aguda agregada.
+
+### NEU-029 | Exacerbación de EPOC con acidosis grave: intubación | 2024
+Varón de 63 años es evaluado en triaje por estar desaturando y le administran oxigeno con máscara de reservorio. Antecedente de bronquitis. Hace 2 días, el esputo había aumentado y se tornó de color verdoso. Posteriormente presentó disnea y confusión. Examen: sibilancias espiratorias difusas; edema periférico. AGA: pH 7.08, PO2 50 mmHg, PCO2 60 mmHg ¿Cuál es la conducta inmediata a seguir?
+   A) Oxigeno por CBN
+   B) Administrar corticoides
+   C) Oxígeno a alto flujo
+  *D) Intubación orotraqueal
+   E) Ventilación no invasiva diferida
+EXP: En este caso, el paciente presenta una situación crítica con acidosis respiratoria severa, hipoxemia e hipercapnia, indicativa de insuficiencia respiratoria aguda. La administración de oxígeno por máscara de reservorio no ha mejorado su estado, lo que sugiere la necesidad de una intervención más agresiva. Por ese motivo, la conducta inmediata a seguir es intubación orotraqueal (Alternativa D). Esto permitirá un control más preciso de los niveles de oxígeno y dióxido de carbono, mejorando la ventilación y la oxigenación del paciente.
+
+### CIR-059 | Hernia femoral estrangulada | 2024
+Mujer de 74 años, presenta desde hace un día, dolor a nivel del tercio superior del miembro inferior derecho, náuseas, vómitos y ausencia de flatos. Antecedente de cesárea hace 40 años. Examen: Abdomen distendido, doloroso a la palpación profunda, se palpa masa de 2x2 cm por debajo del pliegue inguinal derecho, doloroso. RX simple de abdomen de pie: pila de monedas y ausencia de gas en ampolla rectal. ¿Cuál es el diagnóstico?
+   A) Íleo adinámico
+  *B) Hernia femoral estrangulada
+   C) Hernia inguinal encarcelada
+   D) Eventración abdominal estrangulada
+   E) Vólvulo de sigmoides
+EXP: La paciente presenta una masa dolorosa por debajo del pliegue inguinal derecho, síntomas de obstrucción intestinal (náuseas, vómitos y ausencia de flatos) y signos radiológicos de obstrucción (pila de monedas y ausencia de gas en la ampolla rectal). Esta presentación es más consistente con una hernia femoral estrangulada (Alternativa B), especialmente considerando la localización de la masa. Una hernia femoral estrangulada ocurre cuando el contenido herniado en el canal femoral pierde su suministro de sangre, causando dolor severo y síntomas de obstrucción intestinal. Es más común en mujeres, especialmente en edades avanzadas (tal como la paciente del caso).
+
+### PED-115 | Sarampión: manchas de Koplik | 2024
+Niño de 5 años, presenta febrícula, tos y coriza. A los días se añade fotofobia y sialorrea. Examen: T 38.5°C; piel con erupción máculo papular rojiza generalizada, conjuntivas eritematosas; en la mucosa bucal presenta manchas blanquecinas en cara interna de las mejillas. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome de Kawasaki
+  *B) Sarampión
+   C) Varicela
+   D) Eritema infeccioso
+   E) Rubéola
+EXP: El cuadro clínico que presenta el niño de 5 años es característico de una infección por sarampión (Alternativa B). El sarampión es una enfermedad viral altamente contagiosa que se presenta con un pródromo de febrícula, tos, coriza (rinorrea), fotofobia y sialorrea, seguido de una erupción máculo-papular rojiza generalizada que progresa cefalocaudalmente y puede comprometer conjuntivas presentándose eritematosas. Además, las manchas blanquecinas en la mucosa bucal, conocidas como manchas de Koplik, son patognomónicas de sarampión.

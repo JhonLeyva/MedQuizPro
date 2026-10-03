@@ -1,0 +1,224 @@
+### PED-107 | Faringoamigdalitis estreptocócica: amoxicilina 10 días | 2023
+Niño de 7 años, es traído por emergencia por fiebre, disfagia y malestar general. Examen: T 38.5ºC; faringe: eritematosa con exudado purulento y petequias en paladar. ¿Cuál es el tratamiento de primera elección?
+   A) Azitromicina por 3 días
+  *B) Amoxicilina por 10 días
+   C) Amoxicilina por 5 días
+   D) Azitromicina por 5 días
+   E) Penicilina benzatínica más azitromicina por 10 días
+EXP: Niño de 7 años con fiebre, disfagia, faringe eritematosa con exudado purulento y petequias en paladar, signos altamente sugerentes de faringoamigdalitis estreptocócica. En este contexto clínico se recomienda iniciar tratamiento empírico antibiótico dirigido a Streptococcus pyogenes, siendo el de elección la amoxicilina por 10 días, ya que es eficaz, segura, y reduce complicaciones como fiebre reumática o abscesos periamigdalinos. Los macrólidos como azitromicina se reservan para alérgicos a penicilina. El tratamiento por 5 días o 3 días no ha demostrado igual eficacia en erradicar el germen ni prevenir complicaciones inmunológicas. La duración completa de 10 días asegura la eliminación del estreptococo. No es necesario cultivo si hay criterios clínicos claros.
+
+### INF-050 | Meningitis tuberculosa con TB miliar | 2023
+Mujer de 22 años, desde hace 14 días presenta cefalea, vómitos explosivos y fotofobia. Examen: T 38.5ºC, rigidez de nuca. LCR de aspecto turbio con 200 células a predominio de linfocitos, proteínas de 90 mg/dL y glucosa disminuida. Rx de tórax: opacidades nodulares de tamaño de mijo uniforme con distribución regular en AHT. ¿Cuál es la etiología más probable?
+   A) Listeria monocytogenes
+  *B) Mycobacterium tuberculosis
+   C) Neisseria meningitidis
+   D) Estreptococcus pneumoniae
+   E) Cryptococcus neoformans
+EXP: Mycobacterium tuberculosis: Los síntomas y los hallazgos clínicos de laboratorio son sugestivos de meningitis tuberculosa. La cefalea, vómitos, fotofobia y signos meníngeos (rigidez de nuca), junto con un líquido cefalorraquídeo (LCR) turbio, linfocitosis, proteínas elevadas y glucosa disminuida, son típicos (PACIENTE ROBOT). Las opacidades nodulares en la radiografía de tórax también apoyan la tuberculosis como etiología.
+
+### PED-108 | Vacuna contra influenza: menores de 6 meses | 2023
+En niños: ¿Cuál es la contraindicación absoluta para la administración de la vacuna contra influenza?
+  *A) Lactantes menores de 6 meses
+   B) Pacientes con neoplasia
+   C) Inmunosuprimido
+   D) Antecedente de COVID-19 severa
+   E) Asma bronquial
+EXP: La vacuna contra la influenza estacional está indicada anualmente para toda la población mayor de 6 meses, especialmente en grupos de riesgo como niños pequeños, adultos mayores, embarazadas e inmunosuprimidos. La única contraindicación absoluta reconocida para su aplicación es la edad menor de 6 meses, ya que en este grupo la seguridad y eficacia no están establecidas, y no se cuenta con evidencia que respalde su uso. Por ello, se opta por la estrategia de “cocooning”, vacunando a los contactos cercanos del lactante. Los pacientes con neoplasias o inmunosupresión pueden recibir la vacuna inactivada, no la de virus vivos, y deben ser protegidos por su mayor riesgo de complicaciones. Un antecedente de COVID-19 severa no representa contraindicación, siempre que el paciente ya esté recuperado. La opción correcta, por tanto, es A: lactantes menores de 6 meses.
+
+### PSI-019 | Síndrome neuroléptico maligno | 2023
+Varón de 73 años, con diagnóstico de demencia, desde hace tres días recibe haloperidol 10 mg cada 8 horas por vía intravenosa, actualmente presenta rigidez muscular generalizada y diaforesis profusa. Examen: PA 80/50 mmHg, FC 110 X', T 39.2°C, incapacidad para la deambulación. Lab: creatinina 1.8 mg/dL, CPK 2220 U/L. ¿Cuál es el diagnóstico más probable?
+  *A) Síndrome neuroléptico maligno
+   B) Acatisia
+   C) Encefalopatía tóxica
+   D) Trastorno bipolar en fase de manía
+   E) Hipertermia maligna por anestesia
+EXP: En este caso clínico, la presentación de rigidez muscular generalizada, diaforesis profusa, hipotensión, taquicardia, hipertermia y elevaciones significativas de la creatinina y la creatina quinasa (CPK) sugieren fuertemente la posibilidad de síndrome neuroléptico maligno (Opción A). El Síndrome Neuroléptico Maligno (SNM) es una complicación potencialmente mortal asociada con el uso de antipsicóticos, como el haloperidol. Los síntomas incluyen rigidez muscular, alteraciones en el estado mental, hipertermia, taquicardia, hipotensión, diaforesis y cambios en los niveles de CPK. La elevación de la creatinina sugiere daño renal, que también puede ocurrir en el SNM.
+
+### GIN-096 | Sangrado uterino anormal con endometrio engrosado: biopsia | 2023
+Mujer de 28 años que acude a consulta por aumento del volumen menstrual desde hace 6 meses con ciclos regulares. Examen ginecológico: Normal. Eco TV: útero de 8 cm y endometrio de 24 mm. Test de embarazo negativo. ¿Cuál es la conducta a seguir?
+  *A) Biopsia de endometrio
+   B) Hidrosonografía
+   C) Legrado uterino
+   D) Laparotomía
+   E) Histerectomía total
+EXP: En este caso clínico, de una paciente de 28 años que presenta un aumento del volumen menstrual con ciclos regulares, cuyo examen ginecológico es normal, pero la ecografía transvaginal revela un útero de 8 cm y un endometrio de 24 mm, el cual está claramente engrosado, la conducta a seguir sería la biopsia de endometrio (Opción A). Este procedimiento es el más indicado pues permite tomar una muestra de endometrio y detectar posibles causas patológicas, como pólipos, hiperplasia endometrial o cáncer endometrial.
+
+### SP-066 | Vacunación VPH: coordinación intersectorial | 2023
+La cobertura de vacunación de VPH está en descenso. Usted es el médico jefe y la enfermera informa implementación de diversas estrategias como vacunación casa por casa; pero la mayoría de padres informa que sus hijos están en la escuela. ¿Qué acción se debe priorizar para mejorar las coberturas?
+  *A) Coordinación intersectorial
+   B) Notificación por escrito a los padres
+   C) Disponer que los agentes comunitarios vacunen
+   D) Informar al gobierno local
+   E) Suspender la vacunación hasta las vacaciones
+EXP: En este escenario, donde se observa un descenso en la cobertura de vacunación contra el Virus del Papiloma Humano (VPH), la acción que puede tener el mayor impacto para mejorar las coberturas es la Coordinación intersectorial (opción A). La coordinación intersectorial implica la colaboración entre diferentes sectores, como salud, educación y gobierno local, para abordar un problema común. En este caso, podría facilitar la comunicación y colaboración entre las entidades responsables de la vacunación y las instituciones educativas para garantizar que se implementen estrategias efectivas de vacunación, teniendo en cuenta la disponibilidad y el acceso de los estudiantes.
+
+### GIN-097 | Diabetes pregestacional: insulina | 2023
+Gestante con diabetes pregestacional, con antecedentes de dos partos macrosómicos, el tratamiento más adecuado es con:
+   A) Glibenclamida
+  *B) Insulina
+   C) Dieta
+   D) Metformina
+   E) Glimepirida
+EXP: La paciente presenta diabetes pregestacional, lo que implica un mayor riesgo de complicaciones materno-fetales como malformaciones, macrosomía, preeclampsia y muerte fetal intrauterina. Además, los antecedentes de partos anteriores con macrosomía aumentan el riesgo de repetirse la complicación en esta gestación. En estos casos, el tratamiento más efectivo y seguro durante el embarazo es la insulina, ya que no atraviesa la placenta y permite un control glicémico intensivo. Las alternativas orales como glibenclamida y metformina no están recomendadas de primera línea en gestantes con diabetes preexistente debido a la posibilidad de paso placentario y efectos secundarios. La dieta es importante, pero insuficiente como único tratamiento. Por tanto, el tratamiento de elección para una adecuada evolución materna y fetal es la insulina.
+
+### TRA-017 | Escoliosis: ángulo de Cobb | 2023
+Niño de 4 años, en estudio por escoliosis, al evaluar la radiografía de columna se encuentra el ángulo de Cobb en 30º. ¿Cuál es el grado de severidad?
+   A) Severa
+  *B) Moderada
+   C) Muy severa
+   D) Leve
+   E) Normal
+EXP: El ángulo de Cobb es la medida radiológica estándar para determinar la severidad de la escoliosis. Se calcula entre las vértebras más inclinadas del segmento curvo. En general, una escoliosis se clasifica como leve si el ángulo es menor a 20°, moderada entre 20° y 40°, y severa si supera los 40°. En este caso, un niño de 4 años con un ángulo de 30° se encuentra dentro del rango de escoliosis moderada, lo que suele requerir seguimiento más cercano y en muchos casos ortesis (corsé). El tratamiento dependerá del pronóstico de progresión de la curva, la edad ósea y la sintomatología. Escoliosis severa y muy severa se asocian con compromiso funcional o estético significativo, lo cual no es el caso aquí.
+
+### GIN-098 | Prolapso genital leve asintomático: ejercicios de Kegel | 2023
+Mujer de 55 años G1 P1001, acude a control ginecológico, asintomática. Examen: POPQ: Ba: - 1, longitud total de la vagina: 8 cm; palpación bimanual: útero de 7 cm, no masas, no doloroso. ¿Cuál es el manejo más adecuado?
+   A) Histerectomía total
+   B) Colpoperineoplastía anterior
+  *C) Ejercicios de Kegel
+   D) Histeropéxia
+   E) Colpocleisis
+EXP: La paciente es una mujer de 55 años, multípara, que acude asintomática a un control ginecológico. El examen con sistema POP-Q (Pelvic Organ Prolapse Quantification) reporta Ba: -1, lo cual corresponde a un prolapso leve de la pared anterior vaginal, es decir, sin protrusión fuera del introito. Además, no se identifican masas, dolor o síntomas de disconfort asociados. En pacientes asintomáticas con prolapsos leves, el tratamiento inicial es conservador, no quirúrgico. En este contexto, los ejercicios de Kegel son útiles para fortalecer el piso pélvico y evitar la progresión del prolapso. Procedimientos como colpoperineoplastía, his teropexia o histerectomía están indicados en grados mayores y en pacientes sintomáticas.
+
+### SP-067 | Autonomía: el paciente elige quién decide | 2023
+Varón de 77 años hospitalizado con diagnóstico de cáncer de próstata metastásico. Al conocer de su evolución desfavorable, solicita a su médico que los asuntos relacionados a su manejo sean tratados con su hijo mayor. Al momento, no hay alteraciones en el examen mental por lo que el médico acata su pedido. Esta decisión es compatible con el principio bioético de:
+   A) Beneficencia
+  *B) Autonomía
+   C) No maleficencia
+   D) Justicia
+   E) Confidencialidad
+EXP: En el caso clínico presentado, la decisión de permitir que el paciente elija a su hijo mayor como su representante médico es compatible principalmente con el principio de Autonomía (opción B). El principio de autonomía se refiere al respeto por la capacidad de autodeterminación de los pacientes, incluido su derecho a tomar decisiones informadas sobre su atención médica. Al respetar la capacidad del paciente para delegar la responsabilidad a otra persona sobre las decisiones que se deben tomar respecto a su salud, se está respetando la autonomía del paciente.
+
+### SP-068 | Atención primaria: equidad | 2023
+En el análisis de la situación de salud 2022 se identifica que la prevalencia de anemia en menores de 5 años en el distrito A es 55% y en el B es 5%. ¿Qué valor de la atención primaria de salud está afectado en este caso?
+   A) Participación
+   B) Sostenibilidad
+  *C) Equidad
+   D) Calidad
+   E) Universalidad
+EXP: La opción correcta es C. Equidad. La equidad en la atención primaria de salud se refiere a la provisión de atención sanitaria que no varía en calidad debido a características personales, geográficas, socioeconómicas o de cualquier otra índole. En este caso, la disparidad significativa en la prevalencia de anemia entre los menores de 5 años en los distritos A y B (55% frente a 5%, respectivamente) sugiere una falta de equidad en la distribución o acceso a los recursos de salud, intervenciones nutricionales, o programas de prevención y tratamiento de la anemia.
+
+### PED-109 | Urocultivo en el lactante: sondaje vesical | 2023
+Lactante de 6 meses, con sospecha de pielonefritis aguda. Antecedente: hace 2 meses presenta lesiones maculares en abdomen y pelvis; madre: presenta escabiosis. ¿Cuál es el método más adecuado para recolección de orina?
+   A) Punción suprapúbica
+  *B) Sondaje vesical
+   C) Orina a mitad de la micción (Chorro medio)
+   D) Bolsa colectora perineal
+   E) Orina de la primera micción en pañal
+EXP: Lactante de 6 meses con sospecha de pielonefritis aguda, cuadro que requiere diagnóstico microbiológico confiable. En este grupo etario, la orina debe obtenerse de forma estéril para evitar contaminación. Las opciones de punción suprapúbica y sondaje vesical son válidas para muestras estériles, pero la punción es más invasiva, dolorosa y con mayor riesgo. El sondaje vesical es menos invasivo, seguro y ampliamente aceptado como el método de elección en lactantes con sospecha de infección urinaria. El uso de bolsa colectora perineal se descarta por su alta tasa de contaminación (hasta 60%), y el chorro medio no es adecuado en menores de 2 años por falta de control voluntario de la micción. La presencia de lesiones en abdomen y pelvis, además de antecedentes de escabiosis, no contraindica el sondaje.
+
+### TRA-018 | Displasia de cadera: arnés de Pavlik | 2023
+Lactante de 2 meses de sexo femenino, nacida de parto podálico. Examen: asimetría de los pliegues de glúteos y muslos. Prueba de Ortolani (+). ¿Cuál es el tratamiento indicado?
+   A) Fijación interna
+  *B) Arnés de Pavlik
+   C) Osteotomía de cadera
+   D) Ortesis de abducción
+   E) Yeso pelvipédico inmediato
+EXP: La displasia del desarrollo de la cadera (DDC) es más frecuente en niñas, especialmente con factores de riesgo como presentación podálica, como en este caso. Los signos clínicos en lactantes incluyen asimetría de pliegues y una prueba de Ortolani positiva, lo que indica luxación reducible de la cabeza femoral. El tratamiento de elección hasta los 6 meses de edad es el arnés de Pavlik, que permite mantener la cadera en abducción y flexión, favoreciendo el desarrollo normal de la articulación sin necesidad de intervención quirúrgica. La fijación interna y la osteotomía están indicadas en etapas más tardías o si fracasa el tratamiento ortopédico. La órtesis de abducción también se usa, pero el arnés de Pavlik tiene mayor eficacia y seguridad en menores de 6 meses.
+
+### INF-051 | Neurocisticercosis | 2023
+Niño de 10 años, procedente de Ayacucho, acude a emergencia con convulsiones tónicoclónicas generalizadas con pérdida de la conciencia. RM cerebral: quiste parenquimatoso con protoescólex en su interior y numerosas calcificaciones. ¿Cuál es el diagnóstico probable?
+   A) Toxoplasmosis
+   B) Tuberculoma
+  *C) Neurocisticercosis
+   D) Absceso cerebral
+   E) Glioblastoma
+EXP: El cuadro clínico descrito sugiere una infección parasitaria del sistema nervioso central. Dada la procedencia del paciente y los hallazgos en la resonancia magnética cerebral, la neurocisticercosis (Opción C) es el diagnóstico más probable. La neurocisticercosis es una infección del sistema nervioso central causada por la larva del parásito Taenia solium (tenía porcina). Los quistes parenquimatosos con protoescólices y las calcificaciones son hallazgos típicos de esta enfermedad. Las convulsiones son la manifestación clínica más común de la neurocisticercosis, especialmente cuando hay quistes localizados en la corteza cerebral.
+
+### GAS-037 | Peritonitis bacteriana espontánea: ceftriaxona | 2023
+Varón de 52 años, con antecedentes de alcoholismo con cuadro de encefalopatía hepática grado II. Examen: PA 90/60 mmHg; T 38.3 ºC; despierto, asterixis (+); abdomen: dolor a la palpación, matidez desplazable, RHA (+). Líquido ascítico: leucocitos 7000/mm3 a predominio de neutrófilos y proteínas 5 g/L. ¿Cuál es el tratamiento indicado?
+   A) Ciprofloxacina
+  *B) Ceftriaxona
+   C) Amikacina
+   D) Azitromicina
+   E) Metronidazol
+EXP: El dolor abdominal a la palpación, la matidez desplazable y la presencia de leucocitos en el líquido ascítico sugieren una posible infección intraabdominal, como la peritonitis bacteriana espontánea (PBE). Este es un hallazgo común en pacientes con cirrosis hepática y ascitis. Se caracteriza por la infección bacteriana del líquido ascítico en ausencia de una fuente intraabdominal evidente. Los pacientes pueden presentar fiebre, dolor abdominal, sensibilidad a la palpación y otros signos de infección. El predominio de neutrófilos en el líquido ascítico es un hallazgo característico de la PBE. El tratamiento indicado en estos casos es Ceftriaxona (Opción B). La ceftriaxona es un antibiótico de tercera generación que tiene buena penetración en el líquido ascítico y es activo contra una amplia gama de bacterias, incluidos los patógenos más comunes implicados en la peritonitis bacteriana espo
+
+### SP-069 | Prevalencia y letalidad | 2023
+En el distrito Z desde el año anterior se inició un nuevo programa de tratamiento con insulina a los pacientes con diabetes. Para el presente año la letalidad es 0, atribuida al éxito del programa y se han notificado casos nuevos. ¿Cómo se encuentra la prevalencia de la diabetes en Z?
+  *A) Incrementada
+   B) Disminuida
+   C) Nula
+   D) Estancada
+   E) Igual a la incidencia
+EXP: La prevalencia de la diabetes en el distrito Z se determina mediante el cálculo de la proporción de individuos que tienen diabetes en un momento específico en relación con el tamaño total de la población en riesgo en ese mismo momento. En este caso, el éxito del programa de tratamiento con insulina ha llevado a una disminución en la letalidad (igual a 0) y, por otro lado, se han notificado nuevos casos que probablemente también llevarán un tratamiento exitoso. Esto significa que los pacientes con diabetes ahora están viviendo más tiempo debido al éxito del programa de tratamiento con insulina. Como resultado, habrá más personas viviendo con diabetes en el distrito Z en comparación con el año anterior. Por lo tanto, la prevalencia de la diabetes se ha incrementado (Opción A).
+
+### NRL-028 | Sospecha de hemorragia subaracnoidea: tomografía | 2023
+Mujer de 30 años, desde hace 3 horas presenta cefalea intensa asociado a vómitos explosivos. Hace una semana presentó cefalea que cedió espontáneamente. Examen: PA 160/70 mmHg, FC 60 X'; despierta, Glasgow 14, rigidez de nuca (+), diplopía, Babinski (+ ). ¿Cuál es la conducta inicial?
+   A) Punción lumbar
+   B) Arteriografía cerebral
+  *C) TEM cerebral
+   D) Diuréticos osmóticos
+   E) Nimodipino y alta
+EXP: Los hallazgos clínicos y el cuadro descrito sugieren la posibilidad de una hemorragia subaracnoidea (HSA). La HSA es una ruptura de un vaso sanguíneo en el espacio subaracnoideo del cerebro, generalmente debido a la rotura de un aneurisma cerebral. Los síntomas típicos incluyen cefalea súbita y severa, asociada a menudo con vómitos, rigidez de nuca y alteraciones del estado mental. La presencia de diplopía y el signo de Babinski pueden indicar la extensión del daño cerebral asociado con la hemorragia subaracnoidea. En este caso, la conducta inicial será realizar una TEM cerebral (Opción C). Este examen es la prueba de imagen de elección en la evaluación inicial de pacientes con sospecha de hemorragia subaracnoidea. Puede identificar la presencia de sangre en el espacio subaracnoideo y proporcionar información crucial sobre la localización y la extensión de la hemorragia.
+
+### CAR-041 | Cardiopatía hipertensiva | 2023
+Varón de 60 años con historia de disnea progresiva desde hace un año, duerme con 3 almohadas. Antecedente de HTA. Tabaquismo: 3 cigarros/día desde hace 5 años. Examen: PA 150/90 mmHg, FC 120 X´, FR 22 X´; crepitantes en bases de AHT, ritmo de galope; fondo de ojo: retinopatía grado IV. Rx tórax: cardiomegalia y congestión en ambas bases. ¿Cuál es la etiología de esta cardiopatía?
+  *A) Hipertensiva
+   B) Hipertrófica
+   C) Ateroesclerótica
+   D) Idiopática
+   E) Valvular reumática
+EXP: Dado que el paciente tiene antecedente de hipertensión con mal control y que presenta hallazgos sugestivos de congestión pulmonar secundaria a insuficiencia cardiaca (disnea, ortopnea y crepitantes en bases) así como retinopatía grado IV, lo más probable es que la etiología de su cardiopatía sea Hipertensiva (Opción A). La hipertensión arterial crónica puede causar remodelación del corazón, hipertrofia ventricular izquierda, insuficiencia cardíaca y otros cambios que son consistentes con los hallazgos observados en este paciente. La presión arterial elevada a lo largo del tiempo puede llevar a una sobrecarga en el corazón y, eventualmente, a la disfunción cardíaca.
+
+### GIN-099 | Tabaquismo en el embarazo: restricción del crecimiento | 2023
+Primigesta de 6 semanas acude a control prenatal asintomática. Ecografía obstétrica: embrión de 7 mm y LCF: 155X'. Antecedente: fuma 15 cigarrillos al día en promedio. ¿Cuál es el riesgo neonatal más probable?
+   A) Fisura palpebral corta
+   B) Hipoplasia nasal
+   C) Hipertelorismo ocular
+  *D) Retraso de crecimiento intrauterino
+   E) Macrosomía fetal
+EXP: Dado que la paciente fuma 15 cigarrillos al día durante el embarazo, el riesgo neonatal más probable en este caso sería Retraso de crecimiento intrauterino (Opción D). El consumo de tabaco durante el embarazo se ha asociado consistentemente con un mayor riesgo de RCIU. Esta complicación puede tener consecuencias graves para la salud del recién nacido, incluyendo un mayor riesgo de mortalidad perinatal, complicaciones respiratorias, problemas de desarrollo y mayores tasas de enfermedades crónicas en la vida posterior del niño.
+
+### GIN-100 | Salpingitis tras histerosonografía | 2023
+Mujer de 30 años, acude a emergencia por dolor en fosa iliaca derecha desde hace dos días, refiere que hace cinco días le realizaron una hidrosonografía. FUR: hace una semana. Examen: Dolor en fosa iliaca derecha, rebote dudoso. Tacto vaginal: dolor a la movilización de cérvix y a la palpación de anexo derecho. ¿Cuál es el diagnóstico más probable?
+  *A) Salpingitis
+   B) Quiste de ovario
+   C) Apendicitis
+   D) Embarazo ectópico
+   E) Torsión anexial
+EXP: Dado el cuadro clínico y los hallazgos en el examen físico, el diagnóstico más probable en este caso sería Salpingitis (Opción A). La salpingitis es la inflamación de las trompas de Falopio, generalmente causada por una infección bacteriana ascendente desde el tracto genital inferior. Los síntomas comunes incluyen dolor abdominal bajo, sensibilidad pélvica y fiebre. Dado el dolor en la fosa iliaca derecha y el dolor a la movilización del cuello uterino y la palpación del anexo derecho, la salpingitis es una posibilidad razonable, especialmente en una mujer sexualmente activa con antecedente reciente de hidrosonografía, que puede haber aumentado el riesgo de infección ascendente.
+
+### SP-070 | Tamizaje de VIH: prevención secundaria | 2023
+En el ámbito de un centro de salud se desarrolla una campaña dirigida a población de 18 a 29 años de edad para la detección de infección por VIH. ¿Qué nivel de prevención se está empleando?
+   A) Primario
+   B) Cuaternario
+  *C) Secundario
+   D) Terciario
+   E) Promoción de la salud
+EXP: La detección de infección por VIH en una población de 18 a 29 años se encuadra en el nivel de prevención secundario (Opción C). El nivel de prevención secundario se centra en la detección temprana de la enfermedad y la intervención para prevenir la progresión de la misma. En el caso del VIH, la detección temprana permite iniciar el tratamiento antirretroviral a tiempo, lo que puede reducir la carga viral, preservar la función inmunológica y mejorar los resultados a largo plazo. La campaña de detección de VIH en la población de 18 a 29 años se alinea con el objetivo de detectar la enfermedad en una etapa temprana.
+
+### CIR-057 | Hernia inguinal complicada | 2023
+Varón de 30 años, con dolor y distensión abdominal brusca, hace 4 horas. Antecedente: tumoración inguinal derecha desde hace un año. Examen: PA 110/60 mmHg, FC 86 X', FR 24 X'; BEG, afebril; abdomen: tumoración inguinal derecha de 3x3 cm, irreductible, distendido y doloroso en FID. Lab: leucocitos 12000/mm3. ¿Cuál es el diagnóstico?
+   A) Hernia inguinal recidivante
+  *B) Hernia inguinal complicada
+   C) Torsión testicular
+   D) Orquitis recidivante
+   E) Hidrocele a tensión
+EXP: Dado el cuadro clínico y los hallazgos de la exploración, el diagnóstico más probable en este caso sería una Hernia inguinal complicada (Opción B). Una hernia inguinal complicada ocurre cuando el contenido herniado se vuelve incarcerado o estrangulado, lo que puede conducir a una obstrucción intestinal o isquemia del tejido herniado. Los síntomas de dolor y distensión abdominal brusca, junto con la tumoración inguinal irreductible y dolorosa, son altamente sugestivos de una hernia inguinal complicada.
+
+### INF-052 | Hepatitis B: anti-HBs para comprobar inmunidad | 2023
+Estudiante de medicina de 20 años que empezará sus prácticas en el hospital. Desea saber si está protegido contra hepatitis B, pero no recuerda si ha recibido vacuna alguna después de los once años. ¿Qué examen solicitaría para resolver esta duda?
+   A) Anticuerpo anti-core IgG
+   B) Antígeno E
+  *C) Anticuerpo contra antígeno de superficie
+   D) Anticuerpo anti-core total
+   E) Antígeno de superficie (HBsAg)
+EXP: Dado que el estudiante desea confirmar si está protegido contra la hepatitis B debido a su próxima práctica en el hospital, el examen más adecuado sería Anticuerpo contra antígeno de superficie (Opción C). El anticuerpo contra el antígeno de superficie (anti-HBs) es un marcador de inmunidad contra la hepatitis B. La presencia de anti-HBs indica que la persona está protegida contra la infección por VHB y que ha desarrollado inmunidad después de la vacunación o la infección previa. Por lo tanto, este sería el examen más apropiado para determinar si el estudiante está protegido contra la hepatitis B.
+
+### CAR-042 | Soporte vital básico: seguridad de la escena | 2023
+Está esperando cruzar la calle y de repente la persona del costado se desploma, usted terminó su entrenamiento en RCP. ¿Cuál sería su actuación inicial?
+   A) Asegurar que la víctima respira
+   B) Colocar a la víctima boca arriba
+   C) Solicitar los servicios de emergencia
+  *D) Comprobar que el escenario sea seguro
+   E) Iniciar 30 compresiones torácicas
+EXP: Ante una situación en la que una persona se desploma inesperadamente, es crucial actuar de manera rápida y eficiente. La primera acción que se debe tomar en cualquier situación de emergencia es Comprobar que el escenario sea seguro (Opción D). Antes de acercarse a la víctima, es importante evaluar si hay peligros potenciales en el entorno, como tráfico, cables eléctricos caídos, fuego, etc. Si el escenario no es seguro, se deben tomar medidas para eliminar o minimizar los peligros antes de acercarse a la víctima.
+
+### GAS-038 | Hepatitis B postransfusional | 2023
+Niño de 7 años, cursa con fatiga, anorexia, pérdida de peso, urticaria, lesiones purpúricas e ictericia. Antecedentes: hace 7 semanas operado de apendicitis complicada recibió transfusión sanguínea en sala de operaciones. ¿Cuál es el diagnóstico probable?
+   A) Leptospirosis
+  *B) Hepatitis B
+   C) Hepatitis E
+   D) Hepatitis A
+   E) Hepatitis C aguda
+EXP: Dado que los síntomas del niño son consistentes con una infección viral hepática y teniendo en cuenta el antecedente de transfusión sanguínea, la opción más probable es una infección aguda por Hepatitis B (Opción B). La hepatitis B es una infección viral que afecta al hígado y puede causar fatiga, anorexia, pérdida de peso, ictericia y en ocasiones, manifestaciones cutáneas como urticaria y lesiones purpúricas. Además, el antecedente de transfusión sanguínea aumenta el riesgo de exposición al virus de la hepatitis B. Por lo tanto, considerando los síntomas presentados y el antecedente de la transfusión sanguínea, la hepatitis B es una posibilidad relevante a considerar.

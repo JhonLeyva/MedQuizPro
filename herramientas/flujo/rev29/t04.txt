@@ -1,0 +1,224 @@
+### NRL-022 | Hipertensión endocraneana: solución salina hipertónica | 2022
+Varón de 30 años hace 12 horas sufrió golpe en la cabeza con pérdida de conocimiento, al momento presenta cefalea global de intensidad moderada, vómitos explosivos, mareos y fotofobia. Fondo de ojo: edema de papilas. Glasgow 10 y descendiendo. ¿Cuál indicación es prioritaria?
+   A) Solución cristaloide isosmótica
+   B) Dimehidrinato sódico
+   C) Antiinflamatorios no esteroideos
+  *D) Solución salina hipertónica
+   E) Dexametasona endovenosa
+EXP: Varón de 30 años con historia de traumatismo craneoencefálico (TCE) hace 12 horas, que cursa con cefalea intensa, vómitos explosivos, fotofobia y alteración progresiva del sensorio (Glasgow en descenso). El hallazgo de edema de papila en el fondo de ojo confirma la presencia de hipertensión endocraneana (HTEC). Esta situación representa una emergencia neurológica que requiere reducción rápida de la presión intracraneana para evitar herniación cerebral. La solución salina hipertónica (hipertónica al 3% o superior) es el tratamiento de elección inicial en estos cuadros, pues reduce la presión osmótica cerebral sin agravar el edema. El dimenhidrinato trata náuseas, pero no resuelve el cuadro base. L os AINES están contraindicados por riesgo de sangrado intracraneal. Los cristaloides isotónicos no controlan la HTEC.
+
+### GIN-082 | Sospecha de embarazo ectópico: β-hCG | 2023
+Mujer obesa de 20 años acude por emergencia con dolor abdominal de inicio brusco en FID, náuseas y vómitos. Antecedente: régimen catamenial irregular. Examen: PA: 90/60 mgHg; piel pálida; Blumberg (+); tacto vaginal: dolor a la movilización del cérvix y se palpa masa dolorosa en el lado derecho. Ecografía abdominal: meteorismo. ¿Qué estudio está indicado?
+  *A) HCG subunidad beta
+   B) Proteína C reactiva
+   C) Rx simple de abdomen
+   D) TEM abdominal sin contraste
+   E) Paracentesis
+EXP: En una mujer joven con ciclo menstrual irregular, dolor en fosa iliaca derecha, signos de irritación peritoneal (Blumberg positivo) y una masa anexial, es fundamental descartar un embarazo ectópico roto, una causa potencialmente letal. El primer paso ante esta sospecha es solicitar una prueba de embarazo cuantitativa: HCG subunidad beta. Un resultado positivo redirige la conducta clínica hacia estudios gineco-obstétricos específicos y manejo quirúrgico de urgencia si hay signos de hemoperitoneo. Las demás alternativas no ofrecen información tan decisiva en esta etapa inicial del diagnóstico diferencial.
+
+### CB-026 | Intoxicación por cafeína | 2023
+Estudiante de medicina de 21 años, estando en el salón de clases, empieza a presentar agitación psicomotriz y compromiso del sensorio. Sus compañeras refieren que ingirió cuatro botellas de “bebidas energizantes”. Examen: PA: 180/100 mmHg, FC: 140 X’, F R: 28 X’, T°: 37°C, SatO₂: 93%; pupilas fotorreactivas; RC arrítmicos, no soplos; tendencia al sueño, no déficit motor. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome conversivo
+  *B) Sobredosis de cafeína
+   C) Ataque de pánico
+   D) Ansiedad extrema
+   E) Intoxicación por etanol
+EXP: La sobredosis de cafeína puede presentarse con síntomas como taquicardia, hipertensión, agitación, ansiedad, insomnio, náuseas y alteración del sensorio, los cuales son compatibles con el cuadro clínico descrito. El consumo excesivo de bebidas energizantes, que contienen altas dosis de cafeína, es una causa frecuente de intoxicación en jóvenes. La presencia de arritmias y compromiso neurológico leve refuerza este diagnóstico. No hay datos que apoyen un síndrome conversivo o un trastorno psiquiátrico puro como ansiedad o ataque de pánico.
+
+### OFT-020 | Cuerpo extraño vegetal en el oído | 2023
+Niño de 5 años es llevado por madre, porque se introdujo semilla en el conducto auditivo externo. ¿Cuál es la indicación?
+   A) Taponamiento con algodón
+   B) Irrigación con suero fisiológico
+  *C) Extracción instrumentada
+   D) Irrigación con glicerina
+   E) Irrigación con agua a presión
+EXP: Cuando el cuerpo extraño es una semilla o material vegetal, la irrigación está contraindicada, ya que puede hincharse y dificultar su extracción. Por tanto, la extracción instrumentada es el procedimiento indicado en estos casos. Se recomienda hacerlo en un ambiente controlado, idealmente por personal capacitado, para evitar lesiones en el conducto auditivo externo o membrana timpánica.
+
+### CAR-035 | Endocarditis infecciosa: hemocultivos | 2023
+Varón de 48 años con enfermedad renal crónica en diálisis con catéter de alto flujo, presenta desde hace 2 días, fiebre con escalofríos, sudoración nocturna profusa, mialgias e hiporexia. Examen: máculas hemorrágicas indoloras en palmas y plantas, soplo sistólico de novo en mesocardio. ¿Cuál es la conducta a seguir?
+   A) Mielocultivo
+   B) Ecocardiograma transesofágica
+  *C) Hemocultivo
+   D) Ecocardiograma transtorácico
+   E) Iniciar antibiótico sin tomar cultivos
+EXP: Este paciente presenta un cuadro clínico sugestivo de endocarditis infecciosa, especialmente por el antecedente de catéter y los hallazgos clínicos (soplo nuevo, máculas en palmas y plantas —lesiones de Janeway—). El primer paso diagnóstico en estos casos es obtener hemocultivos antes de iniciar antibióticos, idealmente tres muestras separadas en el tiempo, lo cual es fundamental para aislar el agente etiológico. El ecocardiograma (preferiblemente transesofágico) se realiza luego para confirmar compromiso valvular, pero los hemocultivos son prioritarios para el diagnóstico según los criterios de Duke.
+
+### INF-040 | Meningococo: quimioprofilaxis con rifampicina | 2023
+Varón de 17 años, familiar refiere que hace un día presente cefalea, fiebre, fotofobia y manchas equimóticas en la piel. Examen: PA: 130/90 mmHg, FC: 110X’, FR: 28X’, T°: 39°; confuso; equimosis y petequiales difusas en la piel, rigidez de nuca e hiperreflexia. Se decide iniciar quimioprofilaxis al personal de salud que contactó con el paciente; para ello usted indicaría:
+   A) Isoniazida
+   B) Etambutol
+   C) Pirazinamida
+  *D) Rifampicina
+   E) Ciprofloxacino por 7 días
+EXP: El cuadro clínico sugiere meningitis meningocócica, altamente contagiosa por vía aérea. Ante un caso sospechoso o confirmado, se debe iniciar quimioprofilaxis a los contactos cercanos para evitar más casos. El fármaco de elección es la rifampicina, eficaz par a erradicar el meningococo de la nasofaringe. Se administra típicamente por 2 días. Otras opciones incluyen ciprofloxacino o ceftriaxona en casos específicos (embarazo, alergias, etc.).
+
+### CB-027 | Intoxicación por monóxido de carbono: gases arteriales | 2023
+Joven de 20 años, queda atrapado en incendio en sótano. Al ser rescatado no evidencia quemaduras externas pero la vía aérea está semiobstruída por hollín. Es intubado y asisitido con O2 al 100%; ingresa a UCI con marcada insuficiencia respiratoria. Examen: PA: 80/50 mmHg, FC: 120 X’, FR: 25 X’(asistido) y SatO₂: 60%, AGA: pH 7.50, pCO2: 30 mmHg, HCO3: 20mEq/l, PO2: 400 mmHg y SatO₂: 99%. Lactato 6 mmol/l. Se plantea intoxicación por monóxido de carbono. ¿Cuál es la interpretación de los resultados de los gases arteriales?
+   A) Hipoxemia severa, sin hipoxia por disociación O2Hb
+   B) Hipoxemia leve con hipoxia por disociación O2Hb
+  *C) Hiperoxemia con hipoxia tisular por disociación O2Hb
+   D) Hipoxemia moderada con hipoxia por disociación O2Hb
+   E) Normoxemia sin hipoxia tisular
+EXP: El paciente presenta una intoxicación por monóxido de carbono (CO), típica en incendios en espacios cerrados (como un sótano), incluso sin quemaduras externas. El CO se une con alta afinidad a la hemoglobina, formando carboxihemoglobina, la cual no transporta oxígeno, lo que bloquea el transporte y liberación de oxígeno a los tejidos, provocando hipoxia tisular pese a una aparente buena oxigenación. Análisis de Gases Arteriales • PO₂ = 400 mmHg: indica hiperoxemia (por administración de O₂ al 100%). • SatO₂ = 99%: refleja la saturación de oxígeno medida por oxímetro, que no distingue entre oxihemoglobina y carboxihemoglobina, por lo tanto, no refleja oxigenación tisular real. • Lactato elevado (6 mmol/L): señala la presencia de metabolismo anaerobio, es decir, hipoxia tisular. • pH alcalino, pCO₂ bajo y HCO₃⁻ bajo: sugieren una alcalosis respiratoria compensada.
+
+### TRA-015 | Esguince de tobillo por inversión | 2023
+Futbolista de 32 años ingresa al hospital con dolor e inflamación en la cara lateral del tobillo. El médico diagnostica esguince por inversión. ¿Qué ligamento se ha lesionado?
+   A) Calcaneonavicular
+   B) Plantar larga
+  *C) Calcaneoperoneo
+   D) Tibial anterior
+   E) Deltoideo
+EXP: El esguince por inversión del tobillo es una de las lesiones más frecuentes en deportistas. Este mecanismo lesiona principalmente las estructuras del compartimiento lateral del tobillo. En dicho compartimiento se encuentran los ligamentos peroneoastragalino anterior, calcaneoperoneo y peroneoastragalino posterior. El ligamento más comúnmente afectado en estos casos es el peroneoastragalino anterior, pero si el esguince es más severo o el compromiso es mayor, el siguiente en lesionarse es el calcaneoperoneo, que conecta el peroné con el calcáneo y resiste fuerzas de inversión. Los ligamentos mencionados en otras alternativas (como el tibial anterior, calcaneonavicular y plantar largo) no forman parte del complejo lateral. En este caso, el cuadro clínico con dolor en la cara lateral del tobillo tras inversión orienta hacia lesión del ligamento calcaneoperoneo.
+
+### GIN-083 | Sangrado del tercer trimestre en establecimiento I-2: referir | 2023
+Se encuentra en un centro de salud I-2 de provincia y llega una gestante a término sin control prenatal refiriendo sangrado escaso de manera continua. Examen: AU: 34 cm; LCD; LF: 140x’. No dinámica uterina. ¿Cuál sería su actitud?
+   A) Realizar tacto vaginal
+   B) Inducir el parto
+   C) Darle de alta
+  *D) Derivar a un centro de mayor complejidad
+   E) Realizar amniotomía
+EXP: El sangrado genital en una gestante a término sin dinámica uterina ni controles prenatales requiere una evaluación inmediata en un centro con mayores recursos diagnósticos y terapéuticos. En un establecimiento I-2 no se dispone de ecografía obstétrica ni capacidad quirúrgica inmediata, por lo tanto, no es seguro realizar un tacto vaginal, ya que podría tratarse de una placenta previa, lo cual aumentaría el riesgo de hemorragia grave. Además, no se debe inducir el parto sin un diagnóstico preciso. La conducta correcta es derivar a un centro de mayor complejidad, donde se pueda evaluar adecuadamente la causa del sangrado y planificar el manejo más seguro para la madre y el feto.
+
+### PED-094 | Tos ferina en el lactante | 2023
+Lactante de 7 meses, es traída por presentar hace 2 semanas congestión nasal, luego se agrega tos paroxística que lo lleva al vómito y a la cianosis. Posterior a la tos se encuentra de buen estado general. ¿Cuál es el diagnostico más probable?
+   A) Síndrome obstructivo bronquial
+   B) Laringitis aguda
+   C) Rinofaringitis aguda
+  *D) Tos ferina
+   E) Neumonía atípica
+EXP: El caso describe un cuadro típico de tos ferina (bordetella pertussis), especialmente en lactantes: inicio con síntomas catarrales (congestión nasal), seguido por tos paroxística intensa, que puede provocar vómitos y episodios de cianosis, y un periodo de aparente mejoría entre los accesos de tos. El buen estado general entre accesos y la duración del cuadro son claves diagnósticas. En lactantes menores de un año, la tos ferina puede tener complicaciones graves, por lo que se debe sospechar clínicamente y tratar precozmente.
+
+### NEF-033 | Urocultivo: 100 000 UFC/mL | 2023
+¿A partir de cuantas unidades formadores de colonias (UFC) se considere el diagnóstico de infección urinaria?
+   A) 50 000
+   B) 20 000
+  *C) 100 000
+   D) 10 000
+   E) 1 000
+EXP: El diagnóstico de infección urinaria se establece generalmente cuando se encuentra un crecimiento de 100,000 UFC/mL de un único microorganismo en el urocultivo. Este umbral es utilizado para diferenciar entre una infección significativa y una posible contaminación. Valores inferiores a 100,000 UFC/mL pueden ser indicativos de una infección urinaria en algunos casos, pero no siempre son concluyentes sin la presencia de síntomas clínicos.
+
+### NEF-034 | Litiasis renal: oxalato de calcio | 2023
+Varón de 35 años acude a emergencia por dolor lumbar intenso y orina roja. Examen facies dolorosas, PPL (+) derecho. Rx abdomen: cálculo radiopaco en riñón derecho. Laboratorio: orina: hematíes >100/campo. Calcio sérico: 8.8 mg/dl, fosforo sérico: 3.5 mg/dl y urocultivo subsiguiente fue negativo: ¿Cuál es el tipo de cálculo más probable en este cuadro?
+   A) Estruvita
+   B) Ácido úrico
+   C) Cistina
+  *D) Oxalato de calcio
+   E) Fosfato de calcio
+EXP: El cuadro clínico sugiere un cálculo renal de oxalato de calcio, el tipo más común de cálculo renal. La presencia de un cálculo radiopaco en la radiografía abdominal y el dolor lumbar intenso son típicos de los cálculos renales de oxalato de calcio. Además, la orina con hematíes >100/campo es indicativa de sangrado asociado con la obstrucción del tracto urinario. Los niveles de calcio sérico no elevados (8.8 mg/dl) y el urocultivo negativo descartan infecciones urinarias como causa de cálculos, como los de estruvita. Los cálculos de ácido úrico o cistina también son posibles, pero menos probables debido a la ausencia de factores predisponentes como la acidosis urinaria o los antecedentes de cistinuria.
+
+### NEU-026 | Neumonía intrahospitalaria: bacilos gramnegativos | 2023
+Varón de 73 años que ingresó al hospital por un DVC isquémico; al octavo día presenta roncantes y polipneas, SatO₂: 90%, Rx tórax: consolidación basal derecha. ¿Qué etiologiía es la más probable?
+   A) Hongos
+   B) Flora mixta
+  *C) Bacilos Gram negativos
+   D) Cocos Gram positivos
+   E) Mycobacterium tuberculosis
+EXP: La consolidación basal derecha en este paciente, junto con la presencia de roncantes, polipneas y una saturación de oxígeno baja, sugiere una neumonía nosocomial asociada a la hospitalización por el DVC isquémico. En pacientes hospitalizados y de edad avanzada, los bacilos Gram negativos son la causa más común de neumonía nosocomial, especialmente en aquellos con comorbilidades como enfermedades cardiovasculares. Estos microorganismos incluyen Pseudomonas aeruginosa y Klebsiella pneumoniae, que son frecuentes en infecciones nosocomiales y tienen una alta resistencia a los antibióticos.
+
+### GIN-084 | Amenorrea anovulatoria: prueba de progesterona positiva | 2023
+Mujer de 25 años, acude por ausencia de menstruación desde hace un año. Examen: ginecológico: útero y ovarios normales. Laboratorio β- hCG negativo, FSH y LH normal: prolactina y a hormonas tiroideas normales. Se indica test de progesterona por 5 días y paciente logra menstruar. ¿Cuál es la causa de su amenorrea?
+  *A) Anovulatorias
+   B) Hipofisiaria
+   C) Hipotalámica
+   D) Uterina
+   E) Ovárica por falla prematura
+EXP: En una paciente con amenorrea secundaria, el primer paso es descartar embarazo con β-hCG. Al estar esta prueba negativa, se evalúan las hormonas FSH, LH, prolactina y TSH para identificar posibles causas hipofisarias o tiroideas. En este caso, todos los valores hormonales son normales. El test de progesterona se usa para evaluar la presencia de estrógenos endógenos y la funcionalidad del eje hipotálamo-hipófisis-ovario. Si tras administrar progesterona la paciente menstrúa, significa que hay producción estrogénica suficiente para desarrollar el endometrio, el eje hormonal funciona y el útero está sano. Por lo tanto, el diagnóstico es amenorrea por anovulación crónica, siendo la causa más común en mujeres jóvenes. Esto ocurre en síndromes como ovario poliquístico u otras disfunciones ovulatorias.
+
+### PED-095 | Coartación de aorta en el neonato | 2023
+Neonato de 18 horas. Peso al nacer: 3400 g. APGAR: 7 al minuto y 9 a los cinco minutos, con una buena tolerancia oral, no ha realizado deposiciones, ha miccionado. Examen: FC: 150 X’ FR: 48 X’, activo, rosado, tórax normal. Ruidos cardiacos normales, pulsos femorales más débiles en relación al pulso en miembro superior derecho. ¿Cuál es el diagnóstico presuntivo?
+   A) Comunicación interauricular
+   B) Comunicación interventricular
+  *C) Coartación de aorta
+   D) Corazón izquierdo hipoplásico
+   E) Tetralogía de Fallot
+EXP: En el neonato, la presencia de pulsos femorales débiles en comparación con los del miembro superior derecho es un hallazgo clave que sugiere coartación de aorta, una cardiopatía congénita que genera obstrucción al flujo en la aorta descendente. Generalmente se manifiesta en las primeras 48 horas de vida cuando comienza el cierre del ductus arterioso. La perfusión de los miembros inferiores disminuye, mientras que la circulación superior se mantiene con presión normal o aumentada. La clínica inicial puede ser sutil, por lo que la identificación de esta diferencia de pulsos es fundamental para el diagnóstico temprano.
+
+### PED-096 | Policitemia neonatal sintomática: exanguinotransfusión | 2023
+Ud. Evalúa a un recién nacido de 6 horas. Examen: peso: 3100 g. APGAR: 8 al minuto, 9 a los cinco minutos, FC: 156 X’, FR: 56 X’, piel apergaminada, pletórico, letárgico, trastorno para la succión; el resto del examen es normal. Laboratorio: glucotest: 55 mg/dl, Hto: 70%. ¿Cuál es el procedimiento a seguir?
+   A) Hidratación por vía oral
+  *B) Exanguineotransfusión
+   C) Hidratación por vía endovenosa
+   D) Fototerapia natural
+   E) Fototerapia
+EXP: El recién nacido presenta signos clínicos de hiperviscosidad: piel apergaminada, letargia, trastorno en la succión, acompañado de un hematocrito elevado (70%). La hiperviscosidad puede generar complicaciones graves como trombosis o compromiso neurológico. El manejo depende de la severidad clínica y del valor del hematocrito. Cuando hay síntomas y el hematocrito es ≥70%, está indicado realizar exanguineotransfusión parcial para disminuir la viscosidad sanguínea y mejorar la perfusión tisular, especialmente cerebral.
+
+### END-022 | Hipertiroidismo: metimazol | 2023
+Mujer de 25 años, acude al consultorio por debilidad muscular, intolerancia al calor, baja de peso con apetito conservado y amenorrea desde hace cinco meses. Examen: piel caliente y húmeda, temblor fino de manos y taquicardia. Laboratorio: TSH disminuido, T4L elevado, βhCG negativo. ¿Cuál es el tratamiento?
+  *A) Metimazol
+   B) Ácido acetil salicílico
+   C) Levotiroxina
+   D) Prednisona
+   E) Yodo radiactivo durante el embarazo
+EXP: La paciente presenta un cuadro clínico compatible con hipertiroidismo: pérdida de peso con apetito conservado, intolerancia al calor, amenorrea, temblor fino y taquicardia. Los exámenes confirman el diagnóstico: TSH suprimida y T4 libre elevada. El tratamiento de primera línea en este contexto es con antitiroideos de síntesis, siendo el metimazol el fármaco de elección en la mayoría de los casos no gestantes. Las demás opciones no corrigen la causa del hipertiroidismo.
+
+### REU-025 | Hidradenitis supurativa | 2023
+Estibador de 48 años, se queja desde hace un mes de tumoraciones dolorosas en sus axilas y hace una semana drenan pus. Examen: afebril. Tumoraciones en axilas en 1 cm de diámetro, eritematosas, algunas drenan pus y otras con cicatrices. Resto del examen normal. ¿Cuál es el diagnóstico más probable?
+  *A) Hidradenitis supurativa
+   B) Forunculosis
+   C) Ántrax estafilocócico
+   D) Tuberculosis ganglionar
+   E) Linfadenitis tuberculosa
+EXP: El diagnóstico más probable es hidradenitis supurativa, una enfermedad inflamatoria crónica de la piel que afecta principalmente a las áreas con glándulas sudoríparas apocrinas, como las axilas. La presencia de tumoraciones dolorosas, algunas de las cuales drenan pus y otras presentan cicatrices, es característica de esta afección. La evolución crónica y la recurrencia de los abscesos, junto con la ausencia de fiebre, descartan infecciones bacterianas agudas como la forunculosis o el ántrax. La hidradenitis supurativa se asocia con factores como el sudor, la fricción y, en ocasiones, con antecedentes familiares. El tratamiento se enfoca en el control de la inflamación y la prevención de brotes recurrentes.
+
+### PED-097 | Reanimación neonatal: pasos iniciales | 2023
+Recién nacido de parto eutócico de 34 semanas de edad gestacional, nace flácido y sin esfuerzo respiratorio. Usted solicita el clampaje inmediato del cordón umbilical e inmediatamente procede a:
+  *A) Proveer calor, secar, posicionar vía aérea y aspirar secreciones
+   B) Proveer calor e iniciar ventilación a presión positiva
+   C) Aspirar secreciones e iniciar ventilación mecánica
+   D) Proveer oxígeno al 100% con cánula nasal
+   E) Administrar adrenalina endovenosa
+EXP: En un recién nacido de 34 semanas con flacidez y sin esfuerzo respiratorio, el manejo inicial debe ser proveer calor, secar, posicionar vía aérea y aspirar secreciones. Esto forma parte del protocolo estándar de reanimación neonatal para asegurar una adecuada respiración y circulación. En este caso, la prioridad es mantener la temperatura corporal del recién nacido, ya que los prematuros son particularmente vulnerables a la hipotermia. Secar al bebé y posicionar la vía aérea adecuadamente son pasos esencial es para facilitar la respiración. La aspiración de secreciones solo se realiza si hay obstrucción de la vía aérea. Si, a pesar de estas maniobras, el recién nacido sigue sin respirar, se procederá a la ventilación con presión positiva.
+
+### GIN-085 | Toxicidad por sulfato de magnesio | 2023
+Gestante de 32 semanas, presenta preclampsia con signos de severidad; siendo manejada con nifedipino y sulfato de magnesio, presenta diuresis de 10 ml/hora y FR: 10 X’. La medida más adecuada es:
+   A) Indicar betametasona
+   B) Suspender el nifedipino
+  *C) Suspender el sulfato de magnesio
+   D) Indicar una cesárea
+   E) Aumentar la dosis de sulfato de magnesio
+EXP: La gestante con preeclampsia severa, diuresis de 10 ml/hora y frecuencia respiratoria de 10 respiraciones por minuto presenta signos de toxicidad por sulfato de magnesio. La medida más adecuada es suspender el sulfato de magnesio, ya que los síntomas de toxicidad incluyen disminución de la diuresis y depresión respiratoria, como en este caso. La toxicidad por sulfato de magnesio puede ser grave, afectando tanto la función renal como respiratoria, por lo que su suspensión es fundamental. La administración de betametasona podría considerarse para la maduración pulmonar fetal, pero no es la prioridad en este momento. La cesárea solo se indicaría si hay una amenaza inminente para la vida materna o fetal.
+
+### INF-041 | Oxiuriasis en la niña: prurito vulvar y perianal | 2023
+Niña de 4 años presenta prurito vaginal y perianal e irritabilidad nocturna; madre refiere que las molestias aparecieron aproximadamente hace ocho días. Un día antes del a consulta nota que presenta secreción en la ropa interior. ¿Cuál es el agente causal de la sintomatología?
+   A) Trichomonas vaginalis
+  *B) Enterobius varmicularis
+   C) Candida albicans
+   D) Escherichia coli
+   E) Gardnerella vaginalis
+EXP: La sintomatología descrita, que incluye prurito vaginal y perianal, irritabilidad nocturna y secreción en la ropa interior, es característica de Enterobius vermicularis, el parásito responsable de la oxiuriasis. Este nematodo causa picazón intensa, especialmente en la región perianal, debido a la migración de las hembras del parásito para depositar sus huevos. Es común que los síntomas se agraven por la noche, lo que lleva a la irritabilidad. La presencia de secreción vaginal puede ser secundaria a la irritación local. El diagnóstico se confirma mediante la observación de los huevos del parásito, generalmente con la técnica de la "prueba del celo" (observación de los huevos adheridos al área perianal). Las otras opciones, como Trichomonas vaginalis, Candida albicans y Escherichia coli, pueden causar infecciones vaginales o urinarias, pero no son responsables de este patrón sintomático en
+
+### GIN-086 | Retención placentaria con hemorragia: extracción manual | 2023
+Durante su SERUMS Ud. Recibe una puérpera inmediata de parto domiciliario quien no ha expulsado la placenta desde hace una hora. Examen: útero a nivel de la cicatriz umbilical, se evidencia sangrado profuso en cavidad vaginal sin descenso del cordón umbilical. ¿Cuál es la conducta a seguir?
+  *A) Extracción manual de placenta
+   B) Manejo expectante
+   C) Uso de oxitocina
+   D) Legrado uterino
+   E) Histerectomía inmediata
+EXP: En este caso, la conducta más adecuada es la extracción manual de placenta. La paciente se encuentra en el período inmediato postparto, sin haber expulsado la placenta después de una hora, lo que sugiere una posible retención placentaria. La ausencia de descenso del cordón umbilical y el sangrado profuso son signos de que la placenta podría estar adherida o retenida en la cavidad uterina. La extracción manual de la placenta es necesaria para evitar complicaciones graves como la hemorragia postparto masiva, que puede poner en riesgo la vida de la paciente. El manejo expectante no es apropiado debido al sangrado continuo, y el uso de oxitocina solo no garantiza la expulsión de la placenta en estos casos. El legrado uterino es innecesario en este contexto, ya que no se trata de una evacuación uterina por tejido no placentario, sino de una intervención para retirar la placenta retenida.
+
+### GAS-033 | Pancreatitis aguda grave con choque: fluidoterapia | 2023
+Mujer de 52 años, obesa presenta desde hace 24 horas dolor epigástrica intenso irradiado en cinturón. PA: 65/40 mmHg, soporosa, TEM abdominal: páncreas con agrandamiento difuso, contorno irregular, inflamación alrededor de la glándula y acumulación de líquido intrapancreático. ¿Cuál es la medida terapéutica inicial?
+   A) Antibioticoterapia profiláctica
+  *B) Fluidoterapia agresiva
+   C) Nutrición parenteral total
+   D) Inhibidores de la proteasa
+   E) Colecistectomía de urgencia
+EXP: La paciente presenta una pancreatitis aguda grave, evidenciada por dolor epigástrico intenso en cinturón, hipotensión (PA 65/40 mmHg), estado mental alterado (soporosa) y hallazgos tomográficos característicos. La medida terapéutica inicial más importante es la fluidoterapia agresiva, ya que la hipovolemia secundaria a la tercera espacio e inflamación severa es una causa común de choque en estos casos. La restitución adecuada del volumen intravascular mejora la perfusión tisular y reduce el riesgo de complicaciones sistémicas. El uso de antibióticos, nutrición parenteral o inhibidores de proteasa no son prioritarios en la fase inicial del manejo. La reanimación con cristaloides debe iniciarse lo antes posible, guiada por parámetros clínicos y hemodinámicos.
+
+### NEF-035 | Glomerulonefritis aguda postinfecciosa | 2023
+Varón de 18 años que hace dos semanas presenta infección respiratoria alta, desde hace seis días edema de MMII y hematuria. Examen: PA: 150/100 mmHg. Laboratorio: creatinina: 1.2 mg/dl; orina cilindros hemáticos, proteínas: 1.2g/24 h. ¿Cuál es el diagnóstico más probable?
+   A) Glomerulonefritis membranoproliferativa
+   B) Nefropatía por Ig A
+  *C) Glomerulonefritis aguda postinfecciosa
+   D) Glomerulonefritis por lesiones mínimas
+   E) Síndrome de Alport
+EXP: El paciente presenta un cuadro clásico de glomerulonefritis aguda postinfecciosa, caracterizado por la aparición de hematuria, edema e hipertensión tras una infección respiratoria alta (frecuentemente por estreptococo beta hemolítico del grupo A ). El hallazgo de cilindros hemáticos y proteinuria refuerza el diagnóstico de síndrome nefrítico. Aunque la nefropatía por IgA también puede seguir a infecciones respiratorias, su presentación es más rápida (coincide o se da a las 24-48h). En cambio, la glomerulonefritis postinfecciosa aparece generalmente una a dos semanas después, como en este caso. La función renal aún está conservada (creatinina normal), lo cual es común en fases iniciales.
+
+### SP-057 | Ciclo de la violencia: acumulación de tensión | 2023
+En relación al maltrato de la mujer. ¿Cuál es la frase en la que se produce una sucesión de pequeños episodios que lleva a roces permanentes entre la pareja?
+   A) Aguda de violencia
+   B) Arrepentimiento
+  *C) Acumulación de tensión
+   D) Reconciliación
+   E) Luna de miel
+EXP: La fase de acumulación de tensión es la primera etapa del ciclo de la violencia en el maltrato hacia la mujer. En esta fase, se desarrollan una serie de pequeños conflictos o incidentes que generan un ambiente de estrés constante y malestar, dando lugar a roces permanentes entre la pareja. La víctima suele intentar calmar la situación, mientras el agresor se vuelve más irritable. Esta acumulación puede desencadenar la siguiente fase: el episodio agudo de violencia. Reconocer esta fase es clave para intervenir antes de que la violencia se intensifique.

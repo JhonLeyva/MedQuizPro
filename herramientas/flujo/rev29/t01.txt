@@ -1,0 +1,224 @@
+### PED-083 | Bronquiolitis aguda | 2022
+Lactante de 7 meses ingresa a emergencia por presentar dificultad respiratoria. Hace 3 días inició cuadro de congestión nasal, rinorrea, tos y fiebre. Al examen: FR 80 x', FC 150 x', taquipnea, polipnea, tórax con sonoridad incrementada, MV pasa bien e n ACP, sibilantes difusos. ¿Cuál es el diagnóstico probable?
+  *A) Bronquiolitis aguda
+   B) Crup viral
+   C) Debut de asma bronquial
+   D) Neumonía viral
+   E) Cuerpo extraño en vía aérea
+EXP: Lactante menor con síntomas respiratorios altos (congestión nasal, rinorrea, tos) que evolucionan a dificultad respiratoria marcada con sibilancias difusas y signos de atrapamiento aéreo (taquipnea, tórax hipersonoro). Esto configura el cuadro típico de bronquiolitis aguda, causada generalmente por el virus respiratorio sincitial (VRS). La edad del paciente y la presentación clínica lo diferencian del asma (inusual antes del año), del crup (que presenta estridor y tos perruna) y de la neumonía viral (que suele acompañarse de ruidos húmedos y fiebre más alta). La bronquiolitis es una enfermedad obstructiva de vía aérea pequeña que genera hipoxemia por mala ventilación alveolar, siendo la principal causa de hospitalización en menores de 2 años.
+
+### PED-084 | Síndrome de aspiración meconial | 2022
+Recién nacido de 40 semanas de edad gestacional, producto de parto prolongado, líquido amniótico meconial, presenta taquipnea y quejido audible. Al examen: FR 70 x', tirajes subcostales e intercostales, MV disminuido en ACP. ¿Cuál es la sospecha diagnóstica?
+   A) Neumonía neonatal
+   B) Atelectasia neonatal
+   C) Enfermedad de membrana hialina
+  *D) Síndrome de aspiración de líquido meconial
+   E) Taquipnea transitoria del recién nacido
+EXP: Neonato a término con factores de riesgo perinatal importantes como parto prolongado y líquido meconial espeso, que presenta dificultad respiratoria desde el nacimiento con hallazgos típicos de síndrome de aspiración meconial. El hallazgo clínico más sugerente es la disminución del murmullo vesicular (MV) por obstrucción de vías aéreas con meconio. La taquipnea y tirajes severos refuerzan el diagnóstico. Se descarta enfermedad de membrana hialina por no ser prematuro. La neumonía neonatal es posible, pero el antecedente meconial es más específico. La atelectasia es un hallazgo posible, pero como diagnóstico aislado no explica todo el cuadro. Así, el diagnóstico más probable es síndrome de aspiración meconial.
+
+### GAS-025 | Síndrome de Mallory-Weiss | 2022
+Mujer de 35 años de edad, sin antecedentes de enfermedad digestiva ni consumo de medicamentos. Refiere ingesta de alcohol moderada en una reunión social la noche anterior. Consulta por episodio de náuseas y vómitos exigentes con sangre, por lo que acude a Emergencia. ¿Cuál es el diagnóstico más probable?
+  *A) Síndrome de Mallory-Weiss
+   B) Úlcera péptica sangrante
+   C) Divertículo de Zenker
+   D) Cáncer esofágico
+   E) Várices esofágicas
+EXP: Paciente adulta con antecedente claro de vómitos intensos tras ingesta alcohólica, que desarrolla hematemesis fresca. Este patrón es clásico del síndrome de Mallory-Weiss, que corresponde a una laceración mucosa del cardias o esófago distal secundaria a esfuerzo emético. Es una causa frecuente de hemorragia digestiva alta en personas jóvenes tras vómitos intensos, sin historia de enfermedad ulcerosa. Se descarta úlcera péptica por falta de síntomas previos; el divertículo de Zenker causa disfagia y regurgitación, no sangrado; el cáncer esofágico no presenta sangrado súbito postemético. La cronología y síntomas agudos apuntan a un desgarro de Mallory-Weiss como la causa más probable.
+
+### PED-085 | Intoxicación por plaguicidas: descontaminación | 2022
+Niño de 6 años de edad, cuando se encontraba recogiendo fruta en un campo fumigado, presenta bruscamente vómitos, disnea y temblores, motivo por el cual es llevado a Emergencia. ¿Cuál es la primera medida a realizar?
+   A) Anticonvulsivantes
+  *B) Baño corporal
+   C) Reposición electrolítica
+   D) Prescribir antieméticos
+   E) Lavado gástrico inmediato
+EXP: Niño con exposición reciente a pesticidas (campo fumigado) que presenta un cuadro agudo de intoxicación colinérgica: vómitos, disnea, temblores. Esto sugiere intoxicación por órganos fosforados o carbamatos, los cuales inhiben la acetilcolinesterasa, produciendo exceso de acetilcolina. El primer paso crucial es evitar más absorción del tóxico, por lo que la prioridad es retirar la ropa contaminada y realizar un baño corporal completo con agua y jabón. Esta medida limita la exposición cutánea adicional. Si no se realiza esta descontaminación inicial, el tratamiento farmacológico posterior pierde efectividad. Posteriormente se administran atropina y pralidoxima, según el caso clínico. Antieméticos o anticonvulsivantes no son lo prioritario en la fase inicial.
+
+### GIN-072 | Papanicolaou tras histerectomía total | 2022
+Mujer de 45 años que acude a consultorio para toma de Papanicolaou. A la especuloscopía se nota ausencia del cérvix. La paciente manifiesta que le realizaron una histerectomía abdominal total hace 2 años por miomatosis uterina. ¿Cuál es la decisión a tomar?
+  *A) Obviar el Papanicolaou
+   B) Indicar colposcopia
+   C) Realizar test de Schiller
+   D) Indicar prueba de detección de VPH
+   E) Citología de cúpula vaginal anual
+EXP: Paciente con antecedente de histerectomía total por miomatosis, es decir, extirpación de útero y cuello uterino. La toma de Papanicolaou está indicada para detección de cáncer de cuello uterino, por lo que no se justifica su realización si el cuello ha sido extirpado y la cirugía no fue por lesión premaligna o cáncer. En ausencia de antecedentes de neoplasia intraepitelial cervical (NIC) o cáncer cervical, no se requiere tamizaje adicional. Tampoco es necesario el test de VPH ni colposcopia, ya que el riesgo oncológico es bajo. La conducta correcta es obviar el Papanicolaou. Se recomienda documentar el antecedente quirúrgico y los motivos de exclusión del tamizaje en la historia clínica.
+
+### CIR-049 | Hernia crural estrangulada | 2022
+Mujer de 70 años acude por presentar desde hace 48 horas dolor abdominal tipo cólico intenso e intermitente, con náuseas y vómitos. Al examen: tumoración ovalada de 5 cm de diámetro, violácea, irreductible y dolorosa en región femoral derecha. ¿Cuál sería el diagnóstico?
+   A) Linfogranuloma venéreo
+   B) Adenitis inguinal necrosada
+   C) Hernia obturatriz
+  *D) Hernia crural estrangulada
+   E) Hernia inguinal indirecta incarcerada
+EXP: Paciente adulta mayor con clínica de obstrucción intestinal: dolor abdominal tipo cólico, vómitos y una tumoración en la región femoral. La localización femoral, la consistencia irreductible, el dolor y el color violáceo de la piel son indicativos de una hernia crural (femoral) estrangulada. Esta entidad es más frecuente en mujeres añosas debido a la anatomía del canal femoral. La estrangulación implica compromiso vascular del contenido herniado, generando isquemia y dolor severo. El diagnóstico diferencial incluye linfadenopatías o infecciones, pero la presentación súbita y obstructiva descarta esas opciones. Es una urgencia quirúrgica.
+
+### NEU-022 | Tromboembolismo pulmonar tras cirugía de cadera | 2022
+Mujer de 68 años, postoperada de cadera, súbitamente presenta disnea marcada, palpitaciones, diaforesis y dolor torácico pleurítico. Al examen: taquipnea, taquicardia e hipotensión arterial. ¿Cuál es el diagnóstico más probable?
+   A) Angina inestable
+   B) Edema agudo pulmonar
+   C) Shock hipovolémico
+  *D) Tromboembolismo pulmonar
+   E) Neumotórax espontáneo
+EXP: Paciente postoperada de cadera, con aparición súbita de disnea, palpitaciones, diaforesis, dolor torácico pleurítico y signos de inestabilidad hemodinámica, cuadro clínico altamente sugestivo de tromboembolismo pulmonar masivo. La cirugía ortopédica es un factor de riesgo importante para tromboembolismo venoso, y la clínica con taquicardia, hipotensión y disnea aguda lo refuerza. El dolor torácico pleurítico indica compromiso pulmonar y no un síndrome coronario. El edema agudo pulmonar se acompaña de estertores y ortopnea, lo cual no se menciona. Se trata de una emergencia que requiere diagnóstico inmediato con angio-TC y tratamiento anticoagulante o trombolítico.
+
+### END-019 | Nefropatía diabética: microalbuminuria | 2022
+Mujer de 47 años diagnosticada hace 10 años de diabetes, no presenta sintomatología de otras complicaciones, excepto que hace 3 meses le diagnosticaron retinopatía. ¿Qué prueba le solicitaría pensando en inicio de nefropatía diabética?
+   A) Proteinuria de 24 horas
+  *B) Microalbuminuria
+   C) Creatinina sérica
+   D) Excreción fraccional de sodio
+   E) Glucosa en orina
+EXP: La paciente con 10 años de diabetes y evidencia de retinopatía ya se encuentra en una etapa donde es necesario descartar otras complicaciones microvasculares, como la nefropatía diabética. La primera alteración renal es la microalbuminuria, que precede a la proteinuria franca. Esta prueba detecta excreción de albúmina entre 30–300 mg/día, antes de que se altere la creatinina. Es altamente sensible y recomendada en guías como parte del despistaje anual en pacientes con diabetes de más de 5 años. La proteinuria de 24 horas es útil en fases avanzadas, pero no en el inicio. La creatinina puede permanecer normal en etapas iniciales. Por tanto, la microalbuminuria es el estudio inicial de elección.
+
+### PED-086 | Contacto de tuberculosis: terapia preventiva | 2022
+Escolar de 6 años de edad, consulta por ser contacto de TBC intradomiciliaria. Asintomático. Examen físico, de laboratorio y radiografía de tórax normales. PPD 10 mm. ¿Cuál es la conducta a seguir?
+  *A) Terapia preventiva con isoniazida
+   B) Antituberculosos de primera línea
+   C) Antituberculosos de segunda línea
+   D) Control mensual del caso sin tratamiento
+   E) Repetir el PPD en un año
+EXP: Escolar de 6 años, contacto intradomiciliario de TBC, sin síntomas ni hallazgos clínico-radiológicos. Sin embargo, presenta prueba de tuberculina positiva (PPD 10 mm), lo cual indica infección latente por Mycobacterium tuberculosis. En este escenario, las guías de manejo establecen que debe iniciarse terapia preventiva con isoniazida por al menos 6 meses, para evitar progresión a tuberculosis activa. No está indicado el tratamiento con esquema completo, ya que no hay signos de enfermedad activa. El control sin tratamiento no es adecuado por el alto riesgo de conversión. Así, la indicación correcta es iniciar isoniacida como profilaxis.
+
+### SP-050 | Conflicto de intereses en investigación | 2022
+Un consorcio fabricante de medicamentos está interesado en demostrar la eficacia de su producto “A” para el tratamiento del cáncer de próstata, aunque los niveles de evidencia refieren que no supera a “B”, que es el tratamiento actualmente aceptado. Para ello entra en contacto con u n destacado investigador en quimioterapia y le solicita hacer el estudio demostrativo, ofreciéndole un pago adicional importante para que las conclusiones demuestren que A es más eficaz. El citado investigador, de aceptar, estaría enfrentando:
+   A) Violar la autonomía
+   B) Atentar contra la autoría
+  *C) Conflicto de intereses
+   D) Desechar principio de beneficencia
+   E) Error de muestreo
+EXP: El caso plantea un dilema ético relacionado con la presión financiera a un investigador para influir en las conclusiones de un estudio. Aunque el fármaco “A” no presenta mejor evidencia que “B”, se pretende validar su uso mediante compensación económica. Esta situación configura claramente un conflicto de intereses. No se vulnera directamente la autonomía del paciente, ni se atenta contra la autoría del trabajo. Tampoco se descarta el principio de beneficencia, aunque este sí puede quedar comprometido si se actúa en contra del bienestar. El conflicto de intereses puede sesgar resultados y afectar decisiones clínicas. La respuesta correcta es conflicto de intereses, opción C.
+
+### INF-032 | Meningitis bacteriana: líquido cefalorraquídeo | 2022
+Varón de 25 años, hace cinco días inicia cuadro de fiebre, horas después presenta cefalea global, pulsátil de marcada intensidad y vómitos, algunos de ellos explosivos. Estudio de LCR: turbio, 12000 células/mm3 a predominio de neutrófilos, glucosa 40 mg/dl, proteínas 240 mg/dl. ¿Cuál es la etiología más probable?
+   A) Viral
+   B) Micótica
+  *C) Bacteriana
+   D) Protozoario
+   E) Tuberculosa
+EXP: Paciente con fiebre, cefalea pulsátil intensa, vómitos explosivos y LCR turbio con 12,000 células/mm³, predominio de neutrófilos, glucosa disminuida y proteínas elevadas. Este patrón de líquido cefalorraquídeo es característico de una meningitis bacteriana. El descenso de glucosa refleja consumo por bacterias y células inflamatorias. La elevación proteica indica daño de la barrera hematoencefálica. El número celular elevado, con predominancia de neutrófilos, orienta a una etiología piogénica. Las causas virales suelen tener LCR claro, linfocitosis, glucosa normal y proteínas poco elevadas. Las micóticas y parasitarias son subagudas y afectan inmunodeprimidos.
+
+### SP-051 | Promoción de la salud en diabetes: sedentarismo | 2022
+Como SERUMS del establecimiento I-2 supervisarás y realizarás actividades preventivo-promocionales a favor de las personas con factores de riesgo y DM 2 diagnosticada. ¿Qué tema relacionado al estilo de vida priorizarás?
+  *A) Sedentarismo
+   B) Actividad laboral
+   C) Genética
+   D) Migración del área urbana
+   E) Lugar de nacimiento
+EXP: En el primer nivel de atención, el abordaje de pacientes con factores de riesgo y diabetes mellitus tipo 2 se enfoca principalmente en intervenciones educativas. Dentro de los determinantes modificables, el sedentarismo es uno de los más prevalentes y de mayor impacto sobre la salud metabólica. Su corrección mejora la sensibilidad a la insulina, reduce el riesgo cardiovascular y favorece el control glicémico. Si bien existen otros factores relevantes como la dieta o el estrés, la actividad física es un eje transversal en prevención y tratamiento.
+
+### INF-033 | Toxoplasmosis cerebral en VIH | 2022
+Varón de 29 años con VIH en TARV irregular, acude por cefalea y convulsiones tónico-clónicas. Al examen: hemiparesia braquiocrural derecha. Laboratorio: CD4 102 células/mm3. RMN cerebral: lesión subcortical frontal izquierda de 1 cm de diámetro, con captación de contraste en anillo y 3 lesiones similares. ¿Cuál es el diagnóstico más probable?
+   A) Linfoma cerebral primario
+  *B) Toxoplasmosis cerebral
+   C) Leucoencefalopatía multifocal progresiva
+   D) Meningoencefalitis criptococósica
+   E) Absceso bacteriano
+EXP: En pacientes con VIH y conteo de CD4 <200, la toxoplasmosis cerebral es la causa más común de lesiones focales con efecto de masa. Este paciente presenta cefalea, convulsiones y hemiparesia, síntomas típicos de lesión ocupante de espacio. La RMN cerebral muestra múltiples lesiones subcorticales con captación en anillo, hallazgo clásico de toxoplasmosis. El linfoma cerebral suele presentarse como lesión única, mientras que la leucoencefalopatía multifocal y la criptococosis no generan efecto de masa significativo.
+
+### GIN-073 | Enfermedad inflamatoria pélvica: hospitalización | 2022
+Mujer de 18 años, hace 3 días acudió a emergencia donde fue diagnosticada de enfermedad inflamatoria pélvica, le indicaron tratamiento ambulatorio con doxiciclina y metronidazol vía oral. Tres días después no refiere mejoría y se evidencia flujo vaginal abundante con dolor persistente a la lateralización del cérvix. Ecografía transvaginal: no evidencia de masas ¿Cuál es la conducta a seguir?
+   A) Continuar con tratamiento antibiótico vía oral
+  *B) Hospitalizar para tratamiento antibiótico endovenoso
+   C) Preparar para laparotomía exploratoria
+   D) Realizar histero-salpingografía para evaluación tubárica
+   E) Retirar el tratamiento y observar
+EXP: Paciente mujer joven diagnosticada previamente con EPI y manejada de forma ambulatoria no presenta mejoría clínica. Se evidencia persistencia del dolor pélvico y flujo vaginal, lo cual indica falla al tratamiento oral. Clínicamente hay signos de progresión inflamatoria sin evidencia de abscesos en ecografía. En estos casos, se considera que existe una enfermedad inflamatoria moderada a severa. Según guías, esto indica necesidad de hospitalización para vigilancia más estricta. El tratamiento endovenoso garantiza mayor biodisponibilidad y eficacia. Además, permite observar evolución y descartar complicaciones. No es necesario procedimiento quirúrgico de entrada.
+
+### PED-087 | Insuficiencia cardiaca congestiva en el lactante | 2022
+Lactante de 4 meses de edad. La madre refiere que desde su nacimiento presenta pobre ganancia ponderal, sudoración profusa, lactancia entrecortada y polipnea. En los 3 últimos días presentó incremento de la frecuencia respiratoria. Al examen: afebril, luce pálido, diaforético, adelgazado, taquipnea, sibilantes en ambos hemitórax, no otros ruidos, taquicardia, hígado palpable a 4 cm por debajo del reborde costal derecho. Este cuadro corresponde a:
+   A) Miocarditis viral
+   B) Síndrome obstructivo bronquial
+   C) Bronconeumonía bacteriana
+  *D) Insuficiencia cardíaca congestiva
+   E) Anemia ferropénica severa
+EXP: Lactante de 4 meses con signos de dificultad respiratoria progresiva, pobre ganancia ponderal y sudoración profusa desde el nacimiento. Estos datos sugieren una patología de base crónica que compromete la función cardíaca. El hallazgo de hepatomegalia (4 cm bajo reborde costal), taquicardia y polipnea refuerzan el diagnóstico de insuficiencia cardíaca. La presentación es típica de una cardiopatía congénita no diagnosticada, como una comunicación interventricular grande. El síndrome bronquial o neumonía no justificarían la hepatomegalia ni el bajo peso. La miocarditis viral puede simular el cuadro, pero no es progresiva desde el nacimiento. El tratamiento inicial se basa en soporte hemodinámico.
+
+### INF-034 | Giardiasis | 2022
+Está usted laborando en un Centro de Salud I-3 y atiende a una niña de 5 años por pérdida de peso, epigastralgia y náuseas, niega fiebre. Padres refieren episodios de diarreas claras de aspecto grasoso que atribuyen a que consume agua cruda. ¿Cuál es el agente etiológico a sospechar?
+  *A) Giardia lamblia
+   B) Cyclospora cayetanensis
+   C) Blastocystis hominis
+   D) Balantidium coli
+   E) Entamoeba histolytica
+EXP: Paciente de 5 años con diarrea crónica esteatorreica, pérdida de peso y epigastralgia, asociada al consumo de agua no tratada. El cuadro clínico es típico de giardiasis, parasitosis intestinal causada por Giardia lamblia. Este protozoario se transmite por vía fecal-oral, a través de agua o alimentos contaminados. Los síntomas son crónicos, con malabsorción de grasas y síntomas digestivos inespecíficos. A diferencia de otras parasitosis, no cursa con fiebre ni sangre en he ces. Cyclospora o Blastocystis son menos frecuentes, y Balantidium coli se asocia a cuadros más severos. El diagnóstico se realiza por examen coproparasitario.
+
+### PED-088 | Atresia esofágica | 2022
+Neonato de 2 días de vida. La madre refiere que tiene dificultad para lactar, con cianosis y tos exigente, que se acompaña de distensión abdominal y llanto intenso. Al examen: funciones vitales estables, abdomen distendido, timpánico y doloroso a la palpación, RHA presentes. Se intenta colocar sonda orogástrica que no pasa al estómago. ¿Cuál es el diagnóstico más probable?
+   A) Divertículo de Zenker
+   B) Estenosis del cardias
+  *C) Atresia esofágica
+   D) Acalasia
+   E) Reflujo gastroesofágico
+EXP: Neonato con síntomas de dificultad respiratoria, distensión abdominal y fallos en la alimentación en las primeras horas de vida, sugiere una malformación congénita. La imposibilidad de pasar una sonda orogástrica al estómago confirma la sospecha de atresia esofágica. Esta patología suele asociarse a fístula traqueoesofágica, lo que explica la distensión abdominal por paso de aire al tracto digestivo. Las otras alternativas son patologías del adulto o no explican todos los hallazgos. El diagnóstico debe confirmarse con radiografía con sonda.
+
+### INF-035 | Recién nacido expuesto al VIH: profilaxis | 2022
+Recién nacido de madre diagnosticada de VIH en terapia desde las 12 semanas de gestación. ¿Cuál es el antirretroviral que se debe prescribir al RN?
+   A) Lamivudina
+   B) Ritonavir
+  *C) Zidovudina
+   D) Nevirapina
+   E) Tenofovir
+EXP: El recién nacido expuesto al VIH requiere profilaxis para reducir el riesgo de transmisión vertical. En este caso, la madre recibió TARV desde el primer trimestre, lo cual es positivo, pero no elimina completamente el riesgo. La zidovudina es el antirretroviral de elección en neonatos como profilaxis postnatal cuando el riesgo es bajo a moderado. Su uso debe iniciarse dentro de las primeras 6 a 12 horas de vida. Esta medida se asocia a una disminución significativa de la transmisión perinatal del VIH. Se administra por 4 semanas en estos casos. El resto de fármacos se reservan para situaciones de mayor riesgo o carga viral desconocida. Por tanto, la indicación correcta en este caso es zidovudina.
+
+### CIR-050 | Hemotórax traumático: toracotomía de urgencia | 2022
+Varón de 27 años, sufre agresión con arma blanca. Al examen: PA 100/60 mmHg, FC 100 x', SatO₂ 91%, murmullo vesicular disminuido en los 2/3 del hemitórax derecho. RX: nivel hidroaéreo a nivel del 4to arco costal derecho. Se realiza drenaje pleural, 3 horas después drena 200 cc de sangre por hora. ¿Cuál es la conducta terapéutica a seguir?
+   A) Cambiar sistema de drenaje
+  *B) Toracotomía de urgencia
+   C) Drenaje con guía tomográfica
+   D) Toracoscopía exploratoria
+   E) Toracocentesis
+EXP: El paciente presenta un hemotórax traumático secundario a una agresión con arma blanca. Inicialmente, el manejo se realiza con drenaje pleural. Sin embargo, si la cantidad de sangre drenada es mayor de 200 ml por hora durante más de 3 horas, se considera hemotórax masivo con sangrado activo persistente. Esta situación es indicación clara de toracotomía de urgencia para controlar el foco de sangrado. No es adecuado seguir drenando indefinidamente sin control quirúrgico, ya que se expone al paciente a hipovolemia y colapso. Las demás opciones no resuelven el sangrado activo. Por tanto, la conducta correcta es realizar toracotomía de urgencia.
+
+### CAR-030 | Endocarditis infecciosa | 2022
+Varón de 25 años, una semana después de un procedimiento dental presenta malestar general, fiebre, escalofríos, sudoración nocturna, palpitaciones y dolores osteomusculares. Al examen: CV soplo que cambió de tonalidad en foco mitral. Fondo de ojo: hemorragias retinales con centro pálido. ¿Cuál es el diagnóstico más probable?
+   A) Miocarditis
+   B) Pericarditis
+   C) Bacteriemia
+  *D) Endocarditis
+   E) Fiebre reumática aguda
+EXP: Paciente joven con antecedente de procedimiento odontológico reciente, que presenta fiebre persistente, sudoración nocturna y soplo cardíaco modificado, lo que orienta a una probable endocarditis infecciosa. La aparición de hemorragias retinianas con centro claro (manchas de Roth) refuerza el diagnóstico. Estas son manifestaciones clásicas de fenómenos embólicos y vasculitis asociadas a esta entidad. La endocarditis infecciosa debe sospecharse cuando hay fiebre prolongada y soplo nuevo o cambiante, especial mente si existen factores predisponentes como procedimientos dentales. La confirmación diagnóstica incluye criterios clínicos (Duke) y cultivos. Así, la opción correcta por clínica, evolución y hallazgos es endocarditis.
+
+### PED-089 | Anemia ferropénica: alimentación | 2022
+Niño de 3 años con palidez marcada. Hemoglobina: 8 g/dL, VCM disminuido, HCM disminuido, RDW aumentado, hierro disminuido, TIBC aumentado. Los alimentos recomendados deben ser:
+   A) Leche y huevo
+   B) Cereales con frutas
+  *C) Carnes y vísceras
+   D) Frutas cítricas y verduras
+   E) Lácteos y derivados
+EXP: Niño en edad preescolar con anemia microcítica hipocrómica, RDW elevado, TIBC aumentado y ferremia baja, compatible con deficiencia de hierro. Esta deficiencia se asocia frecuentemente a dietas pobres en hierro biodisponible, como las ricas en leche y carbohidratos simples. Los alimentos más ricos en hierro hemínico, de mayor absorción, son las carnes rojas y vísceras, especialmente el hígado. Estos deben priorizarse en la dieta. Aunque frutas cítricas mejoran la absorción del hierro, no aportan cantidades significativas del mineral por sí solas. Por ello, la medida más adecuada es incrementar el consumo de carnes y vísceras.
+
+### OFT-017 | Absceso periamigdalino | 2022
+Adolescente de 15 años que hace 5 días inicia dolor al deglutir los alimentos, hace 2 días fiebre y dificultad para la apertura oral. Al examen: PA 130/80 mmHg, FC 98 x', T 38.7 °C, eritema en el velo del paladar a predominio del pilar anterior derecho con desviación de la úvula hacia el lado izquierdo. No secreción. ¿Cuál es la conducta a seguir?
+   A) TAC cervical con contraste
+   B) Ecodoppler cervical
+  *C) Punción y drenaje
+   D) Amigdalectomía
+   E) Antibiótico oral y alta sin drenaje
+EXP: Adolescente con odinofagia progresiva, fiebre y dificultad para abrir la boca, que al examen presenta desviación de la úvula, lo cual sugiere un absceso periamigdalino. Este cuadro es una complicación de la faringoamigdalitis, generalmente de origen bacteriano (estreptococo grupo A). Clínicamente se presenta con trismus, voz gangosa, fiebre y desviación uvular. La punción y drenaje del absceso es el manejo inicial adecuado, acompañado de antibióticos empíricos. No se recomienda amigdalectomía en fase aguda. La ecografía o TAC solo son necesarias si el diagnóstico no es claro o si hay sospecha de extensión.
+
+### GAS-026 | Hemorragia digestiva alta en el cirrótico: reanimación | 2022
+Varón de 56 años, ingresa a Emergencia con hematemesis de aproximadamente 500 ml, refiriendo que desde hace una semana tiene deposiciones negras. Antecedente de cirrosis alcohólica. Al examen: PA 80/50 mmHg, FC 120 x', FR 24 x', T 38 °C, SatO₂ 90%, palidez marcada, frialdad distal, escleras ictéricas. Abdomen distendido, matidez desplazable, RHA disminuidos. ¿Cuál es la primera acción a realizar?
+   A) Endoscopía post cese de sangrado
+  *B) Infundir cristaloides
+   C) Paracentesis diagnóstica
+   D) Colocar balón esofágico
+   E) Lactulosa oral
+EXP: Paciente cirrótico con hemorragia digestiva alta severa (hematemesis + melenas), con signos clínicos de shock hipovolémico: hipotensión, taquicardia, palidez, frialdad distal. La prioridad en esta situación es la estabilización hemodinámica inmediata. El manejo debe iniciar con infusión rápida de cristaloides (solución salina o Ringer Lactato) para restaurar el volumen circulante. La endoscopía se realiza luego de la estabilización inicial. El balón de Sengstaken-Blakemore se reserva para hemorragias masiva s refractarias. La paracentesis no es prioritaria en este contexto agudo. Por lo tanto, lo primero es infundir cristaloides.
+
+### TRA-013 | Luxación posterior de cadera | 2022
+Chofer de 28 años que, tras sufrir un accidente de tráfico con impacto frontal, presenta deformidad del miembro inferior derecho en aducción y rotación interna de la cadera. Manipulación le produce intenso dolor en cadera. ¿Cuál es el diagnóstico más probable?
+   A) Luxación coxofemoral anterior
+   B) Fractura diafisiaria de fémur
+  *C) Luxación coxofemoral posterior
+   D) Fractura subtrocantérica de fémur
+   E) Fractura de rótula
+EXP: Varón politraumatizado con accidente de alta energía (impacto frontal), lo que sugiere mecanismo indirecto de lesión sobre la cadera. Presenta deformidad en aducción y rotación interna del miembro inferior, hallazgos típicos de luxación coxofemoral posterior. Este tipo de luxación es la más común y ocurre por fuerza axial con la cadera en flexión, como al golpear con las rodillas el tablero del vehículo. El dolor intenso a la manipulación confirma la lesión articular. Las otras alternativas muestran posiciones clínicas distintas. El diagnóstico más probable es luxación coxofemoral posterior.
+
+### NEF-031 | Necrosis tubular aguda | 2022
+Mujer de 64 años, ingresa por hemorragia digestiva severa. Al examen: PA 60/30 mmHg, FC 130 x', pálidez de piel y mucosas, resto normal. Hb 6 g/dL. Gastroendoscopia: úlcera sangrante. Los 3 primeros días con oligoanuria. Laboratorio: creatinina 2.9 mg/dL, Na plasmático 130 mEq/L, Na urinario 45 mEq/L. ¿Cuál es la causa más probable de la alteración renal?
+   A) Insuficiencia post renal
+   B) Nefritis intersticial
+   C) Glomerulonefritis aguda
+  *D) Necrosis tubular aguda
+   E) Azoemia prerrenal
+EXP: Paciente con sangrado digestivo severo, hipotensión (PA 60/30) y anemia marcada (Hb 6 g/dL), que en los primeros tres días desarrolla oligoanuria. El laboratorio revela creatinina elevada y sodio urinario alto (45 mEq/L), lo cual indica que los túbulos renales han perdido la capacidad de reabsor ber sodio. Esto no ocurre en una insuficiencia prerrenal, donde el Na urinario sería bajo. El diagnóstico más probable es necrosis tubular aguda, secundaria a hipoperfusión renal prolongada. Se descartan causas posrenales o glomerulares por el contexto clínico. La respuesta correcta es D.

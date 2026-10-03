@@ -1,0 +1,224 @@
+### REU-034 | Pediculosis capitis | 2024
+Niña de 7 años, desde hace un mes presenta escozor en cuero cabelludo. Examen: lesiones de rascado en cuero cabelludo, en la longitud del cabello se aprecian pequeñas protuberancias blanco nacaradas. Se palpan adenopatías cervicales y occipitales. ¿Cuál es el diagnóstico probable?
+   A) Impétigo
+   B) Celulitis
+  *C) Pediculosis
+   D) Eccema atópico
+   E) Tiña capitis
+EXP: El escozor en el cuero cabelludo, las lesiones de rascado, las protuberancias blanco nacaradas en el cabello y las adenopatías coinciden con la pediculosis (Alternativa C). La pediculosis capitis, o infestación por piojos, es común en niños en edad escolar. Se presenta con prurito en el cuero cabelludo y la presencia de liendres (huevos de piojos) que aparecen como pequeñas protuberancias blanco nacaradas adheridas a la base del cabello. Las adenopatías cervicales y occipitales pueden presentarse debido a la respuesta inflamatoria local.
+
+### INF-057 | VIH: ELISA de cuarta generación | 2024
+Varón de 46 años, refiere que hace 20 días tuvo relación sexual casual sin protección con una trabajadora sexual. Desde entonces está preocupado y acude a consulta para hacerse una prueba de detección de VIH. ¿Qué prueba le permite realizar un diagnóstico temprano?
+  *A) ELISA de cuarta generación
+   B) Genotipificación del VIH-1
+   C) Inmunofluorescencia indirecta
+   D) Western blot para VIH
+   E) Recuento de CD4
+EXP: La prueba más adecuada para realizar un diagnóstico temprano de VIH es ELISA de cuarta generación (Alternativa A). La prueba ELISA de cuarta generación detecta tanto anticuerpos contra el VIH como el antígeno p24 del virus. El antígeno p24 aparece en la sangre antes de que el cuerpo desarrolle anticuerpos, lo que permite la detección del VIH en una etapa más temprana, generalmente de 2 a 4 semanas después de la exposición.
+
+### GIN-112 | Amenaza de parto pretérmino con cérvix corto | 2024
+Primigesta de 32 semanas, acude por dolor tipo contracción. Examen: PA 110/70 mmHg, FC 72 X´. AU: 30 cm, SPP: LCI, DU: 2 contracciones en 20 min. Tacto vaginal: D: 0, B: 50%, AP: -3. Cervicometría: 15 mm. ¿Cuál es la conducta a seguir?
+   A) Cerclaje cervical y progesterona
+   B) Estrógeno y cervicometría control
+   C) Progesterona y amniocentesis
+  *D) Corticoides y tocolíticos
+   E) Reposo absoluto y alta
+EXP: En esta gestante pretérmino de 32 semanas con contracciones esporádicas sin modificaciones cervicales nos encontramos frente a una amenaza de parto prematuro. En estos casos, es importante tener en cuenta la medición de la longitud cervical, el cual es un parámetro predictor de riesgo de parto prematuro. Una longitud de15 mm o menos sugiere un riesgo elevado de parto prematuro y amerita un manejo activo. Por tanto, la conducta más apropiada es corticoides y tocolíticos (Alternativa D). Los corticoides son administrados para acelerar la maduración pulmonar fetal y disminuir la morbilidad neonatal en caso de parto prematuro en gestantes de 34 semanas o menos. Los tocolíticos son utilizados para detener o reducir las contracciones uterinas, permitiendo tiempo para que los corticoides actúen.
+
+### GIN-113 | Vaginosis bacteriana: células clave | 2024
+Mujer de 21 años presenta secreción vaginal amarillenta semilíquida, sin ningún síntoma acompañante. Examen: Vagina con leucorrea escasa, blanca grisácea y fétida. La mucosa vaginal está normal. Frotis de la secreción mostró células clave. ¿Cuál es el agente causal probable?
+   A) Candida albicans
+   B) Trichomona vaginalis
+  *C) Gardnerella vaginalis
+   D) Neisseria gonorrhoeae
+   E) Chlamydia trachomatis
+EXP: La presencia de células clave en el frotis y las características de la secreción (blanca grisácea y fétida) son indicativas de vaginosis bacteriana, una condición comúnmente causada por Gardnerella vaginalis (Alternativa C). Esta entidad no suele acompañarse de inflamación vaginal significativa, lo que concuerda con la descripción de la mucosa vaginal normal en este caso.
+
+### OFT-028 | Cuerpo extraño ocular penetrante: no retirarlo | 2024
+Varón de 47 años con cuerpo extraño incrustado en el ojo izquierdo con perforación ocular. ¿Qué medida de precaución debemos tener en cuenta en un establecimiento del primer nivel de atención?
+   A) No frotar el ojo
+   B) No irrigar el ojo con un chorro suave de agua limpia
+  *C) No tratar de quitar el objeto incrustado en el ojo
+   D) No cubrir el ojo
+   E) No aplicar anestésico tópico repetidamente
+EXP: La medida de precaución más importante a tener en cuenta en un establecimiento de primer nivel de atención para un varón de 47 años con un cuerpo extraño incrustado en el ojo izquierdo y perforación ocular es No tratar de quitar el objeto incrustado en el ojo (Alternativa C). Intentar quitar el objeto incrustado puede causar más daño, aumentar el riesgo de infección y provocar una mayor pérdida de contenido ocular. Es fundamental que el manejo del cuerpo extraño incrustado y la perforación ocular sea realizado por un especialista en un entorno controlado y con los recursos adecuados para el manejo quirúrgico.
+
+### GIN-114 | Anticoncepción tras enfermedad molar | 2024
+Tercigesta de 8 semanas, cesareada anterior una vez. Presenta diagnóstico de enfermedad molar y se realiza evacuación uterina. Durante el periodo de vigilancia post evacuatoria. ¿Qué método anticonceptivo recomendaría?
+   A) DIU con levonorgestrel
+   B) T de cobre
+  *C) Implante de progestina
+   D) Preservativo
+   E) Anticonceptivos orales combinados
+EXP: En pacientes con enfermedad molar evacuada, es esencial evitar el embarazo durante el seguimiento post evacuatorio hasta que los niveles de hCG sean indetectables y se confirme la ausencia de enfermedad persistente. En estos casos, el implante de progestina (Alternativa C) es una opción adecuada. Este método proporciona anticoncepción eficaz a largo plazo sin interferir con el monitoreo de los niveles de hCG. Además, la progestina no está asociada a riesgos adicionales en el contexto post-molar.
+
+### PED-123 | Hipoglucemia neonatal en prematuro de bajo peso | 2024
+Recién nacido de 35 semanas, nacido vía cesárea por pre eclampsia materna, Apgar 7(1') y 8 (5'), peso al nacer 2 200 g, madre con 6 controles prenatales. A las 3 horas de vida presenta hipoactividad y temblores. ¿Cuál es el diagnóstico más probable?
+   A) Asfixia
+   B) Meningoencefalitis
+  *C) Hipoglicemia
+   D) Sepsis
+   E) Hipocalcemia
+EXP: La combinación de prematuridad (35 semanas), bajo peso al nacer (2,200 g), y la presentación temprana de hipoactividad y temblores es altamente sugestiva de hipoglicemia (Alternativa C). La hipoglicemia en recién nacidos prematuros o de bajo peso al nacer es común debido a sus reservas limitadas de glucógeno hepático, menor capacidad de gluconeogénesis, y mayor relación entre superficie corporal y masa, lo que resulta en mayores pérdidas de calor y consumo de glucosa. Las madres con preeclampsia pueden tener placentas que no transfieren glucosa de manera eficiente al feto, aumentando el riesgo de hipoglicemia neonatal. Este es un diagnóstico que debe ser considerado y tratado de manera urgente, dado que la hipoglicemia puede tener consecuencias neurológicas severas si no se corrige rápidamente.
+
+### INF-058 | Tuberculosis ganglionar (escrófula) | 2024
+Varón de 22 años, desde hace tres meses presenta tumoraciones que va incrementando de tamaño, en región cervical bilateral. Antecedente: Eritema indurado MMII diagnosticado hace 8 meses. Examen: PA 120/85 mmHg, FC 100 X´, FR 24 X´, T 39 ºC, adenopatías cervicales sin signos de flogosis, no dolorosas, una de ellas emite secreción blanquecina grumosa. ¿Cuál es el diagnóstico más probable?
+   A) Linfoma
+  *B) Tuberculosis ganglionar
+   C) Linfadenitis reactiva
+   D) Sarcoidosis
+   E) Linfadenitis por arañazo de gato
+EXP: Considerando los antecedentes, los síntomas clínicos y los hallazgos en el examen físico, la tuberculosis ganglionar (Alternativa B) es el diagnóstico más probable para este paciente. La tuberculosis ganglionar, o escrofula, es una forma común de tuberculosis extrapulmonar, que frecuentemente se presenta con adenopatías cervicales indoloras que pueden drenar material caseoso. El antecedente de eritema indurado en los MMII (manifestación cutánea asociada a tuberculosis) y la presencia de fiebre alta, junto con las adenopatías con secreción blanquecina, apoyan fuertemente este diagnóstico.
+
+### NEU-031 | Asma intermitente: clasificación | 2024
+Paciente que presenta disnea y broncoespasmo 2 días por semana y durante la noche 2 veces al mes. Según la clasificación de GINA, corresponde a asma:
+   A) Persistente leve.
+   B) Persistente moderada.
+   C) Persistente grave
+  *D) Intermitente.
+   E) Persistente muy grave
+EXP: La clasificación de asma según GINA (Global Initiative for Asthma) se basa en la frecuencia de los síntomas diurnos y nocturnos, así como en la limitación de actividades y la necesidad de medicación de rescate. En este caso, el paciente presenta disnea y broncoespasmo 2 días por semana y síntomas nocturnos 2 veces al mes. Ambos se encuentran dentro de los criterios de asma intermitente. Los síntomas del paciente no interfieren significativamente con la actividad diaria o el sueño, y no se mencionan exacerbaciones frecuentes que puedan llevar a una clasificación más severa. Por lo tanto, según los criterios de GINA, este paciente tiene asma intermitente (Alternativa D).
+
+### REU-035 | Intertrigo candidiásico | 2024
+Mujer de 50 años, obesa y diabética, presenta desde hace 15 días dolor y prurito en zona inguinal, no respeta horarios. Examen: En ambos pliegues inguinales: lesiones eritematosas, decamativas con escoriaciones por rascado. Se aplico cremas locales, respeta horarios. Examen: En ambos pliegues inguinales: lesiones eritematosas, descamativas con escoriaciones por rascado. Se aplicó cremas locales, sin mejoría. ¿Cúal es el agente etiológico más probable?
+   A) Pityrosporum ovale
+   B) Trichophyton rubrum
+  *C) Candida albicans
+   D) Malassezia furfur
+   E) Dermatitis de contacto
+EXP: La presencia de lesiones eritematosas y descamativas asociadas a dolor y prurito en zona inguinal, en una paciente obesa y diabética, los cuales no mejoran con cremas locales, es altamente sugestivo de un intertrigo candidiásico, infección causada por Candida albicans (Alternativa C). Se desarrolla en áreas de la piel donde hay pliegues y humedad como las inglés, axilas o pliegues inframamarios sobretodo en pacientes obesos o con diabetes mellitus. Se presenta con máculas y pequeñas vesículas sobre un fondo eritematoedematoso asociadas a prurito y dolor, que pueden evolucionar hacia placas maceradas con erosiones y una descamación fina en periferia, junto a lesiones satélite en forma de pápulas eritematosas y pústulas.
+
+### NRL-034 | Miastenia gravis: receptores nicotínicos | 2024
+Mujer de 30 años con antecedente de LES, presenta ptosis palpebral, diplopía, debilidad y fatiga muscular que se intensifica con la actividad y mejora con el reposo. ¿Cuál de los siguientes receptores se relaciona con esta patología?
+  *A) Nicotínicos
+   B) GABA
+   C) Adrenérgicos
+   D) Dopaminérgicos
+   E) Muscarínicos
+EXP: Los síntomas presentados por esta paciente con antecedente de LES, como ptosis palpebral (caída del párpado), diplopía (visión doble), debilidad y fatiga muscular que empeoran con la actividad y mejoran con el reposo, son altamente sugestivos de miastenia gravis. La miastenia gravis es una enfermedad autoinmune crónica que afecta la transmisión de los impulsos nerviosos a los músculos, específicamente en la unión neuromuscular. En esta condición, el sistema inmunológico produce anticuerpos que atacan los receptores nicotínicos (Alternativa A) de acetilcolina en la membrana de las células musculares, bloqueando o destruyendo estos receptores.
+
+### INF-059 | Endocarditis en usuario de drogas IV: S. aureus | 2024
+Varón de 48 años con antecedente de uso de drogas endovenosas, acude por presentar desde hace 1 semana fiebre y disnea progresiva. Examen: pequeñas lesiones no dolorosas, de color rojo, que se encuentran en palmas de manos y en plantas de pies; soplo sistólico III/VI en el ápice que se irradia a axila. ¿Cuál es el agente etiológico más probable?
+   A) Streptococcus faecium
+   B) Pseudomonas aeruginosa
+  *C) Staphylococcus aureus
+   D) Streptococcus pneumoniae
+   E) Candida albicans
+EXP: La descripción clínica del paciente sugiere un cuadro de endocarditis infecciosa, especialmente debido a su antecedente de uso de drogas endovenosas, fiebre, disnea, lesiones cutáneas en palmas y plantas (conocidas como lesiones de Janeway) y la aparición de novo de un soplo cardíaco. Staphylococcus aureus (Alternativa C) es la causa más común de endocarditis infecciosa en usuarios de drogas intravenosas. Este patógeno es muy virulento y tiene una fuerte predilección por afectar la válvula tricúspide en los pacientes usuarios de drogas endovenosas, aunque también puede afectar otras válvulas.
+
+### PED-124 | Encefalopatía hipóxico-isquémica: eventos centinela | 2024
+Durante el trabajo de parto. ¿Cuál de las siguientes condiciones se considera un evento centinela para la encefalopatía hipóxico-isquémica?
+   A) Prematuridad sin causa aparente
+   B) Ruptura prolongada de membranas
+   C) Presencia de desaceleraciones variables
+  *D) Desprendimiento de placenta
+   E) Líquido amniótico claro
+EXP: Durante el trabajo de parto, ciertos eventos pueden considerarse centinelas y están asociados con un mayor riesgo de encefalopatía hipóxico-isquémica (EHI) en el recién nacido. La encefalopatía hipóxico-isquémica es una condición grave resultante de una insuficiencia en el suministro de oxígeno al cerebro del bebé durante el parto, lo cual puede llevar a daño cerebral. De las alternativas presentadas, el desprendimiento de placenta (Alternativa D) es un evento centinela para EHI. El desprendimiento prematuro de la placenta, especialmente si es significativo, interrumpe abruptamente el suministro de oxígeno y nutrientes al feto, lo que puede causar asfixia aguda y llevar a la EHI si no se maneja de inmediato. Es una emergencia obstétrica que requiere intervención rápida para evitar consecuencias severas para el feto.
+
+### CB-040 | Músculo geniogloso | 2024
+En una evaluación médica, Ud. indica que el paciente lleve la lengua hacia adelante. ¿Cuál es el músculo que permite esta función?
+   A) Estilogloso
+   B) Palatogloso
+  *C) Geniogloso
+   D) Hiogloso
+   E) Milohioideo
+EXP: En una evaluación médica, al pedirle al paciente que saque la lengua, se está evaluando la función del músculo geniogloso (Alternativa C). El músculo geniogloso se origina en la apófisis geni del hueso mandibular y se inserta a lo largo de toda la longitud de la lengua. Su contracción bilateral lleva la lengua hacia adelante y hacia abajo. Es uno de los músculos extrínsecos de la lengua y juega un papel crucial en movimientos importantes como la deglución y la articulación del habla. Al pedirle al paciente que saque la lengua, se está evaluando la función de este músculo, además de la función del nervio hipogloso (nervio craneal XII) que lo inerva.
+
+### INF-060 | Dengue en fase febril: antígeno NS1 | 2024
+Varón de 27 años procedente de Piura, presenta desde hace dos días fiebre, dolores musculares, cefalea. Examen: PA 120/70 mmHg, FC 108 X´, T 39 °C y epistaxis. Laboratorio: Hb16.3 mg/dL, Hcto 39%, leucocitos 2200/ mm³ y plaquetas 150 000 mm³. Ante la sospecha clínica de dengue, ¿Qué examen de laboratorio indicaría usted para hacer el diagnóstico en esta fase?
+  *A) Antígeno NS1
+   B) Anticuerpos IgM dengue
+   C) Inhibición-hemaglutinación
+   D) Anticuerpos IgG dengue
+   E) Gota gruesa
+EXP: El diagnóstico de dengue en la fase aguda temprana, que corresponde a los primeros días de fiebre, se realiza mejor mediante la detección del antígeno NS1 (Alternativa A). Esta proteína del virus del dengue puede detectarse desde el primer día de síntomas hasta aproximadamente el día 5, permitiendo un diagnóstico rápido y preciso antes de la aparición de anticuerpos. Dado que el paciente presenta síntomas desde hace solo dos días, la detección del antígeno NS1 es la opción más adecuada y confiable para confirmar el diagnóstico de dengue en esta fase inicial de la enfermedad.
+
+### GIN-115 | Dehiscencia de cicatriz uterina con período intergenésico corto | 2024
+Segundigesta de 39 semanas. Antecedente de cesárea hace 14 meses. Ingresa a sala de partos en expulsivo y luego del alumbramiento se evidencia sangrado vaginal profuso y dolor abdominal intenso. Examen: PA 80/50 mmHg, FC 110 X´, útero contraído a nivel de la cicatriz umbilical. ¿Cuál es el diagnóstico más probable?
+   A) Atonía uterina
+  *B) Dehiscencia de cicatriz uterina
+   C) Laceración vaginal
+   D) Hematoma perineal disecante
+   E) Inversión uterina
+EXP: En una segundigesta de 39 semanas con antecedente de cesárea reciente, que presenta sangrado vaginal profuso y dolor abdominal intenso post-alumbramiento, el diagnóstico más probable es dehiscencia de cicatriz uterina (Alternativa B). La dehiscencia de cicatriz uterina ocurre cuando la cicatriz de una cesárea previa se abre, lo cual puede provocar dolor abdominal intenso, hemorragia en incluso shock hipovolémico. El antecedente de cesárea hace 14 meses, junto con el dolor abdominal intenso y el sangrado vaginal profuso, hacen que la dehiscencia de la cicatriz uterina sea una posibilidad alta.
+
+### GIN-116 | VIH en la gestante: TAR inmediato | 2024
+Gestante de 27 años de 14 semanas, acude a control prenatal. Tiene prueba rápida para VIH (+), y prueba confirmatoria con resultado positivo. ¿Cuál es el procedimiento a seguir?
+   A) Referirla a un establecimiento I-2 para consejería
+  *B) Iniciar la terapia antirretroviral
+   C) Iniciar antirretroviral a partir de las 20 semanas de gestación
+   D) Solicitar resultado CD4 previo a terapia antirretroviral
+   E) Esperar al tercer trimestre para iniciar tratamiento
+EXP: En una gestante con VIH positivo confirmado, el procedimiento a seguir es iniciar la terapia antirretroviral (ARV) lo antes posible. Iniciar el tratamiento de manera temprana reduce el riesgo de transmisión del VIH al feto. No es necesario esperar los resultados de CD4 para comenzar el tratamiento, ya que el beneficio principal es prevenir la transmisión materno-infantil.
+
+### SP-083 | Eutanasia pasiva | 2024
+Un paciente con enfermedad terminal, solicita a su médico que le ayude a terminar con su vida. A pesar del conflicto ético para dicha decisión, el médico omite medidas que pueden prolongar la vida de su paciente. ¿Qué procedimiento médico ha ejecutado?
+   A) Distanasia
+   B) Ortotanasia
+  *C) Eutanasia pasiva
+   D) Eutanasia activa
+   E) Sedación paliativa
+EXP: El procedimiento médico descrito en el enunciado se refiere a eutanasia pasiva, que ocurre cuando se omiten tratamientos o medidas que podrían prolongar la vida de un paciente, con la intención de permitir que la muerte ocurra de forma natural. En este caso, aunque el paciente solicita ayuda para morir, el médico no realiza una acción directa para terminar con su vida, sino que simplemente omite intervenciones que podrían haber extendido su vida. La eutanasia activa, por otro lado, implicaría la administración directa de sustancias para causar la muerte del paciente, lo cual no es lo que ocurre en este caso.
+
+### GIN-117 | Rotura uterina en cesareada anterior | 2024
+Gestante 38 semanas, acude por dolor intenso, luego de contracciones, disminución de movimientos fetales y sangrado vaginal en regular cantidad. Antecedente: 2 cesáreas. Examen: PA: 80/40 mmHg, FC: 128 X'; pálida, somnolienta; AU: 33 cm. Latidos fetales ausentes. ¿Cuál es el diagnóstico?
+   A) Acretismo placentario
+   B) Placenta previa
+   C) Desprendimiento prematuro de placenta
+  *D) Rotura uterina
+   E) Rotura del seno marginal
+EXP: El diagnóstico más probable en este caso es rotura uterina. La gestante presenta varios factores que sugieren esta complicación grave: dolor intenso, disminución de movimientos fetales, sangrado vaginal, y latidos fetales ausentes. Además, el antecedente de dos cesáreas aumenta el riesgo de rotura uterina, una condición en la cual el útero se desgarran, generalmente en la zona de la cicatriz de una cesárea anterior. La baja presión arterial y la frecuencia cardíaca elevada en la madre indican shock, lo cual es un signo de hemorragia masiva y compromiso hemodinámico. La rotura uterina es una emergencia obstétrica que requiere intervención quirúrgica inmediata.
+
+### GAS-045 | Encefalopatía hepática: lactulosa | 2024
+Varón de 48 años con cirrosis hepática, desde hace dos días presenta alteraciones del comportamiento, somnolencia y confusión progresiva; baja adherencia a la dieta hipoproteica y estreñimiento en la última semana. Examen: ascitis, circulación colateral y flapping (+). ¿Cuál es la conducta inicial?
+   A) Antibiótico profiláctico
+   B) Paracentesis
+  *C) Lactulosa
+   D) Dieta rica en residuos
+   E) Diuréticos a dosis altas
+EXP: La conducta inicial en este paciente es lactulosa. El paciente presenta signos de encefalopatía hepática, como alteraciones del comportamiento, somnolencia, confusión progesiva y flapping que son síntomas característicos de esta condición. La encefalopatía hepática se asocia a la acumulación de amoníaco debido a la disfunción hepática, y la lactulosa es un tratamiento estándar para reducir los niveles de amoníaco en la sangre. Este tratamiento funciona como un laxante, disminuyendo la absorción de amoníaco en el tracto intestinal y ayudando a mejorar los síntomas.
+
+### NRL-035 | Hematoma cerebeloso con compresión del IV ventrículo: cirugía | 2024
+Varón de 58 años, hipertenso y fumador, llega a urgencias por cefalea súbita e intensa, vómitos y dificultad para caminar. Examen: PA: 180/110 mmHg, FC: 92 X', FR: 20 X', SatO₂: 96%, T°: 36.8°C; letárgico, disartria, ataxia, nistagmo horizontal, ROT normal. TC de cráneo: hematoma de 3.5 cm de diámetro, con efecto de masa y compresión del cuarto ventrículo. ¿Cuál es la conducta a seguir?
+   A) Administración de corticosteroides
+  *B) Descompresión quirúrgica
+   C) Monitoreo continuo de PIC
+   D) Administración de solución hipertónica
+   E) Trombólisis endovenosa
+EXP: El diagnóstico más probable en este caso es una hemorragia intracraneal, que está causando un efecto de masa y compresión del cuarto ventrículo. Este paciente, con antecedentes de hipertensión y tabaquismo, presenta signos de compromiso neurológico como disartria, ataxia, y nistagmo, lo cual, combinado con los hallazgos de la TC, confirma la necesidad de una intervención urgente. La descompresión quirúrgica es la conducta inicial más apropiada, ya que es vital aliviar la presión intracraneal para prevenir daños cerebrales adicionales y evitar complicaciones como la herniación cerebral.
+
+### CB-041 | Fluoroquinolonas y convulsiones | 2024
+Mujer de 30 años, acude con disuria, polaquiuria y alza térmica. Antecedente de epilepsia estructural, en tratamiento irregular. Examen: PPL y PRU derecho (+). Urocultivo: E. coli sensible. ¿Qué antibiótico tiene como efecto adverso mayor riesgo de desencadenar convulsiones?
+   A) Ampicilina
+   B) Nitrofurantoina
+   C) Cotrimoxazol
+  *D) Levofloxacina
+   E) Fosfomicina
+EXP: En este caso, la paciente presenta síntomas sugestivos de una infección del tracto urinario (disuria, polaquiuria, alza térmica) y tiene antecedentes de epilepsia estructural. El tratamiento de infecciones urinarias con antibióticos puede tener efectos adversos, y en este caso, la levofloxacina es el antibiótico que se asocia con un mayor riesgo de desencadenar convulsiones. Aunque los antibióticos como la ampicilina, nitrofurantoina y cotrimoxazol también tienen efectos secundarios, el riesgo de convulsiones es más pronunciado con las fluoroquinolonas, como la levofloxacina, especialmente en pacientes con antecedentes de trastornos convulsivos.
+
+### SP-084 | Conflicto de interés | 2024
+Durante su consulta recibe a un visitador médico, quien le sugiere que se una a un programa de colaboradores del laboratorio, aprovechando que por su especialidad podría recibir una comisión económica por cada receta efectivizada. Considerando que estos productos son bastante eficaces, y los productos genéricos tienen "mala fama". ¿Frente a qué situación se encuentra usted?
+   A) Objeción de conciencia
+   B) Uso responsable de medicamentos
+  *C) Conflicto de interés
+   D) Promoción de libertad terapéutica
+   E) Consentimiento informado
+EXP: En este caso, el médico se enfrenta a un conflicto de interés, ya que se le está ofreciendo una comisión económica por recetar un producto específico. Esto podría influir en su juicio profesional y en la toma de decisiones, ya que la recomendación de medicamentos podría basarse más en los beneficios personales que en lo que es mejor para el paciente. Este tipo de situación pone en riesgo la objetividad y la ética profesional del médico.
+
+### PED-125 | Osteomielitis aguda en el niño: S. aureus | 2024
+¿Cuál es el patógeno comúnmente asociado con la osteomielitis aguda en niños?
+  *A) Staphylococcus aureus
+   B) Streptococcus pneumoniae
+   C) Escherichia coli
+   D) Pseudomonas aeruginosa
+   E) Salmonella spp.
+EXP: El patógeno más comúnmente asociado con la osteomielitis aguda en niños es Staphylococcus aureus. Esta bacteria es la principal causa de infecciones óseas en pediatría, tanto en su forma no complicada como en las más severas, y a menudo puede ser resistente a meticilina (MRSA), lo que requiere un tratamiento adecuado con antibióticos de amplio espectro.
+
+### CIR-062 | Trauma pancreático con FAST negativo | 2024
+Chofer de 42 años es llevado a emergencia luego de choque frontal con camión hace una hora, refiere golpe en el abdomen con el timón. Examen: PA: 110/70 mmHg, FC: 84 X', FR: 16 X'; abdomen: doloroso en epigastrio. EcoFAST: ausencia de líquido libre en cavidad abdominal. En el segundo día de hospitalización persiste con dolor en epigastrio que va en aumento. ¿Qué trauma sospecha en primer lugar?
+   A) Esplénico
+   B) Vesical
+   C) Hepático
+  *D) Pancreático
+   E) Renal
+EXP: El paciente presenta un trauma abdominal después de un choque frontal y, a pesar de no haber evidencia de líquido libre en la cavidad abdominal en el EcoFAST inicial, persiste con dolor en el epigastrio que va en aumento. Esto sugiere un trauma pancreático. El páncreas, debido a su ubicación retroperitoneal, puede no mostrar signos inmediatos de lesión en las primeras horas, pero el dolor progresivo en el epigastrio es un hallazgo típico de trauma pancreático. Este tipo de lesión puede ser difícil de diagnosticar en las primeras etapas, y requiere vigilancia cercana y pruebas adicionales.

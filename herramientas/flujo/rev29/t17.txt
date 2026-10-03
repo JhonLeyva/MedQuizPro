@@ -1,0 +1,224 @@
+### CB-046 | Agenesia renal: metanefros | 2024
+Primigesta de 35 años, acude a control con ecografía del segundo trimestre que muestra feto con agenesia renal unilateral. ¿Cuál es la estructura embriológica responsable?
+   A) Pronefro
+  *B) Metanefro
+   C) Mesonefro
+   D) Mesodermo
+   E) Seno urogenital
+EXP: La agenesia renal unilateral es una malformación congénita que se origina por un defecto en la formación del sistema urinario definitivo. Durante la embriogénesis, el sistema urinario se desarrolla en tres fases: pronefro (rudimentario y transitorio), mesonefro (funcional transitorio) y metanefro (definitivo). El metanefro aparece a partir de la 5.ª semana y es el precursor del riñón permanente. La ausencia del desarrollo del metanefro o su interacción con el brote ureteral da lugar a agenesia renal. Por ta nto, la estructura embriológica directamente responsable de esta alteración es el metanefro, y no las fases previas ni el mesodermo de manera general.
+
+### HEM-024 | Policitemia vera: eritropoyetina baja | 2024
+Varón de 45 años, fumador, acude con resultados de laboratorio: Hb 18.6 g/dl, Hto 58%, masa eritrocitaria elevada, SatO₂ 92%, plaquetas 510000 /mm3, eritropoyetina disminuida y carboxihemoglobina normal. ¿Cuál es el diagnóstico más probable?
+   A) Hipernefroma
+  *B) Policitemia vera
+   C) Quistes Renales
+   D) Poliglobulia del fumador
+   E) Mal de montaña crónico
+EXP: El caso describe a un varón de 45 años con Hb elevada, hematocrito superior al 55%, masa eritrocitaria aumentada, saturación de oxígeno de 92%, eritropoyetina disminuida y carboxihemoglobina normal, lo cual orienta a policitemia vera como diagnóstico más probable (CLAVE). La policitemia vera es una neoplasia mieloproliferativa caracterizada por aumento clonal de eritrocitos asociado a mutaciones en JAK2 en más del 95% de los casos, y se acompaña frecuentemente de trombocitosis, como en este caso, con plaquetas de 510000/mm³. La eritropoyetina disminuida indica producción independiente de estímulo hipoxémico, descartando causas secundarias. El hipernefroma puede producir eritropoyetina ectópica, pero esto resultaría en niveles elevados de eritropoyetina y no trombocitosis. Los quistes renales suelen asociarse a enfermedad renal poliquística, pero no generan policitemia ni trombocitosis y 
+
+### END-037 | Diabético con acidosis láctica | 2024
+Varón de 22 años con diabetes tipo 1, en tratamiento irregular, desde hace 24 horas presenta dolor abdominal difuso, confusión progresiva y respiración rápida. Examen: PA 80/40 mmHg, FC 110 X´, FR 28 X´, T 37 °C, SatO₂ 94%. Somnoliento, respiración de Kussmaul, piel fría y cianosis distal. Lab: Glucosa 480 mg/dl, cetonas en sangre negativo, pH arterial 7.15, HCO₃⁻ 8 mEq/l, Na 132 mEq/l, K 5 mEq/l, Anión GAP 18, Lactato 10 mmol/l. ¿Cuál es el diagnóstico más probable?
+   A) Cetoacidosis diabética
+  *B) Acidosis láctica
+   C) Intoxicación por salicilatos
+   D) Ingestión de metanol
+   E) Estado hiperosmolar
+EXP: La acidosis láctica cursa con hipoperfusión, aumento del lactato y anión GAP elevado. El cuadro clínico es compatible con acidosis láctica secundaria a hipoperfusión en un paciente con diabetes tipo 1 y manejo irregular, probablemente precipitado por un evento agudo (como un shock hipovolémico o séptico). La ausencia de cetonas descarta cetoacidosis diabética. Las intoxicaciones suelen tener historia sugestiva, como ingesta de tóxicos.
+
+### NRL-038 | Distrofia de Duchenne: distrofina | 2024
+En la distrofia muscular de Duchenne. ¿Cuál es la proteína muscular deficiente?
+   A) Titina
+  *B) Distrofina
+   C) Nebulina
+   D) Calcineurina
+   E) Laminina
+EXP: La distrofia muscular de Duchenne es causada por una mutación en el gen que codifica la distrofina, una proteína esencial para la estabilidad estructural de las fibras musculares. La distrofina conecta el citoesqueleto de actina intracelular con el complejo distroglicano en la membrana sarcolémica, que a su vez interactúa con la matriz extracelular. Su ausencia provoca fragilidad de la membrana durante las contracciones musculares, lo que lleva a daño celular, inflamación crónica y reemplazo del tejido muscular por fibrosis y grasa. La titina, aunque esencial para estabilizar los sarcómeros y contribuir a la elasticidad muscular, no está implicada en esta enfermedad. La nebulina regula la longitud de los filamentos de actina y su ensamblaje en el sarcómero, pero su deficiencia está asociada a miopatías nemalínicas y no a Duchenne. La calcineurina es una enzima reguladora de la señalizaci
+
+### END-038 | Metformina en insuficiencia renal: acidosis láctica | 2024
+Mujer de 72 años con antecedente de insuficiencia renal y diabetes mellitus tipo 2 en terapia con metformina luego de cambio de dosis presenta debilidad, náuseas, vómitos y dificultad respiratoria. ¿Cuál es el efecto adverso relacionado?
+  *A) Acidosis láctica
+   B) Hiperglicemia
+   C) Hipotiroidismo
+   D) Hipopotasemia
+   E) Pancreatitis aguda
+EXP: La metformina es un antidiabético oral de elección por su bajo riesgo de hipoglicemia y beneficio cardiovascular. Sin embargo, su uso en pacientes con insuficiencia renal puede llevar a la acumulación del fármaco y, por tanto, al desarrollo de una complicación grave: la acidosis láctica. Esta paciente de 72 años presenta factores de riesgo claros como insuficiencia renal crónica y el aumento de dosis reciente. La clínica de debilidad, náuseas, vómitos y disnea es típica de esta entidad, la cual se debe a alteración en el metabolismo mitocondrial y acumulación de lactato. No hay datos que sugieran hiperglicemia, hipopotasemia ni hipotiroidismo. Por tanto, el efecto adverso más probable asociado a metformina en este contexto es la acidosis láctica.
+
+### NEF-055 | Vasectomía: esterilidad a los tres meses | 2024
+Paciente al que le han hecho una vasectomía y pregunta en que tiempo quedará estéril. Su respuesta es:
+   A) En dos meses
+   B) En un mes
+   C) Inmediatamente
+  *D) En tres meses
+   E) En una semana
+EXP: La vasectomía es un método anticonceptivo quirúrgico definitivo que impide el paso de espermatozoides al eyaculado mediante la sección de los conductos deferentes. Sin embargo, tras el procedimiento, persisten espermatozoides viables en los conductos distales por semanas. Por ello, no se considera estéril inmediatamente. La esterilidad se alcanza usualmente después de aproximadamente tres meses o 20 eyaculaciones, tiempo necesario para eliminar por completo los espermatozoides. Durante ese periodo debe usarse otro método anticonceptivo complementario. Así, afirmar que el paciente es estéril de forma inmediata sería incorrecto. Por ello, la respuesta adecuada es que quedará estéril en tres meses postvasectomía.
+
+### SP-092 | Promoción de la salud en la escuela | 2024
+Se establece coordinación con el director del centro educativo cercano y se implementa actividades educativas sobre la importancia del autocuidado y el reconocimiento precoz de tuberculosis y su mecanismo de transmisión. ¿Qué tipo de intervención sanitaria se está aplicando?
+  *A) Promoción
+   B) Rehabilitación
+   C) Recuperación
+   D) Prevención
+   E) Tratamiento
+EXP: La intervención sanitaria descrita en el caso consiste en actividades educativas dirigidas a escolares sobre autocuidado y signos tempranos de tuberculosis, en coordinación con una institución educativa. Esta estrategia se enmarca dentro del nivel primario de atención, buscando modificar conductas, fomentar estilos de vida saludables y empoderar a la población con conocimientos que favorezcan la toma de decisiones informadas sobre su salud. Estos elementos corresponden al componente de promoción de la salud, cuyo objetivo es anticiparse a la enfermedad antes de su aparición, no mediante intervenciones clínicas, sino por medio del fortalecimiento de capacidades individuales y comunitarias. No se trata de prevención directa, pues no hay aplicación de medidas biomédicas, ni de recuperación ni rehabilitación porque no hay enfermedad instalada. Por tanto, la intervención es claramente una acc
+
+### GIN-129 | Fórmula obstétrica | 2024
+Mujer de 28 años acude a consultorio refiriendo haber tenido 4 embarazos, de los cuales uno fue gemelar que terminó a las 34 semanas, el otro fue ectópico ampular, el tercero fue mola completa y el cuarto terminó a las 41 semanas; paciente refiere que sus hijos están vivos en la actualidad, la fórmula obstétrica es:
+   A) G4P2123
+  *B) G4P1223
+   C) G4P1233
+   D) G4P3123
+   E) G4P1133
+EXP: Las guías del MINSA en Perú siguen el orden: partos a término, partos pretérminos, abortos (incluyendo ectópicos y molas), y nacidos vivos. Este orden es estándar para reflejar el historial obstétrico de manera precisa. Basándonos en este caso: Gestaciones totales (G): 4 embarazos (gemelar, ectópico, mola, y término). Partos a término (T): 1 nacimiento a término (41 semanas). Partos pretérminos (P): 1 gemelar a las 34 semanas. Abortos (A): 2 (ectópico y mola). Hijos vivos (L): 3 (dos del embarazo gemelar y uno a término). Por lo tanto, siguiendo el formato indicado por las guías del MINSA, la fórmula correcta sería: G4P1223 --> 1 término, 2 pretérminos, 2 (abortos y ectópico), 3 vivos.
+
+### NEF-056 | Anemia de la ERC con ferropenia: hierro y mantener eritropoyetina | 2024
+Varón de 56 años con enfermedad renal crónica desde hace 3 años en terapia de reemplazo renal, en terapia adecuada de eritropoyetina; acude por disnea. No evidencia de sangrado. Examen: PA 130/85 mmHg, FC 105 X´, FR 22 X´, palidez terrosa. Lab: Hb 8,7 g/dl, ferritina 56 ng/ml, índice de saturación de transferrina 10%. ¿Cuál es el tratamiento a seguir?
+   A) No modificar el tratamiento
+   B) Aumentar dosis de eritropoyetina y tiamina
+   C) Suspender la eritropoyetina y administrar hierro
+  *D) Administrar hierro y mantener eritropoyetina
+   E) Transfundir paquete globular
+EXP: Este paciente con enfermedad renal crónica presenta anemia, caracterizada por hemoglobina baja (8,7 g/dL), índice de saturación de transferrina disminuido (<20%) y niveles de ferritina <100 ng/ml, lo que indica deficiencia de hierro funcional. En estos casos, el tratamiento incluye la administración de hierro para corregir la deficiencia y optimizar la respuesta a la eritropoyetina, que debe mantenerse. La opción A es incorrecta porque continuar sin cambios perpetúa la anemia y sus síntomas. La opción B es errada porque aumentar la dosis de eritropoyetina sin tratar la deficiencia de hierro no es eficaz y puede aumentar los riesgos cardiovasculares, ya que la EPO estimulará la producción de la serie roja, en caso de no tener suficiente hierro, producirá hematíes con baja hemoglobina y en grandes cantidades, causando hiperviscosidad, además, la EPO tiene un efecto de vasoconstricción dire
+
+### PED-133 | Picadura de escorpión en el lactante | 2024
+Lactante de 1 año llevado a emergencia después de 6 horas por picadura de escorpión. ¿Cuál es la principal complicación?
+  *A) Insuficiencia cardiorespiratoria
+   B) Reacción inflamatoria de la zona
+   C) Anafilaxia
+   D) Necrosis de la zona
+   E) Celulitis secundaria
+EXP: La picadura de escorpión en lactantes y niños pequeños puede causar envenenamiento sistémico grave debido a la neurotoxina presente en el veneno, que afecta canales de sodio y potasio (potencial de acción, generación de potenciales de acción, conducción de señales, repolarización y refractariedad). Esto provoca alteraciones autonómicas, incluyendo taquicardia, hipertensión, hipersecreciones y, en casos severos, insuficiencia cardiorespiratoria. La opción B, reacción inflamatoria local, es frecuente pero no la principal complicación. La opción C, anafilaxia, es una posibilidad remota pero menos común, ya que el mecanismo principal es la toxicidad directa, no una reacción alérgica. La opción D, necrosis local, ocurre con ciertos arácnidos como Loxosceles y algunos escorpiones que no son frecuentes en nuestro medio, pero no es característica principal del cuadro clínico en estos casos. El t
+
+### GIN-130 | Trabajo de parto con progresión adecuada | 2024
+Primigesta de 39 semanas, ingresa por trabajo de parto. Examen: AU 32 cm, SPP LCI, LCF 144 X', Tacto vaginal: D 6, AP-3, Al cabo de 2 horas se le vuelve a examinar y se encuentra D 8 cm, AP - 2. ¿Cuál es la conducta a seguir?
+   A) Programar para cesárea
+   B) Estimular con oxitocina
+  *C) Continuar con el trabajo de parto
+   D) Estimular con misoprostol
+   E) Realizar amniotomía y fórceps
+EXP: Paciente primigesta de 39 semanas en trabajo de parto activo con progresión cervical de 6 a 8 cm y descenso de la presentación de-3 a-2 en 2 horas. Este hallazgo indica una evolución adecuada del trabajo de parto en fase activa, que se caracteriza por un a dilatación de al menos 1 cm por hora en nulíparas. No hay signos de sufrimiento fetal ni detención del progreso. Por tanto, no se justifica intervención farmacológica ni quirúrgica. Se recomienda continuar la monitorización, esperando la progresión natural del parto mientras se vigilan signos de complicaciones o estancamiento.
+
+### PSI-025 | Trastorno de ansiedad generalizada | 2024
+Mujer de 30 años, desde hace 12 meses presenta intensa preocupación por cualquier actividad diaria, lo cual la pone inquieta e irritable. Refiere falta de concentración y tensión muscular asociada a insomnio, iniciaron cuando comenzaron a reducir el personal del trabajo. ¿Cuál es el diagnóstico más probable?
+   A) Trastorno por somatización
+   B) Fobia específica
+  *C) Trastorno de ansiedad
+   D) Trastorno distímico
+   E) Hipertiroidismo
+EXP: Mujer joven con síntomas ansiosos persistentes por al menos 12 meses, con preocupación excesiva por múltiples aspectos de la vida diaria, acompañada de síntomas físicos como tensión muscular, insomnio, irritabilidad y dificultad para concentrarse. No se asocia a situaciones específicas ni a síntomas somáticos múltiples ni a humor deprimido persistente. El cuadro es típico de un trastorno de ansiedad generalizada (TAG), especialmente considerando el desencadenante laboral. La duración mayor a 6 meses apoya este diagnóstico.
+
+### GIN-131 | Rotura de vasa previa tras amniotomía: cesárea | 2024
+Primigesta 40 semanas, sin control prenatal, acude por trabajo parto. Examen: PA 100/60 mmHg, FC 80 x'. Abdomen. AU 30 cm, SPP: LCI, LCF 148 x'. Tacto vaginal: D 8 cm, AP-4. Se realiza ruptura artificial de membranas y se evidencia sangrado vaginal profuso con disminución rápida de los latidos cardiacos fetales. ¿Cuál es la conducta a seguir?
+   A) Uso de vacuum
+   B) Uso de fórceps
+  *C) Cesárea de emergencia
+   D) Amniotransfusión
+   E) Tocólisis y observación
+EXP: Gestante primigesta a término, sin control prenatal, en fase activa del trabajo de parto, con datos clínicos de bienestar fetal inicial (LCF 148 x', PA materna normal). Se realiza ruptura artificial de membranas (RAM) y ocurre sangrado vaginal profuso con bradicardia fetal súbita, lo que indica una emergencia obstétrica. Estos hallazgos son sugestivos de un desprendimiento prematuro de placenta normoinserta (DPPNI) o rotura de vasos fetales (vasa previa), ambas condiciones potencialmente letales para el feto. Ante este deterioro súbito, la conducta inmediata es una cesárea de emergencia para intentar salvar la vida fetal y prevenir complicaciones maternas. Ni vacuum ni fórceps son útiles si el feto no está en plano bajo.
+
+### PED-134 | Membrana hialina y ductus arterioso persistente | 2024
+Recién nacido de 31 semanas de gestación, presenta al nacimiento dificultad respiratoria y cianosis. Antecedentes maternos: betametasona 12 mg IM c/24 horas por 2 dosis. Examen: T 36°C, FR 72 X´, FC 145 X´, peso: 1600 g, SatO₂ 90%, Fi02 100%, quejido espiratorio intenso, aleteo nasal, acrocianosis. Tórax: MV disminuido. RX de tórax: vidrio esmerilado con broncograma aéreo. ¿Cuál es la cardiopatía congénita más frecuente que se asocia a esta patología?
+  *A) Ductus arterioso persistente
+   B) Comunicación interauricular
+   C) Comunicación auriculoventricular
+   D) Comunicación interventricular
+   E) Tetralogía de Fallot
+EXP: Recién nacido pretérmino (31 semanas) con signos respiratorios severos al nacer, quejido, aleteo nasal, SatO₂ baja a pesar de FiO₂ 100%, y patrón radiológico clásico en vidrio esmerilado con broncograma aéreo, indica síndrome de dificultad respiratoria neonatal tipo I (por déficit de surfactante). La cardiopatía más asociada en estos casos es el ductus arterioso persistente (DAP), debido a la inmadurez pulmonar que impide el cierre fisiológico del ductus. El paso de sangre del sistema arterial hacia el pulmonar puede agravar el cuadro respiratorio y generar sobrecarga de volumen en los pulmones.
+
+### END-039 | Insulinoma: resección quirúrgica | 2024
+Mujer de 50 años, desde hace 6 meses presenta pérdida de conocimiento en varias oportunidades. Examen: PA 110/70 mmHg, FC 100 X´, somnolienta, desorientada, diaforética y con frialdad de piel. Lab: glucosa 70 mg/dL, insulina sérica elevada, RNM: lesión nodular en cara anterior del páncreas de 2 cm de diámetro. ¿Cuál es el tratamiento de elección?
+   A) Quimioterapia
+   B) Terapia biológica
+  *C) Resección quirúrgica
+   D) Radioterapia
+   E) Octreótido como única medida
+EXP: Paciente femenina de 50 años con episodios de pérdida de conciencia, diaforesis, frialdad y alteración del sensorio, lo cual sugiere hipoglicemias. Aunque su glucosa es de 70 mg/dL al momento del examen, presenta niveles elevados de insulina sérica, lo que orienta al diagnóstico de insulinoma. La presencia de una lesión nodular en la cabeza del páncreas de 2 cm en RNM confirma esta sospecha. El tratamiento de elección para insulinoma es la resección quirúrgica, ya que usualmente son tumores benignos y localizados, con excelente pronóstico postoperatorio si se extraen completamente.
+
+### SP-093 | Suplementación preventiva de hierro y ácido fólico en adolescentes | 2024
+Se realiza una campaña de salud integral del adolescente en un colegio de secundaria y se verifica que las alumnas tienen Hb mayor de 12 g/dL. En este caso ¿Cuál es la indicación para la suplementación preventiva en las adolescentes?
+  *A) Hierro elemental más ácido fólico
+   B) Ácido fólico más sales cobre
+   C) Cianocobalamina más zinc
+   D) Complejo B más zinc
+   E) Vitamina A en dosis alta
+EXP: Durante una campaña escolar se identifican adolescentes con hemoglobina normal (>12 g/dL), lo que descarta anemia. Sin embargo, el Ministerio de Salud del Perú recomienda suplementación preventiva en adolescentes mujeres, dado el riesgo de anemia por pérdidas menstruales, rápido crecimiento y demandas fisiológicas propias de la adolescencia. La suplementación indicada es hierro elemental más ácido fólico, para cubrir tanto los requerimientos hematopoyéticos como prevenir defectos del tubo neural en caso de embarazo temprano. Las otras 2 combinaciones no forman parte de la suplementación preventiva estándar en este grupo.
+
+### NEF-057 | Nefropatía por contraste: hidratación | 2024
+Varón de 56 años, diabético e hipertenso, desde hace dos días post toma de TC con contraste presenta dolor lumbar, fatiga y disminución de diuresis. Examen: funciones vitales normales, despierto, no edemas. Lab: Creatinina 2.5 mg/dl, Na 138 mEq/l, K 4.1 mEq/l. Sedimento urinario: cilindros granulosos hiperpigmentados. Ecografía renal: cambios ecogénicos difusos en la corteza renal. ¿Cuál es el tratamiento inicial?
+   A) Diálisis de urgencia
+  *B) Hidratación intravenosa
+   C) N- acetilcisteína en nebulización
+   D) Administración de diuréticos
+   E) Bicarbonato de sodio en bolo
+EXP: Paciente diabético e hipertenso con inicio agudo de insuficiencia renal tras exposición a contraste, compatible con nefropatía inducida por contraste (NIC). El cuadro incluye oliguria, elevación de creatinina y presencia de cilindros granulosos, sin otros signos de sobrecarga o necesidad urgente de diálisis. El manejo inicial se basa en hidratación intravenosa con solución salina isotónica, lo cual mejora la perfusión renal y facilita la eliminación del contraste. N-acetilcisteína se usaba como preventivo, no como tratamiento. Diálisis solo es indicada si hay sobrecarga o trastornos severos del medio interno.
+
+### INF-065 | VIH: respuesta al TAR con carga viral | 2024
+Varón de 37 años, por cuadro de diarrea crónica y síndrome consuntivo, tiene prueba confirmatoria de VIH. Se inicia tratamiento antirretroviral (TAR). ¿Cuál es la conducta a seguir para evaluar la respuesta al tratamiento?
+   A) Detección de anticuerpos por técnica de ELISA
+  *B) Cuantificación de la carga viral en plasma
+   C) Detección de anticuerpos por técnica de Western blot
+   D) Detección de antígeno p24
+   E) Recuento de linfocitos totales
+EXP: Paciente VIH positivo con TAR iniciado requiere monitoreo de la eficacia del tratamiento. La prueba más sensible y específica para ello es la cuantificación de la carga viral en plasma, ya que permite detectar precozmente si el tratamiento está logrando suprimir la replicación del virus. La ELISA y Western blot se utilizan para diagnóstico, no para seguimiento. El antígeno p24 también es diagnóstico precoz, pero no útil para monitorizar el tratamiento. La carga viral se mide a los 6 meses y luego cada 6 meses.
+
+### NEU-035 | EPOC con acidosis respiratoria: ventilación no invasiva | 2024
+Varón de 72 años, con diagnóstico de EPOC, traído a emergencia por trastorno del sensorio. Lab: AGA: pH: 7.32, pCO2: 60 mmHg, pO2: 52 mmHg, SatO₂ 82%. ¿Qué soporte oxigenatorio está indicado?
+   A) Cánula binasal
+   B) Máscara de reservorio
+  *C) Ventilación no invasiva
+   D) Oxigenoterapia nocturna
+   E) Intubación orotraqueal inmediata
+EXP: Se trata de un paciente con EPOC descompensado, manifestado por alteración del sensorio e insuficiencia respiratoria hipercápnica (pCO₂: 60 mmHg, pO₂: 52 mmHg, SatO₂: 82%). El pH acid ótico (7.32) confirma una acidosis respiratoria. La presencia de hipercapnia con deterioro del estado de conciencia indica una retención de CO₂ grave que pone en riesgo la vida. En este contexto, la medida más adecuada es la ventilación no invasiva (VNI), como la BiPAP, la cual mejora el intercambio gaseoso, reduce la carga respiratoria y evita la intubación endotraqueal. El uso de oxígeno solo (cánula o máscara) puede empeorar la retención de CO₂ al suprimir el estímulo respiratorio en EPOC. La oxigenoterapia nocturna no es útil en la fase aguda.
+
+### PSI-026 | Intoxicación por cocaína | 2024
+Varón de 32 años es llevado a emergencia por sus familiares por gran agitación psicomotriz y porque dice que “me persiguen unos sicarios para matarme”. Examen: PA 165/95 mmHg, FC 115 X´, T 38.5°C, midriasis bilateral reactiva, perforación del tabique nasal y movimientos estereotipados. ¿Cuál es la causa más probable de este cuadro?
+  *A) Cocaína
+   B) Fentanilo
+   C) Éxtasis
+   D) Marihuana
+   E) Esquizofrenia paranoide
+EXP: El paciente joven presenta un cuadro sugestivo de psicosis tóxica acompañado de hipertermia, hipertensión, taquicardia, midriasis, movimientos estereotipados y perforación del tabique nasal. Este último hallazgo es especialmente relevante, ya que es característico del consumo crónico de cocaína, que por vasoconstricción intensa causa necrosis del tabique nasal. Además, la agitación, paranoia intensa y el delirio persecutorio también son típicos del cuadro psicótico inducido por cocaína. El éxtasis puede causar hipertermia y midriasis, pero no perfora el tabique; el fentanilo no genera psicosis y la marihuana tampoco induce este cuadro.
+
+### CIR-070 | Quemadura eléctrica: electrocardiograma | 2024
+Varón de 20 años que sufre quemadura por cable de alto voltaje. Examen: heridas profundas en mano derecha. RC arrítmicos, pulsos presentes. ¿Qué examen debe solicitar inicialmente?
+  *A) Electrocardiograma
+   B) Radiografía de mano
+   C) Eco Doppler
+   D) Electromiografía
+   E) Tomografía cerebral
+EXP: El paciente presenta quemadura eléctrica por contacto con cable de alto voltaje, lo cual conlleva riesgo de lesiones musculares profundas, arritmias cardíacas e incluso paro cardiaco, aún en ausencia de manifestaciones clínicas inmediatas. Dado que los cables de alto voltaje generan un paso de corriente que puede afectar el sistema de conducción eléctrica del corazón, el electrocardiograma (ECG) es el examen inicial prioritario para evaluar alteraciones como bloqueos, fibrilación ventricular o taquicardias. Aunque hay heridas profundas, la prioridad es descartar daño vital inmediato. La Rx de mano y otros estudios pueden diferirse.
+
+### NEF-058 | Litiasis ureteral distal pequeña: terapia expulsiva | 2024
+Mujer de 45 años con cólico renal que cede al tratamiento médico. TC sin contraste: cálculo < 6 mm tercio inferior del uréter. ¿Cuál es la conducta a seguir?
+   A) Catéter doble J
+  *B) Tratamiento médico
+   C) Endoprótesis
+   D) Nefrostomía
+   E) Ureteroscopía de urgencia
+EXP: La paciente presenta un cólico renal que cedió al manejo médico. El cálculo se localiza en el tercio inferior del uréter y mide menos de 6 mm. En estos casos, se recomienda tratamiento médico expulsivo, basado en hidratación, control del dolor y uso de bloqueadores alfa (como tamsulosina), ya que el tamaño y ubicación favorecen la expulsión espontánea en la mayoría de casos. La colocación de catéter o nefrostomía se reserva para obstrucciones severas, infecciones asociadas o cálculos mayores que no responden al tratamiento conservador.
+
+### INF-066 | Profilaxis antitetánica en herida sucia | 2024
+Varón de 30 años que desde hace 3 días presenta dolor en herida penetrante con fierro oxidado en el muslo derecho. Antecedente: vacuna antitetánica completa hace 9 años. Examen: muslo derecho con herida de 5x2 cm, con secreción purulenta ¿Cuál es la indicación prioritaria?
+   A) Analgésicos
+   B) Ig equina
+   C) Ig humana
+  *D) Toxoide
+   E) Antibiótico sin limpieza de la herida
+EXP: El paciente presenta una herida contaminada con fierro oxidado, lo cual implica alto riesgo de tétanos. Si bien el paciente refiere esquema completo hace 9 años, las guías recomiendan refuerzo con toxoide tetánico (Td) si han pasado más de 5 años y existe una herida de riesgo. La inmunoglobulina (Ig) solo se usa si el paciente no ha sido vacunado o se desconoce su estado inmunológico. Los analgésicos son sintomáticos y no abordan la prevención del tétanos. Por tanto, se prioriza el toxoide.
+
+### PED-135 | Contacto piel a piel en la primera hora | 2024
+En el parto vaginal sin complicaciones. ¿En qué momento se implementa el contacto precoz piel a piel?
+   A) Segundo día
+  *B) Dentro de la primera hora
+   C) Dentro de las 24 horas
+   D) Entre las 6 y 12 horas
+   E) Al alta hospitalaria
+EXP: El contacto piel a piel entre madre e hijo se inicia dentro de la primera hora del nacimiento, según las recomendaciones de la OMS, siempre que el parto sea vaginal y sin complicaciones. Este contacto favorece la regulación térmica, el vínculo afectivo, y estimula la lactancia precoz. Su implementación inmediata es clave para el desarrollo neurológico y la adaptación neonatal. No se recomienda diferir el contacto a horas o días posteriores sin causa médica justificada.
+
+### HEM-025 | PTI con sangrado mucoso: inmunoglobulina | 2024
+Preescolar de 3 años, hace 3 días presenta gingivorragia. Antecedentes: niega. Examen: leve sangrado en mucosa gingival, petequias en tronco, extremidades y mucosa yugal; no adenomegalias ni esplenomegalia. Lab: Leucocitos 9800/mm3, Hb 11.5 g/dL, plaquetas 12000/mm3, TP 12”, TTPA 35”. ¿Cuál es el tratamiento indicado?
+  *A) Inmunoglobulina
+   B) Plasma fresco
+   C) Plasmaféresis
+   D) Crioprecipitado
+   E) Transfusión de plaquetas
+EXP: Niño preescolar con sangrado gingival y petequias, sin signos de hepatomegalia ni esplenomegalia, y con plaquetopenia severa (12 000/mm³), sugiere como diagnóstico más probable una púrpura trombocitopénica inmune (PTI). El TP y TTPA normales descartan coagulopatías. En menores de 5 años, la PTI es usualmente postinfecciosa, de curso agudo y autolimitado, pero el tratamiento se indica si hay sangrado activo. La inmunoglobulina intravenosa (IgIV) es una de las terapias de primera línea por su acción inmunomoduladora rápida.

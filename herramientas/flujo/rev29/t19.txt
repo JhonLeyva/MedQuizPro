@@ -1,0 +1,224 @@
+### NEU-037 | Neumonía con CURB-65 de 2: hospitalizar | 2025
+Varón de 69 años acude a emergencia por fiebre, tos y expectoración purulenta desde hace cuatro días. Examen: PA 110/75 mmHg, FC 100 X', FR 32 X', T 38 °C, SatO₂ 94%, orientado en T, E y P, crepitantes en base de HTD. RX de tórax muestra un infiltrado alveolar en lóbulo medio. Al valorar el estado de gravedad aplicando la escala de CURB-65. ¿Cuál es la conducta a seguir?
+  *A) Hospitalización en medicina
+   B) Alta con indicaciones
+   C) Alta y control ambulatorio
+   D) Hospitalización en UCI
+   E) Hospitalización en UCI con ventilación mecánica
+EXP: Varón con neumonía adquirida en la comunidad (NAC), criterios clínicos y radiológicos compatibles. Para valorar su gravedad usamos la escala CURB-65, que asigna un punto por cada uno: Confusión, Urea >7 mmol/L, RR ≥30, BPA sistólica <90 o diastólica ≤60 mmHg, edad ≥65 años. Este paciente tiene edad >65 años y FR 32 x', por tanto, CURB-65 = 2. Según la guía, un CURB-65 de 2 indica neumonía moderada, que requiere hospitalización en medicina general para vigilancia y antibióticos endovenosos.
+
+### TRA-026 | Pie caído: lesión del nervio peroneo | 2025
+Varón de 45 años con herida punzo cortante en compartimento anterior de la pierna derecha presentando parestesias, dolor, dificultad para bajar las escaleras y el "pie caído". ¿Cuál es el nervio que puede estar comprometido?
+   A) Sural
+   B) Tibial
+   C) Safeno
+  *D) Peroneo
+   E) Femoral
+EXP: El paciente presenta una lesión punzocortante en el compartimento anterior de la pierna derecha, lo cual se asocia clásicamente al síndrome compartimental que puede comprometer estructuras vasculonerviosas. Clínicamente hay parestesias, dolor y pie caído, lo que indica afectación del nervio que dorsiflexiona el pie. El nervio peroneo común se divide en ramas profunda y superficial: la rama profunda inerva los músculos dorsiflexores (tibial anterior), cuya lesión causa el clásico pie caído, y también genera hipoestesia en el dorso del pie. El sural es sensitivo, el tibial controla la flexión plantar, y el safeno es solo sensitivo.
+
+### GIN-136 | Síndrome antifosfolípido: pérdidas gestacionales recurrentes | 2025
+Multigesta de 12 semanas, quien ha presentado 3 abortos espontáneos consecutivos, todos de menos de 10 semanas de gestación. Presentó además hace un año un episodio de trombosis venosa profunda del miembro inferior derecho. ¿Qué examen solicitaría para confirmar el diagnóstico?
+   A) Perfil tiroideo
+  *B) Ac Anti ß2 glucoproteína-I
+   C) Hidrosonografía
+   D) Cervicometría
+   E) Cariotipo de la pareja
+EXP: Multigesta con antecedentes de 3 abortos espontáneos precoces (menos de 10 semanas) y un evento de trombosis venosa profunda, lo cual cumple los criterios clínicos del síndrome antifosfolípido (SAF). Para el diagnóstico, se requieren criterios clínicos (trombosis o pérdidas gestacionales) y criterios de laboratorio positivos en al menos 2 ocasiones separadas por 12 semanas. Entre los anticuerpos más relevantes están: anticardiolipinas, anticoagulante lúpico y anti -ß2 glicoproteína I. Estos últimos son más específicos. Por tanto, se debe solicitar anticuerpos anti-ß2 glucoproteína I.
+
+### GIN-137 | Síndrome de ovario poliquístico: hiperandrogenismo | 2025
+Mujer de 26 años desde hace un año desea gestar. Refiere oligomenorrea desde la menarquia. Antecedente: acné desde la pubertad. Examen: IMC 30, acné conglobata, acantosis nigricans y acrocordones, aumento de vello corporal en zona axilar y línea abdominal media. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome de Asherman
+  *B) Síndrome hiperandrogénico
+   C) Síndrome de virilización
+   D) Enfermedad de Cushing
+   E) Hiperplasia suprarrenal congénita clásica
+EXP: Paciente con signos clínicos de hiperandrogenismo (acné severo, hirsutismo, acantosis nigricans, obesidad) e infertilidad con oligomenorrea, lo que sugiere un trastorno anovulatorio crónico, típico del síndrome de ovario poliquístico (SOP). Este se caracteriza por hiperandrogenismo clínico o bioquímico, oligo/anovulación e imagen ecográfica de ovarios poliquísticos (criterios de Rotterdam). El diagnóstico más probable en este contexto es síndrome hiperandrogénico, ya que no hay antecedente de legrados (descarta Asherman), ni virilización franca ni signos típicos de Cushing.
+
+### PED-137 | Displasia broncopulmonar | 2025
+Lactante de 3 meses dependiente de O2 con 2 l/min. Antecedente: EG: 27 semanas; peso al nacer: 800 g; Apgar: 7-8; ventilación mecánica convencional por 9 días y no invasiva con presión positiva por 33 días. Examen: T 36.9 °C, FC 130 X', FR 67 X', SatO₂ 88%, politirajes, sibilantes inspiratorios y espiratorios. RX tórax: atrapamiento aéreo, cambios intersticiales y engrosamiento peribronquial. ¿Cuál es el diagnóstico probable?
+   A) Fibrosis quística
+   B) Enfermedad de membrana hialina
+  *C) Displasia broncopulmonar
+   D) Traqueomalacia
+   E) Neumonía por aspiración
+EXP: Lactante prematuro extremo (27 semanas) con antecedentes de ventilación mecánica prolongada y dependencia de oxígeno a los 3 meses posnatales, presenta un cuadro clínico de politirajes, taquipnea, sibilancias e hipoxemia, compatible con enfermedad pulmonar crónica del prematuro. La displasia broncopulmonar se define por la necesidad de oxígeno suplementario más allá de los 28 días de vida, y es común en prematuros que requirieron soporte respiratorio prolongado. La RX muestra signos típicos: atrapamiento aéreo, engrosamiento peribronquial e imagen reticulonodular. Se descartan fibrosis quística y traqueomalacia por edad y presentación clínica.
+
+### HEM-026 | Síndrome de Down y leucemia | 2025
+Niño de 3 años portador de cromosomopatía genética presenta epistaxis, hematomas corporales periódicamente y pérdida de peso siendo diagnosticado de leucemia. ¿Cuál síndrome se relaciona más frecuentemente con esta patología?
+   A) Angelman
+   B) Klinefelter
+   C) Turner
+  *D) Down
+   E) Prader-Willi
+EXP: Paciente pediátrico con epistaxis recurrente, hematomas, pérdida de peso y diagnóstico de leucemia, lo cual orienta a una diátesis hemorrágica asociada a patología hematológica maligna. La relación entre síndrome de Down y leucemias, especialmente leucemia mieloide aguda (LMA tipo M7) y leucemia linfoblástica aguda (LLA), está bien establecida. Esta predisposición se debe a anomalías genéticas en el cromosoma 21, que alteran la diferenciación y proliferación celular. Otras cromosomopatías no tienen asociación significativa con leucemias.
+
+### REU-039 | Carcinoma espinocelular del labio | 2025
+Varón de 63 años, obrero de construcción civil, consulta por una lesión ulcerosa en el borde libre del labio inferior de un año de evolución, de 2 cm de diámetro, bordes netos, irregulares, base infiltrada y aumento de consistencia de los tejidos profundos, superficie de la úlcera cubierta por una costra sanguinolenta. ¿Cuál es el diagnóstico más probable?
+  *A) Carcinoma espinocelular
+   B) Queilitis actínica
+   C) Linfoma cutáneo
+   D) Carcinoma basocelular
+   E) Herpes simple labial
+EXP: Paciente adulto mayor, obrero (con exposición solar crónica), presenta lesión ulcerosa de larga evolución en labio inferior, con características de malignidad: bordes netos, irregulares, base infiltrada y costra sanguinolenta. Esto es altamente sugestivo de carcinoma espinocelular (CEC), neoplasia maligna frecuente en zonas fotoexpuestas y en mucosas. Es el tumor labial más común (especialmente en el labio inferior) y su presentación clínica incluye ulceraciones de bordes duros e indurados. No se trata de una queilitis (lesión premaligna), ni de basocelular (menos frecuente en labios), ni linfoma.
+
+### CIR-074 | Herida abdominal por arma blanca estable: exploración local | 2025
+Varón de 28 años que sufre hace 2 horas herida de arma blanca en el abdomen. Examen: hemodinámicamente estable, herida de 2 cm en la región periumbilical, no contractura abdominal, ligera reacción peritoneal. ¿Cuál es la conducta inicial a seguir?
+   A) Laparoscopía diagnóstica
+  *B) Exploración local de la herida
+   C) Lavado peritoneal diagnóstico
+   D) Laparotomía exploratoria
+   E) Alta inmediata con analgésicos
+EXP: Paciente con herida penetrante en abdomen por arma blanca, estable hemodinámicamente, sin signos claros de peritonitis ni hemorragia interna. En estos casos, la conducta inicial recomendada es evaluar la penetrancia de la herida mediante exploración local. Si se identifica penetración de la fascia anterior, se considera evaluación más invasiva (laparoscopía o laparotomía). Sin signos de irritación franca ni inestabilidad, la exploración local de la herida es un paso seguro, rápido y poco invasivo que orienta la toma de decisiones quirúrgicas.
+
+### PED-138 | Crup: virus parainfluenza | 2025
+Preescolar de 3 años presenta desde hace 12 horas rinorrea, fiebre y tos tipo "perruna". Examen: FC 86 X', FR 50 X', SatO₂ 92%; tórax: tiraje subcostal e intercostal, MV pasa disminuido en bases. RX tórax: signo del campanario. ¿En qué agente etiológico sospecha?
+  *A) Parainfluenza
+   B) Enterovirus
+   C) Coronavirus
+   D) Coxsackie
+   E) Virus sincitial respiratorio
+EXP: Paciente pediátrico de 3 años con cuadro respiratorio agudo caracterizado por tos perruna, fiebre, tiraje y desaturación, acompañado de hallazgo radiológico típico como el signo del campanario, altamente sugerente de laringotraqueítis viral o crup. El agente etiológico más comúnmente implicado en esta condición es el virus Parainfluenza tipo 1 y 2, que afecta predominantemente a menores de 5 años. Los signos clínicos reflejan obstrucción subglótica y el patrón radiológico confirma estrechamiento traqueal. En base a la epidemiología, edad del paciente y hallazgos clínico-radiológicos, se concluye que el agente más probable es Parainfluenza.
+
+### SP-097 | Negligencia médica | 2025
+Mujer de 44 años con antecedente de LES es hospitalizada por reagudización de su enfermedad. El reumatólogo sugiere iniciar corticoides a altas dosis. El médico internista a cargo decide no realizar interconsulta a psiquiatría porque “ellos se van a demorar mucho". La omisión de dicho acto médico corresponde a:
+   A) Impericia
+   B) Iatrogenia
+   C) Imprudencia
+  *D) Negligencia
+   E) Eutanasia
+EXP: Mujer con LES hospitalizada por reagudización, candidata a corticoides de alta dosis, lo que aumenta el riesgo de psicosis inducida por esteroides. La negativa del internista a solicitar interconsulta con psiquiatría, alegando demora, constituye una omisión de una acción médica necesaria y esperable para asegurar el cuidado integral de la paciente. La negligencia médica se define como la omisión de una conducta médica adecuada, sin justificación válida, lo que pone en riesgo al paciente. A diferencia de impericia (falta de conocimientos), imprudencia (acción apresu rada) o iatrogenia (daño no intencional), aquí prima la omisión con consecuencias previsibles.
+
+### PSI-027 | Anorexia nerviosa: QT largo | 2025
+Adolescente de 14 años, hace 1 año comienza a perder interés por la ingestión de alimentos y temor excesivo a engordar. ¿Qué alteración cardíaca ocurre más frecuentemente en esta patología?
+  *A) Intervalo QT largo
+   B) Onda T hiperaguda
+   C) Onda Q prominente
+   D) Bajo voltaje de la onda P
+   E) Elevación del ST difusa
+EXP: Adolescente con historia de un año de restricción alimentaria y temor excesivo a subir de peso, altamente sugestivo de anorexia nerviosa, trastorno de la conducta alimentaria con múltiples repercusiones sistémicas. A nivel cardíaco, las complicaciones más frecuentes son bradicardia sinusal y prolongación del intervalo QT, esta última asociada a desequilibrios electrolíticos como hipopotasemia, hipomagnesemia o hipocalcemia, y representa un riesgo potencial de arritmias malignas como torsade de pointes. No es común hallar onda T hiperaguda, ni Q prominente o P de bajo voltaje como manifestaciones típicas. Por tanto, el hallazgo más frecuente y clínicamente relevante es el intervalo QT prolongado.
+
+### GIN-138 | Portadora de BRCA: salpinguectomía bilateral oportunista | 2025
+Mujer de 35 años, con paridad satisfecha. Acude por método anticonceptivo definitivo. Tiene como antecedente mutación de gen BRCA. ¿Cuál es el procedimiento quirúrgico de elección?
+   A) Omentectomía laparoscópica
+   B) Ligadura tubárica bilateral
+   C) Histerectomía laparoscópica
+  *D) Salpinguectomía bilateral oportunista
+   E) Vasectomía de la pareja
+EXP: Mujer con mutación BRCA y paridad satisfecha busca método anticonceptivo definitivo. En este contexto, debe priorizarse una intervención que no solo sea eficaz anticonceptivamente, sino que además reduzca el riesgo oncológico, especialmente de cáncer de ovario/fimbrias. La salpinguectomía bilateral oportunista permite cumplir ambas funciones: previene embarazos y reduce el riesgo de carcinoma seroso de alto grado, al eliminar las trompas de Falopio, sitio inicial común del cáncer ovárico asociado a BRCA. La ligadura tubárica no reduce el riesgo de cáncer. Histerectomía y omentectomía no son indicadas de forma preventiva sin neoplasia.
+
+### INF-069 | Diarrea del viajero no complicada: hidratación oral | 2025
+Varón de 21 años, desde hace 5 días presenta diarrea acuosa sin sangre, 5 cámaras/día, que inicia después de un viaje a provincia. No interrumpe sus actividades. Antecedente: durante el viaje, bebió agua no embotellada. Sin antecedentes médicos personales ni familiares. No toma medicamentos. Examen: funciones vitales normales. ¿Cuál es la conducta inicial a seguir?
+   A) Antiespasmódicos
+   B) Sucralfato
+  *C) Hidratación oral
+   D) Metronidazol vía oral
+   E) Loperamida a dosis altas
+EXP: Varón joven con cuadro autolimitado de diarrea aguda no complicada, sin sangre ni fiebre, de cinco días de evolución. El antecedente de consumo de agua no potable sugiere una etiología infecciosa viral o bacteriana leve (ej. E. coli enterotoxigénica), pero la tolerancia oral conservada, ausencia de signos de deshidratación, estabilidad hemodinámica y curso benigno orientan a una gastroenteritis leve. En este tipo de cuadros, la primera línea de manejo es la rehidratación oral, que permite evitar complicaciones como deshidratación o hipovolemia. No se indican antibióticos de entrada ni fármacos que interfieran con el tránsito intestinal. Por tanto, la conducta inicial más adecuada es la rehidratación oral con sales de rehidratación o líquidos caseros.
+
+### PED-139 | Empiema en el niño: tubo de tórax y fibrinolíticos | 2025
+Escolar de 7 años, hospitalizado desde hace 5 días por neumonía en tratamiento con ceftriaxona. Persiste febril. Examen: FR 28 X', FC 102 X', T 38.8 °C, Sat02 94%. Tórax: MV disminuido en base derecha. Lab: leucocitosis. Toracocentesis: secreción purulenta. ¿Cuál es el manejo inicial?
+   A) Cirugía videotorascópica
+  *B) Drenaje cerrado con tubo de tórax e instilar fibrinolíticos
+   C) Decorticación quirúrgica
+   D) Toracocentesis repetida para extraer todo el derrame posible
+   E) Cambiar a amoxicilina oral y alta
+EXP: Escolar con empiema confirmado por toracocentesis (secreción purulenta) en contexto de neumonía complicada. A pesar del antibiótico, persiste febril a los 5 días, lo que indica fracaso terapéutico del manejo inicial. El siguiente paso es un drenaje efectivo, y el manejo estándar inicial en esta fase consiste en colocar un drenaje cerrado con tubo de tórax, acompañado de fibrinolíticos intrapleurales (como uroquinasa o alteplasa) para facilitar el drenaje del contenido purulento y evitar complicaciones como el atrapamiento pulmonar. La videotoracoscopía o decorticación quedan como opciones si falla el drenaje.
+
+### NRL-039 | Ictus isquémico a las 6 horas: trombectomía mecánica | 2025
+Varón de 72 años con HTA, DM2 presenta hemiparesia derecha y afasia desde hace seis horas. Examen: PA 180/100 mmHg. NIHSS: 10. Soplo carotídeo izquierdo. Lab: glucosa: 110 mg/dl, Hb: 11.8 g/dl, Plaquetas: 230,000/mm³, INR 1.0. TC: hipodensidad en el territorio de la ACM izquierda, sin hemorragia y sin signos de infarto extenso. Doppler carotídeo: estenosis del 80% en la carótida izquierda. ¿Cuál es el tratamiento de elección en este paciente?
+   A) Rehabilitación física precoz
+   B) Control estricto de PA sin reperfusión
+   C) Trombolisis intravenosa con alteplase (rtPA)
+  *D) Trombectomía mecánica con o sin angioplastia carotídea
+   E) Anticoagulación inmediata con heparina
+EXP: Paciente adulto mayor con factores de riesgo vascular (HTA, DM2), presenta cuadro clínico de evento cerebrovascular isquémico agudo (NIHSS 10, hemiparesia, afasia, inicio súbito hace 6 horas). La TC muestra infarto isquémico sin signos extensos ni hemorragia, y el Doppler revela estenosis carotídea severa (80%). Dado que está fuera de ventana para trombólisis intravenosa (máximo 4.5 horas), la trombectomía mecánica está indicada en pacientes con oclusión de gran vaso dentro de las 6 a 24 horas, siempre que se cumplan criterios clínicos y radiológicos. Además, la estenosis severa podría requerir angioplastia o colocación de stent.
+
+### GIN-139 | Hemorragia posparto refractaria: taponamiento con balón | 2025
+Usted se halla en su centro de salud y evalúa una puérpera inmediata de parto vaginal de feto macrosómico que presenta hemorragia puerperal. Examen: útero no contraído a 3 cm por encima de la cicatriz umbilical. Se inicia clave roja y compresión bimanual, además se usa oxitocina, ergometrina y misoprostol sin respuesta, la hemorragia persiste. ¿Cuál es el paso a seguir?
+  *A) Taponamiento con globo
+   B) Histerectomía abdominal
+   C) Acido tranexámico
+   D) Embolización angiográfica
+   E) Repetir oxitocina en bolo
+EXP: Puérpera inmediata con hemorragia postparto primaria, útero atónico a pesar de medidas iniciales completas (compresión bimanual + uterotónicos: oxitocina, ergometrina, misoprostol). La siguiente medida escalonada recomendada por guías obstétricas es el taponamiento intrauterino con balón tipo Bakri, que permite comprimir las paredes del útero desde dentro y controlar el sangrado. La histerectomía es una medida de último recurso, la embolización no es de primera línea en centros primarios y el ácido tranexámico ya debió ser administrado previamente. En este caso, el siguiente paso más lógico y menos invasivo es el taponamiento con globo.
+
+### NEU-038 | Neumonía con derrame pleural: toracocentesis | 2025
+Varón de 78 años, desde hace 5 días presenta fiebre, disnea, tos exigente y expectoración abundante. Examen: T 38 °C, PA 119/65 mmHg, FC 110 X', FR 26 X', SatO₂ 88%; MV disminuido y matidez a la percusión en 1/3 inferior de HTI. TC: consolidación del lóbulo inferior y derrame pleural HTI. Luego de iniciar antibióticoterapia empírica y oxigenoterapia. ¿Cuál es el procedimiento a seguir?
+   A) Traqueotomía
+   B) Espirometría
+  *C) Toracocentesis
+   D) Prueba de difusión de gases
+   E) Broncoscopía
+EXP: Paciente adulto mayor con síntomas respiratorios agudos (fiebre, disnea, tos con expectoración), signos clínicos de consolidación y derrame pleural (matidez, MV disminuido), y confirmación radiológica de neumonía con derrame pleural izquierdo. Frente a este hallazgo, es fundamental determinar si el derrame es paraneumónico no complicado, complicado o empiema, lo cual solo se logra mediante el análisis del líquido pleural. Por ello, la toracocentesis diagnóstica es el siguiente paso indicado, pues permitirá decidir si se requiere drenaje, además de continuar con antibióticos. Procedimientos como espirometría, difusión de gases o traqueotomía no están indicados en esta fase.
+
+### CAR-051 | Hipertensión no controlada con ARA II y tiazida: añadir amlodipino | 2025
+Mujer de 54 años, acude a control por hipertensión. Hace un mes comenzó a tomar losartan e hidroclorotiazida en dosis adecuadas con buena adherencia terapéutica y a la dieta hiposódica. No tiene otros problemas médicos. El ECG previo, perfil metabólico completo y análisis de orina fueron normales. Examen: PA 150/90 mmHg; FC 70 X', resto del examen normal. Lab.: creatinina sérica 0,8 mg/dL y potasio sérico 3,6 mEq/L ¿Cuál es el tratamiento adicional más adecuado?
+  *A) Amlodipino
+   B) Aliskiren
+   C) Clortalidona
+   D) Hidralazina
+   E) Espironolactona
+EXP: Paciente mujer con hipertensión arterial persistente (PA 150/90 mmHg) pese a tratamiento con losartán + hidroclorotiazida en dosis adecuadas. No hay evidencia de daño de órgano blanco ni comorbilidades. Ante el control subóptimo, corresponde añadir un tercer fármaco. La mejor opción en este contexto es un calcioantagonista tipo dihidropiridínico como amlodipino, que tiene buena eficacia y perfil de seguridad en combinación con ARA II y diurético. Clortalidona no sería útil si ya se usa un tiazídico. Aliskiren no es de primera línea por riesgo de hiperkalemia. Hidralazina se reserva para crisis o casos específicos. Por tanto, el tratamiento adicional más adecuado es amlodipino.
+
+### PED-140 | Fiebre sin foco en el lactante: urocultivo | 2025
+Lactante varón de 11 meses desde hace 3 días presenta fiebre y acude por vómitos. Examen: T 39.5 2 °C, FC 95 X', FR 28 X'; G-U: PPL ( -), PRU ( -); genitales: fimosis. ¿Qué prueba de laboratorio solicitaría para confirmar el diagnóstico?
+   A) Hemocultivo
+   B) Hemograma
+  *C) Urocultivo
+   D) PCR
+   E) Ecografía renal
+EXP: Lactante varón febril sin foco aparente, vómitos y antecedentes sugestivos de obstrucción urinaria (fimosis), se debe sospechar infección del tracto urinario (ITU) como principal diagnóstico. En niños menores de 2 años, la fiebre sin foco claro debe orientar hacia esta entidad. El urocultivo es la prueba diagnóstica de elección para confirmar la presencia de bacterias en la orina y guiar el tratamiento antibiótico. Hemograma y PCR son útiles como reactantes de fase aguda pero no confirman ITU. El hemocultivo solo se indica en casos graves o con sospecha de sepsis. Por tanto, la prueba a solicitar es urocultivo.
+
+### CIR-075 | Mordedura humana en el nudillo: exploración y lavado quirúrgico | 2025
+Varón de 18 años hace 3 horas al defenderse sufre herida en la mano al golpear la boca del agresor. Examen: herida profunda en nudillo de los dedos, que afecta tendón extensor y cápsula articular del 2° metacarpiano. ¿Cuál es la conducta inmediata a seguir?
+   A) Prescribir analgésicos no esteroideos
+   B) Proceder al cierre primario de la herida
+  *C) Exploración quirúrgica y lavado
+   D) Indicar vacuna antitetánica y antibióticos
+   E) Amoxicilina-ácido clavulánico oral y alta
+EXP: Heridas en nudillos tras golpear la boca, conocidas como “puñetazos humanos”, tienen alto riesgo de infección por flora oral, especialmente Eikenella corrodens y anaerobios. La afectación del tendón extensor y la cápsula articular indica compromiso profundo. La conducta inmediata es realizar exploración quirúrgica y lavado exhaustivo, incluso bajo anestesia. El cierre primario está contraindicado por alto riesgo de infección. Analgésicos o antibióticos son complementarios, pero el manejo quirúrgico urgente es clave para prevenir artritis séptica. Por tanto, se debe proceder con exploración quirúrgica y lavado.
+
+### GIN-140 | Tamizaje cervical tras conización por NIC 3 | 2025
+Mujer de 55 años quien fue diagnosticada de NIC 3 y se le realiza cono cervical como tratamiento. ¿Por cuánto tiempo se debe continuar con el screening?
+   A) Hasta los 65 años
+  *B) 20 años
+   C) 15 años
+   D) Hasta los 60 años
+   E) 5 años
+EXP: La paciente tiene antecedente de lesión intraepitelial escamosa de alto grado (NIC 3), manejada con cono cervical, lo que la clasifica como una paciente de alto riesgo para cáncer cervicouterino. En estos casos, las guías internacionales (como ASCCP y ACOG ) recomiendan que, incluso si la mujer supera los 65 años, debe continuar con el tamizaje durante 20 años luego del tratamiento, debido al riesgo persistente de progresión o recurrencia. Este seguimiento incluye citología y prueba de VPH según protocolos. Por lo tanto, en mujeres tratadas por NIC 2 o 3, el screening debe mantenerse durante 20 años, aunque ello implique hacerlo después de los 65 años.
+
+### CB-050 | Período embrionario: organogénesis | 2025
+El periodo …. se extiende desde la segunda hasta la octava semana después de la concepción. Abarca la organogénesis, por lo que es el período más crucial respecto a las malformaciones estructurales.
+   A) Fetal
+  *B) Embrionario
+   C) Preimplantación
+   D) Teratogénico
+   E) Perinatal
+EXP: La pregunta se centra en identificar el periodo del desarrollo prenatal más vulnerable a malformaciones estructurales. El periodo embrionario se extiende desde la segunda hasta la octava semana postconcepción, etapa en la que ocurre la organogénesis, es decir, la formación de los órganos y estructuras principales del cuerpo. Es el tiempo en el que los órganos en desarrollo son más susceptibles a factores teratogénicos, como fármacos, infecciones o radiación. El periodo fetal, en cambio, inicia después de la octava semana y se enfoca en el crecimiento y maduración. La opción “teratogénico” no describe una etapa cronológica sino un concepto. Por tanto, la respuesta correcta es periodo embrionario.
+
+### PED-141 | Deshidratación hipernatrémica por lactancia insuficiente | 2025
+Neonato a término de 48 horas, hijo de madre primigesta con pezones planos, presenta ictericia, llanto inconsolable que alterna con letargia, deposiciones escasas, disminución de la diuresis y pérdida de peso > 10%. ¿Cuál es el diagnóstico más probable?
+   A) Hiperaldosterismo primario
+  *B) Deshidratación hipernatrémica
+   C) Síndrome de Cushing
+   D) Diabetes insípida
+   E) Hipoglicemia neonatal
+EXP: Neonato de 48 horas con ictericia, letargia intermitente, llanto inconsolable, escasas deposiciones y oliguria, hallazgos que orientan a una falla en la lactancia materna. El antecedente de madre primigesta con pezones planos sugiere dificultad en el agarre y, por tanto, ingesta inadecuada de leche. La pérdida de peso >10% refuerza el diagnó stico de una deshidratación neonatal, y la presencia de llanto sin lágrimas, ictericia y alteraciones del sensorio apunta a una deshidratación hipernatrémica, donde hay una pérdida predominante de agua libre. En estos casos, los signos pueden ser insidioso s, y el diagnóstico se basa en la clínica junto con antecedentes de pobre alimentación. El Cushing y el hiperaldosteronismo son improbables en neonatos. La diabetes insípida es una causa rara de deshidratación en neonatos y no se presenta con ictericia o pérdida ponderal significativa de forma tan 
+
+### CIR-076 | Quemadura de primer grado: analgesia | 2025
+Mujer de 25 años que consulta por dolor en manos, refiere que hace 4 horas sufrió quemadura con agua hirviendo. Examen: Estable, FR 24 x’, FC 90 x’, PA 100/70 mmHg; manos: piel eritematosa, no flictenas, no ampollas, motilidad conservada. ¿Cuál es el tratamiento indicado?
+   A) Antibióticos por vía oral
+  *B) Analgésicos por vía oral
+   C) Apósitos con antimicrobianos
+   D) Apósitos larga duración con plata
+   E) Escarectomía temprana
+EXP: Paciente joven con quemadura por agua caliente que presenta eritema sin flictenas ni ampollas, lo cual corresponde a una quemadura de primer grado o epidérmica. Este tipo de lesión afecta únicamente la capa superficial de la piel, preservando la función de barrera y la motilidad. Fisiopatológicamente, se produce vasodilatación capilar local que explica el enrojecimiento y dolor, sin daño estructural profundo. El manejo se orienta a aliviar el dolor y favorecer la regeneración espontánea del epitelio. No se indican antibióticos ni apósitos especiales, ya que no existe pérdida de continuidad cutánea ni riesgo de infección. El tratamiento adecuado consiste en analgésicos orales (paracetamol o AINEs) y medidas físicas como compresas frías. En conclusión, la conducta correcta en quemaduras de primer grado es analgesia oral y cuidados locales sin cobertura antimicrobiana.
+
+### TRA-027 | Pie plano flexible: sin tratamiento | 2025
+Escolar de 6 años consulta por “pies chuecos”. Examen: pie plano flexible, sin dolor, ni limitación funcional. ¿Cuál es la conducta más adecuada?
+   A) Inmovilizar con yeso corrector
+   B) Indicar uso de plantillas ortopédicas rígidas
+   C) Derivar a cirugía correctiva inmediata
+  *D) No requiere tratamiento específico
+   E) Cirugía de alargamiento del tendón de Aquiles
+EXP: Niño de 6 años con pie plano flexible, sin dolor ni limitación funcional, cuadro que corresponde a una variante fisiológica del desarrollo del arco plantar. Fisiopatológicamente, el pie plano flexible se debe a la inmadurez del arco longitudinal interno, que se forma progresivamente hasta los 7-10 años conforme maduran los ligamentos y músculos plantares. En el examen, al ponerse de puntas reaparece el arco, lo cual descarta rigidez o patología estructural. No hay indicación de yesos, plantillas rígidas ni cirugía, ya que dichas medidas no modifican la evolución natural y podrían causar molestias. La conducta adecuada es la observación, uso de calzado cómodo y control periódico. En conclusión, el pie plano flexible infantil no requiere tratamiento específico, pues es un hallazgo benigno y autolimitado.

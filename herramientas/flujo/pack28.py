@@ -17,7 +17,7 @@ def _dos_con_creditos(a, b, **k):
 
 
 c28.DOS = _dos_con_creditos
-for m in sorted(f[:-3] for f in os.listdir(".") if re.fullmatch(r"content28[a-z]+\.py", f)):
+for m in sorted(f[:-3] for f in os.listdir(".") if re.fullmatch(r"content2[89][a-z]+\.py", f)):
     importlib.import_module(m)
 
 OUT, B, ZIP = sys.argv[1], sys.argv[2], sys.argv[3]

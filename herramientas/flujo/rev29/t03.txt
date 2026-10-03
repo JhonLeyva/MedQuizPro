@@ -1,0 +1,224 @@
+### GAS-029 | Hepatitis viral aguda | 2022
+Varón de 18 años que consulta por presentar desde hace 8 días inapetencia, fiebre, náuseas, vómitos y astenia, tres días después se agrega sensación de malestar en el hipocondrio derecho, ictericia y se toma afebril. ¿Cuál es el diagnostico más probable?
+  *A) Hepatitis Viral
+   B) Anemia hemolítica
+   C) Hepatitis Toxica
+   D) Hepatitis Autoinmune
+   E) Coledocolitiasis
+EXP: Paciente joven con cuadro clínico clásico de hepatitis aguda: pródromos inespecíficos como fiebre, náuseas, vómitos, astenia e hiporexia que progresan a fase ictérica, caracterizada por coloración amarillenta de piel y mucosas, y dolor en hipocondrio derecho. La resolución de la fiebre coincide con la aparición de la ictericia, patrón típico en hepatitis viral aguda, especialmente por el virus A. La anemia hemolítica puede presentar ictericia, pero no causa los pródromos constitucionales ni dolor hepático. La hepatitis tóxica suele tener historia de exposición a fármacos o tóxicos, ausente aquí. La hepatitis autoinmune afecta más a mujeres y tiene curso más insidioso. El cuadro clínico, edad y evolución son compatibles con hepatitis viral aguda, siendo la etiología más probable.
+
+### GIN-079 | Preeclampsia con signos de severidad | 2022
+Primigesta de 36 semanas, acude a emergencia por presentar cefalea global, escotomas y epigastralgia. Al examen: PA 170/110 mmHg, feto en presentación cefálica, latido cardiaco fetal 140 x´. Lab: proteinuria +++ ¿Cuál será la conducta terapéutica?
+  *A) Sulfato de magnesio y finalización de la gestación
+   B) Ecografía Doppler semanal y cesárea a programar
+   C) Nifedipina y manejo expectante hasta las 40 semanas
+   D) Alfa metildopa y programar cesárea a las 38 semanas
+   E) Furosemida y manejo expectante
+EXP: Primigesta con edad gestacional de 36 semanas presenta síntomas severos como cefalea, escotomas y epigastralgia, todos signos de alarma en el contexto de una enfermedad hipertensiva del embarazo. Al examen físico, destaca una presión arterial severamente elevada (170/110 mmHg) y proteinuria +++, lo que cumple criterios diagnósticos de preeclampsia con signos de severidad. La conducta terapéutica en estos casos debe ser inmediata: estabilización materna, prevención de convulsiones con sulfato de magnesio y finalización del embarazo, dado que el feto es viable. El uso de antihipertensivos como nifedipina o alfametildopa es complementario, pero no suficiente por sí solo. El Doppler semanal y espera hasta las 40 semanas es riesgoso y está contraindicado. La cesárea o parto se elige según condiciones obstétricas, pero lo urgente es interrumpir el embarazo.
+
+### INF-037 | Dengue con signos de alarma: clasificación | 2022
+Paciente de 45 años, procedente de distrito endémico del dengue, acude al puesto de salud por presentar fiebre persistente, dolor retro ocular, dolor abdominal intenso y vómitos. ¿Cuál es la clasificación inicial del caso?
+   A) Brote epidémico por dengue
+   B) Sospechoso de dengue clásico
+   C) Síndrome de choque por dengue
+  *D) Probable dengue con signos de alarma
+   E) Dengue grave
+EXP: Paciente procedente de zona endémica con fiebre persistente, dolor retro ocular, abdominal intenso y vómitos, lo cual configura un cuadro clínico compatible con dengue con signos de alarma. Según la clasificación de la OMS y el MINSA, los signos de alarma incluyen dolor abdominal intenso y continuo, vómitos persistentes, entre otros. Estos hallazgos alertan sobre una posible progresión a formas graves como dengue severo o síndrome de choque por dengue, por lo que requieren evaluación inmediata y manejo hospitalario. No califica como dengue clásico porque ya hay signos de alarma. El síndrome de choque por dengue incluiría hipotensión o signos de hipoperfusión, que no se mencionan aquí. No se trata de brote epidémico, ya que este término se refiere a la presencia de múltiples casos en un área, no a la clasificación individual.
+
+### NEU-023 | Crisis asmática grave: silencio auscultatorio | 2022
+Paciente de 23 años, con diagnóstico de asma bronquial desde su niñez, viene por crisis que se inició hace 3 horas. Al examen PA 110/70 mmHg, FC 130 x', FR 32 x', despierto con politirajes y silencio en la auscultación de ambos hemitórax. De todo lo expuesto, ¿qué indica una peor evolución?
+   A) Politirajes
+   B) Polipnea
+  *C) Silencio auscultatorio
+   D) Duración de la crisis
+   E) Frecuencia cardiaca de 130
+EXP: Paciente con asma bronquial que presenta una crisis severa con signos de dificultad respiratoria: taquicardia, polipnea y uso de músculos accesorios (politirajes). Sin embargo, el hallazgo más preocupante es el silencio auscultatorio bilateral, ya que indica una obstrucción bronquial tan severa que no permite el paso de aire, ni siquiera para generar sibilancias. Este signo clínico es característico del estatus asmático severo o inminente paro respiratorio, y marca un estadio avanzado de la crisis, en el que hay riesgo de hipoxia y colapso ventilatorio. En contraste, la polipnea y los tirajes reflejan aún un esfuerzo respiratorio, pero no indican agotamiento. La duración de la crisis también es un dato importante, pero no tiene tanta implicancia inmediata como el silencio auscultatorio. Por tanto, el signo que más indica una evolución desfavorable y que requiere manejo urgente es la ause
+
+### GAS-030 | Úlcera péptica: fisiopatología | 2022
+Varón de 44 años, se le realiza endoscopía digestiva alta, evidenciándose zona de excoriación de mucosa a nivel de curvatura menor, cerca del antro y del píloro. ¿Cuál es la causa básica que origina este hallazgo?
+   A) Aumento de producción de moco por las glándulas gástricas pilóricas profundas
+  *B) Desequilibrio entre la secreción gástrica y el grado de protección de la mucosa
+   C) Deficiente acción neutralizante biliar frente al ácido gástrico
+   D) Aumento de la secreción de bicarbonato de sodio
+   E) Hipersecreción de pepsinógeno por células principales
+EXP: Paciente con lesión erosiva de la mucosa gástrica a nivel de curvatura menor del estómago, una localización típica de úlcera gástrica. La fisiopatología de esta condición no se debe únicamente al aumento de secreción ácida, sino más bien a un desequilibrio entre los factores agresores (como HCl, pepsina y H. pylori) y los mecanismos protectores de la mucosa (moco, bicarbonato, prostaglandinas). Cuando la barrera mucosa se debilita, el epitelio gástrico queda expuesto a la acción del ácido clorhídrico, generando excoriaciones. El hallazgo endoscópico descrito sugiere un proceso ulcerativo en etapa inicial. Las opciones que mencionan aumento de bicarbonato o moco no explican una lesión, sino más bien protección; y la neutralización biliar ocurre en el duodeno, no en el estómago. Por tanto, el origen básico del hallazgo es el desequilibrio mucoso-agresor.
+
+### CIR-052 | Apendicitis aguda en el escolar | 2022
+Escolar de 6 años, presenta malestar general, anorexia, dolor abdominal periumbilical de 12 horas de evolución, acompañado de vómitos sin contenido alimentario, no diarreas. Al examen: dolor a la palpación en fosa iliaca derecha. ¿Cuál es el diagnóstico probable?
+  *A) Apendicitis aguda
+   B) Invaginación intestinal
+   C) Gastroenterocolitis
+   D) Diverticulitis
+   E) Infección urinaria
+EXP: Escolar con clínica de dolor abdominal periumbilical que migra hacia fosa iliaca derecha, asociado a vómitos sin contenido alimentario ni diarrea. Esta evolución temporal, junto con los signos focales en el examen físico, sugiere un cuadro abdominal agudo de tipo quirúrgico. La apendicitis aguda en niños suele iniciar con síntomas generales inespecíficos como anorexia, malestar y dolor mal localizado, para luego presentar localización en fosa iliaca derecha, lo que es típico. La invaginación intestinal es más común en menores de 2 años y se asocia a dolor cólico y sangre en jalea de grosella, lo cual no está presente aquí. No hay diarrea ni otros signos que apoyen una gastroenterocolitis. La diverticulitis es muy infrecuente en edad pediátrica. El patrón clínico descrito es clásico para apendicitis.
+
+### INF-038 | Estrongiloidiasis: ivermectina | 2022
+En un análisis de heces de rutina se encuentran huevos de Strongyloides stercoralis. ¿Cuál de las siguientes opciones sería el tratamiento de primera elección?
+   A) Metronidazol
+   B) Mebendazol
+  *C) Ivermectina
+   D) Albendazol
+   E) Praziquantel
+EXP: El hallazgo de huevos de Strongyloides stercoralis en heces indica una parasitosis intestinal activa. Este nematodo puede causar infecciones crónicas y, en inmunocomprometidos, desencadenar una hiperdiseminación potencialmente fatal. El tratamiento de primera línea es la ivermectina, ya que ha demostrado ser más eficaz que los benzimidazoles, con mejor tasa de erradicación. El mebendazol y el albendazol son opciones alternativas, pero su eficacia es inferior en monoterapia contra Strongyloides. La ivermectina actúa paralizando al parásito mediante la unión a canales de cloro mediados por glutamato. Su administración oral en una o dos dosis, dependiendo del cuadro clínico, logra la curación en la mayoría de los casos.
+
+### NEU-024 | Neumotórax espontáneo secundario en EPOC | 2022
+Varón de 68 años con EPOC, acude a Emergencia por presentar súbitamente dolor torácico y disnea que no responde a oxigenoterapia ni a broncodilatadores. Al examen: 110/60 mmHg, FC 110 x', FR 30 x', SaO₂ 86%, hiperresonancia a la percusión de hemitórax derecho. ¿Cuál es el diagnóstico probable?
+  *A) Neumotórax agudo
+   B) Embolismo pulmonar
+   C) Exacerbación del EPOC
+   D) Neumonía lobar
+   E) Infarto agudo de miocardio
+EXP: Varón adulto mayor con diagnóstico de EPOC que acude con dolor torácico súbito y disnea intensa que no mejora con oxígeno ni broncodilatadores. La saturación de oxígeno es baja (86%) y presenta hiperresonancia a la percusión del hemitórax derecho, lo cual es un dato clave que orienta al diagnóstico de neumotórax. Esta complicación es frecuente en pacientes con EPOC debido a la ruptura espontánea de bullas enfisematosas. A diferencia del embolismo pulmonar, aquí hay alteraciones claras a la percusión torácica, y no hay signos de TVP ni inestabilidad hemodinámica grave. La exacerbación del EPOC suele ser progresiva, no súbita, y no se asocia a hiperresonancia. La neumonía también tiene una presentación distinta, con fiebre y matidez. Por tanto, el diagnóstico más probable es un neumotórax espontáneo secundario, que requiere descompresión inmediata.
+
+### SP-055 | Violencia familiar: Centro de Salud Mental Comunitario | 2022
+Un tamizaje de violencia familiar realizado por profesionales del consultorio de salud de la mujer reveló que la incidencia es alta, decidiéndose que las víctimas recibieran atención integral especializada refiriéndolas a:
+  *A) Centro de Salud Mental Comunitario
+   B) Ministerio de la Mujer
+   C) Hospital de tercer nivel
+   D) Instituto Nacional de Salud Mental
+   E) Comisaría del sector
+EXP: La detección de una alta incidencia de violencia familiar en un tamizaje realizado en un centro de salud exige una respuesta institucional que ofrezca atención integral, cercana y comunitaria. Los Centros de Salud Mental Comunitarios están diseñados precisamente para brindar atención especializada a víctimas de violencia, incluyendo intervención psicológica, psiquiátrica y trabajo social. Aunque el Ministerio de la Mujer y el Instituto Nacional de Salud Mental también intervienen en estos casos, su rol no es brindar atención inmediata y directa, sino de coordinación, supervisión o manejo especializado de casos complejos. El hospital de tercer nivel no es la primera línea.
+
+### GAS-031 | Pancreatitis aguda: lipasa | 2022
+Varón de 50 años acude por dolor abdominal intenso en epigastrio con irradiación a región lumbar que se inició hace 7 días, hace 2 días se agrega náuseas e hiporexia. Antecedente de alcoholismo crónico. ¿Qué examen debe solicitar para confirmar diagnóstico?
+   A) Fosfatasa alcalina
+   B) Amilasa
+  *C) Lipasa
+   D) Transaminasas
+   E) Gamma glutamil transferasa
+EXP: Paciente masculino de 50 años con historia de dolor epigástrico irradiado a dorso, hiporexia y náuseas, en contexto de alcoholismo crónico, lo que orienta fuertemente hacia el diagnóstico de pancreatitis aguda alcohólica. El dolor epigástrico con irradiación a región lumbar es característico. Aunque la amilasa puede elevarse, la lipasa es más específica y se eleva por mayor tiempo (hasta 7-14 días). Fosfatasa alcalina y transaminasas pueden estar alteradas si hay daño hepático o biliar, pero no son útiles para confirmar una pancreatitis. Por tanto, el mejor examen para confirmar el diagnóstico clínico de pancreatitis en este contexto es la lipasa sérica.
+
+### CIR-053 | Hernia inguinal indirecta | 2022
+Albañil de 48 años, portador de tumoración inguinoescrotal izquierda, reductible y asintomática. Abdomen: Tumoración blanda de 5 cm de diámetro, no dolorosa a la palpación. Maniobra de Valsalva (+), maniobra de Coley ( -). ¿Cuál es el probable diagnóstico?
+   A) Hernia crural
+   B) Eventración abdominal
+   C) Hernia inguinal directa
+  *D) Hernia inguinal indirecta
+   E) Hidrocele
+EXP: Varón adulto con actividad física intensa (albañil), que presenta tumoración inguinoescrotal izquierda, reductible, blanda y asintomática, compatible con una hernia. El dato de maniobra de Valsalva positiva indica aumento del volumen de la tumoración con el aumento de presión intraabdominal. La maniobra de Coley negativa indica que el saco herniario no sale por el orificio inguinal profundo, descartando hernia directa. En la hernia inguinal indirecta, el saco pasa a través del anillo inguinal profundo, acompaña al cordón espermático y puede extenderse hasta el escroto. Es más frecuente en hombres jóvenes, pero también en adultos con esfuerzo físico repetitivo. La ubicación escrotal y las características clínicas descartan hernia crural (más baja y medial) y eventración (relación con cirugía previa).
+
+### INF-039 | Dengue: prueba del lazo | 2022
+Varón de 28 años, desde hace 3 días presenta fiebre, cefalea, mialgias intensas. Antecedente de haber visitado Iquitos hace 9 días. Al tomar la presión arterial, aparece un gran número de petequias en el antebrazo. ¿Cuál es el diagnóstico más probable?
+   A) Malaria
+   B) Fiebre amarilla
+  *C) Dengue
+   D) Leptospirosis
+   E) Fiebre tifoidea
+EXP: Joven con fiebre, cefalea, mialgias intensas y antecedente de viaje reciente a zona endémica (Iquitos) hace pensar en enfermedades tropicales. La aparición de petequias al tomar la presión arterial (signo del torniquete positivo) es indicativa de fragilidad capilar, característica del dengue clásico o con signos de alarma. Este signo clínico, junto con las manifestaciones generales, encaja con dengue, cuya fase febril suele acompañarse de mialgias ("fiebre rompehuesos"). La malaria podría cursar con fiebre periódica y esplenomegalia, pero no da petequias típicamente. La fiebre amarilla cursa con ictericia y manifestaciones hepatorrenales. La leptospirosis da mialgias, pero suele acompañarse de conjuntivitis e ictericia.
+
+### OFT-018 | Sinusitis subaguda | 2022
+Adolescente de 12 años presenta cefalea desde hace 1 mes. Se asocia tos a predominio nocturno y rinorrea intermitente. Al examen: secreción purulenta en la pared posterior de la faringe. ¿Cuál es el diagnóstico a plantear?
+  *A) Sinusitis subaguda
+   B) Rinitis alérgica
+   C) Rinofaringitis crónica
+   D) Rinosinusitis aguda
+   E) Adenoiditis aguda
+EXP: Adolescente con cefalea de un mes de evolución, asociada a rinorrea intermitente y tos nocturna, síntomas que orientan a patología inflamatoria de las vías aéreas superiores. El hallazgo de secreción purulenta en la pared posterior de la faringe indica goteo postnasal, característico de una sinusitis subaguda, la cual se define como la inflamación de los senos paranasales con duración entre 4 y 12 semanas. La rinitis alérgica suele ser crónica, con síntomas como estornudos, prurito nasal y rinorrea hialina, no purulenta. La rinofaringitis crónica también es más prolongada, con síntomas menos intensos. La rinosinusitis aguda se presenta por menos de 4 semanas y con mayor compromiso sistémico. Por tanto, el cuadro clínico y la duración guían a sinusitis subaguda.
+
+### REU-024 | Herpes zóster en paciente con VIH | 2022
+Mujer de 64 años VIH (+), desde hace 3 días dolor urente en la región lateral de hemitórax izquierdo, seguido de eritema y vesículas de tamaño variable a lo largo del dermatoma. Test de Tzanck: cambios citoplasmáticos típicos y presencia de células gigantes multinucleadas. ¿Cuál es el diagnóstico más probable?
+  *A) Herpes zóster
+   B) Dermatitis de contacto
+   C) Pioderma gangrenoso
+   D) Dermatosis neutrofílica
+   E) Varicela
+EXP: Paciente VIH positivo con dolor urente torácico, seguido de eritema y vesículas en un patrón lineal que sigue un dermatoma, lo cual es característico del herpes zóster, una reactivación del virus varicela-zóster en ganglios dorsales. La inmunosupresión por VIH favorece su reaparición. El test de Tzanck apoya el diagnóstico al mostrar células gigantes multinucleadas. La distribución unilateral y dermatómica descarta otras patologías como pioderma gangrenoso (ulcerativa y más agresiva), dermatitis de contacto (más difusa y bilateral), y dermatosis neutrofílica (generalmente asociada a enfermedades sistémicas). El cuadro clínico y antecedentes permiten un diagnóstico claro.
+
+### GIN-080 | Endometritis puerperal poscesárea | 2022
+Puérpera mediata de 3 días por cesárea. Inicia con fiebre 38.5 °C en 2 horas separadas. Al examen: se palpa útero doloroso a 2 cm de la cicatriz umbilical. A la especuloscopía: secreción purulenta. ¿Cuál es la conducta a seguir?
+   A) Explorar herida operatoria
+   B) Solicitar ecografía transvaginal
+   C) Preparación para legrado puerperal
+  *D) Iniciar antibioticoterapia
+   E) Histerectomía de urgencia
+EXP: Puérpera mediata de 3 días postcesárea que presenta fiebre persistente en dos tomas separadas, dolor uterino y secreción purulenta en la especuloscopía. El cuadro clínico es compatible con endometritis puerperal, una de las infecciones más frecuentes en el puerperio inmediato, especialmente en pacientes con antecedente de cesárea. El signo clínico clave es el útero doloroso y la presencia de secreción fétida o purulenta por el canal endocervical. El manejo inicial es antibioticoterapia de amplio espectro dirigida a flora polimicrobiana, incluyendo anaerobios, grampositivos y gramnegativos. El uso de clindamicina más gentamicina es un esquema habitual. Si no hay mejoría, se puede valorar el legrado. Por lo tanto, la primera conducta debe ser iniciar antibióticos de forma inmediata.
+
+### SP-056 | Plan operativo anual: identificar problemas | 2022
+Un médico serumista, jefe de un establecimiento de salud 1-4, requiere presentar el plan operativo anual. ¿Con cuál de los siguientes procesos debe iniciar la elaboración del plan?
+   A) Formulación de metas y objetivos
+  *B) Determinación de los problemas sanitarios
+   C) Determinación de actividades
+   D) Asignación de recursos
+   E) Contratación de personal
+EXP: El plan operativo anual (POA) es una herramienta fundamental para la gestión sanitaria, y su punto de partida debe ser el análisis de situación. Este proceso implica identificar y priorizar los problemas de salud más relevantes del ámbito, lo cual permite plantear metas, objetivos y actividades coherentes con la realidad local. Sin este paso inicial, la planificación carecería de fundame nto técnico. Formular actividades sin saber qué problemas existen conduce a intervenciones ineficaces. El ciclo de planificación estratégica inicia con la evaluación situacional y no con la ejecución directa. Por eso, aunque otras opciones sean parte del proceso, el orden lógico exige empezar con la identificación de los problemas sanitarios.
+
+### PSI-015 | Conducta purgativa: alcalosis hipoclorémica | 2022
+Adolescente de 13 años, hospitalizada por deshidratación y desnutrición con IMC 15. La madre refiere que con frecuencia su hija se provoca vómitos. ¿Qué trastorno del medio interno espera encontrar?
+   A) Acidosis metabólica
+   B) Acidosis hipoclorémica
+   C) Alcalosis hiperclorémica
+  *D) Alcalosis hipoclorémica
+   E) Acidosis respiratoria
+EXP: La paciente presenta signos de trastorno alimentario tipo bulimia nerviosa, caracterizado por provocarse vómitos con frecuencia. Esto conlleva pérdida significativa de ácido gástrico (HCl), produciendo un desequilibrio hidroelectrolítico típico: alcalosis metabólica e hipocloremia. Esta pérdida de protones (H⁺) eleva el pH sanguíneo, mientras que la pérdida de cloro (Cl⁻) reduce su concentración plasmática. Además, la hipopotasemia suele acompañar al cuadro, ya que el organismo compensa el déficit de volumen activando el sistema renina-angiotensina- aldosterona, promoviendo la excreción de potasio. La combinación de alcalosis con hipocloremia es un hallazgo clásico en pacientes con vómitos inducidos. Las otras alternativas no se ajustan al mecanismo fisiopatológico descrito.
+
+### PED-092 | Cardiopatía congénita cianótica neonatal | 2022
+Recién nacido a término, a las 3 horas de vida presenta cianosis perioral y ungueal. La administración de oxígeno no mejora el color de la piel ni la saturación. ¿Cuál es el diagnóstico probable?
+   A) Persistencia del conducto arterioso
+   B) Comunicación interventricular
+  *C) Estenosis pulmonar
+   D) Comunicación interauricular
+   E) Neumonía neonatal
+EXP: El recién nacido presenta cianosis desde las primeras horas de vida que no mejora con oxígeno, lo cual sugiere una cardiopatía congénita cianótica con circulación dependiente del conducto arterioso. Este dato clínico es clave para distinguir una causa cardiaca de una pulmonar. La estenosis pulmonar crítica puede generar disminución del flujo sanguíneo pulmonar, llevando a hipoxemia persistente, y es uno de los defectos que pueden debutar así. Las otras malformaciones listadas suelen causar cortocircuitos de izquierda a derecha (CIA, CIV, PCA) y no producen cianosis significativa al nacimiento. La no respuesta al oxígeno es característica de las cardiopatías cianóticas.
+
+### PSI-016 | Esquizofrenia paranoide | 2022
+Médico infectólogo de 45 años, desde hace 3 meses se ha aislado de sus compañeros de trabajo. Refiere que ha inventado una vacuna contra el coronavirus y que por eso le darán el Premio Nobel. Además, expresa que le quieren robar su invento y que quieren matarlo. Cree que le han puesto micrófonos y cámaras en su departamento. Al examen: desaseado y ansioso. ¿Cuál es su diagnóstico probable?
+   A) Síndrome de Burnout
+   B) Psicosis depresiva
+  *C) Esquizofrenia paranoide
+   D) Trastorno Bipolar
+   E) Demencia frontotemporal
+EXP: El cuadro clínico muestra un aislamiento social progresivo, delirios de grandeza (cree haber creado una vacuna) y de persecución (cree que lo quieren matar y espían su casa), sin alteración evidente del estado de ánimo. Estos síntomas son característicos de la esquizofrenia paranoide, subtipo donde predominan los delirios y alucinaciones con conservación del lenguaje y la afectividad en etapas iniciales. El síndrome de Burnout cursa con agotamiento laboral y despersonalización, pero sin delirios. La psicosis depresiva se manifiesta con tristeza profunda y delirios congruentes con el est ado de ánimo, no de grandeza. El trastorno bipolar requiere fases alternantes de manía y depresión, lo cual no se describe aquí. Por tanto, el diagnóstico más probable es esquizofrenia paranoide.
+
+### OFT-019 | Midriasis farmacológica | 2022
+Varón de 45 años, sometido a un examen de retina, luego del cual presenta fotofobia y visión borrosa. Pupilas: midriasis bilateral, no reactivas a la luz ni a la acomodación. No otro trastorno oculomotor. ¿Cuál es el diagnóstico más probable?
+  *A) Midriasis farmacológica
+   B) Parálisis del III par craneal
+   C) Pupilas de Argyll Robertson
+   D) Síndrome de Horner
+   E) Glaucoma agudo bilateral
+EXP: El paciente presenta midriasis bilateral no reactiva, sin alteraciones oculomotoras, tras un procedimiento oftalmológico. La aplicación de fármacos midriáticos como la tropicamida o fenilefrina es una práctica común para dilatar pupilas durante un examen de retina. Es tos agentes bloquean la respuesta parasimpática, generando midriasis sin alteración motora. La parálisis del III par craneal suele asociarse con ptosis y desviación del globo ocular. Las pupilas de Argyll Robertson son mióticas, no reactivas a la luz pero sí a la acomodación, y se observan en neurosífilis. El síndrome de Horner genera miosis, ptosis y anhidrosis. Por tanto, la causa más probable del cuadro clínico es una midriasis farmacológica inducida iatrogénicamente.
+
+### GAS-032 | Úlcera duodenal: dolor que despierta | 2022
+Varón de 45 años, acude a consultorio por presentar desde hace un mes dolor tipo urente en epigastrio que aparece 5 a 6 horas después de la ingesta de alimentos, ocasionalmente el dolor lo despierta por las noches. Niega pérdida de peso y disfagia. Sin antecedentes relevantes. Al examen: no evidencia hallazgos significativos. ¿Cuál sería el diagnóstico más probable?
+   A) Gastritis aguda
+   B) Reflujo gastroesofágico
+  *C) Úlcera péptica
+   D) Cáncer de estómago
+   E) Pancreatitis crónica
+EXP: El dolor epigástrico de tipo urente que aparece varias horas después de la ingesta y que incluso despierta al paciente por la noche es característico de una úlcera duodenal, una forma de úlcera péptica. La ausencia de síntomas como disfagia o pérdida de peso orienta a una patología benigna. La gastritis aguda suele producir dolor más inmediato tras las comidas, y el reflujo gastroesofágico se caracteriza por pirosis retroesternal posprandial, no por dolor epigástrico tardío. El cáncer gástrico se presenta con síntomas sistémicos, pérdida de peso o vómitos persistentes, los cuales no se evidencian aquí. La localización epigástrica, el patrón temporal del dolor y su alivio tras la ingesta tardía encajan mejor con úlcera péptica.
+
+### PED-093 | Neumonía neonatal: RPM prolongada | 2022
+Recién nacido de 36 semanas de edad gestacional y 12 horas de vida que inicia cuadro de dificultad respiratoria leve e hipotermia. Antecedente materno de RPM mayor de 18 horas. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad de membrana hialina
+   B) Taquipnea transitoria del recién nacido
+   C) Hemorragia intraventricular
+  *D) Neumonía neonatal
+   E) Hipoglicemia neonatal
+EXP: Recién nacido pretérmino tardío (36 semanas), con dificultad respiratoria leve e hipotermia en primeras horas de vida, más antecedente materno de ruptura prolongada de membranas (más de 18 horas), lo cual sugiere probable infección neonatal. La neumonía neonatal es una causa común de este cuadro clínico, especialmente cuando existe un foco de infección ascendente desde la madre. La enfermedad de membrana hialina es más severa, se presenta en prematuros más extremos y sin antecedente infeccioso. La taquipnea transitoria mejora rápidamente y no se asocia a hipotermia. La hemorragia intraventricular se manifiesta neurológicamente, no respiratoriamente.
+
+### NEU-025 | Tuberculosis latente en la gestante: isoniacida | 2022
+Gestante de 24 semanas, asintomática, con prueba de tuberculina positiva y RX de tórax normal. Esposo acaba de ser diagnosticado de TBC, BK Positivo. ¿Cuál es la conducta a seguir?
+   A) Radiografía en seis meses
+   B) TEM de tórax en un mes
+  *C) Isoniacida profiláctica
+   D) BK seriado por tres tomas
+   E) Vacuna BCG a la gestante
+EXP: La paciente está en contacto estrecho con un caso de TBC bacilífera (su esposo) y tiene una prueba de tuberculina positiva sin signos de enfermedad activa en la radiografía. En gestantes, la profilaxis con isoniacida está indicada en esta situación para prevenir la progresión a tuberculosis activa. No se debe esperar a que termine el embarazo ni repetir imágenes innecesariamente. El BK seriado es útil si hubiera síntomas respiratorios, lo cual no es el caso. El tratamiento profiláctico debe iniciarse incluso en ausencia de síntomas.
+
+### END-021 | Síndrome del eutiroideo enfermo | 2022
+Varón de 45 años con colitis ulcerativa de 3 años de evolución. Hospitalizado por exacerbación de la colitis, consunción, dolor abdominal y apatía. Perfil tiroideo, T3 total y libre disminuido, T4 libre y TSH normal. ¿Cuál es el diagnóstico más probable?
+   A) Hipotiroidismo primario
+  *B) Síndrome del eutiroideo enfermo
+   C) Hipotiroidismo subclínico
+   D) Hipertiroidismo subclínico
+   E) Hipotiroidismo central
+EXP: Paciente con colitis ulcerativa severa en fase de exacerbación, acompañado de signos de enfermedad sistémica como consunción y apatía. El perfil tiroideo muestra T3 total y libre disminuidas, T4 libre también baja o normal, y TSH normal. Estos hallazgos son característicos del síndrome del eutiroideo enfermo, también llamado síndrome del paciente eutiroideo con enfermedad no tiroidea. Es una condición adaptativa del eje tiroideo durante enfermedades críticas o inflamatorias crónicas, sin alteración primaria de la glándula tiroides. A diferencia del hipotiroidismo primario, aquí la TSH no está elevada. En el hipotiroidismo subclínico, la TSH estaría aumentada con T4 normal. En el hipertiroidismo subclínico, la TSH estaría suprimida. El diagnóstico no requiere tratamiento hormonal, ya que es transitorio y se resuelve con la mejoría del cuadro sistémico.
+
+### GIN-081 | Amenaza de aborto: ecografía transvaginal | 2022
+Mujer de 25 años sexualmente activa con amenorrea de 9 semanas, desde hace 24 horas presenta dolor tipo cólico en hipogastrio y sangrado escaso. Al examen: funciones vitales estables, ansiosa con facies dolorosa, cérvix blando, cerrado, de aspecto violáceo con escaso sangrado. ¿Cuál es el procedimiento a realizar?
+   A) Indicar culdocentesis
+  *B) Solicitar ecografía transvaginal
+   C) Solicitar B-hCG
+   D) Preparar para legrado uterino
+   E) Indicar progesterona y alta
+EXP: Mujer joven, sexualmente activa, con amenorrea de 9 semanas que presenta dolor tipo cólico y sangrado vaginal escaso, sin signos de inestabilidad hemodinámica. Al examen ginecológico, el cérvix está cerrado, violáceo y sin sangrado activo, lo cual orienta hacia un embarazo intrauterino viable con sangrado leve o hacia una amenaza de aborto. Sin embargo, también debe considerarse embarazo ectópico, ya que aún no se ha confirmado la localización del embarazo. En estos casos, la primera conducta clínica segura y diagnóstica es solicitar beta-hCG cuantitativa, que permitirá comparar con el valor umbral ecográfico. Recién con ese valor se solicita una ecografía transvaginal para confirmar si el embarazo es intrauterino o ectópico. Procedimientos como el legrado o la culdocentesis se reservan para casos definidos.

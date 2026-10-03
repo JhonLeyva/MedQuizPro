@@ -1,0 +1,224 @@
+### NRL-033 | Metástasis cerebrales múltiples | 2024
+Varón de 65 años fumador severo, es traído por convulsiones de reciente inicio. Antecedente: cefalea holocraneana y tos persistente desde hace 4 meses. Examen: Lúcido, hemiparesia izquierda. TC cerebral: lesión parenquimatosa frontal derecha redonda de 1 cm, bien circunscrita, con reforzamiento en forma de anillo y edema perilesional en forma de dedos de guante y otra lesión con las mismas características, parietal izquierda. ¿Cuál es el diagnóstico más probable?
+  *A) Metástasis cerebral
+   B) Glioblastoma multiforme
+   C) Meningioma
+   D) Neurocisticercosis
+   E) Absceso cerebral
+EXP: Dada la historia de tabaquismo severo que incrementa el riesgo de cáncer de pulmón, las convulsiones y las lesiones cerebrales múltiples con características típicas de reforzamiento en forma de anillo y edema perilesional en forma de dedos de guante, el diagnóstico más probable en este caso es metástasis cerebral (Alternativa A). Las metástasis cerebrales son lesiones secundarias que se originan de tumores primarios en otras partes del cuerpo, como el pulmón en pacientes fumadores. Suelen presentarse como múltiples lesiones bien circunscritas con edema perilesional en forma de dedos de guante. La historia de cefalea holocraneana y tos persistente sugiere un posible tumor primario en el pulmón que ha metastatizado al cerebro.
+
+### PED-119 | Sepsis neonatal: índice I/T > 0.2 | 2024
+Recién nacido a término con antecedente de corioamnionitis materna no tratada, a las 16 horas de nacido presenta hipotermia e intolerancia oral ¿Qué resultado de análisis de laboratorio apoya su sospecha diagnóstica?
+   A) Recuento leucocitario 18 000 x mm3
+  *B) Neutrófilos inmaduros/totales > 0.2
+   C) Velocidad de sedimentación 4 mm/h
+   D) Recuento de plaquetas < 150 000 x mm3
+   E) Bilirrubina indirecta elevada
+EXP: En el contexto de un recién nacido con corioamnionitis materna no tratada y sospecha de sepsis neonatal (hipotermia e intolerancia oral), el análisis de laboratorio que mejor apoya la sospecha diagnóstica es la proporción de neutrófilos inmaduros/totales > 0.2 (Alternativa B). La presencia de neutrófilos inmaduros (también conocidos como bandas) en proporción aumentada respecto al total de neutrófilos circulantes es un marcador significativo de respuesta inflamatoria y sugiere la presencia de infección bacteriana, como la sepsis neonatal.
+
+### PED-120 | Síndrome de Reye | 2024
+Niño de 3 años, es traído a emergencia por presentar convulsiones tónico clónicas. Antecedente: Hace 5 días diagnóstico de varicela, en tratamiento con aciclovir y ácido acetilsalicílico condicional a fiebre. Examen: Hepatomegalia, resto normal. LCR: normal. ¿Cuál es el diagnóstico más probable?
+   A) Encefalitis viral
+   B) Epilepsia
+   C) Ataxia cerebelosa
+  *D) Síndrome de Reye
+   E) Meningitis bacteriana
+EXP: Dado el antecedente de varicela, el tratamiento con ácido acetilsalicílico y la presentación clínica del niño, el síndrome de Reye (Alternativa D) es el diagnóstico más probable en este caso. Este síndrome se caracteriza por encefalopatía aguda y enfermedad hepática aguda, típicamente asociada con el uso de ácido acetilsalicílico en niños durante o después de infecciones virales como la varicela. Los hallazgos de hepatomegalia y convulsiones son consistentes con esta entidad.
+
+### NEF-043 | Lesión renal prerrenal: sodio urinario bajo | 2024
+Varón de 38 años, es traído a urgencias luego de ser liberado de un secuestro. Informa que no ha consumido alimentos ni agua, durante un día y medio, y presenta oligoanuria. Examen: PA 95/60 mmHg, FC 120 X´, FR 20 X´, T 36 °C, turgencia de piel disminuida, mucosas secas. ¿Qué esperaría encontrar en una muestra de orina?
+   A) Proteínas altas
+  *B) Sodio bajo
+   C) Osmolalidad baja
+   D) Cilindros eritrocitarios
+   E) Sodio alto
+EXP: En un paciente con oligoanuria tras privación de agua y deshidratación severa, lo más probable es que nos encontremos con una injuria renal aguda prerenal. Una de las características de este tipo de injuria renal aguda es la presencia de sodio urinario bajo (Alternativa B). La injuria renal aguda prerenal se refiere a una disminución repentina del flujo sanguíneo renal, que compromete temporalmente la función renal sin causar daño estructural permanente. Esto puede ocurrir en situaciones donde hay una reducción del volumen intravascular o una disminución del flujo sanguíneo renal efectivo, como en casos de deshidratación severa, insuficiencia cardiaca congestiva o shock. Los hallazgos de laboratorio característicos de una injuria renal aguda prerenal en una muestra de orina serán una fracción excretada de sodio menor del 1%, un sodio urinario menor de 20meq/L y una osmolalidad urinaria i
+
+### SP-080 | Patogenicidad | 2024
+¿Cómo se denomina a la capacidad de un agente infeccioso de producir enfermedad en una persona?
+   A) Infectividad
+  *B) Patogenicidad
+   C) Virulencia
+   D) Infección
+   E) Inmunogenicidad
+EXP: La capacidad de un agente infeccioso de producir enfermedad en una persona una vez que haya infectado al huésped se denomina patogenicidad (Alternativa B).
+
+### GIN-109 | Presentación de cara mentoanterior: parto vaginal | 2024
+Multigesta de 37 semanas de gestación, acude por dolor tipo contracción y pérdida de líquido. Examen: AU: 32 cm, SPP: LCI, LCF: 144 X'. Tacto vaginal: D: 9 cm, B: 100%, AP: -3, membranas rotas con líquido amniótico claro. Se palpa presentación de cara mento anterior. ¿Cuál es la conducta a seguir?
+   A) Uso de fórceps
+   B) Cesárea de emergencia
+  *C) Parto vaginal espontáneo
+   D) Uso de vacuum
+   E) Versión interna
+EXP: En una multigesta de 37 semanas con presentación de cara mento anterior y buen progreso del trabajo de parto (dilatación completa, borramiento completo, estación -3, líquido amniótico claro), la conducta más adecuada es el parto vaginal espontáneo (Alternativa C). La presentación de cara mentoanterior es una posición fetal específica durante el trabajo de parto, donde el bebé se presenta con la cara en lugar de la cabeza (vértice) hacia el canal del parto, y en la que el mentón (barbilla) del bebé está orientado hacia adelante, es decir, hacia el pubis de la madre. Si las condiciones son favorables, como en el caso presentado (buena progresión del trabajo de parto, ausencia de sufrimiento fetal), se puede intentar un parto vaginal espontáneo. A diferencia, la presentación de cara mentoposterior es indicación de cesárea.
+
+### CIR-061 | Quemadura circunferencial: escarotomía | 2024
+Adolescente de 15 años, que hace 7 días sufrió quemadura grave en miembro inferior derecho. Examen: quemadura de tercer grado, extensa, que compromete toda la circunferencia de la pierna, ausencia de pulso pedio. ¿Cuál es el tratamiento de elección?
+   A) Fasciotomía
+  *B) Escarotomía
+   C) Drenajes múltiples
+   D) Colocar apósitos
+   E) Amputación supracondílea
+EXP: En un paciente con quemadura de tercer grado que compromete toda la circunferencia de una extremidad y presenta ausencia de pulso pedio, la situación indica la presencia de un compromiso vascular debido a la constricción por la escara. En este sentido, la escarotomía (Alternativa B) es el procedimiento de elección en quemaduras circunferenciales de tercer grado. Consiste en realizar incisiones a través de la escara lo cual alivia la presión causada por la escara endurecida y restaura el flujo sanguíneo, evitando la progresión a un síndrome compartimental.
+
+### NEF-044 | Pielonefritis xantogranulomatosa | 2024
+Mujer de 62 años, desde hace un mes fiebre y dolor continuo en fosa lumbar derecha. Antecedente: litiasis renal e infecciones urinarias a repetición. Examen: PPL (+) bilateral. Laboratorio: leucocitosis sin desviación izquierda, Hb 9 g/dL, sedimento urinario: leucocituria. Citología de orina con abundantes macrófagos de aspecto espumoso. ¿Cuál es el diagnóstico más probable?
+   A) Tuberculosis renal
+   B) Absceso renal
+   C) Adenocarcinoma renal
+  *D) Pielonefritis xantogranulomatosa
+   E) Riñón poliquístico
+EXP: En una paciente con fiebre, dolor lumbar, antecedentes de litiasis renal e infecciones urinarias recurrentes, leucocitosis, anemia, leucocituria, y citología de orina con abundantes macrófagos espumosos, el diagnóstico más probable es pielonefritis xantogranulomatosa (Alternativa D). La pielonefritis xantogranulomatosa es una forma crónica de pielonefritis que se asocia con infecciones urinarias recurrentes y litiasis renal. Se caracteriza por la presencia de macrófagos espumosos en la citología de orina.
+
+### END-030 | Diabetes tipo 2: actividad física 150 min/semana | 2024
+En la diabetes mellitus tipo 2, para prevención y tratamiento se indica actividad física. ¿Qué característica debe cumplir en adultos de 18 a 64 años?
+   A) Grupal, previa evaluación por entrenador físico personal
+   B) Consentimiento informado firmado por familiar
+  *C) Mínimo 150 minutos semanales de intensidad moderada
+   D) No se realiza el mismo día del tratamiento con metformina
+   E) Ejercicio intenso diario sin descanso
+EXP: Para adultos de 18 a 64 años con diabetes mellitus tipo 2, la recomendación de acuerdo con las guías internacionales, incluidas las de la Asociación Americana de Diabetes (ADA) y la Organización Mundial de la Salud (OMS), es realizar un mínimo de 150 minutos semanales de actividad física de intensidad moderada (Alternativa C). Esta actividad puede incluir caminar a paso ligero, nadar, andar en bicicleta, etc. Esta recomendación específica es ampliamente respaldada por la evidencia científica y es efectiva para mejorar el control glucémico, reducir el riesgo cardiovascular y mejorar la salud general en personas con diabetes mellitus tipo 2.
+
+### PED-121 | Colestasis neonatal: ecografía abdominal inicial | 2024
+Lactante de 4 semanas a término, con peso 3200 g. Alta a los 3 días sin problemas. La madre dice que poco a poco se ha puesto más amarillo, orina oscura y heces pálidas. No vómitos. Examen: peso 3 500 g, ictericia verdínica, leve, generalizada. Laboratorio: Bilirrubina conjugada 12 mg/dL y no conjugada 0.3 mg/dL. ¿Cuál es el examen de primera línea que debe solicitar?
+   A) Gammagrafía con Tc 99
+  *B) Ecografía abdominal
+   C) Colangiografía por RMN
+   D) Biopsia dirigida
+   E) Dosaje de TSH
+EXP: El lactante de 4 semanas presenta ictericia, orina oscura, heces pálidas y elevación significativa de bilirrubina conjugada. Estos signos son altamente sugestivos de colestasis por una obstrucción biliar o una patología hepática obstructiva. En la evaluación de ictericia colestásica en lactantes, el examen de primera línea es la ecografía abdominal (Alternativa B), debido a su accesibilidad, no invasividad y capacidad para proporcionar información anatómica crucial. Es útil para detectar atresia biliar, quistes del colédoco y otras anormalidades estructurales.
+
+### GIN-110 | Lesión intraepitelial de alto grado: colposcopía y biopsia | 2024
+Mujer de 32 años nulípara, se realiza PAP y se encuentra lesión intraepitelial de alto grado. ¿Cuál es la conducta inmediata a seguir?
+   A) PAP seriado
+  *B) Colposcopía y biopsia
+   C) Cono LEEP y AP
+   D) Tipificación de VPH
+   E) Histerectomía total
+EXP: En una mujer de 32 años con una lesión intraepitelial de alto grado detectada en un PAP, la conducta inmediata a seguir es realizar una colposcopía y biopsia (Alternativa B). La colposcopía es un procedimiento de diagnóstico que permite una evaluación detallada del cuello uterino mediante un colposcopio. Si se observan áreas sospechosas, se realiza una biopsia dirigida. La biopsia proporciona un diagnóstico histológico definitivo, crucial para planificar el tratamiento.
+
+### REU-033 | Lupus eritematoso sistémico con nefropatía y serositis | 2024
+Mujer de 25 años, consulta por presentar hace 2 meses edema de miembros inferiores y orina espumosas. Desde hace un mes se agrega, artralgia, cansancio y fotosensibilidad. Examen: Eritema facial; Pulmones: MV abolido en bases de AHT. ¿Cuál es el diagnóstico más probable?
+   A) Artritis Reumatoide
+   B) Tuberculosis pulmonar
+  *C) Lupus eritematoso sistémico
+   D) Dermatomiositis
+   E) Síndrome nefrótico idiopático
+EXP: La combinación de edema de miembros inferiores (indicativo de nefropatía), orina espumosa (proteinuria), artralgia, fotosensibilidad, eritema facial y posible afectación pulmonar (MV abolido en bases) encaja bien con un diagnóstico de lupus eritematoso sistémico (LES) (Alternativa C). El LES es una enfermedad autoinmune multisistémica que puede afectar la piel, las articulaciones, los riñones, el sistema nervioso y otros órganos. Síntomas comunes incluyen fotosensibilidad, eritema malar (eritema facial en forma de mariposa), artralgias, fatiga, manifestaciones renales como el síndrome nefrótico (edema y orina espumosa) o compromiso de serosas (derrame pleural o pericarditis).
+
+### CAR-046 | Encefalopatía hipertensiva: labetalol | 2024
+Varón de 48 años, es traído a urgencias por cefalea, náuseas, vómitos, edema de papila y alteración del nivel de conciencia. Antecedente: HTA crónica con tratamiento regular. Examen: 190/120 mmHg, FC 80 X', confuso, desorientado, no focalización. ¿Cuál es el fármaco de elección?
+   A) Nitroprusiato
+   B) Nifedipino
+  *C) Labetalol
+   D) Nitroglicerina
+   E) Furosemida
+EXP: Este paciente con antecedente de hipertensión arterial crónica se presenta con una emergencia hipertensiva (PA ≥180/110mmHg asociado a daño en órgano blanco). Por los síntomas neurológicos presentados podríamos encontrarnos frente a una encefalopatía hipertensiva, en la cual la presión arterial elevada causa disfunción cerebral, manifestándose con cefalea intensa, alteración del nivel de conciencia, confusión, desorientación y en casos más graves, edema de papila. No obstante, es importante considerar otras causas de alteración del nivel de conciencia en un paciente con crisis hipertensiva como el accidente cerebrovascular. En este contexto, el fármaco de elección es labetalol (Alternativa C). El labetalol es un bloqueador combinado de receptores alfa y beta que reduce la presión arterial sin provocar taquicardia refleja. Es el fármaco de elección en este caso debido a su perfil de segur
+
+### END-031 | Tirotoxicosis facticia | 2024
+Mujer de 34 años, acude a urgencias por fatiga persistente y palpitaciones. Durante el último mes, ha estado siguiendo un programa de pérdida de peso que incluye dieta, ejercicios e ingesta diaria de dos pastillas cuyos nombres desconoce; pero ha logrado bajar hasta el momento, 5 kilos. Examen: PA 150/80 mmHg, FC 122 X´. Piel caliente y temblor fino en ambas manos. La glándula tiroides no es palpable y no se detecta TSH sérico. ¿Cuál de las siguientes opciones es la causa más probable?
+   A) Tiroiditis de Hashimoto
+   B) Uso de amiodarona
+   C) Enfermedad de Graves
+  *D) Tirotoxicosis facticia
+   E) Tiroiditis subaguda
+EXP: La combinación de ingesta de pastillas para la pérdida de peso, síntomas de hipertiroidismo y TSH indetectable apuntan fuertemente a una tirotoxicosis facticia (Alternativa D). La tirotoxicosis facticia ocurre cuando hay una ingesta exógena de hormona tiroidea. Lo más probable es que en este caso se la haya indicado hormona tiroidea a la paciente como un suplemento para la pérdida de peso, lo cual es una práctica indebida pero que se suele observar y que puede llevar a un cuadro clínico de tirotoxicosis. Este diagnóstico se confirma típicamente con la historia clínica y puede requerir pruebas adicionales como niveles séricos de T3 y T4, tiroglobulina y escaneo tiroideo para diferenciarla de otras causas de hipertiroidismo.
+
+### SP-081 | Muestreo por conveniencia | 2024
+Un investigador desea obtener una muestra de 150 casos, los cuales toma de modo no aleatorio del total que ingresaron a un centro hospitalario. El tipo de muestreo a utilizar será por:
+  *A) Conveniencia.
+   B) Conglomerados.
+   C) Redes.
+   D) Cuotas.
+   E) Aleatorio simple
+EXP: El investigador está tomando una muestra de 150 casos de modo no aleatorio de los pacientes que ingresaron al centro hospitalario. Esto implica que está seleccionando los casos de manera que le resulta más fácil o conveniente. No hay una estructura de cuotas, conglomerados, o redes, lo que caracteriza claramente al muestreo por conveniencia (Alternativa A). El muestreo por conveniencia es un tipo de muestreo no aleatorio en el cual se seleccionan los casos que están más fácilmente disponibles para el investigador. No se sigue una metodología estructurada para elegir a los participantes, sino que se seleccionan los individuos que están al alcance y que pueden participar de manera voluntaria. Este método es práctico y rápido, aunque tiene limitaciones en cuanto a la representatividad y la capacidad de generalizar los resultados a toda la población.
+
+### END-032 | Enfermedad de Graves | 2024
+Mujer de 26 años, desde hace 3 meses presenta pérdida de peso de 12 kg, palpitaciones, nerviosismo, intolerancia al calor. Examen: Aumento de volumen de la glándula tiroides, exoftalmos bilateral y mixedema pretibial. ¿Cuál es el diagnóstico?
+   A) Bocio multinodular
+   B) Tiroiditis de Hashimoto
+   C) Tiroiditis de Quervain
+  *D) Enfermedad de Graves
+   E) Adenoma tóxico
+EXP: La enfermedad de Graves (Alternativa D) es el diagnóstico más probable para esta paciente debido a la combinación de síntomas de hipertiroidismo (pérdida de peso, palpitaciones, nerviosismo, intolerancia al calor) junto con signos específicos como el aumento de volumen de la glándula tiroides, exoftalmos bilateral y mixedema pretibial. La enfermedad de Graves es una enfermedad autoinmune que afecta la glándula tiroides y es la causa más común de hipertiroidismo. En esta patología, el sistema inmunológico produce anticuerpos que estimulan la tiroides para que produzca en exceso hormonas tiroideas (T3 y T4), lo que resulta en un metabolismo acelerado.
+
+### TRA-021 | Pie equinovaro congénito: referencia | 2024
+Lactante de 1 mes, traído a control por consultorio de pediatría y se diagnostica pie equinovaro. ¿Cuál es la conducta más adecuada?
+   A) Solicitar TC de pies
+  *B) Referirlo a un ortopedista infantil
+   C) Seguimiento clínico por tres meses
+   D) Solicitar radiografía de pies
+   E) Zapatos ortopédicos y alta
+EXP: Para el manejo de un lactante de 1 mes con diagnóstico de pie equinovaro, la conducta más adecuada es referirlo a un ortopedista infantil (Alternativa B). La referencia a un ortopedista infantil es crucial para el manejo temprano y adecuado del pie equinovaro. El ortopedista podrá evaluar la severidad del problema y decidir el mejor plan de tratamiento, que generalmente incluye métodos no quirúrgicos como el método de Ponseti, que utiliza yesos seriados para corregir la deformidad. Si el tratamiento no se inicia a tiempo, la deformidad puede volverse más rígida y difícil de tratar.
+
+### GIN-111 | VIH con carga viral baja: parto vaginal | 2024
+Primigesta de 38 semanas, VIH positivo, estuvo recibiendo TAR antes de salir embarazada y actualmente sigue con el tratamiento. Hace una semana la carga viral fue de 500 copias/ml. La conducta más adecuada para el parto sería:
+  *A) Vía vaginal
+   B) Cesárea de emergencia
+   C) Parto instrumentado
+   D) Cesárea programada
+   E) Cesárea con anestesia general
+EXP: Para una primigesta de 38 semanas, VIH positivo, que ha estado recibiendo terapia antirretroviral (TAR) y tiene una carga viral de 500 copias/ml, la conducta más adecuada para el parto sería la vía vaginal (Alternativa A). En las gestantes con VIH que han recibido tratamiento antirretroviral de forma adecuada durante la gestación existen situaciones en las cuales puede darse el parto por vía vaginal. La vía vaginal está indicada en la gestante con carga viral < 1000 copias/ml, evidenciada por laboratorio, cuatro semanas antes de la fecha probable de parto o cuando se presente una de las siguientes condiciones: dilatación cervical > de 4 cm o membranas amnióticas rotas. Siempre teniendo en cuenta que están contraindicados todos los procedimientos invasivos tales como amniotomía, uso de fórceps o vacuum, toma de muestras vaginales, entre otros, así como evitar en lo posible las episiotomía
+
+### CB-039 | Intoxicación por opioides: naloxona | 2024
+Veterinario de 45 años, es traído a la emergencia por su hija, refiere que su padre estaba trabajando y hace una hora lo vió “feliz, tranquilo, muy calmado” y luego se tornó somnoliento. Examen: PA 80/60 mmHg, FC 50 X´, FR 12 X´, T 36 ºC, SatO₂ 88%; soporoso, pupilas mióticas; piel con venopunturas en brazos. Laboratorio: AGA pO2 55 mmHg, pCO2 70 mmHg. ¿Cuál es el fármaco que indicaría?
+   A) Flumazenilo
+  *B) Naloxona
+   C) Dopamina
+   D) Fentolamina
+   E) Atropina
+EXP: El veterinario presenta signos clínicos consistentes con una sobredosis de opioides: pupilas mióticas, depresión respiratoria, somnolencia, hipotensión y venopunturas en brazos (que sugieren uso de drogas intravenosas). En el caso de una intoxicación por opioides, el tratamiento de elección es la naloxona (Alternativa B). La naloxona es el tratamiento de elección ya que es un antagonista específico de los receptores de opioides y puede revertir rápidamente los efectos de la sobredosis, mejorando la función respiratoria y la consciencia del paciente.
+
+### SP-082 | TB en población migrante: comunicación educativa | 2024
+Se evidencia incremento de casos de TB pulmonar en el ámbito del centro de salud, provenientes de un nuevo asentamiento humano conformado por población migrante de zona rural. ¿Cuál de las siguientes actividades deberá realizar el equipo de promoción de la salud?
+   A) Quimioprofilaxis a todos los niños del asentamiento humano
+   B) Radiografía pulmonar a todos los pobladores
+  *C) Comunicación educativa para reconocimiento precoz de síntomas
+   D) Promover cambio de ubicación de la población
+   E) Aislar a todos los migrantes
+EXP: La actividad más adecuada que debe realizar el equipo de promoción de la salud es comunicación educativa para reconocimiento precoz de síntomas (Alternativa C). La comunicación educativa es una estrategia esencial para la promoción de la salud. Educar a la población sobre el reconocimiento precoz de los síntomas de la TB (como tos persistente, fiebre, sudores nocturnos, pérdida de peso) puede facilitar la detección temprana de casos y mejorar las tasas de diagnóstico y tratamiento. Este enfoque también empodera a la comunidad para buscar atención médica de manera oportuna y reduce la transmisión de la enfermedad.
+
+### TRA-022 | Fractura diafisaria de húmero: ortesis funcional | 2024
+Mujer de 25 años acude a emergencia porque hace dos horas sufre golpe por caída de persiana (directo sobre el brazo derecho). Examen: Miembro superior inestable, doloroso, lo sostiene con la otra mano. No compromiso del nervio radial. RX: Fractura diáfisis humeral no desplazada. ¿Cuál es el tratamiento de elección?
+   A) Inmovilización con yeso
+   B) Enclavijado
+  *C) Ortesis
+   D) Cerclaje
+   E) Placa y tornillos de urgencia
+EXP: La ortesis (Alternativa C) es el tratamiento de elección para una fractura diafisaria de húmero no desplazada. Este método permite una inmovilización adecuada, manteniendo la alineación y proporcionando comodidad al paciente. Las ortesis específicas para el húmero (como las ortesis de Sarmiento) permiten cierto grado de movilidad del codo y del hombro, lo cual es beneficioso para mantener la función y prevenir la rigidez articular. Además, permiten ajustes para mantener la alineación adecuada durante el proceso de curación.
+
+### NEF-045 | Cólico renoureteral | 2024
+Varón de 42 años, con dolor tipo cólico de inicio brusco e intenso (EVA 9-10/10) en flanco derecho y región lumbar derecha, irradiándose hacia ingle y testículo derecho, sin lograr mejoría postural, agregándose vómitos y diaforesis. Examen: clínicamente estable; abdomen blando, depresible, no reacción peritoneal. Laboratorio: No leucocitosis. ¿Cuál es el diagnóstico probable?
+   A) Perforación gástrica
+   B) Apendicitis aguda
+  *C) Cólico renal
+   D) Infección urinaria
+   E) Diverticulitis aguda
+EXP: Basado en la presentación clínica del paciente con dolor cólico de inicio brusco e intenso en flanco derecho y región lumbar derecha, irradiándose hacia la ingle y testículo derecho, acompañado de vómitos y diaforesis, pero sin evidencia de reacción peritoneal ni leucocitosis en el laboratorio, el diagnóstico probable es cólico renal (Alternativa C). El cólico renal es caracterizado por un dolor intenso y súbito que se irradia desde la región lumbar hacia el abdomen inferior, la ingle y los genitales. Los vómitos y la diaforesis son comunes debido al intenso dolor. A menudo, no hay hallazgos significativos en el examen físico abdominal aparte del dolor cólico. La ausencia de leucocitosis sugiere que no hay una respuesta inflamatoria aguda significativa, lo cual es consistente con el cólico renal donde el dolor es principalmente de origen mecánico por la obstrucción ureteral, no por una i
+
+### PED-122 | Onfalitis: antibióticos sistémicos | 2024
+Recién nacido con infección del muñón umbilical y celulitis circundante. ¿Cuál es el tratamiento que debe indicar?
+   A) Uso tópico de solución de clorhexidina al 1%
+   B) Aplicación de nitrato de plata
+   C) Aplicación de tintura de yodo y alcohol
+  *D) Inicio inmediato de antibioticoterapia
+   E) Curación con alcohol cada 8 horas
+EXP: La infección del ombligo y los tejidos que lo rodean es conocida como onfalitis. Es una infección típica del periodo neonatal (primera semana de vida) y cursa con induración, eritema, mal olor y dolor de la piel periumbilical, asociado o no a exudado purulento de la base del ombligo. Puede aparecer clínica sistémica (alteración del control térmico, irritabilidad o letargia, vómitos o afectación del estado genera l) que suele sugerir la presencia de complicaciones como sepsis neonatal. El tratamiento debe ser antibioticoterapia intravenosa y de inicio precoz para disminuir el riesgo de complicaciones (Alternativa D), incluyendo antibióticos frente a cocos Gram positivos y bacilos Gram negativos.
+
+### NEF-046 | Vejiga neurogénica diabética: retención urinaria | 2024
+Varón de 60 años que acude por emergencia, porque desde hace 20 horas tiene deseos de miccionar y solo “gotea” la orina. Antecedente: diabético hace 30 años en tratamiento irregular. Examen: Abdomen globuloso, RHA (+), se palpa tumoración suprapúbica dolorosa. ¿Cuál es el diagnóstico?
+   A) Cálculo ureteral
+   B) Infección del tracto urinario
+   C) Trigonitis aguda
+  *D) Vejiga neurogénica
+   E) Hiperplasia prostática con retención aguda
+EXP: Dado el contexto clínico descrito, el diagnóstico más probable para el varón de 60 años con antecedente de diabetes y síntomas urinarios es Vejiga neurogénica (Alternativa D). La vejiga neurogénica es la disfunción de la vejiga (flácida o espástica) causada por un daño neurológico, siendo una de las causas la diabetes de larga data con mal control glicémico. Los síntomas típicos incluyen dificultad para iniciar o completar la micción, sensación de vaciamiento incompleto de la vejiga, y en casos más avanzado s, distensión de la vejiga con formación de una tumoración suprapúbica palpable y dolorosa debido a la retención urinaria crónica.
+
+### INF-056 | Brucelosis | 2024
+Veterinario de 46 años, procedente de Huarochirí, desde hace 1 mes presenta fiebre ondulante con dolor lumbar intenso y tumefacción coxofemoral con gran impotencia funcional. Examen: PA 150/85 mmHg, FC 100 X´, FR 24 X´, T 38 ºC, dolor al flexo extensión de cadera. Laboratorio: Rosa de Bengala (+). ¿Cuál es el diagnóstico más probable?
+  *A) Brucelosis
+   B) Fiebre Tifoidea
+   C) Bartonelosis
+   D) Dengue clásico
+   E) Tuberculosis vertebral
+EXP: La clínica y el contexto epidemiológico del paciente (veterinario procedente de Huarochirí) hacen más probable el diagnóstico de Brucelosis (Alternativa A). La brucelosis es una enfermedad zoonótica que puede ser adquirida por personas que trabajan en contacto cercano con animales, como veterinarios. Los síntomas incluyen fiebre ondulante, dolor lumbar intenso, y tumefacción articular con impotencia funcional. Además, el examen de Rosa de Bengala es una prueba serológica utilizada para el diagnóstico de brucelosis, y su positividad apoya este diagnóstico.

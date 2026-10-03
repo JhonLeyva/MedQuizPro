@@ -1,0 +1,224 @@
+### PSI-021 | Depresión posparto | 2024
+Puérpera de 36 años, que acaba de tener su primer hijo hace 22 días, acude por presentar llanto frecuente, tristeza, preocupación y miedo, se siente incapaz de cuidar a su hijo, por lo que ha necesitado asistencia para el cuidado de su bebé y refiere pensamientos de autolesión. ¿Cuál es el diagnóstico probable?
+   A) Labilidad puerperal
+   B) Psicosis posparto
+   C) Trastorno adaptativo
+  *D) Depresión posparto
+   E) Hipotiroidismo posparto
+EXP: El diagnóstico más probable es depresión posparto. Este trastorno afecta a muchas mujeres después del parto y se caracteriza por síntomas como tristeza persistente, llanto frecuente, preocupaciones, miedos, incapacidad para cuidar al bebé, y pensamientos de autolesión, como se describe en el caso de la paciente. La depresión posparto suele ocurrir en las primeras semanas o meses después del nacimiento, y no debe confundirse con la labilidad puerperal, que es más transitoria y no suele incluir pensamientos d e autolesión. Además, este trastorno debe ser tratado con intervención profesional para evitar complicaciones.
+
+### NEF-049 | Litiasis vesical: cistolitotricia endoscópica | 2024
+¿Cuál es el tratamiento más efectivo para un paciente con litiasis vesical sintomática de tamaño considerable, que no responde a medidas conservadoras?
+   A) Litotricia extracorpórea por ondas de choque
+   B) Tratamiento médico para disolver el lito
+   C) Manejo con anticolinérgicos
+  *D) Cistoscopía con litotripsia láser
+   E) Nefrostomía percutánea
+EXP: El tratamiento más efectivo para un paciente con litiasis vesical sintomática de tamaño considerable, que no responde a medidas conservadoras, es la cistoscopia con litotripsia láser. Este procedimiento permite la fragmentación del cálculo de manera mínimamente invasiva, lo que facilita su eliminación sin necesidad de cirugía abierta. La litotricia extracorpórea por ondas de choque es más comúnmente utilizada para cálculos renales o ureterales, no para cálculos vesicales grandes. Por lo tanto, la opción correcta es D. Cistoscopía con litotripsia láser.
+
+### GIN-122 | Hiperémesis gravídica | 2024
+Segundigesta nulípara de 11 semanas, acude por náusea y vómitos incoercibles desde hace un mes. Refiere pérdida de peso de 2 kilos en 3 semanas. Examen: FC: 100 X', PA: 90/60 mmHg, mucosas secas. Laboratorio: cetonas orina y Na: 130 mEq/L. ¿Cuál es el diagnóstico?
+   A) Gastritis aguda
+   B) Esofagitis aguda
+   C) Suboclusión intestinal
+  *D) Hiperemesis gravídica
+   E) Embarazo molar
+EXP: La paciente presenta náuseas y vómitos incoercibles con pérdida de peso, deshidratación (mucosas secas, PA baja) y cetonuria, lo que es característico de hiperemesis gravídica. Este trastorno se diferencia de las náuseas y vómitos normales del embarazo por su severidad y complicaciones metabólicas, como hiponatremia y cetonuria. Es fundamental el manejo con hidratación intravenosa, corrección hidroelectrolítica y antieméticos para evitar complicaciones materno-fetales.
+
+### OFT-030 | Plexo de Kiesselbach: sangrado al pasar una sonda | 2024
+¿Cuál es la localización más frecuente de sangrado al introducir una sonda nasogástrica?
+   A) Seno paranasal
+  *B) Tabique nasal anterior
+   C) Tabique nasal posterior
+   D) Vestíbulo nasal
+   E) Cornete inferior posterior
+EXP: La localización más frecuente de sangrado al introducir una sonda nasogástrica es el tabique nasal anterior, específicamente en el plexo de Kiesselbach, una zona vascularizada y propensa a lesiones por trauma mecánico. Esta área es la principal fuente de epistaxis anterior y suele sangrar fácilmente ante manipulaciones nasales. Para minimizar el riesgo de sangrado, se recomienda lubricar la sonda y avanzar con suavidad.
+
+### PED-128 | Otitis media en alérgico leve a amoxicilina: cefdinir | 2024
+Niño de 3 años, presenta desde hace 5 días congestión nasal, irritabilidad y fiebre; le indicaron azitromicina por 3 días y no mejora. Antecedente: urticaria leve post tratamiento con amoxicilina. Examen: T°: 39.5 °C, FC: 124 X’, FR: 36 X’; boca: paladar hendido, faringe congestión leve; tórax: sin alteraciones; oídos: MT amarilla, opaca, disminución de la movilidad. ¿Cuál es el tratamiento indicado?
+   A) Claritromicina
+   B) Cloranfenicol
+   C) Cotrimoxazol
+  *D) Cefdinir
+   E) Amoxicilina en dosis altas
+EXP: El paciente presenta fiebre alta persistente, síntomas respiratorios y signos clínicos de otitis media aguda (OMA) con membrana timpánica opaca y disminución de movilidad, indicativos de infección bacteriana. La azitromicina no es el tratamiento de primera línea para OMA, y su falta de respuesta sugiere resistencia o elección inadecuada. Dado el antecedente de reacción leve a la amoxicilina (urticaria leve), se puede administrar un cefalosporina de tercera generación como cefdinir. que tiene buena cobertura contra Streptococcus pneumoniae y Haemophilus influenzae. Las otras opciones no son adecuadas por menor efectividad o espectro inadecuado.
+
+### TRA-023 | Fractura de escafoides: arteria radial | 2024
+Niño de 8 años que jugando fútbol sufre caída sobre su mano derecha extendida presentando fractura del hueso escafoides. ¿Cuál es la arteria que puede lesionarse?
+   A) Cubital
+   B) Braquial
+   C) Interósea
+  *D) Radial
+   E) Humeral
+EXP: La fractura del escafoides es común en caídas sobre la mano en extensión. Su principal complicación es la necrosis avascular, debido a la afectación del flujo sanguíneo. La arteria más comprometida en esta lesión es la arteria radial, ya que irriga el escafoides en un patrón retrógrado, lo que lo hace vulnerable a isquemia si se interrumpe el flujo.
+
+### NEF-050 | Enfermedad renal crónica | 2024
+Mujer de 40 años consulta por presentar hace 8 meses, cansancio, astenia y pérdida de peso. Examen: PA: 160/100 mmHg, FC: 100 X', palidez facial, edema de miembros inferiores con fovea (++). Laboratorio: Hb: 7.8 g/dL, creatinina: 5 mg/dL, urea: 120 mg /dL. ¿Cuál es el diagnóstico más probable?
+  *A) Insuficiencia renal crónica
+   B) Hipotiroidismo primario
+   C) Hiperparatiroidismo
+   D) Enfermedad renal aguda
+   E) Síndrome nefrótico
+EXP: La paciente presenta síntomas sistémicos crónicos (cansancio, astenia y pérdida de peso), junto con hipertensión arterial, anemia, edema y deterioro de la función renal (creatinina elevada y urea alta), lo que sugiere insuficiencia renal crónica (IRC). La anemia normocítica es común en la IRC debido a la disminución de la producción de eritropoyetina. El diagnóstico se confirma con estudios adicionales como la ecografía renal, que en la IRC muestra riñones pequeños y aumento de la ecogenicidad.
+
+### GAS-046 | Serología de hepatitis B aguda | 2024
+Mujer de 50 años, con HBsAg (+), IgM Anti HBc (+), anticuerpos totales Anti HBc (+), anticuerpos anti HBs (-); se considera Hepatitis B. ¿En qué fase se encuentra?
+   A) Incubación
+   B) Recuperación
+   C) Convalecencia
+  *D) Aguda
+   E) Portador crónico inactivo
+EXP: El perfil serológico de la paciente indica una infección aguda por hepatitis B. La presencia de HBsAg (+) confirma la infección en curso, mientras que la IgM Anti-HBc (+) es un marcador de infección reciente, característico de la fase aguda. Los anticuerpos totales Anti-HBc (+) reflejan una respuesta inmune en desarrollo, y la ausencia de Anti-HBs (-) indica que aún no ha alcanzado la fase de recuperación. En este contexto, el diagnóstico es hepatitis B aguda.
+
+### CAR-049 | Fibrilación auricular inestable: cardioversión eléctrica | 2024
+Varón de 54 años, con antecedente de diabetes y enfermedad coronaria, ingresa a emergencia por presentar dolor torácico, diaforesis y palpitaciones. Examen: PA: 70/30 mmHg; FC: 187 X´; FR: 20 X´; SatO₂: 94%; RC arrítmicos. EKG: fibrilación auricular. ¿Cuál es la conducta a seguir?
+   A) Amiodarona
+   B) Digoxina
+   C) Verapamilo
+  *D) Cardioversión eléctrica
+   E) Adenosina
+EXP: El paciente presenta un cuadro de fibrilación auricular con inestabilidad hemodinámica, evidenciada por hipotensión severa (PA: 70/30 mmHg). En estos casos, la primera línea de tratamiento es la cardioversión eléctrica sincronizada, ya que permite restaurar rápidamente el ritmo sinusal y mejorar la perfusión tisular. Fármacos como la amiodarona o la digoxina pueden ser útiles en pacientes estables, pero en presencia de inestabilidad hemodinámica, la cardioversión eléctrica es el tratamiento de elección.
+
+### PSI-022 | Ataque de pánico | 2024
+Mujer de 50 años, presenta en forma brusca palpitaciones, sensación de ahogo y de muerte inminente sin causa aparente. Hace 3 meses presentó episodio similar. Examen: PA: 160/85 mmHg, FC: 110 X´, FR: 30 X´, T°: 37 °C, SatO₂ 95 %; facies ansiosa, sudoración profusa, aparato cardiovascular sin alteraciones. ¿Cuál es el diagnóstico más probable?
+   A) Encefalopatía hipertensiva
+  *B) Ataque de pánico
+   C) Síndrome conversivo
+   D) Infarto de miocardio
+   E) Feocromocitoma
+EXP: La paciente presenta un cuadro típico de ataque de pánico, caracterizado por palpitaciones, sensación de ahogo, miedo intenso y sudoración profusa, sin una causa aparente. La hipertensión transitoria y la taquicardia pueden ser consecuencia de la respuesta adrenérgica al episodio de ansiedad aguda. Además, el antecedente de un episodio similar refuerza el diagnóstico. No hay datos clínicos que sugieran encefalopatía hipertensiva, síndrome conversivo o infarto de miocardio, ya que el examen cardiovascular es normal y la saturación de oxígeno es adecuada.
+
+### NEU-032 | Tromboembolia pulmonar en paciente oncológica | 2024
+Mujer de 65 años, desde hace 2 horas presenta disnea súbita, dolor torácico y tos con esputo hemoptoico. Antecedente: recibe quimioterapia por cáncer de mama. Examen: sudorosa, pálida, en ortopnea. PA: 100/60 mmHg, FC: 100 X´, FR: 26 X´, edema en miembros inferiores. ECG: ventrículo derecho dilatado. RX de tórax: corazón en límites normales y arco medio rectificado. ¿Cuál es el diagnóstico?
+   A) Infarto agudo de miocardio
+   B) Neumonía adquirida en la comunidad
+  *C) Tromboembolia pulmonar
+   D) Metástasis pulmonar
+   E) Neumotórax espontáneo
+EXP: La paciente presenta un cuadro clínico altamente sugestivo de tromboembolia pulmonar (TEP), caracterizado por disnea súbita, dolor torácico, hemoptisis y taquicardia. Su antecedente de cáncer de mama en tratamiento con quimioterapia es un factor de riesgo importante para tromboembolismo venoso. Además, el examen físico muestra signos de inestabilidad hemodinámica y edema en miembros inferiores, lo que sugiere trombosis venosa profunda como origen del émbolo. El hallazgo en el ECG de dilatación del ventrículo derecho refuerza la sospecha, ya que indica sobrecarga en la circulación pulmonar. La radiografía de tórax con arco medio rectificado puede ser indicativa de la joroba de Hampton o el signo de Westermark, hallazgos característicos pero inespecíficos en la TEP.
+
+### OFT-031 | Glaucoma: betabloqueantes tópicos | 2024
+¿Cuál de los siguientes medicamentos es comúnmente utilizado para reducir la presión intraocular en pacientes con glaucoma?
+  *A) Betabloqueantes
+   B) Antibióticos
+   C) Antihistamínicos
+   D) Corticoides
+   E) Anticolinérgicos tópicos
+EXP: Los betabloqueantes, como el timolol, son fármacos de primera línea en el tratamiento del glaucoma. Actúan reduciendo la producción de humor acuoso en el cuerpo ciliar, lo que disminuye la presión intraocular (PIO). Son particularmente útiles en el glaucoma de ángulo abierto.
+
+### NEF-051 | Glomerulonefritis postestreptocócica: furosemida | 2024
+Varón de 15 años desde hace 4 días presenta disminución de volumen urinario y orina como "agua de lavado de carne". Antecedente: amigdalitis hace 3 semanas. Examen: PA: 160/85 mmHg, FC:110 X´, FR: 24 X´, T°: 37 °C, SatO₂ 98 %; piel y mucosas hidratada s, edema duro en tobillos. Laboratorio: creatinina: 3 mg/dL, K: 4.5 mEq/L. Orina: cilindros hemáticos, hematíes >100/campo, Na urinario: 8 mEq/L. ¿Qué medida terapéutica es la más adecuada?
+  *A) Furosemida
+   B) Suero fisiológico
+   C) Insulina
+   D) Gluconato cálcico
+   E) Prednisona
+EXP: El cuadro clínico es compatible con una glomerulonefritis postestreptocócica, caracterizada por hematuria (orina en "agua de lavado de carne"), hipertensión arterial, edema y compromiso renal agudo. El tratamiento inicial se basa en el manejo del volumen y la presión arterial. La furosemida, un diurético de asa, es de elección para reducir la sobrecarga de volumen y la hipertensión. La restricción de líquidos y sodio también es clave en el manejo.
+
+### SP-089 | Longitudinalidad en atención primaria | 2024
+Adulta mayor con diagnóstico de hipertensión arterial desde hace cinco años, trimestralmente acude al centro de salud y es evaluada y atendida por el mismo médico. ¿Qué atributo de la Atención Primaria de Salud se cumple?
+   A) Coordinación
+   B) Primer contacto
+   C) Formación profesional
+  *D) Longitudinalidad
+   E) Gratuidad
+EXP: La longitudinalidad es un atributo de la Atención Primaria de Salud (APS) que se refiere a la relación continua entre el paciente y el equipo de salud a lo largo del tiempo. En este caso, la paciente acude regularmente al centro de salud y es atendida por el mismo médico, lo que refuerza la continuidad del cuidado y permite un mejor seguimiento de su enfermedad crónica. Este atributo mejora la calidad de la atención, favorece la adherencia al tratamiento y permite detectar complicaciones de manera temprana.
+
+### GIN-123 | Bacteriuria asintomática en la gestante: nitrofurantoína | 2024
+Gestante asintomática de 8 semanas que acude a control prenatal, con urocultivo positivo a E. coli con más de 100,000 unidades formadoras de colonia. ¿Cuál es el tratamiento más adecuado?
+   A) Amoxicilina + ácido clavulánico
+   B) Sulfametoxazol/Trimetoprima
+  *C) Nitrofurantoina
+   D) Gentamicina
+   E) Ciprofloxacino
+EXP: La bacteriuria asintomática en gestantes debe tratarse debido al riesgo de progresión a pielonefritis, parto prematuro y bajo peso al nacer. Escherichia coli es el patógeno más frecuente. La nitrofurantoína es el tratamiento de elección en el primer y segundo trimestre, ya que es eficaz y segura en el embarazo. Alternativas incluyen cefalosporinas y amoxicilina si la bacteria es sensible. Trimetoprima/sulfametoxazol está contraindicada en el primer trimestre por su efecto antifolato y en el tercer trimestre por riesgo de kernicterus. Aminoglucósidos como la gentamicina no se usan de primera línea por su toxicidad fetal.
+
+### CIR-065 | Tórax inestable con insuficiencia respiratoria | 2024
+Mujer de 70 años, hace 4 horas sufre accidente de tránsito, refiere dolor intenso en el pecho y falta de “aire”. Examen: PA: 90/70 mmHg, FC: 100 X’, FR: 30 X’, SatO₂: 90%; fractura de dos porciones de 4°,5°,6° y 7° arcos costales del HTI, movimiento paradojal, MV disminuido en HTI; RC: rítmicos de regular intensidad. Abdomen: blando y depresible, RHA (+). ¿Cuál es la conducta prioritaria?
+   A) Anestesia de los nervios intercostales
+  *B) Intubación y ventilación mecánica
+   C) Máscara de oxígeno con 4 litros por minuto
+   D) Vendaje circular apretado en tórax
+   E) Fijación quirúrgica de las costillas de urgencia
+EXP: La paciente presenta un tórax inestable, caracterizado por fracturas múltiples de arcos costales con movimiento paradójico, hipoxia y compromiso respiratorio. La intubación y ventilación mecánica (opción B) es la conducta prioritaria para estabilizar la mecánica ventilatoria y mejorar la oxigenación.
+
+### PSI-023 | Intoxicación grave por litio: hemodiálisis | 2024
+Mujer de 52 años con trastorno bipolar y tratamiento regular. Traída por intento de suicidio con convulsiones y alteración del estado de conciencia. Examen: somnolienta, movimientos involuntarios, ataxia y disartria. RC arritmicos. Laboratorio: creatinina: 1.8 mg/dL, litio sérico: 6 mEq/L (valor referencial 1.5). ¿Cuál es el tratamiento de elección?
+   A) Lavado gástrico
+   B) Fluidoterapia
+   C) Diuréticos
+  *D) Hemodiálisis
+   E) Naloxona
+EXP: La paciente presenta una intoxicación grave por litio, evidenciada por niveles séricos de 6 mEq/L (muy por encima del valor terapéutico). Los síntomas neurológicos y la insuficiencia renal (creatinina elevada) indican una depuración disminuida del fármaco. La hemodiálisis es el tratamiento de elección en intoxicaciones severas para eliminar rápidamente el litio del organismo y evitar complicaciones neurológicas y cardiovasculares.
+
+### SP-090 | Causalidad: causa necesaria pero no suficiente | 2024
+Durante un estudio epidemiológico se identifica varón sano de 26 años con prueba de PPD 11mm. En la relación de causa y expresión de enfermedad. ¿Cuál es el tipo de relación?
+   A) Suficiente pero no necesaria
+   B) Ni suficiente ni necesaria
+   C) Necesaria y suficiente
+  *D) Necesaria pero no suficiente
+   E) Suficiente y necesaria según la edad
+EXP: La infección por Mycobacterium tuberculosis es una causa necesaria para la tuberculosis (TBC), ya que sin la presencia del bacilo no se desarrolla la enfermedad. Sin embargo, no es suficiente por sí sola, ya que otros factores como la inmunosupresión, la desnutrición o enfermedades coexistentes pueden ser determinantes para la progresión a enfermedad activa. En este caso, el PPD positivo indica infección latente, pero no enfermedad activa. Por ello, la relación es "necesaria pero no suficiente".
+
+### GIN-124 | Restricción del crecimiento fetal temprana | 2024
+Gestante de 29 semanas por ecografía primer trimestre, asintomática, acude a control prenatal. Examen: PA: 130/90mmHg, FC: 72 X', AU: 24 cm. LCF: 145X'. Ecografía obstétrica: feto con ponderado fetal percentil 8, ILA: 13 cm y doppler de arteria umbilical alterado. ¿Cuál es el diagnóstico más probable?
+   A) Hidrops fetal
+  *B) RCIU temprano
+   C) Pequeño para la edad gestacional
+   D) RCIU tardío
+   E) Feto constitucionalmente pequeño
+EXP: La restricción del crecimiento intrauterino (RCIU) temprano ocurre antes de las 32 semanas y suele asociarse con alteraciones en el Doppler de la arteria umbilical, lo que indica insuficiencia placentaria. En este caso, la edad gestacional de 29 semanas, el percentil 8 del peso fetal y el Doppler anormal sugieren RCIU temprano. El RCIU tardío ocurre después de las 32 semanas y se asocia con Doppler normal. El hidrops fetal implica acumulación patológica de líquido en el feto, y el pequeño para la edad gestacional (PEG) se refiere a fetos sanos con peso menor al percentil 10 sin alteraciones hemodinámicas.
+
+### NEF-052 | Nefrotoxicidad por AINE | 2024
+- Mujer de 72 años hipertensa mal controlada, desde hace 10 días dolor articular y se automedica con ibuprofeno. Desde hace dos días náusea y orina poco. Examen: PA: 160/100 mmHg, FC: 95 X', FR: 18 X', SatO₂: 98%. Edema hasta rodillas. Laboratorio: Hb: 12.8 g/dL, G: 115 mg/dL, creatinina: 3.0 mg/dL, Na:140 mEq/L, K: 6.0 mEq/L, Cl: 102 mEq/L. Sedimento: cilindros granulosos (+). Ecografía renal: tamaño normal y parénquima hiperecogénico. ¿Cuál es la causa de la falla renal?
+   A) Hipertensión mal controlada
+  *B) Nefropatía tóxica
+   C) Diabetes mellitus tipo 2
+   D) Deshidratación
+   E) Glomerulonefritis aguda postinfecciosa
+EXP: El uso prolongado de AINEs como el ibuprofeno puede generar nefropatía tóxica, provocando insuficiencia renal aguda por daño tubular y disminución de la perfusión renal. Los cilindros granulosos y el parénquima hiperecogénico en la ecografía sugieren un proceso tubular agudo. Aunque la hipertensión crónica puede contribuir al daño renal, el desencadenante en este caso es la automedicación con AINEs.
+
+### TRA-024 | Fracturas abiertas: infección | 2024
+¿Cuál es la complicación más común asociada a las fracturas abiertas?
+  *A) Infección
+   B) Lesión neurovascular
+   C) Síndrome compartimental
+   D) Embolia grasa
+   E) Pseudoartrosis inmediata
+EXP: Las fracturas abiertas tienen un alto riesgo de infección debido a la exposición del hueso y los tejidos blandos al medio externo. Los microorganismos pueden ingresar al sitio de la fractura y causar osteomielitis o infecciones de tejidos blandos. Aunque las lesiones neurovasculares y el síndrome compartimental pueden ocurrir, la infección es la complicación más frecuente. La embolia grasa se asocia más comúnmente a fracturas cerradas de huesos largos.
+
+### GIN-125 | Líquido meconial espeso con bradicardia fetal: cesárea | 2024
+- Multigesta de 39 semanas, acude por contracciones uterinas. Examen: dinámica uterina de 3/10', intensidad: ++/+++, duración: 20 seg; LCF 100 X'; TV: D: 3 cm, B: 70 %, AP: -3. RAM: líquido amniótico meconial espeso. ¿Cuál es la conducta a seguir?
+   A) Inducción de labor de parto
+  *B) Cesárea de emergencia
+   C) Trabajo de parto espontáneo
+   D) Monitoreo fetal y reevaluación
+   E) Amnioinfusión y parto vaginal
+EXP: La presencia de líquido meconial espeso en una gestante en trabajo de parto, junto con una frecuencia cardíaca fetal baja (100 X'), indica un compromiso fetal agudo. Esto sugiere sufrimiento fetal. En este contexto, la conducta indicada es la cesárea de emergencia, ya que continuar con el trabajo de parto aumentaría el riesgo de hipoxia fetal. La monitorización o inducción no son apropiadas ante signos de compromiso fetal.
+
+### NEU-033 | Edema pulmonar de altura: oxígeno | 2024
+Alpinista de 35 años es traído de 5530 m.s.n.m. a Huaraz por dificultad respiratoria y tos con esputo espumoso. Examen: PA: 140/85 mmHg, FC: 110 X´, FR: 30 X´, SatO₂: 75%, T°: 36.8 °C, crepitantes en AHT, retracción costal. Laboratorio: pH: 7.32, pCO2: 48 mmHg, HCO3: 24 mEq/L, pO2: 50 mmHg, SatO₂: 75%. RX tórax: Infiltrados alveolares bilaterales difusos, sin cardiomegalia. ¿Cuál es la conducta a seguir?
+   A) Seguir descendiendo
+   B) Ventilación mecánica asistida
+   C) Furosemida
+  *D) Oxígeno suplementario
+   E) Antibióticos de amplio espectro
+EXP: El paciente presenta un edema pulmonar de gran altitud (EPGA), cuadro que ocurre en personas que ascienden rápidamente a grandes alturas (>2500 m s. n. m.), sin adecuada aclimatación. Clínicamente se manifiesta con disnea, tos con esputo espumoso y signos de hipoxemia. La radiografía muestra infiltrados alveolares bilaterales sin cardiomegalia, lo que descarta edema cardiogénico. La conducta inicial y más importante es la administración de oxígeno suplementario, que mejora la oxigenación y reduce la presión pulmonar. El descenso también es importante, pero primero se estabiliza al paciente con oxígeno.
+
+### CIR-066 | Choque neurogénico | 2024
+Motociclista es llevado a la emergencia porque hace una hora sufre accidente. Examen: PA: 80/40 mmHg, FC: 72 X’, FR 20 X’, pulsos periféricos de buena intensidad, SatO₂: 98%; MV pasa bien en AHT; RC de regular intensidad. Abdomen: blando y depresible. No lesiones sangrantes externas. No fracturas. EcoFast: cavidades torácicas y abdomen no liquido libre. No presenta respuesta al uso de cristaloides. ¿Qué tipo de shock presenta?
+  *A) Neurogénico
+   B) Cardiogénico
+   C) Hipovolémico
+   D) Obstructivo
+   E) Séptico
+EXP: El paciente presenta signos de shock (PA 80/40 mmHg) con frecuencia cardíaca baja (FC: 72), lo cual no concuerda con una respuesta compensatoria esperada (como taquicardia en hipovolemia o sepsis). Además, el EcoFAST negativo descarta hemorragia intraabdominal o torácica, y no hay signos de taponamiento cardíaco ni neumotórax. Esta bradicardia relativa con hipotensión en el contexto de trauma sugiere compromiso medular alto, lo que es característico del shock neurogénico, producido por lesión de la médula espinal que lleva a vasodilatación periférica y pérdida del tono simpático.
+
+### PED-129 | Disentería por Campylobacter: azitromicina | 2024
+Lactante de 11 meses, presenta desde hace 3 días deposiciones semilíquidas c/moco y sangre, 5 cámaras/día, malolientes, acompañadas de dolor, fiebre y vómitos postprandiales en 2 oportunidades. Antecedentes: crianza de aves. Examen: FC: 110 X', FR: 30 X' T°: 39°C, ojos hundidos, llanto sin lágrimas. Coprocultivo: bacilo gram ( -), espirilo negativo a la tinción gram. ¿Cuál es la conducta más apropiada?
+  *A) Rehidratar con SRO, paracetamol, azitromicina
+   B) Dimenhidrinato, paracetamol, Saccharomyces boulardii
+   C) Compresas de agua fría, paracetamol, loperamida
+   D) Coprocultivo, metoclopramida, amoxicilina
+   E) Ayuno y antibiótico endovenoso
+EXP: El caso describe un cuadro de diarrea disentérica con fiebre y moco con sangre, en un lactante con antecedente de contacto con aves, lo que sugiere Campylobacter jejuni como agente causal más probable. Esta bacteria es un bacilo gram negativo con forma de espirilo, lo cual concuerda con el coprocultivo. El tratamiento de elección en niños pequeños con síntomas severos o signos de deshidratación es la azitromicina, además de rehidratación con SRO y manejo sintomático con antipiréticos como paracetamol. No se recomienda loperamida ni metoclopramida en niños por sus efectos adversos.

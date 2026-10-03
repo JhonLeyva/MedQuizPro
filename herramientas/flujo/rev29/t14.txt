@@ -1,0 +1,224 @@
+### CAR-047 | Toxicidad pulmonar por amiodarona | 2024
+Varón de 70 años, con fibrilación auricular crónica y en tratamiento con antiarrítmico desde hace 5 años. Evoluciona con disnea progresiva a mínimos esfuerzos, tos seca persistente y pérdida de peso. ¿Qué fármaco se relaciona con este efecto adverso?
+   A) Verapamilo
+   B) Procainamida
+  *C) Amiodarona
+   D) Flecainida
+   E) Digoxina
+EXP: La amiodarona es un antiarrítmico que se utiliza frecuentemente para tratar la fibrilación auricular crónica, pero uno de sus efectos adversos más conocidos es la toxacidad pulmonar, que puede causar síntomas como disnea progresiva, tos seca persistente y pérdida de peso. Este efecto es más común con el uso prolongado del fármaco y puede llevar a una neumonitis intersticial o fibrosis pulmonar, lo que justifica los síntomas descritos en el paciente.
+
+### PED-126 | Neumonía afebril del lactante por Chlamydia | 2024
+Lactante de 2 meses, presenta desde hace 5 días, secreción nasal, tos, no fiebre, dificultad respiratoria. Antecedente: conjuntivitis. Examen: T°: 37 °C, FC: 124 X’, FR: 62 X’, SatO₂: 91%; tórax: subcrépitos difusos. RX de tórax: hiperinflación con infiltrados intersticiales. ¿Cuál es el agente etiológico probable?
+  *A) Chlamydia trachomatis
+   B) Streptococcus hemolítico grupo B
+   C) Haemophilus influenzae tipo B
+   D) Streptococcus pneumoniae
+   E) Virus sincitial respiratorio
+EXP: El lactante presenta síntomas respiratorios como secreción nasal, tos y dificultad respiratoria, junto con hiperinflación pulmonar e infiltrados intersticiales en la radiografía de tórax. Además, el antecedente de conjuntivitis es un indicio clave. Este cuadro es característico de una neumonía por Chlamydia trachomatis, que es un patógeno común en recién nacidos y lactantes, especialmente en aquellos nacidos de madres con infección genital por esta bacteria. La conjuntivitis asociada y los síntomas respiratorios en un lactante pequeño refuerzan este diagnóstico.
+
+### SP-085 | Beneficencia: demora ante patrón fetal categoría III | 2024
+Ginecólogo de guardia que está por terminar el turno recibe a primigesta de 41 semanas con ruptura de membranas desde hace 3 horas. Examen: PA: 110/60 mmHg, FC: 80 X', T°: 37 °C; abdomen: LCF: 109 X', DU: ++/+++, mov. fetales +/+++, TV: D:4 cm, B: 80%, AP: -2, M: rotas con líquido meconial espeso. Monitoreo fetal: patrón fetal categoría III. El gineco obstetra decide esperar parto vía vaginal. ¿Qué principio ético está faltando?
+   A) Autonomía
+   B) Solidaridad
+  *C) Beneficencia
+   D) Justicia
+   E) Confidencialidad
+EXP: La beneficencia es el principio ético que se refiere a la obligación de los profesionales de la salud de actuar en beneficio del paciente, promoviendo su bienestar y evitando cualquier daño. En este caso, al observar un patrón fetal categoría III, que indica sufrimiento fetal, la decisión de esperar el parto vaginal sin intervenir de manera oportuna podría poner en riesgo al feto. Por lo tanto, el principio ético de la beneficencia está siendo comprometido.
+
+### INF-061 | Contacto de TB menor de 5 años: terapia preventiva | 2024
+¿Cuál es la conducta a seguir en un niño de 3 años, con resultado de PPD 8 mm, cuyo padre inició tratamiento por TB pulmonar BK (+)?
+   A) Repetir la prueba de PPD
+   B) Aislar el caso positivo por 4 semanas
+   C) Solicitar análisis de sangre para TB
+  *D) Iniciar terapia preventiva de TB
+   E) Vacunar con BCG
+EXP: En este caso, dado que el niño ha tenido contacto cercano con un paciente con tuberculosis pulmonar activa (el padre con TB BK positiva) y ha presentado una respuesta positiva en la prueba de PPD de 8 mm, se considera que el niño podría estar en riesgo de desarrollar la enfermedad.La conducta recomendada es iniciar terapia preventiva para tuberculosis en este niño, dado que está en contacto con un caso activo y tiene una prueba de PPD positiva. Esto ayuda a prevenir el desarrollo de la enfermedad.
+
+### GIN-118 | IECA en el embarazo: oligohidramnios | 2024
+Primigesta 31 semanas, sin control prenatal. Antecedente de HTA crónica controlada con enalapril. Examen: PA: 120/80 mmHg, FC: 70 X'. Ecografía obstétrica: gestación única activa de 30 semanas, placenta normoinserta, oligohidramnios, feto sin malformaciones y peso conservado. ¿Cuál es la causa más probable?
+   A) Izoinmunización Rh
+   B) Diabetes gestacional
+   C) Corioangioma
+  *D) Consumo de IECA
+   E) Hipertensión crónica mal controlada
+EXP: La causa más probable en este caso es el consumo de IECA (Inhibidores de la Enzima Convertidora de Angiotensina), como la enalapril, que la paciente está tomando para controlar su hipertensión crónica. Los IECA son contraindicados en el embarazo, especialmente en el segundo y tercer trimestre, ya que pueden causar complicaciones como oligohidramnios (bajo nivel de líquido amniótico), que es lo que se observa en la ecografía de esta paciente. Además, los IECA pueden afectar el desarrollo fetal, lo que podría llevar a complicaciones como insuficiencia renal fetal y otros problemas.
+
+### NEF-047 | Alcalosis metabólica por tiazidas | 2024
+Mujer de 45 años, desde hace dos días acude a urgencias por mareos, debilidad y adormecimiento de miembros inferiores. Antecedente: HTA tratada con hidroclorotiazida y se automedica con antiácidos. Examen: PA: 140/90 mmHg, FC: 88 X', FR: 16 X', SatO₂: 98%; hiperestesia en extremidades. Laboratorio: creatinina: 0.8 mg/dL, Na: 138 mEq/L, K: 2.8 mEq/L, Cl: 88 mEq/L, HCO3: 32 mEq/L, Ca: 10.2 mg/dL. ¿Cuál es el trastorno ácido básico más probable?
+  *A) Alcalosis metabólica
+   B) Acidosis metabólica
+   C) Acidosis respiratoria
+   D) Alcalosis respiratoria
+   E) Alcalosis mixta respiratoria y metabólica
+EXP: El trastorno ácido-base más probable en este caso es alcalosis metabólica. La paciente presenta niveles elevados de bicarbonato (HCO3: 32 mEq/L), lo que indica una alcalosis metabólica. Además, tiene hipokalemia (K: 2.8 mEq/L), que es comúnmente observada en alcalosis metabólica, especialmente si se asocia con el uso de diuréticos como la hidroclorotiazida.El hecho de que la paciente se automedique con antiácidos también podría contribuir a la alcalosis metabólica, ya que los antiácidos pueden aumentar los niveles de bicarbonato en sangre.
+
+### REU-036 | Dermatitis del pañal candidiásica | 2024
+Lactante de 9 meses, presenta lesión en la zona del pañal desde hace 2 semanas. Examen: placa eritematosa, brillante, bien delimitada en los pliegues inguinales y en la zona perianal. ¿Qué tratamiento recomendaría?
+  *A) Econazol al 1% en crema
+   B) Óxido de zinc en crema
+   C) Mupirocina tópica
+   D) Vaselina
+   E) Corticoide tópico de alta potencia
+EXP: La descripción de la lesión en el lactante sugiere una dermatitis del pañal con una posible infección por hongos, dado que la lesión es eritematosa, brillante y bien delimitada, especialmente en los pliegues inguinales y perianales. Estas características son comunes en las infecciones por hongos, como las causadas por Candida albicans, que frecuentemente se asocian con dermatitis en los lactantes. El tratamiento de elección en este caso sería un antifúngico tópico, como el econazol al 1% en crema, que es eficaz contra las infecciones por hongos, como la candidiasis.
+
+### CIR-063 | Colecistitis enfisematosa: colecistectomía de emergencia | 2024
+Varón de 25 años, presenta dolor cólico intenso en epigastrio post ingesta de hamburguesa, se irradia a HCD y luego a región lumbar, asociado a náusea, vómitos biliosos y sensación de alza térmica. Examen: facies pálida por dolor; abdomen: simétrico, doloroso en HCD, Murphy (++). TC abdomen: alteraciones inflamatorias peri colecística y aire en la pared de la vesícula. ¿Cuál es el manejo?
+   A) Colecistostomía percutánea
+   B) Hidratación y antibiótico
+   C) Colecistectomía diferida por 30 días
+  *D) Colecistectomía de emergencia
+   E) Colangiopancreatografía retrógrada endoscópica
+EXP: El paciente presenta un cuadro clásico de colecistitis aguda complicada, con dolor cólico, náuseas, vómitos y signos positivos como el Murphy. La presencia de aire en la pared de la vesícula en la TC indica una colecistitis grave, posiblemente gangrenosa o perforada. En este caso, el tratamiento de elección es la colecistectomía de emergencia para evitar complicaciones mayores como la perforación o sepsis.
+
+### OFT-029 | Hipema traumático | 2024
+Varón de 18 años, hace 4 horas recibió golpe en el ojo mientras jugaba fútbol; presenta dolor en el ojo afectado, sensibilidad a la luz, visión borrosa, sangrado en cuerpo ciliar generando un nivel líquido. ¿Cuál es el diagnóstico?
+   A) Conjuntivitis aguda
+  *B) Hipema
+   C) Rotura de globo ocular
+   D) Abrasión corneal
+   E) Desprendimiento de retina
+EXP: El paciente presenta un cuadro compatible con hipema, caracterizado por dolor ocular, fotofobia, visión borrosa y un nivel líquido en la cámara anterior del ojo tras un trauma contuso. El sangrado en el cuerpo ciliar confirma el diagnóstico. Es importante descartar elevación de la presión intraocular y otras lesiones asociadas. El manejo incluye reposo con la cabeza elevada, control oftalmológico estricto y evitar AINEs por el riesgo de re-sangrado.
+
+### CIR-064 | Gran quemado: cubrir con sábana limpia y seca | 2024
+Varón de 30 años que hace dos horas sufre quemadura con agua hirviendo. Examen: PA: 100/70 mmHg, FC: 96 X’, T°: 37°C; quejumbroso, con quemadura de 2° grado que afecta cara anterior y posterior de ambas extremidades superiores y tronco en cara dorsal y ventral. ¿Cuál es la medida inmediata a tomar?
+   A) Inyección intramuscular de opioides
+  *B) Envolverlo en una sábana limpia y seca
+   C) Mantenerlo descubierto
+   D) Proteger las quemaduras con apósitos húmedos
+   E) Aplicar hielo sobre las quemaduras
+EXP: El paciente presenta una quemadura de segundo grado en varias áreas, y la medida inmediata debe centrarse en evitar la pérdida de calor y prevenir infecciones. La mejor acción es envolverlo en una sábana limpia y seca, lo que ayuda a mantener la temperatura corporal y proteger las áreas afectadas hasta que pueda recibir atención médica adecuada. Además, se debe evitar el uso de apósitos húmedos, ya que pueden aumentar el riesgo de infecciones.
+
+### GIN-119 | Ganancia de peso gestacional en sobrepeso | 2024
+¿Cuál es la recomendación de incremento de peso en Kg durante una gestación única en una mujer con sobrepeso (IMC de 26 a 29)?
+  *A) 7 a 11.5
+   B) 12 a 16.5
+   C) 12.5 a 18
+   D) 5 a 9
+   E) 15 a 20
+EXP: En una mujer con sobrepeso (IMC entre 26 y 29), la recomendación de incremento de peso durante la gestación única es de 7 a 11.5 kg. Este rango ayuda a reducir el riesgo de complicaciones tanto para la madre como para el bebé, como diabetes gestacional, hipertensión y macrosomía fetal. Mantener un control adecuado del peso durante el embarazo es clave para una gestación saludable.
+
+### CB-042 | Pelagra: déficit de niacina | 2024
+Varón de 50 años, desde hace dos meses presenta pérdida de memoria reciente, lesiones cutáneas asintomáticas y diarrea. Antecedente: gastrectomizado y alcohólico crónico. Examen: desnutrido; placas de color rojo-pardo, con escamas y costras gruesas de bordes definidos en dorso de las manos, superficie de extensión de los antebrazos y escote (collar de Casal) respeta zonas no expuestas al sol, glositis, marcha atáxica. ¿Qué micronutriente está en déficit?
+  *A) Niacina
+   B) Ácido ascórbico
+   C) Selenio
+   D) Zinc
+   E) Tiamina
+EXP: El paciente presenta signos típicos de deficiencia de niacina (vitamina B3), como las lesiones cutáneas en áreas expuestas al sol (collar de Casal), diarrea, glositis y pérdida de memoria reciente. Estos son síntomas clásicos de la pelagra, que se asocia a la falta de niacina, especialmente en individuos con desnutrición, como los alcohólicos crónicos o personas con resección gástrica. La pelagra se caracteriza por las "3 D": dermatitis, diarrea y demencia.
+
+### NEF-048 | Obstrucción del catéter vesical: recambio | 2024
+Varón de 58 años parapléjico, monorreno y usuario de catéter vesical, acude a urgencias por anuria. Examen: PA: 140/80 mmHg, FC: 90 X’, FR: 22 X’, SatO₂: 96%. Laboratorio: creatinina: 3 mg/dL, K: 5.8 mEq/L. Ecografía: hidronefrosis. ¿Cuál es la conducta a seguir?
+   A) Litotricia con láser
+  *B) Cambio de catéter vesical
+   C) Cistoscopía
+   D) Nefrostomía percutánea
+   E) Hemodiálisis de urgencia
+EXP: El paciente presenta anuria, una elevación de la creatinina y potasio, y una ecografía que muestra hidronefrosis, lo que sugiere una obstrucción en el tracto urinario. Dado que el paciente es usuario de catéter vesical, lo más probable es que la obstrucción sea debido a un catéter vesical obstruido o mal colocado. Por lo tanto, la conducta más adecuada es realizar un cambio de catéter vesical, lo que puede aliviar la obstrucción y mejorar la función renal. Otras opciones como la cistoscopia o nefrostomía serían necesarias solo si el cambio de catéter no resuelve el problema.
+
+### GIN-120 | Retinoides contraindicados en el embarazo | 2024
+Primigesta de 6 semanas, asintomática. Tiene diagnóstico de acné y su dermatólogo desea iniciar tratamiento con retinoides. ¿Cuál es la recomendación correcta?
+  *A) Contraindicarlo durante la gestación
+   B) Iniciar tratamiento con la mitad de la dosis
+   C) Iniciar tratamiento inmediato
+   D) Iniciar tratamiento en la semana 10
+   E) Iniciar tratamiento en el segundo trimestre
+EXP: Los retinoides tópicos y sistémicos están contraindicados durante el embarazo debido a su potencial teratogénico, especialmente en las primeras etapas de la gestación, cuando los efectos adversos sobre el feto son más graves. Por lo tanto, la recomendación correcta es contraindicarlo durante la gestación. Si la paciente está embarazada, se debe buscar un tratamiento alternativo seguro para el acné durante el embarazo, como antibióticos tópicos o cremas que contengan peróxido de benzoilo.
+
+### END-033 | Diabetes insípida: orina diluida e hipernatremia | 2024
+Varón de 20 años desde hace 6 meses con poliuria, polidipsia y cefalea global. El diagnóstico de diabetes insípida se puede establecer con:
+   A) Poliuria, densidad urinaria alta e hipernatremia
+  *B) Poliuria, densidad urinaria baja e hipernatremia
+   C) Oliguria, densidad urinaria alta e hiponatremia
+   D) Poliuria, densidad urinaria alta e hiponatremia
+   E) Poliuria, densidad urinaria baja e hiponatremia
+EXP: El diagnóstico de diabetes insípida se establece cuando el paciente presenta poliuria (gran volumen de orina), densidad urinaria baja (debido a la incapacidad de concentrar la orina) e hipernatremia (por la pérdida excesiva de agua libre). En este caso, la orina diluida (baja densidad) y la hipernatremia son características fundamentales, ya que el cuerpo pierde grandes cantidades de agua sin poder concentrar adecuadamente la orina. Esta condición puede ser central (deficiencia de ADH) o nefrogénica (resistencia a ADH).
+
+### INF-062 | Neumonía por Pneumocystis: cotrimoxazol | 2024
+Varón de 35 años con VIH es diagnosticado con neumonía por Pneumocystis jirovecii. ¿Cuál es el tratamiento inicial más adecuado?
+   A) Doxiciclina
+   B) Ciprofloxacino
+   C) Metronidazol
+  *D) Cotrimoxazol
+   E) Fluconazol
+EXP: El tratamiento inicial más adecuado para la neumonía por Pneumocystis jirovecii en un paciente con VIH es cotrimoxazol. Este antibiótico, una combinación de trimetoprim y sulfametoxazol, es el tratamiento de elección debido a su eficacia frente a Pneumocystis jirovecii, un patógeno oportunista común en personas con inmunodeficiencia, como en el caso de pacientes con VIH. Además, el cotrimoxazol también es utilizado para prevenir recidivas en pacientes con VIH que tienen un recuento de CD4 bajo.
+
+### GIN-121 | Embarazo ectópico roto | 2024
+Mujer de 24 años llega a la emergencia pálida, refiere haberse desmayado hace 15 minutos, fecha de última regla hace seis semanas. Examen: PA: 80/50 mmHg, FC: 110 X'; abdomen doloroso, rebote dudoso. Culdocentesis (+). ¿Cuál es el diagnóstico más probable?
+  *A) Embarazo ectópico roto
+   B) Aborto incompleto
+   C) Aborto en curso
+   D) Cuerpo lúteo hemorrágico
+   E) Apendicitis aguda
+EXP: El diagnóstico más probable en este caso es embarazo ectópico roto. La paciente presenta signos de shock (PA baja, taquicardia), dolor abdominal y rebote, lo que sugiere una hemorragia interna, comúnmente asociada con un embarazo ectópico roto. La culdocentesis positiva indica la presencia de líquido libre en la cavidad abdominal, lo que es consistente con hemorragia intraabdominal debido a la rotura de un embarazo ectópico. El embarazo ectópico, en especial cuando se rompe, es una emergencia médica que requiere intervención quirúrgica inmediata para evitar complicaciones graves, como el shock hemorrágico.
+
+### SP-086 | Autoexamen de mama: prevención secundaria | 2024
+En el autoexamen de mama. ¿Qué tipo de prevención se aplica?
+  *A) Secundaria
+   B) Cuaternaria
+   C) Terciaria
+   D) Primaria
+   E) Promoción de la salud
+EXP: El autoexamen de mama se clasifica dentro de la prevención secundaria. Este tipo de prevención se enfoca en la detección temprana de enfermedades en personas asintomáticas para permitir un tratamiento oportuno. El autoexamen de mama es una herramienta que permite a las mujeres detectar posibles alteraciones en sus mamas, como bultos o cambios en la piel, que podrían ser indicativos de cáncer de mama. Aunque su utilidad ha sido debatida, sigue siendo una estrategia de detección temprana, lo que lo ubica en la prevención secundaria.
+
+### CB-043 | Lesión del nervio femoral | 2024
+Varón de 63 años con antecedente de pielolitotomía por cálculo urinario en riñón derecho ptósico. Evoluciona con hipoestesia en la región anterior del muslo y cara medial de la pierna derecha. ¿Cuál es el nervio lesionado?
+   A) Ciático
+  *B) Femoral
+   C) Tibial
+   D) Sural
+   E) Obturador
+EXP: El paciente presenta hipoestesia en la región anterior del muslo y cara medial de la pierna derecha, lo que sugiere una lesión del nervio femoral. Este nervio es responsable de la sensibilidad en esas áreas y puede verse afectado en procedimientos quirúrgicos como la pielolitotomía, especialmente si se realiza en un riñón ptósico.
+
+### END-034 | Insuficiencia suprarrenal por ketoconazol | 2024
+Mujer de 45 años que acude a urgencias por debilidad, dolor abdominal, náusea y vómitos. Desde hace 6 meses con ketoconazol por micosis sistémica. Examen: PA: 100/60 mmHg, FC: 80 X', hipotensión ortostática, muy adelgazada, hiperpigmentación de la piel y mucosas. Laboratorio: Na: 130 mEq/L, K: 4.5 mEq/L, Cl: 102 mEq/L, G: 65 mg/dL. Prueba de estimulación con ACTH negativa. ¿Qué hormona se encuentran disminuida?
+  *A) Cortisol
+   B) Aldosterona
+   C) Insulina
+   D) ACTH
+   E) Prolactina
+EXP: La paciente presenta síntomas de insuficiencia adrenal primaria (enfermedad de Addison), como debilidad, dolor abdominal, náuseas, vómitos y hiperpigmentación. El ketoconazol puede inducir esta condición. La prueba de estimulación con ACTH negativa confirma que la disfunción es a nivel suprarrenal. La hormona disminuida es el cortisol.
+
+### CAR-048 | Choque cardiogénico: precarga alta | 2024
+Varón de 50 años, con diabetes tipo 2, es traído a urgencias por dolor retroesternal opresivo de 30 minutos de duración. Examen: PA: 80/50 mmHg, FC: 60 X’, FR: 24 X', SatO₂: 90%, con diaforesis, piel fría, llenado capilar >5", crepitantes bilaterales e ingurgitación yugular. Laboratorio: CK-MB y troponina I elevadas. ¿Cómo está la pre carga?
+   A) Normal
+  *B) Alta
+   C) Muy baja
+   D) Baja
+   E) Normal con poscarga baja
+EXP: El paciente presenta dolor retroesternal, signos de insuficiencia cardíaca (ingurgitación yugular, crepitantes bilaterales) y marcadores cardíacos elevados (CK-MB y troponina I), lo que sugiere un infarto de miocardio con insuficiencia cardiaca. La pre-carga está alta, ya que la ingurgitación yugular y los crepitantes bilaterales indican congestión pulmonar, lo que se traduce en un aumento del volumen de sangre en las cavidades del corazón.
+
+### SP-087 | Violencia contra el adulto mayor: denuncia | 2024
+Viuda de 81 años, vive con hijo alcohólico de 41 años a quien mantiene con su pensión. Esta muy ansiosa; señala que desde hace cinco años su hijo no trabaja, origina problemas, agresiones físicas y amenaza de muerte en el hogar. La paciente refiere que esta situación se ha tornado inmanejable y no sabe qué hacer. ¿Cuál debe ser la conducta urgente a seguir?
+   A) Inducir cambio de hábito
+   B) Comunicar a la enfermera
+   C) Administrar sedantes
+  *D) Denunciar a las autoridades
+   E) Indicar terapia familiar en 6 meses
+EXP: La situación descrita sugiere violencia doméstica y abuso, lo que hace urgente denunciar a las autoridades. La paciente está expuesta a amenazas de muerte y agresiones físicas por parte de su hijo, lo que requiere una intervención inmediata para proteger su seguridad y bienestar. Denunciar a las autoridades es crucial para prevenir más daños y proporcionar apoyo adecuado a la paciente.
+
+### PED-127 | Neonato febril: antibióticos aunque falle la punción lumbar | 2024
+Neonato de 2 semanas con T°: 38.9 °C en la últimas 24 horas, irritabilidad y succión débil. Se solicita hemograma completo, PCR, procalcitonina, hemocultivo, examen completo de orina y urocultivo. Se intenta punción lumbar varias veces sin éxito. ¿Cuál es la conducta a seguir?
+   A) Solicitar tomografía cerebral
+   B) Realizar ecografía transfontanelar
+   C) Pedir glicemia y electrolitos séricos
+  *D) Administrar antibióticos parenterales
+   E) Esperar el hemocultivo antes de tratar
+EXP: La conducta a seguir en un neonato con fiebre, irritabilidad y succión débil es administrar antibióticos parenterales de inmediato. La fiebre en un neonato puede ser indicativa de una infección grave, como una sepsis o meningitis, y el inicio temprano de antibióticos es esencial mientras se esperan los resultados de los cultivos y pruebas adicionales. Además, la dificultad para realizar una punción lumbar aumenta la urgencia de tratar la posible infección bacteriana de manera empírica.
+
+### SP-088 | Intersectorialidad frente al dengue | 2024
+El ámbito sanitario de un centro de salud está en escenario III para dengue, por lo cual el médico jefe convoca a reunión al alcalde y representantes de instituciones públicas y privadas de la zona. ¿Qué principio de la atención primaria de salud se cumple?
+   A) Equidad
+   B) Justicia social
+  *C) Intersectorialidad
+   D) Solidaridad
+   E) Universalidad
+EXP: El principio que se cumple es Intersectorialidad. Este principio implica la colaboración entre diferentes sectores, como instituciones públicas y privadas, para abordar un problema de salud de manera integral. En este caso, la convocatoria a una reunión con diversos actores para enfrentar el escenario de dengue refleja un enfoque intersectorial, donde se suman esfuerzos y recursos de diferentes sectores para abordar el problema de salud de manera más efectiva.
+
+### END-035 | Tiroiditis subaguda de De Quervain | 2024
+Mujer de 48 años, desde hace tres semanas presenta cervicalgia que aumenta al deglutir, palpitaciones, intolerancia al calor y pérdida de peso. Antecedente: hace 2 meses presentó faringitis. Examen: signos vitales normales, sin datos de oftalmopatía, dolor a la palpación en tiroides y temblor distal en manos. Laboratorio: TSH disminuido, T4 elevado; antitiroglobulina y antiperoxidasa (-); VSG: 58 mm/h. ¿Cuál es el diagnóstico?
+   A) Enfermedad de Graves
+   B) Tiroiditis de Hashimoto
+  *C) Tiroiditis de Quervain
+   D) Tirotoxicosis facticia
+   E) Tiroiditis supurativa aguda
+EXP: El diagnóstico más probable es tiroiditis de Quervain. Esta condición se caracteriza por dolor cervical, que a menudo aumenta al deglutir, asociado con síntomas de hipertiroidismo como palpitaciones, intolerancia al calor y pérdida de peso. La ausencia de oftalmopatía y la presencia de dolor a la palpación en la tiroides también favorecen este diagnóstico. La tiroiditis de Quervain es una tiroiditis subaguda, típicamente desencadenada por una infección viral (como en el antecedente de faringitis de la paciente), y suele asociarse con niveles elevados de T4 y TSH disminuida debido a la liberación de hormonas tiroideas almacenadas. La VSG elevada también es indicativa de inflamación, lo que apoya aún más el diagnóstico.

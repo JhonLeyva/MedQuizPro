@@ -1,0 +1,224 @@
+### SP-061 | Enfoque intercultural en salud | 2023
+En la capacitación al equipo de salud se orienta y promueve el respeto a las culturas de la población y el acercamiento a los servicios de salud desde su diseño e implementación con pertinencia cultural; así mismo se brinda competencias de comunicación capaces de derribar sociales y culturales con sus usuarios, aportando a un proceso de inclusión social efectivo. ¿Qué enfoque del modelo de cuidado integral de salud se está promoviendo?
+   A) De pluriculturidad
+   B) De derechos humanos
+   C) De territorialidad
+  *D) De interculturalidad
+   E) De género
+EXP: El enfoque que se está promoviendo en este caso es el de interculturalidad, que busca respetar y valorar la diversidad cultural de los pacientes, incorporando sus tradiciones, creencias y prácticas dentro de la atención en salud. Este enfoque permite que los servicios de salud sean más accesibles y pertinentes para distintas comunidades, promoviendo la inclusión y mejorando la calidad del cuidado. La interculturalidad facilita la comunicación efectiva entre el equipo de salud y los usuarios, creando un ambiente de respeto mutuo y adaptando los servicios a las necesidades específicas de las poblaciones diversas.
+
+### PED-100 | Malformación anorrectal: fístula rectovestibular | 2023
+¿Cuál es el defecto que con más frecuencia se asocia a ano imperforado en recién nacidas?
+  *A) Fístula rectovestibular
+   B) Persistencia de cloaca
+   C) Fístula cutaneoperineal
+   D) Defecto rectouretral
+   E) Fístula rectovesical
+EXP: El defecto que con más frecuencia se asocia a ano imperforado en recién nacidas es la fístula rectovestibular. Esta es una anomalía congénita en la que hay una comunicación anómala entre el recto y la vagina o vestibulo vaginal, lo que puede llevar a la presencia de heces en la región vaginal. Este tipo de fístula se encuentra comúnmente en casos de malformaciones del tracto anal, y su tratamiento generalmente requiere cirugía para corregir la comunicación anómala y restaurar la función normal del tracto digestivo.
+
+### PED-101 | Hemorragia intraventricular del prematuro | 2023
+Ud. Evalúa a un RN prematuro de 32 semanas, en su segundo día de vida por letargia. Antecedente: peso al nacer: 1400 g. PC: 30 cm, talla: 43 cm. Examen: peso 1350 g FC:114 X’, PC: 31.5 cm, rosada pálido, hipoactivo, fontanela llena, apnea intermitente. ¿Cuál es el diagnóstico más probable?
+   A) Hemorragia intraparenquimal
+   B) Hidrocefalia incipiente
+   C) Hemorragia subaracnoidea
+  *D) Hemorragia intraventricular
+   E) Hipoglicemia neonatal
+EXP: La hemorragia intraventricular es una complicación frecuente en recién nacidos prematuros, especialmente en los menores de 32 semanas y/o con bajo peso al nacer. En este caso, el neonato de 32 semanas con letargia, apnea intermitente, fontanela llena y aumento del perímetro cefálico sugiere sangrado en el sistema ventricular cerebral. Estos hallazgos son característicos de hemorragia intraventricular, que puede llevar a hidrocefalia si progresa. El diagnóstico se confirma con ecografía transfontanelar.
+
+### GAS-034 | Hepatitis A: IgM anti-VHA | 2023
+Adolescente que presenta hace cinco días malestar, fiebre, pérdida de apetito, prurito, náusea y vómitos. Examen: mucosas secas, ictericia, hepatomegalia. ¿Cuál es el examen que confirma el diagnóstico?
+  *A) IgM anti-VHA
+   B) IgG anti-VHA
+   C) IgG anti-VHB
+   D) IgM anti-VHB
+   E) Anticuerpos anti-VHC
+EXP: El cuadro clínico descrito sugiere una hepatitis viral aguda, y dado el inicio súbito con síntomas gastrointestinales, ictericia y hepatomegalia en un adolescente, la hepatitis A es una posibilidad frecuente. El IgM anti-VHA es el marcador serológico que confirma la infección aguda por el virus de la hepatitis A, siendo útil para el diagnóstico temprano. Esta inmunoglobulina aparece en la fase aguda y desaparece en semanas a meses.
+
+### OFT-021 | Maculopatía por hidroxicloroquina | 2023
+Mujer de 27 años con diagnóstico de LES desde hace 3 años y con nefritis lúpica severa. Recibe esteroides e hidroxicloroquina permanentemente, consulta por pérdida progresiva de la visión, especialmente la nocturna, desde hace dos meses. Examen: PA:180/80 mmHg, FC: 100 X’, FR: 20X’, T°:37°, lúcida facies de luna llena; severa disminución de la agudeza visual, fondo de ojo: “maculopatía bilateral severa”. ¿Cuál es la etiología más probable de la lesión retiniana?
+   A) Corticoides
+   B) Hipertensión arterial
+   C) Vasculitis por LES
+  *D) Hidroxicloroquina
+   E) Retinopatía diabética
+EXP: La hidroxicloroquina, aunque fundamental en el tratamiento del lupus eritematoso sistémico, puede causar toxicidad ocular crónica, especialmente con el uso prolongado. La complicación más temida es la maculopatía en ojo de buey, que compromete severamente la agudeza visual, sobre todo en visión nocturna. Por ello, se recomienda control oftalmológico anual en pacientes que reciben este fármaco.
+
+### INF-044 | Peritonitis tuberculosa | 2023
+Varón de 25 años, desde hace 3 semanas presenta sensación de alza térmica, dolor abdominal, diaforesis nocturna, pérdida de peso, anorexia. Examen: abdomen “en tablero de ajedrez”, signo de la oleada (+), RHA disminuidos, Ecografía: líquido libre en cavidad. Paracentesis: exudado, rico en proteínas a predominio de linfocitos. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad de Crohn
+   B) Colitis ulcerativa
+  *C) Peritonitis tuberculosa
+   D) Ascitis bacteriana
+   E) Carcinomatosis peritoneal
+EXP: El paciente presenta un cuadro subagudo/crónico (3 semanas) con síntomas constitucionales: fiebre, sudoración nocturna, pérdida de peso y anorexia, que orientan hacia una etiología infecciosa crónica como la tuberculosis. El hallazgo de ascitis con exudado rico en proteínas y predominio de linfocitos en el líquido peritoneal es característico de la peritonitis tuberculosa. Además, el abdomen en “tablero de ajedrez” sugiere la presencia de múltiples asas intestinales adheridas por inflamación crónica.
+
+### GIN-090 | Mola hidatiforme: evacuación uterina | 2023
+Mujer de 32 años G0 P0, con amenorrea de ocho semanas, acude por sangrado vaginal. Examen: útero de 12 cm ocupado. Especuloscopía: presencia de sangrado vaginal moderado. Ecografía transvaginal: patrón intrauterino en “tormenta de nieve” ¿Cuál es el manejo adecuado?
+   A) Histerectomía abdominal
+  *B) Evacuación quirúrgica
+   C) Conducta expectante
+   D) Quimioterapia
+   E) Legrado y metotrexato profiláctico a todas
+EXP: La paciente presenta un patrón intrauterino en ecografía que corresponde a una mola hidatiforme, caracterizada por un "patrón en tormenta de nieve". Esta es una forma de embarazo molar, que puede ser completa o parcial. La gestión de la mola hidatiforme generalmente incluye una evacuación quirúrgica para evitar complicaciones como la transformación en un tumor maligno (coriocarcinoma).
+
+### TRA-016 | Displasia del desarrollo de la cadera: ecografía | 2023
+Para un recién nacido. ¿Cuál es el estudio Gold Standard para el despistaje de la displasia luxante de cadera?
+   A) TAC
+   B) Radiografía
+   C) RMN
+  *D) Ecografía
+   E) Gammagrafía ósea
+EXP: La displasia del desarrollo de la cadera (DDC) o displasia luxante de cadera es una condición en la que la cadera del recién nacido no se forma correctamente, lo que puede llevar a luxación o subluxación de la articulación. Esta condición se evalúa mediante el despistaje temprano para asegurar un tratamiento oportuno. El estudio Gold Standard para el despistaje de esta condición en recién nacidos es la ecografía de cadera. La ecografía es especialmente útil en los primeros meses de vida porque permite evaluar la estabilidad de la cadera en los bebés, antes de que las estructuras óseas estén lo suficientemente calcificadas como para ser evaluadas de forma confiable mediante radiografía.
+
+### SP-062 | Principios de gestión: eficiencia | 2023
+El jefe de un establecimiento de salud evalúa su ASIS local, con ello determina sus problemas prioritarios de salud, promoviendo la atención integrada a las enfermedades prevalentes de la infancia; planificando sus actividades asignado y promoviendo el uso racional de sus recursos disponibles, para alcanzar sus objetivos y metas predeterminadas. ¿Qué principio de gestión viene aplicando?
+   A) Integralidad
+   B) Equidad
+   C) Eficacia
+  *D) Eficiencia
+   E) Universalidad
+EXP: En este escenario, el jefe del establecimiento de salud está aplicando un principio relacionado con la optimización de los recursos disponibles para cumplir con los objetivos de salud. Se enfoca en lograr los resultados establecidos utilizando los recursos de manera racional y eficiente. Esto implica la eficiencia, que es la capacidad de obtener los mejores resultados posibles con los menores recursos posibles. La eficiencia se refiere a la relación entre los resultados obtenidos y los recursos utilizados para alcanzarlos. En este caso, el jefe del establecimiento planifica actividades, asigna recursos y promueve el uso racional de los mismos para lograr los objetivos de salud.
+
+### PED-102 | Sepsis neonatal tardía | 2023
+Neonato de 9 días de vida traído por la madre al centro de salud porque está amarillo, moja poco el pañal (“dos al día) y presenta succión débil. Peso al nacer 3070 g, APGAR 3 al minuto, 9 a los cinco minutos. Examen: FC 110X’, FR: 54X’, hipoactivo, ictericia nivel 3 (escala de Kramer), resto normal. El paciente debe ser derivado al hospital con el diagnóstico probable de…
+   A) Insuficiencia renal agudo
+   B) Sepsis neonatal temprana
+   C) Ictericia neonatal
+  *D) Sepsis neonatal tardía
+   E) Ictericia por leche materna
+EXP: El bebé presenta signos clínicos que sugieren una posible sepsis neonatal tardía. Los hallazgos relevantes incluyen: • Ictericia de nivel 3 (escala de Kramer): indica una ictericia moderada a grave. • Succión débil e hipoactividad: sugieren deterioro del estado general. • Poca diuresis (solo dos pañales mojados al día): podría reflejar deshidratación o compromiso renal o metabólico. • Ausencia de fiebre: no descarta sepsis, ya que los síntomas pueden ser sutiles en recién nacidos. La sepsis neonatal tardía aparece después de la primera semana de vida. Aunque la ictericia neonatal podría ser una posibilidad, la combinación de síntomas sistémicos como succión débil y letargia, junto con la historia clínica, hace más probable este diagnóstico.
+
+### PSI-017 | Episodio depresivo con ideación suicida | 2023
+Varón de 58 años desde hace seis semanas refiere que se siente triste, vacío, en las noches insomnio y no tiene ganas de levantarse en las mañanas. Ha presentado problemas de atención en el trabajo y en última semana tiene ideas suicidas recurrentes. ¿Cuál es el diagnostico más probable?
+   A) Fibromialgia
+   B) Trastorno de ansiedad
+  *C) Síndrome depresivo
+   D) Seudodemencia
+   E) Hipotiroidismo
+EXP: Paciente varón adulto que presenta un cuadro clínico de más de dos semanas de evolución caracterizado por ánimo triste, anhedonia, insomnio, dificultad para iniciar el día, alteraciones cognitivas (problemas de atención) e ideas suicidas, lo cual cumple criterios para síndrome depresivo mayor. Estos síntomas afectan significativamente su funcionamiento social y laboral, y son característicos de un trastorno afectivo depresivo. La aparición de ideas suicidas indica además la necesidad de intervención urgente. Por lo tanto, el diagnóstico más probable es síndrome depresivo.
+
+### CB-029 | Biotransformación hepática: hidroxilación | 2023
+¿Cuál es la función principal del hígado en el metabolismo de los agentes xenobióticos de los alimentos?
+   A) Hidrólisis a compuestos apolares
+   B) Conjugación con nucleótidos
+  *C) Hidroxilación enzimática
+   D) Esterificación con glicerol
+   E) Excreción directa sin cambios
+EXP: El hígado cumple un rol clave en la detoxificación de agentes xenobióticos, es decir, sustancias extrañas al organismo como fármacos, contaminantes o aditivos alimentarios. Este proceso se lleva a cabo principalmente en dos fases: en la fase I, se realizan reacciones de hidroxilación enzimática, oxidación o reducción, que buscan hacer los compuestos más polares y así facilitar su eliminación. Estas reacciones están mediadas principalmente por el sistema del citocromo P450. Por ello, la hidroxilación enzimática es una función hepática fundamental en el metabolismo de xenobióticos, lo que hace correcta la alternativa C.
+
+### CIR-055 | Obstrucción por cáncer de colon: colostomía | 2023
+Varón de 80 años, atendido en emergencia; desde hace dos días presenta distensión abdominal, vómitos, ausencia de flatos y deposiciones. Antecedente: pérdida de 8 dilos desde hace dos meses y hematoquesia. Examen: PA: 100/60 mmHg, FC: 100 X’, FR: 24 X ’, T: 39°C, SatO₂: 96%; aumento del perímetro abdominal, RHA timbre metálico, doloroso a la palpación. TR: masa dura y dedo de guante con coágulos de sangre. ¿Cuál es la indicación prioritaria?
+   A) Ileostomía
+  *B) Colostomía
+   C) Sonda rectal
+   D) Colonoscopía
+   E) Enema evacuante
+EXP: El paciente presenta signos clínicos de obstrucción intestinal baja, evidenciada por distensión abdominal, vómitos fecaloideos, timbre metálico en los ruidos hidroaéreos, y antecedentes de hematoquezia y pérdida de peso, lo que sugiere una probable neoplasia de colon obstructiva. El tacto rectal confirma sangrado, y el cuadro de sepsis (fiebre alta y signos de inestabilidad hemodinámica) indica una situación potencialmente grave. En este contexto, la prioridad es descomprimir el colon de forma urgente y segura. La colostomía de descarga es el procedimiento indicado, ya que permite aliviar la obstrucción, controlar el cuadro clínico y preparar al paciente para una cirugía definitiva.
+
+### CAR-037 | Enfermedad de Chagas crónica: miocardiopatía y megavísceras | 2023
+Mujer de 36 años, procedente de área rural de Arequipa, acude por disnea progresiva, desde hace dos años, pirosis, disfagia y estreñimiento pertinaz. Examen: PA:110/90 mmHg, FC:120 X’, FR: 22X’, T°:37 C, RC con ritmo de galope, crépitos en bases de AC P. EKG: fibrilación auricular, algunas extrasístoles. Rx tórax: gran cardiomegalia e infiltrados alveolares en bases de ACP. TEM tóracoabdominal: megacolon y megaesófago. ¿Cuál es el diagnóstico más probable?
+   A) Fiebre reumática
+  *B) Enfermedad de Chagas
+   C) Beriberi húmedo
+   D) Cardiomiopatía hipertrófica
+   E) Miocarditis viral
+EXP: El cuadro clínico de esta paciente es altamente sugestivo de Enfermedad de Chagas, especialmente considerando su procedencia rural en Arequipa, una zona endémica en Perú. La disnea progresiva, pirosis, disfagia, y estreñimiento pertinaz junto con la presencia de megacolon y megaesófago en la tem tóracoabdominal son signos clásicos de la fase crónica de la Enfermedad de Chagas, que afecta los sistemas digestivo, cardíaco y nervioso. Además, la cardiomegalia, fibrilación auricular y crépitantes en bases pulmonares apuntan a miocardiopatía chagásica, que es una complicación frecuente de esta enfermedad.
+
+### CIR-056 | Trauma con Glasgow 8: intubación orotraqueal | 2023
+Varón de 35 años, ingresa a emergencia traído por bomberos, refieren accidente de tránsito, (piloto de moto lineal), no usaba casco, impacto y lanzamiento. Examen: PA:80/60 mmHg, FC: 110 X’, FR: 20X’, SatO₂: 90%, Glasgow 8. ¿Cuál es la medida inicial?
+  *A) Intubación orotraqueal
+   B) Analgésicos
+   C) Manitol
+   D) TEM cerebral
+   E) Radiografía de tórax
+EXP: En este caso, la medida inicial debe ser la intubación orotraqueal. El paciente presenta una puntuación de Glasgow de 8, lo que indica un compromiso del nivel de conciencia (puntuación de Glasgow ≤8 es indicativa de coma), lo que pone en riesgo la vía aérea y la respiración. La intubación orotraqueal es crucial para asegurar la permeabilidad de la vía aérea y prevenir una insuficiencia respiratoria. Además, la hipotensión y la baja saturación de oxígeno también son indicativos de que se debe priorizar el manejo de la vía aérea y la ventilación, antes de realizar otras intervenciones como analgésicos o el uso de manitol. La evaluación del trauma cerebral y otras lesiones se realizará posteriormente.
+
+### NRL-026 | Demencia con cuerpos de Lewy | 2023
+Varón de 62 años que presenta deterioro mental progresiva con pérdida de la atención, se toma más lento, refiere que “ve personas que lo vigilan y lo quiere atrapar”. Examen: facies inexpresiva, movimientos en cuenta de monedas, rigidez bradicinesia. ¿Cuál es el diagnostico más probable?
+   A) Pseudodemencia
+   B) Demencia de Alzheimer
+  *C) Demencia con cuerpos de Lewy
+   D) Demencia frontotemporal
+   E) Demencia vascular
+EXP: El diagnóstico más probable en este caso es demencia con cuerpos de Lewy. Esta enfermedad se caracteriza por un deterioro cognitivo progresivo, que puede incluir problemas con la atención y la memoria, así como fluctuaciones en el estado mental. Además, los pacientes suelen presentar síntomas motores similares al Parkinson, como rigidez, bradicinesia y movimientos lentos, lo cual se observa en este caso. La presencia de alucinaciones visuales ("ve personas que lo vigilan") también es característica de la demencia con cuerpos de Lewy, y es un hallazgo importante en el diagnóstico. La combinación de síntomas cognitivos y motores con alucinaciones es indicativa de esta patología.
+
+### OFT-022 | Hematoma subpericóndrico auricular | 2023
+Niño de 10 años que sufre golpe en pabellón auricular hace dos horas. Examen edema y nódulo en pabellón auricular. ¿Cuál es el diagnóstico más probable?
+  *A) Hematoma en subpericondrio
+   B) Seroma auricular
+   C) Pericondritis
+   D) Absceso auricular
+   E) Fractura del cartílago auricular
+EXP: El diagnóstico más probable es hematoma en subpericondrio. Este tipo de hematoma ocurre generalmente después de un traumatismo en el pabellón auricular, como el golpe descrito en el caso. Se caracteriza por la acumulación de sangre entre el cartílago y el pericondrio, lo que causa edema y una deformidad palpable (nódulo) en el área afectada. Si no se trata adecuadamente, puede dar lugar a la formación de un "oreja en coliflor", debido a la fibrosis y el daño del cartílago.
+
+### PED-103 | Síndrome nefrótico: proteinuria ≥ 40 mg/m²/h | 2023
+Niño de 5 años, traído a emergencia por palidez y edema de MMII desde hace 3 días. Examen: FC: 90 X’, FR: 20X’, PA: 90/50 mmHg; edema parpebral y de MMII ++/+++, resto normal. Laboratorio: Hb 8.5 g/dl; orina: leucocitos 1-3 xc, piocitos +, proteínas + +/+++. Ud. Sospecha de síndrome nefrótico y solicita proteínas en orina. ¿a partir de qué valor se confirma el diagnóstico?
+   A) 3 g/día
+   B) 50 mg/m/h
+  *C) 40 mg/m/h
+   D) 4 g/día
+   E) 100 mg/m²/h
+EXP: El diagnóstico de síndrome nefrótico se confirma cuando la excreción de proteínas en orina es mayor a 40 mg/m²/h. Este valor indica una pérdida excesiva de proteínas a través de los riñones, característica del síndrome nefrótico, que se manifiesta por edema, proteinuria masiva, hipoalbuminemia y, en este caso, una anemia asociada. Es importante que el seguimiento y tratamiento se inicien rápidamente para evitar complicaciones a largo plazo.
+
+### HEM-020 | Trombocitopenia inducida por heparina | 2023
+Mujer de 71 años PO2 prótesis de cadera, en forma brusca presenta disnea y dolor torácico, dímero D; 1200 ng/ml. Se inicia tratamiento con heparina no fraccionada, al octavo día presenta múltiples petequias y equimosis en el tórax, abdomen y MMSS. Laboratorio: Hb: 11 g/dl, leucocitos 11824/mm3, plaquetas: 27200/mm3, TP: 12 s y TTP: 39 s. ¿Cuál es la causa más probable de la alteración de la hemostasia?
+   A) Sepsis
+  *B) Heparina no fraccionada
+   C) CID
+   D) Hemofilia adquirida
+   E) Déficit de vitamina K
+EXP: El diagnóstico más probable es trombocitopatía inducida por heparina (también conocida como trombocitopatía inducida por heparina tipo II o HIT). En este caso, la paciente presenta una disminución significativa de plaquetas tras el inicio del tratamiento con heparina no fraccionada, lo cual es una manifestación típica de esta condición. Además, la aparición de petequias y equimosis refleja una alteración en la hemostasia debido a la trombocitopatía. Este síndrome puede llevar a eventos trombóticos a pesar de la trombocitopenia, por lo que es fundamental cambiar a un anticoagulante alternativo, como un inhibidor de la trombina.
+
+### GAS-035 | Síndrome de Gilbert | 2023
+Varón de 23 años acude por presentar ictericia de escleras, ha notado que está asociado a ayunos prolongado y se normalizaba en dos días. Niega dolor abdominal, náuseas, coluria, acolia, prurito y pérdida de peso. Examen: escleras ictéricas +/+++, no arañas vasculares, abdomen blando, altura hepática 10 cm borde liso, bazo no palpable. Laboratorio: Hto normal. Bilirrubina total: 3.1 mg/dl, bilirrubina directa 0.3 mg/dl, TGO, TGP, FA, DHL y haptoglobina normales. ¿Cuál es el diagnóstico más probable?
+   A) Anemia hemolítica
+  *B) Síndrome de Gilbert
+   C) Hepatitis viral
+   D) Cirrosis hepática
+   E) Síndrome de Dubin-Johnson
+EXP: El paciente presenta ictericia de escleras sin otros síntomas sistémicos, como dolor abdominal, náuseas o pérdida de peso, lo que sugiere una causa no hepática ni de obstrucción biliar. Los resultados de laboratorio muestran una bilirrubina total elevada, pero con bilirrubina directa dentro de los límites normales, lo que indica que la ictericia es predominantemente por bilirrubina no conjugada. La normalidad de las pruebas hepáticas (TGO, TGP, FA, DHL, haptoglobina) también descarta una hepatopatía activa o hemólisis significativa. El diagnóstico más probable es Síndrome de Gilbert, una condición benigna del metabolismo de la bilirrubina debido a una deficiencia parcial de la enzima UDP - glucuroniltransferasa. Este síndrome suele desencadenarse por factores como el ayuno prolongado, estrés o infecciones, lo que concuerda con la historia clínica del paciente. La ictericia tiende a ser i
+
+### HEM-021 | Trombocitopenia inmune primaria en el niño | 2023
+Niña de 3 años, acude por lesiones puntiformes en piel y al lavarse los dientes presentó sangrado. Antecedente: hace dos semanas tuvo rinofaringitis aguda. Examen: petequias en MMII, mucosa oral con rasgos de sangre. Laboratorio: Hemograma: Hb: 10.5 g/dl, leucocitos 8500/mm3, plaquetas 8500/mm3, orina: normal; creatinina: 1 mg/dl. ¿Cuál es el diagnostico probable?
+   A) Anemia aplásica
+   B) Enfermedad de Von Willebrandt
+   C) Síndrome hemolítico urémico
+  *D) Trombocitopenia inmune primaria
+   E) Leucemia linfoblástica aguda
+EXP: La niña presenta petequias en los miembros inferiores y sangrado en las encías al lavarse los dientes, lo que sugiere una alteración en la coagulación o en la cantidad de plaquetas. El hemograma revela una plaquetopenia significativa (8500/mm3), lo que es indicativo de trombocitopenia. Además, la presencia de petequias y la historia de rinofaringitis aguda dos semanas antes sugieren una posible trombocitopenia inmune primaria (PTI), que es una condición autoinmune en la que el sistema inmunológico destruye las plaquetas. Este trastorno es común en niños y puede aparecer después de una infección viral, como la rinofaringitis, lo que encaja con el contexto clínico presentado. El síndrome hemolítico urémico y la enfermedad de Von Willebrandt son menos probables debido a la ausencia de otros signos clínicos característicos, como insuficiencia renal o alteraciones en la coagulación. La anemia
+
+### CB-030 | Sildenafilo: alteración de la visión de colores | 2023
+Varón de 42 años acude a consulta por cefalea y percepción pasajera de coloración azulverdosa en su campo visual. Examen: eritema facial, resto sin alteraciones. Refiere tratamiento para la disfunción eréctil. ¿Cuál es el medicamento responsable del motivo de consulta con mayor probabilidad?
+   A) Yohimbina
+   B) Testoterona
+  *C) Sildenafilo
+   D) Alprostadilo
+   E) Tadalafilo en dosis baja
+EXP: El paciente presenta cefalea y una alteración visual transitoria, en forma de percepción de coloración azulverdosa, lo que es característico del efecto secundario del sildenafilo, un medicamento utilizado en el tratamiento de la disfunción eréctil. Este medicamento puede inducir una alteración en la percepción del color, particularmente una visión azul, debido a su efecto sobre la fosfodiesterasa tipo 5 (PDE5) en la retina. Aunque otros medicamentos como yohimbina, testosterona y alprostadilo se usan en el tratamiento de la disfunción eréctil, no tienen efectos visuales característicos como los observados con el sildenafilo, por lo que esta es la causa más probable en este caso.
+
+### GIN-091 | Falso trabajo de parto pretérmino: manejo expectante | 2023
+Primigesta de 32 semanas, acude por presentar dolor tipo contracción desde hace dos horas. Examen: PA: 110/70 mmHg. T°:37° C. Abdomen: se evidencia 2 contracciones en 20 minutos. Ecografía transvaginal: longitud de cérvix: 35 mm, test de fibronectina fetal negativo. ¿Cuál es la conducta a seguir?
+   A) Inicio de tocólisis
+   B) Neuroprotección con sulfato de magnesio
+   C) Cesárea de emergencia
+  *D) Manejo expectante
+   E) Cerclaje cervical de emergencia
+EXP: En este caso, la paciente se presenta con dolor tipo contracción y contracciones uterinas sin evidencia de cambios cervicales significativos (longitud del cérvix de 35 mm) y con un test de fibronectina fetal negativo. Estos hallazgos sugieren que no hay signos claros de parto prematuro. Por lo tanto, la conducta a seguir es un manejo expectante, es decir, se debe monitorear a la paciente y realizar un seguimiento de las contracciones y la evolución del cuello uterino. La tocólisis no es necesaria en e ste contexto, ya que no hay evidencia de parto prematuro inminente, y el sulfato de magnesio para neuroprotección en este caso tampoco se justifica debido a la ausencia de amenaza de parto prematuro.
+
+### INF-045 | Tuberculosis: neuritis óptica por etambutol | 2023
+Paciente con TBC pulmonar, BK +, empieza tratamiento específico esquema 1; al mes del tratamiento empieza a tener disminución de la agudeza visual y no puedo ver el color verde. ¿Cuál es el fármaco responsable de esta reacción?
+   A) Pirazinamida
+   B) Rifampicina
+  *C) Etambutol
+   D) Isoniacida
+   E) Estreptomicina
+EXP: El etambutol es un fármaco utilizado en el tratamiento de la tuberculosis, y uno de sus efectos secundarios más comunes es la toxicidad óptica, que puede manifestarse como una disminución de la agudeza visual y la incapacidad para ver ciertos colores, especialmente el color verde. Este efecto adverso ocurre debido a la afectación del nervio óptico, lo que se conoce como neuritis óptica. Dado que la paciente presenta estos síntomas después de un mes de tratamiento con el esquema 1 para la tuberculosis, es muy probable que el etambutol sea el fármaco responsable de esta reacción.
+
+### CAR-038 | Insuficiencia aórtica: soplo de Austin Flint | 2023
+Varón de 60 años acude a consulta por disnea a pequeños esfuerzos, palpitaciones, dolo precordial y edema de MMII. Examen: pulso periférico saltón, corazón: soplo protodiastólico decreciente en borde esternal superior izquierdo y soplo mesodiastólico en foco mitral catalogado como asoplo de Austin Flint. ¿Cuál es el diagnóstico más probable?
+   A) Estenosis aórtica
+   B) Insuficiencia mitral
+  *C) Insuficiencia aórtica
+   D) Estenosis mitral
+   E) Coartación de aorta
+EXP: El soplo de Austin Flint es un hallazgo característico de la insuficiencia aórtica severa. Este soplo es un soplo mesodiastólico en el foco mitral que se produce debido al flujo retrógrado de sangre desde la aorta hacia el ventrículo izquierdo, lo que puede interferir con el cierre de la válvula mitral y crear un murmullo diastólico. Los síntomas de disnea, palpitaciones, dolor precordial y edema de miembros inferiores también son típicos de insuficiencia aórtica, ya que esta condición provoca sobrecarga de volumen en el ventrículo izquierdo y puede generar insuficiencia cardíaca. El pulso periférico "saltón" también es indicativo de esta patología, debido a la gran diferencia entre la presión sistólica y diastólica.

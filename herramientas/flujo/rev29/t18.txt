@@ -1,0 +1,224 @@
+### CB-047 | Intoxicación crónica por plomo | 2024
+Varón de 35 años, desde hace tres meses presenta cefalea, diarrea, fatiga y dolores articulares. Trabaja como reciclador de baterías de automóvil. ¿Cuál es el diagnóstico?
+   A) Deficiencia de niacina
+   B) Gastroenterocolitis
+  *C) Intoxicación por plomo
+   D) Enfermedad de Reiter
+   E) Intoxicación por mercurio
+EXP: Paciente adulto joven con clínica subaguda de cefalea, diarrea, fatiga y artralgias persistentes durante 3 meses. El dato más relevante es su ocupación como reciclador de baterías, lo que conlleva una alta exposición a compuestos de plomo. La intoxicación crónica por plomo afecta múltiples sistemas: neurológico (cefalea, irritabilidad), digestivo (dolor abdominal, constipación o diarrea), hematológico (anemia microcítica hipocrómica), y musculoesquelético (dolor articular y miopatías). No hay evidencias clínicas que orienten a enfermedad de Reiter (artritis reactiva postinfecciosa) ni signos cutáneos o digestivos de pelagra (déficit de niacina). La gastroenterocolitis aguda no explica la evolución prolongada. Se debe considerar plumbemia y descartar intoxicación laboral. Por tanto, el diagnóstico más probable es intoxicación crónica por plomo, dadas la clínica y la exposición ocupacional
+
+### CIR-071 | Quemadura de espesor parcial superficial | 2024
+Mujer de 40 años que hace una hora sufre quemadura de antebrazo derecho con agua caliente. Examen: piel con lesión eritematosa, que se blanquea a la digitopresión y presencia de ampollas. Según el nivel de profundidad. ¿Cuál es la clasificación de la quemadura?
+   A) Espesor total
+   B) Superficial simple
+   C) Espesor parcial profundo
+  *D) Espesor parcial superficial
+   E) Superficial con necrosis dérmica
+EXP: Mujer con quemadura reciente por escaldadura con agua caliente en antebrazo. El examen clínico muestra piel eritematosa, con ampollas y signo de llenado capilar conservado (blanqueo a la digitopresión), lo que indica integridad vascular parcial. Las quemaduras de espesor parcial se dividen en superficiales y profundas. Las superficiales afectan epidermis y parte de la dermis papilar, suelen ser dolorosas, rojizas, exudativas, y presentan ampollas. Las profundas, en cambio, comprometen capas más profundas de la dermis y no suelen blanquear. En este caso, la descripción es característica de una quemadura de espesor parcial superficial, que generalmente cicatriza en 10-14 días y con manejo conservador. No corresponde a quemadura de espesor total (lesión blanca o negra, insensible) ni a quemadura superficial simple (solo eritema sin ampollas). Por tanto, la clasificación correcta según el ni
+
+### CB-048 | Toxicidad anticolinérgica tras tratar organofosforados | 2025
+Varón de 27 años, ingresa a emergencia por ingerir pesticida. Llegó con broncorrea, diaforesis intensa, fasciculaciones musculares y bradicardia; recibió tratamiento agresivo hasta la reversión de los síntomas. Examen: PA 150/100 mmHg, FC 130 X', FR 22 X', T 38.5°C, SatO₂ 99%; desorientado, agitado; piel rubicunda, caliente y seca. Pupilas midriáticas bilateral, visión borrosa. Abdomen: distendido, RHA ausentes, presencia de globo vesical. ¿Cuál es la causa de este cuadro clínico?
+  *A) Toxicidad anticolinérgica
+   B) Síndrome serotoninérgico
+   C) Respuesta muscarínica
+   D) Inhibición de la acetilcolinesterasa
+   E) Síndrome neuroléptico maligno
+EXP: Paciente masculino joven con antecedente de intoxicación por pesticida, que cursa inicialmente con signos de hiperactividad colinérgica (broncorrea, fasciculaciones, bradicardia). Sin embargo, tras tratamiento, presenta un giro clínico: piel seca, rubicunda, pupilas midriáticas, globo vesical y RHA ausentes, compatible con un síndrome anticolinérgico. Esta transición puede explicarse por el uso excesivo de atropina, antídoto clásico en intoxicaciones por inhibidores de la acetilcolinesterasa (como los organofosforados). En este caso, los signos actuales no corresponden a una intoxicación colinérgica ni a síndrome serotoninérgico (donde hay clonus, hiperreflexia, diaforesis). La clínica indica una inhibición parasimpática periférica: midriasis, retención urinaria, íleo paralítico y alteración del sensorio. Por lo tanto, el cuadro actual es secundario a toxicidad anticolinérgica iatrogénic
+
+### SP-094 | Medicina complementaria | 2025
+En el servicio de oncología de adultos de un hospital de Lima-Perú, el médico tratante indica asociar acupuntura en pacientes con quimioterapia que presentan efectos secundarios excesivos. ¿Cómo se define este tipo de medicina?
+   A) Ayurvédica
+   B) Trofoterapia
+   C) Tradicional
+  *D) Complementaria
+   E) Alopática
+EXP: En este caso clínico se describe el uso de acupuntura como parte del tratamiento en pacientes oncológicos sometidos a quimioterapia. Este tipo de intervenciones no reemplaza el tratamiento médico convencional, sino que lo acompaña con el objetivo de mejorar el bienestar del paciente y reducir efectos adversos. A este enfoque se le denomina medicina complementaria, ya que se utiliza junto con la medicina basada en evidencia. No se trata de medicina ayurvédica (de origen indio), ni trofoterapia (nutricional), ni medicina tradicional (según la OMS, basada en conocimientos ancestrales locales). La medicina complementaria incluye prácticas como acupuntura, meditación, aromaterapia, entre otras. Su finalidad es apoyar el tratamiento convencional mejorando la calidad de vida del paciente. Por ello, la intervención descrita corresponde a medicina complementaria.
+
+### CIR-072 | Neumotórax a tensión: descompresión con aguja | 2025
+Varón de 35 años, es traído a emergencia por sufrir accidente de tránsito, presentando dificultad respiratoria progresiva y dolor torácico intenso. Examen: PA 80/50 mmHg, FC 132 X’, FR 40 X’, SatO₂ 82% (Venturi 50%). Tórax: disnea severa, politirajes, HTD hiperresonante, MV abolido, desviación traqueal hacia el lado izquierdo, enfisema subcutáneo en región supraclavicular. Glasgow 13. ¿Cuál es la conducta inmediata?
+   A) Radiografía de tórax para confirmar el diagnóstico
+   B) Colocación de tubo de drenaje pleural
+  *C) Descompresión inmediata con aguja
+   D) Intubación orotraqueal y ventilación asistida
+   E) Toracotomía de emergencia
+EXP: Paciente politraumatizado con compromiso hemodinámico e insuficiencia respiratoria grave. Presenta signos clásicos de neumotórax a tensión: disnea severa, desviación traqueal, hiperresonancia y abolición del murmullo vesicular, junto a enfisema subcutáneo. Aunque en la práctica clínica la descompresión inmediata con aguja sería la primera medida para evitar la descompensación por shock obstructivo, esta pregunta plantea una controversia. En algunos contextos académicos, sobre todo si se enfatiza en la necesidad de confirmar el diagnóstico ante hallazgos no concluyentes, podría considerarse una radiografía de tórax como primer paso. Sin embargo, clínicamente esto retrasaría el tratamiento de una condición potencialmente letal. En este caso, el planteamiento sugiere que el enfoque inicial es diagnóstico confirmatorio antes que terapéutico.
+
+### REU-037 | Dermatitis atópica | 2025
+Mujer de 19 años, desde hace 6 años presenta prurito moderado en pliegues de la piel, detrás de las rodillas, codos, cuello y las muñecas. Antecedente: asma bronquial. Examen: piel de aspecto reseca, escaldada con descamación y fisuras en pliegues. BX piel: espongiosis, infiltrado inflamatorio a predominio de linfocitos, en la dermis. ¿Cuál es el diagnóstico más probable?
+  *A) Dermatitis atópica
+   B) Dermatitis de contacto
+   C) Sarna noruega
+   D) Acrodermatitis enteropática
+   E) Psoriasis
+EXP: Mujer con prurito crónico en pliegues flexurales, xerosis, descamación y fisuras, junto con antecedentes de asma, lo que sugiere una diátesis atópica. La biopsia de piel confirma la presencia de espongiosis e infiltrado linfocítico dérmico, hallazgos característicos de dermatitis atópica. Sin embargo, en esta pregunta se marca como correcta la dermatitis de contacto, que se asocia a reacciones eccematosas por exposición a alérgenos, aunque típicamente es más localizada y no tan crónica ni vinculada con antecedentes personales de atopía. Este conflicto de criterios puede responder al diseño del examen, pero clínicamente la dermatitis atópica sería más coherente.
+
+### NEF-059 | Cistitis no complicada: antibiótico oral empírico | 2025
+Mujer de 23 años, presenta desde hace 3 días dolor perineal, disuria y polaquiuria. Niega fiebre, vómito, dolor abdominal. Usa anticonceptivos trimestrales regularmente y no tiene patologías previas. Examen: buen estado general, sin hallazgos anormales. ¿Cuál es la conducta a seguir?
+   A) Ecografía ginecológica por gestación
+  *B) Tratamiento empírico con antibiótico oral
+   C) Iniciar carbapenem y luego desescalar
+   D) Iniciar ceftriaxona EV durante 7 días
+   E) Urocultivo y esperar el resultado sin tratar
+EXP: Paciente joven con síntomas de disuria, polaquiuria y dolor perineal sin fiebre ni síntomas sistémicos, compatible con una cistitis no complicada. El manejo en estos casos es ambulatorio, con tratamiento empírico por vía oral, usando antibióticos de primer a línea como nitrofurantoína, fosfomicina o trimetoprim- sulfametoxazol, dependiendo de resistencias locales. No está indicado el uso de antibióticos de amplio espectro como carbapenémicos ni hospitalización con terapia endovenosa, ya que no hay criterios d e gravedad ni pielonefritis. El abordaje empírico temprano permite rápida resolución de síntomas y previene complicaciones.
+
+### END-040 | Galactorrea y amenorrea: hiperprolactinemia | 2025
+Mujer de 28 años presenta secreción láctea a la presión de los pezones y amenorrea de 3 meses de evolución. ¿Cuál es el diagnóstico más probable?
+  *A) Hiperprolactinemia
+   B) Enfermedad de Addison
+   C) Tuberculosis mamaria
+   D) Hipertiroidismo
+   E) Síndrome de ovario poliquístico
+EXP: Mujer joven con amenorrea de 3 meses y galactorrea inducida a la presión mamaria. Este binomio clínico sugiere una alteración en el eje hipotálamo-hipófisis, siendo la hiperprolactinemia la causa más probable. La prolactina inhibe la secreción pulsátil de GnRH, lo que lleva a anovulación y amenorrea. Las causas incluyen prolactinomas, medicamentos dopaminérgicos y disfunción hipotalámica. Se descartan tuberculosis mamaria y enfermedad de Addison por la ausencia de síntomas sistémicos. 2 Tampoco hay signos compatibles con hipertiroidismo. Por lo tanto, el diagnóstico más probable es hiperprolactinemia.
+
+### CB-049 | Latrodectismo | 2025
+Escolar de 8 años, procede de área rural, mientras jugaba presenta dolor tipo punzante en muslo izquierdo que se incrementa y presenta prurito y piloerección local. Dos horas después cefalea, parestesias generalizadas, espasmos musculares dolorosos, dolor tóraxico opresivo. Examen: FC 145 X', FR 32 X', PA 140/90 mmHg, pálido, diaforético. Muslo izquierdo: presencia de punto blanco y halo hiperémico circundante. ¿Qué agente causó esta patología?
+  *A) Latrodectus mactans
+   B) Tityus trivittatus
+   C) Alacrán chamuco
+   D) Loxosceles laeta
+   E) Bothrops atrox
+EXP: Niño procedente de zona rural con clínica neuromuscular aguda tras mordedura: dolor local con piloerección, seguido de síntomas autonómicos y neurológicos como espasmos musculares, cefalea, hipertensión y diaforesis. El hallazgo de halo eritematoso con punto central sugiere picadura de Latrodectus mactans, conocida como viuda negra, cuyo veneno (alfa-latrotoxina) estimula liberación masiva de neurotransmisores, provocando la clínica descrita. El diagnóstico es clínico, basado en síntomas vegetativos y neuromusculares posteriores a picadura. Se trata de un cuadro típico de latrodectismo.
+
+### GIN-132 | Anemia fetal: Doppler de arteria cerebral media | 2025
+Gestante de 30 semanas, con incompatibilidad Rh confirmada. Se le realiza ecografía Doppler obstétrica para evaluar el grado de anemia fetal. El parámetro a utilizar es el pico sistólico de la arteria:
+   A) Hepática común.
+  *B) Cerebral media.
+   C) Umbilical.
+   D) Uterina.
+   E) Aorta
+EXP: Gestante con incompatibilidad Rh, situación que puede desencadenar enfermedad hemolítica del feto por aloinmunización materna. En estos casos, el método no invasivo para detectar anemia fetal es la ecografía Doppler que evalúa el pico sistólico máximo de la arteria cerebral media, parámetro sensible y precoz. Esto se debe a que la anemia fetal disminuye la viscosidad sanguínea, lo que aumenta la velocidad sistólica. Este método ha reemplazado técnicas invasivas como la cordocentesis. Las otras arterias no ofrecen la misma sensibilidad ni especificidad en este contexto clínico.
+
+### NEF-060 | Lesión prerrenal: vasoconstricción de la arteriola eferente | 2025
+Varón de 64 años con HTA, acude por disnea y oliguria de 24 horas. Hace 3 días presenta fiebre y tos con expectoración purulenta. Examen: PA 80/50 mmHg, FC 118 X', FR 26 X', T 38.7 °C, SatO₂ 90%. Piel fría, llenado capilar >4’’, crepitantes en base derecha. Lab: creatinina 2.8 mg/dl, urea 89 mg/dl, Na urinario 8 mEq/l, FENa 0.4%, osmolalidad urinaria 700 mOsm/kg. Eco renal: normal. ¿Cuál es el mecanismo compensatorio del riñón en este paciente?
+   A) Vasodilatación de la arteriola aferente
+  *B) Vasoconstricción de la arteriola eferente
+   C) Aumento de la TFG
+   D) Aumento de la excreción de sodio
+   E) Aumento de la secreción de sodio en el túbulo distal
+EXP: Paciente adulto mayor con sepsis respiratoria probable (neumonía) complicada con hipotensión, oliguria, y datos de injuria renal aguda prerrenal. FENa <1% (0.4%), Na urinario bajo (8 mEq/L) y osmolalidad urinaria alta indican una respuesta renal de conservación de volumen. En este contexto, el riñón busca mantener la TFG a través de mecanismos compensatorios. El más importante es la vasoconstricción de la arteriola eferente, mediada por angiotensina II, que mantiene la presión de filtración glomerular pese a la caída del volumen efectivo circulante. Este mecanismo es clave en el shock séptico para evitar daño renal estructural.
+
+### REU-038 | Fibromialgia: amitriptilina | 2025
+Mujer de 45 años, divorciada, con diagnóstico de fibromialgia, está en tratamiento con terapia física y conductual, pero los dolores musculares y el insomnio persiste. ¿Qué fármaco le agregaría?
+   A) Codeina
+   B) Ibuprofeno
+  *C) Amitriptilina
+   D) Dexametasona
+   E) Diazepam
+EXP: La fibromialgia es un trastorno caracterizado por dolor musculoesquelético crónico, fatiga e insomnio. El manejo farmacológico suele incluir antidepresivos tricíclicos como amitriptilina por su efecto analgésico y sedante. Sin embargo, en esta pregunta, se ha marcado como correcta la dexametasona (clave D), pese a que no es de primera línea ni se recomienda por sus efectos adversos a largo plazo. La codeína tiene riesgo de dependencia y el ibuprofeno no es efectivo en fibromialgia. Se respeta la respuesta brindada, aunque no corresponde a la recomendación terapéutica actual.
+
+### NEU-036 | Apnea obstructiva del sueño: polisomnografía | 2025
+Varón de 47 años, sin antecedentes importantes, fue ingresado recientemente en el hospital por un accidente cerebrovascular isquémico en la arteria cerebral media derecha. Su esposa refiere que ronca al dormir y deja de respirar varias veces en la noche desde hace 7 años. Su IMC es de 35 kg/m2. ¿Qué prueba solicitaría para diagnosticar la enfermedad de fondo que se complicó con el ACV?
+   A) Oximetría de pulso nocturna
+   B) Ecocardiograma
+  *C) Polisomnografía nocturna
+   D) Gasometría arterial
+   E) Espirometría
+EXP: Paciente con antecedente de ronquido crónico, pausas respiratorias nocturnas e IMC elevado, lo que sugiere apnea obstructiva del sueño (AOS). Este trastorno es un factor de riesgo importante para enfermedades cardiovasculares y ACV. El examen de elección para su diagnóstico es la polisomnografía nocturna. No obstante, según la clave brindada (B), se sugiere el ecocardiograma, que podría aportar información complementaria si se sospecha de complicaciones cardiacas secundarias como hipertensión pulmonar. Se respeta la clave, aunque clínicamente no sería el examen diagnóstico primario para AOS.
+
+### CIR-073 | Gangrena de Fournier | 2025
+Varón de 75 años que desde hace 4 días presenta celulitis en periné y dolor en escroto derecho. Antecedente: alcohólico, diabético desde hace 7 años en tratamiento irregular. Examen: T 39°C. mal estado general, MEH. región perianal y escroto eritematoso con zonas de necrosis y crepitación. ¿Cuál es el diagnóstico?
+   A) Hidroadenitis supurativa
+  *B) Fascitis necrotizante
+   C) Absceso isquiorrectal
+   D) Fístula anal
+   E) Gangrena gaseosa por clostridios
+EXP: La presentación clínica con necrosis en zona perineal, fiebre elevada, compromiso del estado general y crepitación en un paciente diabético sugiere fuertemente una fascitis necrotizante tipo II o gangrena de Fournier. Esta entidad requiere diagnóstico y tratamiento quirúrgico urgente. La hidroadenitis, absceso o fístula no cursan típicamente con necrosis ni signos de compromiso sistémico severo. La clave B es totalmente concordante con el cuadro clínico descrito.
+
+### GIN-133 | VIH materno: contraindicar la lactancia | 2025
+Puérpera inmediata, diagnosticada con VIH desde dos meses antes de dar a luz, se encuentra recibiendo TAR y desea dar de lactar. ¿Cuál es la conducta a seguir?
+  *A) Contraindicar la lactancia
+   B) Descontinuar antirretrovirales
+   C) Aislar al niño de la madre
+   D) Lactancia por tres meses
+   E) Lactancia mixta
+EXP: Puérpera con diagnóstico reciente de VIH, en tratamiento antirretroviral (TAR), desea dar de lactar. La conducta más segura y estandarizada en países donde se dispone de leche maternizada segura es contraindicar la lactancia materna en mujeres VIH+. Aunque en algunos contextos de bajos recursos se puede permitir con TAR y seguimiento, en escenarios con disponibilidad de fórmulas infantiles, se prioriza la prevención de transmisión vertical postnatal. La lactancia materna prolongada incrementa el riesgo de transmisión del VIH por leche, incluso bajo TAR. En el Perú, las guías nacionales siguen esta postura y contraindican lactancia en madres VIH positivas con acceso a fórmulas.
+
+### GIN-134 | Presentación podálica en trabajo de parto: cesárea | 2025
+Gestante de 20 años, talla 1.50 m, con 36 semanas de gestación, acude al hospital con diagnóstico confirmado de presentación podálica, AU 36 cm. La paciente está en inicio de trabajo de parto. ¿Cuál es la mejor opción de manejo en este caso?
+   A) Continuar el parto vaginal
+   B) Realizar maniobras externas a la gestante
+   C) Realizar una amniotomía
+  *D) Realizar una cesárea de emergencia
+   E) Esperar el parto vaginal asistido
+EXP: Gestante de 36 semanas en trabajo de parto con feto en presentación podálica y talla materna baja (1.50 m). Esta situación plantea un alto riesgo obstétrico por desproporción cefalopélvica y dificultades en el descenso fetal. Sin embargo, la opción que marcas es la realización de maniobras externas, que se denominan versión cefálica externa (VCE). Esta maniobra está indicada preferentemente entre las 36– 37 semanas en pacientes sin trabajo de parto activo, con condiciones adecuadas. En este caso, ya está en trabajo de parto, lo que contraindica la VCE por el riesgo de sufrimiento fetal y desprendimiento de placenta. Por tanto, la mejor opción sería cesárea.
+
+### SP-095 | Variación estacional | 2025
+Se analiza los casos de neumonía en el distrito Brillante, en niños menores de tres años de un periodo de cinco años; se evidencia un patrón de mayor incidencia en los meses de menor temperatura. ¿Cómo se clasifica este comportamiento?
+  *A) Estacional
+   B) Cíclico
+   C) Ascendente
+   D) Horizontal
+   E) Secular
+EXP: Se analiza la distribución de casos de neumonía en menores de tres años durante un período de cinco años, con un patrón que muestra aumento de casos en meses fríos. Este comportamiento corresponde a una distribución estacional, pues depende de condiciones climáticas cíclicas propias de una estación determinada (invierno). La opción “cíclica” se refiere a variaciones periódicas que no necesariamente coinciden con estaciones del año, y suelen observarse en epidemias con frecuencia cada ciertos años. “Ascendente” implicaría una tendencia continua al alza sin descensos regulares, y “horizontal” implica estabilidad. Por tanto, el patrón observado es claramente estacional.
+
+### TRA-025 | Fractura de cadera en el anciano: trombosis venosa profunda | 2025
+¿Cuál es la complicación más probable en el anciano postrado con fractura de cadera?
+   A) Celulitis de miembro inferior
+  *B) Trombosis venosa profunda
+   C) Trombosis venosa superficial
+   D) Claudicación arterial
+   E) Úlcera duodenal
+EXP: Paciente anciano postrado con fractura de cadera tiene elevado riesgo de complicaciones tromboembólicas debido a inmovilización prolongada. La trombosis venosa profunda (TVP) es la complicación más frecuente y temida en este contexto, especialmente en miembros inferiores. La estasis venosa, daño endotelial y el estado protrombótico en el anciano conforman la tríada de Virchow, que facilita la formación de trombos. La celulitis puede presentarse, pero es menos común; la trombosis superficial tiene menor repercusión clínica; y la claudicación arterial se relaciona con enfermedad arterial crónica, no con inmovilidad aguda. Por tanto, la complicación más esperada es TVP.
+
+### GIN-135 | Placenta de implantación baja | 2025
+Primigesta de 34 semanas, acude por sangrado vaginal sin dolor. Examen: PA 100/60 mmHg, FC 72 X', Abdomen: AU: 32 cm SPP: LCI, LCF 138 X'. Especuloscopía: sangrado vaginal escaso. Ecografía obstétrica: gestación activa con placenta cuyo borde inferior llega a 1 cm del orificio cervical interno. ¿Cuál es el diagnóstico?
+  *A) Placenta de implantación baja
+   B) Placenta previa marginal
+   C) Espectro de acretismo placentario
+   D) Placenta previa total
+   E) Placenta previa parcial
+EXP: Gestante de 34 semanas acude por sangrado vaginal indoloro, hallazgo que sugiere alteración en la localización placentaria. El examen obstétrico muestra vitalidad fetal conservada y sangrado escaso, mientras que la ecografía revela una placenta cuyo borde inferior se encuentra a 1 cm del OCI. Según la clasificación ecográfica, cuando la placenta está entre 0 –2 cm del OCI, se denomina placenta de implantación baja. No se trata de placenta previa marginal, ya que esta implica que el borde placentario alcanza el OCI, pero no lo cubre. El sangrado sin contracciones ni dolor excluye parto pretérmino ni abruptio. La ausencia de signos ecográficos de acretismo (lagunas vasculares, pérdida de la zona clara, etc.) hace poco probable un espectro de acretismo placentario. La conducta será reposo, seguimiento ecográfico y preparación para parto por cesárea si la placenta no se desplaza.
+
+### NEF-061 | PSA en zona gris con cociente libre/total bajo: biopsia | 2025
+Varón de 49 años desde hace 6 meses presenta disuria, nicturia y adelgazamiento del chorro urinario. Examen: TR próstata aumentada de consistencia. Lab: PSA 5,9 ng/ml, cociente de PSA libre/PSA total del 11%. ¿Cuál es la conducta a seguir?
+  *A) Solicitar ecografía transrectal para biopsia prostática
+   B) Solicitar ecografía transrrectal
+   C) Iniciar tratamiento con Inhibidores de la 5 alfa reductasa
+   D) Iniciar tratamiento combinado de análogos de la LHRH
+   E) Repetir PSA en un año
+EXP: Varón adulto con síntomas del tracto urinario inferior (disuria, nicturia, chorro débil) y un tacto rectal que revela una próstata aumentada de consistencia, lo que indica una sospecha clínica de neoplasia prostática. El PSA total es de 5.9 ng/ml, un valor en zona gris, pero el cociente PSA libre/total del 11% sugiere fuertemente malignidad (<15% es indicativo de alto riesgo de cáncer). En este contexto, la conducta más razonable sería confirmar el diagnóstico mediante una biopsia guiada por ecografía transrectal. Sin embargo, se ha optado por la alternativa D, que corresponde a una medida terapéutica para cáncer de próstata avanzado: terapia hormonal con análogos de LHRH. Esta conducta se justificaría si se asume que el diagnóstico ya fue confirmado previamente o si hay evidencia de enfermedad metastásica.
+
+### GAS-048 | Intolerancia a la lactosa | 2025
+Niño de 6 años presenta náuseas, distensión abdominal, diarreas y flatulencia después de la ingesta de productos lácteos. ¿Cuál es la enzima deficiente?
+   A) Sacarasa
+   B) Amilasa
+   C) Maltasa
+  *D) Lactasa
+   E) Lipasa
+EXP: Niño con cuadro gastrointestinal post-ingesta de productos lácteos: náuseas, distensión abdominal, flatulencia y diarrea, lo que clínicamente sugiere una intolerancia alimentaria. El diagnóstico más probable es intolerancia a la lactosa, causada por deficiencia de la enzima lactasa, que normalmente hidroliza la lactosa en glucosa y galactosa. Sin embargo, se ha marcado como respuesta correcta la opción "maltasa", enzima encargada de descomponer la maltosa en glucosa, que no está implicada en la digestión de productos lácteos. La opción correcta fisiopatológicamente sería lactasa. La sacarasa y amilasa intervienen en la digestión de sacarosa y almidón respectivamente. La presentación clínica es característica de malabsorción de lactosa.
+
+### INF-067 | Fiebre amarilla: la ictericia indica gravedad | 2025
+Varón de 23 años, enfermero serumista, en Centro de Salud de Satipo, actualmente con lluvias torrenciales. Se puso la vacuna contra la fiebre amarilla seis días antes de viajar. Desde hace 5 días empieza con fiebre, cefalea, dolores musculares y nauseas. Examen: PA 110/75 mmHg, FC 100 X', FR 24 X', T 38 °C, SatO₂ 94%, ictericia, no visceromegalia. Lab: ELISA: + para fiebre amarilla. ¿Cuál es el signo o síntoma que nos indica gravedad de la enfermedad?
+   A) Nauseas
+   B) Cefalea
+  *C) Ictericia
+   D) Fiebre
+   E) Mialgias
+EXP: Varón joven con antecedente de vacunación reciente contra fiebre amarilla y síntomas que incluyen fiebre, cefalea, mialgias, náuseas e ictericia. En zonas endémicas, la fiebre amarilla debe considerarse frente a un cuadro febril icterohemorrágico. Los síntomas iniciales (fiebre, mialgias, cefalea) corresponden a la fase virémica, pero la presencia de ictericia sugiere progresión a la fase tóxica, que es la grave. La ictericia, junto a sangrado y falla renal o hepática, es un criterio mayor de severidad. Sin embargo, se ha marcado como correcta la cefalea, que es un síntoma común y temprano pero no asociado directamente con severidad. Desde el enfoque fisiopatológico, la ictericia representa daño hepático, que define la forma grave.
+
+### PED-136 | Varicela con sobreinfección bacteriana: oxacilina | 2025
+Prescolar de 3 años, desde hace 5 días presenta fiebre y lesiones en piel. En las últimas 24 horas hay rubor y dolor en cara anterior de hemitórax derecho. Examen: FC 128 X', FR 26 X', T 39°C. Piel: pápulas eritematosas, vesículas y costras en cuero cabelludo, tórax y extremidades. HTD: placa eritematosa de 6 x 5 cm, sobre elevada, fluctuante y dolorosa al tacto. Lab: leucocitos 18300/mm 3, PCR 24 mg/l. ¿Cuál es el tratamiento de elección?
+  *A) Oxacilina
+   B) Doxiciclina
+   C) Ciprofloxacina
+   D) Amikacina
+   E) Metronidazol
+EXP: Prescolar con fiebre de cinco días y lesiones dermatológicas evolutivas (pápulas, vesículas, costras), compatibles con varicela complicada. La presencia de una placa eritematosa fluctuante, dolorosa y de crecimiento reciente en hemitórax sugiere sobreinfección bacteriana: celulitis o absceso. Esta sobreinfección suele ser causada por Staphylococcus aureus o Streptococcus pyogenes. Ante signos inflamatorios locales marcados y elevación significativa de leucocitos y PCR, el tratamiento empírico debe cubrir gérmenes grampositivos productores de betalactamasas. Oxacilina, penicilina resistente a betalactamasas, es el antibiótico de elección en infecciones estafilocócicas de piel en este contexto.
+
+### SP-096 | Error sistemático | 2025
+Durante el desarrollo de un estudio sobre desnutrición en niños de 2 a 5 años, se comprueba que las balanzas tienen fallas de calibración y han originado sobre estimación del peso. ¿Qué tipo de error se ha producido?
+   A) Aleatorio
+   B) Variabilidad
+   C) Pérdida
+  *D) Sistemático
+   E) Error de confusión
+EXP: Durante un estudio antropométrico se detecta que las balanzas presentan fallas de calibración que sobreestiman sistemáticamente el peso de los niños. Esto altera el valor real de las mediciones, generando un error que no varía al azar, sino que afecta a todas las mediciones de forma predecible. Esto corresponde a un error sistemático, también llamado sesgo, pues introduce una desviación constante en una dirección específica. Sin embargo, se ha marcado como correcta la opción "aleatorio", que corresponde a errores impredecibles y sin patrón. La descripción del problema (descalibración) es típica de un sesgo de medición.
+
+### INF-068 | Síndrome inflamatorio de reconstitución inmune | 2025
+Varón de 32 años con infección VIH, con 70 linfocitos CD4/µl y carga viral de 1 millón de copias/ml. Inició tratamiento antirretroviral con efavirenz, dolutegravir y emtricitabina, y 3 semanas más tarde desarrolló cuadro de fiebre, malestar general y adenopatías cervicales bilaterales. PPD: negativo, RX de tórax: múltiples adenopatías mediastínicas. Actualmente presenta 140 linfocitos CD4/µl y carga viral de 900 copias/ml. ¿Cuál es el diagnóstico más probable?
+   A) Linfoma de Hodgkin severo
+  *B) Síndrome de reconstitución inmune
+   C) Reacción adversa al tratamiento antirretroviral
+   D) Blastomicosis sistémica
+   E) Tuberculosis multidrogorresistente
+EXP: Paciente con VIH avanzado (CD4: 70 cél/µl) inicia TAR, mostrando excelente respuesta virológica (descenso de carga viral de 1 millón a 900 copias/ml) e inmunológica (CD4 suben a 140). Sin embargo, desarrolla fiebre y adenopatías a las 3 semanas, sin evidencia de TBC activa (PPD negativo, pero adenopatías mediastinales). Este perfil corresponde al síndrome inflamatorio de reconstitución inmune (IRIS), una respuesta inmunitaria exacerbada a antígenos preexistentes luego de la recuperación parcial del sistema inmune. Este síndrome suele aparecer 2 a 8 semanas post-TAR en pacientes con CD4 muy bajos al inicio. No hay datos compatibles con linfoma ni toxicidad medicamentosa aguda.

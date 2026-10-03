@@ -1,0 +1,224 @@
+### NRL-029 | Hemorragia pontina: pupilas puntiformes | 2023
+Varón de 54 años, hipertenso con tratamiento irregular. Es traído a emergencia por familiar quien informa que hace 3 horas, sufrió en forma súbita caída al piso y no responde al estimulo verbal ni doloroso. Examen: Glasgow: 4; patrón respiratorio irregular; ojos: pupilas mióticas. ¿Cuál es la localización anatómica del ACV?
+  *A) Protuberancia
+   B) Tálamo
+   C) Cápsula interna
+   D) Cerebelo
+   E) Lóbulo frontal
+EXP: Dado que el paciente presenta una alteración en el nivel de conciencia junto con pupilas mióticas, lo más probable es que el ACV esté afectando una región que involucra el sistema nervioso autónomo, como la Protuberancia (Opción A). La protuberancia, también conocida como puente, es una estructura en el tronco cerebral que desempeña un papel importante en el control de varias funciones, incluido el patrón respiratorio. Los síntomas de un ACV en la protuberancia pueden incluir cambios en el patrón respiratorio, alteraciones en la conciencia, tetraparesia/plejía, paresia de la mirada horizontal bilateral y pupilas mióticas reactivas.
+
+### END-027 | Síndrome de Sheehan | 2023
+Mujer de 28 años, presenta amenorrea, tiene como antecedente una hemorragia posparto que le produjo pérdida súbita y grave de la presión arterial. No pudo dar de lactar. ¿Cuál sería su diagnóstico?
+   A) Amenorrea hipotalámica
+  *B) Síndrome de Sheehan
+   C) Falla ovárica prematura
+   D) Síndrome de Asherman
+   E) Prolactinoma
+EXP: Dada la presentación clínica de amenorrea y agalactia (incapacidad para producir leche) después de una hemorragia posparto grave, el diagnóstico más probable sería el síndrome de Sheehan (Opción B). El síndrome de Sheehan es una condición en la que hay necrosis (muerte celular) del tejido de la glándula pituitaria debido a una pérdida súbita y grave de la presión arterial durante o después del parto, generalmente debido a una hemorragia posparto severa. Esto puede llevar a insuficiencia de la glándula pituitaria, lo que resulta en amenorrea, incapacidad para producir leche materna (lactancia), fatiga, debilidad y otros síntomas relaciona dos con la insuficiencia hormonal.
+
+### INF-053 | Leptospirosis | 2023
+Varón de 36 años, que vive en la ribera del rio Rímac, presenta desde hace 3 días SAT y dolor muscular en zona de pantorrilla. Examen: ictericia de piel y escleras, lesión máculo papular en tórax, hepatoesplenomegalia, linfadenopatía y sufusión conjuntival. ¿Cuál es el diagnóstico?
+   A) Esporotricosis
+  *B) Leptospirosis
+   C) Nocardiosis
+   D) Actinomicosis
+   E) Hepatitis A
+EXP: El paciente reside en la ribera del río Rímac, lo cual constituye un factor epidemiológico clave para enfermedades transmitidas por agua contaminada con orina de roedores, como la leptospirosis. Los síntomas que presenta –fiebre de inicio súbito (SAT), mialgias intensas en pantorrillas, ictericia, exantema máculo-papular, linfadenopatías y sufusión conjuntival– configuran el cuadro clínico clásico de leptospirosis severa (forma ictérica o enfermedad d e Weil). La sufusión conjuntival es un hallazgo muy sugestivo, casi patognomónico. La esporotricosis suele comprometer piel y linfáticos, pero sin ictericia. Nocardiosis y actinomicosis son infecciones crónicas de evolución lenta, sin este perfil clínico agudo ni asociación con ambientes acuáticos contaminados.
+
+### SP-071 | Obesidad escolar: sedentarismo | 2023
+En un colegio de secundaria ubicado en un distrito urbano de Lima, el 35% presenta IMC mayor de 25 y el 8% IMC mayor de 30. ¿Cuál es el factor de riesgo modificable que con mayor probabilidad está afectando la salud de los escolares?
+   A) Alcohol
+   B) Tabaco
+  *C) Sedentarismo
+   D) Estrés
+   E) Contaminación ambiental
+EXP: Frente a una alta prevalencia de IMC elevado (IMC>25) en los alumnos de secundaria de este colegio, el factor de riesgo modificable que con mayor probabilidad está afectando la salud de los escolares en este contexto es el Sedentarismo (Opción C). El sedentarismo, que se refiere a la falta de actividad física regular, es un factor de riesgo bien conocido para el aumento de peso y la obesidad en personas de todas las edades, incluidos los escolares. Con el aumento del acceso a dispositivos electrónicos y actividades sedentarias, como ver televisión y jugar videojuegos, muchos escolares pueden no estar alcanzando los niveles recomendados de actividad física. El sedentarismo puede contribuir al desequilibrio energético y al aumento del IMC.
+
+### CB-032 | Anatomía: vena femoral medial a la arteria | 2023
+Varón de 42 años, consumidor de drogas por vía intravenosa por lo que presenta cicatrices en sus brazos. Ingresa para programa de desintoxicación mediante infusión intravenosa y las venas femorales de su ingle son las únicas accesibles. ¿Cuál es el punto de referencia más fiable para identificar las venas femorales?
+  *A) Medial a la arteria femoral
+   B) Dentro del conducto femoral
+   C) Directamente medial al nervio femoral
+   D) Lateral a la arteria femoral
+   E) Lateral al nervio femoral
+EXP: El punto de referencia más fiable para identificar las venas femorales es que se encuentran medial a la arteria femoral (Opción A). La vena femoral se encuentra medial (hacia el interior) a la arteria femoral en el triángulo femoral. Este es un punto de referencia crucial para la canulación venosa femoral, ya que la arteria femoral es una estructura grande y palpable que se puede identificar fácilmente mediante palpación del pulso femoral. Colocar la cánula justo al lado medial de la arteria femoral minimiza el riesgo de punción accidental de la arteria y permite una canulación venosa segura y efectiva.
+
+### CIR-058 | Hemotórax traumático: tubo de drenaje | 2023
+Varón de 48 años ingresa a emergencia por colisión de su auto contra el poste, golpeándose el pecho con el timón, refiere dolor intenso en la parte anterior del tórax que no le permite respirar. Examen: PA 80/60 mmHg, FC 120 X’, FR 28 X’, SatO₂ 88%; RC de buena intensidad, MV ausente y matidez ½ inferior de HTD. ¿Cuál es la conducta inmediata a seguir?
+   A) Drenaje pericárdico
+   B) TEM tórax
+   C) Ventilación mecánica
+  *D) Tubo de drenaje torácico
+   E) Pericardiocentesis
+EXP: El mecanismo del traumatismo y la presencia de dolor torácico intenso, hipotensión, taquicardia, taquipnea, disminución de la saturación de oxígeno y matidez a la percusión en la mitad inferior del hemitórax derecho sugieren fuertemente la presencia de un hemotórax con inestabilidad hemodinámica. En esta situación, la colocación urgente d e un tubo de drenaje torácico en el espacio pleural afectado es la conducta de elección para descomprimir y mejorar la función respiratoria y hemodinámica del paciente (Opción D).
+
+### GAS-039 | Pancreatitis biliar: colangiorresonancia | 2023
+Mujer de 34 años, desde hace dos días presenta dolor abdominal difuso asociado a vómitos, ictericia y alza térmica no cuantificada. Examen: deshidratado; abdomen ligeramente distendido con ausencia de RHA. Lab: amilasa 2400 U/L, BT: 4.0 mg/dL, BD: 3.5 mg/dL, proteína C reactiva 5.6 mg/L. ¿Cuál es la conducta para definir la etiología?
+  *A) Colangioresonancia
+   B) Monitoreo de amilasa
+   C) TEM de abdomen
+   D) Rx abdomen simple
+   E) Ecografía endoscópica
+EXP: Paciente con dolor abdominal, fiebre, ictericia y amilasa elevada presenta un cuadro clínico de pancreatitis aguda. La ictericia y la bilirrubina directa elevada hacen sospechar una etiología biliar, especialmente una litiasis coledociana. En estos casos, la conducta no debe centrarse en el seguimiento de enzimas pancreáticas, pues no pred icen la causa. Tampoco es útil inicialmente una tomografía, que es mejor reservar para casos severos o complicaciones. La colangioresonancia (RMN de vías biliares) es el estudio no invasivo ideal para evaluar la vía biliar, identificar cálculos en colédoco y definir si se requiere una CPRE. Por tanto, ante sospecha de pancreatitis biliar, el estudio indicado para definir etiología es la colangioresonancia.
+
+### REU-027 | Artritis séptica: líquido sinovial | 2023
+Varón de 20 años desde hace dos días presenta dolor intenso y tumefacción de rodilla derecha, signo del témpano (+). Liquido sinovial: recuento leucocitario mayor de 80000/mm3 y el porcentaje de PMN del 80%. ¿Cuál es el diagnóstico?
+   A) Osteoartritis
+   B) Artritis gotosa
+  *C) Artritis infecciosa
+   D) Artritis reumatoide
+   E) Artritis reactiva
+EXP: El cuadro clínico agudo de dolor intenso, tumefacción de rodilla derecha y el hallazgo de un líquido sinovial con recuento leucocitario elevado y predominio de neutrófilos es sugerente de Artritis infecciosa (Opción C). La artritis infecciosa es una inflamación de una articulación causada por la invasión de microorganismos patógenos, como bacterias, virus u hongos. Se caracteriza por un inicio agudo de dolor intenso, tumefacción de la articulación y signos de inflamación local, como el signo del témpano (elevación de la piel alrededor de la articulación afectada debido a la acumulación de líquido sinovial). El líquido sinovial en la artritis infecciosa muestra un recuento leucocitario elevado, con predominio de neutrófilos, como se describe en el caso presentado.
+
+### TRA-019 | Fractura expuesta conminuta de tibia: fijación externa | 2023
+Varón de 20 años que sufre atropello por moto. Examen: pierna herida abierta y fractura conminuta en tibia derecha. ¿Cuál es el tratamiento indicado?
+   A) Tracción continua
+   B) Aparato de yeso
+  *C) Fijación externa
+   D) Fijación interna
+   E) Vendaje elástico
+EXP: En un paciente con fractura conminuta de la tibia y una herida abierta, la opción de tratamiento más adecuada es la Fijación externa (Opción C). La fijación externa implica la colocación de clavos o tornillos a través del hueso, que se conectan a una barra externa para proporcionar estabilización. Es una opción de tratamiento adecuada en casos de fracturas conminutas y heridas abiertas, ya que permite una fijación estable de la fractura mientras se facilita el cuidado de la herida. Además, la fijación externa puede permitir la movilización temprana y la reducción del riesgo de complicaciones asociadas con la inmovilización prolongada.
+
+### SP-072 | Triada epidemiológica: el ambiente | 2023
+En un distrito de Lima se notifica un caso de malaria por Plasmodium vivax. El paciente reside en zona endémica y se tiene información que en Lima no hay vector. ¿Cuál es el elemento epidemiológico que no favorecería la transmisión de este caso?
+  *A) Ambiente
+   B) Agente
+   C) Hospedador
+   D) Tiempo
+   E) Edad del paciente
+EXP: El elemento epidemiológico que no favorecería la transmisión de este caso de malaria en Lima es el ambiente (Opción A). En este contexto, el ambiente se refiere a las condiciones físicas y ecológicas que favorecen la supervivencia y proliferación del vector de la malaria, como los mosquitos Anopheles. Dado que se menciona que el paciente reside en Lima, donde no hay presencia del vector, el ambiente no favorecería la transmisión de la malaria en esta área. La ausencia del vector en el ambiente limita significativamente la posibilidad de que ocurra la transmisión de la enfermedad.
+
+### SP-073 | Población y muestra | 2023
+Se investiga las características sociodemográficas de los integrantes del Club del adulto mayor de un centro de salud por lo cual se aplica la encuesta al 100% de los integrantes. ¿Cuál es la denominación de los participantes del estudio?
+  *A) Población
+   B) Muestra
+   C) Agrupamiento
+   D) Estrato
+   E) Cohorte
+EXP: Dado que la encuesta se aplica al 100% de los integrantes del Club del adulto mayor, la denominación correcta para los participantes del estudio es la población (Opción A). En el contexto de la investigación, la población se refiere al conjunto completo de individuos o elementos que comparten una característica común y sobre los cuales se desean obtener conclusiones.
+
+### CAR-043 | Trauma precordial con compromiso hemodinámico: ECG y ecocardiograma | 2023
+Varón de 52 años que hace 6 horas es agredido con "golpe de puño" en zona precordial, acude por dolor torácico, palpitaciones y mareos. Examen: FC 100 X’, PA; 90/60 mmHg; RC disminuidos de intensidad, ingurgitación de las yugulares (+). Lab: CPK y Troponina aumentadas. ¿Cuál es la medida inmediata a tomar?
+   A) Monitoreo y analgésicos
+   B) Inotrópicos y diuréticos
+  *C) EKG y ecocardiograma
+   D) TEM de tórax y Holter
+   E) Radiografía simple
+EXP: Dado el historial de trauma en la zona precordial y los síntomas cardíacos agudos, la medida más adecuada en este escenario es realizar un EKG y ecocardiograma (Opción C). El electrocardiograma (EKG) puede ayudar a detectar anormalidades eléctricas cardíacas agudas, como el infarto de miocardio. El ecocardiograma puede proporcionar información sobre la función cardíaca, identificar la presencia de derrame pericárdico u otras anomalías estructurales cardíacas posteriores al trauma.
+
+### PED-110 | Deshidratación grave con choque: bolo de SSN | 2023
+Lactante de 10 meses traído por presentar hace 3 días vómitos y deposiciones liquidas 8 cámaras al día. Examen: soporoso, ojos muy hundidos, signo de pliegue (+), piel fría y llenado capilar 5 seg. ¿Cuál es el manejo inicial?
+  *A) Nacl 0.9%: 20 ml/Kg EV en bolo
+   B) Dextrosa 5%: 20 ml/kg EV
+   C) Nacl 0.9%: 50 ml/kg en 6 horas
+   D) Suero oral: 50 ml/kg en 4 horas
+   E) Suero oral a libre demanda
+EXP: El paciente presenta signos de deshidratación grave, como sopor, ojos hundidos, signo de pliegue positivo, piel fría y llenado capilar prolongado. Por lo tanto, se requiere una reanimación rápida con fluidos intravenosos isotónicos para restaurar el volumen circulante y mejorar el estado hemodinámico del paciente. Por este motivo, el manejo inicial es la administración de NaCl 0.9%: 20 ml/Kg EV en bolo (Opción A).
+
+### HEM-022 | Anemia megaloblástica por déficit de B12 | 2023
+Varón de 75 años que desde hace 6 meses presenta fatiga, parestesias en brazos y piernas. Examen: palidez de piel y mucosas, disminución de la sensibilidad vibratoria. Lab: Hb 9 g/dL. VCM 110 fL. Frotis: hipersegmentación de neutrófilos, macroovalocitos, anisocitosis y poiquilocitosis. ¿Cuál es el diagnóstico?
+  *A) Anemia megaloblástica
+   B) Talasemia
+   C) Anemia sideroblástica
+   D) Anemia ferropénica
+   E) Anemia de enfermedad crónica
+EXP: La fatiga, palidez de piel y mucosas junto a una Hb 9 g/dl con VCM 110 fl sugerentes de una anemia macrocítica junto a la clínica neurológica y la presencia de hipersegmentación de neutrófilos y macroovalocitos confirman el diagnóstico de anemia megaloblástica (Opción A). Esta es una anemia macrocítica caracterizada por la presencia de eritrocitos inmaduros grandes (megaloblastos) en la médula ósea y en la sangre periférica. Suele estar asociada con deficiencias de vitamina B12 o ácido fólico, que son esenciales para la síntesis del ADN y la división celular adecuada. Los síntomas clásicos incluyen fatiga, debilidad, parestesias, palidez y cambios neurológicos.
+
+### REU-028 | Escabiosis en el niño | 2023
+Niño de 9 años, es traído por presentar desde hace un mes prurito intenso generalizado que se intensifica en la noche respetando cara, cabeza y cuello. Examen: pápulas pruriginosas inflamatorias en pliegues interdigitales de los dedos, zonas flexoras de las muñecas, codos, axilas, glúteos y genitales. ¿Cuál es el diagnóstico?
+   A) Urticaria papulosa
+   B) Exantema vírico
+  *C) Escabiosis
+   D) Dermatitis herpetiforme
+   E) Pediculosis corporis
+EXP: El diagnóstico más probable es Escabiosis (Opción C). La escabiosis es una infestación cutánea causada por el ácaro Sarcoptes scabiei. Se caracteriza por el prurito intenso, especialmente por la noche, y la presencia de pápulas pruriginosas inflamatorias que tienden a agruparse en áreas específicas del cuerpo, como los pliegues interdigitales de los dedos, zonas flexoras de las muñecas, codos, axilas, glúteos y genitales. Esta descripción coincide con los síntomas y la distribución de las lesiones del paciente.
+
+### OFT-024 | Otitis externa | 2023
+Varón de 15 años, refiere prurito intenso en el conducto auditivo externo derecho e hipoacusia. Examen: T 39ºC, otorrea purulenta y adenopatía retroauricular. ¿Cuál es la sospecha diagnóstica?
+   A) Dermatosis
+   B) Celulitis
+   C) Otitis interna
+  *D) Otitis externa
+   E) Mastoiditis aguda
+EXP: La presencia de prurito intenso en conducto auditivo externo, otorrea purulenta, hipoacusia y otros síntomas sugieren que el diagnóstico más probable es la otitis externa (Opción D). La otitis externa es una infección del conducto auditivo externo, que puede ser aguda o crónica. Los síntomas típicos incluyen prurito en el conducto auditivo externo, dolor de oído, otorrea purulenta, sensibilidad al tacto y pérdida de audición.
+
+### NEF-040 | Hiponatremia por tiazidas | 2023
+Mujer de 78 años, traída a emergencia con alteración de la conciencia, hace dos días desorientada y ahora soporosa. Antecedentes: ICC en tratamiento con losartán, digoxina, atorvastatina e hidroclorotiazida. Examen: PA 120/80 mmHg, FC 80 X'. Lab: Na 115 mEq/L. El tratamiento con …. fue el causante más probable de su cuadro clínico.
+   A) Atorvastatina
+  *B) Hidroclorotiazida
+   C) Losartán
+   D) Digoxina
+   E) Hidrocortisona
+EXP: Paciente adulta mayor con antecedente de insuficiencia cardíaca y polifarmacia, acude por trastorno progresivo del sensorio. Se evidencia una hiponatremia severa (Na: 115 mEq/L), lo cual explica clínicamente su desorientación y sopor. En pacientes añosos, esta alteración suele estar asociada a fármacos, especialmente diuréticos tiazídicos como la hidroclorotiazida, que provocan pérdida de sodio y aumento de secreción de ADH. Aunque digoxina puede inducir toxicidad neurológica, no produce hiponatremia. Losartán y atorvastatina no explican este cuadro clínico. La correlación temporal y la fisiopatología señalan a la hidroclorotiazida como el agente causal más probable. Por lo tanto, se debe suspenderla y corregir la natremia con monitoreo estricto.
+
+### CB-033 | Aldosterona: células principales | 2023
+¿Cuáles son las células del túbulo colector donde actúa directamente la aldosterona para aumentar la reabsorción de sodio?
+  *A) Principales
+   B) Yuxtaglomerulares
+   C) Mesangiales
+   D) Intersticiales
+   E) Intercaladas
+EXP: La aldosterona es una hormona secretada por la corteza de la glándula suprarrenal cuya función principal es aumentar la reabsorción de sodio y la secreción de potasio en los riñones, lo que contribuye a mantener el equilibrio de electrolitos y el volumen de líquidos en el cuerpo. La célula del túbulo colector donde la aldosterona actúa directamente para aumentar la reabsorción de sodio se llama célula principal (Opción A). Estas células están presentes en el túbulo colector distal y en el conducto colector.
+
+### SP-074 | Asentimiento informado | 2023
+¿Cuál es el proceso mediante el cual un niño de 10 años, podría expresar libre y voluntariamente su aceptación o negación para someterse a un procedimiento diagnóstico y/o terapéutico, participar en un ensayo clínico terapéutico o en un ensayo clínico cuando no hay beneficio terapéutico directo para él?
+  *A) Asentimiento informado
+   B) Consentimiento informado
+   C) Consentimiento paterno
+   D) Consentimiento clínico
+   E) Consentimiento presunto
+EXP: La alternativa correcta es Asentimiento informado (Opción A). El asentimiento informado es un proceso en el que se le proporciona al niño información adecuada sobre el procedimiento o estudio clínico en un lenguaje comprensible para su edad y nivel de desarrollo. El niño luego expresa su consentimiento a participar o no en el procedimiento o estudio, mostrando su comprensión y voluntad, aunque el consentimiento finalmente lo otorga el representante legal del niño (padre o tutor). El asentimiento informado es importante para respetar la autonomía y el derecho a la autodeterminación del niño en la medida de sus capacidades.
+
+### CB-034 | Hidróxido de aluminio: hipofosfatemia | 2023
+Mujer de 65 años con dolor tipo ardor en epigastrio por mucho tiempo por lo que se automedica con un antiácido que contiene hidróxido de aluminio. Acude a consulta médica y se le indica análisis de laboratorio. ¿Cuál de los siguientes resultados esperaría encontrar?
+   A) Hiponatremia
+   B) Hiperglicemia
+   C) Hipercloremia
+  *D) Hipofosfatemia
+   E) Hipercalcemia
+EXP: La alteración laboratorial que se podría encontrar con el uso crónico e indebido de hidróxido de aluminio es Hipofosfatemia (Opción D). El hidróxido de aluminio puede unirse al fosfato en el intestino y formar un compuesto insoluble, lo que reduce la absorción de fosfato y puede causar hipofosfatemia. Esto puede manifestarse con síntomas como debilidad muscular, fatiga y en casos graves, arritmias cardíacas.
+
+### SP-075 | Prevención de dengue autóctono: participación comunitaria | 2023
+En el ámbito de un centro de salud nivel I-4 se reporta casos importados de dengue y presencia de Aedes aegypti. Si el objetivo del equipo sanitario es evitar que se presenten casos autóctonos de dengue ¿Cuál de las siguientes acciones deberán priorizar?
+  *A) Participación comunitaria
+   B) Examen de laboratorio al personal de salud
+   C) Abastecimiento de antipiréticos
+   D) Vacunación preventiva
+   E) Tratamiento antibiótico a los febriles
+EXP: Si se desea evitar casos autóctonos de dengue la acción que se debe priorizar es la Participación comunitaria (Opción A). La participación activa de la comunidad es esencial para prevenir la propagación de enfermedades transmitidas por vectores como el dengue. Esto implica educar a la comunidad sobre cómo eliminar los criaderos de mosquitos, cómo protegerse de las picaduras de mosquitos y cómo reconocer los síntomas del dengue para buscar atención médica temprana.
+
+### REU-029 | Acné comedoniano leve | 2023
+Niña de 12 años, con acné. Examen: se aprecia aproximadamente 30 comedones en el rostro. ¿Cuál es el grado de severidad?
+  *A) Leve
+   B) Muy grave
+   C) Moderada
+   D) Grave
+   E) Moderadamente grave
+EXP: Niña de 12 años presenta acné caracterizado por aproximadamente 30 comedones distribuidos en el rostro. En la clasificación clínica del acné, el grado leve se define por la presencia de lesiones no inflamatorias como comedones abiertos y cerrados en número limitado (menos de 30), sin compromiso profundo ni inflamatorio. No hay pápulas, pústulas ni nódulos, lo que excluye formas más severas. Esta presentación es frecuente en adolescentes durante la pubertad y suele responder bien a tratamiento tópico. Por tanto, la cantidad y tipo de lesión indican un acné comedoniano leve.
+
+### OFT-025 | Conjuntivitis bacteriana | 2023
+Adolescente de 15 años que desde hace tres días presenta secreción mucopurulenta con formación de legañas en ambos ojos, sensación de cuerpo extraño sin dolor. Examen: Hiperemia marcada, no pérdida de la visión. ¿Cuál es el diagnóstico?
+   A) Dacriocistitis
+   B) Queratitis
+  *C) Conjuntivitis infecciosa
+   D) Queroconjuntivitis
+   E) Uveítis anterior
+EXP: Adolescente con cuadro de tres días de secreción mucopurulenta ocular bilateral, presencia de legañas, sensación de cuerpo extraño sin dolor ni pérdida visual. Este patrón es altamente sugestivo de conjuntivitis infecciosa bacteriana, especialmente por el carácter bilateral, la secreción purulenta y la hiperemia conjuntival marcada. Se descarta dacriocistitis por ausencia de dolor e inflamación en región medial ocular. La queratitis se asocia con dolor ocular e impacto en la agudeza visual. La queroconjuntivitis suele presentar componente alérgico o viral más crónico. En este caso, el cuadro es agudo, clásico y de resolución habitual con antibióticos tópicos.
+
+### INF-054 | Meningitis bacteriana del adulto: neumococo | 2023
+Mujer de 25 años, es llevado a emergencia por presentar hace una semana cefalea, vómitos y somnolencia. Antecedente de resfriado hace una semana. Examen: Glasgow 12, PA 120/70 mmHg, FC 100 X', FR 22 X', T 39ºC. Rigidez de nuca (+). ¿Cuál es el agente etiológico más probable?
+   A) Listeria monocytogenes
+   B) Mycobacterium tuberculosis
+   C) Haemophilus influenzae
+  *D) Streptococcus pneumoniae
+   E) Virus herpes simple
+EXP: La paciente presenta signos clínicos consistentes con meningitis bacteriana, como cefalea, vómitos, somnolencia, rigidez de nuca y fiebre. Entre los agentes etiológicos más comunes de la meningitis bacteriana en adultos se encuentra Streptococcus pneumoniae (Opción D). Streptococcus pneumoniae es una causa común de meningitis bacteriana en adultos, especialmente en personas jóvenes y de mediana edad. Es una bacteria encapsulada grampositiva que puede colonizar la nasofaringe y causar infecciones invasivas, como la meningitis, especialmente en individuos con factores de riesgo, como infecciones respiratorias previas, alcoholismo o enfermedades crónicas.
+
+### GAS-040 | ERGE con síntomas extraesofágicos: IBP | 2023
+Obeso de 45 años, presenta desde hace un año dolor retroesternal atípico, disfagia, pirosis y en las noches "le ronca el pecho y piensa que tiene asma". ¿Cuál es la conducta a seguir?
+   A) Solicitar TEM de tórax con contraste
+  *B) Iniciar inhibidor de la bomba de protones
+   C) Medir el pH gástrico
+   D) Realizar espirometría forzada
+   E) Prueba de esfuerzo
+EXP: El paciente presenta síntomas consistentes con enfermedad por reflujo gastroesofágico (ERGE), que es una condición común en individuos obesos y se manifiesta típicamente con dolor retroesternal (pirosis), disfagia y regurgitación ácida (sensación de "roncar el pecho"). La disfagia y el dolor retroesternal pueden indicar una lesión esofágica por el reflujo ácido crónico. La pirosis es un síntoma cardinal de la ERGE, que se produce cuando el ácido gástrico refluye hacia el esófago. En estos casos, la conducta más apropiada a seguir es Iniciar inhibidor de la bomba de protones (IBP) (Opción B). Los IBP son el tratamiento de primera línea para la ERGE. Actúan inhibiendo la secreción ácida gástrica y proporcionan alivio sintomático eficaz para la pirosis y otros síntomas relacionados con el reflujo ácido. La prescripción de un IBP sería apropiada en este caso, considerando los síntomas del pa
