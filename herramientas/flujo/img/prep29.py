@@ -311,3 +311,28 @@ if hacer("ishihara.jpg"):
 if hacer("chagas_ecg_rx.jpg"):
     # ECG de enseñanza (FA, propio) + megaesófago chagásico con bario (dominio público)
     lado(["ecg_fa.jpg", "megaesofago.jpg"], "chagas_ecg_rx.jpg", 300)
+
+# ── tanda 07
+if hacer("gonococo.jpg"):
+    # Diplococos gramnegativos dentro de un neutrófilo (Graham Beards, CC BY-SA 4.0)
+    guardar(Image.open("orig/gonococo.jpg").convert("RGB").crop((120, 60, 840, 640)), "gonococo.jpg", 440, 85)
+if hacer("kaposi.jpg"):
+    # Sarcoma de Kaposi en la piel (dominio público)
+    guardar(Image.open("orig/kaposi.jpg").convert("RGB"), "kaposi.jpg", 460, 85)
+if hacer("ferruginoso.jpg"):
+    # Cuerpos ferruginosos (de asbesto) en biopsia pulmonar (Nephron, CC BY-SA 3.0)
+    guardar(Image.open("orig/ferruginoso.jpg").convert("RGB").crop((0, 80, 960, 900)), "ferruginoso.jpg", 440, 85)
+if hacer("colera.jpg"):
+    # Heces en «agua de arroz» del cólera (Ajay Kumar Chaurasiya, CC BY-SA 4.0), recipiente ampliado
+    guardar(Image.open("orig/colera.jpg").convert("RGB").crop((380, 380, 860, 920)), "colera.jpg", 360, 88)
+if hacer("ecg_qt_tdp.jpg"):
+    pass   # generado con ecg29.py (qt_largo + torsades)
+if hacer("hidronefrosis.jpg"):
+    # Cálculo ureteral con hidronefrosis, TC (James Heilman, CC BY-SA 3.0); la flecha roja es del autor
+    guardar(Image.open("orig/hidronefrosis.png").convert("RGB").crop((0, 20, 960, 600)), "hidronefrosis.jpg", 460, 85)
+if hacer("bota.jpg"):
+    # Corazón en bota de la tetralogía de Fallot (Medicalpal, CC BY-SA 4.0)
+    guardar(Image.open("orig/bota.jpg").convert("L").crop((0, 80, 960, 1141)), "bota.jpg", 380, 85)
+if hacer("hidrocefalia.jpg"):
+    # Hidrocefalia: ventrículos muy dilatados en la TC (Hellerhoff, CC BY-SA 4.0), corte axial
+    guardar(Image.open("orig/hidrocefalia.jpg").convert("L").crop((0, 0, 480, 460)), "hidrocefalia.jpg", 400, 85)

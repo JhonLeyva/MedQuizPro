@@ -130,6 +130,9 @@ def patrones():
     ant.update({"V1": dict(st=.22, t=.40, r=.08), "V2": dict(st=.38, t=.70, r=.15), "V3": dict(st=.40, t=.75, r=.30),
                 "II": dict(st=-.05), "III": dict(st=-.12, t=-.05), "aVF": dict(st=-.08)})
     P["iam_anterior"] = dict(ritmo_regular(88), deriv=ant, nombre="IMA anterior: ST elevado de V1 a V4")
+    al = {l: dict(st=.35, t=.65) for l in ("V2", "V3", "V4", "V5", "V6", "I", "aVL")}
+    al.update({"V2": dict(st=.40, t=.70, r=.15), "III": dict(st=-.18, t=-.08), "aVF": dict(st=-.12), "II": dict(st=-.06)})
+    P["iam_anterolateral"] = dict(ritmo_regular(92), deriv=al, nombre="IMA anterolateral: ST elevado de V2 a V6, DI y aVL")
     lat = {l: dict(st=.25, t=.50) for l in ("I", "aVL", "V5", "V6")}
     lat.update({"III": dict(st=-.15, t=-.05), "aVF": dict(st=-.10)})
     P["iam_lateral"] = dict(ritmo_regular(84), deriv=lat, nombre="IMA lateral: ST elevado en I, aVL, V5 y V6")

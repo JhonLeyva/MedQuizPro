@@ -229,8 +229,23 @@ def kramer():
     guardar(fig, "dib_kramer.jpg")
 
 
+# ───────────────────────────────────────────────────────── tarjeta colorimétrica de heces (atresia biliar)
+def tarjeta_heces():
+    fig, ax = lienzo(100, 62, "#ffffff")
+    cols = ["#f4f1e6", "#ece4c4", "#e2d79d", "#d9b44a", "#c99a2e", "#9a7b2a", "#6f6a2b"]
+    for i, c in enumerate(cols):
+        x = 4 + i * 13.4
+        ax.add_patch(FancyBboxPatch((x, 14), 11, 24, boxstyle="round,pad=0,rounding_size=2", fc=c, ec="#94a3b8", lw=1.5, zorder=2))
+        rot(ax, x + 5.5, 42, str(i + 1), 19, TINTA)
+    ax.add_patch(FancyBboxPatch((2.5, 11), 39, 37, boxstyle="round,pad=0,rounding_size=2", fc="none", ec=ROJO, lw=4, zorder=3))
+    rot(ax, 22, 6, "1-3: ANORMAL (acolia)", 19, ROJO)
+    rot(ax, 72, 6, "4-7: normal", 19, "#15803d")
+    rot(ax, 50, 56, "heces pálidas después de los 14 días = estudiar atresia biliar", 16, GRIS, "normal")
+    guardar(fig, "dib_tarjeta_heces.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

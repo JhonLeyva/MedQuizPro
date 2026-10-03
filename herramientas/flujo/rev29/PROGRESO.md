@@ -12,3 +12,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 | t04 | content29e.py | hecha, 0 problemas; 13 con imagen (papiledema, tobillo [rótulos en español], oxalato, hidradenitis, oxiuro, cilindro_hematico; propia: dib_coartacion; reutiliza ectopico_tubario, janeway, meningococo, pancreatitis_tc) |
 | t05 | content29f.py | hecha, 0 problemas; 14 con imagen (esporotricosis, diu, tvp, feo_tc, lla_real, gottron; propias: ecg_fv, dib_canal_endemico; reutiliza hsa_tc, glioblastoma, wernicke_flair) |
 | t06 | content29g.py | hecha, 0 problemas; 8 con imagen (graf, hematoma_oreja, petequias, ishihara, chagas_ecg_rx [ECG propio + megaesófago]; propia: dib_kramer; reutiliza ictericia, mola) |
+| t07 | content29h.py | hecha, 0 problemas; 12 con imagen (gonococo, kaposi, ferruginoso, colera, hidronefrosis, bota, hidrocefalia; propias: dib_tarjeta_heces, ecg_qt_tdp, ecg_iam_al) |
