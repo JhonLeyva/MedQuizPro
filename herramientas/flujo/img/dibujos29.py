@@ -244,8 +244,53 @@ def tarjeta_heces():
     guardar(fig, "dib_tarjeta_heces.jpg")
 
 
+# ───────────────────────────────────────────────────────── ángulo de Cobb
+def cobb():
+    fig, ax = lienzo(100, 80, "#ffffff")
+    # columna en S: vértebras como rectángulos inclinados a lo largo de una curva
+    ys = np.linspace(6, 74, 12)
+    xs = 38 + 9 * np.sin((ys - 6) / 68 * np.pi)
+    dx = np.gradient(xs, ys)
+    angs = np.degrees(np.arctan(dx))
+    for i, (x, y, a) in enumerate(zip(xs, ys, angs)):
+        col = "#f1d9b5" if i not in (2, 9) else "#fbbf24"
+        ax.add_patch(Rectangle((x - 6, y - 2.4), 12, 4.8, angle=-a, rotation_point="center", fc=col, ec="#a07b4f", lw=1.8, zorder=3))
+    # líneas por los platillos de las vértebras extremas (2 y 9)
+    for i, c in ((2, AZUL), (9, AZUL)):
+        a = math.radians(-angs[i])
+        x0, y0 = xs[i], ys[i] + (-2.4 if i == 2 else 2.4)
+        ax.plot([x0 - 30 * math.cos(a), x0 + 40 * math.cos(a)], [y0 - 30 * math.sin(a), y0 + 40 * math.sin(a)], color=c, lw=3, zorder=4)
+    rot(ax, 82, 14, "vértebra más\ninclinada arriba", 16, AZUL)
+    rot(ax, 82, 66, "vértebra más\ninclinada abajo", 16, AZUL)
+    rot(ax, 82, 40, "ángulo entre\nlas dos líneas\n= ángulo de Cobb", 18, ROJO)
+    rot(ax, 14, 40, "10-25°: leve\n25-45°: moderada\n> 45°: grave", 16, TINTA, ha="center")
+    guardar(fig, "dib_cobb.jpg")
+
+
+# ───────────────────────────────────────────────────────── bañera: incidencia, prevalencia, salidas
+def banera():
+    fig, ax = lienzo(100, 66, "#ffffff")
+    # grifo (incidencia)
+    ax.add_patch(Rectangle((20, 4), 18, 5, fc="#94a3b8", ec="none", zorder=3))
+    ax.add_patch(Rectangle((34, 9), 4, 8, fc="#94a3b8", ec="none", zorder=3))
+    for k in range(5):
+        ax.add_patch(Circle((36, 20 + k * 3.2), 0.9, fc=AZUL, ec="none", zorder=3))
+    rot(ax, 14, 7, "INCIDENCIA\n(casos nuevos)", 17, AZUL)
+    # bañera (prevalencia)
+    ax.add_patch(Polygon([(18, 34), (82, 34), (78, 58), (22, 58)], closed=True, fc="#e0f2fe", ec="#475569", lw=3, zorder=2))
+    ax.add_patch(Polygon([(19.6, 40), (80.4, 40), (78, 58), (22, 58)], closed=True, fc="#60a5fa", ec="none", alpha=.85, zorder=2.5))
+    rot(ax, 50, 49, "PREVALENCIA\n(todos los enfermos)", 19, "#ffffff")
+    # salidas: curación y muerte
+    ax.annotate("", xy=(92, 60), xytext=(80, 52), arrowprops=dict(arrowstyle="-|>", color="#15803d", lw=3))
+    rot(ax, 91, 47, "curación", 16, "#15803d")
+    ax.annotate("", xy=(8, 60), xytext=(20, 52), arrowprops=dict(arrowstyle="-|>", color=ROJO, lw=3))
+    rot(ax, 9, 47, "muerte\n(letalidad)", 16, ROJO)
+    rot(ax, 71, 15, "Si casi nadie muere\nni se cura (crónica)\ny entran casos nuevos:\nla prevalencia SUBE", 16, TINTA)
+    guardar(fig, "dib_banera.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

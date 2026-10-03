@@ -336,3 +336,14 @@ if hacer("bota.jpg"):
 if hacer("hidrocefalia.jpg"):
     # Hidrocefalia: ventrículos muy dilatados en la TC (Hellerhoff, CC BY-SA 4.0), corte axial
     guardar(Image.open("orig/hidrocefalia.jpg").convert("L").crop((0, 0, 480, 460)), "hidrocefalia.jpg", 400, 85)
+
+# ── tanda 08
+if hacer("strep_petequias.jpg"):
+    # Faringitis estreptocócica con petequias en el paladar blando (CDC/Heinz F. Eichenwald, dominio público)
+    guardar(Image.open("orig/strep_petequias.jpg").convert("RGB"), "strep_petequias.jpg", 440, 85)
+if hacer("tb_miliar.jpg"):
+    # Tuberculosis miliar en la Rx de tórax (Herreros y col., CC BY 4.0), sin la letra del panel
+    guardar(Image.open("orig/tb_miliar.jpg").convert("L").crop((0, 30, 717, 658)), "tb_miliar.jpg", 400, 85)
+if hacer("pavlik.jpg"):
+    # Esquema del arnés de Pavlik (Londenp, CC BY-SA 3.0)
+    guardar(Image.open("orig/pavlik.jpg").convert("RGB"), "pavlik.jpg", 336, 90)
