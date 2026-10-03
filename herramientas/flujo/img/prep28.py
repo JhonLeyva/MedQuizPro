@@ -114,3 +114,17 @@ if hacer("urato.jpg"):
 if hacer("mola.jpg"):
     # Ecografía transvaginal de embarazo molar (Mikael Häggström, CC0): sin los rótulos del equipo
     guardar(Image.open("orig/mola.jpg").convert("L").crop((20, 60, 440, 380)), "mola.jpg", 420, 85)
+
+# ── tanda 09
+if hacer("coraliforme_rx.jpg"):
+    # Rx simple de abdomen con cálculo coraliforme (Nevit Dilmen, CC BY-SA 3.0): solo el riñón y la pelvis renal
+    guardar(Image.open("orig/coraliforme_rx.jpg").convert("L").crop((40, 20, 700, 640)), "coraliforme_rx.jpg", 400, 85)
+if hacer("takotsubo.jpg"):
+    # Ventriculografía izquierda en sístole (Gangadhar et al., CC BY 2.0): sin el borde negro
+    guardar(Image.open("orig/takotsubo.gif").convert("L").crop((40, 120, 930, 920)), "takotsubo.jpg", 420, 85)
+if hacer("chancro.jpg"):
+    # Chancros de sífilis primaria (CDC/M. Rein, dominio público)
+    guardar(Image.open("orig/chancro.jpg").convert("RGB").crop((180, 0, 760, 560)), "chancro.jpg", 400, 85)
+if hacer("aedes.jpg"):
+    # Aedes aegypti alimentándose (John Ragai, CC BY 2.0): recorte al mosquito
+    guardar(Image.open("orig/aedes.jpg").convert("RGB").crop((230, 230, 730, 610)), "aedes.jpg", 420, 85)

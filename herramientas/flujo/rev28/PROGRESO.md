@@ -14,3 +14,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t06 | content28g.py | hecha, 0 problemas |
 | t07 | content28h.py | hecha, 0 problemas |
 | t08 | content28i.py | hecha |
+| t09 | content28j.py | hecha, 0 problemas; imágenes: coraliforme, takotsubo, chancro, aedes |
