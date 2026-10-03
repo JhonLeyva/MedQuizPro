@@ -103,13 +103,19 @@ def fases(s, y, d):
         s.add(f'<path d="{path}" fill="none" stroke="{col}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>')
     # leyenda
     lx = X0 + 18
+    ancho = sum(40 + tw(nm, 10.5, True) for nm, _, _ in d["curvas"])
+    apilar = ancho > colw - 20          # si no cabe en la primera franja, una leyenda debajo de otra
+    ly = y + 40 - (8 if apilar else 0)
     for name, col, _ in d["curvas"]:
-        s.line(lx, y + 40, lx + 22, y + 40, col, 3)
-        s.text(lx + 28, y + 44, name, 10.5, 700, col, "start", 200)
-        lx += 40 + tw(name, 10.5, True)
+        s.line(lx, ly, lx + 22, ly, col, 3)
+        s.text(lx + 28, ly + 4, name, 10.5, 700, col, "start", colw - 70 if apilar else 200)
+        if apilar:
+            ly += 16
+        else:
+            lx += 40 + tw(name, 10.5, True)
     # marcador del caso
     mx = X0 + ans * colw + colw / 2
-    s.line(mx, y + 52, mx, y + gh + 20, AMBER, 2, "5 4")   # empieza bajo el título y la leyenda
+    s.line(mx, y + (ly - y + 8 if apilar and ans == 0 else 52), mx, y + gh + 20, AMBER, 2, "5 4")   # bajo el título y la leyenda
     case_chip(s, mx, y + gh + 14)
     # tarjetas por fase
     ty = y + gh + 58
@@ -205,7 +211,8 @@ def tarjetas(s, y, d):
         hs = []
         for c in row:
             tl = wrap(c["titulo"], w - 40, 14, True)
-            hs.append(46 + len(tl) * 19 + len(c["datos"]) * 30 + 14 + len(wrap(c["pie"], w - 40, 11.5)) * 16 + 16)
+            # alto justo: título, datos, pie y 16 px de margen (antes sobraba aire abajo)
+            hs.append(56 + len(tl) * 19 + len(c["datos"]) * 30 + len(wrap(c["pie"], w - 40, 11.5)) * 16)
         h = max(hs)
         for ci, c in enumerate(row):
             idx = ri * per + ci

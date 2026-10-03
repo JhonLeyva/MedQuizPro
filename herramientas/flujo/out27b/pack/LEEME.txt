@@ -1,0 +1,52 @@
+MedQuizPro · 4 ejemplos: sin espacio vacío y con clasificaciones oficiales
+=========================================================================
+
+Qué cambió
+----------
+1. Sin espacio en blanco junto a la imagen.
+   Antes, en «Así se ve en este caso», la imagen era alta y las notas cortas: quedaba un
+   hueco blanco grande. Ahora:
+   - cada nota tiene un título y una explicación;
+   - la foto se agranda o se achica (sin deformarse) para acompañar el alto de las notas;
+   - las notas se reparten todo el alto, sin dejar hueco;
+   - el verificador rechaza el flujograma si todavía queda un hueco.
+2. Clasificaciones y escalas con su nombre oficial.
+   Un bloque nuevo «Clasificación oficial» muestra el nombre (Page, FAB, Tokio...),
+   todos sus grados con sus criterios y el grado del caso marcado con «ESTE CASO».
+   Debajo explica por qué el caso cae ahí (✓ lo que cumple, ✕ lo que lo descarta del
+   grado vecino) y la conducta que corresponde a ese grado.
+   El color de cada grado va de verde (leve) a rojo (grave).
+3. La Rx dibujada del dengue se cambió por una Rx real de edema pulmonar.
+
+Los 4 ejemplos
+--------------
+  1. GIN-255 · DPP con feto vivo comprometido (grado II de Page): cesárea de emergencia
+     → Clasificación de Page (desprendimiento de placenta)
+  2. HEM-047 · Blastos con gránulos azurófilos: los bastones de Auer confirman el linaje mieloide
+     → Clasificación FAB de la leucemia mieloide aguda (M0-M7)
+  3. INF-124 · Disnea con crepitantes 48 h después de la defervescencia: edema pulmonar por sobrecarga de fluidos
+     → Clasificación del dengue OPS/OMS y grupos MINSA (A, B1, B2, C)
+  4. GAS-054 · Fiebre, ictericia y dolor con colédoco de 15 mm: colangitis aguda
+     → Guías de Tokio 2018: gravedad de la colangitis (grado I, II, III)
+
+Notas
+-----
+- En el DPP, la clasificación de Page muestra que el caso es grado II (feto vivo con sufrimiento):
+  el grado III exige feto muerto. El título se ajustó a eso.
+- En la LMA, los bastones de Auer ubican el caso entre M1 y M4; el subtipo exacto lo da la
+  citometría de flujo y la genética.
+- En la colangitis, con los datos que da la pregunta el caso es grado I (solo cumple 1 criterio de grado II).
+
+Cómo instalar
+-------------
+Copiar flujogramas/ y algoritmos.js sobre los del sitio (los nombres de archivo no cambian;
+algoritmos.js solo actualiza el título del DPP). En vistas/ hay un PNG de cada uno.
+
+Imágenes (Wikimedia Commons)
+----------------------------
+- Desprendimiento de placenta, pieza quirúrgica · Mikael Häggström · CC0
+- Bastón de Auer · AFIP · dominio público
+- Edema pulmonar agudo, Rx AP portátil · Frank Gaillard y Jeremy Jones (Radiopaedia) · CC BY-SA 3.0
+  (se borró el rótulo de la hora y se recortó)
+- Colangiorresonancia con coledocolitiasis · Hellerhoff · CC BY-SA 3.0 (se borraron flechas y letras del autor)
+Las imágenes son de otros pacientes con el mismo hallazgo; así se indica bajo cada una.

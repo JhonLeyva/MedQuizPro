@@ -9,6 +9,7 @@ from engine4 import LAYOUTS4
 from engine5 import LAYOUTS5, panel, ORANGE, GREEN, GREEN_L, RED, RED_L
 import engine6
 from engine6 import LAYOUTS6, foto, credito, card6, fila_cards
+from engine8 import escala
 
 VIEJOS = {"arbol", "radial", "fases", "termometro", "tarjetas", "embudo", "puntaje", "matriz"}
 
@@ -39,38 +40,85 @@ def _img_draw(s, x, y, im):
 
 
 # ════════════════════════════════════════════════════════════ FRANJA «IMAGEN DEL CASO»
+AVISOS = []      # huecos detectados al construir (build27 los trata como error)
+
+
+def _nota(n, w):
+    """Una nota es texto o (título, detalle). Devuelve (líneas del título, líneas del detalle)."""
+    if isinstance(n, (tuple, list)):
+        t, d = n
+        return wrap(t, w, 13, True), (wrap(d, w, 12.5) if d else [])
+    return [], wrap(n, w, 13)
+
+
+def _nota_alto(tl, dl):
+    return len(tl) * 18 + len(dl) * 17 + (4 if tl and dl else 0)
+
+
 def banda(s, y, b):
-    """Imagen a la izquierda y notas numeradas a la derecha (qué se ve y por qué importa)."""
+    """Imagen a la izquierda y notas numeradas a la derecha (qué se ve y por qué importa).
+    Sin espacio vacío: la foto se ajusta al alto de las notas y las notas se reparten todo el alto."""
     y = section(s, y + 6, b.get("rotulo", "Así se ve en este caso"))
+    GAP = 8
+
+    tit = b["titulo"].upper()
+
+    def medir(im):
+        # el panel nunca es más angosto que su título ni que el crédito (si no, se salen)
+        cred = wrap(im.get("credito", ""), 430, 9.5) if im.get("credito") else []
+        PW = max(im["W"] + 28, tw(tit, 10, True) + 48, (max(tw(c, 9.5) for c in cred) + 30) if cred else 0)
+        x = X0 + PW + 20
+        w = X1 - x
+        cu = [_nota(n, w - 60) for n in b["notas"]]
+        nat = [max(44, _nota_alto(tl, dl) + 26) for tl, dl in cu]
+        nh = sum(nat) + GAP * (len(nat) - 1)
+        pie_l = wrap(b["pie"], PW - 28, 11) if b.get("pie") else []
+        PH = 38 + im["H"] + len(cred) * 13 + (5 if cred else 0) + (8 + len(pie_l) * 15 if pie_l else 0) + 14
+        return PW, x, w, cu, nat, nh, pie_l, PH, cred
+
     im = b["img"]
-    PW = im["W"] + 28
-    ih = _img_h(im, im["W"])
-    x = X0 + PW + 22
-    w = X1 - x
-    nl = []
-    for i, n in enumerate(b["notas"]):
-        nl.append(wrap(n, w - 44, 12))
-    nh = sum(len(l) * 17 + 14 + 7 for l in nl) - 7
-    tl = wrap(b["titulo"], PW - 60, 10, True)
-    H = max(40 + ih + 12 + (len(wrap(b.get("pie", ""), PW - 28, 11)) * 15 if b.get("pie") else 0) + 10, nh + 10)
+    PW, x, w, cu, nat, nh, pie_l, PH, cred = medir(im)
+    if im.get("foto"):
+        # La foto crece o se achica (sin deformarse) para acompañar el alto de las notas.
+        obj = nh / 0.72 if nh < 0.72 * PH else max(nh, PH)
+        k = (obj - (PH - im["H"])) / im["H"]
+        k = max(0.8, min(k, 1.35, 430 / im["W"]))   # nunca tan chica que no se lea
+        if abs(k - 1) > 0.03:
+            im = {**im, "W": im["W"] * k, "H": im["H"] * k}
+            PW, x, w, cu, nat, nh, pie_l, PH, cred = medir(im)
+    H = max(PH, nh)
+    if nh < 0.6 * H or PH < 0.6 * H:
+        AVISOS.append(f"franja con hueco: notas {nh:.0f}px, imagen {PH:.0f}px, alto {H:.0f}px")
+    # panel de la imagen (centrado en vertical si las notas son más altas)
     s.rect(X0, y, PW, H, "#ffffff", LINE, 1.5, rx=12)
-    s.rect(X0 + 12, y + 10, min(tw(b["titulo"].upper(), 10, True) + 18, PW - 24), 20, TEAL_L, TEAL_B, 1, rx=10)
-    s.text(X0 + 21, y + 24, b["titulo"].upper(), 10, 800, TEAL, "start", PW - 42)
-    _img_draw(s, X0 + 14, y + 38, im)
-    if b.get("pie"):
-        pl = wrap(b["pie"], PW - 28, 11)
-        s.text(X0 + 14, y + 38 + ih + 16, pl, 11, 600, SLATE, "start", PW - 28, lh=15)
+    s.rect(X0 + 12, y + 10, min(tw(tit, 10, True) + 18, PW - 24), 20, TEAL_L, TEAL_B, 1, rx=10)
+    s.text(X0 + 21, y + 24, tit, 10, 800, TEAL, "start", PW - 42)
+    off = (H - PH) / 2
+    iy = y + 38 + off
+    imagen(s, X0 + (PW - im["W"]) / 2, iy, im)
+    iy += im["H"]
+    if cred:
+        s.text(X0 + 14, iy + 14, cred, 9.5, 500, MUTED, "start", PW - 28, lh=13, italic=True)
+        iy += len(cred) * 13 + 5
+    if pie_l:
+        s.text(X0 + 14, iy + 18, pie_l, 11, 600, SLATE, "start", PW - 28, lh=15)
+    # notas: se reparten el alto completo, con el contenido centrado
+    extra = (H - nh) / len(nat)
     cy = y
-    for i, l in enumerate(nl):
-        # La insignia numerada queda entera dentro de su nota (antes se salía por abajo).
-        h = len(l) * 17 + 14
+    for i, ((tl, dl), h0) in enumerate(zip(cu, nat)):
+        h = h0 + extra
         on = i == b.get("ans", -1)
         s.rect(x, cy, w, h, TEAL_L if on else "#f8fafc", TEAL if on else LINE, 1.8 if on else 1.2, rx=10)
-        s.circle(x + 18, cy + 15.5, 9.5, ORANGE if b.get("numeros", True) else TEAL)
-        s.text(x + 18, cy + 19.5, str(i + 1), 11, 800, "#ffffff", maxw=0)
-        s.text(x + 36, cy + 20, l, 12, 600 if on else 400, TEAL_D if on else "#334155", "start", w - 44, lh=17)
-        cy += h + 7
-    return y + max(H, cy - 7 - y)
+        s.circle(x + 22, cy + h / 2, 11, ORANGE if b.get("numeros", True) else TEAL)
+        s.text(x + 22, cy + h / 2 + 4, str(i + 1), 11.5, 800, "#ffffff", maxw=0)
+        top = cy + (h - _nota_alto(tl, dl)) / 2
+        if tl:
+            s.text(x + 44, top + 13.5, tl, 13, 800, TEAL_D if on else INK, "start", w - 60, lh=18)
+        if dl:
+            s.text(x + 44, top + (len(tl) * 18 + 4 if tl else 0) + 13, dl, 12.5, 600 if (on and not tl) else 400,
+                   TEAL_D if (on and not tl) else "#334155", "start", w - 60, lh=17)
+        cy += h + GAP
+    return y + H
 
 
 # ════════════════════════════════════════════════════════════ TRÍADAS / TÉTRADAS / PÉNTADAS
@@ -383,6 +431,8 @@ def build7(spec):
             y, _ = top_row(s, y, spec["tema"], spec["caso"], "Marca dónde cae este caso", "rombo")
         L = {**LAYOUTS4, **LAYOUTS5, **LAYOUTS6, **LAYOUTS7}
         y = L[tipo](s, y + 8, spec["d"])
+    if spec.get("escala"):
+        y = escala(s, y + 20, spec["escala"])
     if spec.get("banda"):
         y = banda(s, y + 20, spec["banda"])
     if spec.get("triada"):

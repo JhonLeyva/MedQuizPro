@@ -74,6 +74,18 @@ def m_flecha(s, x, y, w, h, fx, fy, lx, ly, texto, color=YEL):
     _punta(s, sx, sy, tx, ty, color)
 
 
+def m_flechas(s, x, y, w, h, puntos, lx, ly, texto, color=YEL):
+    """Un rótulo con varias flechas (p. ej. el mismo hallazgo en ambos pulmones)."""
+    bx, by, bw, bh = _etq(s, x, y, w, h, x + lx * w, y + ly * h, texto, color)
+    for fx, fy in puntos:
+        tx, ty = x + fx * w, y + fy * h
+        sx = min(max(tx, bx), bx + bw)
+        sy = by + bh if ty > by + bh else (by if ty < by else by + bh / 2)
+        if by <= ty <= by + bh:
+            sx = bx if tx < bx else bx + bw
+        _punta(s, sx, sy, tx, ty, color)
+
+
 def m_circulo(s, x, y, w, h, fx, fy, fr, texto=None, lx=None, ly=None, color=YEL):
     """Círculo discontinuo sobre la zona; rótulo opcional unido al borde."""
     cx, cy, r = x + fx * w, y + fy * h, fr * w
@@ -116,7 +128,7 @@ def m_texto(s, x, y, w, h, fx, fy, texto, color=YEL):
     _etq(s, x, y, w, h, x + fx * w, y + fy * h, texto, color)
 
 
-MARCAS = {"flecha": m_flecha, "circulo": m_circulo, "corchete": m_corchete, "caja": m_caja, "texto": m_texto}
+MARCAS = {"flecha": m_flecha, "flechas": m_flechas, "circulo": m_circulo, "corchete": m_corchete, "caja": m_caja, "texto": m_texto}
 
 
 def card6(s, x, y, w, titulo, lines, on=False, color=TEAL, tag=None, fs=11.5, hmin=0, dry=False):

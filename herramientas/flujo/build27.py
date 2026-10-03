@@ -4,6 +4,7 @@ Uso: python3 build27.py <salida> [ID ...]   → <salida>/flujogramas + <salida>/
 Sin IDs construye todo F27; con IDs, solo esos (pueden ser de F27 o de F26)."""
 import xml.etree.ElementTree as ET
 import os, sys, json, shutil, importlib, re
+import engine7
 from engine7 import build7
 from c26 import F26
 from c27 import F27
@@ -28,7 +29,9 @@ for i in ids:
     # Se reemplaza el archivo ya publicado: mismo nombre, para que la app lo siga encontrando.
     assert publicado.get(i) == f["archivo"], f"{i}: el nombre no coincide con el publicado ({publicado.get(i)})"
     assert re.fullmatch(r"[a-z0-9-]+", f["archivo"]), "nombre no ASCII: " + f["archivo"]
+    engine7.AVISOS.clear()
     svg = build7(f)
+    assert not engine7.AVISOS, f"{i}: " + "; ".join(engine7.AVISOS)
     assert "RESPUESTA" not in svg.upper(), "palabra prohibida en " + i
     try:
         ET.fromstring(svg)
