@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Feedback Clínico MedQuizPlus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;700&family=Lexend:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="mqp-feedback.css">
+</head>
+<body>
+<main class="wrap">
+  <div class="demo">
+    <div class="demo-brand"><b>MedQuizPlus</b><span>Prototipo · feedback visual que aparece después de responder una pregunta</span></div>
+    <div class="demo-row">
+      <span class="demo-label">Tarjeta</span>
+      <div class="tabs" role="tablist" id="card-tabs"></div>
+    </div>
+    <div class="demo-row">
+      <span class="demo-label">Simular respuesta del estudiante</span>
+      <div class="letters" id="sel-letters" role="group" aria-label="Respuesta simulada"></div>
+    </div>
+    <p class="demo-note">En la plataforma, la respuesta llega sola desde el quiz. Aquí puedes cambiarla para ver cómo responde el módulo a cada alternativa.</p>
+  </div>
+  <div id="fb-root"></div>
+</main>
+
+<script src="mqp-feedback.js"></script>
+<script src="cards/p0008.js"></script>
+<script src="cards/p0654.js"></script>
+<script>
+(function () {
+  var cards = MQPFeedback.cards();
+  // Respuesta simulada por defecto: un error en la tarjeta 1 y un acierto en la 2.
+  var defaults = { p0008: "C", p0654: "A" };
+  var current = null, view = null;
+  var tabs = document.getElementById("card-tabs");
+  var letters = document.getElementById("sel-letters");
+  var root = document.getElementById("fb-root");
+
+  function savedMode() { try { return localStorage.getItem("mqp-mode") || "learn"; } catch (e) { return "learn"; } }
+
+  function show(id) {
+    current = cards.filter(function (c) { return c.id === id; })[0] || cards[0];
+    tabs.innerHTML = cards.map(function (c, i) {
+      return '<button type="button" role="tab" data-card="' + c.id + '" aria-selected="' + (c === current) + '">' +
+        (i + 1) + ". " + c.especialidad + " · P" + c.numero + "</button>";
+    }).join("");
+    var sel = defaults[current.id];
+    drawLetters(sel);
+    view = MQPFeedback.render(root, current, { seleccion: sel, modo: savedMode() });
+    if (location.hash.slice(1) !== current.id) history.replaceState(null, "", "#" + current.id);
+  }
+  function drawLetters(sel) {
+    letters.innerHTML = current.alternativas.map(function (a) {
+      return '<button type="button" data-sel="' + a.letra + '" aria-pressed="' + (a.letra === sel) + '">' + a.letra + "</button>";
+    }).join("") + '<button type="button" data-sel="" aria-pressed="' + (!sel) + '">Sin dato</button>';
+  }
+  tabs.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-card]");
+    if (b) show(b.dataset.card);
+  });
+  letters.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-sel]");
+    if (!b) return;
+    var sel = b.dataset.sel || null;
+    defaults[current.id] = sel;
+    drawLetters(sel);
+    view.setSeleccion(sel);
+  });
+  show(location.hash.slice(1) || cards[0].id);
+})();
+</script>
+</body>
+</html>
