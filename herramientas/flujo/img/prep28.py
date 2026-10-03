@@ -162,3 +162,14 @@ if hacer("mieloma_craneo.jpg"):
 if hacer("paracocci.jpg"):
     # Paracoccidioides brasiliensis en tejido, tinción de plata (CDC/Dr. Lucille K. Georg, dominio público)
     guardar(Image.open("orig/paracocci.jpg").convert("RGB").crop((200, 80, 800, 628)), "paracocci.jpg", 360, 85)
+
+# ── tanda 15
+if hacer("impetigo.jpg"):
+    # Impétigo con costras melicéricas en el codo (Evanherk, CC BY-SA 3.0): sin la barra negra del borde
+    guardar(Image.open("orig/impetigo.jpg").convert("RGB").crop((40, 80, 800, 960)), "impetigo.jpg", 330, 85)
+if hacer("tina_capitis.jpg"):
+    # Tiña de la cabeza en un niño (Gzzz, CC BY-SA 4.0): solo el cuero cabelludo
+    guardar(Image.open("orig/tina_capitis.jpg").convert("RGB").crop((40, 20, 940, 760)), "tina_capitis.jpg", 400, 85)
+if hacer("paroniquia.jpg"):
+    # Paroniquia crónica (Daifallah M. Al Aboud, CC BY 4.0): la uña y el pliegue proximal
+    guardar(Image.open("orig/paroniquia.jpg").convert("RGB").crop((0, 250, 500, 741)), "paroniquia.jpg", 320, 85)
