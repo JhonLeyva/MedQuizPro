@@ -19,3 +19,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t11 | content28l.py | hecha, 0 problemas; imágenes: cripto, amiloide; motor: «fases» sin curvas en franja compacta (sin recuadros vacíos) |
 | t12 | content28m.py | hecha, 0 problemas; imágenes: piloro, uip_tc (+ escabiosis reutilizada) |
 | t13 | content28n.py | hecha, 0 problemas; imagen: cullen (+ oma reutilizada) |
+| t14 | content28o.py | hecha, 0 problemas; imágenes: mieloma_craneo, paracocci (+ esquistocitos, wernicke_flair); NRL-013 y HEM-009 rehechos con notas título+detalle |

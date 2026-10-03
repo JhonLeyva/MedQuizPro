@@ -154,3 +154,11 @@ if hacer("uip_tc.jpg"):
 if hacer("cullen.jpg"):
     # Signo de Cullen en pancreatitis aguda alcohólica (Herbert L. Fred y Hendrik A. van Dijk, CC BY 2.0): sin el marco blanco
     guardar(Image.open("orig/cullen.jpg").convert("RGB").crop((15, 12, 490, 305)), "cullen.jpg", 420, 85)
+
+# ── tanda 14
+if hacer("mieloma_craneo.jpg"):
+    # Rx lateral de cráneo con lesiones líticas en sacabocado (Medicalpal, CC BY-SA 4.0): solo la bóveda, sin los textos sobreimpresos
+    guardar(Image.open("orig/osteoliticas.jpg").convert("L").crop((215, 15, 800, 400)), "mieloma_craneo.jpg", 420, 85)
+if hacer("paracocci.jpg"):
+    # Paracoccidioides brasiliensis en tejido, tinción de plata (CDC/Dr. Lucille K. Georg, dominio público)
+    guardar(Image.open("orig/paracocci.jpg").convert("RGB").crop((200, 80, 800, 628)), "paracocci.jpg", 360, 85)
