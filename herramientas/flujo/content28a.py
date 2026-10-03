@@ -1,23 +1,8 @@
 """Entrega 1 · tanda 00 (25 flujogramas)."""
 from c28 import S, P, B, Q, L, TR, NELSON, ATLS, HARRISON, WILLIAMS, MINSA, ACOG, AAP, OMS, IDSA
+from esc28 import HTA_EMB
 
 CC = " · Wikimedia Commons · "
-
-# Clasificación de los trastornos hipertensivos del embarazo (se usa en GIN-004 y GIN-005)
-def HTA_EMB(caso, porque, conducta):
-    return dict(nombre="Trastornos hipertensivos del embarazo", orden=False,
-                que="Clasificación ACOG 2020 / ISSHP 2021: PA ≥ 140/90 en dos tomas separadas por 4 horas.",
-                grados=[("Antes de las 20 sem", "Hipertensión crónica", ["Previa al embarazo o antes de las 20 semanas",
-                                                                       "Persiste más de 12 semanas posparto"]),
-                        ("Desde las 20 sem", "Hipertensión gestacional", ["Sin proteinuria", "Sin daño de órganos",
-                                                                         "Laboratorio normal"]),
-                        ("Desde las 20 sem", "Preeclampsia", ["Con proteinuria ≥ 300 mg/24 h, o", "con daño de órganos aunque no haya proteinuria",
-                                                             "Sin criterios de severidad"]),
-                        ("Desde las 20 sem", "Preeclampsia con severidad", ["PA ≥ 160/110", "Plaquetas < 100 000", "Transaminasas ≥ 2 veces lo normal",
-                                                                           "Creatinina > 1,1 mg/dL", "Edema pulmonar, cefalea o visión alterada"]),
-                        ("Complicaciones", "Eclampsia y HELLP", ["Eclampsia: convulsión", "HELLP: hemólisis (DHL ≥ 600), transaminasas altas y plaquetas < 100 000"])],
-                caso=caso, porque=porque, conducta=conducta)
-
 
 # OFT-002 · Quemadura química ocular · ÁRBOL + clasificación de Roper-Hall
 S("arbol", "OFT-002", "Ácido en el ojo: irrigar de inmediato, antes de cualquier otra cosa",

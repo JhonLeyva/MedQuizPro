@@ -1,18 +1,8 @@
 """Entrega 1 · tanda 01 (25 flujogramas)."""
 from c28 import S, P, B, Q, L, TR, NELSON, ATLS, HARRISON, WILLIAMS, MINSA, ACOG, AAP, OMS, IDSA, ADA
+from esc28 import ITU
 
 CC = " · Wikimedia Commons · "
-
-
-def ITU(caso, porque, conducta):
-    """Clasificación clínica de la infección urinaria (EAU 2024)."""
-    return dict(nombre="Clasificación de la infección urinaria", orden=True,
-                que="Guía EAU 2024: separa la infección baja, la alta y la complicada para elegir dónde y cómo tratar.",
-                grados=[("Sin síntomas", "Bacteriuria asintomática", ["Urocultivo positivo sin síntomas", "Tratar solo en gestantes y antes de cirugía urológica"]),
-                        ("ITU baja", "Cistitis", ["Disuria, polaquiuria, urgencia", "Sin fiebre ni dolor lumbar"]),
-                        ("ITU alta", "Pielonefritis", ["Fiebre, escalofríos", "Dolor lumbar, puño percusión (+)", "Náuseas y vómitos"]),
-                        ("Grave", "Urosepsis", ["Hipotensión o falla de órganos", "Obstrucción o absceso"])],
-                caso=caso, porque=porque, conducta=conducta)
 
 
 # GIN-007 · Pielonefritis en la gestante · ÁRBOL + clasificación de la ITU
