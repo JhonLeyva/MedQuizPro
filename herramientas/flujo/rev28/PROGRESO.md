@@ -12,3 +12,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t04 | content28e.py | hecha, 0 problemas; esc28.py con clasificaciones compartidas |
 | t05 | content28f.py | hecha, 0 problemas |
 | t06 | content28g.py | hecha, 0 problemas |
+| t07 | content28h.py | hecha, 0 problemas |

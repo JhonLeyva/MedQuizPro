@@ -104,3 +104,8 @@ if hacer("invaginacion_eco.jpg"):
 if hacer("leish.jpg"):
     # Úlcera de leishmaniasis cutánea con regla (Layne Harris, dominio público)
     guardar(Image.open("orig/leish.jpg").convert("RGB"), "leish.jpg", 420, 85)
+
+# ── tanda 07
+if hacer("urato.jpg"):
+    # Cristales de urato monosódico con luz polarizada y compensador rojo (Gabriel Caponetti, CC BY-SA 3.0)
+    guardar(Image.open("orig/urato.jpg").convert("RGB").crop((120, 60, 900, 660)), "urato.jpg", 460, 85)
