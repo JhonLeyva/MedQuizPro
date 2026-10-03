@@ -99,3 +99,8 @@ if hacer("iam_inferior.jpg"):
 if hacer("invaginacion_eco.jpg"):
     # Invaginación intestinal, ecografía con signo de la diana (Kalumet, CC BY-SA 3.0)
     guardar(Image.open("orig/invag2.jpg").convert("L").crop((40, 0, 920, 766)), "invaginacion_eco.jpg", 440, 85)
+
+# ── tanda 05
+if hacer("leish.jpg"):
+    # Úlcera de leishmaniasis cutánea con regla (Layne Harris, dominio público)
+    guardar(Image.open("orig/leish.jpg").convert("RGB"), "leish.jpg", 420, 85)

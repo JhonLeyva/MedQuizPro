@@ -44,3 +44,30 @@ def GLASGOW_TEC(caso, porque, conducta):
                         ("Glasgow 9-12", "Moderado", ["TC siempre", "Hospitalizar, neurocirugía"]),
                         ("Glasgow ≤ 8", "Grave", ["Intubar", "TC y neurocirugía urgente"])],
                 caso=caso, porque=porque, conducta=conducta)
+
+
+def DENGUE(caso, porque, conducta, porque_titulo="Por qué el caso cae aquí"):
+    """Clasificación del dengue OPS/OMS con los grupos de manejo del MINSA."""
+    return dict(nombre="Clasificación del dengue (OPS/OMS)",
+                que="Ordena el dengue por gravedad; el MINSA la usa para decidir dónde tratar (grupos A, B1, B2 y C).",
+                grados=[("Grupos A y B1", "Dengue sin signos de alarma",
+                         ["Fiebre + 2 de: náuseas, exantema, mialgias, cefalea o dolor retroocular, petequias, leucopenia",
+                          "A: en casa · B1: observar si hay comorbilidad o riesgo social"]),
+                        ("Grupo B2", "Dengue con signos de alarma",
+                         ["Dolor abdominal intenso y continuo", "Vómitos persistentes", "Líquido acumulado o sangrado de mucosas",
+                          "Letargia, hepatomegalia o hematocrito que sube"]),
+                        ("Grupo C", "Dengue grave",
+                         ["Choque o dificultad respiratoria por fuga de plasma", "Sangrado grave", "Daño grave de órganos"])],
+                caso=caso, porque=porque, porque_titulo=porque_titulo, conducta=conducta)
+
+
+def ABORTO(caso, porque, conducta):
+    """Formas clínicas del aborto."""
+    return dict(nombre="Formas clínicas del aborto", orden=True,
+                que="Se definen por el cuello, el sangrado y la ecografía.",
+                grados=[("Cuello cerrado", "Amenaza de aborto", ["Sangrado escaso", "Embrión vivo"]),
+                        ("Cuello abierto", "Inevitable o en curso", ["Sangrado y dolor", "Membranas rotas o restos en el cuello"]),
+                        ("Cuello abierto", "Incompleto", ["Salieron parte de los restos", "Sangrado persistente"]),
+                        ("Cuello cerrado", "Completo", ["Útero vacío", "Sangrado que cede"]),
+                        ("Cuello cerrado", "Retenido (frustro)", ["Embrión sin latido o saco vacío", "Sin expulsión"])],
+                caso=caso, porque=porque, conducta=conducta)
