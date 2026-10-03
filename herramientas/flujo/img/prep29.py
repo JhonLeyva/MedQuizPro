@@ -232,3 +232,31 @@ if hacer("ulcera_endo.jpg"):
     bg = Image.new("RGBA", a.size, "black")
     bg.alpha_composite(a)
     guardar(bg.convert("RGB").crop((0, 0, 330, 330)), "ulcera_endo.jpg", 330, 88)
+
+# ── tanda 04
+if hacer("cilindro_hematico.jpg"):
+    # Cilindro hemático en el sedimento (Mohsenin, CC BY 4.0), panel d ampliado
+    im = Image.open("orig/cilindros4.jpg").convert("RGB").crop((272, 152, 498, 296))
+    guardar(im.resize((im.width * 2, im.height * 2), Image.LANCZOS), "cilindro_hematico.jpg", 440, 88)
+if hacer("papiledema.jpg"):
+    # Papiledema grave (Bansal, Dabbs y Long, CC BY 2.0)
+    guardar(Image.open("orig/papiledema.jpg").convert("RGB").crop((40, 0, 460, 375)), "papiledema.jpg", 420, 85)
+if hacer("tobillo.jpg"):
+    # Ligamentos del tobillo, rótulos en español (Servier Medical Art, CC BY 4.0)
+    a = Image.open("orig/tobillo.png").convert("RGBA")
+    bg = Image.new("RGBA", a.size, "white")
+    bg.alpha_composite(a)
+    guardar(bg.convert("RGB"), "tobillo.jpg", 560, 88)
+if hacer("oxalato.jpg"):
+    # Cristales de oxalato de calcio en orina (NASA/JSC, dominio público), zona central ampliada
+    im = Image.open("orig/oxalato.jpg").convert("RGB").crop((120, 0, 420, 215))
+    guardar(im.resize((im.width * 3 // 2, im.height * 3 // 2), Image.LANCZOS), "oxalato.jpg", 450, 88)
+if hacer("coartacion.jpg"):
+    # Coartación de aorta (BruceBlaus, CC BY-SA 4.0), panel superior
+    guardar(Image.open("orig/coartacion.png").convert("RGB").crop((0, 0, 330, 450)), "coartacion.jpg", 330, 88)
+if hacer("hidradenitis.jpg"):
+    # Hidradenitis supurativa Hurley II en la axila (Alharbi et al., CC BY 2.5); sin la oreja
+    guardar(Image.open("orig/hidradenitis.jpg").convert("RGB").crop((60, 200, 500, 662)), "hidradenitis.jpg", 400, 85)
+if hacer("oxiuro.jpg"):
+    # Huevo de Enterobius vermicularis (Ajay Kumar Chaurasiya, CC BY 4.0)
+    guardar(Image.open("orig/oxiuro.jpg").convert("RGB").crop((300, 0, 960, 420)), "oxiuro.jpg", 440, 85)

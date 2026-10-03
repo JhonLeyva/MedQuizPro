@@ -148,8 +148,33 @@ def hernia_inguinal():
     guardar(fig, "dib_hernia_inguinal.jpg")
 
 
+# ───────────────────────────────────────────────────────── coartación de aorta
+def coartacion():
+    fig, ax = lienzo(100, 72, "#ffffff")
+    R_ = "#d64545"
+    # corazón
+    ax.add_patch(Ellipse((22, 54), 26, 22, fc="#f2b8b5", ec="#b84a4a", lw=2.5, zorder=2))
+    rot(ax, 22, 56, "corazón", 21, "#7f1d1d")
+    # aorta ascendente, cayado y descendente con estrechez
+    t = np.linspace(math.pi, 0, 60)
+    xs, ys = 40 + 16 * np.cos(t), 26 - 14 * np.sin(t)
+    ax.plot([26, 24], [44, 28], color=R_, lw=16, solid_capstyle="round", zorder=3)
+    ax.plot(xs, ys, color=R_, lw=16, solid_capstyle="round", zorder=3)
+    ax.plot([56, 56], [26, 40], color=R_, lw=16, solid_capstyle="butt", zorder=3)
+    ax.plot([56, 56], [40, 45], color=R_, lw=5, solid_capstyle="butt", zorder=3)        # estrechez
+    ax.plot([56, 56], [45, 70], color=R_, lw=16, solid_capstyle="butt", zorder=3)
+    # ramas a la cabeza y brazos
+    for x0 in (32, 40, 48):
+        ax.plot([x0, x0 - 2], [14, 3], color=R_, lw=7, zorder=2, solid_capstyle="round")
+    ax.annotate("", xy=(52, 42.5), xytext=(68, 42.5), arrowprops=dict(arrowstyle="-|>", color=TINTA, lw=3), zorder=6)
+    rot(ax, 69, 42.5, "ESTRECHEZ\ntras la subclavia\nizquierda", 17, TINTA, ha="left")
+    rot(ax, 58, 7, "brazos: pulso FUERTE,\nPA alta", 17, "#15803d", ha="left")
+    rot(ax, 60, 64, "piernas: pulso DÉBIL,\nPA baja", 17, ROJO, ha="left")
+    guardar(fig, "dib_coartacion.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

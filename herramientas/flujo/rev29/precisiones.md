@@ -5,3 +5,6 @@
 - PSI-016: con 3 meses de síntomas el DSM-5-TR lo llamaría trastorno esquizofreniforme y ya no usa el subtipo «paranoide»; entre las opciones, la clave sigue siendo la mejor.
 - HEM-015: «Hb 1 g/dL» del enunciado es casi seguro un error de transcripción; no cambia el razonamiento.
 - PED-080: hoy la dieta sin fenilalanina se recomienda de por vida, no solo hasta la adolescencia.
+- TRA-015: en la inversión el primer ligamento que se rompe es el peroneoastragalino anterior; entre las opciones solo el calcaneoperoneo es del complejo lateral, por eso es la clave.
+- GAS-033: la «hidratación agresiva» hoy se reserva para el choque (bolos guiados por metas, WATERFALL 2022); sin choque se hidrata en forma moderada.
+- INF-040: la quimioprofilaxis con ciprofloxacino es una dosis única (no 7 días).
