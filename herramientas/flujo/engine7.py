@@ -162,6 +162,7 @@ def triada(s, y, t):
         lab = f"{nombre.upper()} · {pres} de {tot} en el caso" if estado else nombre.upper()
         lw = tw(lab, 10.5, True) + 22
         lx = (xa + xb) / 2
+        lx = min(max(lx, X0 + 10 + lw / 2), X1 - 10 - lw / 2)   # un grupo de una sola tarjeta: el rótulo no sale del recuadro
         s.rect(lx - lw / 2, gy - 12, lw, 24, TEAL_L if pres == tot else "#f1f5f9", col, 1.4, rx=12)
         s.text(lx, gy + 4, lab, 10.5, 800, TEAL_D if pres == tot else SLATE, maxw=lw - 14)
     for i, (nl, dl, pres) in enumerate(cuerpos):

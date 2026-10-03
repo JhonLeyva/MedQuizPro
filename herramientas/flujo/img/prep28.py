@@ -128,3 +128,8 @@ if hacer("chancro.jpg"):
 if hacer("aedes.jpg"):
     # Aedes aegypti alimentándose (John Ragai, CC BY 2.0): recorte al mosquito
     guardar(Image.open("orig/aedes.jpg").convert("RGB").crop((230, 230, 730, 610)), "aedes.jpg", 420, 85)
+
+# ── tanda 10
+if hacer("meningococo.jpg"):
+    # Exantema hemorrágico estrellado de meningococcemia en la mano (Glei y Shkurba, dominio público)
+    guardar(Image.open("orig/meningococo.jpg").convert("RGB").crop((0, 60, 960, 680)), "meningococo.jpg", 420, 85)

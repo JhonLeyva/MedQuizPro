@@ -15,3 +15,4 @@ Revisar franjas: `python3 rev28/franjas.py <out> hoja.png [IDs]`. Imágenes: `im
 | t07 | content28h.py | hecha, 0 problemas |
 | t08 | content28i.py | hecha |
 | t09 | content28j.py | hecha, 0 problemas; imágenes: coraliforme, takotsubo, chancro, aedes |
+| t10 | content28k.py | hecha, 0 problemas; imagen: meningococo; motor: rótulo de grupo de 1 tarjeta dentro del recuadro |
