@@ -106,7 +106,50 @@ def nomograma_paracetamol():
     guardar(fig, "dib_nomograma_paracetamol.jpg")
 
 
-HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol}
+# ───────────────────────────────────────────────────────── úlcera péptica: balanza agresión / defensa
+def balanza_ulcera():
+    fig, ax = lienzo(100, 76, "#ffffff")
+    # soporte y fiel inclinado hacia la agresión (izquierda baja)
+    ax.add_patch(Polygon([(46, 62), (54, 62), (50, 30)], closed=True, fc="#94a3b8", ec="none", zorder=2))
+    ang = math.radians(12)
+    x0, y0, x1, y1 = 50 - 34 * math.cos(ang), 30 + 34 * math.sin(ang), 50 + 34 * math.cos(ang), 30 - 34 * math.sin(ang)
+    ax.plot([x0, x1], [y0, y1], color="#475569", lw=6, zorder=3, solid_capstyle="round")
+    ax.add_patch(Circle((50, 30), 2.2, fc="#475569", zorder=4))
+    for (cx, cy), c, t, lin in (((x0, y0), ROJO, "AGRESIÓN", ["ácido (HCl)", "pepsina", "H. pylori", "AINE, tabaco"]),
+                                ((x1, y1), "#15803d", "DEFENSA", ["moco", "bicarbonato", "flujo de sangre", "prostaglandinas"])):
+        ax.plot([cx - 9, cx, cx + 9], [cy + 14, cy, cy + 14], color="#64748b", lw=2, zorder=2)
+        ax.add_patch(FancyBboxPatch((cx - 16, cy + 14), 32, 3, boxstyle="round,pad=0,rounding_size=1.5", fc=c, ec="none", zorder=3))
+        rot(ax, cx, cy - 5, t, 26, c)
+        rot(ax, cx, cy + 27, "\n".join(lin), 21, TINTA, "normal")
+    rot(ax, 50, 6, "úlcera = gana la agresión", 26, TINTA)
+    guardar(fig, "dib_balanza_ulcera.jpg")
+
+
+# ───────────────────────────────────────────────────────── ingle por dentro: hernia directa vs indirecta
+def hernia_inguinal():
+    fig, ax = lienzo(100, 70, PIEL)
+    # ligamento inguinal (abajo) y recto (a la derecha = línea media)
+    curva(ax, [(6, 30), (45, 52), (80, 62)], "#7a5c2e", 7, 3)
+    rot(ax, 18, 49, "ligamento inguinal", 18, "#7a5c2e", giro=-25)
+    ax.add_patch(FancyBboxPatch((82, 4), 14, 62, boxstyle="round,pad=0,rounding_size=3", fc="#e7b8a8", ec="#b98473", lw=2, zorder=2))
+    rot(ax, 89, 34, "recto abdominal", 18, "#7c3f33", giro=90)
+    # vasos epigástricos inferiores
+    curva(ax, [(40, 50), (44, 30), (52, 6)], ROJO, 6, 4)
+    rot(ax, 56, 8, "vasos epigástricos", 18, ROJO, ha="left")
+    # triángulo de Hesselbach (entre vasos, recto y ligamento)
+    ax.add_patch(Polygon([(41, 50), (81, 61), (81, 22), (47, 22)], closed=True, fc="#fde68a", ec="#ca8a04", lw=2.5, alpha=.55, zorder=2))
+    rot(ax, 65, 44, "triángulo de\nHesselbach", 18, "#854d0e")
+    # anillo inguinal profundo (lateral a los vasos)
+    ax.add_patch(Circle((28, 34), 5, fc="#ffffff", ec="#1e5bb8", lw=3, zorder=5))
+    rot(ax, 23, 14, "INDIRECTA:\npor el anillo profundo,\nlateral a los vasos", 18, AZUL)
+    ax.annotate("", xy=(28, 38), xytext=(23, 24), arrowprops=dict(arrowstyle="-|>", color=AZUL, lw=2.5), zorder=6)
+    rot(ax, 65, 29, "DIRECTA:\nmedial a los vasos", 17, "#854d0e")
+    rot(ax, 4, 66, "lado derecho visto desde dentro del abdomen", 15, GRIS, "normal", ha="left")
+    guardar(fig, "dib_hernia_inguinal.jpg")
+
+
+HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

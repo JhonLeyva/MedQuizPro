@@ -197,3 +197,38 @@ if hacer("manguito.jpg"):
 if hacer("cara_mp.jpg"):
     # Presentación de cara mentoposterior (Hirst 1898, dominio público); sin la leyenda
     guardar(Image.open("orig/cara_mp.jpg").convert("L").crop((10, 8, 322, 300)), "cara_mp.jpg", 312, 88)
+
+# ── tanda 03
+if hacer("ictericia.jpg"):
+    # Ictericia de las escleras en hepatitis A (dominio público): solo la franja de los ojos
+    guardar(Image.open("orig/ictericia.jpg").convert("RGB").crop((300, 150, 780, 300)), "ictericia.jpg", 440, 85)
+if hacer("strongy.jpg"):
+    # Larva rabditoide de Strongyloides stercoralis (CDC, dominio público)
+    guardar(Image.open("orig/strongy2.jpg").convert("RGB"), "strongy.jpg", 460, 85)
+if hacer("lazo.jpg"):
+    # Prueba del lazo positiva en dengue (CDC, dominio público)
+    im = Image.open("orig/lazo.gif").convert("RGB")
+    guardar(im.resize((im.width * 4 // 3, im.height * 4 // 3), Image.LANCZOS), "lazo.jpg", 440, 85)
+if hacer("russell.jpg"):
+    # Signo de Russell en los nudillos (Kyukyusha, dominio público); sin el rótulo en inglés
+    guardar(Image.open("orig/russell.png").convert("RGB").crop((40, 430, 960, 1120)), "russell.jpg", 400, 85)
+if hacer("midriasis.jpg"):
+    # Midriasis bilateral (Soldier of Wasteland, CC BY-SA 4.0)
+    guardar(Image.open("orig/midriasis.jpg").convert("RGB"), "midriasis.jpg", 480, 85)
+if hacer("saco.jpg"):
+    # Embarazo temprano: saco gestacional con embrión (Nevit Dilmen, CC BY-SA 3.0); sin los datos del equipo
+    guardar(Image.open("orig/saco.jpg").convert("L").crop((40, 130, 500, 431)), "saco.jpg", 440, 85)
+if hacer("pancreatitis_tc.jpg"):
+    # Pancreatitis aguda exudativa en la TC (Hellerhoff, CC BY-SA 3.0)
+    guardar(Image.open("orig/pancreatitis_tc.jpg").convert("L").crop((0, 60, 960, 808)), "pancreatitis_tc.jpg", 420, 85)
+if hacer("zoster_tzanck.jpg"):
+    # Herpes zóster en banda (Fixi/Cremer, CC BY-SA 3.0) + Tzanck con células gigantes multinucleadas (NIAID, dominio público)
+    guardar(Image.open("orig/zoster.jpg").convert("RGB").crop((0, 40, 500, 572)), "zoster.jpg", 500, 88)
+    guardar(Image.open("orig/tzanck.png").convert("RGB"), "tzanck.jpg", 330, 90)
+    lado(["zoster.jpg", "tzanck.jpg"], "zoster_tzanck.jpg", 300)
+if hacer("ulcera_endo.jpg"):
+    # Úlcera gástrica profunda en el antro, endoscopía (Samir, CC BY-SA 3.0)
+    a = Image.open("orig/ulcera_endo.png").convert("RGBA")
+    bg = Image.new("RGBA", a.size, "black")
+    bg.alpha_composite(a)
+    guardar(bg.convert("RGB").crop((0, 0, 330, 330)), "ulcera_endo.jpg", 330, 88)
