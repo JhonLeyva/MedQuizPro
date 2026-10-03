@@ -86,6 +86,25 @@ def fases(s, y, d):
     n = len(ph)
     W = X1 - X0
     colw = W / n
+    if not d.get("curvas"):
+        # sin curvas no hay gráfico: franja compacta (fase, tiempo y «este caso») sin recuadros vacíos
+        for i, (tag, dias, _, _) in enumerate(ph):
+            x = X0 + i * colw
+            on = i == ans
+            s.rect(x + 2, y + 10, colw - 4, 56, TEAL_L if on else "#f8fafc", TEAL if on else "#e2e8f0", 2 if on else 1, rx=10)
+            s.text(x + colw / 2, y + 35, tag.upper(), 12, 800, TEAL_D if on else "#334155", maxw=colw - 20)
+            s.text(x + colw / 2, y + 54, dias, 11, 600, MUTED, maxw=colw - 20)
+        case_chip(s, X0 + ans * colw + colw / 2, y + 10)
+        ty = y + 80
+        hs = [max(block_h(t, b, colw - 16, 13.5, 12)[0], 90) for _, _, t, b in ph]
+        h = max(hs)
+        for i, (_, _, t, b) in enumerate(ph):
+            draw_block(s, X0 + i * colw + 8, ty, colw - 16, h, t, b, "answer" if i == ans else "plain")
+        y = ty + h
+        if d.get("chips"):
+            y = section(s, y + 24, d["chips_titulo"])
+            y = chip_grid(s, y, d["chips"])
+        return y
     gh = 172                                  # alto del gráfico
     gy = y + 58
     # franjas de fase

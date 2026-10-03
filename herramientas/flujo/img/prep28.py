@@ -3,7 +3,7 @@ Cambios a las originales: recorte, tamaño, escala de grises en radiología y, d
 líneas, letras o rótulos del autor para poner marcas propias en español."""
 import sys
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageEnhance, ImageDraw, ImageFilter
 from prep import guardar
 
 
@@ -133,3 +133,11 @@ if hacer("aedes.jpg"):
 if hacer("meningococo.jpg"):
     # Exantema hemorrágico estrellado de meningococcemia en la mano (Glei y Shkurba, dominio público)
     guardar(Image.open("orig/meningococo.jpg").convert("RGB").crop((0, 60, 960, 680)), "meningococo.jpg", 420, 85)
+
+# ── tanda 11
+if hacer("cripto.jpg"):
+    # Cryptococcus neoformans con tinta china (CDC/Dr. Leanor Haley, dominio público)
+    guardar(Image.open("orig/cripto.jpg").convert("RGB").crop((180, 60, 900, 640)), "cripto.jpg", 400, 85)
+if hacer("amiloide.jpg"):
+    # Amiloide con rojo Congo bajo luz polarizada (Ed Uthman, CC BY 2.0)
+    guardar(ImageEnhance.Brightness(Image.open("orig/amiloide.jpg").convert("RGB").crop((150, 150, 850, 850))).enhance(1.8), "amiloide.jpg", 360, 85)
