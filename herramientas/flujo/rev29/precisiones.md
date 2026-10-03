@@ -8,3 +8,4 @@
 - TRA-015: en la inversión el primer ligamento que se rompe es el peroneoastragalino anterior; entre las opciones solo el calcaneoperoneo es del complejo lateral, por eso es la clave.
 - GAS-033: la «hidratación agresiva» hoy se reserva para el choque (bolos guiados por metas, WATERFALL 2022); sin choque se hidrata en forma moderada.
 - INF-040: la quimioprofilaxis con ciprofloxacino es una dosis única (no 7 días).
+- GIN-087: el DIU posparto se coloca en las primeras 48 h o después de 4 semanas (entre ambos, categoría 3 de la OMS); los otros métodos de las opciones tienen estrógeno (categoría 4 antes de los 21 días).

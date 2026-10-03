@@ -173,8 +173,37 @@ def coartacion():
     guardar(fig, "dib_coartacion.jpg")
 
 
+# ───────────────────────────────────────────────────────── canal endémico
+def canal_endemico():
+    fig = plt.figure(figsize=(8.6, 5.6), dpi=100)
+    ax = fig.add_axes([0.11, 0.15, 0.86, 0.80])
+    sem = np.arange(1, 53)
+    base = 20 + 12 * np.sin((sem - 8) / 52 * 2 * np.pi) ** 2
+    q1, q2, q3 = base * .7, base, base * 1.35
+    ax.fill_between(sem, 0, q1, color="#bbf7d0", label="éxito")
+    ax.fill_between(sem, q1, q2, color="#fef9c3")
+    ax.fill_between(sem, q2, q3, color="#fed7aa")
+    ax.fill_between(sem, q3, 60, color="#fecaca")
+    casos = (q1 + q2) / 2 * (1 + 0.05 * np.sin(sem / 2))
+    casos[30:38] = q3[30:38] * np.array([1.1, 1.3, 1.5, 1.6, 1.5, 1.3, 1.1, .9])
+    ax.plot(sem, casos, color=TINTA, lw=3.5, marker="o", ms=4)
+    for y, t, c in ((6, "ÉXITO", "#15803d"), ((q1[2] + q2[2]) / 2 - 2.5, "SEGURIDAD", "#a16207"), ((q2[2] + q3[2]) / 2, "ALERTA", "#c2410c"),
+                    (55, "EPIDEMIA", ROJO)):
+        ax.text(2, y, t, fontsize=16, fontweight="bold", color=c, va="center")
+    ax.annotate("casos por encima\nde lo esperado", xy=(33, casos[32]), xytext=(37, 58), fontsize=15, fontweight="bold",
+                color=ROJO, arrowprops=dict(arrowstyle="-|>", color=ROJO, lw=2.5), va="top")
+    ax.annotate("endemia: dentro\nde lo esperado", xy=(16, casos[15]), xytext=(17, 50), fontsize=15, fontweight="bold",
+                color=TINTA, arrowprops=dict(arrowstyle="-|>", color=TINTA, lw=2.5), ha="center", va="top")
+    ax.set_xlim(1, 52)
+    ax.set_ylim(0, 60)
+    ax.set_xlabel("semanas epidemiológicas", fontsize=18, fontweight="bold", color=TINTA)
+    ax.set_ylabel("casos", fontsize=18, fontweight="bold", color=TINTA)
+    ax.tick_params(labelsize=15)
+    guardar(fig, "dib_canal_endemico.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

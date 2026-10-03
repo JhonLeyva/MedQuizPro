@@ -260,3 +260,27 @@ if hacer("hidradenitis.jpg"):
 if hacer("oxiuro.jpg"):
     # Huevo de Enterobius vermicularis (Ajay Kumar Chaurasiya, CC BY 4.0)
     guardar(Image.open("orig/oxiuro.jpg").convert("RGB").crop((300, 0, 960, 420)), "oxiuro.jpg", 440, 85)
+
+# ── tanda 05
+if hacer("esporotricosis.jpg"):
+    # Esporotricosis linfocutánea del brazo (CDC/Lucille K. Georg, dominio público)
+    guardar(Image.open("orig/esporotricosis.jpg").convert("RGB"), "esporotricosis.jpg", 460, 85)
+if hacer("diu.jpg"):
+    # DIU con levonorgestrel en el útero (Hic et nunc, dominio público)
+    guardar(Image.open("orig/diu.jpg").convert("RGB").crop((120, 0, 860, 1047)), "diu.jpg", 320, 88)
+if hacer("tvp.jpg"):
+    # Trombosis venosa profunda de la pierna derecha (James Heilman, CC BY-SA 3.0); se borró la flecha azul del autor
+    im = Image.open("orig/tvp.jpg").convert("RGB")
+    a = np.array(im).astype(int)
+    m = (a[..., 2] > a[..., 0] + 40) & (a[..., 2] > a[..., 1] + 20)
+    guardar(rellenar(im, m, 7).crop((0, 0, 960, 1534)), "tvp.jpg", 300, 85)
+if hacer("feo_tc.jpg"):
+    # Feocromocitoma suprarrenal izquierdo, TC coronal (Drahreg01, CC BY-SA 3.0)
+    guardar(Image.open("orig/feo_tc.jpg").convert("L"), "feo_tc.jpg", 500, 85)
+if hacer("lla_real.jpg"):
+    # Leucemia linfoblástica aguda B, aspirado de médula (VashiDonsk, CC BY-SA 3.0)
+    im = Image.open("orig/lla_real.jpg").convert("RGB")
+    guardar(im.resize((im.width * 4 // 3, im.height * 4 // 3), Image.LANCZOS), "lla_real.jpg", 440, 88)
+if hacer("gottron.jpg"):
+    # Pápulas de Gottron (Dugan, Huber, Miller y Rider, CC BY-SA 3.0); sin la leyenda
+    guardar(Image.open("orig/gottron.jpg").convert("RGB").crop((0, 0, 500, 395)), "gottron.jpg", 440, 85)
