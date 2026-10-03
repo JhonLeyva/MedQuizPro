@@ -289,8 +289,51 @@ def banera():
     guardar(fig, "dib_banera.jpg")
 
 
+# ───────────────────────────────────────────────────────── triángulo femoral (NAVEL)
+def triangulo_femoral():
+    fig, ax = lienzo(100, 74, PIEL)
+    # bordes: ligamento inguinal (arriba), sartorio (lateral) y aductor largo (medial)
+    ax.add_patch(Polygon([(10, 16), (90, 30), (56, 72)], closed=True, fc="#fbe7da", ec="none", zorder=1))
+    curva(ax, [(6, 14), (50, 22), (92, 31)], "#7a5c2e", 6, 3)
+    rot(ax, 18, 10.5, "ligamento inguinal", 17, "#7a5c2e", giro=-9)
+    ax.plot([10, 56], [16, 72], color="#c08a6a", lw=10, solid_capstyle="round", zorder=2)
+    ax.plot([90, 56], [30, 72], color="#c08a6a", lw=10, solid_capstyle="round", zorder=2)
+    rot(ax, 22, 46, "sartorio", 17, "#7c3f33", giro=-50)
+    rot(ax, 87, 55, "aductor\nlargo", 17, "#7c3f33")
+    # estructuras de lateral a medial: nervio, arteria, vena, espacio, linfáticos
+    ax.plot([33, 46], [22, 60], color="#eab308", lw=7, solid_capstyle="round", zorder=4)
+    ax.plot([43, 51], [24, 62], color=ROJO, lw=12, solid_capstyle="round", zorder=4)
+    ax.plot([54, 56], [26, 64], color=AZUL, lw=15, solid_capstyle="round", zorder=4)
+    for y in (30, 35, 40):
+        ax.add_patch(Circle((68, y), 1.4, fc="#16a34a", ec="none", zorder=4))
+    rot(ax, 28, 30, "NERVIO", 17, "#a16207")
+    rot(ax, 40, 66, "ARTERIA\n(pulso)", 17, ROJO)
+    rot(ax, 73, 66, "VENA\n(medial al pulso)", 17, AZUL)
+    rot(ax, 71, 35, "linfáticos", 16, "#15803d", ha="left")
+    rot(ax, 4, 70, "← LATERAL", 16, GRIS, ha="left")
+    rot(ax, 96, 70, "MEDIAL →", 16, GRIS, ha="right")
+    rot(ax, 50, 4, "De lateral a medial: N-A-V-(espacio)-L", 18, TINTA)
+    guardar(fig, "dib_triangulo_femoral.jpg")
+
+
+# ───────────────────────────────────────────────────────── pupilas: dónde está la lesión
+def pupilas():
+    fig, ax = lienzo(100, 38, "#ffffff")
+    casos = [(18, 0.6, "PUNTIFORMES\n(protuberancia,\nopioides)", ROJO),
+             (50, 2.0, "NORMALES\n(3-4 mm)", "#15803d"),
+             (82, 4.3, "DILATADA FIJA\nde un lado\n(III par, herniación)", AZUL)]
+    for cx, r, txt, col in casos:
+        for dx in (-7, 7):
+            ax.add_patch(Ellipse((cx + dx, 10), 12, 8, fc="#ffffff", ec="#9ca3af", lw=2, zorder=2))
+            rp = r if (cx != 82 or dx == -7) else 2.0
+            ax.add_patch(Circle((cx + dx, 10), 3.4, fc="#8b5a2b", ec="none", zorder=3))
+            ax.add_patch(Circle((cx + dx, 10), rp if rp < 3.3 else 3.2, fc="#111111", ec="none", zorder=4))
+        rot(ax, cx, 26, txt, 17, col)
+    guardar(fig, "dib_pupilas.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

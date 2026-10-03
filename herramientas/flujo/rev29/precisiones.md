@@ -9,3 +9,7 @@
 - GAS-033: la «hidratación agresiva» hoy se reserva para el choque (bolos guiados por metas, WATERFALL 2022); sin choque se hidrata en forma moderada.
 - INF-040: la quimioprofilaxis con ciprofloxacino es una dosis única (no 7 días).
 - GIN-087: el DIU posparto se coloca en las primeras 48 h o después de 4 semanas (entre ambos, categoría 3 de la OMS); los otros métodos de las opciones tienen estrógeno (categoría 4 antes de los 21 días).
+- PED-108: además de la edad < 6 meses, la anafilaxia a una dosis previa también contraindica la vacuna (no está entre las opciones).
+- GAS-039: dolor + fiebre + ictericia es la tríada de Charcot; si se confirma colangitis, la conducta es CPRE en 24 h. La pregunta pide solo el estudio de la causa.
+- GAS-040: la disfagia es signo de alarma: además del IBP corresponde endoscopía.
+- REU-029: por tipo de lesión (solo comedones) es acné leve; por número, 30 comedones serían «moderado» en la escala de Lehmann.

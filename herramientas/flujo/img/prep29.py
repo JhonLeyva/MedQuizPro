@@ -347,3 +347,35 @@ if hacer("tb_miliar.jpg"):
 if hacer("pavlik.jpg"):
     # Esquema del arnés de Pavlik (Londenp, CC BY-SA 3.0)
     guardar(Image.open("orig/pavlik.jpg").convert("RGB"), "pavlik.jpg", 336, 90)
+
+# ── tanda 09
+if hacer("lepto.jpg"):
+    # Sufusión conjuntival con ictericia en leptospirosis (Daniel Ostermayer, CC BY 4.0); un solo ojo
+    guardar(Image.open("orig/lepto.jpg").convert("RGB"), "lepto.jpg", 330, 90)
+if hacer("sarna_surco.jpg"):
+    # Surco de escabiosis (Michael Geary, dominio público)
+    guardar(Image.open("orig/sarna_surco.jpg").convert("RGB"), "sarna_surco.jpg", 440, 88)
+if hacer("cprm.jpg"):
+    # Colangiorresonancia con coledocolitiasis (Hellerhoff, CC BY-SA 3.0); las letras y flechas rojas son del autor
+    guardar(Image.open("orig/cprm.jpg").convert("L").crop((40, 0, 840, 1012)), "cprm.jpg", 400, 85)
+if hacer("hipersegm.jpg"):
+    # Neutrófilo hipersegmentado en anemia megaloblástica (Ed Uthman, CC BY 2.0)
+    guardar(Image.open("orig/hipersegm.jpg").convert("RGB"), "hipersegm.jpg", 400, 88)
+if hacer("megalo_mont.jpg"):
+    # Foto real (izquierda) + frotis dibujado con frotis29.py (derecha)
+    lado(["hipersegm.jpg", "frotis_megalo.jpg"], "megalo_mont.jpg", 300)
+if hacer("otitis_ext.jpg"):
+    # Otitis externa grave (James Heilman, CC BY 3.0), recortada a la oreja
+    guardar(Image.open("orig/otitis_ext.jpg").convert("RGB").crop((300, 800, 2500, 3000)), "otitis_ext.jpg", 400, 85)
+if hacer("conjuntivitis.jpg"):
+    # Conjuntivitis bacteriana (Gzzz, CC BY-SA 4.0), recortada a un ojo
+    guardar(Image.open("orig/conjuntivitis.jpg").convert("RGB").crop((150, 700, 1950, 1800)), "conjuntivitis.jpg", 440, 85)
+if hacer("pliegue.jpg"):
+    # Signo del pliegue por deshidratación (DRobert, CC BY-SA 4.0)
+    guardar(Image.open("orig/pliegue.jpg").convert("RGB").crop((0, 100, 768, 900)), "pliegue.jpg", 400, 85)
+if hacer("acne.jpg"):
+    # Acné comedoniano en la frente (Dr. Thomas Brinkmeier, CC BY 4.0)
+    guardar(Image.open("orig/acne_comed.jpg").convert("RGB").crop((400, 800, 3000, 2800)), "acne.jpg", 440, 85)
+if hacer("fijador.jpg"):
+    # Fijador externo en la pierna (Ortopedikus, CC BY-SA 4.0), recortado a la pierna
+    guardar(Image.open("orig/fijador.jpg").convert("RGB").crop((400, 150, 960, 639)), "fijador.jpg", 440, 85)

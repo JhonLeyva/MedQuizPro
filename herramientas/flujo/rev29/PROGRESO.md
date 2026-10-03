@@ -14,3 +14,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 | t06 | content29g.py | hecha, 0 problemas; 8 con imagen (graf, hematoma_oreja, petequias, ishihara, chagas_ecg_rx [ECG propio + megaesófago]; propia: dib_kramer; reutiliza ictericia, mola) |
 | t07 | content29h.py | hecha, 0 problemas; 12 con imagen (gonococo, kaposi, ferruginoso, colera, hidronefrosis, bota, hidrocefalia; propias: dib_tarjeta_heces, ecg_qt_tdp, ecg_iam_al) |
 | t08 | content29i.py | hecha, 0 problemas; 11 con imagen (strep_petequias, tb_miliar, pavlik; propias: dib_cobb, dib_banera; reutiliza ncc_tc, ascitis, hsa_tc, papiledema, dib_hernia_inguinal, ictericia) |
+| t09 | content29j.py | hecha, 0 problemas; 15 con imagen (lepto, cprm, fijador, pliegue, megalo_mont [foto + frotis propio], sarna_surco, otitis_ext, acne, conjuntivitis; propias: dib_pupilas, dib_triangulo_femoral; reutiliza ecg_taponamiento, aedes). Precisiones: PED-108, GAS-039, GAS-040, REU-029 |
