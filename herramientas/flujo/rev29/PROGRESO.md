@@ -7,3 +7,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 |---|---|---|
 | t00 | content29a.py | hecha, 0 problemas; 13 con imagen (volvulo_rx, atelectasia_rx, vivax_troz, hiperseg2, lmc_frotis, falcip, romana+triatoma, placenta_previa, epistaxis, pilonidal, xantoma+tubo; reutiliza uip_tc, ferropenia) |
 | t01 | content29b.py | hecha, 0 problemas; 14 con imagen (bronquiolitis_rx, meconio_rx, mallory, dib_hernia_crural [dibujo propio], ecg_tep [ECG propio], retinopatia, mantoux, toxo_rm, giardia, atresia_rx, janeway, periamig, ascitis, cilindro_granuloso) |
+| t02 | content29c.py | hecha, 0 problemas; 17 con imagen (nuevas: polipo, vcs_venas, endometrioma, urt_colin, apendicitis_eco, bridas_rx, versicolor, lcn, manguito [rótulos en español], cara_mp; propias: ecg_hipermag, ecg_taponamiento, ecg_extrasistole, dib_nomograma_paracetamol; reutiliza chancro, cprm_coledoco, piloro) |

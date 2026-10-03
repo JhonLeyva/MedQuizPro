@@ -6,13 +6,14 @@ dest = sys.argv[2]
 w = int(sys.argv[3]) if len(sys.argv) > 3 else 9999
 h = hashlib.md5(name.encode()).hexdigest()
 q = urllib.parse.quote(name)
-if w > 500:
-    tw_ = 960 if w > 960 else 500
-    url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{tw_}px-{q}"
-elif w > 120:
-    # miniatura apenas menor que la original: el servidor de miniaturas limita menos que el de originales (429)
-    ext = ".png" if name.lower().endswith((".tif", ".tiff", ".gif", ".svg")) else ""
-    url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{w - 4}px-{q}{ext}"
+# Commons solo sirve miniaturas en anchos estándar (https://w.wiki/GHai): se pide el mayor que no supere la original
+EST = [120, 250, 330, 500, 960, 1280]
+ext = ".png" if name.lower().endswith((".tif", ".tiff", ".gif", ".svg")) else ""
+if name.lower().endswith(".svg"):
+    w = max(w, 960)                      # un SVG se puede pedir más grande que su tamaño nominal
+tw_ = max([e for e in EST if e <= min(w, 960)] or [0])
+if tw_ and (tw_ < w or ext):
+    url = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{q}/{tw_}px-{q}{ext}"
 else:
     url = f"https://upload.wikimedia.org/wikipedia/commons/{h[0]}/{h[:2]}/{q}"
 import time

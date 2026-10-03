@@ -24,7 +24,7 @@ BASE = {
     "V3": dict(p=.08, q=0, r=.80, s=-.90, t=.50), "V4": dict(p=.10, q=-.05, r=1.40, s=-.50, t=.50),
     "V5": dict(p=.10, q=-.10, r=1.40, s=-.30, t=.40), "V6": dict(p=.10, q=-.10, r=1.10, s=-.20, t=.30),
 }
-COMUN = dict(pr=.16, qrs=1.0, qt=.38, st=0.0, tw=1.0, u=0.0, delta=0.0, rp=0.0, j=0.0, pw=1.0, ondas=None)
+COMUN = dict(pr=.16, qrs=1.0, qt=.38, st=0.0, tw=1.0, u=0.0, delta=0.0, rp=0.0, j=0.0, pw=1.0, ondas=None, amp=1.0)
 
 
 def _g(t, c, w, a):
@@ -56,7 +56,7 @@ def latido(t, d):
     v += _g(t, tp, .045 * d["tw"], d["t"])
     if d["u"]:
         v += _g(t, tp + .16, .035, d["u"])
-    return v
+    return v * d["amp"]
 
 
 def _params(pat, lead):
@@ -80,7 +80,7 @@ def senal(pat, lead, t):
         v[m] += latido(t[m] - tq, dd)
     for tp_ in pat.get("p", []):
         m = (t > tp_ - .15) & (t < tp_ + .25)
-        v[m] += _g(t[m] - tp_, .05, .022 * d["pw"], d["p"])
+        v[m] += _g(t[m] - tp_, .05, .022 * d["pw"], d["p"]) * d["amp"]
     if pat.get("base"):
         v += pat["base"](t, lead)
     rng = np.random.default_rng(abs(hash(lead)) % 1000)
@@ -202,6 +202,10 @@ def patrones():
     P["extrasistole_v"] = dict(qrs=[.35, 1.15, (1.62, dict(qrs=2.4, r=1.4, s=-.6, t=-.5, p=0)), 2.75, 3.55,
                                     (4.02, dict(qrs=2.4, r=1.4, s=-.6, t=-.5, p=0)), 5.15, 5.95, 6.75, 7.55, 8.35, 9.15],
                                p=[.19, .99, 2.59, 3.39, 4.99, 5.79, 6.59, 7.39, 8.19, 8.99], nombre="Extrasístoles ventriculares")
+    P["hipermag"] = dict(ritmo_regular(56, pr=.28), todo=dict(pr=.28, qrs=1.7, p=.14), nombre="Hipermagnesemia: PR largo y QRS ancho")
+    t_ = ritmo_regular(120)
+    P["taponamiento"] = dict(qrs=[(q, dict(amp=.45 if i % 2 == 0 else .2)) for i, q in enumerate(t_["qrs"])], p=t_["p"],
+                             todo=dict(amp=.35, qt=.32), nombre="Taponamiento: bajo voltaje y alternancia eléctrica")
     P["ritmo_marcapaso"] = dict(ritmo_regular(70), nombre="Marcapasos")
     return P
 

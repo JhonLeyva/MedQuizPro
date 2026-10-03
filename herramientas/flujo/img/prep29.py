@@ -157,3 +157,43 @@ if hacer("cilindro_granuloso.jpg"):
     # Cilindro granuloso «pardo» de la necrosis tubular (Mohsenin, CC BY 4.0), panel b ampliado
     im = Image.open("orig/cilindros4.jpg").convert("RGB").crop((274, 2, 498, 134))
     guardar(im.resize((im.width * 2, im.height * 2), Image.LANCZOS), "cilindro_granuloso.jpg", 440, 88)
+
+# ── tanda 02
+if hacer("polipo.jpg"):
+    # Pólipo pediculado extirpado (RobLekarzMD, CC BY-SA 4.0)
+    guardar(Image.open("orig/polipo.jpg").convert("RGB").crop((180, 120, 840, 640)), "polipo.jpg", 420, 85)
+if hacer("vcs_venas.jpg"):
+    # Síndrome de vena cava superior: venas superficiales dilatadas en el tórax (EMAHkempny, CC BY-SA 4.0); sin rostro
+    guardar(Image.open("orig/vcs_venas.jpg").convert("RGB").crop((0, 60, 500, 667)), "vcs_venas.jpg", 360, 85)
+if hacer("endometrioma.jpg"):
+    # Endometrioma en vidrio esmerilado (Keckstein et al., CC BY 4.0)
+    guardar(Image.open("orig/endometrioma.jpg").convert("L").crop((30, 0, 470, 352)), "endometrioma.jpg", 420, 85)
+if hacer("urt_colin.jpg"):
+    # Habones de urticaria colinérgica (Danielpercy, dominio público)
+    guardar(Image.open("orig/urt_colin2.jpg").convert("RGB").crop((0, 100, 960, 1050)), "urt_colin.jpg", 400, 85)
+if hacer("apendicitis_eco.jpg"):
+    # Apendicitis aguda en la ecografía (Borbély Márton, CC BY-SA 4.0)
+    guardar(Image.open("orig/apendicitis_eco.png").convert("L").crop((40, 0, 920, 760)), "apendicitis_eco.jpg", 420, 85)
+if hacer("bridas_rx.jpg"):
+    # Obstrucción del intestino delgado: asas dilatadas con niveles (Igboeze, CC BY-SA 4.0)
+    guardar(Image.open("orig/bridas_rx.jpg").convert("L"), "bridas_rx.jpg", 460, 85)
+if hacer("versicolor.jpg"):
+    # Pitiriasis versicolor en el abdomen (Sarahrosenau, CC BY-SA 2.0)
+    guardar(Image.open("orig/versicolor.jpg").convert("RGB"), "versicolor.jpg", 440, 85)
+if hacer("lcn.jpg"):
+    # Longitud cráneo-nalga a las 12 semanas (Wolfgang Moroder, CC BY-SA 3.0)
+    guardar(Image.open("orig/lcn.jpg").convert("L"), "lcn.jpg", 440, 85)
+if hacer("manguito.jpg"):
+    # Músculos del manguito rotador (InjuryMap, CC BY-SA 4.0); se borraron los rótulos en inglés para poner los rótulos en español
+    a = Image.open("orig/manguito.png").convert("RGBA")
+    bg = Image.new("RGBA", a.size, "white")
+    bg.alpha_composite(a)
+    im = bg.convert("RGB")
+    g = np.array(im.convert("L"))
+    m = np.zeros(g.shape, bool)
+    for x0, y0, x1, y1 in [(170, 35, 300, 64), (650, 35, 790, 64), (415, 74, 548, 102), (415, 258, 538, 290), (415, 338, 548, 372), (762, 330, 830, 384)]:
+        m[y0:y1, x0:x1] = g[y0:y1, x0:x1] < 150
+    guardar(rellenar(im, m, 5), "manguito.jpg", 560, 88)
+if hacer("cara_mp.jpg"):
+    # Presentación de cara mentoposterior (Hirst 1898, dominio público); sin la leyenda
+    guardar(Image.open("orig/cara_mp.jpg").convert("L").crop((10, 8, 322, 300)), "cara_mp.jpg", 312, 88)

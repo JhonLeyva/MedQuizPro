@@ -78,7 +78,35 @@ def hernia_crural():
     guardar(fig, "dib_hernia_crural.jpg")
 
 
-HACER = {"hernia_crural": hernia_crural}
+# ───────────────────────────────────────────────────────── nomograma de Rumack-Matthew (paracetamol)
+def nomograma_paracetamol():
+    fig = plt.figure(figsize=(8.6, 6.0), dpi=100)
+    ax = fig.add_axes([0.14, 0.14, 0.82, 0.80])
+    t = np.linspace(4, 24, 200)
+    linea = 150 * 2 ** (-(t - 4) / 4)            # línea de tratamiento (150 µg/mL a las 4 h, vida media 4 h)
+    ax.fill_between(t, linea, 1000, color="#fde2e1", zorder=0)
+    ax.fill_between(t, 3, linea, color="#e3f4ea", zorder=0)
+    ax.plot(t, linea, color=ROJO, lw=4, zorder=3)
+    ax.set_yscale("log")
+    ax.set_xlim(4, 24)
+    ax.set_ylim(3, 1000)
+    ax.set_xticks([4, 8, 12, 16, 20, 24])
+    ax.set_yticks([5, 10, 50, 150, 500])
+    ax.set_yticklabels(["5", "10", "50", "150", "500"])
+    ax.tick_params(labelsize=17)
+    ax.set_xlabel("horas desde la ingesta", fontsize=19, fontweight="bold", color=TINTA)
+    ax.set_ylabel("paracetamol (µg/mL)", fontsize=19, fontweight="bold", color=TINTA)
+    ax.grid(True, which="major", color="#cbd5e1", lw=1)
+    for s_ in ax.spines.values():
+        s_.set_color("#94a3b8")
+    ax.text(15.5, 220, "ENCIMA: dar\nN-acetilcisteína", fontsize=21, fontweight="bold", color=ROJO, ha="center", va="center")
+    ax.text(9.5, 7, "DEBAJO: riesgo bajo", fontsize=20, fontweight="bold", color="#15803d", ha="center", va="center")
+    ax.annotate("línea de tratamiento\n(150 a las 4 h)", xy=(6.2, 150 * 2 ** (-(2.2) / 4)), xytext=(10.5, 90), fontsize=17,
+                color=ROJO, fontweight="bold", ha="left", va="center", arrowprops=dict(arrowstyle="-|>", color=ROJO, lw=2.5))
+    guardar(fig, "dib_nomograma_paracetamol.jpg")
+
+
+HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
