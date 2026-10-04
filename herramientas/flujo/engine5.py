@@ -323,7 +323,8 @@ def cronologia(s, y, d):
         x0, x1 = sx(w0), sx(w1)
         s.rect(x0, ry + 5, max(x1 - x0, 8), 20, TEAL if on else "#94a3b8", "none", 0, rx=10)
         rng = f"{w0}-{w1} {d.get('unidad', 'sem')}"
-        if tw(rng, 10, True) + 14 < x1 - x0:
+        mk = d.get("marca")
+        if tw(rng, 10, True) + 14 < x1 - x0 and not (mk is not None and x0 < sx(mk) < x1):
             s.text((x0 + x1) / 2, ry + 19, rng, 10, 700, "#ffffff", maxw=x1 - x0 - 8)
         else:
             s.text(x1 + 6, ry + 19, rng, 10, 700, TEAL_D if on else MUTED, "start", 80)

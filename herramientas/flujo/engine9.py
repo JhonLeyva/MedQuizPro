@@ -38,7 +38,7 @@ CATALOGO = [
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
 HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
-          "piramide", "grados_foto", "laboratorio", "reloj", "transmision"}
+          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa"}
 
 
 def _img_h(im):
@@ -822,7 +822,127 @@ def transmision(s, y, d):
     return _fin(s, y, d)
 
 
+# ════════════════════════════════════════════════════════════ 41 DOSIS POR PESO
+def dosis(s, y, d):
+    """Cálculo de la dosis con el peso del caso: ficha del paciente → (dosis por kg × peso = total) en cajas grandes,
+    y debajo cada alternativa medida contra ese total (la que coincide resaltada)."""
+    y = section(s, y + 10, d["rotulo"])
+    W = X1 - X0
+    pw = 170
+    peso, quien = d["peso"]
+    pasos = d["pasos"]                       # [(etiqueta, valor grande, detalle)] separados por operadores
+    ops = d.get("ops", ["×", "="])
+    n = len(pasos)
+    x0 = X0 + pw + 30
+    gap = 40
+    cw = (X1 - x0 - gap * (n - 1)) / n
+    meds = [_caja_txt(dd, None, cw - 20, 11, 11) for _, _, dd in pasos]
+    ch = 76 + max(m[2] for m in meds)
+    s.rect(X0, y, pw, ch, TEAL_D, rx=16)
+    s.text(X0 + pw / 2, y + 26, "PESO DEL CASO", 10.5, 800, "#99f6e4", maxw=pw - 20)
+    s.text(X0 + pw / 2, y + 62, peso, 28, 800, "#ffffff", maxw=pw - 16)
+    ql = wrap(quien, pw - 24, 11)
+    s.text(X0 + pw / 2, y + 84, ql, 11, 500, "#ccfbf1", maxw=pw - 24, lh=15)
+    s.arrow_right(X0 + pw + 4, x0 - 4, y + ch / 2, TEAL)
+    for i, ((et, val, dd), (tl, _, th)) in enumerate(zip(pasos, meds)):
+        x = x0 + i * (cw + gap)
+        last = i == n - 1
+        s.rect(x, y, cw, ch, ORANGE_L if last else "#ffffff", ORANGE if last else TEAL, 2.2 if last else 1.6, rx=14)
+        s.text(x + cw / 2, y + 22, et.upper(), 10.5, 800, "#9a3412" if last else MUTED, maxw=cw - 16)
+        s.text(x + cw / 2, y + 56, val, 22, 800, "#9a3412" if last else TEAL_D, maxw=cw - 16)
+        s.text(x + cw / 2, y + 78, tl, 11, 800, SLATE, maxw=cw - 20, lh=15)
+        if last:
+            case_chip(s, x + cw / 2, y + ch, d.get("tag", "DOSIS DEL CASO"))
+        if i < n - 1:
+            s.text(x + cw + gap / 2, y + ch / 2 + 11, ops[min(i, len(ops) - 1)], 30, 800, TEAL, maxw=gap)
+    y += ch + 22
+    if d.get("alternativas"):
+        alts = d["alternativas"]             # [(alternativa, comentario, ok)]
+        s.text(X0 + 4, y + 14, d.get("alt_titulo", "Cada alternativa contra el cálculo").upper(), 10.5, 800, MUTED, "start", W)
+        y += 24
+        m = len(alts)
+        aw = (W - 10 * (m - 1)) / m
+        mm = [_caja_txt(a, c, aw - 20, 12, 11) for a, c, _ in alts]
+        ah = max(t[2] for t in mm) + 40
+        for j, ((a, c, ok), (tl, dl, th)) in enumerate(zip(alts, mm)):
+            x = X0 + j * (aw + 10)
+            s.rect(x, y, aw, ah, GREEN_L if ok else "#f8fafc", GREEN if ok else LINE, 2 if ok else 1.2, rx=10)
+            s.text(x + aw / 2, y + 18, "✓ COINCIDE" if ok else "✗ NO", 9.5, 800, GREEN if ok else "#b91c1c", maxw=aw - 16)
+            s.text(x + aw / 2, y + 36, tl, 12, 800, INK, maxw=aw - 20, lh=17)
+            if dl:
+                s.text(x + aw / 2, y + 36 + len(tl) * 17, dl, 11, 400, SLATE, maxw=aw - 20, lh=16)
+        y += ah
+    if d.get("img"):
+        from engine7 import banda
+        y = banda(s, y + 14, d["img"])
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 48 ECG: DERIVACIONES Y TERRITORIO
+_ECG_TERR = [("Inferior", ["II", "III", "aVF"], "Coronaria derecha (80 %)"),
+             ("Lateral", ["I", "aVL", "V5", "V6"], "Circunfleja"),
+             ("Septal", ["V1", "V2"], "Descendente anterior (septales)"),
+             ("Anterior", ["V3", "V4"], "Descendente anterior")]
+
+
+def _latido(s, cx, by, w, st, color):
+    """Un complejo esquemático: st = 'sube' | 'baja' | 'q' (onda Q + ST arriba) | 'normal'."""
+    a = w / 60
+    dy = {"sube": -14, "baja": 10, "q": -14}.get(st, 0)
+    q = 9 if st == "q" else 2
+    pts = [(-28, 0), (-20, 0), (-17, -5), (-14, 0), (-8, 0), (-6, q), (-2, -30), (2, 8), (5, dy), (12, dy - 4 if st != "baja" else dy + 2),
+           (17, dy - 2 if st == "sube" or st == "q" else -6), (22, 0), (28, 0)]
+    s.add('<polyline points="' + " ".join(f"{cx + px * a:.1f},{by + py:.1f}" for px, py in pts) +
+          f'" fill="none" stroke="{color}" stroke-width="2.2" stroke-linejoin="round"/>')
+
+
+def ecg_mapa(s, y, d):
+    """Las 12 derivaciones en su cuadrícula (I aVR V1 V4 / II aVL V2 V5 / III aVF V3 V6) con el ST de cada una;
+    a la derecha, qué territorio y qué arteria corresponden (el del caso resaltado). Debajo, el ECG real o propio."""
+    y = section(s, y + 10, d["rotulo"])
+    der = d["derivaciones"]                  # {"V2": "sube", "II": "baja", ...}; las que no están: normal
+    GW = d.get("ancho", 470)
+    cols = [["I", "II", "III"], ["aVR", "aVL", "aVF"], ["V1", "V2", "V3"], ["V4", "V5", "V6"]]
+    cw, rh = GW / 4, 78
+    s.rect(X0, y, GW, rh * 3 + 8, "#fff7f7", "#fecaca", 1.2, rx=10)
+    for i in range(1, 4):
+        s.line(X0 + i * cw, y + 6, X0 + i * cw, y + rh * 3 + 2, "#fecaca", 1)
+    COLS = {"sube": "#dc2626", "q": "#dc2626", "baja": "#2563eb", "normal": "#475569"}
+    for c, col in enumerate(cols):
+        for r, nm in enumerate(col):
+            st = der.get(nm, "normal")
+            cx, cy = X0 + c * cw + cw / 2, y + 8 + r * rh
+            on = st != "normal"
+            if on:
+                s.rect(X0 + c * cw + 4, cy, cw - 8, rh - 6, "#fee2e2" if st != "baja" else "#dbeafe", rx=8)
+            s.text(X0 + c * cw + 12, cy + 18, nm, 12, 800, COLS[st], "start", 40)
+            _latido(s, cx + 8, cy + 48, cw - 30, st, COLS[st])
+    leyenda = d.get("leyenda", "Rojo: ST elevado · Azul: ST descendido (espejo) · Gris: normal")
+    s.text(X0 + GW / 2, y + rh * 3 + 26, leyenda, 10.5, 700, MUTED, maxw=GW)
+    x = X0 + GW + 22
+    w = X1 - x
+    terr = d.get("territorios", _ECG_TERR)
+    caso = d.get("caso", [])
+    meds = [_caja_txt(f"{t}: {', '.join(dv)}", a, w - 30) for t, dv, a in terr]
+    yy = y
+    for (t, dv, a), (tl, dl, th) in zip(terr, meds):
+        on = t in caso
+        h = th + 22
+        s.rect(x, yy, w, h, ORANGE_L if on else "#f8fafc", ORANGE if on else LINE, 2 if on else 1.2, rx=10)
+        _txt(s, x + 15, yy + 11, tl, dl, w - 30, on)
+        yy += h + 7
+    if d.get("territorio_txt"):
+        tl = wrap(d["territorio_txt"], w - 10, 11.5, True)
+        s.text(x + 4, yy + 12, tl, 11.5, 800, "#9a3412", "start", w - 10, lh=16)
+        yy += len(tl) * 16 + 6
+    y = max(y + rh * 3 + 34, yy)
+    if d.get("img"):
+        from engine7 import banda
+        y = banda(s, y + 12, d["img"])
+    return _fin(s, y, d)
+
+
 LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision, "cuadricula": cuadricula,
             "alarma": alarma, "cascada": cascada, "checklist": checklist, "monitor": monitor, "piramide": piramide,
             "grados_foto": grados_foto, "laboratorio": laboratorio,
-            "reloj": reloj, "transmision": transmision}
+            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa}

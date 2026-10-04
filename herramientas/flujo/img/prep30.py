@@ -221,3 +221,17 @@ if hacer("covid_tc.jpg"):
 # ── NRL-044 · Lóbulos cerebrales rotulados en español (ElizabethFG, Commons, CC BY-SA 3.0)
 if hacer("lobulos.jpg"):
     guardar(Image.open("orig/lobulos.jpg").convert("RGB"), "lobulos.jpg", 480, 90)
+
+# ── INF-083 · Mucor: hifas anchas no septadas en ángulo recto (Yale Rosen, Commons, CC BY-SA 2.0)
+if hacer("mucor.jpg"):
+    guardar(Image.open("orig/mucor.jpg").convert("RGB").crop((0, 0, 900, 700)), "mucor.jpg", 400, 88)
+# ── CIR-093 · Gangrena seca de los dedos en un diabético (James Heilman, MD, Commons, CC BY-SA 3.0); sin EXIF
+if hacer("gangrena.jpg"):
+    guardar(Image.open("orig/gangrena.jpg").convert("RGB").crop((60, 0, 900, 820)), "gangrena.jpg", 380, 88)
+# ── PED-160 · Granuloma umbilical (T. S. Cullen 1916, Commons, dominio público)
+if hacer("granuloma_umb.jpg"):
+    guardar(Image.open("orig/granuloma_umb.jpg").convert("RGB").crop((20, 40, 310, 330)), "granuloma_umb.jpg", 290, 90)
+
+if hacer("hig_metas.jpg"):
+    # James Heilman, MD · Commons · CC BY-SA 3.0 (MultipleLiverMets2008.jpg): TC axial con múltiples metástasis hipodensas
+    guardar(Image.open("orig/liver_mets.jpg").convert("RGB").crop((40, 20, 900, 690)), "hig_metas.jpg", 380, 88)

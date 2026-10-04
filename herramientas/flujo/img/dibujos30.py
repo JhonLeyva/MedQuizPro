@@ -293,6 +293,81 @@ def cadera_rotacion():
 
 HACER = {"cadera_rotacion": cadera_rotacion, "placa_motora": placa_motora, "variables": variables, "correlacion": correlacion, "torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
 
+def malformacion_anorrectal():
+    """Malformación anorrectal en el varón (corte sagital, adelante = izquierda): baja con fístula perineal
+    frente a alta con fístula rectouretral (meconio en la orina, periné plano)."""
+    from matplotlib.patches import Ellipse, FancyBboxPatch, Arc
+    fig, ax = lienzo(100, 66)
+
+    def panel(ox, alta):
+        # piel del periné y pene
+        ax.plot([ox + 9, ox + 16, ox + 30, ox + 47], [41, 50, 53, 49], color="#9a6b52", lw=3, zorder=3)
+        ax.add_patch(FancyBboxPatch((ox + 2, 33), 7, 6, boxstyle="round,pad=1.2", fc="#f6dccb", ec="#9a6b52", lw=2, zorder=2))
+        rot(ax, ox + 5.5, 29, "pene", 12, GRIS, w="normal")
+        # pubis, vejiga y uretra
+        ax.add_patch(FancyBboxPatch((ox + 12, 21), 3, 9, boxstyle="round,pad=0.8", fc="#e7e5e4", ec="#78716c", lw=1.5, zorder=2))
+        ax.add_patch(Ellipse((ox + 22, 19), 14, 12, fc="#fef3c7", ec="#ca8a04", lw=2, zorder=3))
+        rot(ax, ox + 22, 19, "vejiga", 13, "#92400e", w="normal")
+        ax.plot([ox + 22, ox + 22, ox + 15, ox + 5], [25, 40, 42, 36], color="#ca8a04", lw=3, zorder=3)
+        rot(ax, ox + 14.5, 45.5, "uretra", 11, "#92400e", w="normal")
+        # sacro
+        ax.add_patch(Arc((ox + 52, 26), 16, 40, theta1=110, theta2=250, color="#78716c", lw=5, zorder=2))
+        # recto
+        fondo = 28 if alta else 45
+        ax.add_patch(FancyBboxPatch((ox + 32, 8), 8, fondo - 8, boxstyle="round,pad=1.5", fc="#d6b38a", ec="#7c4a1e", lw=2.2, zorder=3))
+        rot(ax, ox + 36, 14, "recto", 13, "#7c2d12", w="normal", giro=90)
+        if alta:
+            ax.plot([ox + 32, ox + 22.5], [29, 38], color=ROJO, lw=3.5, zorder=4)
+            ax.annotate("", xy=(ox + 36, 51.5), xytext=(ox + 36, 30.5), arrowprops=dict(arrowstyle="<->", lw=1.8, color=GRIS), zorder=4)
+            rot(ax, ox + 40.5, 41, "lejos\n> 1 cm", 11, GRIS, w="normal", fondo="#ffffff")
+            rot(ax, ox + 25, 59, "fístula a la uretra (meconio en la orina)", 13, ROJO)
+            rot(ax, ox + 25, 63.5, "periné plano, sin ano", 13, TINTA, w="normal")
+        else:
+            ax.plot([ox + 33, ox + 27], [46, 52.5], color=ROJO, lw=3.5, zorder=4)
+            rot(ax, ox + 25, 59, "fístula al periné", 13, ROJO)
+            rot(ax, ox + 25, 63.5, "(sale meconio por la piel)", 13, TINTA, w="normal")
+        rot(ax, ox + 25, 3, ("ALTA · rectouretral" if alta else "BAJA · perineal"), 16, ROJO if alta else "#15803d")
+
+    panel(1, False)
+    panel(51, True)
+    ax.plot([50.5, 50.5], [6, 65], color="#cbd5e1", lw=1.5, ls="--")
+    guardar(fig, "dib_malformacion_anorrectal.jpg")
+
+
+def ciclo_familiar():
+    """Ciclo vital familiar: formación (pareja), expansión (hijos), dispersión (los hijos se van), contracción (pareja mayor)."""
+    from matplotlib.patches import Circle, FancyBboxPatch, Polygon
+    fig, ax = lienzo(100, 46)
+
+    def persona(x, y, h, col):
+        ax.add_patch(Circle((x, y - h * 0.82), h * 0.17, fc=col, ec="white", lw=1.5, zorder=4))
+        ax.add_patch(FancyBboxPatch((x - h * 0.17, y - h * 0.6), h * 0.34, h * 0.6, boxstyle="round,pad=0.4", fc=col, ec="white", lw=1.5, zorder=4))
+
+    def casa(x):
+        ax.add_patch(Polygon([(x - 9, 22), (x, 14), (x + 9, 22)], closed=True, fc="#e2e8f0", ec="#94a3b8", lw=1.5, zorder=1))
+        ax.add_patch(Rectangle((x - 7.5, 22), 15, 14, fc="#f8fafc", ec="#94a3b8", lw=1.5, zorder=1))
+
+    P1, P2, H = "#0f766e", "#14b8a6", "#f59e0b"
+    xs = [11, 36, 61, 89]
+    for x in xs:
+        casa(x)
+    persona(8, 35, 12, P1); persona(14, 35, 12, P2)
+    persona(31, 35, 12, P1); persona(36.5, 35, 12, P2); persona(40.5, 35, 7, H); persona(43, 35, 6, H)
+    persona(58, 35, 12, P1); persona(64, 35, 12, P2)
+    persona(72.5, 35, 10, H); persona(77, 35, 10, H)
+    ax.annotate("", xy=(80.5, 17.5), xytext=(69.5, 17.5), arrowprops=dict(arrowstyle="-|>", lw=2.2, color=ROJO), zorder=5)
+    rot(ax, 75, 12, "los hijos se van", 14, ROJO, w="normal")
+    persona(86, 35, 12, "#64748b"); persona(92, 35, 12, "#94a3b8")
+    for x, t, c in zip(xs, ["Formación", "Expansión", "Dispersión", "Contracción"], [TINTA, TINTA, ROJO, TINTA]):
+        rot(ax, x, 41.5, t, 16, c)
+    for a in (23.5, 48.5):
+        ax.annotate("", xy=(a + 1.8, 29), xytext=(a - 1.8, 29), arrowprops=dict(arrowstyle="-|>", lw=2, color=GRIS), zorder=5)
+    guardar(fig, "dib_ciclo_familiar.jpg")
+
+
+HACER["ciclo_familiar"] = ciclo_familiar
+HACER["malformacion_anorrectal"] = malformacion_anorrectal
+
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
         HACER[n]()
