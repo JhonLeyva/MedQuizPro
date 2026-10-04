@@ -1,0 +1,224 @@
+### GIN-150 | Obesidad pregestacional: diabetes y macrosomía | 2020
+La obesidad no corregida previa al embarazo se asocia con:
+  *A) Diabetes y feto macrosómico
+   B) Hipotiroidismo y feto macrosómico
+   C) Hipertiroidismo y bajo peso al nacer
+   D) Diabetes y RCIU
+   E) Hipotiroidismo y RCIU
+EXP: La obesidad pregestacional representa un importante factor de riesgo para complicaciones metabólicas durante la gestación. Se asocia con mayor probabilidad de desarrollar diabetes gestacional, debido a la resistencia a la insulina inducida por el tejido adiposo. Asimismo, la hiperglicemia materna puede conducir a macrosomía fetal, lo que incrementa el riesgo de parto traumático y cesárea. Esta relación ha sido ampliamente respaldada por estudios clínicos.
+
+### GIN-151 | LES con antifosfolípidos: DIU de cobre | 2020
+Mujer de 27 años de edad, nulípara, con antecedente de lupus eritematoso diseminado y presencia de anticuerpos antifosfolípidos, solicitando un método de planificación familiar. Según la situación se indicaría:
+   A) Minipíldora
+   B) Ligadura tubárica
+   C) Anticonceptivos orales combinados
+  *D) Dispositivo intrauterino T de cobre
+   E) Anillo vaginal combinado
+EXP: Las mujeres con lupus eritematoso sistémico (LES) y anticuerpos antifosfolípidos tienen mayor riesgo de eventos trombóticos, por lo que están contraindicados los anticonceptivos hormonales combinados. Además, algunos métodos hormonales también pueden exacerbar la actividad del LES. Dentro de los métodos reversibles de larga duración (LARC), el DIU de cobre es una buena opción siempre que no haya contraindicación ginecológica (ej. sangrado abundante). En pacientes nulíparas se puede usar, aunque debe explicarse el riesgo de expulsión.
+
+### CB-057 | Células gustativas: neuroepiteliales | 2020
+Un síntoma de COVID-19 es la pérdida del sabor. La causa más probable es que los receptores del sabor no interactúen con las moléculas del olor, por ello los estímulos no serían transportados al sistema nervioso central para su percepción. ¿Qué tipo de células poseen dichos receptores?
+   A) Mioblastos
+   B) Neuroblastos
+   C) Stem cell
+  *D) Neuroepiteliales
+   E) Fibroblastos
+EXP: La pérdida del sabor en pacientes con COVID-19 se ha atribuido a la afectación del epitelio sensorial, específicamente en las células responsables de la percepción gustativa. Estas células son las neuroepiteliales, que forman parte de las papilas gustativas y se encargan de transformar estímulos químicos en impulsos nerviosos. La infección por SARS-CoV-2 puede dañar directamente estas células o afectar su funcionamiento a través de procesos inflamatorios locales. La interacción entre gusto y olfato también se ve alterada, afectando la percepción completa del sabor.
+
+### NRL-042 | Miastenia gravis: destrucción de receptores de acetilcolina | 2020
+Mujer de 56 años con caída paulatina de párpados y visión doble. Le diagnostican enfermedad autoinmune que afecta la placa mioneural. ¿Cuál es el defecto molecular más importante en esta patología?
+   A) Incremento de la acetilcolinesterasa
+   B) Bloqueo de la liberación de acetilcolina
+  *C) Destrucción de receptores de la acetilcolina
+   D) Destrucción de los canales de calcio postsinápticos
+   E) Aumento de la recaptación de acetilcolina
+EXP: El cuadro clínico descrito —ptosis palpebral progresiva y diplopía— es característico de miastenia gravis, una enfermedad autoinmune que afecta la unión neuromuscular. El defecto principal consiste en la destrucción o bloqueo de los receptores nicotínicos de acetilcolina en la placa motora, lo cual impide una adecuada transmisión del impulso nervioso hacia el músculo. Esto provoca debilidad fluctuante que mejora con el reposo.
+
+### GIN-152 | HTA crónica en gestante con IECA: metildopa | 2020
+Mujer de 39 años, múltiples gestaciones, usuaria de captopril. En primer control (10 semanas), PA = 150/95 mmHg, asintomática. ¿Cuál es el antihipertensivo más seguro para esta gestante?
+  *A) Metildopa
+   B) Captopril
+   C) Hidralazina
+   D) Nifedipino
+   E) Enalapril
+EXP: La paciente tiene hipertensión arterial crónica diagnosticada en el primer trimestre y está en uso de captopril, un inhibidor de la ECA contraindicado en embarazo por su potencial teratogénico y efectos adversos fetales (oligohidramnios, hipoplasia pulmonar, insuficiencia renal fetal). El manejo debe incluir cambio inmediato a un antihipertensivo seguro en la gestación. En este contexto, la metildopa es el medicamento de primera línea debido a su seguridad materno-fetal comprobada. Hidralazina y nifedipino son opciones viables también, pero metildopa es la más segura en uso crónico.
+
+### GIN-153 | Embarazo adolescente: menor riesgo de diabetes | 2020
+Mujer de 16 años, con embarazo de 15 semanas, acude a control prenatal y desea saber a qué complicación esta menos expuesta por su edad cronológica. Señale la respuesta correcta:
+   A) Anemia ferropénica
+   B) Hipertensión arterial
+   C) Parto pretérmino
+  *D) Diabetes Mellitus
+   E) Preeclampsia
+EXP: Las gestantes adolescentes tienen mayores riesgos obstétricos por su inmadurez biológica, incluyendo parto pretérmino, anemia y preeclampsia, entre otros. Sin embargo, el riesgo de desarrollar diabetes mellitus gestacional es menor en este grupo etario en comparación con gestantes mayores, quienes presentan mayor resistencia a la insulina y cambios metabólicos. Por tanto, entre las complicaciones listadas, la que menos probablemente desarrollará una gestante adolescente de 16 años es la diabetes mellitus.
+
+### CIR-087 | Enfermedad arterial periférica: claudicación intermitente | 2020
+Varón de 74 años, diabético e hipertenso, con dolor en pantorrillas al deambular y que calma de inmediato al reposo, calambres,aumento de volumen y disminución de pulso pedio. Angiotomografía: calcificación de arteria tibial posterior, lesión estenótica menor del 50% ¿Cuál es el diagnóstico más probable?
+  *A) Claudicación intermitente
+   B) Síndrome compartimental crónico
+   C) Claudicación venosa
+   D) Quiste de Baker sintomático
+   E) Trombosis venosa profunda
+EXP: Paciente con factores de riesgo cardiovascular (diabetes, HTA), dolor de pantorrillas al caminar que cede al reposo, se encuentra frente a una claudicación intermitente, signo de enfermedad arterial periférica. Aunque la angiotomografía revela una estenosis menor del 50%, la clínica es sugestiva. El pulso pedio disminuido refuerza la sospecha de compromiso arterial. Las otras opciones (síndrome compartimental, quiste de Baker o claudicación venosa) no explican el patrón clásico de dolor inducido por ejercicio y aliviado por reposo.
+
+### NEF-068 | Cáncer de próstata localizado: prostatectomía radical | 2020
+Varón de 65 años, inicia enfermedad con nicturia y hemospermia de manera súbita. Antecedentes: Padre falleció de cáncer de próstata. TR: próstata indurada. APS: 11,5 ng/ml. Gleason < 6.TEM: No extensión extra prostática. ¿Cuál es el tratamiento indicado?
+  *A) Prostatectomía radical
+   B) Radioterapia y hormonoterapia
+   C) Hormonoterapia y quimioterapia
+   D) Orquidectomía y radioterapia
+   E) Vigilancia sin tratamiento
+EXP: Paciente con síntomas de cáncer de próstata, antecedentes familiares y un PSA elevado (11,5 ng/mL), con tacto rectal sugestivo y un Gleason bajo (<6), sin evidencia de extensión extracapsular. En este caso de cáncer localizado y bajo riesgo, la prostatectomía radical es una opción curativa. En casos más avanzados o con Gleason altos se considerarían hormonoterapia y/o radioterapia. Por tanto, en este escenario inicial y localizado, la respuesta correcta es A: prostatectomía radical.
+
+### CIR-088 | Hernia crural estrangulada reducida bajo anestesia: laparotomía | 2020
+Mujer de 38 años, con diagnóstico de hernia crural derecha complicada por probable estrangulación y que se reduce en forma inadvertida en el momento de la anestesia general. ¿Cuál es el abordaje aconsejable en este caso?
+   A) Laparotomía paramediana
+  *B) Laparotomía mediana
+   C) Inguinal derecha
+   D) Posterior
+   E) Laparoscopía diagnóstica diferida
+EXP: La hernia crural complicada por estrangulación que se reduce inadvertidamente bajo anestesia puede hacer que el segmento intestinal comprometido retorne a la cavidad abdominal. Esto representa un riesgo, ya que, si está necrótico, puede desencadenar peritonitis. El abordaje quirúrgico debe permitir evaluar la viabilidad intestinal. Por eso, la laparotomía mediana es el abordaje ideal, ya que permite inspeccionar adecuadamente las asas intestinales. Las vías inguinal o posterior no ofrecen acceso suficiente al contenido herniado ya reducido.
+
+### CIR-089 | Herida precordial: taponamiento cardiaco | 2020
+Varón de 27 años, llega a la Emergencia por presentar herida punzo penetrante en la región precordial. Pálido, disneico, hipotenso, se observa ingurgitación yugular y apagamiento de los ruidos cardiacos. ¿Cuál es el diagnóstico probable?
+   A) Neumotórax a tensión
+  *B) Taponamiento cardíaco
+   C) Neumotórax simple
+   D) Hemotórax
+   E) Contusión miocárdica
+EXP: La tríada de Beck: hipotensión, ingurgitación yugular y ruidos cardíacos apagados en el contexto de trauma torácico penetrante es altamente sugerente de taponamiento cardíaco. Esta entidad ocurre cuando la sangre se acumula en el saco pericárdico, comprimiendo el corazón e impidiendo el llenado adecuado de las cavidades. El paciente suele estar pálido y disneico, con signos de shock. El tratamiento es pericardiocentesis urgente o toracotomía exploratoria. El neumotórax a tensión puede compartir signos similares, pero en este caso hay herida precordial, no torácica lateral.
+
+### NRL-043 | Hemorragia de fosa posterior con compresión del tronco: cirugía | 2020
+Varón de 65 años, con diagnóstico de compresión del tallo encefálico por hemorragia en la fosa posterior. Examen: agitación, obnubilación progresiva e hipertensión endocraneana. ¿Cuál es la conducta más apropiada?
+   A) Angiografía y craneotomía
+  *B) Ventriculostomía y craniectomía suboccipital
+   C) Ventilación para disminuir PaCO₂
+   D) Uso de manitol
+   E) Punción lumbar evacuadora
+EXP: La hemorragia en la fosa posterior con compresión del tronco encefálico es una emergencia neuroquirúrgica. El tratamiento más apropiado es la descompresión quirúrgica mediante una craniectomía suboccipital asociada a ventriculostomía para aliviar la hipertensión endocraneana. El uso de manitol o hiperventilación puede ser útil como medida transitoria, pero no resuelve la causa estructural. La angiografía no es prioritaria en una emergencia con deterioro neurológico. Por tanto, la descompresión quirúrgica inmediata es el paso crucial.
+
+### CB-058 | Intoxicación por barbitúricos: no responde a flumazenilo | 2020
+Mujer de 19 años quien la noche anterior, tras una discusión familiar, se encerró en su dormitorio. En la mañana es encontrada tendida sobre su cama con la piel fría y una respiración poco perceptible. En emergencia entra en un coma profundo con pupilas puntiformes, bradipnea y cianosis. Tras el abordaje inicial, se le administró flumazenilo sin mejoría ¿Cuál será la causa más probable de intoxicación de esta paciente?
+  *A) Barbitúricos
+   B) Carbamatos
+   C) Benzodiacepinas
+   D) Fenitoína
+   E) Paracetamol
+EXP: La paciente presenta un cuadro de intoxicación con signos compatibles con depresión del sistema nervioso central: coma profundo, pupilas puntiformes, bradipnea y cianosis. El uso de flumazenilo sin respuesta sugiere que no se trata de una intoxicación por benzodiacepinas. Los barbitúricos también producen depresión del sensorio, bradipnea y coma, y no responden al antídoto de las benzodiacepinas. Además, el antecedente de encierro tras una discusión familiar apunta a intento autolítico. Los carbamatos se asocian más a síntomas colinérgicos.
+
+### NEU-041 | Disnea súbita con hipoxemia y Rx normal: TEP | 2020
+Un paciente hospitalizado presenta disnea súbita con hipoxemia, se descarta problema coronario. La radiografía de tórax es normal. Señale cual sería el diagnóstico más probable.
+   A) Crisis de ansiedad
+   B) Neumonía atípica
+   C) Neumonía intrahospitalaria
+  *D) Tromboembolismo pulmonar
+   E) Edema agudo de pulmón
+EXP: En pacientes hospitalizados que presentan disnea súbita e hipoxemia sin hallazgos en la radiografía de tórax, se debe sospechar tromboembolismo pulmonar (TEP). Es un diagnóstico frecuente en este contexto, especialmente si existen factores de riesgo como inmovilización, cirugías o infecciones. La neumonía generalmente produce hallazgos en la radiografía. Una crisis de ansiedad puede producir disnea, pero no hipoxemia. El TEP es la única opción que explica la presentación aguda con hipoxemia y estudios de imagen normales.
+
+### CAR-054 | Coartación de aorta en el adulto joven | 2020
+Varón de 28 años acude para evaluación de riesgo quirúrgico de cirugía programada. Al examen: PA: 200/135 mmHg en miembros superiores, FC 60 x’. regular. Soplo sistólico en mesocardio irradiado a espalda II/VI. Pulso femoral pequeño. ¿Cuál es su probable diagnóstico?
+  *A) Coartación de aorta
+   B) Estenosis aórtica
+   C) Estenosis mitral
+   D) Enfermedad de Takayasu
+   E) Feocromocitoma
+EXP: La coartación de aorta es una causa congénita de hipertensión arterial en jóvenes. Se caracteriza por presión arterial elevada en los miembros superiores, pulsos femorales débiles o ausentes y soplo sistólico irradiado hacia la espalda. Estos hallazgos clínicos son clave para su diagnóstico. La estenosis aórtica y mitral no generan este patrón de distribución de presión. La enfermedad de Takayasu puede simularlo, pero suele afectar mujeres jóvenes y s e presenta con claudicación o ausencia de pulsos más generalizada.
+
+### HEM-031 | Trombosis venosa profunda por inmovilización | 2020
+Mujer de 69 años, durante 2 semanas estuvo en cama por neumonía vírica complicada con neumonía bacteriana. Al examen: edema y dolor a la palpación en pierna derecha que se incrementa con el movimiento. ¿Qué término describe mejor este trastorno?
+   A) Coagulación intravascular diseminada
+   B) Venas varicosas
+   C) Linfedema
+  *D) Trombosis de venas profundas
+   E) Celulitis
+EXP: La paciente estuvo en cama por dos semanas, lo que representa un claro factor de riesgo para trombosis venosa profunda (TVP). El dolor a la palpación, edema unilateral y aumento con el movimiento son signos clásicos de TVP. La linfedema suele ser indoloro, bilateral y crónico. Las venas varicosas tampoco explican el dolor agudo. La coagulación intravascular diseminada cursa con sangrados y alteraciones en pruebas de coagulación, no con edema localizado. El diagnóstico más probable es TVP.
+
+### CAR-055 | Tos por IECA: retirar captopril | 2020
+Varón de 62 años, hipertenso controlado con captopril y amlodipino. Cursa con tos seca intermitente. Evaluado por neumología y otorrinolaringología sin hallazgos contributarios. La conducta apropiada a seguir es:
+   A) Agregar acetilcisteína
+  *B) Retirar captopril
+   C) Retirar amlodipino
+   D) Agregar codeína
+   E) Agregar un antihistamínico
+EXP: El captopril, inhibidor de la enzima convertidora de angiotensina (IECA), es conocido por inducir tos seca en una proporción importante de pacientes, debido al aumento de bradicininas en el árbol bronquial. Esta tos puede ser persistente y no mejora con antitusígenos ni mucolíticos. Si la evaluación neumológica y ORL no identifica otra causa, la conducta más adecuada es suspender el IECA y cambiarlo por un ARA-II. Amlodipino no suele causar este tipo de tos.
+
+### HEM-032 | Pancitopenia: buscar fármacos mielotóxicos | 2020
+Mujer de 44 años, refiere hace 2 semanas equimosis múltiples, debilidad y tos intensa con esputo amarillento. Al examen: T° 38,4 °C y crepitantes en ambos campos pulmonares. Laboratorio: leucocitos 1.400/mm3; Hb 7,2 g/dl; plaquetas:35.000/mm3. En su anamnesis ¿Cuál es la información que usted debe buscar para llegar al diagnóstico?
+  *A) Exposición previa a medicamentos
+   B) Antecedentes familiares de anemias
+   C) Hábitos dietéticos permanentes
+   D) Infecciones bacterianas recientes
+   E) Viajes recientes
+EXP: La paciente presenta leucopenia, anemia y trombocitopenia (pancitopenia), además de fiebre y equimosis, lo que sugiere un proceso medular. La causa más común de pancitopenia adquirida en adultos es la toxicidad medular inducida por fármacos. El antecedente de exposición a medicamentos mielotóxicos (como cloranfenicol, quimioterápicos, algunos antibióticos) es fundamental para el diagnóstico. Si bien pueden existir otras causas, este dato orientará la anamnesis hacia el diagnóstico más probable: aplasia o hipoplasia medular inducida.
+
+### CAR-056 | Endocarditis con embolia cerebral | 2020
+Varón de 35 años, con fiebre de 02 meses de evolución, baja de peso, que ingresa al servicio de emergencia por déficit motor agudo de hemicuerpo izquierdo. Antecedente de fiebre reumática en la infancia. Al examen: Ruidos cardiacos rítmicos, soplo de sistólico irradiado a la axila. Ecocardiograma: soplo de regurgitación mitral. ¿Cuál es la causa más probable del daño neurológico?
+   A) Síndrome antifosfolipídico
+   B) Fiebre reumática
+   C) Fibrilación auricular
+  *D) Endocarditis infecciosa
+   E) Hemorragia cerebral hipertensiva
+EXP: El paciente presenta fiebre prolongada, soplo mitral y un evento neurológico agudo (déficit motor súbito), lo que es altamente sugestivo de una endocarditis infecciosa con embolización cerebral. El antecedente de fiebre reumática sugiere una valvulopatía previa, predisponente para endocarditis. El ecocardiograma revela insuficiencia mitral, hallazgo común en este contexto. La fiebre reumática en sí misma no causa eventos embólicos, y la fibrilación auricular, aunque embolígena, no ha sido documentada en el caso.
+
+### INF-079 | Mononucleosis: transmisión por saliva | 2020
+Varón de 23 años, desde hace 2 semanas malestar general, febrícula y odinofagia. Al examen: T° 37,6 °C, orofaringe eritematosa, no exudados. Linfoadenopatías dolorosas en región cervical, axilar e inguinal. Laboratorio: Linfocitosis con cambios citopáticos virales ¿Cuál es el factor de riesgo causante?
+   A) Exposición a orina de roedor
+   B) Picadura de zancudo aedes
+   C) Consumo de ostras crudas
+  *D) Contacto personal estrecho (besos)
+   E) Transfusión sanguínea reciente
+EXP: El cuadro clínico es típico de mononucleosis infecciosa, causada por el virus de Epstein-Barr. La enfermedad se caracteriza por fiebre leve, odinofagia, linfadenopatía generalizada y linfocitos atípicos. El contagio se produce principalmente por contacto personal estrecho, especialmente a través de la saliva (por besos), de ahí su apodo: “enfermedad del beso”. No hay relación en este caso con exposición a roedores, alimentos o vectores.
+
+### GAS-055 | Esófago de Barrett: adenocarcinoma | 2020
+Varón de 55 años, desde hace 6 meses presenta disfagia progresiva. Endoscopia digestiva alta: áreas de mucosa eritematosa a 3 cm por encima de la línea Z. Bx de esófago distal: epitelio cilíndrico simple con células caliciformes. Pensando en complicaciones posteriores. ¿Cuál es la probable?
+  *A) Adenocarcinoma
+   B) Acalasia
+   C) Carcinoma epidermoide
+   D) Formación de divertículos
+   E) Estenosis péptica benigna únicamente
+EXP: Paciente con disfagia progresiva y hallazgos endoscópicos compatibles con esófago de Barrett (epitelio cilíndrico con células caliciformes). Esta condición representa una metaplasia intestinal secundaria al reflujo gastroesofágico crónico. Su principal complicación es el desarrollo de displasia y progresión a adenocarcinoma de esófago. Acalasia y carcinoma epidermoide se relacionan con otras etiologías. Los divertículos son hallazgos anatómicos no relacionados con Barrett.
+
+### NEU-042 | Sospecha de TEP con dímero D alto: angio-TEM | 2020
+Mujer de 68 años hospitalizada por infarto cerebral. 2 semanas después al comenzar a caminar presenta súbitamente disnea grave con dolor torácico y diaforesis. Se halla un Dímero D > 500 ng/ml. ¿Cuál sería el siguiente examen a realizar?
+   A) Rayos x
+  *B) Angio TEM
+   C) Doppler
+   D) Cateterismo cardiaco
+   E) Gammagrafía ósea
+EXP: La paciente, inmovilizada tras un evento vascular cerebral, presenta disnea súbita con dolor torácico, lo que sugiere un tromboembolismo pulmonar (TEP). El dímero D elevado apoya esta sospecha. El siguiente paso diagnóstico ideal es la angio-TEM pulmonar, que confirma o descarta TEP. El Doppler puede usarse para buscar TVP en miembros inferiores, pero no es concluyente para TEP. Rx tiene baja sensibilidad, y el cateterismo no es diagnóstico en esta etapa.
+
+### PED-149 | TB primaria en el niño: adenopatías hiliares | 2020
+Niño de 12 años, padre en tratamiento antituberculoso desde hace 1 mes. Consulta por fiebre, estridor inspiratorio y tos no productiva. El PPD es positivo. Auscultación pulmonar no muestra semiología anormal. Se le toma RX de tórax en donde se espera encontrar:
+  *A) Adenopatías hiliares
+   B) Nódulos pulmonares miliares
+   C) Consolidación neumónica
+   D) Cavitación en el lóbulo superior
+   E) Derrame pleural masivo
+EXP: Niño con contacto intradomiciliario de TB activa, PPD positivo, tos seca y estridor sin hallazgos a la auscultación: la tuberculosis primaria infantil se presenta sobre todo con adenopatías hiliares o mediastinales, que pueden comprimir la vía aérea y producir estridor. La cavitación es propia de la TB del adulto y el patrón miliar se acompaña de compromiso general grave.
+
+### NEU-043 | Neumotórax espontáneo primario: bullas subpleurales | 2020
+Varón de 20 años, previamente sano, se tropieza y cae al suelo mientras corre. Súbitamente experimenta disnea pronunciada. Al examen: no se ausculta murmullo vesicular en hemitorax derecho. Rx de tórax: desplazamiento del mediastino de derecha a la izquierda. Se coloca un tubo de tórax en el lado derecho y se observa salida de aire. ¿Cuál es la patología más probable?
+   A) Embolismo graso
+   B) Asma bronquial
+   C) Hemotórax espontáneo
+  *D) Enfisema acinar distal
+   E) Neumonía lobar
+EXP: Joven sano con disnea súbita post-traumatismo leve, ausencia de murmullo y desviación mediastínica: sospecha de neumotórax a tensión. La salida de aire al colocar tubo lo confirma. En jóvenes, el neumotórax espontáneo primario se asocia a enfisema acinar distal, que implica ruptura de bullas subpleurales. No hay datos de trauma severo ni antecedentes para sospechar embolismo graso o hemotórax.
+
+### INF-080 | Hiperinfección por Strongyloides en HTLV-1 | 2020
+Mujer de 28 años portadora de HTLV1. Acude por presentar diarrea líquida profusa y tos. Laboratorio: leucocitos 12.900/mm3, con discreta neutrofilia, 8% de monocitos y 14% de eosinófilos. Muestra de heces y esputo: larvas rabditoideas. ¿Cuál es la infección más probable?
+   A) Oncocercosis
+   B) Ascaridiasis
+  *C) Estrongiloidosis
+   D) Esquistosomiasis
+   E) Ancilostomiasis
+EXP: Paciente inmunocomprometida con HTLV-1 presenta diarrea y larvas rabditoideas en heces y esputo, cuadro típico de estrongiloidiasis diseminada. Esta parasitosis, causada por Strongyloides stercoralis, puede progresar a forma hiperinfecciosa en inmunosupresión, migrando a pulmones y tracto digestivo. Eosinofilia y el hallazgo de larvas tanto en heces como esputo son diagnósticos. Oncocercosis y esquistosomiasis no dan este cuadro.
+
+### INF-081 | Leptospirosis: penicilina EV | 2020
+Varón de 55 años, campesino de Lurín, presenta hace 7 días presenta fiebre, cefalea, mialgias intensas e ictericia. Al examen: inyección conjuntival, exantema en tórax. Laboratorio: AST/ALT no superan 5 veces el valor normal. ¿Cuál es el tratamiento indicado?
+   A) Vancomicina EV
+   B) Levofloxacino EV
+  *C) Penicilina EV
+   D) Imipenem EV
+   E) Metronidazol EV
+EXP: Paciente con síndrome febril agudo, ictericia, mialgias severas e inyección conjuntival, que son signos típicos de leptospirosis, enfermedad zoonótica frecuente en zonas rurales y húmedas como Lurín. La ictericia y el daño hepatorrenal en este contexto corresponden a la forma grave (síndrome de Weil). El tratamiento recomendado es la penicilina cristalina EV, especialmente si hay compromiso sistémico. Levofloxacino e imipenem no son de elección en esta patología. El diagnóstico temprano y tratamiento oportuno pueden evitar complicaciones severas.

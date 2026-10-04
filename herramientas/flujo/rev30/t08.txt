@@ -1,0 +1,224 @@
+### SP-125 | Valoración geriátrica integral | 2021
+La determinación del estado cognitivo, afectivo y estado socio familiar forman parte de la valoración clínica integral del:
+   A) Adolescente
+   B) Adulto joven
+   C) Recién nacido
+  *D) Adulto mayor
+   E) Lactante
+EXP: La atención integral al adulto mayor implica una valoración multidimensional, donde no solo se exploran aspectos biomédicos, sino también el estado cognitivo (memoria, atención, juicio), el estado afectivo (presencia de depresión, ansiedad) y la situación social y familiar (redes de apoyo, dependencia, convivencia). Esta evaluación holística permite identificar factores de fragilidad, riesgos de caídas, deterioro funcional o aislamiento, elementos comunes en este grupo etario. En contraste, en el recién nacido se priorizan aspectos neonatales, en el adolescente se abordan componentes psicosociales y del desarrollo, y en el adulto joven, la evaluación s e enfoca más en estilos de vida y salud reproductiva. Por ello, este enfoque integral es distintivo de la geriatría y fundamental en la planificación de cuidados personalizados y preventivos.
+
+### PED-163 | Ductus arterioso permeable en el prematuro | 2021
+¿Cuál es la cardiopatía congénita acianótica más frecuente en un recién nacido pretérmino?
+   A) Insuficiencia cardiaca
+   B) Comunicación interauricular
+   C) Comunicación interventricular
+  *D) Ductus aterioso permeable
+   E) Coartación de aorta
+EXP: En el contexto de neonatos, especialmente los pretérmino, la persistencia del ductus arterioso (PDA) es la cardiopatía congénita acianótica más frecuente. Esto se debe a la inmadurez del mecanismo de cierre del conducto arterioso tras el nacimiento. En condiciones normales, el ductus se cierra funcionalmente en las primeras 48 horas, pero en prematuros puede mantenerse abierto, generando un cortocircuito izquierda-derecha, sobrecarga pulmonar y signos de insuficiencia cardíaca. La comunicación interventricular o interauricular son frecuentes en términos globales, pero en el neonato prematuro el PDA es más prevalente y clínicamente relevante. Su diagnóstico se confirma por ecocardiografía y puede requerir tratamiento médico (indometacina, ibuprofeno) o cierre quirúrgico en casos refractarios.
+
+### END-049 | Tormenta tiroidea en la gestante | 2021
+Gestante de 20 semanas, consulta por aumento de sensibilidad al calor, sudoración excesiva y diarreas frecuentes. Al examen: T°: 39.8 ºC, FC: 150 x´, confusa, exoftalmos, ingurgitación yugular, bocio difuso. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad molar
+  *B) Tormenta tiroidea
+   C) Adenoma tóxico
+   D) Tirotoxicosis transitoria del embarazo
+   E) Preeclampsia severa
+EXP: Gestante de segundo trimestre con signos de hipermetabolismo severo (fiebre alta, taquicardia extrema, diarrea, exoftalmos, alteración del sensorio) sugiere una tormenta tiroidea, que es una emergencia endocrinológica. Esta condición ocurre en pacientes con hipertiroidismo descompensado (frecuentemente por enfermedad de Graves), desencadenada por infecciones, estrés o embarazo. El diagnóstico es clínico y debe sospecharse ante síntomas severos de tirotoxicosis con compromiso multisistémico. La tirotoxicosis transitoria del embarazo no genera síntomas tan extremos ni alteración de conciencia. El adenoma tóxico no se presenta con oftalmopatía ni curso agudo. La enfermedad molar no explica el bocio ni el perfil clínico descrito. El tratamiento debe iniciarse de inmediato con betabloqueadores, antitiroideos, y soporte intensivo.
+
+### PED-164 | Asfixia perinatal | 2021
+Recién nacido a término que presentó APGAR de 3 al minuto y 4 a los 5, 10, y 15 minutos. Análisis de gases arteriales: pH: 7.0, PaCO2: 50 mmHg, bicarbonato de sodio:15 mEq/L, DB: -10. ¿Cuál es el diagnóstico más probable?
+   A) Depresión severa
+   B) Encefalopatía hipóxico isquémica
+  *C) Asfixia perinatal
+   D) Apnea neonatal
+   E) Hipoglicemia neonatal
+EXP: El recién nacido a término con APGAR persistentemente bajo (menor a 5 en los primeros 15 minutos) y acidosis metabólica severa (pH ≤ 7.0, BE-10) cumple criterios diagnósticos de asfixia perinatal, de acuerdo con la AAP y la clasificación de Sarnat. Esta condición resulta de hipoxia-isquemia severa intraparto o periparto, con compromiso multiorgánico y riesgo elevado de encefalopatía hipóxico-isquémica. El diagnóstico no se basa solo en el puntaje APGAR, sino también en el análisis de gases y la clínica. La opción “depresión severa” no especifica etiología; “apnea neonatal” no explica acidosis metabólica ni APGAR bajo sostenido. El manejo incluye soporte intensivo, posible hipotermia terapéutica y neuroprotección.
+
+### GAS-059 | Cáncer de cabeza de páncreas | 2021
+Varón de 67 años, fumador pesado, desde hace 2 meses dolor sordo en epigastrio e hipocondrio derecho irradiado a la espalda, deposiciones blanquecinas y baja de peso de 10 kg/2 meses. Al examen: piel y mucosas pálidas e ictéricas, masa dura e irregular en epigastrio de 7 cm de diámetro. Laboratorio: Ca 19.9: 77 kU/l ¿Cuál es el diagnóstico más probable?
+  *A) Cáncer de páncreas
+   B) Colecistitis crónica
+   C) Coledocolitiasis
+   D) Pancreatitis crónica
+   E) Colangiocarcinoma hiliar
+EXP: Paciente varón, adulto mayor, con factores de riesgo como tabaquismo crónico y pérdida ponderal acelerada, presenta síntomas clásicos de neoplasia pancreática: dolor epigástrico irradiado a dorso, ictericia progresiva (coluria, acolia), masa epigástrica y elevación del marcador tumoral Ca 19.9. La localización más común del cáncer pancreático es la cabeza del páncreas, lo cual explica la obstrucción biliar extrínseca y la ictericia. La colecistitis crónica no genera baja ponderal ni masa palpable. La coledocolitiasis puede dar ictericia, pero no explica la masa ni la pérdida de peso significativa. La pancreatitis crónica puede parecerse, pero suele tener historia más prolongada y sin tumor palpable. Por tanto, lo más probable es un adenocarcinoma de páncreas.
+
+### PED-165 | Diarrea acuosa secretora: E. coli enterotoxigénica | 2021
+Lactante con T° 37.8 ºC, presenta bruscamente deposiciones acuosas, explosivas, sin moco ni sangre, dolor abdominal y náuseas. ¿Cuál es agente etiológico probable?
+  *A) Escherichia coli enterotoxigénica
+   B) Salmonella Typhimurium
+   C) Shigella dysenteriae
+   D) Campylobacter jejuni
+   E) Entamoeba histolytica
+EXP: Nos encontramos ante un cuadro clínico de diarrea aguda acuosa en un lactante, de inicio brusco, con heces explosivas, sin elementos patológicos como moco ni sangre, acompañado de síntomas gastrointestinales como dolor abdominal y náuseas. Esta presentación es típica de diarrea secretora, cuyo agente más común en zonas endémicas y en menores de 5 años es la Escherichia coli enterotoxigénica (ETEC). Esta bacteria produce enterotoxinas termoestables y/o termolábiles que inducen secreción intestinal sin generar inflamación visible en heces. Shigella dysenteriae y Campylobacter jejuni suelen dar disentería (diarrea con moco y sangre), y Salmonella Typhimurium frecuentemente genera fiebre más elevada, compromiso sistémico o heces con leucocitos. Por lo tanto, la etiología más probable, por clínica y fisiopatología, es ETEC.
+
+### PED-166 | Estimulación temprana | 2021
+La intervención individual del niño, cuyo objetivo es atender oportuna y adecuadamente las necesidades de desarrollo, potenciar las habilidades y actitudes, favoreciendo su desarrollo integral se denomina:
+   A) Consejería nutricional
+   B) Control del desarrollo
+   C) Inmunización
+  *D) Estimulación temprana
+   E) Vigilancia nutricional
+EXP: La estimulación temprana es una intervención sistemática dirigida a niños menores de 5 años, cuyo objetivo es potenciar habilidades cognitivas, motoras, emocionales y sociales, asegurando un desarrollo integral. Se implementa especialmente en niños en riesgo biológico o social (prematurez, desnutrición, pobreza, etc.), y su base es intervenir precozmente para prevenir retrasos del desarrollo. A diferencia del control del desarrollo, que es una actividad de seguimiento, la estimulación implica acciones activas y estructuradas. La consejería nutricional tiene un enfoque alimentario, y la inmunización es una intervención preventiva puntual. Por tanto, la opción que mejor responde al objetivo de potenciar globalmente las capacidades del niño es la estimulación temprana, esencial dentro del enfoque del desarrollo infantil temprano (DIT) del MINSA.
+
+### NEF-070 | Tumor testicular no seminomatoso: alfafetoproteína | 2021
+Varón de 18 años, consulta por tumor en testículo derecho, la biopsia revela: cáncer de testículo tipo no seminoma. ¿Cuál es el marcador tumoral que solicitaría para hacer su seguimiento?
+  *A) Alfa Feto Proteína
+   B) Antígeno carcinoembrionario
+   C) Antígeno polipeptídico tisular
+   D) Antígeno prostático específico
+   E) Ca 19-9
+EXP: El cáncer testicular no seminomatoso incluye varios subtipos: carcinoma embrionario, tumor del saco vitelino, coriocarcinoma y teratoma. Dentro de estos, la alfa-fetoproteína (AFP) es especialmente útil en el seguimiento de tumores del saco vitelino y carcinoma embrionario, ya que se eleva significativamente en estos tipos. Su dosificación es clave tanto en el diagnóstico como en la evaluación de la respuesta al tratamiento y en la detección de recidivas. Otros marcadores útiles son la beta-HCG y LDH, pero no se mencionan en las alternativas. Las demás opciones — antígeno carcinoembrionario, antígeno polipeptídico tisular y PSA— no tienen utilidad específica en este tipo de cáncer, siendo más propias de otros órganos (colon, pulmón, próstata). Por lo tanto, l a AFP es el marcador de elección en este contexto clínico.
+
+### NEF-071 | Glomerulonefritis postestreptocócica tras impétigo | 2021
+Niño de 7 años, con antecedente de impétigo 3 semanas antes, que acude a consulta con su padre, por presentar orina escasa, hematúrica y edema periorbitario. Al examen: PA: 140/90 mmHg. Laboratorio: C3 23 mg/mL. ¿Cuál es el diagnóstico más probable?
+  *A) Glomerulonefritis postestreptocócica
+   B) Síndrome Nefrótico a cambios mínimos
+   C) Glomerulonefritis membranoproliferativa
+   D) Nefropatía por Ig A
+   E) Síndrome hemolítico urémico
+EXP: El contexto clínico es típico de glomerulonefritis postestreptocócica (GNPE), que ocurre 2-3 semanas después de una infección por estreptococo del grupo A, especialmente cutánea (impétigo) o faríngea. El niño presenta signos del síndrome nefrítico: hematuria macroscópica, edema periorbitario, hipertensión arterial y oliguria. El complemento C3 disminuido (hipocomplementemia) es un hallazgo clave y transitorio en esta entidad. A diferencia de la nefropatía por IgA, que se presenta con hematuria sin hipocomplementemia y en días posteriores a una infección respiratoria; la glomerulonefritis membranoproliferativa también puede tener C3 bajo, pero es crónica; y el síndrome nefrótico a cambios mínimos no cursa con hematuria ni HTA. Diagnóstico: GNPE.
+
+### PED-167 | Pielonefritis en la niña: urocultivo | 2021
+Niña de 4 años que presenta dolor abdominal en flancos, vómitos, fiebre, polaquiuria, disuria y enuresis de 3 días de evolución. ¿Cuál análisis confirmaría el diagnóstico?
+  *A) Urocultivo, de chorro medio de orina, mayor de 100.000 ufc/ml
+   B) Examen completo de orina mayor de 5 leucocitos/campo
+   C) Tinción de Gram positivo en orina no centrifugada
+   D) Urocultivo por cateterismo vesical con 1000 ufc/ml
+   E) Urocultivo por bolsa colectora con 10 000 ufc/ml
+EXP: La presentación clínica es típica de una infección del tracto urinario alto (pielonefritis) en pediatría: fiebre, dolor en flancos, vómitos, disuria y enuresis secundaria. Aunque el EGO puede ser sugerente (leucocituria o piuria), el urocultivo cuantitativo es el estándar diagnóstico de confirmación, especialmente con cifras >100,000 ufc/ml en orina de chorro medio. En menores que no colaboran, se puede usar cateterismo vesical con un punto de corte de 1000 ufc/ml. La tinción de Gram puede sugerir germen, pero no es confirmatoria. Por tanto, el diagnóstico certero requiere urocultivo positivo, cumpliendo criterios cuantitativos.
+
+### TRA-036 | Politraumatizado con Glasgow 10: vía aérea y cuello | 2021
+Varón de 20 años que sufrió atropello, es trasladado a Emergencia. Al examen: PA: 100/70 mmHg, FC: 100 x´,FR. 34 x´,T° 36.5 °C, herida sangrante en cuero cabelludo, deformación del muslo derecho. Glasgow: 10. ECOFAST: no líquido libre. ¿Cuál es la primera medida a tomar?
+  *A) Despejar la vía aérea y proteger el cuello
+   B) Colocar férula en MID y proveer aporte de líquidos
+   C) Detener hemorragias y proveer aporte de líquidos
+   D) Evaluar compromiso de conciencia y colocar férula en MID
+   E) TEM cerebral inmediata
+EXP: Este paciente politraumatizado presenta signos de compromiso neurológico (Glasgow 10), fractura de fémur y sangrado de cuero cabelludo. Sin embargo, en todo paciente con trauma grave, se debe seguir el protocolo ABCDE del trauma, donde la prioridad siempre es la A: vía aérea y protección cervical. El descenso del Glasgow (< 13) implica riesgo de obstrucción aérea, por lo que asegurar la vía respiratoria y estabilizar la columna cervical es la intervención más inmediata y prioritaria. Controlar hemorragias, colocar férulas o evaluar conciencia son importantes, pero la vida se asegura primero despejando y protegiendo la vía aérea.
+
+### PSI-032 | Bulimia nerviosa | 2021
+Mujer de 21 años, es traída por su madre, refiere epigastralgia, dice que siente que ha aumentado de peso como consecuencia de “episodios de atracones” de alimentos y que necesita “purga” de manera recurrente como mecanismo compensatorio. ¿Cuál es su diagnóstico?
+  *A) Bulimia
+   B) Anorexia nerviosa
+   C) Depresión reactiva
+   D) Síndrome ansioso
+   E) Hipotiroidismo
+EXP: Paciente femenina joven refiere episodios recurrentes de ingesta excesiva de alimentos (atracones), seguidos por conductas compensatorias como el deseo de “purgarse” para evitar el aumento de peso, lo que es característico del trastorno por bulimia nerviosa. A diferencia de la anorexia, en la bulimia el peso suele mantenerse dentro de rangos normales o incluso ligeramente elevados. No hay indicios de distorsión grave de la imagen corporal ni pérdida de peso extrema, lo cual también aleja el diagnóstico de anorexia. Asimismo, aunque puede haber síntomas depresivos o ansiosos asociados, el núcleo del trastorno es la conducta alimentaria desadaptativa, por lo que la bulimia es el diagnóstico correcto.
+
+### END-050 | Hipotiroidismo tras yodo radiactivo: miopatía | 2021
+Mujer de 26 años diagnosticada de hipertiroidismo hace 6 meses recibe terapia con Iodo radioactivo. Consulta por debilidad muscular que se ha ido incrementando. CPK total y mioglobina, ambas elevadas. La primera posibilidad diagnóstica es:
+   A) Hiperparatiroidismo
+   B) Hipertiroidismo
+   C) Hipoparatiroidismo
+  *D) Hipotiroidismo
+   E) Miositis por yodo radiactivo
+EXP: Paciente con antecedente de hipertiroidismo tratado con yodo radioactivo, que consulta por debilidad muscular progresiva, acompañada de elevación de CPK y mioglobina, hallazgos característicos de una miopatía por hipotiroidismo. Esto es una complicación esperada tras terapia ablativa si no se realiza un control hormonal adecuado. Aunque el cuadro muscular podría parecer relacionado con el hipertiroidismo previo, el perfil bioquímico orienta claramente al estado opuesto. Además, ni el hiperparatiroidismo ni los trastornos del calcio explican este patrón. Así, la primera sospecha diagnóstica debe ser hipotiroidismo post tratamiento con yodo.
+
+### PSI-033 | Crisis psicógena no epiléptica | 2021
+Mujer de 17 años, luego de discusión con la madre, presenta pérdida de la conexión con el medio, movimientos tónicos y aparente opistótonos, movimientos rotatorios en la cama, recuperó conexión con el medio apenas terminado el cuadro. No antecedentes d e convulsiones. Al examen: funciones vitales estables, se aprecia en punta de lengua escoriaciones. No otros signos. La primera posibilidad diagnóstica es crisis:
+   A) Mioclónica
+   B) Parcial simple
+   C) Focal generalizada
+  *D) Pseudoepiléptica
+   E) Tónico-clónica generalizada
+EXP: Paciente adolescente que, tras una discusión, desarrolla un episodio agudo con desconexión del medio, movimientos tónicos y opistótonos, seguido de recuperación completa inmediata y sin antecedentes neurológicos. La presencia de desencadenante emocional agudo, movimientos no estereotipados (rotación en cama) y recuperación súbita son altamente sugestivos de una crisis psicógena no epiléptica o pseudoepiléptica, más común en adolescentes y mujeres. La ausencia de signos como mordedura de lengua lateral, incontinencia urinaria o confusión postictal también apoya este diagnóstico. Se descartan crisis epilépticas verdaderas por su semiología atípica y contexto psicológico claro. Se trata de un cuadro funcional de conversión.
+
+### GAS-060 | Pancreatitis crónica con baja de peso: descartar cáncer | 2021
+Varón de 55 años diagnosticado de pancreatitis crónica post alcohólica, recibe terapia con enzimas pancreáticas. En actual control refiere que desde hace 20 días tiene dolor abdominal que calma con AINEs. Evidencia disminución de peso de 5 kg en los últimos dos meses. ¿Cuál es la más relevante conducta a seguir?
+  *A) Ordenar tomografía de abdomen
+   B) Retirar la terapia de enzimas pancreáticas
+   C) Prohibir AINEs
+   D) Prescribir dieta hiperproteica
+   E) Aumentar la dosis de enzimas y observar
+EXP: Varón con pancreatitis crónica de etiología alcohólica, que presenta pérdida de peso significativa y dolor abdominal persistente no resuelto con tratamiento enzimático. Estos hallazgos son banderas rojas para descartar una complicación grave como cáncer de páncreas, especialmente si se localiza en la cabeza del órgano. El dolor que calma con AINEs puede ser engañoso, pero el cambio en el patrón de síntomas y la pérdida ponderal exigen un estudio por imagen. Por tanto, la conducta más relevante y urgente es solicitar una tomografía contrastada de abdomen, para evaluar estructuras pancreáticas y descartar una neoplasia o complicaciones locales como pseudoquistes.
+
+### NEU-046 | Indicación de ventilación mecánica: hipercapnia severa | 2021
+Maratonista de 39 años, tras competencia a 3,600 m de altura presenta severo deterioro físico. Se le realizan exámenes que mostraron importantes desequilibrios. Se decide entonces instaurar ventilación mecánica basándose en el hallazgo de:
+  *A) Hipercapnia severa
+   B) Dímero D elevado
+   C) Troponina I elevada
+   D) Saturación de O₂ de 85%
+   E) Leucocitosis
+EXP: Maratonista sometido a esfuerzo físico extremo a gran altitud (3,600 m), que tras la competencia presenta deterioro sistémico severo. En este contexto, es esperable hipoxemia; sin embargo, la indicación de ventilación mecánica se basa en la presencia de hipercapnia severa, ya que este hallazgo refleja fallo ventilatorio con retención de CO₂, lo cual es un criterio claro de insuficiencia respiratoria aguda. Otras alteraciones (como dímero D o troponina elevada) pueden indicar daño tisular, pero no justifican ventilación mecánica por sí solas. La retención de CO₂ compromete el pH y la función cerebral, por lo que se convierte en la variable crítica a corregir.
+
+### CAR-060 | Paro cardiaco intrahospitalario: monitor desfibrilador | 2021
+Varón de 64 años, funcionario responsable del Plan Nacional de vacunación para COVID. Acude a emergencia refiriendo dolor retroesternal con antecedente de 3 episodios de dolor opresivo en el pecho en el último año. Al examen: orientado, lúcido. Se abre vía periférica y se administra oxígeno a razón de 5 litros por minuto, súbitamente pierde la conciencia y cesa la respiración. Se inicia soporte básico vital sin recuperar signos vitales. ¿Cuál es el inmediato siguiente accionar?
+  *A) Monitor desfibrilador
+   B) Intubación orotraqueal
+   C) Cristaloides a chorro
+   D) Adrenalina en bolo
+   E) Atropina
+EXP: Paciente varón de 64 años con antecedentes sugerentes de angina inestable (dolor opresivo retroesternal en episodios previos), que presenta paro cardiorrespiratorio súbito en contexto hospitalario tras recibir oxigenoterapia. El manejo inicial adecuado ya fue iniciado: soporte básico vital, pero al no haber recuperación de signos vitales, el paso siguiente e inmediato es la colocación del monitor desfibrilador. Esto permitirá identificar el ritmo cardiaco (fibrilación ventricular, taquicardia ventricular sin pulso, asistolia o actividad eléctrica sin pulso), lo cual dirige la conducta específica de RCP avanzada. El uso de medicamentos o maniobras invasivas como intubación se define después de saber si el ritmo es desfibrilable o no. Por tanto, el monitor desfibrilador es esencial y prioritario en el algoritmo de paro cardiorrespiratorio.
+
+### NEU-047 | Asma: crisis de madrugada | 2021
+La relación existente entre el ritmo circadiano y las crisis de asma bronquial, determinan que las crisis asmáticas se produzcan con más frecuencia en el horario de:
+   A) 14 a 16
+   B) 10 a 12
+  *C) 4 a 6
+   D) 20 a 22
+   E) 8 a 10
+EXP: Está bien documentado que el asma bronquial presenta un patrón circadiano que condiciona empeoramiento de los síntomas en la madrugada. Esto se debe a fenómenos como la reducción del cortisol endógeno, aumento del tono vagal y variación nocturna de la función pulmonar, como el volumen espiratorio forzado (VEF1). Por eso, los pacientes asmáticos frecuentemente despiertan en la madrugada con disnea o tos seca. El intervalo horario más comprometido es entre las 4 a.m. y 6 a.m., por lo que esta alternativa representa la respuesta correcta con base fisiológica y clínica clara.
+
+### INF-084 | Dengue en la gestante: paracetamol | 2021
+Gestante de 19 años acude a consulta externa por fiebre constante de 39 °C que comenzó ese mismo día. Refiere mialgia intensa en todo el cuerpo, dolor retroorbital. Hace 03 días estuvo en Tumbes visitando a un familiar. ¿Cuál es la indicación adecuada?
+   A) Naproxeno
+  *B) Paracetamol
+   C) Ácido acetilsalicílico
+   D) Ketoprofeno
+   E) Corticoides orales
+EXP: Se presenta una gestante con fiebre alta, mialgia intensa y dolor retroocular, en el contexto de un viaje reciente a Tumbes, zona endémica de arbovirosis como dengue. La sintomatología es altamente sugerente de dengue clásico en fase febril inicial. En gestantes, se contraindica el uso de AINES como naproxeno, ácido acetilsalicílico y ketoprofeno debido al riesgo de hemorragia fetal, cierre prematuro del ductus arterioso y trastornos renales neonatales. La fiebre y el dolor deben manejarse con paracetamol, el cual es seguro en embarazo y eficaz como antipirético. En resumen, la opción más adecuada y segura es el uso exclusivo de paracetamol.
+
+### INF-085 | Celulitis facial odontógena grave | 2021
+Paciente de 40 años diabética, consulta por absceso del 2do molar inferior derecho, se le prescribe PNC procaínica por 5 días sin mejoría, se cambia a Ciprofloxacina VO x 5 días. La paciente empeora, tiene fiebre alta, náuseas, vómitos y edema facial eritematoso caliente empastado y doloroso. El día 9 el médico diagnostica celulitis de la cara y la hospitalizan. Mientras se espera resultado de hemocultivo se rota antibiótico. ¿Cuál sería el escogido?
+  *A) Vancomicina con Clindamicina
+   B) Amikacina con Ciprofloxacina
+   C) Cloramfenicol con Amoxicilina
+   D) Azitromicina con Ticarcilina
+   E) Amoxicilina oral
+EXP: La paciente presenta una celulitis facial secundaria a infección odontógena, con evolución tórpida a pesar de manejo antibiótico ambulatorio. Es diabética, lo que predispone a infecciones graves y polimicrobianas. La clínica de fiebre alta, náuseas, vómitos y celulitis facial con signos inflamatorios severos indica una posible diseminación sistémica, por lo cual se requiere manejo hospitalario y antibióticos intravenosos de amplio espectro. La combinación de vancomicina (activa contra grampositivos resistentes como S. aureus) y clindamicina (efectiva en anaerobios y toxina-inhibidora) es la más adecuada para infecciones profundas de cabeza y cuello, sobre todo si se sospecha síndrome de Lemierre u otras complicaciones.
+
+### NEU-048 | Gota por pirazinamida | 2021
+Varón de 28 años con diagnóstico de tuberculosis pleural, lleva un mes de tratamiento con tuberculostáticos de primera línea. Consulta por inflamación del primer ortejo del pie derecho. Ácido úrico: 12 mg/dl. ¿Cuál sería la medida adecuada?
+   A) Continuar con el mismo tratamiento
+  *B) Retirar la pirazinamida
+   C) Retirar toda la medicación
+   D) Retirar la isoniacida
+   E) Retirar la rifampicina
+EXP: Paciente con tuberculosis pleural en tratamiento de primera línea (RIPE), que presenta episodio agudo de artritis monoarticular del primer ortejo con ácido úrico elevado (12 mg/dL). Este cuadro es altamente sugestivo de gota inducida por fármacos. Dentro del esquema tuberculostático, la pirazinamida es la droga más relacionada con hiperuricemia, debido a que inhibe la excreción renal de ácido úrico. La conducta correcta no es suspender todo el esquema (lo cual afectaría la adherencia y eficacia), sino retirar específicamente la pirazinamida, manteniendo el resto del tratamiento. Esto permite manejar la gota sin comprometer la efectividad antit uberculosa. Así, la medida adecuada es suspender la pirazinamida.
+
+### NEU-049 | Derrame pleural tuberculoso: ADA | 2021
+Obrero de 27 años, consulta por fiebre, tos y dolor en hemitórax izquierdo de 1 mes de evolución. Rx de tórax: derrame pleural izquierdo. Líquido pleural: amarillento, leucocitos 2,500/µL con 90% de linfocitos, proteínas 4.9 g/dL, glucosa 67 mg/dL y PAP negativo. ¿Cuál prueba es la indicada para el diagnóstico?
+  *A) Medición de adenosina desaminasa del líquido pleural
+   B) Tomografía computarizada (TC) torácica
+   C) Medición del pH del líquido pleural
+   D) Prueba de tuberculina
+   E) Biopsia pleural cerrada inmediata
+EXP: Paciente joven con síntomas respiratorios subagudos y hallazgo de derrame pleural izquierdo. El análisis del líquido pleural muestra un exudado linfocítico (2,500 leucocitos con 90% de linfocitos, proteínas >4.5 g/dL), sin glucosa disminuida ni evidencia de neoplasia (PAP negativo). Este perfil, sumado a la presentación clínica crónica, es altamente sugestivo de derrame pleural tuberculoso, especialmente en contextos endémicos como el Perú. En este escenario, la prueba más indicada para confirmar el diagnóstico es la medición de adenosina desaminasa (ADA), que suele elevarse significativamente en tuberculosis pleural (>40 U/L). Otras pruebas como TC o prueba de tuberculina son útiles, pero menos específicas o diagnósticas en este contexto. Por tanto, la respuesta correcta es: medición de ADA.
+
+### CAR-061 | Muerte prehospitalaria por infarto: fibrilación ventricular | 2021
+¿Cuál es la causa más frecuente de muerte por infarto agudo de miocardio antes de que el paciente llegue al hospital?
+  *A) Fibrilación ventricular
+   B) Shock cardiogénico
+   C) Rotura cardiaca
+   D) Infarto del ventrículo derecho
+   E) Taponamiento cardiaco
+EXP: En pacientes con infarto agudo de miocardio (IAM), la principal causa de muerte antes de llegar al hospital es la fibrilación ventricular, una arritmia letal que provoca cese súbito de la actividad eléctrica coordinada del corazón, con pérdida del gasto cardíaco y paro en minutos si no se desfibrila. El shock cardiogénico es causa de muerte más tardía, tras daño extenso; la rotura cardiaca es catastrófica, pero menos frecuente en fase prehospitalaria; y el infarto del ventrículo derecho suele cursar con bradicardia e hipotensión, pero no es la causa más común de muerte súbita. Por tanto, el mecanismo más frecuente es la fibrilación ventricular.
+
+### HEM-033 | Neutropenia grave: causa medicamentosa | 2021
+La causa más frecuente de neutropenia grave (<500 neutrófilos/microlitro) es:
+  *A) Medicamentosa
+   B) Enfermedades autoinmunes
+   C) Leucemia aguda
+   D) Hiperesplenismo
+   E) Infección viral
+EXP: La neutropenia grave se define como un recuento de neutrófilos <500/µL y representa un importante riesgo de infecciones severas. Aunque múltiples etiologías pueden estar implicadas (infecciones virales, enfermedades autoinmunes, neoplasias hematológicas, hiperesplenismo), la causa más común en adultos es la inducida por medicamentos, particularmente en entornos hospitalarios. Agentes como quimioterápicos, antibióticos (cloranfenicol, TMP-SMX), antipsicóticos o antitiroideos pueden provocar supresión medular directa o reacciones idiosincráticas. Por su alta frecuencia, amplia variedad de fármacos implicados y relevancia clínica, se concluye que la causa más frecuente es: medicamentosa.
+
+### NEU-050 | EPOC en el fumador pasivo | 2021
+Mujer de 62 años, ama de casa. Diagnóstico de EPOC y antecedente de severo asma bronquial cuando era niña que desapareció en la adolescencia. Consulta por exacerbación de la disnea y por expectoración continua, a veces purulenta. Ha estado casada por 3 5 años. Esposo falleció hace 1 año por cáncer pulmonar; era fumador pesado. Niega otros antecedentes. ¿Cuál factor considera usted es la causa de su EPOC?
+  *A) Ser fumador pasivo
+   B) Su antecedente de asma bronquial
+   C) Su sedentarismo
+   D) Infecciones bronquiales previas
+   E) Exposición laboral a asbesto
+EXP: Se trata de una mujer de 62 años, no fumadora, que presenta un cuadro compatible con EPOC. Aunque tuvo asma en la infancia, esta condición desapareció y no suele ser causa directa de EPOC en la adultez. El dato clave es la convivencia durante 35 años con un esposo fumador crónico fallecido por cáncer pulmonar, lo que indica exposición prolongada al humo de tabaco de manera pasiva. Este antecedente la convierte en una fumadora pasiva crónica, situación reconocida como factor causal relevante de EPOC, especialmente en mujeres. Por tanto, la exposición al humo del cónyuge es el factor etiológico más consistente en este caso.

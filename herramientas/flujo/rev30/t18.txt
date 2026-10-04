@@ -1,0 +1,224 @@
+### PED-197 | Desnutrición crónica: talla baja con P/T normal | 2023
+Niño de 24 meses, es traído a consultorio, por hiporexia, irritabilidad y bajo peso. Antecedentes: prematuro y bajo peso al nacer. Examen: peso 10 kg; talla 78 cm; adelgazado, no edemas. Lab: Hb 10 g/dL. ¿Cuál es el diagnóstico nutricional?
+   A) Kwashiorkor
+   B) Marasmo
+  *C) Desnutrición crónica
+   D) Desnutrición aguda
+   E) Obesidad
+EXP: Niño de 24 meses con peso 10 kg y talla 78 cm. Para 78 cm, un peso de 10 kg está cerca de la mediana (peso/talla normal, sin emaciación ni edema), mientras que la talla para la edad está muy por debajo de -2 DE (la mediana a los 24 meses es unos 87 cm). El diagnóstico nutricional es desnutrición crónica (talla baja), favorecida por la prematuridad y el bajo peso al nacer. El marasmo y el kwashiorkor son formas de desnutrición aguda grave, que aquí no existen.
+
+### SP-154 | ASIS local: determinantes sociales | 2023
+¿Cuál es un componente para la elaboración del ASIS local?
+   A) Razón de riesgo
+   B) Plan de atención individual
+  *C) Análisis de determinantes sociales de salud
+   D) Instrumentos para evaluar desarrollo infantil
+   E) Historia clínica individual
+EXP: El "ASIS local" hace referencia al Análisis de Situación de Salud local, una herramienta utilizada en salud pública para evaluar las condiciones y necesidades de salud de una comunidad específica. Dentro de las alternativas, el componente para la elaboración del ASIS local es Análisis de determinantes sociales de salud (Opción C). Los determinantes sociales de la salud son condiciones en el entorno social, económico y físico que influyen en la salud de las personas y las comunidades. El análisis de estos determinantes es fundamental en el ASIS local, ya que permite comprender mejor las condiciones de vida y los factores que afectan la salud de la comunidad objetivo.
+
+### CB-075 | Miofibroblastos: actina y miosina | 2023
+Durante la reparación de las heridas se observan células conocidas como miofibroblastos que se diferencian de los fibroblastos por tener mayor cantidad de:
+   A) Cromogranina y vimentina.
+   B) Desmina y distrofina.
+  *C) Actina y miosina.
+   D) Citoqueratina y nebulina.
+   E) Colágeno tipo I y fibronectina.
+EXP: Durante el proceso de cicatrización, los miofibroblastos desempeñan un papel clave en la contracción de la herida y la remodelación de la matriz extracelular. Estas células derivan de los fibroblastos y se diferencian por adquirir características contráctiles similares a las de las células musculares lisas. En particular, los miofibroblastos expresan mayores cantidades de actina alfa del músculo liso y miosina, proteínas fundamentales para generar fuerza contráctil. Esta capacidad permite que colaboren activamente en la reducción del tamaño de la herida al acercar los bordes del tejido dañado. En contraste, los fibroblastos típicos carecen de ese fenotipo contráctil especializado. Las otras opciones (desmina, cromogranina, citoqueratina) corresponden a otros tipos celulares.
+
+### PED-198 | Trisomía 13 (Patau): holoprosencefalia y polidactilia | 2023
+Neonato en mal estado general, con bajo peso, hipotelorismo, polidactilia, onfalocele, labio leporino, fisura palatina y un soplo importante a la auscultación. Ecografía prenatal: signos de una probable holoprosencefalia. ¿Cuál es la trisomia más probable?
+   A) 8
+   B) 21
+  *C) 13
+   D) 18
+   E) Monosomía X
+EXP: El caso describe a un neonato en mal estado general, con múltiples malformaciones congénitas mayores: hipotelorismo, polidactilia, labio leporino, fisura palatina, onfalocele, soplo cardíaco importante y probable holoprosencefalia, todo en el contexto de bajo peso al nacer. Este patrón fenotípico es altamente sugerente del síndrome de Patau, causado por la trisomía 13. Esta condición genética se asocia a anomalías del sistema nervioso central (como la holoprosencefalia), defectos faciales, cardiopatías congénitas y polidactilia. A diferencia del síndrome de Edwards (trisomía 18) y Down (trisomía 21), en Patau el compromiso es más severo y multiorgánico. La trisomía 8 es muy rara y no presenta este espectro de alteraciones.
+
+### GIN-210 | Corioamnionitis en fase activa avanzada: antibióticos y parto vaginal | 2023
+Segundigesta de 35 semanas, acude por pérdida de líquido desde hace 15 horas y fiebre. Examen: T 38.7ºC, PA 110/70 mmHg, FC 92 X'; abdomen: AU: 32 cm; Feto: LCD, LCF: 180 X'. Tacto vaginal: D: 8, B: 80%, AP: +1, membranas rotas con mal olor. ¿Cuál es el manejo más adecuado?
+   A) Corticoide y cesárea
+  *B) Antibioticoterapia y parto vaginal
+   C) Antibioticoterapia y cesárea
+   D) Corticoide y parto vaginal
+   E) Tocólisis y antibióticos
+EXP: Ante los síntomas y hallazgos clínicos descritos, el diagnóstico más probable es Corioamnionitis, una infección del líquido amniótico y las membranas fetales, que es una complicación grave del embarazo. Los hallazgos clínicos que respaldan este diagnóstico incluyen fiebre materna, taquicardia fetal y el antecedente de ruptura prematura de membranas >15 horas con pérdida de líquido con mal olor. Además, podemos ver que la paciente se encuentra en trabajo de parto fase activa con buena progresión. Ante la situación descrita, la actitud recomendada sería Antibioticoterapia y parto vaginal (Opción B). Debes recordar que, en corioamnionitis, se debe inducir el término de la gestación preferentemente por vía vaginal e iniciar antibioticoterapia de amplio espectro. La cesárea solo se indica cuando no existen condiciones obstétricas o el parto no progresa, debido a que este procedimiento increme
+
+### CAR-066 | Ritmo no desfibrilable con actividad eléctrica: AESP | 2023
+Mujer de 71 años cae repentinamente al piso. Usted inicia compresiones torácicas mientras alguien contacta a la ambulancia. Al llegar el personal paramédico, se conecta un DEA a la paciente, observando actividad en el EKG; sin embargo, usted determina que el ritmo no es desfibrilable. ¿Cuál es el diagnóstico más probable?
+  *A) Actividad eléctrica sin pulso
+   B) Asistolia
+   C) Fibrilación ventricular
+   D) Taquicardia ventricular sin pulso
+   E) Bradicardia sinusal
+EXP: Si se inician compresiones torácicas a esta paciente que cae repentinamente al piso, entonces tenemos a una paciente que no tiene pulso y está en paro cardiorrespiratorio. Al conectarla al DEA se observa que hay actividad eléctrica pero el ritmo no es desfibrilable. En ese sentido, el diagnóstico más probable es actividad eléctrica sin pulso (AESP) (Opción A). La actividad eléctrica sin pulso se refiere a la presencia de actividad eléctrica detectable en el electrocardiograma (EKG) sin evidencia de pulso detectable en la arteria carótida o periférica. Esto significa que aunque el corazón está generando actividad eléctrica, no está generando suficiente fuerza para producir un pulso palpable. La AESP es una causa común de paro cardíaco y requiere intervención inmediata con resucitación cardiopulmonar (RCP) y administración de medicamentos para tratar la causa subyacente.
+
+### SP-155 | Radar de gestantes | 2023
+¿Cuál de los siguientes instrumentos permite la vigilancia y seguimiento de las gestantes en los servicios de control prenatal del primer nivel de atención?
+   A) El camino del buen crecimiento
+   B) Folletos de signos de alarma para la gestante
+   C) Los kits de la clave roja, amarilla y azul
+  *D) Radar de gestantes
+   E) Historia clínica de emergencia
+EXP: El seguimiento y vigilancia de la gestante en el primer nivel de atención es una estrategia clave para reducir la morbimortalidad materna. En ese contexto, el Radar de Gestantes es una herramienta oficial del MINSA que permite identificar a las gestantes, clasificar su riesgo, hacer seguimiento según la categoría (verde, amarilla o roja) y tomar decisiones oportunas. No es solo un instrumento pasivo, sino un sistema activo de monitoreo integral. Por el contrario, el “Camino del buen crecimiento” está orientado al control del niño menor de cinco años. Los kits de clave roja, amarilla y azul están destinados a la atención de emergencias obstétricas, no a la vigilancia sistemática. Los folletos son materiales educativos, no instrumentos de vigilancia clínica.
+
+### OFT-047 | Epistaxis anterior: rinitis seca | 2023
+¿Cuál es la causa más frecuente de epistaxis anterior?
+   A) Perforación del tabique
+   B) Barotrauma
+  *C) Rinitis seca anterior
+   D) Traumatismo nasal
+   E) Tumor nasal
+EXP: La epistaxis anterior representa más del 90% de los casos de sangrado nasal y suele originarse en el plexo de Kiesselbach, ubicado en el tabique anterior. Entre sus causas, la más frecuente es la rinitis seca anterior, que produce irritación crónica de la mucosa nasal y formación de costras, facilitando el sangrado espontáneo o por manipulación. Es común en climas secos o por exposición a ambientes calefaccionados. El traumatismo nasal también es causa frecuente, pero generalmente más evidente y en menor proporción que la rinitis seca. La perforación del tabique es una complicación más tardía de cuadros crónicos. El barotrauma es poco común y se asocia más a buceo o cambios bruscos de presión.
+
+### PED-199 | Fenotipos de sibilancias: inicio tardío | 2023
+Niña de 6 años, con sibilancias recurrentes desde los 4 años. Antecedentes: dermatitis atópica, ha sido nebulizado varias veces con salbutamol obteniendo mejoría. Lab: Prick test positivo para ácaros. ¿Cuál fenotipo de sibilancias es el que mejor encaja con sus características?
+  *A) Inicio tardío
+   B) Transitorio precoz
+   C) Persistente
+   D) Inicio intermedio
+   E) Sibilancias por reflujo
+EXP: Según los fenotipos de Tucson, las sibilancias de inicio tardío comienzan después de los 3 años y se asocian con atopia (dermatitis atópica, sensibilización a ácaros) y buena respuesta a broncodilatadores; son las que mejor predicen asma. Las transitorias precoces aparecen antes de los 3 años y desaparecen hacia los 6, y las persistentes empiezan antes de los 3 años y continúan después de los 6. Esta niña empezó a los 4 años.
+
+### GIN-211 | Sulfato de magnesio: hasta 24 horas posparto | 2023
+Puérpera inmediata con diagnóstico de preeclampsia con criterios de severidad. Actualmente con sulfato de magnesio. ¿Hasta cuándo se le indicaría continuar con el sulfato de magnesio?
+   A) Inmediatamente después del parto
+   B) 72 horas después del parto
+  *C) 24 horas después del parto
+   D) 24 horas después del diagnóstico de preeclampsia
+   E) Hasta el alta hospitalaria
+EXP: La preeclampsia con criterios de severidad implica un alto riesgo de convulsiones, por lo que el sulfato de magnesio es el tratamiento anticonvulsivante de elección. Su uso no se detiene inmediatamente tras el parto, ya que el riesgo de eclampsia persiste durante el puerperio inmediato. La evidencia y las guías clínicas, como las del ACOG y el MINSA, indican que debe mantenerse la infusión de sulfato de magnesio durante 24 horas posteriores al parto o a la última convulsión, lo que ocurra después. Suspender lo antes de ese plazo expone a la paciente a un riesgo de recurrencia. No se justifica usarlo 72 horas ni extenderlo más de lo necesario, salvo complicaciones.
+
+### NEU-061 | Síndrome pseudogripal por rifampicina | 2023
+Varón de 48 años con tratamiento de fármacos anti-TB desde hace un mes. Presenta fiebre, escalofríos y mialgia. ¿Con qué fármaco se relacionan estos efectos adversos?
+   A) Etambutol
+   B) Pirazinamida
+  *C) Rifampicina
+   D) Isoniazida
+   E) Estreptomicina
+EXP: La rifampicina es un antibiótico de primera línea contra la tuberculosis que puede generar efectos adversos por hipersensibilidad. Entre ellos, destaca el síndrome pseudogripal, que incluye fiebre, escalofríos, mialgias, malestar general y artralgias. Este síndrome es más común cuando el fármaco se administra de manera intermitente, pero también puede ocurrir en esquemas diarios, especialmente después del primer mes de tratamiento. El mecanismo es inmunológico y puede presentarse con o sin eosinofilia. Los demás antituberculosos como etambutol, pirazinamida e isoniazida tienen otros perfiles tóxicos: el etambutol se asocia a neuritis óptica, la pirazinamida a hiperuricemia y hepatotoxicidad, e isoniazida a neuropatía periférica.
+
+### PED-200 | Bronquiolitis con dificultad respiratoria: hospitalizar | 2023
+Lactante de 2 meses, sin antecedente de uso de ß2 agonistas en la familia, es traído por que hace 4 días presenta congestión nasal y tos exigente. Examen: SatO₂ 97%, FR 40X´, aleteo nasal, tirajes subcostales e intercostales; tórax: sibilantes inspiratorios y espiratorios en AHT. ¿Cuál es la actitud a seguir?
+   A) Terapia de crisis con ß2 agonistas nebulizado y corticoide oral
+  *B) Hospitalización para monitoreo e hidratación
+   C) Alta con salbutamol inhalado y control en 24 horas
+   D) Hospitalización para inicio de antibióticos
+   E) Alta con antibiótico oral
+EXP: Dado que el lactante presenta congestión nasal, tos exigente, aleteo nasal, tirajes subcostales e intercostales, y sibilantes inspiratorios y espiratorios en la auscultación, el diagnóstico más probable es una bronquiolitis. La bronquiolitis es una enfermedad respiratoria común en lactantes y niños pequeños, causada principalmente por el virus sincitial respiratorio (VSR). El manejo de la bronquiolitis incluye la hidratación, aspiración de secreciones y oxigeno suplementario de ser necesario. Además, si se trata de lactantes menores de 3 meses, con inmunodeficiencias o patología cardiopulmonar de base o con distrés respiratorio moderado a severo o que requiera oxigenoterapia debe ser hospitalizado. En este sentido, al tratarse de un lactante de 2 meses, la alternativa más adecuada sería Hospitalización para monitoreo e hidratación (Opción B).
+
+### END-060 | Osteomalacia por déficit de vitamina D | 2023
+Enfermero de 34 años, que durante la pandemia COVID-19 trabajó en UCI durante largas jornadas en 3 hospitales. Se queja de dolores osteoarticulares de intensidad creciente y falta de fuerza proximal. Lab: calcio y fósforo: disminuídos; fosfatasa alcalina: elevada; PTH: 100 pg/m; Rx de huesos: osteopenia. ¿Qué vitamina es necesario administrar?
+   A) C
+   B) A
+   C) E
+  *D) D
+   E) B12
+EXP: Dada la presentación clínica del paciente, que incluye dolores osteoarticulares, debilidad proximal, niveles bajos de calcio y fósforo, fosfatasa alcalina elevada y osteopenia en la radiografía de huesos, la deficiencia más probable es la de vitamina D (Opción D). La vitamina D es crucial para la absorción adecuada de calcio y fósforo en el intestino y la adecuada mineralización de los huesos.
+
+### NEU-062 | Neumonía comunitaria con confusión: ceftriaxona + azitromicina | 2023
+Mujer de 53 años, desde hace 2 días presenta tos con expectoración amarillenta y sensación de alza térmica. Examen: PA 120/70 mmHg; FR 28 X', SatO₂ 94%, confusa. Rx: opacidad basal HTI. Hemograma: leucocitos con desviación izquierda. ¿Cuál es el tratamiento antibiótico de elección?
+   A) Ceftazidima + clindamicina
+   B) Meropenem + vancomicina
+  *C) Ceftriaxona + azitromicina
+   D) Amikacina + claritromicina
+   E) Amoxicilina oral sola
+EXP: Dado que la paciente presenta tos con expectoración amarillenta, sensación de alza térmica y taquipnea, así como una opacidad en la radiografía de tórax y leucocitosis con desviación izquierda en el hemograma, el diagnóstico más probable es una Neumonía adquirida en la Comunidad (NAC). Para determinar el manejo de esta paciente, calculamos el puntaje CURB-65 para valorar la severidad de la neumonía. En este caso, es de 2 puntos (determinado específicamente por la presencia de confusión) por lo que se trata de una NAC moderada. En estos casos el manejo es hospitalario y el tratamiento antibiótico de elección sería la combinación de ceftriaxona y azitromicina (Opción C). La ceftriaxona es una cefalosporina de tercera generación con buena actividad contra una amplia variedad de bacterias gramnegativas y algunas grampositivas. La azitromicina es un macrólido que tiene una cobertura efectiva 
+
+### CIR-109 | Peritonitis biliar poscolecistectomía | 2023
+Mujer de 60 años colecistectomizada hace 24 horas. Refiere dolor y contractura abdominal. Examen: T 39ºC, PA 90/60 mmHg, FC 100 X', FR 26X'; abdomen: dolor y contractura a la palpación y signo de rebote (+). Leucocitos: 14000/mm3. ¿Cuál es el diagnóst ico?
+  *A) Peritonitis biliar
+   B) Colangitis aguda
+   C) Neumonía basal
+   D) Pancreatitis aguda
+   E) Atelectasia
+EXP: Paciente de 60 años que cursa 24 horas post- colecistectomía y presenta dolor abdominal, contractura y rebote, acompañados de fiebre, leucocitosis y signos de inestabilidad hemodinámica. El cuadro clínico es indicativo de un síndrome de abdomen agudo con sepsis, y en este contexto, la principal sospecha es peritonitis secundaria a fuga biliar. La colangitis aguda se presenta con fiebre, ictericia y dolor en hipocondrio derecho (tríada de Charcot), pero no suele producir rebote ni signos francos de irritación peritoneal. La neumonía basal puede dar dolor abdominal referido, pero no explica rebote ni signos sépticos abdominales. La pancreatitis aguda tampoco es esperable 24 h post-cirugía sin historia compatible.
+
+### PED-201 | Apendicitis aguda en el niño | 2023
+Niño de 7 años, presenta hace 8 horas dolor abdominal, fiebre, hiporexia, malestar, náuseas y vómitos. Examen: T 38.5 ºC; abdomen: dolor periumbilical que se irradia a la FID, signo de rebote (+). Lab: leucocitos 12000/mm3, neutrófilos a predominio PMN 8500/mm3. ¿Cuál es el diagn óstico probable?
+   A) Infección urinaria
+  *B) Apendicitis aguda
+   C) Torsión testicular
+   D) Adenitis mesentérica
+   E) Gastroenteritis aguda
+EXP: El cuadro es típico de apendicitis en niño de 7 años: dolor inicialmente periumbilical que migra a fosa ilíaca derecha, acompañado de fiebre moderada y síntomas gastrointestinales como náuseas y vómitos. El signo de rebote positivo refuerza la sospecha de irritación peritoneal localizada. La leucocitosis con predominio de neutrófilos (12 000 leucocitos/mm ³, 8 500 PMN) es un hallazgo frecuente en procesos inflamatorios agudos como la apendicitis. La infección urinaria puede causar fiebre y malestar, pero no se relaciona con migración del dolor ni rebote. La torsión testicular cursa con dolor scrotal intenso y no con dolor abdominal focalizado. La adenitis mesentérica puede simular apendicitis, pero suele ser secundaria a infecciones virales, con menor migración del dolor y signo de rebote menos marcado.
+
+### CIR-110 | Quemadura por inhalación: intubación temprana | 2023
+Varón de 37 años, ingresa porque hace 10 horas hubo una explosión de cocina en su domicilio y acude con la voz ronca, esputo negruzco y dificultad respiratoria. Examen: PA 90/70 mmHg, FC 96 X', FR 34 X’, SatO₂ 92%; vellos nasales quemados y mucosa orofaringea con edema y restos carbonizados ¿Cuál es la medida prioritaria a tomar?
+  *A) Intubación endotraqueal
+   B) Oxigeno húmedo con mascarilla
+   C) Corticoides endovenosos
+   D) Monitorizar funciones vitales
+   E) Antibióticos profilácticos
+EXP: En este escenario, el paciente presenta dificultad respiratoria severa debido a la inhalación de humo y quemaduras en las vías respiratorias superiores, lo que puede comprometer la permeabilidad de las vías aéreas y la oxigenación. Una medida prioritaria para asegurar una vía aérea permeable y garantizar la ventilación adecuada del paciente es la intubación endotraqueal (Opción A).
+
+### GIN-212 | Pelvis estrecha en la pelvimetría: cesárea | 2023
+Gestante de 39 semanas con contracciones desde hace 3 horas, niega pérdida de líquido. Examen: AU: 33 cm; Feto: LCD, LCF: 140X'; contracciones c/5', intensidad +/+++. Tacto vaginal: D: 0, B: 0%, AP-4. Pelvimetría: diámetro conjugado diagonal: 10.5 cm; diámetro biciático: 10 cm, ángulo subpúbico > 90º; diámetro biisquiático: 8 cm. ¿Cuál es la conducta a seguir?
+   A) Observación
+   B) Maduración con misoprostol
+   C) Inducción con oxitocina
+  *D) Cesárea
+   E) Fórceps
+EXP: Gestante a término (39 semanas) con dinámica uterina activa (contracciones cada 5 minutos, regulares y moderadas), pero sin pérdida de líquido amniótico ni borramiento o dilatación cervical (D: 0 cm; B: 0%). El feto se encuentra en presentación cefálica (LCD) y con frecuencia cardiaca normal. No obstante, el plano de presentación está muy alto (AP-4), lo que indica que la cabeza fetal no ha descendido. Lo más relevante es la pelvimetría clínica: el diámetro conjugado diagonal de 10.5 cm y el diámetro biisquiático de 8 cm son sugestivos de una pelvis estrecha, lo cual plantea una desproporción cefalopélvica. En este contexto, con dinámica presente, pero sin descenso ni borramiento cervical, la conducta más segura es la cesárea, para evitar un parto prolongado o distócico.
+
+### PSI-040 | Maltrato psicológico infantil: comunicar a la autoridad | 2023
+Niño de 8 años es traído por su tía al médico por presentar cefalea. Examen: niño muestra facies de tristeza. Resto del examen sin alteraciones. Ampliando la anamnesis, refiere que su madre se fue de casa hace un año y constantemente su padre le echa la culpa de cualquier problema, lo humilla y constantemente lo insulta. ¿Cuál es su conducta a seguir ante este maltrato psicológico?
+  *A) Informar a la autoridad competente
+   B) Hablar con el padre
+   C) Hablar con la asistenta social
+   D) Interconsulta a psicología
+   E) Dar de alta sin intervención
+EXP: El maltrato psicológico reiterado (humillaciones, insultos, culpabilización) es una forma de violencia contra el niño. En el Perú, el Código de los Niños y Adolescentes y la Ley 30364 obligan al personal de salud a comunicarlo a la autoridad competente (Defensoría Municipal del Niño, Policía, Fiscalía o Centro Emergencia Mujer), además de dar atención médica y apoyo psicológico. Derivar solo a psicología o conversar con el agresor no protege al menor.
+
+### NEF-082 | Lesión renal aguda posrenal: globo vesical | 2023
+Varón de 24 años, hace 3 días presentó dolor lumbar derecho irradiado a testículo asociado a hematuria. Hoy acude a emergencia por dolor suprapúbico y ha notado disminución del volumen de orina. Examen: se palpa masa abdominal en hipogastrio. Lab: creatinina: 2.8 mg/dL y potasio: 5,6 mEq/l. ¿Cuál es el tipo de insuficiencia renal aguda?
+   A) Prerrenal
+   B) Renal
+   C) Intrínseca
+  *D) Posrenal
+   E) Mixta prerrenal y renal
+EXP: La presentación clínica descrita sugiere una insuficiencia renal aguda (IRA) posrenal (Opción D). La insuficiencia renal posrenal se produce debido a una obstrucción del tracto urinario que impide el flujo de la orina fuera del riñón. Esta obstrucción puede deberse a cálculos renales, tumores u otras causas mecánicas. La disminución del volumen urinario, dolor lumbar irradiado al testículo, hematuria, dolor suprapúbico y la presencia de una masa abdominal en hipogastrio, junto con los hallazgos de laboratorio de elevación de creatinina y potasio, son consistentes con una obstrucción del tracto urinario, lo que lleva a una acumulación de orina y, finalmente, a una disfunción renal.
+
+### REU-061 | Dermatomiositis: biopsia muscular | 2023
+Mujer de 40 años, desde hace 3 meses presenta dificultad para levantarse de la silla y no puede subir a los micros. Examen: PA 120/85 mmHg, FC 66 X´, FR 20 X´, T 37 ºC; pápulas eritematosas en la superficie extensora de los dedos, dolor a la palpación de músculos de la cintura escapular y pélvica. Lab: CPK 34000 U/L. ¿Qué examen solicita para confirmar su diagnóstico?
+   A) Biopsia de nervio
+   B) Electromiografía
+   C) RM de músculos
+  *D) Biopsia de músculo
+   E) Ecografía de músculos
+EXP: Mujer con debilidad proximal de cinturas, pápulas eritematosas sobre las articulaciones de los dedos (pápulas de Gottron) y CPK muy elevada: el cuadro corresponde a dermatomiositis. La electromiografía muestra un patrón miopático que apoya el diagnóstico, pero no es específica. El examen que lo confirma es la biopsia muscular, que muestra infiltrado inflamatorio perivascular y perifascicular con atrofia perifascicular. Se deben buscar también los anticuerpos específicos de miositis y descartar una neoplasia asociada.
+
+### CIR-111 | Trauma abdominal cerrado con peritonitis y neumoperitoneo: laparotomía | 2024
+Chofer de 50 años hace 6 horas sufre accidente en el auto que conducía, presenta dolor intenso en epigastrio. Examen: PA 90/50 mmHg, FC 100 X´, FR 24 X’; equimosis en el hemiabdomen superior, RHA disminuidos, doloroso a la palpación a predominio del epigastrio, signo de Jobert (+), reacción peritoneal. Laboratorio: leucocitosis con desviación izquierda, Hto: 40%, glicemia: 90 mg%. ¿Cuál es la conducta a seguir?
+   A) Ecografía abdominal
+   B) Resonancia magnética abdominal
+   C) Lavado peritoneal diagnóstico
+  *D) Laparotomía exploradora
+   E) Tomografía con contraste oral
+EXP: Dado que el paciente muestra signos de peritonitis, hipotensión, taquicardia, equimosis abdominal y la presencia de signo de Jobert (desaparición de la matidez hepática por timpanismo en decúbito dorsal, sugerente de neumoperitoneo por perforación de víscera hueca), estamos frente a un trauma contuso severo. En este caso, la laparotomía exploratoria es la conducta por seguir (Alternativa D). Esta permitirá evaluar y manejar de forma definitiva cualquier lesión intraabdominal que esté causando la reacción peritoneal y el shock. La intervención quirúrgica inmediata es crucial para controlar hemorragias, reparar órganos dañados y prevenir la progresión a shock.
+
+### OFT-048 | Retinopatía del prematuro: primer examen a las 4 semanas | 2024
+Recién nacida de 32 semanas recibe ventilación mecánica, con FiO2 40% durante varios días, con riesgo de retinopatía de la prematuridad. La primera evaluación oftalmológica debe realizarse a las ______ semanas.
+  *A) 4
+   B) 8
+   C) 10
+   D) 2
+   E) 12
+EXP: La retinopatía de la prematuridad (ROP) es una enfermedad ocular que afecta a los recién nacidos prematuros y puede llevar a la ceguera si no se diagnostica y trata a tiempo. En ese sentido, la evaluación oftalmológica temprana es crucial para detectar y manejar esta condición. La American Academy of Pediatrics y otras organizaciones recomiendan realizar la primera evaluación oftalmológica para los recién nacidos prematuros de acuerdo con su edad gestacional. Es así como para todos los nacidos después de las 30 semanas, se recomienda que la primera evaluación oftalmológica debe realizarse cuatros semanas después del nacimiento (Alternativa A).
+
+### PED-202 | Comunicación interauricular: desdoblamiento fijo del segundo ruido | 2024
+Niño de 4 años traído a control de niño sano, con peso y talla en percentil 75. Examen: Acianótico, segundo ruido cardíaco desdoblado y fijo. ¿Cuál es el diagnóstico más probable?
+   A) Atresia pulmonar
+  *B) Comunicación interauricular
+   C) Transposición de grandes vasos
+   D) Tetralogía de Fallot
+   E) Coartación de aorta
+EXP: Niño eutrófico, sin signos de cianosis, con hallazgo en la auscultación cardíaca de segundo ruido desdoblado y fijo, hallazgo clásico de una comunicación interauricular (CIA), específicamente del tipo ostium secundum. Este tipo de desdoblamiento se debe al paso constante de sangre de la aurícula izquierda a la derecha, lo que genera sobrecarga del ventrículo derecho y, por ende, retraso persistente del cierre de la válvula pulmonar durante todo el ciclo respiratorio. La CIA suele presentarse sin síntomas en etapas iniciales y puede ser detectada por hallazgos auscultatorios en controles de rutina. Las otras opciones incluyen cardiopatías cianóticas (como la transposición o tetralogía), que se manifestarían con hipoxemia, lo cual no ocurre en este paciente.
+
+### GIN-213 | Discordancia FUR-ecografía: manda la ecografía precoz | 2024
+Gestante con 42 semanas por FUR y 38 semanas por ecografía del primer trimestre. Frente a esta falta de correlación en la edad gestacional. ¿Cuál es la actitud a seguir?
+  *A) Continuar con el CPN
+   B) Realizar cesárea
+   C) Inducir el parto
+   D) Realizar pruebas de bienestar fetal
+   E) Hospitalizar para inducción inmediata
+EXP: Cuando la FUR y la ecografía del primer trimestre no coinciden por más de 7 días, la edad gestacional se fija con la ecografía precoz (longitud cráneo-caudal), que es el método más exacto. Esta gestante tiene en realidad 38 semanas, un embarazo a término no prolongado, por lo que corresponde continuar el control prenatal habitual y esperar el inicio espontáneo del trabajo de parto. No hay indicación de pruebas especiales, inducción ni cesárea por la fecha.

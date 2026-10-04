@@ -1,0 +1,224 @@
+### SP-130 | Autonomía frente a no maleficencia en la pandemia | 2021
+Vendedor ambulante de 28 años con diagnóstico de COVID-19, sintomático. Estando en confinamiento y justificándose en el principio de Autonomía no avisa de su enfermedad a los vecinos de su edificio y sale a trabajar a la calle. Este principio ético está en conflicto con los otros principios éticos, ya que se debe aislar para no contagiar a los demás. ¿Qué principio ético debe predominar?
+   A) Autonomía
+  *B) No maleficencia
+   C) Justicia
+   D) Beneficencia
+   E) Confidencialidad
+EXP: Nos encontramos ante un conflicto ético entre el principio de autonomía del paciente y el principio de no maleficencia hacia terceros. El paciente, justificándose en su libertad, decide ocultar su diagnóstico de COVID-19 y continuar actividades que representan un riesgo para la salud pública. Sin embargo, cuando la autonomía individual entra en conflicto con el bienestar colectivo, debe priorizarse evitar el daño a otros. El principio de no maleficencia, que implica no causar daño, es el que debe primar en contextos de enfermedades infectocontagiosas. Salir a trabajar sabiendo que puede contagiar a otros vulnera ese principio. Esto aplica más aún en un contexto pandémico. La ética médica en salud pública se orienta a proteger al colectivo cuando la acción de un individuo compromete a los demás.
+
+### INF-088 | Prevención de neumonía asociada al ventilador: cabecera elevada | 2021
+¿Cuál de los siguientes ha mostrado un descenso de la incidencia de neumonía adquirida por ventilador?
+  *A) Elevación de la cabecera de la cama más de 45 grados
+   B) Reemplazar el circuito del ventilador cada 24 horas
+   C) Descontaminación selectiva con norfloxacino
+   D) Profilaxis para úlcera por estrés con sucralfato
+   E) Mantener al paciente en decúbito supino plano
+EXP: La neumonía asociada a ventilación mecánica (NAV) es una complicación frecuente en pacientes críticos. Se ha demostrado que varias estrategias pueden disminuir su incidencia, siendo la elevación de la cabecera de la cama a más de 30–45 grados una de las más efectivas y fáciles de aplicar. Esta medida previene la aspiración de secreciones orofaríngeas hacia los pulmones, reduciendo así el riesgo de infección. Cambiar el circuito del ventilador cada 24 horas no ha mostrado beneficio y puede incluso aumentar el riesgo de contaminación. La descontaminación selectiva no está generalizada por sus riesgos. La profilaxis con sucralfato tiene cierto efecto, pero es menor comparado con la elevación de la cabecera. Por tanto, la intervención más eficaz y práctica en este contexto es la elevación de la cabecera.
+
+### SP-131 | Brote febril con Aedes aegypti: control de focos | 2021
+Se evidencia el incremento de pacientes afebriles que acuden a la consulta y el servicio de salud ambiental informa la presencia de Aedes aegypti en el ámbito territorial del centro de salud. En este caso, ¿cuál será la acción prioritaria de los equipos extramurales de salud?
+   A) Notificación internacional inmediata
+  *B) Control de contactos y fuentes de infección
+   C) Aplicación de vacuna contra el dengue
+   D) Tratamiento antibiótico domiciliario de casos
+   E) Vacunación masiva contra influenza
+EXP: La presencia de Aedes aegypti en el territorio del centro de salud, junto con el aumento de pacientes afebriles en un contexto de brote, hace sospechar una posible transmisión de dengue. El enfoque de salud pública se basa en el principio de control de la fuente de infección, y en este caso, la acción prioritaria es el control vectorial y seguimiento de contactos para prevenir la diseminación del virus. Las vacunas contra el dengue tienen indicaciones muy limitadas, y no se utilizan en control inmediato. La notificación internacional solo aplica en casos de epidemias transfronterizas y el tratamiento antibiótico no tiene rol en infecciones virales como esta.
+
+### NEF-073 | Atrofia testicular por ligadura de la arteria testicular | 2021
+Varón de 33 años acude al servicio de urología por presentar disminución de volumen testicular. Antecedente: hace un año fue sometido a cirugía por traumatismo pélvico. ¿Qué complicación quirúrgica explica este cuadro?
+   A) Ablación del cuerpo del epidídimo
+  *B) Ligadura de arteria testicular
+   C) Sección del conducto deferente
+   D) Desgarro de la arteria funicular
+   E) Hernia inguinal recidivante
+EXP: Varón con antecedente de cirugía pélvica que presenta atrofia testicular. Esto sugiere una complicación vascular postquirúrgica. La ligadura de la arteria testicular reduce el flujo sanguíneo al testículo, ocasionando hipoxia tisular y atrofia progresiva. La sección del conducto deferente afecta la fertilidad, pero no el volumen testicular. La ablación del cuerpo del epidídimo afectaría más bien el almacenamiento de espermatozoides. La arteria funicular como término anatómico no es correcto ni específico.
+
+### GIN-179 | Prevención de preeclampsia: aspirina a dosis bajas | 2021
+Segundigesta de 12 semanas, asintomática, con sobrepeso y lupus eritematoso sistémico no activo. Antecedente: preeclampsia con criterios de severidad y parto pretérmino en última gestación. ¿Qué medida sería la más efectiva como profilaxis para la preeclampsia?
+   A) Dieta baja en sal
+  *B) Ácido acetilsalicílico a dosis bajas
+   C) Suplemento de vitamina D
+   D) Enoxaparina
+   E) Enalapril profiláctico
+EXP: La paciente presenta factores de riesgo alto para preeclampsia: antecedentes personales (preeclampsia severa y parto pretérmino), lupus eritematoso sistémico y sobrepeso. En estos casos, la profilaxis más efectiva y recomendada es el uso de ácido acetilsalicílico a dosis bajas (75 –150 mg/día) iniciada entre las semanas 12 y 16 de gestación, pues ha demostrado reducir significativamente el riesgo de preeclampsia. La dieta baja en sal no ha mostrado eficacia preventiva. La vitamina D y la enoxaparina pueden tener otros usos, pero no son medidas estándar de profilaxis para este caso específico.
+
+### TRA-039 | Luxación posterior de cadera: necrosis avascular | 2021
+Varón de 45 años sufre accidente de tránsito. Presenta dolor, intensidad 9/10 e impotencia funcional. Se diagnostica luxación posterior de cadera, la reducción es realizada a las 72 horas. ¿Cuál es la complicación ósea que se podría presentar a mediano o largo plazo?
+   A) Anquilosis ósea
+  *B) Necrosis avascular
+   C) Fractura del acetábulo
+   D) Lesión del nervio ciático
+   E) Osteomielitis
+EXP: La luxación posterior de cadera es una urgencia ortopédica que debe reducirse idealmente dentro de las primeras 6 horas para evitar complicaciones. Cuando la reducción se retrasa más allá de las 72 horas, como en este caso, el riesgo de necrosis avascular de la cabeza femoral aumenta significativamente. Esto se debe al compromiso del flujo sanguíneo de la arteria circunfleja medial femoral, que irriga dicha zona. La anquilosis ósea es muy rara en este tipo de lesión y la lesión del nervio ciático, si bien frecuente, ocurre de manera inmediata, no como complicación tardía.
+
+### SP-132 | Muerte encefálica: retirar el soporte no vulnera principios | 2021
+Paciente de 66 años admitido en UCI por trauma craneoencefálico grave que progresa a diagnóstico establecido de muerte cerebral. En junta médica se decide suspender el soporte ventilatorio. ¿Qué valor ético se estaría vulnerando?
+   A) Solidaridad
+   B) Respeto a la persona
+  *C) Ninguno
+   D) Justicia
+   E) Autonomía
+EXP: En este caso, el paciente tiene diagnóstico médico establecido de muerte cerebral, lo cual, según los estándares ético-legales y médicos, es equivalente a muerte. En tales situaciones, la suspensión del soporte ventilatorio no constituye eutanasia ni acción contraria a la ética médica, sino el reconocimiento del fallecimiento. Por lo tanto, no se vulnera ningún principio ético, ya que no hay sujeto moral activo al que se le pueda aplicar el principio de respeto, justicia, o beneficencia. Este acto clínico es congruente con la buena práctica médica.
+
+### GIN-180 | Amenaza de parto pretérmino: corticoides y tocólisis | 2021
+Primigesta de 32 semanas por FUR, acude a Emergencia por dolor abdominal tipo cólico y pérdida de moco. Movimientos fetales normales. Al examen: contracciones uterinas de 30 segundos de duración cada 4 minutos, intensidad ++. Latidos fetales 158 x'. No pérdida de líquido a la maniobra de Valsalva. Tacto vaginal: cérvix blando, dilatación 1 cm, membranas íntegras. ¿Cuál es la conducta a seguir?
+   A) Hospitalización e inducción del parto
+   B) Reposo en casa
+  *C) Maduración pulmonar y tocólisis
+   D) Término de gestación por cesárea
+   E) Amniocentesis
+EXP: Paciente gestante de 32 semanas con contracciones uterinas regulares y borramiento cervical leve. Este cuadro clínico corresponde a una amenaza de parto pretérmino, ya que aún no hay dilatación avanzada ni rotura de membranas. En estos casos, el manejo indicado es la maduración pulmonar fetal con corticoides (como betametasona) y el uso de tocolíticos para inhibir las contracciones y permitir el efecto de los corticoides. La hospitalización es obligatoria para vigilancia materno-fetal. No se debe inducir el parto ni hacer cesárea mientras no haya indicación urgente.
+
+### GIN-181 | Embarazo con DIU y hilos visibles: retirarlo | 2021
+Paciente usuaria de DIU acude por retraso menstrual de tres días. Se le solicita un test de embarazo en orina y sale positivo. Al examen: se aprecian los hilos del dispositivo. ¿Cuál es la conducta a seguir?
+   A) Repetir test de embarazo
+   B) Solicitar una ecografía transvaginal
+   C) Solicitar un β-hCG cuantitativa seriada
+  *D) Retirar el dispositivo intrauterino
+   E) Mantener el DIU hasta el parto
+EXP: Paciente con prueba positiva de embarazo y uso actual de DIU visible en examen ginecológico. En estos casos, la conducta inmediata es el retiro del DIU, siempre que los hilos sean visibles, para disminuir el riesgo de aborto séptico, embarazo ectópico o aborto espontáneo. Aunque una ecografía es útil para confirmar localización del embarazo, el retiro no se debe postergar si hay acceso fácil. La β -hCG seriada y repetir test no modifican la conducta inicial. Si no se logra retirar el DIU sin riesgos, se hace seguimiento estrecho con vigilancia obstétrica.
+
+### REU-054 | Artritis psoriásica: interfalángicas distales | 2021
+Taxista de 42 años, desde hace 1 año lesiones en piel y desde 6 meses hinchazón y dolor articular. Al examen: lesiones cutáneas, eritematosas descamativas y pruriginosas en codos. Laboratorio: ANA, factor reumatoide y serología de lúes negativos; VSG 50 mm/h. RX mano: erosiones periarticulares en interfalángicas distales de 2do y 3er dedo de mano derecha. ¿Cuál es el diagnóstico probable?
+   A) Artritis reumatoide
+  *B) Artritis psoriásica
+   C) Síndrome de Reiter
+   D) Artropatía amiloide
+   E) Gota tofácea
+EXP: Paciente con lesiones eritemato-descamativas en codos (psoriasis) y artritis con afectación de interfalángicas distales, característica poco común en la artritis reumatoide. Además, presenta VSG elevada, con ANA y FR negativos. Todo esto orienta al diagnóstico de artritis psoriásica, una espondiloartropatía seronegativa. Las características clave son la asociación con psoriasis, distribución asimétrica, afectación distal y hallazgos radiológicos de erosiones óseas. La artritis reumatoide suele respetar las interfalángicas distales. El tratamiento se basa en AINES, DMARDs y, en casos graves, agentes biológicos.
+
+### PSI-036 | Depresión psicótica | 2021
+Mujer de 50 años que presenta sensación persistente de tristeza y desesperanza, dificultad para concentrarse e ideas suicidas. Refiere que últimamente escucha voces y ve personas que sus familiares ni oyen ni ven. ¿Cuál es el diagnóstico más probable?
+   A) Trastorno afectivo estacional
+   B) Depresión mayor
+   C) Distimia
+  *D) Depresión psicótica
+   E) Esquizofrenia simple
+EXP: Paciente con síntomas cardinales de depresión mayor (tristeza, desesperanza, ideas suicidas) a los que se suman síntomas psicóticos (alucinaciones auditivas y visuales). La presencia de síntomas psicóticos en el contexto de un trastorno depresivo grave define el cuadro de depresión psicótica, una condición severa que requiere tratamiento con antidepresivos y antipsicóticos, o incluso terapia electroconvulsiva. Es importante diferenciarla del trastorno esquizoafectivo y de los trastornos psicóticos primarios por el predominio claro del ánimo deprimido. El diagnóstico oportuno puede prevenir conductas suicidas.
+
+### END-051 | Cetoacidosis diabética: compensación renal | 2021
+Varón de 65 años, diabético desde hace 20 años, ingresa por emergencia con trastorno de conciencia y respiración de Kussmaul. Laboratorio: glucosa 400 mg/dl, pH 7.23, pCO₂ 30 mmHg, HCO₃⁻ 18 mEq/L. Orina: presencia de betahidroxibutirato. ¿Qué cambios fisiológicos esperaría encontrar?
+  *A) Disminución de la excreción renal de bicarbonato
+   B) Disminución de la excreción de amonio en la orina
+   C) Aumento de la excreción pulmonar de amonio
+   D) Disminución de la eliminación pulmonar de CO₂
+   E) Aumento de la excreción renal de bicarbonato
+EXP: El paciente presenta un cuadro de cetoacidosis diabética evidenciado por hiperglucemia, acidosis metabólica con pH bajo, bicarbonato disminuido, respiración de Kussmaul y presencia de cuerpos cetónicos en orina. Frente a este trastorno, el organismo intenta compensar la acidosis eliminando ácidos por vías respiratorias (hiperventilación) y por el riñón. Como parte del mecanismo renal, aumenta la reabsorción de bicarbonato y su conservación, lo que implica una disminución de la excreción renal de bicarbonato, buscando restaurar el equilibrio ácido-base.
+
+### PED-177 | Invaginación intestinal complicada: laparotomía | 2021
+Madre refiere que su hijo de 2 años presenta hace 24 horas dolor abdominal tipo cólico, se acompaña de náuseas y vómitos. Abdomen: se palpa masa alargada dolorosa en epigastrio, RHA aumentados con timbre metálico. RX abdomen simple: niveles hidroaéreos de asas intestinales delgadas. TAC de abdomen: signo de la "salchicha", líquido libre en cavidad aproximadamente 200 cm³. ¿Cuál es la conducta terapéutica inmediata a seguir?
+   A) Enema con aire
+   B) Colonoscopia
+   C) Colon con enema
+  *D) Laparotomía exploratoria
+   E) Observación y analgesia
+EXP: El niño presenta un cuadro clínico compatible con una invaginación intestinal complicada: dolor tipo cólico, masa palpable en epigastrio, vómitos, y hallazgos radiológicos significativos como niveles hidroaéreos y el signo de la “salchicha” en TAC, junto con líquido libre en cavidad. La presencia de líquido intraperitoneal sugiere sufrimiento intestinal o perforación inminente, lo que descarta el uso de enema terapéutico (que es la primera opción en casos no complicados). En este contexto, la laparotomía exploratoria es la conducta inmediata, ya que permite evaluar y tratar la posible necrosis intestinal o perforación.
+
+### PED-178 | Déficit de vitamina A: manchas de Bitot | 2021
+Niño de 2 años que, en ambientes poco iluminados, se choca con las cosas, siente molestia con la luz. En la evaluación presenta xerosis conjuntival y manchas de Bitot. ¿Qué deficiencia vitamínica se relaciona con estos hallazgos?
+   A) K
+   B) C
+   C) E
+  *D) A
+   E) B12
+EXP: El niño muestra signos clásicos de deficiencia de vitamina A: visión nocturna disminuida (nictalopía), fotofobia, xerosis conjuntival y manchas de Bitot. Esta vitamina es esencial para la integridad del epitelio ocular y el funcionamiento adecuado de los bastones en la retina. La carencia d e vitamina A es una de las principales causas prevenibles de ceguera en niños, especialmente en regiones con déficit nutricional. El tratamiento incluye la suplementación con vitamina A con dosis terapéuticas específicas según edad.
+
+### NRL-047 | ACV isquémico con PA muy alta: bajarla antes de trombolizar | 2021
+Mujer de 75 años con hipertensión arterial y anticoagulación por fibrilación auricular. Llevada a Emergencia por trastorno de conciencia. Al examen: PA 208/108 mmHg, FC 108 x', FR 16 x', SaO₂ 96%, T 36.8 °C, afasia y hemiparesia derecha. Laboratorio: INR 1,6. ¿Cuál es la primera acción a realizar?
+  *A) Reducir la presión arterial sistólica < 185 mmHg
+   B) Trombólisis para revascularizar
+   C) Optimizar anticoagulación
+   D) Administrar vitamina K
+   E) Iniciar heparina
+EXP: La paciente presenta datos clínicos compatibles con accidente cerebrovascular isquémico agudo, en el contexto de hipertensión severa y fibrilación auricular anticoagulada. La primera acción debe ser controlar la presión arterial, ya que la cifra sistólica está muy por encima del umbral aceptado para trombólisis (<185 mmHg). Si se plantea revascularización, es fundamental primero reducir la PA cuidadosamente. La administración de vitamina K no es prioritaria dado que el INR no está elevado significativamente. Optimizar la anticoagulación tampoco corresponde en fase aguda.
+
+### CAR-062 | Paro cardiorrespiratorio: compresiones torácicas | 2021
+Varón de 40 años es traído por familiares a Emergencia e ingresa a Trauma Shock, por dificultad respiratoria progresiva. Usted observa que el paciente deja de respirar, no responde al llamado y no hay pulso carotídeo. ¿Cuál es el primer paso de actuación?
+   A) Interconsulta a cardiología
+   B) Desfibrilación inmediata
+   C) Intubación orotraqueal
+  *D) Compresión cardiaca
+   E) Ventilación con bolsa y máscara antes de comprimir
+EXP: El paciente se encuentra en paro cardiorrespiratorio, evidenciado por la ausencia de respuesta, falta de respiración y de pulso carotídeo. Ante esta situación crítica, el primer paso en la reanimación cardiopulmonar es iniciar compresiones torácicas de alta calidad, de forma inmediata. Esta es la base de la cadena de supervivencia y debe realizarse antes de considerar desfibrilación, vía aérea o administración de fármacos. Las compresiones mantienen la perfusión cerebral y miocárdica hasta que se pueda revertir la causa del paro. Intubar o derivar al especialista no tiene prioridad en esta fase.
+
+### SP-133 | COVID-19: medios masivos de comunicación | 2021
+Al inicio de la pandemia COVID-19 no se contaba con vacuna, por lo cual, para disminuir el riesgo de contagio, solo se tenía evidencia de protección mediante el uso de mascarilla, lavado de manos, distanciamiento físico. ¿A través de qué intervención se logró que la población cumpla con estas medidas?
+  *A) Uso de medios masivos de comunicación
+   B) Educación a domicilio
+   C) Escenificación teatral en parques
+   D) Charlas en centros laborales
+   E) Vacunación masiva
+EXP: En la fase inicial de la pandemia por COVID-19, cuando no existían vacunas ni antivirales efectivos, las intervenciones no farmacológicas fueron cruciales. Para lograr su cumplimiento a gran escala, se necesitó una herramienta con amplio alcance: los medios masivos de comunicación. Estos permitieron difundir en poco tiempo las medidas clave: uso de mascarillas, lavado de manos, y distanciamiento físico. La educación domiciliaria o charlas son estrategias válidas, pero de menor cobertura poblacional frente a una crisis sanitaria nacional.
+
+### NEF-074 | Hipopotasemia por tiazidas: electrocardiograma | 2021
+Varón de 68 años, en terapia con hidroclorotiazida. Desde hace 15 días presenta debilidad muscular, incluso se ha caído en dos ocasiones. Al examen: presenta debilidad generalizada con hiporreflexia. ¿Cuál es el procedimiento inicial?
+   A) TAC cerebral
+   B) Electromiografía
+   C) Electroencefalografía
+  *D) Electrocardiografía
+   E) Ecocardiograma
+EXP: El paciente está en tratamiento con hidroclorotiazida, un diurético tiazídico que puede producir hipopotasemia, causa frecuente de debilidad muscular e hiporreflexia. La hipopotasemia también puede provocar alteraciones electrocardiográficas como aplanamiento de la onda T, ondas U prominentes y arritmias. Por tanto, el electrocardiograma (ECG) es el examen inicial más útil para detectar estas complicaciones cardiacas. El TAC, la electromiografía y el EEG no son útiles como primeras medidas en este contexto clínico.
+
+### TRA-040 | Displasia del desarrollo de la cadera: signo de Galeazzi | 2021
+Lactante mujer de 11 meses nacida por cesárea debido a presentación podálica y macrosomía. Al examen: asimetría de pliegues en glúteos y signo de Galeazzi positivo. ¿Cuál es el diagnóstico probable?
+   A) Artritis de cadera
+   B) Agenesia sacra
+   C) Artrosis de cadera
+  *D) Displasia de cadera
+   E) Coxa vara congénita
+EXP: Los signos físicos como asimetría de pliegues glúteos y signo de Galeazzi positivo indican acortamiento del fémur por desplazamiento de la cabeza femoral. Estos hallazgos son altamente sugestivos de displasia del desarrollo de cadera (DDC), especialmente en una niña con factores de riesgo como presentación podálica y macrosomía. La artrosis y la artritis no se presentan a esta edad. La agenesia sacra no suele cursar con signos clínicos como los mencionados.
+
+### END-052 | Neuropatía diabética dolorosa: gabapentina | 2021
+Mujer de 50 años, con Diabetes Mellitus tipo 2 de 15 años de evolución, con mal control metabólico. Refiere desde hace 1 año dolor y parestesias en MMII. Al examen: pérdida de sensibilidad al dolor en MMII. ¿Cuál es el medicamento más apropiado para este problema?
+   A) Tiamina
+  *B) Gabapentina
+   C) Tramadol
+   D) Propanolol
+   E) Insulina rápida
+EXP: La paciente tiene una neuropatía diabética periférica, manifestada por dolor, parestesias y pérdida de sensibilidad. Es una complicación frecuente en diabetes de larga evolución mal controlada. El manejo incluye control glucémico, pero también tratamiento sintomático del dolor neuropático. En este caso, el fármaco más útil es la gabapentina, un modulador del sistema nervioso que alivia el dolor sin depender del metabolismo de la glucosa. La tiamina puede apoyar en casos carenciales, pero no alivia el dolor. Tramadol es analgésico, pero no es de primera línea por riesgo de dependencia.
+
+### GIN-182 | Trabajo de parto pretérmino establecido | 2021
+Segundigesta de 28 semanas, presenta contracciones uterinas desde hace 12 horas. Primer hijo pretérmino nacido por cesárea. Al examen: dinámica uterina 2 en 10 minutos, intensidad ++ y duración de 30 segundos. Tacto vaginal: dilatación 4 cm, borramiento 80%. ¿Cuál es el diagnóstico?
+   A) Pródromos de trabajo de parto
+  *B) Labor de parto pretérmino
+   C) Amenaza de labor de parto pretérmino
+   D) Incompetencia cervical
+   E) Trabajo de parto a término
+EXP: Esta paciente cursa las 28 semanas de gestación y presenta contracciones uterinas regulares con modificaciones cervicales (4 cm de dilatación y 80% de borramiento). Ello indica que ya no se trata de una amenaza de parto pretérmino ni de pródromos, sino de un trabajo de parto pretérmino establecido, que requiere intervención inmediata (como maduración pulmonar y tocólisis si no hay contraindicación). La incompetencia cervical no se diagnostica con dinámica uterina activa, sino por dilatación indolora.
+
+### GAS-062 | Cáncer gástrico avanzado con ganglio de Virchow: endoscopia | 2021
+Varón de 65 años, desde hace 8 semanas refiere llenura precoz, disminución de peso y distensión abdominal. Al examen: adelgazado, pálido, se palpa adenopatía supraclavicular izquierda de consistencia pétrea y abdomen globuloso con signo de oleada positivo. Laboratorio: anemia microcítica e hipocrómica. ¿Qué examen es necesario para proponer un diagnóstico?
+   A) Biopsia ganglionar
+   B) Paracentesis exploratoria
+  *C) Endoscopia digestiva alta
+   D) Colonoscopía virtual
+   E) Tomografía de tórax
+EXP: Paciente con síntomas de cáncer gástrico avanzado: llenura precoz, pérdida de peso, anemia microcítica e hipocrómica (por sangrado crónico), ascitis y adenopatía supraclavicular izquierda pétrea (ganglio de Virchow). El examen más indicado para confirmar la sospecha clínica de cáncer gástrico es la endoscopía digestiva alta, que permite observar directamente la mucosa gástrica y tomar biopsias para estudio histológico. Aunque la biopsia ganglionar o la paracentesis pueden aportar, no tienen valor diagnóstico inicial.
+
+### TRA-041 | Artritis séptica en el adolescente: Staphylococcus aureus | 2021
+Varón de 13 años, desde hace tres días presenta dolor en rodilla derecha que le impide caminar y fiebre de 38,5°C. Al examen: rodilla derecha dolorosa, aumentada de volumen y con signos inflamatorios. Hemograma con leucocitos de 25000 x mm³ y 10% de abastonados. ¿Cuál es el probable germen responsable de la infección?
+  *A) Staphylococcus aureus
+   B) Escherichia coli
+   C) Corynebacterium pyogenes
+   D) Haemophilus influenzae
+   E) Streptococcus pneumoniae
+EXP: Adolescente con fiebre, leucocitosis con abastonados y artritis aguda séptica (signos inflamatorios locales intensos), muy probablemente presenta una artritis séptica, una urgencia reumatológica común en la infancia y adolescencia. El germen más frecuentemente aislado en este tipo de cuadros es el Staphylococcus aureus, sobre todo en adolescentes. Haemophilus influenzae era una causa más frecuente antes de la vacunación. E. coli se asocia a infecciones urinarias y Corynebacterium no es causante habitual de artritis.
+
+### GIN-183 | Sangrado del tercer trimestre: evitar el tacto vaginal | 2021
+Gestante de 33 semanas de embarazo sin control prenatal, acude por sangrado vaginal, no refiere otras molestias. Cesareada 1 vez hace 3 años. Al examen: PA 100/60 mmHg, FC 86 x', AU 30 cm, feto en LCI, LCF 130 x', presentación flotante a la cuarta maniobra de Leopold. No se constataron contracciones uterinas. ¿Qué procedimiento deberíamos evitar en esta paciente?
+   A) Ecografía obstétrica
+  *B) Tacto vaginal
+   C) Especuloscopía
+   D) Ecografía transvaginal
+   E) Monitoreo fetal
+EXP: Gestante sin control prenatal de 33 semanas, con cesárea previa y sangrado vaginal sin contracciones, lo que obliga a descartar placenta previa. La presentación fetal es flotante y el AU no es concordante con la edad gestacional, lo cual también es sugestivo. En este contexto, el tacto vaginal está contraindicado, ya que puede producir hemorragia masiva en caso de placenta previa. La ecografía, tanto abdominal como transvaginal (con cuidado), y la especuloscopía, son herramientas seguras para evaluar el origen del sangrado.
+
+### OFT-040 | Epistaxis posterior: taponamiento posterior | 2021
+Varón 83 años acude por sangrado nasal severo. Examen: funciones vitales estables, palidez leve de piel y mucosas. Se observa sangrado en regular cantidad por fosa nasal derecha y por boca. ¿Cuál es el procedimiento de elección?
+  *A) Taponamiento posterior
+   B) Taponamiento anterior
+   C) Cauterización del vestíbulo nasal
+   D) Compresión nasal externa
+   E) Antihipertensivo y observación
+EXP: Adulto mayor con epistaxis severa, sangrado visible por fosa nasal y orofaringe, sugiere epistaxis posterior, probablemente desde la arteria esfenopalatina. A diferencia de la epistaxis anterior (más frecuente y menos grave), este tipo requiere manejo más agresivo. El procedimiento de elección en este caso es el taponamiento posterior, debido a la localización y severidad del sangrado. La cauterización y taponamiento anterior no serán efectivos aquí. El control rápido evita complicaciones como anemia aguda o shock.

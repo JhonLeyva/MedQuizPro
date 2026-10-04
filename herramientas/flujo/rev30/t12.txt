@@ -1,0 +1,224 @@
+### CB-068 | Maduración espermática: epidídimo | 2021
+Varón de 25 años consulta por infertilidad. Los exámenes auxiliares evidencian un problema de maduración de los espermatozoides. Los exámenes de la esposa resultaron normales. La explicación a esta situación se debe a disfunción del/de la ______
+  *A) Cuerpo del epidídimo
+   B) Conducto eyaculador
+   C) Vesícula seminal
+   D) Conducto deferente
+   E) Próstata
+EXP: Paciente varón de 25 años consulta por infertilidad, hallándose alteración en la maduración espermática. El proceso normal de espermatogénesis se inicia en los túbulos seminíferos, pero la maduración funcional del espermatozoide —que incluye adquisición de motilidad y capacidad fecundante — ocurre en el epidídimo, específicamente en su porción media o cuerpo. Una disfunción a este nivel comprometería la calidad del semen pese a una espermatogénesis conservada. Las estructuras como los conductos deferentes y vesículas seminales están implicadas en el transporte y volumen del semen, no en su maduración. Dado que el estudio de la esposa es normal, se confirma origen masculino.
+
+### GIN-184 | Placenta de inserción baja en fase activa avanzada | 2021
+Multípara de 41 semanas acude por contracciones uterinas 3/10 minutos, 40 segundos de duración, intensidad +++/+++, con placenta de inserción baja por ecografía y que sangra en escasa cantidad. Tacto vaginal: dilatación 7, altura de presentación -1, membranas íntegras, LCF 148 x'. ¿Cuál sería el manejo adecuado?
+   A) Preparar a la paciente para operación cesárea
+  *B) Poner vía endovenosa, romper bolsas y esperar el parto vaginal
+   C) Hospitalización y conducta expectante
+   D) Acentuación del parto con oxitocina
+   E) Taponamiento vaginal
+EXP: Paciente multípara con dinámica uterina activa, dilatación avanzada y diagnóstico ecográfico de placenta de inserción baja, pero con sangrado escaso y sin signos de sufrimiento fetal. Si bien la placenta baja sugiere riesgo de hemorragia, el hallazgo no implica necesariamente una placenta previa oclusiva. En este contexto clínico se puede optar por romper membranas y continuar con parto vaginal, siempre y cuando se mantenga monitoreo estricto. La cesárea solo está indicada si hay sangrado severo, sufrimiento fetal o placenta previa central confirmada. Esta conducta permite evitar intervenciones innecesarias y favorecer el parto vaginal.
+
+### PED-179 | Hepatitis A en el escolar: manejo de soporte | 2021
+Niño de 10 años, desde hace 4 días presenta fiebre, dolor abdominal, vómitos y coluria. Antecedente: consume alimentos en el quiosco escolar. Al examen: ictericia y hepatomegalia. Laboratorio: TGO 740, TGP 1020. Tiempo de protrombina normal. ¿Cuál es el manejo apropiado?
+   A) Gammaglobulina específica y sintomáticos
+   B) Hepatoprotectores y fitomenadiona
+  *C) Hidratación y sintomáticos
+   D) Administrar interferón gamma a dosis terapéutica
+   E) Corticoides sistémicos
+EXP: Niño en edad escolar con cuadro clínico de hepatitis viral aguda: fiebre, dolor abdominal, ictericia y coluria, asociado a consumo de alimentos en quiosco escolar, lo que sugiere hepatitis A. Las transaminasas muy elevadas y el tiempo de protrombina normal indican que la función hepática está conservada. En este caso, no se requiere tratamiento antiviral ni uso de hepatoprotectores. Lo prioritario es mantener buena hidratación y manejo sintomático, ya que es una infección autolimitada en la mayoría de casos pediátricos. La hospitalización se indicará solo si hay signos de insuficiencia hepática.
+
+### SP-134 | Marco conceptual de una investigación | 2021
+Se desea hacer una investigación sobre el impacto de la cuarentena por COVID-19 en el estado nutricional de estudiantes de medicina de una universidad pública. El marco conceptual de la investigación debe incluir prioritariamente:
+   A) Problemas de conectividad en la educación virtual
+   B) Niveles de estrés educativo en universitarios
+  *C) Criterios de estilos de vida saludable en adultos jóvenes
+   D) Secuela por confinamiento
+   E) Indicadores de la economía nacional
+EXP: El marco conceptual en una investigación debe estar directamente relacionado con las variables centrales del estudio. Si se va a analizar el estado nutricional de estudiantes durante la cuarentena, es esencial incluir criterios que evalúen los estilos de vida saludable en adultos jóvenes, como alimentación, actividad física, sueño y hábitos sedentarios. Estos factores permiten entender el impacto real del confinamiento sobre la salud nutricional. Otros aspectos como conectividad o estrés son relevantes pero secundarios para esta hipótesis de investigación.
+
+### PED-180 | Convulsión febril simple: bajar la temperatura | 2021
+Lactante de 1 año traído por haber presentado rigidez con relajación de esfínteres que duró unos minutos. No presenta antecedentes patológicos. Al examen: FC 120 x’, T° 38 °C, despierto, hipoactivo, no signos meníngeos, tono muscular y reflejos normal es. ¿Cuál es el manejo inmediato?
+  *A) Bajar la temperatura
+   B) Interconsulta a neurología
+   C) Administración de anticonvulsivantes
+   D) Realizar electroencefalograma
+   E) Diazepam endovenoso de rutina
+EXP: El cuadro clínico es compatible con una convulsión febril simple, un evento frecuente en lactantes y niños pequeños. No hay signos de foco neurológico, y el niño se encuentra estable tras el episodio. El manejo inicial adecuado consiste en controlar la fiebre, ya que este es el principal desencadenante. No se indican anticonvulsivantes ni estudios como EEG en este tipo de crisis aislada y sin recurrencia. Tampoco se justifica una interconsulta neurológica inmediata a menos que se repitan los episodios o se presenten signos de alarma.
+
+### INF-089 | Leptospirosis: caso sospechoso | 2021
+Agricultor de 40 años, acude a centro de salud por presentar hace 4 días fiebre, cefalea, artralgias y mialgias especialmente en pantorrillas. Refiere exposición a canales de regadío durante el último mes. ¿Cuál es la clasificación del caso?
+  *A) Caso sospechoso de leptospirosis
+   B) Sospecha de peste
+   C) Confirmado de dengue
+   D) Contacto de fiebre amarilla
+   E) Caso confirmado de leptospirosis
+EXP: El paciente es un agricultor que presenta fiebre, cefalea, mialgias intensas en pantorrillas y artralgias, síntomas que aparecen luego de haber tenido contacto con agua de canales de regadío. Este contexto epidemiológico es típico de la leptospirosis, una zoonosis transmitida por contacto con agua contaminada por orina de animales infectados. La forma clínica aguda suele presentarse con fiebre, mialgias y signos generales. Aún sin pruebas confirmatorias, el criterio clínico-epidemiológico permite clasificarlo como un caso probable de leptospirosis según los lineamientos de vigilancia epidemiológica del MINSA.
+
+### HEM-035 | Mal de montaña crónico (enfermedad de Monge) | 2021
+Varón de 60 años, reside en Cerro de Pasco, consulta por cefalea, mareos y acúfenos desde hace 2 años, con empeoramiento en el último mes. Al examen: buena nutrición, hiperemia conjuntival, cianosis de dedos y labios. Laboratorio: Hb 22 g/dl, Hto 66% y SaO₂ 88%. ¿Cuál es el diagnóstico probable?
+   A) Policitemia vera
+  *B) Mal de montaña crónico
+   C) Hipoxemia refractaria
+   D) Policitemia fisiológica secundaria
+   E) Leucemia mieloide crónica
+EXP: Paciente que vive en zona de gran altitud (Cerro de Pasco), con síntomas crónicos como cefalea, acúfenos y cianosis, y que presenta Hb y Hto marcadamente elevados con SaO₂ baja. Estos hallazgos son consistentes con policitemia secundaria a hipoxia crónica, conocida como mal de montaña crónico o enfermedad de Monge. Se diferencia de la policitemia vera por la ausencia de prurito, esplenomegalia y EPO elevada como respuesta secundaria, no primaria. En este contexto, la causa más lógica de la policitemia es la hipoxemia por exposición crónica a altitud.
+
+### INF-090 | Uretritis: ceftriaxona + azitromicina | 2021
+Varón de 24 años, refiere contacto sexual casual sin protección hace 4 días, acude por presentar secreción mucopurulenta por la uretra asociada a disuria. ¿Cuál es el tratamiento empírico de elección?
+   A) Penicilina G sódica + gentamicina
+  *B) Ceftriaxona + azitromicina
+   C) Clindamicina + amikacina
+   D) Penicilina benzatínica + clindamicina
+   E) Metronidazol dosis única
+EXP: Paciente joven con uretritis mucopurulenta y disuria, posterior a contacto sexual sin protección, lo que obliga a pensar en una ETS, probablemente por Neisseria gonorrhoeae y Chlamydia trachomatis. El tratamiento empírico debe cubrir ambos gérmenes por su alta coexistencia. La ceftriaxona actúa contra gonococo, mientras que la azitromicina cubre clamidia. Este esquema también responde a la creciente resistencia del gonococo a otros antibióticos. Penicilina benzatínica es para sífilis, mientras que clindamicina o gentamicina no son de elección en uretritis no complicada.
+
+### CB-069 | Metronidazol y alcohol: efecto antabús | 2021
+Varón de 32 años, con diagnóstico de Giardiasis intestinal, en el cuarto día de tratamiento con metronidazol 500 mg dos veces al día, luego de participar en una reunión social donde ingiere licor, lo llevan a la emergencia por presentar dificultad respiratoria, náuseas, vómitos, palpitaciones y excitación psicomotriz. ¿Cuál es el diagnóstico más probable?
+  *A) Efecto antabus
+   B) Ingesta excesiva de alimentos grasos
+   C) Excesiva dosis de metronidazol
+   D) Toxicidad por alcohol
+   E) Reacción alérgica al metronidazol
+EXP: El paciente con giardiasis, tratado con metronidazol, presenta síntomas abruptos tras ingerir alcohol: disnea, náuseas, vómitos, palpitaciones y agitación. Esto sugiere una reacción tipo antabus (efecto disulfiram-like), que ocurre por la inhibición del aldehído deshidrogenasa, acumulando acetaldehído en el organismo. El metronidazol es uno de los fármacos más conocidos por generar esta reacción si se combina con alcohol. Los síntomas son característicos y autolimitados si se suspende el consumo de licor. No se trata de sobredosis ni de toxicidad directa por el fármaco ni de efecto de alimentos.
+
+### PED-181 | Retraso de la caída del cordón sin patología | 2021
+Neonato de 14 días acude a control de niño sano. Al examen: buen estado general sin fiebre, cordón umbilical no maloliente, sin secreciones y con restos de nitrato de plata. Resto del examen sin alteraciones. Antecedentes no relevantes. Pruebas metabólicas normales. ¿Cuál es el diagnóstico probable?
+   A) Problemas de inmunidad humoral
+   B) Retraso secundario a problemas del uraco
+  *C) Retraso de caída del cordón sin patología asociada
+   D) Retraso por defecto congénito de la adhesividad leucocitaria
+   E) Onfalitis
+EXP: El retraso en la caída del cordón umbilical más allá de los 14 días puede tener distintas causas, pero si el neonato está en buen estado general, sin secreciones, mal olor, fiebre u otros signos de infección o inmunodeficiencia, lo más probable es que se trate de un retraso fisiológico sin patología asociada. No hay indicación de inmunodeficiencia (como LAD tipo 1) en ausencia de infecciones severas o signos sistémicos. El uso de nitrato de plata, como se menciona, puede retrasar la caída por sus efectos locales. No requiere mayor intervención.
+
+### REU-055 | Artritis séptica estafilocócica: drenaje y antibióticos | 2021
+Mujer de 35 años, con artritis de rodilla izquierda. El líquido sinovial con tinción de Gram demuestra bacterias grampositivas agrupadas en racimos de uva. ¿Cuál es la mejor conducta a seguir?
+  *A) Drenaje y antibióticos vía parenteral
+   B) Antibióticos vía parenteral con antiinflamatorios
+   C) Drenaje y antiinflamatorios parenterales
+   D) Lavado intraarticular continuo
+   E) Corticoide intraarticular
+EXP: La paciente presenta una artritis séptica confirmada por grampositivos en racimos (típico de Staphylococcus aureus) en el líquido sinovial. Esta es una urgencia médica que requiere drenaje articular inmediato y antibióticos parenterales, sin esperar cultivo definitivo. La articulación comprometida (rodilla) debe ser evacuada para evitar daño estructural irreversible. Los antiinflamatorios pueden usarse como adyuvantes, pero no reemplazan el tratamiento causal. El lavado intraarticular no es primera línea en todos los casos y debe considerarse según evolución.
+
+### NRL-048 | Profilaxis de la migraña: propranolol | 2021
+Mujer de 25 años con episodios agudos de migraña a razón de más de 4 episodios por mes. ¿Cuál sería la mejor medida terapéutica para evitar la recurrencia de los episodios?
+   A) Tramadol
+   B) Sumatriptan
+  *C) Propanolol
+   D) Ibuprofeno
+   E) Ergotamina diaria
+EXP: Una paciente con migraña que presenta más de 4 episodios por mes cumple criterios para tratamiento profiláctico. En estos casos, no se busca solo aliviar el dolor agudo (como con AINEs o triptanos), sino reducir la frecuencia y severidad de los ataques. El propanolol, un betabloqueador, es uno de los fármacos más utilizados con eficacia probada en la profilaxis de migraña, actuando sobre los receptores adrenérgicos del sistema nervioso central. Los analgésicos como ibuprofeno y los triptanos son útiles durante la crisis, pero no previenen recurrencias.
+
+### CB-070 | Déficit de tiamina en el niño desnutrido | 2021
+Preescolar de 3 años con familia en extrema pobreza, hace 3 meses presenta fatiga, anorexia, náuseas, dolor abdominal, diarreas y calambres. Recibe tratamiento variados sin mejoría. Antecedentes: no recibió lactancia materna. Dieta pobre en carnes. Al examen: muy adelgazado, edematoso, pálido y presenta marcada disminución de los reflejos tendinosos profundos. ¿Qué déficit vitamínico es el más probable?
+   A) Riboflavina
+  *B) Tiamina
+   C) Piridoxina
+   D) Niacina
+   E) Cianocobalamina
+EXP: Niño con malnutrición, dieta deficiente en carnes, síntomas neuromusculares (calambres, hiporreflexia) y edema sugiere un déficit de tiamina (vitamina B1). Este cuadro clínico es compatible con beriberi seco, asociado al sistema nervioso periférico. La tiamina es vital en el metabolismo energético celular y su deficiencia es frecuente en contextos de pobreza, dietas restringidas o lactancia artificial. Riboflavina, piridoxina y niacina producen otros síndromes carenciales distintos, pero no explican con claridad todos los síntomas del caso.
+
+### END-053 | Obesidad: ejercicio aeróbico | 2021
+Varón de 38 años, con IMC de 38, obeso desde los 17 años. Ha probado múltiples tratamientos sin éxito, pierde peso y posteriormente lo recupera. Comienza a automedicarse con Orlistat (inhibidor de absorción de grasa), consulta sobre qué otro tratamiento podría adicionar. Su recomendación sería:
+   A) Dieta vegana
+   B) Metformina
+   C) Dieta mediterránea
+  *D) Ejercicios aeróbicos
+   E) Suspender el orlistat y solo vigilar
+EXP: Varón con obesidad grado II, resistente a múltiples intentos de tratamiento, actualmente usa orlistat. En estos casos, la actividad física regular, especialmente el ejercicio aeróbico, es parte clave del tratamiento integral, demostrado científicamente como eficaz en la reducción de peso y mantenimiento a largo plazo. La dieta también es fundamental, pero no sustituye el impacto del ejercicio en la pérdida de masa grasa. Metformina puede usarse en pacientes con insulinorresistencia, pero no es de primera línea para todos los obesos.
+
+### OFT-041 | Insecto vivo en el oído: aceite mineral | 2021
+Niño de 6 años, llevado por su madre por referir dolor en oído desde hace 3 horas. Otoscopía: insecto vivo que se mueve en el canal auditivo externo. ¿Cuál es el manejo inicial?
+   A) Lavado de oído con solución salina
+   B) Extracción instrumental con pinza
+  *C) Instilación ótica de aceite mineral
+   D) Irrigación ótica con agua oxigenada
+   E) Antibiótico ótico
+EXP: En el caso de cuerpos extraños vivos en el conducto auditivo externo, como insectos, el primer paso es inmovilizar al insecto antes de intentar extraerlo. Esto se logra mediante la instilación de aceite mineral, el cual tiene un efecto inmovilizante o asfixiante, reduciendo el riesgo de daño al tímpano o canal durante la extracción. Procedimientos como lavado o irrigación con agua oxigenada no son recomendables inicialmente, ya que pueden provocar movimiento del insecto y aumentar el dolor o daño. Tampoco se debe hacer extracción instrumental mientras el insecto esté activo.
+
+### GAS-063 | Síndrome de intestino irritable | 2021
+Mujer de 35 años que trabaja en ventas, desde hace un año presenta 3 a 4 veces al mes episodios de dolor cólico abdominal y borborigmos que ceden con la defecación, acompañado de distensión abdominal ocasional y alternancia de diarrea y estreñimiento. El examen físico es norma l. ¿Cuál es su impresión diagnóstica?
+  *A) Colon irritable
+   B) Distensión abdominal funcional
+   C) Dispepsia funcional
+   D) Colecistitis crónica
+   E) Enfermedad celíaca
+EXP: El cuadro clínico describe una paciente joven con episodios recurrentes de dolor abdominal tipo cólico, borborigmos, distensión abdominal y patrón alterado del hábito intestinal (diarrea alternando con estreñimiento), sin hallazgos positivos al examen físico. Esta presentación es característica del síndrome de intestino irritable (SII), también conocido como colon irritable, un trastorno funcional gastrointestinal que afecta principalmente a mujeres jóvenes en contextos de estrés. No hay signos que sugieran enfermedad orgánica, como fiebre, pérdida de peso o anemia. La dispepsia funcional se limita al epigastrio y no involucra alteraciones del tránsito intestinal. La distensión funcional y la colecistitis crónica no explican el cuadro completo.
+
+### SP-135 | Obesidad escolar: comunicación educativa grupal | 2021
+En un colegio secundario el 80% de alumnos del último año presentan sobrepeso u obesidad. Usted es el médico responsable de la estrategia sanitaria de enfermedades no transmisibles del establecimiento de salud. ¿Qué tipo de intervención inmediata priorizará?
+   A) Programación de consultas nutricionales
+  *B) Comunicación educativa grupal
+   C) Clausura del quiosco escolar
+   D) Difusión radial de factores protectores
+   E) Prescripción de fármacos para bajar de peso
+EXP: Ante la elevada prevalencia de sobrepeso y obesidad en un entorno escolar (80%), lo más efectivo e inmediato es implementar estrategias de educación sanitaria de enfoque poblacional, como la comunicación educativa grupal, para generar conciencia, empoderamiento y cambio de comportamiento en los estudiantes. Las consultas individuales tienen un impacto limitado si no se contextualizan en una cultura escolar saludable. La clausura del quiosco puede ser contraproducente si no se acompaña de una intervención educativa. La difusión radial es útil, pero no específica ni directa. La acción grupal permite cubrir a la mayoría de la población objetivo con un mensaje claro, práctico y directo.
+
+### GIN-185 | Quiste ovárico simple: observación | 2021
+Paciente de 25 años asintomática. En una ecografía de rutina presenta en ovario derecho masa quística unilocular de 4 cm sin tabiques ni excrecencias. ¿Cuál es la conducta a seguir?
+   A) Quistectomía
+  *B) Observación
+   C) Solicitar alfa feto proteína
+   D) Prescribir anticonceptivos orales
+   E) Ooforectomía
+EXP: La paciente presenta una masa quística en ovario derecho, pequeña (4 cm), unilocular, sin tabiques ni excrecencias ni síntomas clínicos. Estas características son propias de un quiste funcional o quiste ovárico simple, el cual no requiere intervención quirúrgica. La conducta apropiada es la observación clínica y seguimiento ecográfico, dado el bajo riesgo de malignidad. No hay indicación de solicitar marcadores tumorales como alfa-fetoproteína, ni de iniciar tratamiento quirúrgico ni hormonal a esta edad y con estos hallazgos. La quistectomía se reserva para lesiones sospechosas o sintomáticas persistentes. El uso de anticonceptivos podría discutirse solo en casos recurrentes.
+
+### OFT-042 | Trauma ocular penetrante: analgesia sin manipular el ojo | 2021
+Varón de 38 años, refiere intenso dolor ocular, lagrimeo y enrojecimiento mientras trabajaba con una amoladora eléctrica sin contar con protector facial. Al examen: cuerpo extraño metálico que atraviesa córnea, iris y cristalino. ¿Cuál es el manejo inicial?
+   A) Colirio analgésico
+  *B) Analgesia endovenosa
+   C) Parche compresivo
+   D) Tonometría
+   E) Extracción del cuerpo extraño en el centro de salud
+EXP: El paciente presenta un cuadro de trauma ocular penetrante con cuerpo extraño metálico que atraviesa córnea, iris y cristalino. Esta lesión grave representa una emergencia oftalmológica. El manejo inicial prioritario es asegurar la comodidad del paciente mediante analgesia endovenosa, evitar cualquier manipulación del ojo y remitir de inmediato a cirugía oftálmica. El uso de colirios o parches está contraindicado, pues pueden agravar la lesión o retrasar el tratamiento quirúrgico. Tampoco debe realizarse tonometría en este contexto, ya que puede inducir salida de contenido ocular por la herida penetrante. El control del dolor y la protección ocular no invasiva son esenciales.
+
+### CIR-099 | Fracturas costales izquierdas bajas con hemoperitoneo: bazo | 2021
+Varón de 45 años, víctima de accidente de tránsito es llevado a la emergencia. Al examen: lúcido, muy quejumbroso, equimosis a nivel de la novena y décima costilla izquierda con crepitación y dolor a la palpación. ECO FAST: Líquido libre en cavidad aproximadamente 300 ml. ¿Cuál es el órgano que está probablemente lesionado?
+   A) Cola de páncreas
+   B) Fondo gástrico
+   C) Ángulo esplénico del colon
+  *D) Bazo
+   E) Riñón izquierdo
+EXP: El paciente presenta trauma torácico izquierdo con dolor, crepitación costal y evidencia ecográfica de líquido libre intraabdominal (300 ml). La localización del trauma en novena y décima costilla sugiere lesión de órganos sólidos del hipocondrio izquierdo, entre ellos el más comúnmente afectado: el bazo. Es altamente vascularizado y propenso a romperse ante traumatismos cerrados, causando hemoperitoneo. La clínica de quejido, dolor e hipovolemia leve lo sustenta. El fondo gástrico, ángulo esplénico del colon y cola del páncreas también están en esta región, pero tienen menor probabilidad de sangrado inmediato o tan profuso.
+
+### CB-071 | Lactancia: oxitocina | 2021
+Mujer de 30 años se encuentra amamantando a su bebé. ¿Qué respuesta hormonal se espera en la madre?
+  *A) Aumento de la secreción de oxitocina
+   B) Disminución de secreción de FSH
+   C) Disminución de la secreción de prolactina
+   D) Aumento de la secreción de vasopresina
+   E) Aumento de la secreción de estrógenos
+EXP: Durante la lactancia materna, el estímulo de succión del pezón genera un reflejo neuroendocrino que activa la liberación de oxitocina desde la neurohipófisis. Esta hormona induce contracción de las células mioepiteliales en los alvéolos mamarios, facilitando la eyección de la leche. En paralelo, la prolactina (de la adenohipófisis) se incrementa para sostener la producción de leche, no disminuye. La FSH se inhibe por el aumento de prolactina, dificultando la ovulación en este periodo. La vasopresina no se altera directamente por la lactancia. La oxitocina también favorece el vínculo materno-infantil.
+
+### GIN-186 | Gestante con VIH y carga viral >1000: evitar el parto vaginal | 2021
+Gestante de 37 semanas en tratamiento con TARGA, con carga viral de 1500 copias/ml, acude a Emergencia con dilatación de 1 cm, altura de presentación -1, borramiento al 100% y membranas ovulares íntegras. ¿Cuál es la conducta más riesgosa para el recién nacido?
+   A) Parto por cesárea
+   B) Zidovudina endovenosa
+  *C) Parto por vía vaginal
+   D) Continuar con TARGA
+   E) Lactancia con TARGA
+EXP: Gestante con carga viral detectable de 1500 copias/ml en tratamiento con TARGA (terapia antirretroviral de gran actividad) se presenta en trabajo de parto incipiente. La evidencia actual indica que cuando la carga viral supera las 1000 copias/ml al final del embarazo, el parto vaginal implica mayor riesgo de transmisión vertical del VIH, incluso si recibe TARGA. En estos casos, lo indicado es realizar cesárea electiva y administrar zidovudina EV intraparto. Continuar con TARGA no representa riesgo, sino beneficio. La cesárea y la zidovudina EV son medidas protectoras. Por tanto, la vía vaginal es la opción más riesgosa para el recién nacido.
+
+### CIR-100 | Embolia arterial aguda de miembro inferior | 2021
+Mujer de 60 años sin antecedentes de enfermedad vascular previa, refiere dolor en pie y región sural derecha. Al examen: ausencia de pulso pedio y poplíteo con disminución de la sensibilidad, frialdad en pie e incapacidad para mover el grupo muscular afectado. ¿Cuál es el diagnóstico probable?
+  *A) Embolia arterial
+   B) Insuficiencia venosa profunda
+   C) Trombosis ateroesclerótica
+   D) Espasmo arterial
+   E) Trombosis venosa profunda
+EXP: Mujer con dolor súbito en extremidad inferior, ausencia de pulsos y frialdad. La ausencia de antecedentes vasculares y la instalación brusca del cuadro sugiere una embolia arterial, más que una trombosis crónica. La embolia suele deberse a origen cardiogénico (fibrilación auricular, valvulopatías). El signo de los 6 “P”: pain, pallor, pulselessness, paresthesia, paralysis y poikilothermia se presenta clásicamente. La trombosis ateroesclerótica puede dar síntomas similares, pero suele ser subaguda y en personas con claudicación previa. No hay signos de insuficiencia venosa ni datos de espasmo arterial.
+
+### NEF-075 | Piuria estéril: tuberculosis urogenital | 2021
+Mujer de 30 años, desde hace 5 meses tiene molestias urinarias recurrentes. Examen de orina muestra pH ácido, leucocitos 60 x campo. Urocultivo negativo. ¿Cuál es la sospecha diagnóstica?
+   A) Absceso perirrenal
+   B) Cistitis crónica
+   C) Pielonefritis crónica
+  *D) Tuberculosis urogenital
+   E) Pielonefritis aguda
+EXP: Paciente con síntomas urinarios recurrentes por meses, pH ácido, piuria marcada y urocultivo negativo. En este contexto, se debe sospechar tuberculosis urogenital, entidad que simula una infección urinaria crónica, pero con cultivos negativos por gérmenes comunes. Es una forma extrapulmonar de TB que puede comprometer vejiga, uréteres y riñones. La cistitis crónica o la pielonefritis suelen tener urocultivo positivo. El absceso perirrenal se acompaña de fiebre y dolor en flanco. La TB urinaria debe confirmarse con cultivo para Mycobacterium tuberculosis o PCR.
+
+### TRA-042 | Fractura de escafoides: tabaquera anatómica | 2022
+Varón de 32 años de edad que sufre caída con apoyo en la mano izquierda con hiperextensión de la muñeca. Al examen: dolor a la palpación en la tabaquera anatómica. ¿Cuál es el diagnóstico más probable?
+   A) Luxación del semilunar
+  *B) Fractura del escafoides
+   C) Fractura de la epífisis distal del cúbito
+   D) Luxación del hueso ganchoso
+   E) Fractura de Colles
+EXP: Paciente varón joven que sufre una caída con hiperextensión de muñeca y dolor localizado en la tabaquera anatómica, hallazgo altamente sugerente de fractura de escafoides. Este hueso carpiano es el más comúnmente fracturado en lesiones por mecanismo indirecto (caída con la mano extendida) y su diagnóstico clínico se basa en el dolor a la palpación en dicha zona. La importancia de su identificación radica en el riesgo elevado de necrosis avascular debido a su irrigación retrógrada. Las otras opciones, como la luxación del semilunar o fractura decúbito distal, no presentan esta localización de dolor específica. La radiografía puede ser negativa inicialmente, por lo que se recomienda inmovilización y reevaluación.

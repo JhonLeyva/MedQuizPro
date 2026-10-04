@@ -7,7 +7,7 @@ import engine7
 from engine7 import build7
 from c28 import F28
 
-for m in sorted(f[:-3] for f in os.listdir(".") if re.fullmatch(r"content2[89][a-z]+\.py", f)):
+for m in sorted(f[:-3] for f in os.listdir(".") if re.fullmatch(r"(content2[89]|content30)[a-z]+\.py", f)):
     importlib.import_module(m)
 out, ids = sys.argv[1], sys.argv[2:]
 specs = {}

@@ -1,0 +1,224 @@
+### GIN-167 | Abortos y macrosomía previa: descartar diabetes | 2021
+Gestante joven que tiene como antecedente dos abortos y un bebé macrosómico. ¿Cuál patología debe ser descartada en su próximo control prenatal?
+   A) Lupus eritematoso
+   B) Hipertiroidismo
+  *C) Diabetes Mellitus
+   D) Alteración genética
+   E) Hipotiroidismo
+EXP: En el contexto obstétrico, la presencia de abortos recurrentes y un neonato macrosómico constituye un patrón clínico sospechoso de trastorno endocrino-metabólico. La diabetes mellitus, especialmente la gestacional no diagnosticada previamente, puede estar asociada con ambas condiciones: aborto espontáneo en etapas tempranas y macrosomía fetal en gestaciones avanzadas, debido al efecto hiperglucémico crónico sobre el desarrollo fetal. La evaluación con glucosa en ayunas o TTOG forma parte fundamental del control prenatal en estos casos. Por tanto, la patología a descartar prioritariamente es diabetes mellitus.
+
+### GIN-168 | Desaceleraciones variables: compresión del cordón | 2021
+Gestante en trabajo de parto, durante el control obstétrico usted percibe que los latidos fetales presentan desaceleraciones variables no relacionadas con la contracción. ¿Cuál es la primera sospecha diagnóstica?
+   A) Presentación compuesta
+   B) Compresión de cabeza fetal
+   C) Sufrimiento fetal
+  *D) Distocia de cordón
+   E) Insuficiencia placentaria
+EXP: Las desaceleraciones variables en la monitorización fetal, especialmente cuando no guardan relación temporal con las contracciones uterinas, suelen reflejar compresión intermitente del cordón umbilical, lo que altera el flujo sanguíneo fetal. Esto puede deberse a prolapso de cordón, vueltas de cordón o disminución del líquido amniótico, lo que produce sufrimiento fetal de tipo mecánico. A diferencia de las desaceleraciones tempranas (asociadas a la cabeza) o tardías (hipoxia), las variables son impredecibles y fluctuantes. Así, la primera sospecha debe dirigirse a una distocia de cordón.
+
+### GIN-169 | Conducción del parto: 10 UI de oxitocina en 1 L | 2021
+En un centro de salud de una zona rural, usted está controlando un trabajo de parto y advierte que la dinámica uterina no es la adecuada y decide estimular, para ello diluye ______ UI de oxitocina en un litro de solución salina.
+   A) 20
+  *B) 10
+   C) 30
+   D) 40
+   E) 5
+EXP: En el manejo intraparto con dinámica uterina ineficaz, la oxitocina endovenosa es el agente más utilizado para estimular las contracciones. La dosis estándar recomendada en el primer nivel de atención consiste en 10 UI diluidas en 1000 ml de solución salina o ringer lactato, administradas mediante bomba de infusión o goteo manual regulado. Dosis más altas, como 20 o 30 UI, están reservadas para casos de hemorragia posparto. Así, la opción correcta en este contexto de estimulación uterina durante trabajo de parto es 10 UI.
+
+### GIN-170 | Feto pequeño con Doppler normal: control en dos semanas | 2021
+Gestante de 32 semanas cuya altura uterina no correlaciona con la edad gestacional. Se le realiza ecografía obstétrica y se encuentra que el peso está por debajo del percentil 10 y el líquido amniótico se encuentra normal. La Eco Doppler de la arteria umbilical también es normal. El manejo será:
+   A) Realizar un perfil biofísico
+   B) Estimular la maduración pulmonar
+   C) Terminar la gestación
+  *D) Controlarla en dos semanas
+   E) Iniciar sulfato de magnesio
+EXP: El hallazgo de un peso fetal menor al percentil 10 plantea inicialmente la sospecha de una restricción del crecimiento intrauterino (RCIU). No obstante, si el líquido amniótico es normal y el Doppler de arteria umbilical también es normal, lo más probable es que se trate de un feto pequeño constitucional, no patológico. En este escenario, la conducta no implica inducir ni madurar, sino vigilar. La estrategia recomendada es hacer un control ecográfico cada dos semanas para monitorear el crecimiento fetal. Si en el seguimiento se observa alteración en los flujos o en el volumen de líquido, se reconsiderará el manejo. No se justifica interrumpir la gestación si todos los parámetros están conservados. El seguimiento clínico y ecográfico es clave para evitar decisiones apresuradas.
+
+### GIN-171 | Embarazo prolongado con FUR incierta: ecografía del primer trimestre | 2021
+Gestante de 42 semanas, referida de Centro de Salud por edad gestacional, aunque no recuerda bien su FUR. Para proceder a hospitalizarla el especialista debe evaluar:
+   A) El perfil biofísico
+   B) Una ecografía actualizada
+   C) Un test no estresante
+  *D) La ecografía del primer trimestre
+   E) La altura uterina actual
+EXP: Cuando una paciente refiere una fecha de última regla poco confiable, no puede afirmarse con seguridad la edad gestacional. En este caso, lo que define la verdadera edad gestacional y permite tomar decisiones es la ecografía del primer trimestre. Este estudio tiene el menor margen de error y permite determinar si la paciente realmente está en embarazo postérmino. No se deben tomar decisiones como inducción o cesárea sin confirmar con evidencia objetiva. La ecografía del tercer trimestre no es confiable para este fin. Una mala datación puede llevar a intervenciones innecesarias o incluso iatrogénicas. Por eso, este paso diagnóstico es prioritario en estos casos.
+
+### GIN-172 | Primer control prenatal: exámenes basales | 2021
+Gestante de 8 semanas que acude a su primer control, luego de examinarla, el médico le solicita exámenes auxiliares de base. Por razones logísticas solo puede solicitar 03 análisis. ¿Cuál descartaría usted?
+  *A) Test de tolerancia a la glucosa
+   B) Urea y creatinina
+   C) Hemograma completo
+   D) Urocultivo y antibiograma opcional
+   E) Grupo sanguíneo y factor Rh
+EXP: En el primer control prenatal deben priorizarse los exámenes básicos que permiten detectar condiciones frecuentes y potencialmente graves en el embarazo. El hemograma completo, la evaluación renal (urea y creatinina), y el urocultivo con antibiograma son útiles para identificar anemia, disfunción renal y bacteriuria asintomática respectivamente, esta última asociada a riesgo de pielonefritis y parto pretérmino. Por otro lado, el test de tolerancia a la glucosa no es parte del tamizaje inicial salvo en pacientes con factores de riesgo para diabetes gestacional. Este examen suele indicarse entre las semanas 24 y 28. Por lo tanto, si se deben priorizar solo tres pruebas en este contexto, se descarta el test de tolerancia.
+
+### GIN-173 | Alumbramiento: signo de Küstner | 2021
+Acaba usted de atender un parto exitosamente, sin embargo, hay retraso en el alumbramiento. Una evaluación a los 10 minutos verifica que la placenta no se ha desprendido. ¿Cuál es el signo que sustenta esta última afirmación?
+  *A) Elevación del cordón al realizar presión suprapúbica
+   B) Descenso de la pinza clampada al cordón
+   C) Aumento de la pérdida sanguínea transitoria
+   D) Útero adopta una forma globular
+   E) Salida de sangre oscura en escasa cantidad
+EXP: Para saber si la placenta se desprendió se usa el signo de Küstner: al presionar sobre el pubis, el cordón asciende (se retrae hacia la vagina) mientras la placenta sigue adherida, y ya no se mueve cuando se desprendió. Los signos de desprendimiento son los contrarios: descenso de la pinza colocada en el cordón (Ahlfeld), útero globuloso que asciende y pequeña pérdida brusca de sangre.
+
+### GIN-174 | Gemelos dicigóticos: sin transfusión feto-fetal | 2021
+Gestante añosa con embarazo múltiple dicigótico. Usted planea dos controles mensuales pensando en las complicaciones a esperar. ¿Cuál complicación es la que menos espera pueda producirse?
+   A) Preeclampsia
+  *B) Transfusión feto-fetal
+   C) Parto pretérmino
+   D) Hemorragia posparto
+   E) Anemia
+EXP: Las gestaciones múltiples presentan un riesgo elevado de diversas complicaciones obstétricas como parto pretérmino, preeclampsia e incluso hemorragia posparto debido a sobredistensión uterina. Sin embargo, la transfusión feto-fetal (TFF) es una complicación específica de los embarazos monocoriónicos, en los que ambos fetos comparten una sola placenta. En el caso de una gestación dicigótica, los fetos tienen placentas separadas (bicoriónicos), por lo que la TFF no puede ocurrir. Así, dentro del conjunto de complicaciones que uno esperaría vigilar en embarazos múltiples, la TFF es descartada por la fisiopatología propia de esta condición. Por eso, es la menos esperable en este caso.
+
+### GIN-175 | Gestación de 10 semanas confirmada: beta-hCG innecesaria | 2021
+Gestante de 10 semanas, acude a consulta por presentar náuseas y vómitos. PA: 100/60 mmHg, FC: 100 x’. Al tacto vaginal útero de más o menos 9 cm, anexos libres de masas, no despierta dolor. ¿Cuál de los siguientes exámenes NO es necesario indicar en este caso?
+   A) Hemograma
+   B) Ecografía transvaginal
+   C) Examen completo de orina
+  *D) Dosaje de Beta HCG
+   E) Prueba de VIH
+EXP: En una gestante de 10 semanas con diagnóstico clínico establecido, la β-HCG ya no es prioritaria para el seguimiento. Esta hormona es útil en etapas muy tempranas del embarazo, especialmente cuando aún no se visualiza el saco gestacional por ecografía o si hay sospecha de embarazo ectópico o anembrionado. En este caso, ya se ha confirmado la gestación y el útero es concordante con la edad gestacional, lo que resta utilidad al dosaje. En cambio, sí son importantes el hemograma para valorar anemia, el examen de orina por riesgo de ITU, y la ecografía transvaginal si se sospecha embarazo múltiple o mola. Por ello, el dosaje de β -HCG no es necesario en este contexto clínico.
+
+### GIN-176 | Rotura prematura de membranas a las 31 semanas | 2021
+Gestante de 31 semanas, acude a emergencia por dolor en abdomen tipo contracción, refiere pérdida de líquido claro por genitales. Al examen preferencial: Altura uterina de 25 cm, LCF: 139 x’. Especuloscopía: pérdida de líquido claro, cérvix sin modificaciones. El manejo correcto es:
+  *A) Hospitalización, administración de corticoides y antibioticoterapia
+   B) Hospitalización, antibioticoterapia y culminar gestación
+   C) Seguimiento ambulatorio, antibioticoterapia y corticoides
+   D) Hospitalización y culminar gestación vía abdominal
+   E) Tocólisis y alta
+EXP: Nos encontramos ante un caso de ruptura prematura de membranas (RPM) en una gestante pretérmino. La pérdida de líquido claro, la edad gestacional de 31 semanas y la exploración sin trabajo de parto activo son claves. El manejo estándar en estos casos incluye hospitalización, ya que la paciente tiene riesgo de corioamnionitis, trabajo de parto prematuro e infección neonatal. Se deben administrar corticoides para maduración pulmonar fetal y antibióticos para prevenir infección intraamniótica y prolongar la latencia. No se debe inducir parto de inmediato a menos que exista infección o compromiso fetal. Por tanto, la alternativa A representa el manejo más adecuado.
+
+### GIN-177 | Amenorrea secundaria: descartar embarazo | 2021
+Mujer de 21 años, consulta por amenorrea secundaria de 7 semanas. ¿Cuál de las siguientes opciones estaría de inicio en el plan de trabajo?
+   A) Dosaje de FSH, Prolactina y TSH
+  *B) HCG beta y ecografía transvaginal
+   C) Dosaje de estrógeno y progesterona
+   D) Dosaje de Prolactina si existiera galactorrea
+   E) Tomografía de silla turca
+EXP: Ante una amenorrea secundaria, el primer paso es descartar embarazo, ya que es la causa más frecuente y relevante en mujeres en edad fértil. El dosaje de beta-HCG cuantitativo permite confirmar o descartar gestación incluso antes del retraso menstrual evidente. Una vez confirmado el embarazo, la ecografía transvaginal permite determinar la localización (intra o extrauterina), número de sacos y viabilidad. Si se descarta embarazo, recién se investigan otras causas endocrinas como hiperprolactinemia, disfunción tiroidea o hipogonadismo hipogonadotrófico. Por tanto, el enfoque inicial debe centrarse en confirmar o descartar una gestación.
+
+### GIN-178 | Cistocele: colporrafia anterior | 2021
+Mujer de 52 años acude al servicio de ginecología para evaluación. Hace dos años presenta polaquiuria y sensación de bulto en la vagina. Se realizó la evaluación y se determinó alteración del compartimento anterior. El tratamiento correspondiente será:
+  *A) Colporrafía vaginal anterior
+   B) Histerectomía vaginal
+   C) Colposuspensión
+   D) Suspensión colpo sacra
+   E) Pesario como tratamiento definitivo
+EXP: El prolapso del compartimento anterior está asociado al descenso de la vejiga (cistocele), que causa síntomas urinarios como polaquiuria, incontinencia o sensación de cuerpo extraño en vagina. El diagnóstico clínico se confirma mediante examen ginecológico con maniobra de Valsalva. El tratamiento quirúrgico más indicado es la colporrafía anterior, que consiste en reparar la pared vaginal anterior y reforzar el soporte de la vejiga. Las otras opciones, como la colposuspensión o la histerectomía vaginal, se reservan para casos combinados o de prolapso uterino. Así, la alternativa más adecuada en este caso es la colporrafía anterior.
+
+### INF-086 | Meningitis tuberculosa: esquema inicial | 2021
+La terapia tuberculostática inicial de la meningitis tuberculosa es:
+  *A) Isoniazida, rifampicina, pirazinamida, etambutol
+   B) Estreptomicina, isoniazida, rifampicina, pirazinamida
+   C) Estreptomicina, isoniazida, etambutol, pirazinamida
+   D) Isoniazida, rifampicina, etambutol
+   E) Isoniazida y rifampicina por 2 meses
+EXP: La meningitis tuberculosa es una forma grave de tuberculosis extrapulmonar que requiere tratamiento intensivo inicial con 4 fármacos de primera línea: isoniazida, rifampicina, pirazinamida y etambutol. Este esquema se utiliza durante la fase intensiva de 2 meses, seguido por una fase de continuación de 7 a 10 meses con isoniazida y rifampicina. La elección de estos fármacos garantiza una cobertura amplia y rápida reducción de la carga bacilar, clave en infecciones del sistema nervioso central. La estreptomicina puede considerarse en casos específicos, pero no forma parte del esquema estándar inicial actualmente recomendado por la OMS y guías nacionales.
+
+### PSI-035 | Dislexia: trastorno de la lectura | 2021
+La dislexia es una disfunción del desarrollo que se caracteriza por discapacidad para:
+   A) Realizar operaciones matemáticas
+   B) Enhebrar frases
+   C) Escribir
+  *D) Leer
+   E) Hablar con fluidez
+EXP: La dislexia es un trastorno del neurodesarrollo caracterizado principalmente por la dificultad en el aprendizaje de la lectura. Los niños con dislexia presentan alteraciones en la decodificación de palabras, fluidez lectora y comprensión. No se debe a déficit intelectual ni a falta de oportunidades educativas, sino a una disfunción en el procesamiento fonológico del lenguaje. Puede asociarse con errores de sustitución o inversión de letras y lentitud al leer. Es fundamental identificarla a tiempo para evitar repercusiones emocionales y académicas. A diferencia de otras dificultades como la discalculia (matemáticas) o disgrafía (escritura), la dislexia afecta directamente la lectura.
+
+### NEU-052 | Muerte por TEP masivo: shock cardiogénico | 2021
+La muerte causada por embolismo pulmonar es ocasionada por ______
+   A) Shock hipovolémico
+  *B) Shock cardiogénico
+   C) Hipoxemia aguda severa
+   D) Hipercarbia aguda severa
+   E) Shock séptico
+EXP: La embolia pulmonar masiva puede provocar la obstrucción súbita del flujo sanguíneo en las arterias pulmonares, lo que genera un aumento abrupto de la poscarga del ventrículo derecho. Esta sobrecarga desencadena insuficiencia ventricular derecha aguda, que impide una adecuada perfusión pulmonar y, en consecuencia, un retorno venoso eficaz al corazón izquierdo. Esta falla en la bomba cardíaca lleva a un shock cardiogénico, con colapso hemodinámico y muerte si no se actúa rápidamente. La hipoxemia severa también puede estar presente, pero el desenlace fatal se produce por la falla del corazón derecho, no por la hipoxia en sí misma.
+
+### SP-127 | Media y mediana | 2021
+En un estudio se ha medido la glicemia en una muestra de sujetos observándose una media aritmética de 95 mg/dL y una mediana de 90 mg/dL. ¿Cuál de las siguientes afirmaciones es verdadera?
+  *A) La mitad de los sujetos de la muestra tienen valores de glicemia inferiores a 90 mg/dL
+   B) La mitad de los sujetos de la muestra tienen valores de glicemia inferiores a 95 mg/dL
+   C) El valor de glicemia con la mayor frecuencia en los sujetos de la muestra es de 90 mg/dL
+   D) La desviación estándar de los valores de glicemia en la muestra es de 5 mg/dL
+   E) La moda es 95 mg/dL
+EXP: La mediana representa el valor central de una distribución ordenada, por lo que la mitad de los valores estarán por debajo de ella. En este caso, al ser la mediana menor que la media, se infiere una distribución asimétrica positiva, es decir, con valores extremos altos que elevan el promedio. La media es sensible a estos valores extremos, a diferencia de la mediana que se mantiene estable. Por eso, para distribuciones sesgadas, la mediana es una mejor medida de tendencia central. En resumen, la opción correcta es la que interpreta correctamente el concepto de mediana sin dejarse confundir por el valor de la media.
+
+### SP-128 | Tasa específica de mortalidad | 2021
+Durante el año 2020 se registraron un total de 2000 defunciones en un distrito de Lima. Del total de causas 300 fueron por COVID. La población censada fue de 20,000 habitantes. Ese año se aplicó una encuesta identificándose 1000 contagiados. ¿Cuál fue la tasa específica de mortalidad x 1000 del COVID?
+   A) 33
+   B) 30
+  *C) 15
+   D) 66
+   E) 150
+EXP: La tasa específica de mortalidad se calcula dividiendo el número de muertes por una causa específica (en este caso, 300 por COVID) entre la población total del distrito (20,000 habitantes), y luego multiplicando por 1000. La fórmula sería: (300 / 20,000) x 1000 = 15 por 1000 habitantes. Es fundamental no confundir esta tasa con letalidad, que considera el número de casos enfermos. Aquí no interesa cuántos se contagiaron, sino cuántos fallecieron respecto a la población total. Esta medida permite evaluar el impacto real de una enfermedad sobre una comunidad y es útil para la planificación sanitaria. Por tanto, la respuesta correcta es 15 por 1000.
+
+### SP-129 | Razón: hombres/mujeres | 2021
+¿Cómo se denomina la medición N° hombres / N° mujeres?
+   A) Porcentaje
+  *B) Razón
+   C) Tasa
+   D) Incidencia
+   E) Proporción
+EXP: La medición entre el número de hombres sobre mujeres representa una relación matemática que compara dos cantidades distintas: sexos masculino y femenino. A esto, en epidemiología y estadística, se le denomina "razón". A diferencia de la proporción o el porcentaje, la razón no requiere que los elementos formen parte de un mismo todo. Tampoco se trata de una tasa, que implica una dimensión temporal, ni de una incidencia, que mide la aparición de nuevos casos. En este caso, la pregunta evalúa conocimiento básico sobre medidas de resumen y su adecuada clasificación.
+
+### CB-062 | Anatomía del hilio pulmonar | 2021
+En el hilio pulmonar derecho, el bronquio está ______ de la arteria pulmonar y en el hilio pulmonar izquierdo el bronquio está ______ de la arteria pulmonar.
+  *A) Detrás-debajo
+   B) Delante-detrás
+   C) Arriba-detrás
+   D) Debajo – delante
+   E) Arriba-delante
+EXP: La anatomía del hilio pulmonar es clave en la semiología torácica. En el hilio derecho, el bronquio principal se encuentra detrás de la arteria pulmonar, mientras que, en el hilio izquierdo, el bronquio se encuentra debajo de la arteria pulmonar. Este patrón “RALS” (Right Anterior, Left Superior) es un recurso mnemotécnico útil: en el lado derecho la arteria está adelante (bronquio atrás), y en el lado izquierdo la arteria está arriba (bronquio debajo). Esto es relevante para interpretar imágenes como TAC torácico o radiografías. La opción A recoge adecuadamente esta disposición anatómica.
+
+### CB-063 | Língula: pulmón izquierdo | 2021
+En una consulta de control de salud en el trabajo, la radiografía de un trabajador muestra una tumoración a nivel de la língula. La lesión se ubicaría en:
+   A) Bronquio derecho
+  *B) Pulmón izquierdo
+   C) Pulmón derecho
+   D) Carina traqueal
+   E) Lóbulo medio derecho
+EXP: La língula es una estructura del lóbulo superior del pulmón izquierdo, considerada análoga al lóbulo medio del pulmón derecho. Su nombre deriva de su forma de “lengüeta”. Una lesión en la língula, evidenciada radiológicamente, indica afectación pulmonar izquierda, no bronquial ni de carina. Esta localización es importante para el diagnóstico diferencial de nódulos o masas en imágenes de tórax. Dado que la carina está a nivel central y la língula es periférica y exclusiva del lado izquierdo, se confirma que la opción correcta es pulmón izquierdo.
+
+### CB-064 | Quimiorreceptores centrales: respuesta al CO₂ | 2021
+El aumento de la presión parcial de CO2 arterial estimula la respiración. ¿A qué nivel de localización se encuentran los receptores que generan dicha estimulación?
+   A) Cuerpos carotídeos y aórticos
+   B) Haz espinoso de la médula espinal
+   C) Nervio hipogloso intracraneal
+  *D) Bulbo raquídeo y protuberancia
+   E) Hipotálamo
+EXP: El CO₂ estimula la respiración sobre todo a través de los quimiorreceptores centrales del bulbo raquídeo: el CO₂ atraviesa la barrera hematoencefálica, baja el pH del LCR y los H⁺ activan estas neuronas, que explican alrededor del 70-80% de la respuesta ventilatoria a la hipercapnia. Los cuerpos carotídeos y aórticos (quimiorreceptores periféricos) responden principalmente a la hipoxemia y solo en menor medida al CO₂.
+
+### CB-065 | Espacio muerto | 2021
+El aire inspirado que fisiológicamente NO participa en la hematosis corresponde a:
+   A) Volumen residual
+   B) Volumen tidal
+   C) Capacidad vital
+  *D) Espacio muerto
+   E) Volumen de reserva inspiratoria
+EXP: El espacio muerto se refiere al volumen de aire que se encuentra en las vías respiratorias de conducción (nariz, faringe, laringe, tráquea y bronquios) que no participa en los intercambios gaseosos. Aunque forma parte del aire inspirado, no llega a los alvéolos y, por tanto, no contribuye a la hematosis. A diferencia del volumen tidal o la capacidad vital, el espacio muerto representa una fracción funcionalmente inactiva. Su aumento puede verse en patologías como el TEP o EPOC, donde hay ventilación sin perfusión.
+
+### CB-066 | Capacidad vital | 2021
+La capacidad vital está conformada por: volumen corriente + ______
+  *A) Reserva espiratoria + reserva inspiratoria
+   B) Reserva espiratoria + volumen residual
+   C) Volumen residual + volumen de reserva inspiratoria
+   D) Volumen residual + volumen inspiratorio
+   E) Capacidad residual funcional
+EXP: La capacidad vital es el volumen máximo que puede espirarse tras una inspiración máxima: volumen corriente + volumen de reserva inspiratoria + volumen de reserva espiratoria. No incluye el volumen residual, que queda en el pulmón y no puede expulsarse; la suma de la capacidad vital y el volumen residual es la capacidad pulmonar total.
+
+### CB-067 | Difusión del oxígeno frente al CO₂ | 2021
+El coeficiente de difusión del oxígeno comparado con el coeficiente de difusión del CO2 es:
+   A) Mayor porque el oxígeno se combina con la hemoglobina
+  *B) Menor porque el oxígeno es menos soluble
+   C) Mayor porque es alta su gradiente de presión
+   D) Básicamente es igual
+   E) Mayor porque el oxígeno es más soluble
+EXP: El CO₂ difunde a través de la membrana alveolocapilar unas 20 veces más rápido que el O₂. Ambos gases tienen tamaño parecido, pero el CO₂ es mucho más soluble en agua, y el coeficiente de difusión es proporcional a la solubilidad. Por eso el O₂ necesita un gradiente de presión mucho mayor (unos 60 mmHg frente a unos 5 mmHg del CO₂) y su intercambio se afecta antes cuando la membrana está engrosada.
+
+### INF-087 | Quantiferon: no se afecta por la BCG | 2021
+En tuberculosis pulmonar la medición de interferón en sangre (quantiferon) es útil para:
+  *A) Detectar infección tuberculosa discriminando a los vacunados con BCG
+   B) Medir capacidad de respuesta inmunológica del infectado
+   C) Regular dosis de tuberculostáticos
+   D) Detectar resistencia a antimicrobianos
+   E) Confirmar tuberculosis activa con bacilos
+EXP: La prueba Quantiferon mide la liberación de interferón gamma ante antígenos específicos del Mycobacterium tuberculosis. A diferencia del PPD, no se ve afectado por la vacunación con BCG, lo cual es útil en personas previamente inmunizadas. Esto permite distinguir entre infección real e inmunización. Es especialmente útil para el diagnóstico de tuberculosis latente. No sirve para detectar resistencia, ni evaluar tratamiento. Tampoco mide capacidad inmunológica. Su precisión mejora el tamizaje en poblaciones de riesgo. Por eso, la opción A es la correcta.

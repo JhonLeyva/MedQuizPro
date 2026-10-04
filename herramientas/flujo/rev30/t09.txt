@@ -1,0 +1,224 @@
+### NEU-051 | Neumonía nosocomial: insuficiencia respiratoria | 2021
+El efecto secundario, la complicación y la secuela más frecuente de la neumonía nosocomial es:
+  *A) Insuficiencia respiratoria
+   B) Absceso pulmonar
+   C) Hemotórax
+   D) Empiema
+   E) Neumotórax
+EXP: La neumonía nosocomial, al presentarse en un contexto de pacientes hospitalizados, suele tener curso más severo y agentes más resistentes. La complicación más frecuente y temida es la insuficiencia respiratoria, dado que la afectación parenquimatosa extensa y la respuesta inflamatoria alteran severamente el intercambio gaseoso. Aunque el absceso pulmonar y el empiema pueden ocurrir, son complicaciones menos frecuentes. El hemotórax es muy raro en este contexto. En resumen, la evolución hacia insuficiencia respiratoria es la principal complicación clínica de estas neumonías.
+
+### PED-168 | Meningitis neonatal con bacilos grampositivos: Listeria | 2021
+Neonato de 7 días, ingresa a emergencia con fiebre, pobre succión y fontanela abombada. Durante el examen comienza a convulsionar. El LCR evidencia bacilos Gram (+). ¿Cuál de los siguientes es el agente causal?
+  *A) Listeria monocytogenes
+   B) Escherichia coli
+   C) Neisseria meningitidis
+   D) Streptococcus agalactiae
+   E) Haemophilus influenzae
+EXP: Recién nacido de 7 días con signos clásicos de meningitis neonatal severa: fiebre, hiporexia, fontanela abombada y convulsiones. El hallazgo crucial es la presencia de bacilos Gram positivos en el LCR, lo cual acota las etiologías a dos agentes: Listeria monocytogenes y, en menor medida, bacilos Gram positivos contaminantes. Listeria es uno de los tres principales agentes de meningitis neonatal (junto a Streptococcus agalactiae y E. coli), y el único de ellos que es bacilo Gram positivo. Este germen tiene transmisión vertical y requiere tratamiento con ampicilina. Por tanto, el agente causal más probable es Listeria.
+
+### PED-169 | Disentería con compromiso sistémico en el lactante: ceftriaxona | 2021
+Lactante de 9 meses presenta hace 4 días fiebre, deposiciones con moco y sangre, pujo y tenesmo. Al examen: deshidratado moderado, somnoliento, abdomen distendido, doloroso, ruidos hidroaéreos aumentados. Se envía muestra para coprocultivo. Se inicia hidratación parenteral y antibiótico. ¿Cuál antibiótico debe elegirse?
+   A) Amikacina
+   B) Ampicilina
+   C) Cloranfenicol
+  *D) Ceftriaxona
+   E) Metronidazol
+EXP: Lactante de 9 meses con cuadro típico de disentería bacteriana: fiebre, deposiciones con sangre y moco, pujo, tenesmo, distensión abdominal y deshidratación. Ante la sospecha de infección invasiva (probable Shigella, Salmonella, E. coli enteroinvasiva) en un niño con compromiso sistémico y de sensorio, la elección empírica adecuada es ceftriaxona, antibiótico de amplio espectro seguro en pediatría. Amikacina es útil pero nefrotóxica y no de primera línea; ampicilinay cloranfenicol tienen menor eficacia frente a enteropatógenos resistentes. El manejo inmediato requiere hidratación EV + antibiótico adecuado, como ceftriaxona.
+
+### PED-170 | Sepsis neonatal con colestasis | 2021
+Recién nacido de dos días de vida, nacido de parto eutócico domiciliario, madre primigesta sin control prenatal, es traído por presentar pobre succión e ictericia. Examen: peso: 2,800 g, FC: 150 x’, ictericia hasta región inguinal, somnolento, hipotónico. Laboratorio: leucocitos: 5,000 x mm³, bilirrubina directa: 6 mg/dL. ¿Cuál es el diagnóstico probable?
+  *A) Sepsis neonatal
+   B) Ictericia por lactancia materna
+   C) Ictericia fisiológica
+   D) Hepatitis neonatal
+   E) Atresia de vías biliares
+EXP: Recién nacido de 2 días, sin controles prenatales y nacido en casa, acude por pobre succión, somnolencia, hipotonía e ictericia hasta región inguinal. La bilirrubina directa de 6 mg/dL indica colestasis, no una ictericia fisiológica o por lactancia, que son indirectas. Además, los leucocitos bajos (5,000) son un dato preocupante, y en este contexto clínico hacen sospechar sepsis neonatal de inicio temprano, probablemente por patógenos adquiridos peripartos como Listeria, E. coli o Streptococcus agalactiae. El manejo debe ser inmediato con antibióticos de amplio espectro.
+
+### PED-171 | Escala de Silverman-Andersen | 2021
+Recién nacido de 33 semanas, una hora después del nacimiento presenta FR: 90 x’, quejido espiratorio constante audible sin estetoscopio, aleteo nasal intenso, tiraje intercostal y retracción xifoidea leve, desbalance tóraco-abdominal. Al valorar el grado de distrés respiratorio según la Escala de Silverman, ¿qué puntaje le asigna?
+   A) 5
+   B) 9
+   C) 6
+  *D) 8
+   E) 10
+EXP: Recién nacido de 33 semanas con síndrome de dificultad respiratoria neonatal, presenta FR de 90 x’, quejido audible sin estetoscopio, aleteo nasal intenso, tiraje intercostal y retracción xifoidea leve, además de desbalance toracoabdominal. La Escala de Silverman evalúa 5 signos: quejido, tiraje intercostal, retracción xifoidea, aleteo nasal y movimiento toracoabdominal, con puntajes de 0 a 2 cada uno. En este caso, cada signo está moderado o severo (1-2 puntos), sumando un puntaje total de 8, lo cual indica una dificultad respiratoria severa que requiere soporte respiratorio inmediato, sospechando membrana hialina en este prematuro.
+
+### SP-126 | Cirugía de emergencia sin familiares: autoriza el jefe de guardia | 2021
+Niño de 12 años en estado de coma, con diagnóstico de hematoma epidural post accidente de tránsito, necesita intervención quirúrgica de emergencia y no se encuentra a los familiares. ¿Cuál es la conducta a seguir?
+  *A) El jefe de guardia autoriza la cirugía dejando constancia en la historia
+   B) Llamar inmediatamente al fiscal para que ordene la operación
+   C) Que el cirujano autorice la intervención
+   D) Esperar la llegada de los familiares
+   E) Trasladar al paciente a otro hospital
+EXP: Niño de 12 años con diagnóstico de hematoma epidural post trauma y en estado de coma, lo cual es una emergencia neuroquirúrgica. Ante la ausencia de familiares, se impone una decisión médica inmediata y vital, amparada en el principio de urgencia y protección de la vida. Según el marco legal peruano y la bioética, el médico jefe de guardia puede autorizar la intervención dejando constancia en la historia clínica, sin esperar a los padres ni al fiscal, dado que el retraso comprometería gravemente la vida del paciente. Llamar al fiscal o al cirujano puede ser adecuado para otros contextos, pero no en una emergencia de esta magnitud.
+
+### PED-172 | Tos ferina en el niño no vacunado | 2021
+Niño de 12 meses, presenta desde hace una semana accesos de tos, ruido inspiratorio semejante al de un gallo, sofocación y cianosis. Antecedente de no haber recibido vacunas. ¿Cuál es el diagnóstico más probable?
+   A) Bronquiolitis
+  *B) Tos ferina
+   C) Neumonía
+   D) Faringolaringitis
+   E) Laringotraqueobronquitis
+EXP: Niño de 12 meses, no vacunado, con una semana de accesos de tos intensos, ruido inspiratorio tipo “gallo” y episodios de sofocación y cianosis. Esta presentación clínica es casi patognomónica de tos ferina, en fase paroxística. La ausencia de vacunación es un dato clave que aumenta la susceptibilidad. El patrón descrito difiere de otras causas: la bronquiolitis suele presentarse con sibilancias y signos respiratorios bajos; la neumonía con fiebre persistente, tos y estertores; y la faringolaringitis no da e stos paroxismos ni el clásico “gallo”. En esta fase, el tratamiento antibiótico con macrólidos como azitromicina es útil para reducir la transmisión, aunque el beneficio clínico es limitado si el cuadro está avanzado. La vigilancia es esencial, especialmente por el riesgo de complicaciones respiratorias y neurológicas.
+
+### PSI-034 | Riesgo suicida en el adolescente: agresión sexual | 2021
+Adolescente con cambios bipolares del estado de ánimo, de impulsivo y agresivo a intensa depresión. ¿Cuál de los siguientes será el factor más determinante para predisponerlo a un mayor riesgo suicida?
+  *A) Agresión sexual
+   B) Sufrir accidente doméstico
+   C) Pertenecer a grupo religioso
+   D) Tener varios hermanos
+   E) Practicar deporte
+EXP: El paciente es un adolescente con fluctuaciones intensas del estado de ánimo, compatibles con un trastorno afectivo bipolar, que alterna fases de impulsividad/agresividad con depresión profunda. En este contexto, se debe evaluar el riesgo suicida, el cual se incrementa con factores estresantes severos. La agresión sexual se reconoce como uno de los desencadenantes más importantes y graves, especialmente en adolescentes, ya que conlleva sentimientos de vergüenza, culpa, disociación y trastornos de ansiedad o depresivos persistentes, lo cual multiplica el riesgo suicida. Las otras opciones (accidente doméstico, grupo religioso o número de hermanos) no tienen una asociación significativa o consistente con suicidio. Por lo tanto, la agresión sexual es el factor más determinante en este escenario clínico.
+
+### NEF-072 | Litiasis urinaria en el niño | 2021
+Niño de 9 años, presenta cuadro clínico de inicio agudo de intenso dolor tipo cólico en todo el abdomen, polaquiuria y tenesmo. No fiebre. Sedimento de orina muestra hematíes abundantes por campo. ¿Cuál es el diagnóstico más probable?
+   A) Cistitis aguda
+   B) Pielonefritis aguda
+  *C) Litiasis renal
+   D) Uretritis hemorrágica
+   E) Apendicitis aguda
+EXP: Niño de 9 años con inicio agudo de dolor abdominal tipo cólico generalizado, acompañado de síntomas urinarios bajos (polaquiuria, tenesmo) y hematuria abundante sin fiebre. Este cuadro sugiere un proceso obstructivo o irritativo del tracto urinario bajo o medio, siendo la litiasis renal la principal sospecha, dado el tipo de dolor y la ausencia de fiebre. La hematuria macroscópica sin piuria ni leucocitosis descarta pielonefritis. La cistitis y uretritis hemorrágica suelen cursar con disuria, ardor y, generalmente, fiebre o síntomas más localizados. En contraste, la litiasis se manifiesta con dolor intenso tipo cólico y hematuria franca, siendo típica en escolares. Así, el diagnóstico más probable es litiasis renal, y se debe confirmar con ecografía renal y urinaria.
+
+### REU-053 | Pediculosis de la cabeza: permetrina | 2021
+Madre consulta porque su hijo se rasca insistentemente el cuero cabelludo, descubre numerosos pequeños cuerpos ovoideos blanquecinos adosados a los cabellos. Hermano menor con similares molestias. ¿Cuál es el tratamiento más adecuado?
+   A) Aplicación de vinagre
+  *B) Solución con permetrina
+   C) Aplicar loción de violeta de genciana
+   D) Lavado del cabello con sulfuro de selenio
+   E) Rasurar el cabello y nada más
+EXP: Caso clásico de pediculosis capitis en un escolar, evidenciado por prurito intenso del cuero cabelludo y la presencia de liendres (huevos del piojo) adheridas al tallo piloso. El antecedente de contagio intrafamiliar refuerza el diagnóstico clínico. El tratamiento de elección es la permetrina al 1%, que actúa como pediculicida seguro y eficaz. El vinagre puede ayudar a desprender liendres, pero no erradica al parásito. La violeta de genciana y el sulfuro de selenio no están indicados en este contexto. Por tanto, el manejo adecuado se basa en la aplicación tópica de permetrina, acompañado de medidas higiénicas y tratamiento de contactos.
+
+### PED-173 | Faringitis estreptocócica: grupo A | 2021
+Escolar con diagnóstico de faringitis por estreptococo. ¿Cuál grupo de estreptococo sería el más frecuente en este paciente?
+   A) G
+   B) C
+   C) B
+  *D) A
+   E) D
+EXP: En niños en edad escolar, la faringitis aguda bacteriana es frecuentemente causada por Streptococcus beta-hemolítico del grupo A (SBHGA), también conocido como Streptococcus pyogenes. Este germen es el más virulento y relevante clínicamente, asociado no solo a infección faríngea, sino también a complicaciones supurativas (abscesos, otitis media) y no supurativas como fiebre reumática y glomerulonefritis postestreptocócica. Los grupos B, C y G pueden causar faringitis, pero son mucho menos prevalentes. Por tanto, el grupo A es el agente etiológico más común y clínicamente importante en estos casos.
+
+### PED-174 | Vacunación atrasada: rotavirus fuera de edad | 2021
+Lactante de 9 meses, por problemas de salud no recibió tercera dosis de la vacuna pentavalente y sólo recibió una dosis de la vacuna para rotavirus. Según el esquema de vacunación, ¿cuál es la recomendación a seguir?
+  *A) Solamente pentavalente la tercera dosis
+   B) La dosis faltante de pentavalente y de rotavirus
+   C) Iniciar nuevo esquema completo
+   D) Solamente la dosis faltante de rotavirus
+   E) Solo la dosis faltante de rotavirus
+EXP: Paciente de 9 meses que no ha recibido la tercera dosis de pentavalente y que solo tiene una dosis de vacuna contra rotavirus, la cual se administra hasta los 8 meses con 29 días. De acuerdo al esquema nacional de vacunación, la vacuna de rotavirus no puede aplicarse pasada esa edad por riesgo de invaginación intestinal, por lo que ya no se aplica la segunda dosis. En cambio, la pentavalente (DPT- HepB-Hib) puede completarse normalmente hasta los 11 meses. Por lo tanto, la recomendación es aplicar únicamente la dosis pendiente de pentavalente, no la de rotavirus. No se reinicia el esquema.
+
+### HEM-034 | Anemia hemolítica: reticulocitos altos y haptoglobina baja | 2021
+Paciente de 10 años, evaluado por presentar palidez marcada. Laboratorio: aumento de bilirrubina indirecta y reticulocitos con disminución de haptoglobina. El diagnóstico probable es anemia por:
+   A) Insuficiencia renal crónica
+   B) Deficiencia nutricional
+  *C) Hemólisis
+   D) Trastorno medular primario
+   E) Sangrado agudo
+EXP: Paciente pediátrico que presenta signos clínicos y de laboratorio compatibles con un proceso hemolítico: bilirrubina indirecta elevada, reticulocitosis (médula hiperactiva) y disminución de haptoglobina (proteína que se consume al unirse a la hemoglobina libre). Estos datos excluyen causas hipoproliferativas como insuficiencia renal crónica o déficit nutricional, que presentan reticulocitos bajos. Tampoco se trata de un trastorno medular primario, porque habría pancitopenia. La fisiopatología sugiere destrucción acelerada de eritrocitos, por causas intrínsecas o extrínsecas. En conclusión, el diagnóstico más probable es anemia hemolítica.
+
+### PED-175 | Meningitis neonatal: ampicilina + gentamicina | 2021
+Recién nacido de parto eutócico de 6 días de vida, sin control prenatal, llevado a centro de salud por fiebre durante 4 días. Al examen: T: 38.5 °C, irritable, fontanela abombada, ruidos cardíacos disminuidos de intensidad, abdomen distendido. Laboratorio: leucocitos: 25,000 x mm³, plaquetas: 80,000 x mm³, VSG: 20 mm/h, PCR: 40 mg/dL. ¿Cuál es el tratamiento antibiótico empírico de inicio?
+   A) Vancomicina + ceftazidima
+  *B) Ampicilina + gentamicina
+   C) Penicilina + ciprofloxacino
+   D) Oxacilina + ceftazidima
+   E) Azitromicina + metronidazol
+EXP: Neonato sin control prenatal, con fiebre persistente, irritabilidad y fontanela abombada sugiere infección del sistema nervioso central, probablemente meningitis neonatal. En menores de 28 días, los gérmenes más frecuentes son Streptococcus agalactiae, Listeria monocytogenes y E. coli. La combinación empírica de ampicilina + gentamicina cubre estos agentes. Ceftazidima sola no cubre Listeria, y la vancomicina está reservada para sospecha de SAMR. En conclusión, el tratamiento empírico de elección en este caso es ampicilina más gentamicina.
+
+### PED-176 | Atresia de esófago: suspender la vía oral | 2021
+Usted está en un centro de salud del primer nivel, le consultan por lactante que presenta cuadro de salivación excesiva, tos y ahogamiento a la ingesta de leche. Antecedente materno: polihidramnios. Rx: ausencia de gas debajo del diafragma. No se pudo colocar sonda nasogástrica. ¿Cuál es la indicación inicial?
+   A) Nutrición enteral
+   B) Simeticona vía oral
+   C) Profilaxis antibiótica
+  *D) Suspender la vía oral
+   E) Alimentar con fórmula espesada
+EXP: Este cuadro clínico es altamente sugestivo de una atresia esofágica con fístula traqueoesofágica tipo I, que es la forma más común. El antecedente de polihidramnios en el embarazo y la imposibilidad de colocar sonda nasogástrica, además de la ausencia de gas debajo del diafragma en la Rx, son hallazgos clásicos. El síntoma más importante es la tos y ahogo con la lactancia, que revela una comunicación anómala entre la vía aérea y digestiva. En este contexto, la suspensión inmediata de la vía oral es fundamental para prevenir broncoaspiración y neumonía aspirativa. Luego se debe colocar sonda de aspiración continua y referir al paciente a cirugía pediátrica para corrección. Ninguna otra medida (como nutrición enteral o antibióticos) reemplaza esta intervención inicial, pues la vía digestiva está interrumpida. La conducta inmediata y que salva la vida es suspender la alimentación por boca.
+
+### TRA-037 | Fractura expuesta de tibia: irrigación y desbridamiento | 2021
+Minero de 24 años, trasladado por sufrir el impacto de alud de piedras en pierna derecha. Examen: herida en pierna que compromete todo el tercio medio, donde se exponen los músculos y el hueso con presencia de restos de tierra. Rx: fractura conminuta de tibia. ¿Cuál es la indicación prioritaria a seguir?
+  *A) Irrigación y desbridamiento
+   B) Antiinflamatorio y vacuna antitetánica
+   C) Férula de yeso y antibiótico parenteral
+   D) Analgésico opioide y tracción del miembro
+   E) Cierre primario de la herida
+EXP: Estamos ante un trauma severo de extremidad con fractura expuesta grado III, donde se evidencian tejidos musculares y óseos expuestos, con alta probabilidad de contaminación por restos de tierra. En estos casos, la prioridad absoluta es prevenir la infección y preservar la viabilidad del miembro. Por ello, el manejo inicial debe incluir irrigación profusa con solución salina y desbridamiento quirúrgico amplio, que permita eliminar tejido desvitalizado y restos contaminantes. Esta conducta debe realizarse de forma inmediata antes de colocar cualquier inmovilización o antibiótico. El uso de antibióticos, analgesia y vacuna antitetánica es complementario, pero nunca sustituye el desbridamiento, que es el paso más crítico para evitar complicaciones como osteomielitis o amputación. Este caso refleja una urgencia quirúrgica traumática, donde el tiempo y la limpieza del foco lesionado definen e
+
+### TRA-038 | Esguince de tobillo grado 2 | 2021
+Varón de 23 años, sufre torcedura de pie que le ocasiona dolor y dificultad para la marcha. Al examen: aumento de volumen y equimosis en cara lateral del tobillo derecho, dolor a la inversión e inestabilidad moderada del tobillo. ¿Cuál es el probable diagnóstico?
+   A) Fractura del calcáneo
+   B) Esguince de tobillo grado 1
+  *C) Esguince de tobillo grado 2
+   D) Fractura del escafoides
+   E) Esguince de tobillo grado 3
+EXP: El paciente refiere dolor e imposibilidad para deambular tras una torcedura, con hallazgos clínicos como equimosis, aumento de volumen y dolor a la inversión, lo cual orienta a una lesión ligamentaria lateral, típicamente del ligamento peroneoastragalino anterior. La presencia de inestabilidad moderada y equimosis ya descarta el grado 1, que es solo distensión leve sin inestabilidad ni equimosis marcada. El grado 2 se caracteriza por una ruptura parcial de ligamentos, con dolor moderado, edema, hematoma y limitación funcional. No hay signos clínicos ni radiográficos que orienten a fractura ósea como el calcáneo o escafoides. El manejo incluye inmovilización temporal, elevación, hielo, AINES y fisioterapia. Es clave diferenciar correctamente el grado del esguince para evitar secuelas crónicas como inestabilidad residual.
+
+### CIR-096 | Quemadura de tercer grado: indolora | 2021
+¿Qué tipo de quemadura se caracteriza porque el paciente no tiene dolor en la zona afectada?
+   A) II superficial
+  *B) III
+   C) I
+   D) II profunda
+   E) II superficial extensa
+EXP: Las quemaduras se clasifican según la profundidad del daño. Las de tercer grado (grado III) comprometen la epidermis, dermis e incluso tejido subcutáneo, lo que produce una necrosis completa del área afectada, incluyendo la destrucción de las terminaciones nerviosas, razón por la cual el paciente no experimenta dolor en la zona lesionada. Es común que los bordes de la quemadura sí duelan, ya que en esa zona aún hay tejido viable. Este tipo de quemadura se presenta con aspecto blanco nacarado o carbonizado, sin ampollas y con pérdida total de sensibilidad. El tratamiento requiere desbridamiento quirúrgico, injertos y soporte intensivo. Reconocer esta característica clínica (indolencia) permite distinguirla de quemaduras de segundo grado, que sí son dolorosas.
+
+### CIR-097 | Ictericia tras colecistectomía: colangiorresonancia | 2021
+Mujer de 23 años, ingresa a emergencia por presentar dolor abdominal en hipocondrio derecho y coluria. Al examen: escleras ictéricas. Ecografía abdominal: dilatación de los conductos biliares. Bilirrubinas incrementadas. Antecedente de colecistectomía hace 2 meses. ¿Cuál es la indicación recomendada?
+  *A) Solicitar colangiorresonancia
+   B) Exploración quirúrgica de vías biliares
+   C) Programar cirugía laparoscópica
+   D) Colangiopancreatografía retrógrada endoscópica
+   E) Colecistectomía de revisión
+EXP: Esta paciente con antecedente de colecistectomía reciente presenta un cuadro de colestasis obstructiva (ictericia, coluria, dolor en HCD), lo cual orienta hacia una probable lesión iatrogénica de la vía biliar, como estenosis, fuga o coledocolitiasis residual. La ecografía muestra dilatación de la vía biliar, confirmando la obstrucción. En este contexto, el estudio inicial más útil es la colangiorresonancia (RMN de vías biliares), que permite visualizar con detalle la anatomía biliar y definir la causa de la obstrucción sin necesidad de contraste invasivo. Si se confirma una obstrucción, el siguiente paso es la CPRE terapéutica. Esta secuencia es esencial para evitar procedimientos innecesarios y planificar adecuadamente el manejo.
+
+### CIR-098 | Colecistitis aguda en paciente de alto riesgo: colecistostomía | 2021
+Varón de 87 años con antecedente de bronquitis crónica e insuficiencia cardiaca descompensada, se hospitaliza por cuadro de colecistitis aguda litiásica infectada. Tras 4 días de dieta absoluta continúa con fiebre y dolor abdominal. Hemograma con leucocitosis. ¿Cuál es la indicación recomendada?
+  *A) Colecistostomía percutánea de drenaje
+   B) Colecistectomía abierta urgente
+   C) Administrar amikacina y ampicilina
+   D) Mantener tratamiento médico Conservador
+   E) Laparotomía exploratoria
+EXP: Paciente varón de edad avanzada (87 años) con múltiples comorbilidades crónicas severas, incluyendo bronquitis crónica e insuficiencia cardíaca descompensada, que complican su manejo quirúrgico. El diagnóstico de colecistitis aguda litiásica infectada se confirma por persistencia de síntomas (fiebre, dolor abdominal, leucocitosis) a pesar del tratamiento médico conservador (dieta absoluta, antibióticos). Ante la alta morbimortalidad quirúrgica, especialmente en un paciente frágil, la opción terapéutica de elección en este contexto es la colecistostomía percutánea, un procedimiento mínimamente invasivo guiado por imágenes que permite el drenaje de la vesícula infectada y estabiliza al paciente sin anestesia general. Esta intervención se considera puente a la colecistectomía definitiva, que puede diferirse o evitarse si hay buena respuesta clínica. Se desaconseja cirugía urgente en pacient
+
+### GAS-061 | Vesícula palpable sin cálculos: tomografía | 2021
+Mujer de 78 años, consulta por dolor abdominal, anorexia, baja de peso y prurito generalizado. Al examen: mal estado de nutrición, ictericia de piel y escleras, masa palpable dolorosa en hipocondrio derecho, RHA presentes. Ecografía: vesícula biliar aumentada de tamaño y sin cálculos. ¿Qué estudio auxiliar se debe solicitar para confirmar diagnóstico?
+  *A) TEM de abdomen
+   B) Colangiorresonancia
+   C) Gammagrafía con HIDA
+   D) Colangiopancreatografía retrógrada endoscópica
+   E) Ecografía Doppler hepática
+EXP: Paciente adulto mayor con un cuadro clínico compatible con obstrucción biliar de origen no litiásico: ictericia progresiva, prurito, pérdida de peso, anorexia y una masa palpable dolorosa en hipocondrio derecho. El hallazgo ecográfico de vesícula distendida sin litiasis sugiere una causa obstructiva extrínseca o tumoral, siendo altamente sospechoso un colangiocarcinoma o un cáncer de cabeza de páncreas. La tomografía espiral multicorte (TEM) de abdomen permite caracterizar lesiones hepáticas, pancreáticas o de la vía biliar, evaluar compromiso vascular y determinar extensión locorregional, por lo cual se considera el estudio de primera línea en esta paciente para confirmar diagnóstico e iniciar estadificación. Procedimientos como la CPRE o colangiorresonancia son útiles en otros contextos, pero aquí se prioriza definir naturaleza tumoral.
+
+### OFT-039 | Otitis externa del nadador: Pseudomonas | 2021
+Varón de 17 años, luego de estar nadando en piscina, presenta otalgia, secreción seropurulenta e hipoacusia. Al examen: dolor al traccionar el pabellón auricular afectado, inflamación y edema que no permite la otoscopía. ¿Qué agente microbiano sería la causa de esta dolencia?
+   A) Escherichia coli
+   B) Estafilococo dorado
+   C) Haemophilus catarralis
+  *D) Pseudomona aeruginosa
+   E) Candida albicans
+EXP: Se trata de un varón de 17 años con clínica típica de otitis externa mal llamada “otitis del nadador”, enfermedad frecuente en adolescentes y adultos jóvenes tras exposición prolongada al agua, especialmente en piscinas. Presenta otalgia, otorrea seropurulenta e hipoacusia, con signos al examen físico muy característicos: dolor a la movilización del pabellón auricular e inflamación del conducto auditivo externo que impide visualizar el tímpano. El principal agente etiológico en estos casos es Pseudomona aer µginosa, bacteria gramnegativa oportunista que prospera en ambientes húmedos y que coloniza el epitelio dañado del conducto auditivo. Estafilococo aureus también puede ser causal, pero con menor frecuencia. No hay indicios de infección de oído medio ni compromiso sistémico. El tratamiento se basa en antibióticos tópicos con acción antipseudomónica.
+
+### GIN-164 | Contracciones sin cambios cervicales a las 34 semanas: observar | 2021
+Gestante de 34 semanas que acude a la emergencia por presentar dolores y contracciones cada 10 minutos. Al examen: afebril, altura uterina 32 cm, feto en longitudinal cefálico izquierdo, contracciones esporádicas. Tacto vaginal: dilatación cero, borramiento cero, estación flotante. ¿Cuál es el manejo a seguir?
+  *A) Reposo y observación por tres horas
+   B) Uso de tocolíticos
+   C) Corticoides para madurez pulmonar
+   D) Uso de antibióticos
+   E) Cesárea de emergencia
+EXP: Gestante con dinámica uterina irregular (cada 10 min), sin signos clínicos ni cervicales de trabajo de parto: dilatación cero, borramiento cero y estación flotante. En este contexto, el diagnóstico más probable es una amenaza de parto pretérmino no establecida. La conducta correcta es observar en reposo durante tres horas para ver si las contracciones se regularizan y hay cambios cervicales. El uso de tocolíticos o corticoides se reserva para casos con dinámica uterina establecida y cambios cervicales evidentes. No hay signos de infección ni ruptura de membranas, por lo tanto, no se justifican antibióticos en este momento.
+
+### GIN-165 | Reposición en el choque hemorrágico: diuresis | 2021
+Puérpera de posparto inmediato, presenta hemorragia profusa que la lleva al choque hipovolémico. Se inicia hidratación agresiva. ¿Cuál signo permite juzgar si la reposición de líquido es exitosa?
+   A) Detención del sangrado
+   B) Saturación arterial de oxígeno
+  *C) Recuperación de diuresis
+   D) Disminución de la sed
+   E) Aumento de la frecuencia cardiaca
+EXP: La diuresis es uno de los marcadores clínicos más confiables para evaluar la perfusión tisular y la eficacia de la reanimación con líquidos. En el contexto de shock hipovolémico postparto, una diuresis adecuada (≥0.5 mL/kg/h en adultos) indica que la perfusión renal ha mejorado y que el volumen circulante está siendo restituido. Aunque otros signos como la mejoría de l a presión arterial o la disminución de la taquicardia son útiles, la diuresis refleja directamente la función orgánica, especialmente renal. La detención del sangrado es importante, pero no refleja el estado hemodinámico global. Por ello, el mejor indicador de éxito de la reposición hídrica es la recuperación de la diuresis.
+
+### GIN-166 | Glucosa en ayunas ≥126 mg/dL dos veces: diagnóstico hecho | 2021
+Se le realiza a una gestante un dosaje de glucosa en ayunas y sale en 130 mg/dl, a los tres días se le repite y se obtiene glucosa de 128 mg/dl. ¿Cuál es la siguiente prueba a realizar para confirmar el diagnóstico de Diabetes Gestacional?
+  *A) No requiere otra prueba
+   B) Test de tolerancia con 50 g de glucosa
+   C) Test de tolerancia con 75 g de glucosa
+   D) Test de tolerancia con 100 g de glucosa
+   E) Hemoglobina glicosilada
+EXP: Según los criterios diagnósticos actuales de la OMS y la ADA, una glucosa en ayunas ≥126 mg/dL en dos ocasiones es diagnóstico de diabetes mellitus, y en una gestante se considera diabetes gestacional o preexistente según el contexto. Dado que esta paciente ya tiene dos valores elevados en ayunas (130 y 128 mg/dL), no se necesita test de tolerancia oral a la glucosa (TTOG) para confirmar el diagnóstico. El enfoque debe pasar directamente al manejo de la diabetes gestacional. Por tanto, la respuesta correcta es que no requiere otra prueba.

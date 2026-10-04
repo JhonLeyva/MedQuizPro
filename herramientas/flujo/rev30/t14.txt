@@ -1,0 +1,224 @@
+### SP-140 | Suplementación de hierro no administrada: efectividad | 2022
+Se realiza visita domiciliaria a los niños a los cuales se ha entregado sulfato ferroso para la prevención de anemia y se evidencia que, en 1 de 10 domicilios, la madre no se los administra. ¿Qué indicador de logro está comprometido?
+   A) Equidad
+  *B) Efectividad
+   C) Satisfacción
+   D) Calidad
+   E) Accesibilidad geográfica
+EXP: La estrategia de prevención de anemia mediante la suplementación con sulfato ferroso busca mejorar la salud infantil reduciendo los niveles de anemia por deficiencia de hierro. En este caso, durante la evaluación domiciliaria, se evidencia que en 1 de cada 10 hogares no se administra el suplemento, lo que implica que el objetivo del programa no se está cumpliendo de forma eficaz. Esto compromete la efectividad, entendida como la capacidad real de una intervención de alcanzar los resultados esperados bajo condiciones normales. No se trata de inequidad (porque la suplementación fue entregada a todos) ni de insatisfacción, pues no se evalúa la percepción del usuario. Tampoco puede hablarse directamente de calidad, ya que esta es un término más amplio que abarca múltiples dimensiones.
+
+### SP-141 | Población con discapacidad sin acceso: UPSS de rehabilitación | 2022
+Luego del análisis de la situación de salud del ámbito, el equipo de gestión de un centro de salud I - 4 identifica una población con discapacidad sin acceso. ¿Cuál será la solución que garantice la atención a esta población?
+   A) Censar a los pacientes con discapacidad para programar referencia al hospital general
+   B) Hospitalizar a los pacientes en el Instituto Nacional de Rehabilitación
+  *C) Implementar unidad productora de servicios de salud de medicina de rehabilitación
+   D) Solicitar recategorización del centro de salud para ser nivel 2
+   E) Esperar que acudan espontáneamente al centro de salud
+EXP: El centro de salud I-4 identifica una población con discapacidad sin acceso a servicios, lo cual representa una barrera estructural y de equidad en salud. La respuesta adecuada ante esta situación no puede limitarse a censar ni referir masivamente, ya que eso solo identifica el problema, pero no lo soluciona de raíz. La hospitalización en centros especializados o la recategorización del establecimiento no son viables de manera inmediata ni garantizan sostenibilidad. Lo más estratégico es implementar una unidad productora de servicios de salud de medicina de rehabilitación, lo que permite brindar atención continua y pertinente, promoviendo el enfoque de inclusión y garantizando la accesibilidad de manera integral a esta población vulnerable.
+
+### PED-187 | Neumonía en el preescolar: radiografía de tórax | 2022
+Niña de 4 años de edad, rinitis, tos y fiebre de 38°C durante 3 días. Al 4.º día es llevada a Emergencia por dificultad respiratoria. Al examen: febril, aleteo nasal, polipnea, tirajes. A la auscultación crepitantes y sibilantes. ¿Qué examen inicial solicita para confirmar el diagnóstico?
+   A) Tomografía
+  *B) Radiografía de tórax
+   C) Hemograma
+   D) Hemocultivo
+   E) Ecografía pulmonar de rutina
+EXP: Paciente pediátrica con infección respiratoria aguda, que progresa a dificultad respiratoria con signos de severidad como aleteo nasal y tirajes, sumado a la presencia de crepitantes y sibilantes, lo que sugiere una afectación del parénquima pulmonar (neumonía o bronconeumonía). En este contexto, el examen diagnóstico inicial más útil es la radiografía de tórax, que permite valorar la presencia de consolidaciones, infiltrados o signos de hiperinsuflación pulmonar. La tomografía no se justifica como primer paso por su costo y radiación. Hemograma y hemocultivo son complementarios, pero no diagnósticos por sí mismos.
+
+### GIN-189 | Hematoma pequeño de episiotomía: observación | 2022
+Puérpera de 6 días que acude por dolor vulvar. Al examen: tumoración de tres centímetros, sin signos de flogosis, en zona de episiotomía. ¿Cuál es la conducta a seguir?
+   A) Cobertura antibiótica
+   B) Drenar con una jeringa con aguja
+   C) Abrir y drenar la episiotomía
+  *D) Analgésicos y observación
+   E) Resuturar la episiotomía
+EXP: Puérpera de 6 días con dolor vulvar y tumoración de 3 cm en zona de episiotomía, sin signos de inflamación como eritema, calor o secreción purulenta. El hallazgo más probable corresponde a un hematoma organizado o un pequeño granuloma de cicatrización, entidades benignas y autol imitadas en este contexto. No hay evidencia clínica de absceso o infección que justifique antibióticos o drenaje inmediato. El manejo en este caso se basa en medidas sintomáticas y observación, con control ambulatorio para verificar evolución. Cualquier procedimiento invasivo está contraindicado de inicio si no hay signos de sobreinfección.
+
+### END-055 | Hipoglucemia por glibenclamida en el adulto mayor con falla renal | 2022
+Diabético de 78 años. Ingresa a emergencia por presentar conducta bizarra e ideas paranoides, cefalea, confusión mental, debilidad, mareos, visión borrosa. Recibe medicamentos antidiabéticos. Creatinina sérica de 1.8 mg/dl, glicemia 50 mg/dl. ¿Cuál de los siguientes fármacos es responsable de estos síntomas?
+   A) Pioglitazona
+  *B) Glibenclamida
+   C) Acarbosa
+   D) Metformina
+   E) Insulina glargina
+EXP: Paciente geriátrico con antecedentes de diabetes tipo 2, presenta hipoglicemia sintomática severa (glicemia 50 mg/dL) y síntomas neurológicos como confusión, conducta bizarra e ideas paranoides. La creatinina elevada (1.8 mg/dL) indica disfunción renal, lo cual potencia los efectos de ciertos hipoglicemiantes. Entre ellos, la glibenclamida, una sulfonilurea de vida media prolongada, es la más asociada a hipoglicemia persistente, especialmente en ancianos y pacientes con compromiso renal, ya que su depuración se encuentra disminuida. Pioglitazona y acarbosa no causan hipoglicemia por sí solas, y la metformina se relaciona más con acidosis láctica, no con síntomas hipoglicémicos.
+
+### NEF-077 | Nefropatía por IgA: hematuria tras infección respiratoria | 2022
+Varón de 24 años acude por orinas rojas. Antecedente: episodios de hematuria después de infecciones respiratorias altas desde hace 5 años. Laboratorio: examen de orina: hematíes 89 x campo (siendo el 80% dismórficos), creatinina 1 mg/dl, proteinuria de 0,8 gramos en 24 horas. ¿Cuál es el diagnóstico más probable?
+   A) Glomerulonefritis membranosa
+   B) Glomeruloesclerosis focal y segmentaria primaria
+  *C) Nefropatía por IgA
+   D) Nefropatía de cambios mínimos
+   E) Glomerulonefritis postestreptocócica
+EXP: Paciente joven con episodios repetidos de hematuria macroscópica inmediatamente posteriores a infecciones respiratorias altas, lo cual es una característica clásica de nefropatía por IgA (enfermedad de Berger). La presencia de hematíes dismórficos en el sedimento urinario (80%) sugiere origen glomerular. La creatinina normal y la proteinuria <1 g/24 h apuntan a daño renal leve sin síndrome nefrótico. La glomerulonefritis membranosa y la GEFS primaria usualmente se presentan con proteinuria nefrótica; la enfermedad de cambios mínimos no se asocia a hematuria significativa ni hematíes dismórficos.
+
+### CAR-063 | Estenosis aórtica: angina, síncope y disnea | 2022
+Varón de 60 años, consulta por dolor torácico, episodios fugaces de pérdida de conocimiento al esfuerzo y disnea. Examen: pulso parvus, choque de punta por fuera de la línea media clavicular izquierda y soplo sistólico eyectivo en región paraesternal izquierda. ¿Cuál es el diagnóstico?
+   A) Estenosis mitral
+   B) Insuficiencia aórtica
+   C) Insuficiencia mitral
+  *D) Estenosis aórtica
+   E) Coartación de aorta
+EXP: Varón de 60 años con síntomas cardinales de estenosis aórtica severa: disnea de esfuerzo, síncope y angina. El pulso parvus y tardus indica disminución del flujo sistólico. El desplazamiento del choque de punta sugiere hipertrofia ventricular izquierda, consecuencia de la sobrecarga de presión. El soplo sistólico eyectivo irradiado al cuello es típico de esta condición. Las demás valvulopatías no generan este patrón hemodinámico ni clínico. Estenosis mitral, por ejemplo, se presenta con soplo diastólico y signos de congestión pulmonar.
+
+### END-056 | Diabetes en el primer nivel: referir por albuminuria | 2022
+Varón de 45 años, es diagnosticado con DM2 en un establecimiento de salud I-4, consulta por exacerbación de sed excesiva. ¿Cuál criterio determina que sea referido al siguiente nivel?
+   A) Creatinina sérica de 1.2 mg/dl
+  *B) Albuminuria mayor de 300 mg/24 horas
+   C) Confirmación diagnóstica por endocrinólogo
+   D) Falta de adherencia al tratamiento instalado
+   E) Glucosa en ayunas de 180 mg/dl
+EXP: Paciente con diagnóstico de diabetes mellitus tipo 2 presenta signos de descompensación clínica. En el contexto de atención primaria en un centro I-4, uno de los criterios de referencia al siguiente nivel de atención es la presencia de daño renal establecido, siendo la albuminuria >300 mg/24 h un marcador de nefropatía diabética significativa. Este hallazgo indica afectación orgánica que excede las capacidades resolutivas del primer nivel. La creatinina aún dentro de límites normales y la falta de adherencia no son criterios formales de referencia inmediata.
+
+### GIN-190 | Incontinencia de urgencia con residuo alto: urodinamia | 2022
+Mujer de 35 años, acude por presentar pérdida de orina de manera intermitente, no logra llegar al baño cuando siente urgencia por orinar. Niega escape de orina a la maniobra de Valsalva. Al examen: cistocele de primer grado, residuo postmiccional de 15 0 ml. La indicación siguiente es:
+   A) Urografía excretora
+   B) Tomografía pélvica
+   C) Ejercicios de Kegel
+  *D) Urodinamia
+   E) Cirugía de cistocele
+EXP: Paciente femenina con incontinencia urinaria de urgencia, caracterizada por escapes ante un deseo miccional intenso, sin relación con maniobras de aumento de presión abdominal como el Valsalva, lo que descarta la incontinencia de esfuerzo. La presencia de cistocele grado I y un residuo postmiccional significativo (150 ml) obliga a descartar una disfunción del vaciamiento vesical. En este contexto clínico, la prueba indicada para identificar el tipo de disfunción del detrusor, la capacidad vesical y la sensibilidad del llenado es el estudio urodinámico. Este permite diferenciar entre vejiga hiperactiva, hipoactiva o combinada, y descartar obstrucción funcional. Por ello, es el siguiente paso antes de indicar ejercicios de Kegel u otros tratamientos.
+
+### SP-142 | Seguimiento de casos y contactos: equipos de intervención integral | 2022
+Usted llega a un centro de salud categoría I-3 y le piden implementar un sistema de seguimiento de pacientes y contactos. De acuerdo a la normativa del MINSA. ¿Cuál de las siguientes medidas es prioridad 1?
+   A) Organizar el internamiento de pacientes
+  *B) Organización de equipos de intervención integral
+   C) Coordinar con las clínicas locales
+   D) Adquisición de oxímetros de pulso
+   E) Construir un nuevo establecimiento
+EXP: La pregunta evalúa conocimiento sobre las prioridades organizacionales en el primer nivel de atención, según los lineamientos del MINSA. En un establecimiento I-3, con enfoque comunitario, el seguimiento de casos y contactos implica una estrategia coordinada y multidisciplinaria. La prioridad número 1 ante brotes o situaciones sanitarias complejas es la organización de equipos de intervención integral, porque permite una respuesta rápida, coordinada y basada en evidencia. Estos equipos realizan acciones de rastreo, control epidemiológico, educación y manejo clínico inicial. Aunque otras acciones como adquirir oxímetros o coordinar con clínicas pueden ser útiles, no son inmediatas ni estructurales. La formación del equipo garantiza sostenibilidad del sistema de seguimiento. Además, se promueve el enfoque territorial, comunitario y de derechos.
+
+### INF-092 | Tricocefalosis: prolapso rectal y anemia | 2022
+Niño de 4 años es llevado a consulta por hematoquezia y tenesmo. Mediante anamnesis y examen se descubre prolapso rectal. Al evaluar los exámenes de laboratorio se halla leucocitos 12 300 x mm³ y Hb de 5 g/dl. ¿Cuál es la etiología a sospechar?
+  *A) Trichuris trichiura
+   B) Uncinarias
+   C) Clostridium difficile
+   D) Fasciola hepática
+   E) Giardia lamblia
+EXP: Niño con hematoquezia, tenesmo y prolapso rectal, en el contexto de anemia severa, lo cual orienta a una parasitosis intestinal crónica. El agente más probable es Trichuris trichiura, un helminto que se fija al colon y recto produciendo sangrado y tenesmo, además de inducir prolapso por el esfuerzo evacuatorio constante. El cuadro clínico también se asocia a eosinofilia y desnutrición crónica. Otras parasitosis, como las uncinarias, n o producen prolapso rectal y Clostridium difficile da diarrea acuosa posantibióticos. La Fasciola afecta vías biliares. Por tanto, la tricocefalosis es la etiología más compatible, siendo endémica en áreas rurales y asociada a condiciones de higiene precarias.
+
+### GIN-191 | Podálica en expulsivo en la multípara: parto vaginal | 2022
+Multigesta de 39 semanas de gestación, llega a la emergencia en trabajo de parto. Al examen: dilatación completa, feto en cefálica, variedad nalgas puras, altura uterina 29 cm. Antecedente de 2 partos vaginales con peso de 3200 g. La conducta será:
+   A) Parto instrumentado
+   B) Atención de parto por cesárea
+  *C) Atención de parto vaginal
+   D) Inducción con oxitocina
+   E) Versión cefálica externa
+EXP: Paciente multigesta en fase expulsiva con feto en presentación podálica (nalgas puras), sin signos de complicaciones. Presenta una altura uterina menor de lo esperado, lo que sugiere un feto de bajo peso (<2500 g), y tiene antecedentes de partos vaginales exitosos, lo cual favorece la opción de parto vaginal. En esta presentación, siempre que el equipo esté entrenado y no existan contraindicaciones (como desproporción céfalo-pélvica), se puede permitir el parto vaginal, ya que la variedad de nalgas puras es la más favorable dentro de las podálicas. La cesárea se reserva para macrosomía, feto en nalgas incompletas o falta de experiencia en parto vaginal podálico. La opción más razonable en este escenario es la atención de parto vaginal.
+
+### NEU-053 | COVID-19 con PaFi >300: oxigenoterapia convencional | 2022
+Varón obeso de 55 años acude a Emergencia por disminución en la saturación de oxígeno, tiene diagnóstico de COVID-19. Al examen: afebril, FR 26 x', FC 100 x', PaFi 305, PaO₂ 64 mmHg, SatO₂ 90%. ¿Cuál es la terapia indicada?
+   A) Ventilación no invasiva
+   B) Oxigenoterapia de alto flujo
+  *C) Oxigenoterapia no invasiva
+   D) Ventilación mecánica
+   E) Intubación inmediata
+EXP: Paciente COVID-19 positivo con PaFi >300 (PaFi 305), SatO₂ al límite (90%), FR elevada (26 x’), pero sin signos de fatiga respiratoria ni hipoxemia severa. En este escenario, se clasifica como insuficiencia respiratoria leve. La primera línea de manejo es la oxigenoterapia convencional (oxigenoterapia no invasiva), utilizando cánula binasal o mascarilla simple. No requiere aún ventilación no invasiva ni oxigenoterapia de alto flujo, que se reservan para PaFi <200 o SatO₂ persistente <90% con dificultad respiratoria. La ventilación mecánica solo se considera en casos graves con hipoxemia refractaria o signos de agotamiento respiratorio. La intervención debe ser escalonada y proporcional a la severidad clínica.
+
+### CAR-064 | Asistolia: adrenalina y RCP | 2022
+Mujer de 58 años, monitorizada en Shock Trauma por IMA ST no elevado en evolución. Durante el examen presenta pérdida súbita de conciencia; en el monitor se visualiza asistolia. ¿Cuál es el primer paso a ejecutar?
+   A) Realizar descarga eléctrica
+  *B) Administrar adrenalina
+   C) Golpe precordial
+   D) Intubación endotraqueal
+   E) Amiodarona endovenosa
+EXP: Paciente con infarto agudo de miocardio en evolución que súbitamente presenta pérdida de conciencia. El monitor evidencia asistolia, es decir, una ausencia completa de actividad eléctrica cardíaca. La primera acción en este contexto no es la desfibrilación (ya que no hay ritmo desfibrilable), sino la administración inmediata de adrenalina 1 mg cada 3–5 minutos, mientras se continúa la reanimación cardiopulmonar. El golpe precordial no está indicado en asistolia. La intubación puede considerarse posteriormente para asegurar vía aérea, pero no es la primera medida. La adrenalina busca restaurar actividad eléctrica y perfusión en este ritmo no desfibrilable.
+
+### HEM-036 | Drepanocitosis con crisis aplásica | 2022
+Varón de 25 años afropanameño, acude por presentar anemia e ictericia. Hemoglobina 8 g/dl, reticulocitos 0 %, bilirrubina total 6 mg/dl, bilirrubina directa 1 mg/dl. Banda anormal en electroforesis de hemoglobina. ¿Qué tipo de eritrocitos se espera encontrar en la sangre periférica?
+   A) Dianocitos
+   B) Microcitos
+   C) Eliptocitos
+  *D) Drepanocitos
+   E) Esferocitos
+EXP: Varón joven, de origen afropanameño, presenta cuadro clínico de anemia con ictericia, reticulocitos en 0 % y elevación de bilirrubina indirecta, lo que indica una anemia hemolítica severa. El hallazgo clave es la banda anormal en la electroforesis de hemoglobina, lo cual es altamente sugestivo de una hemoglobinopatía, particularmente anemia de células falciformes o drepanocítica. Esta condición es frecuente en población afrodescendiente y se caracteriza por eritrocitos en forma de hoz o “drepanocitos”, especialmente tras exposición a hipoxia. Estas células son deformes, frágiles y propensas a hemólisis. Por tanto, el frotis periférico mostrará drepanocitos como hallazgo típico.
+
+### PED-188 | Hierro preventivo en el bajo peso al nacer: desde el mes | 2022
+¿A qué edad en meses se iniciará la suplementación preventiva con hierro en un niño con peso al nacer de 2,100 kg?
+   A) Dos
+  *B) Uno
+   C) Tres
+   D) Cuatro
+   E) Seis
+EXP: Niño con bajo peso al nacer (2,100 g), por debajo de los 2,500 g, considerado factor de riesgo para anemia. En este grupo, la suplementación con hierro se adelanta en comparación con niños de peso normal. El Ministerio de Salud del Perú establece iniciar la suplementación con sulfato ferroso desde el primer mes de vida para prematuros o niños con bajo peso. Esto responde a la menor reserva de hierro hepática al nacer. Esperar hasta los 2 o 3 meses sería inadecuado. No es necesario confirmar anemia para empezar la prevención. La suplementación oportuna reduce riesgo de retraso del desarrollo. Por tanto, se debe iniciar la suplementación a partir del primer mes.
+
+### CIR-104 | Isquemia mesentérica aguda: neumatosis y LDH alta | 2022
+Hipertenso de 81 años, acude a Emergencia por deposiciones negras y dolor localizado en epigastrio e irradiado a hipocondrios, que se hace difuso. Al examen: abdomen distendido, signos de irritación peritoneal, RHA disminuidos. Rx simple de abdomen: neumatosis. Laboratorio: potasio normal, leucocitos 17 000/mm3, LDH 1082 U/L. ¿Cuál sería el diagnóstico más probable?
+   A) Diverticulitis aguda
+  *B) Isquemia mesentérica aguda
+   C) Pancreatitis aguda
+   D) Obstrucción intestinal
+   E) Úlcera péptica perforada
+EXP: Adulto mayor hipertenso con dolor abdominal intenso que se generaliza, melena, distensión, irritación peritoneal, leucocitosis marcada, LDH muy elevada y neumatosis intestinal en la radiografía: el cuadro corresponde a isquemia mesentérica aguda con necrosis de la pared intestinal. La neumatosis indica infarto transmural y obliga a laparotomía urgente. La pancreatitis no produce neumatosis ni melena.
+
+### GIN-192 | Perforación uterina con histerómetro sin sangrado: observar | 2022
+Al realizar un legrado por aborto incompleto se produce una perforación con el histerómetro, no se evidencia sangrado activo externo. ¿Cuál es la conducta a seguir?
+   A) Administrar analgésicos
+   B) Laparotomía exploratoria
+  *C) Control de funciones vitales
+   D) Transfusión sanguínea
+   E) Histerectomía
+EXP: La perforación uterina es una complicación del legrado que puede presentarse de forma asintomática o con manifestaciones graves. En este caso, la perforación con el histerómetro no muestra sangrado activo externo ni signos de compromiso hemodinámico. Por ello, la conducta inicial debe ser conservadora, con monitoreo estrecho de los signos vitales. Se busca identificar precozmente signos de sangrado interno, irritación peritoneal o inestabilidad hemodinámica. La laparotomía queda reservada para casos con sangrado severo o signos de peritonitis.
+
+### NEU-054 | Madre con TB en tratamiento: lactancia con mascarilla | 2022
+Puérpera inmediata, desde el tercer trimestre de embarazo, está en tratamiento de tuberculosis sensible. Consulta si puede alimentar a su recién nacido. ¿Cuál es la respuesta más adecuada?
+  *A) La madre debe usar una mascarilla de tela o quirúrgica mientras da de lactar
+   B) Lactante debe recibir la leche materna extraída manualmente
+   C) Alimentar al lactante con sucedáneos de leche materna
+   D) La madre debe usar respiradores N95
+   E) Suspender la lactancia por 6 meses
+EXP: Mujer puérpera en tratamiento para tuberculosis sensible desea saber si puede amamantar a su recién nacido. Según normas nacionales e internacionales, la lactancia materna no está contraindicada si la madre recibe tratamiento adecuado. Sin embargo, es indispensable reducir el riesgo de contagio aéreo. Por ello, se recomienda el uso de mascarilla quirúrgica o respirador N95 en el contacto cercano con el neonato. Este tipo de protección es superior a la mascarilla de tela, sobre todo durante la lactancia. El aislamiento del niño o suspensión de lactancia no sonnecesarios. Lo ideal es mantener el vínculo y alimentación natural.
+
+### PED-189 | Enfermedad hemorrágica tardía por déficit de vitamina K | 2022
+Lactante mujer de 1 mes, con antecedente de parto domiciliario y lactancia materna exclusiva. Ingresa al hospital por presentar desde hace dos días sangrado de mucosas en cavidad oral y escasos vómitos de contenido sanguinolento. El día de hoy se añade palidez y llanto persistente que no calma. Su sospecha diagnóstica es:
+  *A) Hemorragia por déficit de vitamina K
+   B) Coagulación intravascular diseminada
+   C) Hemofilia
+   D) Déficit de Proteína C
+   E) Púrpura trombocitopénica inmune
+EXP: Lactante de 1 mes, con parto domiciliario y sin profilaxis neonatal, presenta sangrado oral, vómitos hemáticos y palidez progresiva. En neonatos alimentados exclusivamente con leche materna, la deficiencia de vitamina K es una causa común de sangrado, debido a su baja concentración en la leche. La forma tardía ocurre entre la segunda semana y los 6 meses, pero puede presentarse más precozmente sin profilaxis. La clínica muestra hemorragias mucosas y gastrointestinales. Las causas como hemofilia o CIVD son menos probables en este contexto, sin antecedentes de enfermedad previa ni signos sistémicos. El antecedente de no haber recibido vitamina K al nacer es clave. Se requiere tratamiento urgente con vitamina K parenteral.
+
+### NRL-050 | Temblor parkinsoniano | 2022
+Varón de 78 años, consulta por temblor de manos, pero cuando levanta su taza de café deja de temblar hasta que llega a su boca, donde nuevamente comienza a temblar. Al examen se constata bradicinesia. ¿A qué tipo de temblor pertenece?
+  *A) Parkinsoniano
+   B) Esencial
+   C) Nervioso
+   D) Cerebeloso
+   E) Distónico
+EXP: Varón adulto mayor que presenta temblor de reposo que desaparece con el movimiento voluntario, pero retorna al llegar al objetivo. Además, presenta bradicinesia, lo que sugiere una alteración extrapiramidal. Esta clínica es característica del temblor parkinsoniano, el cual suele ser distal, rítmico, y de predominio en reposo. El temblor esencial ocurre con el movimiento sostenido, el cerebeloso se presenta como temblor de intención, y el nervioso es inespecífico. La presencia de otros síntomas motores como rigidez o inestabilidad postural debe evaluarse. El tratamiento suele iniciarse con levodopa si hay afectación funcional.
+
+### SP-143 | Cuidado comunitario de la salud | 2022
+Se incrementó la incidencia de sobrepeso y obesidad en los escolares de 5 a 9 años de edad del ámbito de un centro de salud; se identifica como factor de riesgo la falta de actividad física, por lo que se promueve la implementación de un campo deportivo en el distrito. ¿De qué tipo de cuidado de la salud se trata?
+   A) Asistencial
+  *B) Comunitario
+   C) Familiar
+   D) Individual
+   E) Hospitalario
+EXP: Se describe un problema poblacional que afecta a escolares de una comunidad, con identificación de un factor de riesgo común: sedentarismo. Ante ello, la intervención consiste en implementar un campo deportivo para modificar dicho factor. Este tipo de estrategia no se centra en un paciente individual ni en su entorno familiar, sino en una colectividad, lo que encuadra en el cuidado comunitario de la salud. Las actividades comunitarias buscan modificar determinantes sociales y conductas colectivas. Por tanto, no es un enfoque asistencial (curativo) ni individualizado.
+
+### OFT-044 | Tapón de cerumen por uso de hisopos | 2022
+Varón de 65 años, acude por hipoacusia y tinnitus en oído derecho desde hace 2 días. Acostumbra, luego de baño diario, realizar la limpieza de oídos con hisopo. ¿Cuál es el diagnóstico más probable?
+   A) Otitis media
+   B) Hipoacusia neurosensorial
+   C) Otitis externa
+  *D) Tapón de cerumen
+   E) Presbiacusia
+EXP: Paciente adulto mayor con inicio brusco de hipoacusia y tinnitus unilateral posterior a maniobra de limpieza auricular. El uso de hisopos con frecuencia genera empuje del cerumen hacia el conducto auditivo externo, formándose un tapón. Este se manifiesta clínicamente con pérdida auditiva conductiva súbita, sensación de oído tapado y zumbido. La ausencia de fiebre, dolor o secreción purulenta descarta una otitis externa o media. Además, la hipoacusia neurosensorial suele ser progresiva, bilateral y no asociada a maniobras mecánicas. El antecedente directo del baño y limpieza refuerz a el diagnóstico de tapón de cerumen.
+
+### INF-093 | Gestante con VIH y PPD positivo: isoniazida | 2022
+Gestante de 14 semanas asintomática, con VIH positivo y prueba de tuberculina mayor de 6 mm. ¿Cuál será el manejo?
+   A) Observación
+   B) Isoniazida, Rifampicina, Pirazinamida, Etambutol
+   C) Isoniazida, Rifampicina, Pirazinamida
+  *D) Isoniazida por 6 meses
+   E) Rifampicina por 2 meses
+EXP: Gestante de 14 semanas con VIH positivo y prueba de tuberculina >5 mm sin síntomas debe considerarse con infección tuberculosa latente. En pacientes inmunosuprimidos, como los VIH positivos, una induración >5 mm ya es positiva según guías internacionales. El tratamiento recomendado es isoniacida por 6 meses para prevenir progresión a enfermedad activa. El esquema RIPE está indicado solo si hay enfermedad activa, lo cual no se evidencia en este caso. No tratar puede implicar riesgo de diseminación o reactivación tuberculosa. Por tanto, el manejo correcto en este contexto clínico es la profilaxis con isoniacida por 6 meses.
+
+### HEM-037 | Déficit de vitamina B12: pancitopenia y deterioro cognitivo | 2022
+Mujer de 71 años, traída por familiar quien nota desde hace dos meses deterioro de sus capacidades mentales y anorexia severa. Al examen: palidez marcada, orientada solo en persona, sin signos de focalización. Laboratorio: Hb 8.5 g/dL, VCM 105 fl, leucocitos 3 500/mm³ y plaquetas 80 000/mm³. ¿Qué tratamiento prescribiría?
+   A) Piridoxina
+  *B) Cianocobalamina
+   C) Riboflavina
+   D) Tiamina
+   E) Hierro oral
+EXP: Paciente adulta mayor con deterioro cognitivo progresivo, anorexia, palidez y pancitopenia. En el hemograma destaca anemia macrocítica (VCM 105 fl), leucopenia y trombocitopenia, lo que sugiere una anemia megaloblástica. En mayores de 60 años, la causa más frecuente de este tipo de anemia es la deficiencia de vitamina B12. El deterioro neurológico también es característico y puede incluir desorientación, ataxia y parestesias. La tiamina se asocia a encefalopatía de Wernicke, pero no genera pancitopenia. La riboflavina y la piridoxina no explican el cuadro hematológico. Por clínica, edad y alteraciones cognitivas, se debe iniciar cianocobalamina.

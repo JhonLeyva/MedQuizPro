@@ -3,7 +3,7 @@
 Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del ENAM (examen médico peruano) publicado en Hostinger: https://lime-louse-621404.hostingersite.com. Responde siempre en español, de forma breve y sin jerga.
 
 ## Reglas del repositorio
-- Repo `jhonleyva/medquizpro`, clonado en `/home/user/MedQuizPro`. Trabaja en la rama que te asigne la sesión; si es nueva, créala desde `origin/claude/vibrant-albattani-g7t3b3` (ahí está todo el trabajo más reciente, incluidas las Entregas 1 y 2). No abras PR salvo que te lo pida.
+- Repo `jhonleyva/medquizpro`, clonado en `/home/user/MedQuizPro`. Trabaja en la rama que te asigne la sesión; si es nueva, créala desde `origin/claude/blissful-bohr-rjrm8p` (ahí está todo el trabajo más reciente: Entregas 1 y 2 y los ejemplos de la Entrega 3; parte de `claude/vibrant-albattani-g7t3b3`). No abras PR salvo que te lo pida.
 - Cada entrega es un ZIP en la raíz del repo, con commit y `git push -u origin <tu rama>`. Si falla por red, reintenta a los 2, 4, 8 y 16 s. Después envíalo con SendUserFile (display `attach`).
 - El pie de cada commit lo indica el system-reminder de la sesión nueva. No pongas identificadores de modelo en commits ni en archivos.
 - Trabaja en tu scratchpad. Copia primero `herramientas/` ahí: `cp -r /home/user/MedQuizPro/herramientas/. $S/`. Los scripts usan rutas relativas a esa carpeta y a `$S/flujo/`.
@@ -11,7 +11,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - **Código de la web:** la copia más reciente está en `herramientas/plataforma_materias/` (versión `?v=20260930-materias`); la anterior, en la rama `origin/claude/clever-franklin-1fao9i` (versión `20260928-plataforma`). Antes de entregar cambios de código, pide al usuario que abra `public_html/index.html` en Hostinger y busque el texto `?v=`: si coincide con una de esas versiones, trabaja sobre esa copia; si no, pídele que descargue los archivos que vas a tocar y trabaja sobre ellos.
 - **Al terminar cada tarea, actualiza este archivo** (estado, herramientas nuevas, próxima tarea) y súbelo con commit y push, para que el siguiente chat sepa todo lo hecho.
 
-## Estado actual (4-oct-2026: ver al final «Revisión por entregas de 500» — ENTREGAS 1 Y 2 HECHAS; siguen las entregas 3 a 5)
+## Estado actual (4-oct-2026: ver al final «Revisión por entregas de 500» — ENTREGAS 1 Y 2 HECHAS; ENTREGA 3: 4 ejemplos entregados, esperando aprobación; siguen las entregas 3 a 5)
 - **Rama con el trabajo más reciente:** `claude/vibrant-albattani-g7t3b3` (parte de `claude/sweet-franklin-dbg0mc` + bloque ENAM 2026). Total 2380 preguntas y 2106 flujogramas: **faltan los 274 flujogramas del bloque ENAM 2026**.
 - **Bancos:** 2380 preguntas (bloques 1 a 8 = 1713 + 393 de Ciencias Básicas + 274 del bloque ENAM 2026). `site/bancos/` ya tiene las 2380.
   - `herramientas/site/bancos/` tiene los 17 JSON finales (ciencias_basicas.json con 485).
@@ -291,9 +291,27 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
   - Recortes y borrado de flechas/letras del autor: `prep29.py` (bloque `if hacer("x.jpg"):`; `rellenar(im, máscara)`; para borrar una flecha usar máscara por umbral de color, no un rectángulo).
   - Propias: `dibujos29.py <nombre>` (matplotlib; fuentes ≥ 19-20 a 860 px porque la franja reduce a ~45 %), `ecg29.py <patrón> archivo "II;V3" <seg>` (patrones en `patrones()`), `frotis29.py`.
   - Sin caras identificables. Créditos: `CC`, `PROPIO`, `ECG_PROPIO` en cada content.
-  - La red bloquea NIH/PubMed/CDC/Open-i/PhysioNet; se pueden permitir en la configuración del entorno (Network access → Custom → Allowed domains).
+  - (Actualizado en la Entrega 3: NCBI/PubMed Central ya está permitido; ver «Entrega 3».)
 - Palabra prohibida en SVG también en las opciones del banco: si una alternativa la contiene, darle nombre corto (ej. CB-048).
 - Pendientes de rehacer cuando toquen: CAR-071, NRL-052, PED-211 (no estaban en las entregas 1-2).
 
+## Entrega 3 (4-oct-2026) — 4 EJEMPLOS ENTREGADOS, ESPERANDO APROBACIÓN
+- Pedido del usuario: Entrega 3 (1001-1500 en el orden de algoritmos.js) con el estándar de la Entrega 2, **subir la diversidad de diseños de 20 a 50**, **sacar imágenes de PubMed/NCBI** (donde están la mayoría de imágenes médicas), 2-3 imágenes por flujograma si la pregunta lo pide, flujograma lo más sólido posible para aprender. **Empezar con 4 ejemplos** (hecho) y esperar su visto bueno antes de los otros 496.
+- Entregado `MedQuizPro_ejemplo3_4_flujogramas_50_disenos.zip` (4 SVG + PNG + `algoritmos.js` copia con títulos nuevos + `ver-ejemplos.html` + LEEME con créditos y el catálogo de 50 diseños). `site/algoritmos.js` NO se tocó (se actualiza con la entrega completa).
+  - CIR-080 diverticulitis con absceso 5 cm → diseño 21 `lectura` (TC real de PMC con pines + tira Hinchey 0/Ia/II) + escala Hinchey modificada (Ib).
+  - PED-142 ROP → diseño 22 `zonas` (zonas I-II-III, la III como media luna temporal con `desplaza=0.3`; estadios con fotos de fondo de ojo de PMC) + escala ETROP Tipo 1/Tipo 2 + franja de retina tras láser.
+  - TRA-028 fractura en cuña → diseño 23 `regla` (T-score OMS y Genant) con franja interna de DXA real en español + criterios BHOF/AACE + Rx real de L4 en cuña.
+  - INF-070 mordedura de perro → diseño 24 `decision` (PASO 1 lavado para todos; categorías OMS × estado del perro, fila III) + foto real + calendario propio (vacuna 0-3-7-14, inmunoglobulina, observar 10 días).
+  - check27: 0 problemas; prueba en la app (e2e30ej.cjs): 2380 entradas, 0 sin banco, 0 sin imagen, modal de TRA-028 abre, 0 errores JS.
+- **Red:** el usuario habilitó los dominios de NCBI. Funciona: `eutils.ncbi.nlm.nih.gov` (búsqueda y XML), `pmc-oa-opendata.s3.amazonaws.com` (copia oficial de PMC en AWS: aquí se bajan las figuras), `pmc.ncbi.nlm.nih.gov` (a veces da reCAPTCHA: no depender de la página web). Open-i (`openi.nlm.nih.gov`) no responde. El servicio OA antiguo (`/pmc/utils/oa/oa.fcgi`) da 404.
+- Herramientas nuevas (en `herramientas/flujo/`):
+  - `img/pmc.py`: `buscar "texto" [n]` (solo artículos open access con licencia CC BY/CC0), `cap "texto" "regex" [n]` (lista solo figuras cuya leyenda coincide: la forma más rápida de hallar una imagen), `figs PMCxxxx` (leyendas), `bajar PMCxxxx N destino.jpg` (rechaza licencias NC/ND; guarda `destino.jpg.json` con autores, revista, año, licencia y la leyenda; convierte WebP a JPG). Crédito: «Autor et al. · Revista año · PMCID (PubMed Central) · CC BY 4.0».
+  - OJO con las figuras de PMC: leer la leyenda entera; si dice «courtesy of… used with permission» la imagen no es CC BY aunque el artículo sí (se descartó una así).
+  - `img/prep30.py` (recortes de la Entrega 3; ya NO importa `prep29`, que rehacía todas sus imágenes al importarse), `img/dibujos30.py` (dibujos propios: `calendario_rabia`).
+  - `engine9.py`: diseños 21-24 (`lectura`, `zonas`, `regla`, `decision`), la marca `("pin", fx, fy, n)` y `CATALOGO` (los 50 diseños; `HECHOS` = los ya programados). `engine7.build7` ya los usa. `regla` acepta `banda=` interna (imagen de dónde sale el valor). En los diseños nuevos las tarjetas `claves` no llevan la etiqueta «ESTE CASO» (tapaba el título): el color marca la del caso.
+  - Datos de los diseños nuevos: `lectura` {rotulo, img_titulo, img=P(), pines=[(fx,fy)], pasos=[(título, detalle, on)] (los primeros llevan pin), img_pie, tira=[(P(), etiqueta, sub, on)], tira_titulo, tira_credito, veredicto=(t, detalle)}; `zonas` {rotulo, dibujo_titulo, anillos=[(nombre, sub)], radios, desplaza, caso_anillo, puntos=[(dx, dy, rótulo, color)], nota, escalones_titulo, escalones=[(etq, nombre, detalle, P()|None, on)], credito, claves}; `regla` {rotulo, reglas=[{nombre, que, min, max, fmt, ticks, bandas=[(desde, hasta, nombre, sev 0-4)], caso, caso_txt, pie, pie_on}], banda, claves}; `decision` {rotulo, previo=(t, detalle), previo_etq, eje_y, ancho_filas, cols, rows=[(nombre, sub)], cells=[[(t, [líneas])]], caso=(fila, col|None), nota, claves_titulo, claves}.
+  - `rev30/entrega3.json` (500 IDs, 1000-1499 de algoritmos.js) y fichas `rev30/t00.txt`…`t19.txt` (`rev30/fichas.py`). `build28.py` ya lee `content2[89]|content30`. `content30a.py` = los 4 ejemplos (pertenecen a la tanda t00).
+  - `pack30ej.py` (paquete de ejemplos), `e2e30ej.cjs` (prueba en la app; servir una copia de `site/` con el paquete encima en el puerto 8767).
+
 ## Próxima tarea sugerida
-Entrega 3 (flujogramas 1001-1500 en el orden de algoritmos.js) con el mismo estándar e igual cantidad de imágenes: crear `rev30/entrega3.json` (IDs 1000-1499 de `site/algoritmos.js`, saltando CAR-001), fichas `rev30/tNN.txt` (modelo `rev29/fichas.py`), specs `content30a.py`… (habrá que ampliar el patrón de `build28.py`/`pack29.py` a `content2[89]|content30`), y `pack30.py`.
+Si el usuario aprueba los 4 ejemplos: hacer los otros 496 de la Entrega 3 en tandas de 25 (`content30a.py` ya tiene 4 de t00; seguir con `content30b.py`…), estrenando los diseños 25-50 de `engine9.CATALOGO` a medida que una pregunta los pida (repartir los 50 más o menos por igual), buscando imágenes primero en PubMed Central (`img/pmc.py cap`), luego Commons, luego dibujos propios. Por cada tanda: build28 → check27 en 0 → mirar PNG/franjas → anotar en `rev30/PROGRESO.md`. Al final: `pack30.py` (copiar `pack29.py`, que también tome `content30*` y actualice `site/algoritmos.js`), prueba en la app, ZIP, commit, push, envío y actualizar este archivo.

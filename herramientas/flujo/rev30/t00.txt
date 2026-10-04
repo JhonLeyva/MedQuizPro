@@ -1,0 +1,224 @@
+### CIR-077 | Hemorroides de tercer grado | 2025
+Varón de 30 años desde hace 7 meses presenta estreñimiento, con sangrado rectal, tumoración que sale por el ano y lo reduce manualmente. ¿Cuál es el grado de hemorroides que presenta?
+  *A) Tercer
+   B) Primer
+   C) Segundo
+   D) Cuarto
+   E) Cuarto con trombosis
+EXP: Paciente con estreñimiento, sangrado rectal y prolapso hemorroidal que requiere reducción manual, cuadro compatible con hemorroides de tercer grado. La clasificación se basa en el grado de prolapso: el primer grado no prolapsa, el segundo se reduce espontáneamente, el tercero necesita reducción manual y el cuarto permanece irreductible. Fisiopatológicamente, la congestión venosa crónica en el plexo hemorroidal interno produce dilatación y descenso de los cojinetes anales. El esfuerzo defecatorio y el aumento de presión intraabdominal agravan el prolapso. El manejo incluye medidas higiénico-dietéticas, baños de asiento y eventualmente tratamiento quirúrgico si hay síntomas refractarios. En conclusión, el cuadro descrito corresponde a hemorroides internas de tercer grado, caracterizadas por prolapso reducible manualmente.
+
+### CIR-078 | Anestesia en paciente de alto riesgo: bloqueo de nervio periférico | 2025
+Adulto mayor de 70 años, con antecedente de EPOC sin tratamiento, cardiopatía coronaria. Ingresa para cirugía de emergencia por fractura expuesta de radio derecho. ¿Qué tipo de anestesia indicaría?
+   A) Raquídea
+  *B) Bloqueo nervio periférico
+   C) Anestesia epidural
+   D) General balanceada
+   E) Sedación sin bloqueo
+EXP: Paciente adulto mayor con comorbilidades respiratorias (EPOC) y cardiovasculares (cardiopatía coronaria) que requiere cirugía de urgencia por fractura expuesta del radio derecho. En este contexto, la elección anestésica debe minimizar los riesgos hemodinámicos y evitar la depresión respiratoria asociada a la anestesia general. Fisiopatológicamente, el EPOC reduce la reserva ventilatoria y aumenta el riesgo de hipoxia o retención de CO₂ durante anestesia general. Además, la cardiopatía coronaria incrementa la susceptibilidad a la isquemia miocárdica ante fluctuaciones tensionales. El bloqueo de nervios periféricos (como el bloqueo del plexo braquial) permite una analgesia efectiva y regional, conservando la respiración espontánea y reduciendo complicaciones sistémicas. Por tanto, este método es ideal para procedimientos en extremidades superiores. En conclusión, en este paciente con alto 
+
+### GAS-049 | Cirrosis hepática descompensada | 2025
+Varón de 58 años con antecedente de hepatitis C crónica no tratada consulta por distensión abdominal progresiva y edema en miembros inferiores. Al examen: ictericia leve, circulación colateral abdominal y ascitis moderada. Laboratorio: albúmina 2.4 g/dL, bilirrubina total 3.1 mg/dL, INR 1.7, plaquetas 85 000/µL. Ecografía: hígado de contornos irregulares, esplenomegalia y ascitis. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome de Budd–Chiari
+  *B) Cirrosis hepática descompensada
+   C) Hepatitis viral aguda fulminante
+   D) Carcinoma hepatocelular
+   E) Insuficiencia cardiaca derecha
+EXP: El paciente presenta signos clásicos de hepatopatía crónica avanzada, con distensión abdominal, ictericia leve, circulación colateral y ascitis, hallazgos compatibles con hipertensión portal. Los exámenes evidencian hipoproteinemia, alteración de la coagulación y trombocitopenia por hiperesplenismo. La ecografía confirma un hígado de contornos irregulares y esplenomegalia, configurando un cuadro típico de cirrosis hepática descompensada. En la fisiopatología, la necroinflamación persistente por hepatitis C genera fibrosis progresiva y nódulos regenerativos que alteran el flujo portal, originando ascitis y edema por hipoalbuminemia y retención de sodio. El INR prolongado refleja disfunción hepatocelular.
+
+### SP-098 | Análisis FODA: debilidades | 2025
+El médico jefe de un establecimiento de salud realiza un análisis FODA en su institución e identifica que los servicios de atención que brinda son de baja calidad y carece de recursos financieros. ¿Cómo se clasifica esta situación?
+   A) Fortaleza
+  *B) Debilidad
+   C) Oportunidad
+   D) Amenaza
+   E) Fortaleza y oportunidad
+EXP: En el análisis FODA, las debilidades son factores internos que limitan el desempeño o dificultan el cumplimiento de los objetivos institucionales. La baja calidad en los servicios de atención y la falta de recursos financieros son deficiencias propias del funcionamiento interno del establecimiento, no derivadas del entorno. En la fisiopatología organizacional, estas debilidades afectan la eficiencia operativa y reducen la capacidad de respuesta ante las amenazas externas o las oportunidades del entorno. El reconocimiento de las debilidades permite diseñar estrategias correctivas mediante la optimización de procesos y la gestión de recursos. Por tanto, la situación descrita corresponde claramente a una debilidad institucional.
+
+### PED-142 | Retinopatía del prematuro | 2025
+Recién nacido pretérmino de 28 semanas de gestación y peso al nacer de 1200 gramos que requirió intubación y ventilación mecánica prolongada en la UCIN, recibiendo oxigenoterapia intermitente con saturaciones objetivo de 90-95%. A las 35 semanas de edad corregida, durante el cribado oftalmológico, se diagnosticó retinopatía de la prematuridad con signos de progresión. ¿Cuál de las siguientes estrategias de manejo es la más integral para optimizar el pronóstico visual a largo plazo?
+   A) Incrementar agresivamente las saturaciones de oxígeno a valores superiores al 98% para potenciar el desarrollo pulmonar y cerebral
+   B) Administrar un ciclo prolongado de corticosteroides sistémicos para reducir la inflamación pulmonar y la dependencia de oxígeno
+   C) Prescribir eritropoyetina recombinante humana para estimular la eritropoyesis y el desarrollo neurológico
+  *D) Monitorización estricta de la SatO₂ en el rango recomendado de 90-95% y asegurar la continuidad de los exámenes oftalmológicos
+   E) Suspender los controles oftalmológicos si mejora la respiración
+EXP: El neonato pretérmino de 28 semanas con retinopatía de la prematuridad progresiva presenta una complicación vasoproliferativa inducida por la inmadurez retiniana y la exposición fluctuante al oxígeno. La fisiopatología se basa en la hiperoxia relativa, que suprime el factor de crecimiento vascular endotelial (VEGF), seguida de hipoxia retiniana y neovascularización patológica. El manejo integral busca estabilizar la oxigenación evitando tanto la hipoxia como la hiperoxia, pues ambas agravan el daño retiniano. La estrategia más efectiva incluye mantener saturaciones entre 90-95% y realizar controles oftalmológicos seriados, lo que permite detectar etapas tratables y aplicar láser o anti-VEGF oportunamente. En conclusión, la medida más completa es la monitorización estricta de SatO₂ y continuidad de exámenes oftalmológicos.
+
+### GAS-050 | Síndrome de Mallory-Weiss | 2025
+Varón de 30 años acude a Emergencia por hematemesis iniciada hace 30 minutos. Refiere múltiples vómitos incoercibles el día previo tras ingesta excesiva de alcohol. Al examen: hemodinámicamente estable, sin palidez ni estigmas de hepatopatía. ¿Cuál es el diagnóstico más probable?
+   A) Várices esofágicas
+  *B) Desgarro de Mallory-Weiss
+   C) Gastritis erosiva
+   D) Úlcera gástrica
+   E) Esofagitis por reflujo
+EXP: El paciente con antecedente de vómitos repetidos seguidos de hematemesis, sin signos de hepatopatía ni inestabilidad hemodinámica, presenta el patrón típico del síndrome de Mallory-Weiss. La fisiopatología radica en un desgarro mucoso longitudinal en la unión gastroesofágica causado por el aumento súbito de la presión intraabdominal al vomitar. El sangrado suele ser autolimitado y no compromete la estabilidad del paciente. El diagnóstico diferencial incluye várices esofágicas y gastritis erosiva, pero la ausencia de hepatopatía y la historia de vómitos intensos orientan al desgarro mucoso. El tratamiento es conservador, con inhibidores de bomba de protones y vigilancia. En síntesis, el diagnóstico más probable es desgarro de Mallory-Weiss.
+
+### HEM-027 | Leucemia mieloide aguda: pronóstico citogenético | 2025
+En la leucemia mieloide aguda, ¿Cuál es el factor pronóstico más importante al momento del diagnóstico?
+   A) Edad
+   B) Leucemias agudas secundarias
+  *C) Alteraciones citogenéticas
+   D) Recuento leucocitario
+   E) Sexo
+EXP: En la leucemia mieloide aguda, el pronóstico varía significativamente entre los pacientes y depende de factores biológicos más que clínicos. Entre ellos, las alteraciones citogenéticas y moleculares representan el determinante pronóstico más importante al diagnóstico. Fisiopatológicamente, las mutaciones y reordenamientos cromosómicos influyen directamente en la respuesta al tratamiento y en la probabilidad de recaída. Por ejemplo, la translocación t( 8;21) y la inv(16) se asocian a buen pronóstico, mientras que mutaciones en FLT3-ITD o monosomías cromosómicas indican mal pronóstico. Aunque la edad y el recuento leucocitario también tienen valor pronóstico, la citogenética define la estratificación terapéutica y la indicación de trasplante. En conclusión, las alteraciones citogenéticas constituyen el factor pronóstico más relevante y decisivo en la leucemia mieloide aguda.
+
+### CIR-079 | Gran quemado: respuesta hipermetabólica | 2025
+Varón de 45 años, con quemaduras de 2º - 3º grado en 50% de la superficie corporal total, 24 horas post lesión. Permanece en reanimación con líquidos y presenta taquicardia, fiebre, hiperglucemia y catabolismo proteico. ¿Cuál es el estado fisiopatológico más probable responsable de estos hallazgos?
+  *A) Respuesta hipermetabólica post-quemadura
+   B) Síndrome de insuficiencia suprarrenal
+   C) Sepsis incipiente por foco desconocido
+   D) Acidosis láctica por hipoperfusión persistente
+   E) Hipotiroidismo agudo
+EXP: Varón de 45 años con quemaduras extensas de segundo y tercer grado en el 50% del cuerpo que, tras 24 horas, desarrolla taquicardia, fiebre, hiperglucemia y catabolismo proteico. Este cuadro se relaciona con la respuesta hipermetabólica post-quemadura, un estado fisiopatológico de hipercatabolismo sistémico. Tras la fase inicial de shock, la liberación sostenida de catecolaminas, cortisol y glucagón induce aumento del gasto energético, gluconeogénesis y degradación proteica. Esto genera pérdida de masa muscular, inmunosupresión y resistencia insulínica, explicando la hiperglucemia persistente. La fiebre es metabólica y no infecciosa en las primeras fases. La adecuada reposición calórica y el control metabólico son esenciales para evitar complicaciones.
+
+### GAS-051 | Sospecha de cáncer colorrectal: colonoscopía | 2025
+Varón de 64 años, consulta por cansancio, pérdida de peso (10 kilos), episodios de constipación y hematoquecia. Examen: pálido, PA 100/60 mmHg, pulso 100 x', FR 22 x'. Abdomen: normal. ¿Qué examen auxiliar de inicio solicitaría?
+   A) Tomografía axial computada abdominal
+   B) RX de colon con enema opaco
+  *C) Colonoscopía
+   D) Endoscopía digestiva alta
+   E) Ecografía abdominal
+EXP: Varón de 64 años con astenia, pérdida ponderal significativa, constipación y hematoquecia, síntomas cardinales de una posible neoplasia colorrectal. Fisiopatológicamente, la pérdida de sangre crónica por ulceración tumoral y el tránsito intestinal lento por obstrucción parcial explican la anemia, el cansancio y la alteración del hábito intestinal. La hematoquecia indica un origen distal del sangrado, generalmente en colon o recto, lo que descarta inicialmente lesiones del tracto digestivo superior. El examen físico abdominal puede ser normal en fases iniciales, por lo que se requiere exploración directa de la mucosa colónica. La colonoscopía es el método diagnóstico de elección, pues permite visualizar el tumor, determinar su localización exacta y tomar biopsias para confirmación histológica.
+
+### PSI-028 | Anorexia nerviosa | 2025
+Adolescente de 13 años quien presenta miedo intenso a ganar peso, alteración en la forma en que percibe su propio peso y restricción de la ingesta energética. ¿Cuál es el diagnóstico adecuado?
+   A) Trastorno de evitación
+  *B) Anorexia nerviosa
+   C) Bulimia nerviosa
+   D) Trastorno por atracón
+   E) Trastorno obsesivo-compulsivo
+EXP: Adolescente de 13 años con miedo intenso a ganar peso, alteración de la imagen corporal y restricción alimentaria marcada. Este patrón clínico es característico de la anorexia nerviosa, un trastorno del comportamiento alimentario con origen multifactorial, donde intervienen factores biológicos, psicológicos y socioculturales. Fisiopatológicamente, la restricción calórica prolongada produce hipoestrogenismo, bradicardia, hipotermia y alteraciones hidroelectrolíticas por desnutrición. El componente central es la distorsión de la autoimagen y el temor patológico a engordar, incluso con bajo peso evidente. A diferencia de la bulimia, aquí no hay atracones recurrentes seguidos de purgas, sino control estricto de la ingesta. Clínicamente, predomina la negación del problema y la búsqueda compulsiva de delgadez.
+
+### SP-099 | Modelo de intervención biomédico | 2025
+En una población que no cuenta con sistema de agua y desagüe, se identifica incremento de casos de enteroparasitosis en los menores de tres años, por lo que se brinda las indicaciones a los padres para la administración correcta del medicamento prescrito, pero no se aborda la situación del saneamiento ambiental. ¿Cuál es el modelo de intervención aplicado en este caso?
+   A) Participativo
+   B) Conductual
+  *C) Biomédico
+   D) Comunitario
+   E) Intersectorial
+EXP: Se describe un contexto de aumento de enteroparasitosis infantil en una comunidad sin servicios básicos, donde la intervención se limita a la prescripción farmacológica sin abordar determinantes ambientales. Este enfoque corresponde al modelo biomédico, centrado en la enfermedad y el tratamiento individual, sin considerar el entorno ni los factores sociales que perpetúan la patología. Fisiopatológicamente, este modelo prioriza la erradicación del agente causal mediante antiparasitarios, pero omite la prevención primaria mediante saneamiento ambiental, educación y mejora de condiciones de vida. La ausencia de acciones intersectoriales refleja un abordaje curativo y no promocional.
+
+### SP-100 | Violencia sexual: primero la atención médica | 2025
+Mujer de 32 años, víctima de violencia sexual, acude al hospital con lesiones genitales y afectación emocional severa. ¿Cuál es la primera obligación del equipo de salud?
+   A) Notificar de inmediato a la autoridad competente
+  *B) Brindar atención médica y estabilización clínica
+   C) Solicitar autorización judicial antes de proceder
+   D) Informar primero a los familiares directos
+   E) Exigir la denuncia policial antes de atender
+EXP: Mujer de 32 años víctima de violencia sexual, acude con lesiones genitales y alteración emocional severa. En estos casos, la prioridad absoluta es la atención médica inmediata para estabilizar las funciones vitales, aliviar el dolor y prevenir complicaciones físicas y psicológicas. Fisiopatológicamente, la agresión sexual puede generar trauma genital, hemorragia, infecciones de transmisión sexual y riesgo de embarazo no deseado, por lo que la estabilización clínica precede a cualquier procedimiento legal. El equipo de salud debe brindar contención emocional y atención integral, garantizando confidencialidad y respeto. La notificación a las autoridades es obligatoria, pero solo después de estabilizar a la víctima. En conclusión, la primera obligación del equipo médico es brindar atención y estabilización clínica.
+
+### INF-070 | Mordedura de perro: lavado de la herida | 2025
+Un varón de 35 años es mordido en la mano izquierda por un perro hace 2 horas. Examen: estable, la herida es profunda desgarrante de 1 x 5 cm. ¿Cuál es la conducta inicial en un hospital de primer nivel de atención?
+   A) Sutura primaria de la herida
+  *B) Lavado profuso de la herida con SF y jabón
+   C) Antibioticoterapia profiláctica
+   D) Administración de antirrábico humano
+   E) Cierre con puntos y alta
+EXP: Varón de 35 años con mordedura de perro hace 2 horas, herida desgarrante profunda en mano izquierda. La conducta inicial ante toda mordedura animal potencialmente rabiosa es la limpieza inmediata y exhaustiva de la herida. El lavado profuso con agua corriente, suero fisiológico y jabón durante al menos 10 a 15 minutos reduce drásticamente la carga viral del virus rábico y la contaminación bacteriana. Fisiopatológicamente, la rabia penetra a través de terminaciones nerviosas, por lo que su eliminación temprana del sitio de inoculación es crucial. La sutura se difiere hasta descartar infección activa, y el uso de antibióticos y vacunación antirrábica se decide posteriormente.
+
+### CB-051 | Toxíndrome simpaticomimético: benzodiacepinas | 2025
+Varón de 28 años, traído por PNP al Servicio de Emergencia, lo encuentran frente a una discoteca con agitación y diaforesis. PA 190/100 mm Hg, FC 132 x', FR 28 x', T 38.8ºC, piel pálida, caliente, sudorosa, pupilas 7.5 mm. Ud. inicialmente indicaría:
+  *A) Benzodiazepinas
+   B) Betabloqueantes
+   C) Neurolépticos
+   D) Naloxona
+   E) Flumazenilo
+EXP: Varón de 28 años con cuadro de agitación psicomotora, hipertermia, diaforesis, hipertensión severa y midriasis marcada (7.5 mm), compatible con intoxicación por estimulantes simpaticomiméticos como cocaína o anfetaminas. Fisiopatológicamente, estos agentes aumentan la liberación de catecolaminas (dopamina, noradrenalina y adrenalina), generando hiperactividad adrenérgica y crisis hipertensiva. El manejo inicial se basa en la sedación y control de la hiperactividad adrenérgica mediante benzodiazepinas, que reducen la excitación central, previenen convulsiones y disminuyen la presión arterial por efecto ansiolítico y vasodilatador indirecto. Los betabloqueantes están contraindicados porque pueden inducir vasoconstricción coronaria paradójica por bloqueo beta con estimulación alfa sin oposición.
+
+### SP-101 | Muestreo sistemático | 2025
+Se realiza un estudio para saber la opinión sobre calidad de atención de un centro de salud, metodológicamente del total de pacientes disponibles se obtuvo el tamaño de la muestra, se seleccionó al azar un individuo y posteriormente se captó la información de un paciente de cada 3. ¿Cuál es el tipo de muestreo aplicado?
+   A) Estratificado
+   B) No probabilístico
+  *C) Sistemático
+   D) Aleatorio simple
+   E) Por conglomerados
+EXP: El estudio sobre la calidad de atención selecciona un primer individuo al azar y luego elige a uno de cada tres del total disponible, lo cual define un patrón de selección con intervalo fijo. Fisiopatológicamente, en términos metodológicos, esto corresponde a un muestreo sistemático, donde la unidad inicial se elige aleatoriamente y las siguientes se determinan mediante una constante “k” (en este caso 3). Este tipo de muestreo garantiza representatividad cuando la población está homogéneamente distribuida y ordenada sin sesgo. Se diferencia del muestreo aleatorio simple, donde cada individuo tiene probabilidad independiente, y del estratificado, donde se dividen subgrupos antes de muestrear. Por tanto, la técnica utilizada es el muestreo sistemático.
+
+### TRA-028 | Fractura vertebral por fragilidad: densitometría ósea | 2025
+Mujer de 60 años con dolor lumbar tras caída desde su propia altura hace 2 semanas. Antecedente: menopausia precoz. Al examen: dolor a la palpación en L4 –L5 y contractura paraespinal. Radiografía: fractura vertebral por acuñamiento en L4. Con el propósito de confirmar el diagnóstico de osteoporosis como causa subyacente, ¿Qué examen solicitaría?
+   A) RM de columna
+  *B) Densitometría ósea
+   C) Biopsia ósea vertebral
+   D) Gammagrafía ósea
+   E) Calcio sérico
+EXP: Mujer de 60 años con fractura vertebral por acuñamiento tras una caída de baja energía y antecedente de menopausia precoz, lo que orienta clínicamente a osteoporosis secundaria a déficit estrogénico. Fisiopatológicamente, la deficiencia de estrógenos aumenta la resorción ósea mediada por osteoclastos, reduciendo la densidad mineral y predisponiendo a fracturas por fragilidad. En este contexto, el examen de elección para confirmar el diagnóstico etiológico es la densitometría ósea por absorciometría dual de rayos X (DEXA), que cuantifica la densidad mineral en columna lumbar y cuello femoral. Un T-score ≤ -2.5 confirma osteoporosis. La RM se reserva para descartar metástasis o compresión medular, la gammagrafía evalúa actividad ósea y la biopsia se usa solo en casos atípicos.
+
+### INF-071 | Neurosífilis: penicilina G sódica | 2025
+Varón de 28 años, con abandono de TAR hace 2 años, acude por cefalea intensa y compromiso del sensorio. Examen: Glasgow 11, rigidez de nuca (+), Kernig (+), RPR (+), no focalización. LCR: pleocitosis linfocítica con aumento de proteínas y glucosa normal y prueba VDRL (+). ¿Cuál es el tratamiento indicado?
+   A) Doxiciclina
+   B) Penicilina benzatínica
+  *C) Penicilina G sódica
+   D) Ceftriaxona
+   E) Azitromicina
+EXP: Paciente con VIH que abandonó TAR, presenta cefalea, rigidez de nuca, Kernig positivo y LCR con pleocitosis linfocítica, proteínas elevadas, glucosa normal y VDRL positivo, diagnóstico de neurosífilis. Fisiopatológicamente, Treponema pallidum invade el sistema nervioso central produciendo meningitis luética o meningovascular, con síntomas meníngeos y deterioro cognitivo. El tratamiento de elección es penicilina G sódica intravenosa, que logra concentraciones terapéuticas en el LCR y erradica el treponema. Las formas benzatínica o doxiciclina no alcanzan niveles adecuados en el sistema nervioso. La ceftriaxona es alternativa solo en casos de alergia a penicilina.
+
+### CIR-080 | Diverticulitis con absceso: drenaje percutáneo | 2025
+Mujer de 70 años con dolor abdominal, fiebre y masa palpable en fosa iliaca izquierda. Tomografía abdominal: absceso pericólico de 5 cm. ¿Cuál es el tratamiento de elección?
+   A) Antibioticoterapia exclusiva
+  *B) Drenaje percutáneo y antibióticos
+   C) Laparotomía exploratoria de urgencia
+   D) Colonoscopía terapéutica
+   E) Colectomía con anastomosis primaria inmediata
+EXP: Paciente anciana con dolor en fosa iliaca izquierda, fiebre y masa palpable, con tomografía que evidencia absceso pericólico de 5 cm, sugiere diverticulitis complicada Hinchey I –II. Fisiopatológicamente, la microperforación diverticular causa extravasación localizada de material purulento, generando absceso limitado por epiplón y estructuras adyacentes. En abscesos menores de 3 cm puede bastar antibióticoterapia; sin embargo, cuando supera los 4–5 cm, el drenaje percutáneo guiado por imagen, asociado a antibióticos de amplio espectro, es el tratamiento de elección, evitando la laparotomía inmediata. Una cirugía se reserva para falla del drenaje o peritonitis difusa.
+
+### CIR-081 | Neumoperitoneo: laparotomía exploratoria | 2025
+Varón de 74 años sin antecedentes de importancia, quien presenta dolor y distensión abdominal de 2 días de evolución, asociado a vómitos y estreñimiento. RX de abdomen de pie muestra neumoperitoneo. ¿Cuál sería la conducta más adecuada?
+  *A) Laparotomía exploratoria
+   B) Tomografía
+   C) Ecografía
+   D) FAST
+   E) Enema baritado
+EXP: Varón adulto mayor con dolor abdominal, distensión, vómitos y radiografía que evidencia neumoperitoneo presenta signos de perforación visceral, probablemente de víscera hueca. Fisiopatológicamente, la liberación de contenido gastrointestinal a la cavidad peritoneal desencadena peritonitis química seguida de infección bacteriana grave. En este contexto, el manejo debe ser quirúrgico de urgencia mediante laparotomía exploratoria para identificar y reparar la fuente de perforación, controlar la contaminación y realizar lavado peritoneal. Los estudios de imagen adicionales (TC o ecografía) no son indicados ante evidencia radiográfica clara de aire libre intraperitoneal.
+
+### SP-102 | Protocolo de investigación: marco teórico | 2025
+La sección del protocolo de investigación que contiene el sustento de la hipótesis de investigación considerando argumentos de plausibilidad corresponde a:
+   A) Aspectos éticos
+   B) Justificación
+   C) Descripción del problema
+  *D) Marco teórico
+   E) Cronograma
+EXP: En el protocolo de investigación, el marco teórico constituye la sección donde se fundamenta la hipótesis mediante argumentos científicos y de plausibilidad biológica o social. En esta parte se analizan investigaciones previas, teorías y modelos conceptuales que sustentan el planteamiento del problema. Fisiopatológicamente, representa l a “base racional” que conecta el conocimiento existente con la hipótesis formulada, explicando por qué se espera una determinada relación entre las variables. La justificación responde al “por qué investigar”, mientras el marco teórico responde al “en qué se basa científicamente” el estudio. Por ello, el sustento de la hipótesis pertenece al marco teórico.
+
+### PSI-029 | ISRS: retiro gradual | 2025
+Un paciente viene a su consulta, con síntomas de llanto fácil, sentimientos de minusvalía, bradipsiquia. Usted decide darle un inhibidor selectivo de la recaptación de serotonina (ISRS). ¿Qué condiciones debe tener en cuenta al prescribirlo?
+  *A) La interrupción del tratamiento debe ser gradual y bajo supervisión médica
+   B) Puede causar tolerancia rápidamente
+   C) Se debe iniciar con una dosis alta y paulatinamente ir disminuyendo, para impregnar el fármaco
+   D) No es de elección primaria en caso de ansiedad
+   E) Se pueden combinar con IMAO sin riesgo
+EXP: Paciente con síntomas depresivos caracterizados por bradipsiquia, llanto fácil y sentimientos de minusvalía requiere tratamiento con un inhibidor selectivo de la recaptación de serotonina (ISRS). Estos fármacos aumentan la disponibilidad sináptica de serotonina, mejorando el estado afectivo. Sin embargo, su suspensión brusca puede generar síndrome de discontinuación con síntomas como irritabilidad, mareos y parestesias. La fisiopatología subyacente es el reajuste abrupto de receptores serotoninérgicos centrales. Por ello, la interrupción debe realizarse de manera gradual y bajo control médico. Además, los ISRS son de primera elección en depresión y ansiedad, sin generar tolerancia significativa.
+
+### TRA-029 | Gonartrosis | 2025
+Varón de 66 años con dolor en ambas rodillas que en ocasiones limita la marcha y mejora tras los primeros minutos de actividad. Al examen: sin aumento de volumen; crujido/crepitación a la flexo-extensión de ambas rodillas. ¿Cuál es el diagnóstico más probable?
+   A) Gota
+   B) Reumatismo extra-articular
+  *C) Gonartrosis
+   D) Artritis reumatoide
+   E) Fibromialgia
+EXP: Varón de 66 años con dolor bilateral de rodillas que mejora con la movilización inicial y presenta crepitación a la flexo-extensión muestra un cuadro típico de gonartrosis. La artrosis se caracteriza por la degeneración progresiva del cartílago articular y formación de osteofitos marginales. El dolor mecánico, que cede con el movimiento y empeora al final del día, distingue esta entidad de procesos inflamatorios. Fisiopatológicamente, el desequilibrio entre la degradación y reparación del cartílago lleva a pérdida del espacio articular y rigidez matutina breve. El tratamiento inicial es conservador con analgésicos y fisioterapia, reservando la cirugía para casos avanzados.
+
+### SP-103 | Reglamento de organización y funciones | 2025
+¿Cómo se denomina el documento técnico normativo de gestión que establece la estructura orgánica, formalizando las competencias y responsabilidades de cada área para el logro de los objetivos institucionales?
+  *A) Reglamento de organización y funciones
+   B) Reglamento interno de trabajo
+   C) Manual de procedimientos
+   D) Plan estratégico multianual
+   E) Plan operativo anual
+EXP: El documento técnico normativo que define la estructura organizacional y formaliza funciones, competencias y responsabilidades de cada unidad en una institución pública es el Reglamento de Organización y Funciones (ROF). Este instrumento de gestión es esencial para garantizar la operatividad interna, pues establece jerarquías, dependencias y la delimitación de atribuciones. Su elaboración responde al principio de eficiencia administrativa y busca asegurar la coherencia entre los objetivos institucionales y la distribución funcional del personal. A diferencia del Manual de Procedimientos (MAPRO), que describe tareas operativas, el ROF tiene carácter estructural y normativo.
+
+### CB-052 | Antraciclinas: cardiotoxicidad | 2025
+¿Marque la relación correcta entre agente quimioterápico / efecto tóxico característico?
+   A) L-asparaginasa / Cistitis hemorrágica
+   B) Metotrexato / Neumonitis aguda
+  *C) Antraciclinas / Cardiotoxicidad
+   D) Ciclofosfamida / Pancreatitis
+   E) Vincristina / Fibrosis pulmonar
+EXP: Las antraciclinas (como doxorrubicina y daunorrubicina) son agentes quimioterápicos ampliamente usados en neoplasias hematológicas y sólidos. Su principal toxicidad característica es la cardiotoxicidad dosis-dependiente, secundaria a la formación de radicales libres que dañan las membranas mitocondriales del miocito, generando miocardiopatía dilatada irreversible. Esta lesión se diferencia de otras toxicidades agudas (como mielosupresión o mucositis) por su relación directa con la dosis acumulada. Por ello, se recomienda monitorizar la fracción de eyección y limitar la dosis total administrada. Las demás opciones no guardan relación fisiopatológica específica.
+
+### NEF-062 | Síntomas prostáticos: tacto rectal | 2025
+Varón de 63 años, presenta dificultad para iniciar la micción, menciona tener chorro débil y necesidad de hacer esfuerzo para orinar. Según su sospecha diagnóstica, ¿Cuál sería la conducta a seguir?
+   A) Examen de orina
+  *B) Tacto rectal
+   C) Antígeno Prostático Específico (PSA)
+   D) Cistoscopía
+   E) Urografía excretora
+EXP: El paciente varón mayor de 60 años con disuria de esfuerzo, chorro débil y dificultad para iniciar la micción presenta un cuadro clásico de obstrucción infravesical por hiperplasia prostática benigna (HPB). El tacto rectal constituye el examen clínico inicial indispensable, pues permite valorar tamaño, consistencia y simetría de la glándula prostática, orientando el diagnóstico diferencial frente al cáncer de próstata. El PSA y otros estudios son complementarios, pero nunca deben solicitarse sin una exploración física previa. La HPB genera resistencia uretral progresiva, reteniendo orina residual y aumentando la presión intravesical.

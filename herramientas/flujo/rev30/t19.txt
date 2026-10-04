@@ -1,0 +1,224 @@
+### SP-156 | Planificación: primero el diagnóstico | 2024
+Ha sido designado un nuevo director para un ámbito sanitario que en el 2025 podría tener un incremento de 50% de su presupuesto para atender los principales problemas sanitarios. ¿Qué etapa de la planificación deberá abordar inicialmente?
+  *A) Elaborar el diagnóstico
+   B) Designar responsables
+   C) Establecer estrategias
+   D) Ejecución presupuestal
+   E) Contratar personal especializado
+EXP: La planificación es un proceso esencial en la gestión sanitaria, especialmente cuando se anticipa un incremento significativo en el presupuesto. Este proceso consta de varias etapas secuenciales y cada una tiene un propósito específico. La elaboración de un diagnóstico es la etapa inicial en cualquier proceso de planificación (Alternativa A). El diagnóstico implica una evaluación detallada de la situación actual del sistema de salud, identificando los principales problemas sanitarios, necesidades, recursos disponibles y deficiencias. Este análisis es crucial porque proporciona la base para todas las decisiones posteriores en el proceso de planificación. Sin un diagnóstico preciso, cualquier estrategia o plan implementado puede ser ineficaz o mal dirigido.
+
+### SP-157 | Embarazo adolescente: educación sexual en colegios | 2024
+En el ámbito sanitario de una región se reporta incremento de muerte materna en el grupo de 13 a 17 años. ¿Qué acción se deberá priorizar para la disminución del embarazo adolescente en dicho ámbito?
+   A) Implementar la atención prenatal reenfocada
+  *B) Realizar capacitación en salud sexual y reproductiva en colegios del ámbito
+   C) Aplicar las funciones obstétricas y neonatales esenciales en establecimientos I-1 y I-2
+   D) Eliminación de barreras que impidan acceso de la adolescente a la atención de parto
+   E) Construir un hospital materno
+EXP: La medida que proporciona educación y herramientas para prevenir el embarazo adolescente es realizar capacitación en salud sexual y reproductiva en colegios del ámbito (Alternativa B). La capacitación en salud sexual y reproductiva en colegios implica educar a los adolescentes sobre temas como la anticoncepción, las enfermedades de transmisión sexual, y la toma de decisiones informadas respecto a su salud sexual. Esta alternativa aborda directamente la prevención del embarazo adolescente al proporcionar a los jóvenes la información y las herramientas necesarias para tomar decisiones informadas sobre su sexualidad y reproducibilidad.
+
+### PED-203 | Bronquitis aguda en el preescolar | 2024
+Niño de 3 años es traído a emergencia, por presentar hace 4 días congestión nasal, malestar general, ronquidos y tos productiva. Desde hace 2 días se añaden vómitos. Examen: T 38.2 °C, FC 82 X´, FR 24 X´; Faringe: congestiva sin placas, MV pasa en AHT, respiración ruda, roncantes difusos. ¿Cuál es el diagnóstico probable?
+   A) Asma bronquial
+   B) Neumonía viral
+   C) Bronquiolitis aguda
+  *D) Bronquitis aguda
+   E) Laringotraqueítis
+EXP: El diagnóstico más probable debido a la combinación de congestión nasal, malestar general, tos productiva, fiebre, y roncantes difusos en la auscultación es el de bronquitis aguda (Alternativa D). La bronquitis aguda es una inflamación de los bronquios generalmente causada por infecciones virales, caracterizada por tos productiva, fiebre, malestar general y roncantes en la auscultación. La historia de síntomas respiratorios superiores seguidos por la tos productiva y roncantes en la auscultación apoya este diagnóstico.
+
+### NEF-083 | Hipopotasemia por abuso de laxantes | 2024
+Mujer de 29 años, acude a urgencias por cansancio, debilidad muscular y calambres durante estos últimos 5 días. Ha perdido 8 kilos de peso desde hace 3 semanas. Examen: PA 90/60, FC 100, piel y mucosas secas, ROT disminuidos. ECG: ondas U prominentes y aplanamiento de la onda T. ¿Cuál de las siguientes opciones sería la explicación más probable por los hallazgos del ECG?
+   A) Sobredosis de vitamina B6
+  *B) Mal uso de polietilenglicol
+   C) Uso liotironina
+   D) Abuso de espironolactona
+   E) Hipertiroidismo
+EXP: Los hallazgos descritos en el cuadro clínico, así como los del ECG son típicos de hipokalemia. La hipokalemia puede causar debilidad muscular, calambres, disminución de los reflejos osteotendinosos y cambios específicos en el ECG, como las ondas U prominentes y el aplanamiento de la onda T. Dentro de las alternativas propuestas, la que se asocia a hipokalemia con mayor probabilidad es el mal uso de polietilenglicol (Alternativa B). El polietilenglicol es un laxante osmótico que, si se usa en exceso, puede causar deshidratación y pérdida de electrolitos, incluyendo potasio, lo que puede llevar a hipokalemia. Esto explica tanto los síntomas clínicos de la paciente como los hallazgos en el ECG.
+
+### GIN-214 | Vacunas en la gestante: sarampión contraindicada | 2024
+Gestante de 20 semanas que acude a control. ¿Qué vacuna NO está indicada en la gestante?
+   A) COVID-19
+  *B) Sarampión
+   C) Pertussis
+   D) Antitetánica
+   E) Influenza inactivada
+EXP: La vacuna que no está indicada en la gestante es Sarampión (Alternativa B). Las vacunas contra el sarampión (que generalmente se administran como parte de la vacuna triple vírica: sarampión, paperas y rubéola o SPR) son vacunas de virus vivos atenuados. Las vacunas de virus vivos atenuados están contraindicadas en el embarazo debido al riesgo teórico de transmisión vertical y potencial infección del feto. Otras vacunas de virus vivos atenuados contraindicadas en la gestación son varicela-zóster, fiebre amarilla y polio oral.
+
+### OFT-049 | Quemadura ocular por álcali: irrigación abundante | 2024
+Niño de 12 años que sufre quemadura ocular con lejía, se diagnostica queratitis. ¿Cuál es el tratamiento inicial?
+   A) Aplicación de corticoide tópico
+   B) Colocación de parche ocular
+  *C) Irrigación abundante con suero fisiológico
+   D) Instilación de anestésico tópico
+   E) Neutralizar con ácido acético
+EXP: El manejo inicial de una quemadura ocular con lejía (un álcalis fuerte) debe realizarse con irrigación abundante con suero fisiológico (Alternativa C). La irrigación abundante con suero fisiológico es el tratamiento inicial de elección en quemaduras oculares químicas. Este procedimiento ayuda a diluir y eliminar el agente cáustico, reduciendo el daño a los tejidos oculares. La irrigación debe continuar durante al menos 15-30 minutos o hasta que el pH del ojo se normalice.
+
+### GAS-067 | Hepatitis C: la histología define la gravedad | 2024
+Enfermera de 32 años, desde hace 3 días presenta malestar general, dolor lumbar, astenia, náuseas. Antecedente: lesión punzo cortante hace 7 meses. Examen: T 36,4 ºC, ictericia. Laboratorio: TGO 2000 U/L; TGP 3360 U/L; GGT 274 U/L; fosfatasa alcalina 6 18 U/L; bilirrubina total 7,0 mg/dL; alfafetoproteína 6,28 ng/ml; amilasa 44 U/L. Anti-VHC y ARN-VHC (PCR) positivos. Ecografía: hepatomegalia a nivel de lóbulo hepático izquierdo. Pendiente resultado histológico. ¿Cómo identifica la severidad de la enfermedad?
+   A) Genotipo del virus
+   B) Resonancia
+   C) Tomografía
+  *D) Estudio histológico
+   E) Carga viral
+EXP: En el contexto de una infección por VHC, la severidad de la enfermedad hepática se evalúa mejor mediante el estudio histológico (Alternativa D). Aunque las alternativas no invasivas como los marcadores séricos de fibrosis y la elastografía hepática (FibroScan) también se están utilizando cada vez más en la práctica clínica, el estudio histológico, generalmente a través de una biopsia hepática, es el estándar de oro para evaluar la severidad de la enfermedad hepática. Este método permite evaluar directamente el grado de inflamación, necrosis, y fibrosis en el hígado. La histología hepática proporciona información crucial sobre el estadio de la enfermedad y la extensión del daño hepático, lo cual es fundamental para el manejo clínico y pronóstico del paciente.
+
+### PED-204 | Hernia diafragmática congénita: intubación, no ventilar con bolsa | 2024
+Se recibe en sala de partos un neonato a término con el abdomen excavado, que presenta deterioro rápido de su estado a pesar de la ventilación a presión positiva administrada. ¿Qué intervención inmediata debe considerar?
+   A) Cateterismo umbilical venoso
+   B) Adrenalina EV solución 1:10 000
+  *C) Intubación endotraqueal
+   D) Aumentar con FiO2 al 100%
+   E) Masaje cardiaco
+EXP: La condición descrita (abdomen excavado y deterioro respiratorio) sugiere una hernia diafragmática congénita, donde el contenido abdominal se desplaza hacia el tórax, comprometiendo la función pulmonar. En ese sentido, la intubación endotraqueal (Alternati va C) es la intervención más adecuada para asegurar una vía aérea efectiva, permitir una ventilación adecuada y evitar la insuflación gástrica, que podría empeorar la compresión pulmonar.
+
+### SP-158 | Salud ocupacional: capacitación en control de infecciones por TB | 2024
+En el programa de Salud Ocupacional. ¿Cuál de las siguientes actividades deberá ser prioritaria a un grupo de profesionales de salud que han sido incorporados para trabajar en un hospital?
+   A) Realizar prueba molecular rápida de ensayo con sondas en línea
+   B) Administración de terapia preventiva de tuberculosis pulmonar
+   C) Evaluar sobre reacciones adversas al tratamiento TB
+  *D) Capacitación sobre control de infecciones respiratorias TB
+   E) Vacunación contra la fiebre amarilla
+EXP: Capacitar a los nuevos profesionales de salud sobre el control de infecciones respiratorias por TB (Alternativa D) es la actividad prioritaria en aquellos profesionales que han sido incorporados a trabajar en un hospital. Esta actividad es crítica en la prevención de la transmisión de TB en un entorno hospitalario. La capacitación sobre el control de infecciones incluye el uso adecuado de equipos de protección personal (EPP), la implementación de medidas de aislamiento y el conocimiento de los protocolos de manejo de casos sospechosos o confirmados de TB. Esta medida protege tanto a los pacientes como a los profesionales de salud y es una prioridad para prevenir la propagación de la TB en el hospital.
+
+### GIN-215 | Pielonefritis previa en la gestación: urocultivo mensual | 2024
+Gestante de 24 semanas con antecedente de hospitalización por pielonefritis hace 15 días. Acude a control prenatal y trae urocultivo actual negativo. ¿Cuál es la conducta a seguir?
+   A) Usar acidificantes urinarios
+  *B) Urocultivo mensual hasta final del embarazo
+   C) Terapia supresiva con ciprofloxacina
+   D) Continuar con CPN de rutina
+   E) Nitrofurantoína solo por 3 días
+EXP: Dado el antecedente de hospitalización reciente por pielonefritis en esta gestante, la conducta más adecuada será el seguimiento con urocultivo mensual hasta el final del embarazo (Alternativa B). El control mensual mediante urocultivos ayuda a detectar cualquier infección recurrente de manera oportuna y permite una intervención precoz, lo cual es vital para evitar complicaciones maternas y fetales. Aunque el urocultivo actual es negativo, el historial reciente de pielonefritis indica que la paciente tiene un riesgo aumentado de recurrencia, y un seguimiento estrecho es necesario.
+
+### PED-205 | Síntesis de surfactante: la hipovolemia la inhibe | 2024
+Recién nacido de 28 semanas con enfermedad de membrana hialina. ¿Qué situación clínica puede inhibir la síntesis de surfactante?
+   A) Corticoides prenatales
+  *B) Estado hipovolémico
+   C) Estrés por calor ambiental
+   D) Vacuna contra la Influenza
+   E) Uso de hierro profiláctico
+EXP: La enfermedad de membrana hialina en recién nacidos prematuros se debe a la falta de maduración pulmonar, específicamente de la producción de surfactante pulmonar, una sustancia esencial para mantener la elasticidad y prevenir el colapso alveolar. La situación clínica que puede inhibir la síntesis de surfactante en un recién nacido prematuro con enfermedad de membrana hialina es la hipovolemia (Alternativa B). Este estado puede comprometer la perfusión adecuada de los tejidos pulmonares y, por lo tanto, afectar la producción de surfactante necesario para la expansión pulmonar y la función respiratoria adecuada en estos pacientes vulnerables.
+
+### CIR-112 | Hemotórax traumático: drenaje pleural | 2024
+Mujer de 25 años es traída a emergencia por accidente ocurrido hace 30 minutos. Examen: PA 90/60 mmHg; FC 112 X’; FR 25 X’; SatO₂ 90%, pálida y sudorosa. Tórax: crujido a la palpación de los arcos costales 5° y 6° del lado derecho, MV abolido en HTD. RC regular intensidad. RX tórax HTD radiopaco en 2/3 inferior. ¿Cuál es el tratamiento de elección?
+   A) Ventilación mecánica
+   B) Pericardiocentesis
+  *C) Drenaje pleural
+   D) Toracotomía exploratoria
+   E) Toracocentesis con aguja
+EXP: En el contexto de un traumatismo torácico, la paciente muestra clínica (taquicardia, palidez, diaforesis, abolición de MV en HTD y radioopacidad en HTD) sugestiva de un hemotórax agudo con compromiso hemodinámico y respiratorio. En este caso, el tratamiento de elección inicial es el drenaje pleural (A lternativa C). El drenaje pleural permite evacuar la sangre del espacio pleural proporcionando una medición cuantitativa del sangrado y disminuyendo la posibilidad de empiema y/o fibrotórax así como detener la hemorragia al crear un taponamiento por la interposición de las superficies pleurales.
+
+### GIN-216 | VIH en escenario 3: suprimir la lactancia | 2024
+Puérpera inmediata de parto por cesárea. Tiene antecedente de VIH positivo en escenario 3 en esta gestación. ¿Cuál es la conducta a seguir con respecto a la lactancia?
+   A) No existe contraindicación para la lactancia materna
+  *B) Cabergolina y vendaje de mamas inmediatamente después del parto
+   C) Medroxiprogesterona a las 72 horas post parto sin vendaje de mamas
+   D) Mifepristona y vendaje compresivo en 48 horas post parto
+   E) Lactancia materna exclusiva con TAR
+EXP: El escenario 3 en el manejo de gestación y VIH hace referencia a la gestante que es diagnosticada por primera vez de VIH durante el trabajo de parto. En este caso, la paciente deberá iniciar terapia antiretroviral, el parto deberá culminar por cesárea y se contraindicará la lactancia materna. Para poder suprimir la lactancia materna se indicará cabergolina 0.5mg cada 12 horas por 2 dosis y se aplicará vendaje compresivo de mamas por un período de 15 días (Alternativa B).
+
+### NEU-063 | Neumonía adquirida en la comunidad | 2024
+Mujer de 45 años, presenta hace 6 días fiebre, tos y dificultad respiratoria. Examen: PA 100/60 mmHg, FR 28 X´. Pulmones: crepitantes en tercio medio de hemitórax izquierdo. RX de tórax: radio opacidad difuso en HTI. ¿Cuál es el diagnóstico más probable?
+   A) Empiema
+   B) Tuberculosis
+  *C) Neumonía
+   D) Atelectasia
+   E) Edema agudo de pulmón
+EXP: La fiebre, tos y dificultad respiratoria de seis días de duración, junto con los crepitantes en el hemitórax izquierdo y la radio opacidad difusa en el tercio medio del mismo, son hallazgos clásicos de neumonía (Alternativa C). La neumonía es una infección aguda del parénquima pulmonar, usualmente causada por bacterias, que se presenta con fiebre, tos, dificultad respiratoria y a menudo dolor pleurítico.
+
+### PED-206 | Plan C en el menor de 12 meses: 30 mL/kg y 70 mL/kg | 2024
+Lactante de 7 meses, presenta desde hace 12 horas letargo y mala succión. Hace dos días diarreas acuosas y vómitos. Examen: mucosas secas; ojos muy hundidos; signo del pliegue que desaparece lentamente. Después de tratar el shock. Según la Guía MINSA. ¿Cuál es la indicación endovenosa más adecuada para las siguientes horas?
+   A) NaCl 0.9% 70 ml/kg en 1 hora y NaCl 0.9% 30 ml/kg en 3 horas
+   B) NaCl 0.9% 10 ml/kg, repetir los bolos durante dos veces
+   C) Lactato Ringer 30 ml/kg en 0.5 hora, 70 ml/kg para 2.5 horas
+  *D) Lactato Ringer 30 ml/kg en 1 hora y 70 ml/kg en 5 horas
+   E) Suero oral a demanda
+EXP: La opción que se alinea con las recomendaciones de la guía del MINSA para el manejo de deshidratación severa en lactantes menores de 12 meses, después de la estabilización inicial del shock, es Lactato de Ringer 30ml/kg en 1 hora y 70ml/kg en 5 horas (Alternativa D). Esta opción implica la administración de Lactato Ringer en dos fases: una fase rápida inicial seguida de una fase más lenta y prolongada. La administración en dos fases asegura una rehidratación adecuada y segura, permitiendo que el organismo del niño se adapte gradualmente al volumen de fluidos.
+
+### GIN-217 | Pérdida gestacional confirmada: misoprostol | 2024
+Gestante de 35 años, acude por 7 semanas de amenorrea y dolor pélvico. Especuloscopía: sangrado vaginal escaso. Tacto vaginal: útero de 7 cm ocupado, orificio cervical externo cerrado. Ecografía transvaginal: Diámetro de saco gestacional medio: 29 mm, embrión con longitud corono nalga de 8 mm, sin latido cardíaco fetal. ¿Cuál es la conducta a seguir?
+  *A) Administrar misoprostol
+   B) Solicitar ß-hCG control
+   C) Dejar evolución espontánea
+   D) Realizar ecografía en una semana
+   E) Cerclaje cervical
+EXP: La ecografía transvaginal muestra un embrión con longitud cráneo-caudal ≥7 mm sin actividad cardiaca (y un saco gestacional medio ≥25 mm): son criterios diagnósticos de pérdida gestacional temprana (aborto retenido). No hace falta repetir la ecografía, que se reserva para los hallazgos dudosos (LCC <7 mm sin latido o saco de 16-24 mm sin embrión). Con la paciente estable, puede tratarse con misoprostol, o con aspiración manual endouterina si la paciente lo prefiere o si hay sangrado importante.
+
+### CIR-113 | Colecistitis aguda: colecistectomía laparoscópica | 2024
+Mujer de 25 años desde hace 48 horas post ingesta de alimentos presenta dolor intenso en abdomen, náuseas y vómitos. Antecedente: hace 2 años fue operada de manga gástrica por obesidad mórbida. Examen: Abdomen se palpa resistencia en HCD, signo de Murphy (+). Ecografía abdominal: vesícula de 12x5 cm, paredes engrosadas y cálculo enclavado en bacinete. Hemograma: 12 000 /mm3 ¿Cuál es el tratamiento de elección?
+   A) Colecistostomía percutánea
+   B) Colecistostomía convencional
+  *C) Colecistectomía laparoscópica
+   D) Colecistectomía convencional
+   E) Esfinterotomía endoscópica
+EXP: En esta paciente que se presenta con dolor abdominal intenso, náuseas, vómitos, Murphy positivo y una ecografía donde se evidencia una vesícula con paredes engrosadas y un lito en bacinete, el diagnóstico es una colecistitis aguda. En pacientes jóvenes con colecistitis aguda y sin complicaciones significativas, como la descrita en este caso, la colecistectomía laparoscópica (Alternativa C) es el tratamiento de elección debido a sus beneficios en términos de recuperación, menos complicaciones postoperatorias, mejor resultado estético y menor estancia hospitalaria comparada con la colecistectomía convencional.
+
+### TRA-046 | Luxación anterior de hombro: reducción por tracción | 2024
+Varón de 20 años que sufre caída sobre la mano derecha en extensión. Examen: dolor e impotencia funcional del hombro, se observa relieve angulado debajo de la piel (signo de la charretera). ¿Cuál es el tratamiento de elección?
+   A) Fijar con placas
+  *B) Tracción
+   C) Vendaje en ocho
+   D) Fijar con clavijas
+   E) Osteosíntesis con placa de urgencia
+EXP: En este paciente con dolor, impotencia funcional y el signo de la charretera tras un traumatismo es sugestivo de una luxación anterior del hombro. El tratamiento de elección para una luxación anterior del hombro es la reducción cerrada de la luxación, a través de un método de tracción-contratracción (Alternativa B), seguido de inmovilización y rehabilitación. Este procedimiento debe realizarse bajo sedación o anestesia adecuada para aliviar el dolor y facilitar la manipulación de la articulación de vuelta a su posición normal. Después de la reducción, se debe inmovilizar el hombro con un cabestrillo o una férula durante un período de tiempo específico, seguido de ejercicios de rehabilitación para restaurar el rango de movimiento y la fuerza del hombro.
+
+### CAR-067 | RCP de calidad: 5 cm y 100-120 por minuto | 2024
+Varón de 50 años, ingresa a trauma shock por dolor torácico. Usted observa que el paciente deja de respirar, no responde al llamado y no hay pulso carotideo e inicia inmediatamente RCP. ¿Qué características deben tener las compresiones torácicas para ser de calidad?
+   A) 4 cm de profundidad, 100 a 120 compresiones por minuto
+   B) 6 cm de profundidad, 80 a 90 compresiones por minuto
+   C) 5 cm de profundidad, 80 a 100 compresiones por minuto
+  *D) 5 cm de profundidad, 100 a 120 compresiones por minuto
+   E) 3 cm de profundidad, 120 a 140 compresiones por minuto
+EXP: Para un paciente que deja de respirar, no responde al llamado y no tiene pulso carotídeo, la reanimación cardiopulmonar (RCP) de alta calidad es crucial. Las compresiones torácicas efectivas son esenciales para mantener la circulación y aumentar las posibilidades de supervivencia. Las compresiones torácicas de calidad deben tener una profundidad de al menos 5 cm (pero no más de 6 cm) y una frecuencia de 100 a 120 compresiones por minuto (Alternati va D). Esta combinación asegura que se genere una presión suficiente para mantener la circulación y oxigenación de los órganos vitales durante la RCP.
+
+### GIN-218 | Mecanismo del parto: extensión tras la rotación interna | 2024
+Primigesta de 39 semanas acude por trabajo de parto. Examen: PA 100/60 mmHg, FC 72X´, AU 32cm, SPP: LCI, LCF 142X´. Dinámica uterina cada 3 min. TV: D 10cm, B: 100%, AP+3, membranas rotas con presentación occipitoanterior. ¿Cuál es el siguiente movimiento cardinal del feto?
+   A) Restitución
+   B) Rotación externa
+   C) Rotación interna
+  *D) Extensión
+   E) Flexión
+EXP: Los movimientos cardinales del parto en variedad occipitoanterior son: encajamiento, descenso, flexión, rotación interna, extensión, rotación externa (restitución) y expulsión. Esta paciente tiene dilatación completa, la presentación en +3 y el occipucio ya en posición anterior, es decir, la rotación interna ya ocurrió. El siguiente movimiento es la extensión de la cabeza bajo la sínfisis del pubis.
+
+### NRL-053 | Escala de Glasgow | 2024
+Varón de 33 años sufrió una caída desde un 4to piso. Examen: FC 120 X', FR 24 X', PA 90/50 mmHg, Sat02 92%, escoriaciones y equimosis, en miembros superiores e inferiores, fractura en miembro superior derecho. Abre los ojos ante el estímulo doloroso, postura en flexión y emite sonidos incomprensibles. ¿Cuál es el valor en la Escala de Glasgow?
+   A) 6
+   B) 9
+   C) 12
+  *D) 7
+   E) 8
+EXP: La Escala de Glasgow se utiliza para evaluar el nivel de conciencia de un paciente tras un traumatismo craneoencefálico. Se evalúan la respuesta ocular, verbal y motora y se puntúa de manera independiente. El puntaje total en la Escala de Glasgow va desde 3 (condición más grave, sin respuesta alguna) hasta 15 (estado de conciencia completamente normal). En este caso, el puntaje por cada una de las respuestas sería: Respuesta ocular = Apertura al estímulo doloroso (2 puntos). Respuesta verbal = Sonidos incomprensibles (2 puntos). Respuesta motora = Flexiona al dolor (3 puntos). El puntaje total en este caso sería 2 + 2 + 3 = 7 puntos.
+
+### SP-159 | Mala praxis: impericia | 2024
+Primigesta de 32 años es intervenida quirúrgicamente de cesárea electiva por médico no especialista. En el acto operatorio se observa extravasación de orina por perforación de la vejiga. ¿Qué tipo de mala praxis se ha presentado?
+   A) Imprudencia
+   B) Inobservancia
+  *C) Impericia
+   D) Negligencia
+   E) Caso fortuito
+EXP: En este caso, el médico no especialista que realiza una cesárea electiva y causa una perforación de la vejiga sugiere una falta de habilidad o conocimientos necesarios para llevar a cabo esta intervención de manera segura. La impericia (Alternativa C) es, por lo tanto, el tipo de ma la praxis más adecuado para describir este escenario. La impericia se refiere a la falta de habilidad, competencia o conocimiento para realizar una determinada tarea.
+
+### CB-076 | Ejercicio prolongado: gluconeogénesis hepática | 2024
+Maratonista que realiza ejercicio aeróbico por tiempo prolongado. A nivel del tejido hepático ¿Cuál es la principal respuesta metabólica-fisiológica que espera encontrar?
+  *A) Activación de la gluconeogénesis
+   B) Reducción de la glicólisis
+   C) Reducción de la glucogenólisis
+   D) Activación de la glucogenosíntesis
+   E) Activación de la lipogénesis
+EXP: Durante el ejercicio aeróbico prolongado, el cuerpo necesita mantener los niveles de glucosa en sangre para proporcionar energía continua a los músculos. Cuando las reservas de glucógeno hepático se agotan, el hígado comienza a producir glucosa a partir de precursores no glucídicos como lactato, glicerol y aminoácidos a través de la gluconeogénesis (Alternativa A). Esto ayuda a mantener la glucosa en sangre y a suministrar energía a los tejidos que dependen de ella.
+
+### TRA-047 | Hemorragia aguda: primero taquicardia | 2024
+Varón de 33 años, traído a emergencia 30 minutos después de sufrir un accidente de tránsito. Examen: Despierto, confuso; laceraciones y hematomas en cara, tórax, abdomen y miembros superiores. En los miembros inferiores persiste el sangrado a pesar de la presión firme aplicada en la zona lesionada. ¿Cuál es la primera respuesta fisiológica esperada?
+   A) Incremento de la presión de pulso
+  *B) Incremento de la frecuencia cardíaca
+   C) Demora del llenado capilar
+   D) Disminución de la diuresis
+   E) Aumento de la presión arterial sistólica
+EXP: En el contexto de hemorragia aguda, como la que se describe en este caso, el cuerpo activa varios mecanismos compensatorios para intentar mantener la homeostasis. La respuesta inmediata incluye la activación del sistema nervioso simpático con la liberación de catecolaminas (adrenalina y noradrenalina), que causan vasoconstricción periférica y aumento de la frecuencia cardíaca para mantener el gasto cardíaco. El incremento de la frecuencia cardíaca (alternativa B) es el primer cambio fisiológico notable, ya que el corazón intenta compensar la pérdida de volumen aumentando su ritmo para mantener la perfusión a órganos vitales.
+
+### PED-207 | Lactante con VIH: TAR precoz | 2024
+Lactante de 2 meses, con diagnóstico reciente de VIH. Usted lo deriva al infectólogo pediatra para:
+  *A) Iniciar precozmente TAR.
+   B) Solicitar recuento de linfocitos CD4.
+   C) Iniciar TAR sólo si está sintomático.
+   D) Programar TAR al año de edad.
+   E) Esperar a los 18 meses para confirmar con ELISA
+EXP: En el manejo de un lactante con diagnóstico reciente de VIH, la intervención temprana es crucial para mejorar los resultados a largo plazo y reducir la morbilidad y mortalidad asociada con la infección por VIH. En ese sentido, la evidencia y las guías actuales recomiendan iniciar la terapia antirretroviral (TAR) de manera precoz (Alternativa A) en todos los lactantes diagnosticados con VIH, independientemente de su estado clínico o inmunológico. La TAR temprana puede reducir significativamente la carga viral, mejorar la función inmunológica y disminuir el riesgo de progresión de la enfermedad y transmisión del VIH.

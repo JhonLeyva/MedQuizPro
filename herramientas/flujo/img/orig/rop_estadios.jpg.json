@@ -1,0 +1,33 @@
+{
+ "pmcid": "PMC11130119",
+ "titulo": "A fundus image dataset for intelligent retinopathy of prematurity system",
+ "autores": [
+  "Zhao",
+  "Chen",
+  "Zhang",
+  "Liu",
+  "Hu",
+  "Yuan",
+  "Xie",
+  "Luo",
+  "Zheng",
+  "Tian",
+  "Chen",
+  "Tan",
+  "Yu",
+  "Sun",
+  "Wu",
+  "Zhang"
+ ],
+ "revista": "Scientific Data",
+ "anio": "2024",
+ "licencia": "CC BY 4.0",
+ "lic_url": "https://creativecommons.org/licenses/by/4.0/",
+ "fig": {
+  "label": "Fig. 2",
+  "caption": "Demonstration of various kinds of fundus images. (a), normal image; (b), stage 1 ROP; (c), stage 2 ROP; (d), stage 3 ROP; (e), image with fresh laser scars; and (f), image with stable laser scars.",
+  "href": "41597_2024_3362_Fig2_HTML.jpg"
+ },
+ "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11130119.1/41597_2024_3362_Fig2_HTML.jpg",
+ "credito": "Zhao et al. · Scientific Data 2024 · PMC11130119 (PubMed Central) · CC BY 4.0"
+}

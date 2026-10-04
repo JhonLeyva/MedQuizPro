@@ -1,0 +1,224 @@
+### NEF-069 | Criptorquidia bilateral: azoospermia | 2021
+Los testículos se originan de la cavidad retroperitoneal. Antes de los 2 años debe haber descendido al escroto. La falta de descenso se conoce como criptorquidia bilateral. ¿Cuál de las siguientes es una consecuencia de esta anomalía?
+  *A) Azoospermia
+   B) Teratospermia
+   C) Varicocele
+   D) Hidrocele
+   E) Ginecomastia
+EXP: La criptorquidia bilateral es una anomalía congénita en la que los testículos no descienden del abdomen al escroto. La exposición prolongada al calor intraabdominal afecta gravemente la espermatogénesis, lo que puede conducir a azoospermia, es decir, ausencia de espermatozoides en el semen. Esto se traduce en infertilidad. Además, existe un mayor riesgo de torsión testicular y transformación maligna (seminoma). El varicocele no está relacionado directamente con la criptorquidia. La hidrocele es acumulación de líquido en la túnica vaginal, sin relación con el descenso testicular.
+
+### GIN-161 | Preeclampsia en la primigesta | 2021
+Primigesta de 18 años y 37 semanas de gestación, presenta cefalea leve, alteraciones visuales ocasionales y edema de miembros inferiores desde hace 2 semanas. Al examen: PA 140/90 mmHg, edema de MI (+), ROT normales. Proteinuria de 24 horas de 500 mg/24 hrs. ¿Cuál es el diagnóstico más probable?
+  *A) Preeclampsia
+   B) Edema gestacional
+   C) Eclampsia
+   D) Hipertensión crónica
+   E) Síndrome nefrótico
+EXP: La paciente embarazada tiene hipertensión gestacional con proteinuria significativa, lo que define el cuadro de preeclampsia. La presión de 140/90 mmHg, el edema y la proteinuria >300 mg/24 h confirman el diagnóstico. Aunque los reflejos osteotendinosos son normales y no hay signos severos como convulsiones o alteración grave del estado mental, la presencia de síntomas neurológicos leves (cefalea y visión borrosa) obliga a un control estricto. La eclampsia se descarta por ausencia de convulsiones. La hipertensión crónica se diagnostica antes de las 20 semanas. El edema gestacional no cursa con proteinuria ni hipertensión.
+
+### GIN-162 | Violencia sexual: profilaxis de gonorrea y Chlamydia | 2021
+Mujer de 18 años, 3 horas antes sufrió agresión sexual por desconocidos. Una de medida específica para prevenir infecciones de transmisión sexual será administrar profilaxis antibiótica contra:
+   A) Gonorrea y sífilis
+   B) Vaginosis bacteriana y sífilis
+  *C) Chlamydia y gonorrea
+   D) Tricomoniasis y gonorrea
+   E) VIH y hepatitis C
+EXP: En una agresión sexual reciente, el enfoque incluye medidas preventivas para infecciones de transmisión sexual. Se administra profilaxis empírica con antibióticos para cubrir gonorrea y Chlamydia, las ETS bacterianas más comunes. Generalmente se usan ceftriaxona (gonorrea) y doxiciclina o azitromicina (Chlamydia). La sífilis se previene solo si hay evidencia de exposición o pruebas positivas. Tricomoniasis también puede ser tratada empíricamente en algunos protocolos, pero no es la prioridad inmediata. Esta estrategia busca evitar infecciones que pueden permanecer asintomáticas y comprometer la fertilidad futura.
+
+### PED-157 | Ano imperforado con fístula urinaria | 2021
+RN masculino de 20 horas de madre diabética, con marcada distensión abdominal y no elimina meconio. Al examen: fístula uretral y periné posterior hipotrófico. ¿Cuál es el diagnóstico más probable?
+   A) Enfermedad de Hirschsprung
+  *B) Ano imperforado
+   C) Íleo meconial
+   D) Malrotación intestinal
+   E) Atresia de colon
+EXP: El recién nacido con distensión abdominal, ausencia de eliminación de meconio y hallazgo de fístula uretral con periné malformado tiene un cuadro clínico compatible con ano imperforado. Es una malformación anorrectal congénita que impide la salida del meconio y puede asociarse a fístulas urinarias o genitales. La enfermedad de Hirschsprung también cursa con ausencia de eliminación de meconio, pero no presenta malformaciones perineales. El íleo meconial es más frecuente en fibrosis quística y no se asocia con fístulas. La malrotación intestinal da vómitos biliosos y signos obstructivos altos, pero no alteraciones del periné.
+
+### CIR-093 | Clasificación de Fontaine: necrosis digital, estadio IV | 2021
+Diabética de 67 años, desde hace 9 meses con claudicación intermitente y que acude por necrosis de 5° dedo de pie izquierdo. ¿En cuál estadio, según la clasificación de Fontaine, se encuentra?
+  *A) IV
+   B) IIa
+   C) IIb
+   D) III
+   E) I
+EXP: La clasificación de Fontaine se usa para estadificar la enfermedad arterial periférica. La paciente tiene claudicación intermitente (estadio II) que ha evolucionado hacia necrosis digital (isquemia crítica), lo que corresponde al estadio IV. Este estadio implica daño tisular como úlceras o gangrena, indicando un flujo arterial muy comprometido. El estadio IIa es claudicación leve, y el IIb es moderada a severa. El estadio III es dolor en reposo, sin necrosis. En pacientes diabéticos, la progresión suele ser acelerada, y el riesgo de amputación aumenta. El tratamiento incluye revascularización y manejo agresivo de factores de riesgo.
+
+### OFT-036 | Conjuntivitis de inclusión por Chlamydia: doxiciclina | 2021
+Mujer de 22 años presenta ojo rojo y secreción purulenta en moderada cantidad y otalgia. Al examen: conjuntiva con engrosamiento folicular y papilar. ¿Cuál es antibiótico de elección?
+   A) Cloranfenicol
+  *B) Doxiciclina
+   C) Cotrimoxazol
+   D) Polimixina
+   E) Aciclovir
+EXP: La paciente presenta una conjuntivitis folicular con secreción purulenta y otalgia, cuadro clínico compatible con conjuntivitis por Chlamydia trachomatis en un adulto joven. La otalgia sugiere afectación por vía de la trompa de Eustaquio o coinfección. El antibiótico de elección es la doxiciclina, por vía sistémica, ya que Chlamydia es un patógeno intra celular. El cloranfenicol es útil para infecciones bacterianas comunes, pero no intracelulares. Cotrimoxazol no es el tratamiento de elección para clamidias. La polimixina es tópica y más útil frente a gramnegativos como Pseudomonas, no frente a Chlamydia.
+
+### CIR-094 | Torsión testicular: detorsión y orquidopexia | 2021
+Varón de 14 años, desde hace 2 horas presenta dolor intenso en escroto y polaquiuria luego de una noche de baile. Al examen: edema a nivel escrotal y dolor a la palpación en testículo derecho, transiluminación negativa. ¿Cuál es el tratamiento?
+   A) Orquiectomía y analgésicos
+   B) Orquiectomía y cefalosporinas
+   C) Detorsión y eversión de la vaginal
+  *D) Detorsión y orquidopexia
+   E) Antibióticos y analgésicos
+EXP: El cuadro clínico corresponde a una torsión testicular, urgencia urológica más común en adolescentes varones. El dolor escrotal de inicio súbito, intenso, acompañado de signos como edema, ausencia de transiluminación (descarta hidrocele) y signos urinarios como polaquiuria (reflejo irritativo) son característicos. Suele desencadenarse tras actividad física o movimientos bruscos, como el baile en este caso. El diagnóstico es principalmente clínico y el tiempo es fundamental: más de 6 horas sin tratamiento compromete la viabilidad testicular. El tratamiento de elección es la detorsión quirúrgica urgente seguida de orquidopexia para fijar el testículo afectado y el contralateral, previniendo recurrencia. La orquiectomía se reserva solo para casos en que ya existe necrosis testicular.
+
+### CIR-095 | Herida abdominal por arma de fuego: laparotomía | 2021
+Varón de 23 años, sufre impacto de bala en la región abdominal anterior hace 1 hora. Al examen: PA: 100/60 mmHg, FC: 110 x´, luce quejumbroso, diaforético. Se observa orificio de entrada a nivel de mesogastrio. A la palpación dolor abdominal difuso. ¿Cuál es la indicación correcta?
+   A) Observarlo por 12 horas
+  *B) Laparotomía exploratoria
+   C) Explorar herida para extraer bala
+   D) Ecografía FAST
+   E) Tomografía de abdomen antes de decidir
+EXP: Ante un paciente con trauma abdominal penetrante por arma de fuego, lo primero es evaluar signos vitales y estado clínico general. Este varón de 23 años tiene PA 100/60 mmHg, FC 110 x', está quejumbroso y diaforético, lo que sugiere compromiso hemodinámico leve a moderado. El orificio de entrada en el mesogastrio y el dolor abdominal difuso implican alta probabilidad de lesión de vísceras huecas. En este contexto, la indicación más adecuada es laparotomía exploratoria inmediata, ya que la bala puede haber comprometido intestino delgado, colon, vasos o incluso estructuras retroperitoneales. No se justifica observarlo ni hacer ecografía FAST, ya que el paciente ya muestra signos de irritación peritoneal. Tampoco se recomienda manipular el trayecto de la herida.
+
+### GAS-058 | Cáncer colorrectal: metástasis hepáticas | 2021
+¿Cuál es la metástasis que con más frecuencia presenta el cáncer colorrectal?
+  *A) Hígado
+   B) Pulmón
+   C) Bazo
+   D) Tiroides
+   E) Hueso
+EXP: El cáncer colorrectal es una neoplasia frecuente del tracto digestivo, y una de sus principales características es su alta tasa de metástasis. La vía más común de diseminación es hematógena, a través de la vena porta hacia el hígado, que es el órgano más frecuentemente afectado. Las células tumorales colonizan el parénquima hepático, donde pueden desarrollarse múltiples metástasis sincrónicas o metacrónicas. El pulmón es el segundo sitio más común, especialmente cuando hay invasión del sistema venoso sistémico. Bazo y tiroides son sitios inusuales de metástasis en esta enfermedad. El reconocimiento temprano de metástasis hepática es clave para decidir si es resecable o requiere terapia sistémica.
+
+### OFT-037 | Trauma ocular con hifema: proteger y derivar | 2021
+Mujer de 40 años, que sufre un fuerte golpe con un palo en su ojo derecho. Al examen: pupila deformada, hematoma subconjuntival e hifema. ¿Cuál es la conducta inicial?
+  *A) Protección ocular y derivación al especialista
+   B) Instilación de antibióticos y analgésicos
+   C) Analgésicos y control para evolución de sangrado
+   D) Maniobra de Valsalva y protección ocular
+   E) Retirar el coágulo de la cámara anterior en el centro de salud
+EXP: La paciente ha sufrido un traumatismo ocular contuso con signos de lesión ocular severa, como pupila deformada, hematoma subconjuntival e hifema (sangre en la cámara anterior del ojo). Estos hallazgos sugieren daño intraocular que puede comprometer estructuras importantes como el iris, el cristalino o el ángulo iridocorneal. La conducta inicial debe ser proteger el globo ocular con un escudo rígido (no compresivo), evitar cualquier manipulación o aumento de presión intraocular (por ejemplo, evitar maniobras de Valsalva), y referir de inmediato al oftalmólogo. La instilación de gotas oculares sin evaluación especializada está contraindicada en este tipo de traumas. La atención oportuna puede preservar la visión y evitar complicaciones como glaucoma o hifema recurrente.
+
+### CB-061 | Intoxicación por organofosforados: atropina | 2021
+Agricultor de 28 años, desde hace 8 horas presenta dolor abdominal, vómitos y sialorrea. Al examen: FC: 50 x´, fasciculaciones, roncantes difusos, tremor en manos y cara. ¿Cuál es el tratamiento indicado?
+   A) Naloxona
+   B) Flumazenilo
+  *C) Atropina
+   D) Vitamina K
+   E) Fisostigmina
+EXP: Paciente agricultor con clínica de intoxicación colinérgica aguda: dolor abdominal, vómitos, sialorrea, bradicardia (FC 50), fasciculaciones y estertores (roncantes) —cuadro típico tras exposición a organofosforados (pesticidas). Estos inhiben la acetilcolinesterasa, provocando acumulación excesiva de acetilcolina. El tratamiento de primera línea es atropina, un anticolinérgico que antagoniza los efectos muscarínicos (bradicardia, sialorrea, broncorrea). Además, se puede usar pralidoxima como antídoto específico, pero la atropina es fundamental y urgente. La naloxona y el flumazenilo están indicados para intoxicaciones por opioides y benzodiacepinas, respectivamente, mientras que la vitamina K se usa en intoxicación por anticoagulantes.
+
+### CAR-058 | Infarto anterior extenso con shock cardiogénico | 2021
+Obeso de 50 años, súbitamente disnea, dolor torácico y sensación de desvanecimiento. Al examen: PA: 70/40 mmHg, SatO₂: 85 %, FC:120 x´, FR: 28 x´, diaforesis, crepitantes bibasales. EKG: elevación de ST desde V2 a V6. ¿Cuál es el diagnóstico probable?
+   A) TEP Masivo
+  *B) Shock cardiogénico
+   C) Taponamiento cardíaco
+   D) Neumotórax a tensión
+   E) Disección aórtica
+EXP: Varón obeso con disnea súbita, hipotensión y dolor torácico tiene un cuadro de emergencia cardiovascular. El EKG con elevación del ST en derivaciones precordiales (V2-V6) sugiere infarto extenso anterior. La clínica de disnea, SatO₂ baja y signos de bajo gasto indican que ha evolucionado a shock cardiogénico. Este tipo de shock es consecuencia de falla de bomba por necrosis miocárdica extensa. El diagnóstico diferencial incluye TEP masivo, pero la elevación del ST es atípica en TEP. El taponamiento cardiaco cursa con pulso paradójico y sil enciamiento de ruidos, no con ST elevado. El neumotórax a tensión presenta desviación traqueal y abolición de murmullo, no se describe en este caso. La causa más probable y letal aquí es infarto con shock cardiogénico. El manejo requiere soporte hemodinámico y reperfusión urgente.
+
+### INF-083 | Mucormicosis rinocerebral en el diabético | 2021
+Mujer de 24 años acude por dolor intenso facial. Al examen: inflamación del arco cigomático inferior, coloración violácea con escara necrótica. Antecedente: diabetes mal controlada. TEM craneal: destrucción ósea en torno al seno maxilar derecho. ¿Cuál es el diagnóstico más probable?
+  *A) Mucormicosis
+   B) Aspergilosis
+   C) Candidiasis
+   D) Actinomicosis
+   E) Celulitis facial estreptocócica
+EXP: Mujer joven diabética con dolor facial intenso, escara necrótica y destrucción ósea sugiere una infección invasiva. La mucormicosis es una micosis oportunista, típica de pacientes con diabetes mal controlada, especialmente en cetoacidosis. Afecta el seno maxilar, órbita y estructuras adyacentes, provocando necrosis por invasión vascular. El signo clave es la escara negruzca en la región naso facial o paladar, junto con el compromiso óseo. La tomografía muestra destrucción ósea que refuerza la sospecha. La aspergilosis es más común en inmunocomprometidos con neutropenia prolongada. La candidiasis no produce destrucción facial ni necrosis en tejidos profundos. La actinomicosis es crónica, con fístulas y masas submandibulares, no con evolución aguda. El tratamiento es antifúngico agresivo (anfotericina B) y desbridamiento quirúrgico. La sospecha clínica precoz es vital para evitar letalidad
+
+### CAR-059 | Insuficiencia cardiaca descompensada: furosemida | 2021
+Mujer de 65 años, consulta por disnea a pequeños esfuerzos, edema de miembros inferiores, ortopnea y palpitaciones. Al examen: PA: 130/75 mmHg, FC: 106 x´, FR: 24 x´, edema de miembros inferiores con fovea 4+ y crepitantes dos tercios inferiores de ambos campos pulmonares. ¿Cuál sería la conducta terapéutica inicial?
+   A) Espironolactona
+   B) Beta bloqueadores
+   C) Ácido acetilsalicílico
+  *D) Furosemida
+   E) Digoxina
+EXP: Mujer adulta mayor con disnea a pequeños esfuerzos, ortopnea, edema y crepitantes pulmonares presenta insuficiencia cardíaca descompensada. El tratamiento inicial en estos casos debe enfocarse en aliviar la sobrecarga de volumen. La furosemida es el diurético de elección por su acción rápida en disminuir la congestión pulmonar y el edema periférico. El uso de betabloqueadores está indicado en fase estable, no en descompensación aguda. La espironolactona es útil como terapia de mantenimiento, pero no resuelve la congestión aguda. El ácido acetilsalicílico no tiene rol primario en la descompensación cardíaca. En el examen se evidencia edema grado 4+ y crepitantes en dos tercios inferiores, lo cual indica congestión severa. El control del volumen intravascular mejora la sintomatología y estabiliza al paciente. Posteriormente se puede iniciar manejo con otros fármacos cardioprotectores.
+
+### PED-158 | Desarrollo psicomotor normal a los 6 meses | 2021
+Madre consulta preocupada porque su hijo, de 6 meses de edad, no intenta gatear. Al examen: balbucea, sonríe con familiares, se sienta solo sin apoyo, logra pasar un cubo de una mano a otra. ¿En qué condición de desarrollo se encuentra el niño?
+  *A) Normal
+   B) Retardo global del desarrollo
+   C) Desarrollo precoz
+   D) Retraso desarrollo psicomotor
+   E) Hipotonía central
+EXP: Niño de 6 meses que balbucea, transfiere objetos, se sienta solo y responde a estímulos afectivos tiene desarrollo normal. A los 6 meses se espera que el niño mantenga la sedestación sin apoyo, inicie el balbuceo, reconozca a familiares y pueda transferir objetos entre manos. El gateo suele presentarse entre los 7 y 10 meses, por lo que su ausencia a esta edad no indica retraso. La evaluación debe considerar el desarrollo en múltiples áreas: motora gruesa, motora fina, lenguaje y social. Todas estas están acordes a lo esperado para su edad. No hay signos de retardo global ni de alerta neurológica. El desarrollo precoz implica que haga actividades de etapas más avanzadas, lo cual no ocurre aquí. Se debe continuar con el control del desarrollo en consultas pediátricas. No se justifica intervención médica ni derivación.
+
+### GIN-163 | Desgarro perineal de III grado | 2021
+Gestante de 40 semanas, llega en periodo expulsivo, luego nace un feto de 4200 gr, vigoroso. Alumbramiento dirigido completo con sangrado vaginal profuso, estimado en 1000 ml. Examen: desgarro perineo vaginal con lesión muscular hasta esfínter del ano. Se procede a su reparación quirúrgica en Sala de Operaciones. ¿Cuál es el tipo de desgarro?
+   A) Cervicovaginal
+   B) Perineal IV grado
+  *C) Perineal III grado
+   D) Perineal II grado
+   E) Perineal I grado
+EXP: Gestante con feto macrosómico, sangrado postparto y desgarro que compromete el esfínter anal tiene un desgarro perineal de III grado. Los desgarros perineales se clasifican según la profundidad y estructuras comprometidas. El III grado implica daño de los músculos perineales más afectación del esfínter anal externo. Es una lesión obstétrica grave que requiere reparación quirúrgica en sala de operaciones. El sangrado de 1000 ml también califica como hemorragia posparto. La macrosomía fetal (4200 g) es un factor de riesgo clásico para desgarros severos. El grado IV incluiría además la mucosa rectal, lo cual no se menciona en el caso. El tipo II solo afecta músculos perineales sin esfínter. El tipo I compromete solo la piel. Esta paciente requiere manejo quirúrgico adecuado y seguimiento por riesgo de complicaciones a largo plazo como incontinencia anal.
+
+### PED-159 | Shock hipovolémico por diarrea: cristaloides 20 mL/kg | 2021
+Niño de 3 años, desde 2 días antes presenta deposiciones acuosas de 6 a 8 por día y vómitos en regular cantidad, 4 veces por día. FR= 60x', FC=120x', llenado capilar mayor a 3 segundos, ruidos cardiacos disminuidos de intensidad, acrocianosis, pulsos débiles e hipotensión. ¿Cúal sería el tratamiento inicial adecuado?
+  *A) CLNA 9o/00 20 ml/kg
+   B) Dextrosa 5% 15 ml/kg
+   C) Dextrosa 10% 20 ml/kg
+   D) Plasma fresco 10 ml/kg
+   E) Sales de rehidratación oral a demanda
+EXP: Niño con diarrea aguda, vómitos, signos de shock hipovolémico (FR elevada, pulsos débiles, llenado capilar >3 seg, acrocianosis e hipotensión) requiere reanimación inmediata con cristaloides. La primera opción terapéutica ante un paciente pediátrico en shock hipovolémico es administrar solución salina isotónica (ClNa 0.9%) a 20 ml/kg en bolo intravenoso rápido. El objetivo es restaurar el volumen intravascular, mejorar la perfusión tisular y prevenir el fallo multiorgánico. La Dextrosa al 5% o 10% no está indicada en la fase inicial del shock, ya que no corrige el déficit de volumen y puede agravar la hiponatremia. El plasma fresco solo se indica si hay coagulopatía o hemorragia activa, lo cual no ocurre en este caso. Es esencial una evaluación continua tras cada bolo. Este niño debe manejarse en ambiente hospitalario con monitoreo estrecho.
+
+### PED-160 | Granuloma umbilical: nitrato de plata | 2021
+Neonato, quien luego de la caída del cordón umbilical presenta persistencia y crecimiento de un tejido de aspecto carnoso, con secreción amarillenta, ¿Cuál tratamiento deberá recibir?
+   A) Excisión del tejido
+   B) Limpieza local
+  *C) Nitrato de plata 10%
+   D) Observación
+   E) Antibiótico sistémico
+EXP: La descripción clínica corresponde a un granuloma umbilical, una proliferación benigna de tejido de granulación que aparece tras la caída del cordón umbilical. Se caracteriza por un tejido rojizo o carnoso, a menudo con secreción serosa o mucosa persistente. El tratamiento de elección es la aplicación tópica de nitrato de plata al 10%, que cauteriza el tejido hiperplásico y detiene la secreción. La limpieza sola o la observación no suelen ser suficientes. La excisión quirúrgica se reserva para casos muy grandes o refractarios. Este procedimiento debe ser realizado con precaución para evitar dañar piel sana circundante. Es importante descartar otras causas de secreción umbilical persistente como onfalitis o persistencia del uraco. El pronóstico es excelente con tratamiento adecuado. Generalmente se requiere más de una aplicación de nitrato de plata.
+
+### TRA-035 | Politraumatizado en coma e hipoxémico: oxígeno | 2021
+Traumatizado por accidente de tránsito, ingresa directo a Shock Trauma en estado de coma. Al examen: PA:120/80 mmHg, FC: 100x', FR: 20x', SatO₂: 84 %. ¿Cuál es la primera conducta a seguir?
+   A) Consulta inmediatamente a neurocirugía
+   B) TEM cerebral
+  *C) Oxigenoterapia
+   D) Solicitar análisis de gases arteriales
+   E) Radiografía de columna cervical
+EXP: El paciente politraumatizado en estado de coma y con saturación de oxígeno del 84 % requiere una actuación inmediata y prioritaria centrada en la estabilización de la vía aérea, respiración y circulación (ABC del trauma). La hipoxemia representa un riesgo inmediato para la vida y el cerebro, especialmente en un paciente con compromiso neurológico. Por lo tanto, la oxigenoterapia es la primera medida que se debe implementar, idealmente con mascarilla con reservorio o intubación si hay deterioro progresivo. La consulta a neurocirugía y la tomografía cerebral son necesarias, per o no pueden anteceder a la estabilización respiratoria. El análisis de gases arteriales ayuda a evaluar el estado ácido-base y oxigenación, pero tampoco debe retrasar el aporte inmediato de oxígeno. En resumen, la prioridad es corregir la hipoxia, que puede empeorar el daño neurológico. Luego se procede con estudios
+
+### PED-161 | Hipoglucemia neonatal: dextrosa al 10% 2 mL/kg | 2021
+Neonato postérmino, con 36 h de vida, hipoactivo y pobre succión. Peso: 3 900 gr, sin riesgo para infección perinatal. Laboratorio: glucosa sérica de 40 mg/dL. ¿Cuál es la dosis de dextrosa que se debe suministrar?
+  *A) 8 ml al10%, EV
+   B) 4 ml al 10%, EV
+   C) 20 ml al 5%, VO
+   D) 3.9 ml al 5%, EV
+   E) 40 ml al 5%, VO
+EXP: En el neonato postérmino con signos de hipoglicemia (hipoactividad y pobre succión) y glucosa sérica de 40 mg/dL, el manejo debe ser inmediato para evitar daño neurológico. La vía de administración en estos casos es intravenosa, utilizando dextrosa al 10%. La dosis inicial recomendada es 2 mL/kg de dextrosa al 10% EV en bolo, seguida de una infusión continua. El neonata pesa 3.9 kg, por lo que la dosis aproximada sería de 8 ml de dextrosa al 10%. Las presentaciones orales no son adecuadas en neonatos con síntomas o dificultad para la succión. Las soluciones al 5% no son efectivas para corregir hipoglicemia sintomática. Tras la administración inicial, debe mantenerse monitorización y reposición con infusión de mantenimiento. También debe buscarse la causa, aunque en muchos casos la hipoglicemia es transitoria. El objetivo es prevenir complicaciones neurológicas.
+
+### PED-162 | Neumonía neonatal por RPM: leucocitosis con neutrofilia | 2021
+Neonato de 36 horas de vida, con dificultad respiratoria. Antecedente de rotura prematura de membranas. Al examen: T° 38,5°C, irritable, Silverman- Andersen: 6, cianosis peribucal, subcrepitantes en ambos campos pulmonares. Rx de tórax: infiltrado bilateral. ¿Cuál hallazgo afirmaría el diagnóstico?
+   A) Monocitosis con linfocitosis
+   B) Leucocitos normales y linfocitosis
+   C) Eosinofilia absoluta
+  *D) Leucocitosis con neutrofilia
+   E) Plaquetas normales
+EXP: El recién nacido presenta dificultad respiratoria severa, fiebre (38.5 °C), antecedente de rotura prematura de membranas (RPM) y hallazgos clínicos de distrés (Silverman-Andersen: 6), lo cual es altamente sugestivo de sepsis neonatal precoz, con compromiso pulmonar. La cianosis peribucal y los subcrepitantes bilaterales refuerzan la sospecha de neumonía neonatal. La RPM es un factor de riesgo mayor para infección bacteriana ascendente, comúnmente por Streptococcus agalactiae o Escherichia coli. En este contexto, el hallazgo que confirma el diagnóstico de infección bacteriana aguda es la leucocitosis con neutrofilia, que indica una respuesta inmunológica frente a bacterias. Los otros hallazgos (linfocitosis, eosinofilia o leucocitos normales) no son característicos de infección bacteriana aguda. La leucocitosis con desviación izquierda puede acompañarse también de elevación de PCR o proca
+
+### SP-122 | Las 4C en el manejo de las ITS | 2021
+En el manejo de las infecciones de transmisión sexual, se aplica las 4C, ¿cuál de las siguientes no es una de ellas?
+   A) Consejería
+   B) Condones
+   C) Cumplir el tratamiento
+  *D) Calidad de atención
+   E) Contactos
+EXP: Las infecciones de transmisión sexual (ITS) requieren una estrategia integral para su control, especialmente en contextos de alta prevalencia. La OMS propone el enfoque de las 4C como pilares fundamentales: Consejería (informar sobre riesgos, prevención y tratamiento), Condones (promover su uso sistemático), Cumplimiento del tratamiento (para asegurar curación y evitar resistencias) y Contactos sexuales (notificación y tratamiento de parejas). La “calidad de atención”, si bien es importante en todo acto médico, no forma parte del acrónimo 4C, por lo que no corresponde a este modelo específico. Esta pregunta evalúa conocimientos o perativos sobre salud pública y estrategias de control de ITS, más allá del tratamiento farmacológico.
+
+### OFT-038 | Pila de botón en el oído: extracción inmediata | 2021
+Niño de 3 años que hace una hora se introdujo al oído una pila de reloj. Otoscopia: pila de botón y edema leve del conducto auditivo. ¿Qué tratamiento está indicado?
+   A) Inyectar lubricante
+  *B) Extracción con pinza
+   C) Lavado de oído
+   D) Miringotomía
+   E) Irrigación con agua
+EXP: La introducción de cuerpos extraños en oído es frecuente en niños pequeños. En el caso clínico, la presencia de una pila de botón representa una urgencia otorrinolaringológica debido a su potencial de liberar hidróxido de sodio y causar necrosis tisular por quemadura cáustica, incluso en pocas horas. El manejo inmediato consiste en la extracción mecánica cuidadosa con pinzas bajo visualización directa, idealmente por personal entrenado. El lavado de oído está contraindicado con pilas, ya que puede facilitar la fuga de electrolitos o ruptura del revestimiento. El lubricante no es útil y podría retrasar el procedimiento. La miringotomía solo se considera si hay perforación timpánica con colección purulenta o complicación evidente. El manejo precoz evita daño auditivo irreversible y complicaciones infecciosas.
+
+### SP-123 | Incidencia acumulada: probabilidad de enfermar | 2021
+Paciente hipertenso y fumador. Pregunta cuál es su probabilidad de padecer cardiopatía isquémica dentro de 5 años que indicador buscaría
+  *A) Incidencia acumulada de los fumadores e hipertensos
+   B) Densidad de incidencia de los fumadores e hipertensos
+   C) Riesgo relativo de los fumadores e hipertensos
+   D) Fracción atribuible de los fumadores e hipertensos
+   E) Prevalencia de cardiopatía en la población general
+EXP: Cuando un paciente desea conocer su probabilidad de desarrollar una enfermedad en un periodo de tiempo determinado, el indicador epidemiológico que responde directamente a esta interrogante es la incidencia acumulada, también conocida como riesgo acumulado. Este valor representa la proporción de individuos sanos que desarrollan la enfermedad en un periodo definido (por ejemplo, 5 años). En este caso, para estimar el riesgo de cardiopatía isquémica en una persona con factores de riesgo como hipertensión y tabaquismo, se utiliza la incidencia acumulada de esta población expuesta, ya que refleja directamente la probabilidad individual de enfermar en un intervalo de tiempo. Otros indicadores como la densidad de incidencia se usan cuando los tiempos de seguimiento varían, el riesgo relativo compara riesgos entre expuestos y no expuestos, y la fracción atribuible mide el impacto poblacional de
+
+### SP-124 | Ciclo vital familiar: dispersión | 2021
+¿Cuál es la fase del ciclo vital familiar que está atravesando una familia, cuando ve partir a sus hijos para estudio, trabajo o convivencia con sus parejas?
+   A) Expansión
+  *B) Dispersión
+   C) Formación
+   D) Contracción
+   E) Nido vacío temprano
+EXP: El ciclo vital familiar es una herramienta para comprender la evolución y adaptación de la familia a lo largo del tiempo. La etapa de dispersión ocurre cuando los hijos comienzan a dejar el hogar para establecerse de forma independiente, ya sea por razones laborales, académicas o de pareja. Esta etapa implica una reestructuración del rol de los padres, quienes deben enfrentar el síndrome del nido vacío, reajustar la dinámica conyugal y redefinir su identidad más allá del rol parental. No debe confundirse con la formación (inicio de la vida en pareja), la expansión (nacimiento y crianza de los hijos) ni con la contracción, que suele referirse a la jubilación o pérdida de miembros familiares. Reconocer esta etapa es clave para aplicar estrategias de acompañamiento emocional y psicosocial adecuadas.

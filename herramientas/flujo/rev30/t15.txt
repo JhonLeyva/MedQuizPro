@@ -1,0 +1,224 @@
+### SP-144 | Monitoreo del desempeño: objetivo | 2022
+El monitoreo del desempeño de la gestión de los establecimientos de salud debe sustentarse en evidencias verificables por lo que debe ser:
+   A) Dinámico
+  *B) Objetivo
+   C) Analítico
+   D) Permanente
+   E) Subjetivo
+EXP: La evaluación del desempeño en la gestión de establecimientos de salud requiere de una base técnica sustentada en datos confiables. Para ello, los resultados deben ser medibles y comprobables, evitando interpretaciones subjetivas o sesgadas. En este sentido, la objetividad garantiza que las decisiones administrativas se fundamenten en evidencias verificables, lo cual permite una gestión más transparente, eficiente y orientada a la mejora continua. Si bien el monitoreo puede ser dinámico o permanente, estas características son secundarias frente a la necesidad de imparcialidad. Lo analítico implica interpretación, pero no asegura neutralidad. Por ello, la característica esencial es que sea objetivo, basada en datos verificables.
+
+### PED-190 | Malformación anorrectal alta: colostomía | 2022
+Recién nacido de 16 horas de vida, es ingresado por emergencia con distensión abdominal, vómitos biliosos y sin presentar deposiciones. Al examen: no evidencia orificio anal, periné plano y pliegue glúteo poco visible. ¿Cuál es la conducta terapéutica inicial?
+  *A) Colostomía sigmoidea
+   B) Reevaluar a las 24 horas
+   C) Anorrectoplastia sagital
+   D) Realizar fistulografía
+   E) Enema con contraste
+EXP: Recién nacido con signos de obstrucción intestinal baja: distensión abdominal, vómitos biliosos y ausencia de eliminación de meconio, asociado a malformación anorrectal visible (periné plano y sin orificio anal). Este hallazgo indica una atresia anal de tipo alto, lo cual requiere manejo quirúrgico urgente. En estos casos, la primera medida es realizar una colostomía sigmoidea de derivación para descomprimir el intestino y evitar complicaciones infecciosas. La anorrectoplastia sagital se realiza en etapa posterior. No se debe esperar 24 h ni realizar fistulografía como medida inicial. La colostomía es el primer paso terapéutico en malformaciones anorrectales altas.
+
+### PSI-037 | Terrores nocturnos: explicar que se autolimitan | 2022
+Niño de 4 años, padres consultan porque desde hace 3 meses presenta episodios de despertar nocturno brusco a razón de una vez por semana, se asocia a sensación de pánico, llegando a sentarse en la cama. No presenta enuresis y al despertar en la mañana no tiene recuerdo del episodio. Al examen: eutrófico, facies no característica, el lenguaje y desarrollo psicomotor está de acuerdo a su edad. ¿Qué recomendación daría?
+   A) Evaluación de psicólogo al niño y padres
+   B) Solicitar polisomnografía
+  *C) Explicar a padres que se autolimita
+   D) Realizar electroencefalograma
+   E) Iniciar benzodiazepinas nocturnas
+EXP: Niño con episodios recurrentes de despertar nocturno brusco, sensación de pánico y amnesia del episodio matutino. Este patrón es característico del terror nocturno, un trastorno del sueño no REM típico de la infancia. No se asocia a patología neurológica ni requiere estudios especializados como polisomnografía o EEG salvo que haya signos atípicos. El niño tiene desarrollo normal, sin enuresis ni alteraciones del comportamiento. La mejor conducta es explicar a los padres que estos episodios son benignos, autolimitados y desaparecen con la edad. Evitar factores estresantes o privación de sueño ayuda. No requiere intervención médica ni psicológica activa.
+
+### END-057 | Hipocalcemia postiroidectomía: signo de Chvostek | 2022
+Mujer de 57 años sometida a tiroidectomía por carcinoma de tiroides, en el segundo día del postoperatorio cursa con parestesias y calambres en miembros inferiores y en labios. Al examen: fasciculación involuntaria de los músculos faciales desencadenada por un golpe suave sobre el nervio facial. ¿Qué exámenes de laboratorio solicitaría inmediatamente?
+   A) Potasio sérico
+  *B) Calcio sérico
+   C) Vitamina D
+   D) TSH
+   E) Glucosa sérica
+EXP: Mujer de 57 años sometida a tiroidectomía que en el segundo día postoperatorio desarrolla parestesias, calambres en extremidades inferiores y labios, además de fasciculación facial provocada por golpeteo en el nervio facial (signo de Chvostek). Estos signos son altamente sugestivos de hipocalcemia aguda, complicación frecuente luego de cirugía tiroidea por daño o resección accidental de las glándulas paratiroides. La disminución del calcio sérico genera hiperexcitabilidad neuromuscular, manifestada por los síntomas descritos. La vitamina D no se altera de manera aguda y no causa estos signos en el corto plazo. El potasio bajo no provoca fasciculaciones. La TSH tampoco se relaciona con la clínica inmediata. El examen prioritario a solicitar es el calcio sérico.
+
+### TRA-045 | Osteomielitis subaguda: radiografía | 2022
+Escolar de 7 años de edad procedente de zona rural que al caer de un árbol presenta herida sangrante en pantorrilla. A las dos semanas es llevado a consulta por presentar eritema caliente en la pantorrilla, claudicación y fiebre. Se prescribe terapia antibiótica con mejoría de síntomas excepto la aparición de dolor en la zona. ¿Qué examen solicitaría para seguimiento?
+   A) Hemocultivo
+   B) Velocidad de sedimentación
+  *C) Radiografía de pierna
+   D) Hemograma
+   E) Ecografía Doppler venosa
+EXP: Escolar de 7 años con antecedente de caída y herida abierta en pantorrilla, quien semanas después desarrolla fiebre, claudicación y eritema local, compatible con una celulitis o incluso una osteomielitis subaguda. A pesar del tratamiento antibiótico, persiste el dolor focalizado, lo que orienta a un compromiso óseo residual. En el seguimiento de osteomielitis, la prueba más accesible y útil es la radiografía, la cual puede mostrar lesiones típicas como rarefacción ósea, elevación del periostio, secuestros y destrucción cortical a partir de la segunda semana. La VSG y el hemograma son inespecíficos, útiles para evaluar inflamación, pero no localizan ni caracterizan el daño estructural. El hemocultivo tiene más valor al inicio, pero no para evaluar evolución. En este contexto, la prueba más indicada para el seguimiento del caso es la radiografía simple de pierna.
+
+### GIN-193 | Amniotomía con cabeza flotante: prolapso de cordón | 2022
+Gran multípara de 38 semanas de gestación, ingresa a centro obstétrico en fase activa del trabajo de parto. Al examen: dilatación 1 cm, presentación cefálica flotante y membranas íntegras. Al realizar amniotomía, ¿cuál es el riesgo más frecuente?
+   A) Procúbito de cordón
+  *B) Prolapso de cordón
+   C) Asinclitismo anterior
+   D) Asinclitismo posterior
+   E) Desprendimiento prematuro de placenta
+EXP: Gestante gran multípara a término, en fase activa de parto con presentación cefálica flotante y membranas íntegras. La cabeza fetal no está fija en la pelvis, lo que representa un alto riesgo al realizar amniotomía, pues el líquido amniótico puede arrastrar estructuras adyacentes. La complicación más temida en este contexto es el prolapso de cordón umbilical, donde el cordón desciende por delante de la presentación y queda comprimido entre el feto y el canal de parto, comprometiendo la oxigenación fetal. El procúbito de cordón es una situación similar, pero sin descenso completo del cordón. El asinclitismo es una variación en el encajamiento de la cabeza, pero no es lo más frecuente ni lo más peligroso en este escenario. Ante presentación flotante, el prolapso de cordón es la complicación más frecuente y grave tras una amniotomía.
+
+### INF-094 | Lepra lepromatosa | 2022
+Adolescente, procedente de región tropical del Perú, presenta lesiones infiltrantes en frente, pómulo y pabellones auriculares, además pérdida de sensibilidad con atrofia tenar e hipotenar en las manos. Laboratorio: BARR positivos y test de Mitsuda negativo. ¿Cuál es el diagnóstico más probable?
+   A) Linfoma cutáneo
+   B) Micosis fungoide
+  *C) Lepra lepromatosa
+   D) Tuberculosis cutánea
+   E) Vitíligo
+EXP: Adolescente de región tropical con lesiones infiltrativas en cara y pabellones auriculares, hipoestesia y atrofia muscular en manos, lo que indica compromiso cutáneo y neural. La combinación de pérdida de sensibilidad, atrofia de eminencias tenar e hipotenar y lesiones infiltrativas es clásica de la lepra. Los hallazgos de BARR positivos en extendido de piel y prueba de Mitsuda negativa orientan específicamente a la forma lepromatosa. En esta variante, el paciente tiene una pobre respuesta inmunológica tipo TH1, lo que explica la Mitsuda negativa. A diferencia de la forma tuberculoide, la lepromatosa presenta lesiones más difusas, simétricas y múltiples. La tuberculosis cutánea es mucho menos común y no causa anestesia ni atrofia muscular. Linfoma cutáneo y micosis fungoide no explican los hallazgos neurocutáneos.
+
+### GIN-194 | Situación transversa en trabajo de parto: cesárea | 2022
+Primigesta de 39 semanas con dolor tipo contracción y pérdida de líquido. Al examen: latido cardíaco fetal 142 x', dinámica uterina cada 3 minutos, duración 40" e intensidad ++/+++, feto en transverso, dorso superior. Al tacto vaginal: dilatación 7 cm, borramiento 90%, altura de presentación -4, membranas rotas con líquido amniótico claro. ¿Cuál es el manejo?
+   A) Intentar versión externa
+   B) Evolución espontánea de labor de parto
+   C) Colocar oxitocina y mejorar dinámica
+  *D) Preparar para cesárea
+   E) Fórceps
+EXP: Gestante primigesta de 39 semanas con trabajo de parto activo: dinámica uterina adecuada, dilatación de 7 cm y borramiento del 90%. Sin embargo, se identifica una presentación transversa con dorso superior y altura de presentación en-4, lo que indica que no hay encajamiento fetal. Las membranas están rotas y el líquido es claro, lo que confirma ruptura espontánea. La presentación transversa es una contraindicación absoluta para parto vaginal, ya que no permite un mecanismo de descenso fetal seguro. En este contexto, intentar versión externa está contraindicado por dilatación avanzada y ruptura de membranas. La oxitocina tampoco resuelve la mala presentación. El manejo correcto es realizar cesárea inmediata, para evitar complicaciones como prolapso de cordón o ruptura uterina.
+
+### GAS-065 | Peritonitis bacteriana espontánea | 2022
+Varón de 62 años con diagnóstico de cirrosis hepática severa, desde hace tres días presenta fiebre, dolor abdominal difuso y somnolencia. Radiografía simple de abdomen: leve edema de pared intestinal, resto normal. Líquido ascítico: 500 polimorfonucleares/µL y glucosa 40 mg/dL. ¿Cuál es el diagnóstico más probable?
+   A) Hemorragia intraperitoneal
+   B) Síndrome hepatorrenal
+  *C) Peritonitis bacteriana espontánea
+   D) Enteritis aguda
+   E) Peritonitis bacteriana secundaria a perforación
+EXP: Paciente cirrótico con fiebre, dolor abdominal difuso y somnolencia, lo cual es sugestivo de una complicación infecciosa del líquido ascítico, como la peritonitis bacteriana espontánea (PBE). Este diagnóstico se basa en la presencia de más de 250 polimorfonucleares/µL en el líquido ascítico, en este caso con 500, y una glucosa disminuida (40 mg/dL), lo que respalda la presencia de infección. La somnolencia puede deberse a una encefalopatía hepática secundaria a la infección. La radiografía no muestra hallazgos relevantes, y el edema de la pared intestinal es inespecífico. El síndrome hepatorrenal no da fiebre ni dolor. La hemorragia intraperitoneal tendría otros signos clínicos. Enteritis aguda no explica los hallazgos del líquido ascítico.
+
+### SP-145 | Diseño cuasiexperimental | 2022
+Un investigador tiene la intención de explorar el efecto del incremento de la cantidad de micronutrientes en los almuerzos en el estado nutricional de los estudiantes de un colegio, comparándolo con otro colegio como control. ¿Cuál método de investigación será el más adecuado para este estudio?
+  *A) Cuasi-experimental
+   B) Experimental
+   C) Histórico
+   D) Ecológico
+   E) Transversal
+EXP: Se plantea un estudio que evalúa el efecto de una intervención (aumento de micronutrientes en los almuerzos) sobre una variable de resultado (estado nutricional) en estudiantes. Se utiliza un grupo intervención y otro grupo control, lo cual permite realizar comparaciones. La clave para determinar el tipo de estudio es la presencia de asignación controlada. Si el investigador asigna aleatoriamente a los participantes a los grupos, se trata de un ensayo experimental. Esta es la mejor estrategia para evaluar causalidad. Los estudios cuasi-experimentales no tienen aleatorización. Los estudios históricos son retrospectivos y los ecológicos analizan datos poblacionales, no individuales. Por tanto, este diseño es claramente un estudio experimental clásico con intervención directa.
+
+### INF-095 | Celulitis de la pierna en el obeso | 2022
+Varón de 40 años, consulta por presentar dolor en miembro inferior derecho y fiebre hace 1 día. Al examen: IMC 38, lesión tipo placa eritematosa en pantorrilla, bordes irregulares, con flogosis. Signo de Homans (-). ¿Cuál es el agente etiológico más probable?
+  *A) Staphylococcus aureus
+   B) Pseudomonas aeruginosa
+   C) Escherichia coli
+   D) Klebsiella sp.
+   E) Bacteroides fragilis
+EXP: Paciente obeso con fiebre y placa eritematosa en pierna con signos de flogosis local, sin signos de trombosis (Homans negativo), lo que orienta a una celulitis infecciosa. La celulitis es una infección de la dermis y tejido celular subcutáneo, habitualmente causada por bacterias gram positivas como Streptococcus pyogenes y Staphylococcus aureus. Este último es el más asociado a infecciones cutáneas, especialmente en pacientes con factores predisponentes como obesidad. Las gram negativas como Pseudomonas, E. coli o Klebsiella están relacionadas a infecciones nosocomiales o inmunosupresión, lo que no se menciona en el caso.
+
+### PED-191 | Deshidratación hipernatrémica: calcular el déficit | 2022
+Preescolar de 2 años de edad, presenta desde hace 3 días cuadro diarreico severo. Al examen: irritable con signos de deshidratación moderada. Laboratorio: hemograma normal, K sérico 5 mEq/L, Na sérico de 160 mEq/L. En el tratamiento se debe considerar prioritariamente:
+   A) Evitar reponer pérdidas de electrolitos
+  *B) Calcular el déficit de electrolitos para su reposición
+   C) Administrar antibióticos de amplio espectro
+   D) Administrar diuréticos para eliminar exceso de sodio
+   E) Corregir el sodio en menos de 6 horas
+EXP: Preescolar con diarrea acuosa y deshidratación moderada hipernatrémica (Na 160 mEq/L). Lo prioritario es calcular el déficit de agua y electrolitos y reponerlo lentamente, en 48 horas o más (idealmente con SRO si tolera la vía oral), vigilando que el sodio no baje más de 10-12 mEq/L por día para evitar el edema cerebral. No se deben evitar las reposiciones ni usar diuréticos, y los antibióticos no están indicados en la diarrea acuosa sin disentería ni sospecha de cólera.
+
+### SP-146 | Búsqueda activa de sintomáticos respiratorios: prevención secundaria | 2022
+En la jurisdicción de un distrito de pobreza extrema y alto índice de hacinamiento, se ha reportado incremento en la incidencia de casos de tuberculosis pulmonar; se programa búsqueda activa y captación de sintomáticos respiratorios. ¿A qué nivel de prevención corresponde esta actividad?
+   A) Cuaternaria
+   B) Primaria
+   C) Terciaria
+  *D) Secundaria
+   E) Promoción de la salud
+EXP: Nos encontramos ante un caso de incremento de tuberculosis en una zona de pobreza extrema y hacinamiento, contexto que facilita la transmisión del bacilo. Frente a esta situación, las autoridades sanitarias organizan actividades de búsqueda activa y captación de sintomáticos respiratorios. Esta intervención tiene como finalidad identificar personas con síntomas respiratorios compatibles con tuberculosis para confirmar el diagnóstico e iniciar tratamiento. Por tanto, se trata de una acción orientada a detectar precozmente la enfermedad en personas que n o han sido diagnosticadas previamente. Este enfoque corresponde al nivel de prevención secundaria, que se centra en el diagnóstico temprano y tratamiento oportuno para reducir la morbilidad y evitar la propagación. La prevención primaria busca evitar que aparezca la enfermedad (ej. vacuna BCG), la terciaria evita secuelas y la cuaternaria,
+
+### CIR-105 | Criterios de traslado a unidad de quemados | 2023
+¿Cuál de las siguientes condiciones del paciente quemado requiere traslado a la unidad especializada?
+  *A) 3°grado mayor del 20% SCT
+   B) 3° grado en muslo cara anterior
+   C) 3° grado hasta el 10% SCT
+   D) 2° grado en antebrazo cara anterior
+   E) 1° grado en el 30% SCT
+EXP: Según los criterios de referencia para unidades especializadas en quemados, una quemadura de espesor total (3° grado) que comprometa más del 10% en niños o más del 20% en adultos constituye un criterio absoluto de traslado. Estas quemaduras requieren cuidados intensivos, soporte hemodinámico, manejo quirúrgico especializado y prevención de complicaciones infecciosas. Las otras alternativas no cumplen con criterios de severidad suficiente para requerir unidad especializada.
+
+### NEF-078 | Hiperplasia benigna de próstata: alfa-bloqueadores | 2023
+¿Cuál es el pilar del tratamiento NO quirúrgico de la hipertrofia benigna de próstata?
+   A) Bloqueadores de los receptores adrenérgicos β1
+   B) Inhibidores del óxido nitroso
+   C) Inhibidores de la 5 α reductasa
+  *D) Bloqueadores de los receptores adrenérgicos α1
+   E) Diuréticos tiazídicos
+EXP: El tratamiento médico inicial de la hiperplasia prostática benigna (HPB) incluye dos grupos principales de fármacos: los bloqueadores α1 - adrenérgicos (como tamsulosina) y los inhibidores de la 5α -reductasa. Sin embargo, los bloqueadores α1 son el pilar inicial, ya que actúan rápidamente relajando el músculo liso prostático y uretral, mejorando el flujo urinario y reduciendo los síntomas obstructivos. Los inhibidores de la 5α -reductasa se usan como tratamiento complementario en casos de próstata aumentada de tamaño.
+
+### PED-192 | Deshidratación sin shock en el lactante: rehidratación oral | 2023
+Lactante de 11 meses, desde hace 24 horas presenta seis deposiciones líquidas abundantes sin moco, sin sangre, un vómito y esta sediente. Examen: Irritable, FC:120 X’, llanto sin lágrimas, mucosa oral seca, ojos hundidos, signo del pliegue positivo, llenado capilar <2 segundos. ¿Cuál es el manejo más adecuado?
+  *A) Rehidratación oral
+   B) Rehidratación por sonda nasogástrica
+   C) Rehidratación endovenosa
+   D) Reposición de las pérdidas
+   E) Ayuno y antiemético
+EXP: Lactante con diarrea, sed, irritabilidad, ojos hundidos, llanto sin lágrimas, mucosa seca y pliegue positivo, pero con llenado capilar <2 segundos, alerta (irritable, no letárgico) y sin signos de shock: según la clasificación de la OMS/MINSA tiene deshidratación (plan B), que se trata con sales de rehidratación oral, 50-100 mL/kg en 4 horas en el establecimiento. La vía endovenosa (plan C) se reserva para la deshidratación grave (letargia, no puede beber, pulso débil, llenado capilar prolongado) o el fracaso de la vía oral.
+
+### GIN-195 | Lupus y embarazo: alto riesgo de preeclampsia | 2023
+Primigesta de 14 semanas de gestación, con antecedente de lupus eritematoso sistémico. El riesgo que desarrolle un trastorno hipertensivo del embarazo es:
+   A) Nulo
+   B) Moderado
+  *C) Alto
+   D) Bajo
+   E) Igual que la población general
+EXP: El lupus eritematoso sistémico (LES) es una enfermedad autoinmune que se asocia a un mayor riesgo de complicaciones durante el embarazo, especialmente trastornos hipertensivos como preeclampsia. Este riesgo se incrementa aún más si la paciente tiene anticuerpos antifosfolípidos o antecedentes de actividad lúpica reciente. Por ello, una gestante con LES debe ser considerada de alto riesgo obstétrico y debe tener un control estricto durante toda la gestación.
+
+### END-058 | Suplementación de vitamina D: colecalciferol | 2023
+Varón de 76 años acude a consulta por dolores musculares y fracturas patológicas. Se le prescribe terapia suplementaria de vitamina D. ¿Cuál es la forma más adecuada para este caso?
+   A) Calcitriol
+   B) Teriparatide
+   C) Cinacalcet
+  *D) Colecalciferol
+   E) Calcitonina
+EXP: En adultos mayores con fracturas patológicas y dolores musculares por probable osteoporosis o déficit de vitamina D, la forma más adecuada de suplementación es el colecalciferol (vitamina D3). Esta es la forma inactiva que el organismo puede convertir progresivamente en la forma activa, según necesidad fisiológica, evitando efectos adversos como hipercalcemia. El calcitriol, al ser la forma activa, se reserva para pacientes con insuficiencia renal crónica o alteraciones en la conversión metabólica.
+
+### REU-057 | Acné vulgar: retinoides tópicos | 2023
+Adolescente de 16 años con acné vulgar en rostro y tronco. ¿Cuál es el tratamiento de primera elección?
+   A) Antibióticos orales
+   B) Antibióticos tópicos
+  *C) Retinoides tópicos
+   D) Dieta
+   E) Isotretinoína oral
+EXP: El tratamiento de primera elección en acné vulgar es el uso de retinoides tópicos, como el adapaleno, que regulan la renovación celular y previenen la obstrucción de los poros. Son eficaces y bien tolerados, siendo la opción inicial en casos no graves. Los antibióticos tópicos y orales se reservan para formas más graves, y la dieta no tiene un impacto comprobado en el tratamiento del acné.
+
+### OFT-045 | Queratitis micótica tras trauma vegetal | 2023
+Varón de 30 años que hace una semana presenta dolor en ojo derecho de impactar con la rama de un arbusto. Antecedente no contribuido. Oftalmoscopia: úlcera corneal de color grisáceo con lesiones satélites. ¿Cuál es el agente más probable?
+   A) Herpes simple
+   B) Acarthamoeba sp
+  *C) Aspergillus
+   D) Candida sp
+   E) Pseudomonas aeruginosa
+EXP: El cuadro clínico de úlcera corneal grisácea con lesiones satélites, tras un traumatismo ocular, sugiere una infección fúngica, específicamente por Aspergillus. Este hongo es una causa común de queratitis micótica, especialmente en pacientes con antecedentes de trauma ocular, como en este caso, al impactar con una rama. Las lesiones satélites son características de infecciones fúngicas, ya que el hongo tiende a formar colonias en áreas adyacentes a la úlcera primaria. Aunque Acanthamoeba también puede causar queratitis en casos de trauma, especialmente en usuarios de lentes de contacto, la presentación aquí es más consistente con Aspergillus.
+
+### NRL-051 | Guillain-Barré con insuficiencia respiratoria: soporte ventilatorio | 2023
+Mujer de 26 años, transferida de Trujillo por disnea; desde hace 3 días presenta disminución progresiva de fuerza de MMII y posteriormente de MMSS. Antecedente: cuadro diarreico que se autolimitó ocho días antes. EXAMEN: PA: 100/80 mmHg, FC 110 X’, FR: 28 X’, T: 37°C, SatO₂: 89%; leve cianosis perioral; MV disminuido, no rales somnolienta, ROT: disminuidos, cuadriparesia. ¿Cuál es la conducta inmediata a seguir?
+   A) Oxigenoterapia convencional
+   B) TEM de tórax
+   C) Punción lumbar
+  *D) Soporte ventilatorio
+   E) Plasmaféresis antes de asegurar la vía aérea
+EXP: El cuadro clínico sugiere síndrome de Guillain-Barré, evidenciado por la historia de infección gastrointestinal previa, debilidad ascendente progresiva, hiporreflexia y compromiso respiratorio (FR elevada, SatO₂ baja, cianosis, somnolencia). La prioridad en estos casos es el soporte ventilatorio, ya que el compromiso neuromuscular puede llevar rápidamente a insuficiencia respiratoria. Las medidas diagnósticas (como punción lumbar) se realizan una vez asegurada la vía aérea y la oxigenación del paciente.
+
+### NEF-079 | Lesión renal aguda en el paciente en shock: terapia continua | 2023
+Paciente adulto en UCI, con neumonía asociada a ventilación mecánica, en shock con disfunción de órganos que cursa con falla renal aguda, la mejor opción de terapia de reemplazo es:
+  *A) Hemodiálisis continua
+   B) Hemodiálisis intermitente
+   C) Hemodiálisis interdiaria
+   D) Diálisis peritoneal
+   E) Diálisis peritoneal intermitente
+EXP: En pacientes críticos con shock y disfunción multiorgánica, como en el caso de una neumonía asociada a ventilación mecánica con falla renal aguda, la opción más adecuada de terapia de reemplazo renal es la hemodiálisis continua (también conocida como CRRT por sus siglas en inglés). Esta técnica permite una depuración lenta y constante, evitando la inestabilidad hemodinámica que podría causar una hemodiálisis intermitente. Además, permite un mejor control del balance hídrico y metabólico en pacientes en estado crítico.
+
+### SP-147 | Negativa de la madre a la punción lumbar: autonomía | 2023
+Niño de 12 años traído por cefalea intensa, fiebre y convulsiones, se indica punción lumbar y madre se niega firmar el consentimiento informado. ¿Qué principio esencial de la bioética general se está respetando?
+  *A) Autonomía
+   B) Justicia
+   C) No maleficencia
+   D) Beneficencia
+   E) Confidencialidad
+EXP: En este caso, se respeta el principio de autonomía, que reconoce el derecho de los individuos o sus tutores a tomar decisiones informadas sobre el cuidado médico. La madre ejerce su derecho a decidir sobre el tratamiento de su hijo al negarse a firmar el consentimiento par a la punción lumbar. Aunque el procedimiento es esencial para el diagnóstico y tratamiento de una posible infección grave, el respeto a la autonomía de los padres es un principio fundamental en la bioética. Sin embargo, en situaciones de emergencia, los médicos pueden considerar otras vías legales o éticas para asegurar que se garantice la salud del menor.
+
+### GIN-196 | Fase activa detenida con dinámica insuficiente: oxitocina | 2023
+Gestante a término en trabajo de parto que se encuentra en 6 cm de dilatación desde hace cuatro horas. Examen: AU: 34cm, F: LCI: LF: 140 X’. Dinámica uterina: 3 contracciones en 10 min; intensidad +/+++ Pelvis: ginecoide. ¿Cuál es el manejo más adecuado?
+   A) Estimular con misoprostol
+   B) Programar cesárea
+   C) Observar otras 4 horas
+  *D) Estimular con oxitocina
+   E) Tocólisis
+EXP: El manejo más adecuado en este caso es estimular con oxitocina. La gestante se encuentra en trabajo de parto con dilatación de 6 cm durante un período prolongado de 4 horas, lo que sugiere una falta de progreso adecuado en el trabajo de parto. La dinámica uterina es insuficiente (3 contracciones en 10 minutos) y la pelvis es ginecoide, lo que favorece un parto vaginal. La administración de oxitocina puede ayudar a incrementar la frecuencia e intensidad de las contracciones, promoviendo un avance adecuado del trabajo de parto y evitando complicaciones derivadas de un parto prolongado. La estimulación con misoprostol no es la opción preferida en este contexto, ya que la oxitocina tiene un control más preciso sobre la dinámica uterina.
+
+### CAR-065 | Hipoperfusión tisular: lactato sérico | 2023
+¿Cuál es el examen de laboratorio que ayuda a valorar la condición de hipoperfusión tisular (shock)?
+  *A) Lactato sérico
+   B) Interleukina
+   C) Procalcitonina
+   D) Proteína C reactiva
+   E) Troponina I
+EXP: El lactato sérico es el examen de laboratorio más útil para valorar la condición de hipoperfusión tisular, como en el caso de un shock. El lactato se produce en situaciones de metabolismo anaeróbico, lo cual ocurre cuando los tejidos no reciben suficiente oxígeno debido a una disminución del flujo sanguíneo. Un aumento en los niveles de lactato es indicativo de hipoxia tisular y, por lo tanto, de una perfusión inadecuada. Este marcador es clave en la evaluación y el monitoreo de pacientes en shock, ya que su concentración elevada está directamente relacionada con la gravedad de la hipoperfusión. Los otros marcadores mencionados, como la interleukina, procalcitonina y proteína C reactiva, son más útiles para evaluar procesos inflamatorios o infecciosos, pero no son específicos para valorar la hipoperfusión.

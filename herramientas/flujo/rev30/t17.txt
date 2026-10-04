@@ -1,0 +1,224 @@
+### GIN-202 | Rotura prematura de membranas a término sin trabajo de parto: inducir | 2023
+Primigesta de 39 semanas, acude por pérdida de líquido desde hace 12h. Examen: AU: 32 cm, F: LCI, LF: 144 X’, DU: c/10 min. Tacto vaginal: D: 0, B:80%, AP:0, cérvix: anterior blando M: rotas con líquido amniótico claro. ¿Cuál es el manejo más adecuado ?
+  *A) Inducción de labor de parto
+   B) Cesárea de emergencia
+   C) Programar cesárea a las 40 semanas
+   D) Reevaluación en 2 horas
+   E) Tocólisis
+EXP: Gestante a término con rotura de membranas de 12 horas y sin trabajo de parto establecido (dilatación 0, contracciones cada 10 minutos), feto cefálico con latidos normales y cérvix favorable (blando, anterior, borrado 80%): la conducta es la inducción del trabajo de parto con oxitocina, porque reduce la corioamnionitis y la infección neonatal frente al manejo expectante. La cesárea no está indicada solo por la rotura de membranas.
+
+### GAS-066 | Anemia con sangre oculta en heces: colonoscopia | 2023
+Varón de 68 años, asintomático, en un control pre vacacional le encuentran Hb: 11 g/dl. Thevenon seriado en heces: positiva. Examen: leve palidez de piel y mucosas resto normal. ¿Cuál es el siguiente paso en su atención
+   A) Sigmoidoscopía
+  *B) Colonoscopía
+   C) Ecografía abdominal
+   D) Gammagrafía
+   E) Endoscopía digestiva alta
+EXP: El paciente presenta una anemia con hemoglobina de 11 g/dl y un test de heces positivo para sangre oculta (Thevenon). Ante la sospecha de una pérdida crónica de sangre, especialmente en un paciente asintomático, la prueba de sangre oculta en heces es indicativa de un sangrado gastrointestinal. La siguiente prueba diagnóstica más apropiada es la colonoscopía, ya que es el estudio de elección para evaluar la causa de sangrados ocultos en el tracto gastrointestinal inferior, como podría ser la presencia de pólipos, cáncer de colon o enfermedad diverticular. La sigmoidoscopía es menos completa ya que solo evalúa el recto y el colon sigmoide.
+
+### GIN-203 | Corioamnionitis en el primer nivel: antibióticos y referencia | 2023
+Ud. En su centro materno infantil, recibe a una primigesta de 37 semanas, quien presenta pérdida de líquido desde hace dos días. Examen T°: 39° C, FC: 104 X’. Abdomen: AU: 36 cm, F: LCI, LF: 190 X’, dolor a la palpación abdominal. Tacto vaginal: D:0, B:0%, AP: -4, M: rotas con líquido amniótico purulento con mal olor. ¿Cuál es el manejo adecuado?
+   A) Hospitalización y uso de oxitocina
+  *B) Cobertura antibiótica y traslado a hospital
+   C) Corticoides y esperar inicio de labor de parto
+   D) Uso de tocolíticos y maduración pulmonar
+   E) Alta con antibiótico oral
+EXP: En este caso, la paciente presenta una pérdida de líquido amniótico durante 2 días, fiebre (T°: 39°C), taquicardia (FC: 104X’), dolor abdominal y líquido amniótico purulento con mal olor, lo cual es indicativo de infección intraamniótica o corioamnionitis. Esta condición es grave y puede llevar a complicaciones tanto para la madre como para el feto. El manejo adecuado es iniciar cobertura antibiótica para tratar la infección y realizar un traslado a un hospital, donde se pueda realizar un seguimiento adecuado, con posible inducción del parto si las condiciones lo permiten. La administración de oxitocina sin antibióticos no es apropiada hasta controlar la infección.
+
+### GIN-204 | Edad gestacional sin FUR: ecografía transvaginal | 2023
+Mujer de 24 años, acude con test embarazo positivo en orina, no recuerda su fecha de última regla. Examen: útero de 8 cm globuloso, no hay presencia de sangrado vaginal. ¿Cuál es el método más exacto para determinar la edad gestacional?
+   A) Altura uterina
+   B) Β-hCG cuantitativa
+  *C) Ecografía transvaginal
+   D) Β-hCG cualitativa
+   E) Fecha probable por examen pélvico
+EXP: En este caso, el método más exacto para determinar la edad gestacional es la ecografía transvaginal. Esta técnica permite una evaluación precisa de la edad gestacional, ya que mide el tamaño del embrión o feto y permite estimar la edad gestacional de manera más confiable que otros métodos. Aunque la medición de la β -hCG también puede proporcionar información útil, especialmente para confirmar el embarazo, la ecografía transvaginal es el estándar de oro para determinar la edad gestacional, particularmente en las primeras semanas del embarazo.
+
+### PED-194 | Obesidad en menores de 5 años: P/T > +3 DE | 2023
+Se define obesidad en niños menores de 5 años, si el índice antropométrico de P/T se encuentra elevado a partir de ______ DS
+   A) 2
+   B) 2.5
+   C) 1
+  *D) 3
+   E) 1.5
+EXP: En niños menores de 5 años, se considera obesidad cuando el índice peso/talla (P/T) se encuentra elevado a partir de 3 desviaciones estándar (DS). Este criterio se utiliza según las recomendaciones de la Organización Mundial de la Salud (OMS) para la clasificación del sobrepeso y la obesidad infantil. Un P/T superior a 3 DS indica un riesgo significativo de obesidad y sus complicaciones asociadas.
+
+### INF-097 | Brucelosis: doxiciclina + rifampicina | 2023
+Varón de 40 años, quien labora en zona ganadero del centro del Perú, desde hace 8 meses, presenta poliartralgias de medianas y grandes articulaciones, hace 04 meses, fiebre ondulante y diaforesis parcelar. Lab: ANA (-), FR (-), VSG 60 mm/h, Rosa de Bengala (+). ¿Cuál es tratamiento de elección?
+   A) Ciprofloxacino + doxiciclina
+   B) Cotrimoxazol + rifampicina
+  *C) Rifampicina + doxiciclina
+   D) Ciprofloxacino + rifampicina
+   E) Penicilina benzatínica
+EXP: Varón de 40 años, procedente de zona ganadera, presenta un cuadro clínico de curso crónico caracterizado por fiebre ondulante, diaforesis parcial y poliartralgias. Esta sintomatología es altamente sugestiva de brucelosis, una zoonosis frecuente en zonas rurales del Perú, especialmente en trabajadores expuestos a productos animales contaminados. El diagnóstico se refuerza con una prueba serológica positiva (Rosa de Bengala) y reactantes de fase aguda elevados (VSG alta). En la fase crónica, las articulaciones grandes suelen verse comprometidas. El tratamiento de elección para la brucelosis es la combinación de doxiciclina más rifampicina durante al menos seis semanas, para erradicar la bacteria y prevenir recaídas. Otras combinaciones pueden usarse en casos especiales, pero la asociación de estas dos es la más eficaz. Es fundamental educar al paciente sobre el origen zoonótico de la enfer
+
+### PSI-039 | Intoxicación aguda por cocaína: benzodiacepinas | 2023
+Adolescente de 17 años, consume cocaína por primera vez y le produce agitación psicomotriz, taquicardia, palpitaciones y sensación de muerte. Llega al hospital y usted decide pasarlo a observación para monitoreo. ¿Cuál es el tratamiento inmediato?
+   A) Lanatósido C
+   B) Amiodarona
+   C) Propanolol
+  *D) Diazepam
+   E) Haloperidol en dosis alta
+EXP: El paciente presenta una intoxicación aguda por cocaína tras el primer consumo, con manifestaciones de estimulación simpática: agitación, taquicardia, palpitaciones y ansiedad severa con sensación de muerte. Este cuadro es típico de una crisis adrenérgica inducida por cocaína, la cual aumenta los niveles de dopamina, noradrenalina y serotonina. El tratamiento inmediato busca controlar la agitación psicomotora, reducir el riesgo de arritmias y prevenir complicaciones cardiovasculares. Las benzodiacepinas como el diazepam son el tratamiento de primera línea porque disminuyen la excitación del sistema nervioso central, controlan la ansiedad y la hiperactividad autonómica sin interferir con la conducción cardíaca. Los betabloqueadores como el propranolol están contraindicados porque pueden causar vasoconstricción paradójica por bloqueo beta con estimulación alfa sin oposición. El lanatósido 
+
+### INF-098 | Neumonía nosocomial en paciente con catéter: S. aureus | 2023
+Varón de 48 años con insuficiencia renal en terapia dialítica por catéter central, en PO 6 de colecistectomía presenta fiebre, infiltrado alveolar en base derecha y leucocitosis con desviación izquierda, PCR 96 mg/L; test de antígeno para COVID-19: negativo. ¿Cuál es el agente etiológico más probable?
+  *A) Staphylococcus aureus
+   B) Mycoplasma pneumoniae
+   C) Streptococcus pneumoniae
+   D) Haemophilus influenzae
+   E) Legionella pneumophila
+EXP: Este paciente inmunocomprometido (en diálisis por insuficiencia renal crónica) se encuentra en el postoperatorio reciente de colecistectomía y presenta signos clínicos y paraclínicos compatibles con neumonía nosocomial: fiebre, infiltrado pulmonar y elevación de reactantes de fase aguda. El uso prolongado de catéter central lo expone a infecciones por bacterias hospitalarias, siendo Staphylococcus aureus el patógeno más común en estos casos, especialmente en pacientes con dispositivos invasivos. Streptococcus pneumoniae y Haemophilus influenzae son frecuentes en la comunidad, no en hospitales. Mycoplasma pneumoniae causa neumonías atípicas en personas jóvenes inmunocompetentes. El contexto postoperatorio, la presencia de acceso venoso central y la colonización nosocomial favorecen a S. aureus como etiología más probable. Es clave iniciar cobertura antibiótica empírica adecuada mientras s
+
+### HEM-039 | Hemofilia A: hemartrosis con TTPa prolongado | 2023
+Varón de 16 años sufre traumatismo en su rodilla derecha con dolor intenso. Examen: rodilla derecha con gran aumento de volumen y limitación funcional. Lab: Hb 11 g/dL, PTT 58 s, plaquetas 230,000/mm3, agregación plaquetaria: normal y ecografía de rodilla: “gran hematoma”. ¿Cuál es el diagnóstico más probable?
+   A) Hemofilia B
+   B) Deficiencia de proteína C y S
+   C) Enfermedad de von Willebrand
+  *D) Hemofilia A
+   E) Trombocitopenia inmune
+EXP: El paciente adolescente presenta hemartrosis tras trauma leve, con hematoma intraarticular y tiempo de tromboplastina parcial prolongado (PTT 58 segundos). Estos hallazgos son altamente sugerentes de un trastorno de la coagulación dependiente de la vía intrínseca. La hemofilia A, deficiencia congénita del factor VIII, es la coagulopatía hereditaria más común, ligada al cromosoma X, con predominancia en varones. Se manifiesta con hemorragias articulares (hemartrosis), hematomas y sangrado postraumático desproporcionado. La hemofilia B (deficiencia del factor IX) se presenta de forma indistinguible clínicamente, pero es menos frecuente. La enfermedad de von Willebrand afecta plaquetas y factor VIII, pero cursa más con sangrado mucocutáneo que articular. La deficiencia de proteínas C y S causa trombosis, no hemorragia. Por tanto, el diagnóstico más probable en este contexto es hemofilia A. 
+
+### PED-195 | Suplementación preventiva de hierro a los 5 meses | 2023
+Lactante de 5 meses, con lactancia materna exclusiva, acude a control. Asintomático. Lab: Hb 11,5 g/dl. ¿Cuál es la dosis de hierro oral en mg/kg/día?
+   A) 6
+   B) 4
+  *C) 2
+   D) 1
+   E) 10
+EXP: El caso es un lactante de 5 meses alimentado exclusivamente con leche materna, asintomático, con hemoglobina de 11.5 g/dL, valor que se encuentra en el límite inferior para su edad. A partir del cuarto mes, se recomienda la suplementación preventiva con hierro en lactantes alimentados exclusivamente con leche materna, ya que esta no contiene suficiente hierro para cubrir sus crecientes requerimientos. La dosis profiláctica recomendada por el MINSA y la OMS es de 2 mg/kg/día de hierro elemental, mientras que dosis mayores (3 –6 mg/kg/día) se usan en tratamiento de anemia. El objetivo es prevenir la anemia ferropénica, frecuente en esta etapa. Por tanto, la dosis correcta para este lactante es de 2 mg/kg/día.
+
+### GIN-205 | Embarazo ectópico no roto: metotrexato | 2023
+Mujer de 25 años, acude por amenorrea de 6 semanas. Antecedente: salpinguectomía derecha por embarazo ectópico. Examen: Especuloscopía: cervix cerrado con huellas de sangrado. Tacto vaginal: útero 7 cm, sin dolor a la palpación. Lab: ß-hCG: 3500 UI/mL. Eco TV: útero vacuo, masa anexial izquierda de 25 mm. ¿Cuál es el manejo más adecuado?
+   A) Misoprostol
+   B) Legrado uterino
+  *C) Metrotexate
+   D) Salpinguectomía
+   E) Observación con β-hCG en un mes
+EXP: La paciente presenta signos clínicos y paraclínicos compatibles con embarazo ectópico: amenorrea, masa anexial de 25 mm, útero vacío, sangrado vaginal y ß -hCG >1500 UI/mL sin saco gestacional intrauterino. Dado que la paciente está hemodinámicamente estable, sin signos de ruptura (dolor, inestabilidad hemodinámica o líquido libre), se puede ofrecer tratamiento médico con metotrexato. El antecedente de salpinguectomía derecha refuerza la sospecha de ectópico en el lado contralateral. El legrado no es útil (útero vacío), el misoprostol no tiene indicación en ectópicos y la salpinguectomía solo es necesaria en casos quirúrgicos. Por tanto, el manejo más adecuado es metotrexato.
+
+### NEF-081 | Hipermagnesemia grave con falla renal: hemodiálisis | 2023
+Mujer de 48 años, con nefropatía diabética, médico naturista hace un mes le indica magnesio 1 sobre c/8h. Desde hace 3 días presenta disminución de fuerza en extremidades con dificultad para levantar objetos. Examen: PA 80/50 mmHg, FC 68 X', FR 28 X', SatO₂ 91 %; tendencia al sueño, pupilas dilatadas; ROT: hipoactivos. Lab: magnesio: 4.2 mmol/L. ¿Cuál es el tratamiento inmediato?
+   A) Nifedipino
+  *B) Hemodiálisis
+   C) Furosemida
+   D) Enemas
+   E) Gluconato de calcio solo y observar
+EXP: La paciente presenta signos de intoxicación por magnesio (magnesio: 4.2 mmol/L ≈ 10.2 mg/dL), con alteraciones neuromusculares (debilidad, reflejos hipoactivos), cardiovasculares (hipotensión, bradicardia) y neurológicas (somnolencia). En pacientes con insuficiencia renal como esta (nefropatía diabética), la excreción de magnesio está severamente reducida, lo que favorece la acumulación. Ante cuadros graves de hipermagnesemia, el tratamiento inmediato de elección es la hemodiálisis. Furosemida puede considerarse si hay función renal conservada, lo que no ocurre aquí. Nifedipino no está indicado y los enemas son irrelevantes. Por tanto, el tratamiento indicado es la hemodiálisis.
+
+### PED-196 | Anafilaxia con edema laríngeo: adrenalina | 2023
+Niño de 4 años es traído por presentar desde hace 30 minutos voz ronca y dificultad para respirar, condicionando cianosis. Hace 2 días presenta habones de distribución en tórax y abdomen elevados, eritematosos, transitorios, pruriginosos y tensos. ¿Cuál es el tratamiento inicial?
+  *A) Adrenalina
+   B) Clorfeniramina
+   C) Dexametasona
+   D) Salbutamol
+   E) Loratadina oral
+EXP: El niño presenta signos de reacción anafiláctica severa: habones pruriginosos, ronquera (por edema laríngeo) y dificultad respiratoria con cianosis. Esta combinación sugiere compromiso de vía aérea, situación potencialmente fatal. El tratamiento inicial e inmediato ante cualquier sospecha de anafilaxia es la adrenalina intramuscular, que revierte el broncoespasmo, vasodilatación y edema. Los antihistamínicos (clorfeniramina), corticosteroides (dexametasona) o broncodilatadores (salbutamol) son coadyuvantes, pero no sustituyen a la adrenalina en el manejo inicial. Por tanto, la respuesta correcta es adrenalina.
+
+### GIN-206 | DIU no visible en la ecografía: radiografía de abdomen | 2023
+Paciente usuaria de T de cobre acude a su control. Examen ginecológico no se le observan las guías (hilos), le solicita Eco TV y no se observa el DIU. ¿Cuál es el siguiente paso?
+   A) TEM abdomen
+   B) Explicarle que lo expulsó
+  *C) Rx de abdomen
+   D) Laparotomía exploratoria
+   E) Histeroscopía
+EXP: Una paciente con T de cobre y guías no visibles en el examen ginecológico obliga a descartar dos escenarios: expulsión del dispositivo o migración. Al no visualizarse en la ecografía transvaginal, el siguiente paso es una radiografía simple de abdomen, que permite confirmar si el DIU se encuentra dentro de la cavidad abdominal. Explicar directamente que lo expulsó (opción B) sin evidencia es inapropiado. La tomografía o la laparotomía serían innecesarias en este momento sin antes confirmar ubicación. La Rx es una herramienta sencilla y útil para guiar el manejo posterior. Por ello, se indica la radiografía de abdomen como el siguiente paso diagnóstico.
+
+### NEU-060 | Crisis asmática: tórax silente | 2023
+Varón de 27 años, es llevado a emergencia por los bomberos por disnea severa a pequeños esfuerzos. Antecedente: asma bronquial. Examen: PA 130/90 mmHg, FC 110 X', FR 22 X', T 37ºC; MV ausente en AHT. Lab: SatO₂ 91%, FIO2 0.21. ¿Cuál de los hallazgos del paciente es un criterio de gravedad?
+   A) Frecuencia cardiaca de 110 X'
+  *B) Tórax silente
+   C) Saturación O2 91%
+   D) Frecuencia respiratoria de 22 X'
+   E) Temperatura de 37 °C
+EXP: El paciente con antecedente de asma acude con disnea severa y un hallazgo preocupante: murmullo vesicular ausente en ambos hemitórax. Esto indica un tórax silente, que refleja obstrucción crítica del flujo aéreo, situación de inminente paro respiratorio. Este es un criterio clínico de asma grave o riesgo vital. En contraste, la frecuencia cardíaca de 110 y la saturación del 91% reflejan compromiso, pero no son signos tan graves como el tórax silente. La frecuencia respiratoria de 22 aún se encuentra dentro de límites moderados. Por lo tanto, el hallazgo más grave es el tórax silente.
+
+### GIN-207 | Contracciones con cérvix largo y fibronectina negativa: observar | 2023
+Gestante de 31 semanas con contracciones uterinas cada 5 minutos. Tacto vaginal: cérvix cerrado, borramiento 20%, altura de presentación -4. Cervicometría: 35 mm y test de fibronectina fetal negativo. ¿Cuál es el manejo más adecuado?
+   A) Progesterona
+  *B) Observación
+   C) Tocólisis
+   D) Cerclaje cervical
+   E) Corticoides y cesárea
+EXP: Gestante de 31 semanas con contracciones uterinas cada 5 minutos plantea la sospecha de amenaza de parto pretérmino. Sin embargo, los hallazgos clínicos no apoyan esa evolución: el cérvix está cerrado, con borramiento mínimo (20%) y presentación alta (-4). La cervicometría de 35 mm indica cuello largo, y el test de fibronectina fetal negativo sugiere bajo riesgo de parto en los siguientes 7 días. Por lo tanto, no se justifica tocólisis ni cerclaje, y tampoco progesterona, que se reserva para prevención en pacientes con cuello corto. El manejo adecuado en este caso es observación y control evolutivo.
+
+### CIR-107 | Hematoma duodenal traumático: manejo conservador | 2023
+Chofer de 24 años es trasladado a emergencia porque hace una hora sufre accidente de tránsito, se golpeó con timón el abdomen. Examen: PA 110/70 mmHg, FC 84X', FR 20 X'; abdomen: doloroso en epigastrio. TEM: hematoma de pared duodenal de la primera por ción de 3 cm. ¿Cuál es la indicación inicial?
+   A) Drenaje percutáneo
+   B) Laparoscopía diagnóstica
+  *C) Observación continua
+   D) Laparotomía exploratoria
+   E) Gastroyeyunostomía inmediata
+EXP: La respuesta correcta aquí sería C. Observación continua. El paciente está hemodinámicamente estable (PA 110/70 mmHg, FC 84x', FR 20x'), lo que sugiere que no hay una hemorragia interna masiva que requiera intervención inmediata. Un hematoma duodenal aislado, especialmente en la primera porción y sin signos de perforación o lesión pancreática, a menudo se maneja de manera conservadora con observación, manejo del dolor y soporte nutricional. Recuerda para la práctica, así como para el ENAM Un antecedente de trauma abdominal, como un golpe contra el volante en un accidente de tránsito, es crucial. Los síntomas pueden incluir dolor abdominal, especialmente en el epigastrio, náuseas o vómitos. La Tomografía Computarizada (TC) es la modalidad de imagen preferida para evaluar lesiones traumáticas abdominales. Puede identificar hematomas duodenales, así como otras lesiones asociadas. La ecograf
+
+### SP-152 | Muerte masiva de roedores: epizootia | 2023
+La Dirección de Epidemiologia de la región Piura ha emitido alerta epidemiológica por incremento de casos de peste. Usted es jefe del centro de salud y un agente comunitario le informa que en varias zonas agrícolas aledañas se observa gran cantidad de roedores muertos. ¿Cómo notificará este hecho?
+  *A) Epizootia
+   B) Epidemia
+   C) Brote
+   D) Endemia
+   E) Pandemia
+EXP: Epizootia: Se refiere a un aumento inusual o una epidemia de una enfermedad en poblaciones animales. La muerte masiva de roedores, que son reservorios conocidos de la bacteria de la peste (Yersinia pestis), sugiere una epizootia. Este fenómeno es un indicador clave en la vigilancia de la peste, ya que los brotes en humanos suelen seguir a la epizootia en roedores.
+
+### GIN-208 | Edad gestacional por altura uterina | 2023
+Mujer 32 años G1 P1001, acude a su primer control prenatal, refiere haber sentido movimientos fetales por primera vez la semana pasada, manifiesta tener 27 semanas por FUR. Examen: AU: 21 cm; LCF 140 X'. De acuerdo a su examen clínico. ¿Cuántas semanas de gestación tiene la paciente aproximadamente?
+   A) 25
+  *B) 21
+   C) 17
+   D) 27
+   E) 31
+EXP: La gestante refiere una FUR que sugiere 27 semanas, pero la altura uterina (AU) es de 21 cm, y además menciona percepción reciente de movimientos fetales. Estos hallazgos permiten correlacionar la edad gestacional clínica, que suele coincidir con la AU entre las semanas 20 a 36. En este caso, el útero mide 21 cm desde el pubis, lo que clínicamente sugiere 21 semanas de gestación. Esta discrepancia con la FUR puede deberse a un error en la fecha o a una gestación más joven de lo calculado inicialmente. También es importante el antecedente de sentir movimientos fetales recientemente, lo que en una primigesta suele ocurrir entre las 18 a 20 semanas. Por tanto, el dato clínico confiable es la AU y no la FUR.
+
+### GIN-209 | Gestación prolongada con cérvix desfavorable: maduración cervical | 2023
+Primigesta de 41 semanas 3 días por ecografía del Iº trimestre. Acude por disminución de movimientos fetales y oligohidramnios. Se le realiza test estresante: negativo. Examen: AU: 32 cm; Feto: LCI. Tacto vaginal: D: 0 cm, B: 20%, AP: -2, cérvix posterior intermedio. ¿Cuál es la conducta a seguir?
+   A) Inducción con oxitocina
+   B) Programación de cesárea a las 42 semanas
+  *C) Maduración cervical con misoprostol
+   D) Esperar parto vaginal espontáneo
+   E) Alta y control en una semana
+EXP: Paciente primigesta con embarazo de 41 semanas y 3 días, lo cual califica como gestación prolongada. Refiere disminución de movimientos fetales y se documenta oligohidramnios, lo que eleva el riesgo perinatal. El test estresante negativo indica que no hay sufrimiento fetal actual, pero la vigilancia debe intensificarse. El examen físico muestra AU disminuida para la edad gestacional y presentación en LCI, lo cual es compatible con el oligohidramnios. El tacto vaginal revela un Bishop score desfavorable (cuello cerrado, acortado, posterior e intermedio), por lo que una inducción directa con oxitocina no tendría éxito. No se debe esperar evolución espontánea ni postergar la conducta hasta las 42 semanas por el riesgo materno-fetal. En este contexto, la opción correcta es la maduración cervical con misoprostol, que permite preparar el cuello uterino para una inducción efectiva del parto.
+
+### HEM-040 | Sangrado con INR elevado por warfarina: plasma fresco | 2023
+Paciente de 67 años, anticoagulado con warfarina por fibrilación auricular. Refiere hematemesis desde ayer y hoy en mayor cantidad. Examen: PA 120/80 mmHg, FC 86 X´, FR 20 X´, T 37ºC; algunas equimosis en tórax y abdomen. Lab: INR 7, Hb 10 g/dL. ¿Cuál es la conducta inmediata?
+   A) Transfundir glóbulos rojos
+   B) Administrar vitamina K
+   C) Transfundir plaquetas
+  *D) Administrar plasma fresco
+   E) Suspender la warfarina y solo observar
+EXP: En el contexto de un paciente anticoagulado con warfarina que presenta hematemesis y un INR significativamente elevado (7), lo que indica una anticoagulación excesiva, la prioridad es revertir rápidamente los efectos anticoagulantes para controlar el riesgo de sangrado. La administración de plasma fresco congelado (PFC) es la conducta inmediata adecuada en esta situación, ya que el PFC contiene todos los factores de coagulación necesarios para revertir la anticoagulación y estabilizar la coagulopatía.
+
+### REU-059 | Pitiriasis versicolor: Malassezia globosa | 2023
+Niño de 8 años, es traído por presentar máculas hipo e hiperpigmentadas, delimitadas, descamativas, de diferentes tamaños y situadas en el tronco. Examen: KOH: pared gruesa y numerosas hifas anguladas dan un aspecto en espaguetis y albóndiga. ¿Cuál es el agente etiológico?
+   A) Trichophyton tonsurans
+  *B) Malassezia globosa
+   C) Phaeoannellomyces werneckii
+   D) Candida albicans
+   E) Microsporum canis
+EXP: La presencia de máculas hipo e hiperpigmentadas, delimitadas y descamativas en el tronco, junto con la visualización de hifas anguladas y el patrón de "espaguetis y albóndigas" en el examen KOH, son características distintivas de la tiña versicolor, causada por hongos del género Malassezia, comúnmente Malassezia globosa.Los agentes causales de pitiriasis versicolor son M. globosa (97%), asociada a M. sympodialis en una tercera parte y más raras M. slooffiae (7%) y M. furfur. Tradicionalmente Malassezia furfur era considerada el agente etiológico. Dentro del espectro de infecciones causadas por este género, se encuentran dermatitis seborréica (DS), foliculitis, septicemia, pustulosis neonatal, papilomatosis confluente y reticulada, onicomicosis, blefaritis seborreica, dermatitis atópica y la psoriasis. Existe relación con padecimientos no dermatológicos, como la dacriocistitis, otitis, si
+
+### SP-153 | Atención primaria: cobertura | 2023
+Durante el brote epidémico de dengue del presente año en varias provincias del país se evidenció que muchos pacientes no lograban ser atendidos y se presentó un incremento de la letalidad en comparación con años anteriores. ¿Qué elemento esencial de un sistema de salud basado en atención primaria requiere ser mejorado?
+   A) Sostenibilidad
+  *B) Cobertura
+   C) Solidaridad
+   D) Longitudinalidad
+   E) Especialización
+EXP: Durante una epidemia, uno de los principales retos de un sistema de salud es garantizar el acceso efectivo y oportuno a los servicios sanitarios. El caso describe un incremento en la letalidad del dengue debido a que muchos pacientes no lograban ser atendidos, lo cual evidencia una limitada capacidad de respuesta en cuanto a la cobertura sanitaria. La cobertura hace referencia al alcance del sistema para brindar servicios de salud a toda la población que los necesita. Si hay pacientes desatendidos durante u na crisis, lo que está fallando no es tanto la sostenibilidad financiera, la longitudinalidad del cuidado, ni los principios éticos como la solidaridad, sino la capacidad del sistema de llegar efectivamente a todos los individuos en tiempo real. Por tanto, el elemento que requiere mejoras urgentes es la cobertura, para así reducir la morbilidad y mortalidad en situaciones de emergenci
+
+### CIR-108 | Infección de herida operatoria: abrir, drenar y cultivar | 2023
+Varón de 25 años apendicectomizado hace 5 días por cirugía convencional consulta por fiebre y dolor en la herida operatoria (incisión transversa). Se diagnóstica infección de herida operatoria. ¿Cuál es la conducta inicial?
+  *A) Drenaje + cultivo
+   B) Observación + analgésicos
+   C) Observación + antibióticos
+   D) Drenaje + observación
+   E) Cierre de la herida con nuevos puntos
+EXP: Paciente joven operado de apendicitis hace 5 días mediante cirugía abierta, acude por fiebre y dolor en la herida quirúrgica, lo cual es sugestivo de una infección de herida operatoria superficial. Este cuadro clínico ocurre típicamente entre el 5.º y 7.º día postoperatorio y se manifiesta por eritema, calor, dolor, fluctuación y a veces secreción purulenta. La conducta de primera elección es abrir la herida quirúrgica, drenar el material purulento y tomar cultivo para guiar el tratamiento antibiótico. El manejo inicial nunca debe ser solo observacional ni empírico sin drenaje, ya que esto perpetúa la infección y retrasa la recuperación. Los antibióticos sistémicos pueden iniciarse luego del drenaje si hay celulitis asociada o compromiso sistémico.
+
+### REU-060 | Artritis reumatoide: anti-CCP y erosiones | 2023
+Mujer de 35 años, presenta desde hace 4 meses dolor en pequeñas y medianas articulaciones asociado a rigidez matutina. Examen: Dolor y tumefacción de manos y muñecas. Lab: Ac anti-péptido citrulinado cíclico (+) y ANA (+). Rx. de manos: osteopenia periarticular y erosiones óseas. ¿Cuál es el diagnóstico?
+  *A) Artritis reumatoide
+   B) Osteoartrosis
+   C) Lupus eritematoso sistémico
+   D) Enfermedad mixta del tejido conectivo
+   E) Fiebre reumática
+EXP: Paciente de 35 años con dolor articular en pequeñas y medianas articulaciones, rigidez matutina y hallazgos radiográficos de osteopenia periarticular con erosiones. Esta clínica es típica de artritis reumatoide, una enfermedad autoinmune inflamatoria crónica. La presencia de rigidez matinal prolongada (>30 minutos) y afectación simétrica de articulaciones como metacarpofalángicas y muñecas es muy característica. Además, el hallazgo de anticuerpo anti-péptido citrulinado cíclico (anti-CCP) positivo confiere alta especificidad diagnóstica para AR. Aunque el ANA puede estar positivo en muchas enfermedades autoinmunes, en este caso el perfil clínico y radiográfico apuntan claramente a AR.

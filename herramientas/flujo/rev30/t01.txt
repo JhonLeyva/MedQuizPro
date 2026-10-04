@@ -1,0 +1,224 @@
+### GIN-141 | Tricomoniasis: cérvix en fresa | 2025
+Mujer de 30 años acude por flujo vaginal abundante y maloliente, prurito ocasional, edema y dolor en los labios genitales externos, que empeoran durante la menstruación. Examen: presenta eritema vaginal y múltiples lesiones petequiales en el cérvix. ¿Cuál es el agente causal más probable?
+  *A) Trichomonas vaginalis
+   B) Ureaplasma urealiticum
+   C) Neisseria gonorrhoeae
+   D) Chlamydia trachomatis
+   E) Candida albicans
+EXP: El cuadro clínico describe un flujo vaginal abundante, maloliente y espumoso, con prurito, eritema vaginal y lesiones petequiales en el cérvix (“cuello en fresa”), hallazgos característicos de una infección por Trichomonas vaginalis. Este protozoo flagelado se transmite por vía sexual y produce una vaginitis inflamatoria intensa. El diagnóstico se confirma con examen microscópico en fresco del flujo o test rápido de antígenos. El tratamiento de elección es metronidazol, también indicado para la pareja sexual, a fin de evitar reinfecciones. El prurito y las lesiones cervicales ayudan a diferenciarla de otras ETS como gonorrea o clamidia.
+
+### INF-072 | Leishmaniasis cutánea | 2025
+Varón de 25 años, residente de Loreto, con 3 meses de evolución de una úlcera única en la pierna, de bordes elevados e indurados y fondo granuloso, indolora, sin fiebre ni otros síntomas sistémicos. ¿Cuál es el diagnóstico más probable?
+   A) Úlcera tropical
+   B) Pioderma gangrenoso
+  *C) Leishmaniasis cutánea
+   D) Tuberculosis cutánea
+   E) Esporotricosis
+EXP: El paciente presenta una úlcera crónica, única, de bordes elevados e indurados, fondo granuloso e indolora, localizada en extremidad inferior y procedente de zona selvática (Loreto), lo cual es altamente sugestivo de leishmaniasis cutánea. Esta patología es causada por protozoos del género Leishmania transmitidos por la picadura del flebótomo (Lutzomyia). Clínicamente se inicia como un nódulo que ulcera progresivamente sin dolor ni síntomas sistémicos, formando bordes infiltrados característicos. El diagnóstico se confirma mediante frotis o biopsia con demostración del parásito en amastigotes. El tratamiento de elección es el antimonial pentavalente (estibogluconato de sodio o antimoniato de meglumina).
+
+### GIN-142 | Alumbramiento incompleto: revisión uterina | 2025
+Puérpera inmediata, se revisa placenta e impresiona faltar un cotiledón. Como la paciente presenta un sangrado activo, se decide una revisión instrumental por la sospecha de:
+   A) Desgarro cervical
+   B) Desgarros vagino-perineales
+   C) Atonía uterina
+  *D) Alumbramiento incompleto
+   E) Inversión uterina
+EXP: La paciente se encuentra en el puerperio inmediato con sangrado activo y placenta incompleta al examen, lo que orienta hacia un alumbramiento incompleto. La falta de un cotiledón indica retención de restos placentarios, los cuales impiden la adecuada contracción uterina y provocan hemorragia posparto persistente. La revisión instrumental uterina es el procedimiento indicado para extraer los restos retenidos, prevenir infección y controlar el sangrado. Es importante recordar que la causa más frecuente de hemorragia posparto es la atonía uterina, pero ante evidencia de placenta incompleta, la prioridad diagnóstica cambia a alumbramiento incompleto.
+
+### CAR-052 | Edema agudo de pulmón hipertensivo | 2025
+Mujer de 56 años, con antecedente de hipertensión arterial desde hace 10 años en tratamiento irregular, presenta disnea progresiva, tos rosada y diaforesis. Examen: PA 195/105 mmHg, FR 28 x', cianosis distal, crepitantes difusos bilaterales. ¿Cuál es el diagnóstico más probable?
+  *A) Edema agudo de pulmón
+   B) Shock cardiogénico
+   C) Tromboembolia pulmonar
+   D) Neumonía atípica
+   E) Crisis asmática
+EXP: Paciente hipertensa crónica, con tratamiento irregular, que presenta disnea súbita, tos rosada, crepitantes difusos y presión arterial muy elevada, cuadro clínico compatible con edema agudo de pulmón (EAP) cardiogénico secundario a crisis hipertensiva. La fisiopatología involucra aumento abrupto de la presión capilar pulmonar por disfunción ventricular izquierda, lo que genera extravasación de líquido hacia los alvéolos, originando disnea, hipoxemia y expectoración rosada. El manejo incluye oxigenoterapia, diuréticos (furosemida), vasodilatadores (nitroglicerina) y control de la presión arterial. Es una urgencia médica con alta mortalidad si no se trata precozmente.
+
+### NEF-063 | Síndrome nefrótico: tromboembolismo pulmonar | 2025
+Varón de 45 años con síndrome nefrótico por nefropatía membranosa (proteinuria 8 g/24h, albúmina 1.8 g/dL). Acude con disnea, dolor torácico pleurítico derecho y SatO₂ 88%. ECG: taquicardia sinusal. ¿Qué complicación debe sospecharse y descartarse de inmediato?
+   A) Derrame pleural nefrótico bilateral
+   B) Infección respiratoria bacteriana
+   C) Edema agudo de pulmón por sobrecarga de volumen
+  *D) Tromboembolismo pulmonar
+   E) Neumotórax espontáneo
+EXP: Varón con síndrome nefrótico por nefropatía membranosa presenta disnea súbita, dolor pleurítico y saturación baja, hallazgos altamente sugestivos de tromboembolismo pulmonar (TEP). En este contexto, la hipoalbuminemia y la proteinuria severa inducen un estado hipercoagulable por pérdida urinaria de antitrombina III, proteínas C y S. El ECG con taquicardia sinusal es hallazgo inespecífico pero frecuente. La conducta inmediata es descartar TEP mediante angio-TAC pulmonar o gammagrafía de ventilación-perfusión, e iniciar anticoagulación si la sospecha es alta. El derrame pleural o la infección no explican la clínica súbita ni la desaturación marcada.
+
+### INF-073 | Meningitis viral: tratamiento sintomático | 2025
+Mujer de 34 años con 3 días de cefalea, fiebre y vómitos. Examen: T° 38.5°C, rigidez de nuca, sin déficit focal. LCR: leucocitos 90/mm³ (linfocitos), glucosa normal, proteínas 80 mg/dL, Gram negativo. ¿Cuál es el tratamiento más adecuado?
+   A) Macrólidos
+   B) Cefalosporina de 3ª generación
+  *C) Analgésicos/antipiréticos
+   D) Antivirales (aciclovir)
+   E) Anfotericina B
+EXP: Mujer con fiebre, cefalea y rigidez de nuca presenta un cuadro compatible con meningitis aséptica. El LCR muestra predominio linfocitario, proteínas moderadamente elevadas, glucosa normal y Gram negativo, lo que descarta meningitis bacteriana purulenta. Este perfil indica etiología viral, usualmente enterovirus o herpesvirus. El manejo se basa en medidas sintomáticas y de soporte, con analgésicos, antipiréticos e hidratación. No se justifica el uso de antibióticos ni antivirales empíricos (excepto sospecha de herpes con alteración de conciencia). La cefalosporina se reserva para casos bacterianos confirmados.
+
+### TRA-030 | Canal de Guyon: nervio cubital | 2025
+Varón de 48 años, hace 3 meses sufrió traumatismo en muñeca derecha. En los últimos 15 días presenta adormecimiento del 4.º y 5.º dedo, atribuible al compromiso del:
+   A) Trapezoide
+   B) Semilunar
+  *C) Canal ulnar
+   D) Trapecio
+   E) Túnel carpiano
+EXP: El paciente presenta parestesias en el cuarto y quinto dedo tras un traumatismo en muñeca, hallazgo característico de compromiso del nervio cubital. Este nervio transcurre por el canal ulnar (de Guyon), localizado entre el pisiforme y el ganchoso. Su atrapamiento o lesión produce alteración sensitiva en el borde cubital de la mano y debilidad en los músculos interóseos. El diagnóstico se confirma con estudios de conducción nerviosa. El manejo inicial es conservador con inmovilización y analgesia; si persiste el déficit, se indica descompresión quirúrgica.
+
+### SP-104 | Tasa de ataque | 2025
+200 personas almorzaron en un comedor universitario; 80 desarrollaron gastroenteritis 24 horas después. ¿Cuál es la interpretación correcta del concepto "tasa de ataque"?
+   A) El total de personas con riesgo de morir durante el brote
+   B) La prevalencia de la enfermedad en la universidad
+   C) La velocidad con la que se propagó la enfermedad
+  *D) Riesgo de un expuesto de enfermar durante el brote
+   E) La letalidad de la enfermedad
+EXP: La tasa de ataque es una medida de frecuencia empleada en brotes epidémicos que expresa el riesgo de enfermar entre los expuestos durante un periodo limitado. En el caso descrito, 80 de 200 personas enfermaron tras un evento común, lo que representa un ataque del 40%. Este indicador no evalúa mortalidad ni prevalencia, sino la probabilidad de aparición de casos nuevos entre quienes estuvieron expuestos al agente causal, reflejando la fuerza del brote y su grado de diseminación entre susceptibles.
+
+### SP-105 | Redes Integradas de Salud | 2025
+La definición: “conjunto de organizaciones que presta atención de salud equitativa e integral a una población definida, mediante articulación, coordinación y complementariedad, rindiendo cuentas por los resultados sanitarios y el estado de salud de la población”, corresponde a:
+   A) Seguro Integral de Salud
+   B) Hospitales nacionales y regionales
+  *C) Redes Integradas de Salud
+   D) Centros de salud del primer nivel
+   E) Aseguradoras privadas de salud
+EXP: La definición corresponde al modelo de Redes Integradas de Salud (RIS), que agrupan establecimientos de distintos niveles de atención bajo principios de equidad, integralidad, continuidad y responsabilidad sanitaria. Estas redes buscan articular servicios desde el primer nivel hasta la atención especializada, con mecanismos de referencia y contrarreferencia, garantizando eficiencia en la atención y resultados medibles en salud. No se limita a un seguro ni a hospitales, sino que constituye una estrategia organizacional del sistema sanitario peruano.
+
+### END-041 | Acantosis nigricans: resistencia a la insulina | 2025
+Adolescente de 12 años, traído por mancha negruzca en cuello y axilas. Examen: IMC +3 DE según curvas OMS; acantosis nigricans en cuello y axilas. ¿Cuál es el diagnóstico más probable?
+   A) Síndrome de Cushing
+   B) Pubertad precoz
+   C) Hipotiroidismo primario
+  *D) Obesidad con resistencia a la insulina
+   E) Enfermedad de Addison
+EXP: La acantosis nigricans en pliegues, acompañada de obesidad y un IMC superior a +3 DE, sugiere resistencia a la insulina, fenómeno metabólico que precede a la diabetes tipo 2. Esta hiperpigmentación aterciopelada se produce por el estímulo hiperinsulinémico sobre receptores del factor de crecimiento epidérmico. En adolescentes obesos, constituye un marcador dermatológico de riesgo metabólico, más que un signo de endocrinopatías primarias como el Cushing o el hipotiroidismo.
+
+### CIR-082 | Íleo posoperatorio: opioides | 2025
+Varón de 68 años, día 3 posoperatorio de resección yeyunal por tumor GIST, con distensión abdominal y ausencia de ruidos hidroaéreos. Drenaje seroso escaso. ¿Cuál es la causa iatrogénica más frecuente del íleo posoperatorio?
+   A) Inhibidores de la bomba de protones
+  *B) Analgésicos opioides
+   C) Anestésicos inhalatorios
+   D) Atelectasia pulmonar
+   E) Hipopotasemia por diarrea
+EXP: El íleo posoperatorio es una detención funcional y transitoria del tránsito intestinal, común tras cirugías abdominales. Su fisiopatología implica alteraciones neurohormonales, inflamación peritoneal y efecto farmacológico de ciertos fármacos. Entre las causas iatrogénicas, los analgésicos opioides son los principales responsables, al inhibir el plexo mioentérico y disminuir la motilidad intestinal. La distensión y el silencio abdominal del caso ilustran este mecanismo, por lo que se debe evitar su uso prolongado y favorecer analgesia multimodal.
+
+### GAS-052 | Cáncer de páncreas: CA 19-9 | 2025
+¿Cuál es el marcador tumoral más sensible y específico para el adenocarcinoma de páncreas?
+   A) Ca 153
+   B) Antígeno carcinoembrionario
+  *C) Ca 19-9
+   D) Alfafetoproteínas
+   E) Ca 125
+EXP: El adenocarcinoma de páncreas se caracteriza por su diagnóstico tardío y su escasa resecabilidad. El marcador tumoral más sensible y específico es el Ca 19-9, el cual se eleva en más del 80% de los casos. Este antígeno se asocia con el epitelio ductal pancreático y permite evaluar respuesta terapéutica o recurrencia postquirúrgica. Aunque el antígeno carcinoembrionario también puede elevarse, su especificidad es menor. Las alfafetoproteínas corresponden al hepatocarcinoma y el Ca 15-3 al carcinoma mamario.
+
+### CIR-083 | Apendicitis del muñón | 2025
+Varón de 35 años, con antecedente de apendicectomía hace 6 meses, presenta dolor persistente en FID de 24 horas. Examen: contractura abdominal, signo de Blumberg (+). TAC: estructura tubular inflamada en ciego. ¿Cuál es el diagnóstico probable?
+   A) Íleo biliar
+   B) Divertículo de Meckel
+   C) Oblito abdominal
+  *D) Apendicitis del muñón
+   E) Diverticulitis de colon derecho
+EXP: La apendicitis del muñón es una entidad infrecuente pero clínicamente importante, que ocurre cuando el remanente del apéndice no fue completamente resecado durante la apendicectomía. Este muñón residual puede inflamarse de forma similar a una apendicitis primaria. El paciente presenta dolor en fosa iliaca derecha, defensa, Blumberg positivo y signos de irritación peritoneal. La TAC abdominal confirma la presencia de una estructura tubular inflamatoria en el ciego, hallazgo característico. El manejo es quirúrgico, con resección del muñón inflamado para evitar recurrencias o complicaciones.
+
+### INF-074 | Herpes genital: pruebas virológicas de la lesión | 2025
+Mujer de 25 años, con lesiones vesiculares dolorosas en labio mayor derecho desde hace 2 días. Sospecha de infección por virus del herpes simple. ¿Cómo se confirma el diagnóstico?
+   A) Hemograma completo
+   B) Citología en base líquida
+   C) Pruebas serológicas
+  *D) Pruebas virológicas de lesiones genitales
+   E) Urocultivo
+EXP: El herpes genital, causado por el virus del herpes simple tipo 2 (VHS-2) —aunque el tipo 1 también puede afectarlo — se caracteriza por vesículas dolorosas agrupadas sobre base eritematosa, que pueden ulcerarse. El diagnóstico clínico es orientador, pero para confirmar la infección se requiere evidencia virológica directa. Las pruebas virológicas de las lesiones genitales incluyen cultivo viral, inmunofluorescencia directa o PCR para VHS, siendo esta última la más sensible y específica. Las serologías solo detectan exposición previa, no infección activa. El hemograma o citología no aportan valor diagnóstico.
+
+### NEF-064 | Prostatectomía radical: nervios cavernosos | 2025
+Varón de 55 años sometido a prostatectomía radical robótica. Para evitar disfunción eréctil, el cirujano debe identificar y preservar los nervios:
+   A) Esponjosos
+   B) Hipogástricos superiores
+   C) Pudendos externos
+  *D) Cavernosos
+   E) Obturadores
+EXP: Durante la prostatectomía radical, el principal riesgo es la disfunción eréctil posoperatoria, causada por lesión de los nervios cavernosos, que son fibras parasimpáticas responsables de la erección. Estos nervios se originan del plexo pélvico y discurren a lo largo de la cápsula prostática posterolateral, por lo que su preservación requiere una técnica meticulosa conocida como prostatectomía con preservación neurovascular. Si se dañan, se pierde la capacidad de vasodilatación de los cuerpos cavernosos. Los nervios pudendos intervienen en la eyaculación y el control esfinteriano, no en la erección.
+
+### END-042 | Nefropatía diabética: cociente albúmina/creatinina | 2025
+Mujer de 55 años con DM2 de 10 años, hemoglobina glicosilada 7%, urea y creatinina normales. ¿Qué examen complementario solicita para detectar daño renal precoz?
+   A) Sedimento urinario en recolección de 24 horas
+  *B) Relación albúmina/creatinina en orina aislada
+   C) Ecografía renal
+   D) Sodio en orina de 24 horas
+   E) Creatinina sérica
+EXP: En el paciente diabético con función renal aparente normal, la detección precoz de nefropatía requiere identificar microalbuminuria, marcador inicial de daño glomerular antes del aumento de la creatinina. El método más sensible y práctico es la relación albúmina/creatinina en una muestra aislada de orina, la cual corrige la variación por concentración urinaria y evita errores de recolección de 24 horas. Un valor >30 mg/g indica microalbuminuria. El examen de orina simple o ecografía no detectan daño temprano. Su identificación temprana permite intervenir con IECAs o ARA II.
+
+### CB-053 | Anestésicos: liposolubilidad y barrera hematoencefálica | 2025
+¿Qué característica farmacológica debe tener el anestésico para atravesar con facilidad la barrera hematoencefálica?
+   A) Buena hidrosolubilidad
+  *B) Alta liposolubilidad
+   C) Buena fijación a proteínas plasmáticas
+   D) Afinidad a receptores diana
+   E) Alto peso molecular
+EXP: La barrera hematoencefálica (BHE) está formada por células endoteliales con uniones estrechas que impiden el paso de moléculas hidrosolubles. Solo las sustancias liposolubles, de bajo peso molecular y no ionizadas atraviesan con facilidad esta barrera. Por ello, los anestésicos con alta liposolubilidad alcanzan rápidamente el sistema nervioso central, generando un inicio de acción veloz. En cambio, los fármacos hidrosolubles o altamente ionizados quedan retenidos en el plasma. Este principio explica la rápida penetración de agentes como el propofol o el tiopental, esenciales para inducir anestesia general.
+
+### GAS-053 | Pancreatitis aguda: hipoxemia por alteración V/Q | 2025
+Varón de 48 años con pancreatitis aguda moderada presenta disnea leve, taquipnea y SatO₂ 92%. ¿Cuál es el mecanismo fisiopatológico que explica la hipoxemia?
+  *A) Alteración de la relación ventilación/perfusión por atelectasias y derrame pleural
+   B) Reducción del volumen minuto por depresión respiratoria central
+   C) Aumento del espacio muerto fisiológico por broncoespasmo
+   D) Alcalosis respiratoria primaria por hiperventilación psicógena
+   E) Edema pulmonar cardiogénico por insuficiencia cardiaca
+EXP: En la pancreatitis aguda, la inflamación sistémica libera mediadores que aumentan la permeabilidad capilar pulmonar, favoreciendo atelectasias basales y derrames pleurales. Estas alteraciones generan desigualdad en la relación ventilación/perfusión (V/Q), principal causa de hipoxemia en estos casos. La disnea y la disminución de la saturación de oxígeno reflejan compromiso alveolar secundario al proceso inflamatorio, no por depresión respiratoria ni broncoespasmo. En fases severas puede progresar a SDRA. Por ello, la hipoxemia en pancreatitis moderada se explica fisiopatológicamente por alteración V/Q.
+
+### INF-075 | Esofagitis por citomegalovirus: ganciclovir | 2025
+Varón de 32 años con SIDA (CD4: 30/µl), odinofagia y disfagia progresiva. Endoscopía: úlceras serpiginosas en esófago distal; biopsia: inclusiones intranucleares e intracitoplasmáticas en grandes células endoteliales y fibroblastos. ¿Cuál es el mejor tratamiento?
+   A) Fluconazol
+   B) Foscarnet
+  *C) Ganciclovir
+   D) Glucocorticoides
+   E) Aciclovir oral
+EXP: El paciente inmunodeprimido con CD4 <50/µl y odinofagia progresiva sugiere una esofagitis oportunista. La endoscopía revela úlceras serpiginosas en el tercio distal y la histología muestra inclusiones intranucleares e intracitoplasmáticas en células gigantes, hallazgo patognomónico de citomegalovirus (CMV). El tratamiento de elección es ganciclovir intravenoso, antiviral análogo de nucleósido que inhibe la ADN polimerasa viral del CMV. El fluconazol se reserva para candidiasis esofágica, el foscarnet es segunda línea y los corticoides están contraindicados. El tratamiento precoz evita complicaciones hemorrágicas o perforativas.
+
+### NEU-039 | Tuberculosis pulmonar en la gestante | 2025
+Gestante de 20 semanas con tos >2 semanas, sensación febril, dolor tipo contracción leve y pérdida de peso. Antecedente familiar: abuela fallecida por “tos”. Examen: crepitantes dispersos en ambos campos pulmonares. ¿Cuál es el diagnóstico más probable?
+   A) Asma bronquial
+   B) Neumonía atípica
+   C) Amenaza de aborto
+  *D) Tuberculosis pulmonar
+   E) Neumonía bacteriana
+EXP: La paciente gestante con tos de más de dos semanas, fiebre, pérdida de peso y antecedentes familiares de “tos crónica” sugiere una infección por Mycobacterium tuberculosis. En el embarazo, la inmunomodulación celular facilita la reactivación del bacilo. Los crepitantes dispersos en ambos campos pulmonares refuerzan el diagnóstico de tuberculosis pulmonar activa. El diagnóstico se confirma con baciloscopía o prueba molecular (GeneXpert). El tratamiento incluye esquema antituberculoso estándar, priorizando la protección materno-fetal. El control prenatal debe continuar con vigilancia de efectos adversos de los fármacos.
+
+### GIN-143 | Bolo de oxitocina: hipertonía uterina y bradicardia fetal | 2025
+Gestante en fase expulsiva agotada, se administra bolo de oxitocina y aparece taquicardia seguida de bradicardia fetal. ¿Cuál es la causa del efecto adverso?
+  *A) Hipertonía uterina
+   B) Atonía uterina
+   C) Liberación de catecolaminas
+   D) Vasoconstricción umbilical
+   E) Hipotensión materna por anestesia
+EXP: Durante la fase expulsiva, la administración en bolo de oxitocina produce una contracción uterina sostenida o hipertonía uterina, que disminuye el flujo útero-placentario. Este fenómeno genera hipoxia transitoria fetal, inicialmente con taquicardia compensatoria, seguida de bradicardia refleja por compromiso del intercambio gaseoso. El error radica en administrar oxitocina en bolo en lugar de infusión controlada. La hipertonía provoca sufrimiento fetal agudo y riesgo de asfixia intraparto. La conducta debe incluir suspensión inmediata del fármaco y medidas de reanimación fetal.
+
+### HEM-028 | Enfermedad de von Willebrand | 2025
+Varón de 40 años con antecedentes personales y familiares de sangrados mucocutáneos. Examen: petequias, sin hepatomegalia ni esplenomegalia. Laboratorio: tiempo de sangría prolongado, actividad del factor VIII disminuida y agregación plaquetaria por ristocetina disminuida. ¿Cuál es el diagnóstico más probable?
+   A) Tromboastenia de Glanzmann
+  *B) Enfermedad de von Willebrand
+   C) Hemofilia B leve
+   D) Hemofilia A leve
+   E) Púrpura trombocitopénica inmune
+EXP: El cuadro clínico y de laboratorio corresponde a una enfermedad de von Willebrand, caracterizada por sangrados mucocutáneos, petequias y antecedentes familiares compatibles con un trastorno hereditario autosómico dominante. La prolongación del tiempo de sangría y la disminución tanto del factor VIII como de la agregación plaquetaria por ristocetina son datos distintivos, ya que el factor von Willebrand facilita la adhesión plaquetaria y estabiliza el factor VIII. En contraste, la tromboastenia de Glanzmann presenta agregación plaquetaria alterada con ristocetina normal, y las hemofilias no alteran el tiempo de sangría.
+
+### CIR-084 | Apendicectomía laparoscópica en obesos | 2025
+Mujer de 45 años con apendicitis aguda no complicada y obesidad. ¿Cuál es una ventaja de la vía laparoscópica frente a la abierta?
+  *A) Menor incidencia de infección de herida
+   B) Disminuye necesidad de analgesia epidural
+   C) Evita uso de antibióticos endovenosos
+   D) Menor riesgo tromboembólico
+   E) Menor tiempo quirúrgico en todos los casos
+EXP: En pacientes con apendicitis aguda no complicada y obesidad, la vía laparoscópica ofrece ventajas significativas sobre la cirugía abierta, siendo la menor incidencia de infección de la herida quirúrgica la más importante. Esto se debe a la menor manipulación tisular, incisiones más pequeñas y mejor visualización intraabdominal, lo que reduce el riesgo de contaminación bacteriana. Además, la laparoscopía favorece una recuperación más rápida y menor dolor posoperatorio, aunque no elimina la necesidad de antibióticos ni modifica el riesgo tromboembólico. Por tanto, la opción más correcta es la reducción de infecciones de sitio operatorio.
+
+### CIR-085 | Hernia epigástrica | 2025
+Varón de 56 años con tumoración blanda supraumbilical que aparece de pie y desaparece en decúbito. ¿Cuál es el diagnóstico más probable?
+  *A) Hernia epigástrica
+   B) Diástasis de los rectos
+   C) Hernia umbilical
+   D) Tumor desmoides
+   E) Lipoma
+EXP: El cuadro describe una tumoración blanda en la línea media supraumbilical que aumenta con el esfuerzo y desaparece en decúbito, lo cual es típico de una hernia epigástrica. Estas hernias se originan por un defecto en la línea alba, a través del cual protruyen grasa preperitoneal o epiplón. A diferencia de la diástasis de los rectos, que no produce un verdadero saco herniario, la hernia epigástrica es una protrusión localizada y palpable. No corresponde a hernia umbilical (por localización) ni a tumor desmoide (masa sólida no reductible).
+
+### INF-076 | Amebiasis intestinal: metronidazol y paromomicina | 2025
+Varón de 24 años con diarrea intermitente, pérdida de peso y trofozoítos de Entamoeba histolytica en heces. ¿Cuál es el tratamiento más adecuado?
+   A) Albendazol por 5 días
+   B) Praziquantel en dosis fraccionada
+   C) Nitazoxanida en dosis única
+  *D) Metronidazol seguido de paromomicina
+   E) Ivermectina en dosis única
+EXP: El paciente presenta diarrea crónica con pérdida de peso y trofozoítos de Entamoeba histolytica en heces, lo que confirma amebiasis intestinal activa. El tratamiento de elección requiere erradicar tanto los trofozoítos tisulares como los quistes luminales, por lo que se administra metronidazol (que actúa sobre las formas invasoras) seguido de un ame bicida luminal como paromomicina. Usar solo metronidazol no elimina la fase intestinal y favorece recurrencias. Antiparasitarios como albendazol, praziquantel o nitazoxanida no son eficaces frente a amebas.

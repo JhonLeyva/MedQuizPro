@@ -1,0 +1,224 @@
+### GIN-144 | Mecanismo del parto: rotación externa | 2025
+En un parto vaginal a término, luego de la salida de la cabeza fetal. ¿Cuál es el siguiente movimiento cardinal del bebé?
+   A) Encajamiento
+   B) Flexión
+   C) Rotación interna
+  *D) Rotación externa
+   E) Descenso
+EXP: Paciente en parto vaginal a término, donde ya se ha producido el desprendimiento cefálico. Los movimientos cardinales del parto siguen un orden lógico adaptado al canal óseo. Tras la salida de la cabeza, el feto debe alinear los diámetros de los hombros con el eje del canal. Clínicamente, se observa un giro de la cabeza hacia uno de los lados llamado rotación externa o restitución. Este movimiento indica la posición de los hombros dentro de la pelvis y permite el descenso ulterior. Fisiopatológicamente, la cabeza rota internamente antes del nacimiento, pero debe “restituir” para acomodar los hombros. Su ausencia puede sugerir distocia de hombros. El encajamiento y flexión ocurren antes del descenso. La rotación interna también precede la salida cefálica. Por ello, la siguiente maniobra naturalmente observada es la rotación externa. Esto permite continuar con la expulsión de hombro anteri
+
+### NRL-040 | Migraña | 2025
+Adolescente de 16 años con cefalea hemicraneal pulsátil 48 horas, fotofobia, náuseas y vómitos, examen neurológico normal, TAC normal. ¿Diagnóstico más probable?
+   A) Cefalea en racimos
+  *B) Migraña
+   C) Cefalea tensional
+   D) Hemorragia subaracnoidea
+   E) Sinusitis aguda
+EXP: Adolescente con cefalea hemicraneal pulsátil mantenida por más de 48 horas, asociada a fotofobia, náuseas y vómitos. El examen neurológico normal orienta a una etiología primaria benigna. Fisiopatológicamente, la migraña responde a activación del sistema trigémino-vascular, liberación de mediadores inflamatorios y sensibilización nociceptiva. La TAC normal descarta hemorragia aguda, mientras que la cefalea tensional sería opresiva y no hemicraneal. La cefalea en racimos es unilateral, intensa, breve y acompañada de lagrimeo y rinorrea, más común en varones. La hemorragia subaracnoidea suele presentar “peor cefalea de la vida” y signos meníngeos. La duración prolongada puede corresponder a estatus migrañoso sin focalidad. Por la clínica clásica y estudios tranquilos, el diagnóstico más probable es migraña.
+
+### SP-106 | Leptospirosis: calzado y agua segura | 2025
+Para reducir la leptospirosis en zonas rurales con pobreza y saneamiento deficiente, ¿qué estrategia comunitaria sería más efectiva?
+   A) Centralizar el diagnóstico en hospitales nivel III
+   B) Fomentar viviendas cercanas a ríos
+  *C) Promover calzado y agua segura
+   D) Prescribir antibióticos profilácticos
+   E) Construcción de hospitales especializados
+EXP: La leptospirosis es una zoonosis bacteriana asociada a ambientes rurales con contaminación por orina de animales, especialmente roedores. Clínicamente se presenta tras exposición ambiental, por lo que su control depende de medidas de saneamiento básico. Fisiopatológicamente, la bacteria penetra por piel macerada o mucosas tras contacto con agua o suelo contaminado. Promover uso de calzado protege la barrera cutánea en zonas encharcadas. Fomentar agua segura reduce la inoculación digestiva. Centralizar diagn óstico retrasa intervenciones y no disminuye incidencia. Agrupar viviendas cerca de ríos aumenta exposición al reservorio. El uso masivo de antibióticos profilácticos genera resistencia y no es sostenible. La estrategia comunitaria con mejor impacto poblacional es el saneamiento primario y protección personal. Estas medidas reducen la transmisión ambiental de forma efectiva.
+
+### NEU-040 | Crisis asmática moderada | 2025
+Varón de 26 años con asma persistente leve no controlada, 6 días de disnea con habla entrecortada, SatO₂ 93%, FR 24 rpm, uso de musculatura accesoria, PEF/FEV1 66%. ¿Cómo clasifica la crisis asmática?
+   A) Casi fatal
+   B) Grave
+  *C) Moderada
+   D) Leve
+   E) Leve con riesgo de paro
+EXP: Paciente joven con asma persistente leve que presenta aumento progresivo de síntomas por seis días, evidenciando disnea con habla entrecortada, lo cual indica limitación del flujo aéreo sin comprometer la ventilación extrema. La saturación de oxígeno en 93% es un dato sugestivo de moderación, pues en crisis graves suele hallarse <90%. La frecuencia respiratoria de 24 rpm muestra taquipnea pero sin signos de fatiga marcada. El uso de musculatura accesoria refleja incremento del trabajo ventilatorio, elemento que complementa la interpretación clínica. El valor de PEF/FEV1 en 66% traduce obstrucción bronquial moderada. Fisiopatológicamente, la broncoconstricción mediada por inflamación eosinofílica se mantiene pero no alcanza el umbral de inminente falla. La crisis casi fatal exhibe hipercapnia o agotamiento. Por ello, corresponde crisis asmática moderada.
+
+### PSI-030 | Pseudociesis | 2025
+Mujer de 34 años con amenorrea de 24 semanas, náuseas, congestión mamaria y percepción de movimientos fetales. Ecografía: útero normal sin saco gestacional. β -hCG: 0.1 mUI/mL. ¿Diagnóstico más probable?
+   A) Embarazo ectópico
+   B) Gestación inicial
+   C) Aborto incompleto
+  *D) Pseudociesis
+   E) Mola hidatiforme
+EXP: Paciente mujer con amenorrea prolongada de 24 semanas, asociada a síntomas típicos de gestación como náuseas, congestión mamaria y percepción subjetiva de movimientos fetales. Sin embargo, la ecografía muestra un útero de tamaño normal sin saco gestacional ni embrión, hallazgo que descarta presencia real de embarazo intrauterino o ectópico. El valor de β -hCG en 0.1 mUI/mL confirma ausencia absoluta de actividad trofoblástica. Fisiopatológicamente, la pseudociesis se relaciona con alteraciones neuroendocrinas inducidas por factores psicológicos, generando síntomas somáticos reales. No corresponde a aborto incompleto, ya que este tendría restos concepcionales y β -hCG detectables. La gestación inicial se descarta por amenorrea prolongada. Por lo tanto, el cuadro es compatible con pseudociesis.
+
+### REU-040 | Carcinoma basocelular | 2025
+Varón de 75 años con lesión nodular de crecimiento lento en cara desde hace 1 año, con ulceración central reciente. Nódulo perlado con telangiectasias arborizantes. ¿Diagnóstico más probable?
+   A) Micosis fungoide
+   B) Melanoma
+  *C) Carcinoma basocelular
+   D) Lupus discoide
+   E) Queratosis seborreica
+EXP: Paciente adulto mayor con lesión nodular facial de crecimiento lento durante un año, patrón típico de tumor cutáneo de bajo grado. La presencia de ulceración central reciente, conocida como úlcus rodens, es característica del carcinoma basocelular. El nódulo perlado con telangiectasias arborizantes refleja proliferación neoplásica en la capa basal de la epidermis. Fisiopatológicamente, la exposición solar crónica induce mutaciones en p53 y vía hedgehog. El melanoma usualmente presenta cambios pigmentarios irregulares y agresividad. La micosis fungoide cursa con placas eccematosas. El lupus discoide muestra lesiones eritematodescamativas fotosensibles. Por su comportamiento indolente, localización y morfología, el diagnóstico más probable es carcinoma basocelular.
+
+### SP-107 | Salud ocupacional: eliminar la fuente de exposición | 2025
+Planta de alimentos con casos de irritación ocular, tos y disnea. Evaluación: niveles elevados de formaldehído, sin protección respiratoria y mala ventilación. ¿Medida prioritaria de salud ocupacional?
+   A) Solicitar equipos de protección respiratoria
+  *B) Eliminar o reducir la fuente de contaminación
+   C) Fortalecer la educación en higiene personal
+   D) Control médico anual a trabajadores
+   E) Rotación de turnos sin otras medidas
+EXP: Se reportan trabajadores con irritación ocular, tos y disnea, síntomas respiratorios y mucosos típicos de exposición aguda a formaldehído. Los niveles ambientales elevados acompañados de ausencia de protección respiratoria y detrimento en ventilación aumentan el riesgo toxicológico. Fisiopatológicamente, el formaldehído irrita epitelios respiratorios por mecanismo inflamatorio químico. La salud ocupacional enfatiza jerarquía de controles: primero eliminación o sustitución de la fuente, seguido de ingeniería, luego equipos de protección personal. Solicitar respiradores ayuda pero no elimina el agente. Educación en higiene personal no modifica concentración ambiental. Evaluaciones médicas anuales son reactivas, no preventivas. Por lo tanto, lo prioritario es eliminar o reducir la fuente contaminante.
+
+### SP-108 | Homeopatía | 2025
+¿Qué terapia se basa en el principio de similitud y utiliza sustancias altamente diluidas?
+   A) Naturopatía
+   B) Acupuntura
+  *C) Homeopatía
+   D) Ayurveda
+   E) Fitoterapia
+EXP: La pregunta describe una terapia basada en el principio de similitud, también conocido como “lo similar cura lo similar”, característica central de la homeopatía. Esta práctica utiliza sustancias derivadas de componentes naturales altamente diluidos, a menudo en proporciones extremas, bajo la premisa de estimular mecanismos curativos propios. Fisiopatológicamente, no existen evidencias de acción farmacodinámica por dilución más allá del número de Avogadro. La naturopatía emplea métodos naturales, la acupuntura regula flujos energéticos mediante agujas, y el Ayurveda es un sistema tradicional hindú. La clave diagnóstica radica en el concepto de similitud y dilución extrema propia de la homeopatía.
+
+### PED-143 | Convulsiones neonatales por asfixia: fenobarbital | 2022
+Recién nacido a término nacido por cesárea debido a bradicardia fetal. A las 2 horas de vida presenta movimientos tónico clónicos generalizados. ¿Cuál es el medicamento de elección?
+   A) Levetiracetam
+  *B) Fenobarbital
+   C) Difenilhidantoina
+   D) Midazolam
+   E) Diazepam rectal
+EXP: El recién nacido presenta convulsiones tónico-clónicas en las primeras horas de vida, lo cual sugiere una causa neurológica neonatal, posiblemente relacionada a hipoxia perinatal, dado su antecedente de bradicardia fetal. El tratamiento de elección en convulsiones neonatales es el fenobarbital, que es el anticonvulsivante más seguro y estudiado en esta etapa, con buena eficacia y tolerancia. Levetiracetam es una opción emergente pero aún no es el fármaco de primera línea en neonatos. La difenilhidantoína se reserva como segunda línea, si el fenobarbital falla. El midazolam puede usarse en estados convulsivos refractarios, pero no como elección inicial. Lo fundamental es actuar precozmente para evitar daño neurológico.
+
+### NEF-065 | Hiperplasia prostática: alfabloqueadores | 2022
+Varón de 76 años que, desde hace 1 año, presenta polaquiuria, disuria y urgencia vesical, hace dos meses vaciado incompleto de vejiga y goteo postmiccional. Al tacto: próstata aumentada de tamaño en forma difusa. PSA 5 ng/ml. ¿Cuál es el tratamiento inicial?
+   A) Agonistas de la GnRH
+   B) Resección transuretral de la próstata
+  *C) Bloqueadores alfa adrenérgicos
+   D) Vaporización de la próstata con láser
+   E) Prostatectomía radical
+EXP: Paciente adulto mayor con síntomas obstructivos urinarios crónicos progresivos, incluyendo polaquiuria, disuria, urgencia vesical y sensación de vaciado incompleto, que son característicos de una hiperplasia prostática benigna (HPB). Al tacto rectal se evidencia aumento de volumen prostático difuso y el PSA es de 5 ng/ml, lo cual no es sugestivo de malignidad, sino compatible con HPB. El tratamiento inicial recomendado para pacientes sintomáticos y sin complicaciones es el uso de bloqueadores alfa-adrenérgicos, como tamsulosina, que mejoran el flujo urinario relajando el músculo liso del cuello vesical. La resección transuretral de próstata se reserva para casos severos o refractarios. Los agonistas de GnRH se utilizan en cáncer de próstata. La vaporización prostática es otra opción quirúrgica, no de primera línea.
+
+### OFT-033 | Glaucoma agudo: acetazolamida | 2023
+Mujer de 60 años acude por emergencia, porque hace cuatro horas ha notado disminución de la visión y halos de colores alrededor de las luces, dolor ocular intenso, malestar general, cefalea frontal, náuseas y vómitos. Examen: hiperemia difusa, cámara anterior estrecha y la pupila en midriasis media no reactiva, palpación del ojo izquierdo más tensa de lo normal. ¿Cuál es la indicación inicial prioritaria?
+   A) Lágrimas artificiales
+   B) Ketorolaco 10 mg
+   C) Tobramicina colirio
+  *D) Acetazolamida 500 mg
+   E) Atropina en colirio
+EXP: El cuadro clínico de la paciente sugiere un glaucoma agudo de ángulo cerrado, una emergencia oftalmológica caracterizada por dolor ocular intenso, visión borrosa, náuseas, vómitos, cefalea y una pupila en midriasis media no reactiva. La hiperemia ocular y la tensión ocular aumentada (ojo tenso a la palpación) son hallazgos clave. La acetazolamida 500 mg IV es el tratamiento inicial prioritario, ya que actúa disminuyendo la producción de humor acuoso, lo que reduce la presión intraocular. El manejo debe incluir también agentes para reducir la presión ocular (como los beta-bloqueadores y prostaglandinas) y se puede necesitar una intervención quirúrgica si no responde al tratamiento inicial.
+
+### REU-041 | Impétigo localizado: mupirocina | 2023
+Varón de 16 años inicia con lesiones vesiculosas y costrosas de color miel en antebrazos y cuatro días más tarde, alrededor de la boca, sin afectación general; hermano menor con similares lesiones. Procede de un pueblo joven que no tiene servicios básicos, sin antecedentes de importancia. Examen: costras meliséricas escasas alrededor de la boca y antebrazos. ¿Cuál es el tratamiento más adecuado?
+   A) Vancomicina IV
+  *B) Mupirocina tópica
+   C) Clotrimazol tópico
+   D) Aciclovir VO
+   E) Fluconazol oral
+EXP: El paciente presenta un cuadro típico de impétigo: lesiones vesiculosas que evolucionan a costras color miel (meliséricas), altamente contagiosas, frecuente en zonas de hacinamiento y mala higiene. El tratamiento de elección para casos leves o localizados es mupirocina tópica, un antibiótico que combate principalmente Staphylococcus aureus y Streptococcus pyogenes. En casos extensos se usaría antibiótico sistémico.
+
+### NRL-041 | Hematoma epidural: intervalo lúcido | 2023
+Varón de 65 años que cayó por las escaleras es traído a la emergencia inmediatamente por sus familiares quienes refieren que hubo pérdida inicial de la conciencia, sensorio intermitente con lucidez y somnolencia. Examen: PA: 120/60 mmHg, FC: 90 X’, FR: 24 X’, cuero cabelludo en región parietal derecha con laceración, pupila fija y dilatada ipsilateral. Escala de Glasgow 10. ¿Cuál es el diagnóstico probable?
+   A) Lesión axonal difusa
+  *B) Hematoma epidural
+   C) Hematoma subdural
+   D) Hematoma cerebral
+   E) Contusión cerebral
+EXP: El cuadro clínico de pérdida inicial de conciencia, seguido de un período de lucidez y posterior deterioro neurológico progresivo, junto con pupila fija y dilatada ipsilateral, es característico del hematoma epidural. Este suele asociarse a trauma en región temporal o parietal con les ión de la arteria meníngea media. Es una emergencia neuroquirúrgica y requiere drenaje inmediato para evitar herniación cerebral.
+
+### CIR-086 | Colecistitis aguda litiásica | 2023
+Varón de 60 años acude a emergencia porque hace 20 horas presenta dolor en HCD, vómitos y sensación de alza térmica. Antecedente: litiasis vesicular. Examen: taquicárdico; abdomen: masa dolorosa subcostal derecha. ¿Cuál es el diagnóstico más probable?
+  *A) Colecistitis aguda
+   B) Úlcera duodenal perforada
+   C) Plastrón apendicular
+   D) Pancreatitis aguda
+   E) Hepatitis aguda viral
+EXP: El cuadro clínico descrito es característico de una colecistitis aguda (respuesta A), complicación común en pacientes con litiasis vesicular. El dolor en hipocondrio derecho, asociado a vómitos, fiebre y la presencia de una masa dolorosa en la región subcostal derecha (signo de vesícula palpable), sugiere inflamación vesicular severa. El antecedente de cálculos biliares refuerza el diagnóstico. La colecistitis aguda se produce típicamente por obstrucción del conducto cístico, generando inflamación e infección local, y requiere manejo médico y, generalmente, quirúrgico.
+
+### INF-077 | Mononucleosis infecciosa en el adolescente | 2023
+Paciente de 12 años, presenta hace 10 días odinofagia, fiebre 36°C y lesiones máculo papulares en tronco, cara y extremidades; niega prurito. Examen: faringe hiperémica, amígdalas hipertróficas exudativas, membranas, linfadenopatías de 2x3 cm a predominio de región cervical, MV presenta en ACP, hepatoesplenomegalia. ¿Cuál es el diagnóstico probable?
+   A) Faringitis estreptocócica
+   B) Escarlatina
+   C) Linfangitis
+  *D) Mononucleosis infecciosa
+   E) Rubéola
+EXP: El cuadro clínico de odinofagia, fiebre, linfadenopatías cervicales, exudado amigdalino, hepatoesplenomegalia y exantema máculopapular en un adolescente es altamente sugestivo de mononucleosis infecciosa (respuesta D), causada por el virus de Epstein-Barr. A diferencia de la faringitis estreptocócica, esta se acompaña frecuentemente de esplenomegalia y linfadenopatías generalizadas. El uso previo de antibióticos como ampicilina o amoxicilina en estos casos puede desencadenar rash, lo cual también apoya el diagnóstico.
+
+### TRA-031 | Fractura diafisaria de húmero: nervio radial | 2023
+Varón de 20 años, ingresa a emergencia por accidente de tránsito, con dolor en brazo derecho. Examen: estable y con deformación del tercio medio de brazo derecho con signo de “mano péndula”. Rx: fractura tercio medio de húmero derecho. ¿Qué nervio está comprometido?
+  *A) Radial
+   B) Mediano
+   C) Cubital
+   D) Circunflejo
+   E) Musculocutáneo
+EXP: La fractura del tercio medio del húmero se asocia frecuentemente con lesión del nervio radial, que recorre el surco espiral de esta región. La presencia del signo de “mano péndula” (incapacidad para extender la muñeca y los dedos) es característico de esta lesión neurológica. El nervio radial controla los músculos extensores del antebrazo, por lo que su afectación produce esta parálisis característica. Por tanto, el nervio comprometido en este caso es el radial.
+
+### NEF-066 | Torsión testicular | 2023
+Adolescente de 13 años que desde hace tres horas inicia dolor intenso y súbito en testículo derecho. Examen: aumento de volumen y posición alta de testículo derecho ¿Cuáles es el diagnostico probable?
+   A) Hematocele
+   B) Hidrocele
+  *C) Torsión testicular
+   D) Hernia inguinal incarcerada
+   E) Epididimitis aguda
+EXP: La torsión testicular es una emergencia urológica que se presenta con dolor testicular súbito, intenso y de rápida evolución. El signo clásico es un testículo en posición alta y horizontalizada, con aumento de volumen y reflejo cremastérico ausente. Ocurre típicamente en adolescentes y requiere intervención quirúrgica inmediata para evitar la necrosis testicular. La sospecha clínica basta para proceder a cirugía sin necesidad de esperar exámenes auxiliares.
+
+### REU-042 | Artritis reumatoide: anti-CCP | 2023
+Mujer de 24 años acude por presentar desde hace 3 meses, dolor, tumefacción y alteración funcional de las articulaciones en manos, muñecas y rodillas en forma simétrica asociado a rigidez matutina prolongada. ¿Qué examen solicitaría como marcador diagnóstico y pronóstico de enfermedad?
+   A) Ac anti-Smith
+   B) Anti DNA de doble cadena
+   C) Ac anticentrómero
+  *D) Ac anti-péptidos citrulinados
+   E) Factor reumatoide
+EXP: La paciente presenta síntomas típicos de artritis reumatoide: dolor articular simétrico, tumefacción, afectación de pequeñas y grandes articulaciones, y rigidez matutina prolongada. El anticuerpo anti-péptido cíclico citrulinado (anti-CCP) es el marcador diagnóstico y pronóstico más específico para artritis reumatoide, incluso más que el factor reumatoide. Su presencia está asociada a formas más agresivas y erosivas de la enfermedad.
+
+### PED-144 | Enfermedad de membrana hialina | 2023
+Neonato de 2 horas, nacido a las 32 semanas, presenta aleteo nasal, quejido, tiraje IC marcado. Antecedente: parto vaginal, ruptura de membrana dos horas antes de nacer; madre afebril. Rx: Tórax parénquima con patrón reticular fino, difuso y broncogramas aéreas. Examen: SatO₂: 88%; MV: disminuido en ACP, estertores finos. ¿Cuál es el diagnóstico?
+   A) Neumonía neonatal
+  *B) Enfermedad de membrana hialina
+   C) Taquipnea transitoria del RN
+   D) Neumomediastino
+   E) Síndrome de aspiración meconial
+EXP: El recién nacido presenta síntomas respiratorios a las 2 horas de vida, como aleteo nasal, quejido y tiraje intercostal marcado. Además, se observa una saturación de oxígeno baja (88%) y hallazgos radiológicos de patrón reticular fino y broncogramas aéreos. Estos signos son característicos de la enfermedad de membrana hialina (EMH), que es común en neonatos prematuros debido a la inmadurez de los pulmones y la deficiencia de surfactante.
+
+### GAS-054 | Colangitis aguda por coledocolitiasis | 2023
+Mujer de 32 años, multípara con antecedentes de ictericia intercurrente, desde hace dos días dolor tipo cólico en cuadrante superior derecho, náuseas y vómitos. Examen: T°: 39°C, ictericia. Ecografía: colédoco de 15 mm de diámetro. ¿Cuál es el diagnóstico más probable?
+   A) Apendicitis aguda
+  *B) Colangitis aguda
+   C) Pancreatitis aguda
+   D) Colecistitis aguda
+   E) Hepatitis viral aguda
+EXP: El diagnóstico más probable en este caso es colangitis aguda, una infección del tracto biliar que a menudo se presenta con síntomas de dolor abdominal en el cuadrante superior derecho, ictericia y fiebre (como en este caso, con 39°C). La ecografía muestra un colédoco dilatado (15 mm de diámetro), lo que sugiere la presencia de una obstrucción biliar, comúnmente debido a cálculos biliares o estenosis, lo que aumenta el riesgo de infección bacteriana. La colangitis aguda es una urgencia médica que requiere tratamiento inmediato, que generalmente incluye antibióticos y, en algunos casos, descompresión biliar mediante procedimientos como la colangiopancreatografía retrógrada endoscópica (CPRE).
+
+### REU-043 | Anafilaxia por picadura de abejas: adrenalina | 2023
+Joven de 20 años, es traído a la emergencia por sufrir de picaduras de abejas. Refiere sensación de cuerpo extraño, cefalea y disnea. Examen: PA 80/50 mmHg, FC 120 X', FR 22 X', cianosis, estridor, dificultad para respirar, se auscultan sibilantes en AHT. ¿Cuál es el tratamiento indicado?
+   A) Clorfeniramina
+  *B) Adrenalina
+   C) Hidrocortisona
+   D) Salbutamol
+   E) Ranitidina
+EXP: El paciente presenta un cuadro clínico severo de anafilaxia secundaria a picaduras múltiples de abejas. Los síntomas de hipotensión, disnea, cianosis, estridor y sibilantes indican compromiso multisistémico, incluyendo colapso cardiovascular y obstrucción de vía aérea. La anafilaxia es una reacción de hipersensibilidad tipo I mediada por IgE, que requiere intervención inmediata. La adrenalina (epinefrina) intramuscular es el tratamiento de elección y debe administrarse sin demora, pues revierte rápidamente la vasodilatación, broncoconstricción y edema laríngeo. Los otros medicamentos como antihistamínicos (clorfeniramina), corticosteroides (hidrocortisona) y broncodilatadores (salbutamol) tienen un rol coadyuvante, pero no reemplazan el uso urgente de adrenalina. La vía de administración intramuscular, preferiblemente en el músculo vasto lateral del muslo, asegura absorción rápida. El re
+
+### GIN-145 | Pielonefritis en la gestante: ceftriaxona | 2023
+Gestante de 28 semanas que acude por malestar general, dolor lumbar y SAT. Examen: T 39ºC, puño percusión lumbar derecho (+). ¿Cuál sería el antibiótico más adecuado?
+   A) Azitromicina
+  *B) Ceftriaxona
+   C) Doxiciclina
+   D) Nitrofurantoina
+   E) Clindamicina
+EXP: La paciente gestante de 28 semanas presenta fiebre elevada, dolor lumbar con puño-percusión positiva y síntomas generales, lo cual sugiere una pielonefritis aguda. Este cuadro es frecuente en el embarazo por la dilatación pieloureteral fisiológica y la mayor incidencia de bacteriuria. El tratamiento antibiótico debe ser eficaz contra E. coli (el germen más frecuente) y seguro en el embarazo. La ceftriaxona, una cefalosporina de tercera generación, es una opción de primera línea por su amplio espectro, buena penetración tisular y seguridad materno-fetal. La azitromicina es útil en infecciones respiratorias o de transmisión sexual, no urinarias. La doxiciclina está contraindicada en el embarazo por riesgo de afectación ósea y dental fetal. La nitrofurantoína es útil en cistitis no complicada, pero no se recomienda en pielonefritis ni en tercer trimestre por riesgo de anemia hemolítica neon
+
+### TRA-032 | Síndrome compartimental por aplastamiento | 2023
+Varón de 36 años, que sufre aplastamiento por caída de pared sobre los MMII, llega a la emergencia a las 2 horas del incidente presentando parestesias y dolor refractario a analgésicos. Examen: palidez, tumefacción muscular y pulso pedio ausente en miembro inferior izquierdo. ¿Cuál es el diagnóstico más probable?
+   A) Embolismo graso
+   B) Trombosis venosa
+   C) Radiculopatía traumática
+  *D) Síndrome compartimental
+   E) Rabdomiólisis aislada
+EXP: Este paciente sufrió un aplastamiento directo en miembros inferiores y llega con signos clínicos cardinales del síndrome compartimental agudo: dolor severo y refractario a analgésicos, parestesias, palidez, aumento del volumen muscular y ausencia de pulsos distales. Este cuadro se produce cuando aumenta la presión en un compartimento muscular cerrado, comprometiendo el flujo sanguíneo y la función neuromuscular. Es una urgencia quirúrgica que, de no ser tratada a tiempo mediante fasciotomía, puede llevar a necrosis muscular, insuficiencia renal por mioglobinuria o amputación. El embolismo graso se presenta más tardíamente con disnea, petequias y alteración neurológica. La trombosis venosa profunda causa edema y dolor, pero no pérdida de pulsos ni parestesias. La radiculopatía traumática causa dolor irradiado, no edema ni compromiso vascular. Por ello, el diagnóstico correcto es síndrome 
+
+### CB-054 | Intoxicación por benzodiacepinas: respuesta al flumazenilo | 2023
+Varón de 35 años que estando en una discoteca, es traído a la emergencia con alteración de la conciencia. Examen: PA 100/60 mmHg, FC 62 X', FR 16 X'; disartria, ataxia e hipotonía. Ante su sospecha diagnóstica, le administra flumazenilo, logrando despertar y comenta que "féminas le invitaron un trago". ¿Qué sustancia sospecha le administraron?
+   A) Risperidona
+  *B) Diazepam
+   C) Cocaína
+   D) Haloperidol
+   E) Etanol
+EXP: El trastorno de conciencia, disartria, ataxia e hipotonía son hallazgos que se pueden encontrar en una intoxicación por benzodiazepinas, dado su efecto sedante, hipnótico y ansiolítico. En raras ocasiones puede producir también depresión respiratoria y cardiovascular. Por tanto, la alternativa correcta es DIAZEPAM (Opción B). La administración de flumazenilo (un antagonista de las benzodiazepinas) es el antídoto y revierte los efectos de estas drogas.
+
+### PED-145 | Estenosis hipertrófica del píloro: ecografía | 2023
+Neonato masculino que a los 10 días presenta vómitos explosivos después de la lactancia. Examen: se palpa masa en epigastrio. ¿Cuál es el estudio pertinente a solicitar?
+   A) Endoscopia digestiva alta
+   B) RM con contraste
+   C) Rx de abdomen simple
+  *D) Ecografía abdominal
+   E) Tránsito intestinal baritado
+EXP: Dadas las características clínicas presentadas por el neonato, con vómitos explosivos después de la lactancia y una masa palpable en el epigastrio, uno de los diagnósticos más probables en este contexto es la estenosis hipertrófica del píloro (EHP). La EHP es una condición en la cual el músculo del píloro, la válvula muscular que controla el flujo de alimentos desde el estómago hacia el intestino delgado, se engrosa de manera anormal, dificultando o impidiendo el vaciamiento gástrico. Esto puede provocar vómitos proyectiles después de las alimentaciones, que pueden ser explosivos y frecuentemente ocurren después de la lactancia. El examen físico revela una masa palpable en el epigastrio, correspondiente al píloro engrosado. Además, es posible que el neonato presente deshidratación y pérdida de peso debido a los vómitos repetidos. El examen diagnóstico de elección en estos casos es la Eco

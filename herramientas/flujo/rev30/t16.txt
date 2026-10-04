@@ -1,0 +1,224 @@
+### SP-148 | Proceso administrativo: previsión | 2023
+El director de un hospital reúne a su equipo de gestión para evaluar su demanda real y potencial; para proyectar su oferta optimizada de servicios en base a una demanda proyectada; programar sus metas de gestión del próximo año y asignar racionalmente los recursos necesarios para alcanzarlos. ¿Qué etapa del proceso administrativo está realizando?
+   A) Coordinación
+   B) Evaluación
+  *C) Previsión
+   D) Dirección
+   E) Ejecución
+EXP: El director del hospital está realizando la etapa de previsión dentro del proceso administrativo. La previsión implica la planificación anticipada de recursos y acciones en base a la evaluación de la demanda real y potencial, así como la proyección de metas y necesidades para el futuro. En este caso, está evaluando la demanda de servicios, proyectando la oferta optimizada y asignando recursos para alcanzar las metas de gestión del próximo año. Este proceso de anticipación es esencial para la toma de decisiones informadas y la planificación efectiva de los recursos y actividades del hospital. Las otras etapas, como coordinación, evaluación y dirección, son posteriores en el proceso administrativo.
+
+### GIN-197 | Vaginosis bacteriana: metronidazol | 2023
+Mujer de 25 años, acude por flujo vaginal persistente. Refiere haber tenido cuatro parejas sexuales este año y es usuaria del método del ritmo. Examen: flujo vaginal grisáceo, abundante y con mal olor, mucosa vaginal y cérvix sin cambios inflamatorios. Test de aminas positivo. ¿Cuál es el tratamiento de elección?
+   A) Fluconazol 150 mg dosis única
+   B) Clotrimazol 500 mg óvulo en monodosis
+   C) Clindamicina 300 mg VO cada 12 horas por 3 días
+  *D) Metronidazol 500 mg VO cada 12 horas por 7 días
+   E) Ceftriaxona 500 mg IM dosis única
+EXP: La paciente presenta vaginosis bacteriana, caracterizada por flujo vaginal grisáceo, maloliente y sin signos inflamatorios en la mucosa vaginal ni cervical. El test de aminas positivo (olor a pescado al añadir KOH) confirma el diagnóstico. El tratamiento de elección es metronidazol 500 mg VO cada 12 horas por 7 días, que es altamente efectivo contra Gardnerella vaginalis, el principal agente implicado. Los antifúngicos como fluconazol o clotrimazol no son útiles, ya que no se trata de una candidiasis. Clindamicina es alternativa, pero metronidazol continúa siendo la primera línea según guías actuales.
+
+### SP-149 | Atención primaria: promoción y prevención | 2023
+Experiencias exitosas en Atención Primaria de Salud (APS) han demostrado que para mejorar la salud y la equidad no basta con limitarse a aumentar el número de centros de salud y a capacitar al personal durante períodos breves. Por el contrario, se necesitan enfoques amplios que abarquen todo el sistema. La reorientación de los sistemas de salud hacia la APS exige hacer mayor énfasis en ______ de salud y la ______ de la enfermedad.
+   A) Coordinación/resolución
+   B) Acceso/protección
+  *C) Promoción/prevención
+   D) Protección/prevención
+   E) Tecnología/especialización
+EXP: La Atención Primaria de Salud (APS) busca mejorar la salud desde un enfoque integral y equitativo. Las experiencias exitosas han demostrado que no basta con infraestructura y capacitación puntual; se requiere una transformación del sistema con énfasis en la promoción de la salud y la prevención de la enfermedad, pilares fundamentales de la APS. Estos componentes fortalecen la capacidad del sistema para anticiparse a los problemas de salud, reducir desigualdades y empoderar a la comunidad. Esta visión va más allá del enfoque curativo y busca impactar en los determinantes sociales de la salud.
+
+### REU-058 | Sarna noruega en el paciente con HTLV-1 | 2023
+Varón de 38 años procedente de Ayacucho, desde hace dos años presenta lesiones hiperqueratósicas y escamo costrosas diseminadas en tórax y abdomen, poco pruriginosas, con presencia de surcos acarinos. Antecedente de infección por HTVL 1-2. ¿Cuál es el diagnóstico más probable?
+   A) Psoriasis vulgar
+   B) Síndrome de Sweet
+   C) Ictiosis adquirida
+  *D) Sarna noruega
+   E) Dermatitis atópica
+EXP: El paciente presenta un cuadro clínico compatible con sarna noruega (o sarna costrosa), caracterizada por lesiones hiperqueratósicas, escamo-costrosas, poco pruriginosas y extensas, con presencia de surcos acarinos. Esta forma grave de escabiosis ocurre en pacientes inmunocomprometidos, como en este caso con antecedente de infección por HTLV-1/2. A diferencia de la sarna clásica, la sarna noruega se manifiesta con una gran carga parasitaria y escaso prurito, y es altamente contagiosa. Las otras opciones como psoriasis, síndrome de Sweet o ictiosis no explican la presencia de ácaros ni el patrón clínico e inmunológico del caso.
+
+### NRL-052 | Hematoma epidural con herniación: tomografía | 2023
+Varón de 16 años, es golpeado en el hemicráneo derecho con ladrillo. Lucido durante dos horas hasta que repentinamente entra en estupor. Examen: 170/110 mmHg, FC: 40 X’, paresia hemicuerpo izquierdo, anisocoria por midriasis derecha. Fondo de ojo: edema de papila. ¿Cuál es la ayuda diagnóstica a solicitar?
+  *A) TEM cerebral
+   B) Doppler transcraneal
+   C) Potenciales evocados
+   D) EEG
+   E) Radiografía de cráneo
+EXP: Paciente adolescente con antecedente de traumatismo contuso en cráneo que presenta un intervalo lúcido seguido de deterioro neurológico brusco, cuadro clásico de hematoma epidural. La progresión a estupor, junto con anisocoria ipsilateral y hemiparesia contralateral, indica síndrome de herniación uncal. La bradicardia e hipertensión reflejan la tríada de Cushing, signo de hipertensión intracraneal grave. El edema de papila confirma esta sospecha. En este contexto, el examen más útil y urgente es la tomografía cerebral sin contraste, para confirmar el hematoma y descartar otras lesiones como contusión, hemorragia subdural o edema cerebral.
+
+### NEU-055 | Neumonía con hipotensión: hospitalizar | 2023
+Varón de 66 años desde hace dos días presenta tos con expectoración purulenta, fiebre y disnea. Examen: 85/55 mmHg, FR: 32 X’, FC: 108 X’; matidez, soplo tubárico, egofonía. ¿Cuál es la conducta a seguir?
+   A) TEM de tórax
+   B) Manejo ambulatorio
+  *C) Hospitalización
+   D) Procalcitonina
+   E) Alta con amoxicilina oral
+EXP: El paciente presenta signos clínicos de neumonía, con síntomas como tos, fiebre, expectoración purulenta, disnea, y hallazgos físicos como matidez, soplo tubárico y egofonía, que sugieren consolidación pulmonar. Además, presenta hipotensión y taquicardia, lo que indica posible sepsis. Por lo tanto, la conducta adecuada es hospitalizar al paciente para manejo de la infección y vigilancia hemodinámica.
+
+### NEU-056 | COVID-19 con trabajo respiratorio: criterio clínico de referencia | 2023
+Varón de 40 años, acude a centro de salud, porque desde hace siete días, es diagnosticado de infección por SARS CoV-2, evoluciona con disnea y taquipnea; TEM tórax; componente alveolo intersticial de 30% de extensión, asimismo oxigenoterapia en domicilio con requerimiento progresivo de FIO2. EXAMEN: PA: 150/71 mmHg, FC: 110 X’, FR: 28X’, SatO₂: 92%. Evidencia uso de músculos accesorios y ansiedad. ¿Qué criterio utilizaría para la referencia?
+   A) Saturación de O2
+  *B) Clínico
+   C) Tiempo de enfermedad
+   D) Tomográfico
+   E) Edad
+EXP: En este caso, el paciente con infección por SARS-CoV- 2 presenta signos de insuficiencia respiratoria, como disnea, taquipnea y el uso de músculos accesorios, lo que indica un deterioro en su estado clínico. El criterio principal para la referencia sería el criterio clínico, ya que la evolución de la enfermedad con la necesidad creciente de oxígeno y el uso de signos de dificultad respiratoria sugieren un riesgo inminente de descompensación.
+
+### CB-074 | Intoxicación por monóxido de carbono: oxígeno al 100% | 2023
+Niño de 5 años sufre intoxicación por monóxido de carbono (CO) por inhalación de humo. ¿Cuál es el tratamiento inicial?
+   A) Oxígeno al 50%
+  *B) Oxígeno al 100%
+   C) Oxígeno hiperbárico
+   D) Tiosulfato de sodio
+   E) Azul de metileno
+EXP: El tratamiento inicial para la intoxicación por monóxido de carbono (CO) es la administración de oxígeno al 100%, lo que ayuda a acelerar la eliminación del CO del cuerpo y a restaurar la oxigenación adecuada de los tejidos. La oxigenoterapia al 100% se debe administrar de inmediato, ya que el CO se une a la hemoglobina con mayor afinidad que el oxígeno, y esta intervención permite desplazar el CO de la hemoglobina y aumentar el suministro de oxígeno a los órganos vitales.
+
+### END-059 | Cetoacidosis diabética con hipotensión: no usar la vía oral | 2023
+Varón de 28 años, ingresa a UCI con diagnóstico de debut de diabetes mellitus en cetoacidosis diabética. Examen: PA: 80/60 mmHg, FC: 130 X’, SatO₂: 96%, Glasgow 15. ¿Cuál es la medida que NO se debe realizar?
+   A) Insulinoterapia endovenosa para optimizar el medio interno
+   B) Fluidoterapia endovenosa para disminuir la taquicardia sinusal
+   C) Oxigenoterapia para disminuir la frecuencia respiratoria
+  *D) Ingesta de líquido vía oral
+   E) Monitorizar el potasio sérico
+EXP: En este caso de cetoacidosis diabética, la medida que NO se debe realizar es la ingesta de líquido vía oral, ya que el paciente se encuentra en un estado de shock con una presión arterial baja (PA: 80/60 mmHg), lo que indica una condición crítica. La rehidratación debe ser endovenosa para asegurar una corrección adecuada de la volemia y el equilibrio electrolítico. Además, la ingestión de líquidos por vía oral puede no ser efectiva ni segura en un paciente con deterioro hemodinámico y riesgo de aspiración. Las demás medidas (insulinoterapia, fluidoterapia endovenosa y oxigenoterapia) son fundamentales para el manejo adecuado de la cetoacidosis diabética.
+
+### HEM-038 | Anemia hemolítica autoinmune: test de Coombs | 2023
+Mujer de 25 años, con astenia progresiva y disnea a moderados esfuerzos desde hace seis meses. Examen: palidez de piel y mucosas, ictericia conjuntival; bazo a 5 cm DRCI. Laboratorio: Hb: 8 g/dl, Hto: 24%, reticulocitos: 11%, leucocitos: 9500/mm3, bilirrubina directa: 0.2 mg/dl, bilirrubina indirecta: 2.9 mg/dl, haptoglobina indetectable. FSP: no se observan esquistocitos. ¿Qué examen confirma el tipo de anemia?
+  *A) Test de Coombs
+   B) Punción y biopsia de médula ósea
+   C) Constantes corpusculares
+   D) Test de autohemólisis
+   E) Electroforesis de hemoglobina
+EXP: El cuadro clínico sugiere una anemia hemolítica (palidez, ictericia, reticulocitosis, hiperbilirrubinemia indirecta, haptoglobina baja). La ausencia de esquistocitos orienta hacia hemólisis extravascular. El Test de Coombs directo confirma una anemia hemolítica autoinmune al detectar anticuerpos o complemento adheridos a los eritrocitos.
+
+### GIN-198 | Mastitis puerperal: continuar la lactancia | 2023
+Puérpera mediata de parto vaginal, acude por presentar fiebre y dolor en mama izquierda. Examen: mama izquierda congestiva, indurada y eritematosa, caliente a la palpación, no se palpan tumoración. El manejo en esta paciente es iniciar antibioticoterapia y ______
+   A) Suspender definitivamente la lactancia
+   B) Continuar lactancia sólo con mama no infectada
+  *C) Continuar con lactancia materna
+   D) Suspender lactancia hasta terminar antibióticos
+   E) Drenar la mama inmediatamente
+EXP: El cuadro clínico descrito corresponde a una mastitis puerperal, generalmente causada por Staphylococcus aureus. El manejo incluye iniciar antibióticos (como dicloxacilina o cefalexina) y, muy importante, continuar la lactancia materna, ya que ayuda a drenar la leche acumulada y reduce el riesgo de abscesos. Suspender la lactancia puede empeorar el cuadro al favorecer la estasis láctea. La extracción frecuente, ya sea mediante lactancia directa o con bomba, es parte esencial del tratamiento.
+
+### PED-193 | Giardiasis en el preescolar | 2023
+Niño de 4 años, presenta hace 15 días, dolor abdominal postprandial con distensión abdominal y deposiciones líquidas, claras, sin sangre. Niega fiebre, niega pérdida de apetito. Examen: P/T: -2DS, abdomen distendido, doloroso a la palpación profunda a predominio de mesogastrio, RHA aumentados. ¿Cuál es el diagnostico probable?
+   A) Salmonelosis
+   B) Amebiasis
+  *C) Giardiasis
+   D) Shigellosis
+   E) Rotavirus
+EXP: El cuadro es sugestivo de giardiasis, infección parasitaria causada por Giardia lamblia. Se caracteriza por dolor abdominal postprandial, distensión, diarrea acuosa sin sangre ni fiebre, y afectación del estado nutricional (P/T: -2DS indica desnutrición moderada). El antecedente de evolución subaguda (15 días) y los ruidos hidroaéreos aumentados apoyan el diagnóstico.
+
+### SP-150 | Funciones esenciales de salud pública: promoción de la salud | 2023
+¿Cuál es función esencial de la salud pública renovada que está relacionada con la Atención Primaria de Salud?
+   A) Monitoreo y evaluación
+   B) Financiamiento de la salud
+  *C) Promoción de la salud
+   D) Desarrollo de los recursos humanos para la salud
+   E) Atención hospitalaria especializada
+EXP: La función esencial de la salud pública renovada que se relaciona directamente con la Atención Primaria de Salud (APS) es la promoción de la salud. Esta función busca fortalecer las capacidades individuales y colectivas para mejorar la salud, abordando los determinantes sociales y promoviendo estilos de vida saludables. La APS se basa en principios de equidad, participación comunitaria, y acción intersectorial, siendo la promoción de la salud un componente transversal que impulsa la prevención y mejora continua del bienestar. Por tanto, esta función es clave para empoderar a la población y construir sistemas de salud más resilientes y sostenibles.
+
+### SP-151 | Casos y controles: sesgo de selección | 2023
+Con respecto a la selección del tipo de estudio a realizar, la siguiente es una desventaja de los estudios de casos y controles:
+  *A) Mayor riesgo de sesgo de selección
+   B) No permite identificar múltiples factores de riesgo
+   C) Ineficiente para el estudio de enfermedades crónicas
+   D) Ineficiente para el estudio de enfermedades raras
+   E) No permite calcular el odds ratio
+EXP: Los estudios de casos y controles son estudios retrospectivos que comparan a personas con una enfermedad (casos) con aquellas que no la tienen (controles), para identificar factores de riesgo asociados. Una de las principales desventajas de este tipo de estudio es el riesgo de sesgo de selección, ya que los controles seleccionados deben ser representativos de la población general de donde provienen los casos, y esto puede ser difícil de lograr. Si la selección de los controles no es adecuada, se puede introducir un sesgo que afecte la validez de los resultados.
+
+### NEF-080 | Hiperpotasemia con bradiarritmia: corregir el potasio | 2023
+Varón de 55 años, antecedentes de hipertensión arterial, insuficiencia renal crónica leve e hipertrofia benigna prostática; cursa con infección urinaria y falla renal aguda con tendencia a oliguria. Laboratorio: creatinina 4mg/dl, AGA: pH: 7,28, HCO3: 12 mEq/l, PCO2: 28 mmHg, PO2: 70 mmHg, K: 8 mEq/l. Rx tórax: sin congestión pulmonar, EKG: bradiarritmia con intermitencias de bloque de 2do grado. ¿Cuál es la prioridad terapéutica?
+   A) Corregir la acidosis metabólica
+   B) Incrementar el flujo urinario
+   C) Uso de marcapaso transitorio
+  *D) Corregir la hiperkalemia
+   E) Iniciar antibiótico de amplio espectro
+EXP: La prioridad terapéutica en este paciente es corregir la hiperkalemia (opción D), ya que los niveles elevados de potasio pueden causar arritmias cardíacas graves. La hiperkalemia debe tratarse de inmediato con medidas como calcio intravenoso, bicarbonato sódico y glucosa con insulina. Aun que la acidosis metabólica y otras intervenciones son importantes, la corrección de la hiperkalemia es crucial para evitar complicaciones mortales.
+
+### GIN-199 | Aborto inminente | 2023
+Primigesta de 8 semanas, acude por sangrado vaginal y dolor pélvico. Examen: abdomen doloroso a la palpación en hipogastrio. Especuloscopía: sangrado vaginal moderado, cérvix abierto con membranas integras que protruyen al canal vaginal. Ecografía transvaginal: embrión de 8 semanas con LF presentes. ¿Cuál es el diagnostico más probable?
+   A) Aborto completo
+   B) Aborto retenido
+   C) Amenaza de aborto
+  *D) Aborto inminente
+   E) Aborto incompleto
+EXP: El diagnóstico más probable es aborto inminente (opción D). Este se caracteriza clínicamente por la presencia de sangrado vaginal y dolor pélvico, acompañado de dilatación del cuello uterino y protrusión de las membranas, como se observa en la paciente. A diferencia de una amenaza de aborto, en el aborto inminente ya hay modificaciones cervicales importantes, lo cual indica que el proceso abortivo ha comenzado y es muy probable que progrese a la expulsión del embrión. La vitalidad embrionaria aún presente no excluye el diagnóstico si hay cérvix dilatado y membranas protruyentes.
+
+### NEU-057 | Infección tuberculosa latente en la gestante | 2023
+Gestante de 33 semanas de PPD positivo sin manifestación de enfermedad activa. ¿Cuál es el manejo más adecuado?
+   A) Iniciar tratamiento con isoniacida, pirazinamida, etambutol
+   B) Iniciar tratamiento con isoniacida y etambutol
+  *C) Iniciar tratamiento a los tres meses postparto
+   D) Aislar a la paciente para que no contagie
+   E) Iniciar los cuatro fármacos de primera línea de inmediato
+EXP: Una gestante con prueba de PPD positiva, pero sin signos clínicos ni radiológicos de tuberculosis activa se considera con infección latente. En estos casos, el tratamiento con isoniacida puede diferirse hasta 3 meses después del parto, especialmente si no hay factores de riesgo que justifiquen un tratamiento inmediato. Esto minimiza riesgos fetales sin comprometer la salud materna. No se requiere aislamiento, ya que la paciente no es contagiosa al no tener enfermedad activa.
+
+### INF-096 | Ascariasis: fase pulmonar con eosinofilia | 2023
+Niño de 8 años con procesos diarreicos y distensión abdominal con dolor que se autolimita. Hace 3 semanas tos con secreciones y es traído por esputo con rasgos de sangre. Niega fiebre e hiporexia. Examen: FC: 90 X’, FR: 22X’, pálido no adenopatía, MV presente en ACP, escasos roncantes; abdomen blando y depresible. Laboratorio: leucocitos: 15000/mm3, segmentados: 60%, abastonados: 0%, eosinófilos: 10%, Hb: 10.8 g/dl, PCR: 0.5 mg/dl. ¿Cuál es el agente probable?
+   A) Giardia lamblia
+   B) Enterobius vermicularis
+  *C) Ascaris lumbricoides
+   D) Tricocephalo dispar
+   E) Strongyloides stercoralis
+EXP: El cuadro clínico sugiere una parasitosis por Ascaris lumbricoides, caracterizada por síntomas gastrointestinales intermitentes (diarrea, distensión abdominal) y, en la fase de migración larvaria, manifestaciones pulmonares como tos con expectoración hemoptoica. El hallazgo de eosinofilia marcada (10%) refuerza el diagnó stico, ya que es típico de infecciones parasitarias, especialmente las que implican migración tisular. Además, la PCR normal descarta un proceso bacteriano agudo. Por tanto, Ascaris lumbricoides es el agente etiológico más probable.
+
+### OFT-046 | Rinitis alérgica: prueba cutánea | 2023
+Varón de 14 años que consulta por disnea que desde hace 10 días presenta secreción nasal incolora, prurito nasal y ocular. Examen: mucosa nasal eritematosa, edema bilateral y secreción incolora. ¿Cuál es el estudio inicial para confirmar el diagnóstico?
+  *A) Test epicutáneo
+   B) Citograma nasal
+   C) Dosaje de IgM en sangre
+   D) Recuento de eosinófilos en sangre
+   E) Tomografía de senos paranasales
+EXP: El test epicutáneo o prick test es la prueba inicial más útil para confirmar el diagnóstico de rinitis alérgica, que es sugerido clínicamente por la presencia de secreción nasal clara, prurito ocular y nasal, y antecedentes compatibles. Esta prueba permite identificar sensibilización a alérgenos específicos, guiando el manejo y las medidas de evitación. Aunque el citograma nasal o el recuento de eosinófilos pueden apoyar, el test epicutáneo es más específico y orientador.
+
+### GIN-200 | Pareja con mujer mayor de 35 años: estudiar a los 6 meses | 2023
+Varón de 40 años y mujer de 38 años acuden a consulta porque desde hace 6 meses están buscando tener familia y no lo logran, sin antecedentes de importancia. ¿Cuál sería la recomendación?
+  *A) Iniciar estudio de infertilidad
+   B) Esperar 6 meses para iniciar estudio
+   C) Fertilización in vitro
+   D) Coitos dirigidos con temperatura basal
+   E) Inseminación artificial inmediata
+EXP: En parejas que han intentado concebir durante más de un año sin éxito, se recomienda comenzar con estudios de infertilidad, ya que después de este tiempo sin lograr el embarazo, pueden existir causas subyacentes que necesiten ser evaluadas. Sin embargo, en este caso, dado que la pareja ha estado buscando embarazo durante 6 meses, sería apropiado considerar el inicio de los estudios para infertilidad, especialmente si la mujer tiene más de 35 años o si hay factores de riesgo conocidos.
+
+### PSI-038 | Trastorno límite de la personalidad | 2023
+Mujer de 34 años, en su tercer matrimonio, discute constantemente con su esposo; luego se provoca cortes en los brazos y acude a emergencia para que la suturen. Amenaza con suicidarse y pelea permanentemente con sus vecinos. Consume marihuana ocasionalmente y tiene miedo de que su actual esposo la abandone. ¿Cuál es el diagnóstico más probable?
+   A) Fase maníaca de un trastorno afectivo bipolar
+   B) Trastorno de ansiedad generalizada
+   C) Trastorno de personalidad esquizotípico
+  *D) Trastorno de personalidad limite
+   E) Trastorno obsesivo-compulsivo
+EXP: El trastorno de personalidad límite (TPL) se caracteriza por un patrón generalizado de inestabilidad en: • Relaciones interpersonales • Autoimagen • Afectividad Además, se asocia a una marcada impulsividad. Síntomas frecuentes: • Inestabilidad emocional (cambios rápidos del estado de ánimo) • Comportamiento impulsivo (cortes, amenazas de suicidio) • Dificultad para mantener relaciones estables (peleas frecuentes, temor al abandono) • Sentimientos crónicos de vacío y problemas de regulación emocional En este caso, la paciente presenta cortes en los brazos, amenazas de suicidio, miedo al abandono y conflictos interpersonales constantes, lo que orienta al diagnóstico de TPL.
+
+### GIN-201 | Anti-D profiláctica a las 28 semanas | 2023
+Mujer de 25 años G1 P0, Rh negativo con Test de Coombs indirecto negativo; actualmente en su semana 13 de gestación. ¿En qué momento indicaría gammaglobulina anti-D-profiláctica?
+  *A) Semana 28 de gestación
+   B) Previo a la siguiente gestación
+   C) Dos semanas posteriores al parto
+   D) Semana 14 de gestación
+   E) Inmediatamente
+EXP: Paciente gestante Rh negativo con Coombs indirecto negativo debe recibir gammaglobulina anti-D de forma profiláctica para evitar la isoinmunización; se administra rutinariamente en la semana 28 de gestación y dentro de las 72 horas postparto si el recién nacido es Rh positivo.
+
+### CIR-106 | Obstrucción intestinal por bridas: radiografía de pie | 2023
+Mujer de 35 años con antecedente de cesárea hace tres años, presenta desde hace dos días en forma progresiva dolor, distensión abdominal, vómitos y constipación. ¿Qué examen inicial solicitaría para confirmar el diagnóstico?
+   A) TEM abdominal con contraste
+   B) Laparoscopia diagnostica
+  *C) Rx simple de abdomen de pie
+   D) Ecografía abdominal
+   E) Endoscopía digestiva alta
+EXP: Paciente con antecedente de cesárea (cirugía abdominal previa) presenta clínica típica de obstrucción intestinal: dolor abdominal progresivo, distensión, vómitos y constipación. En este contexto, la causa más frecuente es una brida o adherencia postoperatoria. El examen inicial de elección es la radiografía simple de abdomen en posición de pie, ya que permite visualizar niveles hidroaéreos, asas intestinales dilatadas y ausencia de aire distal, lo que orienta al diagnóstico sin necesidad de métodos invasivos en la primera etapa del estudio. La tomografía o laparoscopía quedan como estudios complementarios según la evolución.
+
+### NEU-058 | EPOC con neumonía e hipoxemia: oxigenoterapia controlada | 2023
+Varón de 60 años con antecedentes de EPOC, presenta neumonía adquirida en la comunidad que requiere hospitalización. Examen: 120/70 mmHg, FC: 90X’, FR:25 X’, SatO₂: 86%, Glasgow 15. AGA: acidosis respiratoria leve más hipoxemia. ¿Cuál es la conducta inmediata a seguir?
+  *A) Oxigenoterapia
+   B) Solo observación
+   C) Corticoterapia
+   D) Solo antibióticos
+   E) Ventilación mecánica invasiva inmediata
+EXP: Paciente con EPOC que presenta neumonía adquirida en la comunidad y datos clínicos de dificultad respiratoria (FR aumentada, SatO₂ 86%) acompañado de acidosis respiratoria leve con hipoxemia en la gasometría arterial. En este escenario, la oxigenoterapia es la primera medida a tomar para corregir la hipoxemia y estabilizar al paciente. Es importante iniciar con bajo flujo para evitar la hipercapnia por depresión del estímulo respiratorio en pacientes con EPOC. El tratamiento antibiótico es indispensable, pero la oxigenoterapia es la prioridad inmediata en este caso.
+
+### NEU-059 | Oxigenoterapia domiciliaria en la EPOC | 2023
+Varón de 66 años, fumador pesado, con diagnóstico de EPOC, neumólogo le indico oxigeno domiciliario y paciente no lo quiere usar, pero sigue tratamiento con broncodilatadores inhalados con buena adherencia. Acude a consulta refiriendo mayor disnea a pequeños esfuerzos. Presenta: SatO₂: 85%, respirando aire ambiente y Hto: 49%. Respecto a la oxigenoterapia domiciliaria. ¿Cuál es la actitud correcta?
+   A) Solo debe usarlo cuando hay descompensaciones
+   B) Debe usar altas dosis de oxígeno en forma intermitente
+  *C) Usarlo permanentemente para aumentar la supervivencia
+   D) No debe administrarse por el Hto está alto
+   E) Suspender los broncodilatadores
+EXP: En pacientes con EPOC que presentan hipoxemia crónica (SatO₂ ≤ 88% en reposo) y signos de hipoxemia crónica compensada como policitemia (Hto > 55% en hombres o > 47% en mujeres), la oxigenoterapia domiciliaria prolongada ha demostrado mejorar la supervivencia, la tolerancia al ejercicio, la función cognitiva y la calidad de vida. En este caso, el paciente tiene SatO₂ de 85% y Hto elevado, lo que indica hipoxemia crónica; por lo tanto, la conducta adecuada es indicar el uso permanente de oxígeno domiciliario, al menos 15 horas al día, preferiblemente 24 horas.

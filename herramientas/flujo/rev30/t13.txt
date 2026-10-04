@@ -1,0 +1,224 @@
+### PED-182 | Gastroenteritis aguda en el lactante: rotavirus | 2022
+Lactante de 6 meses, presenta desde hace 8 horas 6 episodios de deposiciones líquidas y 2 vómitos, el último hace 1 hora, recibe lactancia materna exclusiva. Al examen: peso 7 kg (peso previo 8.1 kg), irritable, labios secos, tono ocular disminuido, no signo del pliegue, afebril, abdomen globuloso, blando con ruidos hidroaéreos aumentados. ¿Qué agente etiológico es el más probable?
+   A) Giardia lamblia
+   B) Campylobacter
+  *C) Rotavirus
+   D) Shigella
+   E) Escherichia coli enterohemorrágica
+EXP: Lactante menor con cuadro agudo de diarrea y vómitos, deshidratación moderada evidenciada por signos clínicos (bajada de peso, ojos hundidos, mucosas secas) y ausencia de fiebre. El antecedente de lactancia materna exclusiva no excluye infecciones virales. En esta edad, el Rotavirus es la causa más frecuente de gastroenteritis aguda, especialmente en menores de 2 años, y cursa típicamente con diarrea acuosa abundante, vómitos y a veces fiebre. Giardiasis se asocia a cuadros crónicos. Shigella y Campylobacter suelen cursar con fiebre y disentería. La presentación sugiere una etiología viral.
+
+### GAS-064 | Criterios de Ranson | 2022
+Varón de 60 años, alcohólico crónico con dolor abdominal en faja desde hace 24 horas. Laboratorio: amilasa y lipasa elevadas, leucocitos: 11 000/mm³, AST 100 mg/dl, bilirrubina total 2 mg/dL. Según los criterios de Ranson. ¿Qué indicador se relaciona con mayor mortalidad?
+   A) Leucocitosis
+  *B) Edad
+   C) Bilirrubina total
+   D) AST
+   E) Lipasa
+EXP: Los criterios de Ranson al ingreso (pancreatitis no biliar) son: edad >55 años, leucocitos >16 000/mm³, glucosa >200 mg/dL, LDH >350 UI/L y AST >250 UI/L. En este paciente solo se cumple la edad (60 años): los leucocitos (11 000) y la AST (100) no alcanzan el punto de corte, y la bilirrubina no forma parte de la escala. Cada criterio suma un punto y la mortalidad aumenta con el total.
+
+### SP-136 | Esterilización en incapacidad mental: autorización judicial | 2022
+Mujer en edad reproductiva, que presenta alteración mental severa. Por su condición, los familiares solicitan una ligadura de trompas. ¿Cuál requisito debe cumplirse para acceder a esta solicitud?
+   A) Una junta médica multidisciplinaria
+  *B) Evaluación psiquiátrica más autorización judicial
+   C) Bastaría con solicitud de los familiares directos
+   D) Evaluación previa del psiquiatra
+   E) Solo la firma de la propia paciente
+EXP: En el contexto de una mujer en edad fértil con alteración mental severa, la decisión de realizar un procedimiento de esterilización quirúrgica (como la ligadura de trompas) no puede tomarse únicamente por voluntad de terceros. En estos casos, la legislación peruana y los principios de bioética médica exigen una evaluación psiquiátrica que determine incapacidad para tomar decisiones y, además, autorización judicial que garantice que la decisión no vulnera derechos fundamentales como la autonomía y la dignidad humana. No basta la solicitud de familiares ni una simple junta médica, porque ello podría constituir una forma de esterilización forzada.
+
+### CIR-101 | Trauma pancreático en el niño: hipocalcemia | 2022
+Niño de 12 años de edad, dolor abdominal agudo, palidez y náuseas. Antecedente de haber recibido un golpe al estar jugando baloncesto hace 3 días. Laboratorio: Leucocitos 18,000/mm³, Hb 10 g/dl, Ca 6 g/dl. ¿Qué órgano sospecha ha sido lesionado?
+   A) Bazo
+   B) Hígado
+   C) Intestino
+  *D) Páncreas
+   E) Riñón
+EXP: Niño con dolor abdominal, anemia, hipocalcemia y antecedente de trauma cerrado abdominal hace 3 días. El hallazgo de hipocalcemia es clave, ya que se asocia frecuentemente a la pancreatitis traumática por liberación de enzimas que consumen calcio en la necrosis grasa. Además, la anemia sugiere hemorragia oculta. El páncreas es un órgano retroperitoneal que puede lesionarse sin signos externos evidentes, y puede manifestarse tardíamente. El hígado y bazo son más comunes en trauma reciente, pero en este caso el curso clínico y el laboratorio orientan claramente a daño pancreático.
+
+### CIR-102 | Sospecha de apendicitis en la mujer joven: ecografía | 2022
+Mujer de 30 años, hace 18 horas presenta dolor en FID, náuseas y vómitos. Al examen: T 38 °C, FC 100 x', FR 20 x', PA 110/70 mmHg, abdomen con dolor a la palpación en FID. Laboratorio: leucocitos 12 000/mm³; 8 % abastonados. ¿Cuál es el estudio a realizar?
+   A) Paracentesis diagnóstica
+   B) Rx abdomen simple
+  *C) Ecografía abdominal
+   D) Tránsito intestinal
+   E) Colonoscopía
+EXP: Mujer en edad fértil con cuadro de dolor en FID de 18 horas de evolución, acompañado de náuseas, vómitos, fiebre y leucocitosis con desviación a la izquierda (8 % de abastonados), lo cual configura un cuadro clínico clásico de apendicitis aguda no complicada. En mujeres en edad fértil, el diagnóstico diferencial incluye patología ginecológica, por lo que la ecografía abdominal (y/o ginecológica) se convierte en el primer paso diagnóstico, especialmente en servicios donde el TAC no es la primera línea. La paracentesis no tiene indicación aquí, ya que no hay ascitis. La Rx de abdomen no aporta datos específicos en esta fase y el tránsito intestinal está contraindicado en abdomen agudo.
+
+### CIR-103 | Insuficiencia venosa crónica: terapia compresiva | 2022
+Mujer de 65 años que hace 5 meses refiere dolor tipo pesadez y prurito en miembros inferiores, que se intensifican en horas de la tarde, últimamente siente dolor tipo quemazón que le impide caminar. Al examen: dilatación venosa en cara interna de ambas piernas que se incrementan en posición de pie. Prueba de Perthes (+). ¿Cuál es el tratamiento adecuado?
+   A) Terapia fibrinolítica
+   B) Medidas higiénico-dietéticas
+  *C) Terapia compresiva
+   D) Escleroterapia
+   E) Safenectomía de emergencia
+EXP: Paciente adulta mayor con síntomas progresivos en miembros inferiores: pesadez, prurito, dolor tipo quemazón vespertino y presencia de varices evidentes en posición ortostática, compatible con una insuficiencia venosa crónica. La prueba de Perthes positiva indica insuficiencia del sistema venoso profundo, lo que agrava el cuadro clínico. Ante esta situación, el tratamiento de primera línea debe centrarse en la terapia compresiva (medias elásticas), que mejora el retorno venoso y alivia los síntomas. Las medidas higiénico-dietéticas son útiles como coadyuvantes, pero no suficientes como tratamiento principal en este estadio. La escleroterapia es una opción en varices pequeñas y con sistema venoso profundo competente. No hay indicación de terapia fibrinolítica ya que no hay trombosis confirmada.
+
+### GIN-187 | Lupus y embarazo: seis meses de enfermedad inactiva | 2022
+Una paciente con Lupus Eritematoso Sistémico en tratamiento, sin complicaciones sistémicas, acude a una consulta preconcepcional porque desea salir embarazada. ¿Cuál es la recomendación adecuada para salir gestando?
+  *A) Seis meses de enfermedad inactiva
+   B) Que suspenda la hidroxicloroquina
+   C) Que aumente la dosis de corticoides
+   D) Preferible que no salga gestando
+   E) Que suspenda todos sus medicamentos
+EXP: Paciente con diagnóstico de lupus eritematoso sistémico (LES), sin manifestaciones sistémicas activas, acude a una consulta preconcepcional. Este es un paso fundamental para disminuir riesgos materno-fetales. La literatura y guías clínicas indican que una paciente con LES puede intentar embarazo siempre que haya mantenido una fase de remisión o inactividad de la enfermedad por al menos 6 meses. Este intervalo permite reducir significativamente el riesgo de complicaciones como preeclampsia, parto pretérmino, pérdida fetal o exacerbaciones del lupus durante la gestación. Es importante recalcar que la hidroxicloroquina no debe suspenderse, ya que ha demostrado ser segura en el embarazo y reduce la probabilidad de brotes. Asimismo, no se deben aumentar los corticoides de forma innecesaria si el lupus está controlado, y no se contraindica el embarazo en pacientes estables.
+
+### SP-137 | Riesgo relativo igual a 1 | 2022
+Se estudia una enfermedad y luego de evaluar todos los casos el riesgo relativo resulta igual a uno. ¿Qué se puede concluir sobre la asociación entre el factor y la enfermedad?
+  *A) Ausencia de asociación
+   B) Efecto protector
+   C) Factor de riesgo
+   D) Asociación positiva
+   E) Asociación causal comprobada
+EXP: En una investigación epidemiológica se evalúa el riesgo relativo (RR) para analizar la relación entre un factor de exposición y una enfermedad. El RR cuantifica cuántas veces más (o menos) probable es que ocurra una enfermedad en los expuestos comparado con los no expuestos. Cuando el RR es igual a 1, esto indica que no hay diferencia de riesgo entre los grupos, es decir, el factor evaluado no se asocia con un mayor ni menor riesgo de enfermedad. En términos estadísticos, se interpreta como ausencia de asociación causal o efecto neutro. Si el RR fuera mayor a 1, se sospecha de un factor de riesgo; si es menor a 1, podría tratarse de un factor protector. Pero cuando el RR es exactamente 1, no hay relación aparente entre la exposición y el evento en estudio.
+
+### END-054 | Coma mixedematoso posoperatorio | 2022
+Interconsulta por mujer de 76 años que permanece estuporosa luego de intervención quirúrgica sin incidentes, por abdomen agudo. Antecedente: hiperlipidemia y angina de pecho. Al examen: en ventilación mecánica por IRA tipo III, cicatriz en la base del cuello, T 32 °C. Laboratorio: Na 127 mEq/L. ¿Cuál es su sospecha diagnóstica?
+  *A) Goma mixedematoso
+   B) Hiponatremia severa
+   C) Encefalopatía hipóxica
+   D) Accidente cerebrovascular
+   E) Coma hiperosmolar
+EXP: Mujer de edad avanzada, postoperatorio reciente por abdomen agudo, que permanece estuporosa pese a cirugía sin incidentes. Tiene antecedentes cardiovasculares, cicatriz en la base del cuello (probablemente de tiroidectomía previa), ventilación mecánica por insuficiencia respiratoria y temperatura central baja (hipotermia de 32 °C), con hiponatremia moderada. El cuadro clínico es altamente sugerente de coma mixedematoso, una urgencia endocrinológica grave asociada al hipotiroidismo descompensado. Este cuadro se precipita por eventos estresantes (cirugía, infecciones) y se caracteriza por alteración de conciencia, hipotermia, hipoventilación, hiponatremia e hipoglucemia. La presencia de cicatriz cervical sugiere tiroidectomía, reforzando la hipótesis. Ni la encefalopatía hipóxica ni el ACV justifican la hipotermia ni la hiponatremia.
+
+### PED-183 | Invaginación intestinal: enema diagnóstico | 2022
+Niño de 3 años, madre refiere que hace 2 días, luego de estar resfriado, presenta episodios de dolor abdominal y vómitos intermitentes que se acompañan de evacuación rectal "tipo gelatina de color rosado". Al examen: abdomen distendido, RHA aumentados, se palpa masa dolorosa 5 cm en el cuadrante superior derecho, sin signos peritoneales. RX abdomen simple: aglutinación de asas delgadas a predominio derecho y ausencia de aire en el colon izquierdo. ¿Cuál es el examen a solicitar para el diagnóstico?
+   A) Colonoscopía
+  *B) RX de enema con aire o contraste
+   C) Resonancia magnética abdominal
+   D) TAC abdominal sin contraste
+   E) Ecografía doppler testicular
+EXP: Niño de 3 años que, tras un cuadro respiratorio viral, desarrolla dolor abdominal intermitente, vómitos y una característica evacuación tipo “gelatina de grosella”, compatible con invaginación intestinal, patología común en esta edad. El examen físico muestra masa abdominal palpable, distensión y aumento de RHA, todo lo cual concuerda con obstrucción intestinal baja. El hallazgo radiográfico de aglutinación de asas delgadas y ausencia de aire distal refuerz a la sospecha. El estudio diagnóstico de elección, además de ser terapéutico, es la radiografía contrastada con enema de aire o bario, que permite observar el defecto de llenado típico y, en muchos casos, lograr la reducción no quirúrgica. La colonoscopía y la RM no son útiles ni prácticas en este contexto agudo.
+
+### CB-072 | Intoxicación por metanol: visión borrosa y anión gap alto | 2022
+Diabético de 68 años, bebedor habitual, es traído a Emergencia por presentar mareos asociados a vómitos y visión borrosa. Al examen: FR 35 x', SaO₂ 98%, FC 115 x', PA 90/60 mmHg. SNC: somnoliento, refiere visión de bultos. AGA: acidosis metabólica con anión gap elevado. ¿Cuál es el diagnóstico probable?
+  *A) Intoxicación por alcohol metílico
+   B) Cetoacidosis diabética
+   C) Intoxicación por metformina
+   D) Acidosis láctica
+   E) Intoxicación por etilenglicol
+EXP: Bebedor que presenta vómitos, visión borrosa ("visión de bultos"), somnolencia, taquipnea y acidosis metabólica con anión gap elevado: el cuadro orienta a intoxicación por metanol (alcohol adulterado). Su metabolito, el ácido fórmico, daña la retina y el nervio óptico y causa acidosis grave. Se trata con fomepizol o etanol, bicarbonato y hemodiálisis. La cetoacidosis diabética no explica la alteración visual.
+
+### CB-073 | Intoxicación por ácido sulfhídrico en pozo séptico | 2022
+Varón de 25 años, es traído a Emergencia por haber sido encontrado desmayado cuando realizaba la limpieza y mantenimiento de un pozo séptico. Al examen: PA 100/60 mmHg, FC 100 x', FR 26 x', SatO₂ 96%, disneico, leve cianosis, despierto, aunque desorientado, congestión ocular y tos exigente. ¿Cuál es el agente causal del cuadro?
+   A) Cianuro
+  *B) Ácido sulfhídrico
+   C) Monóxido de carbono
+   D) Ácido fluorhídrico
+   E) Metano
+EXP: Trabajador que se desmaya al limpiar un pozo séptico: la materia orgánica en descomposición libera ácido sulfhídrico (H₂S), gas con olor a huevo podrido que produce fatiga olfatoria, irritación ocular y respiratoria (conjuntivitis, tos, edema pulmonar) y, a concentraciones altas, pérdida brusca de la conciencia ("knockdown") por bloqueo de la citocromo oxidasa. La SatO₂ puede ser normal. El monóxido de carbono se asocia a combustión en ambientes cerrados y el cianuro a incendios o industria.
+
+### PED-184 | Síndrome nefrótico corticodependiente | 2022
+Escolar de 6 años, con diagnóstico de síndrome nefrótico a cambios mínimos, durante la disminución de la dosis de esteroides se produce un incremento de la proteinuria. ¿Cuál es el diagnóstico actual según la respuesta al tratamiento?
+   A) Recaída frecuente
+   B) Recaída parcial
+  *C) Corticodependencia
+   D) Córtico-resistencia
+   E) Recaída infrecuente
+EXP: Escolar diagnosticado con síndrome nefrótico por cambios mínimos (la forma más común en esta edad), que presenta aumento de la proteinuria durante la reducción de corticosteroides. Este patrón sugiere que el niño responde inicialmente, pero recae al disminuir la dosis, lo cual define la corticodependencia, es decir, el paciente solo mantiene la remisión mientras recibe esteroides a dosis completas o ligeramente reducidas. La recaída frecuente se define por múltiples episodios en el tiempo, y la corticorresistencia ocurre cuando no hay respuesta inicial al tratamiento con prednisona. La recaída parcial implica disminución, pero no desaparición de la proteinuria. En este caso, el momento de la recaída es clave para el diagnóstico.
+
+### PED-185 | Osteogénesis imperfecta | 2022
+Varón de 3 años que es referido a consulta especializada por presentar fracturas a repetición. Al examen: esclerótica azul, acortamiento y arqueo de los huesos largos de las extremidades. Rx: hipomineralización de huesos largos. El diagnóstico más probable es:
+   A) Síndrome de Ehlers-Danlos
+   B) Síndrome de Marfán
+  *C) Osteogénesis imperfecta
+   D) Artrogriposis
+   E) Raquitismo
+EXP: Niño de 3 años con antecedentes de fracturas a repetición, acompañado de escleróticas azules, arqueamiento de huesos largos y hallazgos radiológicos de hipomineralización. Este cuadro clínico es típico de osteogénesis imperfecta, un trastorno genético del tejido conectivo causado por mutaciones en los genes que codifican el colágeno tipo I. Las fracturas frecuentes y deformidades óseas son consecuencia de la fragilidad del hueso. La esclerótica azul es un hallazgo patognomónico por la delgadez del colágeno que permite ver el plexo coroideo subyacente. Ehlers-Danlos se asocia más a hiperelasticidad y fragilidad de piel, y el síndrome de Marfán a talla alta y ectopia lentis.
+
+### GIN-188 | Translucencia nucal: semanas 11 a 14 | 2022
+Segundigesta de 8 semanas que acude a consulta prenatal, tiene un hijo con síndrome de Down, desea sacarse una ecografía para descartar dicha aneuploidía. La mejor edad gestacional para realizar esa prueba con dicho propósito está entre las semanas:
+  *A) 11 a 14
+   B) 22 a 25
+   C) 7 a 10
+   D) 15 a 18
+   E) 28 a 32
+EXP: Gestante de 8 semanas con antecedente de hijo con síndrome de Down, consulta sobre tamizaje prenatal. La ecografía más útil para evaluar riesgo de aneuploidía como trisomía 21 es la medición de translucencia nucal, que se realiza entre las semanas 11 y 14. Esta prueba evalúa la acumulación de líquido en la región cervical fetal y se complementa con marcadores bioquímicos en sangre materna. Si el hallazgo es sugestivo, se puede continuar con estudios invasivos como biopsia corial o amniocentesis. Antes de la semana 11 la medición no es confiable, y después pierde valor predictivo.
+
+### REU-056 | Monoartritis con hiperuricemia: estudio del líquido sinovial | 2022
+Varón de 23 años, obeso, presenta por primera vez cuadro inflamatorio severo de rodilla. Al examen: aumento de volumen y dolor intenso a la palpación. Laboratorio: Ácido úrico sérico 9 mg/dl. ¿Cuál es el examen para confirmar el diagnóstico?
+  *A) Estudio de líquido sinovial
+   B) Radiografía de rodilla
+   C) Resonancia magnética de rodilla
+   D) Ecografía de partes blandas
+   E) Ácido úrico en orina de 24 horas
+EXP: Paciente joven y obeso, con primer episodio de monoartritis aguda en rodilla, dolor intenso y volumen aumentado, junto a hiperuricemia (ácido úrico 9 mg/dL), lo cual sugiere un ataque de artritis gotosa aguda. Sin embargo, el diagnóstico definitivo de gota no se hace por ácido úrico sérico ni por imagen, sino por el estudio del líquido sinovial, donde se identifican cristales de urato monosódico con birrefringencia negativa en forma de aguja. Este examen confirma la etiología del derrame articular y descarta otras causas como artritis séptica o traumática.
+
+### PED-186 | Enterocolitis necrotizante: neumatosis intestinal | 2022
+Recién nacido prematuro de 32 semanas, peso 1200 g, Apgar 3-6, a los 5 días de vida deja de tolerar la alimentación, presencia de leche en el aspirado gástrico, vómitos, marcada distensión abdominal. Rx de abdomen: dilatación de asas intestinales, engrosamiento de la pared intestinal, presencia de aire intramural. ¿Cuál es la posible complicación?
+   A) Obstrucción intestinal
+   B) Intolerancia a la lactosa
+  *C) Enterocolitis necrotizante
+   D) Atresia duodenal
+   E) Hirschsprung
+EXP: Recién nacido prematuro de 32 semanas, con bajo peso al nacer y compromiso neonatal grave (Apgar 3- 6), presenta a los 5 días signos clínicos y radiológicos sugestivos de enterocolitis necrotizante: intolerancia alimentaria, vómitos, distensión abdominal y, de manera clave, neumatosis intestinal (aire intramural en Rx). Esta es una complicación gastrointestinal grave en neonatos prematuros, donde la inmadurez de la mucosa intestinal y la colonización bacteriana generan necrosis transmural. Es la causa más frecuente de perforación intestinal neonatal. La atresia duodenal se manifiesta antes, típicamente con vómito bilioso y signo de doble burbuja.
+
+### INF-091 | Brote por toxina preformada: Bacillus cereus | 2022
+El centro de salud reporta un brote de intoxicación alimentaria: 40 niños de 10 y 11 años han presentado fiebre, vómito, dolor abdominal y deposiciones líquidas sin moco ni sangre luego de seis horas de haber consumido ensalada con mayonesa en el colegio. ¿Cuál es el agente etiológico más probable?
+  *A) Bacillus cereus
+   B) Shigella
+   C) Salmonella
+   D) Vibrio cholerae
+   E) Rotavirus
+EXP: El brote de intoxicación afecta a niños escolares que presentaron síntomas gastrointestinales (náuseas, dolor abdominal, vómitos y diarrea acuosa) 6 horas después de ingerir ensalada con mayonesa, un alimento susceptible a contaminación. El cuadro es característico de una intoxicación por toxina preformada, específicamente por Bacillus cereus (forma emética) o Staphylococcus aureus, ambas asociadas a alimentos mal conservados. Bacillus cereus produce síntomas rápidamente (<6 horas) cuando la toxina se ingiere ya formada, especialmente en alimentos con almidón o crema. La Shigella y Salmonella tienen períodos de incubación más largos y suelen causar fiebre y disentería.
+
+### TRA-043 | Arnés de Pavlik: necrosis avascular por abducción excesiva | 2022
+Lactante de 2 meses de edad. En un examen clínico de rutina se evidencia los signos de Ortolani y Barlow positivos. Se le colocó un arnés de Pavlik, a la segunda semana es llevado a consulta por irritabilidad. Al examen: abducción excesiva. Se toma radiografía de control donde se encuentra:
+  *A) Necrosis avascular de la cabeza del fémur
+   B) Epífisis femoral capital deslizada
+   C) Artrosis de articulación coxo-femoral
+   D) Sinovitis monoarticular transitoria
+   E) Displasia residual de cadera
+EXP: Lactante de 2 meses con signos positivos de Ortolani y Barlow, lo que indica displasia del desarrollo de la cadera (DDC), fue manejado con arnés de Pavlik. A las dos semanas, presenta irritabilidad y hallazgos de abducción excesiva, lo que sugiere una complicación del tratamiento. La más temida es la necrosis avascular de la cabeza femoral, ocasionada por compresión de la arteria circunfleja medial al no respetar la posición segura del arnés. La radiografía de control muestra alteración de la epífisis femoral. Esta complicación es indicación para suspender el uso del dispositivo.
+
+### SP-138 | Estudio de casos y controles apareado | 2022
+Se realiza un estudio con 30 mujeres con cáncer de mama y 30 mujeres con mamografía normal, se les preguntó sobre patrones de lactancia materna. Cada mujer con cáncer fue emparejada con una mujer sin la enfermedad en función de la edad, raza, peso, paridad y patrones de lactancia materna. ¿Cuál es el tipo de diseño de estudio?
+   A) Cohorte
+   B) Transversal
+  *C) Caso control
+   D) Experimental
+   E) Ecológico
+EXP: El estudio descrito evalúa retrospectivamente a mujeres con y sin cáncer de mama (casos y controles), emparejadas según variables como edad, raza y antecedentes obstétricos, y se investiga un posible factor de exposición (patrones de lactancia). Este diseño corresponde a un estudio de casos y controles apareados, útil para enfermedades poco frecuentes como el cáncer de mama, y que permite evaluar la asociación entre exposición y enfermedad mediante el cálculo de Odds Ratio. Los estudios de cohorte se orientan al seguimiento en el tiempo, mientras que los transversales no establecen temporalidad. No se trata de un ensayo clínico ni intervención directa.
+
+### TRA-044 | Quiste poplíteo (ganglión) en el niño | 2022
+Niña de 7 años refiere tumoración detrás de la rodilla que no le impide realizar actividad física, dice “la bolita” no me molesta ni duele. Al examen: formación quística de 3 cm de diámetro en región poplítea interna de la rodilla izquierda, de consistencia firme, no dolorosa y que no interfiere con la movilidad articular. Resto del examen normal. La información a otorgar a la madre es que corresponde a:
+  *A) Ganglión
+   B) Adenomegalia
+   C) Absceso
+   D) Lipoma
+   E) Quiste de Baker roto
+EXP: Niña en edad escolar presenta una tumoración poplítea de 3 cm, no dolorosa, firme, sin signos inflamatorios ni compromiso funcional, lo que orienta a una masa benigna. La localización en región poplítea sugiere un quiste de Baker o ganglión, el cual es una protrusión sinovial generalmente relacionada con articulaciones adyacentes, y es típico en niños. La ausencia de síntomas y la movilidad articular conservada refuerzan esta sospecha. No hay signos inflamatorios que sugieran absceso, ni características compatibles con adenomegalia (más frecuente en regiones inguinales o cervicales) o lipoma (blando, móvil).
+
+### NRL-049 | Neurocisticercosis: Taenia solium | 2022
+Paciente de 13 años procedente de zona rural. Desde hace 6 meses, cefalea recurrente con crisis convulsiva en dos oportunidades. TAC cerebral: imágenes calcificadas múltiples. ¿Cuál es el agente causal de la patología?
+   A) Taenia saginata
+   B) Hymenolepis nana
+  *C) Taenia solium
+   D) Echinococcus granulosus
+   E) Toxoplasma gondii
+EXP: Adolescente procedente de zona rural con cefalea crónica y crisis convulsivas, hallazgo frecuente en pacientes con neurocisticercosis. La TAC revela calcificaciones múltiples, que corresponden al estadio final de los quistes por Taenia solium. Este parásito se transmite por la ingesta de huevos en alimentos contaminados, generando larvas que migran al sistema nervioso central. Taenia saginata no invade el sistema nervioso, Hymenolepis nana cursa con síntomas gastrointestinales, y Echinococcus granulosus produce hidatidosis, principalmente hepática o pulmonar.
+
+### NEF-076 | Amiloidosis renal secundaria a osteomielitis | 2022
+Varón de 66 años, desde hace 20 años con osteomielitis. Inicia hace 8 meses edema progresivo que evoluciona a anasarca. Al examen: PA 150/80 mmHg. Laboratorio: proteinuria de 7 g/24 h, albúmina sérica 2.1 g/dl, creatinina 3.5 mg/dl, hemoglobina glicosilada 6%. ¿Cuál es el diagnóstico más probable?
+   A) Nefropatía hipertensiva
+  *B) Amiloidosis renal
+   C) Glomerulonefritis post infecciosa
+   D) Nefropatía diabética
+   E) Nefropatía por IgA
+EXP: Varón adulto mayor con antecedente de osteomielitis crónica y con cuadro clínico de síndrome nefrótico: edema progresivo, anasarca, proteinuria en rango nefrótico, hipoalbuminemia y deterioro de la función renal. La relación con una enfermedad inflamatoria crónica (como osteomielitis) orienta hacia una amiloidosis secundaria (AA), en la que los depósitos de proteínas amiloides en el riñón producen proteinuria masiva. La HbA1c normal excluye nefropatía diabética; la hipertensión por sí sola no genera este grado de proteinuria. Tampoco es una glomerulonefritis postinfecciosa, pues no hay antecedente reciente de faringitis ni características compatibles.
+
+### OFT-043 | Otitis media recurrente tras amoxicilina: amoxicilina-clavulánico | 2022
+Niño de 3 años que hace 2 días presenta dolor de oído, refiere la madre que se lleva la mano al oído frecuentemente, sensación de alza térmica no cuantificada. Antecedente: hace un mes presentó un episodio de otalgia, fiebre acompañada de irritabilidad, recibiendo amoxicilina 40 mg/kg/día. Al examen: T 38.5°C, PA 90/50, FC 100 x'. Otoscopía: se observa un tímpano abombado, congestivo e hiperémico. ¿Cuál es el tratamiento antibiótico de elección?
+   A) Amoxicilina
+  *B) Amoxicilina–ácido clavulánico
+   C) Cefuroxima
+   D) Claritromicina
+   E) Ciprofloxacino ótico solo
+EXP: Niño en edad preescolar con signos y síntomas de otitis media aguda recurrente, ya tratado previamente con amoxicilina hace un mes. Actualmente presenta fiebre, dolor de oído, irritabilidad y otoscopía con tímpano abombado e hiperémico, lo que indica infección activa. Dado el antecedente de tratamiento reciente con amoxicilina, se recomienda iniciar antibiótico con mayor espectro que cubra gérmenes resistentes como H. influenzae productor de beta-lactamasas. En este caso, el antibiótico de elección es amoxicilina –ácido clavulánico. Las otras alternativas pueden usarse, pero no son primera línea en este contexto.
+
+### SP-139 | Asentimiento del niño: también firma la madre | 2022
+Un escolar de 9 años es traído a consulta por madre quechua hablante. Por tener criterios de inclusión es elegido para participar en un ensayo clínico. El médico le explica en castellano al niño, que es bilingüe, el objetivo del estudio, así como los beneficios y riesgos de ser incluido en este ensayo. ¿Qué condición debe cumplir el asentimiento del niño para ser válido?
+   A) Que una autoridad jurídica esté presente cuando firma el niño
+   B) El paciente debe firmar consentimiento escrito en quechua
+  *C) La madre también debe firmar el consentimiento
+   D) Basta con la firma del paciente por ser mayor de 8 años
+   E) Que el investigador lo firme en su nombre
+EXP: Escolar de 9 años, quechua hablante, es incluido en un ensayo clínico tras cumplir con criterios de inclusión. El médico le explica en castellano, idioma que el niño entiende. Aunque el niño puede expresar su asentimiento (aceptación voluntaria del menor), no tiene capacidad legal plena para otorgar un consentimiento informado, ya que es menor de edad. Por tanto, para que el procedimiento sea éticamente válido, se requiere el consentimiento informado del representante legal, en este caso la madre. Esto garantiza el respeto por la autonomía en desarrollo del menor y el principio de beneficencia.

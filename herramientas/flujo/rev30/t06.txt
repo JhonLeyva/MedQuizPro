@@ -1,0 +1,224 @@
+### NEU-045 | Tuberculosis en la gestante: estreptomicina contraindicada | 2021
+¿Cuál es el antituberculoso contraindicado en la Gestante?
+  *A) Estreptomicina
+   B) Pirazinamida
+   C) Rifampicina
+   D) Etambutol
+   E) Isoniazida
+EXP: La estreptomicina, un aminoglucósido utilizado como fármaco de segunda línea para tuberculosis, está contraindicada durante la gestación por su capacidad de atravesar la placenta y generar toxicidad coclear en el feto, lo cual puede producir sordera congénita. Su efecto ototóxico es dosis-dependiente y se ha documentado en múltiples estudios. En cambio, medicamentos como la rifampicina, pirazinamida y etambutol están autorizados por la OMS para el tratamiento de tuberculosis sensible durante el embarazo, ya que han demostrado seguridad relativa. Por tanto, el régimen estándar de primera línea incluye estos tres fármacos, junto con isoniacida. El riesgo fetal de la estreptomicina supera ampliamente los beneficios, por lo cual debe evitarse en cualquier trimestre.
+
+### GIN-156 | Anti-D: no indicar si el RN es Rh negativo | 2021
+Mujer de 32 años Rh negativo, da a luz recien nacido Rh negativo y coombs directo positivo. ¿Cuál es el paso a seguir con respecto a la profilaxis anti D en la madre?
+   A) Indicar dentro de las 24 horas
+  *B) No indicar profilaxis
+   C) Indicar dentro de las 48 horas
+   D) Indicar dentro de las 72 horas
+   E) Indicar a las 28 semanas del siguiente embarazo
+EXP: La profilaxis anti-D está indicada en madres Rh negativo cuando el recién nacido es Rh positivo, ya que existe riesgo de sensibilización materna. En este caso, el neonato también es Rh negativo, por lo tanto, no hay incompatibilidad Rh, y no existe riesgo de que la madre genere anticuerpos contra eritrocitos fetales. El Coombs directo positivo en el recién nacido indica que hay anticuerpos unidos a sus glóbulos rojos, pero no se justifica la administración de inmunoglobulina anti-D si el niño no presenta el antígeno Rh. Por ello, no se debe indicar profilaxis anti-D en esta situación.
+
+### GIN-157 | Embarazo prolongado con Bishop desfavorable: madurar el cuello | 2021
+Gestante de 42 semanas confirmado por ecografía del primer trimestre, tiene un test no estresante normal. Altura uterina de 34 cms. Al tacto vaginal: cervix posterior, consistencia media, borramiento: 40%, estación: - 2, dilatación: 1 cm. ¿Cuál es la conducta a seguir?
+   A) Mantenerla en observación
+   B) Inducir el parto con oxitocina
+   C) Estimular el parto con oxitocina
+  *D) Madurar el cuello con misoprostol
+   E) Cesárea electiva
+EXP: Una gestante con embarazo postérmino (42 semanas) presenta un Bishop desfavorable (dilatación 1 cm, borramiento 40 %, cérvix posterior, estación -2), lo que indica que el cuello uterino no está preparado para una inducción con oxitocina. En estos casos, lo adecuado es realizar maduración cervical con agentes como el misoprostol, que ayudan a modificar las características del cuello uterino para que posteriormente se pueda inducir el trabajo de parto. El test no estresante normal indica bienestar fetal, por lo tanto, no es urgente una cesárea ni otra intervención invasiva inmediata.
+
+### GIN-158 | Fórmula obstétrica con aborto y ectópico | 2021
+¿Cuál sería el Gesta Para en la Historia Clínica Perinatal de una paciente que se encuentra actualmente gestando y tiene como antecedente un aborto, un embarazo ectópico, un parto a término y un hijo vivo?
+   A) G3P1011
+  *B) G4P1021
+   C) G3P1021
+   D) G4P2021
+   E) G4P1111
+EXP: Para codificar correctamente el Gesta/Para en la Historia Clínica Perinatal (HCP), se sigue la fórmula G_Pabcd, donde: G: total de gestaciones a: partos a término b: partos pretérminos c: abortos d: hijos vivos La paciente está actualmente gestando (1) y tiene antecedentes de: • 1 aborto (c) • 1 embarazo ectópico (cuenta como gestación, pero no parto) • 1 parto a término con hijo vivo (a y d) Eso suma 4 gestaciones (G4) y 1 parto a término (a = 1), 0 pretérmino (b = 0), 2 pérdidas (c = 2: aborto + ectópico), 1 hijo vivo (d = 1). Sin embargo, el ectópico no se contabiliza en c (abortos), solo en G. Por tanto: G4P1021.
+
+### REU-048 | Artritis gonocócica: diplococos gramnegativos | 2021
+Mujer de 23 años, refiere tres días de fiebre, artralgias en muñecas y rodilla derecha. Además, presenta leucorrea. Al examen: rodilla derecha aumentada de volumen, caliente, eritematosa, dolorosa a la palpación y con limitación severa para el flexoextensión. Puntos ureterales (-), PPL (-). Se realiza artrocentesis y la identificación del microorganismo muestra ______
+   A) Hifas filamentosas
+  *B) Diplococos Gram negativo
+   C) Bacilos Gram negativos
+   D) Espiroquetas
+   E) Cristales de urato
+EXP: Mujer joven con fiebre, artralgias, leucorrea y artritis séptica monoarticular, lo que sugiere artritis gonocócica diseminada, una complicación de la infección por Neisseria gonorrhoeae. La presentación típica incluye fiebre, poliartralgias migratorias y u na artritis franca monoarticular, además de síntomas genitourinarios. El microorganismo característico es un diplococo Gram negativo intracelular, visible en el líquido sinovial o en cultivo. Las otras opciones (hifas, bacilos, espiroquetas) no concuerdan con el cuadro clínico ni con la epidemiología en mujeres jóvenes sexualmente activas.
+
+### REU-049 | Lupus con nefritis y serositis | 2021
+Mujer de 25 años desde hace 6 meses, dolor y tumefacción de pequeñas articulaciones. Al examen: eritema malar, alopecia. Rx de tórax: derrame pleural izquierdo. Laboratorio: Hb: 10 g/dL, plaquetas: 40,000/mm3, sedimento de orina con glóbulos rojos, cilindros leucocitarios y granulosos. ¿Cuál es el diagnóstico más probable?
+   A) Dermatomiositis
+   B) Artritis reumatoide
+   C) Crisis gotosa
+  *D) Lupus eritematoso sistémico
+   E) Esclerodermia
+EXP: Mujer joven con compromiso multisistémico: artritis, eritema malar, alopecia, derrame pleural, anemia, trombocitopenia y nefropatía activa con cilindros, lo cual configura un cuadro clásico de lupus eritematoso sistémico (LES). La afectación renal (glomerulonefritis), hematológica y articular es muy frecuente en LES. La artritis reumatoide no explica la afectación sistémica tan amplia. La dermatomiositis suele dar debilidad muscular, no daño renal ni trombocitopenia. No hay datos que sugieran gota.
+
+### END-046 | Enfermedad de Graves en el primer trimestre: propiltiouracilo | 2021
+Gestante de 10 semanas, acude por presentar temblor, nerviosismo, pérdida de peso y siente mucho calor. Al examen: exoftalmos, edema duro pretibial y bocio difuso, no doloroso. Laboratorio: TSH 0.01 mUI/L y T4 libre 30 ng/dL. ¿Cuál es el tratamiento a seguir?
+   A) Yodo radiactivo
+   B) Levotiroxina
+  *C) Propiltiouracilo
+   D) Metimazol
+   E) Tiroidectomía inmediata
+EXP: Gestante de 10 semanas con cuadro clínico y bioquímico compatible con hipertiroidismo primario (TSH suprimida y T4 libre elevada), más signos típicos de enfermedad de Graves-Basedow: exoftalmos, bocio difuso no doloroso y mixedema pretibial. En el embarazo, el antitiroideo de elección durante el primer trimestre es el propiltiouracilo (PTU), porque el metimazol se asocia a embriopatía. Luego del primer trimestre, se puede cambiar a metimazol si es necesario. El yodo radiactivo está contraindicado en el embarazo y la levotiroxina se usa en hipotiroidismo, no en este caso.
+
+### END-047 | Tiroiditis subaguda: AINE y propranolol | 2021
+Mujer de 35 años presenta hace 3 días dolor cervical, nerviosismo y temblor fino de manos. Hace 10 días infección de vía respiratoria alta. Al examen: taquicardia, cuello con bocio difuso moderado, dolor a la palpación. Laboratorio: TSH 0,2 mUI/L. ¿Cuál es el tratamiento?
+  *A) AINEs y propanolol
+   B) AINEs y propiltiuracilo
+   C) Levotiroxina y prednisona
+   D) Metimazol y propanolol
+   E) Yodo radiactivo
+EXP: Mujer con síntomas de tirotoxicosis (temblor, taquicardia, nerviosismo), antecedente reciente de infección respiratoria y tiroides dolorosa a la palpación, todo lo cual sugiere una tiroiditis subaguda (de Quervain). En esta entidad, el hipertiroidismo es transitorio, por lo que no se usan antitiroideos como metimazol o PTU. El tratamiento es sintomático con antiinflamatorios (AINEs) para el dolor y propranolol para controlar síntomas adrenérgicos. La levotiroxina estaría contraindicada en fase tirotóxica.
+
+### END-048 | DM2 descompensada con falla renal: insulina | 2021
+Varón de 57 años, diabético tipo 2, en tratamiento con dieta y metformina 2 g/día. Al examen: agudeza visual disminuida. Laboratorio: HbA1c: 9.5 %, glicemia: 450 mg/dL, creatinina 2,3 mg/dL. ¿Cuál es la conducta terapéutica más adecuada?
+   A) Glibenclamida
+  *B) Insulina
+   C) Glimepirida
+   D) Hemodiálisis
+   E) Aumentar metformina a 3 g/día
+EXP: Paciente con diabetes mellitus tipo 2 mal controlada (HbA1c: 9.5%) y deterioro de función renal (creatinina 2.3 mg/dL), con probable nefropatía diabética. El nivel de glicemia (450 mg/dL) indica hiperglicemia severa que no está siendo controlada con metformina, la cual debe suspenderse por riesgo de acidosis láctica en insuficiencia renal. Las sulfonilureas (glibenclamida, glimepirida) también son riesgosas por potencial de hipoglicemia. En este contexto, el tratamiento más seguro y eficaz es la insulina. Aún no hay criterios inmediatos para hemodiálisis.
+
+### NRL-044 | Síndrome prefrontal | 2021
+Varón de 58 años es llevado por su hijo por presentar hace 7 meses conductas inadecuadas: euforia, irritable, se orina y desnuda en la sala y ha descuidado su aspecto personal. Tiene problemas de memoria y no puede concentrarse en lo que hace ni toma decisiones. ¿Cómo se denomina este síndrome?
+  *A) Prefrontal
+   B) Parietal
+   C) Temporal
+   D) Occipital
+   E) Cerebeloso
+EXP: Paciente con alteraciones del comportamiento: euforia, desinhibición, irritabilidad, incontinencia urinaria, abandono del cuidado personal, además de alteración en memoria y juicio. Todo esto es característico del síndrome prefrontal, donde se afecta el lóbulo frontal (especialmente la corteza orbitofrontal y dorsolateral). Este síndrome se manifiesta por cambios en la personalidad, conducta social inapropiada, apatía o impulsividad, y deterioro de funciones ejecutivas. La afectación parietal o temporal genera otro tipo de síntomas, como alteraciones sensitivas o de la memoria episódica, respectivamente.
+
+### NRL-045 | Cefalea tensional | 2021
+Mujer de 29 años desde hace 9 meses cefalea recurrente semanal que dura de 2 a 6 horas y semeja a una presión de una venda apretada alrededor de la cabeza y cede con ingesta de AINES. Al examen: músculos cervicales posteriores contracturados. ¿Cuál es el diagnóstico más probable?
+   A) Cefalea en racimos
+  *B) Cefalea tensional
+   C) Migraña
+   D) Disfunción temporomandibular
+   E) Migraña sin aura
+EXP: Mujer con cefalea bilateral tipo opresiva, que se presenta de forma frecuente (semanal), con duración de 2 a 6 horas y buena respuesta a AINEs. Además, hay contractura de músculos cervicales. Todo esto es típico de la cefalea tensional, la forma más común de cefalea. Se caracteriza por dolor sordo, opresivo, no pulsátil, sin náuseas ni vómitos, y sin aura. La migraña suele ser unilateral, pulsátil y más incapacitante. La cefalea en racimos es severa, unilateral, y periorbitaria, y no encaja con este caso. La disfunción temporomandibular puede dar cefalea, pero tiene otros hallazgos clínicos.
+
+### NRL-046 | Fibrilación auricular sin anticoagular: ACV isquémico | 2021
+Varón de 72 años de edad, con fibrilación auricular crónica sin anticoagulación. Dos horas antes, presenta incapacidad para hablar y leve hemiplejia derecha que se van intensificando. TAC cerebral: no se ven alteraciones. ¿Cuál es la causa más probable del cuadro neurológico?
+  *A) ACV isquémico
+   B) Hemorragia intracerebral
+   C) Hemorragia subaracnoidea
+   D) Hematoma epidural
+   E) Tumor cerebral
+EXP: Paciente adulto mayor con fibrilación auricular crónica no anticoagulado, lo que incrementa significativamente el riesgo de eventos embólicos cerebrales. El inicio súbito de afasia y hemiparesia derecha progresiva sugiere un evento isquémico en territorio cerebral izquierdo. La tomografía sin hallazgos no descarta un ACV isquémico en fases muy tempranas (<6 h), ya que las imágenes pueden ser normales inicialmente. Las hemorragias intracerebrales suelen mostrar imagen hiperdensa desde el inicio. La hemorragia subaracnoidea produce cefalea intensa, y el hematoma epidural está asociado a trauma. El diagnóstico más probable es un ACV isquémico embólico por FA.
+
+### REU-050 | Psoriasis con uñas en dedal | 2021
+Varón de 43 años, desde hace 1 mes presenta eritrodermia y malestar general. Al examen: uñas con lesiones puntiformes (uña en dedal), piel: lesiones eritematosas con placas cubiertas de escamas nacaradas, en codos, rodillas y cuero cabelludo ¿Cuál es el diagnóstico más probable?
+   A) Linfoma cutáneo
+  *B) Psoriasis
+   C) Dermatitis atópica
+   D) Celulitis
+   E) Pitiriasis versicolor
+EXP: El paciente presenta un cuadro de eritrodermia, junto con signos dermatológicos típicos como placas eritematoescamosas, localizadas en zonas características: codos, rodillas y cuero cabelludo. Además, se observa una alteración ungueal conocida como uña en dedal, altamente específica de psoriasis en placas. Esta enfermedad autoinmune tiene varias formas clínicas, siendo la forma en placas la más común. El linfoma cutáneo puede causar eritrodermia, pero no presenta las lesiones típicas descritas. La dermatitis atópica no da placas con escamas nacaradas ni compromiso ungueal. La celulitis es infecciosa, unilateral y no crónica.
+
+### PED-156 | Faringoamigdalitis estreptocócica con dolor abdominal | 2021
+Escolar de 8 años, con dos días fiebre, tos exigente, dolor de garganta y disfagia; hoy día vómitos y dolor abdominal. Al examen: faringe enrojecida, amígdalas agrandadas con pus, petequias en paladar blando. ¿Cuál es el diagnóstico más probable?
+  *A) Faringoamigdalitis estreptocócica
+   B) Absceso retrofaríngeo
+   C) Mononucleosis infecciosa
+   D) Difteria
+   E) Faringitis viral
+EXP: Niño con síntomas sistémicos (fiebre, vómitos, dolor abdominal) y locales (dolor de garganta, disfagia), más signos clásicos como faringe eritematosa, amígdalas purulentas y petequias en paladar blando, cuadro clínico muy característico de faringoamigdalitis estreptocócica. El dolor abdominal puede ser referido por linfadenitis mesentérica, común en infecciones por Streptococcus pyogenes. La mononucleosis infecciosa también puede dar fiebre y faringitis, pero suele asociarse a linfadenopatía generalizada y hepatoesplenomegalia. El absceso retrofaríngeo produce estridor o dificultad respiratoria, lo cual no está presente. La difteria presenta pseudomembranas, no placas con pus.
+
+### SP-121 | Variable dependiente: donde se observan los cambios | 2021
+En un diseño de investigación experimental, la variable dependiente es aquella:
+   A) Que varía siempre por el tipo de investigador
+   B) Que es manipulada con el fin de producir efectos en la otra variable
+  *C) En la cual se observan los cambios
+   D) Que representa a un concepto mal definido
+   E) Que se mantiene constante durante el estudio
+EXP: En una investigación experimental, existen dos tipos principales de variables: la independiente y la dependiente. La variable independiente es la que el investigador manipula deliberadamente para estudiar sus efectos. Por otro lado, la variable dependiente es aquella en la cual se observan los cambios como resultado de la manipulación. Es decir, depende del comportamiento de la variable independiente. No se refiere a un concepto mal definido ni a algo que varía por el tipo de investigador. Su correcto entendimiento es esencial para formular hipótesis y diseñar estudios válidos.
+
+### PSI-031 | Delirium tremens en el posoperatorio | 2021
+Varón de 40 años postoperado en 2 día por fractura de fémur, se le encuentra ansioso, confuso y refiere visión de serpientes y escorpiones que se mueven en su cama. Es consumidor más de 40 g de alcohol al día. Al examen: FC: 100 X´, T: 38 °C, midriasis, temblor de manos y los párpados, sudoración profusa. ¿Cuál es el diagnóstico más probable?
+  *A) Síndrome de abstinencia
+   B) Embolia grasa
+   C) Hematoma subdural
+   D) Encefalopatía urémica
+   E) Encefalopatía de Wernicke aislada
+EXP: Paciente con antecedentes de alto consumo de alcohol, postoperado reciente, que presenta síntomas neuropsiquiátricos como alucinaciones visuales (zoopsias), ansiedad, confusión, temblores y signos de hiperactividad autonómica (taquicardia, fiebre, midriasis, sudoración). Este cuadro es altamente sugestivo de delirium tremens, una forma grave del síndrome de abstinencia alcohólica, que suele iniciarse 48–72 horas tras la suspensión del consumo en personas dependientes. La embolia grasa se considera en fracturas de huesos largos, pero presenta disnea y petequias, no alucinaciones. El hematoma subdural y la encefalopatía urémica no encajan con el contexto ni el cuadro clínico.
+
+### REU-051 | Urticaria aguda por alimentos | 2021
+Preescolar que luego de ingerir cítricos presenta lesiones papulares de diversos tamaños, eritematosas con centro pálido y muy pruriginosas. ¿Cuál es el diagnóstico más probable?
+   A) Dermatitis
+  *B) Urticaria
+   C) Tiña córporis
+   D) Anafilaxia
+   E) Escabiosis
+EXP: Niño preescolar que desarrolla lesiones papulares pruriginosas con centro pálido tras la ingesta de cítricos, lo que sugiere una reacción de hipersensibilidad inmediata (tipo I). El patrón clínico descrito corresponde a urticaria, que es frecuente en niños y se desencadena por alimentos, fármacos o infecciones. La tiña corporis se presenta con lesiones anulares con borde activo. La anafilaxia sería más sistémica, con compromiso respiratorio o cardiovascular. Dermatitis de contacto es más localizada y no tiene ese patrón de habón típico.
+
+### GIN-159 | Endometritis puerperal: clindamicina + gentamicina | 2021
+En la atención de una puérpera con endometritis ¿Cuál es el tratamiento antibiótico de elección?
+  *A) Clindamicina + gentamicina
+   B) Ceftriaxona + amoxicilina
+   C) Clindamicina + dicloxacilina
+   D) Ampicilina – sulbactam
+   E) Metronidazol solo
+EXP: La endometritis puerperal es una infección polimicrobiana que ocurre habitualmente después de un parto, sobre todo si ha habido ruptura prolongada de membranas o parto por cesárea. El tratamiento debe ser de amplio espectro, cubriendo tanto aerobios como anaerobios. La combinación de clindamicina (anaerobios y cocos grampositivos) con gentamicina (gramnegativos aerobios) es el esquema empírico clásico y recomendado por guías internacionales. Otros esquemas como ampicilina-sulbactam pueden usarse, pero no superan la cobertura de la combinación estándar.
+
+### REU-052 | Impétigo sobre lesiones de rascado | 2021
+Preescolar de 5 años, con episodios previos de urticaria; hace 4 días presenta lesiones vesiculares en zona de rascado, que se incrementan en número y extensión y eclosionan presentando una erosión húmeda con costras mieliséricas. ¿Cuál es el diagnóstico más probable?
+   A) Celulitis
+  *B) Piodermitis
+   C) Erisipela
+   D) Varicela
+   E) Herpes simple
+EXP: Niño con antecedentes de urticaria que desarrolla vesículas sobre áreas de rascado, las cuales se rompen dejando costras color miel, es característico de piodermitis (impétigo), en su forma ampollosa o no ampollosa. Esta infección bacteriana superficial es común en la infancia y causada por Staphylococcus aureus o Streptococcus pyogenes. No hay signos de afectación profunda como en la celulitis ni enrojecimiento marcado con fiebre como en la erisipela. La varicela también causa vesículas, pero no produce costras melicéricas.
+
+### GIN-160 | Proteínas en el embarazo: necesidades maternas y fetales | 2021
+¿Cuál es el objetivo de incrementar la ingesta de proteínas durante el embarazo?
+  *A) Cubrir las necesidades maternas y fetales
+   B) Disminuir la presentación de pre-eclampsia
+   C) Controlar el incremento de peso materno
+   D) Disminución de volumen sanguíneo
+   E) Prevenir la diabetes gestacional
+EXP: El embarazo es una etapa de alta demanda metabólica en la que se requieren proteínas para múltiples funciones fisiológicas. El objetivo principal del aumento de ingesta proteica es cubrir las necesidades tanto del crecimiento fetal como de los tejidos maternos, como útero, placenta, mamas y volumen sanguíneo. Además, las proteínas son esenciales para la formación de nuevas células, tejidos y para la síntesis de enzimas y hormonas. No es correcto afirmar que el consumo proteico tenga como finalidad directa prevenir preeclampsia, aunque una buena nutrición puede contribuir indirectamente a reducir complicaciones. Tampoco se busca controlar el peso materno ni disminuir el volumen sanguíneo, ya que en el embarazo este volumen debe aumentar. El requerimiento proteico se incrementa especialmente en el segundo y tercer trimestre. Por tanto, el motivo de este incremento es fisiológico y adaptati
+
+### OFT-035 | Absceso periamigdalino: trismus y otalgia | 2021
+Varón de 21 años, desde hace 5 días presenta dolor faríngeo, alza térmica, odinofagia y otalgia derecha. Al examen: trismus, aumento de volumen de la amígdala palatina derecha y secreción purulenta. ¿Cuál es el diagnóstico?
+   A) Absceso submaxilar
+   B) Uvulitis infecciosa
+  *C) Absceso amigdaliano
+   D) Edema alérgico de Quicke
+   E) Faringitis viral
+EXP: Varón joven con dolor faríngeo intenso, fiebre, otalgia y trismus (dificultad para abrir la boca) tiene un cuadro clínico compatible con absceso periamigdalino, también llamado absceso amigdaliano. Este es una complicación de una faringoamigdalitis mal tratada o resistente. El trismus es un signo característico debido a la afectación del músculo pterigoideo por la inflamación cercana. El aumento de volumen unilateral de la amígdala con desviación de la úvula y la secreción purulenta refuerzan el diagnóstico. El tratamiento es drenaje del absceso, antibióticos y analgesia. Un absceso submaxilar afecta el piso de la boca (Ludwig), la uvulitis es menos extensa y el edema de Quicke es una reacción alérgica, no purulenta.
+
+### CIR-092 | Quemaduras: regla de los nueves | 2021
+Mujer de 20 años, sufre quemadura con agua hervida. Al examen: lesiones en ambas caras de miembros superiores y cara anterior del tronco. ¿Cuál es el porcentaje de superficie corporal comprometida?
+  *A) 36%
+   B) 27%
+   C) 42%
+   D) 18%
+   E) 45%
+EXP: Para calcular el porcentaje de superficie corporal quemada en adultos, se emplea la "regla de los nueves de Wallace". Según esta, cada miembro superior representa un 9% del total corporal (4.5% por cara), y el tronco anterior equivale al 18%. En este caso, se reporta compromiso de ambas caras de los miembros superiores (9% por cada brazo = 18%) y de la cara anterior del tronco (18%), sumando en total un 36% de superficie corporal quemada. Esta cifra es clínicamente significativa, pues quemaduras mayores al 20% requieren manejo hospitalario con líquidos, control de electrolitos y vigilancia por riesgo de shock hipovolémico. Otras opciones no coinciden con el cálculo exacto según la regla establecida.
+
+### GAS-056 | Insuficiencia hepática aguda: encefalopatía y coagulopatía | 2021
+Mujer de 34 años, una semana antes nota conjuntivas amarillas, 3 días después vómitos, desde ayer desorientada. Al examen: soporosa, flapping (+), ictericia y equimosis en muslos. Laboratorio: glicemia 55 mg/dL. ¿Cuál es el diagnóstico más probable?
+   A) Crisis hipoglucémico
+   B) Colecistitis crónica reagudizada
+   C) Absceso hepático
+  *D) Insuficiencia hepática aguda
+   E) Hepatitis alcohólica
+EXP: Paciente joven que en pocos días presenta ictericia, vómitos, alteración del sensorio, signos de sangrado y flapping, signo de encefalopatía hepática. El cuadro es compatible con insuficiencia hepática aguda, definida por deterioro rápido de la función hepática (ictericia, coagulopatía y encefalopatía) en un paciente sin hepatopatía previa conocida. La hipoglucemia es frecuente por disminución de la gluconeogénesis hepática. Otras causas como colecistitis o absceso hepático no explican el cuadro neurológico. El flapping descarta hipoglucemia como única causa.
+
+### GAS-057 | Hemorragia digestiva alta: shock hipovolémico | 2021
+Mujer de 45 años con antecedente de úlcera péptica con terapia irregular, hace 2 horas presenta deposiciones negras malolientes, se torna ansiosa, llegando a emergencia presenta hematemesis (2 tazas). PA: 80/40 mmHg, FC: 118 x´, ¿Qué tipo de shock se estaría presentando?
+  *A) Hipovolémico
+   B) Distributivo
+   C) Cardiogénico
+   D) Obstructivo
+   E) Neurogénico
+EXP: Mujer con antecedentes de úlcera péptica, que presenta melena, hematemesis y signos de hipoperfusión (hipotensión y taquicardia). Este perfil clínico corresponde a un shock hipovolémico secundario a hemorragia digestiva alta. Es un shock tipo I o II, donde la pérdida sanguínea disminuye el volumen intravascular y compromete el gasto cardíaco. El paciente entra en respuesta compensatoria con taquicardia. El shock distributivo cursa con vasodilatación (como en sepsis), el cardiogénico con falla de bomba y el obstructivo con impedimento al llenado.
+
+### CB-060 | SARS-CoV-2: neumocito tipo II | 2021
+Diabético de 58 años, con sospecha de COVID 19. Al examen: dificultad respiratoria, SatO₂: 84%, Rx de tórax: signos de marcado compromiso alveolar. ¿Cuál célula es la afectada directamente?
+   A) Macrófago alveolar
+  *B) Neumocito tipo II
+   C) Neumocito tipo I
+   D) Célula en cepillo
+   E) Célula de Clara
+EXP: Paciente diabético con sospecha de COVID-19 y marcada hipoxemia, que presenta infiltrados alveolares en la radiografía, lo cual indica daño pulmonar severo. El SARS-CoV-2 infecta principalmente a los neumocitos tipo II, que expresan la enzima ACE2, puerta de entrada del virus. Estas células son responsables de la producción de surfactante, regeneración del epitelio alveolar y reparación del daño. Al destruirse, se pierde surfactante, colapsa el alvéolo y se perpetúa el daño inflamatorio. Los neumocitos tipo I permiten el intercambio gaseoso, pero no son el blanco primario. Los macrófagos alveolares actúan en la respuesta inmune secundaria. Las células en cepillo tienen función sensorial en la vía aérea, sin relación directa con el daño viral.

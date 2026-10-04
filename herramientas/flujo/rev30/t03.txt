@@ -1,0 +1,224 @@
+### PED-146 | Atresia esofágica | 2023
+RN masculino cuando lacta presenta episodios de tos y asfixia. Examen: tórax: retracción intercostal y crepitantes en HTD. Rx tórax: SNG se enrolla en el esófago proximal. ¿Cuál es el diagnóstico probable?
+   A) Atresia intestinal
+   B) Gastrosquisis
+   C) Hipertrofia de píloro
+  *D) Atresia esofágica
+   E) Fístula traqueoesofágica en H aislada
+EXP: En este RN con episodios de tos y asfixia durante la lactancia en el cual se observa la sonda nasogástrica enrollada en el esófago proximal, el diagnóstico más probable es una Atresia esofágica (Opción D). La atresia esofágica es una malformación congénita en la que el esófago termina en una bolsa ciega en lugar de conectarse con el estómago. Esto puede causar dificultad para alimentarse, tos y asfixia durante la lactancia, ya que el alimento no puede pasar del esófago al estómago. Además, el hecho de que la sonda nasogástrica (SNG) se enrolle en el esófago proximal en la radiografía de tórax es un hallazgo clásico de atresia esofágica.
+
+### PED-147 | Varicela: lesiones en distintos estadios | 2023
+Niño de 5 años, traído por presentar desde hace 5 días lesiones pruriginosas en la piel, malestar y fiebre. Examen: lesiones en mucosa oral, vesículas con contenido purulento en cabeza, costras en cuero cabelludo y pápulas eritematosas en tronco, extremidades y genitales; resto no contributorio. ¿Cuál es el diagnóstico?
+   A) Escabiosis
+  *B) Varicela
+   C) Sarampión
+   D) Piodermitis
+   E) Impétigo
+EXP: El diagnóstico más probable basado en la descripción de las lesiones cutáneas y los síntomas del niño es Varicela (Opción B). La varicela es una infección viral causada por el virus varicela-zóster. Se caracteriza por la presencia de lesiones cutáneas pruriginosas que comienzan como máculas rojas que evolucionan rápidamente a vesículas llenas de líquido claro que luego se rompen y forman costras. Estas lesiones pueden aparecer en cualquier parte del cuerpo, incluidas la mucosa oral y las extremidades. La varicela también se asocia comúnmente con fiebre, la cual precede a la aparición del exantema por unos días.
+
+### PED-148 | Resfrío común en el preescolar | 2023
+Niño de 3 años es traído por emergencia por presentar dolor de garganta, congestión nasal y rinorrea. Examen: T 36.8 ºC, FR 20 X´, FC 70 X´; faringe no congestiva sin placas. Resto no contributorio. ¿Cuál es el diagnóstico?
+  *A) Resfrío común
+   B) Rinitis vasomotora
+   C) Rinosinusitis
+   D) Faringitis aguda
+   E) Mononucleosis infecciosa
+EXP: Niño de 3 años presenta cuadro de dolor faríngeo, congestión nasal y rinorrea, sin fiebre ni signos inflamatorios importantes. En el examen físico no hay faringe eritematosa ni placas, lo que descarta una faringitis aguda. Tampoco hay hallazgos clínicos o duración compatibles con rinosinusitis. La rinitis vasomotora es un diagnóstico poco frecuente en pediatría, de causa no infecciosa, y se caracteriza por rinorrea acuosa crónica, no por un cuadro agudo. Así, el cuadro clínico es típico de una infección viral leve del tracto respiratorio superior, más conocida como resfrío común, causado por rinovirus, coronavirus, entre otros. Suele ser autolimitado y n o requiere antibióticos. En conclusión, el diagnóstico más probable es resfrío común.
+
+### HEM-029 | Coagulación intravascular diseminada en la sepsis | 2020
+Varón de 48 años hace 4 días diagnóstico de piocolecisto, actualmente en sepsis. Presenta hematuria y lesiones purpúricas en miembros inferiores. Hto: 28%, leucocitos: 23,300/mm³, plaquetas: 75,000/mm³; protrombina, TTPa y tiempo de trombina prolongados; fibrinógeno disminuido. ¿Cuál es el probable diagnóstico?
+   A) Déficit de vitamina K
+   B) Hemofilia A
+   C) Púrpura trombocitopénica autoinmune
+  *D) Coagulación intravascular diseminada
+   E) Púrpura trombocitopénica trombótica
+EXP: El paciente presenta un cuadro de sepsis secundaria a una infección biliar complicada (piocolecisto), seguido de signos de sangrado (hematuria, púrpura), trombocitopenia, alargamiento de los tiempos de coagulación (TP, TTPa y TT), y disminución del fibrinógeno. Este perfil clínico y de laboratorio es característico de una coagulación intravascular diseminada (CID), una complicación grave de la sepsis que lleva a consumo masivo de factores de coagulación y plaquetas. La CID se diferencia de otras coagulopatías porque incluye tanto signos de sangrado como de trombosis, y se asocia a condiciones graves como infecciones, traumatismos o malignidades.
+
+### GIN-146 | Cesárea corporal previa en trabajo de parto: cesárea | 2020
+Gestante de 42 años, a término, cesárea anterior con incisión corporal, en inicio de trabajo de parto con sangrado vaginal moderado. ¿Cuál es la conducta a seguir?
+  *A) Cesárea de emergencia
+   B) Control de sangrado, solicitar grupo sanguíneo y Rh
+   C) Monitoreo electrónico
+   D) Inducción de parto vaginal
+   E) Esperar parto vaginal con monitoreo
+EXP: Se trata de una gestante a término, con cesárea previa con incisión corporal, que presenta sangrado vaginal moderado durante el inicio del trabajo de parto. Esta situación es de alto riesgo obstétrico, ya que la incisión corporal previa está asociada a mayor probabilidad de rotura uterina ante contracciones uterinas, lo cual se considera una emergencia. El sangrado vaginal en este contexto no se debe asumir como fisiológico o normal; más bien es una señal de posible ruptura uterina o desprendimiento placentario, condiciones que comprometen tanto la vida materna como la fetal. Por ello, no se debe esperar ni intentar parto vaginal, sino actuar con una cesárea de emergencia para prevenir desenlaces fatales.
+
+### INF-078 | Meningitis criptocócica en VIH: tinta china | 2020
+Varón de 32 años, diagnosticado con HIV hace 5 años, con cefalea global que se incrementa desde hace 20 días, llegando a ser “insoportable” que no cede con analgésicos. Niega náuseas y vómitos. Al examen: rigidez de nuca, sin signos de focalización. ¿Qué procedimiento confirmaría el diagnóstico?
+   A) Biopsia cerebral con tinción tricrómica
+  *B) Estudio directo de líquido cefalorraquídeo con tinta china
+   C) Gota gruesa con tinción ortocromática
+   D) RMN de encéfalo con difusión
+   E) Electroencefalograma
+EXP: Paciente con VIH y cefalea subaguda progresiva con rigidez de nuca: la meningitis criptocócica es la causa más probable. El diagnóstico se confirma en el LCR con tinta china (levaduras encapsuladas) y, idealmente, con antígeno criptocócico. La tomografía o la RM no confirman el agente, y la gota gruesa sirve para malaria.
+
+### END-043 | Enfermedad de Addison | 2020
+Mujer de 35 años, desde hace 5 meses con astenia, diarrea y pérdida de peso. Al examen: PA 85/60 mmHg, FC 70 x’, hiperpigmentación de piel, hiperkalemia, hiponatremia e hipoglicemia. ¿Cuál es el diagnóstico más probable?
+  *A) Enfermedad de Addison
+   B) Hiperaldosteronismo
+   C) Feocromocitoma
+   D) Hipotiroidismo primario
+   E) Hipoparatiroidismo
+EXP: La paciente presenta síntomas y signos típicos de insuficiencia suprarrenal primaria (enfermedad de Addison): astenia, pérdida de peso, hipotensión, hiperkalemia, hiponatremia e hipoglicemia. La hiperpigmentación es característica por el aumento de MSH. Estos datos confirman un déficit de cortisol y aldosterona.
+
+### TRA-033 | Trauma cervical alto: collarín | 2020
+¿Cuál es la prescripción inicial en un paciente con traumatismo cervical alto?
+  *A) Collarín
+   B) Vasopresores
+   C) Antibióticos
+   D) Corticoides
+   E) Tracción cervical inmediata
+EXP: En un paciente con traumatismo cervical alto, la prescripción inicial fundamental es la inmovilización mediante collarín cervical. Esto es esencial para prevenir el desplazamiento de las vértebras y evitar un daño medular secundario que podría provocar parálisis o compromiso neurológico grave. La inmovilización temprana estabiliza la columna cervical durante la evaluación clínica y los estudios diagnósticos, garantizando la protección de las vías nerviosas. Otras intervenciones, como vasopresores o corticoides, se consideran después de la estabilización inicial y dependiendo del cuadro clínico específico.
+
+### SP-109 | Desnutrición: fortalecer la acción comunitaria | 2020
+En un distrito del norte de Perú, el índice de desnutrición aumenta. ¿Qué acción debe priorizar el equipo de salud para revertir esta situación?
+   A) Vigilancia epidemiológica de no transmisibles
+   B) Aprobar políticas públicas saludables
+  *C) Fortalecer la acción comunitaria para la salud
+   D) Solicitar contrato de infectólogos
+   E) Construir un hospital de nivel III
+EXP: Ante el aumento del índice de desnutrición, la acción prioritaria del equipo de salud debe ser fortalecer la acción comunitaria para la salud. Esto implica trabajar directamente con la población, promoviendo educación nutricional, mejorando el acceso a alimentos adecuados y fomentando prácticas saludables. La participación comunitaria es clave para identificar problemas locales, implementar estrategias adaptadas y lograr cambios sostenibles. Aunque las políticas públicas son importantes, su impacto depende de la efectividad de las intervenciones a nivel comunitario.
+
+### SP-110 | Error tipo I (alfa) | 2020
+Cuando en una investigación se asume erróneamente que la hipótesis nula es falsa, ¿qué tipo de error se está cometiendo?
+   A) Error tipo II (beta)
+   B) Error de diseño metodológico
+  *C) Error tipo I (alfa)
+   D) Error de aleatorización
+   E) Error de medición
+EXP: El error que se comete al asumir erróneamente que la hipótesis nula es falsa es el error tipo I o alfa. Este error ocurre cuando se rechaza la hipótesis nula siendo en realidad verdadera, lo que implica un falso positivo. Es fundamental en la interpretación de resultados, ya que un error tipo I puede llevar a conclusiones incorrectas y afectar la validez del estudio. Controlar este error es clave para la confiabilidad de las investigaciones científicas.
+
+### NEF-067 | Lesión renal prerrenal por diarrea: reto de fluidos | 2020
+Varón de 48 años con diarrea de alto flujo presenta diuresis de 200 ml en 24 horas. Lab: Na (orina) <20 meq/L, excreción fraccionada de sodio <1%, creatinina en orina/plasma > 40, creatinina sérica 1.8 mg/dl. ¿Cuál es la indicación a seguir?
+  *A) Reto de fluidos
+   B) Observación ambulatoria
+   C) Uso de diuréticos
+   D) Dopamina a dosis diuréticas
+   E) Hemodiálisis de urgencia
+EXP: Paciente con diarrea severa y signos de hipoperfusión renal (oliguria, Na urinario <20, FENa <1%, razón Cr orina/plasma >40), compatible con una injuria renal prerrenal por deshidratación. El tratamiento inmediato es la reposición con fluidos (reto de volumen), lo cual permite revertir la hipoperfusión si es detectada a tiempo.
+
+### REU-044 | Espondiloartritis axial: dolor lumbar inflamatorio | 2020
+Varón de 51 años, desde hace más de 5 años presenta episodios de dolor glúteo bilateral, de predominio nocturno, que interfiere el sueño y alivia con la movilización. Examen: Test de Schöber positivo. Laboratorio: PCR 20.5 mg/dl. ¿Cuál es el diagnóstico más probable?
+  *A) Espondiloartritis seronegativa
+   B) Esclerosis sistémica
+   C) Osteoartritis focal
+   D) Artritis reumatoide
+   E) Lumbalgia mecánica
+EXP: Clínicamente, el dolor inflamatorio de columna (dolor nocturno, alivio con movimiento) en un adulto mayor, sumado a la rigidez matutina y a un Test de Schöber positivo (limitación de movilidad lumbar), orienta a una espondiloartritis axial. La elevación de PCR respalda inflamación activa. Dado que no se menciona factor reumatoide positivo, se trata de una espondiloartropatía seronegativa, siendo la más común la espondilitis anquilosante.
+
+### SP-111 | Bocio endémico: sal yodada | 2020
+Agricultor de 50 años procedente de Huancavelica, en la consulta se aprecia aumento de volumen en la región cervical anterior. Palpación: consistencia blanda, no dolorosa, no nódulos. No refiere dificultad para pasar saliva. No siendo caso aislado, salud pública plantea instaurar un programa que oferte:
+  *A) Promocionar la sal yodada
+   B) Promocionar el aceite yodado
+   C) Retirar de la dieta alimentos bociógenos
+   D) Potabilizar el agua
+   E) Levotiroxina a toda la población
+EXP: La aparición de bocio endémico en zonas altoandinas como Huancavelica está relacionada con deficiencia crónica de yodo en la dieta. La estrategia de salud pública más efectiva y sostenible es la yodación universal de la sal, que corrige y previene el déficit poblacional. Otras opciones como el aceite yodado o la eliminación de bociógenos pueden considerarse, pero no son medidas de impacto poblacional sostenido como la sal yodada.
+
+### CB-055 | Escorbuto en el alcohólico: vitamina C | 2020
+Alcohólico de 55 años. Refiere epistaxis frecuentes, sangrado gingival y dolor en la cadera izquierda. Examen: adelgazado, piel con equimosis y petequias en MMSS, muslos y pies. Gingivas con sangrado. El cuadro descrito se correlaciona mejor con la deficiencia de la siguiente vitamina:
+  *A) C
+   B) B1
+   C) B6
+   D) K
+   E) B12
+EXP: El alcoholismo crónico se asocia con malnutrición y deficiencias vitamínicas. El cuadro clínico descrito — sangrados espontáneos, equimosis, petequias, dolor óseo y gingivorragia — es clásico de escorbuto, causado por déficit de vitamina C, esencial en la síntesis de colágeno. No se trata de una coagulopatía por déficit de vitamina K ni de neuropatía (vitamina B1 o B6).
+
+### CAR-053 | Diabético coronario con dislipidemia: estatina | 2020
+Varón 56 años con cardiópata coronario y diabético se realiza un perfil lipídico que muestra los siguientes valores: Colesterol total: 224 mg/dl, Colesterol LDL: 120 mg/dl, HDL: 35 mg/dl, triglicéridos: 245 mg/dl. ¿Cuál es el tratamiento indicado?
+  *A) Estatina
+   B) Fibrato
+   C) Inhibidores del PCSK9
+   D) Ezetimiba
+   E) Ácidos grasos omega-3
+EXP: En pacientes con riesgo cardiovascular alto (diabético + cardiópata), la prioridad es reducir el LDL, incluso si no es muy elevado. Las estatinas son el tratamiento de elección porque reducen el riesgo cardiovascular global. Aunque los triglicéridos están elevados, el LDL aún es el objetivo primario. Los fibratos pueden añadirse si los TG > 500 mg/dl.
+
+### END-044 | Hipertrigliceridemia: dieta con pescado azul | 2020
+Obeso con perfil lipídico de: triglicéridos 400 mg/dl, colesterol 210 mg/dl, HDL 35 mg/dl, LDL 95 mg/dl. Se recomienda dieta en base a:
+   A) Aceite de coco
+   B) Aceitunas
+  *C) Pescados azules
+   D) Hígado de pollo
+   E) Mantequilla y lácteos enteros
+EXP: El paciente presenta una hipertrigliceridemia severa con colesterol total y HDL alterados, lo que sugiere un perfil dislipidémico mixto. En este contexto, se debe priorizar el consumo de grasas poliinsaturadas, como las contenidas en los pescados azules (salmón, atún, caballa). Estos ácidos grasos omega-3 ayudan a reducir significativamente los niveles de triglicéridos y tienen efectos antiinflamatorios. Las aceitunas y el aceite de coco no son ideales por su contenido en grasas saturadas o efectos neutros. El hígado de pollo, además, es rico en colesterol. Por tanto, los pescados azules son la mejor recomendación dietética inicial.
+
+### SP-112 | Variable independiente y dependiente | 2020
+Un equipo de investigación desea estudiar los efectos de la música de fondo versus el empleo de analgésicos entre los pacientes atendidos en un servicio de emergencia bastante ruidoso. ¿Cuál es la variable independiente y cuál la variable dependiente?
+   A) Ruido ambiental (independiente), uso de analgésicos (dependiente)
+   B) Uso de analgésicos (independiente), música de fondo (dependiente)
+  *C) Música de fondo (independiente), uso de analgésicos (dependiente)
+   D) Música de fondo (independiente), ruido ambiental (dependiente)
+   E) Uso de analgésicos (independiente), ruido ambiental (dependiente)
+EXP: En un estudio experimental, la variable independiente es la que se manipula para observar su efecto, mientras que la variable dependiente es la que se mide. En este caso, el equipo investiga cómo la música de fondo influye en el uso de analgésicos. Por ello, la música de fondo es la variable independiente y el uso de analgésicos la variable dependiente. Esta distinción es clave para diseñar el estudio y analizar correctamente los resultados. La claridad en estas variables garantiza un enfoque metodológico adecuado.
+
+### SP-113 | Correlación: mide asociación | 2020
+Usted decide investigar las posibles razones del incremento de casos de insomnio en su comunidad después de la muerte de 3 comuneros afectados por COVID-19. Para ello empleará en su diseño el análisis de correlación, debido a que este permite identificar la ______ entre variables:
+   A) Diferencia
+  *B) Asociación
+   C) Regresión
+   D) Variación
+   E) Causalidad
+EXP: El análisis de correlación permite identificar la relación o asociación entre dos variables, sin establecer causalidad. En la investigación del aumento de insomnio tras la muerte por COVID-19, es útil para determinar si existe un vínculo entre variables como el duelo y la calidad del sueño. No mide diferencias ni predice cambios, sino la fuerza y dirección del vínculo entre factores. Este método es fundamental para estudios epidemiológicos exploratorios en salud pública. La interpretación adecuada facilita la toma de decisiones.
+
+### CB-056 | Latrodectismo: dolor, rigidez y sudoración | 2020
+Paciente de 10 años de edad, refiere que luego de regresar del campo inicia dolor tipo lanceta urente en pierna derecha, a las 2 horas dolores musculares y temblores de todo el cuerpo. Llevado a emergencia se observa sudoración profusa, sialorrea y rigidez abdominal. En miembro inferior se observa lesión edematosa rojiza. ¿Cuál es el diagnóstico más probable?
+   A) Leptospirosis
+   B) Loxocelismo
+   C) Escorpionismo
+  *D) Lactrodectismo
+   E) Ofidismo
+EXP: El cuadro clínico descrito corresponde al lactrodectismo, causado por la mordedura de la viuda negra (Latrodectus). El dolor intenso tipo lanceta, rigidez muscular, sudoración y sialorrea son característicos. La lesión edematosa rojiza también es típica en la zona de la mordedura. Este envenenamiento produce una activación del sistema nervioso autónomo y síntomas sistémicos. El diagnóstico clínico es fundamental para iniciar tratamiento específico y evitar complicaciones. Reconocer esta toxidermia es clave en zonas endémicas.
+
+### HEM-030 | Anemia ferropénica en la gestante | 2020
+Gestante de 6 meses, consulta por palidez. Estudio hemático: hemoglobina 8 g/dl. Constantes corpusculares disminuidas. Anisocitosis ++, hipocromía ++, presencia de microcitos y reticulocitos disminuidos. Estos hallazgos son compatibles con una anemia:
+   A) Perniciosa
+   B) Aplásica
+  *C) Ferropénica
+   D) Hemolítica
+   E) Sideroblástica
+EXP: Gestante de 6 meses con Hb 8 g/dl y constantes corpusculares disminuidas orienta a anemia microcítica hipocrómica. La presencia de anisocitosis, hipocromía, microcitos y reticulocitos bajos descarta hemólisis y sugiere defecto en síntesis de hemoglobina. La causa más común en gestantes es anemia ferropénica, por aumento de requerimientos y déficit de hierro. Se descarta anemia megaloblástica por la morfología. La anemia aplásica cursa con pancitopenia, y la hemolítica con reticulocitosis. El tratamiento se basa en sulfato ferroso oral y control del tratamiento con ferritina. Es clave iniciar terapia para evitar complicaciones materno-fetales.
+
+### SP-114 | Enfermedades profesionales del personal de salud | 2020
+Se entiende como enfermedad profesional todo estado patológico permanente o temporal, que sobreviene al trabajador como consecuencia directa de la clase de trabajo que desempeña o del medio en que se ha visto obligado a trabajar. Así: ¿Cuáles son consideradas como tales?
+   A) Tos ferina, VIH, tuberculosis, dengue
+  *B) Hepatitis, VIH, tuberculosis, COVID-19
+   C) Hepatitis, tuberculosis, malaria, dengue
+   D) VIH, tuberculosis, fiebre amarilla, COVID-19
+   E) Diabetes, hipertensión, asma, obesidad
+EXP: Las enfermedades profesionales son aquellas contraídas como resultado directo del trabajo realizado o del ambiente laboral. En el sector salud, los agentes biológicos como el virus de hepatitis B, VIH, tuberculosis y COVID-19 son reconocidos como enfermedades profesionales. Estas infecciones están contempladas por su riesgo de transmisión ocupacional. Se excluyen enfermedades como dengue o malaria, que no se adquieren por actividad habitual laboral. La legislación laboral considera el vínculo causal directo con la actividad para su reconocimiento. La detección temprana protege al trabajador y permite implementar protocolos de bioseguridad. El reporte y vigilancia son obligatorios.
+
+### GIN-147 | Parto gemelar: la presentación define la vía | 2020
+En un caso de embarazo múltiple, a término, el manejo intraparto está determinado por:
+  *A) Presentación de los gemelos
+   B) Tamaño de los gemelos
+   C) Número de placentas
+   D) Dinámica uterina
+   E) Peso materno
+EXP: En el embarazo múltiple, la vía del parto se define principalmente por la presentación de los fetos. Si el primer gemelo está en presentación cefálica, se puede optar por parto vaginal bajo monitoreo estricto. En cambio, si está en presentación podálica o transversa, se indica cesárea. La presentación del segundo gemelo también influye, pero es secundaria a la del primero. El tamaño fetal o el número de placentas no determinan por sí solos la vía del parto. La dinámica uterina es relevante para el progreso del trabajo de parto, no para decidir la vía inicialmente. La ecografía intraparto orienta esta decisión.
+
+### GIN-148 | Corioamnionitis: no usar tocolíticos | 2020
+Mujer con gestación de 31 semanas, fiebre (39 °C), contracciones uterinas esporádicas, feto en longitudinal cefálico izquierdo, latidos fetales 165 por minuto. Usted NO indicaría uno de los siguientes medicamentos:
+   A) Antibióticos
+  *B) Tocolíticos
+   C) Corticoides
+   D) Sulfato de magnesio
+   E) Paracetamol
+EXP: Gestante con fiebre, taquicardia fetal y dinámica uterina irregular sugiere un cuadro de infección intraamniótica, como corioamnionitis. En este contexto, el uso de tocolíticos está contraindicado, ya que prolongar el embarazo ante una infección puede poner en riesgo la vida del binomio madre-hijo. En cambio, el uso de antibióticos, corticoides para maduración pulmonar y sulfato de magnesio por neuroprotección fetal son indicaciones adecuadas. Por lo tanto, el manejo debe excluir tocolíticos. Así, el fármaco que NO debe indicarse en este caso clínico es el tocolítico.
+
+### GIN-149 | Fase latente del trabajo de parto: deambular | 2020
+Primigesta de 39 semanas, con dinámica uterina adecuada. Altura uterina de 34 cm. Feto en longitudinal cefálico izquierdo, latidos fetales: 140/min. Al tacto vaginal: dilatación 3 cm, altura de presentación en-2, pelvis: diámetro conjugado diagonal de 12.5 cm, diámetro bicíatico de 8 cm, diámetro biisquiático 8 cm. Luego de evaluarla usted indicaría:
+   A) Terminación del parto por cesárea
+  *B) Que deambule hasta que se encuentre en fase activa
+   C) Hospitalización e hidratación
+   D) Estimulación uterina
+   E) Fórceps profiláctico
+EXP: Gestante con dinámica uterina adecuada, 3 cm de dilatación y presentación en-2 indica que está en fase latente del trabajo de parto. La pelvis presenta medidas limítrofes, pero no claramente patológicas. En esta etapa, la conducta indicada es expectante, y permitir la deambulación favorece el progreso del trabajo de parto. No hay indicación para cesárea, estimulación uterina ni hospitalización inmediata. Se debe favorecer un entorno ambulatorio y vigilancia. Por tanto, lo correcto es permitir que deambule hasta que se establezca la fase activa.
+
+### END-045 | Hipoglucemia grave: dextrosa hipertónica EV | 2020
+Varón de 59 años en consulta, con antecedentes de diabetes insulino-dependiente. Refiere que hoy, 3 horas después de aplicación de insulina, presenta: diaforesis, palidez, desorientación. Glucocinta: 38 mg%. ¿Cuál sería la indicación de emergencia inmediata?
+  *A) Administrar dextrosa al 33% endovenosa
+   B) Administrar 100 ml de dextrosa al 5%
+   C) Realizar un EKG
+   D) Aplicar gluconato de calcio EV
+   E) Insulina rápida subcutánea
+EXP: El paciente con glucosa de 38 mg/dL y síntomas neuroglucopénicos severos (diaforesis, desorientación, palidez) está cursando una hipoglicemia severa, situación de emergencia médica. En este contexto, la medida inmediata es la administración de glucosa hipe rtonica endovenosa, comúnmente en forma de dextrosa al 33% EV para una rápida reversión de los síntomas. No corresponde esperar, usar soluciones hipotónicas ni gluconato de calcio. El EKG es irrelevante en esta urgencia.

@@ -1,0 +1,224 @@
+### INF-082 | Signo de Romaña: enfermedad de Chagas aguda | 2020
+Adolescente de 12 años en consulta por inflamación del ojo izquierdo. Examen: edema bipalpebral unilateral, adenopatía preauricular, hiperemia de la conjuntiva. Antecedente: procedente de un valle costero de la región suroccidental del Perú. ¿Cuál es el diagnóstico más probable?
+   A) Latrodectismo
+   B) Loxocelismo
+   C) Bartonelosis
+  *D) Tripanosomiasis
+   E) Celulitis periorbitaria bacteriana
+EXP: Edema bipalpebral unilateral, indoloro, con conjuntivitis y adenopatía preauricular (signo de Romaña) en un niño del sur del Perú (Arequipa, Moquegua, Tacna, zona endémica de Triatoma infestans) orienta a la fase aguda de la enfermedad de Chagas (tripanosomiasis americana). Se confirma buscando el parásito en sangre y se trata con benznidazol o nifurtimox.
+
+### SP-115 | Carga global de enfermedad: AVAD | 2020
+Para saber qué regiones fueron beneficiadas con una intervención que buscó reducir la discapacidad prematura, el ministro de Salud debe solicitar:
+   A) Ensayos clínicos
+  *B) Carga global de enfermedad
+   C) Estudios descriptivos
+   D) El ASIS
+   E) Censo de población
+EXP: Cuando se desea evaluar el efecto de una intervención en términos de reducción de discapacidad prematura, la herramienta adecuada es la carga global de enfermedad (GBD). Este enfoque permite medir los AVAD (años de vida ajustados por discapacidad), combinando mortalidad y morbilidad. Es útil para tomar decisiones de política sanitaria basada en evidencia. Ensayos clínicos miden eficacia, no impacto poblacional; los estudios descriptivos caracterizan, pero no cuantifican impacto; y el ASIS ofrece una foto situacional, pero no permite análisis de resultados.
+
+### PED-150 | BCG sin cicatriz: no revacunar | 2020
+Lactante de 4 meses que no presenta cicatriz ni nódulo de BCG, con certificado de inmunizaciones completo ¿Qué conducta se deberá adoptar?
+  *A) No requiere revacunación
+   B) Revacunar de inmediato
+   C) Revacunar al ingreso escolar
+   D) Revacunar al año de edad
+   E) Aplicar PPD antes de revacunar
+EXP: La BCG se aplica al nacer y no siempre deja cicatriz visible, lo cual no significa que no fue efectiva. En menores de 1 año, si el niño está sano, no se recomienda revacunar si existe constancia de vacunación, como ocurre en este caso. El Ministerio de Salud y la OMS no indican revacunación basándose solo en la ausencia de cicatriz. Esta conducta evita sobreinmunización innecesaria y complicaciones locales.
+
+### PED-151 | Fiebre con sonda vesical en niño hospitalizado: urocultivo | 2020
+Niña de 3 años, postración permanente por Paralisis Cerebral Infantil, ingresa de emergencia por deshidratación severa y diarreas acuosas, se le indica balance hidroelectrolítico estricto, sonda nasogástrica y vesical. A los 2 días presenta malestar general y T: 39°C. ¿Cuál es el examen auxiliar más pertinente?
+  *A) Urocultivo y antibiograma
+   B) Frotis sanguíneo con tinción Gram
+   C) Hemocultivo y antibiograma
+   D) Mielocultivo y recuento diferencial
+   E) Coprocultivo
+EXP: En pacientes con Parálisis Cerebral Infantil (PCI) que están encamados y con dispositivos invasivos como la sonda vesical, la fiebre adquirida en el hospital obliga a pensar en una infección urinaria nosocomial. El examen más pertinente es el urocultivo con antibiograma, para identificar el agente causal y orientar la terapia antibiótica de forma específica. Las infecciones urinarias asociadas a sondaje son frecuentes y deben manejarse con criterios clínico-bacteriológicos.
+
+### SP-116 | Sarampión: caso importado | 2020
+Varón de 23 años, hace 15 días estuvo en un país con transmisión de sarampión, presenta fiebre y erupción exantemática maculo popular generalizada, no vesicular y tiene resultados ELISA IgM (+) ¿Como se clasifica el caso?
+  *A) Importado
+   B) Sospechoso
+   C) Autóctono
+   D) Inmunizado
+   E) Descartado
+EXP: En el contexto epidemiológico del Perú, donde el sarampión es eliminado, un caso con exantema febril y prueba IgM positiva, asociado a viaje reciente a zona endémica, se clasifica como caso importado. Esta clasificación es relevante para las acciones de vigilancia epidemiológica. No es autóctono porque el contagio no ocurrió en el país. Tampoco es sospechoso, porque ya tiene confirmación por laboratorio.
+
+### PED-152 | Hipoglucemia neonatal sintomática: bolo de glucosa EV | 2020
+Neonato de 34 semanas de EG, 48 horas de vida, presenta taquipnea y vómitos posprandiales. FC:150x', FR: 60x', T° 37.5°C. Hipoactivo, hidratado, con tremores en manos. Hemograma normal, glicemia 40 mgr/dl ¿Cuál es el tratamiento indicado?
+   A) Aportar leche materna
+  *B) 200mgr/kg glucosa EV
+   C) Dar leche maternizada
+   D) Solución glucosada al 5% VO
+   E) Fototerapia
+EXP: La hipoglucemia neonatal (< 45 mg/dl) en un prematuro de 34 semanas, sobre todo si presenta síntomas como vómitos, tremores o hipoactividad, requiere tratamiento inmediato con glucosa EV. La vía oral no es suficiente ni segura en estos casos. Se administra en bolo 200 mg/kg (es decir, 2 mL/kg de glucosa al 10%). Esta corrección rápida es fundamental para prevenir daño neurológico.
+
+### GIN-154 | Suplementación de calcio desde las 20 semanas | 2020
+¿Desde y hasta cuándo se indica la suplementación profiláctica de Calcio en las gestantes?
+  *A) Desde las 20 semanas hasta el término de la gestación
+   B) Hasta las 12 semanas de la gestación
+   C) Desde las 13 hasta las 19 semanas de la gestación
+   D) Las últimas 4 semanas de la gestación
+   E) Solo durante el puerperio
+EXP: La suplementación con calcio en gestantes busca prevenir complicaciones como la preeclampsia. Se recomienda iniciarla a partir de las 20 semanas de gestación hasta el término, sobre todo en poblaciones con baja ingesta de calcio. Esta medida ha demostrado reducir la incidencia de trastornos hipertensivos en el embarazo. No se recomienda iniciarla antes de las 20 semanas ni solo en las últimas semanas.
+
+### PED-153 | CRED: controles en el primer año | 2020
+En el control de crecimiento y desarrollo por etapa de vida en los establecimientos del Perú, ¿Cuántos controles se indica al niño en el primer año de vida?
+   A) 4 en el año, tres en el último trimestre
+   B) 6 en el año bimensual
+  *C) 4 en el primer mes y uno cada mes
+   D) 2 en el año cada seis meses
+   E) 1 al año
+EXP: El control de crecimiento y desarrollo (CRED) es una actividad preventiva clave durante la infancia. Según la normativa del Ministerio de Salud del Perú, durante el primer año se deben realizar al menos 12 controles. Se recomienda 4 en el primer mes (al nacer, 7, 14 y 28 días) y uno mensual hasta el primer año. Esta frecuencia permite evaluar nutrición, desarrollo psicomotor, estado inmunológico, detección temprana de enfermedades y vínculo madre-hijo. También se monitorea el cumplimiento del calendario de vacunas. El enfoque es integral e incluye consejería a la madre.
+
+### SP-117 | Incidencia acumulada | 2020
+En un grupo de 1,000 personas aparecen 45 casos nuevos de una enfermedad ¿Cuál de las siguientes afirmaciones es correcta?
+  *A) La incidencia es de 45 por 1000
+   B) La prevalencia es de 45 por 1000
+   C) El riesgo relativo es de 45 por 1000
+   D) El riesgo atribuible es de 45 por 1000
+   E) La letalidad es de 45 por 1000
+EXP: La incidencia mide el número de casos nuevos de una enfermedad en una población durante un periodo determinado. En este caso, al registrarse 45 casos nuevos en una población de 1,000 personas, se reporta una incidencia de 45 por 1,000. Esta medida es útil para conocer la magnitud del riesgo y para evaluar la efectividad de programas de prevención. A diferencia de la prevalencia, que incluye casos antiguos y nuevos, la incidencia se enfoca solo en los nuevos. No debe confundirse con el riesgo relativo, que se calcula entre expuestos y no expuestos.
+
+### CB-059 | Vacunas: inmunidad activa | 2020
+Cando se administra una vacuna. ¿Qué tipo de inmunidad se induce?
+   A) Mixta
+   B) Pasiva
+  *C) Activa
+   D) Heterógrada
+   E) Innata
+EXP: La inmunización activa es la que se induce mediante vacunas, ya que estas estimulan al sistema inmune a producir anticuerpos y memoria inmunológica duradera. A diferencia de la inmunidad pasiva (que se adquiere por anticuerpos preformados como los de madre a hijo o sueros), la inmunidad activa tarda más en desarrollarse, pero tiene efecto protector prolongado. Esto es esencial en la prevención de enfermedades infecciosas como el sarampión, la hepatitis B, tétanos, entre otras. El objetivo es proteger al individuo y, en muchos casos, alcanzar inmunidad colectiva.
+
+### SP-118 | Transmisión por vehículo: agua contaminada | 2020
+En un hospital se aíslan en los suministros de agua potable, pseudomonas y otras bacterias gran negativas, inmediatamente se toman medidas contra la trasmisión por vía:
+   A) Aérea
+  *B) Vehículo
+   C) Vectorial
+   D) Fluidos
+   E) Contacto directo persona a persona
+EXP: En epidemiología, la transmisión por vehículo implica el transporte del agente infeccioso a través de un objeto inanimado como agua, alimentos o instrumentos. En este caso, la identificación de Pseudomonas y otras bacterias gramnegativas en el sistema de agua potable indica una fuente de contaminación que puede producir brotes intrahospitalarios. Se requiere intervención inmediata como limpieza del sistema, vigilancia microbiológica y protección de pacientes inmunocomprometidos. La vía de transmisión no es aérea ni vectorial, sino por vehículo contaminado: el agua.
+
+### SP-119 | Acreditación: autoevaluación | 2020
+En el proceso de acreditación de los servicios de salud, ¿Cómo se denomina la valoración realizada por el personal de la misma institución?
+  *A) Autoevaluación
+   B) Evaluación externa
+   C) Retroalimentación
+   D) Juicio de expertos
+   E) Auditoría médica externa
+EXP: La autoevaluación es una fase clave en el proceso de acreditación de los servicios de salud, en la cual el propio personal de la institución evalúa el cumplimiento de estándares establecidos. Esta etapa permite identificar fortalezas y debilidades internas, y preparar al establecimiento para una eventual evaluación externa. Su objetivo es fomentar la mejora continua de la calidad del servicio, mediante el análisis crítico de procesos, resultados y documentación. Es una herramienta de autorreflexión institucional valiosa y necesaria.
+
+### REU-045 | Escabiosis en el lactante: permetrina | 2020
+Lactante de 18 meses con lesiones pruriginosas con surcos lineales y pápulas puntiformes con costras en las muñecas, tronco, regiones interdigitales, palmas y planta de los pies y en cara. ¿Cuál es el tratamiento de elección?
+  *A) Permetrina
+   B) Azufre precipitado
+   C) Benzoato de bencilo
+   D) Hexacloruro de benceno
+   E) Ivermectina tópica en menores de 15 kg
+EXP: La escabiosis se manifiesta como prurito intenso, sobre todo nocturno, y lesiones lineales (surcos) en zonas características como pliegues, muñecas, palmas, plantas y tronco. En menores de 2 años, también puede afectar la cara. El tratamiento de elección en lactantes mayores de 2 meses es la permetrina al 5%, una crema segura y eficaz que debe aplicarse en todo el cuerpo por la noche. El benzoato de bencilo es más irritante. El azufre precipitado es alternativa, pero de menor uso por olor y dificultad de aplicación.
+
+### NEU-044 | Asma: factor biológico de mortalidad | 2020
+En el asma ¿Cuál es un factor biológico de mortalidad?
+  *A) Mala respuesta a corticosteroides
+   B) Exposición al humo del tabaco
+   C) Asistencia médica inadecuada
+   D) Trastorno psicológico en la madre
+   E) Sexo femenino
+EXP: Los factores de mortalidad en el asma se agrupan en biológicos, ambientales y asistenciales. Dentro de los factores biológicos, uno de los más importantes es la mala respuesta a los corticosteroides, lo cual impide controlar adecuadamente la inflamación bronquial. Esta resistencia puede llevar a crisis severas con pobre respuesta al tratamiento convencional. A diferencia de factores ambientales como el humo o sociales como el acceso médico, este condicionante biológico influye directamente en la gravedad del asma y su mortalidad.
+
+### REU-046 | Síndrome de piel escaldada estafilocócica (Ritter) | 2020
+Lactante, tercer día con fiebre de 39ºC, irritable y anoréxico. Al examen: eritema difuso periodifícales y en flexuras junto con vesículas y ampollas fláccidas. Signo de Nikolsky (+). ¿Cuál es el probable diagnóstico?
+   A) Epidermólisis ampollosa
+   B) Impétigo ampolloso
+   C) Pénfigo
+  *D) Enfermedad de Ritter
+   E) Necrólisis epidérmica tóxica
+EXP: La descripción clínica: fiebre alta, irritabilidad, eritema difuso, ampollas fláccidas y signo de Nikolsky positivo, es característica del síndrome de la piel escaldada estafilocócica o enfermedad de Ritter. Afecta principalmente lactantes y es causada por la toxina exfoliativa del Staphylococcus aureus. Se diferencia del impétigo ampolloso porque en este último las lesiones son más localizadas y sin compromiso sistémico. Requiere hospitalización, manejo antibiótico y soporte general.
+
+### REU-047 | Onicomicosis en el deportista | 2020
+Adolescente deportista, presenta coloración blanquecina difusa y engrosamiento con separación distal de lecho ungueal del primer dedo de ambos pies. ¿Cuál es el diagnóstico probable?
+   A) Deficiencia de Zinc
+   B) Psoriasis
+  *C) Micosis
+   D) Traumatismo
+   E) Paroniquia bacteriana
+EXP: La onicomicosis es una infección micótica de las uñas, común en deportistas por el uso prolongado de calzado cerrado, sudoración y microtraumatismos. La presentación típica es engrosamiento ungueal, coloración blanquecina o amarilla, fragilidad y separación distal del lecho ungueal. La psoriasis también puede alterar las uñas, pero suele acompañarse de otras lesiones cutáneas. El diagnóstico es clínico, apoyado por examen micológico, y el tratamiento incluye antifúngicos tópicos o sistémicos.
+
+### OFT-034 | Retinoblastoma: estrabismo y reflejo pupilar anormal | 2020
+Niño de 2 años presenta inflamación peri orbitaria y "desviación convergente" de ojo derecho. Examen: irregularidad y ausencia de reflejo pupilar derecho. ¿Cuál es el Diagnostico probable?
+   A) Endooftalmitis
+   B) Vítreo hiperplásico
+   C) Catarata
+  *D) Retinoblastoma
+   E) Conjuntivitis bacteriana
+EXP: La presentación de desviación ocular (estrabismo), pérdida del reflejo rojo pupilar (leucocoria) y síntomas como inflamación peri orbitaria en un niño pequeño, son sugestivos de retinoblastoma, el tumor intraocular más frecuente en pediatría. Es potencialmente mortal y puede comprometer la vi sión, por lo que requiere diagnóstico rápido con fondo de ojo y estudios de imagen. El tratamiento incluye enucleación, quimioterapia o terapia local.
+
+### SP-120 | Brote de dengue: susceptibles, caso y vector | 2020
+Para que se produzca un brote de dengue se requiere la presencia de:
+  *A) Susceptibles, enfermo y mosquito
+   B) Enfermo, clima, vivienda inadecuada
+   C) Enfermo, criaderos y susceptibles
+   D) Susceptibles criaderos y mosquitos
+   E) Vacuna, clima y agua
+EXP: Para que se produzca un brote de dengue se requieren tres elementos: una población susceptible, un enfermo que actúe como reservorio y un mosquito vector que transmita el virus. Estos factores conforman la tríada epidemiológica necesaria para la transmisión. Sin la presencia simultánea de estos elementos, no puede ocurrir un brote epidémico. La prevención incluye control del mosquito Aedes aegypti, eliminación de criaderos y protección de la población susceptible. También es fundamental la vigilancia epidemiológica para detectar casos tempranos. Este conocimiento es esencial para la planificación de estrategias de salud pública.
+
+### PED-154 | RN de muy bajo peso: insuficiencia respiratoria | 2020
+La más frecuente complicación inmediata del RN de peso muy bajo al nacer, es la:
+   A) Hidrocefalia
+   B) Retinopatía
+  *C) Insuficiencia respiratoria
+   D) Malabsorción intestinal
+   E) Retinopatía del prematuro
+EXP: La insuficiencia respiratoria es la complicación inmediata más común en recién nacidos de muy bajo peso. Esto se debe a la inmadurez pulmonar, con déficit de surfactante que dificulta la expansión alveolar. Otros problemas como retinopatía o hidrocefalia son secundarios o a largo plazo. La insuficiencia respiratoria requiere manejo en unidad de cuidados intensivos neonatales, con soporte ventilatorio. La prevención incluye cuidados prenatales y manejo adecuado del parto prematuro. Esta complicación es un reto frecuente en la neonatología moderna.
+
+### PED-155 | Sospecha de sepsis neonatal: hemocultivo | 2020
+RN de 5 horas, antecedentes: RPM de 18 horas, parto eutócico, Apgar 8 al minuto, EG por Capurro 39 semanas. Al examen: T: 38°C, y débil succión. ¿Qué examen permitiría establecer el diagnostico probable?
+   A) PCR
+  *B) Hemocultivo
+   C) Hemograma
+   D) Recuento plaquetas
+   E) Bilirrubina sérica
+EXP: En un recién nacido con fiebre, antecedentes de ruptura prolongada de membranas y succión débil, la sospecha principal es infección neonatal. El hemocultivo es el examen clave para identificar el agente causal. La PCR y hemograma pueden apoyar el diagnóstico, pero no sustituyen la confirmación microbiológica. El diagnóstico temprano es fundamental para iniciar tratamiento antibiótico oportuno. La infección neonatal es una causa importante de morbimortalidad en este grupo etario. La vigilancia estricta en recién nacidos con factores de riesgo mejora el pronóstico.
+
+### TRA-034 | Fractura de cadera: acortamiento y rotación externa | 2021
+Diabética de 85 años, traída en camilla por caída, dolor intenso e incapacidad para movilizar la pierna derecha. Al examen: MID acortado y con rotación externa. ¿Cuál es el diagnóstico presuntivo?
+   A) Luxación de cadera
+  *B) Fractura de cadera
+   C) Fractura de tibia
+   D) Luxación de tobillo
+   E) Esguince de rodilla
+EXP: Mujer anciana diabética con caída, dolor intenso, incapacidad para movilizar pierna y extremidad inferior acortada y en rotación externa sugiere fuertemente una fractura de cadera, específicamente fractura del cuello femoral. Esta lesión es frecuente en adultos mayores con osteoporosis tras trauma de baja energía. La luxación de cadera suele presentar extremidad en rotación interna o externa según tipo, pero el acortamiento es típico de fractura. Diagnóstico y manejo temprano evitan complicaciones graves como trombosis o necrosis avascular.
+
+### CIR-090 | Neumotórax a tensión traumático | 2021
+Varón de 35 años, trasladado a Emergencia tras un accidente. Al examen: P.A: 80/60 mmHg, F.R: 35 x', FC: 110 x', despierto con Glasgow 15, SatO₂: 91 %, ingurgitación yugular (+), MV muy disminuido y timpanismo a la percusión en HTD. ¿Cuál es el diagnóstico más probable?
+   A) Hemotórax masivo derecho
+  *B) Neumotórax a tensión derecho
+   C) Contusión pulmonar
+   D) Taponamiento cardíaco traumático
+   E) Neumotórax simple
+EXP: El paciente presenta signos clásicos de neumotórax a tensión derecho tras trauma, evidenciado por hipotensión, taquipnea, taquicardia, ingurgitación yugular, disminución de murmullo vesicular y timpanismo en hemitórax derecho. El neumotórax a tensión produce compromiso hemodinámico por desplazamiento mediastinal y disminución del retorno venoso, que explican la hipotensión y la ingurgitación yugular. La saturación baja y la frecuencia respiratoria aumentada son signos de hipoxia. Se diferencia del hemotórax masivo porque este presenta matidez a la percusión.
+
+### CIR-091 | Choque hemorrágico sin respuesta a cristaloides: sangre O negativo | 2021
+Varón de 34 años sufre un accidente de tránsito. Al examen: PA: 80/50 mmHg, FC: 127 x', SatO₂: 94%, palidez en incremento, pulso filiforme, abdomen en distensión progresiva y doloroso a la palpación. No responde a infusión de cristaloides con evolución desfavorable, marcada hipotensión y bradicardia. ¿Cuál es la medida de emergencia inmediata a indicar?
+  *A) Transfusión de sangre tipo O Rh negativo
+   B) Transfusión de sangre tipo específica
+   C) Infusión de expansor plasmático
+   D) Infusión de coloides
+   E) Vasopresores como primera medida
+EXP: Paciente con signos de shock hipovolémico debido a probable hemorragia interna abdominal tras accidente, evidenciado por hipotensión, taquicardia, pulso filiforme y abdomen distendido y doloroso. La ausencia de respuesta a cristaloides indica necesidad de transfusión urgente para restaurar volumen sanguíneo y oxigenación tisular. La transfusión con sangre tipo O Rh negativo es la más rápida y segura en emergencias sin tiempo para tipificación sanguínea. Expansores plasmáticos y coloides no reemplazan la pérdida de glóbulos rojos ni mejoran la capacidad de transporte de oxígeno.
+
+### CAR-057 | Fibrilación ventricular: desfibrilar y seguir la RCP | 2021
+Usted se encuentra ejecutando maniobras de RCP y observa en el monitor cardíaco ritmo de fibrilación ventricular. ¿Cuál procedimiento es el indicado?
+  *A) Desfibrilación y continúa con maniobras de RCP
+   B) Masaje cardíaco y espera ver resultados en el monitor
+   C) Continúa con masaje cardíaco y administra lidocaína
+   D) Administra adrenalina y lidocaína
+   E) Cardioversión sincronizada
+EXP: En presencia de fibrilación ventricular durante maniobras de RCP, la desfibrilación eléctrica inmediata es el procedimiento indicado para restaurar el ritmo cardíaco efectivo. El masaje cardíaco debe continuar tras la descarga para mantener la perfusión hasta la recuperación del ritmo. Esperar resultados sin desfibrilar o usar solo medicamentos es ineficaz en fibrilación ventricular. Lidocaína puede usarse como antiarrítmico posterior, pero no sustituye la desfibrilación en la fase inicial. Adrenalina se administra según protocolo, pero no antes de desfibrilar.
+
+### GIN-155 | Incompetencia cervical | 2021
+Gestante de 18 semanas, acude por sensación de pesadez en hipogastrio, niega contracciones, niega pérdida de líquido. Antecedentes de partos inmaduros a las 27 y 25 semanas, precedidos de ruptura de membranas sin contracciones. Al tacto vaginal: dilatación en cinco, borramiento 60 %. ¿Cuál sería su diagnóstico?
+   A) Útero septado
+   B) Parto inmaduro
+   C) Útero bicorne
+  *D) Incompetencia cervical
+   E) Amenaza de aborto
+EXP: En una gestante con antecedentes de partos prematuros asociados a ruptura prematura de membranas, la dilatación cervical precoz sin contracciones ni pérdida de líquido sugiere incompetencia cervical. Esta condición se caracteriza por una incapacidad del cu ello uterino para mantenerse cerrado durante el embarazo, aumentando el riesgo de parto prematuro. La incompetencia cervical suele diagnosticarse por hallazgos clínicos y antecedentes, descartando malformaciones uterinas como útero septado o bicorne, las cuales presentan otras manifestaciones. Por tanto, este diagnóstico explica mejor la sintomatología y hallazgos.
