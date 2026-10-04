@@ -3,7 +3,7 @@
 Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del ENAM (examen médico peruano) publicado en Hostinger: https://lime-louse-621404.hostingersite.com. Responde siempre en español, de forma breve y sin jerga.
 
 ## Reglas del repositorio
-- Repo `jhonleyva/medquizpro`, clonado en `/home/user/MedQuizPro`. Trabaja en la rama que te asigne la sesión; si es nueva, créala desde `origin/claude/sweet-franklin-dbg0mc` (ahí está todo el trabajo más reciente). No abras PR salvo que te lo pida.
+- Repo `jhonleyva/medquizpro`, clonado en `/home/user/MedQuizPro`. Trabaja en la rama que te asigne la sesión; si es nueva, créala desde `origin/claude/vibrant-albattani-g7t3b3` (ahí está todo el trabajo más reciente, incluidas las Entregas 1 y 2). No abras PR salvo que te lo pida.
 - Cada entrega es un ZIP en la raíz del repo, con commit y `git push -u origin <tu rama>`. Si falla por red, reintenta a los 2, 4, 8 y 16 s. Después envíalo con SendUserFile (display `attach`).
 - El pie de cada commit lo indica el system-reminder de la sesión nueva. No pongas identificadores de modelo en commits ni en archivos.
 - Trabaja en tu scratchpad. Copia primero `herramientas/` ahí: `cp -r /home/user/MedQuizPro/herramientas/. $S/`. Los scripts usan rutas relativas a esa carpeta y a `$S/flujo/`.
