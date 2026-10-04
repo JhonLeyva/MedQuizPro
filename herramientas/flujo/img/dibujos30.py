@@ -210,7 +210,41 @@ def compartimentos_pierna():
     guardar(fig, "dib_compartimentos.jpg")
 
 
-HACER = {"torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
+def variables():
+    """Experimento: la variable independiente se manipula (música) y la dependiente se mide (analgésicos)."""
+    from matplotlib.patches import FancyBboxPatch
+    fig, ax = lienzo(100, 50)
+    for x, t, sub, col in ((4, "VARIABLE INDEPENDIENTE", "la que el investigador\nCAMBIA: música sí / no", AZUL),
+                           (58, "VARIABLE DEPENDIENTE", "la que se MIDE:\nuso de analgésicos", ROJO)):
+        ax.add_patch(FancyBboxPatch((x, 12), 38, 22, boxstyle="round,pad=1.2", fc="white", ec=col, lw=3))
+        rot(ax, x + 19, 17.5, t, 14, col)
+        rot(ax, x + 19, 27, sub, 14, TINTA, w="normal")
+    ax.annotate("", xy=(57, 23), xytext=(43, 23), arrowprops=dict(arrowstyle="-|>", lw=4, color=TINTA, mutation_scale=26))
+    rot(ax, 50, 18, "causa", 13, GRIS)
+    rot(ax, 50, 43, "El ruido del servicio es una variable extraña: se controla (igual para todos)", 14, GRIS, w="normal")
+    rot(ax, 50, 4, "¿La música de fondo cambia el uso de analgésicos?", 17, TINTA)
+    guardar(fig, "dib_variables.jpg")
+
+
+def correlacion():
+    """Cuatro nubes de puntos: correlación positiva, negativa, nula y no lineal."""
+    import numpy as np
+    from matplotlib.patches import Rectangle
+    rng = np.random.default_rng(3)
+    fig, ax = lienzo(100, 34)
+    paneles = [("positiva (r ≈ +0,8)", lambda x: x), ("negativa (r ≈ −0,8)", lambda x: 1 - x), ("nula (r ≈ 0)", None), ("curva (r bajo)", lambda x: 4 * (x - 0.5) ** 2)]
+    for k, (t, f) in enumerate(paneles):
+        x0 = 2 + k * 25
+        ax.add_patch(Rectangle((x0, 6), 21, 21, fc="#f8fafc", ec=GRIS, lw=1.5))
+        xs = rng.random(30)
+        ys = rng.random(30) if f is None else np.clip(f(xs) + rng.normal(0, 0.09, 30), 0, 1)
+        ax.scatter(x0 + 1.5 + xs * 18, 25.5 - ys * 18, s=22, color=ROJO if k < 2 else AZUL, zorder=3)
+        rot(ax, x0 + 10.5, 31, t, 13, TINTA)
+    rot(ax, 50, 2.5, "La correlación mide si dos variables se mueven juntas (asociación), no la causa", 14, GRIS, w="normal")
+    guardar(fig, "dib_correlacion.jpg")
+
+
+HACER = {"variables": variables, "correlacion": correlacion, "torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

@@ -163,3 +163,17 @@ if hacer("melanoma.jpg"):
 # ── REU-040 · Carcinoma basocelular nodular al microscopio (Mikael Häggström, Commons, CC0)
 if hacer("bcc_patologia.jpg"):
     guardar(Image.open("orig/bcc_pato.jpg").convert("RGB").crop((60, 60, 900, 870)), "bcc_patologia.jpg", 400, 88)
+
+# ── REU-044 · Sacroileítis bilateral en la Rx de pelvis (Ameer et al., Front Pharmacol 2026, PMC13553827, CC BY 4.0), panel E
+if hacer("sacroileitis_rx.jpg"):
+    o = Image.open("orig/ea_rx.jpg").convert("L").crop((745, 30, 1351, 728))
+    guardar(ImageEnhance.Contrast(o).enhance(1.2), "sacroileitis_rx.jpg", 420, 88)
+# ── CB-056 · Viuda negra, Latrodectus mactans (Juan Carlos Fonseca Mata, Commons, CC BY-SA 4.0)
+if hacer("latrodectus.jpg"):
+    guardar(Image.open("orig/latrodectus.jpg").convert("RGB").crop((240, 120, 860, 560)), "latrodectus.jpg", 400, 88)
+# ── CB-056 · Escorpión Tityus (Charles J. Sharp, Commons, CC BY-SA 4.0)
+if hacer("escorpion.jpg"):
+    guardar(Image.open("orig/escorpion.jpg").convert("RGB").crop((100, 20, 900, 600)), "escorpion.jpg", 400, 88)
+# ── CB-055 · Encías del escorbuto (CDC, Commons, dominio público); solo boca
+if hacer("escorbuto.jpg"):
+    guardar(Image.open("orig/escorbuto.jpg").convert("RGB").crop((180, 90, 880, 380)), "escorbuto.jpg", 400, 88)
