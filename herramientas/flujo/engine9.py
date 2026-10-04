@@ -38,7 +38,7 @@ CATALOGO = [
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
 HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
-          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa"}
+          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica"}
 
 
 def _img_h(im):
@@ -942,7 +942,66 @@ def ecg_mapa(s, y, d):
     return _fin(s, y, d)
 
 
+# ════════════════════════════════════════════════════════════ 29 GRÁFICA CLÍNICA CON EL PUNTO DEL CASO
+def grafica(s, y, d):
+    """Gráfica x-y (curva fisiológica o clínica) con zonas sombreadas y el punto del caso marcado; a la derecha,
+    cómo se lee. d: x=(min, max, [(valor, rótulo)]), y=(min, max, [(valor, rótulo)]), eje_x, eje_y,
+    series=[(nombre, [(x, y)...], color)], zonas=[(x0, x1, rótulo, color)], caso=(x, y, texto), notas=[(t, det, on)]."""
+    y = section(s, y + 10, d["rotulo"])
+    GW = d.get("ancho", 540)
+    GH = d.get("alto", 300)
+    notas = d.get("notas", [])
+    x = X0 + GW + 22
+    w = X1 - x
+    meds = [_caja_txt(t, dd, w - 30) for t, dd, _ in notas]
+    nh = sum(m[2] + 22 for m in meds) + 8 * max(0, len(meds) - 1)
+    H = max(GH + 40, nh)
+    s.rect(X0, y, GW, H, "#ffffff", LINE, 1.2, rx=12)
+    L_, R_, T_, B_ = X0 + 58, X0 + GW - 18, y + 20, y + H - 48
+    (xa, xb, xt), (ya, yb, yt) = d["x"], d["y"]
+    px = lambda v: L_ + (v - xa) / (xb - xa) * (R_ - L_)
+    py = lambda v: B_ - (v - ya) / (yb - ya) * (B_ - T_)
+    for x0, x1, lab, col in d.get("zonas", []):
+        s.rect(px(x0), T_, px(x1) - px(x0), B_ - T_, col, "none", 0, rx=0)
+        s.text((px(x0) + px(x1)) / 2, T_ + 16, lab, 10.5, 800, SLATE, maxw=px(x1) - px(x0) - 6)
+    for v, lab in yt:
+        s.line(L_, py(v), R_, py(v), "#e2e8f0", 1)
+        s.text(L_ - 8, py(v) + 4, lab, 10.5, 600, MUTED, "end", 50)
+    for v, lab in xt:
+        s.line(px(v), B_, px(v), B_ + 5, "#94a3b8", 1.5)
+        s.text(px(v), B_ + 19, lab, 10.5, 600, MUTED, maxw=70)
+    s.line(L_, B_, R_, B_, "#94a3b8", 1.5)
+    s.line(L_, T_, L_, B_, "#94a3b8", 1.5)
+    s.text((L_ + R_) / 2, B_ + 38, d.get("eje_x", ""), 11, 700, SLATE, maxw=R_ - L_)
+    s.add(f'<text x="{X0 + 16:.1f}" y="{(T_ + B_) / 2:.1f}" transform="rotate(-90 {X0 + 16:.1f} {(T_ + B_) / 2:.1f})" '
+          f'text-anchor="middle" font-size="11" font-weight="700" fill="{SLATE}">{d.get("eje_y", "")}</text>')
+    ly = T_ + 34
+    for nom, pts, col in d["series"]:
+        s.add('<polyline points="' + " ".join(f"{px(a):.1f},{py(b):.1f}" for a, b in pts) +
+              f'" fill="none" stroke="{col}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>')
+        if len(d["series"]) > 1:
+            s.line(R_ - 150, ly, R_ - 128, ly, col, 3)
+            s.text(R_ - 122, ly + 4, nom, 10.5, 700, col, "start", 120)
+            ly += 18
+    if d.get("caso"):
+        cx, cy, ct = d["caso"]
+        s.line(px(cx), py(cy), px(cx), B_, ORANGE, 2, "5 4")
+        s.add(f'<circle cx="{px(cx):.1f}" cy="{py(cy):.1f}" r="9" fill="{ORANGE}" stroke="#ffffff" stroke-width="3"/>')
+        case_chip(s, px(cx), py(cy) - 14, ct)
+    cy = y + (H - nh) / 2
+    for (t, dd, on), (tl, dl, th) in zip(notas, meds):
+        h = th + 22
+        s.rect(x, cy, w, h, ORANGE_L if on else "#f8fafc", ORANGE if on else LINE, 2 if on else 1.2, rx=10)
+        _txt(s, x + 15, cy + 11, tl, dl, w - 30, on)
+        cy += h + 8
+    y += H
+    if d.get("img"):
+        from engine7 import banda
+        y = banda(s, y + 12, d["img"])
+    return _fin(s, y, d)
+
+
 LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision, "cuadricula": cuadricula,
             "alarma": alarma, "cascada": cascada, "checklist": checklist, "monitor": monitor, "piramide": piramide,
             "grados_foto": grados_foto, "laboratorio": laboratorio,
-            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa}
+            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa, "grafica": grafica}

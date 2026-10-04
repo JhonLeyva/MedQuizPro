@@ -235,3 +235,7 @@ if hacer("granuloma_umb.jpg"):
 if hacer("hig_metas.jpg"):
     # James Heilman, MD · Commons · CC BY-SA 3.0 (MultipleLiverMets2008.jpg): TC axial con múltiples metástasis hipodensas
     guardar(Image.open("orig/liver_mets.jpg").convert("RGB").crop((40, 20, 900, 690)), "hig_metas.jpg", 380, 88)
+
+if hacer("podagra.jpg"):
+    # Gonzosft · Commons · CC BY 3.0 de (Podagra.jpg): la flecha negra es de la foto original
+    guardar(Image.open("orig/podagra.jpg").convert("RGB"), "podagra.jpg", 500, 88)
