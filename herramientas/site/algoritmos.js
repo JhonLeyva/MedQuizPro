@@ -2557,2504 +2557,2504 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Lactante de 1 mes con tos paroxística, estridor y ahogo y hermano con lo mismo: tos ferina, azitromicina"
   },
   "CIR-045": {
-    titulo: "Obstrucción de colon en la altura",
+    titulo: "Adulto mayor andino con dolor, gran distensión y vómitos fecaloideos con Rx en «grano de café»: vólvulo de sigmoides",
     imagen: "flujogramas/obstruccion-colon-altura-volvulo-sigmoides.svg",
-    alt: "Flujograma: Obstrucción de colon en la altura"
+    alt: "Flujograma: Adulto mayor andino con dolor, gran distensión y vómitos fecaloideos con Rx en «grano de café»: vólvulo de sigmoides"
   },
   "NEU-021": {
-    titulo: "Disnea crónica con acropaquias",
+    titulo: "Obrero expuesto a polvo con disnea, acropaquias, crepitantes «tipo velcro» y pulmones pequeños reticulares: enfermedad pulmonar intersticial",
     imagen: "flujogramas/disnea-cronica-crepitantes-epid.svg",
-    alt: "Flujograma: Disnea crónica con acropaquias"
+    alt: "Flujograma: Obrero expuesto a polvo con disnea, acropaquias, crepitantes «tipo velcro» y pulmones pequeños reticulares: enfermedad pulmonar intersticial"
   },
   "CAR-029": {
-    titulo: "Cuidados posparo: metas ventilatorias",
+    titulo: "Tras recuperar la circulación, intubado con 14 ventilaciones por minuto y PaCO₂ 30: hiperventila, hay que bajar la frecuencia",
     imagen: "flujogramas/cuidados-posparo-paco2-ventilacion.svg",
-    alt: "Flujograma: Cuidados posparo: metas ventilatorias"
+    alt: "Flujograma: Tras recuperar la circulación, intubado con 14 ventilaciones por minuto y PaCO₂ 30: hiperventila, hay que bajar la frecuencia"
   },
   "CIR-046": {
-    titulo: "Fiebre posoperatoria según el día",
+    titulo: "Fiebre en los primeros días tras una laparotomía con murmullo disminuido en la base derecha: atelectasia",
     imagen: "flujogramas/fiebre-postoperatoria-atelectasia.svg",
-    alt: "Flujograma: Fiebre posoperatoria según el día"
+    alt: "Flujograma: Fiebre en los primeros días tras una laparotomía con murmullo disminuido en la base derecha: atelectasia"
   },
   "INF-029": {
-    titulo: "Fiebre prolongada en zona tropical",
+    titulo: "Fiebre de 2 semanas con escalofríos, sudoración profusa, palidez y bazo palpable en zona tropical: malaria",
     imagen: "flujogramas/fiebre-escalofrios-esplenomegalia-malaria.svg",
-    alt: "Flujograma: Fiebre prolongada en zona tropical"
+    alt: "Flujograma: Fiebre de 2 semanas con escalofríos, sudoración profusa, palidez y bazo palpable en zona tropical: malaria"
   },
   "CIR-047": {
-    titulo: "Tipos de cierre de heridas",
+    titulo: "Herida de laparotomía por bala que se deja abierta 5 días y luego se sutura: cierre por tercera intención (primario diferido)",
     imagen: "flujogramas/cicatrizacion-cierre-tercera-intencion.svg",
-    alt: "Flujograma: Tipos de cierre de heridas"
+    alt: "Flujograma: Herida de laparotomía por bala que se deja abierta 5 días y luego se sutura: cierre por tercera intención (primario diferido)"
   },
   "SP-049": {
-    titulo: "Medidas de asociación y diseños",
+    titulo: "Buscar factores asociados a morir por COVID-19 y calcular el odds ratio: estudio de casos y controles",
     imagen: "flujogramas/medidas-asociacion-odds-ratio-casos-controles.svg",
-    alt: "Flujograma: Medidas de asociación y diseños"
+    alt: "Flujograma: Buscar factores asociados a morir por COVID-19 y calcular el odds ratio: estudio de casos y controles"
   },
   "NRL-019": {
-    titulo: "Corea de Sydenham: criterios de Jones",
+    titulo: "Adolescente con faringoamigdalitis previa, movimientos rápidos involuntarios de cara y manos y soplo mitral: corea de Sydenham",
     imagen: "flujogramas/corea-sydenham-criterios-jones.svg",
-    alt: "Flujograma: Corea de Sydenham: criterios de Jones"
+    alt: "Flujograma: Adolescente con faringoamigdalitis previa, movimientos rápidos involuntarios de cara y manos y soplo mitral: corea de Sydenham"
   },
   "HEM-015": {
-    titulo: "Células de la mucosa gástrica",
+    titulo: "Anemia macrocítica con neutrófilos hipersegmentados y gastritis atrófica: faltan las células parietales (anemia perniciosa)",
     imagen: "flujogramas/celulas-gastricas-anemia-perniciosa.svg",
-    alt: "Flujograma: Células de la mucosa gástrica"
+    alt: "Flujograma: Anemia macrocítica con neutrófilos hipersegmentados y gastritis atrófica: faltan las células parietales (anemia perniciosa)"
   },
   "GIN-068": {
-    titulo: "Tamizaje de diabetes gestacional en dos pasos",
+    titulo: "Gestante de 25 semanas con O'Sullivan de 150 mg/dL (tamizaje positivo): hacer la prueba de tolerancia oral a la glucosa",
     imagen: "flujogramas/test-osullivan-positivo-ptog.svg",
-    alt: "Flujograma: Tamizaje de diabetes gestacional en dos pasos"
+    alt: "Flujograma: Gestante de 25 semanas con O'Sullivan de 150 mg/dL (tamizaje positivo): hacer la prueba de tolerancia oral a la glucosa"
   },
   "PED-080": {
-    titulo: "Fenilcetonuria en el tamizaje neonatal",
+    titulo: "Recién nacido con fenilpiruvato alto en el tamizaje: fenilcetonuria, dieta con restricción de fenilalanina",
     imagen: "flujogramas/tamizaje-neonatal-fenilcetonuria-dieta.svg",
-    alt: "Flujograma: Fenilcetonuria en el tamizaje neonatal"
+    alt: "Flujograma: Recién nacido con fenilpiruvato alto en el tamizaje: fenilcetonuria, dieta con restricción de fenilalanina"
   },
   "OFT-016": {
-    titulo: "Epistaxis anterior: manejo escalonado",
+    titulo: "Hipertenso con epistaxis anterior profusa: el primer paso es la compresión digital firme de la nariz",
     imagen: "flujogramas/epistaxis-anterior-hipertenso-compresion.svg",
-    alt: "Flujograma: Epistaxis anterior: manejo escalonado"
+    alt: "Flujograma: Hipertenso con epistaxis anterior profusa: el primer paso es la compresión digital firme de la nariz"
   },
   "NRL-020": {
-    titulo: "Déficit neurológico que se recupera",
+    titulo: "Anciano hipertenso con déficit focal súbito que se recupera solo en una hora y glucosa normal: ataque isquémico transitorio",
     imagen: "flujogramas/deficit-focal-transitorio-anciano-ait.svg",
-    alt: "Flujograma: Déficit neurológico que se recupera"
+    alt: "Flujograma: Anciano hipertenso con déficit focal súbito que se recupera solo en una hora y glucosa normal: ataque isquémico transitorio"
   },
   "HEM-016": {
-    titulo: "Leucocitosis con esplenomegalia",
+    titulo: "Adulto con esplenomegalia, leucocitosis de 43 000 con todas las formas mieloides y trombocitosis: leucemia mieloide crónica",
     imagen: "flujogramas/leucocitosis-esplenomegalia-leucemia-mieloide-cronica.svg",
-    alt: "Flujograma: Leucocitosis con esplenomegalia"
+    alt: "Flujograma: Adulto con esplenomegalia, leucocitosis de 43 000 con todas las formas mieloides y trombocitosis: leucemia mieloide crónica"
   },
   "INF-030": {
-    titulo: "Vectores de enfermedades en el Perú",
+    titulo: "Joven de Arequipa con edema palpebral, fiebre, adenopatía y hepatoesplenomegalia: Chagas agudo, vector Triatoma infestans",
     imagen: "flujogramas/vectores-peru-chagas-triatoma.svg",
-    alt: "Flujograma: Vectores de enfermedades en el Perú"
+    alt: "Flujograma: Joven de Arequipa con edema palpebral, fiebre, adenopatía y hepatoesplenomegalia: Chagas agudo, vector Triatoma infestans"
   },
   "GIN-069": {
-    titulo: "Tipos de aborto",
+    titulo: "Gestante con lupus y daño renal severo cuyo embarazo pone en riesgo su vida: el aborto se plantea como terapéutico",
     imagen: "flujogramas/aborto-terapeutico-lupus-nefropatia.svg",
-    alt: "Flujograma: Tipos de aborto"
+    alt: "Flujograma: Gestante con lupus y daño renal severo cuyo embarazo pone en riesgo su vida: el aborto se plantea como terapéutico"
   },
   "INF-031": {
-    titulo: "Malaria: especies de Plasmodium",
+    titulo: "Paciente de la selva con fiebre alta, anemia severa, ictericia y postración: malaria grave por Plasmodium falciparum",
     imagen: "flujogramas/plasmodium-especies-falciparum-grave.svg",
-    alt: "Flujograma: Malaria: especies de Plasmodium"
+    alt: "Flujograma: Paciente de la selva con fiebre alta, anemia severa, ictericia y postración: malaria grave por Plasmodium falciparum"
   },
   "PED-081": {
-    titulo: "Niño nefrótico con fiebre y dolor abdominal",
+    titulo: "Niño con síndrome nefrótico y ascitis que hace fiebre, dolor abdominal y rebote: peritonitis primaria",
     imagen: "flujogramas/nefrotico-nino-dolor-abdominal-peritonitis-primaria.svg",
-    alt: "Flujograma: Niño nefrótico con fiebre y dolor abdominal"
+    alt: "Flujograma: Niño con síndrome nefrótico y ascitis que hace fiebre, dolor abdominal y rebote: peritonitis primaria"
   },
   "GIN-070": {
-    titulo: "Sangrado indoloro en el tercer trimestre",
+    titulo: "Gestante de 36 semanas con 3 cesáreas previas y sangrado indoloro con útero blando: placenta previa",
     imagen: "flujogramas/sangrado-indoloro-tercer-trimestre-placenta-previa.svg",
-    alt: "Flujograma: Sangrado indoloro en el tercer trimestre"
+    alt: "Flujograma: Gestante de 36 semanas con 3 cesáreas previas y sangrado indoloro con útero blando: placenta previa"
   },
   "GIN-071": {
-    titulo: "Síndromes de cáncer hereditario",
+    titulo: "Mujer joven con mutación de BRCA1: predisposición sobre todo al cáncer de mama (y de ovario)",
     imagen: "flujogramas/cancer-hereditario-brca1-mama.svg",
-    alt: "Flujograma: Síndromes de cáncer hereditario"
+    alt: "Flujograma: Mujer joven con mutación de BRCA1: predisposición sobre todo al cáncer de mama (y de ovario)"
   },
   "PED-082": {
-    titulo: "Anemia en el lactante: el frotis",
+    titulo: "Lactante de 8 meses, exprematuro, pálido e inapetente con hematíes microcíticos e hipocrómicos: anemia ferropénica",
     imagen: "flujogramas/lactante-prematuro-anemia-ferropenica.svg",
-    alt: "Flujograma: Anemia en el lactante: el frotis"
+    alt: "Flujograma: Lactante de 8 meses, exprematuro, pálido e inapetente con hematíes microcíticos e hipocrómicos: anemia ferropénica"
   },
   "CIR-048": {
-    titulo: "Tumoración sacrococcígea supurada",
+    titulo: "Chofer con dolor sacro, fiebre y bulto interglúteo inflamado con pus y pelos: absceso pilonidal",
     imagen: "flujogramas/masa-sacra-supurada-quiste-pilonidal.svg",
-    alt: "Flujograma: Tumoración sacrococcígea supurada"
+    alt: "Flujograma: Chofer con dolor sacro, fiebre y bulto interglúteo inflamado con pus y pelos: absceso pilonidal"
   },
   "CB-024": {
-    titulo: "Síndrome colinérgico",
+    titulo: "Adolescente inconsciente con miosis, sialorrea, relajación de esfínteres, dificultad respiratoria y fasciculaciones: carbamato",
     imagen: "flujogramas/sindrome-colinergico-carbamatos.svg",
-    alt: "Flujograma: Síndrome colinérgico"
+    alt: "Flujograma: Adolescente inconsciente con miosis, sialorrea, relajación de esfínteres, dificultad respiratoria y fasciculaciones: carbamato"
   },
   "END-018": {
-    titulo: "Hipertrigliceridemia: niveles y riesgo",
+    titulo: "Joven con xantomas eruptivos, triglicéridos de 1000 mg/dL y suero lechoso: el mayor riesgo es la pancreatitis aguda",
     imagen: "flujogramas/hipertrigliceridemia-xantomas-eruptivos-pancreatitis.svg",
-    alt: "Flujograma: Hipertrigliceridemia: niveles y riesgo"
+    alt: "Flujograma: Joven con xantomas eruptivos, triglicéridos de 1000 mg/dL y suero lechoso: el mayor riesgo es la pancreatitis aguda"
   },
   "GAS-024": {
-    titulo: "Ictericia obstructiva indolora",
+    titulo: "Adulto mayor con baja de peso, ictericia marcada, prurito y vía biliar intrahepática dilatada: carcinoma de vías biliares",
     imagen: "flujogramas/ictericia-obstructiva-colangiocarcinoma.svg",
-    alt: "Flujograma: Ictericia obstructiva indolora"
+    alt: "Flujograma: Adulto mayor con baja de peso, ictericia marcada, prurito y vía biliar intrahepática dilatada: carcinoma de vías biliares"
   },
   "PED-083": {
-    titulo: "Bronquiolitis: gravedad y manejo",
+    titulo: "Lactante de 7 meses con 3 días de catarro que pasa a dificultad respiratoria con sibilantes difusos e hiperinsuflación: bronquiolitis",
     imagen: "flujogramas/bronquiolitis-gravedad-manejo.svg",
-    alt: "Flujograma: Bronquiolitis: gravedad y manejo"
+    alt: "Flujograma: Lactante de 7 meses con 3 días de catarro que pasa a dificultad respiratoria con sibilantes difusos e hiperinsuflación: bronquiolitis"
   },
   "PED-084": {
-    titulo: "Distrés en el RN a término con meconio",
+    titulo: "Recién nacido a término de parto prolongado con líquido meconial, taquipnea, quejido y tirajes: síndrome de aspiración meconial",
     imagen: "flujogramas/rn-termino-liquido-meconial-aspiracion.svg",
-    alt: "Flujograma: Distrés en el RN a término con meconio"
+    alt: "Flujograma: Recién nacido a término de parto prolongado con líquido meconial, taquipnea, quejido y tirajes: síndrome de aspiración meconial"
   },
   "GAS-025": {
-    titulo: "Hematemesis: causas",
+    titulo: "Mujer joven que tras beber alcohol vomita con fuerza y luego vomita sangre: síndrome de Mallory-Weiss",
     imagen: "flujogramas/hematemesis-vomitos-alcohol-mallory-weiss.svg",
-    alt: "Flujograma: Hematemesis: causas"
+    alt: "Flujograma: Mujer joven que tras beber alcohol vomita con fuerza y luego vomita sangre: síndrome de Mallory-Weiss"
   },
   "PED-085": {
-    titulo: "Intoxicación por plaguicida en un niño",
+    titulo: "Niño que recoge fruta en un campo fumigado y presenta vómitos, disnea y temblores: lo primero es quitar la ropa y bañarlo",
     imagen: "flujogramas/nino-campo-fumigado-descontaminacion.svg",
-    alt: "Flujograma: Intoxicación por plaguicida en un niño"
+    alt: "Flujograma: Niño que recoge fruta en un campo fumigado y presenta vómitos, disnea y temblores: lo primero es quitar la ropa y bañarlo"
   },
   "GIN-072": {
-    titulo: "Tamizaje de cáncer de cuello uterino",
+    titulo: "Mujer con histerectomía total por miomas, sin lesiones cervicales previas: ya no necesita Papanicolaou",
     imagen: "flujogramas/papanicolaou-histerectomia-total-benigna.svg",
-    alt: "Flujograma: Tamizaje de cáncer de cuello uterino"
+    alt: "Flujograma: Mujer con histerectomía total por miomas, sin lesiones cervicales previas: ya no necesita Papanicolaou"
   },
   "CIR-049": {
-    titulo: "Masa femoral dolorosa e irreductible",
+    titulo: "Mujer de 70 años con cólicos y vómitos y un bulto femoral violáceo, irreductible y doloroso: hernia crural estrangulada",
     imagen: "flujogramas/masa-femoral-irreductible-hernia-crural-estrangulada.svg",
-    alt: "Flujograma: Masa femoral dolorosa e irreductible"
+    alt: "Flujograma: Mujer de 70 años con cólicos y vómitos y un bulto femoral violáceo, irreductible y doloroso: hernia crural estrangulada"
   },
   "NEU-022": {
-    titulo: "Disnea súbita en el posoperatorio",
+    titulo: "Posoperada de cadera con disnea súbita, dolor pleurítico, taquicardia e hipotensión: tromboembolismo pulmonar de alto riesgo",
     imagen: "flujogramas/disnea-subita-postoperatorio-cadera-tep.svg",
-    alt: "Flujograma: Disnea súbita en el posoperatorio"
+    alt: "Flujograma: Posoperada de cadera con disnea súbita, dolor pleurítico, taquicardia e hipotensión: tromboembolismo pulmonar de alto riesgo"
   },
   "END-019": {
-    titulo: "Nefropatía diabética: detección precoz",
+    titulo: "Diabética de 10 años con retinopatía: para detectar la nefropatía temprana se mide la albuminuria (antes «microalbuminuria»)",
     imagen: "flujogramas/nefropatia-diabetica-albuminuria-cociente.svg",
-    alt: "Flujograma: Nefropatía diabética: detección precoz"
+    alt: "Flujograma: Diabética de 10 años con retinopatía: para detectar la nefropatía temprana se mide la albuminuria (antes «microalbuminuria»)"
   },
   "PED-086": {
-    titulo: "Niño contacto de tuberculosis",
+    titulo: "Escolar contacto de TB en casa, asintomático, con Rx normal y PPD de 10 mm: infección latente, terapia preventiva",
     imagen: "flujogramas/contacto-tuberculosis-nino-terapia-preventiva.svg",
-    alt: "Flujograma: Niño contacto de tuberculosis"
+    alt: "Flujograma: Escolar contacto de TB en casa, asintomático, con Rx normal y PPD de 10 mm: infección latente, terapia preventiva"
   },
   "SP-050": {
-    titulo: "Faltas a la integridad en investigación",
+    titulo: "Investigador al que un laboratorio le paga extra para que su estudio concluya que su fármaco es mejor: conflicto de intereses",
     imagen: "flujogramas/integridad-investigacion-conflicto-intereses.svg",
-    alt: "Flujograma: Faltas a la integridad en investigación"
+    alt: "Flujograma: Investigador al que un laboratorio le paga extra para que su estudio concluya que su fármaco es mejor: conflicto de intereses"
   },
   "INF-032": {
-    titulo: "LCR turbio con neutrófilos",
+    titulo: "Fiebre, cefalea intensa y vómitos con LCR turbio, 12 000 células con neutrófilos, glucosa baja y proteínas altas: meningitis bacteriana",
     imagen: "flujogramas/lcr-turbio-neutrofilos-meningitis-bacteriana.svg",
-    alt: "Flujograma: LCR turbio con neutrófilos"
+    alt: "Flujograma: Fiebre, cefalea intensa y vómitos con LCR turbio, 12 000 células con neutrófilos, glucosa baja y proteínas altas: meningitis bacteriana"
   },
   "SP-051": {
-    titulo: "Factores de riesgo de la diabetes tipo 2",
+    titulo: "En un I-2, el tema de estilo de vida que se prioriza con personas en riesgo o con diabetes tipo 2 es el sedentarismo",
     imagen: "flujogramas/promocion-salud-diabetes-sedentarismo.svg",
-    alt: "Flujograma: Factores de riesgo de la diabetes tipo 2"
+    alt: "Flujograma: En un I-2, el tema de estilo de vida que se prioriza con personas en riesgo o con diabetes tipo 2 es el sedentarismo"
   },
   "INF-033": {
-    titulo: "Lesiones cerebrales en el paciente con VIH",
+    titulo: "Paciente con VIH y CD4 102 con convulsiones, hemiparesia y varias lesiones que captan en anillo: toxoplasmosis cerebral",
     imagen: "flujogramas/vih-lesiones-cerebrales-toxoplasmosis.svg",
-    alt: "Flujograma: Lesiones cerebrales en el paciente con VIH"
+    alt: "Flujograma: Paciente con VIH y CD4 102 con convulsiones, hemiparesia y varias lesiones que captan en anillo: toxoplasmosis cerebral"
   },
   "GIN-073": {
-    titulo: "Enfermedad inflamatoria pélvica: dónde tratar",
+    titulo: "Enfermedad pélvica inflamatoria sin mejoría a las 72 horas de tratamiento oral: hospitalizar para antibiótico endovenoso",
     imagen: "flujogramas/epi-falla-ambulatoria-hospitalizar.svg",
-    alt: "Flujograma: Enfermedad inflamatoria pélvica: dónde tratar"
+    alt: "Flujograma: Enfermedad pélvica inflamatoria sin mejoría a las 72 horas de tratamiento oral: hospitalizar para antibiótico endovenoso"
   },
   "PED-087": {
-    titulo: "Lactante con polipnea y mala ganancia de peso",
+    titulo: "Lactante de 4 meses con mala ganancia de peso, sudoración al lactar, polipnea, taquicardia y hepatomegalia: insuficiencia cardiaca congestiva",
     imagen: "flujogramas/lactante-sudoracion-hepatomegalia-icc.svg",
-    alt: "Flujograma: Lactante con polipnea y mala ganancia de peso"
+    alt: "Flujograma: Lactante de 4 meses con mala ganancia de peso, sudoración al lactar, polipnea, taquicardia y hepatomegalia: insuficiencia cardiaca congestiva"
   },
   "INF-034": {
-    titulo: "Diarrea parasitaria en el niño",
+    titulo: "Niña con diarrea clara y grasosa, epigastralgia, náuseas y baja de peso por tomar agua cruda, sin fiebre: Giardia lamblia",
     imagen: "flujogramas/diarrea-grasosa-agua-cruda-giardia.svg",
-    alt: "Flujograma: Diarrea parasitaria en el niño"
+    alt: "Flujograma: Niña con diarrea clara y grasosa, epigastralgia, náuseas y baja de peso por tomar agua cruda, sin fiebre: Giardia lamblia"
   },
   "PED-088": {
-    titulo: "Neonato con tos y cianosis al lactar",
+    titulo: "Recién nacido que se atora, tose y se pone cianótico al lactar, con abdomen distendido y sonda que no pasa al estómago: atresia esofágica",
     imagen: "flujogramas/neonato-sonda-no-pasa-atresia-esofagica.svg",
-    alt: "Flujograma: Neonato con tos y cianosis al lactar"
+    alt: "Flujograma: Recién nacido que se atora, tose y se pone cianótico al lactar, con abdomen distendido y sonda que no pasa al estómago: atresia esofágica"
   },
   "INF-035": {
-    titulo: "Recién nacido expuesto al VIH",
+    titulo: "Recién nacido de madre con VIH en tratamiento desde las 12 semanas: profilaxis con zidovudina",
     imagen: "flujogramas/recien-nacido-expuesto-vih-zidovudina.svg",
-    alt: "Flujograma: Recién nacido expuesto al VIH"
+    alt: "Flujograma: Recién nacido de madre con VIH en tratamiento desde las 12 semanas: profilaxis con zidovudina"
   },
   "CIR-050": {
-    titulo: "Hemotórax: criterios de toracotomía",
+    titulo: "Herida torácica con hemotórax drenado que sigue sangrando 200 mL por hora durante 3 horas: toracotomía de urgencia",
     imagen: "flujogramas/hemotorax-drenaje-200-hora-toracotomia.svg",
-    alt: "Flujograma: Hemotórax: criterios de toracotomía"
+    alt: "Flujograma: Herida torácica con hemotórax drenado que sigue sangrando 200 mL por hora durante 3 horas: toracotomía de urgencia"
   },
   "CAR-030": {
-    titulo: "Endocarditis infecciosa: signos",
+    titulo: "Fiebre tras un procedimiento dental, soplo mitral que cambia y manchas de Roth: endocarditis infecciosa",
     imagen: "flujogramas/fiebre-soplo-nuevo-roth-endocarditis.svg",
-    alt: "Flujograma: Endocarditis infecciosa: signos"
+    alt: "Flujograma: Fiebre tras un procedimiento dental, soplo mitral que cambia y manchas de Roth: endocarditis infecciosa"
   },
   "PED-089": {
-    titulo: "Anemia ferropénica: qué debe comer",
+    titulo: "Niño de 3 años con anemia ferropénica (Hb 8): los alimentos que más ayudan son las carnes y vísceras (hierro hem)",
     imagen: "flujogramas/anemia-ferropenica-nino-alimentos-hierro-hemo.svg",
-    alt: "Flujograma: Anemia ferropénica: qué debe comer"
+    alt: "Flujograma: Niño de 3 años con anemia ferropénica (Hb 8): los alimentos que más ayudan son las carnes y vísceras (hierro hem)"
   },
   "OFT-017": {
-    titulo: "Odinofagia con trismus",
+    titulo: "Adolescente con odinofagia, fiebre, trismus y úvula desviada al lado opuesto: absceso periamigdalino, punción y drenaje",
     imagen: "flujogramas/odinofagia-trismus-absceso-periamigdalino-drenaje.svg",
-    alt: "Flujograma: Odinofagia con trismus"
+    alt: "Flujograma: Adolescente con odinofagia, fiebre, trismus y úvula desviada al lado opuesto: absceso periamigdalino, punción y drenaje"
   },
   "GAS-026": {
-    titulo: "HDA en el cirrótico: reanimación",
+    titulo: "Cirrótico con hematemesis, melena e hipotensión con frialdad distal: lo primero es reponer volumen con cristaloides",
     imagen: "flujogramas/hematemesis-cirrotico-choque-cristaloides.svg",
-    alt: "Flujograma: HDA en el cirrótico: reanimación"
+    alt: "Flujograma: Cirrótico con hematemesis, melena e hipotensión con frialdad distal: lo primero es reponer volumen con cristaloides"
   },
   "TRA-013": {
-    titulo: "Cadera deformada tras un choque",
+    titulo: "Chofer con choque frontal y miembro inferior en aducción y rotación interna: luxación posterior de cadera",
     imagen: "flujogramas/impacto-frontal-aduccion-rotacion-interna-luxacion-posterior-cadera.svg",
-    alt: "Flujograma: Cadera deformada tras un choque"
+    alt: "Flujograma: Chofer con choque frontal y miembro inferior en aducción y rotación interna: luxación posterior de cadera"
   },
   "NEF-031": {
-    titulo: "Lesión renal aguda: prerrenal o NTA",
+    titulo: "Tras un choque hemorrágico, oligoanuria con creatinina 2,9 y sodio urinario de 45: necrosis tubular aguda",
     imagen: "flujogramas/oligoanuria-choque-hemorragico-necrosis-tubular-aguda.svg",
-    alt: "Flujograma: Lesión renal aguda: prerrenal o NTA"
+    alt: "Flujograma: Tras un choque hemorrágico, oligoanuria con creatinina 2,9 y sodio urinario de 45: necrosis tubular aguda"
   },
   "INF-036": {
-    titulo: "Úlcera genital: qué agente",
+    titulo: "Úlcera genital única, indurada e indolora tras una relación sin protección: chancro de sífilis primaria (Treponema pallidum)",
     imagen: "flujogramas/ulcera-genital-indolora-indurada-sifilis-primaria.svg",
-    alt: "Flujograma: Úlcera genital: qué agente"
+    alt: "Flujograma: Úlcera genital única, indurada e indolora tras una relación sin protección: chancro de sífilis primaria (Treponema pallidum)"
   },
   "GAS-027": {
-    titulo: "Fiebre, ictericia y dolor biliar",
+    titulo: "Cólico biliar seguido de ictericia, fiebre y escalofríos con bilirrubina directa y fosfatasa alcalina altas: colangitis aguda",
     imagen: "flujogramas/fiebre-ictericia-dolor-colangitis-charcot.svg",
-    alt: "Flujograma: Fiebre, ictericia y dolor biliar"
+    alt: "Flujograma: Cólico biliar seguido de ictericia, fiebre y escalofríos con bilirrubina directa y fosfatasa alcalina altas: colangitis aguda"
   },
   "SP-052": {
-    titulo: "Propiedades del agente infeccioso",
+    titulo: "Que ómicron triplique los contagios por persona infectada respecto a Delta describe su transmisibilidad",
     imagen: "flujogramas/omicron-contagios-transmisibilidad-agente.svg",
-    alt: "Flujograma: Propiedades del agente infeccioso"
+    alt: "Flujograma: Que ómicron triplique los contagios por persona infectada respecto a Delta describe su transmisibilidad"
   },
   "GAS-028": {
-    titulo: "Pólipo de colon en la colonoscopia",
+    titulo: "Pólipos pediculados de 2 cm en el colon con sangrado: extirpación endoscópica y estudio histopatológico",
     imagen: "flujogramas/sangrado-rectal-polipo-pediculado-polipectomia.svg",
-    alt: "Flujograma: Pólipo de colon en la colonoscopia"
+    alt: "Flujograma: Pólipos pediculados de 2 cm en el colon con sangrado: extirpación endoscópica y estudio histopatológico"
   },
   "CAR-031": {
-    titulo: "Hipertensión: consultorio frente a MAPA",
+    titulo: "PA alta en el consultorio (145/95) con MAPA normal: hipertensión de bata blanca",
     imagen: "flujogramas/hipertension-bata-blanca-mapa.svg",
-    alt: "Flujograma: Hipertensión: consultorio frente a MAPA"
+    alt: "Flujograma: PA alta en el consultorio (145/95) con MAPA normal: hipertensión de bata blanca"
   },
   "CAR-032": {
-    titulo: "Edema facial y en esclavina",
+    titulo: "Edema facial y «en esclavina» que pasa a los brazos, plétora e ingurgitación yugular: síndrome de vena cava superior",
     imagen: "flujogramas/edema-esclavina-sindrome-vena-cava-superior.svg",
-    alt: "Flujograma: Edema facial y en esclavina"
+    alt: "Flujograma: Edema facial y «en esclavina» que pasa a los brazos, plétora e ingurgitación yugular: síndrome de vena cava superior"
   },
   "GIN-074": {
-    titulo: "Masa anexial: qué es",
+    titulo: "Dolor pélvico que empeora con la regla, el sexo y la defecación y masa anexial fija «en vidrio esmerilado»: endometrioma",
     imagen: "flujogramas/dolor-pelvico-masa-anexial-endometrioma.svg",
-    alt: "Flujograma: Masa anexial: qué es"
+    alt: "Flujograma: Dolor pélvico que empeora con la regla, el sexo y la defecación y masa anexial fija «en vidrio esmerilado»: endometrioma"
   },
   "END-020": {
-    titulo: "Amenorrea primaria con talla baja",
+    titulo: "Adolescente de 16 años sin menarquia, talla baja, cuello ancho, pezones separados y Tanner I: síndrome de Turner, pedir cariotipo",
     imagen: "flujogramas/amenorrea-primaria-talla-baja-turner-cariotipo.svg",
-    alt: "Flujograma: Amenorrea primaria con talla baja"
+    alt: "Flujograma: Adolescente de 16 años sin menarquia, talla baja, cuello ancho, pezones separados y Tanner I: síndrome de Turner, pedir cariotipo"
   },
   "PED-090": {
-    titulo: "Intoxicación por paracetamol",
+    titulo: "Niña que ingirió una sobredosis de paracetamol hace 24 horas, con náuseas, anorexia y dolor en hipocondrio derecho: N-acetilcisteína",
     imagen: "flujogramas/sobredosis-paracetamol-nino-acetilcisteina.svg",
-    alt: "Flujograma: Intoxicación por paracetamol"
+    alt: "Flujograma: Niña que ingirió una sobredosis de paracetamol hace 24 horas, con náuseas, anorexia y dolor en hipocondrio derecho: N-acetilcisteína"
   },
   "GIN-075": {
-    titulo: "Urocultivo con Lactobacillus en la gestante",
+    titulo: "Gestante con urocultivo positivo a Lactobacillus (flora vaginal): contaminación, repetir el urocultivo",
     imagen: "flujogramas/gestante-urocultivo-lactobacillus-repetir.svg",
-    alt: "Flujograma: Urocultivo con Lactobacillus en la gestante"
+    alt: "Flujograma: Gestante con urocultivo positivo a Lactobacillus (flora vaginal): contaminación, repetir el urocultivo"
   },
   "REU-022": {
-    titulo: "Urticaria tras el ejercicio",
+    titulo: "Habones pequeños muy pruriginosos que salen con el ejercicio o la ducha caliente y desaparecen en 2 horas: urticaria colinérgica",
     imagen: "flujogramas/ronchas-ejercicio-ducha-caliente-urticaria-colinergica.svg",
-    alt: "Flujograma: Urticaria tras el ejercicio"
+    alt: "Flujograma: Habones pequeños muy pruriginosos que salen con el ejercicio o la ducha caliente y desaparecen en 2 horas: urticaria colinérgica"
   },
   "NRL-021": {
-    titulo: "TEC: gravedad según Glasgow",
+    titulo: "Golpe frontal contra el parabrisas con Glasgow 12 y desorientación: TEC moderado, pedir tomografía cerebral",
     imagen: "flujogramas/trauma-craneal-glasgow-12-tomografia.svg",
-    alt: "Flujograma: TEC: gravedad según Glasgow"
+    alt: "Flujograma: Golpe frontal contra el parabrisas con Glasgow 12 y desorientación: TEC moderado, pedir tomografía cerebral"
   },
   "NEF-032": {
-    titulo: "Hipermagnesemia por laxantes",
+    titulo: "Anciana con laxantes salinos, hiporreflexia, bradicardia, hipotensión, rubor y PR largo con QRS ancho: hipermagnesemia",
     imagen: "flujogramas/adulta-mayor-laxantes-salinos-hipermagnesemia.svg",
-    alt: "Flujograma: Hipermagnesemia por laxantes"
+    alt: "Flujograma: Anciana con laxantes salinos, hiporreflexia, bradicardia, hipotensión, rubor y PR largo con QRS ancho: hipermagnesemia"
   },
   "GIN-076": {
-    titulo: "Imagen en la gestante con dolor en FID",
+    titulo: "Gestante de 24 semanas con dolor en FID, fiebre, rebote y leucocitosis con desviación izquierda: ecografía para confirmar apendicitis",
     imagen: "flujogramas/gestante-dolor-fid-apendicitis-ecografia.svg",
-    alt: "Flujograma: Imagen en la gestante con dolor en FID"
+    alt: "Flujograma: Gestante de 24 semanas con dolor en FID, fiebre, rebote y leucocitosis con desviación izquierda: ecografía para confirmar apendicitis"
   },
   "SP-053": {
-    titulo: "Derechos de los usuarios de salud",
+    titulo: "Eliminar un examen nacional que verifica la formación de los futuros médicos vulnera el derecho a una atención de calidad",
     imagen: "flujogramas/examen-unico-nacional-derecho-calidad-atencion.svg",
-    alt: "Flujograma: Derechos de los usuarios de salud"
+    alt: "Flujograma: Eliminar un examen nacional que verifica la formación de los futuros médicos vulnera el derecho a una atención de calidad"
   },
   "CB-025": {
-    titulo: "Genes de las dislipidemias",
+    titulo: "Joven con colesterol 390, xantomas en el tendón de Aquiles y familiares con cifras parecidas: hipercolesterolemia familiar (receptor de LDL)",
     imagen: "flujogramas/hipercolesterolemia-familiar-xantomas-receptor-ldl.svg",
-    alt: "Flujograma: Genes de las dislipidemias"
+    alt: "Flujograma: Joven con colesterol 390, xantomas en el tendón de Aquiles y familiares con cifras parecidas: hipercolesterolemia familiar (receptor de LDL)"
   },
   "PED-091": {
-    titulo: "Estenosis pilórica: el trastorno ácido-base",
+    titulo: "Lactante de 2 semanas con vómitos en proyectil cada vez más frecuentes y deshidratación: estenosis pilórica con alcalosis metabólica hipoclorémica",
     imagen: "flujogramas/vomitos-proyectil-lactante-alcalosis-hipocloremica.svg",
-    alt: "Flujograma: Estenosis pilórica: el trastorno ácido-base"
+    alt: "Flujograma: Lactante de 2 semanas con vómitos en proyectil cada vez más frecuentes y deshidratación: estenosis pilórica con alcalosis metabólica hipoclorémica"
   },
   "CIR-051": {
-    titulo: "Obstrucción intestinal: delgado o colon",
+    titulo: "Laparotomía previa con dolor difuso, sin flatos, distensión y ruidos metálicos: obstrucción intestinal por bridas",
     imagen: "flujogramas/laparotomia-previa-obstruccion-intestinal-bridas.svg",
-    alt: "Flujograma: Obstrucción intestinal: delgado o colon"
+    alt: "Flujograma: Laparotomía previa con dolor difuso, sin flatos, distensión y ruidos metálicos: obstrucción intestinal por bridas"
   },
   "CAR-033": {
-    titulo: "Derrame pericárdico: cuándo drenar",
+    titulo: "Lupus con disnea, hipotensión, taquicardia, pulso paradójico, yugulares ingurgitadas y QRS de bajo voltaje: taponamiento, pericardiocentesis",
     imagen: "flujogramas/lupus-pulso-paradojico-taponamiento-pericardiocentesis.svg",
-    alt: "Flujograma: Derrame pericárdico: cuándo drenar"
+    alt: "Flujograma: Lupus con disnea, hipotensión, taquicardia, pulso paradójico, yugulares ingurgitadas y QRS de bajo voltaje: taponamiento, pericardiocentesis"
   },
   "REU-023": {
-    titulo: "Manchas hipocrómicas en el tronco",
+    titulo: "Adolescente con manchas hipopigmentadas en tórax y espalda sin prurito: pitiriasis versicolor, sulfuro de selenio",
     imagen: "flujogramas/manchas-hipocromicas-tronco-pitiriasis-versicolor.svg",
-    alt: "Flujograma: Manchas hipocrómicas en el tronco"
+    alt: "Flujograma: Adolescente con manchas hipopigmentadas en tórax y espalda sin prurito: pitiriasis versicolor, sulfuro de selenio"
   },
   "SP-054": {
-    titulo: "Principios de la bioética",
+    titulo: "Indicar fármacos con efectos adversos frecuentes y sin evidencia de beneficio contra la COVID-19 vulnera la no maleficencia",
     imagen: "flujogramas/farmacos-sin-evidencia-pandemia-no-maleficencia.svg",
-    alt: "Flujograma: Principios de la bioética"
+    alt: "Flujograma: Indicar fármacos con efectos adversos frecuentes y sin evidencia de beneficio contra la COVID-19 vulnera la no maleficencia"
   },
   "CAR-034": {
-    titulo: "Trauma torácico cerrado con arritmia",
+    titulo: "Golpe precordial en un choque con dolor, sudoración fría y ruidos arrítmicos: ECG seriado (y troponina) para la contusión miocárdica",
     imagen: "flujogramas/trauma-precordial-arritmia-contusion-miocardica-ecg.svg",
-    alt: "Flujograma: Trauma torácico cerrado con arritmia"
+    alt: "Flujograma: Golpe precordial en un choque con dolor, sudoración fría y ruidos arrítmicos: ECG seriado (y troponina) para la contusión miocárdica"
   },
   "TRA-014": {
-    titulo: "Manguito de los rotadores",
+    titulo: "Trauma de hombro con dolor a la abducción y lesión del manguito rotador: el músculo más afectado es el supraespinoso",
     imagen: "flujogramas/hombro-abduccion-dolorosa-supraespinoso.svg",
-    alt: "Flujograma: Manguito de los rotadores"
+    alt: "Flujograma: Trauma de hombro con dolor a la abducción y lesión del manguito rotador: el músculo más afectado es el supraespinoso"
   },
   "GIN-077": {
-    titulo: "Presentación de cara",
+    titulo: "Primigesta de 41 semanas con presentación de cara mentoposterior: no puede nacer por vía vaginal, cesárea",
     imagen: "flujogramas/presentacion-cara-mentoposterior-cesarea.svg",
-    alt: "Flujograma: Presentación de cara"
+    alt: "Flujograma: Primigesta de 41 semanas con presentación de cara mentoposterior: no puede nacer por vía vaginal, cesárea"
   },
   "GIN-078": {
-    titulo: "Datación del embarazo",
+    titulo: "Primer control a las 11 semanas por FUR con LCN de 11 semanas: la edad gestacional real se define con la ecografía transvaginal",
     imagen: "flujogramas/primer-control-edad-gestacional-ecografia-lcn.svg",
-    alt: "Flujograma: Datación del embarazo"
+    alt: "Flujograma: Primer control a las 11 semanas por FUR con LCN de 11 semanas: la edad gestacional real se define con la ecografía transvaginal"
   },
   "GAS-029": {
-    titulo: "Hepatitis viral aguda: fases",
+    titulo: "Joven con pródromo de fiebre, náuseas y astenia que luego hace ictericia y dolor en hipocondrio derecho mientras cede la fiebre: hepatitis viral aguda",
     imagen: "flujogramas/prodromo-ictericia-hepatitis-viral-aguda.svg",
-    alt: "Flujograma: Hepatitis viral aguda: fases"
+    alt: "Flujograma: Joven con pródromo de fiebre, náuseas y astenia que luego hace ictericia y dolor en hipocondrio derecho mientras cede la fiebre: hepatitis viral aguda"
   },
   "GIN-079": {
-    titulo: "Preeclampsia: criterios de severidad",
+    titulo: "Gestante de 36 semanas con cefalea, escotomas, epigastralgia, PA 170/110 y proteinuria: preeclampsia con signos de severidad, sulfato de magnesio y terminar la gestación",
     imagen: "flujogramas/preeclampsia-severa-36-semanas-sulfato-magnesio.svg",
-    alt: "Flujograma: Preeclampsia: criterios de severidad"
+    alt: "Flujograma: Gestante de 36 semanas con cefalea, escotomas, epigastralgia, PA 170/110 y proteinuria: preeclampsia con signos de severidad, sulfato de magnesio y terminar la gestación"
   },
   "INF-037": {
-    titulo: "Clasificación del dengue",
+    titulo: "Paciente de zona endémica con fiebre, dolor retroocular, dolor abdominal intenso y vómitos: probable dengue con signos de alarma",
     imagen: "flujogramas/fiebre-dolor-abdominal-vomitos-dengue-signos-alarma.svg",
-    alt: "Flujograma: Clasificación del dengue"
+    alt: "Flujograma: Paciente de zona endémica con fiebre, dolor retroocular, dolor abdominal intenso y vómitos: probable dengue con signos de alarma"
   },
   "NEU-023": {
-    titulo: "Crisis asmática: gravedad",
+    titulo: "Asmático en crisis con taquicardia, polipnea, tirajes y silencio auscultatorio: el silencio indica riesgo vital",
     imagen: "flujogramas/crisis-asmatica-torax-silente-gravedad.svg",
-    alt: "Flujograma: Crisis asmática: gravedad"
+    alt: "Flujograma: Asmático en crisis con taquicardia, polipnea, tirajes y silencio auscultatorio: el silencio indica riesgo vital"
   },
   "GAS-030": {
-    titulo: "Úlcera péptica: por qué se produce",
+    titulo: "Úlcera en la curvatura menor cerca del antro: se produce por el desequilibrio entre la agresión ácido-péptica y la defensa de la mucosa",
     imagen: "flujogramas/ulcera-gastrica-agresion-defensa-mucosa.svg",
-    alt: "Flujograma: Úlcera péptica: por qué se produce"
+    alt: "Flujograma: Úlcera en la curvatura menor cerca del antro: se produce por el desequilibrio entre la agresión ácido-péptica y la defensa de la mucosa"
   },
   "CIR-052": {
-    titulo: "Apendicitis: escala de Alvarado",
+    titulo: "Escolar con anorexia, dolor periumbilical que pasa a la fosa ilíaca derecha y vómitos, sin diarrea: apendicitis aguda",
     imagen: "flujogramas/dolor-periumbilical-migratorio-alvarado-nino.svg",
-    alt: "Flujograma: Apendicitis: escala de Alvarado"
+    alt: "Flujograma: Escolar con anorexia, dolor periumbilical que pasa a la fosa ilíaca derecha y vómitos, sin diarrea: apendicitis aguda"
   },
   "INF-038": {
-    titulo: "Helmintos intestinales: tratamiento",
+    titulo: "Strongyloides stercoralis en las heces: el tratamiento de elección es la ivermectina",
     imagen: "flujogramas/strongyloides-heces-ivermectina.svg",
-    alt: "Flujograma: Helmintos intestinales: tratamiento"
+    alt: "Flujograma: Strongyloides stercoralis en las heces: el tratamiento de elección es la ivermectina"
   },
   "NEU-024": {
-    titulo: "Disnea súbita en el EPOC",
+    titulo: "EPOC con dolor torácico y disnea súbitos, SatO₂ 86 % e hiperresonancia en un hemitórax: neumotórax espontáneo secundario",
     imagen: "flujogramas/epoc-disnea-subita-hiperresonancia-neumotorax.svg",
-    alt: "Flujograma: Disnea súbita en el EPOC"
+    alt: "Flujograma: EPOC con dolor torácico y disnea súbitos, SatO₂ 86 % e hiperresonancia en un hemitórax: neumotórax espontáneo secundario"
   },
   "SP-055": {
-    titulo: "Víctima de violencia: a dónde referir",
+    titulo: "Víctimas de violencia familiar detectadas en el tamizaje que necesitan atención integral especializada: Centro de Salud Mental Comunitario",
     imagen: "flujogramas/tamizaje-violencia-familiar-csmc.svg",
-    alt: "Flujograma: Víctima de violencia: a dónde referir"
+    alt: "Flujograma: Víctimas de violencia familiar detectadas en el tamizaje que necesitan atención integral especializada: Centro de Salud Mental Comunitario"
   },
   "GAS-031": {
-    titulo: "Pancreatitis: amilasa o lipasa",
+    titulo: "Alcohólico con dolor epigástrico en cinturón de 7 días: para confirmar la pancreatitis aguda se pide lipasa (sigue alta más días que la amilasa)",
     imagen: "flujogramas/dolor-epigastrico-7-dias-lipasa.svg",
-    alt: "Flujograma: Pancreatitis: amilasa o lipasa"
+    alt: "Flujograma: Alcohólico con dolor epigástrico en cinturón de 7 días: para confirmar la pancreatitis aguda se pide lipasa (sigue alta más días que la amilasa)"
   },
   "CIR-053": {
-    titulo: "Hernias de la pared abdominal",
+    titulo: "Albañil con hernia inguinoescrotal izquierda blanda y reductible que aumenta con Valsalva: hernia inguinal indirecta",
     imagen: "flujogramas/tumoracion-inguinoescrotal-hernia-indirecta.svg",
-    alt: "Flujograma: Hernias de la pared abdominal"
+    alt: "Flujograma: Albañil con hernia inguinoescrotal izquierda blanda y reductible que aumenta con Valsalva: hernia inguinal indirecta"
   },
   "INF-039": {
-    titulo: "Dengue: fases de la enfermedad",
+    titulo: "Fiebre, cefalea y mialgias 9 días después de visitar Iquitos, con petequias al tomar la presión: dengue (prueba del lazo positiva)",
     imagen: "flujogramas/fiebre-iquitos-prueba-lazo-dengue.svg",
-    alt: "Flujograma: Dengue: fases de la enfermedad"
+    alt: "Flujograma: Fiebre, cefalea y mialgias 9 días después de visitar Iquitos, con petequias al tomar la presión: dengue (prueba del lazo positiva)"
   },
   "OFT-018": {
-    titulo: "Rinosinusitis: según duración",
+    titulo: "Adolescente con 1 mes de cefalea, tos nocturna, rinorrea y goteo posnasal purulento: sinusitis subaguda",
     imagen: "flujogramas/cefalea-tos-nocturna-rinosinusitis-subaguda.svg",
-    alt: "Flujograma: Rinosinusitis: según duración"
+    alt: "Flujograma: Adolescente con 1 mes de cefalea, tos nocturna, rinorrea y goteo posnasal purulento: sinusitis subaguda"
   },
   "REU-024": {
-    titulo: "Lesiones vesiculares",
+    titulo: "Paciente con VIH con dolor urente y luego vesículas en un dermatoma del tórax, Tzanck con células gigantes: herpes zóster",
     imagen: "flujogramas/vesiculas-dermatoma-vih-herpes-zoster.svg",
-    alt: "Flujograma: Lesiones vesiculares"
+    alt: "Flujograma: Paciente con VIH con dolor urente y luego vesículas en un dermatoma del tórax, Tzanck con células gigantes: herpes zóster"
   },
   "GIN-080": {
-    titulo: "Fiebre en el puerperio",
+    titulo: "Puérpera de 3 días poscesárea con fiebre de 38,5 °C, útero doloroso y secreción purulenta: endometritis, iniciar antibióticos",
     imagen: "flujogramas/fiebre-poscesarea-utero-doloroso-endometritis.svg",
-    alt: "Flujograma: Fiebre en el puerperio"
+    alt: "Flujograma: Puérpera de 3 días poscesárea con fiebre de 38,5 °C, útero doloroso y secreción purulenta: endometritis, iniciar antibióticos"
   },
   "SP-056": {
-    titulo: "Planificación: por dónde empezar",
+    titulo: "Para elaborar el plan operativo anual de un establecimiento I-4 se empieza por identificar los problemas sanitarios",
     imagen: "flujogramas/serumista-plan-operativo-anual-problemas.svg",
-    alt: "Flujograma: Planificación: por dónde empezar"
+    alt: "Flujograma: Para elaborar el plan operativo anual de un establecimiento I-4 se empieza por identificar los problemas sanitarios"
   },
   "PSI-015": {
-    titulo: "Conductas purgativas y medio interno",
+    titulo: "Adolescente con IMC 15 que se provoca vómitos: alcalosis metabólica hipoclorémica",
     imagen: "flujogramas/vomitos-autoprovocados-adolescente-alcalosis.svg",
-    alt: "Flujograma: Conductas purgativas y medio interno"
+    alt: "Flujograma: Adolescente con IMC 15 que se provoca vómitos: alcalosis metabólica hipoclorémica"
   },
   "PED-092": {
-    titulo: "Cianosis neonatal que no mejora con O₂",
+    titulo: "Recién nacido con cianosis a las 3 horas que no mejora con oxígeno: cardiopatía cianótica (de las opciones, la estenosis pulmonar)",
     imagen: "flujogramas/cianosis-neonatal-no-mejora-oxigeno.svg",
-    alt: "Flujograma: Cianosis neonatal que no mejora con O₂"
+    alt: "Flujograma: Recién nacido con cianosis a las 3 horas que no mejora con oxígeno: cardiopatía cianótica (de las opciones, la estenosis pulmonar)"
   },
   "PSI-016": {
-    titulo: "Psicosis con delirios",
+    titulo: "Médico con 3 meses de aislamiento, ideas delirantes de grandeza y persecución y desaseo: esquizofrenia (tipo paranoide)",
     imagen: "flujogramas/delirios-grandeza-persecucion-esquizofrenia.svg",
-    alt: "Flujograma: Psicosis con delirios"
+    alt: "Flujograma: Médico con 3 meses de aislamiento, ideas delirantes de grandeza y persecución y desaseo: esquizofrenia (tipo paranoide)"
   },
   "OFT-019": {
-    titulo: "Alteraciones pupilares",
+    titulo: "Midriasis bilateral arreactiva con fotofobia tras un examen de retina, sin otros signos: midriasis farmacológica",
     imagen: "flujogramas/midriasis-bilateral-tras-fondo-de-ojo.svg",
-    alt: "Flujograma: Alteraciones pupilares"
+    alt: "Flujograma: Midriasis bilateral arreactiva con fotofobia tras un examen de retina, sin otros signos: midriasis farmacológica"
   },
   "GAS-032": {
-    titulo: "Dolor epigástrico urente",
+    titulo: "Dolor urente en el epigastrio 5-6 horas después de comer que lo despierta de noche, sin baja de peso ni disfagia: úlcera péptica (duodenal)",
     imagen: "flujogramas/dolor-epigastrico-nocturno-ulcera-duodenal.svg",
-    alt: "Flujograma: Dolor epigástrico urente"
+    alt: "Flujograma: Dolor urente en el epigastrio 5-6 horas después de comer que lo despierta de noche, sin baja de peso ni disfagia: úlcera péptica (duodenal)"
   },
   "PED-093": {
-    titulo: "Dificultad respiratoria neonatal",
+    titulo: "Recién nacido de 36 semanas con dificultad respiratoria leve e hipotermia, madre con RPM > 18 horas: neumonía neonatal (sepsis precoz)",
     imagen: "flujogramas/rpm-prolongada-hipotermia-neumonia-neonatal.svg",
-    alt: "Flujograma: Dificultad respiratoria neonatal"
+    alt: "Flujograma: Recién nacido de 36 semanas con dificultad respiratoria leve e hipotermia, madre con RPM > 18 horas: neumonía neonatal (sepsis precoz)"
   },
   "NEU-025": {
-    titulo: "Contacto de tuberculosis",
+    titulo: "Gestante asintomática con PPD positivo y Rx normal cuyo esposo tiene TB bacilífera: terapia preventiva con isoniacida",
     imagen: "flujogramas/gestante-contacto-tb-ppd-positivo-isoniacida.svg",
-    alt: "Flujograma: Contacto de tuberculosis"
+    alt: "Flujograma: Gestante asintomática con PPD positivo y Rx normal cuyo esposo tiene TB bacilífera: terapia preventiva con isoniacida"
   },
   "END-021": {
-    titulo: "Perfil tiroideo en el enfermo grave",
+    titulo: "Paciente con colitis ulcerosa grave con T3 baja y T4 libre y TSH normales: síndrome del eutiroideo enfermo",
     imagen: "flujogramas/colitis-grave-t3-baja-eutiroideo-enfermo.svg",
-    alt: "Flujograma: Perfil tiroideo en el enfermo grave"
+    alt: "Flujograma: Paciente con colitis ulcerosa grave con T3 baja y T4 libre y TSH normales: síndrome del eutiroideo enfermo"
   },
   "GIN-081": {
-    titulo: "Sangrado del primer trimestre",
+    titulo: "Amenorrea de 9 semanas con cólico y sangrado escaso, cuello cerrado y estable: amenaza de aborto, pedir ecografía transvaginal",
     imagen: "flujogramas/amenorrea-9-semanas-sangrado-escaso-ecografia.svg",
-    alt: "Flujograma: Sangrado del primer trimestre"
+    alt: "Flujograma: Amenorrea de 9 semanas con cólico y sangrado escaso, cuello cerrado y estable: amenaza de aborto, pedir ecografía transvaginal"
   },
   "NRL-022": {
-    titulo: "Hipertensión endocraneana: escalones",
+    titulo: "TEC con cefalea, vómitos explosivos, papiledema y Glasgow 10 que desciende: hipertensión endocraneana, solución salina hipertónica",
     imagen: "flujogramas/tec-edema-papila-glasgow-descenso-salino-hipertonico.svg",
-    alt: "Flujograma: Hipertensión endocraneana: escalones"
+    alt: "Flujograma: TEC con cefalea, vómitos explosivos, papiledema y Glasgow 10 que desciende: hipertensión endocraneana, solución salina hipertónica"
   },
   "GIN-082": {
-    titulo: "Dolor en FID en mujer fértil",
+    titulo: "Mujer joven con ciclos irregulares, dolor súbito en FID, hipotensión, Blumberg (+) y masa anexial: pedir β-hCG (sospecha de ectópico roto)",
     imagen: "flujogramas/dolor-fid-masa-anexial-hipotension-bhcg.svg",
-    alt: "Flujograma: Dolor en FID en mujer fértil"
+    alt: "Flujograma: Mujer joven con ciclos irregulares, dolor súbito en FID, hipotensión, Blumberg (+) y masa anexial: pedir β-hCG (sospecha de ectópico roto)"
   },
   "CB-026": {
-    titulo: "Toxíndromes",
+    titulo: "Estudiante que tomó 4 bebidas energizantes con agitación, HTA, taquicardia arrítmica y alteración del sensorio: sobredosis de cafeína",
     imagen: "flujogramas/bebidas-energizantes-agitacion-toxindrome-simpatico.svg",
-    alt: "Flujograma: Toxíndromes"
+    alt: "Flujograma: Estudiante que tomó 4 bebidas energizantes con agitación, HTA, taquicardia arrítmica y alteración del sensorio: sobredosis de cafeína"
   },
   "OFT-020": {
-    titulo: "Cuerpo extraño en el oído",
+    titulo: "Niño con una semilla en el conducto auditivo: extracción instrumentada (no irrigar, la semilla se hincha)",
     imagen: "flujogramas/semilla-conducto-auditivo-extraccion.svg",
-    alt: "Flujograma: Cuerpo extraño en el oído"
+    alt: "Flujograma: Niño con una semilla en el conducto auditivo: extracción instrumentada (no irrigar, la semilla se hincha)"
   },
   "CAR-035": {
-    titulo: "Endocarditis: criterios de Duke",
+    titulo: "Paciente en hemodiálisis por catéter con fiebre, lesiones de Janeway y soplo nuevo: lo primero son los hemocultivos",
     imagen: "flujogramas/dialisis-cateter-fiebre-janeway-endocarditis.svg",
-    alt: "Flujograma: Endocarditis: criterios de Duke"
+    alt: "Flujograma: Paciente en hemodiálisis por catéter con fiebre, lesiones de Janeway y soplo nuevo: lo primero son los hemocultivos"
   },
   "INF-040": {
-    titulo: "Contacto de meningococo",
+    titulo: "Contacto del personal de salud con un caso de meningococcemia (púrpura, rigidez de nuca): quimioprofilaxis con rifampicina",
     imagen: "flujogramas/meningococcemia-contacto-personal-salud-rifampicina.svg",
-    alt: "Flujograma: Contacto de meningococo"
+    alt: "Flujograma: Contacto del personal de salud con un caso de meningococcemia (púrpura, rigidez de nuca): quimioprofilaxis con rifampicina"
   },
   "CB-027": {
-    titulo: "Monóxido de carbono y oxigenación",
+    titulo: "Víctima de incendio intubada con PaO₂ 400, saturación del gasómetro 99 % pero lactato 6 e hipotensión: hiperoxemia con hipoxia tisular (monóxido de carbono)",
     imagen: "flujogramas/incendio-sotano-monoxido-po2-alta-hipoxia-tisular.svg",
-    alt: "Flujograma: Monóxido de carbono y oxigenación"
+    alt: "Flujograma: Víctima de incendio intubada con PaO₂ 400, saturación del gasómetro 99 % pero lactato 6 e hipotensión: hiperoxemia con hipoxia tisular (monóxido de carbono)"
   },
   "TRA-015": {
-    titulo: "Ligamentos del tobillo",
+    titulo: "Futbolista con esguince del tobillo por inversión y dolor lateral: se lesiona el complejo lateral (peroneoastragalino anterior y calcaneoperoneo)",
     imagen: "flujogramas/futbolista-esguince-inversion-calcaneoperoneo.svg",
-    alt: "Flujograma: Ligamentos del tobillo"
+    alt: "Flujograma: Futbolista con esguince del tobillo por inversión y dolor lateral: se lesiona el complejo lateral (peroneoastragalino anterior y calcaneoperoneo)"
   },
   "GIN-083": {
-    titulo: "Sangrado del tercer trimestre en el primer nivel",
+    titulo: "Gestante a término sin control prenatal con sangrado continuo en un centro I-2: no hacer tacto vaginal y referir a mayor complejidad",
     imagen: "flujogramas/sangrado-tercer-trimestre-establecimiento-i2-referencia.svg",
-    alt: "Flujograma: Sangrado del tercer trimestre en el primer nivel"
+    alt: "Flujograma: Gestante a término sin control prenatal con sangrado continuo en un centro I-2: no hacer tacto vaginal y referir a mayor complejidad"
   },
   "PED-094": {
-    titulo: "Tos ferina: fases",
+    titulo: "Lactante con catarro que pasa a tos en accesos que termina en vómito y cianosis, y queda bien entre accesos: tos ferina",
     imagen: "flujogramas/tos-paroxistica-vomito-cianosis-tos-ferina.svg",
-    alt: "Flujograma: Tos ferina: fases"
+    alt: "Flujograma: Lactante con catarro que pasa a tos en accesos que termina en vómito y cianosis, y queda bien entre accesos: tos ferina"
   },
   "NEF-033": {
-    titulo: "Urocultivo: cuándo es significativo",
+    titulo: "El umbral clásico de urocultivo positivo en la muestra de chorro medio es 100 000 UFC/mL de un solo germen",
     imagen: "flujogramas/urocultivo-umbral-100000-ufc.svg",
-    alt: "Flujograma: Urocultivo: cuándo es significativo"
+    alt: "Flujograma: El umbral clásico de urocultivo positivo en la muestra de chorro medio es 100 000 UFC/mL de un solo germen"
   },
   "NEF-034": {
-    titulo: "Tipos de cálculo urinario",
+    titulo: "Cólico renal con hematuria, cálculo radiopaco, calcio y fósforo normales y urocultivo negativo: cálculo de oxalato de calcio",
     imagen: "flujogramas/calculo-radiopaco-calcio-normal-oxalato.svg",
-    alt: "Flujograma: Tipos de cálculo urinario"
+    alt: "Flujograma: Cólico renal con hematuria, cálculo radiopaco, calcio y fósforo normales y urocultivo negativo: cálculo de oxalato de calcio"
   },
   "NEU-026": {
-    titulo: "Neumonía según el lugar de adquisición",
+    titulo: "Paciente hospitalizado por ACV que al 8.º día hace consolidación basal derecha: neumonía intrahospitalaria por bacilos gramnegativos",
     imagen: "flujogramas/acv-hospitalizado-dia-8-neumonia-gramnegativos.svg",
-    alt: "Flujograma: Neumonía según el lugar de adquisición"
+    alt: "Flujograma: Paciente hospitalizado por ACV que al 8.º día hace consolidación basal derecha: neumonía intrahospitalaria por bacilos gramnegativos"
   },
   "GIN-084": {
-    titulo: "Amenorrea secundaria",
+    titulo: "Amenorrea secundaria con β-hCG, FSH, LH, prolactina y TSH normales que menstrúa con progesterona: causa anovulatoria",
     imagen: "flujogramas/amenorrea-secundaria-test-progesterona-anovulacion.svg",
-    alt: "Flujograma: Amenorrea secundaria"
+    alt: "Flujograma: Amenorrea secundaria con β-hCG, FSH, LH, prolactina y TSH normales que menstrúa con progesterona: causa anovulatoria"
   },
   "PED-095": {
-    titulo: "Pulsos femorales débiles en el neonato",
+    titulo: "Neonato de 18 horas con pulsos femorales más débiles que los del brazo derecho: coartación de aorta",
     imagen: "flujogramas/neonato-pulsos-femorales-debiles-coartacion.svg",
-    alt: "Flujograma: Pulsos femorales débiles en el neonato"
+    alt: "Flujograma: Neonato de 18 horas con pulsos femorales más débiles que los del brazo derecho: coartación de aorta"
   },
   "PED-096": {
-    titulo: "Policitemia neonatal",
+    titulo: "Recién nacido pletórico, letárgico y con mala succión con hematocrito de 70 %: policitemia sintomática, exanguinotransfusión parcial",
     imagen: "flujogramas/neonato-pletorico-hto-70-exanguinotransfusion.svg",
-    alt: "Flujograma: Policitemia neonatal"
+    alt: "Flujograma: Recién nacido pletórico, letárgico y con mala succión con hematocrito de 70 %: policitemia sintomática, exanguinotransfusión parcial"
   },
   "END-022": {
-    titulo: "Tratamiento del hipertiroidismo",
+    titulo: "Mujer joven con baja de peso, intolerancia al calor, temblor, taquicardia y amenorrea con TSH baja y T4 libre alta: hipertiroidismo, metimazol",
     imagen: "flujogramas/hipertiroidismo-mujer-joven-metimazol.svg",
-    alt: "Flujograma: Tratamiento del hipertiroidismo"
+    alt: "Flujograma: Mujer joven con baja de peso, intolerancia al calor, temblor, taquicardia y amenorrea con TSH baja y T4 libre alta: hipertiroidismo, metimazol"
   },
   "REU-025": {
-    titulo: "Hidradenitis supurativa: estadios de Hurley",
+    titulo: "Nódulos dolorosos axilares que supuran y dejan cicatrices: hidradenitis supurativa",
     imagen: "flujogramas/abscesos-axilares-trayectos-hidradenitis.svg",
-    alt: "Flujograma: Hidradenitis supurativa: estadios de Hurley"
+    alt: "Flujograma: Nódulos dolorosos axilares que supuran y dejan cicatrices: hidradenitis supurativa"
   },
   "PED-097": {
-    titulo: "Reanimación neonatal: el minuto de oro",
+    titulo: "Prematuro de 34 semanas que nace flácido y sin respirar: primero calor, secar, posicionar la vía aérea y aspirar si hace falta",
     imagen: "flujogramas/prematuro-flacido-apnea-pasos-iniciales.svg",
-    alt: "Flujograma: Reanimación neonatal: el minuto de oro"
+    alt: "Flujograma: Prematuro de 34 semanas que nace flácido y sin respirar: primero calor, secar, posicionar la vía aérea y aspirar si hace falta"
   },
   "GIN-085": {
-    titulo: "Vigilancia del sulfato de magnesio",
+    titulo: "Preeclámptica con sulfato de magnesio que tiene diuresis de 10 mL/h y FR 10: toxicidad por magnesio, suspender la infusión",
     imagen: "flujogramas/sulfato-magnesio-oliguria-bradipnea-suspender.svg",
-    alt: "Flujograma: Vigilancia del sulfato de magnesio"
+    alt: "Flujograma: Preeclámptica con sulfato de magnesio que tiene diuresis de 10 mL/h y FR 10: toxicidad por magnesio, suspender la infusión"
   },
   "INF-041": {
-    titulo: "Prurito vulvar en la niña",
+    titulo: "Niña con prurito perianal y vulvar de predominio nocturno e irritabilidad: oxiuros (Enterobius vermicularis)",
     imagen: "flujogramas/nina-prurito-vulvar-perianal-nocturno-oxiuros.svg",
-    alt: "Flujograma: Prurito vulvar en la niña"
+    alt: "Flujograma: Niña con prurito perianal y vulvar de predominio nocturno e irritabilidad: oxiuros (Enterobius vermicularis)"
   },
   "GIN-086": {
-    titulo: "Alumbramiento y retención placentaria",
+    titulo: "Puérpera de parto domiciliario que no expulsa la placenta en 1 hora y sangra mucho: extracción manual de la placenta",
     imagen: "flujogramas/parto-domiciliario-placenta-retenida-sangrado.svg",
-    alt: "Flujograma: Alumbramiento y retención placentaria"
+    alt: "Flujograma: Puérpera de parto domiciliario que no expulsa la placenta en 1 hora y sangra mucho: extracción manual de la placenta"
   },
   "GAS-033": {
-    titulo: "Pancreatitis aguda: gravedad",
+    titulo: "Pancreatitis aguda con PA 65/40, sopor y TC con páncreas agrandado y líquido: pancreatitis grave en choque, lo primero es reponer volumen",
     imagen: "flujogramas/pancreatitis-grave-choque-fluidoterapia.svg",
-    alt: "Flujograma: Pancreatitis aguda: gravedad"
+    alt: "Flujograma: Pancreatitis aguda con PA 65/40, sopor y TC con páncreas agrandado y líquido: pancreatitis grave en choque, lo primero es reponer volumen"
   },
   "NEF-035": {
-    titulo: "Glomerulonefritis con hematuria",
+    titulo: "Joven con hematuria, edema e HTA 2 semanas después de una infección respiratoria, con cilindros hemáticos: glomerulonefritis aguda postinfecciosa",
     imagen: "flujogramas/infeccion-respiratoria-previa-hematuria-gn-postinfecciosa.svg",
-    alt: "Flujograma: Glomerulonefritis con hematuria"
+    alt: "Flujograma: Joven con hematuria, edema e HTA 2 semanas después de una infección respiratoria, con cilindros hemáticos: glomerulonefritis aguda postinfecciosa"
   },
   "SP-057": {
-    titulo: "Ciclo de la violencia",
+    titulo: "En el ciclo de la violencia, la fase de pequeños episodios y roces permanentes es la acumulación de tensión",
     imagen: "flujogramas/ciclo-violencia-pareja-acumulacion-tension.svg",
-    alt: "Flujograma: Ciclo de la violencia"
+    alt: "Flujograma: En el ciclo de la violencia, la fase de pequeños episodios y roces permanentes es la acumulación de tensión"
   },
   "CB-028": {
-    titulo: "Intoxicación por metanol",
+    titulo: "Licor adulterado con coma, convulsiones y acidosis metabólica grave (pH 7,0, HCO₃ 5): intoxicación por metanol, soporte y hemodiálisis urgente",
     imagen: "flujogramas/licor-adulterado-convulsiones-acidosis-metanol.svg",
-    alt: "Flujograma: Intoxicación por metanol"
+    alt: "Flujograma: Licor adulterado con coma, convulsiones y acidosis metabólica grave (pH 7,0, HCO₃ 5): intoxicación por metanol, soporte y hemodiálisis urgente"
   },
   "SP-058": {
-    titulo: "Estrategias de salud pública",
+    titulo: "Crear espacios de deliberación, concertación y vigilancia de compromisos con todos los actores es participación ciudadana",
     imagen: "flujogramas/diresa-espacios-concertacion-participacion-ciudadana.svg",
-    alt: "Flujograma: Estrategias de salud pública"
+    alt: "Flujograma: Crear espacios de deliberación, concertación y vigilancia de compromisos con todos los actores es participación ciudadana"
   },
   "INF-042": {
-    titulo: "Úlcera con nódulos en cadena",
+    titulo: "Jardinero que se pinchó con una rosa y tiene una úlcera indolora con nódulos que siguen el trayecto linfático: esporotricosis",
     imagen: "flujogramas/jardinero-espina-rosa-nodulos-linfaticos-esporotricosis.svg",
-    alt: "Flujograma: Úlcera con nódulos en cadena"
+    alt: "Flujograma: Jardinero que se pinchó con una rosa y tiene una úlcera indolora con nódulos que siguen el trayecto linfático: esporotricosis"
   },
   "GIN-087": {
-    titulo: "Anticoncepción en puérpera con VIH",
+    titulo: "Puérpera con VIH en TAR que no quiere embarazarse: DIU (los métodos combinados con estrógeno no se usan en el puerperio temprano)",
     imagen: "flujogramas/puerpera-vih-tar-anticoncepcion-diu.svg",
-    alt: "Flujograma: Anticoncepción en puérpera con VIH"
+    alt: "Flujograma: Puérpera con VIH en TAR que no quiere embarazarse: DIU (los métodos combinados con estrógeno no se usan en el puerperio temprano)"
   },
   "PED-098": {
-    titulo: "Desnutrición grave en el lactante",
+    titulo: "Lactante de comunidad nativa muy adelgazado, piel flácida y arrugada, cara de viejo, cabello quebradizo y emaciación de glúteos y muslos: marasmo",
     imagen: "flujogramas/lactante-emaciado-piel-flacida-marasmo.svg",
-    alt: "Flujograma: Desnutrición grave en el lactante"
+    alt: "Flujograma: Lactante de comunidad nativa muy adelgazado, piel flácida y arrugada, cara de viejo, cabello quebradizo y emaciación de glúteos y muslos: marasmo"
   },
   "PED-099": {
-    titulo: "Diarrea: evaluar la deshidratación",
+    titulo: "Niño con 2 días de diarrea con moco sin sangre, fiebre y dolor, sin vómitos: tratamiento inicial con hidratación oral",
     imagen: "flujogramas/diarrea-con-moco-sin-deshidratacion-plan-a.svg",
-    alt: "Flujograma: Diarrea: evaluar la deshidratación"
+    alt: "Flujograma: Niño con 2 días de diarrea con moco sin sangre, fiebre y dolor, sin vómitos: tratamiento inicial con hidratación oral"
   },
   "HEM-017": {
-    titulo: "TTPa prolongado: prueba de mezcla",
+    titulo: "Mujer de 58 años con sangrado sin antecedentes, TTPa prolongado que no corrige con la mezcla: inhibidor de un factor (hemofilia adquirida)",
     imagen: "flujogramas/ttpa-prolongado-prueba-mezcla-no-corrige.svg",
-    alt: "Flujograma: TTPa prolongado: prueba de mezcla"
+    alt: "Flujograma: Mujer de 58 años con sangrado sin antecedentes, TTPa prolongado que no corrige con la mezcla: inhibidor de un factor (hemofilia adquirida)"
   },
   "HEM-018": {
-    titulo: "Estrógenos y trombosis",
+    titulo: "Mujer que toma anticonceptivos combinados y fuma con edema y dolor en la pierna: trombosis por aumento de la síntesis de factores de coagulación",
     imagen: "flujogramas/anticonceptivos-combinados-tvp-factores-coagulacion.svg",
-    alt: "Flujograma: Estrógenos y trombosis"
+    alt: "Flujograma: Mujer que toma anticonceptivos combinados y fuma con edema y dolor en la pierna: trombosis por aumento de la síntesis de factores de coagulación"
   },
   "NEF-036": {
-    titulo: "Fiebre con síntomas urinarios en el varón",
+    titulo: "Varón joven con fiebre, disuria, polaquiuria, retardo miccional, dolor perineal y próstata dolorosa: prostatitis aguda",
     imagen: "flujogramas/fiebre-disuria-dolor-perineal-prostatitis.svg",
-    alt: "Flujograma: Fiebre con síntomas urinarios en el varón"
+    alt: "Flujograma: Varón joven con fiebre, disuria, polaquiuria, retardo miccional, dolor perineal y próstata dolorosa: prostatitis aguda"
   },
   "INF-043": {
-    titulo: "Dengue grave por reinfección",
+    titulo: "Mujer con dengue previo hace un mes que ahora tiene choque, epistaxis y petequias: dengue grave por reinfección, por aumento de mediadores vasoactivos",
     imagen: "flujogramas/reinfeccion-dengue-choque-mediadores-vasoactivos.svg",
-    alt: "Flujograma: Dengue grave por reinfección"
+    alt: "Flujograma: Mujer con dengue previo hace un mes que ahora tiene choque, epistaxis y petequias: dengue grave por reinfección, por aumento de mediadores vasoactivos"
   },
   "NRL-023": {
-    titulo: "Hematomas intracraneales",
+    titulo: "Anciano con TEC leve hace 3 semanas que luego tiene cefalea y deterioro cognitivo progresivo: hematoma subdural crónico",
     imagen: "flujogramas/anciano-tec-leve-semanas-deterioro-subdural-cronico.svg",
-    alt: "Flujograma: Hematomas intracraneales"
+    alt: "Flujograma: Anciano con TEC leve hace 3 semanas que luego tiene cefalea y deterioro cognitivo progresivo: hematoma subdural crónico"
   },
   "GIN-088": {
-    titulo: "Hemorragia posparto: las 4 T",
+    titulo: "Sangrado rojo rutilante tras parto instrumentado de un bebé de 4100 g con útero bien contraído: lesión del canal del parto",
     imagen: "flujogramas/parto-instrumentado-macrosomico-utero-contraido-desgarro.svg",
-    alt: "Flujograma: Hemorragia posparto: las 4 T"
+    alt: "Flujograma: Sangrado rojo rutilante tras parto instrumentado de un bebé de 4100 g con útero bien contraído: lesión del canal del parto"
   },
   "NRL-024": {
-    titulo: "Cefalea súbita con compromiso del III par",
+    titulo: "Cefalea súbita en trueno con vómitos, convulsión, rigidez de nuca, Glasgow 10 y midriasis con ptosis derecha: hemorragia subaracnoidea (aneurisma)",
     imagen: "flujogramas/cefalea-trueno-anisocoria-ptosis-hsa.svg",
-    alt: "Flujograma: Cefalea súbita con compromiso del III par"
+    alt: "Flujograma: Cefalea súbita en trueno con vómitos, convulsión, rigidez de nuca, Glasgow 10 y midriasis con ptosis derecha: hemorragia subaracnoidea (aneurisma)"
   },
   "END-023": {
-    titulo: "Hipertensión secundaria endocrina",
+    titulo: "Joven con crisis de cefalea, sudoración, palpitaciones y palidez, HTA resistente y metanefrinas altas: feocromocitoma",
     imagen: "flujogramas/crisis-adrenergicas-hta-refractaria-metanefrinas.svg",
-    alt: "Flujograma: Hipertensión secundaria endocrina"
+    alt: "Flujograma: Joven con crisis de cefalea, sudoración, palpitaciones y palidez, HTA resistente y metanefrinas altas: feocromocitoma"
   },
   "CIR-054": {
-    titulo: "Trauma abdominal cerrado",
+    titulo: "Trauma abdominal cerrado sin peritonitis ni otra indicación de laparotomía: lo que decide diferir la cirugía es la estabilidad hemodinámica",
     imagen: "flujogramas/trauma-abdominal-cerrado-sin-peritonitis-estable.svg",
-    alt: "Flujograma: Trauma abdominal cerrado"
+    alt: "Flujograma: Trauma abdominal cerrado sin peritonitis ni otra indicación de laparotomía: lo que decide diferir la cirugía es la estabilidad hemodinámica"
   },
   "END-024": {
-    titulo: "Estudio de la función tiroidea",
+    titulo: "Mujer con calor, nerviosismo, polimenorrea, caída del cabello, taquicardia y piel caliente: pedir TSH y T4 libre",
     imagen: "flujogramas/calor-nerviosismo-polimenorrea-tsh-t4l.svg",
-    alt: "Flujograma: Estudio de la función tiroidea"
+    alt: "Flujograma: Mujer con calor, nerviosismo, polimenorrea, caída del cabello, taquicardia y piel caliente: pedir TSH y T4 libre"
   },
   "HEM-019": {
-    titulo: "Niño con citopenias y dolor óseo",
+    titulo: "Niño de 4 años con cansancio, febrícula, dolor óseo nocturno, palidez, petequias y hepatoesplenomegalia con citopenias: leucemia linfoblástica aguda",
     imagen: "flujogramas/nino-dolor-oseo-nocturno-petequias-lla.svg",
-    alt: "Flujograma: Niño con citopenias y dolor óseo"
+    alt: "Flujograma: Niño de 4 años con cansancio, febrícula, dolor óseo nocturno, palidez, petequias y hepatoesplenomegalia con citopenias: leucemia linfoblástica aguda"
   },
   "NRL-025": {
-    titulo: "Lesión con realce en anillo",
+    titulo: "Anciana con cefalea y confusión progresivas, apraxia del vestido y hemianopsia con masa parietal en anillo, necrosis central y edema: glioblastoma",
     imagen: "flujogramas/masa-realce-anillo-necrosis-glioblastoma.svg",
-    alt: "Flujograma: Lesión con realce en anillo"
+    alt: "Flujograma: Anciana con cefalea y confusión progresivas, apraxia del vestido y hemianopsia con masa parietal en anillo, necrosis central y edema: glioblastoma"
   },
   "REU-026": {
-    titulo: "Dermatomiositis: criterios",
+    titulo: "Debilidad muscular proximal con eritema violáceo de párpados (heliotropo) y eritema en el escote: dermatomiositis",
     imagen: "flujogramas/debilidad-proximal-heliotropo-dermatomiositis.svg",
-    alt: "Flujograma: Dermatomiositis: criterios"
+    alt: "Flujograma: Debilidad muscular proximal con eritema violáceo de párpados (heliotropo) y eritema en el escote: dermatomiositis"
   },
   "SP-059": {
-    titulo: "Niveles de ocurrencia de una enfermedad",
+    titulo: "Casos de COVID-19 leves que siguen apareciendo dentro de la incidencia esperada pese a la vacunación: comportamiento endémico",
     imagen: "flujogramas/covid-casos-esperados-vacunados-endemia.svg",
-    alt: "Flujograma: Niveles de ocurrencia de una enfermedad"
+    alt: "Flujograma: Casos de COVID-19 leves que siguen apareciendo dentro de la incidencia esperada pese a la vacunación: comportamiento endémico"
   },
   "GIN-089": {
-    titulo: "Complicaciones de la hiperémesis",
+    titulo: "Gestante con vómitos persistentes que hace confusión, ataxia y movimientos oculares anormales: encefalopatía de Wernicke, dar tiamina",
     imagen: "flujogramas/hiperemesis-confusion-ataxia-nistagmo-tiamina.svg",
-    alt: "Flujograma: Complicaciones de la hiperémesis"
+    alt: "Flujograma: Gestante con vómitos persistentes que hace confusión, ataxia y movimientos oculares anormales: encefalopatía de Wernicke, dar tiamina"
   },
   "END-025": {
-    titulo: "Hipotiroidismo: iniciar levotiroxina",
+    titulo: "Mujer con fatiga, aumento de peso, estreñimiento, piel seca, reflejo aquíleo lento, TSH 52 y T4L baja: hipotiroidismo primario, levotiroxina",
     imagen: "flujogramas/hipotiroidismo-tsh-52-levotiroxina.svg",
-    alt: "Flujograma: Hipotiroidismo: iniciar levotiroxina"
+    alt: "Flujograma: Mujer con fatiga, aumento de peso, estreñimiento, piel seca, reflejo aquíleo lento, TSH 52 y T4L baja: hipotiroidismo primario, levotiroxina"
   },
   "END-026": {
-    titulo: "Insuficiencia suprarrenal",
+    titulo: "Joven con TB previa, síncopes por hipotensión ortostática, hiperpigmentación, hiponatremia e hiperpotasemia: insuficiencia suprarrenal primaria (Addison)",
     imagen: "flujogramas/sincope-ortostatico-hiperpigmentacion-hiperkalemia-addison.svg",
-    alt: "Flujograma: Insuficiencia suprarrenal"
+    alt: "Flujograma: Joven con TB previa, síncopes por hipotensión ortostática, hiperpigmentación, hiponatremia e hiperpotasemia: insuficiencia suprarrenal primaria (Addison)"
   },
   "SP-060": {
-    titulo: "Salud ocupacional",
+    titulo: "La disciplina que gestiona la promoción, prevención y control de la salud de los trabajadores es la medicina ocupacional",
     imagen: "flujogramas/salud-trabajadores-medicina-ocupacional.svg",
-    alt: "Flujograma: Salud ocupacional"
+    alt: "Flujograma: La disciplina que gestiona la promoción, prevención y control de la salud de los trabajadores es la medicina ocupacional"
   },
   "CAR-036": {
-    titulo: "Cadena de supervivencia",
+    titulo: "Paro cardiaco presenciado en un centro comercial con DEA disponible: lo inmediato es desfibrilar con el DEA",
     imagen: "flujogramas/centro-comercial-paro-dea-desfibrilacion.svg",
-    alt: "Flujograma: Cadena de supervivencia"
+    alt: "Flujograma: Paro cardiaco presenciado en un centro comercial con DEA disponible: lo inmediato es desfibrilar con el DEA"
   },
   "SP-061": {
-    titulo: "Enfoques del modelo de cuidado integral",
+    titulo: "Capacitar al personal para respetar las culturas y adecuar los servicios con pertinencia cultural es el enfoque intercultural",
     imagen: "flujogramas/pertinencia-cultural-servicios-interculturalidad.svg",
-    alt: "Flujograma: Enfoques del modelo de cuidado integral"
+    alt: "Flujograma: Capacitar al personal para respetar las culturas y adecuar los servicios con pertinencia cultural es el enfoque intercultural"
   },
   "PED-100": {
-    titulo: "Malformaciones anorrectales",
+    titulo: "En la recién nacida con ano imperforado, el defecto más frecuente es la fístula rectovestibular",
     imagen: "flujogramas/ano-imperforado-nina-fistula-rectovestibular.svg",
-    alt: "Flujograma: Malformaciones anorrectales"
+    alt: "Flujograma: En la recién nacida con ano imperforado, el defecto más frecuente es la fístula rectovestibular"
   },
   "PED-101": {
-    titulo: "Deterioro neurológico en el prematuro",
+    titulo: "Prematuro de 32 semanas con letargia, apneas, bradicardia, fontanela llena y perímetro cefálico que crece: hemorragia intraventricular",
     imagen: "flujogramas/prematuro-32-semanas-letargia-fontanela-llena-hiv.svg",
-    alt: "Flujograma: Deterioro neurológico en el prematuro"
+    alt: "Flujograma: Prematuro de 32 semanas con letargia, apneas, bradicardia, fontanela llena y perímetro cefálico que crece: hemorragia intraventricular"
   },
   "GAS-034": {
-    titulo: "Hepatitis A: serología",
+    titulo: "Adolescente con pródromo, ictericia y hepatomegalia: la IgM anti-VHA confirma la hepatitis A aguda",
     imagen: "flujogramas/adolescente-ictericia-igm-anti-vha.svg",
-    alt: "Flujograma: Hepatitis A: serología"
+    alt: "Flujograma: Adolescente con pródromo, ictericia y hepatomegalia: la IgM anti-VHA confirma la hepatitis A aguda"
   },
   "OFT-021": {
-    titulo: "Maculopatía en paciente con lupus",
+    titulo: "Lúpica en tratamiento crónico con hidroxicloroquina con pérdida visual progresiva y maculopatía bilateral: toxicidad por hidroxicloroquina",
     imagen: "flujogramas/lupus-hidroxicloroquina-maculopatia-bilateral.svg",
-    alt: "Flujograma: Maculopatía en paciente con lupus"
+    alt: "Flujograma: Lúpica en tratamiento crónico con hidroxicloroquina con pérdida visual progresiva y maculopatía bilateral: toxicidad por hidroxicloroquina"
   },
   "INF-044": {
-    titulo: "Análisis del líquido ascítico",
+    titulo: "Joven con 3 semanas de fiebre, sudoración nocturna, baja de peso, ascitis y abdomen «en tablero de ajedrez» con exudado linfocítico: peritonitis tuberculosa",
     imagen: "flujogramas/ascitis-exudado-linfocitos-peritonitis-tuberculosa.svg",
-    alt: "Flujograma: Análisis del líquido ascítico"
+    alt: "Flujograma: Joven con 3 semanas de fiebre, sudoración nocturna, baja de peso, ascitis y abdomen «en tablero de ajedrez» con exudado linfocítico: peritonitis tuberculosa"
   },
   "GIN-090": {
-    titulo: "Enfermedad trofoblástica gestacional",
+    titulo: "Sangrado a las 8 semanas con útero grande para la edad y ecografía «en tormenta de nieve»: mola hidatiforme, evacuación por aspiración",
     imagen: "flujogramas/tormenta-de-nieve-utero-grande-mola-evacuacion.svg",
-    alt: "Flujograma: Enfermedad trofoblástica gestacional"
+    alt: "Flujograma: Sangrado a las 8 semanas con útero grande para la edad y ecografía «en tormenta de nieve»: mola hidatiforme, evacuación por aspiración"
   },
   "TRA-016": {
-    titulo: "Displasia de cadera: estudio según la edad",
+    titulo: "Para el tamizaje de la displasia del desarrollo de la cadera en el recién nacido, el estudio de elección es la ecografía",
     imagen: "flujogramas/recien-nacido-cadera-ecografia-graf.svg",
-    alt: "Flujograma: Displasia de cadera: estudio según la edad"
+    alt: "Flujograma: Para el tamizaje de la displasia del desarrollo de la cadera en el recién nacido, el estudio de elección es la ecografía"
   },
   "SP-062": {
-    titulo: "Principios de gestión",
+    titulo: "Usar racionalmente los recursos disponibles para alcanzar metas predeterminadas es el principio de eficiencia",
     imagen: "flujogramas/asis-uso-racional-recursos-eficiencia.svg",
-    alt: "Flujograma: Principios de gestión"
+    alt: "Flujograma: Usar racionalmente los recursos disponibles para alcanzar metas predeterminadas es el principio de eficiencia"
   },
   "PED-102": {
-    titulo: "Neonato de 9 días decaído",
+    titulo: "Neonato de 9 días con ictericia hasta el abdomen (Kramer 3), succión débil, poca orina, hipoactivo y bradicárdico: sepsis neonatal tardía, referir",
     imagen: "flujogramas/neonato-9-dias-ictericia-oliguria-hipoactivo-sepsis-tardia.svg",
-    alt: "Flujograma: Neonato de 9 días decaído"
+    alt: "Flujograma: Neonato de 9 días con ictericia hasta el abdomen (Kramer 3), succión débil, poca orina, hipoactivo y bradicárdico: sepsis neonatal tardía, referir"
   },
   "PSI-017": {
-    titulo: "Episodio depresivo: criterios",
+    titulo: "Varón con 6 semanas de tristeza, vacío, insomnio, falta de energía, poca atención e ideas suicidas recurrentes: episodio depresivo",
     imagen: "flujogramas/tristeza-seis-semanas-ideas-suicidas-episodio-depresivo.svg",
-    alt: "Flujograma: Episodio depresivo: criterios"
+    alt: "Flujograma: Varón con 6 semanas de tristeza, vacío, insomnio, falta de energía, poca atención e ideas suicidas recurrentes: episodio depresivo"
   },
   "CB-029": {
-    titulo: "Biotransformación hepática",
+    titulo: "La principal función del hígado con los xenobióticos es transformarlos, empezando por la hidroxilación enzimática (fase I, citocromo P450)",
     imagen: "flujogramas/higado-xenobioticos-fase-1-hidroxilacion.svg",
-    alt: "Flujograma: Biotransformación hepática"
+    alt: "Flujograma: La principal función del hígado con los xenobióticos es transformarlos, empezando por la hidroxilación enzimática (fase I, citocromo P450)"
   },
   "CIR-055": {
-    titulo: "Obstrucción por cáncer colorrectal",
+    titulo: "Adulto mayor con baja de peso, hematoquecia y obstrucción intestinal baja con masa rectal y fiebre: cáncer obstructivo, colostomía",
     imagen: "flujogramas/anciano-obstruccion-masa-rectal-colostomia.svg",
-    alt: "Flujograma: Obstrucción por cáncer colorrectal"
+    alt: "Flujograma: Adulto mayor con baja de peso, hematoquecia y obstrucción intestinal baja con masa rectal y fiebre: cáncer obstructivo, colostomía"
   },
   "CAR-037": {
-    titulo: "Chagas crónico",
+    titulo: "Mujer de Arequipa rural con insuficiencia cardiaca, fibrilación auricular, cardiomegalia, megaesófago y megacolon: enfermedad de Chagas crónica",
     imagen: "flujogramas/arequipa-cardiomegalia-megaesofago-megacolon-chagas.svg",
-    alt: "Flujograma: Chagas crónico"
+    alt: "Flujograma: Mujer de Arequipa rural con insuficiencia cardiaca, fibrilación auricular, cardiomegalia, megaesófago y megacolon: enfermedad de Chagas crónica"
   },
   "CIR-056": {
-    titulo: "Politraumatizado: ABCDE",
+    titulo: "Motociclista sin casco con Glasgow 8, SatO₂ 90 % e hipotensión: lo primero es asegurar la vía aérea con intubación orotraqueal",
     imagen: "flujogramas/motociclista-sin-casco-glasgow-8-intubacion.svg",
-    alt: "Flujograma: Politraumatizado: ABCDE"
+    alt: "Flujograma: Motociclista sin casco con Glasgow 8, SatO₂ 90 % e hipotensión: lo primero es asegurar la vía aérea con intubación orotraqueal"
   },
   "NRL-026": {
-    titulo: "Tipos de demencia",
+    titulo: "Deterioro cognitivo con fallas de atención, alucinaciones visuales bien formadas y parkinsonismo: demencia con cuerpos de Lewy",
     imagen: "flujogramas/deterioro-atencional-alucinaciones-parkinsonismo-lewy.svg",
-    alt: "Flujograma: Tipos de demencia"
+    alt: "Flujograma: Deterioro cognitivo con fallas de atención, alucinaciones visuales bien formadas y parkinsonismo: demencia con cuerpos de Lewy"
   },
   "OFT-022": {
-    titulo: "Trauma del pabellón auricular",
+    titulo: "Golpe en la oreja hace 2 horas con aumento de volumen fluctuante del pabellón: hematoma subpericóndrico, drenar",
     imagen: "flujogramas/golpe-pabellon-auricular-hematoma-subpericondrico.svg",
-    alt: "Flujograma: Trauma del pabellón auricular"
+    alt: "Flujograma: Golpe en la oreja hace 2 horas con aumento de volumen fluctuante del pabellón: hematoma subpericóndrico, drenar"
   },
   "PED-103": {
-    titulo: "Síndrome nefrótico: proteinuria en el niño",
+    titulo: "Niño con edema palpebral y de piernas y proteinuria: el síndrome nefrótico se confirma con proteinuria ≥ 40 mg/m²/h",
     imagen: "flujogramas/nino-edema-proteinuria-rango-nefrotico-pediatrico.svg",
-    alt: "Flujograma: Síndrome nefrótico: proteinuria en el niño"
+    alt: "Flujograma: Niño con edema palpebral y de piernas y proteinuria: el síndrome nefrótico se confirma con proteinuria ≥ 40 mg/m²/h"
   },
   "HEM-020": {
-    titulo: "Trombocitopenia por heparina: 4T",
+    titulo: "Al 8.º día de heparina no fraccionada, las plaquetas caen a 27 000 con petequias: trombocitopenia inducida por heparina",
     imagen: "flujogramas/heparina-dia-8-plaquetas-27000-trombocitopenia.svg",
-    alt: "Flujograma: Trombocitopenia por heparina: 4T"
+    alt: "Flujograma: Al 8.º día de heparina no fraccionada, las plaquetas caen a 27 000 con petequias: trombocitopenia inducida por heparina"
   },
   "GAS-035": {
-    titulo: "Hiperbilirrubinemias",
+    titulo: "Joven con ictericia leve que aparece con el ayuno, bilirrubina indirecta alta y todo lo demás normal (sin hemólisis): síndrome de Gilbert",
     imagen: "flujogramas/ictericia-ayuno-bilirrubina-indirecta-gilbert.svg",
-    alt: "Flujograma: Hiperbilirrubinemias"
+    alt: "Flujograma: Joven con ictericia leve que aparece con el ayuno, bilirrubina indirecta alta y todo lo demás normal (sin hemólisis): síndrome de Gilbert"
   },
   "HEM-021": {
-    titulo: "Petequias en la niña tras una infección",
+    titulo: "Niña de 3 años con petequias y gingivorragia 2 semanas después de un resfrío, plaquetas 8500 y el resto normal: trombocitopenia inmune primaria",
     imagen: "flujogramas/nina-petequias-gingivorragia-postviral-pti.svg",
-    alt: "Flujograma: Petequias en la niña tras una infección"
+    alt: "Flujograma: Niña de 3 años con petequias y gingivorragia 2 semanas después de un resfrío, plaquetas 8500 y el resto normal: trombocitopenia inmune primaria"
   },
   "CB-030": {
-    titulo: "Fármacos para la disfunción eréctil",
+    titulo: "Hombre tratado por disfunción eréctil con cefalea, rubor y visión azulada transitoria: efecto del sildenafilo",
     imagen: "flujogramas/disfuncion-erectil-vision-azulada-sildenafilo.svg",
-    alt: "Flujograma: Fármacos para la disfunción eréctil"
+    alt: "Flujograma: Hombre tratado por disfunción eréctil con cefalea, rubor y visión azulada transitoria: efecto del sildenafilo"
   },
   "GIN-091": {
-    titulo: "Contracciones antes de término",
+    titulo: "Gestante de 32 semanas con contracciones, cuello de 35 mm y fibronectina negativa: falso trabajo de parto, manejo expectante",
     imagen: "flujogramas/32-semanas-contracciones-cervix-35-fibronectina-negativa.svg",
-    alt: "Flujograma: Contracciones antes de término"
+    alt: "Flujograma: Gestante de 32 semanas con contracciones, cuello de 35 mm y fibronectina negativa: falso trabajo de parto, manejo expectante"
   },
   "INF-045": {
-    titulo: "Efectos adversos de los antituberculosos",
+    titulo: "Paciente con TB en esquema 1 que al mes pierde agudeza visual y no distingue el verde: neuritis óptica por etambutol",
     imagen: "flujogramas/esquema-1-vision-colores-verde-etambutol.svg",
-    alt: "Flujograma: Efectos adversos de los antituberculosos"
+    alt: "Flujograma: Paciente con TB en esquema 1 que al mes pierde agudeza visual y no distingue el verde: neuritis óptica por etambutol"
   },
   "CAR-038": {
-    titulo: "Soplos valvulares",
+    titulo: "Soplo diastólico decreciente en el borde esternal izquierdo, pulso saltón y soplo mesodiastólico mitral de Austin Flint: insuficiencia aórtica",
     imagen: "flujogramas/pulso-salton-soplo-diastolico-austin-flint.svg",
-    alt: "Flujograma: Soplos valvulares"
+    alt: "Flujograma: Soplo diastólico decreciente en el borde esternal izquierdo, pulso saltón y soplo mesodiastólico mitral de Austin Flint: insuficiencia aórtica"
   },
   "PED-104": {
-    titulo: "Ictericia colestásica neonatal",
+    titulo: "Neonato de 20 días con ictericia, heces blanquecinas, orina oscura y bilirrubina directa alta: atresia de vías biliares",
     imagen: "flujogramas/rn-20-dias-acolia-bilirrubina-directa-atresia.svg",
-    alt: "Flujograma: Ictericia colestásica neonatal"
+    alt: "Flujograma: Neonato de 20 días con ictericia, heces blanquecinas, orina oscura y bilirrubina directa alta: atresia de vías biliares"
   },
   "GIN-092": {
-    titulo: "Hemostasia del lecho placentario",
+    titulo: "Las fibras musculares entrecruzadas del útero (ligaduras vivientes de Pinard) controlan el sangrado después del parto",
     imagen: "flujogramas/pinard-miometrio-hemostasia-posparto.svg",
-    alt: "Flujograma: Hemostasia del lecho placentario"
+    alt: "Flujograma: Las fibras musculares entrecruzadas del útero (ligaduras vivientes de Pinard) controlan el sangrado después del parto"
   },
   "INF-046": {
-    titulo: "Artritis séptica según el Gram",
+    titulo: "Joven sexualmente activo con monoartritis de rodilla y diplococos gramnegativos en el líquido: artritis gonocócica, ceftriaxona EV",
     imagen: "flujogramas/rodilla-diplococos-gramnegativos-artritis-gonococica.svg",
-    alt: "Flujograma: Artritis séptica según el Gram"
+    alt: "Flujograma: Joven sexualmente activo con monoartritis de rodilla y diplococos gramnegativos en el líquido: artritis gonocócica, ceftriaxona EV"
   },
   "INF-047": {
-    titulo: "Lesiones violáceas en VIH",
+    titulo: "Paciente con VIH y CD4 < 200 con nódulos rojo vinosos que no palidecen en piel y boca: sarcoma de Kaposi",
     imagen: "flujogramas/vih-cd4-bajo-nodulos-violaceos-kaposi.svg",
-    alt: "Flujograma: Lesiones violáceas en VIH"
+    alt: "Flujograma: Paciente con VIH y CD4 < 200 con nódulos rojo vinosos que no palidecen en piel y boca: sarcoma de Kaposi"
   },
   "CB-031": {
-    titulo: "Fármacos usados en COVID-19 y sus riesgos",
+    titulo: "Adulto mayor que se automedicó «para el COVID» y presenta QT largo y taquicardia ventricular: azitromicina",
     imagen: "flujogramas/automedicacion-covid-qt-largo-azitromicina.svg",
-    alt: "Flujograma: Fármacos usados en COVID-19 y sus riesgos"
+    alt: "Flujograma: Adulto mayor que se automedicó «para el COVID» y presenta QT largo y taquicardia ventricular: azitromicina"
   },
   "NEU-027": {
-    titulo: "Neumoconiosis",
+    titulo: "Trabajador expuesto 30 años al asbesto con disnea, placas pleurales y fibrosis reticular en panal: asbestosis, cuerpos ferruginosos en la biopsia",
     imagen: "flujogramas/asbesto-30-anos-panal-cuerpos-ferruginosos.svg",
-    alt: "Flujograma: Neumoconiosis"
+    alt: "Flujograma: Trabajador expuesto 30 años al asbesto con disnea, placas pleurales y fibrosis reticular en panal: asbestosis, cuerpos ferruginosos en la biopsia"
   },
   "NEF-037": {
-    titulo: "Albuminuria en la diabetes",
+    titulo: "Diabético con HTA, filtración de 45 mL/min y albuminuria de 1 g/día: el fármaco para bajar la proteinuria es un IECA (o ARA II)",
     imagen: "flujogramas/diabetico-albuminuria-1g-ieca.svg",
-    alt: "Flujograma: Albuminuria en la diabetes"
+    alt: "Flujograma: Diabético con HTA, filtración de 45 mL/min y albuminuria de 1 g/día: el fármaco para bajar la proteinuria es un IECA (o ARA II)"
   },
   "SP-063": {
-    titulo: "Carta de Ottawa",
+    titulo: "Educar a las gestantes para mejorar la lactancia materna es la acción de la Carta de Ottawa «desarrollar habilidades personales»",
     imagen: "flujogramas/lactancia-exclusiva-comunicacion-educativa-habilidades.svg",
-    alt: "Flujograma: Carta de Ottawa"
+    alt: "Flujograma: Educar a las gestantes para mejorar la lactancia materna es la acción de la Carta de Ottawa «desarrollar habilidades personales»"
   },
   "INF-048": {
-    titulo: "Diarrea acuosa profusa",
+    titulo: "Joven con diarrea acuosa profusa «en agua de arroz», vómitos, calambres y deshidratación, sin sangre ni inflamación: cólera",
     imagen: "flujogramas/diarrea-agua-de-arroz-calambres-colera.svg",
-    alt: "Flujograma: Diarrea acuosa profusa"
+    alt: "Flujograma: Joven con diarrea acuosa profusa «en agua de arroz», vómitos, calambres y deshidratación, sin sangre ni inflamación: cólera"
   },
   "SP-064": {
-    titulo: "Diseños de estudio",
+    titulo: "Encuestar a todos los alumnos una sola vez sobre sus características y conocimientos: estudio transversal",
     imagen: "flujogramas/encuesta-escolares-embarazo-estudio-transversal.svg",
-    alt: "Flujograma: Diseños de estudio"
+    alt: "Flujograma: Encuestar a todos los alumnos una sola vez sobre sus características y conocimientos: estudio transversal"
   },
   "OFT-023": {
-    titulo: "Tipos de glaucoma",
+    titulo: "La forma más frecuente de glaucoma es el primario de ángulo abierto",
     imagen: "flujogramas/glaucoma-mas-frecuente-angulo-abierto.svg",
-    alt: "Flujograma: Tipos de glaucoma"
+    alt: "Flujograma: La forma más frecuente de glaucoma es el primario de ángulo abierto"
   },
   "GIN-093": {
-    titulo: "Vasa previa: momento del parto",
+    titulo: "Vasa previa diagnosticada en la ecografía: cesárea programada entre las 34 y 35 semanas",
     imagen: "flujogramas/vasa-previa-cesarea-34-35-semanas.svg",
-    alt: "Flujograma: Vasa previa: momento del parto"
+    alt: "Flujograma: Vasa previa diagnosticada en la ecografía: cesárea programada entre las 34 y 35 semanas"
   },
   "PED-105": {
-    titulo: "Ingesta de cáusticos en el niño",
+    titulo: "Niño que ingirió lejía hace 20 minutos con estridor, sialorrea y SatO₂ 91 %: lo primero es asegurar la vía aérea (intubación)",
     imagen: "flujogramas/lejia-estridor-sialorrea-intubacion.svg",
-    alt: "Flujograma: Ingesta de cáusticos en el niño"
+    alt: "Flujograma: Niño que ingirió lejía hace 20 minutos con estridor, sialorrea y SatO₂ 91 %: lo primero es asegurar la vía aérea (intubación)"
   },
   "PSI-018": {
-    titulo: "Mujer joven que oye voces",
+    titulo: "Joven con 4 meses de ideas de daño, voces que le advierten y descuido del aseo: psicosis",
     imagen: "flujogramas/voces-le-quieren-hacer-dano-psicosis.svg",
-    alt: "Flujograma: Mujer joven que oye voces"
+    alt: "Flujograma: Joven con 4 meses de ideas de daño, voces que le advierten y descuido del aseo: psicosis"
   },
   "NEF-038": {
-    titulo: "Uropatía obstructiva por HBP",
+    titulo: "Adulto mayor con síntomas prostáticos de años, gran residuo vesical, anemia y creatinina 3,5: uropatía obstructiva, tratamiento definitivo RTU",
     imagen: "flujogramas/hbp-residuo-vesical-creatinina-rtu.svg",
-    alt: "Flujograma: Uropatía obstructiva por HBP"
+    alt: "Flujograma: Adulto mayor con síntomas prostáticos de años, gran residuo vesical, anemia y creatinina 3,5: uropatía obstructiva, tratamiento definitivo RTU"
   },
   "NEF-039": {
-    titulo: "Pielonefritis obstructiva",
+    titulo: "Pielonefritis con cálculo enclavado e hidronefrosis que no mejora con antibióticos e hipotensión: derivar la orina (catéter doble J o nefrostomía)",
     imagen: "flujogramas/calculo-enclavado-fiebre-hipotension-doble-j.svg",
-    alt: "Flujograma: Pielonefritis obstructiva"
+    alt: "Flujograma: Pielonefritis con cálculo enclavado e hidronefrosis que no mejora con antibióticos e hipotensión: derivar la orina (catéter doble J o nefrostomía)"
   },
   "INF-049": {
-    titulo: "Vacuna contra la fiebre amarilla",
+    titulo: "Médico vacunado contra la fiebre amarilla hace 2 años que irá a zona endémica: no necesita revacunarse (una dosis protege de por vida)",
     imagen: "flujogramas/serumista-selva-vacuna-fiebre-amarilla-dosis-unica.svg",
-    alt: "Flujograma: Vacuna contra la fiebre amarilla"
+    alt: "Flujograma: Médico vacunado contra la fiebre amarilla hace 2 años que irá a zona endémica: no necesita revacunarse (una dosis protege de por vida)"
   },
   "CAR-039": {
-    titulo: "Infarto con elevación del ST",
+    titulo: "Dolor opresivo de 30 minutos con ST elevado 5 mm en la cara anterolateral y troponina alta, estable: angioplastia coronaria primaria",
     imagen: "flujogramas/st-elevado-anterolateral-angioplastia-primaria.svg",
-    alt: "Flujograma: Infarto con elevación del ST"
+    alt: "Flujograma: Dolor opresivo de 30 minutos con ST elevado 5 mm en la cara anterolateral y troponina alta, estable: angioplastia coronaria primaria"
   },
   "GIN-094": {
-    titulo: "Náuseas y vómitos del embarazo",
+    titulo: "Gestante de 8 semanas con náuseas y vómitos leves y estable: además de las medidas dietéticas, doxilamina + piridoxina",
     imagen: "flujogramas/nauseas-8-semanas-doxilamina-piridoxina.svg",
-    alt: "Flujograma: Náuseas y vómitos del embarazo"
+    alt: "Flujograma: Gestante de 8 semanas con náuseas y vómitos leves y estable: además de las medidas dietéticas, doxilamina + piridoxina"
   },
   "PED-106": {
-    titulo: "Cardiopatía con cianosis y corazón en bota",
+    titulo: "Lactante con cianosis al llanto, corazón en bota y eco con CIV, aorta cabalgante y estenosis subpulmonar: tetralogía de Fallot",
     imagen: "flujogramas/cianosis-corazon-en-bota-tetralogia-fallot.svg",
-    alt: "Flujograma: Cardiopatía con cianosis y corazón en bota"
+    alt: "Flujograma: Lactante con cianosis al llanto, corazón en bota y eco con CIV, aorta cabalgante y estenosis subpulmonar: tetralogía de Fallot"
   },
   "NRL-027": {
-    titulo: "Hidrocefalia aguda: medidas iniciales",
+    titulo: "En la hidrocefalia aguda, la medida inicial de soporte es elevar la cabecera a 30° (mientras se prepara el drenaje)",
     imagen: "flujogramas/hidrocefalia-aguda-cabecera-30-grados.svg",
-    alt: "Flujograma: Hidrocefalia aguda: medidas iniciales"
+    alt: "Flujograma: En la hidrocefalia aguda, la medida inicial de soporte es elevar la cabecera a 30° (mientras se prepara el drenaje)"
   },
   "GIN-095": {
-    titulo: "Antiepilépticos en el embarazo",
+    titulo: "Gestante con epilepsia: el fármaco de elección por su seguridad fetal es el levetiracetam (o lamotrigina)",
     imagen: "flujogramas/epilepsia-gestante-levetiracetam.svg",
-    alt: "Flujograma: Antiepilépticos en el embarazo"
+    alt: "Flujograma: Gestante con epilepsia: el fármaco de elección por su seguridad fetal es el levetiracetam (o lamotrigina)"
   },
   "CAR-040": {
-    titulo: "Infarto con choque cardiogénico",
+    titulo: "Infarto de 24 horas con PA 90/60, ingurgitación yugular y crepitantes en ambas bases: choque cardiogénico, inotrópicos",
     imagen: "flujogramas/infarto-24-horas-hipotension-crepitantes-inotropicos.svg",
-    alt: "Flujograma: Infarto con choque cardiogénico"
+    alt: "Flujograma: Infarto de 24 horas con PA 90/60, ingurgitación yugular y crepitantes en ambas bases: choque cardiogénico, inotrópicos"
   },
   "SP-065": {
-    titulo: "Escenarios de la promoción de la salud",
+    titulo: "Para un plan educativo de prevención del VIH en adolescentes, el ámbito priorizado es el colegio",
     imagen: "flujogramas/vih-adolescentes-comunicacion-educativa-colegio.svg",
-    alt: "Flujograma: Escenarios de la promoción de la salud"
+    alt: "Flujograma: Para un plan educativo de prevención del VIH en adolescentes, el ámbito priorizado es el colegio"
   },
   "GAS-036": {
-    titulo: "Falla hepática por paracetamol",
+    titulo: "Joven que se automedicó con paracetamol y presenta ictericia, encefalopatía con asterixis, INR 6 e hipoglucemia: falla hepática aguda, N-acetilcisteína",
     imagen: "flujogramas/paracetamol-inr-6-asterixis-n-acetilcisteina.svg",
-    alt: "Flujograma: Falla hepática por paracetamol"
+    alt: "Flujograma: Joven que se automedicó con paracetamol y presenta ictericia, encefalopatía con asterixis, INR 6 e hipoglucemia: falla hepática aguda, N-acetilcisteína"
   },
   "PED-107": {
-    titulo: "Faringoamigdalitis estreptocócica",
+    titulo: "Escolar con fiebre, exudado amigdalino y petequias en el paladar: faringitis estreptocócica, amoxicilina por 10 días",
     imagen: "flujogramas/exudado-petequias-paladar-amoxicilina-10-dias.svg",
-    alt: "Flujograma: Faringoamigdalitis estreptocócica"
+    alt: "Flujograma: Escolar con fiebre, exudado amigdalino y petequias en el paladar: faringitis estreptocócica, amoxicilina por 10 días"
   },
   "INF-050": {
-    titulo: "Meningitis: análisis del LCR",
+    titulo: "Joven con 2 semanas de cefalea y meningismo, LCR con linfocitos, proteínas altas y glucosa baja, y Rx miliar: meningitis tuberculosa",
     imagen: "flujogramas/lcr-linfocitos-glucosa-baja-miliar-meningitis-tb.svg",
-    alt: "Flujograma: Meningitis: análisis del LCR"
+    alt: "Flujograma: Joven con 2 semanas de cefalea y meningismo, LCR con linfocitos, proteínas altas y glucosa baja, y Rx miliar: meningitis tuberculosa"
   },
   "PED-108": {
-    titulo: "Contraindicación de la vacuna contra influenza",
+    titulo: "La vacuna contra la influenza no se aplica antes de los 6 meses de edad: es su contraindicación por edad",
     imagen: "flujogramas/vacuna-influenza-contraindicacion-menor-6-meses.svg",
-    alt: "Flujograma: Contraindicación de la vacuna contra influenza"
+    alt: "Flujograma: La vacuna contra la influenza no se aplica antes de los 6 meses de edad: es su contraindicación por edad"
   },
   "PSI-019": {
-    titulo: "Síndrome neuroléptico maligno",
+    titulo: "Anciano que recibe haloperidol EV a dosis altas con fiebre, rigidez, diaforesis, inestabilidad y CPK alta: síndrome neuroléptico maligno",
     imagen: "flujogramas/haloperidol-rigidez-fiebre-cpk-neuroleptico-maligno.svg",
-    alt: "Flujograma: Síndrome neuroléptico maligno"
+    alt: "Flujograma: Anciano que recibe haloperidol EV a dosis altas con fiebre, rigidez, diaforesis, inestabilidad y CPK alta: síndrome neuroléptico maligno"
   },
   "GIN-096": {
-    titulo: "Sangrado uterino anormal",
+    titulo: "Mujer joven con sangrado menstrual abundante y endometrio de 24 mm en la ecografía: biopsia de endometrio",
     imagen: "flujogramas/sangrado-uterino-endometrio-24-mm-biopsia.svg",
-    alt: "Flujograma: Sangrado uterino anormal"
+    alt: "Flujograma: Mujer joven con sangrado menstrual abundante y endometrio de 24 mm en la ecografía: biopsia de endometrio"
   },
   "SP-066": {
-    titulo: "Coberturas de vacunación VPH en descenso",
+    titulo: "Si los niños a vacunar están en la escuela, se coordina con el sector educación para vacunar allí: coordinación intersectorial",
     imagen: "flujogramas/vph-escolares-coordinacion-intersectorial.svg",
-    alt: "Flujograma: Coberturas de vacunación VPH en descenso"
+    alt: "Flujograma: Si los niños a vacunar están en la escuela, se coordina con el sector educación para vacunar allí: coordinación intersectorial"
   },
   "GIN-097": {
-    titulo: "Diabetes en el embarazo: tratamiento",
+    titulo: "Gestante con diabetes previa al embarazo y macrosomía en partos anteriores: el tratamiento es insulina",
     imagen: "flujogramas/diabetes-pregestacional-macrosomia-insulina.svg",
-    alt: "Flujograma: Diabetes en el embarazo: tratamiento"
+    alt: "Flujograma: Gestante con diabetes previa al embarazo y macrosomía en partos anteriores: el tratamiento es insulina"
   },
   "TRA-017": {
-    titulo: "Escoliosis: ángulo de Cobb",
+    titulo: "Niño con escoliosis y ángulo de Cobb de 30°: escoliosis moderada",
     imagen: "flujogramas/angulo-cobb-30-escoliosis-moderada.svg",
-    alt: "Flujograma: Escoliosis: ángulo de Cobb"
+    alt: "Flujograma: Niño con escoliosis y ángulo de Cobb de 30°: escoliosis moderada"
   },
   "GIN-098": {
-    titulo: "Prolapso genital: estadios POP-Q",
+    titulo: "Mujer asintomática con prolapso de la pared anterior en estadio II (Ba −1): ejercicios de Kegel",
     imagen: "flujogramas/popq-ba-menos-1-asintomatica-kegel.svg",
-    alt: "Flujograma: Prolapso genital: estadios POP-Q"
+    alt: "Flujograma: Mujer asintomática con prolapso de la pared anterior en estadio II (Ba −1): ejercicios de Kegel"
   },
   "SP-067": {
-    titulo: "Principios de la bioética",
+    titulo: "Paciente lúcido que pide que las decisiones se traten con su hijo: respetarlo es el principio de autonomía",
     imagen: "flujogramas/paciente-lucido-delega-decision-hijo-autonomia.svg",
-    alt: "Flujograma: Principios de la bioética"
+    alt: "Flujograma: Paciente lúcido que pide que las decisiones se traten con su hijo: respetarlo es el principio de autonomía"
   },
   "SP-068": {
-    titulo: "Valores de la atención primaria",
+    titulo: "Anemia infantil de 55 % en un distrito y 5 % en otro: diferencia injusta y evitable, falta de equidad",
     imagen: "flujogramas/anemia-55-vs-5-distritos-equidad.svg",
-    alt: "Flujograma: Valores de la atención primaria"
+    alt: "Flujograma: Anemia infantil de 55 % en un distrito y 5 % en otro: diferencia injusta y evitable, falta de equidad"
   },
   "PED-109": {
-    titulo: "Urocultivo en el lactante",
+    titulo: "Lactante de 6 meses con sospecha de pielonefritis: la orina para cultivo se obtiene por sondaje vesical",
     imagen: "flujogramas/lactante-pielonefritis-urocultivo-sondaje.svg",
-    alt: "Flujograma: Urocultivo en el lactante"
+    alt: "Flujograma: Lactante de 6 meses con sospecha de pielonefritis: la orina para cultivo se obtiene por sondaje vesical"
   },
   "TRA-018": {
-    titulo: "Displasia de cadera: tratamiento por edad",
+    titulo: "Lactante de 2 meses, niña, de parto podálico, con Ortolani positivo: displasia de cadera, arnés de Pavlik",
     imagen: "flujogramas/ortolani-positivo-2-meses-arnes-pavlik.svg",
-    alt: "Flujograma: Displasia de cadera: tratamiento por edad"
+    alt: "Flujograma: Lactante de 2 meses, niña, de parto podálico, con Ortolani positivo: displasia de cadera, arnés de Pavlik"
   },
   "INF-051": {
-    titulo: "Convulsión y quiste cerebral",
+    titulo: "Niño de la sierra con convulsiones y quiste con escólex más calcificaciones en la imagen: neurocisticercosis",
     imagen: "flujogramas/ayacucho-convulsion-quiste-escolex-neurocisticercosis.svg",
-    alt: "Flujograma: Convulsión y quiste cerebral"
+    alt: "Flujograma: Niño de la sierra con convulsiones y quiste con escólex más calcificaciones en la imagen: neurocisticercosis"
   },
   "GAS-037": {
-    titulo: "Peritonitis bacteriana espontánea",
+    titulo: "Cirrótico con ascitis, fiebre, dolor abdominal y encefalopatía, con neutrófilos altos en el líquido ascítico: PBE, ceftriaxona",
     imagen: "flujogramas/ascitis-pmn-7000-peritonitis-espontanea-ceftriaxona.svg",
-    alt: "Flujograma: Peritonitis bacteriana espontánea"
+    alt: "Flujograma: Cirrótico con ascitis, fiebre, dolor abdominal y encefalopatía, con neutrófilos altos en el líquido ascítico: PBE, ceftriaxona"
   },
   "SP-069": {
-    titulo: "Prevalencia, incidencia y letalidad",
+    titulo: "Si nadie muere de la enfermedad y siguen apareciendo casos nuevos, la prevalencia aumenta",
     imagen: "flujogramas/letalidad-cero-casos-nuevos-prevalencia-aumenta.svg",
-    alt: "Flujograma: Prevalencia, incidencia y letalidad"
+    alt: "Flujograma: Si nadie muere de la enfermedad y siguen apareciendo casos nuevos, la prevalencia aumenta"
   },
   "NRL-028": {
-    titulo: "Sospecha de hemorragia subaracnoidea",
+    titulo: "Cefalea súbita intensa con vómitos, rigidez de nuca y cefalea centinela previa: sospecha de hemorragia subaracnoidea, TC sin contraste",
     imagen: "flujogramas/cefalea-subita-rigidez-nuca-tem-cerebral.svg",
-    alt: "Flujograma: Sospecha de hemorragia subaracnoidea"
+    alt: "Flujograma: Cefalea súbita intensa con vómitos, rigidez de nuca y cefalea centinela previa: sospecha de hemorragia subaracnoidea, TC sin contraste"
   },
   "CAR-041": {
-    titulo: "Daño de órgano blanco por HTA",
+    titulo: "Hipertenso con insuficiencia cardíaca, galope y retinopatía grado IV: cardiopatía hipertensiva",
     imagen: "flujogramas/hta-galope-retinopatia-iv-cardiopatia-hipertensiva.svg",
-    alt: "Flujograma: Daño de órgano blanco por HTA"
+    alt: "Flujograma: Hipertenso con insuficiencia cardíaca, galope y retinopatía grado IV: cardiopatía hipertensiva"
   },
   "GIN-099": {
-    titulo: "Tóxicos en el embarazo",
+    titulo: "Gestante que fuma 15 cigarrillos diarios: el riesgo neonatal principal es la restricción del crecimiento intrauterino",
     imagen: "flujogramas/gestante-fuma-15-cigarrillos-rciu.svg",
-    alt: "Flujograma: Tóxicos en el embarazo"
+    alt: "Flujograma: Gestante que fuma 15 cigarrillos diarios: el riesgo neonatal principal es la restricción del crecimiento intrauterino"
   },
   "GIN-100": {
-    titulo: "Salpingitis: criterios diagnósticos",
+    titulo: "Dolor en la FID días después de instrumentar el útero, con dolor a la movilización cervical y anexial: salpingitis",
     imagen: "flujogramas/hidrosonografia-dolor-anexial-salpingitis.svg",
-    alt: "Flujograma: Salpingitis: criterios diagnósticos"
+    alt: "Flujograma: Dolor en la FID días después de instrumentar el útero, con dolor a la movilización cervical y anexial: salpingitis"
   },
   "SP-070": {
-    titulo: "Niveles de prevención",
+    titulo: "Campaña de detección de VIH en jóvenes: diagnóstico precoz, es prevención secundaria",
     imagen: "flujogramas/campana-deteccion-vih-prevencion-secundaria.svg",
-    alt: "Flujograma: Niveles de prevención"
+    alt: "Flujograma: Campaña de detección de VIH en jóvenes: diagnóstico precoz, es prevención secundaria"
   },
   "CIR-057": {
-    titulo: "Hernia inguinal: tipos",
+    titulo: "Hernia inguinal de un año que se vuelve irreductible, dolorosa y con distensión abdominal: hernia inguinal complicada",
     imagen: "flujogramas/tumoracion-inguinal-irreductible-distension-hernia-complicada.svg",
-    alt: "Flujograma: Hernia inguinal: tipos"
+    alt: "Flujograma: Hernia inguinal de un año que se vuelve irreductible, dolorosa y con distensión abdominal: hernia inguinal complicada"
   },
   "INF-052": {
-    titulo: "Serología de la hepatitis B",
+    titulo: "Estudiante de medicina que quiere saber si está protegido contra la hepatitis B: pedir anti-HBs",
     imagen: "flujogramas/estudiante-medicina-anti-hbs-inmunidad.svg",
-    alt: "Flujograma: Serología de la hepatitis B"
+    alt: "Flujograma: Estudiante de medicina que quiere saber si está protegido contra la hepatitis B: pedir anti-HBs"
   },
   "CAR-042": {
-    titulo: "Soporte vital básico: primeros pasos",
+    titulo: "Persona que se desploma en la calle: lo primero es comprobar que la escena sea segura",
     imagen: "flujogramas/persona-se-desploma-calle-escena-segura.svg",
-    alt: "Flujograma: Soporte vital básico: primeros pasos"
+    alt: "Flujograma: Persona que se desploma en la calle: lo primero es comprobar que la escena sea segura"
   },
   "GAS-038": {
-    titulo: "Ictericia tras una transfusión",
+    titulo: "Niño con ictericia, urticaria y púrpura 7 semanas después de una transfusión: hepatitis B aguda",
     imagen: "flujogramas/nino-transfusion-7-semanas-ictericia-hepatitis-b.svg",
-    alt: "Flujograma: Ictericia tras una transfusión"
+    alt: "Flujograma: Niño con ictericia, urticaria y púrpura 7 semanas después de una transfusión: hepatitis B aguda"
   },
   "NRL-029": {
-    titulo: "Hemorragia hipertensiva: ¿dónde está?",
+    titulo: "Hipertenso en coma súbito con Glasgow 4, respiración irregular y pupilas puntiformes: hemorragia en la protuberancia",
     imagen: "flujogramas/hipertenso-coma-pupilas-puntiformes-protuberancia.svg",
-    alt: "Flujograma: Hemorragia hipertensiva: ¿dónde está?"
+    alt: "Flujograma: Hipertenso en coma súbito con Glasgow 4, respiración irregular y pupilas puntiformes: hemorragia en la protuberancia"
   },
   "END-027": {
-    titulo: "Amenorrea tras hemorragia posparto",
+    titulo: "Mujer con amenorrea y que no pudo dar de lactar tras una hemorragia posparto con choque: síndrome de Sheehan",
     imagen: "flujogramas/hemorragia-posparto-no-lacto-amenorrea-sheehan.svg",
-    alt: "Flujograma: Amenorrea tras hemorragia posparto"
+    alt: "Flujograma: Mujer con amenorrea y que no pudo dar de lactar tras una hemorragia posparto con choque: síndrome de Sheehan"
   },
   "INF-053": {
-    titulo: "Fiebre, ictericia y mialgias",
+    titulo: "Vecino de la ribera de un río con fiebre súbita, dolor de pantorrillas, ictericia y sufusión conjuntival: leptospirosis",
     imagen: "flujogramas/ribera-rimac-mialgia-pantorrillas-sufusion-leptospirosis.svg",
-    alt: "Flujograma: Fiebre, ictericia y mialgias"
+    alt: "Flujograma: Vecino de la ribera de un río con fiebre súbita, dolor de pantorrillas, ictericia y sufusión conjuntival: leptospirosis"
   },
   "SP-071": {
-    titulo: "Obesidad escolar: factores de riesgo",
+    titulo: "Colegio urbano con 35 % de escolares con sobrepeso y 8 % con obesidad: el factor modificable principal es el sedentarismo",
     imagen: "flujogramas/escolares-imc-mayor-25-sedentarismo.svg",
-    alt: "Flujograma: Obesidad escolar: factores de riesgo"
+    alt: "Flujograma: Colegio urbano con 35 % de escolares con sobrepeso y 8 % con obesidad: el factor modificable principal es el sedentarismo"
   },
   "CB-032": {
-    titulo: "Triángulo femoral: relaciones",
+    titulo: "Para canalizar la vena femoral se palpa el pulso de la arteria: la vena está justo medial a ella",
     imagen: "flujogramas/acceso-vena-femoral-medial-arteria.svg",
-    alt: "Flujograma: Triángulo femoral: relaciones"
+    alt: "Flujograma: Para canalizar la vena femoral se palpa el pulso de la arteria: la vena está justo medial a ella"
   },
   "CIR-058": {
-    titulo: "Hemotórax traumático",
+    titulo: "Trauma de tórax con choque, murmullo ausente y matidez en la mitad inferior derecha: hemotórax, tubo de drenaje torácico",
     imagen: "flujogramas/trauma-timon-matidez-hemotorax-tubo-toracico.svg",
-    alt: "Flujograma: Hemotórax traumático"
+    alt: "Flujograma: Trauma de tórax con choque, murmullo ausente y matidez en la mitad inferior derecha: hemotórax, tubo de drenaje torácico"
   },
   "GAS-039": {
-    titulo: "Pancreatitis: buscar la causa",
+    titulo: "Pancreatitis aguda con ictericia de bilirrubina directa: sospecha de causa biliar, colangiorresonancia para buscar cálculos en el colédoco",
     imagen: "flujogramas/pancreatitis-ictericia-bilirrubina-directa-colangiorresonancia.svg",
-    alt: "Flujograma: Pancreatitis: buscar la causa"
+    alt: "Flujograma: Pancreatitis aguda con ictericia de bilirrubina directa: sospecha de causa biliar, colangiorresonancia para buscar cálculos en el colédoco"
   },
   "REU-027": {
-    titulo: "Análisis del líquido sinovial",
+    titulo: "Monoartritis aguda de rodilla con líquido sinovial de más de 80 000 leucocitos y 80 % de neutrófilos: artritis séptica",
     imagen: "flujogramas/rodilla-80000-leucocitos-artritis-septica.svg",
-    alt: "Flujograma: Análisis del líquido sinovial"
+    alt: "Flujograma: Monoartritis aguda de rodilla con líquido sinovial de más de 80 000 leucocitos y 80 % de neutrófilos: artritis séptica"
   },
   "TRA-019": {
-    titulo: "Fractura expuesta de tibia",
+    titulo: "Joven atropellado con herida abierta y fractura conminuta de tibia: fractura expuesta, fijación externa",
     imagen: "flujogramas/atropello-fractura-expuesta-conminuta-tibia-fijacion-externa.svg",
-    alt: "Flujograma: Fractura expuesta de tibia"
+    alt: "Flujograma: Joven atropellado con herida abierta y fractura conminuta de tibia: fractura expuesta, fijación externa"
   },
   "SP-072": {
-    titulo: "Triada epidemiológica",
+    titulo: "Caso de malaria en Lima, donde no hay Anopheles: el ambiente no favorece la transmisión",
     imagen: "flujogramas/malaria-vivax-lima-sin-vector-ambiente.svg",
-    alt: "Flujograma: Triada epidemiológica"
+    alt: "Flujograma: Caso de malaria en Lima, donde no hay Anopheles: el ambiente no favorece la transmisión"
   },
   "SP-073": {
-    titulo: "Población y muestra",
+    titulo: "Encuesta aplicada al 100 % de los integrantes del club: los participantes son la población, no una muestra",
     imagen: "flujogramas/club-adulto-mayor-encuesta-100-poblacion.svg",
-    alt: "Flujograma: Población y muestra"
+    alt: "Flujograma: Encuesta aplicada al 100 % de los integrantes del club: los participantes son la población, no una muestra"
   },
   "CAR-043": {
-    titulo: "Trauma precordial con hipotensión",
+    titulo: "Golpe en el precordio con hipotensión, ruidos apagados, yugulares ingurgitadas y troponina alta: ECG y ecocardiograma inmediatos",
     imagen: "flujogramas/golpe-precordial-ruidos-apagados-iy-ecocardiograma.svg",
-    alt: "Flujograma: Trauma precordial con hipotensión"
+    alt: "Flujograma: Golpe en el precordio con hipotensión, ruidos apagados, yugulares ingurgitadas y troponina alta: ECG y ecocardiograma inmediatos"
   },
   "PED-110": {
-    titulo: "Deshidratación grave con choque",
+    titulo: "Lactante con diarrea y vómitos, soporoso, ojos muy hundidos, pliegue (+), piel fría y llenado de 5 s: choque hipovolémico, bolo de SSN 20 mL/kg",
     imagen: "flujogramas/lactante-diarrea-soporoso-llenado-5-seg-bolo.svg",
-    alt: "Flujograma: Deshidratación grave con choque"
+    alt: "Flujograma: Lactante con diarrea y vómitos, soporoso, ojos muy hundidos, pliegue (+), piel fría y llenado de 5 s: choque hipovolémico, bolo de SSN 20 mL/kg"
   },
   "HEM-022": {
-    titulo: "Anemia macrocítica con parestesias",
+    titulo: "Anciano con anemia macrocítica, parestesias, pérdida de la sensibilidad vibratoria y neutrófilos hipersegmentados: anemia megaloblástica por déficit de B12",
     imagen: "flujogramas/vcm-110-hipersegmentados-parestesias-megaloblastica.svg",
-    alt: "Flujograma: Anemia macrocítica con parestesias"
+    alt: "Flujograma: Anciano con anemia macrocítica, parestesias, pérdida de la sensibilidad vibratoria y neutrófilos hipersegmentados: anemia megaloblástica por déficit de B12"
   },
   "REU-028": {
-    titulo: "Prurito nocturno en el niño",
+    titulo: "Niño con prurito intenso nocturno y pápulas en espacios interdigitales, muñecas, axilas, glúteos y genitales, sin tocar la cara: escabiosis",
     imagen: "flujogramas/prurito-nocturno-interdigital-escabiosis.svg",
-    alt: "Flujograma: Prurito nocturno en el niño"
+    alt: "Flujograma: Niño con prurito intenso nocturno y pápulas en espacios interdigitales, muñecas, axilas, glúteos y genitales, sin tocar la cara: escabiosis"
   },
   "OFT-024": {
-    titulo: "Otorrea con prurito del conducto",
+    titulo: "Adolescente con prurito en el conducto auditivo, otorrea purulenta, hipoacusia, fiebre y adenopatía retroauricular: otitis externa",
     imagen: "flujogramas/prurito-conducto-otorrea-otitis-externa.svg",
-    alt: "Flujograma: Otorrea con prurito del conducto"
+    alt: "Flujograma: Adolescente con prurito en el conducto auditivo, otorrea purulenta, hipoacusia, fiebre y adenopatía retroauricular: otitis externa"
   },
   "NEF-040": {
-    titulo: "Hiponatremia por tiazidas",
+    titulo: "Anciana que toma hidroclorotiazida con desorientación y sopor, y sodio de 115: hiponatremia grave por tiazida",
     imagen: "flujogramas/anciana-sopor-sodio-115-tiazida.svg",
-    alt: "Flujograma: Hiponatremia por tiazidas"
+    alt: "Flujograma: Anciana que toma hidroclorotiazida con desorientación y sopor, y sodio de 115: hiponatremia grave por tiazida"
   },
   "CB-033": {
-    titulo: "Células del riñón y sus funciones",
+    titulo: "La aldosterona actúa sobre las células principales del túbulo colector para reabsorber sodio y secretar potasio",
     imagen: "flujogramas/aldosterona-celulas-principales-tubulo-colector.svg",
-    alt: "Flujograma: Células del riñón y sus funciones"
+    alt: "Flujograma: La aldosterona actúa sobre las células principales del túbulo colector para reabsorber sodio y secretar potasio"
   },
   "SP-074": {
-    titulo: "Decisiones en el menor de edad",
+    titulo: "Un niño de 10 años expresa su aceptación o rechazo a un procedimiento o estudio mediante el asentimiento informado",
     imagen: "flujogramas/nino-10-anos-acepta-procedimiento-asentimiento.svg",
-    alt: "Flujograma: Decisiones en el menor de edad"
+    alt: "Flujograma: Un niño de 10 años expresa su aceptación o rechazo a un procedimiento o estudio mediante el asentimiento informado"
   },
   "CB-034": {
-    titulo: "Antiácidos y sus efectos",
+    titulo: "El uso crónico de antiácidos con hidróxido de aluminio atrapa el fosfato en el intestino: hipofosfatemia",
     imagen: "flujogramas/antiacido-hidroxido-aluminio-hipofosfatemia.svg",
-    alt: "Flujograma: Antiácidos y sus efectos"
+    alt: "Flujograma: El uso crónico de antiácidos con hidróxido de aluminio atrapa el fosfato en el intestino: hipofosfatemia"
   },
   "SP-075": {
-    titulo: "Prevención de dengue autóctono",
+    titulo: "Casos importados de dengue y presencia de Aedes aegypti: para evitar casos autóctonos se prioriza la participación comunitaria contra los criaderos",
     imagen: "flujogramas/dengue-importado-aedes-participacion-comunitaria.svg",
-    alt: "Flujograma: Prevención de dengue autóctono"
+    alt: "Flujograma: Casos importados de dengue y presencia de Aedes aegypti: para evitar casos autóctonos se prioriza la participación comunitaria contra los criaderos"
   },
   "REU-029": {
-    titulo: "Acné: grados de severidad",
+    titulo: "Niña de 12 años con acné formado solo por comedones, sin lesiones inflamatorias: acné comedoniano, leve",
     imagen: "flujogramas/nina-12-anos-30-comedones-acne-leve.svg",
-    alt: "Flujograma: Acné: grados de severidad"
+    alt: "Flujograma: Niña de 12 años con acné formado solo por comedones, sin lesiones inflamatorias: acné comedoniano, leve"
   },
   "OFT-025": {
-    titulo: "Tipos de conjuntivitis",
+    titulo: "Adolescente con secreción mucopurulenta y legañas en ambos ojos, sin dolor ni baja visual: conjuntivitis bacteriana",
     imagen: "flujogramas/leganas-mucopurulentas-bilateral-conjuntivitis.svg",
-    alt: "Flujograma: Tipos de conjuntivitis"
+    alt: "Flujograma: Adolescente con secreción mucopurulenta y legañas en ambos ojos, sin dolor ni baja visual: conjuntivitis bacteriana"
   },
   "INF-054": {
-    titulo: "Meningitis: germen según la edad",
+    titulo: "Mujer joven con fiebre, cefalea, vómitos, somnolencia y rigidez de nuca tras un resfriado: meningitis bacteriana por neumococo",
     imagen: "flujogramas/adulta-cefalea-rigidez-nuca-neumococo.svg",
-    alt: "Flujograma: Meningitis: germen según la edad"
+    alt: "Flujograma: Mujer joven con fiebre, cefalea, vómitos, somnolencia y rigidez de nuca tras un resfriado: meningitis bacteriana por neumococo"
   },
   "GAS-040": {
-    titulo: "ERGE con síntomas extraesofágicos",
+    titulo: "Obeso con pirosis, dolor retroesternal y síntomas respiratorios nocturnos: ERGE con manifestaciones extraesofágicas, iniciar IBP",
     imagen: "flujogramas/obeso-pirosis-asma-nocturna-ibp.svg",
-    alt: "Flujograma: ERGE con síntomas extraesofágicos"
+    alt: "Flujograma: Obeso con pirosis, dolor retroesternal y síntomas respiratorios nocturnos: ERGE con manifestaciones extraesofágicas, iniciar IBP"
   },
   "END-028": {
-    titulo: "SIADH frente a deshidratación",
+    titulo: "Privación de agua y SIADH tienen ADH alta y orina concentrada; los separa la osmolaridad plasmática (alta en la deshidratación, baja en el SIADH)",
     imagen: "flujogramas/siadh-vs-privacion-agua-osmolaridad-plasmatica.svg",
-    alt: "Flujograma: SIADH frente a deshidratación"
+    alt: "Flujograma: Privación de agua y SIADH tienen ADH alta y orina concentrada; los separa la osmolaridad plasmática (alta en la deshidratación, baja en el SIADH)"
   },
   "GAS-041": {
-    titulo: "Necrosis pancreática: cuándo drenar",
+    titulo: "Pancreatitis grave con necrosis que necesita intervención: drenar cuando la necrosis se encapsula, a las 3-4 semanas",
     imagen: "flujogramas/necrosis-pancreatica-drenaje-3-4-semanas.svg",
-    alt: "Flujograma: Necrosis pancreática: cuándo drenar"
+    alt: "Flujograma: Pancreatitis grave con necrosis que necesita intervención: drenar cuando la necrosis se encapsula, a las 3-4 semanas"
   },
   "GIN-101": {
-    titulo: "VIH diagnosticado en el trabajo de parto",
+    titulo: "Gestante a término sin controles, con VIH detectado en trabajo de parto y 8 cm de dilatación: zidovudina EV y parto vaginal",
     imagen: "flujogramas/vih-prueba-rapida-8-cm-zidovudina-parto-vaginal.svg",
-    alt: "Flujograma: VIH diagnosticado en el trabajo de parto"
+    alt: "Flujograma: Gestante a término sin controles, con VIH detectado en trabajo de parto y 8 cm de dilatación: zidovudina EV y parto vaginal"
   },
   "PSI-020": {
-    titulo: "Depresión: tratamiento por gravedad",
+    titulo: "Varón con ánimo deprimido, insomnio e ideas de quitarse la vida tras perder el trabajo: episodio depresivo, sertralina con apoyo psicológico",
     imagen: "flujogramas/desempleo-animo-decaido-ideas-suicidas-sertralina.svg",
-    alt: "Flujograma: Depresión: tratamiento por gravedad"
+    alt: "Flujograma: Varón con ánimo deprimido, insomnio e ideas de quitarse la vida tras perder el trabajo: episodio depresivo, sertralina con apoyo psicológico"
   },
   "GIN-102": {
-    titulo: "Restricción del crecimiento fetal",
+    titulo: "Gestante de 36 semanas con feto en percentil 2, oligohidramnios y flujo diastólico invertido en la arteria umbilical: terminar la gestación",
     imagen: "flujogramas/rciu-percentil-2-flujo-diastolico-invertido-terminar.svg",
-    alt: "Flujograma: Restricción del crecimiento fetal"
+    alt: "Flujograma: Gestante de 36 semanas con feto en percentil 2, oligohidramnios y flujo diastólico invertido en la arteria umbilical: terminar la gestación"
   },
   "PED-111": {
-    titulo: "Neumonía: ¿Rx de control?",
+    titulo: "Lactante con neumonía que mejora claramente con el antibiótico: no necesita radiografía de control",
     imagen: "flujogramas/neumonia-lactante-mejoria-sin-rx-control.svg",
-    alt: "Flujograma: Neumonía: ¿Rx de control?"
+    alt: "Flujograma: Lactante con neumonía que mejora claramente con el antibiótico: no necesita radiografía de control"
   },
   "TRA-020": {
-    titulo: "Trauma cervical: criterios NEXUS",
+    titulo: "Volcadura con dolor cervical y debilidad de brazos a predominio de manos: posible lesión medular, inmovilizar con collar rígido",
     imagen: "flujogramas/volcadura-dolor-cervical-deficit-manos-collarin.svg",
-    alt: "Flujograma: Trauma cervical: criterios NEXUS"
+    alt: "Flujograma: Volcadura con dolor cervical y debilidad de brazos a predominio de manos: posible lesión medular, inmovilizar con collar rígido"
   },
   "PED-112": {
-    titulo: "Rubéola congénita",
+    titulo: "Lactante prematura, hija de madre con rubéola, con insuficiencia cardíaca, pulsos saltones y soplo: persistencia del conducto arterioso",
     imagen: "flujogramas/rubeola-materna-pulsos-saltones-ductus.svg",
-    alt: "Flujograma: Rubéola congénita"
+    alt: "Flujograma: Lactante prematura, hija de madre con rubéola, con insuficiencia cardíaca, pulsos saltones y soplo: persistencia del conducto arterioso"
   },
   "END-029": {
-    titulo: "Tipos de bocio",
+    titulo: "Al levantar ambos brazos aparecen ingurgitación del cuello y dificultad respiratoria (signo de Pemberton): bocio sumergido",
     imagen: "flujogramas/brazos-elevados-congestion-cuello-pemberton.svg",
-    alt: "Flujograma: Tipos de bocio"
+    alt: "Flujograma: Al levantar ambos brazos aparecen ingurgitación del cuello y dificultad respiratoria (signo de Pemberton): bocio sumergido"
   },
   "GIN-103": {
-    titulo: "Manejo activo del alumbramiento",
+    titulo: "Manejo activo del alumbramiento en una preeclámptica: oxitocina 10 UI IM al primer minuto (la metilergometrina está contraindicada)",
     imagen: "flujogramas/alumbramiento-dirigido-preeclampsia-oxitocina.svg",
-    alt: "Flujograma: Manejo activo del alumbramiento"
+    alt: "Flujograma: Manejo activo del alumbramiento en una preeclámptica: oxitocina 10 UI IM al primer minuto (la metilergometrina está contraindicada)"
   },
   "REU-030": {
-    titulo: "Placas descamativas y uñas alteradas",
+    titulo: "Placas eritematosas bien delimitadas con escamas nacaradas en piel y cuero cabelludo, con piqueteado ungueal y onicólisis: psoriasis",
     imagen: "flujogramas/placas-escama-nacarada-piqueteado-ungueal-psoriasis.svg",
-    alt: "Flujograma: Placas descamativas y uñas alteradas"
+    alt: "Flujograma: Placas eritematosas bien delimitadas con escamas nacaradas en piel y cuero cabelludo, con piqueteado ungueal y onicólisis: psoriasis"
   },
   "INF-055": {
-    titulo: "Dengue: clasificación del caso",
+    titulo: "Fiebre con mialgias tras viajar a zona endémica y NS1 positivo, en un lugar sin vector: caso confirmado de dengue (importado)",
     imagen: "flujogramas/viaje-zona-endemica-ns1-positivo-caso-confirmado.svg",
-    alt: "Flujograma: Dengue: clasificación del caso"
+    alt: "Flujograma: Fiebre con mialgias tras viajar a zona endémica y NS1 positivo, en un lugar sin vector: caso confirmado de dengue (importado)"
   },
   "PED-113": {
-    titulo: "Testículo fuera del escroto",
+    titulo: "Lactante con escroto derecho vacío y el testículo palpable en el periné: ectopia testicular",
     imagen: "flujogramas/escroto-vacio-testiculo-perineal-ectopia.svg",
-    alt: "Flujograma: Testículo fuera del escroto"
+    alt: "Flujograma: Lactante con escroto derecho vacío y el testículo palpable en el periné: ectopia testicular"
   },
   "NEU-028": {
-    titulo: "Crisis de asma casi fatal",
+    titulo: "Asmático somnoliento, que no puede hablar, con tórax silente, SatO₂ 85 % y bradicardia: crisis de riesgo vital, intubar",
     imagen: "flujogramas/asma-somnoliento-silencio-auscultatorio-intubacion.svg",
-    alt: "Flujograma: Crisis de asma casi fatal"
+    alt: "Flujograma: Asmático somnoliento, que no puede hablar, con tórax silente, SatO₂ 85 % y bradicardia: crisis de riesgo vital, intubar"
   },
   "CB-035": {
-    titulo: "Intoxicación por isoniazida",
+    titulo: "Paciente con TB que tomó dosis extra de su tratamiento y presenta confusión y acidosis metabólica grave: intoxicación por isoniazida, piridoxina",
     imagen: "flujogramas/sobredosis-isoniazida-acidosis-piridoxina.svg",
-    alt: "Flujograma: Intoxicación por isoniazida"
+    alt: "Flujograma: Paciente con TB que tomó dosis extra de su tratamiento y presenta confusión y acidosis metabólica grave: intoxicación por isoniazida, piridoxina"
   },
   "GAS-042": {
-    titulo: "Cirrótico con fiebre y dolor abdominal",
+    titulo: "Cirrótico con ascitis, fiebre, dolor abdominal y encefalopatía: hacer paracentesis diagnóstica para descartar peritonitis bacteriana espontánea",
     imagen: "flujogramas/cirrotico-fiebre-dolor-confusion-paracentesis.svg",
-    alt: "Flujograma: Cirrótico con fiebre y dolor abdominal"
+    alt: "Flujograma: Cirrótico con ascitis, fiebre, dolor abdominal y encefalopatía: hacer paracentesis diagnóstica para descartar peritonitis bacteriana espontánea"
   },
   "PED-114": {
-    titulo: "Hemorragia intraventricular: estudio",
+    titulo: "Prematuro de 32 semanas y 1100 g que requirió reanimación, con apnea y palidez a las 24 horas: sospecha de hemorragia intraventricular, ecografía transfontanelar",
     imagen: "flujogramas/prematuro-1100-g-apnea-palidez-eco-transfontanelar.svg",
-    alt: "Flujograma: Hemorragia intraventricular: estudio"
+    alt: "Flujograma: Prematuro de 32 semanas y 1100 g que requirió reanimación, con apnea y palidez a las 24 horas: sospecha de hemorragia intraventricular, ecografía transfontanelar"
   },
   "GAS-043": {
-    titulo: "Falla hepática: clasificación temporal",
+    titulo: "Ictericia que en 8 días se acompaña de encefalopatía e INR 6, sin hepatopatía previa: insuficiencia hepática aguda",
     imagen: "flujogramas/ictericia-8-dias-encefalopatia-falla-hepatica-aguda.svg",
-    alt: "Flujograma: Falla hepática: clasificación temporal"
+    alt: "Flujograma: Ictericia que en 8 días se acompaña de encefalopatía e INR 6, sin hepatopatía previa: insuficiencia hepática aguda"
   },
   "GIN-104": {
-    titulo: "Anticoncepción con carbamazepina",
+    titulo: "Mujer que toma carbamazepina: los anticonceptivos orales combinados son los menos eficaces por la inducción enzimática",
     imagen: "flujogramas/carbamazepina-anticonceptivo-oral-menos-efectivo.svg",
-    alt: "Flujograma: Anticoncepción con carbamazepina"
+    alt: "Flujograma: Mujer que toma carbamazepina: los anticonceptivos orales combinados son los menos eficaces por la inducción enzimática"
   },
   "GAS-044": {
-    titulo: "Várices esofágicas: profilaxis primaria",
+    titulo: "Cirrótico alcohólico con várices esofágicas grandes que nunca sangraron: betabloqueante no cardioselectivo como profilaxis primaria",
     imagen: "flujogramas/varices-grandes-profilaxis-primaria-betabloqueante.svg",
-    alt: "Flujograma: Várices esofágicas: profilaxis primaria"
+    alt: "Flujograma: Cirrótico alcohólico con várices esofágicas grandes que nunca sangraron: betabloqueante no cardioselectivo como profilaxis primaria"
   },
   "REU-031": {
-    titulo: "Debilidad proximal progresiva",
+    titulo: "Mujer con 6 meses de debilidad proximal simétrica (escaleras, silla, peinarse) sin lesiones de piel: polimiositis",
     imagen: "flujogramas/debilidad-proximal-simetrica-sin-piel-polimiositis.svg",
-    alt: "Flujograma: Debilidad proximal progresiva"
+    alt: "Flujograma: Mujer con 6 meses de debilidad proximal simétrica (escaleras, silla, peinarse) sin lesiones de piel: polimiositis"
   },
   "GIN-105": {
-    titulo: "Hipertensión en la gestante",
+    titulo: "Gestante hipertensa desde antes de las 20 semanas, bien controlada con metildopa, con PA 130/80 y cefalea tras una discusión: hipertensión crónica",
     imagen: "flujogramas/metildopa-desde-8-semanas-pa-controlada-hta-cronica.svg",
-    alt: "Flujograma: Hipertensión en la gestante"
+    alt: "Flujograma: Gestante hipertensa desde antes de las 20 semanas, bien controlada con metildopa, con PA 130/80 y cefalea tras una discusión: hipertensión crónica"
   },
   "NEU-029": {
-    titulo: "Exacerbación de EPOC con acidosis",
+    titulo: "EPOC exacerbado con confusión, pH 7,08 y PaCO₂ 60 pese al oxígeno: intubación orotraqueal",
     imagen: "flujogramas/epoc-exacerbado-ph-708-confusion-intubacion.svg",
-    alt: "Flujograma: Exacerbación de EPOC con acidosis"
+    alt: "Flujograma: EPOC exacerbado con confusión, pH 7,08 y PaCO₂ 60 pese al oxígeno: intubación orotraqueal"
   },
   "CIR-059": {
-    titulo: "Obstrucción intestinal con masa inguinal",
+    titulo: "Anciana con obstrucción intestinal y masa dolorosa por debajo del pliegue inguinal: hernia femoral (crural) estrangulada",
     imagen: "flujogramas/anciana-masa-bajo-pliegue-inguinal-obstruccion-femoral.svg",
-    alt: "Flujograma: Obstrucción intestinal con masa inguinal"
+    alt: "Flujograma: Anciana con obstrucción intestinal y masa dolorosa por debajo del pliegue inguinal: hernia femoral (crural) estrangulada"
   },
   "PED-115": {
-    titulo: "Sarampión: etapas",
+    titulo: "Niño con tos, coriza y conjuntivitis, luego exantema maculopapular y manchas blancas en la mucosa de las mejillas: sarampión",
     imagen: "flujogramas/fiebre-tos-coriza-conjuntivitis-koplik-sarampion.svg",
-    alt: "Flujograma: Sarampión: etapas"
+    alt: "Flujograma: Niño con tos, coriza y conjuntivitis, luego exantema maculopapular y manchas blancas en la mucosa de las mejillas: sarampión"
   },
   "NRL-030": {
-    titulo: "Tipos de demencia",
+    titulo: "Anciana con olvidos peligrosos (deja la cocina prendida), que no reconoce a familiares, deambula sin rumbo y cambia de ánimo: enfermedad de Alzheimer",
     imagen: "flujogramas/anciana-deja-cocina-prendida-deambula-alzheimer.svg",
-    alt: "Flujograma: Tipos de demencia"
+    alt: "Flujograma: Anciana con olvidos peligrosos (deja la cocina prendida), que no reconoce a familiares, deambula sin rumbo y cambia de ánimo: enfermedad de Alzheimer"
   },
   "CAR-044": {
-    titulo: "Ritmos de paro cardiaco",
+    titulo: "Paro cardíaco que revierte con la descarga de un DEA: el ritmo era desfibrilable, fibrilación ventricular",
     imagen: "flujogramas/paro-piscina-dea-descarga-fibrilacion-ventricular.svg",
-    alt: "Flujograma: Ritmos de paro cardiaco"
+    alt: "Flujograma: Paro cardíaco que revierte con la descarga de un DEA: el ritmo era desfibrilable, fibrilación ventricular"
   },
   "SP-076": {
-    titulo: "Estilos de liderazgo",
+    titulo: "El director expone el problema y pide que cada integrante del comité asuma responsabilidades según sus funciones: liderazgo democrático",
     imagen: "flujogramas/director-comite-distrital-dengue-liderazgo-democratico.svg",
-    alt: "Flujograma: Estilos de liderazgo"
+    alt: "Flujograma: El director expone el problema y pide que cada integrante del comité asuma responsabilidades según sus funciones: liderazgo democrático"
   },
   "NRL-031": {
-    titulo: "Espasmos de la mano al escribir",
+    titulo: "Adulto con espasmos de mano y antebrazo solo al escribir, examen normal: distonía focal (calambre del escribiente)",
     imagen: "flujogramas/espasmos-mano-al-escribir-distonia-focal.svg",
-    alt: "Flujograma: Espasmos de la mano al escribir"
+    alt: "Flujograma: Adulto con espasmos de mano y antebrazo solo al escribir, examen normal: distonía focal (calambre del escribiente)"
   },
   "CB-036": {
-    titulo: "Adaptación a la altura",
+    titulo: "Limeño que llega a Puno con cefalea, fatiga, náuseas y vómitos: mal agudo de montaña; la hipoxia lo hace hiperventilar, alcalosis respiratoria",
     imagen: "flujogramas/lima-puno-cefalea-nauseas-alcalosis-respiratoria.svg",
-    alt: "Flujograma: Adaptación a la altura"
+    alt: "Flujograma: Limeño que llega a Puno con cefalea, fatiga, náuseas y vómitos: mal agudo de montaña; la hipoxia lo hace hiperventilar, alcalosis respiratoria"
   },
   "SP-077": {
-    titulo: "Tipos de indicadores",
+    titulo: "Porcentaje de pacientes con TB que recibieron visita domiciliaria: mide una actividad realizada, es un indicador de proceso",
     imagen: "flujogramas/porcentaje-tb-visita-domiciliaria-indicador-proceso.svg",
-    alt: "Flujograma: Tipos de indicadores"
+    alt: "Flujograma: Porcentaje de pacientes con TB que recibieron visita domiciliaria: mide una actividad realizada, es un indicador de proceso"
   },
   "CB-037": {
-    titulo: "Receptores adrenérgicos",
+    titulo: "Anciano con hiperplasia prostática tratado con un alfabloqueador (tamsulosina, doxazosina) que hace hipotensión ortostática: bloqueo alfa-1",
     imagen: "flujogramas/hbp-simpaticolitico-hipotension-ortostatica-alfa1.svg",
-    alt: "Flujograma: Receptores adrenérgicos"
+    alt: "Flujograma: Anciano con hiperplasia prostática tratado con un alfabloqueador (tamsulosina, doxazosina) que hace hipotensión ortostática: bloqueo alfa-1"
   },
   "GIN-106": {
-    titulo: "Tamizaje temprano de diabetes en la gestante",
+    titulo: "Gestante de 10 semanas con obesidad, hijo previo macrosómico y hermana diabética: buscar diabetes de inmediato, en el primer control",
     imagen: "flujogramas/imc-34-macrosomia-familiar-dm-tamizaje-inmediato.svg",
-    alt: "Flujograma: Tamizaje temprano de diabetes en la gestante"
+    alt: "Flujograma: Gestante de 10 semanas con obesidad, hijo previo macrosómico y hermana diabética: buscar diabetes de inmediato, en el primer control"
   },
   "GIN-107": {
-    titulo: "Amenorrea secundaria: ¿dónde falla?",
+    titulo: "Joven con amenorrea de 7 meses, caracteres sexuales normales, útero y ovarios presentes, y FSH/LH altas: insuficiencia ovárica prematura",
     imagen: "flujogramas/amenorrea-19-anos-fsh-lh-altas-falla-ovarica.svg",
-    alt: "Flujograma: Amenorrea secundaria: ¿dónde falla?"
+    alt: "Flujograma: Joven con amenorrea de 7 meses, caracteres sexuales normales, útero y ovarios presentes, y FSH/LH altas: insuficiencia ovárica prematura"
   },
   "PED-116": {
-    titulo: "Reanimación neonatal",
+    titulo: "Recién nacido a término que sigue en apnea con FC 90 tras los pasos iniciales: ventilación a presión positiva con FiO₂ 21 %",
     imagen: "flujogramas/rn-apnea-fc-90-vpp-aire-ambiente.svg",
-    alt: "Flujograma: Reanimación neonatal"
+    alt: "Flujograma: Recién nacido a término que sigue en apnea con FC 90 tras los pasos iniciales: ventilación a presión positiva con FiO₂ 21 %"
   },
   "GIN-108": {
-    titulo: "Lesión vaginal en prolapso total",
+    titulo: "Anciana con prolapso genital total, vagina seca y úlcera de bordes regulares con PAP negativo y endometrio atrófico: úlcera de decúbito",
     imagen: "flujogramas/prolapso-total-lesion-vaginal-ulcera-decubito.svg",
-    alt: "Flujograma: Lesión vaginal en prolapso total"
+    alt: "Flujograma: Anciana con prolapso genital total, vagina seca y úlcera de bordes regulares con PAP negativo y endometrio atrófico: úlcera de decúbito"
   },
   "CB-038": {
-    titulo: "Efectos de los antimuscarínicos",
+    titulo: "Anciano asmático que hace retención urinaria aguda: efecto anticolinérgico del bromuro de ipratropio",
     imagen: "flujogramas/asmatico-ipratropio-retencion-urinaria.svg",
-    alt: "Flujograma: Efectos de los antimuscarínicos"
+    alt: "Flujograma: Anciano asmático que hace retención urinaria aguda: efecto anticolinérgico del bromuro de ipratropio"
   },
   "SP-078": {
-    titulo: "Tipos de variables",
+    titulo: "La temperatura ambiental puede tomar cualquier valor dentro de un rango (con decimales): es una variable cuantitativa continua",
     imagen: "flujogramas/temperatura-ambiental-variable-continua.svg",
-    alt: "Flujograma: Tipos de variables"
+    alt: "Flujograma: La temperatura ambiental puede tomar cualquier valor dentro de un rango (con decimales): es una variable cuantitativa continua"
   },
   "OFT-026": {
-    titulo: "Otitis media según el tiempo",
+    titulo: "Niño con bajo rendimiento escolar, tímpano perforado y otorrea maloliente: otitis media crónica",
     imagen: "flujogramas/timpano-perforado-otorrea-fetida-otitis-media-cronica.svg",
-    alt: "Flujograma: Otitis media según el tiempo"
+    alt: "Flujograma: Niño con bajo rendimiento escolar, tímpano perforado y otorrea maloliente: otitis media crónica"
   },
   "NEF-041": {
-    titulo: "Sospecha de HTA renovascular",
+    titulo: "Mujer joven con HTA de inicio súbito, 190/100 pese a tres fármacos y soplo en el flanco: estenosis de la arteria renal",
     imagen: "flujogramas/mujer-joven-hta-refractaria-soplo-flanco-estenosis-renal.svg",
-    alt: "Flujograma: Sospecha de HTA renovascular"
+    alt: "Flujograma: Mujer joven con HTA de inicio súbito, 190/100 pese a tres fármacos y soplo en el flanco: estenosis de la arteria renal"
   },
   "CIR-060": {
-    titulo: "Trauma abdominal con choque",
+    titulo: "Politraumatizada con signos de choque y abdomen doloroso sin heridas: ecografía FAST para buscar sangre en el abdomen",
     imagen: "flujogramas/accidente-transito-choque-abdomen-doloroso-fast.svg",
-    alt: "Flujograma: Trauma abdominal con choque"
+    alt: "Flujograma: Politraumatizada con signos de choque y abdomen doloroso sin heridas: ecografía FAST para buscar sangre en el abdomen"
   },
   "PED-117": {
-    titulo: "Enfermedad de membrana hialina",
+    titulo: "La diabetes materna aumenta el riesgo de enfermedad de membrana hialina: la insulina fetal alta retrasa la maduración del surfactante",
     imagen: "flujogramas/membrana-hialina-diabetes-materna.svg",
-    alt: "Flujograma: Enfermedad de membrana hialina"
+    alt: "Flujograma: La diabetes materna aumenta el riesgo de enfermedad de membrana hialina: la insulina fetal alta retrasa la maduración del surfactante"
   },
   "NEF-042": {
-    titulo: "Retención urinaria aguda",
+    titulo: "Anciano con dolor hipogástrico, globo vesical, creatinina 2,8 y potasio 6: retención urinaria con falla renal posrenal, sondaje vesical inmediato",
     imagen: "flujogramas/globo-vesical-creatinina-potasio-sonda.svg",
-    alt: "Flujograma: Retención urinaria aguda"
+    alt: "Flujograma: Anciano con dolor hipogástrico, globo vesical, creatinina 2,8 y potasio 6: retención urinaria con falla renal posrenal, sondaje vesical inmediato"
   },
   "NEU-030": {
-    titulo: "Semiología del tórax",
+    titulo: "Hemitórax derecho abombado con matidez, murmullo abolido y egofonía: derrame pleural",
     imagen: "flujogramas/matidez-abolicion-mv-egofonia-derrame-pleural.svg",
-    alt: "Flujograma: Semiología del tórax"
+    alt: "Flujograma: Hemitórax derecho abombado con matidez, murmullo abolido y egofonía: derrame pleural"
   },
   "NRL-032": {
-    titulo: "Hemorragia intracerebral: control de la PA",
+    titulo: "Hipertenso con hemorragia intraparenquimal izquierda, Glasgow 10 y PA 180/90: control de la presión arterial",
     imagen: "flujogramas/hemorragia-intraparenquimal-pa-180-antihipertensivo.svg",
-    alt: "Flujograma: Hemorragia intracerebral: control de la PA"
+    alt: "Flujograma: Hipertenso con hemorragia intraparenquimal izquierda, Glasgow 10 y PA 180/90: control de la presión arterial"
   },
   "CAR-045": {
-    titulo: "IC: ¿qué fármaco prolonga la vida?",
+    titulo: "Insuficiencia cardíaca con fibrilación auricular tratada con enalapril, digoxina, furosemida y rivaroxabán: el que mejora la sobrevida es el enalapril",
     imagen: "flujogramas/insuficiencia-cardiaca-enalapril-sobrevida.svg",
-    alt: "Flujograma: IC: ¿qué fármaco prolonga la vida?"
+    alt: "Flujograma: Insuficiencia cardíaca con fibrilación auricular tratada con enalapril, digoxina, furosemida y rivaroxabán: el que mejora la sobrevida es el enalapril"
   },
   "OFT-027": {
-    titulo: "Tapón de cerumen",
+    titulo: "Adolescente con hipoacusia y conducto ocupado por cerumen: irrigación con suero o agua tibia (a temperatura corporal)",
     imagen: "flujogramas/tapon-cerumen-irrigacion-salino-tibio.svg",
-    alt: "Flujograma: Tapón de cerumen"
+    alt: "Flujograma: Adolescente con hipoacusia y conducto ocupado por cerumen: irrigación con suero o agua tibia (a temperatura corporal)"
   },
   "PED-118": {
-    titulo: "Tumefacciones del cuero cabelludo del RN",
+    titulo: "Recién nacido con masa blanda y fluctuante limitada al parietal derecho, que no cruza las suturas: cefalohematoma",
     imagen: "flujogramas/rn-tumoracion-parietal-no-cruza-sutura-cefalohematoma.svg",
-    alt: "Flujograma: Tumefacciones del cuero cabelludo del RN"
+    alt: "Flujograma: Recién nacido con masa blanda y fluctuante limitada al parietal derecho, que no cruza las suturas: cefalohematoma"
   },
   "REU-032": {
-    titulo: "Poliarteritis nudosa: criterios",
+    titulo: "Adulto con hepatitis B, fiebre, pérdida de peso, dolor testicular, livedo, mononeuritis y vasculitis necrotizante de arterias medianas: poliarteritis nudosa",
     imagen: "flujogramas/hepatitis-b-livedo-dolor-testicular-poliarteritis-nudosa.svg",
-    alt: "Flujograma: Poliarteritis nudosa: criterios"
+    alt: "Flujograma: Adulto con hepatitis B, fiebre, pérdida de peso, dolor testicular, livedo, mononeuritis y vasculitis necrotizante de arterias medianas: poliarteritis nudosa"
   },
   "SP-079": {
-    titulo: "Decisiones al final de la vida",
+    titulo: "Paciente con cáncer metastásico tratado en casa solo con oxígeno y analgésicos para su confort: ortotanasia",
     imagen: "flujogramas/cancer-metastasico-oxigeno-analgesia-ortotanasia.svg",
-    alt: "Flujograma: Decisiones al final de la vida"
+    alt: "Flujograma: Paciente con cáncer metastásico tratado en casa solo con oxígeno y analgésicos para su confort: ortotanasia"
   },
   "NRL-033": {
-    titulo: "Lesiones cerebrales múltiples con anillo",
+    titulo: "Fumador con tos crónica, convulsiones y dos lesiones cerebrales redondas con realce en anillo y mucho edema: metástasis cerebrales",
     imagen: "flujogramas/fumador-convulsion-dos-lesiones-anillo-metastasis.svg",
-    alt: "Flujograma: Lesiones cerebrales múltiples con anillo"
+    alt: "Flujograma: Fumador con tos crónica, convulsiones y dos lesiones cerebrales redondas con realce en anillo y mucho edema: metástasis cerebrales"
   },
   "PED-119": {
-    titulo: "Laboratorio en sepsis neonatal",
+    titulo: "Recién nacido de madre con corioamnionitis, con hipotermia e intolerancia oral a las 16 horas: sospecha de sepsis temprana, el índice I/T > 0,2 la apoya",
     imagen: "flujogramas/corioamnionitis-hipotermia-indice-it-sepsis.svg",
-    alt: "Flujograma: Laboratorio en sepsis neonatal"
+    alt: "Flujograma: Recién nacido de madre con corioamnionitis, con hipotermia e intolerancia oral a las 16 horas: sospecha de sepsis temprana, el índice I/T > 0,2 la apoya"
   },
   "PED-120": {
-    titulo: "Convulsiones tras varicela",
+    titulo: "Niño con varicela que recibió aspirina y presenta convulsiones, hepatomegalia y LCR normal: síndrome de Reye",
     imagen: "flujogramas/varicela-aspirina-convulsion-hepatomegalia-reye.svg",
-    alt: "Flujograma: Convulsiones tras varicela"
+    alt: "Flujograma: Niño con varicela que recibió aspirina y presenta convulsiones, hepatomegalia y LCR normal: síndrome de Reye"
   },
   "NEF-043": {
-    titulo: "Lesión renal: prerrenal vs necrosis tubular",
+    titulo: "Varón sin beber ni comer por día y medio, con oliguria, hipotensión, taquicardia y mucosas secas: lesión renal prerrenal, sodio urinario bajo",
     imagen: "flujogramas/secuestro-sin-agua-oliguria-sodio-urinario-bajo.svg",
-    alt: "Flujograma: Lesión renal: prerrenal vs necrosis tubular"
+    alt: "Flujograma: Varón sin beber ni comer por día y medio, con oliguria, hipotensión, taquicardia y mucosas secas: lesión renal prerrenal, sodio urinario bajo"
   },
   "SP-080": {
-    titulo: "Propiedades del agente infeccioso",
+    titulo: "La capacidad de un agente infeccioso de producir enfermedad en el infectado se llama patogenicidad",
     imagen: "flujogramas/capacidad-producir-enfermedad-patogenicidad.svg",
-    alt: "Flujograma: Propiedades del agente infeccioso"
+    alt: "Flujograma: La capacidad de un agente infeccioso de producir enfermedad en el infectado se llama patogenicidad"
   },
   "GIN-109": {
-    titulo: "Presentación de cara",
+    titulo: "Multigesta en trabajo de parto avanzado con presentación de cara mentoanterior: parto vaginal espontáneo",
     imagen: "flujogramas/presentacion-cara-mentoanterior-parto-vaginal.svg",
-    alt: "Flujograma: Presentación de cara"
+    alt: "Flujograma: Multigesta en trabajo de parto avanzado con presentación de cara mentoanterior: parto vaginal espontáneo"
   },
   "CIR-061": {
-    titulo: "Quemadura circunferencial",
+    titulo: "Quemadura de tercer grado que rodea toda la pierna y sin pulso pedio: escarotomía",
     imagen: "flujogramas/quemadura-circunferencial-pierna-sin-pulso-escarotomia.svg",
-    alt: "Flujograma: Quemadura circunferencial"
+    alt: "Flujograma: Quemadura de tercer grado que rodea toda la pierna y sin pulso pedio: escarotomía"
   },
   "NEF-044": {
-    titulo: "Infección renal crónica con macrófagos espumosos",
+    titulo: "Mujer con litiasis e infecciones urinarias repetidas, fiebre y dolor lumbar de un mes, anemia y macrófagos espumosos en la orina: pielonefritis xantogranulomatosa",
     imagen: "flujogramas/litiasis-itu-repeticion-macrofagos-espumosos-xantogranulomatosa.svg",
-    alt: "Flujograma: Infección renal crónica con macrófagos espumosos"
+    alt: "Flujograma: Mujer con litiasis e infecciones urinarias repetidas, fiebre y dolor lumbar de un mes, anemia y macrófagos espumosos en la orina: pielonefritis xantogranulomatosa"
   },
   "END-030": {
-    titulo: "Actividad física en la diabetes",
+    titulo: "En la diabetes tipo 2, el adulto de 18 a 64 años debe hacer al menos 150 minutos semanales de actividad aeróbica moderada",
     imagen: "flujogramas/diabetes-actividad-fisica-150-minutos.svg",
-    alt: "Flujograma: Actividad física en la diabetes"
+    alt: "Flujograma: En la diabetes tipo 2, el adulto de 18 a 64 años debe hacer al menos 150 minutos semanales de actividad aeróbica moderada"
   },
   "PED-121": {
-    titulo: "Colestasis del lactante",
+    titulo: "Lactante de 4 semanas con ictericia verdínica, coluria, heces pálidas y bilirrubina directa de 12: colestasis, la ecografía abdominal es el primer examen",
     imagen: "flujogramas/lactante-4-semanas-acolia-bilirrubina-directa-ecografia.svg",
-    alt: "Flujograma: Colestasis del lactante"
+    alt: "Flujograma: Lactante de 4 semanas con ictericia verdínica, coluria, heces pálidas y bilirrubina directa de 12: colestasis, la ecografía abdominal es el primer examen"
   },
   "GIN-110": {
-    titulo: "PAP con lesión de alto grado",
+    titulo: "PAP con lesión intraepitelial de alto grado en una mujer de 32 años: colposcopía y biopsia",
     imagen: "flujogramas/pap-lesion-alto-grado-colposcopia-biopsia.svg",
-    alt: "Flujograma: PAP con lesión de alto grado"
+    alt: "Flujograma: PAP con lesión intraepitelial de alto grado en una mujer de 32 años: colposcopía y biopsia"
   },
   "REU-033": {
-    titulo: "Lupus: criterios EULAR/ACR",
+    titulo: "Mujer joven con edema y orina espumosa, artralgias, fotosensibilidad, eritema facial y derrame pleural bilateral: lupus eritematoso sistémico",
     imagen: "flujogramas/eritema-facial-proteinuria-derrame-pleural-lupus.svg",
-    alt: "Flujograma: Lupus: criterios EULAR/ACR"
+    alt: "Flujograma: Mujer joven con edema y orina espumosa, artralgias, fotosensibilidad, eritema facial y derrame pleural bilateral: lupus eritematoso sistémico"
   },
   "CAR-046": {
-    titulo: "Encefalopatía hipertensiva",
+    titulo: "Hipertenso con PA 190/120, cefalea, vómitos, papiledema y confusión sin focalidad: encefalopatía hipertensiva, labetalol EV",
     imagen: "flujogramas/papiledema-confusion-pa-190-120-labetalol.svg",
-    alt: "Flujograma: Encefalopatía hipertensiva"
+    alt: "Flujograma: Hipertenso con PA 190/120, cefalea, vómitos, papiledema y confusión sin focalidad: encefalopatía hipertensiva, labetalol EV"
   },
   "END-031": {
-    titulo: "Tirotoxicosis: origen",
+    titulo: "Mujer que toma pastillas para adelgazar con hipertiroidismo, tiroides no palpable y TSH suprimida: tirotoxicosis facticia",
     imagen: "flujogramas/pastillas-adelgazar-tsh-indetectable-tiroides-no-palpable-facticia.svg",
-    alt: "Flujograma: Tirotoxicosis: origen"
+    alt: "Flujograma: Mujer que toma pastillas para adelgazar con hipertiroidismo, tiroides no palpable y TSH suprimida: tirotoxicosis facticia"
   },
   "SP-081": {
-    titulo: "Tipos de muestreo",
+    titulo: "Tomar 150 casos de forma no aleatoria entre los que ingresaron al hospital: muestreo por conveniencia",
     imagen: "flujogramas/150-casos-no-aleatorio-muestreo-conveniencia.svg",
-    alt: "Flujograma: Tipos de muestreo"
+    alt: "Flujograma: Tomar 150 casos de forma no aleatoria entre los que ingresaron al hospital: muestreo por conveniencia"
   },
   "END-032": {
-    titulo: "Hipertiroidismo con exoftalmos",
+    titulo: "Mujer joven con hipertiroidismo, bocio difuso, exoftalmos bilateral y mixedema pretibial: enfermedad de Graves",
     imagen: "flujogramas/bocio-exoftalmos-mixedema-pretibial-graves.svg",
-    alt: "Flujograma: Hipertiroidismo con exoftalmos"
+    alt: "Flujograma: Mujer joven con hipertiroidismo, bocio difuso, exoftalmos bilateral y mixedema pretibial: enfermedad de Graves"
   },
   "TRA-021": {
-    titulo: "Pie equinovaro: método Ponseti",
+    titulo: "Lactante de 1 mes con pie equinovaro: referir al ortopedista infantil para tratamiento de Ponseti",
     imagen: "flujogramas/lactante-pie-equinovaro-referir-ortopedista.svg",
-    alt: "Flujograma: Pie equinovaro: método Ponseti"
+    alt: "Flujograma: Lactante de 1 mes con pie equinovaro: referir al ortopedista infantil para tratamiento de Ponseti"
   },
   "GIN-111": {
-    titulo: "VIH: vía del parto según carga viral",
+    titulo: "Gestante con VIH en TAR y carga viral de 500 copias a las 38 semanas: puede tener parto vaginal",
     imagen: "flujogramas/vih-tar-carga-viral-500-parto-vaginal.svg",
-    alt: "Flujograma: VIH: vía del parto según carga viral"
+    alt: "Flujograma: Gestante con VIH en TAR y carga viral de 500 copias a las 38 semanas: puede tener parto vaginal"
   },
   "CB-039": {
-    titulo: "Intoxicación por opioides",
+    titulo: "Veterinario somnoliento con miosis, bradipnea, hipoxemia, hipercapnia y venopunturas: intoxicación por opioides, naloxona",
     imagen: "flujogramas/miosis-bradipnea-sopor-venopunturas-naloxona.svg",
-    alt: "Flujograma: Intoxicación por opioides"
+    alt: "Flujograma: Veterinario somnoliento con miosis, bradipnea, hipoxemia, hipercapnia y venopunturas: intoxicación por opioides, naloxona"
   },
   "SP-082": {
-    titulo: "TB en población migrante",
+    titulo: "Aumento de TB en un asentamiento de migrantes rurales: el equipo de promoción debe hacer comunicación educativa para reconocer pronto los síntomas",
     imagen: "flujogramas/tb-asentamiento-migrante-comunicacion-educativa.svg",
-    alt: "Flujograma: TB en población migrante"
+    alt: "Flujograma: Aumento de TB en un asentamiento de migrantes rurales: el equipo de promoción debe hacer comunicación educativa para reconocer pronto los síntomas"
   },
   "TRA-022": {
-    titulo: "Fractura diafisaria de húmero",
+    titulo: "Fractura cerrada de la diáfisis del húmero, no desplazada y sin lesión del nervio radial: tratamiento con ortesis funcional",
     imagen: "flujogramas/fractura-diafisis-humero-no-desplazada-ortesis.svg",
-    alt: "Flujograma: Fractura diafisaria de húmero"
+    alt: "Flujograma: Fractura cerrada de la diáfisis del húmero, no desplazada y sin lesión del nervio radial: tratamiento con ortesis funcional"
   },
   "NEF-045": {
-    titulo: "Dolor agudo en flanco",
+    titulo: "Dolor cólico intenso en flanco y región lumbar derecha que irradia a ingle y testículo, con vómitos y sin peritonismo: cólico renal",
     imagen: "flujogramas/dolor-flanco-irradia-testiculo-sin-postura-colico-renal.svg",
-    alt: "Flujograma: Dolor agudo en flanco"
+    alt: "Flujograma: Dolor cólico intenso en flanco y región lumbar derecha que irradia a ingle y testículo, con vómitos y sin peritonismo: cólico renal"
   },
   "PED-122": {
-    titulo: "Infección del cordón umbilical",
+    titulo: "Recién nacido con infección del muñón umbilical y celulitis alrededor: onfalitis, antibiótico sistémico inmediato",
     imagen: "flujogramas/onfalitis-celulitis-periumbilical-antibiotico-sistemico.svg",
-    alt: "Flujograma: Infección del cordón umbilical"
+    alt: "Flujograma: Recién nacido con infección del muñón umbilical y celulitis alrededor: onfalitis, antibiótico sistémico inmediato"
   },
   "NEF-046": {
-    titulo: "Neuropatía autonómica diabética",
+    titulo: "Diabético de 30 años de evolución con goteo urinario y globo vesical doloroso: vejiga neurogénica con retención por rebosamiento",
     imagen: "flujogramas/diabetico-30-anos-goteo-globo-vesical-vejiga-neurogenica.svg",
-    alt: "Flujograma: Neuropatía autonómica diabética"
+    alt: "Flujograma: Diabético de 30 años de evolución con goteo urinario y globo vesical doloroso: vejiga neurogénica con retención por rebosamiento"
   },
   "INF-056": {
-    titulo: "Brucelosis",
+    titulo: "Veterinario con fiebre ondulante de un mes, dolor lumbar, compromiso de la cadera y Rosa de Bengala positiva: brucelosis",
     imagen: "flujogramas/veterinario-fiebre-ondulante-rosa-bengala-brucelosis.svg",
-    alt: "Flujograma: Brucelosis"
+    alt: "Flujograma: Veterinario con fiebre ondulante de un mes, dolor lumbar, compromiso de la cadera y Rosa de Bengala positiva: brucelosis"
   },
   "REU-034": {
-    titulo: "Prurito del cuero cabelludo",
+    titulo: "Escolar con prurito del cuero cabelludo, lesiones de rascado, puntos blanco nacarados pegados al pelo y adenopatías occipitales: pediculosis",
     imagen: "flujogramas/nina-prurito-cuero-cabelludo-liendres-pediculosis.svg",
-    alt: "Flujograma: Prurito del cuero cabelludo"
+    alt: "Flujograma: Escolar con prurito del cuero cabelludo, lesiones de rascado, puntos blanco nacarados pegados al pelo y adenopatías occipitales: pediculosis"
   },
   "INF-057": {
-    titulo: "VIH: periodo de ventana",
+    titulo: "Exposición sexual de riesgo hace 20 días: la prueba que detecta antes el VIH es el ELISA de cuarta generación (antígeno p24 + anticuerpos)",
     imagen: "flujogramas/relacion-riesgo-20-dias-elisa-cuarta-generacion.svg",
-    alt: "Flujograma: VIH: periodo de ventana"
+    alt: "Flujograma: Exposición sexual de riesgo hace 20 días: la prueba que detecta antes el VIH es el ELISA de cuarta generación (antígeno p24 + anticuerpos)"
   },
   "GIN-112": {
-    titulo: "Amenaza de parto pretérmino",
+    titulo: "Gestante de 32 semanas con contracciones y cérvix de 15 mm: amenaza de parto pretérmino, corticoides y tocolíticos",
     imagen: "flujogramas/32-semanas-contracciones-cervix-15-mm-corticoides-tocolisis.svg",
-    alt: "Flujograma: Amenaza de parto pretérmino"
+    alt: "Flujograma: Gestante de 32 semanas con contracciones y cérvix de 15 mm: amenaza de parto pretérmino, corticoides y tocolíticos"
   },
   "GIN-113": {
-    titulo: "Vaginosis bacteriana: criterios de Amsel",
+    titulo: "Flujo blanco grisáceo y fétido con mucosa normal y células clave en el frotis: vaginosis bacteriana por Gardnerella",
     imagen: "flujogramas/flujo-gris-fetido-celulas-clave-gardnerella.svg",
-    alt: "Flujograma: Vaginosis bacteriana: criterios de Amsel"
+    alt: "Flujograma: Flujo blanco grisáceo y fétido con mucosa normal y células clave en el frotis: vaginosis bacteriana por Gardnerella"
   },
   "OFT-028": {
-    titulo: "Cuerpo extraño ocular",
+    titulo: "Cuerpo extraño incrustado en el ojo con perforación, en un establecimiento del primer nivel: no intentar retirarlo",
     imagen: "flujogramas/cuerpo-extrano-incrustado-perforacion-no-retirar.svg",
-    alt: "Flujograma: Cuerpo extraño ocular"
+    alt: "Flujograma: Cuerpo extraño incrustado en el ojo con perforación, en un establecimiento del primer nivel: no intentar retirarlo"
   },
   "GIN-114": {
-    titulo: "Anticoncepción tras enfermedad molar",
+    titulo: "Durante el seguimiento con β-hCG tras evacuar una mola se recomienda un anticonceptivo hormonal eficaz, como el implante",
     imagen: "flujogramas/mola-evacuada-vigilancia-implante-progestina.svg",
-    alt: "Flujograma: Anticoncepción tras enfermedad molar"
+    alt: "Flujograma: Durante el seguimiento con β-hCG tras evacuar una mola se recomienda un anticonceptivo hormonal eficaz, como el implante"
   },
   "PED-123": {
-    titulo: "Hipoglucemia neonatal",
+    titulo: "Prematuro tardío de bajo peso, hijo de madre preeclámptica, con hipoactividad y temblores a las 3 horas: hipoglucemia neonatal",
     imagen: "flujogramas/prematuro-2200-g-temblores-hipoactivo-hipoglucemia.svg",
-    alt: "Flujograma: Hipoglucemia neonatal"
+    alt: "Flujograma: Prematuro tardío de bajo peso, hijo de madre preeclámptica, con hipoactividad y temblores a las 3 horas: hipoglucemia neonatal"
   },
   "INF-058": {
-    titulo: "Adenopatías cervicales crónicas",
+    titulo: "Joven con adenopatías cervicales que crecen en meses, no dolorosas, una que fistuliza con material grumoso, y eritema indurado previo: tuberculosis ganglionar",
     imagen: "flujogramas/adenopatias-cervicales-fistula-caseosa-tb-ganglionar.svg",
-    alt: "Flujograma: Adenopatías cervicales crónicas"
+    alt: "Flujograma: Joven con adenopatías cervicales que crecen en meses, no dolorosas, una que fistuliza con material grumoso, y eritema indurado previo: tuberculosis ganglionar"
   },
   "NEU-031": {
-    titulo: "Asma: clasificación por gravedad",
+    titulo: "Síntomas 2 días por semana y despertares nocturnos 2 veces al mes: asma intermitente",
     imagen: "flujogramas/sintomas-2-dias-semana-2-noches-mes-asma-intermitente.svg",
-    alt: "Flujograma: Asma: clasificación por gravedad"
+    alt: "Flujograma: Síntomas 2 días por semana y despertares nocturnos 2 veces al mes: asma intermitente"
   },
   "REU-035": {
-    titulo: "Lesión en pliegues inguinales",
+    titulo: "Mujer obesa y diabética con lesiones rojas, húmedas y descamativas en ambos pliegues inguinales que no mejoran con cremas: intertrigo por Candida",
     imagen: "flujogramas/obesa-diabetica-pliegues-inguinales-candida.svg",
-    alt: "Flujograma: Lesión en pliegues inguinales"
+    alt: "Flujograma: Mujer obesa y diabética con lesiones rojas, húmedas y descamativas en ambos pliegues inguinales que no mejoran con cremas: intertrigo por Candida"
   },
   "NRL-034": {
-    titulo: "Miastenia gravis: unión neuromuscular",
+    titulo: "Mujer joven con ptosis, diplopía y debilidad que empeora con el esfuerzo y mejora con el reposo: miastenia gravis, anticuerpos contra el receptor nicotínico",
     imagen: "flujogramas/ptosis-diplopia-fatiga-receptor-nicotinico.svg",
-    alt: "Flujograma: Miastenia gravis: unión neuromuscular"
+    alt: "Flujograma: Mujer joven con ptosis, diplopía y debilidad que empeora con el esfuerzo y mejora con el reposo: miastenia gravis, anticuerpos contra el receptor nicotínico"
   },
   "INF-059": {
-    titulo: "Endocarditis: germen según el contexto",
+    titulo: "Usuario de drogas EV con fiebre, disnea, soplo nuevo y manchas rojas indoloras en palmas y plantas (Janeway): endocarditis por Staphylococcus aureus",
     imagen: "flujogramas/drogas-ev-janeway-soplo-mitral-staphylococcus.svg",
-    alt: "Flujograma: Endocarditis: germen según el contexto"
+    alt: "Flujograma: Usuario de drogas EV con fiebre, disnea, soplo nuevo y manchas rojas indoloras en palmas y plantas (Janeway): endocarditis por Staphylococcus aureus"
   },
   "PED-124": {
-    titulo: "Eventos centinela intraparto",
+    titulo: "El desprendimiento de placenta es un evento centinela en el parto para la encefalopatía hipóxico-isquémica",
     imagen: "flujogramas/evento-centinela-encefalopatia-hipoxica-dpp.svg",
-    alt: "Flujograma: Eventos centinela intraparto"
+    alt: "Flujograma: El desprendimiento de placenta es un evento centinela en el parto para la encefalopatía hipóxico-isquémica"
   },
   "CB-040": {
-    titulo: "Músculos de la lengua",
+    titulo: "Sacar la lengua hacia adelante (protrusión) depende del músculo geniogloso, inervado por el XII par",
     imagen: "flujogramas/sacar-lengua-musculo-geniogloso.svg",
-    alt: "Flujograma: Músculos de la lengua"
+    alt: "Flujograma: Sacar la lengua hacia adelante (protrusión) depende del músculo geniogloso, inervado por el XII par"
   },
   "INF-060": {
-    titulo: "Dengue: examen según el día",
+    titulo: "Joven de Piura con 2 días de fiebre, mialgias, cefalea, epistaxis y leucopenia: sospecha de dengue en fase febril, pedir antígeno NS1",
     imagen: "flujogramas/piura-fiebre-2-dias-leucopenia-ns1.svg",
-    alt: "Flujograma: Dengue: examen según el día"
+    alt: "Flujograma: Joven de Piura con 2 días de fiebre, mialgias, cefalea, epistaxis y leucopenia: sospecha de dengue en fase febril, pedir antígeno NS1"
   },
   "GIN-115": {
-    titulo: "Hemorragia posparto con útero contraído",
+    titulo: "Cesareada hace 14 meses con sangrado profuso, dolor intenso e hipotensión tras el alumbramiento, con útero contraído: dehiscencia de la cicatriz uterina",
     imagen: "flujogramas/cesarea-14-meses-sangrado-utero-contraido-dehiscencia.svg",
-    alt: "Flujograma: Hemorragia posparto con útero contraído"
+    alt: "Flujograma: Cesareada hace 14 meses con sangrado profuso, dolor intenso e hipotensión tras el alumbramiento, con útero contraído: dehiscencia de la cicatriz uterina"
   },
   "GIN-116": {
-    titulo: "VIH en la gestante",
+    titulo: "Gestante de 14 semanas con VIH confirmado: iniciar el tratamiento antirretroviral de inmediato",
     imagen: "flujogramas/gestante-14-semanas-vih-confirmado-tar-inmediato.svg",
-    alt: "Flujograma: VIH en la gestante"
+    alt: "Flujograma: Gestante de 14 semanas con VIH confirmado: iniciar el tratamiento antirretroviral de inmediato"
   },
   "SP-083": {
-    titulo: "Decisiones ante el pedido de morir",
+    titulo: "Paciente terminal que pide morir y el médico omite medidas que podrían prolongar su vida: eutanasia pasiva",
     imagen: "flujogramas/terminal-pide-morir-medico-omite-medidas-eutanasia-pasiva.svg",
-    alt: "Flujograma: Decisiones ante el pedido de morir"
+    alt: "Flujograma: Paciente terminal que pide morir y el médico omite medidas que podrían prolongar su vida: eutanasia pasiva"
   },
   "GIN-117": {
-    titulo: "Hemorragia del tercer trimestre",
+    titulo: "Gestante con dos cesáreas que tras contracciones presenta dolor intenso, sangrado, choque y latidos fetales ausentes: rotura uterina",
     imagen: "flujogramas/dos-cesareas-dolor-choque-latidos-ausentes-rotura-uterina.svg",
-    alt: "Flujograma: Hemorragia del tercer trimestre"
+    alt: "Flujograma: Gestante con dos cesáreas que tras contracciones presenta dolor intenso, sangrado, choque y latidos fetales ausentes: rotura uterina"
   },
   "GAS-045": {
-    titulo: "Encefalopatía hepática",
+    titulo: "Cirrótico con estreñimiento y mala dieta que presenta somnolencia, confusión y asterixis: encefalopatía hepática, lactulosa",
     imagen: "flujogramas/cirrotico-estrenimiento-flapping-lactulosa.svg",
-    alt: "Flujograma: Encefalopatía hepática"
+    alt: "Flujograma: Cirrótico con estreñimiento y mala dieta que presenta somnolencia, confusión y asterixis: encefalopatía hepática, lactulosa"
   },
   "NRL-035": {
-    titulo: "Hemorragia cerebelosa",
+    titulo: "Hipertenso con hematoma cerebeloso de 3,5 cm que comprime el cuarto ventrículo y está letárgico: descompresión quirúrgica",
     imagen: "flujogramas/hematoma-cerebeloso-35-cm-cuarto-ventriculo-cirugia.svg",
-    alt: "Flujograma: Hemorragia cerebelosa"
+    alt: "Flujograma: Hipertenso con hematoma cerebeloso de 3,5 cm que comprime el cuarto ventrículo y está letárgico: descompresión quirúrgica"
   },
   "CB-041": {
-    titulo: "Efectos adversos de las quinolonas",
+    titulo: "Mujer epiléptica con pielonefritis: entre los antibióticos, la levofloxacina es la que más baja el umbral convulsivo",
     imagen: "flujogramas/epilepsia-pielonefritis-levofloxacino-convulsiones.svg",
-    alt: "Flujograma: Efectos adversos de las quinolonas"
+    alt: "Flujograma: Mujer epiléptica con pielonefritis: entre los antibióticos, la levofloxacina es la que más baja el umbral convulsivo"
   },
   "SP-084": {
-    titulo: "Comisión por recetar",
+    titulo: "Un laboratorio ofrece al médico una comisión por cada receta de su producto: conflicto de interés",
     imagen: "flujogramas/visitador-medico-comision-receta-conflicto-interes.svg",
-    alt: "Flujograma: Comisión por recetar"
+    alt: "Flujograma: Un laboratorio ofrece al médico una comisión por cada receta de su producto: conflicto de interés"
   },
   "PED-125": {
-    titulo: "Osteomielitis: germen según el paciente",
+    titulo: "El germen más común de la osteomielitis aguda en niños es Staphylococcus aureus",
     imagen: "flujogramas/osteomielitis-aguda-nino-staphylococcus-aureus.svg",
-    alt: "Flujograma: Osteomielitis: germen según el paciente"
+    alt: "Flujograma: El germen más común de la osteomielitis aguda en niños es Staphylococcus aureus"
   },
   "CIR-062": {
-    titulo: "Trauma pancreático",
+    titulo: "Choque contra el timón con dolor epigástrico que aumenta al segundo día pese a FAST negativa: trauma pancreático",
     imagen: "flujogramas/golpe-timon-fast-negativo-dolor-epigastrico-pancreas.svg",
-    alt: "Flujograma: Trauma pancreático"
+    alt: "Flujograma: Choque contra el timón con dolor epigástrico que aumenta al segundo día pese a FAST negativa: trauma pancreático"
   },
   "CAR-047": {
-    titulo: "Toxicidad por amiodarona",
+    titulo: "Anciano con fibrilación auricular tratado 5 años con un antiarrítmico, con disnea progresiva, tos seca y pérdida de peso: toxicidad pulmonar por amiodarona",
     imagen: "flujogramas/fa-antiarritmico-5-anos-tos-disnea-amiodarona.svg",
-    alt: "Flujograma: Toxicidad por amiodarona"
+    alt: "Flujograma: Anciano con fibrilación auricular tratado 5 años con un antiarrítmico, con disnea progresiva, tos seca y pérdida de peso: toxicidad pulmonar por amiodarona"
   },
   "PED-126": {
-    titulo: "Neumonía afebril del lactante",
+    titulo: "Lactante de 2 meses con conjuntivitis previa, tos, taquipnea sin fiebre e infiltrados intersticiales con hiperinsuflación: neumonía por Chlamydia trachomatis",
     imagen: "flujogramas/lactante-2-meses-afebril-conjuntivitis-chlamydia.svg",
-    alt: "Flujograma: Neumonía afebril del lactante"
+    alt: "Flujograma: Lactante de 2 meses con conjuntivitis previa, tos, taquipnea sin fiebre e infiltrados intersticiales con hiperinsuflación: neumonía por Chlamydia trachomatis"
   },
   "SP-085": {
-    titulo: "Monitoreo fetal y beneficencia",
+    titulo: "Obstetra que decide esperar un parto vaginal pese a bradicardia fetal, meconio espeso y patrón de categoría III: falta al principio de beneficencia",
     imagen: "flujogramas/categoria-iii-meconio-espera-parto-beneficencia.svg",
-    alt: "Flujograma: Monitoreo fetal y beneficencia"
+    alt: "Flujograma: Obstetra que decide esperar un parto vaginal pese a bradicardia fetal, meconio espeso y patrón de categoría III: falta al principio de beneficencia"
   },
   "INF-061": {
-    titulo: "Niño contacto de TB",
+    titulo: "Niño de 3 años, contacto de su padre con TB pulmonar BK (+), con PPD de 8 mm: descartar TB activa e iniciar terapia preventiva",
     imagen: "flujogramas/nino-3-anos-padre-bk-positivo-ppd-8-terapia-preventiva.svg",
-    alt: "Flujograma: Niño contacto de TB"
+    alt: "Flujograma: Niño de 3 años, contacto de su padre con TB pulmonar BK (+), con PPD de 8 mm: descartar TB activa e iniciar terapia preventiva"
   },
   "GIN-118": {
-    titulo: "Antihipertensivos en el embarazo",
+    titulo: "Gestante hipertensa que siguió tomando enalapril y tiene oligohidramnios con feto sin malformaciones: efecto del IECA",
     imagen: "flujogramas/enalapril-embarazo-oligohidramnios-ieca.svg",
-    alt: "Flujograma: Antihipertensivos en el embarazo"
+    alt: "Flujograma: Gestante hipertensa que siguió tomando enalapril y tiene oligohidramnios con feto sin malformaciones: efecto del IECA"
   },
   "NEF-047": {
-    titulo: "Alcalosis metabólica",
+    titulo: "Hipertensa con hidroclorotiazida y antiácidos, con K 2,8, Cl 88 y HCO₃ 32: alcalosis metabólica",
     imagen: "flujogramas/tiazida-antiacidos-hco3-32-k-28-alcalosis-metabolica.svg",
-    alt: "Flujograma: Alcalosis metabólica"
+    alt: "Flujograma: Hipertensa con hidroclorotiazida y antiácidos, con K 2,8, Cl 88 y HCO₃ 32: alcalosis metabólica"
   },
   "REU-036": {
-    titulo: "Dermatitis del pañal",
+    titulo: "Lactante con placa roja brillante y bien delimitada en la zona del pañal que toma los pliegues: dermatitis del pañal por Candida, antifúngico tópico",
     imagen: "flujogramas/lactante-panal-placa-brillante-pliegues-econazol.svg",
-    alt: "Flujograma: Dermatitis del pañal"
+    alt: "Flujograma: Lactante con placa roja brillante y bien delimitada en la zona del pañal que toma los pliegues: dermatitis del pañal por Candida, antifúngico tópico"
   },
   "CIR-063": {
-    titulo: "Colecistitis enfisematosa: gravedad",
+    titulo: "Colecistitis aguda con Murphy (++) y aire en la pared de la vesícula en la TC: colecistitis enfisematosa, colecistectomía de emergencia",
     imagen: "flujogramas/murphy-aire-pared-vesicular-colecistitis-enfisematosa.svg",
-    alt: "Flujograma: Colecistitis enfisematosa: gravedad"
+    alt: "Flujograma: Colecistitis aguda con Murphy (++) y aire en la pared de la vesícula en la TC: colecistitis enfisematosa, colecistectomía de emergencia"
   },
   "OFT-029": {
-    titulo: "Hipema traumático",
+    titulo: "Golpe en el ojo con dolor, fotofobia, visión borrosa y sangre con nivel en la cámara anterior: hipema",
     imagen: "flujogramas/golpe-ojo-futbol-nivel-sangre-camara-hipema.svg",
-    alt: "Flujograma: Hipema traumático"
+    alt: "Flujograma: Golpe en el ojo con dolor, fotofobia, visión borrosa y sangre con nivel en la cámara anterior: hipema"
   },
   "CIR-064": {
-    titulo: "Quemado: superficie corporal",
+    titulo: "Quemadura de 2.º grado por agua hirviendo en ambos brazos y el tronco (más del 50 %): la medida inmediata es cubrirlo con una sábana limpia y seca",
     imagen: "flujogramas/escaldadura-brazos-tronco-54-scq-sabana-limpia.svg",
-    alt: "Flujograma: Quemado: superficie corporal"
+    alt: "Flujograma: Quemadura de 2.º grado por agua hirviendo en ambos brazos y el tronco (más del 50 %): la medida inmediata es cubrirlo con una sábana limpia y seca"
   },
   "GIN-119": {
-    titulo: "Ganancia de peso en el embarazo",
+    titulo: "Gestante con sobrepeso (IMC 25-29,9) y embarazo único: ganancia de peso recomendada de 7 a 11,5 kg",
     imagen: "flujogramas/sobrepeso-ganancia-peso-gestacional-7-115-kg.svg",
-    alt: "Flujograma: Ganancia de peso en el embarazo"
+    alt: "Flujograma: Gestante con sobrepeso (IMC 25-29,9) y embarazo único: ganancia de peso recomendada de 7 a 11,5 kg"
   },
   "CB-042": {
-    titulo: "Pelagra: las «3 D»",
+    titulo: "Alcohólico gastrectomizado con dermatitis en zonas expuestas al sol (collar de Casal), diarrea y pérdida de memoria: pelagra por déficit de niacina",
     imagen: "flujogramas/alcoholico-collar-casal-diarrea-demencia-niacina.svg",
-    alt: "Flujograma: Pelagra: las «3 D»"
+    alt: "Flujograma: Alcohólico gastrectomizado con dermatitis en zonas expuestas al sol (collar de Casal), diarrea y pérdida de memoria: pelagra por déficit de niacina"
   },
   "NEF-048": {
-    titulo: "Anuria en usuario de sonda vesical",
+    titulo: "Parapléjico monorreno con sonda vesical permanente, anuria, hidronefrosis, creatinina 3 y K 5,8: sonda obstruida, cambiar el catéter vesical",
     imagen: "flujogramas/paraplejico-sonda-anuria-hidronefrosis-cambio-cateter.svg",
-    alt: "Flujograma: Anuria en usuario de sonda vesical"
+    alt: "Flujograma: Parapléjico monorreno con sonda vesical permanente, anuria, hidronefrosis, creatinina 3 y K 5,8: sonda obstruida, cambiar el catéter vesical"
   },
   "GIN-120": {
-    titulo: "Acné en el embarazo",
+    titulo: "Gestante de 6 semanas con acné a quien quieren dar retinoides: están contraindicados durante todo el embarazo",
     imagen: "flujogramas/gestante-6-semanas-acne-retinoides-contraindicados.svg",
-    alt: "Flujograma: Acné en el embarazo"
+    alt: "Flujograma: Gestante de 6 semanas con acné a quien quieren dar retinoides: están contraindicados durante todo el embarazo"
   },
   "END-033": {
-    titulo: "Poliuria: diabetes insípida",
+    titulo: "Joven con poliuria, polidipsia y cefalea: la diabetes insípida se reconoce por poliuria con orina diluida (densidad baja) y sodio alto",
     imagen: "flujogramas/poliuria-polidipsia-orina-diluida-hipernatremia-diabetes-insipida.svg",
-    alt: "Flujograma: Poliuria: diabetes insípida"
+    alt: "Flujograma: Joven con poliuria, polidipsia y cefalea: la diabetes insípida se reconoce por poliuria con orina diluida (densidad baja) y sodio alto"
   },
   "INF-062": {
-    titulo: "Neumonía por Pneumocystis",
+    titulo: "Paciente con VIH y neumonía por Pneumocystis jirovecii: el tratamiento de elección es cotrimoxazol",
     imagen: "flujogramas/vih-pneumocystis-cotrimoxazol.svg",
-    alt: "Flujograma: Neumonía por Pneumocystis"
+    alt: "Flujograma: Paciente con VIH y neumonía por Pneumocystis jirovecii: el tratamiento de elección es cotrimoxazol"
   },
   "GIN-121": {
-    titulo: "Choque en mujer con amenorrea",
+    titulo: "Mujer con 6 semanas de amenorrea, síncope, hipotensión, taquicardia y culdocentesis positiva: embarazo ectópico roto",
     imagen: "flujogramas/amenorrea-6-semanas-choque-culdocentesis-ectopico-roto.svg",
-    alt: "Flujograma: Choque en mujer con amenorrea"
+    alt: "Flujograma: Mujer con 6 semanas de amenorrea, síncope, hipotensión, taquicardia y culdocentesis positiva: embarazo ectópico roto"
   },
   "SP-086": {
-    titulo: "Niveles de prevención",
+    titulo: "El autoexamen de mama busca detectar temprano una lesión: es prevención secundaria",
     imagen: "flujogramas/autoexamen-mama-prevencion-secundaria.svg",
-    alt: "Flujograma: Niveles de prevención"
+    alt: "Flujograma: El autoexamen de mama busca detectar temprano una lesión: es prevención secundaria"
   },
   "CB-043": {
-    titulo: "Nervios del miembro inferior",
+    titulo: "Hipoestesia en la cara anterior del muslo y medial de la pierna tras una cirugía renal retroperitoneal: lesión del nervio femoral",
     imagen: "flujogramas/pielolitotomia-hipoestesia-muslo-anterior-nervio-femoral.svg",
-    alt: "Flujograma: Nervios del miembro inferior"
+    alt: "Flujograma: Hipoestesia en la cara anterior del muslo y medial de la pierna tras una cirugía renal retroperitoneal: lesión del nervio femoral"
   },
   "END-034": {
-    titulo: "Insuficiencia suprarrenal por ketoconazol",
+    titulo: "Paciente con ketoconazol prolongado, debilidad, vómitos, hipotensión ortostática, hiperpigmentación, hiponatremia, hipoglucemia y cortisol que no sube con ACTH: cortisol bajo",
     imagen: "flujogramas/ketoconazol-hiperpigmentacion-hiponatremia-cortisol-bajo.svg",
-    alt: "Flujograma: Insuficiencia suprarrenal por ketoconazol"
+    alt: "Flujograma: Paciente con ketoconazol prolongado, debilidad, vómitos, hipotensión ortostática, hiperpigmentación, hiponatremia, hipoglucemia y cortisol que no sube con ACTH: cortisol bajo"
   },
   "CAR-048": {
-    titulo: "Hemodinamia de los tipos de choque",
+    titulo: "Infarto con hipotensión, piel fría, llenado lento, crepitantes e ingurgitación yugular: choque cardiogénico con precarga alta (frío y húmedo)",
     imagen: "flujogramas/infarto-hipotension-iy-crepitantes-precarga-alta.svg",
-    alt: "Flujograma: Hemodinamia de los tipos de choque"
+    alt: "Flujograma: Infarto con hipotensión, piel fría, llenado lento, crepitantes e ingurgitación yugular: choque cardiogénico con precarga alta (frío y húmedo)"
   },
   "SP-087": {
-    titulo: "Violencia contra la persona adulta mayor",
+    titulo: "Adulta mayor agredida física y amenazada de muerte por su hijo: la conducta urgente es denunciar a las autoridades",
     imagen: "flujogramas/adulta-mayor-hijo-agresor-amenaza-denuncia.svg",
-    alt: "Flujograma: Violencia contra la persona adulta mayor"
+    alt: "Flujograma: Adulta mayor agredida física y amenazada de muerte por su hijo: la conducta urgente es denunciar a las autoridades"
   },
   "PED-127": {
-    titulo: "Neonato febril",
+    titulo: "Neonato de 2 semanas con fiebre, irritabilidad y succión débil en quien no se logra la punción lumbar: iniciar antibióticos parenterales sin esperar",
     imagen: "flujogramas/neonato-febril-puncion-fallida-antibiotico-parenteral.svg",
-    alt: "Flujograma: Neonato febril"
+    alt: "Flujograma: Neonato de 2 semanas con fiebre, irritabilidad y succión débil en quien no se logra la punción lumbar: iniciar antibióticos parenterales sin esperar"
   },
   "SP-088": {
-    titulo: "Principios de la APS",
+    titulo: "Ante transmisión de dengue, el médico jefe convoca al alcalde y a instituciones públicas y privadas: intersectorialidad",
     imagen: "flujogramas/escenario-iii-dengue-alcalde-intersectorialidad.svg",
-    alt: "Flujograma: Principios de la APS"
+    alt: "Flujograma: Ante transmisión de dengue, el médico jefe convoca al alcalde y a instituciones públicas y privadas: intersectorialidad"
   },
   "END-035": {
-    titulo: "Tiroides dolorosa con tirotoxicosis",
+    titulo: "Mujer con dolor cervical que aumenta al tragar, tirotoxicosis, tiroides dolorosa, VSG alta y anticuerpos negativos tras una faringitis: tiroiditis subaguda de De Quervain",
     imagen: "flujogramas/cervicalgia-post-faringitis-vsg-58-de-quervain.svg",
-    alt: "Flujograma: Tiroides dolorosa con tirotoxicosis"
+    alt: "Flujograma: Mujer con dolor cervical que aumenta al tragar, tirotoxicosis, tiroides dolorosa, VSG alta y anticuerpos negativos tras una faringitis: tiroiditis subaguda de De Quervain"
   },
   "PSI-021": {
-    titulo: "Trastornos del ánimo en el puerperio",
+    titulo: "Puérpera de 22 días con tristeza, llanto, miedo, sensación de no poder cuidar a su bebé e ideas de autolesión: depresión posparto",
     imagen: "flujogramas/puerpera-22-dias-tristeza-autolesion-depresion-posparto.svg",
-    alt: "Flujograma: Trastornos del ánimo en el puerperio"
+    alt: "Flujograma: Puérpera de 22 días con tristeza, llanto, miedo, sensación de no poder cuidar a su bebé e ideas de autolesión: depresión posparto"
   },
   "NEF-049": {
-    titulo: "Litiasis vesical: tratamiento",
+    titulo: "Cálculo vesical grande y sintomático que no responde a medidas conservadoras: cistoscopía con litotricia láser",
     imagen: "flujogramas/litiasis-vesical-grande-cistolitotricia-laser.svg",
-    alt: "Flujograma: Litiasis vesical: tratamiento"
+    alt: "Flujograma: Cálculo vesical grande y sintomático que no responde a medidas conservadoras: cistoscopía con litotricia láser"
   },
   "GIN-122": {
-    titulo: "Hiperémesis gravídica",
+    titulo: "Gestante de 11 semanas con vómitos incoercibles, pérdida de peso, deshidratación, cetonuria e hiponatremia: hiperémesis gravídica",
     imagen: "flujogramas/vomitos-incoercibles-cetonuria-hiponatremia-hiperemesis.svg",
-    alt: "Flujograma: Hiperémesis gravídica"
+    alt: "Flujograma: Gestante de 11 semanas con vómitos incoercibles, pérdida de peso, deshidratación, cetonuria e hiponatremia: hiperémesis gravídica"
   },
   "OFT-030": {
-    titulo: "Sangrado al pasar una sonda nasal",
+    titulo: "Al pasar una sonda nasogástrica, lo que más sangra es el tabique nasal anterior (plexo de Kiesselbach)",
     imagen: "flujogramas/sonda-nasogastrica-sangrado-tabique-anterior-kiesselbach.svg",
-    alt: "Flujograma: Sangrado al pasar una sonda nasal"
+    alt: "Flujograma: Al pasar una sonda nasogástrica, lo que más sangra es el tabique nasal anterior (plexo de Kiesselbach)"
   },
   "PED-128": {
-    titulo: "Otitis media en niño alérgico a amoxicilina",
+    titulo: "Niño con otitis media aguda que no mejoró con azitromicina y antecedente de urticaria leve con amoxicilina: cefdinir",
     imagen: "flujogramas/otitis-media-alergia-leve-amoxicilina-cefdinir.svg",
-    alt: "Flujograma: Otitis media en niño alérgico a amoxicilina"
+    alt: "Flujograma: Niño con otitis media aguda que no mejoró con azitromicina y antecedente de urticaria leve con amoxicilina: cefdinir"
   },
   "TRA-023": {
-    titulo: "Fractura de escafoides",
+    titulo: "Caída sobre la mano extendida con fractura del escafoides: su irrigación viene de la arteria radial, por eso puede necrosarse",
     imagen: "flujogramas/caida-mano-extendida-escafoides-arteria-radial.svg",
-    alt: "Flujograma: Fractura de escafoides"
+    alt: "Flujograma: Caída sobre la mano extendida con fractura del escafoides: su irrigación viene de la arteria radial, por eso puede necrosarse"
   },
   "NEF-050": {
-    titulo: "¿Falla renal aguda o crónica?",
+    titulo: "Mujer con 8 meses de cansancio, HTA, anemia de 7,8, edema y creatinina de 5: enfermedad renal crónica",
     imagen: "flujogramas/creatinina-5-anemia-8-meses-enfermedad-renal-cronica.svg",
-    alt: "Flujograma: ¿Falla renal aguda o crónica?"
+    alt: "Flujograma: Mujer con 8 meses de cansancio, HTA, anemia de 7,8, edema y creatinina de 5: enfermedad renal crónica"
   },
   "GAS-046": {
-    titulo: "Serología de la hepatitis B",
+    titulo: "HBsAg (+), IgM anti-HBc (+), anti-HBc total (+) y anti-HBs (−): hepatitis B aguda",
     imagen: "flujogramas/hbsag-igm-antihbc-positivos-hepatitis-b-aguda.svg",
-    alt: "Flujograma: Serología de la hepatitis B"
+    alt: "Flujograma: HBsAg (+), IgM anti-HBc (+), anti-HBc total (+) y anti-HBs (−): hepatitis B aguda"
   },
   "CAR-049": {
-    titulo: "Fibrilación auricular inestable",
+    titulo: "Fibrilación auricular a 187 por minuto con PA 70/30, dolor torácico y diaforesis: inestable, cardioversión eléctrica sincronizada",
     imagen: "flujogramas/fa-pa-70-30-dolor-toracico-cardioversion-electrica.svg",
-    alt: "Flujograma: Fibrilación auricular inestable"
+    alt: "Flujograma: Fibrilación auricular a 187 por minuto con PA 70/30, dolor torácico y diaforesis: inestable, cardioversión eléctrica sincronizada"
   },
   "PSI-022": {
-    titulo: "Ataque de pánico: criterios",
+    titulo: "Mujer con episodios bruscos de palpitaciones, ahogo, sudor y miedo a morir, sin causa aparente: ataque de pánico",
     imagen: "flujogramas/palpitaciones-ahogo-muerte-inminente-ataque-panico.svg",
-    alt: "Flujograma: Ataque de pánico: criterios"
+    alt: "Flujograma: Mujer con episodios bruscos de palpitaciones, ahogo, sudor y miedo a morir, sin causa aparente: ataque de pánico"
   },
   "NEU-032": {
-    titulo: "Tromboembolia pulmonar: Wells",
+    titulo: "Mujer en quimioterapia con disnea súbita, dolor torácico, hemoptisis, taquicardia y signos de sobrecarga del ventrículo derecho: tromboembolia pulmonar",
     imagen: "flujogramas/quimioterapia-disnea-subita-hemoptisis-tromboembolia.svg",
-    alt: "Flujograma: Tromboembolia pulmonar: Wells"
+    alt: "Flujograma: Mujer en quimioterapia con disnea súbita, dolor torácico, hemoptisis, taquicardia y signos de sobrecarga del ventrículo derecho: tromboembolia pulmonar"
   },
   "OFT-031": {
-    titulo: "Fármacos para el glaucoma",
+    titulo: "Para bajar la presión intraocular en el glaucoma se usan betabloqueantes tópicos como el timolol",
     imagen: "flujogramas/glaucoma-betabloqueante-topico-timolol.svg",
-    alt: "Flujograma: Fármacos para el glaucoma"
+    alt: "Flujograma: Para bajar la presión intraocular en el glaucoma se usan betabloqueantes tópicos como el timolol"
   },
   "NEF-051": {
-    titulo: "Glomerulonefritis postestreptocócica",
+    titulo: "Adolescente con hematuria «agua de lavado de carne», oliguria, HTA y edema 3 semanas tras una amigdalitis: glomerulonefritis postestreptocócica, furosemida",
     imagen: "flujogramas/orina-lavado-carne-amigdalitis-edema-furosemida.svg",
-    alt: "Flujograma: Glomerulonefritis postestreptocócica"
+    alt: "Flujograma: Adolescente con hematuria «agua de lavado de carne», oliguria, HTA y edema 3 semanas tras una amigdalitis: glomerulonefritis postestreptocócica, furosemida"
   },
   "SP-089": {
-    titulo: "Atributos de la atención primaria",
+    titulo: "Adulta mayor hipertensa atendida cada 3 meses por el mismo médico durante años: atributo de longitudinalidad de la atención primaria",
     imagen: "flujogramas/hipertensa-mismo-medico-5-anos-longitudinalidad.svg",
-    alt: "Flujograma: Atributos de la atención primaria"
+    alt: "Flujograma: Adulta mayor hipertensa atendida cada 3 meses por el mismo médico durante años: atributo de longitudinalidad de la atención primaria"
   },
   "GIN-123": {
-    titulo: "Bacteriuria asintomática en la gestante",
+    titulo: "Gestante asintomática con urocultivo de E. coli > 100 000 UFC/mL: bacteriuria asintomática, tratar con nitrofurantoína",
     imagen: "flujogramas/gestante-8-semanas-bacteriuria-asintomatica-nitrofurantoina.svg",
-    alt: "Flujograma: Bacteriuria asintomática en la gestante"
+    alt: "Flujograma: Gestante asintomática con urocultivo de E. coli > 100 000 UFC/mL: bacteriuria asintomática, tratar con nitrofurantoína"
   },
   "CIR-065": {
-    titulo: "Tórax inestable",
+    titulo: "Anciana con 4 costillas fracturadas en dos sitios, movimiento paradójico, FR 30 y SatO₂ 90 %: tórax inestable con falla respiratoria, intubar y ventilar",
     imagen: "flujogramas/fracturas-costales-dobles-movimiento-paradojal-intubacion.svg",
-    alt: "Flujograma: Tórax inestable"
+    alt: "Flujograma: Anciana con 4 costillas fracturadas en dos sitios, movimiento paradójico, FR 30 y SatO₂ 90 %: tórax inestable con falla respiratoria, intubar y ventilar"
   },
   "PSI-023": {
-    titulo: "Intoxicación por litio",
+    titulo: "Paciente bipolar con litio de 6 mEq/L, convulsiones, alteración de conciencia, ataxia, arritmia y creatinina alta: intoxicación grave, hemodiálisis",
     imagen: "flujogramas/litio-6-convulsiones-hemodialisis.svg",
-    alt: "Flujograma: Intoxicación por litio"
+    alt: "Flujograma: Paciente bipolar con litio de 6 mEq/L, convulsiones, alteración de conciencia, ataxia, arritmia y creatinina alta: intoxicación grave, hemodiálisis"
   },
   "SP-090": {
-    titulo: "Tipos de causa",
+    titulo: "Persona sana con PPD positivo: el bacilo de la TB es causa necesaria (sin él no hay TB) pero no suficiente (infectado no es lo mismo que enfermo)",
     imagen: "flujogramas/ppd-11-mm-sano-causa-necesaria-no-suficiente.svg",
-    alt: "Flujograma: Tipos de causa"
+    alt: "Flujograma: Persona sana con PPD positivo: el bacilo de la TB es causa necesaria (sin él no hay TB) pero no suficiente (infectado no es lo mismo que enfermo)"
   },
   "GIN-124": {
-    titulo: "Feto pequeño: PEG o RCIU",
+    titulo: "Feto de 29 semanas con peso en percentil 8 y Doppler umbilical alterado: restricción del crecimiento temprana",
     imagen: "flujogramas/29-semanas-percentil-8-doppler-umbilical-rciu-temprano.svg",
-    alt: "Flujograma: Feto pequeño: PEG o RCIU"
+    alt: "Flujograma: Feto de 29 semanas con peso en percentil 8 y Doppler umbilical alterado: restricción del crecimiento temprana"
   },
   "NEF-052": {
-    titulo: "Falla renal tras automedicación",
+    titulo: "Anciana hipertensa que toma ibuprofeno 10 días y presenta oliguria, creatinina 3, K 6 y cilindros granulosos: lesión renal por AINE (nefropatía tóxica)",
     imagen: "flujogramas/ibuprofeno-oliguria-creatinina-3-nefropatia-toxica.svg",
-    alt: "Flujograma: Falla renal tras automedicación"
+    alt: "Flujograma: Anciana hipertensa que toma ibuprofeno 10 días y presenta oliguria, creatinina 3, K 6 y cilindros granulosos: lesión renal por AINE (nefropatía tóxica)"
   },
   "TRA-024": {
-    titulo: "Complicaciones de la fractura abierta",
+    titulo: "La complicación más común de las fracturas abiertas es la infección",
     imagen: "flujogramas/fractura-abierta-complicacion-infeccion.svg",
-    alt: "Flujograma: Complicaciones de la fractura abierta"
+    alt: "Flujograma: La complicación más común de las fracturas abiertas es la infección"
   },
   "GIN-125": {
-    titulo: "Bradicardia fetal con meconio espeso",
+    titulo: "Gestante a término en fase latente con líquido meconial espeso y latidos fetales de 100: sufrimiento fetal, cesárea de emergencia",
     imagen: "flujogramas/meconio-espeso-lcf-100-cesarea-emergencia.svg",
-    alt: "Flujograma: Bradicardia fetal con meconio espeso"
+    alt: "Flujograma: Gestante a término en fase latente con líquido meconial espeso y latidos fetales de 100: sufrimiento fetal, cesárea de emergencia"
   },
   "NEU-033": {
-    titulo: "Edema pulmonar de altura",
+    titulo: "Alpinista bajado de 5530 m a Huaraz con disnea, esputo espumoso, SatO₂ 75 % e infiltrados alveolares sin cardiomegalia: edema pulmonar de altura, oxígeno",
     imagen: "flujogramas/alpinista-esputo-espumoso-sato2-75-oxigeno.svg",
-    alt: "Flujograma: Edema pulmonar de altura"
+    alt: "Flujograma: Alpinista bajado de 5530 m a Huaraz con disnea, esputo espumoso, SatO₂ 75 % e infiltrados alveolares sin cardiomegalia: edema pulmonar de altura, oxígeno"
   },
   "CIR-066": {
-    titulo: "Tipos de choque en trauma",
+    titulo: "Politraumatizado con hipotensión, FC normal, pulsos buenos, FAST negativa y que no mejora con cristaloides: choque neurogénico",
     imagen: "flujogramas/motociclista-hipotension-fc-72-sin-sangrado-neurogenico.svg",
-    alt: "Flujograma: Tipos de choque en trauma"
+    alt: "Flujograma: Politraumatizado con hipotensión, FC normal, pulsos buenos, FAST negativa y que no mejora con cristaloides: choque neurogénico"
   },
   "PED-129": {
-    titulo: "Disentería en el niño",
+    titulo: "Lactante que convive con aves, con diarrea con moco y sangre, fiebre, deshidratación y bacilo curvo gramnegativo: disentería por Campylobacter, SRO y azitromicina",
     imagen: "flujogramas/crianza-aves-disenteria-bacilo-curvo-campylobacter-azitromicina.svg",
-    alt: "Flujograma: Disentería en el niño"
+    alt: "Flujograma: Lactante que convive con aves, con diarrea con moco y sangre, fiebre, deshidratación y bacilo curvo gramnegativo: disentería por Campylobacter, SRO y azitromicina"
   },
   "CB-044": {
-    titulo: "Respuesta al estrés agudo",
+    titulo: "Tras una discusión aparecen taquicardia y presión alta: reacción simpática de lucha o huida mediada por noradrenalina y adrenalina",
     imagen: "flujogramas/discusion-taquicardia-hipertension-catecolaminas.svg",
-    alt: "Flujograma: Respuesta al estrés agudo"
+    alt: "Flujograma: Tras una discusión aparecen taquicardia y presión alta: reacción simpática de lucha o huida mediada por noradrenalina y adrenalina"
   },
   "NEU-034": {
-    titulo: "Tuberculosis: antes de tratar",
+    titulo: "Paciente con TB pulmonar BK (+++) que va a iniciar tratamiento: pedir perfil hepático basal (además del tamizaje de VIH)",
     imagen: "flujogramas/tb-bk-positivo-perfil-hepatico-antes-tratamiento.svg",
-    alt: "Flujograma: Tuberculosis: antes de tratar"
+    alt: "Flujograma: Paciente con TB pulmonar BK (+++) que va a iniciar tratamiento: pedir perfil hepático basal (además del tamizaje de VIH)"
   },
   "SP-091": {
-    titulo: "Tipos de caso en vigilancia",
+    titulo: "El primer caso de un problema bajo vigilancia que identifica el servicio de salud se llama caso índice",
     imagen: "flujogramas/primer-caso-identificado-servicio-caso-indice.svg",
-    alt: "Flujograma: Tipos de caso en vigilancia"
+    alt: "Flujograma: El primer caso de un problema bajo vigilancia que identifica el servicio de salud se llama caso índice"
   },
   "OFT-032": {
-    titulo: "Reflejo pupilar blanco",
+    titulo: "Lactante de 18 meses con reflejo pupilar blanco (leucocoria) y estrabismo: retinoblastoma hasta demostrar lo contrario",
     imagen: "flujogramas/lactante-leucocoria-estrabismo-retinoblastoma.svg",
-    alt: "Flujograma: Reflejo pupilar blanco"
+    alt: "Flujograma: Lactante de 18 meses con reflejo pupilar blanco (leucocoria) y estrabismo: retinoblastoma hasta demostrar lo contrario"
   },
   "GIN-126": {
-    titulo: "Síndrome HELLP",
+    titulo: "Gestante a término con PA 160/110, dolor en hipocondrio derecho, plaquetas 90 000, transaminasas y DHL altas: síndrome HELLP",
     imagen: "flujogramas/pa-160-110-plaquetas-90000-dhl-700-hellp.svg",
-    alt: "Flujograma: Síndrome HELLP"
+    alt: "Flujograma: Gestante a término con PA 160/110, dolor en hipocondrio derecho, plaquetas 90 000, transaminasas y DHL altas: síndrome HELLP"
   },
   "INF-063": {
-    titulo: "PCP con hipoxemia: corticoides",
+    titulo: "Paciente con VIH, CD4 100 y neumonía por Pneumocystis con PaO₂ 60 mmHg: además del cotrimoxazol, prednisona",
     imagen: "flujogramas/vih-cd4-100-pao2-60-pneumocystis-prednisona.svg",
-    alt: "Flujograma: PCP con hipoxemia: corticoides"
+    alt: "Flujograma: Paciente con VIH, CD4 100 y neumonía por Pneumocystis con PaO₂ 60 mmHg: además del cotrimoxazol, prednisona"
   },
   "PED-130": {
-    titulo: "Vacunas en el lactante con VIH",
+    titulo: "Lactante con VIH sintomático: las vacunas inactivadas se aplican normalmente; las de virus vivos (como rotavirus) requieren evaluación médica, y la BCG no se aplica",
     imagen: "flujogramas/lactante-vih-sintomatico-rotavirus-prescripcion.svg",
-    alt: "Flujograma: Vacunas en el lactante con VIH"
+    alt: "Flujograma: Lactante con VIH sintomático: las vacunas inactivadas se aplican normalmente; las de virus vivos (como rotavirus) requieren evaluación médica, y la BCG no se aplica"
   },
   "CIR-067": {
-    titulo: "Tumor en la base del apéndice",
+    titulo: "Hallazgo en apendicectomía de un tumor de 2 cm en la base del apéndice que compromete el mesenterio: hemicolectomía derecha",
     imagen: "flujogramas/tumor-base-apendicular-2-cm-mesenterio-hemicolectomia.svg",
-    alt: "Flujograma: Tumor en la base del apéndice"
+    alt: "Flujograma: Hallazgo en apendicectomía de un tumor de 2 cm en la base del apéndice que compromete el mesenterio: hemicolectomía derecha"
   },
   "PSI-024": {
-    titulo: "Efectos extrapiramidales",
+    titulo: "Paciente con haloperidol que no puede quedarse quieto y camina todo el tiempo: acatisia, tratar con propranolol",
     imagen: "flujogramas/haloperidol-no-puede-estar-quieto-acatisia-propranolol.svg",
-    alt: "Flujograma: Efectos extrapiramidales"
+    alt: "Flujograma: Paciente con haloperidol que no puede quedarse quieto y camina todo el tiempo: acatisia, tratar con propranolol"
   },
   "CIR-068": {
-    titulo: "Hemorroides internas: grados",
+    titulo: "Sangrado al defecar por hemorroides internas que no salen del ano (grado I), que no mejoran con el manejo médico: coagulación infrarroja",
     imagen: "flujogramas/sangrado-defecar-no-prolapsa-coagulacion-infrarroja.svg",
-    alt: "Flujograma: Hemorroides internas: grados"
+    alt: "Flujograma: Sangrado al defecar por hemorroides internas que no salen del ano (grado I), que no mejoran con el manejo médico: coagulación infrarroja"
   },
   "END-036": {
-    titulo: "Choque refractario: insuficiencia suprarrenal",
+    titulo: "Choque séptico que no responde a líquidos ni vasopresores, con cortisol bajo, ACTH alta e hiponatremia: insuficiencia suprarrenal primaria",
     imagen: "flujogramas/choque-septico-refractario-cortisol-bajo-acth-alta.svg",
-    alt: "Flujograma: Choque refractario: insuficiencia suprarrenal"
+    alt: "Flujograma: Choque séptico que no responde a líquidos ni vasopresores, con cortisol bajo, ACTH alta e hiponatremia: insuficiencia suprarrenal primaria"
   },
   "CIR-069": {
-    titulo: "Fisura anal: tratamiento escalonado",
+    titulo: "Dolor anal intenso al defecar con sangrado, espasmo y desgarro en la línea media posterior: fisura anal aguda, ablandadores y baños de asiento",
     imagen: "flujogramas/dolor-intenso-defecar-desgarro-posterior-fisura-anal.svg",
-    alt: "Flujograma: Fisura anal: tratamiento escalonado"
+    alt: "Flujograma: Dolor anal intenso al defecar con sangrado, espasmo y desgarro en la línea media posterior: fisura anal aguda, ablandadores y baños de asiento"
   },
   "NRL-036": {
-    titulo: "Posturas en el coma",
+    titulo: "TEC grave en coma con rigidez de decorticación (brazos flexionados, piernas extendidas): lesión por encima del mesencéfalo (hemisferios cerebrales)",
     imagen: "flujogramas/tec-grave-coma-rigidez-decorticacion-hemisferios.svg",
-    alt: "Flujograma: Posturas en el coma"
+    alt: "Flujograma: TEC grave en coma con rigidez de decorticación (brazos flexionados, piernas extendidas): lesión por encima del mesencéfalo (hemisferios cerebrales)"
   },
   "PED-131": {
-    titulo: "ITU por E. coli BLEE",
+    titulo: "Preescolar con fiebre, disuria y polaquiuria con urocultivo de E. coli BLEE: el antibiótico indicado es un carbapenem (meropenem)",
     imagen: "flujogramas/preescolar-itu-ecoli-blee-meropenem.svg",
-    alt: "Flujograma: ITU por E. coli BLEE"
+    alt: "Flujograma: Preescolar con fiebre, disuria y polaquiuria con urocultivo de E. coli BLEE: el antibiótico indicado es un carbapenem (meropenem)"
   },
   "INF-064": {
-    titulo: "Fiebre paroxística de la selva",
+    titulo: "Adolescente de la selva con fiebre paroxística cuartana, escalofríos, sudoración, anemia y hepatoesplenomegalia: malaria",
     imagen: "flujogramas/selva-fiebre-cuartana-esplenomegalia-malaria.svg",
-    alt: "Flujograma: Fiebre paroxística de la selva"
+    alt: "Flujograma: Adolescente de la selva con fiebre paroxística cuartana, escalofríos, sudoración, anemia y hepatoesplenomegalia: malaria"
   },
   "CAR-050": {
-    titulo: "Pericarditis aguda: criterios",
+    titulo: "Joven con dolor torácico que aumenta al inspirar, mejora inclinado hacia adelante, irradia al trapecio, con frote y ST elevado difuso: pericarditis aguda",
     imagen: "flujogramas/dolor-pleuritico-alivia-inclinado-frote-pericarditis.svg",
-    alt: "Flujograma: Pericarditis aguda: criterios"
+    alt: "Flujograma: Joven con dolor torácico que aumenta al inspirar, mejora inclinado hacia adelante, irradia al trapecio, con frote y ST elevado difuso: pericarditis aguda"
   },
   "HEM-023": {
-    titulo: "Neutropenia grave",
+    titulo: "Paciente con leucocitos 400, Hb 5 y plaquetas 3000 (neutropenia profunda): aislamiento inverso (protector) para no contagiarla",
     imagen: "flujogramas/leucocitos-400-fiebre-aislamiento-inverso.svg",
-    alt: "Flujograma: Neutropenia grave"
+    alt: "Flujograma: Paciente con leucocitos 400, Hb 5 y plaquetas 3000 (neutropenia profunda): aislamiento inverso (protector) para no contagiarla"
   },
   "NEF-053": {
-    titulo: "Sospecha de cáncer de próstata",
+    titulo: "Anciano fumador con síntomas urinarios, dolor óseo en caderas, próstata indurada e irregular y PSA 8: sospecha de cáncer de próstata, biopsia",
     imagen: "flujogramas/prostata-indurada-psa-8-biopsia-transrectal.svg",
-    alt: "Flujograma: Sospecha de cáncer de próstata"
+    alt: "Flujograma: Anciano fumador con síntomas urinarios, dolor óseo en caderas, próstata indurada e irregular y PSA 8: sospecha de cáncer de próstata, biopsia"
   },
   "CB-045": {
-    titulo: "Efectos de la hormona tiroidea",
+    titulo: "En el hipertiroidismo sube el metabolismo basal: más consumo de oxígeno y de calorías, calor, taquicardia y pérdida de peso",
     imagen: "flujogramas/hipertiroidismo-metabolismo-basal-aumentado.svg",
-    alt: "Flujograma: Efectos de la hormona tiroidea"
+    alt: "Flujograma: En el hipertiroidismo sube el metabolismo basal: más consumo de oxígeno y de calorías, calor, taquicardia y pérdida de peso"
   },
   "NRL-037": {
-    titulo: "Tipos de dolor",
+    titulo: "Dolor al roce de la ropa (alodinia), sensación eléctrica y adormecimiento: dolor neuropático",
     imagen: "flujogramas/dolor-roce-ropa-electrico-neuropatico.svg",
-    alt: "Flujograma: Tipos de dolor"
+    alt: "Flujograma: Dolor al roce de la ropa (alodinia), sensación eléctrica y adormecimiento: dolor neuropático"
   },
   "GIN-127": {
-    titulo: "Ganancia de peso según IMC",
+    titulo: "Gestante con IMC previo de 32 (obesidad) que ganó 12,5 kg: ganancia de peso excesiva (lo recomendado es 5 a 9 kg)",
     imagen: "flujogramas/obesa-imc-32-gano-125-kg-excesiva.svg",
-    alt: "Flujograma: Ganancia de peso según IMC"
+    alt: "Flujograma: Gestante con IMC previo de 32 (obesidad) que ganó 12,5 kg: ganancia de peso excesiva (lo recomendado es 5 a 9 kg)"
   },
   "GAS-047": {
-    titulo: "Ictericia tras un hematoma",
+    titulo: "Posoperado con 7 transfusiones y hematoma retroperitoneal en resolución que hace ictericia con bilirrubina indirecta: reabsorción del hematoma",
     imagen: "flujogramas/hematoma-retroperitoneal-bilirrubina-indirecta-reabsorcion.svg",
-    alt: "Flujograma: Ictericia tras un hematoma"
+    alt: "Flujograma: Posoperado con 7 transfusiones y hematoma retroperitoneal en resolución que hace ictericia con bilirrubina indirecta: reabsorción del hematoma"
   },
   "GIN-128": {
-    titulo: "Vacunas en la gestación",
+    titulo: "La vacuna Tdap se aplica en cada embarazo, de preferencia entre las semanas 27 y 36",
     imagen: "flujogramas/primer-control-vacuna-tdap-27-36-semanas.svg",
-    alt: "Flujograma: Vacunas en la gestación"
+    alt: "Flujograma: La vacuna Tdap se aplica en cada embarazo, de preferencia entre las semanas 27 y 36"
   },
   "PED-132": {
-    titulo: "Displasia broncopulmonar",
+    titulo: "La complicación más frecuente de la displasia broncopulmonar del prematuro es la hipertensión pulmonar",
     imagen: "flujogramas/displasia-broncopulmonar-hipertension-pulmonar.svg",
-    alt: "Flujograma: Displasia broncopulmonar"
+    alt: "Flujograma: La complicación más frecuente de la displasia broncopulmonar del prematuro es la hipertensión pulmonar"
   },
   "NEF-054": {
-    titulo: "Masa en flanco con historia familiar",
+    titulo: "Adulto con dolor en flanco, masa palpable, creatinina alta y hermano con ERC: poliquistosis renal autosómica dominante",
     imagen: "flujogramas/hermano-erc-masa-flanco-creatinina-poliquistosis.svg",
-    alt: "Flujograma: Masa en flanco con historia familiar"
+    alt: "Flujograma: Adulto con dolor en flanco, masa palpable, creatinina alta y hermano con ERC: poliquistosis renal autosómica dominante"
   },
   "CB-046": {
-    titulo: "Desarrollo del riñón",
+    titulo: "La agenesia renal se origina por falla del metanefros (o de la yema ureteral que lo induce)",
     imagen: "flujogramas/agenesia-renal-unilateral-metanefros.svg",
-    alt: "Flujograma: Desarrollo del riñón"
+    alt: "Flujograma: La agenesia renal se origina por falla del metanefros (o de la yema ureteral que lo induce)"
   },
   "HEM-024": {
-    titulo: "Eritrocitosis: ¿primaria o secundaria?",
+    titulo: "Hemoglobina 18,6, hematocrito 58 %, trombocitosis y eritropoyetina BAJA: policitemia vera (la poliglobulia secundaria tiene EPO alta)",
     imagen: "flujogramas/hb-186-eritropoyetina-baja-plaquetas-policitemia-vera.svg",
-    alt: "Flujograma: Eritrocitosis: ¿primaria o secundaria?"
+    alt: "Flujograma: Hemoglobina 18,6, hematocrito 58 %, trombocitosis y eritropoyetina BAJA: policitemia vera (la poliglobulia secundaria tiene EPO alta)"
   },
   "END-037": {
-    titulo: "Diabético con acidosis grave",
+    titulo: "Diabético en choque con acidosis metabólica de anión gap alto, lactato 10 y cetonas negativas: acidosis láctica",
     imagen: "flujogramas/dm1-lactato-10-cetonas-negativas-acidosis-lactica.svg",
-    alt: "Flujograma: Diabético con acidosis grave"
+    alt: "Flujograma: Diabético en choque con acidosis metabólica de anión gap alto, lactato 10 y cetonas negativas: acidosis láctica"
   },
   "NRL-038": {
-    titulo: "Distrofia muscular de Duchenne",
+    titulo: "En la distrofia muscular de Duchenne falta la distrofina, proteína que une el citoesqueleto del músculo a la membrana",
     imagen: "flujogramas/duchenne-distrofina-ausente.svg",
-    alt: "Flujograma: Distrofia muscular de Duchenne"
+    alt: "Flujograma: En la distrofia muscular de Duchenne falta la distrofina, proteína que une el citoesqueleto del músculo a la membrana"
   },
   "END-038": {
-    titulo: "Metformina: riesgo de acidosis láctica",
+    titulo: "Anciana con insuficiencia renal que toma metformina y presenta debilidad, náuseas, vómitos y disnea: acidosis láctica por metformina",
     imagen: "flujogramas/metformina-insuficiencia-renal-acidosis-lactica.svg",
-    alt: "Flujograma: Metformina: riesgo de acidosis láctica"
+    alt: "Flujograma: Anciana con insuficiencia renal que toma metformina y presenta debilidad, náuseas, vómitos y disnea: acidosis láctica por metformina"
   },
   "NEF-055": {
-    titulo: "Vasectomía: cuándo es segura",
+    titulo: "Tras la vasectomía quedan espermatozoides en la vía seminal: la esterilidad se confirma a los 3 meses con un espermatograma",
     imagen: "flujogramas/vasectomia-esterilidad-tres-meses.svg",
-    alt: "Flujograma: Vasectomía: cuándo es segura"
+    alt: "Flujograma: Tras la vasectomía quedan espermatozoides en la vía seminal: la esterilidad se confirma a los 3 meses con un espermatograma"
   },
   "SP-092": {
-    titulo: "Tipos de intervención sanitaria",
+    titulo: "Actividades educativas en la escuela sobre autocuidado y reconocimiento de la TB: promoción de la salud",
     imagen: "flujogramas/colegio-educacion-autocuidado-tuberculosis-promocion.svg",
-    alt: "Flujograma: Tipos de intervención sanitaria"
+    alt: "Flujograma: Actividades educativas en la escuela sobre autocuidado y reconocimiento de la TB: promoción de la salud"
   },
   "GIN-129": {
-    titulo: "Fórmula obstétrica",
+    titulo: "4 embarazos: un gemelar a las 34 semanas, un ectópico, una mola y uno a término, con 3 hijos vivos: G4P1223 según la clave",
     imagen: "flujogramas/gemelar-34-ectopico-mola-41-semanas-formula-obstetrica.svg",
-    alt: "Flujograma: Fórmula obstétrica"
+    alt: "Flujograma: 4 embarazos: un gemelar a las 34 semanas, un ectópico, una mola y uno a término, con 3 hijos vivos: G4P1223 según la clave"
   },
   "NEF-056": {
-    titulo: "Anemia de la ERC con ferropenia",
+    titulo: "Paciente en diálisis con eritropoyetina y Hb 8,7, ferritina 56 y saturación de transferrina 10 %: falta hierro, darlo y mantener la eritropoyetina",
     imagen: "flujogramas/erc-hemodialisis-ferritina-56-ist-10-hierro-mantener-epo.svg",
-    alt: "Flujograma: Anemia de la ERC con ferropenia"
+    alt: "Flujograma: Paciente en diálisis con eritropoyetina y Hb 8,7, ferritina 56 y saturación de transferrina 10 %: falta hierro, darlo y mantener la eritropoyetina"
   },
   "PED-133": {
-    titulo: "Picadura de escorpión en el niño",
+    titulo: "Lactante picado por escorpión: la complicación principal es la falla cardiorrespiratoria (miocarditis y edema pulmonar)",
     imagen: "flujogramas/lactante-picadura-escorpion-falla-cardiorrespiratoria.svg",
-    alt: "Flujograma: Picadura de escorpión en el niño"
+    alt: "Flujograma: Lactante picado por escorpión: la complicación principal es la falla cardiorrespiratoria (miocarditis y edema pulmonar)"
   },
   "GIN-130": {
-    titulo: "Progreso del trabajo de parto",
+    titulo: "Primigesta en fase activa que pasa de 6 a 8 cm en 2 horas con descenso de la presentación: progresión adecuada, continuar el trabajo de parto",
     imagen: "flujogramas/dilatacion-6-a-8-en-2-horas-continuar-trabajo-parto.svg",
-    alt: "Flujograma: Progreso del trabajo de parto"
+    alt: "Flujograma: Primigesta en fase activa que pasa de 6 a 8 cm en 2 horas con descenso de la presentación: progresión adecuada, continuar el trabajo de parto"
   },
   "PSI-025": {
-    titulo: "Ansiedad generalizada: criterios",
+    titulo: "12 meses de preocupación excesiva por todo, inquietud, irritabilidad, falta de concentración, tensión muscular e insomnio: trastorno de ansiedad generalizada",
     imagen: "flujogramas/preocupacion-12-meses-tension-insomnio-ansiedad-generalizada.svg",
-    alt: "Flujograma: Ansiedad generalizada: criterios"
+    alt: "Flujograma: 12 meses de preocupación excesiva por todo, inquietud, irritabilidad, falta de concentración, tensión muscular e insomnio: trastorno de ansiedad generalizada"
   },
   "GIN-131": {
-    titulo: "Sangrado tras la amniotomía",
+    titulo: "Al romper las membranas aparece sangrado profuso con caída rápida de los latidos fetales: rotura de vasa previa, cesárea de emergencia",
     imagen: "flujogramas/amniotomia-sangrado-profuso-bradicardia-vasa-previa-cesarea.svg",
-    alt: "Flujograma: Sangrado tras la amniotomía"
+    alt: "Flujograma: Al romper las membranas aparece sangrado profuso con caída rápida de los latidos fetales: rotura de vasa previa, cesárea de emergencia"
   },
   "PED-134": {
-    titulo: "Membrana hialina y ductus",
+    titulo: "Prematuro de 31 semanas con dificultad respiratoria y Rx en vidrio esmerilado con broncograma: membrana hialina; la cardiopatía más asociada es el ductus arterioso persistente",
     imagen: "flujogramas/prematuro-31-semanas-membrana-hialina-ductus.svg",
-    alt: "Flujograma: Membrana hialina y ductus"
+    alt: "Flujograma: Prematuro de 31 semanas con dificultad respiratoria y Rx en vidrio esmerilado con broncograma: membrana hialina; la cardiopatía más asociada es el ductus arterioso persistente"
   },
   "END-039": {
-    titulo: "Insulinoma",
+    titulo: "Mujer con desmayos repetidos, sudor y confusión, glucosa baja con insulina alta y nódulo pancreático de 2 cm: insulinoma, resección quirúrgica",
     imagen: "flujogramas/hipoglucemia-insulina-alta-nodulo-pancreatico-reseccion.svg",
-    alt: "Flujograma: Insulinoma"
+    alt: "Flujograma: Mujer con desmayos repetidos, sudor y confusión, glucosa baja con insulina alta y nódulo pancreático de 2 cm: insulinoma, resección quirúrgica"
   },
   "SP-093": {
-    titulo: "Suplementación en adolescentes",
+    titulo: "Adolescentes mujeres con Hb > 12 g/dL en el colegio: suplementación preventiva con hierro y ácido fólico",
     imagen: "flujogramas/adolescentes-hb-mayor-12-hierro-acido-folico.svg",
-    alt: "Flujograma: Suplementación en adolescentes"
+    alt: "Flujograma: Adolescentes mujeres con Hb > 12 g/dL en el colegio: suplementación preventiva con hierro y ácido fólico"
   },
   "NEF-057": {
-    titulo: "Nefropatía por contraste",
+    titulo: "Diabético hipertenso con caída de la diuresis y creatinina de 2,5 dos días después de una TC con contraste: lesión renal por contraste, hidratación EV",
     imagen: "flujogramas/tc-contraste-diabetico-creatinina-25-hidratacion.svg",
-    alt: "Flujograma: Nefropatía por contraste"
+    alt: "Flujograma: Diabético hipertenso con caída de la diuresis y creatinina de 2,5 dos días después de una TC con contraste: lesión renal por contraste, hidratación EV"
   },
   "INF-065": {
-    titulo: "Pruebas de VIH y su uso",
+    titulo: "Paciente con VIH que inicia el tratamiento antirretroviral: la eficacia se controla con la carga viral en plasma",
     imagen: "flujogramas/vih-inicio-tar-respuesta-carga-viral.svg",
-    alt: "Flujograma: Pruebas de VIH y su uso"
+    alt: "Flujograma: Paciente con VIH que inicia el tratamiento antirretroviral: la eficacia se controla con la carga viral en plasma"
   },
   "NEU-035": {
-    titulo: "Soporte ventilatorio en EPOC",
+    titulo: "EPOC descompensado con pH 7,32 y pCO₂ 60 (acidosis respiratoria moderada): ventilación no invasiva",
     imagen: "flujogramas/epoc-ph-732-pco2-60-ventilacion-no-invasiva.svg",
-    alt: "Flujograma: Soporte ventilatorio en EPOC"
+    alt: "Flujograma: EPOC descompensado con pH 7,32 y pCO₂ 60 (acidosis respiratoria moderada): ventilación no invasiva"
   },
   "PSI-026": {
-    titulo: "Toxíndrome por cocaína",
+    titulo: "Joven agitado con ideas de persecución, hipertensión, taquicardia, fiebre, midriasis y perforación del tabique nasal: intoxicación por cocaína",
     imagen: "flujogramas/agitacion-paranoia-midriasis-tabique-perforado-cocaina.svg",
-    alt: "Flujograma: Toxíndrome por cocaína"
+    alt: "Flujograma: Joven agitado con ideas de persecución, hipertensión, taquicardia, fiebre, midriasis y perforación del tabique nasal: intoxicación por cocaína"
   },
   "CIR-070": {
-    titulo: "Quemadura eléctrica",
+    titulo: "Quemadura por alto voltaje con ruidos cardíacos arrítmicos: el primer examen es el electrocardiograma",
     imagen: "flujogramas/alto-voltaje-mano-ruidos-arritmicos-ecg.svg",
-    alt: "Flujograma: Quemadura eléctrica"
+    alt: "Flujograma: Quemadura por alto voltaje con ruidos cardíacos arrítmicos: el primer examen es el electrocardiograma"
   },
   "NEF-058": {
-    titulo: "Litiasis ureteral según tamaño",
+    titulo: "Cólico renal que cede con cálculo menor de 6 mm en el uréter distal: tratamiento médico expulsivo",
     imagen: "flujogramas/calculo-ureteral-distal-menor-6-mm-terapia-expulsiva.svg",
-    alt: "Flujograma: Litiasis ureteral según tamaño"
+    alt: "Flujograma: Cólico renal que cede con cálculo menor de 6 mm en el uréter distal: tratamiento médico expulsivo"
   },
   "INF-066": {
-    titulo: "Profilaxis antitetánica",
+    titulo: "Herida sucia por fierro oxidado en un adulto con vacunación completa hace 9 años: aplicar toxoide (refuerzo), sin inmunoglobulina",
     imagen: "flujogramas/herida-fierro-oxidado-vacuna-9-anos-toxoide.svg",
-    alt: "Flujograma: Profilaxis antitetánica"
+    alt: "Flujograma: Herida sucia por fierro oxidado en un adulto con vacunación completa hace 9 años: aplicar toxoide (refuerzo), sin inmunoglobulina"
   },
   "PED-135": {
-    titulo: "Contacto piel a piel",
+    titulo: "En el parto sin complicaciones, el contacto piel a piel se inicia de inmediato, dentro de la primera hora",
     imagen: "flujogramas/parto-vaginal-contacto-piel-a-piel-primera-hora.svg",
-    alt: "Flujograma: Contacto piel a piel"
+    alt: "Flujograma: En el parto sin complicaciones, el contacto piel a piel se inicia de inmediato, dentro de la primera hora"
   },
   "HEM-025": {
-    titulo: "PTI en el niño",
+    titulo: "Preescolar con gingivorragia, petequias en piel y boca, plaquetas 12 000 y lo demás normal: PTI con sangrado mucoso, inmunoglobulina",
     imagen: "flujogramas/nino-gingivorragia-plaquetas-12000-inmunoglobulina.svg",
-    alt: "Flujograma: PTI en el niño"
+    alt: "Flujograma: Preescolar con gingivorragia, petequias en piel y boca, plaquetas 12 000 y lo demás normal: PTI con sangrado mucoso, inmunoglobulina"
   },
   "CB-047": {
-    titulo: "Intoxicación crónica por plomo",
+    titulo: "Reciclador de baterías con meses de cefalea, diarrea, fatiga y artralgias: intoxicación crónica por plomo",
     imagen: "flujogramas/reciclador-baterias-cefalea-diarrea-plomo.svg",
-    alt: "Flujograma: Intoxicación crónica por plomo"
+    alt: "Flujograma: Reciclador de baterías con meses de cefalea, diarrea, fatiga y artralgias: intoxicación crónica por plomo"
   },
   "CIR-071": {
-    titulo: "Profundidad de la quemadura",
+    titulo: "Quemadura por agua caliente con piel roja que se blanquea al presionar y ampollas: espesor parcial superficial (2.º grado superficial)",
     imagen: "flujogramas/agua-caliente-ampollas-blanquea-espesor-parcial-superficial.svg",
-    alt: "Flujograma: Profundidad de la quemadura"
+    alt: "Flujograma: Quemadura por agua caliente con piel roja que se blanquea al presionar y ampollas: espesor parcial superficial (2.º grado superficial)"
   },
   "CB-048": {
-    titulo: "Toxíndrome anticolinérgico",
+    titulo: "Tras tratar con mucha atropina una intoxicación por organofosforados aparecen piel roja, caliente y seca, midriasis, taquicardia, íleo, globo vesical y agitación: toxicidad anticolinérgica",
     imagen: "flujogramas/organofosforado-atropina-piel-seca-midriasis-anticolinergico.svg",
-    alt: "Flujograma: Toxíndrome anticolinérgico"
+    alt: "Flujograma: Tras tratar con mucha atropina una intoxicación por organofosforados aparecen piel roja, caliente y seca, midriasis, taquicardia, íleo, globo vesical y agitación: toxicidad anticolinérgica"
   },
   "SP-094": {
-    titulo: "Tipos de medicina no convencional",
+    titulo: "Acupuntura asociada a la quimioterapia para aliviar efectos adversos: medicina complementaria",
     imagen: "flujogramas/oncologia-acupuntura-medicina-complementaria.svg",
-    alt: "Flujograma: Tipos de medicina no convencional"
+    alt: "Flujograma: Acupuntura asociada a la quimioterapia para aliviar efectos adversos: medicina complementaria"
   },
   "CIR-072": {
-    titulo: "Neumotórax a tensión",
+    titulo: "Trauma con hipotensión, hiperresonancia, murmullo abolido y tráquea desviada al lado opuesto: neumotórax a tensión, descompresión inmediata con aguja",
     imagen: "flujogramas/hiperresonancia-desviacion-traqueal-hipotension-aguja.svg",
-    alt: "Flujograma: Neumotórax a tensión"
+    alt: "Flujograma: Trauma con hipotensión, hiperresonancia, murmullo abolido y tráquea desviada al lado opuesto: neumotórax a tensión, descompresión inmediata con aguja"
   },
   "REU-037": {
-    titulo: "Dermatitis atópica: criterios",
+    titulo: "Joven asmática con años de prurito y piel seca, descamada y fisurada en pliegues de codos, rodillas, cuello y muñecas: dermatitis atópica",
     imagen: "flujogramas/prurito-pliegues-asma-piel-seca-dermatitis-atopica.svg",
-    alt: "Flujograma: Dermatitis atópica: criterios"
+    alt: "Flujograma: Joven asmática con años de prurito y piel seca, descamada y fisurada en pliegues de codos, rodillas, cuello y muñecas: dermatitis atópica"
   },
   "NEF-059": {
-    titulo: "Cistitis: ¿complicada?",
+    titulo: "Mujer joven no gestante con disuria, polaquiuria y dolor perineal, sin fiebre: cistitis no complicada, antibiótico oral empírico",
     imagen: "flujogramas/mujer-joven-disuria-sin-fiebre-cistitis-no-complicada.svg",
-    alt: "Flujograma: Cistitis: ¿complicada?"
+    alt: "Flujograma: Mujer joven no gestante con disuria, polaquiuria y dolor perineal, sin fiebre: cistitis no complicada, antibiótico oral empírico"
   },
   "END-040": {
-    titulo: "Galactorrea y amenorrea",
+    titulo: "Mujer joven con galactorrea y amenorrea de 3 meses: hiperprolactinemia",
     imagen: "flujogramas/galactorrea-amenorrea-hiperprolactinemia.svg",
-    alt: "Flujograma: Galactorrea y amenorrea"
+    alt: "Flujograma: Mujer joven con galactorrea y amenorrea de 3 meses: hiperprolactinemia"
   },
   "CB-049": {
-    titulo: "Arácnidos venenosos del Perú",
+    titulo: "Niño picado en el campo con dolor local, piloerección, punto blanco con halo rojo y luego espasmos musculares dolorosos, sudor, taquicardia e HTA: latrodectismo (viuda negra)",
     imagen: "flujogramas/nino-dolor-muslo-espasmos-diaforesis-latrodectus.svg",
-    alt: "Flujograma: Arácnidos venenosos del Perú"
+    alt: "Flujograma: Niño picado en el campo con dolor local, piloerección, punto blanco con halo rojo y luego espasmos musculares dolorosos, sudor, taquicardia e HTA: latrodectismo (viuda negra)"
   },
   "GIN-132": {
-    titulo: "Doppler obstétrico",
+    titulo: "Gestante Rh negativa sensibilizada: la anemia fetal se busca con el pico sistólico de la arteria cerebral media en el Doppler",
     imagen: "flujogramas/incompatibilidad-rh-anemia-fetal-cerebral-media.svg",
-    alt: "Flujograma: Doppler obstétrico"
+    alt: "Flujograma: Gestante Rh negativa sensibilizada: la anemia fetal se busca con el pico sistólico de la arteria cerebral media en el Doppler"
   },
   "NEF-060": {
-    titulo: "Compensación renal en la hipoperfusión",
+    titulo: "Paciente séptico e hipotenso con oliguria, sodio urinario 8, FeNa 0,4 % y orina concentrada: lesión prerrenal; el riñón se defiende contrayendo la arteriola eferente",
     imagen: "flujogramas/neumonia-hipotension-fena-04-vasoconstriccion-eferente.svg",
-    alt: "Flujograma: Compensación renal en la hipoperfusión"
+    alt: "Flujograma: Paciente séptico e hipotenso con oliguria, sodio urinario 8, FeNa 0,4 % y orina concentrada: lesión prerrenal; el riñón se defiende contrayendo la arteriola eferente"
   },
   "REU-038": {
-    titulo: "Fibromialgia: fármaco a agregar",
+    titulo: "Fibromialgia con dolor e insomnio que persisten pese a terapia física y conductual: agregar amitriptilina",
     imagen: "flujogramas/fibromialgia-insomnio-persistente-amitriptilina.svg",
-    alt: "Flujograma: Fibromialgia: fármaco a agregar"
+    alt: "Flujograma: Fibromialgia con dolor e insomnio que persisten pese a terapia física y conductual: agregar amitriptilina"
   },
   "NEU-036": {
-    titulo: "Apnea obstructiva del sueño",
+    titulo: "Obeso con ronquido y pausas respiratorias nocturnas por años que hace un ictus: apnea obstructiva del sueño, polisomnografía",
     imagen: "flujogramas/ronca-apneas-imc-35-acv-polisomnografia.svg",
-    alt: "Flujograma: Apnea obstructiva del sueño"
+    alt: "Flujograma: Obeso con ronquido y pausas respiratorias nocturnas por años que hace un ictus: apnea obstructiva del sueño, polisomnografía"
   },
   "CIR-073": {
-    titulo: "Infección necrotizante del periné",
+    titulo: "Anciano diabético y alcohólico con celulitis perineal y escrotal, necrosis, crepitación y fiebre: fascitis necrotizante del periné (gangrena de Fournier)",
     imagen: "flujogramas/diabetico-perine-escroto-necrosis-crepitacion-fournier.svg",
-    alt: "Flujograma: Infección necrotizante del periné"
+    alt: "Flujograma: Anciano diabético y alcohólico con celulitis perineal y escrotal, necrosis, crepitación y fiebre: fascitis necrotizante del periné (gangrena de Fournier)"
   },
   "GIN-133": {
-    titulo: "Lactancia en madre con VIH",
+    titulo: "Puérpera con VIH en TAR que desea lactar: en el Perú la norma contraindica la lactancia materna y da fórmula",
     imagen: "flujogramas/puerpera-vih-tar-desea-lactar-contraindicar.svg",
-    alt: "Flujograma: Lactancia en madre con VIH"
+    alt: "Flujograma: Puérpera con VIH en TAR que desea lactar: en el Perú la norma contraindica la lactancia materna y da fórmula"
   },
   "GIN-134": {
-    titulo: "Presentación podálica en trabajo de parto",
+    titulo: "Gestante de talla baja, primigesta joven, a las 36 semanas en inicio de trabajo de parto con feto en podálica: cesárea",
     imagen: "flujogramas/podalica-primigesta-talla-150-trabajo-parto-cesarea.svg",
-    alt: "Flujograma: Presentación podálica en trabajo de parto"
+    alt: "Flujograma: Gestante de talla baja, primigesta joven, a las 36 semanas en inicio de trabajo de parto con feto en podálica: cesárea"
   },
   "SP-095": {
-    titulo: "Tendencias en el tiempo",
+    titulo: "Neumonías infantiles que aumentan cada año en los meses fríos: variación estacional",
     imagen: "flujogramas/neumonia-meses-frios-variacion-estacional.svg",
-    alt: "Flujograma: Tendencias en el tiempo"
+    alt: "Flujograma: Neumonías infantiles que aumentan cada año en los meses fríos: variación estacional"
   },
   "TRA-025": {
-    titulo: "Complicaciones de la fractura de cadera",
+    titulo: "Anciano postrado con fractura de cadera: la complicación más probable es la trombosis venosa profunda",
     imagen: "flujogramas/anciano-fractura-cadera-postrado-tvp.svg",
-    alt: "Flujograma: Complicaciones de la fractura de cadera"
+    alt: "Flujograma: Anciano postrado con fractura de cadera: la complicación más probable es la trombosis venosa profunda"
   },
   "GIN-135": {
-    titulo: "Placenta y orificio cervical",
+    titulo: "Sangrado vaginal indoloro a las 34 semanas con el borde de la placenta a 1 cm del OCI, sin cubrirlo: placenta de implantación baja",
     imagen: "flujogramas/borde-placentario-1-cm-oci-implantacion-baja.svg",
-    alt: "Flujograma: Placenta y orificio cervical"
+    alt: "Flujograma: Sangrado vaginal indoloro a las 34 semanas con el borde de la placenta a 1 cm del OCI, sin cubrirlo: placenta de implantación baja"
   },
   "NEF-061": {
-    titulo: "PSA en zona gris",
+    titulo: "Varón de 49 años con síntomas urinarios, PSA 5,9 y cociente PSA libre/total de 11 %: alto riesgo de cáncer, biopsia guiada por ecografía",
     imagen: "flujogramas/psa-59-libre-total-11-biopsia.svg",
-    alt: "Flujograma: PSA en zona gris"
+    alt: "Flujograma: Varón de 49 años con síntomas urinarios, PSA 5,9 y cociente PSA libre/total de 11 %: alto riesgo de cáncer, biopsia guiada por ecografía"
   },
   "GAS-048": {
-    titulo: "Disacaridasas intestinales",
+    titulo: "Niño con náuseas, distensión, diarrea y gases tras tomar lácteos: intolerancia a la lactosa por déficit de lactasa",
     imagen: "flujogramas/lacteos-distension-diarrea-lactasa.svg",
-    alt: "Flujograma: Disacaridasas intestinales"
+    alt: "Flujograma: Niño con náuseas, distensión, diarrea y gases tras tomar lácteos: intolerancia a la lactosa por déficit de lactasa"
   },
   "INF-067": {
-    titulo: "Fiebre amarilla: fases",
+    titulo: "Fiebre amarilla confirmada con fiebre, cefalea, mialgias, náuseas e ictericia: la ictericia indica la fase tóxica, grave",
     imagen: "flujogramas/satipo-fiebre-amarilla-ictericia-gravedad.svg",
-    alt: "Flujograma: Fiebre amarilla: fases"
+    alt: "Flujograma: Fiebre amarilla confirmada con fiebre, cefalea, mialgias, náuseas e ictericia: la ictericia indica la fase tóxica, grave"
   },
   "PED-136": {
-    titulo: "Varicela con sobreinfección",
+    titulo: "Niño con varicela que desarrolla una placa roja, caliente, fluctuante y dolorosa con leucocitosis: sobreinfección bacteriana (celulitis o absceso), oxacilina",
     imagen: "flujogramas/varicela-placa-fluctuante-sobreinfeccion-oxacilina.svg",
-    alt: "Flujograma: Varicela con sobreinfección"
+    alt: "Flujograma: Niño con varicela que desarrolla una placa roja, caliente, fluctuante y dolorosa con leucocitosis: sobreinfección bacteriana (celulitis o absceso), oxacilina"
   },
   "SP-096": {
-    titulo: "Tipos de error en la medición",
+    titulo: "Balanzas mal calibradas que sobreestiman el peso en todos los niños: error sistemático (sesgo de medición)",
     imagen: "flujogramas/balanzas-descalibradas-sobreestiman-peso-error-sistematico.svg",
-    alt: "Flujograma: Tipos de error en la medición"
+    alt: "Flujograma: Balanzas mal calibradas que sobreestiman el peso en todos los niños: error sistemático (sesgo de medición)"
   },
   "INF-068": {
-    titulo: "Síndrome de reconstitución inmune",
+    titulo: "Paciente con VIH avanzado que 3 semanas después de iniciar TAR (CD4 suben, carga viral baja) hace fiebre y adenopatías: síndrome de reconstitución inmune",
     imagen: "flujogramas/vih-tar-3-semanas-fiebre-adenopatias-reconstitucion-inmune.svg",
-    alt: "Flujograma: Síndrome de reconstitución inmune"
+    alt: "Flujograma: Paciente con VIH avanzado que 3 semanas después de iniciar TAR (CD4 suben, carga viral baja) hace fiebre y adenopatías: síndrome de reconstitución inmune"
   },
   "NEU-037": {
-    titulo: "Neumonía: CURB-65",
+    titulo: "Anciano con neumonía del lóbulo medio, FR 32, orientado y PA normal: CURB-65 de 2, hospitalizar en sala de medicina",
     imagen: "flujogramas/neumonia-69-anos-fr-32-curb65-2-hospitalizar.svg",
-    alt: "Flujograma: Neumonía: CURB-65"
+    alt: "Flujograma: Anciano con neumonía del lóbulo medio, FR 32, orientado y PA normal: CURB-65 de 2, hospitalizar en sala de medicina"
   },
   "TRA-026": {
-    titulo: "Nervios de la pierna",
+    titulo: "Herida en el compartimento anterior de la pierna con parestesias y pie caído: lesión del nervio peroneo (profundo)",
     imagen: "flujogramas/herida-compartimento-anterior-pie-caido-peroneo.svg",
-    alt: "Flujograma: Nervios de la pierna"
+    alt: "Flujograma: Herida en el compartimento anterior de la pierna con parestesias y pie caído: lesión del nervio peroneo (profundo)"
   },
   "GIN-136": {
-    titulo: "Síndrome antifosfolípido",
+    titulo: "Gestante con tres abortos precoces seguidos y una trombosis venosa previa: síndrome antifosfolípido, pedir anticuerpos (anti-β2 glicoproteína I)",
     imagen: "flujogramas/tres-abortos-tvp-anti-b2-glicoproteina.svg",
-    alt: "Flujograma: Síndrome antifosfolípido"
+    alt: "Flujograma: Gestante con tres abortos precoces seguidos y una trombosis venosa previa: síndrome antifosfolípido, pedir anticuerpos (anti-β2 glicoproteína I)"
   },
   "GIN-137": {
-    titulo: "Síndrome de ovario poliquístico",
+    titulo: "Mujer obesa con oligomenorrea desde la menarquia, acné, hirsutismo y acantosis nigricans que no logra embarazarse: síndrome de ovario poliquístico (hiperandrogénico)",
     imagen: "flujogramas/oligomenorrea-acne-acantosis-hirsutismo-ovario-poliquistico.svg",
-    alt: "Flujograma: Síndrome de ovario poliquístico"
+    alt: "Flujograma: Mujer obesa con oligomenorrea desde la menarquia, acné, hirsutismo y acantosis nigricans que no logra embarazarse: síndrome de ovario poliquístico (hiperandrogénico)"
   },
   "PED-137": {
-    titulo: "Lactante prematuro dependiente de oxígeno",
+    titulo: "Lactante que nació a las 27 semanas, tuvo ventilación prolongada y a los 3 meses sigue con oxígeno, sibilancias y Rx con atrapamiento aéreo: displasia broncopulmonar",
     imagen: "flujogramas/prematuro-27-semanas-oxigeno-3-meses-displasia.svg",
-    alt: "Flujograma: Lactante prematuro dependiente de oxígeno"
+    alt: "Flujograma: Lactante que nació a las 27 semanas, tuvo ventilación prolongada y a los 3 meses sigue con oxígeno, sibilancias y Rx con atrapamiento aéreo: displasia broncopulmonar"
   },
   "HEM-026": {
-    titulo: "Síndrome de Down: riesgos",
+    titulo: "Niño de 3 años con una cromosomopatía y leucemia: el síndrome de Down es el que más se asocia a leucemia",
     imagen: "flujogramas/nino-cromosomopatia-leucemia-sindrome-down.svg",
-    alt: "Flujograma: Síndrome de Down: riesgos"
+    alt: "Flujograma: Niño de 3 años con una cromosomopatía y leucemia: el síndrome de Down es el que más se asocia a leucemia"
   },
   "REU-039": {
-    titulo: "Úlcera crónica del labio",
+    titulo: "Obrero con úlcera de 2 cm en el labio inferior, de un año, bordes netos, base infiltrada y costra sanguinolenta: carcinoma espinocelular",
     imagen: "flujogramas/obrero-ulcera-labio-inferior-infiltrada-espinocelular.svg",
-    alt: "Flujograma: Úlcera crónica del labio"
+    alt: "Flujograma: Obrero con úlcera de 2 cm en el labio inferior, de un año, bordes netos, base infiltrada y costra sanguinolenta: carcinoma espinocelular"
   },
   "CIR-074": {
-    titulo: "Herida abdominal por arma blanca",
+    titulo: "Herida de arma blanca periumbilical en un paciente estable, sin contractura y con leve reacción peritoneal: exploración local de la herida",
     imagen: "flujogramas/arma-blanca-periumbilical-estable-exploracion-local.svg",
-    alt: "Flujograma: Herida abdominal por arma blanca"
+    alt: "Flujograma: Herida de arma blanca periumbilical en un paciente estable, sin contractura y con leve reacción peritoneal: exploración local de la herida"
   },
   "PED-138": {
-    titulo: "Virus respiratorios en el niño",
+    titulo: "Preescolar con rinorrea, fiebre, tos perruna, tirajes y signo del campanario en la Rx: crup (laringotraqueítis) por virus parainfluenza",
     imagen: "flujogramas/tos-perruna-signo-campanario-parainfluenza.svg",
-    alt: "Flujograma: Virus respiratorios en el niño"
+    alt: "Flujograma: Preescolar con rinorrea, fiebre, tos perruna, tirajes y signo del campanario en la Rx: crup (laringotraqueítis) por virus parainfluenza"
   },
   "SP-097": {
-    titulo: "Tipos de culpa médica",
+    titulo: "Internista que no pide interconsulta a psiquiatría antes de dar corticoides en dosis altas porque «se van a demorar»: negligencia (omisión)",
     imagen: "flujogramas/internista-omite-interconsulta-negligencia.svg",
-    alt: "Flujograma: Tipos de culpa médica"
+    alt: "Flujograma: Internista que no pide interconsulta a psiquiatría antes de dar corticoides en dosis altas porque «se van a demorar»: negligencia (omisión)"
   },
   "PSI-027": {
-    titulo: "Complicaciones de la anorexia",
+    titulo: "Adolescente con un año de rechazo a comer y miedo intenso a engordar: anorexia nerviosa; la alteración del ECG buscada es el QT largo",
     imagen: "flujogramas/anorexia-adolescente-qt-largo.svg",
-    alt: "Flujograma: Complicaciones de la anorexia"
+    alt: "Flujograma: Adolescente con un año de rechazo a comer y miedo intenso a engordar: anorexia nerviosa; la alteración del ECG buscada es el QT largo"
   },
   "GIN-138": {
-    titulo: "Esterilización en portadora de BRCA",
+    titulo: "Portadora de mutación BRCA de 35 años con paridad satisfecha que pide anticoncepción definitiva: salpinguectomía bilateral",
     imagen: "flujogramas/brca-paridad-satisfecha-salpinguectomia-bilateral.svg",
-    alt: "Flujograma: Esterilización en portadora de BRCA"
+    alt: "Flujograma: Portadora de mutación BRCA de 35 años con paridad satisfecha que pide anticoncepción definitiva: salpinguectomía bilateral"
   },
   "INF-069": {
-    titulo: "Diarrea del viajero",
+    titulo: "Joven con 5 días de diarrea acuosa sin sangre tras beber agua no embotellada en un viaje, que no le impide sus actividades: diarrea del viajero leve, hidratación oral",
     imagen: "flujogramas/viaje-agua-no-embotellada-diarrea-acuosa-hidratacion.svg",
-    alt: "Flujograma: Diarrea del viajero"
+    alt: "Flujograma: Joven con 5 días de diarrea acuosa sin sangre tras beber agua no embotellada en un viaje, que no le impide sus actividades: diarrea del viajero leve, hidratación oral"
   },
   "PED-139": {
-    titulo: "Empiema en el niño",
+    titulo: "Escolar con neumonía que sigue febril tras 5 días de ceftriaxona y toracocentesis con pus: empiema, drenaje con tubo de tórax y fibrinolíticos",
     imagen: "flujogramas/neumonia-fiebre-persistente-toracocentesis-pus-tubo-fibrinoliticos.svg",
-    alt: "Flujograma: Empiema en el niño"
+    alt: "Flujograma: Escolar con neumonía que sigue febril tras 5 días de ceftriaxona y toracocentesis con pus: empiema, drenaje con tubo de tórax y fibrinolíticos"
   },
   "NRL-039": {
-    titulo: "Ictus isquémico a las 6 horas",
+    titulo: "Ictus con afasia y hemiparesia derecha de 6 horas, NIHSS 10, sin infarto extenso y estenosis carotídea del 80 %: trombectomía mecánica (± angioplastia carotídea)",
     imagen: "flujogramas/hemiparesia-afasia-6-horas-trombectomia.svg",
-    alt: "Flujograma: Ictus isquémico a las 6 horas"
+    alt: "Flujograma: Ictus con afasia y hemiparesia derecha de 6 horas, NIHSS 10, sin infarto extenso y estenosis carotídea del 80 %: trombectomía mecánica (± angioplastia carotídea)"
   },
   "GIN-139": {
-    titulo: "Hemorragia posparto refractaria",
+    titulo: "Hemorragia posparto por atonía que no cede con masaje, oxitocina, ergometrina ni misoprostol: taponamiento con balón intrauterino",
     imagen: "flujogramas/hemorragia-posparto-atonia-refractaria-balon.svg",
-    alt: "Flujograma: Hemorragia posparto refractaria"
+    alt: "Flujograma: Hemorragia posparto por atonía que no cede con masaje, oxitocina, ergometrina ni misoprostol: taponamiento con balón intrauterino"
   },
   "NEU-038": {
-    titulo: "Neumonía con derrame pleural",
+    titulo: "Anciano con neumonía del lóbulo inferior izquierdo y derrame pleural: tras iniciar antibiótico, toracocentesis para estudiar el líquido",
     imagen: "flujogramas/neumonia-derrame-pleural-toracocentesis.svg",
-    alt: "Flujograma: Neumonía con derrame pleural"
+    alt: "Flujograma: Anciano con neumonía del lóbulo inferior izquierdo y derrame pleural: tras iniciar antibiótico, toracocentesis para estudiar el líquido"
   },
   "CAR-051": {
-    titulo: "HTA no controlada: siguiente paso",
+    titulo: "Hipertensa con 150/90 pese a losartán e hidroclorotiazida a dosis plenas y buena adherencia: añadir amlodipino",
     imagen: "flujogramas/losartan-hctz-pa-150-90-amlodipino.svg",
-    alt: "Flujograma: HTA no controlada: siguiente paso"
+    alt: "Flujograma: Hipertensa con 150/90 pese a losartán e hidroclorotiazida a dosis plenas y buena adherencia: añadir amlodipino"
   },
   "PED-140": {
-    titulo: "Fiebre sin foco en el lactante",
+    titulo: "Lactante varón de 11 meses con fimosis, 3 días de fiebre de 39,5 °C y vómitos, sin otro foco: sospecha de ITU, pedir urocultivo",
     imagen: "flujogramas/lactante-fimosis-fiebre-3-dias-urocultivo.svg",
-    alt: "Flujograma: Fiebre sin foco en el lactante"
+    alt: "Flujograma: Lactante varón de 11 meses con fimosis, 3 días de fiebre de 39,5 °C y vómitos, sin otro foco: sospecha de ITU, pedir urocultivo"
   },
   "CIR-075": {
-    titulo: "Mordedura humana en el puño",
+    titulo: "Joven que se hirió el nudillo al golpear la boca de otra persona, con lesión del tendón extensor y la cápsula articular: exploración quirúrgica y lavado",
     imagen: "flujogramas/punetazo-boca-nudillo-tendon-capsula-lavado-quirurgico.svg",
-    alt: "Flujograma: Mordedura humana en el puño"
+    alt: "Flujograma: Joven que se hirió el nudillo al golpear la boca de otra persona, con lesión del tendón extensor y la cápsula articular: exploración quirúrgica y lavado"
   },
   "GIN-140": {
-    titulo: "Seguimiento tras NIC 3",
+    titulo: "Mujer de 55 años tratada con cono por NIC 3: debe seguir con tamizaje por muchos años (la clave dice 20; las guías actuales, 25), aunque pase los 65",
     imagen: "flujogramas/cono-nic3-seguir-tamizaje-20-anos.svg",
-    alt: "Flujograma: Seguimiento tras NIC 3"
+    alt: "Flujograma: Mujer de 55 años tratada con cono por NIC 3: debe seguir con tamizaje por muchos años (la clave dice 20; las guías actuales, 25), aunque pase los 65"
   },
   "CB-050": {
-    titulo: "Periodos del desarrollo",
+    titulo: "Del inicio de la gastrulación a la semana 8 tras la concepción se forman los órganos: período embrionario, el más sensible a malformaciones",
     imagen: "flujogramas/semanas-2-a-8-organogenesis-periodo-embrionario.svg",
-    alt: "Flujograma: Periodos del desarrollo"
+    alt: "Flujograma: Del inicio de la gastrulación a la semana 8 tras la concepción se forman los órganos: período embrionario, el más sensible a malformaciones"
   },
   "PED-141": {
-    titulo: "Pérdida de peso en el neonato",
+    titulo: "Recién nacido de 48 horas, madre primeriza con pezones planos, ictericia, irritable o letárgico, poca orina y pérdida de peso > 10 %: deshidratación hipernatrémica",
     imagen: "flujogramas/neonato-48-h-pezones-planos-perdida-peso-hipernatremia.svg",
-    alt: "Flujograma: Pérdida de peso en el neonato"
+    alt: "Flujograma: Recién nacido de 48 horas, madre primeriza con pezones planos, ictericia, irritable o letárgico, poca orina y pérdida de peso > 10 %: deshidratación hipernatrémica"
   },
   "CIR-076": {
-    titulo: "Quemaduras: grado y manejo",
+    titulo: "Quemadura por agua hirviendo en las manos con piel roja, sin flictenas ni ampollas: quemadura de primer grado (epidérmica), analgésicos orales",
     imagen: "flujogramas/agua-hirviendo-manos-eritema-sin-ampollas-analgesia.svg",
-    alt: "Flujograma: Quemaduras: grado y manejo"
+    alt: "Flujograma: Quemadura por agua hirviendo en las manos con piel roja, sin flictenas ni ampollas: quemadura de primer grado (epidérmica), analgésicos orales"
   },
   "TRA-027": {
-    titulo: "Pie plano en el niño",
+    titulo: "Niño de 6 años con pie plano flexible, sin dolor ni limitación: variante normal, no requiere tratamiento",
     imagen: "flujogramas/escolar-pie-plano-flexible-sin-dolor-no-tratar.svg",
-    alt: "Flujograma: Pie plano en el niño"
+    alt: "Flujograma: Niño de 6 años con pie plano flexible, sin dolor ni limitación: variante normal, no requiere tratamiento"
   },
   "CIR-077": {
     titulo: "Grado de las hemorroides",
