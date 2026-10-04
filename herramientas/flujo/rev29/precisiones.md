@@ -16,3 +16,5 @@
 - GIN-114: tras la mola también son válidos los anticonceptivos orales combinados (ACOG); lo que se evita es el DIU hasta que la β-hCG sea negativa.
 - NEU-031: GINA ya no usa la clasificación intermitente/persistente para tratar (usa pasos y control); la clave sigue la clasificación clásica por frecuencia.
 - NEU-033: el tratamiento principal del edema pulmonar de altura es descender; como ya bajó a Huaraz, lo que sigue es el oxígeno.
+- NEF-053: hoy se recomienda RM multiparamétrica antes de la biopsia (EAU 2024); con tacto sospechoso, la biopsia sigue siendo obligatoria.
+- PED-130: la BCG está contraindicada en el lactante con VIH sintomático; el rotavirus (vivo) se da con evaluación médica.

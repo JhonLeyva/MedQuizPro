@@ -455,8 +455,34 @@ def cerumen():
     guardar(fig, "dib_cerumen.jpg")
 
 
+# ───────────────────────────────────────────────────────── posturas: decorticación y descerebración
+def posturas():
+    fig, ax = lienzo(100, 80, "#ffffff")
+    PIEL_ = "#9a6b52"
+    def cuerpo(cx, flex, col, titulo, sub, lugar):
+        ax.add_patch(Circle((cx, 13), 4.5, fc="#f6dccb", ec=PIEL_, lw=2, zorder=3))
+        ax.plot([cx, cx], [17.5, 40], color=PIEL_, lw=10, solid_capstyle="round", zorder=2)          # tronco
+        for dx in (-1, 1):
+            ax.plot([cx + dx * 2.5, cx + dx * 3.5], [40, 60], color=PIEL_, lw=7, solid_capstyle="round", zorder=2)   # piernas rectas
+            ax.plot([cx + dx * 3.5, cx + dx * 4.5], [60, 64], color=PIEL_, lw=5, solid_capstyle="round", zorder=2)   # pies en punta
+            if flex:      # codo doblado, puño sobre el pecho
+                ax.plot([cx + dx * 4, cx + dx * 10], [21, 31], color=col, lw=7, solid_capstyle="round", zorder=4)
+                ax.plot([cx + dx * 10, cx + dx * 3], [31, 24], color=col, lw=7, solid_capstyle="round", zorder=4)
+                ax.add_patch(Circle((cx + dx * 3, 24), 2, fc=col, ec="none", zorder=5))
+            else:         # brazos rectos pegados, muñeca girada hacia afuera
+                ax.plot([cx + dx * 4, cx + dx * 8], [21, 42], color=col, lw=7, solid_capstyle="round", zorder=4)
+                ax.plot([cx + dx * 8, cx + dx * 11], [42, 45], color=col, lw=5, solid_capstyle="round", zorder=4)
+        rot(ax, cx, 3.5, titulo, 19, col)
+        rot(ax, cx, 70.5, sub, 17, TINTA)
+        rot(ax, cx, 77.5, lugar, 15, col, "normal")
+    cuerpo(22, True, AZUL, "DECORTICACIÓN", "brazos FLEXIONADOS", "lesión sobre el mesencéfalo")
+    cuerpo(78, False, ROJO, "DESCEREBRACIÓN", "brazos EXTENDIDOS", "lesión del tronco (más grave)")
+    rot(ax, 50, 40, "en ambas:\npiernas\nextendidas", 16, GRIS, "normal")
+    guardar(fig, "dib_posturas.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
