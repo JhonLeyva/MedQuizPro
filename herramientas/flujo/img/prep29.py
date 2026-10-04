@@ -404,3 +404,42 @@ if hacer("hiv_eco.jpg"):
 if hacer("varices_wale.jpg"):
     # Várices esofágicas con puntos rojos (red wale) en la endoscopía (Samir, dominio público)
     guardar(Image.open("orig/varices_wale.jpg").convert("RGB"), "varices_wale.jpg", 330, 90)
+
+# ── tanda 11
+if hacer("fast_morison.jpg"):
+    # Líquido libre en la bolsa de Morison (James Heilman, CC BY-SA 3.0)
+    guardar(Image.open("orig/fast_morison.png").convert("L"), "fast_morison.jpg", 391, 88)
+if hacer("livedo.jpg"):
+    # Livedo reticularis en la pierna (Nantsupawat y col., CC BY-SA 3.0)
+    guardar(Image.open("orig/livedo.jpg").convert("RGB"), "livedo.jpg", 500, 88)
+if hacer("alz_rm.jpg"):
+    # RM coronal: Alzheimer (izquierda) frente a cerebro normal (derecha), recuadro rojo en el hipocampo (McKeith y col., CC BY 4.0)
+    im = Image.open("orig/alz_rm.jpg").convert("RGB")
+    im.crop((0, 0, 243, 204)).save("/tmp/alz_a.jpg"); im.crop((489, 0, 732, 204)).save("/tmp/alz_n.jpg")
+    lado(["/tmp/alz_a.jpg", "/tmp/alz_n.jpg"], "alz_rm.jpg", 204)
+if hacer("otitis_cronica.jpg"):
+    # Colesteatoma con gran perforación timpánica (Michael Hawke, CC BY 4.0)
+    guardar(Image.open("orig/otitis_cronica.jpg").convert("RGB"), "otitis_cronica.jpg", 440, 85)
+if hacer("hic_tc.jpg"):
+    # Hemorragia intraparenquimal de ganglios basales en TC (Mirza y Gokhale, CC BY 4.0); asterisco y flechas de los autores
+    guardar(_rgba_blanco("orig/hic_tc.png").convert("L"), "hic_tc.jpg", 387, 88)
+
+# ── tanda 12
+if hacer("metastasis_rm.jpg"):
+    # Metástasis cerebral con edema en RM FLAIR (Drahreg01, CC BY-SA 4.0)
+    guardar(Image.open("orig/metastasis_rm.jpg").convert("L"), "metastasis_rm.jpg", 400, 88)
+if hacer("escarotomia.jpg"):
+    # Esquema de escarotomía en un miembro (Hariadhi, CC BY-SA 4.0)
+    guardar(_rgba_blanco("orig/escarotomia.png").crop((0, 0, 760, 960)), "escarotomia.jpg", 400, 88)
+if hacer("graves_ojos.jpg"):
+    # Proptosis y retracción palpebral en Graves (Jonathan Trobe, CC BY 3.0), recortada a los ojos
+    guardar(Image.open("orig/graves_ojos.jpg").convert("RGB").crop((0, 35, 250, 125)), "graves_ojos.jpg", 250, 92)
+if hacer("pie_zambo.jpg"):
+    # Pie equinovaro congénito (OpenStax College, CC BY 3.0)
+    guardar(Image.open("orig/pie_zambo.jpg").convert("RGB"), "pie_zambo.jpg", 400, 88)
+if hacer("onfalitis.jpg"):
+    # Onfalitis: eritema alrededor del ombligo, esquema (Hariadhi, CC BY-SA 4.0)
+    guardar(_rgba_blanco("orig/onfalitis.png").crop((120, 240, 840, 840)), "onfalitis.jpg", 400, 88)
+if hacer("lupus_malar.jpg"):
+    # Eritema malar del lupus (OpenStax, CC BY 4.0), recortado sin ojos ni boca
+    guardar(Image.open("orig/lupus_malar.jpg").convert("RGB").crop((0, 150, 607, 330)), "lupus_malar.jpg", 500, 88)
