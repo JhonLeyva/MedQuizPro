@@ -37,7 +37,8 @@ CATALOGO = [
     (47, "cascada", "Cascada fisiopatológica"), (48, "ecg_mapa", "ECG: derivaciones y territorio"),
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
-HECHOS = {"lectura", "zonas", "regla", "decision"}
+HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
+          "piramide", "grados_foto", "laboratorio"}
 
 
 def _img_h(im):
@@ -398,4 +399,352 @@ def decision(s, y, d):
     return y
 
 
-LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision}
+
+
+def _veredicto(s, y, v):
+    """Barra oscura final: (título, detalle)."""
+    t, dd = v
+    tl = wrap(t, X1 - X0 - 40, 13.5, True)
+    dl = wrap(dd, X1 - X0 - 40, 12) if dd else []
+    h = 22 + len(tl) * 19 + len(dl) * 17 + 14
+    s.rect(X0, y, X1 - X0, h, TEAL_D, rx=12)
+    s.text(X0 + 20, y + 26, tl, 13.5, 800, "#ffffff", "start", X1 - X0 - 40, lh=19)
+    if dl:
+        s.text(X0 + 20, y + 26 + len(tl) * 19, dl, 12, 500, "#ccfbf1", "start", X1 - X0 - 40, lh=17)
+    return y + h
+
+
+def _fin(s, y, d):
+    if d.get("veredicto"):
+        y = _veredicto(s, y + 18, d["veredicto"])
+    if d.get("claves"):
+        y = fila_cards(s, y + 20, d["claves"], None, d.get("claves_titulo"))
+    return y
+
+
+def _caja_txt(t, dd, w, ft=12.5, fd=11.5):
+    tl = wrap(t, w, ft, True)
+    dl = []
+    for l in ([dd] if isinstance(dd, str) else (dd or [])):
+        dl += wrap(l, w, fd)
+    return tl, dl, len(tl) * 17 + len(dl) * 16
+
+
+def _txt(s, x, top, tl, dl, w, on, col_on="#9a3412", ft=12.5, fd=11.5, anchor="start"):
+    s.text(x, top + 13, tl, ft, 800, col_on if on else INK, anchor, w, lh=17)
+    if dl:
+        s.text(x, top + 13 + len(tl) * 17, dl, fd, 400, SLATE, anchor, w, lh=16)
+
+
+# ════════════════════════════════════════════════════════════ 27 CUADRÍCULA 2×2
+def cuadricula(s, y, d):
+    """Cuatro casillas (2×2), cada una con foto opcional, título y datos; la del caso resaltada.
+    Con cols/rows (p. ej. FODA: interno/externo × favorable/desfavorable) se rotulan los ejes."""
+    y = section(s, y + 10, d["rotulo"])
+    cols, rows = d.get("cols"), d.get("rows")
+    RW = 120 if rows else 0
+    x0 = X0 + RW
+    W = X1 - x0
+    gap = 14
+    cw = (W - gap) / 2
+    if cols:
+        for j, c in enumerate(cols):
+            s.rect(x0 + j * (cw + gap), y, cw, 30, "#f1f5f9", LINE, 1.2, rx=8)
+            s.text(x0 + j * (cw + gap) + cw / 2, y + 20, c, 11.5, 800, "#334155", maxw=cw - 16)
+        y += 38
+    cel = d["celdas"]
+    IH = d.get("alto_img", 150)
+    for r in range(2):
+        meds = []
+        for c in range(2):
+            t, ls, im, on = cel[r * 2 + c]
+            tl, dl, th = _caja_txt(t, ls, cw - 28)
+            meds.append((tl, dl, th))
+        hasimg = any(cel[r * 2 + c][2] for c in range(2))
+        h = 14 + (IH + 12 if hasimg else 0) + max(m[2] for m in meds) + 16
+        if rows:
+            rl = wrap(rows[r], RW - 20, 11.5, True)
+            s.rect(X0, y, RW - 8, h, "#f1f5f9", LINE, 1.2, rx=8)
+            s.text(X0 + (RW - 8) / 2, y + h / 2 + 4 - (len(rl) - 1) * 7.5, rl, 11.5, 800, "#334155", maxw=RW - 20, lh=15)
+        for c in range(2):
+            t, ls, im, on = cel[r * 2 + c]
+            tl, dl, th = meds[c]
+            x = x0 + c * (cw + gap)
+            s.rect(x, y, cw, h, ORANGE_L if on else "#ffffff", ORANGE if on else LINE, 2.4 if on else 1.4, rx=12)
+            ty = y + 14
+            if im:
+                iw = min(cw - 28, im["W"] * IH / im["H"])
+                ih = iw * im["H"] / im["W"]
+                _img(s, x + (cw - iw) / 2, ty + (IH - ih) / 2, {**im, "W": iw, "H": ih, "credito": ""})
+                ty += IH + 12
+            elif hasimg:
+                ty += (IH + 12) / 2 - 8
+            _txt(s, x + 14, ty, tl, dl, cw - 28, on)
+            if on:
+                case_chip(s, x + cw - tw("◆ ESTE CASO", 10, True) / 2 - 20, y, d.get("tag", "ESTE CASO"))
+        y += h + gap
+    y -= gap
+    if d.get("credito"):
+        credito(s, X0, y + 14, X1 - X0, d["credito"])
+        y += 18
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 40 SIGNOS DE ALARMA
+def alarma(s, y, d):
+    """Signos de alarma (triángulo rojo si están en el caso) → qué hacer si hay al menos uno; imagen opcional."""
+    y = section(s, y + 10, d["rotulo"])
+    im = d.get("img")
+    RWd = (im["W"] + 28) if im else 300
+    LW = X1 - X0 - RWd - 18
+    sig = d["signos"]
+    meds = [_caja_txt(t, dd, LW - 70) for t, dd, _ in sig]
+    rows_h = [max(44, m[2] + 20) for m in meds]
+    s.rect(X0, y, LW, 34, RED_L, "#fca5a5", 1.2, rx=10)
+    s.text(X0 + 16, y + 22, d.get("lista_titulo", "Signos de alarma").upper(), 11.5, 800, "#991b1b", "start", LW - 150)
+    s.text(X0 + LW - 16, y + 22, "EN EL CASO", 10.5, 800, "#991b1b", "end", 100)
+    yy = y + 40
+    for (t, dd, pres), (tl, dl, th), h in zip(sig, meds, rows_h):
+        s.rect(X0, yy, LW, h, "#fff1f2" if pres else "#ffffff", "#ef4444" if pres else LINE, 1.6 if pres else 1.1, rx=8)
+        cx, cy = X0 + 22, yy + h / 2
+        col = "#dc2626" if pres else "#cbd5e1"
+        s.add(f'<polygon points="{cx:.1f},{cy-11:.1f} {cx+12:.1f},{cy+9:.1f} {cx-12:.1f},{cy+9:.1f}" fill="{col}"/>')
+        s.text(cx, cy + 6, "!", 11, 800, "#ffffff", maxw=0)
+        _txt(s, X0 + 44, yy + (h - th) / 2, tl, dl, LW - 140, pres, "#991b1b")
+        lab = "Sí" if pres is True else ("No" if pres is False else "Sin dato")
+        s.text(X0 + LW - 16, yy + h / 2 + 4, lab, 12, 800, "#dc2626" if pres else MUTED, "end", 80)
+        yy += h + 6
+    LH = yy - 6 - y
+    # panel derecho: imagen opcional + acción
+    x = X1 - RWd
+    a_t, a_d = d["accion"]
+    atl, adl, ath = _caja_txt(a_t, a_d, RWd - 32, 13.5, 12)
+    ah = ath + 50
+    ih = (40 + _img_h(im) + 10) if im else 0
+    H = max(LH, ih + 14 + ah)
+    if im:
+        panel(s, x, y, RWd, ih, d.get("img_titulo", "Así se ve"))
+        _img(s, x + 14, y + 38, im)
+    ay = y + (ih + 14 if im else 0)
+    ah = H - (ay - y)
+    s.rect(x, ay, RWd, ah, "#dc2626", rx=12)
+    s.text(x + 16, ay + 24, d.get("accion_rotulo", "Si hay uno o más").upper(), 10.5, 800, "#fecaca", "start", RWd - 32)
+    top = ay + 34 + (ah - 34 - ath) / 2 - 6
+    s.text(x + 16, top + 13, atl, 13.5, 800, "#ffffff", "start", RWd - 32, lh=17)
+    if adl:
+        s.text(x + 16, top + 13 + len(atl) * 17, adl, 12, 500, "#fee2e2", "start", RWd - 32, lh=16)
+    y += H
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 47 CASCADA FISIOPATOLÓGICA
+def cascada(s, y, d):
+    """De la causa al signo: cada paso del mecanismo (izquierda, con flechas hacia abajo) y, en su misma fila,
+    lo que produce en el caso (derecha)."""
+    y = section(s, y + 10, d["rotulo"])
+    LW = d.get("ancho_pasos", 430)
+    AW = 46
+    x2 = X0 + LW + AW
+    RW = X1 - x2
+    if d.get("cabeceras"):
+        a, b = d["cabeceras"]
+        s.text(X0, y + 12, a.upper(), 10.5, 800, MUTED, "start", LW)
+        s.text(x2, y + 12, b.upper(), 10.5, 800, MUTED, "start", RW)
+        y += 22
+    for i, (t, dd, efs) in enumerate(d["pasos"]):
+        tl, dl, th = _caja_txt(t, dd, LW - 60)
+        em = [_caja_txt(et, ed, RW - 30, 12, 11) + (on,) for et, ed, on in efs]
+        eh = sum(m[2] + 22 for m in em) + 6 * max(len(em) - 1, 0)
+        h = max(th + 26, eh, 46)
+        s.rect(X0, y, LW, h, TEAL_L, TEAL_B, 1.5, rx=10)
+        s.circle(X0 + 22, y + h / 2, 12, TEAL)
+        s.text(X0 + 22, y + h / 2 + 4.5, str(i + 1), 12, 800, "#ffffff", maxw=0)
+        _txt(s, X0 + 44, y + (h - th) / 2, tl, dl, LW - 60, False)
+        if em:
+            s.arrow_right(X0 + LW + 6, x2 - 6, y + h / 2, ORANGE)
+        ey = y + (h - eh) / 2
+        for tl2, dl2, th2, on in em:
+            hh = th2 + 22
+            s.rect(x2, ey, RW, hh, ORANGE_L if on else "#ffffff", ORANGE if on else LINE, 1.8 if on else 1.2, rx=10)
+            s.text(x2 + 14, ey + 11 + 13, tl2, 12, 800, "#9a3412" if on else INK, "start", RW - 30, lh=17)
+            if dl2:
+                s.text(x2 + 14, ey + 11 + 13 + len(tl2) * 17, dl2, 11, 400, SLATE, "start", RW - 30, lh=16)
+            ey += hh + 6
+        y += h
+        if i < len(d["pasos"]) - 1:
+            s.arrow_down(X0 + LW / 2, y + 2, y + 22, TEAL)
+            y += 24
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 39 LISTA DE VERIFICACIÓN
+def checklist(s, y, d):
+    """Pasos en orden con su casilla (el que pide la pregunta resaltado) y, a la derecha, lo que NO se hace."""
+    y = section(s, y + 10, d["rotulo"])
+    no = d.get("no_hacer", [])
+    RW = 300 if no else 0
+    LW = X1 - X0 - (RW + 18 if no else 0)
+    yy = y
+    for i, (t, dd, on) in enumerate(d["pasos"]):
+        tl, dl, th = _caja_txt(t, dd, LW - 90)
+        h = max(46, th + 24)
+        s.rect(X0, yy, LW, h, ORANGE_L if on else "#ffffff", ORANGE if on else LINE, 2.2 if on else 1.2, rx=10)
+        s.text(X0 + 20, yy + h / 2 + 5, str(i + 1), 14, 800, ORANGE if on else TEAL, maxw=0)
+        s.rect(X0 + 38, yy + h / 2 - 11, 22, 22, ORANGE if on else TEAL, rx=5)
+        s.text(X0 + 49, yy + h / 2 + 5, "✓", 13, 800, "#ffffff", maxw=0)
+        _txt(s, X0 + 74, yy + (h - th) / 2, tl, dl, LW - 90, on)
+        if on:
+            case_chip(s, X0 + LW - tw("◆ ESTE CASO", 10, True) / 2 - 20, yy, d.get("tag", "PRIMERO"))
+        yy += h + 8
+    LH = yy - 8 - y
+    if no:
+        x = X1 - RW
+        meds = [_caja_txt(t, dd, RW - 56, 12, 11) for t, dd in no]
+        nh = 40 + sum(m[2] + 16 for m in meds) + 10
+        H = max(LH, nh)
+        s.rect(x, y, RW, H, RED_L, "#fca5a5", 1.5, rx=12)
+        s.text(x + 16, y + 26, d.get("no_titulo", "No hacer").upper(), 11.5, 800, "#991b1b", "start", RW - 32)
+        cy = y + 40 + (H - nh) / 2
+        for tl, dl, th in meds:
+            s.text(x + 22, cy + 13, "✕", 13, 800, "#dc2626", maxw=0)
+            s.text(x + 40, cy + 13, tl, 12, 800, "#7f1d1d", "start", RW - 56, lh=17)
+            if dl:
+                s.text(x + 40, cy + 13 + len(tl) * 17, dl, 11, 400, "#7f1d1d", "start", RW - 56, lh=16)
+            cy += th + 16
+        LH = H
+    y += LH
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 50 MONITOR DE SIGNOS VITALES
+def monitor(s, y, d):
+    """Pantalla de monitor con los signos vitales del caso (rojo alto, azul bajo, verde normal) y, a la derecha,
+    cómo se leen juntos."""
+    y = section(s, y + 10, d["rotulo"])
+    MW = d.get("ancho_monitor", 470)
+    vals = d["valores"]
+    ncol = 2
+    tw_ = (MW - 36 - 12) / ncol
+    th_ = 82
+    nfil = (len(vals) + 1) // 2
+    ecg_h = 84 if d.get("ecg") else 0
+    MH = 50 + ecg_h + nfil * (th_ + 10) + 8
+    lect = d["lectura"]
+    x = X0 + MW + 18
+    w = X1 - x
+    meds = [_caja_txt(t, dd, w - 30) for t, dd, _ in lect]
+    lh = sum(m[2] + 24 for m in meds) + 8 * (len(meds) - 1)
+    H = max(MH, lh)
+    s.rect(X0, y, MW, H, "#0b1220", "#334155", 3, rx=16)
+    s.rect(X0 + 12, y + 12, 150, 24, "#1e293b", rx=6)
+    s.text(X0 + 22, y + 29, d.get("titulo_monitor", "MONITOR · ESTE CASO"), 10.5, 800, "#5eead4", "start", 132)
+    yy = y + 50
+    if d.get("ecg"):
+        pts = []
+        n = int((MW - 40) / 46)
+        for k in range(n):
+            bx = X0 + 20 + k * 46
+            base = yy + 58
+            pts += [(bx, base), (bx + 12, base), (bx + 15, base - 6), (bx + 18, base), (bx + 21, base + 4),
+                    (bx + 24, base - 30), (bx + 27, base + 8), (bx + 30, base), (bx + 38, base - 8), (bx + 44, base)]
+        s.add('<polyline points="' + " ".join(f"{a:.1f},{b:.1f}" for a, b in pts) + '" fill="none" stroke="#4ade80" stroke-width="2"/>')
+        s.text(X0 + MW - 20, yy + 6, d["ecg"], 10.5, 800, "#4ade80", "end", 200)
+        yy += ecg_h
+    COL = {"alto": ("#f87171", "#450a0a"), "bajo": ("#60a5fa", "#0c1e3d"), "ok": ("#4ade80", "#052e16")}
+    for k, (sig, val, uni, est) in enumerate(vals):
+        cx = X0 + 18 + (k % ncol) * (tw_ + 12)
+        cy = yy + (k // ncol) * (th_ + 10)
+        fg, bg = COL[est]
+        s.rect(cx, cy, tw_, th_, bg, fg, 1.5, rx=10)
+        s.text(cx + 12, cy + 22, sig, 11.5, 800, fg, "start", tw_ - 24)
+        s.text(cx + tw_ / 2, cy + 58, val, 26, 800, fg, maxw=tw_ - 24)
+        s.text(cx + tw_ - 12, cy + 22, uni + (" ▲" if est == "alto" else (" ▼" if est == "bajo" else "")), 10.5, 700, fg, "end", tw_ / 2)
+    cy = y + (H - lh) / 2
+    for (t, dd, on), (tl, dl, th) in zip(lect, meds):
+        h = th + 24
+        s.rect(x, cy, w, h, ORANGE_L if on else "#f8fafc", ORANGE if on else LINE, 2 if on else 1.2, rx=10)
+        _txt(s, x + 15, cy + 12, tl, dl, w - 30, on)
+        cy += h + 8
+    y += H
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 30 PIRÁMIDE
+def piramide(s, y, d):
+    """Pirámide de niveles (de la cima a la base) con el nivel del caso y su descripción al lado."""
+    y = section(s, y + 10, d["rotulo"])
+    niv = d["niveles"]
+    n = len(niv)
+    PW = d.get("ancho", 420)
+    x = X0 + PW + 26
+    w = X1 - x
+    meds = [_caja_txt(t, dd, w - 30) for _, t, dd in niv]
+    rh = max(56, max(m[2] for m in meds) + 22)
+    gap = 6
+    caso = d.get("caso", -1)
+    cxp = X0 + PW / 2
+    for i, ((et, t, dd), (tl, dl, th)) in enumerate(zip(niv, meds)):
+        yy = y + i * (rh + gap)
+        wt = 70 + (PW - 70) * i / n
+        wb = 70 + (PW - 70) * (i + 1) / n
+        on = i == caso
+        fill = ORANGE if on else ["#ccfbf1", "#99f6e4", "#5eead4", "#2dd4bf", "#14b8a6", "#0d9488"][min(i, 5)]
+        s.add(f'<polygon points="{cxp-wt/2:.1f},{yy:.1f} {cxp+wt/2:.1f},{yy:.1f} {cxp+wb/2:.1f},{yy+rh:.1f} {cxp-wb/2:.1f},{yy+rh:.1f}" '
+              f'fill="{fill}" stroke="#ffffff" stroke-width="2"/>')
+        s.text(cxp, yy + rh / 2 + 5, et, 12.5, 800, "#ffffff" if (on or i >= 3) else TEAL_D, maxw=wt - 12)
+        s.rect(x, yy, w, rh, ORANGE_L if on else "#ffffff", ORANGE if on else LINE, 2 if on else 1.2, rx=10)
+        _txt(s, x + 15, yy + (rh - th) / 2, tl, dl, w - 30, on)
+        if on:
+            case_chip(s, x + w - tw("◆ ESTE CASO", 10, True) / 2 - 20, yy, d.get("tag", "ESTE CASO"))
+    y += n * (rh + gap) - gap
+    if d.get("pie"):
+        s.text(cxp, y + 18, d["pie"], 10.5, 700, MUTED, maxw=PW)
+        y += 22
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 46 GRADOS CON FOTO
+def grados_foto(s, y, d):
+    """Los grados de una clasificación en fila, cada uno con su foto o dibujo, y el del caso resaltado."""
+    y = section(s, y + 10, d["rotulo"])
+    if d.get("criterio"):
+        cl = wrap(d["criterio"], X1 - X0 - 20, 12, True)
+        s.text(X0 + 4, y + 14, cl, 12, 700, TEAL_D, "start", X1 - X0 - 20, lh=17)
+        y += len(cl) * 17 + 10
+    items = [(im, f"{etq} · {nom}" if nom else etq, det, on) for etq, nom, det, im, on in d["grados"]]
+    y = _tira(s, y, items, d.get("tira_titulo", ""), d.get("credito")) if True else y
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 32 PANEL DE LABORATORIO
+def laboratorio(s, y, d):
+    """Resultados del caso con su valor normal y una flecha (↑ alto, ↓ bajo); a la derecha, qué significa cada uno.
+    Abajo, el patrón que forman juntos."""
+    y = section(s, y + 10, d["rotulo"])
+    W = X1 - X0
+    c1, c2, c3 = 200, 150, 150
+    c4 = W - c1 - c2 - c3
+    s.rect(X0, y, W, 32, "#f1f5f9", LINE, 1.2, rx=8)
+    for t, xx, ww in (("Examen", X0 + 14, c1), ("Valor del caso", X0 + c1 + 10, c2), ("Normal", X0 + c1 + c2 + 10, c3),
+                      ("Qué significa", X0 + c1 + c2 + c3 + 10, c4)):
+        s.text(xx, y + 21, t.upper(), 10.5, 800, MUTED, "start", ww - 20)
+    y += 38
+    COL = {"↑": ("#dc2626", "#fef2f2"), "↓": ("#2563eb", "#eff6ff"), "=": ("#15803d", "#f0fdf4")}
+    for ex, val, ref, fl, sig in d["valores"]:
+        sl = wrap(sig, c4 - 24, 11.5)
+        el = wrap(ex, c1 - 24, 12, True)
+        h = max(40, len(sl) * 16 + 18, len(el) * 17 + 16)
+        fg, bg = COL[fl]
+        s.rect(X0, y, W, h, bg, LINE, 1, rx=8)
+        s.text(X0 + 14, y + h / 2 + 4 - (len(el) - 1) * 8.5, el, 12, 800, INK, "start", c1 - 24, lh=17)
+        s.text(X0 + c1 + 10, y + h / 2 + 5, val + ("  " + fl if fl != "=" else ""), 13, 800, fg, "start", c2 - 16)
+        s.text(X0 + c1 + c2 + 10, y + h / 2 + 4, ref, 11.5, 500, SLATE, "start", c3 - 16)
+        s.text(X0 + c1 + c2 + c3 + 10, y + h / 2 + 4 - (len(sl) - 1) * 8, sl, 11.5, 500, "#334155", "start", c4 - 24, lh=16)
+        y += h + 4
+    y -= 4
+    return _fin(s, y, d)
+
+
+LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision, "cuadricula": cuadricula,
+            "alarma": alarma, "cascada": cascada, "checklist": checklist, "monitor": monitor, "piramide": piramide,
+            "grados_foto": grados_foto, "laboratorio": laboratorio}

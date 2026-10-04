@@ -65,3 +65,10 @@ def S(tipo, id_, titulo, barra, tema, caso, perlas, fuente, op, esp=None, **k):
     esp = (esp or ESP[id_.split("-")[0]]) + " ENAM"
     return _S(tipo, id_, ARCHIVO[id_], titulo, barra, esp, tema, caso, perlas, fuente,
               tabla=("Opciones de la pregunta", cols, [(crit, razones)]), _reg=F28, **k)
+
+
+def PA(archivo, W, marcas=(), credito="", fondo="#000000"):
+    """Como P, pero el alto sale de la proporción real del archivo (evita recortes por proporción mal escrita)."""
+    from PIL import Image
+    w, h = Image.open(os.path.join(AQUI, "img", archivo)).size
+    return P(archivo, W, round(W * h / w), marcas, credito, fondo)

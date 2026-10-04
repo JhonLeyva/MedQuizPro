@@ -746,6 +746,20 @@ def ctg(s, x, y, patron="tardias", W=560, sc=1.0):
             v = 150 + 10 * _m.sin(2 * _m.pi * tt / 0.33) if tt < 7.5 else 150 - (tt - 7.5) * 26 + 3 * _m.sin(i)
             v = max(v, 88)
             c = 0.12 + 0.1 * max(0, _m.sin(2 * _m.pi * tt / 3.3)) ** 2
+        elif patron == "hipertonia":
+            # bolo de oxitocina en el minuto 2: contracción sostenida (hipertonía) → taquicardia y luego bradicardia
+            c = 0.1 + 0.85 * max(0, _m.sin(2 * _m.pi * tt / 3.3)) ** 6 if tt < 2 else (0.95 if tt < 7 else 0.95 - (tt - 7) * 0.3)
+            c = max(c, 0.1)
+            if tt < 2:
+                v = 142 + 4 * _m.sin(i * 0.9)
+            elif tt < 3.3:
+                v = 142 + (tt - 2) * 22 + 2 * _m.sin(i)
+            elif tt < 4:
+                v = 170 - (tt - 3.3) * 110
+            elif tt < 7.5:
+                v = 92 + 3 * _m.sin(i * 0.8)
+            else:
+                v = 92 + (tt - 7.5) * 18 + 2 * _m.sin(i)
         elif patron == "tardias":
             c = sum(max(0, _m.cos(_m.pi * (tt - (0.9 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (0.9 + 2 * k)) < 0.65)
             dec = sum(max(0, _m.cos(_m.pi * (tt - (1.6 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (1.6 + 2 * k)) < 0.65)

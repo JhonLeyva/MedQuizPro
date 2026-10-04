@@ -91,3 +91,55 @@ if hacer("dxa_lumbar.jpg"):
 if hacer("mordida_perro.jpg"):
     o = Image.open("orig/morso_cane.jpg").convert("RGB")
     guardar(Image.fromarray(np.array(o.crop((0, 260, 820, 1180)))), "mordida_perro.jpg", 520, 86)
+
+# ── TRA-029 · Artrosis de rodilla izquierda, Rx AP (James Heilman, MD, Commons, CC BY-SA 3.0)
+if hacer("oa_rodilla.jpg"):
+    o = Image.open("orig/oa_rodilla.jpg").convert("L").crop((0, 300, 960, 1060))
+    o = ImageOps.autocontrast(o, cutoff=0.5).point(lambda v: int(255 * (v / 255) ** 2.2))
+    guardar(o, "oa_rodilla.jpg", 480, 88)
+# ── GAS-050 · Gastritis erosiva hemorrágica (Amadalvarez, Commons, CC BY-SA 4.0); se recorta el borde azul
+if hacer("gastritis_erosiva.jpg"):
+    guardar(Image.open("orig/gastritis_erosiva.jpg").convert("RGB").crop((0, 40, 470, 438)), "gastritis_erosiva.jpg", 400, 88)
+# ── GAS-051 · Cáncer de colon estenosante en la colonoscopía (G. Narasimha Murthy, Commons, CC0)
+if hacer("ca_colon.jpg"):
+    guardar(Image.open("orig/ca_colon.jpg").convert("RGB").crop((60, 0, 900, 830)), "ca_colon.jpg", 420, 88)
+
+# ── GIN-141 · Cérvix «en fresa» en la colposcopía (Aribodor et al., BMC Public Health 2024, PMC10988871, CC BY 4.0)
+if hacer("cervix_fresa.jpg"):
+    o = Image.open("orig/cervix_fresa.jpg").convert("RGB").crop((0, 95, 744, 446))
+    a = np.array(o).astype(int)
+    m = (a.sum(2) < 200)                      # líneas negras y letras «S» del autor
+    m[:, :int(0.15 * a.shape[1])] = False
+    o = rellenar(o, m, 7)
+    guardar(o, "cervix_fresa.jpg", 500, 88)
+# ── GAS-052 · TC: masa hipodensa en la cabeza del páncreas (Sone et al., Surg Case Rep 2026, PMC13572855, CC BY 4.0), panel A
+if hacer("pancreas_ca_tc.jpg"):
+    o = Image.open("orig/pancreas_ca_tc.jpg").convert("L").crop((0, 0, 700, 580))
+    o0 = o
+    a = np.array(o)
+    m = np.zeros(a.shape, bool)
+    m[:118, :122] = True                                   # letra del panel
+    m[90:240, 380:600] = a[90:240, 380:600] > 200          # rótulos SMV / SMA
+    o = rellenar(o, m, 7).crop((125, 115, 700, 580))
+    guardar(o, "pancreas_ca_tc.jpg", 480, 88)
+# ── NEF-063 · Angio-TC con émbolo en silla de montar (Aung Myat y Arif Ahsan, Commons, CC BY 2.0), corte axial
+if hacer("tep_tc.jpg"):
+    guardar(Image.open("orig/tep_tc.jpg").convert("L").crop((0, 278, 401, 546)), "tep_tc.jpg", 401, 88)
+# ── INF-075 · Inclusión de citomegalovirus «en ojo de búho» (CDC, Commons, dominio público)
+if hacer("cmv_inclusion.jpg"):
+    guardar(Image.open("orig/cmv_inclusion.jpg").convert("RGB").crop((300, 40, 940, 600)), "cmv_inclusion.jpg", 420, 88)
+# ── INF-075 · Esofagitis por cándida en la endoscopía (James Heilman, MD, Commons, CC BY-SA 3.0)
+if hacer("candida_esof.jpg"):
+    guardar(Image.open("orig/candida_esof.jpg").convert("RGB").crop((110, 60, 900, 700)), "candida_esof.jpg", 420, 88)
+# ── INF-076 · Trofozoítos de E. histolytica con hematíes fagocitados (CDC, Commons, dominio público)
+if hacer("ameba.jpg"):
+    guardar(Image.open("orig/ameba.jpg").convert("RGB"), "ameba.jpg", 282, 92)
+# ── CIR-082 · Íleo adinámico: asas de delgado y colon dilatadas (Radiopaedia 11177, Commons, dominio público)
+if hacer("ileo_rx.jpg"):
+    guardar(Image.open("orig/ileo_rx.jpg").convert("L").crop((0, 0, 500, 560)), "ileo_rx.jpg", 400, 88)
+# ── GIN-141 · Tricomonas en fresco, contraste de fases (CDC/PHIL, Commons, dominio público)
+if hacer("trico.jpg"):
+    guardar(Image.open("orig/trico.png").convert("RGB").crop((230, 60, 830, 560)), "trico.jpg", 420, 88)
+# ── GIN-141 · Seudohifas de cándida en KOH (Mikael Häggström, Commons, CC0); se conservan sus flechas
+if hacer("candida_koh.jpg"):
+    guardar(Image.open("orig/candida_koh.jpg").convert("RGB").crop((30, 30, 480, 480)), "candida_koh.jpg", 400, 88)

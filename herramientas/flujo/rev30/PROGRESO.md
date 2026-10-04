@@ -1,0 +1,11 @@
+# Entrega 3 (flujogramas 1001-1500 de algoritmos.js)
+Lista en `rev30/entrega3.json`; fichas en `rev30/tNN.txt` (25 c/u). Contenido en `content30a.py` (t00), `content30b.py` (t01)…
+Construir: `python3 build28.py <out> $(ids)` → `node check27.cjs <out>/flujogramas <out>/png`; revisar con `python3 hoja.py <png> salida.png archivos…`.
+Imágenes: PubMed Central (`img/pmc.py cap/bajar`), Commons (`img/cm.py`, `img/wm.py`), recortes `img/prep30.py`, dibujos `img/dibujos30.py`.
+Usar `PA(archivo, ancho, marcas, credito)` (alto según la proporción real) para no recortar dibujos.
+Índice de imágenes ya usadas con su crédito: `python3 indice_img.py texto`.
+
+| Tanda | Archivo | Estado |
+|---|---|---|
+| t00 | content30a.py | hecha, 0 problemas; 4 ejemplos + 21. Diseños: lectura ×2, zonas, regla, decision ×2, cuadricula ×3, alarma, cascada, checklist, monitor, piramide, laboratorio, semaforo, termometro ×1, tarjetas ×3, radial, arbol ×2, fases, matriz. Imágenes nuevas: oa_rodilla, gastritis_erosiva, ca_colon (Commons); dibujos propios dib_muestreo, dib_tacto_rectal, dib_regla9_adulto; reutiliza ascitis, mallory, varices_wale, ulcera_endo, auer, midriasis, neumoperitoneo, dib hemorroides (ilu7) |
+| t01 | content30b.py | hecha, 0 problemas. Diseños: cuadricula ×3, lectura, embudo ×3, cascada ×2, laboratorio ×2, tarjetas ×4, arbol ×2, red, regla ×2, fases, radial, balanza ×2, checklist, ciclo. Imágenes nuevas: trico, candida_koh (Commons CDC/CC0), cmv_inclusion, candida_esof, ameba, ileo_rx, tep_tc (Commons), pancreas_ca_tc (PMC13572855); dibujos dib_ataque, dib_mano_cubital, dib_hernias_pared; CTG «hipertonia» nuevo en ilu7.ctg. Reutiliza leish, esporotricosis, escrofula, celulas_clave, gonococo, edema_ap, acantosis, tb_cavitaria, petequias, dib_derrame, zoster_tzanck |

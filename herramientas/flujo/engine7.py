@@ -321,7 +321,7 @@ def balanza(s, y, d):
     dx = L * math.cos(math.radians(tilt))
     s.add(f'<rect x="{cx-7:.1f}" y="{by:.1f}" width="14" height="190" rx="5" fill="#64748b"/>'
           f'<path d="M{cx-60:.1f} {by+205:.1f} H{cx+60:.1f} L{cx+40:.1f} {by+185:.1f} H{cx-40:.1f} Z" fill="#475569"/>'
-          f'<circle cx="{cx:.1f}" cy="{by:.1f}" r="11" fill="{AMBER}" stroke="#92400e" stroke-width="2"/>'
+          f'<circle cx="{cx:.1f}" cy="{by:.1f}" r="15" fill="{AMBER}" stroke="#92400e" stroke-width="2"/>'
           f'<line x1="{cx-dx:.1f}" y1="{by-dy:.1f}" x2="{cx+dx:.1f}" y2="{by+dy:.1f}" stroke="#334155" stroke-width="7" stroke-linecap="round"/>')
     for sx, sy, lado in ((cx - dx, by - dy, "izq"), (cx + dx, by + dy, "der")):
         on = lado == gana
