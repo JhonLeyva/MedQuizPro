@@ -19,3 +19,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 | t12 | content29m.py | hecha, 0 problemas; 10 con imagen (metastasis_rm, escarotomia, graves_ojos, pie_zambo, onfalitis, lupus_malar; reutiliza dib_tarjeta_heces, papiledema, dib_pupilas, hidronefrosis). Falta colposcopía (Commons 429, se reintenta) |
 | t11 | content29l.py | hecha, 0 problemas; 13 con imagen (alz_rm, fast_morison, otitis_cronica, livedo, hic_tc, emh_rx; propias: dib_craneo_rn, dib_derrame, dib_cerumen; reutiliza ecg_fv, ecg_fa) |
 | t13 | content29n.py | hecha, 0 problemas; 8 con imagen (celulas_clave [rótulos en inglés borrados], escrofula, geniogloso; propia: dib_dengue_pruebas; reutiliza janeway) |
+| t14 | content29o.py | hecha, 0 problemas; 7 con imagen (panal_candida, hipema, pelagra [manos]; propia: dib_regla9; reutiliza pcp_rx, ectopico_tubario) |
