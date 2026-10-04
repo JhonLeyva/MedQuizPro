@@ -11,7 +11,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - **Código de la web:** la copia más reciente está en `herramientas/plataforma_materias/` (versión `?v=20260930-materias`); la anterior, en la rama `origin/claude/clever-franklin-1fao9i` (versión `20260928-plataforma`). Antes de entregar cambios de código, pide al usuario que abra `public_html/index.html` en Hostinger y busque el texto `?v=`: si coincide con una de esas versiones, trabaja sobre esa copia; si no, pídele que descargue los archivos que vas a tocar y trabaja sobre ellos.
 - **Al terminar cada tarea, actualiza este archivo** (estado, herramientas nuevas, próxima tarea) y súbelo con commit y push, para que el siguiente chat sepa todo lo hecho.
 
-## Estado actual (3-oct-2026: ver al final «Revisión por entregas de 500» — ENTREGA 1 HECHA; siguen las entregas 2 a 5)
+## Estado actual (4-oct-2026: ver al final «Revisión por entregas de 500» — ENTREGAS 1 Y 2 HECHAS; siguen las entregas 3 a 5)
 - **Rama con el trabajo más reciente:** `claude/vibrant-albattani-g7t3b3` (parte de `claude/sweet-franklin-dbg0mc` + bloque ENAM 2026). Total 2380 preguntas y 2106 flujogramas: **faltan los 274 flujogramas del bloque ENAM 2026**.
 - **Bancos:** 2380 preguntas (bloques 1 a 8 = 1713 + 393 de Ciencias Básicas + 274 del bloque ENAM 2026). `site/bancos/` ya tiene las 2380.
   - `herramientas/site/bancos/` tiene los 17 JSON finales (ciencias_basicas.json con 485).
@@ -266,7 +266,7 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - Imágenes nuevas (`flujo/img/prep27b.py`): `edema_ap.jpg` (Gaillard y Jones, Radiopaedia, CC BY-SA 3.0; se borró «@17.00HRS») y `neumonia_lm.jpg` (lóbulo medio derecho, J. Heilman, CC BY-SA 4.0; aún sin usar). Originales en `img/orig/` (también `edema_sobrecarga.png`, `edema_1601.png`, candidatas). `img/wm.py` sigue siendo la forma de bajar (la API da 429).
 - Paquete: `flujo/pack27b.py` (ver su docstring). Para la tanda grande: cada flujograma debe llevar su clasificación/escala oficial cuando exista (Glasgow, Killip, NYHA, Child-Pugh, Ranson/Atlanta/Balthazar, Alvarado, CURB-65, Centor, Wells, Apgar, Silverman, Bishop, FIGO, Gustilo, Garden, Salter-Harris, Forrest, Hinchey, Fontaine, Wagner, Parkland, Tokio, Page, FAB, OPS dengue, etc.), con el grado del caso y su porqué.
 
-## Revisión por entregas de 500 (pedido 3-oct-2026) — ENTREGA 1 ENTREGADA
+## Revisión por entregas de 500 (pedido 3-oct-2026) — ENTREGAS 1 Y 2 ENTREGADAS
 - Pedido del usuario (aprobó los 4 ejemplos): elegir en TODO el banco y mejorar cada flujograma donde aplique — clasificación o escala oficial con el caso ubicado y su porqué, signos/tríadas con nombre propio, imagen real solo si aporta (franja sin hueco, notas título + detalle), tabla de opciones con las alternativas ACTUALES del banco, información de guías al 2026 — y entregarlo en bloques de 500, en el orden de `site/algoritmos.js`, hasta acabar (2379 con imagen; CAR-001 es de pasos de texto y se salta).
 - Plan: Entrega 1 = 0-499 (bloques 1-5, sin fuentes previas: specs desde cero) — **HECHA**; Entrega 2 = 500-999 (b6 422 + b5 78); Entrega 3 = 1000-1499 (b7 + b6); Entrega 4 = 1500-1999 (cb 288 + b8 134 + b7 78); Entrega 5 = 2000-2379 (e26 274 + cb 105). Mapa en el scratchpad (`mapa_bloques.json`); rehacerlo con el orden de algoritmos.js si hace falta. Bloques 6/7/8/CB tienen specs (content6*/7*/8*/cb*, motor engine4/build4) y E26 tiene content26*: para esas entregas conviene escribir specs nuevas en el formato c28 (más rápido y uniforme que adaptar las viejas).
 - Herramientas (todas en `herramientas/flujo/`):
@@ -281,5 +281,19 @@ Eres el asistente técnico de MedQuizPro/MedQuizPlus, un banco de preguntas del 
 - Resultado de la Entrega 1 (`MedQuizPro_revision_entrega1_500.zip`): 500 flujogramas, 173 con clasificación/escala, 76 con signos o criterios con nombre propio, 53 con imagen real (44 créditos), 0 problemas en check27, prueba en la app 500/500. Se rehicieron también NRL-013, HEM-009 y NEU-018 (de los 6 ejemplos con franja con hueco; quedan CAR-071, NRL-052, PED-211, GIN-121, que no están en la Entrega 1).
 - Corrección de clave aplicada: TRA-003 C → D (flexor superficial de los dedos), con nota de que la clave oficial fue C. Precisiones explicadas sin cambiar la clave: TRA-007 (Gustilo IIIB), PED-077 (30 min = estado epiléptico febril), INF-024 (72 h = cuartana), NEF-026 (CPK baja), GAS-021 (líquidos guiados por metas), INF-017 (doxiciclina para clamidia), PED-037/049 (ampicilina + gentamicina OMS), NEU-013 (esputo purulento), SP-030.
 
+## Entrega 2 (4-oct-2026) — HECHA
+- Pedido extra del usuario: MUCHAS más imágenes que guíen (si la pregunta habla de ECG, poner ECG; torsión testicular, testículo elevado; anemia megaloblástica, hipersegmentación; cirrosis, ascitis; ingurgitación yugular...). Si no hay foto libre, hacer dibujos propios que se entiendan solos.
+- `MedQuizPro_revision_entrega2_500.zip`: 500 flujogramas (501-1000), 187 con clasificación/escala, 94 con signos/criterios, 189 con imagen (104 créditos de Commons + ECG y esquemas propios), 31 precisiones, 0 problemas en check27, prueba en la app 500/500 sin errores. No cambia claves. `herramientas/site/algoritmos.js` ya tiene las Entregas 1 y 2.
+- Archivos: lista `flujo/rev29/entrega2.json`, fichas `rev29/tNN.txt`, specs `content29a.py`…`content29t.py` (25 por tanda), progreso `rev29/PROGRESO.md`, precisiones `rev29/precisiones.md` (van al LEEME), `rev29/largas.py N`, `rev29/banda.py` (añade una franja a una S() existente).
+- Paquete: `python3 build28.py <out> $(ids)` → `node check27.cjs <out>/flujogramas <out>/png` → `python3 pack29.py <out> <paquete> <zip>` → prueba: copiar `site/` a /tmp, poner `algoritmos.js` y los SVG, `python3 -m http.server 8767`, `node e2e29.cjs <out>/order.json`; apagar el servidor por PID.
+- Imágenes (en `flujo/img/`):
+  - Commons: `cm.py buscar "texto"` / `cm.py info "File:Nombre.jpg"` (el prefijo File: es obligatorio), `wm.py "Nombre.jpg" orig/x.jpg <ancho_original>`. Commons limita con 429: espaciar descargas (15-45 s). Quitar EXIF (GPS) a fotos de celular.
+  - Recortes y borrado de flechas/letras del autor: `prep29.py` (bloque `if hacer("x.jpg"):`; `rellenar(im, máscara)`; para borrar una flecha usar máscara por umbral de color, no un rectángulo).
+  - Propias: `dibujos29.py <nombre>` (matplotlib; fuentes ≥ 19-20 a 860 px porque la franja reduce a ~45 %), `ecg29.py <patrón> archivo "II;V3" <seg>` (patrones en `patrones()`), `frotis29.py`.
+  - Sin caras identificables. Créditos: `CC`, `PROPIO`, `ECG_PROPIO` en cada content.
+  - La red bloquea NIH/PubMed/CDC/Open-i/PhysioNet; se pueden permitir en la configuración del entorno (Network access → Custom → Allowed domains).
+- Palabra prohibida en SVG también en las opciones del banco: si una alternativa la contiene, darle nombre corto (ej. CB-048).
+- Pendientes de rehacer cuando toquen: CAR-071, NRL-052, PED-211 (no estaban en las entregas 1-2).
+
 ## Próxima tarea sugerida
-Entrega 2 (flujogramas 500-999 en el orden de algoritmos.js: 78 del bloque 5 + 422 del bloque 6) con el mismo estándar y las mismas herramientas (`content29a.py`…, mismo c28/esc28/build28/pack28 adaptados). Rehacer además CAR-071, NRL-052, PED-211 y GIN-121 con notas título + detalle cuando les toque.
+Entrega 3 (flujogramas 1001-1500 en el orden de algoritmos.js) con el mismo estándar e igual cantidad de imágenes: crear `rev30/entrega3.json` (IDs 1000-1499 de `site/algoritmos.js`, saltando CAR-001), fichas `rev30/tNN.txt` (modelo `rev29/fichas.py`), specs `content30a.py`… (habrá que ampliar el patrón de `build28.py`/`pack29.py` a `content2[89]|content30`), y `pack30.py`.
