@@ -358,8 +358,105 @@ def craneo_rn():
     guardar(fig, "dib_craneo_rn.jpg")
 
 
+# ───────────────────────────────────────────────────────── Rx de tórax con derrame pleural derecho (esquema)
+def derrame():
+    fig, ax = lienzo(100, 80, "#111111")
+    AM = "#facc15"
+    ax.add_patch(FancyBboxPatch((8, 8), 84, 68, boxstyle="round,pad=0,rounding_size=10", fc="#9ca3af", ec="none", zorder=1))   # partes blandas
+    pd = ax.add_patch(Ellipse((31, 40), 30, 56, fc="#1f2937", ec="none", zorder=2))   # pulmón derecho (a la izquierda del lector)
+    ax.add_patch(Ellipse((70, 40), 28, 54, fc="#1f2937", ec="none", zorder=2))   # pulmón izquierdo
+    # mediastino y corazón desplazados al lado sano
+    ax.add_patch(Rectangle((50, 8), 8, 30, fc="#d1d5db", ec="none", zorder=3))
+    ax.add_patch(Ellipse((63, 56), 22, 22, fc="#d1d5db", ec="none", zorder=3))
+    ax.plot([54, 55.5], [6, 30], color="#111111", lw=5, zorder=4)                 # tráquea (aire)
+    # líquido: blanco, con borde superior cóncavo que sube hacia afuera (Damoiseau)
+    t = np.linspace(0, 1, 40)
+    xs = 14 + 34 * t
+    ys = 34 + 14 * (t ** 1.6)
+    liq = ax.add_patch(Polygon([(10, 34)] + list(zip(xs, ys)) + [(50, 80), (10, 80)], closed=True, fc="#e5e7eb", ec="none", zorder=3))
+    liq.set_clip_path(pd)
+    rot(ax, 30, 57, "LÍQUIDO\n(blanco)", 22, "#111111")
+    ax.annotate("", xy=(20, 36), xytext=(8, 20), arrowprops=dict(arrowstyle="-|>", color=AM, lw=2.5), zorder=6)
+    rot(ax, 2, 13, "curva que sube\nhacia afuera", 20, AM, ha="left")
+    ax.annotate("", xy=(56, 22), xytext=(78, 12), arrowprops=dict(arrowstyle="-|>", color=AM, lw=2.5), zorder=6)
+    rot(ax, 76, 6, "tráquea y corazón\nal otro lado", 20, AM)
+    rot(ax, 12, 76, "DER", 19, "#ffffff")
+    rot(ax, 88, 76, "IZQ", 19, "#ffffff")
+    guardar(fig, "dib_derrame.jpg")
+
+
+# ───────────────────────────────────────────────────────── dengue: qué prueba según el día de enfermedad
+def dengue_pruebas():
+    fig, ax = lienzo(100, 60, "#ffffff")
+    x0, x1, yb = 10, 96, 48            # eje: día 0 a día 21
+    dx = (x1 - x0) / 21
+    ax.add_patch(Rectangle((x0, 6), 5 * dx, yb - 6, fc="#fee2e2", ec="none", zorder=1))
+    rot(ax, x0 + 2.5 * dx, 9.5, "FASE FEBRIL\n(días 1-5)", 15, ROJO)
+    ax.plot([x0, x1], [yb, yb], color=TINTA, lw=2.5, zorder=3)
+    for d in (0, 5, 7, 10, 14, 21):
+        ax.plot([x0 + d * dx] * 2, [yb, yb + 1.5], color=TINTA, lw=2, zorder=3)
+        rot(ax, x0 + d * dx, yb + 4, str(d), 15, TINTA, "normal")
+    rot(ax, (x0 + x1) / 2, 57.5, "días desde que empezó la fiebre", 15, GRIS, "normal")
+    d = np.linspace(0, 21, 300)
+    ns1 = 30 * np.exp(-((d - 2.5) / 2.0) ** 2)
+    igm = 26 * np.exp(-((d - 11) / 4.5) ** 2) / (1 + np.exp(-(d - 5) / 0.7))
+    igg = 22 / (1 + np.exp(-(d - 14) / 1.8))
+    for y, c, t, xl, yl in ((ns1, ROJO, "NS1 / RT-PCR", 3.0, 14), (igm, AZUL, "IgM", 11, 19), (igg, "#15803d", "IgG", 18.5, 23)):
+        ax.plot(x0 + d * dx, yb - y, color=c, lw=4, zorder=4)
+        rot(ax, x0 + xl * dx, yb - 30 - (yl - 14) * 0 if False else yb - max(y) - 3.5, t, 17, c)
+    guardar(fig, "dib_dengue_pruebas.jpg")
+
+
+# ───────────────────────────────────────────────────────── regla de los 9 (quemaduras del adulto)
+def regla9():
+    fig, ax = lienzo(100, 70, "#ffffff")
+    QUE = "#f87171"
+    SANA = "#f6dccb"
+    def figura(cx, titulo, tronco):
+        ax.add_patch(Circle((cx, 12), 4.5, fc=SANA, ec="#9a6b52", lw=2, zorder=2))
+        ax.add_patch(Rectangle((cx - 7, 17.5), 14, 20, fc=QUE, ec="#9a6b52", lw=2, zorder=2))
+        for dx in (-1, 1):
+            ax.add_patch(Polygon([(cx + dx * 7, 18), (cx + dx * 11.5, 19.5), (cx + dx * 13.5, 36), (cx + dx * 10.5, 36.5), (cx + dx * 8.5, 22)],
+                                 closed=True, fc=QUE, ec="#9a6b52", lw=2, zorder=2))
+            ax.add_patch(Rectangle((cx + (0.3 if dx > 0 else -6.8), 37.5), 6.5, 22, fc=SANA, ec="#9a6b52", lw=2, zorder=2))
+        rot(ax, cx, 12, "4,5", 14, TINTA)
+        rot(ax, cx, 27, tronco, 17, "#ffffff")
+        rot(ax, cx - 13, 28, "4,5", 14, TINTA)
+        rot(ax, cx + 13, 28, "4,5", 14, TINTA)
+        rot(ax, cx - 3.5, 49, "9", 15, TINTA)
+        rot(ax, cx + 3.5, 49, "9", 15, TINTA)
+        rot(ax, cx, 3.5, titulo, 16, GRIS)
+    figura(24, "ADELANTE", "18")
+    figura(64, "ATRÁS", "18")
+    rot(ax, 24, 64, "periné 1 %", 14, GRIS, "normal")
+    rot(ax, 90, 26, "rojo =\nquemado\n(este caso)", 15, ROJO)
+    rot(ax, 64, 66, "Brazos 9 + 9, tronco 18 + 18 = 54 %", 17, ROJO)
+    guardar(fig, "dib_regla9.jpg")
+
+
+# ───────────────────────────────────────────────────────── otoscopía: tapón de cerumen
+def cerumen():
+    fig, ax = lienzo(100, 72, "#ffffff")
+    ax.add_patch(Circle((36, 37), 32, fc="#111111", ec="none", zorder=1))          # campo del otoscopio
+    ax.add_patch(Circle((36, 37), 24, fc="#f4b6a6", ec="#d08a78", lw=2, zorder=2))   # piel del conducto
+    ax.add_patch(Circle((40, 33), 13, fc="#d6dbe0", ec="#9ca3af", lw=1.5, zorder=3))  # tímpano al fondo
+    t = np.linspace(0, 2 * math.pi, 40)
+    r = 19 + 2.2 * np.sin(5 * t) + 1.2 * np.cos(9 * t)
+    ax.add_patch(Polygon(list(zip(34 + r * np.cos(t), 39 + 0.9 * r * np.sin(t))), closed=True, fc="#8a5a2b", ec="#5b3a1a", lw=2, zorder=4))
+    for k in range(25):
+        a, d = k * 2.4, 4 + (k * 7) % 13
+        ax.add_patch(Circle((34 + d * math.cos(a), 39 + d * math.sin(a)), 1.1, fc="#6b4220", ec="none", zorder=5))
+    ax.annotate("", xy=(30, 42), xytext=(72, 52), arrowprops=dict(arrowstyle="-|>", color=TINTA, lw=2.5), zorder=6)
+    rot(ax, 72, 55, "CERUMEN\n(tapón)", 19, "#5b3a1a", ha="left")
+    ax.annotate("", xy=(47, 24), xytext=(74, 14), arrowprops=dict(arrowstyle="-|>", color=TINTA, lw=2.5), zorder=6)
+    rot(ax, 75, 12, "tímpano\ncasi no se ve", 17, GRIS, ha="left")
+    ax.annotate("", xy=(14, 25), xytext=(6, 8), arrowprops=dict(arrowstyle="-|>", color=TINTA, lw=2.5), zorder=6)
+    rot(ax, 2, 5, "piel del conducto", 16, "#b45f4d", ha="left")
+    guardar(fig, "dib_cerumen.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

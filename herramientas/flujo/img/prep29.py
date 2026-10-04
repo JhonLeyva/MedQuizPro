@@ -443,3 +443,29 @@ if hacer("onfalitis.jpg"):
 if hacer("lupus_malar.jpg"):
     # Eritema malar del lupus (OpenStax, CC BY 4.0), recortado sin ojos ni boca
     guardar(Image.open("orig/lupus_malar.jpg").convert("RGB").crop((0, 150, 607, 330)), "lupus_malar.jpg", 500, 88)
+
+# ── tanda 13
+if hacer("escrofula.jpg"):
+    # Linfadenitis tuberculosa con fístula (J. S. Bhandari, CC BY-SA 3.0)
+    guardar(Image.open("orig/escrofula.jpg").convert("RGB"), "escrofula.jpg", 440, 85)
+if hacer("geniogloso.jpg"):
+    # Músculo geniogloso (lámina de Gray modificada por Uwe Gille, dominio público)
+    guardar(_rgba_blanco("orig/geniogloso.png"), "geniogloso.jpg", 400, 90)
+
+# ── tanda 14
+if hacer("hipema.jpg"):
+    # Hipema que ocupa la mitad de la cámara anterior (Rakesh Ahuja, CC BY-SA 2.5)
+    guardar(Image.open("orig/hipema.jpg").convert("RGB"), "hipema.jpg", 440, 85)
+if hacer("panal_candida.jpg"):
+    # Dermatitis del pañal con Candida (Siegfried y Hebert, CC BY 4.0), recortada al pliegue inguinal
+    guardar(_rgba_blanco("orig/panal_candida.png").crop((0, 120, 380, 698)), "panal_candida.jpg", 380, 88)
+if hacer("pelagra.jpg"):
+    # Pelagra en manos y antebrazos (J. W. Babcock, dominio público), recortada sin la cara
+    guardar(Image.open("orig/pelagra.jpg").convert("L").crop((20, 250, 347, 400)), "pelagra.jpg", 327, 90)
+if hacer("celulas_clave.jpg"):
+    # Célula clave en examen en fresco, rótulos del autor (Mikael Häggström, CC0)
+    im = _rgba_blanco("orig/celulas_clave.png")
+    m = np.zeros((im.height, im.width), bool)
+    for x0, y0, x1, y1 in [(465, 85, 725, 162), (15, 405, 270, 495), (55, 435, 120, 565), (462, 372, 790, 532)]:
+        m[y0:y1, x0:x1] = True          # se borran los rótulos en inglés del autor
+    guardar(rellenar(im, m, 3), "celulas_clave.jpg", 440, 88)
