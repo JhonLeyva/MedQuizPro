@@ -177,3 +177,12 @@ if hacer("escorpion.jpg"):
 # ── CB-055 · Encías del escorbuto (CDC, Commons, dominio público); solo boca
 if hacer("escorbuto.jpg"):
     guardar(Image.open("orig/escorbuto.jpg").convert("RGB").crop((180, 90, 880, 380)), "escorbuto.jpg", 400, 88)
+
+# ── CB-057 · Botón gustativo rotulado en español (NEUROtiker, Commons, CC BY-SA 3.0)
+if hacer("boton_gustativo.jpg"):
+    guardar(Image.open("orig/boton_gustativo.jpg").convert("RGB"), "boton_gustativo.jpg", 500, 92)
+# ── GAS-055 · Progresión de Barrett en la histología (Leonard et al., Dis Esophagus 2026, PMC13313527, CC BY 4.0): 4 paneles sin letra
+if hacer("barrett_a.jpg"):
+    o = Image.open("orig/barrett_histo.jpg").convert("RGB")
+    for k, (x0, y0, x1, y1) in {"a": (0, 0, 372, 340), "b": (380, 0, 755, 340), "c": (0, 350, 372, 691), "d": (380, 350, 755, 691)}.items():
+        guardar(o.crop((x0 + 34, y0 + 34, x1, y1)), f"barrett_{k}.jpg", 330, 88)

@@ -244,7 +244,30 @@ def correlacion():
     guardar(fig, "dib_correlacion.jpg")
 
 
-HACER = {"variables": variables, "correlacion": correlacion, "torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
+def placa_motora():
+    """Unión neuromuscular: terminal con vesículas de acetilcolina, hendidura y receptores; dónde actúa cada enfermedad."""
+    from matplotlib.patches import FancyBboxPatch, Circle, Rectangle, Polygon
+    fig, ax = lienzo(100, 64)
+    ax.add_patch(FancyBboxPatch((28, 4), 44, 20, boxstyle="round,pad=2", fc="#fde68a", ec="#92400e", lw=2.5))
+    rot(ax, 50, 7.5, "terminal del nervio", 14, "#92400e")
+    for x in (36, 44, 52, 60):
+        ax.add_patch(Circle((x, 16), 2.6, fc="white", ec="#92400e", lw=1.8))
+        for dx, dy in ((-0.8, -0.6), (0.7, 0.2), (-0.1, 0.9)):
+            ax.add_patch(Circle((x + dx, 16 + dy), 0.45, fc="#2563eb"))
+    ax.add_patch(Rectangle((22, 38), 56, 22, fc="#fecaca", ec="#991b1b", lw=2.5))
+    rot(ax, 50, 56, "músculo (placa motora)", 14, "#991b1b")
+    for x in range(26, 76, 7):
+        ax.add_patch(Rectangle((x, 37), 3.4, 3, fc="#16a34a", ec="#14532d", lw=1))
+    for x in (33, 47, 61):
+        ax.add_patch(Polygon([(x, 33.5), (x + 3, 33.5), (x + 1.5, 36.6)], closed=True, fc="#7c3aed", ec="#4c1d95"))
+    rot(ax, 89, 37, "receptores\nde ACh", 13, "#15803d")
+    rot(ax, 89, 30, "anticuerpos\n(miastenia)", 13, "#6d28d9")
+    rot(ax, 12, 16, "canales de\ncalcio\n(Lambert-\nEaton)", 12, "#92400e")
+    rot(ax, 50, 29.5, "hendidura: acetilcolinesterasa", 12, GRIS, w="normal")
+    guardar(fig, "dib_placa_motora.jpg")
+
+
+HACER = {"placa_motora": placa_motora, "variables": variables, "correlacion": correlacion, "torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
