@@ -20,3 +20,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 | t11 | content29l.py | hecha, 0 problemas; 13 con imagen (alz_rm, fast_morison, otitis_cronica, livedo, hic_tc, emh_rx; propias: dib_craneo_rn, dib_derrame, dib_cerumen; reutiliza ecg_fv, ecg_fa) |
 | t13 | content29n.py | hecha, 0 problemas; 8 con imagen (celulas_clave [rótulos en inglés borrados], escrofula, geniogloso; propia: dib_dengue_pruebas; reutiliza janeway) |
 | t14 | content29o.py | hecha, 0 problemas; 7 con imagen (panal_candida, hipema, pelagra [manos]; propia: dib_regla9; reutiliza pcp_rx, ectopico_tubario) |
+| t15 | content29p.py | hecha, 0 problemas; 2 con imagen (propia: ecg_fa_rapida; reutiliza ecg_tep). Commons con límite 429: pendientes escafoides y tórax inestable |
