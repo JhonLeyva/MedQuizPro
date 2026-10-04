@@ -186,3 +186,29 @@ if hacer("barrett_a.jpg"):
     o = Image.open("orig/barrett_histo.jpg").convert("RGB")
     for k, (x0, y0, x1, y1) in {"a": (0, 0, 372, 340), "b": (380, 0, 755, 340), "c": (0, 350, 372, 691), "d": (380, 350, 755, 691)}.items():
         guardar(o.crop((x0 + 34, y0 + 34, x1, y1)), f"barrett_{k}.jpg", 330, 88)
+
+# ── GIN-155 · Cuello uterino normal vs corto con embudo en la eco transvaginal (Pongchaikul et al., Clin Microbiol Rev 2026,
+#    PMC13560723, CC BY 4.0); se borran los rótulos en inglés y las cifras del equipo
+if hacer("cervix_corto.jpg"):
+    o = Image.open("orig/cervix_corto.jpg").convert("RGB")
+    a = np.array(o).astype(int)
+    blanco = (a.min(2) > 150) & ((a.max(2) - a.min(2)) < 70)
+    m = np.zeros(a.shape[:2], bool)
+    for x0, y0, x1, y1 in [(0, 0, 1600, 32), (50, 95, 330, 195), (20, 235, 250, 360), (0, 320, 140, 405), (300, 160, 540, 390),
+                           (600, 25, 800, 190), (900, 95, 1140, 195), (815, 320, 970, 420), (960, 320, 1210, 455),
+                           (1250, 255, 1490, 405), (1455, 25, 1600, 190)]:
+        m[y0:y1, x0:x1] |= blanco[y0:y1, x0:x1]
+    m[530:588, 640:800] = True
+    m[530:588, 1450:1600] = True
+    o = rellenar(o, m, 5)
+    guardar(o.crop((0, 30, 800, 588)), "cervix_normal_eco.jpg", 400, 88)
+    guardar(o.crop((810, 30, 1600, 588)), "cervix_corto_eco.jpg", 400, 88)
+# ── REU-046 · Piel escaldada estafilocócica en la mano de un lactante (OpenStax Microbiology, Commons, CC BY 4.0)
+if hacer("ssss.jpg"):
+    guardar(Image.open("orig/ssss.jpg").convert("RGB"), "ssss.jpg", 400, 90)
+# ── REU-047 · Onicomicosis del primer dedo (James Heilman, MD, Commons, CC BY-SA 3.0); sin EXIF
+if hacer("onicomicosis.jpg"):
+    guardar(Image.open("orig/onicomicosis.jpg").convert("RGB").crop((0, 0, 960, 760)), "onicomicosis.jpg", 400, 88)
+# ── OFT-034 · Leucocoria por retinoblastoma (J. Morley-Smith, Commons, dominio público): solo los ojos
+if hacer("leucocoria.jpg"):
+    guardar(Image.open("orig/leucocoria.png").convert("RGB").crop((0, 10, 250, 80)), "leucocoria.jpg", 250, 92)

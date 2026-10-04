@@ -267,7 +267,31 @@ def placa_motora():
     guardar(fig, "dib_placa_motora.jpg")
 
 
-HACER = {"placa_motora": placa_motora, "variables": variables, "correlacion": correlacion, "torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
+def cadera_rotacion():
+    """Fractura de cadera derecha: pierna derecha (izquierda del dibujo) más corta y con el pie girado hacia afuera."""
+    from matplotlib.patches import FancyBboxPatch, Ellipse, Polygon
+    fig, ax = lienzo(100, 80)
+    ax.add_patch(FancyBboxPatch((30, 4), 40, 14, boxstyle="round,pad=2", fc="#f6dccb", ec="#9a6b52", lw=2))
+    rot(ax, 50, 10, "pelvis (paciente acostada)", 13, GRIS, w="normal")
+    # pierna sana (derecha del dibujo = izquierda del paciente)
+    ax.add_patch(FancyBboxPatch((53, 18), 10, 52, boxstyle="round,pad=1.5", fc="#f6dccb", ec="#9a6b52", lw=2))
+    ax.add_patch(Ellipse((58, 73), 6, 6, fc="#f6dccb", ec="#9a6b52", lw=2))
+    # pierna fracturada: más corta y pie rotado hacia afuera (a la izquierda del dibujo)
+    ax.add_patch(FancyBboxPatch((37, 18), 10, 45, boxstyle="round,pad=1.5", fc="#fde2d2", ec=ROJO, lw=2.5))
+    ax.add_patch(Polygon([(37, 64), (47, 64), (40, 73), (30, 70)], closed=True, fc="#fde2d2", ec=ROJO, lw=2.5))
+    ax.plot([47, 66], [63.5, 63.5], color=AZUL, lw=1.5, ls="--")
+    ax.plot([47, 66], [70.5, 70.5], color=AZUL, lw=1.5, ls="--")
+    ax.annotate("", xy=(68, 63.5), xytext=(68, 70.5), arrowprops=dict(arrowstyle="<|-|>", lw=2, color=AZUL))
+    rot(ax, 80, 67, "más corta", 15, AZUL)
+    ax.annotate("", xy=(27, 72), xytext=(36, 76), arrowprops=dict(arrowstyle="-|>", lw=3, color=ROJO, connectionstyle="arc3,rad=-0.4"))
+    rot(ax, 15, 60, "rotación\nexterna", 15, ROJO)
+    ax.add_patch(Ellipse((42, 22), 6, 4, fc="none", ec=ROJO, lw=2.5, ls="--"))
+    rot(ax, 18, 24, "fractura del\ncuello femoral", 14, ROJO)
+    rot(ax, 50, 79, "Derecha de la paciente = izquierda del dibujo", 12, GRIS, w="normal")
+    guardar(fig, "dib_cadera.jpg")
+
+
+HACER = {"cadera_rotacion": cadera_rotacion, "placa_motora": placa_motora, "variables": variables, "correlacion": correlacion, "torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
