@@ -469,3 +469,6 @@ if hacer("celulas_clave.jpg"):
     for x0, y0, x1, y1 in [(465, 85, 725, 162), (15, 405, 270, 495), (55, 435, 120, 565), (462, 372, 790, 532)]:
         m[y0:y1, x0:x1] = True          # se borran los rótulos en inglés del autor
     guardar(rellenar(im, m, 3), "celulas_clave.jpg", 440, 88)
+if hacer("liendres.jpg"):
+    # Liendres de piojo en el pelo (KostaMumcuoglu, CC BY-SA 3.0)
+    guardar(Image.open("orig/liendres.jpg").convert("RGB"), "liendres.jpg", 400, 88)

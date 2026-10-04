@@ -23,3 +23,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 | t15 | content29p.py | hecha, 0 problemas; 2 con imagen (propia: ecg_fa_rapida; reutiliza ecg_tep). Commons con límite 429: pendientes escafoides y tórax inestable |
 | t16 | content29q.py | hecha, 0 problemas; 3 con imagen (propias: dib_posturas, ecg_pericarditis; reutiliza vivax_troz) |
 | t17 | content29r.py | hecha, 0 problemas; 5 con imagen (propias: dib_formula_obstetrica, dib_partograma; reutiliza emh_rx, ecg_fv, petequias) |
+| t18 | content29s.py | hecha, 0 problemas; 4 con imagen (propias: dib_piel_quemadura, dib_placenta; Commons: varicela; reutiliza rx_neumotorax_grande). Además REU-034 (t13) recibió foto de liendres |

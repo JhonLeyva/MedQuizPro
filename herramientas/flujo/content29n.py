@@ -26,7 +26,15 @@ S("tarjetas", "REU-034", "Escolar con prurito del cuero cabelludo, lesiones de r
                 dict(titulo="Impétigo", datos=[("Ver", "Costras melicéricas", False), ("Germen", "S. aureus", False), ("Trato", "Mupirocina", False)],
                      pie="Bacteria."),
                 dict(titulo="Dermatitis seborreica", datos=[("Ver", "Caspa grasa", False), ("Se desprende", "Sí", False), ("Trato", "Champú antifúngico", False)],
-                     pie="Inflamatoria.")]))
+                     pie="Inflamatoria.")]),
+  banda=B("Así se ven las liendres", P("liendres.jpg", 260, 277, [
+            ("circulo", 0.55, 0.45, 0.16, "liendres pegadas al pelo", 0.50, 0.92)],
+          credito="KostaMumcuoglu" + CC + "CC BY-SA 3.0"),
+          [("Puntos blanco nacarados", "Huevos del piojo pegados al pelo."),
+           ("No se desprenden", "La caspa sí cae al soplar."),
+           ("Cerca de la raíz", "Las nuevas están a < 1 cm del cuero cabelludo."),
+           ("Detrás de las orejas y nuca", "Donde más se buscan.")],
+          pie="Pelo de otra persona.", ans=0))
 
 # INF-057 · VIH: ELISA de cuarta generación · ÁRBOL + ventana
 S("arbol", "INF-057", "Exposición sexual de riesgo hace 20 días: la prueba que detecta antes el VIH es el ELISA de cuarta generación (antígeno p24 + anticuerpos)",

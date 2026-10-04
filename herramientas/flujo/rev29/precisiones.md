@@ -20,3 +20,6 @@
 - PED-130: la BCG está contraindicada en el lactante con VIH sintomático; el rotavirus (vivo) se da con evaluación médica.
 - GIN-129: la clave (G4P1223) cuenta cada gemelo como un parto pretérmino; con la regla TPAL internacional el embarazo gemelar es un solo parto (G4P1213), que no figura entre las opciones.
 - INF-066: además del toxoide, la herida infectada necesita limpieza, desbridamiento y antibiótico.
+- INF-068: el esquema del caso (dos fármacos «ancla») no es el estándar; hoy se usa TDF + 3TC + DTG.
+- NEF-061: hoy se recomienda RM multiparamétrica antes de la biopsia (EAU 2024).
+- CB-048: la opción «Respuesta muscarínica» se muestra como «Efecto muscarínico» (la palabra está reservada en las imágenes).

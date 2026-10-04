@@ -524,8 +524,47 @@ def partograma():
     guardar(fig, "dib_partograma.jpg")
 
 
+# ───────────────────────────────────────────────────────── profundidad de las quemaduras
+def piel_quemadura():
+    fig, ax = lienzo(100, 64, "#ffffff")
+    capas = [(12, 6, "#f9d5c4", "epidermis"), (18, 13, "#f2b8a2", "dermis\nsuperficial"),
+             (31, 12, "#e79d86", "dermis\nprofunda"), (43, 9, "#fde68a", "grasa")]
+    for y, hh, c, t in capas:
+        ax.add_patch(Rectangle((27, y), 66, hh, fc=c, ec="#b98473", lw=1, zorder=1))
+        rot(ax, 25.5, y + hh / 2, t, 15, TINTA, ha="right")
+    grados = [("1.er\ngrado", 18, "roja,\nsin ampolla"), ("2.º\nsuperficial", 31, "ampollas,\nse blanquea"),
+              ("2.º\nprofundo", 43, "blanquecina,\nduele poco"), ("3.er\ngrado", 52, "escara,\nno duele")]
+    for k, (t, yfin, d) in enumerate(grados):
+        x = 30 + k * 16
+        ax.add_patch(Rectangle((x, 12), 11, yfin - 12, fc="#7f1d1d", alpha=.55, ec="none", zorder=2))
+        col = AZUL if k == 1 else ROJO
+        rot(ax, x + 5.5, 5.5, t, 14, col)
+        rot(ax, x + 5.5, 58.5, d, 13, AZUL if k == 1 else TINTA, "bold" if k == 1 else "normal")
+    ax.add_patch(Rectangle((44.5, 10.5), 15, 53, fc="none", ec=AZUL, lw=3, zorder=5))
+    guardar(fig, "dib_piel_quemadura.jpg")
+
+
+# ───────────────────────────────────────────────────────── ubicación de la placenta respecto al OCI
+def placenta():
+    fig, ax = lienzo(100, 52, "#ffffff")
+    tipos = [("NORMAL", (-130, -50), "lejos del cuello"), ("BAJA", (5, 55), "a < 2 cm del OCI\n(este caso: 1 cm)"),
+             ("MARGINAL", (5, 89), "llega al borde\ndel OCI"), ("PREVIA TOTAL", (55, 125), "cubre el OCI")]
+    for k, (t, (a0, a1), d) in enumerate(tipos):
+        cx = 12.5 + k * 25
+        ax.add_patch(Ellipse((cx, 21), 20, 28, fc="#fde2e4", ec="#9f1239", lw=2.5, zorder=1))
+        ax.add_patch(Rectangle((cx - 2.5, 34.6), 5, 6, fc="#fde2e4", ec="#9f1239", lw=2.5, zorder=1))
+        ang = np.radians(np.linspace(a0, a1, 40))
+        ax.plot(cx + 8.3 * np.cos(ang), 21 + 12 * np.sin(ang), color="#7f1d1d", lw=11, solid_capstyle="round", zorder=3)
+        ax.plot([cx - 1.6, cx + 1.6], [35.3, 35.3], color=TINTA, lw=2.5, zorder=4)
+        rot(ax, cx + 4.5, 38.5, "OCI", 11, GRIS, "normal", ha="left")
+        col = AZUL if t == "BAJA" else TINTA
+        rot(ax, cx, 3, t, 15, col)
+        rot(ax, cx, 47, d, 13, col, "normal")
+    guardar(fig, "dib_placenta.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas, "formula_obstetrica": formula_obstetrica, "partograma": partograma}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas, "formula_obstetrica": formula_obstetrica, "partograma": partograma, "piel_quemadura": piel_quemadura, "placenta": placenta}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
