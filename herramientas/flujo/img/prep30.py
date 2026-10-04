@@ -212,3 +212,12 @@ if hacer("onicomicosis.jpg"):
 # ── OFT-034 · Leucocoria por retinoblastoma (J. Morley-Smith, Commons, dominio público): solo los ojos
 if hacer("leucocoria.jpg"):
     guardar(Image.open("orig/leucocoria.png").convert("RGB").crop((0, 10, 250, 80)), "leucocoria.jpg", 250, 92)
+
+# ── CB-060 · COVID-19: vidrio esmerilado y consolidaciones bilaterales (Wang et al., Curr Med Imaging 2026, PMC13613316, CC BY 4.0), panel A
+if hacer("covid_tc.jpg"):
+    o = Image.open("orig/covid_tc.jpg").convert("L").crop((10, 50, 373, 291))
+    a = np.array(o); m = np.zeros(a.shape, bool); m[:40, :50] = True
+    guardar(rellenar(o, m, 3), "covid_tc.jpg", 400, 88)
+# ── NRL-044 · Lóbulos cerebrales rotulados en español (ElizabethFG, Commons, CC BY-SA 3.0)
+if hacer("lobulos.jpg"):
+    guardar(Image.open("orig/lobulos.jpg").convert("RGB"), "lobulos.jpg", 480, 90)
