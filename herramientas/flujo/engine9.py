@@ -38,7 +38,7 @@ CATALOGO = [
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
 HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
-          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica"}
+          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica", "calendario"}
 
 
 def _img_h(im):
@@ -1001,7 +1001,58 @@ def grafica(s, y, d):
     return _fin(s, y, d)
 
 
+# ════════════════════════════════════════════════════════════ 34 CALENDARIO DE DOSIS O CONTROLES
+def calendario(s, y, d):
+    """Cuadrícula fila = vacuna (o fármaco/control), columna = edad (o día). Cada dosis es un círculo:
+    'dada' (verde ✓), 'falta' (naranja: aplicar ahora), 'vencida' (gris ✕: ya no se pone), 'prog' (blanco: programada).
+    La columna del caso va resaltada; a la derecha de cada fila, su regla (edad máxima, intervalo)."""
+    y = section(s, y + 10, d["rotulo"])
+    cols = d["edades"]
+    filas = d["filas"]                  # [(nombre, {col: (rótulo, estado)}, regla)]
+    NW = d.get("ancho_nombre", 150)
+    RW = d.get("ancho_regla", 230)
+    gx0 = X0 + NW
+    gw = X1 - RW - 12 - gx0
+    cw = gw / len(cols)
+    rh = 52
+    s.rect(X0, y, X1 - X0, 34, "#f1f5f9", LINE, 1.2, rx=8)
+    s.text(X0 + 12, y + 22, d.get("titulo_filas", "Vacuna").upper(), 10.5, 800, MUTED, "start", NW - 16)
+    for j, c in enumerate(cols):
+        s.text(gx0 + j * cw + cw / 2, y + 22, c, 10.5, 800, MUTED, maxw=cw - 4)
+    s.text(X1 - RW + 4, y + 22, d.get("titulo_regla", "Regla").upper(), 10.5, 800, MUTED, "start", RW - 10)
+    y += 40
+    cc = d.get("caso_col")
+    top = y
+    if cc is not None:
+        s.rect(gx0 + cc * cw + 2, y - 4, cw - 4, len(filas) * (rh + 6) + 2, ORANGE_L, ORANGE, 1.6, rx=8)
+    EST = {"dada": (GREEN, "#ffffff", "✓"), "falta": (ORANGE, "#ffffff", "!"), "vencida": ("#cbd5e1", "#475569", "✕"),
+           "prog": ("#ffffff", TEAL_D, "")}
+    for i, (nom, dosis, regla) in enumerate(filas):
+        ry = y + i * (rh + 6)
+        nl = wrap(nom, NW - 20, 12, True)
+        s.rect(X0, ry, NW - 8, rh, "#f8fafc", LINE, 1, rx=8)
+        s.text(X0 + 10, ry + rh / 2 + 4 - (len(nl) - 1) * 8, nl, 12, 800, INK, "start", NW - 20, lh=16)
+        s.line(gx0 + 8, ry + rh / 2, gx0 + gw - 8, ry + rh / 2, "#e2e8f0", 2)
+        for j, (rot, est) in dosis.items():
+            cx, cy = gx0 + j * cw + cw / 2, ry + rh / 2 - 5
+            fill, fg, sym = EST[est]
+            s.add(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="13" fill="{fill}" stroke="{TEAL if est == "prog" else fill}" stroke-width="2"/>')
+            if sym:
+                s.text(cx, cy + 4.5, sym, 12, 800, fg, maxw=0)
+            s.text(cx, ry + rh - 4, rot, 9.5, 700, SLATE if est != "falta" else "#9a3412", maxw=cw - 4)
+        rl = wrap(regla, RW - 20, 11)
+        s.rect(X1 - RW, ry, RW, rh, "#ffffff", LINE, 1, rx=8)
+        s.text(X1 - RW + 10, ry + rh / 2 + 4 - (len(rl) - 1) * 7.5, rl, 11, 500, "#334155", "start", RW - 20, lh=15)
+    y += len(filas) * (rh + 6) - 6
+    if cc is not None:
+        case_chip(s, gx0 + cc * cw + cw / 2, top - 4, d.get("tag", "ESTE CASO"))
+    ley = d.get("leyenda", "✓ dada · ! aplicar ahora · ✕ ya no corresponde (pasó la edad)")
+    s.text(X0 + 4, y + 20, ley, 10.5, 700, MUTED, "start", X1 - X0)
+    y += 26
+    return _fin(s, y, d)
+
+
 LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision, "cuadricula": cuadricula,
             "alarma": alarma, "cascada": cascada, "checklist": checklist, "monitor": monitor, "piramide": piramide,
             "grados_foto": grados_foto, "laboratorio": laboratorio,
-            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa, "grafica": grafica}
+            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa, "grafica": grafica, "calendario": calendario}

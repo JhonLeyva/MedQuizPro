@@ -365,6 +365,55 @@ def ciclo_familiar():
     guardar(fig, "dib_ciclo_familiar.jpg")
 
 
+def atresia_esofago():
+    """Atresia de esófago (Gross): A sin fístula (sin gas en el abdomen), C con fístula distal (85 %, gas en el estómago)
+    y H (fístula sin atresia)."""
+    from matplotlib.patches import FancyBboxPatch, Ellipse
+    fig, ax = lienzo(100, 62)
+    TR_, ES = "#cbd5e1", "#fda4af"
+
+    def traquea(ox):
+        ax.add_patch(FancyBboxPatch((ox + 7, 8), 5, 30, boxstyle="round,pad=0.6", fc=TR_, ec="#64748b", lw=1.5, zorder=2))
+        for k in range(8):
+            ax.plot([ox + 6.6, ox + 12.4], [10 + k * 3.6, 10 + k * 3.6], color="#94a3b8", lw=1, zorder=3)
+        ax.plot([ox + 9.5, ox + 5], [38.6, 44], color="#64748b", lw=4, zorder=2)
+        ax.plot([ox + 9.5, ox + 14], [38.6, 44], color="#64748b", lw=4, zorder=2)
+
+    def estomago(ox, gas):
+        ax.add_patch(Ellipse((ox + 21, 51), 15, 10, fc="#fecdd3", ec="#be123c", lw=2, zorder=2))
+        if gas:
+            ax.add_patch(Ellipse((ox + 21, 48.5), 8, 3.6, fc="#111827", ec="none", zorder=3))
+            rot(ax, ox + 21, 58.8, "gas en el estómago", 12, GRIS, w="normal")
+        else:
+            rot(ax, ox + 21, 58.8, "SIN gas en el abdomen", 12, ROJO)
+
+    def esof(ox, y0, y1):
+        ax.add_patch(FancyBboxPatch((ox + 18, y0), 6, y1 - y0, boxstyle="round,pad=0.8", fc=ES, ec="#be123c", lw=1.8, zorder=2))
+
+    # A: bolsón superior ciego + muñón inferior, sin fístula
+    traquea(0); esof(0, 6, 22); esof(0, 36, 46); estomago(0, False)
+    rot(ax, 21, 28.5, "bolsón\nciego", 12, "#9f1239", w="normal")
+    rot(ax, 9.5, 23, "tráquea", 11, "#334155", w="normal", giro=90)
+    rot(ax, 28.5, 13, "esófago", 11, "#9f1239", w="normal", giro=90)
+    rot(ax, 16.5, 2, "Tipo A (~8 %)", 15, ROJO)
+    # C: bolsón superior ciego + fístula del esófago inferior a la tráquea
+    o = 34
+    traquea(o); esof(o, 6, 20); esof(o, 30, 46); estomago(o, True)
+    ax.plot([o + 12.4, o + 18], [31, 33], color=ROJO, lw=3.5, zorder=4)
+    rot(ax, o + 27.5, 25.5, "fístula\ndistal", 12, ROJO)
+    rot(ax, o + 16.5, 2, "Tipo C (~85 %)", 15, TINTA)
+    # H: esófago continuo con fístula
+    o = 67
+    traquea(o); esof(o, 6, 46); estomago(o, True)
+    ax.plot([o + 12.4, o + 18], [20, 22], color=ROJO, lw=3.5, zorder=4)
+    rot(ax, o + 21, 30, "fístula\nen H", 12, ROJO, fondo="#ffffff")
+    rot(ax, o + 16.5, 2, "Tipo H (~4 %)", 15, TINTA)
+    for xx in (33.5, 66.5):
+        ax.plot([xx, xx], [5, 61], color="#cbd5e1", lw=1.5, ls="--")
+    guardar(fig, "dib_atresia_esofago.jpg")
+
+
+HACER["atresia_esofago"] = atresia_esofago
 HACER["ciclo_familiar"] = ciclo_familiar
 HACER["malformacion_anorrectal"] = malformacion_anorrectal
 
