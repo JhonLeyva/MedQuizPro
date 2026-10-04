@@ -45,8 +45,16 @@ def libre(lic):
 
 
 def articulo(pmcid):
-    x = get(EU + f"efetch.fcgi?db=pmc&id={pmcid.replace('PMC', '')}")
-    root = ET.fromstring(x.encode())
+    for k in range(5):
+        # NCBI limita a ~3 consultas por segundo: si responde con un error, esperar y repetir
+        x = get(EU + f"efetch.fcgi?db=pmc&id={pmcid.replace('PMC', '')}")
+        try:
+            root = ET.fromstring(x.encode())
+            break
+        except ET.ParseError:
+            time.sleep(2 + 3 * k)
+    else:
+        raise SystemExit("NCBI no devolvió XML válido para " + pmcid)
     art = root.find(".//article")
     tit = "".join(art.find(".//article-title").itertext()) if art.find(".//article-title") is not None else ""
     autores = []

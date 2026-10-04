@@ -38,7 +38,7 @@ CATALOGO = [
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
 HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
-          "piramide", "grados_foto", "laboratorio"}
+          "piramide", "grados_foto", "laboratorio", "reloj", "transmision"}
 
 
 def _img_h(im):
@@ -685,8 +685,8 @@ def piramide(s, y, d):
     cxp = X0 + PW / 2
     for i, ((et, t, dd), (tl, dl, th)) in enumerate(zip(niv, meds)):
         yy = y + i * (rh + gap)
-        wt = 70 + (PW - 70) * i / n
-        wb = 70 + (PW - 70) * (i + 1) / n
+        wt = 100 + (PW - 100) * i / n
+        wb = 100 + (PW - 100) * (i + 1) / n
         on = i == caso
         fill = ORANGE if on else ["#ccfbf1", "#99f6e4", "#5eead4", "#2dd4bf", "#14b8a6", "#0d9488"][min(i, 5)]
         s.add(f'<polygon points="{cxp-wt/2:.1f},{yy:.1f} {cxp+wt/2:.1f},{yy:.1f} {cxp+wb/2:.1f},{yy+rh:.1f} {cxp-wb/2:.1f},{yy+rh:.1f}" '
@@ -745,6 +745,84 @@ def laboratorio(s, y, d):
     return _fin(s, y, d)
 
 
+
+# ════════════════════════════════════════════════════════════ 25 RELOJ / LÍNEA DE PASOS
+def reloj(s, y, d):
+    """Pasos o tiempos sobre una línea (como un recorrido de metro): cada estación con su hora o número,
+    título y detalle; la del caso resaltada. Más de 5 pasos se reparten en dos filas."""
+    y = section(s, y + 10, d["rotulo"])
+    pasos = d["pasos"]                # [(etiqueta, título, detalle, on)]
+    n = len(pasos)
+    filas = [pasos] if n <= 5 else [pasos[:(n + 1) // 2], pasos[(n + 1) // 2:]]
+    W = X1 - X0
+    if d.get("intro"):
+        il = wrap(d["intro"], W - 20, 12, True)
+        s.text(X0 + 4, y + 14, il, 12, 700, TEAL_D, "start", W - 20, lh=17)
+        y += len(il) * 17 + 10
+    k0 = 0
+    for fila in filas:
+        m = len(fila)
+        cw = W / m
+        meds = [_caja_txt(t, dd, cw - 22, 12, 11) for _, t, dd, _ in fila]
+        ch = max(mm[2] for mm in meds) + 26
+        ly = y + 26
+        for j in range(m - 1):                 # tramos entre estaciones (sin cruzar los números)
+            s.line(X0 + j * cw + cw / 2 + 23, ly, X0 + (j + 1) * cw + cw / 2 - 23, ly, TEAL_B, 6)
+        for j, ((et, t, dd, on), (tl, dl, th)) in enumerate(zip(fila, meds)):
+            cx = X0 + j * cw + cw / 2
+            r = 22
+            s.add(f'<circle cx="{cx:.1f}" cy="{ly:.1f}" r="{r}" fill="{ORANGE if on else "#ffffff"}" stroke="{ORANGE if on else TEAL}" stroke-width="3"/>')
+            s.text(cx, ly + 4.5, et, 11.5 if len(et) <= 4 else 9.5, 800, "#ffffff" if on else TEAL_D, maxw=2 * r - 6)
+            by = ly + r + 12
+            s.rect(X0 + j * cw + 5, by, cw - 10, ch, ORANGE_L if on else "#f8fafc", ORANGE if on else LINE, 2 if on else 1.2, rx=10)
+            s.text(cx, by + 20, tl, 12, 800, "#9a3412" if on else INK, maxw=cw - 22, lh=17)
+            if dl:
+                s.text(cx, by + 20 + len(tl) * 17, dl, 11, 400, SLATE, maxw=cw - 22, lh=16)
+            if on:
+                case_chip(s, cx, by + ch, d.get("tag", "ESTE CASO"))
+        y = ly + 22 + 12 + ch + 22
+        k0 += m
+    y -= 8
+    return _fin(s, y, d)
+
+
+# ════════════════════════════════════════════════════════════ 42 CADENA DE TRANSMISIÓN
+def transmision(s, y, d):
+    """Eslabones de la cadena (agente → reservorio → salida → vía → entrada → huésped) y debajo de cada uno la medida
+    que la corta; la medida del caso resaltada."""
+    y = section(s, y + 10, d["rotulo"])
+    es = d["eslabones"]               # [(eslabón, qué es en esta enfermedad, medida, on)]
+    n = len(es)
+    W = X1 - X0
+    gap = 26
+    cw = (W - gap * (n - 1)) / n
+    m1 = [_caja_txt(a, b, cw - 20, 12, 11) for a, b, _, _ in es]
+    m2 = [_caja_txt(c, None, cw - 20, 11.5, 11) for _, _, c, _ in es]
+    h1 = max(mm[2] for mm in m1) + 26
+    h2 = max(mm[2] for mm in m2) + 30
+    for i, ((a, b, c, on), (tl, dl, th), (tl2, _, th2)) in enumerate(zip(es, m1, m2)):
+        x = X0 + i * (cw + gap)
+        s.rect(x, y, cw, h1, TEAL_L, TEAL, 1.6, rx=14)
+        s.text(x + cw / 2, y + 20, tl, 12, 800, TEAL_D, maxw=cw - 20, lh=17)
+        if dl:
+            s.text(x + cw / 2, y + 20 + len(tl) * 17, dl, 11, 400, SLATE, maxw=cw - 20, lh=16)
+        if i < n - 1:
+            s.arrow_right(x + cw + 3, x + cw + gap - 3, y + h1 / 2, TEAL)
+        s.line(x + cw / 2, y + h1 + 2, x + cw / 2, y + h1 + 16, ORANGE if on else "#cbd5e1", 2.5, dash="4 3")
+        yy = y + h1 + 18
+        s.rect(x, yy, cw, h2, ORANGE if on else "#ffffff", ORANGE if on else LINE, 2 if on else 1.2, rx=10)
+        s.text(x + cw / 2, yy + 14, "✂ CORTA", 9.5, 800, "#ffedd5" if on else MUTED, maxw=cw - 20)
+        s.text(x + cw / 2, yy + 31, tl2, 11.5, 800, "#ffffff" if on else INK, maxw=cw - 20, lh=16)
+        if on:
+            case_chip(s, x + cw / 2, yy + h2, d.get("tag", "ESTE CASO"))
+    y += h1 + 18 + h2 + 12
+    if d.get("img"):
+        from engine7 import banda
+        y = banda(s, y + 10, d["img"])
+    return _fin(s, y, d)
+
+
 LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision, "cuadricula": cuadricula,
             "alarma": alarma, "cascada": cascada, "checklist": checklist, "monitor": monitor, "piramide": piramide,
-            "grados_foto": grados_foto, "laboratorio": laboratorio}
+            "grados_foto": grados_foto, "laboratorio": laboratorio,
+            "reloj": reloj, "transmision": transmision}

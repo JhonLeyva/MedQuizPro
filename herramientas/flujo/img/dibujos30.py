@@ -169,7 +169,48 @@ def hernias_pared():
     guardar(fig, "dib_hernias_pared.jpg")
 
 
-HACER = {"pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
+def torsion_testicular():
+    """Torsión del testículo derecho (izquierda del dibujo): alto, horizontal y con el cordón enrollado."""
+    import numpy as np
+    from matplotlib.patches import Ellipse, FancyBboxPatch
+    fig, ax = lienzo(100, 70)
+    ax.add_patch(FancyBboxPatch((22, 26), 56, 38, boxstyle="round,pad=6", fc="#f6dccb", ec="#9a6b52", lw=2, zorder=1))
+    ax.plot([50, 50], [24, 66], color="#9a6b52", lw=1.5, ls="--", zorder=2)
+    # lado sano (derecha del dibujo = izquierda del paciente): vertical y bajo
+    ax.plot([64, 64], [2, 38], color="#60a5fa", lw=6, zorder=3)
+    ax.add_patch(Ellipse((64, 48), 13, 19, fc="#fde2d2", ec="#7c2d12", lw=2.5, zorder=4))
+    # lado torcido: alto, horizontal, rojo, cordón en espiral
+    t = np.linspace(0, 1, 200)
+    ax.plot(36 + 2.8 * np.sin(t * 6 * np.pi), 2 + 26 * t, color="#2563eb", lw=6, zorder=3)
+    ax.add_patch(Ellipse((36, 33), 20, 12, fc="#fca5a5", ec="#b91c1c", lw=3, zorder=4))
+    rot(ax, 16, 10, "cordón\ntorcido", 15, "#1d4ed8")
+    rot(ax, 15, 33, "ALTO Y\nHORIZONTAL", 15, ROJO)
+    rot(ax, 87, 48, "sano:\nvertical", 15, TINTA, w="normal")
+    rot(ax, 50, 68, "Derecha del paciente = izquierda del dibujo", 13, GRIS, w="normal")
+    guardar(fig, "dib_torsion.jpg")
+
+
+def compartimentos_pierna():
+    """Corte de la pierna: los 4 compartimentos encerrados por fascias que no se estiran."""
+    from matplotlib.patches import Ellipse, Wedge, Circle
+    fig, ax = lienzo(100, 70)
+    ax.add_patch(Ellipse((50, 36), 70, 56, fc="#f6dccb", ec="#9a6b52", lw=3, zorder=1))
+    cols = [("#fca5a5", "ANTERIOR", (35, 18)), ("#fdba74", "LATERAL", (20, 38)), ("#fde68a", "POST.\nSUPERFICIAL", (52, 56)), ("#c4b5fd", "POST.\nPROFUNDO", (60, 36))]
+    ax.add_patch(Wedge((50, 36), 25, 110, 200, fc=cols[0][0], ec="#7c2d12", lw=2, zorder=2))
+    ax.add_patch(Wedge((50, 36), 25, 200, 245, fc=cols[1][0], ec="#7c2d12", lw=2, zorder=2))
+    ax.add_patch(Wedge((50, 36), 25, 245, 330, fc=cols[3][0], ec="#7c2d12", lw=2, zorder=2))
+    ax.add_patch(Wedge((50, 36), 25, 330, 470, fc=cols[2][0], ec="#7c2d12", lw=2, zorder=2))
+    ax.add_patch(Circle((40, 30), 4.5, fc="white", ec="#475569", lw=2.5, zorder=3))
+    ax.add_patch(Circle((32, 44), 2.5, fc="white", ec="#475569", lw=2.5, zorder=3))
+    rot(ax, 40, 30, "tibia", 11, TINTA, z=4)
+    rot(ax, 24, 50, "peroné", 11, TINTA)
+    for c, n, (x, y) in cols:
+        rot(ax, x + 8, y, n, 12, "#7f1d1d")
+    rot(ax, 50, 3, "Fascias rígidas: si el músculo se hincha, sube la presión y no llega sangre", 14, ROJO)
+    guardar(fig, "dib_compartimentos.jpg")
+
+
+HACER = {"torsion_testicular": torsion_testicular, "compartimentos_pierna": compartimentos_pierna, "pictograma_ataque": pictograma_ataque, "mano_cubital": mano_cubital, "hernias_pared": hernias_pared, "regla9_adulto": regla9_adulto, "calendario_rabia": calendario_rabia, "muestreo": muestreo, "tacto_rectal": tacto_rectal}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

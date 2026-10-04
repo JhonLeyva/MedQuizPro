@@ -143,3 +143,23 @@ if hacer("trico.jpg"):
 # ── GIN-141 · Seudohifas de cándida en KOH (Mikael Häggström, Commons, CC0); se conservan sus flechas
 if hacer("candida_koh.jpg"):
     guardar(Image.open("orig/candida_koh.jpg").convert("RGB").crop((30, 30, 480, 480)), "candida_koh.jpg", 400, 88)
+
+# ── NEF-066 · Torsión testicular: Doppler sin flujo dentro del testículo (Abu-Sharikh et al., Medicine 2026, PMC13574465, CC BY 4.0), panel B
+if hacer("torsion_eco.jpg"):
+    o = Image.open("orig/torsion_eco.jpg").convert("RGB").crop((880, 95, 1600, 682))
+    guardar(o, "torsion_eco.jpg", 440, 88)
+# ── PED-144 · Rx de membrana hialina: vidrio esmerilado y broncograma aéreo (Xie et al., Front Pediatr 2026, PMC13260572, CC BY 4.0)
+if hacer("emh_rx2.jpg"):
+    guardar(Image.open("orig/emh_rx.jpg").convert("L").crop((40, 120, 760, 760)), "emh_rx2.jpg", 420, 88)
+# ── OFT-033 · Glaucoma agudo de ángulo cerrado (Jonathan Trobe, MD, Commons, CC BY 3.0)
+if hacer("glaucoma_agudo.jpg"):
+    guardar(Image.open("orig/glaucoma_agudo.jpg").convert("RGB"), "glaucoma_agudo.jpg", 360, 92)
+# ── TRA-031 · Fractura diafisaria desplazada de húmero (Ivtorov, Commons, CC BY-SA 4.0)
+if hacer("humero_fx.jpg"):
+    guardar(Image.open("orig/humero_fx.jpg").convert("L").crop((0, 420, 960, 1509)), "humero_fx.jpg", 360, 88)
+# ── REU-040 · Melanoma (asimetría) de la serie ABCD del NCI (dominio público)
+if hacer("melanoma.jpg"):
+    guardar(Image.open("orig/melanoma_abcd.jpg").convert("RGB").crop((0, 0, 470, 300)), "melanoma.jpg", 400, 88)
+# ── REU-040 · Carcinoma basocelular nodular al microscopio (Mikael Häggström, Commons, CC0)
+if hacer("bcc_patologia.jpg"):
+    guardar(Image.open("orig/bcc_pato.jpg").convert("RGB").crop((60, 60, 900, 870)), "bcc_patologia.jpg", 400, 88)
