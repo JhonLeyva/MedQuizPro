@@ -13,3 +13,6 @@
 - GAS-039: dolor + fiebre + ictericia es la tríada de Charcot; si se confirma colangitis, la conducta es CPRE en 24 h. La pregunta pide solo el estudio de la causa.
 - GAS-040: la disfagia es signo de alarma: además del IBP corresponde endoscopía.
 - REU-029: por tipo de lesión (solo comedones) es acné leve; por número, 30 comedones serían «moderado» en la escala de Lehmann.
+- GIN-114: tras la mola también son válidos los anticonceptivos orales combinados (ACOG); lo que se evita es el DIU hasta que la β-hCG sea negativa.
+- NEU-031: GINA ya no usa la clasificación intermitente/persistente para tratar (usa pasos y control); la clave sigue la clasificación clásica por frecuencia.
+- NEU-033: el tratamiento principal del edema pulmonar de altura es descender; como ya bajó a Huaraz, lo que sigue es el oxígeno.
