@@ -481,8 +481,51 @@ def posturas():
     guardar(fig, "dib_posturas.jpg")
 
 
+# ───────────────────────────────────────────────────────── fórmula obstétrica G P(TPAV)
+def formula_obstetrica():
+    fig, ax = lienzo(100, 58, "#ffffff")
+    cajas = [("G", "4", "embarazos", "#475569"), ("T", "1", "a término\n(41 sem)", AZUL), ("P", "2", "pretérmino\n(gemelar)", "#a16207"),
+             ("A", "2", "abortos\n(ectóp., mola)", ROJO), ("V", "3", "hijos vivos", "#15803d")]
+    for k, (l, n, t, c) in enumerate(cajas):
+        x = 4 + k * 19.2
+        ax.add_patch(FancyBboxPatch((x, 8), 16, 18, boxstyle="round,pad=0,rounding_size=2", fc="#ffffff", ec=c, lw=3, zorder=2))
+        rot(ax, x + 8, 13, l, 19, c)
+        rot(ax, x + 8, 21.5, n, 26, TINTA)
+        rot(ax, x + 8, 34, t, 15, c)
+    rot(ax, 50, 3, "G4  P 1-2-2-3   (término - pretérmino - abortos - vivos)", 17, TINTA)
+    rot(ax, 50, 49, "Según la clave cada gemelo cuenta como un parto pretérmino.\nCon la regla TPAL internacional el gemelar es UN parto: P1213.", 14, GRIS, "normal")
+    guardar(fig, "dib_formula_obstetrica.jpg")
+
+
+# ───────────────────────────────────────────────────────── partograma: fase activa
+def partograma():
+    fig, ax = lienzo(100, 66, "#ffffff")
+    x0, y0, w, h = 12, 6, 82, 48          # horas 0-8 en x; dilatación 4-10 cm en y (abajo 4)
+    for k in range(0, 9):
+        ax.plot([x0 + k * w / 8] * 2, [y0, y0 + h], color="#e5e7eb", lw=1.5, zorder=1)
+        rot(ax, x0 + k * w / 8, y0 + h + 3.5, str(k), 15, GRIS, "normal")
+    for d in range(4, 11):
+        y = y0 + h - (d - 4) * h / 6
+        ax.plot([x0, x0 + w], [y, y], color="#e5e7eb", lw=1.5, zorder=1)
+        rot(ax, x0 - 3, y, str(d), 15, GRIS, "normal")
+    def pt(hr, d):
+        return x0 + hr * w / 8, y0 + h - (d - 4) * h / 6
+    ax.plot(*zip(pt(0, 4), pt(6, 10)), color="#16a34a", lw=3, zorder=2)
+    ax.plot(*zip(pt(4, 4), pt(8, 8)), color=ROJO, lw=3, ls="--", zorder=2)
+    rot(ax, *pt(1.0, 9.2), "1 cm/hora\n(esperado)", 15, "#15803d")
+    rot(ax, *pt(6.6, 5.4), "si cruza:\nparto lento", 15, ROJO)
+    a, b = pt(1, 6), pt(3, 8)
+    ax.plot([a[0], b[0]], [a[1], b[1]], color=AZUL, lw=4, zorder=4)
+    for q in (a, b):
+        ax.add_patch(Circle(q, 1.3, fc=AZUL, ec="none", zorder=5))
+    rot(ax, *pt(3.4, 6.3), "este caso:\n6 → 8 cm en 2 h", 16, AZUL, ha="left")
+    rot(ax, 4, 3, "cm", 14, GRIS, "normal")
+    rot(ax, 54, 64, "horas de fase activa", 15, GRIS, "normal")
+    guardar(fig, "dib_partograma.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas, "formula_obstetrica": formula_obstetrica, "partograma": partograma}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

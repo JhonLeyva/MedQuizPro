@@ -18,3 +18,5 @@
 - NEU-033: el tratamiento principal del edema pulmonar de altura es descender; como ya bajó a Huaraz, lo que sigue es el oxígeno.
 - NEF-053: hoy se recomienda RM multiparamétrica antes de la biopsia (EAU 2024); con tacto sospechoso, la biopsia sigue siendo obligatoria.
 - PED-130: la BCG está contraindicada en el lactante con VIH sintomático; el rotavirus (vivo) se da con evaluación médica.
+- GIN-129: la clave (G4P1223) cuenta cada gemelo como un parto pretérmino; con la regla TPAL internacional el embarazo gemelar es un solo parto (G4P1213), que no figura entre las opciones.
+- INF-066: además del toxoide, la herida infectada necesita limpieza, desbridamiento y antibiótico.
