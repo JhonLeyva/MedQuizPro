@@ -563,8 +563,96 @@ def placenta():
     guardar(fig, "dib_placenta.jpg")
 
 
+def _pierna(ax, dx, caido):
+    """Pierna derecha vista de lado (punta del pie a la derecha). dx: desplazamiento horizontal."""
+    pierna = [(13, 2), (29, 2), (29, 14), (27, 26), (26, 38), (19, 38), (16, 26), (14, 14)]
+    ax.add_patch(Polygon([(x + dx, y) for x, y in pierna], closed=True, fc=PIEL, ec="#b07a5a", lw=2, zorder=2))
+    if caido:
+        pie = [(19, 37), (26, 37), (29, 41), (36, 50), (37.5, 54), (34.5, 55), (25, 47), (18, 44)]
+    else:
+        pie = [(19, 37), (26, 37), (28, 41), (42, 43), (43, 46.5), (18, 46.5), (17.5, 42)]
+    ax.add_patch(Polygon([(x + dx, y) for x, y in pie], closed=True, fc=PIEL, ec="#b07a5a", lw=2, zorder=2))
+    ax.add_patch(Ellipse((14.8 + dx, 16), 3.2, 3.6, fc="#efe6d8", ec="#a89878", lw=1.8, zorder=3))   # cabeza del peroné
+    nervio = [(15 + dx, 3), (13.2 + dx, 14), (15 + dx, 19.5), (24 + dx, 24), (25 + dx, 37)]
+    curva(ax, nervio, "#e0a400", 4.5, 4)
+    if caido:
+        curva(ax, [(25 + dx, 37), (30 + dx, 44), (33 + dx, 50)], "#e0a400", 3, 4, ":")
+    else:
+        curva(ax, [(25 + dx, 37), (31 + dx, 41.5), (38 + dx, 43)], "#e0a400", 3, 4)
+
+
+def peroneo():
+    fig, ax = lienzo(100, 66, "#ffffff")
+    _pierna(ax, 0, False)
+    _pierna(ax, 52, True)
+    ax.plot([2, 47], [46.8, 46.8], color=GRIS, lw=2, zorder=1)
+    ax.plot([54, 99], [56, 56], color=GRIS, lw=2, zorder=1)
+    ax.annotate("", xy=(44, 33), xytext=(44, 42), arrowprops=dict(arrowstyle="-|>", lw=3.5, color=AZUL, mutation_scale=26), zorder=6)
+    rot(ax, 31, 29, "levanta\nla punta", 20, AZUL, ha="left")
+    rot(ax, 75.3, 24.5, "✕", 30, ROJO, z=8)
+    rot(ax, 80.5, 24.5, "herida", 20, ROJO, ha="left")
+    ax.annotate("", xy=(93, 59), xytext=(93, 49), arrowprops=dict(arrowstyle="-|>", lw=3.5, color=ROJO, mutation_scale=26), zorder=6)
+    rot(ax, 84, 43, "la punta\ncae", 20, ROJO, ha="left")
+    rot(ax, 31, 10, "nervio\nperoneo", 20, "#8a6400", ha="left")
+    rot(ax, 24, 62, "NORMAL", 24, TINTA)
+    rot(ax, 76, 62, "PIE CAÍDO", 24, ROJO)
+    guardar(fig, "dib_peroneo.jpg")
+
+
+def bakri():
+    fig, ax = lienzo(100, 70, "#ffffff")
+    # útero (pera invertida) con cuello y vagina
+    ut = Path([(30, 30), (30, 6), (70, 6), (70, 30), (70, 42), (58, 48), (55, 50), (45, 50), (42, 48), (30, 42), (30, 30)],
+              [Path.MOVETO, Path.CURVE4, Path.CURVE4, Path.CURVE4, Path.CURVE4, Path.CURVE4, Path.LINETO, Path.LINETO, Path.CURVE4, Path.CURVE4, Path.CURVE4])
+    ax.add_patch(PathPatch(ut, fc="#f4b6c2", ec="#9f1239", lw=3, zorder=1))
+    ax.add_patch(Rectangle((45, 49), 10, 7, fc="#f4b6c2", ec="#9f1239", lw=3, zorder=1))       # cuello
+    ax.add_patch(Rectangle((43, 55.5), 14, 9, fc="#fde2e4", ec="#9f1239", lw=2, zorder=1))      # vagina
+    # balón inflado
+    ax.add_patch(Ellipse((50, 30.5), 31, 33, fc="#bfe3ff", ec=AZUL, lw=3, zorder=3))
+    rot(ax, 50, 29, "balón\ninflado", 22, AZUL, z=5)
+    # sonda
+    ax.plot([50, 50], [46, 69], color=AZUL, lw=5, zorder=4)
+    ax.add_patch(Rectangle((43.5, 58), 13, 5, fc="#ffffff", ec=GRIS, lw=1.5, hatch="///", zorder=5))   # gasa vaginal
+    # rótulos
+    rot(ax, 2, 9, "útero\nblando\n(atonía)", 21, "#9f1239", ha="left")
+    ax.annotate("", xy=(31, 18), xytext=(19, 16), arrowprops=dict(arrowstyle="-|>", lw=2.5, color="#9f1239", mutation_scale=20), zorder=6)
+    rot(ax, 73, 22, "300-500 mL\nde suero", 21, AZUL, ha="left")
+    ax.annotate("", xy=(65.2, 28), xytext=(72.5, 26), arrowprops=dict(arrowstyle="-|>", lw=2.5, color=AZUL, mutation_scale=20), zorder=6)
+    rot(ax, 59, 60.5, "gasa", 20, GRIS, ha="left")
+    rot(ax, 47, 66.5, "sonda", 20, AZUL, ha="right")
+    guardar(fig, "dib_bakri.jpg")
+
+
+def _pie(ax, x0, y0, estado):
+    """Pie visto por dentro (punta a la derecha), suelo en y0 + 10. estado: plano, flexible (puntillas con arco), rigido."""
+    if estado == "plano":
+        pts = [(5, -14), (12, -14), (13, -4), (24, 3), (31, 7), (32, 10), (2, 10), (0.5, 6), (3, -3)]
+    else:
+        planta = [(25, 10), (21, 7.6), (16, 4.0), (11, 2.6), (6, 2.4)] if estado == "flexible" else [(25, 10), (6, 2.4)]
+        pts = [(7, -20), (14, -20), (15, -9), (25, 0), (28, 5.5), (31, 7.5), (32, 10)] + planta + [(4, 0), (4, -4), (6, -10)]
+    ax.add_patch(Polygon([(x0 + x, y0 + y) for x, y in pts], closed=True, fc=PIEL, ec="#b07a5a", lw=2.2, zorder=2))
+
+
+def pie_plano():
+    fig, ax = lienzo(106, 50, "#ffffff")
+    for k, (t, est, txt, col) in enumerate([
+            ("DE PIE", "plano", "sin arco", TINTA),
+            ("PUNTILLAS", "flexible", "FLEXIBLE", AZUL),
+            ("PUNTILLAS", "rigido", "RÍGIDO", ROJO)]):
+        x0 = 2 + k * 35.5
+        _pie(ax, x0, 24, est)
+        ax.plot([x0 - 1, x0 + 33], [34.2, 34.2], color=GRIS, lw=2, zorder=1)
+        rot(ax, x0 + 16, 2, t, 21, col)
+        rot(ax, x0 + 16, 44, txt, 21, col)
+    ax.annotate("", xy=(2 + 35.5 + 14, 28.3), xytext=(2 + 35.5 + 14, 37),
+                arrowprops=dict(arrowstyle="-|>", lw=3, color=AZUL, mutation_scale=22), zorder=6)
+    rot(ax, 2 + 35.5 + 16.5, 36.5, "arco", 19, AZUL, ha="left")
+    rot(ax, 2 + 71 + 13, 31.6, "sin arco", 15, ROJO)
+    guardar(fig, "dib_pie_plano.jpg")
+
+
 HACER = {"hernia_crural": hernia_crural, "nomograma_paracetamol": nomograma_paracetamol,
-         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas, "formula_obstetrica": formula_obstetrica, "partograma": partograma, "piel_quemadura": piel_quemadura, "placenta": placenta}
+         "balanza_ulcera": balanza_ulcera, "hernia_inguinal": hernia_inguinal, "coartacion": coartacion, "canal_endemico": canal_endemico, "kramer": kramer, "tarjeta_heces": tarjeta_heces, "cobb": cobb, "banera": banera, "triangulo_femoral": triangulo_femoral, "pupilas": pupilas, "craneo_rn": craneo_rn, "derrame": derrame, "dengue_pruebas": dengue_pruebas, "regla9": regla9, "cerumen": cerumen, "posturas": posturas, "formula_obstetrica": formula_obstetrica, "partograma": partograma, "piel_quemadura": piel_quemadura, "placenta": placenta, "peroneo": peroneo, "bakri": bakri, "pie_plano": pie_plano}
 
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:

@@ -23,3 +23,10 @@
 - INF-068: el esquema del caso (dos fármacos «ancla») no es el estándar; hoy se usa TDF + 3TC + DTG.
 - NEF-061: hoy se recomienda RM multiparamétrica antes de la biopsia (EAU 2024).
 - CB-048: la opción «Respuesta muscarínica» se muestra como «Efecto muscarínico» (la palabra está reservada en las imágenes).
+- GIN-136: un solo anticuerpo no confirma el SAF; debe seguir positivo a las 12 semanas (el anticoagulante lúpico es el de mayor riesgo).
+- PSI-027: la alteración cardiaca más frecuente en la anorexia es la bradicardia sinusal; entre las opciones, la correcta es el QT largo.
+- GIN-138: en portadoras de BRCA1 se recomienda salpingo-ooforectomía a los 35-40 años; la salpinguectomía sola no reemplaza la ooforectomía posterior.
+- NRL-039: la trombectomía exige demostrar la oclusión de gran vaso con angio-TC (el caso solo informa Doppler carotídeo).
+- GIN-139: el ácido tranexámico se da junto con los uterotónicos, en las primeras 3 horas (OMS/FIGO/ICM 2025).
+- GIN-140: ASCCP 2019 y ACS 2020 piden al menos 25 años de seguimiento; la clave (20 años) es la recomendación anterior y 25 no está entre las opciones.
+- CB-050: muchos textos fijan el período embrionario en las semanas 3 a 8.

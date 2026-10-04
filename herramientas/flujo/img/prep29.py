@@ -472,3 +472,17 @@ if hacer("celulas_clave.jpg"):
 if hacer("liendres.jpg"):
     # Liendres de piojo en el pelo (KostaMumcuoglu, CC BY-SA 3.0)
     guardar(Image.open("orig/liendres.jpg").convert("RGB"), "liendres.jpg", 400, 88)
+if hacer("crup_campanario.jpg"):
+    # Signo del campanario en el crup (Frank Gaillard, CC BY-SA 3.0); se borró la flecha del autor para poner la marca propia
+    im = Image.open("orig/crup_campanario.jpg").convert("L")
+    a = np.array(im)
+    m = np.zeros(a.shape, bool)
+    m[120:170, 190:315] = a[120:170, 190:315] < 60        # flecha negra
+    m[88:135, 0:30] = a[88:135, 0:30] > 170               # letra R
+    guardar(rellenar(im, m, 5).crop((40, 0, 400, 429)), "crup_campanario.jpg", 360, 88)
+if hacer("acantosis.jpg"):
+    # Acantosis nigricans en la axila (Mark F. Brady y Prashanth Rawla, CC BY-SA 4.0), sin metadatos
+    guardar(Image.open("orig/acantosis.jpg").convert("RGB").crop((0, 0, 768, 860)), "acantosis.jpg", 380, 88)
+if hacer("cec_labio.jpg"):
+    # Carcinoma espinocelular del labio inferior (Coronation Dental Specialty Group, CC BY-SA 4.0), solo la boca
+    guardar(Image.open("orig/cec_labio.jpg").convert("RGB").crop((0, 40, 960, 620)), "cec_labio.jpg", 560, 88)

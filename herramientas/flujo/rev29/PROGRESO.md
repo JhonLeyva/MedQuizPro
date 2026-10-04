@@ -24,3 +24,4 @@ Imágenes: Commons (`img/cm.py`, `img/wm.py`), recortes y montajes en `img/prep2
 | t16 | content29q.py | hecha, 0 problemas; 3 con imagen (propias: dib_posturas, ecg_pericarditis; reutiliza vivax_troz) |
 | t17 | content29r.py | hecha, 0 problemas; 5 con imagen (propias: dib_formula_obstetrica, dib_partograma; reutiliza emh_rx, ecg_fv, petequias) |
 | t18 | content29s.py | hecha, 0 problemas; 4 con imagen (propias: dib_piel_quemadura, dib_placenta; Commons: varicela; reutiliza rx_neumotorax_grande). Además REU-034 (t13) recibió foto de liendres |
+| t19 | content29t.py | hecha, 0 problemas; 11 con imagen (Commons: crup_campanario, acantosis, cec_labio; propias: dib_peroneo, dib_bakri, dib_pie_plano, ecg_qt_largo; reutiliza neumonia_lm, dib_derrame, dib_piel_quemadura) |
