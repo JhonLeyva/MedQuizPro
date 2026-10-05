@@ -325,3 +325,4 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
 }
 .orbit.has-3d::before { display: none; }
 [data-theme="dark"] .demo { background: linear-gradient(180deg, rgb(22, 34, 54), rgb(13, 21, 38)); }
+.hero__copy { position: relative; z-index: 2; }
