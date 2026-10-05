@@ -725,7 +725,7 @@ def cervix(s, x, y, largo=25, cerclaje=True, sc=1.0):
 
 
 def ctg(s, x, y, patron="tardias", W=560, sc=1.0):
-    """Cardiotocografía: FCF arriba (60-200 lpm) y contracciones abajo, 10 minutos (lienzo W×230)."""
+    """patron: normal | tardias | precoces | variables | sinusoidal | hipertonia. Cardiotocografía: FCF arriba (60-200 lpm) y contracciones abajo, 10 minutos (lienzo W×230)."""
     H1, H2 = 130, 60
     X0_, X1_ = 40, W - 10
     fy = lambda v: 10 + (200 - v) / 140 * H1
@@ -760,6 +760,19 @@ def ctg(s, x, y, patron="tardias", W=560, sc=1.0):
                 v = 92 + 3 * _m.sin(i * 0.8)
             else:
                 v = 92 + (tt - 7.5) * 18 + 2 * _m.sin(i)
+        elif patron == "precoces":
+            # la caída empieza y termina con la contracción (espejo): compresión de la cabeza
+            c = sum(max(0, _m.cos(_m.pi * (tt - (0.9 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (0.9 + 2 * k)) < 0.65)
+            v = 145 - 22 * c + 1.2 * _m.sin(i * 1.7)
+            c = 0.1 + 0.85 * c
+        elif patron == "variables":
+            # caídas bruscas en V, de forma y momento variables, sin relación fija con la contracción: cordón
+            c = sum(max(0, _m.cos(_m.pi * (tt - (0.9 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (0.9 + 2 * k)) < 0.65)
+            c = 0.1 + 0.85 * c
+            v = 142 + 1.5 * _m.sin(i * 1.7)
+            for t0, prof, ancho in ((1.6, 55, 0.35), (4.3, 35, 0.25), (6.1, 60, 0.45), (8.8, 40, 0.3)):
+                if abs(tt - t0) < ancho:
+                    v -= prof * (1 - abs(tt - t0) / ancho)
         elif patron == "tardias":
             c = sum(max(0, _m.cos(_m.pi * (tt - (0.9 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (0.9 + 2 * k)) < 0.65)
             dec = sum(max(0, _m.cos(_m.pi * (tt - (1.6 + 2 * k)) / 1.3)) ** 2 for k in range(5) if abs(tt - (1.6 + 2 * k)) < 0.65)

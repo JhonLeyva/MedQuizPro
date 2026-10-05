@@ -839,7 +839,7 @@ def dosis(s, y, d):
     meds = [_caja_txt(dd, None, cw - 20, 11, 11) for _, _, dd in pasos]
     ch = 76 + max(m[2] for m in meds)
     s.rect(X0, y, pw, ch, TEAL_D, rx=16)
-    s.text(X0 + pw / 2, y + 26, "PESO DEL CASO", 10.5, 800, "#99f6e4", maxw=pw - 20)
+    s.text(X0 + pw / 2, y + 26, d.get("peso_titulo", "PESO DEL CASO"), 10.5, 800, "#99f6e4", maxw=pw - 20)
     s.text(X0 + pw / 2, y + 62, peso, 28, 800, "#ffffff", maxw=pw - 16)
     ql = wrap(quien, pw - 24, 11)
     s.text(X0 + pw / 2, y + 84, ql, 11, 500, "#ccfbf1", maxw=pw - 24, lh=15)

@@ -413,6 +413,115 @@ def atresia_esofago():
     guardar(fig, "dib_atresia_esofago.jpg")
 
 
+def hilio_pulmonar():
+    """Cara mediastínica de cada pulmón con el hilio: a la derecha el bronquio queda detrás (y arriba, bronquio
+    epiarterial) de la arteria; a la izquierda la arteria queda arriba y el bronquio debajo. Venas abajo y adelante."""
+    from matplotlib.patches import Ellipse, Circle
+    fig, ax = lienzo(100, 66)
+    AZ_A, ROJ_V, BR = "#3b82f6", "#ef4444", "#f8fafc"
+
+    def pulmon(cx, titulo, der):
+        ax.add_patch(Ellipse((cx, 34), 40, 54, fc="#fde2e4", ec="#be123c", lw=2, zorder=1))
+        rot(ax, cx, 3.5, titulo, 16, TINTA)
+        # orientación: adelante y atrás
+        if der:
+            rot(ax, cx - 17, 62.5, "← atrás", 12, GRIS, w="normal"); rot(ax, cx + 15, 62.5, "adelante →", 12, GRIS, w="normal")
+            br, ar = (cx - 6, 25), (cx + 5, 31)
+        else:
+            rot(ax, cx - 15, 62.5, "← adelante", 12, GRIS, w="normal"); rot(ax, cx + 17, 62.5, "atrás →", 12, GRIS, w="normal")
+            br, ar = (cx + 1, 37), (cx + 1, 25)
+        ax.add_patch(Circle(br, 5, fc=BR, ec="#475569", lw=3, zorder=3))
+        ax.add_patch(Circle(br, 2.6, fc="white", ec="#94a3b8", lw=1.5, zorder=4))
+        ax.add_patch(Circle(ar, 4.3, fc=AZ_A, ec="#1e3a8a", lw=2, zorder=3))
+        vx = cx + 7 if der else cx - 7
+        for vy in (42, 49):
+            ax.add_patch(Circle((vx, vy), 3.4, fc=ROJ_V, ec="#7f1d1d", lw=2, zorder=3))
+        return br, ar, vx
+
+    br, ar, vx = pulmon(25, "Pulmón DERECHO", True)
+    rot(ax, br[0] - 1, br[1] - 8.5, "bronquio:\nDETRÁS", 12, TINTA, fondo="#ffffff")
+    rot(ax, ar[0] + 9, ar[1] - 4, "arteria", 12, "#1d4ed8", fondo="#ffffff")
+    rot(ax, vx + 9, 46, "venas", 12, "#b91c1c", fondo="#ffffff")
+    br, ar, vx = pulmon(75, "Pulmón IZQUIERDO", False)
+    rot(ax, br[0] + 12, br[1] + 1, "bronquio:\nDEBAJO", 12, TINTA, fondo="#ffffff")
+    rot(ax, ar[0] + 11, ar[1] - 2, "arteria:\narriba", 12, "#1d4ed8", fondo="#ffffff")
+    rot(ax, vx - 9, 46, "venas", 12, "#b91c1c", fondo="#ffffff")
+    guardar(fig, "dib_hilio_pulmonar.jpg")
+
+
+def lobulos_pulmon():
+    """Pulmones de frente: derecho con 3 lóbulos, izquierdo con 2 y la língula (parte del lóbulo superior izquierdo)."""
+    from matplotlib.patches import Polygon
+    import numpy as np
+    fig, ax = lienzo(100, 70)
+
+    def forma(cx, sgn):
+        t = np.linspace(0, 1, 60)
+        borde_ext = [(cx + sgn * (4 + 22 * np.sin(np.pi * 0.5 * u) ** 0.8), 8 + 52 * u) for u in t]
+        borde_int = [(cx + sgn * 3, 60 - 52 * u) for u in t]
+        return borde_ext + borde_int
+
+    # derecho (izquierda del dibujo): lóbulos superior, medio e inferior
+    ax.add_patch(Polygon(forma(48, -1), closed=True, fc="#fecdd3", ec="#9f1239", lw=2.5, zorder=1))
+    ax.add_patch(Polygon([(45, 32), (24, 36), (22, 50), (45, 46)], closed=True, fc="#fde68a", ec="none", zorder=2, alpha=.9))
+    ax.plot([45, 24], [32, 36], color="#9f1239", lw=2, zorder=3)
+    ax.plot([45, 22], [46, 52], color="#9f1239", lw=2, zorder=3)
+    rot(ax, 34, 20, "superior", 13, TINTA, w="normal")
+    rot(ax, 34, 42, "medio", 13, "#92400e")
+    rot(ax, 33, 56, "inferior", 13, TINTA, w="normal")
+    rot(ax, 30, 3.5, "DERECHO: 3 lóbulos", 14, TINTA)
+    # izquierdo: superior (con língula) e inferior
+    ax.add_patch(Polygon(forma(52, 1), closed=True, fc="#fecdd3", ec="#9f1239", lw=2.5, zorder=1))
+    ax.add_patch(Polygon([(55, 40), (61.5, 41), (59.5, 54), (55, 54)], closed=True, fc=ROJO, ec="none", zorder=2, alpha=.75))
+    ax.plot([69, 61], [25, 59.5], color="#9f1239", lw=2, zorder=3)
+    rot(ax, 62, 20, "superior", 13, TINTA, w="normal")
+    rot(ax, 69, 50, "inferior", 13, TINTA, w="normal")
+    rot(ax, 86, 42, "LÍNGULA", 14, ROJO, fondo="#ffffff")
+    ax.annotate("", xy=(58, 47), xytext=(80, 42), arrowprops=dict(arrowstyle="-|>", lw=2.2, color=ROJO), zorder=5)
+    rot(ax, 72, 3.5, "IZQUIERDO: 2 lóbulos", 14, TINTA)
+    # tráquea
+    ax.plot([50, 50], [0.5, 8], color="#64748b", lw=6, zorder=0)
+    rot(ax, 50, 67, "Derecha del paciente = izquierda del dibujo", 11, GRIS, w="normal")
+    guardar(fig, "dib_lobulos_pulmon.jpg")
+
+
+def espirograma():
+    """Espirograma: volúmenes (VC, VRI, VRE, VR) y capacidades (CV, CPT, CRF)."""
+    import numpy as np
+    fig, ax = lienzo(100, 62)
+    Y = lambda v: 56 - v * 8.2          # litros a coordenada (0 a 6 L)
+    x = np.linspace(4, 70, 600)
+    y = []
+    for xx in x:
+        if xx < 26:
+            v = 2.4 + 0.25 * (1 - np.cos(2 * np.pi * (xx - 4) / 7.3))
+        elif xx < 36:
+            v = 2.4 + (5.8 - 2.4) * np.sin(np.pi / 2 * (xx - 26) / 10)
+        elif xx < 48:
+            v = 5.8 - (5.8 - 1.2) * np.sin(np.pi / 2 * (xx - 36) / 12)
+        else:
+            v = 2.4 + 0.25 * (1 - np.cos(2 * np.pi * (xx - 48) / 7.3)) if xx > 52 else 1.2 + (2.4 - 1.2) * (xx - 48) / 4
+        y.append(Y(v))
+    ax.plot(x, y, color="#0f766e", lw=3, zorder=3)
+    for v in (0, 1.2, 2.4, 2.9, 5.8):
+        ax.plot([2, 96], [Y(v), Y(v)], color="#e2e8f0", lw=1, zorder=1)
+    def llave(xc, v0, v1, txt, col, lado="d"):
+        ax.annotate("", xy=(xc, Y(v1)), xytext=(xc, Y(v0)), arrowprops=dict(arrowstyle="<->", lw=2, color=col), zorder=4)
+        rot(ax, xc + (1.2 if lado == "d" else -1.2), (Y(v0) + Y(v1)) / 2, txt, 12, col, ha="left" if lado == "d" else "right", fondo="#ffffff")
+    llave(73, 2.4, 2.9, "Vol. corriente", "#0f766e")
+    llave(73, 2.9, 5.8, "Reserva inspiratoria", "#2563eb")
+    llave(73, 1.2, 2.4, "Reserva espiratoria", "#7c3aed")
+    llave(73, 0, 1.2, "Volumen residual", GRIS)
+    llave(60, 1.2, 5.8, "CAPACIDAD\nVITAL", ROJO, lado="i")
+    ax.add_patch(Rectangle((2, Y(1.2)), 94, Y(0) - Y(1.2), fc="#f1f5f9", ec="none", zorder=0))
+    rot(ax, 30, Y(0.6), "no se puede expulsar (no entra en la CV)", 12, GRIS, w="normal")
+    rot(ax, 50, 3, "Capacidad pulmonar total = CV + volumen residual", 14, TINTA)
+    guardar(fig, "dib_espirograma.jpg")
+
+
+HACER["hilio_pulmonar"] = hilio_pulmonar
+HACER["lobulos_pulmon"] = lobulos_pulmon
+HACER["espirograma"] = espirograma
 HACER["atresia_esofago"] = atresia_esofago
 HACER["ciclo_familiar"] = ciclo_familiar
 HACER["malformacion_anorrectal"] = malformacion_anorrectal
