@@ -79,7 +79,7 @@ S("transmision", "SP-106", "Para reducir la leptospirosis en zonas rurales pobre
           [("Sufusión conjuntival", "Ojo rojo sin secreción: muy sugestivo de leptospirosis."),
            ("Ictericia", "En la forma grave (enfermedad de Weil) con falla renal."),
            ("Antecedente", "Contacto con agua o barro: pensarla en zonas rurales e inundaciones.")],
-          pie="Foto de otro paciente (solo el ojo)."))
+          pie="Sufusión conjuntival"))
 
 # NEU-040 · Crisis asmática moderada · MONITOR + GINA
 S("monitor", "NEU-040", "Asmático con 6 días de disnea, habla entrecortada, FR 24, SatO₂ 93 %, músculos accesorios y PEF 66 %: crisis asmática moderada",
@@ -148,8 +148,8 @@ S("cuadricula", "REU-040", "Anciano con nódulo perlado en la cara, de crecimien
          celdas=[("Carcinoma basocelular", ["Clínica: nódulo perlado, telangiectasias, úlcera", "Biopsia: nidos basaloides en empalizada"], PA("bcc_patologia.jpg", 400), True),
                  ("Melanoma", ["Asimétrico, bordes irregulares, varios colores", "Crece rápido; ABCDE"], P("melanoma.jpg", 400, 255), False),
                  ("Carcinoma epidermoide", ["Placa costrosa o úlcera en labio o dorso de manos", "Puede dar metástasis"], P("cec_labio.jpg", 380, 229), False),
-                 ("Queratosis seborreica", ["Lesión marrón «pegada», verrugosa", "Benigna"], None, False)],
-         credito="M. Häggström (CC0), NCI (dominio público), Coronation Dental Specialty Group (CC BY-SA 4.0) · Wikimedia Commons",
+                 ("Queratosis seborreica", ["Lesión marrón «pegada», verrugosa", "Benigna"], P("qseb.jpg", 360, 196), False)],
+         credito="M. Häggström (CC0), NCI (dominio público), Coronation Dental Specialty Group (CC BY-SA 4.0) · Wikimedia Commons" + " · Queratosis: Lubis y Putra · Front Med 2026 · PMC13587691 · CC BY 4.0",
          veredicto=("Nódulo perlado + telangiectasias + úlcera central = carcinoma basocelular", "Biopsia y extirpación con márgenes (Mohs en la cara).")),
   triada=TR([("Borde perlado", "Sí", True), ("Telangiectasias arborizantes", "Sí", True), ("Úlcera central (ulcus rodens)", "Reciente", True)],
             [("Signos del basocelular nodular", 0, 2)], "Los tres presentes en una zona con sol crónico."))
@@ -252,9 +252,9 @@ S("cuadricula", "OFT-033", "Mujer con dolor ocular intenso, halos, visión borro
   d=dict(rotulo="Ojo rojo y doloroso: ¿cuál es?", alto_img=130,
          celdas=[("Glaucoma agudo", ["Pupila media fija, córnea turbia, ojo duro", "Halos, náuseas → acetazolamida"], P("glaucoma_agudo.jpg", 360, 274), True),
                  ("Conjuntivitis", ["Secreción, pupila normal, visión normal", "Sin dolor intenso"], P("conjuntivitis.jpg", 330, 202), False),
-                 ("Uveítis anterior", ["Pupila pequeña (miosis), fotofobia", "Atropina sí está indicada aquí"], None, False),
-                 ("Queratitis", ["Úlcera en la córnea, lagrimeo", "Lente de contacto, trauma"], None, False)],
-         credito="Jonathan Trobe, MD (CC BY 3.0) y Gzzz (CC BY-SA 4.0) · Wikimedia Commons",
+                 ("Uveítis anterior", ["Pupila pequeña (miosis), fotofobia", "Atropina sí está indicada aquí"], P("hipopion.jpg", 330, 318), False),
+                 ("Queratitis", ["Úlcera en la córnea, lagrimeo", "Lente de contacto, trauma"], P("queratitis.jpg", 360, 291), False)],
+         credito="Jonathan Trobe, MD (CC BY 3.0) y Gzzz (CC BY-SA 4.0) · Wikimedia Commons" + " · Hipopion: Ajabshir et al. · Cureus 2024 · PMC11707805 · Queratitis: Gardeli et al. · Cureus 2026 · PMC13552464 · CC BY 4.0",
          veredicto=("Pupila en midriasis media fija + ojo duro + halos = glaucoma agudo", "Acetazolamida 500 mg + gotas hipotensoras; luego iridotomía láser.")))
 
 # REU-041 · Impétigo localizado: mupirocina · ÁRBOL + foto
@@ -277,7 +277,7 @@ S("arbol", "REU-041", "Adolescente con vesículas y costras color miel en antebr
           [("Costras color miel", "Costras melicéricas sobre piel roja."),
            ("Alrededor de nariz y boca", "Donde se rasca; se contagia a otras zonas."),
            ("Contagio familiar", "Por eso el hermano tiene lo mismo.")],
-          pie="Foto de otro niño."))
+          pie="Impétigo con costras melicéricas"))
 
 # NRL-041 · Hematoma epidural · LECTURA (TC) + Glasgow
 S("lectura", "NRL-041", "Caída con pérdida de conciencia, intervalo lúcido, deterioro, Glasgow 10 y midriasis fija del lado de la herida: hematoma epidural",
@@ -300,7 +300,7 @@ S("lectura", "NRL-041", "Caída con pérdida de conciencia, intervalo lúcido, d
                 ("Línea media desplazada", "Efecto de masa: empuja el cerebro al otro lado.", False),
                 ("Mismo lado que la pupila dilatada", "Hernia del uncus que comprime el III par.", False),
                 ("No cruza las suturas", "La duramadre está pegada en las suturas (el subdural sí las cruza).", False)],
-         img_pie="TC de otro paciente con hematoma epidural derecho.",
+         img_pie="Hematoma epidural derecho",
          veredicto=("Intervalo lúcido + lente biconvexa + anisocoria = hematoma epidural", "Craneotomía de urgencia.")),
   escala=GLASGOW_TEC(1, [("Glasgow 10 tras el golpe", True), ("Además, pupila fija: neurocirugía urgente", True)],
                      "TC inmediata y craneotomía; vigilar Glasgow y pupilas."))
@@ -334,7 +334,7 @@ S("arbol", "CIR-086", "Dolor de 20 horas en hipocondrio derecho, vómitos, fiebr
           [("Cálculo en el cístico", "Tapa la salida de la bilis."),
            ("Vesícula roja y gruesa", "Inflamada; en la eco: pared > 4 mm."),
            ("Colédoco normal", "Por eso no hay ictericia (si la hay, pensar en colangitis).")],
-          pie="Esquema."))
+          pie="Colecistitis aguda"))
 
 # INF-077 · Mononucleosis · CRITERIOS de Hoagland + linfocito atípico
 S("criterios", "INF-077", "Escolar con 10 días de odinofagia, amígdalas exudativas, adenopatías cervicales grandes, hepatoesplenomegalia y exantema: mononucleosis infecciosa",
@@ -381,7 +381,7 @@ S("arbol", "TRA-031", "Joven con fractura del tercio medio del húmero tras un a
           [("Tercio medio de la diáfisis", "Donde el radial va pegado al hueso."),
            ("Fragmentos desplazados", "Pueden estirar o atrapar el nervio."),
            ("Revisar la extensión", "Muñeca y dedos antes y después de inmovilizar.")],
-          pie="Rx de otro paciente."))
+          pie="Fractura de húmero"))
 
 # NEF-066 · Torsión testicular · RELOJ (ventana de horas) + TWIST + dibujo + eco
 S("reloj", "NEF-066", "Adolescente con dolor testicular súbito e intenso de 3 horas y testículo derecho alto y aumentado: torsión testicular, cirugía urgente",
@@ -414,7 +414,7 @@ S("reloj", "NEF-066", "Adolescente con dolor testicular súbito e intenso de 3 h
            ("Cordón enrollado", "Signo del remolino en la eco."),
            ("Doppler sin flujo dentro", "Solo hay flujo alrededor, no en el testículo."),
            ("Cremastérico ausente", "Y el dolor no calma al levantarlo (Prehn negativo).")],
-          pie="Izquierda: esquema; derecha: Doppler de otro paciente."))
+          pie="Torsión testicular y Doppler sin flujo"))
 
 # REU-042 · Artritis reumatoide: anti-CCP · RADIAL de autoanticuerpos + criterios ACR/EULAR
 S("radial", "REU-042", "Joven con poliartritis simétrica de manos, muñecas y rodillas por 3 meses y rigidez matinal prolongada: pedir anticuerpos anti-péptido citrulinado (anti-CCP)",
@@ -458,9 +458,9 @@ S("cuadricula", "PED-144", "Prematuro de 32 semanas con quejido, aleteo, tiraje 
   d=dict(rotulo="Dificultad respiratoria neonatal: cómo se ve la Rx", alto_img=150,
          celdas=[("Membrana hialina", ["Prematuro; vidrio esmerilado + broncograma", "Pulmones pequeños"], P("emh_rx2.jpg", 420, 373), True),
                  ("Aspiración meconial", ["Término o postérmino, líquido meconial", "Infiltrados gruesos + aire atrapado"], P("meconio_rx.jpg", 300, 287), False),
-                 ("Taquipnea transitoria", ["Término por cesárea", "Líquido en cisuras; mejora en 72 h"], None, False),
-                 ("Neumonía neonatal", ["RPM larga, madre febril", "Infiltrados parcheados"], None, False)],
-         credito="Xie et al. · Front Pediatr 2026 · PMC13260572 (CC BY 4.0) y Kinderradiologie Olgahospital Stuttgart (CC BY-SA 4.0, Commons)",
+                 ("Taquipnea transitoria", ["Término por cesárea", "Líquido en cisuras; mejora en 72 h"], D(lambda s, x, y: I.torax_rx(s, x, y, "edema", sc=0.5), 150, 140), False),
+                 ("Neumonía neonatal", ["RPM larga, madre febril", "Infiltrados parcheados"], D(lambda s, x, y: I.torax_rx(s, x, y, "consolidacion", sc=0.5), 150, 140), False)],
+         credito="Xie et al. · Front Pediatr 2026 · PMC13260572 (CC BY 4.0) y Kinderradiologie Olgahospital Stuttgart (CC BY-SA 4.0, Commons)" + " · Abajo: esquemas propios",
          veredicto=("Prematuro de 32 semanas + vidrio esmerilado + broncograma = membrana hialina", "CPAP y surfactante.")),
   escala=dict(nombre="Escala de Silverman-Andersen", modo="puntaje", que="Grado de dificultad respiratoria del recién nacido (0 = sin dificultad).",
               items=[("Tórax", "Disociación tórax-abdomen", "No se informa", None), ("Tiraje", "Tiraje intercostal (marcado = 2)", "Marcado", 2),
@@ -503,7 +503,7 @@ S("arbol", "GAS-054", "Mujer con ictericias previas, dolor cólico en hipocondri
            ("Cálculos en el colédoco", "Huecos oscuros dentro de la bilis (blanca)."),
            ("Bilis detenida", "Se infecta: fiebre e ictericia."),
            ("La CPRE drena y extrae", "Esfinterotomía y extracción del cálculo.")],
-          pie="Colangiorresonancia de otro paciente."))
+          pie="Coledocolitiasis"))
 
 # REU-043 · Anafilaxia por abejas: adrenalina · RELOJ + criterios + urticaria
 S("reloj", "REU-043", "Joven con picaduras de abejas, disnea, estridor, sibilancias, cianosis y PA 80/50: anafilaxia, el tratamiento es adrenalina intramuscular",
@@ -530,7 +530,7 @@ S("reloj", "REU-043", "Joven con picaduras de abejas, disnea, estridor, sibilanc
           [("Ronchas que pican", "Urticaria: aparece en el 80-90 %."),
            ("Puede faltar", "En el choque la piel puede estar pálida."),
            ("No esperar la piel", "Con vía aérea o PA comprometidas, adrenalina.")],
-          pie="Foto de otra persona."))
+          pie="Urticaria"))
 
 # GIN-145 · Pielonefritis en la gestante: ceftriaxona · CHECKLIST + ITU
 S("checklist", "GIN-145", "Gestante de 28 semanas con fiebre de 39 °C, escalofríos, dolor lumbar y puño-percusión positiva: pielonefritis, ceftriaxona EV",
@@ -615,5 +615,5 @@ S("lectura", "PED-145", "Lactante varón de 10 días con vómitos explosivos tra
                 ("Canal largo", "≥ 15-17 mm.", False),
                 ("No pasa contenido", "El estómago no vacía durante el estudio.", False),
                 ("Corregir antes de operar", "Alcalosis hipoclorémica e hipopotasemia.", False)],
-         img_pie="Eco de otro lactante con estenosis pilórica.",
+         img_pie="Estenosis pilórica",
          veredicto=("Vómitos en proyectil + oliva = estenosis pilórica: ecografía", "Corregir la alcalosis y luego piloromiotomía.")))

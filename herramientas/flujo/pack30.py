@@ -142,6 +142,8 @@ commons = {c: v for c, v in creditos.items() if "MedQuizPro" not in c and "PMC" 
 lista = lambda d: "\n".join(f"- {c} ({', '.join(sorted(v))})" for c, v in sorted(d.items()))
 dis = "\n".join(f"  {n:2}. {nom}: {usos[k]}" for n, k, nom in CATALOGO if usos[k])
 falta = "\n".join(f"  {n:2}. {nom}" for n, k, nom in CATALOGO if not usos[k])
+import extra32 as X32
+n_esc_r, n_tri_r, n_fue_r, n_pies = len(X32.ESC), len(X32.TRI), len(X32.FUE), 156
 LEEME = f"""MedQuizPro · Entrega 3: flujogramas 1001 a 1500 revisados
 ========================================================
 
@@ -166,6 +168,23 @@ Entrega 2 y con lo nuevo que pidió:
 - Tabla «Opciones de la pregunta» con las 5 alternativas ACTUALES del banco y por qué cada una sí o no.
 - Puntos clave y fuentes al 2026 (AHA/ILCOR 2025, ATLS 11.ª, ADA 2026, GINA/GOLD 2025, KDIGO, IDSA, CDC,
   OMS, ACOG, NICE, MINSA, Harrison 22.ª, Nelson 22.ª, Williams 26.ª...).
+
+Revisión del 5 de octubre de 2026 (correcciones pedidas)
+--------------------------------------------------------
+- Leyendas de imagen: se quitó «foto de otro paciente», «esquema», etc.; queda solo la descripción
+  (por ejemplo «Estenosis pilórica»). La fuente sigue debajo de cada imagen. {n_pies} leyendas corregidas.
+- Recuadros sin imagen: ahora todas las casillas de las cuadrículas y los estadios de la ROP tienen su foto o dibujo
+  (desprendimiento de retina, uncinarias, Ascaris, uveítis, queratitis, taquipnea transitoria, neumonía neonatal,
+  serpiente, hemotórax, tórax inestable, TB primaria y pleural, otomicosis, cerclaje, uraco, conducto
+  onfalomesentérico, metanol, beriberi, queilitis, celulitis, erisipela, fascitis, etc.): 20 flujogramas, 39 casillas.
+- Escalas como guía: se añadió el cuadro de la escala o clasificación donde la pregunta la usa o la necesita para
+  interpretarse (Gleason/ISUP, IPSS, Glasgow, Wells, ICH, Kramer, POP-Q, O-RADS, AAST, Hughes, PAS, KDIGO, GOLD,
+  NIHSS, Atlanta, MGFA, Sillence, FIGO, IOM, OMS/AIEPI...): {n_esc_r} escalas nuevas y {n_tri_r} criterios con nombre propio
+  (Light, Roma IV, índice predictivo de asma).
+- Bibliografía: {n_fue_r} fuentes cambiadas a la versión vigente en 2026, verificadas en PubMed (p. ej., guía
+  AHA/ACC de embolia pulmonar 2026, ACC/AHA de dislipidemias 2026, ESC/EAS 2025, ACOG n.º 10 de monitoreo fetal 2025,
+  ATS de neumonía 2025, ABA de quemados 2024, IHS de migraña 2024, ACG de falla hepática aguda 2023, ESVS 2025,
+  NICE de B12 2024, ARIA-EAACI 2024-2025, consenso de crisis hiperglucémicas 2024, EGS 6.ª ed.).
 
 Diseños usados (n.º del catálogo de 50 · veces)
 -----------------------------------------------
@@ -202,6 +221,10 @@ Imágenes de PubMed Central (NCBI), licencias CC BY / CC0 (son de otros paciente
 Imágenes de Wikimedia Commons (son de otros pacientes; así se indica bajo cada una)
 ----------------------------------------------------------------------------------
 {lista(commons)}
+
+Créditos completos de las imágenes añadidas en la revisión
+---------------------------------------------------------
+{open("rev32/creditos_nuevos.txt").read().strip()}
 
 Imágenes propias de MedQuizPro (no son de pacientes; se pueden usar libremente en el sitio)
 ------------------------------------------------------------------------------------------

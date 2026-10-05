@@ -49,7 +49,7 @@ S("decision", "GIN-184", "Multípara a término en fase activa avanzada (7 cm, �
           [("Previa", "La placenta cubre el cuello: no puede nacer por vía vaginal."),
            ("Inserción baja", "El borde está cerca, pero no lo cubre."),
            ("Ecografía transvaginal", "Mide la distancia al orificio.")],
-          pie="Ilustración."))
+          pie="Placenta previa"))
 
 # PED-179 · Hepatitis A en el escolar · LABORATORIO
 S("laboratorio", "PED-179", "Escolar con fiebre, vómitos, coluria, ictericia y transaminasas altas con tiempo de protrombina normal: hepatitis A aguda, hidratación y sintomáticos",
@@ -131,7 +131,7 @@ S("termometro", "INF-089", "Agricultor con fiebre, cefalea, artralgias y mialgia
           [("Sufusión conjuntival", "Ojos rojos sin secreción: muy sugerente de leptospirosis."),
            ("Mialgia en pantorrillas", "Otra pista clínica clásica."),
            ("Contagio", "Agua o barro con orina de roedores y animales.")],
-          pie="Foto de otra persona (solo el ojo)."))
+          pie="Sufusión conjuntival"))
 
 # HEM-035 · Mal de montaña crónico (Monge) · REGLA
 S("regla", "HEM-035", "Residente de Cerro de Pasco con cefalea, mareos, acúfenos, cianosis, Hb 22, Hto 66 % y SatO₂ 88 %: mal de montaña crónico (enfermedad de Monge)",
@@ -170,10 +170,10 @@ S("cuadricula", "INF-090", "Varón joven con secreción uretral mucopurulenta y 
                                  "No: es para tricomonas"]),
   d=dict(rotulo="Gérmenes de la uretritis y qué los cubre", alto_img=130,
          celdas=[("Gonococo", ["Diplococos gramnegativos intracelulares", "Ceftriaxona"], P("gonococo.jpg", 300, 241), True),
-                 ("Chlamydia trachomatis", ["Intracelular, no se ve en el Gram", "Azitromicina o doxiciclina"], None, True),
-                 ("Mycoplasma genitalium", ["Persistente pese al tratamiento", "Moxifloxacino"], None, False),
-                 ("Trichomonas", ["Menos frecuente en varones", "Metronidazol"], None, False)],
-         credito="Gram: Graham Beards · Wikimedia Commons · CC BY-SA 4.0",
+                 ("Chlamydia trachomatis", ["Intracelular, no se ve en el Gram", "Azitromicina o doxiciclina"], PA("dib_gram_pmn.jpg", 300, [], fondo="#ffffff"), True),
+                 ("Mycoplasma genitalium", ["Persistente pese al tratamiento", "Moxifloxacino"], PA("dib_naat.jpg", 300, [], fondo="#ffffff"), False),
+                 ("Trichomonas", ["Menos frecuente en varones", "Metronidazol"], P("trico.jpg", 420, 350), False)],
+         credito="Gram: Graham Beards · Wikimedia Commons · CC BY-SA 4.0" + " · Tricomonas: CDC/PHIL (dominio público) · Esquemas propios",
          veredicto=("Uretritis sindrómica = ceftriaxona + azitromicina", "Cubre los dos gérmenes más frecuentes, que suelen ir juntos.")))
 
 # CB-069 · Metronidazol y alcohol: efecto antabús · CASCADA
@@ -238,7 +238,7 @@ S("checklist", "REU-055", "Artritis de rodilla con cocos grampositivos en racimo
   banda=B("Lo que muestra el Gram (esquema)", D(lambda s, x, y: I.gram(s, x + 20, y, "cocos_racimo", sc=1.1), 280, 180),
           [("Cocos grampositivos en racimos", "Estafilococo (S. aureus)."), ("En cadenas", "Estreptococo."),
            ("Diplococos gramnegativos", "Gonococo en jóvenes sexualmente activos.")],
-          pie="Esquema."))
+          pie="Tinción de Gram"))
 
 # NRL-048 · Profilaxis de la migraña: propranolol · PIRÁMIDE
 S("piramide", "NRL-048", "Mujer joven con más de 4 crisis de migraña al mes: necesita profilaxis, y el propranolol es de primera línea",
@@ -273,11 +273,11 @@ S("cuadricula", "CB-070", "Preescolar muy pobre y desnutrido con fatiga, anorexi
   OMS + ", deficiencia de tiamina (2021); " + NELSON + ".",
   op=("¿Déficit?", ["No: queilitis y glositis", "Sí: neuropatía + edema", "No: convulsiones y anemia", "No: pelagra (dermatitis, diarrea, demencia)", "No: anemia megaloblástica"]),
   d=dict(rotulo="Vitaminas del complejo B: ¿cuál falta?", alto_img=130,
-         celdas=[("B1 · Tiamina (beriberi)", ["Neuropatía, hiporreflexia, edema, IC", "Este caso"], None, True),
+         celdas=[("B1 · Tiamina (beriberi)", ["Neuropatía, hiporreflexia, edema, IC", "Este caso"], PA("dib_beriberi.jpg", 330, [], fondo="#ffffff"), True),
                  ("B3 · Niacina (pelagra)", ["Dermatitis en zonas de sol, diarrea, demencia", "Las 3 D"], P("pelagra.jpg", 360, 165), False),
-                 ("B2 · Riboflavina", ["Queilitis, glositis, dermatitis seborreica", "Sin neuropatía"], None, False),
-                 ("B12 · Cobalamina", ["Anemia megaloblástica + neuropatía", "Sin edema"], None, False)],
-         credito="Pelagra: J. W. Babcock · Wikimedia Commons · dominio público",
+                 ("B2 · Riboflavina", ["Queilitis, glositis, dermatitis seborreica", "Sin neuropatía"], P("queilitis.jpg", 360, 170), False),
+                 ("B12 · Cobalamina", ["Anemia megaloblástica + neuropatía", "Sin edema"], P("hiperseg2.jpg", 300, 251, [], fondo="#ffffff"), False)],
+         credito="Pelagra: J. W. Babcock · Wikimedia Commons · dominio público" + " · Queilitis: Matthew Ferguson 57 (CC BY-SA 3.0) · Neutrófilo: Ed Uthman (CC BY 2.0) · Beriberi: esquema propio",
          veredicto=("Neuropatía + edema en desnutrido = beriberi (tiamina)", "Tiamina antes de la glucosa.")))
 
 # END-053 · Obesidad: ejercicio aeróbico · RADIAL
@@ -390,7 +390,7 @@ S("alarma", "OFT-042", "Cuerpo extraño metálico que atraviesa córnea, iris y 
          signos=[("Cuerpo extraño que atraviesa la córnea", "Sí, hasta el cristalino", True), ("Iris o cristalino comprometidos", "Sí", True),
                  ("Mecanismo de alta velocidad (amoladora)", "Sí", True), ("Pupila irregular o en lágrima", "No se informa", False),
                  ("Seidel positivo (fuga de humor acuoso)", "No se informa", False)],
-         img=P("hipema.jpg", 260, 200, [], credito="Rakesh Ahuja" + CC + "CC BY-SA 2.5"), img_titulo="Trauma ocular (otro caso)",
+         img=P("hipema.jpg", 260, 200, [], credito="Rakesh Ahuja" + CC + "CC BY-SA 2.5"), img_titulo="Trauma ocular",
          accion=("Escudo rígido + analgesia EV", "Sin gotas, sin presión, sin extraer; derivar urgente."),
          accion_rotulo="GLOBO ABIERTO",
          veredicto=("Globo abierto: no tocar, analgesia EV y derivar", "El oftalmólogo extrae el cuerpo extraño en quirófano.")))
@@ -413,7 +413,7 @@ S("arbol", "CIR-099", "Fracturas de las costillas 9 y 10 izquierdas con líquido
           [("Hipocondrio izquierdo", "Bajo las costillas 9-11 (derecha del dibujo)."),
            ("Muy irrigado", "Sangra rápido: líquido libre en el FAST."),
            ("Signo de Kehr", "Dolor en el hombro izquierdo por sangre bajo el diafragma.")],
-          pie="Esquema (derecha del paciente = izquierda del dibujo)."))
+          pie="Bazo en el hipocondrio izquierdo"))
 
 # CB-071 · Lactancia: oxitocina · LABORATORIO (hormonas)
 S("laboratorio", "CB-071", "Al amamantar, la succión del pezón aumenta la secreción de oxitocina (reflejo de eyección de la leche)",
@@ -511,5 +511,5 @@ S("lectura", "TRA-042", "Caída sobre la mano extendida con dolor en la tabaquer
                 ("Al inicio puede no verse", "Por eso se repite la Rx o se pide RM.", False),
                 ("Polo proximal en riesgo", "Necrosis avascular y seudoartrosis.", False),
                 ("Inmovilizar con el pulgar incluido", "Yeso o férula de escafoides.", False)],
-         img_pie="Rx de otra persona.",
+         img_pie="Fractura de escafoides",
          veredicto=("Tabaquera anatómica dolorosa = escafoides hasta demostrar lo contrario", "Inmovilizar aunque la primera Rx sea normal.")))

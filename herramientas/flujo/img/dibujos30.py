@@ -558,6 +558,134 @@ HACER["atresia_esofago"] = atresia_esofago
 HACER["ciclo_familiar"] = ciclo_familiar
 HACER["malformacion_anorrectal"] = malformacion_anorrectal
 
+
+# ── Revisión de la Entrega 3: celdas que no tenían imagen (letra grande: la celda se ve a ~45 %)
+def _pared(ax):
+    """Corte de lado del abdomen bajo: pared a la izquierda, ombligo arriba."""
+    from matplotlib.patches import Ellipse
+    ax.add_patch(Rectangle((2, 6), 8, 52, fc="#f6dccb", ec="#b45309", lw=1.5, zorder=1))
+    ax.add_patch(Ellipse((6, 12), 7, 5, fc="#e8b796", ec="#b45309", lw=1, zorder=2))
+    rot(ax, 9, 3, "ombligo", 13, TINTA)
+
+
+def uraco_permeable():
+    from matplotlib.patches import Ellipse
+    fig, ax = lienzo(60, 60, px=(340, None))
+    _pared(ax)
+    ax.add_patch(Ellipse((32, 47), 26, 18, fc="#fde68a", ec="#b45309", lw=1.5, zorder=2))
+    rot(ax, 32, 47, "vejiga", 14, "#92400e")
+    ax.plot([10, 14, 21], [12, 30, 42], color="#b45309", lw=9.9, solid_capstyle="round", zorder=2)
+    ax.plot([10, 14, 21], [12, 30, 42], color="#fde68a", lw=6.8, solid_capstyle="round", zorder=3)
+    rot(ax, 37, 26, "uraco\nabierto", 14, "#92400e")
+    for k in range(3):
+        ax.add_patch(Circle((14 + k * 3.4, 9 + k * 0.5), 1.1, fc="#facc15", ec="#a16207", zorder=4))
+    rot(ax, 40, 11, "sale orina", 14, ROJO)
+    guardar(fig, "dib_uraco.jpg")
+
+
+def onfalomesenterico():
+    fig, ax = lienzo(60, 60, px=(340, None))
+    _pared(ax)
+    xs = [28, 34, 40, 46, 52, 54, 50, 44, 38, 32, 27, 28]
+    ys = [46, 43, 45, 43, 45, 51, 55, 53, 55, 53, 50, 46]
+    ax.plot(xs, ys, color="#be185d", lw=15.3, solid_capstyle="round", solid_joinstyle="round", zorder=2)
+    ax.plot(xs, ys, color="#fbcfe8", lw=11.2, solid_capstyle="round", solid_joinstyle="round", zorder=3)
+    rot(ax, 41, 49, "íleon", 13, "#9d174d", z=12)
+    ax.plot([10, 18, 28], [12, 28, 45], color="#be185d", lw=9.9, solid_capstyle="round", zorder=2)
+    ax.plot([10, 18, 28], [12, 28, 45], color="#fbcfe8", lw=6.8, solid_capstyle="round", zorder=3)
+    rot(ax, 39, 27, "conducto\nabierto", 14, "#9d174d")
+    for k in range(3):
+        ax.add_patch(Circle((14 + k * 3.4, 9 + k * 0.5), 1.1, fc="#a16207", ec="#713f12", zorder=4))
+    rot(ax, 41, 11, "sale heces", 14, ROJO)
+    guardar(fig, "dib_onfalomesenterico.jpg")
+
+
+def prerrenal():
+    from matplotlib.patches import Ellipse
+    fig, ax = lienzo(60, 46, px=(340, None))
+    ax.add_patch(Ellipse((12, 12), 18, 15, fc="#fecaca", ec=ROJO, lw=1.5, zorder=2))
+    rot(ax, 12, 12, "corazón", 13, "#991b1b")
+    ax.plot([21, 28, 28], [12, 12, 44], color=ROJO, lw=7.2, zorder=1)
+    ax.plot([28, 43], [27, 27], color=ROJO, lw=2.2, ls=(0, (3, 2)), zorder=2)
+    ax.add_patch(Ellipse((49, 27), 11, 20, fc="#fde2e4", ec="#9f1239", lw=1.5, zorder=3))
+    rot(ax, 49, 27, "riñón\nsano", 12, "#9f1239")
+    rot(ax, 44, 9, "llega\npoca sangre", 13, ROJO)
+    rot(ax, 13, 35, "deshidratación\nhipotensión", 12, TINTA)
+    guardar(fig, "dib_prerrenal.jpg")
+
+
+def globo_vesical():
+    from matplotlib.patches import Ellipse, Arc
+    fig, ax = lienzo(60, 54, px=(340, None))
+    ax.add_patch(Ellipse((30, 22), 34, 30, fc="#fde68a", ec="#b45309", lw=1.4, zorder=2))
+    rot(ax, 30, 20, "vejiga\nllena", 16, "#92400e")
+    ax.add_patch(Arc((30, 46), 40, 12, theta1=200, theta2=340, ec="#64748b", lw=2.7, zorder=4))
+    rot(ax, 8, 46, "pubis", 12, GRIS)
+    ax.plot([30, 30], [37, 53], color="#b45309", lw=5.4, zorder=3)
+    ax.add_patch(Circle((30, 42), 2.2, fc="#7f1d1d", ec="none", zorder=5))
+    rot(ax, 47, 44, "coágulo\no cálculo", 12, ROJO)
+    guardar(fig, "dib_globo_vesical.jpg")
+
+
+HACER.update(uraco_permeable=uraco_permeable, onfalomesenterico=onfalomesenterico, prerrenal=prerrenal, globo_vesical=globo_vesical)
+
+
+def gram_pmn():
+    """Gram de secreción uretral con neutrófilos y sin bacterias visibles (Chlamydia o Mycoplasma)."""
+    import random
+    from matplotlib.patches import Ellipse
+    r = random.Random(3)
+    fig, ax = lienzo(60, 60, px=(340, None))
+    ax.add_patch(Circle((30, 26), 24, fc="#fde7ef", ec="#94a3b8", lw=1.4, zorder=1))
+    for cx, cy in [(20, 16), (36, 14), (42, 30), (24, 34), (32, 40), (14, 28), (44, 20)]:
+        ax.add_patch(Circle((cx, cy), 4.2, fc="#fbcfe8", ec="#db2777", lw=1.2, zorder=2))
+        for k in range(3):
+            ax.add_patch(Ellipse((cx - 1.8 + k * 1.8, cy + r.uniform(-1, 1)), 1.8, 2.4, fc="#7e22ce", ec="none", zorder=3))
+    rot(ax, 30, 55, "solo neutrófilos:\nel germen no se ve", 13, "#7e22ce")
+    guardar(fig, "dib_gram_pmn.jpg")
+HACER["gram_pmn"] = gram_pmn
+
+
+def beriberi():
+    """Las dos formas del beriberi: seco (nervios) y húmedo (corazón con edema)."""
+    from matplotlib.patches import Ellipse
+    fig, ax = lienzo(60, 46, px=(340, None))
+    ax.plot([30, 30], [4, 42], color="#cbd5e1", lw=1, ls="--")
+    rot(ax, 15, 5, "SECO", 14, "#7e22ce")
+    ax.plot([10, 10, 20], [12, 34, 38], color="#7e22ce", lw=4.5, solid_capstyle="round")
+    rot(ax, 15, 43, "nervios:\npie caído", 11, "#7e22ce")
+    rot(ax, 45, 5, "HÚMEDO", 14, ROJO)
+    ax.add_patch(Ellipse((45, 18), 18, 14, fc="#fecaca", ec=ROJO, lw=1.4))
+    rot(ax, 45, 18, "corazón\ngrande", 10, "#991b1b")
+    for k in range(4):
+        ax.add_patch(Circle((38 + k * 4.5, 32), 1.6, fc="#bae6fd", ec="#0369a1", lw=1.5))
+    rot(ax, 45, 41, "edema", 12, "#0369a1")
+    guardar(fig, "dib_beriberi.jpg")
+HACER["beriberi"] = beriberi
+
+
+def naat():
+    """Prueba molecular (NAAT/PCR) en orina: así se diagnostican Chlamydia y Mycoplasma."""
+    fig, ax = lienzo(50, 50, px=(340, None))
+    ax.add_patch(FancyBboxPatch((18, 6), 14, 30, boxstyle="round,pad=1.2", fc="#fef9c3", ec="#a16207", lw=1.4))
+    ax.add_patch(Rectangle((17, 3), 16, 5, fc="#64748b", ec="#334155", lw=1))
+    rot(ax, 25, 22, "orina", 12, "#a16207")
+    rot(ax, 25, 44, "PCR (NAAT)", 16, "#0f766e")
+    guardar(fig, "dib_naat.jpg")
+HACER["naat"] = naat
+
+
+def ulcera_idiopatica():
+    """Úlcera esofágica idiopática del VIH: grande, y la biopsia no muestra virus ni hongos."""
+    from matplotlib.patches import Ellipse
+    fig, ax = lienzo(50, 50, px=(340, None))
+    ax.add_patch(Circle((25, 21), 18, fc="#fbcfe8", ec="#be185d", lw=1.4))
+    ax.add_patch(Circle((25, 21), 6, fc="#3f0d1f", ec="none"))
+    ax.add_patch(Ellipse((15, 26), 10, 6, fc="#fef3c7", ec="#b45309", lw=1.5))
+    rot(ax, 25, 44, "biopsia: sin virus\nni hongos", 12, "#9d174d")
+    guardar(fig, "dib_ulcera_idiopatica.jpg")
+HACER["ulcera_idiopatica"] = ulcera_idiopatica
+
 if __name__ == "__main__":
     for n in sys.argv[1:] or HACER:
         HACER[n]()

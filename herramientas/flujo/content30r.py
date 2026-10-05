@@ -53,7 +53,7 @@ S("embudo", "GAS-066", "Varón de 68 años con anemia leve y sangre oculta en he
   banda=B("Lo que puede verse", P("ca_colon.jpg", 260, 257, [], credito="G. Narasimha Murthy" + CC + "CC0"),
           [("Masa que estrecha la luz", "Cáncer de colon."), ("Colon derecho", "Sangra en silencio: anemia ferropénica."),
            ("Biopsia", "Confirma; luego TC y CEA.")],
-          pie="Colonoscopía de otra persona."))
+          pie="Cáncer de colon"))
 
 # GIN-203 · Corioamnionitis en el primer nivel · CRITERIOS
 S("criterios", "GIN-203", "Gestante de 37 semanas con 2 días de rotura de membranas, fiebre de 39 °C, taquicardia fetal, útero doloroso y líquido purulento: corioamnionitis, antibiótico y traslado al hospital",
@@ -161,7 +161,7 @@ S("cuadricula", "INF-098", "Paciente en diálisis por catéter central, en el 6.
          celdas=[("S. aureus (hospitalaria)", ["Catéter, diálisis, posoperatorio", "Cocos G+ en racimos"], GRAM("cocos_racimo"), True),
                  ("Neumococo (comunitaria)", ["El más frecuente fuera del hospital", "Diplococos G+"], GRAM("cocos_cadena"), False),
                  ("Pseudomonas (hospitalaria)", ["Ventilador, estructural", "Bacilo G−"], GRAM("bacilos_neg"), False),
-                 ("Mycoplasma / Legionella", ["Atípicos, comunitarios", "No se ven en el Gram"], None, False)],
+                 ("Mycoplasma / Legionella", ["Atípicos, comunitarios", "No se ven en el Gram"], D(lambda s, x, y: I.torax_rx(s, x, y, "intersticial", sc=0.45), 135, 126), False)],
          credito="Esquemas MedQuizPro (dibujo propio)",
          veredicto=("Catéter + hospitalizado = S. aureus", "Vancomicina empírica y retirar el catéter si es el foco.")))
 
@@ -217,7 +217,7 @@ S("criterios", "GIN-205", "Mujer estable con amenorrea, útero vacío, masa anex
          umbral="Todos = metotrexato",
          veredicto="Metotrexato: conserva su única trompa.",
          img=P("ectopico_tubario.jpg", 240, 178, [], credito="Hic et nunc" + CC + "CC BY-SA 3.0"), img_titulo="Ectópico tubárico",
-         img_pie="Ilustración/pieza de otro caso.", conteo="3 seguros de 5"))
+         img_pie="Embarazo ectópico tubárico", conteo="3 seguros de 5"))
 
 # NEF-081 · Hipermagnesemia grave con falla renal: hemodiálisis · REGLA + ECG
 S("regla", "NEF-081", "Diabética con nefropatía que toma magnesio y presenta debilidad, hiporreflexia, somnolencia, hipotensión, bradicardia y Mg 4,2 mmol/L: hipermagnesemia grave, hemodiálisis",
@@ -240,7 +240,7 @@ S("regla", "NEF-081", "Diabética con nefropatía que toma magnesio y presenta d
                  ("Suspender el magnesio", ["Y no automedicarse"], False)]),
   banda=B("El ECG en la hipermagnesemia", P("ecg_hipermag.jpg", 380, 182, [], credito=ECG_PROPIO, fondo="#ffffff"),
           [("PR largo", "Conducción AV lenta."), ("QRS ancho", "Conducción ventricular lenta."), ("Bradicardia", "Puede llegar al paro.")],
-          pie="Trazado de enseñanza."))
+          pie="Hipermagnesemia en el ECG"))
 
 # PED-196 · Anafilaxia con edema laríngeo: adrenalina · ALARMA + foto
 S("alarma", "PED-196", "Niño con urticaria que en 30 minutos presenta ronquera, dificultad respiratoria y cianosis: anafilaxia con edema laríngeo, adrenalina IM",
@@ -278,7 +278,7 @@ S("arbol", "GIN-206", "Usuaria de T de cobre sin hilos visibles y sin DIU en la 
   banda=B("El dispositivo", P("diu.jpg", 170, 240, [], credito="Hic et nunc" + CC + "dominio público", fondo="#ffffff"),
           [("Radiopaco", "Se ve en la Rx aunque esté fuera del útero."), ("Perforación", "Suele ocurrir al colocarlo."),
            ("Expulsión", "Más en los primeros meses.")],
-          pie="Foto de un DIU."))
+          pie="DIU de cobre"))
 
 # NEU-060 · Crisis asmática: tórax silente · SEMÁFORO
 S("semaforo", "NEU-060", "Asmático con disnea grave y murmullo vesicular ausente en ambos hemitórax: el tórax silente es criterio de crisis con riesgo vital",
@@ -431,7 +431,7 @@ S("lectura", "REU-059", "Niño con máculas hipo e hiperpigmentadas descamativas
                 ("Descamación fina al rascar", "Signo de la uñada.", False),
                 ("KOH: espaguetis y albóndigas", "Hifas cortas + levaduras.", False),
                 ("Tratar", "Ketoconazol o sulfuro de selenio tópico.", False)],
-         img_pie="Piel de otra persona (tórax).",
+         img_pie="Pitiriasis versicolor",
          veredicto=("Máculas versicolores + espaguetis y albóndigas = Malassezia", "Antifúngico tópico.")))
 
 # SP-153 · APS: cobertura · CUADRÍCULA

@@ -48,7 +48,7 @@ S("tarjetas", "GIN-151", "Mujer con lupus y anticuerpos antifosfolípidos que pi
           [("Sin hormonas", "El cobre altera los espermatozoides."),
            ("Dura 10-12 años", "Reversible al retirarlo."),
            ("Efecto adverso", "Más sangrado menstrual y cólicos.")],
-          pie="Dispositivo real."))
+          pie="DIU de cobre"))
 
 # CB-057 · Células gustativas neuroepiteliales · CASCADA + botón gustativo rotulado
 S("cascada", "CB-057", "Los receptores del sabor están en las células neuroepiteliales (células receptoras) de los botones gustativos de la lengua",
@@ -73,7 +73,7 @@ S("cascada", "CB-057", "Los receptores del sabor están en las células neuroepi
            ("Poro gustativo", "Por donde entra la molécula disuelta."),
            ("Célula basal", "Célula madre que repone las receptoras."),
            ("Nervio aferente", "Lleva el impulso al cerebro.")],
-          pie="Esquema rotulado en español."))
+          pie="Botón gustativo"))
 
 # NRL-042 · Miastenia gravis · CUADRÍCULA de enfermedades de la placa + dibujo
 S("cuadricula", "NRL-042", "Mujer con ptosis y diplopía que empeoran con el esfuerzo por una enfermedad autoinmune de la placa: miastenia gravis, destrucción de los receptores de acetilcolina",
@@ -98,7 +98,7 @@ S("cuadricula", "NRL-042", "Mujer con ptosis y diplopía que empeoran con el esf
           [("Receptores (verde)", "Los anticuerpos de la miastenia los destruyen."),
            ("Canales de calcio", "Los ataca el Lambert-Eaton (presináptico)."),
            ("Acetilcolinesterasa", "La piridostigmina la inhibe y deja más ACh.")],
-          pie="Esquema."))
+          pie="Placa neuromuscular"))
 
 # GIN-152 · HTA crónica con IECA: metildopa · TARJETAS + clasificación
 S("tarjetas", "GIN-152", "Gestante de 10 semanas con hipertensión crónica que usa captopril: suspender el IECA y cambiar a metildopa (seguro en el embarazo)",
@@ -202,7 +202,7 @@ S("arbol", "CIR-088", "Hernia crural con probable estrangulación que se reduce 
           [("Debajo del ligamento inguinal", "Medial a la vena femoral."),
            ("Anillo estrecho", "La que más se estrangula."),
            ("Más en mujeres", "Tras embarazos.")],
-          pie="Esquema."))
+          pie="Hernia crural"))
 
 # CIR-089 · Taponamiento cardíaco · CUADRÍCULA de lesiones torácicas letales + Beck + ECG
 S("cuadricula", "CIR-089", "Herida punzopenetrante precordial con hipotensión, ingurgitación yugular y ruidos cardíacos apagados (tríada de Beck): taponamiento cardíaco",
@@ -219,9 +219,9 @@ S("cuadricula", "CIR-089", "Herida punzopenetrante precordial con hipotensión, 
   d=dict(rotulo="Trauma de tórax con choque: ¿cuál es?", alto_img=120,
          celdas=[("Taponamiento", ["Yugulares llenas, ruidos apagados", "Pulmón normal → pericardio"], P("ecg_taponamiento.jpg", 380, 182), True),
                  ("Neumotórax a tensión", ["Yugulares llenas, murmullo abolido", "Timpanismo, tráquea desviada"], P("rx_neumotorax_grande.jpg", 280, 280), False),
-                 ("Hemotórax masivo", ["Yugulares planas", "Matidez, > 1500 mL al drenar"], None, False),
-                 ("Tórax inestable", ["Segmento que se hunde al inspirar", "Contusión pulmonar"], None, False)],
-         credito="ECG de enseñanza MedQuizPro (alternancia eléctrica) y James Heilman (CC BY 3.0, Commons)",
+                 ("Hemotórax masivo", ["Yugulares planas", "Matidez, > 1500 mL al drenar"], P("hemotorax_a.jpg", 300, 299), False),
+                 ("Tórax inestable", ["Segmento que se hunde al inspirar", "Contusión pulmonar"], P("torax_inestable.jpg", 330, 248, [], fondo="#ffffff"), False)],
+         credito="ECG de enseñanza MedQuizPro (alternancia eléctrica) y James Heilman (CC BY 3.0, Commons)" + " · Hemotórax: Abdalrahman et al. · PMC13536977 · CC BY 4.0 · Tórax inestable: Baedr-9439 (CC0)",
          veredicto=("Hipotensión + yugulares + ruidos apagados = taponamiento", "FAST y cirugía urgente.")),
   triada=TR([("Hipotensión", "Sí", True), ("Ingurgitación yugular", "Sí", True), ("Ruidos cardíacos apagados", "Sí", True)],
             [("Tríada de Beck", 0, 2)], "Completa: taponamiento hasta que se demuestre lo contrario."))
@@ -305,7 +305,7 @@ S("cuadricula", "CAR-054", "Joven de 28 años con PA 200/135 en brazos, soplo si
            ("Arriba: PA alta", "Brazos y cabeza."),
            ("Abajo: PA baja", "Pulsos femorales débiles y retrasados."),
            ("Colaterales", "Las intercostales crecen: muescas en las costillas.")],
-          pie="Esquema."))
+          pie="Coartación de aorta"))
 
 # HEM-031 · TVP por inmovilización · ÁRBOL + Virchow + Wells + foto
 S("arbol", "HEM-031", "Mujer de 69 años en cama 2 semanas por neumonía con edema y dolor de la pierna derecha: trombosis venosa profunda",
@@ -335,7 +335,7 @@ S("arbol", "HEM-031", "Mujer de 69 años en cama 2 semanas por neumonía con ede
           [("Una pierna más gruesa", "Edema unilateral."),
            ("Dolor y calor", "En la pantorrilla."),
            ("Riesgo", "Embolia pulmonar.")],
-          pie="Foto de otro paciente."))
+          pie="Trombosis venosa profunda"))
 
 # CAR-055 · Tos por IECA · TARJETAS
 S("tarjetas", "CAR-055", "Hipertenso con captopril y amlodipino que tiene tos seca sin causa respiratoria ni de ORL: retirar el captopril (tos por IECA)",
@@ -389,7 +389,7 @@ S("criterios", "CAR-056", "Joven con fiebre de 2 meses, baja de peso, soplo de i
          umbral="Definida: 2 mayores, o 1 mayor + 3 menores, o 5 menores",
          veredicto="1 mayor + 3 menores: endocarditis definida; la hemiparesia es una embolia cerebral.",
          img=P("janeway.jpg", 260, 195, [], credito="Warfieldian" + CC + "CC BY-SA 4.0"), img_titulo="Lesiones de Janeway",
-         img_pie="Otro fenómeno vascular (embolias sépticas en la planta).", conteo="1 mayor + 3 menores"))
+         img_pie="Embolias sépticas en la planta", conteo="1 mayor + 3 menores"))
 
 # INF-079 · Mononucleosis: transmisión por saliva · TRANSMISIÓN
 S("transmision", "INF-079", "Joven con febrícula, odinofagia, adenopatías generalizadas y linfocitos atípicos: mononucleosis, el factor de riesgo es el contacto estrecho por saliva (besos)",
@@ -451,7 +451,7 @@ S("arbol", "NEU-042", "Hospitalizada tras un infarto cerebral que al caminar pre
           [("Arterias blancas por el contraste", "Las pulmonares se rellenan."),
            ("Defecto oscuro", "El trombo no deja pasar el contraste."),
            ("Más trombo = más grave", "Buscar dilatación del VD.")],
-          pie="Angio-TC de otro paciente."))
+          pie="Tromboembolia pulmonar en la angio-TC"))
 
 # PED-149 · TB primaria en el niño · CUADRÍCULA de patrones de TB
 S("cuadricula", "PED-149", "Escolar con padre bacilífero, fiebre, tos seca, estridor, PPD positivo y auscultación normal: TB primaria, la Rx mostrará adenopatías hiliares",
@@ -466,11 +466,11 @@ S("cuadricula", "PED-149", "Escolar con padre bacilífero, fiebre, tos seca, est
   op=("¿Hallazgo esperado?", ["Sí: el patrón típico del niño", "No: TB diseminada, en lactantes o inmunodeprimidos", "No: auscultación normal",
                               "No: es la TB del adulto (reactivación)", "No: no habría auscultación normal"]),
   d=dict(rotulo="Patrones de tuberculosis en la Rx", alto_img=130,
-         celdas=[("Primaria (niño)", ["Adenopatías hiliares y mediastinales", "Puede comprimir el bronquio: estridor"], None, True),
+         celdas=[("Primaria (niño)", ["Adenopatías hiliares y mediastinales", "Puede comprimir el bronquio: estridor"], P("ghon_rx.jpg", 261, 288), True),
                  ("Miliar", ["Micronódulos en todo el pulmón", "Lactantes e inmunodeprimidos"], P("tb_miliar.jpg", 300, 262), False),
                  ("Reactivación (adulto)", ["Cavidades en los vértices", "Muy contagiosa"], P("tb_cavitaria.jpg", 300, 275), False),
-                 ("Pleural", ["Derrame unilateral", "Adolescentes y adultos jóvenes"], None, False)],
-         credito="Herreros y col. (CC BY 4.0) y CDC (dominio público) · Wikimedia Commons",
+                 ("Pleural", ["Derrame unilateral", "Adolescentes y adultos jóvenes"], P("tb_pleural_rx.jpg", 220, 211), False)],
+         credito="Herreros y col. (CC BY 4.0) y CDC (dominio público) · Wikimedia Commons" + " · Ghon y derrame: Basem Abbas Al Ubaidi (CC BY 4.0)",
          veredicto=("Niño con contacto, PPD (+), tos y estridor con auscultación normal = TB primaria", "Rx: adenopatías hiliares.")))
 
 # NEU-043 · Neumotórax espontáneo primario · LECTURA (Rx)
@@ -493,7 +493,7 @@ S("lectura", "NEU-043", "Joven sano con disnea súbita, murmullo abolido en el h
                 ("Borde del pulmón colapsado", "La línea pleural visceral.", False),
                 ("¿Se desvía el mediastino?", "Al lado contrario = a tensión: descomprimir ya.", True),
                 ("Causa en el joven sano", "Bullas subpleurales apicales (enfisema acinar distal).", False)],
-         img_pie="Rx de otro paciente.",
+         img_pie="Neumotórax derecho grande",
          veredicto=("Joven sano con neumotórax: rotura de bullas subpleurales", "Con desviación del mediastino: tubo de tórax urgente.")))
 
 # INF-080 · Hiperinfección por Strongyloides en HTLV-1 · CICLO + foto
@@ -537,4 +537,4 @@ S("fases", "INF-081", "Campesino de Lurín con 7 días de fiebre, cefalea, mialg
           [("Sufusión conjuntival", "Ojo rojo sin secreción."),
            ("Con ictericia", "Forma de Weil: tratar EV."),
            ("Antecedente", "Agua o barro de chacras y canales.")],
-          pie="Foto de otro paciente (solo el ojo)."))
+          pie="Sufusión conjuntival"))

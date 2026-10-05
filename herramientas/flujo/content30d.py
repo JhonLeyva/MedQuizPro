@@ -24,7 +24,7 @@ S("lectura", "PED-146", "Recién nacido que se ahoga y tose al lactar, con crepi
                 ("¿Hay aire en el estómago?", "Sí = fístula distal a la tráquea (tipo C, la más común).", False),
                 ("Neumonía derecha", "Aspiración de saliva y leche (crepitantes en el HTD).", False),
                 ("Buscar VACTERL", "Corazón, riñón, ano y columna.", False)],
-         img_pie="Rx de otro recién nacido.",
+         img_pie="Atresia de esófago",
          veredicto=("La sonda no baja + ahogo al lactar = atresia de esófago", "Nada por boca, aspiración del saco y cirugía.")),
   escala=dict(nombre="Clasificación de Gross (Vogt)", que="Tipo de atresia según dónde está la fístula.",
               grados=[("A", "Sin fístula", ["~8 %", "Sin aire en el abdomen"]), ("B", "Fístula proximal", ["~1 %"]),
@@ -102,7 +102,7 @@ S("laboratorio", "HEM-029", "Séptico por piocolecisto con hematuria, púrpura, 
           [("Glóbulos rojos rotos", "Esquistocitos: se cortan con la fibrina de los microtrombos."),
            ("Pocas plaquetas", "Consumo."),
            ("Diferencia con la PTT", "En la PTT los tiempos de coagulación son normales.")],
-          pie="Frotis de otro paciente."))
+          pie="Esquistocitos"))
 
 # GIN-146 · Cesárea corporal previa en trabajo de parto · DECISIÓN
 S("decision", "GIN-146", "Gestante a término con cesárea previa de incisión corporal (clásica) que inicia trabajo de parto con sangrado: cesárea de emergencia",
@@ -151,7 +151,7 @@ S("checklist", "INF-078", "Paciente con VIH, cefalea de 20 días que se vuelve i
           [("Halo claro alrededor", "La cápsula no se tiñe con la tinta china."),
            ("Levadura en el centro", "Cryptococcus neoformans."),
            ("Antígeno criptocócico", "Más sensible: pedir siempre.")],
-          pie="Tinta china de otra muestra."))
+          pie="Criptococo con tinta china"))
 
 # END-043 · Enfermedad de Addison · CASCADA
 S("cascada", "END-043", "Mujer con 5 meses de astenia, diarrea y pérdida de peso, hipotensa, con piel hiperpigmentada, hiperpotasemia, hiponatremia e hipoglucemia: enfermedad de Addison",
@@ -198,7 +198,7 @@ S("checklist", "TRA-033", "Ante un traumatismo cervical alto, lo primero es inmo
           [("Rígido y de la talla correcta", "Apoya en mentón, esternón y occipucio."),
            ("No basta solo", "Tabla o colchón de vacío al trasladar."),
            ("Retirar a tiempo", "Úlceras por presión si se deja días.")],
-          pie="Foto de demostración."))
+          pie="Collarín cervical"))
 
 # SP-109 · Desnutrición: acción comunitaria · RADIAL (Carta de Ottawa)
 S("radial", "SP-109", "Distrito con desnutrición en aumento: el equipo de salud debe priorizar fortalecer la acción comunitaria para la salud",
@@ -283,7 +283,7 @@ S("criterios", "REU-044", "Varón con años de dolor glúteo nocturno que mejora
          veredicto="Dolor inflamatorio + Schober + PCR alta: espondiloartritis axial; confirmar con Rx o RM de sacroilíacas.",
          img=P("sacroileitis_rx.jpg", 250, 288, [("flechas", [(0.3, 0.42), (0.72, 0.42)], 0.5, 0.86, "sacroilíacas\nborrosas")],
                credito="Ameer et al. · PMC13553827 · CC BY 4.0"), img_titulo="Sacroileítis bilateral",
-         img_pie="Rx de otro paciente.", conteo="Cumple 4 de 5"))
+         img_pie="Sacroileítis bilateral", conteo="Cumple 4 de 5"))
 
 # SP-111 · Bocio endémico: sal yodada · REGLA (yoduria) + dibujo
 S("regla", "SP-111", "Bocio difuso en un agricultor de Huancavelica, no aislado: el programa de salud pública es promover la sal yodada",
@@ -306,7 +306,7 @@ S("regla", "SP-111", "Bocio difuso en un agricultor de Huancavelica, no aislado:
                  [("Tiroides grande y blanda", "Crece para captar más yodo."),
                   ("Sin nódulos ni dolor", "Bocio difuso simple."),
                   ("Prevenible", "Con sal yodada toda la vida.")],
-                 pie="Esquema.")))
+                 pie="Bocio por déficit de yodo")))
 
 # CB-055 · Escorbuto · CASCADA + foto de encías
 S("cascada", "CB-055", "Alcohólico desnutrido con epistaxis, encías que sangran, equimosis, petequias y dolor óseo: escorbuto por déficit de vitamina C",
@@ -329,7 +329,7 @@ S("cascada", "CB-055", "Alcohólico desnutrido con epistaxis, encías que sangra
           [("Encías hinchadas y violáceas", "Sangran al tocarlas."),
            ("Pueden aflojarse los dientes", "Falla el colágeno del periodonto."),
            ("Petequias alrededor de los pelos", "Perifoliculares, típicas.")],
-          pie="Foto de archivo (solo la boca)."))
+          pie="Encías del escorbuto"))
 
 # CAR-053 · Diabético coronario: estatina · REGLA (LDL meta ESC)
 S("regla", "CAR-053", "Coronario y diabético con LDL 120, HDL 35 y triglicéridos 245: el tratamiento indicado es una estatina de alta intensidad",
@@ -394,7 +394,7 @@ S("arbol", "SP-112", "Estudio del efecto de la música de fondo sobre el uso de 
           [("Independiente", "La causa que el investigador cambia."),
            ("Dependiente", "El efecto que se mide."),
            ("Extraña", "Se mantiene igual para todos (ruido).")],
-          pie="Esquema."))
+          pie="Variable independiente y dependiente"))
 
 # SP-113 · Correlación: asociación · TARJETAS + dibujo
 S("tarjetas", "SP-113", "El análisis de correlación permite identificar la asociación (fuerza y dirección de la relación) entre dos variables, no la causa",
@@ -416,7 +416,7 @@ S("tarjetas", "SP-113", "El análisis de correlación permite identificar la aso
   banda=B("Cómo se ve la correlación", PA("dib_correlacion.jpg", 440, [], credito=PROPIO, fondo="#ffffff"),
           [("Positiva", "Suben juntas."), ("Negativa", "Una sube y la otra baja."),
            ("Curva", "r bajo aunque haya relación: no es lineal.")],
-          pie="Esquema."))
+          pie="Diagramas de dispersión"))
 
 # CB-056 · Latrodectismo · CUADRÍCULA de animales ponzoñosos
 S("cuadricula", "CB-056", "Niño que vuelve del campo con dolor urente que se extiende, temblores, sudoración profusa, sialorrea y abdomen rígido: latrodectismo (viuda negra)",
@@ -434,8 +434,8 @@ S("cuadricula", "CB-056", "Niño que vuelve del campo con dolor urente que se ex
          celdas=[("Viuda negra (latrodectismo)", ["Neurotóxico: dolor, contracturas, sudor", "Abdomen rígido, HTA"], P("latrodectus.jpg", 400, 284), True),
                  ("Araña de los rincones (loxoscelismo)", ["Placa livedoide que se necrosa", "Hemólisis y falla renal (cutáneo-visceral)"], P("loxosceles.jpg", 420, 420), False),
                  ("Escorpión", ["Dolor local intenso", "En niños: sudor, vómitos, arritmias"], P("escorpion.jpg", 400, 290), False),
-                 ("Serpiente (ofidismo)", ["Edema, sangrado, necrosis (Bothrops)", "Suero antibotrópico"], None, False)],
-         credito="Juan Carlos Fonseca Mata (CC BY-SA 4.0), Mampato (dominio público), Charles J. Sharp (CC BY-SA 4.0) · Wikimedia Commons",
+                 ("Serpiente (ofidismo)", ["Edema, sangrado, necrosis (Bothrops)", "Suero antibotrópico"], P("bothrops.jpg", 380, 285), False)],
+         credito="Juan Carlos Fonseca Mata (CC BY-SA 4.0), Mampato (dominio público), Charles J. Sharp (CC BY-SA 4.0) · Wikimedia Commons" + " · Bothrops: Pedigone et al. · Rev Soc Bras Med Trop 2026 · PMC13379231 · CC BY 4.0",
          veredicto=("Dolor que se extiende + contracturas + sudor y sialorrea = latrodectismo", "Analgesia, relajantes y suero si es grave.")))
 
 # HEM-030 · Anemia ferropénica en la gestante · LABORATORIO + OMS + frotis
@@ -464,7 +464,7 @@ S("laboratorio", "HEM-030", "Gestante de 6 meses con Hb 8, índices corpusculare
           [("Glóbulos pequeños y pálidos", "Microcitosis e hipocromía (centro claro grande)."),
            ("Tamaños distintos", "Anisocitosis."),
            ("Formas alargadas", "Poiquilocitos en «lápiz».")],
-          pie="Frotis de otro paciente."))
+          pie="Microcitosis e hipocromía"))
 
 # SP-114 · Enfermedades profesionales en salud · RADIAL
 S("radial", "SP-114", "En el personal de salud se consideran enfermedades profesionales la hepatitis, el VIH, la tuberculosis y la COVID-19 (riesgo biológico)",

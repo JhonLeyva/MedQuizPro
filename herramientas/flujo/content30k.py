@@ -173,7 +173,7 @@ S("tarjetas", "GIN-174", "En un embarazo gemelar dicigótico (bicorial) la compl
           [("Signo lambda", "Tabique grueso con tejido de placenta: bicorial."),
            ("Signo T", "Tabique fino: monocorial (riesgo de transfusión)."),
            ("Mejor momento", "Eco de 11-14 semanas.")],
-          pie="Ecografía de otra gestante."))
+          pie="Signo lambda: gemelar bicorial"))
 
 # GIN-175 · Gestación de 10 semanas confirmada: β-hCG innecesaria · CUADRÍCULA
 S("cuadricula", "GIN-175", "Gestante de 10 semanas con útero acorde y sin dolor ni masas: la beta-hCG no es necesaria, el embarazo ya está confirmado",
@@ -216,7 +216,7 @@ S("arbol", "GIN-176", "Gestante de 31 semanas con pérdida de líquido claro y c
           [("Cristalización en helecho", "El líquido amniótico seco en un portaobjetos forma «hojas de helecho»."),
            ("Especuloscopía", "Líquido que sale por el cuello (con Valsalva)."),
            ("Otros", "Papel de nitrazina (pH alcalino), pruebas de proteínas del líquido.")],
-          pie="Muestra de otra persona."))
+          pie="Cristalización en helecho"))
 
 # GIN-177 · Amenorrea secundaria: descartar embarazo · RELOJ (orden de estudio)
 S("reloj", "GIN-177", "Mujer joven con 7 semanas de amenorrea secundaria: lo primero es descartar embarazo con beta-hCG y ecografía transvaginal",
@@ -311,7 +311,7 @@ S("cascada", "NEU-052", "La muerte por embolia pulmonar masiva se debe a la fall
           [("S1Q3T3", "S en DI, Q y T negativa en DIII: sobrecarga del VD."),
            ("Taquicardia sinusal", "Lo más frecuente."),
            ("Bloqueo de rama derecha", "VD dilatado.")],
-          pie="ECG de otra persona."))
+          pie="ECG en la tromboembolia pulmonar"))
 
 # SP-127 · Media y mediana · GRÁFICA (distribución asimétrica)
 S("grafica", "SP-127", "Si la glucemia tiene media 95 y mediana 90, la mitad de los sujetos tiene valores menores de 90 mg/dL (distribución con cola a la derecha)",
@@ -469,7 +469,7 @@ S("lectura", "CB-066", "La capacidad vital es el volumen corriente más el volum
                 ("= corriente + reserva inspiratoria + reserva espiratoria", "Lo que se mueve en una maniobra máxima.", True),
                 ("El residual queda siempre", "No se puede expulsar.", False),
                 ("Capacidad pulmonar total", "= capacidad vital + residual.", False)],
-         img_pie="Esquema.",
+         img_pie="Volúmenes y capacidades pulmonares",
          veredicto=("Capacidad vital = VC + VRI + VRE", "El volumen residual no forma parte de ella.")))
 
 # CB-067 · Difusión del O2 frente al CO2 · LABORATORIO (tabla comparativa)

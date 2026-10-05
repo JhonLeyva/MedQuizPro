@@ -29,7 +29,7 @@ S("lectura", "CIR-080", "Anciana con fiebre, masa en fosa ilíaca izquierda y ab
                 ("Grasa alrededor del colon «sucia»", "Gris y con hilos en vez de negra: inflamación de la grasa (sigmoides, lado izquierdo del paciente).", False),
                 ("Mide el absceso: 5 cm en este caso", "≥ 4-5 cm → drenaje percutáneo guiado por TC + antibiótico. < 4 cm → solo antibiótico.", True),
                 ("Busca aire libre o líquido en todo el abdomen", "No hay: no es peritonitis difusa (Hinchey III-IV), no hace falta operar de urgencia.", False)],
-         img_pie="Imagen de otra paciente con abscesos pericólicos (Hinchey Ib).",
+         img_pie="Abscesos pericólicos (Hinchey Ib)",
          tira_titulo="Compara con los otros grados (TC de la misma serie)",
          tira=[(P("hinchey0_tc.jpg", 360, 274), "Hinchey 0", "Pared engrosada y divertículos; sin pus", False),
                (P("hinchey1a_tc.jpg", 348, 278), "Hinchey Ia", "Flemón: grasa inflamada, sin colección", False),
@@ -69,12 +69,12 @@ S("zonas", "PED-142", "Prematuro de 28 semanas y 1200 g con retinopatía del pre
          puntos=[(0, 0, "papila", "#be123c"), (0.17, 0.12, "fóvea", "#7c2d12")],
          nota="Zona I: radio = 2 veces la distancia papila-fóvea. Más central = más grave. El enunciado no dice la zona ni el estadio: por eso hay que seguir examinando.",
          escalones_titulo="Estadios (y la enfermedad plus)",
-         escalones=[("E1", "Línea de demarcación", "Línea blanca plana entre la retina con vasos y la que no tiene.", None, False),
+         escalones=[("E1", "Línea de demarcación", "Línea blanca plana entre la retina con vasos y la que no tiene.", P("rop_b.jpg", 246, 184), False),
                     ("E2", "Cresta", "La línea se engruesa y se eleva.", P("rop_c.jpg", 246, 184), False),
                     ("E3", "Vasos nuevos sobre la cresta", "Crecen hacia el vítreo: proliferación fibrovascular.", P("rop_d.jpg", 244, 182), False),
-                    ("E4-5", "Desprendimiento de retina", "4: parcial · 5: total (ceguera).", None, False),
+                    ("E4-5", "Desprendimiento de retina", "4: parcial · 5: total (ceguera).", P("rop_e5.jpg", 330, 334), False),
                     ("PLUS", "Enfermedad plus", "Vasos dilatados y tortuosos en el polo posterior: la ROP está activa.", P("rop_plus.jpg", 382, 296), False)],
-         credito=PMC_ROP + " · " + PMC_PLUS),
+         credito="Fondo de ojo: Zhao et al. 2024 (PMC11130119), Sharafi et al. 2025 (PMC12639888), Singh et al. 2026 (PMC13559123) · CC BY 4.0"),
   escala=dict(nombre="Cuándo tratar: Tipo 1 y Tipo 2 (ETROP, vigente en ICROP3)",
               que="Ordena la conducta según la zona, el estadio y la presencia de plus.",
               grados=[("Inmadura", "Sin ROP", ["Retina aún sin vasos completos", "Control cada 2-3 semanas"]),
@@ -91,7 +91,7 @@ S("zonas", "PED-142", "Prematuro de 28 semanas y 1200 g con retinopatía del pre
            ("Por qué funciona", "Esa retina sin vasos produce el VEGF que causa los vasos anormales."),
            ("Alternativa", "Anti-VEGF intravítreo (bevacizumab o ranibizumab), sobre todo en zona I."),
            ("Después", "Controles hasta la madurez de la retina: puede reactivarse.")],
-          pie="Fondo de ojo de otro prematuro.", rotulo="Lo que sigue si empeora"))
+          pie="Retina tratada con láser", rotulo="Lo que sigue si empeora"))
 
 # TRA-028 · Fractura vertebral por fragilidad: densitometría · 23 REGLA (T-score OMS y Genant) + Rx y DXA reales
 S("regla", "TRA-028", "Mujer de 60 años con menopausia precoz y fractura en cuña de L4 tras caer de su propia altura: confirmar osteoporosis con densitometría (DXA)",
@@ -120,7 +120,7 @@ S("regla", "TRA-028", "Mujer de 60 años con menopausia precoz y fractura en cu�
                   ("Gráfico de colores", "Verde normal, amarillo osteopenia, rojo osteoporosis; el punto (círculo) es la paciente."),
                   ("Tabla: columna «Adulto-Joven»", "«Puntuación» es el T-score: aquí −3,3 en L1-L4 = osteoporosis."),
                   ("«Ajustado a edad» es el Z-score", "Se usa en menores de 50 años y antes de la menopausia.")],
-                 pie="DXA de otra paciente de 70 años.")),
+                 pie="DXA de columna lumbar")),
   escala=dict(nombre="Criterios diagnósticos de osteoporosis (BHOF 2022 / AACE 2020)", orden=False,
               que="Basta uno de los tres para diagnosticar osteoporosis.",
               grados=[("DXA", "T-score ≤ −2,5", ["Columna, cuello femoral o cadera total"]),
@@ -137,7 +137,7 @@ S("regla", "TRA-028", "Mujer de 60 años con menopausia precoz y fractura en cu�
            ("Borde anterior más bajo", "La vértebra se aplasta por delante: forma de cuña."),
            ("Compara con la de arriba", "L3 conserva su altura: el cambio es solo en L4."),
            ("Muro posterior entero", "Si se rompe o hay déficit neurológico: TC o RM.")],
-          pie="Rx de otro paciente con fractura por compresión de L4."))
+          pie="Fractura en cuña de L4"))
 
 # INF-070 · Mordedura de perro en la mano: lavado profuso primero · 24 DECISIÓN (OMS) + foto real + calendario propio
 S("decision", "INF-070", "Mordedura de perro en la mano hace 2 horas, herida desgarrante profunda: lo primero en el primer nivel es el lavado profuso con agua, jabón y suero",
@@ -180,7 +180,7 @@ S("decision", "INF-070", "Mordedura de perro en la mano hace 2 horas, herida des
            ("Vacuna: días 0, 3, 7 y 14", "Intramuscular en el deltoides (esquema de la OMS)."),
            ("Inmunoglobulina el día 0", "Infiltrada dentro y alrededor de la herida, en exposición grave."),
            ("Observar al perro 10 días", "Si sigue sano, se puede suspender la vacuna.")],
-          pie="Foto de otra mordedura de perro; abajo, esquema."))
+          pie="Mordedura de perro y calendario de vacunación"))
 
 # ════════════════════════════════════════════════════════════ resto de la tanda t00
 from c28 import IDSA, ESC, ADA, ACOG, CDC, NICE
@@ -217,7 +217,7 @@ S("termometro", "CIR-077", "Joven estreñido con sangrado y una masa que sale po
           [("Línea pectínea", "Por encima: hemorroide interna, sangra sin dolor."),
            ("Grado III", "Sale al pujar y no vuelve sola: se empuja con la mano."),
            ("Grado IV", "Queda afuera aunque se empuje: cirugía.")],
-          pie="Esquema.", ans=1))
+          pie="Hemorroides internas: grados I a IV", ans=1))
 
 # CIR-078 · Anestesia en paciente de alto riesgo · TARJETAS + ASA
 S("tarjetas", "CIR-078", "Anciano con EPOC sin tratamiento y enfermedad coronaria, operado de urgencia por fractura expuesta del radio: bloqueo de nervio periférico (plexo braquial)",
@@ -277,7 +277,7 @@ S("laboratorio", "GAS-049", "Hepatitis C crónica con ascitis, ictericia, circul
            ("Ombligo evertido", "Por la presión del líquido."),
            ("Circulación colateral", "Venas de la pared que se dilatan por la hipertensión portal."),
            ("Primer paso", "Paracentesis diagnóstica: GASA, proteínas y células.")],
-          pie="Foto de otro paciente con cirrosis."))
+          pie="Cirrosis con ascitis"))
 
 # SP-098 · FODA: debilidad · CUADRÍCULA 2×2
 S("cuadricula", "SP-098", "Establecimiento con servicios de baja calidad y sin recursos financieros: en el análisis FODA es una debilidad (factor interno desfavorable)",
@@ -371,7 +371,7 @@ S("cascada", "CIR-079", "Gran quemado del 50 % a las 24 horas con taquicardia, f
           [("Regla de los 9 (adulto)", "Cabeza 9 %, cada brazo 9 %, cada pierna 18 %, tronco 36 %, periné 1 %."),
            ("Solo 2.º y 3.er grado", "La quemadura de 1.er grado no se suma."),
            ("> 20 %", "Reposición con Parkland y riesgo de hipermetabolismo.")],
-          pie="Esquema."))
+          pie="Regla de los 9 del adulto"))
 
 # GAS-051 · Sospecha de cáncer colorrectal: colonoscopía · ALARMA + foto endoscópica
 S("alarma", "GAS-051", "Varón de 64 años con pérdida de 10 kg, estreñimiento, hematoquecia y palidez con taquicardia: sospecha de cáncer colorrectal, pedir colonoscopía",
@@ -480,7 +480,7 @@ S("monitor", "CB-051", "Joven agitado a la salida de una discoteca con PA 190/10
           [("Pupilas grandes", "Estímulo simpático del dilatador del iris."),
            ("Con sudor", "Simpaticomimético."),
            ("Sin sudor", "Anticolinérgico (atropina, antihistamínicos).")],
-          pie="Foto de otra persona (solo los ojos)."))
+          pie="Midriasis"))
 
 # SP-101 · Muestreo sistemático · TARJETAS + dibujo propio
 S("tarjetas", "SP-101", "Del total de pacientes se elige el primero al azar y luego 1 de cada 3: muestreo sistemático",
@@ -503,7 +503,7 @@ S("tarjetas", "SP-101", "Del total de pacientes se elige el primero al azar y lu
           [("Arranque al azar", "Se sortea el primero entre 1 y k (aquí salió el 2)."),
            ("Intervalo fijo", "Luego 5, 8, 11, 14…: uno cada 3."),
            ("k = N / n", "Tamaño de la población dividido entre el de la muestra.")],
-          pie="Esquema."))
+          pie="Tipos de muestreo"))
 
 # INF-071 · Neurosífilis: penicilina G sódica · DECISIÓN (estadio × tratamiento)
 S("decision", "INF-071", "Paciente con VIH sin TAR, meningitis con LCR linfocitario y VDRL positivo en LCR: neurosífilis, tratar con penicilina G sódica EV",
@@ -549,7 +549,7 @@ S("lectura", "CIR-081", "Anciano con dolor y distensión abdominal, vómitos y R
                 ("Tomada de pie (o tórax de pie)", "El aire sube; en decúbito puede no verse (signo de Rigler).", False),
                 ("Abdomen agudo + aire libre", "= víscera hueca perforada: laparotomía exploratoria.", True),
                 ("¿Hay excepción?", "Cirugía abdominal reciente o diálisis peritoneal: valorar antes de operar.", False)],
-         img_pie="Rx de otro paciente con aire libre bajo el diafragma derecho.",
+         img_pie="Aire libre bajo el diafragma derecho",
          veredicto=("Neumoperitoneo con dolor y distensión = perforación", "Reanimar, antibiótico y laparotomía exploratoria; no esperar la TC.")))
 
 # SP-102 · Protocolo: marco teórico · ÁRBOL
@@ -619,7 +619,7 @@ S("matriz", "TRA-029", "Varón de 66 años con dolor en ambas rodillas que cede 
            ("Osteofitos", "Picos de hueso en los bordes."),
            ("Hueso blanco bajo el cartílago", "Esclerosis subcondral."),
            ("Sin derrame ni erosiones", "La diferencia con la artritis.")],
-          pie="Rx de otro paciente con gonartrosis."))
+          pie="Gonartrosis"))
 
 # SP-103 · ROF · PIRÁMIDE de documentos de gestión
 S("piramide", "SP-103", "El documento de gestión que fija la estructura orgánica y formaliza las competencias y funciones de cada área es el Reglamento de Organización y Funciones (ROF)",
@@ -686,4 +686,4 @@ S("arbol", "NEF-062", "Varón de 63 años con dificultad para iniciar la micció
           [("Normal", "Lisa, del tamaño de una castaña, con surco central."),
            ("Hiperplasia benigna", "Grande, lisa, elástica; el surco se borra."),
            ("Cáncer", "Nódulo duro e irregular; a veces fija.")],
-          pie="Esquema.", ans=1))
+          pie="Tacto rectal", ans=1))

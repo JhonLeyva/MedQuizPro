@@ -53,7 +53,7 @@ S("cascada", "PED-163", "En el recién nacido pretérmino la cardiopatía congé
           [("Conducto arterioso", "Une la aorta con la arteria pulmonar."),
            ("Izquierda a derecha", "Sangre oxigenada que vuelve al pulmón: no hay cianosis."),
            ("Soplo «en maquinaria»", "Continuo, debajo de la clavícula izquierda.")],
-          pie="Esquema en español."))
+          pie="Persistencia del conducto arterioso"))
 
 # END-049 · Tormenta tiroidea en la gestante · PUNTAJE (Burch-Wartofsky) + foto
 S("puntaje", "END-049", "Gestante de 20 semanas con fiebre de 39,8 °C, FC 150, confusión, diarrea, exoftalmos, bocio e ingurgitación yugular: tormenta tiroidea",
@@ -78,7 +78,7 @@ S("puntaje", "END-049", "Gestante de 20 semanas con fiebre de 39,8 °C, FC 150, 
           [("Exoftalmos", "Solo en la enfermedad de Graves: causa de la tirotoxicosis."),
            ("Con bocio difuso", "Graves descompensado en el embarazo."),
            ("Tirotoxicosis gestacional", "No tiene exoftalmos ni es tan grave.")],
-          pie="Foto de otra persona (solo los ojos)."))
+          pie="Oftalmopatía de Graves"))
 
 # PED-164 · Asfixia perinatal · CRITERIOS + Sarnat
 S("criterios", "PED-164", "Recién nacido a término con Apgar 3 al minuto y 4 a los 5, 10 y 15 minutos, y acidosis metabólica (pH 7,0, déficit de base −10): asfixia perinatal",
@@ -133,7 +133,7 @@ S("embudo", "GAS-059", "Fumador de 67 años con ictericia, acolia, dolor epigás
           [("Masa hipodensa en el páncreas", "Capta menos contraste que el páncreas sano."),
            ("Colédoco y Wirsung dilatados", "«Signo del doble conducto» si está en la cabeza."),
            ("Resecabilidad", "Depende de si envuelve la arteria mesentérica superior o el tronco celíaco.")],
-          pie="TC de otra persona."),
+          pie="Cáncer de páncreas"),
   triada=TR([("Ictericia sin dolor cólico", "Ictericia progresiva", True), ("Vesícula palpable no dolorosa", "Masa epigástrica de 7 cm", True)],
             [("Signo de Courvoisier-Terrier", 0, 1)], "Ictericia + vesícula palpable: piensa en tumor (no en cálculo)."))
 
@@ -157,7 +157,7 @@ S("matriz", "PED-165", "Lactante con diarrea acuosa explosiva de inicio brusco, 
           [("Agua de arroz", "Diarrea secretora extrema (cólera); la de ETEC es parecida pero menor."),
            ("Sin moco ni sangre", "No hay invasión de la mucosa."),
            ("Riesgo", "Deshidratación rápida: SRO.")],
-          pie="Heces de otro paciente (cólera)."))
+          pie="Heces en agua de arroz"))
 
 # PED-166 · Estimulación temprana · RADIAL (componentes del CRED)
 S("radial", "PED-166", "La intervención individual que potencia las habilidades del niño para su desarrollo integral es la estimulación temprana",
@@ -197,7 +197,7 @@ S("decision", "NEF-070", "Joven con cáncer testicular no seminomatoso: el marca
           [("Masa dura e indolora", "En un testículo de un hombre joven: cáncer hasta demostrar lo contrario."),
            ("Ecografía escrotal", "Primer examen."),
            ("Orquiectomía inguinal", "Diagnostica y trata.")],
-          pie="Esquema (derecha del paciente = izquierda del dibujo)."))
+          pie="Masa testicular"))
 
 # NEF-071 · Glomerulonefritis postestreptocócica · LABORATORIO + fotos
 S("laboratorio", "NEF-071", "Niño con impétigo hace 3 semanas que presenta oliguria, hematuria, edema periorbitario, PA 140/90 y C3 bajo: glomerulonefritis postestreptocócica",
@@ -224,7 +224,7 @@ S("laboratorio", "NEF-071", "Niño con impétigo hace 3 semanas que presenta oli
           [("Impétigo (costras melicéricas)", "Infección por estreptococo de la piel, 3 semanas antes."),
            ("Cilindro hemático", "Glóbulos rojos moldeados en el túbulo: sangre de origen glomerular."),
            ("Latencia", "Piel 3-6 semanas; faringe 1-2 semanas.")],
-          pie="Fotos de otras personas."),
+          pie="Impétigo y cilindro hemático"),
   triada=TR([("Hematuria", "Orina hematúrica", True), ("Edema", "Periorbitario", True), ("Hipertensión", "140/90", True), ("Oliguria", "Orina escasa", True)],
             [("Síndrome nefrítico", 0, 3)], "Con C3 bajo tras impétigo: postestreptocócica."))
 
@@ -274,7 +274,7 @@ S("piramide", "TRA-036", "Atropellado con Glasgow 10, FR 34, herida de cuero cab
           [("Collarín cervical", "En todo traumatizado con alteración de conciencia."),
            ("Tracción mandibular", "Abre la vía aérea sin mover el cuello."),
            ("Retirar", "Solo con examen o imagen normales.")],
-          pie="Foto de un collarín."))
+          pie="Collarín cervical"))
 
 # PSI-032 · Bulimia nerviosa · CRITERIOS DSM-5 + signo de Russell
 S("criterios", "PSI-032", "Mujer joven con atracones recurrentes seguidos de purgas para no subir de peso: bulimia nerviosa",
@@ -394,7 +394,7 @@ S("reloj", "CAR-060", "Paciente que hace paro dentro de emergencia y no responde
           [("Fibrilación ventricular", "Ondas caóticas, sin QRS: no hay pulso."),
            ("Desfibrilar", "Bifásico 120-200 J."),
            ("Asistolia o AESP", "No se descargan: adrenalina cada 3-5 min.")],
-          pie="Trazado de enseñanza."))
+          pie="Fibrilación ventricular"))
 
 # NEU-047 · Asma: crisis de madrugada · GRÁFICA (flujo espiratorio en 24 h)
 S("grafica", "NEU-047", "Por el ritmo circadiano, las crisis de asma son más frecuentes de madrugada, entre las 4 y las 6 de la mañana",
@@ -482,7 +482,7 @@ S("radial", "NEU-048", "Paciente en tratamiento antituberculoso con artritis del
           [("Podagra (flecha)", "Primer ortejo rojo e hinchado: la forma típica de la gota."),
            ("Muy dolorosa", "Roja, caliente y brillante; empieza de noche."),
            ("En TB con pirazinamida", "Sospechar el fármaco.")],
-          pie="Foto de otra persona."))
+          pie="Podagra"))
 
 # NEU-049 · Derrame pleural tuberculoso: ADA · LABORATORIO + Light + esquema
 S("laboratorio", "NEU-049", "Joven con un mes de fiebre, tos y dolor pleurítico, con derrame exudativo linfocítico y glucosa normal: tuberculosis pleural, pedir ADA en el líquido",
@@ -509,7 +509,7 @@ S("laboratorio", "NEU-049", "Joven con un mes de fiebre, tos y dolor pleurítico
           [("Opacidad que borra el ángulo", "Líquido en la base, con curva de Damoiseau."),
            ("Unilateral en un joven", "Pensar en TB pleural."),
            ("Toracocentesis", "Análisis del líquido: proteínas, LDH, células, glucosa, ADA.")],
-          pie="Esquema."))
+          pie="Derrame pleural"))
 
 # CAR-061 · Muerte prehospitalaria por infarto: FV · CRONOLOGÍA de complicaciones
 S("cronologia", "CAR-061", "La causa más frecuente de muerte por infarto antes de llegar al hospital es la fibrilación ventricular",

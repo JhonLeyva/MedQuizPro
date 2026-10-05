@@ -46,7 +46,7 @@ S("puntaje", "GAS-064", "Alcohólico de 60 años con pancreatitis aguda: de los 
   banda=B("Así se ve la pancreatitis en la TC", P("pancreatitis_tc.jpg", 300, 234, [], credito="Hellerhoff" + CC + "CC BY-SA 3.0"),
           [("Páncreas aumentado", "Con líquido alrededor."), ("TC solo si hay duda o a las 72 h", "Para buscar necrosis."),
            ("Bilirrubina", "No es criterio de Ranson.")],
-          pie="TC de otra persona."))
+          pie="Pancreatitis aguda"))
 
 # SP-136 · Esterilización en incapacidad mental · CHECKLIST
 S("checklist", "SP-136", "Familiares piden ligar las trompas de una mujer con alteración mental severa: se requiere evaluación psiquiátrica y autorización judicial",
@@ -90,7 +90,7 @@ S("laboratorio", "CIR-101", "Niño con dolor abdominal, palidez y náuseas 3 dí
   banda=B("Dónde está el páncreas", D(lambda s, x, y: I.abdomen(s, x, y, on={"pancreas"}, sc=0.8), 264, 260),
           [("Detrás del estómago", "Cruza delante de la columna."), ("Golpe en el epigastrio", "Lo aplasta contra la columna."),
            ("Síntomas tardíos", "Por eso aparece días después.")],
-          pie="Esquema (derecha del paciente = izquierda del dibujo)."))
+          pie="Páncreas delante de la columna"))
 
 # CIR-102 · Apendicitis en la mujer joven: ecografía · ÁRBOL + Alvarado + eco
 S("arbol", "CIR-102", "Mujer de 30 años con 18 horas de dolor en fosa ilíaca derecha, fiebre, vómitos y leucocitosis con desviación: sospecha de apendicitis, pedir ecografía",
@@ -117,7 +117,7 @@ S("arbol", "CIR-102", "Mujer de 30 años con 18 horas de dolor en fosa ilíaca d
   banda=B("Así se ve la apendicitis en la eco", P("apendicitis_eco.jpg", 300, 259, [], credito="Borbély Márton" + CC + "CC BY-SA 4.0"),
           [("Apéndice engrosado", "> 6 mm, no se comprime."), ("Grasa alrededor brillante", "Inflamación."),
            ("Sin radiación", "Ideal en mujeres jóvenes y gestantes.")],
-          pie="Ecografía de otra persona."))
+          pie="Apendicitis aguda"))
 
 # CIR-103 · Insuficiencia venosa crónica: compresión · TERMÓMETRO (CEAP)
 S("termometro", "CIR-103", "Mujer de 65 años con pesadez, prurito y ardor vespertino en las piernas y várices que aumentan de pie: insuficiencia venosa crónica, terapia compresiva",
@@ -212,7 +212,7 @@ S("arbol", "PED-183", "Niño de 3 años con cólicos y vómitos intermitentes, h
   banda=B("Así se ve en la ecografía", P("invaginacion_eco.jpg", 300, 261, [], credito="Kalumet" + CC + "CC BY-SA 3.0"),
           [("Signo de la diana", "Intestino dentro de intestino."), ("Sin líquido libre", "Permite intentar el enema."),
            ("Enema", "Empuja el segmento invaginado de vuelta.")],
-          pie="Ecografía de otro niño."))
+          pie="Invaginación intestinal"))
 
 # CB-072 · Intoxicación por metanol · CUADRÍCULA
 S("cuadricula", "CB-072", "Bebedor con vómitos, visión borrosa, somnolencia, taquipnea y acidosis metabólica con anión gap alto: intoxicación por metanol",
@@ -227,11 +227,11 @@ S("cuadricula", "CB-072", "Bebedor con vómitos, visión borrosa, somnolencia, t
   op=("¿Diagnóstico?", ["Sí: visión + acidosis con gap alto", "No: no se describe hiperglucemia ni cetonas", "Posible en diabéticos, pero no explica la visión",
                         "No explica la visión", "No: daña el riñón, no la retina"]),
   d=dict(rotulo="Acidosis con anión gap alto: ¿qué la causa?", alto_img=120,
-         celdas=[("Metanol", ["Visión borrosa o ceguera", "Fomepizol + diálisis"], None, True),
+         celdas=[("Metanol", ["Visión borrosa o ceguera", "Fomepizol + diálisis"], P("metanol_tc.jpg", 300, 417), True),
                  ("Etilenglicol", ["Falla renal, cristales de oxalato", "Fomepizol + diálisis"], P("oxalato.jpg", 330, 236), False),
-                 ("Cetoacidosis diabética", ["Glucosa alta, cetonas", "Insulina y líquidos"], None, False),
-                 ("Acidosis láctica (metformina)", ["Choque, falla renal, lactato alto", "Diálisis si es grave"], None, False)],
-         credito="Cristales de oxalato: NASA/JSC · Wikimedia Commons · dominio público",
+                 ("Cetoacidosis diabética", ["Glucosa alta, cetonas", "Insulina y líquidos"], D(lambda s, x, y: I.tira_orina(s, x, y, [("Glucosa", "#7c2d12", "+++", True), ("Cetonas", "#7e22ce", "+++", True), ("pH", "#f59e0b", "5", False)], sc=1.0), 230, 120), False),
+                 ("Acidosis láctica (metformina)", ["Choque, falla renal, lactato alto", "Diálisis si es grave"], P("metformina.jpg", 330, 140), False)],
+         credito="Cristales de oxalato: NASA/JSC · Wikimedia Commons · dominio público" + " · TC: Sandhu et al. · Case Rep Radiol 2026 · PMC13527635 · CC BY 4.0 · Metformina: User:Ash (dominio público)",
          veredicto=("Alcohol + visión borrosa + gap alto = metanol", "Fomepizol y hemodiálisis; ácido fólico.")))
 
 # CB-073 · Ácido sulfhídrico en pozo séptico · TARJETAS
@@ -326,7 +326,7 @@ S("lectura", "REU-056", "Joven obeso con primera monoartritis aguda de rodilla y
                 ("Amarillas paralelas al eje / azules perpendiculares", "Birrefringencia negativa.", False),
                 ("Dentro de neutrófilos", "Fagocitados en la crisis.", False),
                 ("Gram y cultivo", "Descartar artritis séptica a la vez.", False)],
-         img_pie="Líquido de otro paciente.",
+         img_pie="Cristales de urato con luz polarizada",
          veredicto=("Cristales en aguja con birrefringencia negativa = gota", "Si fueran romboidales y positivos: seudogota (pirofosfato).")))
 
 # PED-186 · Enterocolitis necrotizante · LECTURA + Bell
@@ -346,7 +346,7 @@ S("lectura", "PED-186", "Prematuro de 32 semanas y 1200 g que a los 5 días deja
                 ("Gas en la vena porta (hígado)", "Más grave.", False),
                 ("Asas dilatadas", "Íleo.", False),
                 ("Buscar neumoperitoneo", "Perforación: cirugía.", False)],
-         img_pie="Rx de otro recién nacido.",
+         img_pie="Neumatosis intestinal",
          veredicto=("Prematuro + intolerancia + neumatosis = enterocolitis necrotizante", "Ayuno, sonda, antibióticos y Rx seriadas.")),
   escala=dict(nombre="Estadios de Bell (modificado)", que="Gravedad de la enterocolitis necrotizante.",
               grados=[("I", "Sospecha", ["Intolerancia, distensión", "Rx inespecífica"]), ("II", "Confirmada", ["Neumatosis ± gas portal"]),
@@ -472,7 +472,7 @@ S("cascada", "NEF-076", "Varón con 20 años de osteomielitis que desarrolla sí
   banda=B("Así se ve el amiloide", P("amiloide.jpg", 260, 260, [], credito="Ed Uthman" + CC + "CC BY 2.0"),
           [("Material rosado amorfo", "Depósitos de amiloide."), ("Rojo Congo", "Verde manzana con luz polarizada."),
            ("Biopsia de grasa", "Menos invasiva que la renal.")],
-          pie="Histología de otro paciente."))
+          pie="Depósitos de amiloide"))
 
 # OFT-043 · OMA tras amoxicilina reciente: amoxicilina-clavulánico · DECISIÓN + otoscopia
 S("decision", "OFT-043", "Niño con otitis media aguda que recibió amoxicilina hace un mes: el antibiótico de elección es amoxicilina con ácido clavulánico",
@@ -494,7 +494,7 @@ S("decision", "OFT-043", "Niño con otitis media aguda que recibió amoxicilina 
   banda=B("Así se ve el tímpano", P("oma.jpg", 260, 260, [], credito="B. Welleschik" + CC + "CC BY-SA 3.0"),
           [("Tímpano abombado", "El signo más específico de otitis media aguda."), ("Rojo y opaco", "Sin el reflejo de luz."),
            ("Con fiebre y otalgia", "Indica antibiótico en < 2 años o si es grave.")],
-          pie="Otoscopia de otra persona."))
+          pie="Tímpano abombado"))
 
 # SP-139 · Asentimiento del niño en investigación · RADIAL
 S("radial", "SP-139", "Niño de 9 años elegido para un ensayo clínico: además de su asentimiento, la madre debe firmar el consentimiento informado (en un idioma que entienda)",

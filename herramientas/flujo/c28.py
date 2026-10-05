@@ -63,6 +63,16 @@ def S(tipo, id_, titulo, barra, tema, caso, perlas, fuente, op, esp=None, **k):
         assert len(t) <= 48, f"{id_}: opción {'ABCDE'[i]} larga para la tabla, dar nombre corto: {t}"
         cols.append((t, i == ci))
     esp = (esp or ESP[id_.split("-")[0]]) + " ENAM"
+    try:                                   # revisión de la Entrega 3: escalas, signos y fuentes añadidos aparte
+        import extra32 as X
+    except ImportError:
+        X = None
+    if X:
+        fuente = X.FUE.get(id_, fuente)
+        if id_ in X.ESC:
+            k["escala"] = X.ESC[id_]
+        if id_ in X.TRI:
+            k["triada"] = X.TRI[id_]
     return _S(tipo, id_, ARCHIVO[id_], titulo, barra, esp, tema, caso, perlas, fuente,
               tabla=("Opciones de la pregunta", cols, [(crit, razones)]), _reg=F28, **k)
 

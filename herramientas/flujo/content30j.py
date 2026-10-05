@@ -36,7 +36,7 @@ S("radial", "NEU-051", "La complicación más frecuente de la neumonía nosocomi
           [("Consolidación", "El alvéolo lleno de pus no intercambia gas."),
            ("Hipoxemia", "La sangre pasa sin oxigenarse (cortocircuito)."),
            ("PaO₂/FiO₂ < 300", "Insuficiencia respiratoria: oxígeno o ventilación.")],
-          pie="Rx de otra persona."))
+          pie="Neumonía"))
 
 # PED-168 · Meningitis neonatal con bacilos grampositivos: Listeria · CUADRÍCULA (Gram)
 S("cuadricula", "PED-168", "Neonato de 7 días con fiebre, fontanela abombada y convulsiones, con bacilos grampositivos en el LCR: meningitis por Listeria monocytogenes",
@@ -198,7 +198,7 @@ S("embudo", "NEF-072", "Niño con dolor cólico abdominal intenso de inicio agud
           [("Riñón dilatado (hidronefrosis)", "El cálculo obstruye el paso de la orina (TC de un adulto)."),
            ("En el niño: ecografía primero", "Ve la dilatación y el cálculo (con sombra acústica) sin radiación."),
            ("TC sin contraste", "Solo si la ecografía no aclara.")],
-          pie="TC de otra persona."))
+          pie="Hidronefrosis"))
 
 # REU-053 · Pediculosis de la cabeza: permetrina · LECTURA + foto
 S("lectura", "REU-053", "Niño con prurito del cuero cabelludo y liendres pegadas al pelo, con un hermano igual: pediculosis de la cabeza, permetrina al 1 %",
@@ -219,7 +219,7 @@ S("lectura", "REU-053", "Niño con prurito del cuero cabelludo y liendres pegada
                 ("Pegadas al tallo del pelo", "No se desprenden al soplar (la caspa sí).", False),
                 ("Cerca del cuero cabelludo", "Las vivas están a < 1 cm.", False),
                 ("Tratar a todos los afectados", "Permetrina el mismo día y repetir a los 7-10 días.", False)],
-         img_pie="Foto de otra persona.",
+         img_pie="Liendres",
          veredicto=("Prurito del cuero cabelludo + liendres = pediculosis", "Permetrina al 1 %, repetir a los 7-10 días y tratar al hermano.")))
 
 # PED-173 · Faringitis estreptocócica: grupo A · TARJETAS + foto
@@ -242,7 +242,7 @@ S("tarjetas", "PED-173", "La faringitis estreptocócica del escolar la causa el 
           [("Petequias en el paladar", "Muy sugerentes de estreptococo del grupo A."),
            ("Con exudado y fiebre, sin tos", "Centor alto: prueba rápida."),
            ("Tratar 10 días", "Previene la fiebre reumática.")],
-          pie="Foto de otra persona (solo la boca)."))
+          pie="Petequias en el paladar"))
 
 # PED-174 · Vacunación atrasada: rotavirus fuera de edad · CALENDARIO
 S("calendario", "PED-174", "Lactante de 9 meses al que le falta la 3.ª dosis de pentavalente y la 2.ª de rotavirus: solo se aplica la pentavalente, porque la edad del rotavirus ya pasó",
@@ -284,7 +284,7 @@ S("laboratorio", "HEM-034", "Niño con palidez, bilirrubina indirecta alta, reti
           [("Esquistocitos", "Glóbulos rotos: hemólisis dentro de los vasos (SHU, microangiopatía)."),
            ("Esferocitos", "Esferocitosis o autoinmune (no en esta foto)."),
            ("Policromatofilia", "Reticulocitos: la médula responde.")],
-          pie="Frotis de otro paciente."))
+          pie="Esquistocitos"))
 
 # PED-175 · Meningitis neonatal: ampicilina + gentamicina · RADIAL
 S("radial", "PED-175", "Neonato de 6 días con fiebre, irritabilidad, fontanela abombada, leucocitosis y plaquetopenia: sepsis con meningitis neonatal, ampicilina + gentamicina empíricas",
@@ -328,7 +328,7 @@ S("checklist", "PED-176", "Recién nacido con salivación excesiva, tos y ahogo 
           [("Tipo A (este caso)", "Sin fístula al esófago inferior: no entra aire, el abdomen no tiene gas."),
            ("Tipo C (85 %)", "Fístula del esófago inferior a la tráquea: hay gas en el estómago."),
            ("Tipo H", "Sin atresia: tos con las tomas y neumonías; diagnóstico tardío.")],
-          pie="Esquema."))
+          pie="Tipos de atresia de esófago"))
 
 # TRA-037 · Fractura expuesta de tibia · RELOJ + Gustilo + fijador
 S("reloj", "TRA-037", "Minero con fractura expuesta conminuta de tibia, músculo y hueso expuestos y tierra en la herida: lo prioritario es la irrigación y el desbridamiento",
@@ -359,7 +359,7 @@ S("reloj", "TRA-037", "Minero con fractura expuesta conminuta de tibia, músculo
           [("Fijador externo", "Clavos fuera de la herida: estabiliza sin meter material en la zona sucia."),
            ("Permite curar", "Se revisa y lava la herida."),
            ("Después", "Clavo intramedular cuando la herida está limpia.")],
-          pie="Foto de un fijador."))
+          pie="Fijador externo"))
 
 # TRA-038 · Esguince de tobillo grado 2 · TERMÓMETRO + ligamentos
 S("termometro", "TRA-038", "Torcedura de tobillo con edema, equimosis lateral, dolor a la inversión e inestabilidad moderada: esguince de tobillo grado 2",
@@ -383,7 +383,7 @@ S("termometro", "TRA-038", "Torcedura de tobillo con edema, equimosis lateral, d
           [("Peroneoastragalino anterior", "El primero en romperse con la inversión."),
            ("Peroneocalcáneo", "Se suma en los grados más graves."),
            ("Equimosis lateral", "Sangrado de la rotura: indica al menos grado II.")],
-          pie="Ilustración anatómica."))
+          pie="Ligamentos laterales del tobillo"))
 
 # CIR-096 · Quemadura de tercer grado: indolora · GRADOS CON DIBUJO
 S("grados_foto", "CIR-096", "La quemadura de tercer grado (espesor total) no duele porque destruye las terminaciones nerviosas de la dermis",
@@ -427,7 +427,7 @@ S("arbol", "CIR-097", "Mujer con ictericia, coluria y vía biliar dilatada 2 mes
           [("Vía biliar blanca y brillante", "El agua de la bilis se ve sin contraste."),
            ("Defecto oscuro", "Cálculo residual en el colédoco."),
            ("Corte brusco", "Estenosis o lesión de la vía.")],
-          pie="CPRM de otra persona."))
+          pie="Coledocolitiasis"))
 
 # CIR-098 · Colecistitis en paciente de alto riesgo: colecistostomía · MATRIZ + Tokio
 S("matriz", "CIR-098", "Anciano de 87 años con EPOC e insuficiencia cardiaca descompensada, con colecistitis aguda que no mejora tras 4 días: colecistostomía percutánea",
@@ -485,8 +485,8 @@ S("cuadricula", "OFT-039", "Adolescente que nada en piscina con otalgia, secreci
          celdas=[("Otitis externa", ["Duele al mover el pabellón", "Pseudomonas: gotas de ciprofloxacino"], P("otitis_ext.jpg", 280, 280), True),
                  ("Otitis media aguda", ["Tímpano abombado; niño con resfrío", "Neumococo, Haemophilus"], P("oma.jpg", 260, 260), False),
                  ("Otitis media crónica", ["Perforación y otorrea de meses", "Pseudomonas, S. aureus"], P("otitis_cronica.jpg", 280, 276), False),
-                 ("Otomicosis", ["Picazón, «papel secante» o puntos negros", "Aspergillus, Candida"], None, False)],
-         credito="James Heilman (CC BY 3.0), B. Welleschik (CC BY-SA 3.0) y Michael Hawke (CC BY 4.0), Wikimedia Commons",
+                 ("Otomicosis", ["Picazón, «papel secante» o puntos negros", "Aspergillus, Candida"], P("otomicosis.jpg", 300, 424), False)],
+         credito="James Heilman (CC BY 3.0), B. Welleschik (CC BY-SA 3.0) y Michael Hawke (CC BY 4.0), Wikimedia Commons" + " · Otomicosis: Mohammad2018 (CC BY-SA 4.0)",
          veredicto=("Piscina + dolor al traccionar el pabellón = otitis externa", "Pseudomonas: gotas de ciprofloxacino.")))
 
 # GIN-164 · Contracciones sin cambios cervicales a las 34 semanas · ÁRBOL

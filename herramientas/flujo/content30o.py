@@ -109,7 +109,7 @@ S("cronologia", "NEF-077", "Joven con hematuria macroscópica recurrente a los p
   op=("¿Diagnóstico?", ["No: nefrótico en adultos, sin hematuria macroscópica", "No: nefrótico", "Sí: hematuria a los pocos días de la infección", "No: niños, nefrótico, sin hematuria",
                         "No: 1-3 semanas después y C3 bajo"]),
   d=dict(rotulo="¿Cuántos días después de la infección aparece la hematuria?", tag="IgA",
-         ilu_titulo="Cilindro hemático (otro paciente)",
+         ilu_titulo="Cilindro hemático",
          ilu=CON_CREDITO(P("cilindro_hematico.jpg", 330, 210, [], credito="Mohsenin V." + CC + "CC BY 4.0"), dx=0),
          ilu_pie="Sangre de origen glomerular.",
          claves=[("Nefropatía por IgA", ["1-3 días después (mientras dura la infección)"], True), ("GN postestreptocócica", ["1-3 semanas (faringe), 3-6 (piel); C3 bajo"], False),
@@ -204,10 +204,10 @@ S("cuadricula", "INF-092", "Niño con hematoquecia, tenesmo, prolapso rectal y a
   op=("¿Etiología?", ["Sí: prolapso + anemia + tenesmo", "No: anemia sin prolapso ni disentería", "No: diarrea tras antibióticos", "No: hígado y vía biliar", "No: diarrea grasosa sin sangre"]),
   d=dict(rotulo="Helmintos y su pista clínica", alto_img=120,
          celdas=[("Trichuris trichiura", ["Prolapso rectal, tenesmo, anemia", "Huevo en barril"], P("trichuris.jpg", 250, 240), True),
-                 ("Uncinarias", ["Anemia ferropénica marcada", "Sin prolapso ni disentería"], None, False),
+                 ("Uncinarias", ["Anemia ferropénica marcada", "Sin prolapso ni disentería"], P("uncinaria.jpg", 300, 195), False),
                  ("Enterobius (oxiuro)", ["Prurito anal nocturno", "Test de Graham"], P("oxiuro.jpg", 330, 210), False),
-                 ("Ascaris", ["Obstrucción, síndrome de Löffler", "Gusano grande"], None, False)],
-         credito="Huevos: K. Fischer et al. (dominio público) y Ajay Kumar Chaurasiya (CC BY 4.0), Wikimedia Commons",
+                 ("Ascaris", ["Obstrucción, síndrome de Löffler", "Gusano grande"], P("ascaris_huevo.jpg", 330, 225), False)],
+         credito="Huevos: Fischer et al., CDC/M. Melvin (dominio público), A. K. Chaurasiya (CC BY 4.0) · Commons; uncinaria: PMC13450911 (CC BY 4.0)",
          veredicto=("Prolapso rectal + anemia + tenesmo = tricocefalosis", "Albendazol 3 días y hierro.")))
 
 # GIN-191 · Podálica en expulsivo en la multípara · DECISIÓN
@@ -266,7 +266,7 @@ S("cuadricula", "CAR-064", "Paciente monitorizada que pierde la conciencia con a
          celdas=[("Asistolia", ["Línea plana: no desfibrilable", "RCP + adrenalina ya"], P("ecg_asistolia.jpg", 450, 90, [], credito=ECG_PROPIO, fondo="#ffffff"), True),
                  ("Fibrilación ventricular", ["Caótica: desfibrilable", "Descarga + RCP"], P("ecg_fv.jpg", 188, 90, [], credito=ECG_PROPIO, fondo="#ffffff"), False),
                  ("TV sin pulso", ["QRS ancho rápido: desfibrilable", "Descarga + RCP"], P("ecg_tv.jpg", 450, 90, [], credito=ECG_PROPIO, fondo="#ffffff"), False),
-                 ("Actividad eléctrica sin pulso", ["Ritmo organizado sin pulso", "RCP + adrenalina; buscar H y T"], None, False)],
+                 ("Actividad eléctrica sin pulso", ["Ritmo organizado sin pulso", "RCP + adrenalina; buscar H y T"], P("ecg_normal_ii.jpg", 450, 90, [], credito="Trazado de enseñanza MedQuizPro", fondo="#ffffff"), False)],
          credito="Trazados de enseñanza MedQuizPro (no son de pacientes)",
          veredicto=("Asistolia = RCP + adrenalina", "No se descarga.")))
 
@@ -287,7 +287,7 @@ S("lectura", "HEM-036", "Joven afrodescendiente con anemia, ictericia indirecta,
                 ("Dianocitos acompañantes", "Frecuentes, pero no son los típicos.", False),
                 ("Electroforesis: banda de Hb S", "Confirma.", False),
                 ("Reticulocitos 0 %", "Crisis aplásica por parvovirus B19.", False)],
-         img_pie="Frotis de otro paciente.",
+         img_pie="Drepanocitos",
          veredicto=("Hb S + hemólisis = drepanocitos en el frotis", "Reticulocitos en 0: crisis aplásica; transfundir.")))
 
 # PED-188 · Hierro en el bajo peso al nacer: desde el mes · CALENDARIO
@@ -432,7 +432,7 @@ S("lectura", "OFT-044", "Adulto mayor que se limpia los oídos con hisopo y pres
                 ("Tapa el paso del sonido", "Hipoacusia de conducción.", False),
                 ("Toca el tímpano", "Tinnitus y plenitud.", False),
                 ("Tratamiento", "Ceruminolítico y lavado.", False)],
-         img_pie="Esquema.",
+         img_pie="Tapón de cerumen",
          veredicto=("Hisopo + hipoacusia súbita = tapón de cerumen", "Ablandar y retirar; no usar hisopos.")))
 
 # INF-093 · Gestante con VIH y PPD positivo: isoniazida · DECISIÓN
@@ -474,4 +474,4 @@ S("laboratorio", "HEM-037", "Anciana con deterioro cognitivo, anorexia, palidez 
   banda=B("Lo que muestra el frotis", P("hiperseg2.jpg", 300, 251, [], credito="Ed Uthman" + CC + "CC BY 2.0", fondo="#ffffff"),
           [("Neutrófilo hipersegmentado", "≥ 6 lóbulos: típico de la anemia megaloblástica."), ("Macroovalocitos", "Glóbulos rojos grandes y ovalados."),
            ("Demencia reversible", "Por eso se pide B12 en todo deterioro cognitivo.")],
-          pie="Frotis de otro paciente."))
+          pie="Neutrófilo hipersegmentado"))

@@ -66,7 +66,7 @@ S("transmision", "SP-131", "Aumento de febriles con Aedes aegypti en el territor
                     ("Persona sana", "Susceptible", "Vacuna (grupos priorizados)", False)],
          img=B("El vector", P("aedes.jpg", 300, 228, [], credito="John Ragai" + CC + "CC BY 2.0"),
                [("Aedes aegypti", "Patas con anillos blancos; pica de día."), ("Criaderos", "Agua limpia estancada en recipientes."),
-                ("En brote", "Fumigación espacial + control de criaderos.")], pie="Foto de un mosquito."),
+                ("En brote", "Fumigación espacial + control de criaderos.")], pie="Aedes aegypti"),
          veredicto=("Prioridad: control de focos y contactos", "Eliminar criaderos y buscar febriles en el territorio.")))
 
 # NEF-073 · Atrofia testicular por ligadura de la arteria testicular · TARJETAS + esquema
@@ -89,7 +89,7 @@ S("tarjetas", "NEF-073", "Varón con disminución del tamaño testicular un año
           [("Arteria testicular", "Viaja en el cordón espermático desde la aorta."),
            ("Sin flujo", "El testículo se achica en meses (atrofia)."),
            ("Doppler", "Muestra el flujo disminuido o ausente.")],
-          pie="Esquema (derecha del paciente = izquierda del dibujo)."))
+          pie="Testículo y cordón espermático"))
 
 # GIN-179 · Prevención de preeclampsia: aspirina · ALARMA
 S("alarma", "GIN-179", "Gestante de 12 semanas con preeclampsia severa previa, lupus y sobrepeso: alto riesgo de preeclampsia, la profilaxis más efectiva es aspirina a dosis bajas",
@@ -190,7 +190,7 @@ S("arbol", "GIN-181", "Usuaria de DIU con prueba de embarazo positiva y hilos vi
           [("DIU de cobre en T", "Los hilos salen por el cuello del útero."),
            ("Hilos visibles", "Se puede retirar con una pinza en la consulta."),
            ("Si se deja", "Más aborto séptico y parto pretérmino.")],
-          pie="Foto de un DIU."))
+          pie="DIU de cobre"))
 
 # REU-054 · Artritis psoriásica · CRITERIOS CASPAR + foto
 S("criterios", "REU-054", "Placas eritematodescamativas en los codos, artritis con erosiones de interfalángicas distales y factor reumatoide negativo: artritis psoriásica",
@@ -212,7 +212,7 @@ S("criterios", "REU-054", "Placas eritematodescamativas en los codos, artritis c
          umbral="≥ 3 puntos = artritis psoriásica",
          veredicto="3 puntos o más: artritis psoriásica; AINE y metotrexato.",
          img=PA("psoriasis_mont.jpg", 260, [], credito="Marnanel y Seenms · Wikimedia Commons · CC BY-SA 3.0"), img_titulo="Placas y uñas psoriásicas",
-         img_pie="Placas con escama plateada; uñas con piqueteado (otras personas).", conteo="3 de 3 necesarios"))
+         img_pie="Placas con escama plateada y uñas con piqueteado", conteo="3 de 3 necesarios"))
 
 # PSI-036 · Depresión psicótica · EMBUDO
 S("embudo", "PSI-036", "Mujer con tristeza persistente, desesperanza, ideas suicidas y alucinaciones auditivas y visuales: depresión mayor con síntomas psicóticos",
@@ -273,7 +273,7 @@ S("arbol", "PED-177", "Niño de 2 años con 24 horas de cólicos, vómitos, masa
           [("Signo de la diana", "Anillos de intestino uno dentro de otro (corte transversal)."),
            ("Signo de la salchicha", "El mismo hallazgo en corte longitudinal."),
            ("Líquido libre", "Sufrimiento o perforación: contraindica el enema.")],
-          pie="Ecografía de otro niño."))
+          pie="Invaginación intestinal"))
 
 # PED-178 · Déficit de vitamina A: manchas de Bitot · LECTURA + OMS
 S("lectura", "PED-178", "Niño de 2 años con ceguera nocturna, fotofobia, xerosis conjuntival y manchas de Bitot: déficit de vitamina A (xeroftalmía)",
@@ -292,7 +292,7 @@ S("lectura", "PED-178", "Niño de 2 años con ceguera nocturna, fotofobia, xeros
                 ("Conjuntiva seca y opaca", "Xerosis conjuntival (X1A).", False),
                 ("Córnea", "Si se seca o ulcera: X2-X3, riesgo de ceguera.", False),
                 ("Tratar", "Vitamina A días 1, 2 y 14.", False)],
-         img_pie="Foto de otra persona (solo el ojo).",
+         img_pie="Mancha de Bitot",
          veredicto=("Ceguera nocturna + Bitot = déficit de vitamina A", "Vitamina A oral los días 1, 2 y 14.")),
   escala=dict(nombre="Clasificación de la xeroftalmía (OMS)", que="Del signo más leve al más grave.",
               grados=[("XN", "Ceguera nocturna", ["Primer síntoma"]), ("X1A / X1B", "Xerosis conjuntival / Bitot", ["Este caso"]),
@@ -382,7 +382,7 @@ S("cascada", "NEF-074", "Anciano con hidroclorotiazida, debilidad muscular, caí
          veredicto=("ECG primero: dice si el potasio ya afecta al corazón", "Luego potasio y magnesio séricos y reponer.")),
   banda=B("Así se ve la hipopotasemia en el ECG", P("ecg_hipok.jpg", 380, 228, [("flecha", 0.39, 0.25, 0.6, 0.06, "onda U")], credito=ECG_PROPIO, fondo="#ffffff"),
           [("T aplanada", "Pequeña, casi plana."), ("Onda U", "Joroba después de la T."), ("Más grave", "ST deprimido, arritmias.")],
-          pie="Trazado de enseñanza."))
+          pie="Hipopotasemia en el ECG"))
 
 # TRA-040 · Displasia de cadera: Galeazzi · LECTURA (esquema)
 S("lectura", "TRA-040", "Lactante de 11 meses, nacida en podálica, con pliegues glúteos asimétricos y signo de Galeazzi positivo: displasia del desarrollo de la cadera",
@@ -401,7 +401,7 @@ S("lectura", "TRA-040", "Lactante de 11 meses, nacida en podálica, con pliegues
                 ("Pliegues asimétricos", "Más pliegues del lado luxado.", False),
                 ("Abducción limitada", "El signo más útil después de los 3 meses.", False),
                 ("Confirmar con Rx de pelvis", "A los 11 meses la eco ya no sirve.", False)],
-         img_pie="Esquema: cadera izquierda luxada.",
+         img_pie="Cadera izquierda luxada",
          veredicto=("Podálica + Galeazzi + pliegues asimétricos = displasia de cadera", "Rx de pelvis y tratamiento ortopédico.")),
   triada=TR([("Mujer", "Sí", True), ("Presentación podálica", "Sí", True), ("Primogénita o antecedente familiar", "No se informa", False)],
             [("Factores de riesgo de displasia", 0, 2)], "Ortolani y Barlow solo sirven en los primeros 3 meses."))

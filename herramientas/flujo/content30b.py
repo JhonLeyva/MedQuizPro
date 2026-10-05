@@ -50,7 +50,7 @@ S("lectura", "INF-072", "Joven de Loreto con úlcera única de 3 meses en la pie
                 ("Fondo limpio y granuloso", "Rojo, sin pus ni necrosis; indolora.", False),
                 ("¿Viene de selva o valle andino?", "Loreto: zona endémica de la forma selvática.", True),
                 ("Confirmar", "Frotis del borde (amastigotes) o PCR; luego antimonial.", False)],
-         img_pie="Foto de otro paciente.",
+         img_pie="Úlcera de leishmaniasis cutánea",
          tira_titulo="Úlceras que se confunden",
          tira=[(P("esporotricosis.jpg", 330, 222), "Esporotricosis", "Nódulos en cadena linfática", False),
                (P("escrofula.jpg", 300, 225), "TB cutánea", "Sobre un ganglio que fistuliza", False)],
@@ -107,7 +107,7 @@ S("cuadricula", "CAR-052", "Hipertensa mal tratada con disnea, tos rosada, diafo
            ("Redistribución del flujo", "Vasos de los vértices más gruesos."),
            ("Líneas B de Kerley", "Tabiques engrosados en la periferia."),
            ("Mejora en horas", "Con vasodilatador y diurético.")],
-          pie="Rx de otro paciente."))
+          pie="Edema agudo de pulmón"))
 
 # NEF-063 · Síndrome nefrótico: TEP · CASCADA + Wells + angio-TC
 S("cascada", "NEF-063", "Nefropatía membranosa con proteinuria de 8 g y albúmina 1,8 que presenta disnea súbita, dolor pleurítico y SatO₂ 88 %: tromboembolismo pulmonar",
@@ -141,7 +141,7 @@ S("cascada", "NEF-063", "Nefropatía membranosa con proteinuria de 8 g y albúmi
           [("Arterias pulmonares blancas", "El contraste las rellena."),
            ("Defecto oscuro dentro", "El trombo no deja pasar el contraste."),
            ("En silla de montar", "Si cabalga sobre la bifurcación: TEP masivo.")],
-          pie="Angio-TC de otro paciente."))
+          pie="Tromboembolia pulmonar en la angio-TC"))
 
 # INF-073 · Meningitis viral · LABORATORIO del LCR
 S("laboratorio", "INF-073", "Fiebre, cefalea y rigidez de nuca con LCR de 90 linfocitos, glucosa normal y proteínas 80: meningitis viral (aséptica), tratamiento sintomático",
@@ -191,7 +191,7 @@ S("tarjetas", "TRA-030", "Trauma de muñeca hace 3 meses y ahora adormecimiento 
            ("Azul: mediano", "Pulgar, índice, medio y la mitad del 4.º."),
            ("Rojo: canal de Guyon", "Junto al pisiforme; el trauma de muñeca lo comprime."),
            ("Si el dorso está normal", "La lesión es en la muñeca (Guyon) y no en el codo.")],
-          pie="Esquema."))
+          pie="Territorios sensitivos de la mano"))
 
 # SP-104 · Tasa de ataque · CÁLCULO + pictograma propio
 S("arbol", "SP-104", "200 comieron en un comedor y 80 enfermaron en 24 horas: la tasa de ataque (40 %) es el riesgo de un expuesto de enfermar durante el brote",
@@ -214,7 +214,7 @@ S("arbol", "SP-104", "200 comieron en un comedor y 80 enfermaron en 24 horas: la
           [("Expuestos", "200 almorzaron en el comedor."),
            ("Casos nuevos", "80 enfermaron en 24 horas (rojo)."),
            ("Tasa de ataque", "80 / 200 × 100 = 40 %: 4 de cada 10 expuestos.")],
-          pie="Esquema."))
+          pie="Tasa de ataque del brote"))
 
 # SP-105 · Redes Integradas de Salud · RED de atención
 S("red", "SP-105", "Organizaciones que atienden de forma equitativa e integral a una población definida, articuladas y que rinden cuentas por sus resultados: Redes Integradas de Salud",
@@ -254,7 +254,7 @@ S("regla", "END-041", "Escolar de 12 años con IMC sobre +3 DE y manchas atercio
                  [("Placa oscura aterciopelada", "En pliegues: cuello, axilas, ingles."),
                   ("No se quita al lavar", "No es suciedad: es piel engrosada."),
                   ("Marcador", "Resistencia a la insulina; descartar diabetes.")],
-                 pie="Foto de la axila de otro paciente.")),
+                 pie="Acantosis nigricans en la axila")),
   triada=TR([("Obesidad", "IMC +3 DE", True), ("Acantosis nigricans", "Cuello y axilas", True), ("Glucosa o insulina alteradas", "Por medir", None)],
             [("Resistencia a la insulina", 0, 2)], "Obesidad + acantosis bastan para sospecharla: medir glucosa y HbA1c."))
 
@@ -281,7 +281,7 @@ S("fases", "CIR-082", "Tercer día después de una resección intestinal con dis
            ("Sin punto de corte", "Diferencia con la obstrucción mecánica."),
            ("Ruidos ausentes", "Intestino quieto (en la obstrucción están aumentados)."),
            ("Opioides", "La causa iatrogénica más común: reducirlos.")],
-          pie="Rx de otro paciente con íleo adinámico."))
+          pie="Íleo adinámico"))
 
 # GAS-052 · CA 19-9 · RADIAL de marcadores + TC
 S("radial", "GAS-052", "El marcador tumoral más útil en el adenocarcinoma de páncreas es el CA 19-9 (sirve para seguimiento, no para tamizaje)",
@@ -304,7 +304,7 @@ S("radial", "GAS-052", "El marcador tumoral más útil en el adenocarcinoma de p
           [("Masa más oscura que el páncreas", "Hipodensa en la cabeza (puntas de flecha)."),
            ("Toca los vasos mesentéricos", "Define si es resecable."),
            ("Vía biliar dilatada", "La cabeza comprime el colédoco: ictericia.")],
-          pie="TC de otro paciente."))
+          pie="Cáncer de cabeza de páncreas"))
 
 # CIR-083 · Apendicitis del muñón · ÁRBOL
 S("arbol", "CIR-083", "Dolor en fosa ilíaca derecha con signos peritoneales 6 meses después de una apendicectomía y TC con estructura tubular inflamada en el ciego: apendicitis del muñón",
@@ -346,7 +346,7 @@ S("embudo", "INF-074", "Vesículas dolorosas en el labio mayor desde hace 2 día
           [("Vesículas agrupadas", "Sobre piel roja; luego se ulceran."),
            ("Células gigantes multinucleadas", "Tzanck: virus herpes (simple o varicela-zóster)."),
            ("Mejor PCR", "Más sensible y dice qué virus es.")],
-          pie="Imágenes de otra infección herpética (zóster)."))
+          pie="Herpes zóster y células de Tzanck"))
 
 # NEF-064 · Nervios cavernosos · TARJETAS
 S("tarjetas", "NEF-064", "En la prostatectomía radical hay que identificar y preservar los nervios cavernosos (bandeletas neurovasculares) para evitar la disfunción eréctil",
@@ -442,7 +442,7 @@ S("tarjetas", "GAS-053", "Pancreatitis aguda moderada con taquipnea y SatO₂ 92
           [("Base del pulmón ocupada", "Líquido que comprime y colapsa alvéolos."),
            ("Más a la izquierda", "Cerca del páncreas inflamado."),
            ("Alvéolos sin aire con sangre", "= alteración V/Q: baja la SatO₂.")],
-          pie="Esquema."))
+          pie="Derrame pleural"))
 
 # INF-075 · Esofagitis por CMV: ganciclovir · CUADRÍCULA de esofagitis en VIH
 S("cuadricula", "INF-075", "SIDA con CD4 30, odinofagia y úlceras serpiginosas en el esófago distal con inclusiones en células grandes: esofagitis por citomegalovirus, ganciclovir",
@@ -459,9 +459,9 @@ S("cuadricula", "INF-075", "SIDA con CD4 30, odinofagia y úlceras serpiginosas 
   d=dict(rotulo="Esofagitis en el VIH: cómo se distinguen", alto_img=140,
          celdas=[("Citomegalovirus", ["Úlceras grandes y profundas distales", "Inclusiones «en ojo de búho» → ganciclovir"], P("cmv_inclusion.jpg", 420, 368), True),
                  ("Cándida", ["Placas blancas que se desprenden", "La más común → fluconazol"], P("candida_esof.jpg", 420, 340), False),
-                 ("Herpes simple", ["Úlceras pequeñas «en volcán»", "Células multinucleadas → aciclovir"], None, False),
-                 ("Úlcera idiopática (aftosa)", ["Biopsia sin virus ni hongos", "Corticoide (prednisona)"], None, False)],
-         credito="CDC (dominio público) y James Heilman, MD (CC BY-SA 3.0) · Wikimedia Commons",
+                 ("Herpes simple", ["Úlceras pequeñas «en volcán»", "Células multinucleadas → aciclovir"], P("herpes_esof.jpg", 380, 214), False),
+                 ("Úlcera idiopática (aftosa)", ["Biopsia sin virus ni hongos", "Corticoide (prednisona)"], PA("dib_ulcera_idiopatica.jpg", 300, [], fondo="#ffffff"), False)],
+         credito="CDC (dominio público) y James Heilman, MD (CC BY-SA 3.0) · Wikimedia Commons" + " · Herpes: Mwengela et al. · Cureus 2026 · PMC13283467 · CC BY 4.0 · Úlcera: esquema propio",
          veredicto=("Úlceras serpiginosas + inclusiones en células grandes = CMV", "Ganciclovir EV y TAR.")))
 
 # NEU-039 · TB pulmonar en la gestante · CHECKLIST + Rx
@@ -491,7 +491,7 @@ S("checklist", "NEU-039", "Gestante de 20 semanas con tos de más de 2 semanas, 
           [("Infiltrado en los vértices", "Lo típico de la reactivación."),
            ("Cavidades", "Mucho bacilo: contagia más."),
            ("Se puede tomar en el embarazo", "Con mandil sobre el abdomen.")],
-          pie="Rx de otro paciente."))
+          pie="Tuberculosis cavitaria"))
 
 # GIN-143 · Bolo de oxitocina: hipertonía · CASCADA + CTG propia
 S("cascada", "GIN-143", "Bolo de oxitocina en el expulsivo seguido de taquicardia y luego bradicardia fetal: hipertonía uterina que corta el flujo a la placenta",
@@ -515,7 +515,7 @@ S("cascada", "GIN-143", "Bolo de oxitocina en el expulsivo seguido de taquicardi
           [("Contracción que no baja (verde)", "Hipertonía tras el bolo."),
            ("La FCF sube primero", "Taquicardia compensadora."),
            ("Luego cae a ~90 lpm", "Bradicardia: el feto se queda sin oxígeno.")],
-          pie="Esquema (no es un trazado real)."))
+          pie="Cardiotocografía"))
 
 # HEM-028 · Enfermedad de von Willebrand · LABORATORIO + petequias
 S("laboratorio", "HEM-028", "Sangrados de piel y mucosas propios y familiares, tiempo de sangría prolongado, factor VIII bajo y agregación con ristocetina disminuida: enfermedad de von Willebrand",
@@ -544,7 +544,7 @@ S("laboratorio", "HEM-028", "Sangrados de piel y mucosas propios y familiares, t
           [("Puntos rojos que no blanquean", "Sangrado capilar: problema de plaquetas o del FvW."),
            ("Sangrado de mucosas", "Encías, nariz, menstruaciones abundantes."),
            ("Diferencia con la hemofilia", "La hemofilia sangra en articulaciones y músculos.")],
-          pie="Foto de otro paciente."))
+          pie="Petequias"))
 
 # CIR-084 · Apendicectomía laparoscópica en obesos · BALANZA
 S("balanza", "CIR-084", "En la apendicitis no complicada de una paciente obesa, la ventaja de la vía laparoscópica sobre la abierta es la menor infección de la herida",
@@ -586,7 +586,7 @@ S("embudo", "CIR-085", "Tumoración blanda en la línea media sobre el ombligo q
            ("Umbilical", "En el anillo umbilical."),
            ("Diástasis", "Rectos separados, sin anillo."),
            ("Spiegel", "Borde lateral del recto.")],
-          pie="Esquema.", ans=0))
+          pie="Hernias de la pared abdominal", ans=0))
 
 # INF-076 · Amebiasis intestinal · CICLO + trofozoíto real
 S("ciclo", "INF-076", "Diarrea intermitente con pérdida de peso y trofozoítos de Entamoeba histolytica en heces: metronidazol y luego un amebicida luminal (paromomicina)",

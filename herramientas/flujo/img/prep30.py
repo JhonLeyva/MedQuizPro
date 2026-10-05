@@ -281,3 +281,79 @@ if hacer("luxacion_hombro.jpg"):
 if hacer("colecistitis_eco.jpg"):
     # Cerevisae · Commons · CC BY-SA 4.0 (Acute cholecystitis as seen on ultrasound axial view.jpg); recorte sin rótulos en inglés
     guardar(Image.open("orig/colecistitis_eco.jpg").convert("RGB").crop((300, 120, 652, 560)), "colecistitis_eco.jpg", 300, 88)
+
+# ── Revisión (5-oct): panel b (estadio 1, línea de demarcación) de la misma figura de Zhao et al.
+if hacer("rop_b.jpg"):
+    o = Image.open("orig/rop_estadios.jpg").convert("RGB")
+    p = o.crop((252, 2, 498, 186)); a = np.array(p); h, w = a.shape[:2]
+    yy, xx = np.mgrid[:h, :w]
+    a[(xx - w / 2) ** 2 + (yy - h / 2) ** 2 > 125 ** 2] = 0
+    guardar(Image.fromarray(a), "rop_b.jpg", 330, 88)
+if hacer("rop_e5.jpg"):
+    # Singh et al. · Cureus 2026 · PMC13559123 · CC BY 4.0 (fig. 1d): estadio 5, desprendimiento total; máscara circular tapa la letra
+    o = Image.open("orig/rop_aiims.jpg").convert("RGB")
+    p = o.crop((6, 546, 528, 1074)); a = np.array(p); h, w = a.shape[:2]
+    yy, xx = np.mgrid[:h, :w]
+    a[(xx - w / 2) ** 2 + (yy - h / 2) ** 2 > (0.47 * h) ** 2] = 0
+    guardar(Image.fromarray(a), "rop_e5.jpg", 330, 88)
+if hacer("qseb.jpg"):
+    # Lubis y Putra · Front Med 2026 · PMC13587691 · CC BY 4.0: queratosis seborreica (recorte sin la regla)
+    guardar(Image.open("orig/qseb.jpg").convert("RGB").crop((100, 300, 680, 615)), "qseb.jpg", 360, 88)
+if hacer("hipopion.jpg"):
+    # Ajabshir et al. · Cureus 2024 · PMC11707805 · CC BY 4.0: hipopion
+    guardar(Image.open("orig/hipopion2.jpg").convert("RGB").crop((112, 150, 620, 640)), "hipopion.jpg", 330, 88)
+if hacer("queratitis.jpg"):
+    # Gardeli et al. · Cureus 2026 · PMC13552464 · CC BY 4.0: úlcera corneal con infiltrado e hipopion (flechas del autor)
+    guardar(Image.open("orig/queratitis.jpg").convert("RGB").crop((200, 100, 1500, 1150)), "queratitis.jpg", 360, 88)
+if hacer("cerclaje_eco.jpg"):
+    # Shir et al. · Case Rep Obstet Gynecol 2026 · PMC13494658 · CC BY 4.0 (fig. 4): cerclaje en su sitio
+    guardar(Image.open("orig/cerclaje_eco.jpg").convert("RGB"), "cerclaje_eco.jpg", 360, 88)
+if hacer("cuello_dilatado_eco.jpg"):
+    # misma fuente (fig. 1): cuello dilatado con membranas protruyendo
+    guardar(Image.open("orig/cuello_dilatado_eco.jpg").convert("RGB"), "cuello_dilatado_eco.jpg", 360, 88)
+if hacer("metanol_tc.jpg"):
+    # Sandhu et al. · Case Rep Radiol 2026 · PMC13527635 · CC BY 4.0: hipodensidad de putámenes (flechas del autor)
+    guardar(Image.open("orig/metanol_tc.jpg").convert("RGB"), "metanol_tc.jpg", 300, 88)
+if hacer("herpes_esof.jpg"):
+    # Mwengela et al. · Cureus 2026 · PMC13283467 · CC BY 4.0: esofagitis herpética (flecha del autor)
+    guardar(Image.open("orig/herpes_esof.jpg").convert("RGB"), "herpes_esof.jpg", 380, 88)
+if hacer("celulitis.jpg"):
+    # Suenaert et al. · Cureus 2026 · PMC13564028 · CC BY 4.0: celulitis con bordes marcados
+    guardar(Image.open("orig/celulitis.jpg").convert("RGB").crop((0, 150, 1600, 1450)), "celulitis.jpg", 380, 88)
+if hacer("fascitis.jpg"):
+    # Septiawan et al. · J Surg Case Rep 2026 · PMC13589848 · CC BY 4.0 (fig. 1A): fascitis necrosante al ingreso
+    guardar(Image.open("orig/fascitis.jpg").convert("RGB").crop((0, 100, 530, 644)), "fascitis.jpg", 360, 88)
+if hacer("bothrops.jpg"):
+    # Pedigone et al. · Rev Soc Bras Med Trop 2026 · PMC13379231 · CC BY 4.0: mano edematizada tras mordedura de Bothrops y la serpiente
+    guardar(Image.open("orig/bothrops.jpg").convert("RGB").crop((4, 4, 446, 336)), "bothrops.jpg", 380, 88)
+if hacer("uncinaria.jpg"):
+    # Jiang y Zhu · Rev Inst Med Trop São Paulo 2026 · PMC13450911 · CC BY 4.0: huevo de uncinaria (cubierta fina, blastómeros)
+    guardar(Image.open("orig/uncinaria.jpg").convert("RGB"), "uncinaria.jpg", 300, 90)
+if hacer("ghon_rx.jpg"):
+    # Basem Abbas Al Ubaidi · Commons · CC BY 4.0: complejo de Ghon (TB primaria)
+    guardar(Image.open("orig/ghon_rx.jpg").convert("RGB"), "ghon_rx.jpg", 261, 90)
+if hacer("tb_pleural_rx.jpg"):
+    # Basem Abbas Al Ubaidi · Commons · CC BY 4.0: derrame pleural de la TB primaria
+    guardar(Image.open("orig/tb_pleural_rx.jpg").convert("RGB"), "tb_pleural_rx.jpg", 220, 90)
+if hacer("otomicosis.jpg"):
+    # Mohammad2018 · Commons · CC BY-SA 4.0 (Otomycosis.jpg): panel derecho
+    guardar(Image.open("orig/otomicosis.jpg").convert("RGB").crop((380, 120, 720, 600)), "otomicosis.jpg", 300, 88)
+if hacer("ascaris_huevo.jpg"):
+    # CDC / Dr. Mae Melvin · Commons · dominio público (PHIL 410): huevo fértil de Ascaris
+    guardar(Image.open("orig/ascaris_huevo.jpg").convert("RGB"), "ascaris_huevo.jpg", 330, 88)
+if hacer("hematoma_subungueal.jpg"):
+    # Callaleo · Commons · CC BY-SA 4.0: hematoma subungueal
+    guardar(Image.open("orig/hematoma_subungueal.jpg").convert("RGB"), "hematoma_subungueal.jpg", 330, 88)
+if hacer("queilitis.jpg"):
+    # Matthew Ferguson 57 · Commons · CC BY-SA 3.0: queilitis angular (solo la boca)
+    guardar(Image.open("orig/queilitis.jpg").convert("RGB").crop((120, 120, 860, 470)), "queilitis.jpg", 360, 88)
+if hacer("torax_inestable.jpg"):
+    # Baedr-9439 · Commons · CC0 (Unstable-chest-wall.png): segmento costal suelto
+    im = Image.open("orig/torax_inestable.png").convert("RGBA"); fondo = Image.new("RGBA", im.size, "white")
+    guardar(Image.alpha_composite(fondo, im).convert("RGB"), "torax_inestable.jpg", 330, 90)
+if hacer("erisipela.jpg"):
+    # Grook Da Oger · Commons · CC BY-SA 3.0: erisipela de la pierna
+    guardar(Image.open("orig/erisipela.jpg").convert("RGB"), "erisipela.jpg", 360, 88)
+if hacer("metformina.jpg"):
+    # User:Ash · Commons · dominio público: tabletas de metformina (recorte sin la caja)
+    guardar(Image.open("orig/metformina.jpg").convert("RGB").crop((0, 230, 500, 442)), "metformina.jpg", 330, 88)

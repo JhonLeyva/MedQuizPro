@@ -83,7 +83,7 @@ S("cascada", "NEF-083", "Mujer delgada con debilidad, calambres, hipotensión, R
          veredicto=("Hipopotasemia por mal uso de laxantes", "Reponer potasio y magnesio; buscar trastorno alimentario.")),
   banda=B("El ECG de la hipopotasemia", P("ecg_hipok.jpg", 380, 228, [("flecha", 0.39, 0.25, 0.6, 0.06, "onda U")], credito=ECG_PROPIO, fondo="#ffffff"),
           [("T aplanada", "La onda T pierde altura."), ("Onda U", "Joroba después de la T."), ("Si empeora", "QT largo y arritmias.")],
-          pie="Trazado de enseñanza."))
+          pie="Hipopotasemia en el ECG"))
 
 # GIN-214 · Vacunas en la gestante · SEMÁFORO
 S("semaforo", "GIN-214", "En la gestante no se indica la vacuna contra el sarampión porque es de virus vivos atenuados",
@@ -130,7 +130,7 @@ S("reloj", "OFT-049", "Niño con quemadura ocular por lejía (álcali) y querati
               conducta="Lavar primero; el grado se define al examinar."),
   banda=B("Cómo se lava", D(lambda s, x, y: I.ojo_lavado(s, x - 10, y + 40, sc=0.95), 270, 260),
           [("Suero a chorro", "Del lado de la nariz hacia afuera."), ("Párpados abiertos", "Con anestésico tópico si hace falta."), ("Hasta pH 7", "Medir con tira.")],
-          pie="Esquema."))
+          pie="Lavado ocular con suero"))
 
 # GAS-067 · Hepatitis C: la histología define la gravedad · TARJETAS
 S("tarjetas", "GAS-067", "Enfermera con hepatitis C (anti-VHC y ARN positivos): la gravedad de la enfermedad hepática se identifica con el estudio histológico (inflamación y fibrosis)",
@@ -250,8 +250,8 @@ S("arbol", "CIR-112", "Accidente con fracturas costales derechas, MV abolido y R
   banda=B("Hemotórax antes y después del tubo", DOS(P("hemotorax_a.jpg", 220, 219, [], credito="Abdalrahman et al. · PMC13536977 · CC BY 4.0"),
                                                     P("hemotorax_b.jpg", 220, 220, [], credito="Abdalrahman et al. · PMC13536977 · CC BY 4.0")),
           [("Izquierda: nivel de líquido", "Sangre y aire en el lado derecho."), ("Derecha: con el tubo", "El pulmón vuelve a expandirse."),
-           ("Otra paciente", "Mismo tratamiento.")],
-          pie="Hemoneumotórax traumático (PubMed Central)."))
+           ("Tubo de 28-32 Fr", "5.º espacio, línea axilar media.")],
+          pie="Hemoneumotórax traumático"))
 
 # GIN-216 · VIH en el parto: suprimir la lactancia · CHECKLIST
 S("checklist", "GIN-216", "Puérpera por cesárea con VIH diagnosticado en esta gestación (escenario 3): suprimir la lactancia con cabergolina y vendaje de mamas inmediatamente",
@@ -379,7 +379,7 @@ S("lectura", "TRA-046", "Joven con caída sobre la mano, dolor, impotencia funci
    "Cabestrillo corto y rehabilitación; en jóvenes recidiva mucho."],
   "AAOS; Rockwood y Green, Fracturas en el adulto 9.ª ed.",
   op=("¿Tratamiento?", ["No: no hay fractura", "Sí: reducción cerrada", "No: es para la clavícula", "No: no hay fractura", "No: no hay fractura"]),
-  d=dict(rotulo="Lee la radiografía", img_titulo="Luxación anterior (otra persona)",
+  d=dict(rotulo="Lee la radiografía", img_titulo="Luxación anterior de hombro",
          img=P("luxacion_hombro.jpg", 230, 294, credito="Mikael Häggström" + CC + "CC0"), pines=[(0.6, 0.48)],
          pasos=[("Cabeza humeral fuera de la glenoide", "Abajo del coracoides.", True),
                 ("Sin fractura asociada", "Si la hay, puede cambiar el manejo.", False),
@@ -452,7 +452,7 @@ S("puntaje", "NRL-053", "Caída de un 4.º piso: abre los ojos al dolor (2), son
           [("Decorticación = 3", "Brazos doblados sobre el pecho: este caso."),
            ("Descerebración = 2", "Brazos extendidos y rotados."),
            ("Retirada = 4", "Aparta el miembro del dolor (no es postura).")],
-          pie="Esquema."))
+          pie="Decorticación y descerebración"))
 
 # SP-159 · Mala praxis: impericia · RADIAL
 S("radial", "SP-159", "Médico no especialista que en una cesárea electiva perfora la vejiga: mala praxis por impericia",

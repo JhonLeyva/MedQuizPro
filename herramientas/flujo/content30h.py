@@ -36,7 +36,7 @@ S("cascada", "NEF-069", "Criptorquidia bilateral no corregida: el calor del abdo
           [("Escroto", "2-3 °C más frío que el abdomen: necesario para fabricar espermatozoides."),
            ("Testículo alto", "En el abdomen o el canal inguinal: se daña con los años."),
            ("Orquidopexia", "Lo baja y lo fija en el escroto (6-18 meses).")],
-          pie="Esquema."))
+          pie="Criptorquidia"))
 
 # GIN-161 · Preeclampsia · REGLA (PA y proteinuria) + clasificación ACOG
 S("regla", "GIN-161", "Primigesta de 37 semanas con PA 140/90, cefalea, alteraciones visuales y proteinuria de 500 mg/24 h: preeclampsia",
@@ -108,7 +108,7 @@ S("arbol", "PED-157", "Recién nacido de madre diabética sin meconio, con diste
           [("Baja (perineal)", "El meconio sale por un orificio en la piel del periné: anoplastia."),
            ("Alta (rectouretral)", "Meconio en la orina, periné plano: colostomía y luego Peña."),
            ("Este caso", "Fístula uretral + periné hipotrófico: malformación alta.")],
-          pie="Esquema (corte de lado; adelante a la izquierda)."),
+          pie="Malformación anorrectal (corte lateral)"),
   triada=TR([("Vértebras", "Buscar (Rx de columna)", False), ("Ano imperforado", "Sí", True), ("Cardiopatía", "Ecocardiograma", False),
              ("Fístula TE", "Pasar sonda", False), ("Renal", "Ecografía (fístula urinaria)", False), ("Extremidades (radio)", "Examinar", False)],
             [("Asociación VACTERL", 0, 5)], "Hijo de madre diabética: más riesgo de malformaciones; buscar las demás."))
@@ -135,7 +135,7 @@ S("termometro", "CIR-093", "Diabética de 67 años con claudicación desde hace 
           [("Negra, seca y bien delimitada", "Necrosis por falta de sangre (isquemia)."),
            ("Si estuviera húmeda y con pus", "Gangrena infectada: urgencia, antibiótico y desbridar."),
            ("Diabéticos", "Avanzan rápido y a veces sin claudicación previa (neuropatía).")],
-          pie="Foto de otra persona."))
+          pie="Gangrena seca"))
 
 # OFT-036 · Conjuntivitis de inclusión por Chlamydia · TARJETAS + foto
 S("tarjetas", "OFT-036", "Mujer joven con ojo rojo, secreción y conjuntiva con folículos y papilas: conjuntivitis de inclusión por Chlamydia, el antibiótico es la doxiciclina oral",
@@ -157,7 +157,7 @@ S("tarjetas", "OFT-036", "Mujer joven con ojo rojo, secreción y conjuntiva con 
           [("Ojo rojo + secreción", "Conjuntivitis: pupila y visión normales."),
            ("Folículos en el párpado inferior", "Clamidia o virus; con semanas de evolución, clamidia."),
            ("No mejora con colirios", "Pista de Chlamydia: necesita tratamiento oral.")],
-          pie="Foto de otra persona (solo el ojo)."))
+          pie="Conjuntivitis con secreción"))
 
 # CIR-094 · Torsión testicular · RELOJ (horas) + esquema + eco
 S("reloj", "CIR-094", "Adolescente con dolor escrotal súbito de 2 horas, testículo derecho doloroso y transiluminación negativa: torsión testicular, detorsión y orquidopexia bilateral",
@@ -181,7 +181,7 @@ S("reloj", "CIR-094", "Adolescente con dolor escrotal súbito de 2 horas, testí
           [("Testículo alto y horizontal", "Signo de Gouverneur: el cordón acortado lo sube."),
            ("Eco Doppler", "Sin flujo en el testículo torcido; espiral del cordón («signo del remolino»)."),
            ("Derecha del paciente", "Queda a la izquierda del dibujo.")],
-          pie="Esquema y ecografía de otra persona."),
+          pie="Torsión testicular"),
   triada=TR([("Dolor súbito e intenso", "Sí, hace 2 h", True), ("Reflejo cremastérico ausente", "No descrito", False),
              ("Signo de Prehn negativo", "Elevar no alivia (no descrito)", False), ("Testículo alto y horizontal (Gouverneur)", "No descrito", False)],
             [("Signos de torsión", 0, 3)], "Transiluminación negativa: no es hidrocele."))
@@ -211,7 +211,7 @@ S("arbol", "CIR-095", "Herida por bala en el mesogastrio con taquicardia, diafor
           [("Neumoperitoneo", "Aire bajo el diafragma: perforación de intestino."),
            ("En la bala no hace falta", "No se pide la Rx para decidir: la peritonitis basta."),
            ("Lo que suele romper", "Intestino delgado, colon, hígado y vasos.")],
-          pie="Rx de otra persona (otra causa de perforación)."))
+          pie="Neumoperitoneo"))
 
 # GAS-058 · Cáncer colorrectal: metástasis hepáticas · RADIAL + foto
 S("radial", "GAS-058", "El cáncer colorrectal da metástasis sobre todo en el hígado, porque su sangre venosa drena por la vena porta",
@@ -232,7 +232,7 @@ S("radial", "GAS-058", "El cáncer colorrectal da metástasis sobre todo en el h
           [("Varias masas oscuras en el hígado", "Metástasis: captan menos contraste que el hígado sano."),
            ("Si son pocas y resecables", "Se operan: el colorrectal es de los pocos que se curan así."),
            ("Marcador", "CEA alto: seguimiento.")],
-          pie="TC de otra persona."))
+          pie="Metástasis hepáticas"))
 
 # OFT-037 · Trauma ocular con hifema · ALARMA + foto
 S("alarma", "OFT-037", "Golpe con un palo en el ojo con pupila deformada, hemorragia subconjuntival e hifema: proteger el ojo con escudo rígido y derivar al oftalmólogo",
@@ -307,7 +307,7 @@ S("ecg_mapa", "CAR-058", "ST elevado de V2 a V6 con PA 70/40, taquicardia, desat
                [("ST elevado en V2-V6", "Este trazado también lo tiene en DI y aVL (cara lateral alta)."),
                 ("Espejo en DIII", "ST descendido en la cara opuesta: confirma el infarto."),
                 ("Con PA 70/40", "Killip IV: angioplastia urgente.")],
-               pie="Trazado de enseñanza.", rotulo="Así se ve en el ECG"),
+               pie="Infarto anterolateral", rotulo="Así se ve en el ECG"),
          veredicto=("Infarto anterior extenso + PA 70/40 + crepitantes = choque cardiogénico", "Angioplastia urgente y noradrenalina.")),
   escala=dict(nombre="Clasificación de Killip-Kimball", que="Gravedad clínica de la insuficiencia cardíaca en el infarto.",
               grados=[("I", "Sin insuficiencia", ["Pulmones limpios"]), ("II", "Insuficiencia leve", ["Crepitantes en bases", "S3"]),
@@ -334,7 +334,7 @@ S("lectura", "INF-083", "Diabética mal controlada con dolor facial, escara necr
                 ("Ramas en ángulo recto (90°)", "Irregulares.", False),
                 ("Tejido necrótico alrededor", "Invaden los vasos: trombosis e infarto.", False),
                 ("Tratar ya", "Anfotericina B + cirugía + controlar la diabetes.", False)],
-         img_pie="Biopsia de otro paciente.",
+         img_pie="Hifas de mucormicosis",
          veredicto=("Diabética descompensada + escara negra + hueso destruido = mucormicosis", "Anfotericina B liposomal y desbridamiento el mismo día.")),
   triada=TR([("Diabetes descompensada (cetoacidosis)", "Mal controlada", True), ("Escara necrótica negra", "Sí", True),
              ("Destrucción ósea del seno", "Seno maxilar derecho", True)],
@@ -365,7 +365,7 @@ S("matriz", "CAR-059", "Mujer de 65 años con disnea a pequeños esfuerzos, orto
           [("Opacidad alrededor de los hilios", "Líquido en el pulmón: «húmedo»."),
            ("Edema 4+ y ortopnea", "Congestión sistémica y pulmonar."),
            ("PA 130/75", "Perfunde bien: «caliente».")],
-          pie="Rx de otra persona."))
+          pie="Congestión pulmonar"))
 
 # PED-158 · Desarrollo psicomotor normal a los 6 meses · CRONOLOGÍA de hitos
 S("cronologia", "PED-158", "Lactante de 6 meses que balbucea, sonríe, se sienta sin apoyo y pasa un cubo de mano a mano, pero aún no gatea: desarrollo normal",
@@ -448,9 +448,9 @@ S("cuadricula", "PED-160", "Neonato con tejido carnoso que crece en el ombligo t
   d=dict(rotulo="Ombligo que no seca: ¿qué es?", alto_img=150,
          celdas=[("Granuloma umbilical", ["Botón rojo húmedo, sin dolor", "Nitrato de plata 10 %"], P("granuloma_umb.jpg", 290, 290), True),
                  ("Onfalitis", ["Piel roja e indurada alrededor, fiebre", "Antibiótico EV"], P("onfalitis.jpg", 300, 250), False),
-                 ("Uraco permeable", ["Sale orina por el ombligo", "Ecografía y cirugía"], None, False),
-                 ("Conducto onfalomesentérico", ["Sale contenido intestinal", "Cirugía"], None, False)],
-         credito="T. S. Cullen (dominio público) y Hariadhi (CC BY-SA 4.0), Wikimedia Commons",
+                 ("Uraco permeable", ["Sale orina por el ombligo", "Ecografía y cirugía"], PA("dib_uraco.jpg", 300, [], fondo="#ffffff"), False),
+                 ("Conducto onfalomesentérico", ["Sale contenido intestinal", "Cirugía"], PA("dib_onfalomesenterico.jpg", 300, [], fondo="#ffffff"), False)],
+         credito="T. S. Cullen (dominio público) y Hariadhi (CC BY-SA 4.0), Wikimedia Commons" + " · Abajo: esquemas propios",
          veredicto=("Tejido carnoso que persiste, sin fiebre ni celulitis = granuloma", "Nitrato de plata al 10 %.")))
 
 # TRA-035 · Politraumatizado en coma con SatO2 84 % · MONITOR

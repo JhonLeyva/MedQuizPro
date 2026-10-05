@@ -186,7 +186,7 @@ S("laboratorio", "GAS-065", "Cirrótico con ascitis, fiebre, dolor abdominal dif
   banda=B("Así se ve la ascitis", P("ascitis.jpg", 220, 251, [], credito="James Heilman" + CC + "CC BY-SA 3.0"),
           [("Abdomen distendido", "Líquido libre por la cirrosis."), ("Paracentesis diagnóstica", "A todo cirrótico con ascitis que se hospitaliza o empeora."),
            ("Fiebre + dolor + somnolencia", "Pensar en PBE.")],
-          pie="Foto de otra persona."))
+          pie="Ascitis"))
 
 # SP-145 · Diseño cuasiexperimental · DECISIÓN
 S("decision", "SP-145", "Comparar un colegio que recibe más micronutrientes con otro colegio de control, sin asignación al azar, es un diseño cuasiexperimental",
@@ -218,11 +218,11 @@ S("cuadricula", "INF-095", "Obeso con fiebre y placa eritematosa caliente de bor
   IDSA + ", infecciones de piel y partes blandas (2014; act.).",
   op=("¿Agente?", ["Sí: con el estreptococo, los más frecuentes", "No: heridas por agua, quemados", "No: raro en piel sana", "No: raro en piel sana", "No: anaerobio de abdomen"]),
   d=dict(rotulo="Pierna roja: ¿qué es?", alto_img=120,
-         celdas=[("Celulitis", ["Bordes difusos, fiebre", "Estreptococo / S. aureus"], None, True),
-                 ("Erisipela", ["Bordes netos y elevados", "Estreptococo"], None, False),
+         celdas=[("Celulitis", ["Bordes difusos, fiebre", "Estreptococo / S. aureus"], P("celulitis.jpg", 380, 309), True),
+                 ("Erisipela", ["Bordes netos y elevados", "Estreptococo"], P("erisipela.jpg", 360, 254), False),
                  ("Trombosis venosa profunda", ["Edema de toda la pantorrilla, sin fiebre alta", "Eco Doppler"], P("tvp.jpg", 200, 319), False),
-                 ("Fascitis necrosante", ["Dolor desproporcionado, crepitación", "Cirugía urgente"], None, False)],
-         credito="TVP: James Heilman · Wikimedia Commons · CC BY-SA 3.0",
+                 ("Fascitis necrosante", ["Dolor desproporcionado, crepitación", "Cirugía urgente"], P("fascitis.jpg", 360, 370), False)],
+         credito="J. Heilman y Grook Da Oger (CC BY-SA 3.0, Commons) · PMC13564028 y PMC13589848 (CC BY 4.0)",
          veredicto=("Placa roja caliente con fiebre y Homans (−) = celulitis", "Cefalexina o dicloxacilina; elevar la pierna.")))
 
 # PED-191 · Deshidratación hipernatrémica · DOSIS (déficit de agua)
@@ -287,7 +287,7 @@ S("alarma", "CIR-105", "Paciente quemado con quemaduras de tercer grado en más 
   banda=B("Cómo se calcula la superficie", PA("dib_regla9_adulto.jpg", 360, [], credito=PROPIO, fondo="#ffffff"),
           [("Regla de los 9", "Cabeza 9 %, cada brazo 9 %, cada pierna 18 %, tronco 36 %, periné 1 %."),
            ("La palma del paciente", "≈ 1 % para quemaduras dispersas."), ("Solo 2.º y 3.er grado", "El 1.er grado no se suma.")],
-          pie="Esquema."))
+          pie="Regla de los 9 del adulto"))
 
 # NEF-078 · HBP: alfabloqueadores · MATRIZ
 S("matriz", "NEF-078", "El pilar del tratamiento no quirúrgico de la hiperplasia benigna de próstata son los bloqueadores alfa-1 (tamsulosina), que alivian rápido los síntomas",
@@ -382,7 +382,7 @@ S("termometro", "REU-057", "Adolescente con acné vulgar en cara y tronco: el tr
   banda=B("Comedones (inicio del acné)", P("acne.jpg", 280, 216, [], credito="Thomas Brinkmeier" + CC + "CC BY 4.0"),
           [("Comedones cerrados", "Puntos blancos: poro tapado."), ("El retinoide los destapa", "Por eso es la base."),
            ("Tarda 8-12 semanas", "Explicar para que no abandone.")],
-          pie="Piel de otra persona."))
+          pie="Comedones"))
 
 # OFT-045 · Queratitis micótica · TARJETAS + foto
 S("tarjetas", "OFT-045", "Úlcera corneal grisácea con lesiones satélites una semana después de un trauma con una rama: queratitis micótica (Aspergillus o Fusarium)",

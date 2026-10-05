@@ -21,7 +21,7 @@ const ids = JSON.parse(require('fs').readFileSync(process.argv[2], 'utf8')).map(
     return out;
   }, ids);
   console.log(JSON.stringify(r));
-  for (const [esp, target] of [['Pediatr', 'PED-203'], ['Gineco', 'GIN-215']]) {
+  for (const [esp, target] of [['Pediatr', 'PED-160'], ['Gineco', 'GIN-155']]) {
     await p.goto('http://localhost:8767/index.html');
     await p.locator('#specs button[aria-label*="' + esp + '"]').first().click();
     await p.waitForTimeout(600);

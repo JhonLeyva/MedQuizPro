@@ -26,7 +26,7 @@ S("lectura", "INF-082", "Escolar del sur del Perú con edema bipalpebral unilate
                 ("La chirimacha (vinchuca)", "Pica de noche; sus heces tienen el parásito.", False),
                 ("Adenopatía preauricular", "Completa el complejo oftalmoganglionar.", False),
                 ("Confirmar", "Parásito en sangre (fase aguda) y tratar con benznidazol.", False)],
-         img_pie="Foto de otro paciente y del insecto.",
+         img_pie="Signo de Romaña y triatoma",
          veredicto=("Romaña en zona endémica = Chagas agudo", "Gota gruesa o Strout y benznidazol; rociar la vivienda.")))
 
 # SP-115 · Carga de enfermedad: AVAD · CÁLCULO (AVAD = AVP + AVD)
@@ -106,7 +106,7 @@ S("decision", "SP-116", "Joven que estuvo hace 15 días en un país con sarampi�
           [("Manchas de Koplik", "Puntos blancos en la mucosa de la mejilla."),
            ("Exantema maculopapular", "Empieza en la cara y baja."),
            ("Fiebre, tos, coriza y conjuntivitis", "Pródromo de 3-4 días.")],
-          pie="Fotos de otros pacientes."))
+          pie="Exantema del sarampión"))
 
 # PED-152 · Hipoglucemia neonatal sintomática · REGLA + checklist
 S("regla", "PED-152", "Prematuro de 34 semanas con 48 horas, hipoactivo, con temblores y glucosa de 40 mg/dL: hipoglucemia sintomática, bolo de glucosa EV 200 mg/kg",
@@ -252,7 +252,7 @@ S("checklist", "REU-045", "Lactante de 18 meses con prurito, surcos y pápulas e
           [("Surcos y pápulas", "Entre los dedos y en muñecas."),
            ("Prurito nocturno", "Toda la familia se rasca."),
            ("En el lactante", "También palmas, plantas y cara.")],
-          pie="Foto de otro paciente."))
+          pie="Escabiosis"))
 
 # NEU-044 · Asma: factor biológico de mortalidad · RADIAL
 S("radial", "NEU-044", "Entre los factores de riesgo de muerte por asma, el biológico es la resistencia a los corticoides (no mejora con ellos)",
@@ -292,7 +292,7 @@ S("tarjetas", "REU-046", "Lactante con fiebre de 39 °C, irritable, eritema difu
           [("Piel que se despega", "Como una quemadura superficial."),
            ("Nikolsky (+)", "Al frotar, la piel sana se desprende."),
            ("Sin cicatriz", "La rotura es superficial (capa granulosa).")],
-          pie="Foto de la mano de otro lactante."))
+          pie="Piel escaldada estafilocócica"))
 
 # REU-047 · Onicomicosis · CUADRÍCULA + foto
 S("cuadricula", "REU-047", "Adolescente deportista con uñas de ambos primeros dedos de los pies blanquecinas, engrosadas y despegadas del lecho: onicomicosis",
@@ -310,8 +310,8 @@ S("cuadricula", "REU-047", "Adolescente deportista con uñas de ambos primeros d
          celdas=[("Onicomicosis", ["Gruesa, amarillo-blanquecina, se despega", "KOH y cultivo"], P("onicomicosis.jpg", 400, 317), True),
                  ("Psoriasis ungueal", ["Hoyuelos (pitting), mancha de aceite", "Placas en piel y codos"], PA("una_psor.jpg", 400), False),
                  ("Paroniquia", ["Pliegue rojo, doloroso, con pus", "Aguda, bacteriana"], PA("paroniquia.jpg", 300), False),
-                 ("Traumatismo", ["Hematoma o uña que cae", "Antecedente claro"], None, False)],
-         credito="J. Heilman, MD (CC BY-SA 3.0), Seenms (CC BY-SA 3.0), D. M. Al Aboud (CC BY 4.0) · Wikimedia Commons",
+                 ("Traumatismo", ["Hematoma o uña que cae", "Antecedente claro"], P("hematoma_subungueal.jpg", 330, 272), False)],
+         credito="J. Heilman, MD (CC BY-SA 3.0), Seenms (CC BY-SA 3.0), D. M. Al Aboud (CC BY 4.0) · Wikimedia Commons" + " · Hematoma: Callaleo (CC BY-SA 4.0)",
          veredicto=("Uña gruesa, blanquecina y despegada en un deportista = onicomicosis", "Confirmar con KOH y terbinafina oral.")))
 
 # OFT-034 · Retinoblastoma · LECTURA (leucocoria)
@@ -332,7 +332,7 @@ S("lectura", "OFT-034", "Niño de 2 años con desviación del ojo derecho hacia 
                 ("El otro ojo: reflejo rojo", "Normal: la luz rebota en la retina.", False),
                 ("Estrabismo", "El ojo que no ve se desvía (aquí hacia adentro).", False),
                 ("Referir urgente", "Oftalmología pediátrica; RM, no TC.", False)],
-         img_pie="Foto de otro niño (solo los ojos).",
+         img_pie="Leucocoria",
          veredicto=("Leucocoria + estrabismo en un niño de 2 años = retinoblastoma", "Referencia urgente.")))
 
 # SP-120 · Brote de dengue · TRANSMISIÓN + Aedes
@@ -353,7 +353,7 @@ S("transmision", "SP-120", "Para que se produzca un brote de dengue se necesitan
                     ("Susceptible", "Personas sin inmunidad al serotipo", "Vacuna, protección", True)],
          img=B("El vector", P("aedes.jpg", 340, 258, [], credito="John Ragai" + CC + "CC BY 2.0"),
                [("Patas con rayas blancas", "Aedes aegypti."), ("Pica de día", "Sobre todo al amanecer y al atardecer."),
-                ("Cría en agua limpia", "Baldes, llantas, floreros.")], pie="Foto de un mosquito."),
+                ("Cría en agua limpia", "Baldes, llantas, floreros.")], pie="Aedes aegypti"),
          veredicto=("Susceptibles + enfermo + mosquito = brote", "Cortar cualquiera de los tres detiene la transmisión.")))
 
 # PED-154 · RN de muy bajo peso: insuficiencia respiratoria · RELOJ de complicaciones
@@ -415,7 +415,7 @@ S("arbol", "TRA-034", "Anciana diabética que se cae con dolor intenso, no puede
           [("Más corta", "Los músculos tiran del fragmento hacia arriba."),
            ("Pie girado hacia afuera", "Rotación externa."),
            ("No levanta la pierna", "Ni con ayuda.")],
-          pie="Esquema."))
+          pie="Pierna acortada y en rotación externa"))
 
 # CIR-090 · Neumotórax a tensión · CUADRÍCULA de choque obstructivo + Rx
 S("lectura", "CIR-090", "Politraumatizado con hipotensión, taquipnea, ingurgitación yugular, murmullo abolido y timpanismo en el hemitórax derecho: neumotórax a tensión",
@@ -435,7 +435,7 @@ S("lectura", "CIR-090", "Politraumatizado con hipotensión, taquipnea, ingurgita
                 ("Timpanismo y murmullo abolido", "Aire a tensión en ese lado.", False),
                 ("Descomprimir YA", "Aguja 4.º-5.º EIC, línea axilar media; luego tubo.", True),
                 ("La Rx viene después", "Zona negra sin trama y mediastino desviado.", False)],
-         img_pie="Rx de otro paciente.",
+         img_pie="Neumotórax",
          veredicto=("Neumotórax a tensión derecho: descompresión inmediata", "El diagnóstico es clínico.")))
 
 # CIR-091 · Choque hemorrágico: sangre O negativo · TERMÓMETRO (ATLS)
@@ -476,7 +476,7 @@ S("reloj", "CAR-057", "Durante la RCP el monitor muestra fibrilación ventricula
           [("Ondas caóticas", "Sin QRS ni ondas P."),
            ("Sin pulso", "No hay gasto cardíaco."),
            ("Desfibrilable", "Igual que la TV sin pulso.")],
-          pie="Trazado de enseñanza."))
+          pie="Fibrilación ventricular"))
 
 # GIN-155 · Incompetencia cervical · COMPARADOR (eco cervical normal vs corto)
 S("cuadricula", "GIN-155", "Gestante de 18 semanas con pesadez pélvica, sin contracciones, con antecedentes de partos inmaduros tras RPM y cuello dilatado 5 cm: incompetencia cervical",
@@ -492,7 +492,7 @@ S("cuadricula", "GIN-155", "Gestante de 18 semanas con pesadez pélvica, sin con
   d=dict(rotulo="Así se mide el cuello en la eco transvaginal", alto_img=150,
          celdas=[("Cuello normal", ["Largo ≥ 25 mm, cerrado", "Forma de «T»"], P("cervix_normal_eco.jpg", 400, 279), False),
                  ("Cuello corto con embudo", ["< 25 mm, se abre por dentro", "Forma de «Y» (este caso, avanzado)"], P("cervix_corto_eco.jpg", 400, 283), True),
-                 ("Antecedente típico", ["Pérdidas del segundo trimestre", "Sin dolor ni contracciones"], None, True),
-                 ("Tratamiento", ["Cerclaje (antecedente o cuello corto)", "Progesterona vaginal"], None, False)],
-         credito=PMC_CERVIX + " · rótulos del autor borrados",
+                 ("Antecedente típico", ["Pérdidas del segundo trimestre", "Sin dolor ni contracciones"], P("cuello_dilatado_eco.jpg", 360, 240), True),
+                 ("Tratamiento", ["Cerclaje (antecedente o cuello corto)", "Progesterona vaginal"], P("cerclaje_eco.jpg", 360, 247), False)],
+         credito=PMC_CERVIX + " · rótulos del autor borrados" + " · Abajo: Shir et al. · Case Rep Obstet Gynecol 2026 · PMC13494658 · CC BY 4.0",
          veredicto=("Dilatación indolora en el 2.º trimestre + antecedente = incompetencia cervical", "Cerclaje en el próximo embarazo (o de rescate si no hay infección).")))

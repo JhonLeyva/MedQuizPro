@@ -116,7 +116,7 @@ S("arbol", "CAR-066", "Paciente en paro con actividad eléctrica en el monitor p
   banda=B("Lo que muestra el monitor", DOS(P("ecg_normal_ii.jpg", 220, 44, [], credito="Trazado de enseñanza MedQuizPro", fondo="#ffffff"),
                                            P("ecg_asistolia.jpg", 220, 44, [], credito="Trazado de enseñanza MedQuizPro", fondo="#ffffff")),
           [("Izquierda: ritmo organizado", "Si no hay pulso, es AESP."), ("Derecha: asistolia", "Línea plana."), ("Ninguno se descarga", "RCP y adrenalina.")],
-          pie="Trazados de enseñanza."))
+          pie="Ritmo organizado y asistolia"))
 
 # SP-155 · Radar de gestantes · SEMÁFORO
 S("semaforo", "SP-155", "El instrumento del primer nivel para vigilar y hacer seguimiento a las gestantes es el radar de gestantes",
@@ -310,7 +310,7 @@ S("lectura", "PED-201", "Niño de 7 años con dolor periumbilical que migra a fo
                 ("Grasa alrededor brillante", "Inflamación.", False),
                 ("Líquido o apendicolito", "Complicación.", False),
                 ("Tratar", "Apendicectomía + antibiótico.", False)],
-         img_pie="Ecografía de otra persona.",
+         img_pie="Apendicitis aguda",
          veredicto=("Migración a FID + rebote + leucocitosis = apendicitis", "Ecografía y cirugía.")),
   triada=TR([("Dolor que migra a FID", "Sí", True), ("Fiebre y vómitos", "Sí", True), ("Rebote (Blumberg)", "Sí", True)],
             [("Pistas de apendicitis", 0, 2)], "Leucocitos 12 000 con neutrofilia apoyan."))
@@ -385,10 +385,10 @@ S("cuadricula", "NEF-082", "Joven con cólico renal y hematuria que luego tiene 
   op=("¿Tipo?", ["No: sin hipovolemia", "No: no hay daño del parénquima", "Igual a renal", "Sí: obstrucción (globo vesical)", "No"]),
   d=dict(rotulo="Tres tipos de lesión renal aguda", alto_img=120,
          celdas=[("Posrenal (obstrucción)", ["Globo vesical, hidronefrosis", "Sonda vesical"], P("hidronefrosis.jpg", 330, 199), True),
-                 ("Prerrenal", ["Deshidratación, hipotensión", "Líquidos"], None, False),
-                 ("Renal (intrínseca)", ["Necrosis tubular, glomerulonefritis", "Cilindros"], None, False),
-                 ("Pista de este caso", ["Masa en hipogastrio = vejiga llena", "Tras un cólico con hematuria"], None, False)],
-         credito="Hidronefrosis: James Heilman · Wikimedia Commons · CC BY-SA 3.0",
+                 ("Prerrenal", ["Deshidratación, hipotensión", "Líquidos"], PA("dib_prerrenal.jpg", 330, [], fondo="#ffffff"), False),
+                 ("Renal (intrínseca)", ["Necrosis tubular, glomerulonefritis", "Cilindros"], P("cilindro_granuloso.jpg", 330, 194, [], fondo="#ffffff"), False),
+                 ("Pista de este caso", ["Masa en hipogastrio = vejiga llena", "Tras un cólico con hematuria"], PA("dib_globo_vesical.jpg", 300, [], fondo="#ffffff"), False)],
+         credito="Hidronefrosis: James Heilman · Wikimedia Commons · CC BY-SA 3.0" + " · Cilindro: Mohsenin V. (CC BY 4.0) · Esquemas propios",
          veredicto=("Globo vesical + oliguria = LRA posrenal", "Sonda vesical primero.")))
 
 # REU-061 · Dermatomiositis: biopsia muscular · CRITERIOS + foto

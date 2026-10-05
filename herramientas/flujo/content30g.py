@@ -78,7 +78,7 @@ S("arbol", "GIN-158", "Gestante actual con antecedentes de un aborto, un ectópi
       L("Término · pretérmino · vivos", "a = 1 · b = 0 · d = 1", ["P1021"], path=True)], path=True),
   banda=B("Cómo se lee la fórmula", P("dib_formula_obstetrica.jpg", 380, 220, [], credito=PROPIO, fondo="#ffffff"),
           [("G", "Todas las gestaciones."), ("a b c d", "Término, pretérmino, abortos, vivos."), ("Ectópico y mola", "Se cuentan como abortos (c).")],
-          pie="Esquema."))
+          pie="Fórmula obstétrica"))
 
 # REU-048 · Artritis gonocócica · LECTURA (Gram) + LCR-like laboratorio
 S("lectura", "REU-048", "Mujer joven con fiebre, artralgias de muñecas y monoartritis de rodilla con leucorrea: artritis gonocócica, el Gram del líquido muestra diplococos gramnegativos",
@@ -98,7 +98,7 @@ S("lectura", "REU-048", "Mujer joven con fiebre, artralgias de muñecas y monoar
                 ("Color rojo (gramnegativos)", "No retienen el cristal violeta.", False),
                 ("Dentro de los neutrófilos", "Intracelulares: típico del gonococo.", False),
                 ("Tratar", "Ceftriaxona y buscar otras ITS.", False)],
-         img_pie="Gram de otra muestra (secreción uretral).",
+         img_pie="Diplococos gramnegativos intracelulares",
          veredicto=("Joven con leucorrea + monoartritis = artritis gonocócica", "Diplococos gramnegativos; ceftriaxona.")))
 
 # REU-049 · Lupus con nefritis y serositis · CRITERIOS EULAR/ACR 2019 + foto
@@ -141,7 +141,7 @@ S("decision", "END-046", "Gestante de 10 semanas con hipertiroidismo por enferme
   banda=B("Signos de Graves en los ojos", P("graves_ojos.jpg", 360, 130, [], credito="Jonathan Trobe" + CC + "CC BY 3.0"),
           [("Exoftalmos", "Solo en Graves (no en otros hipertiroidismos)."), ("Retracción palpebral", "Se ve el blanco sobre el iris."),
            ("Con mixedema pretibial", "Tríada de Graves: bocio, ojos, piel.")],
-          pie="Foto de otra persona (solo los ojos)."),
+          pie="Oftalmopatía de Graves"),
   triada=TR([("Bocio difuso", "Sí", True), ("Oftalmopatía (exoftalmos)", "Sí", True), ("Dermopatía (mixedema pretibial)", "Edema duro pretibial", True)],
             [("Tríada de Graves-Basedow", 0, 2)], "Completa: hipertiroidismo por Graves."))
 
@@ -210,7 +210,7 @@ S("cuadricula", "NRL-044", "Varón con 7 meses de euforia, irritabilidad, desinh
            ("Parietal", "Arriba atrás: sensibilidad y espacio."),
            ("Temporal", "A los lados: memoria y lenguaje."),
            ("Occipital", "Atrás: visión.")],
-          pie="Dibujo de los lóbulos."))
+          pie="Lóbulos cerebrales"))
 
 # NRL-045 · Cefalea tensional · TARJETAS
 S("tarjetas", "NRL-045", "Mujer con cefalea semanal opresiva «en banda» de 2-6 horas que cede con AINE y contractura cervical: cefalea tensional",
@@ -272,7 +272,7 @@ S("lectura", "REU-050", "Varón con eritrodermia, uñas en dedal y placas eritem
                 ("Uña con hoyuelos (en dedal)", "Pitting: muy sugestivo.", True),
                 ("Signo de Auspitz", "Al raspar, puntitos de sangre.", False),
                 ("Eritrodermia", "> 90 % de la piel roja: hospitalizar.", False)],
-         img_pie="Fotos de otros pacientes.",
+         img_pie="Psoriasis en placa y ungueal",
          veredicto=("Placas con escama nacarada + uñas en dedal = psoriasis", "La eritrodermia se maneja hospitalizado; no corticoide sistémico.")))
 
 # PED-156 · Faringoamigdalitis estreptocócica · CRITERIOS (Centor-McIsaac) + foto
@@ -294,7 +294,7 @@ S("criterios", "PED-156", "Escolar con fiebre, odinofagia, amígdalas con pus, p
          umbral="≥ 3: prueba rápida o cultivo; positivo → antibiótico",
          veredicto="3 puntos + petequias en el paladar: prueba rápida y, si es positiva, amoxicilina 10 días.",
          img=P("strep_petequias.jpg", 250, 216, [], credito="CDC · dominio público"), img_titulo="Petequias en el paladar",
-         img_pie="Foto de otro niño.", conteo="3 puntos"))
+         img_pie="Petequias en el paladar", conteo="3 puntos"))
 
 # SP-121 · Variable dependiente · ÁRBOL
 S("arbol", "SP-121", "En un experimento, la variable dependiente es aquella en la que se observan los cambios (el efecto que se mide)",
@@ -356,7 +356,7 @@ S("tarjetas", "REU-051", "Preescolar que tras comer cítricos presenta ronchas d
                 dict(titulo="Dermatitis atópica", datos=[("Lesión", "Eccema, piel seca", False), ("Zona", "Pliegues", False), ("Curso", "Crónico", False)], pie="Antecedentes.")]),
   banda=B("Así se ve la urticaria", P("urticaria.jpg", 210, 280, [], credito="Psixtras" + CC + "CC0"),
           [("Ronchas con borde rojo", "Elevadas, centro más pálido."), ("Cambian de lugar", "Cada una dura horas."), ("Prurito intenso", "Rascarse no deja costra.")],
-          pie="Foto de otra persona."))
+          pie="Urticaria"))
 
 # GIN-159 · Endometritis puerperal · CHECKLIST
 S("checklist", "GIN-159", "Para la endometritis puerperal el tratamiento antibiótico de elección es clindamicina + gentamicina EV",
@@ -393,7 +393,7 @@ S("arbol", "REU-052", "Niño con urticaria previa que presenta vesículas sobre 
       L("Agrupadas sobre base roja", "Herpes simple", ["Dolor, recurrente"])], path=True),
   banda=B("Así se ven las costras", P("impetigo.jpg", 270, 313, [], credito="Evanherk" + CC + "CC BY-SA 3.0"),
           [("Costras color miel", "Melicéricas."), ("Sobre piel rascada", "Infección secundaria."), ("Contagiosas", "Higiene y uñas cortas.")],
-          pie="Foto de otro niño."))
+          pie="Impétigo"))
 
 # GIN-160 · Proteínas en el embarazo · RADIAL
 S("radial", "GIN-160", "El objetivo de aumentar las proteínas en el embarazo es cubrir las necesidades de la madre y del feto",
@@ -429,7 +429,7 @@ S("lectura", "OFT-035", "Joven con 5 días de odinofagia, fiebre, otalgia derech
                 ("Úvula desviada al lado sano", "Signo clave.", False),
                 ("Trismus", "No abre bien la boca (músculo pterigoideo irritado).", False),
                 ("Drenar", "Punción o incisión + antibiótico.", False)],
-         img_pie="Foto de otro paciente.",
+         img_pie="Absceso periamigdalino",
          veredicto=("Trismus + otalgia + amígdala abombada = absceso periamigdalino", "Drenaje y antibiótico.")))
 
 # CIR-092 · Quemaduras: regla de los 9 · CÁLCULO + dibujo
@@ -449,7 +449,7 @@ S("arbol", "CIR-092", "Quemadura con agua hirviendo en ambas caras de los dos mi
       L("Total", "36 %", ["→ Parkland"], path=True)], path=True),
   banda=B("La regla de los 9", PA("dib_regla9_adulto.jpg", 380, [], credito=PROPIO, fondo="#ffffff"),
           [("Brazo", "9 % cada uno (4,5 % por cara)."), ("Tronco anterior", "18 %."), ("Este caso", "18 + 18 = 36 %.")],
-          pie="Esquema."))
+          pie="Regla de los 9 del adulto"))
 
 # GAS-056 · Insuficiencia hepática aguda · LABORATORIO + West Haven
 S("laboratorio", "GAS-056", "Joven con ictericia de una semana, luego vómitos y desorientación, flapping, equimosis y glucosa de 55: insuficiencia hepática aguda",
@@ -475,7 +475,7 @@ S("laboratorio", "GAS-056", "Joven con ictericia de una semana, luego vómitos y
               caso=[1, 2], porque=[("Desorientada y soporosa con flapping", True)], conducta="Proteger la vía aérea si avanza a grado 3-4."),
   banda=B("La ictericia", P("ictericia.jpg", 400, 125, [], credito="Dominio público" + CC.rstrip(" · ")),
           [("Escleras amarillas", "Bilirrubina > 2,5-3 mg/dL."), ("Con confusión", "Pensar en falla hepática."), ("Medir INR", "≥ 1,5 define la falla.")],
-          pie="Foto de otra persona (solo los ojos)."))
+          pie="Ictericia"))
 
 # GAS-057 · HDA con choque hipovolémico · MONITOR + choque
 S("monitor", "GAS-057", "Mujer con úlcera péptica mal tratada con melena, hematemesis abundante, PA 80/40 y FC 118: choque hipovolémico por hemorragia digestiva alta",
@@ -516,4 +516,4 @@ S("cascada", "CB-060", "El SARS-CoV-2 infecta directamente a los neumocitos tipo
   banda=B("Así se ve en la TC", PA("covid_tc.jpg", 330, [], credito="Wang et al. · Curr Med Imaging 2026 · PMC13613316 · CC BY 4.0"),
           [("Vidrio esmerilado bilateral", "Alvéolos con líquido, aún con aire."), ("Consolidaciones", "Alvéolos llenos."),
            ("Periférico y basal", "Patrón típico de COVID-19.")],
-          pie="TC de otra paciente."))
+          pie="Neumonía por COVID-19 en la TC"))

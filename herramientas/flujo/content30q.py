@@ -80,7 +80,7 @@ S("lectura", "REU-058", "Paciente con HTLV-1 y dos años de placas hiperquerató
                 ("Costras gruesas y extensas", "Miles de ácaros: forma costrosa.", False),
                 ("Poco prurito", "Por la inmunidad baja (HTLV-1).", False),
                 ("Raspado con aceite", "Ver ácaros, huevos y heces.", False)],
-         img_pie="Piel de otra persona.",
+         img_pie="Surco acarino",
          veredicto=("Costras + surcos + HTLV-1 = sarna noruega", "Ivermectina + permetrina, aislamiento y tratar a los contactos.")))
 
 # NRL-052 · Hematoma epidural con herniación: TC · ALARMA + TC + Glasgow
@@ -239,7 +239,7 @@ S("tarjetas", "PED-193", "Preescolar con 15 días de dolor posprandial, distensi
   banda=B("Así se ve Giardia", P("giardia.jpg", 280, 246, [], credito="Stefan Walkowski" + CC + "CC BY-SA 4.0"),
           [("Trofozoíto en «cara»", "Dos núcleos que parecen ojos."), ("Se adhiere al intestino delgado", "Impide absorber."),
            ("Quistes en las heces", "Contagian por agua y manos.")],
-          pie="Microscopía."))
+          pie="Trofozoítos de Giardia"))
 
 # SP-150 · Funciones esenciales de salud pública: promoción · CUADRÍCULA
 S("cuadricula", "SP-150", "Entre las funciones esenciales de la salud pública renovadas, la más ligada a la atención primaria es la promoción de la salud",
@@ -296,7 +296,7 @@ S("gasometria", "NEF-080", "Falla renal aguda con potasio de 8 y bradiarritmia c
          veredicto=("Primero el potasio: gluconato de calcio, insulina + glucosa y diálisis", "La acidosis se corrige con el bicarbonato y la diálisis.")),
   banda=B("Así se ve la hiperpotasemia", P("hiperk_ecg.jpg", 380, 219, [], credito="M. J. F. Agbayani y E. Gonzales" + CC + "CC BY 4.0"),
           [("T picudas", "Primer signo."), ("QRS ancho, bloqueos, bradicardia", "Grave: calcio EV ya."), ("Onda sinusoidal", "Paro inminente.")],
-          pie="ECG de otro paciente."))
+          pie="Ondas T picudas"))
 
 # GIN-199 · Aborto inminente · CUADRÍCULA + clasificación
 S("cuadricula", "GIN-199", "Gestante de 8 semanas con sangrado, dolor, cuello abierto con membranas protruyendo y embrión vivo: aborto inminente",
@@ -449,7 +449,7 @@ S("arbol", "CIR-106", "Mujer con cesárea previa y 2 días de dolor, distensión
       L("Sí: fiebre, dolor continuo, acidosis", "TC y cirugía urgente", ["Laparotomía"])], path=True),
   banda=B("Así se ve en la Rx de pie", P("bridas_rx.jpg", 330, 238, [], credito="Igboeze" + CC + "CC BY-SA 4.0"),
           [("Asas de delgado dilatadas", "> 3 cm."), ("Niveles hidroaéreos", "Escalonados."), ("Sin gas en el colon", "Obstrucción completa.")],
-          pie="Rx de otra persona."))
+          pie="Niveles hidroaéreos por bridas"))
 
 # NEU-058 · EPOC con neumonía e hipoxemia: oxígeno controlado · GASOMETRÍA
 S("gasometria", "NEU-058", "EPOC con neumonía, SatO₂ 86 % y acidosis respiratoria leve: oxigenoterapia controlada (meta 88-92 %) de inmediato",
