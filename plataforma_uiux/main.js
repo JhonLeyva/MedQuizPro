@@ -21,63 +21,98 @@
     var PRACTICA = [
       "<div class=\"sim-view\" id=\"simView\" hidden>",
       "  <div class=\"sim-view__bar\">",
-      "    <button class=\"btn btn--ghost btn--sm\" type=\"button\" id=\"svBack\">← Volver</button>",
+      "    <button class=\"btn btn--quiet btn--sm sim-view__back\" type=\"button\" id=\"svBack\">← Volver</button>",
       "    <div class=\"sim-view__head\">",
-      "      <span class=\"badge badge--brand\" id=\"svMode\">Modo estudio</span>",
       "      <p class=\"sim-view__title\" id=\"svTitle\"></p>",
+      "      <span class=\"badge badge--brand\" id=\"svMode\">Modo estudio</span>",
       "    </div>",
       "    <span class=\"sim-view__score\" id=\"svScore\" aria-live=\"polite\"></span>",
       "    <span class=\"sim-clock\" id=\"svClock\" role=\"timer\" aria-label=\"Tiempo restante del simulacro\" hidden>",
       "      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"13\" r=\"8\"/><path d=\"M12 9v4l2.5 2M9.5 2.5h5\"/></svg>",
       "      <b id=\"svClockTime\">0:00</b>",
       "    </span>",
-      "    <button class=\"btn btn--primary btn--sm\" type=\"button\" id=\"svFinish\" hidden>Terminar simulacro</button>",
+      "    <button class=\"btn btn--primary btn--sm\" type=\"button\" id=\"svFinish\" hidden>Terminar<span class=\"sim-view__finish-extra\"> simulacro</span></button>",
+      "    <button class=\"sim-view__tutor\" type=\"button\" id=\"svTutor\" hidden title=\"Pregúntale al tutor\">",
+      "      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z\"/></svg>",
+      "      <span class=\"sim-view__tutor-label\">Tutor</span>",
+      "    </button>",
       "  </div>",
       "",
-      "  <div class=\"quiz quiz--wide quiz--pro\" id=\"svQuiz\" aria-live=\"polite\">",
+      "  <div class=\"quiz quiz--wide quiz--pro\" id=\"svQuiz\">",
       "    <!-- barra de ritmo: 60 s por pregunta, como en el ENAM -->",
       "    <div class=\"pace\" id=\"svPace\" aria-hidden=\"true\"><div class=\"pace__fill\" id=\"svPaceFill\"></div></div>",
       "    <div class=\"quiz__head\">",
-      "      <span class=\"tag\" id=\"svArea\">Especialidad</span>",
-      "      <span class=\"tag tag--mark\" id=\"svExam\" hidden></span>",
-      "      <span class=\"tag tag--tema\" id=\"svTema\" hidden></span>",
-      "      <span class=\"pace__time\" id=\"svPaceTime\" title=\"Tiempo en esta pregunta (ideal: 60 s)\">0:00</span>",
-      "      <span class=\"quiz__counter\" id=\"svCounter\"></span>",
-      "      <button class=\"fav-btn\" type=\"button\" id=\"svFav\" aria-pressed=\"false\" title=\"Guardar en favoritas\" hidden>",
-      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z\"/></svg>",
-      "        <span class=\"sr-only\">Guardar en favoritas</span>",
-      "      </button>",
-      "      <button class=\"flag-btn\" type=\"button\" id=\"svFlag\" aria-pressed=\"false\" title=\"Marcar para revisión (F)\">",
-      "        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 21V4\"/><path d=\"M5 4h11l-2 4 2 4H5\"/></svg>",
-      "        <span class=\"flag-btn__label\">Marcar</span>",
-      "      </button>",
+      "      <div class=\"quiz__where\">",
+      "        <span class=\"quiz__counter\" id=\"svCounter\" aria-live=\"polite\"></span>",
+      "        <span class=\"quiz__progress\" aria-hidden=\"true\"><span class=\"quiz__progress-fill\" id=\"svProgress\"></span></span>",
+      "      </div>",
+      "      <div class=\"quiz__tools\">",
+      "        <span class=\"pace__time\" id=\"svPaceTime\" aria-live=\"off\" title=\"Tiempo en esta pregunta (ideal: 60 s)\">0:00</span>",
+      "        <label class=\"switch switch--compact\" title=\"Active Recall: oculta las alternativas hasta que pases el cursor o las toques\">",
+      "          <input type=\"checkbox\" id=\"svRecall\" role=\"switch\">",
+      "          <span class=\"switch__track\" aria-hidden=\"true\"><span class=\"switch__thumb\"></span></span>",
+      "          <span class=\"switch__text\">Active Recall</span>",
+      "        </label>",
+      "        <button class=\"fav-btn\" type=\"button\" id=\"svFav\" aria-pressed=\"false\" title=\"Guardar en favoritas\" hidden>",
+      "          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z\"/></svg>",
+      "          <span class=\"sr-only\">Guardar en favoritas</span>",
+      "        </button>",
+      "        <button class=\"flag-btn\" type=\"button\" id=\"svFlag\" aria-pressed=\"false\" title=\"Marcar para revisión (F)\">",
+      "          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 21V4\"/><path d=\"M5 4h11l-2 4 2 4H5\"/></svg>",
+      "          <span class=\"flag-btn__label\">Marcar</span>",
+      "        </button>",
+      "      </div>",
+      "      <p class=\"quiz__meta\">",
+      "        <span class=\"tag\" id=\"svArea\">Especialidad</span>",
+      "        <span class=\"tag tag--mark\" id=\"svExam\" hidden></span>",
+      "        <span class=\"tag tag--tema\" id=\"svTema\" hidden></span>",
+      "      </p>",
       "    </div>",
       "    <div class=\"quiz__body\">",
       "      <p class=\"sim-view__status\" id=\"svStatus\" hidden></p>",
       "      <div id=\"svContent\" hidden>",
-      "        <p class=\"quiz__stem\" id=\"svStem\"></p>",
-      "        <div class=\"sim-tools\">",
-      "          <label class=\"switch\" title=\"Oculta las alternativas hasta que pases el cursor o las toques\">",
-      "            <input type=\"checkbox\" id=\"svRecall\" role=\"switch\">",
-      "            <span class=\"switch__track\" aria-hidden=\"true\"><span class=\"switch__thumb\"></span></span>",
-      "            <span class=\"switch__text\">Active Recall</span>",
-      "          </label>",
-      "          <span class=\"sim-tools__hint\">Clic derecho sobre una alternativa para tacharla</span>",
-      "        </div>",
-      "        <ul class=\"quiz__options\" id=\"svOptions\"></ul>",
-      "        <div class=\"quiz__feedback\" id=\"svFeedback\" hidden>",
-      "          <p class=\"quiz__verdict\" id=\"svVerdict\"></p>",
-      "          <p class=\"quiz__label\">Comentario docente</p>",
-      "          <p class=\"quiz__why\" id=\"svWhy\"></p>",
-      "          <button class=\"btn btn--ghost btn--sm algo-btn\" type=\"button\" id=\"svAlgo\">",
-      "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"9\" y=\"2.5\" width=\"6\" height=\"5\" rx=\"1\"/><rect x=\"3\" y=\"16.5\" width=\"6\" height=\"5\" rx=\"1\"/><rect x=\"15\" y=\"16.5\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14\"/></svg>",
-      "            Ver algoritmo / Flujograma",
-      "          </button>",
-      "        </div>",
+      "        <div class=\"quiz__stem\" id=\"svStem\"></div>",
+      "        <ul class=\"quiz__options\" id=\"svOptions\" aria-label=\"Alternativas\"></ul>",
+      "        <!-- retroalimentación: resultado → respuesta correcta → explicación → razonamiento clínico → perla -->",
+      "        <section class=\"quiz__feedback fb\" id=\"svFeedback\" tabindex=\"-1\" aria-labelledby=\"svVerdict\" hidden>",
+      "          <div class=\"fb__result\" id=\"svOutcome\">",
+      "            <span class=\"fb__icon\" id=\"svOutcomeIcon\" aria-hidden=\"true\"></span>",
+      "            <div class=\"fb__result-copy\">",
+      "              <p class=\"quiz__verdict\" id=\"svVerdict\"></p>",
+      "              <p class=\"fb__chosen\" id=\"svChosen\"></p>",
+      "            </div>",
+      "          </div>",
+      "          <div class=\"fb__answer\" id=\"svAnswer\">",
+      "            <p class=\"fb__label\">Respuesta correcta</p>",
+      "            <p class=\"fb__answer-text\"><span class=\"fb__key\" id=\"svKey\"></span><span id=\"svKeyText\"></span></p>",
+      "          </div>",
+      "          <div class=\"fb__section\">",
+      "            <h3 class=\"fb__label\">Explicación</h3>",
+      "            <div class=\"quiz__why\" id=\"svWhy\"></div>",
+      "          </div>",
+      "          <div class=\"fb__section reasoning\" id=\"svReasoning\" hidden>",
+      "            <div class=\"reasoning__head\">",
+      "              <div class=\"reasoning__copy\">",
+      "                <h3 class=\"fb__label\">Razonamiento clínico</h3>",
+      "                <p class=\"reasoning__title\" id=\"svReasonTitle\"></p>",
+      "              </div>",
+      "              <button class=\"btn btn--ghost btn--sm reasoning__expand\" type=\"button\" id=\"svAlgo\" aria-haspopup=\"dialog\">",
+      "                <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7\"/></svg>",
+      "                Ampliar",
+      "              </button>",
+      "            </div>",
+      "            <div class=\"reasoning__canvas\" id=\"svReasonBody\"></div>",
+      "            <p class=\"reasoning__caption\" id=\"svReasonCap\" hidden></p>",
+      "          </div>",
+      "          <aside class=\"fb__pearl\" id=\"svPearl\" aria-label=\"Perla clínica\" hidden>",
+      "            <p class=\"fb__label\">Perla clínica</p>",
+      "            <p class=\"fb__pearl-text\" id=\"svPearlText\"></p>",
+      "          </aside>",
+      "        </section>",
       "      </div>",
       "      <div class=\"quiz__foot sim-view__nav\">",
-      "        <button class=\"btn btn--ghost\" type=\"button\" id=\"svPrev\">← Pregunta anterior</button>",
-      "        <button class=\"btn btn--mark\" type=\"button\" id=\"svNext\">Siguiente pregunta →</button>",
+      "        <button class=\"btn btn--ghost\" type=\"button\" id=\"svPrev\"><span aria-hidden=\"true\">←</span> Anterior</button>",
+      "        <button class=\"btn btn--primary\" type=\"button\" id=\"svNext\">Siguiente pregunta →</button>",
       "      </div>",
       "    </div>",
       "  </div>",
@@ -93,6 +128,7 @@
       "    <span><kbd>Espacio</kbd> confirmar / siguiente</span>",
       "    <span><kbd>F</kbd> marcar</span>",
       "    <span><kbd>←</kbd> <kbd>→</kbd> navegar</span>",
+      "    <span>Clic derecho sobre una alternativa: tacharla</span>",
       "  </p>",
       "",
       "  <section class=\"sim-result\" id=\"svResult\" tabindex=\"-1\" aria-labelledby=\"svResTitle\" hidden>",
@@ -124,7 +160,7 @@
       "<dialog class=\"algo-modal\" id=\"algoModal\" aria-labelledby=\"algoTitle\">",
       "  <div class=\"algo-modal__head\">",
       "    <div>",
-      "      <p class=\"kicker\">Perla clínica</p>",
+      "      <p class=\"kicker\">Razonamiento clínico</p>",
       "      <h3 class=\"algo-modal__title\" id=\"algoTitle\">Algoritmo diagnóstico</h3>",
       "      <p class=\"algo-modal__sub\" id=\"algoSub\"></p>",
       "    </div>",
@@ -459,7 +495,9 @@
       mapWrap: $("svMapWrap"), map: $("svMap"), mapCount: $("svMapCount"), hints: $("svHints"),
       result: $("svResult"), resKicker: $("svResKicker"), resTitle: $("svResTitle"), resSub: $("svResSub"),
       resRing: $("svResRing"), resPct: $("svResPct"), resKpis: $("svResKpis"), resBars: $("svResBars"),
-      review: $("svReview"), repeat: $("svRepeat"), done: $("svDone")
+      review: $("svReview"), repeat: $("svRepeat"), done: $("svDone"),
+      progress: $("svProgress"), tutor: $("svTutor"), outcomeIcon: $("svOutcomeIcon"), chosen: $("svChosen"),
+      answer: $("svAnswer"), key: $("svKey"), keyText: $("svKeyText"), pearl: $("svPearl"), pearlText: $("svPearlText")
     };
 
     var actual = null;   // { cfg, preguntas, i, respuestas, modo, fin, inicio, limite, guardada }
@@ -493,6 +531,90 @@
       el.mapWrap.hidden = true;
     }
 
+    /* ----- lectura: caso clínico → pregunta ----- 
+       Si el enunciado termina en una pregunta («¿…?») o en una frase que se completa
+       («…es:»), esa última frase va en su propio párrafo, con más peso. El texto no cambia. */
+    function pintarEnunciado(nodo, texto) {
+      texto = String(texto || "").replace(/\s+/g, " ").trim();
+      var caso = "", pregunta = texto;
+      var i = texto.lastIndexOf("¿");
+      if (/\?$/.test(texto) && i > 0 && /[.:;)]$/.test(texto.slice(0, i).trim())) {
+        caso = texto.slice(0, i).trim(); pregunta = texto.slice(i);
+      } else if (/:$/.test(texto)) {
+        var m = texto.match(/^([\s\S]*[.?!])\s+([A-ZÁÉÍÓÚÑ¿][^.?!]*:)$/);
+        if (m) { caso = m[1]; pregunta = m[2]; }
+      }
+      if (caso.length < 40 || pregunta.length > 260) { caso = ""; pregunta = texto; }
+      nodo.innerHTML = "";
+      if (caso) {
+        var pc = document.createElement("p");
+        pc.className = "quiz__case";
+        pc.textContent = caso;
+        nodo.appendChild(pc);
+      }
+      var pq = document.createElement("p");
+      pq.className = caso ? "quiz__ask" : "quiz__case";
+      pq.textContent = pregunta;
+      nodo.appendChild(pq);
+    }
+
+    /* ----- comentario docente en párrafos + perla final -----
+       Los comentarios llegan como un solo bloque: se cortan en párrafos de 2-3 oraciones
+       para leerlos sin esfuerzo. Si el comentario cierra con «Perla:», «Recuerda:», «Ojo:»…
+       ese cierre se muestra aparte como perla clínica. No se reescribe ninguna palabra. */
+    var ABREV = /(?:\b(?:p\. ?ej|ej|dr|dra|sr|sra|ee|uu|aprox|vs|etc|cf|fig|no|nro|n\.º|mín|máx|cap|vol|pág|art|inc|ud|lab|gral)|\b[A-Za-z])\.$/i;
+    function oraciones(texto) {
+      /* sin lookbehind: Safari < 16.4 no lo entiende y rompería todo el archivo */
+      var trozos = texto.replace(/([.!?])\s+(?=[¿¡"“(«]?[A-ZÁÉÍÓÚÑ0-9])/g, "$1\u0001").split("\u0001"), salida = [];
+      for (var k = 0; k < trozos.length; k++) {
+        if (salida.length && ABREV.test(salida[salida.length - 1])) salida[salida.length - 1] += " " + trozos[k];
+        else salida.push(trozos[k]);
+      }
+      return salida;
+    }
+    function partirComentario(texto) {
+      texto = String(texto || "").replace(/\s+/g, " ").trim();
+      var perla = "";
+      var m = texto.match(/(?:^|[.!?]\s+)((?:Perla(?: clínica)?|Recuerda|Ojo|Regla|Dato útil|Truco|Para recordar|Clave ENAM)\s*:\s*[\s\S]+)$/);
+      if (m && m.index > texto.length * 0.45) {
+        perla = m[1].replace(/^(Perla(?: clínica)?|Para recordar)\s*:\s*/, "");
+        perla = perla.charAt(0).toUpperCase() + perla.slice(1);
+        texto = texto.slice(0, m.index + 1).trim();
+      }
+      var parrafos = [];
+      if (texto.length <= 420) parrafos.push(texto);
+      else {
+        var ors = oraciones(texto), actual = "";
+        for (var k = 0; k < ors.length; k++) {
+          var junto = actual ? actual + " " + ors[k] : ors[k];
+          if (actual && (junto.length > 340 || (actual.length > 200 && ors.length - k > 1 && (actual.match(/[.!?](\s|$)/g) || []).length >= 3))) {
+            parrafos.push(actual); actual = ors[k];
+          } else actual = junto;
+        }
+        if (actual) {
+          /* sin párrafos huérfanos de una línea al final */
+          if (parrafos.length && actual.length < 90) parrafos[parrafos.length - 1] += " " + actual;
+          else parrafos.push(actual);
+        }
+      }
+      return { parrafos: parrafos, perla: perla };
+    }
+
+    var ICONO_RESULTADO = {
+      ok: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+      bad: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7L7 17"/></svg>',
+      none: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M7 12h10"/></svg>'
+    };
+    /* etiqueta de estado dentro de la alternativa: el estado no depende solo del color */
+    function etiquetaEstado(boton, tipo, texto) {
+      var e = document.createElement("span");
+      e.className = "opt__status opt__status--" + tipo;
+      e.innerHTML = ICONO_RESULTADO[tipo === "ok" ? "ok" : "bad"];
+      e.firstChild.setAttribute("aria-hidden", "true");
+      e.appendChild(document.createTextNode(texto));
+      boton.appendChild(e);
+    }
+
     function dos(n) { return (n < 10 ? "0" : "") + n; }
     function reloj2(seg) {
       seg = Math.max(0, Math.ceil(seg));
@@ -509,7 +631,10 @@
       if (actual) guardarSesionEstudio();
       actual = null;
       el.title.textContent = cfg.titulo || "Práctica";
-      el.back.textContent = "← " + (cfg.volverTexto || "Volver");
+      el.back.innerHTML = '<span aria-hidden="true">←</span><span class="sim-view__back-text"></span>';
+      el.back.lastChild.textContent = cfg.volverTexto || "Volver";
+      el.back.setAttribute("aria-label", cfg.volverTexto || "Volver");
+      vista.classList.toggle("sim-view--simulacro", cfg.modo === "simulacro");
       el.area.textContent = cfg.etiqueta || cfg.titulo || "Práctica";
       el.mode.textContent = cfg.modo === "simulacro" ? "Simulacro" : "Modo estudio";
       el.mode.className = "badge" + (cfg.modo === "simulacro" ? " badge--mark" : " badge--brand");
@@ -520,6 +645,7 @@
       if (el.hints) el.hints.hidden = false;
       mensaje("Cargando preguntas…");
       vista.hidden = false;
+      document.body.classList.add("mqp-sesion");
       document.dispatchEvent(new CustomEvent("mqp:sesion-abierta", { detail: cfg }));
 
       var archivos = cfg.archivos && cfg.archivos.length ? cfg.archivos
@@ -640,12 +766,13 @@
       el.status.hidden = true;
       el.content.hidden = false;
       el.counter.textContent = "Pregunta " + (actual.i + 1) + " de " + total;
+      if (el.progress) el.progress.style.transform = "scaleX(" + ((actual.i + 1) / total) + ")";
       el.area.textContent = q.especialidad || actual.cfg.titulo || "";
       el.exam.hidden = !q.examen;
       el.exam.textContent = q.examen;
       el.tema.hidden = !q.tema && !q.categoria;
       el.tema.textContent = q.categoria && q.tema ? q.categoria + " · " + q.tema : (q.tema || q.categoria);
-      el.stem.textContent = q.enunciado;
+      pintarEnunciado(el.stem, q.enunciado);
 
       el.options.innerHTML = "";
       for (var k = 0; k < q.opciones.length; k++) {
@@ -712,12 +839,49 @@
         else if (letra === elegida) botones[k].classList.add("opt--wrong");
       }
       var acerto = elegida === q.clave;
-      el.verdict.textContent = !elegida
-        ? "Sin responder · la correcta es la " + q.clave
-        : acerto ? "Respuesta correcta" : "Respuesta incorrecta · la correcta es la " + q.clave;
+      var tipo = !elegida ? "none" : acerto ? "ok" : "bad";
+      /* estado escrito dentro de cada alternativa relevante (además del color) */
+      var bClave = el.options.querySelector('.opt[data-letra="' + q.clave + '"]');
+      var bElegida = elegida ? el.options.querySelector('.opt[data-letra="' + elegida + '"]') : null;
+      if (bClave) etiquetaEstado(bClave, "ok", acerto ? "Tu respuesta · correcta" : "Correcta");
+      if (bElegida && !acerto) etiquetaEstado(bElegida, "bad", "Tu respuesta");
+
+      function textoDe(letra) {
+        for (var j = 0; j < q.opciones.length; j++) if (q.opciones[j].letra === letra) return q.opciones[j].texto;
+        return "";
+      }
+      el.feedback.className = "quiz__feedback fb fb--" + tipo;
+      el.outcomeIcon.innerHTML = ICONO_RESULTADO[tipo];
+      el.verdict.textContent = tipo === "ok" ? "Correcto" : tipo === "bad" ? "Incorrecto" : "Sin responder";
       el.verdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
-      el.why.textContent = q.comentario || "Esta pregunta todavía no tiene comentario docente.";
+      el.chosen.textContent = tipo === "ok" ? "Elegiste la " + q.clave + " · " + textoDe(q.clave)
+        : tipo === "bad" ? "Elegiste la " + elegida + " · " + textoDe(elegida)
+        : "No marcaste ninguna alternativa en esta pregunta.";
+      el.answer.hidden = tipo === "ok";
+      el.key.textContent = q.clave;
+      el.keyText.textContent = textoDe(q.clave);
+
+      var com = partirComentario(q.comentario);
+      el.why.innerHTML = "";
+      if (!com.parrafos.length || !com.parrafos[0]) com.parrafos = ["Esta pregunta todavía no tiene comentario docente."];
+      for (var p = 0; p < com.parrafos.length; p++) {
+        var par = document.createElement("p");
+        par.textContent = com.parrafos[p];
+        el.why.appendChild(par);
+      }
+      el.pearl.hidden = !com.perla;
+      el.pearlText.textContent = com.perla;
       el.feedback.hidden = false;
+    }
+
+    /* Tras responder: el foco pasa a la retroalimentación (lectores de pantalla leen el
+       resultado) y la página se desplaza lo justo para verla sin perder las alternativas. */
+    function llevarAFeedback() {
+      try { el.feedback.focus({ preventScroll: true }); } catch (e) { el.feedback.focus(); }
+      var r = el.feedback.getBoundingClientRect(), alto = window.innerHeight;
+      if (r.top > alto * 0.62) {
+        window.scrollBy({ top: r.top - alto * 0.38, behavior: reduced ? "auto" : "smooth" });
+      }
     }
 
     /* ----- responder ----- */
@@ -736,7 +900,7 @@
         if (actual.i >= actual.preguntas.length - 1) el.next.disabled = false;
         guardarUltima();
         avisar("respondida");
-        if (!el.next.disabled) el.next.focus();
+        llevarAFeedback();
       } else {
         if (actual.fin) return;
         actual.respuestas[actual.i] = letra;
@@ -772,15 +936,16 @@
     });
 
     /* Botones que piden confirmación con un segundo clic (sin diálogos nativos). */
+    /* se guarda el HTML (no solo el texto) para no perder iconos ni etiquetas */
     function enDosPasos(btn, pregunta, accion) {
       if (btn.getAttribute("data-armado") === "1") {
         btn.removeAttribute("data-armado");
-        btn.textContent = btn.getAttribute("data-texto") || btn.textContent;
+        btn.innerHTML = btn.getAttribute("data-html") || btn.innerHTML;
         btn.classList.remove("is-armed");
         accion();
         return;
       }
-      btn.setAttribute("data-texto", btn.textContent);
+      btn.setAttribute("data-html", btn.innerHTML);
       btn.setAttribute("data-armado", "1");
       btn.classList.add("is-armed");
       btn.textContent = pregunta;
@@ -788,7 +953,7 @@
         if (btn.getAttribute("data-armado") !== "1") return;
         btn.removeAttribute("data-armado");
         btn.classList.remove("is-armed");
-        btn.textContent = btn.getAttribute("data-texto");
+        btn.innerHTML = btn.getAttribute("data-html");
       }, 4000);
     }
 
@@ -935,6 +1100,7 @@
       pararReloj();
       actual = null;
       vista.hidden = true;
+      document.body.classList.remove("mqp-sesion");
       avisar("cerrado");
       document.dispatchEvent(new CustomEvent("mqp:sesion-cerrada", { detail: cfg }));
       if (cfg && typeof cfg.alCerrar === "function") cfg.alCerrar();
@@ -946,6 +1112,14 @@
       }
       cerrar();
     });
+
+    /* acceso al tutor desde la barra de la sesión (en móvil el botón flotante se oculta
+       para no tapar las alternativas) */
+    var lanzador = $("chatLauncher");
+    if (el.tutor && lanzador) {
+      el.tutor.hidden = false;
+      el.tutor.addEventListener("click", function () { lanzador.click(); });
+    }
 
     M.practica = {
       abrir: abrir,
@@ -1406,7 +1580,11 @@
       modalBody: document.getElementById("algoBody"),
       modalTitle: document.getElementById("algoTitle"),
       modalSub: document.getElementById("algoSub"),
-      modalClose: document.getElementById("algoClose")
+      modalClose: document.getElementById("algoClose"),
+      razon: document.getElementById("svReasoning"),
+      razonTitulo: document.getElementById("svReasonTitle"),
+      razonCuerpo: document.getElementById("svReasonBody"),
+      razonPie: document.getElementById("svReasonCap")
     };
     var estado = null;          // detail del último mqp:pregunta
     var preseleccion = null;    // letra elegida con el teclado, pendiente de confirmar
@@ -1416,7 +1594,7 @@
     function enPantalla() { return !vista.hidden && !contenido.hidden && !!estado; }
 
     /* ===== 1. tachado de distractores ===== */
-    var OJO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16"/><path d="M8 6.5C9.2 5.6 10.5 5 12 5c5 0 8.5 7 8.5 7a15 15 0 0 1-2 2.8M6 8.2A15 15 0 0 0 3.5 12S7 19 12 19c1.5 0 2.8-.5 4-1.2"/></svg>';
+    var OJO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 4H9a3 3 0 0 0-2.83 4"/><path d="M14 12a4 4 0 0 1 0 8H6"/><path d="M4 12h16"/></svg>';
 
     function decorarOpciones() {
       var q = estado && estado.pregunta;
@@ -1616,18 +1794,79 @@
     });
 
     /* ===== 7. modal de algoritmos ===== */
+    function algoritmoDe(q) {
+      var registro = window.MQP_ALGORITMOS || {};
+      return (q && (registro[q.id] || registro[q.especialidad])) || null;
+    }
+    function rutaImagen(src) {
+      return /^(https?:|\/|data:)/.test(src) ? src : ((window.MQP && window.MQP.base) || "") + src;
+    }
+    /* leyenda, fuente y licencia van debajo de la imagen, nunca encima del contenido clínico */
+    function pieDe(algo) {
+      var partes = [];
+      if (algo.leyenda) partes.push(algo.leyenda);
+      if (algo.fuente) partes.push("Fuente: " + algo.fuente);
+      if (algo.licencia) partes.push(algo.licencia);
+      return partes.join(" · ");
+    }
+
+    /* ===== 8. razonamiento clínico dentro de la retroalimentación =====
+       El flujograma es parte de la explicación: aparece en línea después de responder,
+       con su propio marco y un botón para ampliarlo en el visor con zoom. */
+    function pintarRazonamiento() {
+      if (!el.razon) return;
+      var q = estado && estado.pregunta;
+      var algo = q && estado.respondida ? algoritmoDe(q) : null;
+      el.razonCuerpo.innerHTML = "";
+      if (!algo || !(algo.imagen || (algo.pasos && algo.pasos.length))) { el.razon.hidden = true; return; }
+      el.razon.hidden = false;
+      el.razonTitulo.textContent = algo.titulo || "Flujograma de la pregunta";
+      if (el.algo) el.algo.hidden = false;
+      if (algo.imagen) {
+        var marco = document.createElement("div");
+        marco.className = "reasoning__frame";
+        var img = document.createElement("img");
+        img.className = "reasoning__img";
+        img.alt = algo.alt || ("Flujograma: " + (algo.titulo || ""));
+        img.decoding = "async";
+        img.loading = "lazy";
+        img.src = rutaImagen(algo.imagen);
+        img.addEventListener("error", function () {
+          var aviso = document.createElement("p");
+          aviso.className = "algo-modal__note";
+          aviso.textContent = "No se pudo cargar el flujograma de esta pregunta. Inténtalo de nuevo más tarde.";
+          if (marco.parentNode) marco.parentNode.replaceChild(aviso, marco);
+          if (el.algo) el.algo.hidden = true;
+        });
+        marco.appendChild(img);
+        /* clic o toque sobre la imagen = ampliar (el botón «Ampliar» es el control accesible) */
+        marco.addEventListener("click", abrirAlgoritmo);
+        el.razonCuerpo.appendChild(marco);
+      } else {
+        el.razonCuerpo.appendChild(flujograma(algo.pasos));
+      }
+      if (algo.nota) {
+        var nota = document.createElement("p");
+        nota.className = "algo-modal__note";
+        nota.textContent = algo.nota;
+        el.razonCuerpo.appendChild(nota);
+      }
+      var pie = pieDe(algo);
+      el.razonPie.hidden = !pie;
+      el.razonPie.textContent = pie;
+    }
+
     function abrirAlgoritmo() {
       if (!el.modal || !estado) return;
       var q = estado.pregunta;
-      var registro = window.MQP_ALGORITMOS || {};
-      var algo = registro[q.id] || registro[q.especialidad] || null;
+      var algo = algoritmoDe(q);
       el.modalBody.innerHTML = "";
       el.modalTitle.textContent = algo && algo.titulo ? algo.titulo : "Algoritmo diagnóstico";
       el.modalSub.textContent = (q.especialidad || "") + (q.id ? " · " + q.id : "");
       if (visor) { visor.destruir(); visor = null; }
       el.modal.classList.toggle("algo-modal--visor", !!(algo && algo.imagen));
       if (algo && algo.imagen) {
-        var ruta = /^(https?:|\/|data:)/.test(algo.imagen) ? algo.imagen : ((window.MQP && window.MQP.base) || "") + algo.imagen;
+        var ruta = rutaImagen(algo.imagen);
         visor = crearVisor(ruta, algo.alt || el.modalTitle.textContent, function (nodo) {
           /* archivo ausente o con otro nombre en flujogramas/: avisa en vez de mostrar una imagen rota */
           var aviso = document.createElement("p");
@@ -1646,6 +1885,12 @@
         p.className = "algo-modal__note";
         p.textContent = algo.nota;
         el.modalBody.appendChild(p);
+      }
+      if (algo && pieDe(algo)) {
+        var cap = document.createElement("p");
+        cap.className = "reasoning__caption";
+        cap.textContent = pieDe(algo);
+        el.modalBody.appendChild(cap);
       }
       if (!algo) el.modalBody.appendChild(placeholder());
       if (typeof el.modal.showModal === "function") el.modal.showModal();
@@ -1732,13 +1977,17 @@
       nivel.className = "algo-zoom__level";
       nivel.setAttribute("aria-live", "polite");
       barra.appendChild(bMenos); barra.appendChild(nivel); barra.appendChild(bMas); barra.appendChild(bReset); barra.appendChild(bAbrir);
-      marco.appendChild(barra);
 
+      /* la barra va fuera del marco: los controles nunca tapan información clínica */
+      var fila = document.createElement("div");
+      fila.className = "algo-zoom__bar";
       var ayuda = document.createElement("p");
       ayuda.className = "algo-zoom__hint";
-      ayuda.textContent = "Rueda del ratón o pellizco para ampliar · arrastra para moverte · doble clic para acercar o volver";
+      ayuda.textContent = "Rueda o pellizco para ampliar · arrastra para moverte · doble clic para acercar";
+      fila.appendChild(barra);
+      fila.appendChild(ayuda);
+      caja.appendChild(fila);
       caja.appendChild(marco);
-      caja.appendChild(ayuda);
 
       var z = { s: 1, x: 0, y: 0 };
       var punteros = {}, arrastre = null, pellizco = null, animarHasta = 0;
@@ -1890,6 +2139,7 @@
       decorarOpciones();
       pintarRecall();
       pintarBandera();
+      pintarRazonamiento();
       if (estado.respondida || estado.elegida) congelarRitmo(); else iniciarRitmo();
     });
     /* modo simulacro: elegir no corrige, pero el ritmo de la pregunta se detiene */
@@ -1907,6 +2157,7 @@
       for (var k = 0; k < lista.length; k++) lista[k].classList.remove("is-preselected");
       bloquearTachado(true);
       congelarRitmo();
+      pintarRazonamiento();
     });
     vista.addEventListener("mqp:cerrado", function () {
       estado = null;

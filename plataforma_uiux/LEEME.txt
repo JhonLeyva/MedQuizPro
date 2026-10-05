@@ -1,0 +1,86 @@
+REFACTORIZACIÓN UI/UX DE LA SESIÓN DE ESTUDIO — MedQuizPlus
+=========================================================
+Versión de caché: ?v=20261005-uiux
+Base: plataforma 20260930-materias (rama clever-franklin + herramientas/plataforma_materias).
+
+Qué incluye
+-----------
+styles.css        Sistema visual: una sola fuente (Inter), radios y sombras más sobrios,
+                  foco de teclado sólido, colores de estado con contraste AA en claro y
+                  oscuro, y una sección única «19. Sesión de estudio» que reemplaza las tres
+                  capas de estilos de la pregunta que se pisaban entre sí.
+main.js           Pantalla de pregunta y retroalimentación nuevas (detalle abajo). No cambia
+                  la carga de bancos, el puntaje, el progreso guardado ni los simulacros.
+app/app.css       Tarjetas y animaciones de la plataforma más calmadas.
+index.html,       Solo cambian: la línea de Google Fonts (ahora solo Inter) y los ?v=.
+app/index.html
+cambios.diff      Las líneas exactas que cambiaron, por si prefieres copiarlas a mano.
+
+No cambian: catalogo.js, app/app.js, algoritmos.js, bancos/, flujogramas/, api.php.
+
+Cómo subirlo
+------------
+1. Reemplaza en el servidor (public_html): styles.css, main.js y app/app.css.
+2. index.html y app/index.html: si tu copia del servidor tiene «?v=20260930-materias»,
+   puedes reemplazarlos. Si cambiaste algo en ellos (por ejemplo el ?v= de
+   algoritmos.js), NO los reemplaces: solo
+     a) cambia «?v=20260930-materias» por «?v=20261005-uiux», y
+     b) cambia la línea de Google Fonts por:
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+3. Borra la caché del navegador (Ctrl+F5).
+
+Qué cambia para el estudiante
+-----------------------------
+PREGUNTA
+- Columna de lectura de ~70 caracteres por línea (antes ~150 en pantallas grandes).
+- El caso clínico y la pregunta van en párrafos separados; la pregunta en negrita
+  (1794 de 2380 enunciados se separan; el texto no se modifica).
+- Cabecera ordenada: «Pregunta 3 de 40» con barra de avance, y a la derecha tiempo,
+  Active Recall, favorita y marcar. Especialidad · examen · tema en una línea discreta.
+- Active Recall ya no corta el paso del caso a las alternativas.
+- Alternativas con estados claros: normal, hover, foco, seleccionada, correcta,
+  incorrecta y bloqueada. Correcta/incorrecta no dependen solo del color: llevan
+  icono y texto («Correcta», «Tu respuesta»).
+- Icono de tachar más claro (texto tachado).
+
+RETROALIMENTACIÓN (en este orden)
+1. Resultado: Correcto / Incorrecto / Sin responder, con icono y la alternativa elegida.
+2. Respuesta correcta (letra + texto), solo si fallaste.
+3. Explicación: el comentario docente partido en párrafos de 2-3 oraciones
+   (no se cambia ni se quita ninguna palabra; probado con las 2380 preguntas).
+4. Razonamiento clínico: el flujograma aparece en línea, con título y marco propio,
+   y botón «Ampliar» (o clic sobre la imagen) para abrir el visor con zoom.
+   Antes estaba escondido detrás de un botón.
+5. Perla clínica: si el comentario termina con «Perla:», «Recuerda:», «Ojo:»,
+   «Regla:», «Dato útil:» o «Truco:», ese cierre se muestra destacado (25 preguntas hoy).
+Al responder, la página se desplaza lo justo para ver el resultado sin perder las
+alternativas, y el foco del teclado pasa a la retroalimentación.
+
+VISOR DE FLUJOGRAMAS
+- Los botones de zoom están fuera de la imagen: ya no tapan el encabezado del flujograma.
+- En el celular el visor ocupa toda la pantalla.
+- Admite, opcionalmente, estos campos nuevos en algoritmos.js, que se muestran
+  DEBAJO de la imagen (nunca encima): leyenda, fuente, licencia. Ejemplo:
+    "CAR-002": { titulo: "…", imagen: "flujogramas/x.svg", alt: "…",
+                 leyenda: "…", fuente: "ESC 2024", licencia: "CC BY 4.0" }
+
+CELULAR Y TABLET
+- Barra «Anterior / Siguiente» fija abajo, al alcance del pulgar.
+- El botón flotante del tutor ya no tapa las alternativas: durante la sesión pasa a
+  la barra superior (icono de globo).
+- En la web pública, la barra «Crear cuenta gratis» se oculta mientras se resuelve.
+- En simulacro, la barra con el reloj queda fija arriba.
+
+ACCESIBILIDAD
+- El reloj de cada pregunta ya no se anuncia cada segundo en lectores de pantalla;
+  ahora se anuncia «Pregunta X de Y» al navegar y el resultado al responder.
+- Anillo de foco sólido (visible sobre cualquier fondo).
+- Contraste AA en todos los textos de estado (claro y oscuro).
+- Respeta «reducir movimiento» del sistema.
+
+Pruebas hechas (Playwright, Chromium)
+-------------------------------------
+Anchos 1920, 1440, 1280, 768, 430, 390 y 375 px: 316 comprobaciones, 0 fallos, 0
+errores de JavaScript, sin desbordamiento horizontal. Incluye modo estudio y
+simulacro, teclado (A-E, Espacio, F, flechas), tachado, marcar, mapa, visor con zoom,
+Esc y retorno del foco, resumen, revisión, tema oscuro y la web pública.

@@ -53,7 +53,7 @@
 .topbar__exam { margin-left: auto; text-decoration: none; }
 
 .vista { flex: 1; width: 100%; max-width: 1180px; margin: 0 auto; padding: clamp(20px, 3.4vw, 40px) clamp(16px, 3vw, 32px) 64px; outline: none; }
-.page--in { animation: demoIn .25s var(--ease); }
+.page--in { animation: fadeIn var(--dur-slow) var(--ease); }
 
 /* ======================================================================
    Piezas de las vistas
@@ -83,7 +83,7 @@
 .card--continue { position: relative; overflow: hidden; border-color: color-mix(in srgb, var(--brand) 35%, var(--line)); box-shadow: var(--shadow-md); }
 .card--continue::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--brand); }
 .card--continue .btn { margin-top: var(--space-5); }
-.card--start { border-style: dashed; box-shadow: none; }
+.card--start { box-shadow: none; }
 .meter { margin-top: var(--space-4); height: 8px; border-radius: var(--radius-pill); background: var(--surface-3); overflow: hidden; }
 .meter__fill { display: block; height: 100%; border-radius: inherit; background: var(--brand); transition: width .5s var(--ease); }
 .muted { color: var(--ink-3); font-size: .93rem; line-height: 1.6; }
@@ -100,7 +100,7 @@
   background: var(--surface); border: 1px solid var(--line); color: var(--ink); text-decoration: none;
   transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
 }
-.quick__item:hover { border-color: color-mix(in srgb, var(--brand) 40%, var(--line)); box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+.quick__item:hover { border-color: color-mix(in srgb, var(--brand) 40%, var(--line)); box-shadow: var(--shadow-sm); }
 .quick__item:focus-visible { outline: none; box-shadow: var(--ring); }
 .quick__item b { display: block; font-size: .93rem; }
 .quick__item small { display: block; margin-top: 2px; font-size: .8rem; color: var(--ink-3); line-height: 1.4; }
@@ -119,7 +119,7 @@
 .exam-row { display: flex; align-items: center; gap: 12px; padding: 10px 8px; margin: 0 -8px; border-radius: 12px; color: var(--ink); text-decoration: none; }
 .exam-row:hover { background: var(--surface-2); }
 .exam-row:focus-visible { outline: none; box-shadow: var(--ring); }
-.exam-row__mark { width: 36px; height: 36px; border-radius: 10px; flex: none; display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; background: var(--surface-2); color: var(--ink-3); border: 1px solid var(--line); }
+.exam-row__mark { width: 36px; height: 36px; border-radius: 10px; flex: none; display: grid; place-items: center; font-family: var(--f-display); font-weight: 700; background: var(--surface-2); color: var(--ink-3); border: 1px solid var(--line); }
 .exam-row__mark.is-live { background: var(--brand); border-color: var(--brand); color: var(--on-brand); }
 .exam-row__name { flex: 1; min-width: 0; font-weight: 600; font-size: .95rem; }
 .exam-row__name small { display: block; font-weight: 400; font-size: .8rem; color: var(--ink-3); }
@@ -149,7 +149,7 @@
 .builder__step { margin: 0; padding: clamp(16px, 2.2vw, 22px); border-radius: var(--radius-lg); background: var(--surface); border: 1px solid var(--line); min-width: 0; }
 .builder__step legend { float: left; width: 100%; display: flex; align-items: center; gap: 10px; margin-bottom: var(--space-4); padding: 0; font-weight: 700; font-size: .98rem; color: var(--ink); }
 .builder__step legend + * { clear: both; }
-.builder__step legend span { width: 24px; height: 24px; border-radius: 50%; display: inline-grid; place-items: center; background: var(--brand-soft); color: var(--brand-strong); font-size: .78rem; font-weight: 800; }
+.builder__step legend span { width: 24px; height: 24px; border-radius: 50%; display: inline-grid; place-items: center; background: var(--brand-soft); color: var(--brand-strong); font-size: .78rem; font-weight: 700; }
 .builder__step legend small { font-weight: 500; font-size: .82rem; color: var(--ink-3); }
 .builder__go {
   position: sticky; bottom: 12px; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
