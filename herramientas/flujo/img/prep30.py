@@ -254,3 +254,10 @@ if hacer("urato.jpg"):
 if hacer("nec.jpg"):
     # Hellerhoff · Commons · CC BY-SA 4.0: neumatosis intestinal (y portal) en enterocolitis necrotizante
     guardar(Image.open("orig/nec.jpg").convert("RGB"), "nec.jpg", 380, 88)
+
+if hacer("trichuris.jpg"):
+    # K. Fischer et al. · Commons · dominio público (Trichuris trichiura eggs.jpg): huevos en barril con tapones polares
+    guardar(Image.open("orig/trichuris.jpg").convert("RGB"), "trichuris.jpg", 250, 90)
+if hacer("drepano.jpg"):
+    # Paulo Henrique Orlandi Mourao · Commons · CC BY-SA 4.0: drepanocitos (la flecha es de la imagen original)
+    guardar(Image.open("orig/drepano.jpg").convert("RGB"), "drepano.jpg", 400, 88)
