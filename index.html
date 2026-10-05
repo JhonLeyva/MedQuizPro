@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>MedQuizPlus · Bancos de preguntas y simuladores para el ENAM, el Residentado y EsSalud</title>
 <meta name="description" content="Preguntas comentadas por especialidad, simuladores cronometrados y flujogramas clínicos para preparar el ENAM, el Residentado Médico y EsSalud.">
-<meta name="theme-color" content="#040b09">
+<meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <script>
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
-  var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} document.documentElement.setAttribute("data-theme", t === "light" ? "light" : "dark");
+  var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
 <link rel="stylesheet" href="styles.css?v=20260930-materias">
 <link rel="stylesheet" href="pro.css?v=2">

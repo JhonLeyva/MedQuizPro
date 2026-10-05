@@ -102,6 +102,68 @@
     els.forEach(function (el) { io.observe(el); });
   });
 
+
+  /* cinta de palabras clave (todo el texto sale de la propia página) */
+  safe("marquee", function () {
+    var hero = document.querySelector(".hero"); if (!hero) return;
+    var words = ["ENAM", "Residentado Médico", "EsSalud", "Preguntas comentadas", "Simuladores cronometrados", "Flujogramas clínicos", "Active Recall", "Tutor clínico de IA", "Progreso por especialidad"];
+    var row = "<span>" + words.join("</span><span>") + "</span>";
+    var m = document.createElement("div"); m.className = "fx-marquee"; m.setAttribute("aria-hidden", "true");
+    m.innerHTML = '<div class="fx-marquee__track">' + row + row + "</div>";
+    hero.parentNode.insertBefore(m, hero.nextSibling);
+  });
+
+  /* foco de luz que sigue al mouse en el hero */
+  safe("spot", function () {
+    var hero = document.querySelector(".hero"); if (!hero || !fine || reduced) return;
+    var spot = document.createElement("div"); spot.className = "hero__spot"; spot.setAttribute("aria-hidden", "true"); hero.appendChild(spot);
+    var x = 0, y = 0, cx = 0, cy = 0, raf = 0;
+    function step() { cx += (x - cx) * .12; cy += (y - cy) * .12; spot.style.transform = "translate3d(" + cx.toFixed(1) + "px," + cy.toFixed(1) + "px,0)"; raf = (Math.abs(x - cx) + Math.abs(y - cy) > .5) ? requestAnimationFrame(step) : 0; }
+    hero.addEventListener("pointermove", function (e) { var r = hero.getBoundingClientRect(); x = e.clientX - r.left; y = e.clientY - r.top; hero.classList.add("is-hover"); if (!raf) raf = requestAnimationFrame(step); }, { passive: true });
+    hero.addEventListener("pointerleave", function () { hero.classList.remove("is-hover"); });
+  });
+
+  /* íconos: se dibujan al entrar (normaliza la longitud del trazo) */
+  safe("icons", function () {
+    Array.prototype.forEach.call(document.querySelectorAll(".feature__icon svg, .sim-tile__icon svg"), function (svg) {
+      Array.prototype.forEach.call(svg.querySelectorAll("path, circle, rect, line"), function (el) { el.setAttribute("pathLength", "1"); });
+    });
+  });
+
+  /* onda al pulsar botones */
+  safe("ripple", function () {
+    document.addEventListener("pointerdown", function (e) {
+      var b = e.target && e.target.closest && e.target.closest(".btn--primary, .btn--ghost"); if (!b || reduced) return;
+      var r = b.getBoundingClientRect(), d = Math.max(r.width, r.height) * 2, el = document.createElement("span");
+      el.className = "fx-ripple"; el.style.width = el.style.height = d + "px"; el.style.left = (e.clientX - r.left - d / 2) + "px"; el.style.top = (e.clientY - r.top - d / 2) + "px";
+      b.appendChild(el); setTimeout(function () { el.remove(); }, 650);
+    }, { passive: true });
+  });
+
+  /* acierto en el quiz del hero: destello + pulso del anillo */
+  safe("burst", function () {
+    var fb = document.getElementById("qFeedback"), verdict = document.getElementById("qVerdict"), ring = document.getElementById("qRing");
+    if (!fb || !window.MutationObserver || reduced) return;
+    new MutationObserver(function () {
+      if (fb.hidden || !/correct/i.test(verdict ? verdict.textContent : "") || /incorrect/i.test(verdict ? verdict.textContent : "")) return;
+      if (ring) { ring.classList.remove("fx-pop"); void ring.offsetWidth; ring.classList.add("fx-pop"); }
+      if (!fb.animate) return;
+      for (var i = 0; i < 14; i++) {
+        var p = document.createElement("i"); p.className = "fx-burst"; p.style.left = "22px"; p.style.top = "12px"; if (i % 3 === 0) p.style.background = "#fff";
+        fb.appendChild(p);
+        var a = Math.random() * Math.PI * 2, d = 38 + Math.random() * 56;
+        p.animate([{ transform: "translate(0,0) scale(1)", opacity: 1 }, { transform: "translate(" + (Math.cos(a) * d).toFixed(0) + "px," + (Math.sin(a) * d).toFixed(0) + "px) scale(.2)", opacity: 0 }],
+          { duration: 650 + Math.random() * 250, easing: "cubic-bezier(.23,1,.32,1)" }).onfinish = (function (n) { return function () { n.remove(); }; })(p);
+      }
+    }).observe(fb, { attributes: true, attributeFilter: ["hidden"] });
+  });
+
+  /* icono de tema: giro */
+  safe("themespin", function () {
+    var t = document.getElementById("themeToggle"); if (!t || reduced) return;
+    t.addEventListener("click", function () { t.classList.remove("fx-spin"); void t.offsetWidth; t.classList.add("fx-spin"); });
+  });
+
   safe("quiz", function () {
     var demo = document.getElementById("quiz"), stem = document.getElementById("qStem"); if (!demo || !stem || !window.MutationObserver) return;
     new MutationObserver(function () { demo.classList.remove("fx-swap"); void demo.offsetWidth; demo.classList.add("fx-swap"); })

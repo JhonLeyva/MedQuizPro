@@ -29,18 +29,18 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
   var camera = new THREE.PerspectiveCamera(30, 1, 0.1, 60);
   camera.position.set(0, 0, 15);
 
-  /* luces tintadas: verde clínico y blanco cálido (sin azules) */
-  var mint = new THREE.PointLight(0x34d399, 40, 20); mint.position.set(-4, 3, 4); scene.add(mint);
+  /* luces tintadas: verde azulado de la marca y blanco cálido */
+  var mint = new THREE.PointLight(0x2dd4bf, 40, 20); mint.position.set(-4, 3, 4); scene.add(mint);
   var warm = new THREE.PointLight(0xfff3df, 32, 20); warm.position.set(4, -3, 4); scene.add(warm);
 
   var glass = lite
-    ? new THREE.MeshStandardMaterial({ color: 0xd9f7ea, metalness: 0.8, roughness: 0.2, envMapIntensity: 1.4 })
+    ? new THREE.MeshStandardMaterial({ color: 0xd6f2f4, metalness: 0.8, roughness: 0.2, envMapIntensity: 1.4 })
     : new THREE.MeshPhysicalMaterial({
-        color: 0xe4fbf1, metalness: 0, roughness: 0.06, transmission: 1, thickness: 0.7, ior: 1.45,
+        color: 0xe6fbf8, metalness: 0, roughness: 0.06, transmission: 1, thickness: 0.7, ior: 1.45,
         iridescence: 0.6, iridescenceIOR: 1.25, clearcoat: 1, envMapIntensity: 1.7,
-        attenuationColor: new THREE.Color(0x9bf0c6), attenuationDistance: 3
+        attenuationColor: new THREE.Color(0x8ff0e4), attenuationDistance: 3
       });
-  var glowMint = new THREE.MeshBasicMaterial({ color: 0x34d399 });
+  var glowMint = new THREE.MeshBasicMaterial({ color: 0x2dd4bf });
   var glowWhite = new THREE.MeshBasicMaterial({ color: 0xf0fff8 });
 
   /* doble hélice: dos hebras de vidrio, nodos luminosos y peldaños */
