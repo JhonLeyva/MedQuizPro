@@ -261,3 +261,7 @@ if hacer("trichuris.jpg"):
 if hacer("drepano.jpg"):
     # Paulo Henrique Orlandi Mourao · Commons · CC BY-SA 4.0: drepanocitos (la flecha es de la imagen original)
     guardar(Image.open("orig/drepano.jpg").convert("RGB"), "drepano.jpg", 400, 88)
+
+if hacer("pitiriasis.jpg"):
+    # CDC · Commons · dominio público (PityriasisOnChest.jpg): máculas hipopigmentadas en el tórax; recorte sin cuello
+    guardar(Image.open("orig/pitiriasis.jpg").convert("RGB").crop((0, 40, 330, 245)), "pitiriasis.jpg", 330, 90)
