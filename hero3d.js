@@ -1,10 +1,19 @@
-/* MedQuizPlus — médico 3D animado del hero (Three.js, WebGL). Si algo falla, quedan los anillos CSS de pro.css.
-   Todo se modela con formas simples (estilo arcilla): no necesita descargar modelos ni texturas. */
+/* MedQuizPlus — médico 3D del hero: carga 'medico.glb' (Three.js + GLTFLoader).
+   Colores reales (sRGB, sin tone mapping), luces nítidas, a la derecha de la tarjeta del quiz,
+   la cabeza/cuerpo siguen al cursor y respira en bucle. Si el archivo no carga, usa el médico procedural
+   de hero3d-fallback.js. */
 import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
+import { MeshoptDecoder } from "three/addons/libs/meshopt_decoder.module.js";
 import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 
 (function () {
   "use strict";
+  var MODEL_URL = "medico.glb";
+  var FACE_Y = 0;          /* giro extra (radianes) si tu modelo no mira de frente a la cámara */
+  var TARGET_H = 3.9;      /* altura del médico en unidades de la escena */
+
   var orbit = document.querySelector(".hero .orbit");
   if (!orbit) return;
 
@@ -14,198 +23,227 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
   var lite = innerWidth < 768 || (navigator.hardwareConcurrency || 4) < 4;
 
   var renderer;
-  try { renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" }); } catch (e) { return; }
+  try { renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" }); } catch (e) { return fallback("sin WebGL"); }
+
+  /* 2) colores reales: salida sRGB y sin tone mapping (el filmic desvía los tonos) */
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  renderer.toneMapping = THREE.NoToneMapping;
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, lite ? 1.5 : 2));
   renderer.setClearColor(0x000000, 0);
-  renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.0;
   renderer.domElement.setAttribute("aria-hidden", "true");
 
   var scene = new THREE.Scene();
   var pmrem = new THREE.PMREMGenerator(renderer);
   scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
-  scene.environmentIntensity = 0.55;
+  scene.environmentIntensity = 0.35;           /* solo para brillos; el color lo dan las luces directas */
 
-  var camera = new THREE.PerspectiveCamera(28, 1, 0.1, 60);
-  camera.position.set(0, 0.25, 10.5);
-  camera.lookAt(0, 0.15, 0);
+  var camera = new THREE.PerspectiveCamera(26, 1, 0.1, 80);
+  camera.position.set(0, 0, 10.5);
+  camera.lookAt(0, 0, 0);
 
-  var key = new THREE.DirectionalLight(0xfff1de, 2.4); key.position.set(2.5, 3.5, 4); scene.add(key);
-  var rim = new THREE.DirectionalLight(0x2dd4bf, 2.2); rim.position.set(-3.5, 2, -2); scene.add(rim);
-  scene.add(new THREE.HemisphereLight(0xffffff, 0x9adfd6, 0.7));
+  /* luces nítidas: principal cálida de frente, relleno suave, contraluz fría */
+  var key = new THREE.DirectionalLight(0xffffff, 2.6); key.position.set(2.5, 3.5, 5); scene.add(key);
+  var fill = new THREE.DirectionalLight(0xffffff, 0.9); fill.position.set(-4, 1, 3); scene.add(fill);
+  var rim = new THREE.DirectionalLight(0xbfeee8, 1.2); rim.position.set(-2, 3, -4); scene.add(rim);
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xcfd8dc, 0.8));
 
-  function mat(color, rough, extra) { return new THREE.MeshStandardMaterial(Object.assign({ color: color, roughness: rough == null ? 0.55 : rough, metalness: 0 }, extra || {})); }
-  var M = {
-    skin: mat(0xf0c3a0, 0.62), hair: mat(0x4a3225, 0.5), coat: mat(0xf1f4f6, 0.5), scrubs: mat(0x38bdc4, 0.5),
-    dark: mat(0x1b2230, 0.35), steth: mat(0x334155, 0.4), silver: new THREE.MeshStandardMaterial({ color: 0xd8e0e8, metalness: 1, roughness: 0.25 }),
-    cheek: mat(0xf29b8c, 0.8), white: mat(0xffffff, 0.4), teal: mat(0x2dd4bf, 0.4), iris: mat(0x7a4326, 0.35), coat2: mat(0xdfe5ea, 0.6), mouth: mat(0x6b2230, 0.7), pants: mat(0x4b5563, 0.7),
-    glow: new THREE.MeshBasicMaterial({ color: 0x2dd4bf, transparent: true, opacity: 0.14 })
-  };
-  var seg = lite ? 20 : 36;
+  var holder = new THREE.Group(); scene.add(holder);   /* pivote en los pies: aquí respira y salta */
+  var model = null, head = null, neck = null, chest = null, mixer = null;
+  var tx = 0, ty = 0, hx = 0, hy = 0, visible = true, raf = 0, t0 = performance.now(), hop = -10;
+  var cv = renderer.domElement; cv.className = "orbit__gl";
+  orbit.classList.add("orbit--loading");
+  orbit.appendChild(cv);
 
-  var root = new THREE.Group(); scene.add(root);
+  /* 1) carga del GLB (con soporte de Draco y Meshopt por si lo exportaste comprimido) */
+  var loader = new GLTFLoader();
+  var draco = new DRACOLoader(); draco.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5.6/");
+  loader.setDRACOLoader(draco); loader.setMeshoptDecoder(MeshoptDecoder);
+  loader.load(MODEL_URL, onLoad, undefined, function (err) { fallback(err && err.message ? err.message : "no se pudo cargar " + MODEL_URL); });
 
-  /* disco de luz detrás del médico */
-  var disc = new THREE.Mesh(new THREE.CircleGeometry(1.75, 64), M.glow); disc.position.set(0, 0.1, -1.4); root.add(disc);
-  var ringBack = new THREE.Mesh(new THREE.TorusGeometry(1.9, 0.015, 8, 96), new THREE.MeshBasicMaterial({ color: 0x2dd4bf, transparent: true, opacity: 0.45 })); ringBack.position.copy(disc.position); root.add(ringBack);
-
-  var body = new THREE.Group(); root.add(body);
-  function V(x, y, z) { return new THREE.Vector3(x, y, z); }
-  function box(w, h, d, material, x, y, z, parent) { var m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), material); m.position.set(x, y, z); (parent || body).add(m); return m; }
-  function cross(size, material) {
-    var g = new THREE.Group();
-    g.add(new THREE.Mesh(new THREE.BoxGeometry(size, size * 0.34, size * 0.3), material)); g.add(new THREE.Mesh(new THREE.BoxGeometry(size * 0.34, size, size * 0.3), material)); return g;
+  /* Mallas sin huesos: se detecta el cuello (la sección más angosta) y un shader gira SOLO la cabeza
+     y expande el pecho al respirar. Todo ocurre en la GPU; la malla original no se modifica. */
+  var deform = null;
+  function setupDeform(mesh) {
+    if (!mesh.isMesh || mesh.isSkinnedMesh || !mesh.geometry.attributes.position) return null;
+    if (mesh.quaternion.angleTo(new THREE.Quaternion()) > 1e-3) return null;
+    var pos = mesh.geometry.attributes.position, S = mesh.scale.clone(), T = mesh.position.clone(), n = pos.count, i, y, minY = 1e9, maxY = -1e9;
+    for (i = 0; i < n; i++) { y = pos.getY(i) * S.y + T.y; if (y < minY) minY = y; if (y > maxY) maxY = y; }
+    var H = maxY - minY; if (!(H > 0)) return null;
+    var N = 90, bins = [];
+    for (i = 0; i < N; i++) bins.push({ a: 1e9, b: -1e9, c: 1e9, d: -1e9 });
+    for (i = 0; i < n; i++) {
+      var x = pos.getX(i) * S.x + T.x, z = pos.getZ(i) * S.z + T.z, k = Math.min(N - 1, Math.floor(((pos.getY(i) * S.y + T.y) - minY) / H * N)), B = bins[k];
+      if (x < B.a) B.a = x; if (x > B.b) B.b = x; if (z < B.c) B.c = z; if (z > B.d) B.d = z;
+    }
+    var best = -1, bw = 1e9;                       /* cuello = sección más angosta entre el 45 % y el 70 % de la altura */
+    for (i = Math.floor(N * 0.45); i < Math.floor(N * 0.7); i++) { var w = bins[i].b - bins[i].a; if (w > 0 && w < bw) { bw = w; best = i; } }
+    if (best < 0) return null;
+    var nb = bins[best], neckY = minY + (best + 0.5) / N * H;
+    var u = {
+      uS: { value: S }, uT: { value: T }, uPivot: { value: new THREE.Vector3((nb.a + nb.b) / 2, neckY, (nb.c + nb.d) / 2) },
+      uBlend: { value: new THREE.Vector2(neckY - 0.012 * H, neckY + 0.05 * H) },
+      uTorso: { value: new THREE.Vector4(minY + 0.3 * H, minY + 0.42 * H, minY + 0.5 * H, minY + 0.58 * H) },
+      uYaw: { value: 0 }, uPitch: { value: 0 }, uBreath: { value: 0 }
+    };
+    var ms = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+    ms.forEach(function (m) {
+      m.onBeforeCompile = function (sh) {
+        Object.keys(u).forEach(function (k) { sh.uniforms[k] = u[k]; });
+        sh.vertexShader = "uniform vec3 uS; uniform vec3 uT; uniform vec3 uPivot; uniform vec2 uBlend; uniform vec4 uTorso; uniform float uYaw; uniform float uPitch; uniform float uBreath;\n" + sh.vertexShader
+          .replace("#include <beginnormal_vertex>",
+            "vec3 fxU = position * uS + uT;\n" +
+            "float fxHW = smoothstep(uBlend.x, uBlend.y, fxU.y);\n" +
+            "float fxBump = smoothstep(uTorso.x, uTorso.y, fxU.y) * (1.0 - smoothstep(uTorso.z, uTorso.w, fxU.y));\n" +
+            "float fcy = cos(uYaw * fxHW), fsy = sin(uYaw * fxHW), fcx = cos(uPitch * fxHW), fsx = sin(uPitch * fxHW);\n" +
+            "mat3 fxR = mat3(fcy, 0.0, -fsy, 0.0, 1.0, 0.0, fsy, 0.0, fcy) * mat3(1.0, 0.0, 0.0, 0.0, fcx, fsx, 0.0, -fsx, fcx);\n" +
+            "vec3 objectNormal = normalize(normalize(fxR * normalize(vec3(normal) / uS)) * uS);\n" +
+            "#ifdef USE_TANGENT\nvec3 objectTangent = vec3(tangent.xyz);\n#endif\n")
+          .replace("#include <begin_vertex>",
+            "vec3 transformed = vec3(position);\n" +
+            "{ vec3 fu = transformed * uS + uT;\n" +
+            "  fu = fxR * (fu - uPivot) + uPivot;\n" +
+            "  fu.xz = uPivot.xz + (fu.xz - uPivot.xz) * (1.0 + uBreath * fxBump);\n" +
+            "  fu.y += uBreath * 0.25 * fxBump;\n" +
+            "  transformed = (fu - uT) / uS; }\n" +
+            "#ifdef USE_ALPHAHASH\nvPosition = vec3(position);\n#endif\n");
+      };
+      m.customProgramCacheKey = function () { return "mqp-doc-deform"; };
+      m.needsUpdate = true;
+    });
+    return u;
   }
 
-  /* torso: bata abierta (gris muy claro) sobre cuello en V azul-verdoso, cinturón y pantalón */
-  var prof = [[0, -1.7], [0.7, -1.7], [0.82, -1.45], [0.8, -0.6], [0.72, 0.1], [0.66, 0.5], [0.5, 0.76], [0.28, 0.84], [0, 0.86]].map(function (p) { return new THREE.Vector2(p[0], p[1]); });
-  var coat = new THREE.Mesh(new THREE.LatheGeometry(prof, seg), M.coat); coat.scale.z = 0.62; body.add(coat);
-  var scrubs = new THREE.Mesh(new THREE.CapsuleGeometry(0.27, 1.45, 8, 20), M.scrubs); scrubs.scale.z = 0.5; scrubs.position.set(0, -0.28, 0.5); body.add(scrubs);
-  var vneck = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.36, 3), M.skin); vneck.rotation.set(Math.PI, 0, Math.PI); vneck.scale.set(1, 1, 0.45); vneck.position.set(0, 0.68, 0.6); body.add(vneck);
-  /* solapas */
-  [-1, 1].forEach(function (sd) {
-    var l = box(0.2, 1.15, 0.05, M.coat, 0.42 * sd, 0.22, 0.52); l.rotation.z = 0.2 * sd; l.rotation.y = -0.15 * sd;
-    var c = box(0.22, 0.16, 0.05, M.coat, 0.3 * sd, 0.74, 0.5); c.rotation.z = 0.7 * sd;
-  });
-  /* credencial y bolsillos */
-  box(0.26, 0.15, 0.03, M.white, 0.5, 0.0, 0.62); box(0.12, 0.15, 0.032, M.teal, 0.43, 0.0, 0.62);
-  box(0.34, 0.3, 0.03, M.coat2, 0.5, -1.15, 0.54); box(0.34, 0.3, 0.03, M.coat2, -0.5, -1.15, 0.54);
-  
-
-  /* cabeza (pivota en el cuello para seguir el mouse) */
-  var neck = new THREE.Mesh(new THREE.CylinderGeometry(0.17, 0.2, 0.36, 20), M.skin); neck.position.set(0, 0.98, 0); body.add(neck);
-  var head = new THREE.Group(); head.position.set(0, 1.02, 0); body.add(head);
-  var skull = new THREE.Mesh(new THREE.SphereGeometry(0.58, seg, seg), M.skin); skull.scale.set(0.98, 1.08, 0.98); skull.position.y = 0.6; head.add(skull);
-  /* pelo: casquete + mechones peinados hacia arriba y a un lado */
-  var cap = new THREE.Mesh(new THREE.SphereGeometry(0.6, seg, seg, 0, Math.PI * 2, 0, Math.PI * 0.5), M.hair); cap.scale.set(1.0, 1.1, 1.05); cap.position.set(0, 0.64, -0.03); cap.rotation.x = -0.22; head.add(cap);
-  [[0.1, 1.27, 0.2, 0.74, 0.3, 0.52, -0.22], [-0.2, 1.2, 0.26, 0.5, 0.26, 0.42, 0.5], [0.38, 1.12, 0.16, 0.4, 0.24, 0.36, -0.9]].forEach(function (t) {
-    var m = new THREE.Mesh(new THREE.SphereGeometry(0.2, 18, 16), M.hair); m.position.set(t[0], t[1], t[2]); m.scale.set(t[3] * 1.2, t[4], t[5]); m.rotation.z = t[6]; head.add(m);
-  });
-  [-1, 1].forEach(function (sd) {
-    var ear = new THREE.Mesh(new THREE.SphereGeometry(0.11, 14, 14), M.skin); ear.scale.set(0.55, 1, 0.8); ear.position.set(0.57 * sd, 0.55, 0); head.add(ear);
-    var side = new THREE.Mesh(new THREE.SphereGeometry(0.17, 14, 14), M.hair); side.scale.set(0.7, 1.2, 1.1); side.position.set(0.5 * sd, 0.74, -0.06); head.add(side);
-  });
-  /* ojos grandes y expresivos, cejas gruesas, lentes de pasta */
-  var eyes = [];
-  [-1, 1].forEach(function (sd) {
-    var eyeG = new THREE.Group(); eyeG.position.set(0.2 * sd, 0.62, 0.46); head.add(eyeG); eyes.push(eyeG);
-    var sclera = new THREE.Mesh(new THREE.SphereGeometry(0.1, 20, 20), M.white); sclera.scale.set(1, 1.05, 0.6); eyeG.add(sclera);
-    var iris = new THREE.Mesh(new THREE.SphereGeometry(0.068, 20, 20), M.iris); iris.scale.set(1, 1, 0.5); iris.position.z = 0.035; eyeG.add(iris);
-    var pupil = new THREE.Mesh(new THREE.SphereGeometry(0.036, 14, 14), M.dark); pupil.scale.set(1, 1, 0.5); pupil.position.z = 0.058; eyeG.add(pupil);
-    var shine = new THREE.Mesh(new THREE.SphereGeometry(0.017, 8, 8), M.white); shine.position.set(0.02, 0.03, 0.075); eyeG.add(shine);
-    var frame = new THREE.Mesh(new THREE.TorusGeometry(0.155, 0.024, 10, 44), M.dark); frame.scale.set(1.12, 0.96, 1); frame.position.set(0.2 * sd, 0.62, 0.55); head.add(frame);
-    var brow = new THREE.Mesh(new THREE.CapsuleGeometry(0.022, 0.16, 4, 8), M.hair); brow.rotation.z = Math.PI / 2 + 0.13 * sd; brow.position.set(0.2 * sd, 0.85, 0.56); head.add(brow);
-    var cheek = new THREE.Mesh(new THREE.SphereGeometry(0.08, 14, 14), M.cheek); cheek.scale.set(1, 0.6, 0.3); cheek.position.set(0.34 * sd, 0.42, 0.47); head.add(cheek);
-  });
-  var bridge = new THREE.Mesh(new THREE.CylinderGeometry(0.014, 0.014, 0.1, 6), M.dark); bridge.rotation.z = Math.PI / 2; bridge.position.set(0, 0.64, 0.56); head.add(bridge);
-  var nose = new THREE.Mesh(new THREE.SphereGeometry(0.075, 16, 16), M.skin); nose.scale.set(0.95, 1.05, 1.15); nose.position.set(0, 0.5, 0.58); head.add(nose);
-  /* sonrisa con dientes */
-  var mouth = new THREE.Mesh(new THREE.CircleGeometry(0.15, 28, Math.PI, Math.PI), M.mouth); mouth.position.set(0, 0.4, 0.545); head.add(mouth);
-  var teeth = new THREE.Mesh(new THREE.CircleGeometry(0.135, 28, Math.PI + 0.12, Math.PI - 0.24), M.white); teeth.scale.set(1, 0.55, 1); teeth.position.set(0, 0.405, 0.552); head.add(teeth);
-  var lip = new THREE.Mesh(new THREE.TorusGeometry(0.15, 0.014, 8, 28, Math.PI), M.cheek); lip.rotation.z = Math.PI; lip.position.set(0, 0.4, 0.55); head.add(lip);
-
-  /* brazos: cada tramo se orienta entre dos puntos (hombro-codo-muñeca) para poder mezclar poses */
-  function limb(r, material) {
-    var shaft = new THREE.Mesh(new THREE.CylinderGeometry(r, r, 1, 16), material); body.add(shaft);
-    return shaft;
+  function pickBone(re, skip) {
+    var found = null;
+    model.traverse(function (o) {
+      if (found || !re.test(o.name) || (skip && skip.test(o.name))) return;
+      found = o;
+    });
+    return found;
   }
-  function place(shaft, A, B) {
-    var d = new THREE.Vector3().subVectors(B, A), len = d.length();
-    shaft.position.copy(A).addScaledVector(d, 0.5); shaft.scale.set(1, len, 1); shaft.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.normalize());
-  }
-  function joint(r, material) { var m = new THREE.Mesh(new THREE.SphereGeometry(r, 16, 16), material); body.add(m); return m; }
-  function makeArm(sd) {
-    return { sd: sd, up: limb(0.17, M.coat), fo: limb(0.15, M.coat), cuff: limb(0.156, M.coat), sh: joint(0.18, M.coat), el: joint(0.17, M.coat), hand: joint(0.155, M.skin), E: V(), W: V() };
-  }
-  var armW = makeArm(-1), armC = makeArm(1); /* armW saluda (lado izquierdo, visible); armC queda cruzado */
-  var watch = new THREE.Group(); body.add(watch);
-  var wcase = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.1, 0.05, 24), M.silver); wcase.rotation.x = Math.PI / 2; watch.add(wcase);
-  var wface = new THREE.Mesh(new THREE.CircleGeometry(0.08, 24), M.white); wface.position.z = 0.028; watch.add(wface);
-  var wband = new THREE.Mesh(new THREE.TorusGeometry(0.13, 0.03, 8, 24), M.dark); wband.rotation.y = Math.PI / 2; wband.visible = false; watch.add(wband);
 
-  var P = {
-    crossE: { "-1": V(-0.84, -0.5, 0.3), "1": V(0.84, -0.5, 0.26) },
-    crossW: { "-1": V(0.56, -0.42, 0.7), "1": V(-0.6, -0.56, 0.54) },
-    upE: { "-1": V(-1.1, 0.5, 0.25), "1": V(1.1, 0.5, 0.25) },
-    upW: { "-1": V(-1.02, 1.5, 0.3), "1": V(1.02, 1.5, 0.3) }
-  };
-  function poseArm(arm, k, w, t) { /* k: 0 = cruzado, 1 = levantado; w = oscilación del saludo */
-    var sd = String(arm.sd), S = V(0.62 * arm.sd, 0.52, 0.02);
-    arm.E.lerpVectors(P.crossE[sd], P.upE[sd], k);
-    arm.W.lerpVectors(P.crossW[sd], P.upW[sd], k); arm.W.x += w * arm.sd * 0.22 * k;
-    place(arm.up, S, arm.E); place(arm.fo, arm.E, arm.W);
-    var dir = new THREE.Vector3().subVectors(arm.W, arm.E).normalize(), cuffA = arm.W.clone().addScaledVector(dir, -0.22);
-    place(arm.cuff, cuffA, arm.W);
-    arm.sh.position.copy(S); arm.el.position.copy(arm.E); arm.hand.position.copy(arm.W).addScaledVector(dir, 0.1);
+  function onLoad(gltf) {
+    model = gltf.scene;
+    model.traverse(function (o) {
+      if (o.isMesh) {
+        o.frustumCulled = false;                      /* evita que desaparezca al animarse los huesos */
+        var ms = Array.isArray(o.material) ? o.material : [o.material];
+        ms.forEach(function (m) {
+          if (!m) return;
+          if (m.map) m.map.colorSpace = THREE.SRGBColorSpace;
+          if (m.emissiveMap) m.emissiveMap.colorSpace = THREE.SRGBColorSpace;
+          if ("envMapIntensity" in m) m.envMapIntensity = 0.6;
+          m.needsUpdate = true;
+        });
+      }
+    });
+
+    /* encuadre automático: escala, centra y apoya los pies en y = 0 */
+    var box = new THREE.Box3().setFromObject(model), size = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3());
+    var k = TARGET_H / Math.max(size.y, 0.0001);
+    model.scale.setScalar(k);
+    model.position.set(-c.x * k, -box.min.y * k, -c.z * k);
+    model.rotation.y = FACE_Y;
+    holder.add(model);
+    holder.position.y = -TARGET_H / 2;
+
+    /* huesos / nodos para el seguimiento del cursor (si no hay, gira todo el modelo) */
+    head = pickBone(/(^|[^a-z])head($|[^a-z])|mixamorig:?head$|^cabeza$/i, /top|end|hair|helmet|ear|eye|jaw/i);
+    neck = pickBone(/(^|[^a-z])neck($|[^a-z])|mixamorig:?neck$|^cuello$/i, /end/i);
+    chest = pickBone(/spine2|upper.?chest|(^|[^a-z])chest($|[^a-z])|spine1/i);
+    [head, neck, chest].forEach(function (b) { if (b) b.userData.rest = b.quaternion.clone(); });
+
+    if (!head) { model.traverse(function (o) { if (!deform && o.isMesh) deform = setupDeform(o); }); }
+
+    /* si el GLB trae su propia animación (p. ej. reposo), se reproduce en bucle debajo del seguimiento */
+    if (gltf.animations && gltf.animations.length && !reduced) {
+      mixer = new THREE.AnimationMixer(model);
+      var idle = gltf.animations.find(function (a) { return /idle|reposo|breath/i.test(a.name); }) || gltf.animations[0];
+      mixer.clipAction(idle).play();
+    }
+
+    size_();
+    orbit.classList.remove("orbit--loading");
+    orbit.classList.add("has-3d", "orbit--glb");
+    size_();
+    frame(performance.now());
+    if (reduced) { addEventListener("resize", function () { frame(performance.now()); }); return; }
+    if ("IntersectionObserver" in window) new IntersectionObserver(function (e) { visible = e[0].isIntersecting; if (visible) kick(); }).observe(orbit);
+    document.addEventListener("visibilitychange", kick);
+    kick();
   }
-  poseArm(armW, 0, 0, 0); poseArm(armC, 0, 0, 0);
 
-  /* objetos flotantes: cruz, píldora y esfera */
-  var floaters = [];
-  var fx1 = cross(0.42, M.teal); fx1.position.set(1.65, 1.3, 0.2); root.add(fx1); floaters.push({ o: fx1, y: 1.3, p: 0, s: 0.9 });
-  var pill = new THREE.Group();
-  var ph1 = new THREE.Mesh(new THREE.CapsuleGeometry(0.1, 0.22, 6, 16), M.white), ph2 = new THREE.Mesh(new THREE.CapsuleGeometry(0.1, 0.22, 6, 16), M.teal);
-  ph1.position.y = 0.17; ph2.position.y = -0.17; pill.add(ph1); pill.add(ph2); pill.rotation.z = 0.7; pill.position.set(-1.75, 0.5, 0.3); root.add(pill); floaters.push({ o: pill, y: 0.5, p: 2, s: 1.1 });
-  var orb = new THREE.Mesh(new THREE.SphereGeometry(0.13, 20, 20), M.teal); orb.position.set(1.55, -0.3, 0.4); root.add(orb); floaters.push({ o: orb, y: -0.3, p: 4, s: 1.3 });
-
-  /* tamaño del canvas */
-  function size() {
+  function size_() {
     var w = Math.max(orbit.clientWidth, 1), h = Math.max(orbit.clientHeight, 1);
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
-    camera.position.z = w / h < 0.85 ? 12 : 11.5;
+    /* que el médico entre completo aunque el contenedor sea angosto */
+    var fovV = THREE.MathUtils.degToRad(camera.fov), need = (TARGET_H * 1.18) / 2 / Math.tan(fovV / 2);
+    var needW = (TARGET_H * 0.62) / 2 / (Math.tan(fovV / 2) * camera.aspect);
+    camera.position.z = Math.max(need, needW);
     camera.updateProjectionMatrix();
   }
-  var cv = renderer.domElement; cv.className = "orbit__gl"; orbit.appendChild(cv); size();
-  if ("ResizeObserver" in window) new ResizeObserver(size).observe(orbit); else addEventListener("resize", size);
+  if ("ResizeObserver" in window) new ResizeObserver(function () { size_(); if (reduced && model) frame(performance.now()); }).observe(orbit); else addEventListener("resize", size_);
 
-  /* estado de animación */
-  var tx = 0, ty = 0, hx = 0, hy = 0, visible = true, raf = 0, t0 = performance.now(), cheer = -10, lastBlink = 0, blinkT = -1, waveAmt = 0, cheerAmt = 0;
+  /* 4) seguimiento del cursor: se mide desde el centro del propio médico */
   if (fine && !reduced) {
-    addEventListener("pointermove", function (e) { tx = (e.clientX / innerWidth - 0.5) * 2; ty = (e.clientY / innerHeight - 0.5) * 2; }, { passive: true });
+    addEventListener("pointermove", function (e) {
+      var r = orbit.getBoundingClientRect(), cx = r.left + r.width / 2, cy = r.top + r.height * 0.28;
+      tx = Math.max(-1, Math.min(1, (e.clientX - cx) / (innerWidth * 0.5)));
+      ty = Math.max(-1, Math.min(1, (e.clientY - cy) / (innerHeight * 0.5)));
+    }, { passive: true });
   }
-  window.addEventListener("fx:correct", function () { cheer = (performance.now() - t0) / 1000; if (!reduced) kick(); });
+  window.addEventListener("fx:correct", function () { hop = (performance.now() - t0) / 1000; if (!reduced && model) kick(); });
 
-  function ease(v, a, k) { return v + (a - v) * k; }
+  var qWorld = new THREE.Quaternion(), qDelta = new THREE.Quaternion(), qParent = new THREE.Quaternion(), qLocal = new THREE.Quaternion(), eul = new THREE.Euler();
+  /* gira un hueso en ejes del MUNDO (da igual cómo estén orientados sus ejes locales) */
+  function turn(bone, rx, ry) {
+    if (!bone || !bone.parent) return;
+    eul.set(rx, ry, 0, "YXZ"); qDelta.setFromEuler(eul);
+    bone.parent.updateWorldMatrix(true, false);
+    bone.parent.getWorldQuaternion(qParent);
+    qLocal.copy(qParent).invert().multiply(qDelta).multiply(qParent);
+    bone.quaternion.copy(qLocal).multiply(bone.userData.rest);
+    bone.updateWorldMatrix(false, true);
+  }
 
+  var last = performance.now();
   function frame(now) {
     raf = 0;
+    var dt = Math.min((now - last) / 1000, 0.1); last = now;
     var t = (now - t0) / 1000;
+    if (mixer) mixer.update(dt);
     if (!reduced) {
-      /* respiración */
-      var br = Math.sin(t * 1.8);
-      body.scale.set(1 + br * 0.006, 1 + br * 0.012, 1 + br * 0.006);
-      /* brazos cruzados; cada 6 s el brazo izquierdo se descruza y saluda; al acertar, celebra con los dos */
-      var cycle = t % 6, wantWave = cycle < 2.4 ? 1 : 0, c = t - cheer, cheering = c >= 0 && c < 1.6;
-      waveAmt = ease(waveAmt, wantWave || cheering ? 1 : 0, 0.08);
-      cheerAmt = ease(cheerAmt, cheering ? 1 : 0, 0.1);
-      poseArm(armW, waveAmt, Math.sin(t * 8), t);
-      poseArm(armC, cheerAmt, Math.sin(t * 9), t);
-      /* reloj en la muñeca que queda arriba */
-      var wp = armW.W.clone().lerp(armW.E, 0.2); watch.position.set(wp.x, wp.y, wp.z + 0.13); watch.rotation.set(0, 0, 0); watch.visible = waveAmt < 0.4;
-      /* salto de celebración */
-      root.position.y = cheering ? Math.abs(Math.sin(c * 6.4)) * 0.38 * (1 - c / 1.6) : ease(root.position.y, 0, 0.2);
-      /* parpadeo */
-      if (t - lastBlink > 3.4) { lastBlink = t + Math.random() * 1.2; blinkT = t; }
-      var bl = blinkT > 0 ? Math.max(0, 1 - Math.abs((t - blinkT) / 0.08 - 1)) : 0;
-      eyes.forEach(function (e) { e.scale.y = 1 - bl * 0.92; });
-      /* flotantes */
-      floaters.forEach(function (f) { f.o.position.y = f.y + Math.sin(t * f.s + f.p) * 0.12; f.o.rotation.y = t * 0.6 + f.p; });
-      ringBack.rotation.z = t * 0.1;
-      /* cabeza y cuerpo siguen el mouse */
-      hx = ease(hx, tx, 0.06); hy = ease(hy, ty, 0.06);
-      head.rotation.y = hx * 0.55; head.rotation.x = hy * 0.3 + Math.sin(t * 1.1) * 0.015; head.rotation.z = hx * -0.05;
-      body.rotation.y = hx * 0.18;
+      /* 5) respiración en bucle: pecho que sube y baja, anclada en los pies */
+      var b = Math.sin(t * 1.9);
+      holder.scale.set(1 + b * 0.004, 1 + b * 0.011, 1 + b * 0.004);
+      /* salto de alegría al acertar en el quiz */
+      var h = t - hop;
+      holder.position.y = -TARGET_H / 2 + (h >= 0 && h < 0.9 ? Math.abs(Math.sin(h * 3.5)) * 0.3 * (1 - h / 0.9) : 0);
+      var kf = 1 - Math.exp(-Math.min(dt, 0.1) * 7);   /* suavizado independiente de los fps */
+      hx += (tx - hx) * kf; hy += (ty - hy) * kf;
+      if (head) {
+        turn(chest, hy * 0.05 + b * 0.012, hx * 0.1);
+        turn(neck, hy * 0.12, hx * 0.25);
+        turn(head, hy * 0.2, hx * 0.45);
+      } else if (deform) {
+        /* sin huesos: la cabeza gira por shader; el cuerpo acompaña muy poco */
+        deform.uYaw.value = hx * 0.55; deform.uPitch.value = hy * 0.28; deform.uBreath.value = b * 0.018;
+        holder.rotation.y = hx * 0.1; holder.rotation.x = 0;
+      } else {
+        holder.rotation.y = hx * 0.4; holder.rotation.x = hy * 0.1;       /* último recurso: gira todo el modelo */
+      }
     }
     renderer.render(scene, camera);
     if (!reduced && visible && document.visibilityState === "visible") raf = requestAnimationFrame(frame);
   }
-  function kick() { if (!raf) raf = requestAnimationFrame(frame); }
+  function kick() { if (!raf && model) raf = requestAnimationFrame(frame); }
 
-  frame(performance.now());
-  orbit.classList.add("has-3d");
-  if (reduced) { poseArm(armW, 0.9, 0, 0); frame(performance.now()); addEventListener("resize", function () { frame(performance.now()); }); return; }
-  if ("IntersectionObserver" in window) new IntersectionObserver(function (e) { visible = e[0].isIntersecting; if (visible) kick(); }).observe(orbit);
-  document.addEventListener("visibilitychange", kick);
-  kick();
+  /* si no hay modelo, se usa el médico procedural */
+  function fallback(reason) {
+    if (window.console) console.warn("[hero3d] " + reason + " → médico de respaldo");
+    try { renderer.dispose(); if (cv.parentNode) cv.parentNode.removeChild(cv); } catch (e) {}
+    orbit.classList.remove("orbit--loading");
+    import("./hero3d-fallback.js?v=1").catch(function () {});
+  }
 })();

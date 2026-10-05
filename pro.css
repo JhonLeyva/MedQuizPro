@@ -326,3 +326,22 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
 .orbit.has-3d::before { display: none; }
 [data-theme="dark"] .demo { background: linear-gradient(180deg, rgb(22, 34, 54), rgb(13, 21, 38)); }
 .hero__copy { position: relative; z-index: 2; }
+
+/* ============ 16. Médico GLB: a la derecha de la tarjeta ============ */
+.orbit--loading i, .orbit--loading::before { opacity: 0; }
+.orbit.has-3d.orbit--glb::before { display: none; }
+@media (min-width: 1100px) {
+  :root { --fx-space: calc((100vw - min(100vw, 1200px)) / 2 + 24px); }
+  .hero-demo:has(.orbit--glb) { padding-right: clamp(90px, 8.5vw, 140px); }
+  .hero-demo:has(.orbit--glb) .float-card--score { right: clamp(90px, 8.5vw, 140px); }
+  .orbit.has-3d.orbit--glb { inset: auto; left: auto; top: 0; bottom: -2%; right: calc(-1 * min(76px, var(--fx-space))); width: clamp(260px, 25vw, 340px); height: auto; z-index: 2; }
+}
+@media (max-width: 1099.98px) {
+  .orbit.has-3d.orbit--glb { position: relative; inset: auto; z-index: auto; width: min(100%, 300px); height: 340px; margin: -8px auto -48px; }
+}
+
+@media (min-width: 1100px) {
+  .hero-demo:has(.orbit--glb) { padding-right: clamp(128px, 10.5vw, 150px); }
+  .hero-demo:has(.orbit--glb) .float-card--score { right: clamp(128px, 10.5vw, 150px); }
+  .orbit.has-3d.orbit--glb { width: clamp(240px, 22vw, 300px); right: calc(-1 * min(96px, max(0px, var(--fx-space) - 10px))); }
+}
