@@ -519,6 +519,38 @@ def espirograma():
     guardar(fig, "dib_espirograma.jpg")
 
 
+def galeazzi():
+    """Displasia de cadera izquierda: signo de Galeazzi (rodilla izquierda más baja con caderas y rodillas flexionadas)
+    y pliegues del muslo asimétricos (vista posterior)."""
+    from matplotlib.patches import FancyBboxPatch, Ellipse, Arc
+    fig, ax = lienzo(100, 62)
+    PIEL, BORDE = "#f6dccb", "#9a6b52"
+    # panel 1: de frente, rodillas flexionadas (izquierda del paciente = derecha del dibujo)
+    ax.plot([3, 47], [52, 52], color=GRIS, lw=3)
+    for x0, top, col in ((12, 18, BORDE), (28, 26, ROJO)):
+        ax.add_patch(FancyBboxPatch((x0, top), 9, 52 - top, boxstyle="round,pad=1.2", fc=PIEL, ec=col, lw=2.5, zorder=2))
+        ax.add_patch(Ellipse((x0 + 4.5, top), 11, 6, fc=PIEL, ec=col, lw=2.5, zorder=3))
+    ax.plot([8, 44], [18, 18], color="#2563eb", lw=1.6, ls="--", zorder=4)
+    ax.annotate("", xy=(42, 26), xytext=(42, 18), arrowprops=dict(arrowstyle="<->", lw=2, color="#2563eb"), zorder=5)
+    rot(ax, 16.5, 57, "derecha", 12, GRIS, w="normal"); rot(ax, 32.5, 57, "izquierda", 12, ROJO)
+    rot(ax, 25, 5, "Signo de Galeazzi", 15, TINTA)
+    rot(ax, 25, 10.5, "rodilla izquierda más baja", 12, ROJO, w="normal")
+    ax.plot([50, 50], [3, 60], color="#cbd5e1", lw=1.5, ls="--")
+    # panel 2: vista posterior, pliegues (izquierda del paciente = izquierda del dibujo)
+    for cx, n, col in ((64, 3, ROJO), (84, 2, BORDE)):
+        ax.add_patch(Ellipse((cx, 22), 19, 16, fc=PIEL, ec=BORDE, lw=2, zorder=1))
+        ax.add_patch(FancyBboxPatch((cx - 7, 27), 14, 25, boxstyle="round,pad=1", fc=PIEL, ec=BORDE, lw=2, zorder=1))
+        for k in range(n):
+            yy = 31 + k * 6
+            ax.add_patch(Arc((cx, yy), 12, 4, theta1=200, theta2=340, color=col, lw=2.4, zorder=3))
+    ax.plot([74, 74], [15, 29], color=BORDE, lw=2, zorder=2)
+    rot(ax, 64, 57, "izquierda", 12, ROJO); rot(ax, 84, 57, "derecha", 12, GRIS, w="normal")
+    rot(ax, 74, 5, "Pliegues asimétricos", 15, TINTA)
+    rot(ax, 74, 10.5, "vista de espaldas", 12, GRIS, w="normal")
+    guardar(fig, "dib_galeazzi.jpg")
+
+
+HACER["galeazzi"] = galeazzi
 HACER["hilio_pulmonar"] = hilio_pulmonar
 HACER["lobulos_pulmon"] = lobulos_pulmon
 HACER["espirograma"] = espirograma

@@ -239,3 +239,7 @@ if hacer("hig_metas.jpg"):
 if hacer("podagra.jpg"):
     # Gonzosft · Commons · CC BY 3.0 de (Podagra.jpg): la flecha negra es de la foto original
     guardar(Image.open("orig/podagra.jpg").convert("RGB"), "podagra.jpg", 500, 88)
+
+if hacer("bitot.jpg"):
+    # CDC/Nutrition Program · Commons · dominio público (Bitot.jpg): mancha espumosa en la conjuntiva bulbar
+    guardar(Image.open("orig/bitot.jpg").convert("RGB"), "bitot.jpg", 400, 88)
