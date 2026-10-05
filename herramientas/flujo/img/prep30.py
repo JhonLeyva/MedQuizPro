@@ -243,3 +243,7 @@ if hacer("podagra.jpg"):
 if hacer("bitot.jpg"):
     # CDC/Nutrition Program · Commons · dominio público (Bitot.jpg): mancha espumosa en la conjuntiva bulbar
     guardar(Image.open("orig/bitot.jpg").convert("RGB"), "bitot.jpg", 400, 88)
+
+if hacer("escafoides.jpg"):
+    # Jarraya et al. · Commons · CC BY 3.0 (Scaphoid fracture with a radiolucent line after 12 days.jpg): la flecha es de la imagen original
+    guardar(Image.open("orig/escafoides.jpg").convert("RGB"), "escafoides.jpg", 330, 90)
