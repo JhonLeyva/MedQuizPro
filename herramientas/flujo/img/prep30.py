@@ -265,3 +265,19 @@ if hacer("drepano.jpg"):
 if hacer("pitiriasis.jpg"):
     # CDC · Commons · dominio público (PityriasisOnChest.jpg): máculas hipopigmentadas en el tórax; recorte sin cuello
     guardar(Image.open("orig/pitiriasis.jpg").convert("RGB").crop((0, 40, 330, 245)), "pitiriasis.jpg", 330, 90)
+
+if hacer("hemotorax_a.jpg"):
+    # Abdalrahman et al. · Cureus 2026 · PMC13536977 · CC BY 4.0 (fig. 2): hemoneumotórax derecho con nivel líquido
+    guardar(Image.open("orig/hemotorax_a.jpg").convert("RGB"), "hemotorax_a.jpg", 300, 88)
+if hacer("hemotorax_b.jpg"):
+    # Abdalrahman et al. · Cureus 2026 · PMC13536977 · CC BY 4.0 (fig. 7): tras el tubo de tórax
+    guardar(Image.open("orig/hemotorax_b.jpg").convert("RGB"), "hemotorax_b.jpg", 300, 88)
+if hacer("hdc.jpg"):
+    # Hellerhoff · Commons · CC BY-SA 3.0 (Kongenitale Zwerchfellhernie links - Roe ap 001.jpg): asas en el hemitórax izquierdo, mediastino a la derecha
+    guardar(Image.open("orig/hdc.jpg").convert("RGB"), "hdc.jpg", 300, 88)
+if hacer("luxacion_hombro.jpg"):
+    # Mikael Häggström · Commons · CC0 (Shoulder dislocation, anteroposterior before reduction.jpg)
+    guardar(Image.open("orig/luxacion_hombro.jpg").convert("RGB").crop((0, 0, 500, 640)), "luxacion_hombro.jpg", 260, 88)
+if hacer("colecistitis_eco.jpg"):
+    # Cerevisae · Commons · CC BY-SA 4.0 (Acute cholecystitis as seen on ultrasound axial view.jpg); recorte sin rótulos en inglés
+    guardar(Image.open("orig/colecistitis_eco.jpg").convert("RGB").crop((300, 120, 652, 560)), "colecistitis_eco.jpg", 300, 88)
