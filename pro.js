@@ -56,6 +56,52 @@
     })(t);
   });
 
+
+  /* títulos de sección: palabras que suben al entrar (el .reveal existente dispara .is-in) */
+  safe("headings", function () {
+    Array.prototype.forEach.call(document.querySelectorAll(".sec-head h2, .signup h2, .final-cta h2"), function (h) {
+      if (!h.closest(".reveal")) return;
+      var i = 0;
+      (function walk(node) {
+        Array.prototype.slice.call(node.childNodes).forEach(function (c) {
+          if (c.nodeType === 3) {
+            var frag = document.createDocumentFragment();
+            c.textContent.split(/(\s+)/).forEach(function (p) {
+              if (!p) return;
+              if (/^\s+$/.test(p)) { frag.appendChild(document.createTextNode(" ")); return; }
+              var w = document.createElement("span"), s = document.createElement("span");
+              w.className = "wd"; s.textContent = p; s.style.setProperty("--i", i++); w.appendChild(s); frag.appendChild(w);
+            });
+            node.replaceChild(frag, c);
+          } else if (c.nodeType === 1) walk(c);
+        });
+      })(h);
+    });
+  });
+
+  /* navegación lateral por secciones (la página es larga) */
+  safe("dots", function () {
+    if (!("IntersectionObserver" in window)) return;
+    var map = [["top", "Inicio"], ["examenes", "Exámenes"], ["bancos", "Bancos"], ["simulacros", "Simuladores"], ["como-funciona", "Cómo funciona"],
+      ["ventajas", "Ventajas"], ["plataforma", "Plataforma"], ["precios", "Planes"], ["registro", "Registro"], ["faq", "Preguntas"]];
+    var ul = document.createElement("ul"); ul.className = "fx-dots"; ul.setAttribute("aria-label", "Secciones de la página");
+    var links = {}, els = [];
+    map.forEach(function (m) {
+      var el = document.getElementById(m[0]); if (!el) return;
+      var li = document.createElement("li"), a = document.createElement("a");
+      a.href = "#" + m[0]; a.setAttribute("aria-label", m[1]); a.innerHTML = "<span>" + m[1] + "</span>";
+      li.appendChild(a); ul.appendChild(li); links[m[0]] = a; els.push(el);
+    });
+    document.body.appendChild(ul);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        Object.keys(links).forEach(function (k) { links[k].classList.toggle("is-active", k === e.target.id); });
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    els.forEach(function (el) { io.observe(el); });
+  });
+
   safe("quiz", function () {
     var demo = document.getElementById("quiz"), stem = document.getElementById("qStem"); if (!demo || !stem || !window.MutationObserver) return;
     new MutationObserver(function () { demo.classList.remove("fx-swap"); void demo.offsetWidth; demo.classList.add("fx-swap"); })
