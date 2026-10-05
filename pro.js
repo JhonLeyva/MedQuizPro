@@ -29,6 +29,7 @@
         var tx = 0, ty = 0, cx = 0, cy = 0, raf = 0;
         function step() { cx += (tx - cx) * .08; cy += (ty - cy) * .08; orbit.style.transform = "translate3d(" + cx.toFixed(1) + "px," + cy.toFixed(1) + "px,0)"; raf = (Math.abs(tx - cx) + Math.abs(ty - cy) > .1) ? requestAnimationFrame(step) : 0; }
         hero.addEventListener("pointermove", function (e) {
+          if (orbit.classList.contains("has-3d")) return;
           var r = hero.getBoundingClientRect();
           tx = ((e.clientX - r.left) / r.width - .5) * -36; ty = ((e.clientY - r.top) / r.height - .5) * -24;
           if (!raf) raf = requestAnimationFrame(step);
@@ -147,6 +148,7 @@
     new MutationObserver(function () {
       if (fb.hidden || !/correct/i.test(verdict ? verdict.textContent : "") || /incorrect/i.test(verdict ? verdict.textContent : "")) return;
       if (ring) { ring.classList.remove("fx-pop"); void ring.offsetWidth; ring.classList.add("fx-pop"); }
+      window.dispatchEvent(new CustomEvent("fx:correct"));
       if (!fb.animate) return;
       for (var i = 0; i < 14; i++) {
         var p = document.createElement("i"); p.className = "fx-burst"; p.style.left = "22px"; p.style.top = "12px"; if (i % 3 === 0) p.style.background = "#fff";
