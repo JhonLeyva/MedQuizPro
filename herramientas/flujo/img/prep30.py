@@ -247,3 +247,10 @@ if hacer("bitot.jpg"):
 if hacer("escafoides.jpg"):
     # Jarraya et al. · Commons · CC BY 3.0 (Scaphoid fracture with a radiolucent line after 12 days.jpg): la flecha es de la imagen original
     guardar(Image.open("orig/escafoides.jpg").convert("RGB"), "escafoides.jpg", 330, 90)
+
+if hacer("urato.jpg"):
+    # Gabriel Caponetti · Commons · CC BY-SA 3.0: cristales de urato monosódico con luz polarizada y compensador rojo
+    guardar(Image.open("orig/urato.jpg").convert("RGB").crop((240, 100, 760, 490)), "urato.jpg", 380, 88)
+if hacer("nec.jpg"):
+    # Hellerhoff · Commons · CC BY-SA 4.0: neumatosis intestinal (y portal) en enterocolitis necrotizante
+    guardar(Image.open("orig/nec.jpg").convert("RGB"), "nec.jpg", 380, 88)
