@@ -38,7 +38,7 @@ CATALOGO = [
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
 HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
-          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica", "calendario"}
+          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica", "calendario", "gasometria"}
 
 
 def _img_h(im):
@@ -1052,7 +1052,51 @@ def calendario(s, y, d):
     return _fin(s, y, d)
 
 
+# ════════════════════════════════════════════════════════════ 33 GASOMETRÍA PASO A PASO
+def gasometria(s, y, d):
+    """Arriba, la gasometría del caso en fichas (pH, PaCO₂, HCO₃⁻, ...) con su flecha; abajo, los pasos de lectura
+    en escalera (pregunta → dato → conclusión), cada paso con su resultado, y el diagnóstico final."""
+    y = section(s, y + 10, d["rotulo"])
+    W = X1 - X0
+    vals = d["valores"]               # [(nombre, valor, normal, '↑'|'↓'|'=')]
+    n = len(vals)
+    g = 10
+    cw = (W - g * (n - 1)) / n
+    COL = {"↑": ("#dc2626", "#fef2f2"), "↓": ("#2563eb", "#eff6ff"), "=": ("#15803d", "#f0fdf4")}
+    for i, (nm, val, ref, fl) in enumerate(vals):
+        x = X0 + i * (cw + g)
+        fg, bg = COL[fl]
+        s.rect(x, y, cw, 78, bg, fg, 1.6, rx=12)
+        s.text(x + cw / 2, y + 20, nm, 11, 800, SLATE, maxw=cw - 12)
+        s.text(x + cw / 2, y + 48, val + ("" if fl == "=" else " " + fl), 20, 800, fg, maxw=cw - 12)
+        s.text(x + cw / 2, y + 68, "normal " + ref, 9.5, 600, MUTED, maxw=cw - 12)
+    y += 92
+    pasos = d["pasos"]                # [(pregunta, dato, conclusión, on)]
+    QW, DW = 250, 230
+    CWd = W - QW - DW - 40
+    for k, (q, dato, conc, on) in enumerate(pasos):
+        ql = wrap(q, QW - 50, 12, True)
+        dl = wrap(dato, DW - 24, 11.5)
+        cl = wrap(conc, CWd - 24, 12, True)
+        h = max(len(ql) * 17, len(dl) * 16, len(cl) * 17) + 24
+        s.rect(X0, y, QW, h, "#f8fafc", LINE, 1.2, rx=10)
+        s.circle(X0 + 20, y + h / 2, 12, TEAL)
+        s.text(X0 + 20, y + h / 2 + 4.5, str(k + 1), 12, 800, "#ffffff", maxw=0)
+        s.text(X0 + 40, y + h / 2 + 4 - (len(ql) - 1) * 8.5, ql, 12, 800, INK, "start", QW - 50, lh=17)
+        s.arrow_right(X0 + QW + 3, X0 + QW + 17, y + h / 2, TEAL)
+        x2 = X0 + QW + 20
+        s.rect(x2, y, DW, h, "#ffffff", LINE, 1.2, rx=10)
+        s.text(x2 + 12, y + h / 2 + 4 - (len(dl) - 1) * 8, dl, 11.5, 500, "#334155", "start", DW - 24, lh=16)
+        s.arrow_right(x2 + DW + 3, x2 + DW + 17, y + h / 2, TEAL)
+        x3 = x2 + DW + 20
+        s.rect(x3, y, CWd, h, ORANGE_L if on else TEAL_L, ORANGE if on else TEAL, 2 if on else 1.2, rx=10)
+        s.text(x3 + 12, y + h / 2 + 4 - (len(cl) - 1) * 8.5, cl, 12, 800, "#9a3412" if on else TEAL_D, "start", CWd - 24, lh=17)
+        y += h + 8
+    y -= 8
+    return _fin(s, y, d)
+
+
 LAYOUTS9 = {"lectura": lectura, "zonas": zonas, "regla": regla, "decision": decision, "cuadricula": cuadricula,
             "alarma": alarma, "cascada": cascada, "checklist": checklist, "monitor": monitor, "piramide": piramide,
             "grados_foto": grados_foto, "laboratorio": laboratorio,
-            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa, "grafica": grafica, "calendario": calendario}
+            "reloj": reloj, "transmision": transmision, "dosis": dosis, "ecg_mapa": ecg_mapa, "grafica": grafica, "calendario": calendario, "gasometria": gasometria}
