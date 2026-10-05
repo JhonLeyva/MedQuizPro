@@ -11,8 +11,12 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 (function () {
   "use strict";
   var MODEL_URL = "medico.glb";
-  var FACE_Y = 0;          /* giro extra (radianes) si tu modelo no mira de frente a la cámara */
-  var TARGET_H = 3.9;      /* altura del médico en unidades de la escena */
+  var FACE_Y = 0;            /* orientación inicial: 0 = de frente a la cámara (cambia solo si tu modelo mira a otro lado) */
+  var TARGET_H = 3.9;        /* altura base del médico en unidades de la escena */
+  var MODEL_SCALE = 0.88;    /* escala final: 1 = tamaño base; menor = más pequeño */
+  var maxRotationY = 0.15;   /* giro máximo de la cabeza a izquierda/derecha (radianes) */
+  var maxRotationX = 0.1;    /* giro máximo de la cabeza arriba/abajo (radianes) */
+  var H3 = TARGET_H * MODEL_SCALE;   /* altura final usada para encuadrar */
 
   var orbit = document.querySelector(".hero .orbit");
   if (!orbit) return;
@@ -140,12 +144,12 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 
     /* encuadre automático: escala, centra y apoya los pies en y = 0 */
     var box = new THREE.Box3().setFromObject(model), size = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3());
-    var k = TARGET_H / Math.max(size.y, 0.0001);
+    var k = H3 / Math.max(size.y, 0.0001);
     model.scale.setScalar(k);
     model.position.set(-c.x * k, -box.min.y * k, -c.z * k);
     model.rotation.y = FACE_Y;
     holder.add(model);
-    holder.position.y = -TARGET_H / 2;
+    holder.position.y = -H3 / 2;
 
     /* huesos / nodos para el seguimiento del cursor (si no hay, gira todo el modelo) */
     head = pickBone(/(^|[^a-z])head($|[^a-z])|mixamorig:?head$|^cabeza$/i, /top|end|hair|helmet|ear|eye|jaw/i);
@@ -178,8 +182,8 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     /* que el médico entre completo aunque el contenedor sea angosto */
-    var fovV = THREE.MathUtils.degToRad(camera.fov), need = (TARGET_H * 1.18) / 2 / Math.tan(fovV / 2);
-    var needW = (TARGET_H * 0.62) / 2 / (Math.tan(fovV / 2) * camera.aspect);
+    var fovV = THREE.MathUtils.degToRad(camera.fov), need = (H3 * 1.18) / 2 / Math.tan(fovV / 2);
+    var needW = (H3 * 0.5) / 2 / (Math.tan(fovV / 2) * camera.aspect);
     camera.position.z = Math.max(need, needW);
     camera.updateProjectionMatrix();
   }
@@ -193,6 +197,8 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
       ty = Math.max(-1, Math.min(1, (e.clientY - cy) / (innerHeight * 0.5)));
     }, { passive: true });
   }
+  document.addEventListener("pointerleave", function () { tx = 0; ty = 0; });
+  window.addEventListener("pointerout", function (e) { if (!e.relatedTarget) { tx = 0; ty = 0; } });
   window.addEventListener("fx:correct", function () { hop = (performance.now() - t0) / 1000; if (!reduced && model) kick(); });
 
   var qWorld = new THREE.Quaternion(), qDelta = new THREE.Quaternion(), qParent = new THREE.Quaternion(), qLocal = new THREE.Quaternion(), eul = new THREE.Euler();
@@ -219,19 +225,19 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
       holder.scale.set(1 + b * 0.004, 1 + b * 0.011, 1 + b * 0.004);
       /* salto de alegría al acertar en el quiz */
       var h = t - hop;
-      holder.position.y = -TARGET_H / 2 + (h >= 0 && h < 0.9 ? Math.abs(Math.sin(h * 3.5)) * 0.3 * (1 - h / 0.9) : 0);
+      holder.position.y = -H3 / 2 + (h >= 0 && h < 0.9 ? Math.abs(Math.sin(h * 3.5)) * 0.3 * (1 - h / 0.9) : 0);
       var kf = 1 - Math.exp(-Math.min(dt, 0.1) * 7);   /* suavizado independiente de los fps */
       hx += (tx - hx) * kf; hy += (ty - hy) * kf;
       if (head) {
-        turn(chest, hy * 0.05 + b * 0.012, hx * 0.1);
-        turn(neck, hy * 0.12, hx * 0.25);
-        turn(head, hy * 0.2, hx * 0.45);
+        turn(chest, b * 0.012, 0);
+        turn(neck, hy * maxRotationX * 0.4, hx * maxRotationY * 0.4);
+        turn(head, hy * maxRotationX * 0.6, hx * maxRotationY * 0.6);
       } else if (deform) {
         /* sin huesos: la cabeza gira por shader; el cuerpo acompaña muy poco */
-        deform.uYaw.value = hx * 0.55; deform.uPitch.value = hy * 0.28; deform.uBreath.value = b * 0.018;
-        holder.rotation.y = hx * 0.1; holder.rotation.x = 0;
+        deform.uYaw.value = hx * maxRotationY; deform.uPitch.value = hy * maxRotationX; deform.uBreath.value = b * 0.018;
+        holder.rotation.y = 0; holder.rotation.x = 0;                    /* el cuerpo no gira: solo la cabeza, y muy poco */
       } else {
-        holder.rotation.y = hx * 0.4; holder.rotation.x = hy * 0.1;       /* último recurso: gira todo el modelo */
+        holder.rotation.y = hx * maxRotationY; holder.rotation.x = hy * maxRotationX;   /* último recurso: gira todo el modelo, con los mismos límites */
       }
     }
     renderer.render(scene, camera);
