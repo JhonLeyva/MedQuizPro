@@ -333,7 +333,7 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
 @media (min-width: 1280px) {
   :root {
     --fx-space: calc((100vw - min(100vw, 1200px)) / 2 + 24px);       /* margen libre a la derecha del contenedor */
-    --doc-w: clamp(190px, 15vw, 230px);                              /* ancho del lienzo del médico */
+    --doc-w: clamp(215px, 17vw, 260px);                              /* ancho del lienzo del médico */
     --doc-out: min(140px, max(0px, var(--fx-space) - 10px));         /* cuánto sale del contenedor */
     --doc-pad: calc(var(--doc-w) - var(--doc-out) + 4px);            /* espacio que se le quita a la tarjeta */
   }

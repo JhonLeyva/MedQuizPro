@@ -1,8 +1,8 @@
 /* MedQuizPlus — médico 3D del Hero (Three.js + GLTFLoader).
-   Carga ÚNICAMENTE 'Sin_nombre.glb' y mantiene su animación base con un AnimationMixer a velocidad muy baja
-   (CONFIG.animation.timeScale), así se ve vivo y de pie sin bailar. No se fuerza ninguna rotación de brazos.
-   Interactividad: cuello y cabeza siguen el cursor con inercia, limitados a 20°. Materiales opacos y mates (roughness 0.7).
-   Si el .glb no carga, la landing sigue intacta y se usa el médico procedural de hero3d-fallback.js.
+   Carga ÚNICAMENTE 'Sin_nombre.glb' (con parámetro de versión anti-caché) y lo deja FIJO, de pie y erguido
+   (no se reproduce animación). Cuello y cabeza siguen el cursor con inercia, limitados a 20°. Materiales opacos y mates.
+   Si el .glb no carga, la landing sigue intacta y NO se muestra ningún modelo (no hay respaldo).
+   Para reactivar la animación: CONFIG.animation.enabled = true.
 
    Conexión con el proyecto (sin cambios de IDs/clases):
    - pro.js crea  <div class="orbit"> dentro de .hero-demo; pro.css lo coloca a la derecha de la tarjeta del quiz
@@ -20,15 +20,15 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
    rotationY negativo = el médico mira hacia la IZQUIERDA (hacia el texto del Hero).
    ===================================================================== */
 const CONFIG = {
-  modelPath: "Sin_nombre.glb",
-  fallbackModule: "./hero3d-fallback.js?v=1",
+  modelPath: "./Sin_nombre.glb",    // ÚNICO modelo. Sin respaldo ni modelos secundarios
+  modelVersion: "20261006-1",       // anti-caché: cámbialo cada vez que reemplaces el .glb. "now" = Date.now() (descarga el modelo en cada visita)
   baseHeight: 3.4,                  // altura base del médico (escena); 'scale' la multiplica
 
   // Hasta qué ancho de ventana (px) se considera cada dispositivo
   breakpoints: { mobileMax: 767.98, tabletMax: 1279.98 },
 
-  desktop: { scale: 1.0,  positionX: 0, positionY: 0,     positionZ: 0, rotationY: -0.32, rotationX: 0 },
-  tablet:  { scale: 0.9,  positionX: 0, positionY: -0.04, positionZ: 0, rotationY: -0.16, rotationX: 0 },
+  desktop: { scale: 1.0,  positionX: 0, positionY: 0.16,  positionZ: 0, rotationY: -0.32, rotationX: 0 },   // positionY > 0 sube al médico
+  tablet:  { scale: 0.92, positionX: 0, positionY: 0,     positionZ: 0, rotationY: -0.16, rotationX: 0 },
   mobile:  { scale: 0.82, positionX: 0, positionY: -0.1,  positionZ: 0, rotationY: 0,     rotationX: 0 },
 
   interaction: {
@@ -46,13 +46,13 @@ const CONFIG = {
   },
 
   animation: {
-    enabled: true,                  // true = reproduce la animación base de Sin_nombre.glb en bucle; false = pose fija (ver 'pose')
-    timeScale: 0.25,                // velocidad: 1 = normal · 0.2–0.3 = muy lenta: el personaje se ve vivo y de pie, sin bailar
-    lockRootMotion: true            // la cadera no "viaja": el médico se queda en su sitio y el bucle no da saltos
+    enabled: false,                 // false = el médico queda FIJO en una pose de pie (no se llama a mixer.update) · true = reproduce la animación del GLB en bucle
+    timeScale: 0.25,                // solo si enabled = true: 1 = normal · 0.2–0.3 = muy lenta
+    lockRootMotion: true            // solo si enabled = true: la cadera no "viaja"
   },
 
-  pose: {                           // solo con animation.enabled = false o con "reducir movimiento": se muestra la pose inicial del esqueleto, sin tocar ningún hueso
-    time: "rest"
+  pose: {                           // pose fija (animation.enabled = false o "reducir movimiento")
+    time: "rest"                    // "rest" = pose inicial del esqueleto: de pie, erguido, mirando al frente · número = congela ese segundo del clip (el baile casi nunca está de pie)
   },
 
   idle: {                           // respiración y micro-movimiento (seno/coseno). Solo en pose fija; con animación se desactiva. 0 = apagado
@@ -66,8 +66,7 @@ const CONFIG = {
     depthWrite: true,
     roughness: 0.7,                 // telas opacas del ambo y la bata
     metalness: 0.1,
-    sharpenTextures: true,          // anisotropía máxima y filtros mipmap
-    fallbackMaterial: { color: 0xc9d6dc, roughness: 0.6, metalness: 0.1 }   // solo si el GLB no trae textura
+    sharpenTextures: true           // anisotropía máxima y filtros mipmap
   },
 
   look: {
@@ -97,7 +96,7 @@ const CONFIG = {
   var renderer;
   try {
     renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" });
-  } catch (e) { return fallback("sin WebGL"); }
+  } catch (e) { return fail("este navegador no soporta WebGL"); }
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.NoToneMapping;               // colores reales
   renderer.setClearColor(0x000000, 0);
@@ -126,7 +125,7 @@ const CONFIG = {
   anchor.add(group); scene.add(anchor);
 
   /* ---------- estado (todo preasignado: nada se crea dentro del bucle) ---------- */
-  var model = null, mixer = null, clipDuration = 0, poseTimeUsed = 0, clock = new THREE.Clock(false);
+  var model = null, mixer = null, playing = false, clipDuration = 0, clock = new THREE.Clock(false);
   var gaze = { yaw: 0, pitch: 0 };                              // último ángulo aplicado a cuello+cabeza (para depurar)
   var B = {};                                                   // huesos de interacción: neck, head (+ rotación base de cada uno)
   var P = { device: "desktop", cfg: CONFIG.desktop, parallax: 0 }, widthRatio = 0.5;   // ancho que ocupa el médico respecto a su altura
@@ -145,8 +144,9 @@ const CONFIG = {
     var loader = new GLTFLoader();
     var draco = new DRACOLoader(); draco.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5.6/");
     loader.setDRACOLoader(draco); loader.setMeshoptDecoder(MeshoptDecoder);
-    loader.load(CONFIG.modelPath, onLoad, undefined, function (err) { fallback(err && err.message ? err.message : "no se pudo cargar " + CONFIG.modelPath); });
-  } catch (err) { fallback(String(err)); }
+    var ver = CONFIG.modelVersion === "now" ? Date.now() : CONFIG.modelVersion, url = CONFIG.modelPath + (CONFIG.modelPath.indexOf("?") < 0 ? "?" : "&") + "v=" + ver;
+    loader.load(url, onLoad, undefined, function (err) { fail("no se pudo cargar " + url + (err && err.message ? " (" + err.message + ")" : "")); });
+  } catch (err) { fail(String(err)); }
 
   function sharpen(tex, isColor) {
     if (!tex) return;
@@ -158,14 +158,14 @@ const CONFIG = {
   /* Caja del médico con los huesos (con mallas animadas Three.js subestima el tamaño). Si hay animación, se recorre
      todo el clip para que ninguna postura se salga del recuadro. */
   function extents() {
-    var box = new THREE.Box3(), v = new THREE.Vector3(), N = mixer ? 24 : 1, dur = clipDuration, i;
-    if (mixer) mixer.timeScale = 1;
+    var box = new THREE.Box3(), v = new THREE.Vector3(), N = playing ? 24 : 1, dur = clipDuration, i;
+    if (playing) mixer.timeScale = 1;
     for (i = 0; i < N; i++) {
-      if (mixer) mixer.setTime(dur * i / N);
+      if (playing) mixer.setTime(dur * i / N);
       model.updateMatrixWorld(true);
       model.traverse(function (o) { if (o.isBone) { o.getWorldPosition(v); box.expandByPoint(v); } });
     }
-    if (mixer) { mixer.setTime(0); mixer.timeScale = CONFIG.animation.timeScale; model.updateMatrixWorld(true); }
+    if (playing) { mixer.setTime(0); mixer.timeScale = CONFIG.animation.timeScale; model.updateMatrixWorld(true); }
     return box.isEmpty() ? box.setFromObject(model) : box;
   }
 
@@ -176,9 +176,6 @@ const CONFIG = {
         if (!child.isMesh) return;
         child.frustumCulled = false;                             // evita parpadeos con mallas animadas
         if (CONFIG.look.shadows) { child.castShadow = true; child.receiveShadow = true; }   // la ropa se auto-sombrea: da relieve
-        if (!child.material || (!child.material.map && child.material.color && child.material.color.getHex() === 0xffffff && !child.material.vertexColors)) {
-          child.material = new THREE.MeshStandardMaterial(CONFIG.materials.fallbackMaterial);   // GLB sin color: material neutro
-        }
         var C = CONFIG.materials;
         (Array.isArray(child.material) ? child.material : [child.material]).forEach(function (m) {
           if (!m) return;
@@ -202,7 +199,7 @@ const CONFIG = {
       var k = CONFIG.baseHeight / Math.max(size.y, 1e-4);
       model.scale.multiplyScalar(k);
       model.position.set(-c.x * k, -c.y * k, -c.z * k);
-      widthRatio = Math.min(Math.max((size.x / Math.max(size.y, 1e-4)) * 1.2, 0.4), 1.2);   // ancho real durante TODA la animación + margen
+      widthRatio = Math.min(Math.max((size.x / Math.max(size.y, 1e-4)) * 1.1, 0.4), 1.2);   // ancho real durante TODA la animación + margen
       findBones();
       applyResponsive();
       model.updateMatrixWorld(true);
@@ -214,7 +211,7 @@ const CONFIG = {
 
       if (reduced) { frame(); return; }                          // movimiento reducido: pose fija, sin movimiento
       start();
-    } catch (err) { fallback(String(err)); }
+    } catch (err) { fail(String(err)); }
   }
 
   /* ---------- animación incluida en el GLB ---------- */
@@ -227,21 +224,28 @@ const CONFIG = {
   }
   function setupAnimation(clips) {
     var A = CONFIG.animation;
-    if (!A.enabled || reduced || !clips.length) { setupPose(); return; }   // pose fija (también con "reducir movimiento")
+    if (!A.enabled || reduced || !clips.length) { setupPose(clips); return; }   // pose fija (también con "reducir movimiento")
     var clip = clips.slice().sort(function (a, b) { return b.duration - a.duration; })[0];
     if (A.lockRootMotion) lockRoot(clip);
     clipDuration = clip.duration;
     mixer = new THREE.AnimationMixer(model);                  // un único mixer
     var action = mixer.clipAction(clip); action.setLoop(THREE.LoopRepeat, Infinity); action.clampWhenFinished = false; action.play();
-    mixer.timeScale = A.timeScale;                            // velocidad lenta
-    mixer.setTime(0);
-    if (window.console) console.info("[hero3d] animación '" + clip.name + "' (" + clip.duration.toFixed(1) + " s) en bucle a velocidad x" + A.timeScale + ". Animaciones disponibles: " + clips.map(function (c) { return c.name; }).join(", "));
+    mixer.timeScale = A.timeScale; mixer.setTime(0); playing = true;
+    if (window.console) console.info("[hero3d] animación '" + clip.name + "' en bucle a velocidad x" + A.timeScale);
   }
 
   /* ---------- pose fija (sin animación) ---------- */
   function boneByName(n) { return model.getObjectByName("mixamorig" + n) || model.getObjectByName("mixamorig:" + n) || model.getObjectByName(n) || null; }
-  function setupPose() {
-    if (window.console) console.info("[hero3d] pose fija: pose inicial del esqueleto (sin reproducir animación).");
+  function setupPose(clips) {
+    var t = CONFIG.pose.time;
+    if (typeof t === "number" && clips && clips.length) {      // congela UN cuadro del clip; nunca se llama a mixer.update()
+      var clip = clips.slice().sort(function (a, b) { return b.duration - a.duration; })[0];
+      mixer = new THREE.AnimationMixer(model); mixer.clipAction(clip).play(); mixer.setTime(Math.min(Math.max(t, 0), clip.duration));
+      model.updateMatrixWorld(true);
+      if (window.console) console.info("[hero3d] pose fija en el segundo " + t + " del clip '" + clip.name + "'.");
+      return;
+    }
+    if (window.console) console.info("[hero3d] pose fija: pose inicial del esqueleto (de pie, sin reproducir animación).");
   }
 
   /* ---------- huesos de interacción ---------- */
@@ -253,7 +257,7 @@ const CONFIG = {
   /* Restaura la pose base del hueso y le suma un giro en ejes del MUNDO (yaw sobre Y, pitch sobre el eje lateral del cuerpo, roll sobre Z) */
   function turnBone(b, yaw, pitch, roll, axisP) {
     if (!b || !b.parent) return;
-    if (!mixer) b.quaternion.copy(b.userData.base);          // sin mixer hay que volver a la pose base; con mixer los huesos se reescriben cada cuadro
+    if (!playing) b.quaternion.copy(b.userData.base);        // en pose fija hay que volver a la base cada cuadro; con animación el mixer reescribe los huesos
     if (!yaw && !pitch && !roll) return;
     _qa.setFromAxisAngle(AX_Y, yaw); _qb.setFromAxisAngle(axisP, pitch); _qd.copy(_qa).multiply(_qb);
     if (roll) { _qa.setFromAxisAngle(AX_Z, roll); _qd.multiply(_qa); }
@@ -322,13 +326,13 @@ const CONFIG = {
     var dt = Math.min(clock.getDelta(), 0.1);
     elapsed += dt;
     var I = CONFIG.interaction, Id = CONFIG.idle, t = elapsed, live = !reduced;
-    if (mixer && live) mixer.update(dt);                          // la animación avanza SIEMPRE, con o sin cursor
+    if (playing && live) mixer.update(dt);                        // solo si la animación está activada; en pose fija NO se llama
     var k = lerpK(I.rotationLerp, dt);
     cur.ry = THREE.MathUtils.lerp(cur.ry, target.ry, k); cur.rx = THREE.MathUtils.lerp(cur.rx, target.rx, k);
     cur.px = THREE.MathUtils.lerp(cur.px, target.px, k); cur.py = THREE.MathUtils.lerp(cur.py, target.py, k);
 
     /* respiración / micro-movimiento: solo senos y cosenos del tiempo */
-    var still = live && !mixer;                                   // el micro-movimiento (respirar) solo se añade si el cuerpo está en pose fija
+    var still = live && !playing;                                   // el micro-movimiento (respirar) solo se añade si el cuerpo está en pose fija
     var br = still ? Math.sin(t * Id.speed) : 0, sw = still ? Math.sin(t * 0.55) : 0, dr = still ? 1 : 0;
     var h = t - hop, jump = (live && h >= 0 && h < 0.9) ? Math.abs(Math.sin(h * 3.5)) * 0.25 * (1 - h / 0.9) : 0;
     var nod = (live && h >= 0 && h < 0.7) ? Math.sin(h / 0.7 * Math.PI) * 0.22 : 0;
@@ -362,14 +366,13 @@ const CONFIG = {
     new IntersectionObserver(function (e) { visible = e[0].isIntersecting; if (visible) start(); else stopLoop(); }).observe(orbit);
   }
 
-  /* ---------- error / respaldo ---------- */
-  function fallback(reason) {
-    if (window.console) console.warn("[hero3d] " + reason + " → médico de respaldo (la landing sigue funcionando)");
+  /* ---------- error: sin modelos de respaldo ---------- */
+  function fail(reason) {
+    if (window.console) console.error("[hero3d] " + reason + ". No se muestra ningún modelo (no hay respaldo). La landing sigue funcionando.");
     stopLoop();
     try { renderer.dispose(); if (cv.parentNode) cv.parentNode.removeChild(cv); } catch (e) {}
     orbit.classList.remove("orbit--loading", "orbit--glb", "has-3d");
-    orbit.removeAttribute("data-3d");
-    import(CONFIG.fallbackModule).catch(function () {});
+    orbit.style.display = "none";                            // el espacio del médico desaparece: no queda ni un modelo ni un anillo decorativo
   }
 
   /* @debug-hook */
