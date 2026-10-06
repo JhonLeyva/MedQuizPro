@@ -19,7 +19,7 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
    rotationY negativo = el médico mira hacia la IZQUIERDA (hacia el texto del Hero).
    ===================================================================== */
 const CONFIG = {
-  modelPath: "medico.glb",
+  modelPath: "Robot_Hip_Hop_Dance.glb",
   fallbackModule: "./hero3d-fallback.js?v=1",
   baseHeight: 3.4,                  // altura base del médico (escena); 'scale' la multiplica
 
@@ -52,7 +52,8 @@ const CONFIG = {
 
   materials: {
     maxMetalness: 0.25,             // null = no tocar. Evita ojos con aro negro si el mapa metálico cubre la esclera
-    sharpenTextures: true           // anisotropía máxima y filtros mipmap
+    sharpenTextures: true,          // anisotropía máxima y filtros mipmap
+    fallbackMaterial: { color: 0xc9d6dc, roughness: 0.42, metalness: 0.15 }   // solo si el GLB no trae materiales/texturas
   },
 
   look: {
@@ -148,6 +149,9 @@ const CONFIG = {
       model.traverse(function (o) {
         if (!o.isMesh) return;
         o.frustumCulled = false;                                 // evita parpadeos con mallas animadas
+        if (!o.material || (!o.material.map && o.material.color && o.material.color.getHex() === 0xffffff && !o.material.vertexColors)) {
+          o.material = new THREE.MeshStandardMaterial(CONFIG.materials.fallbackMaterial);   // el GLB no trae color: material neutro con volumen
+        }
         (Array.isArray(o.material) ? o.material : [o.material]).forEach(function (m) {
           if (!m) return;                                         // los materiales del modelo se respetan
           if (CONFIG.materials.sharpenTextures) { sharpen(m.map, true); sharpen(m.emissiveMap, true); sharpen(m.normalMap); sharpen(m.metalnessMap); sharpen(m.roughnessMap); sharpen(m.aoMap); }
