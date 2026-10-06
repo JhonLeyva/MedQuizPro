@@ -1,0 +1,21 @@
+{
+  "especialidad": "Neurología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NRL-001",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?",
+      "opciones": {
+        "A": "Resonancia magnética cerebral con gadolinio",
+        "B": "Punción lumbar",
+        "C": "Tomografía cerebral sin contraste",
+        "D": "Electroencefalograma",
+        "E": "Doppler de vasos del cuello"
+      },
+      "clave_correcta": "C",
+      "comentario": "Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."
+    }
+  ]
+}

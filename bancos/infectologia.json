@@ -1,0 +1,21 @@
+{
+  "especialidad": "Infectología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "INF-001",
+      "especialidad": "Infectología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Varón de 32 años, agricultor de Loreto, con fiebre intermitente, escalofríos y sudoración de cinco días. La gota gruesa muestra Plasmodium vivax. No hay signos de malaria grave y la prueba de G6PD es normal. ¿Cuál es el tratamiento indicado?",
+      "opciones": {
+        "A": "Solo cloroquina por tres días",
+        "B": "Cloroquina más primaquina",
+        "C": "Artesunato endovenoso",
+        "D": "Solo primaquina por siete días",
+        "E": "Doxiciclina por catorce días"
+      },
+      "clave_correcta": "B",
+      "comentario": "La malaria por P. vivax no complicada se trata con cloroquina (esquizonticida sanguíneo) más primaquina, que elimina los hipnozoítos hepáticos y evita las recaídas. Sin primaquina el paciente puede recaer semanas después. El artesunato endovenoso se reserva para la malaria grave; en la gestante la primaquina está contraindicada."
+    }
+  ]
+}

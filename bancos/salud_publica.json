@@ -1,0 +1,21 @@
+{
+  "especialidad": "Salud Pública, Gestión y Epidemiología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "SP-001",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Se evalúa una prueba rápida para detectar una enfermedad en 300 personas. De 100 enfermos, 80 tienen la prueba positiva; de 200 sanos, 180 tienen la prueba negativa. ¿Cuál es la especificidad de la prueba?",
+      "opciones": {
+        "A": "80 %",
+        "B": "90 %",
+        "C": "75 %",
+        "D": "85,7 %",
+        "E": "60 %"
+      },
+      "clave_correcta": "B",
+      "comentario": "Especificidad = verdaderos negativos / total de sanos = 180 / 200 = 90 %. En la misma tabla, la sensibilidad es 80 / 100 = 80 % y el valor predictivo positivo es 80 / (80 + 20) = 80 %. La sensibilidad y la especificidad son propias de la prueba; los valores predictivos cambian con la prevalencia de la enfermedad."
+    }
+  ]
+}

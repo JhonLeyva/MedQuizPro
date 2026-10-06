@@ -1,0 +1,21 @@
+{
+  "especialidad": "Cirugía General y Digestiva",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CIR-001",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 22 años con dolor abdominal que empezó en el epigastrio hace 18 horas y luego migró a la fosa ilíaca derecha, con náuseas e hiporexia. Temperatura 38,1 °C, dolor a la descompresión en el punto de McBurney y leucocitosis de 14 500/mm³ con desviación izquierda. ¿Cuál es la conducta más adecuada?",
+      "opciones": {
+        "A": "Alta con analgésicos y control en 48 horas",
+        "B": "Apendicectomía",
+        "C": "Colonoscopía",
+        "D": "Antibióticos orales en domicilio",
+        "E": "Laparotomía exploratoria por línea media como primera opción"
+      },
+      "clave_correcta": "B",
+      "comentario": "Dolor migratorio a fosa ilíaca derecha, anorexia, fiebre, rebote y leucocitosis con desviación izquierda dan un puntaje de Alvarado alto (≥ 7): el diagnóstico es clínico y la conducta es la apendicectomía (laparoscópica o abierta) con profilaxis antibiótica. La colonoscopía está contraindicada en el abdomen agudo y los analgésicos no deben retrasar la decisión quirúrgica."
+    }
+  ]
+}

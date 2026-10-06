@@ -1,0 +1,21 @@
+{
+  "especialidad": "Neumología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NEU-001",
+      "especialidad": "Neumología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Varón de 28 años, de Lima, con fiebre vespertina, tos seca y dolor pleurítico derecho de un mes. La radiografía muestra derrame pleural derecho moderado. Toracocentesis: exudado con proteínas 5,1 g/dL, predominio linfocitario (85 %), glucosa 70 mg/dL y adenosina desaminasa (ADA) de 78 U/L. La baciloscopía del líquido es negativa. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Derrame paraneumónico complicado",
+        "B": "Tuberculosis pleural",
+        "C": "Derrame por insuficiencia cardiaca",
+        "D": "Mesotelioma pleural",
+        "E": "Tromboembolismo pulmonar"
+      },
+      "clave_correcta": "B",
+      "comentario": "Exudado linfocitario con ADA > 40 U/L en un adulto joven de zona de alta prevalencia es tuberculosis pleural hasta demostrar lo contrario. La baciloscopía del líquido es positiva en menos del 10 % de los casos, así que un resultado negativo no la descarta. El derrame paraneumónico es de predominio neutrofílico y la insuficiencia cardiaca produce trasudado."
+    }
+  ]
+}

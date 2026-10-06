@@ -1,0 +1,21 @@
+{
+  "especialidad": "Gastroenterología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "GAS-001",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico · pregunta tipo",
+      "enunciado": "Varón de 55 años con cirrosis hepática por alcohol llega a emergencia con hematemesis abundante. PA 90/60 mmHg, FC 112 lpm. Se aseguran dos vías venosas y se inicia la reposición de volumen de forma restrictiva. Mientras se prepara la endoscopía, ¿qué fármaco debe iniciarse?",
+      "opciones": {
+        "A": "Propranolol endovenoso",
+        "B": "Terlipresina u octreotide endovenoso",
+        "C": "Vitamina K como única medida",
+        "D": "Omeprazol oral",
+        "E": "Lactulosa por sonda nasogástrica como única medida"
+      },
+      "clave_correcta": "B",
+      "comentario": "Ante sospecha de hemorragia variceal en un cirrótico se inicia de inmediato un vasoactivo esplácnico (terlipresina, somatostatina u octreotide), junto con profilaxis antibiótica (ceftriaxona) y endoscopía con ligadura en las primeras 12 horas. Los betabloqueadores no selectivos se usan en profilaxis, no en el sangrado agudo con hipotensión. La reposición de volumen debe ser restrictiva (hemoglobina objetivo 7-8 g/dL) para no aumentar la presión portal."
+    }
+  ]
+}

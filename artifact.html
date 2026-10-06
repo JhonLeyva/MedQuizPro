@@ -1,0 +1,1731 @@
+<title>MedQuizPro</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* MedQuizPro — hoja de estilos única. Dirección: "hoja de respuestas".
+   Paleta: bone frío + tinta azulada, verde quirófano como marca, ámbar lápiz como marca de respuesta. */
+
+/* ---------- tokens: tema claro (base, siempre definido) ---------- */
+:root {
+  --paper: #eef1f4;
+  --surface: #ffffff;
+  --surface-2: #f6f8fa;
+  --ink: #14202b;
+  --ink-2: #4a5d6f;
+  --ink-3: #6d8093;
+  --line: #d4dce3;
+  --line-strong: #b8c5cf;
+  --brand: #1f6f63;
+  --brand-strong: #17564d;
+  --brand-soft: #dcede9;
+  --mark: #d9822b;
+  --mark-soft: #fbead3;
+  --ok: #1c8055;
+  --ok-soft: #dff0e7;
+  --bad: #be3f35;
+  --bad-soft: #fae1de;
+  --shadow-sm: 0 1px 2px rgba(20, 32, 43, .06), 0 1px 1px rgba(20, 32, 43, .04);
+  --shadow-md: 0 12px 28px -14px rgba(20, 32, 43, .28);
+  --radius: 14px;
+  --radius-sm: 9px;
+  --f-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --f-body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+}
+  /* nota: --ink-3 se define aquí y se redefine por tema */
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0e1720;
+    --surface: #16222e;
+    --surface-2: #1b2836;
+    --ink: #e9eff4;
+    --ink-2: #a3b4c2;
+    --ink-3: #8195a6;
+    --line: #2a3a49;
+    --line-strong: #3a4d5e;
+    --brand: #4fb8a4;
+    --brand-strong: #8fd8c9;
+    --brand-soft: #16332f;
+    --mark: #f0a856;
+    --mark-soft: #382b1a;
+    --ok: #52c08c;
+    --ok-soft: #14352a;
+    --bad: #e4776c;
+    --bad-soft: #3a211f;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, .4);
+    --shadow-md: 0 14px 30px -16px rgba(0, 0, 0, .7);
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0e1720;
+  --surface: #16222e;
+  --surface-2: #1b2836;
+  --ink: #e9eff4;
+  --ink-2: #a3b4c2;
+  --ink-3: #8195a6;
+  --line: #2a3a49;
+  --line-strong: #3a4d5e;
+  --brand: #4fb8a4;
+  --brand-strong: #8fd8c9;
+  --brand-soft: #16332f;
+  --mark: #f0a856;
+  --mark-soft: #382b1a;
+  --ok: #52c08c;
+  --ok-soft: #14352a;
+  --bad: #e4776c;
+  --bad-soft: #3a211f;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .4);
+  --shadow-md: 0 14px 30px -16px rgba(0, 0, 0, .7);
+}
+
+/* ---------- base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img, svg { max-width: 100%; }
+[hidden] { display: none !important; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.08; letter-spacing: -.02em; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2.1rem, 1.35rem + 3.3vw, 3.9rem); }
+h2 { font-size: clamp(1.65rem, 1.25rem + 1.8vw, 2.55rem); }
+h3 { font-size: 1.12rem; font-weight: 700; letter-spacing: -.01em; }
+p { margin: 0; }
+a { color: var(--brand-strong); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--mark); outline-offset: 3px; border-radius: 4px; }
+html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+
+.wrap { width: min(1140px, 100%); margin-inline: auto; padding-inline: 20px; }
+.eyebrow {
+  font-family: var(--f-mono); font-size: .72rem; font-weight: 600;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--mark);
+  display: flex; align-items: center; gap: 10px;
+}
+.eyebrow::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.lead { color: var(--ink-2); font-size: 1.06rem; max-width: 62ch; }
+.mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+/* ---------- botones ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+  min-height: 48px; padding: 0 22px; border-radius: 999px; border: 1px solid transparent;
+  font-family: var(--f-body); font-size: 1rem; font-weight: 700; cursor: pointer;
+  text-decoration: none; transition: transform .16s ease, background-color .16s ease, border-color .16s ease, color .16s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn--primary { background: var(--brand); color: #fff; box-shadow: var(--shadow-sm); }
+:root[data-theme="dark"] .btn--primary, :root:not([data-theme="light"]) .btn--primary { color: #08201c; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .btn--primary { color: #fff; } }
+.btn--primary:hover { background: var(--brand-strong); }
+:root[data-theme="dark"] .btn--primary:hover { color: #08201c; }
+.btn--ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+.btn--ghost:hover { border-color: var(--brand); color: var(--brand-strong); }
+.btn--mark { background: var(--mark); color: #2b1a05; }
+.btn--mark:hover { filter: brightness(1.06); }
+.btn--block { width: 100%; }
+
+/* ---------- cabecera ---------- */
+.site-header {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.site-header__bar { display: flex; align-items: center; gap: 16px; min-height: 68px; }
+.brand { display: inline-flex; align-items: center; gap: 9px; font-family: var(--f-display); font-weight: 800; font-size: 1.16rem; color: var(--ink); text-decoration: none; letter-spacing: -.03em; }
+.brand__bubble { width: 22px; height: 22px; border-radius: 50%; border: 2.5px solid var(--brand); position: relative; flex: none; }
+.brand__bubble::after { content: ""; position: absolute; inset: 3px; border-radius: 50%; background: var(--mark); }
+.nav { margin-left: auto; display: flex; align-items: center; gap: 26px; }
+.nav a { color: var(--ink-2); font-size: .97rem; font-weight: 600; text-decoration: none; }
+.nav a:hover { color: var(--brand-strong); }
+.header-cta { margin-left: 8px; }
+.nav-toggle { display: none; }
+
+@media (max-width: 880px) {
+  .nav {
+    position: fixed; inset: calc(68px + env(safe-area-inset-top, 0px)) 0 auto 0;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--surface); border-bottom: 1px solid var(--line);
+    padding: 8px 20px 22px; box-shadow: var(--shadow-md);
+  }
+  .nav a { padding: 14px 2px; border-bottom: 1px solid var(--line); font-size: 1.05rem; }
+  .header-cta { margin: 16px 0 0; }
+  .nav-toggle {
+    display: inline-flex; align-items: center; justify-content: center; margin-left: auto;
+    width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line-strong);
+    background: var(--surface); color: var(--ink); cursor: pointer;
+  }
+  .nav-toggle svg { width: 22px; height: 22px; }
+}
+
+/* ---------- hero ---------- */
+.hero { padding-block: clamp(38px, 6vw, 76px) clamp(34px, 5vw, 60px); }
+.hero__grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(28px, 4vw, 56px); align-items: start; }
+.hero__title { margin-top: 16px; }
+.hero__title em {
+  font-style: normal; color: var(--brand-strong);
+  background-image: linear-gradient(to top, var(--mark-soft) 0, var(--mark-soft) .28em, transparent .28em);
+  padding-inline: .06em; box-decoration-break: clone; -webkit-box-decoration-break: clone;
+}
+.hero__lead { margin-top: 18px; font-size: 1.12rem; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.hero__trust { margin-top: 18px; font-size: .84rem; color: var(--ink-3); font-family: var(--f-mono); letter-spacing: .01em; }
+
+@media (max-width: 900px) {
+  .hero__grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- tarjeta de pregunta (demo) ---------- */
+.quiz {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow-md); overflow: hidden;
+}
+.quiz__head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid var(--line); background: var(--surface-2); }
+.tag { font-family: var(--f-mono); font-size: .68rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; padding: 4px 9px; border-radius: 999px; background: var(--brand-soft); color: var(--brand-strong); }
+.tag--mark { background: var(--mark-soft); color: var(--mark); }
+.quiz__counter { margin-left: auto; font-family: var(--f-mono); font-size: .76rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.quiz__body { padding: 20px 18px 22px; }
+.quiz__stem { font-size: 1.02rem; line-height: 1.55; }
+.quiz__options { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 9px; }
+.opt {
+  display: flex; align-items: flex-start; gap: 12px; width: 100%; text-align: left;
+  min-height: 48px; padding: 11px 13px; border-radius: var(--radius-sm);
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font-family: var(--f-body); font-size: .97rem; line-height: 1.45; cursor: pointer;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.opt:hover:not([disabled]) { border-color: var(--brand); background: var(--surface-2); }
+.opt[disabled] { cursor: default; }
+.opt__bubble {
+  flex: none; width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--line-strong);
+  display: grid; place-items: center; font-family: var(--f-mono); font-size: .76rem; font-weight: 600;
+  color: var(--ink-3); background: var(--surface); transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.opt--right { border-color: var(--ok); background: var(--ok-soft); }
+.opt--right .opt__bubble { background: var(--ok); border-color: var(--ok); color: #fff; }
+.opt--wrong { border-color: var(--bad); background: var(--bad-soft); }
+.opt--wrong .opt__bubble { background: var(--bad); border-color: var(--bad); color: #fff; }
+.quiz__feedback { margin-top: 16px; padding: 14px 15px; border-radius: var(--radius-sm); background: var(--surface-2); border-left: 3px solid var(--brand); }
+.quiz__verdict { font-family: var(--f-mono); font-size: .74rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.quiz__verdict--ok { color: var(--ok); }
+.quiz__verdict--bad { color: var(--bad); }
+.quiz__why { margin-top: 7px; font-size: .95rem; color: var(--ink-2); line-height: 1.55; }
+.quiz__foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 18px; }
+.quiz__note { font-size: .78rem; color: var(--ink-3); font-family: var(--f-mono); }
+
+/* ---------- franja de cifras ---------- */
+.stats { border-block: 1px solid var(--line); background: var(--surface); }
+.stats__grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+.stat { padding: 22px 18px; border-left: 1px solid var(--line); }
+.stat:first-child { border-left: 0; }
+.stat__num { font-family: var(--f-display); font-weight: 800; font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2.1rem); font-variant-numeric: tabular-nums; letter-spacing: -.03em; }
+.stat__label { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); margin-top: 5px; }
+@media (max-width: 720px) {
+  .stats__grid { grid-template-columns: 1fr 1fr; }
+  .stat:nth-child(odd) { border-left: 0; }
+  .stat:nth-child(n+3) { border-top: 1px solid var(--line); }
+}
+
+/* ---------- secciones ---------- */
+.section { padding-block: clamp(48px, 7vw, 88px); }
+.section--alt { background: var(--surface); border-block: 1px solid var(--line); }
+.section__head { max-width: 66ch; }
+.section__head h2 { margin-top: 14px; }
+.section__head .lead { margin-top: 14px; }
+
+/* ---------- filtros ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 26px; }
+.chip {
+  min-height: 44px; padding: 0 17px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2);
+  font-family: var(--f-mono); font-size: .8rem; font-weight: 600; letter-spacing: .04em;
+  transition: background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.chip:hover { border-color: var(--brand); color: var(--brand-strong); }
+.chip[aria-pressed="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+:root[data-theme="dark"] .chip[aria-pressed="true"] { color: #08201c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chip[aria-pressed="true"] { color: #08201c; } }
+
+/* ---------- tarjetas de banco ---------- */
+.banks { display: grid; grid-template-columns: repeat(auto-fit, minmax(298px, 1fr)); gap: 16px; margin-top: 22px; }
+.bank {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px; display: flex; flex-direction: column; gap: 12px;
+  transition: border-color .16s ease, transform .16s ease;
+}
+.section--alt .bank { background: var(--surface-2); }
+.bank:hover { border-color: var(--brand); transform: translateY(-2px); }
+.bank__top { display: flex; align-items: center; gap: 9px; }
+.bank__meta { font-family: var(--f-mono); font-size: .76rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.bar { height: 7px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.bar__fill { height: 100%; border-radius: 999px; background: var(--brand); }
+.bank__link { margin-top: auto; font-family: var(--f-mono); font-size: .79rem; font-weight: 600; color: var(--brand-strong); text-decoration: none; display: inline-flex; align-items: center; gap: 6px; min-height: 30px; }
+.bank__link:hover { text-decoration: underline; }
+/* ---------- especialidades (bancos por área) ---------- */
+.specs { display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr)); gap: 14px; margin-top: 28px; }
+.spec {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px; display: flex; flex-direction: column; gap: 10px;
+  transition: border-color .16s ease, transform .16s ease, box-shadow .16s ease;
+}
+.spec:hover { border-color: var(--brand); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.spec__icon {
+  width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--brand-soft); color: var(--brand-strong);
+}
+.spec__icon svg { width: 24px; height: 24px; }
+.spec h3 { font-size: 1.06rem; line-height: 1.25; }
+.spec__status { display: inline-flex; align-items: center; gap: 7px; font-family: var(--f-mono); font-size: .74rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.spec__status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--line-strong); flex: none; }
+.spec__status--ok { color: var(--ok); }
+.spec__status--ok::before { background: var(--ok); }
+.spec__status--off::before { background: var(--bad); }
+.spec .btn { margin-top: auto; min-height: 40px; padding-block: 8px; font-size: .92rem; }
+
+/* ---------- simulador de preguntas ---------- */
+.sim-view { margin-top: 28px; }
+.sim-view__bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+.sim-view__score { font-family: var(--f-mono); font-size: .8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.quiz--wide { max-width: 860px; }
+.quiz--wide .quiz__stem { font-size: 1.08rem; }
+.quiz__label { margin-top: 10px; font-family: var(--f-mono); font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--brand-strong); }
+.sim-view__status { padding: 26px 4px; color: var(--ink-2); text-align: center; }
+.sim-view__nav { justify-content: space-between; }
+.sim-view__nav .btn[disabled] { opacity: .45; cursor: not-allowed; }
+@media (max-width: 520px) {
+  .sim-view__nav .btn { flex: 1 1 100%; }
+  .sim-view__bar .btn { width: 100%; }
+}
+
+.empty { margin-top: 22px; padding: 26px; border: 1px dashed var(--line-strong); border-radius: var(--radius); color: var(--ink-3); font-family: var(--f-mono); font-size: .85rem; text-align: center; }
+.placeholder-note { margin-top: 18px; font-family: var(--f-mono); font-size: .75rem; color: var(--ink-3); }
+
+/* ---------- simulacros ---------- */
+.sim-featured {
+  margin-top: 26px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: clamp(20px, 3vw, 30px); display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(20px, 3vw, 36px); align-items: center;
+  box-shadow: var(--shadow-md);
+}
+.section--alt .sim-featured { background: var(--surface-2); }
+.sim-featured h3 { font-size: clamp(1.3rem, 1.05rem + 1vw, 1.8rem); font-family: var(--f-display); font-weight: 800; margin-top: 12px; }
+.sim-specs { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; font-family: var(--f-mono); font-size: .8rem; color: var(--ink-2); }
+.sim-specs li { display: flex; align-items: center; gap: 7px; }
+.sim-specs li::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--mark); }
+.countdown { background: var(--brand-soft); border-radius: var(--radius); padding: 18px; text-align: center; }
+.countdown__label { font-family: var(--f-mono); font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brand-strong); }
+.countdown__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 12px; }
+.cd-unit { background: var(--surface); border-radius: var(--radius-sm); padding: 10px 4px; }
+.cd-unit b { display: block; font-family: var(--f-mono); font-weight: 600; font-size: clamp(1.15rem, .9rem + .9vw, 1.55rem); font-variant-numeric: tabular-nums; color: var(--ink); }
+.cd-unit span { font-family: var(--f-mono); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+@media (max-width: 820px) { .sim-featured { grid-template-columns: 1fr; } }
+
+.sims { display: grid; grid-template-columns: repeat(auto-fit, minmax(255px, 1fr)); gap: 14px; margin-top: 14px; }
+.sim { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: flex; flex-direction: column; gap: 10px; }
+.section--alt .sim { background: var(--surface-2); }
+.sim__free { font-family: var(--f-mono); font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--mark); }
+.sim .btn { margin-top: auto; }
+
+/* ---------- pasos ---------- */
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 30px; counter-reset: step; }
+.step { border-top: 2px solid var(--line-strong); padding-top: 16px; }
+.step__n { font-family: var(--f-mono); font-size: .76rem; font-weight: 600; color: var(--mark); letter-spacing: .1em; }
+.step h3 { margin-top: 8px; }
+.step p { margin-top: 8px; color: var(--ink-2); font-size: .97rem; }
+
+/* ---------- registro ---------- */
+.signup { display: grid; grid-template-columns: .95fr 1.05fr; gap: clamp(26px, 4vw, 54px); align-items: start; }
+.form-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(20px, 3vw, 30px); box-shadow: var(--shadow-md); }
+.section--alt .form-card { background: var(--surface-2); }
+.field { display: grid; gap: 6px; margin-top: 16px; }
+.field > label { font-family: var(--f-mono); font-size: .74rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+.field input, .field select {
+  width: 100%; min-height: 48px; padding: 0 13px; border-radius: var(--radius-sm);
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+  font-family: var(--f-body); font-size: 1rem;
+}
+.section--alt .field input, .section--alt .field select { background: var(--surface); }
+.field input:focus, .field select:focus { border-color: var(--brand); }
+.field .err { font-size: .82rem; color: var(--bad); font-family: var(--f-mono); }
+.field input[aria-invalid="true"], .field select[aria-invalid="true"] { border-color: var(--bad); }
+.radios { display: flex; flex-wrap: wrap; gap: 8px; }
+.radio { position: relative; }
+.radio input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.radio span {
+  display: flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px;
+  border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface);
+  font-family: var(--f-mono); font-size: .8rem; font-weight: 600; color: var(--ink-2);
+}
+.radio input:checked + span { background: var(--brand-soft); border-color: var(--brand); color: var(--brand-strong); }
+.radio input:focus-visible + span { outline: 3px solid var(--mark); outline-offset: 3px; }
+.form-foot { margin-top: 22px; display: grid; gap: 12px; }
+.fineprint { font-size: .8rem; color: var(--ink-3); line-height: 1.5; }
+.success { text-align: center; padding: 18px 6px; }
+.success__mark { width: 54px; height: 54px; margin-inline: auto; border-radius: 50%; background: var(--ok-soft); color: var(--ok); display: grid; place-items: center; font-size: 1.6rem; }
+.success h3 { margin-top: 14px; font-size: 1.3rem; }
+.success p { margin-top: 8px; color: var(--ink-2); }
+.checklist { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 12px; }
+.checklist li { display: flex; gap: 11px; align-items: flex-start; color: var(--ink-2); font-size: .99rem; }
+.checklist li::before { content: ""; flex: none; margin-top: 7px; width: 9px; height: 9px; border-radius: 50%; border: 2px solid var(--brand); background: var(--mark); }
+@media (max-width: 860px) { .signup { grid-template-columns: 1fr; } }
+
+/* ---------- pie ---------- */
+.site-footer { background: var(--surface); border-top: 1px solid var(--line); padding-block: 38px; }
+.footer__grid { display: flex; flex-wrap: wrap; gap: 22px 40px; align-items: flex-start; }
+.footer__links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-left: auto; }
+.footer__links a { color: var(--ink-2); font-size: .92rem; text-decoration: none; }
+.footer__links a:hover { color: var(--brand-strong); text-decoration: underline; }
+.footer__fine { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .82rem; color: var(--ink-3); font-family: var(--f-mono); }
+
+/* ---------- barra fija móvil ---------- */
+.mobile-cta {
+  display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  backdrop-filter: blur(10px); border-top: 1px solid var(--line);
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+}
+@media (max-width: 720px) {
+  .mobile-cta { display: block; }
+  body { padding-bottom: 86px; }
+}
+
+/* ---------- revelado al hacer scroll ---------- */
+.js-reveal .reveal { opacity: .001; transform: translateY(14px); transition: opacity .55s ease, transform .55s ease; }
+.js-reveal .reveal.is-in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js-reveal .reveal { opacity: 1 !important; transform: none !important; transition: none; }
+}
+
+/* ======================================================================
+   Widget de chat (tutor)
+   ====================================================================== */
+.chat-launcher {
+  position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 70;
+  display: inline-flex; align-items: center; gap: 10px;
+  min-height: 52px; padding: 0 20px 0 17px; border: 0; border-radius: 999px;
+  background: var(--brand); color: #fff; cursor: pointer;
+  font-family: var(--f-body); font-size: .97rem; font-weight: 700;
+  box-shadow: 0 10px 26px -10px rgba(20, 32, 43, .55);
+  transition: transform .16s ease, background-color .16s ease;
+}
+:root[data-theme="dark"] .chat-launcher { color: #08201c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chat-launcher { color: #08201c; } }
+.chat-launcher:hover { background: var(--brand-strong); transform: translateY(-2px); }
+.chat-launcher:active { transform: translateY(0); }
+.chat-launcher svg { width: 21px; height: 21px; flex: none; }
+
+.chat-panel {
+  position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 80;
+  width: min(392px, calc(100vw - 36px)); max-height: min(620px, calc(100vh - 96px));
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 26px 60px -22px rgba(20, 32, 43, .6);
+  animation: chatEntra .18s ease-out;
+}
+@keyframes chatEntra { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+.chat-panel__head {
+  display: flex; align-items: center; gap: 11px; flex: none;
+  padding: 13px 13px 13px 16px; border-bottom: 1px solid var(--line); background: var(--surface-2);
+}
+.chat-panel__avatar {
+  flex: none; width: 36px; height: 36px; border-radius: 11px; display: grid; place-items: center;
+  background: var(--brand-soft); color: var(--brand-strong);
+}
+.chat-panel__avatar svg { width: 20px; height: 20px; }
+.chat-panel__id { min-width: 0; }
+.chat-panel__title { font-family: var(--f-display); font-size: 1.02rem; font-weight: 800; letter-spacing: -.02em; margin: 0; }
+.chat-panel__sub { font-family: var(--f-mono); font-size: .69rem; color: var(--ink-3); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.chat-tools { margin-left: auto; flex: none; display: flex; gap: 2px; }
+.chat-tool {
+  width: 34px; height: 34px; border-radius: 9px; cursor: pointer;
+  border: 1px solid transparent; background: transparent; color: var(--ink-2);
+  display: grid; place-items: center;
+}
+.chat-tool:hover { background: var(--paper); color: var(--ink); border-color: var(--line); }
+.chat-tool svg { width: 18px; height: 18px; }
+
+.chat-log { flex: 1 1 auto; overflow-y: auto; overscroll-behavior: contain; padding: 16px; display: grid; gap: 11px; align-content: start; }
+.chat-msg { max-width: 86%; padding: 11px 14px; border-radius: 14px; font-size: .95rem; line-height: 1.55; }
+.chat-msg p { margin: 0; }
+.chat-msg p + p, .chat-msg ul + p, .chat-msg ol + p { margin-top: 9px; }
+.chat-msg ul, .chat-msg ol { margin: 9px 0 0; padding-left: 20px; display: grid; gap: 4px; }
+.chat-msg strong { font-weight: 700; }
+.chat-msg--bot { justify-self: start; background: var(--surface-2); border: 1px solid var(--line); border-bottom-left-radius: 5px; color: var(--ink); }
+.chat-msg--user { justify-self: end; background: var(--brand-soft); border: 1px solid transparent; border-bottom-right-radius: 5px; color: var(--brand-strong); white-space: pre-wrap; }
+.chat-msg--error { justify-self: start; background: var(--bad-soft); border: 1px solid var(--bad); color: var(--bad); border-bottom-left-radius: 5px; }
+
+.chat-typing { justify-self: start; display: inline-flex; gap: 5px; padding: 14px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 14px; border-bottom-left-radius: 5px; }
+.chat-typing i { width: 7px; height: 7px; border-radius: 50%; background: var(--ink-3); animation: chatDot 1.1s infinite ease-in-out; }
+.chat-typing i:nth-child(2) { animation-delay: .16s; }
+.chat-typing i:nth-child(3) { animation-delay: .32s; }
+@keyframes chatDot { 0%, 70%, 100% { opacity: .3; transform: translateY(0); } 35% { opacity: 1; transform: translateY(-3px); } }
+
+/* pantalla inicial */
+.chat-welcome { padding: 6px 2px 0; }
+.chat-welcome__hola { font-family: var(--f-display); font-size: 1.5rem; font-weight: 800; letter-spacing: -.02em; margin: 0; }
+.chat-welcome__sub { font-size: 1.02rem; color: var(--ink-2); margin-top: 2px; }
+.chat-ideas { display: grid; gap: 8px; margin-top: 16px; }
+.chat-idea {
+  display: grid; gap: 2px; text-align: left; cursor: pointer;
+  padding: 11px 13px; border-radius: var(--radius-sm);
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+  font-family: var(--f-body); font-size: .9rem;
+  transition: border-color .14s ease, background-color .14s ease;
+}
+.chat-idea strong { font-weight: 700; color: var(--brand-strong); }
+.chat-idea span { color: var(--ink-3); font-size: .84rem; line-height: 1.4; }
+.chat-idea:hover { border-color: var(--brand); background: var(--surface-2); }
+.chat-welcome__pie { margin-top: 13px; font-size: .78rem; color: var(--ink-3); }
+
+.chat-form { flex: none; display: flex; gap: 9px; align-items: flex-end; padding: 12px 14px; border-top: 1px solid var(--line); background: var(--surface-2); }
+.chat-form textarea {
+  flex: 1 1 auto; min-height: 46px; max-height: 132px; resize: none; padding: 12px 13px;
+  border-radius: var(--radius-sm); border: 1px solid var(--line-strong);
+  background: var(--surface); color: var(--ink);
+  font-family: var(--f-body); font-size: .96rem; line-height: 1.45;
+}
+.chat-form textarea:focus { border-color: var(--brand); }
+.chat-send {
+  flex: none; width: 46px; height: 46px; border-radius: var(--radius-sm); border: 0; cursor: pointer;
+  background: var(--brand); color: #fff; display: grid; place-items: center;
+}
+:root[data-theme="dark"] .chat-send { color: #08201c; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .chat-send { color: #08201c; } }
+.chat-send:hover:not([disabled]) { background: var(--brand-strong); }
+.chat-send[disabled] { opacity: .5; cursor: not-allowed; }
+.chat-send svg { width: 19px; height: 19px; }
+.chat-disclaimer { flex: none; padding: 0 16px 13px; font-size: .71rem; line-height: 1.45; color: var(--ink-3); background: var(--surface-2); }
+
+/* la barra fija de móvil no debe chocar con el chat */
+@media (max-width: 720px) {
+  .chat-launcher { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); right: 14px; padding: 0 17px 0 15px; }
+  .chat-launcher__label { display: none; }
+  .chat-launcher { width: 54px; height: 54px; padding: 0; justify-content: center; }
+  .chat-panel {
+    right: 0; left: 0; bottom: 0; width: 100%;
+    max-height: min(86vh, calc(100vh - 44px));
+    border-radius: var(--radius) var(--radius) 0 0; border-bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .chat-msg { max-width: 92%; }
+  body.chat-open .mobile-cta { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chat-launcher:hover { transform: none; }
+  .chat-typing i { animation: none; opacity: .55; }
+  .chat-panel { animation: none; }
+}
+</style>
+
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="#top"><span class="brand__bubble" aria-hidden="true"></span>MedQuizPro</a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="nav">
+      <span class="sr-only">Abrir menú</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#bancos">Bancos de preguntas</a>
+      <a href="#simulacros">Simulacros gratis</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a class="btn btn--primary header-cta" href="#registro">Crear cuenta gratis</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ====================== HERO ====================== -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div>
+        <p class="eyebrow">ENAM · Residentado · EsSalud</p>
+        <h1 class="hero__title">La práctica que se parece <em>al examen real</em>.</h1>
+        <p class="lead hero__lead">Bancos de preguntas comentadas, simulacros cronometrados y un reporte que te dice exactamente en qué área estás perdiendo puntos. Empieza resolviendo la pregunta de aquí al costado.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#registro">Crear cuenta gratis</a>
+          <a class="btn btn--ghost" href="#simulacros">Ver simulacros gratis</a>
+        </div>
+        <p class="hero__trust">Sin tarjeta · Plan gratuito permanente · Hecho en Lima</p>
+      </div>
+
+      <!-- tarjeta de pregunta interactiva -->
+      <div class="quiz" id="quiz">
+        <div class="quiz__head">
+          <span class="tag" id="qArea">Medicina Interna</span>
+          <span class="tag tag--mark" id="qExam">ENAM</span>
+          <span class="quiz__counter" id="qCounter">Pregunta 1 de 3</span>
+        </div>
+        <div class="quiz__body">
+          <p class="quiz__stem" id="qStem">Varón de 58 años, diabético, acude por dolor torácico opresivo de 40 minutos. El ECG muestra elevación del segmento ST en DII, DIII y aVF. ¿Cuál es la conducta inicial más apropiada?</p>
+          <ul class="quiz__options" id="qOptions">
+            <li><button class="opt" type="button" data-i="0"><span class="opt__bubble">A</span><span class="opt__text">Solicitar ecocardiograma y reevaluar en 6 horas</span></button></li>
+            <li><button class="opt" type="button" data-i="1"><span class="opt__bubble">B</span><span class="opt__text">Activar la vía de reperfusión coronaria de inmediato</span></button></li>
+            <li><button class="opt" type="button" data-i="2"><span class="opt__bubble">C</span><span class="opt__text">Iniciar furosemida endovenosa en bolo</span></button></li>
+            <li><button class="opt" type="button" data-i="3"><span class="opt__bubble">D</span><span class="opt__text">Programar prueba de esfuerzo al alta</span></button></li>
+          </ul>
+          <div class="quiz__feedback" id="qFeedback" hidden>
+            <p class="quiz__verdict" id="qVerdict">Correcto</p>
+            <p class="quiz__why" id="qWhy"></p>
+          </div>
+          <div class="quiz__foot">
+            <button class="btn btn--mark" type="button" id="qNext" hidden>Siguiente pregunta</button>
+            <span class="quiz__note" id="qNote">Marca una alternativa para ver la explicación</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== CIFRAS ====================== -->
+  <section class="stats" aria-label="MedQuizPro en cifras">
+    <div class="wrap stats__grid">
+      <div class="stat"><div class="stat__num" data-count="12480">12 480</div><div class="stat__label">Preguntas comentadas</div></div>
+      <div class="stat"><div class="stat__num" data-count="96">96</div><div class="stat__label">Simulacros cronometrados</div></div>
+      <div class="stat"><div class="stat__num" data-count="5">5</div><div class="stat__label">Áreas del ENAM</div></div>
+      <div class="stat"><div class="stat__num">4 h</div><div class="stat__label">Duración real del simulacro</div></div>
+    </div>
+  </section>
+
+  <!-- ====================== BANCOS DE PREGUNTAS ====================== -->
+  <section class="section" id="bancos">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">Bancos de preguntas</p>
+        <h2>Elige la especialidad que te está costando.</h2>
+        <p class="lead">Casos clínicos tipo ENAM, Residentado Médico y EsSalud, ordenados por especialidad. Cada pregunta cierra con el comentario docente: el porqué de la respuesta y de los distractores.</p>
+      </div>
+
+      <!-- vista 1: cuadrícula de especialidades (la llena main.js desde el catálogo) -->
+      <div class="specs" id="specs" aria-label="Especialidades"></div>
+
+      <!-- vista 2: simulador de preguntas -->
+      <div class="sim-view" id="simView" hidden>
+        <div class="sim-view__bar">
+          <button class="btn btn--ghost" type="button" id="svBack">← Volver al menú de especialidades</button>
+          <span class="sim-view__score" id="svScore" aria-live="polite"></span>
+        </div>
+
+        <div class="quiz quiz--wide" id="svQuiz" aria-live="polite">
+          <div class="quiz__head">
+            <span class="tag" id="svArea">Especialidad</span>
+            <span class="tag tag--mark" id="svExam" hidden></span>
+            <span class="quiz__counter" id="svCounter"></span>
+          </div>
+          <div class="quiz__body">
+            <p class="sim-view__status" id="svStatus" hidden></p>
+            <div id="svContent" hidden>
+              <p class="quiz__stem" id="svStem"></p>
+              <ul class="quiz__options" id="svOptions"></ul>
+              <div class="quiz__feedback" id="svFeedback" hidden>
+                <p class="quiz__verdict" id="svVerdict"></p>
+                <p class="quiz__label">Comentario docente</p>
+                <p class="quiz__why" id="svWhy"></p>
+              </div>
+            </div>
+            <div class="quiz__foot sim-view__nav">
+              <button class="btn btn--ghost" type="button" id="svPrev">← Pregunta anterior</button>
+              <button class="btn btn--mark" type="button" id="svNext">Siguiente pregunta →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== SIMULACROS GRATIS ====================== -->
+  <section class="section section--alt" id="simulacros">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">Simulacros gratis</p>
+        <h2>Un simulacro completo, abierto y sin costo cada semana.</h2>
+        <p class="lead">Mismo número de preguntas, mismo reloj y mismo orden de áreas que el examen oficial. Al terminar recibes tu puntaje por área y la explicación de cada pregunta.</p>
+      </div>
+
+      <div class="sim-featured reveal">
+        <div>
+          <span class="sim__free">Abierto · sin costo</span>
+          <h3>Simulacro ENAM completo</h3>
+          <ul class="sim-specs">
+            <li>180 preguntas</li>
+            <li>4 horas cronometradas</li>
+            <li>Reporte por área</li>
+            <li>Ranking opcional</li>
+          </ul>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#registro">Reservar mi lugar</a>
+          </div>
+        </div>
+        <div class="countdown">
+          <p class="countdown__label">Abre en</p>
+          <div class="countdown__grid" id="countdown" aria-live="polite">
+            <div class="cd-unit"><b id="cdD">--</b><span>días</span></div>
+            <div class="cd-unit"><b id="cdH">--</b><span>horas</span></div>
+            <div class="cd-unit"><b id="cdM">--</b><span>min</span></div>
+            <div class="cd-unit"><b id="cdS">--</b><span>seg</span></div>
+          </div>
+          <p class="bank__meta" style="margin-top:12px">Sábados, 09:00 (hora de Perú)</p>
+        </div>
+      </div>
+
+      <div class="sims">
+        <article class="sim reveal">
+          <span class="sim__free">Gratis</span>
+          <h3>RM Express</h3>
+          <p class="bank__meta">60 preguntas · 60 minutos</p>
+          <p class="lead" style="font-size:.95rem">Un bloque corto para medir ritmo y descarte cuando no tienes cuatro horas libres.</p>
+          <a class="btn btn--ghost" href="#registro">Empezar ahora</a>
+        </article>
+        <article class="sim reveal">
+          <span class="sim__free">Gratis</span>
+          <h3>EsSalud · Salud Pública</h3>
+          <p class="bank__meta">40 preguntas · 40 minutos</p>
+          <p class="lead" style="font-size:.95rem">Normativa, atención primaria e indicadores. El área donde más puntos se regalan.</p>
+          <a class="btn btn--ghost" href="#registro">Empezar ahora</a>
+        </article>
+        <article class="sim reveal">
+          <span class="sim__free">Gratis</span>
+          <h3>Diagnóstico inicial</h3>
+          <p class="bank__meta">30 preguntas · 25 minutos</p>
+          <p class="lead" style="font-size:.95rem">Diez minutos para saber por qué área conviene que empieces a estudiar.</p>
+          <a class="btn btn--ghost" href="#registro">Empezar ahora</a>
+        </article>
+      </div>
+      <p class="placeholder-note">Fechas y simulacros de ejemplo para la demostración.</p>
+    </div>
+  </section>
+
+  <!-- ====================== CÓMO FUNCIONA ====================== -->
+  <section class="section" id="como-funciona">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">Cómo funciona</p>
+        <h2>Tres pasos, en ese orden.</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <p class="step__n">PASO 01</p>
+          <h3>Elige el banco</h3>
+          <p>Por examen y por área. Puedes armar una sesión de 10 preguntas o de 180.</p>
+        </div>
+        <div class="step reveal">
+          <p class="step__n">PASO 02</p>
+          <h3>Resuelve contra el reloj</h3>
+          <p>El cronómetro corre como en el examen. Puedes marcar preguntas para volver después.</p>
+        </div>
+        <div class="step reveal">
+          <p class="step__n">PASO 03</p>
+          <h3>Revisa la explicación</h3>
+          <p>Cada pregunta cierra con el porqué de la respuesta y el porqué de los distractores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== REGISTRO ====================== -->
+  <section class="section section--alt" id="registro">
+    <div class="wrap signup">
+      <div class="reveal">
+        <p class="eyebrow">Crear cuenta</p>
+        <h2>Empieza gratis hoy.</h2>
+        <p class="lead" style="margin-top:14px">La cuenta gratuita no caduca y no pide tarjeta.</p>
+        <ul class="checklist">
+          <li>Acceso al simulacro abierto de cada sábado.</li>
+          <li>30 preguntas comentadas por día en cualquier banco.</li>
+          <li>Tu reporte de dominio por área, actualizado cada vez que resuelves.</li>
+          <li>Recordatorio por correo antes de cada simulacro.</li>
+        </ul>
+      </div>
+
+      <div class="form-card reveal">
+        <form id="signupForm" novalidate>
+          <div class="field">
+            <label for="f-nombre">Nombre y apellido</label>
+            <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Ana Quispe">
+            <p class="err" id="e-nombre" hidden>Escribe tu nombre completo.</p>
+          </div>
+          <div class="field">
+            <label for="f-correo">Correo electrónico</label>
+            <input id="f-correo" name="correo" type="email" autocomplete="email" placeholder="ana@universidad.edu.pe">
+            <p class="err" id="e-correo" hidden>Revisa el correo: falta el @ o el dominio.</p>
+          </div>
+          <div class="field">
+            <label for="f-universidad">Universidad</label>
+            <select id="f-universidad" name="universidad">
+              <option value="">Selecciona tu universidad</option>
+              <option>Universidad Nacional Mayor de San Marcos</option>
+              <option>Universidad Peruana Cayetano Heredia</option>
+              <option>Universidad Nacional de Trujillo</option>
+              <option>Universidad Nacional San Agustín de Arequipa</option>
+              <option>Universidad Nacional San Antonio Abad del Cusco</option>
+              <option>Otra universidad</option>
+            </select>
+            <p class="err" id="e-universidad" hidden>Elige una opción de la lista.</p>
+          </div>
+          <div class="field">
+            <label id="l-examen">¿A qué examen te presentas?</label>
+            <div class="radios" role="radiogroup" aria-labelledby="l-examen">
+              <label class="radio"><input type="radio" name="examen" value="ENAM"><span>ENAM</span></label>
+              <label class="radio"><input type="radio" name="examen" value="RM"><span>Residentado</span></label>
+              <label class="radio"><input type="radio" name="examen" value="EsSalud"><span>EsSalud</span></label>
+            </div>
+            <p class="err" id="e-examen" hidden>Marca uno de los tres.</p>
+          </div>
+          <div class="form-foot">
+            <button class="btn btn--primary btn--block" type="submit">Crear mi cuenta gratis</button>
+            <p class="fineprint">Demostración: este formulario valida los datos en tu navegador y no los envía a ningún servidor.</p>
+          </div>
+        </form>
+
+        <div class="success" id="signupSuccess" hidden>
+          <div class="success__mark" aria-hidden="true">✓</div>
+          <h3>Listo, <span id="successName">Ana</span></h3>
+          <p id="successMsg">Tu lugar en el simulacro abierto quedó reservado.</p>
+          <p class="fineprint" style="margin-top:16px">Recuerda: esto es una demostración, no se guardó ningún dato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="#top"><span class="brand__bubble" aria-hidden="true"></span>MedQuizPro</a>
+        <p class="bank__meta" style="margin-top:8px">Preguntas y simulacros para el ENAM, el Residentado Médico y EsSalud.</p>
+      </div>
+      <nav class="footer__links" aria-label="Pie de página">
+        <a href="#bancos">Bancos de preguntas</a>
+        <a href="#simulacros">Simulacros gratis</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#registro">Crear cuenta</a>
+      </nav>
+    </div>
+    <p class="footer__fine">© <span id="year">2026</span> MedQuizPro · Sitio de demostración · Lima, Perú</p>
+  </div>
+</footer>
+
+<div class="mobile-cta">
+  <a class="btn btn--primary btn--block" href="#registro">Crear cuenta gratis</a>
+</div>
+<script>
+window.MQP_BANCOS = {"cardiologia":{"especialidad":"Cardiología","version":"2026-09","preguntas":[{"id":"CAR-001","especialidad":"Cardiología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 64 años, hipertenso y fumador, con dolor torácico opresivo de 2 horas. PA 84/50 mmHg, FC 56 lpm, ingurgitación yugular y campos pulmonares limpios. El ECG muestra elevación del ST en DII, DIII y aVF, y la derivación V4R muestra elevación del ST de 1,5 mm. La hipotensión se acentuó tras administrarle nitroglicerina sublingual. ¿Cuál es la medida inmediata más apropiada mientras se coordina la reperfusión?","opciones":{"A":"Furosemida 40 mg endovenosa","B":"Bolo de cristaloides endovenoso con monitoreo hemodinámico","C":"Nitroglicerina en infusión continua","D":"Metoprolol endovenoso","E":"Morfina endovenosa a dosis plena"},"clave_correcta":"B","comentario":"Infarto inferior con compromiso del ventrículo derecho (ST elevado en V4R): tríada de hipotensión, ingurgitación yugular y pulmones limpios. El VD infartado depende de la precarga, por eso los nitratos, los diuréticos y la morfina (venodilatadores) empeoran la hipotensión. La conducta es expandir volumen con cristaloides mientras se reperfunde de urgencia; los betabloqueadores están contraindicados con hipotensión y bradicardia."},{"id":"CAR-002","especialidad":"Cardiología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Mujer de 72 años, hipertensa en tratamiento, acude por palpitaciones de tres semanas. El ECG muestra ritmo irregularmente irregular sin ondas P, con respuesta ventricular de 88 lpm. El ecocardiograma no muestra estenosis mitral ni prótesis valvulares. Función renal normal. ¿Cuál es la conducta más adecuada para prevenir eventos embólicos?","opciones":{"A":"No requiere tratamiento antitrombótico","B":"Ácido acetilsalicílico 100 mg al día","C":"Anticoagulación oral","D":"Doble antiagregación con aspirina y clopidogrel","E":"Heparina de bajo peso molecular solo durante un mes"},"clave_correcta":"C","comentario":"Fibrilación auricular no valvular con CHA₂DS₂-VASc de 3 (edad 65-74 años = 1, sexo femenino = 1, hipertensión = 1). Con puntaje ≥ 2 en varones o ≥ 3 en mujeres está indicada la anticoagulación oral (de preferencia un anticoagulante oral directo; warfarina si no hay acceso). La aspirina no tiene indicación para prevenir el ictus en la FA y la doble antiagregación es inferior a la anticoagulación y sangra igual."},{"id":"CAR-003","especialidad":"Cardiología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 76 años con dos episodios de síncope durante el esfuerzo en el último mes y disnea al subir escaleras. Al examen: pulso carotídeo de ascenso lento y amplitud disminuida, soplo sistólico eyectivo rudo en foco aórtico que se irradia a ambas carótidas y segundo ruido apagado. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Insuficiencia aórtica crónica","B":"Miocardiopatía hipertrófica obstructiva","C":"Estenosis aórtica severa","D":"Insuficiencia mitral","E":"Comunicación interventricular"},"clave_correcta":"C","comentario":"Pulso parvus et tardus, soplo sistólico eyectivo irradiado a carótidas y segundo ruido disminuido definen la estenosis aórtica severa. La tríada clínica es angina, síncope de esfuerzo e insuficiencia cardiaca; una vez sintomática, la supervivencia cae en forma marcada sin tratamiento, por lo que está indicado el reemplazo valvular (quirúrgico o TAVI). En la miocardiopatía hipertrófica el pulso es bífido y el soplo aumenta con Valsalva."}]},"ciencias_basicas":{"especialidad":"Ciencias Básicas","version":"2026-09","preguntas":[{"id":"CB-001","especialidad":"Ciencias Básicas","examen_origen":"ENAM · pregunta tipo","enunciado":"Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?","opciones":{"A":"Fenilalanina hidroxilasa","B":"Homogentisato oxidasa","C":"Tirosinasa","D":"Cistationina β-sintasa","E":"Galactosa-1-fosfato uridiltransferasa"},"clave_correcta":"A","comentario":"Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."}]},"cirugia":{"especialidad":"Cirugía General y Digestiva","version":"2026-09","preguntas":[{"id":"CIR-001","especialidad":"Cirugía General y Digestiva","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 22 años con dolor abdominal que empezó en el epigastrio hace 18 horas y luego migró a la fosa ilíaca derecha, con náuseas e hiporexia. Temperatura 38,1 °C, dolor a la descompresión en el punto de McBurney y leucocitosis de 14 500/mm³ con desviación izquierda. ¿Cuál es la conducta más adecuada?","opciones":{"A":"Alta con analgésicos y control en 48 horas","B":"Apendicectomía","C":"Colonoscopía","D":"Antibióticos orales en domicilio","E":"Laparotomía exploratoria por línea media como primera opción"},"clave_correcta":"B","comentario":"Dolor migratorio a fosa ilíaca derecha, anorexia, fiebre, rebote y leucocitosis con desviación izquierda dan un puntaje de Alvarado alto (≥ 7): el diagnóstico es clínico y la conducta es la apendicectomía (laparoscópica o abierta) con profilaxis antibiótica. La colonoscopía está contraindicada en el abdomen agudo y los analgésicos no deben retrasar la decisión quirúrgica."}]},"endocrinologia":{"especialidad":"Endocrinología","version":"2026-09","preguntas":[{"id":"END-001","especialidad":"Endocrinología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?","opciones":{"A":"Bolo de insulina rápida subcutánea","B":"Bicarbonato de sodio endovenoso","C":"Solución salina al 0,9 % endovenosa","D":"Dextrosa al 5 % endovenosa","E":"Cloruro de potasio en bolo"},"clave_correcta":"C","comentario":"En la cetoacidosis diabética la primera medida es restaurar el volumen con solución salina isotónica (1-1,5 L en la primera hora). La insulina se inicia en infusión endovenosa una vez que el potasio es ≥ 3,3 mEq/L. El bicarbonato se reserva para pH \u003c 6,9 y la dextrosa se agrega cuando la glucosa baja a unos 200-250 mg/dL."}]},"gastroenterologia":{"especialidad":"Gastroenterología","version":"2026-09","preguntas":[{"id":"GAS-001","especialidad":"Gastroenterología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 55 años con cirrosis hepática por alcohol llega a emergencia con hematemesis abundante. PA 90/60 mmHg, FC 112 lpm. Se aseguran dos vías venosas y se inicia la reposición de volumen de forma restrictiva. Mientras se prepara la endoscopía, ¿qué fármaco debe iniciarse?","opciones":{"A":"Propranolol endovenoso","B":"Terlipresina u octreotide endovenoso","C":"Vitamina K como única medida","D":"Omeprazol oral","E":"Lactulosa por sonda nasogástrica como única medida"},"clave_correcta":"B","comentario":"Ante sospecha de hemorragia variceal en un cirrótico se inicia de inmediato un vasoactivo esplácnico (terlipresina, somatostatina u octreotide), junto con profilaxis antibiótica (ceftriaxona) y endoscopía con ligadura en las primeras 12 horas. Los betabloqueadores no selectivos se usan en profilaxis, no en el sangrado agudo con hipotensión. La reposición de volumen debe ser restrictiva (hemoglobina objetivo 7-8 g/dL) para no aumentar la presión portal."}]},"ginecologia":{"especialidad":"Ginecología y Obstetricia","version":"2026-09","preguntas":[{"id":"GIN-001","especialidad":"Ginecología y Obstetricia","examen_origen":"EsSalud · pregunta tipo","enunciado":"Puérpera de 28 años, cuarto parto vaginal, presenta sangrado vaginal abundante 20 minutos después del alumbramiento. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa. ¿Cuál es la primera medida farmacológica?","opciones":{"A":"Oxitocina endovenosa","B":"Misoprostol como única medida","C":"Ácido tranexámico como única medida","D":"Sulfato de magnesio","E":"Nifedipino oral"},"clave_correcta":"A","comentario":"Útero blando y sin contraer tras el parto es atonía uterina, la causa más frecuente de hemorragia postparto. Junto con el masaje uterino bimanual, el uterotónico de primera línea es la oxitocina. Si no responde se agregan ergometrina (contraindicada en hipertensas) o misoprostol, y el ácido tranexámico dentro de las primeras 3 horas. El sulfato de magnesio y el nifedipino relajan el útero y empeoran la atonía."}]},"hematologia":{"especialidad":"Hematología","version":"2026-09","preguntas":[{"id":"HEM-001","especialidad":"Hematología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 30 años con menstruaciones abundantes, fatiga y caída de cabello. Hemoglobina 8,9 g/dL, VCM 70 fL, HCM 22 pg, RDW elevado. ¿Cuál es el dato de laboratorio más útil para confirmar la causa de la anemia?","opciones":{"A":"Ferritina sérica baja","B":"Hierro sérico elevado","C":"Electroforesis de hemoglobina con HbA2 elevada","D":"Reticulocitos elevados","E":"Vitamina B12 baja"},"clave_correcta":"A","comentario":"Anemia microcítica e hipocrómica con RDW elevado en una mujer con pérdidas menstruales orienta a ferropenia. La ferritina baja es el marcador más específico de depósitos de hierro agotados. En la talasemia menor el RDW suele ser normal y la HbA2 está elevada; la vitamina B12 baja produce anemia macrocítica."}]},"infectologia":{"especialidad":"Infectología","version":"2026-09","preguntas":[{"id":"INF-001","especialidad":"Infectología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Varón de 32 años, agricultor de Loreto, con fiebre intermitente, escalofríos y sudoración de cinco días. La gota gruesa muestra Plasmodium vivax. No hay signos de malaria grave y la prueba de G6PD es normal. ¿Cuál es el tratamiento indicado?","opciones":{"A":"Solo cloroquina por tres días","B":"Cloroquina más primaquina","C":"Artesunato endovenoso","D":"Solo primaquina por siete días","E":"Doxiciclina por catorce días"},"clave_correcta":"B","comentario":"La malaria por P. vivax no complicada se trata con cloroquina (esquizonticida sanguíneo) más primaquina, que elimina los hipnozoítos hepáticos y evita las recaídas. Sin primaquina el paciente puede recaer semanas después. El artesunato endovenoso se reserva para la malaria grave; en la gestante la primaquina está contraindicada."}]},"nefrologia":{"especialidad":"Nefrología y Urología","version":"2026-09","preguntas":[{"id":"NEF-001","especialidad":"Nefrología y Urología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?","opciones":{"A":"Resina de intercambio catiónico oral","B":"Furosemida endovenosa","C":"Gluconato de calcio endovenoso","D":"Bicarbonato de sodio oral","E":"Hemodiálisis programada para el día siguiente"},"clave_correcta":"C","comentario":"Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."}]},"neumologia":{"especialidad":"Neumología","version":"2026-09","preguntas":[{"id":"NEU-001","especialidad":"Neumología","examen_origen":"ENAM · pregunta tipo","enunciado":"Varón de 28 años, de Lima, con fiebre vespertina, tos seca y dolor pleurítico derecho de un mes. La radiografía muestra derrame pleural derecho moderado. Toracocentesis: exudado con proteínas 5,1 g/dL, predominio linfocitario (85 %), glucosa 70 mg/dL y adenosina desaminasa (ADA) de 78 U/L. La baciloscopía del líquido es negativa. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Derrame paraneumónico complicado","B":"Tuberculosis pleural","C":"Derrame por insuficiencia cardiaca","D":"Mesotelioma pleural","E":"Tromboembolismo pulmonar"},"clave_correcta":"B","comentario":"Exudado linfocitario con ADA > 40 U/L en un adulto joven de zona de alta prevalencia es tuberculosis pleural hasta demostrar lo contrario. La baciloscopía del líquido es positiva en menos del 10 % de los casos, así que un resultado negativo no la descarta. El derrame paraneumónico es de predominio neutrofílico y la insuficiencia cardiaca produce trasudado."}]},"neurologia":{"especialidad":"Neurología","version":"2026-09","preguntas":[{"id":"NRL-001","especialidad":"Neurología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Mujer de 70 años, hipertensa, presenta de forma súbita hemiparesia derecha y afasia hace 90 minutos. PA 170/95 mmHg, glucemia capilar 118 mg/dL. ¿Cuál es el examen que debe realizarse primero?","opciones":{"A":"Resonancia magnética cerebral con gadolinio","B":"Punción lumbar","C":"Tomografía cerebral sin contraste","D":"Electroencefalograma","E":"Doppler de vasos del cuello"},"clave_correcta":"C","comentario":"Ante un déficit neurológico focal agudo dentro de la ventana terapéutica, la tomografía sin contraste es el primer estudio porque descarta la hemorragia de forma rápida, requisito para decidir la trombólisis (dentro de 4,5 horas) o la trombectomía. La resonancia es más sensible para isquemia temprana pero no debe retrasar la decisión; el Doppler se hace después para buscar la causa."}]},"oftalmo_orl":{"especialidad":"Oftalmología y Otorrinolaringología","version":"2026-09","preguntas":[{"id":"OFT-001","especialidad":"Oftalmología y Otorrinolaringología","examen_origen":"ENAM · pregunta tipo","enunciado":"Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?","opciones":{"A":"Conjuntivitis bacteriana","B":"Glaucoma agudo de ángulo cerrado","C":"Uveítis anterior","D":"Desprendimiento de retina","E":"Migraña con aura"},"clave_correcta":"B","comentario":"Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."}]},"pediatria":{"especialidad":"Pediatría y Neonatología","version":"2026-09","preguntas":[{"id":"PED-001","especialidad":"Pediatría y Neonatología","examen_origen":"ENAM · pregunta tipo","enunciado":"Recién nacido a término de 18 horas de vida, con lactancia materna exclusiva, presenta ictericia que llega hasta el abdomen. La madre es del grupo O Rh positivo y el neonato es A Rh positivo. ¿Cuál es la causa más probable?","opciones":{"A":"Ictericia fisiológica","B":"Ictericia por leche materna","C":"Enfermedad hemolítica por incompatibilidad ABO","D":"Atresia de vías biliares","E":"Síndrome de Gilbert"},"clave_correcta":"C","comentario":"La ictericia en las primeras 24 horas de vida siempre es patológica y lo más frecuente es la hemólisis. Madre O con hijo A o B es la combinación típica de incompatibilidad ABO. La ictericia fisiológica aparece después de las 24 horas y la de la leche materna después de la primera semana. Se debe medir la bilirrubina, hacer Coombs directo y valorar la fototerapia según las curvas de riesgo."}]},"psiquiatria":{"especialidad":"Psiquiatría","version":"2026-09","preguntas":[{"id":"PSI-001","especialidad":"Psiquiatría","examen_origen":"EsSalud · pregunta tipo","enunciado":"Mujer de 35 años con seis semanas de ánimo deprimido casi todos los días, anhedonia, insomnio, pérdida de peso, sentimientos de culpa y dificultad para concentrarse. Niega ideación suicida, no tiene síntomas psicóticos y nunca tuvo episodios de euforia. ¿Cuál es el tratamiento farmacológico de primera línea?","opciones":{"A":"Haloperidol","B":"Diazepam como monoterapia","C":"Un inhibidor selectivo de la recaptación de serotonina, como sertralina","D":"Carbonato de litio como monoterapia","E":"Terapia electroconvulsiva"},"clave_correcta":"C","comentario":"Cumple criterios de episodio depresivo mayor: cinco o más síntomas durante al menos dos semanas, incluido ánimo deprimido o anhedonia. Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea por su eficacia y tolerancia, idealmente junto con psicoterapia; el efecto se ve a las 2-4 semanas. Las benzodiacepinas no tratan la depresión y la terapia electroconvulsiva se reserva para depresión grave con psicosis, riesgo suicida alto o resistencia al tratamiento. Antes de indicar un antidepresivo hay que descartar un trastorno bipolar."}]},"reumatologia":{"especialidad":"Reumatología y Dermatología","version":"2026-09","preguntas":[{"id":"REU-001","especialidad":"Reumatología y Dermatología","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 52 años, obeso, despierta con dolor intenso, calor, rubor y tumefacción en la primera articulación metatarsofalángica tras una comida abundante con alcohol. En la artrocentesis se observan cristales en forma de aguja con birrefringencia negativa bajo luz polarizada. ¿Qué cristal corresponde?","opciones":{"A":"Pirofosfato de calcio","B":"Urato monosódico","C":"Hidroxiapatita","D":"Oxalato de calcio","E":"Colesterol"},"clave_correcta":"B","comentario":"Los cristales de urato monosódico son aciculares y con birrefringencia negativa: es gota, y la podagra es su forma típica de presentación. Los de pirofosfato de calcio (condrocalcinosis) son romboidales, con birrefringencia débilmente positiva, y afectan sobre todo la rodilla. En la crisis aguda se usan AINE, colchicina o corticoides; el alopurinol no se inicia como tratamiento de la crisis."}]},"salud_publica":{"especialidad":"Salud Pública, Gestión y Epidemiología","version":"2026-09","preguntas":[{"id":"SP-001","especialidad":"Salud Pública, Gestión y Epidemiología","examen_origen":"EsSalud · pregunta tipo","enunciado":"Se evalúa una prueba rápida para detectar una enfermedad en 300 personas. De 100 enfermos, 80 tienen la prueba positiva; de 200 sanos, 180 tienen la prueba negativa. ¿Cuál es la especificidad de la prueba?","opciones":{"A":"80 %","B":"90 %","C":"75 %","D":"85,7 %","E":"60 %"},"clave_correcta":"B","comentario":"Especificidad = verdaderos negativos / total de sanos = 180 / 200 = 90 %. En la misma tabla, la sensibilidad es 80 / 100 = 80 % y el valor predictivo positivo es 80 / (80 + 20) = 80 %. La sensibilidad y la especificidad son propias de la prueba; los valores predictivos cambian con la prevalencia de la enfermedad."}]},"traumatologia":{"especialidad":"Traumatología y Ortopedia","version":"2026-09","preguntas":[{"id":"TRA-001","especialidad":"Traumatología y Ortopedia","examen_origen":"Residentado Médico · pregunta tipo","enunciado":"Varón de 20 años cae sobre la mano extendida jugando fútbol. Presenta dolor a la palpación en la tabaquera anatómica. Las radiografías de muñeca iniciales, incluidas proyecciones para escafoides, no muestran fractura. ¿Cuál es la conducta más adecuada?","opciones":{"A":"Alta sin inmovilización","B":"Inmovilizar con férula que incluya el pulgar y reevaluar en 10 a 14 días","C":"Artroscopía de muñeca de urgencia","D":"Infiltración de corticoide","E":"Solo antiinflamatorios y movilización precoz"},"clave_correcta":"B","comentario":"El dolor en la tabaquera anatómica tras una caída sobre la mano extendida es fractura de escafoides hasta demostrar lo contrario, aunque la radiografía inicial sea normal (hasta un 20 % no se ve al principio). Se inmoviliza con férula que incluya el pulgar y se repite la radiografía en 10-14 días, o se pide resonancia o tomografía si está disponible. Por su irrigación retrógrada, una fractura no tratada puede terminar en necrosis avascular del polo proximal."}]}};
+/* MedQuizPro — interacciones de la landing. Script clásico + IIFE, sin dependencias. */
+(function () {
+  "use strict";
+
+  function safe(name, fn) {
+    try { fn(); } catch (err) {
+      if (window.console && console.warn) console.warn("[MedQuizPro] " + name, err);
+    }
+  }
+
+  var reduced = false;
+  try {
+    reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  } catch (e) { reduced = false; }
+
+  /* ---------- menú móvil ---------- */
+  safe("nav", function () {
+    var toggle = document.getElementById("navToggle");
+    var nav = document.getElementById("nav");
+    if (!toggle || !nav) return;
+
+    var mq = window.matchMedia("(max-width: 880px)");
+    function close() {
+      toggle.setAttribute("aria-expanded", "false");
+      if (mq.matches) nav.hidden = true;
+    }
+    function sync() { if (mq.matches) { close(); } else { nav.hidden = false; } }
+
+    sync();
+    if (mq.addEventListener) mq.addEventListener("change", sync);
+    else if (mq.addListener) mq.addListener(sync);
+
+    toggle.addEventListener("click", function () {
+      var open = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", open ? "false" : "true");
+      nav.hidden = open;
+    });
+    nav.addEventListener("click", function (ev) {
+      if (ev.target.tagName === "A") close();
+    });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape") close();
+    });
+  });
+
+  /* ---------- pregunta de muestra ---------- */
+  safe("quiz", function () {
+    var preguntas = [
+      {
+        area: "Medicina Interna", examen: "ENAM",
+        enunciado: "Varón de 58 años, diabético, acude por dolor torácico opresivo de 40 minutos. El ECG muestra elevación del segmento ST en DII, DIII y aVF. ¿Cuál es la conducta inicial más apropiada?",
+        opciones: [
+          "Solicitar ecocardiograma y reevaluar en 6 horas",
+          "Activar la vía de reperfusión coronaria de inmediato",
+          "Iniciar furosemida endovenosa en bolo",
+          "Programar prueba de esfuerzo al alta"
+        ],
+        correcta: 1,
+        porque: "La elevación del ST en DII, DIII y aVF define un infarto de cara inferior con elevación del ST. El objetivo es reperfundir cuanto antes (angioplastia primaria o fibrinólisis si no hay disponibilidad); ninguna prueba adicional debe retrasarlo."
+      },
+      {
+        area: "Ginecología y Obstetricia", examen: "ENAM",
+        enunciado: "Gestante de 34 semanas con presión arterial de 160/105 mmHg, proteinuria significativa y cefalea persistente que no cede con analgésicos. ¿Qué conducta corresponde?",
+        opciones: [
+          "Reposo en domicilio y control en 72 horas",
+          "Hospitalizar, antihipertensivo de acción rápida y sulfato de magnesio",
+          "Dieta hiposódica y repetir la proteinuria en una semana",
+          "Cesárea inmediata sin estabilización previa"
+        ],
+        correcta: 1,
+        porque: "El cuadro reúne criterios de severidad de preeclampsia. Corresponde manejo hospitalario: control de la presión con antihipertensivo de acción rápida y sulfato de magnesio como neuroprofilaxis. El momento del parto se decide después de estabilizar a la paciente."
+      },
+      {
+        area: "Pediatría · Salud Pública", examen: "EsSalud",
+        enunciado: "Durante un brote de enfermedad diarreica, un niño de 3 años llega con ojos hundidos, bebe con avidez y el pliegue cutáneo se deshace lentamente. Según AIEPI, ¿qué plan de hidratación le corresponde?",
+        opciones: [
+          "Plan A, con sales de rehidratación en domicilio",
+          "Plan B, con sales de rehidratación supervisadas en el establecimiento",
+          "Plan C, con fluidos endovenosos",
+          "Antibiótico empírico y alta con indicaciones"
+        ],
+        correcta: 1,
+        porque: "Los signos descritos corresponden a deshidratación sin shock. El Plan B indica sales de rehidratación oral supervisadas en el establecimiento durante cuatro horas, con reevaluación al término. El Plan C se reserva para la deshidratación grave."
+      }
+    ];
+
+    var i = 0, respondida = false;
+    var elArea = document.getElementById("qArea");
+    var elExam = document.getElementById("qExam");
+    var elCount = document.getElementById("qCounter");
+    var elStem = document.getElementById("qStem");
+    var elOpts = document.getElementById("qOptions");
+    var elFb = document.getElementById("qFeedback");
+    var elVerdict = document.getElementById("qVerdict");
+    var elWhy = document.getElementById("qWhy");
+    var elNext = document.getElementById("qNext");
+    var elNote = document.getElementById("qNote");
+    if (!elOpts || !elStem || !elNext) return;
+
+    var letras = ["A", "B", "C", "D"];
+
+    function pintar() {
+      var q = preguntas[i];
+      respondida = false;
+      elArea.textContent = q.area;
+      elExam.textContent = q.examen;
+      elCount.textContent = "Pregunta " + (i + 1) + " de " + preguntas.length;
+      elStem.textContent = q.enunciado;
+      elOpts.innerHTML = "";
+      for (var k = 0; k < q.opciones.length; k++) {
+        var li = document.createElement("li");
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "opt";
+        b.setAttribute("data-i", String(k));
+        var bub = document.createElement("span");
+        bub.className = "opt__bubble";
+        bub.textContent = letras[k];
+        var txt = document.createElement("span");
+        txt.className = "opt__text";
+        txt.textContent = q.opciones[k];
+        b.appendChild(bub);
+        b.appendChild(txt);
+        li.appendChild(b);
+        elOpts.appendChild(li);
+      }
+      elFb.hidden = true;
+      elNext.hidden = true;
+      elNote.hidden = false;
+      elNote.textContent = "Marca una alternativa para ver la explicación";
+    }
+
+    elOpts.addEventListener("click", function (ev) {
+      var btn = ev.target.closest ? ev.target.closest(".opt") : null;
+      if (!btn || respondida) return;
+      respondida = true;
+
+      var q = preguntas[i];
+      var elegida = parseInt(btn.getAttribute("data-i"), 10);
+      var acerto = elegida === q.correcta;
+      var botones = elOpts.querySelectorAll(".opt");
+
+      for (var k = 0; k < botones.length; k++) {
+        botones[k].disabled = true;
+        var idx = parseInt(botones[k].getAttribute("data-i"), 10);
+        if (idx === q.correcta) botones[k].classList.add("opt--right");
+        else if (idx === elegida) botones[k].classList.add("opt--wrong");
+      }
+
+      elVerdict.textContent = acerto ? "Respuesta correcta" : "Respuesta incorrecta";
+      elVerdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
+      elWhy.textContent = q.porque;
+      elFb.hidden = false;
+      elNote.hidden = true;
+      elNext.hidden = false;
+      elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : "Volver a la primera";
+    });
+
+    elNext.addEventListener("click", function () {
+      i = (i + 1) % preguntas.length;
+      pintar();
+    });
+
+    pintar();
+  });
+
+  /* ---------- bancos por especialidad + simulador ----------
+     Cada especialidad lee su banco de bancos/<archivo>.json con fetch.
+     Formato: { especialidad, preguntas: [ { id, especialidad, examen_origen,
+     enunciado, opciones: { A: "...", B: "..." }, clave_correcta: "B", comentario } ] }.
+     Si la página se sirvió como archivo único (artifact.html), los bancos vienen
+     incrustados en window.MQP_BANCOS y no hace falta pedirlos. */
+  safe("bancos", function () {
+    var grid = document.getElementById("specs");
+    var vista = document.getElementById("simView");
+    if (!grid || !vista) return;
+
+    var I = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+    var ICONOS = {
+      corazon: '<path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.1a4.3 4.3 0 0 1 7.5 2.7C19.5 15.4 12 20 12 20z"/><path d="M4.5 12h3.2l1.6-2.6 2.6 5 1.7-2.4h5.9"/>',
+      pulmones: '<path d="M12 3v8m0 0-2.5 2.2M12 11l2.5 2.2"/><path d="M9 7.5C6.4 7.5 4 12.4 4 17c0 2 1.2 3 3 3s3-1.1 3-3V9.2"/><path d="M15 7.5c2.6 0 5 4.9 5 9.5 0 2-1.2 3-3 3s-3-1.1-3-3V9.2"/>',
+      estomago: '<path d="M9 3v4c0 2-3 3-3 7a6 6 0 0 0 6 6h1.5a5.5 5.5 0 0 0 5.5-5.5c0-3-2.6-4.4-4.8-3.3-1.8.9-3.2-.1-3.2-2.2V3"/>',
+      rinon: '<path d="M10 4C6.5 4 4 7.8 4 12s2.5 8 6 8c1.8 0 3-1.6 3-3.4 0-1.2-1-2.3-1-4.6s1-3.4 1-4.6C13 5.6 11.8 4 10 4z"/><path d="M12.5 12H16c2 0 3 1.6 3 3.6V21"/>',
+      tiroides: '<path d="M12 7v10"/><path d="M12 9.5C10.4 6.4 5 6.6 5 11.3c0 4.5 4.3 6 7 4.2"/><path d="M12 9.5c1.6-3.1 7-2.9 7 1.8 0 4.5-4.3 6-7 4.2"/>',
+      virus: '<circle cx="12" cy="12" r="4.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.2 2.2M16.2 16.2l2.2 2.2M5.6 18.4l2.2-2.2M16.2 7.8l2.2-2.2"/>',
+      cerebro: '<path d="M11 5.2A3 3 0 0 0 6 6.8a3 3 0 0 0-1.8 5.1A3 3 0 0 0 6.5 17 3 3 0 0 0 11 18.8z"/><path d="M13 5.2a3 3 0 0 1 5 1.6 3 3 0 0 1 1.8 5.1 3 3 0 0 1-2.3 5.1 3 3 0 0 1-4.5 1.8z"/>',
+      gota: '<path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.3 14.3A2.7 2.7 0 0 0 12 17"/>',
+      articulacion: '<path d="M8.5 3v5.5a3.5 3.5 0 0 0 7 0V3"/><path d="M8.5 21v-4.5a3.5 3.5 0 0 1 7 0V21"/><path d="M6 12h2M16 12h2"/>',
+      bebe: '<circle cx="12" cy="12.5" r="8"/><path d="M9.3 11h.01M14.7 11h.01"/><path d="M10 15a2.6 2.6 0 0 0 4 0"/><path d="M12 4.5c1.4.6 1.6 2 .4 2.6"/>',
+      femenino: '<circle cx="12" cy="9" r="5"/><path d="M12 14v7M9 18h6"/>',
+      bisturi: '<path d="M4 20l6.2-6.2"/><path d="M10.2 13.8 19 5c.9 3.4-1.1 7-5.4 8.9L12 15.6z"/>',
+      hueso: '<path d="M17 10c.7-.7 1.7 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .8.7 1.8 0 2.5l-7 7c-.7.7-1.7 0-2.5 0a2.5 2.5 0 0 0 0 5c.3 0 .5.2.5.5a2.5 2.5 0 1 0 5 0c0-.8-.7-1.8 0-2.5z"/>',
+      ojo: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+      mente: '<path d="M13 3a7 7 0 0 0-7 7c0 2 .8 3.6 2 4.8V21h7v-3h2a2 2 0 0 0 2-2v-2.5l1.8-.8-1.8-3A7 7 0 0 0 13 3z"/><path d="M11 10.5a2 2 0 1 1 2 2"/>',
+      grafico: '<path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/>',
+      matraz: '<path d="M9 3h6M10 3v6.2L5 18a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-8.8V3"/><path d="M7.4 15h9.2"/>'
+    };
+
+    var CATALOGO = [
+      { nombre: "Cardiología", archivo: "cardiologia", icono: "corazon" },
+      { nombre: "Neumología", archivo: "neumologia", icono: "pulmones" },
+      { nombre: "Gastroenterología", archivo: "gastroenterologia", icono: "estomago" },
+      { nombre: "Nefrología y Urología", archivo: "nefrologia", icono: "rinon" },
+      { nombre: "Endocrinología", archivo: "endocrinologia", icono: "tiroides" },
+      { nombre: "Infectología", archivo: "infectologia", icono: "virus" },
+      { nombre: "Neurología", archivo: "neurologia", icono: "cerebro" },
+      { nombre: "Hematología", archivo: "hematologia", icono: "gota" },
+      { nombre: "Reumatología y Dermatología", archivo: "reumatologia", icono: "articulacion" },
+      { nombre: "Pediatría y Neonatología", archivo: "pediatria", icono: "bebe" },
+      { nombre: "Ginecología y Obstetricia", archivo: "ginecologia", icono: "femenino" },
+      { nombre: "Cirugía General y Digestiva", archivo: "cirugia", icono: "bisturi" },
+      { nombre: "Traumatología y Ortopedia", archivo: "traumatologia", icono: "hueso" },
+      { nombre: "Oftalmología y Otorrinolaringología", archivo: "oftalmo_orl", icono: "ojo" },
+      { nombre: "Psiquiatría", archivo: "psiquiatria", icono: "mente" },
+      { nombre: "Salud Pública, Gestión y Epidemiología", archivo: "salud_publica", icono: "grafico" },
+      { nombre: "Ciencias Básicas", archivo: "ciencias_basicas", icono: "matraz" }
+    ];
+
+    var el = {
+      back: document.getElementById("svBack"),
+      score: document.getElementById("svScore"),
+      area: document.getElementById("svArea"),
+      exam: document.getElementById("svExam"),
+      counter: document.getElementById("svCounter"),
+      status: document.getElementById("svStatus"),
+      content: document.getElementById("svContent"),
+      stem: document.getElementById("svStem"),
+      options: document.getElementById("svOptions"),
+      feedback: document.getElementById("svFeedback"),
+      verdict: document.getElementById("svVerdict"),
+      why: document.getElementById("svWhy"),
+      prev: document.getElementById("svPrev"),
+      next: document.getElementById("svNext")
+    };
+
+    var cache = {};          // archivo -> promesa de preguntas normalizadas
+    var estados = {};        // archivo -> nodo de estado de la tarjeta
+    var actual = null;       // { esp, preguntas, i, respuestas }
+    var turno = 0;           // descarta respuestas de fetch que llegan tarde
+
+    /* Acepta { preguntas: [...] } o directamente [...]; opciones como objeto o arreglo. */
+    function normalizar(datos) {
+      var lista = Array.isArray(datos) ? datos : (datos && Array.isArray(datos.preguntas) ? datos.preguntas : null);
+      if (!lista) throw new Error("formato");
+      var salida = [];
+      for (var k = 0; k < lista.length; k++) {
+        var p = lista[k] || {};
+        var ops = [];
+        if (Array.isArray(p.opciones)) {
+          for (var j = 0; j < p.opciones.length; j++) ops.push({ letra: "ABCDE".charAt(j), texto: String(p.opciones[j]) });
+        } else if (p.opciones && typeof p.opciones === "object") {
+          var letras = Object.keys(p.opciones).sort();
+          for (var m = 0; m < letras.length; m++) ops.push({ letra: letras[m].toUpperCase(), texto: String(p.opciones[letras[m]]) });
+        }
+        if (!p.enunciado || ops.length < 2) continue;
+        salida.push({
+          id: p.id, especialidad: p.especialidad, examen: p.examen_origen || "",
+          enunciado: String(p.enunciado), opciones: ops,
+          clave: String(p.clave_correcta || "").trim().toUpperCase(),
+          comentario: p.comentario ? String(p.comentario) : ""
+        });
+      }
+      return salida;
+    }
+
+    function cargar(archivo) {
+      if (cache[archivo]) return cache[archivo];
+      var incrustado = window.MQP_BANCOS && window.MQP_BANCOS[archivo];
+      var promesa = incrustado
+        ? Promise.resolve(incrustado)
+        : fetch("bancos/" + archivo + ".json", { cache: "no-cache" }).then(function (res) {
+            if (!res.ok) throw new Error("http " + res.status);
+            return res.json();   // si el servidor devuelve HTML (404 reescrito), esto falla y cae al catch
+          });
+      cache[archivo] = promesa.then(normalizar);
+      cache[archivo].catch(function () { delete cache[archivo]; });  // permite reintentar
+      return cache[archivo];
+    }
+
+    /* ----- cuadrícula ----- */
+    function pintarGrid() {
+      var frag = document.createDocumentFragment();
+      for (var k = 0; k < CATALOGO.length; k++) {
+        var esp = CATALOGO[k];
+        var card = document.createElement("article");
+        card.className = "spec";
+        card.innerHTML =
+          '<span class="spec__icon"><svg ' + I + '>' + ICONOS[esp.icono] + '</svg></span>' +
+          '<h3></h3><span class="spec__status">Banco disponible</span>' +
+          '<button class="btn btn--primary" type="button">Iniciar práctica</button>';
+        card.querySelector("h3").textContent = esp.nombre;
+        estados[esp.archivo] = card.querySelector(".spec__status");
+        (function (esp, btn) {
+          btn.setAttribute("aria-label", "Iniciar práctica de " + esp.nombre);
+          btn.addEventListener("click", function () { abrir(esp); });
+        })(esp, card.querySelector("button"));
+        frag.appendChild(card);
+      }
+      grid.appendChild(frag);
+    }
+
+    function actualizarEstado(archivo, preguntas, fallo) {
+      var nodo = estados[archivo];
+      if (!nodo) return;
+      if (fallo) {
+        nodo.className = "spec__status spec__status--off";
+        nodo.textContent = "No disponible por ahora";
+      } else if (!preguntas.length) {
+        nodo.className = "spec__status";
+        nodo.textContent = "Banco en preparación";
+      } else {
+        nodo.className = "spec__status spec__status--ok";
+        nodo.textContent = "Banco disponible · " + preguntas.length + (preguntas.length === 1 ? " pregunta" : " preguntas");
+      }
+    }
+
+    /* Cuenta las preguntas cuando la sección se acerca a la pantalla, no antes. */
+    function contarTodo() {
+      for (var k = 0; k < CATALOGO.length; k++) {
+        (function (archivo) {
+          cargar(archivo).then(
+            function (ps) { actualizarEstado(archivo, ps, false); },
+            function () { actualizarEstado(archivo, [], true); }
+          );
+        })(CATALOGO[k].archivo);
+      }
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entradas) {
+        if (entradas[0].isIntersecting) { io.disconnect(); contarTodo(); }
+      }, { rootMargin: "300px 0px" });
+      io.observe(grid);
+    } else {
+      contarTodo();
+    }
+
+    /* ----- simulador ----- */
+    function mostrarVista(simulador) {
+      grid.hidden = simulador;
+      vista.hidden = !simulador;
+      var seccion = document.getElementById("bancos");
+      if (seccion && seccion.scrollIntoView) seccion.scrollIntoView({ block: "start", behavior: reduced ? "auto" : "smooth" });
+    }
+
+    function mensaje(texto) {
+      el.content.hidden = true;
+      el.status.hidden = false;
+      el.status.textContent = texto;
+      el.counter.textContent = "";
+      el.exam.hidden = true;
+      el.prev.disabled = true;
+      el.next.disabled = true;
+      el.score.textContent = "";
+    }
+
+    function abrir(esp) {
+      var mio = ++turno;
+      actual = null;
+      el.area.textContent = esp.nombre;
+      mensaje("Cargando el banco de " + esp.nombre + "…");
+      mostrarVista(true);
+      cargar(esp.archivo).then(function (preguntas) {
+        if (mio !== turno) return;
+        actualizarEstado(esp.archivo, preguntas, false);
+        if (!preguntas.length) { mensaje("Este banco todavía no tiene preguntas publicadas. Vuelve pronto."); return; }
+        actual = { esp: esp, preguntas: preguntas, i: 0, respuestas: [] };
+        pintarPregunta();
+      }, function () {
+        if (mio !== turno) return;
+        actualizarEstado(esp.archivo, [], true);
+        mensaje("No se pudo cargar el banco de " + esp.nombre + ". Revisa tu conexión e inténtalo de nuevo.");
+      });
+    }
+
+    function pintarPuntaje() {
+      var hechas = 0, bien = 0;
+      for (var k = 0; k < actual.preguntas.length; k++) {
+        var r = actual.respuestas[k];
+        if (r) { hechas++; if (r === actual.preguntas[k].clave) bien++; }
+      }
+      el.score.textContent = hechas ? ("Aciertos: " + bien + " de " + hechas + " respondidas") : "";
+    }
+
+    function pintarPregunta() {
+      var q = actual.preguntas[actual.i];
+      var total = actual.preguntas.length;
+      el.status.hidden = true;
+      el.content.hidden = false;
+      el.counter.textContent = "Pregunta " + (actual.i + 1) + " de " + total;
+      el.exam.hidden = !q.examen;
+      el.exam.textContent = q.examen;
+      el.stem.textContent = q.enunciado;
+
+      el.options.innerHTML = "";
+      for (var k = 0; k < q.opciones.length; k++) {
+        var li = document.createElement("li");
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "opt";
+        b.setAttribute("data-letra", q.opciones[k].letra);
+        var bub = document.createElement("span");
+        bub.className = "opt__bubble";
+        bub.textContent = q.opciones[k].letra;
+        var txt = document.createElement("span");
+        txt.className = "opt__text";
+        txt.textContent = q.opciones[k].texto;
+        b.appendChild(bub);
+        b.appendChild(txt);
+        li.appendChild(b);
+        el.options.appendChild(li);
+      }
+
+      var previa = actual.respuestas[actual.i];
+      if (previa) marcar(previa); else el.feedback.hidden = true;
+
+      el.prev.disabled = actual.i === 0;
+      el.next.disabled = actual.i >= total - 1;
+      pintarPuntaje();
+    }
+
+    function marcar(elegida) {
+      var q = actual.preguntas[actual.i];
+      var botones = el.options.querySelectorAll(".opt");
+      for (var k = 0; k < botones.length; k++) {
+        var letra = botones[k].getAttribute("data-letra");
+        botones[k].disabled = true;
+        if (letra === q.clave) botones[k].classList.add("opt--right");
+        else if (letra === elegida) botones[k].classList.add("opt--wrong");
+      }
+      var acerto = elegida === q.clave;
+      el.verdict.textContent = acerto
+        ? "Respuesta correcta"
+        : "Respuesta incorrecta · la correcta es la " + q.clave;
+      el.verdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
+      el.why.textContent = q.comentario || "Esta pregunta todavía no tiene comentario docente.";
+      el.feedback.hidden = false;
+    }
+
+    el.options.addEventListener("click", function (ev) {
+      var btn = ev.target.closest ? ev.target.closest(".opt") : null;
+      if (!btn || !actual || actual.respuestas[actual.i]) return;
+      var letra = btn.getAttribute("data-letra");
+      actual.respuestas[actual.i] = letra;
+      marcar(letra);
+      pintarPuntaje();
+      if (!el.next.disabled) el.next.focus();
+    });
+
+    el.prev.addEventListener("click", function () {
+      if (actual && actual.i > 0) { actual.i--; pintarPregunta(); }
+    });
+    el.next.addEventListener("click", function () {
+      if (actual && actual.i < actual.preguntas.length - 1) { actual.i++; pintarPregunta(); }
+    });
+
+    function cerrarSimulador() {
+      turno++;
+      actual = null;
+      grid.hidden = false;
+      vista.hidden = true;
+    }
+    el.back.addEventListener("click", function () { cerrarSimulador(); mostrarVista(false); });
+
+    /* "Bancos de preguntas" en el menú o el pie siempre regresa a la cuadrícula. */
+    var enlaces = document.querySelectorAll('a[href="#bancos"]');
+    for (var j = 0; j < enlaces.length; j++) enlaces[j].addEventListener("click", cerrarSimulador);
+
+    pintarGrid();
+  });
+
+  /* ---------- cuenta regresiva al próximo sábado 09:00 ---------- */
+  safe("countdown", function () {
+    var d = document.getElementById("cdD");
+    var h = document.getElementById("cdH");
+    var m = document.getElementById("cdM");
+    var s = document.getElementById("cdS");
+    if (!d || !h || !m || !s) return;
+
+    function dosCifras(n) { return n < 10 ? "0" + n : String(n); }
+
+    function proximoSabado() {
+      var ahora = new Date();
+      var destino = new Date(ahora.getFullYear(), ahora.getMonth(), ahora.getDate(), 9, 0, 0, 0);
+      var faltan = (6 - destino.getDay() + 7) % 7;
+      destino.setDate(destino.getDate() + faltan);
+      if (destino.getTime() <= ahora.getTime()) destino.setDate(destino.getDate() + 7);
+      return destino;
+    }
+
+    var destino = proximoSabado();
+
+    function tic() {
+      var falta = destino.getTime() - Date.now();
+      if (falta <= 0) { destino = proximoSabado(); falta = destino.getTime() - Date.now(); }
+      var seg = Math.floor(falta / 1000);
+      d.textContent = dosCifras(Math.floor(seg / 86400));
+      h.textContent = dosCifras(Math.floor(seg / 3600) % 24);
+      m.textContent = dosCifras(Math.floor(seg / 60) % 60);
+      s.textContent = dosCifras(seg % 60);
+    }
+
+    tic();
+    setInterval(tic, 1000);
+  });
+
+  /* ---------- contadores ---------- */
+  safe("contadores", function () {
+    var nodos = document.querySelectorAll("[data-count]");
+    if (!nodos.length) return;
+
+    function formatear(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " "); }
+
+    function animar(el) {
+      var objetivo = parseInt(el.getAttribute("data-count"), 10);
+      if (!objetivo || reduced) return;
+      var inicio = null, dur = 1100;
+      function paso(t) {
+        if (inicio === null) inicio = t;
+        var p = Math.min((t - inicio) / dur, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = formatear(Math.round(objetivo * eased));
+        if (p < 1) requestAnimationFrame(paso);
+        else el.textContent = formatear(objetivo);
+      }
+      requestAnimationFrame(paso);
+    }
+
+    if (!("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (entradas) {
+      for (var k = 0; k < entradas.length; k++) {
+        if (entradas[k].isIntersecting) { animar(entradas[k].target); io.unobserve(entradas[k].target); }
+      }
+    }, { threshold: 0.05 });
+    for (var j = 0; j < nodos.length; j++) io.observe(nodos[j]);
+  });
+
+  /* ---------- revelado suave con red de seguridad ---------- */
+  safe("reveal", function () {
+    var nodos = document.querySelectorAll(".reveal");
+    if (!nodos.length || !("IntersectionObserver" in window) || reduced) return;
+
+    document.documentElement.classList.add("js-reveal");
+
+    function mostrarTodo() {
+      for (var k = 0; k < nodos.length; k++) nodos[k].classList.add("is-in");
+    }
+    var red = setTimeout(mostrarTodo, 1800);
+
+    var io = new IntersectionObserver(function (entradas) {
+      for (var k = 0; k < entradas.length; k++) {
+        if (entradas[k].isIntersecting) {
+          entradas[k].target.classList.add("is-in");
+          io.unobserve(entradas[k].target);
+        }
+      }
+    }, { threshold: 0.05, rootMargin: "0px 0px -40px 0px" });
+
+    for (var j = 0; j < nodos.length; j++) io.observe(nodos[j]);
+    window.addEventListener("pagehide", function () { clearTimeout(red); });
+  });
+
+  /* ---------- formulario de registro ---------- */
+  safe("formulario", function () {
+    var form = document.getElementById("signupForm");
+    var exito = document.getElementById("signupSuccess");
+    if (!form || !exito) return;
+
+    function error(id, mostrar, campo) {
+      var el = document.getElementById(id);
+      if (el) el.hidden = !mostrar;
+      if (campo) campo.setAttribute("aria-invalid", mostrar ? "true" : "false");
+      return !mostrar;
+    }
+
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+
+      var nombre = document.getElementById("f-nombre");
+      var correo = document.getElementById("f-correo");
+      var uni = document.getElementById("f-universidad");
+      var examen = form.querySelector('input[name="examen"]:checked');
+
+      var okNombre = error("e-nombre", nombre.value.trim().length < 2, nombre);
+      var okCorreo = error("e-correo", !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(correo.value.trim()), correo);
+      var okUni = error("e-universidad", uni.value === "", uni);
+      var okExamen = error("e-examen", !examen, null);
+
+      if (!(okNombre && okCorreo && okUni && okExamen)) {
+        var primero = form.querySelector('[aria-invalid="true"]');
+        if (primero && primero.focus) primero.focus();
+        return;
+      }
+
+      var nombreCorto = nombre.value.trim().split(/\s+/)[0];
+      var elNombre = document.getElementById("successName");
+      var elMsg = document.getElementById("successMsg");
+      if (elNombre) elNombre.textContent = nombreCorto;
+      if (elMsg) elMsg.textContent = "Tu cuenta gratuita para el " + examen.value + " quedó lista y te guardamos un lugar en el simulacro del sábado.";
+
+      form.hidden = true;
+      exito.hidden = false;
+      if (exito.scrollIntoView) exito.scrollIntoView({ block: "center", behavior: reduced ? "auto" : "smooth" });
+    });
+  });
+
+  /* ---------- año del pie ---------- */
+  safe("year", function () {
+    var el = document.getElementById("year");
+    if (el) el.textContent = String(new Date().getFullYear());
+  });
+  /* ---------- widget de chat (tutor) ----------
+     El navegador solo habla con api.php, que es quien guarda la llave y llama
+     al modelo de IA. Aquí no hay ninguna credencial. */
+  safe("chat", function () {
+    var ENDPOINT = "api.php";          // relativo: funciona también en subcarpetas
+    var MAX_TURNOS = 10;               // turnos que se reenvían como contexto
+    var ESPERA_MAXIMA = 60000;         // ms antes de rendirse con la petición
+    var MEMORIA = "medquizpro_chat";   // clave de sessionStorage
+    var ERROR_GENERICO = "Lo siento, no pude procesar tu mensaje. Inténtalo nuevamente.";
+
+    var launcher = document.getElementById("chatLauncher");
+    var panel = document.getElementById("chatPanel");
+    var log = document.getElementById("chatLog");
+    var form = document.getElementById("chatForm");
+    var input = document.getElementById("chatInput");
+    var enviar = document.getElementById("chatSend");
+    var bienvenida = document.getElementById("chatWelcome");
+    var btnNuevo = document.getElementById("chatNuevo");
+    var btnMinimizar = document.getElementById("chatMinimizar");
+    var btnCerrar = document.getElementById("chatClose");
+    if (!launcher || !panel || !log || !form || !input || !enviar) return;
+
+    var historial = [];
+    var enCurso = false;
+    var ultimoFoco = null;
+
+    /* ---- memoria de la sesión (se borra al cerrar la pestaña) ---- */
+    function guardar() {
+      try { sessionStorage.setItem(MEMORIA, JSON.stringify(historial)); } catch (e) {}
+    }
+    function recuperar() {
+      try {
+        var crudo = sessionStorage.getItem(MEMORIA);
+        var datos = crudo ? JSON.parse(crudo) : null;
+        if (datos && datos.length) {
+          historial = datos.slice(-MAX_TURNOS * 2);
+          for (var k = 0; k < historial.length; k++) {
+            burbuja(historial[k].texto, historial[k].rol === "tutor" ? "bot" : "user");
+          }
+          ocultarBienvenida(true);
+        }
+      } catch (e) { historial = []; }
+    }
+    function olvidar() {
+      try { sessionStorage.removeItem(MEMORIA); } catch (e) {}
+    }
+
+    /* ---- abrir, minimizar, cerrar ---- */
+    function abrir() {
+      panel.hidden = false;
+      launcher.hidden = true;
+      launcher.setAttribute("aria-expanded", "true");
+      document.body.classList.add("chat-open");
+      ultimoFoco = document.activeElement;
+      input.focus();
+      log.scrollTop = log.scrollHeight;
+    }
+    /* minimizar: se guarda la conversación y se puede seguir donde se dejó */
+    function minimizar() {
+      panel.hidden = true;
+      launcher.hidden = false;
+      launcher.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("chat-open");
+      if (ultimoFoco && ultimoFoco.focus) ultimoFoco.focus();
+      else launcher.focus();
+    }
+    /* cerrar: además termina la conversación */
+    function cerrar() {
+      minimizar();
+      nuevaConversacion(false);
+    }
+    function nuevaConversacion(enfocar) {
+      historial = [];
+      olvidar();
+      var hijos = Array.prototype.slice.call(log.children);
+      for (var k = 0; k < hijos.length; k++) {
+        if (hijos[k] !== bienvenida) log.removeChild(hijos[k]);
+      }
+      ocultarBienvenida(false);
+      input.value = "";
+      ajustarAlto();
+      if (enfocar !== false) input.focus();
+    }
+    function ocultarBienvenida(ocultar) {
+      if (bienvenida) bienvenida.hidden = !!ocultar;
+    }
+
+    launcher.addEventListener("click", abrir);
+    if (btnMinimizar) btnMinimizar.addEventListener("click", minimizar);
+    if (btnCerrar) btnCerrar.addEventListener("click", cerrar);
+    if (btnNuevo) btnNuevo.addEventListener("click", function () { nuevaConversacion(true); });
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape" && !panel.hidden) minimizar();
+    });
+
+    /* ---- pintado de mensajes ----
+       Todo se inserta con textContent: el texto del modelo nunca se interpreta
+       como HTML. Solo se reconocen **negritas** y listas con guion. */
+    function conNegritas(nodo, texto) {
+      var partes = String(texto).split(/\*\*(.+?)\*\*/g);
+      for (var k = 0; k < partes.length; k++) {
+        if (!partes[k]) continue;
+        if (k % 2 === 1) {
+          var fuerte = document.createElement("strong");
+          fuerte.textContent = partes[k];
+          nodo.appendChild(fuerte);
+        } else {
+          nodo.appendChild(document.createTextNode(partes[k]));
+        }
+      }
+    }
+
+    function pintarTexto(contenedor, texto) {
+      var lineas = String(texto).replace(/\r/g, "").split("\n");
+      var parrafo = [];
+      var lista = null;
+
+      function cerrarParrafo() {
+        if (!parrafo.length) return;
+        var p = document.createElement("p");
+        conNegritas(p, parrafo.join(" "));
+        contenedor.appendChild(p);
+        parrafo = [];
+      }
+
+      for (var k = 0; k < lineas.length; k++) {
+        var linea = lineas[k].trim().replace(/^#{1,6}\s*/, "");
+        if (!linea) { cerrarParrafo(); lista = null; continue; }
+
+        var vinneta = linea.match(/^[-*•]\s+(.+)$/);
+        var numerada = linea.match(/^\d+[.)]\s+(.+)$/);
+
+        if (vinneta || numerada) {
+          cerrarParrafo();
+          var etiqueta = vinneta ? "ul" : "ol";
+          if (!lista || lista.tagName.toLowerCase() !== etiqueta) {
+            lista = document.createElement(etiqueta);
+            contenedor.appendChild(lista);
+          }
+          var li = document.createElement("li");
+          conNegritas(li, (vinneta || numerada)[1]);
+          lista.appendChild(li);
+          continue;
+        }
+
+        lista = null;
+        parrafo.push(linea);
+      }
+      cerrarParrafo();
+
+      if (!contenedor.childNodes.length) {
+        var p = document.createElement("p");
+        p.textContent = String(texto);
+        contenedor.appendChild(p);
+      }
+    }
+
+    function burbuja(texto, tipo) {
+      var div = document.createElement("div");
+      div.className = "chat-msg chat-msg--" + tipo;
+      if (tipo === "user") {
+        var p = document.createElement("p");
+        p.textContent = String(texto);
+        div.appendChild(p);
+      } else {
+        pintarTexto(div, texto);
+      }
+      log.appendChild(div);
+      log.scrollTop = log.scrollHeight;
+      return div;
+    }
+
+    function escribiendo(mostrar) {
+      var previo = document.getElementById("chatTyping");
+      if (previo) previo.parentNode.removeChild(previo);
+      if (!mostrar) return;
+      var d = document.createElement("div");
+      d.className = "chat-typing";
+      d.id = "chatTyping";
+      d.setAttribute("aria-label", "El tutor está escribiendo");
+      for (var k = 0; k < 3; k++) d.appendChild(document.createElement("i"));
+      log.appendChild(d);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    function bloquear(si) {
+      enCurso = si;
+      enviar.disabled = si;
+      input.readOnly = si;
+      if (btnNuevo) btnNuevo.disabled = si;
+    }
+
+    /* ---- envío al servidor ---- */
+    function preguntar(texto) {
+      if (enCurso) return;
+      texto = String(texto || "").trim();
+      if (!texto) return;
+
+      ocultarBienvenida(true);
+      burbuja(texto, "user");
+      input.value = "";
+      ajustarAlto();
+      bloquear(true);
+      escribiendo(true);
+
+      var contexto = historial.slice(-MAX_TURNOS * 2);
+      var aborto = null;
+      var reloj = null;
+      try {
+        aborto = new AbortController();
+        reloj = setTimeout(function () { aborto.abort(); }, ESPERA_MAXIMA);
+      } catch (e) { aborto = null; }
+
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({ mensaje: texto, historial: contexto }),
+        signal: aborto ? aborto.signal : undefined
+      })
+        .then(function (res) {
+          /* Si el servidor devuelve HTML (un 404, un aviso de PHP), res.json()
+             fallaría: se lee como texto y se intenta interpretar. */
+          return res.text().then(function (crudo) {
+            var datos = null;
+            try { datos = JSON.parse(crudo); } catch (e) { datos = null; }
+            return { ok: res.ok, estado: res.status, datos: datos };
+          });
+        })
+        .then(function (r) {
+          if (reloj) clearTimeout(reloj);
+          escribiendo(false);
+
+          var respuesta = r.datos && (r.datos.respuesta || r.datos.reply);
+          if (r.ok && typeof respuesta === "string" && respuesta.trim()) {
+            respuesta = respuesta.trim();
+            burbuja(respuesta, "bot");
+            historial.push({ rol: "usuario", texto: texto });
+            historial.push({ rol: "tutor", texto: respuesta });
+            if (historial.length > MAX_TURNOS * 2) historial = historial.slice(-MAX_TURNOS * 2);
+            guardar();
+            return;
+          }
+
+          var aviso = r.datos && typeof r.datos.error === "string" && r.datos.error
+            ? r.datos.error
+            : ERROR_GENERICO;
+          burbuja(aviso, "error");
+        })
+        .catch(function () {
+          if (reloj) clearTimeout(reloj);
+          escribiendo(false);
+          burbuja(ERROR_GENERICO, "error");
+        })
+        .then(function () {
+          bloquear(false);
+          input.focus();
+        });
+    }
+
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      preguntar(input.value);
+    });
+
+    /* Enter envía, Mayús+Enter salta de línea */
+    input.addEventListener("keydown", function (ev) {
+      if (ev.key === "Enter" && !ev.shiftKey) {
+        ev.preventDefault();
+        preguntar(input.value);
+      }
+    });
+
+    /* la caja de texto crece con el contenido */
+    function ajustarAlto() {
+      input.style.height = "auto";
+      input.style.height = Math.min(input.scrollHeight, 132) + "px";
+    }
+    input.addEventListener("input", ajustarAlto);
+
+    /* las sugerencias de la pantalla inicial */
+    if (bienvenida) {
+      bienvenida.addEventListener("click", function (ev) {
+        var idea = ev.target.closest ? ev.target.closest(".chat-idea") : null;
+        if (idea) preguntar(idea.getAttribute("data-pregunta") || idea.textContent);
+      });
+    }
+
+    recuperar();
+  });
+
+})();
+</script>

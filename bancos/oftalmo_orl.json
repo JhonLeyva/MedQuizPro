@@ -1,0 +1,21 @@
+{
+  "especialidad": "Oftalmología y Otorrinolaringología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "OFT-001",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 65 años, hipermétrope, presenta al anochecer dolor intenso en el ojo derecho, visión borrosa con halos alrededor de las luces, cefalea, náuseas y vómitos. Al examen: ojo rojo con inyección ciliar, córnea turbia y pupila en midriasis media que no reacciona a la luz. ¿Cuál es el diagnóstico más probable?",
+      "opciones": {
+        "A": "Conjuntivitis bacteriana",
+        "B": "Glaucoma agudo de ángulo cerrado",
+        "C": "Uveítis anterior",
+        "D": "Desprendimiento de retina",
+        "E": "Migraña con aura"
+      },
+      "clave_correcta": "B",
+      "comentario": "Ojo rojo doloroso, halos, córnea edematosa, midriasis media arreactiva y síntomas vagales en una hipermétrope (cámara anterior estrecha) con desencadenante de penumbra es glaucoma agudo de ángulo cerrado, una urgencia. Se baja la presión intraocular con acetazolamida, betabloqueador tópico, pilocarpina y manitol si hace falta, y se hace iridotomía láser en ambos ojos. En la uveítis anterior la pupila está en miosis."
+    }
+  ]
+}

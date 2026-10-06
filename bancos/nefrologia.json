@@ -1,0 +1,21 @@
+{
+  "especialidad": "Nefrología y Urología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "NEF-001",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "EsSalud · pregunta tipo",
+      "enunciado": "Varón de 67 años con enfermedad renal crónica estadio 4 que toma enalapril y espironolactona. Acude por debilidad generalizada. Potasio sérico: 7,2 mEq/L. El ECG muestra ondas T picudas y ensanchamiento del QRS. ¿Cuál es la primera medida terapéutica?",
+      "opciones": {
+        "A": "Resina de intercambio catiónico oral",
+        "B": "Furosemida endovenosa",
+        "C": "Gluconato de calcio endovenoso",
+        "D": "Bicarbonato de sodio oral",
+        "E": "Hemodiálisis programada para el día siguiente"
+      },
+      "clave_correcta": "C",
+      "comentario": "Con hiperpotasemia y cambios electrocardiográficos lo primero es estabilizar la membrana del miocardio con gluconato de calcio endovenoso: actúa en minutos, aunque no baja el potasio. Después se desplaza el potasio al interior de la célula (insulina con dextrosa, salbutamol nebulizado) y luego se elimina (diuréticos, resinas o diálisis). Además se suspenden los fármacos que lo elevan."
+    }
+  ]
+}

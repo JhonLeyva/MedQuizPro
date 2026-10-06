@@ -1,0 +1,21 @@
+{
+  "especialidad": "Hematología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "HEM-001",
+      "especialidad": "Hematología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 30 años con menstruaciones abundantes, fatiga y caída de cabello. Hemoglobina 8,9 g/dL, VCM 70 fL, HCM 22 pg, RDW elevado. ¿Cuál es el dato de laboratorio más útil para confirmar la causa de la anemia?",
+      "opciones": {
+        "A": "Ferritina sérica baja",
+        "B": "Hierro sérico elevado",
+        "C": "Electroforesis de hemoglobina con HbA2 elevada",
+        "D": "Reticulocitos elevados",
+        "E": "Vitamina B12 baja"
+      },
+      "clave_correcta": "A",
+      "comentario": "Anemia microcítica e hipocrómica con RDW elevado en una mujer con pérdidas menstruales orienta a ferropenia. La ferritina baja es el marcador más específico de depósitos de hierro agotados. En la talasemia menor el RDW suele ser normal y la HbA2 está elevada; la vitamina B12 baja produce anemia macrocítica."
+    }
+  ]
+}

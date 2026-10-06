@@ -1,0 +1,21 @@
+{
+  "especialidad": "Endocrinología",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "END-001",
+      "especialidad": "Endocrinología",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Mujer de 19 años con diabetes tipo 1 llega con vómitos, dolor abdominal y respiración profunda. Glucosa 520 mg/dL, pH 7,08, bicarbonato 8 mEq/L, cetonas positivas y potasio 4,6 mEq/L. ¿Cuál es la primera medida terapéutica?",
+      "opciones": {
+        "A": "Bolo de insulina rápida subcutánea",
+        "B": "Bicarbonato de sodio endovenoso",
+        "C": "Solución salina al 0,9 % endovenosa",
+        "D": "Dextrosa al 5 % endovenosa",
+        "E": "Cloruro de potasio en bolo"
+      },
+      "clave_correcta": "C",
+      "comentario": "En la cetoacidosis diabética la primera medida es restaurar el volumen con solución salina isotónica (1-1,5 L en la primera hora). La insulina se inicia en infusión endovenosa una vez que el potasio es ≥ 3,3 mEq/L. El bicarbonato se reserva para pH < 6,9 y la dextrosa se agrega cuando la glucosa baja a unos 200-250 mg/dL."
+    }
+  ]
+}

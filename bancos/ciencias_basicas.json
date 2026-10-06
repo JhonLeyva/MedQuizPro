@@ -1,0 +1,21 @@
+{
+  "especialidad": "Ciencias Básicas",
+  "version": "2026-09",
+  "preguntas": [
+    {
+      "id": "CB-001",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "ENAM · pregunta tipo",
+      "enunciado": "Lactante de 6 meses, sin tamizaje neonatal, presenta retraso del desarrollo psicomotor, hipopigmentación de piel y cabello, eccema y olor a ratón en la orina. ¿Qué enzima tiene deficiente con mayor probabilidad?",
+      "opciones": {
+        "A": "Fenilalanina hidroxilasa",
+        "B": "Homogentisato oxidasa",
+        "C": "Tirosinasa",
+        "D": "Cistationina β-sintasa",
+        "E": "Galactosa-1-fosfato uridiltransferasa"
+      },
+      "clave_correcta": "A",
+      "comentario": "Es fenilcetonuria: la deficiencia de fenilalanina hidroxilasa impide convertir fenilalanina en tirosina, con acumulación de fenilalanina (neurotóxica, olor a ratón por el fenilacetato) y menos síntesis de melanina (hipopigmentación). Se detecta en el tamizaje neonatal y se trata con dieta restringida en fenilalanina. La homogentisato oxidasa se asocia a alcaptonuria, la tirosinasa al albinismo y la cistationina β-sintasa a homocistinuria."
+    }
+  ]
+}
