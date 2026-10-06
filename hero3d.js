@@ -1,7 +1,8 @@
 /* MedQuizPlus — médico 3D del Hero (Three.js + GLTFLoader).
-   Carga 'medico.glb', reproduce su animación integrada en bucle, y reacciona al cursor de forma sutil
-   (giro limitado + micro-parallax + mirada de la cabeza si el modelo tiene huesos).
-   Si 'medico.glb' no carga, la landing sigue intacta y se usa el médico procedural de hero3d-fallback.js.
+   Carga 'Sin_nombre.glb' (esqueleto de Mixamo) y lo deja ESTÁTICO, de pie, SIN reproducir la animación de baile.
+   Interactúa con el estudiante: cuello y cabeza siguen el cursor con inercia y límites en grados, y respira con
+   micro-movimientos (seno/coseno) en pecho, hombros y cuerpo. Los materiales se fuerzan a opacos y mates.
+   Si el .glb no carga, la landing sigue intacta y se usa el médico procedural de hero3d-fallback.js.
 
    Conexión con el proyecto (sin cambios de IDs/clases):
    - pro.js crea  <div class="orbit"> dentro de .hero-demo; pro.css lo coloca a la derecha de la tarjeta del quiz
@@ -31,23 +32,32 @@ const CONFIG = {
   mobile:  { scale: 0.82, positionX: 0, positionY: -0.1,  positionZ: 0, rotationY: 0,     rotationX: 0 },
 
   interaction: {
-    maxRotationY: 0.14,             // giro máximo del cuerpo a izquierda/derecha
-    maxRotationX: 0.07,             // inclinación máxima arriba/abajo
-    rotationLerp: 0.05,             // inercia: menor = más suave (se aplica por cada 1/60 s)
-    parallaxStrength: 0.06,         // desplazamiento máximo en X/Y (unidades de escena)
+    maxHeadYawDeg: 35,              // giro máximo de cuello+cabeza a izquierda/derecha (grados) — nunca pasa de aquí
+    maxHeadPitchDeg: 20,            // inclinación máxima arriba/abajo (grados)
+    neckShare: 0.4,                 // reparto del giro: 40 % cuello, 60 % cabeza
+    restLookAtUser: 0.6,            // en reposo la cabeza compensa el giro del cuerpo y mira al usuario (0 = no, 1 = totalmente)
+    rotationLerp: 0.06,             // inercia: menor = más suave (se aplica por cada 1/60 s)
+    idleGaze: 0.07,                 // deriva sutil de la mirada cuando el cursor no se mueve (fracción del giro máximo)
+    maxRotationY: 0.05,             // giro mínimo del cuerpo entero con el cursor (rad)
+    maxRotationX: 0.025,
+    parallaxStrength: 0.04,         // desplazamiento máximo en X/Y (unidades de escena)
     parallaxByDevice: { desktop: 1, tablet: 0.5, mobile: 0 },   // multiplicador por dispositivo
-    headFollow: true,               // si el modelo tiene huesos Head/Neck, la cabeza mira un poco hacia el cursor
-    headYaw: 0.2,                   // giro extra máximo de la cabeza (rad)
-    headPitch: 0.1,                 // inclinación extra máxima de la cabeza (rad)
     touch: false                    // true = pequeño movimiento con el dedo (pointermove táctil); no bloquea el scroll
   },
 
-  animation: {
-    prefer: /idle|breath|stand|wait|talk|present|wave|salud|reposo|respir/i,        // clip principal preferido
-    celebrate: /dance|baile|cheer|celebr|victory|happy|jump|clap|aplaus/i,          // clip para cuando aciertas
-    celebrateSeconds: 3.2,
-    fadeSeconds: 0.45,
-    lockRootMotion: true            // evita que la cadera "viaje": sin saltos al repetir el bucle
+  pose: {
+    time: "rest",                   // "rest" = pose inicial del esqueleto (de pie, mirando al frente; sin animación) · "auto" = el cuadro del baile más parecido a estar de pie · número = segundo exacto del clip
+    autoSamples: 72,                // cuántos cuadros del clip se evalúan en modo "auto"
+    armDropDeg: 44,                 // baja los brazos desde la pose inicial (abiertos) hacia el cuerpo: postura de pie natural. 0 = no tocar
+    forearmBendDeg: 14              // ligera flexión de los codos, hacia delante
+  },
+
+  idle: {                           // respiración y micro-movimiento (seno/coseno con el tiempo). 0 = apagado
+    speed: 1.7,                     // ciclos de respiración (rad/s)
+    bodyBob: 0.011,                 // vaivén vertical del cuerpo (unidades de escena)
+    chestPitch: 0.014,              // el pecho se expande (rad)
+    shoulderLift: 0.022,            // los hombros suben y bajan (rad)
+    sway: 0.012                     // balanceo lento del cuerpo, peso de un pie a otro (rad)
   },
 
   materials: {
@@ -69,9 +79,7 @@ const CONFIG = {
     environment: 0.25,              // reflejos suaves (0 = apagado)
     pixelRatioCap: 2,
     pixelRatioCapMobile: 1.5
-  },
-
-  breathing: { amplitude: 0.03, speed: 1.9 }   // solo si el modelo NO trae animación propia
+  }
 };
 
 (function () {
@@ -117,13 +125,14 @@ const CONFIG = {
   anchor.add(group); scene.add(anchor);
 
   /* ---------- estado (todo preasignado: nada se crea dentro del bucle) ---------- */
-  var model = null, mixer = null, clock = new THREE.Clock(false);
-  var mainAction = null, celebAction = null, celebUntil = 0, celebrating = false;
-  var headBone = null, neckBone = null;
+  var model = null, mixer = null, poseTimeUsed = 0, clock = new THREE.Clock(false);
+  var gaze = { yaw: 0, pitch: 0 };                              // último ángulo aplicado a cuello+cabeza (para depurar)
+  var B = {};                                                   // huesos: spine2, shL, shR, neck, head (+ rotación base de cada uno)
   var P = { device: "desktop", cfg: CONFIG.desktop, parallax: 0 }, widthRatio = 0.5;   // ancho que ocupa el médico respecto a su altura
   var target = { rx: 0, ry: 0, px: 0, py: 0 }, cur = { rx: 0, ry: 0, px: 0, py: 0 };
-  var raf = 0, visible = true, running = false, hop = -10, elapsed = 0, ready = false;
-  var _e = new THREE.Euler(), _qd = new THREE.Quaternion(), _qp = new THREE.Quaternion(), _ql = new THREE.Quaternion();
+  var raf = 0, visible = true, running = false, hop = -10, elapsed = 0, ready = false, restYaw = 0;
+  var AX_Y = new THREE.Vector3(0, 1, 0), AX_Z = new THREE.Vector3(0, 0, 1), _axP = new THREE.Vector3();
+  var _qd = new THREE.Quaternion(), _qa = new THREE.Quaternion(), _qb = new THREE.Quaternion(), _qp = new THREE.Quaternion(), _ql = new THREE.Quaternion();
   var cv = renderer.domElement; cv.className = "orbit__gl";
 
   /* estado de carga: el espacio queda reservado (layout idéntico) y se muestra un indicador discreto */
@@ -182,17 +191,16 @@ const CONFIG = {
         });
       });
 
-      /* escala base y centrado: el cuerpo queda centrado en el origen del grupo */
+      /* 1) pose estática: se congela UN cuadro del clip (no se reproduce animación) y se miden los huesos en esa pose */
+      group.add(model);
+      setupPose(gltf.animations || []);
+      relaxArms();
       var box = measure(model), size = box.getSize(new THREE.Vector3()), c = box.getCenter(new THREE.Vector3());
       var k = CONFIG.baseHeight / Math.max(size.y, 1e-4);
       model.scale.multiplyScalar(k);
       model.position.set(-c.x * k, -c.y * k, -c.z * k);
-      group.add(model);
-
-      setupAnimation(gltf.animations || []);
-      model.updateMatrixWorld(true);
-      widthRatio = sampleExtents();
-      findHeadBones();
+      widthRatio = Math.min(Math.max((size.x / Math.max(size.y, 1e-4)) * 1.25, 0.4), 1.1);   // ancho real en esta pose + margen (manos, bata)
+      findBones();
       applyResponsive();
       model.updateMatrixWorld(true);
 
@@ -201,57 +209,87 @@ const CONFIG = {
       orbit.classList.remove("orbit--loading");
       orbit.setAttribute("data-3d", "ready");
 
-      if (reduced) { if (mixer) { mixer.setTime(0); } frame(); return; }   // movimiento reducido: pose fija
+      if (reduced) { frame(); return; }                          // movimiento reducido: pose fija, sin movimiento
       start();
     } catch (err) { fallback(String(err)); }
   }
 
-  /* ---------- animación integrada ---------- */
-  function lockRoot(clip) {
-    clip.tracks.forEach(function (t) {
-      if (!/hips.*\.position$|^root.*\.position$|armature.*\.position$/i.test(t.name) || t.getValueSize() !== 3) return;
-      var v = t.values, x0 = v[0], z0 = v[2];
-      for (var i = 0; i < v.length; i += 3) { v[i] = x0; v[i + 2] = z0; }   // conserva solo el movimiento vertical de la cadera
-    });
+  /* ---------- pose estática ---------- */
+  function boneByName(n) { return model.getObjectByName("mixamorig" + n) || model.getObjectByName("mixamorig:" + n) || model.getObjectByName(n) || null; }
+
+  /* Puntúa un instante del clip: de pie, brazos pegados al cuerpo y bajos, pies juntos y a la misma altura, cabeza erguida */
+  function poseScore(bn, H, hipsMaxY, v) {
+    function w(b) { b.getWorldPosition(v); return { x: v.x, y: v.y, z: v.z }; }
+    var hp = w(bn.hips), lh = w(bn.lHand), rh = w(bn.rHand), lf = w(bn.lFoot), rf = w(bn.rFoot), hd = w(bn.head);
+    return ((Math.abs(lh.x - hp.x) + Math.abs(rh.x - hp.x)) / H) * 1.6        // brazos pegados al cuerpo
+         + (Math.max(0, lh.y - hp.y) + Math.max(0, rh.y - hp.y)) / H * 3.0    // manos no levantadas
+         + Math.abs(Math.abs(lf.x - rf.x) / H - 0.1) * 2.2                    // pies a ~10 % de la altura
+         + Math.abs(lf.y - rf.y) / H * 3.0                                    // los dos pies apoyados
+         + Math.max(0, hipsMaxY - hp.y) / H * 2.5                             // sin agacharse
+         + (Math.abs(hd.x - hp.x) + Math.abs(hd.z - hp.z)) / H * 2.0;         // cabeza sobre la cadera
   }
-  function setupAnimation(clips) {
-    if (!clips.length) return;
-    if (CONFIG.animation.lockRootMotion) clips.forEach(lockRoot);
-    var A = CONFIG.animation, idle = clips.filter(function (c) { return A.prefer.test(c.name); })[0];
-    var celeb = clips.filter(function (c) { return c !== idle && A.celebrate.test(c.name); })[0];
-    var main = idle || clips.filter(function (c) { return c !== celeb; }).sort(function (a, b) { return b.duration - a.duration; })[0] || clips[0];
-    if (window.console) console.info("[hero3d] animaciones:", clips.map(function (c) { return c.name + " (" + c.duration.toFixed(1) + "s)"; }).join(", "), "→ principal:", main.name, celeb && celeb !== main ? "· al acertar: " + celeb.name : "");
-    mixer = new THREE.AnimationMixer(model);              // un único mixer
-    mainAction = mixer.clipAction(main); mainAction.setLoop(THREE.LoopRepeat, Infinity); mainAction.clampWhenFinished = false; mainAction.play();
-    if (celeb && celeb !== main) { celebAction = mixer.clipAction(celeb); celebAction.setLoop(THREE.LoopRepeat, Infinity); celebAction.enabled = true; }
-  }
-  /* Mide cuánto ocupa el médico a lo ancho durante TODA la animación (muestrea el clip) para que nunca se corte */
-  function sampleExtents() {
-    if (!mixer || !mainAction) return 0.5;
-    var v = new THREE.Vector3(), clip = mainAction.getClip(), dur = Math.max(clip.duration, 0.01), N = 16, minX = 1e9, maxX = -1e9, minY = 1e9, maxY = -1e9;
-    for (var i = 0; i < N; i++) {
-      mixer.setTime(dur * i / N); model.updateMatrixWorld(true);
-      model.traverse(function (o) { if (!o.isBone) return; o.getWorldPosition(v); if (v.x < minX) minX = v.x; if (v.x > maxX) maxX = v.x; if (v.y < minY) minY = v.y; if (v.y > maxY) maxY = v.y; });
+  function setupPose(clips) {
+    var mode = CONFIG.pose.time;
+    if (mode === "rest" || !clips.length) {                   // pose inicial del modelo: no se crea ningún mixer ni se reproduce nada
+      if (window.console) console.info("[hero3d] pose fija: pose inicial del esqueleto (sin reproducir la animación de baile).");
+      return;
     }
-    mixer.setTime(0); model.updateMatrixWorld(true);
-    var ratio = ((maxX - minX) * 1.12) / Math.max(maxY - minY, 1e-4);          // 12 % de margen (manos, pelo)
-    return Math.min(Math.max(ratio, 0.5), 1.1);
+    var clip = clips.slice().sort(function (a, b) { return b.duration - a.duration; })[0];
+    mixer = new THREE.AnimationMixer(model);                  // solo se usa para fijar UN cuadro; nunca se llama a mixer.update()
+    mixer.clipAction(clip).play();
+    var t = mode;
+    if (mode === "auto") {
+      var bn = { hips: boneByName("Hips"), lHand: boneByName("LeftHand"), rHand: boneByName("RightHand"), lFoot: boneByName("LeftFoot"), rFoot: boneByName("RightFoot"), head: boneByName("Head") };
+      var ok = bn.hips && bn.lHand && bn.rHand && bn.lFoot && bn.rFoot && bn.head;
+      t = 0;
+      if (ok) {
+        var v = new THREE.Vector3(), N = CONFIG.pose.autoSamples, ys = [], H, hipsMaxY = -1e9, i, minY = 1e9, maxY = -1e9;
+        for (i = 0; i < N; i++) { mixer.setTime(clip.duration * i / N); model.updateMatrixWorld(true); bn.hips.getWorldPosition(v); ys.push(v.y); if (v.y > hipsMaxY) hipsMaxY = v.y; bn.head.getWorldPosition(v); if (v.y > maxY) maxY = v.y; bn.lFoot.getWorldPosition(v); if (v.y < minY) minY = v.y; }
+        H = Math.max(maxY - minY, 1e-4);
+        var best = 1e9;
+        for (i = 0; i < N; i++) { mixer.setTime(clip.duration * i / N); model.updateMatrixWorld(true); var sc2 = poseScore(bn, H, hipsMaxY, v); if (sc2 < best) { best = sc2; t = clip.duration * i / N; } }
+      }
+    }
+    mixer.setTime(t); poseTimeUsed = t;
+    model.updateMatrixWorld(true);
+    if (window.console) console.info("[hero3d] pose fija en el segundo " + t.toFixed(2) + " de '" + clip.name + "' (" + clip.duration.toFixed(1) + " s). Sin reproducir animación.");
   }
-  function findHeadBones() {
-    if (!CONFIG.interaction.headFollow) return;
-    model.traverse(function (o) {
-      if (!o.isBone) return;
-      if (!headBone && /(^|[^a-z])head$|mixamorig:?head$/i.test(o.name)) headBone = o;
-      else if (!neckBone && /(^|[^a-z])neck$|mixamorig:?neck$/i.test(o.name)) neckBone = o;
-    });
+
+  /* Rotación permanente de un hueso en ejes del MUNDO (se usa una sola vez, al preparar la pose) */
+  function rotateWorld(b, axis, angle) {
+    if (!b || !b.parent || !angle) return;
+    _qd.setFromAxisAngle(axis, angle);
+    b.parent.updateWorldMatrix(true, false); b.parent.getWorldQuaternion(_qp);
+    _ql.copy(_qp).invert().multiply(_qd).multiply(_qp);
+    b.quaternion.premultiply(_ql);
   }
-  /* giro adicional de un hueso en ejes del MUNDO, sin importar cómo estén orientados sus ejes locales */
-  function turnBone(b, rx, ry) {
-    _e.set(rx, ry, 0, "YXZ"); _qd.setFromEuler(_e);
+  function relaxArms() {
+    var d = CONFIG.pose.armDropDeg * Math.PI / 180, e = CONFIG.pose.forearmBendDeg * Math.PI / 180, AX_X = new THREE.Vector3(1, 0, 0);
+    if (!d && !e) return;
+    var la = boneByName("LeftArm"), ra = boneByName("RightArm"), lf = boneByName("LeftForeArm"), rf = boneByName("RightForeArm");
+    rotateWorld(la, AX_Z, -d); rotateWorld(ra, AX_Z, d);              // el brazo izquierdo del personaje está en +X: bajarlo = giro negativo sobre Z
+    la && la.updateWorldMatrix(true, true); ra && ra.updateWorldMatrix(true, true);
+    rotateWorld(lf, AX_X, -e); rotateWorld(rf, AX_X, -e);             // codos algo flexionados hacia delante
+    model.updateMatrixWorld(true);
+  }
+
+  /* ---------- huesos de interacción ---------- */
+  function findBones() {
+    B.spine2 = boneByName("Spine2"); B.shL = boneByName("LeftShoulder"); B.shR = boneByName("RightShoulder");
+    B.neck = boneByName("Neck"); B.head = boneByName("Head");
+    ["spine2", "shL", "shR", "neck", "head"].forEach(function (k) { if (B[k]) B[k].userData.base = B[k].quaternion.clone(); });   // rotación de la pose fija
+    if (!B.head && window.console) console.warn("[hero3d] el modelo no tiene hueso Head: solo se moverá el cuerpo en bloque");
+  }
+  /* Restaura la pose base del hueso y le suma un giro en ejes del MUNDO (yaw sobre Y, pitch sobre el eje lateral del cuerpo, roll sobre Z) */
+  function turnBone(b, yaw, pitch, roll, axisP) {
+    if (!b || !b.parent) return;
+    b.quaternion.copy(b.userData.base);
+    if (!yaw && !pitch && !roll) return;
+    _qa.setFromAxisAngle(AX_Y, yaw); _qb.setFromAxisAngle(axisP, pitch); _qd.copy(_qa).multiply(_qb);
+    if (roll) { _qa.setFromAxisAngle(AX_Z, roll); _qd.multiply(_qa); }
     b.parent.getWorldQuaternion(_qp);
     _ql.copy(_qp).invert().multiply(_qd).multiply(_qp);
     b.quaternion.premultiply(_ql);
-    b.updateMatrixWorld(true);
   }
 
   /* ---------- responsive ---------- */
@@ -261,6 +299,7 @@ const CONFIG = {
   }
   function applyResponsive() {
     P.device = deviceNow(); P.cfg = CONFIG[P.device];
+    restYaw = -P.cfg.rotationY * CONFIG.interaction.restLookAtUser;          // la cabeza compensa el giro del cuerpo: mira al usuario
     var I = CONFIG.interaction;
     P.parallax = I.parallaxStrength * I.parallaxByDevice[P.device] * (hasMouse || (I.touch && P.device !== "desktop") ? 1 : 0);
     anchor.scale.setScalar(P.cfg.scale);
@@ -302,39 +341,42 @@ const CONFIG = {
   function resetTarget() { target.rx = target.ry = target.px = target.py = 0; }
   window.addEventListener("fx:correct", function () {
     if (reduced || !ready) return;
-    if (celebAction) {                                          // clip de celebración distinto del principal
-      celebUntil = elapsed + CONFIG.animation.celebrateSeconds; celebrating = true;
-      celebAction.reset().play(); celebAction.crossFadeFrom(mainAction, CONFIG.animation.fadeSeconds, false);
-    } else if (!mixer) hop = elapsed;                           // modelo sin animación: pequeño salto
-    start();
+    hop = elapsed; start();                                     // al acertar: pequeño salto y un asentimiento con la cabeza
   });
 
   /* ---------- bucle único ---------- */
   function lerpK(l, dt) { return 1 - Math.pow(1 - l, dt * 60); }       // lerp independiente de los fps
+  var DEG = Math.PI / 180;
+  function clamp(v, lo, hi) { return v < lo ? lo : v > hi ? hi : v; }
   function frame() {
     var dt = Math.min(clock.getDelta(), 0.1);
     elapsed += dt;
-    if (mixer && !reduced) {
-      if (celebrating && elapsed > celebUntil) { celebrating = false; mainAction.reset().play(); mainAction.crossFadeFrom(celebAction, CONFIG.animation.fadeSeconds, false); }
-      mixer.update(dt);                                          // la animación propia continúa siempre
-    }
-    if (!reduced) {
-      var I = CONFIG.interaction, k = lerpK(I.rotationLerp, dt);
-      cur.ry = THREE.MathUtils.lerp(cur.ry, target.ry, k); cur.rx = THREE.MathUtils.lerp(cur.rx, target.rx, k);
-      cur.px = THREE.MathUtils.lerp(cur.px, target.px, k); cur.py = THREE.MathUtils.lerp(cur.py, target.py, k);
-      group.rotation.set(P.cfg.rotationX + cur.rx * I.maxRotationX, P.cfg.rotationY + cur.ry * I.maxRotationY, 0);
-      var bob = 0;
-      if (!mixer) {
-        var h = elapsed - hop, jump = (h >= 0 && h < 0.9) ? Math.abs(Math.sin(h * 3.5)) * 0.3 * (1 - h / 0.9) : 0;
-        bob = Math.sin(elapsed * CONFIG.breathing.speed) * CONFIG.breathing.amplitude + jump;
-      }
-      anchor.position.set(P.cfg.positionX + cur.px * P.parallax, P.cfg.positionY + cur.py * P.parallax + bob, P.cfg.positionZ);
-      if (headBone && P.device !== "mobile") {                     // la cabeza mira un poco hacia el cursor (encima de la animación)
-        model.updateMatrixWorld(true);
-        if (neckBone) turnBone(neckBone, cur.rx * I.headPitch * 0.4, cur.ry * I.headYaw * 0.4);
-        turnBone(headBone, cur.rx * I.headPitch * 0.6, cur.ry * I.headYaw * 0.6);
-      }
-    }
+    var I = CONFIG.interaction, Id = CONFIG.idle, t = elapsed, live = !reduced;
+    var k = lerpK(I.rotationLerp, dt);
+    cur.ry = THREE.MathUtils.lerp(cur.ry, target.ry, k); cur.rx = THREE.MathUtils.lerp(cur.rx, target.rx, k);
+    cur.px = THREE.MathUtils.lerp(cur.px, target.px, k); cur.py = THREE.MathUtils.lerp(cur.py, target.py, k);
+
+    /* respiración / micro-movimiento: solo senos y cosenos del tiempo */
+    var br = live ? Math.sin(t * Id.speed) : 0, sw = live ? Math.sin(t * 0.55) : 0, dr = live ? 1 : 0;
+    var h = t - hop, jump = (live && h >= 0 && h < 0.9) ? Math.abs(Math.sin(h * 3.5)) * 0.25 * (1 - h / 0.9) : 0;
+    var nod = (live && h >= 0 && h < 0.7) ? Math.sin(h / 0.7 * Math.PI) * 0.22 : 0;
+
+    group.rotation.set(P.cfg.rotationX + cur.rx * I.maxRotationX, P.cfg.rotationY + cur.ry * I.maxRotationY + sw * Id.sway, 0);
+    anchor.position.set(P.cfg.positionX + cur.px * P.parallax, P.cfg.positionY + cur.py * P.parallax + br * Id.bodyBob + jump, P.cfg.positionZ);
+
+    /* mirada: el cursor mueve cuello y cabeza con los límites en grados; sin cursor, la mirada deriva muy poco */
+    var maxYaw = I.maxHeadYawDeg * DEG, maxPitch = I.maxHeadPitchDeg * DEG;
+    var gx = cur.ry + dr * Math.sin(t * 0.45) * I.idleGaze, gy = cur.rx + dr * Math.cos(t * 0.33) * I.idleGaze * 0.7;
+    var yaw = clamp(restYaw + gx * (gx < 0 ? maxYaw + restYaw : maxYaw - restYaw), -maxYaw, maxYaw);   // en reposo mira al usuario; los extremos del cursor llegan justo al límite
+    var pitch = clamp(gy * maxPitch, -maxPitch, maxPitch);
+    gaze.yaw = yaw; gaze.pitch = pitch;
+    var bodyYaw = group.rotation.y;
+    _axP.set(Math.cos(bodyYaw), 0, -Math.sin(bodyYaw));                          // eje lateral del cuerpo (para asentir)
+    turnBone(B.spine2, 0, br * Id.chestPitch * dr, 0, _axP);                     // el pecho se expande
+    turnBone(B.shL, 0, 0, br * Id.shoulderLift * dr, _axP);                      // los hombros suben y bajan
+    turnBone(B.shR, 0, 0, -br * Id.shoulderLift * dr, _axP);
+    turnBone(B.neck, yaw * I.neckShare, pitch * I.neckShare, 0, _axP);
+    turnBone(B.head, yaw * (1 - I.neckShare), pitch * (1 - I.neckShare) + nod, 0, _axP);
     renderer.render(scene, camera);
   }
   function loop() { raf = 0; if (!running) return; frame(); raf = requestAnimationFrame(loop); }
