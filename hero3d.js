@@ -19,7 +19,7 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
    rotationY negativo = el médico mira hacia la IZQUIERDA (hacia el texto del Hero).
    ===================================================================== */
 const CONFIG = {
-  modelPath: "Robot_Hip_Hop_Dance.glb",
+  modelPath: "Sin_nombre.glb",
   fallbackModule: "./hero3d-fallback.js?v=1",
   baseHeight: 3.4,                  // altura base del médico (escena); 'scale' la multiplica
 
@@ -51,16 +51,22 @@ const CONFIG = {
   },
 
   materials: {
-    maxMetalness: 0.25,             // null = no tocar. Evita ojos con aro negro si el mapa metálico cubre la esclera
+    transparent: false,             // fuerza material opaco (el GLB viene con alphaMode BLEND y eso hacía que la ropa se superpusiera)
+    depthWrite: true,
+    roughness: 0.75,                // menos brillo
+    metalness: 0.1,
     sharpenTextures: true,          // anisotropía máxima y filtros mipmap
-    fallbackMaterial: { color: 0xc9d6dc, roughness: 0.42, metalness: 0.15 }   // solo si el GLB no trae materiales/texturas
+    fallbackMaterial: { color: 0xc9d6dc, roughness: 0.6, metalness: 0.1 }   // solo si el GLB no trae textura
   },
 
   look: {
-    ambient: 1.2,
-    key: 2.0,
-    keyPosition: [5, 8, 5],
-    environment: 0.3,               // reflejos suaves (0 = apagado)
+    ambient: 0.65,                  // luz ambiental suave (intensidad moderada)
+    key: 2.2,                       // luz direccional principal
+    keyPosition: [3.5, 4.95, 3.5],  // elevación 45° y 45° hacia la derecha/frente
+    shadows: true,                  // sombras suaves: relieve y volumen en la ropa
+    shadowMapSize: 1024,
+    shadowSoftness: 3,              // radio de suavizado (PCFSoft)
+    environment: 0.25,              // reflejos suaves (0 = apagado)
     pixelRatioCap: 2,
     pixelRatioCapMobile: 1.5
   },
@@ -91,8 +97,14 @@ const CONFIG = {
 
   var scene = new THREE.Scene();
   scene.add(new THREE.AmbientLight(0xffffff, CONFIG.look.ambient));
-  var key = new THREE.DirectionalLight(0xffffff, CONFIG.look.key);
+  var key = new THREE.DirectionalLight(0xfff6ec, CONFIG.look.key);
   key.position.fromArray(CONFIG.look.keyPosition); scene.add(key);
+  if (CONFIG.look.shadows) {
+    renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    key.castShadow = true; key.shadow.mapSize.set(CONFIG.look.shadowMapSize, CONFIG.look.shadowMapSize);
+    key.shadow.radius = CONFIG.look.shadowSoftness; key.shadow.bias = -0.0004; key.shadow.normalBias = 0.025;
+    var sc = key.shadow.camera; sc.left = -2.6; sc.right = 2.6; sc.top = 2.6; sc.bottom = -2.6; sc.near = 0.5; sc.far = 20; sc.updateProjectionMatrix();
+  }
   if (CONFIG.look.environment > 0) {
     scene.environment = new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(), 0.04).texture;
     scene.environmentIntensity = CONFIG.look.environment;
@@ -146,16 +158,26 @@ const CONFIG = {
   function onLoad(gltf) {
     try {
       model = gltf.scene;
-      model.traverse(function (o) {
-        if (!o.isMesh) return;
-        o.frustumCulled = false;                                 // evita parpadeos con mallas animadas
-        if (!o.material || (!o.material.map && o.material.color && o.material.color.getHex() === 0xffffff && !o.material.vertexColors)) {
-          o.material = new THREE.MeshStandardMaterial(CONFIG.materials.fallbackMaterial);   // el GLB no trae color: material neutro con volumen
+      model.traverse(function (child) {
+        if (!child.isMesh) return;
+        child.frustumCulled = false;                             // evita parpadeos con mallas animadas
+        if (CONFIG.look.shadows) { child.castShadow = true; child.receiveShadow = true; }   // la ropa se auto-sombrea: da relieve
+        if (!child.material || (!child.material.map && child.material.color && child.material.color.getHex() === 0xffffff && !child.material.vertexColors)) {
+          child.material = new THREE.MeshStandardMaterial(CONFIG.materials.fallbackMaterial);   // GLB sin color: material neutro
         }
-        (Array.isArray(o.material) ? o.material : [o.material]).forEach(function (m) {
-          if (!m) return;                                         // los materiales del modelo se respetan
-          if (CONFIG.materials.sharpenTextures) { sharpen(m.map, true); sharpen(m.emissiveMap, true); sharpen(m.normalMap); sharpen(m.metalnessMap); sharpen(m.roughnessMap); sharpen(m.aoMap); }
-          if (CONFIG.materials.maxMetalness != null && "metalness" in m) m.metalness = Math.min(m.metalness, CONFIG.materials.maxMetalness);
+        var C = CONFIG.materials;
+        (Array.isArray(child.material) ? child.material : [child.material]).forEach(function (m) {
+          if (!m) return;
+          m.transparent = C.transparent;                         // 1) correcciones de material pedidas
+          m.depthWrite = C.depthWrite;
+          if ("roughness" in m) m.roughness = C.roughness;
+          if ("metalness" in m) m.metalness = C.metalness;
+          m.opacity = 1; m.alphaTest = 0; m.blending = THREE.NormalBlending;
+          m.side = THREE.FrontSide;                              // doble cara + transparencia era lo que mezclaba capas de ropa
+          if (m.roughnessMap) m.roughnessMap = null;             // los mapas anulan los valores fijos: se usan los de arriba
+          if (m.metalnessMap) m.metalnessMap = null;
+          if (m.specularIntensity != null) m.specularIntensity = 0.5;
+          if (C.sharpenTextures) { sharpen(m.map, true); sharpen(m.emissiveMap, true); sharpen(m.normalMap); sharpen(m.aoMap); }
           m.needsUpdate = true;
         });
       });
