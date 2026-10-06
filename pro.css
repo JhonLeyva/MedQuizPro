@@ -352,3 +352,9 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
 @media (min-width: 1300px) { .fx-dots { display: flex; } }
 .fx-dots a span { right: auto; left: 30px; transform: translate(-6px, -50%); }
 @media (hover: hover) and (pointer: fine) { .fx-dots a:hover span { transform: translate(0, -50%); } }
+
+/* indicador de carga discreto del médico 3D (el espacio ya está reservado, no hay saltos de diseño) */
+.orbit--loading::after { content: ""; position: absolute; left: 50%; top: 46%; width: 42px; height: 42px; margin: -21px 0 0 -21px; border-radius: 50%;
+  border: 2px solid color-mix(in srgb, var(--brand-bright) 22%, transparent); border-top-color: var(--brand-bright); animation: fx-loadspin .9s linear infinite; }
+@keyframes fx-loadspin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .orbit--loading::after { animation: none; } }
