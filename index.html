@@ -15,6 +15,7 @@
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
 <link rel="stylesheet" href="styles.css?v=20261018-1">
+<link rel="stylesheet" href="graficos.css?v=20261018-1">
 <link rel="stylesheet" href="pro.css?v=20261018-2">
 </head>
 <body>
@@ -182,6 +183,21 @@
         </div>
       </dl>
       <p class="metrics__note">Cifras contadas en vivo a partir del banco publicado.</p>
+    </div>
+  </section>
+
+  <!-- ====================== EL BANCO, EN NÚMEROS (datos reales del banco publicado) ====================== -->
+  <section class="section" id="analisis" aria-labelledby="anTitle">
+    <div class="wrap">
+      <div class="sec-head sec-head--center reveal">
+        <p class="kicker">Análisis</p>
+        <h2 id="anTitle">El banco, en números.</h2>
+        <p class="sec-head__lead">Contado en vivo sobre las preguntas publicadas. Dentro de la plataforma ves lo mismo, pero de <b>tu</b> progreso: aciertos, constancia y evolución.</p>
+      </div>
+      <div class="an-grid">
+        <section class="an-panel"><h3>Preguntas por especialidad</h3><p class="an-nota">Las 10 especialidades con más preguntas.</p><div id="anEsp"><p class="an-vacio">Calculando con el banco publicado…</p></div></section>
+        <section class="an-panel"><h3>Preguntas por año del examen</h3><p class="an-nota">Cuántas preguntas hay de cada convocatoria.</p><div id="anAnio"><p class="an-vacio">Calculando con el banco publicado…</p></div></section>
+      </div>
     </div>
   </section>
 
@@ -773,6 +789,7 @@
 <script defer src="catalogo.js?v=20260930-materias"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
 <script defer src="main.js?v=20261018-2"></script>
+<script defer src="graficos.js?v=20261018-1"></script>
 <script defer src="pro.js?v=20261018-3"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 <script type="module" src="hero3d.js?v=20261018-1"></script>

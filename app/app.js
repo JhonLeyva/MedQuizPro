@@ -646,6 +646,81 @@
     });
   };
 
+  /* ---------- análisis de datos del estudiante (todo sale de su propio progreso) ---------- */
+  var DIA = 86400000, G = window.MQP_GRAF;
+  function ymd(t) { var d = new Date(t); return d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate(); }
+  function etiquetaDia(t) { try { return new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "short" }).format(new Date(t)); } catch (e) { return ymd(t); } }
+  function analizar() {
+    var r = M.progreso.leer().respuestas, p = M.progreso.leer();
+    var dias = {}, anios = {}, franjas = [0, 1, 2, 3].map(function () { return { n: 0, ok: 0 }; });
+    var total = 0, ok = 0;
+    for (var id in r) {
+      if (!Object.prototype.hasOwnProperty.call(r, id)) continue;
+      var x = r[id]; if (!x || !x.t) continue;
+      total++; if (x.ok) ok++;
+      var k = ymd(x.t), d = dias[k] || (dias[k] = { t: new Date(new Date(x.t).setHours(0, 0, 0, 0)).getTime(), n: 0, ok: 0 });
+      d.n++; if (x.ok) d.ok++;
+      var h = new Date(x.t).getHours(), f = franjas[h < 6 ? 0 : h < 12 ? 1 : h < 19 ? 2 : 3]; f.n++; if (x.ok) f.ok++;
+      var q = porId[id], m = q && /(20\d\d)/.exec(q.examen || "");
+      if (m) { var a = anios[m[1]] || (anios[m[1]] = { n: 0, ok: 0 }); a.n++; if (x.ok) a.ok++; }
+    }
+    var lista = Object.keys(dias).map(function (k) { return dias[k]; }).sort(function (a, b) { return a.t - b.t; });
+    // racha: días seguidos con actividad hasta hoy (o ayer)
+    var racha = 0, cur = new Date(); cur.setHours(0, 0, 0, 0);
+    if (!dias[ymd(cur.getTime())]) cur = new Date(cur.getTime() - DIA);
+    while (dias[ymd(cur.getTime())]) { racha++; cur = new Date(cur.getTime() - DIA); }
+    var mejor = lista.slice().sort(function (a, b) { return b.n - a.n; })[0] || null;
+    var sims = p.sesiones.filter(function (s) { return s.tipo === "simulacro" && s.total; }).slice().reverse();
+    return { total: total, ok: ok, dias: lista, anios: anios, franjas: franjas, racha: racha, mejor: mejor, sims: sims };
+  }
+  function panel(titulo, nota, cuerpo, extra) {
+    return '<section class="an-panel' + (extra ? " " + extra : "") + '"><h2>' + titulo + '</h2>' + (nota ? '<p class="an-nota">' + nota + '</p>' : "") + cuerpo + '</section>';
+  }
+  function analisisProgreso() {
+    if (!G) return "";
+    var A = analizar(), mal = A.total - A.ok, html = "";
+    // 1 · resumen: dona + cifras
+    html += '<div class="an-grid an-grid--3">' +
+      '<section class="an-panel"><h2>Tus aciertos</h2><p class="an-nota">Sobre tu último intento de cada pregunta.</p>' + G.donut(A.ok, mal, { titulo: "Aciertos" }) + '</section>' +
+      '<section class="an-panel"><h2>Tu constancia</h2><p class="an-nota">Actividad diaria de las últimas 12 semanas.</p>' +
+        '<dl class="an-resumen"><div><dt>Racha actual</dt><dd>' + M.plural(A.racha, "día", "días") + '</dd></div>' +
+        '<div><dt>Días con práctica</dt><dd>' + A.dias.length + '</dd></div>' +
+        '<div><dt>Mejor día</dt><dd>' + (A.mejor ? M.plural(A.mejor.n, "pregunta", "preguntas") + " · " + esc(etiquetaDia(A.mejor.t)) : "—") + '</dd></div></dl>' +
+        '<div style="margin-top:16px">' + G.calor(A.dias.map(function (d) { return { fecha: new Date(d.t), n: d.n }; }), { semanas: 12 }) + '</div></section></div>';
+    // 2 · evolución diaria (línea) + volumen (columnas), cada una con su escala
+    if (A.dias.length >= 2) {
+      var ult = A.dias.slice(-14);
+      var pts = ult.map(function (d) { var v = Math.round(d.ok / d.n * 100); return { x: etiquetaDia(d.t), y: v, n: d.n + (d.n === 1 ? " pregunta" : " preguntas"), tip: etiquetaDia(d.t) + ": " + v + "% de aciertos (" + d.ok + " de " + d.n + ")" }; });
+      var primera = pts[0].y, ultima = pts[pts.length - 1].y, dif = ultima - primera;
+      var insight = pts.length >= 3 ? '<p class="an-insight">' + (dif > 3 ? "Tu porcentaje subió " + dif + " puntos entre el primer y el último día mostrados." : dif < -3 ? "Tu porcentaje bajó " + Math.abs(dif) + " puntos entre el primer y el último día mostrados: conviene repasar tus falladas." : "Tu porcentaje se mantiene estable en estos días.") + '</p>' : "";
+      html += '<div class="an-grid">' + panel("Evolución de tus aciertos", "% de respuestas correctas por día, en tus últimos " + pts.length + " días con práctica.", G.linea(pts, { titulo: "Aciertos por día", colX: "Día", colY: "Aciertos" }) + insight) +
+        panel("Preguntas por día", "Cuántas preguntas resolviste cada día (últimos 10 días con práctica).", G.columnas(ult.slice(-10).map(function (d) { var f = new Date(d.t); return { etiqueta: f.getDate() + "/" + (f.getMonth() + 1), valor: d.n, texto: String(d.n), tip: etiquetaDia(d.t) + ": " + M.plural(d.n, "pregunta", "preguntas") }; }), { colA: "Día", colB: "Preguntas" })) + '</div>';
+    }
+    // 3 · por año del examen
+    var anios = Object.keys(A.anios).sort();
+    if (anios.length) {
+      var filas = anios.map(function (a) { var v = A.anios[a], pc = Math.round(v.ok / v.n * 100); return { etiqueta: "ENAM " + a, sub: v.n + (v.n === 1 ? " respondida" : " respondidas"), valor: pc, max: 100, texto: pc + "%", tip: "ENAM " + a + ": " + pc + "% (" + v.ok + " de " + v.n + ")" }; });
+      html += '<div class="an-grid">' + panel("Aciertos por año del examen", "Con qué años del ENAM rindes mejor.", G.barras(filas, { colA: "Examen", colB: "Aciertos" }));
+    } else html += '<div class="an-grid">';
+    // 4 · hora del día
+    var nomF = ["Madrugada", "Mañana", "Tarde", "Noche"], subF = ["0–6 h", "6–12 h", "12–19 h", "19–24 h"], conDatos = A.franjas.filter(function (f) { return f.n >= 3; });
+    if (A.total >= 6 && conDatos.length >= 2) {
+      var best = 0; A.franjas.forEach(function (f, i) { if (f.n >= 3 && (A.franjas[best].n < 3 || f.ok / f.n > A.franjas[best].ok / A.franjas[best].n)) best = i; });
+      html += panel("¿A qué hora rindes mejor?", "% de aciertos según la hora del día (solo franjas con 3 o más respuestas).",
+        G.columnas(A.franjas.map(function (f, i) { var v = f.n >= 3 ? Math.round(f.ok / f.n * 100) : 0; return { etiqueta: nomF[i] + " " + subF[i], valor: v, texto: f.n >= 3 ? v + "%" : "—", tip: nomF[i] + " (" + subF[i] + "): " + (f.n >= 3 ? v + "% en " + f.n + " respuestas" : "pocas respuestas (" + f.n + ")") }; }), { max: 100, colA: "Franja", colB: "Aciertos" }) +
+        '<p class="an-insight">Tu mejor franja hasta ahora: <b>' + nomF[best].toLowerCase() + '</b> (' + Math.round(A.franjas[best].ok / A.franjas[best].n * 100) + '% de aciertos).</p>');
+    }
+    html += '</div>';
+    // 5 · simulacros
+    if (A.sims.length >= 2) {
+      var sp = A.sims.slice(-12).map(function (s) { var v = Math.round(s.correctas / s.total * 100); return { x: etiquetaDia(s.t), y: v, n: s.correctas + " de " + s.total, tip: s.titulo + " · " + etiquetaDia(s.t) + ": " + v + "% (" + s.correctas + " de " + s.total + ")" }; });
+      html += '<div class="an-grid">' + panel("Evolución de tus simulacros", "Puntaje de cada simulacro terminado, del más antiguo al más reciente.", G.linea(sp, { titulo: "Puntaje de simulacros", colX: "Fecha", colY: "Puntaje" }), "an-panel--ancho") + '</div>';
+    } else if (A.sims.length === 1) {
+      html += '<div class="an-grid">' + panel("Evolución de tus simulacros", "", '<p class="an-vacio">Terminaste 1 simulacro. Con el siguiente verás aquí cómo evoluciona tu puntaje.</p>', "an-panel--ancho") + '</div>';
+    }
+    return html;
+  }
+
   /* ---------- Mi progreso ---------- */
   var MINIMO = 3;   // respuestas mínimas en una especialidad para juzgarla
   function vistaProgreso() {
@@ -686,7 +761,8 @@
         '<div class="kpi"><dt>Aciertos</dt><dd>' + res.porcentaje + '%</dd></div>' +
         '<div class="kpi"><dt>Simulacros terminados</dt><dd>' + simulacros + '</dd></div>' +
       '</dl>' +
-      '<div class="grid-2">' +
+      analisisProgreso() +
+      '<div class="grid-2 card--spaced">' +
         '<section class="card"><div class="card__head"><h2 class="card__h">Áreas fuertes</h2></div>' + mini(fuertes, "is-ok") + '</section>' +
         '<section class="card"><div class="card__head"><h2 class="card__h">Áreas por reforzar</h2>' + (debiles.length ? '<a class="link-arrow" href="#/falladas">Repasar falladas <span aria-hidden="true">→</span></a>' : "") + '</div>' + mini(debiles, "is-bad") + '</section>' +
       '</div>' +
@@ -1012,6 +1088,8 @@
     lista.addEventListener("click", function () { inp.value = ""; res = []; pintar(); });
     document.addEventListener("click", function (ev) { if (!ev.target.closest(".gsearch")) { lista.hidden = true; } });
   })();
+
+  if (G) G.iniciarTips();
 
   /* ---------- arranque ---------- */
   sesion.hidden = true;
