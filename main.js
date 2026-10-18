@@ -428,6 +428,8 @@
       sesion.respondidas++;
       if (acerto) sesion.correctas++;
       registro.push({ esp: q.area, ok: acerto, seg: Math.max(1, Math.round((Date.now() - inicioPregunta) / 1000)) });
+      var rb = document.getElementById("qReset"); if (rb) rb.hidden = false;
+      armarIdle();
       pintarSesion();
     });
 
@@ -465,6 +467,28 @@
       lb.querySelector(".lb__x").focus();
     }
 
+    /* ---- reiniciar: con el botón, o solo tras 30 s sin tocar nada ---- */
+    var idle = null;
+    function reiniciarDemo() {
+      if (idle) { clearTimeout(idle); idle = null; }
+      var caja = document.getElementById("qResultado"); if (caja) { caja.hidden = true; caja.innerHTML = ""; }
+      [].forEach.call(document.querySelectorAll("#quiz .demo__stem, #quiz .demo__options, #quiz .demo__foot"), function (e) { e.hidden = false; });
+      var rb = document.getElementById("qReset"); if (rb) rb.hidden = true;
+      sesion.respondidas = 0; sesion.correctas = 0; registro = []; pintarSesion();
+      preguntas = estaticas; i = 0; pintar();                 // mientras llegan las 10 nuevas, no queda vacío
+      cargarReales(false);
+    }
+    function armarIdle() {
+      if (idle) clearTimeout(idle);
+      if (!sesion.respondidas) return;                        // nada que reiniciar si no ha empezado
+      idle = setTimeout(reiniciarDemo, 30000);
+    }
+    var quizEl = document.getElementById("quiz");
+    if (quizEl) {
+      ["pointerdown", "keydown", "pointermove", "wheel", "touchstart"].forEach(function (ev) { quizEl.addEventListener(ev, armarIdle, { passive: true }); });
+      quizEl.addEventListener("click", function (e) { var b = e.target.closest ? e.target.closest("[data-reiniciar-demo]") : null; if (b) reiniciarDemo(); });
+    }
+
     /* ---- resultado final de la muestra: lo mismo que ve el estudiante al terminar un simulacro ---- */
     function mostrarResultado() {
       var G = window.MQP_GRAF, caja = document.getElementById("qResultado"); if (!caja) return;
@@ -481,8 +505,8 @@
         '<dl class="qres__kpis"><div><dt>Correctas</dt><dd>' + ok + ' / ' + n + '</dd></div><div><dt>Incorrectas</dt><dd>' + mal + '</dd></div><div><dt>Ritmo promedio</dt><dd>' + seg + ' s <small>por pregunta</small></dd></div></dl></div>' +
         (G && filas.length ? '<p class="qres__tit">Rendimiento por especialidad</p>' + G.barras(filas, { colA: "Especialidad", colB: "Correctas" }) : "") +
         '<p class="quiz__cta">' + consejo + '</p>' +
-        '<div class="qres__acciones"><a class="btn btn--primary" href="#registro">Crear cuenta gratis y seguir practicando</a><a class="btn btn--ghost" href="#simulacros">Ver los simuladores</a></div>' +
-        '<p class="qres__nota">Así se ve el resultado al terminar un simulacro dentro de la plataforma, pero con todo el banco y con el análisis de tu progreso.</p>';
+        '<div class="qres__acciones"><a class="btn btn--primary" href="#registro">Crear cuenta gratis y seguir practicando</a><button class="btn btn--ghost" type="button" data-reiniciar-demo>↺ Reiniciar la prueba</button></div>' +
+        '<p class="qres__nota">Así se ve el resultado al terminar un simulacro dentro de la plataforma, pero con todo el banco y con el análisis de tu progreso. Si no tocas nada en 30 segundos, la prueba se reinicia sola.</p>';
       [].forEach.call(document.querySelectorAll("#quiz .demo__stem, #quiz .demo__options, #quiz #qFeedback, #quiz .demo__foot"), function (e) { e.hidden = true; });
       caja.hidden = false;
       if (relojDemo) { clearInterval(relojDemo); relojDemo = null; }
@@ -490,6 +514,7 @@
       if (elCount) elCount.textContent = "Terminaste las " + n;
       if (elBar) elBar.style.width = "100%";
       if (G && G.iniciarTips) G.iniciarTips();
+      armarIdle();
       caja.scrollIntoView && caja.scrollIntoView({ block: "nearest", behavior: reduced ? "auto" : "smooth" });
     }
 

@@ -254,56 +254,112 @@
     }
     if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" }); io.observe(box); } else pintar();
   }
-  /* ---------------------------------------------------------------- hero: pantalla de la plataforma que resuelve preguntas reales */
+  /* ---------------------------------------------------------------- hero: un "estudiante" resuelve 4 preguntas reales en la pantalla */
   function heroPantalla() {
-    var raiz = document.getElementById("heroShow"); if (!raiz || !window.MQP || !MQP.cargarTodo) return;
+    var app = document.getElementById("hsApp"); if (!app || !window.MQP || !MQP.cargarTodo) return;
     var reducido = false; try { reducido = matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
-    var elN = document.getElementById("hsN"), elArea = document.getElementById("hsArea"), elStem = document.getElementById("hsStem"), elOps = document.getElementById("hsOps"), elFb = document.getElementById("hsFb"), elImg = document.getElementById("hsImg");
-    var cuerpo = raiz.querySelector(".mapp__cuerpo"), lista = [], k = 0, timers = [];
+    if (reducido) return;                                    // sin movimiento: se queda la pregunta estática del HTML
+    var $ = function (id) { return document.getElementById(id); };
+    var cuerpo = $("hsCuerpo"), elN = $("hsN"), elArea = $("hsArea"), elStem = $("hsStem"), elOps = $("hsOps"), elFb = $("hsFb"), elImg = $("hsImg"), elPill = $("hsPill");
+    var flujo = $("hsFlujo"), vista = $("hsVista"), imgF = $("hsFlujoImg"), res = $("hsRes"), cur = $("hsCursor");
+    var pool = [], activo = false, enPantalla = true, hayData = false;
     function rec(t, n) { t = String(t); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; }
-    function esperar(f, ms) { timers.push(setTimeout(f, ms)); }
-    function mostrar(q) {
+
+    /* pausa el guion cuando la pestaña o el hero no se ven */
+    var pausado = function () { return document.hidden || !enPantalla; }, reanudar = [];
+    function pasar() { return new Promise(function (ok) { if (!pausado()) return ok(); reanudar.push(ok); }); }
+    function liberar() { if (pausado()) return; var l = reanudar; reanudar = []; l.forEach(function (f) { f(); }); }
+    document.addEventListener("visibilitychange", liberar);
+    if ("IntersectionObserver" in window) new IntersectionObserver(function (e) { enPantalla = e[0].isIntersecting; liberar(); }).observe(app);
+    function esp(ms) { return new Promise(function (ok) { setTimeout(ok, ms); }).then(pasar); }
+
+    /* cursor */
+    function pos(el, dx, dy) {
+      var r = el.getBoundingClientRect(), a = app.getBoundingClientRect();
+      return { x: r.left - a.left + (dx == null ? r.width * 0.5 : dx), y: r.top - a.top + (dy == null ? r.height * 0.55 : dy) };
+    }
+    function ir(el, dx, dy, ms) { var p = pos(el, dx, dy); cur.style.transitionDuration = (ms || 1000) + "ms"; cur.style.left = p.x + "px"; cur.style.top = p.y + "px"; return esp((ms || 1000) + 80); }
+    function clic() { cur.classList.add("is-click"); return esp(260).then(function () { cur.classList.remove("is-click"); }); }
+    function setCursorInicio() { cur.style.transitionDuration = "0ms"; cur.style.left = app.clientWidth * 0.82 + "px"; cur.style.top = app.clientHeight * 0.92 + "px"; cur.classList.add("is-on"); }
+
+    function mostrar(q, n) {
       cuerpo.classList.remove("is-in"); void cuerpo.offsetWidth; cuerpo.classList.add("is-in");
-      elN.textContent = String((k % 10) + 1);
+      elN.textContent = String(n + 1);
       elArea.textContent = q.especialidad + " · " + (q.examen.replace(/\s*·.*$/, "") || "ENAM");
-      elStem.textContent = rec(q.enunciado, 230);
-      elOps.innerHTML = q.opciones.slice(0, 4).map(function (o) { return '<li data-l="' + esc(o.letra) + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 62)) + '</span></li>'; }).join("");
-      elFb.hidden = true; elFb.innerHTML = "";
-      if (q.imagen && elImg) { elImg.src = q.imagen; elImg.hidden = false; }
+      elStem.textContent = rec(q.enunciado, 200);
+      elOps.innerHTML = q.opciones.slice(0, 4).map(function (o) { return '<li data-l="' + esc(o.letra) + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 60)) + '</span></li>'; }).join("");
+      elFb.hidden = true; elFb.innerHTML = ""; elFb.className = "mapp__fb";
+      if (q.imagen) { elImg.src = q.imagen; elImg.hidden = false; }
     }
-    function resolver(q) {
-      var op = elOps.querySelector('[data-l="' + q.clave + '"]'); if (!op) return;
-      var mala = [].filter.call(elOps.children, function (li) { return li !== op; })[0];
-      var errar = (k % 3 === 1) && !!mala;                      // de vez en cuando falla, como un estudiante real
-      esperar(function () {
-        (errar ? mala : op).classList.add(errar ? "is-mal" : "is-sel");
-        esperar(function () {
-          op.classList.add("is-ok");
-          elFb.innerHTML = '<b>' + (errar ? "Incorrecto" : "Correcto") + '</b> · Comentario docente: ' + esc(rec(q.comentario, 150));
-          elFb.className = "mapp__fb " + (errar ? "is-mal" : "is-ok"); elFb.hidden = false;
-        }, 900);
-      }, 1700);
+    function zoomar(z, x, y) { vista.style.setProperty("--z", z); vista.style.setProperty("--tx", x + "%"); vista.style.setProperty("--ty", y + "%"); }
+
+    /* el flujograma de una pregunta fallada: se abre, se acerca, se mueve y se cierra */
+    function verFlujo(q) {
+      imgF.src = q.imagen; zoomar(1, 0, 0);
+      flujo.hidden = false; void flujo.offsetWidth; flujo.classList.add("is-in");
+      return esp(900)
+        .then(function () { return ir($("hsMas"), null, null, 1100); }).then(clic).then(function () { zoomar(1.8, -6, -4); return esp(900); })
+        .then(function () { return clic(); }).then(function () { zoomar(2.6, -16, -10); return esp(1000); })
+        .then(function () { return ir(vista, vista.clientWidth * 0.62, vista.clientHeight * 0.55, 1000); })
+        .then(function () { cur.classList.add("is-drag"); zoomar(2.6, -30, -18); cur.style.transitionDuration = "1300ms"; var p = pos(vista, vista.clientWidth * 0.34, vista.clientHeight * 0.38); cur.style.left = p.x + "px"; cur.style.top = p.y + "px"; return esp(1500); })
+        .then(function () { cur.classList.remove("is-drag"); return esp(500); })
+        .then(function () { return ir($("hsMenos"), null, null, 1000); }).then(clic).then(function () { zoomar(1.8, -6, -4); return esp(600); })
+        .then(function () { return clic(); }).then(function () { zoomar(1, 0, 0); return esp(700); })
+        .then(function () { return ir($("hsSeguir"), null, null, 900); }).then(clic)
+        .then(function () { flujo.classList.remove("is-in"); return esp(350); })
+        .then(function () { flujo.hidden = true; });
     }
-    function ciclo() {
-      var q = lista[k % lista.length]; mostrar(q);
-      if (reducido) return;
-      resolver(q);
-      esperar(function () { k++; ciclo(); }, 7600);
+
+    function pregunta(q, n, acierta) {
+      mostrar(q, n);
+      var ok = elOps.querySelector('[data-l="' + q.clave + '"]'), otras = [].filter.call(elOps.children, function (li) { return li !== ok; });
+      var elegida = acierta ? ok : otras[0];
+      return esp(1300).then(function () { return ir(elegida, 60, null, 1300); })
+        .then(clic).then(function () {
+          elegida.classList.add(acierta ? "is-sel" : "is-mal");
+          return esp(700);
+        }).then(function () {
+          ok.classList.add("is-ok");
+          elFb.innerHTML = '<b>' + (acierta ? "Correcto" : "Incorrecto") + '</b> · Comentario docente: ' + esc(rec(q.comentario, 130));
+          elFb.className = "mapp__fb " + (acierta ? "is-ok" : "is-mal"); elFb.hidden = false;
+          return esp(acierta ? 2400 : 1800);
+        }).then(function () { return acierta ? null : verFlujo(q); });
+    }
+
+    function resultados(lista) {
+      var ok = lista.filter(function (r) { return r.ok; }).length, filas = lista.map(function (r) { return { etiqueta: r.esp, valor: r.ok ? 100 : 0, max: 100, texto: r.ok ? "100%" : "0%", sub: r.ok ? "1 de 1" : "0 de 1" }; }).sort(function (a, b) { return a.valor - b.valor; });
+      res.innerHTML = '<p class="mr__tit">Resultado de la sesión</p><div class="mr__fila">' + donut(ok, lista.length - ok, { titulo: "Resultado" }) +
+        '<dl class="mr__kpis"><div><dt>Correctas</dt><dd>' + ok + ' / ' + lista.length + '</dd></div><div><dt>Incorrectas</dt><dd>' + (lista.length - ok) + '</dd></div></dl></div>' + barras(filas, {});
+      res.hidden = false; void res.offsetWidth; res.classList.add("is-in");
+      return esp(6500).then(function () { res.classList.remove("is-in"); return esp(400); }).then(function () { res.hidden = true; });
+    }
+
+    function sortear() {
+      var c = pool.slice(), t, r, j; for (j = c.length - 1; j > 0; j--) { r = Math.floor(Math.random() * (j + 1)); t = c[j]; c[j] = c[r]; c[r] = t; }
+      var v = {}, e = []; c.forEach(function (q) { if (e.length < 4 && !v[q.especialidad]) { v[q.especialidad] = 1; e.push(q); } });
+      return e;
+    }
+    function guion() {
+      var qs = sortear(), lista = [], n = 0, pat = [true, false, true, false];    // 2 correctas y 2 incorrectas, intercaladas
+      if (qs.length < 4) return;
+      function paso() {
+        if (n >= 4) { return esp(400).then(function () { return resultados(lista); }).then(function () { return esp(500).then(guion); }); }
+        var i = n++; return pregunta(qs[i], i, pat[i]).then(function () { lista.push({ esp: qs[i].especialidad, ok: pat[i] }); return paso(); });
+      }
+      setCursorInicio(); paso();
     }
     function iniciar() {
       MQP.cargarTodo().then(function (d) {
         var algos = window.MQP_ALGORITMOS || {}, base = MQP.base || "";
-        var cand = d.preguntas.filter(function (q) { var a = algos[q.id]; return q.comentario && q.comentario.length > 50 && q.enunciado.length <= 240 && q.opciones.length >= 4 && a && a.imagen && q.clave; });
-        if (cand.length < 6) return;
-        for (var j = cand.length - 1; j > 0; j--) { var r = Math.floor(Math.random() * (j + 1)), t = cand[j]; cand[j] = cand[r]; cand[r] = t; }
-        var vistas = {}; lista = [];
-        cand.forEach(function (q) { if (lista.length < 10 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; lista.push(q); } });
-        lista.forEach(function (q) { q.imagen = base + algos[q.id].imagen; });
-        ciclo();
+        pool = d.preguntas.filter(function (q) { var a = algos[q.id]; return q.comentario && q.comentario.length > 50 && q.enunciado.length <= 220 && q.opciones.length >= 4 && a && a.imagen && q.clave; });
+        pool.forEach(function (q) { q.imagen = base + algos[q.id].imagen; });
+        if (pool.length < 8) return;
+        app.style.setProperty("--top-h", $("hsTop").offsetHeight + "px");
+        elPill.textContent = "Banco de preguntas"; $("hsT").textContent = "4";
+        guion();
       }, function () {});
     }
-    if (document.visibilityState === "visible") setTimeout(iniciar, 250); else document.addEventListener("visibilitychange", function once() { if (document.visibilityState === "visible") { document.removeEventListener("visibilitychange", once); iniciar(); } });
-    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "hidden") { timers.forEach(clearTimeout); timers = []; } else if (lista.length && !reducido && !timers.length) { k++; ciclo(); } });
+    setTimeout(iniciar, 400);
   }
   function iniciarPublico() { bancoEnVivo(); celulares(); heroPantalla(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciarPublico); else iniciarPublico();
