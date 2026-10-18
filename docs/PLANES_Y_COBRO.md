@@ -36,19 +36,31 @@ y está escrito a mano en `index.html`).
 4. El estudiante vuelve a **`app/#/inicio?pago=ok`**: ve «¡Tu plan Premium está activo!» (la página espera hasta
    ~40 s a que llegue la confirmación) y su nombre aparece con ★ en la barra superior.
 
+## Pasarelas: PayU o Mercado Pago
+`cuenta.php` cobra con **PayU Latam** (WebCheckout, soles) o con **Mercado Pago**. Se usa PayU si está configurado
+(o la que indiques con `PASARELA`). Con PayU:
+- El estudiante paga en la pantalla de PayU; PayU confirma al servidor en `cuenta.php?a=payu` y el plan se activa
+  **solo si la firma MD5 coincide con tu ApiKey**, el estado es aprobado (4), la moneda es PEN, el monto cubre el plan
+  y la referencia corresponde a una orden creada por el propio servidor.
+- Al volver, PayU lleva al estudiante a `cuenta.php?a=retorno`, que solo lo redirige a `app/#/inicio?pago=ok`
+  (aprobado), `#/planes?pago=pendiente` o `#/planes?pago=error`. Esa vuelta no activa nada.
+- Variables: `PAYU_MERCHANT_ID`, `PAYU_ACCOUNT_ID`, `PAYU_API_KEY` (y `PAYU_TEST=1` mientras pruebas en sandbox).
+- En el panel de PayU activa la URL de confirmación (`https://TU-DOMINIO/cuenta.php?a=payu`; el cobro ya la envía en cada
+  transacción, pero conviene dejarla también en la configuración técnica de tu cuenta).
+
 ## Puesta en marcha (una vez)
 1. Sube `cuenta.php`, `.htaccess` y los archivos del app. La carpeta `cuenta_datos/` se crea sola
    (SQLite) y se protege con su propio `.htaccess`. Debe poder escribirse.
-2. En Mercado Pago (Tus integraciones) crea una aplicación y copia el **Access Token de producción**.
-3. En Hostinger define las variables (o copia `config.example.php` a `config.php`):
-   `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET` (recomendado) y `MQP_LIMITES=1`.
-4. En Mercado Pago → Webhooks, apunta a `https://TU-DOMINIO/cuenta.php?a=webhook` con el evento *Pagos*.
+2. **PayU:** abre tu cuenta de comercio en PayU Perú y copia `merchantId`, `accountId` y `ApiKey`.
+   **Mercado Pago:** crea una aplicación y copia el *Access Token de producción*; en Webhooks apunta a
+   `https://TU-DOMINIO/cuenta.php?a=webhook` con el evento *Pagos*.
+3. En Hostinger define las variables de la pasarela elegida (o copia `config.example.php` a `config.php`) y `MQP_LIMITES=1`.
 5. Haz una compra real de prueba con el plan mensual antes de anunciar.
 
 ## Qué se probó y qué no
-Probado en local contra una pasarela simulada (no la real): registro, ingreso, límite de intentos, creación del cobro,
+Probado en local contra pasarelas simuladas (Mercado Pago con un servidor falso; PayU con firmas calculadas igual que PayU las calcula, usando datos públicos de prueba de su documentación): registro, ingreso, límite de intentos, creación del cobro,
 activación solo con pago aprobado de monto y moneda correctos, rechazo de pagos pendientes/de monto bajo/en otra
 moneda/de usuario inexistente, idempotencia del aviso, renovación que suma días, límites del plan gratuito y paso
-de Premium. **No probado con Mercado Pago real** (no hay credenciales aquí): el flujo de pago, la firma del webhook
-y las URL de retorno deben verificarse con una compra de prueba. No hay recuperación de contraseña ni verificación de
+de Premium. **No probado con PayU ni Mercado Pago reales** (no hay credenciales aquí): la pantalla de pago, la entrega de la confirmación a tu dominio
+y las URL de retorno deben verificarse con una compra de prueba (en PayU, primero en sandbox con `PAYU_TEST=1`). No hay recuperación de contraseña ni verificación de
 correo todavía.

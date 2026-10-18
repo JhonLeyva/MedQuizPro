@@ -45,6 +45,12 @@ return [
     'diagnostico_token' => '',
 
     // ---- Cuentas y cobro (cuenta.php) ----
+    // PayU Latam (Perú): datos de tu comercio (Panel de PayU → Configuración técnica).
+    'payu_merchant_id' => '', 'payu_account_id' => '', 'payu_api_key' => '',
+    'payu_test' => '0',        // '1' = entorno de pruebas (sandbox)
+    // 'payu' o 'mercadopago'. Si lo dejas vacío se usa PayU cuando está configurado.
+    'pasarela' => '',
+
     // Token de acceso de tu aplicación de Mercado Pago (Tus integraciones → Credenciales de producción).
     // Sin él, la plataforma funciona con cuentas pero NO cobra.
     'mp_access_token' => '',

@@ -787,7 +787,7 @@
     var aviso = "";
     if (motivo === "limite") aviso = '<div class="notice notice--warn" role="status"><b>Llegaste al límite de hoy.</b> El plan gratuito incluye ' + CUENTA.estado.limite_diario + ' preguntas por día. Con Premium sigues sin límite.</div>';
     else if (motivo === "simulacro") aviso = '<div class="notice notice--warn" role="status"><b>El simulacro ENAM 2020 completo es Premium.</b> Con el plan gratuito puedes usar el simulacro rápido y el de especialidad.</div>';
-    if (pago === "pendiente") aviso = '<div class="notice" role="status"><b>Tu pago está pendiente.</b> Cuando Mercado Pago lo confirme, tu plan se activa solo. Puede tardar unos minutos.</div>';
+    if (pago === "pendiente") aviso = '<div class="notice" role="status"><b>Tu pago está pendiente.</b> Cuando la pasarela lo confirme, tu plan se activa solo. Puede tardar unos minutos.</div>';
     if (pago === "error") aviso = '<div class="notice notice--bad" role="alert"><b>No se completó el pago.</b> No se te cobró nada. Puedes intentarlo de nuevo.</div>';
     if (!CUENTA.disponible || !P) {
       return cabecera("Planes", "Planes", "Los planes se activarán en cuanto el servidor de cuentas esté disponible.") +
@@ -808,10 +808,10 @@
     var gratis = '<article class="plan"><h2 class="plan__name">Gratis</h2><p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">sin tarjeta</span></p>' +
       (CUENTA.usuario ? '<span class="btn btn--ghost btn--lg btn--block is-static">' + (prem ? "Incluido" : "Tu plan actual") + '</span>' : '<a class="btn btn--ghost btn--lg btn--block" href="#/registro">Crear cuenta gratis</a>') +
       '<ul class="plan__list"><li>' + (CUENTA.estado.limites ? CUENTA.estado.limite_diario + " preguntas por día" : "Banco ENAM por especialidad") + '</li><li>Simulacro rápido y por especialidad</li><li>Comentario docente y flujograma</li><li>Progreso, falladas y favoritas</li></ul></article>';
-    return cabecera("Planes", "Elige cómo quieres estudiar", "Pago único por periodo, sin renovación automática. Pagas en soles con Mercado Pago.") +
+    return cabecera("Planes", "Elige cómo quieres estudiar", "Pago único por periodo, sin renovación automática. Pagas en soles con tarjeta.") +
       aviso + vigente + '<div class="plans plans--app">' + gratis + tarjeta("mensual", false, "") + tarjeta("trimestral", true, "Más elegido") + tarjeta("anual", false, "Mejor precio") + '</div>' +
       '<p class="muted small plans__foot" id="planError" role="alert" hidden></p>' +
-      '<p class="muted small plans__foot">El cobro lo procesa Mercado Pago: MedQuizPlus no ve ni guarda los datos de tu tarjeta.</p>';
+      '<p class="muted small plans__foot">El cobro lo procesa ' + (CUENTA.estado.pasarela === "payu" ? "PayU" : "Mercado Pago") + ': MedQuizPlus no ve ni guarda los datos de tu tarjeta.</p>';
   }
   ACCIONES.comprar = function (b) {
     var plan = b.getAttribute("data-plan");
@@ -819,6 +819,11 @@
     var err = document.getElementById("planError"), txt = b.textContent;
     err.hidden = true; b.disabled = true; b.textContent = "Abriendo el pago…";
     api("comprar", { plan: plan }).then(function (r) {
+      if (r.ok && r.j.form) {                       // PayU: se envía un formulario a su pantalla de pago
+        var f = document.createElement("form"); f.method = "POST"; f.action = r.j.form.action;
+        Object.keys(r.j.form.fields).forEach(function (k) { var i = document.createElement("input"); i.type = "hidden"; i.name = k; i.value = r.j.form.fields[k]; f.appendChild(i); });
+        document.body.appendChild(f); f.submit(); return;
+      }
       if (r.ok && r.j.url) { location.href = r.j.url; return; }
       throw new Error(r.j.error || "No pudimos iniciar el pago.");
     }).catch(function (e) {

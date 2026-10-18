@@ -9,14 +9,20 @@
  *   registro   (POST)  crea la cuenta y abre sesión
  *   ingresar   (POST)  abre sesión
  *   salir      (POST)  cierra sesión
- *   comprar    (POST)  crea el cobro en Mercado Pago y devuelve la URL de pago
+ *   comprar    (POST)  crea el cobro (PayU o Mercado Pago) y devuelve cómo ir a pagar
  *   webhook    (POST)  aviso de Mercado Pago: se verifica el pago y se activa el plan
+ *   payu       (POST)  confirmación de PayU: se verifica la firma y se activa el plan
+ *   retorno    (GET)   a donde PayU devuelve al estudiante; solo lo redirige al app
  *
- * Un plan SOLO se activa desde "webhook", después de consultar el pago directamente a
- * Mercado Pago con tu token. Nada que llegue del navegador puede activar un plan.
+ * Un plan SOLO se activa desde "webhook" (tras consultar el pago a Mercado Pago con tu token)
+ * o desde "payu" (tras verificar la firma con tu ApiKey). Nada que llegue del navegador
+ * puede activar un plan.
  *
  * Configuración (variables de entorno, o config.php si el hosting no las permite):
- *   MP_ACCESS_TOKEN     token de acceso de tu aplicación de Mercado Pago (sin él no hay cobro)
+ *   PAYU_MERCHANT_ID, PAYU_ACCOUNT_ID, PAYU_API_KEY   datos de tu comercio en PayU Latam (Perú)
+ *   PAYU_TEST           "1" para el entorno de pruebas (sandbox) de PayU
+ *   PASARELA            payu | mercadopago  (si no se indica: PayU si está configurado, si no Mercado Pago)
+ *   MP_ACCESS_TOKEN     token de acceso de tu aplicación de Mercado Pago
  *   MP_WEBHOOK_SECRET   clave secreta del webhook (recomendada: valida la firma del aviso)
  *   MQP_LIMITES         "1" para activar los límites del plan gratuito (por defecto: apagados)
  *   MQP_SITE_URL        URL pública del sitio, ej. https://midominio.com (por defecto se deduce)
@@ -72,7 +78,18 @@ function url_sitio(): string {
     return (es_https() ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost');
 }
 function limites_activos(): bool { return ajuste('MQP_LIMITES', 'limites') === '1'; }
-function pagos_activos(): bool   { return ajuste('MP_ACCESS_TOKEN', 'mp_access_token') !== ''; }
+function payu_ok(): bool {
+    return ajuste('PAYU_MERCHANT_ID', 'payu_merchant_id') !== '' && ajuste('PAYU_ACCOUNT_ID', 'payu_account_id') !== '' && ajuste('PAYU_API_KEY', 'payu_api_key') !== '';
+}
+function mp_ok(): bool { return ajuste('MP_ACCESS_TOKEN', 'mp_access_token') !== ''; }
+/** Pasarela en uso: 'payu', 'mercadopago' o '' (sin cobro). */
+function pasarela(): string {
+    $p = strtolower(ajuste('PASARELA', 'pasarela'));
+    if ($p === 'payu' && payu_ok()) return 'payu';
+    if ($p === 'mercadopago' && mp_ok()) return 'mercadopago';
+    return payu_ok() ? 'payu' : (mp_ok() ? 'mercadopago' : '');
+}
+function pagos_activos(): bool { return pasarela() !== ''; }
 
 function db(): PDO {
     static $pdo = null;
@@ -92,6 +109,8 @@ function db(): PDO {
     $pdo->exec('CREATE TABLE IF NOT EXISTS pagos (
         id INTEGER PRIMARY KEY AUTOINCREMENT, mp_id TEXT NOT NULL UNIQUE, usuario INTEGER NOT NULL,
         plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS ordenes (
+        ref TEXT PRIMARY KEY, usuario INTEGER NOT NULL, plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
     $pdo->exec('CREATE TABLE IF NOT EXISTS intentos (clave TEXT NOT NULL, t INTEGER NOT NULL)');
     $pdo->exec('CREATE INDEX IF NOT EXISTS ix_intentos ON intentos(clave, t)');
     return $pdo;
@@ -202,7 +221,7 @@ try {
     $a = (string)($_GET['a'] ?? '');
 
     if ($a === 'estado') {
-        responder(['ok' => true, 'cuentas' => true, 'pagos' => pagos_activos(), 'limites' => limites_activos(),
+        responder(['ok' => true, 'cuentas' => true, 'pagos' => pagos_activos(), 'pasarela' => pasarela(), 'limites' => limites_activos(),
             'limite_diario' => LIMITE_GRATIS_DIARIO, 'planes' => PLANES]);
     }
 
@@ -260,6 +279,24 @@ try {
         if (!isset(PLANES[$plan])) fallo('Plan no válido.');
         $p = PLANES[$plan];
         $site = url_sitio();
+        if (pasarela() === 'payu') {
+            $merchant = ajuste('PAYU_MERCHANT_ID', 'payu_merchant_id'); $key = ajuste('PAYU_API_KEY', 'payu_api_key');
+            $ref = 'mqp-' . $u['id'] . '-' . $plan . '-' . bin2hex(random_bytes(5));      // única por intento
+            $monto = number_format($p['soles'], 2, '.', '');
+            db()->prepare('INSERT INTO ordenes(ref, usuario, plan, monto, creado) VALUES (?,?,?,?,?)')->execute([$ref, (int)$u['id'], $plan, $p['soles'], time()]);
+            $test = ajuste('PAYU_TEST', 'payu_test') === '1';
+            responder(['ok' => true, 'form' => [
+                'action' => $test ? 'https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/' : 'https://checkout.payulatam.com/ppp-web-gateway-payu/',
+                'fields' => [
+                    'merchantId' => $merchant, 'accountId' => ajuste('PAYU_ACCOUNT_ID', 'payu_account_id'),
+                    'description' => 'MedQuizPlus · ' . $p['nombre'], 'referenceCode' => $ref, 'amount' => $monto,
+                    'tax' => '0', 'taxReturnBase' => '0', 'currency' => 'PEN',
+                    'signature' => md5($key . '~' . $merchant . '~' . $ref . '~' . $monto . '~PEN'),
+                    'test' => $test ? '1' : '0', 'buyerEmail' => $u['correo'],
+                    'responseUrl' => $site . '/cuenta.php?a=retorno', 'confirmationUrl' => $site . '/cuenta.php?a=payu',
+                ],
+            ]]);
+        }
         $r = mp('POST', '/checkout/preferences', [
             'items' => [['title' => 'MedQuizPlus · ' . $p['nombre'], 'quantity' => 1, 'unit_price' => $p['soles'], 'currency_id' => 'PEN']],
             'payer' => ['email' => $u['correo']],
@@ -271,6 +308,37 @@ try {
         $url = $r['datos']['init_point'] ?? '';
         if ($r['codigo'] >= 300 || $url === '') { error_log('[cuenta] MP preferencia: HTTP ' . $r['codigo'] . ' ' . json_encode($r['datos'])); fallo('No pudimos iniciar el pago. Inténtalo de nuevo en un momento.', 502); }
         responder(['ok' => true, 'url' => $url]);
+    }
+
+    if ($a === 'retorno') {
+        // PayU devuelve aquí al estudiante (GET). Esto NO activa nada: solo lo manda a la pantalla correcta.
+        $estado = (string)($_GET['transactionState'] ?? '');
+        $dest = $estado === '4' ? '/app/#/inicio?pago=ok' : ($estado === '7' ? '/app/#/planes?pago=pendiente' : '/app/#/planes?pago=error');
+        header('Location: ' . url_sitio() . $dest, true, 302);
+        exit;
+    }
+
+    if ($a === 'payu') {
+        // Confirmación servidor a servidor de PayU (application/x-www-form-urlencoded). Se verifica la firma con la ApiKey.
+        if (pasarela() !== 'payu') responder(['ok' => true]);
+        $f = $_POST;
+        $ref = (string)($f['reference_sale'] ?? ''); $valor = (string)($f['value'] ?? ''); $mon = (string)($f['currency'] ?? '');
+        $estado = (string)($f['state_pol'] ?? ''); $sign = strtolower((string)($f['sign'] ?? $f['signature'] ?? ''));
+        $merchant = ajuste('PAYU_MERCHANT_ID', 'payu_merchant_id'); $key = ajuste('PAYU_API_KEY', 'payu_api_key');
+        if ((string)($f['merchant_id'] ?? '') !== $merchant) responder(['ok' => false], 400);
+        // PayU firma el valor con UN decimal cuando el segundo es cero (150.00 → 150.0)
+        $v = number_format((float)$valor, 2, '.', ''); if (substr($v, -1) === '0') $v = substr($v, 0, -1);
+        $calc = md5($key . '~' . $merchant . '~' . $ref . '~' . $v . '~' . $mon . '~' . $estado);
+        if (!hash_equals($calc, $sign)) { error_log('[cuenta] confirmación PayU con firma inválida'); responder(['ok' => false], 400); }
+        if ($estado !== '4') responder(['ok' => true]);             // 4 = aprobada; el resto no activa nada
+        $st = db()->prepare('SELECT * FROM ordenes WHERE ref = ?'); $st->execute([$ref]);
+        $o = $st->fetch();
+        if (!$o) { error_log('[cuenta] PayU: referencia desconocida ' . $ref); responder(['ok' => true]); }
+        if ($mon !== 'PEN' || (float)$valor + 0.001 < (float)$o['monto']) { error_log('[cuenta] PayU: monto/moneda inesperados en ' . $ref); responder(['ok' => true]); }
+        $tx = (string)($f['transaction_id'] ?? $f['reference_pol'] ?? '');
+        if ($tx === '') responder(['ok' => true]);
+        activar_plan((int)$o['usuario'], (string)$o['plan'], 'payu:' . $tx, (float)$valor);
+        responder(['ok' => true]);
     }
 
     if ($a === 'webhook') {
