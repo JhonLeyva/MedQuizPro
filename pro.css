@@ -392,3 +392,31 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
 @media (max-width: 980px) { .try { grid-template-columns: minmax(0, 1fr); } .try .hero-demo { margin-inline: 0; } }
 .try .float-card--score { animation: none; }
 .try__copy h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.12; }
+
+/* ============ 19. Interacciones de segunda capa ============ */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  :is(.exam, .sim-tile, .feature, .plan, .step, .mode, .spec) { position: relative; transform-style: preserve-3d;
+    transition: transform .35s var(--fx-spring, cubic-bezier(.2, .8, .2, 1)), box-shadow .35s ease; }
+  :is(.exam, .sim-tile, .feature, .plan, .step, .mode, .spec).is-tilt { transform: perspective(900px) rotateX(var(--tx, 0)) rotateY(var(--ty, 0)) translateY(-4px) !important; box-shadow: 0 24px 48px -18px rgba(15, 118, 110, .32); }
+  :is(.exam, .sim-tile, .feature, .plan, .step, .mode, .spec)::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .3s;
+    background: radial-gradient(260px circle at var(--gx, 50%) var(--gy, 50%), rgba(20, 184, 166, .16), transparent 60%); }
+  :is(.exam, .sim-tile, .feature, .plan, .step, .mode, .spec).is-tilt::after { opacity: 1; }
+  :is(.btn--lg, .header-cta, .final-cta .btn, .try__copy .btn) { translate: var(--bx, 0) var(--by, 0); transition: translate .25s ease, background-color .2s, box-shadow .25s, transform .2s; }
+  .fx-cursor { position: fixed; z-index: 9999; left: 0; top: 0; width: 32px; height: 32px; border-radius: 50%; border: 1.5px solid var(--brand-bright, #14b8a6);
+    pointer-events: none; opacity: 0; transition: opacity .25s, width .2s, height .2s, margin .2s, background-color .2s; will-change: transform; mix-blend-mode: multiply; }
+  .fx-cursor.is-on { opacity: .7; }
+  .fx-cursor.is-link { width: 48px; height: 48px; margin: -8px 0 0 -8px; background: rgba(20, 184, 166, .14); }
+  .fx-cursor.is-down { width: 22px; height: 22px; margin: 5px 0 0 5px; background: rgba(20, 184, 166, .3); }
+  [data-theme="dark"] .fx-cursor { mix-blend-mode: screen; }
+}
+/* el médico sube suavemente al hacer scroll (sin listeners: línea de tiempo del navegador) */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes fx-stage-out { to { transform: translateY(-48px) scale(.96); opacity: .35; } }
+    .hero-stage { animation: fx-stage-out linear both; animation-timeline: scroll(root block); animation-range: 0 80vh; }
+  }
+}
+/* enlaces del encabezado: subrayado que se dibuja */
+.nav__links a { position: relative; }
+.nav__links a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 2px; border-radius: 2px; background: var(--brand-bright, #14b8a6); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; }
+.nav__links a:hover::after, .nav__links a:focus-visible::after { transform: scaleX(1); }

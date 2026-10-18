@@ -187,3 +187,82 @@
     }, { passive: true });
   });
 })();
+
+/* ============ Interacciones de segunda capa (solo puntero fino; sin movimiento reducido) ============ */
+(function () {
+  "use strict";
+  function safe(n, f) { try { f(); } catch (e) { if (window.console) console.warn("[pro2] " + n, e); } }
+  var reduced = false, fine = false;
+  try { reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+  try { fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches; } catch (e) {}
+
+  /* cifras: cuentan desde 0 al aparecer (leen el valor que ya calculó main.js a partir de los bancos) */
+  safe("countup", function () {
+    if (reduced || !("IntersectionObserver" in window)) return;
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return; io.unobserve(e.target);
+        var el = e.target, txt = el.textContent.trim(), n = parseInt(txt.replace(/\D/g, ""), 10);
+        if (!n || n < 10 || txt.replace(/[\d.,\s]/g, "")) return;
+        var t0 = performance.now(), dur = 1100, fmt = function (v) { return txt.indexOf(".") > -1 || n > 9999 ? v.toLocaleString("es-PE") : String(v); };
+        (function tick(t) { var k = Math.min((t - t0) / dur, 1), v = Math.round(n * (1 - Math.pow(1 - k, 3))); el.textContent = fmt(v); if (k < 1) requestAnimationFrame(tick); else el.textContent = txt; })(t0);
+      });
+    }, { threshold: 0.6 });
+    setTimeout(function () { document.querySelectorAll("[data-metrica]").forEach(function (el) { if (el.closest(".metrics")) io.observe(el); }); }, 600);
+  });
+
+  if (!fine || reduced) return;
+
+  /* tarjetas: inclinación 3D + brillo que sigue al cursor */
+  safe("tilt", function () {
+    var sel = ".exam, .sim-tile, .feature, .plan, .step, .mode, .spec";
+    document.addEventListener("pointermove", function (ev) {
+      var c = ev.target.closest && ev.target.closest(sel); if (!c) return;
+      var r = c.getBoundingClientRect(), x = (ev.clientX - r.left) / r.width, y = (ev.clientY - r.top) / r.height;
+      c.style.setProperty("--tx", ((y - .5) * -7).toFixed(2) + "deg"); c.style.setProperty("--ty", ((x - .5) * 9).toFixed(2) + "deg");
+      c.style.setProperty("--gx", (x * 100).toFixed(1) + "%"); c.style.setProperty("--gy", (y * 100).toFixed(1) + "%");
+      c.classList.add("is-tilt");
+    }, { passive: true });
+    document.addEventListener("pointerout", function (ev) {
+      var c = ev.target.closest && ev.target.closest(sel); if (!c || c.contains(ev.relatedTarget)) return;
+      c.classList.remove("is-tilt"); c.style.removeProperty("--tx"); c.style.removeProperty("--ty");
+    }, { passive: true });
+  });
+
+  /* botones principales: atracción magnética */
+  safe("magnet", function () {
+    var sel = ".btn--lg, .header-cta, .final-cta .btn, .try__copy .btn";
+    document.addEventListener("pointermove", function (ev) {
+      var b = ev.target.closest && ev.target.closest(sel); if (!b) return;
+      var r = b.getBoundingClientRect();
+      b.style.setProperty("--bx", (((ev.clientX - r.left) / r.width - .5) * 10).toFixed(1) + "px");
+      b.style.setProperty("--by", (((ev.clientY - r.top) / r.height - .5) * 8).toFixed(1) + "px");
+    }, { passive: true });
+    document.addEventListener("pointerout", function (ev) {
+      var b = ev.target.closest && ev.target.closest(sel); if (!b) return;
+      b.style.removeProperty("--bx"); b.style.removeProperty("--by");
+    }, { passive: true });
+  });
+
+  /* cursor-halo que crece sobre elementos interactivos */
+  safe("cursor", function () {
+    var d = document.createElement("div"); d.className = "fx-cursor"; d.setAttribute("aria-hidden", "true"); document.body.appendChild(d);
+    var x = -100, y = -100, cx = x, cy = y, on = false;
+    function loop() { cx += (x - cx) * .2; cy += (y - cy) * .2; d.style.transform = "translate3d(" + (cx - 16).toFixed(1) + "px," + (cy - 16).toFixed(1) + "px,0)"; requestAnimationFrame(loop); }
+    window.addEventListener("pointermove", function (e) {
+      x = e.clientX; y = e.clientY; if (!on) { on = true; cx = x; cy = y; d.classList.add("is-on"); }
+      d.classList.toggle("is-link", !!(e.target.closest && e.target.closest("a, button, summary, .opt, [role=tab]")));
+    }, { passive: true });
+    document.addEventListener("pointerleave", function () { d.classList.remove("is-on"); });
+    document.addEventListener("pointerdown", function () { d.classList.add("is-down"); });
+    document.addEventListener("pointerup", function () { d.classList.remove("is-down"); });
+    requestAnimationFrame(loop);
+  });
+
+  /* el médico reacciona al clic: salto + asentimiento (mismo evento que el quiz acertado) */
+  safe("doctor", function () {
+    var st = document.getElementById("heroStage"); if (!st) return;
+    st.style.cursor = "pointer";
+    st.addEventListener("click", function (e) { if (e.target.closest(".float-card")) return; window.dispatchEvent(new Event("fx:correct")); });
+  });
+})();
