@@ -358,3 +358,37 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
   border: 2px solid color-mix(in srgb, var(--brand-bright) 22%, transparent); border-top-color: var(--brand-bright); animation: fx-loadspin .9s linear infinite; }
 @keyframes fx-loadspin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .orbit--loading::after { animation: none; } }
+
+/* ============ 17. Hero rediseñado: texto a la izquierda, médico sobre plataforma a la derecha ============ */
+.hero__grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(8px, 2vw, 32px); }
+.hero__copy { padding-top: 0; }
+.hero { min-height: min(840px, 100svh); display: grid; align-content: center; }
+.hero__title { font-size: clamp(2.4rem, 4.3vw, 3.9rem); }
+.hero-stage { position: relative; height: clamp(430px, calc(100svh - 200px), 700px); min-width: 0; }
+.hero-stage .orbit,
+.hero-stage .orbit.has-3d.orbit--glb { position: absolute; inset: 0; width: auto; height: auto; margin: 0; z-index: 1; }
+.hero-stage .orbit::before { display: none; }
+/* respaldo sin WebGL: anillos orbitales CSS centrados */
+.hero-stage .orbit--static { opacity: .85; }
+.hero-stage .orbit--static i { display: block; }
+.hero-stage .float-card { position: absolute; z-index: 3; }
+.hero-stage .float-card--tip { left: 2%; top: 14%; }
+.hero-stage .float-card--clock { right: 0; top: 58%; display: flex; align-items: center; gap: 10px; padding: 10px 14px 10px 10px; }
+.hero-stage .float-card--clock p { font-size: .82rem; font-weight: 600; color: var(--ink); line-height: 1.3; }
+.hero-stage .float-card--clock span:not(.float-card__icon) { display: block; font-size: .74rem; font-weight: 500; color: var(--ink-3); }
+@media (max-width: 980px) {
+  .hero { min-height: 0; display: block; }
+  .hero__title { font-size: clamp(2.2rem, 7vw, 3.2rem); }
+  .hero__grid { grid-template-columns: minmax(0, 1fr); }
+  .hero-stage { height: clamp(300px, 46svh, 400px); order: 2; }
+  .hero-stage .float-card { display: none; }
+}
+@media (max-width: 560px) { .hero-stage { height: 300px; margin-top: 8px; } }
+
+/* ============ 18. Sección "Pruébalo": el quiz de muestra, fuera del hero ============ */
+.try { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+.try .hero-demo { width: 100%; max-width: 640px; margin-inline: auto; }
+.try__copy .btn { margin-top: var(--space-5); }
+@media (max-width: 980px) { .try { grid-template-columns: minmax(0, 1fr); } .try .hero-demo { margin-inline: 0; } }
+.try .float-card--score { animation: none; }
+.try__copy h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.12; }

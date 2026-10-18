@@ -27,12 +27,22 @@ const CONFIG = {
   modelPath: "./Sin_nombre.glb",       // único modelo
   cacheBust: true,                     // true → '?v=' + Date.now()  ·  "texto" → versión fija ('?v=texto', permite caché)  ·  false → sin parámetro
   baseHeight: 3.4,
+  lookDown: 0.3,                       // baja el punto de mira: sube todo el conjunto y deja sitio a la plataforma
+  framing: 1.26,                       // alto del lienzo ÷ alto del médico  (1.22 → el médico ocupa ~82 % del escenario, ~69 % del hero; sube para hacerlo más pequeño)
+  cameraElevationDeg: 9,               // la cámara mira un poco desde arriba para que la plataforma se lea como un óvalo
+
+  /* plataforma circular baja bajo los pies (mate, borde turquesa sutil) + sombras de contacto y ambiente */
+  pedestal: {
+    enabled: true, radius: 1.35, height: 0.11, color: 0xeef2f6, rimColor: 0x14b8a6, rimWidth: 0.018,
+    contactShadow: 0.38,               // 0–1 · oscuridad bajo los zapatos
+    ambientShadow: 0.22,               // 0–1 · sombra suave bajo la plataforma
+  },
 
   breakpoints: { mobileMax: 767.98, tabletMax: 1279.98 },
 
   /* escala y posición por dispositivo. scale > 1 agranda · positionY > 0 sube · positionX > 0 mueve a la derecha */
-  desktop: { scale: 1.0,  positionX: 0, positionY: 0.12, positionZ: 0, rotationY: -0.28, rotationX: 0 },
-  tablet:  { scale: 0.95, positionX: 0, positionY: 0.04, positionZ: 0, rotationY: -0.14, rotationX: 0 },
+  desktop: { scale: 1.0,  positionX: 0, positionY: 0.06, positionZ: 0, rotationY: -0.28, rotationX: 0 },
+  tablet:  { scale: 0.95, positionX: 0, positionY: 0.02, positionZ: 0, rotationY: -0.14, rotationX: 0 },
   mobile:  { scale: 0.9,  positionX: 0, positionY: 0,    positionZ: 0, rotationY: 0,     rotationX: 0 },
 
   /* 1 · POSTURA BASE (Rigging Alignment) */
@@ -149,6 +159,32 @@ const CONFIG = {
   const camera = new THREE.PerspectiveCamera(26, 1, 0.1, 80);
   camera.position.set(0, 0, 10.5);
 
+  /* ------------------------------------------------------------------ plataforma ---------------- */
+  const pedestal = new THREE.Group(); pedestal.visible = false; scene.add(pedestal);
+  const PD = CONFIG.pedestal;
+  function blobTexture(alpha) {
+    const c = document.createElement("canvas"); c.width = c.height = 128;
+    const g = c.getContext("2d"), r = g.createRadialGradient(64, 64, 4, 64, 64, 62);
+    r.addColorStop(0, "rgba(15,32,48," + alpha + ")"); r.addColorStop(0.55, "rgba(15,32,48," + alpha * 0.4 + ")"); r.addColorStop(1, "rgba(15,32,48,0)");
+    g.fillStyle = r; g.fillRect(0, 0, 128, 128);
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
+  }
+  if (PD.enabled) {
+    const mat = new THREE.MeshStandardMaterial({ color: PD.color, roughness: 0.82, metalness: 0.02 });
+    const top = new THREE.Mesh(new THREE.CylinderGeometry(PD.radius, PD.radius * 1.04, PD.height, 72), mat);
+    top.position.y = -PD.height / 2; top.receiveShadow = true; pedestal.add(top);
+    const rim = new THREE.Mesh(new THREE.TorusGeometry(PD.radius * 1.015, PD.rimWidth, 10, 96),
+      new THREE.MeshStandardMaterial({ color: PD.rimColor, emissive: PD.rimColor, emissiveIntensity: 0.45, roughness: 0.5 }));
+    rim.rotation.x = Math.PI / 2; rim.position.y = -PD.height * 0.18; pedestal.add(rim);
+    const mk = (size, a, y) => {
+      const m = new THREE.Mesh(new THREE.PlaneGeometry(size, size), new THREE.MeshBasicMaterial({ map: blobTexture(a), transparent: true, depthWrite: false }));
+      m.rotation.x = -Math.PI / 2; m.position.y = y; pedestal.add(m); return m;
+    };
+    mk(PD.radius * 2.5, PD.ambientShadow, -PD.height - 0.004);          // sombra ambiente en el "suelo"
+    const contact = mk(PD.radius * 1.15, PD.contactShadow, 0.003);       // sombra de contacto bajo los zapatos
+    contact.renderOrder = 2;
+  }
+
   /* jerarquía: scene → anchor (posición / escala / respiración / balanceo) → group (giro) → model */
   const anchor = new THREE.Group(), group = new THREE.Group();
   anchor.add(group); scene.add(anchor);
@@ -225,7 +261,7 @@ const CONFIG = {
       applyResponsive();
       model.updateMatrixWorld(true);
 
-      ready = true;
+      ready = true; pedestal.visible = PD.enabled;
       orbit.classList.remove("orbit--loading");
       orbit.setAttribute("data-3d", "ready");
       frame(0);
@@ -399,8 +435,13 @@ const CONFIG = {
     renderer.setSize(w, h, false);
     camera.aspect = w / h;                                            // sin deformaciones al cambiar el tamaño
     const t = Math.tan(THREE.MathUtils.degToRad(camera.fov) / 2);
-    camera.position.z = Math.max((CONFIG.baseHeight * 1.18) / 2 / t, (CONFIG.baseHeight * widthRatio) / 2 / (t * camera.aspect));
+    const dist = Math.max((CONFIG.baseHeight * CONFIG.framing) / 2 / t, (CONFIG.baseHeight * widthRatio) / 2 / (t * camera.aspect), PD.enabled ? (PD.radius * 2.2) / 2 / (t * camera.aspect) : 0);
+    const el = THREE.MathUtils.degToRad(CONFIG.cameraElevationDeg);
+    camera.position.set(0, dist * Math.sin(el), dist * Math.cos(el));
+    camera.lookAt(0, -CONFIG.lookDown, 0);
     camera.updateProjectionMatrix();
+    pedestal.position.y = P.cfg.positionY - (CONFIG.baseHeight / 2) * P.cfg.scale;   // los pies apoyan en la plataforma
+    pedestal.scale.setScalar(P.cfg.scale);
     if (ready && !running) frame(0);
   }
   let resizeQueued = false;
@@ -506,7 +547,7 @@ const CONFIG = {
     try { stop(); } catch (e) {}
     try { renderer.dispose(); if (canvas.parentNode) canvas.parentNode.removeChild(canvas); } catch (e) {}
     orbit.classList.remove("orbit--loading", "orbit--glb", "has-3d");
-    orbit.style.display = "none";
+    orbit.classList.add("orbit--static");                              // respaldo CSS: anillos orbitales, sin lienzo
   }
 
   /* @debug-hook */

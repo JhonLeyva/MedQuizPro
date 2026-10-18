@@ -20,7 +20,7 @@
     hero.insertAdjacentHTML("afterbegin",
       '<div class="hero__glow" aria-hidden="true"></div>' +
       '<svg class="hero__ecg" viewBox="0 0 1600 110" preserveAspectRatio="none" aria-hidden="true"><path class="base" d="' + d + '"/><path class="pulse" d="' + d + '"/></svg>');
-    var demo = hero.querySelector(".hero-demo");
+    var demo = hero.querySelector(".hero-stage");
     if (demo) {
       demo.insertAdjacentHTML("afterbegin", '<div class="orbit" aria-hidden="true"><i></i><i></i><i></i></div>');
       /* leve paralaje de los anillos con el mouse (solo transform, vía rAF) */

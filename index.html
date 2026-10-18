@@ -15,7 +15,7 @@
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
 <link rel="stylesheet" href="styles.css?v=20260930-materias">
-<link rel="stylesheet" href="pro.css?v=20261006-1">
+<link rel="stylesheet" href="pro.css?v=20261018-1">
 </head>
 <body>
 
@@ -37,7 +37,7 @@
     </button>
     <nav class="nav" id="nav" aria-label="Principal">
       <div class="nav__links">
-        <a href="#bancos">Bancos de preguntas</a>
+        <a href="#examenes">Bancos de preguntas</a>
         <a href="#simulacros">Simuladores</a>
         <a href="#como-funciona">Cómo funciona</a>
         <a href="#precios">Precios</a>
@@ -78,6 +78,33 @@
         </ul>
       </div>
 
+      <!-- escenario del médico 3D (pro.js crea .orbit aquí; hero3d.js pinta el lienzo) -->
+      <div class="hero-stage" id="heroStage">
+        <div class="float-card float-card--tip" aria-hidden="true">
+          <span class="float-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg>
+          </span>
+          <p>Comentario y flujograma<span>en cada pregunta del banco</span></p>
+        </div>
+        <div class="float-card float-card--clock" aria-hidden="true">
+          <span class="float-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg>
+          </span>
+          <p>Simulador cronometrado<span>60 segundos por pregunta</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== PRUÉBALO ====================== -->
+  <section class="section section--try" id="prueba" aria-labelledby="tryTitle">
+    <div class="wrap try">
+      <div class="try__copy reveal">
+        <p class="kicker">Pruébalo ahora</p>
+        <h2 id="tryTitle">Responde una pregunta y mira cómo se explica.</h2>
+        <p class="sec-head__lead">Así se siente el banco: eliges una alternativa, ves el comentario y sigues. Sin registrarte.</p>
+        <a class="btn btn--primary" href="app/#/banco">Configurar mi propia sesión <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
       <!-- demostración interactiva (main.js la anima; sin JS queda la primera pregunta) -->
       <div class="hero-demo">
         <div class="demo" id="quiz" role="region" aria-label="Pregunta de muestra del banco de preguntas">
@@ -118,15 +145,7 @@
             </div>
           </div>
         </div>
-
-        <div class="float-card float-card--tip" aria-hidden="true">
-          <span class="float-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg>
-          </span>
-          <p>Comentario y flujograma<span>en cada pregunta del banco</span></p>
-        </div>
-
-        <div class="float-card float-card--score" id="qScore" aria-live="polite">
+<div class="float-card float-card--score" id="qScore" aria-live="polite">
           <div class="score-ring" id="qRing" aria-hidden="true">
             <svg viewBox="0 0 44 44"><circle class="score-ring__track" cx="22" cy="22" r="18"/><circle class="score-ring__value" cx="22" cy="22" r="18"/></svg>
             <span class="score-ring__num" id="qPct">–</span>
@@ -187,7 +206,7 @@
             <li>Simuladores cronometrados</li>
             <li><b data-metrica="especialidades">17</b> especialidades disponibles</li>
           </ul>
-          <a class="btn btn--primary btn--block exam__cta" href="#bancos" data-ir-examen="enam">
+          <a class="btn btn--primary btn--block exam__cta" href="app/#/examenes/enam">
             Explorar ENAM
             <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -205,7 +224,7 @@
             <li><b data-metrica="rm">5</b> preguntas tipo ya publicadas</li>
             <li>Simulador: próximamente</li>
           </ul>
-          <a class="btn btn--ghost btn--block exam__cta" href="#bancos" data-ir-examen="residentado">Explorar Residentado</a>
+          <a class="btn btn--ghost btn--block exam__cta" href="app/#/examenes/residentado">Explorar Residentado</a>
         </article>
 
         <article class="exam reveal">
@@ -220,53 +239,9 @@
             <li><b data-metrica="essalud">5</b> preguntas tipo ya publicadas</li>
             <li>Simulador: próximamente</li>
           </ul>
-          <a class="btn btn--ghost btn--block exam__cta" href="#bancos" data-ir-examen="essalud">Explorar EsSalud</a>
+          <a class="btn btn--ghost btn--block exam__cta" href="app/#/examenes/essalud">Explorar EsSalud</a>
         </article>
       </div>
-    </div>
-  </section>
-
-  <!-- ====================== BANCOS DE PREGUNTAS ====================== -->
-  <section class="section section--banks section--tint" id="bancos" aria-labelledby="exTitle">
-    <div class="wrap">
-      <!-- explorador por examen: main.js dibuja las especialidades con los bancos reales -->
-      <div class="explorer" id="bankExplorer">
-        <div class="explorer__head">
-          <div class="explorer__copy">
-            <p class="kicker">Bancos de preguntas</p>
-            <h2 id="exTitle">Preparación ENAM</h2>
-            <p class="explorer__lead" id="exLead">Entrena por especialidad, resuelve preguntas comentadas y mide tu progreso.</p>
-          </div>
-          <div class="seg" id="examTabs" role="tablist" aria-label="Examen">
-            <button class="seg__btn" type="button" role="tab" id="tab-enam" data-examen="enam" aria-selected="true" aria-controls="examPanel">ENAM</button>
-            <button class="seg__btn" type="button" role="tab" id="tab-residentado" data-examen="residentado" aria-selected="false" aria-controls="examPanel" tabindex="-1">Residentado</button>
-            <button class="seg__btn" type="button" role="tab" id="tab-essalud" data-examen="essalud" aria-selected="false" aria-controls="examPanel" tabindex="-1">EsSalud</button>
-          </div>
-        </div>
-
-        <div id="examPanel" role="tabpanel" aria-labelledby="exTitle">
-          <ul class="explorer__stats" id="exStats" aria-label="Contenido del banco"></ul>
-
-          <div class="soon-banner" id="exSoon" hidden>
-            <span class="soon-banner__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg></span>
-            <div class="soon-banner__copy">
-              <p class="soon-banner__title">Próximamente</p>
-              <p id="exSoonText">Estamos construyendo el banco completo por especialidad.</p>
-            </div>
-            <button class="btn btn--ghost btn--sm" type="button" id="exSoonBtn" hidden>Practicar preguntas tipo</button>
-          </div>
-
-          <div class="explorer__bar">
-            <div class="chips chips--compact" id="areaChips" role="group" aria-label="Filtrar por área"></div>
-            <a class="link-arrow" href="app/#/banco">Configura una sesión a tu medida <span aria-hidden="true">→</span></a>
-          </div>
-
-          <div class="specs" id="specs" aria-label="Especialidades"></div>
-        </div>
-      </div>
-
-      <!-- simulador de preguntas (plantilla compartida, se monta desde main.js) -->
-      <div data-mqp-practica></div>
     </div>
   </section>
 
@@ -707,7 +682,7 @@
         <div class="footer__col">
           <p class="footer__title">Producto</p>
           <ul>
-            <li><a href="#bancos">Bancos de preguntas</a></li>
+            <li><a href="app/#/banco">Bancos de preguntas</a></li>
             <li><a href="#simulacros">Simuladores</a></li>
             <li><a href="#como-funciona">Cómo funciona</a></li>
             <li><a href="#precios">Precios</a></li>
@@ -717,9 +692,9 @@
         <div class="footer__col">
           <p class="footer__title">Exámenes</p>
           <ul>
-            <li><a href="#bancos" data-ir-examen="enam">ENAM</a></li>
-            <li><a href="#bancos" data-ir-examen="residentado">Residentado</a></li>
-            <li><a href="#bancos" data-ir-examen="essalud">EsSalud</a></li>
+            <li><a href="app/#/examenes/enam">ENAM</a></li>
+            <li><a href="app/#/examenes/residentado">Residentado</a></li>
+            <li><a href="app/#/examenes/essalud">EsSalud</a></li>
           </ul>
         </div>
         <div class="footer__col">
@@ -761,8 +736,8 @@
 <script defer src="catalogo.js?v=20260930-materias"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
 <script defer src="main.js?v=20260930-materias"></script>
-<script defer src="pro.js?v=20261006-1"></script>
+<script defer src="pro.js?v=20261018-1"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<script type="module" src="hero3d.js?v=20261006-1"></script>
+<script type="module" src="hero3d.js?v=20261018-1"></script>
 </body>
 </html>
