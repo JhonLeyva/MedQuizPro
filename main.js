@@ -316,7 +316,8 @@
       }
     ];
 
-    var i = 0, respondida = false;
+    var estaticas = preguntas;                       // respaldo si el banco no carga
+    var i = 0, respondida = false, imagenActual = "";
     var elArea = document.getElementById("qArea");
     var elExam = document.getElementById("qExam");
     var elCount = document.getElementById("qCounter");
@@ -360,7 +361,7 @@
     }
     window.addEventListener("pagehide", function () { if (relojDemo) clearInterval(relojDemo); });
 
-    var letras = ["A", "B", "C", "D"];
+    var letras = ["A", "B", "C", "D", "E"];
 
     function pintar() {
       var q = preguntas[i];
@@ -369,6 +370,8 @@
       elExam.textContent = q.examen;
       elCount.textContent = "Pregunta " + (i + 1) + " de " + preguntas.length;
       elStem.textContent = q.enunciado;
+      imagenActual = q.imagen || "";
+      var fl = document.getElementById("qFlujo"); if (fl) fl.hidden = true;
       elOpts.innerHTML = "";
       for (var k = 0; k < q.opciones.length; k++) {
         var li = document.createElement("li");
@@ -414,10 +417,12 @@
       elVerdict.textContent = acerto ? "Respuesta correcta" : "Respuesta incorrecta";
       elVerdict.className = "quiz__verdict " + (acerto ? "quiz__verdict--ok" : "quiz__verdict--bad");
       elWhy.textContent = q.porque;
+      mostrarBotonFlujo();
       elFb.hidden = false;
       elNote.hidden = true;
       elNext.hidden = false;
-      elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : "Volver a la primera";
+      elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : (preguntas === estaticas ? "Volver a la primera" : "Probar otras 5 preguntas");
+      var cta = document.getElementById("qCta"); if (cta) cta.hidden = (i + 1 < preguntas.length) ? true : false;
 
       if (relojDemo) { clearInterval(relojDemo); relojDemo = null; }
       sesion.respondidas++;
@@ -426,11 +431,70 @@
     });
 
     elNext.addEventListener("click", function () {
+      if (i + 1 >= preguntas.length && preguntas !== estaticas) { cargarReales(true); return; }   // terminó las 5: sortea otras 5
       i = (i + 1) % preguntas.length;
       pintar();
     });
 
+    /* ---- flujograma de la pregunta: se ve en una ventana grande con zoom ---- */
+    function mostrarBotonFlujo() {
+      if (!imagenActual) return;
+      var fl = document.getElementById("qFlujo");
+      if (!fl) {
+        fl = document.createElement("button"); fl.type = "button"; fl.id = "qFlujo"; fl.className = "btn btn--ghost btn--sm quiz__flujo";
+        fl.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg> Ver flujograma';
+        fl.addEventListener("click", function () { abrirFlujo(imagenActual); });
+        elWhy.parentNode.appendChild(fl);
+      }
+      fl.hidden = false;
+      var pre = new Image(); pre.src = imagenActual;   // se descarga mientras lee el comentario
+    }
+    function abrirFlujo(src) {
+      var previo = document.activeElement, lb = document.createElement("div");
+      lb.className = "lb"; lb.setAttribute("role", "dialog"); lb.setAttribute("aria-modal", "true"); lb.setAttribute("aria-label", "Flujograma de la pregunta");
+      lb.innerHTML = '<div class="lb__bar"><span>Flujograma clínico · toca la imagen para acercar</span><button type="button" class="lb__x" aria-label="Cerrar">✕</button></div><div class="lb__zona"><img alt="Flujograma clínico de la pregunta" src=""></div>';
+      lb.querySelector("img").src = src;
+      document.body.appendChild(lb); document.body.classList.add("lb-abierto");
+      function cerrar() { lb.remove(); document.body.classList.remove("lb-abierto"); document.removeEventListener("keydown", tecla); if (previo && previo.focus) previo.focus(); }
+      function tecla(ev) { if (ev.key === "Escape") cerrar(); }
+      document.addEventListener("keydown", tecla);
+      lb.querySelector(".lb__x").addEventListener("click", cerrar);
+      lb.addEventListener("click", function (ev) { if (ev.target === lb || ev.target.classList.contains("lb__zona")) cerrar(); });
+      lb.querySelector("img").addEventListener("click", function (ev) { ev.currentTarget.classList.toggle("is-zoom"); });
+      lb.querySelector(".lb__x").focus();
+    }
+
+    /* ---- 5 preguntas reales y al azar, todas con flujograma ---- */
+    function barajar(a) { for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)), t = a[k]; a[k] = a[j]; a[j] = t; } return a; }
+    function cargarReales(otras) {
+      var M = window.MQP; if (!M || !M.cargarTodo) return;
+      if (otras) { elStem.textContent = "Buscando otras 5 preguntas del banco…"; elOpts.innerHTML = ""; elFb.hidden = true; elNext.hidden = true; }
+      M.cargarTodo().then(function (d) {
+        var algos = window.MQP_ALGORITMOS || {};
+        var cand = d.preguntas.filter(function (q) {
+          var a = algos[q.id];
+          return q.comentario && q.comentario.length > 40 && q.enunciado.length <= 340 && q.opciones.length >= 4 && a && a.imagen && q.clave;
+        });
+        if (cand.length < 5) { if (otras) { i = 0; pintar(); } return; }
+        if (!otras && sesion.respondidas > 0) return;       // ya empezó con las de respaldo: no se le cambia la pregunta a mitad
+        barajar(cand);
+        var elegidas = [], vistas = {};
+        cand.forEach(function (q) { if (elegidas.length < 5 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; elegidas.push(q); } });   // de especialidades distintas
+        cand.forEach(function (q) { if (elegidas.length < 5 && elegidas.indexOf(q) === -1) elegidas.push(q); });
+        var base = M.base || "";
+        preguntas = elegidas.map(function (q) {
+          var idx = 0; q.opciones.forEach(function (o, k) { if (o.letra === q.clave) idx = k; });
+          var por = q.comentario.length > 520 ? q.comentario.slice(0, 519).replace(/\s+\S*$/, "") + "…" : q.comentario;
+          return { area: q.especialidad, examen: q.examen.replace(/\s*·.*$/, "") || "ENAM", enunciado: q.enunciado, opciones: q.opciones.map(function (o) { return o.texto; }), correcta: idx, porque: por, imagen: base + algos[q.id].imagen };
+        });
+        sesion.respondidas = 0; sesion.correctas = 0; pintarSesion();
+        i = 0; pintar();
+      }, function () { if (otras) { preguntas = estaticas; i = 0; pintar(); } });
+    }
+
     pintar();
+    /* en cuanto el navegador esté libre, cambia las 3 preguntas de respaldo por 5 del banco real (si el estudiante aún no respondió) */
+    setTimeout(function () { if (sesion.respondidas === 0) cargarReales(false); }, 400);
   });
 
   /* ---------- motor de práctica: bancos, sesiones y simulacros ----------

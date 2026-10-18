@@ -103,7 +103,7 @@ rect.g-cel { outline: none; cursor: pointer; } rect.g-cel:hover, rect.g-cel:focu
 @media (max-width: 760px) { .an-cols2 { grid-template-columns: minmax(0, 1fr); } }
 
 /* =============== sección oscura "El banco por dentro" (landing) =============== */
-.section--spot { position: relative; overflow: hidden; color: #d9efec; background: radial-gradient(900px 420px at 15% -10%, rgba(45, 212, 191, .22), transparent 60%), radial-gradient(700px 400px at 100% 110%, rgba(37, 99, 235, .25), transparent 60%), linear-gradient(165deg, #081a2e, #0b2538 55%, #0a3236); }
+.section--spot { position: relative; overflow: hidden; color: #d9efec; background: radial-gradient(900px 420px at 15% -10%, rgba(45, 212, 191, .24), transparent 60%), radial-gradient(700px 420px at 100% 110%, rgba(20, 184, 166, .2), transparent 60%), linear-gradient(165deg, #04201e, #07332f 55%, #0a4440); }
 .section--spot::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(255, 255, 255, .035) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .035) 1px, transparent 1px); background-size: 48px 48px; mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 75%); pointer-events: none; }
 .section--spot > .wrap { position: relative; }
 .section--spot h2, .section--spot h3 { color: #fff; }
@@ -171,3 +171,8 @@ rect.g-cel { outline: none; cursor: pointer; } rect.g-cel:hover, rect.g-cel:focu
 .spot__datos { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 0; }
 .spot__datos li { display: flex; justify-content: space-between; gap: 12px; padding: 11px 0; border-top: 1px solid rgba(255, 255, 255, .1); font-size: .88rem; color: #a9c7c4; }
 .spot__datos b { color: #fff; text-align: right; font-variant-numeric: tabular-nums; }
+
+.ph__logo { display: flex; align-items: center; gap: 6px; font-weight: 800; font-size: 1.12em; letter-spacing: -.02em; color: var(--ink); margin: -2px 0 2px; }
+.ph__logo b { color: var(--brand); font-weight: 800; }
+.ph__marca { width: 20px; height: 20px; border-radius: 6px; display: grid; place-items: center; color: #fff; background: linear-gradient(135deg, var(--brand-bright, #14b8a6), var(--brand)); flex: none; }
+.ph__marca svg { width: 12px; height: 12px; }

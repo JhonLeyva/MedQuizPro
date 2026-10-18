@@ -83,8 +83,8 @@
   /* navegación lateral por secciones (la página es larga) */
   safe("dots", function () {
     if (!("IntersectionObserver" in window)) return;
-    var map = [["top", "Inicio"], ["examenes", "Exámenes"], ["bancos", "Bancos"], ["simulacros", "Simuladores"], ["como-funciona", "Cómo funciona"],
-      ["ventajas", "Ventajas"], ["plataforma", "Plataforma"], ["precios", "Planes"], ["registro", "Registro"], ["faq", "Preguntas"]];
+    var map = [["top", "Inicio"], ["prueba", "Pruébalo"], ["como-funciona", "Cómo funciona"], ["ventajas", "Ventajas"], ["analisis", "El banco"], ["examenes", "Exámenes"],
+      ["simulacros", "Simuladores"], ["movil", "En tu celular"], ["precios", "Planes"], ["registro", "Registro"], ["faq", "Preguntas"]];
     var ul = document.createElement("ul"); ul.className = "fx-dots"; ul.setAttribute("aria-label", "Secciones de la página");
     var links = {}, els = [];
     map.forEach(function (m) {

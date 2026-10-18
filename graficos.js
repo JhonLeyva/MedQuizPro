@@ -137,7 +137,7 @@
   }
 
   /* ---------------------------------------------------------------- web pública: el banco, en vivo */
-  var COL_AREA = ["#0f766e", "#2563eb", "#7c3aed", "#b45309", "#be185d", "#475569"];   // un color por área (todos con texto blanco legible)
+  var COL_AREA = ["#0f766e", "#0d9488", "#115e59", "#0a7f74", "#134e4a", "#0b6b63"];   // solo el verde-azulado de la marca: una tonalidad distinta por área (texto blanco legible)
 
   function squarify(vals, W, H) {
     var tot = vals.reduce(function (a, b) { return a + b; }, 0), sc = W * H / tot, a = vals.map(function (v) { return v * sc; });
@@ -175,7 +175,7 @@
     return '<figure class="g-fig"><svg class="g-svg sp-svg" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Preguntas publicadas por año del examen, de ' + esc(ks[0]) + " a " + esc(ks[ks.length - 1]) + '">' +
       '<defs><linearGradient id="spGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".55"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient></defs>' +
       '<path d="' + area + '" fill="url(#spGrad)"/><path d="' + d + '" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round"/>' +
-      pts.map(function (p, i) { return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="5" fill="#0b1d33" stroke="#5eead4" stroke-width="2.5"/><circle class="g-hit" cx="' + p[0] + '" cy="' + p[1] + '" r="16" tabindex="0" data-tip="ENAM ' + esc(ks[i]) + ": " + miles(vals[i]) + ' preguntas"/><text x="' + p[0] + '" y="' + (p[1] - 13) + '" text-anchor="middle" class="sp-val">' + miles(vals[i]) + '</text><text x="' + p[0] + '" y="' + (H - 8) + '" text-anchor="middle" class="sp-eje">' + esc(ks[i]) + '</text>'; }).join("") + '</svg>' +
+      pts.map(function (p, i) { return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="5" fill="#04201e" stroke="#5eead4" stroke-width="2.5"/><circle class="g-hit" cx="' + p[0] + '" cy="' + p[1] + '" r="16" tabindex="0" data-tip="ENAM ' + esc(ks[i]) + ": " + miles(vals[i]) + ' preguntas"/><text x="' + p[0] + '" y="' + (p[1] - 13) + '" text-anchor="middle" class="sp-val">' + miles(vals[i]) + '</text><text x="' + p[0] + '" y="' + (H - 8) + '" text-anchor="middle" class="sp-eje">' + esc(ks[i]) + '</text>'; }).join("") + '</svg>' +
       tabla(["Año", "Preguntas"], ks.map(function (k) { return [k, miles(porAnio[k])]; })) + '</figure>';
   }
 
@@ -215,7 +215,7 @@
           return '<div class="spot__kpi"><span class="spot__num" data-fin="' + k[1] + '">0</span><span class="spot__et">' + esc(k[0]) + '</span><span class="spot__sub">' + esc(k[2]) + '</span></div>';
         }).join("");
         [].forEach.call(cK.querySelectorAll(".spot__num"), function (el) { contar(el, +el.getAttribute("data-fin"), 1400); });
-        cL.innerHTML = MQP.areas.map(function (a, i) { return '<li><i style="background:' + COL_AREA[i % COL_AREA.length] + '"></i>' + esc(a.nombre) + '</li>'; }).join("");
+        if (cL) cL.innerHTML = MQP.areas.map(function (a, i) { return '<li><i style="background:' + COL_AREA[i % COL_AREA.length] + '"></i>' + esc(a.nombre) + '</li>'; }).join("");
         var mayor = anios.reduce(function (m, k) { return porAnio[k] > porAnio[m] ? k : m; }, anios[0]), reciente = anios[anios.length - 1];
         cA.innerHTML = areaAnios(porAnio) + (anios.length ? '<ul class="spot__datos"><li><span>Convocatoria con más preguntas</span><b>' + esc(mayor) + ' · ' + miles(porAnio[mayor]) + '</b></li><li><span>Más reciente</span><b>' + esc(reciente) + ' · ' + miles(porAnio[reciente]) + '</b></li><li><span>Especialidad más grande</span><b>' + esc(esp[0].nombre) + ' · ' + miles(esp[0].n) + '</b></li></ul>' : "");
         mapa();
@@ -241,14 +241,15 @@
         if (!cand.length) { box.parentNode.hidden = true; return; }
         var q = cand[Math.floor(Math.random() * cand.length)], rec = function (t, n) { t = String(t); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; };
         var base = MQP.base || "";
-        document.getElementById("phPregunta").innerHTML = '<div class="ph__bar"><span>' + esc(q.especialidad) + '</span><span>Modo estudio</span></div>' +
+        var LOGO = '<div class="ph__logo"><span class="ph__marca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span><span>MedQuiz<b>Plus</b></span></div>';
+        document.getElementById("phPregunta").innerHTML = LOGO + '<div class="ph__bar"><span>' + esc(q.especialidad) + '</span><span>Modo estudio</span></div>' +
           '<p class="ph__stem">' + esc(rec(q.enunciado, 210)) + '</p><ul class="ph__ops">' + q.opciones.slice(0, 4).map(function (o) {
             var ok = o.letra === q.clave; return '<li class="' + (ok ? "is-ok" : "") + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 56)) + '</span></li>'; }).join("") + '</ul>' +
           '<p class="ph__why"><b>Comentario docente</b>' + esc(rec(q.comentario, 120)) + '</p>';
         var top = MQP.especialidades.map(function (e) { return { e: e, n: d.preguntas.filter(function (p) { return p.archivo === e.archivo; }).length }; }).sort(function (a, b) { return b.n - a.n; }).slice(0, 6);
-        document.getElementById("phEsp").innerHTML = '<div class="ph__bar"><span>Banco ENAM</span><span>' + miles(d.preguntas.length) + '</span></div><p class="ph__tit">Especialidades</p><ul class="ph__esp">' +
+        document.getElementById("phEsp").innerHTML = LOGO + '<div class="ph__bar"><span>Banco ENAM</span><span>' + miles(d.preguntas.length) + '</span></div><p class="ph__tit">Especialidades</p><ul class="ph__esp">' +
           top.map(function (t) { return '<li><span class="ph__ico">' + MQP.icono(t.e.icono) + '</span><span>' + esc(t.e.nombre) + '</span><small>' + miles(t.n) + '</small></li>'; }).join("") + '</ul>';
-        document.getElementById("phFlujo").innerHTML = '<div class="ph__bar"><span>Flujograma</span><span>' + esc(q.id) + '</span></div><img class="ph__img" alt="" loading="lazy" src="' + esc(base + algos[q.id].imagen) + '">';
+        document.getElementById("phFlujo").innerHTML = LOGO + '<div class="ph__bar"><span>Flujograma</span><span>' + esc(q.id) + '</span></div><img class="ph__img" alt="" loading="lazy" src="' + esc(base + algos[q.id].imagen) + '">';
       }, function () { box.parentNode.hidden = true; });
     }
     if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" }); io.observe(box); } else pintar();
