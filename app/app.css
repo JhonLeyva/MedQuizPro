@@ -417,3 +417,13 @@ body.en-sesion .chat-launcher__label { display: none; }
 .pill span { font-size: .72rem; opacity: .8; }
 .link-btn { border: 0; background: none; color: var(--ink-3); font: inherit; font-size: .85rem; text-decoration: underline; cursor: pointer; padding: 4px 6px; }
 .link-btn:hover { color: var(--brand-strong); }
+
+/* ---------- reiniciar banco / especialidad ---------- */
+.filters__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin: 0 0 var(--space-4); }
+.filters__meta .filters__count { margin: 0; }
+.btn--reset svg, .spec__reset svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.btn--reset { gap: 8px; }
+.btn--reset.is-armed, .spec__reset.is-armed { background: var(--bad-soft); border-color: var(--bad); color: var(--bad); }
+.spec__reset { position: relative; z-index: 2; display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; margin: -8px 0 12px -8px; padding: 6px 10px; border: 0; border-radius: 8px; background: transparent; color: var(--ink-3); font: inherit; font-size: .82rem; cursor: pointer; }
+.spec__reset:hover { background: var(--surface-2); color: var(--ink); }
+.spec__reset:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }

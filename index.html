@@ -14,9 +14,9 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20261018-10">
-<link rel="stylesheet" href="graficos.css?v=20261018-10">
-<link rel="stylesheet" href="pro.css?v=20261018-10">
+<link rel="stylesheet" href="styles.css?v=20261018-12">
+<link rel="stylesheet" href="graficos.css?v=20261018-12">
+<link rel="stylesheet" href="pro.css?v=20261018-12">
 </head>
 <body>
 
@@ -621,14 +621,8 @@
           </div>
           <div class="field">
             <label for="f-universidad">Universidad</label>
-            <select id="f-universidad" name="universidad">
+            <select id="f-universidad" name="universidad" data-universidades>
               <option value="">Selecciona tu universidad</option>
-              <option>Universidad Nacional Mayor de San Marcos</option>
-              <option>Universidad Peruana Cayetano Heredia</option>
-              <option>Universidad Nacional de Trujillo</option>
-              <option>Universidad Nacional San Agustín de Arequipa</option>
-              <option>Universidad Nacional San Antonio Abad del Cusco</option>
-              <option>Otra universidad</option>
             </select>
             <p class="err" id="e-universidad" hidden>Elige una opción de la lista.</p>
           </div>
@@ -786,12 +780,13 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="catalogo.js?v=20261018-10"></script>
+<script defer src="catalogo.js?v=20261018-12"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
-<script defer src="main.js?v=20261018-10"></script>
-<script defer src="graficos.js?v=20261018-10"></script>
-<script defer src="pro.js?v=20261018-10"></script>
+<script defer src="main.js?v=20261018-12"></script>
+<script defer src="universidades.js?v=20261018-12"></script>
+<script defer src="graficos.js?v=20261018-12"></script>
+<script defer src="pro.js?v=20261018-12"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<script type="module" src="hero3d.js?v=20261018-10"></script>
+<script type="module" src="hero3d.js?v=20261018-12"></script>
 </body>
 </html>

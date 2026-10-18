@@ -59,6 +59,7 @@
     diana: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
     casa: '<path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/>',
     capas: '<path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/>',
+    reinicio: '<path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/>',
     chevron: '<path d="M9 6l6 6-6 6"/>',
     ajustes: '<path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/>',
     candado: '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
@@ -359,6 +360,18 @@
       if (arguments.length < 2) return d.preferencias[clave];
       d.preferencias[clave] = valor; escribir(d);
       return valor;
+    },
+    /* reinicia las preguntas indicadas: borra sus respuestas para que cuenten como no respondidas.
+       Conserva favoritas y el historial de sesiones. Devuelve cuántas respuestas borró. */
+    reiniciar: function (ids) {
+      var d = leer(), n = 0, set = {};
+      for (var i = 0; i < ids.length; i++) set[ids[i]] = true;
+      for (var id in set) if (Object.prototype.hasOwnProperty.call(d.respuestas, id)) { delete d.respuestas[id]; n++; }
+      if (d.ultima && d.ultima.ids) {
+        for (var k = 0; k < d.ultima.ids.length; k++) if (set[d.ultima.ids[k]]) { d.ultima = null; break; }
+      }
+      if (n || !d.ultima) escribir(d);
+      return n;
     },
     borrar: function () { memoria = null; try { localStorage.removeItem(CLAVE); } catch (e) {} escribir(vacio()); },
     /* resumen calculado, opcionalmente limitado a un examen */

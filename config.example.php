@@ -60,6 +60,10 @@ return [
     // Déjalo en '0' hasta que el cobro esté probado.
     'limites' => '0',
 
+    // Clave larga (16+ caracteres) para descargar tu lista de cuentas y pagos:
+    //   https://TU-DOMINIO/cuenta.php?a=admin&token=TU-CLAVE   (CSV; añade &formato=json para JSON)
+    'admin_token' => '',
+
     // Opcional. '1' añade el detalle técnico del error a la respuesta JSON.
     // Úsalo solo mientras configuras, y vuelve a dejarlo en '0'.
     'depurar' => '0',

@@ -64,3 +64,20 @@ moneda/de usuario inexistente, idempotencia del aviso, renovación que suma día
 de Premium. **No probado con PayU ni Mercado Pago reales** (no hay credenciales aquí): la pantalla de pago, la entrega de la confirmación a tu dominio
 y las URL de retorno deben verificarse con una compra de prueba (en PayU, primero en sandbox con `PAYU_TEST=1`). No hay recuperación de contraseña ni verificación de
 correo todavía.
+
+## Dónde se guardan las cuentas y cómo verlas
+- **Base de datos:** `cuenta_datos/mqp.sqlite` (SQLite, se crea sola al primer registro). Guarda nombre, correo, universidad, examen,
+  contraseña **cifrada** (hash, nunca en claro), plan, fecha de vencimiento y los pagos. La carpeta se bloquea con su propio `.htaccess`
+  y está en `.gitignore`: **no se sube a GitHub**, vive solo en tu hosting.
+- **Ver / descargar la lista:** define `MQP_ADMIN_TOKEN` (o `admin_token` en `config.php`) con una clave larga de 16+ caracteres y abre
+  `https://TU-DOMINIO/cuenta.php?a=admin&token=TU-CLAVE` → descarga un CSV (se abre en Excel). Con `&formato=json` devuelve JSON.
+  Sin esa clave definida, la acción no existe (responde 404). Nunca incluye contraseñas.
+- **Copia de seguridad:** descarga `cuenta_datos/mqp.sqlite` desde el administrador de archivos de Hostinger con regularidad (es un solo archivo).
+- **Progreso de estudio:** hoy sigue guardándose en el navegador del estudiante, no en el servidor. Guardarlo en la cuenta (para verlo
+  desde cualquier dispositivo) es el siguiente paso natural y no está hecho.
+- **Datos personales (Ley 29733):** al guardar nombres y correos debes tener una política de privacidad publicada y obtener el consentimiento
+  del usuario; este proyecto aún no incluye esa página.
+
+## Universidades del registro
+La lista está en `universidades.js` (una línea por universidad: nombre, siglas, sede). Se armó con información pública general, **no con el
+registro oficial**: contrástala con la SUNEDU y ASPEFAM antes de darla por definitiva, y agrega o quita líneas en ese archivo.

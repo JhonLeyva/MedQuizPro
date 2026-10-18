@@ -315,12 +315,36 @@
       '<ul class="combo__lista" id="fLista" role="listbox" aria-multiselectable="true" hidden></ul></div>' +
       '<label class="filters__sort"><span>Ordenar por</span><select id="fOrden">' + Object.keys(ORDENES).map(function (k) { return '<option value="' + k + '"' + (k === ord ? " selected" : "") + '>' + ORDENES[k] + '</option>'; }).join("") + '</select></label>' +
       '</div><div class="filters__sel" id="fSel" hidden></div>' +
-      '<p class="filters__count muted small" id="fCuenta" aria-live="polite"></p><div class="specs specs--app" id="gridEsp"></div>' +
+      '<div class="filters__meta"><p class="filters__count muted small" id="fCuenta" aria-live="polite"></p>' + botonReiniciarBanco(ex) + '</div><div class="specs specs--app" id="gridEsp"></div>' +
       '<div id="fVacio" hidden>' + vacio("lupa", "Ninguna especialidad coincide", "Prueba con otra palabra o quita los filtros.", '<button class="btn btn--ghost" type="button" id="fLimpiar">Quitar filtros</button>') + '</div>';
     return '<nav class="crumbs" aria-label="Ruta"><a href="#/examenes">Exámenes</a><span aria-hidden="true">/</span><span aria-current="page">' + esc(ex.nombre) + '</span></nav>' +
       cabecera(vivo ? "Banco disponible" : "Próximamente", esc(ex.titulo), esc(ex.lema), extra) + aviso + filtros;
   }
   /* las tarjetas de especialidad son el componente compartido (main.js → MQP.ui) */
+  /* ---------- reiniciar: borra las respuestas de un banco o de una especialidad (pide confirmación en dos pasos) ---------- */
+  function idsDe(exId, archivo) {
+    return M.filtrar(datos.preguntas, { examen: exId, archivos: archivo ? [archivo] : null }).map(function (q) { return q.id; });
+  }
+  function respondidasEn(ids) { var r = M.progreso.leer().respuestas, n = 0; ids.forEach(function (id) { if (r[id]) n++; }); return n; }
+  function botonReiniciarBanco(ex) {
+    var n = respondidasEn(idsDe(ex.id, null));
+    return n ? '<button class="btn btn--ghost btn--sm btn--reset" type="button" data-accion="reiniciar" data-examen="' + ex.id + '" data-etiqueta="Reiniciar banco ' + esc(ex.nombre) + '">' + I("reinicio") + '<span>Reiniciar banco ' + esc(ex.nombre) + '</span></button>' : "";
+  }
+  ACCIONES.reiniciar = function (b) {
+    var span = b.querySelector("span") || b, original = b.getAttribute("data-etiqueta") || "Reiniciar";
+    if (b.getAttribute("data-armado") !== "1") {
+      b.setAttribute("data-armado", "1"); b.classList.add("is-armed");
+      span.textContent = "Pulsa otra vez para confirmar";
+      setTimeout(function () { if (b.isConnected) { b.removeAttribute("data-armado"); b.classList.remove("is-armed"); span.textContent = original; } }, 4000);
+      return;
+    }
+    var exId = b.getAttribute("data-examen"), archivo = b.getAttribute("data-archivo") || "";
+    var n = M.progreso.reiniciar(idsDe(exId, archivo));
+    var nombre = archivo ? M.especialidad(archivo).nombre : "el banco " + M.examen(exId).nombre;
+    render(true);
+    var c = document.getElementById("fCuenta"); if (c) c.textContent = "Se reinició " + nombre + ": " + M.plural(n, "respuesta borrada", "respuestas borradas") + ".";
+  };
+
   var ORDENES = { az: "Orden alfabético (A–Z)", preguntas: "Más preguntas", pendientes: "Menos avance", reforzar: "Por reforzar (menos aciertos)" };
   var tarjetasEsp = [];
   function montarTarjetas(exId) {
@@ -337,6 +361,15 @@
       t.actualizar(ok ? { estado: "ok", total: total, respondidas: p.respondidas || 0, tipo: !vivo,
         materias: esp.categorias.length ? M.ui.contarMaterias(datos.preguntas, esp.archivo, exId) : null } : { estado: "error" });
       t.nodo.setAttribute("data-esp", esp.archivo);
+      if (p.respondidas) {
+        var rb = document.createElement("button");
+        rb.type = "button"; rb.className = "spec__reset"; rb.setAttribute("data-accion", "reiniciar");
+        rb.setAttribute("data-archivo", esp.archivo); rb.setAttribute("data-examen", exId); rb.setAttribute("data-etiqueta", "Reiniciar");
+        rb.setAttribute("aria-label", "Reiniciar " + esp.nombre);
+        rb.innerHTML = I("reinicio") + "<span>Reiniciar</span>";
+        var pg = t.nodo.querySelector(".spec__progress");
+        if (pg) pg.insertAdjacentElement("afterend", rb); else t.nodo.appendChild(rb);
+      }
       tarjetasEsp.push({ nodo: t.nodo, esp: esp, total: total, resp: p.respondidas || 0, corr: p.correctas || 0 });
     });
     ordenarTarjetas("az");
@@ -968,6 +1001,7 @@
       (reg ? campo("a-nombre", "Nombre y apellido", "text", 'autocomplete="name" maxlength="80" required') : "") +
       campo("a-correo", "Correo electrónico", "email", 'autocomplete="email" maxlength="120" required') +
       campo("a-clave", "Contraseña" + (reg ? " (mínimo 8 caracteres)" : ""), "password", 'autocomplete="' + (reg ? "new-password" : "current-password") + '" minlength="8" maxlength="200" required') +
+      (reg ? '<div class="field"><label for="a-uni">Universidad (opcional)</label><select id="a-uni" name="a-uni">' + (window.MQP_UNIVERSIDADES ? window.MQP_UNIVERSIDADES.opciones() : '<option value="">—</option>') + '</select></div>' : "") +
       (reg ? '<div class="field"><label>¿Qué examen preparas?</label><div class="picks picks--row">' + ["enam|ENAM", "residentado|Residentado", "essalud|EsSalud"].map(function (x, i) { var p = x.split("|"); return opcion("a-examen", p[0], p[1], "", i === 0, false); }).join("") + '</div></div>' : "") +
       '<p class="form-error" id="authError" role="alert" hidden></p>' +
       '<button class="btn btn--primary btn--lg btn--block" type="submit">' + (reg ? "Crear mi cuenta" : "Ingresar") + '</button></form>' +
@@ -979,7 +1013,7 @@
     f.addEventListener("submit", function (ev) {
       ev.preventDefault(); err.hidden = true;
       var d = { correo: f.querySelector("#a-correo").value.trim(), clave: f.querySelector("#a-clave").value };
-      if (modo === "registro") { d.nombre = f.querySelector("#a-nombre").value.trim(); var x = f.querySelector("input[name=a-examen]:checked"); d.examen = x ? x.value : ""; }
+      if (modo === "registro") { d.nombre = f.querySelector("#a-nombre").value.trim(); d.universidad = f.querySelector("#a-uni").value; var x = f.querySelector("input[name=a-examen]:checked"); d.examen = x ? x.value : ""; }
       if (!d.correo || d.clave.length < 8 || (modo === "registro" && d.nombre.length < 2)) { err.textContent = modo === "registro" ? "Completa tu nombre, un correo válido y una contraseña de al menos 8 caracteres." : "Escribe tu correo y tu contraseña."; err.hidden = false; return; }
       var txt = btn.textContent; btn.disabled = true; btn.textContent = "Un momento…";
       api(modo === "registro" ? "registro" : "ingresar", d).then(function (r) {

@@ -13,6 +13,7 @@
  *   webhook    (POST)  aviso de Mercado Pago: se verifica el pago y se activa el plan
  *   payu       (POST)  confirmación de PayU: se verifica la firma y se activa el plan
  *   retorno    (GET)   a donde PayU devuelve al estudiante; solo lo redirige al app
+ *   admin      (GET)   (solo tú) lista de cuentas y pagos en CSV o JSON; exige MQP_ADMIN_TOKEN
  *
  * Un plan SOLO se activa desde "webhook" (tras consultar el pago a Mercado Pago con tu token)
  * o desde "payu" (tras verificar la firma con tu ApiKey). Nada que llegue del navegador
@@ -26,6 +27,7 @@
  *   MP_WEBHOOK_SECRET   clave secreta del webhook (recomendada: valida la firma del aviso)
  *   MQP_LIMITES         "1" para activar los límites del plan gratuito (por defecto: apagados)
  *   MQP_SITE_URL        URL pública del sitio, ej. https://midominio.com (por defecto se deduce)
+ *   MQP_ADMIN_TOKEN     clave larga (16+ caracteres) para descargar tu lista de cuentas; sin ella esa acción no existe
  *   MP_API_BASE         solo para pruebas: otra URL para la API de Mercado Pago
  *
  * Los datos viven en cuenta_datos/mqp.sqlite (la carpeta se protege con su propio .htaccess).
@@ -219,6 +221,31 @@ function activar_plan(int $uid, string $plan, string $mpId, float $monto): void 
 
 try {
     $a = (string)($_GET['a'] ?? '');
+
+    if ($a === 'admin') {
+        // Lista de cuentas y pagos para el dueño del sitio. Nunca incluye contraseñas.
+        $tok = ajuste('MQP_ADMIN_TOKEN', 'admin_token');
+        if (strlen($tok) < 16) fallo('Acción desconocida.', 404);
+        limitar_login('admin');
+        $dado = (string)($_GET['token'] ?? ($_SERVER['HTTP_X_ADMIN_TOKEN'] ?? ''));
+        if (!hash_equals($tok, $dado)) { anotar_intento('admin'); fallo('No autorizado.', 401); }
+        $db = db();
+        $us = $db->query('SELECT u.id, u.nombre, u.correo, u.universidad, u.examen, u.plan, u.premium_hasta, u.creado,
+            (SELECT COUNT(*) FROM pagos p WHERE p.usuario = u.id) AS pagos, (SELECT COALESCE(SUM(monto),0) FROM pagos p WHERE p.usuario = u.id) AS total_soles
+            FROM usuarios u ORDER BY u.id')->fetchAll();
+        $f = fn($t) => $t ? date('Y-m-d H:i', (int)$t) : '';
+        $filas = array_map(fn($u) => [
+            'id' => (int)$u['id'], 'nombre' => $u['nombre'], 'correo' => $u['correo'], 'universidad' => $u['universidad'], 'examen' => $u['examen'],
+            'registrado' => $f($u['creado']), 'plan' => (int)$u['premium_hasta'] > time() ? $u['plan'] : '', 'premium_hasta' => (int)$u['premium_hasta'] > time() ? $f($u['premium_hasta']) : '',
+            'pagos' => (int)$u['pagos'], 'total_soles' => (float)$u['total_soles'],
+        ], $us);
+        if (($_GET['formato'] ?? 'csv') === 'json') responder(['ok' => true, 'total' => count($filas), 'cuentas' => $filas]);
+        header('Content-Type: text/csv; charset=utf-8'); header('Content-Disposition: attachment; filename="cuentas-medquizplus-' . date('Ymd') . '.csv"'); header('Cache-Control: no-store');
+        $o = fopen('php://output', 'w'); fwrite($o, "\xEF\xBB\xBF");                       // BOM: Excel abre bien las tildes
+        fputcsv($o, array_keys($filas[0] ?? ['id' => '', 'nombre' => '', 'correo' => '', 'universidad' => '', 'examen' => '', 'registrado' => '', 'plan' => '', 'premium_hasta' => '', 'pagos' => '', 'total_soles' => '']));
+        foreach ($filas as $r) fputcsv($o, array_map(fn($v) => is_string($v) && preg_match('/^[=+\-@\t\r]/', $v) ? "'" . $v : $v, $r));   // evita fórmulas de Excel en datos escritos por usuarios
+        fclose($o); exit;
+    }
 
     if ($a === 'estado') {
         responder(['ok' => true, 'cuentas' => true, 'pagos' => pagos_activos(), 'pasarela' => pasarela(), 'limites' => limites_activos(),
