@@ -14,9 +14,9 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20261018-12">
-<link rel="stylesheet" href="graficos.css?v=20261018-12">
-<link rel="stylesheet" href="pro.css?v=20261018-12">
+<link rel="stylesheet" href="styles.css?v=20261018-13">
+<link rel="stylesheet" href="graficos.css?v=20261018-13">
+<link rel="stylesheet" href="pro.css?v=20261018-13">
 </head>
 <body>
 
@@ -635,6 +635,10 @@
             </div>
             <p class="err" id="e-examen" hidden>Marca uno de los tres.</p>
           </div>
+          <div class="field field--check">
+            <label class="check"><input type="checkbox" id="f-acepto" name="acepto"><span>He leído y acepto la <a href="privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</span></label>
+            <p class="err" id="e-acepto" hidden>Debes aceptar la política de privacidad para crear tu cuenta.</p>
+          </div>
           <div class="form-foot">
             <button class="btn btn--primary btn--block" type="submit">Crear mi cuenta gratis</button>
             <p class="err form-server" id="e-servidor" role="alert" hidden></p>
@@ -748,14 +752,14 @@
           <p class="footer__title">Cuenta</p>
           <ul>
             <li><a href="#registro">Crear cuenta</a></li>
-            <li><a href="app/">Iniciar sesión</a></li>
+            <li><a href="app/#/ingresar">Iniciar sesión</a></li>
           </ul>
         </div>
         <div class="footer__col">
           <p class="footer__title">Legal</p>
           <ul>
             <li><a href="#legal">Términos</a></li>
-            <li><a href="#legal">Privacidad</a></li>
+            <li><a href="privacidad.html">Privacidad</a></li>
             <li><a href="https://www.instagram.com/JhonLeyva/" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
               Instagram<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
@@ -763,7 +767,7 @@
         </div>
       </nav>
     </div>
-    <p class="footer__legal" id="legal">Contenido con fines educativos: no sustituye el criterio clínico ni la atención de un paciente real. El registro es una demostración y no envía datos a ningún servidor; el progreso se guarda solo en tu navegador.</p>
+    <p class="footer__legal" id="legal">Contenido con fines educativos: no sustituye el criterio clínico ni la atención de un paciente real. Tu cuenta y tu progreso se guardan en nuestro servidor; sin cuenta, solo en tu navegador. Más información en la <a href="privacidad.html">Política de privacidad</a>.</p>
     <div class="footer__bottom">
       <p>© <span id="year">2026</span> MedQuizPlus</p>
       <p>Hecho en Lima</p>
@@ -780,13 +784,13 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="catalogo.js?v=20261018-12"></script>
+<script defer src="catalogo.js?v=20261018-13"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
-<script defer src="main.js?v=20261018-12"></script>
-<script defer src="universidades.js?v=20261018-12"></script>
-<script defer src="graficos.js?v=20261018-12"></script>
-<script defer src="pro.js?v=20261018-12"></script>
+<script defer src="main.js?v=20261018-13"></script>
+<script defer src="universidades.js?v=20261018-13"></script>
+<script defer src="graficos.js?v=20261018-13"></script>
+<script defer src="pro.js?v=20261018-13"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<script type="module" src="hero3d.js?v=20261018-12"></script>
+<script type="module" src="hero3d.js?v=20261018-13"></script>
 </body>
 </html>

@@ -13,6 +13,9 @@
  *   webhook    (POST)  aviso de Mercado Pago: se verifica el pago y se activa el plan
  *   payu       (POST)  confirmación de PayU: se verifica la firma y se activa el plan
  *   retorno    (GET)   a donde PayU devuelve al estudiante; solo lo redirige al app
+ *   progreso_leer / progreso_guardar   el progreso de estudio del estudiante, guardado en su cuenta
+ *   exportar   (POST)  descarga de TODOS los datos de la cuenta (derecho de acceso)
+ *   eliminar   (POST)  borra la cuenta y su progreso, pidiendo la contraseña (derecho de cancelación)
  *   admin      (GET)   (solo tú) lista de cuentas y pagos en CSV o JSON; exige MQP_ADMIN_TOKEN
  *
  * Un plan SOLO se activa desde "webhook" (tras consultar el pago a Mercado Pago con tu token)
@@ -108,6 +111,9 @@ function db(): PDO {
         id INTEGER PRIMARY KEY AUTOINCREMENT, correo TEXT NOT NULL UNIQUE, nombre TEXT NOT NULL,
         clave TEXT NOT NULL, examen TEXT, universidad TEXT, creado INTEGER NOT NULL,
         plan TEXT, premium_hasta INTEGER NOT NULL DEFAULT 0)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS progreso (usuario INTEGER PRIMARY KEY, datos TEXT NOT NULL, actualizado INTEGER NOT NULL)');
+    $cols = array_column($pdo->query('PRAGMA table_info(usuarios)')->fetchAll(), 'name');
+    if (!in_array('acepto_en', $cols, true)) $pdo->exec('ALTER TABLE usuarios ADD COLUMN acepto_en INTEGER');
     $pdo->exec('CREATE TABLE IF NOT EXISTS pagos (
         id INTEGER PRIMARY KEY AUTOINCREMENT, mp_id TEXT NOT NULL UNIQUE, usuario INTEGER NOT NULL,
         plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
@@ -264,14 +270,15 @@ try {
         $clave = (string)($d['clave'] ?? '');
         $examen = in_array($d['examen'] ?? '', ['enam', 'residentado', 'essalud'], true) ? $d['examen'] : null;
         $uni = mb_substr(trim((string)($d['universidad'] ?? '')), 0, 120);
+        if (($d['acepto'] ?? false) !== true) fallo('Para crear tu cuenta debes aceptar la política de privacidad.');
         if (mb_strlen($nombre) < 2 || mb_strlen($nombre) > 80) fallo('Escribe tu nombre.');
         if (!filter_var($correo, FILTER_VALIDATE_EMAIL) || strlen($correo) > 120) fallo('Revisa el correo electrónico.');
         if (strlen($clave) < MIN_CLAVE || strlen($clave) > 200) fallo('La contraseña debe tener al menos ' . MIN_CLAVE . ' caracteres.');
         $db = db();
         $ex = $db->prepare('SELECT 1 FROM usuarios WHERE correo = ?'); $ex->execute([$correo]);
         if ($ex->fetch()) fallo('Ya existe una cuenta con ese correo. Prueba ingresando.', 409);
-        $db->prepare('INSERT INTO usuarios(correo, nombre, clave, examen, universidad, creado) VALUES (?,?,?,?,?,?)')
-           ->execute([$correo, $nombre, password_hash($clave, PASSWORD_DEFAULT), $examen, $uni, time()]);
+        $db->prepare('INSERT INTO usuarios(correo, nombre, clave, examen, universidad, creado, acepto_en) VALUES (?,?,?,?,?,?,?)')
+           ->execute([$correo, $nombre, password_hash($clave, PASSWORD_DEFAULT), $examen, $uni, time(), time()]);
         iniciar_sesion(); session_regenerate_id(true);
         $_SESSION['uid'] = (int)$db->lastInsertId();
         responder(['ok' => true, 'usuario' => usuario_publico(usuario_actual())], 201);
@@ -289,6 +296,59 @@ try {
         iniciar_sesion(); session_regenerate_id(true);
         $_SESSION['uid'] = (int)$u['id'];
         responder(['ok' => true, 'usuario' => usuario_publico($u)]);
+    }
+
+    if ($a === 'progreso_leer') {
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión.', 401);
+        $st = db()->prepare('SELECT datos, actualizado FROM progreso WHERE usuario = ?'); $st->execute([(int)$u['id']]);
+        $f = $st->fetch();
+        responder(['ok' => true, 'datos' => $f ? json_decode($f['datos'], true) : null, 'actualizado' => $f ? (int)$f['actualizado'] : null]);
+    }
+
+    if ($a === 'progreso_guardar') {
+        exigir_post_del_sitio();
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión.', 401);
+        $raw = file_get_contents('php://input') ?: '';
+        if (strlen($raw) > 1500000) fallo('El progreso es demasiado grande.', 413);
+        $d = json_decode($raw, true)['datos'] ?? null;
+        if (!is_array($d) || ($d['v'] ?? 0) !== 1 || !is_array($d['respuestas'] ?? null)) fallo('Datos de progreso no válidos.');
+        if (count($d['respuestas']) > 20000 || count($d['sesiones'] ?? []) > 500) fallo('El progreso es demasiado grande.', 413);
+        // solo se guarda la estructura conocida (nada de campos arbitrarios)
+        $limpio = ['v' => 1, 'respuestas' => $d['respuestas'], 'favoritos' => is_array($d['favoritos'] ?? null) ? $d['favoritos'] : new stdClass(),
+            'sesiones' => is_array($d['sesiones'] ?? null) ? $d['sesiones'] : [], 'ultima' => $d['ultima'] ?? null,
+            'preferencias' => is_array($d['preferencias'] ?? null) ? $d['preferencias'] : new stdClass(),
+            'borrados' => is_array($d['borrados'] ?? null) ? $d['borrados'] : new stdClass(), 'reinicioGlobal' => (int)($d['reinicioGlobal'] ?? 0)];
+        db()->prepare('INSERT INTO progreso(usuario, datos, actualizado) VALUES (?,?,?) ON CONFLICT(usuario) DO UPDATE SET datos = excluded.datos, actualizado = excluded.actualizado')
+            ->execute([(int)$u['id'], json_encode($limpio, JSON_UNESCAPED_UNICODE), time()]);
+        responder(['ok' => true, 'actualizado' => time()]);
+    }
+
+    if ($a === 'exportar') {
+        exigir_post_del_sitio();
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión.', 401);
+        $db = db();
+        $p = $db->prepare('SELECT datos, actualizado FROM progreso WHERE usuario = ?'); $p->execute([(int)$u['id']]); $pr = $p->fetch();
+        $pg = $db->prepare('SELECT plan, monto, creado FROM pagos WHERE usuario = ? ORDER BY id'); $pg->execute([(int)$u['id']]);
+        header('Content-Disposition: attachment; filename="mis-datos-medquizplus.json"');
+        responder(['ok' => true, 'generado' => date('c'), 'cuenta' => [
+            'nombre' => $u['nombre'], 'correo' => $u['correo'], 'universidad' => $u['universidad'], 'examen' => $u['examen'],
+            'registrada' => date('c', (int)$u['creado']), 'acepto_politica' => $u['acepto_en'] ? date('c', (int)$u['acepto_en']) : null,
+            'plan' => $u['plan'], 'premium_hasta' => (int)$u['premium_hasta'] ? date('c', (int)$u['premium_hasta']) : null],
+            'pagos' => array_map(fn($x) => ['plan' => $x['plan'], 'monto_soles' => (float)$x['monto'], 'fecha' => date('c', (int)$x['creado'])], $pg->fetchAll()),
+            'progreso' => $pr ? json_decode($pr['datos'], true) : null]);
+    }
+
+    if ($a === 'eliminar') {
+        exigir_post_del_sitio();
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión.', 401);
+        limitar_login((string)$u['correo']);
+        if (!password_verify((string)(cuerpo()['clave'] ?? ''), $u['clave'])) { anotar_intento((string)$u['correo']); fallo('La contraseña no es correcta.', 401); }
+        $db = db(); $db->beginTransaction();
+        $db->prepare('DELETE FROM progreso WHERE usuario = ?')->execute([(int)$u['id']]);
+        $db->prepare('DELETE FROM usuarios WHERE id = ?')->execute([(int)$u['id']]);   // los registros de pago se conservan sin datos personales (obligación contable)
+        $db->commit();
+        iniciar_sesion(); $_SESSION = []; session_destroy();
+        responder(['ok' => true]);
     }
 
     if ($a === 'salir') {

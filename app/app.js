@@ -72,8 +72,30 @@
       return api("me");
     }).then(function (m) { CUENTA.usuario = m.j.usuario || null; })
       .catch(function () { CUENTA.disponible = false; CUENTA.usuario = null; })
-      .then(function () { CUENTA.listo = true; });
+      .then(function () { CUENTA.listo = true; return sincronizar(); });
   }
+  /* ---------- progreso en la cuenta: se fusiona al entrar y se guarda unos segundos después de cada cambio ---------- */
+  var SYNC = { cargando: false, timer: 0, ultimo: 0, error: false };
+  function empujar() {
+    if (!CUENTA.usuario) return Promise.resolve();
+    return api("progreso_guardar", { datos: M.progreso.leer() }).then(function (r) { SYNC.error = !r.ok; if (r.ok) SYNC.ultimo = Date.now(); }).catch(function () { SYNC.error = true; });
+  }
+  function sincronizar() {
+    if (!CUENTA.usuario || SYNC.cargando) return Promise.resolve();
+    SYNC.cargando = true;
+    return api("progreso_leer").then(function (r) {
+      if (!r.ok) throw new Error("leer");
+      var local = M.progreso.leer(), fus = r.j.datos ? M.progreso.fusionar(local, r.j.datos) : local;
+      M.progreso.importar(fus);
+      return api("progreso_guardar", { datos: fus });
+    }).then(function (r) { SYNC.error = !r.ok; if (r.ok) SYNC.ultimo = Date.now(); })
+      .catch(function () { SYNC.error = true; })
+      .then(function () { SYNC.cargando = false; if (!M.practica.activa()) render(true); });
+  }
+  window.addEventListener("mqp:progreso", function (ev) {
+    if (!CUENTA.usuario || SYNC.cargando || (ev.detail && ev.detail.importado)) return;
+    clearTimeout(SYNC.timer); SYNC.timer = setTimeout(empujar, 1500);
+  });
   function esPremium() { return !!(CUENTA.usuario && CUENTA.usuario.premium); }
   function limitesActivos() { return CUENTA.disponible && CUENTA.estado && CUENTA.estado.limites && !esPremium(); }
   function hechasHoy() {
@@ -892,7 +914,15 @@
     if (!u) return '<p class="muted">Crea una cuenta gratis para activar un plan Premium. Tu progreso sigue guardándose en este navegador.</p><div class="card__actions"><a class="btn btn--primary" href="#/registro">Crear cuenta</a><a class="btn btn--ghost" href="#/ingresar">Ingresar</a></div>';
     return '<p><b>' + esc(u.nombre) + '</b><br><span class="muted">' + esc(u.correo) + '</span></p>' +
       '<p>' + (u.premium ? '<span class="badge badge--ok">Premium ' + esc(u.plan) + '</span> <span class="muted small">hasta el ' + esc(fechaLarga(u.premium_hasta)) + '</span>' : '<span class="badge">Plan gratuito</span>') + '</p>' +
-      '<div class="card__actions"><a class="btn btn--primary" href="#/planes">' + (u.premium ? "Renovar plan" : "Ver planes") + '</a><button class="btn btn--ghost" type="button" data-accion="salir">Cerrar sesión</button></div>';
+      '<p class="muted small">' + (SYNC.error ? "No pudimos guardar tu progreso en la cuenta; se reintentará con tu próxima respuesta." : "Tu progreso se guarda en tu cuenta" + (SYNC.ultimo ? " · sincronizado a las " + new Date(SYNC.ultimo).toLocaleTimeString("es-PE", { hour: "2-digit", minute: "2-digit" }) : "") + ".") + '</p>' +
+      '<div class="card__actions"><a class="btn btn--primary" href="#/planes">' + (u.premium ? "Renovar plan" : "Ver planes") + '</a><button class="btn btn--ghost" type="button" data-accion="salir">Cerrar sesión</button></div>' +
+      '<details class="datos-cuenta"><summary>Mis datos y privacidad</summary>' +
+        '<p class="muted small">Puedes descargar todo lo que guardamos de ti o eliminar tu cuenta. Más detalles en la <a href="../privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</p>' +
+        '<div class="card__actions"><button class="btn btn--ghost btn--sm" type="button" data-accion="exportar">Descargar mis datos</button><button class="btn btn--ghost btn--sm btn--danger" type="button" data-accion="eliminar">Eliminar mi cuenta</button></div>' +
+        '<div id="elimForm" class="elim" hidden><p class="small">Se borrarán tu cuenta y tu progreso guardado. Tu plan Premium activo se perderá y no hay reembolso automático. Esto no se puede deshacer.</p>' +
+        '<label class="field"><span class="field__label">Tu contraseña</span><input type="password" id="elimClave" autocomplete="current-password"></label>' +
+        '<button class="btn btn--primary btn--sm btn--danger" type="button" data-accion="eliminarOk">Eliminar definitivamente</button></div>' +
+        '<p class="form-error" id="cuentaMsg" role="alert" hidden></p></details>';
   }
   function vistaPerfil() {
     var p = M.progreso.leer();
@@ -1003,6 +1033,7 @@
       campo("a-clave", "Contraseña" + (reg ? " (mínimo 8 caracteres)" : ""), "password", 'autocomplete="' + (reg ? "new-password" : "current-password") + '" minlength="8" maxlength="200" required') +
       (reg ? '<div class="field"><label for="a-uni">Universidad (opcional)</label><select id="a-uni" name="a-uni">' + (window.MQP_UNIVERSIDADES ? window.MQP_UNIVERSIDADES.opciones() : '<option value="">—</option>') + '</select></div>' : "") +
       (reg ? '<div class="field"><label>¿Qué examen preparas?</label><div class="picks picks--row">' + ["enam|ENAM", "residentado|Residentado", "essalud|EsSalud"].map(function (x, i) { var p = x.split("|"); return opcion("a-examen", p[0], p[1], "", i === 0, false); }).join("") + '</div></div>' : "") +
+      (reg ? '<label class="check"><input type="checkbox" id="a-acepto"><span>He leído y acepto la <a href="../privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</span></label>' : "") +
       '<p class="form-error" id="authError" role="alert" hidden></p>' +
       '<button class="btn btn--primary btn--lg btn--block" type="submit">' + (reg ? "Crear mi cuenta" : "Ingresar") + '</button></form>' +
       '<p class="auth__alt">' + (reg ? '¿Ya tienes cuenta? <a href="#/ingresar">Ingresa</a>' : '¿Primera vez? <a href="#/registro">Crea tu cuenta gratis</a>') + '</p></div>';
@@ -1013,13 +1044,15 @@
     f.addEventListener("submit", function (ev) {
       ev.preventDefault(); err.hidden = true;
       var d = { correo: f.querySelector("#a-correo").value.trim(), clave: f.querySelector("#a-clave").value };
-      if (modo === "registro") { d.nombre = f.querySelector("#a-nombre").value.trim(); d.universidad = f.querySelector("#a-uni").value; var x = f.querySelector("input[name=a-examen]:checked"); d.examen = x ? x.value : ""; }
+      if (modo === "registro") { d.nombre = f.querySelector("#a-nombre").value.trim(); d.universidad = f.querySelector("#a-uni").value; d.acepto = f.querySelector("#a-acepto").checked; var x = f.querySelector("input[name=a-examen]:checked"); d.examen = x ? x.value : ""; }
+      if (modo === "registro" && !d.acepto) { err.textContent = "Para crear tu cuenta debes aceptar la política de privacidad."; err.hidden = false; return; }
       if (!d.correo || d.clave.length < 8 || (modo === "registro" && d.nombre.length < 2)) { err.textContent = modo === "registro" ? "Completa tu nombre, un correo válido y una contraseña de al menos 8 caracteres." : "Escribe tu correo y tu contraseña."; err.hidden = false; return; }
       var txt = btn.textContent; btn.disabled = true; btn.textContent = "Un momento…";
       api(modo === "registro" ? "registro" : "ingresar", d).then(function (r) {
         if (!r.ok) throw new Error(r.j.error || "No se pudo completar.");
         CUENTA.usuario = r.j.usuario;
         if (d.examen) M.progreso.preferencia("examen", d.examen);
+        sincronizar();
         var plan = parametros.plan;
         location.hash = plan ? "#/planes?plan=" + encodeURIComponent(plan) : "#/inicio";
       }).catch(function (e) {
@@ -1027,8 +1060,30 @@
       });
     });
   }
+  function cerrarLocal() { CUENTA.usuario = null; SYNC.ultimo = 0; M.progreso.descartar(); location.hash = "#/inicio"; render(); }
   ACCIONES.salir = function () {
-    api("salir", {}).then(function () { CUENTA.usuario = null; location.hash = "#/inicio"; render(); });
+    // se guarda lo último en la cuenta y se quita el progreso de este dispositivo (puede ser un equipo compartido)
+    empujar().then(function () { return api("salir", {}); }).then(cerrarLocal).catch(cerrarLocal);
+  };
+  ACCIONES.exportar = function (b) {
+    b.disabled = true;
+    api("exportar", {}).then(function (r) {
+      if (!r.ok) throw new Error(r.j.error || "No se pudo descargar.");
+      var blob = new Blob([JSON.stringify(r.j, null, 2)], { type: "application/json" }), a = document.createElement("a");
+      a.href = URL.createObjectURL(blob); a.download = "mis-datos-medquizplus.json"; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+    }).catch(function (e) { var m = document.getElementById("cuentaMsg"); if (m) { m.textContent = e.message; m.hidden = false; } })
+      .then(function () { b.disabled = false; });
+  };
+  ACCIONES.eliminar = function () { var f = document.getElementById("elimForm"); if (f) { f.hidden = !f.hidden; if (!f.hidden) document.getElementById("elimClave").focus(); } };
+  ACCIONES.eliminarOk = function (b) {
+    var clave = document.getElementById("elimClave").value, m = document.getElementById("cuentaMsg");
+    if (!clave) { m.textContent = "Escribe tu contraseña para confirmar."; m.hidden = false; return; }
+    b.disabled = true;
+    api("eliminar", { clave: clave }).then(function (r) {
+      if (!r.ok) throw new Error(r.j.error || "No se pudo eliminar.");
+      cerrarLocal();
+    }).catch(function (e) { b.disabled = false; m.textContent = e.message; m.hidden = false; });
   };
 
   function vistaNoEncontrada() {

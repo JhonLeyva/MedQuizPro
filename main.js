@@ -2051,6 +2051,8 @@
 
       var clave = document.getElementById("f-clave");
       if (!error("e-clave", !clave || clave.value.length < 8, clave)) { clave.focus(); return; }
+      var acepto = document.getElementById("f-acepto");
+      if (acepto && !error("e-acepto", !acepto.checked, acepto)) { acepto.focus(); return; }
       var srv = document.getElementById("e-servidor"), boton = form.querySelector("button[type=submit]");
       var valorExamen = examen.value === "RM" ? "residentado" : examen.value === "EsSalud" ? "essalud" : "enam";
       if (srv) srv.hidden = true;
@@ -2058,7 +2060,7 @@
       fetch(((window.MQP && window.MQP.base) || "") + "cuenta.php?a=registro", {
         method: "POST", credentials: "same-origin", cache: "no-store",
         headers: { "Content-Type": "application/json", "X-MQP": "1" },
-        body: JSON.stringify({ nombre: nombre.value.trim(), correo: correo.value.trim(), clave: clave.value, universidad: uni.value, examen: valorExamen })
+        body: JSON.stringify({ nombre: nombre.value.trim(), correo: correo.value.trim(), clave: clave.value, universidad: uni.value, examen: valorExamen, acepto: true })
       }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
         .then(function (r) {
           if (!r.ok) throw new Error(r.j && r.j.error ? r.j.error : "No se pudo crear la cuenta.");

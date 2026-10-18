@@ -295,7 +295,7 @@
   var MAX_SESIONES = 40;
 
   function vacio() {
-    return { v: 1, respuestas: {}, favoritos: {}, sesiones: [], ultima: null, preferencias: {} };
+    return { v: 1, respuestas: {}, favoritos: {}, sesiones: [], ultima: null, preferencias: {}, borrados: {}, reinicioGlobal: 0 };
   }
   var memoria = null;   // copia en memoria si localStorage no está disponible
 
@@ -306,7 +306,7 @@
         var d = JSON.parse(crudo);
         if (d && d.v === 1) {
           d.respuestas = d.respuestas || {}; d.favoritos = d.favoritos || {};
-          d.sesiones = d.sesiones || []; d.preferencias = d.preferencias || {};
+          d.sesiones = d.sesiones || []; d.preferencias = d.preferencias || {}; d.borrados = d.borrados || {}; d.reinicioGlobal = d.reinicioGlobal || 0;
           return d;
         }
       }
@@ -366,14 +366,41 @@
     reiniciar: function (ids) {
       var d = leer(), n = 0, set = {};
       for (var i = 0; i < ids.length; i++) set[ids[i]] = true;
-      for (var id in set) if (Object.prototype.hasOwnProperty.call(d.respuestas, id)) { delete d.respuestas[id]; n++; }
+      for (var id in set) if (Object.prototype.hasOwnProperty.call(d.respuestas, id)) { delete d.respuestas[id]; d.borrados[id] = Date.now(); n++; }   // la 'lápida' evita que otro dispositivo la reviva al sincronizar
       if (d.ultima && d.ultima.ids) {
         for (var k = 0; k < d.ultima.ids.length; k++) if (set[d.ultima.ids[k]]) { d.ultima = null; break; }
       }
       if (n || !d.ultima) escribir(d);
       return n;
     },
-    borrar: function () { memoria = null; try { localStorage.removeItem(CLAVE); } catch (e) {} escribir(vacio()); },
+    borrar: function () { memoria = null; try { localStorage.removeItem(CLAVE); } catch (e) {} var v = vacio(); v.reinicioGlobal = Date.now(); escribir(v); },
+    /* fusiona dos copias del progreso (este dispositivo y la cuenta): gana la respuesta más reciente de cada pregunta,
+       y un reinicio posterior a una respuesta la elimina en ambos lados */
+    fusionar: function (a, b) {
+      var r = vacio();
+      r.reinicioGlobal = Math.max(a.reinicioGlobal || 0, b.reinicioGlobal || 0);
+      [a.borrados || {}, b.borrados || {}].forEach(function (m) { for (var k in m) if (!(r.borrados[k] > m[k])) r.borrados[k] = m[k]; });
+      [a.respuestas || {}, b.respuestas || {}].forEach(function (m) {
+        for (var id in m) {
+          var x = m[id]; if (!x || !x.t) continue;
+          if (x.t <= r.reinicioGlobal || (r.borrados[id] && x.t <= r.borrados[id])) continue;
+          if (!r.respuestas[id] || x.t > r.respuestas[id].t) r.respuestas[id] = x;
+        }
+      });
+      [a.favoritos || {}, b.favoritos || {}].forEach(function (m) { for (var id in m) if (!(r.favoritos[id] > m[id])) r.favoritos[id] = m[id]; });
+      var vistos = {}, ses = [];
+      (a.sesiones || []).concat(b.sesiones || []).forEach(function (s) { var k = s.t + "|" + s.titulo; if (!vistos[k] && s.t > r.reinicioGlobal) { vistos[k] = 1; ses.push(s); } });
+      ses.sort(function (x, y) { return y.t - x.t; });
+      r.sesiones = ses.slice(0, MAX_SESIONES);
+      var ua = a.ultima, ub = b.ultima;
+      r.ultima = ua && ub ? (ua.t >= ub.t ? ua : ub) : (ua || ub || null);
+      r.preferencias = {}; for (var k1 in (b.preferencias || {})) r.preferencias[k1] = b.preferencias[k1]; for (var k2 in (a.preferencias || {})) r.preferencias[k2] = a.preferencias[k2];
+      return r;
+    },
+    /* reemplaza el progreso local (lo usa la sincronización); no avisa a la sincronización para no hacer un bucle */
+    /* quita el progreso de ESTE dispositivo sin marcar nada como borrado (al cerrar sesión: sigue guardado en la cuenta) */
+    descartar: function () { memoria = null; try { localStorage.removeItem(CLAVE); } catch (e) {} try { window.dispatchEvent(new CustomEvent("mqp:progreso", { detail: { importado: true } })); } catch (e) {} },
+    importar: function (d) { memoria = d; try { localStorage.setItem(CLAVE, JSON.stringify(d)); } catch (e) {} try { window.dispatchEvent(new CustomEvent("mqp:progreso", { detail: { importado: true } })); } catch (e) {} },
     /* resumen calculado, opcionalmente limitado a un examen */
     resumen: function (examen) {
       var d = leer(), total = 0, bien = 0, porArchivo = {};

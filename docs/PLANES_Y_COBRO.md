@@ -73,10 +73,15 @@ correo todavía.
   `https://TU-DOMINIO/cuenta.php?a=admin&token=TU-CLAVE` → descarga un CSV (se abre en Excel). Con `&formato=json` devuelve JSON.
   Sin esa clave definida, la acción no existe (responde 404). Nunca incluye contraseñas.
 - **Copia de seguridad:** descarga `cuenta_datos/mqp.sqlite` desde el administrador de archivos de Hostinger con regularidad (es un solo archivo).
-- **Progreso de estudio:** hoy sigue guardándose en el navegador del estudiante, no en el servidor. Guardarlo en la cuenta (para verlo
-  desde cualquier dispositivo) es el siguiente paso natural y no está hecho.
-- **Datos personales (Ley 29733):** al guardar nombres y correos debes tener una política de privacidad publicada y obtener el consentimiento
-  del usuario; este proyecto aún no incluye esa página.
+- **Progreso de estudio:** con la sesión iniciada se guarda también en el servidor (tabla `progreso`) y se fusiona entre dispositivos:
+  gana la respuesta más reciente de cada pregunta, y un reinicio no se revive desde otro dispositivo. Al cerrar sesión se quita el progreso
+  de ese equipo (puede ser compartido); sigue en la cuenta. Limitación conocida: si quitas una pregunta de favoritas en un dispositivo,
+  otro dispositivo con la estrella puesta puede volver a marcarla.
+- **Derechos del usuario (Ley 29733):** en *Perfil → Mis datos y privacidad* el usuario descarga todos sus datos o elimina su cuenta
+  (se borran cuenta y progreso; los pagos se conservan sin datos personales). La cuenta exige aceptar `privacidad.html` y se guarda cuándo.
+- **Antes de publicar `privacidad.html`:** reemplaza los 5 textos resaltados en amarillo (titular, DNI/RUC, domicilio, correo). Valídala con un
+  abogado y revisa si debes inscribir tu banco de datos ante la Autoridad Nacional de Protección de Datos Personales. Faltan, además,
+  unos Términos y condiciones (el enlace "Términos" del pie sigue apuntando al aviso legal).
 
 ## Universidades del registro
 La lista está en `universidades.js` (una línea por universidad: nombre, siglas, sede). Se armó con información pública general, **no con el
