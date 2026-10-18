@@ -196,21 +196,6 @@
   try { reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
   try { fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches; } catch (e) {}
 
-  /* cifras: cuentan desde 0 al aparecer (leen el valor que ya calculó main.js a partir de los bancos) */
-  safe("countup", function () {
-    if (reduced || !("IntersectionObserver" in window)) return;
-    var io = new IntersectionObserver(function (es) {
-      es.forEach(function (e) {
-        if (!e.isIntersecting) return; io.unobserve(e.target);
-        var el = e.target, txt = el.textContent.trim(), n = parseInt(txt.replace(/\D/g, ""), 10);
-        if (!n || n < 10 || txt.replace(/[\d.,\s]/g, "")) return;
-        var t0 = performance.now(), dur = 1100, fmt = function (v) { return txt.indexOf(".") > -1 || n > 9999 ? v.toLocaleString("es-PE") : String(v); };
-        (function tick(t) { var k = Math.min((t - t0) / dur, 1), v = Math.round(n * (1 - Math.pow(1 - k, 3))); el.textContent = fmt(v); if (k < 1) requestAnimationFrame(tick); else el.textContent = txt; })(t0);
-      });
-    }, { threshold: 0.6 });
-    setTimeout(function () { document.querySelectorAll("[data-metrica]").forEach(function (el) { if (el.closest(".metrics")) io.observe(el); }); }, 600);
-  });
-
   if (!fine || reduced) return;
 
   /* tarjetas: inclinación 3D + brillo que sigue al cursor */
