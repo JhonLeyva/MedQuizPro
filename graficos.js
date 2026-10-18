@@ -173,9 +173,9 @@
     for (var i = 1; i < pts.length; i++) { var cx = (pts[i - 1][0] + pts[i][0]) / 2; d += " C" + cx + " " + pts[i - 1][1] + " " + cx + " " + pts[i][1] + " " + pts[i][0] + " " + pts[i][1]; }
     var area = d + " L" + pts[pts.length - 1][0] + " " + (T + ih) + " L" + pts[0][0] + " " + (T + ih) + " Z";
     return '<figure class="g-fig"><svg class="g-svg sp-svg" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Preguntas publicadas por año del examen, de ' + esc(ks[0]) + " a " + esc(ks[ks.length - 1]) + '">' +
-      '<defs><linearGradient id="spGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".55"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient></defs>' +
-      '<path d="' + area + '" fill="url(#spGrad)"/><path d="' + d + '" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round"/>' +
-      pts.map(function (p, i) { return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="5" fill="#04201e" stroke="#5eead4" stroke-width="2.5"/><circle class="g-hit" cx="' + p[0] + '" cy="' + p[1] + '" r="16" tabindex="0" data-tip="ENAM ' + esc(ks[i]) + ": " + miles(vals[i]) + ' preguntas"/><text x="' + p[0] + '" y="' + (p[1] - 13) + '" text-anchor="middle" class="sp-val">' + miles(vals[i]) + '</text><text x="' + p[0] + '" y="' + (H - 8) + '" text-anchor="middle" class="sp-eje">' + esc(ks[i]) + '</text>'; }).join("") + '</svg>' +
+      '<defs><linearGradient id="spGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--brand);stop-opacity:.4"/><stop offset="1" style="stop-color:var(--brand);stop-opacity:0"/></linearGradient></defs>' +
+      '<path d="' + area + '" fill="url(#spGrad)"/><path class="sp-linea" d="' + d + '"/>' +
+      pts.map(function (p, i) { return '<circle class="sp-punto" cx="' + p[0] + '" cy="' + p[1] + '" r="5"/><circle class="g-hit" cx="' + p[0] + '" cy="' + p[1] + '" r="16" tabindex="0" data-tip="ENAM ' + esc(ks[i]) + ": " + miles(vals[i]) + ' preguntas"/><text x="' + p[0] + '" y="' + (p[1] - 13) + '" text-anchor="middle" class="sp-val">' + miles(vals[i]) + '</text><text x="' + p[0] + '" y="' + (H - 8) + '" text-anchor="middle" class="sp-eje">' + esc(ks[i]) + '</text>'; }).join("") + '</svg>' +
       tabla(["Año", "Preguntas"], ks.map(function (k) { return [k, miles(porAnio[k])]; })) + '</figure>';
   }
 
@@ -254,7 +254,58 @@
     }
     if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" }); io.observe(box); } else pintar();
   }
-  function iniciarPublico() { bancoEnVivo(); celulares(); }
+  /* ---------------------------------------------------------------- hero: pantalla de la plataforma que resuelve preguntas reales */
+  function heroPantalla() {
+    var raiz = document.getElementById("heroShow"); if (!raiz || !window.MQP || !MQP.cargarTodo) return;
+    var reducido = false; try { reducido = matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+    var elN = document.getElementById("hsN"), elArea = document.getElementById("hsArea"), elStem = document.getElementById("hsStem"), elOps = document.getElementById("hsOps"), elFb = document.getElementById("hsFb"), elImg = document.getElementById("hsImg");
+    var cuerpo = raiz.querySelector(".mapp__cuerpo"), lista = [], k = 0, timers = [];
+    function rec(t, n) { t = String(t); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; }
+    function esperar(f, ms) { timers.push(setTimeout(f, ms)); }
+    function mostrar(q) {
+      cuerpo.classList.remove("is-in"); void cuerpo.offsetWidth; cuerpo.classList.add("is-in");
+      elN.textContent = String((k % 10) + 1);
+      elArea.textContent = q.especialidad + " · " + (q.examen.replace(/\s*·.*$/, "") || "ENAM");
+      elStem.textContent = rec(q.enunciado, 230);
+      elOps.innerHTML = q.opciones.slice(0, 4).map(function (o) { return '<li data-l="' + esc(o.letra) + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 62)) + '</span></li>'; }).join("");
+      elFb.hidden = true; elFb.innerHTML = "";
+      if (q.imagen && elImg) { elImg.src = q.imagen; elImg.hidden = false; }
+    }
+    function resolver(q) {
+      var op = elOps.querySelector('[data-l="' + q.clave + '"]'); if (!op) return;
+      var mala = [].filter.call(elOps.children, function (li) { return li !== op; })[0];
+      var errar = (k % 3 === 1) && !!mala;                      // de vez en cuando falla, como un estudiante real
+      esperar(function () {
+        (errar ? mala : op).classList.add(errar ? "is-mal" : "is-sel");
+        esperar(function () {
+          op.classList.add("is-ok");
+          elFb.innerHTML = '<b>' + (errar ? "Incorrecto" : "Correcto") + '</b> · Comentario docente: ' + esc(rec(q.comentario, 150));
+          elFb.className = "mapp__fb " + (errar ? "is-mal" : "is-ok"); elFb.hidden = false;
+        }, 900);
+      }, 1700);
+    }
+    function ciclo() {
+      var q = lista[k % lista.length]; mostrar(q);
+      if (reducido) return;
+      resolver(q);
+      esperar(function () { k++; ciclo(); }, 7600);
+    }
+    function iniciar() {
+      MQP.cargarTodo().then(function (d) {
+        var algos = window.MQP_ALGORITMOS || {}, base = MQP.base || "";
+        var cand = d.preguntas.filter(function (q) { var a = algos[q.id]; return q.comentario && q.comentario.length > 50 && q.enunciado.length <= 240 && q.opciones.length >= 4 && a && a.imagen && q.clave; });
+        if (cand.length < 6) return;
+        for (var j = cand.length - 1; j > 0; j--) { var r = Math.floor(Math.random() * (j + 1)), t = cand[j]; cand[j] = cand[r]; cand[r] = t; }
+        var vistas = {}; lista = [];
+        cand.forEach(function (q) { if (lista.length < 10 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; lista.push(q); } });
+        lista.forEach(function (q) { q.imagen = base + algos[q.id].imagen; });
+        ciclo();
+      }, function () {});
+    }
+    if (document.visibilityState === "visible") setTimeout(iniciar, 250); else document.addEventListener("visibilitychange", function once() { if (document.visibilityState === "visible") { document.removeEventListener("visibilitychange", once); iniciar(); } });
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "hidden") { timers.forEach(clearTimeout); timers = []; } else if (lista.length && !reducido && !timers.length) { k++; ciclo(); } });
+  }
+  function iniciarPublico() { bancoEnVivo(); celulares(); heroPantalla(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciarPublico); else iniciarPublico();
 
   window.MQP_GRAF = { donut: donut, linea: linea, barras: barras, columnas: columnas, calor: calor, iniciarTips: iniciarTips };

@@ -20,22 +20,6 @@
     hero.insertAdjacentHTML("afterbegin",
       '<div class="hero__glow" aria-hidden="true"></div>' +
       '<svg class="hero__ecg" viewBox="0 0 1600 110" preserveAspectRatio="none" aria-hidden="true"><path class="base" d="' + d + '"/><path class="pulse" d="' + d + '"/></svg>');
-    var demo = hero.querySelector(".hero-stage");
-    if (demo) {
-      demo.insertAdjacentHTML("afterbegin", '<div class="orbit" aria-hidden="true"><i></i><i></i><i></i></div>');
-      /* leve paralaje de los anillos con el mouse (solo transform, vía rAF) */
-      var orbit = demo.querySelector(".orbit");
-      if (fine && !reduced && orbit) {
-        var tx = 0, ty = 0, cx = 0, cy = 0, raf = 0;
-        function step() { cx += (tx - cx) * .08; cy += (ty - cy) * .08; orbit.style.transform = "translate3d(" + cx.toFixed(1) + "px," + cy.toFixed(1) + "px,0)"; raf = (Math.abs(tx - cx) + Math.abs(ty - cy) > .1) ? requestAnimationFrame(step) : 0; }
-        hero.addEventListener("pointermove", function (e) {
-          if (orbit.classList.contains("has-3d")) return;
-          var r = hero.getBoundingClientRect();
-          tx = ((e.clientX - r.left) / r.width - .5) * -36; ty = ((e.clientY - r.top) / r.height - .5) * -24;
-          if (!raf) raf = requestAnimationFrame(step);
-        }, { passive: true });
-      }
-    }
   });
 
   safe("title", function () {

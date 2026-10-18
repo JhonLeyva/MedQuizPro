@@ -20,11 +20,8 @@
 ## 3. Rutas
 Sin rutas eliminadas. Añadidas: `#/examenes/:id?q=&area=` (parámetros de filtro) y un manejo explícito de **ruta desconocida → «No encontramos esta sección»**. La landing ahora enlaza directo a `app/#/examenes/:id`, `app/#/banco` y `app/#/simuladores/:id`.
 
-## 4. Hero y médico 3D (`index.html`, `pro.css` §17-18, `pro.js`, `hero3d.js`)
-- Texto/CTA a la izquierda; escenario `#heroStage` a la derecha con el médico centrado a ~75 % del ancho, ~65 % del alto visible, ligeramente girado hacia el texto.
-- `hero3d.js`: plataforma circular baja (blanco mate, borde turquesa sutil), sombra de contacto y sombra ambiente, cámara con 9° de elevación (`CONFIG.pedestal`, `framing`, `cameraElevationDeg`, `lookDown`). Se mantiene `AnimationMixer`/idle procedural, seguimiento limitado del cursor, `prefers-reduced-motion`, pausa fuera de pantalla.
-- Sin WebGL o sin modelo: el escenario muestra los anillos CSS (`.orbit--static`), la landing sigue funcionando.
-- Móvil/tablet: el escenario baja bajo el texto (300–400 px), tarjetas auxiliares ocultas.
+## 4. Hero (actualizado)
+El médico 3D se retiró (`hero3d.js` y `Sin_nombre.glb` ya no están; siguen en el historial de Git si se quisieran recuperar). A la derecha del hero hay ahora una **pantalla de computador** que reproduce la plataforma resolviendo preguntas reales del banco (se sortean al cargar), con su comentario docente, un tarjeta con el flujograma de la pregunta y cifras reales bajo los botones. Código: `#heroShow` en `index.html`, `heroPantalla()` en `graficos.js`, estilos en `pro.css` §20.
 
 ## 5. Archivos
 Inicio del app tipo "bienvenida", lista de bancos (`#/banco`, configurador en `#/banco/configurar`) y buscador global en la barra superior.

@@ -14,9 +14,9 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20261018-16">
-<link rel="stylesheet" href="graficos.css?v=20261018-16">
-<link rel="stylesheet" href="pro.css?v=20261018-16">
+<link rel="stylesheet" href="styles.css?v=20261018-19">
+<link rel="stylesheet" href="graficos.css?v=20261018-19">
+<link rel="stylesheet" href="pro.css?v=20261018-19">
 </head>
 <body>
 
@@ -71,25 +71,45 @@
           </a>
           <a class="btn btn--ghost btn--lg" href="#simulacros">Explorar simuladores</a>
         </div>
-        <ul class="hero__trust" aria-label="Condiciones">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Sin tarjeta</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Plan gratuito</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Hecho en Lima</li>
-        </ul>
+        <dl class="hero__stats" aria-label="El banco en cifras">
+          <div><dt><b data-metrica="preguntas">2380</b></dt><dd>Preguntas comentadas</dd></div>
+          <div><dt><b data-metrica="flujogramas">2380</b></dt><dd>Flujogramas clínicos</dd></div>
+          <div><dt><b data-metrica="especialidades">17</b></dt><dd>Especialidades</dd></div>
+        </dl>
+        <p class="hero__nota">Gratis para empezar · sin tarjeta · hecho en Lima</p>
       </div>
 
-      <!-- escenario del médico 3D (pro.js crea .orbit aquí; hero3d.js pinta el lienzo) -->
-      <div class="hero-stage" id="heroStage">
-        <div class="float-card float-card--tip" aria-hidden="true">
-          <span class="float-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg>
-          </span>
-          <p>Comentario y flujograma<span>en cada pregunta del banco</span></p>
+      <!-- pantalla de la plataforma: se anima con preguntas reales del banco (graficos.js → heroPantalla) -->
+      <div class="hero-show" id="heroShow">
+        <div class="monitor" aria-hidden="true">
+          <div class="monitor__marco">
+            <div class="mapp">
+              <div class="mapp__top">
+                <span class="mapp__logo"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></i>MedQuiz<b>Plus</b></span>
+                <span class="mapp__item">Ítem <b id="hsN">1</b> de <span id="hsT">10</span></span>
+                <span class="mapp__pill" id="hsPill">Banco de preguntas</span>
+              </div>
+              <div class="mapp__cuerpo">
+                <p class="mapp__area" id="hsArea">Medicina Interna · ENAM</p>
+                <p class="mapp__stem" id="hsStem">Varón de 58 años, diabético, acude por dolor torácico opresivo de 40 minutos. El ECG muestra elevación del segmento ST en DII, DIII y aVF. ¿Cuál es la conducta inicial más apropiada?</p>
+                <ul class="mapp__ops" id="hsOps">
+                  <li><b>A</b><span>Solicitar ecocardiograma y reevaluar en 6 horas</span></li>
+                  <li><b>B</b><span>Activar la vía de reperfusión coronaria de inmediato</span></li>
+                  <li><b>C</b><span>Iniciar furosemida endovenosa en bolo</span></li>
+                  <li><b>D</b><span>Programar prueba de esfuerzo al alta</span></li>
+                </ul>
+                <div class="mapp__fb" id="hsFb" hidden></div>
+              </div>
+            </div>
+          </div>
+          <div class="monitor__cuello"></div><div class="monitor__base"></div>
         </div>
-        <div class="float-card float-card--clock" aria-hidden="true">
-          <span class="float-card__icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg>
-          </span>
+        <div class="float-card float-card--flujo" aria-hidden="true">
+          <img id="hsImg" alt="" width="120" height="86" hidden>
+          <p>Flujograma clínico<span>en cada pregunta</span></p>
+        </div>
+        <div class="float-card float-card--reloj" aria-hidden="true">
+          <span class="float-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg></span>
           <p>Simulador cronometrado<span>60 segundos por pregunta</span></p>
         </div>
       </div>
@@ -101,8 +121,8 @@
     <div class="wrap try">
       <div class="try__copy reveal">
         <p class="kicker">Pruébalo ahora</p>
-        <h2 id="tryTitle">Responde 5 preguntas reales y mira cómo se explican.</h2>
-        <p class="sec-head__lead">Preguntas reales del banco, sorteadas cada vez. Eliges una alternativa, ves el comentario docente y abres el flujograma de la pregunta. Sin registrarte.</p>
+        <h2 id="tryTitle">Responde 10 preguntas reales y mira tu resultado.</h2>
+        <p class="sec-head__lead">Preguntas reales del banco, sorteadas cada vez. Eliges una alternativa, ves el comentario docente y abres el flujograma. Al final, tu resultado con gráficos, igual que en el simulador. Sin registrarte.</p>
         <a class="btn btn--primary" href="app/#/banco/configurar">Configurar mi propia sesión <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
       <!-- demostración interactiva (main.js la anima; sin JS queda la primera pregunta) -->
@@ -120,7 +140,7 @@
             <div class="demo__meta">
               <span class="demo__tag" id="qArea">Medicina Interna</span>
               <span class="demo__tag demo__tag--exam" id="qExam">ENAM</span>
-              <span class="demo__count" id="qCounter">Pregunta 1 de 5</span>
+              <span class="demo__count" id="qCounter">Pregunta 1 de 10</span>
             </div>
             <div class="demo__bar" aria-hidden="true"><div class="demo__bar-fill" id="qBar"></div></div>
           </div>
@@ -135,8 +155,8 @@
             <div class="demo__feedback" id="qFeedback" aria-live="polite" hidden>
               <p class="quiz__verdict" id="qVerdict">Correcto</p>
               <p class="demo__why" id="qWhy"></p>
-              <p class="quiz__cta" id="qCta" hidden><b>Esto fue una muestra.</b> Crea tu cuenta gratis y sigue practicando con el banco completo. <a href="#registro">Crear cuenta →</a></p>
             </div>
+            <div class="quiz__resultado" id="qResultado" hidden></div>
             <div class="demo__foot">
               <span class="demo__note" id="qNote">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h9"/></svg>
@@ -699,13 +719,11 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="catalogo.js?v=20261018-16"></script>
+<script defer src="catalogo.js?v=20261018-19"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
-<script defer src="main.js?v=20261018-16"></script>
-<script defer src="universidades.js?v=20261018-16"></script>
-<script defer src="graficos.js?v=20261018-16"></script>
-<script defer src="pro.js?v=20261018-16"></script>
-<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<script type="module" src="hero3d.js?v=20261018-16"></script>
+<script defer src="main.js?v=20261018-19"></script>
+<script defer src="universidades.js?v=20261018-19"></script>
+<script defer src="graficos.js?v=20261018-19"></script>
+<script defer src="pro.js?v=20261018-19"></script>
 </body>
 </html>

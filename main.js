@@ -336,6 +336,7 @@
     if (!elOpts || !elStem || !elNext) return;
 
     var sesion = { respondidas: 0, correctas: 0 };
+    var registro = [];                                  // una fila por pregunta respondida: especialidad, acierto y segundos
 
     function pintarSesion() {
       if (!elScore) return;
@@ -421,18 +422,18 @@
       elFb.hidden = false;
       elNote.hidden = true;
       elNext.hidden = false;
-      elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : (preguntas === estaticas ? "Volver a la primera" : "Probar otras 5 preguntas");
-      var cta = document.getElementById("qCta"); if (cta) cta.hidden = (i + 1 < preguntas.length) ? true : false;
+      elNext.textContent = (i + 1 < preguntas.length) ? "Siguiente pregunta" : "Ver mi resultado";
 
       if (relojDemo) { clearInterval(relojDemo); relojDemo = null; }
       sesion.respondidas++;
       if (acerto) sesion.correctas++;
+      registro.push({ esp: q.area, ok: acerto, seg: Math.max(1, Math.round((Date.now() - inicioPregunta) / 1000)) });
       pintarSesion();
     });
 
     elNext.addEventListener("click", function () {
-      if (i + 1 >= preguntas.length && preguntas !== estaticas) { cargarReales(true); return; }   // terminó las 5: sortea otras 5
-      i = (i + 1) % preguntas.length;
+      if (i + 1 >= preguntas.length) { mostrarResultado(); return; }   // terminó: se queda aquí y ve su resultado
+      i = i + 1;
       pintar();
     });
 
@@ -464,36 +465,63 @@
       lb.querySelector(".lb__x").focus();
     }
 
-    /* ---- 5 preguntas reales y al azar, todas con flujograma ---- */
+    /* ---- resultado final de la muestra: lo mismo que ve el estudiante al terminar un simulacro ---- */
+    function mostrarResultado() {
+      var G = window.MQP_GRAF, caja = document.getElementById("qResultado"); if (!caja) return;
+      var n = registro.length, ok = registro.filter(function (r) { return r.ok; }).length, mal = n - ok;
+      var seg = n ? Math.round(registro.reduce(function (a, r) { return a + r.seg; }, 0) / n) : 0;
+      var porEsp = {}, orden = [];
+      registro.forEach(function (r) { var g = porEsp[r.esp] || (porEsp[r.esp] = { n: 0, ok: 0 }); if (!g.n) orden.push(r.esp); g.n++; if (r.ok) g.ok++; });
+      var esc = function (t) { return String(t).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+      var filas = orden.map(function (k) { var g = porEsp[k], v = Math.round(g.ok / g.n * 100); return { etiqueta: k, valor: v, max: 100, texto: v + "%", sub: g.ok + " de " + g.n, tip: k + ": " + g.ok + " de " + g.n + " correctas" }; }).sort(function (a, b) { return a.valor - b.valor; });
+      var debil = filas.filter(function (f) { return f.valor < 60; })[0], fuerte = filas.filter(function (f) { return f.valor >= 80; }).slice(-1)[0];
+      var consejo = debil ? "Tu punto más débil en esta muestra: <b>" + esc(debil.etiqueta) + "</b> (" + debil.sub + " correctas). Dentro de la plataforma tendrías sus preguntas a un clic." : fuerte ? "Vas muy bien en <b>" + esc(fuerte.etiqueta) + "</b>. Con el banco completo puedes medir todas las especialidades." : "Con el banco completo puedes medir tu rendimiento en cada especialidad.";
+      caja.innerHTML = '<p class="qres__kick">Resultado de tu muestra</p>' +
+        '<div class="qres__fila"><div class="qres__donut">' + (G ? G.donut(ok, mal, { titulo: "Resultado" }) : "<b>" + ok + " / " + n + "</b>") + '</div>' +
+        '<dl class="qres__kpis"><div><dt>Correctas</dt><dd>' + ok + ' / ' + n + '</dd></div><div><dt>Incorrectas</dt><dd>' + mal + '</dd></div><div><dt>Ritmo promedio</dt><dd>' + seg + ' s <small>por pregunta</small></dd></div></dl></div>' +
+        (G && filas.length ? '<p class="qres__tit">Rendimiento por especialidad</p>' + G.barras(filas, { colA: "Especialidad", colB: "Correctas" }) : "") +
+        '<p class="quiz__cta">' + consejo + '</p>' +
+        '<div class="qres__acciones"><a class="btn btn--primary" href="#registro">Crear cuenta gratis y seguir practicando</a><a class="btn btn--ghost" href="#simulacros">Ver los simuladores</a></div>' +
+        '<p class="qres__nota">Así se ve el resultado al terminar un simulacro dentro de la plataforma, pero con todo el banco y con el análisis de tu progreso.</p>';
+      [].forEach.call(document.querySelectorAll("#quiz .demo__stem, #quiz .demo__options, #quiz #qFeedback, #quiz .demo__foot"), function (e) { e.hidden = true; });
+      caja.hidden = false;
+      if (relojDemo) { clearInterval(relojDemo); relojDemo = null; }
+      if (elTimer) elTimer.textContent = "—";
+      if (elCount) elCount.textContent = "Terminaste las " + n;
+      if (elBar) elBar.style.width = "100%";
+      if (G && G.iniciarTips) G.iniciarTips();
+      caja.scrollIntoView && caja.scrollIntoView({ block: "nearest", behavior: reduced ? "auto" : "smooth" });
+    }
+
+    /* ---- 10 preguntas reales y al azar, todas con flujograma ---- */
     function barajar(a) { for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)), t = a[k]; a[k] = a[j]; a[j] = t; } return a; }
     function cargarReales(otras) {
       var M = window.MQP; if (!M || !M.cargarTodo) return;
-      if (otras) { elStem.textContent = "Buscando otras 5 preguntas del banco…"; elOpts.innerHTML = ""; elFb.hidden = true; elNext.hidden = true; }
       M.cargarTodo().then(function (d) {
         var algos = window.MQP_ALGORITMOS || {};
         var cand = d.preguntas.filter(function (q) {
           var a = algos[q.id];
           return q.comentario && q.comentario.length > 40 && q.enunciado.length <= 340 && q.opciones.length >= 4 && a && a.imagen && q.clave;
         });
-        if (cand.length < 5) { if (otras) { i = 0; pintar(); } return; }
-        if (!otras && sesion.respondidas > 0) return;       // ya empezó con las de respaldo: no se le cambia la pregunta a mitad
+        if (cand.length < 10) return;
+        if (sesion.respondidas > 0) return;                 // ya empezó con las de respaldo: no se le cambia la pregunta a mitad
         barajar(cand);
         var elegidas = [], vistas = {};
-        cand.forEach(function (q) { if (elegidas.length < 5 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; elegidas.push(q); } });   // de especialidades distintas
-        cand.forEach(function (q) { if (elegidas.length < 5 && elegidas.indexOf(q) === -1) elegidas.push(q); });
+        cand.forEach(function (q) { if (elegidas.length < 10 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; elegidas.push(q); } });   // de especialidades distintas
+        cand.forEach(function (q) { if (elegidas.length < 10 && elegidas.indexOf(q) === -1) elegidas.push(q); });
         var base = M.base || "";
         preguntas = elegidas.map(function (q) {
           var idx = 0; q.opciones.forEach(function (o, k) { if (o.letra === q.clave) idx = k; });
           var por = q.comentario.length > 520 ? q.comentario.slice(0, 519).replace(/\s+\S*$/, "") + "…" : q.comentario;
           return { area: q.especialidad, examen: q.examen.replace(/\s*·.*$/, "") || "ENAM", enunciado: q.enunciado, opciones: q.opciones.map(function (o) { return o.texto; }), correcta: idx, porque: por, imagen: base + algos[q.id].imagen };
         });
-        sesion.respondidas = 0; sesion.correctas = 0; pintarSesion();
+        sesion.respondidas = 0; sesion.correctas = 0; registro = []; pintarSesion();
         i = 0; pintar();
-      }, function () { if (otras) { preguntas = estaticas; i = 0; pintar(); } });
+      }, function () {});
     }
 
     pintar();
-    /* en cuanto el navegador esté libre, cambia las 3 preguntas de respaldo por 5 del banco real (si el estudiante aún no respondió) */
+    /* en cuanto el navegador esté libre, cambia las 3 preguntas de respaldo por 10 del banco real (si el estudiante aún no respondió) */
     setTimeout(function () { if (sesion.respondidas === 0) cargarReales(false); }, 400);
   });
 
@@ -2341,6 +2369,38 @@
       if (btnNuevo) btnNuevo.disabled = si;
     }
 
+    /* ---- tutor sin IA: busca en el banco publicado y arma un plan de estudio con sus números reales ---- */
+    var AVISO_BASICO = "Modo básico: respondo con las preguntas del banco (el tutor de IA se activa cuando el sitio tiene su llave configurada).";
+    function norm(t) { return String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+    function respuestaDelBanco(texto) {
+      var M = window.MQP; if (!M || !M.cargarTodo) return Promise.resolve("");
+      return M.cargarTodo().then(function (d) {
+        var q0 = norm(texto), corto = function (t, n) { t = String(t || ""); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; };
+        if (/\bplan\b|cronograma|organizar|semanas|horario/.test(q0)) {
+          var esp = M.especialidades.map(function (e) { return { n: e.nombre, c: d.preguntas.filter(function (p) { return p.archivo === e.archivo; }).length }; }).filter(function (e) { return e.c; }).sort(function (a, b) { return b.c - a.c; });
+          var sem = [[], [], [], []], tot = [0, 0, 0, 0];
+          esp.forEach(function (e) { var k = tot.indexOf(Math.min.apply(null, tot)); sem[k].push(e); tot[k] += e.c; });
+          return AVISO_BASICO + "\n\nPlan de 4 semanas, repartido según el tamaño real de cada especialidad en el banco:\n\n" +
+            sem.map(function (s, k) { return "Semana " + (k + 1) + " (" + tot[k] + " preguntas): " + s.map(function (e) { return e.n + " (" + e.c + ")"; }).join(", ") + "."; }).join("\n") +
+            "\n\nCada día: 20 preguntas con su comentario y flujograma, y repasa las que fallaste. Una vez por semana, un simulacro rápido para medir tu ritmo.";
+        }
+        var parada = /^(de|la|el|los|las|un|una|unos|unas|que|como|cual|cuales|para|por|con|sin|del|al|en|y|o|es|son|se|me|mi|tu|su|lo|le|ayudame|ayuda|explica|explicame|dime|quiero|puedes|sobre|tema|pregunta|preguntas|hay|cuando|donde|porque|hacer|debo)$/;
+        var toks = q0.replace(/[^a-z0-9ñ\s]/g, " ").split(/\s+/).filter(function (t) { return t.length >= 4 && !parada.test(t); });
+        if (!toks.length) return AVISO_BASICO + "\n\nEscríbeme un tema o una enfermedad (por ejemplo: preeclampsia, infarto, quemaduras, neumonía) y te muestro lo que dice el banco, o pídeme un plan de estudio de 4 semanas.";
+        var punt = d.preguntas.map(function (p) {
+          var a = norm(p.enunciado), b = norm(p.comentario), c = norm(p.tema + " " + p.categoria + " " + p.especialidad), s = 0;
+          toks.forEach(function (t) { if (c.indexOf(t) !== -1) s += 3; if (b.indexOf(t) !== -1) s += 1.5; if (a.indexOf(t) !== -1) s += 1; });
+          return { p: p, s: s };
+        }).filter(function (x) { return x.s >= (toks.length > 1 ? 3 : 1.5); }).sort(function (x, y) { return y.s - x.s; });
+        if (!punt.length) return AVISO_BASICO + "\n\nNo encontré ese tema en el banco. Prueba con otra palabra (por ejemplo el nombre de la enfermedad) o con el nombre de una especialidad.";
+        var vistas = {}, top = [];
+        punt.forEach(function (x) { if (top.length < 3 && !vistas[x.p.id]) { vistas[x.p.id] = 1; top.push(x.p); } });
+        return AVISO_BASICO + "\n\nEncontré " + punt.length + (punt.length === 1 ? " pregunta" : " preguntas") + " del banco sobre «" + toks.join(" ") + "». Las más cercanas:\n\n" +
+          top.map(function (p, k) { return (k + 1) + ". " + p.especialidad + (p.tema ? " · " + p.tema : "") + " (" + p.id + ")\n" + corto(p.comentario || p.enunciado, 280); }).join("\n\n") +
+          "\n\nPractícalas con su flujograma en la plataforma: Banco de preguntas → " + top[0].especialidad + ".";
+      }, function () { return ""; });
+    }
+
     /* ---- envío al servidor ---- */
     function preguntar(texto) {
       if (enCurso) return;
@@ -2392,15 +2452,17 @@
             return;
           }
 
-          var aviso = r.datos && typeof r.datos.error === "string" && r.datos.error
-            ? r.datos.error
-            : ERROR_GENERICO;
-          burbuja(aviso, "error");
+          /* sin IA (llave no configurada, servidor caído…): el tutor responde con el propio banco de preguntas */
+          return respuestaDelBanco(texto).then(function (txt) {
+            if (txt) { burbuja(txt, "bot"); return; }
+            var aviso = r.datos && typeof r.datos.error === "string" && r.datos.error ? r.datos.error : ERROR_GENERICO;
+            burbuja(aviso, "error");
+          });
         })
         .catch(function () {
           if (reloj) clearTimeout(reloj);
           escribiendo(false);
-          burbuja(ERROR_GENERICO, "error");
+          return respuestaDelBanco(texto).then(function (txt) { burbuja(txt || ERROR_GENERICO, txt ? "bot" : "error"); });
         })
         .then(function () {
           bloquear(false);
