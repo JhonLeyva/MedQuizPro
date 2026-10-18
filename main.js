@@ -1298,7 +1298,7 @@
       var enam = conteo.enam;
       var valores = {
         preguntas: d.preguntas.length, especialidades: especialidades, flujogramas: flujos,
-        oficiales: enam.oficiales, enam: enam.total
+        oficiales: d.preguntas.length, enam: enam.total
       };
       var met = document.querySelectorAll("[data-metrica]");
       for (var j = 0; j < met.length; j++) {
