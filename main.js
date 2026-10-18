@@ -2041,17 +2041,32 @@
         return;
       }
 
-      var nombreCorto = nombre.value.trim().split(/\s+/)[0];
-      var elNombre = document.getElementById("successName");
-      var elMsg = document.getElementById("successMsg");
-      if (elNombre) elNombre.textContent = nombreCorto;
-      if (elMsg) elMsg.textContent = "Tu cuenta gratuita para " + (examen.value === "RM" ? "el Residentado" : examen.value === "EsSalud" ? "EsSalud" : "el ENAM") + " quedó lista. Ya puedes entrar a la plataforma y empezar a entrenar.";
-      /* solo se recuerda el examen elegido, para abrir la plataforma en ese examen */
-      if (window.MQP) window.MQP.progreso.preferencia("examen", examen.value === "RM" ? "residentado" : examen.value === "EsSalud" ? "essalud" : "enam");
-
-      form.hidden = true;
-      exito.hidden = false;
-      if (exito.scrollIntoView) exito.scrollIntoView({ block: "center", behavior: reduced ? "auto" : "smooth" });
+      var clave = document.getElementById("f-clave");
+      if (!error("e-clave", !clave || clave.value.length < 8, clave)) { clave.focus(); return; }
+      var srv = document.getElementById("e-servidor"), boton = form.querySelector("button[type=submit]");
+      var valorExamen = examen.value === "RM" ? "residentado" : examen.value === "EsSalud" ? "essalud" : "enam";
+      if (srv) srv.hidden = true;
+      boton.disabled = true; var textoBoton = boton.textContent; boton.textContent = "Creando tu cuenta…";
+      fetch(((window.MQP && window.MQP.base) || "") + "cuenta.php?a=registro", {
+        method: "POST", credentials: "same-origin", cache: "no-store",
+        headers: { "Content-Type": "application/json", "X-MQP": "1" },
+        body: JSON.stringify({ nombre: nombre.value.trim(), correo: correo.value.trim(), clave: clave.value, universidad: uni.value, examen: valorExamen })
+      }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok && j.ok !== false, j: j }; }); })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.j && r.j.error ? r.j.error : "No se pudo crear la cuenta.");
+          var elNombre = document.getElementById("successName");
+          var elMsg = document.getElementById("successMsg");
+          if (elNombre) elNombre.textContent = nombre.value.trim().split(/\s+/)[0];
+          if (elMsg) elMsg.textContent = "Tu cuenta gratuita para " + (valorExamen === "residentado" ? "el Residentado" : valorExamen === "essalud" ? "EsSalud" : "el ENAM") + " quedó lista. Ya puedes entrar a la plataforma y empezar a entrenar.";
+          if (window.MQP) window.MQP.progreso.preferencia("examen", valorExamen);
+          form.hidden = true;
+          exito.hidden = false;
+          if (exito.scrollIntoView) exito.scrollIntoView({ block: "center", behavior: reduced ? "auto" : "smooth" });
+        })
+        .catch(function (e) {
+          boton.disabled = false; boton.textContent = textoBoton;
+          if (srv) { srv.textContent = (e && e.message && !/JSON|fetch|Failed|Network/i.test(e.message)) ? e.message : "No pudimos crear la cuenta en este momento. Inténtalo de nuevo en unos minutos."; srv.hidden = false; }
+        });
     });
   });
 

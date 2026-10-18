@@ -43,3 +43,9 @@
 Options -Indexes
 
 ErrorDocument 404 /index.html
+
+# cuentas y pagos: nunca se cachea; los datos (cuenta_datos/) no se pueden abrir desde el navegador
+<FilesMatch "^cuenta\.php$">
+  Header set Cache-Control "no-store"
+</FilesMatch>
+RedirectMatch 403 ^/cuenta_datos/

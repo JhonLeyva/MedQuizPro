@@ -1,0 +1,54 @@
+# Planes, cuentas y cobro
+
+## Precios (en soles, pago único por periodo)
+| Plan | Precio | Por mes |
+|---|---|---|
+| Gratis | S/ 0 | — |
+| Premium mensual | S/ 29 | S/ 29 |
+| Premium trimestral (el más elegido) | S/ 69 | S/ 23 |
+| Premium anual (mejor precio) | S/ 199 | S/ 16,6 |
+
+**Criterio.** Referencias que encontré (precios en dólares, sin verificar tipo de cambio ni régimen en Perú):
+AMBOSS, membresía de estudiante: USD 19,99 al mes o USD 149 al año, y solo 50 preguntas al mes del banco
+([soporte de AMBOSS](https://support.amboss.com/hc/en-us/articles/32345265867921-AMBOSS-Pricing));
+Lecturio: una fuente de terceros indica USD 39,99 al mes (no verificado con Lecturio)
+([Subger](https://subger.com/en/service/lecturio)). No encontré precios de plataformas peruanas de ENAM.
+Se fijó el precio muy por debajo de esas referencias (≈ S/ 29 ≈ USD 8) por el poder adquisitivo del
+estudiante peruano, con descuento por compromiso (trimestral −21 %, anual −43 %). Son precios iniciales:
+se cambian en una línea (`PLANES` en `cuenta.php`; el texto de la landing y del app se lee de ahí en el app,
+y está escrito a mano en `index.html`).
+
+## Qué incluye cada plan (cuando los límites están activos)
+- **Gratis:** banco por especialidad, flujogramas, simulacro rápido y por especialidad, progreso — 20 preguntas por día.
+- **Premium:** sin tope diario, simulacro ENAM 2020 completo, todos los simuladores y el tutor de IA.
+
+> Los límites vienen **apagados** (`MQP_LIMITES=0`). Mientras estén apagados, el plan gratuito lo incluye todo y la
+> web no cambia. **Actívalos al mismo tiempo que el cobro**; el texto de precios de la landing da por hecho que existen.
+> Los límites se aplican en el navegador (al iniciar una actividad): frenan el uso normal, pero no son un candado
+> contra alguien que descargue `bancos/*.json` directamente. Un candado real exigiría servir las preguntas desde el
+> servidor, lo que cambiaría el formato de datos y no se hizo.
+
+## Qué pasa cuando alguien compra
+1. En `app/#/planes` elige un plan (si no tiene cuenta, pasa por `#/registro` y vuelve a los planes).
+2. `cuenta.php` crea el cobro en Mercado Pago y lo manda a pagar en su pantalla segura.
+3. Mercado Pago avisa a `cuenta.php?a=webhook`; el servidor **consulta el pago a Mercado Pago**, comprueba estado
+   *approved*, moneda PEN y monto, y solo entonces activa el plan (una sola vez por pago; renovar suma tiempo).
+4. El estudiante vuelve a **`app/#/inicio?pago=ok`**: ve «¡Tu plan Premium está activo!» (la página espera hasta
+   ~40 s a que llegue la confirmación) y su nombre aparece con ★ en la barra superior.
+
+## Puesta en marcha (una vez)
+1. Sube `cuenta.php`, `.htaccess` y los archivos del app. La carpeta `cuenta_datos/` se crea sola
+   (SQLite) y se protege con su propio `.htaccess`. Debe poder escribirse.
+2. En Mercado Pago (Tus integraciones) crea una aplicación y copia el **Access Token de producción**.
+3. En Hostinger define las variables (o copia `config.example.php` a `config.php`):
+   `MP_ACCESS_TOKEN`, `MP_WEBHOOK_SECRET` (recomendado) y `MQP_LIMITES=1`.
+4. En Mercado Pago → Webhooks, apunta a `https://TU-DOMINIO/cuenta.php?a=webhook` con el evento *Pagos*.
+5. Haz una compra real de prueba con el plan mensual antes de anunciar.
+
+## Qué se probó y qué no
+Probado en local contra una pasarela simulada (no la real): registro, ingreso, límite de intentos, creación del cobro,
+activación solo con pago aprobado de monto y moneda correctos, rechazo de pagos pendientes/de monto bajo/en otra
+moneda/de usuario inexistente, idempotencia del aviso, renovación que suma días, límites del plan gratuito y paso
+de Premium. **No probado con Mercado Pago real** (no hay credenciales aquí): el flujo de pago, la firma del webhook
+y las URL de retorno deben verificarse con una compra de prueba. No hay recuperación de contraseña ni verificación de
+correo todavía.

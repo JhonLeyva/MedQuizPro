@@ -3,3 +3,6 @@ config.php
 
 # Variables de entorno locales
 .env
+
+# base de datos de cuentas (nunca a Git)
+cuenta_datos/

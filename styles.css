@@ -1805,3 +1805,15 @@ kbd {
   /* en pantallas pequeñas la barra de la sesión no se fija: deja todo el alto a la pregunta */
   .sim-view__bar { position: static; padding: 0 0 12px; background: none; -webkit-backdrop-filter: none; backdrop-filter: none; }
 }
+
+/* ---------- planes de pago (4 columnas) ---------- */
+.plans--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 1180px; gap: var(--space-4); }
+.plans--4 .plan { padding: clamp(20px, 2vw, 26px); }
+.plans--4 .plan__amount { font-size: 2.1rem; }
+.plans--4 .plan__list li { font-size: .88rem; }
+.plans__note { max-width: 720px; margin: var(--space-6) auto 0; text-align: center; font-size: .9rem; color: var(--ink-3); }
+@media (max-width: 1100px) { .plans--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 720px) { .plans--4 { grid-template-columns: minmax(0, 1fr); gap: var(--space-8); } }
+.form-server { margin-top: var(--space-3); }
+.plans--4 .btn { padding-inline: 14px; font-size: .95rem; gap: 8px; }
+.plans--4 .plan__desc { min-height: 2.9em; }

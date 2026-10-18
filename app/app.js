@@ -55,8 +55,49 @@
   }
   function cargando() { return '<div class="app-loading" role="status">' + I("libro") + '<span>Cargando el banco de preguntas…</span></div>'; }
 
+  /* ---------- cuenta, plan y límites (cuenta.php) ----------
+     Si cuenta.php no responde (sitio estático, sin PHP) la plataforma funciona como siempre: sin cuentas ni límites. */
+  var CUENTA = { disponible: false, listo: false, estado: null, usuario: null };
+  function api(accion, datos) {
+    var opt = { method: datos ? "POST" : "GET", credentials: "same-origin", cache: "no-store" };
+    if (datos) { opt.headers = { "Content-Type": "application/json", "X-MQP": "1" }; opt.body = JSON.stringify(datos); }
+    return fetch(M.base + "cuenta.php?a=" + accion, opt).then(function (r) {
+      return r.json().then(function (j) { return { http: r.status, ok: r.ok && j && j.ok !== false, j: j || {} }; });
+    });
+  }
+  function cargarCuenta() {
+    return api("estado").then(function (e) {
+      if (!e.ok) throw 0;
+      CUENTA.estado = e.j; CUENTA.disponible = true;
+      return api("me");
+    }).then(function (m) { CUENTA.usuario = m.j.usuario || null; })
+      .catch(function () { CUENTA.disponible = false; CUENTA.usuario = null; })
+      .then(function () { CUENTA.listo = true; });
+  }
+  function esPremium() { return !!(CUENTA.usuario && CUENTA.usuario.premium); }
+  function limitesActivos() { return CUENTA.disponible && CUENTA.estado && CUENTA.estado.limites && !esPremium(); }
+  function hechasHoy() {
+    var r = M.progreso.leer().respuestas, ini = new Date(); ini.setHours(0, 0, 0, 0);
+    var n = 0, t0 = ini.getTime();
+    for (var id in r) if (Object.prototype.hasOwnProperty.call(r, id) && r[id].t >= t0) n++;
+    return n;
+  }
+  /* devuelve el motivo si el plan gratuito no permite iniciar esta actividad */
+  function bloqueo(cfg) {
+    if (!limitesActivos()) return "";
+    if (cfg.modo === "simulacro" && cfg.simulador === "enam-2020") return "simulacro";
+    if (hechasHoy() >= CUENTA.estado.limite_diario) return "limite";
+    return "";
+  }
+  function fechaLarga(seg) {
+    try { return new Intl.DateTimeFormat("es-PE", { day: "numeric", month: "long", year: "numeric" }).format(new Date(seg * 1000)); } catch (e) { return new Date(seg * 1000).toLocaleDateString(); }
+  }
+  function soles(n) { return "S/ " + (n % 1 ? n.toFixed(2) : n); }
+
   /* ---------- sesiones de práctica ---------- */
   function iniciar(cfg) {
+    var motivo = bloqueo(cfg);
+    if (motivo) { location.hash = "#/planes?motivo=" + motivo; return; }
     cfg.volverTexto = cfg.volverTexto || "Volver";
     raiz.hidden = true;
     sesion.hidden = false;
@@ -177,7 +218,7 @@
     var ya = res.respondidas
       ? "Llevas " + M.plural(res.respondidas, "pregunta respondida", "preguntas respondidas") + " con " + res.porcentaje + "% de aciertos."
       : "Estamos contigo en tu preparación para " + ex.nombre + ". Elige un banco o un simulador y empieza cuando quieras.";
-    var bienvenida = '<section class="welcome__hi card"><h2 class="welcome__title">' + esc(saludo()) + ' <span aria-hidden="true">👋</span></h2>' +
+    var bienvenida = '<section class="welcome__hi card"><h1 class="welcome__title">' + esc(saludo()) + ' <span aria-hidden="true">👋</span></h1>' +
       '<p>' + esc(ya) + '</p>' + continuar.replace("card card--continue", "welcome__continue") + '</section>';
     function promo(titulo, texto, botones) {
       return '<section class="promo card"><h2 class="promo__title">' + titulo + '</h2><p class="promo__text">' + texto + '</p><div class="promo__actions">' + botones + '</div></section>';
@@ -193,11 +234,26 @@
         "Repasa las preguntas que fallaste, las que guardaste con la estrella y mira en qué especialidades vas mejor.",
         bot("#/falladas", "cruz", "Falladas", fall ? '<b class="btn__n">' + fall + '</b>' : "") + bot("#/favoritas", "estrella", "Favoritas", nFav ? '<b class="btn__n">' + nFav + '</b>' : "") + bot("#/progreso", "grafico", "Mi progreso"));
 
-    return '<div class="welcome"><div class="welcome__side">' + bienvenida + '</div><div class="welcome__main">' + tarjetas +
+    var avisoPago = parametros.pago === "ok" ? '<div class="notice ' + (esPremium() ? "notice--ok" : "") + '" role="status" id="avisoPago">' + (esPremium() ? '<b>¡Tu plan Premium está activo!</b> Gracias por tu compra. Ya puedes usar todo sin límites.' : '<b>Estamos confirmando tu pago.</b> Esto suele tardar unos segundos; esta página se actualiza sola.') + '</div>' : "";
+    return avisoPago + '<div class="welcome"><div class="welcome__side">' + bienvenida + '</div><div class="welcome__main">' + tarjetas +
       '<div class="welcome__two">' +
         '<section class="card"><div class="card__head"><h2 class="card__h">Tu resumen</h2><a class="link-arrow" href="#/progreso">Ver mi progreso <span aria-hidden="true">→</span></a></div>' + resumen + '</section>' +
         '<section class="card"><div class="card__head"><h2 class="card__h">Actividad reciente</h2></div>' + actividad + '</section>' +
       '</div></div></div>';
+  }
+
+  var esperaPago = 0;
+  function esperarPago() {
+    if (parametros.pago !== "ok" || !CUENTA.disponible || esPremium()) return;
+    var intentos = 0; clearInterval(esperaPago);
+    esperaPago = setInterval(function () {
+      intentos++;
+      api("me").then(function (m) {
+        CUENTA.usuario = m.j.usuario || CUENTA.usuario;
+        if (esPremium()) { clearInterval(esperaPago); if (ruta().nombre === "inicio") render(true); pintarChrome(); }
+      });
+      if (intentos >= 15) clearInterval(esperaPago);
+    }, 2500);
   }
 
   function listaSesiones(lista) {
@@ -676,6 +732,14 @@
   }
 
   /* ---------- Perfil ---------- */
+  function tarjetaCuenta() {
+    if (!CUENTA.disponible) return '<p class="muted">Las cuentas no están disponibles ahora. Tu progreso se guarda solo en este navegador.</p>';
+    var u = CUENTA.usuario;
+    if (!u) return '<p class="muted">Crea una cuenta gratis para activar un plan Premium. Tu progreso sigue guardándose en este navegador.</p><div class="card__actions"><a class="btn btn--primary" href="#/registro">Crear cuenta</a><a class="btn btn--ghost" href="#/ingresar">Ingresar</a></div>';
+    return '<p><b>' + esc(u.nombre) + '</b><br><span class="muted">' + esc(u.correo) + '</span></p>' +
+      '<p>' + (u.premium ? '<span class="badge badge--ok">Premium ' + esc(u.plan) + '</span> <span class="muted small">hasta el ' + esc(fechaLarga(u.premium_hasta)) + '</span>' : '<span class="badge">Plan gratuito</span>') + '</p>' +
+      '<div class="card__actions"><a class="btn btn--primary" href="#/planes">' + (u.premium ? "Renovar plan" : "Ver planes") + '</a><button class="btn btn--ghost" type="button" data-accion="salir">Cerrar sesión</button></div>';
+  }
   function vistaPerfil() {
     var p = M.progreso.leer();
     var ex = examenPreferido();
@@ -686,10 +750,7 @@
           '<div class="picks picks--stack" id="pfExamen">' + M.examenes.map(function (e) {
             return opcion("pfExamen", e.id, e.nombre, e.estado === "disponible" ? "Banco disponible" : "Próximamente", ex === e.id, false);
           }).join("") + '</div></section>' +
-        '<section class="card"><h2 class="card__h">Cuenta</h2>' +
-          '<p class="muted">Las cuentas de usuario todavía no están disponibles. Cuando lo estén, aquí podrás iniciar sesión y conservar tu progreso en cualquier dispositivo.</p>' +
-          '<a class="btn btn--ghost" href="../#registro">Ver el registro</a>' +
-        '</section>' +
+        '<section class="card"><h2 class="card__h">Cuenta</h2>' + tarjetaCuenta() + '</section>' +
       '</div>' +
       '<section class="card card--spaced"><h2 class="card__h">Datos guardados en este navegador</h2>' +
         '<dl class="kpis kpis--3"><div class="kpi"><dt>Preguntas respondidas</dt><dd>' + nRes + '</dd></div>' +
@@ -719,6 +780,97 @@
     render();
   };
 
+  /* ---------- Planes ---------- */
+  function vistaPlanes() {
+    var P = (CUENTA.estado && CUENTA.estado.planes) || null;
+    var motivo = parametros.motivo, pago = parametros.pago;
+    var aviso = "";
+    if (motivo === "limite") aviso = '<div class="notice notice--warn" role="status"><b>Llegaste al límite de hoy.</b> El plan gratuito incluye ' + CUENTA.estado.limite_diario + ' preguntas por día. Con Premium sigues sin límite.</div>';
+    else if (motivo === "simulacro") aviso = '<div class="notice notice--warn" role="status"><b>El simulacro ENAM 2020 completo es Premium.</b> Con el plan gratuito puedes usar el simulacro rápido y el de especialidad.</div>';
+    if (pago === "pendiente") aviso = '<div class="notice" role="status"><b>Tu pago está pendiente.</b> Cuando Mercado Pago lo confirme, tu plan se activa solo. Puede tardar unos minutos.</div>';
+    if (pago === "error") aviso = '<div class="notice notice--bad" role="alert"><b>No se completó el pago.</b> No se te cobró nada. Puedes intentarlo de nuevo.</div>';
+    if (!CUENTA.disponible || !P) {
+      return cabecera("Planes", "Planes", "Los planes se activarán en cuanto el servidor de cuentas esté disponible.") +
+        vacio("candado", "Todavía no hay planes disponibles", "Mientras tanto toda la plataforma sigue siendo de acceso libre.", '<a class="btn btn--primary" href="#/inicio">Ir al inicio</a>');
+    }
+    var pagos = CUENTA.estado.pagos, prem = esPremium();
+    var vigente = prem ? '<div class="notice notice--ok" role="status"><b>Tu plan ' + esc(CUENTA.usuario.plan) + ' está activo</b> hasta el ' + esc(fechaLarga(CUENTA.usuario.premium_hasta)) + '. Si compras otro periodo, se suma al que ya tienes.</div>' : "";
+    var comunes = ["Preguntas ilimitadas, sin tope diario", "Simulacro ENAM 2020 completo", "Todos los simuladores y el tutor de IA", "Comentario docente y flujograma en cada pregunta", "Progreso, falladas y favoritas"];
+    function tarjeta(id, destacado, insignia) {
+      var p = P[id], mes = p.soles / (p.dias / 30);
+      var etiqueta = id === "mensual" ? "por 30 días" : id === "trimestral" ? "por 3 meses · " + soles(Math.round(mes * 100) / 100) + "/mes" : "por 12 meses · " + soles(Math.round(mes * 100) / 100) + "/mes";
+      return '<article class="plan' + (destacado ? " plan--pro" : "") + '">' + (insignia ? '<span class="plan__badge">' + insignia + '</span>' : "") +
+        '<h2 class="plan__name">' + esc(p.nombre) + '</h2>' +
+        '<p class="plan__price"><span class="plan__amount">' + soles(p.soles) + '</span><span class="plan__per">' + etiqueta + '</span></p>' +
+        '<button class="btn ' + (destacado ? "btn--primary" : "btn--ghost") + ' btn--lg btn--block" type="button" data-accion="comprar" data-plan="' + id + '"' + (pagos ? "" : " disabled") + '>' + (pagos ? (prem ? "Renovar" : "Elegir este plan") : "Cobro próximamente") + '</button>' +
+        '<ul class="plan__list">' + comunes.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + '</ul></article>';
+    }
+    var gratis = '<article class="plan"><h2 class="plan__name">Gratis</h2><p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">sin tarjeta</span></p>' +
+      (CUENTA.usuario ? '<span class="btn btn--ghost btn--lg btn--block is-static">' + (prem ? "Incluido" : "Tu plan actual") + '</span>' : '<a class="btn btn--ghost btn--lg btn--block" href="#/registro">Crear cuenta gratis</a>') +
+      '<ul class="plan__list"><li>' + (CUENTA.estado.limites ? CUENTA.estado.limite_diario + " preguntas por día" : "Banco ENAM por especialidad") + '</li><li>Simulacro rápido y por especialidad</li><li>Comentario docente y flujograma</li><li>Progreso, falladas y favoritas</li></ul></article>';
+    return cabecera("Planes", "Elige cómo quieres estudiar", "Pago único por periodo, sin renovación automática. Pagas en soles con Mercado Pago.") +
+      aviso + vigente + '<div class="plans plans--app">' + gratis + tarjeta("mensual", false, "") + tarjeta("trimestral", true, "Más elegido") + tarjeta("anual", false, "Mejor precio") + '</div>' +
+      '<p class="muted small plans__foot" id="planError" role="alert" hidden></p>' +
+      '<p class="muted small plans__foot">El cobro lo procesa Mercado Pago: MedQuizPlus no ve ni guarda los datos de tu tarjeta.</p>';
+  }
+  ACCIONES.comprar = function (b) {
+    var plan = b.getAttribute("data-plan");
+    if (!CUENTA.usuario) { location.hash = "#/registro?plan=" + plan; return; }
+    var err = document.getElementById("planError"), txt = b.textContent;
+    err.hidden = true; b.disabled = true; b.textContent = "Abriendo el pago…";
+    api("comprar", { plan: plan }).then(function (r) {
+      if (r.ok && r.j.url) { location.href = r.j.url; return; }
+      throw new Error(r.j.error || "No pudimos iniciar el pago.");
+    }).catch(function (e) {
+      b.disabled = false; b.textContent = txt; err.textContent = e.message || "No pudimos iniciar el pago."; err.hidden = false;
+    });
+  };
+
+  /* ---------- Ingresar / Crear cuenta ---------- */
+  function campo(id, etiqueta, tipo, extra) {
+    return '<div class="field"><label for="' + id + '">' + etiqueta + '</label><input id="' + id + '" name="' + id + '" type="' + tipo + '" ' + (extra || "") + '></div>';
+  }
+  function vistaAuth(modo) {
+    if (!CUENTA.disponible) {
+      return cabecera("Cuenta", "Cuentas no disponibles", "El servidor de cuentas no responde ahora. La plataforma sigue funcionando sin cuenta.") +
+        vacio("candado", "No pudimos conectar con el servidor", "Revisa tu conexión y vuelve a intentarlo.", '<a class="btn btn--primary" href="#/inicio">Ir al inicio</a>');
+    }
+    if (CUENTA.usuario) { return cabecera("Cuenta", "Ya iniciaste sesión", "Entraste como " + esc(CUENTA.usuario.nombre) + ".", '<div class="page-head__actions"><a class="btn btn--primary" href="#/inicio">Ir al inicio</a></div>'); }
+    var reg = modo === "registro";
+    return cabecera("Cuenta", reg ? "Crea tu cuenta" : "Ingresa a tu cuenta", reg ? "Gratis y sin tarjeta. Guarda tu cuenta para pasar a Premium cuando quieras." : "Con tu correo y tu contraseña.") +
+      '<div class="auth card"><form id="authForm" novalidate>' +
+      (reg ? campo("a-nombre", "Nombre y apellido", "text", 'autocomplete="name" maxlength="80" required') : "") +
+      campo("a-correo", "Correo electrónico", "email", 'autocomplete="email" maxlength="120" required') +
+      campo("a-clave", "Contraseña" + (reg ? " (mínimo 8 caracteres)" : ""), "password", 'autocomplete="' + (reg ? "new-password" : "current-password") + '" minlength="8" maxlength="200" required') +
+      (reg ? '<div class="field"><label>¿Qué examen preparas?</label><div class="picks picks--row">' + ["enam|ENAM", "residentado|Residentado", "essalud|EsSalud"].map(function (x, i) { var p = x.split("|"); return opcion("a-examen", p[0], p[1], "", i === 0, false); }).join("") + '</div></div>' : "") +
+      '<p class="form-error" id="authError" role="alert" hidden></p>' +
+      '<button class="btn btn--primary btn--lg btn--block" type="submit">' + (reg ? "Crear mi cuenta" : "Ingresar") + '</button></form>' +
+      '<p class="auth__alt">' + (reg ? '¿Ya tienes cuenta? <a href="#/ingresar">Ingresa</a>' : '¿Primera vez? <a href="#/registro">Crea tu cuenta gratis</a>') + '</p></div>';
+  }
+  function enlazarAuth(modo) {
+    var f = document.getElementById("authForm"); if (!f) return;
+    var err = document.getElementById("authError"), btn = f.querySelector("button[type=submit]");
+    f.addEventListener("submit", function (ev) {
+      ev.preventDefault(); err.hidden = true;
+      var d = { correo: f.querySelector("#a-correo").value.trim(), clave: f.querySelector("#a-clave").value };
+      if (modo === "registro") { d.nombre = f.querySelector("#a-nombre").value.trim(); var x = f.querySelector("input[name=a-examen]:checked"); d.examen = x ? x.value : ""; }
+      if (!d.correo || d.clave.length < 8 || (modo === "registro" && d.nombre.length < 2)) { err.textContent = modo === "registro" ? "Completa tu nombre, un correo válido y una contraseña de al menos 8 caracteres." : "Escribe tu correo y tu contraseña."; err.hidden = false; return; }
+      var txt = btn.textContent; btn.disabled = true; btn.textContent = "Un momento…";
+      api(modo === "registro" ? "registro" : "ingresar", d).then(function (r) {
+        if (!r.ok) throw new Error(r.j.error || "No se pudo completar.");
+        CUENTA.usuario = r.j.usuario;
+        if (d.examen) M.progreso.preferencia("examen", d.examen);
+        var plan = parametros.plan;
+        location.hash = plan ? "#/planes?plan=" + encodeURIComponent(plan) : "#/inicio";
+      }).catch(function (e) {
+        btn.disabled = false; btn.textContent = txt; err.textContent = e.message || "No se pudo completar."; err.hidden = false;
+      });
+    });
+  }
+  ACCIONES.salir = function () {
+    api("salir", {}).then(function () { CUENTA.usuario = null; location.hash = "#/inicio"; render(); });
+  };
+
   function vistaNoEncontrada() {
     return vacio("capas", "No encontramos esta sección", "Puede que el enlace haya cambiado.", '<a class="btn btn--primary" href="#/inicio">Ir al inicio</a>');
   }
@@ -727,8 +879,11 @@
      Enrutador
      ====================================================================== */
   var RUTAS = {
-    inicio: { titulo: "Inicio", vista: vistaInicio },
+    inicio: { titulo: "Inicio", vista: vistaInicio, alMontar: esperarPago },
     noencontrada: { titulo: "No encontrada", vista: vistaNoEncontrada },
+    planes: { titulo: "Planes", vista: vistaPlanes },
+    ingresar: { titulo: "Ingresar", vista: function () { return vistaAuth("ingresar"); }, alMontar: function () { enlazarAuth("ingresar"); } },
+    registro: { titulo: "Crear cuenta", vista: function () { return vistaAuth("registro"); }, alMontar: function () { enlazarAuth("registro"); } },
     examenes: { titulo: "Exámenes", vista: function (arg) { return arg ? vistaExamen(arg) : vistaExamenes(); }, alMontar: function (arg) { if (arg && M.examen(arg)) { montarTarjetas(arg); enlazarFiltros(arg); } } },
     banco: { titulo: "Banco de preguntas", vista: function (arg) { return arg === "configurar" ? vistaBanco() : vistaBancos(); }, alMontar: function (arg) { if (arg === "configurar") enlazarBanco(); } },
     simuladores: { titulo: "Simuladores", vista: function (arg) { return arg ? vistaSimulador(arg) : vistaSimuladores(); }, alMontar: function (arg) { if (arg) enlazarSimulador(arg); } },
@@ -763,6 +918,13 @@
     document.getElementById("tbTitle").textContent = RUTAS[r.nombre].titulo;
     document.title = RUTAS[r.nombre].titulo + " · MedQuizPlus";
     var ex = M.examen(examenPreferido());
+    var tc = document.getElementById("tbCuenta");
+    if (tc) {
+      if (!CUENTA.disponible) tc.hidden = true;
+      else { tc.hidden = false;
+        if (CUENTA.usuario) { tc.href = "#/perfil"; tc.textContent = (esPremium() ? "★ " : "") + CUENTA.usuario.nombre.split(/\s+/)[0]; tc.className = "topbar__acct" + (esPremium() ? " is-premium" : ""); }
+        else { tc.href = "#/ingresar"; tc.textContent = "Ingresar"; tc.className = "topbar__acct"; } }
+    }
     var tb = document.getElementById("tbExam");
     tb.textContent = ex.nombre;
     var nf = datos ? idsFalladas().length : 0, nv = datos ? idsFavoritas().length : 0;
@@ -849,6 +1011,7 @@
   /* ---------- arranque ---------- */
   sesion.hidden = true;
   render();
+  cargarCuenta().then(function () { if (!M.practica.activa()) render(true); });
   M.cargarTodo().then(function (d) {
     datos = d;
     conteo = M.ui.contarPorExamen(d);

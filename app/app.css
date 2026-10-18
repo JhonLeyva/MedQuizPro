@@ -358,3 +358,28 @@ body.en-sesion .chat-launcher__label { display: none; }
 .bank-row__go { width: 20px; height: 20px; fill: none; stroke: var(--ink-3); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 .bank-row:hover .bank-row__go { stroke: var(--brand); }
 .topbar__title { flex: 0 0 190px; }
+
+/* ---------- cuenta, planes y avisos ---------- */
+.topbar__acct { margin-left: auto; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font-weight: 600; font-size: .86rem; text-decoration: none; white-space: nowrap; }
+.topbar__acct:hover { border-color: var(--brand); color: var(--brand-strong); }
+.topbar__acct.is-premium { background: var(--brand-soft); border-color: var(--brand); color: var(--brand-strong); }
+.topbar__acct + .topbar__exam { margin-left: 10px; }
+.topbar__acct[hidden] + .topbar__exam { margin-left: auto; }
+.notice { margin: 0 0 var(--space-5); padding: 14px 18px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); line-height: 1.5; }
+.notice--ok { background: var(--ok-soft); border-color: color-mix(in srgb, var(--ok) 35%, transparent); }
+.notice--warn { background: var(--mark-soft); border-color: color-mix(in srgb, var(--mark) 35%, transparent); }
+.notice--bad { background: var(--bad-soft); border-color: color-mix(in srgb, var(--bad) 35%, transparent); }
+.plans--app { grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: none; margin-top: var(--space-8); gap: var(--space-4); }
+.plans--app .plan { padding: 22px; }
+.plans--app .plan__amount { font-size: 2rem; }
+.plans--app .plan__list li { font-size: .88rem; }
+.plans--app .is-static { cursor: default; opacity: .75; }
+@media (max-width: 1180px) { .plans--app { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .plans--app { grid-template-columns: minmax(0, 1fr); gap: var(--space-8); } }
+.plans__foot { margin: var(--space-5) 0 0; text-align: center; }
+.auth { max-width: 460px; padding: clamp(20px, 3vw, 32px); }
+.auth .btn { margin-top: var(--space-5); }
+.auth__alt { margin: var(--space-5) 0 0; text-align: center; color: var(--ink-2); }
+.form-error { margin: var(--space-4) 0 0; padding: 10px 14px; border-radius: 10px; background: var(--bad-soft); color: var(--bad); font-weight: 600; font-size: .9rem; }
+.picks--row { display: flex; flex-wrap: wrap; gap: 8px; }
+.card__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: var(--space-4); }

@@ -14,7 +14,7 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20260930-materias">
+<link rel="stylesheet" href="styles.css?v=20261018-1">
 <link rel="stylesheet" href="pro.css?v=20261018-2">
 </head>
 <body>
@@ -505,38 +505,69 @@
     <div class="wrap">
       <div class="sec-head sec-head--center reveal">
         <p class="kicker">Planes</p>
-        <h2 id="priceTitle">Empieza gratis.</h2>
-        <p class="sec-head__lead">Todo lo publicado hoy está incluido en el plan gratuito, sin tarjeta.</p>
+        <h2 id="priceTitle">Empieza gratis. Crece con Premium.</h2>
+        <p class="sec-head__lead">Un precio pensado para estudiantes: menos que una sola sesión de academia.</p>
       </div>
 
-      <div class="plans">
-        <article class="plan plan--pro reveal" data-plan="gratuito">
-          <span class="plan__badge">Disponible</span>
-          <h3 class="plan__name">Plan Gratuito</h3>
-          <p class="plan__desc">Para empezar a entrenar hoy mismo.</p>
+      <div class="plans plans--4">
+        <article class="plan reveal" data-plan="gratuito">
+          
+          <h3 class="plan__name">Gratis</h3>
+          <p class="plan__desc">Para empezar a entrenar hoy.</p>
           <p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">sin tarjeta</span></p>
-          <a class="btn btn--primary btn--lg btn--block" href="#registro">
-            Crear cuenta gratis
-            <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <a class="btn btn--ghost btn--lg btn--block" href="#registro">Crear cuenta <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           <ul class="plan__list">
             <li>Banco ENAM por especialidad con comentario docente</li>
-            <li><span>Preguntas oficiales ENAM <span data-metrica="anios">2020</span></span></li>
             <li>Flujograma clínico en cada pregunta</li>
-            <li>Simuladores cronometrados con resultado por especialidad</li>
-            <li>Progreso, preguntas falladas y favoritas</li>
-            <li>Tutor clínico de IA</li>
+            <li>Simulacro rápido y por especialidad</li>
+            <li>20 preguntas al día</li>
+            <li>Progreso, falladas y favoritas</li>
           </ul>
         </article>
-
-        <article class="plan plan--soon reveal" data-plan="premium">
-          <h3 class="plan__name">Plan Premium</h3>
-          <p class="plan__desc">Contenido y precio en definición.</p>
-          <p class="plan__price"><span class="plan__amount plan__amount--soon">Próximamente</span><span class="plan__per">precio por anunciar</span></p>
-          <a class="btn btn--ghost btn--lg btn--block" href="#registro">Quiero que me avisen</a>
-          <p class="plan__note">Estamos definiendo qué incluirá el plan Premium. Lo anunciaremos aquí antes de activarlo.</p>
+        <article class="plan reveal" data-plan="mensual">
+          
+          <h3 class="plan__name">Premium mensual</h3>
+          <p class="plan__desc">Un mes para probar a fondo.</p>
+          <p class="plan__price"><span class="plan__amount">S/ 29</span><span class="plan__per">por 30 días</span></p>
+          <a class="btn btn--ghost btn--lg btn--block" href="app/#/planes">Elegir plan <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <ul class="plan__list">
+            <li>Preguntas ilimitadas, sin tope diario</li>
+            <li>Simulacro ENAM 2020 completo</li>
+            <li>Todos los simuladores y el tutor de IA</li>
+            <li>Comentario docente y flujograma en cada pregunta</li>
+            <li>Progreso, falladas y favoritas</li>
+          </ul>
+        </article>
+        <article class="plan plan--pro reveal" data-plan="trimestral">
+          <span class="plan__badge">Más elegido</span>
+          <h3 class="plan__name">Premium trimestral</h3>
+          <p class="plan__desc">El ritmo de una preparación seria.</p>
+          <p class="plan__price"><span class="plan__amount">S/ 69</span><span class="plan__per">por 3 meses · S/ 23 al mes</span></p>
+          <a class="btn btn--primary btn--lg btn--block" href="app/#/planes">Elegir plan <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <ul class="plan__list">
+            <li>Preguntas ilimitadas, sin tope diario</li>
+            <li>Simulacro ENAM 2020 completo</li>
+            <li>Todos los simuladores y el tutor de IA</li>
+            <li>Comentario docente y flujograma en cada pregunta</li>
+            <li>Progreso, falladas y favoritas</li>
+          </ul>
+        </article>
+        <article class="plan reveal" data-plan="anual">
+          <span class="plan__badge">Mejor precio</span>
+          <h3 class="plan__name">Premium anual</h3>
+          <p class="plan__desc">Preparación completa, al menor costo.</p>
+          <p class="plan__price"><span class="plan__amount">S/ 199</span><span class="plan__per">por 12 meses · S/ 16 al mes</span></p>
+          <a class="btn btn--ghost btn--lg btn--block" href="app/#/planes">Elegir plan <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <ul class="plan__list">
+            <li>Preguntas ilimitadas, sin tope diario</li>
+            <li>Simulacro ENAM 2020 completo</li>
+            <li>Todos los simuladores y el tutor de IA</li>
+            <li>Comentario docente y flujograma en cada pregunta</li>
+            <li>Progreso, falladas y favoritas</li>
+          </ul>
         </article>
       </div>
+      <p class="plans__note">Pago único por periodo, sin renovación automática. Pagas en soles con Mercado Pago; MedQuizPlus no guarda los datos de tu tarjeta.</p>
     </div>
   </section>
 
@@ -568,6 +599,11 @@
             <p class="err" id="e-correo" hidden>Revisa el correo: falta el @ o el dominio.</p>
           </div>
           <div class="field">
+            <label for="f-clave">Contraseña (mínimo 8 caracteres)</label>
+            <input id="f-clave" name="clave" type="password" autocomplete="new-password" minlength="8" maxlength="200" placeholder="••••••••">
+            <p class="err" id="e-clave" hidden>Usa al menos 8 caracteres.</p>
+          </div>
+          <div class="field">
             <label for="f-universidad">Universidad</label>
             <select id="f-universidad" name="universidad">
               <option value="">Selecciona tu universidad</option>
@@ -591,7 +627,8 @@
           </div>
           <div class="form-foot">
             <button class="btn btn--primary btn--block" type="submit">Crear mi cuenta gratis</button>
-            <p class="fineprint">Demostración: este formulario valida los datos en tu navegador y no los envía a ningún servidor.</p>
+            <p class="err form-server" id="e-servidor" role="alert" hidden></p>
+            <p class="fineprint">Tu cuenta es gratuita. Usamos tu correo solo para tu acceso. ¿Ya tienes cuenta? <a href="app/#/ingresar">Ingresa</a>.</p>
           </div>
         </form>
 
@@ -599,11 +636,11 @@
           <div class="success__mark" aria-hidden="true">✓</div>
           <h3>Listo, <span id="successName">Ana</span></h3>
           <p id="successMsg">Tu cuenta gratuita quedó lista.</p>
-          <a class="btn btn--primary btn--lg success__cta" href="app/">
+          <a class="btn btn--primary btn--lg success__cta" href="app/#/inicio">
             Entrar a la plataforma
             <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
-          <p class="fineprint" style="margin-top:16px">Recuerda: esto es una demostración, no se guardó ningún dato personal.</p>
+          
         </div>
       </div>
     </div>
@@ -636,7 +673,7 @@
         </details>
         <details class="faq__item">
           <summary>¿Qué incluye el plan gratuito?</summary>
-          <div class="faq__body"><p>Todo lo que está publicado hoy: bancos, simuladores, flujogramas, tutor de IA y el seguimiento de tu progreso. El plan Premium y su precio todavía no están definidos.</p></div>
+          <div class="faq__body"><p>El plan gratuito incluye el banco por especialidad, los flujogramas, el simulacro rápido y por especialidad, y el seguimiento de tu progreso, con un tope de 20 preguntas por día. Premium (desde S/ 29 al mes) quita el tope y añade el simulacro ENAM 2020 completo. Es un pago único por periodo, sin renovación automática.</p></div>
         </details>
         <details class="faq__item">
           <summary>¿Cómo puedo crear una cuenta?</summary>
@@ -644,7 +681,7 @@
         </details>
         <details class="faq__item">
           <summary>¿Qué contenido estará disponible próximamente?</summary>
-          <div class="faq__body"><p>Los bancos completos de Residentado Médico y EsSalud por especialidad, sus simuladores y las cuentas de usuario para guardar tu progreso en cualquier dispositivo.</p></div>
+          <div class="faq__body"><p>Los bancos completos de Residentado Médico y EsSalud por especialidad, sus simuladores y la sincronización de tu progreso entre dispositivos (hoy tu progreso se guarda en el navegador que usas).</p></div>
         </details>
       </div>
     </div>
@@ -735,7 +772,7 @@
 
 <script defer src="catalogo.js?v=20260930-materias"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
-<script defer src="main.js?v=20261018-1"></script>
+<script defer src="main.js?v=20261018-2"></script>
 <script defer src="pro.js?v=20261018-3"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
 <script type="module" src="hero3d.js?v=20261018-1"></script>

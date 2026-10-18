@@ -44,6 +44,16 @@ return [
     // Déjalo vacío para desactivarlo.
     'diagnostico_token' => '',
 
+    // ---- Cuentas y cobro (cuenta.php) ----
+    // Token de acceso de tu aplicación de Mercado Pago (Tus integraciones → Credenciales de producción).
+    // Sin él, la plataforma funciona con cuentas pero NO cobra.
+    'mp_access_token' => '',
+    // Clave secreta del webhook (Mercado Pago → Tus integraciones → Webhooks). Recomendada.
+    'mp_webhook_secret' => '',
+    // '1' activa los límites del plan gratuito (20 preguntas al día y simulacro completo solo Premium).
+    // Déjalo en '0' hasta que el cobro esté probado.
+    'limites' => '0',
+
     // Opcional. '1' añade el detalle técnico del error a la respuesta JSON.
     // Úsalo solo mientras configuras, y vuelve a dejarlo en '0'.
     'depurar' => '0',
