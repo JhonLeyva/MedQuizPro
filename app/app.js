@@ -159,13 +159,6 @@
         '</article>';
     }
 
-    var rapido = M.simulador("enam-rapido");
-    var accesos = '<div class="quick">' +
-      '<a class="quick__item" href="#/banco"><span class="quick__icon">' + I("libro") + '</span><span><b>Banco de preguntas</b><small>Arma tu sesión por especialidad</small></span></a>' +
-      '<a class="quick__item" href="#/simuladores/enam-rapido"><span class="quick__icon">' + I("rayo") + '</span><span><b>' + esc(rapido.titulo) + '</b><small>' + rapido.cantidad + ' preguntas · ' + M.duracion(rapido.cantidad * rapido.segundosPorPregunta) + '</small></span></a>' +
-      '<a class="quick__item" href="#/falladas"><span class="quick__icon quick__icon--mark">' + I("cruz") + '</span><span><b>Repasar falladas</b><small>' + (fall ? M.plural(fall, "pregunta por repasar", "preguntas por repasar") : "Aún no tienes preguntas falladas") + '</small></span></a>' +
-      '</div>';
-
     var resumen;
     if (res.respondidas) {
       resumen = '<dl class="kpis">' +
@@ -177,28 +170,34 @@
       resumen = '<p class="muted">Todavía no hay respuestas registradas. Tus cifras aparecerán aquí en cuanto resuelvas tu primera pregunta.</p>';
     }
 
-    var examenes = '<ul class="exam-rows">' + M.examenes.map(function (e) {
-      var n = conteo ? conteo[e.id].total : null;
-      return '<li><a class="exam-row" href="#/examenes/' + e.id + '">' +
-        '<span class="exam-row__mark' + (e.estado === "disponible" ? " is-live" : "") + '">' + esc(e.nombre.charAt(0)) + '</span>' +
-        '<span class="exam-row__name">' + esc(e.nombre) + '<small>' + (n == null ? "…" : e.estado === "disponible" ? M.plural(n, "pregunta", "preguntas") : (n ? M.plural(n, "pregunta tipo", "preguntas tipo") : "Banco en construcción")) + '</small></span>' +
-        '<span class="badge ' + (e.estado === "disponible" ? "badge--ok" : "badge--soon") + '">' + (e.estado === "disponible" ? "Disponible" : "Próximamente") + '</span>' +
-        '</a></li>';
-    }).join("") + '</ul>';
-
     var recientes = p.sesiones.slice(0, 4);
     var actividad = recientes.length ? listaSesiones(recientes) : '<p class="muted">Aquí verás tus últimas sesiones y simulacros.</p>';
 
-    return cabecera("", esc(saludo()) + ' <span aria-hidden="true">👋</span>', "¿Qué quieres practicar hoy?") +
-      '<div class="dash">' +
-        '<div class="dash__main">' + continuar + accesos +
-          '<section class="card"><div class="card__head"><h2 class="card__h">Tu resumen</h2><a class="link-arrow" href="#/progreso">Ver mi progreso <span aria-hidden="true">→</span></a></div>' + resumen + '</section>' +
-        '</div>' +
-        '<div class="dash__side">' +
-          '<section class="card"><div class="card__head"><h2 class="card__h">Exámenes</h2></div>' + examenes + '</section>' +
-          '<section class="card"><div class="card__head"><h2 class="card__h">Actividad reciente</h2></div>' + actividad + '</section>' +
-        '</div>' +
-      '</div>';
+    var nFav = idsFavoritas().length;
+    var ya = res.respondidas
+      ? "Llevas " + M.plural(res.respondidas, "pregunta respondida", "preguntas respondidas") + " con " + res.porcentaje + "% de aciertos."
+      : "Estamos contigo en tu preparación para " + ex.nombre + ". Elige un banco o un simulador y empieza cuando quieras.";
+    var bienvenida = '<section class="welcome__hi card"><h2 class="welcome__title">' + esc(saludo()) + ' <span aria-hidden="true">👋</span></h2>' +
+      '<p>' + esc(ya) + '</p>' + continuar.replace("card card--continue", "welcome__continue") + '</section>';
+    function promo(titulo, texto, botones) {
+      return '<section class="promo card"><h2 class="promo__title">' + titulo + '</h2><p class="promo__text">' + texto + '</p><div class="promo__actions">' + botones + '</div></section>';
+    }
+    function bot(href, icono, texto, extra) {
+      return '<a class="btn btn--primary btn--tile" href="' + href + '">' + I(icono) + '<span>' + texto + '</span>' + (extra || "") + '</a>';
+    }
+    var tarjetas =
+      promo("Prepárate para tu examen",
+        "Practica con preguntas comentadas por especialidad y mídete con simulacros cronometrados. Cada pregunta trae su comentario y su flujograma.",
+        bot("#/banco", "libro", "Banco de preguntas") + bot("#/simuladores", "reloj", "Simuladores")) +
+      promo("Refuerza lo que ya practicaste",
+        "Repasa las preguntas que fallaste, las que guardaste con la estrella y mira en qué especialidades vas mejor.",
+        bot("#/falladas", "cruz", "Falladas", fall ? '<b class="btn__n">' + fall + '</b>' : "") + bot("#/favoritas", "estrella", "Favoritas", nFav ? '<b class="btn__n">' + nFav + '</b>' : "") + bot("#/progreso", "grafico", "Mi progreso"));
+
+    return '<div class="welcome"><div class="welcome__side">' + bienvenida + '</div><div class="welcome__main">' + tarjetas +
+      '<div class="welcome__two">' +
+        '<section class="card"><div class="card__head"><h2 class="card__h">Tu resumen</h2><a class="link-arrow" href="#/progreso">Ver mi progreso <span aria-hidden="true">→</span></a></div>' + resumen + '</section>' +
+        '<section class="card"><div class="card__head"><h2 class="card__h">Actividad reciente</h2></div>' + actividad + '</section>' +
+      '</div></div></div>';
   }
 
   function listaSesiones(lista) {
@@ -352,6 +351,21 @@
   function candidatas() {
     return M.filtrar(datos.preguntas, { examen: conf.examen, archivos: conf.archivos, categorias: conf.categorias, filtro: conf.filtro });
   }
+  /* ---------- Banco: elegir un banco (lista) ---------- */
+  function vistaBancos() {
+    var filas = M.examenes.map(function (e) {
+      var c = conteo[e.id], vivo = e.estado === "disponible";
+      var sub = vivo ? M.plural(c.total, "pregunta comentada", "preguntas comentadas") : (c.total ? M.plural(c.total, "pregunta tipo", "preguntas tipo") : "Banco en construcción");
+      return '<li><a class="bank-row" href="#/examenes/' + e.id + '"><span class="bank-row__mark' + (vivo ? " is-live" : "") + '">' + esc(e.nombre.charAt(0)) + '</span>' +
+        '<span class="bank-row__name">' + esc(e.nombre) + '<small>' + esc(sub) + '</small></span>' +
+        (vivo ? "" : '<span class="badge badge--soon">Próximamente</span>') + I("chevron", "bank-row__go") + '</a></li>';
+    }).join("");
+    return cabecera("Banco de preguntas", "Selecciona un banco de preguntas", "Elige el examen que preparas y entra por área y especialidad.") +
+      '<div class="bank-list card"><ul>' + filas +
+      '<li class="bank-list__sep"><a class="bank-row" href="#/banco/configurar"><span class="bank-row__mark bank-row__mark--custom">' + I("ajustes") + '</span>' +
+      '<span class="bank-row__name">Arma tu sesión a medida<small>Varias especialidades, materias, filtros y cantidad de preguntas</small></span>' + I("chevron", "bank-row__go") + '</a></li></ul></div>';
+  }
+
   function vistaBanco() {
     if (!conf.examen) conf.examen = examenPreferido();
     var c = conteo[conf.examen];
@@ -405,7 +419,7 @@
     }).join("");
 
     var tiempo = conf.modo === "simulacro" ? " · " + M.duracion(usar * 60) : "";
-    return cabecera("Banco de preguntas", "Arma tu sesión", "Elige examen, especialidades, qué preguntas incluir y cómo quieres resolverlas.") +
+    return '<nav class="crumbs" aria-label="Ruta"><a href="#/banco">Banco de preguntas</a><span aria-hidden="true">/</span><span aria-current="page">Arma tu sesión</span></nav>' + cabecera("Banco de preguntas", "Arma tu sesión", "Elige examen, especialidades, qué preguntas incluir y cómo quieres resolverlas.") +
       '<form class="builder" id="builder" onsubmit="return false">' +
         '<fieldset class="builder__step"><legend><span>1</span>Examen</legend><div class="picks">' + exams + '</div></fieldset>' +
         '<fieldset class="builder__step"><legend><span>2</span>Especialidades <small>' + (conf.archivos.length ? M.plural(conf.archivos.length, "elegida", "elegidas") : "todas") + '</small></legend><div class="chips chips--compact chips--wrap" id="bEsp">' + chips + '</div></fieldset>' +
@@ -716,7 +730,7 @@
     inicio: { titulo: "Inicio", vista: vistaInicio },
     noencontrada: { titulo: "No encontrada", vista: vistaNoEncontrada },
     examenes: { titulo: "Exámenes", vista: function (arg) { return arg ? vistaExamen(arg) : vistaExamenes(); }, alMontar: function (arg) { if (arg && M.examen(arg)) { montarTarjetas(arg); enlazarFiltros(arg); } } },
-    banco: { titulo: "Banco de preguntas", vista: vistaBanco, alMontar: enlazarBanco },
+    banco: { titulo: "Banco de preguntas", vista: function (arg) { return arg === "configurar" ? vistaBanco() : vistaBancos(); }, alMontar: function (arg) { if (arg === "configurar") enlazarBanco(); } },
     simuladores: { titulo: "Simuladores", vista: function (arg) { return arg ? vistaSimulador(arg) : vistaSimuladores(); }, alMontar: function (arg) { if (arg) enlazarSimulador(arg); } },
     progreso: { titulo: "Mi progreso", vista: vistaProgreso },
     falladas: { titulo: "Preguntas falladas", vista: vistaFalladas },
@@ -803,6 +817,34 @@
   scrim.addEventListener("click", cerrarMenu);
   document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && document.body.classList.contains("menu-abierto")) { cerrarMenu(); abrirBtn.focus(); } });
   side.addEventListener("click", function (ev) { if (ev.target.closest && ev.target.closest("a")) cerrarMenu(); });
+
+  /* ---------- buscador global: especialidades y simuladores reales ---------- */
+  (function () {
+    var inp = document.getElementById("gsInput"), lista = document.getElementById("gsList");
+    if (!inp || !lista) return;
+    function norm(t) { return String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+    var items = [];
+    function cargar() {
+      if (items.length) return;
+      M.especialidades.forEach(function (e) { items.push({ t: e.nombre, k: "Especialidad · ENAM", h: "#/examenes/enam?q=" + encodeURIComponent(e.nombre) }); });
+      M.simuladores.forEach(function (x) { if (x.estado === "disponible") items.push({ t: x.titulo, k: "Simulador", h: "#/simuladores/" + x.id }); });
+      [["Mi progreso", "#/progreso"], ["Preguntas falladas", "#/falladas"], ["Favoritas", "#/favoritas"], ["Arma tu sesión", "#/banco/configurar"]].forEach(function (p) { items.push({ t: p[0], k: "Sección", h: p[1] }); });
+    }
+    var sel = -1, res = [];
+    function pintar() {
+      lista.innerHTML = res.length ? res.map(function (r, i) { return '<li role="option" id="gs' + i + '"' + (i === sel ? ' aria-selected="true"' : "") + '><a href="' + r.h + '"><b>' + esc(r.t) + '</b><small>' + esc(r.k) + '</small></a></li>'; }).join("") : '<li class="gs__none">Sin resultados</li>';
+      lista.hidden = !inp.value.trim();
+      inp.setAttribute("aria-expanded", String(!lista.hidden));
+    }
+    inp.addEventListener("input", function () { cargar(); var q = norm(inp.value.trim()); res = q ? items.filter(function (i) { return norm(i.t).indexOf(q) !== -1; }).slice(0, 7) : []; sel = -1; pintar(); });
+    inp.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape") { inp.value = ""; res = []; pintar(); return; }
+      if (ev.key === "ArrowDown" || ev.key === "ArrowUp") { ev.preventDefault(); if (!res.length) return; sel = (sel + (ev.key === "ArrowDown" ? 1 : res.length - 1)) % res.length; pintar(); }
+      if (ev.key === "Enter") { var r = res[sel < 0 ? 0 : sel]; if (r) { ev.preventDefault(); location.hash = r.h; inp.value = ""; res = []; pintar(); inp.blur(); } }
+    });
+    lista.addEventListener("click", function () { inp.value = ""; res = []; pintar(); });
+    document.addEventListener("click", function (ev) { if (!ev.target.closest(".gsearch")) { lista.hidden = true; } });
+  })();
 
   /* ---------- arranque ---------- */
   sesion.hidden = true;

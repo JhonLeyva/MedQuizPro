@@ -67,6 +67,11 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
       <p class="topbar__title" id="tbTitle">Inicio</p>
+      <div class="gsearch" role="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="gsInput" type="search" placeholder="Buscar especialidades, simuladores…" autocomplete="off" aria-label="Buscar en la plataforma" aria-controls="gsList" aria-expanded="false">
+        <ul class="gsearch__list" id="gsList" role="listbox" hidden></ul>
+      </div>
       <a class="topbar__exam badge badge--brand" id="tbExam" href="#/perfil" title="Examen que estás preparando">ENAM</a>
     </header>
 

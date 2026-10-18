@@ -312,3 +312,49 @@ body.en-sesion .chat-launcher__label { display: none; }
 .filters__search input:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-color: var(--brand); }
 .filters .chips { margin-top: 0; }
 [hidden].spec, .area[hidden] { display: none !important; }
+
+/* ---------- barra superior con buscador ---------- */
+.gsearch { position: relative; flex: 1 1 320px; max-width: 560px; margin-inline: auto; }
+.gsearch > svg { position: absolute; left: 14px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); color: var(--ink-3); pointer-events: none; }
+.gsearch input { width: 100%; height: 42px; padding: 0 14px 0 42px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-2); color: var(--ink); font: inherit; font-size: .92rem; }
+.gsearch input:focus-visible { outline: none; border-color: var(--brand); background: var(--surface); box-shadow: var(--ring); }
+.gsearch__list { position: absolute; z-index: 30; left: 0; right: 0; top: calc(100% + 6px); margin: 0; padding: 6px; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-lg); }
+.gsearch__list a { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; padding: 10px 12px; border-radius: 10px; color: var(--ink); text-decoration: none; }
+.gsearch__list li[aria-selected="true"] a, .gsearch__list a:hover { background: var(--brand-soft); }
+.gsearch__list small, .gs__none { color: var(--ink-3); font-size: .8rem; }
+.gs__none { padding: 10px 12px; }
+@media (max-width: 760px) { .topbar__title { display: none; } .gsearch { flex-basis: 0; } }
+
+/* ---------- inicio: bienvenida + tarjetas de acceso ---------- */
+.welcome { display: grid; grid-template-columns: minmax(240px, 300px) minmax(0, 1fr); gap: var(--space-5); align-items: start; }
+.welcome__side, .welcome__main { display: grid; gap: var(--space-5); min-width: 0; }
+.welcome__title { font-family: var(--f-display); font-size: 1.25rem; color: var(--ink); margin: 0 0 var(--space-3); }
+.welcome__hi p { color: var(--ink-2); line-height: 1.6; margin: 0 0 var(--space-4); }
+.welcome__continue { display: grid; gap: 8px; padding: var(--space-4); border-radius: var(--radius); background: var(--brand-tint); border: 1px solid var(--brand-soft); }
+.welcome__continue .card__title { font-size: 1rem; margin: 0; }
+.welcome__continue .btn { justify-self: start; }
+.promo__title { font-family: var(--f-display); font-size: 1.2rem; color: var(--ink); margin: 0 0 var(--space-2); }
+.promo__text { color: var(--ink-2); line-height: 1.6; margin: 0 0 var(--space-5); max-width: 62ch; }
+.promo__actions { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.btn--tile { flex: 1 1 200px; justify-content: center; gap: 10px; text-transform: none; }
+.btn--tile svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.btn__n { margin-left: 4px; min-width: 22px; padding: 1px 7px; border-radius: 999px; background: rgba(255, 255, 255, .22); font-size: .78rem; text-align: center; }
+.welcome__two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5); }
+@media (max-width: 1100px) { .welcome { grid-template-columns: minmax(0, 1fr); } .welcome__two { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- lista de bancos ---------- */
+.bank-list { padding: 8px; max-width: 760px; }
+.bank-list ul { list-style: none; margin: 0; padding: 0; }
+.bank-list__sep { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--line); }
+.bank-row { display: flex; align-items: center; gap: 14px; padding: 14px 12px; border-radius: 12px; color: var(--ink); text-decoration: none; transition: background .15s; }
+.bank-row:hover { background: var(--surface-2); }
+.bank-row:focus-visible { outline: none; box-shadow: var(--ring); }
+.bank-row__mark { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--surface-2); color: var(--ink-3); font-weight: 800; flex: none; }
+.bank-row__mark.is-live { background: var(--brand-soft); color: var(--brand-strong); }
+.bank-row__mark--custom { background: var(--brand); color: #fff; }
+.bank-row__mark svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.bank-row__name { flex: 1; font-weight: 700; min-width: 0; }
+.bank-row__name small { display: block; font-weight: 500; color: var(--ink-3); margin-top: 2px; }
+.bank-row__go { width: 20px; height: 20px; fill: none; stroke: var(--ink-3); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.bank-row:hover .bank-row__go { stroke: var(--brand); }
+.topbar__title { flex: 0 0 190px; }

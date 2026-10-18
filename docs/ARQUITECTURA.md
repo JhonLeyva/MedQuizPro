@@ -27,6 +27,8 @@ Sin rutas eliminadas. Añadidas: `#/examenes/:id?q=&area=` (parámetros de filtr
 - Móvil/tablet: el escenario baja bajo el texto (300–400 px), tarjetas auxiliares ocultas.
 
 ## 5. Archivos
+Inicio del app tipo "bienvenida", lista de bancos (`#/banco`, configurador en `#/banco/configurar`) y buscador global en la barra superior.
+
 Modificados: `index.html`, `pro.css`, `pro.js`, `hero3d.js`. Añadidos al repo (copia de la versión en producción v20260930 + cambios): `catalogo.js` (solo se añadió el icono `lupa`), `app/index.html`, `app/app.js`, `app/app.css`.
 
 ## 6. Pendiente / limitaciones
