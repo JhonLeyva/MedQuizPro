@@ -383,3 +383,11 @@ body.en-sesion .chat-launcher__label { display: none; }
 .form-error { margin: var(--space-4) 0 0; padding: 10px 14px; border-radius: 10px; background: var(--bad-soft); color: var(--bad); font-weight: 600; font-size: .9rem; }
 .picks--row { display: flex; flex-wrap: wrap; gap: 8px; }
 .card__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: var(--space-4); }
+
+/* ---------- especialidades: lista plana con orden y chips ---------- */
+.filters__sort { display: inline-flex; align-items: center; gap: 8px; font-size: .86rem; color: var(--ink-2); }
+.filters__sort select { height: 44px; padding: 0 34px 0 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; font-size: .9rem; }
+.filters__sort select:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.filters__chips { flex: 1 1 100%; }
+.filters__count { margin: 0 0 var(--space-4); }
+#gridEsp { margin-top: var(--space-2); }

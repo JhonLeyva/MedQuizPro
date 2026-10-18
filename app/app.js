@@ -307,89 +307,88 @@
       (c.total ? "Estamos construyendo el banco completo por especialidad. Mientras tanto ya puedes resolver " + M.plural(c.total, "pregunta tipo publicada", "preguntas tipo publicadas") + "." : "Estamos construyendo el banco completo por especialidad.") +
       '</p></div>' + (c.total ? '<button class="btn btn--ghost btn--sm" type="button" data-accion="examen" data-examen="' + ex.id + '">Practicar ' + M.plural(c.total, "pregunta tipo", "preguntas tipo") + '</button>' : "") + '</div>';
 
-    var bloques = M.areas.map(function (area) {
-      var esps = M.especialidades.filter(function (e) { return e.area === area.id; });
-      var total = 0;
-      for (var k = 0; k < esps.length; k++) total += c.porArchivo[esps[k].archivo] || 0;
-      return '<section class="area" data-area="' + area.id + '">' +
-        '<div class="area__head"><div><h2 class="area__title">' + esc(area.nombre) + '</h2>' +
-        '<p class="area__meta">' + (total ? M.plural(total, "pregunta", "preguntas") + " · " : "") + M.plural(esps.length, "especialidad", "especialidades") + '</p></div>' +
-        (total && esps.length > 1 ? '<button class="btn btn--ghost btn--sm" type="button" data-accion="area" data-area="' + area.id + '" data-examen="' + ex.id + '">Entrenar el área</button>' : "") +
-        '</div><div class="specs specs--app" data-area-grid="' + area.id + '"></div></section>';
-    }).join("");
-
-    var q = parametros.q || "", fa = parametros.area || "";
+    var q = parametros.q || "", fe = parametros.esp || "", ord = ORDENES[parametros.orden] ? parametros.orden : "az";
+    var alfa = M.especialidades.slice().sort(function (x, y) { return x.nombre.localeCompare(y.nombre, "es"); });
     var filtros = '<div class="filters" role="search">' +
       '<label class="filters__search"><span class="sr-only">Buscar especialidad</span>' + I("lupa") +
       '<input type="search" id="fEsp" placeholder="Buscar especialidad…" value="' + esc(q) + '" autocomplete="off"></label>' +
-      '<div class="chips chips--compact" id="fAreas" role="group" aria-label="Filtrar por área">' +
-      '<button class="chip" type="button" data-area="" aria-pressed="' + (fa ? "false" : "true") + '">Todas</button>' +
-      M.areas.map(function (a) { return '<button class="chip" type="button" data-area="' + a.id + '" aria-pressed="' + (fa === a.id ? "true" : "false") + '">' + esc(a.nombre) + '</button>'; }).join("") +
-      '</div></div><div id="fVacio" hidden>' + vacio("lupa", "Ninguna especialidad coincide", "Prueba con otra palabra o quita el filtro de área.", '<button class="btn btn--ghost" type="button" id="fLimpiar">Quitar filtros</button>') + '</div>';
+      '<label class="filters__sort"><span>Ordenar por</span><select id="fOrden">' + Object.keys(ORDENES).map(function (k) { return '<option value="' + k + '"' + (k === ord ? " selected" : "") + '>' + ORDENES[k] + '</option>'; }).join("") + '</select></label>' +
+      '<div class="chips chips--compact filters__chips" id="fAreas" role="group" aria-label="Filtrar por especialidad">' +
+      '<button class="chip" type="button" data-esp="" aria-pressed="' + (fe ? "false" : "true") + '">Todas (' + alfa.length + ')</button>' +
+      alfa.map(function (e) { return '<button class="chip" type="button" data-esp="' + e.archivo + '" aria-pressed="' + (fe === e.archivo ? "true" : "false") + '">' + esc(e.nombre) + '</button>'; }).join("") +
+      '</div></div><p class="filters__count muted small" id="fCuenta" aria-live="polite"></p><div class="specs specs--app" id="gridEsp"></div>' +
+      '<div id="fVacio" hidden>' + vacio("lupa", "Ninguna especialidad coincide", "Prueba con otra palabra o quita el filtro.", '<button class="btn btn--ghost" type="button" id="fLimpiar">Quitar filtros</button>') + '</div>';
     return '<nav class="crumbs" aria-label="Ruta"><a href="#/examenes">Exámenes</a><span aria-hidden="true">/</span><span aria-current="page">' + esc(ex.nombre) + '</span></nav>' +
-      cabecera(vivo ? "Banco disponible" : "Próximamente", esc(ex.titulo), esc(ex.lema), extra) + aviso + filtros + bloques;
+      cabecera(vivo ? "Banco disponible" : "Próximamente", esc(ex.titulo), esc(ex.lema), extra) + aviso + filtros;
   }
   /* las tarjetas de especialidad son el componente compartido (main.js → MQP.ui) */
+  var ORDENES = { az: "Orden alfabético (A–Z)", preguntas: "Más preguntas", pendientes: "Menos avance", reforzar: "Por reforzar (menos aciertos)" };
+  var tarjetasEsp = [];
   function montarTarjetas(exId) {
     var c = conteo[exId], prog = M.ui.progresoPorArchivo(exId), k = 0;
-    var vivo = M.examen(exId).estado === "disponible";
-    var grids = raiz.querySelectorAll("[data-area-grid]");
-    for (var g = 0; g < grids.length; g++) {
-      var area = grids[g].getAttribute("data-area-grid");
-      M.especialidades.forEach(function (esp) {
-        if (esp.area !== area) return;
-        var t = M.ui.tarjetaEspecialidad(esp, k++, function (e, materia) {
-          var attrs = { "data-archivo": esp.archivo, "data-examen": exId, "data-categoria": materia || "" };
-          ACCIONES.especialidad({ getAttribute: function (n) { return attrs[n]; } });
-        });
-        var ok = datos.porArchivo[esp.archivo] && datos.porArchivo[esp.archivo].ok;
-        var p = prog[esp.archivo] || {};
-        t.actualizar(ok ? { estado: "ok", total: c.porArchivo[esp.archivo] || 0, respondidas: p.respondidas || 0, tipo: !vivo,
-          materias: esp.categorias.length ? M.ui.contarMaterias(datos.preguntas, esp.archivo, exId) : null } : { estado: "error" });
-        grids[g].appendChild(t.nodo);
+    var vivo = M.examen(exId).estado === "disponible", grid = document.getElementById("gridEsp");
+    tarjetasEsp = [];
+    M.especialidades.forEach(function (esp) {
+      var t = M.ui.tarjetaEspecialidad(esp, k++, function (e, materia) {
+        var attrs = { "data-archivo": esp.archivo, "data-examen": exId, "data-categoria": materia || "" };
+        ACCIONES.especialidad({ getAttribute: function (n) { return attrs[n]; } });
       });
-    }
+      var ok = datos.porArchivo[esp.archivo] && datos.porArchivo[esp.archivo].ok;
+      var p = prog[esp.archivo] || {}, total = c.porArchivo[esp.archivo] || 0;
+      t.actualizar(ok ? { estado: "ok", total: total, respondidas: p.respondidas || 0, tipo: !vivo,
+        materias: esp.categorias.length ? M.ui.contarMaterias(datos.preguntas, esp.archivo, exId) : null } : { estado: "error" });
+      t.nodo.setAttribute("data-esp", esp.archivo);
+      tarjetasEsp.push({ nodo: t.nodo, esp: esp, total: total, resp: p.respondidas || 0, corr: p.correctas || 0 });
+    });
+    ordenarTarjetas("az");
+    tarjetasEsp.forEach(function (x) { grid.appendChild(x.nodo); });
+  }
+  function ordenarTarjetas(clave) {
+    var grid = document.getElementById("gridEsp");
+    function alfa(a, b) { return a.esp.nombre.localeCompare(b.esp.nombre, "es"); }
+    function avance(x) { return x.total ? x.resp / x.total : 1; }
+    function acierto(x) { return x.resp >= 3 ? x.corr / x.resp : 2; }       // sin datos suficientes, al final
+    var f = { az: alfa,
+      preguntas: function (a, b) { return b.total - a.total || alfa(a, b); },
+      pendientes: function (a, b) { return avance(a) - avance(b) || alfa(a, b); },
+      reforzar: function (a, b) { return acierto(a) - acierto(b) || alfa(a, b); } }[clave] || alfa;
+    tarjetasEsp.sort(f);
+    if (grid) tarjetasEsp.forEach(function (x) { grid.appendChild(x.nodo); });
   }
 
-  /* búsqueda y filtro por área: el estado vive en la URL (#/examenes/enam?q=…&area=…), así atrás / recargar lo conservan */
+  /* búsqueda, filtro por especialidad y orden: el estado vive en la URL (#/examenes/enam?q=…&esp=…&orden=…), así atrás / recargar lo conservan */
   function enlazarFiltros(exId) {
-    var inp = document.getElementById("fEsp"), chips = document.getElementById("fAreas");
-    if (!inp || !chips) return;
+    var inp = document.getElementById("fEsp"), chips = document.getElementById("fAreas"), sel = document.getElementById("fOrden");
+    if (!inp || !chips || !sel) return;
     function norm(t) { return String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
-    var area = parametros.area || "";
+    var esp = parametros.esp || "";
     function aplicar() {
       var q = norm(inp.value.trim()), visibles = 0;
-      var bloques = raiz.querySelectorAll(".area");
-      for (var b = 0; b < bloques.length; b++) {
-        var okArea = !area || bloques[b].getAttribute("data-area") === area, n = 0;
-        var cards = bloques[b].querySelectorAll(".spec");
-        for (var c = 0; c < cards.length; c++) {
-          var t = norm(cards[c].querySelector(".spec__name").textContent);
-          var ver = okArea && (!q || t.indexOf(q) !== -1);
-          cards[c].hidden = !ver; if (ver) n++;
-        }
-        bloques[b].hidden = !n; visibles += n;
-      }
+      tarjetasEsp.forEach(function (x) {
+        var ver = (!esp || x.esp.archivo === esp) && (!q || norm(x.esp.nombre).indexOf(q) !== -1);
+        x.nodo.hidden = !ver; if (ver) visibles++;
+      });
       document.getElementById("fVacio").hidden = visibles > 0;
+      document.getElementById("fCuenta").textContent = visibles === tarjetasEsp.length ? M.plural(visibles, "especialidad", "especialidades") + " · " + ORDENES[sel.value].toLowerCase() : visibles + " de " + tarjetasEsp.length + " especialidades";
       var qs = [];
       if (inp.value.trim()) qs.push("q=" + encodeURIComponent(inp.value.trim()));
-      if (area) qs.push("area=" + encodeURIComponent(area));
+      if (esp) qs.push("esp=" + encodeURIComponent(esp));
+      if (sel.value !== "az") qs.push("orden=" + sel.value);
       history.replaceState(null, "", "#/examenes/" + encodeURIComponent(exId) + (qs.length ? "?" + qs.join("&") : ""));
     }
+    function marcar(valor) {
+      esp = valor;
+      var todos = chips.querySelectorAll(".chip");
+      for (var k = 0; k < todos.length; k++) todos[k].setAttribute("aria-pressed", todos[k].getAttribute("data-esp") === valor ? "true" : "false");
+    }
     inp.addEventListener("input", aplicar);
+    sel.addEventListener("change", function () { ordenarTarjetas(sel.value); aplicar(); });
     chips.addEventListener("click", function (ev) {
       var b = ev.target.closest && ev.target.closest(".chip"); if (!b) return;
-      area = b.getAttribute("data-area") || "";
-      var todos = chips.querySelectorAll(".chip");
-      for (var k = 0; k < todos.length; k++) todos[k].setAttribute("aria-pressed", todos[k] === b ? "true" : "false");
-      aplicar();
+      marcar(b.getAttribute("data-esp") || ""); aplicar();
     });
-    document.getElementById("fLimpiar").addEventListener("click", function () {
-      inp.value = ""; area = "";
-      var todos = chips.querySelectorAll(".chip");
-      for (var k = 0; k < todos.length; k++) todos[k].setAttribute("aria-pressed", todos[k].getAttribute("data-area") === "" ? "true" : "false");
-      aplicar(); inp.focus();
-    });
+    document.getElementById("fLimpiar").addEventListener("click", function () { inp.value = ""; marcar(""); aplicar(); inp.focus(); });
+    ordenarTarjetas(sel.value);
     aplicar();
   }
 
