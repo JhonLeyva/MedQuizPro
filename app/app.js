@@ -307,17 +307,16 @@
       (c.total ? "Estamos construyendo el banco completo por especialidad. Mientras tanto ya puedes resolver " + M.plural(c.total, "pregunta tipo publicada", "preguntas tipo publicadas") + "." : "Estamos construyendo el banco completo por especialidad.") +
       '</p></div>' + (c.total ? '<button class="btn btn--ghost btn--sm" type="button" data-accion="examen" data-examen="' + ex.id + '">Practicar ' + M.plural(c.total, "pregunta tipo", "preguntas tipo") + '</button>' : "") + '</div>';
 
-    var q = parametros.q || "", fe = parametros.esp || "", ord = ORDENES[parametros.orden] ? parametros.orden : "az";
-    var alfa = M.especialidades.slice().sort(function (x, y) { return x.nombre.localeCompare(y.nombre, "es"); });
+    var ord = ORDENES[parametros.orden] ? parametros.orden : "az";
     var filtros = '<div class="filters" role="search">' +
-      '<label class="filters__search"><span class="sr-only">Buscar especialidad</span>' + I("lupa") +
-      '<input type="search" id="fEsp" placeholder="Buscar especialidad…" value="' + esc(q) + '" autocomplete="off"></label>' +
+      '<div class="combo" id="fCombo">' + I("lupa") +
+      '<input type="text" id="fEsp" role="combobox" aria-expanded="false" aria-controls="fLista" aria-autocomplete="list" placeholder="Buscar o elegir especialidades…" value="' + esc(parametros.q || "") + '" autocomplete="off">' +
+      '<button class="combo__btn" type="button" id="fAbrir" aria-label="Ver todas las especialidades" tabindex="-1">' + I("chevron", "combo__chev") + '</button>' +
+      '<ul class="combo__lista" id="fLista" role="listbox" aria-multiselectable="true" hidden></ul></div>' +
       '<label class="filters__sort"><span>Ordenar por</span><select id="fOrden">' + Object.keys(ORDENES).map(function (k) { return '<option value="' + k + '"' + (k === ord ? " selected" : "") + '>' + ORDENES[k] + '</option>'; }).join("") + '</select></label>' +
-      '<div class="chips chips--compact filters__chips" id="fAreas" role="group" aria-label="Filtrar por especialidad">' +
-      '<button class="chip" type="button" data-esp="" aria-pressed="' + (fe ? "false" : "true") + '">Todas (' + alfa.length + ')</button>' +
-      alfa.map(function (e) { return '<button class="chip" type="button" data-esp="' + e.archivo + '" aria-pressed="' + (fe === e.archivo ? "true" : "false") + '">' + esc(e.nombre) + '</button>'; }).join("") +
-      '</div></div><p class="filters__count muted small" id="fCuenta" aria-live="polite"></p><div class="specs specs--app" id="gridEsp"></div>' +
-      '<div id="fVacio" hidden>' + vacio("lupa", "Ninguna especialidad coincide", "Prueba con otra palabra o quita el filtro.", '<button class="btn btn--ghost" type="button" id="fLimpiar">Quitar filtros</button>') + '</div>';
+      '</div><div class="filters__sel" id="fSel" hidden></div>' +
+      '<p class="filters__count muted small" id="fCuenta" aria-live="polite"></p><div class="specs specs--app" id="gridEsp"></div>' +
+      '<div id="fVacio" hidden>' + vacio("lupa", "Ninguna especialidad coincide", "Prueba con otra palabra o quita los filtros.", '<button class="btn btn--ghost" type="button" id="fLimpiar">Quitar filtros</button>') + '</div>';
     return '<nav class="crumbs" aria-label="Ruta"><a href="#/examenes">Exámenes</a><span aria-hidden="true">/</span><span aria-current="page">' + esc(ex.nombre) + '</span></nav>' +
       cabecera(vivo ? "Banco disponible" : "Próximamente", esc(ex.titulo), esc(ex.lema), extra) + aviso + filtros;
   }
@@ -356,38 +355,85 @@
     if (grid) tarjetasEsp.forEach(function (x) { grid.appendChild(x.nodo); });
   }
 
-  /* búsqueda, filtro por especialidad y orden: el estado vive en la URL (#/examenes/enam?q=…&esp=…&orden=…), así atrás / recargar lo conservan */
+  /* buscador con lista desplegable de selección múltiple; el estado vive en la URL
+     (#/examenes/enam?q=…&esp=a,b&orden=…), así atrás / recargar lo conservan */
   function enlazarFiltros(exId) {
-    var inp = document.getElementById("fEsp"), chips = document.getElementById("fAreas"), sel = document.getElementById("fOrden");
-    if (!inp || !chips || !sel) return;
+    var inp = document.getElementById("fEsp"), lista = document.getElementById("fLista"), sel = document.getElementById("fOrden"), combo = document.getElementById("fCombo");
+    if (!inp || !lista || !sel) return;
     function norm(t) { return String(t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
-    var esp = parametros.esp || "";
+    var validos = {}; M.especialidades.forEach(function (e) { validos[e.archivo] = e; });
+    var elegidas = (parametros.esp || "").split(",").filter(function (a) { return validos[a]; });
+    var alfa = M.especialidades.slice().sort(function (x, y) { return x.nombre.localeCompare(y.nombre, "es"); });
+    var total = {}; tarjetasEsp.forEach(function (x) { total[x.esp.archivo] = x.total; });
+    var activo = -1, visibles = [];
+
+    function pintarLista() {
+      var q = norm(inp.value.trim());
+      visibles = alfa.filter(function (e) { return !q || norm(e.nombre).indexOf(q) !== -1; });
+      lista.innerHTML = visibles.length ? visibles.map(function (e, i) {
+        var on = elegidas.indexOf(e.archivo) !== -1;
+        return '<li role="option" id="fo' + i + '" data-esp="' + e.archivo + '" aria-selected="' + on + '" class="combo__op' + (i === activo ? " is-activo" : "") + '"><span class="combo__chk" aria-hidden="true">' + (on ? "✓" : "") + '</span><span class="combo__nom">' + esc(e.nombre) + '</span><small>' + (total[e.archivo] || 0) + '</small></li>';
+      }).join("") : '<li class="combo__vacio">Ninguna especialidad coincide</li>';
+      if (activo >= 0) inp.setAttribute("aria-activedescendant", "fo" + activo); else inp.removeAttribute("aria-activedescendant");
+    }
+    function abrir(v) { lista.hidden = !v; inp.setAttribute("aria-expanded", String(v)); combo.classList.toggle("is-abierto", v); if (v) pintarLista(); }
+    function pintarSeleccion() {
+      var cont = document.getElementById("fSel");
+      if (!elegidas.length) { cont.hidden = true; cont.innerHTML = ""; return; }
+      var preguntas = elegidas.reduce(function (n, a) { return n + (total[a] || 0); }, 0);
+      cont.hidden = false;
+      cont.innerHTML = '<span class="filters__sel-t">Elegidas:</span>' + elegidas.map(function (a) { return '<button type="button" class="pill" data-quitar="' + a + '" aria-label="Quitar ' + esc(validos[a].nombre) + '">' + esc(validos[a].nombre) + ' <span aria-hidden="true">✕</span></button>'; }).join("") +
+        '<button type="button" class="btn btn--primary btn--sm" id="fEntrenar">Entrenar ' + (elegidas.length === 1 ? "esta especialidad" : "las " + elegidas.length + " elegidas") + ' · ' + M.plural(preguntas, "pregunta", "preguntas") + '</button>' +
+        '<button type="button" class="link-btn" id="fQuitarTodo">Quitar todas</button>';
+    }
     function aplicar() {
-      var q = norm(inp.value.trim()), visibles = 0;
+      var q = norm(inp.value.trim()), n = 0;
       tarjetasEsp.forEach(function (x) {
-        var ver = (!esp || x.esp.archivo === esp) && (!q || norm(x.esp.nombre).indexOf(q) !== -1);
-        x.nodo.hidden = !ver; if (ver) visibles++;
+        var ver = elegidas.length ? elegidas.indexOf(x.esp.archivo) !== -1 : (!q || norm(x.esp.nombre).indexOf(q) !== -1);
+        x.nodo.hidden = !ver; if (ver) n++;
       });
-      document.getElementById("fVacio").hidden = visibles > 0;
-      document.getElementById("fCuenta").textContent = visibles === tarjetasEsp.length ? M.plural(visibles, "especialidad", "especialidades") + " · " + ORDENES[sel.value].toLowerCase() : visibles + " de " + tarjetasEsp.length + " especialidades";
+      document.getElementById("fVacio").hidden = n > 0;
+      document.getElementById("fCuenta").textContent = n === tarjetasEsp.length ? M.plural(n, "especialidad", "especialidades") + " · " + ORDENES[sel.value].toLowerCase() : n + " de " + tarjetasEsp.length + " especialidades";
       var qs = [];
-      if (inp.value.trim()) qs.push("q=" + encodeURIComponent(inp.value.trim()));
-      if (esp) qs.push("esp=" + encodeURIComponent(esp));
+      if (inp.value.trim() && !elegidas.length) qs.push("q=" + encodeURIComponent(inp.value.trim()));
+      if (elegidas.length) qs.push("esp=" + elegidas.join(","));
       if (sel.value !== "az") qs.push("orden=" + sel.value);
       history.replaceState(null, "", "#/examenes/" + encodeURIComponent(exId) + (qs.length ? "?" + qs.join("&") : ""));
+      pintarSeleccion();
     }
-    function marcar(valor) {
-      esp = valor;
-      var todos = chips.querySelectorAll(".chip");
-      for (var k = 0; k < todos.length; k++) todos[k].setAttribute("aria-pressed", todos[k].getAttribute("data-esp") === valor ? "true" : "false");
+    function alternar(arch) {
+      var i = elegidas.indexOf(arch);
+      if (i === -1) elegidas.push(arch); else elegidas.splice(i, 1);
+      aplicar(); pintarLista();
     }
-    inp.addEventListener("input", aplicar);
-    sel.addEventListener("change", function () { ordenarTarjetas(sel.value); aplicar(); });
-    chips.addEventListener("click", function (ev) {
-      var b = ev.target.closest && ev.target.closest(".chip"); if (!b) return;
-      marcar(b.getAttribute("data-esp") || ""); aplicar();
+
+    inp.addEventListener("focus", function () { abrir(true); });
+    inp.addEventListener("input", function () { activo = -1; abrir(true); aplicar(); });
+    document.getElementById("fAbrir").addEventListener("click", function () { if (lista.hidden) { abrir(true); inp.focus(); } else abrir(false); });
+    inp.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowDown" || ev.key === "ArrowUp") { ev.preventDefault(); if (lista.hidden) abrir(true); if (!visibles.length) return; activo = (activo + (ev.key === "ArrowDown" ? 1 : visibles.length - 1)) % visibles.length; pintarLista(); var el = document.getElementById("fo" + activo); if (el && el.scrollIntoView) el.scrollIntoView({ block: "nearest" }); }
+      else if (ev.key === "Enter") { ev.preventDefault(); if (activo >= 0 && visibles[activo]) alternar(visibles[activo].archivo); else if (visibles.length === 1) alternar(visibles[0].archivo); }
+      else if (ev.key === "Escape") { abrir(false); }
+      else if (ev.key === "Backspace" && !inp.value && elegidas.length) { elegidas.pop(); aplicar(); pintarLista(); }
     });
-    document.getElementById("fLimpiar").addEventListener("click", function () { inp.value = ""; marcar(""); aplicar(); inp.focus(); });
+    lista.addEventListener("mousedown", function (ev) { ev.preventDefault(); });          // no pierde el foco del campo
+    lista.addEventListener("click", function (ev) { var li = ev.target.closest && ev.target.closest("[data-esp]"); if (li) alternar(li.getAttribute("data-esp")); });
+    document.addEventListener("click", function cierra(ev) {
+      if (!document.getElementById("fCombo")) { document.removeEventListener("click", cierra); return; }
+      var ruta = ev.composedPath ? ev.composedPath() : [];            // el clic en una opción re-pinta la lista: se mira la ruta original
+      if (ruta.indexOf(combo) === -1) abrir(false);
+    });
+    sel.addEventListener("change", function () { ordenarTarjetas(sel.value); aplicar(); });
+    document.getElementById("fSel").addEventListener("click", function (ev) {
+      var q = ev.target.closest && ev.target.closest("[data-quitar]");
+      if (q) { alternar(q.getAttribute("data-quitar")); return; }
+      if (ev.target.id === "fQuitarTodo") { elegidas = []; aplicar(); pintarLista(); }
+      if (ev.target.id === "fEntrenar") {
+        var ex = M.examen(exId);
+        iniciar({ titulo: elegidas.length === 1 ? validos[elegidas[0]].nombre : M.plural(elegidas.length, "especialidad", "especialidades") + " · " + ex.nombre, archivos: elegidas.slice(), examen: ex.id, volverTexto: "Volver a " + ex.nombre });
+      }
+    });
+    document.getElementById("fLimpiar").addEventListener("click", function () { inp.value = ""; elegidas = []; aplicar(); pintarLista(); inp.focus(); });
     ordenarTarjetas(sel.value);
     aplicar();
   }
