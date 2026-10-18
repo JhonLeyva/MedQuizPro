@@ -112,6 +112,7 @@
       "      <p class=\"panel__title\">Resultado por especialidad</p>",
       "      <ul class=\"bars bars--wide\" id=\"svResBars\"></ul>",
       "    </div>",
+      "    <div class=\"sim-result__analisis\" id=\"svResAnalisis\"></div>",
       "    <div class=\"sim-result__actions\">",
       "      <button class=\"btn btn--primary\" type=\"button\" id=\"svReview\">Revisar respuestas</button>",
       "      <button class=\"btn btn--ghost\" type=\"button\" id=\"svRepeat\">Repetir simulacro</button>",
@@ -459,7 +460,7 @@
       mapWrap: $("svMapWrap"), map: $("svMap"), mapCount: $("svMapCount"), hints: $("svHints"),
       result: $("svResult"), resKicker: $("svResKicker"), resTitle: $("svResTitle"), resSub: $("svResSub"),
       resRing: $("svResRing"), resPct: $("svResPct"), resKpis: $("svResKpis"), resBars: $("svResBars"),
-      review: $("svReview"), repeat: $("svRepeat"), done: $("svDone")
+      review: $("svReview"), repeat: $("svRepeat"), done: $("svDone"), resAnalisis: $("svResAnalisis")
     };
 
     var actual = null;   // { cfg, preguntas, i, respuestas, modo, fin, inicio, limite, guardada }
@@ -898,6 +899,13 @@
       if (el.hints) el.hints.hidden = true;
       el.result.hidden = false;
       el.score.textContent = "";
+      /* el análisis detallado (gráficos y recomendaciones) lo pinta quien aloje la práctica; aquí solo se entregan los datos */
+      try {
+        document.dispatchEvent(new CustomEvent("mqp:resultado", { detail: {
+          modo: actual.modo, cfg: actual.cfg, preguntas: actual.preguntas, respuestas: actual.respuestas.slice(),
+          duracion: actual.duracion || null, limite: actual.limite || null, porTiempo: !!actual.porTiempo, contenedor: el.resAnalisis
+        } }));
+      } catch (e) {}
       el.result.focus({ preventScroll: true });
       scrollAVista();
       avisar("resultado");

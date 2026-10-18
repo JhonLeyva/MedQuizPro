@@ -31,15 +31,20 @@
   /* ---------------------------------------------------------------- donut */
   function donut(ok, mal, o) {
     o = o || {};
-    var total = ok + mal, R = 52, C = 2 * Math.PI * R, G = total > 1 && ok && mal ? 3 : 0;   // 3 px de aire entre los dos tramos
-    var pct = total ? Math.round(ok / total * 100) : 0;
-    var lenOk = total ? Math.max(C * ok / total - G, 0) : 0, lenMal = total ? Math.max(C * mal / total - G, 0) : 0;
+    var bl = o.blanco || 0, total = ok + mal + bl, R = 52, C = 2 * Math.PI * R;
+    var tramos = [["ok", ok, "Correctas"], ["mal", mal, "Incorrectas"], ["bl", bl, "Sin responder"]].filter(function (t) { return t[1] > 0; });
+    var G = tramos.length > 1 ? 3 : 0;                       // 3 px de aire entre tramos
+    var pct = total ? Math.round(ok / total * 100) : 0, acum = 0, arcos = "";
+    tramos.forEach(function (t) {
+      var len = Math.max(C * t[1] / total - G, 0);
+      arcos += '<circle class="g-donut__' + t[0] + '" cx="70" cy="70" r="' + R + '" stroke-dasharray="' + len.toFixed(1) + " " + (C - len).toFixed(1) + '" stroke-dashoffset="' + (-acum).toFixed(1) + '" transform="rotate(-90 70 70)" data-tip="' + t[2] + ": " + miles(t[1]) + " (" + Math.round(t[1] / total * 100) + '%)"/>';
+      acum += len + G;
+    });
     return '<figure class="g-fig g-donut"><svg viewBox="0 0 140 140" role="img" aria-label="' + esc((o.titulo || "Aciertos") + ": " + pct + "% correctas, " + ok + " de " + total) + '">' +
-      '<circle class="g-donut__pista" cx="70" cy="70" r="' + R + '"/>' +
-      (ok ? '<circle class="g-donut__ok" cx="70" cy="70" r="' + R + '" stroke-dasharray="' + lenOk.toFixed(1) + " " + (C - lenOk).toFixed(1) + '" transform="rotate(-90 70 70)" data-tip="Correctas: ' + miles(ok) + ' (' + pct + '%)"/>' : "") +
-      (mal ? '<circle class="g-donut__mal" cx="70" cy="70" r="' + R + '" stroke-dasharray="' + lenMal.toFixed(1) + " " + (C - lenMal).toFixed(1) + '" stroke-dashoffset="' + (-(lenOk + G)).toFixed(1) + '" transform="rotate(-90 70 70)" data-tip="Incorrectas: ' + miles(mal) + ' (' + (100 - pct) + '%)"/>' : "") +
+      '<circle class="g-donut__pista" cx="70" cy="70" r="' + R + '"/>' + arcos +
       '<text x="70" y="68" class="g-donut__num" text-anchor="middle">' + pct + '%</text><text x="70" y="88" class="g-donut__sub" text-anchor="middle">correctas</text></svg>' +
-      '<figcaption class="g-leyenda"><span><i class="g-sw g-sw--ok"></i>Correctas <b>' + miles(ok) + '</b></span><span><i class="g-sw g-sw--mal"></i>Incorrectas <b>' + miles(mal) + '</b></span></figcaption></figure>';
+      '<figcaption class="g-leyenda"><span><i class="g-sw g-sw--ok"></i>Correctas <b>' + miles(ok) + '</b></span><span><i class="g-sw g-sw--mal"></i>Incorrectas <b>' + miles(mal) + '</b></span>' +
+      (bl ? '<span><i class="g-sw g-sw--bl"></i>Sin responder <b>' + miles(bl) + '</b></span>' : "") + '</figcaption></figure>';
   }
 
   /* ---------------------------------------------------------------- línea */

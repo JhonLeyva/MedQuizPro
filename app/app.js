@@ -1089,6 +1089,59 @@
     document.addEventListener("click", function (ev) { if (!ev.target.closest(".gsearch")) { lista.hidden = true; } });
   })();
 
+  /* ---------- análisis al terminar una práctica o un simulacro (main.js entrega los datos; todo se calcula de este intento) ---------- */
+  function ritmo(seg) { return seg >= 90 ? Math.floor(seg / 60) + " min " + Math.round(seg % 60) + " s" : Math.round(seg) + " s"; }
+  function analisisResultado(d) {
+    var cont = d.contenedor; if (!cont || !G) return;
+    var total = d.preguntas.length, ok = 0, mal = 0, bl = 0, por = {}, orden = [];
+    d.preguntas.forEach(function (q, i) {
+      var r = d.respuestas[i], g = por[q.especialidad] || (por[q.especialidad] = { n: 0, ok: 0 });
+      if (!g.n) orden.push(q.especialidad);
+      g.n++;
+      if (!r) bl++; else if (r === q.clave) { ok++; g.ok++; } else mal++;
+    });
+    var simulacro = d.modo === "simulacro", pctG = total ? Math.round(ok / total * 100) : 0;
+    var filas = orden.map(function (k) { var g = por[k], v = Math.round(g.ok / g.n * 100); return { nombre: k, n: g.n, ok: g.ok, v: v }; });
+    var barras = filas.slice().sort(function (a, b) { return a.v - b.v || b.n - a.n; }).map(function (f) {
+      return { etiqueta: f.nombre, sub: f.ok + " de " + f.n, valor: f.v, max: 100, texto: f.v + "%", tip: f.nombre + ": " + f.v + "% (" + f.ok + " de " + f.n + " correctas)" };
+    });
+    var html = '<div class="an-cols2"><section class="an-panel"><h3>Tu resultado</h3>' + G.donut(ok, mal, { blanco: bl, titulo: "Resultado" }) + '</section>' +
+      '<section class="an-panel"><h3>Rendimiento por especialidad</h3><p class="an-nota">De la que más a la que menos necesitas reforzar.</p>' + G.barras(barras, { colA: "Especialidad", colB: "Correctas" }) + '</section></div>';
+
+    // ritmo (solo simulacro, donde hay reloj)
+    var recos = [];
+    if (simulacro && d.duracion && total) {
+      var porPreg = d.duracion / total, ideal = d.limite / total;
+      html += '<section class="an-panel"><h3>Tu ritmo</h3><p class="an-nota">Segundos por pregunta frente al tiempo que da el simulacro.</p>' +
+        G.barras([{ etiqueta: "Tu ritmo", valor: Math.round(porPreg), max: Math.round(Math.max(porPreg, ideal) * 1.1), texto: ritmo(porPreg) + " / preg.", tip: "Tu ritmo: " + ritmo(porPreg) + " por pregunta" },
+                  { etiqueta: "Tiempo disponible", valor: Math.round(ideal), max: Math.round(Math.max(porPreg, ideal) * 1.1), texto: ritmo(ideal) + " / preg.", tip: "El simulacro da " + ritmo(ideal) + " por pregunta" }], { colA: "Medida", colB: "Segundos" }) + '</section>';
+      if (d.porTiempo) recos.push({ t: "mal", p: "Se acabó el tiempo antes de terminar.", s: "Entrena a ritmo de examen: el simulacro rápido te da 1 minuto por pregunta.", href: "#/simuladores/enam-rapido", a: "Hacer un simulacro rápido" });
+      else if (porPreg > ideal * 0.9) recos.push({ t: "info", p: "Terminaste muy justo de tiempo (" + ritmo(porPreg) + " por pregunta).", s: "Practica decidir más rápido las preguntas que ya dominas para tener margen en las difíciles." });
+    }
+    // comparación con tu intento anterior del mismo tipo
+    var ses = M.progreso.leer().sesiones, actual0 = ses[0], previo = null;
+    for (var i = 1; i < ses.length; i++) if (ses[i].tipo === (simulacro ? "simulacro" : "estudio") && ses[i].titulo === (d.cfg.titulo || "Práctica") && ses[i].total) { previo = ses[i]; break; }
+    if (previo) {
+      var pv = Math.round(previo.correctas / previo.total * 100), dif = pctG - pv;
+      recos.push({ t: dif > 0 ? "ok" : dif < 0 ? "mal" : "info", p: dif > 0 ? "Mejoraste " + dif + " puntos frente a tu intento anterior (" + pv + "% → " + pctG + "%)." : dif < 0 ? "Bajaste " + Math.abs(dif) + " puntos frente a tu intento anterior (" + pv + "% → " + pctG + "%)." : "Igualaste tu intento anterior (" + pv + "%).", s: fecha(previo.t) });
+    }
+    // recomendaciones por especialidad (solo con 2+ preguntas, para no juzgar por una sola)
+    var jz = filas.filter(function (f) { return f.n >= 2; });
+    var debiles = jz.filter(function (f) { return f.v < 60; }).sort(function (a, b) { return a.v - b.v; }).slice(0, 3);
+    var fuertes = jz.filter(function (f) { return f.v >= 80; }).sort(function (a, b) { return b.v - a.v; }).slice(0, 2);
+    debiles.forEach(function (f) { recos.push({ t: "mal", p: "Refuerza " + f.nombre + ": " + f.ok + " de " + f.n + " correctas (" + f.v + "%).", s: "Practica sus preguntas comentadas y revisa los flujogramas.", href: "#/examenes/enam?q=" + encodeURIComponent(f.nombre), a: "Practicar " + f.nombre }); });
+    fuertes.forEach(function (f) { recos.push({ t: "ok", p: "Vas bien en " + f.nombre + " (" + f.v + "%).", s: "Repásala de vez en cuando para mantenerla." }); });
+    if (mal) recos.push({ t: "info", p: "Fallaste " + M.plural(mal, "pregunta", "preguntas") + ".", s: "Leer el comentario de cada error es lo que más sube tu puntaje.", href: "#/falladas", a: "Repasar mis falladas" });
+    if (bl && !d.porTiempo) recos.push({ t: "info", p: "Dejaste " + M.plural(bl, "pregunta", "preguntas") + " sin responder.", s: "Pregúntate si fue falta de tiempo o de conocimiento; cada caso se entrena distinto." });
+    recos.push({ t: "info", p: "Sigue la evolución de todos tus intentos.", s: "", href: "#/progreso", a: "Ver mi progreso" });
+    html += '<section class="an-panel"><h3>Recomendaciones para ti</h3><p class="an-nota">Calculadas solo con este intento: orientan tu estudio, no predicen tu nota real.</p><ul class="an-recos">' +
+      recos.map(function (r) { return '<li class="an-reco an-reco--' + r.t + '"><p>' + esc(r.p) + (r.s ? "<small>" + esc(r.s) + "</small>" : "") + '</p>' + (r.href ? '<a href="' + r.href + '">' + esc(r.a) + ' →</a>' : "") + '</li>'; }).join("") + '</ul></section>';
+    cont.innerHTML = html;
+    var viejo = cont.parentNode && cont.parentNode.querySelector(".sim-result__areas");   // el análisis ya incluye el rendimiento por especialidad
+    if (viejo) viejo.hidden = true;
+  }
+  document.addEventListener("mqp:resultado", function (ev) { try { analisisResultado(ev.detail); } catch (e) { if (window.console) console.warn("[app] análisis", e); } });
+
   if (G) G.iniciarTips();
 
   /* ---------- arranque ---------- */
