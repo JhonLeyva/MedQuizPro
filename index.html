@@ -14,9 +14,9 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20261018-13">
-<link rel="stylesheet" href="graficos.css?v=20261018-13">
-<link rel="stylesheet" href="pro.css?v=20261018-13">
+<link rel="stylesheet" href="styles.css?v=20261018-15">
+<link rel="stylesheet" href="graficos.css?v=20261018-15">
+<link rel="stylesheet" href="pro.css?v=20261018-15">
 </head>
 <body>
 
@@ -186,17 +186,50 @@
     </div>
   </section>
 
-  <!-- ====================== EL BANCO, EN NÚMEROS (datos reales del banco publicado) ====================== -->
-  <section class="section" id="analisis" aria-labelledby="anTitle">
+  <!-- ====================== EL BANCO, EN VIVO (se dibuja con las preguntas realmente publicadas) ====================== -->
+  <section class="section section--spot" id="analisis" aria-labelledby="anTitle">
     <div class="wrap">
-      <div class="sec-head sec-head--center reveal">
-        <p class="kicker">Análisis</p>
-        <h2 id="anTitle">El banco, en números.</h2>
-        <p class="sec-head__lead">Contado en vivo sobre las preguntas publicadas. Dentro de la plataforma ves lo mismo, pero de <b>tu</b> progreso: aciertos, constancia y evolución.</p>
+      <div class="sec-head sec-head--center">
+        <p class="kicker kicker--spot">El banco por dentro</p>
+        <h2 id="anTitle">Un banco que se mide solo.</h2>
+        <p class="sec-head__lead">Todo lo que ves aquí se cuenta en vivo sobre las preguntas publicadas. Dentro de la plataforma ves lo mismo, pero de <b>tu</b> progreso.</p>
       </div>
-      <div class="an-grid">
-        <section class="an-panel"><h3>Preguntas por especialidad</h3><p class="an-nota">Las 10 especialidades con más preguntas.</p><div id="anEsp"><p class="an-vacio">Calculando con el banco publicado…</p></div></section>
-        <section class="an-panel"><h3>Preguntas por año del examen</h3><p class="an-nota">Cuántas preguntas hay de cada convocatoria.</p><div id="anAnio"><p class="an-vacio">Calculando con el banco publicado…</p></div></section>
+      <div class="spot__kpis" id="anKpis" aria-live="polite"></div>
+      <div class="spot__grid">
+        <article class="spot__card spot__card--mapa">
+          <h3>Mapa del banco</h3>
+          <p class="spot__nota">Cada bloque es una especialidad: cuanto más grande, más preguntas tiene. El color es su área.</p>
+          <div class="treemap" id="anMapa"><p class="an-vacio">Dibujando el mapa con el banco publicado…</p></div>
+          <ul class="treemap__leyenda" id="anLeyenda"></ul>
+        </article>
+        <article class="spot__card spot__card--anios">
+          <h3>Convocatorias del examen</h3>
+          <p class="spot__nota">Preguntas publicadas de cada año del ENAM.</p>
+          <div id="anAnio"></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== ESTUDIA DONDE TE ENCUENTRES ====================== -->
+  <section class="section" id="movil" aria-labelledby="movilTitle">
+    <div class="wrap movil">
+      <div class="movil__phones reveal" id="movilPhones" aria-hidden="true">
+        <div class="phone phone--izq"><div class="phone__pantalla" id="phEsp"></div></div>
+        <div class="phone phone--der"><div class="phone__pantalla" id="phFlujo"></div></div>
+        <div class="phone phone--centro"><div class="phone__pantalla" id="phPregunta"></div></div>
+      </div>
+      <div class="movil__copy reveal">
+        <p class="kicker">En tu celular</p>
+        <h2 id="movilTitle">Estudia donde te encuentres.</h2>
+        <p class="movil__sub">Lleva el banco en tu bolsillo: la misma plataforma, pensada también para pantallas pequeñas.</p>
+        <ul class="movil__lista">
+          <li>Funciona desde el navegador de cualquier celular: <b>no hay nada que instalar</b>.</li>
+          <li>Con tu cuenta, tu progreso se <b>sincroniza</b> entre tu celular y tu computadora.</li>
+          <li>Comentario docente y flujograma en cada pregunta, con zoom para leerlos bien en pantalla pequeña.</li>
+          <li>Modo oscuro para estudiar de noche sin cansar la vista.</li>
+        </ul>
+        <a class="btn btn--primary btn--lg" href="#registro">Crear cuenta gratis <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
     </div>
   </section>
@@ -784,13 +817,13 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="catalogo.js?v=20261018-13"></script>
+<script defer src="catalogo.js?v=20261018-15"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
-<script defer src="main.js?v=20261018-13"></script>
-<script defer src="universidades.js?v=20261018-13"></script>
-<script defer src="graficos.js?v=20261018-13"></script>
-<script defer src="pro.js?v=20261018-13"></script>
+<script defer src="main.js?v=20261018-15"></script>
+<script defer src="universidades.js?v=20261018-15"></script>
+<script defer src="graficos.js?v=20261018-15"></script>
+<script defer src="pro.js?v=20261018-15"></script>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
-<script type="module" src="hero3d.js?v=20261018-13"></script>
+<script type="module" src="hero3d.js?v=20261018-15"></script>
 </body>
 </html>

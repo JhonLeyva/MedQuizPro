@@ -136,33 +136,125 @@
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") tipEl.hidden = true; });
   }
 
-  /* ---------------------------------------------------------------- web pública: el banco, en números (datos reales del banco) */
-  function bancoEnNumeros() {
-    var cE = document.getElementById("anEsp"), cA = document.getElementById("anAnio");
-    if (!cE || !cA || !window.MQP || !MQP.cargarTodo) return;
+  /* ---------------------------------------------------------------- web pública: el banco, en vivo */
+  var COL_AREA = ["#0f766e", "#2563eb", "#7c3aed", "#b45309", "#be185d", "#475569"];   // un color por área (todos con texto blanco legible)
+
+  function squarify(vals, W, H) {
+    var tot = vals.reduce(function (a, b) { return a + b; }, 0), sc = W * H / tot, a = vals.map(function (v) { return v * sc; });
+    var res = [], x = 0, y = 0, w = W, h = H, i = 0;
+    while (i < a.length) {
+      var lado = Math.min(w, h), fila = [], j = i, s = 0, mejor = Infinity;
+      while (j < a.length) {
+        var t = fila.concat(a[j]), ss = s + a[j], mx = Math.max.apply(null, t), mn = Math.min.apply(null, t);
+        var peor = Math.max(lado * lado * mx / (ss * ss), ss * ss / (lado * lado * mn));
+        if (fila.length && peor > mejor) break;
+        mejor = peor; fila = t; s = ss; j++;
+      }
+      if (w >= h) { var cw = s / h, yy = y; fila.forEach(function (r, k) { var rh = r / cw; res.push({ i: i + k, x: x, y: yy, w: cw, h: rh }); yy += rh; }); x += cw; w -= cw; }
+      else { var rh2 = s / w, xx = x; fila.forEach(function (r, k) { var rw = r / rh2; res.push({ i: i + k, x: xx, y: y, w: rw, h: rh2 }); xx += rw; }); y += rh2; h -= rh2; }
+      i = j;
+    }
+    return res;
+  }
+
+  function contar(el, fin, dur) {
+    var reducido = false; try { reducido = matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+    if (reducido) { el.textContent = miles(fin); return; }
+    var t0 = null;
+    (function paso(t) { if (t0 === null) t0 = t; var k = Math.min((t - t0) / dur, 1); el.textContent = miles(Math.round(fin * (1 - Math.pow(1 - k, 3)))); if (k < 1) requestAnimationFrame(paso); })(performance.now());
+  }
+
+  function areaAnios(porAnio) {
+    var ks = Object.keys(porAnio).sort(), vals = ks.map(function (k) { return porAnio[k]; });
+    if (!ks.length) return "";
+    var W = 460, H = 220, L = 14, R = 14, T = 34, B = 30, iw = W - L - R, ih = H - T - B, max = Math.max.apply(null, vals) * 1.12;
+    function X(i) { return L + (ks.length === 1 ? iw / 2 : iw * i / (ks.length - 1)); } function Y(v) { return T + ih * (1 - v / max); }
+    var pts = vals.map(function (v, i) { return [X(i), Y(v)]; }), d = "M" + pts[0][0] + " " + pts[0][1];
+    for (var i = 1; i < pts.length; i++) { var cx = (pts[i - 1][0] + pts[i][0]) / 2; d += " C" + cx + " " + pts[i - 1][1] + " " + cx + " " + pts[i][1] + " " + pts[i][0] + " " + pts[i][1]; }
+    var area = d + " L" + pts[pts.length - 1][0] + " " + (T + ih) + " L" + pts[0][0] + " " + (T + ih) + " Z";
+    return '<figure class="g-fig"><svg class="g-svg sp-svg" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Preguntas publicadas por año del examen, de ' + esc(ks[0]) + " a " + esc(ks[ks.length - 1]) + '">' +
+      '<defs><linearGradient id="spGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".55"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></linearGradient></defs>' +
+      '<path d="' + area + '" fill="url(#spGrad)"/><path d="' + d + '" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round"/>' +
+      pts.map(function (p, i) { return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="5" fill="#0b1d33" stroke="#5eead4" stroke-width="2.5"/><circle class="g-hit" cx="' + p[0] + '" cy="' + p[1] + '" r="16" tabindex="0" data-tip="ENAM ' + esc(ks[i]) + ": " + miles(vals[i]) + ' preguntas"/><text x="' + p[0] + '" y="' + (p[1] - 13) + '" text-anchor="middle" class="sp-val">' + miles(vals[i]) + '</text><text x="' + p[0] + '" y="' + (H - 8) + '" text-anchor="middle" class="sp-eje">' + esc(ks[i]) + '</text>'; }).join("") + '</svg>' +
+      tabla(["Año", "Preguntas"], ks.map(function (k) { return [k, miles(porAnio[k])]; })) + '</figure>';
+  }
+
+  function bancoEnVivo() {
+    var sec = document.getElementById("analisis"); if (!sec || !window.MQP || !MQP.cargarTodo) return;
+    var cK = document.getElementById("anKpis"), cM = document.getElementById("anMapa"), cL = document.getElementById("anLeyenda"), cA = document.getElementById("anAnio");
+    var datos = null, hecho = false;
+    function mapa() {
+      if (!datos) return;
+      var W = cM.clientWidth || 600, H = Math.round(W < 560 ? W * 1.15 : W * 0.56);
+      cM.style.height = H + "px";
+      var rects = squarify(datos.esp.map(function (e) { return e.n; }), 100, 100);
+      cM.innerHTML = rects.map(function (r) {
+        var e = datos.esp[r.i], pxW = r.w / 100 * W, pxH = r.h / 100 * H, grande = pxW > 130 && pxH > 80,
+          lineas = Math.ceil(e.nombre.length * 8.6 / Math.max(pxW - 26, 1)), medio = pxW > 70 && lineas <= 4 && (lineas * 16 + 44) <= pxH;   // el nombre solo se escribe si cabe entero
+        return '<div class="tm" tabindex="0" style="left:' + r.x.toFixed(3) + '%;top:' + r.y.toFixed(3) + '%;width:' + r.w.toFixed(3) + '%;height:' + r.h.toFixed(3) + '%;--c:' + COL_AREA[e.area % COL_AREA.length] + '" data-tip="' + esc(e.nombre + " · " + miles(e.n) + " preguntas (" + e.areaNombre + ")") + '"><span class="tm__in">' +
+          (medio ? '<b>' + esc(e.nombre) + '</b>' : "") + '<i>' + miles(e.n) + (grande ? " preguntas" : "") + '</i></span></div>';
+      }).join("");
+    }
+    function pintar() {
+      if (hecho) return; hecho = true;
+      MQP.cargarTodo().then(function (d) {
+        var porEsp = {}, porAnio = {}, algos = window.MQP_ALGORITMOS || {}, flujos = 0;
+        d.preguntas.forEach(function (q) {
+          porEsp[q.archivo] = (porEsp[q.archivo] || 0) + 1;
+          var m = /(20\d\d)/.exec(q.examen || ""); if (m) porAnio[m[1]] = (porAnio[m[1]] || 0) + 1;
+          var a = algos[q.id]; if (a && (a.imagen || (a.pasos && a.pasos.length))) flujos++;
+        });
+        var areas = MQP.areas.map(function (a) { return a.id; });
+        var esp = MQP.especialidades.filter(function (e) { return porEsp[e.archivo]; }).map(function (e) {
+          var ai = Math.max(0, areas.indexOf(e.area)); return { nombre: e.nombre, n: porEsp[e.archivo], area: ai, areaNombre: (MQP.area(e.area) || {}).nombre || "" };
+        }).sort(function (a, b) { return b.n - a.n; });
+        if (!esp.length) { sec.hidden = true; return; }
+        datos = { esp: esp };
+        var anios = Object.keys(porAnio).sort();
+        cK.innerHTML = [["Preguntas comentadas", d.preguntas.length, "con su explicación"], ["Flujogramas clínicos", flujos, "uno por pregunta"], ["Especialidades", esp.length, "agrupadas en " + MQP.areas.length + " áreas"], ["Convocatorias", anios.length, anios.length ? anios[0] + " – " + anios[anios.length - 1] : ""]].map(function (k) {
+          return '<div class="spot__kpi"><span class="spot__num" data-fin="' + k[1] + '">0</span><span class="spot__et">' + esc(k[0]) + '</span><span class="spot__sub">' + esc(k[2]) + '</span></div>';
+        }).join("");
+        [].forEach.call(cK.querySelectorAll(".spot__num"), function (el) { contar(el, +el.getAttribute("data-fin"), 1400); });
+        cL.innerHTML = MQP.areas.map(function (a, i) { return '<li><i style="background:' + COL_AREA[i % COL_AREA.length] + '"></i>' + esc(a.nombre) + '</li>'; }).join("");
+        var mayor = anios.reduce(function (m, k) { return porAnio[k] > porAnio[m] ? k : m; }, anios[0]), reciente = anios[anios.length - 1];
+        cA.innerHTML = areaAnios(porAnio) + (anios.length ? '<ul class="spot__datos"><li><span>Convocatoria con más preguntas</span><b>' + esc(mayor) + ' · ' + miles(porAnio[mayor]) + '</b></li><li><span>Más reciente</span><b>' + esc(reciente) + ' · ' + miles(porAnio[reciente]) + '</b></li><li><span>Especialidad más grande</span><b>' + esc(esp[0].nombre) + ' · ' + miles(esp[0].n) + '</b></li></ul>' : "");
+        mapa();
+        if ("ResizeObserver" in window) { var ult = cM.clientWidth; new ResizeObserver(function () { if (Math.abs(cM.clientWidth - ult) > 8) { ult = cM.clientWidth; mapa(); } }).observe(cM); }
+        iniciarTips();
+      }, function () { sec.hidden = true; });
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" });
+      io.observe(sec);
+    } else pintar();
+  }
+
+  /* ---------------------------------------------------------------- web pública: celulares con pantallas reales del banco */
+  function celulares() {
+    var box = document.getElementById("movilPhones"); if (!box || !window.MQP || !MQP.cargarTodo) return;
     var hecho = false;
     function pintar() {
       if (hecho) return; hecho = true;
       MQP.cargarTodo().then(function (d) {
-        var porEsp = {}, porAnio = {};
-        d.preguntas.forEach(function (q) {
-          porEsp[q.especialidad] = (porEsp[q.especialidad] || 0) + 1;
-          var m = /(20\d\d)/.exec(q.examen || ""); if (m) porAnio[m[1]] = (porAnio[m[1]] || 0) + 1;
-        });
-        var esp = Object.keys(porEsp).map(function (k) { return { etiqueta: k, valor: porEsp[k], texto: miles(porEsp[k]) }; }).sort(function (a, b) { return b.valor - a.valor; });
-        var anios = Object.keys(porAnio).sort().map(function (a) { return { etiqueta: a, valor: porAnio[a], texto: miles(porAnio[a]), tip: "ENAM " + a + ": " + miles(porAnio[a]) + " preguntas" }; });
-        if (!esp.length) { var s0 = document.getElementById("analisis"); if (s0) s0.hidden = true; return; }
-        cE.innerHTML = barras(esp.slice(0, 10), { colA: "Especialidad", colB: "Preguntas" });
-        cA.innerHTML = anios.length ? columnas(anios, { colA: "Año", colB: "Preguntas" }) : "";
-        iniciarTips();
-      }, function () { var s = document.getElementById("analisis"); if (s) s.hidden = true; });
+        var algos = window.MQP_ALGORITMOS || {};
+        var cand = d.preguntas.filter(function (q) { var a = algos[q.id]; return q.comentario && q.comentario.length > 60 && q.enunciado.length < 230 && q.opciones.length >= 4 && a && a.imagen; });
+        if (!cand.length) { box.parentNode.hidden = true; return; }
+        var q = cand[Math.floor(Math.random() * cand.length)], rec = function (t, n) { t = String(t); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; };
+        var base = MQP.base || "";
+        document.getElementById("phPregunta").innerHTML = '<div class="ph__bar"><span>' + esc(q.especialidad) + '</span><span>Modo estudio</span></div>' +
+          '<p class="ph__stem">' + esc(rec(q.enunciado, 210)) + '</p><ul class="ph__ops">' + q.opciones.slice(0, 4).map(function (o) {
+            var ok = o.letra === q.clave; return '<li class="' + (ok ? "is-ok" : "") + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 56)) + '</span></li>'; }).join("") + '</ul>' +
+          '<p class="ph__why"><b>Comentario docente</b>' + esc(rec(q.comentario, 120)) + '</p>';
+        var top = MQP.especialidades.map(function (e) { return { e: e, n: d.preguntas.filter(function (p) { return p.archivo === e.archivo; }).length }; }).sort(function (a, b) { return b.n - a.n; }).slice(0, 6);
+        document.getElementById("phEsp").innerHTML = '<div class="ph__bar"><span>Banco ENAM</span><span>' + miles(d.preguntas.length) + '</span></div><p class="ph__tit">Especialidades</p><ul class="ph__esp">' +
+          top.map(function (t) { return '<li><span class="ph__ico">' + MQP.icono(t.e.icono) + '</span><span>' + esc(t.e.nombre) + '</span><small>' + miles(t.n) + '</small></li>'; }).join("") + '</ul>';
+        document.getElementById("phFlujo").innerHTML = '<div class="ph__bar"><span>Flujograma</span><span>' + esc(q.id) + '</span></div><img class="ph__img" alt="" loading="lazy" src="' + esc(base + algos[q.id].imagen) + '">';
+      }, function () { box.parentNode.hidden = true; });
     }
-    if ("IntersectionObserver" in window) {
-      var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" });
-      io.observe(document.getElementById("analisis") || cE);
-    } else pintar();
+    if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" }); io.observe(box); } else pintar();
   }
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", bancoEnNumeros); else bancoEnNumeros();
+  function iniciarPublico() { bancoEnVivo(); celulares(); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciarPublico); else iniciarPublico();
 
   window.MQP_GRAF = { donut: donut, linea: linea, barras: barras, columnas: columnas, calor: calor, iniciarTips: iniciarTips };
 })();
