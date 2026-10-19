@@ -9,7 +9,7 @@ def ATL(caso):
                        ["Colección necrótica aguda", "Menos de 4 semanas", "Líquido y necrosis sin pared definida, en pancreatitis necrotizante"],
                        ["Pseudoquiste", "4 semanas o más", "Líquido con pared bien definida y sin necrosis"],
                        ["Necrosis encapsulada", "4 semanas o más", "Necrosis rodeada por una pared bien definida"]],
-                caso=caso, ancho_primera=200,
+                caso=caso, ancho_primera=270,
                 nota="Cualquiera puede ser estéril o infectada; el gas en la colección sugiere infección. Los términos «flemón» y «absceso» se abandonaron (Banks, Gut 2013).")
 
 # 1 · PUNTAJE · CURB-65 y UCI
@@ -63,7 +63,7 @@ S("regla", "RM-INF-055", "Induración de 8 mm: positiva solo en inmunodeprimidos
               filas=[["5 mm o más", "VIH, contacto reciente, lesiones fibróticas en la radiografía, trasplantados y otros inmunodeprimidos (prednisona ≥ 15 mg/día por más de un mes)"],
                      ["10 mm o más", "Menores de 4 años, migrantes recientes de zonas de alta prevalencia, drogas inyectables, personal de salud, diabetes, enfermedad renal, linfoma"],
                      ["15 mm o más", "Cualquier persona sin factores de riesgo"]],
-              caso=0, ancho_primera=120, nota="Con 8 mm la prueba es positiva solo en el grupo de 5 mm: el niño con VIH."))
+              caso=0, ancho_primera=180, nota="Con 8 mm la prueba es positiva solo en el grupo de 5 mm: el niño con VIH."))
 
 # 3 · CRITERIOS · TC para evaluar gravedad de la pancreatitis
 S("criterios", "RM-GAS-012", "Pancreatitis aguda con signos de gravedad: la TC con contraste evalúa la gravedad local",
@@ -187,8 +187,8 @@ S("balanza", "RM-GAS-016", "En el adulto mayor la causa más frecuente de hemorr
   op=("¿Más frecuente?", ["No: es menos frecuente", "Sí: hematoquecia indolora y brusca del adulto mayor", "No: es una causa menos frecuente", "No: es una causa menos frecuente", "No: es la segunda o tercera causa"],
       {0: "Neoplasia maligna colorrectal", 1: "Diverticulosis colónica", 2: "Enfermedad de Crohn", 3: "Colitis aguda", 4: "Angiodisplasia colónica"}),
   d=dict(rotulo="Qué causa pesa más en la hemorragia digestiva baja", gana="izq", pregunta="¿Cuál es la más frecuente?",
-         izq=dict(titulo="DIVERTICULOSIS", peso="LA MÁS FRECUENTE", items=["Hematoquecia indolora y brusca", "Vaso penetrante en el cuello del divertículo", "Cesa sola en cerca del 80 %"]),
-         der=dict(titulo="OTRAS CAUSAS", peso="MENOS FRECUENTES", items=["Angiodisplasia del colon derecho", "Colitis isquémica, infecciosa o inflamatoria", "Cáncer colorrectal"]),
+         izq=dict(titulo="DIVERTICULOSIS", peso="FRECUENTE", items=["Hematoquecia indolora y brusca", "Vaso penetrante en el cuello del divertículo", "Cesa sola en cerca del 80 %"]),
+         der=dict(titulo="OTRAS CAUSAS", peso="MENOS", items=["Angiodisplasia del colon derecho", "Colitis isquémica, infecciosa o inflamatoria", "Cáncer colorrectal"]),
          veredicto=("Diverticulosis colónica", ["Es la causa más frecuente en el adulto mayor.", "La angiodisplasia y el cáncer son menos frecuentes."])),
   banda=B("Un divertículo del colon en la colonoscopia", PX("divertic_vaso_pmc.jpg", 250, credito="Wangrattanapranee et al. · iGIE 2026 · CC BY 4.0"),
           [("Flecha negra", "Señala el cuello del divertículo, donde se rompe el vaso."), ("Abertura oscura", "Es la boca del divertículo."), ("Qué explica", "Hematoquecia indolora y brusca.")],
@@ -205,7 +205,7 @@ S("radial", "RM-GAS-017", "La causa más frecuente de pancreatitis aguda es la b
    "Con ALT mayor de 3 veces lo normal, la probabilidad biliar supera el 95 %; si es leve, la colecistectomía se hace en la misma hospitalización."],
   "Tenner S et al., ACG (Am J Gastroenterol 2024;119:419-437); Banks PA et al., Atlanta 2012 (Gut 2013;62:102); Guzmán-Calderón E et al., GPC EsSalud-IETSI 2022 (Rev Gastroenterol Peru 2023;43:166); Sabiston 21.ª ed.",
   op=("¿Más frecuente?", ["No: se diagnostica tras descartar las demás", "Sí: la litiasis biliar obstruye la ampolla", "No: es una causa minoritaria", "No: es poco frecuente", "No: ocurre en 3-5 % de los procedimientos"],
-      {4: "Post colangiopancreatografía"}),
+      {4: "Post-CPRE"}),
   d=dict(rotulo="Causas de la pancreatitis aguda por frecuencia", centro="PANCREATITIS AGUDA", centro_sub="etiologías", ans=0,
          items=[("BILIAR: LA MÁS FRECUENTE", ["Cálculos pequeños o barro que obstruyen la ampolla"]),
                 ("ALCOHOL", ["Segunda causa"]),

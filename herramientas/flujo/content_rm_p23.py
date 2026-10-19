@@ -8,7 +8,7 @@ CLASIF_PREVIA = dict(
     cols=["Categoría", "Hallazgo ecográfico (más de 16 semanas)", "Conducta"],
     filas=[["Placenta previa", "La placenta cubre directamente el orificio cervical interno", "Hospitalizar si sangra; cesárea programada; no hacer tacto vaginal"],
            ["Placenta baja", "El borde placentario está a menos de 20 mm del orificio interno, sin cubrirlo", "Repetir la ecografía transvaginal al final del embarazo y decidir la vía del parto"]],
-    caso=0, ancho_primera=140,
+    caso=0, ancho_primera=230,
     nota="Si la ecografía del segundo trimestre es anormal se repite más adelante: el segmento inferior aún no se forma y muchas placentas «suben».")
 
 CLASIF_ABORTO = dict(
@@ -43,10 +43,10 @@ S("alarma", "RM-GIN-037", "Amenorrea, hCG positiva, sangrado y shock: embarazo e
          img_titulo="Imagen referencial de un embarazo ectópico tubárico",
          veredicto=("Amenorrea + hCG positiva + shock = ectópico roto", "El shock y el peritonismo mandan a quirófano; el metotrexato queda para la paciente estable.")),
   clasif=dict(titulo="Conducta en el embarazo ectópico según la estabilidad (ACOG 2018)", cols=["Situación", "Datos", "Conducta"],
-              filas=[["Inestable o con rotura (este caso)", "Hipotensión, taquicardia, dolor intenso, hemoperitoneo", "Reanimación y cirugía inmediata"],
+              filas=[["Inestable o con rotura", "Hipotensión, taquicardia, dolor intenso, hemoperitoneo", "Reanimación y cirugía inmediata"],
                      ["Estable, candidata a metotrexato", "Sin rotura, hCG baja, sin latido embrionario, masa pequeña", "Metotrexato con seguimiento de la hCG"],
                      ["Estable, con hCG baja y descendente", "Sin dolor importante ni hemoperitoneo", "Conducta expectante con controles seriados"]],
-              caso=0, ancho_primera=190, nota="Latido embrionario, masa de 3,5 cm o más y hCG elevada (cerca de 5000) son contraindicaciones relativas al metotrexato."))
+              caso=0, ancho_primera=250, nota="Latido embrionario, masa de 3,5 cm o más y hCG elevada (cerca de 5000) son contraindicaciones relativas al metotrexato."))
 
 # 2 · MATRIZ · endometrio y ectópico
 S("matriz", "RM-GIN-038", "Un endometrio proliferativo indica que no hay embarazo activo y excluye la laparoscopia",
@@ -84,9 +84,9 @@ S("reloj", "RM-GIN-039", "Traumatismo abdominal, sangrado oscuro y útero irrita
       {0: "Amenaza de parto pretérmino", 1: "Rotura uterina", 2: "Abruptio placentario", 3: "Placenta previa", 4: "Rotura del seno marginal"}),
   d=dict(rotulo="Cómo se desarrolla el cuadro tras el traumatismo", intro="Recorrido de la paciente desde el golpe hasta la decisión de conducta.",
          pasos=[("0 h", "Traumatismo abdominal directo", "Puede ser leve; ya hay riesgo de desprendimiento", False),
-                ("Hasta 24-48 h", "Dolor, sangrado oscuro y contracciones", "Es el desprendimiento: el caso llega en esta etapa", True),
-                ("Al ingreso", "Monitoreo fetal, hemograma, coagulación y Rh", "Buscar sufrimiento fetal y coagulopatía", False),
-                ("Según la evolución", "Parto urgente si hay inestabilidad", "Madre o feto comprometidos; vía según la situación", False)],
+                ("24-48 h", "Dolor, sangrado oscuro y contracciones", "Es el desprendimiento: el caso llega en esta etapa", True),
+                ("Ingreso", "Monitoreo fetal, hemograma, coagulación y Rh", "Buscar sufrimiento fetal y coagulopatía", False),
+                ("Luego", "Parto urgente si hay inestabilidad", "Madre o feto comprometidos; vía según la situación", False)],
          tag="DIAGNÓSTICO DEL CASO",
          veredicto=("Trauma + dolor + sangrado oscuro = desprendimiento de placenta", "El diagnóstico es clínico; la ecografía normal no lo descarta.")))
 
@@ -233,7 +233,7 @@ S("piramide", "RM-GIN-046", "El cuadrante superior externo concentra cerca de la
   op=("¿Localización más frecuente?", ["No: es el cuadrante menos afectado", "No: es una zona pequeña, dentro del cuadrante externo", "No: es menos frecuente que el externo", "No: es menos frecuente que el superior externo", "Sí: mayor cantidad de tejido glandular"],
       {0: "Cuadrante ínfero interno", 1: "Cola de Spencer", 2: "Cuadrante súpero interno", 3: "Cuadrante ínfero externo", 4: "Cuadrante súpero externo"}),
   d=dict(rotulo="Dónde aparece el cáncer de mama, de más a menos frecuente", caso=0, ancho=380, tag="ESTE CASO",
-         niveles=[("Superior externo", "Cerca de la mitad de los casos", "Tiene más tejido glandular e incluye la cola de Spence."),
+         niveles=[("Sup. externo", "Cerca de la mitad de los casos", "Tiene más tejido glandular e incluye la cola de Spence."),
                   ("Central y retroareolar", "Segunda zona en frecuencia", "Detrás de la areola; puede retraer el pezón."),
                   ("Superior interno", "Menos frecuente", "Puede drenar a la cadena mamaria interna."),
                   ("Inferior externo", "Poco frecuente", "Drena a los ganglios axilares."),
@@ -258,7 +258,7 @@ S("alarma", "RM-GIN-047", "Secreción serosanguinolenta y masa sólida de 2 cm a
                  ("Edad de 62 años", "Posmenopausia: más riesgo de malignidad", True), ("Secreción por ambos pezones", "Lo habitual es un solo conducto: se revisa de nuevo", None)],
          accion=("Triple evaluación y biopsia", "Mamografía y ecografía; biopsia con aguja gruesa de la masa. No esperar ni dar tratamiento empírico."),
          accion_rotulo="Si hay masa sólida",
-         img=PX("mama_mx_cc.jpg", 280, marcas=[("flecha", 0.26, 0.47, 0.64, 0.66, "Masa espiculada")]),
+         img=PX("mama_mx_cc.jpg", 280, marcas=[("flecha", 0.26, 0.47, 0.64, 0.66, "Masa espiculada")], credito="Yuan et al. · Front Oncol 2026 · CC BY 4.0"),
          img_titulo="Imagen referencial de una mamografía con masa espiculada",
          veredicto=("Masa sólida + secreción sangrante + 62 años = cáncer hasta demostrar lo contrario", "La mamografía referencial (proyección cráneo-caudal) muestra una masa de bordes espiculados.")),
   clasif=dict(titulo="Categorías BI-RADS: probabilidad de malignidad y conducta", cols=["Categoría", "Significado", "Riesgo de cáncer", "Conducta"],
@@ -342,7 +342,7 @@ S("decision", "RM-GIN-050", "Un patrón sinusoidal es por sí solo una categorí
               filas=[["I (normal)", "Frecuencia basal de 110 a 160, variabilidad moderada, sin desaceleraciones tardías ni variables; pueden existir tempranas o aceleraciones", "Control de rutina"],
                      ["II (indeterminada)", "Todo trazado que no es categoría I ni III", "Evaluar, reanimación intrauterina y reevaluación continua"],
                      ["III (anormal)", "Variabilidad ausente con desaceleraciones tardías o variables recurrentes o bradicardia; o patrón sinusoidal", "Reanimación y parto urgente si no se resuelve"]],
-              caso=2, ancho_primera=130, nota="Reanimación intrauterina: decúbito lateral, hidratación, oxígeno si procede, suspender oxitocina y corregir la hipotensión."))
+              caso=2, ancho_primera=180, nota="Reanimación intrauterina: decúbito lateral, hidratación, oxígeno si procede, suspender oxitocina y corregir la hipotensión."))
 
 # 15 · CHECKLIST · aborto incompleto con inestabilidad
 S("checklist", "RM-GIN-051", "Sangrado profuso con coágulos, cuello abierto y PA 80/60 a las 8 semanas: aborto incompleto",
