@@ -227,7 +227,7 @@ S("embudo", "RM-END-038", "Nódulo tiroideo palpable de 10 mm: la ecografía es 
   "Tiroides · nódulo palpable",
   ("Estudio del nódulo palpable", ["TSH y ecografía cervical definen tamaño, composición y patrón de sospecha.", "Con ellos se decide si se punciona."]),
   ("Mujer de 40 años", ["Hace un mes se palpa un nódulo tiroideo derecho de 10 mm, móvil y no doloroso, sin cambios.", "¿Qué conducta se sigue?"]),
-  ["Todo nódulo palpable: TSH y ecografía cervical; si el patrón es sospechoso (hipoecoico, microcalcificaciones, bordes irregulares, más alto que ancho, flujo central) se punciona (ATA 2015).",
+  ["Todo nódulo palpable: TSH y ecografía cervical; si el patrón es sospechoso (hipoecoico, microcalcificaciones, bordes irregulares, más alto que ancho) según el tamaño se punciona (ATA 2015).",
    "PAAF desde 1 cm con alta o intermedia sospecha; desde 1,5 cm con baja sospecha; sin ecografía no se sabe si cumple criterio ni a cuál puncionar.",
    "Gammagrafía solo con TSH suprimida; la tiroglobulina no discrimina benignidad; la calcitonina se pide si se sospecha carcinoma medular.",
    "Citología con Bethesda 2023 (3.ª ed.). Alerta: voz ronca, ganglios, crecimiento rápido o irradiación previa."],

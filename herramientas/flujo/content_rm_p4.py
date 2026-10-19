@@ -249,9 +249,9 @@ S("matriz", "RM-CIR-088", "El carcinoma escamoso en un ganglio inguinal orienta 
 # ───────────────────────────── 090 · RELOJ + imagen real
 S("reloj", "RM-CIR-090", "La colangitis aguda con hipotensión es grave: tras reanimar y dar antibiótico se drena la vía biliar por CPRE",
   "Colangitis aguda · tiempos del tratamiento (Tokio 2018)",
-  ("Colangitis grave", ["Obstrucción y sepsis de la vía biliar; con hipotensión es grado III.", "Disfunción de órgano: drenaje urgente."]),
+  ("Colangitis grave", ["Obstrucción y sepsis de la vía biliar; la hipotensión que requiere vasopresor la hace grado III.", "Con disfunción de órgano: drenaje urgente."]),
   ("Diabética de 45 años", ["Cuatro días de dolor en hipocondrio derecho, fiebre e ictericia.", "PA 90/60, FC 110, T 39 °C; ecografía con colelitiasis y coledocolitiasis."]),
-  ["Tokio 2018: grado I leve (antibiótico, drenaje si no mejora a las 24 h) · II moderada (drenaje precoz) · III grave, con hipotensión, confusión u otra falla de órgano: drenaje urgente.",
+  ["Tokio 2018: grado I leve (antibiótico, drenaje si no mejora a las 24 h) · II moderada (drenaje precoz) · III grave, con hipotensión que requiere vasopresor, confusión u otra falla de órgano: drenaje urgente. Este caso (PA 90/60, T 39 °C) es al menos grado II: drenaje precoz.",
    "Antibiótico antes de 1 hora: piperacilina-tazobactam o cefalosporina con metronidazol; hemocultivos antes de la primera dosis. El diabético se maneja con insulina.",
    "Drenaje por CPRE (esfinterotomía y stent). Si falla: drenaje percutáneo transhepático. La colecistectomía se hace en el mismo ingreso al resolverse la sepsis."],
   "Tokyo Guidelines 2018, colangitis aguda (Kiriyama et al., J Hepatobiliary Pancreat Sci 2018); ESGE, CPRE (2021); EsSalud-IETSI, GPC de colelitiasis, colecistitis y coledocolitiasis (2018)",
@@ -268,7 +268,8 @@ S("reloj", "RM-CIR-090", "La colangitis aguda con hipotensión es grave: tras re
   clasif=dict(titulo="Gravedad de la colangitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Drenaje de la vía biliar"],
               filas=[["I (leve)", "No cumple los criterios de II ni de III", "Antibiótico; drenaje si no mejora en 24 h"],
                      ["II (moderada)", "Dos o más: leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75 años, bilirrubina ≥ 5 mg/dL, albúmina baja", "Drenaje precoz"],
-                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Drenaje urgente tras sostén de órganos"]], caso=2, ancho_primera=180))
+                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Drenaje urgente tras sostén de órganos"]], caso=1, ancho_primera=180,
+              nota="El caso (PA 90/60 sin vasopresor, T 39 °C, ictericia) cumple grado II; pasa a III si necesita vasopresor o aparece otra falla de órgano."))
 
 # ───────────────────────────── 091 · PIRÁMIDE
 S("piramide", "RM-CIR-091", "La ecografía abdominal es el estudio inicial de la vía biliar",

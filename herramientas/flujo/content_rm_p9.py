@@ -296,22 +296,22 @@ S("termometro", "RM-END-021", "La obesidad clase II de la OMS corresponde a un I
   ["OMS: bajo peso < 18,5; normal 18,5-24,9; sobrepeso 25-29,9; obesidad I 30-34,9; obesidad II 35-39,9; obesidad III (mórbida) ≥ 40.",
    "En poblaciones asiáticas se usan cortes menores; la circunferencia abdominal complementa el IMC porque la grasa visceral predice mejor el riesgo cardiometabólico.",
    "Rubino 2025 (Lancet Diabetes Endocrinol): la obesidad clínica se define por disfunción de órganos o limitación funcional, no solo por el IMC.",
-   "La cirugía bariátrica se considera desde un IMC de 35 con comorbilidad."],
-  "OMS, TRS 894 (2000); Rubino et al., Lancet Diabetes Endocrinol (2025)",
+   "Cirugía bariátrica (ASMBS/IFSO 2022): se recomienda con IMC ≥ 35 con o sin comorbilidad y se considera con 30-34,9 si hay enfermedad metabólica."],
+  "OMS, TRS 894 (2000); Rubino et al., Lancet Diabetes Endocrinol (2025); Eisenberg et al., ASMBS/IFSO, Surg Obes Relat Dis (2022)",
   op=("¿IMC de clase II?", ["Sí: obesidad clase II", "No: es peso normal", "No: es obesidad clase I", "No: es sobrepeso", "No: es clase III o más"], {}),
   d=dict(rotulo="Categorías de la OMS según el IMC", caso_nivel=4, ruta_titulo="Qué hacer según la categoría", paso_label="ESTE CASO",
          niveles=[("Bajo peso", "< 18,5", ["Evaluar nutrición"]), ("Normal", "18,5-24,9", ["Mantener"]), ("Sobrepeso", "25-29,9", ["Preobesidad"]),
                   ("Obesidad I", "30-34,9", ["Clase I"]), ("Obesidad II", "35-39,9", ["Clase II"]), ("Obesidad III", "≥ 40", ["Mórbida"])],
          pasos=[(1, "Medir la cintura", ["Riesgo aumentado: ≥ 94 cm en varones y ≥ 80 cm en mujeres; muy aumentado: ≥ 102 y ≥ 88 cm (OMS)"], False),
-                (2, "Obesidad II: cirugía si hay comorbilidad", ["IMC de 35 o más con comorbilidad: evaluar cirugía bariátrica"], True),
+                (2, "Obesidad II: evaluar cirugía", ["IMC de 35 o más, con o sin comorbilidad: evaluar cirugía bariátrica (ASMBS/IFSO 2022)"], True),
                 (3, "Obesidad clínica", ["Hay disfunción de órganos o limitación funcional, no solo IMC alto (Lancet 2025)"], False)]),
   clasif=dict(titulo="Clasificación de la OMS del estado nutricional según el IMC", cols=["Categoría", "IMC (kg/m²)", "Riesgo de comorbilidad", "Conducta"],
               filas=[["Bajo peso", "< 18,5", "Bajo (otros riesgos clínicos)", "Evaluar nutrición"],
                      ["Normal", "18,5-24,9", "Promedio", "Mantener estilo de vida"],
                      ["Sobrepeso", "25-29,9", "Aumentado", "Cambios de estilo de vida"],
                      ["Obesidad I", "30-34,9", "Moderado", "Estilo de vida y control de comorbilidades"],
-                     ["Obesidad II", "35-39,9", "Grave", "Tratamiento intensivo; cirugía bariátrica si hay comorbilidad"],
-                     ["Obesidad III", "≥ 40", "Muy grave", "Cirugía bariátrica indicada"]], caso=4, ancho_primera=215)
+                     ["Obesidad II", "35-39,9", "Grave", "Tratamiento intensivo; evaluar cirugía bariátrica"],
+                     ["Obesidad III", "≥ 40", "Muy grave", "Evaluar cirugía bariátrica"]], caso=4, ancho_primera=215)
   )
 
 # 022 · LÍNEA DE VIDA · nefropatía diabética
@@ -323,7 +323,7 @@ S("linea_vida", "RM-NEF-006", "La microalbuminuria es el marcador más important
    "Tamizaje anual de albuminuria y TFG estimada: desde el diagnóstico en la diabetes tipo 2 y a los 5 años en la tipo 1 (ADA).",
    "Refleja el daño inicial de la barrera glomerular y predice la progresión a proteinuria franca y el riesgo cardiovascular.",
    "En esta etapa el daño puede revertirse: control de glucemia y presión, IECA o ARA II e iSGLT2 (KDIGO 2022)."],
-  "ADA, Standards of Care in Diabetes (2025), cap. 11; KDIGO, diabetes y enfermedad renal crónica (2022)",
+  "ADA, Standards of Care in Diabetes-2026, sec. 11; KDIGO, diabetes y enfermedad renal crónica (2022)",
   op=("¿Predictor?", ["Sí: primer signo de daño glomerular", "No: es del daño tubular proximal", "No: depende del umbral renal", "No: es de la rabdomiólisis", "No: es un hallazgo inespecífico"], {}),
   d=dict(rotulo="Años desde el diagnóstico (rangos orientativos)", eje=(0, 30, 5), unidad="años",
          barras=[("Hiperfiltración", 0, 5, "Silente, sin albuminuria", False), ("Microalbuminuria", 5, 15, "Primer marcador clínico: 30-300 mg/g", True),

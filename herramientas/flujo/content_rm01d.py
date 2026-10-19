@@ -90,13 +90,14 @@ S("decision", "RM-CAR-024", "Hipertensión grado 2 en un paciente con riesgo alt
          cells=[[("Estilo de vida 3 meses", ["Luego fármaco si no controla"]), ("Fármaco + estilo de vida", ["Combinación o monoterapia"])],
                 [("Fármacos desde el inicio", ["Combinación preferida"]), ("COMBINACIÓN + estilo de vida", ["IECA/ARA II + CCB o tiazida"])]],
          caso=(1, 1), nota="Clave del libro: estilo de vida; las guías 2024-2025 indican combinación en este caso."),
-  clasif=dict(titulo="Clasificación de la PA en consultorio (ESC 2018; ACC/AHA 2025)", cols=["Categoría", "PAS / PAD (mmHg)", "Equivalente ACC/AHA 2025", "Conducta"],
-              filas=[["Normal / óptima", "< 130 / < 85", "Normal < 120 / < 80", "Control periódico"],
-                     ["Normal alta", "130-139 / 85-89", "Elevada 120-129 / < 80; estadio 1 130-139 / 80-89", "Estilo de vida; fármaco si el riesgo es alto"],
-                     ["HTA grado 1", "140-159 / 90-99", "Estadio 2 (≥ 140 / ≥ 90)", "Estilo de vida; fármaco según riesgo y daño de órgano"],
-                     ["HTA grado 2", "160-179 / 100-109", "Estadio 2", "Fármaco desde el inicio, de preferencia combinado"],
-                     ["HTA grado 3", "≥ 180 / ≥ 110", "Estadio 2", "Fármaco combinado de inmediato"]], caso=3, ancho_primera=185,
-              nota="La categoría la define la cifra más alta (sistólica o diastólica): 150/100 mmHg = grado 2."))
+  clasif=dict(titulo="Clasificación de la PA en consultorio (ESC 2018 / ESH 2023 y ACC/AHA 2025)", cols=["Categoría", "PAS / PAD (mmHg)", "Equivalente ACC/AHA 2025", "Conducta"],
+              filas=[["Óptima", "< 120 y < 80", "Normal < 120 / < 80", "Control periódico"],
+                     ["Normal", "120-129 y/o 80-84", "Elevada 120-129 / < 80", "Estilo de vida"],
+                     ["Normal alta", "130-139 y/o 85-89", "Estadio 1 130-139 / 80-89", "Estilo de vida; fármaco si el riesgo es alto"],
+                     ["HTA grado 1", "140-159 y/o 90-99", "Estadio 2 (≥ 140 / ≥ 90)", "Estilo de vida; fármaco según riesgo y daño de órgano"],
+                     ["HTA grado 2", "160-179 y/o 100-109", "Estadio 2", "Fármaco desde el inicio, de preferencia combinado"],
+                     ["HTA grado 3", "≥ 180 y/o ≥ 110", "Estadio 2", "Fármaco combinado de inmediato"]], caso=4, ancho_primera=185,
+              nota="Se toma la categoría más alta (sistólica o diastólica): 150/100 mmHg = grado 2. La ESC 2024 simplificó: < 120/70 no elevada, 120-139/70-89 elevada, ≥ 140/90 hipertensión (sin grados)."))
 
 # 68 · RM-NEU-004 · LECTURA con TC: bronquiectasias
 S("lectura", "RM-NEU-004", "La tomografía de alta resolución es el examen que mejor confirma las bronquiectasias",
@@ -123,7 +124,7 @@ S("regla", "RM-CIR-017", "El eco Doppler dúplex es el método ideal para diagno
   ["Dúplex en bipedestación: localiza el reflujo, mide el calibre y detecta trombos.",
    "Pruebas clínicas (Trendelenburg, Perthes) con valor histórico. Flebografía invasiva; pletismografía mide la bomba muscular.",
    "CEAP (C0-C6). Tratamiento: compresión, ablación térmica o escleroterapia."],
-  "ESVS, enfermedad venosa crónica (2022); SVS/AVF (2011); Sabiston Tratado de Cirugía 21.ª ed.",
+  "ESVS, enfermedad venosa crónica (2022); CEAP 2020 (Lurie, J Vasc Surg Venous Lymphat Disord 2020); SVS/AVF (2011); Sabiston Tratado de Cirugía 21.ª ed.",
   op=("¿Método ideal?", ["Sí: versión simple del Doppler; el dúplex es el estándar", "No: mide la función de la bomba", "No: invasiva", "No: prueba clínica histórica", "No: prueba clínica histórica"],
       {0: "Doppler manual", 1: "Pletismografía", 2: "Flebografía", 3: "Prueba de Perthes", 4: "Brodie-Trendelenburg"}),
   d=dict(rotulo="Cuándo el reflujo es anormal",
@@ -133,14 +134,14 @@ S("regla", "RM-CIR-017", "El eco Doppler dúplex es el método ideal para diagno
          claves_titulo="Qué mide el dúplex",
          claves=[("Reflujo valvular", ["Segundos de reflujo"], True), ("Compresibilidad", ["Ausente en la trombosis"], False), ("Calibre", ["Safena > 3 mm"], False)]),
   banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Várices", "Venas dilatadas y tortuosas."), ("Pigmentación", "Dermatitis ocre por estasis."), ("Estudio", "Dúplex en bipedestación."), ("Tratamiento", "Compresión o ablación.")], pie="Imagen referencial de várices de miembro inferior"),
-  clasif=dict(titulo="Clasificación clínica CEAP de la enfermedad venosa crónica", cols=["Clase", "Hallazgo", "Conducta"],
+  clasif=dict(titulo="Clasificación clínica CEAP 2020 de la enfermedad venosa crónica", cols=["Clase", "Hallazgo", "Conducta"],
               filas=[["C0", "Sin signos visibles ni palpables", "Sin tratamiento"],
                      ["C1", "Telangiectasias o venas reticulares", "Escleroterapia (estética) si hay síntomas"],
-                     ["C2", "Várices (> 3 mm)", "Compresión; ablación térmica o escleroterapia si hay reflujo"],
+                     ["C2", "Várices (≥ 3 mm en bipedestación; C2r si son recurrentes)", "Compresión; ablación térmica o escleroterapia si hay reflujo"],
                      ["C3", "Edema", "Compresión; tratar el reflujo"],
-                     ["C4", "Cambios cutáneos: pigmentación o eccema (4a); lipodermatoesclerosis (4b)", "Compresión y tratar el reflujo"],
+                     ["C4", "Cambios cutáneos: pigmentación o eccema (4a); lipodermatoesclerosis o atrofia blanca (4b); corona flebectática (4c)", "Compresión y tratar el reflujo"],
                      ["C5", "Úlcera cicatrizada", "Compresión permanente; ablación"],
-                     ["C6", "Úlcera activa", "Compresión y curación; ablación del reflujo"]], ancho_primera=100))
+                     ["C6", "Úlcera activa (C6r si es recurrente)", "Compresión y curación; ablación del reflujo"]], ancho_primera=100))
 
 # 70 · RM-END-002 · CHECKLIST: preparación del feocromocitoma
 S("checklist", "RM-END-002", "Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias",
@@ -264,26 +265,26 @@ S("cascada", "RM-CAR-028", "En el edema pulmonar cardiogénico aumenta la presi�
 # 77 · RM-CIR-019 · ÁRBOL: várices
 S("arbol", "RM-CIR-019", "La prueba ideal para evaluar las várices es el eco Doppler",
   "Cirugía vascular · várices",
-  ("Várices", ["Venas superficiales dilatadas y tortuosas (> 3 mm) por incompetencia valvular.", "Factores: sexo femenino, embarazo, edad, obesidad, bipedestación."]),
+  ("Várices", ["Venas superficiales dilatadas y tortuosas (≥ 3 mm) por incompetencia valvular.", "Factores: sexo femenino, embarazo, edad, obesidad, bipedestación."]),
   ("Pregunta de teoría", ["¿Cuál es la prueba ideal de evaluación?"]),
   ["Doppler dúplex en bipedestación antes de tratar: reflujo, calibre y trombosis profunda.",
    "Complicaciones: tromboflebitis, pigmentación, eccema varicoso, lipodermatoesclerosis y úlcera del maléolo medial.",
    "Tratamiento: compresión, ablación térmica o escleroterapia."],
-  "ESVS, enfermedad venosa crónica (2022); Sabiston Tratado de Cirugía 21.ª ed.",
+  "ESVS, enfermedad venosa crónica (2022); CEAP 2020 (Lurie, J Vasc Surg Venous Lymphat Disord 2020); Sabiston Tratado de Cirugía 21.ª ed.",
   op=("¿Ideal?", ["Sí: dúplex Doppler", "No: mide la bomba muscular", "No: invasiva", "No: prueba clínica histórica", "No: prueba clínica histórica"],
       {0: "Doppler", 1: "Pletismografía", 2: "Flebografía", 3: "Perthes", 4: "Brodie"}),
   arbol=Q("Várices: ¿cómo se estudian?", [
       L("Eco Doppler dúplex (este caso)", "PRUEBA IDEAL", ["Reflujo, calibre y trombos", "En bipedestación"], path=True),
       L("Pruebas clínicas", "TRENDELENBURG · PERTHES", ["Valor histórico"]),
       L("Flebografía o pletismografía", "CASOS ESPECIALES", ["Invasiva o poco usada"])], path=True),
-  clasif=dict(titulo="Clasificación clínica CEAP de la enfermedad venosa crónica", cols=["Clase", "Hallazgo", "Conducta"],
+  clasif=dict(titulo="Clasificación clínica CEAP 2020 de la enfermedad venosa crónica", cols=["Clase", "Hallazgo", "Conducta"],
               filas=[["C0", "Sin signos visibles ni palpables", "Sin tratamiento"],
                      ["C1", "Telangiectasias o venas reticulares", "Escleroterapia (estética) si hay síntomas"],
-                     ["C2", "Várices (> 3 mm)", "Compresión; ablación térmica o escleroterapia si hay reflujo"],
+                     ["C2", "Várices (≥ 3 mm en bipedestación; C2r si son recurrentes)", "Compresión; ablación térmica o escleroterapia si hay reflujo"],
                      ["C3", "Edema", "Compresión; tratar el reflujo"],
-                     ["C4", "Cambios cutáneos: pigmentación o eccema (4a); lipodermatoesclerosis (4b)", "Compresión y tratar el reflujo"],
+                     ["C4", "Cambios cutáneos: pigmentación o eccema (4a); lipodermatoesclerosis o atrofia blanca (4b); corona flebectática (4c)", "Compresión y tratar el reflujo"],
                      ["C5", "Úlcera cicatrizada", "Compresión permanente; ablación"],
-                     ["C6", "Úlcera activa", "Compresión y curación; ablación del reflujo"]], ancho_primera=100))
+                     ["C6", "Úlcera activa (C6r si es recurrente)", "Compresión y curación; ablación del reflujo"]], ancho_primera=100))
 
 # 78 · RM-CIR-020 · RELOJ: fondaparinux 45 días
 S("reloj", "RM-CIR-020", "Tromboflebitis superficial con riesgo de extensión: anticoagulación por seis semanas",
@@ -347,18 +348,18 @@ S("radial", "RM-CAR-030", "Anemia grave por hemorragia digestiva con isquemia: i
   ["Tipo 2: anemia grave, hipotensión, taquiarritmia, espasmo, hipoxemia.",
    "Tratamiento: corregir la causa (transfundir, controlar el sangrado), no reperfusión ni antitrombóticos agresivos.",
    "Tipo 4a: angioplastia; 4b: trombosis del stent; 4c: reestenosis; tipo 5: cirugía de revascularización."],
-  "Cuarta Definición Universal del Infarto (2018); Quinta Definición Universal (2026); " + ESC_ACS,
+  "Cuarta Definición Universal del Infarto (2018); Quinta Definición Universal (ESC/ACC/AHA/WHF, 2026); " + ESC_ACS,
   op=("¿Tipo?", ["Sí: anemia aguda, aporte < demanda", "No: es por placa rota", "No: es muerte súbita sin biomarcadores", "No: es por angioplastia", "No: es por cirugía de bypass"],
       {0: "Tipo 2", 1: "Tipo 3", 2: "Tipo 4", 3: "Tipo 1", 4: "Tipo 5"}),
   d=dict(rotulo="Cinco tipos de infarto", centro="INFARTO", centro_sub="definición universal", ans=1,
          items=[("TIPO 1", ["Placa rota + trombo"]), ("TIPO 2", ["Aporte < demanda (anemia, hipotensión)"]), ("TIPO 3", ["Muerte súbita"]), ("TIPO 4", ["Angioplastia"]), ("TIPO 5", ["Cirugía de revascularización"])],
          ruta=["Hemorragia digestiva", "Hb 5 g/dL e hipotensión", "Aporte de O₂ < demanda", "Infarto tipo 2: tratar la causa"]),
   clasif=dict(titulo="Tipos de infarto: 4.ª definición universal (2018) y 5.ª (2026)", cols=["Tipo (2018)", "Mecanismo", "5.ª definición (2026)", "Conducta"],
-              filas=[["Tipo 1", "Placa rota con trombo", "Primario", "Reperfusión y antitrombóticos"],
-                     ["Tipo 2", "Aporte de O₂ menor que la demanda (anemia, hipotensión, taquiarritmia)", "Secundario", "Tratar la causa; sin reperfusión de rutina"],
-                     ["Tipo 3", "Muerte súbita sin biomarcadores", "Ya no se usa: se clasifica por escenario", "—"],
-                     ["Tipo 4 (a, b, c)", "Angioplastia, trombosis del stent, reestenosis", "Relacionado con procedimiento", "Revascularización según el caso"],
-                     ["Tipo 5", "Cirugía de revascularización", "Relacionado con procedimiento", "Según el caso"]], caso=1, ancho_primera=170))
+              filas=[["Tipo 1", "Placa rota con trombo", "Primario (incluye disección espontánea, embolia y vasoespasmo)", "Reperfusión y antitrombóticos"],
+                     ["Tipo 2", "Aporte de O₂ menor que la demanda (anemia, hipotensión, taquiarritmia)", "Secundario (otra enfermedad aguda: sepsis, hemorragia digestiva, arritmia)", "Tratar la causa; sin reperfusión de rutina"],
+                     ["Tipo 3", "Muerte súbita sin biomarcadores", "Término eliminado: se clasifica como primario, secundario o relacionado con procedimiento", "Según la categoría"],
+                     ["Tipo 4 (a, b, c)", "Angioplastia, trombosis del stent, reestenosis", "Relacionado con procedimiento (≤ 30 días); después, primario", "Revascularización según el caso"],
+                     ["Tipo 5", "Cirugía de revascularización", "Relacionado con procedimiento (≤ 30 días)", "Según el caso"]], caso=1, ancho_primera=170))
 
 # 82 · RM-CAR-031 · BALANZA: fármacos en el embarazo hipertenso
 S("balanza", "RM-CAR-031", "Los IECA están contraindicados en la gestante hipertensa",

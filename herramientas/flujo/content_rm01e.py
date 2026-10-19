@@ -210,7 +210,7 @@ S("checklist", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: enal
                      ["A2", "30-300 mg", "30-300 mg/g", "Moderadamente aumentada", "IECA o ARA II si hay HTA; añadir iSGLT2"],
                      ["A3", "> 300 mg", "> 300 mg/g", "Gravemente aumentada", "IECA o ARA II + iSGLT2; finerenona si persiste; nefrología"]],
               caso=[1, 2], ancho_primera=130,
-              nota="Proteinuria de 500 mg/24 h: límite entre A2 y A3 (en proteinuria total, A2 es 150-500 y A3 > 500 mg/g)."))
+              nota="Proteinuria de 500 mg/24 h: límite entre A2 y A3 (en proteína total de 24 h, A2 es 150-500 mg y A3 > 500 mg)."))
 
 # 95 · RM-CIR-023 · LECTURA con ecografía real: apendicitis
 S("lectura", "RM-CIR-023", "Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda",

@@ -317,7 +317,8 @@ S("cuadro", "RM-REU-001", "En el acné grado III predomina la pústula",
               filas=[["I", "Comedogénico", "Comedones abiertos y cerrados", "Retinoide tópico con peróxido de benzoílo"],
                      ["II", "Papuloso", "Comedones y pápulas", "Retinoide tópico con peróxido de benzoílo"],
                      ["III", "Pustuloso", "Se suman las pústulas", "Se añade antibiótico"],
-                     ["IV", "Nódulo-quístico", "Nódulos y quistes; cicatrices", "Isotretinoína oral, con control de embarazo"]], caso=2))
+                     ["IV", "Nódulo-quístico", "Nódulos y quistes; cicatrices", "Isotretinoína oral, con control de embarazo"]], caso=2,
+              nota="Resumen de la clasificación clásica por lesión predominante; otros textos nombran los grados de otro modo. Las guías actuales (AAD 2024) tratan por gravedad: leve, moderada o grave."))
 
 # CB-025 · MATRIZ · receptor del tacto
 S("matriz", "RM-CB-025", "El complejo de Merkel es el receptor del tacto discriminativo",

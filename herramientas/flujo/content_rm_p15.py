@@ -136,7 +136,7 @@ S("cascada", "RM-GAS-009", "En la colangitis aguda por litiasis predominan E. co
   clasif=dict(titulo="Gravedad de la colangitis aguda según Tokio 2018", cols=["Grado", "Criterio", "Conducta"],
               filas=[["I (leve)", "No cumple criterios de II ni III", "Antibiótico; drenaje si no mejora en 24 h"],
                      ["II (moderada)", "Dos o más: leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75 años, bilirrubina ≥ 5 mg/dL, albúmina baja", "Antibiótico y drenaje biliar precoz"],
-                     ["III (grave)", "Falla de un órgano: hipotensión con vasopresor, alteración de la conciencia, PaO2/FiO2 < 300, oliguria o creatinina > 2, INR > 1,5, plaquetas < 100 000", "Soporte de órganos y drenaje urgente"]],
+                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje urgente"]],
               caso=None, ancho_primera=110))
 
 # 7 · TARJETAS · forunculosis

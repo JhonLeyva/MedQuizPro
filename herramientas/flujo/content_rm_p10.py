@@ -49,11 +49,11 @@ S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntom
   "Diabetes · criterios diagnósticos",
   ("Criterios de diabetes (ADA)", ["Cuatro formas de diagnosticar; basta una en quien tiene síntomas clásicos.", "Sin síntomas se necesitan dos resultados anormales."]),
   ("Varón de 57 años, obeso", ["Polidipsia y poliuria.", "¿Qué criterio contribuye al diagnóstico de diabetes?"]),
-  ["ADA 2025: glucemia en ayunas ≥ 126 mg/dL (≥ 8 h), a las 2 h de una carga de 75 g ≥ 200, HbA1c ≥ 6,5 % o glucemia al azar ≥ 200 con síntomas.",
+  ["ADA 2026: glucemia en ayunas ≥ 126 mg/dL (≥ 8 h), a las 2 h de una carga de 75 g ≥ 200, HbA1c ≥ 6,5 % o glucemia al azar ≥ 200 con síntomas.",
    "Sin síntomas, el diagnóstico exige dos resultados anormales (de la misma muestra o de muestras distintas).",
    "Confirmar siempre con una segunda prueba si no hay síntomas; la HbA1c no es fiable en anemia hemolítica, hemoglobinopatías ni embarazo.",
    "Alerta: polidipsia, poliuria y pérdida de peso con cetonas o vómito sugieren cetoacidosis; urgencia, no solo diagnóstico."],
-  ADA + ", cap. 2; OMS, clasificación de la diabetes (2019).",
+  "ADA, Standards of Care in Diabetes-2026, sec. 2; OMS, clasificación de la diabetes (2019).",
   op=("¿Criterio?", ["Sí: el ayuno de 126 mg/dL o más es criterio diagnóstico", "No: eso es hipoglucemia", "No: 6,5 % o más es el criterio", "No: debe ser 200 o más a las 2 h", "No: el valor al azar debe llegar a 200"],
       {0: "Glucemia en ayunas superior a 126 mg/dL", 1: "Glucemia postprandial menor a 60 mg/dL", 2: "Hemoglobina glucosilada menor a 6,5 %", 3: "Tolerancia a la glucosa menor de 140 mg/dL", 4: "Glucemia al azar de 160 mg/dL"}),
   d=dict(rotulo="Los cuatro criterios y lo que cumple el caso", tag="CRITERIO",
@@ -65,7 +65,7 @@ S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntom
               filas=[["Normal", "< 100 mg/dL", "< 140 mg/dL", "< 5,7 %", "Repetir cada 3 años si hay riesgo"],
                      ["Prediabetes", "100-125 mg/dL", "140-199 mg/dL", "5,7-6,4 %", "Cambios de estilo de vida; metformina en casos seleccionados"],
                      ["Diabetes", "≥ 126 mg/dL", "≥ 200 mg/dL", "≥ 6,5 %", "Confirmar si no hay síntomas y empezar el tratamiento"]],
-              caso=2, ancho_primera=200, nota="Ayuno de 126 mg/dL o más con síntomas clásicos: diagnóstico confirmado."))
+              caso=2, ancho_primera=200, nota="Ayuno de 126 mg/dL o más con síntomas clásicos: diagnóstico confirmado. Resumen de criterios; la conducta de la última columna es orientativa."))
 
 # END-024 · MATRIZ · TSH y T4
 S("matriz", "RM-END-024", "TSH elevada con T4 libre baja confirma el hipotiroidismo primario",

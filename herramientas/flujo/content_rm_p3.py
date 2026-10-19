@@ -142,8 +142,8 @@ S("criterios", "RM-CIR-067", "Colecistitis aguda litiásica con Murphy y leucoci
          img_pie="Imagen referencial de una colecistitis aguda: pared engrosada, líquido alrededor y un cálculo en el cuello."),
   clasif=dict(titulo="Gravedad de la colecistitis aguda según Tokio 2018", cols=["Grado", "Criterio", "Conducta"],
               filas=[["I (leve)", "No cumple criterios de II ni de III", "Colecistectomía laparoscópica temprana"],
-                     ["II (moderada)", "Uno o más: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, más de 72 h, inflamación local marcada (gangrena, absceso, peritonitis biliar)", "Colecistectomía temprana si hay equipo con experiencia; si no, drenaje y diferir"],
-                     ["III (grave)", "Disfunción orgánica: hipotensión con vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2, INR > 1,5, plaquetas < 100 000", "Soporte de órganos y drenaje de la vesícula"]],
+                     ["II (moderada)", "Uno o más: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, más de 72 h, inflamación local marcada (gangrena, absceso, peritonitis biliar, enfisematosa)", "Colecistectomía temprana si hay equipo con experiencia; si no, drenaje y diferir"],
+                     ["III (grave)", "Disfunción orgánica: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje de la vesícula; colecistectomía temprana solo en centro avanzado con falla reversible"]],
               caso=0, ancho_primera=170))
 
 # 068 · CHECKLIST · absceso perianal

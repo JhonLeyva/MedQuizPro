@@ -92,8 +92,8 @@ S("cascada", "RM-CIR-048", "La colecistitis aguda nace casi siempre de un cálcu
          veredicto=("Cálculo en el cístico = colecistitis aguda litiásica", "La infección y la isquemia son consecuencias; no el punto de partida.")),
   clasif=dict(titulo="Gravedad de la colecistitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Conducta"], ancho_primera=130,
               filas=[["I", "Leve: no cumple criterios de grado II ni III", "Colecistectomía laparoscópica temprana"],
-                     ["II", "Moderada, uno de: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, > 72 h de evolución, inflamación local marcada (gangrena, absceso, enfisematosa)", "Colecistectomía temprana si el equipo es experto; si no, antibiótico y drenaje"],
-                     ["III", "Grave, disfunción de un órgano: hipotensión con vasopresor, conciencia alterada, PaFi < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos, drenaje vesicular urgente y colecistectomía diferida"]]))
+                     ["II", "Moderada, uno o más: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, más de 72 h de evolución, inflamación local marcada (gangrena, absceso, peritonitis biliar, enfisematosa)", "Colecistectomía temprana si el equipo es experto; si no, antibiótico y drenaje"],
+                     ["III", "Grave, disfunción de un órgano: hipotensión que requiere vasopresor, conciencia alterada, PaO2/FiO2 < 300, oliguria o creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje vesicular urgente; colecistectomía temprana solo en centro avanzado con falla reversible"]]))
 
 # 049 · GRADOS CON FOTO · Hinchey modificada
 S("grados_foto", "RM-CIR-049", "Un absceso retroperitoneal por diverticulitis es Hinchey II: absceso a distancia del colon",
@@ -142,7 +142,7 @@ S("alarma", "RM-CIR-050", "Fiebre, ictericia y dolor tras colecistectomía: cola
   clasif=dict(titulo="Gravedad de la colangitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Conducta"], ancho_primera=130, caso=1,
               filas=[["I", "Leve: no cumple criterios de grado II ni III", "Antibiótico; drenaje biliar si no mejora en 24 h"],
                      ["II", "Moderada, dos o más: leucocitos > 12 000 o < 4 000, T ≥ 39 °C, edad ≥ 75, bilirrubina total ≥ 5 mg/dL, albúmina baja", "Antibiótico y drenaje biliar precoz (CPRE)"],
-                     ["III", "Grave, disfunción de un órgano: hipotensión con vasopresor, conciencia alterada, PaFi < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje urgente (Reynolds)"]]))
+                     ["III", "Grave, disfunción de un órgano: hipotensión que requiere vasopresor, conciencia alterada, PaO2/FiO2 < 300, oliguria o creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje urgente (Reynolds)"]]))
 
 # 051 · EMBUDO · examen de elección en diverticulitis
 S("embudo", "RM-CIR-051", "La tomografía con contraste es el estudio de elección en la diverticulitis aguda",
