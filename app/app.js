@@ -1031,9 +1031,9 @@
     var subs = (u && u.suscripciones) || {}, espera = (u && u.espera) || [];
     var sel = EX[parametros.examen] ? parametros.examen : (EX[examenPreferido()] ? examenPreferido() : "enam");
     var ex = EX[sel];
-    var tabs = '<div class="chips chips--wrap plan-tabs" role="tablist" aria-label="Examen">' + ORDEN_EX.filter(function (k) { return EX[k]; }).map(function (k) {
-      return '<a class="chip" role="tab" aria-pressed="' + (k === sel) + '" aria-selected="' + (k === sel) + '" href="#/planes?examen=' + k + '">' + esc(EX[k].nombre) + (subs[k] ? " ✓" : "") + '</a>';
-    }).join("") + '</div>';
+    var tabs = '<nav class="chips chips--wrap plan-tabs" aria-label="Examen del plan">' + ORDEN_EX.filter(function (k) { return EX[k]; }).map(function (k) {
+      return '<a class="chip"' + (k === sel ? ' aria-current="true"' : "") + ' href="#/planes?examen=' + k + '">' + esc(EX[k].nombre) + (subs[k] ? " ✓" : "") + '</a>';
+    }).join("") + '</nav>';
     var vigente = subs[sel] ? '<div class="notice notice--ok" role="status"><b>Tu plan ' + esc(subs[sel].plan) + ' de ' + esc(ex.nombre) + ' está activo</b> hasta el ' + esc(fechaLarga(subs[sel].hasta)) + '. Si compras otro periodo, se suma al que ya tienes.</div>' : "";
     var comunes = ex.abierto
       ? ["Preguntas ilimitadas, sin tope diario", "Simulacro ENAM 2020 completo", "Todos los simuladores y el tutor de IA", "Comentario docente y flujograma en cada pregunta", "Progreso, falladas y favoritas"]

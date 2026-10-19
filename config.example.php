@@ -37,6 +37,8 @@ return [
 
     // Opcional. Límite de uso por visitante (por dirección IP).
     'limite_minuto' => 10,
+    'limite_contexto_dia' => 40,                 // consultas diarias de IA con contexto por usuario
+    'presupuesto_caracteres_dia' => 150000,      // presupuesto diario de IA por usuario (caracteres enviados + recibidos)
     'limite_dia'    => 150,
 
     // Opcional. Palabra secreta para abrir el diagnóstico desde el navegador:

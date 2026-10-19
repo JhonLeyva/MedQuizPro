@@ -14,9 +14,9 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20261019-11">
-<link rel="stylesheet" href="graficos.css?v=20261019-11">
-<link rel="stylesheet" href="pro.css?v=20261019-11">
+<link rel="stylesheet" href="styles.css?v=20261019-12">
+<link rel="stylesheet" href="graficos.css?v=20261019-12">
+<link rel="stylesheet" href="pro.css?v=20261019-12">
 </head>
 <body>
 
@@ -488,11 +488,11 @@
         <p class="sec-head__lead">Cada examen tiene su propio banco y sus propios precios. Elige el tuyo y empieza gratis.</p>
       </div>
 
-      <div class="chips chips--wrap plan-tabs reveal" id="planTabs" role="tablist" aria-label="Elige tu examen">
-        <button class="chip" type="button" role="tab" data-ex="essalud" aria-pressed="false">EsSalud</button>
-        <button class="chip" type="button" role="tab" data-ex="enam" aria-pressed="true">ENAM</button>
-        <button class="chip" type="button" role="tab" data-ex="residentado" aria-pressed="false">Residentado Médico</button>
-        <button class="chip" type="button" role="tab" data-ex="encaps" aria-pressed="false">ENCAPS SERUMS</button>
+      <div class="chips chips--wrap plan-tabs reveal" id="planTabs" role="group" aria-label="Elige tu examen">
+        <button class="chip" type="button" data-ex="essalud" aria-pressed="false">EsSalud</button>
+        <button class="chip" type="button" data-ex="enam" aria-pressed="true">ENAM</button>
+        <button class="chip" type="button" data-ex="residentado" aria-pressed="false">Residentado Médico</button>
+        <button class="chip" type="button" data-ex="encaps" aria-pressed="false">ENCAPS SERUMS</button>
       </div>
       <p class="plans__state" id="planEstado" role="status"></p>
       <div class="plans plans--4" id="planesLanding"></div>
@@ -699,11 +699,11 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="catalogo.js?v=20261019-11"></script>
-<script defer src="algoritmos.js?v=20261019-11"></script>
-<script defer src="main.js?v=20261019-11"></script>
-<script defer src="universidades.js?v=20261019-11"></script>
-<script defer src="graficos.js?v=20261019-11"></script>
-<script defer src="pro.js?v=20261019-11"></script>
+<script defer src="catalogo.js?v=20261019-12"></script>
+<script defer src="algoritmos.js?v=20261019-12"></script>
+<script defer src="main.js?v=20261019-12"></script>
+<script defer src="universidades.js?v=20261019-12"></script>
+<script defer src="graficos.js?v=20261019-12"></script>
+<script defer src="pro.js?v=20261019-12"></script>
 </body>
 </html>

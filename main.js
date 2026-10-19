@@ -148,7 +148,7 @@
       "</dialog>"
     ].join("\n");
     var CHAT = [
-      "<button class=\"chat-launcher\" id=\"chatLauncher\" type=\"button\" aria-expanded=\"false\" aria-controls=\"chatPanel\">",
+      "<button class=\"chat-launcher\" id=\"chatLauncher\" type=\"button\" aria-label=\"Preguntarle al tutor de IA\" aria-expanded=\"false\" aria-controls=\"chatPanel\">",
       "  <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\">",
       "    <path d=\"M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.6-.7L3 21l1.9-5.1A8.4 8.4 0 0 1 4.1 11a8.4 8.4 0 0 1 8.4-8.4h.5A8.4 8.4 0 0 1 21 11v.5z\"/>",
       "  </svg>",
