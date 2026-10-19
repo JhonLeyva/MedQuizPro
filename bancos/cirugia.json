@@ -5655,6 +5655,115 @@
       "fuentes": "Di Saverio S et al., WSES Jerusalem Guidelines de apendicitis aguda (World J Emerg Surg, 2020); EsSalud-IETSI, GPC de apendicitis aguda (2022); Sabiston Tratado de Cirugía 21.ª ed.",
       "categoria": "Apendicitis",
       "nota_revision": "Opciones reconstruidas del texto desordenado (distractores A-D según la página del libro)."
+    },
+    {
+      "id": "RM-CIR-134",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Varón de 36 años, quien refiere dolor epigástrico como de sensación de hambre doloroso, que ocurre 3-4 horas después de ingerir alimentos. Se le realiza endoscopia digestiva y se le diagnostica úlcera péptica. Hace 1 día presenta distensión abdominal y dolor intenso en epigastrio seguido de irritación peritoneal. ¿Cuál es el examen inmediato de elección para el paciente?",
+      "opciones": [
+        "Tomografía axial computarizada.",
+        "Resonancia magnética nuclear.",
+        "Ecografía abdominal total.",
+        "Radiografía simple de abdomen de pie.",
+        "Radiografía contrastada de esófago y estómago."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El dolor epigástrico que aparece de 2 a 4 horas después de comer, o con el ayuno, corresponde a una úlcera duodenal. La aparición brusca de dolor intenso con irritación peritoneal y distensión indica perforación, que produce peritonitis química y neumoperitoneo. El estudio inmediato más rápido y accesible es la radiografía de tórax o de abdomen de pie, que muestra aire libre subdiafragmático en cerca del 70-80 % de los casos. La tomografía es más sensible, sobre todo en pacientes con signos equívocos o hemodinámicamente estables, pero no es el primer paso en el paciente con abdomen agudo evidente. La resonancia y la ecografía no son útiles, y el esofagograma con bario está contraindicado por el riesgo de peritonitis (si se requiere contraste, hidrosoluble). Perla clínica: el tratamiento es quirúrgico, con parche de epiplón (Graham) y erradicación de H. pylori; se inicia reanimación, antibióticos y IBP intravenoso.",
+      "comentario": "El dolor epigástrico que aparece de 2 a 4 horas después de comer, o con el ayuno, corresponde a una úlcera duodenal. La aparición brusca de dolor intenso con irritación peritoneal y distensión indica perforación, que produce peritonitis química y neumoperitoneo. El estudio inmediato más rápido y accesible es la radiografía de tórax o de abdomen de pie, que muestra aire libre subdiafragmático en cerca del 70-80 % de los casos. La tomografía es más sensible, sobre todo en pacientes con signos equívocos o hemodinámicamente estables, pero no es el primer paso en el paciente con abdomen agudo evidente. La resonancia y la ecografía no son útiles, y el esofagograma con bario está contraindicado por el riesgo de peritonitis (si se requiere contraste, hidrosoluble). Perla clínica: el tratamiento es quirúrgico, con parche de epiplón (Graham) y erradicación de H. pylori; se inicia reanimación, antibióticos y IBP intravenoso.",
+      "tema": "Úlcera péptica perforada: examen inmediato",
+      "año": 2015,
+      "fuentes": "Tarasconi A, et al. Perforated and bleeding peptic ulcer: WSES guidelines. World J Emerg Surg 2020;15:3; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Abdomen agudo",
+      "nota_revision": "La guía WSES 2020 recomienda la TC con contraste como estudio de elección ante sospecha de perforación (la radiografía con aire libre tiene sensibilidad limitada, cerca de 75 %); la clave D (radiografía de pie) refleja el contexto clásico del examen y se mantiene."
+    },
+    {
+      "id": "RM-CIR-135",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿En qué línea del canal anal se ubica con más frecuencia la fisura anal crónica?",
+      "opciones": [
+        "Lateral izquierda.",
+        "Media anterior.",
+        "Media posterior.",
+        "Lateral derecha.",
+        "Dentada."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La fisura anal es un desgarro longitudinal del anodermo distal a la línea dentada, causado por el paso de heces duras o por hipertonía del esfínter anal interno, que produce dolor intenso durante y después de la defecación y sangrado rojo rutilante escaso. Más de 90 % de las fisuras primarias se ubican en la línea media posterior, porque en esa zona el flujo sanguíneo del anodermo es menor (isquemia relativa), y alrededor de 10 % en la línea media anterior, más frecuente en mujeres. Una fisura lateral, múltiple o indolora debe hacer sospechar causas secundarias: enfermedad de Crohn, tuberculosis, VIH, sífilis, cáncer o leucemia. La línea dentada es un límite anatómico y no un sitio de fisura. Se considera crónica si dura más de 8 semanas, con papila centinela, fibras del esfínter visibles y hemorroide centinela. El tratamiento inicial es fibra, baños de asiento y nifedipino o diltiazem tópicos; si falla, toxina botulínica o esfinterotomía lateral interna.",
+      "comentario": "La fisura anal es un desgarro longitudinal del anodermo distal a la línea dentada, causado por el paso de heces duras o por hipertonía del esfínter anal interno, que produce dolor intenso durante y después de la defecación y sangrado rojo rutilante escaso. Más de 90 % de las fisuras primarias se ubican en la línea media posterior, porque en esa zona el flujo sanguíneo del anodermo es menor (isquemia relativa), y alrededor de 10 % en la línea media anterior, más frecuente en mujeres. Una fisura lateral, múltiple o indolora debe hacer sospechar causas secundarias: enfermedad de Crohn, tuberculosis, VIH, sífilis, cáncer o leucemia. La línea dentada es un límite anatómico y no un sitio de fisura. Se considera crónica si dura más de 8 semanas, con papila centinela, fibras del esfínter visibles y hemorroide centinela. El tratamiento inicial es fibra, baños de asiento y nifedipino o diltiazem tópicos; si falla, toxina botulínica o esfinterotomía lateral interna.",
+      "tema": "Localización de la fisura anal crónica",
+      "año": 2017,
+      "fuentes": "Davids JS, et al. ASCRS Clinical Practice Guidelines for the Management of Anal Fissures. Dis Colon Rectum 2023;66:190-199; Wald A, et al. ACG Clinical Guidelines: Management of Benign Anorectal Disorders. Am J Gastroenterol 2021;116:1987-2008; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Coloproctología",
+      "nota_revision": "El libro marca E (línea dentada) en la imagen, pero su propio comentario y la literatura indican la línea media posterior; clave corregida a C."
+    },
+    {
+      "id": "RM-CIR-136",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Mujer diabética de 45 años, en tratamiento irregular, con dolor abdominal en cuadrante superior derecho desde hace 4 días, sensación de alza térmica e ictericia. Examen: PA 90/60 mmHg, pulso 110 por minuto, T 39 °C, abdomen doloroso en cuadrante superior derecho, Blumberg (-), Murphy (+). Ecografía: colelitiasis y coledocolitiasis. ¿Cuál es la conducta terapéutica a seguir?",
+      "opciones": [
+        "Colangiopancreatografía retrógrada endoscópica.",
+        "Colecistectomía abierta.",
+        "Exploración de vías biliares.",
+        "Colecistostomía abierta.",
+        "Derivación biliodigestiva."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Fiebre, ictericia y dolor en hipocondrio derecho forman la tríada de Charcot de la colangitis aguda; si se suman hipotensión y alteración del sensorio se completa la pentada de Reynolds. Aquí la hipotensión y la taquicardia indican una colangitis moderada a grave según los Criterios de Tokio 2018 (grado II-III), donde el pilar es la reanimación, los antibióticos de amplio espectro y el drenaje biliar urgente, que en la actualidad se logra con CPRE con esfinterotomía y extracción de cálculos o colocación de endoprótesis. La colecistectomía abierta, la exploración quirúrgica de la vía biliar y la derivación biliodigestiva son procedimientos mayores que en un paciente séptico aumentan la mortalidad y quedan para después. La colecistostomía drena la vesícula, no la vía biliar. Perla: la diabetes y el shock séptico son factores de mal pronóstico; la colecistectomía se hace una vez resuelta la sepsis.",
+      "comentario": "Fiebre, ictericia y dolor en hipocondrio derecho forman la tríada de Charcot de la colangitis aguda; si se suman hipotensión y alteración del sensorio se completa la pentada de Reynolds. Aquí la hipotensión y la taquicardia indican una colangitis moderada a grave según los Criterios de Tokio 2018 (grado II-III), donde el pilar es la reanimación, los antibióticos de amplio espectro y el drenaje biliar urgente, que en la actualidad se logra con CPRE con esfinterotomía y extracción de cálculos o colocación de endoprótesis. La colecistectomía abierta, la exploración quirúrgica de la vía biliar y la derivación biliodigestiva son procedimientos mayores que en un paciente séptico aumentan la mortalidad y quedan para después. La colecistostomía drena la vesícula, no la vía biliar. Perla: la diabetes y el shock séptico son factores de mal pronóstico; la colecistectomía se hace una vez resuelta la sepsis.",
+      "tema": "Colangitis aguda grave con coledocolitiasis",
+      "año": 2017,
+      "fuentes": "Tokyo Guidelines 2018: initial management of acute biliary infection and flowchart for acute cholangitis. J Hepatobiliary Pancreat Sci 2018;25:31-40; Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis. J Hepatobiliary Pancreat Sci 2018;25:17-30; ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis. Gastrointest Endosc 2019;89:1075-1105; EsSalud-IETSI, GPC N.º 11 de colelitiasis, colecistitis aguda y coledocolitiasis (2018); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Vía biliar"
+    },
+    {
+      "id": "RM-CIR-137",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Varón de 42 años intervenido por diagnóstico preoperatorio de apendicitis aguda. En el acto quirúrgico: apéndice cecal con tumoración amarillenta de 2 cm, dura, localizada en la punta, que compromete el meso, con el resto del apéndice aparentemente normal. ¿Cuál es la conducta terapéutica a seguir?",
+      "opciones": [
+        "Ileostomía.",
+        "Colectomía total.",
+        "Cecostomía más apendicectomía.",
+        "Apendicectomía.",
+        "Hemicolectomía derecha."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "El apéndice es una localización frecuente de los tumores neuroendocrinos (carcinoides), que suelen descubrirse de forma incidental en la apendicectomía; el 75 % está en la punta, son firmes y de color amarillo-blanquecino. El tamaño y la invasión local definen la conducta. Los tumores menores de 1 cm o de hasta 2 cm situados en la punta, sin invasión del meso y con bordes libres, se curan con la apendicectomía simple. La hemicolectomía derecha con linfadenectomía se reserva para tumores mayores de 2 cm, con afectación de la base o del margen, invasión profunda del mesoapéndice, invasión linfovascular o grado alto. Aquí el tumor tiene 2 cm y compromete el meso, de modo que se amplía la resección. La colectomía total, la ileostomía y la cecostomía no tienen papel oncológico. Perla: se completa con cromogranina A y 5-HIAA solo si hay síntomas de síndrome carcinoide.",
+      "comentario": "El apéndice es una localización frecuente de los tumores neuroendocrinos (carcinoides), que suelen descubrirse de forma incidental en la apendicectomía; el 75 % está en la punta, son firmes y de color amarillo-blanquecino. El tamaño y la invasión local definen la conducta. Los tumores menores de 1 cm o de hasta 2 cm situados en la punta, sin invasión del meso y con bordes libres, se curan con la apendicectomía simple. La hemicolectomía derecha con linfadenectomía se reserva para tumores mayores de 2 cm, con afectación de la base o del margen, invasión profunda del mesoapéndice, invasión linfovascular o grado alto. Aquí el tumor tiene 2 cm y compromete el meso, de modo que se amplía la resección. La colectomía total, la ileostomía y la cecostomía no tienen papel oncológico. Perla: se completa con cromogranina A y 5-HIAA solo si hay síntomas de síndrome carcinoide.",
+      "tema": "Tumor carcinoide de apéndice hallado en la cirugía",
+      "año": 2017,
+      "fuentes": "ENETS 2023 guidance paper for appendiceal neuroendocrine tumours. J Neuroendocrinol 2023;35:e13332; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Tumores",
+      "nota_revision": "Clave E del libro conservada (tamaño en el límite de 2 cm más compromiso del meso favorece hemicolectomía derecha)."
+    },
+    {
+      "id": "RM-CIR-138",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el examen de elección para detectar lesiones metastásicas en cáncer gástrico?",
+      "opciones": [
+        "Tomografía helicoidal.",
+        "Ultrasonografía.",
+        "Radiografía contrastada de estómago.",
+        "Tomografía por emisión de positrones.",
+        "Gammagrafía."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Tras confirmar el adenocarcinoma gástrico por endoscopia y biopsia, se estadifica con tomografía de tórax, abdomen y pelvis con contraste, que detecta metástasis hepáticas, implantes peritoneales, ganglios a distancia y ascitis, y valora la invasión local. Es el estudio de elección por su disponibilidad, rapidez y rendimiento. La ecoendoscopia es mejor para la profundidad de la pared (T) y los ganglios regionales (N), pero no para metástasis. La ecografía abdominal tiene baja sensibilidad, la radiografía contrastada solo muestra la lesión luminal y la gammagrafía no se usa. El PET-TC tiene rendimiento limitado en tumores difusos o mucinosos por su baja captación y se reserva para dudas puntuales. Perla: si la tomografía no muestra enfermedad a distancia, la laparoscopia de estadificación con citología peritoneal detecta enfermedad oculta en tumores T3-T4 antes de operar.",
+      "comentario": "Tras confirmar el adenocarcinoma gástrico por endoscopia y biopsia, se estadifica con tomografía de tórax, abdomen y pelvis con contraste, que detecta metástasis hepáticas, implantes peritoneales, ganglios a distancia y ascitis, y valora la invasión local. Es el estudio de elección por su disponibilidad, rapidez y rendimiento. La ecoendoscopia es mejor para la profundidad de la pared (T) y los ganglios regionales (N), pero no para metástasis. La ecografía abdominal tiene baja sensibilidad, la radiografía contrastada solo muestra la lesión luminal y la gammagrafía no se usa. El PET-TC tiene rendimiento limitado en tumores difusos o mucinosos por su baja captación y se reserva para dudas puntuales. Perla: si la tomografía no muestra enfermedad a distancia, la laparoscopia de estadificación con citología peritoneal detecta enfermedad oculta en tumores T3-T4 antes de operar.",
+      "tema": "Estudio de elección para metástasis en cáncer gástrico",
+      "año": 2017,
+      "fuentes": "Gastric cancer: ESMO Clinical Practice Guideline. Ann Oncol 2022;33:1005-1020; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Oncología quirúrgica",
+      "nota_revision": "Opciones y enunciado reconstruidos: el texto OCR traía las cinco alternativas mezcladas."
     }
   ]
 }

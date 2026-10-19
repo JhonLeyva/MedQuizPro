@@ -11018,6 +11018,196 @@
       "fuentes": "Abbas, Lichtman y Pillai, Inmunología celular y molecular 10.ª ed. (2022); Robbins y Cotran 10.ª ed. (2021)",
       "categoria": "Inmunología",
       "nota_revision": "La clave estaba ilegible en el texto OCR; se verificó en la imagen (Respuesta E)."
+    },
+    {
+      "id": "RM-CB-047",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Qué antibióticos pueden generar disfunción vestibular y auditiva?",
+      "opciones": [
+        "Aminoglicósidos.",
+        "Sulfonamidas.",
+        "Cefalosporinas.",
+        "Carbapenémicos.",
+        "Quinolonas."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los aminoglucósidos (gentamicina, amikacina, estreptomicina, tobramicina, neomicina) se acumulan en la perilinfa y la endolinfa y producen daño irreversible de las células ciliadas del órgano de Corti y del aparato vestibular, mediado por radicales libres y la unión al ribosoma mitocondrial. La estreptomicina y la gentamicina son sobre todo vestibulotóxicas (vértigo, ataxia, oscilopsia), y la amikacina y la neomicina más cocleotóxicas (hipoacusia neurosensorial de frecuencias altas, tinnitus). Se añaden nefrotoxicidad (necrosis tubular), bloqueo neuromuscular y teratogenia. El riesgo aumenta con la dosis acumulada, la insuficiencia renal, el uso conjunto de diuréticos de asa o vancomicina y las mutaciones mitocondriales (A1555G). Las sulfonamidas, cefalosporinas, carbapenémicos y quinolonas no tienen esta toxicidad característica. Perla: la dosis única diaria y la vigilancia de niveles valle disminuyen el daño.",
+      "comentario": "Los aminoglucósidos (gentamicina, amikacina, estreptomicina, tobramicina, neomicina) se acumulan en la perilinfa y la endolinfa y producen daño irreversible de las células ciliadas del órgano de Corti y del aparato vestibular, mediado por radicales libres y la unión al ribosoma mitocondrial. La estreptomicina y la gentamicina son sobre todo vestibulotóxicas (vértigo, ataxia, oscilopsia), y la amikacina y la neomicina más cocleotóxicas (hipoacusia neurosensorial de frecuencias altas, tinnitus). Se añaden nefrotoxicidad (necrosis tubular), bloqueo neuromuscular y teratogenia. El riesgo aumenta con la dosis acumulada, la insuficiencia renal, el uso conjunto de diuréticos de asa o vancomicina y las mutaciones mitocondriales (A1555G). Las sulfonamidas, cefalosporinas, carbapenémicos y quinolonas no tienen esta toxicidad característica. Perla: la dosis única diaria y la vigilancia de niveles valle disminuyen el daño.",
+      "tema": "Ototoxicidad de los aminoglucósidos",
+      "año": 2019,
+      "fuentes": "Goodman y Gilman Las bases farmacológicas de la terapéutica 14.ª ed. (2023); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-CB-048",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es la sustancia agonista de la célula parietal gástrica y que aumenta el AMP cíclico intracelular?",
+      "opciones": [
+        "Histamina.",
+        "Gastrina.",
+        "Acetilcolina.",
+        "Somatostatina.",
+        "Péptido liberador de gastrina."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La célula parietal secreta ácido mediante la bomba H+/K+ ATPasa y es regulada por tres estímulos y un inhibidor. La histamina, liberada por las células enterocromafines (paracrina), se une al receptor H2 acoplado a proteína Gs, activa la adenilato ciclasa y aumenta el AMPc y la proteína cinasa A; es la vía que bloquean los antagonistas H2. La acetilcolina, liberada por fibras vagales (neurocrina), actúa sobre el receptor muscarínico M3 y la gastrina (endocrina), sobre el receptor CCK-B, y ambos usan proteína Gq, que aumenta el calcio intracelular y la fosfolipasa C, no el AMPc. La somatostatina inhibe la secreción ácida mediante proteína Gi, y disminuye el AMPc. El péptido liberador de gastrina actúa sobre las células G y no sobre la célula parietal. Perla: la gastrina estimula sobre todo la liberación de histamina de las células ECL, y por eso los inhibidores de bomba de protones elevan la gastrina.",
+      "comentario": "La célula parietal secreta ácido mediante la bomba H+/K+ ATPasa y es regulada por tres estímulos y un inhibidor. La histamina, liberada por las células enterocromafines (paracrina), se une al receptor H2 acoplado a proteína Gs, activa la adenilato ciclasa y aumenta el AMPc y la proteína cinasa A; es la vía que bloquean los antagonistas H2. La acetilcolina, liberada por fibras vagales (neurocrina), actúa sobre el receptor muscarínico M3 y la gastrina (endocrina), sobre el receptor CCK-B, y ambos usan proteína Gq, que aumenta el calcio intracelular y la fosfolipasa C, no el AMPc. La somatostatina inhibe la secreción ácida mediante proteína Gi, y disminuye el AMPc. El péptido liberador de gastrina actúa sobre las células G y no sobre la célula parietal. Perla: la gastrina estimula sobre todo la liberación de histamina de las células ECL, y por eso los inhibidores de bomba de protones elevan la gastrina.",
+      "tema": "Secreción ácida: agonista que aumenta el AMPc",
+      "año": 2014,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Goodman y Gilman 14.ª ed. (2023); Sleisenger y Fordtran Enfermedades gastrointestinales y hepáticas 11.ª ed. (2020)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-049",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es el tipo de epitelio que reviste la mucosa de la vesícula biliar?",
+      "opciones": [
+        "Pseudoestratificado cilíndrico ciliado.",
+        "Cúbico simple.",
+        "Simple plano.",
+        "Cilíndrico simple.",
+        "Poliestratificado plano."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La pared de la vesícula biliar tiene mucosa, muscular, perimuscular y serosa, y carece de submucosa y de muscularis mucosae. La mucosa está revestida por un epitelio cilíndrico simple de células con microvellosidades, especializado en absorber agua y electrolitos para concentrar la bilis cinco a diez veces, y forma pliegues que se hunden en la lámina propia como los senos de Rokitansky-Aschoff. El epitelio pseudoestratificado ciliado es propio de la tráquea y los bronquios, el cúbico simple de los túbulos renales y conductos pequeños, el plano simple de los alvéolos y los vasos, y el plano estratificado de la piel, el esófago y el ano. Perla clínica: los senos de Rokitansky-Aschoff, que son invaginaciones de la mucosa, aparecen en la adenomiomatosis y la colecistitis crónica, y el adenocarcinoma de vesícula se origina en este epitelio, con la vesícula en porcelana como factor de riesgo.",
+      "comentario": "La pared de la vesícula biliar tiene mucosa, muscular, perimuscular y serosa, y carece de submucosa y de muscularis mucosae. La mucosa está revestida por un epitelio cilíndrico simple de células con microvellosidades, especializado en absorber agua y electrolitos para concentrar la bilis cinco a diez veces, y forma pliegues que se hunden en la lámina propia como los senos de Rokitansky-Aschoff. El epitelio pseudoestratificado ciliado es propio de la tráquea y los bronquios, el cúbico simple de los túbulos renales y conductos pequeños, el plano simple de los alvéolos y los vasos, y el plano estratificado de la piel, el esófago y el ano. Perla clínica: los senos de Rokitansky-Aschoff, que son invaginaciones de la mucosa, aparecen en la adenomiomatosis y la colecistitis crónica, y el adenocarcinoma de vesícula se origina en este epitelio, con la vesícula en porcelana como factor de riesgo.",
+      "tema": "Epitelio de la mucosa de la vesícula biliar",
+      "año": 2014,
+      "fuentes": "Ross Histología. Texto y atlas, 8.ª ed.; Robbins y Cotran Patología estructural y funcional, 10.ª ed. (2021)",
+      "categoria": "Histología"
+    },
+    {
+      "id": "RM-CB-050",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Las células que producen ácido clorhídrico y factor intrínseco son las:",
+      "opciones": [
+        "Del sistema neuroendocrino difuso.",
+        "Principales.",
+        "Caliciformes.",
+        "Granulosas.",
+        "Parietales."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La glándula oxíntica del cuerpo y el fondo gástrico contiene tres poblaciones principales: las células parietales (oxínticas), que secretan ácido clorhídrico y factor intrínseco; las principales (zimógenas), que liberan pepsinógeno y lipasa gástrica; y las mucosas del cuello, que producen moco. La célula parietal bombea protones con la H+/K+-ATPasa, la diana de los inhibidores de bomba de protones, y se estimula por histamina (receptor H2), gastrina (CCK2) y acetilcolina (M3). El factor intrínseco permite absorber la vitamina B12 en el íleon terminal; su deficiencia por gastritis atrófica autoinmune produce anemia perniciosa con anticuerpos anti-célula parietal. Las células neuroendocrinas (G, D, ECL) liberan gastrina, somatostatina e histamina, las caliciformes secretan moco en el intestino y las granulosas pertenecen a otros tejidos, como el ovario. Perla clínica: la gastritis atrófica tipo A aumenta el riesgo de adenocarcinoma gástrico y tumores carcinoides.",
+      "comentario": "La glándula oxíntica del cuerpo y el fondo gástrico contiene tres poblaciones principales: las células parietales (oxínticas), que secretan ácido clorhídrico y factor intrínseco; las principales (zimógenas), que liberan pepsinógeno y lipasa gástrica; y las mucosas del cuello, que producen moco. La célula parietal bombea protones con la H+/K+-ATPasa, la diana de los inhibidores de bomba de protones, y se estimula por histamina (receptor H2), gastrina (CCK2) y acetilcolina (M3). El factor intrínseco permite absorber la vitamina B12 en el íleon terminal; su deficiencia por gastritis atrófica autoinmune produce anemia perniciosa con anticuerpos anti-célula parietal. Las células neuroendocrinas (G, D, ECL) liberan gastrina, somatostatina e histamina, las caliciformes secretan moco en el intestino y las granulosas pertenecen a otros tejidos, como el ovario. Perla clínica: la gastritis atrófica tipo A aumenta el riesgo de adenocarcinoma gástrico y tumores carcinoides.",
+      "tema": "Células parietales: ácido clorhídrico y factor intrínseco",
+      "año": 2015,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Ross Histología. Texto y atlas, 8.ª ed.",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-051",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes enzimas pancreáticas digiere hidratos de carbono?",
+      "opciones": [
+        "Tripsina.",
+        "Carboxipeptidasa.",
+        "Amilasa.",
+        "Fosfolipasa.",
+        "Quimiotripsina."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El jugo pancreático contiene enzimas para digerir los tres principios inmediatos. La alfa-amilasa pancreática hidroliza los enlaces alfa-1,4 del almidón y el glucógeno y genera maltosa, maltotriosa y dextrinas límite, que luego las enzimas del borde en cepillo (maltasa, sacarasa-isomaltasa, lactasa) convierten en monosacáridos absorbibles. La tripsina, la quimotripsina, la elastasa y las carboxipeptidasas son proteasas, secretadas como proenzimas inactivas y activadas en el duodeno por la enteroquinasa; la fosfolipasa A2 y la lipasa pancreática digieren los lípidos con ayuda de las sales biliares. Una parte de la digestión de los almidones comienza en la boca con la amilasa salival. Perla clínica: en la pancreatitis crónica con insuficiencia exocrina predomina la esteatorrea, porque la lipasa se agota antes que la amilasa y las proteasas; la elastasa fecal es la prueba no invasiva más usada.",
+      "comentario": "El jugo pancreático contiene enzimas para digerir los tres principios inmediatos. La alfa-amilasa pancreática hidroliza los enlaces alfa-1,4 del almidón y el glucógeno y genera maltosa, maltotriosa y dextrinas límite, que luego las enzimas del borde en cepillo (maltasa, sacarasa-isomaltasa, lactasa) convierten en monosacáridos absorbibles. La tripsina, la quimotripsina, la elastasa y las carboxipeptidasas son proteasas, secretadas como proenzimas inactivas y activadas en el duodeno por la enteroquinasa; la fosfolipasa A2 y la lipasa pancreática digieren los lípidos con ayuda de las sales biliares. Una parte de la digestión de los almidones comienza en la boca con la amilasa salival. Perla clínica: en la pancreatitis crónica con insuficiencia exocrina predomina la esteatorrea, porque la lipasa se agota antes que la amilasa y las proteasas; la elastasa fecal es la prueba no invasiva más usada.",
+      "tema": "Enzima pancreática que digiere carbohidratos",
+      "año": 2015,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-052",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes sustancias aumenta la secreción de gastrina?",
+      "opciones": [
+        "Adrenalina.",
+        "Somatostatina.",
+        "Secretina.",
+        "Glucagón.",
+        "Péptido intestinal vasoactivo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La gastrina la producen las células G del antro y el duodeno proximal y es el principal estimulante de la secreción de ácido por las células parietales. Su liberación aumenta con los péptidos y aminoácidos de la dieta, la distensión antral, el calcio, la hipercalcemia, el nervio vago mediante el péptido liberador de gastrina y la estimulación adrenérgica (catecolaminas), lo que explica la hipergastrinemia en situaciones de estrés. Se inhibe por retroalimentación cuando el pH antral baja de 3, por la somatostatina de las células D (la señal inhibidora principal), la secretina, el glucagón, el péptido inhibidor gástrico y el péptido intestinal vasoactivo. Por ello la secretina, que estimula al páncreas a liberar bicarbonato, frena la gastrina; en cambio en el gastrinoma la secretina la eleva de forma paradójica, base de la prueba diagnóstica de estimulación. Perla clínica: los IBP elevan la gastrina por pérdida de la inhibición ácida, y puede dar hiperplasia de células ECL.",
+      "comentario": "La gastrina la producen las células G del antro y el duodeno proximal y es el principal estimulante de la secreción de ácido por las células parietales. Su liberación aumenta con los péptidos y aminoácidos de la dieta, la distensión antral, el calcio, la hipercalcemia, el nervio vago mediante el péptido liberador de gastrina y la estimulación adrenérgica (catecolaminas), lo que explica la hipergastrinemia en situaciones de estrés. Se inhibe por retroalimentación cuando el pH antral baja de 3, por la somatostatina de las células D (la señal inhibidora principal), la secretina, el glucagón, el péptido inhibidor gástrico y el péptido intestinal vasoactivo. Por ello la secretina, que estimula al páncreas a liberar bicarbonato, frena la gastrina; en cambio en el gastrinoma la secretina la eleva de forma paradójica, base de la prueba diagnóstica de estimulación. Perla clínica: los IBP elevan la gastrina por pérdida de la inhibición ácida, y puede dar hiperplasia de células ECL.",
+      "tema": "Regulación de la secreción de gastrina",
+      "año": 2016,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Goodman y Gilman Bases farmacológicas de la terapéutica, 14.ª ed. (2023)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-053",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Qué células glandulares gástricas secretan ácido clorhídrico?",
+      "opciones": [
+        "Parietales.",
+        "Intercaladas.",
+        "Mucinosas.",
+        "Madre.",
+        "Principales."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las células parietales (oxínticas) de las glándulas del cuerpo y fondo gástricos secretan ácido clorhídrico y factor intrínseco. El H+ sale por la bomba H+/K+ ATPasa de la membrana apical, que se estimula por tres vías: la acetilcolina (receptor M3), la gastrina (receptor CCK-B) y la histamina de las células enterocromafines (receptor H2), que es la más potente. Por eso los inhibidores de la bomba de protones y los antagonistas H2 reducen la acidez. Las células principales producen pepsinógeno y lipasa gástrica; las mucosas del cuello secretan moco y bicarbonato; las células madre se localizan en el istmo y renuevan el epitelio; las intercaladas no son células gástricas, sino del túbulo colector renal. Perla: la gastritis atrófica autoinmune destruye las parietales, causando aclorhidria y anemia perniciosa por déficit de factor intrínseco.",
+      "comentario": "Las células parietales (oxínticas) de las glándulas del cuerpo y fondo gástricos secretan ácido clorhídrico y factor intrínseco. El H+ sale por la bomba H+/K+ ATPasa de la membrana apical, que se estimula por tres vías: la acetilcolina (receptor M3), la gastrina (receptor CCK-B) y la histamina de las células enterocromafines (receptor H2), que es la más potente. Por eso los inhibidores de la bomba de protones y los antagonistas H2 reducen la acidez. Las células principales producen pepsinógeno y lipasa gástrica; las mucosas del cuello secretan moco y bicarbonato; las células madre se localizan en el istmo y renuevan el epitelio; las intercaladas no son células gástricas, sino del túbulo colector renal. Perla: la gastritis atrófica autoinmune destruye las parietales, causando aclorhidria y anemia perniciosa por déficit de factor intrínseco.",
+      "tema": "Células gástricas que secretan ácido clorhídrico",
+      "año": 2017,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Ganong Fisiología Médica 26.ª ed. (2019)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-054",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Qué enzima digestiva gástrica empieza el proceso de digestión de las proteínas?",
+      "opciones": [
+        "Tripsina.",
+        "Carboxipeptidasa.",
+        "Quimotripsina.",
+        "Pepsina.",
+        "Elastasa."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La digestión proteica empieza en el estómago. Las células principales secretan pepsinógeno, un zimógeno que el ácido clorhídrico de las células parietales convierte en pepsina (pH óptimo 1,8-3,5), que a su vez activa más pepsinógeno por autocatálisis. La pepsina rompe enlaces peptídicos próximos a aminoácidos aromáticos y genera polipéptidos grandes. Cuando el quimo pasa al duodeno, el pH sube por el bicarbonato, la pepsina se inactiva y la digestión continúa con las proteasas pancreáticas: tripsina, quimotripsina y elastasa (endopeptidasas), y carboxipeptidasas A y B (exopeptidasas), todas activadas por la enteropeptidasa del borde en cepillo, que convierte el tripsinógeno en tripsina. Por eso las otras cuatro opciones actúan en el intestino. Perla: el reflujo de pepsina contribuye al daño de la mucosa esofágica y laríngea.",
+      "comentario": "La digestión proteica empieza en el estómago. Las células principales secretan pepsinógeno, un zimógeno que el ácido clorhídrico de las células parietales convierte en pepsina (pH óptimo 1,8-3,5), que a su vez activa más pepsinógeno por autocatálisis. La pepsina rompe enlaces peptídicos próximos a aminoácidos aromáticos y genera polipéptidos grandes. Cuando el quimo pasa al duodeno, el pH sube por el bicarbonato, la pepsina se inactiva y la digestión continúa con las proteasas pancreáticas: tripsina, quimotripsina y elastasa (endopeptidasas), y carboxipeptidasas A y B (exopeptidasas), todas activadas por la enteropeptidasa del borde en cepillo, que convierte el tripsinógeno en tripsina. Por eso las otras cuatro opciones actúan en el intestino. Perla: el reflujo de pepsina contribuye al daño de la mucosa esofágica y laríngea.",
+      "tema": "Enzima que inicia la digestión de proteínas",
+      "año": 2017,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Ganong Fisiología Médica 26.ª ed. (2019)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-055",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Qué células del estómago transportan H+ y Cl-?",
+      "opciones": [
+        "Mucosas.",
+        "Absortivas.",
+        "Cimógenas.",
+        "Parietales.",
+        "Intercaladas."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El ácido clorhídrico se forma dentro de la célula parietal, no en la luz. El CO2 se hidrata por acción de la anhidrasa carbónica y genera H+ y bicarbonato; el H+ se transporta a la luz mediante la bomba H+/K+ ATPasa apical, a cambio de K+, y el Cl- sale por canales apicales, de modo que en la luz se combinan formando HCl. El bicarbonato sale a la sangre por el polo basolateral a cambio de Cl-, lo que produce la llamada marea alcalina posprandial. Las células mucosas secretan moco y bicarbonato; las cimógenas (principales) secretan pepsinógeno; las absortivas pertenecen al intestino; las intercaladas son del túbulo colector renal. Perla: los inhibidores de la bomba de protones (omeprazol) inhiben irreversiblemente la H+/K+ ATPasa y son más eficaces tomados 30 minutos antes de la comida, cuando la bomba está activa.",
+      "comentario": "El ácido clorhídrico se forma dentro de la célula parietal, no en la luz. El CO2 se hidrata por acción de la anhidrasa carbónica y genera H+ y bicarbonato; el H+ se transporta a la luz mediante la bomba H+/K+ ATPasa apical, a cambio de K+, y el Cl- sale por canales apicales, de modo que en la luz se combinan formando HCl. El bicarbonato sale a la sangre por el polo basolateral a cambio de Cl-, lo que produce la llamada marea alcalina posprandial. Las células mucosas secretan moco y bicarbonato; las cimógenas (principales) secretan pepsinógeno; las absortivas pertenecen al intestino; las intercaladas son del túbulo colector renal. Perla: los inhibidores de la bomba de protones (omeprazol) inhiben irreversiblemente la H+/K+ ATPasa y son más eficaces tomados 30 minutos antes de la comida, cuando la bomba está activa.",
+      "tema": "Células gástricas que transportan H+ y Cl-",
+      "año": 2018,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Ganong Fisiología Médica 26.ª ed. (2019)",
+      "categoria": "Fisiología",
+      "nota_revision": "Clave corregida: el OCR marcaba E (Intercaladas), pero el bloque estaba mezclado con otra pregunta y marcaba «sin respuesta»; la correcta es D (Parietales). Opciones reconstruidas."
     }
   ]
 }

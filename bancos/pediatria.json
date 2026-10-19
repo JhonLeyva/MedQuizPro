@@ -5564,6 +5564,49 @@
       "fuentes": "OMS, Curvas de crecimiento para escolares y adolescentes de 5 a 19 años (2007); AAP, Guía de obesidad infantil (Hampl, Pediatrics 2023)",
       "categoria": "Nutrición",
       "nota_revision": "La clave no se leyó en el OCR; el libro indica C (sobrepeso). No se cita guía MINSA de valoración nutricional por no haberse podido verificar su número y año."
+    },
+    {
+      "id": "RM-PED-007",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Niño de 4 años presenta febrícula, cefalea y rinorrea y, luego de dos días, eritema en cara que se extiende con erupción papuloeritematosa difusa en tronco y zona proximal de extremidades, que aclara pronto dando un aspecto reticulado. ¿Cuál es el agente etiológico?",
+      "opciones": [
+        "Herpesvirus 6.",
+        "Herpes zóster.",
+        "Paramixovirus.",
+        "Parvovirus B19.",
+        "Coronavirus."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro es un eritema infeccioso o quinta enfermedad, producido por el parvovirus B19, un virus ADN que infecta los precursores eritroides mediante el antígeno P del eritrocito. Tras un pródromo leve (febrícula, cefalea, coriza) aparece el eritema «en bofetada» en las mejillas y después un exantema en encaje o reticulado en tronco y extremidades, que fluctúa con el calor o el sol. En el niño sano es benigno y autolimitado; en el adulto causa artralgias. En pacientes con anemia hemolítica puede producir crisis aplásica, en inmunodeprimidos anemia crónica y en la gestante hidrops fetal. El herpesvirus 6 produce el exantema súbito (fiebre alta y exantema al ceder la fiebre), el paramixovirus corresponde a sarampión o parotiditis (exantema con fiebre alta y tos), el zóster es vesicular y dermatomal, y los coronavirus causan resfrío. Perla: tras aparecer el exantema ya no es contagioso.",
+      "comentario": "El cuadro es un eritema infeccioso o quinta enfermedad, producido por el parvovirus B19, un virus ADN que infecta los precursores eritroides mediante el antígeno P del eritrocito. Tras un pródromo leve (febrícula, cefalea, coriza) aparece el eritema «en bofetada» en las mejillas y después un exantema en encaje o reticulado en tronco y extremidades, que fluctúa con el calor o el sol. En el niño sano es benigno y autolimitado; en el adulto causa artralgias. En pacientes con anemia hemolítica puede producir crisis aplásica, en inmunodeprimidos anemia crónica y en la gestante hidrops fetal. El herpesvirus 6 produce el exantema súbito (fiebre alta y exantema al ceder la fiebre), el paramixovirus corresponde a sarampión o parotiditis (exantema con fiebre alta y tos), el zóster es vesicular y dermatomal, y los coronavirus causan resfrío. Perla: tras aparecer el exantema ya no es contagioso.",
+      "tema": "Eritema infeccioso (quinta enfermedad)",
+      "año": 2019,
+      "fuentes": "AAP, Red Book: Report of the Committee on Infectious Diseases 2024-2027, 33.ª ed.; Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Infectología pediátrica"
+    },
+    {
+      "id": "RM-PED-008",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es el agente infeccioso más importante relacionado con la bronquiolitis obliterante postinfecciosa?",
+      "opciones": [
+        "Mycoplasma pneumoniae.",
+        "Influenza.",
+        "Virus sincitial respiratorio.",
+        "Bordetella pertussis.",
+        "Adenovirus."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La bronquiolitis obliterante es una enfermedad crónica de la vía aérea pequeña en la que una lesión grave del epitelio bronquiolar produce inflamación y fibrosis que estrechan u obliteran la luz. En niños la causa más frecuente es la infección respiratoria baja grave, en la que el adenovirus, sobre todo los serotipos 3, 7 y 21, es el agente más importante, en especial en Sudamérica; también participan el sarampión, la influenza, el virus sincitial respiratorio y el Mycoplasma, pero con menor frecuencia. Se sospecha ante sibilancias, taquipnea e hipoxemia que persisten más de 6 semanas tras una neumonía grave; la tomografía de alta resolución muestra patrón en mosaico y atrapamiento aéreo, y la radiografía puede mostrar pulmón hiperlúcido unilateral (síndrome de Swyer-James). No responde bien a broncodilatadores. Perla: en trasplante pulmonar o de médula ósea la causa es el rechazo crónico o la enfermedad injerto contra huésped.",
+      "comentario": "La bronquiolitis obliterante es una enfermedad crónica de la vía aérea pequeña en la que una lesión grave del epitelio bronquiolar produce inflamación y fibrosis que estrechan u obliteran la luz. En niños la causa más frecuente es la infección respiratoria baja grave, en la que el adenovirus, sobre todo los serotipos 3, 7 y 21, es el agente más importante, en especial en Sudamérica; también participan el sarampión, la influenza, el virus sincitial respiratorio y el Mycoplasma, pero con menor frecuencia. Se sospecha ante sibilancias, taquipnea e hipoxemia que persisten más de 6 semanas tras una neumonía grave; la tomografía de alta resolución muestra patrón en mosaico y atrapamiento aéreo, y la radiografía puede mostrar pulmón hiperlúcido unilateral (síndrome de Swyer-James). No responde bien a broncodilatadores. Perla: en trasplante pulmonar o de médula ósea la causa es el rechazo crónico o la enfermedad injerto contra huésped.",
+      "tema": "Bronquiolitis obliterante postinfecciosa",
+      "año": 2019,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Kavaliunaite E, Aurora P. Diagnosing and managing bronchiolitis obliterans in children (Expert Rev Respir Med 2019;13:481)",
+      "categoria": "Neumología pediátrica",
+      "nota_revision": "Las opciones B a E venían pegadas por OCR y se separaron según la página del libro."
     }
   ]
 }

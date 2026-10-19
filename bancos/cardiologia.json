@@ -2408,6 +2408,27 @@
       "fuentes": "Fowler VG et al., The 2023 Duke-ISCVID criteria for infective endocarditis, Clin Infect Dis 2023;77:518-26; Delgado V et al., 2023 ESC Guidelines for the management of endocarditis, Eur Heart J 2023;44:3948-4042",
       "categoria": "Endocarditis",
       "nota_revision": "La «evidencia serológica de infección activa» era menor en Duke modificado; hoy solo la serología de Coxiella es mayor, por lo que C sigue siendo incorrecta en este enunciado."
+    },
+    {
+      "id": "RM-CAR-041",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es el criterio mayor más frecuente para el diagnóstico de fiebre reumática?",
+      "opciones": [
+        "Carditis.",
+        "Eritema marginado.",
+        "Corea.",
+        "Fiebre.",
+        "Artritis."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La fiebre reumática es una secuela autoinmune, por mimetismo molecular, de la faringitis por estreptococo betahemolítico del grupo A, y aparece 2 a 4 semanas después. Los criterios de Jones revisados por la AHA en 2015 distinguen poblaciones de bajo riesgo y de riesgo moderado o alto, y el diagnóstico inicial requiere evidencia de infección estreptocócica previa más dos criterios mayores o uno mayor y dos menores. Los mayores son carditis, poliartritis, corea de Sydenham, eritema marginado y nódulos subcutáneos; en poblaciones de riesgo moderado y alto la monoartritis o la poliartralgia también cuenta como mayor. La manifestación más frecuente es la artritis migratoria de grandes articulaciones (60 a 80 %), seguida de la carditis (50 a 60 %), que es la más grave porque deja cardiopatía valvular crónica. La corea es tardía (3 meses) y el eritema marginado y los nódulos son raros. La fiebre es criterio menor. Perla: la artritis responde rápido a los AINE.",
+      "comentario": "La fiebre reumática es una secuela autoinmune, por mimetismo molecular, de la faringitis por estreptococo betahemolítico del grupo A, y aparece 2 a 4 semanas después. Los criterios de Jones revisados por la AHA en 2015 distinguen poblaciones de bajo riesgo y de riesgo moderado o alto, y el diagnóstico inicial requiere evidencia de infección estreptocócica previa más dos criterios mayores o uno mayor y dos menores. Los mayores son carditis, poliartritis, corea de Sydenham, eritema marginado y nódulos subcutáneos; en poblaciones de riesgo moderado y alto la monoartritis o la poliartralgia también cuenta como mayor. La manifestación más frecuente es la artritis migratoria de grandes articulaciones (60 a 80 %), seguida de la carditis (50 a 60 %), que es la más grave porque deja cardiopatía valvular crónica. La corea es tardía (3 meses) y el eritema marginado y los nódulos son raros. La fiebre es criterio menor. Perla: la artritis responde rápido a los AINE.",
+      "tema": "Criterio mayor más frecuente de fiebre reumática",
+      "año": 2019,
+      "fuentes": "Gewitz MH et al., AHA, Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography (Circulation 2015;131:1806); Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fiebre reumática"
     }
   ]
 }

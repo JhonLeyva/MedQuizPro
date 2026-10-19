@@ -1814,6 +1814,50 @@
       "fuentes": "ATS/CDC/ERS/IDSA, Diagnosis of tuberculosis in adults and children (Clin Infect Dis 2017;64:e1); OMS, Consolidated Guidelines on Tuberculosis, Module 3: Diagnosis (2025); NTS 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis, 1.ª ed. 2025); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
       "categoria": "Tuberculosis",
       "nota_revision": "Se corrigió el OCR del enunciado («BK en esputo negativo. ADA…»)."
+    },
+    {
+      "id": "RM-NEU-019",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 70 años que ha estado sano en los últimos 3 meses y viene a consulta porque hace 3 días presenta fiebre precedida de escalofríos y tos productiva con expectoración purulenta. Examen: T 38 °C, PA 130/80 mmHg, FC 100 por minuto, FR 24 por minuto, pulmones: crepitantes en tercio medio de hemitórax izquierdo, roncus en ambos hemitórax. ¿Cuál es el tratamiento empírico de inicio?",
+      "opciones": [
+        "Claritromicina 500 mg VO 2 veces al día.",
+        "Cefotaxima 2 g IV cada 8 horas.",
+        "Amoxicilina/ácido clavulánico 2 g VO 2 veces al día.",
+        "Cefuroxima 500 mg VO 2 veces al día.",
+        "Moxifloxacino 400 mg VO al día."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro es una neumonía adquirida en la comunidad leve, con CURB-65 de 1 punto por la edad mayor de 65 años, manejable de forma ambulatoria en un adulto sin comorbilidades. La guía ATS/IDSA 2019 recomienda para este grupo amoxicilina 1 g tres veces al día (fuerte), doxiciclina o un macrólido (condicional, solo si la resistencia neumocócica local es menor del 25 %); la GPC de EsSalud (2025) también propone amoxicilina 1 g cada 8 horas. Entre las opciones, la claritromicina es la única monoterapia admitida como alternativa en este grupo; la amoxicilina/clavulánico se reserva para pacientes con comorbilidades (en combinación con macrólido o doxiciclina); la cefotaxima es parenteral e implica hospitalización; la cefuroxima no se recomienda; y el moxifloxacino, como las demás fluoroquinolonas, se reserva para comorbilidades o alergia por su riesgo de efectos adversos (tendinopatía, QT). Perla: en el adulto mayor se pide radiografía de tórax para confirmar el infiltrado.",
+      "comentario": "El cuadro es una neumonía adquirida en la comunidad leve, con CURB-65 de 1 punto por la edad mayor de 65 años, manejable de forma ambulatoria en un adulto sin comorbilidades. La guía ATS/IDSA 2019 recomienda para este grupo amoxicilina 1 g tres veces al día (fuerte), doxiciclina o un macrólido (condicional, solo si la resistencia neumocócica local es menor del 25 %); la GPC de EsSalud (2025) también propone amoxicilina 1 g cada 8 horas. Entre las opciones, la claritromicina es la única monoterapia admitida como alternativa en este grupo; la amoxicilina/clavulánico se reserva para pacientes con comorbilidades (en combinación con macrólido o doxiciclina); la cefotaxima es parenteral e implica hospitalización; la cefuroxima no se recomienda; y el moxifloxacino, como las demás fluoroquinolonas, se reserva para comorbilidades o alergia por su riesgo de efectos adversos (tendinopatía, QT). Perla: en el adulto mayor se pide radiografía de tórax para confirmar el infiltrado.",
+      "tema": "Neumonía adquirida en la comunidad ambulatoria sin comorbilidades",
+      "año": 2019,
+      "fuentes": "Metlay JP et al., ATS/IDSA, Diagnosis and treatment of adults with community-acquired pneumonia (Am J Respir Crit Care Med 2019;200:e45); Jones BE et al., ATS, Diagnosis and management of community-acquired pneumonia, actualización (Am J Respir Crit Care Med 2026;212:24); EsSalud-IETSI, GPC N.° 79 de manejo de la neumonía adquirida en la comunidad en adultos (2025); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Neumonía",
+      "nota_revision": "CONTRADICCION parcial: ATS/IDSA 2019 y GPC EsSalud N.° 79 (2025) prefieren amoxicilina 1 g; el macrólido es solo alternativa condicional y no hay opción con amoxicilina 1 g. Se conserva A (clave del libro). Enunciado reconstruido con la página."
+    },
+    {
+      "id": "RM-NEU-020",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "En la neumonía adquirida en la comunidad, los criterios de CURB-65 recomiendan el indispensable internamiento en la unidad de cuidados intensivos de los pacientes que alcanzan una puntuación de:",
+      "opciones": [
+        "≥ 1,5.",
+        "0.",
+        "≥ 1.",
+        "≥ 2.",
+        "≥ 3."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La escala CURB-65 asigna un punto a cada uno de cinco factores: confusión, urea mayor de 7 mmol/L (BUN mayor de 19 mg/dL), frecuencia respiratoria de 30 por minuto o más, presión arterial sistólica menor de 90 o diastólica de 60 mmHg o menos, y edad de 65 años o más. La mortalidad a 30 días es de alrededor de 0,6 % con 0 puntos, 2,7 % con 1, 6,8 % con 2, 14 % con 3 y más de 27 % con 4 a 5. Con 0 a 1 punto se trata ambulatoriamente, con 2 se hospitaliza en sala y con 3 o más se considera neumonía grave con mal pronóstico y se valora ingreso a cuidados intensivos, que es la respuesta esperada por la pregunta. Las opciones de 0, 1 y 2 puntos corresponden a manejo ambulatorio o de sala; la puntuación 1,5 no existe, pues la escala es entera. Perla: la ATS/IDSA 2019 emplea los criterios mayores y menores para decidir la UCI, y el CURB-65 no sustituye el juicio clínico.",
+      "comentario": "La escala CURB-65 asigna un punto a cada uno de cinco factores: confusión, urea mayor de 7 mmol/L (BUN mayor de 19 mg/dL), frecuencia respiratoria de 30 por minuto o más, presión arterial sistólica menor de 90 o diastólica de 60 mmHg o menos, y edad de 65 años o más. La mortalidad a 30 días es de alrededor de 0,6 % con 0 puntos, 2,7 % con 1, 6,8 % con 2, 14 % con 3 y más de 27 % con 4 a 5. Con 0 a 1 punto se trata ambulatoriamente, con 2 se hospitaliza en sala y con 3 o más se considera neumonía grave con mal pronóstico y se valora ingreso a cuidados intensivos, que es la respuesta esperada por la pregunta. Las opciones de 0, 1 y 2 puntos corresponden a manejo ambulatorio o de sala; la puntuación 1,5 no existe, pues la escala es entera. Perla: la ATS/IDSA 2019 emplea los criterios mayores y menores para decidir la UCI, y el CURB-65 no sustituye el juicio clínico.",
+      "tema": "CURB-65 y criterio de cuidados intensivos",
+      "año": 2019,
+      "fuentes": "Metlay JP et al., ATS/IDSA, Diagnosis and treatment of adults with community-acquired pneumonia (Am J Respir Crit Care Med 2019;200:e45); Lim WS et al., Defining community acquired pneumonia severity on presentation to hospital (Thorax 2003;58:377); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Neumonía",
+      "nota_revision": "Las opciones estaban pegadas por OCR; se reconstruyeron con la imagen (A figura «≥ 1,5» en el libro)."
     }
   ]
 }
