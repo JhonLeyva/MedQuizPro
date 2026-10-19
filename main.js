@@ -77,6 +77,10 @@
       "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"6\" width=\"14\" height=\"11\" rx=\"2\"/><path d=\"M7 20h12a2 2 0 0 0 2-2V9\"/></svg>",
       "            Convertir en flashcard",
       "          </button>",
+      "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svIA\" hidden>",
+      "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z\"/></svg>",
+      "            Preguntar a la IA",
+      "          </button>",
       "        </div>",
       "      </div>",
       "      <div class=\"quiz__foot sim-view__nav\">",
@@ -139,7 +143,7 @@
       "    </button>",
       "  </div>",
       "  <div class=\"algo-modal__body\" id=\"algoBody\"></div>",
-      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button></div>",
+      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden>Preguntar a la IA</button></div>",
       "</dialog>"
     ].join("\n");
     var CHAT = [
@@ -1533,6 +1537,8 @@
       algo: document.getElementById("svAlgo"),
       flash: document.getElementById("svFlash"),
       flashModal: document.getElementById("algoFlash"),
+      ia: document.getElementById("svIA"),
+      iaModal: document.getElementById("algoIA"),
       modal: document.getElementById("algoModal"),
       modalBody: document.getElementById("algoBody"),
       modalTitle: document.getElementById("algoTitle"),
@@ -2018,7 +2024,17 @@
       var ver = !!(estado && estado.respondida && window.MQP && MQP.flashcards);
       if (el.flash) el.flash.hidden = !ver;
       if (el.flashModal) el.flashModal.hidden = !ver;
+      var vIA = !!(estado && estado.respondida && window.MQP && MQP.iaguia);
+      if (el.ia) el.ia.hidden = !vIA;
+      if (el.iaModal) el.iaModal.hidden = !vIA;
     }
+    function preguntarIA(origen) {
+      if (!estado || !estado.respondida || !window.MQP || !MQP.iaguia) return;
+      if (el.modal && el.modal.open) cerrarAlgoritmo();
+      MQP.iaguia.abrir(estado.pregunta, estado.elegida, origen);
+    }
+    if (el.ia) el.ia.addEventListener("click", function () { preguntarIA(el.ia); });
+    if (el.iaModal) el.iaModal.addEventListener("click", function () { preguntarIA(el.algo); });
     if (el.flash) el.flash.addEventListener("click", function () { flashcard(el.flash); });
     if (el.flashModal) el.flashModal.addEventListener("click", function () { flashcard(el.algo); });
     if (el.modalClose) el.modalClose.addEventListener("click", cerrarAlgoritmo);
