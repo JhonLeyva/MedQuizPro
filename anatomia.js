@@ -7,7 +7,7 @@
   "use strict";
   var M = window.MQP || (window.MQP = {});
   var CFG = {
-    url: "",            // https://… la dirección del <iframe> que entrega Anatomy Learning
+    url: "https://anatomylearning.com",   // dirección del <iframe> que entrega Anatomy Learning
     licencia: "",       // número de licencia que Anatomy Learning pide citar (si lo asignan)
     nombre: "Anatomy Learning"
   };
@@ -28,7 +28,7 @@
       return '<div class="an-vacio" role="status"><b>El atlas de anatomía se está preparando.</b><p>Muy pronto podrás explorarlo aquí, en 3D, sin salir del simulador.</p></div>';
     }
     return '<iframe class="an-marco ' + (clase || "") + '" src="' + esc(CFG.url) + '" title="Atlas 3D de anatomía (' + esc(CFG.nombre) + ')" loading="lazy" ' +
-      'allow="fullscreen; accelerometer; gyroscope" allowfullscreen referrerpolicy="origin"></iframe>' + credito();
+      'allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen referrerpolicy="origin"></iframe>' + credito();
   }
 
   /* Página aparte dentro del simulador: #/anatomia */
