@@ -41,6 +41,11 @@ return [
     // (cuenta.php, dueno_activar) es más segura que una IP.
     'ips_libres' => '',
 
+    // Opcional. Clave de dueño (16 o más caracteres) para usar el tutor de IA sin cuenta desde cualquier equipo.
+    // Abre UNA vez en cada navegador:  https://tudominio.com/api.php?accion=dueno&clave=TU-CLAVE
+    // y queda activado un año. Más segura que una IP. Déjala vacía para desactivarla.
+    'clave_dueno' => '',
+
     // Opcional. Límite de uso por visitante (por dirección IP).
     'limite_minuto' => 10,
     'limite_contexto_dia' => 40,                 // consultas diarias de IA con contexto por usuario
