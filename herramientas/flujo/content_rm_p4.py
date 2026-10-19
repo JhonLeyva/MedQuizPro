@@ -162,7 +162,7 @@ S("decision", "RM-CIR-084", "La sección total del colédoco reconocida en la ci
          caso=(3, 1), nota="Si la reconstrucción no es posible en el momento: drenar y derivar a un centro hepatobiliar."))
 
 # ───────────────────────────── 085 · TARJETAS (Todani)
-S("tarjetas", "RM-CIR-085", "El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente",
+S("cuadro", "RM-CIR-085", "El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente",
   "Quistes de colédoco · clasificación de Todani",
   ("Quistes de la vía biliar", ["Dilataciones congénitas de la vía biliar, más en mujeres y en Asia.", "Asociadas a una unión pancreatobiliar anómala."]),
   ("Pregunta de clasificación", ["Clasificación de Todani.", "¿Cuál es el tipo más frecuente?"]),
@@ -171,13 +171,14 @@ S("tarjetas", "RM-CIR-085", "El tipo I de Todani (dilatación fusiforme del col�
    "Riesgo de colangiocarcinoma del 10-30 % en el adulto: resección completa del quiste con hepaticoyeyunostomía en Y de Roux; no el drenaje interno."],
   "Todani et al., Am J Surg (1977); Soares et al., J Am Coll Surg (2014); " + SAB,
   op=("¿Tipo más frecuente?", ["Sí: 80-90 % de los casos", "No: divertículo, raro (2 %)", "No: coledococele, raro", "No: múltiples, 10-20 %", "No: enfermedad de Caroli, rara"]),
-  d=dict(rotulo="Tipos de quiste de colédoco de Todani", ans=0,
-         cards=[dict(titulo="Tipo I", datos=[("Forma", "Fusiforme o sacular", True), ("Sitio", "Colédoco", True), ("Frecuencia", "80-90 %", True)], pie="Este caso: el más frecuente."),
-                dict(titulo="Tipo II", datos=[("Forma", "Divertículo", False), ("Sitio", "Pared del colédoco", False), ("Frecuencia", "Cerca de 2 %", False)], pie="Excisión simple del divertículo."),
-                dict(titulo="Tipo III", datos=[("Forma", "Coledococele", False), ("Sitio", "Colédoco intraduodenal", False), ("Frecuencia", "Raro", False)], pie="Resección endoscópica o quirúrgica."),
-                dict(titulo="Tipo IV", datos=[("Forma", "Quistes múltiples", False), ("IVa", "Intra y extrahepáticos", False), ("IVb", "Solo extrahepáticos", False)], pie="10-20 %: segundo en frecuencia."),
-                dict(titulo="Tipo V", datos=[("Forma", "Quistes intrahepáticos", False), ("Nombre", "Enfermedad de Caroli", False), ("Frecuencia", "Raro", False)], pie="Puede requerir trasplante hepático."),
-                dict(titulo="Conducta común", datos=[("Cirugía", "Resección del quiste", False), ("Anastomosis", "Y de Roux", False), ("Riesgo", "Cáncer 10-30 %", False)], pie="No se drena al intestino sin resecar.")]))
+  d=dict(veredicto=("Tipo I = el más frecuente (80-90 %)", "Se reseca el quiste completo y se hace hepaticoyeyunostomía en Y de Roux; no se drena al intestino.")),
+  clasif=dict(titulo="Clasificación de Todani de los quistes de colédoco", cols=["Tipo", "Forma", "Sitio", "Frecuencia", "Tratamiento"],
+              filas=[["I", "Dilatación fusiforme o sacular", "Colédoco extrahepático", "80-90 %", "Resección del quiste + Y de Roux"],
+                     ["II", "Divertículo", "Pared del colédoco", "Cerca de 2 %", "Diverticulectomía"],
+                     ["III", "Coledococele", "Colédoco intraduodenal", "Raro", "Esfinterotomía endoscópica o resección transduodenal"],
+                     ["IVa", "Quistes múltiples", "Intra y extrahepáticos", "10-20 % (IV)", "Resección extrahepática + Y de Roux ± hepatectomía"],
+                     ["IVb", "Quistes múltiples", "Solo extrahepáticos", "Menos frecuente", "Resección + Y de Roux"],
+                     ["V", "Quistes intrahepáticos (Caroli)", "Intrahepático", "Raro", "Hepatectomía o trasplante según extensión"]], caso=0))
 
 # ───────────────────────────── 086 · CUADRÍCULA
 S("cuadricula", "RM-CIR-086", "La hernia inguinal indirecta sale lateral a los vasos epigástricos inferiores",
@@ -249,7 +250,7 @@ S("reloj", "RM-CIR-090", "La colangitis aguda con hipotensión es grave: tras re
          tag="ESTE CASO: DRENAR", veredicto=("Colangitis grave: drenaje urgente por CPRE", "Antes, volumen y antibiótico; la cirugía abierta se evita.")),
   banda=B("Cálculos en la colangiorresonancia", PX("cprm_coledoco.jpg", 230, marcas=[("flecha", 0.30, 0.20, 0.72, 0.10, "Cálculos en la vesícula"), ("flecha", 0.56, 0.74, 0.74, 0.90, "Cálculos en el colédoco")]),
           [("Vía biliar con cálculos", "Imagen de referencia de colangiorresonancia: vesícula y colédoco con litiasis."), ("Cálculos distales", "La obstrucción causa la colestasis y la infección."), ("CPRE", "Confirma y extrae el cálculo o coloca un stent."), ("Después del drenaje", "Con la sepsis resuelta se completa con colecistectomía en el mismo ingreso.")],
-          pie="Imagen de referencia, no del paciente"))
+          pie="Imagen referencial"))
 
 # ───────────────────────────── 091 · PIRÁMIDE
 S("piramide", "RM-CIR-091", "La ecografía abdominal es el estudio inicial de la vía biliar",

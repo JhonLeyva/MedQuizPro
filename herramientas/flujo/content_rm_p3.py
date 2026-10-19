@@ -133,7 +133,7 @@ S("criterios", "RM-CIR-067", "Colecistitis aguda litiásica con Murphy y leucoci
          umbral="definitivo = 1 criterio A + 1 B + C", conteo="Cumple A, B y C",
          veredicto="Diagnóstico definitivo de colecistitis aguda",
          img_titulo="Ecografía: colecistitis aguda", img=PX("colecistitis_pocus_es.jpg", 380, credito="Ummadi et al. · Diagnostics 2026 · CC BY 4.0"),
-         img_pie="Imagen de referencia, no de la paciente: la vesícula distendida muestra pared engrosada, líquido alrededor y un cálculo en el cuello.",
+         img_pie="Imagen referencial: la vesícula distendida muestra pared engrosada, líquido alrededor y un cálculo en el cuello.",
          claves_titulo="Conducta según la gravedad (TG18)",
          claves=[("Grado I (leve)", ["Colecistectomía laparoscópica temprana"], True), ("Grado II (moderado)", ["Temprana si hay centro con experiencia; si no, drenaje y diferir"], False), ("Grado III (grave)", ["Soporte de órganos y drenaje de la vesícula"], False)]))
 
@@ -231,7 +231,7 @@ S("dos_preguntas", "RM-CIR-072", "En el anciano con sospecha de apendicitis plas
   banda=B("Referencia: ecografía de apendicitis", PX("apendicitis_pocus.jpg", 340), [
       ("Los calibres (+) miden el apéndice", "0,68 cm a la izquierda y 0,82 cm a la derecha; más de 6 mm es anormal."),
       ("Corte transversal y longitudinal", "Estructura tubular con pared y luz visibles; el calibre se mide de pared a pared."),
-      ("Imagen de referencia, no del paciente", "En el adulto mayor la TC es el estudio de elección.")],
+      ("Imagen referencial", "En el adulto mayor la TC es el estudio de elección.")],
       pie="Ecografía del apéndice: se usa de primera línea en niños y gestantes."))
 
 # 073 · CHECKLIST · obstrucción intestinal
@@ -272,12 +272,17 @@ S("lectura", "RM-CIR-074", "El bulto anal que prolapsa y se reduce con la mano, 
       {0: "Interna de tercer grado", 1: "Interna de cuarto grado", 2: "Interna de primer grado", 3: "Externa trombosada", 4: "Interna de segundo grado"}),
   d=dict(rotulo="Lee la imagen y clasifica", img_titulo="Hemorroides prolapsadas (referencia)",
          img=PX("hemorroides_g3.jpg", 330, credito="Wei et al. · Front Surg 2026 · CC BY 4.0", marcas=[("flecha", 0.50, 0.42, 0.62, 0.12, "Paquetes prolapsados"), ("flecha", 0.12, 0.62, 0.2, 0.9, "Piel perianal")]),
-         img_pie="Imagen de referencia de hemorroides mixtas prolapsadas, no de la paciente.",
+         img_pie="Imagen de referencia de hemorroides mixtas prolapsadas.",
          pasos=[("Tejido que sale por el ano", "Cojinetes rojos y violáceos que prolapsan con el esfuerzo.", False),
                 ("¿Cómo se reduce?", "Con la mano: grado III. Sola: grado II. No se reduce: grado IV.", True),
                 ("Sangre rojo rutilante", "Indolora y con la defecación: sangrado de hemorroide interna.", False),
                 ("Estreñimiento y pujo", "Factores de riesgo; tratar con fibra y líquidos.", False)],
-         veredicto=("Prolapso reducido con la mano = grado III", "Grado III sintomático: banda elástica o hemorroidectomía si no mejora.")))
+         veredicto=("Prolapso reducido con la mano = grado III", "Grado III sintomático: banda elástica o hemorroidectomía si no mejora.")),
+  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Tratamiento"],
+              filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra, líquidos; escleroterapia o banda"],
+                     ["II", "Prolapsa al defecar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica, infrarrojos o escleroterapia"],
+                     ["III", "Prolapsa al esfuerzo", "Se reduce con la mano", "Bulto que la paciente reduce", "Banda o hemorroidectomía"],
+                     ["IV", "Prolapso permanente", "No se reduce", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2))
 
 # 075 · PIRÁMIDE · tratamiento de hemorroides por grado
 S("piramide", "RM-CIR-075", "Las hemorroides grado IV, irreductibles, se tratan con hemorroidectomía",

@@ -16,7 +16,7 @@ Banco RM del PDF "Banco comentado – Residentado Médico Perú 2014-2019 (Estud
 ## Hecho
 - Lotes 1-3 (300 preguntas + 300 flujogramas) en bancos/*.json, flujogramas/ y algoritmos.js (registrados).
 - 4 ejemplos con cuadro de clasificación (RM-CIR-074 Goligher, RM-CIR-118 Hinchey/Kaiser, TRA-057 Graf, RM-CIR-085 Todani) enviados al usuario: ESPERAN SU APROBACIÓN.
-- Lote 4: preguntas en el banco; módulos de flujogramas content_rm_p13…p18 (p14, p15, p17, p18 terminados y verificados; p13 y p16 pendientes de informe) viven en el scratchpad de la sesión anterior (`.../scratchpad/h/herramientas/flujo/`), pueden haberse perdido: si no están, reconstruir esos IDs.
+- Lote 4: preguntas en el banco; módulos content_rm_p13…p18 (los 6 terminados, 0 problemas en check27) ya están en herramientas/flujo/; falta ensamblar, registrar y aplicar la regla de cuadro de clasificación.
 - Lote 5: 4 archivos residentado/lotes/lote05a-d.py con fuentes verificadas; AÚN NO integrados al banco.
 
 ## Pendiente (en orden)
