@@ -41,6 +41,10 @@ return [
     // (cuenta.php, dueno_activar) es más segura que una IP.
     'ips_libres' => '',
 
+    // Opcional. Pon '1' si el hosting tiene definida una variable AI_API_KEY distinta y quieres que mande
+    // la llave de este archivo. El diagnóstico (llave_origen) dice de dónde sale la llave en uso.
+    'config_manda' => '',
+
     // Opcional. Clave de dueño (16 o más caracteres) para usar el tutor de IA sin cuenta desde cualquier equipo.
     // Abre UNA vez en cada navegador:  https://tudominio.com/api.php?accion=dueno&clave=TU-CLAVE
     // y queda activado un año. Más segura que una IP. Déjala vacía para desactivarla.
