@@ -30,6 +30,8 @@ Banco RM del PDF "Banco comentado – Residentado Médico Perú 2014-2019 (Estud
 ## Dudas clínicas anotadas (claves no cambiadas)
 Loxoscelismo lote05a (24 h vs 6 h), neumonía ambulatoria (amoxicilina no ofrecida), ceftriaxona 250 mg vs 500 mg, malaria NTS 233-2025 vs 054, RM-CIR-125/076/081/084, RM-INF-031 (ELISA 3-4 vs 2-4 sem), RM-NEU-012 (Anthonisen sin esputo).
 
+- residentado/instrucciones/MENSAJES_USUARIO.md: TODOS los mensajes textuales del usuario desde el inicio (fuente de verdad; prevalece lo más reciente).
+
 ## Dónde está TODO lo que hay que saber (leer antes de trabajar)
 - residentado/instrucciones/BRIEF_PREGUNTAS.md: cómo redactar preguntas, comentarios (90-170 palabras), fuentes y verificación (peer-reviewed + MINSA/EsSalud solo con número/año verificado, años recientes hasta 2026; NTS 221-2024 TB; no citar lo que no se verifique).
 - residentado/instrucciones/BRIEF_FLUJOGRAMAS.md (con Adendas 1-3): cómo construir flujogramas (motor herramientas/flujo, c_rm.S, diseños disponibles, imágenes reales con crédito, check27.cjs, reglas del usuario).
