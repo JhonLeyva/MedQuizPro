@@ -436,6 +436,9 @@ def build7(spec):
         y = L[tipo](s, y + 8, spec["d"])
     if spec.get("escala"):
         y = escala(s, y + 20, spec["escala"])
+    if spec.get("clasif"):
+        from engine11 import clasificacion
+        y = clasificacion(s, y + 20, spec["clasif"])
     if spec.get("banda"):
         y = banda(s, y + 20, spec["banda"])
     if spec.get("triada"):
