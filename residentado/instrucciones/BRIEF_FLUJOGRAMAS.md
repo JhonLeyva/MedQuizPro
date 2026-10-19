@@ -61,3 +61,12 @@ Al terminar responde con: lista de IDs construidos y su diseño, IDs que no pudi
 - Prohibido Venn/intersecciones y cualquier diseño confuso. Ningún diseño más de 2 veces por lote. Sin espacios en blanco en tarjetas/paneles.
 - Imagen con flechas/marcas propias: NO añadir marcas, solo describirlas. Sin marcas: añadir en español.
 - Incluir criterios dx oficiales, escalas con conducta por rango, tríadas/pentadas/banderas rojas solo si el tema los tiene (no inventar).
+
+## Adenda 4 (lote 5 y lecciones de la etapa 1)
+- Módulos p19…p24 (content_rm_p19.py …), salidas /tmp/out_p19 …. Datos en residentado/salida/lote05a.json … lote05d.json (ya integrados al banco; 500 preguntas en total). Directorio de trabajo: herramientas/flujo del repo (el scratchpad antiguo ya no existe).
+- Todo cuadro `clasif`/criterio/puntaje: contrasta CADA cifra y fila en línea (carga WebSearch con ToolSearch «select:WebSearch»; PubMed eutils por curl) ANTES de escribirla; lo que no verifiques, déjalo cualitativo o no lo pongas. Mismo cuadro en varios IDs = mismo contenido (copia el cuadro ya verificado de otro módulo: `grep -n 'clasif=' content_rm*.py`). Ya verificados: Goligher, Nyhus, Hinchey/Kaiser, Tokio 2018 (colangitis/colecistitis), ASGE 2019, CURB-65, Nugent, C. difficile IDSA/SHEA, dengue OMS 2009 / NTS 211-2024 (grupos A, B1, B2, C), KDIGO, ADA, IMC OMS, AAP 2017, Bethesda 2023, ATA 2015, Duke-ISCVID 2023, Jones 2015, CEAP 2020, ATLS (cifras de 9.ª/10.ª; sin confirmar 11.ª), PA ESC/ACC-AHA 2025.
+- El tipo `cuadro` ya está registrado en engine7 (no hace falta registro local).
+- Imágenes: solo reales con crédito. Si la imagen trae rótulos en inglés, parchea con PIL (rellena con el fondo y escribe en español) o elige otra; no uses trazados sintéticos. Pie «Imagen referencial de …».
+- Diseños muy usados hasta ahora (evitar salvo necesidad): lectura, matriz, cascada, tarjetas, cuadricula, checklist, arbol, decision. Prefiere los menos usados (ver Adenda 1/2). Ninguno más de 2 veces por módulo.
+- Las preguntas ya traen `fuentes` verificadas (TB = NTS 221-MINSA/DGIESP-2024; ITS = NTS 240-MINSA/DGIESP-2026; dengue = NTS 211-MINSA/DGIESP-2024). Usa solo esas o fuentes que verifiques.
+- Claves del libro dudosas: no se cambian; se anotan en `nota=` / informe.
