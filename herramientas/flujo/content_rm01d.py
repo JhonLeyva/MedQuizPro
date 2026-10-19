@@ -25,7 +25,17 @@ S("cascada", "RM-CAR-022", "La fibrilación auricular es la causa más frecuente
          pasos=[("Fibrilación auricular", "La aurícula no se contrae", [("Estasis en la orejuela izquierda", "Se forma el trombo", False)]),
                 ("Embolia", "El trombo sale por la aorta", [("Ictus isquémico cardioembólico", "Inicio súbito, déficit máximo", False)]),
                 ("Prevención", "Según CHA₂DS₂-VASc", [("Anticoagulante oral directo", "Warfarina si hay EM o válvula mecánica", True)])],
-         veredicto=("FA: la causa más frecuente de embolia cardiaca", "Se previene con anticoagulación según el puntaje.")))
+         veredicto=("FA: la causa más frecuente de embolia cardiaca", "Se previene con anticoagulación según el puntaje.")),
+  clasif=dict(titulo="Puntaje CHA₂DS₂-VASc: riesgo embólico en la FA", cols=["Componente", "Puntos", "Qué incluye"],
+              filas=[["Insuficiencia cardiaca (C)", "1", "Disfunción ventricular o síntomas de IC"],
+                     ["Hipertensión (H)", "1", "PA elevada o tratada"],
+                     ["Edad ≥ 75 años (A₂)", "2", "—"],
+                     ["Diabetes (D)", "1", "Tipo 1 o 2"],
+                     ["Ictus, AIT o embolia (S₂)", "2", "Evento previo"],
+                     ["Enfermedad vascular (V)", "1", "Infarto previo, placa aórtica o arteriopatía periférica"],
+                     ["Edad 65-74 años (A)", "1", "—"],
+                     ["Sexo femenino (Sc)", "1", "Solo cuenta con otro factor; la ESC 2024 lo omite (CHA₂DS₂-VA)"]], ancho_primera=240,
+              nota="Conducta: 0 (varón) o 1 (mujer) sin anticoagular; 1 (varón) o 2 (mujer) considerar; ≥ 2 (varón) o ≥ 3 (mujer) anticoagular."))
 
 # 65 · RM-CAR-023 · ECG_MAPA: infarto lateral
 S("ecg_mapa", "RM-CAR-023", "Infarto lateral: alteraciones en DI y aVL (lateral alto) y V5-V6 (lateral bajo)",
@@ -85,7 +95,7 @@ S("decision", "RM-CAR-024", "Hipertensión grado 2 en un paciente con riesgo alt
                      ["Normal alta", "130-139 / 85-89", "Elevada 120-129 / < 80; estadio 1 130-139 / 80-89", "Estilo de vida; fármaco si el riesgo es alto"],
                      ["HTA grado 1", "140-159 / 90-99", "Estadio 2 (≥ 140 / ≥ 90)", "Estilo de vida; fármaco según riesgo y daño de órgano"],
                      ["HTA grado 2", "160-179 / 100-109", "Estadio 2", "Fármaco desde el inicio, de preferencia combinado"],
-                     ["HTA grado 3", "≥ 180 / ≥ 110", "Estadio 2", "Fármaco combinado de inmediato"]], caso=3, ancho_primera=135,
+                     ["HTA grado 3", "≥ 180 / ≥ 110", "Estadio 2", "Fármaco combinado de inmediato"]], caso=3, ancho_primera=185,
               nota="La categoría la define la cifra más alta (sistólica o diastólica): 150/100 mmHg = grado 2."))
 
 # 68 · RM-NEU-004 · LECTURA con TC: bronquiectasias
@@ -122,7 +132,15 @@ S("regla", "RM-CIR-017", "El eco Doppler dúplex es el método ideal para diagno
                       bandas=[(0, 0.5, "Normal", 0), (0.5, 1, "Anormal superficial", 2), (1, 3, "Anormal profundo", 3)], caso=1.5, caso_txt="Reflujo patológico")],
          claves_titulo="Qué mide el dúplex",
          claves=[("Reflujo valvular", ["Segundos de reflujo"], True), ("Compresibilidad", ["Ausente en la trombosis"], False), ("Calibre", ["Safena > 3 mm"], False)]),
-  banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Várices", "Venas dilatadas y tortuosas."), ("Pigmentación", "Dermatitis ocre por estasis."), ("Estudio", "Dúplex en bipedestación."), ("Tratamiento", "Compresión o ablación.")], pie="Imagen referencial de várices de miembro inferior"))
+  banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Várices", "Venas dilatadas y tortuosas."), ("Pigmentación", "Dermatitis ocre por estasis."), ("Estudio", "Dúplex en bipedestación."), ("Tratamiento", "Compresión o ablación.")], pie="Imagen referencial de várices de miembro inferior"),
+  clasif=dict(titulo="Clasificación clínica CEAP de la enfermedad venosa crónica", cols=["Clase", "Hallazgo", "Conducta"],
+              filas=[["C0", "Sin signos visibles ni palpables", "Sin tratamiento"],
+                     ["C1", "Telangiectasias o venas reticulares", "Escleroterapia (estética) si hay síntomas"],
+                     ["C2", "Várices (> 3 mm)", "Compresión; ablación térmica o escleroterapia si hay reflujo"],
+                     ["C3", "Edema", "Compresión; tratar el reflujo"],
+                     ["C4", "Cambios cutáneos: pigmentación o eccema (4a); lipodermatoesclerosis (4b)", "Compresión y tratar el reflujo"],
+                     ["C5", "Úlcera cicatrizada", "Compresión permanente; ablación"],
+                     ["C6", "Úlcera activa", "Compresión y curación; ablación del reflujo"]], ancho_primera=100))
 
 # 70 · RM-END-002 · CHECKLIST: preparación del feocromocitoma
 S("checklist", "RM-END-002", "Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias",
@@ -175,7 +193,7 @@ S("balanza", "RM-CAR-026", "La fibrilación auricular con enfermedad mitral es l
          veredicto=("La enfermedad mitral con FA es la causa más frecuente", ["Se anticoagula con warfarina.", "El resto de FA, con anticoagulantes directos."])))
 
 # 73 · RM-CB-022 · CRITERIOS con corazón: irrigación de los nodos
-S("criterios", "RM-CB-022", "Los nodos sinusal y auriculoventricular se irrigan en su mayoría por la coronaria derecha",
+S("matriz", "RM-CB-022", "Los nodos sinusal y auriculoventricular se irrigan en su mayoría por la coronaria derecha",
   "Anatomía · irrigación del sistema de conducción",
   ("Irrigación de los nodos", ["Nodo sinusal: coronaria derecha en 55-65 %.", "Nodo AV: coronaria derecha dominante en 80-90 %."]),
   ("Pregunta de teoría", ["¿Qué arteria irriga ambos nodos en la mayoría?"]),
@@ -185,10 +203,11 @@ S("criterios", "RM-CB-022", "Los nodos sinusal y auriculoventricular se irrigan 
   MOORE + "; " + BRAUN,
   op=("¿Arteria?", ["Sí: ambos nodos en la mayoría", "No: de la minoría", "No: sólo en parte del nodo sinusal", "No: tabique y pared anterior", "No: pared del VD"],
       {0: "Coronaria derecha", 1: "Coronaria izquierda", 2: "Ramas de la circunfleja", 3: "Interventricular", 4: "Marginal"}),
-  d=dict(rotulo="Qué arteria irriga qué", lista_titulo="Nodos y arteria",
-         items=[("Nodo sinusal", True, "Coronaria derecha 55-65 %"), ("Nodo AV", True, "Coronaria derecha 80-90 %"), ("Haz de His", None, "Rama del nodo AV y DA"),
-                ("Ramas del haz", None, "Descendente anterior"), ("Oclusión de la derecha", True, "Bradicardia y bloqueo AV")],
-         umbral="Coronaria derecha = nodos sinusal y AV", veredicto="La coronaria derecha irriga ambos nodos en la mayoría.", conteo="3 de 5"))
+  d=dict(rotulo="Qué arteria irriga cada nodo", eje_x="Arteria", eje_y="Estructura",
+         cols=["Coronaria derecha", "Circunfleja / descendente anterior"], rows=["Nodo sinusal", "Nodo AV", "Haz de His y ramas"], caso=(1, 0),
+         cells=[[("Coronaria derecha: 55-65 %", ["Si se ocluye: bradicardia sinusal"]), ("Circunfleja: 35-45 %", ["Minoría de los casos"])],
+                [("Coronaria derecha: 80-90 %", ["Bloqueo AV en el infarto inferior"]), ("Circunfleja: 10-20 %", ["Si la circulación es izquierda dominante"])],
+                [("Rama del nodo AV", ["Parte inicial del haz"]), ("Descendente anterior", ["Ramas del haz: infarto anterior = bloqueo grave"])]]))
 
 # 74 · RM-CAR-027 · TARJETAS: shock de bajo gasto
 S("tarjetas", "RM-CAR-027", "Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo",
@@ -256,7 +275,15 @@ S("arbol", "RM-CIR-019", "La prueba ideal para evaluar las várices es el eco Do
   arbol=Q("Várices: ¿cómo se estudian?", [
       L("Eco Doppler dúplex (este caso)", "PRUEBA IDEAL", ["Reflujo, calibre y trombos", "En bipedestación"], path=True),
       L("Pruebas clínicas", "TRENDELENBURG · PERTHES", ["Valor histórico"]),
-      L("Flebografía o pletismografía", "CASOS ESPECIALES", ["Invasiva o poco usada"])], path=True))
+      L("Flebografía o pletismografía", "CASOS ESPECIALES", ["Invasiva o poco usada"])], path=True),
+  clasif=dict(titulo="Clasificación clínica CEAP de la enfermedad venosa crónica", cols=["Clase", "Hallazgo", "Conducta"],
+              filas=[["C0", "Sin signos visibles ni palpables", "Sin tratamiento"],
+                     ["C1", "Telangiectasias o venas reticulares", "Escleroterapia (estética) si hay síntomas"],
+                     ["C2", "Várices (> 3 mm)", "Compresión; ablación térmica o escleroterapia si hay reflujo"],
+                     ["C3", "Edema", "Compresión; tratar el reflujo"],
+                     ["C4", "Cambios cutáneos: pigmentación o eccema (4a); lipodermatoesclerosis (4b)", "Compresión y tratar el reflujo"],
+                     ["C5", "Úlcera cicatrizada", "Compresión permanente; ablación"],
+                     ["C6", "Úlcera activa", "Compresión y curación; ablación del reflujo"]], ancho_primera=100))
 
 # 78 · RM-CIR-020 · RELOJ: fondaparinux 45 días
 S("reloj", "RM-CIR-020", "Tromboflebitis superficial con riesgo de extensión: anticoagulación por seis semanas",
@@ -286,7 +313,13 @@ S("dosis", "RM-NEU-005", "Tromboembolia pulmonar sin inestabilidad: enoxaparina 
   d=dict(rotulo="Calcula la dosis de enoxaparina (ejemplo)", peso=("70 kg", "Peso de ejemplo"),
          pasos=[("Dosis", "1 mg/kg", "Cada 12 horas"), ("Peso", "70 kg", "Ejemplo"), ("Total", "70 mg SC", "Cada 12 h")],
          alternativas=[("1 mg/kg cada 12 h SC", "Dosis terapéutica", True), ("1 mg/kg cada 24 h SC", "Insuficiente (profilaxis alta)", False), ("1 mg/kg cada 12 h EV", "Vía incorrecta", False), ("2 mg/kg cada 12 h EV", "Dosis excesiva", False)],
-         veredicto=("1 mg/kg cada 12 horas por vía subcutánea", "Ajustar si la depuración es < 30 mL/min.")))
+         veredicto=("1 mg/kg cada 12 horas por vía subcutánea", "Ajustar si la depuración es < 30 mL/min.")),
+  clasif=dict(titulo="Riesgo de muerte precoz en la TEP (ESC 2019)", cols=["Riesgo", "Criterios", "Conducta"],
+              filas=[["Alto", "Shock o hipotensión sostenida (PAS < 90 mmHg ≥ 15 min)", "Trombólisis sistémica con heparina no fraccionada"],
+                     ["Intermedio-alto", "Estable; PESI III-V o sPESI ≥ 1; disfunción del VD y troponina elevada", "Anticoagulación hospitalaria y vigilancia; rescate si se deteriora"],
+                     ["Intermedio-bajo", "Estable; PESI III-V o sPESI ≥ 1; solo una o ninguna (VD, troponina)", "Anticoagulación en el hospital"],
+                     ["Bajo", "PESI I-II o sPESI 0; sin disfunción del VD ni troponina", "Alta temprana con anticoagulante oral"]], caso=[1, 2], ancho_primera=240,
+              nota="Este caso: estable, con cáncer y FC 120 (sPESI ≥ 1): riesgo intermedio; VD y troponina definen la categoría."))
 
 # 80 · RM-CAR-029 · DECISIÓN: control de la FC en FA
 S("decision", "RM-CAR-029", "Fibrilación auricular rápida con disnea: digoxina entre las opciones de control de frecuencia",
@@ -314,12 +347,18 @@ S("radial", "RM-CAR-030", "Anemia grave por hemorragia digestiva con isquemia: i
   ["Tipo 2: anemia grave, hipotensión, taquiarritmia, espasmo, hipoxemia.",
    "Tratamiento: corregir la causa (transfundir, controlar el sangrado), no reperfusión ni antitrombóticos agresivos.",
    "Tipo 4a: angioplastia; 4b: trombosis del stent; 4c: reestenosis; tipo 5: cirugía de revascularización."],
-  "Cuarta Definición Universal del Infarto de Miocardio (2018); " + ESC_ACS,
+  "Cuarta Definición Universal del Infarto (2018); Quinta Definición Universal (2026); " + ESC_ACS,
   op=("¿Tipo?", ["Sí: anemia aguda, aporte < demanda", "No: es por placa rota", "No: es muerte súbita sin biomarcadores", "No: es por angioplastia", "No: es por cirugía de bypass"],
       {0: "Tipo 2", 1: "Tipo 3", 2: "Tipo 4", 3: "Tipo 1", 4: "Tipo 5"}),
   d=dict(rotulo="Cinco tipos de infarto", centro="INFARTO", centro_sub="definición universal", ans=1,
          items=[("TIPO 1", ["Placa rota + trombo"]), ("TIPO 2", ["Aporte < demanda (anemia, hipotensión)"]), ("TIPO 3", ["Muerte súbita"]), ("TIPO 4", ["Angioplastia"]), ("TIPO 5", ["Cirugía de revascularización"])],
-         ruta=["Hemorragia digestiva", "Hb 5 g/dL e hipotensión", "Aporte de O₂ < demanda", "Infarto tipo 2: tratar la causa"]))
+         ruta=["Hemorragia digestiva", "Hb 5 g/dL e hipotensión", "Aporte de O₂ < demanda", "Infarto tipo 2: tratar la causa"]),
+  clasif=dict(titulo="Tipos de infarto: 4.ª definición universal (2018) y 5.ª (2026)", cols=["Tipo (2018)", "Mecanismo", "5.ª definición (2026)", "Conducta"],
+              filas=[["Tipo 1", "Placa rota con trombo", "Primario", "Reperfusión y antitrombóticos"],
+                     ["Tipo 2", "Aporte de O₂ menor que la demanda (anemia, hipotensión, taquiarritmia)", "Secundario", "Tratar la causa; sin reperfusión de rutina"],
+                     ["Tipo 3", "Muerte súbita sin biomarcadores", "Ya no se usa: se clasifica por escenario", "—"],
+                     ["Tipo 4 (a, b, c)", "Angioplastia, trombosis del stent, reestenosis", "Relacionado con procedimiento", "Revascularización según el caso"],
+                     ["Tipo 5", "Cirugía de revascularización", "Relacionado con procedimiento", "Según el caso"]], caso=1, ancho_primera=170))
 
 # 82 · RM-CAR-031 · BALANZA: fármacos en el embarazo hipertenso
 S("balanza", "RM-CAR-031", "Los IECA están contraindicados en la gestante hipertensa",
