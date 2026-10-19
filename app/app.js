@@ -1100,7 +1100,7 @@
       campo("a-clave", "Contraseña" + (reg ? " (mínimo 8 caracteres)" : ""), "password", 'autocomplete="' + (reg ? "new-password" : "current-password") + '" minlength="8" maxlength="200" required') +
       (reg ? '<div class="field"><label for="a-uni">Universidad (opcional)</label><select id="a-uni" name="a-uni">' + (window.MQP_UNIVERSIDADES ? window.MQP_UNIVERSIDADES.opciones() : '<option value="">—</option>') + '</select></div>' : "") +
       (reg ? '<div class="field"><label>¿Qué examen preparas?</label><div class="picks picks--row">' + ["essalud|EsSalud", "enam|ENAM", "residentado|Residentado", "encaps|ENCAPS SERUMS"].map(function (x, i) { var p = x.split("|"); return opcion("a-examen", p[0], p[1], "", p[0] === "enam", false); }).join("") + '</div></div>' : "") +
-      (reg ? '<label class="check"><input type="checkbox" id="a-acepto"><span>He leído y acepto la <a href="../privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</span></label>' : "") +
+      (reg ? '<label class="check"><input type="checkbox" id="a-acepto"><span>He leído y acepto la <a href="../privacidad.html" target="_blank" rel="noopener">Política de privacidad</a> y los <a href="../terminos.html" target="_blank" rel="noopener">Términos y condiciones</a>.</span></label>' : "") +
       '<p class="form-error" id="authError" role="alert" hidden></p>' +
       '<button class="btn btn--primary btn--lg btn--block" type="submit">' + (reg ? "Crear mi cuenta" : "Ingresar") + '</button></form>' +
       '<p class="auth__alt">' + (reg ? '¿Ya tienes cuenta? <a href="#/ingresar">Ingresa</a>' : '¿Primera vez? <a href="#/registro">Crea tu cuenta gratis</a>') + '</p></div>';
@@ -1112,7 +1112,7 @@
       ev.preventDefault(); err.hidden = true;
       var d = { correo: f.querySelector("#a-correo").value.trim(), clave: f.querySelector("#a-clave").value };
       if (modo === "registro") { d.nombre = f.querySelector("#a-nombre").value.trim(); d.universidad = f.querySelector("#a-uni").value; d.acepto = f.querySelector("#a-acepto").checked; var x = f.querySelector("input[name=a-examen]:checked"); d.examen = x ? x.value : ""; }
-      if (modo === "registro" && !d.acepto) { err.textContent = "Para crear tu cuenta debes aceptar la política de privacidad."; err.hidden = false; return; }
+      if (modo === "registro" && !d.acepto) { err.textContent = "Para crear tu cuenta debes aceptar la política de privacidad y los términos y condiciones."; err.hidden = false; return; }
       if (!d.correo || d.clave.length < 8 || (modo === "registro" && d.nombre.length < 2)) { err.textContent = modo === "registro" ? "Completa tu nombre, un correo válido y una contraseña de al menos 8 caracteres." : "Escribe tu correo y tu contraseña."; err.hidden = false; return; }
       var txt = btn.textContent; btn.disabled = true; btn.textContent = "Un momento…";
       api(modo === "registro" ? "registro" : "ingresar", d).then(function (r) {

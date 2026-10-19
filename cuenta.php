@@ -349,7 +349,7 @@ try {
         $clave = (string)($d['clave'] ?? '');
         $examen = in_array($d['examen'] ?? '', ['enam', 'residentado', 'essalud', 'encaps'], true) ? $d['examen'] : null;
         $uni = mb_substr(trim((string)($d['universidad'] ?? '')), 0, 120);
-        if (($d['acepto'] ?? false) !== true) fallo('Para crear tu cuenta debes aceptar la política de privacidad.');
+        if (($d['acepto'] ?? false) !== true) fallo('Para crear tu cuenta debes aceptar la política de privacidad y los términos y condiciones.');
         if (mb_strlen($nombre) < 2 || mb_strlen($nombre) > 80) fallo('Escribe tu nombre.');
         if (!filter_var($correo, FILTER_VALIDATE_EMAIL) || strlen($correo) > 120) fallo('Revisa el correo electrónico.');
         if (strlen($clave) < MIN_CLAVE || strlen($clave) > 200) fallo('La contraseña debe tener al menos ' . MIN_CLAVE . ' caracteres.');

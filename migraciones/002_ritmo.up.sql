@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS ritmo (clave TEXT NOT NULL, t INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS ix_ritmo ON ritmo(clave, t);
