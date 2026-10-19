@@ -66,7 +66,8 @@ S("fases", "RM-CAR-012", "Síncope de esfuerzo, soplo sistólico eyectivo e HVI 
   clasif=dict(titulo="Gravedad de la estenosis aórtica (ecocardiografía, ACC/AHA 2020 y ESC/EACTS 2021)", cols=["Grado", "Velocidad máx.", "Gradiente medio", "Área valvular", "Conducta"],
               filas=[["Leve", "2,0-2,9 m/s", "< 20 mmHg", "> 1,5 cm²", "Eco cada 3-5 años"],
                      ["Moderada", "3,0-3,9 m/s", "20-39 mmHg", "1,0-1,5 cm²", "Eco cada 1-2 años"],
-                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²", "Con síntomas: reemplazo valvular (TAVI o cirugía); sin síntomas: control cada 6-12 meses"]], caso=2, ancho_primera=110))
+                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²", "Con síntomas: reemplazo valvular (TAVI o cirugía); sin síntomas: control cada 6-12 meses"]], caso=None, ancho_primera=110,
+              nota="Grave también si el índice de área es ≤ 0,6 cm²/m². Con área ≤ 1,0 cm² y gradiente bajo, pensar en flujo bajo (confirmar con TC de calcio o ecocardiografía de estrés)."))
 
 # 42 · RM-NEU-001 · TARJETAS: língula
 S("tarjetas", "RM-NEU-001", "La língula forma parte del lóbulo superior izquierdo",

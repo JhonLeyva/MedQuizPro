@@ -12,8 +12,8 @@ HIN_COLS = ["Estadio", "Hallazgo en la TC", "Conducta"]
 HIN_FILAS = [["0", "Diverticulitis leve: pared engrosada y grasa pericólica sucia", "Observación o antibiótico selectivo, dieta"],
              ["Ia", "Flemón pericólico, sin absceso", "Antibiótico o solo observación"],
              ["Ib", "Absceso pericólico o mesentérico", "Antibiótico; drenaje percutáneo si es > 4-5 cm"],
-             ["II", "Absceso pélvico, intraabdominal a distancia o retroperitoneal", "Drenaje percutáneo guiado por TC; cirugía si falla"],
-             ["III", "Peritonitis purulenta generalizada", "Cirugía urgente: Hartmann o resección con anastomosis en casos elegidos"],
+             ["II", "Absceso pélvico, intraabdominal a distancia o retroperitoneal", "Antibiótico; drenaje percutáneo guiado por TC si es grande (> 4-5 cm); cirugía si falla"],
+             ["III", "Peritonitis purulenta generalizada", "Cirugía urgente: Hartmann o resección con anastomosis ± derivación en casos elegidos"],
              ["IV", "Peritonitis fecal", "Cirugía urgente: Hartmann y control del daño"]]
 def HIN(caso):
     return dict(titulo="Clasificación de Hinchey modificada (Kaiser) de la diverticulitis", cols=HIN_COLS, filas=HIN_FILAS, caso=caso, ancho_primera=100,
@@ -274,20 +274,21 @@ S("arbol", "RM-CIR-057", "En la hernia inguinal directa se refuerza la pared pos
    "Indirecta: ligadura alta del saco y reparación del anillo interno; en el adulto también se coloca malla (HerniaSurge 2018).",
    "La directa rara vez se estrangula (cuello ancho); la indirecta y sobre todo la femoral sí. Se clasifica por Nyhus (cuadro).",
    "El trabajo con esfuerzo físico aumenta la recidiva. Bandera roja: irreductible y dolorosa = encarcelada o estrangulada: cirugía urgente."],
-  EHS + "; Nyhus, Hernia 1993; " + SAB,
+  EHS + "; Nyhus, Surgery 1993;114:1-2; " + SAB,
   op=("¿Manejo?", ["No: la invaginación es solo un gesto técnico", "No: el saco directo no se reseca", "Sí: refuerzo de la pared posterior con malla", "No: la hernia sintomática se repara", "No: no hay un saco que ligar"],
       {0: "Invaginación", 1: "Resección", 2: "Refuerzo", 3: "Sin tratamiento", 4: "Ligadura"}),
   arbol=Q("Hernia inguinal: ¿por dónde sale el saco?", [
       L("Por el anillo interno, siguiendo el cordón", "INDIRECTA · NYHUS I-II", ["Ligadura alta del saco", "Reparar el anillo y colocar malla"]),
       L("Por el triángulo de Hesselbach (este caso)", "DIRECTA · NYHUS IIIA", ["Invaginar el saco, no resecarlo", "Reforzar la pared posterior con malla"], path=True),
       L("Por debajo del ligamento inguinal o recidiva", "IIIC FEMORAL · IV RECIDIVA", ["Reparación con malla", "Mayor riesgo de estrangulación"])], path=True),
-  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior"], ancho_primera=130, caso=2,
-              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior intacta"],
-                     ["II", "Indirecta", "Anillo interno dilatado; pared posterior intacta"],
-                     ["IIIA", "Directa", "Debilidad de la pared posterior (triángulo de Hesselbach)"],
-                     ["IIIB", "Indirecta grande o mixta", "Anillo dilatado que invade la pared posterior (deslizamiento, en pantalón)"],
-                     ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal"],
-                     ["IV", "Recidivada", "A directa · B indirecta · C femoral · D mixta"]]))
+  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior", "Técnica"],
+              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior intacta", "Ligadura alta del saco (niño) o reparación con malla"],
+                     ["II", "Indirecta", "Anillo interno dilatado; pared posterior intacta", "Reparación con malla"],
+                     ["IIIA", "Directa", "Defecto de la pared posterior (cualquier tamaño)", "Malla"],
+                     ["IIIB", "Indirecta grande, en pantalón o deslizada", "Anillo muy dilatado que invade la pared posterior", "Malla"],
+                     ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal", "Malla (abordaje inguinal o preperitoneal)"],
+                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=2, ancho_primera=150,
+              nota="Clasificación de Nyhus (1993); la EHS la reemplazó por L/M/F con tamaño 0-3. Reparación con malla según HerniaSurge."))
 
 # 059 · LECTURA · obstrucción por hernia
 S("lectura", "RM-CIR-059", "En el adulto sin cirugías previas, la hernia es la causa más frecuente de obstrucción intestinal",

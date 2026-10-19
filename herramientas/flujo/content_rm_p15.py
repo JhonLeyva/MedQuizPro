@@ -46,7 +46,7 @@ S("embudo", "RM-NEU-013", "Fiebre, tos y disnea con un infiltrado alveolar basal
               cols=["Puntaje", "Riesgo de muerte a 30 días", "Conducta"],
               filas=[["0 a 1", "Bajo (cerca de 1,5 %)", "Tratamiento ambulatorio"],
                      ["2", "Intermedio (cerca de 9 %)", "Hospitalización breve o con seguimiento estrecho"],
-                     ["3 a 5", "Alto (22 % o más)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
+                     ["3 a 5", "Alto (cerca de 22 %)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
               caso=None, ancho_primera=110, nota="Un punto por criterio: confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65. Aquí la edad ya suma 1."))
 
 # 3 · LECTURA · meningitis meningocócica
@@ -105,11 +105,11 @@ S("termometro", "RM-GAS-008", "En la infección intestinal por C. difficile la v
          pasos=[(1, "Suspender el antibiótico causal", ["Y evitar antidiarreicos"], False),
                 (2, "Vancomicina oral 125 mg cada 6 h por 10 días", ["No se absorbe: llega al colon"], True),
                 (3, "Fidaxomicina 200 mg cada 12 h por 10 días", ["Alternativa preferida en las guías actuales"], False)]),
-  clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA)", cols=["Gravedad", "Criterio", "Tratamiento"],
-              filas=[["No grave", "Leucocitos ≤ 15 000/mm³ y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h o vancomicina oral 125 mg c/6 h, 10 días"],
-                     ["Grave", "Leucocitos ≥ 15 000/mm³ o creatinina > 1,5 mg/dL", "Igual que la no grave (fidaxomicina o vancomicina oral)"],
-                     ["Fulminante", "Hipotensión o shock, íleo o megacolon", "Vancomicina oral 500 mg c/6 h más metronidazol IV; vancomicina rectal si hay íleo"]],
-              caso=None, ancho_primera=110))
+  clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA 2017, actualización 2021)", cols=["Gravedad", "Criterio", "Tratamiento"],
+              filas=[["No grave", "Leucocitos ≤ 15 000/µL y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h (preferida) o vancomicina oral 125 mg c/6 h, 10 días"],
+                     ["Grave", "Leucocitos ≥ 15 000/µL o creatinina > 1,5 mg/dL", "Igual: fidaxomicina o vancomicina oral, 10 días"],
+                     ["Fulminante", "Hipotensión o shock, íleo o megacolon tóxico", "Vancomicina oral 500 mg c/6 h más metronidazol IV; vancomicina rectal si hay íleo; valorar cirugía"]],
+              caso=None, ancho_primera=110, nota="El metronidazol solo se acepta en el episodio no grave si no hay fidaxomicina ni vancomicina."))
 
 # 6 · CASCADA · colangitis aguda
 S("cascada", "RM-GAS-009", "En la colangitis aguda por litiasis predominan E. coli, Klebsiella y Enterobacter",
@@ -181,7 +181,7 @@ S("laboratorio", "RM-GIN-009", "En la vaginosis bacteriana el pH vaginal pasa de
   clasif=dict(titulo="Puntaje de Nugent (tinción de Gram del flujo vaginal)", cols=["Puntaje", "Interpretación", "Conducta"],
               filas=[["0 a 3", "Flora normal (predominio de lactobacilos)", "Sin tratamiento"],
                      ["4 a 6", "Flora intermedia", "Correlacionar con la clínica; repetir si persisten los síntomas"],
-                     ["7 a 10", "Vaginosis bacteriana", "Metronidazol 500 mg c/12 h por 7 días si hay síntomas o embarazo"]],
+                     ["7 a 10", "Vaginosis bacteriana", "Si hay síntomas (también en la gestante): metronidazol 500 mg c/12 h por 7 días"]],
               caso=None, ancho_primera=110))
 
 # 9 · FASES · meningitis criptocócica
@@ -307,7 +307,7 @@ S("matriz", "RM-CAR-040", "En los criterios de Duke, los hemocultivos positivos 
                 [("Vegetación, absceso o dehiscencia", ["Ecocardiograma o PET/TC"]), ("Predisposición", ["Valvulopatía o drogas intravenosas"])],
                 [("Cirugía con evidencia directa", ["Novedad de Duke-ISCVID 2023"]), ("Fiebre, embolias, factor reumatoideo", ["Fenómenos vasculares e inmunológicos"])]]),
   clasif=dict(titulo="Categorías diagnósticas de endocarditis (Duke-ISCVID 2023)", cols=["Categoría", "Combinación de criterios"],
-              filas=[["Definitiva", "2 mayores, o 1 mayor y 3 menores, o 5 menores"],
+              filas=[["Definitiva", "Evidencia patológica, o 2 mayores, o 1 mayor y 3 menores, o 5 menores"],
                      ["Posible", "1 mayor y 1 menor, o 3 menores"],
                      ["Rechazada", "Diagnóstico alternativo firme, o no cumple los criterios de endocarditis posible"]],
               caso=None, ancho_primera=130))

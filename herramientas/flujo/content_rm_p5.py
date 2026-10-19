@@ -143,10 +143,10 @@ S("embudo", "RM-CIR-096", "En ictericia con litiasis vesicular se estudia la ví
                 ("¿Sin fiebre ni shock?", ["Colangitis aguda", "Colecistitis aguda"])],
          final=("COLEDOCOLITIASIS", ["Estudiar la vía biliar", "CPRE: diagnostica y extrae el cálculo"]),
          nota="Si el riesgo es solo intermedio, la colangiorresonancia o la ecoendoscopia confirman sin invadir."),
-  clasif=dict(titulo="Probabilidad de coledocolitiasis (ASGE 2019)", cols=["Riesgo", "Criterios", "Conducta"],
-              filas=[["Alta", "Cálculo en el colédoco en imagen; o colangitis ascendente; o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa"],
-                     ["Intermedia", "Pruebas hepáticas alteradas; o edad > 55 años; o colédoco dilatado en imagen", "Ecoendoscopia, colangiorresonancia o colangiografía intraoperatoria"],
-                     ["Baja", "Ningún predictor", "Colecistectomía sin estudio de la vía biliar"]], caso=0, ancho_primera=175, nota="El caso (ictericia con litiasis) se asimila a alta probabilidad si hay colédoco dilatado o bilirrubina > 4 mg/dL."))
+  clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
+              filas=[["Alto", "Cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
+                     ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o colangiografía/ecografía intraoperatoria"],
+                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=175, nota="El caso (ictericia leve sin fiebre, ni cálculo ni bilirrubina > 4 mg/dL descritos) es riesgo intermedio; pasa a alto si la imagen muestra el cálculo o hay colangitis. La clave del banco elige la colangiografía endoscópica."))
 
 # 8 · CHECKLIST · fisura crónica
 S("checklist", "RM-CIR-097", "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",
@@ -175,15 +175,15 @@ S("cuadro", "RM-CIR-098", "La hemorroide que prolapsa y se reduce con la mano es
    "Posiciones típicas: 3, 7 y 11 horas (lateral izquierda, posterolateral derecha y anterolateral derecha).",
    "Tratamiento: fibra y flavonoides; ligadura con banda en grados I-III; hemorroidectomía en III-IV o si fallan las medidas.",
    "Bandera roja: rectorragia a partir de los 45-50 años, o con cambio del hábito o pérdida de peso, requiere colonoscopia; no atribuir a hemorroides."],
-  "ASCRS, guía de hemorroides (2018); " + SCHW + "; " + SAB,
+  "ASCRS, Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024); " + SCHW + "; " + SAB,
   op=("¿Qué grado?", ["No: sale solo y se reduce sola", "No: es irreductible", "No: no existe ese grado", "No: no prolapsa", "Sí: prolapsa y se reduce con la mano"],
       {0: "II", 1: "IV", 2: "V", 3: "I", 4: "III"}),
   d=dict(veredicto=("Prolapso que se reduce con la mano = grado III", "Banda elástica o hemorroidectomía si falla; rectorragia desde los 45-50 años: colonoscopia.")),
-  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Manejo"],
-              filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra y líquidos; banda si persiste"],
-                     ["II", "Prolapsa al pujar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica o escleroterapia"],
-                     ["III", "Prolapsa al esfuerzo", "Con la mano", "Bulto que la paciente reduce", "Banda o hemorroidectomía"],
-                     ["IV", "Prolapso permanente", "Irreductible", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2,
+  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Tratamiento"],
+              filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra, líquidos; escleroterapia o banda"],
+                     ["II", "Prolapsa al defecar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica, infrarrojos o escleroterapia"],
+                     ["III", "Prolapsa al esfuerzo", "Se reduce con la mano", "Bulto que se reduce manualmente", "Banda o hemorroidectomía"],
+                     ["IV", "Prolapso permanente", "No se reduce", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2,
               nota="Posiciones típicas: 3, 7 y 11 horas (posición de litotomía)."))
 
 # 10 · CASCADA · reacción neuroendocrina al shock

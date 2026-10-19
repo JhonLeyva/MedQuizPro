@@ -134,7 +134,7 @@ S("termometro", "RM-CIR-035", "Las hemorroides internas grado III se prolapsan y
    "I-II: fibra, líquidos, flebotónicos y ligadura con banda. III: ligadura, hemorroidopexia o hemorroidectomía. IV o trombosada: hemorroidectomía.",
    "Rectorragia en mayor de 45 años, anemia o cambio del hábito: colonoscopía antes de atribuirla a hemorroides.",
    "Bandera roja: dolor intenso con masa azulada = trombosis hemorroidal externa."],
-  "ASCRS, enfermedad hemorroidal (2024); " + SCHW + "; " + SAB,
+  "ASCRS, Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024); " + SCHW + "; " + SAB,
   op=("¿Reducción manual?", ["No: se reduce solo", "No: no se puede reducir", "Sí: sale y se reduce con la mano", "No: no prolapsa", "No: no existe en la clasificación"],
       {0: "Grado II", 1: "Grado IV", 2: "Grado III", 3: "Grado I", 4: "Grado V"}),
   d=dict(rotulo="Grados de Goligher de menor a mayor prolapso", caso_nivel=2, ruta_titulo="Antes de tratar como hemorroides", paso_label="ESTE CASO",
@@ -143,11 +143,11 @@ S("termometro", "RM-CIR-035", "Las hemorroides internas grado III se prolapsan y
          pasos=[(1, "Rectorragia en mayor de 45 años", ["Colonoscopía antes de atribuirla a hemorroides"], False),
                 (2, "Prolapso que se reduce con la mano", ["Grado III: es lo que describe el caso"], True),
                 (3, "Dolor intenso con masa azulada", ["Trombosis hemorroidal: tratamiento aparte"], False)]),
-  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Tratamiento"],
-              filas=[["I", "No prolapsa; sangra", "—", "Fibra, líquidos, flebotónicos; ligadura con banda"],
-                     ["II", "Sale al defecar", "Se reduce solo", "Fibra, flebotónicos; ligadura con banda"],
-                     ["III", "Sale al defecar o esforzarse", "Se reduce con la mano", "Ligadura, hemorroidopexia o hemorroidectomía"],
-                     ["IV", "Prolapso permanente", "No se reduce", "Hemorroidectomía"]], caso=2, ancho_primera=130))
+  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Tratamiento"],
+              filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra, líquidos; escleroterapia o banda"],
+                     ["II", "Prolapsa al defecar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica, infrarrojos o escleroterapia"],
+                     ["III", "Prolapsa al esfuerzo", "Se reduce con la mano", "Bulto que se reduce manualmente", "Banda o hemorroidectomía"],
+                     ["IV", "Prolapso permanente", "No se reduce", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2, ancho_primera=130))
 
 # 036 · DECISIÓN · patrón colestásico
 S("decision", "RM-CIR-036", "La obstrucción de la vía biliar eleva la fosfatasa alcalina y la gamma glutamil transferasa",
@@ -269,21 +269,22 @@ S("radial", "RM-CIR-042", "La hemorragia activa la vasoconstricción y la libera
   ("Varón de 20 años", ["Trauma abdominal cerrado con hemorragia significativa tras un accidente de tránsito.", "¿Qué reacciones rápidas conservan la volemia?"]),
   ["Inmediato: descarga simpática con adrenalina y noradrenalina: vasoconstricción, taquicardia y más contractilidad.",
    "Después: renina-angiotensina-aldosterona y ADH retienen sodio y agua; horas después, el líquido pasa del intersticio al plasma.",
-   "ATLS: clase I < 15 %, II 15-30 %, III 30-40 %, IV > 40 % de pérdida; desde la clase III hay hipotensión y taquicardia > 120.",
+   "ATLS: clase I < 15 %, II 15-30 %, III 31-40 %, IV > 40 % de pérdida; desde la clase III hay hipotensión y taquicardia > 120.",
    "Bandera roja: la hipotensión es un signo tardío; transfusión balanceada y control precoz del sangrado."],
-  "ATLS 11.ª ed. (2025); " + GUY + "; " + SCHW,
+  "ATLS, 10.ª ed. (2018) y 11.ª ed. (2025); " + GUY + "; " + SCHW,
   op=("¿Rápidas?", ["Sí: simpático", "No: la vasodilatación empeora la presión", "No: la renina aumenta, no disminuye", "No: la vasopresina aumenta, no disminuye", "No: el péptido natriurético aumenta la diuresis"],
       {0: "Vasoconstricción y adrenalina", 1: "Vasodilatación y vasopresina", 2: "Taquicardia y menos renina", 3: "Taquicardia y menos vasopresina", 4: "Vasoconstricción y péptido natriurético"}),
   d=dict(rotulo="Reacciones a la pérdida aguda de sangre", centro="HEMORRAGIA", centro_sub="cae el volumen y la presión", ans=0,
          items=[("VASOCONSTRICCIÓN Y ADRENALINA", ["Segundos: sangre hacia órganos vitales"]), ("TAQUICARDIA", ["Más gasto cardiaco y contractilidad"]),
                 ("RENINA, ALDOSTERONA Y ADH", ["Minutos a horas: retienen sodio y agua"]), ("PASO DE LÍQUIDO AL PLASMA", ["Horas: del intersticio al vaso"])],
          ruta=["Barorreceptores detectan la caída", "Descarga simpática inmediata", "Vasoconstricción y taquicardia", "Luego, hormonas retienen agua"]),
-  clasif=dict(titulo="Clases de hemorragia (ATLS)", cols=["Clase", "Pérdida de sangre", "Frecuencia cardiaca", "Presión arterial", "Diuresis", "Conducta"],
-              filas=[["I", "< 15 % (< 750 mL)", "Normal", "Normal", "> 30 mL/h", "Observar; cristaloides si hace falta"],
-                     ["II", "15-30 % (750-1 500 mL)", "100-120", "Normal; pulso estrecho", "20-30 mL/h", "Cristaloides; vigilar; transfusión posible"],
-                     ["III", "30-40 % (1 500-2 000 mL)", "120-140", "Baja", "5-15 mL/h", "Transfusión y control del sangrado"],
-                     ["IV", "> 40 % (> 2 000 mL)", "> 140", "Muy baja", "Mínima", "Transfusión masiva y cirugía inmediata"]],
-              caso=None, ancho_primera=70, nota="Valores del ATLS para un adulto de 70 kg; la hipotensión aparece recién desde la clase III."))
+  clasif=dict(titulo="Clases del shock hemorrágico (ATLS)", cols=["Clase", "Pérdida de sangre", "FC y presión arterial", "FR y diuresis", "Estado mental", "Conducta"],
+              filas=[["I", "< 15 % (< 750 mL)", "FC normal; PA y presión de pulso normales", "FR 14-20; diuresis > 30 mL/h", "Ansiedad leve", "Observar y controlar la hemorragia"],
+                     ["II", "15-30 % (750-1500 mL)", "FC 100-120; PA normal; presión de pulso baja", "FR 20-30; diuresis 20-30 mL/h", "Ansioso", "Cristaloides; sangre si persiste"],
+                     ["III", "31-40 % (1500-2000 mL)", "FC 120-140; hipotensión; presión de pulso baja", "FR 30-40; diuresis 5-15 mL/h", "Ansioso o confuso", "Transfusión y hemostasia precoz"],
+                     ["IV", "> 40 % (> 2000 mL)", "FC > 140; hipotensión; presión de pulso muy baja", "FR > 35; anuria", "Confuso o letárgico", "Transfusión masiva y quirófano"]],
+              caso=None, ancho_primera=80,
+              nota="Adulto de 70 kg. Cifras de FC, FR y diuresis: valores clásicos del ATLS 9.ª ed.; la 10.ª (2018) los expresa como tendencias y añade el déficit de base (0 a −2, −2 a −6, −6 a −10, ≤ −10). Orientativas: no se pudo verificar en línea si la 11.ª ed. (2025) cambió la tabla."))
 
 # 043 · MATRIZ · hematoma retroperitoneal por zonas
 S("matriz", "RM-CIR-043", "El hematoma retroperitoneal de zona II no pulsátil por trauma cerrado se observa",

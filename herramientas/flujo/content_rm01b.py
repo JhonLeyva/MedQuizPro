@@ -98,7 +98,7 @@ S("termometro", "RM-CIR-006", "Mujer con colecistitis aguda e insuficiencia card
   ["La insuficiencia cardiaca bien compensada es ASA III; descompensada y con cuadro séptico agudo se asigna ASA IV (clave del libro).",
    "ASA IV: enfermedad grave que es amenaza constante para la vida (infarto reciente, sepsis, IC descompensada).",
    "Cirugía urgente en ASA IV: mortalidad perioperatoria alta; requiere monitorización invasiva."],
-  "ASA, Physical Status Classification System (actualización 2020); " + MILLER,
+  "ASA, Physical Status Classification System (aprobada en 2014; última enmienda, 13 de diciembre de 2020); " + MILLER,
   op=("¿Clase ASA?", ["Sí: IC con cuadro agudo, amenaza para la vida", "No: es enfermedad leve", "No: IC compensada sería ASA III", "No: es el moribundo que no sobrevive sin la operación", "No: es muerte cerebral, donante"]),
   d=dict(rotulo="Clasificación ASA de menor a mayor riesgo", caso_nivel=2, ruta_titulo="Qué implica en este caso", paso_label="ESTE CASO",
          niveles=[("ASA I-II", "Sano o enfermedad leve", ["Sin limitación funcional"]), ("ASA III", "Enfermedad grave", ["IC compensada"]),
@@ -107,12 +107,12 @@ S("termometro", "RM-CIR-006", "Mujer con colecistitis aguda e insuficiencia card
                 (3, "Anestesia con mínima depresión", ["Evitar cambios bruscos de volumen"], False)]),
   clasif=dict(titulo="Clasificación ASA del estado físico (ASA 2020)", cols=["Clase", "Definición", "Ejemplo"],
               filas=[["ASA I", "Paciente sano", "Sin enfermedad; no fuma ni abusa del alcohol"],
-                     ["ASA II", "Enfermedad sistémica leve", "Fumador, HTA o DM controladas, obesidad leve"],
-                     ["ASA III", "Enfermedad sistémica grave", "IC compensada, DM mal controlada, EPOC, IMC ≥ 40"],
-                     ["ASA IV", "Enfermedad grave, amenaza constante para la vida", "IC descompensada, sepsis, infarto reciente"],
-                     ["ASA V", "Moribundo: no sobrevive sin la operación", "Aneurisma roto, isquemia intestinal masiva"],
+                     ["ASA II", "Enfermedad sistémica leve", "Fumador, alcohol social, embarazo, HTA o DM bien controladas, IMC 30-40"],
+                     ["ASA III", "Enfermedad sistémica grave", "DM o HTA mal controlada, EPOC, IMC ≥ 40, FE moderadamente reducida (IC compensada)"],
+                     ["ASA IV", "Enfermedad grave, amenaza constante para la vida", "Infarto, ACV o stent < 3 meses, FE muy reducida (IC descompensada), sepsis"],
+                     ["ASA V", "Moribundo: no sobrevive sin la operación", "Aneurisma roto, politrauma masivo, isquemia intestinal con cardiopatía"],
                      ["ASA VI", "Muerte cerebral, donante de órganos", "Donación de órganos"]], caso=3, ancho_primera=165,
-              nota="La letra «E» se añade si la cirugía es de urgencia (p. ej., ASA IV E)."))
+              nota="La letra «E» se añade si la cirugía es de urgencia (p. ej., ASA IV E). Los ejemplos de la ASA son orientativos; la IC como ejemplo es una interpretación según la FE y el estado clínico."))
 
 # 20 · RM-CIR-007 · CHECKLIST: paciente deshidratado
 S("checklist", "RM-CIR-007", "En el paciente mal hidratado la complicación más frecuente de la raquídea es la hipotensión",

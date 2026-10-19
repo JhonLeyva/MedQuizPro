@@ -187,7 +187,7 @@ S("checklist", "RM-INF-043", "El dolor abdominal intenso y continuo es un signo 
    "También: aumento del hematocrito con descenso rápido de las plaquetas.",
    "Con cualquier signo de alarma: hospitalizar con hidratación intravenosa guiada por el hematocrito.",
    "Dengue grave: shock, hemorragia grave o daño orgánico grave. Trombocitosis, poliuria y la fiebre sola no son alarma."],
-  "MINSA, NTS N.º 211-MINSA/DGIESP-2024 (RM 175-2024/MINSA); OMS, WHO guidelines for clinical management of arboviral diseases (2025).",
+  "MINSA, NTS N.º 211-MINSA/DGIESP-2024 (RM 175-2024/MINSA); OPS, Directrices para el diagnóstico clínico y tratamiento del dengue, chikungunya y zika (2022); OMS, Dengue: guías para el diagnóstico, tratamiento, prevención y control (2009); OMS, WHO guidelines for clinical management of arboviral diseases (2025).",
   op=("¿Señal de alarma?", ["Sí: anuncia la fuga de plasma", "No: en el dengue hay trombocitopenia", "No: lo es el vómito persistente", "No: hay oliguria si hay hipovolemia", "No: es el síntoma de la fase febril"],
       {0: "Dolor abdominal intenso y continuo", 2: "Náuseas persistentes (lo es el vómito)"}),
   d=dict(rotulo="Qué es y qué no es signo de alarma", tag="ALARMA",
@@ -199,10 +199,12 @@ S("checklist", "RM-INF-043", "El dolor abdominal intenso y continuo es un signo 
          no_hacer=[("Náuseas solas", "Sin vómito persistente no son alarma"), ("Trombocitosis", "No: se espera trombocitopenia"), ("Poliuria", "No: hay oliguria si hay hipovolemia"),
                    ("Fiebre", "Es el síntoma de la fase febril, no una alarma")],
          veredicto=("Dolor abdominal intenso y continuo = signo de alarma", "Con cualquiera: hospitalizar e hidratar por vía intravenosa guiada por el hematocrito.")),
-  clasif=dict(titulo="Clasificación clínica del dengue (OMS / NTS 211-MINSA)", cols=["Categoría", "Criterios", "Conducta"],
-              filas=[["Dengue sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, mialgias o artralgias, cefalea o dolor retroocular, petequias o prueba del torniquete positiva, leucopenia", "Manejo ambulatorio: hidratación oral, paracetamol (sin AINE) y control diario"],
-                     ["Dengue con signos de alarma", "Dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos, sangrado de mucosas, letargia o irritabilidad, hepatomegalia > 2 cm, hematocrito en alza con plaquetas en descenso", "Hospitalizar: cristaloides intravenosos guiados por el hematocrito"],
-                     ["Dengue grave", "Shock por fuga de plasma, distrés respiratorio, hemorragia grave o daño orgánico grave (transaminasas ≥ 1000, alteración de conciencia, miocarditis)", "Emergencia o UCI: reanimación con cristaloides y soporte de órganos"]], caso=1, ancho_primera=190))
+  clasif=dict(titulo="Clasificación del dengue: categorías OMS 2009 y grupos de manejo A-C (NTS 211-MINSA/DGIESP-2024, OPS)", cols=["Grupo", "Criterios", "Conducta"],
+              filas=[["A · Dengue sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, mialgias o artralgias, cefalea o dolor retroocular, petequias o prueba del torniquete positiva, leucopenia; sin comorbilidad ni riesgo social", "Ambulatorio: hidratación oral, paracetamol (sin AINE) y control tras el descenso de la fiebre"],
+                     ["B1 · Sin signos de alarma, con condición asociada", "Gestante, menor de 1 año, mayor de 65 años, comorbilidad (p. ej., HTA, diabetes) o riesgo social", "Observación u hospitalización para vigilancia clínica"],
+                     ["B2 · Dengue con signos de alarma", "Dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos, sangrado de mucosas, letargia o irritabilidad, hepatomegalia > 2 cm, hematocrito en alza con plaquetas en descenso", "Hospitalizar: cristaloides intravenosos guiados por el hematocrito"],
+                     ["C · Dengue grave", "Shock por fuga de plasma, distrés respiratorio, hemorragia grave o daño orgánico grave (transaminasas ≥ 1000, alteración de conciencia, miocarditis)", "Emergencia o UCI: reanimación con cristaloides y soporte de órganos"]], caso=2, ancho_primera=190,
+              nota="Un solo signo de alarma basta para el grupo B2. Resumen: el detalle de dosis y de condiciones asociadas está en la NTS 211."))
 
 # 11 · RELOJ · macrófago en la inmunidad innata
 S("reloj", "RM-CB-046", "El macrófago fagocita y destruye microorganismos y secreta citoquinas inflamatorias",

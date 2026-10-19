@@ -89,9 +89,9 @@ S("checklist", "RM-CIR-116", "En el politraumatizado inestable sin dificultad re
   ("Politraumatizado inestable", ["Ingresa con inestabilidad hemodinámica y sin dificultad respiratoria.", "¿Cuál es el manejo terapéutico prioritario?"]),
   ["La causa más frecuente de shock en el trauma es la hemorragia: se controla primero (compresión, torniquete, faja pélvica).",
    "Dos vías gruesas, transfusión balanceada (1:1:1), ácido tranexámico 1 g en las primeras 3 h e hipotensión permisiva (PAS 80-90, sin TCE).",
-   "Clase III: pérdida del 30-40 %, FC > 120 y PA baja; con FAST positiva e inestable se va a quirófano (ATLS 11).",
+   "Clase III: pérdida del 31-40 %, FC > 120 y PA baja; con FAST positiva e inestable se va a quirófano (ATLS 11).",
    "El collarín se coloca a la vez, pero no salva la vida; el catéter central y los antibióticos se dejan para después."],
-  "ATLS, 11.ª ed. (2025); WSES, trauma abdominal cerrado (2017); " + SAB,
+  "ATLS, 10.ª ed. (2018) y 11.ª ed. (2025: xABCDE); WSES, trauma abdominal cerrado (2017); " + SAB,
   op=("¿Prioridad?", ["No: se da después", "No: no es lo urgente", "No: respira sin dificultad", "No: se hace a la vez, no salva la vida", "Sí: la hemorragia causa el shock"],
       {0: "Antibioticoterapia", 1: "Catéter venoso central", 2: "Intubación endotraqueal", 3: "Collarín cervical", 4: "Control del sangrado"}),
   d=dict(rotulo="Qué se hace y en qué orden", tag="PRIORIDAD",
@@ -100,11 +100,13 @@ S("checklist", "RM-CIR-116", "En el politraumatizado inestable sin dificultad re
                 ("D y E: neurológico y exposición", "Glasgow, pupilas y evitar hipotermia", False)],
          no_hacer=[("Esperar la tomografía con el paciente inestable", "Pierde tiempo: operar o embolizar"), ("Cristaloides en exceso", "Diluyen y empeoran la coagulopatía"), ("Colocar un catéter central primero", "Retrasa el control del sangrado")],
          veredicto=("Inestable + vía aérea sana = controlar el sangrado", "La hemorragia es la causa más frecuente de muerte evitable en el trauma.")),
-  clasif=dict(titulo="Clases de hemorragia del ATLS", cols=["Clase", "Pérdida de sangre", "Hallazgos", "Conducta"],
-              filas=[["I", "< 15 %", "Sin cambios; FC y PA normales", "Observación; cristaloides si hace falta"],
-                     ["II", "15-30 %", "Taquicardia, PA normal, ansiedad", "Cristaloides; sangre si sigue sangrando"],
-                     ["III", "31-40 %", "FC > 120, PA baja, confusión (este caso)", "Transfusión balanceada y control del sangrado"],
-                     ["IV", "> 40 %", "Hipotensión grave, letargo", "Transfusión masiva y quirófano"]], caso=2, ancho_primera=90))
+  clasif=dict(titulo="Clases del shock hemorrágico (ATLS)", cols=["Clase", "Pérdida de sangre", "FC y presión arterial", "FR y diuresis", "Estado mental", "Conducta"],
+              filas=[["I", "< 15 % (< 750 mL)", "FC normal; PA y presión de pulso normales", "FR 14-20; diuresis > 30 mL/h", "Ansiedad leve", "Observar y controlar la hemorragia"],
+                     ["II", "15-30 % (750-1500 mL)", "FC 100-120; PA normal; presión de pulso baja", "FR 20-30; diuresis 20-30 mL/h", "Ansioso", "Cristaloides; sangre si persiste"],
+                     ["III", "31-40 % (1500-2000 mL)", "FC 120-140; hipotensión; presión de pulso baja", "FR 30-40; diuresis 5-15 mL/h", "Ansioso o confuso", "Transfusión y hemostasia precoz"],
+                     ["IV", "> 40 % (> 2000 mL)", "FC > 140; hipotensión; presión de pulso muy baja", "FR > 35; anuria", "Confuso o letárgico", "Transfusión masiva y quirófano"]],
+              caso=2, ancho_primera=80,
+              nota="Adulto de 70 kg. Cifras de FC, FR y diuresis: valores clásicos del ATLS 9.ª ed.; la 10.ª (2018) los expresa como tendencias y añade el déficit de base (0 a −2, −2 a −6, −6 a −10, ≤ −10). Orientativas: no se pudo verificar en línea si la 11.ª ed. (2025) cambió la tabla."))
 
 # 117 · TARJETAS · gran quemado: referencia y equipo
 S("tarjetas", "RM-CIR-117", "El gran quemado lo atiende un equipo multidisciplinario en un centro de quemados",
@@ -155,18 +157,18 @@ S("cuadro", "RM-CIR-120", "Hernia inguinal indirecta con ciego en el saco: Nyhus
    "Nyhus: I indirecta con anillo normal; II indirecta con anillo dilatado; III defecto posterior (A directa, B indirecta grande o deslizada, C femoral); IV recidiva.",
    "En la deslizada el órgano forma parte del saco: no se reseca el ciego, se reduce con cuidado y se refuerza la pared.",
    "Reparación con malla sin tensión, abierta (Lichtenstein) o laparoscópica (TEP o TAPP) según la guía HerniaSurge 2018."],
-  "HerniaSurge, hernia inguinal (2018); Nyhus, Hernia 1993; " + SCHW,
+  "HerniaSurge, hernia inguinal (Hernia 2018; actualización BJS Open 2023); Nyhus, Surgery 1993;114:1-2; " + SCHW,
   op=("¿Nyhus?", ["No: el anillo dilatado sin pared posterior dañada", "No: es la hernia recidivada", "No: el III es el grupo, falta el subtipo", "Sí: indirecta con pared posterior dañada (deslizada)", "No: IIIA es la hernia directa"],
       {0: "II", 1: "IV", 2: "III", 3: "IIIB", 4: "IIIA"}),
   d=dict(veredicto=("Saco lateral a los epigástricos con el ciego = Nyhus IIIB", "Hernia indirecta grande o deslizada: pared posterior invadida; se repara con malla.")),
-  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior"],
-              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior sana"],
-                     ["II", "Indirecta", "Anillo dilatado; pared posterior intacta"],
-                     ["IIIA", "Directa", "Defecto de la pared posterior (triángulo de Hesselbach)"],
-                     ["IIIB", "Indirecta grande o deslizada", "Anillo muy dilatado; pared posterior invadida (pantalón, deslizada)"],
-                     ["IIIC", "Femoral", "Defecto del canal femoral, bajo el ligamento inguinal"],
-                     ["IV", "Recidivada", "A directa, B indirecta, C femoral, D mixta"]], caso=3, ancho_primera=130,
-              nota="El saco lateral a los vasos epigástricos es indirecto; si contiene el ciego es IIIB."))
+  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior", "Técnica"],
+              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior intacta", "Ligadura alta del saco (niño) o reparación con malla"],
+                     ["II", "Indirecta", "Anillo interno dilatado; pared posterior intacta", "Reparación con malla"],
+                     ["IIIA", "Directa", "Defecto de la pared posterior (cualquier tamaño)", "Malla"],
+                     ["IIIB", "Indirecta grande, en pantalón o deslizada", "Anillo muy dilatado que invade la pared posterior", "Malla"],
+                     ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal", "Malla (abordaje inguinal o preperitoneal)"],
+                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=3, ancho_primera=150,
+              nota="Clasificación de Nyhus (1993); la EHS la reemplazó por L/M/F con tamaño 0-3. Reparación con malla según HerniaSurge."))
 
 # 122 · CUADRÍCULA · cáncer de colon, resección según irrigación (+ colonoscopía real)
 S("cuadricula", "RM-CIR-122", "El cáncer de la flexura esplénica se trata con colectomía izquierda extendida",

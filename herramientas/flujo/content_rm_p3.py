@@ -105,7 +105,7 @@ S("fases", "RM-CIR-066", "Un orificio perianal con secreción fétida intermiten
    "Parks (ver cuadro): según su relación con el esfínter, define si basta la fistulotomía o hace falta preservar el esfínter.",
    "Fístula simple: fistulotomía. Compleja (alta o con esfínter): sedal, colgajo o LIFT; RM para definir el trayecto.",
    "Alerta: fístulas múltiples, recidivantes o con diarrea = enfermedad de Crohn."],
-  "ASCRS, abscesos y fístulas anorrectales (2022); " + SAB,
+  "ASCRS, absceso anorrectal, fístula anal y fístula rectovaginal (Dis Colon Rectum 2022;65:964-985); Parks, Gordon y Hardcastle, Br J Surg 1976;63:1-12; " + SAB,
   op=("¿Diagnóstico?", ["No: es una colección aguda y dolorosa, sin secreción periódica", "No: sangra al defecar, sin orificio con pus", "No: dolor al defecar con sangre escasa", "No: es aguda y dolorosa", "Sí: orificio con secreción intermitente"],
       {0: "Forúnculo", 1: "Hemorroides", 2: "Fisura", 3: "Absceso", 4: "Fístula"}),
   d=dict(rotulo="Cómo se llega a la fístula", ans=2,
@@ -118,7 +118,7 @@ S("fases", "RM-CIR-066", "Un orificio perianal con secreción fétida intermiten
                      ["Transesfintérica", "Cruza el esfínter externo hacia la fosa isquiorrectal", "Baja: fistulotomía; alta: sedal, LIFT o colgajo"],
                      ["Supraesfintérica", "Asciende sobre el puborrectal y desciende por la fosa isquiorrectal", "Sedal, LIFT o colgajo"],
                      ["Extraesfintérica", "Del recto a la piel por fuera del esfínter, a través de los elevadores", "Tratar la causa (Crohn, absceso); sedal, colgajo o derivación"]],
-              caso=None, ancho_primera=135, nota="Tipos descritos por Parks (1976); conducta según ASCRS 2022. La mayoría son interesfintéricas o transesfintéricas."))
+              caso=None, ancho_primera=135, nota="Tipos descritos por Parks (1976); conducta resumida según ASCRS 2022. La fistulotomía solo si compromete poco esfínter; si no, sedal, LIFT o colgajo."))
 
 # 067 · CRITERIOS · Tokio 2018
 S("criterios", "RM-CIR-067", "Colecistitis aguda litiásica con Murphy y leucocitosis: colecistectomía laparoscópica temprana",
@@ -201,8 +201,8 @@ S("carriles", "RM-CIR-070", "La coledocolitiasis se trata con papiloesfinterotom
                 (2, "CPRE con esfinterotomía", "Extrae el cálculo; éxito 90-95 %", True), (3, "Si falla la CPRE", "Kehr o coledocoscopía + colecistectomía", False)],
          veredicto=("Papiloesfinterotomía endoscópica = tratamiento de elección", "Con probabilidad intermedia se confirma antes con colangiorresonancia o ecoendoscopia.")),
   clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
-              filas=[["Alto", "Cálculo en imagen, o colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
-                     ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o ecografía intraoperatoria"],
+              filas=[["Alto", "Cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
+                     ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o colangiografía/ecografía intraoperatoria"],
                      ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]],
               caso=None, ancho_primera=110))
 
@@ -281,7 +281,7 @@ S("lectura", "RM-CIR-074", "El bulto anal que prolapsa y se reduce con la mano, 
    "Dolor intenso con masa azulada y dura = trombosis hemorroidal externa, no interna.",
    "Grados I-III: fibra, líquidos, banda elástica, escleroterapia o infrarrojos. III-IV o con mala evolución: hemorroidectomía (Milligan-Morgan, Ferguson o grapada).",
    "Alerta: sangrado rectal a los 60 años obliga a descartar cáncer colorrectal con colonoscopía."],
-  "ASCRS, hemorroides (2018); " + SAB,
+  "ASCRS, Clinical Practice Guidelines for the Management of Hemorrhoids (Dis Colon Rectum 2024); " + SAB,
   op=("¿Tipo de hemorroide?", ["Sí: prolapsa y se reduce con la mano", "No: prolapsa y no se reduce", "No: sangra sin prolapso", "No: es dolorosa, dura y azulada", "No: prolapsa y se reduce sola"],
       {0: "Interna de tercer grado", 1: "Interna de cuarto grado", 2: "Interna de primer grado", 3: "Externa trombosada", 4: "Interna de segundo grado"}),
   d=dict(rotulo="Lee la imagen y clasifica", img_titulo="Hemorroides prolapsadas",
@@ -295,7 +295,7 @@ S("lectura", "RM-CIR-074", "El bulto anal que prolapsa y se reduce con la mano, 
   clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Tratamiento"],
               filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra, líquidos; escleroterapia o banda"],
                      ["II", "Prolapsa al defecar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica, infrarrojos o escleroterapia"],
-                     ["III", "Prolapsa al esfuerzo", "Se reduce con la mano", "Bulto que la paciente reduce", "Banda o hemorroidectomía"],
+                     ["III", "Prolapsa al esfuerzo", "Se reduce con la mano", "Bulto que se reduce manualmente", "Banda o hemorroidectomía"],
                      ["IV", "Prolapso permanente", "No se reduce", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2))
 
 # 075 · PIRÁMIDE · tratamiento de hemorroides por grado

@@ -7,8 +7,8 @@ S("lectura", "RM-CIR-118", "El absceso pélvico por diverticulitis complicada es
   "Diverticulitis · clasificación de Hinchey modificada",
   ("Diverticulitis aguda", ["La TC clasifica el compromiso con la clasificación de Hinchey modificada (Kaiser).", "Define si se trata con antibióticos, drenaje o cirugía."]),
   ("Pregunta de clasificación", ["Colección pélvica de secreción purulenta por diverticulitis complicada.", "¿Qué estadio de Hinchey es?"]),
-  ["Estadios: 0 leve · Ia flemón pericólico · Ib absceso pericólico < 4-5 cm · II absceso a distancia (pélvico, intraabdominal o retroperitoneal) · III peritonitis purulenta · IV peritonitis fecal.",
-   "Conducta: 0-Ib antibiótico (drenaje percutáneo si el absceso Ib supera 4-5 cm); II drenaje percutáneo o cirugía; III-IV cirugía urgente.",
+  ["Estadios: 0 leve · Ia flemón pericólico · Ib absceso pericólico o mesocólico · II absceso a distancia (pélvico, intraabdominal o retroperitoneal) · III peritonitis purulenta · IV peritonitis fecal.",
+   "Conducta: 0-Ib antibiótico (drenaje percutáneo si el absceso Ib supera 4-5 cm); II antibiótico y drenaje percutáneo si es grande, o cirugía si falla; III-IV cirugía urgente.",
    "Banderas rojas: fiebre alta, defensa generalizada, shock o falla del drenaje = peritonitis y cirugía. La TC con contraste es el estudio de elección.",
    "Bibliografía: la guía WSES 2020 y la ASCRS 2020 son las vigentes; no hay una revisión posterior verificada de la clasificación."],
   "Kaiser et al., Aliment Pharmacol Ther 2005; WSES, diverticulitis aguda del colon izquierdo (2020); ASCRS (2020); AGA (2021); " + SAB + ".",
@@ -23,9 +23,9 @@ S("lectura", "RM-CIR-118", "El absceso pélvico por diverticulitis complicada es
   clasif=dict(titulo="Clasificación de Hinchey modificada por Kaiser (TC)", cols=["Estadio", "Hallazgo en la TC", "Tamaño / sitio", "Conducta"],
               filas=[["0", "Pared colónica engrosada, grasa con cambios leves", "Sin colección", "Antibiótico selectivo o solo observación"],
                      ["Ia", "Flemón o inflamación pericólica", "Sin absceso", "Antibiótico"],
-                     ["Ib", "Absceso pericólico pequeño", "Menor de 4-5 cm", "Antibiótico ± drenaje percutáneo"],
-                     ["II", "Absceso a distancia del foco", "Pelvis, intraabdominal o retroperitoneo", "Drenaje percutáneo guiado por TC o cirugía"],
-                     ["III", "Peritonitis purulenta generalizada", "Sin contaminación fecal", "Cirugía urgente (Hartmann o lavado)"],
+                     ["Ib", "Absceso pericólico o mesocólico", "Cerca del colon", "Antibiótico; drenaje percutáneo si es grande (> 4-5 cm)"],
+                     ["II", "Absceso a distancia del foco", "Pelvis, intraabdominal o retroperitoneo", "Antibiótico; drenaje percutáneo guiado por TC si es grande (> 4-5 cm); cirugía si falla"],
+                     ["III", "Peritonitis purulenta generalizada", "Sin contaminación fecal", "Cirugía urgente (Hartmann o resección con anastomosis ± derivación)"],
                      ["IV", "Peritonitis fecal", "Contaminación con heces", "Cirugía urgente (Hartmann)"]], caso=3, ancho_primera=100))
 
 S("criterios", "RM-CIR-114", "La colangitis aguda se confirma con los criterios de Tokio y se trata drenando la vía biliar con CPRE",

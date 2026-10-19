@@ -142,7 +142,7 @@ S("dos_preguntas", "RM-CIR-121", "En el trauma abdominal cerrado estable con poc
          veredicto=("Estable + FAST positiva = tomografía", "La laparotomía es para el inestable o con peritonitis.")))
 
 # 9 · DECISIÓN · coledocolitiasis y riesgo (ASGE 2019)
-S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor: alto riesgo de coledocolitiasis, CPRE terapéutica",
+S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor: sospecha de coledocolitiasis, CPRE terapéutica",
   "Vía biliar · riesgo de coledocolitiasis",
   ("Coledocolitiasis", ["Cálculo en el colédoco: dolor, ictericia y pruebas hepáticas alteradas.", "ASGE 2019 la estratifica en riesgo bajo, intermedio y alto."]),
   ("Mujer de 30 años con colelitiasis", ["Dolor súbito en hipocondrio derecho de 24 h con ictericia.", "¿Qué conducta sigue?"]),
@@ -158,11 +158,12 @@ S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor: alto riesgo de 
          rows=[("Alto riesgo", "Cálculo visible o bilirrubina > 4 mg/dL"), ("Riesgo intermedio", "Pruebas alteradas o edad > 55")],
          cells=[[("CPRE terapéutica", ["Extrae el cálculo"]), ("CPRE urgente + antibióticos", ["Drenaje en 24 h"])],
                 [("Ecoendoscopía o colangio-RM", ["Si confirma, CPRE"]), ("CPRE + antibióticos", ["Según gravedad de Tokio"])]],
-         caso=(0, 0), veredicto=("Ictericia + dolor + cálculos = alto riesgo: CPRE", "Luego colecistectomía laparoscópica.")),
-  clasif=dict(titulo="Riesgo de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
-              filas=[["Alto", "Cálculo en la imagen, colangitis ascendente, o bilirrubina > 4 mg/dL con colédoco dilatado", "CPRE terapéutica directa"],
-                     ["Intermedio", "Pruebas hepáticas alteradas, edad > 55 años o colédoco dilatado en la imagen", "Ecoendoscopía, colangio-RM o colangiografía intraoperatoria"],
-                     ["Bajo", "Ningún predictor anterior", "Colecistectomía laparoscópica sin más estudios"]], caso=0, ancho_primera=150))
+         caso=(1, 0), veredicto=("Ictericia + dolor súbito = sospecha de coledocolitiasis", "Si se confirma el cálculo, CPRE con extracción y luego colecistectomía laparoscópica.")),
+  clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
+              filas=[["Alto", "Cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
+                     ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o colangiografía/ecografía intraoperatoria"],
+                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=150,
+              nota="El caso (ictericia y dolor, sin cálculo en imagen, colangitis ni bilirrubina descrita) es riesgo intermedio; pasa a alto con cálculo visible, colangitis o bilirrubina > 4 mg/dL con colédoco dilatado. La clave del banco elige la CPRE."))
 
 # 10 · CHECKLIST · síndrome compartimental
 S("checklist", "RM-CIR-099", "En el síndrome compartimental el edema muscular eleva la presión del compartimento",

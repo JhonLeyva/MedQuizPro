@@ -32,7 +32,7 @@ S("arbol", "RM-CIR-077", "La hernia inguinal en pantalón o deslizada es Nyhus I
   ["I: indirecta con anillo normal · II: indirecta con anillo dilatado y pared posterior intacta · III: defecto de la pared posterior (A directa, B indirecta mayor o mixta, C femoral) · IV: recurrente.",
    "La hernia en pantalón tiene un saco a cada lado de los vasos epigástricos inferiores: la pared posterior ya está debilitada, por eso es III-B.",
    "Reparación con malla (Lichtenstein o abordaje laparoscópico TEP/TAPP); la guía HerniaSurge la recomienda en todo adulto varón."],
-  "HerniaSurge, guía internacional de hernia inguinal (Hernia 2018); Nyhus, Arch Surg (1993); " + SAB,
+  "HerniaSurge, guía internacional de hernia inguinal (Hernia 2018; actualización BJS Open 2023); Nyhus, Surgery 1993;114:1-2; " + SAB,
   op=("¿Tipo?", ["Sí: indirecta con la pared posterior comprometida", "No: es directa, sin componente indirecto", "No: anillo normal, sin deslizamiento", "No: pared posterior intacta", "No: es la recidiva"],
       {}),
   arbol=Q("¿La pared posterior (fascia transversal) está debilitada?", [
@@ -47,7 +47,8 @@ S("arbol", "RM-CIR-077", "La hernia inguinal en pantalón o deslizada es Nyhus I
                      ["IIIA", "Directa", "Defecto de la pared posterior (cualquier tamaño)", "Malla"],
                      ["IIIB", "Indirecta grande, en pantalón o deslizada", "Anillo muy dilatado que invade la pared posterior", "Malla"],
                      ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal", "Malla (abordaje inguinal o preperitoneal)"],
-                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=3, ancho_primera=150))
+                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=3, ancho_primera=150,
+              nota="Clasificación de Nyhus (1993); la EHS la reemplazó por L/M/F con tamaño 0-3. Reparación con malla según HerniaSurge."))
 
 # ───────────────────────────── 078 · CHECKLIST
 S("checklist", "RM-CIR-078", "La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional",
@@ -73,7 +74,7 @@ S("cuadro", "RM-CIR-079", "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diure
   ["Clase I: < 15 % (< 750 mL) · II: 15-30 %, FC 100-120, presión de pulso baja · III: 31-40 % (1500-2000 mL), FC 120-140, hipotensión, FR 30-40, diuresis 5-15 mL/h · IV: > 40 %, FC > 140, anuria.",
    "Clase III-IV: transfusión masiva balanceada 1:1:1, control quirúrgico o por embolización de la hemorragia, ácido tranexámico en las primeras 3 h.",
    "Alertas: la taquicardia sola engaña (betabloqueo, ancianos, atletas); hipotermia, acidosis y coagulopatía forman la tríada letal."],
-  ATL + "; WSES, trauma abdominal cerrado (2017); CRASH-2 (Lancet 2010)",
+  "ATLS, 10.ª ed. (2018) y 11.ª ed. (2025); WSES, trauma abdominal cerrado (2017); CRASH-2 (Lancet 2010)",
   op=("¿Clase?", ["No: es la de pérdida mayor de 40 %, con anuria", "No: sin cambios hemodinámicos", "No: sin hipotensión y con diuresis conservada", "Sí: 31-40 % con hipotensión y diuresis de 5-15", "No: no existe clase V"],
       {0: "IV", 1: "I", 2: "II", 3: "III", 4: "V"}),
   d=dict(veredicto=("Clase III: pérdida de 31-40 % con hipotensión", "Transfusión balanceada 1:1:1 y hemostasia precoz; la taquicardia sola engaña.")),
@@ -82,7 +83,8 @@ S("cuadro", "RM-CIR-079", "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diure
                      ["II", "15-30 % (750-1500 mL)", "FC 100-120; PA normal; presión de pulso baja", "FR 20-30; diuresis 20-30 mL/h", "Ansioso", "Cristaloides; sangre si persiste"],
                      ["III", "31-40 % (1500-2000 mL)", "FC 120-140; hipotensión; presión de pulso baja", "FR 30-40; diuresis 5-15 mL/h", "Ansioso o confuso", "Transfusión y hemostasia precoz"],
                      ["IV", "> 40 % (> 2000 mL)", "FC > 140; hipotensión; presión de pulso muy baja", "FR > 35; anuria", "Confuso o letárgico", "Transfusión masiva y quirófano"]],
-              caso=2, ancho_primera=80))
+              caso=2, ancho_primera=80,
+              nota="Adulto de 70 kg. Cifras de FC, FR y diuresis: valores clásicos del ATLS 9.ª ed.; la 10.ª (2018) los expresa como tendencias y añade el déficit de base (0 a −2, −2 a −6, −6 a −10, ≤ −10). Orientativas: no se pudo verificar en línea si la 11.ª ed. (2025) cambió la tabla."))
 
 # ───────────────────────────── 080 · ALARMA
 S("alarma", "RM-CIR-080", "Trauma cerrado, estable y con peritonitis generalizada: lesión de víscera hueca (intestino delgado)",
@@ -158,7 +160,7 @@ S("cuadro", "RM-CIR-084", "La sección total del colédoco reconocida en la ciru
   ["Strasberg: A fuga del cístico o de Luschka · B oclusión de un conducto sectorial derecho · C sección con fuga de ese conducto · D lesión lateral · E lesión circunferencial del hepático común o colédoco.",
    "Tipo E (sección total): hepaticoyeyunostomía en Y de Roux término-lateral, mucosa con mucosa, sin tensión, por cirujano hepatobiliar y con colangiografía; no la anastomosis a duodeno.",
    "Prevención: visión crítica de seguridad (solo dos estructuras entran a la vesícula), colangiografía o fluorescencia con verde de indocianina, y colecistectomía subtotal si hay duda."],
-  "Strasberg et al., J Am Coll Surg (1995); SAGES, colecistectomía segura (Brunt et al., Surg Endosc 2020); Tokyo Guidelines 2018",
+  "Strasberg et al., J Am Coll Surg 1995;180:101-125; Brunt et al., colecistectomía segura, consenso multisociedad (Ann Surg 2020;272:3-23 / Surg Endosc 2020); Tokyo Guidelines 2018",
   op=("¿Reparación?", ["Sí: Y de Roux término-lateral, sin tensión", "No: la vía biliar no se une al duodeno", "No: tampoco se une al duodeno", "No: no corrige una sección total", "No: el estómago no es receptor biliar"],
       {0: "Y de Roux término-lateral", 1: "Colédoco a duodeno T-L", 2: "Colédoco a duodeno L-L", 3: "Reparación con dren de Kehr", 4: "Colédoco a estómago"}),
   d=dict(veredicto=("Sección total del colédoco: lesión mayor (tipo E)", "Hepaticoyeyunostomía en Y de Roux término-lateral; no se une al duodeno.")),
@@ -172,8 +174,8 @@ S("cuadro", "RM-CIR-084", "La sección total del colédoco reconocida en la ciru
                      ["E3", "Sección en la confluencia (el confluente se conserva)", "Hepaticoyeyunostomía en Y de Roux"],
                      ["E4", "Sección con separación de los conductos hepáticos derecho e izquierdo", "Hepaticoyeyunostomía en Y de Roux con reconstrucción de la confluencia"],
                      ["E5", "Lesión del hepático común con un conducto sectorial derecho aberrante", "Hepaticoyeyunostomía en Y de Roux"]],
-              caso=[4, 5], ancho_primera=150,
-              nota="Tipos A-D son lesiones menores; E (sección o resección con pérdida de tejido) es mayor. Si la reconstrucción no es posible en el momento: drenar y derivar a un centro hepatobiliar."))
+              caso=[4, 5, 6, 7, 8], ancho_primera=150,
+              nota="El caso describe una sección total (tipo E) sin precisar la distancia a la confluencia. Tipos A-D son lesiones menores; E (sección o resección con pérdida de tejido) es mayor. Si la reconstrucción no es posible en el momento: drenar y derivar a un centro hepatobiliar."))
 
 # ───────────────────────────── 085 · TARJETAS (Todani)
 S("cuadro", "RM-CIR-085", "El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente",
@@ -181,16 +183,16 @@ S("cuadro", "RM-CIR-085", "El tipo I de Todani (dilatación fusiforme del coléd
   ("Quistes de la vía biliar", ["Dilataciones congénitas de la vía biliar, más en mujeres y en Asia.", "Asociadas a una unión pancreatobiliar anómala."]),
   ("Pregunta de clasificación", ["Clasificación de Todani.", "¿Cuál es el tipo más frecuente?"]),
   ["I fusiforme o sacular del colédoco (80-90 %) · II divertículo · III coledococele · IV múltiples (IVa intra y extrahepáticos, IVb extrahepáticos) · V enfermedad de Caroli.",
-   "Clínica: dolor, ictericia y masa palpable, solo en 20 %; el niño debuta con colangitis o pancreatitis. Diagnóstico: ecografía y colangiorresonancia.",
-   "Riesgo de colangiocarcinoma del 10-30 % en el adulto: resección completa del quiste con hepaticoyeyunostomía en Y de Roux; no el drenaje interno."],
-  "Todani et al., Am J Surg (1977); Soares et al., J Am Coll Surg (2014); " + SAB,
+   "Clínica: dolor, ictericia y masa palpable (tríada clásica, rara y sobre todo pediátrica); en el adulto, colangitis o pancreatitis. Diagnóstico: ecografía y colangiorresonancia.",
+   "Neoplasia biliar en 10-30 % de los quistes, con riesgo que crece con la edad: resección completa del quiste con hepaticoyeyunostomía en Y de Roux; no el drenaje interno."],
+  "Todani et al., Am J Surg 1977;134:263-269; Soares et al., J Am Coll Surg 2014;219:1167-1180; " + SAB,
   op=("¿Tipo más frecuente?", ["Sí: 80-90 % de los casos", "No: divertículo, raro (2 %)", "No: coledococele, raro", "No: múltiples, 10-20 %", "No: enfermedad de Caroli, rara"]),
   d=dict(veredicto=("Tipo I = el más frecuente (80-90 %)", "Se reseca el quiste completo y se hace hepaticoyeyunostomía en Y de Roux; no se drena al intestino.")),
   clasif=dict(titulo="Clasificación de Todani de los quistes de colédoco", cols=["Tipo", "Forma", "Sitio", "Frecuencia", "Tratamiento"],
               filas=[["I", "Dilatación fusiforme o sacular", "Colédoco extrahepático", "80-90 %", "Resección del quiste + Y de Roux"],
-                     ["II", "Divertículo", "Pared del colédoco", "Cerca de 2 %", "Diverticulectomía"],
-                     ["III", "Coledococele", "Colédoco intraduodenal", "Raro", "Esfinterotomía endoscópica o resección transduodenal"],
-                     ["IVa", "Quistes múltiples", "Intra y extrahepáticos", "10-20 % (IV)", "Resección extrahepática + Y de Roux ± hepatectomía"],
+                     ["II", "Divertículo", "Pared del colédoco", "Raro", "Diverticulectomía"],
+                     ["III", "Coledococele", "Colédoco intraduodenal", "1-4 %", "Esfinterotomía endoscópica o resección transduodenal"],
+                     ["IVa", "Quistes múltiples", "Intra y extrahepáticos", "15-20 % (IV)", "Resección extrahepática + Y de Roux ± hepatectomía"],
                      ["IVb", "Quistes múltiples", "Solo extrahepáticos", "Menos frecuente", "Resección + Y de Roux"],
                      ["V", "Quistes intrahepáticos (Caroli)", "Intrahepático", "Raro", "Hepatectomía o trasplante según extensión"]], caso=0))
 
@@ -257,7 +259,7 @@ S("reloj", "RM-CIR-090", "La colangitis aguda con hipotensión es grave: tras re
   "Tokyo Guidelines 2018, colangitis aguda (Kiriyama et al., J Hepatobiliary Pancreat Sci 2018); ESGE, CPRE (2021); EsSalud-IETSI, GPC de colelitiasis, colecistitis y coledocolitiasis (2018)",
   op=("¿Conducta?", ["Sí: drena la vía obstruida con mínima agresión", "No: mortalidad alta en el paciente séptico", "No: cirugía mayor en sepsis", "No: drena la vesícula, no el colédoco", "No: cirugía mayor, sin urgencia de derivar"],
       {0: "CPRE", 1: "Colecistectomía abierta", 2: "Exploración de vías biliares", 3: "Colecistostomía abierta", 4: "Derivación biliodigestiva"}),
-  d=dict(rotulo="Colangitis grado III: qué se hace y cuándo", intro="Con hipotensión: reanimación, antibiótico y drenaje urgente de la vía biliar.",
+  d=dict(rotulo="Colangitis con inestabilidad: qué se hace y cuándo", intro="Con hipotensión: reanimación, antibiótico y drenaje de la vía biliar, urgente si es grado III.",
          pasos=[("Hora 0", "Reanimar y cultivar", "Líquidos, oxígeno, hemocultivos", False), ("< 1 h", "Antibiótico", "Piperacilina-tazobactam", False),
                 ("Urgente", "CPRE", "Esfinterotomía, extracción o stent", True), ("Si falla", "Drenaje percutáneo", "Transhepático", False),
                 ("Luego", "Colecistectomía", "Mismo ingreso, sin sepsis", False)],

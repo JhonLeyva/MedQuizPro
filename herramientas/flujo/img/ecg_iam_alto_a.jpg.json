@@ -1,0 +1,24 @@
+{
+ "pmcid": "PMC13615561",
+ "titulo": "South African Flag Sign During Atrial Fibrillation: Physician Recognition of Acute Proximal Left Anterior Descending Artery Occlusion Despite No Automated ST-Segment Elevation Myocardial Infarction Alert",
+ "autores": [
+  "Saronni",
+  "Conca",
+  "Agarossi",
+  "Ripoll-Gallardo",
+  "Fiameni",
+  "Brogi",
+  "Stucchi"
+ ],
+ "revista": "Cureus",
+ "anio": "2026",
+ "licencia": "CC BY 4.0",
+ "lic_url": "https://creativecommons.org/licenses/by/4.0/",
+ "fig": {
+  "label": "Figure 1",
+  "caption": "Prehospital 12-lead ECG transmitted telemetrically to the Milan Emergency Dispatch Center (MEDC) demonstrating the South African flag sign.Twelve-lead ECG (25 mm/s, 10 mm/mV) showing atrial fibrillation with irregular RR intervals, ST-segment elevation in leads I, aVL, and V2, and reciprocal inferior ST-segment depression; no automated ST-segment elevation myocardial infarction (STEMI)-specific alert was generated.STE: ST-segment elevation; STD: ST-segment depression.",
+  "href": "cureus-0018-00000115282-i01.webp"
+ },
+ "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13615561.1/cureus-0018-00000115282-i01.webp",
+ "credito": "Saronni et al. · Cureus 2026 · PMC13615561 (PubMed Central) · CC BY 4.0"
+}

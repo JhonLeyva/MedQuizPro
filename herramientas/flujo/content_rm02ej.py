@@ -12,7 +12,7 @@ S("capas", "RM-CIR-058", "La quemadura que llega a la dermis reticular es de seg
   ["Segundo grado superficial: dermis papilar; ampollas, base rosada, muy dolorosa, cura en 2-3 semanas sin cicatriz.",
    "Segundo grado profundo: dermis reticular; base blanquecina o moteada, poco dolorosa, cura en más de 3 semanas con cicatriz y suele necesitar injerto.",
    "Tercer grado: espesor total, acartonada e indolora. Cuarto grado: fascia, músculo o hueso. Reevaluar la profundidad a las 48-72 horas."],
-  "ABA, Burn Care Guidelines; ISBI, Practice Guidelines for Burn Care (2016, 2018); " + SCHW + "; Walsh et al., Cureus 2026 (PMC13675068).",
+  "ISBI Practice Guidelines for Burn Care (Burns 2016;42:953-1021); ABA, Burn Care Guidelines; " + SCHW + ".",
   op=("¿Qué grado?", ["No: queda en la dermis papilar, con ampollas y sin cicatriz", "Sí: llega a la dermis reticular, cura en más de 3 semanas", "No: solo epidermis, eritema sin ampollas",
                       "No: espesor total, indolora y acartonada", "No: compromete fascia, músculo o hueso"], {}),
   d=dict(rotulo="Cada capa de la piel y el grado que se alcanza al llegar a ella", prof=2, tag="HASTA AQUÍ",

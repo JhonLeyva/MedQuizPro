@@ -87,10 +87,11 @@ S("linea_vida", "RM-CAR-012", "El síncope de esfuerzo con soplo eyectivo en un 
          barras=[("Válvula bicúspide", 40, 70, "Congénita, calcifica antes", False), ("Reumática", 30, 60, "Casi siempre con lesión mitral", False), ("Degenerativa calcificada", 65, 90, "La del anciano", True)],
          marcador=(80, "Paciente: 80 años"),
          veredicto=("A los 80 años lo más probable es la calcificación degenerativa", "El ecocardiograma confirma y mide el gradiente.")),
-  clasif=dict(titulo="Gravedad de la estenosis aórtica por ecocardiograma (ESC/EACTS 2021, ACC/AHA 2020)", cols=["Gravedad", "Velocidad máxima", "Gradiente medio", "Área valvular"],
-              filas=[["Leve", "< 3,0 m/s", "< 20 mmHg", "> 1,5 cm²"], ["Moderada", "3,0-3,9 m/s", "20-39 mmHg", "1,0-1,5 cm²"],
-                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²"]], caso=None, ancho_primera=130,
-              nota="Con síntomas y estenosis grave: cirugía o TAVI. Si el área es ≤ 1,0 cm² con gradiente bajo, pensar en flujo bajo."))
+  clasif=dict(titulo="Gravedad de la estenosis aórtica (ecocardiografía, ACC/AHA 2020 y ESC/EACTS 2021)", cols=["Grado", "Velocidad máx.", "Gradiente medio", "Área valvular", "Conducta"],
+              filas=[["Leve", "2,0-2,9 m/s", "< 20 mmHg", "> 1,5 cm²", "Eco cada 3-5 años"],
+                     ["Moderada", "3,0-3,9 m/s", "20-39 mmHg", "1,0-1,5 cm²", "Eco cada 1-2 años"],
+                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²", "Con síntomas: reemplazo valvular (TAVI o cirugía); sin síntomas: control cada 6-12 meses"]], caso=None, ancho_primera=110,
+              nota="Grave también si el índice de área es ≤ 0,6 cm²/m². Con área ≤ 1,0 cm² y gradiente bajo, pensar en flujo bajo (confirmar con TC de calcio o ecocardiografía de estrés)."))
 
 # TRÍPTICO · Ogilvie
 S("triptico", "RM-CIR-027", "La seudoobstrucción del colon (Ogilvie) se relaciona con el uso sostenido de narcóticos",

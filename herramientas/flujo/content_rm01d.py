@@ -15,7 +15,7 @@ S("cascada", "RM-CAR-022", "La fibrilación auricular es la causa más frecuente
   "Cardiología · fibrilación auricular y embolia",
   ("FA y cardioembolia", ["La contracción auricular ineficaz crea estasis en la orejuela izquierda.", "El trombo viaja al cerebro y causa un ictus cardioembólico."]),
   ("Pregunta de teoría", ["¿Cuál es la causa cardiaca más frecuente de embolia?"]),
-  ["CHA₂DS₂-VASc: IC, HTA, edad ≥ 75 (2 puntos), diabetes, ictus previo (2), enfermedad vascular, edad 65-74, sexo femenino. Anticoagular con ≥ 2 en varones y ≥ 3 en mujeres.",
+  ["CHA₂DS₂-VA (ESC 2024, sin sexo): IC, HTA, edad ≥ 75 (2 puntos), diabetes, ictus previo (2), enfermedad vascular, edad 65-74. Anticoagular con ≥ 2; considerar con 1; no con 0. La ESC 2020 usaba el CHA₂DS₂-VASc (≥ 2 varones, ≥ 3 mujeres).",
    "Anticoagulantes directos (apixabán, rivaroxabán, edoxabán, dabigatrán) mejor que warfarina, salvo estenosis mitral moderada-grave o prótesis mecánica.",
    "Otras fuentes: trombo apical del infarto, miocardiopatía dilatada, endocarditis, mixoma."],
   ESC_AF + "; AHA/ACC/HRS, fibrilación auricular (2023).",
@@ -26,7 +26,7 @@ S("cascada", "RM-CAR-022", "La fibrilación auricular es la causa más frecuente
                 ("Embolia", "El trombo sale por la aorta", [("Ictus isquémico cardioembólico", "Inicio súbito, déficit máximo", False)]),
                 ("Prevención", "Según CHA₂DS₂-VASc", [("Anticoagulante oral directo", "Warfarina si hay EM o válvula mecánica", True)])],
          veredicto=("FA: la causa más frecuente de embolia cardiaca", "Se previene con anticoagulación según el puntaje.")),
-  clasif=dict(titulo="Puntaje CHA₂DS₂-VASc: riesgo embólico en la FA", cols=["Componente", "Puntos", "Qué incluye"],
+  clasif=dict(titulo="Puntaje CHA₂DS₂-VASc / CHA₂DS₂-VA: riesgo embólico en la FA", cols=["Componente", "Puntos", "Qué incluye"],
               filas=[["Insuficiencia cardiaca (C)", "1", "Disfunción ventricular o síntomas de IC"],
                      ["Hipertensión (H)", "1", "PA elevada o tratada"],
                      ["Edad ≥ 75 años (A₂)", "2", "—"],
@@ -34,8 +34,8 @@ S("cascada", "RM-CAR-022", "La fibrilación auricular es la causa más frecuente
                      ["Ictus, AIT o embolia (S₂)", "2", "Evento previo"],
                      ["Enfermedad vascular (V)", "1", "Infarto previo, placa aórtica o arteriopatía periférica"],
                      ["Edad 65-74 años (A)", "1", "—"],
-                     ["Sexo femenino (Sc)", "1", "Solo cuenta con otro factor; la ESC 2024 lo omite (CHA₂DS₂-VA)"]], ancho_primera=240,
-              nota="Conducta: 0 (varón) o 1 (mujer) sin anticoagular; 1 (varón) o 2 (mujer) considerar; ≥ 2 (varón) o ≥ 3 (mujer) anticoagular."))
+                     ["Sexo femenino (Sc)", "1", "Solo en CHA₂DS₂-VASc; la ESC 2024 lo omite (CHA₂DS₂-VA)"]], ancho_primera=240,
+              nota="ESC 2024 (CHA₂DS₂-VA, máx. 8): 0 sin anticoagular; 1 considerar; ≥ 2 anticoagular, sin importar el sexo. ESC 2020 (CHA₂DS₂-VASc, máx. 9): ≥ 2 en varones y ≥ 3 en mujeres. No se usa el puntaje de sangrado para negar el tratamiento."))
 
 # 65 · RM-CAR-023 · ECG_MAPA: infarto lateral
 S("ecg_mapa", "RM-CAR-023", "Infarto lateral: alteraciones en DI y aVL (lateral alto) y V5-V6 (lateral bajo)",
@@ -44,7 +44,7 @@ S("ecg_mapa", "RM-CAR-023", "Infarto lateral: alteraciones en DI y aVL (lateral 
   ("Pregunta de teoría", ["¿En qué derivaciones se ve un infarto lateral?"]),
   ["Septal V1-V2, anterior V3-V4, lateral bajo V5-V6, lateral alto DI y aVL, inferior DII, DIII y aVF.",
    "La circunfleja puede ocluirse sin cambios en las 12 derivaciones: añadir V7-V9 si hay sospecha.",
-   "STEMI: ST ≥ 1 mm en dos derivaciones contiguas (≥ 2 mm en V2-V3 en varones)."],
+   "STEMI: ST ≥ 1 mm en dos derivaciones contiguas; en V2-V3 ≥ 2 mm en varones ≥ 40 años (≥ 2,5 mm si < 40) y ≥ 1,5 mm en mujeres."],
   ESC_ACS + "; Cuarta Definición Universal del Infarto (2018); " + BRAUN,
   op=("¿Derivaciones?", ["Sí: lateral alto", "No: septal", "No: anterior", "No: mezcla de lateral y septal", "No: inferior"], {0: "DI, aVL", 1: "V1, V2", 2: "V3, V4", 3: "DI, V1", 4: "DII, aVF"}),
   d=dict(rotulo="Dónde está el ST elevado y qué arteria se tapó",
@@ -52,9 +52,9 @@ S("ecg_mapa", "RM-CAR-023", "Infarto lateral: alteraciones en DI y aVL (lateral 
          territorios=[("Septal", ["V1", "V2"], "Descendente anterior"), ("Anterior", ["V3", "V4"], "Descendente anterior"),
                       ("Lateral", ["I", "aVL", "V5", "V6"], "Circunfleja o diagonal"), ("Inferior", ["II", "III", "aVF"], "Coronaria derecha")],
          caso=["Lateral"], territorio_txt="DI y aVL = lateral alto; V5-V6 = lateral bajo: circunfleja o diagonal de la descendente anterior.",
-         img=B("Un ECG parecido", PX("ecg_iam_al.jpg", 300, [("flecha", 0.12, 0.46, 0.24, 0.30, "ST elevado (aVL)")], credito=ECGP, fondo="#ffffff"),
-               [("ST elevado en aVL", "Cara lateral alta."), ("Espejo en DIII", "ST descendido en la cara opuesta."), ("Arteria", "Circunfleja o diagonal."), ("Extra", "Si hay duda, V7-V9.")],
-               pie="Imagen referencial de un infarto lateral (ST elevado en aVL)", rotulo="Así se ve en el ECG"),
+         img=B("Un ECG real", PX("ecg_iam_alto_a.jpg", 330, credito="Saronni et al. · Cureus 2026 · CC BY 4.0", fondo="#ffffff"),
+               [("STE (flechas rojas)", "Elevación del ST en DI y aVL (lateral alto)."), ("Flecha azul", "Descenso recíproco del ST en DIII."), ("Arteria", "Circunfleja o diagonal; aquí, descendente anterior proximal."), ("Extra", "Si hay duda, V7-V9.")],
+               pie="Imagen referencial de un infarto lateral alto (ST elevado en DI y aVL)", rotulo="Así se ve en el ECG"),
          veredicto=("Lateral = DI y aVL (y V5-V6)", "Espejo en las derivaciones inferiores.")))
 
 # 66 · RM-CB-021 · MATRIZ: ANP y BNP
@@ -180,11 +180,11 @@ S("monitor", "RM-CAR-025", "ST elevado y T negativas en DII, DIII y aVF: infarto
 # 72 · RM-CAR-026 · BALANZA: anticoagulación en FA
 S("balanza", "RM-CAR-026", "La fibrilación auricular con enfermedad mitral es la causa más frecuente de embolia cardiaca",
   "Cardiología · cardioembolia",
-  ("FA con enfermedad mitral", ["La FA con estenosis mitral reumática multiplica por 17 el riesgo de ictus.", "En esos casos la anticoagulación es con warfarina."]),
+  ("FA con enfermedad mitral", ["La FA con valvulopatía mitral reumática multiplica el riesgo de ictus por unas 17 veces (Framingham) frente a unas 5 en la FA no valvular.", "En la estenosis mitral moderada-grave la anticoagulación es con warfarina."]),
   ("Pregunta de teoría", ["¿Cuál es la causa más frecuente de embolia cardiaca?"]),
   ["FA no valvular: anticoagulantes directos. FA con estenosis mitral moderada-grave o prótesis mecánica: warfarina (INR 2-3; 2,5-3,5 en mitral mecánica).",
    "Cierre de la orejuela izquierda si hay contraindicación a anticoagular.",
-   "La causa más frecuente de ictus isquémico en general es la aterotrombosis."],
+   "La FA es la causa cardioembólica más frecuente; entre todos los ictus isquémicos predominan la enfermedad aterosclerótica y la de pequeño vaso."],
   ESC_AF + "; AHA/ASA, prevención secundaria del ictus (2021)",
   op=("¿Más frecuente?", ["Sí: estasis y trombo en la aurícula", "No: embolia séptica menos frecuente", "No: menos frecuente", "No: casi nunca embolia", "No: menos frecuente"],
       {0: "Enfermedad mitral con FA", 1: "Endocarditis subaguda", 2: "Infarto agudo de miocardio", 3: "Insuficiencia aórtica", 4: "Miocardiopatía dilatada"}),
@@ -316,10 +316,10 @@ S("dosis", "RM-NEU-005", "Tromboembolia pulmonar sin inestabilidad: enoxaparina 
          alternativas=[("1 mg/kg cada 12 h SC", "Dosis terapéutica", True), ("1 mg/kg cada 24 h SC", "Insuficiente (profilaxis alta)", False), ("1 mg/kg cada 12 h EV", "Vía incorrecta", False), ("2 mg/kg cada 12 h EV", "Dosis excesiva", False)],
          veredicto=("1 mg/kg cada 12 horas por vía subcutánea", "Ajustar si la depuración es < 30 mL/min.")),
   clasif=dict(titulo="Riesgo de muerte precoz en la TEP (ESC 2019)", cols=["Riesgo", "Criterios", "Conducta"],
-              filas=[["Alto", "Shock o hipotensión sostenida (PAS < 90 mmHg ≥ 15 min)", "Trombólisis sistémica con heparina no fraccionada"],
+              filas=[["Alto", "Inestabilidad hemodinámica: paro, shock obstructivo o hipotensión persistente (PAS < 90 mmHg o caída ≥ 40 mmHg por más de 15 min)", "Trombólisis sistémica con heparina no fraccionada"],
                      ["Intermedio-alto", "Estable; PESI III-V o sPESI ≥ 1; disfunción del VD y troponina elevada", "Anticoagulación hospitalaria y vigilancia; rescate si se deteriora"],
                      ["Intermedio-bajo", "Estable; PESI III-V o sPESI ≥ 1; solo una o ninguna (VD, troponina)", "Anticoagulación en el hospital"],
-                     ["Bajo", "PESI I-II o sPESI 0; sin disfunción del VD ni troponina", "Alta temprana con anticoagulante oral"]], caso=[1, 2], ancho_primera=240,
+                     ["Bajo", "PESI I-II o sPESI 0; sin disfunción del VD ni troponina (si se evalúan)", "Alta temprana con anticoagulante oral"]], caso=[1, 2], ancho_primera=240,
               nota="Este caso: estable, con cáncer y FC 120 (sPESI ≥ 1): riesgo intermedio; VD y troponina definen la categoría."))
 
 # 80 · RM-CAR-029 · DECISIÓN: control de la FC en FA

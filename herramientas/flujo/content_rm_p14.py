@@ -187,7 +187,7 @@ S("cascada", "RM-CAR-039", "La complicación más severa del estreptococo beta h
                 ("Cardiopatía reumática crónica", "Estenosis o insuficiencia valvular, sobre todo mitral", [("La complicación más severa", "Este caso", True)])],
          veredicto=("Fiebre reumática: su gravedad es la cardiopatía crónica", "Es la causa de cardiopatía adquirida en jóvenes de países de bajos ingresos.")),
   clasif=dict(titulo="Criterios de Jones 2015 (AHA): se exige evidencia de estreptococo previo", cols=["Criterio", "Población de bajo riesgo", "Población de riesgo moderado o alto"],
-              filas=[["Mayores", "Carditis, poliartritis, corea, eritema marginado y nódulos subcutáneos", "Carditis, mono o poliartritis o poliartralgia, corea, eritema marginado y nódulos subcutáneos"],
+              filas=[["Mayores", "Carditis (clínica o subclínica), poliartritis, corea, eritema marginado y nódulos subcutáneos", "Carditis (clínica o subclínica), mono o poliartritis o poliartralgia, corea, eritema marginado y nódulos subcutáneos"],
                      ["Menores", "Poliartralgia; fiebre ≥ 38,5 °C; VSG ≥ 60 mm/h o PCR ≥ 3 mg/dL; PR prolongado", "Monoartralgia; fiebre ≥ 38 °C; VSG ≥ 30 mm/h o PCR ≥ 3 mg/dL; PR prolongado"],
                      ["Diagnóstico", "2 mayores, o 1 mayor y 2 menores", "2 mayores, o 1 mayor y 2 menores"]],
               ancho_primera=110, nota="Riesgo moderado o alto: incidencia > 2 por 100 000 escolares o prevalencia de cardiopatía reumática > 1 por 1000 habitantes."))

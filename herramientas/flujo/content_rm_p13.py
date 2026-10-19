@@ -271,7 +271,7 @@ S("reloj", "RM-GAS-004", "Necrosis pancreática infectada a la semana: carbapen�
    "Carbapenémicos (imipenem o meropenem) o quinolona con metronidazol; las cefalosporinas con vancomicina o clindamicina cubren peor.",
    "Sin infección no hay profilaxis antibiótica en la pancreatitis aguda ni en la necrosis estéril (ACG 2024).",
    "Desbridar a las 4 semanas, con la necrosis encapsulada: drenaje percutáneo o endoscópico y, si no mejora, necrosectomía mínimamente invasiva."],
-  "Baron TH et al., AGA, Clinical Practice Update: Pancreatic Necrosis (Gastroenterology 2020); Tenner S et al., ACG, pancreatitis aguda (Am J Gastroenterol 2024;119:419-437); Sabiston 21.ª ed.",
+  "Banks PA et al., Atlanta revisada (Gut 2013); Dellinger EP et al., clasificación por determinantes (Ann Surg 2012); Baron TH et al., AGA, Clinical Practice Update: Pancreatic Necrosis (Gastroenterology 2020); Tenner S et al., ACG, pancreatitis aguda (Am J Gastroenterol 2024;119:419-437); Sabiston 21.ª ed.",
   op=("¿Antibiótico?", ["Sí: carbapenémico con buena penetración", "No: no cubre bien anaerobios", "No: cubre mal gramnegativos resistentes", "No: es una alternativa en algunos esquemas", "No: el cloranfenicol no se usa"],
       {0: "Imipenem-cilastatina", 1: "Ceftriaxona-clinda", 2: "Ceftazidima-vanco", 3: "Piperacilina-tazo", 4: "Cefepima-cloranf."}),
   d=dict(rotulo="Evolución de la pancreatitis y cuándo actuar", tag="ESTE CASO",
@@ -282,13 +282,13 @@ S("reloj", "RM-GAS-004", "Necrosis pancreática infectada a la semana: carbapen�
                 ("4 sem", "Necrosis encapsulada", "Se retrasa el desbridamiento hasta este momento.", False),
                 ("Escalón", "Drenar y luego necrosectomía", "Percutáneo o endoscópico; cirugía mínimamente invasiva si no mejora.", False)],
          veredicto=("Necrosis infectada = carbapenémico y desbridamiento diferido", "Piperacilina-tazobactam puede usarse en algunos esquemas, pero la mejor opción ofrecida es imipenem.")),
-  clasif=dict(titulo="Gravedad de la pancreatitis aguda (Atlanta revisada 2012 y clasificación por determinantes)", cols=["Gravedad", "Falla orgánica", "Complicaciones locales o sistémicas", "Pronóstico"],
-              filas=[["Leve", "No hay", "No hay", "Alta temprana; sin necesidad de imágenes"],
-                     ["Moderadamente grave", "Transitoria (menos de 48 horas)", "Presentes (colecciones, necrosis) o descompensación de una enfermedad previa", "Baja mortalidad; estancia más larga"],
-                     ["Grave", "Persistente (más de 48 horas)", "Frecuentes", "Mortalidad alta; cuidados intensivos"],
-                     ["Crítica", "Persistente", "Necrosis infectada", "La mortalidad más alta"]],
-              caso=None, ancho_primera=150,
-              nota="El caso tiene necrosis infectada (complicación local): es al menos moderadamente grave; grave o crítica si la falla orgánica persiste más de 48 horas."))
+  clasif=dict(titulo="Gravedad de la pancreatitis aguda: Atlanta revisada 2012 y clasificación por determinantes (DBC)", cols=["Gravedad", "Atlanta revisada 2012", "Determinantes (DBC)"],
+              filas=[["Leve", "Sin falla orgánica ni complicaciones locales o sistémicas", "Sin necrosis (peri)pancreática ni falla orgánica"],
+                     ["Moderada (Atlanta: moderadamente grave)", "Falla orgánica transitoria (< 48 h) y/o complicaciones locales o sistémicas", "Necrosis estéril y/o falla orgánica transitoria"],
+                     ["Grave", "Falla orgánica persistente (> 48 h)", "Necrosis infectada o falla orgánica persistente"],
+                     ["Crítica (solo DBC)", "No existe esta categoría", "Necrosis infectada y falla orgánica persistente"]],
+              caso=None, ancho_primera=170,
+              nota="Resumen de Banks 2013 y Dellinger 2012. El caso (necrosis infectada) es moderadamente grave en Atlanta si no hay falla orgánica persistente, y grave en DBC aun sin ella."))
 
 # 15 · FÁRMACO · botulismo
 S("farmaco", "RM-NRL-002", "La toxina botulínica impide liberar acetilcolina en la terminal presináptica: botulismo",

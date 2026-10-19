@@ -83,7 +83,7 @@ S("laboratorio", "RM-GIN-020", "Flujo fino, pH 6, olor a pescado con KOH y célu
   clasif=dict(titulo="Puntaje de Nugent en la tinción de Gram (0-10)", cols=["Puntaje", "Interpretación", "Conducta"],
               filas=[["0-3", "Flora normal: predominan los lactobacilos", "Sin tratamiento"],
                      ["4-6", "Flora intermedia", "Correlacionar con los criterios de Amsel y repetir si persisten síntomas"],
-                     ["7-10", "Vaginosis bacteriana", "Tratar si hay síntomas o gestación: metronidazol 500 mg c/12 h por 7 días"]],
+                     ["7-10", "Vaginosis bacteriana", "Si hay síntomas (también en la gestante): metronidazol 500 mg c/12 h por 7 días"]],
               caso=2, ancho_primera=135, nota="Suma tres morfotipos: lactobacilos, Gardnerella/Bacteroides y Mobiluncus. Es la prueba de referencia; Amsel es la clínica."))
 
 # 5 · CRITERIOS · malaria
@@ -256,11 +256,11 @@ S("radial", "RM-INF-038", "Diarrea y fiebre tras un antibiótico: el agente más
          items=[("CLOSTRIDIOIDES DIFFICILE", ["Antibiótico previo: toxinas A y B", "Colitis pseudomembranosa"]), ("ROTAVIRUS", ["Diarrea acuosa viral", "Sin sangre; típico del lactante"]),
                 ("CAMPYLOBACTER JEJUNI", ["Alimento contaminado", "Sin antibiótico previo"]), ("VIBRIO CHOLERAE", ["Diarrea acuosa profusa", "Sin sangre"]), ("SHIGELLA", ["Disentería con pujo y tenesmo", "Sin antibiótico previo"])],
          ruta=["Antibiótico previo", "Toxinas A y B", "GDH + toxina o PCR", "Fidaxomicina o vancomicina oral"]),
-  clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA)", cols=["Gravedad", "Criterio", "Tratamiento"],
-              filas=[["No grave", "Leucocitos ≤ 15 000/µL y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h por 10 días (o vancomicina 125 mg c/6 h)"],
-                     ["Grave", "Leucocitos ≥ 15 000/µL o creatinina > 1,5 mg/dL", "Igual: fidaxomicina o vancomicina oral por 10 días"],
-                     ["Fulminante", "Hipotensión o shock, íleo o megacolon tóxico", "Vancomicina 500 mg c/6 h oral más metronidazol EV; valorar cirugía"]],
-              caso=None, ancho_primera=120, nota="Definiciones IDSA/SHEA 2017, mantenidas en la actualización 2021. Si hay íleo se añade vancomicina rectal."))
+  clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA 2017, actualización 2021)", cols=["Gravedad", "Criterio", "Tratamiento"],
+              filas=[["No grave", "Leucocitos ≤ 15 000/µL y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h (preferida) o vancomicina oral 125 mg c/6 h, 10 días"],
+                     ["Grave", "Leucocitos ≥ 15 000/µL o creatinina > 1,5 mg/dL", "Igual: fidaxomicina o vancomicina oral, 10 días"],
+                     ["Fulminante", "Hipotensión o shock, íleo o megacolon tóxico", "Vancomicina oral 500 mg c/6 h más metronidazol IV; vancomicina rectal si hay íleo; valorar cirugía"]],
+              caso=None, ancho_primera=120, nota="El metronidazol solo se acepta en el episodio no grave si no hay fidaxomicina ni vancomicina."))
 
 # 14
 

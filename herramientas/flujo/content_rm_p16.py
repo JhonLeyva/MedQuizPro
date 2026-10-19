@@ -302,7 +302,7 @@ S("laboratorio", "RM-INF-034", "HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis
    "EASL: infección crónica HBeAg (+) si la ALT es normal y el ADN viral alto; hepatitis crónica HBeAg (+) si hay ALT elevada o daño hepático: ahí se decide tratar.",
    "Portador inactivo: HBsAg (+), HBeAg (−), anti-HBe (+), ADN bajo y ALT normal. Curada: anti-HBs y anti-HBc (+) sin HBsAg.",
    "Alerta: pedir ADN-VHB, ALT y fibrosis; vacunar a los contactos y tamizar VIH, VHC y VHD."],
-  "EASL, Clinical Practice Guidelines on the management of hepatitis B virus infection (J Hepatol 2025); AASLD, Hepatitis B guidance (Hepatology 2018;67:1560); Harrison, 21.ª ed. (2022).",
+  "EASL, Clinical Practice Guidelines on the management of hepatitis B virus infection (J Hepatol 2025;83:502-583); EASL 2017 (J Hepatol 2017;67:370-398); AASLD, Hepatitis B guidance (Hepatology 2018;67:1560); Harrison, 21.ª ed. (2022).",
   op=("¿Estadio?", ["No: el portador inactivo es HBeAg negativo", "No: en la convalescencia el HBsAg se negativiza", "No: la curada no tiene HBsAg", "Sí: HBeAg (+) indica replicación activa",
                      "No: la aguda tiene anti-HBc IgM"],
       {}),
@@ -312,13 +312,13 @@ S("laboratorio", "RM-INF-034", "HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis
             ("HBeAg", "Positivo", "Negativo", "↑", "Replicación viral con alta infectividad."),
             ("ADN-VHB y ALT", "Por pedir", "ADN bajo, ALT normal", "=", "Definen la fase (infección o hepatitis crónica) y si se trata.")],
          veredicto=("HBsAg (+), anti-HBc IgG (+), HBeAg (+) = hepatitis B crónica activa", "Falta ADN-VHB, ALT y fibrosis para decidir el tratamiento.")),
-  clasif=dict(titulo="Fases de la infección crónica por VHB (EASL)", cols=["Fase", "HBeAg", "ADN-VHB", "ALT", "Conducta"],
+  clasif=dict(titulo="Fases de la infección crónica por VHB (EASL 2017 y 2025)", cols=["Fase", "HBeAg", "ADN-VHB", "ALT", "Conducta"],
               filas=[["HBeAg (+) infección crónica", "Positivo", "Muy alto", "Normal", "Sin tratamiento habitual; vigilar ALT y ADN"],
                      ["HBeAg (+) hepatitis crónica", "Positivo", "Alto", "Elevada", "Evaluar tratamiento (daño hepático)"],
                      ["HBeAg (−) infección crónica (portador inactivo)", "Negativo, anti-HBe (+)", "Bajo (< 2000 UI/mL)", "Normal", "Vigilancia periódica"],
                      ["HBeAg (−) hepatitis crónica", "Negativo", "> 2000 UI/mL", "Elevada", "Evaluar tratamiento"],
                      ["Fase HBsAg (−)", "Negativo", "Indetectable o mínimo", "Normal", "Anti-HBc (+); vigilar si hay inmunosupresión"]],
-              caso=1, ancho_primera=310, nota="Fases descritas por EASL 2017 y vigentes en la práctica; la guía EASL 2025 simplifica el criterio de tratamiento."))
+              caso=1, ancho_primera=310, nota="La EASL 2025 mantiene estas cuatro fases (más la fase HBsAg negativa) y reconoce una zona gris de pacientes que no encajan; ahí la decisión de tratar es individual."))
 
 # 16 · PIRÁMIDE · artritis séptica
 S("piramide", "RM-REU-005", "La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos",
@@ -363,8 +363,9 @@ S("checklist", "RM-INF-035", "En el dengue se evita el metamizol, los AINE y la 
          no_hacer=[("Metamizol", "Conducta contraindicada de esta pregunta: riesgo hematológico"), ("AINE y ácido acetilsalicílico", "Riesgo de sangrado y disfunción plaquetaria"),
                    ("Inyecciones intramusculares", "Riesgo de hematoma")],
          veredicto=("Fiebre del dengue: paracetamol, nunca metamizol, AINE ni aspirina", "El periodo crítico es el descenso de la fiebre (días 3-7): vigilar los signos de alarma.")),
-  clasif=dict(titulo="Clasificación del dengue (OMS 2009)", cols=["Categoría", "Criterio", "Conducta"],
-              filas=[["Sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, dolor, leucopenia o prueba del torniquete (+)", "Hidratación oral, paracetamol y control ambulatorio"],
-                     ["Con signos de alarma", "Dolor abdominal, vómitos persistentes, líquido acumulado, sangrado de mucosas, letargia, hepatomegalia, aumento del hematocrito con caída de plaquetas", "Hospitalizar; cristaloides endovenosos y vigilancia"],
-                     ["Dengue grave", "Fuga de plasma con choque o dificultad respiratoria, hemorragia grave o falla de órgano", "Reanimación con fluidos en cuidados intensivos"]],
-              caso=0, ancho_primera=250, nota="Paciente de 5 días de fiebre sin signos de alarma descritos: categoría sin signos de alarma."))
+  clasif=dict(titulo="Clasificación del dengue: categorías OMS 2009 y grupos de manejo A-C (NTS 211-MINSA/DGIESP-2024, OPS)", cols=["Grupo", "Criterios", "Conducta"],
+              filas=[["A · Dengue sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, mialgias o artralgias, cefalea o dolor retroocular, petequias o prueba del torniquete positiva, leucopenia; sin comorbilidad ni riesgo social", "Ambulatorio: hidratación oral, paracetamol (sin AINE) y control tras el descenso de la fiebre"],
+                     ["B1 · Sin signos de alarma, con condición asociada", "Gestante, menor de 1 año, mayor de 65 años, comorbilidad (p. ej., HTA, diabetes) o riesgo social", "Observación u hospitalización para vigilancia clínica"],
+                     ["B2 · Dengue con signos de alarma", "Dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos, sangrado de mucosas, letargia o irritabilidad, hepatomegalia > 2 cm, hematocrito en alza con plaquetas en descenso", "Hospitalizar: cristaloides intravenosos guiados por el hematocrito"],
+                     ["C · Dengue grave", "Shock por fuga de plasma, distrés respiratorio, hemorragia grave o daño orgánico grave (transaminasas ≥ 1000, alteración de conciencia, miocarditis)", "Emergencia o UCI: reanimación con cristaloides y soporte de órganos"]], caso=0, ancho_primera=190,
+              nota="Un solo signo de alarma basta para el grupo B2. Resumen: el detalle de dosis y de condiciones asociadas está en la NTS 211."))
