@@ -4,23 +4,23 @@ from c_rm import S, P, PX, B, Q, L, TR, ATLS, HARRISON, WILLIAMS, NELSON, MINSA,
 
 # Cuadros compartidos (mismo contenido en todos los IDs que los usan)
 CLASIF_PREVIA = dict(
-    titulo="Placenta previa y placenta baja (RCOG Green-top 27a, 2018): definición ecográfica",
+    titulo="Placenta previa y placenta baja (RCOG Green-top 27a): definición ecográfica",
     cols=["Categoría", "Hallazgo ecográfico (más de 16 semanas)", "Conducta"],
     filas=[["Placenta previa", "La placenta cubre directamente el orificio cervical interno", "Hospitalizar si sangra; cesárea programada; no hacer tacto vaginal"],
            ["Placenta baja", "El borde placentario está a menos de 20 mm del orificio interno, sin cubrirlo", "Repetir la ecografía transvaginal al final del embarazo y decidir la vía del parto"]],
     caso=0, ancho_primera=230,
-    nota="Si la ecografía del segundo trimestre es anormal se repite más adelante: el segmento inferior aún no se forma y muchas placentas «suben».")
+    nota="Si la ecografía del segundo trimestre es anormal se repite más adelante: el segmento inferior aún no se forma y muchas placentas «suben». Definiciones ecográficas de la RCOG 27a (edición 2018, vigente en sus criterios; edición 2026 publicada en BJOG 2026;133:e93-e128).")
 
 CLASIF_ABORTO = dict(
     titulo="Formas clínicas del aborto antes de las 20 semanas (nomenclatura de los textos peruanos; ACOG y NICE)",
     cols=["Forma", "Cuello", "Sangrado y dolor", "Contenido del útero", "Conducta"],
-    filas=[["Amenaza de aborto", "Cerrado", "Sangrado escaso; dolor leve o ausente", "Embrión vivo, útero acorde con la amenorrea", "Ecografía transvaginal, grupo y Rh, reposo relativo"],
+    filas=[["Amenaza de aborto", "Cerrado", "Sangrado escaso; dolor leve o ausente", "Embrión vivo, útero acorde con la amenorrea", "Ecografía transvaginal, grupo y Rh, vigilancia (el reposo en cama no mejora el pronóstico)"],
            ["Aborto inminente", "Abierto; la bolsa íntegra protruye", "Sangrado y dolor cólico", "Aún sin expulsión, pero ya irreversible", "Evacuar el útero o dejar que evolucione si está estable"],
            ["Aborto incompleto", "Abierto", "Sangrado abundante con coágulos; cólico intenso", "Restos ovulares retenidos", "Estabilizar y evacuar: aspiración manual endouterina, legrado o misoprostol"],
            ["Aborto completo", "Se cierra", "El sangrado y el dolor ceden", "Útero vacío", "Confirmar la vacuidad por ecografía; seguimiento"],
            ["Aborto diferido (frustro)", "Cerrado", "Escaso o ausente", "Embrión sin latido, retenido", "Misoprostol, aspiración o expectante, según la paciente"]],
     caso=None, ancho_primera=215,
-    nota="En otras clasificaciones «inevitable» designa el aborto con cuello dilatado o membranas rotas: conviene reconocer ambos términos. La anti-D se da a toda paciente Rh negativa con pérdida gestacional.")
+    nota="En otras clasificaciones «inevitable» designa el aborto con cuello dilatado o membranas rotas: conviene reconocer ambos términos. Anti-D: desde las 12 semanas se da a toda paciente Rh negativa; antes de las 12 semanas ACOG (2024) no la recomienda de rutina y la deja a decisión compartida.")
 
 # 1 · ALARMA · embarazo ectópico roto
 S("alarma", "RM-GIN-037", "Amenorrea, hCG positiva, sangrado y shock: embarazo ectópico roto con hemoperitoneo",
@@ -30,7 +30,7 @@ S("alarma", "RM-GIN-037", "Amenorrea, hCG positiva, sangrado y shock: embarazo e
   ["Tríada: amenorrea, dolor abdominal y sangrado vaginal con hCG positiva. Hipotensión y taquicardia indican rotura con hemoperitoneo.",
    "Índice de choque (FC/PA sistólica) de 102/80 = 1,3: mayor de 1 señala hemorragia significativa; hay peritonismo y taquipnea.",
    "Paciente inestable: reanimar con cristaloides y sangre, y operar de inmediato (laparoscopia o laparotomía, salpingectomía). No se espera la ecografía.",
-   "Metotrexato solo si está estable, sin rotura, con hCG baja (menor de 5000), sin latido y con masa menor de 3,5 cm."],
+   "Metotrexato solo si está estable, sin rotura, con hCG baja (menor de 5000), sin latido y con masa menor de 4 cm."],
   "ACOG Practice Bulletin N.º 193: Tubal Ectopic Pregnancy, Obstet Gynecol 2018;131:e91-e103; Williams Obstetricia 26.ª ed. (2022).",
   op=("¿Diagnóstico más probable?", ["No: duele como cólico y no hay peritonismo", "No: sin compromiso hemodinámico ni cuello dilatado", "No: tendría hCG negativa", "No: el útero sería mayor que la amenorrea", "Sí: hCG positiva, dolor y shock"]),
   d=dict(rotulo="Datos que apuntan al embarazo ectópico roto", lista_titulo="Hallazgos del caso",
@@ -46,7 +46,7 @@ S("alarma", "RM-GIN-037", "Amenorrea, hCG positiva, sangrado y shock: embarazo e
               filas=[["Inestable o con rotura", "Hipotensión, taquicardia, dolor intenso, hemoperitoneo", "Reanimación y cirugía inmediata"],
                      ["Estable, candidata a metotrexato", "Sin rotura, hCG baja, sin latido embrionario, masa pequeña", "Metotrexato con seguimiento de la hCG"],
                      ["Estable, con hCG baja y descendente", "Sin dolor importante ni hemoperitoneo", "Conducta expectante con controles seriados"]],
-              caso=0, ancho_primera=250, nota="Latido embrionario, masa de 3,5 cm o más y hCG elevada (cerca de 5000) son contraindicaciones relativas al metotrexato."))
+              caso=0, ancho_primera=250, nota="Latido embrionario, masa mayor de 4 cm y hCG inicial mayor de 5000 mUI/mL son contraindicaciones relativas al metotrexato. Resumen de ACOG 193."))
 
 # 2 · MATRIZ · endometrio y ectópico
 S("matriz", "RM-GIN-038", "Un endometrio proliferativo indica que no hay embarazo activo y excluye la laparoscopia",
@@ -214,7 +214,7 @@ S("fases", "RM-GIN-045", "Lesión cervical sangrante y friable de 2 cm: colposco
           [("Flecha blanca", "Señala la lesión tumoral en el cuello, en la parte inferior de la pieza."), ("Cuerpo del útero", "Arriba, abierto en la línea media."), ("Escala", "La regla azul permite medir el tamaño del tumor.")],
           pie="Imagen referencial de una pieza de histerectomía con cáncer de cuello uterino", rotulo="Imagen referencial"),
   clasif=dict(titulo="Estadificación FIGO 2018 del cáncer de cuello uterino (resumen)", cols=["Estadio", "Extensión", "Tratamiento general"],
-              filas=[["I", "Limitado al cuello uterino", "Cirugía (histerectomía radical) o radioterapia según el subestadio"],
+              filas=[["I", "Limitado al cuello uterino", "Cirugía (conización o histerectomía radical) según el subestadio; IB3, quimiorradioterapia"],
                      ["II", "Más allá del útero, sin llegar al tercio inferior de la vagina ni a la pared pélvica", "Quimiorradioterapia concomitante (IIA1 a veces cirugía)"],
                      ["III", "Tercio inferior de la vagina, pared pélvica, hidronefrosis o ganglios pélvicos o paraaórticos", "Quimiorradioterapia concomitante"],
                      ["IV", "Mucosa de vejiga o recto, o fuera de la pelvis verdadera", "Quimiorradioterapia (IVA) o tratamiento sistémico (IVB)"]],
@@ -311,9 +311,9 @@ S("regla", "RM-GIN-049", "Tumor anexial sólido y bilobulado en una mujer de 52 
                      ["1", "Ovario normal (premenopausia)", "Sin seguimiento"],
                      ["2", "Casi seguro benigno (menos de 1 %)", "Seguimiento ecográfico según tamaño y menopausia"],
                      ["3", "Bajo riesgo (1 a menos de 10 %)", "Ecografía de especialista o resonancia; valorar ginecología"],
-                     ["4", "Riesgo intermedio (10 a menos de 50 %)", "Resonancia o ecografía de especialista; ginecología oncológica"],
-                     ["5", "Alto riesgo (50 % o más)", "Cirugía por ginecólogo oncólogo"]],
-              caso=4, ancho_primera=100, nota="Resumen de ACR O-RADS US v2022. Los tumores sólidos con flujo o de superficie irregular se ubican en las categorías 4 y 5."))
+                     ["4", "Riesgo intermedio (10 a menos de 50 %)", "Ecografía de especialista o RM (score O-RADS MRI); ginecología con consulta de ginecología oncológica"],
+                     ["5", "Alto riesgo (50 % o más)", "Manejo por ginecólogo oncólogo"]],
+              caso=4, ancho_primera=100, nota="Resumen de ACR O-RADS US v2022 (Strachowski, Radiology 2023). Las lesiones sólidas con captación Doppler moderada o intensa o con ascitis y nódulos peritoneales ascienden a las categorías 4 y 5."))
 
 # 14 · SEMÁFORO-like → DECISIÓN · monitoreo fetal categoría III
 S("decision", "RM-GIN-050", "Un patrón sinusoidal es por sí solo una categoría III y obliga a actuar con urgencia",
@@ -342,7 +342,7 @@ S("decision", "RM-GIN-050", "Un patrón sinusoidal es por sí solo una categorí
               filas=[["I (normal)", "Frecuencia basal de 110 a 160, variabilidad moderada, sin desaceleraciones tardías ni variables; pueden existir tempranas o aceleraciones", "Control de rutina"],
                      ["II (indeterminada)", "Todo trazado que no es categoría I ni III", "Evaluar, reanimación intrauterina y reevaluación continua"],
                      ["III (anormal)", "Variabilidad ausente con desaceleraciones tardías o variables recurrentes o bradicardia; o patrón sinusoidal", "Reanimación y parto urgente si no se resuelve"]],
-              caso=2, ancho_primera=180, nota="Reanimación intrauterina: decúbito lateral, hidratación, oxígeno si procede, suspender oxitocina y corregir la hipotensión."))
+              caso=2, ancho_primera=180, nota="Reanimación intrauterina: decúbito lateral, hidratación, suspender oxitocina y corregir la hipotensión; el oxígeno no es rutinario (solo con indicación materna, ACOG 2025)."))
 
 # 15 · CHECKLIST · aborto incompleto con inestabilidad
 S("checklist", "RM-GIN-051", "Sangrado profuso con coágulos, cuello abierto y PA 80/60 a las 8 semanas: aborto incompleto",

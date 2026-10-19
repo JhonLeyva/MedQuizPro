@@ -30,11 +30,12 @@ S("puntaje", "RM-NEU-020", "CURB-65 de 3 o más: neumonía grave, hospitalizar y
                 ("PA sistólica < 90 o diastólica ≤ 60 mmHg", 1, False), ("Edad ≥ 65 años", 1, False)],
          bandas=[("0-1", "Riesgo bajo", "Manejo ambulatorio si no hay hipoxemia.", False), ("2", "Riesgo moderado", "Hospitalizar.", False),
                  ("3-5", "Riesgo alto", "Neumonía grave: hospitalizar y valorar UCI.", True)]),
-  clasif=dict(titulo="Puntaje CURB-65 en la neumonía adquirida en la comunidad", cols=["Puntaje", "Riesgo de muerte a 30 días", "Conducta"],
-              filas=[["0 a 1", "Bajo (cerca de 1,5 %)", "Tratamiento ambulatorio"],
-                     ["2", "Intermedio (cerca de 9 %)", "Hospitalización breve o con seguimiento estrecho"],
-                     ["3 a 5", "Alto (cerca de 22 %)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
-              caso=2, ancho_primera=170, nota="Un punto por criterio: confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65."))
+  clasif=dict(titulo="Escala CURB-65: puntaje, mortalidad a 30 días y conducta", cols=["Puntaje", "Mortalidad", "Riesgo", "Conducta"],
+              filas=[["0-1", "≈ 1,5 %", "Bajo", "Ambulatorio si no hay hipoxemia ni otro factor"],
+                     ["2", "≈ 9,2 %", "Moderado", "Hospitalizar (sala o corta estancia)"],
+                     ["3", "17 %", "Alto", "Neumonía grave: hospitalizar"],
+                     ["4-5", "41,5 a 57 %", "Muy alto", "Valorar UCI"]], caso=2, ancho_primera=150,
+              nota="Un punto por: confusión, urea > 7 mmol/L (BUN > 19 mg/dL), FR ≥ 30, PA < 90/60 y edad ≥ 65 años (Lim, Thorax 2003). Mortalidad a 30 días: puntajes 3, 4 y 5 = 17, 41,5 y 57 %; grupos 0-1 y 2 según la BTS."))
 
 # 2 · REGLA · tuberculina con 8 mm
 S("regla", "RM-INF-055", "Induración de 8 mm: positiva solo en inmunodeprimidos, como el niño con VIH",
@@ -315,14 +316,15 @@ S("cuadro", "RM-GAS-021", "La causa más frecuente de hemorragia digestiva alta 
   banda=B("Una úlcera péptica en la endoscopia", PX("ulcera_endo.jpg", 230, marcas=[("flecha", 0.70, 0.74, 0.22, 0.90, "Lesión ulcerada")]),
           [("Cráter", "Pérdida de mucosa con fondo claro."), ("Qué se evalúa", "Si sangra, si tiene un vaso visible o un coágulo adherido."), ("Con qué se clasifica", "Clasificación de Forrest.")],
           pie="Imagen referencial de una úlcera péptica en la endoscopia digestiva", rotulo="Imagen referencial"),
-  clasif=dict(titulo="Clasificación de Forrest de la úlcera péptica", cols=["Forrest", "Hallazgo endoscópico", "Riesgo de resangrado", "Conducta"],
-              filas=[["Ia", "Sangrado en chorro", "Alto", "Hemostasia endoscópica"],
-                     ["Ib", "Sangrado en sábana", "Alto", "Hemostasia endoscópica"],
-                     ["IIa", "Vaso visible no sangrante", "Alto", "Hemostasia endoscópica"],
-                     ["IIb", "Coágulo adherido", "Intermedio", "Considerar retirar el coágulo y tratar la base"],
-                     ["IIc", "Mancha plana pigmentada", "Bajo", "Sin tratamiento endoscópico; IBP"],
-                     ["III", "Base limpia", "Bajo", "Sin tratamiento endoscópico; IBP"]],
-              caso=None, ancho_primera=80, nota="Tras la hemostasia de una lesión de alto riesgo: IBP en dosis alta por 72 horas (ACG 2021)."))
+  clasif=dict(titulo="Clasificación de Forrest de la úlcera con hemorragia: riesgo de resangrado y conducta", cols=["Forrest", "Hallazgo endoscópico", "Resangrado sin tratar (aprox.)", "Conducta"],
+              filas=[["Ia", "Sangrado en chorro", "Cerca de 55 %", "Terapia endoscópica e IBP"],
+                     ["Ib", "Sangrado en napa", "Cerca de 55 %", "Terapia endoscópica e IBP"],
+                     ["IIa", "Vaso visible sin sangrado", "Cerca de 43 %", "Terapia endoscópica e IBP"],
+                     ["IIb", "Coágulo adherido", "Cerca de 22 %", "Retirar el coágulo y tratar la lesión de base si se encuentra; ACG 2021 no emite recomendación"],
+                     ["IIc", "Base con mancha plana pigmentada", "Cerca de 10 %", "IBP; sin terapia endoscópica"],
+                     ["III", "Base limpia", "Cerca de 5 %", "IBP; alta temprana"]],
+              caso=None, ancho_primera=60,
+              nota="Cifras clásicas de resangrado sin tratamiento, citadas en revisiones; series recientes muestran riesgos menores. Tras la hemostasia de una lesión de alto riesgo: IBP en dosis alta por 3 días (ACG 2021). La pregunta no pide esta clasificación: se agrega como referencia."))
 
 # 15 · CARRILES · acalasia
 S("carriles", "RM-GAS-022", "La acalasia es un trastorno motor del esófago",
@@ -333,7 +335,7 @@ S("carriles", "RM-GAS-022", "La acalasia es un trastorno motor del esófago",
    "Manometría de alta resolución: es la prueba diagnóstica de elección. El esofagograma con bario muestra el «pico de pájaro»; la endoscopia descarta pseudoacalasia por cáncer.",
    "Tratamiento: dilatación neumática, miotomía de Heller o miotomía endoscópica oral (POEM).",
    "Chagas produce un cuadro idéntico en zonas endémicas."],
-  "Vaezi MF et al., ACG (Am J Gastroenterol 2020;115:1393-1411); Yadlapati R et al., Chicago Classification v4.0 (Neurogastroenterol Motil 2021); Harrison 21.ª ed. (2022).",
+  "Vaezi MF et al., ACG (Am J Gastroenterol 2020;115:1393-1411); Yadlapati R et al., Chicago Classification v4.0 (Neurogastroenterol Motil 2021;33:e14058); Harrison 21.ª ed. (2022).",
   op=("¿Órgano afectado?", ["No: el estómago no es el sitio de la lesión", "Sí: el esófago pierde el peristaltismo", "No: la faringe no está afectada", "No: el duodeno no está afectado", "No: el yeyuno no está afectado"],
       {}),
   d=dict(rotulo="Del síntoma al tratamiento, en orden", carriles=["Síntoma", "Estudio", "Hallazgo", "Tratamiento"],
@@ -343,10 +345,10 @@ S("carriles", "RM-GAS-022", "La acalasia es un trastorno motor del esófago",
                 (3, "Dilatación, miotomía de Heller o POEM", "Se elige según el subtipo y el paciente.", False)],
          veredicto=("Acalasia = trastorno motor del esófago", "Faringe, estómago, duodeno y yeyuno no están afectados.")),
   clasif=dict(titulo="Subtipos de acalasia por manometría (Chicago v4.0)", cols=["Tipo", "Cuerpo esofágico", "Característica en la manometría"],
-              filas=[["I", "Sin contracciones", "Aperistalsis sin presurización"],
-                     ["II", "Presurización", "Presurización panesofágica en el 20 % o más de las degluciones"],
-                     ["III", "Contracciones prematuras", "Contracciones espásticas, latencia distal menor de 4,5 s, en el 20 % o más"]],
-              caso=None, ancho_primera=80, nota="En los tres tipos el esfínter esofágico inferior no se relaja (presión de relajación integrada elevada). El subtipo orienta la elección del tratamiento."))
+              filas=[["I", "Sin contracciones", "Peristalsis fallida en el 100 % de las degluciones, sin presurización"],
+                     ["II", "Presurización", "Peristalsis fallida en el 100 %; presurización panesofágica en el 20 % o más de las degluciones"],
+                     ["III", "Contracciones prematuras", "Sin peristalsis normal; contracciones prematuras (latencia distal menor de 4,5 s) en el 20 % o más"]],
+              caso=None, ancho_primera=80, nota="En los tres tipos el esfínter esofágico inferior no se relaja (presión de relajación integrada elevada, requisito de los tres tipos). El subtipo orienta la elección del tratamiento."))
 
 # 16 · EMBUDO · úlcera perforada
 S("embudo", "RM-CIR-134", "Úlcera péptica con abdomen agudo: la radiografía de pie busca aire libre",

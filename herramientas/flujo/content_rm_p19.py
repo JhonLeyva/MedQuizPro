@@ -26,7 +26,7 @@ S("tarjetas", "RM-INF-045", "Gonorrea no complicada: ceftriaxona intramuscular e
               filas=[["< 150 kg", "Ceftriaxona 500 mg IM, dosis única", "Cefixima 800 mg VO, dosis única (no sirve en faringe)"],
                      ["Peso ≥ 150 kg", "Ceftriaxona 1 g IM, dosis única", "Cefixima 800 mg VO, dosis única (no sirve en faringe)"],
                      ["Chlamydia no descartada", "Se añade doxiciclina 100 mg c/12 h por 7 días", "En el embarazo: azitromicina 1 g VO, dosis única"]],
-              caso=0, ancho_primera=190, nota="La OMS 2024 recomienda ceftriaxona 1 g IM; el esquema de 250 mg del libro corresponde a guías anteriores."),
+              caso=0, ancho_primera=190, nota="La OMS 2024 recomienda ceftriaxona 1 g IM en dosis única (recomendación condicional); el esquema de 250 mg del libro corresponde a guías anteriores."),
   banda=B("Referencia: gonococos en un exudado", PX("gonococo.jpg", 280, credito="Beards · Wikimedia Commons · CC BY-SA 4.0",
           marcas=[("flecha", 0.33, 0.50, 0.12, 0.88, "Diplococos dentro\ndel neutrófilo"), ("flecha", 0.62, 0.32, 0.88, 0.10, "Otro neutrófilo\ncon diplococos")]),
           [("Neutrófilos", "Abundantes: inflamación purulenta."), ("Diplococos intracelulares", "Puntos en pares dentro del citoplasma: Neisseria gonorrhoeae."), ("Tratamiento", "Ceftriaxona IM en dosis única.")],
@@ -135,7 +135,7 @@ S("fases", "RM-INF-048", "Gestante con tuberculosis sin pirazinamida: 2 meses de
   clasif=dict(titulo="Esquemas de tuberculosis sensible en la gestante", cols=["Situación", "Esquema", "Duración"],
               filas=[["Estándar (OMS, ATS/CDC/IDSA)", "2 meses HRZE y 4 meses HR", "6 meses"],
                      ["Sin Z", "2 meses HRE y 7 meses HR", "9 meses"]],
-              caso=1, ancho_primera=200, nota="H: isoniazida; R: rifampicina; Z: pirazinamida; E: etambutol. Se añade piridoxina; el esquema sin pirazinamida no reduce la duración mínima de 9 meses."))
+              caso=1, ancho_primera=200, nota="H: isoniazida; R: rifampicina; Z: pirazinamida; E: etambutol. Se añade piridoxina; sin pirazinamida el esquema se alarga a 9 meses."))
 
 # 7 · CASCADA · shock séptico
 S("cascada", "RM-INF-049", "Hipotensión que persiste con líquidos y vasopresores, con disfunción de varios órganos: shock séptico resistente",
@@ -160,7 +160,7 @@ S("cascada", "RM-INF-049", "Hipotensión que persiste con líquidos y vasopresor
                      ["Sepsis", "Disfunción orgánica por una reacción desregulada a la infección", "Aumento del SOFA de 2 puntos o más"],
                      ["Shock séptico", "Sepsis con anomalías circulatorias y metabólicas graves", "Vasopresores para PAM de 65 mmHg o más y lactato mayor de 2 mmol/L tras líquidos"],
                      ["qSOFA (cribado)", "Sospecha fuera de la UCI", "2 o más de: FR ≥ 22/min, alteración del sensorio, PAS ≤ 100 mmHg"]],
-              caso=2, ancho_primera=230, nota="«Resistente» o «refractario» no es una categoría de Sepsis-3: describe el shock que no cede con líquidos y vasopresores."))
+              caso=2, ancho_primera=230, nota="«Resistente» o «refractario» no es una categoría de Sepsis-3: describe el shock que no cede con líquidos y vasopresores. La Surviving Sepsis Campaign 2021 desaconseja usar el qSOFA como única herramienta de tamizaje."))
 
 # 8 · RADIAL · Chlamydia
 S("radial", "RM-INF-050", "Infección por Chlamydia en adolescentes: azitromicina 1 g por vía oral en dosis única",
@@ -331,7 +331,7 @@ S("decision", "RM-INF-054", "Candida krusei en sangre y LCR con insuficiencia re
   ("Candidiasis invasiva con compromiso del SNC", ["Candida krusei es intrínsecamente resistente al fluconazol.", "El tratamiento depende de la penetración al LCR."]),
   ("Varón de 30 años con VIH", ["Sin tratamiento; odinofagia, fiebre, somnolencia y rigidez de nuca.", "Hemocultivo y LCR con C. krusei; candidiasis esofágica; creatinina 3 mg/dL."]),
   ["Las equinocandinas (anidulafungina) son de primera línea en candidemia, pero penetran muy poco al LCR y no sirven en meningitis.",
-   "IDSA 2016, candidiasis del SNC: anfotericina B liposomal 3 a 5 mg/kg con o sin flucitosina, por varias semanas; retirar los dispositivos.",
+   "IDSA 2016, candidiasis del SNC: anfotericina B liposomal 5 mg/kg/día con o sin flucitosina 25 mg/kg c/6 h, hasta la resolución del LCR y las imágenes, y luego fluconazol; retirar los dispositivos.",
    "Ketoconazol (azol) no sirve ante C. krusei; griseofulvina solo trata dermatofitos; flucitosina sola genera resistencia, es mielotóxica y requiere ajuste renal.",
    "Con creatinina de 3 mg/dL la formulación liposomal es preferible a la convencional (deoxicolato). Perla: buscar endoftalmitis con fondo de ojo y retirar catéteres."],
   "Pappas PG et al., IDSA, Candidiasis 2016 (Clin Infect Dis 2016;62:e1-e50); " + HARR + ".",
@@ -357,7 +357,7 @@ S("puntaje", "RM-NEU-019", "Neumonía con CURB-65 de 1 punto en un adulto sin co
    "ATS/IDSA 2019 sin comorbilidades: amoxicilina 1 g c/8 h (recomendación fuerte), doxiciclina o un macrólido (condicional, solo si la resistencia neumocócica local es menor de 25 %).",
    "De las opciones, la claritromicina es la única monoterapia admitida en este grupo. Amoxicilina-clavulánico y fluoroquinolonas se reservan a comorbilidades; la cefotaxima es parenteral; la cefuroxima no se recomienda.",
    "Perla: pedir radiografía de tórax para confirmar el infiltrado; alerta si hay confusión, hipoxemia o PA baja: hospitalizar."],
-  "Metlay JP et al., ATS/IDSA (Am J Respir Crit Care Med 2019;200:e45-e67); EsSalud-IETSI, GPC N.º 79 de neumonía adquirida en la comunidad en adultos (2025); " + HARR + ".",
+  "Metlay JP et al., ATS/IDSA (Am J Respir Crit Care Med 2019;200:e45-e67); " + HARR + ".",
   op=("¿Tratamiento inicial?", ["Sí: monoterapia admitida si la resistencia local es baja", "No: es parenteral y exige hospitalizar", "No: se reserva a comorbilidades", "No: no se recomienda", "No: fluoroquinolona reservada a comorbilidades o alergia"],
       {0: "Claritromicina 500 mg VO c/12 h", 1: "Cefotaxima 2 g IV c/8 h", 2: "Amox./clavulánico 2 g VO c/12 h", 3: "Cefuroxima 500 mg VO c/12 h", 4: "Moxifloxacino 400 mg VO al día"}),
   d=dict(rotulo="Puntaje CURB-65 del paciente", escala="CURB-65 (neumonía adquirida en la comunidad)", total=1, max=5, total_label="Puntaje del paciente",
@@ -368,4 +368,4 @@ S("puntaje", "RM-NEU-019", "Neumonía con CURB-65 de 1 punto en un adulto sin co
   clasif=dict(titulo="Tratamiento empírico ambulatorio de la neumonía (ATS/IDSA 2019)", cols=["Paciente", "Esquema", "Fuerza"],
               filas=[["Sano", "Amoxicilina 1 g c/8 h; o doxiciclina 100 mg c/12 h; o macrólido solo si la resistencia neumocócica es menor de 25 %", "Fuerte (amoxicilina); condicional (resto)"],
                      ["Con comorbilidad", "Amoxicilina-clavulánico o cefalosporina más macrólido o doxiciclina; o fluoroquinolona respiratoria sola", "Fuerte"]],
-              caso=0, ancho_primera=200, nota="Comorbilidades: cardiopatía, enfermedad pulmonar, hepática o renal crónica, diabetes, alcoholismo o neoplasia. Duración mínima de 3 a 5 días con mejoría clínica."))
+              caso=0, ancho_primera=200, nota="Comorbilidades: cardiopatía, enfermedad pulmonar, hepática o renal crónica, diabetes, alcoholismo o neoplasia. Más asplenia. Duración: mínimo 5 días."))

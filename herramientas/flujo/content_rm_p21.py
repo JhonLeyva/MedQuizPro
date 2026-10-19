@@ -83,13 +83,13 @@ S("puntaje", "RM-GAS-026", "Cinco criterios de Ranson (glucosa, LDH, calcio, dé
                 ("Caída del hematocrito mayor de 10 puntos", 1, True), ("Aumento del BUN mayor de 5 mg/dL (no referido)", 1, False), ("Calcio menor de 8 mg/dL (6)", 1, True),
                 ("PaO2 menor de 60 mmHg (no referida)", 1, False), ("Déficit de base mayor de 4 mEq/L (mayor de 6)", 1, True), ("Secuestro de líquidos mayor de 6 L (no referido)", 1, False)],
          total=5, max=11, total_label="Puntos de Ranson", interpreta="5 puntos: pancreatitis grave",
-         bandas=[("0-2", "Riesgo bajo", "Mortalidad baja.", False), ("3-4", "Grave probable", "Mortalidad de 15-20 %.", False),
+         bandas=[("0-2", "Riesgo bajo", "Mortalidad baja.", False), ("3-4", "Grave probable", "Mortalidad cercana a 15 %.", False),
                  ("5-6", "Grave", "Mortalidad cercana a 40 %.", True), ("7 o más", "Muy grave", "Mortalidad cercana a 100 % en la serie original.", False)]),
   clasif=dict(titulo="Puntaje de Ranson: mortalidad en la serie original y lectura actual", cols=["Puntos", "Mortalidad (serie de 1974)", "Interpretación"],
-              filas=[["0-2", "Baja (menos de 5 %)", "Pancreatitis leve probable"], ["3-4", "15-20 %", "Con 3 o más puntos: pancreatitis grave probable"],
-                     ["5-6", "Cerca de 40 %", "Grave: vigilancia en cuidados intensivos"], ["7 o más", "Cerca de 100 %", "Muy grave"]],
+              filas=[["0-2", "Cerca de 1-2 %", "Pancreatitis leve probable"], ["3-4", "Cerca de 15 %", "Con 3 o más puntos: pancreatitis grave probable"],
+                     ["5-6", "Cerca de 40 %", "Grave: vigilancia en cuidados intensivos"], ["7 o más", "Muy alta (cerca de 100 % en la serie original)", "Muy grave"]],
               caso=2, ancho_primera=135,
-              nota="Cifras de la cohorte original de Ranson (años 70); las fuentes difieren algo en 0-2 y 3-4. Los umbrales de la tabla son para pancreatitis no biliar; para la biliar varían (edad > 70, leucocitos > 18 000, glucosa > 220, LDH > 400)."))
+              nota="Cifras de la cohorte original de Ranson (años 70); las fuentes difieren algo en las cifras. Los umbrales de la tabla son para pancreatitis no biliar; para la biliar varían (edad > 70, leucocitos > 18 000, glucosa > 220, LDH > 400)."))
 
 # 4 · CAPAS · células de la glándula gástrica
 S("capas", "RM-CB-050", "Las células parietales secretan ácido clorhídrico y factor intrínseco",
@@ -107,13 +107,13 @@ S("capas", "RM-CB-050", "Las células parietales secretan ácido clorhídrico y 
          capas=[("Superficie y foveola", "Epitelio de revestimiento", "#fbd5c4", "Células mucosas superficiales", "Moco y bicarbonato: protegen de la acidez."),
                 ("Istmo", "Zona de renovación", "#f5b8a2", "Células madre", "Renuevan el epitelio y generan las demás células."),
                 ("Cuello y cuerpo", "Parte media de la glándula", "#e89c84", "Parietales (oxínticas)", "Secretan ácido clorhídrico y factor intrínseco; hay también mucosas del cuello."),
-                ("Base de la glándula", "Fondo", "#fbe38e", "Principales y neuroendocrinas", "Pepsinógeno y lipasa gástrica; liberan gastrina, somatostatina e histamina.")],
+                ("Base de la glándula", "Fondo", "#fbe38e", "Principales y neuroendocrinas", "Pepsinógeno y lipasa gástrica; liberan histamina (ECL), somatostatina (D) y grelina (X/A-like).")],
          veredicto=("HCl y factor intrínseco = célula parietal", "Su pérdida autoinmune produce anemia perniciosa y gastritis atrófica tipo A.")),
   clasif=dict(titulo="Células de la glándula oxíntica: producto y dato clínico", cols=["Célula", "Producto", "Dato clínico"],
               filas=[["Parietal (oxíntica)", "Ácido clorhídrico y factor intrínseco", "Diana de los IBP; anticuerpos en la anemia perniciosa"],
                      ["Principal (zimógena)", "Pepsinógeno y lipasa gástrica", "No produce ácido"],
                      ["Mucosa del cuello", "Moco", "Protege la mucosa"],
-                     ["Neuroendocrina (G, D, ECL)", "Gastrina, somatostatina e histamina", "Regula la secreción de ácido"]],
+                     ["Neuroendocrina (ECL, D, X/A-like)", "Histamina, somatostatina y grelina", "Regula la secreción de ácido; la gastrina la produce la célula G del antro"]],
               caso=0, ancho_primera=210))
 
 # 5 · TARJETAS · enzima pancreática de los carbohidratos
@@ -166,7 +166,7 @@ S("radial", "RM-GAS-028", "La manifestación extraintestinal más frecuente de l
    "Cutáneas: eritema nodoso (con los brotes) y pioderma gangrenoso. Oculares: uveítis y epiescleritis.",
    "Hepatobiliar: la colangitis esclerosante primaria predispone a colangiocarcinoma y a cáncer colorrectal y no mejora con la colectomía.",
    "Brote leve a moderado: mesalazina; grave: corticoides intravenosos y luego terapia biológica. Colonoscopía de vigilancia tras ocho años de enfermedad."],
-  "Rubin DT et al., ACG, colitis ulcerosa en adultos (Am J Gastroenterol 2025); " + HARR,
+  "Rubin DT et al., ACG, actualización en colitis ulcerosa del adulto (Am J Gastroenterol 2025;120:1187-1224); " + HARR,
   op=("¿Más frecuente?", ["Sí: las articulares son las más frecuentes", "No: menos frecuente que la articular", "No: es hepatobiliar y menos frecuente", "No: cutáneo y menos frecuente", "No: cutáneo y menos frecuente"],
       {0: "Artropatía", 1: "Uveítis", 2: "Colangitis esclerosante primaria", 3: "Eritema nodoso", 4: "Pioderma gangrenoso"}),
   d=dict(rotulo="Manifestaciones extraintestinales de la colitis ulcerosa", centro="COLITIS ULCEROSA", centro_sub="más allá del colon", ans=0,
@@ -190,7 +190,7 @@ S("cuadro", "RM-GAS-029", "Una úlcera gástrica del cuerpo más una duodenal es
    "Tipo III: prepilórica, con hiperacidez. Tipo IV: subcardial, cerca de la unión gastroesofágica. Tipo V: por AINE, en cualquier parte.",
    "Toda úlcera gástrica se biopsia y se controla con endoscopía hasta su cicatrización para descartar adenocarcinoma, e investigar H. pylori.",
    "H. pylori: tratamiento de erradicación con prueba de control posterior (ACG 2024)."],
-  "Sabiston 21.ª ed.; " + HARR + "; Chey WD et al., ACG, H. pylori (Am J Gastroenterol 2024;119:1730-1753).",
+  "Johnson HD (Ann Surg 1965;162:996-1004); Sabiston 21.ª ed.; " + HARR + "; Chey WD et al., ACG, H. pylori (Am J Gastroenterol 2024;119:1730-1753).",
   op=("¿Grado de Johnson?", ["No: tipo IV es subcardial", "Sí: gástrica del cuerpo más duodenal", "No: tipo III es prepilórica", "No: tipo I es solo del cuerpo", "No: tipo V es por AINE"],
       {0: "IV", 1: "II", 2: "III", 3: "I", 4: "V"}),
   d=dict(veredicto=("Cuerpo gástrico + duodeno = Johnson II", "Hiperacidez: biopsia de la úlcera gástrica y búsqueda de H. pylori.")),
@@ -220,11 +220,11 @@ S("alarma", "RM-GAS-030", "El café y las comidas abundantes y grasas desencaden
                  ("Anemia o sangrado digestivo", "Úlcera o tumor", None), ("Masa o adenopatía palpable", "Cáncer", None), ("Antecedente familiar de cáncer gástrico", "Mayor riesgo", None)],
          accion=("Endoscopía alta con biopsia", "Si hay alguna bandera roja no se trata de forma empírica."), accion_rotulo="Si hay una bandera roja",
          veredicto=("Sin banderas rojas = dispepsia funcional probable", "Desencadenantes: comidas abundantes y grasas, y café.")),
-  clasif=dict(titulo="Dispepsia funcional según Roma IV: subtipos (síntomas de 3 meses, inicio 6 meses antes, sin lesión en la endoscopía)", cols=["Subtipo", "Síntoma que lo define", "Frecuencia mínima", "Tratamiento orientado"],
-              filas=[["Distrés posprandial", "Plenitud posprandial molesta y/o saciedad precoz que impide terminar una comida normal", "3 días por semana", "Procinéticos, mirtazapina o buspirona"],
-                     ["Dolor epigástrico", "Dolor o ardor epigástrico molesto", "1 día por semana", "IBP, erradicar H. pylori, tricíclicos"]],
+  clasif=dict(titulo="Dispepsia funcional según Roma IV: subtipos (síntomas de 3 meses, inicio 6 meses antes, sin lesión en la endoscopía)", cols=["Subtipo", "Síntoma que lo define", "Frecuencia mínima", "Opciones terapéuticas (ACG-CAG 2017)"],
+              filas=[["Distrés posprandial", "Plenitud posprandial molesta y/o saciedad precoz que impide terminar una comida normal", "3 días por semana", "Erradicar H. pylori e IBP; si persiste, tricíclico o procinético"],
+                     ["Dolor epigástrico", "Dolor o ardor epigástrico molesto", "1 día por semana", "Erradicar H. pylori e IBP; si persiste, tricíclico"]],
               caso=None, ancho_primera=125,
-              nota="Se pueden superponer. Roma V (2026) actualiza los criterios; los de Roma IV siguen siendo la referencia del examen."))
+              nota="Se pueden superponer. El tratamiento no se elige por subtipo en la guía ACG-CAG 2017 (resumen). La referencia del examen son los criterios de Roma IV."))
 
 # 10 · PIRÁMIDE · causas de hemorragia digestiva alta
 S("piramide", "RM-GAS-031", "La úlcera péptica es la causa más frecuente de hemorragia digestiva alta en el adulto",
@@ -246,11 +246,11 @@ S("piramide", "RM-GAS-031", "La úlcera péptica es la causa más frecuente de h
               filas=[["Ia", "Sangrado en chorro", "Cerca de 55 %", "Terapia endoscópica e IBP"],
                      ["Ib", "Sangrado en napa", "Cerca de 55 %", "Terapia endoscópica e IBP"],
                      ["IIa", "Vaso visible sin sangrado", "Cerca de 43 %", "Terapia endoscópica e IBP"],
-                     ["IIb", "Coágulo adherido", "Cerca de 22 %", "Retirar el coágulo y tratar la lesión de base"],
+                     ["IIb", "Coágulo adherido", "Cerca de 22 %", "Retirar el coágulo y tratar la lesión de base si se encuentra; ACG 2021 no emite recomendación"],
                      ["IIc", "Base con mancha plana pigmentada", "Cerca de 10 %", "IBP; sin terapia endoscópica"],
                      ["III", "Base limpia", "Cerca de 5 %", "IBP; alta temprana"]],
               caso=None, ancho_primera=60,
-              nota="Cifras clásicas de resangrado sin tratamiento; series recientes muestran riesgos menores. La pregunta no pide esta clasificación: se agrega como referencia."))
+              nota="Cifras clásicas de resangrado sin tratamiento, citadas en revisiones; series recientes muestran riesgos menores. Tras la hemostasia de una lesión de alto riesgo: IBP en dosis alta por 3 días (ACG 2021). La pregunta no pide esta clasificación: se agrega como referencia."))
 
 # 11 · BALANZA · regulación de la gastrina
 S("balanza", "RM-CB-052", "Las catecolaminas, por estimulación adrenérgica, aumentan la secreción de gastrina",
@@ -373,14 +373,14 @@ S("cascada", "RM-GAS-035", "Úlceras duodenales múltiples, diarrea, hipercalcem
               filas=[["Paratiroides", "Hiperparatiroidismo con hipercalcemia", "Hipercalcemia moderada"],
                      ["Páncreas y duodeno", "Tumores neuroendocrinos: gastrinoma (Zollinger-Ellison)", "Úlceras duodenales múltiples y diarrea"],
                      ["Hipófisis", "Adenomas hipofisarios", "Tumor de hipófisis sin tratar"]],
-              caso=None, ancho_primera=150))
+              caso=None, ancho_primera=150, nota="Resumen cualitativo de las tres P: sin cifras de penetrancia. Un gastrinoma en MEN1 suele ser duodenal y múltiple."))
 
 # 16 · LECTURA · fisura anal crónica
 S("lectura", "RM-CIR-135", "La fisura anal crónica se ubica con más frecuencia en la línea media posterior",
   "Cirugía colorrectal · fisura anal",
   ("Fisura anal", ["Desgarro longitudinal del anodermo distal a la línea dentada, por heces duras o hipertonía del esfínter interno.", "Dolor intenso al defecar y sangrado rojo rutilante escaso."]),
   ("Pregunta de teoría", ["¿En qué línea del canal anal se ubica con más frecuencia la fisura anal crónica?"]),
-  ["Más de 90 % de las fisuras primarias están en la línea media posterior, por la menor perfusión del anodermo; la anterior es menos frecuente y más común en la mujer.",
+  ["Cerca de 90 % de las fisuras primarias están en la línea media posterior, por la menor perfusión del anodermo; la anterior es menos frecuente y más común en la mujer.",
    "Bandera roja: fisura lateral, múltiple o indolora obliga a buscar Crohn, tuberculosis, VIH, sífilis, cáncer o leucemia.",
    "Crónica (más de 6-8 semanas): papila centinela, fibras del esfínter interno visibles y hemorroide centinela.",
    "Tratamiento: fibra, baños de asiento y nifedipino o diltiazem tópico; si falla, toxina botulínica o esfinterotomía lateral interna."],
@@ -393,12 +393,12 @@ S("lectura", "RM-CIR-135", "La fisura anal crónica se ubica con más frecuencia
          pines=[], img_pie="Imagen referencial de una fisura anal crónica con papila centinela y fibras del esfínter interno visibles en el fondo.",
          pasos=[("Desgarro distal a la línea dentada", "Dolor al defecar y sangrado rojo rutilante escaso.", False),
                 ("Signos de cronicidad", "Papila centinela y fibras del esfínter interno en la base.", False),
-                ("Sitio típico: línea media posterior", "Más de 90 %: menor flujo sanguíneo del anodermo (este caso).", True),
+                ("Sitio típico: línea media posterior", "Cerca de 90 %: menor flujo sanguíneo del anodermo (este caso).", True),
                 ("Lateral, múltiple o indolora", "Pensar en Crohn, tuberculosis, VIH, sífilis, cáncer o leucemia.", False)],
          veredicto=("Fisura crónica típica = línea media posterior", "Se trata con fibra y relajantes del esfínter; la cirugía es la esfinterotomía lateral interna.")),
   clasif=dict(titulo="Localización de la fisura anal y qué sugiere", cols=["Localización", "Frecuencia", "Qué sugiere"],
-              filas=[["Línea media posterior", "Más de 90 % de las primarias", "Fisura primaria: isquemia relativa e hipertonía del esfínter"],
-                     ["Línea media anterior", "Menos frecuente; más en la mujer", "Primaria si es única y dolorosa"],
+              filas=[["Línea media posterior", "Cerca de 90 % de las primarias", "Fisura primaria: isquemia relativa e hipertonía del esfínter"],
+                     ["Línea media anterior", "Cerca de 10 %; más en la mujer", "Primaria si es única y dolorosa"],
                      ["Lateral, múltiple o indolora", "Poco frecuente", "Causa secundaria: Crohn, tuberculosis, VIH, sífilis, cáncer, leucemia"],
                      ["Línea dentada", "No es un sitio de fisura", "Es un límite anatómico del canal anal"]],
               caso=0, ancho_primera=230))

@@ -11,7 +11,7 @@ S("regla", "RM-CIR-137", "Tumor carcinoide de 2 cm con invasión del meso: se am
    "Factores que amplían la resección: tamaño mayor de 2 cm, base o margen afectado, invasión del mesoapéndice o linfovascular, grado alto.",
    "Aquí hay 2 cm con compromiso del meso: hemicolectomía derecha con linfadenectomía; ileostomía, cecostomía y colectomía total no tienen papel.",
    "Cromogranina A y 5-HIAA solo si hay síndrome carcinoide (rubor, diarrea); bandera roja: grado G3 o carcinoma mixto cambia el manejo."],
-  "ENETS 2023 guidance paper for appendiceal neuroendocrine tumours. J Neuroendocrinol 2023;35:e13332; Sabiston Tratado de Cirugía 21.ª ed.",
+  "Kaltsas G et al., ENETS 2023 guidance paper for appendiceal neuroendocrine tumours (J Neuroendocrinol 2023;35:e13332); Sabiston Tratado de Cirugía 21.ª ed.",
   op=("¿Conducta terapéutica?", ["No: la ostomía no tiene papel oncológico", "No: resección excesiva para este tumor", "No: no resuelve el compromiso del meso", "No: basta solo si es pequeño y sin invasión", "Sí: 2 cm con invasión del meso"], {}),
   d=dict(rotulo="Cuánto crece el riesgo según el tamaño del tumor",
          reglas=[dict(nombre="Diámetro del tumor (cm)", que="A mayor tamaño, mayor riesgo de ganglios y mayor resección.",
@@ -25,7 +25,7 @@ S("regla", "RM-CIR-137", "Tumor carcinoide de 2 cm con invasión del meso: se am
                      ["1-2 cm sin factores de riesgo", "Bordes libres: apendicectomía simple"],
                      ["1-2 cm con factores de riesgo", "Base o margen afectado, invasión del meso o linfovascular, grado alto: valorar hemicolectomía derecha con linfadenectomía (este caso)"],
                      ["Mayor de 2 cm", "Hemicolectomía derecha con linfadenectomía"]],
-              caso=2, ancho_primera=300, nota="Resumen de la guía; el umbral exacto de invasión del meso y la decisión final se individualizan en comité multidisciplinario."))
+              caso=2, ancho_primera=300, nota="Resumen de la guía; el umbral exacto de invasión del meso y la decisión final se individualizan en comité multidisciplinario; el valor de la invasión aislada del meso es controvertido. No se verificó el texto completo de ENETS 2023 ni la guía NANETS."))
 
 # 2 · EMBUDO · estadificación del cáncer gástrico
 S("embudo", "RM-CIR-138", "Para buscar metástasis en el cáncer gástrico, el estudio de elección es la tomografía helicoidal",
@@ -36,7 +36,7 @@ S("embudo", "RM-CIR-138", "Para buscar metástasis en el cáncer gástrico, el e
    "La ecoendoscopia es mejor para la profundidad (T) y los ganglios regionales (N), pero no para metástasis; la ecografía abdominal es poco sensible.",
    "El PET-TC rinde poco en tumores difusos o mucinosos por su baja captación; se reserva para dudas puntuales.",
    "Si la TC no muestra enfermedad a distancia en T3-T4, la laparoscopia con citología peritoneal detecta metástasis ocultas antes de operar."],
-  "Gastric cancer: ESMO Clinical Practice Guideline. Ann Oncol 2022;33:1005-1020; Sabiston Tratado de Cirugía 21.ª ed.",
+  "Lordick F et al., ESMO, cáncer gástrico (Ann Oncol 2022;33:1005-1020); Sabiston Tratado de Cirugía 21.ª ed.",
   op=("¿Examen de elección?", ["Sí: estadifica metástasis y extensión local", "No: baja sensibilidad para metástasis", "No: solo muestra la lesión luminal", "No: rendimiento limitado, solo para dudas", "No: no se usa en la estadificación"], {}),
   d=dict(rotulo="Cómo se estadifica un adenocarcinoma gástrico", inicio="Adenocarcinoma gástrico confirmado por biopsia",
          candidatos=["Tomografía helicoidal con contraste", "Ecoendoscopia", "Laparoscopia de estadificación", "PET-TC", "Ecografía abdominal", "Gammagrafía"],
@@ -49,7 +49,7 @@ S("embudo", "RM-CIR-138", "Para buscar metástasis en el cáncer gástrico, el e
               filas=[["Tomografía con contraste", "Metástasis a distancia, ascitis, ganglios y extensión local; estudio de elección", "Poco sensible para implantes peritoneales pequeños"],
                      ["Ecoendoscopia", "Profundidad de la pared (T) y ganglios regionales (N)", "No evalúa metástasis a distancia"],
                      ["PET-TC", "Dudas puntuales sobre enfermedad a distancia", "Baja captación en tumores difusos o mucinosos"],
-                     ["Laparoscopia con citología", "Enfermedad peritoneal oculta en T3-T4", "Invasiva; se hace antes de operar o tratar"]],
+                     ["Laparoscopia con citología", "Enfermedad peritoneal oculta en tumores avanzados (p. ej. T3-T4)", "Invasiva; se hace antes de operar o tratar"]],
               caso=0, ancho_primera=290, nota="Resumen de ESMO 2022 y Sabiston; el rendimiento de cada prueba depende de la disponibilidad y del tipo histológico."),
   banda=B("Referencia: tomografía con contraste de un cáncer gástrico", PX("gastrico_tc_a.jpg", 290, credito="Shu et al. · Frontiers in Oncology 2026 · CC BY 4.0"),
           [("Pared gástrica engrosada", "La línea roja de la imagen marca el tumor en la pared del estómago."), ("Qué más se mira", "Hígado, ganglios, peritoneo y ascitis."), ("Por qué la TC", "Una sola exploración cubre tórax, abdomen y pelvis.")],
@@ -374,7 +374,7 @@ S("termometro", "RM-GIN-036", "Con LTV de 7 cm y el punto Ba en +4, el cistocele
                   ("Estadio III", "Mayor de +1 y menor de +5", ["Fuera del himen, sin eversión total"]), ("Estadio IV", "+5 o más (LTV - 2)", ["Eversión completa"])],
          pasos=[(1, "LTV = 7 cm", ["Umbral del estadio IV: 7 - 2 = +5 cm"], False), (2, "Ba = +4", ["Mayor de +1 y menor de +5"], True), (3, "No llega a +5", ["Descarta el estadio IV; no hay estadio V"], False)]),
   clasif=dict(titulo="Estadios del prolapso de órganos pélvicos (POP-Q)", cols=["Estadio", "Punto más distal respecto al himen", "En esta paciente (LTV 7 cm)"],
-              filas=[["0", "Sin prolapso", "—"],
+              filas=[["0", "Sin prolapso: Aa, Ap, Ba y Bp en -3 cm y C o D no más allá de -(LTV - 2)", "—"],
                      ["I", "Más de 1 cm sobre el himen (menor de -1)", "No: Ba en +4"],
                      ["II", "Entre -1 y +1 cm del himen", "No: Ba en +4"],
                      ["III", "Más de +1 cm, sin superar la LTV menos 2 cm", "Sí: +4 es menor de +5"],
