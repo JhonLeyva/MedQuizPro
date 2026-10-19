@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+"""Muestras de los 7 diseños nuevos que faltaban por enseñar."""
+from c_rm import S, P, PX, B, Q, L, TR, ATLS, HARRISON, WILLIAMS, NELSON, MINSA, ACOG, AAP
+
+# DERMATOMAS · anestesia raquídea
+S("dermatomas", "RM-CIR-007", "En la raquídea de un paciente mal hidratado el bloqueo simpático alto produce hipotensión",
+  "Anestesia · niveles del bloqueo",
+  ("Anestesia raquídea", ["El anestésico bloquea fibras simpáticas (T1-L2), sensitivas y motoras, en ese orden de altura.", "El nivel sensitivo alcanzado indica cuánto simpático se bloqueó."]),
+  ("Paciente deshidratado", ["¿Cuál es la complicación más frecuente de la raquídea si el paciente no está bien hidratado?"]),
+  ["Bloqueo simpático = vasodilatación y menos retorno venoso; si falta volumen, la hipotensión es profunda.",
+   "Con bloqueo a T4 o más se bloquean las fibras cardioaceleradoras (T1-T4) y se suma bradicardia.",
+   "Prevención: cristaloides antes de la punción; tratamiento: fenilefrina o efedrina y atropina si hay bradicardia."],
+  "ASA, práctica de anestesia neuroaxial obstétrica (2016); Miller Anestesia 9.ª ed.; Morgan y Mikhail Anestesiología Clínica 6.ª ed.",
+  op=("¿Complicación?", ["Sí: el bloqueo simpático dilata las venas y cae el retorno venoso", "No: son raras y transitorias", "No: aparece solo con bloqueo alto (T1-T4)",
+                         "No: indica bloqueo muy alto o depresión respiratoria", "No: es frecuente pero no es la más grave ni la más frecuente"], {}),
+  d=dict(rotulo="Nivel sensitivo del bloqueo y lo que ocurre con el simpático", alto=330, caso=1,
+         niveles=[("C4", 0.0, "Hombros y clavícula"), ("T4", 0.32, "Línea de los pezones"), ("T10", 0.74, "Ombligo"), ("L1", 1.0, "Ingle")],
+         lado=[("Hasta T10 (ombligo)", ["Cirugía infraumbilical; simpático solo en parte bloqueado."], False),
+               ("Hasta T4 (pezones)", ["Cesárea y cirugía abdominal alta. Se bloquean vasos y fibras cardioaceleradoras: hipotensión y bradicardia."], True),
+               ("Más arriba de C4", ["Dificultad respiratoria: bloqueo espinal total."], False)],
+         veredicto=("Bloqueo simpático + poco volumen = hipotensión", "Reponer el volumen antes de la punción y tener fenilefrina lista.")))
+
+# GENEALOGÍA · factores de riesgo coronario
+S("genealogia", "RM-CAR-008", "Entre los factores de riesgo coronario pesa el antecedente familiar de enfermedad coronaria prematura",
+  "Cardiología · riesgo coronario familiar",
+  ("Factores de riesgo coronario", ["No modificables: edad, sexo, antecedente familiar prematuro. Modificables: dislipidemia, tabaquismo, hipertensión, diabetes."]),
+  ("Pregunta de teoría", ["¿Cuáles son los factores de riesgo más importantes para la arteriopatía coronaria?"]),
+  ["Antecedente familiar prematuro: infarto en familiar de primer grado, varón menor de 55 años o mujer menor de 65.",
+   "INTERHEART: dislipidemia (ApoB/ApoA1), tabaquismo, hipertensión y diabetes explican la mayor parte del riesgo.",
+   "Se controlan los modificables y se mide el riesgo global (SCORE2, Framingham) para decidir estatinas."],
+  "ESC, prevención cardiovascular (2021); ACC/AHA, prevención primaria (2019); Harrison Principios de Medicina Interna 22.ª ed.",
+  op=("¿Factores principales?", ["Sí: los tres modificables de mayor peso", "No: la obesidad pesa menos que la dislipidemia", "No: falta dislipidemia y diabetes", "No: el estrés pesa menos", "No: el sedentarismo y el estrés pesan menos"],
+      {0: "HTA, diabetes, dislipidemia", 1: "HTA, diabetes, obesidad", 2: "HTA, tabaquismo, sedentarismo", 3: "Tabaquismo, diabetes, estrés", 4: "Estrés, tabaquismo, sedentarismo"}),
+  d=dict(rotulo="Árbol familiar con enfermedad coronaria prematura", caso="pac",
+         personas=[("ab", "M", "afectado", 0, 0.12, "IAM a los 52"), ("aa", "F", "sano", 0, 0.34, "Sana"),
+                   ("ti", "F", "sano", 1, 0.08, ""), ("pa", "M", "afectado", 1, 0.34, "IAM a los 50"), ("ma", "F", "sano", 1, 0.62, "HTA"),
+                   ("pac", "M", "afectado", 2, 0.40, "53 años"), ("he", "F", "sano", 2, 0.58, "")],
+         parejas=[("ab", "aa"), ("pa", "ma")], hijos=[(("ab", "aa"), ["ti", "pa"]), (("pa", "ma"), ["pac", "he"])],
+         lado=[("Familiar de primer grado", ["Padre con infarto antes de los 55 años: antecedente prematuro."], True),
+               ("Suma de riesgo", ["Con hipertensión, diabetes y obesidad, el riesgo global es alto."], False),
+               ("No modificable", ["No se cambia: obliga a controlar al máximo lo modificable."], False)],
+         veredicto=("Hipertensión + diabetes + dislipidemia = la tríada de mayor peso", "El antecedente familiar prematuro eleva la sospecha.")))
+
+# ANTES Y DESPUÉS · adenosina
+S("antes_despues", "RM-CAR-037", "Tras fracasar las maniobras vagales, la adenosina revierte la taquicardia por reentrada",
+  "Arritmias · antes y después de la adenosina",
+  ("Taquicardia supraventricular", ["QRS estrecho, regular, con P retrógrada: reentrada nodal (AVNRT).", "Primero maniobras vagales; luego adenosina."]),
+  ("Mujer de 30 años", ["Palpitaciones y FC 210; maniobras vagales sin efecto.", "¿Fármaco de elección?"]),
+  ["Adenosina 6 mg IV en bolo rápido con lavado salino; si no revierte, 12 mg (hasta dos veces).",
+   "Efectos esperables y breves: rubor, opresión torácica, pausa; avisar antes a la paciente.",
+   "Si hay inestabilidad: cardioversión sincronizada. Si falla la adenosina: verapamilo, diltiazem o betabloqueante."],
+  "ESC, taquicardia supraventricular (2019); AHA/ACC/HRS, TSV (2015); AHA, soporte vital cardiovascular (2025).",
+  op=("¿Fármaco?", ["No: es el segundo escalón, no el primero", "No: la digoxina actúa lenta", "Sí: bloquea el nodo AV y revierte en más del 90 %", "No: se reserva a casos refractarios", "No: es alternativa si falla la adenosina"], {}),
+  d=dict(rotulo="El mismo paciente antes y después del bolo", intervencion="Adenosina 6 mg IV rápido + suero salino",
+         antes=dict(titulo="Antes", datos=[("Frecuencia cardiaca", "210 por min"), ("QRS", "Estrecho, regular"), ("Onda P", "Retrógrada"), ("Presión arterial", "110/70 mmHg")]),
+         despues=dict(titulo="Después", datos=[("Frecuencia cardiaca", "Sinusal, normal"), ("QRS", "Estrecho"), ("Onda P", "Antes del QRS"), ("Síntomas", "Resueltos")]),
+         cambios=[("Frecuencia normal", "mejora"), ("Ritmo sinusal", "mejora"), ("Pausa breve y rubor: esperables", "igual")],
+         veredicto=("Maniobras vagales primero, adenosina después", "Se avisa que habrá sensación breve de opresión.")))
+
+# PRUEBAS · troponina (ejemplo numérico ilustrativo)
+S("pruebas", "RM-CAR-007", "La troponina es el marcador que confirma el infarto: alta sensibilidad y especificidad para lesión del miocardio",
+  "Cardiología · rendimiento de una prueba",
+  ("Troponina cardiaca", ["Específica del cardiomiocito: sube en 2-4 h, pico a las 12-48 h, dura 7-14 días."]),
+  ("Varón de 62 años", ["Dolor torácico, ST elevado y T negativas V1-V4.", "¿Mejor marcador que confirma el infarto?"]),
+  ["Ejemplo numérico ilustrativo (1000 pacientes con dolor torácico, 20 % con infarto): no son datos de un estudio.",
+   "Sensibilidad = quién tiene la enfermedad y la prueba lo detecta; especificidad = quién no la tiene y la prueba lo descarta.",
+   "La CPK-MB vuelve a lo normal en 48-72 h y sirve para reinfarto; mioglobina e LDH son poco específicas."],
+  "ESC, síndromes coronarios agudos sin elevación del ST (2023); Cuarta definición universal del infarto (2018).",
+  op=("¿Marcador?", ["Sí: específico del miocardio, estándar de oro", "No: obsoleta, poco específica", "No: sube pronto pero es inespecífica", "No: vuelve a lo normal en 48-72 h", "No: marca insuficiencia cardiaca, no infarto"], {}),
+  d=dict(rotulo="Ejemplo ilustrativo: 1000 pacientes con dolor torácico", enfermedad="Infarto de miocardio", prueba="Troponina",
+         vp=190, fp=40, fn=10, vn=760, pide="sens",
+         lado=[("Sensibilidad alta", ["Pocos infartos pasan inadvertidos: sirve para descartar."], True), ("Especificidad alta", ["Pocos falsos positivos: sirve para confirmar."], False),
+               ("Valores predictivos", ["Cambian con la prevalencia de la enfermedad."], False)],
+         veredicto=("Troponina = sensible y específica", "Por eso confirma el infarto mejor que la CPK-MB o la mioglobina.")))
+
+# LÍNEA DE VIDA · estenosis aórtica
+S("linea_vida", "RM-CAR-012", "El síncope de esfuerzo con soplo eyectivo en un octogenario es estenosis aórtica calcificada",
+  "Valvulopatías · edad de presentación",
+  ("Estenosis aórtica", ["Causa degenerativa calcificada en el anciano; bicúspide en el adulto joven; reumática asociada a otras lesiones."]),
+  ("Varón de 80 años", ["Síncope al subir la escalera, soplo sistólico eyectivo y HVI en el ECG.", "¿Diagnóstico?"]),
+  ["Tríada: angina, síncope de esfuerzo e insuficiencia cardiaca. Una vez aparecen, la supervivencia sin tratamiento cae a 2-3 años.",
+   "Soplo eyectivo áspero que irradia a carótidas; pulso parvus et tardus; S2 disminuido.",
+   "Cirugía o TAVI si hay síntomas o disfunción del ventrículo izquierdo; el vasodilatador está contraindicado."],
+  "ESC/EACTS, valvulopatías (2021); ACC/AHA, valvulopatías (2020); Braunwald Tratado de Cardiología 12.ª ed.",
+  op=("¿Diagnóstico?", ["Sí: soplo eyectivo, síncope y HVI en el anciano", "No: soplo diastólico", "No: soplo holosistólico en el ápex", "No: soplo diastólico con chasquido", "No: soplo holosistólico bajo, en niños"], {}),
+  d=dict(rotulo="Edad típica de presentación según la causa (rangos orientativos)", eje=(20, 90, 10), unidad="años",
+         barras=[("Válvula bicúspide", 40, 70, "Congénita, calcifica antes", False), ("Reumática", 30, 60, "Casi siempre con lesión mitral", False), ("Degenerativa calcificada", 65, 90, "La del anciano", True)],
+         marcador=(80, "Paciente: 80 años"),
+         veredicto=("A los 80 años lo más probable es la calcificación degenerativa", "El ecocardiograma confirma y mide el gradiente.")))
+
+# TRÍPTICO · Ogilvie
+S("triptico", "RM-CIR-027", "La seudoobstrucción del colon (Ogilvie) se relaciona con el uso sostenido de narcóticos",
+  "Cirugía · colon dilatado sin obstrucción mecánica",
+  ("Síndrome de Ogilvie", ["Dilatación aguda del colon, sobre todo del ciego, sin lesión mecánica.", "Pacientes graves, posoperados o con fármacos que frenan el tránsito."]),
+  ("Paciente hospitalizado", ["Colon muy dilatado sin obstrucción.", "¿Qué fármaco se relaciona?"]),
+  ["Fármacos: opioides, anticolinérgicos, tricíclicos, antipsicóticos y bloqueantes de calcio; corregir potasio, magnesio y calcio.",
+   "Riesgo de perforación si el ciego supera 10-12 cm: neostigmina o descompresión colonoscópica.",
+   "Descartar obstrucción mecánica con tomografía antes de tratar."],
+  "ASGE, pseudoobstrucción colónica aguda (2020); WSES, obstrucción del colon (2021); Sabiston Tratado de Cirugía 21.ª ed.",
+  op=("¿Fármaco?", ["Sí: opioides frenan la motilidad", "No: no alteran la motilidad", "No: producen pérdida de volumen", "No: no alteran el tránsito", "No: no son la causa clásica"], {}),
+  d=dict(rotulo="Tres imágenes de colon e intestino dilatados",
+         imgs=[(PX("rm/ogilvie_tc.jpg", 270, credito="Trinidad-Pineiro · Cureus 2026 · CC BY"), "Ogilvie: colon dilatado", ["Tomografía: dilatación sin punto de obstrucción."], True),
+               (PX("rm/volvulo_ciego_tc.jpg", 240, credito="Cui · Cureus 2026 · CC BY"), "Vólvulo cecal", ["Tomografía: las flechas marcan el punto de torsión."], False),
+               (PX("ileo_rx.jpg", 240, credito="Radiopaedia · Commons · dom. público"), "Íleo en la radiografía", ["Asas con distensión difusa."], False)],
+         veredicto=("Colon dilatado sin obstáculo = Ogilvie", "Se suspende el opioide y se corrigen los electrolitos.")))
+
+# DOS PREGUNTAS · infarto inferior
+S("dos_preguntas", "RM-CAR-020", "El infarto inferior con bradicardia e hipotensión sugiere compromiso de la coronaria derecha",
+  "Cardiología · dos preguntas encadenadas",
+  ("Infarto de cara inferior", ["Elevación del ST en II, III y aVF; irrigación de la coronaria derecha en 80 %."]),
+  ("Varón de 53 años", ["Dolor torácico, PA 80/60, FC 50 y ST elevado en II, III, aVF.", "¿Diagnóstico?"]),
+  ["Registrar V3R-V4R: ST elevado en V4R indica infarto del ventrículo derecho.",
+   "En el infarto del VD se da volumen y se evitan nitratos y diuréticos (dependen de la precarga).",
+   "La reperfusión urgente (angioplastia o fibrinólisis) es el tratamiento."],
+  "ESC, SCA con elevación del ST (2023); ACC/AHA, infarto con elevación del ST (2025); Braunwald Tratado de Cardiología 12.ª ed.",
+  op=("¿Diagnóstico?", ["Sí: ST en II, III y aVF", "No: el ECG no es de bloqueo de rama", "No: el lateral eleva I, aVL, V5 y V6", "No: el dolor y el ST no son pericardíticos", "No: el anterior eleva V1 a V4"], {}),
+  d=dict(rotulo="Se responde en este orden",
+         pasos=[("¿Qué cara del corazón está afectada?", "Cara inferior", "ST elevado en II, III y aVF: coronaria derecha en el 80 %."),
+                ("¿Por qué hay bradicardia e hipotensión?", "Coronaria derecha y reflejo vagal", "Irriga los nodos sinusal y AV; la isquemia inferior activa el reflejo de Bezold-Jarisch."),
+                ("¿Qué más hay que hacer al ECG?", "Registrar V4R", "Si el ST sube, hay infarto del VD: volumen y sin nitratos ni diuréticos.")],
+         veredicto=("Infarto de miocardio de cara inferior", "Reperfusión urgente y vigilancia de bloqueo AV.")))

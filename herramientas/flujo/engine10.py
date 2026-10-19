@@ -262,7 +262,7 @@ def genealogia(s, y, d):
         if et:
             s.text(x, yy + 33, wrap(et, 84, 10), 10, 500, SLATE, maxw=84, lh=12)
     # leyenda
-    ly = y + 34 + (ng - 1) * gen_h + 62
+    ly = y + 34 + (ng - 1) * gen_h + 74
     lx = X0 + 6
     for sx, est, tx in (("M", "sano", "Varón"), ("F", "sano", "Mujer"), ("M", "afectado", "Afectado"), ("F", "portador", "Portadora")):
         _simb(s, lx + 10, ly, sx, est, 9)
@@ -391,17 +391,17 @@ def pruebas(s, y, d):
         nom, fm, fr, val = med[k]
         on = k == d["pide"]
         x = X0 + i * (bw + 8)
-        s.rect(x, yb, bw, 92, ORANGE_L if on else "#ffffff", ORANGE if on else TEAL, 2.4 if on else 1.4, rx=10)
+        s.rect(x, yb, bw, 102, ORANGE_L if on else "#ffffff", ORANGE if on else TEAL, 2.4 if on else 1.4, rx=10)
         s.text(x + bw / 2, yb + 18, wrap(nom, bw - 10, 10.5, True), 10.5, 800, "#9a3412" if on else MUTED, maxw=bw - 10)
-        s.text(x + bw / 2, yb + 50, f"{val*100:.0f} %" if val * 100 >= 10 or val == 0 else f"{val*100:.1f} %", 21, 800, "#9a3412" if on else TEAL_D, maxw=bw - 10)
-        s.text(x + bw / 2, yb + 68, fm, 9.5, 500, SLATE, maxw=bw - 8)
-        s.text(x + bw / 2, yb + 82, fr, 9.5, 700, SLATE, maxw=bw - 8)
+        s.text(x + bw / 2, yb + 60, f"{val*100:.0f} %" if val * 100 >= 10 or val == 0 else f"{val*100:.1f} %", 21, 800, "#9a3412" if on else TEAL_D, maxw=bw - 10)
+        s.text(x + bw / 2, yb + 78, fm, 9.5, 500, SLATE, maxw=bw - 8)
+        s.text(x + bw / 2, yb + 92, fr, 9.5, 700, SLATE, maxw=bw - 8)
     x = X0 + 2 * cw + 130
     w = X1 - x
     yy = y
     for t, ls, on in d["lado"]:
         yy += _caja(s, x, yy, w, t, ls, on) + 10
-    return _fin(s, max(yy, yb + 92), d)
+    return _fin(s, max(yy, yb + 102), d)
 
 
 # ════════════════════════════════════════════════════════════ 44 LÍNEA DE VIDA
@@ -450,7 +450,7 @@ def triptico(s, y, d):
         s.rect(x, y, cw, hh + ph + 40, ORANGE_L if on else "#ffffff", ORANGE if on else TEAL, 2.4 if on else 1.4, rx=14)
         s.circle(x + 18, y + 18, 11, ORANGE if on else TEAL_D, "#ffffff", 2)
         s.text(x + 18, y + 22, str(i + 1), 11, 800, "#ffffff", maxw=0)
-        _img(s, x + (cw - im["W"]) / 2, y + 34, im)
+        _img(s, x + (cw - im["W"]) / 2, y + 34 + (hh - _img_h(im)) / 2, im)
         tl, dl, th = _caja_txt(t, ls, cw - 24, 12.5, 11)
         ty = y + 34 + hh + 8
         s.text(x + 12, ty + 12, tl, 12.5, 800, "#9a3412" if on else INK, "start", cw - 24, lh=17)
