@@ -1,4 +1,6 @@
 # MedQuizPro — cabeceras de caché y compresión
+AddType model/gltf-binary .glb
+
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript image/svg+xml
 </IfModule>

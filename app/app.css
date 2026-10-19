@@ -665,3 +665,5 @@ body.gi-abierta { overflow: hidden; }
 .an-form .an-credito { margin-bottom: 16px; }
 .an-vacio { padding: 28px 20px; border: 1px dashed var(--line); border-radius: 14px; text-align: center; color: var(--ink-2); }
 .an-vacio p { margin: 6px 0 0; }
+.an-sel { display: block; margin: 0 0 8px; font-size: .9rem; color: var(--ink-2); } .an-sel select { margin-left: 6px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; }
+.an-form .an-sel { margin: 0 20px 8px; }
