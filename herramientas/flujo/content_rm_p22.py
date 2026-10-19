@@ -251,7 +251,7 @@ S("dos_preguntas", "RM-GIN-031", "El pubococcígeo es uno de los tres fascículo
    "Inervación: nervio del elevador del ano (S3-S4) y rama perineal del pudendo.",
    "El parto vaginal puede avulsionar el pubococcígeo, factor de riesgo de prolapso de órganos pélvicos.",
    "No pertenecen: el piramidal es del abdomen; el transverso profundo es del diafragma urogenital; «íleo rectal» e «íleo cavernoso» no existen."],
-  "Berek y Novak Ginecología 16.ª ed. (2020); Moore Anatomía con orientación clínica 8.ª ed. (2018)",
+  "Berek y Novak Ginecología 16.ª ed. (2020); Moore Anatomía con orientación clínica 9.ª ed. (2022)",
   op=("¿Músculo del elevador del ano?", ["Sí: fascículo del elevador del ano", "No: músculo de la pared abdominal anterior", "No: pertenece al diafragma urogenital", "No: no existe", "No: no existe"], {}),
   d=dict(rotulo="Tres preguntas que identifican al elevador del ano", pasos=[
             ("¿Cuántos fascículos forman el elevador del ano?", "Tres: pubococcígeo, puborrectal e iliococcígeo", "Es el principal músculo del diafragma pélvico."),
