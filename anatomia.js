@@ -7,7 +7,7 @@
   "use strict";
   var M = window.MQP || (window.MQP = {});
   var CFG = {
-    url: "https://anatomylearning.com",   // dirección del <iframe> que entrega Anatomy Learning
+    url: "https://browser.anatomylearning.com/",   // visor web de Anatomy Learning (el que abre «Web Browser» en su portada)
     licencia: "",       // número de licencia que Anatomy Learning pide citar (si lo asignan)
     nombre: "Anatomy Learning"
   };
