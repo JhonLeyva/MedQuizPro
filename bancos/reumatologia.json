@@ -1525,7 +1525,8 @@
       "tema": "Lesión característica del acné grado III",
       "año": 2014,
       "fuentes": "AAD, Guidelines of care for the management of acne vulgaris (Reynolds, JAAD 2024); Fitzpatrick Dermatología 9.ª ed.",
-      "categoria": "Dermatología"
+      "categoria": "Dermatología",
+      "nota_revision": "Clave A sin cambio: las clasificaciones por grados discrepan (en otras, el grado III es nodular y el IV nódulo-quístico); la AAD 2024 ya no usa grados. Se mantiene la del libro (III pustuloso)."
     },
     {
       "id": "RM-REU-002",

@@ -74,7 +74,7 @@
   "examen_origen": "Residentado Médico 2016 · pregunta oficial",
   "enunciado": "Varón de 57 años, obeso, consulta por polidipsia y poliuria. ¿Cuál es un criterio que contribuye al diagnóstico de diabetes?",
   "opciones": [
-   "Glicemia en ayunas superior a 126 mg/dL.",
+   "Glicemia en ayunas de 126 mg/dL o más.",
    "Glicemia postprandial menor a 60 mg/dL.",
    "Hemoglobina glucosilada menor a 6,5 %.",
    "Test de tolerancia a la glucosa menor de 140 mg/dL.",
@@ -82,13 +82,16 @@
   ],
   "correcta": 0,
   "clave_correcta": "A",
-  "explicacion": "Los criterios de la ADA para diabetes son cuatro: glucemia en ayunas de 126 mg/dL o más (ayuno de al menos 8 horas), glucemia a las 2 horas de una prueba de tolerancia oral con 75 g de glucosa de 200 mg/dL o más, HbA1c de 6,5 % o más con método certificado, o glucemia al azar de 200 mg/dL o más en un paciente con síntomas clásicos como poliuria y polidipsia. Sin síntomas, el diagnóstico requiere dos resultados anormales, de la misma muestra o de muestras separadas. Entre las opciones, la única que se acerca al umbral de ayuno es la A (la glucemia en ayunas elevada por encima de 126). Una glucemia postprandial baja, una HbA1c menor de 6,5 % y una prueba de tolerancia menor de 140 mg/dL son valores normales, y una glucemia al azar de 160 mg/dL no alcanza 200. Perla: prediabetes es ayuno de 100-125, tolerancia de 140-199 o HbA1c de 5,7-6,4 %.",
-  "comentario": "Los criterios de la ADA para diabetes son cuatro: glucemia en ayunas de 126 mg/dL o más (ayuno de al menos 8 horas), glucemia a las 2 horas de una prueba de tolerancia oral con 75 g de glucosa de 200 mg/dL o más, HbA1c de 6,5 % o más con método certificado, o glucemia al azar de 200 mg/dL o más en un paciente con síntomas clásicos como poliuria y polidipsia. Sin síntomas, el diagnóstico requiere dos resultados anormales, de la misma muestra o de muestras separadas. Entre las opciones, la única que se acerca al umbral de ayuno es la A (la glucemia en ayunas elevada por encima de 126). Una glucemia postprandial baja, una HbA1c menor de 6,5 % y una prueba de tolerancia menor de 140 mg/dL son valores normales, y una glucemia al azar de 160 mg/dL no alcanza 200. Perla: prediabetes es ayuno de 100-125, tolerancia de 140-199 o HbA1c de 5,7-6,4 %.",
+  "explicacion": "Los criterios de la ADA para diabetes son cuatro: glucemia en ayunas de 126 mg/dL o más (ayuno de al menos 8 horas), glucemia a las 2 horas de una prueba de tolerancia oral con 75 g de glucosa de 200 mg/dL o más, HbA1c de 6,5 % o más con método certificado, o glucemia al azar de 200 mg/dL o más en un paciente con síntomas clásicos como poliuria y polidipsia. Sin síntomas, el diagnóstico requiere dos resultados anormales, de la misma muestra o de muestras separadas. Entre las opciones, la única que alcanza el umbral es la A (glucemia en ayunas de 126 mg/dL o más). Una glucemia postprandial baja, una HbA1c menor de 6,5 % y una prueba de tolerancia menor de 140 mg/dL son valores normales, y una glucemia al azar de 160 mg/dL no alcanza 200. Perla: prediabetes es ayuno de 100-125, tolerancia de 140-199 o HbA1c de 5,7-6,4 %.",
+  "comentario": "Los criterios de la ADA para diabetes son cuatro: glucemia en ayunas de 126 mg/dL o más (ayuno de al menos 8 horas), glucemia a las 2 horas de una prueba de tolerancia oral con 75 g de glucosa de 200 mg/dL o más, HbA1c de 6,5 % o más con método certificado, o glucemia al azar de 200 mg/dL o más en un paciente con síntomas clásicos como poliuria y polidipsia. Sin síntomas, el diagnóstico requiere dos resultados anormales, de la misma muestra o de muestras separadas. Entre las opciones, la única que alcanza el umbral es la A (glucemia en ayunas de 126 mg/dL o más). Una glucemia postprandial baja, una HbA1c menor de 6,5 % y una prueba de tolerancia menor de 140 mg/dL son valores normales, y una glucemia al azar de 160 mg/dL no alcanza 200. Perla: prediabetes es ayuno de 100-125, tolerancia de 140-199 o HbA1c de 5,7-6,4 %.",
   "tema": "Criterios diagnósticos de diabetes mellitus",
   "año": 2016,
-  "fuentes": "ADA, Standards of Care in Diabetes (2025), cap. 2 clasificación y diagnóstico; OMS, Classification of diabetes mellitus (2019)",
+  "fuentes": [
+   "ADA, Standards of Care in Diabetes-2026, sección 2 (Diabetes Care 2026;49 Suppl 1)",
+   "OMS, Classification of diabetes mellitus (2019)"
+  ],
   "categoria": "Diabetes",
-  "nota_revision": "El enunciado dice «superior a 126», mientras el criterio es 126 o más; se mantiene la clave por ser la única opción compatible."
+  "nota_revision": "El enunciado dice «superior a 126», mientras el criterio es 126 o más; se mantiene la clave por ser la única opción compatible. Redacción corregida: la opción A decía «superior a 126»; el criterio es 126 mg/dL o más. Clave sin cambio."
  },
  {
   "archivo": "endocrinologia",

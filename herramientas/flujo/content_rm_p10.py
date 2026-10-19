@@ -55,7 +55,7 @@ S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntom
    "Alerta: polidipsia, poliuria y pérdida de peso con cetonas o vómito sugieren cetoacidosis; urgencia, no solo diagnóstico."],
   "ADA, Standards of Care in Diabetes-2026, sec. 2; OMS, clasificación de la diabetes (2019).",
   op=("¿Criterio?", ["Sí: el ayuno de 126 mg/dL o más es criterio diagnóstico", "No: eso es hipoglucemia", "No: 6,5 % o más es el criterio", "No: debe ser 200 o más a las 2 h", "No: el valor al azar debe llegar a 200"],
-      {0: "Glucemia en ayunas superior a 126 mg/dL", 1: "Glucemia postprandial menor a 60 mg/dL", 2: "Hemoglobina glucosilada menor a 6,5 %", 3: "Tolerancia a la glucosa menor de 140 mg/dL", 4: "Glucemia al azar de 160 mg/dL"}),
+      {0: "Glucemia en ayunas de 126 mg/dL o más", 1: "Glucemia postprandial menor a 60 mg/dL", 2: "Hemoglobina glucosilada menor a 6,5 %", 3: "Tolerancia a la glucosa menor de 140 mg/dL", 4: "Glucemia al azar de 160 mg/dL"}),
   d=dict(rotulo="Los cuatro criterios y lo que cumple el caso", tag="CRITERIO",
          pasos=[("Glucemia en ayunas ≥ 126 mg/dL", "Ayuno de al menos 8 horas: la opción correcta", True), ("Glucemia a las 2 h de 75 g de glucosa ≥ 200 mg/dL", "Prueba de tolerancia oral", False),
                 ("HbA1c ≥ 6,5 %", "Con método certificado", False), ("Glucemia al azar ≥ 200 mg/dL con síntomas", "Poliuria, polidipsia, pérdida de peso", False)],

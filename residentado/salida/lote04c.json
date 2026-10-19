@@ -100,19 +100,19 @@
   "opciones": [
    "Identificación de células guía.",
    "Disminución de leucocitos en secreción vaginal.",
-   "Secreción blanquecina adherente a la pared vaginal.",
+   "Secreción amarillo-verdosa y espumosa.",
    "pH vaginal < 3.5.",
    "Test de aminas negativo."
   ],
   "correcta": 0,
   "clave_correcta": "A",
-  "explicacion": "La vaginosis bacteriana es un desequilibrio de la microbiota vaginal en el que disminuyen los lactobacilos y proliferan Gardnerella, anaerobios y Mycoplasma hominis. El diagnóstico clínico se hace con los criterios de Amsel, que requieren tres de cuatro: secreción homogénea, blanquecina o grisácea, que reviste las paredes vaginales; pH vaginal mayor de 4,5; prueba de aminas positiva al añadir hidróxido de potasio, con olor a pescado; y presencia de células guía (clue cells), que son células epiteliales cubiertas de bacterias. La opción C se parece al criterio de secreción, pero es incompleta y no específica por sí sola. No hay aumento de leucocitos, a diferencia de la tricomoniasis; el pH menor de 3,5 es incompatible y el test de aminas debe ser positivo. Perla: la tinción de Gram con puntaje de Nugent es el patrón de referencia.",
-  "comentario": "La vaginosis bacteriana es un desequilibrio de la microbiota vaginal en el que disminuyen los lactobacilos y proliferan Gardnerella, anaerobios y Mycoplasma hominis. El diagnóstico clínico se hace con los criterios de Amsel, que requieren tres de cuatro: secreción homogénea, blanquecina o grisácea, que reviste las paredes vaginales; pH vaginal mayor de 4,5; prueba de aminas positiva al añadir hidróxido de potasio, con olor a pescado; y presencia de células guía (clue cells), que son células epiteliales cubiertas de bacterias. La opción C se parece al criterio de secreción, pero es incompleta y no específica por sí sola. No hay aumento de leucocitos, a diferencia de la tricomoniasis; el pH menor de 3,5 es incompatible y el test de aminas debe ser positivo. Perla: la tinción de Gram con puntaje de Nugent es el patrón de referencia.",
+  "explicacion": "La vaginosis bacteriana es un desequilibrio de la microbiota vaginal en el que disminuyen los lactobacilos y proliferan Gardnerella, anaerobios y Mycoplasma hominis. El diagnóstico clínico se hace con los criterios de Amsel, que requieren tres de cuatro: secreción homogénea, blanquecina o grisácea, que reviste las paredes vaginales; pH vaginal mayor de 4,5; prueba de aminas positiva al añadir hidróxido de potasio, con olor a pescado; y presencia de células guía (clue cells), que son células epiteliales cubiertas de bacterias. La secreción espumosa amarillo-verdosa es propia de la tricomoniasis, no de la vaginosis. No hay aumento de leucocitos, a diferencia de la tricomoniasis; el pH menor de 3,5 es incompatible y el test de aminas debe ser positivo. Perla: la tinción de Gram con puntaje de Nugent es el patrón de referencia.",
+  "comentario": "La vaginosis bacteriana es un desequilibrio de la microbiota vaginal en el que disminuyen los lactobacilos y proliferan Gardnerella, anaerobios y Mycoplasma hominis. El diagnóstico clínico se hace con los criterios de Amsel, que requieren tres de cuatro: secreción homogénea, blanquecina o grisácea, que reviste las paredes vaginales; pH vaginal mayor de 4,5; prueba de aminas positiva al añadir hidróxido de potasio, con olor a pescado; y presencia de células guía (clue cells), que son células epiteliales cubiertas de bacterias. La secreción espumosa amarillo-verdosa es propia de la tricomoniasis, no de la vaginosis. No hay aumento de leucocitos, a diferencia de la tricomoniasis; el pH menor de 3,5 es incompatible y el test de aminas debe ser positivo. Perla: la tinción de Gram con puntaje de Nugent es el patrón de referencia.",
   "tema": "Vaginosis bacteriana: criterio diagnóstico",
   "año": 2016,
   "fuentes": "CDC, Sexually Transmitted Infections Treatment Guidelines (MMWR Recomm Rep 2021;70(4)); NTS 240-MINSA/DGIESP-2026 (prevención y control de las ITS, RM 035-2026/MINSA); Williams Obstetricia, 26.ª ed. (2022)",
   "categoria": "Infecciones vaginales",
-  "nota_revision": "Las opciones A y C describen criterios de Amsel; se mantiene A, la más específica, como clave del libro."
+  "nota_revision": "Las opciones A y C describen criterios de Amsel; se mantiene A, la más específica, como clave del libro. Clave del libro: A (sin cambio). La opción C original (secreción blanquecina adherente) también es criterio de Amsel; se reemplazó por una secreción espumosa amarillo-verdosa (tricomoniasis) para que quede una sola correcta."
  },
  {
   "archivo": "neumologia",

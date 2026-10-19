@@ -30,7 +30,7 @@ S("arbol", "RM-PED-002", "En el varón, la malformación anorrectal más frecuen
   "Cirugía pediátrica · malformaciones anorrectales",
   ("Clasificación de Peña", ["Se define por la fístula que une el recto con la uretra, el periné o el vestíbulo.", "Define si basta una anoplastia o hace falta colostomía."]),
   ("Pregunta de teoría", ["¿Cuál es la malformación anorrectal más frecuente en varones?"]),
-  ["Varón: fístula rectouretral (bulbar la más frecuente), perineal y prostática; la rectovesical es rara. Niña: fístula rectovestibular.",
+  ["Varón: fístula rectouretral (bulbar la más frecuente), prostática y perineal (el orden varía según la serie); la rectovesical es rara. Niña: fístula rectovestibular.",
    "Meconio en la orina o aire en la vejiga = fístula urinaria; sin meconio a las 24 h con ano ausente = examinar el periné y esperar.",
    "El 50-60 % se asocia a VACTERL: pedir ecografía renal, ecocardiograma, radiografía de columna y de sacro y pasar sonda gástrica.",
    "Forma baja (fístula perineal): anoplastia neonatal. Forma alta (rectouretral, rectovesical): colostomía y luego anorrectoplastia sagital posterior."],
@@ -126,27 +126,27 @@ S("lectura", "RM-PED-003", "En la estenosis hipertrófica del píloro se corrige
          veredicto=("Ecografía positiva: reponer líquidos y operar", "Piloromiotomía de Fredet-Ramstedt, abierta o laparoscópica.")))
 
 # 7 · EMBUDO · ictericia litiásica
-S("embudo", "RM-CIR-096", "En ictericia con litiasis vesicular se estudia la vía biliar con colangiografía endoscópica",
+S("embudo", "RM-CIR-096", "En ictericia leve con litiasis vesicular (riesgo intermedio) se confirma el cálculo con ecografía endoscópica",
   "Vía biliar · ictericia y coledocolitiasis",
   ("Coledocolitiasis", ["Cálculo en el colédoco: ictericia, cólico y alteración del patrón colestásico.", "Se sospecha en toda ictericia con litiasis vesicular."]),
   ("Mujer de 40 años", ["Tres días de ictericia leve y cólico en hipocondrio derecho, sin fiebre.", "Antecedente de colecistitis crónica. ¿Examen para el diagnóstico?"]),
   ["ASGE 2019: alta probabilidad (cálculo en imagen, colangitis, o bilirrubina > 4 mg/dL con colédoco dilatado) = CPRE directa, que diagnostica y trata.",
-   "Probabilidad intermedia (pruebas hepáticas alteradas, colédoco dilatado o edad > 55): ecoendoscopia o colangiorresonancia antes de la CPRE.",
+   "Probabilidad intermedia (pruebas hepáticas alteradas, colédoco dilatado o edad > 55): ecoendoscopia o colangiorresonancia antes de la CPRE. Es el caso: ictericia leve, sin fiebre ni cálculo visto.",
    "Baja probabilidad: colecistectomía con colangiografía intraoperatoria. La ecografía abdominal inicial no ve bien el colédoco distal.",
    "Bandera roja: fiebre, ictericia y dolor (tríada de Charcot) = colangitis; antibióticos y drenaje urgente de la vía biliar."],
   "ASGE, coledocolitiasis (2019); ESGE (2019); EsSalud-IETSI, GPC N.º 11 de colelitiasis y coledocolitiasis (2018); " + SCHW,
-  op=("¿Examen indicado?", ["No: es menos útil para el colédoco distal", "No: es un estudio de apoyo, no el de elección aquí", "Sí: diagnostica y permite extraer el cálculo", "No: ya no se usa", "No: es el estudio inicial, no ve bien el colédoco"],
+  op=("¿Examen indicado?", ["No: es menos útil para el colédoco distal", "Sí: confirma el cálculo en riesgo intermedio sin exponer a CPRE", "No: se reserva al riesgo alto (cálculo visto, colangitis o bilirrubina > 4 mg/dL)", "No: ya no se usa", "No: es el estudio inicial, no ve bien el colédoco"],
       {0: "Tomografía abdominal", 1: "Ecografía endoscópica", 2: "Colangiografía endoscópica", 3: "Colecistografía endovenosa", 4: "Ecografía abdominal"}),
   d=dict(rotulo="Diagnóstico diferencial de la ictericia del caso", inicio="Ictericia + cólico + litiasis vesicular",
          candidatos=["Hepatitis viral aguda", "Cáncer de cabeza de páncreas", "Colangitis aguda", "Colecistitis aguda", "Coledocolitiasis"],
          pasos=[("¿Hay cólico biliar y litiasis conocida?", ["Hepatitis viral aguda", "Cáncer de cabeza de páncreas"]),
                 ("¿Sin fiebre ni shock?", ["Colangitis aguda", "Colecistitis aguda"])],
-         final=("COLEDOCOLITIASIS", ["Estudiar la vía biliar", "CPRE: diagnostica y extrae el cálculo"]),
-         nota="Si el riesgo es solo intermedio, la colangiorresonancia o la ecoendoscopia confirman sin invadir."),
+         final=("COLEDOCOLITIASIS", ["Riesgo intermedio: confirmar el cálculo", "Ecoendoscopia o colangio-RM; CPRE solo si se confirma"]),
+         nota="La CPRE directa queda para el riesgo alto; en el intermedio, la ecoendoscopia o la colangiorresonancia confirman sin invadir."),
   clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
               filas=[["Alto", "Cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
                      ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o colangiografía/ecografía intraoperatoria"],
-                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=175, nota="El caso (ictericia leve sin fiebre, ni cálculo ni bilirrubina > 4 mg/dL descritos) es riesgo intermedio; pasa a alto si la imagen muestra el cálculo o hay colangitis. La clave del banco elige la colangiografía endoscópica."))
+                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=175, nota="El caso (ictericia leve sin fiebre, ni cálculo ni bilirrubina > 4 mg/dL descritos) es riesgo intermedio; pasa a alto si la imagen muestra el cálculo o hay colangitis. La clave corregida es la ecografía endoscópica."))
 
 # 8 · CHECKLIST · fisura crónica
 S("checklist", "RM-CIR-097", "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",

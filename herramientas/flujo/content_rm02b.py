@@ -142,28 +142,29 @@ S("dos_preguntas", "RM-CIR-121", "En el trauma abdominal cerrado estable con poc
          veredicto=("Estable + FAST positiva = tomografía", "La laparotomía es para el inestable o con peritonitis.")))
 
 # 9 · DECISIÓN · coledocolitiasis y riesgo (ASGE 2019)
-S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor: sospecha de coledocolitiasis, CPRE terapéutica",
+S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor sin datos de imagen: se estratifica primero con ecografía y perfil hepático",
   "Vía biliar · riesgo de coledocolitiasis",
   ("Coledocolitiasis", ["Cálculo en el colédoco: dolor, ictericia y pruebas hepáticas alteradas.", "ASGE 2019 la estratifica en riesgo bajo, intermedio y alto."]),
   ("Mujer de 30 años con colelitiasis", ["Dolor súbito en hipocondrio derecho de 24 h con ictericia.", "¿Qué conducta sigue?"]),
   ["Alto riesgo: cálculo visible en la ecografía, colangitis o bilirrubina > 4 mg/dL con colédoco dilatado: CPRE directa.",
    "Intermedio: pruebas hepáticas alteradas, edad > 55 o colédoco dilatado: ecoendoscopía o colangiorresonancia antes.",
+   "Sin ecografía ni laboratorio no se asigna el riesgo: primero ecografía abdominal y perfil hepático. La CPRE directa solo con riesgo alto.",
    "Bandera roja: colangitis (Charcot: dolor, fiebre, ictericia) o pancreatitis biliar = drenaje urgente.",
    "Después se hace colecistectomía laparoscópica en la misma hospitalización."],
   "ASGE, coledocolitiasis (2019); ESGE (2019); Guías de Tokio 2018 (TG18).",
-  op=("¿Conducta?", ["No: abierta e innecesaria como primer paso", "No: no resuelve la obstrucción", "No: no trata la obstrucción", "Sí: confirma y extrae el cálculo", "No: la exploración queda para la falla endoscópica"],
-      {0: "Colecistectomía abierta + exploración", 1: "Tomografía", 2: "Ecografía", 3: "CPRE con extracción", 4: "Colecistectomía laparoscópica + exploración"}),
+  op=("¿Conducta?", ["No: abierta e innecesaria como primer paso", "No: menos sensible y sin estratificar el riesgo", "Sí: estudio inicial para estratificar el riesgo con el perfil hepático", "No: solo con riesgo alto (cálculo visto, colangitis o bilirrubina > 4 mg/dL)", "No: la exploración queda para la falla endoscópica"],
+      {0: "Colecistectomía abierta + exploración", 1: "Tomografía", 2: "Ecografía abdominal", 3: "CPRE con extracción", 4: "Colecistectomía laparoscópica + exploración"}),
   d=dict(rotulo="Qué hacer según el riesgo y la clínica", eje_y="Riesgo", ancho_filas=190,
          cols=["Sin colangitis", "Con colangitis"],
          rows=[("Alto riesgo", "Cálculo visible o bilirrubina > 4 mg/dL"), ("Riesgo intermedio", "Pruebas alteradas o edad > 55")],
          cells=[[("CPRE terapéutica", ["Extrae el cálculo"]), ("CPRE urgente + antibióticos", ["Drenaje en 24 h"])],
                 [("Ecoendoscopía o colangio-RM", ["Si confirma, CPRE"]), ("CPRE + antibióticos", ["Según gravedad de Tokio"])]],
-         caso=(1, 0), veredicto=("Ictericia + dolor súbito = sospecha de coledocolitiasis", "Si se confirma el cálculo, CPRE con extracción y luego colecistectomía laparoscópica.")),
+         caso=(1, 0), veredicto=("Ictericia + dolor súbito = sospecha de coledocolitiasis", "Primero ecografía y perfil hepático para asignar el riesgo; CPRE solo si es alto o se confirma el cálculo.")),
   clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
               filas=[["Alto", "Cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
                      ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o colangiografía/ecografía intraoperatoria"],
                      ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=150,
-              nota="El caso (ictericia y dolor, sin cálculo en imagen, colangitis ni bilirrubina descrita) es riesgo intermedio; pasa a alto con cálculo visible, colangitis o bilirrubina > 4 mg/dL con colédoco dilatado. La clave del banco elige la CPRE."))
+              nota="El caso (ictericia y dolor, sin cálculo en imagen, colangitis ni bilirrubina descrita) es riesgo intermedio; pasa a alto con cálculo visible, colangitis o bilirrubina > 4 mg/dL con colédoco dilatado. La clave corregida es la ecografía abdominal con perfil hepático, primer paso para estratificar."))
 
 # 10 · CHECKLIST · síndrome compartimental
 S("checklist", "RM-CIR-099", "En el síndrome compartimental el edema muscular eleva la presión del compartimento",

@@ -6,6 +6,7 @@ Uso: python3 residentado/corregir_clave.py RM-XXX-NNN parche.json
 parche.json (todas las claves opcionales):
   {"clave": "C",                       # letra nueva de la clave
    "opciones": {"3": "Texto nuevo."},  # índice (0-4) -> texto de la opción reemplazada
+   "enunciado": "...",                 # reemplaza el enunciado
    "comentario": "...",                # reemplaza comentario y explicacion (90-170 palabras)
    "nota": "Clave del libro: A; corregida a C según <guía año>.",   # se agrega a nota_revision
    "fuentes": ["...", "..."]}          # reemplaza la lista de fuentes
@@ -21,6 +22,10 @@ def aplicar(q):
     if "opciones" in parche:
         for i, t in parche["opciones"].items():
             q["opciones"][int(i)] = t
+    if "enunciado" in parche:
+        q["enunciado"] = parche["enunciado"]
+    if "enunciado" in parche:
+        q["enunciado"] = parche["enunciado"]
     if "clave" in parche:
         q["clave_correcta"] = parche["clave"]
         q["correcta"] = L.index(parche["clave"])
@@ -29,7 +34,7 @@ def aplicar(q):
         n = len(parche["comentario"].split())
         assert 90 <= n <= 175, f"comentario de {n} palabras"
     if "nota" in parche:
-        q["nota_revision"] = (q.get("nota_revision", "") + " " + parche["nota"]).strip()
+        q["nota_revision"] = ((q.get("nota_revision") or "") + " " + parche["nota"]).strip()
     if "fuentes" in parche:
         q["fuentes"] = parche["fuentes"]
     assert len(q["opciones"]) == 5 and q["clave_correcta"] == L[q["correcta"]]
