@@ -30,7 +30,7 @@ S("criterios", "RM-CAR-010", "Hipertrofia ventricular izquierda: el eje del QRS 
               filas=[["Normal", "-30° a +90°", "D1 + / aVF +", "Corazón sano"],
                      ["Desviación izquierda", "-30° a -90°", "D1 + / aVF −", "HVI, hemibloqueo anterior izquierdo, infarto inferior, BRIHH"],
                      ["Desviación derecha", "+90° a +180°", "D1 − / aVF +", "HVD, embolia pulmonar, EPOC, hemibloqueo posterior"],
-                     ["Desviación extrema", "-90° a ±180°", "D1 − / aVF −", "Taquicardia ventricular, hiperpotasemia, marcapasos"]], caso=1, ancho_primera=170))
+                     ["Desviación extrema", "-90° a ±180°", "D1 − / aVF −", "Taquicardia ventricular, hiperpotasemia, marcapasos"]], caso=1, ancho_primera=235))
 
 # 40 · RM-CAR-011 · TARJETAS: contraindicaciones de fibrinólisis
 S("tarjetas", "RM-CAR-011", "Neoplasia intracraneal es contraindicación absoluta de fibrinólisis en el infarto",

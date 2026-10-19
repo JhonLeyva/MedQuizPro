@@ -202,7 +202,7 @@ S("checklist", "RM-INF-043", "El dolor abdominal intenso y continuo es un signo 
   clasif=dict(titulo="Clasificación clínica del dengue (OMS / NTS 211-MINSA)", cols=["Categoría", "Criterios", "Conducta"],
               filas=[["Dengue sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, mialgias o artralgias, cefalea o dolor retroocular, petequias o prueba del torniquete positiva, leucopenia", "Manejo ambulatorio: hidratación oral, paracetamol (sin AINE) y control diario"],
                      ["Dengue con signos de alarma", "Dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos, sangrado de mucosas, letargia o irritabilidad, hepatomegalia > 2 cm, hematocrito en alza con plaquetas en descenso", "Hospitalizar: cristaloides intravenosos guiados por el hematocrito"],
-                     ["Dengue grave", "Shock por fuga de plasma, distrés respiratorio, hemorragia grave o daño orgánico grave (transaminasas ≥ 1000, alteración de conciencia, miocarditis)", "Emergencia o UCI: reanimación con cristaloides y soporte de órganos"]], caso=1))
+                     ["Dengue grave", "Shock por fuga de plasma, distrés respiratorio, hemorragia grave o daño orgánico grave (transaminasas ≥ 1000, alteración de conciencia, miocarditis)", "Emergencia o UCI: reanimación con cristaloides y soporte de órganos"]], caso=1, ancho_primera=190))
 
 # 11 · RELOJ · macrófago en la inmunidad innata
 S("reloj", "RM-CB-046", "El macrófago fagocita y destruye microorganismos y secreta citoquinas inflamatorias",

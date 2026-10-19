@@ -8,7 +8,7 @@ BRAUN = "Braunwald Tratado de Cardiología 12.ª ed."
 MOORE = "Moore Anatomía con orientación clínica 8.ª ed."
 ESC_ACS = "ESC, síndromes coronarios agudos (2023)"
 ESC_AF = "ESC/EACTS, fibrilación auricular (2024)"
-ECGP = "Trazado de enseñanza MedQuizPro (no es de un paciente)"
+ECGP = "Trazado de enseñanza MedQuizPro"
 
 # 64 · RM-CAR-022 · CASCADA: FA y embolia
 S("cascada", "RM-CAR-022", "La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco",
@@ -44,7 +44,7 @@ S("ecg_mapa", "RM-CAR-023", "Infarto lateral: alteraciones en DI y aVL (lateral 
          caso=["Lateral"], territorio_txt="DI y aVL = lateral alto; V5-V6 = lateral bajo: circunfleja o diagonal de la descendente anterior.",
          img=B("Un ECG parecido", PX("ecg_iam_al.jpg", 300, [("flecha", 0.12, 0.46, 0.24, 0.30, "ST elevado (aVL)")], credito=ECGP, fondo="#ffffff"),
                [("ST elevado en aVL", "Cara lateral alta."), ("Espejo en DIII", "ST descendido en la cara opuesta."), ("Arteria", "Circunfleja o diagonal."), ("Extra", "Si hay duda, V7-V9.")],
-               pie="Infarto lateral", rotulo="Así se ve en el ECG"),
+               pie="Imagen referencial de un infarto lateral (ST elevado en aVL)", rotulo="Así se ve en el ECG"),
          veredicto=("Lateral = DI y aVL (y V5-V6)", "Espejo en las derivaciones inferiores.")))
 
 # 66 · RM-CB-021 · MATRIZ: ANP y BNP
@@ -76,10 +76,17 @@ S("decision", "RM-CAR-024", "Hipertensión grado 2 en un paciente con riesgo alt
       {0: "Solo estilo de vida", 1: "Solo monoterapia", 2: "Terapia combinada", 3: "Antiagregantes", 4: "Hipolipemiantes"}),
   d=dict(rotulo="Qué hacer según el grado y el riesgo", eje_y="Grado", ancho_filas=190,
          cols=["Riesgo bajo", "Riesgo alto"],
-         rows=[("Grado 1 (140-159 / 90-99)", "Estadio 1"), ("Grado 2 (≥ 160 / 100)", "Estadio 2 ACC/AHA")],
+         rows=[("Grado 1", "Riesgo según daño de órgano"), ("Grado 2", "Fármaco desde el inicio")],
          cells=[[("Estilo de vida 3 meses", ["Luego fármaco si no controla"]), ("Fármaco + estilo de vida", ["Combinación o monoterapia"])],
                 [("Fármacos desde el inicio", ["Combinación preferida"]), ("COMBINACIÓN + estilo de vida", ["IECA/ARA II + CCB o tiazida"])]],
-         caso=(1, 1), nota="Clave del libro: estilo de vida; las guías 2024-2025 indican combinación en este caso."))
+         caso=(1, 1), nota="Clave del libro: estilo de vida; las guías 2024-2025 indican combinación en este caso."),
+  clasif=dict(titulo="Clasificación de la PA en consultorio (ESC 2018; ACC/AHA 2025)", cols=["Categoría", "PAS / PAD (mmHg)", "Equivalente ACC/AHA 2025", "Conducta"],
+              filas=[["Normal / óptima", "< 130 / < 85", "Normal < 120 / < 80", "Control periódico"],
+                     ["Normal alta", "130-139 / 85-89", "Elevada 120-129 / < 80; estadio 1 130-139 / 80-89", "Estilo de vida; fármaco si el riesgo es alto"],
+                     ["HTA grado 1", "140-159 / 90-99", "Estadio 2 (≥ 140 / ≥ 90)", "Estilo de vida; fármaco según riesgo y daño de órgano"],
+                     ["HTA grado 2", "160-179 / 100-109", "Estadio 2", "Fármaco desde el inicio, de preferencia combinado"],
+                     ["HTA grado 3", "≥ 180 / ≥ 110", "Estadio 2", "Fármaco combinado de inmediato"]], caso=3, ancho_primera=135,
+              nota="La categoría la define la cifra más alta (sistólica o diastólica): 150/100 mmHg = grado 2."))
 
 # 68 · RM-NEU-004 · LECTURA con TC: bronquiectasias
 S("lectura", "RM-NEU-004", "La tomografía de alta resolución es el examen que mejor confirma las bronquiectasias",
@@ -96,7 +103,7 @@ S("lectura", "RM-NEU-004", "La tomografía de alta resolución es el examen que 
          img=PX("rm/bronquiectasia_b.jpg", 400), pines=[(0.62, 0.70)],
          pasos=[("Bronquio dilatado junto a su arteria", "Anillo de sello: el bronquio es mayor que el vaso.", True), ("Bronquios cerca de la pleura", "Visibles a menos de 1 cm de ella.", False),
                 ("Paredes engrosadas", "Inflamación crónica.", False), ("Clínica", "Tos con esputo purulento; hemoptisis.", False)],
-         img_pie="Bronquiectasias (flecha)", veredicto=("TC de alta resolución = prueba de elección", "Confirma la dilatación bronquial.")))
+         img_pie="Imagen referencial de bronquiectasias (la flecha roja marca la dilatación)", veredicto=("TC de alta resolución = prueba de elección", "Confirma la dilatación bronquial.")))
 
 # 69 · RM-CIR-017 · REGLA: reflujo venoso
 S("regla", "RM-CIR-017", "El eco Doppler dúplex es el método ideal para diagnosticar la insuficiencia venosa periférica",
@@ -115,7 +122,7 @@ S("regla", "RM-CIR-017", "El eco Doppler dúplex es el método ideal para diagno
                       bandas=[(0, 0.5, "Normal", 0), (0.5, 1, "Anormal superficial", 2), (1, 3, "Anormal profundo", 3)], caso=1.5, caso_txt="Reflujo patológico")],
          claves_titulo="Qué mide el dúplex",
          claves=[("Reflujo valvular", ["Segundos de reflujo"], True), ("Compresibilidad", ["Ausente en la trombosis"], False), ("Calibre", ["Safena > 3 mm"], False)]),
-  banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Várices", "Venas dilatadas y tortuosas."), ("Pigmentación", "Dermatitis ocre por estasis."), ("Estudio", "Dúplex en bipedestación."), ("Tratamiento", "Compresión o ablación.")], pie="Insuficiencia venosa"))
+  banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Várices", "Venas dilatadas y tortuosas."), ("Pigmentación", "Dermatitis ocre por estasis."), ("Estudio", "Dúplex en bipedestación."), ("Tratamiento", "Compresión o ablación.")], pie="Imagen referencial de várices de miembro inferior"))
 
 # 70 · RM-END-002 · CHECKLIST: preparación del feocromocitoma
 S("checklist", "RM-END-002", "Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias",
@@ -181,8 +188,7 @@ S("criterios", "RM-CB-022", "Los nodos sinusal y auriculoventricular se irrigan 
   d=dict(rotulo="Qué arteria irriga qué", lista_titulo="Nodos y arteria",
          items=[("Nodo sinusal", True, "Coronaria derecha 55-65 %"), ("Nodo AV", True, "Coronaria derecha 80-90 %"), ("Haz de His", None, "Rama del nodo AV y DA"),
                 ("Ramas del haz", None, "Descendente anterior"), ("Oclusión de la derecha", True, "Bradicardia y bloqueo AV")],
-         umbral="Coronaria derecha = nodos sinusal y AV", veredicto="La coronaria derecha irriga ambos nodos en la mayoría.",
-         img=D(lambda s, x, y: I.corazon4(s, x, y, "normal", sc=0.62), 230, 190), img_titulo="Corazón (esquema de 4 cámaras)", img_pie="Nodo sinusal en la aurícula derecha.", conteo="3 de 5"))
+         umbral="Coronaria derecha = nodos sinusal y AV", veredicto="La coronaria derecha irriga ambos nodos en la mayoría.", conteo="3 de 5"))
 
 # 74 · RM-CAR-027 · TARJETAS: shock de bajo gasto
 S("tarjetas", "RM-CAR-027", "Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo",
@@ -212,11 +218,11 @@ S("lectura", "RM-CIR-018", "Herida torácica baja con ruidos hidroaéreos en el 
   ATLS + "; Schwartz Principios de Cirugía 11.ª ed.",
   op=("¿Diagnóstico?", ["Sí: ruidos hidroaéreos en el tórax", "No: no explica los ruidos hidroaéreos", "No: no explica los ruidos hidroaéreos", "No: sin signos peritoneales", "No: sin hiperresonancia ni desviación"],
       {0: "Hernia diafragmática traumática", 1: "Taponamiento cardiaco", 2: "Hemotórax", 3: "Perforación gástrica", 4: "Neumotórax"}),
-  d=dict(rotulo="Lee la tomografía en este orden", img_titulo="TC con visceras sobre el diafragma (otro caso, derecho)",
+  d=dict(rotulo="Lee la tomografía en este orden", img_titulo="TC con vísceras sobre el diafragma",
          img=PX("rm/hernia_b.jpg", 330, credito="Duan et al. · PMC13638662 · CC BY 4.0"), pines=[(0.45, 0.22), (0.2, 0.40)],
          pasos=[("Vísceras por encima del diafragma", "Estómago o colon dentro del tórax.", True), ("Línea del diafragma interrumpida", "Defecto del hemidiafragma.", False),
                 ("Pulmón comprimido", "Disnea y cianosis.", False), ("Conducta", "Cirugía urgente; evitar el tubo de tórax a ciegas.", False)],
-         img_pie="Hernia diafragmática: abdomen en el tórax", veredicto=("Ruidos hidroaéreos en el tórax = hernia diafragmática", "Laparotomía y reparación del diafragma.")))
+         img_pie="Imagen referencial de una hernia diafragmática derecha: vísceras en el tórax", veredicto=("Ruidos hidroaéreos en el tórax = hernia diafragmática", "Laparotomía y reparación del diafragma.")))
 
 # 76 · RM-CAR-028 · CASCADA + radiografía: edema pulmonar cardiogénico
 S("cascada", "RM-CAR-028", "En el edema pulmonar cardiogénico aumenta la presión hidrostática capilar",
@@ -234,7 +240,7 @@ S("cascada", "RM-CAR-028", "En el edema pulmonar cardiogénico aumenta la presi�
                 ("Sube la presión capilar pulmonar", "> 18-25 mmHg", [("Trasudado hacia los alvéolos", "Presión hidrostática aumentada", True)]),
                 ("Edema agudo de pulmón", "Disnea, ortopnea, estertores", [("O₂/VNI, diuréticos y nitratos", "Tratar la causa", False)])],
          veredicto=("Aumento de la presión hidrostática", "El SDRA es lo contrario: daño de la membrana, presión normal.")),
-  banda=B("Así se ve en la radiografía", PX("edema_ap.jpg", 300), [("Opacidades hiliares bilaterales", "Patrón en alas de mariposa."), ("Redistribución vascular", "Hacia los vértices."), ("Líneas B de Kerley", "Si hay edema intersticial."), ("Acompañantes", "Cardiomegalia y derrame pleural.")], pie="Edema pulmonar"))
+  banda=B("Así se ve en la radiografía", PX("edema_ap.jpg", 300), [("Opacidades hiliares bilaterales", "Patrón en alas de mariposa."), ("Redistribución vascular", "Hacia los vértices."), ("Líneas B de Kerley", "Si hay edema intersticial."), ("Acompañantes", "Cardiomegalia y derrame pleural.")], pie="Imagen referencial de edema pulmonar cardiogénico en radiografía de tórax"))
 
 # 77 · RM-CIR-019 · ÁRBOL: várices
 S("arbol", "RM-CIR-019", "La prueba ideal para evaluar las várices es el eco Doppler",
