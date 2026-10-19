@@ -1593,6 +1593,847 @@
       "comentario": "Primero hay que identificar cuál de los cuatro fármacos está causando el efecto adverso, y luego reemplazarlo por otro que haga el mismo trabajo sin ese problema. El paciente desarrolló crecimiento de las mamas, la ginecomastia, y disminución de la libido. De su tratamiento, el responsable clásico de esto es la espironolactona: es un antagonista de la aldosterona útil en la insuficiencia cardiaca, pero tiene una acción antiandrogénica, es decir bloquea también los receptores de las hormonas masculinas, y por eso produce ginecomastia y baja de la libido. Entonces hay que quitar la espironolactona, pero sin perder el beneficio de bloquear la aldosterona, que mejora el pronóstico en la insuficiencia cardiaca. La solución es la eplerenona, que es también un antagonista de la aldosterona pero mucho más selectivo: hace el mismo efecto sobre el corazón sin ese bloqueo antiandrogénico, de modo que no causa ginecomastia. Por eso el reemplazo correcto es la eplerenona. El enalapril es un IECA y el paciente ya recibe losartán, que es un ARA-II con el mismo mecanismo sobre el sistema renina-angiotensina; cambiar a enalapril no sustituye el bloqueo de la aldosterona que se está retirando ni corrige nada. La furosemida es un diurético de asa que ayuda a la congestión, pero no reemplaza el efecto de la espironolactona sobre la aldosterona ni tiene su beneficio pronóstico. El metoprolol es un betabloqueador, del mismo grupo que el bisoprolol que ya toma, así que no tiene relación con la ginecomastia ni con la aldosterona; el fármaco que hay que sustituir es la espironolactona y su reemplazo lógico es la eplerenona. Ginecomastia y baja de la libido en un paciente que toma espironolactona = efecto antiandrogénico de la espironolactona. Se reemplaza por eplerenona, un antagonista de la aldosterona selectivo que conserva el beneficio cardiaco sin producir ginecomastia.",
       "tema": "Ginecomastia por espironolactona: cambiar a eplerenona",
       "año": 2026
+    },
+    {
+      "id": "RM-CAR-001",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "En la clasificación de antihipertensivos según el mecanismo de acción, el atenolol corresponde a un...",
+      "opciones": [
+        "Antagonista del receptor beta.",
+        "Antagonista del receptor alfa.",
+        "Agente adrenérgico con acción central.",
+        "Antagonista mixto del receptor alfa y beta.",
+        "Bloqueante de neuronas adrenérgicas."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El atenolol es un betabloqueante cardioselectivo (bloquea los receptores beta-1), hidrofílico y de eliminación renal. Reduce la frecuencia cardiaca, la contractilidad y la liberación de renina, de ahí su efecto antihipertensivo y antianginoso. Los fármacos terminados en «-olol» son betabloqueantes; el labetalol y el carvedilol son bloqueantes mixtos alfa y beta; la doxazosina y la prazosina son antagonistas alfa-1; la metildopa y la clonidina actúan de forma central sobre receptores alfa-2; la reserpina y la guanetidina bloquean neuronas adrenérgicas. Aunque el betabloqueo ya no es de primera línea en la hipertensión no complicada (se prefiere IECA, ARA II, calcioantagonistas y tiazidas), sigue indicado tras el infarto, en insuficiencia cardiaca con FE reducida (bisoprolol, carvedilol, metoprolol succinato) y en arritmias. El atenolol se ajusta en insuficiencia renal.",
+      "comentario": "El atenolol es un betabloqueante cardioselectivo (bloquea los receptores beta-1), hidrofílico y de eliminación renal. Reduce la frecuencia cardiaca, la contractilidad y la liberación de renina, de ahí su efecto antihipertensivo y antianginoso. Los fármacos terminados en «-olol» son betabloqueantes; el labetalol y el carvedilol son bloqueantes mixtos alfa y beta; la doxazosina y la prazosina son antagonistas alfa-1; la metildopa y la clonidina actúan de forma central sobre receptores alfa-2; la reserpina y la guanetidina bloquean neuronas adrenérgicas. Aunque el betabloqueo ya no es de primera línea en la hipertensión no complicada (se prefiere IECA, ARA II, calcioantagonistas y tiazidas), sigue indicado tras el infarto, en insuficiencia cardiaca con FE reducida (bisoprolol, carvedilol, metoprolol succinato) y en arritmias. El atenolol se ajusta en insuficiencia renal.",
+      "tema": "Atenolol: antagonista beta",
+      "año": 2014,
+      "fuentes": "ACC/AHA, guía de hipertensión arterial (2025); ESC, guía de hipertensión arterial (2024); Katzung Farmacología Básica y Clínica 15.ª ed."
+    },
+    {
+      "id": "RM-CAR-002",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es el primer mecanismo compensador de la caída de presión arterial en el shock?",
+      "opciones": [
+        "Taquipnea.",
+        "Taquicardia sinusal.",
+        "Elevación del factor natriurético atrial.",
+        "Elevación de renina.",
+        "Aumento de la retención de sodio."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Ante la caída de la presión arterial, los barorreceptores del seno carotídeo y del arco aórtico reducen su descarga y, en segundos, el centro vasomotor bulbar activa el sistema simpático: aumentan la frecuencia cardiaca (taquicardia sinusal), la contractilidad y la vasoconstricción arterial y venosa, y se liberan adrenalina y noradrenalina. Es el mecanismo más rápido. En minutos a horas se activan el eje renina-angiotensina-aldosterona y la vasopresina (retención de sodio y agua), y en días la eritropoyetina y la reposición proteica. El factor natriurético atrial se eleva cuando hay sobrecarga de volumen, no en la hipovolemia. Clínica: la taquicardia es el signo más precoz de hemorragia, mientras que la hipotensión es tardía (en el adulto joven sano aparece cuando se pierde más del 30 % de la volemia, clase III de ATLS).",
+      "comentario": "Ante la caída de la presión arterial, los barorreceptores del seno carotídeo y del arco aórtico reducen su descarga y, en segundos, el centro vasomotor bulbar activa el sistema simpático: aumentan la frecuencia cardiaca (taquicardia sinusal), la contractilidad y la vasoconstricción arterial y venosa, y se liberan adrenalina y noradrenalina. Es el mecanismo más rápido. En minutos a horas se activan el eje renina-angiotensina-aldosterona y la vasopresina (retención de sodio y agua), y en días la eritropoyetina y la reposición proteica. El factor natriurético atrial se eleva cuando hay sobrecarga de volumen, no en la hipovolemia. Clínica: la taquicardia es el signo más precoz de hemorragia, mientras que la hipotensión es tardía (en el adulto joven sano aparece cuando se pierde más del 30 % de la volemia, clase III de ATLS).",
+      "tema": "Primer mecanismo compensador en el shock",
+      "año": 2014,
+      "fuentes": "ATLS, 11.ª ed. (2025); Guyton y Hall Tratado de Fisiología Médica 14.ª ed."
+    },
+    {
+      "id": "RM-CAR-003",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente con presión arterial media disminuida, pulso filiforme, extremidades frías y llenado capilar lento. El tipo de shock que presenta es con...",
+      "opciones": [
+        "Resistencia vascular sistémica baja.",
+        "Gasto cardiaco alto.",
+        "Gasto cardiaco bajo.",
+        "Presión venosa central baja con gasto cardiaco alto.",
+        "Resistencia vascular normal y gasto cardiaco alto."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El shock es un estado de hipoperfusión tisular con aporte de oxígeno insuficiente para las demandas metabólicas. Se clasifica en cuatro tipos: hipovolémico, cardiogénico, obstructivo (embolia pulmonar, taponamiento, neumotórax a tensión) y distributivo (séptico, anafiláctico, neurogénico). Los tres primeros son de gasto cardiaco bajo y se presentan con piel fría, pálida y sudorosa, pulso filiforme, llenado capilar lento y oliguria, con resistencia vascular sistémica compensatoriamente alta. El shock distributivo es de gasto alto y resistencias bajas: la piel está caliente (shock séptico temprano) y el pulso es saltón. La monitorización con catéter de Swan-Ganz o con ecografía cardiaca puntual (POCUS) permite diferenciar: presión de enclavamiento alta indica fallo cardiogénico, baja indica hipovolemia.",
+      "comentario": "El shock es un estado de hipoperfusión tisular con aporte de oxígeno insuficiente para las demandas metabólicas. Se clasifica en cuatro tipos: hipovolémico, cardiogénico, obstructivo (embolia pulmonar, taponamiento, neumotórax a tensión) y distributivo (séptico, anafiláctico, neurogénico). Los tres primeros son de gasto cardiaco bajo y se presentan con piel fría, pálida y sudorosa, pulso filiforme, llenado capilar lento y oliguria, con resistencia vascular sistémica compensatoriamente alta. El shock distributivo es de gasto alto y resistencias bajas: la piel está caliente (shock séptico temprano) y el pulso es saltón. La monitorización con catéter de Swan-Ganz o con ecografía cardiaca puntual (POCUS) permite diferenciar: presión de enclavamiento alta indica fallo cardiogénico, baja indica hipovolemia.",
+      "tema": "Shock con gasto cardiaco bajo",
+      "año": 2014,
+      "fuentes": "Surviving Sepsis Campaign (2021); ATLS 11.ª ed. (2025); Harrison Principios de Medicina Interna 22.ª ed.",
+      "nota_revision": "Se reemplazaron las opciones A, D por redacciones que no coincidan con el shock de bajo gasto (en el original «resistencia vascular alta» también era correcta)."
+    },
+    {
+      "id": "RM-CAR-004",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes hallazgos clínicos son más específicos de insuficiencia cardiaca derecha?",
+      "opciones": [
+        "Ingurgitación yugular, hepatomegalia y ascitis.",
+        "Disnea paroxística nocturna, palpitaciones y tos.",
+        "Síncope, angina y arritmia.",
+        "Edema, hemoptisis y ortopnea.",
+        "Nicturia, ictericia y hepatomegalia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La falla del ventrículo derecho produce congestión venosa sistémica: ingurgitación yugular, reflujo hepatoyugular, hepatomegalia dolorosa, ascitis, derrame pleural y edema de miembros inferiores. La falla izquierda causa congestión pulmonar: disnea de esfuerzo, ortopnea, disnea paroxística nocturna, tos y estertores. En la práctica, la causa más frecuente de insuficiencia derecha es la insuficiencia izquierda (la fisiopatología de la falla biventricular), seguida del cor pulmonale por EPOC, hipertensión pulmonar y embolia pulmonar. La presión venosa yugular elevada y el reflujo hepatoyugular tienen buena especificidad para presiones de llenado altas. Orienta el tratamiento: diuréticos de asa, antagonistas de mineralocorticoides, y en la insuficiencia con FE reducida se añaden IECA/ARNI, betabloqueantes e iSGLT2 (ESC 2023).",
+      "comentario": "La falla del ventrículo derecho produce congestión venosa sistémica: ingurgitación yugular, reflujo hepatoyugular, hepatomegalia dolorosa, ascitis, derrame pleural y edema de miembros inferiores. La falla izquierda causa congestión pulmonar: disnea de esfuerzo, ortopnea, disnea paroxística nocturna, tos y estertores. En la práctica, la causa más frecuente de insuficiencia derecha es la insuficiencia izquierda (la fisiopatología de la falla biventricular), seguida del cor pulmonale por EPOC, hipertensión pulmonar y embolia pulmonar. La presión venosa yugular elevada y el reflujo hepatoyugular tienen buena especificidad para presiones de llenado altas. Orienta el tratamiento: diuréticos de asa, antagonistas de mineralocorticoides, y en la insuficiencia con FE reducida se añaden IECA/ARNI, betabloqueantes e iSGLT2 (ESC 2023).",
+      "tema": "Signos de insuficiencia cardiaca derecha",
+      "año": 2014,
+      "fuentes": "ESC, guía de insuficiencia cardiaca (actualización 2023); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-005",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿En qué patología valvular cardiaca se ausculta el soplo de Austin Flint?",
+      "opciones": [
+        "Estenosis mitral.",
+        "Insuficiencia aórtica.",
+        "Insuficiencia tricuspídea.",
+        "Estenosis aórtica.",
+        "Estenosis tricuspídea."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El soplo de Austin Flint es un retumbo mesodiastólico o presistólico apical que aparece en la insuficiencia aórtica grave: el chorro regurgitante golpea el velo anterior de la válvula mitral y lo hace vibrar, limitando parcialmente su apertura (estenosis mitral funcional). Se diferencia de la estenosis mitral orgánica porque no hay chasquido de apertura ni primer ruido intenso. Otros signos de insuficiencia aórtica: soplo diastólico aspirativo en el borde esternal izquierdo, presión de pulso amplia, pulso de Corrigan en martillo de agua, signo de Musset (cabeceo), pulso de Quincke (capilar) y signo de Duroziez. En la insuficiencia aórtica aguda, por ejemplo por endocarditis o disección, el cuadro es más grave porque el ventrículo no se ha dilatado: edema pulmonar y shock, y la cirugía es urgente.",
+      "comentario": "El soplo de Austin Flint es un retumbo mesodiastólico o presistólico apical que aparece en la insuficiencia aórtica grave: el chorro regurgitante golpea el velo anterior de la válvula mitral y lo hace vibrar, limitando parcialmente su apertura (estenosis mitral funcional). Se diferencia de la estenosis mitral orgánica porque no hay chasquido de apertura ni primer ruido intenso. Otros signos de insuficiencia aórtica: soplo diastólico aspirativo en el borde esternal izquierdo, presión de pulso amplia, pulso de Corrigan en martillo de agua, signo de Musset (cabeceo), pulso de Quincke (capilar) y signo de Duroziez. En la insuficiencia aórtica aguda, por ejemplo por endocarditis o disección, el cuadro es más grave porque el ventrículo no se ha dilatado: edema pulmonar y shock, y la cirugía es urgente.",
+      "tema": "Soplo de Austin Flint",
+      "año": 2014,
+      "fuentes": "ACC/AHA, guía de valvulopatías (2020); ESC/EACTS, guía de valvulopatías (2021); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-006",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es el hallazgo ecocardiográfico que sugiere taponamiento cardiaco?",
+      "opciones": [
+        "Miocardio engrosado.",
+        "Engrosamiento pericárdico.",
+        "Calcificación pericárdica.",
+        "Ventrículo derecho pequeño.",
+        "Derrame pericárdico escaso."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El taponamiento cardiaco es un diagnóstico hemodinámico: la presión intrapericárdica supera la presión de las cámaras derechas, que son de baja presión, y las colapsa. En la ecocardiografía se ve colapso diastólico de la aurícula derecha (el signo más sensible) y del ventrículo derecho (el más específico), con ventrículo derecho pequeño, vena cava inferior dilatada sin variación respiratoria y variación respiratoria exagerada de los flujos mitral y tricuspídeo. La velocidad con que se acumula el líquido importa más que su cantidad: 150-200 mL de sangre súbitos (trauma o rotura) pueden causar taponamiento, mientras que 1 L de derrame crónico se tolera. Clínica: tríada de Beck (hipotensión, ingurgitación yugular y ruidos cardiacos apagados) y pulso paradójico. El tratamiento es la pericardiocentesis o la ventana pericárdica.",
+      "comentario": "El taponamiento cardiaco es un diagnóstico hemodinámico: la presión intrapericárdica supera la presión de las cámaras derechas, que son de baja presión, y las colapsa. En la ecocardiografía se ve colapso diastólico de la aurícula derecha (el signo más sensible) y del ventrículo derecho (el más específico), con ventrículo derecho pequeño, vena cava inferior dilatada sin variación respiratoria y variación respiratoria exagerada de los flujos mitral y tricuspídeo. La velocidad con que se acumula el líquido importa más que su cantidad: 150-200 mL de sangre súbitos (trauma o rotura) pueden causar taponamiento, mientras que 1 L de derrame crónico se tolera. Clínica: tríada de Beck (hipotensión, ingurgitación yugular y ruidos cardiacos apagados) y pulso paradójico. El tratamiento es la pericardiocentesis o la ventana pericárdica.",
+      "tema": "Hallazgo ecocardiográfico del taponamiento",
+      "año": 2014,
+      "fuentes": "ESC, guía de enfermedades del pericardio (2015, vigente); ASE, ecocardiografía en el derrame pericárdico (2013); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-007",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 62 años, hipertenso, presenta dolor torácico retroesternal y diaforesis. EKG: supradesnivel del segmento ST y ondas T negativas de V1 a V4. ¿Cuál es el mejor marcador cardiaco que confirma el diagnóstico de infarto de miocardio agudo?",
+      "opciones": [
+        "Troponina I.",
+        "LDH.",
+        "Mioglobina.",
+        "CPK-MB.",
+        "Péptido natriurético atrial."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las troponinas cardiacas (I y T) son el biomarcador de elección para diagnosticar el infarto: son específicas del cardiomiocito, aparecen en sangre 2-4 horas tras la lesión (con los ensayos de alta sensibilidad se detectan desde la primera hora), alcanzan su pico a las 12-48 horas y se mantienen elevadas 7-14 días. La CPK-MB es menos específica y vuelve a lo normal en 48-72 horas, por lo que sirve para detectar reinfarto; la mioglobina sube rápido pero es muy inespecífica; la LDH es obsoleta. El péptido natriurético mide insuficiencia cardiaca. Importante: ante un STEMI el diagnóstico es clínico y electrocardiográfico y la reperfusión no debe esperar la troponina. La cuarta definición universal (2018) exige una elevación y/o caída de troponina con al menos un percentil 99 superior al límite, más isquemia clínica, electrocardiográfica o por imagen.",
+      "comentario": "Las troponinas cardiacas (I y T) son el biomarcador de elección para diagnosticar el infarto: son específicas del cardiomiocito, aparecen en sangre 2-4 horas tras la lesión (con los ensayos de alta sensibilidad se detectan desde la primera hora), alcanzan su pico a las 12-48 horas y se mantienen elevadas 7-14 días. La CPK-MB es menos específica y vuelve a lo normal en 48-72 horas, por lo que sirve para detectar reinfarto; la mioglobina sube rápido pero es muy inespecífica; la LDH es obsoleta. El péptido natriurético mide insuficiencia cardiaca. Importante: ante un STEMI el diagnóstico es clínico y electrocardiográfico y la reperfusión no debe esperar la troponina. La cuarta definición universal (2018) exige una elevación y/o caída de troponina con al menos un percentil 99 superior al límite, más isquemia clínica, electrocardiográfica o por imagen.",
+      "tema": "Mejor marcador de infarto de miocardio",
+      "año": 2014,
+      "fuentes": "ESC, guía de síndromes coronarios agudos (2023); Cuarta Definición Universal del Infarto de Miocardio (2018); AHA/ACC, guía de dolor torácico (2021)"
+    },
+    {
+      "id": "RM-CAR-008",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuáles son los factores de riesgo cardiovascular más importantes para la aparición de arteriopatía coronaria?",
+      "opciones": [
+        "Hipertensión arterial, diabetes mellitus, hiperlipidemia.",
+        "Hipertensión arterial, diabetes mellitus, obesidad.",
+        "Hipertensión arterial, tabaquismo, sedentarismo.",
+        "Tabaquismo, diabetes mellitus, estrés.",
+        "Estrés, tabaquismo, sedentarismo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los factores de riesgo cardiovascular se dividen en no modificables (edad, sexo masculino o menopausia, antecedentes familiares de enfermedad coronaria prematura) y modificables. Los de mayor peso poblacional (estudio INTERHEART) son la dislipidemia (relación ApoB/ApoA1 o LDL elevado), el tabaquismo, la hipertensión arterial y la diabetes mellitus, seguidos de obesidad abdominal, factores psicosociales, dieta pobre en frutas y verduras, falta de ejercicio y alcohol. La triada hipertensión, diabetes y dislipidemia es la más importante en la aterogénesis y la que más se emplea para estimar el riesgo (scores como SCORE2, Framingham o las ecuaciones de cohortes agrupadas). Metas: LDL < 70 mg/dL en prevención secundaria (< 55 mg/dL en riesgo muy alto según ESC 2019/2025) y PA < 130/80 mmHg en la mayoría.",
+      "comentario": "Los factores de riesgo cardiovascular se dividen en no modificables (edad, sexo masculino o menopausia, antecedentes familiares de enfermedad coronaria prematura) y modificables. Los de mayor peso poblacional (estudio INTERHEART) son la dislipidemia (relación ApoB/ApoA1 o LDL elevado), el tabaquismo, la hipertensión arterial y la diabetes mellitus, seguidos de obesidad abdominal, factores psicosociales, dieta pobre en frutas y verduras, falta de ejercicio y alcohol. La triada hipertensión, diabetes y dislipidemia es la más importante en la aterogénesis y la que más se emplea para estimar el riesgo (scores como SCORE2, Framingham o las ecuaciones de cohortes agrupadas). Metas: LDL < 70 mg/dL en prevención secundaria (< 55 mg/dL en riesgo muy alto según ESC 2019/2025) y PA < 130/80 mmHg en la mayoría.",
+      "tema": "Factores de riesgo de arteriopatía coronaria",
+      "año": 2014,
+      "fuentes": "ESC/EAS, guía de dislipidemias (2019, actualización focal 2025); ACC/AHA, guía de hipertensión (2025); estudio INTERHEART (Lancet 2004)"
+    },
+    {
+      "id": "RM-CAR-009",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes enzimas se incrementa durante el infarto agudo de miocardio?",
+      "opciones": [
+        "Creatinfosfoquinasa.",
+        "Fosfolipasa.",
+        "Fosfoquinasa.",
+        "Gammaglutamiltransferasa.",
+        "Fosforilasa."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La creatinfosfoquinasa (CK) se libera del músculo estriado y de los cardiomiocitos dañados; su fracción MB (CK-MB) es más específica del corazón, sube a las 3-6 horas, alcanza el pico a las 12-24 horas y se normaliza en 48-72 horas. La gamma-glutamil transferasa es un marcador de colestasis y consumo de alcohol; la fosfolipasa participa en la pancreatitis y en la señalización celular; la fosforilasa y la fosfoquinasa intervienen en el metabolismo del glucógeno. Aunque históricamente la CK-MB era el marcador estándar, hoy el marcador recomendado es la troponina cardiaca de alta sensibilidad. La CK-MB conserva utilidad para fechar un infarto reciente y para detectar reinfarto precoz.",
+      "comentario": "La creatinfosfoquinasa (CK) se libera del músculo estriado y de los cardiomiocitos dañados; su fracción MB (CK-MB) es más específica del corazón, sube a las 3-6 horas, alcanza el pico a las 12-24 horas y se normaliza en 48-72 horas. La gamma-glutamil transferasa es un marcador de colestasis y consumo de alcohol; la fosfolipasa participa en la pancreatitis y en la señalización celular; la fosforilasa y la fosfoquinasa intervienen en el metabolismo del glucógeno. Aunque históricamente la CK-MB era el marcador estándar, hoy el marcador recomendado es la troponina cardiaca de alta sensibilidad. La CK-MB conserva utilidad para fechar un infarto reciente y para detectar reinfarto precoz.",
+      "tema": "Enzima que se eleva en el infarto de miocardio",
+      "año": 2014,
+      "fuentes": "Cuarta Definición Universal del Infarto de Miocardio (2018); ESC, síndromes coronarios agudos (2023); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-CAR-010",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 75 años con diagnóstico de hipertensión arterial severa desde hace 15 años. Electrocardiograma: hipertrofia ventricular izquierda. ¿En cuál de los siguientes grados se encuentra el eje del vector del QRS?",
+      "opciones": [
+        "+30º.",
+        "+120º.",
+        "-150º.",
+        "-60º.",
+        "+90º."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El eje eléctrico normal del QRS va de -30° a +90° (algunos autores hasta +110°). En la hipertrofia del ventrículo izquierdo la masa muscular aumentada desvía el eje hacia la izquierda, con un eje de -30° a -90° (desviación izquierda). Otras causas de desviación izquierda: hemibloqueo anterior izquierdo, infarto inferior (ondas Q en D2, D3, aVF), bloqueo de rama izquierda, Wolff-Parkinson-White y cardiopatías congénitas como la atresia tricuspídea. El eje desviado a la derecha (> +110°) se ve en hipertrofia del ventrículo derecho, embolia pulmonar, EPOC, hemibloqueo posterior y dextrocardia. Se calcula mirando el QRS en D1 y aVF: ambos positivos, eje normal; D1 positivo y aVF negativo, desviación izquierda; D1 negativo y aVF positivo, desviación derecha. Criterios de HVI: Sokolow-Lyon (S en V1 + R en V5 o V6 ≥ 35 mm) y Cornell.",
+      "comentario": "El eje eléctrico normal del QRS va de -30° a +90° (algunos autores hasta +110°). En la hipertrofia del ventrículo izquierdo la masa muscular aumentada desvía el eje hacia la izquierda, con un eje de -30° a -90° (desviación izquierda). Otras causas de desviación izquierda: hemibloqueo anterior izquierdo, infarto inferior (ondas Q en D2, D3, aVF), bloqueo de rama izquierda, Wolff-Parkinson-White y cardiopatías congénitas como la atresia tricuspídea. El eje desviado a la derecha (> +110°) se ve en hipertrofia del ventrículo derecho, embolia pulmonar, EPOC, hemibloqueo posterior y dextrocardia. Se calcula mirando el QRS en D1 y aVF: ambos positivos, eje normal; D1 positivo y aVF negativo, desviación izquierda; D1 negativo y aVF positivo, desviación derecha. Criterios de HVI: Sokolow-Lyon (S en V1 + R en V5 o V6 ≥ 35 mm) y Cornell.",
+      "tema": "Eje eléctrico en la hipertrofia ventricular izquierda",
+      "año": 2014,
+      "fuentes": "AHA/ACC/HRS, estandarización e interpretación del ECG (2009); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-011",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 55 años acude a emergencia con síntomas compatibles de infarto de miocardio y bloqueo de rama izquierda de novo. Si se requiere iniciar terapia fibrinolítica, ¿cuál sería la contraindicación absoluta?",
+      "opciones": [
+        "Hipertensión grave no controlada.",
+        "Punciones vasculares.",
+        "Antecedente de úlcera péptica.",
+        "Neoplasia intracraneal.",
+        "Reanimación cardiopulmonar prolongada."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El bloqueo de rama izquierda nuevo en un cuadro de dolor torácico se trata como un infarto con elevación del ST: reperfusión urgente, de preferencia con angioplastia primaria en menos de 120 minutos; si no es posible, fibrinólisis lo antes posible (idealmente en ≤ 10 min del diagnóstico según ESC, ≤ 30 min de la llegada según AHA). Contraindicaciones absolutas (ESC 2023): hemorragia intracraneal previa, ictus isquémico en los 6 meses previos, neoplasia o malformación vascular del sistema nervioso central, traumatismo mayor o cirugía en el último mes, sangrado gastrointestinal en el último mes, trastorno hemorrágico conocido y disección aórtica. La hipertensión grave no controlada (> 180/110) y la reanimación prolongada son contraindicaciones relativas. Tras la fibrinólisis se debe trasladar a un centro con angioplastia para coronariografía a las 2-24 horas.",
+      "comentario": "El bloqueo de rama izquierda nuevo en un cuadro de dolor torácico se trata como un infarto con elevación del ST: reperfusión urgente, de preferencia con angioplastia primaria en menos de 120 minutos; si no es posible, fibrinólisis lo antes posible (idealmente en ≤ 10 min del diagnóstico según ESC, ≤ 30 min de la llegada según AHA). Contraindicaciones absolutas (ESC 2023): hemorragia intracraneal previa, ictus isquémico en los 6 meses previos, neoplasia o malformación vascular del sistema nervioso central, traumatismo mayor o cirugía en el último mes, sangrado gastrointestinal en el último mes, trastorno hemorrágico conocido y disección aórtica. La hipertensión grave no controlada (> 180/110) y la reanimación prolongada son contraindicaciones relativas. Tras la fibrinólisis se debe trasladar a un centro con angioplastia para coronariografía a las 2-24 horas.",
+      "tema": "Contraindicación absoluta de fibrinólisis",
+      "año": 2014,
+      "fuentes": "ESC, guía de síndromes coronarios agudos (2023); AHA/ACC, guía de revascularización coronaria (2021)"
+    },
+    {
+      "id": "RM-CAR-012",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 80 años acude a emergencia por presentar síncope mientras subía la escalera. Examen físico: soplo sistólico eyectivo III/VI. Electrocardiograma: ritmo sinusal normal con signos de hipertrofia del ventrículo izquierdo. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Estenosis aórtica.",
+        "Insuficiencia aórtica.",
+        "Insuficiencia mitral.",
+        "Estenosis mitral.",
+        "Comunicación interventricular."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La estenosis aórtica calcificada, la valvulopatía más frecuente del anciano en países desarrollados, produce la tríada clásica de angina, síncope de esfuerzo y disnea. El soplo es sistólico eyectivo, de timbre áspero, con foco aórtico e irradiado a las carótidas, y se acompaña de pulso parvus et tardus y segundo ruido disminuido. El electrocardiograma muestra hipertrofia del ventrículo izquierdo, y el ecocardiograma confirma el diagnóstico y mide el área valvular (< 1 cm², gradiente medio ≥ 40 mmHg, velocidad máxima ≥ 4 m/s). Una vez aparecen los síntomas, la supervivencia sin tratamiento es de 2-3 años: está indicado el reemplazo valvular, quirúrgico o transcatéter (TAVI). En el estudio de síncope por esfuerzo está contraindicada la prueba de esfuerzo si hay estenosis grave sintomática.",
+      "comentario": "La estenosis aórtica calcificada, la valvulopatía más frecuente del anciano en países desarrollados, produce la tríada clásica de angina, síncope de esfuerzo y disnea. El soplo es sistólico eyectivo, de timbre áspero, con foco aórtico e irradiado a las carótidas, y se acompaña de pulso parvus et tardus y segundo ruido disminuido. El electrocardiograma muestra hipertrofia del ventrículo izquierdo, y el ecocardiograma confirma el diagnóstico y mide el área valvular (< 1 cm², gradiente medio ≥ 40 mmHg, velocidad máxima ≥ 4 m/s). Una vez aparecen los síntomas, la supervivencia sin tratamiento es de 2-3 años: está indicado el reemplazo valvular, quirúrgico o transcatéter (TAVI). En el estudio de síncope por esfuerzo está contraindicada la prueba de esfuerzo si hay estenosis grave sintomática.",
+      "tema": "Estenosis aórtica: síncope en el anciano",
+      "año": 2014,
+      "fuentes": "ACC/AHA, guía de valvulopatías (2020); ESC/EACTS, guía de valvulopatías (2021); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-013",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 60 años consulta por presentar desde hace 2 meses edema de miembros inferiores. Como antecedente fue diagnosticado de HTA y obesidad hace 3 meses y le indican atorvastatina, ácido acetil salicílico, amlodipino, metformina e hidroclorotiazida. ¿Cuál de los fármacos que recibe es el causante del edema que presenta el paciente?",
+      "opciones": [
+        "Atorvastatina.",
+        "Ácido acetil salicílico.",
+        "Metformina.",
+        "Amlodipino.",
+        "Hidroclorotiazida."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El edema periférico, dependiente de la dosis, es el efecto adverso más frecuente de los calcioantagonistas dihidropiridínicos (amlodipino, nifedipino, felodipino). Se debe a una vasodilatación arteriolar precapilar sin dilatación venosa equivalente: aumenta la presión hidrostática capilar y el líquido sale al intersticio, sin retención de sodio ni insuficiencia cardiaca. Aparece en tobillos y piernas, empeora al final del día y no responde a diuréticos; mejora si se añade un IECA o un ARA II (dilatan la arteriola eferente y la vénula), se reduce la dosis o se cambia de fármaco. Las estatinas causan mialgias y elevación de transaminasas, la aspirina gastritis y sangrado, la metformina síntomas digestivos y acidosis láctica, y la hidroclorotiazida más bien reduce el edema.",
+      "comentario": "El edema periférico, dependiente de la dosis, es el efecto adverso más frecuente de los calcioantagonistas dihidropiridínicos (amlodipino, nifedipino, felodipino). Se debe a una vasodilatación arteriolar precapilar sin dilatación venosa equivalente: aumenta la presión hidrostática capilar y el líquido sale al intersticio, sin retención de sodio ni insuficiencia cardiaca. Aparece en tobillos y piernas, empeora al final del día y no responde a diuréticos; mejora si se añade un IECA o un ARA II (dilatan la arteriola eferente y la vénula), se reduce la dosis o se cambia de fármaco. Las estatinas causan mialgias y elevación de transaminasas, la aspirina gastritis y sangrado, la metformina síntomas digestivos y acidosis láctica, y la hidroclorotiazida más bien reduce el edema.",
+      "tema": "Edema periférico por fármacos",
+      "año": 2015,
+      "fuentes": "ACC/AHA, guía de hipertensión (2025); Katzung Farmacología Básica y Clínica 15.ª ed."
+    },
+    {
+      "id": "RM-CAR-014",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "El taponamiento pericárdico traumático se caracteriza clínicamente por:",
+      "opciones": [
+        "Hipotensión ortostática.",
+        "Pulso paradójico.",
+        "Ruidos cardiacos aumentados.",
+        "Ansiedad y sudoración.",
+        "Bradicardia persistente."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El pulso paradójico es una caída de la presión arterial sistólica mayor de 10 mmHg durante la inspiración. En condiciones normales la inspiración aumenta el retorno venoso al corazón derecho y la presión sistólica baja unos 3-5 mmHg. En el taponamiento, el pericardio lleno de líquido limita el volumen total del corazón, el ventrículo derecho dilatado desplaza el tabique hacia la izquierda en la inspiración y el ventrículo izquierdo se llena menos: cae el gasto y la presión. La tríada de Beck (hipotensión, ingurgitación yugular y ruidos cardiacos apagados, no aumentados) acompaña al pulso paradójico. Otras causas de pulso paradójico: asma grave, EPOC, embolia pulmonar y pericarditis constrictiva. En el trauma penetrante precordial, la FAST o ecografía pericárdica confirma el hemopericardio y el tratamiento es la toracotomía o esternotomía, no la pericardiocentesis.",
+      "comentario": "El pulso paradójico es una caída de la presión arterial sistólica mayor de 10 mmHg durante la inspiración. En condiciones normales la inspiración aumenta el retorno venoso al corazón derecho y la presión sistólica baja unos 3-5 mmHg. En el taponamiento, el pericardio lleno de líquido limita el volumen total del corazón, el ventrículo derecho dilatado desplaza el tabique hacia la izquierda en la inspiración y el ventrículo izquierdo se llena menos: cae el gasto y la presión. La tríada de Beck (hipotensión, ingurgitación yugular y ruidos cardiacos apagados, no aumentados) acompaña al pulso paradójico. Otras causas de pulso paradójico: asma grave, EPOC, embolia pulmonar y pericarditis constrictiva. En el trauma penetrante precordial, la FAST o ecografía pericárdica confirma el hemopericardio y el tratamiento es la toracotomía o esternotomía, no la pericardiocentesis.",
+      "tema": "Pulso paradójico en el taponamiento traumático",
+      "año": 2015,
+      "fuentes": "ATLS, 11.ª ed. (2025); ESC, enfermedades del pericardio (2015); Schwartz Principios de Cirugía 11.ª ed."
+    },
+    {
+      "id": "RM-CAR-015",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "En el tratamiento agudo de taquicardia paroxística supraventricular (TPSV) sin compromiso hemodinámico, ¿cuál es el fármaco de elección?",
+      "opciones": [
+        "Lidocaína.",
+        "Adenosina.",
+        "Atropina.",
+        "Amiodarona.",
+        "Quinidina."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La taquicardia paroxística supraventricular más frecuente es la reentrada intranodal, seguida de la que utiliza una vía accesoria. Tiene QRS estrecho, regular y frecuencia de 150-250 lpm. El tratamiento en un paciente estable empieza con maniobras vagales (Valsalva modificada, que tiene mayor éxito que el masaje carotídeo) y, si no ceden, adenosina intravenosa en bolo rápido (6 mg y luego 12 mg), que bloquea transitoriamente el nodo auriculoventricular y revierte la reentrada en más del 90 %. Efectos transitorios: rubor, opresión torácica y pausa breve. Si fracasa se usa verapamilo o diltiazem (si no hay insuficiencia cardiaca) o un betabloqueante. Con inestabilidad hemodinámica se realiza cardioversión eléctrica sincronizada. La lidocaína y la atropina no tienen indicación; la amiodarona queda como último recurso.",
+      "comentario": "La taquicardia paroxística supraventricular más frecuente es la reentrada intranodal, seguida de la que utiliza una vía accesoria. Tiene QRS estrecho, regular y frecuencia de 150-250 lpm. El tratamiento en un paciente estable empieza con maniobras vagales (Valsalva modificada, que tiene mayor éxito que el masaje carotídeo) y, si no ceden, adenosina intravenosa en bolo rápido (6 mg y luego 12 mg), que bloquea transitoriamente el nodo auriculoventricular y revierte la reentrada en más del 90 %. Efectos transitorios: rubor, opresión torácica y pausa breve. Si fracasa se usa verapamilo o diltiazem (si no hay insuficiencia cardiaca) o un betabloqueante. Con inestabilidad hemodinámica se realiza cardioversión eléctrica sincronizada. La lidocaína y la atropina no tienen indicación; la amiodarona queda como último recurso.",
+      "tema": "Taquicardia supraventricular sin compromiso hemodinámico",
+      "año": 2015,
+      "fuentes": "AHA/ACC/HRS, guía de taquicardia supraventricular (2015); ESC, guía de taquicardia supraventricular (2019)"
+    },
+    {
+      "id": "RM-CAR-016",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 67 años presenta falta de aire de inicio abrupto posterior a esfuerzo físico, refiere dolor leve retroesternal, con antecedente de 3 episodios de dolor opresivo en el pecho de intensidad moderada en el último año, presenta sobrepeso. Examen: orientado, lúcido. FC: 100 x min, PA: 96/60 mmHg, segundo ruido con aumento moderado de intensidad. Pulmones: murmullo vesicular audible en ambos campos pulmonares, sin ruidos agregados. Resto del examen normal. ¿El enfoque del padecimiento del paciente es de naturaleza?",
+      "opciones": [
+        "Cardíaca.",
+        "Pulmonar.",
+        "Psiquiátrica.",
+        "Hipoventilatoria.",
+        "Tromboembolismo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un varón mayor, con sobrepeso, que tuvo episodios previos de dolor opresivo (probable angina) y consulta por disnea súbita tras esfuerzo con dolor retroesternal, taquicardia e hipotensión leve, plantea como primera hipótesis un síndrome coronario agudo o una falla cardiaca por isquemia. El examen pulmonar sin estertores ni sibilancias hace menos probable una causa pulmonar primaria; el aumento del segundo ruido podría sugerir hipertensión pulmonar (embolia), pero la anamnesis apunta al origen cardiaco. Conducta: ECG de 12 derivaciones en menos de 10 minutos, troponina de alta sensibilidad en serie, aspirina y monitorización. La pregunta es de razonamiento clínico («de naturaleza cardiaca, isquémica»), y el libro la reconoce como controversial por falta de datos de ECG y enzimas.",
+      "comentario": "Un varón mayor, con sobrepeso, que tuvo episodios previos de dolor opresivo (probable angina) y consulta por disnea súbita tras esfuerzo con dolor retroesternal, taquicardia e hipotensión leve, plantea como primera hipótesis un síndrome coronario agudo o una falla cardiaca por isquemia. El examen pulmonar sin estertores ni sibilancias hace menos probable una causa pulmonar primaria; el aumento del segundo ruido podría sugerir hipertensión pulmonar (embolia), pero la anamnesis apunta al origen cardiaco. Conducta: ECG de 12 derivaciones en menos de 10 minutos, troponina de alta sensibilidad en serie, aspirina y monitorización. La pregunta es de razonamiento clínico («de naturaleza cardiaca, isquémica»), y el libro la reconoce como controversial por falta de datos de ECG y enzimas.",
+      "tema": "Disnea y dolor torácico en el adulto mayor con factores de riesgo",
+      "año": 2015,
+      "fuentes": "ESC, guía de síndromes coronarios agudos (2023); AHA/ACC, guía de dolor torácico (2021)",
+      "nota_revision": "Pregunta controversial según el libro; se mantiene la clave."
+    },
+    {
+      "id": "RM-CAR-017",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Los inhibidores directos de la renina son una clase novedosa de antihipertensivos que inhiben al sistema renina-angiotensina (SRA) en su origen. Un ejemplo de estos fármacos es:",
+      "opciones": [
+        "Enalaprilato.",
+        "Telmisartán.",
+        "Ramipril.",
+        "Aliskiren.",
+        "Valsartán."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El aliskiren es el único inhibidor directo de la renina disponible: se une a la renina e impide la conversión del angiotensinógeno en angiotensina I, el paso inicial del sistema renina-angiotensina-aldosterona. Enalaprilato y ramipril son inhibidores de la enzima convertidora de angiotensina (IECA, terminan en «-pril»), y telmisartán y valsartán son antagonistas del receptor de angiotensina II (ARA II, terminan en «-sartán»). El aliskiren se aprobó en 2007, pero el ensayo ALTITUDE mostró más eventos adversos al combinarlo con IECA o ARA II en diabéticos con enfermedad renal, por lo que no se debe asociar a ellos en diabéticos ni en insuficiencia renal. Hoy ocupa un lugar marginal en las guías y se evita en el embarazo, como todo fármaco que bloquea el SRAA (riesgo de fetopatía).",
+      "comentario": "El aliskiren es el único inhibidor directo de la renina disponible: se une a la renina e impide la conversión del angiotensinógeno en angiotensina I, el paso inicial del sistema renina-angiotensina-aldosterona. Enalaprilato y ramipril son inhibidores de la enzima convertidora de angiotensina (IECA, terminan en «-pril»), y telmisartán y valsartán son antagonistas del receptor de angiotensina II (ARA II, terminan en «-sartán»). El aliskiren se aprobó en 2007, pero el ensayo ALTITUDE mostró más eventos adversos al combinarlo con IECA o ARA II en diabéticos con enfermedad renal, por lo que no se debe asociar a ellos en diabéticos ni en insuficiencia renal. Hoy ocupa un lugar marginal en las guías y se evita en el embarazo, como todo fármaco que bloquea el SRAA (riesgo de fetopatía).",
+      "tema": "Inhibidor directo de la renina",
+      "año": 2015,
+      "fuentes": "ACC/AHA, guía de hipertensión arterial (2025); Katzung Farmacología Básica y Clínica 15.ª ed.; ensayo ALTITUDE (NEJM 2012)"
+    },
+    {
+      "id": "RM-CAR-018",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes hallazgos es un criterio importante (mayor) para el diagnóstico de endocarditis infecciosa?",
+      "opciones": [
+        "Cardiomegalia en la radiografía de tórax.",
+        "Fiebre de 38 °C por más de dos semanas.",
+        "Hemocultivo positivo.",
+        "Urocultivo positivo.",
+        "Antecedente de cateterismo cardiaco."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El diagnóstico de endocarditis infecciosa se basa en los criterios de Duke, actualizados en 2023 por la ISCVID (Duke-ISCVID). Criterios mayores: evidencia microbiológica (hemocultivos positivos para microorganismos típicos, como Staphylococcus aureus, estreptococos viridans, enterococos y grupo HACEK, en al menos dos muestras separadas) y evidencia de afectación endocárdica por imagen (ecocardiografía, TC cardiaca o PET-TC con vegetación, absceso o dehiscencia protésica) o hallazgos quirúrgicos. Criterios menores: factor predisponente (válvula protésica, cardiopatía congénita, uso de drogas intravenosas, dispositivos), fiebre ≥ 38 °C, fenómenos vasculares (embolias, aneurismas micóticos, lesiones de Janeway), inmunológicos (nódulos de Osler, manchas de Roth, glomerulonefritis, factor reumatoide) y evidencia microbiológica que no cumple el criterio mayor. Se necesitan 2 mayores, 1 mayor + 3 menores o 5 menores. Se toman al menos tres sets de hemocultivos antes del antibiótico.",
+      "comentario": "El diagnóstico de endocarditis infecciosa se basa en los criterios de Duke, actualizados en 2023 por la ISCVID (Duke-ISCVID). Criterios mayores: evidencia microbiológica (hemocultivos positivos para microorganismos típicos, como Staphylococcus aureus, estreptococos viridans, enterococos y grupo HACEK, en al menos dos muestras separadas) y evidencia de afectación endocárdica por imagen (ecocardiografía, TC cardiaca o PET-TC con vegetación, absceso o dehiscencia protésica) o hallazgos quirúrgicos. Criterios menores: factor predisponente (válvula protésica, cardiopatía congénita, uso de drogas intravenosas, dispositivos), fiebre ≥ 38 °C, fenómenos vasculares (embolias, aneurismas micóticos, lesiones de Janeway), inmunológicos (nódulos de Osler, manchas de Roth, glomerulonefritis, factor reumatoide) y evidencia microbiológica que no cumple el criterio mayor. Se necesitan 2 mayores, 1 mayor + 3 menores o 5 menores. Se toman al menos tres sets de hemocultivos antes del antibiótico.",
+      "tema": "Criterios de endocarditis infecciosa",
+      "año": 2015,
+      "fuentes": "Duke-ISCVID, criterios 2023 (Fowler et al., Clin Infect Dis 2023); ESC, guía de endocarditis infecciosa (2023); Braunwald Tratado de Cardiología 12.ª ed.",
+      "nota_revision": "La clave original tenía dos respuestas válidas (hemocultivo y ecocardiografía, ambos mayores); se reemplazaron A y D para dejar una sola."
+    },
+    {
+      "id": "RM-CAR-019",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál es el marcador de elección en el infarto agudo de miocardio en emergencia?",
+      "opciones": [
+        "Mioglobina.",
+        "Troponina.",
+        "CPK-MB.",
+        "Transaminasa oxalacética.",
+        "Deshidrogenasa láctica."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La troponina cardiaca (I o T), preferiblemente de alta sensibilidad, es el biomarcador de elección para el diagnóstico de infarto: es específica del miocardio, se eleva a las 2-3 horas y su valor aumenta o disminuye en mediciones seriadas (0-1 h o 0-2 h con algoritmos de la ESC). Una troponina normal a las 3 horas del inicio del dolor, con ECG normal y baja probabilidad clínica, descarta el infarto con alto valor predictivo negativo. La CPK-MB es menos específica; la mioglobina es precoz pero poco específica; la transaminasa oxalacética (AST) y la LDH son obsoletas. Si el ECG muestra elevación del ST (STEMI) no se espera la troponina para reperfundir. Recuerda que troponina elevada no siempre es infarto tipo 1: aparece en miocarditis, embolia pulmonar, insuficiencia renal, sepsis y falla cardiaca (tipo 2 o daño miocárdico).",
+      "comentario": "La troponina cardiaca (I o T), preferiblemente de alta sensibilidad, es el biomarcador de elección para el diagnóstico de infarto: es específica del miocardio, se eleva a las 2-3 horas y su valor aumenta o disminuye en mediciones seriadas (0-1 h o 0-2 h con algoritmos de la ESC). Una troponina normal a las 3 horas del inicio del dolor, con ECG normal y baja probabilidad clínica, descarta el infarto con alto valor predictivo negativo. La CPK-MB es menos específica; la mioglobina es precoz pero poco específica; la transaminasa oxalacética (AST) y la LDH son obsoletas. Si el ECG muestra elevación del ST (STEMI) no se espera la troponina para reperfundir. Recuerda que troponina elevada no siempre es infarto tipo 1: aparece en miocarditis, embolia pulmonar, insuficiencia renal, sepsis y falla cardiaca (tipo 2 o daño miocárdico).",
+      "tema": "Marcador de elección en el infarto agudo",
+      "año": 2015,
+      "fuentes": "ESC, síndromes coronarios agudos (2023); AHA/ACC, dolor torácico (2021); Cuarta Definición Universal del Infarto (2018)"
+    },
+    {
+      "id": "RM-CAR-020",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 53 años, hipertenso, diabético y obeso, con tratamiento irregular. Ingresa a Emergencia con cuadro de dolor torácico, diaforesis e inestabilidad hemodinámica. Al examen físico: PA: 80/60 mm Hg, FC: 50 x min. Electrocardiograma: elevación del ST en II, III y aVF. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Infarto de miocardio de cara inferior.",
+        "Bloqueo completo de rama derecha del haz de His.",
+        "Infarto de miocardio de cara lateral.",
+        "Pericarditis aguda.",
+        "Infarto de miocardio de cara anterior."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La elevación del ST en II, III y aVF corresponde a la cara inferior del ventrículo izquierdo, irrigada por la coronaria derecha en el 80 % (dominancia derecha) o por la circunfleja. La bradicardia y la hipotensión se explican porque la coronaria derecha irriga el nodo sinusal y el nodo AV (bradicardia sinusal, bloqueo AV) y por reflejo de Bezold-Jarisch (activación vagal por isquemia inferior). Siempre se debe registrar V3R-V4R y V4R: la elevación del ST en V4R indica infarto del ventrículo derecho, que se trata con volumen y se contraindican nitratos y diuréticos. La reperfusión urgente (angioplastia primaria < 120 minutos) es obligatoria. Las derivaciones: septal V1-V2, anterior V3-V4, lateral I, aVL, V5-V6, inferior II, III, aVF; el infarto posterior se ve como depresión del ST en V1-V3.",
+      "comentario": "La elevación del ST en II, III y aVF corresponde a la cara inferior del ventrículo izquierdo, irrigada por la coronaria derecha en el 80 % (dominancia derecha) o por la circunfleja. La bradicardia y la hipotensión se explican porque la coronaria derecha irriga el nodo sinusal y el nodo AV (bradicardia sinusal, bloqueo AV) y por reflejo de Bezold-Jarisch (activación vagal por isquemia inferior). Siempre se debe registrar V3R-V4R y V4R: la elevación del ST en V4R indica infarto del ventrículo derecho, que se trata con volumen y se contraindican nitratos y diuréticos. La reperfusión urgente (angioplastia primaria < 120 minutos) es obligatoria. Las derivaciones: septal V1-V2, anterior V3-V4, lateral I, aVL, V5-V6, inferior II, III, aVF; el infarto posterior se ve como depresión del ST en V1-V3.",
+      "tema": "Infarto inferior con bradicardia e hipotensión",
+      "año": 2015,
+      "fuentes": "ESC, síndromes coronarios agudos (2023); AHA/ACC, guía de revascularización (2021); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-021",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es el tipo de soplo que caracteriza a la insuficiencia mitral?",
+      "opciones": [
+        "Holosistólico de tono alto en ápex, irradiado a axila.",
+        "Sistólico eyectivo de timbre rudo, irradiado al cuello.",
+        "Mesodiastólico regurgitativo con chasquido de apertura.",
+        "Diastólico aspirativo irradiado a borde paraesternal izquierdo.",
+        "Holosistólico suave, paraesternal izquierdo y subxifoideo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La insuficiencia mitral produce un soplo holosistólico (pansistólico) soplante de tono alto, mejor audible en el ápex y que se irradia a la axila izquierda; se acompaña de primer ruido disminuido y, si es grave, tercer ruido y soplo mesodiastólico de flujo. La estenosis aórtica da un soplo sistólico eyectivo rudo irradiado a las carótidas; la estenosis mitral, un retumbo mesodiastólico con chasquido de apertura; la insuficiencia aórtica, un soplo diastólico aspirativo decreciente en el borde esternal izquierdo, y la comunicación interventricular, un soplo holosistólico en el borde esternal izquierdo. Las maniobras ayudan: el soplo de la insuficiencia mitral aumenta con el esfuerzo isométrico (handgrip) y no con la inspiración. Causas: prolapso, degenerativa, isquemia (rotura de músculo papilar) y endocarditis.",
+      "comentario": "La insuficiencia mitral produce un soplo holosistólico (pansistólico) soplante de tono alto, mejor audible en el ápex y que se irradia a la axila izquierda; se acompaña de primer ruido disminuido y, si es grave, tercer ruido y soplo mesodiastólico de flujo. La estenosis aórtica da un soplo sistólico eyectivo rudo irradiado a las carótidas; la estenosis mitral, un retumbo mesodiastólico con chasquido de apertura; la insuficiencia aórtica, un soplo diastólico aspirativo decreciente en el borde esternal izquierdo, y la comunicación interventricular, un soplo holosistólico en el borde esternal izquierdo. Las maniobras ayudan: el soplo de la insuficiencia mitral aumenta con el esfuerzo isométrico (handgrip) y no con la inspiración. Causas: prolapso, degenerativa, isquemia (rotura de músculo papilar) y endocarditis.",
+      "tema": "Soplo de la insuficiencia mitral",
+      "año": 2016,
+      "fuentes": "ACC/AHA, guía de valvulopatías (2020); ESC/EACTS (2021); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-022",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de embolia de origen cardíaco?",
+      "opciones": [
+        "Fibrilación auricular.",
+        "Infarto agudo de miocardio.",
+        "Miocardiopatía dilatada.",
+        "Endocarditis infecciosa subaguda.",
+        "Insuficiencia aórtica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco y de ictus cardioembólico (alrededor del 50 % de los cardioembolismos). La contracción auricular ineficaz favorece la estasis y la formación de trombos en la orejuela izquierda. El riesgo se estima con CHA₂DS₂-VASc (insuficiencia cardiaca, hipertensión, edad ≥ 75 años = 2 puntos, diabetes, ictus previo = 2, enfermedad vascular, edad 65-74 y sexo femenino): la guía AHA/ACC/HRS 2023 anticoagula con 2 o más puntos en varones y 3 o más en mujeres. La ESC 2024 adoptó CHA₂DS₂-VA, que elimina el sexo femenino: recomienda anticoagular con 2 o más puntos y considerarlo con 1. Los anticoagulantes orales directos (apixabán, rivaroxabán, edoxabán, dabigatrán) se prefieren a la warfarina, excepto en estenosis mitral reumática moderada-grave o prótesis mecánicas, donde se usa warfarina. Otras fuentes de embolia: infarto con trombo apical, miocardiopatía dilatada, endocarditis y mixoma auricular.",
+      "comentario": "La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco y de ictus cardioembólico (alrededor del 50 % de los cardioembolismos). La contracción auricular ineficaz favorece la estasis y la formación de trombos en la orejuela izquierda. El riesgo se estima con CHA₂DS₂-VASc (insuficiencia cardiaca, hipertensión, edad ≥ 75 años = 2 puntos, diabetes, ictus previo = 2, enfermedad vascular, edad 65-74 y sexo femenino): la guía AHA/ACC/HRS 2023 anticoagula con 2 o más puntos en varones y 3 o más en mujeres. La ESC 2024 adoptó CHA₂DS₂-VA, que elimina el sexo femenino: recomienda anticoagular con 2 o más puntos y considerarlo con 1. Los anticoagulantes orales directos (apixabán, rivaroxabán, edoxabán, dabigatrán) se prefieren a la warfarina, excepto en estenosis mitral reumática moderada-grave o prótesis mecánicas, donde se usa warfarina. Otras fuentes de embolia: infarto con trombo apical, miocardiopatía dilatada, endocarditis y mixoma auricular.",
+      "tema": "Causa cardiaca más frecuente de embolia",
+      "año": 2016,
+      "fuentes": "ESC/EACTS, guía de fibrilación auricular (2024); AHA/ACC/HRS, guía de fibrilación auricular (2023)"
+    },
+    {
+      "id": "RM-CAR-023",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿En qué derivaciones del EKG se observan las alteraciones de un infarto lateral de miocardio?",
+      "opciones": [
+        "DI, aVL.",
+        "V1, V2.",
+        "V3, V4.",
+        "DI, V1.",
+        "DII, aVF."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las derivaciones del ECG se relacionan con la pared del corazón que «miran»: septal V1-V2 (descendente anterior), anterior V3-V4 (descendente anterior), lateral baja V5-V6 y lateral alta DI y aVL (arteria circunfleja o diagonales), e inferior DII, DIII y aVF (coronaria derecha en el 80 %). El infarto lateral alto se manifiesta por elevación del ST en DI y aVL, con imagen en espejo (depresión del ST) en las derivaciones inferiores. La circunfleja también puede ocluirse sin cambios evidentes en el ECG de 12 derivaciones (zona «silenciosa»), por lo que se añaden las derivaciones posteriores V7-V9 si hay sospecha. Una elevación del ST de al menos 1 mm en dos derivaciones contiguas, o ≥ 2 mm en V2-V3 en varones, define el infarto con elevación del ST (STEMI).",
+      "comentario": "Las derivaciones del ECG se relacionan con la pared del corazón que «miran»: septal V1-V2 (descendente anterior), anterior V3-V4 (descendente anterior), lateral baja V5-V6 y lateral alta DI y aVL (arteria circunfleja o diagonales), e inferior DII, DIII y aVF (coronaria derecha en el 80 %). El infarto lateral alto se manifiesta por elevación del ST en DI y aVL, con imagen en espejo (depresión del ST) en las derivaciones inferiores. La circunfleja también puede ocluirse sin cambios evidentes en el ECG de 12 derivaciones (zona «silenciosa»), por lo que se añaden las derivaciones posteriores V7-V9 si hay sospecha. Una elevación del ST de al menos 1 mm en dos derivaciones contiguas, o ≥ 2 mm en V2-V3 en varones, define el infarto con elevación del ST (STEMI).",
+      "tema": "Infarto lateral: derivaciones del ECG",
+      "año": 2016,
+      "fuentes": "ESC, síndromes coronarios agudos (2023); Cuarta Definición Universal del Infarto (2018); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-024",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Varón de 48 años con antecedente de tabaquismo, refiere cefaleas esporádicas desde hace 5 años, se automedica con analgésicos. Desde hace 3 meses las cefaleas son constantes y se acompañan de mareos e insomnio. Examen: lúcido, colaborador, IMC: 32, PA: 150/100 mmHg, FC: 85 x min. Cardiovascular: ruidos cardiacos rítmicos regulares y sin soplos. Resto de examen físico sin alteraciones. ¿Cuál es la conducta terapéutica inicial?",
+      "opciones": [
+        "Cambios en los estilos de vida.",
+        "Solo monoterapia antihipertensiva.",
+        "Iniciar terapia combinada antihipertensiva.",
+        "Uso de antiagregantes plaquetarios.",
+        "Uso de hipolipemiantes."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Varón de 48 años con PA de 150/100 mmHg sostenida, tabaquismo y obesidad (IMC 32), sin daño agudo. La hipertensión se confirma con PA de consultorio de 140/90 mmHg o más. La ESC 2024 recomienda iniciar con terapia combinada en una sola pastilla (IECA o ARA II con calcioantagonista o diurético tiazídico) en la mayoría de los pacientes, y la ACC/AHA 2025 indica dos fármacos desde el inicio en el estadio 2 (140/90 o más), con meta de PA menor de 130/80 mmHg. Los cambios del estilo de vida (dejar de fumar, bajar de peso, dieta DASH con poca sal, ejercicio) se asocian siempre, pero solos se reservan para PA elevada o estadio 1 de bajo riesgo; la monoterapia queda para bajo riesgo, muy ancianos o frágiles; los antiagregantes y los hipolipemiantes se deciden por el riesgo cardiovascular global y no son el tratamiento inicial de la HTA. Perla: se evalúa daño de órgano (creatinina, albuminuria, ECG, fondo de ojo) y causas secundarias si hay banderas rojas.",
+      "comentario": "Varón de 48 años con PA de 150/100 mmHg sostenida, tabaquismo y obesidad (IMC 32), sin daño agudo. La hipertensión se confirma con PA de consultorio de 140/90 mmHg o más. La ESC 2024 recomienda iniciar con terapia combinada en una sola pastilla (IECA o ARA II con calcioantagonista o diurético tiazídico) en la mayoría de los pacientes, y la ACC/AHA 2025 indica dos fármacos desde el inicio en el estadio 2 (140/90 o más), con meta de PA menor de 130/80 mmHg. Los cambios del estilo de vida (dejar de fumar, bajar de peso, dieta DASH con poca sal, ejercicio) se asocian siempre, pero solos se reservan para PA elevada o estadio 1 de bajo riesgo; la monoterapia queda para bajo riesgo, muy ancianos o frágiles; los antiagregantes y los hipolipemiantes se deciden por el riesgo cardiovascular global y no son el tratamiento inicial de la HTA. Perla: se evalúa daño de órgano (creatinina, albuminuria, ECG, fondo de ojo) y causas secundarias si hay banderas rojas.",
+      "tema": "Conducta inicial en hipertensión arterial grado 2",
+      "año": 2016,
+      "fuentes": "ACC/AHA, guía de hipertensión arterial (2025); ESC, guía de hipertensión arterial (2024)",
+      "nota_revision": "Clave del libro: A (estilos de vida). Se corrige a C por guías 2024-2025: grado 2 con riesgo cardiovascular alto se trata con combinación desde el inicio. Comentario ajustado a ESC 2024 / ACC-AHA 2025 (combinación inicial en estadio 2 / HTA confirmada), sin depender del «grado 2»."
+    },
+    {
+      "id": "RM-CAR-025",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Varón de 60 años presenta dolor precordial intenso hace 2 horas. Antecedente de HTA y fumador desde hace 20 años. Examen: sudoroso, pálido. PA: 120/60 mmHg. FC: 60 x min. FR: 24 x min. Ruidos cardiacos arrítmicos. EKG: segmento ST con supradesnivel y ondas T negativas y simétricas en DII, DIII y aVF. Tiene diagnóstico probable de IMA. ¿Qué cara del corazón está comprometida?",
+      "opciones": [
+        "Inferior.",
+        "Anterior.",
+        "Lateral.",
+        "Septal.",
+        "Posterior."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las derivaciones DII, DIII y aVF «miran» la pared inferior (diafragmática) del ventrículo izquierdo, que depende de la arteria coronaria derecha en el 80 % de las personas (dominancia derecha) y de la circunfleja en el resto. Las ondas T negativas simétricas junto con el supradesnivel del ST indican infarto en evolución. La bradicardia relativa (60 lpm) y la hipotensión pueden deberse a compromiso del nodo sinusal o AV, o al reflejo de Bezold-Jarisch. En todo infarto inferior hay que registrar derivaciones derechas (V3R, V4R): una elevación del ST de ≥ 1 mm en V4R indica infarto del ventrículo derecho, que cursa con hipotensión, ingurgitación yugular y campos pulmonares limpios, y se trata con volumen, no con nitratos. Reperfusión con angioplastia primaria en menos de 120 minutos.",
+      "comentario": "Las derivaciones DII, DIII y aVF «miran» la pared inferior (diafragmática) del ventrículo izquierdo, que depende de la arteria coronaria derecha en el 80 % de las personas (dominancia derecha) y de la circunfleja en el resto. Las ondas T negativas simétricas junto con el supradesnivel del ST indican infarto en evolución. La bradicardia relativa (60 lpm) y la hipotensión pueden deberse a compromiso del nodo sinusal o AV, o al reflejo de Bezold-Jarisch. En todo infarto inferior hay que registrar derivaciones derechas (V3R, V4R): una elevación del ST de ≥ 1 mm en V4R indica infarto del ventrículo derecho, que cursa con hipotensión, ingurgitación yugular y campos pulmonares limpios, y se trata con volumen, no con nitratos. Reperfusión con angioplastia primaria en menos de 120 minutos.",
+      "tema": "Infarto de cara inferior (derivaciones II, III, aVF)",
+      "año": 2017,
+      "fuentes": "ESC, síndromes coronarios agudos (2023); Braunwald Tratado de Cardiología 12.ª ed."
+    },
+    {
+      "id": "RM-CAR-026",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de embolias de origen cardiaco?",
+      "opciones": [
+        "Enfermedad mitral con fibrilación auricular.",
+        "Endocarditis infecciosa subaguda.",
+        "Infarto agudo de miocardio.",
+        "Insuficiencia aórtica.",
+        "Miocardiopatía dilatada."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el corazón, el trombo se forma por estasis (fibrilación auricular, estenosis mitral, aneurisma ventricular, miocardiopatía dilatada), por lesión endotelial (infarto reciente con trombo mural, endocarditis) o por hipercoagulabilidad. La causa más frecuente de embolia cardiogénica es la fibrilación auricular, sobre todo cuando coexiste estenosis mitral reumática (riesgo de ictus unas 17 veces mayor que en la población sin FA). El ictus cardioembólico suele ser de inicio súbito, con déficit máximo desde el comienzo, y a menudo se hemorragifica. La causa más frecuente de ictus isquémico en general es la aterotrombosis de grandes arterias. En la FA la indicación de anticoagular se define con CHA₂DS₂-VA (ESC 2024: 2 o más puntos) o CHA₂DS₂-VASc (AHA/ACC 2023); en estenosis mitral reumática moderada-grave o prótesis mecánica se anticoagula siempre, con warfarina (INR 2-3). En los demás casos se prefieren los anticoagulantes directos, y el cierre de la orejuela izquierda se reserva a la contraindicación.",
+      "comentario": "En el corazón, el trombo se forma por estasis (fibrilación auricular, estenosis mitral, aneurisma ventricular, miocardiopatía dilatada), por lesión endotelial (infarto reciente con trombo mural, endocarditis) o por hipercoagulabilidad. La causa más frecuente de embolia cardiogénica es la fibrilación auricular, sobre todo cuando coexiste estenosis mitral reumática (riesgo de ictus unas 17 veces mayor que en la población sin FA). El ictus cardioembólico suele ser de inicio súbito, con déficit máximo desde el comienzo, y a menudo se hemorragifica. La causa más frecuente de ictus isquémico en general es la aterotrombosis de grandes arterias. En la FA la indicación de anticoagular se define con CHA₂DS₂-VA (ESC 2024: 2 o más puntos) o CHA₂DS₂-VASc (AHA/ACC 2023); en estenosis mitral reumática moderada-grave o prótesis mecánica se anticoagula siempre, con warfarina (INR 2-3). En los demás casos se prefieren los anticoagulantes directos, y el cierre de la orejuela izquierda se reserva a la contraindicación.",
+      "tema": "Fibrilación auricular como causa de embolia",
+      "año": 2017,
+      "fuentes": "ESC/EACTS, guía de fibrilación auricular (2024); AHA/ASA, prevención secundaria del ictus (2021)",
+      "nota_revision": "Pregunta repetida en RM 2016 y RM 2017 (misma clave)."
+    },
+    {
+      "id": "RM-CAR-027",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el tipo de shock que presenta un paciente con presión arterial media disminuida, pulso filiforme, extremidades frías y llenado capilar lento?",
+      "opciones": [
+        "Con gasto cardíaco bajo.",
+        "Con resistencia vascular baja.",
+        "Con resistencia vascular alta.",
+        "Mixto.",
+        "Con gasto cardíaco alto."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Pulso filiforme, extremidades frías y llenado capilar lento reflejan una perfusión periférica disminuida por vasoconstricción compensadora: se trata de un shock con gasto cardiaco bajo. Esto abarca el shock hipovolémico (hemorragia, deshidratación), el cardiogénico (fallo de bomba) y el obstructivo (embolia pulmonar, taponamiento, neumotórax a tensión), todos con resistencias vasculares sistémicas altas. El shock distributivo (séptico, anafiláctico, neurogénico) tiene gasto cardiaco alto o normal y resistencias bajas: la piel es caliente y el pulso saltón (salvo en fases avanzadas del séptico). Diferenciarlos orienta el tratamiento: volumen en el hipovolémico, inotrópicos y revascularización en el cardiogénico, resolución de la obstrucción en el obstructivo y vasopresores (noradrenalina) con control del foco en el séptico.",
+      "comentario": "Pulso filiforme, extremidades frías y llenado capilar lento reflejan una perfusión periférica disminuida por vasoconstricción compensadora: se trata de un shock con gasto cardiaco bajo. Esto abarca el shock hipovolémico (hemorragia, deshidratación), el cardiogénico (fallo de bomba) y el obstructivo (embolia pulmonar, taponamiento, neumotórax a tensión), todos con resistencias vasculares sistémicas altas. El shock distributivo (séptico, anafiláctico, neurogénico) tiene gasto cardiaco alto o normal y resistencias bajas: la piel es caliente y el pulso saltón (salvo en fases avanzadas del séptico). Diferenciarlos orienta el tratamiento: volumen en el hipovolémico, inotrópicos y revascularización en el cardiogénico, resolución de la obstrucción en el obstructivo y vasopresores (noradrenalina) con control del foco en el séptico.",
+      "tema": "Shock de bajo gasto cardiaco",
+      "año": 2017,
+      "fuentes": "Surviving Sepsis Campaign (2021); ATLS 11.ª ed. (2025); AHA, shock cardiogénico (declaración científica 2017)",
+      "nota_revision": "Pregunta repetida en RM 2014 y RM 2017 (misma clave)."
+    },
+    {
+      "id": "RM-CAR-028",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la patogenia en el edema pulmonar cardiogénico?",
+      "opciones": [
+        "Aumento de presión hidrostática.",
+        "Alteración del endotelio vascular.",
+        "Aumento de presión oncótica.",
+        "Alteración de sustancia tensoactiva.",
+        "Colapso alveolar."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el edema pulmonar cardiogénico la falla del ventrículo izquierdo eleva las presiones de llenado: la presión auricular izquierda y luego la presión capilar pulmonar superan los 18-25 mmHg y el trasudado cruza hacia el intersticio y los alvéolos según la ley de Starling (aumento de la presión hidrostática). En el edema no cardiogénico (síndrome de dificultad respiratoria aguda), la lesión del endotelio y del epitelio aumenta la permeabilidad y el líquido es un exudado rico en proteínas, con presiones de enclavamiento normales. La disminución de la presión oncótica (hipoalbuminemia) también causa edema, pero por sí sola rara vez lo produce. Tratamiento: oxígeno, ventilación no invasiva (CPAP/BiPAP), diuréticos de asa IV, vasodilatadores (nitroglicerina) si hay PA adecuada, y tratar la causa (isquemia, arritmia, crisis hipertensiva).",
+      "comentario": "En el edema pulmonar cardiogénico la falla del ventrículo izquierdo eleva las presiones de llenado: la presión auricular izquierda y luego la presión capilar pulmonar superan los 18-25 mmHg y el trasudado cruza hacia el intersticio y los alvéolos según la ley de Starling (aumento de la presión hidrostática). En el edema no cardiogénico (síndrome de dificultad respiratoria aguda), la lesión del endotelio y del epitelio aumenta la permeabilidad y el líquido es un exudado rico en proteínas, con presiones de enclavamiento normales. La disminución de la presión oncótica (hipoalbuminemia) también causa edema, pero por sí sola rara vez lo produce. Tratamiento: oxígeno, ventilación no invasiva (CPAP/BiPAP), diuréticos de asa IV, vasodilatadores (nitroglicerina) si hay PA adecuada, y tratar la causa (isquemia, arritmia, crisis hipertensiva).",
+      "tema": "Fisiopatología del edema pulmonar cardiogénico",
+      "año": 2017,
+      "fuentes": "ESC, insuficiencia cardiaca aguda (2021, actualización 2023); Guyton y Hall Tratado de Fisiología Médica 14.ª ed."
+    },
+    {
+      "id": "RM-CAR-029",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Varón de 48 años hipertenso, ingresa a emergencia por palpitaciones, síncope y disnea. Examen: despierto, taquipneico, PA: 110/70 mmHg, FC: 140 x min, FR: 22 x min, SatO₂: 97 %. EKG: taquiarritmia de complejos angostos irregulares compatibles con fibrilación auricular. ¿Cuál es el tratamiento de elección para el control de frecuencia cardiaca?",
+      "opciones": [
+        "Lidocaína.",
+        "Adenosina.",
+        "Labetalol.",
+        "Propafenona.",
+        "Digoxina."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "En la fibrilación auricular con respuesta ventricular rápida y estabilidad hemodinámica, el primer objetivo es controlar la frecuencia (meta inicial menor de 110 por minuto en reposo). La guía ESC 2024 prefiere, por su inicio rápido, los betabloqueantes (cualquier FEVI) y el diltiazem o verapamilo (si la FEVI es mayor de 40 %), y reserva la digoxina y la amiodarona intravenosa para pacientes inestables o con FEVI muy reducida; aun así la digoxina es un fármaco aceptado de control de frecuencia y es la única opción que lo cumple. Con PA de 110/70 mmHg no hay hipotensión que la contraindique. El labetalol no es de uso habitual en la FA; la lidocaína actúa sobre arritmias ventriculares; la adenosina no revierte la FA; y la propafenona es un antiarrítmico de ritmo (clase Ic) que se evita en cardiopatía estructural, como la hipertensiva. La digoxina tarda en actuar y su margen es estrecho (vigilar potasio y función renal). Perla: si aparecen hipotensión, dolor anginoso o edema pulmonar, se indica cardioversión eléctrica sincronizada.",
+      "comentario": "En la fibrilación auricular con respuesta ventricular rápida y estabilidad hemodinámica, el primer objetivo es controlar la frecuencia (meta inicial menor de 110 por minuto en reposo). La guía ESC 2024 prefiere, por su inicio rápido, los betabloqueantes (cualquier FEVI) y el diltiazem o verapamilo (si la FEVI es mayor de 40 %), y reserva la digoxina y la amiodarona intravenosa para pacientes inestables o con FEVI muy reducida; aun así la digoxina es un fármaco aceptado de control de frecuencia y es la única opción que lo cumple. Con PA de 110/70 mmHg no hay hipotensión que la contraindique. El labetalol no es de uso habitual en la FA; la lidocaína actúa sobre arritmias ventriculares; la adenosina no revierte la FA; y la propafenona es un antiarrítmico de ritmo (clase Ic) que se evita en cardiopatía estructural, como la hipertensiva. La digoxina tarda en actuar y su margen es estrecho (vigilar potasio y función renal). Perla: si aparecen hipotensión, dolor anginoso o edema pulmonar, se indica cardioversión eléctrica sincronizada.",
+      "tema": "Control de la frecuencia en fibrilación auricular",
+      "año": 2018,
+      "fuentes": "ESC/EACTS, guía de fibrilación auricular (2024); AHA/ACC/HRS, guía de fibrilación auricular (2023)",
+      "nota_revision": "Pregunta de redacción discutible (sin datos de insuficiencia cardiaca); se mantiene la clave del libro. Clave E conservada (defendible: digoxina es fármaco de control de frecuencia aceptado en ESC 2024; los preferidos betabloqueantes/diltiazem no figuran entre las opciones, y el labetalol no es de uso habitual)."
+    },
+    {
+      "id": "RM-CAR-030",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Varón de 52 años, diabético y con enfermedad renal crónica en hemodiálisis, presenta hemorragia digestiva alta, hipotensión y taquicardia. Hb: 5 g/dL. Evoluciona con dolor precordial opresivo y disnea. EKG: cambios compatibles con síndrome coronario agudo. Según la clasificación universal de infarto de miocardio, ¿a qué tipo corresponde?",
+      "opciones": [
+        "2.",
+        "3.",
+        "4.",
+        "1.",
+        "5."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La Cuarta Definición Universal (2018) distingue cinco tipos: el tipo 1, por ruptura o erosión de placa con trombo; el tipo 2, por desequilibrio entre aporte y demanda de oxígeno sin trombosis aguda (anemia grave, hipotensión, taquiarritmia, espasmo, hipoxemia); el tipo 3, muerte súbita con probable infarto sin biomarcadores; el tipo 4, asociado a angioplastia (4a), trombosis del stent (4b) o reestenosis (4c); y el tipo 5, a cirugía de revascularización. Este paciente tiene Hb de 5 g/dL por hemorragia digestiva con hipotensión: es un tipo 2. La Quinta Definición Universal (2026) reemplaza la numeración por tres categorías: infarto primario, secundario (el antiguo tipo 2, causado por otra enfermedad aguda que desequilibra aporte y demanda) y relacionado con procedimientos; con esa terminología sería un infarto secundario. El tratamiento es corregir la causa (transfundir, controlar el sangrado), sin antitrombóticos agresivos ni reperfusión, que empeorarían la hemorragia.",
+      "comentario": "La Cuarta Definición Universal (2018) distingue cinco tipos: el tipo 1, por ruptura o erosión de placa con trombo; el tipo 2, por desequilibrio entre aporte y demanda de oxígeno sin trombosis aguda (anemia grave, hipotensión, taquiarritmia, espasmo, hipoxemia); el tipo 3, muerte súbita con probable infarto sin biomarcadores; el tipo 4, asociado a angioplastia (4a), trombosis del stent (4b) o reestenosis (4c); y el tipo 5, a cirugía de revascularización. Este paciente tiene Hb de 5 g/dL por hemorragia digestiva con hipotensión: es un tipo 2. La Quinta Definición Universal (2026) reemplaza la numeración por tres categorías: infarto primario, secundario (el antiguo tipo 2, causado por otra enfermedad aguda que desequilibra aporte y demanda) y relacionado con procedimientos; con esa terminología sería un infarto secundario. El tratamiento es corregir la causa (transfundir, controlar el sangrado), sin antitrombóticos agresivos ni reperfusión, que empeorarían la hemorragia.",
+      "tema": "Clasificación universal del infarto: tipo 2",
+      "año": 2018,
+      "fuentes": [
+        "Thygesen K et al., Fourth Universal Definition of Myocardial Infarction (Circulation 2018;138:e618)",
+        "Fifth Universal Definition of Myocardial Infarction (ESC/ACC/AHA/WHF, 2026)",
+        "ESC, guía de síndromes coronarios agudos (2023)"
+      ],
+      "nota_revision": "Clave A conservada (tipo 2 de la 4.ª definición = infarto secundario en la 5.ª, ESC/ACC/AHA/WHF 2026)."
+    },
+    {
+      "id": "RM-CAR-031",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes fármacos está contraindicado en la gestante hipertensa?",
+      "opciones": [
+        "Inhibidores de la enzima de conversión de angiotensina II.",
+        "Simpaticolíticos con acción central.",
+        "Antagonistas alfa selectivos.",
+        "Vasodilatadores directos.",
+        "Antagonistas de los canales de calcio."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los inhibidores de la enzima convertidora de angiotensina (IECA) y los antagonistas del receptor de angiotensina II (ARA II), y también el aliskiren, están contraindicados en el embarazo porque producen fetopatía: oligohidramnios, hipoplasia pulmonar, displasia renal, anuria neonatal, hipocalvaria y muerte fetal, sobre todo en el segundo y tercer trimestre; en el primer trimestre se asocian a malformaciones cardiovasculares y del sistema nervioso. Los fármacos seguros en la hipertensión del embarazo son la metildopa (simpaticolítico central), el labetalol, el nifedipino de liberación prolongada (calcioantagonista) y la hidralazina (vasodilatador directo, sobre todo en crisis). El tratamiento urgente de la PA ≥ 160/110 mmHg es labetalol IV, nifedipino oral o hidralazina IV. Las mujeres en edad fértil con IECA/ARA II deben recibir anticoncepción o cambio de fármaco al planificar embarazo.",
+      "comentario": "Los inhibidores de la enzima convertidora de angiotensina (IECA) y los antagonistas del receptor de angiotensina II (ARA II), y también el aliskiren, están contraindicados en el embarazo porque producen fetopatía: oligohidramnios, hipoplasia pulmonar, displasia renal, anuria neonatal, hipocalvaria y muerte fetal, sobre todo en el segundo y tercer trimestre; en el primer trimestre se asocian a malformaciones cardiovasculares y del sistema nervioso. Los fármacos seguros en la hipertensión del embarazo son la metildopa (simpaticolítico central), el labetalol, el nifedipino de liberación prolongada (calcioantagonista) y la hidralazina (vasodilatador directo, sobre todo en crisis). El tratamiento urgente de la PA ≥ 160/110 mmHg es labetalol IV, nifedipino oral o hidralazina IV. Las mujeres en edad fértil con IECA/ARA II deben recibir anticoncepción o cambio de fármaco al planificar embarazo.",
+      "tema": "Antihipertensivos contraindicados en la gestante",
+      "año": 2018,
+      "fuentes": "ACOG, Practice Bulletin N.º 222 (2020); ISSHP (2021); MINSA/INS, GPC N.º 03-2025 de trastorno hipertensivo del embarazo (primer nivel)"
+    },
+    {
+      "id": "RM-CAR-032",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Qué tipo de shock puede originar el taponamiento pericárdico?",
+      "opciones": [
+        "Neurogénico.",
+        "Hipovolémico.",
+        "Distributivo.",
+        "Obstructivo.",
+        "Cardiogénico."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El taponamiento pericárdico es una causa de shock obstructivo: el líquido en el saco pericárdico comprime las cavidades cardiacas, impide su llenado diastólico y reduce el gasto cardiaco, pese a que la función contráctil intrínseca del corazón es normal. Otras causas de shock obstructivo son el neumotórax a tensión, la embolia pulmonar masiva y la hipertensión pulmonar grave. El shock cardiogénico implica fallo de la bomba (infarto, miocardiopatía, arritmia); el hipovolémico, pérdida de volumen; el distributivo (séptico, anafiláctico, neurogénico), vasodilatación. En el taponamiento se ve hipotensión, ingurgitación yugular y ruidos apagados (tríada de Beck), pulso paradójico, y en la ecocardiografía colapso de cavidades derechas. El manejo es drenaje inmediato (pericardiocentesis guiada por eco o ventana pericárdica) y, mientras tanto, volumen intravenoso y evitar la ventilación con presión positiva elevada.",
+      "comentario": "El taponamiento pericárdico es una causa de shock obstructivo: el líquido en el saco pericárdico comprime las cavidades cardiacas, impide su llenado diastólico y reduce el gasto cardiaco, pese a que la función contráctil intrínseca del corazón es normal. Otras causas de shock obstructivo son el neumotórax a tensión, la embolia pulmonar masiva y la hipertensión pulmonar grave. El shock cardiogénico implica fallo de la bomba (infarto, miocardiopatía, arritmia); el hipovolémico, pérdida de volumen; el distributivo (séptico, anafiláctico, neurogénico), vasodilatación. En el taponamiento se ve hipotensión, ingurgitación yugular y ruidos apagados (tríada de Beck), pulso paradójico, y en la ecocardiografía colapso de cavidades derechas. El manejo es drenaje inmediato (pericardiocentesis guiada por eco o ventana pericárdica) y, mientras tanto, volumen intravenoso y evitar la ventilación con presión positiva elevada.",
+      "tema": "Shock obstructivo por taponamiento pericárdico",
+      "año": 2018,
+      "fuentes": "ESC, enfermedades del pericardio (2015); ATLS 11.ª ed. (2025); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-CAR-033",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál es el medicamento que está contraindicado en pacientes con dislipidemia e hipertensión arterial?",
+      "opciones": [
+        "Enalapril.",
+        "Alfametildopa.",
+        "Amlodipino.",
+        "Valsartán.",
+        "Hidroclorotiazida."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "Las tiazidas, y también los betabloqueantes no selectivos, pueden empeorar el perfil metabólico: la hidroclorotiazida en dosis altas eleva el colesterol total, el LDL y los triglicéridos, además de causar hipopotasemia, hiponatremia, hiperuricemia, hipercalcemia e intolerancia a la glucosa. Por eso se evita (o se usa en dosis bajas, 12,5-25 mg) cuando hay dislipidemia grave, gota o diabetes mal controlada. Los IECA (enalapril), ARA II (valsartán) y los calcioantagonistas (amlodipino) son metabólicamente neutros; la alfametildopa es neutra y de elección en el embarazo. En la práctica actual, las tiazidas siguen siendo una de las clases de primera línea (clortalidona e indapamida son más potentes), y se vigilan los electrolitos. La palabra «contraindicado» de la pregunta debe entenderse como «la menos recomendable», no como una contraindicación absoluta.",
+      "comentario": "Las tiazidas, y también los betabloqueantes no selectivos, pueden empeorar el perfil metabólico: la hidroclorotiazida en dosis altas eleva el colesterol total, el LDL y los triglicéridos, además de causar hipopotasemia, hiponatremia, hiperuricemia, hipercalcemia e intolerancia a la glucosa. Por eso se evita (o se usa en dosis bajas, 12,5-25 mg) cuando hay dislipidemia grave, gota o diabetes mal controlada. Los IECA (enalapril), ARA II (valsartán) y los calcioantagonistas (amlodipino) son metabólicamente neutros; la alfametildopa es neutra y de elección en el embarazo. En la práctica actual, las tiazidas siguen siendo una de las clases de primera línea (clortalidona e indapamida son más potentes), y se vigilan los electrolitos. La palabra «contraindicado» de la pregunta debe entenderse como «la menos recomendable», no como una contraindicación absoluta.",
+      "tema": "Hidroclorotiazida en dislipidemia",
+      "año": 2018,
+      "fuentes": "ACC/AHA, guía de hipertensión arterial (2025); ESC, guía de hipertensión arterial (2024); Katzung Farmacología Básica y Clínica 15.ª ed.",
+      "nota_revision": "Pregunta de redacción discutible (contraindicación relativa); se mantiene la clave del libro."
+    },
+    {
+      "id": "RM-CAR-034",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 56 años, hipertenso con tratamiento irregular, acude a emergencia por cefalea tipo opresivo, náuseas y alteraciones visuales. Examen: PA 200/140 mmHg, FC 102 x min, saturación de 98 %, fondo de ojo: retinopatía hipertensiva grado III; pasa a Shock Trauma donde se inicia labetalol endovenoso. ¿A qué valor se debe disminuir la presión diastólica en mmHg?",
+      "opciones": [
+        "115 a 120.",
+        "100 a 105.",
+        "110 a 115.",
+        "80 a 90.",
+        "90 a 95."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La emergencia hipertensiva es una elevación grave de la presión (generalmente > 180/120 mmHg) con daño agudo de órgano blanco: encefalopatía, retinopatía grado III-IV, edema pulmonar, síndrome coronario agudo, disección aórtica o eclampsia. Se trata en cuidados intensivos con fármacos intravenosos (labetalol, nicardipino, nitroprusiato, clevidipino) y monitorización continua. La meta general es disminuir la presión arterial media un 20-25 % en la primera hora y luego a 160/100-110 mmHg en 2 a 6 horas y a lo normal en 24-48 horas, porque un descenso brusco produce isquemia cerebral, coronaria y renal al sobrepasar la autorregulación. Con una diastólica de 140 mmHg, una reducción del 25 % la llevaría a 100-105 mmHg. Excepciones: disección aórtica (PAS < 120 en 20 minutos) y accidente cerebrovascular isquémico (reducir solo si > 220/120 o antes de trombólisis).",
+      "comentario": "La emergencia hipertensiva es una elevación grave de la presión (generalmente > 180/120 mmHg) con daño agudo de órgano blanco: encefalopatía, retinopatía grado III-IV, edema pulmonar, síndrome coronario agudo, disección aórtica o eclampsia. Se trata en cuidados intensivos con fármacos intravenosos (labetalol, nicardipino, nitroprusiato, clevidipino) y monitorización continua. La meta general es disminuir la presión arterial media un 20-25 % en la primera hora y luego a 160/100-110 mmHg en 2 a 6 horas y a lo normal en 24-48 horas, porque un descenso brusco produce isquemia cerebral, coronaria y renal al sobrepasar la autorregulación. Con una diastólica de 140 mmHg, una reducción del 25 % la llevaría a 100-105 mmHg. Excepciones: disección aórtica (PAS < 120 en 20 minutos) y accidente cerebrovascular isquémico (reducir solo si > 220/120 o antes de trombólisis).",
+      "tema": "Meta de presión diastólica en emergencia hipertensiva",
+      "año": 2019,
+      "fuentes": "ACC/AHA, guía de hipertensión arterial (2025); ESC, guía de hipertensión arterial (2024); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-CAR-035",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es el factor pronóstico más importante en el síndrome postparo cardiaco?",
+      "opciones": [
+        "Hipotermia periférica.",
+        "Bradiarritmia.",
+        "Encefalopatía anóxica.",
+        "Isquemia coronaria.",
+        "Hipoperfusión periférica."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El síndrome posparo cardiaco incluye lesión cerebral hipóxico-isquémica, disfunción miocárdica, respuesta sistémica de isquemia-reperfusión y la patología que causó el paro. La lesión cerebral es la principal causa de morbimortalidad y la que determina el pronóstico neurológico, porque las neuronas de la corteza, el hipocampo, el cerebelo y el tálamo son muy sensibles a la isquemia y al daño por reperfusión. Manejo: control de la temperatura (entre 32 y 37,5 °C, evitando la fiebre por al menos 72 horas), SatO₂ 94-98 %, PaCO₂ normal, PA media ≥ 65 mmHg, coronariografía precoz si hay elevación del ST, y no predecir el pronóstico antes de las 72 horas del retorno de la circulación espontánea, con un enfoque multimodal (examen clínico, EEG, potenciales evocados, neuroimagen y neuronas específicas séricas).",
+      "comentario": "El síndrome posparo cardiaco incluye lesión cerebral hipóxico-isquémica, disfunción miocárdica, respuesta sistémica de isquemia-reperfusión y la patología que causó el paro. La lesión cerebral es la principal causa de morbimortalidad y la que determina el pronóstico neurológico, porque las neuronas de la corteza, el hipocampo, el cerebelo y el tálamo son muy sensibles a la isquemia y al daño por reperfusión. Manejo: control de la temperatura (entre 32 y 37,5 °C, evitando la fiebre por al menos 72 horas), SatO₂ 94-98 %, PaCO₂ normal, PA media ≥ 65 mmHg, coronariografía precoz si hay elevación del ST, y no predecir el pronóstico antes de las 72 horas del retorno de la circulación espontánea, con un enfoque multimodal (examen clínico, EEG, potenciales evocados, neuroimagen y neuronas específicas séricas).",
+      "tema": "Pronóstico del síndrome posparo cardiaco",
+      "año": 2019,
+      "fuentes": "AHA, cuidados posparo cardiaco (actualización 2025); ERC-ESICM, cuidados posreanimación (2021)"
+    },
+    {
+      "id": "RM-CAR-036",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Después de iniciados los síntomas de infarto agudo de miocardio, ¿dentro de qué tiempo en horas se produce el inicio del aumento de las troponinas?",
+      "opciones": [
+        "2.",
+        "4.",
+        "6.",
+        "3.",
+        "1."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Tras la necrosis del cardiomiocito, las troponinas I y T se liberan al plasma y comienzan a subir entre las 3 y 4 horas, alcanzan su pico a las 12-48 horas y permanecen elevadas durante 7-14 días (troponina I) o más (troponina T). La CK-MB se eleva a las 3-6 horas y se normaliza en 48-72 horas; la mioglobina sube en 1-2 horas pero es poco específica. Con ensayos de alta sensibilidad la elevación se detecta ya en la primera hora, por lo que los algoritmos ESC de 0/1 h y 0/2 h permiten descartar o confirmar el infarto con una segunda muestra. El libro adopta 4 horas como el comienzo clásico de la curva. Recuerda: el diagnóstico exige elevación de troponina por encima del percentil 99 con un patrón de subida o bajada, más evidencia de isquemia.",
+      "comentario": "Tras la necrosis del cardiomiocito, las troponinas I y T se liberan al plasma y comienzan a subir entre las 3 y 4 horas, alcanzan su pico a las 12-48 horas y permanecen elevadas durante 7-14 días (troponina I) o más (troponina T). La CK-MB se eleva a las 3-6 horas y se normaliza en 48-72 horas; la mioglobina sube en 1-2 horas pero es poco específica. Con ensayos de alta sensibilidad la elevación se detecta ya en la primera hora, por lo que los algoritmos ESC de 0/1 h y 0/2 h permiten descartar o confirmar el infarto con una segunda muestra. El libro adopta 4 horas como el comienzo clásico de la curva. Recuerda: el diagnóstico exige elevación de troponina por encima del percentil 99 con un patrón de subida o bajada, más evidencia de isquemia.",
+      "tema": "Inicio de elevación de la troponina",
+      "año": 2019,
+      "fuentes": "ESC, síndromes coronarios agudos (2023); Cuarta Definición Universal del Infarto (2018)",
+      "nota_revision": "La clave extraída automáticamente era E; la imagen del libro indica B (4 horas)."
+    },
+    {
+      "id": "RM-CAR-037",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Mujer de 30 años, acude a emergencia por palpitaciones, dolor precordial y ansiedad. Examen: PA: 110/70 mmHg, FC: 210 x min, FR: 24 x min, SatO₂: 97 %. EKG: complejos QRS angostos, regulares, P retrógrada luego del QRS. Luego de realizar maniobras vagales sin respuesta favorable, ¿cuál es el fármaco de elección?",
+      "opciones": [
+        "Metoprolol.",
+        "Lanatósido.",
+        "Adenosina.",
+        "Amiodarona.",
+        "Verapamilo."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El electrocardiograma con QRS estrecho, regular y onda P retrógrada después del QRS (pseudo-r' en V1 o pseudo-S en derivaciones inferiores) es típico de una taquicardia por reentrada intranodal (AVNRT), la causa más frecuente de taquicardia supraventricular paroxística en mujeres jóvenes. Si las maniobras vagales fracasan, el fármaco de elección es la adenosina en bolo rápido (6 mg, repetible con 12 mg) seguida de un lavado salino, que bloquea el nodo auriculoventricular transitoriamente y revierte la taquicardia en > 90 %. Si no responde se usa verapamilo, diltiazem o un betabloqueante, y con inestabilidad (hipotensión, dolor anginoso, edema pulmonar) la cardioversión eléctrica sincronizada. A largo plazo se puede ofrecer ablación con catéter, curativa en > 95 %. La adenosina está contraindicada en asma grave y en fibrilación auricular preexcitada.",
+      "comentario": "El electrocardiograma con QRS estrecho, regular y onda P retrógrada después del QRS (pseudo-r' en V1 o pseudo-S en derivaciones inferiores) es típico de una taquicardia por reentrada intranodal (AVNRT), la causa más frecuente de taquicardia supraventricular paroxística en mujeres jóvenes. Si las maniobras vagales fracasan, el fármaco de elección es la adenosina en bolo rápido (6 mg, repetible con 12 mg) seguida de un lavado salino, que bloquea el nodo auriculoventricular transitoriamente y revierte la taquicardia en > 90 %. Si no responde se usa verapamilo, diltiazem o un betabloqueante, y con inestabilidad (hipotensión, dolor anginoso, edema pulmonar) la cardioversión eléctrica sincronizada. A largo plazo se puede ofrecer ablación con catéter, curativa en > 95 %. La adenosina está contraindicada en asma grave y en fibrilación auricular preexcitada.",
+      "tema": "Taquicardia supraventricular: adenosina tras maniobras vagales",
+      "año": 2019,
+      "fuentes": "AHA/ACC/HRS, guía de taquicardia supraventricular (2015); ESC, taquicardia supraventricular (2019); AHA, SVCA (actualización 2025)",
+      "nota_revision": "Pregunta repetida (RM 2015 y RM 2019)."
+    },
+    {
+      "id": "RM-CAR-038",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿En qué parte del trazado del EKG esperaría encontrar la alteración más característica en un paciente con hipercalcemia?",
+      "opciones": [
+        "Intervalo PR.",
+        "Intervalo QT.",
+        "Segmento ST.",
+        "Onda P.",
+        "Onda Q."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El calcio extracelular regula la duración de la meseta (fase 2) del potencial de acción ventricular. Cuando el calcio sube, la meseta se acorta y la repolarización empieza antes, de modo que el segmento ST se reduce y el intervalo QT corregido se acorta; en hipercalcemias marcadas la onda T parece nacer directamente del final del QRS. Por eso la alteración más característica se describe en el intervalo QT, que además guarda relación inversa con la calcemia. La hipocalcemia produce lo contrario: alargamiento del segmento ST y del QT, con riesgo de torsades. El PR, la onda P y la onda Q no cambian de forma típica, aunque en hipercalcemia grave pueden aparecer bloqueos y bradicardia. Perla: hipercalcemia sintomática o sobre 14 mg/dl exige hidratación con solución salina, calcitonina y bisfosfonatos.",
+      "comentario": "El calcio extracelular regula la duración de la meseta (fase 2) del potencial de acción ventricular. Cuando el calcio sube, la meseta se acorta y la repolarización empieza antes, de modo que el segmento ST se reduce y el intervalo QT corregido se acorta; en hipercalcemias marcadas la onda T parece nacer directamente del final del QRS. Por eso la alteración más característica se describe en el intervalo QT, que además guarda relación inversa con la calcemia. La hipocalcemia produce lo contrario: alargamiento del segmento ST y del QT, con riesgo de torsades. El PR, la onda P y la onda Q no cambian de forma típica, aunque en hipercalcemia grave pueden aparecer bloqueos y bradicardia. Perla: hipercalcemia sintomática o sobre 14 mg/dl exige hidratación con solución salina, calcitonina y bisfosfonatos.",
+      "tema": "Hipercalcemia: acortamiento del QT",
+      "año": 2018,
+      "fuentes": "Walker MD, Shoback D. Hypercalcemia: a review. JAMA (2022); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Electrocardiograma",
+      "nota_revision": "El OCR indicaba C; la página del libro marca B (intervalo QT)."
+    },
+    {
+      "id": "RM-CAR-039",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "La complicación más severa de la infección por estreptococo beta hemolítico es:",
+      "opciones": [
+        "Artritis séptica.",
+        "Síndrome urémico hemolítico.",
+        "Miocarditis.",
+        "Osteomielitis.",
+        "Fiebre reumática."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La fiebre reumática es una complicación no supurativa tardía de la faringoamigdalitis por Streptococcus pyogenes (grupo A), que aparece 2 a 4 semanas después por mimetismo molecular entre la proteína M y antígenos del corazón, la articulación, el cerebro y la piel. Su gravedad radica en la cardiopatía reumática crónica, que deja estenosis o insuficiencia valvular, sobre todo mitral, y es la causa de cardiopatía adquirida en jóvenes en países de bajos ingresos. El diagnóstico se apoya en los criterios de Jones revisados (AHA 2015): dos criterios mayores, o uno mayor y dos menores, con evidencia de infección estreptocócica previa; los mayores son carditis, poliartritis migratoria, corea de Sydenham, eritema marginado y nódulos subcutáneos. La artritis séptica y la osteomielitis son supurativas y se deben a otros gérmenes; el síndrome urémico hemolítico lo causa E. coli productora de toxina Shiga; la miocarditis es solo una parte de la carditis reumática. Perla: la penicilina benzatínica previene las recurrencias.",
+      "comentario": "La fiebre reumática es una complicación no supurativa tardía de la faringoamigdalitis por Streptococcus pyogenes (grupo A), que aparece 2 a 4 semanas después por mimetismo molecular entre la proteína M y antígenos del corazón, la articulación, el cerebro y la piel. Su gravedad radica en la cardiopatía reumática crónica, que deja estenosis o insuficiencia valvular, sobre todo mitral, y es la causa de cardiopatía adquirida en jóvenes en países de bajos ingresos. El diagnóstico se apoya en los criterios de Jones revisados (AHA 2015): dos criterios mayores, o uno mayor y dos menores, con evidencia de infección estreptocócica previa; los mayores son carditis, poliartritis migratoria, corea de Sydenham, eritema marginado y nódulos subcutáneos. La artritis séptica y la osteomielitis son supurativas y se deben a otros gérmenes; el síndrome urémico hemolítico lo causa E. coli productora de toxina Shiga; la miocarditis es solo una parte de la carditis reumática. Perla: la penicilina benzatínica previene las recurrencias.",
+      "tema": "Complicación más severa de la infección por estreptococo beta hemolítico",
+      "año": 2015,
+      "fuentes": "Gewitz MH et al., AHA, Revision of the Jones Criteria for acute rheumatic fever, Circulation 2015;131:1806-18; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fiebre reumática"
+    },
+    {
+      "id": "RM-CAR-040",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Para el diagnóstico de endocarditis infecciosa, ¿cuál de los siguientes enunciados de Duke es un criterio mayor?",
+      "opciones": [
+        "Hemocultivos positivos para microorganismos típicos.",
+        "Fiebre igual o superior a 38 °C.",
+        "Evidencia serológica de infección activa.",
+        "Fenómenos vasculares embólicos periféricos.",
+        "Factor reumatoideo positivo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los criterios de Duke clasifican los casos de endocarditis infecciosa. Los criterios mayores son microbiológicos (hemocultivos positivos con microorganismos típicos como Staphylococcus aureus, estreptococos del grupo viridans, grupo HACEK o enterococos adquiridos en la comunidad, en cultivos persistentes) y de imagen (vegetación, absceso o nueva dehiscencia valvular en ecocardiograma, o captación en PET/TC); la versión Duke-ISCVID 2023 añade como mayores la cirugía con evidencia directa y la serología específica para Coxiella burnetii. Los menores incluyen predisposición (valvulopatía, drogas intravenosas), fiebre de 38 °C o más, fenómenos vasculares, fenómenos inmunológicos (glomerulonefritis, nódulos de Osler, manchas de Roth, factor reumatoideo) y evidencia microbiológica que no cumple lo mayor. Así, la fiebre, los embolismos y el factor reumatoideo son menores. Se define endocarditis definitiva con 2 mayores, 1 mayor y 3 menores, o 5 menores. Perla: se toman al menos tres sets de hemocultivos antes del antibiótico.",
+      "comentario": "Los criterios de Duke clasifican los casos de endocarditis infecciosa. Los criterios mayores son microbiológicos (hemocultivos positivos con microorganismos típicos como Staphylococcus aureus, estreptococos del grupo viridans, grupo HACEK o enterococos adquiridos en la comunidad, en cultivos persistentes) y de imagen (vegetación, absceso o nueva dehiscencia valvular en ecocardiograma, o captación en PET/TC); la versión Duke-ISCVID 2023 añade como mayores la cirugía con evidencia directa y la serología específica para Coxiella burnetii. Los menores incluyen predisposición (valvulopatía, drogas intravenosas), fiebre de 38 °C o más, fenómenos vasculares, fenómenos inmunológicos (glomerulonefritis, nódulos de Osler, manchas de Roth, factor reumatoideo) y evidencia microbiológica que no cumple lo mayor. Así, la fiebre, los embolismos y el factor reumatoideo son menores. Se define endocarditis definitiva con 2 mayores, 1 mayor y 3 menores, o 5 menores. Perla: se toman al menos tres sets de hemocultivos antes del antibiótico.",
+      "tema": "Criterio mayor de Duke en endocarditis infecciosa",
+      "año": 2016,
+      "fuentes": "Fowler VG et al., The 2023 Duke-ISCVID criteria for infective endocarditis, Clin Infect Dis 2023;77:518-26; Delgado V et al., 2023 ESC Guidelines for the management of endocarditis, Eur Heart J 2023;44:3948-4042",
+      "categoria": "Endocarditis",
+      "nota_revision": "La «evidencia serológica de infección activa» era menor en Duke modificado; hoy solo la serología de Coxiella es mayor, por lo que C sigue siendo incorrecta en este enunciado."
+    },
+    {
+      "id": "RM-CAR-041",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es el criterio mayor más frecuente para el diagnóstico de fiebre reumática?",
+      "opciones": [
+        "Carditis.",
+        "Eritema marginado.",
+        "Corea.",
+        "Fiebre.",
+        "Artritis."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La fiebre reumática es una secuela autoinmune, por mimetismo molecular, de la faringitis por estreptococo betahemolítico del grupo A, y aparece 2 a 4 semanas después. Los criterios de Jones revisados por la AHA en 2015 distinguen poblaciones de bajo riesgo y de riesgo moderado o alto, y el diagnóstico inicial requiere evidencia de infección estreptocócica previa más dos criterios mayores o uno mayor y dos menores. Los mayores son carditis, poliartritis, corea de Sydenham, eritema marginado y nódulos subcutáneos; en poblaciones de riesgo moderado y alto la monoartritis o la poliartralgia también cuenta como mayor. La manifestación más frecuente es la artritis migratoria de grandes articulaciones (60 a 80 %), seguida de la carditis (50 a 60 %), que es la más grave porque deja cardiopatía valvular crónica. La corea es tardía (3 meses) y el eritema marginado y los nódulos son raros. La fiebre es criterio menor. Perla: la artritis responde rápido a los AINE.",
+      "comentario": "La fiebre reumática es una secuela autoinmune, por mimetismo molecular, de la faringitis por estreptococo betahemolítico del grupo A, y aparece 2 a 4 semanas después. Los criterios de Jones revisados por la AHA en 2015 distinguen poblaciones de bajo riesgo y de riesgo moderado o alto, y el diagnóstico inicial requiere evidencia de infección estreptocócica previa más dos criterios mayores o uno mayor y dos menores. Los mayores son carditis, poliartritis, corea de Sydenham, eritema marginado y nódulos subcutáneos; en poblaciones de riesgo moderado y alto la monoartritis o la poliartralgia también cuenta como mayor. La manifestación más frecuente es la artritis migratoria de grandes articulaciones (60 a 80 %), seguida de la carditis (50 a 60 %), que es la más grave porque deja cardiopatía valvular crónica. La corea es tardía (3 meses) y el eritema marginado y los nódulos son raros. La fiebre es criterio menor. Perla: la artritis responde rápido a los AINE.",
+      "tema": "Criterio mayor más frecuente de fiebre reumática",
+      "año": 2019,
+      "fuentes": "Gewitz MH et al., AHA, Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography (Circulation 2015;131:1806); Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fiebre reumática"
     }
   ]
 }

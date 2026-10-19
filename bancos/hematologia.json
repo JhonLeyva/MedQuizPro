@@ -884,6 +884,68 @@
       "comentario": "El cuadro es una leucemia aguda: la médula está tomada por blastos que desplazan a las células normales, lo que produce anemia, plaquetas bajas con los moretones fáciles, y blastos circulando en la sangre. La pregunta pide el hallazgo que confirma que esos blastos son de estirpe mieloide, y ese es el bastón de Auer, una estructura alargada en forma de aguja o astilla que se ve dentro del citoplasma de los blastos y que resulta de la fusión anómala de los gránulos azurófilos. Encontrar bastones de Auer es prácticamente la firma de la leucemia mieloide aguda, porque solo aparecen en las células de linaje mieloide; por eso confirman el diagnóstico. Las células de Reed-Sternberg, grandes y con dos núcleos que parecen ojos de búho, son el sello del linfoma de Hodgkin, una enfermedad distinta de los ganglios, no de la médula mieloide. Los linfocitos atípicos grandes con citoplasma basófilo son característicos de la mononucleosis infecciosa por virus, una reacción reactiva benigna, no de una leucemia mieloide. Los plasmocitos con núcleo excéntrico y cromatina en rueda de carro pertenecen al mieloma múltiple, una neoplasia de células plasmáticas; ninguno de esos marca el linaje mieloide, que se confirma con los bastones de Auer. Leucemia aguda con blastos que contienen bastones de Auer (agujas azurófilas en el citoplasma) = leucemia mieloide aguda; los bastones de Auer confirman el linaje mieloide. Las células de Reed-Sternberg son de Hodgkin, los plasmocitos en rueda de carro del mieloma.",
       "tema": "Leucemia mieloide aguda: bastones de Auer",
       "año": 2026
+    },
+    {
+      "id": "RM-HEM-001",
+      "especialidad": "Hematología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Paciente de 65 años, diagnosticado de fibrilación auricular, en tratamiento con warfarina hace 2 meses; consulta por equimosis. ¿Qué prueba solicita como control de la anticoagulación?",
+      "opciones": [
+        "Cuantificación de fibrinógeno.",
+        "Tiempo de reptilase.",
+        "Tiempo de tromboplastina parcial activado.",
+        "Tiempo de trombina.",
+        "Tiempo de protrombina (INR)."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La warfarina inhibe la vitamina K epóxido reductasa y reduce la síntesis hepática de los factores II, VII, IX y X y de las proteínas C y S. Como el factor VII tiene la vida media más corta, el efecto inicial se ve en la vía extrínseca, y se mide con el tiempo de protrombina expresado como INR (razón normalizada internacional). Rango terapéutico: INR 2-3 en fibrilación auricular y trombosis venosa, y 2,5-3,5 en prótesis valvulares mecánicas mitrales. La heparina no fraccionada se monitoriza con TTPa y la de bajo peso molecular con anti-Xa si hace falta. Una equimosis en un paciente anticoagulado requiere medir el INR de inmediato: si es > 4,5-10 sin sangrado se suspende la dosis y se da vitamina K oral; si hay sangrado mayor se administra vitamina K IV más concentrado de complejo protrombínico. Interacciones frecuentes: antibióticos, amiodarona, alcohol y dieta rica en vitamina K.",
+      "comentario": "La warfarina inhibe la vitamina K epóxido reductasa y reduce la síntesis hepática de los factores II, VII, IX y X y de las proteínas C y S. Como el factor VII tiene la vida media más corta, el efecto inicial se ve en la vía extrínseca, y se mide con el tiempo de protrombina expresado como INR (razón normalizada internacional). Rango terapéutico: INR 2-3 en fibrilación auricular y trombosis venosa, y 2,5-3,5 en prótesis valvulares mecánicas mitrales. La heparina no fraccionada se monitoriza con TTPa y la de bajo peso molecular con anti-Xa si hace falta. Una equimosis en un paciente anticoagulado requiere medir el INR de inmediato: si es > 4,5-10 sin sangrado se suspende la dosis y se da vitamina K oral; si hay sangrado mayor se administra vitamina K IV más concentrado de complejo protrombínico. Interacciones frecuentes: antibióticos, amiodarona, alcohol y dieta rica en vitamina K.",
+      "tema": "Control de la anticoagulación con warfarina",
+      "año": 2018,
+      "fuentes": "ACCP/CHEST, tratamiento antitrombótico (2021); ESC, fibrilación auricular (2024); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-HEM-002",
+      "especialidad": "Hematología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Qué elementos formes de la sangre (leucocitos) son más abundantes por microlitro en adultos?",
+      "opciones": [
+        "Eosinófilos.",
+        "Basófilos.",
+        "Monocitos.",
+        "Neutrófilos.",
+        "Linfocitos."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el adulto sano los leucocitos totales son de 4000 a 11 000 por µL, y la fórmula, de mayor a menor, es: neutrófilos 40-70 % (1800-7200/µL), linfocitos 20-40 %, monocitos 2-8 %, eosinófilos 1-4 % y basófilos menos de 1 %, una regla nemotécnica útil es «Nunca Lleves Mono Elegante Bien». Los neutrófilos son la primera línea de defensa frente a bacterias y hongos mediante fagocitosis, degranulación y trampas extracelulares (NET); su vida en sangre es de pocas horas. Los linfocitos son los segundos y predominan en el niño pequeño. Los eosinófilos aumentan en parasitosis y alergias, los basófilos en procesos mieloproliferativos y los monocitos en infecciones crónicas como la tuberculosis. Perla: un recuento absoluto de neutrófilos menor de 1500 por µL define neutropenia y menor de 500 la grave, con riesgo alto de sepsis y necesidad de manejo de fiebre neutropénica.",
+      "comentario": "En el adulto sano los leucocitos totales son de 4000 a 11 000 por µL, y la fórmula, de mayor a menor, es: neutrófilos 40-70 % (1800-7200/µL), linfocitos 20-40 %, monocitos 2-8 %, eosinófilos 1-4 % y basófilos menos de 1 %, una regla nemotécnica útil es «Nunca Lleves Mono Elegante Bien». Los neutrófilos son la primera línea de defensa frente a bacterias y hongos mediante fagocitosis, degranulación y trampas extracelulares (NET); su vida en sangre es de pocas horas. Los linfocitos son los segundos y predominan en el niño pequeño. Los eosinófilos aumentan en parasitosis y alergias, los basófilos en procesos mieloproliferativos y los monocitos en infecciones crónicas como la tuberculosis. Perla: un recuento absoluto de neutrófilos menor de 1500 por µL define neutropenia y menor de 500 la grave, con riesgo alto de sepsis y necesidad de manejo de fiebre neutropénica.",
+      "tema": "Leucocito más abundante en el adulto",
+      "año": 2018,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Robbins y Cotran Patología estructural y funcional 10.ª ed. (2021)",
+      "categoria": "Fisiología de la sangre"
+    },
+    {
+      "id": "RM-HEM-003",
+      "especialidad": "Hematología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Adolescente de 16 años es llevado a consulta por presentar fiebre, nódulos cervicales, dolor abdominal e hiporexia. Examen: linfadenopatía cervical, axilar e inguinal, hepatomegalia. Se sospecha mononucleosis infecciosa. ¿Qué esperaría encontrar en el hemograma?",
+      "opciones": [
+        "Macrocitosis.",
+        "Linfocitos atípicos.",
+        "Granulocitos pequeños.",
+        "Trombocitosis.",
+        "Microcitosis."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La mononucleosis infecciosa, causada en 80 a 90 % por el virus de Epstein-Barr, es la infección de los linfocitos B que desencadena una proliferación reactiva de linfocitos T citotóxicos CD8. Estas células aparecen en el frotis como linfocitos atípicos o de Downey, grandes, con citoplasma abundante basófilo y núcleo excéntrico, y se acompañan de una linfocitosis absoluta (más del 50 % de linfocitos con al menos 10 % atípicos). La tríada clásica es fiebre, faringitis y linfadenopatía, con esplenomegalia y hepatomegalia leve. El diagnóstico se confirma con anticuerpos heterófilos (Paul-Bunnell o monospot) o anticuerpos contra la cápside viral IgM. Las alteraciones de tamaño eritrocitario (macrocitosis, microcitosis) y los granulocitos pequeños no se relacionan; en la fase aguda suele haber trombocitopenia leve y no trombocitosis. Perla: evitar la amoxicilina (exantema) y el deporte de contacto por 3 a 4 semanas por riesgo de rotura esplénica.",
+      "comentario": "La mononucleosis infecciosa, causada en 80 a 90 % por el virus de Epstein-Barr, es la infección de los linfocitos B que desencadena una proliferación reactiva de linfocitos T citotóxicos CD8. Estas células aparecen en el frotis como linfocitos atípicos o de Downey, grandes, con citoplasma abundante basófilo y núcleo excéntrico, y se acompañan de una linfocitosis absoluta (más del 50 % de linfocitos con al menos 10 % atípicos). La tríada clásica es fiebre, faringitis y linfadenopatía, con esplenomegalia y hepatomegalia leve. El diagnóstico se confirma con anticuerpos heterófilos (Paul-Bunnell o monospot) o anticuerpos contra la cápside viral IgM. Las alteraciones de tamaño eritrocitario (macrocitosis, microcitosis) y los granulocitos pequeños no se relacionan; en la fase aguda suele haber trombocitopenia leve y no trombocitosis. Perla: evitar la amoxicilina (exantema) y el deporte de contacto por 3 a 4 semanas por riesgo de rotura esplénica.",
+      "tema": "Mononucleosis infecciosa: hallazgo en el hemograma",
+      "año": 2019,
+      "fuentes": "AAP, Red Book 2024-2027: Report of the Committee on Infectious Diseases (33.ª ed.); Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison 21.ª ed. (2022)",
+      "categoria": "Infecciones virales"
     }
   ]
 }

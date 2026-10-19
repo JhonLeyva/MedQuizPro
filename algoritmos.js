@@ -10855,4 +10855,2515 @@ window.MQP_ALGORITMOS = {
   "CB-503": { titulo: "Fármaco muy hidrofílico, irritante digestivo y que necesita niveles rápidos: vía endovenosa en infusión", imagen: "flujogramas/farmaco-hidrofilico-irritante-gastrointestinal-via-endovenosa-infusion.svg", alt: "Flujograma: Fármaco muy hidrofílico, irritante digestivo y que necesita niveles rápidos: vía endovenosa en infusión" },
   "SP-230": { titulo: "Comparar el IMC promedio de dos grupos independientes con datos normales: t de Student", imagen: "flujogramas/comparar-imc-dos-centros-salud-normal-homocedasticidad-t-student-independientes.svg", alt: "Flujograma: Comparar el IMC promedio de dos grupos independientes con datos normales: t de Student" },
   "PED-289": { titulo: "Tras una infección: citopenias, transaminasas y triglicéridos altos: síndrome hemofagocítico secundario", imagen: "flujogramas/escolar-infeccion-piel-citopenias-transaminasas-trigliceridos-sindrome-hemofagocitico.svg", alt: "Flujograma: Tras una infección: citopenias, transaminasas y triglicéridos altos: síndrome hemofagocítico secundario" },
+
+  /* ---------- Residentado Médico · lote 1 (100 preguntas, 2014-2019) ---------- */
+
+  "RM-CB-001": {
+    titulo: "Los cartílagos impares de la laringe son epiglotis, tiroides y cricoides",
+    imagen: "flujogramas/rm-cb-001-anatomia-esqueleto-de-la-laringe.svg",
+    alt: "Flujograma: Los cartílagos impares de la laringe son epiglotis, tiroides y cricoides"
+  },
+  "RM-CB-002": {
+    titulo: "La vena cefálica pasa por el surco deltopectoral, que hay que recordar en una flebotomía",
+    imagen: "flujogramas/rm-cb-002-anatomia-miembro-superior.svg",
+    alt: "Flujograma: La vena cefálica pasa por el surco deltopectoral, que hay que recordar en una flebotomía"
+  },
+  "RM-CB-003": {
+    titulo: "La arteria circunfleja es rama de la coronaria izquierda",
+    imagen: "flujogramas/rm-cb-003-anatomia-arterias-coronarias.svg",
+    alt: "Flujograma: La arteria circunfleja es rama de la coronaria izquierda"
+  },
+  "RM-CB-004": {
+    titulo: "El plexo cardiaco nace de las ramas cervicales del vago y del tronco simpático",
+    imagen: "flujogramas/rm-cb-004-anatomia-inervacion-del-corazon.svg",
+    alt: "Flujograma: El plexo cardiaco nace de las ramas cervicales del vago y del tronco simpático"
+  },
+  "RM-CB-005": {
+    titulo: "Las venas bronquiales drenan solo parte de la sangre aportada a los pulmones",
+    imagen: "flujogramas/rm-cb-005-anatomia-circulacion-pulmonar.svg",
+    alt: "Flujograma: Las venas bronquiales drenan solo parte de la sangre aportada a los pulmones"
+  },
+  "RM-CB-006": {
+    titulo: "El gastrocnemio flexiona la planta del pie y, débilmente, la rodilla",
+    imagen: "flujogramas/rm-cb-006-anatomia-musculos-de-la-pierna.svg",
+    alt: "Flujograma: El gastrocnemio flexiona la planta del pie y, débilmente, la rodilla"
+  },
+  "RM-CB-007": {
+    titulo: "La arteria pulmonar derecha pasa por detrás de la aorta ascendente",
+    imagen: "flujogramas/rm-cb-007-anatomia-mediastino-y-hilio.svg",
+    alt: "Flujograma: La arteria pulmonar derecha pasa por detrás de la aorta ascendente"
+  },
+  "RM-CB-008": {
+    titulo: "La articulación coxofemoral es de tipo sinovial",
+    imagen: "flujogramas/rm-cb-008-anatomia-articulaciones.svg",
+    alt: "Flujograma: La articulación coxofemoral es de tipo sinovial"
+  },
+  "RM-CB-009": {
+    titulo: "El nervio laríngeo recurrente inerva las cuerdas vocales; el superior solo el cricotiroideo",
+    imagen: "flujogramas/rm-cb-009-anatomia-inervacion-de-la-laringe.svg",
+    alt: "Flujograma: El nervio laríngeo recurrente inerva las cuerdas vocales; el superior solo el cricotiroideo"
+  },
+  "RM-CB-010": {
+    titulo: "En el adulto sano, la aorta descendente se localiza en el mediastino posterior",
+    imagen: "flujogramas/rm-cb-010-anatomia-compartimentos-del-mediastino.svg",
+    alt: "Flujograma: En el adulto sano, la aorta descendente se localiza en el mediastino posterior"
+  },
+  "RM-CB-011": {
+    titulo: "El diafragma es el principal músculo de la inspiración",
+    imagen: "flujogramas/rm-cb-011-fisiologia-respiratoria-mecanica-ventilatoria.svg",
+    alt: "Flujograma: El diafragma es el principal músculo de la inspiración"
+  },
+  "RM-CB-012": {
+    titulo: "El nodo sinusal se irriga con mayor frecuencia por una rama de la coronaria derecha",
+    imagen: "flujogramas/rm-cb-012-anatomia-sistema-de-conduccion.svg",
+    alt: "Flujograma: El nodo sinusal se irriga con mayor frecuencia por una rama de la coronaria derecha"
+  },
+  "RM-CB-013": {
+    titulo: "La arteria apendicular es rama de la mesentérica superior, a través de la ileocólica",
+    imagen: "flujogramas/rm-cb-013-anatomia-irrigacion-del-intestino.svg",
+    alt: "Flujograma: La arteria apendicular es rama de la mesentérica superior, a través de la ileocólica"
+  },
+  "RM-CIR-001": {
+    titulo: "La lidocaína, anestésico local, también se usa en arritmias ventriculares",
+    imagen: "flujogramas/rm-cir-001-farmacologia-antiarritmicos-vaughan-williams.svg",
+    alt: "Flujograma: La lidocaína, anestésico local, también se usa en arritmias ventriculares"
+  },
+  "RM-CIR-002": {
+    titulo: "La hipotensión es la complicación más frecuente de la anestesia raquídea",
+    imagen: "flujogramas/rm-cir-002-anestesiologia-bloqueo-neuroaxial.svg",
+    alt: "Flujograma: La hipotensión es la complicación más frecuente de la anestesia raquídea"
+  },
+  "RM-CIR-003": {
+    titulo: "La procaína es el anestésico local del grupo éster de la lista",
+    imagen: "flujogramas/rm-cir-003-anestesiologia-anestesicos-locales.svg",
+    alt: "Flujograma: La procaína es el anestésico local del grupo éster de la lista"
+  },
+  "RM-CIR-004": {
+    titulo: "Entre los anestésicos de la lista, la procaína es el único éster",
+    imagen: "flujogramas/rm-cir-004-anestesiologia-anestesicos-locales-variante.svg",
+    alt: "Flujograma: Entre los anestésicos de la lista, la procaína es el único éster"
+  },
+  "RM-CIR-005": {
+    titulo: "La anestesia raquídea se inyecta en el espacio subaracnoideo",
+    imagen: "flujogramas/rm-cir-005-anestesiologia-tecnicas-neuroaxiales.svg",
+    alt: "Flujograma: La anestesia raquídea se inyecta en el espacio subaracnoideo"
+  },
+  "RM-CIR-006": {
+    titulo: "Mujer con colecistitis aguda e insuficiencia cardiaca congestiva: ASA IV según la clave del libro",
+    imagen: "flujogramas/rm-cir-006-anestesiologia-riesgo-anestesico-asa.svg",
+    alt: "Flujograma: Mujer con colecistitis aguda e insuficiencia cardiaca congestiva: ASA IV según la clave del libro"
+  },
+  "RM-CIR-007": {
+    titulo: "En el paciente mal hidratado la complicación más frecuente de la raquídea es la hipotensión",
+    imagen: "flujogramas/rm-cir-007-anestesiologia-prevencion-de-hipotension.svg",
+    alt: "Flujograma: En el paciente mal hidratado la complicación más frecuente de la raquídea es la hipotensión"
+  },
+  "RM-CIR-008": {
+    titulo: "La anestesia neuroaxial (raquídea y epidural) es un tipo de anestesia regional",
+    imagen: "flujogramas/rm-cir-008-anestesiologia-clasificacion-de-la-anestesia.svg",
+    alt: "Flujograma: La anestesia neuroaxial (raquídea y epidural) es un tipo de anestesia regional"
+  },
+  "RM-CIR-009": {
+    titulo: "En un gran quemado con fasciotomía, la complicación más frecuente de la anestesia epidural es la hipotensión",
+    imagen: "flujogramas/rm-cir-009-anestesiologia-epidural-en-el-paciente-quemado.svg",
+    alt: "Flujograma: En un gran quemado con fasciotomía, la complicación más frecuente de la anestesia epidural es la hipotensión"
+  },
+  "RM-CIR-010": {
+    titulo: "La bupivacaína es el anestésico local de acción prolongada",
+    imagen: "flujogramas/rm-cir-010-anestesiologia-duracion-de-los-anestesicos-locales.svg",
+    alt: "Flujograma: La bupivacaína es el anestésico local de acción prolongada"
+  },
+  "RM-CIR-011": {
+    titulo: "Peritonitis difusa por apendicitis complicada: anestesia general",
+    imagen: "flujogramas/rm-cir-011-anestesiologia-eleccion-de-la-tecnica.svg",
+    alt: "Flujograma: Peritonitis difusa por apendicitis complicada: anestesia general"
+  },
+  "RM-CB-014": {
+    titulo: "El riñón tiene el mayor flujo sanguíneo por cada 100 g de tejido",
+    imagen: "flujogramas/rm-cb-014-fisiologia-circulacion-por-organos.svg",
+    alt: "Flujograma: El riñón tiene el mayor flujo sanguíneo por cada 100 g de tejido"
+  },
+  "RM-CB-015": {
+    titulo: "En el período refractario absoluto el miocito no puede responder a ningún estímulo",
+    imagen: "flujogramas/rm-cb-015-fisiologia-cardiaca-potencial-de-accion.svg",
+    alt: "Flujograma: En el período refractario absoluto el miocito no puede responder a ningún estímulo"
+  },
+  "RM-END-001": {
+    titulo: "Crisis hipertensivas y masa suprarrenal izquierda: pedir metanefrinas",
+    imagen: "flujogramas/rm-end-001-endocrinologia-feocromocitoma.svg",
+    alt: "Flujograma: Crisis hipertensivas y masa suprarrenal izquierda: pedir metanefrinas"
+  },
+  "RM-CAR-001": {
+    titulo: "El atenolol es un antagonista del receptor beta",
+    imagen: "flujogramas/rm-car-001-farmacologia-antihipertensivos.svg",
+    alt: "Flujograma: El atenolol es un antagonista del receptor beta"
+  },
+  "RM-CAR-002": {
+    titulo: "La taquicardia sinusal es el primer mecanismo compensador de la caída de la presión en el shock",
+    imagen: "flujogramas/rm-car-002-fisiologia-compensacion-hemodinamica.svg",
+    alt: "Flujograma: La taquicardia sinusal es el primer mecanismo compensador de la caída de la presión en el shock"
+  },
+  "RM-CAR-003": {
+    titulo: "Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo",
+    imagen: "flujogramas/rm-car-003-shock-clasificacion-hemodinamica.svg",
+    alt: "Flujograma: Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo"
+  },
+  "RM-NEF-001": {
+    titulo: "Anasarca con hiponatremia hipervolémica y sodio urinario menor de 20 mmol/L: insuficiencia cardiaca",
+    imagen: "flujogramas/rm-nef-001-hiponatremia-diagnostico-diferencial.svg",
+    alt: "Flujograma: Anasarca con hiponatremia hipervolémica y sodio urinario menor de 20 mmol/L: insuficiencia cardiaca"
+  },
+  "RM-CAR-004": {
+    titulo: "Ingurgitación yugular, hepatomegalia y ascitis son los hallazgos más específicos de insuficiencia cardiaca derecha",
+    imagen: "flujogramas/rm-car-004-insuficiencia-cardiaca-falla-derecha-e-izquierda.svg",
+    alt: "Flujograma: Ingurgitación yugular, hepatomegalia y ascitis son los hallazgos más específicos de insuficiencia cardiaca derecha"
+  },
+  "RM-CAR-005": {
+    titulo: "El soplo de Austin Flint se ausculta en la insuficiencia aórtica",
+    imagen: "flujogramas/rm-car-005-valvulopatias-soplos-diastolicos.svg",
+    alt: "Flujograma: El soplo de Austin Flint se ausculta en la insuficiencia aórtica"
+  },
+  "RM-CAR-006": {
+    titulo: "El ventrículo derecho pequeño por colapso de las cavidades derechas sugiere taponamiento",
+    imagen: "flujogramas/rm-car-006-pericardio-taponamiento-cardiaco.svg",
+    alt: "Flujograma: El ventrículo derecho pequeño por colapso de las cavidades derechas sugiere taponamiento"
+  },
+  "RM-PED-001": {
+    titulo: "En el lactante, la insuficiencia cardiaca se sospecha por disnea y sudoración profusa al lactar",
+    imagen: "flujogramas/rm-ped-001-cardiologia-pediatrica-insuficiencia-cardiaca.svg",
+    alt: "Flujograma: En el lactante, la insuficiencia cardiaca se sospecha por disnea y sudoración profusa al lactar"
+  },
+  "RM-CAR-007": {
+    titulo: "La troponina I es el mejor marcador cardiaco para confirmar un infarto de miocardio",
+    imagen: "flujogramas/rm-car-007-cardiopatia-isquemica-biomarcadores.svg",
+    alt: "Flujograma: La troponina I es el mejor marcador cardiaco para confirmar un infarto de miocardio"
+  },
+  "RM-CAR-008": {
+    titulo: "Hipertensión, diabetes y dislipidemia son los factores de riesgo coronario más importantes",
+    imagen: "flujogramas/rm-car-008-prevencion-cardiovascular-factores-de-riesgo.svg",
+    alt: "Flujograma: Hipertensión, diabetes y dislipidemia son los factores de riesgo coronario más importantes"
+  },
+  "RM-CAR-009": {
+    titulo: "La creatinfosfoquinasa se eleva en el infarto agudo de miocardio",
+    imagen: "flujogramas/rm-car-009-cardiopatia-isquemica-enzimas-cardiacas.svg",
+    alt: "Flujograma: La creatinfosfoquinasa se eleva en el infarto agudo de miocardio"
+  },
+  "RM-CAR-010": {
+    titulo: "Hipertrofia ventricular izquierda: el eje del QRS se desvía a la izquierda (-60°)",
+    imagen: "flujogramas/rm-car-010-electrocardiografia-eje-electrico.svg",
+    alt: "Flujograma: Hipertrofia ventricular izquierda: el eje del QRS se desvía a la izquierda (-60°)"
+  },
+  "RM-CAR-011": {
+    titulo: "Neoplasia intracraneal es contraindicación absoluta de fibrinólisis en el infarto",
+    imagen: "flujogramas/rm-car-011-cardiopatia-isquemica-reperfusion.svg",
+    alt: "Flujograma: Neoplasia intracraneal es contraindicación absoluta de fibrinólisis en el infarto"
+  },
+  "RM-CAR-012": {
+    titulo: "Síncope de esfuerzo, soplo sistólico eyectivo e HVI en un anciano: estenosis aórtica",
+    imagen: "flujogramas/rm-car-012-valvulopatias-estenosis-aortica.svg",
+    alt: "Flujograma: Síncope de esfuerzo, soplo sistólico eyectivo e HVI en un anciano: estenosis aórtica"
+  },
+  "RM-NEU-001": {
+    titulo: "La língula forma parte del lóbulo superior izquierdo",
+    imagen: "flujogramas/rm-neu-001-neumologia-anatomia-lobar.svg",
+    alt: "Flujograma: La língula forma parte del lóbulo superior izquierdo"
+  },
+  "RM-CIR-012": {
+    titulo: "El ensanchamiento del mediastino sugiere lesión de grandes vasos tras un trauma torácico",
+    imagen: "flujogramas/rm-cir-012-trauma-toracico-lesion-de-la-aorta.svg",
+    alt: "Flujograma: El ensanchamiento del mediastino sugiere lesión de grandes vasos tras un trauma torácico"
+  },
+  "RM-NEU-002": {
+    titulo: "La causa más frecuente de quilotórax es el traumatismo, incluido el quirúrgico",
+    imagen: "flujogramas/rm-neu-002-pleura-quilotorax.svg",
+    alt: "Flujograma: La causa más frecuente de quilotórax es el traumatismo, incluido el quirúrgico"
+  },
+  "RM-CIR-013": {
+    titulo: "El eco Doppler venoso evalúa la insuficiencia valvular y la obstrucción de los miembros inferiores",
+    imagen: "flujogramas/rm-cir-013-cirugia-vascular-enfermedad-venosa.svg",
+    alt: "Flujograma: El eco Doppler venoso evalúa la insuficiencia valvular y la obstrucción de los miembros inferiores"
+  },
+  "RM-CB-016": {
+    titulo: "En las arteriolas la adventicia es delgada y de tejido conjuntivo laxo",
+    imagen: "flujogramas/rm-cb-016-histologia-vasos-sanguineos.svg",
+    alt: "Flujograma: En las arteriolas la adventicia es delgada y de tejido conjuntivo laxo"
+  },
+  "RM-CB-017": {
+    titulo: "La túnica media de las arteriolas regula la resistencia vascular periférica",
+    imagen: "flujogramas/rm-cb-017-fisiologia-vascular-resistencia-periferica.svg",
+    alt: "Flujograma: La túnica media de las arteriolas regula la resistencia vascular periférica"
+  },
+  "RM-CAR-013": {
+    titulo: "El amlodipino es el fármaco que causa el edema de miembros inferiores",
+    imagen: "flujogramas/rm-car-013-farmacologia-efectos-adversos-de-antihipertensivos.svg",
+    alt: "Flujograma: El amlodipino es el fármaco que causa el edema de miembros inferiores"
+  },
+  "RM-CAR-014": {
+    titulo: "El taponamiento pericárdico traumático se caracteriza por pulso paradójico",
+    imagen: "flujogramas/rm-car-014-trauma-cardiaco-taponamiento.svg",
+    alt: "Flujograma: El taponamiento pericárdico traumático se caracteriza por pulso paradójico"
+  },
+  "RM-CB-018": {
+    titulo: "Las fibras de Purkinje son las más gruesas y rápidas del sistema de conducción",
+    imagen: "flujogramas/rm-cb-018-fisiologia-cardiaca-sistema-de-conduccion.svg",
+    alt: "Flujograma: Las fibras de Purkinje son las más gruesas y rápidas del sistema de conducción"
+  },
+  "RM-CAR-015": {
+    titulo: "Taquicardia supraventricular estable: maniobras vagales y adenosina",
+    imagen: "flujogramas/rm-car-015-arritmias-taquicardia-supraventricular.svg",
+    alt: "Flujograma: Taquicardia supraventricular estable: maniobras vagales y adenosina"
+  },
+  "RM-CAR-016": {
+    titulo: "Disnea súbita y dolor torácico con angina previa en un adulto mayor: origen cardiaco",
+    imagen: "flujogramas/rm-car-016-medicina-interna-razonamiento-clinico.svg",
+    alt: "Flujograma: Disnea súbita y dolor torácico con angina previa en un adulto mayor: origen cardiaco"
+  },
+  "RM-CB-019": {
+    titulo: "La relajación isobarométrica no existe: la fase correcta es la isovolumétrica",
+    imagen: "flujogramas/rm-cb-019-fisiologia-cardiaca-ciclo-cardiaco.svg",
+    alt: "Flujograma: La relajación isobarométrica no existe: la fase correcta es la isovolumétrica"
+  },
+  "RM-CAR-017": {
+    titulo: "El aliskiren es el inhibidor directo de la renina",
+    imagen: "flujogramas/rm-car-017-farmacologia-sistema-renina-angiotensina.svg",
+    alt: "Flujograma: El aliskiren es el inhibidor directo de la renina"
+  },
+  "RM-CAR-018": {
+    titulo: "El hemocultivo positivo es un criterio mayor para el diagnóstico de endocarditis infecciosa",
+    imagen: "flujogramas/rm-car-018-infecciones-cardiacas-endocarditis.svg",
+    alt: "Flujograma: El hemocultivo positivo es un criterio mayor para el diagnóstico de endocarditis infecciosa"
+  },
+  "RM-CIR-014": {
+    titulo: "Hemotórax: hematocrito del líquido pleural mayor del 50 % del hematocrito de la sangre",
+    imagen: "flujogramas/rm-cir-014-trauma-toracico-hemotorax.svg",
+    alt: "Flujograma: Hemotórax: hematocrito del líquido pleural mayor del 50 % del hematocrito de la sangre"
+  },
+  "RM-CAR-019": {
+    titulo: "La troponina es el marcador de elección del infarto en emergencia",
+    imagen: "flujogramas/rm-car-019-cardiopatia-isquemica-biomarcadores.svg",
+    alt: "Flujograma: La troponina es el marcador de elección del infarto en emergencia"
+  },
+  "RM-CAR-020": {
+    titulo: "ST elevado en II, III y aVF con bradicardia e hipotensión: infarto de cara inferior",
+    imagen: "flujogramas/rm-car-020-cardiopatia-isquemica-infarto-inferior.svg",
+    alt: "Flujograma: ST elevado en II, III y aVF con bradicardia e hipotensión: infarto de cara inferior"
+  },
+  "RM-CIR-015": {
+    titulo: "Herida de bala torácica con hemotórax y colapso del pulmón: drenaje torácico inmediato",
+    imagen: "flujogramas/rm-cir-015-trauma-toracico-hemotorax-masivo.svg",
+    alt: "Flujograma: Herida de bala torácica con hemotórax y colapso del pulmón: drenaje torácico inmediato"
+  },
+  "RM-NEU-003": {
+    titulo: "El timoma es la tumoración más frecuente del mediastino anterior en el adulto",
+    imagen: "flujogramas/rm-neu-003-neumologia-tumores-del-mediastino.svg",
+    alt: "Flujograma: El timoma es la tumoración más frecuente del mediastino anterior en el adulto"
+  },
+  "RM-CIR-016": {
+    titulo: "Tromboflebitis superficial: elevación del miembro y calor local como medidas conservadoras",
+    imagen: "flujogramas/rm-cir-016-cirugia-vascular-tromboflebitis-superficial.svg",
+    alt: "Flujograma: Tromboflebitis superficial: elevación del miembro y calor local como medidas conservadoras"
+  },
+  "RM-CB-020": {
+    titulo: "A dosis altas la adrenalina eleva la presión por predominio del efecto alfa-1",
+    imagen: "flujogramas/rm-cb-020-farmacologia-catecolaminas.svg",
+    alt: "Flujograma: A dosis altas la adrenalina eleva la presión por predominio del efecto alfa-1"
+  },
+  "RM-CAR-021": {
+    titulo: "Insuficiencia mitral: soplo holosistólico de tono alto en el ápex irradiado a la axila",
+    imagen: "flujogramas/rm-car-021-valvulopatias-auscultacion.svg",
+    alt: "Flujograma: Insuficiencia mitral: soplo holosistólico de tono alto en el ápex irradiado a la axila"
+  },
+  "RM-CAR-022": {
+    titulo: "La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco",
+    imagen: "flujogramas/rm-car-022-cardiologia-fibrilacion-auricular-y-embolia.svg",
+    alt: "Flujograma: La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco"
+  },
+  "RM-CAR-023": {
+    titulo: "Infarto lateral: alteraciones en DI y aVL (lateral alto) y V5-V6 (lateral bajo)",
+    imagen: "flujogramas/rm-car-023-cardiopatia-isquemica-localizacion-por-ecg.svg",
+    alt: "Flujograma: Infarto lateral: alteraciones en DI y aVL (lateral alto) y V5-V6 (lateral bajo)"
+  },
+  "RM-CB-021": {
+    titulo: "La cardionatrina (péptido natriurético atrial) se sintetiza en el miocardio auricular",
+    imagen: "flujogramas/rm-cb-021-fisiologia-peptidos-natriureticos.svg",
+    alt: "Flujograma: La cardionatrina (péptido natriurético atrial) se sintetiza en el miocardio auricular"
+  },
+  "RM-CAR-024": {
+    titulo: "Hipertensión grado 2 en un paciente con riesgo alto: tratamiento combinado desde el inicio",
+    imagen: "flujogramas/rm-car-024-hipertension-arterial-conducta-inicial.svg",
+    alt: "Flujograma: Hipertensión grado 2 en un paciente con riesgo alto: tratamiento combinado desde el inicio"
+  },
+  "RM-NEU-004": {
+    titulo: "La tomografía de alta resolución es el examen que mejor confirma las bronquiectasias",
+    imagen: "flujogramas/rm-neu-004-neumologia-bronquiectasias.svg",
+    alt: "Flujograma: La tomografía de alta resolución es el examen que mejor confirma las bronquiectasias"
+  },
+  "RM-CIR-017": {
+    titulo: "El eco Doppler dúplex es el método ideal para diagnosticar la insuficiencia venosa periférica",
+    imagen: "flujogramas/rm-cir-017-cirugia-vascular-insuficiencia-venosa.svg",
+    alt: "Flujograma: El eco Doppler dúplex es el método ideal para diagnosticar la insuficiencia venosa periférica"
+  },
+  "RM-END-002": {
+    titulo: "Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias",
+    imagen: "flujogramas/rm-end-002-endocrinologia-feocromocitoma-variante.svg",
+    alt: "Flujograma: Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias"
+  },
+  "RM-CAR-025": {
+    titulo: "ST elevado y T negativas en DII, DIII y aVF: infarto de cara inferior",
+    imagen: "flujogramas/rm-car-025-cardiopatia-isquemica-infarto-inferior-variante.svg",
+    alt: "Flujograma: ST elevado y T negativas en DII, DIII y aVF: infarto de cara inferior"
+  },
+  "RM-CAR-026": {
+    titulo: "La fibrilación auricular con enfermedad mitral es la causa más frecuente de embolia cardiaca",
+    imagen: "flujogramas/rm-car-026-cardiologia-cardioembolia.svg",
+    alt: "Flujograma: La fibrilación auricular con enfermedad mitral es la causa más frecuente de embolia cardiaca"
+  },
+  "RM-CB-022": {
+    titulo: "Los nodos sinusal y auriculoventricular se irrigan en su mayoría por la coronaria derecha",
+    imagen: "flujogramas/rm-cb-022-anatomia-irrigacion-del-sistema-de-conduccion.svg",
+    alt: "Flujograma: Los nodos sinusal y auriculoventricular se irrigan en su mayoría por la coronaria derecha"
+  },
+  "RM-CAR-027": {
+    titulo: "Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo",
+    imagen: "flujogramas/rm-car-027-shock-tipos-y-conducta.svg",
+    alt: "Flujograma: Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo"
+  },
+  "RM-CIR-018": {
+    titulo: "Herida torácica baja con ruidos hidroaéreos en el tórax: hernia diafragmática traumática",
+    imagen: "flujogramas/rm-cir-018-trauma-toracoabdominal-diafragma.svg",
+    alt: "Flujograma: Herida torácica baja con ruidos hidroaéreos en el tórax: hernia diafragmática traumática"
+  },
+  "RM-CAR-028": {
+    titulo: "En el edema pulmonar cardiogénico aumenta la presión hidrostática capilar",
+    imagen: "flujogramas/rm-car-028-insuficiencia-cardiaca-edema-agudo-de-pulmon.svg",
+    alt: "Flujograma: En el edema pulmonar cardiogénico aumenta la presión hidrostática capilar"
+  },
+  "RM-CIR-019": {
+    titulo: "La prueba ideal para evaluar las várices es el eco Doppler",
+    imagen: "flujogramas/rm-cir-019-cirugia-vascular-varices.svg",
+    alt: "Flujograma: La prueba ideal para evaluar las várices es el eco Doppler"
+  },
+  "RM-CIR-020": {
+    titulo: "Tromboflebitis superficial con riesgo de extensión: anticoagulación por seis semanas",
+    imagen: "flujogramas/rm-cir-020-cirugia-vascular-duracion-del-tratamiento.svg",
+    alt: "Flujograma: Tromboflebitis superficial con riesgo de extensión: anticoagulación por seis semanas"
+  },
+  "RM-NEU-005": {
+    titulo: "Tromboembolia pulmonar sin inestabilidad: enoxaparina 1 mg/kg cada 12 horas por vía subcutánea",
+    imagen: "flujogramas/rm-neu-005-neumologia-tromboembolia-pulmonar.svg",
+    alt: "Flujograma: Tromboembolia pulmonar sin inestabilidad: enoxaparina 1 mg/kg cada 12 horas por vía subcutánea"
+  },
+  "RM-CAR-029": {
+    titulo: "Fibrilación auricular rápida con disnea: digoxina entre las opciones de control de frecuencia",
+    imagen: "flujogramas/rm-car-029-arritmias-control-de-la-frecuencia-en-fa.svg",
+    alt: "Flujograma: Fibrilación auricular rápida con disnea: digoxina entre las opciones de control de frecuencia"
+  },
+  "RM-CAR-030": {
+    titulo: "Anemia grave por hemorragia digestiva con isquemia: infarto tipo 2",
+    imagen: "flujogramas/rm-car-030-cardiopatia-isquemica-definicion-universal.svg",
+    alt: "Flujograma: Anemia grave por hemorragia digestiva con isquemia: infarto tipo 2"
+  },
+  "RM-CAR-031": {
+    titulo: "Los IECA están contraindicados en la gestante hipertensa",
+    imagen: "flujogramas/rm-car-031-obstetricia-hipertension-y-farmacos.svg",
+    alt: "Flujograma: Los IECA están contraindicados en la gestante hipertensa"
+  },
+  "RM-HEM-001": {
+    titulo: "La warfarina se controla con el tiempo de protrombina expresado como INR",
+    imagen: "flujogramas/rm-hem-001-hematologia-anticoagulacion-oral.svg",
+    alt: "Flujograma: La warfarina se controla con el tiempo de protrombina expresado como INR"
+  },
+  "RM-CAR-032": {
+    titulo: "El taponamiento pericárdico produce shock obstructivo",
+    imagen: "flujogramas/rm-car-032-shock-clasificacion.svg",
+    alt: "Flujograma: El taponamiento pericárdico produce shock obstructivo"
+  },
+  "RM-CAR-033": {
+    titulo: "La hidroclorotiazida puede empeorar el perfil lipídico: se evita en dislipidemia grave",
+    imagen: "flujogramas/rm-car-033-farmacologia-efectos-metabolicos-de-las-tiazidas.svg",
+    alt: "Flujograma: La hidroclorotiazida puede empeorar el perfil lipídico: se evita en dislipidemia grave"
+  },
+  "RM-CIR-021": {
+    titulo: "Dolor torácico con pérdida de conciencia y pulso presente: primero la vía aérea y la respiración",
+    imagen: "flujogramas/rm-cir-021-urgencias-paciente-grave-sin-paro.svg",
+    alt: "Flujograma: Dolor torácico con pérdida de conciencia y pulso presente: primero la vía aérea y la respiración"
+  },
+  "RM-NEF-002": {
+    titulo: "Hipertenso con enfermedad renal y hematuria: IECA como antihipertensivo",
+    imagen: "flujogramas/rm-nef-002-nefrologia-hipertension-y-enfermedad-renal-cronica.svg",
+    alt: "Flujograma: Hipertenso con enfermedad renal y hematuria: IECA como antihipertensivo"
+  },
+  "RM-CIR-022": {
+    titulo: "Herida precordial con yugulares llenas, ruidos apagados y PVC de 15 cm de agua: taponamiento cardiaco",
+    imagen: "flujogramas/rm-cir-022-trauma-cardiaco-taponamiento.svg",
+    alt: "Flujograma: Herida precordial con yugulares llenas, ruidos apagados y PVC de 15 cm de agua: taponamiento cardiaco"
+  },
+  "RM-CB-023": {
+    titulo: "La precarga es el volumen al final de la diástole",
+    imagen: "flujogramas/rm-cb-023-fisiologia-cardiaca-precarga-y-poscarga.svg",
+    alt: "Flujograma: La precarga es el volumen al final de la diástole"
+  },
+  "RM-CAR-034": {
+    titulo: "Emergencia hipertensiva: bajar la presión diastólica hasta 100-105 mmHg",
+    imagen: "flujogramas/rm-car-034-hipertension-emergencia-hipertensiva.svg",
+    alt: "Flujograma: Emergencia hipertensiva: bajar la presión diastólica hasta 100-105 mmHg"
+  },
+  "RM-CAR-035": {
+    titulo: "En el síndrome posparo, la encefalopatía anóxica define el pronóstico",
+    imagen: "flujogramas/rm-car-035-reanimacion-sindrome-posparo-cardiaco.svg",
+    alt: "Flujograma: En el síndrome posparo, la encefalopatía anóxica define el pronóstico"
+  },
+  "RM-CAR-036": {
+    titulo: "La troponina comienza a elevarse a las 4 horas del inicio del infarto",
+    imagen: "flujogramas/rm-car-036-cardiopatia-isquemica-cinetica-de-la-troponina.svg",
+    alt: "Flujograma: La troponina comienza a elevarse a las 4 horas del inicio del infarto"
+  },
+  "RM-CAR-037": {
+    titulo: "Taquicardia supraventricular con QRS estrecho que no cede con maniobras vagales: adenosina",
+    imagen: "flujogramas/rm-car-037-arritmias-taquicardia-por-reentrada.svg",
+    alt: "Flujograma: Taquicardia supraventricular con QRS estrecho que no cede con maniobras vagales: adenosina"
+  },
+  "RM-NEF-003": {
+    titulo: "Diabético con HTA y proteinuria persistente: enalapril",
+    imagen: "flujogramas/rm-nef-003-nefrologia-nefropatia-diabetica.svg",
+    alt: "Flujograma: Diabético con HTA y proteinuria persistente: enalapril"
+  },
+  "RM-CIR-023": {
+    titulo: "Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda",
+    imagen: "flujogramas/rm-cir-023-cirugia-apendicitis-aguda.svg",
+    alt: "Flujograma: Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda"
+  },
+  "RM-CIR-024": {
+    titulo: "La anorexia es el síntoma casi constante de la apendicitis: su ausencia pone en duda el diagnóstico",
+    imagen: "flujogramas/rm-cir-024-cirugia-apendicitis-puntaje-de-alvarado.svg",
+    alt: "Flujograma: La anorexia es el síntoma casi constante de la apendicitis: su ausencia pone en duda el diagnóstico"
+  },
+  "RM-CIR-025": {
+    titulo: "La malrotación y la falta de fijación del ciego son el factor más asociado al vólvulo cecal",
+    imagen: "flujogramas/rm-cir-025-cirugia-obstruccion-intestinal-volvulo-cecal.svg",
+    alt: "Flujograma: La malrotación y la falta de fijación del ciego son el factor más asociado al vólvulo cecal"
+  },
+  "RM-CIR-026": {
+    titulo: "Las bridas y adherencias son la primera causa de obstrucción intestinal tras una cirugía abdominal",
+    imagen: "flujogramas/rm-cir-026-cirugia-obstruccion-intestinal-posoperatoria.svg",
+    alt: "Flujograma: Las bridas y adherencias son la primera causa de obstrucción intestinal tras una cirugía abdominal"
+  },
+  "RM-CIR-027": {
+    titulo: "La seudoobstrucción aguda del colon (Ogilvie) se asocia al uso de opioides",
+    imagen: "flujogramas/rm-cir-027-cirugia-seudoobstruccion-del-colon.svg",
+    alt: "Flujograma: La seudoobstrucción aguda del colon (Ogilvie) se asocia al uso de opioides"
+  },
+  "RM-CIR-028": {
+    titulo: "Obstrucción intestinal proximal: hipopotasemia y alcalosis metabólica",
+    imagen: "flujogramas/rm-cir-028-cirugia-trastornos-acido-base-en-la-obstruccion.svg",
+    alt: "Flujograma: Obstrucción intestinal proximal: hipopotasemia y alcalosis metabólica"
+  },
+
+  /* ---------- Residentado Médico · lote 2 (cirugía general, 100 preguntas) ---------- */
+  "RM-CIR-058": {
+    titulo: "La quemadura que llega a la dermis reticular es de segundo grado profundo",
+    imagen: "flujogramas/rm-cir-058-quemaduras-profundidad-por-capas.svg",
+    alt: "Flujograma: La quemadura que llega a la dermis reticular es de segundo grado profundo"
+  },
+  "RM-CIR-109": {
+    titulo: "Trauma abdominal con hipotensión y líquido libre: la ruta termina en laparotomía exploradora",
+    imagen: "flujogramas/rm-cir-109-trauma-ruta-por-servicios.svg",
+    alt: "Flujograma: Trauma abdominal con hipotensión y líquido libre: la ruta termina en laparotomía exploradora"
+  },
+  "RM-CIR-094": {
+    titulo: "El tramadol baja el umbral convulsivo por su acción serotoninérgica y noradrenérgica",
+    imagen: "flujogramas/rm-cir-094-farmacologia-ruta-del-tramadol.svg",
+    alt: "Flujograma: El tramadol baja el umbral convulsivo por su acción serotoninérgica y noradrenérgica"
+  },
+  "RM-CIR-044": {
+    titulo: "El signo de Cullen (equimosis periumbilical) orienta a hemoperitoneo",
+    imagen: "flujogramas/rm-cir-044-abdomen-agudo-signos-de-cullen-y-grey-turner.svg",
+    alt: "Flujograma: El signo de Cullen (equimosis periumbilical) orienta a hemoperitoneo"
+  },
+  "RM-CIR-107": {
+    titulo: "El neumotórax a tensión se descomprime en el acto con aguja o angiocatéter, antes de la radiografía",
+    imagen: "flujogramas/rm-cir-107-trauma-toracico-neumotorax-a-tension.svg",
+    alt: "Flujograma: El neumotórax a tensión se descomprime en el acto con aguja o angiocatéter, antes de la radiografía"
+  },
+  "RM-CIR-108": {
+    titulo: "En el politraumatizado hipotenso con anemia el primer estudio es la ecografía FAST",
+    imagen: "flujogramas/rm-cir-108-trauma-ecografia-fast.svg",
+    alt: "Flujograma: En el politraumatizado hipotenso con anemia el primer estudio es la ecografía FAST"
+  },
+  "RM-CIR-112": {
+    titulo: "Una masa dolorosa bajo el ligamento inguinal con obstrucción en una multípara es una hernia femoral estrangulada",
+    imagen: "flujogramas/rm-cir-112-hernias-hernia-femoral.svg",
+    alt: "Flujograma: Una masa dolorosa bajo el ligamento inguinal con obstrucción en una multípara es una hernia femoral estrangulada"
+  },
+  "RM-CIR-110": {
+    titulo: "Un absceso hepático posoperatorio con ecografía normal se confirma con tomografía multicorte",
+    imagen: "flujogramas/rm-cir-110-absceso-hepatico-diagnostico-por-imagen.svg",
+    alt: "Flujograma: Un absceso hepático posoperatorio con ecografía normal se confirma con tomografía multicorte"
+  },
+  "RM-CIR-089": {
+    titulo: "En la úlcera perforada la radiografía de tórax de pie muestra aire libre bajo el diafragma",
+    imagen: "flujogramas/rm-cir-089-abdomen-agudo-ulcera-perforada.svg",
+    alt: "Flujograma: En la úlcera perforada la radiografía de tórax de pie muestra aire libre bajo el diafragma"
+  },
+  "RM-CIR-121": {
+    titulo: "En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía",
+    imagen: "flujogramas/rm-cir-121-trauma-dos-preguntas-encadenadas.svg",
+    alt: "Flujograma: En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía"
+  },
+  "RM-CIR-124": {
+    titulo: "Colelitiasis con ictericia y dolor sin datos de imagen: se estratifica primero con ecografía y perfil hepático",
+    imagen: "flujogramas/rm-cir-124-via-biliar-riesgo-de-coledocolitiasis.svg",
+    alt: "Flujograma: Colelitiasis con ictericia y dolor sin datos de imagen: se estratifica primero con ecografía y perfil hepático"
+  },
+  "RM-CIR-099": {
+    titulo: "En el síndrome compartimental el edema muscular eleva la presión del compartimento",
+    imagen: "flujogramas/rm-cir-099-trauma-sindrome-compartimental.svg",
+    alt: "Flujograma: En el síndrome compartimental el edema muscular eleva la presión del compartimento"
+  },
+  "RM-CIR-118": {
+    titulo: "El absceso pélvico por diverticulitis complicada es Hinchey II (clasificación modificada)",
+    imagen: "flujogramas/rm-cir-118-diverticulitis-clasificacion-de-hinchey-modificada.svg",
+    alt: "Flujograma: El absceso pélvico por diverticulitis complicada es Hinchey II (clasificación modificada)"
+  },
+  "RM-CIR-114": {
+    titulo: "La colangitis aguda se confirma con los criterios de Tokio y se trata drenando la vía biliar con CPRE",
+    imagen: "flujogramas/rm-cir-114-via-biliar-criterios-de-tokio-en-la-colangitis-aguda.svg",
+    alt: "Flujograma: La colangitis aguda se confirma con los criterios de Tokio y se trata drenando la vía biliar con CPRE"
+  },
+  "RM-CIR-029": {
+    titulo: "Tras una hepatectomía total suben los estrógenos, porque el hígado ya no los inactiva",
+    imagen: "flujogramas/rm-cir-029-fisiologia-hepatica-hepatectomia-total.svg",
+    alt: "Flujograma: Tras una hepatectomía total suben los estrógenos, porque el hígado ya no los inactiva"
+  },
+  "RM-CIR-030": {
+    titulo: "La laparoscopía en obstrucción intestinal es segura cuando la distensión de asas es leve",
+    imagen: "flujogramas/rm-cir-030-obstruccion-intestinal-abordaje-laparoscopico.svg",
+    alt: "Flujograma: La laparoscopía en obstrucción intestinal es segura cuando la distensión de asas es leve"
+  },
+  "RM-CIR-031": {
+    titulo: "El manejo inicial de toda obstrucción intestinal es la hidratación parenteral junto con la descompresión",
+    imagen: "flujogramas/rm-cir-031-obstruccion-intestinal-manejo-inicial.svg",
+    alt: "Flujograma: El manejo inicial de toda obstrucción intestinal es la hidratación parenteral junto con la descompresión"
+  },
+  "RM-CIR-032": {
+    titulo: "El cálculo biliar (íleo biliar) es la causa intraluminal de obstrucción intestinal de la lista",
+    imagen: "flujogramas/rm-cir-032-obstruccion-intestinal-causas-segun-la-pared.svg",
+    alt: "Flujograma: El cálculo biliar (íleo biliar) es la causa intraluminal de obstrucción intestinal de la lista"
+  },
+  "RM-CIR-033": {
+    titulo: "La obstrucción posoperatoria temprana en adultos se asocia más a la cirugía colorrectal",
+    imagen: "flujogramas/rm-cir-033-obstruccion-intestinal-posoperatoria-temprana.svg",
+    alt: "Flujograma: La obstrucción posoperatoria temprana en adultos se asocia más a la cirugía colorrectal"
+  },
+  "RM-CIR-034": {
+    titulo: "Una anciana con obstrucción y masa inguinal dolorosa irreductible tiene una obstrucción por hernia complicada",
+    imagen: "flujogramas/rm-cir-034-hernias-obstruccion-por-hernia-complicada.svg",
+    alt: "Flujograma: Una anciana con obstrucción y masa inguinal dolorosa irreductible tiene una obstrucción por hernia complicada"
+  },
+  "RM-CIR-035": {
+    titulo: "Las hemorroides internas grado III se prolapsan y requieren reducción manual",
+    imagen: "flujogramas/rm-cir-035-coloproctologia-hemorroides-internas-goligher.svg",
+    alt: "Flujograma: Las hemorroides internas grado III se prolapsan y requieren reducción manual"
+  },
+  "RM-CIR-036": {
+    titulo: "La obstrucción de la vía biliar eleva la fosfatasa alcalina y la gamma glutamil transferasa",
+    imagen: "flujogramas/rm-cir-036-hepatobiliar-enzimas-de-colestasis.svg",
+    alt: "Flujograma: La obstrucción de la vía biliar eleva la fosfatasa alcalina y la gamma glutamil transferasa"
+  },
+  "RM-CIR-037": {
+    titulo: "Una masa inguinocrural bajo el ligamento inguinal, parcialmente reductible, en una mujer es una hernia crural incarcerada",
+    imagen: "flujogramas/rm-cir-037-hernias-hernia-crural-femoral-incarcerada.svg",
+    alt: "Flujograma: Una masa inguinocrural bajo el ligamento inguinal, parcialmente reductible, en una mujer es una hernia crural incarcerada"
+  },
+  "RM-CIR-038": {
+    titulo: "La reparación sin tensión con malla (Lichtenstein) tiene la menor recidiva en la hernia inguinal",
+    imagen: "flujogramas/rm-cir-038-hernias-tecnicas-de-reparacion-inguinal.svg",
+    alt: "Flujograma: La reparación sin tensión con malla (Lichtenstein) tiene la menor recidiva en la hernia inguinal"
+  },
+  "RM-CIR-039": {
+    titulo: "La primera medida en el quemado por inhalación es el soporte con oxígeno al 100 % y vigilar la vía aérea",
+    imagen: "flujogramas/rm-cir-039-quemaduras-lesion-por-inhalacion.svg",
+    alt: "Flujograma: La primera medida en el quemado por inhalación es el soporte con oxígeno al 100 % y vigilar la vía aérea"
+  },
+  "RM-CIR-040": {
+    titulo: "La grasa hirviendo produce mayor necrosis coagulativa y quemaduras más profundas que los otros agentes",
+    imagen: "flujogramas/rm-cir-040-quemaduras-agente-causal-y-profundidad.svg",
+    alt: "Flujograma: La grasa hirviendo produce mayor necrosis coagulativa y quemaduras más profundas que los otros agentes"
+  },
+  "RM-CIR-041": {
+    titulo: "En el trauma abdominal cerrado la rigidez abdominal indica laparotomía inmediata",
+    imagen: "flujogramas/rm-cir-041-trauma-abdominal-indicacion-de-laparotomia.svg",
+    alt: "Flujograma: En el trauma abdominal cerrado la rigidez abdominal indica laparotomía inmediata"
+  },
+  "RM-CIR-042": {
+    titulo: "La hemorragia activa la vasoconstricción y la liberación de adrenalina de inmediato",
+    imagen: "flujogramas/rm-cir-042-shock-hemorragico-reacciones-compensadoras.svg",
+    alt: "Flujograma: La hemorragia activa la vasoconstricción y la liberación de adrenalina de inmediato"
+  },
+  "RM-CIR-043": {
+    titulo: "El hematoma retroperitoneal de zona II no pulsátil por trauma cerrado se observa",
+    imagen: "flujogramas/rm-cir-043-trauma-abdominal-hematoma-retroperitoneal.svg",
+    alt: "Flujograma: El hematoma retroperitoneal de zona II no pulsátil por trauma cerrado se observa"
+  },
+  "RM-CIR-045": {
+    titulo: "La herida que cierra sola, por granulación y contracción, cicatriza por segunda intención",
+    imagen: "flujogramas/rm-cir-045-cicatrizacion-formas-de-cierre-de-una-herida.svg",
+    alt: "Flujograma: La herida que cierra sola, por granulación y contracción, cicatriza por segunda intención"
+  },
+  "RM-CIR-046": {
+    titulo: "La vitamina A revierte el retraso de la cicatrización que causan los corticoides",
+    imagen: "flujogramas/rm-cir-046-cicatrizacion-corticoides-y-vitamina-a.svg",
+    alt: "Flujograma: La vitamina A revierte el retraso de la cicatrización que causan los corticoides"
+  },
+  "RM-CIR-047": {
+    titulo: "Cólico en hipocondrio derecho con dispepsia a las grasas en una gestante: colelitiasis",
+    imagen: "flujogramas/rm-cir-047-via-biliar-colico-biliar-en-el-embarazo.svg",
+    alt: "Flujograma: Cólico en hipocondrio derecho con dispepsia a las grasas en una gestante: colelitiasis"
+  },
+  "RM-CIR-048": {
+    titulo: "La colecistitis aguda nace casi siempre de un cálculo que obstruye el conducto cístico",
+    imagen: "flujogramas/rm-cir-048-via-biliar-mecanismo-de-la-colecistitis-aguda.svg",
+    alt: "Flujograma: La colecistitis aguda nace casi siempre de un cálculo que obstruye el conducto cístico"
+  },
+  "RM-CIR-049": {
+    titulo: "Un absceso retroperitoneal por diverticulitis es Hinchey II: absceso a distancia del colon",
+    imagen: "flujogramas/rm-cir-049-diverticulitis-hinchey-modificada-kaiser-estadio-ii.svg",
+    alt: "Flujograma: Un absceso retroperitoneal por diverticulitis es Hinchey II: absceso a distancia del colon"
+  },
+  "RM-CIR-050": {
+    titulo: "Fiebre, ictericia y dolor tras colecistectomía: colangitis por un cálculo en el colédoco",
+    imagen: "flujogramas/rm-cir-050-via-biliar-colangitis-charcot-y-reynolds.svg",
+    alt: "Flujograma: Fiebre, ictericia y dolor tras colecistectomía: colangitis por un cálculo en el colédoco"
+  },
+  "RM-CIR-051": {
+    titulo: "La tomografía con contraste es el estudio de elección en la diverticulitis aguda",
+    imagen: "flujogramas/rm-cir-051-diverticulitis-que-examen-pedir.svg",
+    alt: "Flujograma: La tomografía con contraste es el estudio de elección en la diverticulitis aguda"
+  },
+  "RM-CIR-052": {
+    titulo: "Dolor en fosa ilíaca izquierda con masa y aire pericólico en la TC: diverticulitis complicada",
+    imagen: "flujogramas/rm-cir-052-diverticulitis-diagnostico-diferencial-de-la-fosa-iliaca-izquierda.svg",
+    alt: "Flujograma: Dolor en fosa ilíaca izquierda con masa y aire pericólico en la TC: diverticulitis complicada"
+  },
+  "RM-CIR-053": {
+    titulo: "En la diverticulitis no complicada, si se opera, la elección es la sigmoidectomía con anastomosis",
+    imagen: "flujogramas/rm-cir-053-diverticulitis-cirugia-electiva.svg",
+    alt: "Flujograma: En la diverticulitis no complicada, si se opera, la elección es la sigmoidectomía con anastomosis"
+  },
+  "RM-CIR-054": {
+    titulo: "La peritonitis fecal por diverticulitis (Hinchey IV) se opera con la técnica de Hartmann",
+    imagen: "flujogramas/rm-cir-054-diverticulitis-cirugia-de-la-peritonitis-hinchey-iii-iv.svg",
+    alt: "Flujograma: La peritonitis fecal por diverticulitis (Hinchey IV) se opera con la técnica de Hartmann"
+  },
+  "RM-CIR-055": {
+    titulo: "La reparación herniaria sin tensión es la de Lichtenstein, con malla",
+    imagen: "flujogramas/rm-cir-055-hernias-tecnicas-de-reparacion-inguinal.svg",
+    alt: "Flujograma: La reparación herniaria sin tensión es la de Lichtenstein, con malla"
+  },
+  "RM-CIR-056": {
+    titulo: "La hernia de Spiegel sale por la línea semilunar, en el borde externo de los rectos",
+    imagen: "flujogramas/rm-cir-056-hernias-eponimos-de-la-pared-abdominal.svg",
+    alt: "Flujograma: La hernia de Spiegel sale por la línea semilunar, en el borde externo de los rectos"
+  },
+  "RM-CIR-057": {
+    titulo: "En la hernia inguinal directa se refuerza la pared posterior; el saco no se liga",
+    imagen: "flujogramas/rm-cir-057-hernias-inguinal-directa-y-clasificacion-de-nyhus.svg",
+    alt: "Flujograma: En la hernia inguinal directa se refuerza la pared posterior; el saco no se liga"
+  },
+  "RM-CIR-059": {
+    titulo: "En el adulto sin cirugías previas, la hernia es la causa más frecuente de obstrucción intestinal",
+    imagen: "flujogramas/rm-cir-059-hernias-obstruccion-del-intestino-delgado.svg",
+    alt: "Flujograma: En el adulto sin cirugías previas, la hernia es la causa más frecuente de obstrucción intestinal"
+  },
+  "RM-CIR-060": {
+    titulo: "Aerobilia con obstrucción del intestino delgado en una colelitiásica: íleo biliar",
+    imagen: "flujogramas/rm-cir-060-via-biliar-ileo-biliar-triada-de-rigler.svg",
+    alt: "Flujograma: Aerobilia con obstrucción del intestino delgado en una colelitiásica: íleo biliar"
+  },
+  "RM-CIR-061": {
+    titulo: "Lavado peritoneal positivo con hemodinamia comprometida en trauma cerrado: laparotomía exploradora",
+    imagen: "flujogramas/rm-cir-061-trauma-abdominal-lavado-peritoneal.svg",
+    alt: "Flujograma: Lavado peritoneal positivo con hemodinamia comprometida en trauma cerrado: laparotomía exploradora"
+  },
+  "RM-CIR-062": {
+    titulo: "La maniobra de Pringle ocluye de forma transitoria el ligamento hepatoduodenal",
+    imagen: "flujogramas/rm-cir-062-trauma-hepatico-maniobra-de-pringle.svg",
+    alt: "Flujograma: La maniobra de Pringle ocluye de forma transitoria el ligamento hepatoduodenal"
+  },
+  "RM-CIR-063": {
+    titulo: "Según la regla de los nueves, las caras anteriores de ambas piernas suman el 18 % de la superficie corporal",
+    imagen: "flujogramas/rm-cir-063-quemaduras-regla-de-los-nueves.svg",
+    alt: "Flujograma: Según la regla de los nueves, las caras anteriores de ambas piernas suman el 18 % de la superficie corporal"
+  },
+  "RM-CIR-064": {
+    titulo: "Una tumoración sobre la cicatriz que ya no se reduce y causa obstrucción es una eventración complicada",
+    imagen: "flujogramas/rm-cir-064-pared-abdominal-eventracion-complicada.svg",
+    alt: "Flujograma: Una tumoración sobre la cicatriz que ya no se reduce y causa obstrucción es una eventración complicada"
+  },
+  "RM-CIR-065": {
+    titulo: "La maniobra de Pringle se aplica en la lesión hepática hemorrágica",
+    imagen: "flujogramas/rm-cir-065-trauma-abdominal-control-de-la-hemorragia-por-organo.svg",
+    alt: "Flujograma: La maniobra de Pringle se aplica en la lesión hepática hemorrágica"
+  },
+  "RM-CIR-066": {
+    titulo: "Un orificio perianal con secreción fétida intermitente es una fístula anal criptoglandular",
+    imagen: "flujogramas/rm-cir-066-patologia-anal-fistula-perianal.svg",
+    alt: "Flujograma: Un orificio perianal con secreción fétida intermitente es una fístula anal criptoglandular"
+  },
+  "RM-CIR-067": {
+    titulo: "Colecistitis aguda litiásica con Murphy y leucocitosis: colecistectomía laparoscópica temprana",
+    imagen: "flujogramas/rm-cir-067-via-biliar-colecistitis-aguda-tokio-2018.svg",
+    alt: "Flujograma: Colecistitis aguda litiásica con Murphy y leucocitosis: colecistectomía laparoscópica temprana"
+  },
+  "RM-CIR-068": {
+    titulo: "Un absceso perianal se trata con drenaje quirúrgico inmediato",
+    imagen: "flujogramas/rm-cir-068-patologia-anal-absceso-perianal.svg",
+    alt: "Flujograma: Un absceso perianal se trata con drenaje quirúrgico inmediato"
+  },
+  "RM-CIR-069": {
+    titulo: "El signo de Murphy es característico de la colecistitis aguda: sensibilidad 65 %, especificidad 87 %",
+    imagen: "flujogramas/rm-cir-069-semiologia-abdominal-signo-de-murphy.svg",
+    alt: "Flujograma: El signo de Murphy es característico de la colecistitis aguda: sensibilidad 65 %, especificidad 87 %"
+  },
+  "RM-CIR-070": {
+    titulo: "La coledocolitiasis se trata con papiloesfinterotomía endoscópica y extracción del cálculo",
+    imagen: "flujogramas/rm-cir-070-via-biliar-coledocolitiasis-asge-2019.svg",
+    alt: "Flujograma: La coledocolitiasis se trata con papiloesfinterotomía endoscópica y extracción del cálculo"
+  },
+  "RM-CIR-071": {
+    titulo: "En el trauma abdominal penetrante la incisión de elección es la laparotomía mediana xifopúbica",
+    imagen: "flujogramas/rm-cir-071-trauma-abdominal-laparotomia.svg",
+    alt: "Flujograma: En el trauma abdominal penetrante la incisión de elección es la laparotomía mediana xifopúbica"
+  },
+  "RM-CIR-072": {
+    titulo: "En el anciano con sospecha de apendicitis plastronada el estudio de elección es la tomografía",
+    imagen: "flujogramas/rm-cir-072-apendicitis-plastron-en-el-anciano.svg",
+    alt: "Flujograma: En el anciano con sospecha de apendicitis plastronada el estudio de elección es la tomografía"
+  },
+  "RM-CIR-073": {
+    titulo: "En la obstrucción intestinal la medida inicial es la descompresión con sonda nasogástrica y líquidos",
+    imagen: "flujogramas/rm-cir-073-obstruccion-intestinal-medidas-iniciales.svg",
+    alt: "Flujograma: En la obstrucción intestinal la medida inicial es la descompresión con sonda nasogástrica y líquidos"
+  },
+  "RM-CIR-074": {
+    titulo: "El bulto anal que prolapsa y se reduce con la mano, con sangre rojo rutilante, es una hemorroide interna grado III",
+    imagen: "flujogramas/rm-cir-074-patologia-anal-hemorroides-goligher.svg",
+    alt: "Flujograma: El bulto anal que prolapsa y se reduce con la mano, con sangre rojo rutilante, es una hemorroide interna grado III"
+  },
+  "RM-CIR-075": {
+    titulo: "Las hemorroides grado IV, irreductibles, se tratan con hemorroidectomía",
+    imagen: "flujogramas/rm-cir-075-patologia-anal-tratamiento-por-grado.svg",
+    alt: "Flujograma: Las hemorroides grado IV, irreductibles, se tratan con hemorroidectomía"
+  },
+  "RM-CIR-076": {
+    titulo: "En la fase proliferativa (días 4-21) se forma el tejido de granulación",
+    imagen: "flujogramas/rm-cir-076-cicatrizacion-fases-de-la-herida.svg",
+    alt: "Flujograma: En la fase proliferativa (días 4-21) se forma el tejido de granulación"
+  },
+  "RM-CIR-077": {
+    titulo: "La hernia inguinal en pantalón o deslizada es Nyhus IIIB",
+    imagen: "flujogramas/rm-cir-077-hernias-clasificacion-de-nyhus.svg",
+    alt: "Flujograma: La hernia inguinal en pantalón o deslizada es Nyhus IIIB"
+  },
+  "RM-CIR-078": {
+    titulo: "La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional",
+    imagen: "flujogramas/rm-cir-078-hernias-hernia-incisional-eventracion.svg",
+    alt: "Flujograma: La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional"
+  },
+  "RM-CIR-079": {
+    titulo: "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h: shock hemorrágico clase III",
+    imagen: "flujogramas/rm-cir-079-trauma-clases-del-shock-hemorragico-atls.svg",
+    alt: "Flujograma: Confuso, FC mayor de 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h: shock hemorrágico clase III"
+  },
+  "RM-CIR-080": {
+    titulo: "Trauma cerrado, estable y con peritonitis generalizada: lesión de víscera hueca (intestino delgado)",
+    imagen: "flujogramas/rm-cir-080-trauma-abdominal-viscera-hueca-vs-solida.svg",
+    alt: "Flujograma: Trauma cerrado, estable y con peritonitis generalizada: lesión de víscera hueca (intestino delgado)"
+  },
+  "RM-CIR-081": {
+    titulo: "En el paciente no operado de un país no industrializado, la causa más frecuente de obstrucción es la hernia",
+    imagen: "flujogramas/rm-cir-081-obstruccion-intestinal-causas-segun-el-medio.svg",
+    alt: "Flujograma: En el paciente no operado de un país no industrializado, la causa más frecuente de obstrucción es la hernia"
+  },
+  "RM-CIR-082": {
+    titulo: "La angiodisplasia se localiza con más frecuencia en el ciego y el colon ascendente",
+    imagen: "flujogramas/rm-cir-082-sangrado-digestivo-bajo-angiodisplasia.svg",
+    alt: "Flujograma: La angiodisplasia se localiza con más frecuencia en el ciego y el colon ascendente"
+  },
+  "RM-CIR-083": {
+    titulo: "El estómago es la localización más frecuente de los linfomas digestivos",
+    imagen: "flujogramas/rm-cir-083-linfomas-digestivos-localizacion.svg",
+    alt: "Flujograma: El estómago es la localización más frecuente de los linfomas digestivos"
+  },
+  "RM-CIR-084": {
+    titulo: "La sección total del colédoco reconocida en la cirugía se repara con hepaticoyeyunostomía en Y de Roux",
+    imagen: "flujogramas/rm-cir-084-lesion-de-via-biliar-clasificacion-de-strasberg.svg",
+    alt: "Flujograma: La sección total del colédoco reconocida en la cirugía se repara con hepaticoyeyunostomía en Y de Roux"
+  },
+  "RM-CIR-085": {
+    titulo: "El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente",
+    imagen: "flujogramas/rm-cir-085-quistes-de-coledoco-clasificacion-de-todani.svg",
+    alt: "Flujograma: El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente"
+  },
+  "RM-CIR-086": {
+    titulo: "La hernia inguinal indirecta sale lateral a los vasos epigástricos inferiores",
+    imagen: "flujogramas/rm-cir-086-hernias-indirecta-directa-y-femoral.svg",
+    alt: "Flujograma: La hernia inguinal indirecta sale lateral a los vasos epigástricos inferiores"
+  },
+  "RM-CIR-087": {
+    titulo: "Un rodillazo en el epigastrio con peritonitis a las 48 horas es una lesión del páncreas",
+    imagen: "flujogramas/rm-cir-087-trauma-abdominal-lesion-pancreatica.svg",
+    alt: "Flujograma: Un rodillazo en el epigastrio con peritonitis a las 48 horas es una lesión del páncreas"
+  },
+  "RM-CIR-088": {
+    titulo: "El carcinoma escamoso en un ganglio inguinal orienta a un primario del canal anal",
+    imagen: "flujogramas/rm-cir-088-oncologia-drenaje-linfatico-inguinal.svg",
+    alt: "Flujograma: El carcinoma escamoso en un ganglio inguinal orienta a un primario del canal anal"
+  },
+  "RM-CIR-090": {
+    titulo: "La colangitis aguda con hipotensión es grave: tras reanimar y dar antibiótico se drena la vía biliar por CPRE",
+    imagen: "flujogramas/rm-cir-090-colangitis-aguda-tiempos-del-tratamiento-tokio-2018.svg",
+    alt: "Flujograma: La colangitis aguda con hipotensión es grave: tras reanimar y dar antibiótico se drena la vía biliar por CPRE"
+  },
+  "RM-CIR-091": {
+    titulo: "La ecografía abdominal es el estudio inicial de la vía biliar",
+    imagen: "flujogramas/rm-cir-091-via-biliar-ecografia-como-primer-estudio.svg",
+    alt: "Flujograma: La ecografía abdominal es el estudio inicial de la vía biliar"
+  },
+  "RM-CIR-092": {
+    titulo: "Tras una gastrectomía Billroth II, los síntomas digestivos y vasomotores al comer son un dumping",
+    imagen: "flujogramas/rm-cir-092-cirugia-gastrica-sindrome-de-dumping.svg",
+    alt: "Flujograma: Tras una gastrectomía Billroth II, los síntomas digestivos y vasomotores al comer son un dumping"
+  },
+  "RM-PED-002": {
+    titulo: "En el varón, la malformación anorrectal más frecuente es la fístula rectouretral bulbar",
+    imagen: "flujogramas/rm-ped-002-cirugia-pediatrica-malformaciones-anorrectales.svg",
+    alt: "Flujograma: En el varón, la malformación anorrectal más frecuente es la fístula rectouretral bulbar"
+  },
+  "RM-CIR-093": {
+    titulo: "Con Alvarado de 5 puntos (probabilidad intermedia) se pide un estudio de imagen",
+    imagen: "flujogramas/rm-cir-093-apendicitis-aguda-conducta-segun-el-puntaje-de-alvarado.svg",
+    alt: "Flujograma: Con Alvarado de 5 puntos (probabilidad intermedia) se pide un estudio de imagen"
+  },
+  "RM-CIR-095": {
+    titulo: "La fisura anal crónica se ubica casi siempre en la línea media posterior",
+    imagen: "flujogramas/rm-cir-095-coloproctologia-localizacion-de-la-fisura-anal.svg",
+    alt: "Flujograma: La fisura anal crónica se ubica casi siempre en la línea media posterior"
+  },
+  "RM-CB-024": {
+    titulo: "La cabeza del páncreas ocupa la concavidad en C del duodeno",
+    imagen: "flujogramas/rm-cb-024-anatomia-partes-del-pancreas.svg",
+    alt: "Flujograma: La cabeza del páncreas ocupa la concavidad en C del duodeno"
+  },
+  "RM-PED-003": {
+    titulo: "En la estenosis hipertrófica del píloro se corrige el medio interno y se hace piloromiotomía",
+    imagen: "flujogramas/rm-ped-003-cirugia-pediatrica-estenosis-hipertrofica-del-piloro.svg",
+    alt: "Flujograma: En la estenosis hipertrófica del píloro se corrige el medio interno y se hace piloromiotomía"
+  },
+  "RM-CIR-096": {
+    titulo: "En ictericia leve con litiasis vesicular (riesgo intermedio) se confirma el cálculo con ecografía endoscópica",
+    imagen: "flujogramas/rm-cir-096-via-biliar-ictericia-y-coledocolitiasis.svg",
+    alt: "Flujograma: En ictericia leve con litiasis vesicular (riesgo intermedio) se confirma el cálculo con ecografía endoscópica"
+  },
+  "RM-CIR-097": {
+    titulo: "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",
+    imagen: "flujogramas/rm-cir-097-coloproctologia-tratamiento-de-la-fisura-anal-cronica.svg",
+    alt: "Flujograma: La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna"
+  },
+  "RM-CIR-098": {
+    titulo: "La hemorroide que prolapsa y se reduce con la mano es de grado III",
+    imagen: "flujogramas/rm-cir-098-coloproctologia-grados-de-las-hemorroides-internas.svg",
+    alt: "Flujograma: La hemorroide que prolapsa y se reduce con la mano es de grado III"
+  },
+  "RM-CIR-100": {
+    titulo: "En el shock aumenta la liberación de ACTH como parte de la reacción neuroendocrina",
+    imagen: "flujogramas/rm-cir-100-fisiopatologia-reaccion-neuroendocrina-al-shock.svg",
+    alt: "Flujograma: En el shock aumenta la liberación de ACTH como parte de la reacción neuroendocrina"
+  },
+  "RM-CIR-101": {
+    titulo: "En el RCP del adulto la relación es 30:2 con uno o con dos reanimadores",
+    imagen: "flujogramas/rm-cir-101-reanimacion-relacion-compresion-ventilacion-aha-2025.svg",
+    alt: "Flujograma: En el RCP del adulto la relación es 30:2 con uno o con dos reanimadores"
+  },
+  "RM-CIR-102": {
+    titulo: "En el politraumatizado la prioridad es la vía aérea con protección de la columna cervical",
+    imagen: "flujogramas/rm-cir-102-trauma-evaluacion-primaria-atls-abcde.svg",
+    alt: "Flujograma: En el politraumatizado la prioridad es la vía aérea con protección de la columna cervical"
+  },
+  "RM-CIR-103": {
+    titulo: "En el politraumatizado inconsciente y en shock, primero se controla la vía aérea",
+    imagen: "flujogramas/rm-cir-103-trauma-primeros-minutos-del-paciente-en-shock.svg",
+    alt: "Flujograma: En el politraumatizado inconsciente y en shock, primero se controla la vía aérea"
+  },
+  "RM-CIR-104": {
+    titulo: "La necrosis del colon izquierdo compromete la arteria mesentérica inferior",
+    imagen: "flujogramas/rm-cir-104-anatomia-quirurgica-irrigacion-del-colon.svg",
+    alt: "Flujograma: La necrosis del colon izquierdo compromete la arteria mesentérica inferior"
+  },
+  "RM-CIR-105": {
+    titulo: "En la obstrucción tras una peritonitis previa la causa más probable son las bridas y adherencias",
+    imagen: "flujogramas/rm-cir-105-obstruccion-intestinal-adherencias-posoperatorias.svg",
+    alt: "Flujograma: En la obstrucción tras una peritonitis previa la causa más probable son las bridas y adherencias"
+  },
+  "RM-CIR-106": {
+    titulo: "AINE, abdomen en tabla y aire bajo ambos diafragmas: perforación duodenal",
+    imagen: "flujogramas/rm-cir-106-abdomen-agudo-perforacion-por-aine.svg",
+    alt: "Flujograma: AINE, abdomen en tabla y aire bajo ambos diafragmas: perforación duodenal"
+  },
+  "RM-CIR-111": {
+    titulo: "Anafilaxia con estridor: si no se logra intubar, cricotiroidotomía quirúrgica",
+    imagen: "flujogramas/rm-cir-111-via-aerea-anafilaxia-con-obstruccion-glotica.svg",
+    alt: "Flujograma: Anafilaxia con estridor: si no se logra intubar, cricotiroidotomía quirúrgica"
+  },
+  "RM-CIR-113": {
+    titulo: "La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias",
+    imagen: "flujogramas/rm-cir-113-obstruccion-intestinal-causas-por-segmento.svg",
+    alt: "Flujograma: La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias"
+  },
+  "RM-CIR-115": {
+    titulo: "Obstrucción parcial del delgado sin alarma: sonda nasogástrica y rehidratación",
+    imagen: "flujogramas/rm-cir-115-obstruccion-intestinal-manejo-no-operatorio.svg",
+    alt: "Flujograma: Obstrucción parcial del delgado sin alarma: sonda nasogástrica y rehidratación"
+  },
+  "RM-CIR-116": {
+    titulo: "En el politraumatizado inestable sin dificultad respiratoria, la prioridad es controlar el sangrado",
+    imagen: "flujogramas/rm-cir-116-trauma-hemorragia-y-xabcde.svg",
+    alt: "Flujograma: En el politraumatizado inestable sin dificultad respiratoria, la prioridad es controlar el sangrado"
+  },
+  "RM-CIR-117": {
+    titulo: "El gran quemado lo atiende un equipo multidisciplinario en un centro de quemados",
+    imagen: "flujogramas/rm-cir-117-quemaduras-gran-quemado-y-referencia.svg",
+    alt: "Flujograma: El gran quemado lo atiende un equipo multidisciplinario en un centro de quemados"
+  },
+  "RM-CIR-119": {
+    titulo: "Ascitis exudativa linfocitaria con fiebre: la biopsia peritoneal confirma la tuberculosis",
+    imagen: "flujogramas/rm-cir-119-ascitis-peritonitis-tuberculosa.svg",
+    alt: "Flujograma: Ascitis exudativa linfocitaria con fiebre: la biopsia peritoneal confirma la tuberculosis"
+  },
+  "RM-CIR-120": {
+    titulo: "Hernia inguinal indirecta con ciego en el saco: Nyhus IIIB",
+    imagen: "flujogramas/rm-cir-120-hernias-clasificacion-de-nyhus.svg",
+    alt: "Flujograma: Hernia inguinal indirecta con ciego en el saco: Nyhus IIIB"
+  },
+  "RM-CIR-122": {
+    titulo: "El cáncer de la flexura esplénica se trata con colectomía izquierda extendida",
+    imagen: "flujogramas/rm-cir-122-cancer-de-colon-reseccion-segun-la-irrigacion.svg",
+    alt: "Flujograma: El cáncer de la flexura esplénica se trata con colectomía izquierda extendida"
+  },
+  "RM-CIR-123": {
+    titulo: "Obstrucción adherencial sin alarma: observación, sonda nasogástrica e hidratación",
+    imagen: "flujogramas/rm-cir-123-obstruccion-intestinal-primeras-72-horas.svg",
+    alt: "Flujograma: Obstrucción adherencial sin alarma: observación, sonda nasogástrica e hidratación"
+  },
+  "RM-CIR-125": {
+    titulo: "Apendicitis en el anciano con Alvarado de 6 (riesgo intermedio): se pide tomografía antes de operar",
+    imagen: "flujogramas/rm-cir-125-apendicitis-aguda-paciente-anciano.svg",
+    alt: "Flujograma: Apendicitis en el anciano con Alvarado de 6 (riesgo intermedio): se pide tomografía antes de operar"
+  },
+
+  /* ---------- Residentado Médico · lote 3 (100 preguntas) ---------- */
+  "RM-CIR-126": {
+    titulo: "El alcohol (con el tabaco) es el factor de riesgo clave del carcinoma escamoso de esófago",
+    imagen: "flujogramas/rm-cir-126-esofago-carcinoma-escamoso.svg",
+    alt: "Flujograma: El alcohol (con el tabaco) es el factor de riesgo clave del carcinoma escamoso de esófago"
+  },
+  "RM-OFT-001": {
+    titulo: "Epistaxis sin punto visible, que persiste y se deglute tras el tapón anterior: taponamiento posterior",
+    imagen: "flujogramas/rm-oft-001-orl-epistaxis-posterior.svg",
+    alt: "Flujograma: Epistaxis sin punto visible, que persiste y se deglute tras el tapón anterior: taponamiento posterior"
+  },
+  "RM-NEF-004": {
+    titulo: "Dolor escrotal súbito en un niño: exploración quirúrgica antes de las 6 horas",
+    imagen: "flujogramas/rm-nef-004-urologia-torsion-testicular.svg",
+    alt: "Flujograma: Dolor escrotal súbito en un niño: exploración quirúrgica antes de las 6 horas"
+  },
+  "RM-CIR-127": {
+    titulo: "Metástasis a hueso, pulmón o cerebro sin hígado: tumor del tercio inferior del recto",
+    imagen: "flujogramas/rm-cir-127-cancer-colorrectal-drenaje-y-metastasis.svg",
+    alt: "Flujograma: Metástasis a hueso, pulmón o cerebro sin hígado: tumor del tercio inferior del recto"
+  },
+  "RM-CIR-128": {
+    titulo: "Herida por arma de fuego estable con sospecha de lesión duodenal: tomografía abdominal contrastada",
+    imagen: "flujogramas/rm-cir-128-trauma-abdominal-penetrante-duodeno.svg",
+    alt: "Flujograma: Herida por arma de fuego estable con sospecha de lesión duodenal: tomografía abdominal contrastada"
+  },
+  "RM-CIR-129": {
+    titulo: "La fase de maduración de la cicatrización es la reorganización del colágeno sintetizado",
+    imagen: "flujogramas/rm-cir-129-cicatrizacion-fase-de-maduracion.svg",
+    alt: "Flujograma: La fase de maduración de la cicatrización es la reorganización del colágeno sintetizado"
+  },
+  "RM-PED-004": {
+    titulo: "Estenosis hipertrófica del píloro: piloromiotomía, tras corregir líquidos y electrolitos",
+    imagen: "flujogramas/rm-ped-004-pediatria-quirurgica-estenosis-del-piloro.svg",
+    alt: "Flujograma: Estenosis hipertrófica del píloro: piloromiotomía, tras corregir líquidos y electrolitos"
+  },
+  "RM-OFT-002": {
+    titulo: "Otitis externa tras natación: el agente más frecuente es Pseudomonas aeruginosa",
+    imagen: "flujogramas/rm-oft-002-orl-otitis-externa-aguda.svg",
+    alt: "Flujograma: Otitis externa tras natación: el agente más frecuente es Pseudomonas aeruginosa"
+  },
+  "RM-NEF-005": {
+    titulo: "Sangre en el meato y fractura pélvica: uretrografía retrógrada antes de cualquier sonda",
+    imagen: "flujogramas/rm-nef-005-urologia-trauma-de-uretra-posterior.svg",
+    alt: "Flujograma: Sangre en el meato y fractura pélvica: uretrografía retrógrada antes de cualquier sonda"
+  },
+  "RM-CIR-130": {
+    titulo: "Hemorroides que se reducen con la mano: grado III de Goligher",
+    imagen: "flujogramas/rm-cir-130-coloproctologia-hemorroides-internas.svg",
+    alt: "Flujograma: Hemorroides que se reducen con la mano: grado III de Goligher"
+  },
+  "RM-OFT-003": {
+    titulo: "El dolor al mover el ojo en sentido horizontal sugiere fractura de la pared interna de la órbita",
+    imagen: "flujogramas/rm-oft-003-oftalmologia-fracturas-de-la-orbita.svg",
+    alt: "Flujograma: El dolor al mover el ojo en sentido horizontal sugiere fractura de la pared interna de la órbita"
+  },
+  "RM-NRL-001": {
+    titulo: "Hematoma epidural con intervalo lúcido y desplazamiento de línea media: craneotomía descompresiva",
+    imagen: "flujogramas/rm-nrl-001-neurotrauma-hematoma-epidural.svg",
+    alt: "Flujograma: Hematoma epidural con intervalo lúcido y desplazamiento de línea media: craneotomía descompresiva"
+  },
+  "RM-OFT-004": {
+    titulo: "Ojo rojo que pasa al otro lado, lagrimeo y párpados pegados: conjuntivitis por adenovirus",
+    imagen: "flujogramas/rm-oft-004-oftalmologia-conjuntivitis-aguda.svg",
+    alt: "Flujograma: Ojo rojo que pasa al otro lado, lagrimeo y párpados pegados: conjuntivitis por adenovirus"
+  },
+  "RM-CIR-131": {
+    titulo: "Fisura anal crónica: esfinterotomía lateral interna como tratamiento quirúrgico de elección",
+    imagen: "flujogramas/rm-cir-131-coloproctologia-fisura-anal-cronica.svg",
+    alt: "Flujograma: Fisura anal crónica: esfinterotomía lateral interna como tratamiento quirúrgico de elección"
+  },
+  "RM-CIR-132": {
+    titulo: "La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias",
+    imagen: "flujogramas/rm-cir-132-obstruccion-intestinal-causas-del-adulto.svg",
+    alt: "Flujograma: La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias"
+  },
+  "RM-REU-001": {
+    titulo: "En el acné grado III predomina la pústula",
+    imagen: "flujogramas/rm-reu-001-dermatologia-acne-juvenil-por-grados.svg",
+    alt: "Flujograma: En el acné grado III predomina la pústula"
+  },
+  "RM-CB-025": {
+    titulo: "El complejo de Merkel es el receptor del tacto discriminativo",
+    imagen: "flujogramas/rm-cb-025-histologia-mecanorreceptores-de-la-piel.svg",
+    alt: "Flujograma: El complejo de Merkel es el receptor del tacto discriminativo"
+  },
+  "RM-REU-002": {
+    titulo: "Acné con comedones, pápulas, pústulas y nódulos: la base tópica son los retinoides",
+    imagen: "flujogramas/rm-reu-002-acne-tratamiento-topico-de-primera-linea.svg",
+    alt: "Flujograma: Acné con comedones, pápulas, pústulas y nódulos: la base tópica son los retinoides"
+  },
+  "RM-REU-003": {
+    titulo: "Acné con comedones, pústulas, pápulas y nódulos: acné grave",
+    imagen: "flujogramas/rm-reu-003-acne-clasificacion-de-gravedad.svg",
+    alt: "Flujograma: Acné con comedones, pústulas, pápulas y nódulos: acné grave"
+  },
+  "RM-REU-004": {
+    titulo: "La dermatitis atópica es lo mismo que el eccema atópico",
+    imagen: "flujogramas/rm-reu-004-dermatitis-atopica-eccema-atopico.svg",
+    alt: "Flujograma: La dermatitis atópica es lo mismo que el eccema atópico"
+  },
+  "RM-CB-026": {
+    titulo: "La célula de Sertoli nutre a las células germinales durante la espermatogénesis",
+    imagen: "flujogramas/rm-cb-026-histologia-celulas-de-sertoli.svg",
+    alt: "Flujograma: La célula de Sertoli nutre a las células germinales durante la espermatogénesis"
+  },
+  "RM-CB-027": {
+    titulo: "Sin conducto mesonéfrico faltan el riñón, el uréter y la vesícula seminal",
+    imagen: "flujogramas/rm-cb-027-embriologia-derivados-del-conducto-mesonefrico.svg",
+    alt: "Flujograma: Sin conducto mesonéfrico faltan el riñón, el uréter y la vesícula seminal"
+  },
+  "RM-CB-028": {
+    titulo: "Desde cerca de la semana 20 la insulina fetal es el principal factor de crecimiento",
+    imagen: "flujogramas/rm-cb-028-fisiologia-fetal-insulina-y-crecimiento.svg",
+    alt: "Flujograma: Desde cerca de la semana 20 la insulina fetal es el principal factor de crecimiento"
+  },
+  "RM-CB-029": {
+    titulo: "Talla baja, cuello corto, linfedema, tórax ancho y amenorrea primaria: síndrome de Turner",
+    imagen: "flujogramas/rm-cb-029-genetica-sindrome-de-turner-45-x.svg",
+    alt: "Flujograma: Talla baja, cuello corto, linfedema, tórax ancho y amenorrea primaria: síndrome de Turner"
+  },
+  "RM-CB-030": {
+    titulo: "Un feto maduro es el que tiene pulmones capaces de intercambiar gases tras el nacimiento",
+    imagen: "flujogramas/rm-cb-030-embriologia-madurez-pulmonar-fetal.svg",
+    alt: "Flujograma: Un feto maduro es el que tiene pulmones capaces de intercambiar gases tras el nacimiento"
+  },
+  "RM-CB-031": {
+    titulo: "El riñón definitivo (metanefros) aparece en la quinta semana de gestación",
+    imagen: "flujogramas/rm-cb-031-embriologia-desarrollo-renal.svg",
+    alt: "Flujograma: El riñón definitivo (metanefros) aparece en la quinta semana de gestación"
+  },
+  "RM-CB-032": {
+    titulo: "La testosterona se produce en las células de Leydig, bajo la hormona luteinizante",
+    imagen: "flujogramas/rm-cb-032-histologia-celula-de-leydig-y-testosterona.svg",
+    alt: "Flujograma: La testosterona se produce en las células de Leydig, bajo la hormona luteinizante"
+  },
+  "RM-GIN-001": {
+    titulo: "La anomalía cromosómica más frecuente del aborto del primer trimestre es la trisomía autosómica",
+    imagen: "flujogramas/rm-gin-001-obstetricia-aborto-espontaneo-y-cariotipo.svg",
+    alt: "Flujograma: La anomalía cromosómica más frecuente del aborto del primer trimestre es la trisomía autosómica"
+  },
+  "RM-CB-033": {
+    titulo: "Retraso mental, polidactilia, pie valgo, onfalocele e hipotonía: síndrome de Patau (trisomía 13)",
+    imagen: "flujogramas/rm-cb-033-genetica-patau-edwards-y-down.svg",
+    alt: "Flujograma: Retraso mental, polidactilia, pie valgo, onfalocele e hipotonía: síndrome de Patau (trisomía 13)"
+  },
+  "RM-CB-034": {
+    titulo: "Deleción paterna en 15q11-q13: síndrome de Prader-Willi por impronta genómica",
+    imagen: "flujogramas/rm-cb-034-genetica-impronta-y-prader-willi.svg",
+    alt: "Flujograma: Deleción paterna en 15q11-q13: síndrome de Prader-Willi por impronta genómica"
+  },
+  "RM-CB-035": {
+    titulo: "La fructosa se absorbe en el intestino y el riñón por GLUT5",
+    imagen: "flujogramas/rm-cb-035-fisiologia-transportadores-de-hexosas.svg",
+    alt: "Flujograma: La fructosa se absorbe en el intestino y el riñón por GLUT5"
+  },
+  "RM-END-003": {
+    titulo: "Para confirmar la diabetes se usa la HbA1c de 6,5 % o más; la mayor de 7 % ya la supera",
+    imagen: "flujogramas/rm-end-003-diabetes-criterios-diagnosticos-ada-2026.svg",
+    alt: "Flujograma: Para confirmar la diabetes se usa la HbA1c de 6,5 % o más; la mayor de 7 % ya la supera"
+  },
+  "RM-END-004": {
+    titulo: "La hiperglucemia en ayunas del diabético viene sobre todo de la gluconeogénesis hepática",
+    imagen: "flujogramas/rm-end-004-diabetes-produccion-hepatica-de-glucosa.svg",
+    alt: "Flujograma: La hiperglucemia en ayunas del diabético viene sobre todo de la gluconeogénesis hepática"
+  },
+  "RM-END-005": {
+    titulo: "Náuseas, vómitos, dolor abdominal, polidipsia y poliuria en un diabético: cetoacidosis diabética",
+    imagen: "flujogramas/rm-end-005-diabetes-cetoacidosis-diabetica.svg",
+    alt: "Flujograma: Náuseas, vómitos, dolor abdominal, polidipsia y poliuria en un diabético: cetoacidosis diabética"
+  },
+  "RM-END-006": {
+    titulo: "La diabetes se diagnostica con glucemia en ayunas de 126 mg/dL o más, confirmada en dos ocasiones",
+    imagen: "flujogramas/rm-end-006-diabetes-criterios-diagnosticos.svg",
+    alt: "Flujograma: La diabetes se diagnostica con glucemia en ayunas de 126 mg/dL o más, confirmada en dos ocasiones"
+  },
+  "RM-END-007": {
+    titulo: "Tiroides dolorosa con fiebre, tirotoxicosis transitoria y luego hipotiroidismo: tiroiditis subaguda",
+    imagen: "flujogramas/rm-end-007-tiroides-tiroiditis-subaguda-de-de-quervain.svg",
+    alt: "Flujograma: Tiroides dolorosa con fiebre, tirotoxicosis transitoria y luego hipotiroidismo: tiroiditis subaguda"
+  },
+  "RM-END-008": {
+    titulo: "En el hipertiroidismo la manifestación cardiovascular más frecuente es la taquicardia sinusal",
+    imagen: "flujogramas/rm-end-008-tiroides-hipertiroidismo-y-corazon.svg",
+    alt: "Flujograma: En el hipertiroidismo la manifestación cardiovascular más frecuente es la taquicardia sinusal"
+  },
+  "RM-END-009": {
+    titulo: "En la hiperplasia suprarrenal congénita la 17-hidroxiprogesterona elevada corrobora el diagnóstico",
+    imagen: "flujogramas/rm-end-009-suprarrenal-hiperplasia-suprarrenal-congenita.svg",
+    alt: "Flujograma: En la hiperplasia suprarrenal congénita la 17-hidroxiprogesterona elevada corrobora el diagnóstico"
+  },
+  "RM-END-010": {
+    titulo: "En el síndrome de Cushing el tamizaje preciso y económico es el cortisol libre en orina de 24 horas",
+    imagen: "flujogramas/rm-end-010-suprarrenal-sindrome-de-cushing.svg",
+    alt: "Flujograma: En el síndrome de Cushing el tamizaje preciso y económico es el cortisol libre en orina de 24 horas"
+  },
+  "RM-END-011": {
+    titulo: "Diabética con poliuria, dolor abdominal y deterioro del sensorio: cetoacidosis diabética",
+    imagen: "flujogramas/rm-end-011-diabetes-cetoacidosis-diabetica.svg",
+    alt: "Flujograma: Diabética con poliuria, dolor abdominal y deterioro del sensorio: cetoacidosis diabética"
+  },
+  "RM-END-012": {
+    titulo: "Glucemia mayor de 300 sin cetonuria ni lipólisis describe el estado hiperosmolar hiperglucémico",
+    imagen: "flujogramas/rm-end-012-diabetes-estado-hiperosmolar-hiperglucemico.svg",
+    alt: "Flujograma: Glucemia mayor de 300 sin cetonuria ni lipólisis describe el estado hiperosmolar hiperglucémico"
+  },
+  "RM-END-013": {
+    titulo: "El diagnóstico definitivo del nódulo tiroideo se hace con la punción y aspiración con aguja fina",
+    imagen: "flujogramas/rm-end-013-tiroides-nodulo-tiroideo.svg",
+    alt: "Flujograma: El diagnóstico definitivo del nódulo tiroideo se hace con la punción y aspiración con aguja fina"
+  },
+  "RM-END-014": {
+    titulo: "Con HbA1c de 8,5 % tras metformina más sitagliptina se asocia insulina basal",
+    imagen: "flujogramas/rm-end-014-diabetes-intensificacion-del-tratamiento.svg",
+    alt: "Flujograma: Con HbA1c de 8,5 % tras metformina más sitagliptina se asocia insulina basal"
+  },
+  "RM-END-015": {
+    titulo: "La agenesia paratiroidea causa hipocalcemia por falta de hormona paratiroidea",
+    imagen: "flujogramas/rm-end-015-calcio-hipoparatiroidismo.svg",
+    alt: "Flujograma: La agenesia paratiroidea causa hipocalcemia por falta de hormona paratiroidea"
+  },
+  "RM-END-016": {
+    titulo: "Hipotiroidismo primario en mujer de 46 años: levotiroxina 50 a 100 microgramos al día",
+    imagen: "flujogramas/rm-end-016-tiroides-hipotiroidismo-primario.svg",
+    alt: "Flujograma: Hipotiroidismo primario en mujer de 46 años: levotiroxina 50 a 100 microgramos al día"
+  },
+  "RM-END-017": {
+    titulo: "En la enfermedad de Graves el diagnóstico etiológico lo confirman los anticuerpos antirreceptor de TSH",
+    imagen: "flujogramas/rm-end-017-tiroides-enfermedad-de-graves-basedow.svg",
+    alt: "Flujograma: En la enfermedad de Graves el diagnóstico etiológico lo confirman los anticuerpos antirreceptor de TSH"
+  },
+  "RM-END-018": {
+    titulo: "La obesidad mórbida aumenta de forma marcada el riesgo de hipertensión arterial",
+    imagen: "flujogramas/rm-end-018-obesidad-complicaciones-de-la-obesidad-morbida.svg",
+    alt: "Flujograma: La obesidad mórbida aumenta de forma marcada el riesgo de hipertensión arterial"
+  },
+  "RM-END-019": {
+    titulo: "En la enfermedad de Graves severa la operación de elección es la tiroidectomía total",
+    imagen: "flujogramas/rm-end-019-tiroides-cirugia-en-la-enfermedad-de-graves.svg",
+    alt: "Flujograma: En la enfermedad de Graves severa la operación de elección es la tiroidectomía total"
+  },
+  "RM-END-020": {
+    titulo: "En la tirotoxicosis la hormona aumentada es una amina, derivada de la tirosina",
+    imagen: "flujogramas/rm-end-020-endocrinologia-naturaleza-quimica-de-las-hormonas.svg",
+    alt: "Flujograma: En la tirotoxicosis la hormona aumentada es una amina, derivada de la tirosina"
+  },
+  "RM-END-021": {
+    titulo: "La obesidad clase II de la OMS corresponde a un IMC de 35 a 39,9 kg/m²",
+    imagen: "flujogramas/rm-end-021-obesidad-clasificacion-oms-del-imc.svg",
+    alt: "Flujograma: La obesidad clase II de la OMS corresponde a un IMC de 35 a 39,9 kg/m²"
+  },
+  "RM-NEF-006": {
+    titulo: "La microalbuminuria es el marcador más importante de nefropatía diabética incipiente",
+    imagen: "flujogramas/rm-nef-006-nefropatia-diabetica-marcador-temprano.svg",
+    alt: "Flujograma: La microalbuminuria es el marcador más importante de nefropatía diabética incipiente"
+  },
+  "RM-GIN-002": {
+    titulo: "La diabetes pregestacional mal controlada aumenta el aborto y las malformaciones",
+    imagen: "flujogramas/rm-gin-002-obstetricia-aborto-y-enfermedad-materna.svg",
+    alt: "Flujograma: La diabetes pregestacional mal controlada aumenta el aborto y las malformaciones"
+  },
+  "RM-END-022": {
+    titulo: "En la enfermedad de Graves con indicación quirúrgica se hace tiroidectomía total",
+    imagen: "flujogramas/rm-end-022-tiroides-cirugia-en-graves.svg",
+    alt: "Flujograma: En la enfermedad de Graves con indicación quirúrgica se hace tiroidectomía total"
+  },
+  "RM-END-023": {
+    titulo: "Glucemia en ayunas de 126 mg/dL o más con síntomas clásicos confirma diabetes",
+    imagen: "flujogramas/rm-end-023-diabetes-criterios-diagnosticos.svg",
+    alt: "Flujograma: Glucemia en ayunas de 126 mg/dL o más con síntomas clásicos confirma diabetes"
+  },
+  "RM-END-024": {
+    titulo: "TSH elevada con T4 libre baja confirma el hipotiroidismo primario",
+    imagen: "flujogramas/rm-end-024-tiroides-hipotiroidismo-primario.svg",
+    alt: "Flujograma: TSH elevada con T4 libre baja confirma el hipotiroidismo primario"
+  },
+  "RM-CB-036": {
+    titulo: "La paratohormona aumenta la excreción renal de fosfato al inhibir su reabsorción en el túbulo proximal",
+    imagen: "flujogramas/rm-cb-036-fisiologia-pth-y-fosfato.svg",
+    alt: "Flujograma: La paratohormona aumenta la excreción renal de fosfato al inhibir su reabsorción en el túbulo proximal"
+  },
+  "RM-END-025": {
+    titulo: "Calcio y PTH elevados con síntomas de hipercalcemia: hiperparatiroidismo primario",
+    imagen: "flujogramas/rm-end-025-paratiroides-hiperparatiroidismo-primario.svg",
+    alt: "Flujograma: Calcio y PTH elevados con síntomas de hipercalcemia: hiperparatiroidismo primario"
+  },
+  "RM-CB-037": {
+    titulo: "Los folículos tiroideos están revestidos por un epitelio simple cúbico",
+    imagen: "flujogramas/rm-cb-037-histologia-foliculo-tiroideo.svg",
+    alt: "Flujograma: Los folículos tiroideos están revestidos por un epitelio simple cúbico"
+  },
+  "RM-CB-038": {
+    titulo: "La amiodarona, con 37 % de yodo en su peso, puede inducir hipertiroidismo",
+    imagen: "flujogramas/rm-cb-038-farmacologia-amiodarona-y-tiroides.svg",
+    alt: "Flujograma: La amiodarona, con 37 % de yodo en su peso, puede inducir hipertiroidismo"
+  },
+  "RM-END-026": {
+    titulo: "Parestesias y espasmo carpopedal tras cirugía de tiroides: hipocalcemia",
+    imagen: "flujogramas/rm-end-026-tiroides-hipoparatiroidismo-posquirurgico.svg",
+    alt: "Flujograma: Parestesias y espasmo carpopedal tras cirugía de tiroides: hipocalcemia"
+  },
+  "RM-END-027": {
+    titulo: "En la diabetes tipo 2 sin contraindicaciones, el fármaco inicial es la metformina",
+    imagen: "flujogramas/rm-end-027-diabetes-tipo-2-tratamiento-de-primera-linea.svg",
+    alt: "Flujograma: En la diabetes tipo 2 sin contraindicaciones, el fármaco inicial es la metformina"
+  },
+  "RM-PSI-001": {
+    titulo: "Vómitos autoinducidos: alcalosis metabólica hipoclorémica con hipopotasemia",
+    imagen: "flujogramas/rm-psi-001-trastornos-alimentarios-medio-interno-en-la-purga.svg",
+    alt: "Flujograma: Vómitos autoinducidos: alcalosis metabólica hipoclorémica con hipopotasemia"
+  },
+  "RM-CB-039": {
+    titulo: "La duloxetina inhibe la recaptación de serotonina y noradrenalina en la neuropatía diabética",
+    imagen: "flujogramas/rm-cb-039-neuropatia-diabetica-farmacos-y-mecanismo.svg",
+    alt: "Flujograma: La duloxetina inhibe la recaptación de serotonina y noradrenalina en la neuropatía diabética"
+  },
+  "RM-END-028": {
+    titulo: "La metástasis a distancia más frecuente del carcinoma papilar de tiroides es el pulmón",
+    imagen: "flujogramas/rm-end-028-tiroides-carcinoma-papilar-y-diseminacion.svg",
+    alt: "Flujograma: La metástasis a distancia más frecuente del carcinoma papilar de tiroides es el pulmón"
+  },
+  "RM-END-029": {
+    titulo: "En el enfermo grave eutiroideo la TSH no es indetectable: T3 baja y T3 reversa alta",
+    imagen: "flujogramas/rm-end-029-tiroides-sindrome-del-enfermo-eutiroideo.svg",
+    alt: "Flujograma: En el enfermo grave eutiroideo la TSH no es indetectable: T3 baja y T3 reversa alta"
+  },
+  "RM-PED-005": {
+    titulo: "La complicación cardiovascular más frecuente de la obesidad infantil es la hipertensión",
+    imagen: "flujogramas/rm-ped-005-pediatria-obesidad-y-presion-arterial.svg",
+    alt: "Flujograma: La complicación cardiovascular más frecuente de la obesidad infantil es la hipertensión"
+  },
+  "RM-END-030": {
+    titulo: "La falta de yodo sube la TSH, que hace crecer los folículos y produce bocio",
+    imagen: "flujogramas/rm-end-030-tiroides-deficiencia-de-yodo.svg",
+    alt: "Flujograma: La falta de yodo sube la TSH, que hace crecer los folículos y produce bocio"
+  },
+  "RM-PED-006": {
+    titulo: "Adolescente de 17 años con IMC de 26: sobrepeso",
+    imagen: "flujogramas/rm-ped-006-pediatria-clasificacion-del-imc.svg",
+    alt: "Flujograma: Adolescente de 17 años con IMC de 26: sobrepeso"
+  },
+  "RM-END-031": {
+    titulo: "Piel seca, bradicardia y aumento de peso con amenorrea: hipotiroidismo, no falla ovárica",
+    imagen: "flujogramas/rm-end-031-endocrinologia-hipotiroidismo-y-eje-reproductivo.svg",
+    alt: "Flujograma: Piel seca, bradicardia y aumento de peso con amenorrea: hipotiroidismo, no falla ovárica"
+  },
+  "RM-END-032": {
+    titulo: "En la enfermedad de Graves la cirugía indicada es la tiroidectomía total",
+    imagen: "flujogramas/rm-end-032-endocrinologia-cirugia-de-la-enfermedad-de-graves.svg",
+    alt: "Flujograma: En la enfermedad de Graves la cirugía indicada es la tiroidectomía total"
+  },
+  "RM-GIN-003": {
+    titulo: "En la anorexia nerviosa la amenorrea es hipotalámica: el déficit de energía apaga la GnRH",
+    imagen: "flujogramas/rm-gin-003-ginecologia-amenorrea-en-la-anorexia-nerviosa.svg",
+    alt: "Flujograma: En la anorexia nerviosa la amenorrea es hipotalámica: el déficit de energía apaga la GnRH"
+  },
+  "RM-END-033": {
+    titulo: "Nódulo tiroideo asintomático de 10 mm: lo primero entre las opciones es dosar la TSH",
+    imagen: "flujogramas/rm-end-033-tiroides-nodulo-asintomatico.svg",
+    alt: "Flujograma: Nódulo tiroideo asintomático de 10 mm: lo primero entre las opciones es dosar la TSH"
+  },
+  "RM-CB-040": {
+    titulo: "Dermatitis, diarrea y demencia son la pelagra: deficiencia de niacina (vitamina B3)",
+    imagen: "flujogramas/rm-cb-040-bioquimica-pelagra-y-niacina.svg",
+    alt: "Flujograma: Dermatitis, diarrea y demencia son la pelagra: deficiencia de niacina (vitamina B3)"
+  },
+  "RM-END-034": {
+    titulo: "Nódulo duro, hipoecoico, con microcalcificaciones y más alto que ancho: carcinoma papilar",
+    imagen: "flujogramas/rm-end-034-tiroides-nodulo-de-alto-riesgo.svg",
+    alt: "Flujograma: Nódulo duro, hipoecoico, con microcalcificaciones y más alto que ancho: carcinoma papilar"
+  },
+  "RM-CB-041": {
+    titulo: "La lactasa fragmenta la lactosa en galactosa y glucosa",
+    imagen: "flujogramas/rm-cb-041-bioquimica-digestion-de-la-lactosa.svg",
+    alt: "Flujograma: La lactasa fragmenta la lactosa en galactosa y glucosa"
+  },
+  "RM-END-035": {
+    titulo: "Glucosa 720, pH 7,2, bicarbonato 8 y osmolaridad 330: cumple criterios de CAD y de EHH, estado mixto",
+    imagen: "flujogramas/rm-end-035-diabetes-crisis-hiperglucemica.svg",
+    alt: "Flujograma: Glucosa 720, pH 7,2, bicarbonato 8 y osmolaridad 330: cumple criterios de CAD y de EHH, estado mixto"
+  },
+  "RM-END-036": {
+    titulo: "En la guía peruana, el riesgo ocupacional es un factor de riesgo de diabetes asociado al ambiente",
+    imagen: "flujogramas/rm-end-036-diabetes-tipo-2-factores-de-riesgo-gpc-minsa.svg",
+    alt: "Flujograma: En la guía peruana, el riesgo ocupacional es un factor de riesgo de diabetes asociado al ambiente"
+  },
+  "RM-CAR-038": {
+    titulo: "La hipercalcemia acorta el intervalo QT: el calcio acorta la meseta del potencial de acción",
+    imagen: "flujogramas/rm-car-038-electrocardiograma-calcio-y-qt.svg",
+    alt: "Flujograma: La hipercalcemia acorta el intervalo QT: el calcio acorta la meseta del potencial de acción"
+  },
+  "RM-END-037": {
+    titulo: "La empagliflozina bloquea el SGLT2 del túbulo proximal y aumenta la glucosuria",
+    imagen: "flujogramas/rm-end-037-farmacologia-inhibidores-de-sglt2.svg",
+    alt: "Flujograma: La empagliflozina bloquea el SGLT2 del túbulo proximal y aumenta la glucosuria"
+  },
+  "RM-END-038": {
+    titulo: "Nódulo tiroideo palpable de 10 mm: la ecografía es el paso que decide qué sigue",
+    imagen: "flujogramas/rm-end-038-tiroides-nodulo-palpable.svg",
+    alt: "Flujograma: Nódulo tiroideo palpable de 10 mm: la ecografía es el paso que decide qué sigue"
+  },
+  "RM-CB-042": {
+    titulo: "La deficiencia de riboflavina produce glositis con atrofia de las papilas linguales",
+    imagen: "flujogramas/rm-cb-042-bioquimica-riboflavina-vitamina-b2.svg",
+    alt: "Flujograma: La deficiencia de riboflavina produce glositis con atrofia de las papilas linguales"
+  },
+  "RM-END-039": {
+    titulo: "Diabetes sintomática con pérdida de peso y HbA1c de 9,5 %: se inicia insulina NPH",
+    imagen: "flujogramas/rm-end-039-diabetes-tipo-2-cuando-iniciar-insulina.svg",
+    alt: "Flujograma: Diabetes sintomática con pérdida de peso y HbA1c de 9,5 %: se inicia insulina NPH"
+  },
+  "RM-END-040": {
+    titulo: "Los TSI estimulan el receptor de TSH en la enfermedad de Graves-Basedow",
+    imagen: "flujogramas/rm-end-040-tiroides-anticuerpos-tsi.svg",
+    alt: "Flujograma: Los TSI estimulan el receptor de TSH en la enfermedad de Graves-Basedow"
+  },
+  "RM-END-041": {
+    titulo: "Obesidad abdominal, triglicéridos altos y HDL bajo: el hígado produce VLDL en exceso",
+    imagen: "flujogramas/rm-end-041-sindrome-metabolico-dislipidemia-aterogenica.svg",
+    alt: "Flujograma: Obesidad abdominal, triglicéridos altos y HDL bajo: el hígado produce VLDL en exceso"
+  },
+  "RM-END-042": {
+    titulo: "Hipopotasemia con hipertensión arterial: aldosteronismo primario",
+    imagen: "flujogramas/rm-end-042-hipertension-secundaria-aldosteronismo-primario.svg",
+    alt: "Flujograma: Hipopotasemia con hipertensión arterial: aldosteronismo primario"
+  },
+  "RM-INF-001": {
+    titulo: "Con CD4 mayor de 300 la infección oportunista que aún aparece es la tuberculosis",
+    imagen: "flujogramas/rm-inf-001-vih-infecciones-oportunistas-segun-cd4.svg",
+    alt: "Flujograma: Con CD4 mayor de 300 la infección oportunista que aún aparece es la tuberculosis"
+  },
+  "RM-INF-002": {
+    titulo: "La toxoplasmosis cerebral es la causa frecuente de infección secundaria del SNC en el SIDA",
+    imagen: "flujogramas/rm-inf-002-vih-lesiones-del-sistema-nervioso-central.svg",
+    alt: "Flujograma: La toxoplasmosis cerebral es la causa frecuente de infección secundaria del SNC en el SIDA"
+  },
+  "RM-INF-003": {
+    titulo: "El sarcoma de Kaposi es una neoplasia maligna causada por el herpesvirus humano 8",
+    imagen: "flujogramas/rm-inf-003-vih-sarcoma-de-kaposi.svg",
+    alt: "Flujograma: El sarcoma de Kaposi es una neoplasia maligna causada por el herpesvirus humano 8"
+  },
+  "RM-GAS-001": {
+    titulo: "Cirrótico febril con ascitis y dolor a la descompresión: peritonitis bacteriana espontánea",
+    imagen: "flujogramas/rm-gas-001-hepatologia-ascitis-infectada.svg",
+    alt: "Flujograma: Cirrótico febril con ascitis y dolor a la descompresión: peritonitis bacteriana espontánea"
+  },
+  "RM-INF-004": {
+    titulo: "Hijo de madre con VIH sin tratamiento antirretroviral: suspender la lactancia materna",
+    imagen: "flujogramas/rm-inf-004-vih-prevencion-de-la-transmision-madre-nino.svg",
+    alt: "Flujograma: Hijo de madre con VIH sin tratamiento antirretroviral: suspender la lactancia materna"
+  },
+  "RM-INF-005": {
+    titulo: "Neumonía intrahospitalaria tardía: el germen más frecuente es Pseudomonas",
+    imagen: "flujogramas/rm-inf-005-neumologia-neumonia-nosocomial.svg",
+    alt: "Flujograma: Neumonía intrahospitalaria tardía: el germen más frecuente es Pseudomonas"
+  },
+  "RM-INF-006": {
+    titulo: "En la meningitis tuberculosa se agregan corticoides al tratamiento antituberculoso",
+    imagen: "flujogramas/rm-inf-006-tuberculosis-corticoides-como-adyuvante.svg",
+    alt: "Flujograma: En la meningitis tuberculosa se agregan corticoides al tratamiento antituberculoso"
+  },
+  "RM-NEU-006": {
+    titulo: "Neumonía comunitaria con signos de gravedad: la conducta es radiografía de tórax y hemograma",
+    imagen: "flujogramas/rm-neu-006-neumologia-neumonia-comunitaria-gravedad-y-estudio.svg",
+    alt: "Flujograma: Neumonía comunitaria con signos de gravedad: la conducta es radiografía de tórax y hemograma"
+  },
+  "RM-GIN-004": {
+    titulo: "Flujo verdoso espumoso con cérvix en fresa: tricomoniasis, metronidazol 2 g en dosis única",
+    imagen: "flujogramas/rm-gin-004-ginecologia-vaginitis-por-trichomonas.svg",
+    alt: "Flujograma: Flujo verdoso espumoso con cérvix en fresa: tricomoniasis, metronidazol 2 g en dosis única"
+  },
+  "RM-INF-007": {
+    titulo: "La tuberculosis multidrogorresistente es la resistente al menos a isoniacida y rifampicina",
+    imagen: "flujogramas/rm-inf-007-tuberculosis-definiciones-de-resistencia.svg",
+    alt: "Flujograma: La tuberculosis multidrogorresistente es la resistente al menos a isoniacida y rifampicina"
+  },
+  "RM-INF-008": {
+    titulo: "La uretritis no gonocócica la causa con mayor frecuencia Chlamydia trachomatis",
+    imagen: "flujogramas/rm-inf-008-its-uretritis-no-gonococica.svg",
+    alt: "Flujograma: La uretritis no gonocócica la causa con mayor frecuencia Chlamydia trachomatis"
+  },
+  "RM-INF-009": {
+    titulo: "La fiebre cuartana corresponde a Plasmodium malariae: acceso cada 72 horas",
+    imagen: "flujogramas/rm-inf-009-parasitologia-malaria-y-tipo-de-fiebre.svg",
+    alt: "Flujograma: La fiebre cuartana corresponde a Plasmodium malariae: acceso cada 72 horas"
+  },
+  "RM-CIR-133": {
+    titulo: "En la apendicitis perforada predomina Bacteroides fragilis junto con E. coli",
+    imagen: "flujogramas/rm-cir-133-cirugia-apendicitis-perforada-bacteriologia.svg",
+    alt: "Flujograma: En la apendicitis perforada predomina Bacteroides fragilis junto con E. coli"
+  },
+  "RM-INF-010": {
+    titulo: "La giardiasis puede causar un síndrome pseudoulceroso: dolor epigástrico sin úlcera en la endoscopía",
+    imagen: "flujogramas/rm-inf-010-parasitologia-giardiasis.svg",
+    alt: "Flujograma: La giardiasis puede causar un síndrome pseudoulceroso: dolor epigástrico sin úlcera en la endoscopía"
+  },
+  "RM-INF-011": {
+    titulo: "La temperatura menor de 36 °C es el único criterio de SIRS entre las opciones",
+    imagen: "flujogramas/rm-inf-011-sepsis-criterios-de-sirs.svg",
+    alt: "Flujograma: La temperatura menor de 36 °C es el único criterio de SIRS entre las opciones"
+  },
+
+  /* ---------- Residentado Médico · lote 4 ---------- */
+  "RM-INF-012": {
+    titulo: "En la infección urinaria casi no hay anaerobios: la orina es aerobia y domina Escherichia coli",
+    imagen: "flujogramas/rm-inf-012-infectologia-anaerobios-segun-el-sitio.svg",
+    alt: "Flujograma: En la infección urinaria casi no hay anaerobios: la orina es aerobia y domina Escherichia coli"
+  },
+  "RM-GIN-005": {
+    titulo: "Vaginosis bacteriana: 3 de 4 criterios de Amsel, entre ellos pH mayor de 4,5, aminas y células guía",
+    imagen: "flujogramas/rm-gin-005-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: Vaginosis bacteriana: 3 de 4 criterios de Amsel, entre ellos pH mayor de 4,5, aminas y células guía"
+  },
+  "RM-GAS-002": {
+    titulo: "HBsAg persistente con anti-HBc IgG, HBeAg negativo y ALT normal: infección crónica (portador inactivo)",
+    imagen: "flujogramas/rm-gas-002-hepatologia-serologia-de-la-hepatitis-b.svg",
+    alt: "Flujograma: HBsAg persistente con anti-HBc IgG, HBeAg negativo y ALT normal: infección crónica (portador inactivo)"
+  },
+  "RM-INF-013": {
+    titulo: "Un lancetazo, placa livedoide y hematuria a las 36 horas: loxoscelismo cutáneo-visceral",
+    imagen: "flujogramas/rm-inf-013-toxicologia-mordedura-de-arana-del-rincon.svg",
+    alt: "Flujograma: Un lancetazo, placa livedoide y hematuria a las 36 horas: loxoscelismo cutáneo-visceral"
+  },
+  "RM-NEU-007": {
+    titulo: "Dolor pleurítico súbito, disnea y shock en un paciente con tuberculosis: neumotórax a tensión",
+    imagen: "flujogramas/rm-neu-007-neumologia-neumotorax-secundario-a-tuberculosis.svg",
+    alt: "Flujograma: Dolor pleurítico súbito, disnea y shock en un paciente con tuberculosis: neumotórax a tensión"
+  },
+  "RM-INF-014": {
+    titulo: "El absceso hepático amebiano contiene pus pardo rojizo, en «pasta de anchoas»",
+    imagen: "flujogramas/rm-inf-014-infectologia-absceso-hepatico-amebiano.svg",
+    alt: "Flujograma: El absceso hepático amebiano contiene pus pardo rojizo, en «pasta de anchoas»"
+  },
+  "RM-OFT-005": {
+    titulo: "La oftalmía neonatal grave la causan Neisseria gonorrhoeae y Chlamydia trachomatis",
+    imagen: "flujogramas/rm-oft-005-oftalmologia-conjuntivitis-del-recien-nacido.svg",
+    alt: "Flujograma: La oftalmía neonatal grave la causan Neisseria gonorrhoeae y Chlamydia trachomatis"
+  },
+  "RM-INF-015": {
+    titulo: "El chancroide, úlcera genital dolorosa de bordes socavados, lo causa Haemophilus ducreyi",
+    imagen: "flujogramas/rm-inf-015-infectologia-ulceras-genitales.svg",
+    alt: "Flujograma: El chancroide, úlcera genital dolorosa de bordes socavados, lo causa Haemophilus ducreyi"
+  },
+  "RM-GIN-006": {
+    titulo: "Flujo maloliente, prurito y cuello en fresa con eritema vaginal en manchas: Trichomonas vaginalis",
+    imagen: "flujogramas/rm-gin-006-ginecologia-vaginitis-por-trichomonas.svg",
+    alt: "Flujograma: Flujo maloliente, prurito y cuello en fresa con eritema vaginal en manchas: Trichomonas vaginalis"
+  },
+  "RM-OFT-006": {
+    titulo: "La blefaritis crónica infecciosa de las pestañas la causa Staphylococcus aureus",
+    imagen: "flujogramas/rm-oft-006-oftalmologia-blefaritis.svg",
+    alt: "Flujograma: La blefaritis crónica infecciosa de las pestañas la causa Staphylococcus aureus"
+  },
+  "RM-GIN-007": {
+    titulo: "Flujo amarillento, espumoso y maloliente con pH mayor de 4,5: Trichomonas vaginalis",
+    imagen: "flujogramas/rm-gin-007-ginecologia-diagnostico-diferencial-del-flujo-vaginal.svg",
+    alt: "Flujograma: Flujo amarillento, espumoso y maloliente con pH mayor de 4,5: Trichomonas vaginalis"
+  },
+  "RM-GAS-003": {
+    titulo: "Con anti-HAV IgG y anti-HBc/anti-HBs de contacto previo, el anti-HCV positivo indica hepatitis C",
+    imagen: "flujogramas/rm-gas-003-hepatologia-lectura-de-marcadores-virales.svg",
+    alt: "Flujograma: Con anti-HAV IgG y anti-HBc/anti-HBs de contacto previo, el anti-HCV positivo indica hepatitis C"
+  },
+  "RM-INF-016": {
+    titulo: "La enfermedad por arañazo de gato la produce Bartonella henselae",
+    imagen: "flujogramas/rm-inf-016-infectologia-enfermedad-por-aranazo-de-gato.svg",
+    alt: "Flujograma: La enfermedad por arañazo de gato la produce Bartonella henselae"
+  },
+  "RM-GAS-004": {
+    titulo: "Necrosis pancreática infectada a la semana: carbapenémico y desbridamiento diferido",
+    imagen: "flujogramas/rm-gas-004-gastroenterologia-pancreatitis-aguda-necrosante-infectada.svg",
+    alt: "Flujograma: Necrosis pancreática infectada a la semana: carbapenémico y desbridamiento diferido"
+  },
+  "RM-NRL-002": {
+    titulo: "La toxina botulínica impide liberar acetilcolina en la terminal presináptica: botulismo",
+    imagen: "flujogramas/rm-nrl-002-neurologia-union-neuromuscular.svg",
+    alt: "Flujograma: La toxina botulínica impide liberar acetilcolina en la terminal presináptica: botulismo"
+  },
+  "RM-INF-017": {
+    titulo: "Meningococo sin mejoría con penicilina a las 48 horas: ceftriaxona",
+    imagen: "flujogramas/rm-inf-017-infectologia-meningitis-meningococica.svg",
+    alt: "Flujograma: Meningococo sin mejoría con penicilina a las 48 horas: ceftriaxona"
+  },
+  "RM-INF-018": {
+    titulo: "Ascaridiasis y trichuriasis son geohelmintiasis: sus huevos maduran en el suelo",
+    imagen: "flujogramas/rm-inf-018-parasitologia-geohelmintos.svg",
+    alt: "Flujograma: Ascaridiasis y trichuriasis son geohelmintiasis: sus huevos maduran en el suelo"
+  },
+  "RM-INF-019": {
+    titulo: "Pus por la uretra antes de orinar: uretritis gonocócica (Neisseria gonorrhoeae)",
+    imagen: "flujogramas/rm-inf-019-its-uretritis-con-secrecion-purulenta.svg",
+    alt: "Flujograma: Pus por la uretra antes de orinar: uretritis gonocócica (Neisseria gonorrhoeae)"
+  },
+  "RM-GIN-008": {
+    titulo: "Flujo espumoso amarillento y cérvix con puntos rojos: Trichomonas vaginalis",
+    imagen: "flujogramas/rm-gin-008-infecciones-ginecologicas-tricomoniasis.svg",
+    alt: "Flujograma: Flujo espumoso amarillento y cérvix con puntos rojos: Trichomonas vaginalis"
+  },
+  "RM-GAS-005": {
+    titulo: "La causa más frecuente del absceso hepático piógeno es la infección biliar ascendente",
+    imagen: "flujogramas/rm-gas-005-higado-vias-del-absceso-piogeno.svg",
+    alt: "Flujograma: La causa más frecuente del absceso hepático piógeno es la infección biliar ascendente"
+  },
+  "RM-SP-001": {
+    titulo: "El bacilo tuberculoso es causa necesaria, pero no suficiente, de la tuberculosis",
+    imagen: "flujogramas/rm-sp-001-epidemiologia-tipos-de-causa.svg",
+    alt: "Flujograma: El bacilo tuberculoso es causa necesaria, pero no suficiente, de la tuberculosis"
+  },
+  "RM-OFT-007": {
+    titulo: "El agente más frecuente de la sinusitis bacteriana del adulto es Streptococcus pneumoniae",
+    imagen: "flujogramas/rm-oft-007-rinosinusitis-cuando-es-bacteriana-y-quien-la-causa.svg",
+    alt: "Flujograma: El agente más frecuente de la sinusitis bacteriana del adulto es Streptococcus pneumoniae"
+  },
+  "RM-INF-020": {
+    titulo: "Disentería con convulsión en un adulto: Shigella",
+    imagen: "flujogramas/rm-inf-020-diarrea-invasiva-shigella-y-convulsion.svg",
+    alt: "Flujograma: Disentería con convulsión en un adulto: Shigella"
+  },
+  "RM-GAS-006": {
+    titulo: "El primer marcador que aparece en la hepatitis B es el HBsAg",
+    imagen: "flujogramas/rm-gas-006-hepatitis-b-aguda-orden-de-los-marcadores.svg",
+    alt: "Flujograma: El primer marcador que aparece en la hepatitis B es el HBsAg"
+  },
+  "RM-CB-043": {
+    titulo: "Los aminoglucósidos dañan el VIII par: toxicidad vestibular y coclear",
+    imagen: "flujogramas/rm-cb-043-farmacologia-ototoxicidad-de-los-aminoglucosidos.svg",
+    alt: "Flujograma: Los aminoglucósidos dañan el VIII par: toxicidad vestibular y coclear"
+  },
+  "RM-CAR-039": {
+    titulo: "La complicación más severa del estreptococo beta hemolítico es la fiebre reumática",
+    imagen: "flujogramas/rm-car-039-estreptococo-del-grupo-a-fiebre-reumatica.svg",
+    alt: "Flujograma: La complicación más severa del estreptococo beta hemolítico es la fiebre reumática"
+  },
+  "RM-INF-021": {
+    titulo: "En la infección de sitio quirúrgico por estafilococo, el factor clave es el inadecuado lavado de manos",
+    imagen: "flujogramas/rm-inf-021-infecciones-intrahospitalarias-sitio-quirurgico.svg",
+    alt: "Flujograma: En la infección de sitio quirúrgico por estafilococo, el factor clave es el inadecuado lavado de manos"
+  },
+  "RM-INF-022": {
+    titulo: "Úlceras genitales múltiples, blandas y dolorosas, de bordes irregulares: chancroide",
+    imagen: "flujogramas/rm-inf-022-its-ulcera-genital-dolorosa.svg",
+    alt: "Flujograma: Úlceras genitales múltiples, blandas y dolorosas, de bordes irregulares: chancroide"
+  },
+  "RM-NEU-008": {
+    titulo: "Bronquiectasias infectadas por Pseudomonas aeruginosa: piperacilina/tazobactam",
+    imagen: "flujogramas/rm-neu-008-neumologia-bronquiectasias-y-pseudomonas.svg",
+    alt: "Flujograma: Bronquiectasias infectadas por Pseudomonas aeruginosa: piperacilina/tazobactam"
+  },
+  "RM-INF-023": {
+    titulo: "En la meningitis tuberculosa el LCR muestra pleocitosis mononuclear",
+    imagen: "flujogramas/rm-inf-023-meningitis-tuberculosa-hallazgos-del-lcr.svg",
+    alt: "Flujograma: En la meningitis tuberculosa el LCR muestra pleocitosis mononuclear"
+  },
+  "RM-NEU-009": {
+    titulo: "Neumonía grave con hipoxemia: oxígeno y ceftriaxona más azitromicina",
+    imagen: "flujogramas/rm-neu-009-neumonia-adquirida-en-la-comunidad-tratamiento.svg",
+    alt: "Flujograma: Neumonía grave con hipoxemia: oxígeno y ceftriaxona más azitromicina"
+  },
+  "RM-GAS-007": {
+    titulo: "Fiebre, ictericia, dolor en hipocondrio derecho y diabetes: absceso hepático piógeno",
+    imagen: "flujogramas/rm-gas-007-higado-absceso-hepatico-piogeno.svg",
+    alt: "Flujograma: Fiebre, ictericia, dolor en hipocondrio derecho y diabetes: absceso hepático piógeno"
+  },
+  "RM-NEU-010": {
+    titulo: "El microorganismo más frecuente de la neumonía adquirida en la comunidad es Streptococcus pneumoniae",
+    imagen: "flujogramas/rm-neu-010-neumonia-adquirida-en-la-comunidad-etiologia.svg",
+    alt: "Flujograma: El microorganismo más frecuente de la neumonía adquirida en la comunidad es Streptococcus pneumoniae"
+  },
+  "RM-NEU-011": {
+    titulo: "Un esputo es válido para cultivo con más de 25 neutrófilos y menos de 10 células epiteliales por campo",
+    imagen: "flujogramas/rm-neu-011-neumonia-calidad-de-la-muestra-de-esputo.svg",
+    alt: "Flujograma: Un esputo es válido para cultivo con más de 25 neutrófilos y menos de 10 células epiteliales por campo"
+  },
+  "RM-NEU-012": {
+    titulo: "EPOC exacerbado con fiebre y más disnea: se inicia antibiótico junto al broncodilatador y al corticoide",
+    imagen: "flujogramas/rm-neu-012-epoc-exacerbacion-infecciosa.svg",
+    alt: "Flujograma: EPOC exacerbado con fiebre y más disnea: se inicia antibiótico junto al broncodilatador y al corticoide"
+  },
+  "RM-NEU-013": {
+    titulo: "Fiebre, tos y disnea con un infiltrado alveolar basal nuevo configuran una neumonía adquirida en la comunidad",
+    imagen: "flujogramas/rm-neu-013-neumonia-diagnostico-en-el-adulto-mayor.svg",
+    alt: "Flujograma: Fiebre, tos y disnea con un infiltrado alveolar basal nuevo configuran una neumonía adquirida en la comunidad"
+  },
+  "RM-INF-024": {
+    titulo: "Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora",
+    imagen: "flujogramas/rm-inf-024-neuroinfeccion-meningitis-meningococica.svg",
+    alt: "Flujograma: Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora"
+  },
+  "RM-INF-025": {
+    titulo: "La azitromicina se elimina por vía biliar y no requiere ajuste en la insuficiencia renal grave",
+    imagen: "flujogramas/rm-inf-025-farmacologia-antibioticos-y-rinon.svg",
+    alt: "Flujograma: La azitromicina se elimina por vía biliar y no requiere ajuste en la insuficiencia renal grave"
+  },
+  "RM-GAS-008": {
+    titulo: "En la infección intestinal por C. difficile la vancomicina oral es el antibiótico eficaz, con fidaxomicina preferida hoy",
+    imagen: "flujogramas/rm-gas-008-gastroenterologia-colitis-por-clostridioides-difficile.svg",
+    alt: "Flujograma: En la infección intestinal por C. difficile la vancomicina oral es el antibiótico eficaz, con fidaxomicina preferida hoy"
+  },
+  "RM-GAS-009": {
+    titulo: "En la colangitis aguda por litiasis predominan E. coli, Klebsiella y Enterobacter",
+    imagen: "flujogramas/rm-gas-009-via-biliar-bacterias-de-la-colangitis.svg",
+    alt: "Flujograma: En la colangitis aguda por litiasis predominan E. coli, Klebsiella y Enterobacter"
+  },
+  "RM-INF-026": {
+    titulo: "El forúnculo es una infección del folículo piloso causada por Staphylococcus aureus",
+    imagen: "flujogramas/rm-inf-026-piel-y-partes-blandas-forunculosis.svg",
+    alt: "Flujograma: El forúnculo es una infección del folículo piloso causada por Staphylococcus aureus"
+  },
+  "RM-GIN-009": {
+    titulo: "En la vaginosis bacteriana el pH vaginal pasa de 4,5 y el test de aminas es positivo",
+    imagen: "flujogramas/rm-gin-009-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: En la vaginosis bacteriana el pH vaginal pasa de 4,5 y el test de aminas es positivo"
+  },
+  "RM-INF-027": {
+    titulo: "La meningitis criptocócica en VIH se induce con anfotericina B más flucitosina por 2 semanas",
+    imagen: "flujogramas/rm-inf-027-vih-meningitis-criptococica.svg",
+    alt: "Flujograma: La meningitis criptocócica en VIH se induce con anfotericina B más flucitosina por 2 semanas"
+  },
+  "RM-INF-028": {
+    titulo: "Staphylococcus aureus es el germen más frecuente de la artritis séptica",
+    imagen: "flujogramas/rm-inf-028-infectologia-artritis-septica.svg",
+    alt: "Flujograma: Staphylococcus aureus es el germen más frecuente de la artritis séptica"
+  },
+  "RM-NEU-014": {
+    titulo: "Tos de un mes con diaforesis, pérdida de peso e infiltrado apical: tuberculosis pulmonar",
+    imagen: "flujogramas/rm-neu-014-neumologia-sospecha-de-tuberculosis.svg",
+    alt: "Flujograma: Tos de un mes con diaforesis, pérdida de peso e infiltrado apical: tuberculosis pulmonar"
+  },
+  "RM-INF-029": {
+    titulo: "La primaquina previene las recaídas de P. vivax y P. ovale porque mata los hipnozoítos del hígado",
+    imagen: "flujogramas/rm-inf-029-malaria-prevencion-de-recaidas.svg",
+    alt: "Flujograma: La primaquina previene las recaídas de P. vivax y P. ovale porque mata los hipnozoítos del hígado"
+  },
+  "RM-INF-030": {
+    titulo: "La infección por virus del Zika durante la gestación se relaciona con microcefalia",
+    imagen: "flujogramas/rm-inf-030-infectologia-zika-congenito.svg",
+    alt: "Flujograma: La infección por virus del Zika durante la gestación se relaciona con microcefalia"
+  },
+  "RM-CAR-040": {
+    titulo: "En los criterios de Duke, los hemocultivos positivos con microorganismos típicos son un criterio mayor",
+    imagen: "flujogramas/rm-car-040-cardiologia-endocarditis-infecciosa.svg",
+    alt: "Flujograma: En los criterios de Duke, los hemocultivos positivos con microorganismos típicos son un criterio mayor"
+  },
+  "RM-INF-031": {
+    titulo: "El ELISA de tercera generación se positiviza entre las 2 y 4 semanas del contagio por VIH",
+    imagen: "flujogramas/rm-inf-031-vih-ventana-diagnostica.svg",
+    alt: "Flujograma: El ELISA de tercera generación se positiviza entre las 2 y 4 semanas del contagio por VIH"
+  },
+  "RM-GAS-010": {
+    titulo: "Los abscesos hepáticos se localizan con más frecuencia en el lóbulo derecho",
+    imagen: "flujogramas/rm-gas-010-higado-localizacion-de-los-abscesos.svg",
+    alt: "Flujograma: Los abscesos hepáticos se localizan con más frecuencia en el lóbulo derecho"
+  },
+  "RM-INF-032": {
+    titulo: "Los politransfundidos son un grupo clásico de mayor riesgo para contraer hepatitis C",
+    imagen: "flujogramas/rm-inf-032-hepatologia-riesgo-de-hepatitis-c.svg",
+    alt: "Flujograma: Los politransfundidos son un grupo clásico de mayor riesgo para contraer hepatitis C"
+  },
+  "RM-GIN-010": {
+    titulo: "En la gestante con VIH y dilatación mayor de 4 cm la cesárea ya no protege: el parto vaginal es la vía",
+    imagen: "flujogramas/rm-gin-010-vih-y-embarazo-via-del-parto.svg",
+    alt: "Flujograma: En la gestante con VIH y dilatación mayor de 4 cm la cesárea ya no protege: el parto vaginal es la vía"
+  },
+  "RM-GIN-011": {
+    titulo: "Gestante con VIH nueva: el TARV triple se inicia apenas se confirma el diagnóstico, sin esperar una semana",
+    imagen: "flujogramas/rm-gin-011-vih-y-embarazo-inicio-del-tarv-triple.svg",
+    alt: "Flujograma: Gestante con VIH nueva: el TARV triple se inicia apenas se confirma el diagnóstico, sin esperar una semana"
+  },
+  "RM-GIN-012": {
+    titulo: "Flujo verdoso con cérvix en fresa es tricomoniasis: metronidazol 500 mg cada 12 horas por 7 días",
+    imagen: "flujogramas/rm-gin-012-its-tricomoniasis-flujo-vaginal.svg",
+    alt: "Flujograma: Flujo verdoso con cérvix en fresa es tricomoniasis: metronidazol 500 mg cada 12 horas por 7 días"
+  },
+  "RM-GIN-013": {
+    titulo: "Las células guía hacen el diagnóstico de vaginosis bacteriana: criterios de Amsel, tres de cuatro",
+    imagen: "flujogramas/rm-gin-013-its-vaginosis-bacteriana-criterios-de-amsel.svg",
+    alt: "Flujograma: Las células guía hacen el diagnóstico de vaginosis bacteriana: criterios de Amsel, tres de cuatro"
+  },
+  "RM-NEU-015": {
+    titulo: "La tuberculosis del adulto ocupa los segmentos apicales y posteriores de los lóbulos superiores",
+    imagen: "flujogramas/rm-neu-015-tuberculosis-localizacion-de-la-forma-posprimaria.svg",
+    alt: "Flujograma: La tuberculosis del adulto ocupa los segmentos apicales y posteriores de los lóbulos superiores"
+  },
+  "RM-GIN-014": {
+    titulo: "Gestante con VIH a término y sin control prenatal: cesárea electiva con zidovudina endovenosa",
+    imagen: "flujogramas/rm-gin-014-vih-y-embarazo-indicacion-de-cesarea.svg",
+    alt: "Flujograma: Gestante con VIH a término y sin control prenatal: cesárea electiva con zidovudina endovenosa"
+  },
+  "RM-GIN-015": {
+    titulo: "La ruptura de membranas mayor de 4 horas aumenta la transmisión vertical del VIH",
+    imagen: "flujogramas/rm-gin-015-vih-y-embarazo-factores-de-transmision-vertical.svg",
+    alt: "Flujograma: La ruptura de membranas mayor de 4 horas aumenta la transmisión vertical del VIH"
+  },
+  "RM-INF-033": {
+    titulo: "El sarcoma de Kaposi del paciente con VIH lo causa el herpesvirus humano 8 (HHV-8)",
+    imagen: "flujogramas/rm-inf-033-vih-sarcoma-de-kaposi-herpesvirus.svg",
+    alt: "Flujograma: El sarcoma de Kaposi del paciente con VIH lo causa el herpesvirus humano 8 (HHV-8)"
+  },
+  "RM-GIN-016": {
+    titulo: "En la gestante con VIH el TARV triple se inicia lo antes posible tras el diagnóstico",
+    imagen: "flujogramas/rm-gin-016-vih-y-embarazo-calendario-de-la-atencion.svg",
+    alt: "Flujograma: En la gestante con VIH el TARV triple se inicia lo antes posible tras el diagnóstico"
+  },
+  "RM-NEU-016": {
+    titulo: "Contacto con VIH y PPD mayor de 5 mm: alto riesgo de tuberculosis y tratamiento preventivo",
+    imagen: "flujogramas/rm-neu-016-tuberculosis-ppd-y-tratamiento-preventivo.svg",
+    alt: "Flujograma: Contacto con VIH y PPD mayor de 5 mm: alto riesgo de tuberculosis y tratamiento preventivo"
+  },
+  "RM-GIN-017": {
+    titulo: "Los condilomas anogenitales los causan los tipos 6 y 11 del VPH, de bajo riesgo oncogénico",
+    imagen: "flujogramas/rm-gin-017-its-condilomas-acuminados-vph-6-y-11.svg",
+    alt: "Flujograma: Los condilomas anogenitales los causan los tipos 6 y 11 del VPH, de bajo riesgo oncogénico"
+  },
+  "RM-NEU-017": {
+    titulo: "Cavidad tuberculosa residual con masa en su interior y hemoptisis: aspergiloma",
+    imagen: "flujogramas/rm-neu-017-neumologia-aspergiloma-en-caverna-residual.svg",
+    alt: "Flujograma: Cavidad tuberculosa residual con masa en su interior y hemoptisis: aspergiloma"
+  },
+  "RM-GIN-018": {
+    titulo: "Los VPH 16 y 18 causan cerca del 70 % de los cánceres de cuello uterino",
+    imagen: "flujogramas/rm-gin-018-vph-tipos-oncogenicos-principales.svg",
+    alt: "Flujograma: Los VPH 16 y 18 causan cerca del 70 % de los cánceres de cuello uterino"
+  },
+  "RM-NEU-018": {
+    titulo: "Pleuritis tuberculosa con ADA elevada: el diagnóstico se confirma con biopsia pleural",
+    imagen: "flujogramas/rm-neu-018-tuberculosis-derrame-pleural-confirmacion.svg",
+    alt: "Flujograma: Pleuritis tuberculosa con ADA elevada: el diagnóstico se confirma con biopsia pleural"
+  },
+  "RM-INF-034": {
+    titulo: "HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis B crónica con replicación activa",
+    imagen: "flujogramas/rm-inf-034-hepatitis-b-interpretacion-serologica.svg",
+    alt: "Flujograma: HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis B crónica con replicación activa"
+  },
+  "RM-REU-005": {
+    titulo: "La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos",
+    imagen: "flujogramas/rm-reu-005-artritis-septica-articulaciones-mas-afectadas.svg",
+    alt: "Flujograma: La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos"
+  },
+  "RM-INF-035": {
+    titulo: "En el dengue se evita el metamizol, los AINE y la aspirina: el antipirético de elección es el paracetamol",
+    imagen: "flujogramas/rm-inf-035-dengue-manejo-y-conducta-contraindicada.svg",
+    alt: "Flujograma: En el dengue se evita el metamizol, los AINE y la aspirina: el antipirético de elección es el paracetamol"
+  },
+  "RM-INF-036": {
+    titulo: "Cervicitis mucopurulenta: la causan Neisseria gonorrhoeae y Chlamydia, que infectan el epitelio columnar",
+    imagen: "flujogramas/rm-inf-036-its-endocervicitis-mucopurulenta.svg",
+    alt: "Flujograma: Cervicitis mucopurulenta: la causan Neisseria gonorrhoeae y Chlamydia, que infectan el epitelio columnar"
+  },
+  "RM-GIN-019": {
+    titulo: "Endometritis puerperal tras cesárea: clindamicina, gentamicina y ampicilina",
+    imagen: "flujogramas/rm-gin-019-puerperio-endometritis-posparto.svg",
+    alt: "Flujograma: Endometritis puerperal tras cesárea: clindamicina, gentamicina y ampicilina"
+  },
+  "RM-CB-044": {
+    titulo: "Picadura en un rincón y placa livedoide con orina oscura: loxoscelismo",
+    imagen: "flujogramas/rm-cb-044-toxicologia-loxoscelismo.svg",
+    alt: "Flujograma: Picadura en un rincón y placa livedoide con orina oscura: loxoscelismo"
+  },
+  "RM-GIN-020": {
+    titulo: "Flujo fino, pH 6, olor a pescado con KOH y células clave: vaginosis bacteriana",
+    imagen: "flujogramas/rm-gin-020-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: Flujo fino, pH 6, olor a pescado con KOH y células clave: vaginosis bacteriana"
+  },
+  "RM-INF-037": {
+    titulo: "Fiebre terciana, hepatoesplenomegalia y viaje a Piura: malaria no complicada",
+    imagen: "flujogramas/rm-inf-037-infectologia-malaria.svg",
+    alt: "Flujograma: Fiebre terciana, hepatoesplenomegalia y viaje a Piura: malaria no complicada"
+  },
+  "RM-GIN-021": {
+    titulo: "Cistitis en la gestante a las 32 semanas: cefalosporina oral, como la cefuroxima",
+    imagen: "flujogramas/rm-gin-021-obstetricia-cistitis-en-la-gestacion.svg",
+    alt: "Flujograma: Cistitis en la gestante a las 32 semanas: cefalosporina oral, como la cefuroxima"
+  },
+  "RM-GIN-022": {
+    titulo: "Flujo verdoso con cérvix en fresa y esposo asintomático: tricomoniasis",
+    imagen: "flujogramas/rm-gin-022-ginecologia-tricomoniasis.svg",
+    alt: "Flujograma: Flujo verdoso con cérvix en fresa y esposo asintomático: tricomoniasis"
+  },
+  "RM-CB-045": {
+    titulo: "Sulfonamidas: inhibición competitiva de la dihidropteroato sintetasa",
+    imagen: "flujogramas/rm-cb-045-farmacologia-sulfonamidas.svg",
+    alt: "Flujograma: Sulfonamidas: inhibición competitiva de la dihidropteroato sintetasa"
+  },
+  "RM-GIN-023": {
+    titulo: "Dolor pélvico, flujo mucopurulento y dolor a la movilización cervical: enfermedad inflamatoria pélvica",
+    imagen: "flujogramas/rm-gin-023-ginecologia-enfermedad-inflamatoria-pelvica.svg",
+    alt: "Flujograma: Dolor pélvico, flujo mucopurulento y dolor a la movilización cervical: enfermedad inflamatoria pélvica"
+  },
+  "RM-OFT-008": {
+    titulo: "Otitis media supurada crónica: la meningitis es su complicación intracraneal más frecuente",
+    imagen: "flujogramas/rm-oft-008-otorrinolaringologia-otitis-media-cronica.svg",
+    alt: "Flujograma: Otitis media supurada crónica: la meningitis es su complicación intracraneal más frecuente"
+  },
+  "RM-SP-002": {
+    titulo: "Sintomático respiratorio examinado: quien ya tiene al menos una baciloscopía",
+    imagen: "flujogramas/rm-sp-002-salud-publica-tuberculosis-captacion.svg",
+    alt: "Flujograma: Sintomático respiratorio examinado: quien ya tiene al menos una baciloscopía"
+  },
+  "RM-NEF-007": {
+    titulo: "En la enfermedad renal crónica, la nitrofurantoína causa neuropatía periférica",
+    imagen: "flujogramas/rm-nef-007-nefrologia-farmacos-y-enfermedad-renal.svg",
+    alt: "Flujograma: En la enfermedad renal crónica, la nitrofurantoína causa neuropatía periférica"
+  },
+  "RM-INF-038": {
+    titulo: "Diarrea y fiebre tras un antibiótico: el agente más frecuente es Clostridioides difficile",
+    imagen: "flujogramas/rm-inf-038-infectologia-diarrea-asociada-a-antibioticos.svg",
+    alt: "Flujograma: Diarrea y fiebre tras un antibiótico: el agente más frecuente es Clostridioides difficile"
+  },
+  "RM-GIN-024": {
+    titulo: "La ruptura de membranas mayor de 4 horas aumenta el riesgo de transmisión vertical del VIH",
+    imagen: "flujogramas/rm-gin-024-obstetricia-vih-y-transmision-vertical.svg",
+    alt: "Flujograma: La ruptura de membranas mayor de 4 horas aumenta el riesgo de transmisión vertical del VIH"
+  },
+  "RM-INF-039": {
+    titulo: "En el VIH con CD4 menor de 200, la tuberculosis se ve como infiltrado intersticial difuso",
+    imagen: "flujogramas/rm-inf-039-infectologia-tuberculosis-en-vih.svg",
+    alt: "Flujograma: En el VIH con CD4 menor de 200, la tuberculosis se ve como infiltrado intersticial difuso"
+  },
+  "RM-INF-040": {
+    titulo: "Úlcera genital profunda de borde excavado con adenopatía dolorosa: chancroide",
+    imagen: "flujogramas/rm-inf-040-its-ulceras-genitales.svg",
+    alt: "Flujograma: Úlcera genital profunda de borde excavado con adenopatía dolorosa: chancroide"
+  },
+  "RM-GIN-025": {
+    titulo: "Flujo amarillento, prurito y cuello en fresa: se trata con metronidazol",
+    imagen: "flujogramas/rm-gin-025-ginecologia-tricomoniasis-tratamiento.svg",
+    alt: "Flujograma: Flujo amarillento, prurito y cuello en fresa: se trata con metronidazol"
+  },
+  "RM-GIN-026": {
+    titulo: "Bacteriuria asintomática sin tratar en la gestante: el riesgo es la pielonefritis",
+    imagen: "flujogramas/rm-gin-026-obstetricia-bacteriuria-asintomatica.svg",
+    alt: "Flujograma: Bacteriuria asintomática sin tratar en la gestante: el riesgo es la pielonefritis"
+  },
+  "RM-INF-041": {
+    titulo: "LCR con linfocitos, glucosa baja y proteínas altas: meningitis por Mycobacterium tuberculosis",
+    imagen: "flujogramas/rm-inf-041-infectologia-liquido-cefalorraquideo.svg",
+    alt: "Flujograma: LCR con linfocitos, glucosa baja y proteínas altas: meningitis por Mycobacterium tuberculosis"
+  },
+  "RM-NEF-008": {
+    titulo: "Varón con prostatitis previa, disuria y puntos renoureterales positivos: levofloxacino",
+    imagen: "flujogramas/rm-nef-008-nefrologia-infeccion-urinaria-complicada-en-el-varon.svg",
+    alt: "Flujograma: Varón con prostatitis previa, disuria y puntos renoureterales positivos: levofloxacino"
+  },
+  "RM-GAS-011": {
+    titulo: "HBsAg y anti-HBc IgM positivos con HBeAg positivo y anti-HBs negativo: hepatitis B aguda",
+    imagen: "flujogramas/rm-gas-011-hepatologia-serologia-de-la-hepatitis-b.svg",
+    alt: "Flujograma: HBsAg y anti-HBc IgM positivos con HBeAg positivo y anti-HBs negativo: hepatitis B aguda"
+  },
+  "RM-HEM-002": {
+    titulo: "En el adulto los neutrófilos son los leucocitos más abundantes por microlitro",
+    imagen: "flujogramas/rm-hem-002-hematologia-formula-leucocitaria-normal.svg",
+    alt: "Flujograma: En el adulto los neutrófilos son los leucocitos más abundantes por microlitro"
+  },
+  "RM-INF-042": {
+    titulo: "Gestante con tuberculosis pulmonar en tratamiento: se administra piridoxina",
+    imagen: "flujogramas/rm-inf-042-tuberculosis-embarazo-y-lactancia.svg",
+    alt: "Flujograma: Gestante con tuberculosis pulmonar en tratamiento: se administra piridoxina"
+  },
+  "RM-OFT-009": {
+    titulo: "Conjuntivitis bacteriana aguda en un adolescente: el germen más frecuente es Staphylococcus aureus",
+    imagen: "flujogramas/rm-oft-009-oftalmologia-conjuntivitis-bacteriana.svg",
+    alt: "Flujograma: Conjuntivitis bacteriana aguda en un adolescente: el germen más frecuente es Staphylococcus aureus"
+  },
+  "RM-SP-003": {
+    titulo: "La vacuna antiamarílica logra inmunidad protectora a los 10 días de aplicada",
+    imagen: "flujogramas/rm-sp-003-salud-publica-vacuna-contra-la-fiebre-amarilla.svg",
+    alt: "Flujograma: La vacuna antiamarílica logra inmunidad protectora a los 10 días de aplicada"
+  },
+  "RM-SP-004": {
+    titulo: "En zona enzoótica de fiebre amarilla la medida central es vacunar y monitorear las coberturas",
+    imagen: "flujogramas/rm-sp-004-salud-publica-prevencion-de-la-fiebre-amarilla.svg",
+    alt: "Flujograma: En zona enzoótica de fiebre amarilla la medida central es vacunar y monitorear las coberturas"
+  },
+  "RM-INF-043": {
+    titulo: "El dolor abdominal intenso y continuo es un signo de alarma del dengue",
+    imagen: "flujogramas/rm-inf-043-dengue-signos-de-alarma.svg",
+    alt: "Flujograma: El dolor abdominal intenso y continuo es un signo de alarma del dengue"
+  },
+  "RM-CB-046": {
+    titulo: "El macrófago fagocita y destruye microorganismos y secreta citoquinas inflamatorias",
+    imagen: "flujogramas/rm-cb-046-inmunologia-inmunidad-innata.svg",
+    alt: "Flujograma: El macrófago fagocita y destruye microorganismos y secreta citoquinas inflamatorias"
+  },
+  "RM-SP-005": {
+    titulo: "El cólera es una enfermedad reemergente: conocida, que vuelve a aumentar",
+    imagen: "flujogramas/rm-sp-005-epidemiologia-enfermedades-emergentes-y-reemergentes.svg",
+    alt: "Flujograma: El cólera es una enfermedad reemergente: conocida, que vuelve a aumentar"
+  },
+  "RM-INF-044": {
+    titulo: "Neumonía con infiltrado parahiliar tras un viaje a la selva: histoplasmosis",
+    imagen: "flujogramas/rm-inf-044-infectologia-micosis-endemica-pulmonar.svg",
+    alt: "Flujograma: Neumonía con infiltrado parahiliar tras un viaje a la selva: histoplasmosis"
+  },
+  "RM-HEM-003": {
+    titulo: "En la mononucleosis infecciosa el hemograma muestra linfocitos atípicos",
+    imagen: "flujogramas/rm-hem-003-hematologia-mononucleosis-infecciosa.svg",
+    alt: "Flujograma: En la mononucleosis infecciosa el hemograma muestra linfocitos atípicos"
+  },
+  "RM-GIN-027": {
+    titulo: "Los criterios de Amsel se usan para diagnosticar vaginosis bacteriana: se necesitan 3 de 4",
+    imagen: "flujogramas/rm-gin-027-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: Los criterios de Amsel se usan para diagnosticar vaginosis bacteriana: se necesitan 3 de 4"
+  },
+
+  /* ---------- Residentado Médico · lote 5 ---------- */
+  "RM-INF-045": {
+    titulo: "Gonorrea no complicada: ceftriaxona intramuscular en dosis única",
+    imagen: "flujogramas/rm-inf-045-its-tratamiento-de-la-gonorrea.svg",
+    alt: "Flujograma: Gonorrea no complicada: ceftriaxona intramuscular en dosis única"
+  },
+  "RM-INF-046": {
+    titulo: "El mosquito Anopheles inocula esporozoitos, que viajan al hígado en minutos",
+    imagen: "flujogramas/rm-inf-046-malaria-ciclo-del-plasmodium.svg",
+    alt: "Flujograma: El mosquito Anopheles inocula esporozoitos, que viajan al hígado en minutos"
+  },
+  "RM-PED-007": {
+    titulo: "Eritema en bofetada y exantema reticulado en un escolar: parvovirus B19",
+    imagen: "flujogramas/rm-ped-007-pediatria-eritema-infeccioso-quinta-enfermedad.svg",
+    alt: "Flujograma: Eritema en bofetada y exantema reticulado en un escolar: parvovirus B19"
+  },
+  "RM-INF-047": {
+    titulo: "Diarrea líquida sin sangre por más de 30 días tras comida callejera: Giardia lamblia",
+    imagen: "flujogramas/rm-inf-047-infectologia-diarrea-cronica-de-origen-alimentario.svg",
+    alt: "Flujograma: Diarrea líquida sin sangre por más de 30 días tras comida callejera: Giardia lamblia"
+  },
+  "RM-GIN-028": {
+    titulo: "La gestante que ya recibía TARGA al embarazarse corresponde al escenario II",
+    imagen: "flujogramas/rm-gin-028-vih-y-embarazo-escenarios-de-la-norma-tecnica.svg",
+    alt: "Flujograma: La gestante que ya recibía TARGA al embarazarse corresponde al escenario II"
+  },
+  "RM-INF-048": {
+    titulo: "Gestante con tuberculosis sin pirazinamida: 2 meses de H, R y E y 7 meses de H y R",
+    imagen: "flujogramas/rm-inf-048-tuberculosis-embarazo-sin-pirazinamida.svg",
+    alt: "Flujograma: Gestante con tuberculosis sin pirazinamida: 2 meses de H, R y E y 7 meses de H y R"
+  },
+  "RM-INF-049": {
+    titulo: "Hipotensión que persiste con líquidos y vasopresores, con disfunción de varios órganos: shock séptico resistente",
+    imagen: "flujogramas/rm-inf-049-sepsis-shock-septico-refractario.svg",
+    alt: "Flujograma: Hipotensión que persiste con líquidos y vasopresores, con disfunción de varios órganos: shock séptico resistente"
+  },
+  "RM-INF-050": {
+    titulo: "Infección por Chlamydia en adolescentes: azitromicina 1 g por vía oral en dosis única",
+    imagen: "flujogramas/rm-inf-050-its-tratamiento-de-chlamydia.svg",
+    alt: "Flujograma: Infección por Chlamydia en adolescentes: azitromicina 1 g por vía oral en dosis única"
+  },
+  "RM-CAR-041": {
+    titulo: "La artritis migratoria de grandes articulaciones es la manifestación mayor más frecuente de la fiebre reumática",
+    imagen: "flujogramas/rm-car-041-fiebre-reumatica-criterios-de-jones-2015.svg",
+    alt: "Flujograma: La artritis migratoria de grandes articulaciones es la manifestación mayor más frecuente de la fiebre reumática"
+  },
+  "RM-PED-008": {
+    titulo: "La bronquiolitis obliterante postinfecciosa se asocia sobre todo al adenovirus",
+    imagen: "flujogramas/rm-ped-008-pediatria-bronquiolitis-obliterante-postinfecciosa.svg",
+    alt: "Flujograma: La bronquiolitis obliterante postinfecciosa se asocia sobre todo al adenovirus"
+  },
+  "RM-GIN-029": {
+    titulo: "Flujo amarillo verdoso espumoso con cuello en fresa: tricomoniasis",
+    imagen: "flujogramas/rm-gin-029-ginecologia-vaginitis-por-trichomonas.svg",
+    alt: "Flujograma: Flujo amarillo verdoso espumoso con cuello en fresa: tricomoniasis"
+  },
+  "RM-INF-051": {
+    titulo: "Suero antiloxoscélico: cuanto antes, de preferencia dentro de las primeras 6 horas",
+    imagen: "flujogramas/rm-inf-051-loxoscelismo-oportunidad-del-suero.svg",
+    alt: "Flujograma: Suero antiloxoscélico: cuanto antes, de preferencia dentro de las primeras 6 horas"
+  },
+  "RM-INF-052": {
+    titulo: "LCR con 90 % de mononucleares, proteínas levemente altas y glucosa normal: meningoencefalitis viral",
+    imagen: "flujogramas/rm-inf-052-neuroinfeccion-liquido-cefalorraquideo.svg",
+    alt: "Flujograma: LCR con 90 % de mononucleares, proteínas levemente altas y glucosa normal: meningoencefalitis viral"
+  },
+  "RM-CB-047": {
+    titulo: "Los aminoglucósidos dañan el órgano de Corti y el aparato vestibular",
+    imagen: "flujogramas/rm-cb-047-farmacologia-ototoxicidad.svg",
+    alt: "Flujograma: Los aminoglucósidos dañan el órgano de Corti y el aparato vestibular"
+  },
+  "RM-INF-053": {
+    titulo: "Sinusitis, baño en un lago y meningitis purulenta con Gram negativo: Naegleria fowleri",
+    imagen: "flujogramas/rm-inf-053-neuroinfeccion-meningoencefalitis-amebiana-primaria.svg",
+    alt: "Flujograma: Sinusitis, baño en un lago y meningitis purulenta con Gram negativo: Naegleria fowleri"
+  },
+  "RM-INF-054": {
+    titulo: "Candida krusei en sangre y LCR con insuficiencia renal: anfotericina B liposomal",
+    imagen: "flujogramas/rm-inf-054-vih-candidiasis-invasiva-con-meningitis.svg",
+    alt: "Flujograma: Candida krusei en sangre y LCR con insuficiencia renal: anfotericina B liposomal"
+  },
+  "RM-NEU-019": {
+    titulo: "Neumonía con CURB-65 de 1 punto en un adulto sin comorbilidades: amoxicilina 1 g cada 8 horas",
+    imagen: "flujogramas/rm-neu-019-neumonia-adquirida-en-la-comunidad-tratamiento-empirico.svg",
+    alt: "Flujograma: Neumonía con CURB-65 de 1 punto en un adulto sin comorbilidades: amoxicilina 1 g cada 8 horas"
+  },
+  "RM-NEU-020": {
+    titulo: "CURB-65 de 3 o más: neumonía grave, hospitalizar y valorar cuidados intensivos",
+    imagen: "flujogramas/rm-neu-020-neumologia-curb-65-y-gravedad.svg",
+    alt: "Flujograma: CURB-65 de 3 o más: neumonía grave, hospitalizar y valorar cuidados intensivos"
+  },
+  "RM-INF-055": {
+    titulo: "Induración de 8 mm: positiva solo en inmunodeprimidos, como el niño con VIH",
+    imagen: "flujogramas/rm-inf-055-infectologia-prueba-de-tuberculina.svg",
+    alt: "Flujograma: Induración de 8 mm: positiva solo en inmunodeprimidos, como el niño con VIH"
+  },
+  "RM-GAS-012": {
+    titulo: "Pancreatitis aguda con signos de gravedad: la TC con contraste evalúa la gravedad local",
+    imagen: "flujogramas/rm-gas-012-gastroenterologia-imagen-en-la-pancreatitis-aguda.svg",
+    alt: "Flujograma: Pancreatitis aguda con signos de gravedad: la TC con contraste evalúa la gravedad local"
+  },
+  "RM-GAS-013": {
+    titulo: "Masa de cuerpo y cola de páncreas: el marcador más útil es el CA 19-9",
+    imagen: "flujogramas/rm-gas-013-oncologia-digestiva-marcador-del-cancer-de-pancreas.svg",
+    alt: "Flujograma: Masa de cuerpo y cola de páncreas: el marcador más útil es el CA 19-9"
+  },
+  "RM-CB-048": {
+    titulo: "La histamina actúa en el receptor H2 y eleva el AMPc de la célula parietal",
+    imagen: "flujogramas/rm-cb-048-fisiologia-regulacion-de-la-secrecion-acida.svg",
+    alt: "Flujograma: La histamina actúa en el receptor H2 y eleva el AMPc de la célula parietal"
+  },
+  "RM-GAS-014": {
+    titulo: "Masa epigástrica de 6 cm un mes después de una pancreatitis: pseudoquiste",
+    imagen: "flujogramas/rm-gas-014-gastroenterologia-colecciones-de-la-pancreatitis.svg",
+    alt: "Flujograma: Masa epigástrica de 6 cm un mes después de una pancreatitis: pseudoquiste"
+  },
+  "RM-GAS-015": {
+    titulo: "El colon es la localización más frecuente de pólipos digestivos",
+    imagen: "flujogramas/rm-gas-015-gastroenterologia-polipos-del-colon.svg",
+    alt: "Flujograma: El colon es la localización más frecuente de pólipos digestivos"
+  },
+  "RM-GAS-016": {
+    titulo: "En el adulto mayor la causa más frecuente de hemorragia digestiva baja es la diverticulosis",
+    imagen: "flujogramas/rm-gas-016-gastroenterologia-hemorragia-digestiva-baja.svg",
+    alt: "Flujograma: En el adulto mayor la causa más frecuente de hemorragia digestiva baja es la diverticulosis"
+  },
+  "RM-GAS-017": {
+    titulo: "La causa más frecuente de pancreatitis aguda es la biliar",
+    imagen: "flujogramas/rm-gas-017-gastroenterologia-etiologia-de-la-pancreatitis-aguda.svg",
+    alt: "Flujograma: La causa más frecuente de pancreatitis aguda es la biliar"
+  },
+  "RM-GAS-018": {
+    titulo: "Hemorragia digestiva alta por AINE: inhibidor de la bomba de protones",
+    imagen: "flujogramas/rm-gas-018-gastroenterologia-ulcera-por-aine.svg",
+    alt: "Flujograma: Hemorragia digestiva alta por AINE: inhibidor de la bomba de protones"
+  },
+  "RM-GAS-019": {
+    titulo: "En los hospitalizados con hemorragia digestiva alta, el origen más frecuente es la úlcera péptica",
+    imagen: "flujogramas/rm-gas-019-gastroenterologia-hemorragia-digestiva-alta.svg",
+    alt: "Flujograma: En los hospitalizados con hemorragia digestiva alta, el origen más frecuente es la úlcera péptica"
+  },
+  "RM-GAS-020": {
+    titulo: "Dolor epigástrico brusco con vómitos en un alcohólico: pancreatitis aguda",
+    imagen: "flujogramas/rm-gas-020-gastroenterologia-diagnostico-de-la-pancreatitis-aguda.svg",
+    alt: "Flujograma: Dolor epigástrico brusco con vómitos en un alcohólico: pancreatitis aguda"
+  },
+  "RM-CB-049": {
+    titulo: "La mucosa de la vesícula biliar está revestida por epitelio cilíndrico simple",
+    imagen: "flujogramas/rm-cb-049-histologia-vesicula-biliar.svg",
+    alt: "Flujograma: La mucosa de la vesícula biliar está revestida por epitelio cilíndrico simple"
+  },
+  "RM-GAS-021": {
+    titulo: "La causa más frecuente de hemorragia digestiva alta es la úlcera péptica",
+    imagen: "flujogramas/rm-gas-021-gastroenterologia-hemorragia-digestiva-alta.svg",
+    alt: "Flujograma: La causa más frecuente de hemorragia digestiva alta es la úlcera péptica"
+  },
+  "RM-GAS-022": {
+    titulo: "La acalasia es un trastorno motor del esófago",
+    imagen: "flujogramas/rm-gas-022-gastroenterologia-acalasia.svg",
+    alt: "Flujograma: La acalasia es un trastorno motor del esófago"
+  },
+  "RM-CIR-134": {
+    titulo: "Úlcera péptica con abdomen agudo: la radiografía de pie busca aire libre",
+    imagen: "flujogramas/rm-cir-134-cirugia-ulcera-peptica-perforada.svg",
+    alt: "Flujograma: Úlcera péptica con abdomen agudo: la radiografía de pie busca aire libre"
+  },
+  "RM-GAS-023": {
+    titulo: "Colección con gas, fiebre y leucocitosis a las 3 semanas de una pancreatitis: colección necrótica aguda infectada",
+    imagen: "flujogramas/rm-gas-023-gastroenterologia-complicacion-infecciosa-de-la-pancreatitis.svg",
+    alt: "Flujograma: Colección con gas, fiebre y leucocitosis a las 3 semanas de una pancreatitis: colección necrótica aguda infectada"
+  },
+  "RM-GAS-024": {
+    titulo: "Los ácidos biliares se reabsorben de forma activa en el íleon terminal y regresan al hígado por la porta",
+    imagen: "flujogramas/rm-gas-024-fisiologia-digestiva-circulacion-enterohepatica.svg",
+    alt: "Flujograma: Los ácidos biliares se reabsorben de forma activa en el íleon terminal y regresan al hígado por la porta"
+  },
+  "RM-GAS-025": {
+    titulo: "Anemia, hematoquesia y masa en fosa ilíaca derecha: la colonoscopía confirma y permite la biopsia",
+    imagen: "flujogramas/rm-gas-025-gastroenterologia-cancer-de-colon-derecho.svg",
+    alt: "Flujograma: Anemia, hematoquesia y masa en fosa ilíaca derecha: la colonoscopía confirma y permite la biopsia"
+  },
+  "RM-GAS-026": {
+    titulo: "Cinco criterios de Ranson (glucosa, LDH, calcio, déficit de bases y hematocrito) indican pancreatitis grave",
+    imagen: "flujogramas/rm-gas-026-gastroenterologia-pancreatitis-aguda-ranson.svg",
+    alt: "Flujograma: Cinco criterios de Ranson (glucosa, LDH, calcio, déficit de bases y hematocrito) indican pancreatitis grave"
+  },
+  "RM-CB-050": {
+    titulo: "Las células parietales secretan ácido clorhídrico y factor intrínseco",
+    imagen: "flujogramas/rm-cb-050-histologia-glandula-oxintica-del-estomago.svg",
+    alt: "Flujograma: Las células parietales secretan ácido clorhídrico y factor intrínseco"
+  },
+  "RM-CB-051": {
+    titulo: "La alfa-amilasa pancreática digiere el almidón y el glucógeno",
+    imagen: "flujogramas/rm-cb-051-fisiologia-digestiva-enzimas-del-pancreas.svg",
+    alt: "Flujograma: La alfa-amilasa pancreática digiere el almidón y el glucógeno"
+  },
+  "RM-GAS-027": {
+    titulo: "La hiperbilirrubinemia conjugada hereditaria benigna más típica es el síndrome de Dubin-Johnson",
+    imagen: "flujogramas/rm-gas-027-hepatologia-hiperbilirrubinemias-hereditarias.svg",
+    alt: "Flujograma: La hiperbilirrubinemia conjugada hereditaria benigna más típica es el síndrome de Dubin-Johnson"
+  },
+  "RM-GAS-028": {
+    titulo: "La manifestación extraintestinal más frecuente de la colitis ulcerosa es la artropatía",
+    imagen: "flujogramas/rm-gas-028-gastroenterologia-colitis-ulcerosa.svg",
+    alt: "Flujograma: La manifestación extraintestinal más frecuente de la colitis ulcerosa es la artropatía"
+  },
+  "RM-GAS-029": {
+    titulo: "Una úlcera gástrica del cuerpo más una duodenal es una úlcera de Johnson tipo II",
+    imagen: "flujogramas/rm-gas-029-cirugia-gastrica-clasificacion-de-johnson.svg",
+    alt: "Flujograma: Una úlcera gástrica del cuerpo más una duodenal es una úlcera de Johnson tipo II"
+  },
+  "RM-GAS-030": {
+    titulo: "Entre los factores que inducen dispepsia, los AINE son el mejor documentado",
+    imagen: "flujogramas/rm-gas-030-gastroenterologia-dispepsia.svg",
+    alt: "Flujograma: Entre los factores que inducen dispepsia, los AINE son el mejor documentado"
+  },
+  "RM-GAS-031": {
+    titulo: "La úlcera péptica es la causa más frecuente de hemorragia digestiva alta en el adulto",
+    imagen: "flujogramas/rm-gas-031-gastroenterologia-hemorragia-digestiva-alta.svg",
+    alt: "Flujograma: La úlcera péptica es la causa más frecuente de hemorragia digestiva alta en el adulto"
+  },
+  "RM-CB-052": {
+    titulo: "Las catecolaminas, por estimulación adrenérgica, aumentan la secreción de gastrina",
+    imagen: "flujogramas/rm-cb-052-fisiologia-gastrica-regulacion-de-la-gastrina.svg",
+    alt: "Flujograma: Las catecolaminas, por estimulación adrenérgica, aumentan la secreción de gastrina"
+  },
+  "RM-GAS-032": {
+    titulo: "En la primera semana de la pancreatitis grave la muerte se debe a la falla multiorgánica",
+    imagen: "flujogramas/rm-gas-032-gastroenterologia-pancreatitis-aguda-grave.svg",
+    alt: "Flujograma: En la primera semana de la pancreatitis grave la muerte se debe a la falla multiorgánica"
+  },
+  "RM-GAS-033": {
+    titulo: "El síndrome de Mallory-Weiss es un desgarro en la unión gastroesofágica",
+    imagen: "flujogramas/rm-gas-033-gastroenterologia-sindrome-de-mallory-weiss.svg",
+    alt: "Flujograma: El síndrome de Mallory-Weiss es un desgarro en la unión gastroesofágica"
+  },
+  "RM-GAS-034": {
+    titulo: "Disfagia alta, halitosis y regurgitación de alimento sin digerir en un anciano: divertículo de Zenker",
+    imagen: "flujogramas/rm-gas-034-gastroenterologia-diverticulo-de-zenker.svg",
+    alt: "Flujograma: Disfagia alta, halitosis y regurgitación de alimento sin digerir en un anciano: divertículo de Zenker"
+  },
+  "RM-GAS-035": {
+    titulo: "Úlceras duodenales múltiples, diarrea, hipercalcemia y tumor hipofisario: Zollinger-Ellison por MEN1",
+    imagen: "flujogramas/rm-gas-035-endocrinologia-digestiva-zollinger-ellison-y-men1.svg",
+    alt: "Flujograma: Úlceras duodenales múltiples, diarrea, hipercalcemia y tumor hipofisario: Zollinger-Ellison por MEN1"
+  },
+  "RM-CIR-135": {
+    titulo: "La fisura anal crónica se ubica con más frecuencia en la línea media posterior",
+    imagen: "flujogramas/rm-cir-135-cirugia-colorrectal-fisura-anal.svg",
+    alt: "Flujograma: La fisura anal crónica se ubica con más frecuencia en la línea media posterior"
+  },
+  "RM-CIR-136": {
+    titulo: "Colangitis aguda con hipotensión y coledocolitiasis: drenaje biliar urgente con CPRE",
+    imagen: "flujogramas/rm-cir-136-cirugia-biliar-colangitis-aguda.svg",
+    alt: "Flujograma: Colangitis aguda con hipotensión y coledocolitiasis: drenaje biliar urgente con CPRE"
+  },
+  "RM-CIR-137": {
+    titulo: "Tumor carcinoide de 2 cm con invasión del meso: se amplía la resección con hemicolectomía derecha",
+    imagen: "flujogramas/rm-cir-137-cirugia-tumor-neuroendocrino-del-apendice.svg",
+    alt: "Flujograma: Tumor carcinoide de 2 cm con invasión del meso: se amplía la resección con hemicolectomía derecha"
+  },
+  "RM-CIR-138": {
+    titulo: "Para buscar metástasis en el cáncer gástrico, el estudio de elección es la tomografía helicoidal",
+    imagen: "flujogramas/rm-cir-138-cirugia-estadificacion-del-cancer-gastrico.svg",
+    alt: "Flujograma: Para buscar metástasis en el cáncer gástrico, el estudio de elección es la tomografía helicoidal"
+  },
+  "RM-GAS-036": {
+    titulo: "La amilasa se eleva en las primeras 2 a 12 horas de la pancreatitis aguda, pero no es específica",
+    imagen: "flujogramas/rm-gas-036-gastroenterologia-cinetica-de-la-amilasa.svg",
+    alt: "Flujograma: La amilasa se eleva en las primeras 2 a 12 horas de la pancreatitis aguda, pero no es específica"
+  },
+  "RM-CB-053": {
+    titulo: "Las células parietales de las glándulas del cuerpo y del fondo gástricos secretan ácido clorhídrico",
+    imagen: "flujogramas/rm-cb-053-fisiologia-secrecion-gastrica-de-acido.svg",
+    alt: "Flujograma: Las células parietales de las glándulas del cuerpo y del fondo gástricos secretan ácido clorhídrico"
+  },
+  "RM-CB-054": {
+    titulo: "La pepsina, activada por el ácido a partir del pepsinógeno, inicia la digestión de las proteínas",
+    imagen: "flujogramas/rm-cb-054-fisiologia-digestion-de-proteinas.svg",
+    alt: "Flujograma: La pepsina, activada por el ácido a partir del pepsinógeno, inicia la digestión de las proteínas"
+  },
+  "RM-GAS-037": {
+    titulo: "En una endoscopía por molestias digestivas, lo que se busca para prevenir el cáncer gástrico es Helicobacter pylori",
+    imagen: "flujogramas/rm-gas-037-gastroenterologia-h-pylori-y-prevencion.svg",
+    alt: "Flujograma: En una endoscopía por molestias digestivas, lo que se busca para prevenir el cáncer gástrico es Helicobacter pylori"
+  },
+  "RM-GAS-038": {
+    titulo: "El factor de riesgo del cáncer gástrico es la infección por Helicobacter pylori",
+    imagen: "flujogramas/rm-gas-038-gastroenterologia-factores-de-riesgo-del-cancer-gastrico.svg",
+    alt: "Flujograma: El factor de riesgo del cáncer gástrico es la infección por Helicobacter pylori"
+  },
+  "RM-GAS-039": {
+    titulo: "Dolor que mejora al defecar y cambios en el ritmo y la forma de las heces: síndrome de intestino irritable",
+    imagen: "flujogramas/rm-gas-039-gastroenterologia-sindrome-de-intestino-irritable.svg",
+    alt: "Flujograma: Dolor que mejora al defecar y cambios en el ritmo y la forma de las heces: síndrome de intestino irritable"
+  },
+  "RM-CB-055": {
+    titulo: "La célula parietal transporta H+ con la bomba H+/K+ ATPasa y Cl- por canales: forma el ácido clorhídrico",
+    imagen: "flujogramas/rm-cb-055-fisiologia-secrecion-de-hcl.svg",
+    alt: "Flujograma: La célula parietal transporta H+ con la bomba H+/K+ ATPasa y Cl- por canales: forma el ácido clorhídrico"
+  },
+  "RM-GAS-040": {
+    titulo: "La diarrea se define por 3 o más deposiciones líquidas al día o heces mal formadas de más de 200 g al día",
+    imagen: "flujogramas/rm-gas-040-gastroenterologia-definicion-de-diarrea.svg",
+    alt: "Flujograma: La diarrea se define por 3 o más deposiciones líquidas al día o heces mal formadas de más de 200 g al día"
+  },
+  "RM-GIN-030": {
+    titulo: "La enfermedad inflamatoria pélvica se transmite sobre todo por vía ascendente desde el cérvix",
+    imagen: "flujogramas/rm-gin-030-ginecologia-via-de-propagacion-de-la-eip.svg",
+    alt: "Flujograma: La enfermedad inflamatoria pélvica se transmite sobre todo por vía ascendente desde el cérvix"
+  },
+  "RM-GIN-031": {
+    titulo: "El pubococcígeo es uno de los tres fascículos del músculo elevador del ano",
+    imagen: "flujogramas/rm-gin-031-anatomia-diafragma-pelvico.svg",
+    alt: "Flujograma: El pubococcígeo es uno de los tres fascículos del músculo elevador del ano"
+  },
+  "RM-GIN-032": {
+    titulo: "El ovocito puede fecundarse hasta 1 día después de la ovulación; el espermatozoide, hasta 5 días",
+    imagen: "flujogramas/rm-gin-032-ginecologia-ventana-fertil.svg",
+    alt: "Flujograma: El ovocito puede fecundarse hasta 1 día después de la ovulación; el espermatozoide, hasta 5 días"
+  },
+  "RM-GIN-033": {
+    titulo: "La tercera maniobra de Leopold (Pawlik) determina cuál es la parte fetal que se presenta",
+    imagen: "flujogramas/rm-gin-033-obstetricia-maniobras-de-leopold.svg",
+    alt: "Flujograma: La tercera maniobra de Leopold (Pawlik) determina cuál es la parte fetal que se presenta"
+  },
+  "RM-GIN-034": {
+    titulo: "El histerocele total compromete el nivel I de DeLancey: los ligamentos cardinales y uterosacros",
+    imagen: "flujogramas/rm-gin-034-ginecologia-soporte-apical-y-prolapso.svg",
+    alt: "Flujograma: El histerocele total compromete el nivel I de DeLancey: los ligamentos cardinales y uterosacros"
+  },
+  "RM-GIN-035": {
+    titulo: "La incontinencia de urgencia se caracteriza por contracciones involuntarias del detrusor",
+    imagen: "flujogramas/rm-gin-035-ginecologia-incontinencia-urinaria-de-urgencia.svg",
+    alt: "Flujograma: La incontinencia de urgencia se caracteriza por contracciones involuntarias del detrusor"
+  },
+  "RM-GIN-036": {
+    titulo: "Con LTV de 7 cm y el punto Ba en +4, el cistocele es estadio III de la clasificación POP-Q",
+    imagen: "flujogramas/rm-gin-036-ginecologia-prolapso-de-organos-pelvicos.svg",
+    alt: "Flujograma: Con LTV de 7 cm y el punto Ba en +4, el cistocele es estadio III de la clasificación POP-Q"
+  },
+  "RM-GIN-037": {
+    titulo: "Amenorrea, hCG positiva, sangrado y shock: embarazo ectópico roto con hemoperitoneo",
+    imagen: "flujogramas/rm-gin-037-obstetricia-embarazo-ectopico-complicado.svg",
+    alt: "Flujograma: Amenorrea, hCG positiva, sangrado y shock: embarazo ectópico roto con hemoperitoneo"
+  },
+  "RM-GIN-038": {
+    titulo: "Un endometrio proliferativo indica que no hay embarazo activo y excluye la laparoscopia",
+    imagen: "flujogramas/rm-gin-038-obstetricia-histologia-del-legrado-y-ectopico.svg",
+    alt: "Flujograma: Un endometrio proliferativo indica que no hay embarazo activo y excluye la laparoscopia"
+  },
+  "RM-GIN-039": {
+    titulo: "Traumatismo abdominal, sangrado oscuro y útero irritable a las 31 semanas: desprendimiento de placenta",
+    imagen: "flujogramas/rm-gin-039-obstetricia-desprendimiento-prematuro-de-placenta.svg",
+    alt: "Flujograma: Traumatismo abdominal, sangrado oscuro y útero irritable a las 31 semanas: desprendimiento de placenta"
+  },
+  "RM-GIN-040": {
+    titulo: "Sangrado indoloro tras el coito a las 34 semanas, con útero blando: placenta previa",
+    imagen: "flujogramas/rm-gin-040-obstetricia-sangrado-del-tercer-trimestre.svg",
+    alt: "Flujograma: Sangrado indoloro tras el coito a las 34 semanas, con útero blando: placenta previa"
+  },
+  "RM-GIN-041": {
+    titulo: "Dolor intenso, sangrado vinoso e hipertonía a las 38 semanas con PA 140/90: desprendimiento de placenta",
+    imagen: "flujogramas/rm-gin-041-obstetricia-triada-del-desprendimiento.svg",
+    alt: "Flujograma: Dolor intenso, sangrado vinoso e hipertonía a las 38 semanas con PA 140/90: desprendimiento de placenta"
+  },
+  "RM-GIN-042": {
+    titulo: "El síntoma característico de la placenta previa es el sangrado vaginal indoloro",
+    imagen: "flujogramas/rm-gin-042-obstetricia-placenta-previa-sintoma-cardinal.svg",
+    alt: "Flujograma: El síntoma característico de la placenta previa es el sangrado vaginal indoloro"
+  },
+  "RM-GIN-043": {
+    titulo: "Sangrado indoloro a las 35 semanas: hospitalizar y pedir ecografía antes de cualquier tacto",
+    imagen: "flujogramas/rm-gin-043-obstetricia-primera-conducta-ante-sangrado-del-tercer-trimestre.svg",
+    alt: "Flujograma: Sangrado indoloro a las 35 semanas: hospitalizar y pedir ecografía antes de cualquier tacto"
+  },
+  "RM-GIN-044": {
+    titulo: "Pirámide nasal centrada al tacto en el trabajo de parto: presentación de frente",
+    imagen: "flujogramas/rm-gin-044-obstetricia-presentaciones-cefalicas-deflexionadas.svg",
+    alt: "Flujograma: Pirámide nasal centrada al tacto en el trabajo de parto: presentación de frente"
+  },
+  "RM-GIN-045": {
+    titulo: "Lesión cervical sangrante y friable de 2 cm: colposcopía con biopsia dirigida, no solo Papanicolaou",
+    imagen: "flujogramas/rm-gin-045-ginecologia-lesion-visible-del-cuello-uterino.svg",
+    alt: "Flujograma: Lesión cervical sangrante y friable de 2 cm: colposcopía con biopsia dirigida, no solo Papanicolaou"
+  },
+  "RM-GIN-046": {
+    titulo: "El cuadrante superior externo concentra cerca de la mitad de los cánceres de mama",
+    imagen: "flujogramas/rm-gin-046-mastologia-localizacion-del-cancer-de-mama.svg",
+    alt: "Flujograma: El cuadrante superior externo concentra cerca de la mitad de los cánceres de mama"
+  },
+  "RM-GIN-047": {
+    titulo: "Secreción serosanguinolenta y masa sólida de 2 cm a los 62 años: cáncer de mama hasta demostrar lo contrario",
+    imagen: "flujogramas/rm-gin-047-mastologia-secrecion-por-el-pezon-y-masa-mamaria.svg",
+    alt: "Flujograma: Secreción serosanguinolenta y masa sólida de 2 cm a los 62 años: cáncer de mama hasta demostrar lo contrario"
+  },
+  "RM-GIN-048": {
+    titulo: "El dolor pélvico cíclico, con dispareunia profunda e infertilidad, es sobre todo endometriosis",
+    imagen: "flujogramas/rm-gin-048-ginecologia-dolor-pelvico-ciclico.svg",
+    alt: "Flujograma: El dolor pélvico cíclico, con dispareunia profunda e infertilidad, es sobre todo endometriosis"
+  },
+  "RM-GIN-049": {
+    titulo: "Tumor anexial sólido y bilobulado en una mujer de 52 años: cáncer de ovario hasta demostrar lo contrario",
+    imagen: "flujogramas/rm-gin-049-ginecologia-masa-anexial-posmenopausica.svg",
+    alt: "Flujograma: Tumor anexial sólido y bilobulado en una mujer de 52 años: cáncer de ovario hasta demostrar lo contrario"
+  },
+  "RM-GIN-050": {
+    titulo: "Un patrón sinusoidal es por sí solo una categoría III y obliga a actuar con urgencia",
+    imagen: "flujogramas/rm-gin-050-obstetricia-monitoreo-fetal-intraparto-categoria-iii.svg",
+    alt: "Flujograma: Un patrón sinusoidal es por sí solo una categoría III y obliga a actuar con urgencia"
+  },
+  "RM-GIN-051": {
+    titulo: "Sangrado profuso con coágulos, cuello abierto y PA 80/60 a las 8 semanas: aborto incompleto",
+    imagen: "flujogramas/rm-gin-051-obstetricia-aborto-incompleto-inestable.svg",
+    alt: "Flujograma: Sangrado profuso con coágulos, cuello abierto y PA 80/60 a las 8 semanas: aborto incompleto"
+  },
+  "RM-GIN-052": {
+    titulo: "La protrusión de la bolsa amniótica por el cuello es el aborto inminente",
+    imagen: "flujogramas/rm-gin-052-obstetricia-aborto-inminente.svg",
+    alt: "Flujograma: La protrusión de la bolsa amniótica por el cuello es el aborto inminente"
+  },
+  "RM-GIN-053": {
+    titulo: "El signo principal de la amenaza de aborto es el sangrado vaginal con cuello cerrado",
+    imagen: "flujogramas/rm-gin-053-obstetricia-amenaza-de-aborto.svg",
+    alt: "Flujograma: El signo principal de la amenaza de aborto es el sangrado vaginal con cuello cerrado"
+  },
+  "RM-GIN-054": {
+    titulo: "En la gran multípara la hipotonía uterina es la causa más frecuente de hemorragia posparto (cerca de 70 %)",
+    imagen: "flujogramas/rm-gin-054-obstetricia-hemorragia-posparto.svg",
+    alt: "Flujograma: En la gran multípara la hipotonía uterina es la causa más frecuente de hemorragia posparto (cerca de 70 %)"
+  },
+  "RM-GIN-055": {
+    titulo: "Primigesta a término con feto podálico: cesárea programada a las 39 semanas",
+    imagen: "flujogramas/rm-gin-055-obstetricia-presentacion-podalica.svg",
+    alt: "Flujograma: Primigesta a término con feto podálico: cesárea programada a las 39 semanas"
+  },
+  "RM-GIN-056": {
+    titulo: "En la posmenopausia el estrógeno predominante es la estrona, formada en la grasa a partir de androstenediona",
+    imagen: "flujogramas/rm-gin-056-endocrinologia-ginecologica-estrogenos.svg",
+    alt: "Flujograma: En la posmenopausia el estrógeno predominante es la estrona, formada en la grasa a partir de androstenediona"
+  },
+  "RM-GIN-057": {
+    titulo: "El mioma submucoso es el que más sangra: distorsiona la cavidad y amplía la superficie sangrante",
+    imagen: "flujogramas/rm-gin-057-ginecologia-miomas-y-sangrado-uterino.svg",
+    alt: "Flujograma: El mioma submucoso es el que más sangra: distorsiona la cavidad y amplía la superficie sangrante"
+  },
+  "RM-GIN-058": {
+    titulo: "La ecografía transvaginal es el método inicial y más usado para diagnosticar miomas, incluido el subseroso",
+    imagen: "flujogramas/rm-gin-058-ginecologia-imagen-del-mioma.svg",
+    alt: "Flujograma: La ecografía transvaginal es el método inicial y más usado para diagnosticar miomas, incluido el subseroso"
+  },
+  "RM-GIN-059": {
+    titulo: "En la distocia de hombros la maniobra de Zavanelli reintroduce la cabeza fetal en la pelvis para una cesárea de rescate",
+    imagen: "flujogramas/rm-gin-059-obstetricia-distocia-de-hombros.svg",
+    alt: "Flujograma: En la distocia de hombros la maniobra de Zavanelli reintroduce la cabeza fetal en la pelvis para una cesárea de rescate"
+  },
+  "RM-GIN-060": {
+    titulo: "La ruptura prematura de membranas es la rotura del corion y amnios antes del inicio del trabajo de parto",
+    imagen: "flujogramas/rm-gin-060-obstetricia-ruptura-prematura-de-membranas.svg",
+    alt: "Flujograma: La ruptura prematura de membranas es la rotura del corion y amnios antes del inicio del trabajo de parto"
+  },
+  "RM-GIN-061": {
+    titulo: "En la presentación pélvica la complicación más frecuente es el prolapso del cordón umbilical",
+    imagen: "flujogramas/rm-gin-061-obstetricia-prolapso-de-cordon.svg",
+    alt: "Flujograma: En la presentación pélvica la complicación más frecuente es el prolapso del cordón umbilical"
+  },
+  "RM-GIN-062": {
+    titulo: "El teratoma quístico maduro es el tumor ovárico de células germinales más frecuente",
+    imagen: "flujogramas/rm-gin-062-ginecologia-oncologica-tumores-ovaricos.svg",
+    alt: "Flujograma: El teratoma quístico maduro es el tumor ovárico de células germinales más frecuente"
+  },
+  "RM-GIN-063": {
+    titulo: "Tumoración dolorosa de 4 x 3 cm con flogosis en el labio mayor: absceso del quiste de Bartholino",
+    imagen: "flujogramas/rm-gin-063-ginecologia-glandula-de-bartholino.svg",
+    alt: "Flujograma: Tumoración dolorosa de 4 x 3 cm con flogosis en el labio mayor: absceso del quiste de Bartholino"
+  },
+  "RM-GIN-064": {
+    titulo: "Hematocrito de 31 % con VCM, HCM y CHCM bajos en la semana 28: anemia microcítica hipocrómica ferropénica",
+    imagen: "flujogramas/rm-gin-064-obstetricia-anemia-del-embarazo.svg",
+    alt: "Flujograma: Hematocrito de 31 % con VCM, HCM y CHCM bajos en la semana 28: anemia microcítica hipocrómica ferropénica"
+  },
+  "RM-GIN-065": {
+    titulo: "El tamizaje de Down se hace con la traslucencia nucal entre las 11 y 14 semanas, con PAPP-A y β-hCG libre",
+    imagen: "flujogramas/rm-gin-065-obstetricia-tamizaje-de-trisomia-21.svg",
+    alt: "Flujograma: El tamizaje de Down se hace con la traslucencia nucal entre las 11 y 14 semanas, con PAPP-A y β-hCG libre"
+  },
+  "RM-GIN-066": {
+    titulo: "Pérdida de líquido a las 32 semanas con cuello cerrado y contracciones aisladas: ruptura prematura de membranas",
+    imagen: "flujogramas/rm-gin-066-obstetricia-rpm-pretermino.svg",
+    alt: "Flujograma: Pérdida de líquido a las 32 semanas con cuello cerrado y contracciones aisladas: ruptura prematura de membranas"
+  },
+  "RM-GIN-067": {
+    titulo: "Hipertensa crónica de 36 semanas con 155/95 mmHg: alfametildopa, la primera elección clásica entre las opciones",
+    imagen: "flujogramas/rm-gin-067-obstetricia-hipertension-cronica-del-embarazo.svg",
+    alt: "Flujograma: Hipertensa crónica de 36 semanas con 155/95 mmHg: alfametildopa, la primera elección clásica entre las opciones"
+  },
+  "RM-GIN-068": {
+    titulo: "Los inhibidores de la ECA están contraindicados en el embarazo por la fetopatía renal e hipoplasia pulmonar",
+    imagen: "flujogramas/rm-gin-068-farmacologia-antihipertensivos-en-el-embarazo.svg",
+    alt: "Flujograma: Los inhibidores de la ECA están contraindicados en el embarazo por la fetopatía renal e hipoplasia pulmonar"
+  }
 };

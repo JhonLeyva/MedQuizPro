@@ -1,0 +1,22 @@
+{
+ "pmcid": "PMC13613316",
+ "titulo": "Development and Validation of a CT-based Deep Transfer Learning Radiomic Model for Predicting Post-COVID-19 Pulmonary Fibrosis",
+ "autores": [
+  "Wang",
+  "Huang",
+  "Li",
+  "Lei",
+  "Fan"
+ ],
+ "revista": "Current Medical Imaging",
+ "anio": "2026",
+ "licencia": "CC BY 4.0",
+ "lic_url": "https://creativecommons.org/licenses/by/4.0/",
+ "fig": {
+  "label": "Fig. (2)",
+  "caption": "Imaging findings in an 82-year-old female with persistent pulmonary fibrosis. (A) Unenhanced axial CT during acute infection (10 days after symptom onset) reveals bilateral diffuse ground-glass opacities and partial consolidations. (B) Follow-up unenhanced axial CT at 28 days post-infection shows partial resolution of bilateral pulmonary lesions. (C, D) CT images obtained at 8 and 12 months post-infection display localized bronchiectasis (black arrows) in the anteromedial basal segment of the left lower lobe, with residual ground-glass opacities and reticular patterns in the background.",
+  "href": "CMIM-22-E15734056441273_F2.webp"
+ },
+ "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13613316.1/CMIM-22-E15734056441273_F2.webp",
+ "credito": "Wang et al. · Current Medical Imaging 2026 · PMC13613316 (PubMed Central) · CC BY 4.0"
+}

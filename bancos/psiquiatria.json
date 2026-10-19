@@ -849,6 +849,28 @@
       "comentario": "El cuadro es inconfundible una vez que unes el fármaco con los signos. Empezó haloperidol hace tres días, un neuroléptico potente, y ahora tiene el cuello torcido de forma dolorosa e involuntaria, los ojos desviados hacia arriba y la lengua protruyendo con dificultad para hablar. Esa tríada de tortícolis, crisis oculógira y afectación de la lengua es una distonía aguda, una reacción extrapiramidal precoz que aparece porque el bloqueo brusco de la dopamina deja al sistema colinérgico del cerebro sin contrapeso, y ese exceso relativo de acetilcolina desencadena las contracciones distónicas. La lógica del tratamiento se cae por su propio peso: si el problema es un predominio colinérgico, la solución es un anticolinérgico que restablezca el equilibrio, y el de elección para esto es el biperideno, que corta la distonía en minutos. La levodopa hace lo contrario de lo necesario en salud mental: aporta más dopamina y en un paciente psicótico puede reactivar las alucinaciones y el delirio, así que no se usa aquí. El clonazepam es una benzodiacepina que puede servir como coadyuvante para la ansiedad o en distonías refractarias, pero no es el tratamiento de primera línea porque no corrige el desequilibrio dopamina-acetilcolina que causa el cuadro. La orfenadrina también tiene acción anticolinérgica, pero el fármaco de primera elección disponible y estandarizado para la distonía aguda por neurolépticos es el biperideno. Tortícolis + crisis oculógira + protrusión lingual poco después de iniciar haloperidol = distonía aguda por bloqueo dopaminérgico con predominio colinérgico. Se trata con un anticolinérgico, el biperideno, de primera elección; la levodopa reactivaría la psicosis.",
       "tema": "Distonía aguda por haloperidol: biperideno",
       "año": 2026
+    },
+    {
+      "id": "RM-PSI-001",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Adolescente de 13 años con IMC de 15, hospitalizada por deshidratación y desnutrición. La madre refiere que su hija con frecuencia se provoca vómitos. ¿Cuál es el trastorno del medio interno?",
+      "opciones": [
+        "Alcalosis hipoclorémica.",
+        "Acidosis hiperpotasémica.",
+        "Acidosis metabólica.",
+        "Acidosis hipoclorémica.",
+        "Alcalosis hiperclorémica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los vómitos autoinducidos pierden ácido clorhídrico gástrico, es decir H+ y Cl-. El resultado es una alcalosis metabólica hipoclorémica con hipopotasemia: la contracción de volumen activa el sistema renina-angiotensina-aldosterona, que reabsorbe sodio y bicarbonato y pierde potasio, y al ser el cloro bajo la alcalosis se mantiene y responde a cloruro (cloro urinario bajo, menor de 20 mEq/L). En la bulimia y la anorexia purgativa también hay hipomagnesemia e hipofosfatemia, y debe vigilarse el síndrome de realimentación. La acidosis metabólica aparece más bien con el abuso de laxantes, que pierden bicarbonato por la diarrea. La acidosis hiperpotasémica y la alcalosis hiperclorémica no corresponden a la pérdida gástrica. El tratamiento es reponer volumen con solución salina y potasio y manejo psiquiátrico. Perla: el signo de Russell (callosidades en el dorso de la mano) y la hipertrofia parotídea orientan a purga crónica.",
+      "comentario": "Los vómitos autoinducidos pierden ácido clorhídrico gástrico, es decir H+ y Cl-. El resultado es una alcalosis metabólica hipoclorémica con hipopotasemia: la contracción de volumen activa el sistema renina-angiotensina-aldosterona, que reabsorbe sodio y bicarbonato y pierde potasio, y al ser el cloro bajo la alcalosis se mantiene y responde a cloruro (cloro urinario bajo, menor de 20 mEq/L). En la bulimia y la anorexia purgativa también hay hipomagnesemia e hipofosfatemia, y debe vigilarse el síndrome de realimentación. La acidosis metabólica aparece más bien con el abuso de laxantes, que pierden bicarbonato por la diarrea. La acidosis hiperpotasémica y la alcalosis hiperclorémica no corresponden a la pérdida gástrica. El tratamiento es reponer volumen con solución salina y potasio y manejo psiquiátrico. Perla: el signo de Russell (callosidades en el dorso de la mano) y la hipertrofia parotídea orientan a purga crónica.",
+      "tema": "Trastorno hidroelectrolítico en bulimia con vómitos",
+      "año": 2017,
+      "fuentes": "APA, Guía de trastornos de la conducta alimentaria (2023); Hornberger et al., AAP, Identification and Management of Eating Disorders in Children and Adolescents (Pediatrics 2021)",
+      "categoria": "Trastornos alimentarios",
+      "nota_revision": "El enunciado y las opciones llegaron fusionados por OCR; se separaron. Clave A confirmada por la hoja del libro."
     }
   ]
 }

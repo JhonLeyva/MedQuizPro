@@ -5440,6 +5440,173 @@
       "comentario": "La clave es no quedarse en la infección de la piel y reconocer que los exámenes dibujan un síndrome muy concreto. Reunamos las alteraciones de este niño que tuvo una infección: tiene los glóbulos blancos bajos y las plaquetas bajas, es decir dos líneas de la sangre disminuidas, lo que se llama citopenias; tiene las transaminasas muy elevadas, o sea el hígado inflamado; y tiene los triglicéridos altos. Fiebre prolongada, más citopenias en dos o tres líneas, más transaminasas altas, más triglicéridos elevados, todo desencadenado por una infección, es el patrón del síndrome hemofagocítico, en su forma secundaria, gatillada por un proceso infeccioso. Es una respuesta inmune descontrolada en la que las células defensoras se activan de forma exagerada y empiezan a devorar las células de la sangre, lo que explica la caída de las series y el compromiso del hígado. Por eso es el diagnóstico más probable. La leucemia linfoblástica aguda también puede dar citopenias, pero típicamente se acompaña de células inmaduras, los blastos, en la sangre, y no explica de forma característica esta combinación con triglicéridos altos y transaminasas tan elevadas en el contexto de una infección reciente. La aplasia medular produce el descenso de las tres series por una médula que deja de producir, pero no da la hipertrigliceridemia ni el compromiso hepático que definen este síndrome. La hepatitis viral aguda explicaría las transaminasas altas, pero no las citopenias ni los triglicéridos elevados; lo que reúne todos los hallazgos, fiebre, citopenias, hígado comprometido y triglicéridos altos tras una infección, es el síndrome hemofagocítico secundario. Fiebre persistente + citopenias en dos o más líneas + transaminasas muy elevadas + hipertrigliceridemia, desencadenados por una infección = síndrome hemofagocítico secundario (activación inmune descontrolada que fagocita las células sanguíneas). La leucemia mostraría blastos y la aplasia no da hipertrigliceridemia ni compromiso hepático.",
       "tema": "Síndrome hemofagocítico secundario a infección",
       "año": 2026
+    },
+    {
+      "id": "RM-PED-001",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "En un lactante pequeño, ¿qué signos y síntomas son sospecha de insuficiencia cardiaca?",
+      "opciones": [
+        "Disnea y sudoración profusa al lactar.",
+        "Hepatomegalia y distensión abdominal.",
+        "Crepitantes y polipnea.",
+        "Irritabilidad y cardiomegalia.",
+        "Politirajes y aleteo nasal."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el lactante la alimentación es el «ejercicio» que desencadena los síntomas: la insuficiencia cardiaca se manifiesta por disnea, sudoración profusa y cansancio durante la lactancia, tomas cortas y repetidas, mala ganancia de peso, taquipnea y taquicardia persistentes y hepatomegalia. A diferencia del adulto, la ortopnea y el edema de miembros son raros. Las causas más frecuentes son las cardiopatías congénitas con cortocircuito izquierda-derecha (comunicación interventricular, ductus arterioso persistente, canal auriculoventricular) que se hacen sintomáticas cuando baja la resistencia pulmonar (4-8 semanas); en las dos primeras semanas se piensa en lesiones ductodependientes (coartación crítica, hipoplasia de cavidades izquierdas). En adultos predominan la cardiopatía isquémica y la hipertensiva. Tratamiento: diuréticos, IECA, y corrección quirúrgica o percutánea.",
+      "comentario": "En el lactante la alimentación es el «ejercicio» que desencadena los síntomas: la insuficiencia cardiaca se manifiesta por disnea, sudoración profusa y cansancio durante la lactancia, tomas cortas y repetidas, mala ganancia de peso, taquipnea y taquicardia persistentes y hepatomegalia. A diferencia del adulto, la ortopnea y el edema de miembros son raros. Las causas más frecuentes son las cardiopatías congénitas con cortocircuito izquierda-derecha (comunicación interventricular, ductus arterioso persistente, canal auriculoventricular) que se hacen sintomáticas cuando baja la resistencia pulmonar (4-8 semanas); en las dos primeras semanas se piensa en lesiones ductodependientes (coartación crítica, hipoplasia de cavidades izquierdas). En adultos predominan la cardiopatía isquémica y la hipertensiva. Tratamiento: diuréticos, IECA, y corrección quirúrgica o percutánea.",
+      "tema": "Insuficiencia cardiaca en el lactante",
+      "año": 2014,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; AHA/ACC, cardiopatías congénitas del adulto (2018)"
+    },
+    {
+      "id": "RM-PED-002",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la malformación anorrectal más frecuente en varones?",
+      "opciones": [
+        "Fístula rectovesical.",
+        "Fístula rectouretral prostática.",
+        "Fístula rectouretral bulbar.",
+        "Fístula cutánea perineal.",
+        "Ano imperforado sin fístula."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las malformaciones anorrectales se clasifican según la fístula (Pena). En varones, la forma más frecuente es la fístula rectouretral (bulbar la más común), seguida, según la serie, de la fístula rectouretral prostática o de la perineal (cutánea); la rectovesical es rara. En niñas, la forma más frecuente es la fístula rectovestibular. El 50-60 % se asocia a otras anomalías (síndrome VACTERL: vertebrales, anales, cardiacas, traqueoesofágicas, renales y de extremidades), por eso se estudia con ecografía renal, ecocardiograma y radiografía de columna. El diagnóstico es clínico (examen perineal), con meconio por la orina en las fístulas urinarias. Las formas bajas (fístula perineal) se corrigen con anoplastía en el periodo neonatal; las altas, con colostomía descompresiva y anorrectoplastia sagital posterior (Peña) a los 2-3 meses.",
+      "comentario": "Las malformaciones anorrectales se clasifican según la fístula (Pena). En varones, la forma más frecuente es la fístula rectouretral (bulbar la más común), seguida, según la serie, de la fístula rectouretral prostática o de la perineal (cutánea); la rectovesical es rara. En niñas, la forma más frecuente es la fístula rectovestibular. El 50-60 % se asocia a otras anomalías (síndrome VACTERL: vertebrales, anales, cardiacas, traqueoesofágicas, renales y de extremidades), por eso se estudia con ecografía renal, ecocardiograma y radiografía de columna. El diagnóstico es clínico (examen perineal), con meconio por la orina en las fístulas urinarias. Las formas bajas (fístula perineal) se corrigen con anoplastía en el periodo neonatal; las altas, con colostomía descompresiva y anorrectoplastia sagital posterior (Peña) a los 2-3 meses.",
+      "tema": "Malformación anorrectal más frecuente en varones",
+      "año": 2017,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; Sociedad Europea de Cirugía Pediátrica (EUPSA), malformaciones anorrectales; Pena y de Vries (2017)"
+    },
+    {
+      "id": "RM-PED-003",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Recién nacido de 4 semanas con vómitos en «proyectil»; le diagnostican estenosis hipertrófica del píloro. ¿Cuál es el tratamiento quirúrgico de elección?",
+      "opciones": [
+        "Piloromiotomía laparoscópica.",
+        "Esofagostomía.",
+        "Gastroduodenoanastomosis.",
+        "Gastrectomía distal.",
+        "Gastrostomía."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La estenosis hipertrófica del píloro aparece entre las 2 y 8 semanas de vida, con vómitos no biliosos «en proyectil» después de cada toma, el lactante con hambre voraz, pérdida de peso, deshidratación y alcalosis metabólica hipoclorémica con hipopotasemia. A la exploración se palpa la «oliva pilórica» y se observan ondas peristálticas. La ecografía confirma: grosor muscular ≥ 3-4 mm y longitud del canal pilórico ≥ 15-17 mm. Primero se corrige el desequilibrio hidroelectrolítico (solución salina con dextrosa y potasio) y luego se hace la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, con alimentación precoz y curación definitiva. Más frecuente en varones primogénitos; se asocia al uso de eritromicina en las primeras semanas.",
+      "comentario": "La estenosis hipertrófica del píloro aparece entre las 2 y 8 semanas de vida, con vómitos no biliosos «en proyectil» después de cada toma, el lactante con hambre voraz, pérdida de peso, deshidratación y alcalosis metabólica hipoclorémica con hipopotasemia. A la exploración se palpa la «oliva pilórica» y se observan ondas peristálticas. La ecografía confirma: grosor muscular ≥ 3-4 mm y longitud del canal pilórico ≥ 15-17 mm. Primero se corrige el desequilibrio hidroelectrolítico (solución salina con dextrosa y potasio) y luego se hace la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, con alimentación precoz y curación definitiva. Más frecuente en varones primogénitos; se asocia al uso de eritromicina en las primeras semanas.",
+      "tema": "Estenosis hipertrófica del píloro: piloromiotomía",
+      "año": 2018,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; Sociedad Británica de Cirugía Pediátrica; Schwartz Principios de Cirugía 11.ª ed."
+    },
+    {
+      "id": "RM-PED-004",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Recién nacido de 5 semanas con vómitos alimentarios «en proyectil», que progresivamente lo lleva a una deshidratación moderada con alcalosis metabólica, abdomen sin alteraciones significativas. Se sospecha probable estenosis hipertrófica del píloro. ¿Cuál es el tratamiento quirúrgico más recomendado?",
+      "opciones": [
+        "Piloromiotomía.",
+        "Piloroplastía.",
+        "Derivación gastroyeyunal.",
+        "Antrectomía.",
+        "Gastrectomía Billroth I."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La estenosis hipertrófica del píloro aparece entre la 2.ª y la 8.ª semana de vida, con más frecuencia en varones primogénitos. La hipertrofia de la capa muscular circular obstruye el vaciado gástrico y causa vómitos no biliosos en proyectil, hambre persistente y, por la pérdida de ácido clorhídrico, alcalosis metabólica hipoclorémica e hipopotasémica. La palpación de la «oliva» epigástrica o la ecografía (grosor muscular ≥ 3-4 mm, longitud del canal ≥ 15-17 mm) confirman el diagnóstico. Primero se corrigen los líquidos y electrolitos y después se realiza la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, que consiste en seccionar el músculo sin abrir la mucosa. Las demás opciones son resecciones o derivaciones innecesarias y más morbosas. Perla: la alcalosis debe corregirse antes de anestesiar, por el riesgo de apnea posoperatoria.",
+      "comentario": "La estenosis hipertrófica del píloro aparece entre la 2.ª y la 8.ª semana de vida, con más frecuencia en varones primogénitos. La hipertrofia de la capa muscular circular obstruye el vaciado gástrico y causa vómitos no biliosos en proyectil, hambre persistente y, por la pérdida de ácido clorhídrico, alcalosis metabólica hipoclorémica e hipopotasémica. La palpación de la «oliva» epigástrica o la ecografía (grosor muscular ≥ 3-4 mm, longitud del canal ≥ 15-17 mm) confirman el diagnóstico. Primero se corrigen los líquidos y electrolitos y después se realiza la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, que consiste en seccionar el músculo sin abrir la mucosa. Las demás opciones son resecciones o derivaciones innecesarias y más morbosas. Perla: la alcalosis debe corregirse antes de anestesiar, por el riesgo de apnea posoperatoria.",
+      "tema": "Tratamiento de la estenosis hipertrófica del píloro",
+      "año": 2019,
+      "fuentes": "Ashcraft Cirugía Pediátrica 7.ª ed.; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Cirugía pediátrica"
+    },
+    {
+      "id": "RM-PED-005",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la complicación cardiovascular en un niño con obesidad?",
+      "opciones": [
+        "Hipertensión.",
+        "Hipotensión.",
+        "Arritmias.",
+        "Insuficiencia cardiaca.",
+        "Hipertrofia ventricular."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La obesidad infantil se asocia a resistencia a la insulina, dislipidemia, hígado graso y, en el sistema cardiovascular, a hipertensión arterial, que es la complicación más frecuente. Los mecanismos son hiperinsulinemia con retención de sodio, activación simpática y del sistema renina-angiotensina-aldosterona, y la inflamación vascular. Se mide la presión en todo niño de 3 años o más y se compara con percentiles por edad, sexo y talla: normal por debajo del percentil 90, elevada del 90 al 95 y mayor al 95 la hipertensión (en 13 años o más, 130/80 mmHg). La hipertrofia ventricular izquierda es una consecuencia de la hipertensión sostenida, y la insuficiencia cardiaca y las arritmias son complicaciones tardías y menos frecuentes. La hipotensión no forma parte del cuadro. El manejo base es la modificación de estilo de vida con dieta y actividad física, y se añade tratamiento cuando persiste. Perla: el tamaño del manguito debe ser adecuado, pues uno pequeño sobreestima la presión.",
+      "comentario": "La obesidad infantil se asocia a resistencia a la insulina, dislipidemia, hígado graso y, en el sistema cardiovascular, a hipertensión arterial, que es la complicación más frecuente. Los mecanismos son hiperinsulinemia con retención de sodio, activación simpática y del sistema renina-angiotensina-aldosterona, y la inflamación vascular. Se mide la presión en todo niño de 3 años o más y se compara con percentiles por edad, sexo y talla: normal por debajo del percentil 90, elevada del 90 al 95 y mayor al 95 la hipertensión (en 13 años o más, 130/80 mmHg). La hipertrofia ventricular izquierda es una consecuencia de la hipertensión sostenida, y la insuficiencia cardiaca y las arritmias son complicaciones tardías y menos frecuentes. La hipotensión no forma parte del cuadro. El manejo base es la modificación de estilo de vida con dieta y actividad física, y se añade tratamiento cuando persiste. Perla: el tamaño del manguito debe ser adecuado, pues uno pequeño sobreestima la presión.",
+      "tema": "Complicación cardiovascular de la obesidad infantil",
+      "año": 2017,
+      "fuentes": "AAP, Guía de práctica clínica para presión arterial elevada en niños y adolescentes (Flynn, Pediatrics 2017); AAP, Guía de evaluación y tratamiento de obesidad infantil (Hampl, Pediatrics 2023)",
+      "categoria": "Nutrición"
+    },
+    {
+      "id": "RM-PED-006",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Adolescente de 17 años que en la evaluación nutricional presenta un índice de masa corporal de 26. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Normal.",
+        "Delgadez extrema.",
+        "Sobrepeso.",
+        "Obesidad mórbida.",
+        "Obesidad."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el adulto, y de manera práctica en el adolescente mayor, el IMC se clasifica así: menos de 18,5 bajo peso, 18,5 a 24,9 normal, 25 a 29,9 sobrepeso (preobesidad), 30 a 34,9 obesidad grado I, 35 a 39,9 grado II y 40 o más grado III o mórbida. Con un IMC de 26 el diagnóstico es sobrepeso. En menores de 19 años lo correcto es usar las curvas de la OMS por edad y sexo: sobrepeso entre 1 y 2 desviaciones estándar y obesidad por encima de 2, que a los 17 años equivalen a aproximadamente 25 y 30 kg/m². Por eso el valor de 26 cae en sobrepeso. No es normal, ni delgadez, ni obesidad, y menos obesidad mórbida, que exige 40 o más. Perla: el IMC no distingue masa grasa de masa magra, y el perímetro de cintura agrega información sobre el riesgo cardiometabólico.",
+      "comentario": "En el adulto, y de manera práctica en el adolescente mayor, el IMC se clasifica así: menos de 18,5 bajo peso, 18,5 a 24,9 normal, 25 a 29,9 sobrepeso (preobesidad), 30 a 34,9 obesidad grado I, 35 a 39,9 grado II y 40 o más grado III o mórbida. Con un IMC de 26 el diagnóstico es sobrepeso. En menores de 19 años lo correcto es usar las curvas de la OMS por edad y sexo: sobrepeso entre 1 y 2 desviaciones estándar y obesidad por encima de 2, que a los 17 años equivalen a aproximadamente 25 y 30 kg/m². Por eso el valor de 26 cae en sobrepeso. No es normal, ni delgadez, ni obesidad, y menos obesidad mórbida, que exige 40 o más. Perla: el IMC no distingue masa grasa de masa magra, y el perímetro de cintura agrega información sobre el riesgo cardiometabólico.",
+      "tema": "Clasificación del IMC en el adolescente",
+      "año": 2017,
+      "fuentes": "OMS, Curvas de crecimiento para escolares y adolescentes de 5 a 19 años (2007); AAP, Guía de obesidad infantil (Hampl, Pediatrics 2023)",
+      "categoria": "Nutrición",
+      "nota_revision": "La clave no se leyó en el OCR; el libro indica C (sobrepeso). No se cita guía MINSA de valoración nutricional por no haberse podido verificar su número y año."
+    },
+    {
+      "id": "RM-PED-007",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Niño de 4 años presenta febrícula, cefalea y rinorrea y, luego de dos días, eritema en cara que se extiende con erupción papuloeritematosa difusa en tronco y zona proximal de extremidades, que aclara pronto dando un aspecto reticulado. ¿Cuál es el agente etiológico?",
+      "opciones": [
+        "Herpesvirus 6.",
+        "Herpes zóster.",
+        "Paramixovirus.",
+        "Parvovirus B19.",
+        "Coronavirus."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro es un eritema infeccioso o quinta enfermedad, producido por el parvovirus B19, un virus ADN que infecta los precursores eritroides mediante el antígeno P del eritrocito. Tras un pródromo leve (febrícula, cefalea, coriza) aparece el eritema «en bofetada» en las mejillas y después un exantema en encaje o reticulado en tronco y extremidades, que fluctúa con el calor o el sol. En el niño sano es benigno y autolimitado; en el adulto causa artralgias. En pacientes con anemia hemolítica puede producir crisis aplásica, en inmunodeprimidos anemia crónica y en la gestante hidrops fetal. El herpesvirus 6 produce el exantema súbito (fiebre alta y exantema al ceder la fiebre), el paramixovirus corresponde a sarampión o parotiditis (exantema con fiebre alta y tos), el zóster es vesicular y dermatomal, y los coronavirus causan resfrío. Perla: tras aparecer el exantema ya no es contagioso.",
+      "comentario": "El cuadro es un eritema infeccioso o quinta enfermedad, producido por el parvovirus B19, un virus ADN que infecta los precursores eritroides mediante el antígeno P del eritrocito. Tras un pródromo leve (febrícula, cefalea, coriza) aparece el eritema «en bofetada» en las mejillas y después un exantema en encaje o reticulado en tronco y extremidades, que fluctúa con el calor o el sol. En el niño sano es benigno y autolimitado; en el adulto causa artralgias. En pacientes con anemia hemolítica puede producir crisis aplásica, en inmunodeprimidos anemia crónica y en la gestante hidrops fetal. El herpesvirus 6 produce el exantema súbito (fiebre alta y exantema al ceder la fiebre), el paramixovirus corresponde a sarampión o parotiditis (exantema con fiebre alta y tos), el zóster es vesicular y dermatomal, y los coronavirus causan resfrío. Perla: tras aparecer el exantema ya no es contagioso.",
+      "tema": "Eritema infeccioso (quinta enfermedad)",
+      "año": 2019,
+      "fuentes": "AAP, Red Book: Report of the Committee on Infectious Diseases 2024-2027, 33.ª ed.; Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Infectología pediátrica"
+    },
+    {
+      "id": "RM-PED-008",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es el agente infeccioso más importante relacionado con la bronquiolitis obliterante postinfecciosa?",
+      "opciones": [
+        "Mycoplasma pneumoniae.",
+        "Influenza.",
+        "Virus sincitial respiratorio.",
+        "Bordetella pertussis.",
+        "Adenovirus."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La bronquiolitis obliterante es una enfermedad crónica de la vía aérea pequeña en la que una lesión grave del epitelio bronquiolar produce inflamación y fibrosis que estrechan u obliteran la luz. En niños la causa más frecuente es la infección respiratoria baja grave, en la que el adenovirus, sobre todo los serotipos 3, 7 y 21, es el agente más importante, en especial en Sudamérica; también participan el sarampión, la influenza, el virus sincitial respiratorio y el Mycoplasma, pero con menor frecuencia. Se sospecha ante sibilancias, taquipnea e hipoxemia que persisten más de 6 semanas tras una neumonía grave; la tomografía de alta resolución muestra patrón en mosaico y atrapamiento aéreo, y la radiografía puede mostrar pulmón hiperlúcido unilateral (síndrome de Swyer-James). No responde bien a broncodilatadores. Perla: en trasplante pulmonar o de médula ósea la causa es el rechazo crónico o la enfermedad injerto contra huésped.",
+      "comentario": "La bronquiolitis obliterante es una enfermedad crónica de la vía aérea pequeña en la que una lesión grave del epitelio bronquiolar produce inflamación y fibrosis que estrechan u obliteran la luz. En niños la causa más frecuente es la infección respiratoria baja grave, en la que el adenovirus, sobre todo los serotipos 3, 7 y 21, es el agente más importante, en especial en Sudamérica; también participan el sarampión, la influenza, el virus sincitial respiratorio y el Mycoplasma, pero con menor frecuencia. Se sospecha ante sibilancias, taquipnea e hipoxemia que persisten más de 6 semanas tras una neumonía grave; la tomografía de alta resolución muestra patrón en mosaico y atrapamiento aéreo, y la radiografía puede mostrar pulmón hiperlúcido unilateral (síndrome de Swyer-James). No responde bien a broncodilatadores. Perla: en trasplante pulmonar o de médula ósea la causa es el rechazo crónico o la enfermedad injerto contra huésped.",
+      "tema": "Bronquiolitis obliterante postinfecciosa",
+      "año": 2019,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Kavaliunaite E, Aurora P. Diagnosing and managing bronchiolitis obliterans in children (Expert Rev Respir Med 2019;13:481)",
+      "categoria": "Neumología pediátrica",
+      "nota_revision": "Las opciones B a E venían pegadas por OCR y se separaron según la página del libro."
     }
   ]
 }

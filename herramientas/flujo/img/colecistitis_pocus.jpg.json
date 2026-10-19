@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC13605488",
+ "titulo": "Acute Emergent Biliary Pathologies Identified Using Point-of-Care Ultrasound",
+ "autores": [
+  "Ummadi",
+  "Kroeger",
+  "Prasad",
+  "Stinson",
+  "Theophanous",
+  "Angeles",
+  "Elizondo",
+  "Theophanous"
+ ],
+ "revista": "Diagnostics",
+ "anio": "2026",
+ "licencia": "CC BY 4.0",
+ "lic_url": "https://creativecommons.org/licenses/by/4.0/",
+ "fig": {
+  "label": "Figure 3",
+  "caption": "(a,b) Obstruction of the cystic duct by a gallstone can cause gallbladder inflammation and can develop into acute cholecystitis. Cholelithiasis causing obstruction at the gallbladder neck is the most common cause of acute cholecystitis, which accounts for up to 9% of hospital admissions for abdominal pain [7]. For detection of acute cholecystitis, POCUS accuracy varies across studies and has ranges reported as 71–88% sensitivity and 80–100% specificity [3,4,8,9,10,11]. Moreover, a systematic review and meta-analysis performed in 2024 across 7 databases compared emergency physicians performing POCUS against a reference standard of final diagnosis (surgical pathology, discharge diagnosis, and radiology-performed ultrasound). They found a pooled sensitivity of 70.9% (95% confidence interval [CI] 62.3 to 78.2), specificity of 94.4% (95% CI 88.2 to 97.5), positive likelihood ratio of 12.7 (5.8 to 27.5), and negative likelihood ratio of 0.31 (0.23 to 0.41) for the diagnosis of acute cholecystitis [7]. Based on this performance data, POCUS is useful for detecting disease, but a negative or technically limited scan does not exclude acute cholecystitis when clinical suspicion remains high. Key identifying factors on ultrasound include gallbladder wall thickening greater than 3 mm (measured anteriorly), presence of pericholecystic fluid, and a positive sonographic Murphy’s sign. This is defined as pain elicited with probe pressure over the gallbladder and lack of pain with the probe at another site [3,4,9,10]. (a) is an example of an obstructing calculus causing gallbladder inflammation with pericholecystic fluid and gallbladder wall thickening. (b) is an example of a stone in the gallbladder neck that is causing external compression of the biliary tree, which is a less common disease known as Mirizzi syndrome. Prolonged stone immobility can cause chronic inflammation and fibrosis [3,4]. In cases that are equivocal for acute cholecystitis (only meets 1–2 of the above diagnostic imaging criteria) or symptomatic cholelithiasis, surgical consultants may request additional imaging. This could be a RUQ radiology ultrasound, CT scan, or a hepatobiliary iminodiacetic acid (HIDA) scan to evaluate for complete gallstone obstruction of the cystic duct for emergent surgical planning. A HIDA scan is appropriate for patients with high clinical suspicion of cholecystitis but equivocal ultrasound findings [12]. With acute cholecystitis, the HIDA scan will show no nuclear tracer uptake into the gallbladder within 1–4 h due to an obstructed cystic duct. Whereas, CT scan is better for complicated or post-operative patients with altered anatomy [12]. In a study by Oda et al. comparing CT scan and ultrasound for diagnosis of acute cholecystitis, CT was recommended as a follow up study for equivocal cases with high sensitivity 85% and specificity 100% [10].",
+  "href": "diagnostics-16-03023-g003.webp"
+ },
+ "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13605488.1/diagnostics-16-03023-g003.webp",
+ "credito": "Ummadi et al. · Diagnostics 2026 · PMC13605488 (PubMed Central) · CC BY 4.0"
+}

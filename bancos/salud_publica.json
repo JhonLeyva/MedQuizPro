@@ -4329,6 +4329,115 @@
       "comentario": "Para elegir una prueba estadística hay que responder tres preguntas sobre los datos, y el enunciado da las tres respuestas. Primera pregunta: qué tipo de variable se compara. Aquí es el índice de masa corporal, que es una variable numérica, cuantitativa, y lo que en realidad se comparan son sus promedios entre los dos centros. Segunda: cuántos grupos y cómo se relacionan. Son dos grupos, el A y el B, y son independientes, formados por personas distintas sin relación entre sí. Tercera: se cumplen los supuestos para usar una prueba paramétrica. El enunciado lo dice expresamente: los datos siguen una distribución normal y hay homocedasticidad, es decir las varianzas de ambos grupos son parecidas. Cuando se comparan los promedios de una variable numérica entre dos grupos independientes, con normalidad y varianzas homogéneas, la prueba indicada es la t de Student para muestras independientes. La prueba de Kolmogorov-Smirnov no compara grupos: sirve para evaluar si unos datos siguen una distribución normal, es decir es una de las pruebas que se usaría antes, para comprobar el supuesto que el enunciado ya da por cumplido. El chi cuadrado se emplea para variables cualitativas, categóricas, por ejemplo comparar proporciones de obesos y no obesos, pero no para comparar promedios de una variable numérica como el índice de masa corporal. El análisis multivariado se reserva para cuando intervienen varias variables a la vez, mucho más complejo de lo que este problema requiere; para comparar la media del índice de masa corporal entre dos grupos independientes normales, la prueba correcta es la t de Student. Comparar el promedio de una variable numérica (índice de masa corporal) entre dos grupos independientes, con distribución normal y varianzas homogéneas = t de Student para muestras independientes. El chi cuadrado es para variables categóricas y Kolmogorov-Smirnov evalúa la normalidad, no compara grupos.",
       "tema": "T de Student para muestras independientes",
       "año": 2026
+    },
+    {
+      "id": "RM-SP-001",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿Qué tipo de relación causal puede establecerse entre el bacilo tuberculoso y la tuberculosis?",
+      "opciones": [
+        "Necesaria y suficiente.",
+        "Suficiente, pero no necesaria.",
+        "Ni suficiente, ni necesaria.",
+        "Predisponente y necesaria.",
+        "Necesaria, pero no suficiente."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "En epidemiología una causa es necesaria si la enfermedad no ocurre sin ella, y suficiente si por sí sola siempre produce la enfermedad. Sin Mycobacterium tuberculosis no existe tuberculosis, de modo que el bacilo es una causa necesaria. Pero no es suficiente: se estima que cerca de una cuarta parte de la población mundial está infectada, y sólo 5-10 % de los infectados desarrolla enfermedad activa a lo largo de la vida, según cofactores como VIH, diabetes, desnutrición, tabaquismo, hacinamiento, edad e inmunosupresión. Por lo tanto E es la opción correcta. A exigiría que todo infectado enfermara; B y C son falsas porque el bacilo es indispensable; D mezcla un concepto de factor de riesgo con uno de causalidad. Perla: en el modelo de causas componentes de Rothman, el bacilo es la causa componente necesaria dentro de varios mecanismos suficientes. El diagnóstico de infección latente se hace con PPD o IGRA.",
+      "comentario": "En epidemiología una causa es necesaria si la enfermedad no ocurre sin ella, y suficiente si por sí sola siempre produce la enfermedad. Sin Mycobacterium tuberculosis no existe tuberculosis, de modo que el bacilo es una causa necesaria. Pero no es suficiente: se estima que cerca de una cuarta parte de la población mundial está infectada, y sólo 5-10 % de los infectados desarrolla enfermedad activa a lo largo de la vida, según cofactores como VIH, diabetes, desnutrición, tabaquismo, hacinamiento, edad e inmunosupresión. Por lo tanto E es la opción correcta. A exigiría que todo infectado enfermara; B y C son falsas porque el bacilo es indispensable; D mezcla un concepto de factor de riesgo con uno de causalidad. Perla: en el modelo de causas componentes de Rothman, el bacilo es la causa componente necesaria dentro de varios mecanismos suficientes. El diagnóstico de infección latente se hace con PPD o IGRA.",
+      "tema": "Causalidad del bacilo tuberculoso",
+      "año": 2015,
+      "fuentes": "Rothman, Greenland y Lash, Epidemiología Moderna 3.ª ed.; WHO, Global Tuberculosis Report 2025; MINSA, NTS 221-MINSA/DGIESP-2024",
+      "categoria": "Epidemiología",
+      "nota_revision": "Enunciado y opciones reconstruidos del OCR (la opción E quedó truncada: «Necesaria, ...»); se completó como «Necesaria, pero no suficiente»."
+    },
+    {
+      "id": "RM-SP-002",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "De acuerdo a la norma técnica de tuberculosis, al paciente que se le realiza una o más baciloscopías de esputo, corresponde a sintomático respiratorio:",
+      "opciones": [
+        "descartado.",
+        "sospechoso.",
+        "examinado.",
+        "identificado.",
+        "detectado."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el control de la tuberculosis se define como sintomático respiratorio (SR) a la persona con tos y expectoración por más de 15 días, y se distinguen etapas operativas. El SR esperado es el número que se calcula identificar en un establecimiento (cerca de 5 por cada 100 atenciones en mayores de 15 años); el SR identificado es el que se registra en el libro de SR; y el SR examinado es el identificado en quien se ha obtenido al menos un resultado de baciloscopía. De ahí que la clave sea examinado. Descartado, sospechoso y detectado no son categorías operativas de la norma; el identificado aún puede no tener ninguna muestra procesada. Esta cadena de definiciones sirve para calcular indicadores como la cobertura de examen de SR. Perla: la sensibilidad de la baciloscopía es baja, por lo que se complementa con cultivo y pruebas moleculares rápidas, sobre todo en VIH y contactos.",
+      "comentario": "En el control de la tuberculosis se define como sintomático respiratorio (SR) a la persona con tos y expectoración por más de 15 días, y se distinguen etapas operativas. El SR esperado es el número que se calcula identificar en un establecimiento (cerca de 5 por cada 100 atenciones en mayores de 15 años); el SR identificado es el que se registra en el libro de SR; y el SR examinado es el identificado en quien se ha obtenido al menos un resultado de baciloscopía. De ahí que la clave sea examinado. Descartado, sospechoso y detectado no son categorías operativas de la norma; el identificado aún puede no tener ninguna muestra procesada. Esta cadena de definiciones sirve para calcular indicadores como la cobertura de examen de SR. Perla: la sensibilidad de la baciloscopía es baja, por lo que se complementa con cultivo y pruebas moleculares rápidas, sobre todo en VIH y contactos.",
+      "tema": "Definición de sintomático respiratorio examinado",
+      "año": 2018,
+      "fuentes": "MINSA, NTS N.º 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis); OMS, Consolidated guidelines on tuberculosis (módulos vigentes)",
+      "categoria": "Tuberculosis",
+      "nota_revision": "Opciones reconstruidas con la imagen de la página (el OCR las mezclaba). Definiciones tomadas del libro; revisar el texto exacto de la NTS 221-2024 si se cambia el enunciado."
+    },
+    {
+      "id": "RM-SP-003",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "En la prevención de la fiebre amarilla, ¿a cuántos días de la vacuna se logra la inmunidad?",
+      "opciones": [
+        "5 días.",
+        "20 días.",
+        "30 días.",
+        "15 días.",
+        "10 días."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La vacuna antiamarílica es de virus vivo atenuado (cepa 17D) y se aplica en dosis única subcutánea o intramuscular desde los 9 meses de edad. Produce anticuerpos neutralizantes protectores en más del 95 % de los vacunados a los 10 días, por lo que se recomienda aplicarla al menos 10 días antes de viajar a una zona de riesgo. La OMS considera que una dosis confiere protección de por vida en personas inmunocompetentes, sin necesidad de refuerzo cada 10 años, salvo situaciones especiales (embarazo en la vacunación, infección por VIH, trasplante). Los otros plazos (5, 15, 20 y 30 días) no corresponden a la respuesta inmunitaria documentada. La vacuna está contraindicada en menores de 6 meses, alergia grave al huevo, inmunodeficiencia grave y timoma. Perla: una complicación rara es la enfermedad viscerotrópica asociada a la vacuna, de mayor riesgo en mayores de 60 años.",
+      "comentario": "La vacuna antiamarílica es de virus vivo atenuado (cepa 17D) y se aplica en dosis única subcutánea o intramuscular desde los 9 meses de edad. Produce anticuerpos neutralizantes protectores en más del 95 % de los vacunados a los 10 días, por lo que se recomienda aplicarla al menos 10 días antes de viajar a una zona de riesgo. La OMS considera que una dosis confiere protección de por vida en personas inmunocompetentes, sin necesidad de refuerzo cada 10 años, salvo situaciones especiales (embarazo en la vacunación, infección por VIH, trasplante). Los otros plazos (5, 15, 20 y 30 días) no corresponden a la respuesta inmunitaria documentada. La vacuna está contraindicada en menores de 6 meses, alergia grave al huevo, inmunodeficiencia grave y timoma. Perla: una complicación rara es la enfermedad viscerotrópica asociada a la vacuna, de mayor riesgo en mayores de 60 años.",
+      "tema": "Fiebre amarilla: tiempo hasta la inmunidad tras vacunar",
+      "año": 2018,
+      "fuentes": "OMS, Vaccines and vaccination against yellow fever: WHO Position Paper (Vaccine 2015;33:76-77; Wkly Epidemiol Rec 2013); Gotuzzo E, et al., Am J Trop Med Hyg 2013;89:434-444",
+      "categoria": "Inmunizaciones",
+      "nota_revision": "Opciones reconstruidas con la imagen de la página: A.5, B.20, C.30, D.15, E.10. La clave E coincide con el libro."
+    },
+    {
+      "id": "RM-SP-004",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál es una de las medidas de prevención de la fiebre amarilla en zonas enzoóticas?",
+      "opciones": [
+        "Monitoreo de coberturas de vacunación.",
+        "Quimioprofilaxis.",
+        "Serología de susceptibles.",
+        "Eliminación de reservorios silvestres.",
+        "Eliminación de vectores."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fiebre amarilla es un flavivirus que en la selva peruana circula en un ciclo selvático entre primates no humanos y mosquitos Haemagogus y Sabethes, y puede pasar al hombre que ingresa sin vacunar. La clínica sigue la tríada de fiebre, ictericia y hemorragia, con signo de Faget y letalidad cercana al 50 % en la forma grave. Como el reservorio silvestre y los vectores selváticos no pueden eliminarse, la medida central es la inmunización con vacuna 17D, y su éxito depende de mantener coberturas altas, que deben monitorearse de forma sistemática. No existe quimioprofilaxis, ni hay tratamiento antiviral específico. La serología de susceptibles no es una estrategia de salud pública; el control del Aedes aegypti se aplica en el ciclo urbano. Perla: toda persona que ingrese a zona enzoótica debe estar vacunada al menos 10 días antes.",
+      "comentario": "La fiebre amarilla es un flavivirus que en la selva peruana circula en un ciclo selvático entre primates no humanos y mosquitos Haemagogus y Sabethes, y puede pasar al hombre que ingresa sin vacunar. La clínica sigue la tríada de fiebre, ictericia y hemorragia, con signo de Faget y letalidad cercana al 50 % en la forma grave. Como el reservorio silvestre y los vectores selváticos no pueden eliminarse, la medida central es la inmunización con vacuna 17D, y su éxito depende de mantener coberturas altas, que deben monitorearse de forma sistemática. No existe quimioprofilaxis, ni hay tratamiento antiviral específico. La serología de susceptibles no es una estrategia de salud pública; el control del Aedes aegypti se aplica en el ciclo urbano. Perla: toda persona que ingrese a zona enzoótica debe estar vacunada al menos 10 días antes.",
+      "tema": "Prevención de la fiebre amarilla en zonas enzoóticas",
+      "año": 2018,
+      "fuentes": "OMS, Vaccines and vaccination against yellow fever: WHO Position Paper (Vaccine 2015;33:76-77); OMS, WHO guidelines for clinical management of arboviral diseases (2025); Harrison 21.ª ed. (2022)",
+      "categoria": "Inmunizaciones"
+    },
+    {
+      "id": "RM-SP-005",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes es una enfermedad reemergente?",
+      "opciones": [
+        "Gripe aviar.",
+        "Zika.",
+        "Cólera.",
+        "Diabetes mellitus tipo 2.",
+        "Leishmaniasis."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una enfermedad reemergente es una infección ya conocida que había disminuido o estaba controlada y que vuelve a aumentar su incidencia o a expandirse, por ejemplo por resistencia a antimicrobianos, deterioro del saneamiento, migración, cambio climático o caída de las coberturas de vacunación. El cólera, que reapareció en el Perú en 1991 y sigue causando brotes en el mundo, es el ejemplo clásico; también lo son la tuberculosis, el sarampión, la difteria, la tos ferina y el dengue. Las enfermedades emergentes, en cambio, son nuevas o se identifican por primera vez, como la gripe aviar zoonótica, el Zika, el SARS-CoV-2 y el ébola. La diabetes mellitus tipo 2 no es infecciosa y la leishmaniasis es una endemia persistente de áreas específicas. Perla: factor común de ambas categorías es la interacción entre hombre, animales y ambiente, base del concepto Una Sola Salud.",
+      "comentario": "Una enfermedad reemergente es una infección ya conocida que había disminuido o estaba controlada y que vuelve a aumentar su incidencia o a expandirse, por ejemplo por resistencia a antimicrobianos, deterioro del saneamiento, migración, cambio climático o caída de las coberturas de vacunación. El cólera, que reapareció en el Perú en 1991 y sigue causando brotes en el mundo, es el ejemplo clásico; también lo son la tuberculosis, el sarampión, la difteria, la tos ferina y el dengue. Las enfermedades emergentes, en cambio, son nuevas o se identifican por primera vez, como la gripe aviar zoonótica, el Zika, el SARS-CoV-2 y el ébola. La diabetes mellitus tipo 2 no es infecciosa y la leishmaniasis es una endemia persistente de áreas específicas. Perla: factor común de ambas categorías es la interacción entre hombre, animales y ambiente, base del concepto Una Sola Salud.",
+      "tema": "Enfermedad reemergente",
+      "año": 2018,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Gordis Epidemiología 6.ª ed. (2019)",
+      "categoria": "Epidemiología",
+      "nota_revision": "Opción B corregida de «Sika» a «Zika» (error de impresión)."
     }
   ]
 }

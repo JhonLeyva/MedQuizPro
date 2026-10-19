@@ -1435,6 +1435,441 @@
       "comentario": "El caso ya está diagnosticado, así que la pregunta es qué hacer con un diagnóstico de tuberculosis en la mano. El paciente tiene el cuadro clásico, tos de meses, sudoración nocturna y baja de peso, una caverna en la radiografía y una prueba molecular, el Xpert, que confirma la presencia del bacilo de la tuberculosis y añade un dato clave: sin resistencia a la rifampicina, es decir, es una tuberculosis sensible a los fármacos de primera línea. Con eso, la conducta correcta tiene dos partes que van juntas. La primera es iniciar de inmediato el tratamiento con el esquema de primera línea, las cuatro drogas conocidas por sus siglas RHZE, que son rifampicina, isoniazida, pirazinamida y etambutol, el esquema estándar para la tuberculosis sensible. La segunda parte es la notificación obligatoria del caso, porque la tuberculosis es una enfermedad de declaración obligatoria por su importancia para la salud pública: notificarla permite iniciar el estudio de los contactos y cortar la cadena de transmisión. Por eso la opción correcta reúne ambas acciones. Repetir el Xpert en tres meses tratando solo los síntomas es peligroso e inaceptable: retrasar el tratamiento de una tuberculosis ya confirmada deja avanzar la enfermedad y contagiar a otros. Derivar al tercer nivel y estudiar una inmunodeficiencia no es el paso inicial en un caso de tuberculosis sensible sin datos que sugieran inmunosupresión; puede manejarse en el primer nivel según la norma. Pedir una tomografía para descartar un cáncer no tiene sentido cuando ya hay confirmación microbiológica de tuberculosis; lo que corresponde es iniciar el esquema RHZE y notificar el caso. Tuberculosis confirmada por Xpert sin resistencia a rifampicina = iniciar de inmediato el esquema de primera línea RHZE y notificar obligatoriamente el caso. La tuberculosis es de declaración obligatoria para estudiar contactos; retrasar el tratamiento de un caso confirmado es inaceptable.",
       "tema": "Tuberculosis sensible confirmada por Xpert: esquema RHZE y notificación",
       "año": 2026
+    },
+    {
+      "id": "RM-NEU-001",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente que en la radiografía de tórax presenta tumoración a nivel de la língula. ¿En qué lóbulo se encuentra la lesión?",
+      "opciones": [
+        "Superior derecho.",
+        "Inferior derecho.",
+        "Superior izquierdo.",
+        "Medio derecho.",
+        "Inferior izquierdo."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El pulmón derecho tiene tres lóbulos (superior, medio e inferior) separados por las cisuras horizontal y oblicua, y 10 segmentos broncopulmonares. El pulmón izquierdo tiene dos lóbulos (superior e inferior) separados por la cisura oblicua y 8-10 segmentos. La língula es una porción del lóbulo superior izquierdo, equivalente anatómico del lóbulo medio derecho, formada por los segmentos lingulares superior e inferior (segmentos 4 y 5). En la radiografía de tórax, una opacidad que borra el borde izquierdo del corazón («signo de la silueta») localiza la lesión en la língula, y una que borra el borde derecho cardiaco, en el lóbulo medio. El hilio izquierdo está más alto que el derecho. Por su orientación y calibre, el lóbulo medio y la língula son propensos al colapso por bronquiectasias o linfadenopatías (síndrome del lóbulo medio).",
+      "comentario": "El pulmón derecho tiene tres lóbulos (superior, medio e inferior) separados por las cisuras horizontal y oblicua, y 10 segmentos broncopulmonares. El pulmón izquierdo tiene dos lóbulos (superior e inferior) separados por la cisura oblicua y 8-10 segmentos. La língula es una porción del lóbulo superior izquierdo, equivalente anatómico del lóbulo medio derecho, formada por los segmentos lingulares superior e inferior (segmentos 4 y 5). En la radiografía de tórax, una opacidad que borra el borde izquierdo del corazón («signo de la silueta») localiza la lesión en la língula, y una que borra el borde derecho cardiaco, en el lóbulo medio. El hilio izquierdo está más alto que el derecho. Por su orientación y calibre, el lóbulo medio y la língula son propensos al colapso por bronquiectasias o linfadenopatías (síndrome del lóbulo medio).",
+      "tema": "Língula: lóbulo superior izquierdo",
+      "año": 2014,
+      "fuentes": "Moore Anatomía con orientación clínica 8.ª ed.; Fraser y Paré Diagnosis of Diseases of the Chest 5.ª ed."
+    },
+    {
+      "id": "RM-NEU-002",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de quilotórax?",
+      "opciones": [
+        "Traumatismo.",
+        "Tumores mediastinales.",
+        "Pancreatitis aguda necrotizante.",
+        "Embolia grasa.",
+        "TBC pulmonar exudativa."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El quilotórax es la acumulación de quilo (linfa intestinal rica en triglicéridos y quilomicrones) en el espacio pleural por lesión u obstrucción del conducto torácico. Es un líquido lechoso con triglicéridos > 110 mg/dL (el pseudoquilotórax es un derrame crónico con colesterol alto y triglicéridos bajos, como en la tuberculosis o la artritis reumatoide). La causa más frecuente en general es traumática, en especial iatrogénica (cirugía esofágica, cardiaca o torácica); las causas no traumáticas más frecuentes son las neoplasias, sobre todo los linfomas. Tratamiento: dieta sin grasas de cadena larga o nutrición parenteral, octreótido, drenaje y, si el drenaje es mayor de 1000 mL/día por 5 días o persiste más de 2 semanas, ligadura quirúrgica del conducto torácico.",
+      "comentario": "El quilotórax es la acumulación de quilo (linfa intestinal rica en triglicéridos y quilomicrones) en el espacio pleural por lesión u obstrucción del conducto torácico. Es un líquido lechoso con triglicéridos > 110 mg/dL (el pseudoquilotórax es un derrame crónico con colesterol alto y triglicéridos bajos, como en la tuberculosis o la artritis reumatoide). La causa más frecuente en general es traumática, en especial iatrogénica (cirugía esofágica, cardiaca o torácica); las causas no traumáticas más frecuentes son las neoplasias, sobre todo los linfomas. Tratamiento: dieta sin grasas de cadena larga o nutrición parenteral, octreótido, drenaje y, si el drenaje es mayor de 1000 mL/día por 5 días o persiste más de 2 semanas, ligadura quirúrgica del conducto torácico.",
+      "tema": "Causa más frecuente de quilotórax",
+      "año": 2014,
+      "fuentes": "Light Pleural Diseases 6.ª ed.; Fishman Pulmonary Diseases and Disorders 5.ª ed."
+    },
+    {
+      "id": "RM-NEU-003",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál es la tumoración más frecuente que se presenta en el mediastino del adulto?",
+      "opciones": [
+        "Tumor neurogénico.",
+        "Tumor de células germinales.",
+        "Linfoma.",
+        "Timoma.",
+        "Quiste no tímico."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los tumores mediastínicos se ubican por compartimentos: el mediastino anterosuperior concentra las «4 T» (timoma, teratoma o tumor germinal, tiroides o bocio endotorácico, «terrible» linfoma), el medio los quistes broncogénicos y pericárdicos y los ganglios, y el posterior los tumores neurogénicos (schwannoma, neurofibroma). En el adulto la masa mediastínica primaria más frecuente del mediastino anterior es el timoma, que representa casi la mitad de los casos de esa localización; se asocia a miastenia gravis en 30-50 % (y al revés, el 10-15 % de los miasténicos tienen timoma), aplasia pura de serie roja e hipogammaglobulinemia. En el niño predominan los tumores neurogénicos. Diagnóstico: TC de tórax con contraste y biopsia guiada, evitando biopsiar el timoma resecable. Tratamiento del timoma: resección completa; la radioterapia o quimioterapia se emplean en estadios avanzados.",
+      "comentario": "Los tumores mediastínicos se ubican por compartimentos: el mediastino anterosuperior concentra las «4 T» (timoma, teratoma o tumor germinal, tiroides o bocio endotorácico, «terrible» linfoma), el medio los quistes broncogénicos y pericárdicos y los ganglios, y el posterior los tumores neurogénicos (schwannoma, neurofibroma). En el adulto la masa mediastínica primaria más frecuente del mediastino anterior es el timoma, que representa casi la mitad de los casos de esa localización; se asocia a miastenia gravis en 30-50 % (y al revés, el 10-15 % de los miasténicos tienen timoma), aplasia pura de serie roja e hipogammaglobulinemia. En el niño predominan los tumores neurogénicos. Diagnóstico: TC de tórax con contraste y biopsia guiada, evitando biopsiar el timoma resecable. Tratamiento del timoma: resección completa; la radioterapia o quimioterapia se emplean en estadios avanzados.",
+      "tema": "Tumor más frecuente del mediastino en el adulto",
+      "año": 2015,
+      "fuentes": "ESMO-EURACAN, tumores epiteliales tímicos (2021); Harrison Principios de Medicina Interna 22.ª ed.; Shields Thoracic Surgery 8.ª ed."
+    },
+    {
+      "id": "RM-NEU-004",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es el examen por imágenes que mejor confirma la presencia de bronquiectasia?",
+      "opciones": [
+        "Tomografía axial computarizada.",
+        "Radiografía de tórax.",
+        "Gammagrafía pulmonar.",
+        "Resonancia magnética.",
+        "Ecografía torácica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las bronquiectasias son dilataciones irreversibles de los bronquios por inflamación e infección crónica (fibrosis quística, discinesia ciliar, infecciones graves, tuberculosis, aspergilosis broncopulmonar alérgica). La prueba de elección para confirmarlas es la tomografía computarizada de alta resolución (TCAR) de tórax, que muestra el signo del anillo de sello (bronquio de diámetro mayor que la arteria acompañante), la ausencia de adelgazamiento bronquial hacia la periferia, el engrosamiento de las paredes y los bronquios visibles a menos de 1 cm de la pleura. La radiografía puede ser normal o mostrar líneas en «vías de tranvía» y quistes; la RM no ofrece buena resolución del parénquima pulmonar. Clínica: tos crónica con esputo purulento abundante («tazas de esputo»), hemoptisis y sibilancias. Tratamiento: fisioterapia respiratoria, antibióticos en exacerbaciones y macrólidos a largo plazo en exacerbadores frecuentes.",
+      "comentario": "Las bronquiectasias son dilataciones irreversibles de los bronquios por inflamación e infección crónica (fibrosis quística, discinesia ciliar, infecciones graves, tuberculosis, aspergilosis broncopulmonar alérgica). La prueba de elección para confirmarlas es la tomografía computarizada de alta resolución (TCAR) de tórax, que muestra el signo del anillo de sello (bronquio de diámetro mayor que la arteria acompañante), la ausencia de adelgazamiento bronquial hacia la periferia, el engrosamiento de las paredes y los bronquios visibles a menos de 1 cm de la pleura. La radiografía puede ser normal o mostrar líneas en «vías de tranvía» y quistes; la RM no ofrece buena resolución del parénquima pulmonar. Clínica: tos crónica con esputo purulento abundante («tazas de esputo»), hemoptisis y sibilancias. Tratamiento: fisioterapia respiratoria, antibióticos en exacerbaciones y macrólidos a largo plazo en exacerbadores frecuentes.",
+      "tema": "Diagnóstico por imagen de bronquiectasias",
+      "año": 2016,
+      "fuentes": "ERS, guía de bronquiectasias en adultos (2017); BTS, guía de bronquiectasias (2019); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-NEU-005",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, obesa, hipertensa, con antecedente de cáncer de colon, viaja en bus de Tumbes a Lima; al llegar presenta súbitamente dolor torácico, disnea y síncope. Ingresa a emergencia con PA: 120/60 mm Hg, FC: 120 x min, FR: 30 x min, SatO₂: 96 %. Con diagnóstico de tromboembolismo pulmonar, ¿cuál es la dosis de enoxaparina que se debe administrar?",
+      "opciones": [
+        "1 mg/kg cada 24 horas SC.",
+        "1 mg/kg cada 12 horas EV.",
+        "1 mg/kg cada 24 horas EV.",
+        "1 mg/kg cada 12 horas SC.",
+        "2 mg/kg cada 12 horas EV."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La anticoagulación inicial del tromboembolismo pulmonar con inestabilidad ausente se hace con heparina de bajo peso molecular subcutánea: enoxaparina 1 mg/kg cada 12 horas (o 1,5 mg/kg cada 24 horas), que se prefiere a la heparina no fraccionada por su farmacocinética previsible y menor riesgo de sangrado y trombocitopenia. Se ajusta en insuficiencia renal grave (depuración < 30 mL/min: 1 mg/kg cada 24 horas) y se evita en obesidad mórbida sin monitorización de anti-Xa. Tras la fase aguda se continúa con un anticoagulante oral directo (rivaroxabán, apixabán, edoxabán, dabigatrán) o warfarina por al menos 3 meses; en cáncer se prefieren los inhibidores del factor Xa o la HBPM por 6 meses o más. Si hay shock o hipotensión persistente (TEP de alto riesgo) se indica trombólisis sistémica, y la heparina no fraccionada es la elegida.",
+      "comentario": "La anticoagulación inicial del tromboembolismo pulmonar con inestabilidad ausente se hace con heparina de bajo peso molecular subcutánea: enoxaparina 1 mg/kg cada 12 horas (o 1,5 mg/kg cada 24 horas), que se prefiere a la heparina no fraccionada por su farmacocinética previsible y menor riesgo de sangrado y trombocitopenia. Se ajusta en insuficiencia renal grave (depuración < 30 mL/min: 1 mg/kg cada 24 horas) y se evita en obesidad mórbida sin monitorización de anti-Xa. Tras la fase aguda se continúa con un anticoagulante oral directo (rivaroxabán, apixabán, edoxabán, dabigatrán) o warfarina por al menos 3 meses; en cáncer se prefieren los inhibidores del factor Xa o la HBPM por 6 meses o más. Si hay shock o hipotensión persistente (TEP de alto riesgo) se indica trombólisis sistémica, y la heparina no fraccionada es la elegida.",
+      "tema": "Dosis de enoxaparina en tromboembolia pulmonar",
+      "año": 2018,
+      "fuentes": "ESC, guía de embolia pulmonar (2019); ASH, tratamiento de la enfermedad tromboembólica venosa (2020); ACCP/CHEST (2021)"
+    },
+    {
+      "id": "RM-NEU-006",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 50 años alcohólico crónico. Presenta desde hace 3 días fiebre, malestar general, tos con expectoración purulenta y disnea. Examen: FR 30 por minuto, FC 100 por minuto. Ansioso, polipneico y tirajes supraclaviculares. Murmullo vesicular disminuido y crepitantes en base de hemitórax derecho. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Radiografía de tórax y hemograma.",
+        "TAC de tórax y velocidad de sedimentación.",
+        "AGA y hemograma.",
+        "BK en esputo seriado y AGA.",
+        "Examen directo y cultivo de esputo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro sugiere neumonía adquirida en la comunidad con signos de gravedad: frecuencia respiratoria de 30, taquicardia y tirajes. El diagnóstico exige una radiografía de tórax que demuestre infiltrado nuevo, y la evaluación de la gravedad requiere además oximetría o gases arteriales, hemograma, urea y creatinina (escala CURB-65: confusión, urea > 42 mg/dl, FR ≥ 30, PA < 90/60, edad ≥ 65; el paciente ya tiene un punto por FR). Entre las opciones, la que contiene el estudio diagnóstico fundamental (la imagen) es la A; la C ofrece gases y hemograma, útiles para gravedad, pero sin imagen no se confirma neumonía. La tomografía no es de rutina, la VSG es inespecífica, y el BK solo se pide si hay sospecha de tuberculosis. Perla: en alcohólicos, pensar en neumococo, Klebsiella y aspiración.",
+      "comentario": "El cuadro sugiere neumonía adquirida en la comunidad con signos de gravedad: frecuencia respiratoria de 30, taquicardia y tirajes. El diagnóstico exige una radiografía de tórax que demuestre infiltrado nuevo, y la evaluación de la gravedad requiere además oximetría o gases arteriales, hemograma, urea y creatinina (escala CURB-65: confusión, urea > 42 mg/dl, FR ≥ 30, PA < 90/60, edad ≥ 65; el paciente ya tiene un punto por FR). Entre las opciones, la que contiene el estudio diagnóstico fundamental (la imagen) es la A; la C ofrece gases y hemograma, útiles para gravedad, pero sin imagen no se confirma neumonía. La tomografía no es de rutina, la VSG es inespecífica, y el BK solo se pide si hay sospecha de tuberculosis. Perla: en alcohólicos, pensar en neumococo, Klebsiella y aspiración.",
+      "tema": "Neumonía en alcohólico: estudio inicial",
+      "año": 2014,
+      "fuentes": "ATS/IDSA, Guía de neumonía adquirida en la comunidad (2019); ERS/ESICM/ESCMID/ALAT, Guía de neumonía comunitaria grave (Eur Respir J, 2023); Harrison, 21.ª ed. (2022)",
+      "categoria": "Neumonía",
+      "nota_revision": "El libro marca «A y C» y reconoce que la pregunta está mal planteada porque ninguna opción incluye radiografía, AGA y hemograma a la vez. Se mantiene A (radiografía), pues sin imagen no se hace el diagnóstico; el AGA o la oximetría se solicitan además por la gravedad."
+    },
+    {
+      "id": "RM-NEU-007",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Paciente de 20 años en tratamiento irregular por tuberculosis pulmonar que súbitamente presenta dolor en hemitórax izquierdo tipo punzada, disnea y shock. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Hemotórax.",
+        "Piotórax.",
+        "Atelectasia masiva.",
+        "Neumotórax.",
+        "Hernia diafragmática."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La tuberculosis cavitaria o fibrocaseosa deja lesiones subpleurales que pueden romperse hacia la pleura y producir un neumotórax secundario. La instalación súbita de dolor pleurítico, disnea y colapso hemodinámico indica un neumotórax a tensión: el aire entra en la pleura pero no sale, el mediastino se desplaza, se comprime la vena cava y cae el retorno venoso. Al examen hay hipertimpanismo, ausencia de murmullo vesicular y desviación traqueal. El hemotórax y el piotórax se manifiestan con matidez, el piotórax con fiebre previa; la atelectasia masiva desplaza el mediastino hacia el lado afectado y no causa shock brusco; la hernia diafragmática es rara sin trauma. El tratamiento inmediato es la descompresión con aguja (quinto espacio intercostal en la línea axilar anterior, o segundo en la línea medioclavicular) y luego tubo de drenaje, sin esperar la radiografía. Además se debe retomar el esquema antituberculoso.",
+      "comentario": "La tuberculosis cavitaria o fibrocaseosa deja lesiones subpleurales que pueden romperse hacia la pleura y producir un neumotórax secundario. La instalación súbita de dolor pleurítico, disnea y colapso hemodinámico indica un neumotórax a tensión: el aire entra en la pleura pero no sale, el mediastino se desplaza, se comprime la vena cava y cae el retorno venoso. Al examen hay hipertimpanismo, ausencia de murmullo vesicular y desviación traqueal. El hemotórax y el piotórax se manifiestan con matidez, el piotórax con fiebre previa; la atelectasia masiva desplaza el mediastino hacia el lado afectado y no causa shock brusco; la hernia diafragmática es rara sin trauma. El tratamiento inmediato es la descompresión con aguja (quinto espacio intercostal en la línea axilar anterior, o segundo en la línea medioclavicular) y luego tubo de drenaje, sin esperar la radiografía. Además se debe retomar el esquema antituberculoso.",
+      "tema": "Neumotórax en tuberculosis pulmonar",
+      "año": 2014,
+      "fuentes": "Walker S et al., ERS/EACTS/ESTS, Guías de neumotórax espontáneo en adultos (Eur Respir J 2024;63:2300797); MINSA, NTS 221-MINSA/DGIESP-2024 (tuberculosis); ATLS 10.ª ed. (2018)",
+      "categoria": "Pleura"
+    },
+    {
+      "id": "RM-NEU-008",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Paciente senil, hospitalizado por bronquiectasias infectadas con Pseudomonas aeruginosa. ¿Cuál de los siguientes antibióticos se indica?",
+      "opciones": [
+        "Amoxicilina + ácido clavulánico.",
+        "Doxiciclina.",
+        "Piperacilina/tazobactam.",
+        "Azitromicina.",
+        "Trimetoprima + sulfametoxazol."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Pseudomonas aeruginosa es el patógeno que más se asocia a mayor gravedad, exacerbaciones frecuentes y mortalidad en las bronquiectasias, y su aislamiento obliga a elegir un antibiótico con actividad antipseudomónica. Piperacilina/tazobactam pertenece a las penicilinas antipseudomónicas con inhibidor de betalactamasa; otras opciones son ceftazidima, cefepime, carbapenémicos (excepto ertapenem), aztreonam, ciprofloxacino o levofloxacino y aminoglucósidos, y en exacerbaciones graves se suele combinar dos fármacos o usarlos por vía intravenosa durante 14 días. Amoxicilina-clavulánico, doxiciclina y trimetoprima-sulfametoxazol cubren H. influenzae, neumococo y otras bacterias, pero no Pseudomonas; la azitromicina se emplea como tratamiento prolongado inmunomodulador para reducir exacerbaciones, no para tratar la infección aguda por este germen. Perla: ante el primer aislamiento de Pseudomonas se considera tratamiento erradicador, y la ciprofloxacina es la única quinolona oral con buena actividad.",
+      "comentario": "Pseudomonas aeruginosa es el patógeno que más se asocia a mayor gravedad, exacerbaciones frecuentes y mortalidad en las bronquiectasias, y su aislamiento obliga a elegir un antibiótico con actividad antipseudomónica. Piperacilina/tazobactam pertenece a las penicilinas antipseudomónicas con inhibidor de betalactamasa; otras opciones son ceftazidima, cefepime, carbapenémicos (excepto ertapenem), aztreonam, ciprofloxacino o levofloxacino y aminoglucósidos, y en exacerbaciones graves se suele combinar dos fármacos o usarlos por vía intravenosa durante 14 días. Amoxicilina-clavulánico, doxiciclina y trimetoprima-sulfametoxazol cubren H. influenzae, neumococo y otras bacterias, pero no Pseudomonas; la azitromicina se emplea como tratamiento prolongado inmunomodulador para reducir exacerbaciones, no para tratar la infección aguda por este germen. Perla: ante el primer aislamiento de Pseudomonas se considera tratamiento erradicador, y la ciprofloxacina es la única quinolona oral con buena actividad.",
+      "tema": "Antibiótico en bronquiectasias infectadas por Pseudomonas",
+      "año": 2015,
+      "fuentes": "Polverino E et al., ERS, European Respiratory Society guidelines for the management of adult bronchiectasis, Eur Respir J 2017;50:1700629; Mandell, Douglas y Bennett, Enfermedades infecciosas 9.ª ed. (2020)",
+      "categoria": "Bronquiectasias",
+      "nota_revision": "Se corrigieron nombres de fármacos en las opciones (OCR: «Doxicilina», «Trimetropin+Sulfometoxasol»)."
+    },
+    {
+      "id": "RM-NEU-009",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Mujer de 54 años, desde hace 3 días presenta tos con secreciones verdosas y sensación de alza térmica. Al examen físico: polipneica, SatO2 85 %, Glasgow 13; Rx de tórax: radiopacidad en lóbulo inferior izquierdo; leucocitosis. ¿Cuál es el tratamiento más adecuado?",
+      "opciones": [
+        "Oxigenoterapia, ceftriaxona 2 g EV asociada con azitromicina.",
+        "Oxigenoterapia, ceftriaxona 2 g EV asociada a amikacina.",
+        "Intubación orotraqueal, ciprofloxacino 200 mg EV.",
+        "Ceftriaxona 2 g EV, claritromicina VO por 10 días.",
+        "Ciprofloxacino 400 mg EV, nebulizaciones, un ciclo completo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro es una neumonía adquirida en la comunidad grave: infiltrado lobar, hipoxemia (SatO2 85 %), taquipnea y alteración leve de la conciencia, con criterios menores de gravedad (confusión, FR alta, hipoxemia) que justifican hospitalización y valorar cuidados intensivos. Lo primero es oxigenoterapia para llevar la saturación a 92-96 %. La terapia empírica recomendada para hospitalizados sin factores de riesgo para Pseudomonas ni MRSA es un betalactámico (ceftriaxona 1-2 g al día) más un macrólido (azitromicina) o, en alternativa, una fluoroquinolona respiratoria sola. Esto cubre S. pneumoniae, H. influenzae y atípicos (Mycoplasma, Chlamydophila, Legionella). La amikacina no cubre el neumococo, la intubación no está indicada sin falla ventilatoria, el ciprofloxacino tiene actividad pobre contra neumococo y la vía oral con claritromicina es insuficiente en un cuadro grave. Perla: calcular CURB-65 o PSI para decidir el sitio de atención.",
+      "comentario": "El cuadro es una neumonía adquirida en la comunidad grave: infiltrado lobar, hipoxemia (SatO2 85 %), taquipnea y alteración leve de la conciencia, con criterios menores de gravedad (confusión, FR alta, hipoxemia) que justifican hospitalización y valorar cuidados intensivos. Lo primero es oxigenoterapia para llevar la saturación a 92-96 %. La terapia empírica recomendada para hospitalizados sin factores de riesgo para Pseudomonas ni MRSA es un betalactámico (ceftriaxona 1-2 g al día) más un macrólido (azitromicina) o, en alternativa, una fluoroquinolona respiratoria sola. Esto cubre S. pneumoniae, H. influenzae y atípicos (Mycoplasma, Chlamydophila, Legionella). La amikacina no cubre el neumococo, la intubación no está indicada sin falla ventilatoria, el ciprofloxacino tiene actividad pobre contra neumococo y la vía oral con claritromicina es insuficiente en un cuadro grave. Perla: calcular CURB-65 o PSI para decidir el sitio de atención.",
+      "tema": "Neumonía adquirida en la comunidad con hipoxemia: tratamiento",
+      "año": 2015,
+      "fuentes": "Metlay JP et al., ATS/IDSA, Diagnosis and Treatment of Adults with Community-acquired Pneumonia, Am J Respir Crit Care Med 2019;200:e45-e67; Mandell, Douglas y Bennett, Enfermedades infecciosas 9.ª ed. (2020)",
+      "categoria": "Neumonía",
+      "nota_revision": "Las opciones B-E estaban pegadas en la opción A por el OCR y se separaron; clave A confirmada (ceftriaxona + azitromicina + oxígeno)."
+    },
+    {
+      "id": "RM-NEU-010",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "En un paciente con neumonía adquirida en la comunidad, ¿cuál es el microorganismo causal más frecuente?",
+      "opciones": [
+        "Staphylococcus aureus.",
+        "Mycoplasma.",
+        "Haemophilus influenzae.",
+        "Streptococcus pneumoniae.",
+        "Chlamydia pneumoniae."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Streptococcus pneumoniae es el patógeno bacteriano más frecuente de la neumonía adquirida en la comunidad del adulto, tanto ambulatorio como hospitalizado. En el estudio EPIC de los CDC (Jain, NEJM 2015) con adultos hospitalizados se identificó un agente en menos de la mitad, y los virus (rinovirus, influenza) superaron a las bacterias, pero entre estas el neumococo fue el principal; por eso la clave sigue vigente. Produce un cuadro agudo con fiebre, escalofríos, tos productiva y consolidación lobar con broncograma aéreo; el diagnóstico se apoya en hemocultivo, antígeno urinario y esputo. Mycoplasma pneumoniae y Chlamydophila pneumoniae son atípicos, más frecuentes en jóvenes con cuadros ambulatorios leves; Haemophilus influenzae aparece en EPOC y tabaquistas; Staphylococcus aureus, tras influenza, en usuarios de drogas intravenosas o en neumonía nosocomial. Perla: la vacuna antineumocócica conjugada reduce la enfermedad invasiva en el adulto mayor.",
+      "comentario": "Streptococcus pneumoniae es el patógeno bacteriano más frecuente de la neumonía adquirida en la comunidad del adulto, tanto ambulatorio como hospitalizado. En el estudio EPIC de los CDC (Jain, NEJM 2015) con adultos hospitalizados se identificó un agente en menos de la mitad, y los virus (rinovirus, influenza) superaron a las bacterias, pero entre estas el neumococo fue el principal; por eso la clave sigue vigente. Produce un cuadro agudo con fiebre, escalofríos, tos productiva y consolidación lobar con broncograma aéreo; el diagnóstico se apoya en hemocultivo, antígeno urinario y esputo. Mycoplasma pneumoniae y Chlamydophila pneumoniae son atípicos, más frecuentes en jóvenes con cuadros ambulatorios leves; Haemophilus influenzae aparece en EPOC y tabaquistas; Staphylococcus aureus, tras influenza, en usuarios de drogas intravenosas o en neumonía nosocomial. Perla: la vacuna antineumocócica conjugada reduce la enfermedad invasiva en el adulto mayor.",
+      "tema": "Agente más frecuente de neumonía adquirida en la comunidad",
+      "año": 2015,
+      "fuentes": [
+        "Metlay JP et al., ATS/IDSA, Diagnosis and Treatment of Adults with Community-acquired Pneumonia, Am J Respir Crit Care Med 2019;200:e45-e67",
+        "Jain S et al., Community-acquired pneumonia requiring hospitalization among U.S. adults (N Engl J Med 2015;373:415-27)",
+        "Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+      ],
+      "categoria": "Neumonía"
+    },
+    {
+      "id": "RM-NEU-011",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "En un paciente con neumonía extrahospitalaria, ¿qué características debe tener una muestra de esputo por campo para ser cultivada?",
+      "opciones": [
+        "< 5 neutrófilos y > 15 células epiteliales.",
+        "< 20 neutrófilos y < 20 células epiteliales.",
+        "> 25 neutrófilos y < 10 células epiteliales.",
+        "> 15 neutrófilos y > 10 células epiteliales.",
+        "> 10 neutrófilos y < 20 células epiteliales."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La calidad del esputo se valora con el recuento de células por campo de bajo aumento (100x) en la tinción de Gram, según los criterios de Murray y Washington. Una muestra representativa de vías respiratorias inferiores tiene más de 25 leucocitos polimorfonucleares y menos de 10 células epiteliales escamosas por campo; la presencia de más de 10 células epiteliales indica contaminación con saliva orofaríngea, y esas muestras no deben cultivarse porque los resultados confunden con la flora normal. Las demás combinaciones no cumplen el criterio: menos de 5 neutrófilos o más de 15 células epiteliales indican muestra salival, y 20 células epiteliales es inaceptable. La sensibilidad del esputo es limitada y las guías actuales lo recomiendan en neumonía grave, en la que se sospecha MRSA o Pseudomonas, o tras fracaso del tratamiento. Perla: tomar la muestra antes del primer antibiótico, idealmente la primera de la mañana.",
+      "comentario": "La calidad del esputo se valora con el recuento de células por campo de bajo aumento (100x) en la tinción de Gram, según los criterios de Murray y Washington. Una muestra representativa de vías respiratorias inferiores tiene más de 25 leucocitos polimorfonucleares y menos de 10 células epiteliales escamosas por campo; la presencia de más de 10 células epiteliales indica contaminación con saliva orofaríngea, y esas muestras no deben cultivarse porque los resultados confunden con la flora normal. Las demás combinaciones no cumplen el criterio: menos de 5 neutrófilos o más de 15 células epiteliales indican muestra salival, y 20 células epiteliales es inaceptable. La sensibilidad del esputo es limitada y las guías actuales lo recomiendan en neumonía grave, en la que se sospecha MRSA o Pseudomonas, o tras fracaso del tratamiento. Perla: tomar la muestra antes del primer antibiótico, idealmente la primera de la mañana.",
+      "tema": "Calidad de la muestra de esputo para cultivo",
+      "año": 2015,
+      "fuentes": "Metlay JP et al., ATS/IDSA, Diagnosis and Treatment of Adults with Community-acquired Pneumonia, Am J Respir Crit Care Med 2019;200:e45-e67; Mandell, Douglas y Bennett, Enfermedades infecciosas 9.ª ed. (2020)",
+      "categoria": "Neumonía"
+    },
+    {
+      "id": "RM-NEU-012",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Varón de 58 años con diagnóstico de EPOC, evaluado en consultorio de neumología por 3 días de fiebre de 38 °C y aumento de la tos y la disnea ya existentes. Antecedente de enfisema pulmonar desde hace 5 años. La radiografía de tórax muestra el clásico «tórax en tonel» pero no muestra signos de condensación clásica. La acción inmediata a tomar será:",
+      "opciones": [
+        "Ejercicios respiratorios de exhalación cada dos horas.",
+        "Prescribir antitusígenos.",
+        "Solicitar una espirometría.",
+        "Inicio de antibióticos con actividad en el alveolo.",
+        "Solicitar una tomografía de alta resolución."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón con EPOC y 3 días de fiebre con aumento de la tos y la disnea habituales: es una exacerbación aguda, probablemente infecciosa. La definición GOLD (informes 2025 y 2026) se basa en el empeoramiento de la disnea, la tos o el esputo; los criterios de Anthonisen indican antibiótico cuando están los tres síntomas cardinales (más disnea, más volumen y más purulencia del esputo), o dos si uno es la purulencia, o si se requiere ventilación mecánica. El enunciado no describe el esputo, pero la fiebre orienta a infección bacteriana y no hay condensación que sugiera neumonía; por eso la opción D es la única conducta terapéutica válida de las ofrecidas (amoxicilina-clavulánico, macrólido o doxiciclina por 5 días, con broncodilatadores de acción corta y prednisona 40 mg por 5 días). La espirometría se hace en fase estable; los antitusígenos retienen secreciones; los ejercicios respiratorios no tratan la causa; la TCAR no cambia la conducta inmediata. Perla: la PCR o la procalcitonina ayudan a decidir el antibiótico.",
+      "comentario": "Varón con EPOC y 3 días de fiebre con aumento de la tos y la disnea habituales: es una exacerbación aguda, probablemente infecciosa. La definición GOLD (informes 2025 y 2026) se basa en el empeoramiento de la disnea, la tos o el esputo; los criterios de Anthonisen indican antibiótico cuando están los tres síntomas cardinales (más disnea, más volumen y más purulencia del esputo), o dos si uno es la purulencia, o si se requiere ventilación mecánica. El enunciado no describe el esputo, pero la fiebre orienta a infección bacteriana y no hay condensación que sugiera neumonía; por eso la opción D es la única conducta terapéutica válida de las ofrecidas (amoxicilina-clavulánico, macrólido o doxiciclina por 5 días, con broncodilatadores de acción corta y prednisona 40 mg por 5 días). La espirometría se hace en fase estable; los antitusígenos retienen secreciones; los ejercicios respiratorios no tratan la causa; la TCAR no cambia la conducta inmediata. Perla: la PCR o la procalcitonina ayudan a decidir el antibiótico.",
+      "tema": "EPOC exacerbado con fiebre: conducta inmediata",
+      "año": 2015,
+      "fuentes": [
+        "GOLD, Global Strategy for the Diagnosis, Management and Prevention of COPD (informe 2026)",
+        "Anthonisen NR et al., Antibiotic therapy in exacerbations of COPD (Ann Intern Med 1987;106:196)",
+        "Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+      ],
+      "categoria": "EPOC",
+      "nota_revision": "La redacción «antibióticos con actividad en el alveolo» es del libro; se mantiene la clave D, que es la única conducta terapéutica válida entre las opciones. Clave D conservada: sin datos del esputo, Anthonisen no es aplicable de forma estricta, pero D es la única conducta terapéutica entre las opciones."
+    },
+    {
+      "id": "RM-NEU-013",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Adulto mayor, obeso, hipertenso, con bronquitis crónica; hace 7 días presenta fiebre, disnea y tos. Examen físico: T 37,5 °C, FR 28/min. Rx de tórax: infiltrado alveolar en base de hemitórax derecho. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Bronconeumonía.",
+        "Tromboembolismo pulmonar.",
+        "EPOC infectado.",
+        "Neumonía adquirida en la comunidad.",
+        "Tuberculosis pulmonar."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La neumonía adquirida en la comunidad se define por síntomas respiratorios agudos (fiebre, tos, disnea, taquipnea) con un infiltrado nuevo en la radiografía, en un paciente que no ha estado hospitalizado recientemente. Aquí el infiltrado alveolar en la base derecha, la fiebre y la FR de 28/min configuran el diagnóstico; el agente más probable es S. pneumoniae. El EPOC infectado (exacerbación) cursa con aumento de la disnea y el esputo pero sin infiltrado nuevo; la bronconeumonía describe un patrón radiológico multifocal y no un infiltrado único basal; el tromboembolismo pulmonar produce disnea súbita, dolor pleurítico y hipoxemia, con riesgo asociado a obesidad, aunque la fiebre es leve; la tuberculosis tiene curso subacutáneo con infiltrado apical o cavitado. Se estratifica la gravedad con CURB-65 y se trata con betalactámico más macrólido o con fluoroquinolona. Perla: la radiografía de control no es necesaria si hay buena evolución.",
+      "comentario": "La neumonía adquirida en la comunidad se define por síntomas respiratorios agudos (fiebre, tos, disnea, taquipnea) con un infiltrado nuevo en la radiografía, en un paciente que no ha estado hospitalizado recientemente. Aquí el infiltrado alveolar en la base derecha, la fiebre y la FR de 28/min configuran el diagnóstico; el agente más probable es S. pneumoniae. El EPOC infectado (exacerbación) cursa con aumento de la disnea y el esputo pero sin infiltrado nuevo; la bronconeumonía describe un patrón radiológico multifocal y no un infiltrado único basal; el tromboembolismo pulmonar produce disnea súbita, dolor pleurítico y hipoxemia, con riesgo asociado a obesidad, aunque la fiebre es leve; la tuberculosis tiene curso subacutáneo con infiltrado apical o cavitado. Se estratifica la gravedad con CURB-65 y se trata con betalactámico más macrólido o con fluoroquinolona. Perla: la radiografía de control no es necesaria si hay buena evolución.",
+      "tema": "Neumonía adquirida en la comunidad lobar en adulto mayor con bronquitis crónica",
+      "año": 2015,
+      "fuentes": "Metlay JP et al., ATS/IDSA, Diagnosis and Treatment of Adults with Community-acquired Pneumonia, Am J Respir Crit Care Med 2019;200:e45-e67; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Neumonía"
+    },
+    {
+      "id": "RM-NEU-014",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Varón de 50 años refiere tos con expectoración blanquecina, diaforesis vespertina y pérdida de peso desde hace un mes. Examen: murmullo vesicular pasa bien en ambos campos pulmonares, sin estertores patológicos. Radiografía de tórax: infiltrado apical derecho. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tuberculosis pulmonar.",
+        "Aspergilosis pulmonar.",
+        "Neumonía atípica.",
+        "EPOC.",
+        "Silicosis."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La tuberculosis pulmonar es una infección por Mycobacterium tuberculosis que se sospecha en todo sintomático respiratorio, es decir, una persona con tos y expectoración por más de 15 días, y más aún si hay síntomas constitucionales como sudoración nocturna, fiebre vespertina y pérdida de peso. El infiltrado apical o en segmentos posteriores de los lóbulos superiores es el patrón de reactivación posprimaria, a menudo con cavitación. Se confirma con baciloscopía y cultivo, o con pruebas moleculares rápidas (Xpert MTB/RIF Ultra), que en Perú se usan según la norma nacional. La aspergilosis exige cavidades previas; la neumonía atípica evoluciona en días con infiltrado intersticial; el EPOC cursa con tos crónica y obstrucción, no con adelgazamiento ni sudoración; la silicosis requiere exposición ocupacional a sílice y nódulos difusos. El esquema de primera línea es 2HRZE/4HR. Perla: la tuberculosis se notifica obligatoriamente y se estudian los contactos.",
+      "comentario": "La tuberculosis pulmonar es una infección por Mycobacterium tuberculosis que se sospecha en todo sintomático respiratorio, es decir, una persona con tos y expectoración por más de 15 días, y más aún si hay síntomas constitucionales como sudoración nocturna, fiebre vespertina y pérdida de peso. El infiltrado apical o en segmentos posteriores de los lóbulos superiores es el patrón de reactivación posprimaria, a menudo con cavitación. Se confirma con baciloscopía y cultivo, o con pruebas moleculares rápidas (Xpert MTB/RIF Ultra), que en Perú se usan según la norma nacional. La aspergilosis exige cavidades previas; la neumonía atípica evoluciona en días con infiltrado intersticial; el EPOC cursa con tos crónica y obstrucción, no con adelgazamiento ni sudoración; la silicosis requiere exposición ocupacional a sílice y nódulos difusos. El esquema de primera línea es 2HRZE/4HR. Perla: la tuberculosis se notifica obligatoriamente y se estudian los contactos.",
+      "tema": "Sintomático respiratorio con infiltrado apical",
+      "año": 2016,
+      "fuentes": "MINSA, NTS 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis); OMS, Consolidated guidelines on tuberculosis (módulos 2022-2025); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Tuberculosis"
+    },
+    {
+      "id": "RM-NEU-015",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Qué segmentos pulmonares compromete típicamente la tuberculosis posprimaria o del adulto?",
+      "opciones": [
+        "Apicales y posteriores de lóbulos superiores.",
+        "Anteriores y laterales de lóbulos inferiores.",
+        "Superiores y basales de lóbulos medios.",
+        "Superiores y basales medios de lóbulos inferiores.",
+        "Anteriores y lingulares de lóbulos inferiores."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La tuberculosis posprimaria, de reactivación o del adulto, resulta de la reactivación de focos latentes sembrados durante la primoinfección o de una reinfección. Mycobacterium tuberculosis es aerobio estricto y encuentra su mejor ambiente en las zonas con mayor tensión de oxígeno, los segmentos apicales y posteriores de los lóbulos superiores y el segmento superior del lóbulo inferior, donde la ventilación supera a la perfusión. Allí se forman infiltrados, cavernas y fibrosis con retracción. La tuberculosis primaria, en cambio, suele afectar el parénquima medio o basal, con adenopatías hiliares (complejo de Ghon). Los lóbulos inferiores, el medio y la língula son sitios atípicos que obligan a pensar en inmunosupresión por VIH o diabetes. Perla: una cavidad apical con esputo positivo es altamente bacilífera y requiere aislamiento respiratorio.",
+      "comentario": "La tuberculosis posprimaria, de reactivación o del adulto, resulta de la reactivación de focos latentes sembrados durante la primoinfección o de una reinfección. Mycobacterium tuberculosis es aerobio estricto y encuentra su mejor ambiente en las zonas con mayor tensión de oxígeno, los segmentos apicales y posteriores de los lóbulos superiores y el segmento superior del lóbulo inferior, donde la ventilación supera a la perfusión. Allí se forman infiltrados, cavernas y fibrosis con retracción. La tuberculosis primaria, en cambio, suele afectar el parénquima medio o basal, con adenopatías hiliares (complejo de Ghon). Los lóbulos inferiores, el medio y la língula son sitios atípicos que obligan a pensar en inmunosupresión por VIH o diabetes. Perla: una cavidad apical con esputo positivo es altamente bacilífera y requiere aislamiento respiratorio.",
+      "tema": "Localización típica de la TB posprimaria",
+      "año": 2016,
+      "fuentes": "OMS, Consolidated Guidelines on Tuberculosis, Module 3: Diagnosis (2025); ATS/CDC/ERS/IDSA, Diagnosis of tuberculosis in adults and children (Clin Infect Dis 2017;64:e1); NTS 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis, 1.ª ed. 2025); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Tuberculosis"
+    },
+    {
+      "id": "RM-NEU-016",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes poblaciones son consideradas de alto riesgo para infección por tuberculosis y deben recibir tratamiento preventivo?",
+      "opciones": [
+        "Contactos VIH (+) con PPD mayor de 5 mm.",
+        "Fumadores crónicos con fibrosis pulmonar.",
+        "Usuarios de drogas por vía oral.",
+        "Convertidores recientes de tuberculina mayor de 5 mm.",
+        "Personal de salud con reacción de PPD mayor de 5 mm."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El tratamiento preventivo de la tuberculosis está dirigido a las personas con infección latente que tienen alto riesgo de progresar a enfermedad. Los contactos con VIH son de máxima prioridad porque la inmunosupresión multiplica por 20 o más el riesgo de reactivación, y la OMS recomienda tratarlos con independencia del resultado de la tuberculina. En ellos un PPD de 5 mm o más se considera positivo, mientras que en inmunocompetentes el punto de corte es de 10 mm, y de 15 mm en personas de bajo riesgo. Convertidores recientes y personal de salud usan el umbral de 10 mm; la fibrosis fumadora o el consumo oral de drogas no son indicaciones por sí solos. Se descarta primero enfermedad activa con síntomas y radiografía. Perla: los esquemas disponibles son isoniacida 6 meses o rifapentina-isoniacida semanal por 3 meses.",
+      "comentario": "El tratamiento preventivo de la tuberculosis está dirigido a las personas con infección latente que tienen alto riesgo de progresar a enfermedad. Los contactos con VIH son de máxima prioridad porque la inmunosupresión multiplica por 20 o más el riesgo de reactivación, y la OMS recomienda tratarlos con independencia del resultado de la tuberculina. En ellos un PPD de 5 mm o más se considera positivo, mientras que en inmunocompetentes el punto de corte es de 10 mm, y de 15 mm en personas de bajo riesgo. Convertidores recientes y personal de salud usan el umbral de 10 mm; la fibrosis fumadora o el consumo oral de drogas no son indicaciones por sí solos. Se descarta primero enfermedad activa con síntomas y radiografía. Perla: los esquemas disponibles son isoniacida 6 meses o rifapentina-isoniacida semanal por 3 meses.",
+      "tema": "Tratamiento preventivo de TB en VIH y PPD",
+      "año": 2017,
+      "fuentes": "OMS, Consolidated Guidelines on Tuberculosis, Module 1: Prevention (2024); NTS 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis, 1.ª ed. 2025); CDC/ATS, Targeted tuberculin testing and treatment of latent TB infection (MMWR 2000;49 RR-6); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Tuberculosis",
+      "nota_revision": "Se limpió un fragmento de texto residual en la opción B."
+    },
+    {
+      "id": "RM-NEU-017",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Varón de 35 años presenta tos esporádica con expectoración hemoptoica. Antecedente de TB pulmonar hace 5 años, con tratamiento completo. Examen: IMC 28; FR 22 por minuto; FC 90 por minuto. Tórax: vibraciones vocales aumentadas en el tercio superior del hemitórax derecho. BK en esputo negativo. TAC de tórax: cavidad en región infraclavicular derecha que contiene una imagen hipodensa. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Adenocarcinoma.",
+        "Absceso piógeno.",
+        "Aspergiloma.",
+        "Hidatidosis pulmonar.",
+        "Nódulo de Kaplan."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El aspergiloma o bola fúngica es una masa de hifas de Aspergillus, fibrina y detritus que coloniza una cavidad preexistente, siendo la más frecuente la caverna residual de una tuberculosis, además de sarcoidosis o bronquiectasias. Se manifiesta con hemoptisis recurrente, a veces masiva, y en la imagen aparece una masa móvil dentro de la cavidad con un halo de aire en forma de menisco (signo del creciente aéreo). El BK negativo con tuberculosis tratada descarta recaída activa. El adenocarcinoma produce nódulos o masas sólidas; el absceso piógeno tiene fiebre y nivel hidroaéreo; la hidatidosis forma quiste con signo del camalote; el nódulo de Kaplan es neumoconiosis reumatoidea. El diagnóstico se apoya en IgG precipitante o antígeno de Aspergillus. Perla: el tratamiento de la hemoptisis grave es embolización bronquial o resección.",
+      "comentario": "El aspergiloma o bola fúngica es una masa de hifas de Aspergillus, fibrina y detritus que coloniza una cavidad preexistente, siendo la más frecuente la caverna residual de una tuberculosis, además de sarcoidosis o bronquiectasias. Se manifiesta con hemoptisis recurrente, a veces masiva, y en la imagen aparece una masa móvil dentro de la cavidad con un halo de aire en forma de menisco (signo del creciente aéreo). El BK negativo con tuberculosis tratada descarta recaída activa. El adenocarcinoma produce nódulos o masas sólidas; el absceso piógeno tiene fiebre y nivel hidroaéreo; la hidatidosis forma quiste con signo del camalote; el nódulo de Kaplan es neumoconiosis reumatoidea. El diagnóstico se apoya en IgG precipitante o antígeno de Aspergillus. Perla: el tratamiento de la hemoptisis grave es embolización bronquial o resección.",
+      "tema": "Aspergiloma sobre caverna tuberculosa",
+      "año": 2017,
+      "fuentes": "ERS/ESCMID, Chronic pulmonary aspergillosis guideline (Eur Respir J 2016;47:45); IDSA, Aspergillosis guideline (Clin Infect Dis 2016;63:e1); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Micosis pulmonares"
+    },
+    {
+      "id": "RM-NEU-018",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, refiere desde hace 3 semanas tos seca y dolor torácico tipo hincada en cara posterior de hemitórax derecho que aumenta con la respiración profunda. Examen: vibraciones vocales y murmullo vesicular abolidos en base de hemitórax derecho. Rx de tórax: derrame pleural derecho. BK en esputo negativo. ADA en líquido pleural aumentado. ¿Qué estudio solicita para confirmar el diagnóstico?",
+      "opciones": [
+        "Biopsia pleural.",
+        "TAC pulmonar.",
+        "AGA.",
+        "RMN de tórax.",
+        "BK en jugo gástrico."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un exudado pleural linfocitario en una persona joven con ADA elevada (más de 40 U/L) es muy sugestivo de pleuritis tuberculosa, pero el ADA no es confirmatorio: también sube en empiema, linfomas y artritis reumatoide. El BK del líquido tiene baja sensibilidad, menos de 10 %, y el cultivo, cerca de 25-30 %. La confirmación se logra con biopsia pleural (con aguja de Abrams o por toracoscopia), que muestra granulomas caseificantes y mejora el rendimiento hasta el 80-90 %, y el cultivo permite además la sensibilidad. La TAC y la resonancia describen anatomía pero no dan diagnóstico etiológico, la gasometría arterial mide oxigenación y el jugo gástrico es útil en niños que no expectoran. Perla: el derrame tuberculoso es una reacción de hipersensibilidad y suele resolver, pero sin tratamiento un alto porcentaje desarrolla TB pulmonar en 5 años.",
+      "comentario": "Un exudado pleural linfocitario en una persona joven con ADA elevada (más de 40 U/L) es muy sugestivo de pleuritis tuberculosa, pero el ADA no es confirmatorio: también sube en empiema, linfomas y artritis reumatoide. El BK del líquido tiene baja sensibilidad, menos de 10 %, y el cultivo, cerca de 25-30 %. La confirmación se logra con biopsia pleural (con aguja de Abrams o por toracoscopia), que muestra granulomas caseificantes y mejora el rendimiento hasta el 80-90 %, y el cultivo permite además la sensibilidad. La TAC y la resonancia describen anatomía pero no dan diagnóstico etiológico, la gasometría arterial mide oxigenación y el jugo gástrico es útil en niños que no expectoran. Perla: el derrame tuberculoso es una reacción de hipersensibilidad y suele resolver, pero sin tratamiento un alto porcentaje desarrolla TB pulmonar en 5 años.",
+      "tema": "Pleuritis tuberculosa: confirmación diagnóstica",
+      "año": 2017,
+      "fuentes": "ATS/CDC/ERS/IDSA, Diagnosis of tuberculosis in adults and children (Clin Infect Dis 2017;64:e1); OMS, Consolidated Guidelines on Tuberculosis, Module 3: Diagnosis (2025); NTS 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis, 1.ª ed. 2025); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Tuberculosis",
+      "nota_revision": "Se corrigió el OCR del enunciado («BK en esputo negativo. ADA…»)."
+    },
+    {
+      "id": "RM-NEU-019",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 70 años que ha estado sano en los últimos 3 meses y viene a consulta porque hace 3 días presenta fiebre precedida de escalofríos y tos productiva con expectoración purulenta. Examen: T 38 °C, PA 130/80 mmHg, FC 100 por minuto, FR 24 por minuto, pulmones: crepitantes en tercio medio de hemitórax izquierdo, roncus en ambos hemitórax. ¿Cuál es el tratamiento empírico de inicio?",
+      "opciones": [
+        "Claritromicina 500 mg VO 2 veces al día.",
+        "Cefotaxima 2 g IV cada 8 horas.",
+        "Amoxicilina/ácido clavulánico 2 g VO 2 veces al día.",
+        "Amoxicilina 1 g VO cada 8 horas.",
+        "Moxifloxacino 400 mg VO al día."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Varón de 70 años, previamente sano, con neumonía adquirida en la comunidad leve: CURB-65 de 1 punto (edad de 65 años o más; la frecuencia respiratoria de 24 no llega a 30) y manejo ambulatorio. La guía ATS/IDSA 2019 recomienda en adultos ambulatorios sin comorbilidades amoxicilina 1 g tres veces al día como primera elección (recomendación fuerte); la doxiciclina o un macrólido son alternativas condicionales, y el macrólido solo si la resistencia neumocócica local es menor del 25 %. Por eso la claritromicina ya no es la mejor respuesta. La amoxicilina/clavulánico y las fluoroquinolonas, como el moxifloxacino, se reservan para pacientes con comorbilidades por el riesgo de efectos adversos (tendinopatía, QT), y la cefotaxima es parenteral e implica hospitalización. Perla: la edad por sí sola no es comorbilidad, pero se pide radiografía de tórax para confirmar el infiltrado y se reevalúa a las 48 a 72 horas.",
+      "comentario": "Varón de 70 años, previamente sano, con neumonía adquirida en la comunidad leve: CURB-65 de 1 punto (edad de 65 años o más; la frecuencia respiratoria de 24 no llega a 30) y manejo ambulatorio. La guía ATS/IDSA 2019 recomienda en adultos ambulatorios sin comorbilidades amoxicilina 1 g tres veces al día como primera elección (recomendación fuerte); la doxiciclina o un macrólido son alternativas condicionales, y el macrólido solo si la resistencia neumocócica local es menor del 25 %. Por eso la claritromicina ya no es la mejor respuesta. La amoxicilina/clavulánico y las fluoroquinolonas, como el moxifloxacino, se reservan para pacientes con comorbilidades por el riesgo de efectos adversos (tendinopatía, QT), y la cefotaxima es parenteral e implica hospitalización. Perla: la edad por sí sola no es comorbilidad, pero se pide radiografía de tórax para confirmar el infiltrado y se reevalúa a las 48 a 72 horas.",
+      "tema": "Neumonía adquirida en la comunidad ambulatoria sin comorbilidades",
+      "año": 2019,
+      "fuentes": [
+        "Metlay JP et al., ATS/IDSA, Diagnosis and treatment of adults with community-acquired pneumonia (Am J Respir Crit Care Med 2019;200:e45)",
+        "Jones BE et al., ATS, Diagnosis and management of community-acquired pneumonia (Am J Respir Crit Care Med 2025, doi:10.1164/rccm.202507-1692ST)",
+        "Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+      ],
+      "categoria": "Neumonía",
+      "nota_revision": "CONTRADICCION parcial: ATS/IDSA 2019 y GPC EsSalud N.° 79 (2025) prefieren amoxicilina 1 g; el macrólido es solo alternativa condicional y no hay opción con amoxicilina 1 g. Se conserva A (clave del libro). Enunciado reconstruido con la página. Clave del libro: A (claritromicina); corregida a D (amoxicilina 1 g cada 8 h, opción que reemplaza a cefuroxima) según ATS/IDSA 2019: amoxicilina es la recomendación fuerte y el macrólido solo condicional con resistencia neumocócica <25 %."
+    },
+    {
+      "id": "RM-NEU-020",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "En la neumonía adquirida en la comunidad, los criterios de CURB-65 identifican la neumonía grave, con indicación de valorar el internamiento en la unidad de cuidados intensivos, en los pacientes que alcanzan una puntuación de:",
+      "opciones": [
+        "≥ 1,5.",
+        "0.",
+        "≥ 1.",
+        "≥ 2.",
+        "≥ 3."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La escala CURB-65 asigna un punto a cada uno de cinco factores: confusión, urea mayor de 7 mmol/L (BUN mayor de 19 mg/dL), frecuencia respiratoria de 30 por minuto o más, presión arterial sistólica menor de 90 o diastólica de 60 mmHg o menos, y edad de 65 años o más. La mortalidad a 30 días es de alrededor de 0,6 % con 0 puntos, 2,7 % con 1, 6,8 % con 2, 14 % con 3 y más de 27 % con 4 a 5. Con 0 a 1 punto se trata ambulatoriamente, con 2 se hospitaliza en sala y con 3 o más se considera neumonía grave con mal pronóstico y se valora ingreso a cuidados intensivos, que es la respuesta esperada por la pregunta. Las opciones de 0, 1 y 2 puntos corresponden a manejo ambulatorio o de sala; la puntuación 1,5 no existe, pues la escala es entera. Perla: la ATS/IDSA 2019 emplea los criterios mayores y menores para decidir la UCI, y el CURB-65 no sustituye el juicio clínico.",
+      "comentario": "La escala CURB-65 asigna un punto a cada uno de cinco factores: confusión, urea mayor de 7 mmol/L (BUN mayor de 19 mg/dL), frecuencia respiratoria de 30 por minuto o más, presión arterial sistólica menor de 90 o diastólica de 60 mmHg o menos, y edad de 65 años o más. La mortalidad a 30 días es de alrededor de 0,6 % con 0 puntos, 2,7 % con 1, 6,8 % con 2, 14 % con 3 y más de 27 % con 4 a 5. Con 0 a 1 punto se trata ambulatoriamente, con 2 se hospitaliza en sala y con 3 o más se considera neumonía grave con mal pronóstico y se valora ingreso a cuidados intensivos, que es la respuesta esperada por la pregunta. Las opciones de 0, 1 y 2 puntos corresponden a manejo ambulatorio o de sala; la puntuación 1,5 no existe, pues la escala es entera. Perla: la ATS/IDSA 2019 emplea los criterios mayores y menores para decidir la UCI, y el CURB-65 no sustituye el juicio clínico.",
+      "tema": "CURB-65 y criterio de cuidados intensivos",
+      "año": 2019,
+      "fuentes": "Metlay JP et al., ATS/IDSA, Diagnosis and treatment of adults with community-acquired pneumonia (Am J Respir Crit Care Med 2019;200:e45); Lim WS et al., Defining community acquired pneumonia severity on presentation to hospital (Thorax 2003;58:377); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Neumonía",
+      "nota_revision": "Las opciones estaban pegadas por OCR; se reconstruyeron con la imagen (A figura «≥ 1,5» en el libro). Clave E conservada. Redacción corregida: el enunciado hablaba de internamiento «indispensable» en UCI; CURB-65 ≥3 define neumonía grave y se valora UCI (ATS/IDSA 2019 usa criterios mayores/menores)."
     }
   ]
 }

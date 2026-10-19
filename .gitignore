@@ -6,3 +6,7 @@ config.php
 
 # base de datos de cuentas (nunca a Git)
 cuenta_datos/
+
+# Cachés de Python
+__pycache__/
+*.pyc

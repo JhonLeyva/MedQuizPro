@@ -1505,6 +1505,113 @@
       "comentario": "El cuadro es una urticaria aguda: habones, esas ronchas rojas y elevadas que pican mucho y son fugaces, aparecen y desaparecen en menos de un día, desencadenados por la ingesta de mariscos, un alérgeno frecuente. Y el dato tranquilizador que define la conducta es que la reacción se quedó en la piel: no hay compromiso respiratorio, ni caída de la presión, ni ningún signo de que la reacción alérgica haya progresado a algo sistémico y grave. Una urticaria aislada, sin síntomas de anafilaxia, se trata de forma sencilla: un antihistamínico oral para bloquear la histamina que produce las ronchas y el picor, junto con la indicación de evitar el alimento que la provocó, y educar al paciente sobre los signos de alarma por si en el futuro apareciera algo más serio. Por eso esa es la conducta. La adrenalina intramuscular con derivación a emergencia es el tratamiento de la anafilaxia, la reacción alérgica grave con compromiso de la vía aérea, la respiración o la circulación; usarla en una urticaria simple, sin ninguno de esos signos, es desproporcionado, porque la adrenalina se reserva para la emergencia real. Los corticoides intravenosos son un tratamiento de segunda línea o para casos más severos, excesivo para una urticaria leve que responde a los antihistamínicos orales. Solicitar estudios antes de iniciar el tratamiento no tiene sentido: el diagnóstico de la urticaria es clínico y el desencadenante es evidente, así que retrasar el alivio del paciente para pedir análisis es innecesario; lo correcto es dar el antihistamínico y evitar el alimento. Urticaria aguda (habones fugaces y pruriginosos) por un alimento, sin dificultad respiratoria ni compromiso hemodinámico = antihistamínico oral y evitar el alimento sospechoso. La adrenalina se reserva para la anafilaxia (compromiso de vía aérea, respiración o circulación), que aquí no existe.",
       "tema": "Urticaria aguda sin anafilaxia: antihistamínico oral",
       "año": 2026
+    },
+    {
+      "id": "RM-REU-001",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Qué lesión caracteriza al acné juvenil grado III?",
+      "opciones": [
+        "Pústula.",
+        "Pápulas.",
+        "Comedones.",
+        "Nódulos.",
+        "Nódulo quiste."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El acné vulgar es una enfermedad inflamatoria crónica de la unidad pilosebácea, que se debe a hiperproducción de sebo, hiperqueratinización folicular, colonización por Cutibacterium acnes e inflamación. En la clasificación clásica por grados, el I es comedogénico (comedones abiertos y cerrados), el II es papuloso (comedones y pápulas), el III es pustuloso (se suman las pústulas) y el IV es nodular o nodulo-quístico, con riesgo alto de cicatrices. La lesión que define el grado III es, por tanto, la pústula. Las opciones de pápulas y comedones corresponden a grados previos, y los nódulos y quistes al grado IV. Las guías actuales prefieren clasificar el acné por gravedad (leve, moderado y grave) y por el tipo de lesión predominante, pero esta gradación sigue siendo útil para el examen. Perla: el acné nodular grave o con cicatrices es indicación de isotretinoína oral, con control de embarazo.",
+      "comentario": "El acné vulgar es una enfermedad inflamatoria crónica de la unidad pilosebácea, que se debe a hiperproducción de sebo, hiperqueratinización folicular, colonización por Cutibacterium acnes e inflamación. En la clasificación clásica por grados, el I es comedogénico (comedones abiertos y cerrados), el II es papuloso (comedones y pápulas), el III es pustuloso (se suman las pústulas) y el IV es nodular o nodulo-quístico, con riesgo alto de cicatrices. La lesión que define el grado III es, por tanto, la pústula. Las opciones de pápulas y comedones corresponden a grados previos, y los nódulos y quistes al grado IV. Las guías actuales prefieren clasificar el acné por gravedad (leve, moderado y grave) y por el tipo de lesión predominante, pero esta gradación sigue siendo útil para el examen. Perla: el acné nodular grave o con cicatrices es indicación de isotretinoína oral, con control de embarazo.",
+      "tema": "Lesión característica del acné grado III",
+      "año": 2014,
+      "fuentes": "AAD, Guidelines of care for the management of acne vulgaris (Reynolds, JAAD 2024); Fitzpatrick Dermatología 9.ª ed.",
+      "categoria": "Dermatología",
+      "nota_revision": "Clave A sin cambio: las clasificaciones por grados discrepan (en otras, el grado III es nodular y el IV nódulo-quístico); la AAD 2024 ya no usa grados. Se mantiene la del libro (III pustuloso)."
+    },
+    {
+      "id": "RM-REU-002",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Adolescente de 15 años presenta desde hace 2 años en el tronco las siguientes lesiones: pápulas, pústulas, comedones y lesiones nódulo-quísticas. ¿Cuál es el tratamiento tópico de primera elección?",
+      "opciones": [
+        "Peróxido de benzoilo.",
+        "Clindamicina gel.",
+        "Retinoides.",
+        "Ácido azelaico 20 %.",
+        "Azufre."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El acné con comedones, pápulas, pústulas y nódulos combina un componente comedogénico y otro inflamatorio. Los retinoides tópicos (tretinoína, adapaleno, tazaroteno) normalizan la queratinización folicular, resuelven el comedón (la lesión inicial) y tienen efecto antiinflamatorio, por lo que son la base de la terapia tópica y se recomiendan con fuerza en todo grado de acné, en combinación con peróxido de benzoilo o antibiótico tópico. El peróxido de benzoilo es bactericida y no genera resistencia, la clindamicina nunca debe usarse sola por riesgo de resistencia, el ácido azelaico es alternativa en pacientes que no toleran otros fármacos o con hiperpigmentación posinflamatoria, y el azufre tiene poca evidencia. Si hay lesiones nódulo-quísticas o cicatrices se agrega tratamiento sistémico: doxiciclina o isotretinoína. Perla: los retinoides irritan y son teratogénicos, se aplican de noche y se acompañan de fotoprotección.",
+      "comentario": "El acné con comedones, pápulas, pústulas y nódulos combina un componente comedogénico y otro inflamatorio. Los retinoides tópicos (tretinoína, adapaleno, tazaroteno) normalizan la queratinización folicular, resuelven el comedón (la lesión inicial) y tienen efecto antiinflamatorio, por lo que son la base de la terapia tópica y se recomiendan con fuerza en todo grado de acné, en combinación con peróxido de benzoilo o antibiótico tópico. El peróxido de benzoilo es bactericida y no genera resistencia, la clindamicina nunca debe usarse sola por riesgo de resistencia, el ácido azelaico es alternativa en pacientes que no toleran otros fármacos o con hiperpigmentación posinflamatoria, y el azufre tiene poca evidencia. Si hay lesiones nódulo-quísticas o cicatrices se agrega tratamiento sistémico: doxiciclina o isotretinoína. Perla: los retinoides irritan y son teratogénicos, se aplican de noche y se acompañan de fotoprotección.",
+      "tema": "Tratamiento tópico de primera línea del acné inflamatorio",
+      "año": 2014,
+      "fuentes": "AAD, Guidelines of care for the management of acne vulgaris (Reynolds, JAAD 2024); EDF, S3 guideline for the treatment of acne (Nast 2016)",
+      "categoria": "Dermatología",
+      "nota_revision": "Con nódulos y quistes la práctica actual añade isotretinoína oral; entre las opciones tópicas la clave del libro, retinoides, es la correcta."
+    },
+    {
+      "id": "RM-REU-003",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Adolescente de 15 años con acné presenta en la cara lesiones: comedones, pústulas, pápulas y nódulos. ¿Cuál es el grado de acné?",
+      "opciones": [
+        "Leve.",
+        "Moderado.",
+        "Moderadamente grave.",
+        "Moderadamente leve.",
+        "Grave."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La gravedad del acné se establece por el tipo y el número de lesiones. Es leve cuando predominan comedones y hay pocas lesiones inflamatorias papulopustulosas superficiales; moderado cuando las lesiones inflamatorias superficiales y profundas son más numerosas; y grave cuando aparecen nódulos o quistes, o hay un número muy elevado de lesiones inflamatorias, con tendencia a dejar cicatrices. En este adolescente la presencia de nódulos clasifica el acné como grave, y esto cambia la conducta: los tratamientos tópicos solos son insuficientes y se plantea isotretinoína oral o antibiótico oral con retinoide tópico y peróxido de benzoilo. Las categorías «moderadamente grave» y «moderadamente leve» no forman parte de las clasificaciones habituales y funcionan como distractores. Perla: antes de isotretinoína se requiere control de transaminasas y lípidos y, en mujeres, test de embarazo negativo y anticoncepción eficaz.",
+      "comentario": "La gravedad del acné se establece por el tipo y el número de lesiones. Es leve cuando predominan comedones y hay pocas lesiones inflamatorias papulopustulosas superficiales; moderado cuando las lesiones inflamatorias superficiales y profundas son más numerosas; y grave cuando aparecen nódulos o quistes, o hay un número muy elevado de lesiones inflamatorias, con tendencia a dejar cicatrices. En este adolescente la presencia de nódulos clasifica el acné como grave, y esto cambia la conducta: los tratamientos tópicos solos son insuficientes y se plantea isotretinoína oral o antibiótico oral con retinoide tópico y peróxido de benzoilo. Las categorías «moderadamente grave» y «moderadamente leve» no forman parte de las clasificaciones habituales y funcionan como distractores. Perla: antes de isotretinoína se requiere control de transaminasas y lípidos y, en mujeres, test de embarazo negativo y anticoncepción eficaz.",
+      "tema": "Clasificación de gravedad del acné",
+      "año": 2015,
+      "fuentes": "AAD, Guidelines of care for the management of acne vulgaris (Reynolds, JAAD 2024); Fitzpatrick Dermatología 9.ª ed.",
+      "categoria": "Dermatología"
+    },
+    {
+      "id": "RM-REU-004",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "La dermatitis atópica es una afección cutánea crónica caracterizada por disfunción de la barrera epidérmica y de los linfocitos T. ¿Con cuál de las siguientes enfermedades se relaciona?",
+      "opciones": [
+        "Dermatitis seborreica.",
+        "Eccema atópico.",
+        "Sarna.",
+        "Dermatitis por contacto.",
+        "Linfoma T cutáneo."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La dermatitis atópica es una enfermedad inflamatoria crónica y recidivante de la piel, causada por la disfunción de la barrera epidérmica (mutaciones de filagrina) y una respuesta inmune de tipo 2 (linfocitos Th2, IL-4, IL-13, IL-31). Clínicamente produce prurito intenso, lesiones eccematosas con exudado y costras en la fase aguda y liquenificación en la crónica, con distribución según la edad: mejillas en el lactante, pliegues en el niño. Por ello se la conoce también como eccema atópico, términos prácticamente sinónimos. Forma parte de la «marcha atópica» junto con asma y rinitis alérgica. La dermatitis seborreica afecta la zona central de la cara y el cuero cabelludo sin prurito importante; la sarna se debe a Sarcoptes scabiei; la dermatitis de contacto depende de un alérgeno o irritante; y el linfoma T cutáneo es una neoplasia aparte, que no es consecuencia de la dermatitis atópica. Perla: los emolientes diarios son la base del tratamiento.",
+      "comentario": "La dermatitis atópica es una enfermedad inflamatoria crónica y recidivante de la piel, causada por la disfunción de la barrera epidérmica (mutaciones de filagrina) y una respuesta inmune de tipo 2 (linfocitos Th2, IL-4, IL-13, IL-31). Clínicamente produce prurito intenso, lesiones eccematosas con exudado y costras en la fase aguda y liquenificación en la crónica, con distribución según la edad: mejillas en el lactante, pliegues en el niño. Por ello se la conoce también como eccema atópico, términos prácticamente sinónimos. Forma parte de la «marcha atópica» junto con asma y rinitis alérgica. La dermatitis seborreica afecta la zona central de la cara y el cuero cabelludo sin prurito importante; la sarna se debe a Sarcoptes scabiei; la dermatitis de contacto depende de un alérgeno o irritante; y el linfoma T cutáneo es una neoplasia aparte, que no es consecuencia de la dermatitis atópica. Perla: los emolientes diarios son la base del tratamiento.",
+      "tema": "Dermatitis atópica y eccema atópico",
+      "año": 2015,
+      "fuentes": "AAD, Guidelines of care for atopic dermatitis in adults: terapias tópicas (Sidbury, JAAD 2023), fototerapia y sistémicas (Davis, JAAD 2024) y actualización focalizada (Davis, JAAD 2025); Fitzpatrick Dermatología 9.ª ed.",
+      "categoria": "Dermatología"
+    },
+    {
+      "id": "RM-REU-005",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la articulación más afectada en una artritis infecciosa?",
+      "opciones": [
+        "Hombro.",
+        "Muñeca.",
+        "Tobillo.",
+        "Rodilla.",
+        "Cadera."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La artritis séptica bacteriana es una urgencia médica que destruye el cartílago en pocos días. En adultos afecta una sola articulación en cerca del 90 % de los casos, y la rodilla es la más frecuente (alrededor de la mitad), seguida de cadera, hombro, muñeca y tobillo. El agente más común es Staphylococcus aureus, incluido el resistente a meticilina; en jóvenes sexualmente activos se debe pensar en Neisseria gonorrhoeae, que suele dar poliartralgia migratoria con tenosinovitis y lesiones cutáneas. La clínica es fiebre, dolor intenso, derrame, calor y limitación del movimiento activo y pasivo. El diagnóstico se hace con artrocentesis, con recuento mayor de 50 000 células/mm3 y cultivo; los hemocultivos se solicitan siempre. El tratamiento es antibiótico endovenoso más drenaje. Perla: una prótesis, diabetes o un paciente que usa drogas inyectables elevan el riesgo.",
+      "comentario": "La artritis séptica bacteriana es una urgencia médica que destruye el cartílago en pocos días. En adultos afecta una sola articulación en cerca del 90 % de los casos, y la rodilla es la más frecuente (alrededor de la mitad), seguida de cadera, hombro, muñeca y tobillo. El agente más común es Staphylococcus aureus, incluido el resistente a meticilina; en jóvenes sexualmente activos se debe pensar en Neisseria gonorrhoeae, que suele dar poliartralgia migratoria con tenosinovitis y lesiones cutáneas. La clínica es fiebre, dolor intenso, derrame, calor y limitación del movimiento activo y pasivo. El diagnóstico se hace con artrocentesis, con recuento mayor de 50 000 células/mm3 y cultivo; los hemocultivos se solicitan siempre. El tratamiento es antibiótico endovenoso más drenaje. Perla: una prótesis, diabetes o un paciente que usa drogas inyectables elevan el riesgo.",
+      "tema": "Artritis séptica: articulación más afectada",
+      "año": 2017,
+      "fuentes": "Goldman-Cecil, Medicina Interna, 26.ª ed. (2020); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Artritis séptica"
     }
   ]
 }
