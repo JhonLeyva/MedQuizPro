@@ -284,6 +284,14 @@ $apiKey = ajuste('AI_API_KEY', 'ai_api_key');
 if ($apiKey === '') {
     $apiKey = ajuste('GEMINI_API_KEY', 'gemini_api_key');
 }
+/* De dónde sale la llave (para el diagnóstico). Por defecto manda la variable de entorno; con 'config_manda' => '1'
+   en config.php manda la llave escrita en config.php aunque el hosting defina otra variable. */
+$llaveOrigen = entorno('AI_API_KEY') !== '' ? 'variable de entorno AI_API_KEY' : (trim((string) ($CONFIG['ai_api_key'] ?? '')) !== '' ? 'config.php' : 'otra');
+$llaveConfig = trim((string) ($CONFIG['ai_api_key'] ?? ''));
+if ($llaveConfig !== '' && esVerdadero(ajuste('AI_CONFIG_MANDA', 'config_manda', '0'))) {
+    $apiKey = $llaveConfig;
+    $llaveOrigen = 'config.php (config_manda)';
+}
 
 $modelo = ajuste('AI_MODEL', 'ai_model');
 if ($modelo === '') {
@@ -948,6 +956,9 @@ function diagnostico(string $proveedor, string $apiKey, string $modelo, string $
         'curl'         => function_exists('curl_init'),
         'proveedor'    => $proveedor,
         'llave'        => $apiKey !== '' ? 'configurada (' . strlen($apiKey) . ' caracteres)' : 'FALTA',
+        'llave_origen' => $GLOBALS['llaveOrigen'] ?? '',
+        'llave_en_config_php' => strlen(trim((string) ($GLOBALS['CONFIG']['ai_api_key'] ?? ''))) . ' caracteres',
+        'llave_en_entorno'    => strlen(entorno('AI_API_KEY')) . ' caracteres',
         'modelo'       => $modelo !== '' ? $modelo : '(automático)',
         'base_url'     => $baseUrl !== '' ? $baseUrl : '(por defecto)',
         'ip_que_ve_el_servidor' => (string) ($_SERVER['REMOTE_ADDR'] ?? ''),
