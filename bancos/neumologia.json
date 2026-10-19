@@ -1535,6 +1535,28 @@
       "tema": "Dosis de enoxaparina en tromboembolia pulmonar",
       "año": 2018,
       "fuentes": "ESC, guía de embolia pulmonar (2019); ASH, tratamiento de la enfermedad tromboembólica venosa (2020); ACCP/CHEST (2021)"
+    },
+    {
+      "id": "RM-NEU-006",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 50 años alcohólico crónico. Presenta desde hace 3 días fiebre, malestar general, tos con expectoración purulenta y disnea. Examen: FR 30 por minuto, FC 100 por minuto. Ansioso, polipneico y tirajes supraclaviculares. Murmullo vesicular disminuido y crepitantes en base de hemitórax derecho. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Radiografía de tórax y hemograma.",
+        "TAC de tórax y velocidad de sedimentación.",
+        "AGA y hemograma.",
+        "BK en esputo seriado y AGA.",
+        "Examen directo y cultivo de esputo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro sugiere neumonía adquirida en la comunidad con signos de gravedad: frecuencia respiratoria de 30, taquicardia y tirajes. El diagnóstico exige una radiografía de tórax que demuestre infiltrado nuevo, y la evaluación de la gravedad requiere además oximetría o gases arteriales, hemograma, urea y creatinina (escala CURB-65: confusión, urea > 42 mg/dl, FR ≥ 30, PA < 90/60, edad ≥ 65; el paciente ya tiene un punto por FR). Entre las opciones, la que contiene el estudio diagnóstico fundamental (la imagen) es la A; la C ofrece gases y hemograma, útiles para gravedad, pero sin imagen no se confirma neumonía. La tomografía no es de rutina, la VSG es inespecífica, y el BK solo se pide si hay sospecha de tuberculosis. Perla: en alcohólicos, pensar en neumococo, Klebsiella y aspiración.",
+      "comentario": "El cuadro sugiere neumonía adquirida en la comunidad con signos de gravedad: frecuencia respiratoria de 30, taquicardia y tirajes. El diagnóstico exige una radiografía de tórax que demuestre infiltrado nuevo, y la evaluación de la gravedad requiere además oximetría o gases arteriales, hemograma, urea y creatinina (escala CURB-65: confusión, urea > 42 mg/dl, FR ≥ 30, PA < 90/60, edad ≥ 65; el paciente ya tiene un punto por FR). Entre las opciones, la que contiene el estudio diagnóstico fundamental (la imagen) es la A; la C ofrece gases y hemograma, útiles para gravedad, pero sin imagen no se confirma neumonía. La tomografía no es de rutina, la VSG es inespecífica, y el BK solo se pide si hay sospecha de tuberculosis. Perla: en alcohólicos, pensar en neumococo, Klebsiella y aspiración.",
+      "tema": "Neumonía en alcohólico: estudio inicial",
+      "año": 2014,
+      "fuentes": "ATS/IDSA, Guía de neumonía adquirida en la comunidad (2019); ERS/ESICM/ESCMID/ALAT, Guía de neumonía comunitaria grave (Eur Respir J, 2023); Harrison, 21.ª ed. (2022)",
+      "categoria": "Neumonía",
+      "nota_revision": "El libro marca «A y C» y reconoce que la pregunta está mal planteada porque ninguna opción incluye radiografía, AGA y hemograma a la vez. Se mantiene A (radiografía), pues sin imagen no se hace el diagnóstico; el AGA o la oximetría se solicitan además por la gravedad."
     }
   ]
 }

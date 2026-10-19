@@ -27,26 +27,6 @@ S("capas", "RM-CIR-058", "La quemadura que llega a la dermis reticular es de seg
           [("Lecho rosado y blanquecino", "Zona desbridada: dermis expuesta de espesor intermedio."), ("Restos de ampollas en el contorno", "Indican compromiso al menos de la dermis papilar."),
            ("Evolución", "La profundidad cambia en 48-72 h: se reevalúa antes de decidir injerto.")], pie="Pierna con quemadura dérmica, día 0"))
 
-# 2 · VENN · colangitis aguda (triada de Charcot)
-S("venn", "RM-CIR-114", "En la colangitis aguda coinciden dolor, fiebre e ictericia; la CPRE confirma y drena",
-  "Vía biliar · síndromes que se superponen",
-  ("Colangitis aguda", ["Infección de la vía biliar obstruida: triada de Charcot (dolor, fiebre, ictericia).", "Con hipotensión y confusión: pentada de Reynolds."]),
-  ("Pregunta de teoría", ["¿Qué examen confirma y trata a la vez la colangitis aguda?"]),
-  ["Criterios de Tokio 2018: inflamación sistémica (fiebre, PCR) + colestasis (ictericia, pruebas hepáticas) + imagen de dilatación o causa de obstrucción.",
-   "Grado I leve: antibióticos y drenaje en 24-48 h. Grado II: drenaje en 24 h. Grado III (disfunción orgánica): drenaje urgente y soporte en UCI.",
-   "La CPRE permite drenar y extraer cálculos; si falla, drenaje percutáneo transhepático o cirugía."],
-  "Guías de Tokio 2018 (TG18); ESGE, CPRE y colangitis (2021); ASGE, coledocolitiasis (2019).",
-  op=("¿Examen de elección?", ["No: no visualiza la vía biliar", "No: orienta (dilatación) pero no trata", "Sí: confirma y drena en el mismo acto",
-                               "No: es la alternativa si la CPRE falla", "No: define la causa pero no drena"], {}),
-  d=dict(rotulo="Tres signos, cuatro síndromes: la intersección de los tres es la colangitis", caso="ABC",
-         conjuntos=[("Dolor en hipocondrio derecho", "#2563eb"), ("Fiebre con escalofríos", "#dc2626"), ("Ictericia", "#ca8a04")],
-         regiones={"A": ["Cólico biliar"], "B": ["Sepsis de otro foco"], "C": ["Hepatitis, hemólisis"], "AB": ["Colecistitis aguda"],
-                   "AC": ["Litiasis del colédoco"], "BC": ["Absceso hepático"], "ABC": ["COLANGITIS", "(Charcot)"]},
-         lado_titulo="Qué hacer con la intersección",
-         lado=[("Los tres signos juntos", ["Triada de Charcot: sospecha colangitis aguda."], True), ("Confirmar y drenar", ["CPRE: diagnóstico y tratamiento a la vez."], True),
-               ("Antes de la CPRE", ["Ecografía, hemocultivos y antibióticos de amplio espectro."], False)],
-         veredicto=("CPRE = examen de elección en la colangitis aguda", "Visualiza la vía biliar, drena la bilis infectada y extrae el cálculo.")))
-
 # 3 · CARRILES · trauma abdominal hipotenso con líquido libre
 S("carriles", "RM-CIR-109", "Trauma abdominal con hipotensión y líquido libre: la ruta termina en laparotomía exploradora",
   "Trauma · ruta por servicios",

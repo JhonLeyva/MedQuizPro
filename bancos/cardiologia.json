@@ -2343,6 +2343,28 @@
       "año": 2019,
       "fuentes": "AHA/ACC/HRS, guía de taquicardia supraventricular (2015); ESC, taquicardia supraventricular (2019); AHA, SVCA (actualización 2025)",
       "nota_revision": "Pregunta repetida (RM 2015 y RM 2019)."
+    },
+    {
+      "id": "RM-CAR-038",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿En qué parte del trazado del EKG esperaría encontrar la alteración más característica en un paciente con hipercalcemia?",
+      "opciones": [
+        "Intervalo PR.",
+        "Intervalo QT.",
+        "Segmento ST.",
+        "Onda P.",
+        "Onda Q."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El calcio extracelular regula la duración de la meseta (fase 2) del potencial de acción ventricular. Cuando el calcio sube, la meseta se acorta y la repolarización empieza antes, de modo que el segmento ST se reduce y el intervalo QT corregido se acorta; en hipercalcemias marcadas la onda T parece nacer directamente del final del QRS. Por eso la alteración más característica se describe en el intervalo QT, que además guarda relación inversa con la calcemia. La hipocalcemia produce lo contrario: alargamiento del segmento ST y del QT, con riesgo de torsades. El PR, la onda P y la onda Q no cambian de forma típica, aunque en hipercalcemia grave pueden aparecer bloqueos y bradicardia. Perla: hipercalcemia sintomática o sobre 14 mg/dl exige hidratación con solución salina, calcitonina y bisfosfonatos.",
+      "comentario": "El calcio extracelular regula la duración de la meseta (fase 2) del potencial de acción ventricular. Cuando el calcio sube, la meseta se acorta y la repolarización empieza antes, de modo que el segmento ST se reduce y el intervalo QT corregido se acorta; en hipercalcemias marcadas la onda T parece nacer directamente del final del QRS. Por eso la alteración más característica se describe en el intervalo QT, que además guarda relación inversa con la calcemia. La hipocalcemia produce lo contrario: alargamiento del segmento ST y del QT, con riesgo de torsades. El PR, la onda P y la onda Q no cambian de forma típica, aunque en hipercalcemia grave pueden aparecer bloqueos y bradicardia. Perla: hipercalcemia sintomática o sobre 14 mg/dl exige hidratación con solución salina, calcitonina y bisfosfonatos.",
+      "tema": "Hipercalcemia: acortamiento del QT",
+      "año": 2018,
+      "fuentes": "Walker MD, Shoback D. Hypercalcemia: a review. JAMA (2022); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Electrocardiograma",
+      "nota_revision": "El OCR indicaba C; la página del libro marca B (intervalo QT)."
     }
   ]
 }

@@ -1318,6 +1318,28 @@
       "comentario": "El enunciado ya entrega el diagnóstico y hasta lo confirma con una maniobra: una niña con episodios brevísimos de desconexión, sin caídas ni sacudidas, que se reproducen al hacerla hiperventilar, son crisis de ausencia típicas, la epilepsia de ausencia infantil. Entonces la pregunta es directa: cuál es el fármaco de elección en las ausencias puras. La respuesta es la etosuximida, un antiepiléptico que actúa de forma específica sobre el mecanismo de las ausencias, en los circuitos del tálamo que las generan, y que por eso es el de primera línea cuando el cuadro son solo ausencias, sin crisis convulsivas generalizadas asociadas. Por eso la etosuximida es la opción correcta. El valproato de sodio también es eficaz en las ausencias y es la alternativa principal, sobre todo si además hubiera crisis tónico-clónicas generalizadas, porque cubre ambas; pero cuando el cuadro es de ausencias puras, como este, se prefiere la etosuximida por su perfil más específico y favorable en la niña. La fenitoína y la carbamazepina, en cambio, no solo no sirven para las ausencias sino que están contraindicadas, porque pueden agravarlas: son útiles para las crisis focales y las tónico-clónicas, pero empeoran las ausencias y provocarían más episodios; ese es el error clásico que hay que evitar. Ante una epilepsia de ausencia típica, el fármaco de primera elección es la etosuximida. Crisis de ausencia típicas (desconexión breve, sin caída ni sacudidas, provocadas por hiperventilación) = etosuximida como primera elección. El valproato es la alternativa (útil si coexisten crisis tónico-clónicas); la carbamazepina y la fenitoína están contraindicadas porque agravan las ausencias.",
       "tema": "Crisis de ausencia típicas: etosuximida",
       "año": 2026
+    },
+    {
+      "id": "RM-NRL-001",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 25 años, sufre accidente de tránsito con trastorno de conciencia por 1 minuto, con herida contusocortante en región parieto-temporal izquierda, por lo que acude a emergencia; luego de 2 horas presenta nuevamente trastorno de conciencia. Tomografía cerebral: imagen hiperdensa lenticular en región parietal izquierda con desplazamiento de la masa encefálica y asimetría ventricular del mismo lado. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Craneotomía descompresiva.",
+        "Administración de manitol EV.",
+        "Observación y tomografía de control.",
+        "Corticoterapia sistémica.",
+        "Cirugía estereotáctica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un golpe en la región temporoparietal, una pérdida breve de conciencia, un intervalo lúcido y el deterioro posterior orientan a un hematoma epidural por desgarro de la arteria meníngea media, a menudo con fractura temporal. La tomografía muestra una colección biconvexa hiperdensa. El tratamiento es quirúrgico urgente, con craneotomía y evacuación del hematoma, cuando el volumen supera 30 mL, el espesor 15 mm o el desplazamiento de línea media 5 mm, o cuando hay deterioro neurológico, anisocoria o Glasgow menor de 9, como en este caso. El manitol sirve como medida puente para la hipertensión intracraneal, pero no sustituye a la cirugía; la observación solo se admite en hematomas pequeños y el paciente asintomático, los corticoides no benefician en el traumatismo craneal y la cirugía estereotáctica no evacúa un hematoma agudo. Perla: operado a tiempo, el pronóstico es excelente.",
+      "comentario": "Un golpe en la región temporoparietal, una pérdida breve de conciencia, un intervalo lúcido y el deterioro posterior orientan a un hematoma epidural por desgarro de la arteria meníngea media, a menudo con fractura temporal. La tomografía muestra una colección biconvexa hiperdensa. El tratamiento es quirúrgico urgente, con craneotomía y evacuación del hematoma, cuando el volumen supera 30 mL, el espesor 15 mm o el desplazamiento de línea media 5 mm, o cuando hay deterioro neurológico, anisocoria o Glasgow menor de 9, como en este caso. El manitol sirve como medida puente para la hipertensión intracraneal, pero no sustituye a la cirugía; la observación solo se admite en hematomas pequeños y el paciente asintomático, los corticoides no benefician en el traumatismo craneal y la cirugía estereotáctica no evacúa un hematoma agudo. Perla: operado a tiempo, el pronóstico es excelente.",
+      "tema": "Hematoma epidural con desplazamiento de línea media",
+      "año": 2019,
+      "fuentes": "Brain Trauma Foundation, Surgical management of acute epidural hematomas (Bullock, Neurosurgery 2006); BTF, Guidelines for Severe TBI 4.ª ed. (Carney 2017); Greenberg Handbook of Neurosurgery 10.ª ed.",
+      "categoria": "Neurocirugía",
+      "nota_revision": "El enunciado del libro dice «imagen hipodensa»; el hematoma epidural agudo es hiperdenso y lenticular, por lo que se corrigió la redacción. La clave A se mantiene (evacuación quirúrgica)."
     }
   ]
 }

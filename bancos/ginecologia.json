@@ -5410,6 +5410,92 @@
       "comentario": "Primero hay que reconocer la enfermedad por su cuadro tan característico. Una embarazada del tercer trimestre con picazón intensa en las palmas de las manos y las plantas de los pies, que empeora de noche, junto con los ácidos biliares muy elevados en la sangre y las transaminasas altas, tiene una colestasis intrahepática del embarazo: la bilis no fluye bien y los ácidos biliares se acumulan, y son esos ácidos los que producen el prurito. Lo importante es que esos ácidos biliares elevados no solo molestan a la madre, sino que son tóxicos para el feto y aumentan el riesgo de complicaciones e incluso de muerte fetal. Entonces, para mejorar el pronóstico del bebé hay que bajar esos ácidos biliares, y el fármaco que hace precisamente eso es el ácido ursodesoxicólico: mejora el flujo de la bilis, disminuye la concentración de ácidos biliares en la sangre materna, alivia el prurito y reduce el riesgo fetal. El sulfato de magnesio es neuroprotector fetal y anticonvulsivante en la preeclampsia; no tiene nada que ver con la colestasis ni con bajar los ácidos biliares. La betametasona sirve para madurar los pulmones del feto ante un parto pretérmino; podría usarse si se adelantara el nacimiento, pero no trata la colestasis ni mejora el pronóstico por el mecanismo de la enfermedad, que es el exceso de ácidos biliares. La metformina es un antidiabético, útil en la diabetes o la resistencia a la insulina, sin ningún papel en este cuadro; lo que mejora el pronóstico fetal en la colestasis del embarazo es el ácido ursodesoxicólico. Prurito palmoplantar de predominio nocturno en el tercer trimestre con ácidos biliares elevados = colestasis intrahepática del embarazo. El ácido ursodesoxicólico baja los ácidos biliares, alivia el prurito y mejora el pronóstico fetal. El sulfato de magnesio y la betametasona tienen otras indicaciones.",
       "tema": "Colestasis intrahepática del embarazo: ácido ursodesoxicólico",
       "año": 2026
+    },
+    {
+      "id": "RM-GIN-001",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "La mayoría de abortos espontáneos en el primer trimestre se presentan por anomalías cromosómicas. ¿Cuál de las siguientes anomalías es la más frecuente?",
+      "opciones": [
+        "Trisomía autosómica.",
+        "Triploidía.",
+        "Translocación equilibrada.",
+        "Mosaicismo.",
+        "Monosomía 45X."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Cerca del 15-20 % de los embarazos clínicos terminan en aborto y en aproximadamente la mitad de los del primer trimestre hay una alteración cromosómica del embrión. La anomalía más frecuente es la trisomía autosómica, responsable de cerca de la mitad de los casos con cariotipo anormal; las trisomías 16, 22, 21, 15 y 13 son las más halladas, y su riesgo crece con la edad materna por errores de no disyunción en la meiosis I. Le siguen la monosomía X (45,X), alrededor de 15-20 %, la triploidía (cerca de 15 %, asociada a mola parcial) y, mucho menos, los reordenamientos estructurales como la translocación equilibrada de uno de los padres, que se sospecha en abortos recurrentes. El mosaicismo es poco frecuente. Perla clínica: ante dos o más pérdidas se estudia el cariotipo de ambos padres.",
+      "comentario": "Cerca del 15-20 % de los embarazos clínicos terminan en aborto y en aproximadamente la mitad de los del primer trimestre hay una alteración cromosómica del embrión. La anomalía más frecuente es la trisomía autosómica, responsable de cerca de la mitad de los casos con cariotipo anormal; las trisomías 16, 22, 21, 15 y 13 son las más halladas, y su riesgo crece con la edad materna por errores de no disyunción en la meiosis I. Le siguen la monosomía X (45,X), alrededor de 15-20 %, la triploidía (cerca de 15 %, asociada a mola parcial) y, mucho menos, los reordenamientos estructurales como la translocación equilibrada de uno de los padres, que se sospecha en abortos recurrentes. El mosaicismo es poco frecuente. Perla clínica: ante dos o más pérdidas se estudia el cariotipo de ambos padres.",
+      "tema": "Causa cromosómica más frecuente de aborto espontáneo",
+      "año": 2017,
+      "fuentes": "ACOG, Practice Bulletin 200: Early pregnancy loss (2018); ESHRE, Guideline on recurrent pregnancy loss: an update in 2022 (Hum Reprod Open 2023); Williams Obstetricia 26.ª ed. (2022)",
+      "categoria": "Aborto"
+    },
+    {
+      "id": "RM-GIN-002",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿En cuál de las siguientes patologías maternas aumenta la frecuencia de aborto espontáneo?",
+      "opciones": [
+        "Diabetes tipo 1.",
+        "Tuberculosis pulmonar.",
+        "Hipertensión arterial.",
+        "Hipertiroidismo.",
+        "Asma bronquial."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La causa más frecuente de aborto del primer trimestre es la aneuploidía embrionaria, pero algunas enfermedades maternas aumentan el riesgo. La diabetes pregestacional mal controlada es la clásica: la hiperglucemia durante la organogénesis altera la implantación y provoca malformaciones, de modo que el riesgo de aborto y de anomalías congénitas crece de forma proporcional a la hemoglobina glucosilada periconcepcional. Por ello se recomienda planificar el embarazo con HbA1c lo más cercana a lo normal (idealmente por debajo de 6,5 %) y suplementar ácido fólico. La tuberculosis pulmonar tratada y el asma controlada no elevan de manera relevante la pérdida gestacional. La hipertensión crónica se relaciona sobre todo con preeclampsia y restricción del crecimiento, y el hipertiroidismo mal controlado se asocia a pérdida más bien tardía; el hipotiroidismo y los anticuerpos antitiroideos sí aumentan el aborto. Perla: el síndrome antifosfolípido es la trombofilia que más se vincula con abortos recurrentes.",
+      "comentario": "La causa más frecuente de aborto del primer trimestre es la aneuploidía embrionaria, pero algunas enfermedades maternas aumentan el riesgo. La diabetes pregestacional mal controlada es la clásica: la hiperglucemia durante la organogénesis altera la implantación y provoca malformaciones, de modo que el riesgo de aborto y de anomalías congénitas crece de forma proporcional a la hemoglobina glucosilada periconcepcional. Por ello se recomienda planificar el embarazo con HbA1c lo más cercana a lo normal (idealmente por debajo de 6,5 %) y suplementar ácido fólico. La tuberculosis pulmonar tratada y el asma controlada no elevan de manera relevante la pérdida gestacional. La hipertensión crónica se relaciona sobre todo con preeclampsia y restricción del crecimiento, y el hipertiroidismo mal controlado se asocia a pérdida más bien tardía; el hipotiroidismo y los anticuerpos antitiroideos sí aumentan el aborto. Perla: el síndrome antifosfolípido es la trombofilia que más se vincula con abortos recurrentes.",
+      "tema": "Enfermedad materna asociada a aborto espontáneo",
+      "año": 2016,
+      "fuentes": "ACOG, Practice Bulletin 200, Early Pregnancy Loss (Obstet Gynecol 2018); ADA, Standards of Care (2025), cap. 15 diabetes y embarazo",
+      "categoria": "Obstetricia",
+      "nota_revision": "La opción de hipertiroidismo no controlado también se vincula con pérdida gestacional; se mantiene la clave del libro (diabetes) por ser la asociación clásica de aborto y embriopatía."
+    },
+    {
+      "id": "RM-GIN-003",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál es el tipo de amenorrea en una mujer con diagnóstico de anorexia nerviosa?",
+      "opciones": [
+        "Idiopática.",
+        "Autoinmunitaria.",
+        "Ambiental.",
+        "Hipotalámica.",
+        "Iatrogénica."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En la anorexia nerviosa el déficit energético y la pérdida de grasa corporal reducen la leptina y activan el eje del estrés, lo que inhibe la secreción pulsátil de GnRH hipotalámica. Disminuyen entonces LH y FSH, cae el estradiol y se produce una amenorrea hipotalámica funcional, un hipogonadismo hipogonadotrópico que se diagnostica por exclusión (hCG, TSH, prolactina y FSH normales o bajas). Al evaluar la respuesta a la GnRH puede haber respuesta plana o disminuida. La consecuencia más importante es la pérdida de masa ósea, con riesgo de fracturas, por lo que se valora la densitometría. La opción autoinmunitaria correspondería a insuficiencia ovárica primaria, la iatrogénica a quimioterapia o cirugía y la ambiental a tóxicos; la idiopática es un diagnóstico de descarte. El tratamiento es la recuperación del peso y la nutrición; la terapia hormonal no sustituye la rehabilitación nutricional. Perla: es la misma fisiopatología de la tríada de la atleta (déficit energético, amenorrea, osteoporosis).",
+      "comentario": "En la anorexia nerviosa el déficit energético y la pérdida de grasa corporal reducen la leptina y activan el eje del estrés, lo que inhibe la secreción pulsátil de GnRH hipotalámica. Disminuyen entonces LH y FSH, cae el estradiol y se produce una amenorrea hipotalámica funcional, un hipogonadismo hipogonadotrópico que se diagnostica por exclusión (hCG, TSH, prolactina y FSH normales o bajas). Al evaluar la respuesta a la GnRH puede haber respuesta plana o disminuida. La consecuencia más importante es la pérdida de masa ósea, con riesgo de fracturas, por lo que se valora la densitometría. La opción autoinmunitaria correspondería a insuficiencia ovárica primaria, la iatrogénica a quimioterapia o cirugía y la ambiental a tóxicos; la idiopática es un diagnóstico de descarte. El tratamiento es la recuperación del peso y la nutrición; la terapia hormonal no sustituye la rehabilitación nutricional. Perla: es la misma fisiopatología de la tríada de la atleta (déficit energético, amenorrea, osteoporosis).",
+      "tema": "Amenorrea en anorexia nerviosa",
+      "año": 2018,
+      "fuentes": "Endocrine Society, Guía de amenorrea hipotalámica funcional (Gordon, J Clin Endocrinol Metab 2017)",
+      "categoria": "Ginecología endocrina"
+    },
+    {
+      "id": "RM-GIN-004",
+      "especialidad": "Ginecología y Obstetricia",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Mujer de 34 años, acude por flujo vaginal abundante y maloliente. Especuloscopía: flujo verdoso y espumoso abundante, cérvix congestivo con aspecto de «fresa». Test de aminas negativo. ¿Cuál es el tratamiento más adecuado?",
+      "opciones": [
+        "Tinidazol 500 mg vía vaginal por 3 días.",
+        "Itraconazol 300 mg vía oral cada 6 h por 7 días.",
+        "Clotrimazol 100 mg vía vaginal por 3 días.",
+        "Metronidazol 2 g vía oral dosis única.",
+        "Clotrimazol 500 mg vía vaginal dosis única."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El flujo verdoso y espumoso con cérvix en «fresa» (colpitis macular) es característico de la tricomoniasis, causada por el protozoo flagelado Trichomonas vaginalis, de transmisión sexual. El pH vaginal supera 4,5, el test de aminas suele ser negativo (a diferencia de la vaginosis bacteriana) y el diagnóstico se confirma con el examen en fresco que muestra el parásito móvil o con pruebas de amplificación de ácidos nucleicos. Se trata con un nitroimidazol por vía oral: metronidazol 2 g en dosis única, la opción presente, aunque las guías CDC 2021 prefieren 500 mg cada 12 horas por 7 días en mujeres por menor tasa de fallo. Los antimicóticos (clotrimazol, itraconazol) son para candidiasis, y el tinidazol por vía vaginal no alcanza niveles sistémicos eficaces. Perla: se debe tratar a la pareja, abstenerse de relaciones hasta completar el tratamiento y buscar otras ITS.",
+      "comentario": "El flujo verdoso y espumoso con cérvix en «fresa» (colpitis macular) es característico de la tricomoniasis, causada por el protozoo flagelado Trichomonas vaginalis, de transmisión sexual. El pH vaginal supera 4,5, el test de aminas suele ser negativo (a diferencia de la vaginosis bacteriana) y el diagnóstico se confirma con el examen en fresco que muestra el parásito móvil o con pruebas de amplificación de ácidos nucleicos. Se trata con un nitroimidazol por vía oral: metronidazol 2 g en dosis única, la opción presente, aunque las guías CDC 2021 prefieren 500 mg cada 12 horas por 7 días en mujeres por menor tasa de fallo. Los antimicóticos (clotrimazol, itraconazol) son para candidiasis, y el tinidazol por vía vaginal no alcanza niveles sistémicos eficaces. Perla: se debe tratar a la pareja, abstenerse de relaciones hasta completar el tratamiento y buscar otras ITS.",
+      "tema": "Tricomoniasis: tratamiento",
+      "año": 2014,
+      "fuentes": "CDC, Sexually Transmitted Infections Treatment Guidelines (2021); OMS, Recomendaciones actualizadas para el tratamiento de T. vaginalis, M. genitalium, C. albicans, vaginosis bacteriana y VPH (2024); ACOG, Vaginitis (2023)",
+      "categoria": "Infecciones vaginales",
+      "nota_revision": "El OCR indicaba C; la página del libro marca D (metronidazol 2 g). Las guías CDC 2021 prefieren 7 días en mujeres, pero entre las opciones solo el metronidazol oral es correcto."
     }
   ]
 }

@@ -2361,6 +2361,246 @@
       "comentario": "Dos claves apuntan al mismo agente. Primero, el grado de inmunosupresión: un recuento de linfocitos CD4 por debajo de cincuenta es una inmunodepresión profunda, el terreno de las infecciones oportunistas más graves, y entre las que afectan la retina a ese nivel destaca una en particular. Segundo, y muy característico, el aspecto del fondo de ojo: una retinitis que destruye la retina, con zonas necróticas blanco-amarillentas que siguen los vasos y hemorragias entremezcladas, un cuadro tan típico que se describe con la imagen de queso con tomate o de pizza, por la combinación de los exudados amarillos y las hemorragias rojas. Esa retinitis necrosante hemorrágica con ese aspecto, en un paciente con CD4 muy bajos, es la retinitis por citomegalovirus, la causa más frecuente de pérdida de visión en el sida avanzado. Por eso es el diagnóstico. La coriorretinitis por toxoplasma también afecta el ojo en el sida, pero produce lesiones focales con inflamación intensa del vítreo y un aspecto distinto, no el patrón hemorrágico en pizza a lo largo de los vasos. El Pneumocystis jirovecii es sobre todo un agente pulmonar en el sida, causa de neumonía, y no produce esta retinitis necrosante hemorrágica característica. La endoftalmitis por Aspergillus es una infección fúngica del ojo que da un cuadro inflamatorio distinto, más asociado a otros contextos como la inmunosupresión por trasplante o la diseminación fúngica, no la retinitis con hemorragias en llama y exudados que dibuja el aspecto de pizza propio del citomegalovirus. Retinitis necrosante con exudados amarillos y hemorragias (aspecto de pizza o queso con tomate) en un paciente con VIH y CD4 menor de 50 = retinitis por citomegalovirus, principal causa de pérdida visual en el sida avanzado. La toxoplasmosis ocular da lesiones focales con vitritis, no el patrón hemorrágico perivascular.",
       "tema": "Retinitis por citomegalovirus en sida avanzado",
       "año": 2026
+    },
+    {
+      "id": "RM-INF-001",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es la infección oportunista en SIDA que cursa con CD4 mayor de 300/µL al momento del diagnóstico?",
+      "opciones": [
+        "Tuberculosis.",
+        "Neumonía por Pneumocystis.",
+        "Toxoplasmosis.",
+        "Criptococosis.",
+        "Retinitis por citomegalovirus."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La mayoría de las infecciones oportunistas aparecen cuando la inmunidad celular cae por debajo de umbrales: Pneumocystis jirovecii con CD4 < 200, toxoplasmosis cerebral < 100, criptococosis < 100 y retinitis por citomegalovirus < 50. La tuberculosis es la excepción: por su alta virulencia puede presentarse con cualquier recuento, incluso con CD4 > 300 (en ese caso suele ser pulmonar típica; con inmunosupresión avanzada predomina la forma extrapulmonar o diseminada). En el Perú, la tuberculosis es la principal causa de enfermedad definitoria y muerte en personas con VIH. Por ello se tamiza en toda consulta: tos, fiebre, sudoración nocturna y pérdida de peso (W4SS) identifican a quienes requieren estudio. Perla: se inicia tratamiento antituberculoso primero y el TARV dentro de las 2 primeras semanas si CD4 < 50, o de las 8 semanas si CD4 es mayor.",
+      "comentario": "La mayoría de las infecciones oportunistas aparecen cuando la inmunidad celular cae por debajo de umbrales: Pneumocystis jirovecii con CD4 < 200, toxoplasmosis cerebral < 100, criptococosis < 100 y retinitis por citomegalovirus < 50. La tuberculosis es la excepción: por su alta virulencia puede presentarse con cualquier recuento, incluso con CD4 > 300 (en ese caso suele ser pulmonar típica; con inmunosupresión avanzada predomina la forma extrapulmonar o diseminada). En el Perú, la tuberculosis es la principal causa de enfermedad definitoria y muerte en personas con VIH. Por ello se tamiza en toda consulta: tos, fiebre, sudoración nocturna y pérdida de peso (W4SS) identifican a quienes requieren estudio. Perla: se inicia tratamiento antituberculoso primero y el TARV dentro de las 2 primeras semanas si CD4 < 50, o de las 8 semanas si CD4 es mayor.",
+      "tema": "Infección oportunista con CD4 > 300: tuberculosis",
+      "año": 2014,
+      "fuentes": "NIH/CDC/IDSA, Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults with HIV (actualizaciones 2024-2025); OMS, Directrices consolidadas sobre VIH (2021); MINSA, NTS N.° 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA) y NTS N.° 200-MINSA/DGIESP-2023 (RM 339-2023/MINSA)",
+      "categoria": "VIH"
+    },
+    {
+      "id": "RM-INF-002",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es la causa frecuente de infecciones secundarias del sistema nervioso central en pacientes con SIDA?",
+      "opciones": [
+        "Linfoma primario.",
+        "Toxoplasmosis cerebral.",
+        "Meningitis criptocócica.",
+        "Candidiasis cerebral.",
+        "Encefalopatía viral."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La pregunta alude a infecciones por reactivación, es decir, de microorganismos latentes. La toxoplasmosis cerebral es el prototipo: Toxoplasma gondii forma quistes tisulares que persisten años en cerebro y músculo, y cuando los CD4 caen por debajo de 100/µL en pacientes seropositivos sin profilaxis, se reactiva y causa múltiples lesiones con captación en anillo, fiebre, cefalea, convulsiones y déficit focal. Es la causa más frecuente de lesión ocupante de espacio cerebral en SIDA y se trata de forma empírica con pirimetamina más sulfadiazina o con cotrimoxazol, con respuesta clínica en 1-2 semanas. El linfoma primario del SNC es una neoplasia (VEB) y no una infección; la candidiasis cerebral es rara; la encefalopatía viral incluye al propio VIH y al JC; la criptococosis puede ser primoinfección con diseminación. Perla: la profilaxis con cotrimoxazol se indica con CD4 < 100 y IgG positiva.",
+      "comentario": "La pregunta alude a infecciones por reactivación, es decir, de microorganismos latentes. La toxoplasmosis cerebral es el prototipo: Toxoplasma gondii forma quistes tisulares que persisten años en cerebro y músculo, y cuando los CD4 caen por debajo de 100/µL en pacientes seropositivos sin profilaxis, se reactiva y causa múltiples lesiones con captación en anillo, fiebre, cefalea, convulsiones y déficit focal. Es la causa más frecuente de lesión ocupante de espacio cerebral en SIDA y se trata de forma empírica con pirimetamina más sulfadiazina o con cotrimoxazol, con respuesta clínica en 1-2 semanas. El linfoma primario del SNC es una neoplasia (VEB) y no una infección; la candidiasis cerebral es rara; la encefalopatía viral incluye al propio VIH y al JC; la criptococosis puede ser primoinfección con diseminación. Perla: la profilaxis con cotrimoxazol se indica con CD4 < 100 y IgG positiva.",
+      "tema": "Infección del SNC por reactivación en SIDA: toxoplasmosis",
+      "año": 2014,
+      "fuentes": "NIH/CDC/IDSA, Guidelines for OIs in Adults with HIV, toxoplasmosis (actualización 2024-2025); Harrison, 21.ª ed. (2022)",
+      "categoria": "VIH",
+      "nota_revision": "Opciones D y E limpiadas del texto adyacente ruidoso. La meningitis criptocócica es frecuente también; el libro discute ambas y acepta toxoplasmosis."
+    },
+    {
+      "id": "RM-INF-003",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es la característica que corresponde al sarcoma de Kaposi?",
+      "opciones": [
+        "Las lesiones son dolorosas y pruriginosas.",
+        "Es una neoplasia maligna.",
+        "No invaden la cavidad oral.",
+        "Es infrecuente en el tracto digestivo.",
+        "La etiología es el VIH."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El sarcoma de Kaposi es una neoplasia angioproliferativa de origen endotelial linfático, causada por el herpesvirus humano 8 (VHS-8 o KSHV); el VIH es solo un cofactor que facilita su aparición por la inmunosupresión, de modo que la opción E es falsa. Es una neoplasia maligna de comportamiento variable: forma clásica en ancianos mediterráneos, endémica africana, asociada a trasplante y epidémica ligada al SIDA. Las lesiones son máculas, placas y nódulos violáceos, habitualmente indoloras y no pruriginosas; afectan con frecuencia la mucosa oral (paladar) y el tubo digestivo y el pulmón, por lo que C y D son falsas. El diagnóstico es histológico, con tinción para LANA-1 del VHS-8. Perla: el pilar del tratamiento en SIDA es el TARV, y la quimioterapia con doxorrubicina liposomal se reserva para enfermedad avanzada o visceral.",
+      "comentario": "El sarcoma de Kaposi es una neoplasia angioproliferativa de origen endotelial linfático, causada por el herpesvirus humano 8 (VHS-8 o KSHV); el VIH es solo un cofactor que facilita su aparición por la inmunosupresión, de modo que la opción E es falsa. Es una neoplasia maligna de comportamiento variable: forma clásica en ancianos mediterráneos, endémica africana, asociada a trasplante y epidémica ligada al SIDA. Las lesiones son máculas, placas y nódulos violáceos, habitualmente indoloras y no pruriginosas; afectan con frecuencia la mucosa oral (paladar) y el tubo digestivo y el pulmón, por lo que C y D son falsas. El diagnóstico es histológico, con tinción para LANA-1 del VHS-8. Perla: el pilar del tratamiento en SIDA es el TARV, y la quimioterapia con doxorrubicina liposomal se reserva para enfermedad avanzada o visceral.",
+      "tema": "Sarcoma de Kaposi",
+      "año": 2014,
+      "fuentes": "NIH/CDC/IDSA, Guidelines for OIs in Adults with HIV, sarcoma de Kaposi (actualización 2024); NCCN, Cánceres asociados al VIH (2025)",
+      "categoria": "VIH",
+      "nota_revision": "Opciones reconstruidas del texto con ruido; clave B verificada."
+    },
+    {
+      "id": "RM-INF-004",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Recién nacido (RN) hijo de madre infectada por VIH, que no recibió tratamiento antirretroviral (ARV). ¿Cuál es la profilaxis de la transmisión madre-niño del VIH?",
+      "opciones": [
+        "Suspender la lactancia materna.",
+        "ARV en el RN a partir de la segunda semana de vida.",
+        "Indicación de lactancia materna.",
+        "Zidovudina en el RN durante las 3 semanas de vida.",
+        "Lamivudina en el RN por 3 días."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La transmisión vertical del VIH puede ocurrir en el embarazo, el parto o la lactancia, y se previene con TARV materno, cesárea electiva si la carga viral es alta o desconocida, profilaxis antirretroviral del neonato y supresión de la lactancia con fórmula. En un recién nacido cuya madre no recibió tratamiento, las medidas de gestación y parto ya no son posibles, por lo que la medida clave que queda es suprimir la lactancia materna y alimentarlo con sucedáneo, ya que la leche materna puede transmitir el virus. La indicación de lactancia (C) es opuesta. La zidovudina por 3 semanas y la lamivudina por 3 días no corresponden a esquemas válidos (en alto riesgo se usa esquema de combinación de varias semanas), y el inicio de ARV tardío en la segunda semana pierde la ventana de eficacia. Perla: el RN debe recibir ARV lo antes posible, idealmente en las primeras 6-12 horas.",
+      "comentario": "La transmisión vertical del VIH puede ocurrir en el embarazo, el parto o la lactancia, y se previene con TARV materno, cesárea electiva si la carga viral es alta o desconocida, profilaxis antirretroviral del neonato y supresión de la lactancia con fórmula. En un recién nacido cuya madre no recibió tratamiento, las medidas de gestación y parto ya no son posibles, por lo que la medida clave que queda es suprimir la lactancia materna y alimentarlo con sucedáneo, ya que la leche materna puede transmitir el virus. La indicación de lactancia (C) es opuesta. La zidovudina por 3 semanas y la lamivudina por 3 días no corresponden a esquemas válidos (en alto riesgo se usa esquema de combinación de varias semanas), y el inicio de ARV tardío en la segunda semana pierde la ventana de eficacia. Perla: el RN debe recibir ARV lo antes posible, idealmente en las primeras 6-12 horas.",
+      "tema": "Profilaxis de transmisión vertical del VIH en el recién nacido",
+      "año": 2014,
+      "fuentes": "DHHS, Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission (actualización 2024-2025); OMS, Directrices consolidadas sobre VIH (2021); MINSA, NTS N.° 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA) sobre prevención de la transmisión materno infantil de VIH, sífilis y hepatitis B; NTS N.° 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA)",
+      "categoria": "VIH",
+      "nota_revision": "El libro marca A (suspender la lactancia). La opción B original («ARV en el RN dentro de las primeras 48 horas») también era correcta clínicamente (es la profilaxis más importante), por lo que se reemplazó por un distractor («a partir de la segunda semana») para que solo A sea válida."
+    },
+    {
+      "id": "RM-INF-005",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente de 62 años. Hospitalizado desde hace una semana por desorden cerebrovascular. Inicia fiebre, tos con expectoración purulenta y presenta crepitantes y subcrepitantes en la base de hemitórax derecho. Usted sospecha una neumonía intrahospitalaria. ¿Cuál es el germen etiológico más frecuente para iniciar tratamiento empírico?",
+      "opciones": [
+        "Haemophilus.",
+        "Neumococo.",
+        "Mycobacterium.",
+        "Streptococcus.",
+        "Pseudomonas."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La neumonía intrahospitalaria (NIH) es la que aparece 48 horas o más después del ingreso; la de inicio tardío (≥ 5 días), como este caso tras una semana de hospitalización, se asocia a gérmenes multirresistentes. Predominan los bacilos gramnegativos, con Pseudomonas aeruginosa a la cabeza, seguidos de Acinetobacter, Klebsiella y E. coli, junto con Staphylococcus aureus, incluido el resistente a meticilina, entre los grampositivos. El accidente cerebrovascular favorece la broncoaspiración. Haemophilus, neumococo y otros estreptococos son típicos de la neumonía adquirida en la comunidad o de la NIH temprana, y Mycobacterium no es un patógeno nosocomial de esta forma. Por eso el tratamiento empírico debe cubrir Pseudomonas (por ejemplo piperacilina-tazobactam, cefepima o un carbapenémico) y SAMR si hay factores de riesgo, ajustado según el antibiograma local. Perla: la mortalidad aumenta si el tratamiento inicial es inadecuado.",
+      "comentario": "La neumonía intrahospitalaria (NIH) es la que aparece 48 horas o más después del ingreso; la de inicio tardío (≥ 5 días), como este caso tras una semana de hospitalización, se asocia a gérmenes multirresistentes. Predominan los bacilos gramnegativos, con Pseudomonas aeruginosa a la cabeza, seguidos de Acinetobacter, Klebsiella y E. coli, junto con Staphylococcus aureus, incluido el resistente a meticilina, entre los grampositivos. El accidente cerebrovascular favorece la broncoaspiración. Haemophilus, neumococo y otros estreptococos son típicos de la neumonía adquirida en la comunidad o de la NIH temprana, y Mycobacterium no es un patógeno nosocomial de esta forma. Por eso el tratamiento empírico debe cubrir Pseudomonas (por ejemplo piperacilina-tazobactam, cefepima o un carbapenémico) y SAMR si hay factores de riesgo, ajustado según el antibiograma local. Perla: la mortalidad aumenta si el tratamiento inicial es inadecuado.",
+      "tema": "Neumonía intrahospitalaria: germen más frecuente",
+      "año": 2014,
+      "fuentes": "IDSA/ATS, Guía de neumonía intrahospitalaria y asociada a ventilador (2016); ERS/ESICM/ESCMID/ALAT, Guía de NIH/NAV (2017); Harrison, 21.ª ed. (2022)",
+      "categoria": "Infecciones respiratorias",
+      "nota_revision": "Opción C corregida de «Micobacterium» a Mycobacterium; E limpiada de «-Pseudomonas»."
+    },
+    {
+      "id": "RM-INF-006",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿En cuál de las siguientes patologías se agrega corticoides al tratamiento específico?",
+      "opciones": [
+        "Tuberculosis primaria.",
+        "Tuberculosis miliar.",
+        "Meningitis tuberculosa.",
+        "Pleuritis tuberculosa.",
+        "Tuberculosis peritoneal."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la meningitis tuberculosa la reacción inflamatoria en la base del cráneo produce exudado, vasculitis, infartos e hidrocefalia, y buena parte de la muerte y las secuelas dependen de esa inflamación y no solo de la carga bacilar. Los corticoides (dexametasona o prednisona, con reducción progresiva durante 6-8 semanas) disminuyen el edema y la presión intracraneal y mejoran la supervivencia, por lo que se añaden a los fármacos antituberculosos (isoniacida, rifampicina, pirazinamida y etambutol, con un tratamiento prolongado, de hasta 12 meses en el esquema clásico). También se usan en la pericarditis tuberculosa y en algunas formas con compromiso grave de la vía aérea o síndrome de reconstitución inmune. En la tuberculosis primaria, miliar, pleural y peritoneal no son rutinarios. Perla: ante un paciente con cefalea subaguda, fiebre y parálisis de pares craneales, con LCR de glucosa baja y proteínas altas, empezar tratamiento sin esperar el cultivo.",
+      "comentario": "En la meningitis tuberculosa la reacción inflamatoria en la base del cráneo produce exudado, vasculitis, infartos e hidrocefalia, y buena parte de la muerte y las secuelas dependen de esa inflamación y no solo de la carga bacilar. Los corticoides (dexametasona o prednisona, con reducción progresiva durante 6-8 semanas) disminuyen el edema y la presión intracraneal y mejoran la supervivencia, por lo que se añaden a los fármacos antituberculosos (isoniacida, rifampicina, pirazinamida y etambutol, con un tratamiento prolongado, de hasta 12 meses en el esquema clásico). También se usan en la pericarditis tuberculosa y en algunas formas con compromiso grave de la vía aérea o síndrome de reconstitución inmune. En la tuberculosis primaria, miliar, pleural y peritoneal no son rutinarios. Perla: ante un paciente con cefalea subaguda, fiebre y parálisis de pares craneales, con LCR de glucosa baja y proteínas altas, empezar tratamiento sin esperar el cultivo.",
+      "tema": "Corticoides en meningitis tuberculosa",
+      "año": 2014,
+      "fuentes": "OMS, Directrices consolidadas sobre tuberculosis, Módulo 4: tratamiento (2022, actualización 2025); ATS/CDC/ERS/IDSA, Tratamiento de TB sensible (2016); MINSA, NTS N.° 200-MINSA/DGIESP-2023 (RM 339-2023/MINSA)",
+      "categoria": "Tuberculosis"
+    },
+    {
+      "id": "RM-INF-007",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "La tuberculosis MDR se define cuando el bacilo es resistente por lo menos a:",
+      "opciones": [
+        "Pirazinamida y etambutol.",
+        "Rifampicina y estreptomicina.",
+        "Isoniacida y rifampicina.",
+        "Ciprofloxacino y kanamicina.",
+        "Isoniacida y kanamicina."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La tuberculosis multidrogorresistente (TB-MDR) es la causada por Mycobacterium tuberculosis resistente al menos a isoniacida y rifampicina, los dos fármacos bactericidas más potentes del núcleo del tratamiento, con o sin resistencia a otros. Cuando además hay resistencia a una fluoroquinolona se denomina pre-XDR, y si se suma resistencia a bedaquilina o linezolid, XDR según la definición de la OMS de 2021. La resistencia aislada a rifampicina (TB-RR) se maneja igual que la MDR. Las demás combinaciones no corresponden a la definición: pirazinamida, etambutol, estreptomicina, kanamicina y ciprofloxacino pertenecen a otros grupos. El diagnóstico se hace con pruebas moleculares rápidas (Xpert MTB/RIF Ultra, que detecta rifampicina) y pruebas de sensibilidad fenotípicas. Perla: el esquema BPaLM de 6 meses es actualmente de elección en TB-MDR/RR sin resistencia a fluoroquinolonas.",
+      "comentario": "La tuberculosis multidrogorresistente (TB-MDR) es la causada por Mycobacterium tuberculosis resistente al menos a isoniacida y rifampicina, los dos fármacos bactericidas más potentes del núcleo del tratamiento, con o sin resistencia a otros. Cuando además hay resistencia a una fluoroquinolona se denomina pre-XDR, y si se suma resistencia a bedaquilina o linezolid, XDR según la definición de la OMS de 2021. La resistencia aislada a rifampicina (TB-RR) se maneja igual que la MDR. Las demás combinaciones no corresponden a la definición: pirazinamida, etambutol, estreptomicina, kanamicina y ciprofloxacino pertenecen a otros grupos. El diagnóstico se hace con pruebas moleculares rápidas (Xpert MTB/RIF Ultra, que detecta rifampicina) y pruebas de sensibilidad fenotípicas. Perla: el esquema BPaLM de 6 meses es actualmente de elección en TB-MDR/RR sin resistencia a fluoroquinolonas.",
+      "tema": "Definición de tuberculosis multidrogorresistente",
+      "año": 2014,
+      "fuentes": "OMS, Meeting report on definitions of XDR-TB (2021); OMS, Directrices consolidadas sobre TB, Módulo 4: tratamiento (2022, actualización 2025); MINSA, NTS N.° 200-MINSA/DGIESP-2023 (RM 339-2023/MINSA)",
+      "categoria": "Tuberculosis",
+      "nota_revision": "Siglas «MOR» del OCR corregidas a MDR."
+    },
+    {
+      "id": "RM-INF-008",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es el agente causal de uretritis no gonocócica transmitida sexualmente?",
+      "opciones": [
+        "Adenovirus.",
+        "Bacilos gramnegativos.",
+        "Chlamydia trachomatis.",
+        "Neisseria meningitidis.",
+        "Microsporidios."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La uretritis no gonocócica se define por secreción uretral mucoide o escasa, disuria y leucocitos en la tinción de Gram sin diplococos gramnegativos intracelulares. El agente más frecuente es Chlamydia trachomatis, una bacteria intracelular obligada; le siguen Mycoplasma genitalium, Ureaplasma urealyticum, Trichomonas vaginalis y, con menor frecuencia, adenovirus o virus del herpes simple. Neisseria gonorrhoeae causa la forma gonocócica, con secreción purulenta abundante; Neisseria meningitidis solo ocasionalmente da uretritis en varones que tienen sexo oral. Los bacilos gramnegativos intestinales causan infecciones urinarias, no uretritis de transmisión sexual, y los microsporidios afectan a inmunodeprimidos. El tratamiento de elección es doxiciclina 100 mg cada 12 horas por 7 días, y se trata también a las parejas. Perla: la clamidia en la mujer suele ser asintomática y causa enfermedad pélvica inflamatoria e infertilidad.",
+      "comentario": "La uretritis no gonocócica se define por secreción uretral mucoide o escasa, disuria y leucocitos en la tinción de Gram sin diplococos gramnegativos intracelulares. El agente más frecuente es Chlamydia trachomatis, una bacteria intracelular obligada; le siguen Mycoplasma genitalium, Ureaplasma urealyticum, Trichomonas vaginalis y, con menor frecuencia, adenovirus o virus del herpes simple. Neisseria gonorrhoeae causa la forma gonocócica, con secreción purulenta abundante; Neisseria meningitidis solo ocasionalmente da uretritis en varones que tienen sexo oral. Los bacilos gramnegativos intestinales causan infecciones urinarias, no uretritis de transmisión sexual, y los microsporidios afectan a inmunodeprimidos. El tratamiento de elección es doxiciclina 100 mg cada 12 horas por 7 días, y se trata también a las parejas. Perla: la clamidia en la mujer suele ser asintomática y causa enfermedad pélvica inflamatoria e infertilidad.",
+      "tema": "Uretritis no gonocócica: agente causal",
+      "año": 2014,
+      "fuentes": "CDC, Sexually Transmitted Infections Treatment Guidelines (2021); OMS, Recomendaciones actualizadas para el tratamiento de N. gonorrhoeae, C. trachomatis y T. pallidum (2024); Guía europea IUSTI de uretritis no gonocócica (Int J STD AIDS, 2016)",
+      "categoria": "Infecciones de transmisión sexual",
+      "nota_revision": "Opciones A y D limpiadas del texto ruidoso."
+    },
+    {
+      "id": "RM-INF-009",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 30 años, procedente de zona endémica de malaria, que presenta fiebre cuartana. ¿Cuál es la especie de Plasmodium más probable?",
+      "opciones": [
+        "Malariae.",
+        "Difficile.",
+        "Ovale.",
+        "Falciparum.",
+        "Vivax."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La periodicidad de la fiebre depende de la duración del ciclo eritrocítico del parásito. Plasmodium vivax y P. ovale tienen ciclos de 48 horas y producen fiebre terciana (un acceso cada tercer día), mientras que P. malariae tiene un ciclo de 72 horas y produce fiebre cuartana, con acceso cada cuarto día. P. falciparum tiene ciclo de 48 horas, pero los accesos suelen ser irregulares por la asincronía, y es el que causa malaria grave y complicada (cerebral, anemia, insuficiencia renal). «Difficile» no es una especie de Plasmodium (se confunde con Clostridioides difficile). P. malariae puede persistir en sangre durante décadas y se asocia con síndrome nefrótico por inmunocomplejos. En el Perú predominan P. vivax y P. falciparum, sobre todo en Loreto y la selva. Perla: P. vivax y P. ovale forman hipnozoitos hepáticos y requieren primaquina o tafenoquina para curación radical.",
+      "comentario": "La periodicidad de la fiebre depende de la duración del ciclo eritrocítico del parásito. Plasmodium vivax y P. ovale tienen ciclos de 48 horas y producen fiebre terciana (un acceso cada tercer día), mientras que P. malariae tiene un ciclo de 72 horas y produce fiebre cuartana, con acceso cada cuarto día. P. falciparum tiene ciclo de 48 horas, pero los accesos suelen ser irregulares por la asincronía, y es el que causa malaria grave y complicada (cerebral, anemia, insuficiencia renal). «Difficile» no es una especie de Plasmodium (se confunde con Clostridioides difficile). P. malariae puede persistir en sangre durante décadas y se asocia con síndrome nefrótico por inmunocomplejos. En el Perú predominan P. vivax y P. falciparum, sobre todo en Loreto y la selva. Perla: P. vivax y P. ovale forman hipnozoitos hepáticos y requieren primaquina o tafenoquina para curación radical.",
+      "tema": "Fiebre cuartana: Plasmodium malariae",
+      "año": 2014,
+      "fuentes": "OMS, Guidelines for Malaria (actualización 2025); CDC, Malaria, guía clínica (2024); MINSA, NTS N.° 054-MINSA/DGSP-V.01, atención de malaria y malaria grave (RM 076-2007/MINSA, modificada por RM 116-2015/MINSA)",
+      "categoria": "Malaria",
+      "nota_revision": "Opciones reconstruidas del texto con ruido; «Malarie» y «Dificile» se corrigieron a Malariae y Difficile (distractor). Clave A verificada."
+    },
+    {
+      "id": "RM-INF-010",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes patologías produce síndrome pseudoulceroso?",
+      "opciones": [
+        "Giardiasis.",
+        "Amebiasis.",
+        "Fiebre tifoidea.",
+        "Shigellosis.",
+        "Cólera."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Giardia lamblia (intestinalis) es un protozoo flagelado que se adquiere por ingestión de quistes en agua o alimentos contaminados y coloniza el duodeno y el yeyuno proximal. Cuando la carga es alta, los trofozoítos tapizan la mucosa y causan malabsorción con diarrea crónica grasa y pérdida de peso, y también un dolor epigástrico similar al de la úlcera duodenal, sin lesión ulcerosa a la endoscopía: es el síndrome pseudoulceroso. El diagnóstico se hace con antígenos o PCR en heces, o con búsqueda seriada de quistes y trofozoítos. El tratamiento es con tinidazol 2 g en dosis única, o metronidazol por 5-7 días, o nitazoxanida. La amebiasis, la shigellosis y el cólera cursan con diarrea disentérica o acuosa de colon e íleon, y la fiebre tifoidea con fiebre prolongada y compromiso sistémico, no dolor tipo úlcera. Perla: la giardiasis se asocia con déficit de IgA y de lactasa secundario.",
+      "comentario": "Giardia lamblia (intestinalis) es un protozoo flagelado que se adquiere por ingestión de quistes en agua o alimentos contaminados y coloniza el duodeno y el yeyuno proximal. Cuando la carga es alta, los trofozoítos tapizan la mucosa y causan malabsorción con diarrea crónica grasa y pérdida de peso, y también un dolor epigástrico similar al de la úlcera duodenal, sin lesión ulcerosa a la endoscopía: es el síndrome pseudoulceroso. El diagnóstico se hace con antígenos o PCR en heces, o con búsqueda seriada de quistes y trofozoítos. El tratamiento es con tinidazol 2 g en dosis única, o metronidazol por 5-7 días, o nitazoxanida. La amebiasis, la shigellosis y el cólera cursan con diarrea disentérica o acuosa de colon e íleon, y la fiebre tifoidea con fiebre prolongada y compromiso sistémico, no dolor tipo úlcera. Perla: la giardiasis se asocia con déficit de IgA y de lactasa secundario.",
+      "tema": "Giardiasis y síndrome pseudoulceroso",
+      "año": 2014,
+      "fuentes": "IDSA, Guía de diarrea infecciosa (2017); CDC, Giardiasis, guía clínica (2024); Harrison, 21.ª ed. (2022)",
+      "categoria": "Parasitosis",
+      "nota_revision": "El bloque estaba muy dañado en el OCR (enunciado mezclado con otra pregunta de flujo vaginal). Se reconstruyó con la página del libro: RM 2014 #11, clave A (giardiasis), opciones A-E."
+    },
+    {
+      "id": "RM-INF-011",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes criterios corresponde al síndrome de respuesta inflamatoria sistémica?",
+      "opciones": [
+        "Temperatura menor de 36 °C.",
+        "Leucocitos 10 000 por mm3.",
+        "Frecuencia respiratoria 20 por minuto.",
+        "Frecuencia cardiaca 86 por minuto.",
+        "Hemocultivo positivo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El síndrome de respuesta inflamatoria sistémica (SIRS), definido en 1992, requiere dos o más de los siguientes: temperatura mayor de 38 °C o menor de 36 °C; frecuencia cardiaca mayor de 90 por minuto; frecuencia respiratoria mayor de 20 por minuto o PaCO2 menor de 32 mmHg; y leucocitos mayores de 12 000, menores de 4 000 o más de 10 % de formas inmaduras. De las opciones, solo la hipotermia (menos de 36 °C) cumple un criterio; una frecuencia de 20 no supera el umbral, 86 latidos no es taquicardia, y 10 000 leucocitos está dentro de lo normal. El hemocultivo positivo indica bacteriemia, no es criterio de SIRS. Desde Sepsis-3 (2016) el diagnóstico de sepsis se basa en disfunción orgánica con un aumento de 2 puntos o más en SOFA, y se usa qSOFA como tamizaje. Perla: el SIRS es muy sensible pero inespecífico, y aparece en pancreatitis, quemaduras y trauma.",
+      "comentario": "El síndrome de respuesta inflamatoria sistémica (SIRS), definido en 1992, requiere dos o más de los siguientes: temperatura mayor de 38 °C o menor de 36 °C; frecuencia cardiaca mayor de 90 por minuto; frecuencia respiratoria mayor de 20 por minuto o PaCO2 menor de 32 mmHg; y leucocitos mayores de 12 000, menores de 4 000 o más de 10 % de formas inmaduras. De las opciones, solo la hipotermia (menos de 36 °C) cumple un criterio; una frecuencia de 20 no supera el umbral, 86 latidos no es taquicardia, y 10 000 leucocitos está dentro de lo normal. El hemocultivo positivo indica bacteriemia, no es criterio de SIRS. Desde Sepsis-3 (2016) el diagnóstico de sepsis se basa en disfunción orgánica con un aumento de 2 puntos o más en SOFA, y se usa qSOFA como tamizaje. Perla: el SIRS es muy sensible pero inespecífico, y aparece en pancreatitis, quemaduras y trauma.",
+      "tema": "Criterios de SIRS",
+      "año": 2014,
+      "fuentes": "Singer M et al., Sepsis-3 (JAMA, 2016); Evans L et al., Surviving Sepsis Campaign (Crit Care Med, 2021); Bone RC et al., ACCP/SCCM (Chest, 1992)",
+      "categoria": "Sepsis",
+      "nota_revision": "Clave A verificada; opciones reconstruidas (pm → por minuto)."
     }
   ]
 }

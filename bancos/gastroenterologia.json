@@ -1695,6 +1695,28 @@
       "comentario": "El dato que lo cambia todo es el gas dentro de la colección pancreática. En una pancreatitis, un páncreas que desarrolla una colección con burbujas de gas en su interior está infectado, porque ese gas lo producen las bacterias que colonizaron el tejido; el aire no debería estar ahí de forma espontánea. Sumado a la fiebre persistente y la leucocitosis, y apareciendo temprano, al quinto día, esto corresponde a una necrosis pancreática infectada, es decir el tejido pancreático que se murió durante la pancreatitis y ahora se sobreinfectó con gérmenes. Es una complicación grave que exige antibióticos y, a menudo, drenaje o desbridamiento del tejido necrótico. Por eso es el diagnóstico más probable. La colección peripancreática aguda es la acumulación de líquido de las primeras fases, pero no tiene gas ni signos de infección; el gas la descarta. El seudoquiste pancreático es una colección con una pared bien formada que madura semanas después, no una colección con gas al quinto día, y no cursa con fiebre y leucocitosis salvo que se infecte. El absceso pancreático también es una colección infectada, pero es una entidad más tardía y encapsulada que aparece semanas después; una colección con gas que se manifiesta al quinto día, en pleno tejido necrótico, corresponde a la necrosis pancreática infectada. Colección pancreática con gas en su interior + fiebre y leucocitosis en los primeros días de una pancreatitis = necrosis pancreática infectada (el gas lo producen las bacterias que colonizaron el tejido necrótico). El seudoquiste y el absceso son colecciones más tardías y encapsuladas.",
       "tema": "Necrosis pancreática infectada: colección con gas",
       "año": 2026
+    },
+    {
+      "id": "RM-GAS-001",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Varón de 60 años con antecedente de alcoholismo crónico y hemorragia digestiva alta. Examen físico: febril, distensión y matidez abdominal desplazable, descompresión abdominal dolorosa. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Globo vesical a tensión.",
+        "Tuberculosis peritoneal.",
+        "Apendicitis aguda.",
+        "Neoplasia peritoneal.",
+        "Peritonitis bacteriana espontánea."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "Un alcohólico crónico con hemorragia digestiva alta (probable várice esofágica) tiene hepatopatía crónica con hipertensión portal; la matidez desplazable confirma ascitis. La aparición de fiebre y dolor con descompresión positiva en un cirrótico con ascitis debe hacer pensar en peritonitis bacteriana espontánea (PBE): infección del líquido ascítico sin foco quirúrgico, por translocación bacteriana intestinal, con bacilos gramnegativos (E. coli, Klebsiella) como gérmenes principales. El diagnóstico se hace con paracentesis diagnóstica: polimorfonucleares ≥ 250/mm3, con cultivo en frascos de hemocultivo. El tratamiento es ceftriaxona o cefotaxima más albúmina (1,5 g/kg el día 1 y 1 g/kg el día 3), y profilaxis secundaria con norfloxacino o ciprofloxacino. La hemorragia digestiva es un factor de riesgo de PBE. Perla: la tuberculosis peritoneal y la neoplasia cursan con ascitis de predominio linfocitario, de curso subagudo.",
+      "comentario": "Un alcohólico crónico con hemorragia digestiva alta (probable várice esofágica) tiene hepatopatía crónica con hipertensión portal; la matidez desplazable confirma ascitis. La aparición de fiebre y dolor con descompresión positiva en un cirrótico con ascitis debe hacer pensar en peritonitis bacteriana espontánea (PBE): infección del líquido ascítico sin foco quirúrgico, por translocación bacteriana intestinal, con bacilos gramnegativos (E. coli, Klebsiella) como gérmenes principales. El diagnóstico se hace con paracentesis diagnóstica: polimorfonucleares ≥ 250/mm3, con cultivo en frascos de hemocultivo. El tratamiento es ceftriaxona o cefotaxima más albúmina (1,5 g/kg el día 1 y 1 g/kg el día 3), y profilaxis secundaria con norfloxacino o ciprofloxacino. La hemorragia digestiva es un factor de riesgo de PBE. Perla: la tuberculosis peritoneal y la neoplasia cursan con ascitis de predominio linfocitario, de curso subagudo.",
+      "tema": "Peritonitis bacteriana espontánea en cirrótico con ascitis",
+      "año": 2014,
+      "fuentes": "AASLD, Guía de ascitis, PBE y síndrome hepatorrenal (2021); EASL, Guía de cirrosis descompensada (2018); de Franchis R et al., Baveno VII (J Hepatol, 2022)",
+      "categoria": "Hígado",
+      "nota_revision": "El enunciado perdió el número de pregunta en el OCR (aparece «61»). Clave E verificada con la página del libro."
     }
   ]
 }

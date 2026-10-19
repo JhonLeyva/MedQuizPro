@@ -5500,6 +5500,70 @@
       "tema": "Estenosis hipertrófica del píloro: piloromiotomía",
       "año": 2018,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; Sociedad Británica de Cirugía Pediátrica; Schwartz Principios de Cirugía 11.ª ed."
+    },
+    {
+      "id": "RM-PED-004",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Recién nacido de 5 semanas con vómitos alimentarios «en proyectil», que progresivamente lo lleva a una deshidratación moderada con alcalosis metabólica, abdomen sin alteraciones significativas. Se sospecha probable estenosis hipertrófica del píloro. ¿Cuál es el tratamiento quirúrgico más recomendado?",
+      "opciones": [
+        "Piloromiotomía.",
+        "Piloroplastía.",
+        "Derivación gastroyeyunal.",
+        "Antrectomía.",
+        "Gastrectomía Billroth I."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La estenosis hipertrófica del píloro aparece entre la 2.ª y la 8.ª semana de vida, con más frecuencia en varones primogénitos. La hipertrofia de la capa muscular circular obstruye el vaciado gástrico y causa vómitos no biliosos en proyectil, hambre persistente y, por la pérdida de ácido clorhídrico, alcalosis metabólica hipoclorémica e hipopotasémica. La palpación de la «oliva» epigástrica o la ecografía (grosor muscular ≥ 3-4 mm, longitud del canal ≥ 15-17 mm) confirman el diagnóstico. Primero se corrigen los líquidos y electrolitos y después se realiza la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, que consiste en seccionar el músculo sin abrir la mucosa. Las demás opciones son resecciones o derivaciones innecesarias y más morbosas. Perla: la alcalosis debe corregirse antes de anestesiar, por el riesgo de apnea posoperatoria.",
+      "comentario": "La estenosis hipertrófica del píloro aparece entre la 2.ª y la 8.ª semana de vida, con más frecuencia en varones primogénitos. La hipertrofia de la capa muscular circular obstruye el vaciado gástrico y causa vómitos no biliosos en proyectil, hambre persistente y, por la pérdida de ácido clorhídrico, alcalosis metabólica hipoclorémica e hipopotasémica. La palpación de la «oliva» epigástrica o la ecografía (grosor muscular ≥ 3-4 mm, longitud del canal ≥ 15-17 mm) confirman el diagnóstico. Primero se corrigen los líquidos y electrolitos y después se realiza la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, que consiste en seccionar el músculo sin abrir la mucosa. Las demás opciones son resecciones o derivaciones innecesarias y más morbosas. Perla: la alcalosis debe corregirse antes de anestesiar, por el riesgo de apnea posoperatoria.",
+      "tema": "Tratamiento de la estenosis hipertrófica del píloro",
+      "año": 2019,
+      "fuentes": "Ashcraft Cirugía Pediátrica 7.ª ed.; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Cirugía pediátrica"
+    },
+    {
+      "id": "RM-PED-005",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la complicación cardiovascular en un niño con obesidad?",
+      "opciones": [
+        "Hipertensión.",
+        "Hipotensión.",
+        "Arritmias.",
+        "Insuficiencia cardiaca.",
+        "Hipertrofia ventricular."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La obesidad infantil se asocia a resistencia a la insulina, dislipidemia, hígado graso y, en el sistema cardiovascular, a hipertensión arterial, que es la complicación más frecuente. Los mecanismos son hiperinsulinemia con retención de sodio, activación simpática y del sistema renina-angiotensina-aldosterona, y la inflamación vascular. Se mide la presión en todo niño de 3 años o más y se compara con percentiles por edad, sexo y talla: normal por debajo del percentil 90, elevada del 90 al 95 y mayor al 95 la hipertensión (en 13 años o más, 130/80 mmHg). La hipertrofia ventricular izquierda es una consecuencia de la hipertensión sostenida, y la insuficiencia cardiaca y las arritmias son complicaciones tardías y menos frecuentes. La hipotensión no forma parte del cuadro. El manejo base es la modificación de estilo de vida con dieta y actividad física, y se añade tratamiento cuando persiste. Perla: el tamaño del manguito debe ser adecuado, pues uno pequeño sobreestima la presión.",
+      "comentario": "La obesidad infantil se asocia a resistencia a la insulina, dislipidemia, hígado graso y, en el sistema cardiovascular, a hipertensión arterial, que es la complicación más frecuente. Los mecanismos son hiperinsulinemia con retención de sodio, activación simpática y del sistema renina-angiotensina-aldosterona, y la inflamación vascular. Se mide la presión en todo niño de 3 años o más y se compara con percentiles por edad, sexo y talla: normal por debajo del percentil 90, elevada del 90 al 95 y mayor al 95 la hipertensión (en 13 años o más, 130/80 mmHg). La hipertrofia ventricular izquierda es una consecuencia de la hipertensión sostenida, y la insuficiencia cardiaca y las arritmias son complicaciones tardías y menos frecuentes. La hipotensión no forma parte del cuadro. El manejo base es la modificación de estilo de vida con dieta y actividad física, y se añade tratamiento cuando persiste. Perla: el tamaño del manguito debe ser adecuado, pues uno pequeño sobreestima la presión.",
+      "tema": "Complicación cardiovascular de la obesidad infantil",
+      "año": 2017,
+      "fuentes": "AAP, Guía de práctica clínica para presión arterial elevada en niños y adolescentes (Flynn, Pediatrics 2017); AAP, Guía de evaluación y tratamiento de obesidad infantil (Hampl, Pediatrics 2023)",
+      "categoria": "Nutrición"
+    },
+    {
+      "id": "RM-PED-006",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Adolescente de 17 años que en la evaluación nutricional presenta un índice de masa corporal de 26. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Normal.",
+        "Delgadez extrema.",
+        "Sobrepeso.",
+        "Obesidad mórbida.",
+        "Obesidad."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el adulto, y de manera práctica en el adolescente mayor, el IMC se clasifica así: menos de 18,5 bajo peso, 18,5 a 24,9 normal, 25 a 29,9 sobrepeso (preobesidad), 30 a 34,9 obesidad grado I, 35 a 39,9 grado II y 40 o más grado III o mórbida. Con un IMC de 26 el diagnóstico es sobrepeso. En menores de 19 años lo correcto es usar las curvas de la OMS por edad y sexo: sobrepeso entre 1 y 2 desviaciones estándar y obesidad por encima de 2, que a los 17 años equivalen a aproximadamente 25 y 30 kg/m². Por eso el valor de 26 cae en sobrepeso. No es normal, ni delgadez, ni obesidad, y menos obesidad mórbida, que exige 40 o más. Perla: el IMC no distingue masa grasa de masa magra, y el perímetro de cintura agrega información sobre el riesgo cardiometabólico.",
+      "comentario": "En el adulto, y de manera práctica en el adolescente mayor, el IMC se clasifica así: menos de 18,5 bajo peso, 18,5 a 24,9 normal, 25 a 29,9 sobrepeso (preobesidad), 30 a 34,9 obesidad grado I, 35 a 39,9 grado II y 40 o más grado III o mórbida. Con un IMC de 26 el diagnóstico es sobrepeso. En menores de 19 años lo correcto es usar las curvas de la OMS por edad y sexo: sobrepeso entre 1 y 2 desviaciones estándar y obesidad por encima de 2, que a los 17 años equivalen a aproximadamente 25 y 30 kg/m². Por eso el valor de 26 cae en sobrepeso. No es normal, ni delgadez, ni obesidad, y menos obesidad mórbida, que exige 40 o más. Perla: el IMC no distingue masa grasa de masa magra, y el perímetro de cintura agrega información sobre el riesgo cardiometabólico.",
+      "tema": "Clasificación del IMC en el adolescente",
+      "año": 2017,
+      "fuentes": "OMS, Curvas de crecimiento para escolares y adolescentes de 5 a 19 años (2007); AAP, Guía de obesidad infantil (Hampl, Pediatrics 2023)",
+      "categoria": "Nutrición",
+      "nota_revision": "La clave no se leyó en el OCR; el libro indica C (sobrepeso). No se cita guía MINSA de valoración nutricional por no haberse podido verificar su número y año."
     }
   ]
 }

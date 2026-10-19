@@ -5483,6 +5483,178 @@
       "año": 2019,
       "fuentes": "WSES, apendicitis aguda (2020); EAES (2016); Sabiston Tratado de Cirugía 21.ª ed.",
       "nota_revision": "El libro suma 7 puntos de Alvarado e indica cirugía. Si la presentación fuera equívoca, la TC es la opción siguiente."
+    },
+    {
+      "id": "RM-CIR-126",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes alternativas es un factor de riesgo importante para el desarrollo de carcinoma escamoso de esófago?",
+      "opciones": [
+        "Diabetes.",
+        "Gastritis.",
+        "Alcohol.",
+        "Obesidad.",
+        "Desnutrición."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El carcinoma escamoso es el tipo histológico más frecuente de cáncer de esófago en el mundo y se origina por la irritación crónica de la mucosa escamosa. Los factores mejor establecidos son el tabaco y el consumo de alcohol, que actúan de forma sinérgica, además de las bebidas muy calientes, las estenosis cáusticas, la acalasia, el síndrome de Plummer-Vinson y la tilosis palmoplantar. Entre las opciones, el alcohol es la única con asociación causal clara. La obesidad y el reflujo crónico conducen al esófago de Barrett y al adenocarcinoma del tercio distal, no al escamoso. La gastritis y la diabetes no son factores de riesgo reconocidos, y la desnutrición se relaciona más con el pronóstico y la disfagia que con la génesis. Perla clínica: disfagia progresiva a sólidos con pérdida de peso en un fumador y bebedor obliga a realizar endoscopia con biopsia.",
+      "comentario": "El carcinoma escamoso es el tipo histológico más frecuente de cáncer de esófago en el mundo y se origina por la irritación crónica de la mucosa escamosa. Los factores mejor establecidos son el tabaco y el consumo de alcohol, que actúan de forma sinérgica, además de las bebidas muy calientes, las estenosis cáusticas, la acalasia, el síndrome de Plummer-Vinson y la tilosis palmoplantar. Entre las opciones, el alcohol es la única con asociación causal clara. La obesidad y el reflujo crónico conducen al esófago de Barrett y al adenocarcinoma del tercio distal, no al escamoso. La gastritis y la diabetes no son factores de riesgo reconocidos, y la desnutrición se relaciona más con el pronóstico y la disfagia que con la génesis. Perla clínica: disfagia progresiva a sólidos con pérdida de peso en un fumador y bebedor obliga a realizar endoscopia con biopsia.",
+      "tema": "Factor de riesgo del carcinoma escamoso de esófago",
+      "año": 2019,
+      "fuentes": "NCCN, Esophageal and Esophagogastric Junction Cancers (2025); ESMO, Oesophageal cancer guideline (Obermannová, Ann Oncol 2022; actualización interina ESMO Open 2025); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Cirugía general"
+    },
+    {
+      "id": "RM-CIR-127",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es la ubicación más probable del cáncer colorrectal que evoluciona con metástasis ósea, pulmonar y/o cerebral, en ausencia de metástasis hepática?",
+      "opciones": [
+        "Mitad proximal de colon transverso.",
+        "Tercio superior de colon ascendente.",
+        "Tercio inferior del recto.",
+        "Mitad superior del recto.",
+        "Región ileocecal."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El patrón de metástasis del cáncer colorrectal depende del drenaje venoso del tumor. El colon y el recto superior drenan por las venas mesentéricas y la hemorroidal superior hacia el sistema porta, de modo que su primer filtro es el hígado. El recto medio e inferior drena por las venas hemorroidales media e inferior hacia la ilíaca interna y la cava inferior, de modo que las células tumorales llegan primero al pulmón, y de allí pueden pasar al hueso y al cerebro sin afectar el hígado. Por eso el tercio inferior del recto es la localización con metástasis extrahepáticas aisladas. Los segmentos colónicos y el recto superior de las otras opciones producen metástasis hepáticas iniciales. Perla clínica: la anastomosis portosistémica rectal explica también por qué la radioterapia y la resección total del mesorrecto son claves en el recto bajo.",
+      "comentario": "El patrón de metástasis del cáncer colorrectal depende del drenaje venoso del tumor. El colon y el recto superior drenan por las venas mesentéricas y la hemorroidal superior hacia el sistema porta, de modo que su primer filtro es el hígado. El recto medio e inferior drena por las venas hemorroidales media e inferior hacia la ilíaca interna y la cava inferior, de modo que las células tumorales llegan primero al pulmón, y de allí pueden pasar al hueso y al cerebro sin afectar el hígado. Por eso el tercio inferior del recto es la localización con metástasis extrahepáticas aisladas. Los segmentos colónicos y el recto superior de las otras opciones producen metástasis hepáticas iniciales. Perla clínica: la anastomosis portosistémica rectal explica también por qué la radioterapia y la resección total del mesorrecto son claves en el recto bajo.",
+      "tema": "Cáncer colorrectal con metástasis extrahepática",
+      "año": 2019,
+      "fuentes": "NCCN, Rectal Cancer (2025); ESMO, Localised rectal cancer guideline (Hofheinz, Ann Oncol 2025); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Cirugía general"
+    },
+    {
+      "id": "RM-CIR-128",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 34 años, presenta herida por arma de fuego en abdomen. Examen: PA 110/60 mmHg, FC 100 por minuto, T 38 °C, Sat O2 96 %. Orificio de entrada en flanco derecho sin orificio de salida. Abdomen distendido pero blando y no doloroso. Leucocitos 12 000/µL con 6 % de abastonados, Hb 13 g/dL. Ecografía: escaso líquido libre en cavidad. Luego de 8 horas de observación se evidencia signo de Blumberg (+) con dolor a la palpación. Se sospecha lesión duodenal. ¿Cuál es la conducta a seguir para llegar al diagnóstico?",
+      "opciones": [
+        "Tomografía abdominal contrastada.",
+        "Rx esófago-estómago-duodeno.",
+        "Gammagrafía abdominal.",
+        "Ecografía de control.",
+        "Lavado peritoneal diagnóstico."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Una herida por proyectil de arma de fuego en el abdomen requiere laparotomía exploradora cuando hay inestabilidad, peritonitis o evisceración; en pacientes estables sin esos signos se puede evaluar con imagen o con observación seriada. Las lesiones duodenales son difíciles de detectar porque el duodeno es retroperitoneal y los signos peritoneales aparecen tarde, cuando el contenido duodenal o el aire retroperitoneal irritan el peritoneo. En un paciente hemodinámicamente estable la tomografía con contraste intravenoso y oral es el estudio de elección: muestra aire o líquido retroperitoneal, extravasación y hematoma de pared. La ecografía FAST solo detecta líquido libre, el lavado peritoneal no explora el retroperitoneo y la serie esófago-gastro-duodenal es poco sensible en trauma agudo. Si el estudio es dudoso o el paciente empeora, se indica laparotomía. Perla: la elevación de la amilasa o el aire retroperitoneal en la tomografía sugieren lesión duodenal.",
+      "comentario": "Una herida por proyectil de arma de fuego en el abdomen requiere laparotomía exploradora cuando hay inestabilidad, peritonitis o evisceración; en pacientes estables sin esos signos se puede evaluar con imagen o con observación seriada. Las lesiones duodenales son difíciles de detectar porque el duodeno es retroperitoneal y los signos peritoneales aparecen tarde, cuando el contenido duodenal o el aire retroperitoneal irritan el peritoneo. En un paciente hemodinámicamente estable la tomografía con contraste intravenoso y oral es el estudio de elección: muestra aire o líquido retroperitoneal, extravasación y hematoma de pared. La ecografía FAST solo detecta líquido libre, el lavado peritoneal no explora el retroperitoneo y la serie esófago-gastro-duodenal es poco sensible en trauma agudo. Si el estudio es dudoso o el paciente empeora, se indica laparotomía. Perla: la elevación de la amilasa o el aire retroperitoneal en la tomografía sugieren lesión duodenal.",
+      "tema": "Herida por arma de fuego con sospecha de lesión duodenal",
+      "año": 2019,
+      "fuentes": "ATLS, 11.ª ed. (2025); WSES-AAST, Duodeno-pancreatic and extrahepatic biliary tree trauma (Coccolini 2019); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Trauma",
+      "nota_revision": "El libro acepta la tomografía abdominal contrastada; con peritonitis ya establecida muchos cirujanos indicarían laparotomía directa, pero entre las opciones la clave sigue siendo A."
+    },
+    {
+      "id": "RM-CIR-129",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "En la cicatrización de una herida, la fase de maduración se caracteriza por:",
+      "opciones": [
+        "Proliferación de células endoteliales.",
+        "Estimulación de angiogénesis.",
+        "Proliferación de fibroblastos.",
+        "Migración de polimorfonucleares.",
+        "Reorganización del colágeno sintetizado."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La cicatrización normal transcurre en fases superpuestas: hemostasia e inflamación (horas a días), con llegada de neutrófilos y luego macrófagos; proliferación (días 4 a 21), con fibroblastos que depositan colágeno tipo III, angiogénesis y epitelización; y maduración o remodelación (desde las 3 semanas hasta 1-2 años). En esta última el colágeno tipo III es reemplazado por colágeno tipo I, que se reorganiza y se entrecruza gracias a las metaloproteinasas, la herida se contrae y disminuye la vascularidad. La fuerza tensil aumenta hasta alcanzar cerca de 80 % de la piel normal, nunca el 100 %. La proliferación de fibroblastos, la angiogénesis y la proliferación endotelial son propias de la fase proliferativa y la migración de polimorfonucleares corresponde a la inflamatoria. Perla clínica: la vitamina C, el zinc y la oxigenación adecuada son necesarios para el entrecruzamiento del colágeno.",
+      "comentario": "La cicatrización normal transcurre en fases superpuestas: hemostasia e inflamación (horas a días), con llegada de neutrófilos y luego macrófagos; proliferación (días 4 a 21), con fibroblastos que depositan colágeno tipo III, angiogénesis y epitelización; y maduración o remodelación (desde las 3 semanas hasta 1-2 años). En esta última el colágeno tipo III es reemplazado por colágeno tipo I, que se reorganiza y se entrecruza gracias a las metaloproteinasas, la herida se contrae y disminuye la vascularidad. La fuerza tensil aumenta hasta alcanzar cerca de 80 % de la piel normal, nunca el 100 %. La proliferación de fibroblastos, la angiogénesis y la proliferación endotelial son propias de la fase proliferativa y la migración de polimorfonucleares corresponde a la inflamatoria. Perla clínica: la vitamina C, el zinc y la oxigenación adecuada son necesarios para el entrecruzamiento del colágeno.",
+      "tema": "Fase de maduración de la cicatrización",
+      "año": 2019,
+      "fuentes": "Schwartz Principios de Cirugía 11.ª ed.; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Cirugía general"
+    },
+    {
+      "id": "RM-CIR-130",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 36 años que presenta hemorroides prolapsadas y debe reducirlas en forma manual. Según la clasificación de las hemorroides, ¿a qué grado corresponde?",
+      "opciones": [
+        "I.",
+        "III.",
+        "II.",
+        "V.",
+        "IV."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Las hemorroides internas se clasifican según el grado de prolapso (clasificación de Goligher). En el grado I hay sangrado pero no prolapso; en el grado II la mucosa prolapsa con el pujo y se reduce de forma espontánea; en el grado III el prolapso exige reducción manual por parte del paciente, que es lo descrito aquí; y en el grado IV es permanente e irreductible, con riesgo de trombosis y estrangulación. No existe un grado V. El tratamiento se escalona: medidas dietéticas, fibra y flebotónicos en el grado I; ligadura con banda elástica o escleroterapia en el II; en el III se emplea ligadura con banda si el prolapso es pequeño u hemorroidectomía convencional, y el IV requiere hemorroidectomía. Perla clínica: el sangrado rojo rutilante al final de la defecación, sin dolor, es la manifestación típica, pero primero se debe descartar cáncer colorrectal en mayores de 45 años o con alarma.",
+      "comentario": "Las hemorroides internas se clasifican según el grado de prolapso (clasificación de Goligher). En el grado I hay sangrado pero no prolapso; en el grado II la mucosa prolapsa con el pujo y se reduce de forma espontánea; en el grado III el prolapso exige reducción manual por parte del paciente, que es lo descrito aquí; y en el grado IV es permanente e irreductible, con riesgo de trombosis y estrangulación. No existe un grado V. El tratamiento se escalona: medidas dietéticas, fibra y flebotónicos en el grado I; ligadura con banda elástica o escleroterapia en el II; en el III se emplea ligadura con banda si el prolapso es pequeño u hemorroidectomía convencional, y el IV requiere hemorroidectomía. Perla clínica: el sangrado rojo rutilante al final de la defecación, sin dolor, es la manifestación típica, pero primero se debe descartar cáncer colorrectal en mayores de 45 años o con alarma.",
+      "tema": "Clasificación de hemorroides: reducción manual",
+      "año": 2019,
+      "fuentes": "ASCRS, Clinical Practice Guidelines for the Management of Hemorrhoids (Davis, Dis Colon Rectum 2018); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Coloproctología",
+      "nota_revision": "El orden de las opciones del libro es A=I, B=III, C=II, D=V, E=IV; la clave B corresponde al grado III."
+    },
+    {
+      "id": "RM-CIR-131",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Mujer de 38 años con estreñimiento crónico, desde hace 2 meses presenta dolor intenso al defecar acompañado de pequeño sangrado. Examen: lesión ulcerada en cara posterior del canal anal, blanquecina de bordes tortuosos con fibrina en el lecho de la herida. Se diagnostica fisura anal crónica. ¿Cuál es el tratamiento más recomendado?",
+      "opciones": [
+        "Dieta rica en fibra y baños de asiento.",
+        "Esfinterotomía química.",
+        "Esfinterotomía lateral externa.",
+        "Esfinterotomía lateral interna.",
+        "Fisurotomía."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La fisura anal es un desgarro del anodermo, casi siempre en la línea media posterior, que causa dolor durante y después de la evacuación y sangrado escaso. Se mantiene por hipertonía del esfínter interno, que reduce la perfusión del sitio de la lesión y perpetúa la isquemia. Se considera crónica cuando persiste más de 6 a 8 semanas y presenta fibras del esfínter interno visibles, centinela y papila hipertrófica. El tratamiento inicial es médico: fibra, agua, baños de asiento y relajantes tópicos como diltiazem o nifedipino (esfinterotomía química), con toxina botulínica como segunda línea. Si fracasa o la fisura es crónica establecida, la esfinterotomía lateral interna es el tratamiento quirúrgico de elección, con curación mayor de 90 %. La lateral externa no es una técnica indicada y la fisurotomía no corrige la hipertonía. Perla: el riesgo de incontinencia es bajo pero real, y una fisura lateral o múltiple sugiere enfermedad de Crohn, VIH o sífilis.",
+      "comentario": "La fisura anal es un desgarro del anodermo, casi siempre en la línea media posterior, que causa dolor durante y después de la evacuación y sangrado escaso. Se mantiene por hipertonía del esfínter interno, que reduce la perfusión del sitio de la lesión y perpetúa la isquemia. Se considera crónica cuando persiste más de 6 a 8 semanas y presenta fibras del esfínter interno visibles, centinela y papila hipertrófica. El tratamiento inicial es médico: fibra, agua, baños de asiento y relajantes tópicos como diltiazem o nifedipino (esfinterotomía química), con toxina botulínica como segunda línea. Si fracasa o la fisura es crónica establecida, la esfinterotomía lateral interna es el tratamiento quirúrgico de elección, con curación mayor de 90 %. La lateral externa no es una técnica indicada y la fisurotomía no corrige la hipertonía. Perla: el riesgo de incontinencia es bajo pero real, y una fisura lateral o múltiple sugiere enfermedad de Crohn, VIH o sífilis.",
+      "tema": "Fisura anal crónica: tratamiento",
+      "año": 2019,
+      "fuentes": "ASCRS, Clinical Practice Guidelines for the Management of Anal Fissures (Davids, Dis Colon Rectum 2023); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Coloproctología",
+      "nota_revision": "Con evolución de 2 meses la mayoría de guías aceptaría un ensayo previo de relajantes tópicos; el libro y el examen consideran de elección la esfinterotomía lateral interna en la fisura crónica."
+    },
+    {
+      "id": "RM-CIR-132",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de obstrucción intestinal en adultos?",
+      "opciones": [
+        "Cáncer de colon.",
+        "Intususcepción.",
+        "Íleo biliar.",
+        "Bridas y adherencias.",
+        "Vólvulo de sigmoides."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el adulto la obstrucción intestinal se debe más a menudo a bridas y adherencias posoperatorias, que explican entre 55 y 75 % de los casos de obstrucción del intestino delgado. Las hernias de la pared abdominal complicadas ocupan el segundo lugar, y los tumores y las enfermedades inflamatorias como la de Crohn, el tercero. En el intestino grueso, en cambio, la causa principal es el cáncer colorrectal, seguido del vólvulo de sigmoides y la enfermedad diverticular. La intususcepción es rara en el adulto y casi siempre tiene un punto de arrastre tumoral; el íleo biliar es una causa poco habitual en ancianos con fístula colecistoduodenal. Clínicamente la obstrucción cursa con dolor cólico, vómitos, distensión y ausencia de gases y heces. Perla: los cuadros sin signos de estrangulación se manejan de forma conservadora con sonda nasogástrica, y un Gastrografín puede ser diagnóstico y terapéutico.",
+      "comentario": "En el adulto la obstrucción intestinal se debe más a menudo a bridas y adherencias posoperatorias, que explican entre 55 y 75 % de los casos de obstrucción del intestino delgado. Las hernias de la pared abdominal complicadas ocupan el segundo lugar, y los tumores y las enfermedades inflamatorias como la de Crohn, el tercero. En el intestino grueso, en cambio, la causa principal es el cáncer colorrectal, seguido del vólvulo de sigmoides y la enfermedad diverticular. La intususcepción es rara en el adulto y casi siempre tiene un punto de arrastre tumoral; el íleo biliar es una causa poco habitual en ancianos con fístula colecistoduodenal. Clínicamente la obstrucción cursa con dolor cólico, vómitos, distensión y ausencia de gases y heces. Perla: los cuadros sin signos de estrangulación se manejan de forma conservadora con sonda nasogástrica, y un Gastrografín puede ser diagnóstico y terapéutico.",
+      "tema": "Causa más frecuente de obstrucción intestinal en el adulto",
+      "año": 2019,
+      "fuentes": "WSES, Bologna guidelines for adhesive small bowel obstruction, actualización 2017 (Ten Broek, World J Emerg Surg 2018); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Cirugía general"
+    },
+    {
+      "id": "RM-CIR-133",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es la bacteria que se encuentra con mayor frecuencia en la apendicitis perforada?",
+      "opciones": [
+        "Pseudomonas aeruginosa.",
+        "Peptostreptococcus.",
+        "Streptococcus viridans.",
+        "Streptococcus del grupo D.",
+        "Bacteroides fragilis."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La apendicitis complicada con perforación es una infección intraabdominal polimicrobiana causada por la flora colónica: se aíslan en promedio unos diez microorganismos por muestra, con predominio de anaerobios sobre aerobios. Los gérmenes más frecuentes son Bacteroides fragilis, el anaerobio dominante del colon, y Escherichia coli, entre los aerobios gramnegativos. Peptostreptococcus, Streptococcus del grupo anginosus y Pseudomonas se encuentran con menor frecuencia, y Streptococcus viridans y del grupo D son habituales pero no los principales. Esto justifica el tratamiento antibiótico con cobertura para gramnegativos y anaerobios (por ejemplo ceftriaxona más metronidazol, o piperacilina-tazobactam), que se mantiene por 3-5 días tras un control adecuado del foco. Perla: Yersinia pseudotuberculosis y Yersinia enterocolitica pueden causar adenitis mesentérica o apendicitis granulomatosa que simula una apendicitis aguda.",
+      "comentario": "La apendicitis complicada con perforación es una infección intraabdominal polimicrobiana causada por la flora colónica: se aíslan en promedio unos diez microorganismos por muestra, con predominio de anaerobios sobre aerobios. Los gérmenes más frecuentes son Bacteroides fragilis, el anaerobio dominante del colon, y Escherichia coli, entre los aerobios gramnegativos. Peptostreptococcus, Streptococcus del grupo anginosus y Pseudomonas se encuentran con menor frecuencia, y Streptococcus viridans y del grupo D son habituales pero no los principales. Esto justifica el tratamiento antibiótico con cobertura para gramnegativos y anaerobios (por ejemplo ceftriaxona más metronidazol, o piperacilina-tazobactam), que se mantiene por 3-5 días tras un control adecuado del foco. Perla: Yersinia pseudotuberculosis y Yersinia enterocolitica pueden causar adenitis mesentérica o apendicitis granulomatosa que simula una apendicitis aguda.",
+      "tema": "Bacteriología de la apendicitis perforada",
+      "año": 2014,
+      "fuentes": "Di Saverio S et al., WSES Jerusalem Guidelines de apendicitis aguda (World J Emerg Surg, 2020); EsSalud-IETSI, GPC de apendicitis aguda (2022); Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Apendicitis",
+      "nota_revision": "Opciones reconstruidas del texto desordenado (distractores A-D según la página del libro)."
     }
   ]
 }

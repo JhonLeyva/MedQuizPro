@@ -11357,5 +11357,507 @@ window.MQP_ALGORITMOS = {
     titulo: "Obstrucción intestinal proximal: hipopotasemia y alcalosis metabólica",
     imagen: "flujogramas/rm-cir-028-cirugia-trastornos-acido-base-en-la-obstruccion.svg",
     alt: "Flujograma: Obstrucción intestinal proximal: hipopotasemia y alcalosis metabólica"
+  },
+
+  /* ---------- Residentado Médico · lote 2 (cirugía general, 100 preguntas) ---------- */
+  "RM-CIR-058": {
+    titulo: "La quemadura que llega a la dermis reticular es de segundo grado profundo",
+    imagen: "flujogramas/rm-cir-058-quemaduras-profundidad-por-capas.svg",
+    alt: "Flujograma: La quemadura que llega a la dermis reticular es de segundo grado profundo"
+  },
+  "RM-CIR-109": {
+    titulo: "Trauma abdominal con hipotensión y líquido libre: la ruta termina en laparotomía exploradora",
+    imagen: "flujogramas/rm-cir-109-trauma-ruta-por-servicios.svg",
+    alt: "Flujograma: Trauma abdominal con hipotensión y líquido libre: la ruta termina en laparotomía exploradora"
+  },
+  "RM-CIR-094": {
+    titulo: "El tramadol baja el umbral convulsivo por su acción serotoninérgica y noradrenérgica",
+    imagen: "flujogramas/rm-cir-094-farmacologia-ruta-del-tramadol.svg",
+    alt: "Flujograma: El tramadol baja el umbral convulsivo por su acción serotoninérgica y noradrenérgica"
+  },
+  "RM-CIR-044": {
+    titulo: "El signo de Cullen (equimosis periumbilical) orienta a hemoperitoneo",
+    imagen: "flujogramas/rm-cir-044-abdomen-agudo-signos-de-cullen-y-grey-turner.svg",
+    alt: "Flujograma: El signo de Cullen (equimosis periumbilical) orienta a hemoperitoneo"
+  },
+  "RM-CIR-107": {
+    titulo: "El neumotórax a tensión se descomprime en el acto con aguja o angiocatéter, antes de la radiografía",
+    imagen: "flujogramas/rm-cir-107-trauma-toracico-neumotorax-a-tension.svg",
+    alt: "Flujograma: El neumotórax a tensión se descomprime en el acto con aguja o angiocatéter, antes de la radiografía"
+  },
+  "RM-CIR-108": {
+    titulo: "En el politraumatizado hipotenso con anemia el primer estudio es la ecografía FAST",
+    imagen: "flujogramas/rm-cir-108-trauma-ecografia-fast.svg",
+    alt: "Flujograma: En el politraumatizado hipotenso con anemia el primer estudio es la ecografía FAST"
+  },
+  "RM-CIR-112": {
+    titulo: "Una masa dolorosa bajo el ligamento inguinal con obstrucción en una multípara es una hernia femoral estrangulada",
+    imagen: "flujogramas/rm-cir-112-hernias-hernia-femoral.svg",
+    alt: "Flujograma: Una masa dolorosa bajo el ligamento inguinal con obstrucción en una multípara es una hernia femoral estrangulada"
+  },
+  "RM-CIR-110": {
+    titulo: "Un absceso hepático posoperatorio con ecografía normal se confirma con tomografía multicorte",
+    imagen: "flujogramas/rm-cir-110-absceso-hepatico-diagnostico-por-imagen.svg",
+    alt: "Flujograma: Un absceso hepático posoperatorio con ecografía normal se confirma con tomografía multicorte"
+  },
+  "RM-CIR-089": {
+    titulo: "En la úlcera perforada la radiografía de tórax de pie muestra aire libre bajo el diafragma",
+    imagen: "flujogramas/rm-cir-089-abdomen-agudo-ulcera-perforada.svg",
+    alt: "Flujograma: En la úlcera perforada la radiografía de tórax de pie muestra aire libre bajo el diafragma"
+  },
+  "RM-CIR-121": {
+    titulo: "En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía",
+    imagen: "flujogramas/rm-cir-121-trauma-dos-preguntas-encadenadas.svg",
+    alt: "Flujograma: En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía"
+  },
+  "RM-CIR-124": {
+    titulo: "Colelitiasis con ictericia y dolor: alto riesgo de coledocolitiasis, CPRE terapéutica",
+    imagen: "flujogramas/rm-cir-124-via-biliar-riesgo-de-coledocolitiasis.svg",
+    alt: "Flujograma: Colelitiasis con ictericia y dolor: alto riesgo de coledocolitiasis, CPRE terapéutica"
+  },
+  "RM-CIR-099": {
+    titulo: "En el síndrome compartimental el edema muscular eleva la presión del compartimento",
+    imagen: "flujogramas/rm-cir-099-trauma-sindrome-compartimental.svg",
+    alt: "Flujograma: En el síndrome compartimental el edema muscular eleva la presión del compartimento"
+  },
+  "RM-CIR-118": {
+    titulo: "El absceso pélvico por diverticulitis complicada es Hinchey II (clasificación modificada)",
+    imagen: "flujogramas/rm-cir-118-diverticulitis-clasificacion-de-hinchey-modificada.svg",
+    alt: "Flujograma: El absceso pélvico por diverticulitis complicada es Hinchey II (clasificación modificada)"
+  },
+  "RM-CIR-114": {
+    titulo: "La colangitis aguda se confirma con los criterios de Tokio y se trata drenando la vía biliar con CPRE",
+    imagen: "flujogramas/rm-cir-114-via-biliar-criterios-de-tokio-en-la-colangitis-aguda.svg",
+    alt: "Flujograma: La colangitis aguda se confirma con los criterios de Tokio y se trata drenando la vía biliar con CPRE"
+  },
+  "RM-CIR-029": {
+    titulo: "Tras una hepatectomía total suben los estrógenos, porque el hígado ya no los inactiva",
+    imagen: "flujogramas/rm-cir-029-fisiologia-hepatica-hepatectomia-total.svg",
+    alt: "Flujograma: Tras una hepatectomía total suben los estrógenos, porque el hígado ya no los inactiva"
+  },
+  "RM-CIR-030": {
+    titulo: "La laparoscopía en obstrucción intestinal es segura cuando la distensión de asas es leve",
+    imagen: "flujogramas/rm-cir-030-obstruccion-intestinal-abordaje-laparoscopico.svg",
+    alt: "Flujograma: La laparoscopía en obstrucción intestinal es segura cuando la distensión de asas es leve"
+  },
+  "RM-CIR-031": {
+    titulo: "El manejo inicial de toda obstrucción intestinal es la hidratación parenteral junto con la descompresión",
+    imagen: "flujogramas/rm-cir-031-obstruccion-intestinal-manejo-inicial.svg",
+    alt: "Flujograma: El manejo inicial de toda obstrucción intestinal es la hidratación parenteral junto con la descompresión"
+  },
+  "RM-CIR-032": {
+    titulo: "El cálculo biliar (íleo biliar) es la causa intraluminal de obstrucción intestinal de la lista",
+    imagen: "flujogramas/rm-cir-032-obstruccion-intestinal-causas-segun-la-pared.svg",
+    alt: "Flujograma: El cálculo biliar (íleo biliar) es la causa intraluminal de obstrucción intestinal de la lista"
+  },
+  "RM-CIR-033": {
+    titulo: "La obstrucción posoperatoria temprana en adultos se asocia más a la cirugía colorrectal",
+    imagen: "flujogramas/rm-cir-033-obstruccion-intestinal-posoperatoria-temprana.svg",
+    alt: "Flujograma: La obstrucción posoperatoria temprana en adultos se asocia más a la cirugía colorrectal"
+  },
+  "RM-CIR-034": {
+    titulo: "Una anciana con obstrucción y masa inguinal dolorosa irreductible tiene una obstrucción por hernia complicada",
+    imagen: "flujogramas/rm-cir-034-hernias-obstruccion-por-hernia-complicada.svg",
+    alt: "Flujograma: Una anciana con obstrucción y masa inguinal dolorosa irreductible tiene una obstrucción por hernia complicada"
+  },
+  "RM-CIR-035": {
+    titulo: "Las hemorroides internas grado III se prolapsan y requieren reducción manual",
+    imagen: "flujogramas/rm-cir-035-coloproctologia-hemorroides-internas-goligher.svg",
+    alt: "Flujograma: Las hemorroides internas grado III se prolapsan y requieren reducción manual"
+  },
+  "RM-CIR-036": {
+    titulo: "La obstrucción de la vía biliar eleva la fosfatasa alcalina y la gamma glutamil transferasa",
+    imagen: "flujogramas/rm-cir-036-hepatobiliar-enzimas-de-colestasis.svg",
+    alt: "Flujograma: La obstrucción de la vía biliar eleva la fosfatasa alcalina y la gamma glutamil transferasa"
+  },
+  "RM-CIR-037": {
+    titulo: "Una masa inguinocrural bajo el ligamento inguinal, parcialmente reductible, en una mujer es una hernia crural incarcerada",
+    imagen: "flujogramas/rm-cir-037-hernias-hernia-crural-femoral-incarcerada.svg",
+    alt: "Flujograma: Una masa inguinocrural bajo el ligamento inguinal, parcialmente reductible, en una mujer es una hernia crural incarcerada"
+  },
+  "RM-CIR-038": {
+    titulo: "La reparación sin tensión con malla (Lichtenstein) tiene la menor recidiva en la hernia inguinal",
+    imagen: "flujogramas/rm-cir-038-hernias-tecnicas-de-reparacion-inguinal.svg",
+    alt: "Flujograma: La reparación sin tensión con malla (Lichtenstein) tiene la menor recidiva en la hernia inguinal"
+  },
+  "RM-CIR-039": {
+    titulo: "La primera medida en el quemado por inhalación es el soporte con oxígeno al 100 % y vigilar la vía aérea",
+    imagen: "flujogramas/rm-cir-039-quemaduras-lesion-por-inhalacion.svg",
+    alt: "Flujograma: La primera medida en el quemado por inhalación es el soporte con oxígeno al 100 % y vigilar la vía aérea"
+  },
+  "RM-CIR-040": {
+    titulo: "La grasa hirviendo produce mayor necrosis coagulativa y quemaduras más profundas que los otros agentes",
+    imagen: "flujogramas/rm-cir-040-quemaduras-agente-causal-y-profundidad.svg",
+    alt: "Flujograma: La grasa hirviendo produce mayor necrosis coagulativa y quemaduras más profundas que los otros agentes"
+  },
+  "RM-CIR-041": {
+    titulo: "En el trauma abdominal cerrado la rigidez abdominal indica laparotomía inmediata",
+    imagen: "flujogramas/rm-cir-041-trauma-abdominal-indicacion-de-laparotomia.svg",
+    alt: "Flujograma: En el trauma abdominal cerrado la rigidez abdominal indica laparotomía inmediata"
+  },
+  "RM-CIR-042": {
+    titulo: "La hemorragia activa la vasoconstricción y la liberación de adrenalina de inmediato",
+    imagen: "flujogramas/rm-cir-042-shock-hemorragico-reacciones-compensadoras.svg",
+    alt: "Flujograma: La hemorragia activa la vasoconstricción y la liberación de adrenalina de inmediato"
+  },
+  "RM-CIR-043": {
+    titulo: "El hematoma retroperitoneal de zona II no pulsátil por trauma cerrado se observa",
+    imagen: "flujogramas/rm-cir-043-trauma-abdominal-hematoma-retroperitoneal.svg",
+    alt: "Flujograma: El hematoma retroperitoneal de zona II no pulsátil por trauma cerrado se observa"
+  },
+  "RM-CIR-045": {
+    titulo: "La herida que cierra sola, por granulación y contracción, cicatriza por segunda intención",
+    imagen: "flujogramas/rm-cir-045-cicatrizacion-formas-de-cierre-de-una-herida.svg",
+    alt: "Flujograma: La herida que cierra sola, por granulación y contracción, cicatriza por segunda intención"
+  },
+  "RM-CIR-046": {
+    titulo: "La vitamina A revierte el retraso de la cicatrización que causan los corticoides",
+    imagen: "flujogramas/rm-cir-046-cicatrizacion-corticoides-y-vitamina-a.svg",
+    alt: "Flujograma: La vitamina A revierte el retraso de la cicatrización que causan los corticoides"
+  },
+  "RM-CIR-047": {
+    titulo: "Cólico en hipocondrio derecho con dispepsia a las grasas en una gestante: colelitiasis",
+    imagen: "flujogramas/rm-cir-047-via-biliar-colico-biliar-en-el-embarazo.svg",
+    alt: "Flujograma: Cólico en hipocondrio derecho con dispepsia a las grasas en una gestante: colelitiasis"
+  },
+  "RM-CIR-048": {
+    titulo: "La colecistitis aguda nace casi siempre de un cálculo que obstruye el conducto cístico",
+    imagen: "flujogramas/rm-cir-048-via-biliar-mecanismo-de-la-colecistitis-aguda.svg",
+    alt: "Flujograma: La colecistitis aguda nace casi siempre de un cálculo que obstruye el conducto cístico"
+  },
+  "RM-CIR-049": {
+    titulo: "Un absceso retroperitoneal por diverticulitis es Hinchey II: absceso a distancia del colon",
+    imagen: "flujogramas/rm-cir-049-diverticulitis-hinchey-modificada-kaiser-estadio-ii.svg",
+    alt: "Flujograma: Un absceso retroperitoneal por diverticulitis es Hinchey II: absceso a distancia del colon"
+  },
+  "RM-CIR-050": {
+    titulo: "Fiebre, ictericia y dolor tras colecistectomía: colangitis por un cálculo en el colédoco",
+    imagen: "flujogramas/rm-cir-050-via-biliar-colangitis-charcot-y-reynolds.svg",
+    alt: "Flujograma: Fiebre, ictericia y dolor tras colecistectomía: colangitis por un cálculo en el colédoco"
+  },
+  "RM-CIR-051": {
+    titulo: "La tomografía con contraste es el estudio de elección en la diverticulitis aguda",
+    imagen: "flujogramas/rm-cir-051-diverticulitis-que-examen-pedir.svg",
+    alt: "Flujograma: La tomografía con contraste es el estudio de elección en la diverticulitis aguda"
+  },
+  "RM-CIR-052": {
+    titulo: "Dolor en fosa ilíaca izquierda con masa y aire pericólico en la TC: diverticulitis complicada",
+    imagen: "flujogramas/rm-cir-052-diverticulitis-diagnostico-diferencial-de-la-fosa-iliaca-izquierda.svg",
+    alt: "Flujograma: Dolor en fosa ilíaca izquierda con masa y aire pericólico en la TC: diverticulitis complicada"
+  },
+  "RM-CIR-053": {
+    titulo: "En la diverticulitis no complicada, si se opera, la elección es la sigmoidectomía con anastomosis",
+    imagen: "flujogramas/rm-cir-053-diverticulitis-cirugia-electiva.svg",
+    alt: "Flujograma: En la diverticulitis no complicada, si se opera, la elección es la sigmoidectomía con anastomosis"
+  },
+  "RM-CIR-054": {
+    titulo: "La peritonitis fecal por diverticulitis (Hinchey IV) se opera con la técnica de Hartmann",
+    imagen: "flujogramas/rm-cir-054-diverticulitis-cirugia-de-la-peritonitis-hinchey-iii-iv.svg",
+    alt: "Flujograma: La peritonitis fecal por diverticulitis (Hinchey IV) se opera con la técnica de Hartmann"
+  },
+  "RM-CIR-055": {
+    titulo: "La reparación herniaria sin tensión es la de Lichtenstein, con malla",
+    imagen: "flujogramas/rm-cir-055-hernias-tecnicas-de-reparacion-inguinal.svg",
+    alt: "Flujograma: La reparación herniaria sin tensión es la de Lichtenstein, con malla"
+  },
+  "RM-CIR-056": {
+    titulo: "La hernia de Spiegel sale por la línea semilunar, en el borde externo de los rectos",
+    imagen: "flujogramas/rm-cir-056-hernias-eponimos-de-la-pared-abdominal.svg",
+    alt: "Flujograma: La hernia de Spiegel sale por la línea semilunar, en el borde externo de los rectos"
+  },
+  "RM-CIR-057": {
+    titulo: "En la hernia inguinal directa se refuerza la pared posterior; el saco no se liga",
+    imagen: "flujogramas/rm-cir-057-hernias-inguinal-directa-y-clasificacion-de-nyhus.svg",
+    alt: "Flujograma: En la hernia inguinal directa se refuerza la pared posterior; el saco no se liga"
+  },
+  "RM-CIR-059": {
+    titulo: "En el adulto sin cirugías previas, la hernia es la causa más frecuente de obstrucción intestinal",
+    imagen: "flujogramas/rm-cir-059-hernias-obstruccion-del-intestino-delgado.svg",
+    alt: "Flujograma: En el adulto sin cirugías previas, la hernia es la causa más frecuente de obstrucción intestinal"
+  },
+  "RM-CIR-060": {
+    titulo: "Aerobilia con obstrucción del intestino delgado en una colelitiásica: íleo biliar",
+    imagen: "flujogramas/rm-cir-060-via-biliar-ileo-biliar-triada-de-rigler.svg",
+    alt: "Flujograma: Aerobilia con obstrucción del intestino delgado en una colelitiásica: íleo biliar"
+  },
+  "RM-CIR-061": {
+    titulo: "Lavado peritoneal positivo con hemodinamia comprometida en trauma cerrado: laparotomía exploradora",
+    imagen: "flujogramas/rm-cir-061-trauma-abdominal-lavado-peritoneal.svg",
+    alt: "Flujograma: Lavado peritoneal positivo con hemodinamia comprometida en trauma cerrado: laparotomía exploradora"
+  },
+  "RM-CIR-062": {
+    titulo: "La maniobra de Pringle ocluye de forma transitoria el ligamento hepatoduodenal",
+    imagen: "flujogramas/rm-cir-062-trauma-hepatico-maniobra-de-pringle.svg",
+    alt: "Flujograma: La maniobra de Pringle ocluye de forma transitoria el ligamento hepatoduodenal"
+  },
+  "RM-CIR-063": {
+    titulo: "Según la regla de los nueves, las caras anteriores de ambas piernas suman el 18 % de la superficie corporal",
+    imagen: "flujogramas/rm-cir-063-quemaduras-regla-de-los-nueves.svg",
+    alt: "Flujograma: Según la regla de los nueves, las caras anteriores de ambas piernas suman el 18 % de la superficie corporal"
+  },
+  "RM-CIR-064": {
+    titulo: "Una tumoración sobre la cicatriz que ya no se reduce y causa obstrucción es una eventración complicada",
+    imagen: "flujogramas/rm-cir-064-pared-abdominal-eventracion-complicada.svg",
+    alt: "Flujograma: Una tumoración sobre la cicatriz que ya no se reduce y causa obstrucción es una eventración complicada"
+  },
+  "RM-CIR-065": {
+    titulo: "La maniobra de Pringle se aplica en la lesión hepática hemorrágica",
+    imagen: "flujogramas/rm-cir-065-trauma-abdominal-control-de-la-hemorragia-por-organo.svg",
+    alt: "Flujograma: La maniobra de Pringle se aplica en la lesión hepática hemorrágica"
+  },
+  "RM-CIR-066": {
+    titulo: "Un orificio perianal con secreción fétida intermitente es una fístula anal criptoglandular",
+    imagen: "flujogramas/rm-cir-066-patologia-anal-fistula-perianal.svg",
+    alt: "Flujograma: Un orificio perianal con secreción fétida intermitente es una fístula anal criptoglandular"
+  },
+  "RM-CIR-067": {
+    titulo: "Colecistitis aguda litiásica con Murphy y leucocitosis: colecistectomía laparoscópica temprana",
+    imagen: "flujogramas/rm-cir-067-via-biliar-colecistitis-aguda-tokio-2018.svg",
+    alt: "Flujograma: Colecistitis aguda litiásica con Murphy y leucocitosis: colecistectomía laparoscópica temprana"
+  },
+  "RM-CIR-068": {
+    titulo: "Un absceso perianal se trata con drenaje quirúrgico inmediato",
+    imagen: "flujogramas/rm-cir-068-patologia-anal-absceso-perianal.svg",
+    alt: "Flujograma: Un absceso perianal se trata con drenaje quirúrgico inmediato"
+  },
+  "RM-CIR-069": {
+    titulo: "El signo de Murphy es característico de la colecistitis aguda: sensibilidad 65 %, especificidad 87 %",
+    imagen: "flujogramas/rm-cir-069-semiologia-abdominal-signo-de-murphy.svg",
+    alt: "Flujograma: El signo de Murphy es característico de la colecistitis aguda: sensibilidad 65 %, especificidad 87 %"
+  },
+  "RM-CIR-070": {
+    titulo: "La coledocolitiasis se trata con papiloesfinterotomía endoscópica y extracción del cálculo",
+    imagen: "flujogramas/rm-cir-070-via-biliar-coledocolitiasis-asge-2019.svg",
+    alt: "Flujograma: La coledocolitiasis se trata con papiloesfinterotomía endoscópica y extracción del cálculo"
+  },
+  "RM-CIR-071": {
+    titulo: "En el trauma abdominal penetrante la incisión de elección es la laparotomía mediana xifopúbica",
+    imagen: "flujogramas/rm-cir-071-trauma-abdominal-laparotomia.svg",
+    alt: "Flujograma: En el trauma abdominal penetrante la incisión de elección es la laparotomía mediana xifopúbica"
+  },
+  "RM-CIR-072": {
+    titulo: "En el anciano con sospecha de apendicitis plastronada el estudio de elección es la tomografía",
+    imagen: "flujogramas/rm-cir-072-apendicitis-plastron-en-el-anciano.svg",
+    alt: "Flujograma: En el anciano con sospecha de apendicitis plastronada el estudio de elección es la tomografía"
+  },
+  "RM-CIR-073": {
+    titulo: "En la obstrucción intestinal la medida inicial es la descompresión con sonda nasogástrica y líquidos",
+    imagen: "flujogramas/rm-cir-073-obstruccion-intestinal-medidas-iniciales.svg",
+    alt: "Flujograma: En la obstrucción intestinal la medida inicial es la descompresión con sonda nasogástrica y líquidos"
+  },
+  "RM-CIR-074": {
+    titulo: "El bulto anal que prolapsa y se reduce con la mano, con sangre rojo rutilante, es una hemorroide interna grado III",
+    imagen: "flujogramas/rm-cir-074-patologia-anal-hemorroides-goligher.svg",
+    alt: "Flujograma: El bulto anal que prolapsa y se reduce con la mano, con sangre rojo rutilante, es una hemorroide interna grado III"
+  },
+  "RM-CIR-075": {
+    titulo: "Las hemorroides grado IV, irreductibles, se tratan con hemorroidectomía",
+    imagen: "flujogramas/rm-cir-075-patologia-anal-tratamiento-por-grado.svg",
+    alt: "Flujograma: Las hemorroides grado IV, irreductibles, se tratan con hemorroidectomía"
+  },
+  "RM-CIR-076": {
+    titulo: "En la fase proliferativa (días 4-21) se forma el tejido de granulación",
+    imagen: "flujogramas/rm-cir-076-cicatrizacion-fases-de-la-herida.svg",
+    alt: "Flujograma: En la fase proliferativa (días 4-21) se forma el tejido de granulación"
+  },
+  "RM-CIR-077": {
+    titulo: "La hernia inguinal en pantalón o deslizada es Nyhus IIIB",
+    imagen: "flujogramas/rm-cir-077-hernias-clasificacion-de-nyhus.svg",
+    alt: "Flujograma: La hernia inguinal en pantalón o deslizada es Nyhus IIIB"
+  },
+  "RM-CIR-078": {
+    titulo: "La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional",
+    imagen: "flujogramas/rm-cir-078-hernias-hernia-incisional-eventracion.svg",
+    alt: "Flujograma: La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional"
+  },
+  "RM-CIR-079": {
+    titulo: "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h: shock hemorrágico clase III",
+    imagen: "flujogramas/rm-cir-079-trauma-clases-del-shock-hemorragico-atls.svg",
+    alt: "Flujograma: Confuso, FC mayor de 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h: shock hemorrágico clase III"
+  },
+  "RM-CIR-080": {
+    titulo: "Trauma cerrado, estable y con peritonitis generalizada: lesión de víscera hueca (intestino delgado)",
+    imagen: "flujogramas/rm-cir-080-trauma-abdominal-viscera-hueca-vs-solida.svg",
+    alt: "Flujograma: Trauma cerrado, estable y con peritonitis generalizada: lesión de víscera hueca (intestino delgado)"
+  },
+  "RM-CIR-081": {
+    titulo: "En el paciente no operado de un país no industrializado, la causa más frecuente de obstrucción es la hernia",
+    imagen: "flujogramas/rm-cir-081-obstruccion-intestinal-causas-segun-el-medio.svg",
+    alt: "Flujograma: En el paciente no operado de un país no industrializado, la causa más frecuente de obstrucción es la hernia"
+  },
+  "RM-CIR-082": {
+    titulo: "La angiodisplasia se localiza con más frecuencia en el ciego y el colon ascendente",
+    imagen: "flujogramas/rm-cir-082-sangrado-digestivo-bajo-angiodisplasia.svg",
+    alt: "Flujograma: La angiodisplasia se localiza con más frecuencia en el ciego y el colon ascendente"
+  },
+  "RM-CIR-083": {
+    titulo: "El estómago es la localización más frecuente de los linfomas digestivos",
+    imagen: "flujogramas/rm-cir-083-linfomas-digestivos-localizacion.svg",
+    alt: "Flujograma: El estómago es la localización más frecuente de los linfomas digestivos"
+  },
+  "RM-CIR-084": {
+    titulo: "La sección total del colédoco reconocida en la cirugía se repara con hepaticoyeyunostomía en Y de Roux",
+    imagen: "flujogramas/rm-cir-084-lesion-de-via-biliar-clasificacion-de-strasberg.svg",
+    alt: "Flujograma: La sección total del colédoco reconocida en la cirugía se repara con hepaticoyeyunostomía en Y de Roux"
+  },
+  "RM-CIR-085": {
+    titulo: "El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente",
+    imagen: "flujogramas/rm-cir-085-quistes-de-coledoco-clasificacion-de-todani.svg",
+    alt: "Flujograma: El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente"
+  },
+  "RM-CIR-086": {
+    titulo: "La hernia inguinal indirecta sale lateral a los vasos epigástricos inferiores",
+    imagen: "flujogramas/rm-cir-086-hernias-indirecta-directa-y-femoral.svg",
+    alt: "Flujograma: La hernia inguinal indirecta sale lateral a los vasos epigástricos inferiores"
+  },
+  "RM-CIR-087": {
+    titulo: "Un rodillazo en el epigastrio con peritonitis a las 48 horas es una lesión del páncreas",
+    imagen: "flujogramas/rm-cir-087-trauma-abdominal-lesion-pancreatica.svg",
+    alt: "Flujograma: Un rodillazo en el epigastrio con peritonitis a las 48 horas es una lesión del páncreas"
+  },
+  "RM-CIR-088": {
+    titulo: "El carcinoma escamoso en un ganglio inguinal orienta a un primario del canal anal",
+    imagen: "flujogramas/rm-cir-088-oncologia-drenaje-linfatico-inguinal.svg",
+    alt: "Flujograma: El carcinoma escamoso en un ganglio inguinal orienta a un primario del canal anal"
+  },
+  "RM-CIR-090": {
+    titulo: "La colangitis aguda con hipotensión es grave: tras reanimar y dar antibiótico se drena la vía biliar por CPRE",
+    imagen: "flujogramas/rm-cir-090-colangitis-aguda-tiempos-del-tratamiento-tokio-2018.svg",
+    alt: "Flujograma: La colangitis aguda con hipotensión es grave: tras reanimar y dar antibiótico se drena la vía biliar por CPRE"
+  },
+  "RM-CIR-091": {
+    titulo: "La ecografía abdominal es el estudio inicial de la vía biliar",
+    imagen: "flujogramas/rm-cir-091-via-biliar-ecografia-como-primer-estudio.svg",
+    alt: "Flujograma: La ecografía abdominal es el estudio inicial de la vía biliar"
+  },
+  "RM-CIR-092": {
+    titulo: "Tras una gastrectomía Billroth II, los síntomas digestivos y vasomotores al comer son un dumping",
+    imagen: "flujogramas/rm-cir-092-cirugia-gastrica-sindrome-de-dumping.svg",
+    alt: "Flujograma: Tras una gastrectomía Billroth II, los síntomas digestivos y vasomotores al comer son un dumping"
+  },
+  "RM-PED-002": {
+    titulo: "En el varón, la malformación anorrectal más frecuente es la fístula rectouretral bulbar",
+    imagen: "flujogramas/rm-ped-002-cirugia-pediatrica-malformaciones-anorrectales.svg",
+    alt: "Flujograma: En el varón, la malformación anorrectal más frecuente es la fístula rectouretral bulbar"
+  },
+  "RM-CIR-093": {
+    titulo: "Con Alvarado de 5 puntos (probabilidad intermedia) se pide un estudio de imagen",
+    imagen: "flujogramas/rm-cir-093-apendicitis-aguda-conducta-segun-el-puntaje-de-alvarado.svg",
+    alt: "Flujograma: Con Alvarado de 5 puntos (probabilidad intermedia) se pide un estudio de imagen"
+  },
+  "RM-CIR-095": {
+    titulo: "La fisura anal crónica se ubica casi siempre en la línea media posterior",
+    imagen: "flujogramas/rm-cir-095-coloproctologia-localizacion-de-la-fisura-anal.svg",
+    alt: "Flujograma: La fisura anal crónica se ubica casi siempre en la línea media posterior"
+  },
+  "RM-CB-024": {
+    titulo: "La cabeza del páncreas ocupa la concavidad en C del duodeno",
+    imagen: "flujogramas/rm-cb-024-anatomia-partes-del-pancreas.svg",
+    alt: "Flujograma: La cabeza del páncreas ocupa la concavidad en C del duodeno"
+  },
+  "RM-PED-003": {
+    titulo: "En la estenosis hipertrófica del píloro se corrige el medio interno y se hace piloromiotomía",
+    imagen: "flujogramas/rm-ped-003-cirugia-pediatrica-estenosis-hipertrofica-del-piloro.svg",
+    alt: "Flujograma: En la estenosis hipertrófica del píloro se corrige el medio interno y se hace piloromiotomía"
+  },
+  "RM-CIR-096": {
+    titulo: "En ictericia con litiasis vesicular se estudia la vía biliar con colangiografía endoscópica",
+    imagen: "flujogramas/rm-cir-096-via-biliar-ictericia-y-coledocolitiasis.svg",
+    alt: "Flujograma: En ictericia con litiasis vesicular se estudia la vía biliar con colangiografía endoscópica"
+  },
+  "RM-CIR-097": {
+    titulo: "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",
+    imagen: "flujogramas/rm-cir-097-coloproctologia-tratamiento-de-la-fisura-anal-cronica.svg",
+    alt: "Flujograma: La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna"
+  },
+  "RM-CIR-098": {
+    titulo: "La hemorroide que prolapsa y se reduce con la mano es de grado III",
+    imagen: "flujogramas/rm-cir-098-coloproctologia-grados-de-las-hemorroides-internas.svg",
+    alt: "Flujograma: La hemorroide que prolapsa y se reduce con la mano es de grado III"
+  },
+  "RM-CIR-100": {
+    titulo: "En el shock aumenta la liberación de ACTH como parte de la reacción neuroendocrina",
+    imagen: "flujogramas/rm-cir-100-fisiopatologia-reaccion-neuroendocrina-al-shock.svg",
+    alt: "Flujograma: En el shock aumenta la liberación de ACTH como parte de la reacción neuroendocrina"
+  },
+  "RM-CIR-101": {
+    titulo: "En el RCP del adulto la relación es 30:2 con uno o con dos reanimadores",
+    imagen: "flujogramas/rm-cir-101-reanimacion-relacion-compresion-ventilacion-aha-2025.svg",
+    alt: "Flujograma: En el RCP del adulto la relación es 30:2 con uno o con dos reanimadores"
+  },
+  "RM-CIR-102": {
+    titulo: "En el politraumatizado la prioridad es la vía aérea con protección de la columna cervical",
+    imagen: "flujogramas/rm-cir-102-trauma-evaluacion-primaria-atls-abcde.svg",
+    alt: "Flujograma: En el politraumatizado la prioridad es la vía aérea con protección de la columna cervical"
+  },
+  "RM-CIR-103": {
+    titulo: "En el politraumatizado inconsciente y en shock, primero se controla la vía aérea",
+    imagen: "flujogramas/rm-cir-103-trauma-primeros-minutos-del-paciente-en-shock.svg",
+    alt: "Flujograma: En el politraumatizado inconsciente y en shock, primero se controla la vía aérea"
+  },
+  "RM-CIR-104": {
+    titulo: "La necrosis del colon izquierdo compromete la arteria mesentérica inferior",
+    imagen: "flujogramas/rm-cir-104-anatomia-quirurgica-irrigacion-del-colon.svg",
+    alt: "Flujograma: La necrosis del colon izquierdo compromete la arteria mesentérica inferior"
+  },
+  "RM-CIR-105": {
+    titulo: "En la obstrucción tras una peritonitis previa la causa más probable son las bridas y adherencias",
+    imagen: "flujogramas/rm-cir-105-obstruccion-intestinal-adherencias-posoperatorias.svg",
+    alt: "Flujograma: En la obstrucción tras una peritonitis previa la causa más probable son las bridas y adherencias"
+  },
+  "RM-CIR-106": {
+    titulo: "AINE, abdomen en tabla y aire bajo ambos diafragmas: perforación duodenal",
+    imagen: "flujogramas/rm-cir-106-abdomen-agudo-perforacion-por-aine.svg",
+    alt: "Flujograma: AINE, abdomen en tabla y aire bajo ambos diafragmas: perforación duodenal"
+  },
+  "RM-CIR-111": {
+    titulo: "Anafilaxia con estridor: si no se logra intubar, cricotiroidotomía quirúrgica",
+    imagen: "flujogramas/rm-cir-111-via-aerea-anafilaxia-con-obstruccion-glotica.svg",
+    alt: "Flujograma: Anafilaxia con estridor: si no se logra intubar, cricotiroidotomía quirúrgica"
+  },
+  "RM-CIR-113": {
+    titulo: "La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias",
+    imagen: "flujogramas/rm-cir-113-obstruccion-intestinal-causas-por-segmento.svg",
+    alt: "Flujograma: La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias"
+  },
+  "RM-CIR-115": {
+    titulo: "Obstrucción parcial del delgado sin alarma: sonda nasogástrica y rehidratación",
+    imagen: "flujogramas/rm-cir-115-obstruccion-intestinal-manejo-no-operatorio.svg",
+    alt: "Flujograma: Obstrucción parcial del delgado sin alarma: sonda nasogástrica y rehidratación"
+  },
+  "RM-CIR-116": {
+    titulo: "En el politraumatizado inestable sin dificultad respiratoria, la prioridad es controlar el sangrado",
+    imagen: "flujogramas/rm-cir-116-trauma-hemorragia-y-xabcde.svg",
+    alt: "Flujograma: En el politraumatizado inestable sin dificultad respiratoria, la prioridad es controlar el sangrado"
+  },
+  "RM-CIR-117": {
+    titulo: "El gran quemado lo atiende un equipo multidisciplinario en un centro de quemados",
+    imagen: "flujogramas/rm-cir-117-quemaduras-gran-quemado-y-referencia.svg",
+    alt: "Flujograma: El gran quemado lo atiende un equipo multidisciplinario en un centro de quemados"
+  },
+  "RM-CIR-119": {
+    titulo: "Ascitis exudativa linfocitaria con fiebre: la biopsia peritoneal confirma la tuberculosis",
+    imagen: "flujogramas/rm-cir-119-ascitis-peritonitis-tuberculosa.svg",
+    alt: "Flujograma: Ascitis exudativa linfocitaria con fiebre: la biopsia peritoneal confirma la tuberculosis"
+  },
+  "RM-CIR-120": {
+    titulo: "Hernia inguinal indirecta con ciego en el saco: Nyhus IIIB",
+    imagen: "flujogramas/rm-cir-120-hernias-clasificacion-de-nyhus.svg",
+    alt: "Flujograma: Hernia inguinal indirecta con ciego en el saco: Nyhus IIIB"
+  },
+  "RM-CIR-122": {
+    titulo: "El cáncer de la flexura esplénica se trata con colectomía izquierda extendida",
+    imagen: "flujogramas/rm-cir-122-cancer-de-colon-reseccion-segun-la-irrigacion.svg",
+    alt: "Flujograma: El cáncer de la flexura esplénica se trata con colectomía izquierda extendida"
+  },
+  "RM-CIR-123": {
+    titulo: "Obstrucción adherencial sin alarma: observación, sonda nasogástrica e hidratación",
+    imagen: "flujogramas/rm-cir-123-obstruccion-intestinal-primeras-72-horas.svg",
+    alt: "Flujograma: Obstrucción adherencial sin alarma: observación, sonda nasogástrica e hidratación"
+  },
+  "RM-CIR-125": {
+    titulo: "Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía",
+    imagen: "flujogramas/rm-cir-125-apendicitis-aguda-paciente-anciano.svg",
+    alt: "Flujograma: Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía"
   }
 };

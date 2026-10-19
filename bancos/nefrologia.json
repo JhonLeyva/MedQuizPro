@@ -2112,6 +2112,70 @@
       "tema": "Nefropatía diabética incipiente: elección del fármaco",
       "año": 2019,
       "fuentes": "ADA, estándares de atención en diabetes (2026); KDIGO, diabetes y enfermedad renal crónica (2022) y ERC (2024); ACC/AHA, hipertensión (2025)"
+    },
+    {
+      "id": "RM-NEF-004",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Niño de 10 años con dolor escrotal izquierdo de inicio súbito y aumento de volumen del testículo. Examen físico: aumento de volumen y asimetría escrotal dolorosa izquierda. ¿Cuál es la conducta más adecuada?",
+      "opciones": [
+        "Exploración quirúrgica antes de las 6 horas.",
+        "Reducción manual.",
+        "Uso de analgésicos y antiinflamatorios.",
+        "Exploración quirúrgica después de las 6 horas.",
+        "Tratamiento con medios físicos."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El dolor escrotal agudo de inicio súbito en un niño o adolescente, sin fiebre ni síntomas urinarios, es torsión del cordón espermático hasta demostrar lo contrario. La torsión provoca isquemia venosa y luego arterial, con edema y pérdida de la viabilidad testicular. El tiempo es decisivo: la salvación del testículo supera el 90 % si se opera dentro de las primeras 6 horas, cae cerca del 50 % hacia las 12 horas y es mínima pasadas las 24. Por eso se indica exploración quirúrgica inmediata, con destorsión, fijación bilateral (orquidopexia) u orquiectomía si hay necrosis, sin retrasar la cirugía por estudios de imagen. Los analgésicos o los medios físicos retrasan el tratamiento, la reducción manual es solo un puente transitorio y operar después de 6 horas reduce la viabilidad. Perla: la ausencia del reflejo cremastérico y el testículo alto y horizontal sostienen el diagnóstico.",
+      "comentario": "El dolor escrotal agudo de inicio súbito en un niño o adolescente, sin fiebre ni síntomas urinarios, es torsión del cordón espermático hasta demostrar lo contrario. La torsión provoca isquemia venosa y luego arterial, con edema y pérdida de la viabilidad testicular. El tiempo es decisivo: la salvación del testículo supera el 90 % si se opera dentro de las primeras 6 horas, cae cerca del 50 % hacia las 12 horas y es mínima pasadas las 24. Por eso se indica exploración quirúrgica inmediata, con destorsión, fijación bilateral (orquidopexia) u orquiectomía si hay necrosis, sin retrasar la cirugía por estudios de imagen. Los analgésicos o los medios físicos retrasan el tratamiento, la reducción manual es solo un puente transitorio y operar después de 6 horas reduce la viabilidad. Perla: la ausencia del reflejo cremastérico y el testículo alto y horizontal sostienen el diagnóstico.",
+      "tema": "Torsión testicular: ventana quirúrgica",
+      "año": 2019,
+      "fuentes": "EAU, Guidelines on Paediatric Urology (2024); Campbell-Walsh-Wein Urology 12.ª ed.",
+      "categoria": "Urología"
+    },
+    {
+      "id": "RM-NEF-005",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Albañil sufre caída del segundo piso, presenta dolor en región perineal. Examen: PA 140/70 mmHg, FC 110 por minuto, hematoma en región perineal que le impide la deambulación; se aprecia sangrado en el meato uretral. Rx de pelvis: fractura de rama isquiopubiana. Se sospecha probable fractura de uretra posterior. ¿Cuál es la conducta inmediata a seguir?",
+      "opciones": [
+        "Uretrografía retrógrada.",
+        "Talla vesical.",
+        "Tomografía pélvica.",
+        "Cistografía.",
+        "Exploración quirúrgica uretral."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La uretra posterior (membranosa y prostática) se lesiona sobre todo en las fracturas de pelvis, por cizallamiento en el diafragma urogenital. Sangre en el meato, retención urinaria, hematoma perineal o «mariposa» y próstata alta o no palpable obligan a sospechar la lesión, y en ese caso no se pasa sonda uretral a ciegas porque puede convertir una lesión parcial en completa. El estudio inicial es la uretrografía retrógrada, que muestra extravasación y distingue lesión parcial de completa. Si hay retención y se confirma lesión, se deriva la orina con catéter suprapúbico y la reconstrucción (uretroplastia) se difiere unos 3 meses; la talla vesical es un tratamiento y no un diagnóstico. La cistografía evalúa la vejiga y la tomografía no valora bien la uretra. Perla: la lesión de uretra posterior se asocia a ruptura vesical y a fractura de pelvis inestable.",
+      "comentario": "La uretra posterior (membranosa y prostática) se lesiona sobre todo en las fracturas de pelvis, por cizallamiento en el diafragma urogenital. Sangre en el meato, retención urinaria, hematoma perineal o «mariposa» y próstata alta o no palpable obligan a sospechar la lesión, y en ese caso no se pasa sonda uretral a ciegas porque puede convertir una lesión parcial en completa. El estudio inicial es la uretrografía retrógrada, que muestra extravasación y distingue lesión parcial de completa. Si hay retención y se confirma lesión, se deriva la orina con catéter suprapúbico y la reconstrucción (uretroplastia) se difiere unos 3 meses; la talla vesical es un tratamiento y no un diagnóstico. La cistografía evalúa la vejiga y la tomografía no valora bien la uretra. Perla: la lesión de uretra posterior se asocia a ruptura vesical y a fractura de pelvis inestable.",
+      "tema": "Traumatismo uretral posterior: estudio inicial",
+      "año": 2019,
+      "fuentes": "EAU, Guidelines on Urological Trauma (2024); AUA, Urotrauma Guideline (2014, enmendada 2020); Campbell-Walsh-Wein Urology 12.ª ed.",
+      "categoria": "Urología",
+      "nota_revision": "El libro marca «Respuesta C» (tomografía pélvica), pero su propio comentario justifica la uretrografía retrógrada (opción A); se corrigió la clave a A."
+    },
+    {
+      "id": "RM-NEF-006",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es el factor predictor más importante de nefropatía diabética incipiente?",
+      "opciones": [
+        "Microalbuminuria.",
+        "Aminoaciduria.",
+        "Glucosuria.",
+        "Mioglobinuria.",
+        "Cilindruria."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La nefropatía diabética es la principal causa de enfermedad renal crónica terminal. Su primera expresión clínica es la microalbuminuria, definida como una excreción urinaria de albúmina de 30-300 mg/24 h o una relación albúmina/creatinina de 30-300 mg/g en dos de tres muestras en 3 a 6 meses. Refleja el daño inicial de la barrera glomerular, con engrosamiento de la membrana basal y pérdida de la carga negativa, y predice tanto la progresión a proteinuria franca como el riesgo cardiovascular. Por eso se tamiza cada año con cociente albúmina/creatinina y TFG estimada, desde el diagnóstico en la diabetes tipo 2 y a los 5 años en la tipo 1. La glucosuria depende del umbral renal, la aminoaciduria de lesión tubular proximal, la mioglobinuria de rabdomiólisis y la cilindruria de daño parenquimatoso inespecífico. Perla: en esta etapa el daño es potencialmente reversible con control glucémico, IECA o ARA II y los iSGLT2.",
+      "comentario": "La nefropatía diabética es la principal causa de enfermedad renal crónica terminal. Su primera expresión clínica es la microalbuminuria, definida como una excreción urinaria de albúmina de 30-300 mg/24 h o una relación albúmina/creatinina de 30-300 mg/g en dos de tres muestras en 3 a 6 meses. Refleja el daño inicial de la barrera glomerular, con engrosamiento de la membrana basal y pérdida de la carga negativa, y predice tanto la progresión a proteinuria franca como el riesgo cardiovascular. Por eso se tamiza cada año con cociente albúmina/creatinina y TFG estimada, desde el diagnóstico en la diabetes tipo 2 y a los 5 años en la tipo 1. La glucosuria depende del umbral renal, la aminoaciduria de lesión tubular proximal, la mioglobinuria de rabdomiólisis y la cilindruria de daño parenquimatoso inespecífico. Perla: en esta etapa el daño es potencialmente reversible con control glucémico, IECA o ARA II y los iSGLT2.",
+      "tema": "Marcador de nefropatía diabética incipiente",
+      "año": 2016,
+      "fuentes": "ADA, Standards of Care in Diabetes (2025), cap. 11; KDIGO, Diabetes y enfermedad renal crónica (2022)",
+      "categoria": "Nefropatía diabética"
     }
   ]
 }
