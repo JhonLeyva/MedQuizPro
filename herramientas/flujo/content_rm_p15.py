@@ -42,12 +42,12 @@ S("embudo", "RM-NEU-013", "Fiebre, tos y disnea con un infiltrado alveolar basal
                 ("¿Es agudo y no apical ni cavitado?", ["Tuberculosis pulmonar"])],
          final=("NEUMONÍA ADQUIRIDA EN LA COMUNIDAD", ["Estratificar con CURB-65", "Betalactámico más macrólido"]),
          nota="La obesidad aumenta el riesgo de tromboembolismo, pero la fiebre de 7 días y el infiltrado basal orientan a neumonía."),
-  clasif=dict(titulo="Puntaje CURB-65 en la neumonía adquirida en la comunidad",
-              cols=["Puntaje", "Riesgo de muerte a 30 días", "Conducta"],
-              filas=[["0 a 1", "Bajo (cerca de 1,5 %)", "Tratamiento ambulatorio"],
-                     ["2", "Intermedio (cerca de 9 %)", "Hospitalización breve o con seguimiento estrecho"],
-                     ["3 a 5", "Alto (cerca de 22 %)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
-              caso=None, ancho_primera=110, nota="Un punto por criterio: confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65. Aquí la edad ya suma 1."))
+  clasif=dict(titulo="Escala CURB-65: puntaje, mortalidad a 30 días y conducta", cols=["Puntaje", "Mortalidad", "Riesgo", "Conducta"],
+              filas=[["0-1", "≈ 1,5 %", "Bajo", "Ambulatorio si no hay hipoxemia ni otro factor"],
+                     ["2", "≈ 9,2 %", "Moderado", "Hospitalizar (sala o corta estancia)"],
+                     ["3", "17 %", "Alto", "Neumonía grave: hospitalizar"],
+                     ["4-5", "41,5 a 57 %", "Muy alto", "Valorar UCI"]],
+              caso=None, ancho_primera=150, nota="Un punto por: confusión, urea > 7 mmol/L (BUN > 19 mg/dL), FR ≥ 30, PA < 90/60 y edad ≥ 65 años (Lim, Thorax 2003). Mortalidad a 30 días: puntajes 3, 4 y 5 = 17, 41,5 y 57 %; grupos 0-1 y 2 según la BTS. Aquí la edad ya suma 1."))
 
 # 3 · LECTURA · meningitis meningocócica
 S("lectura", "RM-INF-024", "Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora",

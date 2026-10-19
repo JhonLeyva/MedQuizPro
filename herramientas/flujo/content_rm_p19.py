@@ -115,7 +115,7 @@ S("cuadro", "RM-GIN-028", "La gestante que ya recibía TARGA al embarazarse corr
               filas=[["I", "Diagnóstico en el control prenatal, o previo sin TARGA", "Iniciar TARV lo antes posible"],
                      ["II", "Ya recibía TARGA antes del embarazo", "Mantener el esquema si es seguro y vigilar la carga viral"],
                      ["III", "Diagnóstico durante el trabajo de parto", "Zidovudina IV intraparto e inicio de TARV"]],
-              caso=1, ancho_primera=100, nota="Numeración tomada del comentario del banco: no se pudo contrastar en línea el texto de la NTS 159-2019 (las normas de 2008-2011 definían el escenario 1 con o sin criterios de TARGA, el 2 con TARGA previo y el 3 en el parto). Carga viral > 1000 copias/mL cerca del parto: cesárea electiva a las 38 semanas."))
+              caso=1, ancho_primera=100, nota="Numeración tomada del comentario del banco: no se pudo abrir en línea el texto de la NTS 159-2019 ni de la NTS 169-2020, por lo que la columna de conducta es un resumen general (OMS y guías internacionales) y no una cita textual (las normas de 2008-2011 definían el escenario 1 con o sin criterios de TARGA, el 2 con TARGA previo y el 3 en el parto). Carga viral > 1000 copias/mL cerca del parto: cesárea electiva a las 38 semanas."))
 
 # 6 · FASES · tuberculosis en la gestante sin pirazinamida
 S("fases", "RM-INF-048", "Gestante con tuberculosis sin pirazinamida: 2 meses de H, R y E y 7 meses de H y R",
