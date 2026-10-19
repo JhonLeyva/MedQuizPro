@@ -155,7 +155,7 @@ S("puntaje", "RM-NEU-006", "Neumonía comunitaria con signos de gravedad: la con
               filas=[["0-1", "≈ 1,5 %", "Bajo", "Ambulatorio si no hay hipoxemia ni otro factor; este paciente suma 1 (FR ≥ 30)"],
                      ["2", "≈ 9,2 %", "Moderado", "Hospitalizar (sala o corta estancia)"],
                      ["3", "17 %", "Alto", "Neumonía grave: hospitalizar"],
-                     ["4-5", "41,5 a 57 %", "Muy alto", "Valorar UCI"]], caso=0, ancho_primera=100,
+                     ["4-5", "41,5 a 57 %", "Muy alto", "Valorar UCI"]], caso=0, ancho_primera=150,
               nota="Un punto por: confusión, urea > 42 mg/dL, FR ≥ 30, PA < 90/60 y edad ≥ 65 años (Lim, Thorax 2003). Mortalidad a 30 días: puntajes 3, 4 y 5 = 17, 41,5 y 57 %; grupos 0-1 y 2 según la BTS."))
 
 # 9 · DOS PREGUNTAS · tricomoniasis
