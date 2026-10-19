@@ -32,3 +32,11 @@ Botón en la retroalimentación y en el visor de flujograma (solo con la pregunt
 - **Modo espejo MINSA vs. internacional:** requiere las dos fuentes por tema; sin ellas el selector sería decorativo, así que no se añadió.
 - **Predictor de nota ENAM/Residentado:** requiere datos reales suficientes y una escala validada.
 - **Tarjetas generadas por IA y FSRS.**
+
+## Introducción de «Sobrevive a la Guardia» (`guardia_intro.js`)
+Pantalla cinematográfica (4 escenas en una sola línea de tiempo) que aparece al **entrar al módulo desde fuera** (menú lateral) y lleva a la lista real de casos (`#/guardia`).
+- **No aparece** al volver a la lista desde un caso, al abrir un enlace directo a un caso, ni si el alumno la omitió antes.
+- **Omitir introducción** (o Esc) guarda la preferencia `guardiaIntro = "omitir"` en `M.progreso.preferencia` (se sincroniza con la cuenta) con respaldo en `localStorage`. **Iniciar guardia** no la desactiva (y reactiva si estaba omitida). «Ver la introducción» en la lista la repite en cualquier momento.
+- Sin audio. `prefers-reduced-motion`: se muestra todo de inmediato y sin animaciones. Si el alumno navega a otra sección con la intro abierta, se desmonta sola (sin timers ni listeners colgados). Foco atrapado en la intro; Espacio/Intro adelantan a la pregunta final.
+- **El fondo es una escena dibujada en SVG/CSS (pasillo de emergencias, camilla, monitor), no una fotografía.** Si añades una foto real en `app/assets/guardia-hospital.jpg` se usa automáticamente como fondo (con la escena vectorial como respaldo si falta).
+- Pruebas: recorrido con Playwright (entrada desde el menú, 4 escenas, iniciar, omitir, persistencia tras recargar, repetición, enlace directo, navegación con la intro abierta, movimiento reducido, móvil).

@@ -530,3 +530,62 @@ body.en-sesion .chat-launcher__label { display: none; }
 .ia-src { font-size: .76rem !important; color: var(--ink-3); } .ia-err { color: #b42318; } .ia-esp { color: var(--ink-3); }
 .ia-sug { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 20px 8px; }
 .ia-form { display: flex; gap: 10px; padding: 12px 20px 16px; border-top: 1px solid var(--line); } .ia-form textarea { flex: 1; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); font: inherit; resize: none; }
+
+/* ---------- Sobrevive a la Guardia · introducción cinematográfica ---------- */
+body.gi-abierta { overflow: hidden; }
+.gi { position: fixed; inset: 0; z-index: 400; background: #02080a; color: #f2fbf9; overflow: hidden; display: grid; opacity: 0; animation: gi-entra .6s ease-out .02s forwards; }
+.gi--salida { animation: gi-sale .5s ease-in forwards; }
+@keyframes gi-entra { to { opacity: 1; } } @keyframes gi-sale { from { opacity: 1; } to { opacity: 0; } }
+.gi-fondo, .gi-vineta, .gi-grano { position: absolute; inset: 0; }
+.gi-fondo { overflow: hidden; background: #040d10; }
+.gi-cam { position: absolute; inset: -6%; transform-origin: 52% 46%; animation: gi-cam 46s ease-in-out infinite alternate; will-change: transform; }
+@keyframes gi-cam { from { transform: scale(1.04) translate3d(-.8%, .4%, 0); } to { transform: scale(1.16) translate3d(1.2%, -.9%, 0); } }
+.gi-svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; opacity: 0; transition: opacity 1.6s ease-out; }
+.gi--e1 .gi-svg { opacity: 1; }
+.gi-foto { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 1.4s ease; }
+.gi--foto .gi-foto { opacity: .72; }
+.gi-vineta { background: radial-gradient(ellipse at 38% 50%, rgba(2, 8, 10, .25) 0%, rgba(2, 8, 10, .72) 62%, rgba(2, 8, 10, .94) 100%), linear-gradient(180deg, rgba(2, 8, 10, .55) 0%, rgba(2, 8, 10, 0) 30%, rgba(2, 8, 10, .6) 100%); }
+.gi-grano { opacity: .07; mix-blend-mode: overlay; background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, .5) 0 1px, transparent 1px 3px); pointer-events: none; }
+.gi-luces { animation: gi-luz 7s ease-in-out infinite; } .gi-letrero { animation: gi-letrero 4.4s ease-in-out infinite; }
+@keyframes gi-luz { 0%, 100% { opacity: 1; } 46% { opacity: .92; } 50% { opacity: .78; } 54% { opacity: .94; } }
+@keyframes gi-letrero { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+.gi-ecg { stroke-dasharray: 520; stroke-dashoffset: 520; animation: gi-ecg 3.2s linear infinite; }
+@keyframes gi-ecg { to { stroke-dashoffset: -520; } }
+.gi-marca { position: absolute; left: clamp(20px, 5vw, 64px); top: clamp(18px, 4vh, 40px); margin: 0; font-size: clamp(.7rem, 1.3vw, .82rem); font-weight: 700; letter-spacing: .26em; color: #9be8dc; opacity: 0; transform: translateY(-6px); transition: opacity 1.2s ease .5s, transform 1.2s ease .5s; }
+.gi--e1 .gi-marca { opacity: .92; transform: none; }
+.gi-texto { position: relative; align-self: center; justify-self: start; width: min(900px, 100%); padding: 0 clamp(20px, 6vw, 84px); display: grid; }
+.gi-texto > * { grid-area: 1 / 1; }
+.gi-msg { align-self: center; }
+.gi-t1, .gi-t2, .gi-t3 { opacity: 0; transform: translateY(14px); }
+.gi-t1 { margin: 0 0 .32em; font-size: clamp(2.3rem, 7.6vw, 6rem); line-height: .98; font-weight: 900; letter-spacing: .005em; text-transform: uppercase; text-shadow: 0 2px 30px rgba(0, 0, 0, .6); transition: opacity 1.1s ease, transform 1.1s cubic-bezier(.2, .7, .2, 1); }
+.gi-t2 { margin: 0 0 clamp(18px, 3.4vh, 32px); font-size: clamp(1.05rem, 2.3vw, 1.5rem); line-height: 1.45; color: #cfe8e4; max-width: 34ch; transition: opacity 1.1s ease .9s, transform 1.1s cubic-bezier(.2, .7, .2, 1) .9s; }
+.gi-t3 { margin: 0; font-size: clamp(1.15rem, 2.6vw, 1.7rem); line-height: 1.5; font-weight: 600; color: #fff; max-width: 30ch; border-left: 3px solid #35c9b5; padding-left: 18px; transition: opacity 1.2s ease, transform 1.2s cubic-bezier(.2, .7, .2, 1); }
+.gi--e2 .gi-t1, .gi--e2 .gi-t2, .gi--e3 .gi-t3 { opacity: 1; transform: none; }
+.gi--e3 .gi-t1 { opacity: .38; transform: translateY(-10px) scale(.96); transform-origin: left bottom; } .gi--e3 .gi-t2 { opacity: .3; }
+.gi--e3 .gi-t1, .gi--e3 .gi-t2 { transition: opacity 1.2s ease, transform 1.2s ease; }
+.gi--e4 .gi-t1, .gi--e4 .gi-t2, .gi--e4 .gi-t3 { opacity: 0; transform: translateY(-14px); transition: opacity .8s ease, transform .8s ease; }
+.gi-fin { align-self: center; opacity: 0; visibility: hidden; transform: translateY(16px); transition: opacity 1.1s ease .5s, transform 1.1s cubic-bezier(.2, .7, .2, 1) .5s, visibility 0s linear 1.6s; }
+.gi--e4 .gi-fin { opacity: 1; visibility: visible; transform: none; transition-delay: .5s, .5s, 0s; }
+.gi-t4 { margin: 0 0 14px; font-size: clamp(2rem, 6.4vw, 4.8rem); line-height: 1; font-weight: 900; letter-spacing: .005em; text-transform: uppercase; text-shadow: 0 2px 30px rgba(0, 0, 0, .6); }
+.gi-t5 { margin: 0 0 clamp(22px, 4vh, 36px); font-size: clamp(1.05rem, 2.3vw, 1.45rem); color: #cfe8e4; }
+.gi-ini { display: inline-flex; align-items: center; gap: 12px; padding: 17px 34px; border: 0; border-radius: 4px; background: #14b8a6; color: #031412; font: inherit; font-size: 1.02rem; font-weight: 900; letter-spacing: .12em; cursor: pointer; box-shadow: 0 0 0 0 rgba(20, 184, 166, .5); transition: transform .2s ease, box-shadow .3s ease, background .2s; }
+.gi-ini:hover { background: #2dd4bf; transform: translateX(3px); box-shadow: 0 0 0 6px rgba(20, 184, 166, .22); } .gi-ini:focus-visible, .gi-omitir:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+.gi-omitir { position: absolute; right: clamp(16px, 4vw, 48px); bottom: clamp(44px, 8vh, 64px); padding: 11px 18px; border: 1px solid rgba(255, 255, 255, .55); border-radius: 4px; background: rgba(2, 8, 10, .55); color: #fff; font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; backdrop-filter: blur(4px); transition: background .2s, border-color .2s; }
+.gi-omitir:hover { background: rgba(255, 255, 255, .14); border-color: #fff; }
+.gi-aviso { position: absolute; left: clamp(20px, 5vw, 64px); right: clamp(20px, 5vw, 64px); bottom: clamp(12px, 2.4vh, 20px); margin: 0; font-size: .74rem; color: #9db8b4; max-width: 70ch; }
+.gi--rm, .gi--rm * { animation: none !important; transition: none !important; }
+.gi--rm { opacity: 1; } .gi--rm .gi-cam { transform: scale(1.06); } .gi--rm .gi-ecg { stroke-dasharray: none; stroke-dashoffset: 0; }
+@media (max-width: 640px) {
+  .gi-omitir { right: 16px; left: 16px; bottom: 58px; text-align: center; } .gi-ini { width: 100%; justify-content: center; } .gi-aviso { font-size: .7rem; }
+  .gi-fin { padding-bottom: 60px; }
+}
+@media (max-height: 520px) { .gi-t1 { font-size: 2rem; } .gi-aviso { display: none; } }
+@media (prefers-reduced-motion: reduce) { .gi, .gi * { animation: none !important; transition: none !important; } .gi { opacity: 1; } .gi-ecg { stroke-dasharray: none; stroke-dashoffset: 0; } }
+.gd-repetir { margin: -6px 0 14px; }
+/* capas: el texto de las escenas previas nunca debe interceptar clics; el bloque final queda por encima */
+.gi-msg { pointer-events: none; } .gi-fin { position: relative; z-index: 2; pointer-events: none; } .gi--e4 .gi-fin { pointer-events: auto; }
+.gi-omitir, .gi-aviso { z-index: 3; }
+.gi h1, .gi h2, .gi .gi-t4, .gi .gi-t1 { color: #f6fffd; }
+.gi-vineta { background: radial-gradient(ellipse at 40% 50%, rgba(2, 8, 10, .12) 0%, rgba(2, 8, 10, .55) 62%, rgba(2, 8, 10, .88) 100%), linear-gradient(180deg, rgba(2, 8, 10, .45) 0%, rgba(2, 8, 10, 0) 28%, rgba(2, 8, 10, .5) 100%); }
+.gi-t1, .gi-t4 { text-shadow: 0 2px 6px rgba(0, 0, 0, .7), 0 0 36px rgba(0, 0, 0, .6); }
+@media (max-width: 640px) { .gi-omitir { bottom: 104px; } .gi-fin { padding-bottom: 110px; } }

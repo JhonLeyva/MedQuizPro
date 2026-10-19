@@ -122,11 +122,23 @@
     paso();
   }
 
+  var dentro = false;     // true mientras el alumno navega dentro de #/guardia: evita repetir la introducción
+  window.addEventListener("hashchange", function () { if (!/^#\/guardia/.test(location.hash)) dentro = false; });
   function montar(cont, arg) {
     var casos = raiz.MQP_GUARDIA || [];
     var caso = arg ? casos.filter(function (c) { return c.id === arg; })[0] : null;
+    var primeraEntrada = !dentro; dentro = true;      // cualquier pantalla del módulo cuenta como «ya estoy dentro»
     if (arg && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/guardia">Ver los casos</a></div>'; return; }
-    if (caso) jugar(cont, caso); else lista(cont);
+    if (caso) { jugar(cont, caso); return; }
+    lista(cont);
+    var I = M.guardiaIntro;
+    var rep = document.createElement("p"); rep.className = "gd-repetir";
+    rep.innerHTML = '<button type="button" class="link-arrow" id="gdVerIntro">▶ Ver la introducción</button>';
+    var kp = cont.querySelector(".gd-aviso");
+    if (kp && I) { kp.after(rep); rep.querySelector("button").addEventListener("click", function () { I.mostrar({}); }); }
+    /* La introducción aparece al ENTRAR al módulo desde fuera (no al volver a la lista desde un caso) y salvo que el alumno la haya omitido */
+    if (I && primeraEntrada && !I.omitida() && !document.querySelector(".gi"))
+      I.mostrar({ alTerminar: function () { var b = cont.querySelector("a.btn"); if (b) b.focus({ preventScroll: true }); } });
   }
   API.montar = montar; M.guardia = API;
 })(typeof window !== "undefined" ? window : this);
