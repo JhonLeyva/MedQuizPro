@@ -77,9 +77,9 @@ S("lectura", "RM-INF-013", "Un lancetazo, placa livedoide y hematuria a las 36 h
   "MINSA, NT N.º 007-MINSA/DGSP-V.01 (RM 215-2004/MINSA); Swanson DL, Vetter RS, N Engl J Med 2005;352:700-707; Harrison 21.ª ed. (2022).",
   op=("¿Diagnóstico?", ["Sí: placa livedoide con hemólisis", "No: dolor local y signos autonómicos", "No: edema y sangrado local", "No: dolor muscular y rigidez abdominal", "No: reacción alérgica, sin necrosis"],
       {0: "Loxoscelismo", 1: "Picadura de escorpión", 2: "Bothropismo", 3: "Latrodectismo", 4: "Picadura de abeja"}),
-  d=dict(rotulo="Cómo evoluciona la lesión del loxoscelismo", img_titulo="Evolución de la lesión (imagen de referencia)",
+  d=dict(rotulo="Cómo evoluciona la lesión del loxoscelismo", img_titulo="Imagen referencial de una lesión de loxoscelismo",
          img=PX("loxo_cronologia.jpg", 380, credito="Costa et al. · Rev Inst Med Trop São Paulo 2026 · CC BY 4.0"),
-         pines=[], img_pie="Un mismo paciente: A día 3, B día 4, C día 5, D día 12, E día 35, F día 65 y G día 112.",
+         pines=[], img_pie="Imagen referencial de la evolución de una placa de loxoscelismo en un mismo paciente: A día 3, B día 4, C día 5, D día 12, E día 35, F día 65 y G día 112.",
          pasos=[("A-B: placa violácea con borde irregular", "Zona roja, isquémica y azulada: es la placa livedoide.", True),
                 ("C: escara negra", "La necrosis se seca a los 5 días.", False),
                 ("D-G: úlcera de curación lenta", "Se limpia y cicatriza en semanas a meses.", False),
@@ -103,8 +103,8 @@ S("alarma", "RM-NEU-007", "Dolor pleurítico súbito, disnea y shock en un pacie
                  ("Hipertimpanismo y murmullo ausente", "Se busca al examen", None), ("Desviación traqueal, yugulares ingurgitadas", "Signos tardíos de tensión", None), ("Hipoxemia y taquicardia", "Se mide en el monitor", None)],
          accion=("Descomprimir con aguja y colocar tubo", "5.º espacio intercostal en la línea axilar anterior (o 2.º en la medioclavicular). No esperar la radiografía."),
          accion_rotulo="Si hay tensión",
-         img=PX("tension_neumo.jpg", 280, credito="Olukorode et al. · Front Reprod Health 2026 · CC BY 4.0"), img_titulo="Neumotórax masivo (referencia)",
-         veredicto=("Tuberculosis + dolor súbito + shock = neumotórax a tensión", "En la radiografía de referencia (hemitórax derecho) el contorno azul rodea el neumotórax y la flecha amarilla señala el pulmón colapsado.")))
+         img=PX("tension_neumo.jpg", 280, credito="Olukorode et al. · Front Reprod Health 2026 · CC BY 4.0"), img_titulo="Imagen referencial de un neumotórax masivo",
+         veredicto=("Tuberculosis + dolor súbito + shock = neumotórax a tensión", "En la radiografía referencial (hemitórax derecho) el contorno azul rodea el neumotórax y la flecha amarilla señala el pulmón colapsado.")))
 
 # 6 · LECTURA · absceso hepático amebiano
 S("lectura", "RM-INF-014", "El absceso hepático amebiano contiene pus pardo rojizo, en «pasta de anchoas»",
@@ -118,9 +118,9 @@ S("lectura", "RM-INF-014", "El absceso hepático amebiano contiene pus pardo roj
   "Harrison 21.ª ed. (2022); Mandell 9.ª ed. (2020); OMS/OPS/UNESCO, Amoebiasis (Wkly Epidemiol Rec 1997;72:97-99).",
   op=("¿Contenido del absceso?", ["No: cremoso es del absceso piógeno", "Sí: pus achocolatado", "No: seroso es del quiste simple", "No: verdoso es del absceso piógeno", "No: es el líquido del quiste hidatídico"],
       {0: "Cremoso", 1: "Pardo rojizo", 2: "Seroso", 3: "Verdoso", 4: "Cristal de roca"}),
-  d=dict(rotulo="Cómo se ve un absceso hepático amebiano grande", img_titulo="TC con contraste de un absceso amebiano (referencia)",
+  d=dict(rotulo="Cómo se ve un absceso hepático amebiano grande", img_titulo="Imagen referencial de un absceso hepático amebiano (TC)",
          img=PX("ameba_absceso.jpg", 400, credito="Anthony et al. · Case Rep Infect Dis 2026 · CC BY 4.0"),
-         pines=[], img_pie="Lesión hipodensa en el lóbulo derecho; las líneas de medida (100 y 119 mm) vienen en la imagen.",
+         pines=[], img_pie="Imagen referencial de un absceso hepático amebiano: lesión hipodensa en el lóbulo derecho; las líneas de medida (100 y 119 mm) vienen en la imagen.",
          pasos=[("Lesión única, hipodensa, en el lóbulo derecho", "El patrón típico del absceso amebiano.", False),
                 ("Contenido pardo rojizo («chocolate»)", "Hepatocitos necrosados y sangre; amebas en la pared.", True),
                 ("No es pus cremoso ni verdoso", "Eso es el absceso piógeno; el hidatídico es claro y el seroso es un quiste simple.", False),
@@ -281,7 +281,14 @@ S("reloj", "RM-GAS-004", "Necrosis pancreática infectada a la semana: carbapen�
                 ("Ahora", "Imipenem o meropenem", "Carbapenémico; alternativa: quinolona con metronidazol.", True),
                 ("4 sem", "Necrosis encapsulada", "Se retrasa el desbridamiento hasta este momento.", False),
                 ("Escalón", "Drenar y luego necrosectomía", "Percutáneo o endoscópico; cirugía mínimamente invasiva si no mejora.", False)],
-         veredicto=("Necrosis infectada = carbapenémico y desbridamiento diferido", "Piperacilina-tazobactam puede usarse en algunos esquemas, pero la mejor opción ofrecida es imipenem.")))
+         veredicto=("Necrosis infectada = carbapenémico y desbridamiento diferido", "Piperacilina-tazobactam puede usarse en algunos esquemas, pero la mejor opción ofrecida es imipenem.")),
+  clasif=dict(titulo="Gravedad de la pancreatitis aguda (Atlanta revisada 2012 y clasificación por determinantes)", cols=["Gravedad", "Falla orgánica", "Complicaciones locales o sistémicas", "Pronóstico"],
+              filas=[["Leve", "No hay", "No hay", "Alta temprana; sin necesidad de imágenes"],
+                     ["Moderadamente grave", "Transitoria (menos de 48 horas)", "Presentes (colecciones, necrosis) o descompensación de una enfermedad previa", "Baja mortalidad; estancia más larga"],
+                     ["Grave", "Persistente (más de 48 horas)", "Frecuentes", "Mortalidad alta; cuidados intensivos"],
+                     ["Crítica", "Persistente", "Necrosis infectada", "La mortalidad más alta"]],
+              caso=None, ancho_primera=150,
+              nota="El caso tiene necrosis infectada (complicación local): es al menos moderadamente grave; grave o crítica si la falla orgánica persiste más de 48 horas."))
 
 # 15 · FÁRMACO · botulismo
 S("farmaco", "RM-NRL-002", "La toxina botulínica impide liberar acetilcolina en la terminal presináptica: botulismo",
@@ -341,5 +348,5 @@ S("cuadricula", "RM-INF-018", "Ascaridiasis y trichuriasis son geohelmintiasis: 
                  ("Trichuris trichiura", ["Huevo en barril con tapones en los polos; se ingiere del suelo."], PX("trichuris.jpg", 250, credito="x"), True),
                  ("Uncinarias", ["El huevo eclosiona en el suelo; la larva penetra la piel descalza."], PX("uncinaria.jpg", 300, credito="x"), False),
                  ("Strongyloides stercoralis", ["Larva en las heces; las larvas del suelo atraviesan la piel."], PX("strongy.jpg", 460, credito="x"), False)],
-         credito="Imágenes: CDC/M. Melvin, Fischer et al., Chaurasiya (huevos) · PMC13450911 (uncinaria) · CDC (Strongyloides) · dominio público y CC BY 4.0",
+         credito="Imágenes referenciales de huevos y larva: CDC/M. Melvin, Fischer et al., Chaurasiya (huevos) · PMC13450911 (uncinaria) · CDC (Strongyloides) · dominio público y CC BY 4.0",
          veredicto=("Ascaridiasis + trichuriasis = parasitosis transmitidas desde el suelo", "La oxiuriasis no: se contagia de persona a persona.")))

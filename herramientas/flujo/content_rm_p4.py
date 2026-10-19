@@ -37,7 +37,14 @@ S("arbol", "RM-CIR-077", "La hernia inguinal en pantalón o deslizada es Nyhus I
       L("Sí: defecto de la pared posterior", "TIPO III", ["¿Qué saco protruye?"], path=True, children=[
           L("Directa", "III-A", ["Medial a los vasos epigástricos"]),
           L("Indirecta, anillo muy dilatado", "III-B: ESTE CASO", ["Pantalón o deslizada: sacos a ambos lados"], path=True, answer=True),
-          L("Femoral", "III-C", ["Bajo el ligamento inguinal"])])], path=True))
+          L("Femoral", "III-C", ["Bajo el ligamento inguinal"])])], path=True),
+  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior", "Técnica"],
+              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior intacta", "Ligadura alta del saco (niño) o reparación con malla"],
+                     ["II", "Indirecta", "Anillo interno dilatado; pared posterior intacta", "Reparación con malla"],
+                     ["IIIA", "Directa", "Defecto de la pared posterior (cualquier tamaño)", "Malla"],
+                     ["IIIB", "Indirecta grande, en pantalón o deslizada", "Anillo muy dilatado que invade la pared posterior", "Malla"],
+                     ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal", "Malla (abordaje inguinal o preperitoneal)"],
+                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=3, ancho_primera=100))
 
 # ───────────────────────────── 078 · CHECKLIST
 S("checklist", "RM-CIR-078", "La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional",
@@ -56,7 +63,7 @@ S("checklist", "RM-CIR-078", "La reparación primaria con sutura es la causa má
          veredicto=("Sutura simple = causa más frecuente de recidiva", "El estándar para defectos mayores de 3 cm es la malla.")))
 
 # ───────────────────────────── 079 · DECISIÓN
-S("decision", "RM-CIR-079", "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h: shock hemorrágico clase III",
+S("cuadro", "RM-CIR-079", "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h: shock hemorrágico clase III",
   "Trauma · clases del shock hemorrágico (ATLS)",
   ("Clasificación ATLS", ["Cuatro clases según el porcentaje de volumen perdido.", "La hipotensión aparece recién en la clase III."]),
   ("Varón de 30 años", ["Accidente de tránsito, hemoperitoneo probable.", "Confuso, pálido, FC > 120, hipotenso, FR 30-40 y diuresis de 5-15 mL/h."]),
@@ -66,14 +73,13 @@ S("decision", "RM-CIR-079", "Confuso, FC mayor de 120, hipotenso, FR 30-40 y diu
   ATL + "; WSES, trauma abdominal cerrado (2017); CRASH-2 (Lancet 2010)",
   op=("¿Clase?", ["No: es la de pérdida mayor de 40 %, con anuria", "No: sin cambios hemodinámicos", "No: sin hipotensión y con diuresis conservada", "Sí: 31-40 % con hipotensión y diuresis de 5-15", "No: no existe clase V"],
       {0: "IV", 1: "I", 2: "II", 3: "III", 4: "V"}),
-  d=dict(rotulo="Cómo se reconocen las clases de shock hemorrágico", eje_y="Clase", ancho_filas=120,
-         cols=["Pérdida y pulso", "Presión arterial", "FR y diuresis", "Mente y conducta"],
-         rows=[("Clase I", "Pérdida mínima"), ("Clase II", "Leve"), ("Clase III", "Este caso"), ("Clase IV", "Pérdida masiva")],
-         cells=[[("< 15 %", ["FC normal"]), ("Normal", ["Pulso normal"]), ("FR 14-20", ["Diuresis > 30 mL/h"]), ("Ansiedad leve", ["Observar"])],
-                [("15-30 %", ["FC 100-120"]), ("Normal", ["Presión de pulso baja"]), ("FR 20-30", ["Diuresis 20-30 mL/h"]), ("Ansioso", ["Cristaloides, sangre si persiste"])],
-                [("31-40 %", ["FC 120-140"]), ("Hipotensión", ["Presión de pulso baja"]), ("FR 30-40", ["Diuresis 5-15 mL/h"]), ("Ansioso o confuso", ["Este caso: transfusión y hemostasia"])],
-                [("> 40 %", ["FC > 140"]), ("Hipotensión marcada", ["Presión de pulso muy baja"]), ("FR > 35", ["Anuria"]), ("Letárgico", ["Transfusión masiva, quirófano"])]],
-         caso=(2, None), nota="Transfusión 1:1:1 y hemostasia precoz en clase III-IV."))
+  d=dict(veredicto=("Clase III: pérdida de 31-40 % con hipotensión", "Transfusión balanceada 1:1:1 y hemostasia precoz; la taquicardia sola engaña.")),
+  clasif=dict(titulo="Clases del shock hemorrágico (ATLS)", cols=["Clase", "Pérdida de sangre", "FC y presión arterial", "FR y diuresis", "Estado mental", "Conducta"],
+              filas=[["I", "< 15 % (< 750 mL)", "FC normal; PA y presión de pulso normales", "FR 14-20; diuresis > 30 mL/h", "Ansiedad leve", "Observar y controlar la hemorragia"],
+                     ["II", "15-30 % (750-1500 mL)", "FC 100-120; PA normal; presión de pulso baja", "FR 20-30; diuresis 20-30 mL/h", "Ansioso", "Cristaloides; sangre si persiste"],
+                     ["III", "31-40 % (1500-2000 mL)", "FC 120-140; hipotensión; presión de pulso baja", "FR 30-40; diuresis 5-15 mL/h", "Ansioso o confuso", "Transfusión y hemostasia precoz"],
+                     ["IV", "> 40 % (> 2000 mL)", "FC > 140; hipotensión; presión de pulso muy baja", "FR > 35; anuria", "Confuso o letárgico", "Transfusión masiva y quirófano"]],
+              caso=2, ancho_primera=80))
 
 # ───────────────────────────── 080 · ALARMA
 S("alarma", "RM-CIR-080", "Trauma cerrado, estable y con peritonitis generalizada: lesión de víscera hueca (intestino delgado)",
@@ -142,7 +148,7 @@ S("piramide", "RM-CIR-083", "El estómago es la localización más frecuente de 
          veredicto=("Estómago: sitio más frecuente del linfoma digestivo", "Biopsia endoscópica múltiple y búsqueda de H. pylori.")))
 
 # ───────────────────────────── 084 · DECISIÓN (Strasberg)
-S("decision", "RM-CIR-084", "La sección total del colédoco reconocida en la cirugía se repara con hepaticoyeyunostomía en Y de Roux",
+S("cuadro", "RM-CIR-084", "La sección total del colédoco reconocida en la cirugía se repara con hepaticoyeyunostomía en Y de Roux",
   "Lesión de vía biliar · clasificación de Strasberg",
   ("Lesión de la vía biliar", ["Ocurre en 0,3-0,5 % de las colecistectomías laparoscópicas.", "Se previene con la visión crítica de seguridad."]),
   ("Varón de 40 años", ["Colecistectomía laparoscópica por colelitiasis.", "Bilis en el campo: sección total del colédoco de 8 mm; se convierte la cirugía."]),
@@ -152,14 +158,19 @@ S("decision", "RM-CIR-084", "La sección total del colédoco reconocida en la ci
   "Strasberg et al., J Am Coll Surg (1995); SAGES, colecistectomía segura (Brunt et al., Surg Endosc 2020); Tokyo Guidelines 2018",
   op=("¿Reparación?", ["Sí: Y de Roux término-lateral, sin tensión", "No: la vía biliar no se une al duodeno", "No: tampoco se une al duodeno", "No: no corrige una sección total", "No: el estómago no es receptor biliar"],
       {0: "Y de Roux término-lateral", 1: "Colédoco a duodeno T-L", 2: "Colédoco a duodeno L-L", 3: "Reparación con dren de Kehr", 4: "Colédoco a estómago"}),
-  d=dict(rotulo="Qué lesión es y qué se hace (Strasberg)", eje_y="Tipo", ancho_filas=170,
-         cols=["Qué se lesiona", "Conducta"],
-         rows=[("Tipo A", "Fuga del cístico o Luschka"), ("Tipos B y C", "Conducto sectorial derecho"), ("Tipo D", "Lesión lateral"), ("Tipo E", "Colédoco o hepático común")],
-         cells=[[("Conducto cístico o de Luschka", ["Sin lesión del árbol principal"]), ("CPRE con stent", ["Drenaje percutáneo si hay colección"])],
-                [("Conducto aberrante", ["B ocluido, C seccionado con fuga"]), ("Hepaticoyeyunostomía", ["B puede observarse si no hay síntomas"])],
-                [("Pared lateral, sin sección total", ["Menos de la mitad de la luz"]), ("Sutura con tubo en T o stent", ["Más de la mitad: Y de Roux"])],
-                [("Sección completa (este caso)", ["Conducto de 8 mm sin tejido perdido"]), ("Hepaticoyeyunostomía en Y de Roux", ["Término-lateral, mucosa a mucosa"])]],
-         caso=(3, 1), nota="Si la reconstrucción no es posible en el momento: drenar y derivar a un centro hepatobiliar."))
+  d=dict(veredicto=("Sección total del colédoco: lesión mayor (tipo E)", "Hepaticoyeyunostomía en Y de Roux término-lateral; no se une al duodeno.")),
+  clasif=dict(titulo="Clasificación de Strasberg de las lesiones de la vía biliar", cols=["Tipo", "Qué se lesiona", "Conducta"],
+              filas=[["A", "Fuga del conducto cístico o de los conductos de Luschka", "Clip o ligadura del cístico; CPRE con stent o drenaje si la fuga persiste"],
+                     ["B", "Oclusión de un conducto sectorial derecho aberrante", "Observar si no hay síntomas; hepaticoyeyunostomía si hay estenosis"],
+                     ["C", "Sección con fuga de un conducto sectorial derecho aberrante", "Hepaticoyeyunostomía del conducto seccionado"],
+                     ["D", "Lesión lateral de la vía biliar extrahepática", "Sutura con tubo en T o stent si es menor de la mitad de la luz; si es mayor, Y de Roux"],
+                     ["E1", "Sección del colédoco o hepático común a más de 2 cm de la confluencia", "Hepaticoyeyunostomía en Y de Roux"],
+                     ["E2", "Sección a menos de 2 cm de la confluencia", "Hepaticoyeyunostomía en Y de Roux"],
+                     ["E3", "Sección en la confluencia (el confluente se conserva)", "Hepaticoyeyunostomía en Y de Roux"],
+                     ["E4", "Sección con separación de los conductos hepáticos derecho e izquierdo", "Hepaticoyeyunostomía en Y de Roux con reconstrucción de la confluencia"],
+                     ["E5", "Lesión del hepático común con un conducto sectorial derecho aberrante", "Hepaticoyeyunostomía en Y de Roux"]],
+              caso=[4, 5], ancho_primera=70,
+              nota="Tipos A-D son lesiones menores; E (sección o resección con pérdida de tejido) es mayor. Si la reconstrucción no es posible en el momento: drenar y derivar a un centro hepatobiliar."))
 
 # ───────────────────────────── 085 · TARJETAS (Todani)
 S("cuadro", "RM-CIR-085", "El tipo I de Todani (dilatación fusiforme del colédoco) es el quiste más frecuente",
@@ -249,8 +260,12 @@ S("reloj", "RM-CIR-090", "La colangitis aguda con hipotensión es grave: tras re
                 ("Luego", "Colecistectomía", "Mismo ingreso, sin sepsis", False)],
          tag="ESTE CASO: DRENAR", veredicto=("Colangitis grave: drenaje urgente por CPRE", "Antes, volumen y antibiótico; la cirugía abierta se evita.")),
   banda=B("Cálculos en la colangiorresonancia", PX("cprm_coledoco.jpg", 230, marcas=[("flecha", 0.30, 0.20, 0.72, 0.10, "Cálculos en la vesícula"), ("flecha", 0.56, 0.74, 0.74, 0.90, "Cálculos en el colédoco")]),
-          [("Vía biliar con cálculos", "Imagen de referencia de colangiorresonancia: vesícula y colédoco con litiasis."), ("Cálculos distales", "La obstrucción causa la colestasis y la infección."), ("CPRE", "Confirma y extrae el cálculo o coloca un stent."), ("Después del drenaje", "Con la sepsis resuelta se completa con colecistectomía en el mismo ingreso.")],
-          pie="Imagen referencial"))
+          [("Vía biliar con cálculos", "En la colangiorresonancia se ven cálculos en la vesícula y en el colédoco."), ("Cálculos distales", "La obstrucción causa la colestasis y la infección."), ("CPRE", "Confirma y extrae el cálculo o coloca un stent."), ("Después del drenaje", "Con la sepsis resuelta se completa con colecistectomía en el mismo ingreso.")],
+          pie="Imagen referencial de una colangiorresonancia con cálculos en la vesícula y en el colédoco"),
+  clasif=dict(titulo="Gravedad de la colangitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Drenaje de la vía biliar"],
+              filas=[["I (leve)", "No cumple los criterios de II ni de III", "Antibiótico; drenaje si no mejora en 24 h"],
+                     ["II (moderada)", "Dos o más: leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75 años, bilirrubina ≥ 5 mg/dL, albúmina baja", "Drenaje precoz"],
+                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Drenaje urgente tras sostén de órganos"]], caso=2, ancho_primera=100))
 
 # ───────────────────────────── 091 · PIRÁMIDE
 S("piramide", "RM-CIR-091", "La ecografía abdominal es el estudio inicial de la vía biliar",

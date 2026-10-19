@@ -116,13 +116,13 @@ S("alarma", "RM-END-034", "Nódulo duro, hipoecoico, con microcalcificaciones y 
                  ("Tos y disfagia", "Compresión o invasión local", True), ("Voz ronca o ganglios cervicales", "No referidos: buscarlos", None)],
          accion=("PAAF guiada por ecografía", "Bethesda V-VI: cirugía. Se confirma antes de operar."), accion_rotulo="Con rasgos de alto riesgo",
          img=PX("tiroides_ptc_eco.jpg", 270, credito="Yangoz et al. · Diagnostics 2026 · CC BY 4.0"), img_titulo="Imagen referencial de un nódulo papilar",
-         veredicto=("Alto riesgo ecográfico = carcinoma papilar", "Imagen referencial de un nódulo hipoecoico de bordes mal definidos, calibres A y B, confirmado como papilar."),
+         veredicto=("Alto riesgo ecográfico = carcinoma papilar", "Imagen referencial de un nódulo hipoecoico de bordes mal definidos, calibres A y B, confirmado como papilar.")),
   clasif=dict(titulo="Patrones ecográficos ATA 2015: riesgo de cáncer y cuándo puncionar", cols=["Patrón", "Rasgos ecográficos", "Riesgo", "PAAF"],
               filas=[["Alta sospecha", "Sólido hipoecoico con bordes irregulares, microcalcificaciones o más alto que ancho", "70-90 %", "Desde 1 cm"],
                      ["Sospecha intermedia", "Sólido hipoecoico de bordes lisos, sin rasgos de alta sospecha", "10-20 %", "Desde 1 cm"],
                      ["Baja sospecha", "Sólido iso o hiperecoico, o quístico con zona sólida excéntrica", "5-10 %", "Desde 1,5 cm"],
                      ["Muy baja sospecha", "Espongiforme o parcialmente quístico sin rasgos de sospecha", "< 3 %", "Desde 2 cm u observar"],
-                     ["Benigno", "Puramente quístico", "< 1 %", "No se punciona"]], caso=0, ancho_primera=135))
+                     ["Benigno", "Puramente quístico", "< 1 %", "No se punciona"]], caso=0, ancho_primera=185))
 
 # CB-041 · RELOJ · hidrólisis de la lactosa
 S("reloj", "RM-CB-041", "La lactasa fragmenta la lactosa en galactosa y glucosa",
@@ -246,7 +246,7 @@ S("embudo", "RM-END-038", "Nódulo tiroideo palpable de 10 mm: la ecografía es 
                      ["Sospecha intermedia", "Sólido hipoecoico de bordes lisos, sin rasgos de alta sospecha", "10-20 %", "Desde 1 cm"],
                      ["Baja sospecha", "Sólido iso o hiperecoico, o quístico con zona sólida excéntrica", "5-10 %", "Desde 1,5 cm"],
                      ["Muy baja sospecha", "Espongiforme o parcialmente quístico sin rasgos de sospecha", "< 3 %", "Desde 2 cm u observar"],
-                     ["Benigno", "Puramente quístico", "< 1 %", "No se punciona"]], caso=None, ancho_primera=135))
+                     ["Benigno", "Puramente quístico", "< 1 %", "No se punciona"]], caso=None, ancho_primera=185))
 
 # CB-042 · CUADRÍCULA · riboflavina
 S("cuadricula", "RM-CB-042", "La deficiencia de riboflavina produce glositis con atrofia de las papilas linguales",

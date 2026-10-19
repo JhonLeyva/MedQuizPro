@@ -28,7 +28,7 @@ S("capas", "RM-CIR-058", "La quemadura que llega a la dermis reticular es de seg
                      ["2.º superficial", "Dermis papilar", "Ampollas, base rosada, muy dolorosa", "Menos de 3 semanas, sin cicatriz"],
                      ["2.º profundo", "Dermis reticular", "Base blanquecina o moteada, poco dolorosa", "Más de 3 semanas, cicatriz; injerto"],
                      ["Tercer grado", "Espesor total", "Acartonada, indolora", "No cura sola; escarectomía e injerto"],
-                     ["Cuarto grado", "Fascia, músculo, hueso", "Pérdida de tejido profundo", "Cirugía mayor"]], caso=2, ancho_primera=165),
+                     ["Cuarto grado", "Fascia, músculo, hueso", "Pérdida de tejido profundo", "Cirugía mayor"]], caso=2, ancho_primera=210),
   banda=B("Así se ve una quemadura dérmica", PX("quemadura_dia0.jpg", 230),
           [("Lecho rosado y blanquecino", "Zona desbridada: dermis expuesta de espesor intermedio."), ("Restos de ampollas en el contorno", "Indican compromiso al menos de la dermis papilar."),
            ("Evolución", "La profundidad cambia en 48-72 h: se reevalúa antes de decidir injerto.")], pie="Imagen referencial de una quemadura dérmica de pierna, día 0"))

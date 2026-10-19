@@ -33,7 +33,7 @@ S("criterios", "RM-CIR-114", "La colangitis aguda se confirma con los criterios 
   ("Colangitis aguda", ["Infección de la vía biliar obstruida: triada de Charcot (dolor, fiebre, ictericia).", "Con hipotensión y confusión: pentada de Reynolds."]),
   ("Cuadro típico", ["Dolor en hipocondrio derecho, fiebre con escalofríos e ictericia.", "¿Qué examen confirma y trata a la vez?"]),
   ["Tokio 2018: sospecha = A + (B o C); definitivo = A + B + C. A: fiebre o inflamación; B: colestasis; C: imagen.",
-   "Gravedad: grado I leve, drenaje en 24-48 h; grado II moderada (leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75, bilirrubina ≥ 5, albúmina baja), drenaje en 24 h; grado III (falla orgánica), drenaje urgente.",
+   "Gravedad (cuadro): I leve, antibiótico; II moderada (2 o más: leucocitos, T ≥ 39 °C, edad ≥ 75, bilirrubina ≥ 5, albúmina baja), drenaje precoz; III falla orgánica, drenaje urgente.",
    "La CPRE confirma y drena en el mismo acto; la ecografía es el primer estudio.",
    "Bibliografía: TG18 y ESGE 2019 son las vigentes; la GPC de EsSalud (IETSI 2018) cubre coledocolitiasis."],
   "Guías de Tokio 2018 (TG18); ESGE, CPRE (2021); ASGE (2019); EsSalud-IETSI, GPC de colelitiasis, colecistitis y coledocolitiasis (2018).",

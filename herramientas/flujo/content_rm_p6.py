@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Residentado Médico · lote 2d · módulo p6 · 11 flujogramas (cirugía)."""
 from c_rm import S, P, PX, B, Q, L, TR, ATLS, HARRISON, WILLIAMS, NELSON, MINSA, ACOG, AAP
+from engine4 import LAYOUTS4
+from engine11 import cuadro as _cuadro
+LAYOUTS4.setdefault("cuadro", _cuadro)  # registra el diseño «cuadro» si el motor aún no lo hace
 SCHW = "Schwartz Principios de Cirugía 11.ª ed."
 SAB = "Sabiston Tratado de Cirugía 21.ª ed."
 

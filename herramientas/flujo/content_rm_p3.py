@@ -102,8 +102,8 @@ S("fases", "RM-CIR-066", "Un orificio perianal con secreción fétida intermiten
   ("Fístula perianal", ["Trayecto entre la cripta anal infectada y la piel perianal.", "Más del 90 % nace de un absceso perianal previo, drenado o espontáneo."]),
   ("Chofer de 45 años", ["Secreción fétida periódica por un orificio a 1 cm del ano.", "¿Diagnóstico más probable?"]),
   ["Regla de Goodsall: orificio posterior a la línea transversa, trayecto curvo hacia la línea media posterior; anterior, trayecto radial recto.",
-   "Parks: interesfintérica, transesfintérica, supraesfintérica y extraesfintérica; guía la cirugía.",
-   "Fístula simple: fistulotomía. Compleja (alta o con esfínter): sedal, colgajo o ligadura del trayecto (LIFT); RM para el trayecto.",
+   "Parks (ver cuadro): según su relación con el esfínter, define si basta la fistulotomía o hace falta preservar el esfínter.",
+   "Fístula simple: fistulotomía. Compleja (alta o con esfínter): sedal, colgajo o LIFT; RM para definir el trayecto.",
    "Alerta: fístulas múltiples, recidivantes o con diarrea = enfermedad de Crohn."],
   "ASCRS, abscesos y fístulas anorrectales (2022); " + SAB,
   op=("¿Diagnóstico?", ["No: es una colección aguda y dolorosa, sin secreción periódica", "No: sangra al defecar, sin orificio con pus", "No: dolor al defecar con sangre escasa", "No: es aguda y dolorosa", "Sí: orificio con secreción intermitente"],
@@ -112,7 +112,13 @@ S("fases", "RM-CIR-066", "Un orificio perianal con secreción fétida intermiten
          fases=[("1 · Cripta infectada", "Origen", "GLÁNDULA ANAL OBSTRUIDA", ["Infección criptoglandular", "Dolor leve, prurito"]),
                 ("2 · Absceso", "Fase aguda", "TUMOR PERIANAL DOLOROSO", ["Se drena al exterior", "30-50 % evoluciona a fístula"]),
                 ("3 · Fístula", "Fase crónica", "ORIFICIO CON SECRECIÓN FÉTIDA", ["Supura de forma intermitente", "Se cierra y reabsorbe: nuevo absceso"])],
-         chips_titulo="Qué se busca al examinar", chips=[("Orificio externo", True), ("Cordón palpable", False), ("Regla de Goodsall", False), ("Tacto rectal", False), ("RM si es compleja", False)]))
+         chips_titulo="Qué se busca al examinar", chips=[("Orificio externo", True), ("Cordón palpable", False), ("Regla de Goodsall", False), ("Tacto rectal", False), ("RM si es compleja", False)]),
+  clasif=dict(titulo="Clasificación de Parks de las fístulas perianales", cols=["Tipo", "Trayecto", "Conducta habitual"],
+              filas=[["Interesfintérica", "Entre el esfínter interno y el externo; orificio externo cerca del margen anal", "Fistulotomía"],
+                     ["Transesfintérica", "Cruza el esfínter externo hacia la fosa isquiorrectal", "Baja: fistulotomía; alta: sedal, LIFT o colgajo"],
+                     ["Supraesfintérica", "Asciende sobre el puborrectal y desciende por la fosa isquiorrectal", "Sedal, LIFT o colgajo"],
+                     ["Extraesfintérica", "Del recto a la piel por fuera del esfínter, a través de los elevadores", "Tratar la causa (Crohn, absceso); sedal, colgajo o derivación"]],
+              caso=None, ancho_primera=135, nota="Tipos descritos por Parks (1976); conducta según ASCRS 2022. La mayoría son interesfintéricas o transesfintéricas."))
 
 # 067 · CRITERIOS · Tokio 2018
 S("criterios", "RM-CIR-067", "Colecistitis aguda litiásica con Murphy y leucocitosis: colecistectomía laparoscópica temprana",
@@ -133,9 +139,12 @@ S("criterios", "RM-CIR-067", "Colecistitis aguda litiásica con Murphy y leucoci
          umbral="definitivo = 1 criterio A + 1 B + C", conteo="Cumple A, B y C",
          veredicto="Diagnóstico definitivo de colecistitis aguda",
          img_titulo="Ecografía: colecistitis aguda", img=PX("colecistitis_pocus_es.jpg", 380, credito="Ummadi et al. · Diagnostics 2026 · CC BY 4.0"),
-         img_pie="Imagen referencial: la vesícula distendida muestra pared engrosada, líquido alrededor y un cálculo en el cuello.",
-         claves_titulo="Conducta según la gravedad (TG18)",
-         claves=[("Grado I (leve)", ["Colecistectomía laparoscópica temprana"], True), ("Grado II (moderado)", ["Temprana si hay centro con experiencia; si no, drenaje y diferir"], False), ("Grado III (grave)", ["Soporte de órganos y drenaje de la vesícula"], False)]))
+         img_pie="Imagen referencial de una colecistitis aguda: pared engrosada, líquido alrededor y un cálculo en el cuello."),
+  clasif=dict(titulo="Gravedad de la colecistitis aguda según Tokio 2018", cols=["Grado", "Criterio", "Conducta"],
+              filas=[["I (leve)", "No cumple criterios de II ni de III", "Colecistectomía laparoscópica temprana"],
+                     ["II (moderada)", "Uno o más: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, más de 72 h, inflamación local marcada (gangrena, absceso, peritonitis biliar)", "Colecistectomía temprana si hay equipo con experiencia; si no, drenaje y diferir"],
+                     ["III (grave)", "Disfunción orgánica: hipotensión con vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2, INR > 1,5, plaquetas < 100 000", "Soporte de órganos y drenaje de la vesícula"]],
+              caso=0, ancho_primera=120))
 
 # 068 · CHECKLIST · absceso perianal
 S("checklist", "RM-CIR-068", "Un absceso perianal se trata con drenaje quirúrgico inmediato",
@@ -180,8 +189,8 @@ S("carriles", "RM-CIR-070", "La coledocolitiasis se trata con papiloesfinterotom
   "Vía biliar · coledocolitiasis (ASGE 2019)",
   ("Coledocolitiasis", ["Cálculos en el colédoco: cólico, ictericia, colangitis o pancreatitis biliar.", "La CPRE trata en el mismo acto lo que diagnostica."]),
   ("Pregunta de tratamiento", ["¿Cuál es el tratamiento de elección en una coledocolitiasis?"]),
-  ["ASGE 2019, probabilidad alta: cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado: CPRE directa.",
-   "Intermedia (hepatograma alterado, edad > 55 años o colédoco dilatado): confirmar con colangiorresonancia, ecoendoscopia o ecografía intraoperatoria.",
+  ["ASGE 2019 estratifica el riesgo de coledocolitiasis en alto, intermedio y bajo (ver cuadro); la CPRE directa se reserva para el riesgo alto.",
+   "Riesgo intermedio: confirmar con colangiorresonancia, ecoendoscopia o ecografía intraoperatoria antes de la CPRE.",
    "CPRE con esfinterotomía y extracción con balón o canastilla: éxito del 90-95 %. Si falla: exploración de la vía biliar (Kehr o coledocoscopía).",
    "EsSalud-IETSI GPC N.º 11 (2018): colelitiasis, colecistitis aguda y coledocolitiasis."],
   "ASGE, coledocolitiasis (2019); ESGE, cálculos de la vía biliar (2019); EsSalud-IETSI, GPC N.º 11 (2018)",
@@ -190,7 +199,12 @@ S("carriles", "RM-CIR-070", "La coledocolitiasis se trata con papiloesfinterotom
   d=dict(rotulo="Ruta del paciente con sospecha de coledocolitiasis", carriles=["Clínica", "Imagen", "Endoscopia", "Cirugía"],
          pasos=[(0, "Cólico + ictericia", "Sospecha de cálculo en colédoco", False), (1, "Estratificar riesgo", "Alta: cálculo, colangitis o BT > 4 con dilatación", False),
                 (2, "CPRE con esfinterotomía", "Extrae el cálculo; éxito 90-95 %", True), (3, "Si falla la CPRE", "Kehr o coledocoscopía + colecistectomía", False)],
-         veredicto=("Papiloesfinterotomía endoscópica = tratamiento de elección", "Con probabilidad intermedia se confirma antes con colangiorresonancia o ecoendoscopia.")))
+         veredicto=("Papiloesfinterotomía endoscópica = tratamiento de elección", "Con probabilidad intermedia se confirma antes con colangiorresonancia o ecoendoscopia.")),
+  clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
+              filas=[["Alto", "Cálculo en imagen, o colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
+                     ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o ecografía intraoperatoria"],
+                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]],
+              caso=None, ancho_primera=110))
 
 # 071 · FASES · incisión en trauma
 S("fases", "RM-CIR-071", "En el trauma abdominal penetrante la incisión de elección es la laparotomía mediana xifopúbica",
@@ -231,8 +245,8 @@ S("dos_preguntas", "RM-CIR-072", "En el anciano con sospecha de apendicitis plas
   banda=B("Referencia: ecografía de apendicitis", PX("apendicitis_pocus.jpg", 340), [
       ("Los calibres (+) miden el apéndice", "0,68 cm a la izquierda y 0,82 cm a la derecha; más de 6 mm es anormal."),
       ("Corte transversal y longitudinal", "Estructura tubular con pared y luz visibles; el calibre se mide de pared a pared."),
-      ("Imagen referencial", "En el adulto mayor la TC es el estudio de elección.")],
-      pie="Ecografía del apéndice: se usa de primera línea en niños y gestantes."))
+      ("Estudio del anciano", "En el adulto mayor la TC es el estudio de elección.")],
+      pie="Imagen referencial de una ecografía de apendicitis aguda; es de primera línea en niños y gestantes."))
 
 # 073 · CHECKLIST · obstrucción intestinal
 S("checklist", "RM-CIR-073", "En la obstrucción intestinal la medida inicial es la descompresión con sonda nasogástrica y líquidos",
@@ -255,8 +269,8 @@ S("checklist", "RM-CIR-073", "En la obstrucción intestinal la medida inicial es
          veredicto=("Obstrucción intestinal = sonda nasogástrica y líquidos", "Los signos de gravedad convierten el caso en cirugía urgente.")),
   banda=B("Radiografía de abdomen en obstrucción", PX("bridas_rx.jpg", 300, marcas=[
               ("caja", 0.0, 0.42, 0.36, 0.66, "Nivel hidroaéreo", 0.62, 0.12), ("flecha", 0.66, 0.76, 0.55, 0.92, "Asas dilatadas")]),
-          [("Asas de delgado dilatadas", "Más de 3 cm de diámetro: cuadro obstructivo."), ("Niveles hidroaéreos", "Líquido y aire en la misma asa, con una línea horizontal entre ambos."), ("Imagen de referencia por bridas", "No es del paciente; la TC define la causa y la gravedad.")],
-          pie="Radiografía de abdomen: obstrucción por bridas."))
+          [("Asas de delgado dilatadas", "Más de 3 cm de diámetro: cuadro obstructivo."), ("Niveles hidroaéreos", "Líquido y aire en la misma asa, con una línea horizontal entre ambos."), ("Causa y gravedad", "La TC define la causa y la gravedad de la obstrucción.")],
+          pie="Imagen referencial de una obstrucción intestinal por bridas en la radiografía de abdomen."))
 
 # 074 · LECTURA · hemorroides grado III
 S("lectura", "RM-CIR-074", "El bulto anal que prolapsa y se reduce con la mano, con sangre rojo rutilante, es una hemorroide interna grado III",
@@ -270,9 +284,9 @@ S("lectura", "RM-CIR-074", "El bulto anal que prolapsa y se reduce con la mano, 
   "ASCRS, hemorroides (2018); " + SAB,
   op=("¿Tipo de hemorroide?", ["Sí: prolapsa y se reduce con la mano", "No: prolapsa y no se reduce", "No: sangra sin prolapso", "No: es dolorosa, dura y azulada", "No: prolapsa y se reduce sola"],
       {0: "Interna de tercer grado", 1: "Interna de cuarto grado", 2: "Interna de primer grado", 3: "Externa trombosada", 4: "Interna de segundo grado"}),
-  d=dict(rotulo="Lee la imagen y clasifica", img_titulo="Hemorroides prolapsadas (referencia)",
+  d=dict(rotulo="Lee la imagen y clasifica", img_titulo="Hemorroides prolapsadas",
          img=PX("hemorroides_g3.jpg", 330, credito="Wei et al. · Front Surg 2026 · CC BY 4.0", marcas=[("flecha", 0.50, 0.42, 0.62, 0.12, "Paquetes prolapsados"), ("flecha", 0.12, 0.62, 0.2, 0.9, "Piel perianal")]),
-         img_pie="Imagen de referencia de hemorroides mixtas prolapsadas.",
+         img_pie="Imagen referencial de hemorroides mixtas prolapsadas.",
          pasos=[("Tejido que sale por el ano", "Cojinetes rojos y violáceos que prolapsan con el esfuerzo.", False),
                 ("¿Cómo se reduce?", "Con la mano: grado III. Sola: grado II. No se reduce: grado IV.", True),
                 ("Sangre rojo rutilante", "Indolora y con la defecación: sangrado de hemorroide interna.", False),

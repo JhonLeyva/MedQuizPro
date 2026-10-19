@@ -190,8 +190,8 @@ S("dosis", "RM-CAR-037", "Taquicardia supraventricular con QRS estrecho que no c
          alternativas=[("Adenosina 6 mg y luego 12 mg", "Elección", True), ("Metoprolol IV", "Segunda línea", False), ("Amiodarona", "Último recurso", False), ("Digoxina", "Inicio lento", False)],
          veredicto=("Adenosina en bolo rápido", "Efectos breves: rubor, opresión torácica y pausa.")))
 
-# 94 · RM-NEF-003 · TERMÓMETRO: albuminuria y conducta
-S("cuadro", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: enalapril",
+# 94 · RM-NEF-003 · CHECKLIST + cuadro KDIGO: albuminuria y conducta
+S("checklist", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: enalapril",
   "Nefrología · nefropatía diabética",
   ("Nefropatía diabética incipiente", ["Albuminuria persistente en un diabético hipertenso.", "IECA o ARA II retrasan la progresión."]),
   ("Varón de 45 años", ["HTA reciente y DM2 hace 5 años.", "PA 160/100, depuración 100 mL/min y proteinuria de 500 mg/24 h."]),
@@ -201,9 +201,10 @@ S("cuadro", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: enalapr
   "ADA, estándares de atención en diabetes (2026); KDIGO, diabetes y ERC (2022) y ERC (2024); ACC/AHA, hipertensión (2025)",
   op=("¿Elección?", ["No: no protege el riñón", "No: no reduce la presión intraglomerular", "No: pierde eficacia y empeora la glucosa", "Sí: reduce la presión intraglomerular", "No: sintomático, sin efecto renal"],
       {0: "Metildopa", 1: "Amlodipino", 2: "Hidroclorotiazida", 3: "Enalapril", 4: "Furosemida"}),
-  d=dict(claves_titulo="Qué añadir al IECA o ARA II en la nefropatía diabética",
-         claves=[("1. IECA o ARA II", ["Enalapril: baja la presión intraglomerular"], True), ("2. iSGLT2", ["Empagliflozina o dapagliflozina"], False), ("3. Finerenona", ["Si persiste la albuminuria"], False)],
-         veredicto=("Diabético, hipertenso y con albuminuria: enalapril", "Control de creatinina y potasio a los 7-14 días.")),
+  d=dict(rotulo="Qué añadir en la nefropatía diabética", tag="ESTE CASO: PASO 1",
+         pasos=[("IECA o ARA II (enalapril)", "Baja la presión intraglomerular", True), ("iSGLT2", "Empagliflozina o dapagliflozina", False), ("Finerenona", "Si persiste la albuminuria", False), ("Control a los 7-14 días", "Creatinina y potasio", False)],
+         no_hacer=[("Hidroclorotiazida sola", "Pierde eficacia y empeora la glucosa"), ("Metildopa o amlodipino", "No protegen el riñón")],
+         veredicto=("Diabético, hipertenso y con albuminuria: enalapril", "Reduce la presión intraglomerular y la progresión.")),
   clasif=dict(titulo="Categorías de albuminuria (KDIGO) y conducta", cols=["Categoría", "Albuminuria 24 h", "Cociente albúmina/creatinina", "Término", "Conducta"],
               filas=[["A1", "< 30 mg", "< 30 mg/g", "Normal o levemente aumentada", "Control anual y PA < 130/80"],
                      ["A2", "30-300 mg", "30-300 mg/g", "Moderadamente aumentada", "IECA o ARA II si hay HTA; añadir iSGLT2"],

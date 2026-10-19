@@ -19,10 +19,10 @@ S("comparador", "RM-CIR-044", "El signo de Cullen (equimosis periumbilical) orie
   d=dict(rotulo="Dos signos, el mismo mecanismo", IH=190, tag="ESTE CASO",
          imgs=[dict(titulo="Signo de Cullen", archivo="cullen_real.jpg", on=True,
                     marcas=[("flecha", 0.53, 0.46, 0.22, 0.82, "Equimosis periumbilical"), ("flecha", 0.46, 0.20, 0.22, 0.12, "Ombligo")],
-                    pie="Equimosis alrededor del ombligo.", credito="Fred y van Dijk · Wikimedia Commons · CC BY 2.0"),
+                    pie="Imagen referencial de una equimosis periumbilical (signo de Cullen).", credito="Fred y van Dijk · Wikimedia Commons · CC BY 2.0"),
                dict(titulo="Signo de Grey Turner", archivo="greyturner.jpg",
                     marcas=[("flecha", 0.77, 0.65, 0.42, 0.20, "Equimosis del flanco")],
-                    pie="Equimosis en los flancos (retroperitoneo).", credito="Fred y van Dijk · Wikimedia Commons · CC BY 2.0")],
+                    pie="Imagen referencial de una equimosis del flanco (signo de Grey Turner).", credito="Fred y van Dijk · Wikimedia Commons · CC BY 2.0")],
          lectura_titulo="Cómo leerlos",
          lectura=[("Cullen", ["Sangre que sigue el ligamento falciforme hasta el ombligo."], True),
                   ("Grey Turner", ["Sangre retroperitoneal que llega al flanco."], False),
@@ -39,7 +39,7 @@ S("alarma", "RM-CIR-107", "El neumotórax a tensión se descomprime en el acto c
   "ATLS, 11.ª ed. (2025); EAST, descompresión con aguja (2022); " + SAB,
   op=("¿Inmediato?", ["No: no trata el aire pleural", "Sí: libera la tensión al instante", "No: es el paso siguiente y más lento", "No: aumenta la tensión", "No: es excesivo para el inicio"],
       {0: "Tracción costal", 1: "Descompresión con angiocatéter", 2: "Toracotomía mínima", 3: "Ventilación asistida", 4: "Toracotomía abierta"}),
-  d=dict(rotulo="Signos de alarma del neumotórax a tensión", lista_titulo="Signos de alarma", img_titulo="Rx de ejemplo: neumotórax derecho",
+  d=dict(rotulo="Signos de alarma del neumotórax a tensión", lista_titulo="Signos de alarma", img_titulo="Imagen referencial de un neumotórax a tensión",
          img=PX("tension_neumo.jpg", 330, credito="Olukorode et al. · Front Reprod Health 2026 · CC BY 4.0"),
          signos=[("Hipotensión y taquicardia", "PA 80/50", True), ("Hipoxemia", "SatO₂ 85 %", True), ("Tráquea desviada", "Hacia el lado sano", True),
                  ("Murmullo vesicular ausente", "Hemitórax izquierdo", True), ("Yugulares ingurgitadas", "Puede faltar si hay hipovolemia", None), ("Hiperresonancia a la percusión", "Del lado afectado", None), ("Enfisema subcutáneo", "Si hay fuga de aire a los tejidos", None)],
@@ -57,9 +57,9 @@ S("lectura", "RM-CIR-108", "En el politraumatizado hipotenso con anemia el prime
   "ATLS, 11.ª ed. (2025); WSES, trauma abdominal cerrado (2017); " + SCHW,
   op=("¿Estudio inicial?", ["No: es invasivo y casi no se usa", "No: no es un estudio de trauma", "Sí: rápida, a la cabecera y repetible", "No: exige traslado y estabilidad", "No: de baja sensibilidad"],
       {0: "Lavado peritoneal", 1: "Paracentesis", 2: "Ecografía abdominal", 3: "Tomografía abdominal", 4: "Radiografía de abdomen"}),
-  d=dict(rotulo="Lee la ecografía en el espacio hepatorrenal", img_titulo="FAST: espacio de Morison",
+  d=dict(rotulo="Lee la ecografía en el espacio hepatorrenal", img_titulo="Imagen referencial de una ecografía FAST",
          img=PX("fast_morison.jpg", 340),
-         pines=[], img_pie="La flecha blanca de la imagen marca el líquido libre.",
+         pines=[], img_pie="Imagen referencial de líquido libre en el espacio de Morison; la flecha blanca lo marca.",
          pasos=[("Hígado y riñón derecho", "Se ven separados por una franja; los calibres (+) miden esa franja.", False), ("Flecha blanca: líquido libre (anecoico)", "Franja negra en el espacio de Morison: hemoperitoneo.", True),
                 ("Si es inestable", "Laparotomía sin más imágenes.", False)],
          veredicto=("Hipotensión + FAST positiva = quirófano", "La TC solo se hace con el paciente estable.")))
@@ -78,9 +78,9 @@ S("triptico", "RM-CIR-112", "Una masa dolorosa bajo el ligamento inguinal con ob
       {0: "Semilunar", 1: "Inguinal estrangulada", 2: "Inguinal encarcelada", 3: "Obturatriz", 4: "Femoral estrangulada"}),
   d=dict(rotulo="Cómo se ve la hernia femoral en la tomografía",
          imgs=[(PX("hernia_fem_1.jpg", 440, credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
-                "Corte axial", ["La flecha señala la masa en la ingle, por delante de los vasos femorales (asterisco)."], True),
+                "Corte axial", ["Imagen referencial de una hernia femoral: la flecha señala la masa en la ingle, por delante de los vasos femorales (asterisco)."], True),
                (PX("hernia_fem_3.jpg", 290, credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
-                "Corte coronal", ["La flecha señala el saco herniario junto a los vasos femorales (caso con apéndice en el saco: hernia de De Garengeot)."], False)],
+                "Corte coronal", ["Imagen referencial de un saco herniario femoral: la flecha lo señala junto a los vasos (con apéndice en el saco: hernia de De Garengeot)."], False)],
          veredicto=("Masa bajo el ligamento + obstrucción = hernia femoral estrangulada", "Cirugía urgente: resecar el asa si hay necrosis y reparar el defecto.")))
 
 # 5 · LECTURA · absceso hepático (TC)
@@ -95,9 +95,9 @@ S("lectura", "RM-CIR-110", "Un absceso hepático posoperatorio con ecografía no
   "IDSA/SIS, infección intraabdominal complicada (2017, 2024); WSES (2017); " + SAB + ".",
   op=("¿Examen de elección?", ["Sí: sensible, define foco y guía el drenaje", "No: se reserva a la patología biliar", "No: alternativa si hay contraindicación", "No: de poca utilidad en los abscesos", "No: no muestra el hígado"],
       {0: "Tomografía multicorte", 1: "Colangiografía endoscópica", 2: "Resonancia magnética", 3: "Gammagrafía hepática", 4: "Radiografía de abdomen"}),
-  d=dict(rotulo="Cómo se ve el absceso en la tomografía", img_titulo="TC con contraste: absceso hepático",
+  d=dict(rotulo="Cómo se ve el absceso en la tomografía", img_titulo="Imagen referencial de un absceso hepático",
          img=PX("absceso_hep_ct.jpg", 360, credito="Paz y Mino et al. · J Med Cases 2026 · CC BY 4.0"),
-         pines=[], img_pie="La flecha verde señala la lesión; la medida (43,8 mm) viene en la imagen.",
+         pines=[], img_pie="Imagen referencial de una tomografía con absceso hepático; la flecha verde señala la lesión (43,8 mm).",
          pasos=[("Flecha verde: lesión hipodensa", "Colección dentro del hígado, de 43,8 mm según la medida de la imagen.", True), ("Busca gas y tabiques", "Orientan a anaerobios o a un absceso complejo.", False),
                 ("Siguiente paso", "Drenaje percutáneo guiado más antibióticos.", False)],
          veredicto=("Fiebre + hepatomegalia dolorosa + foco abdominal = TC", "La ecografía normal no descarta el absceso.")))
@@ -121,7 +121,7 @@ S("cuadricula", "RM-CIR-089", "En la úlcera perforada la radiografía de tórax
          veredicto=("Dolor súbito + abdomen en tabla = pedir Rx de tórax de pie", "El neumoperitoneo confirma la perforación.")),
   banda=B("Así se ve el aire libre", PX("neumoperitoneo_pmc.jpg", 340, credito="Serafio-Gómez et al. · Cureus 2026 · CC BY 4.0"),
           [("Flechas blancas: aire libre", "Franja negra bajo cada cúpula del diafragma; el aire sube cuando el paciente está de pie."), ("Si la Rx es normal y la sospecha alta", "Se pide TC: detecta aire en pequeña cantidad."),
-           ("No se pide primero", "Ecografía, amilasa ni decúbito: no confirman la perforación.")], pie="Rx de tórax de pie con neumoperitoneo bilateral"))
+           ("No se pide primero", "Ecografía, amilasa ni decúbito: no confirman la perforación.")], pie="Imagen referencial de una radiografía de tórax con neumoperitoneo bilateral"))
 
 # 8 · DOS PREGUNTAS · trauma estable con líquido mínimo
 S("dos_preguntas", "RM-CIR-121", "En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía",
@@ -158,7 +158,11 @@ S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor: alto riesgo de 
          rows=[("Alto riesgo", "Cálculo visible o bilirrubina > 4 mg/dL"), ("Riesgo intermedio", "Pruebas alteradas o edad > 55")],
          cells=[[("CPRE terapéutica", ["Extrae el cálculo"]), ("CPRE urgente + antibióticos", ["Drenaje en 24 h"])],
                 [("Ecoendoscopía o colangio-RM", ["Si confirma, CPRE"]), ("CPRE + antibióticos", ["Según gravedad de Tokio"])]],
-         caso=(0, 0), veredicto=("Ictericia + dolor + cálculos = alto riesgo: CPRE", "Luego colecistectomía laparoscópica.")))
+         caso=(0, 0), veredicto=("Ictericia + dolor + cálculos = alto riesgo: CPRE", "Luego colecistectomía laparoscópica.")),
+  clasif=dict(titulo="Riesgo de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
+              filas=[["Alto", "Cálculo en la imagen, colangitis ascendente, o bilirrubina > 4 mg/dL con colédoco dilatado", "CPRE terapéutica directa"],
+                     ["Intermedio", "Pruebas hepáticas alteradas, edad > 55 años o colédoco dilatado en la imagen", "Ecoendoscopía, colangio-RM o colangiografía intraoperatoria"],
+                     ["Bajo", "Ningún predictor anterior", "Colecistectomía laparoscópica sin más estudios"]], caso=0, ancho_primera=120))
 
 # 10 · CHECKLIST · síndrome compartimental
 S("checklist", "RM-CIR-099", "En el síndrome compartimental el edema muscular eleva la presión del compartimento",

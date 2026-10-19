@@ -126,8 +126,8 @@ S("gasometria", "RM-PED-004", "Estenosis hipertrófica del píloro: piloromiotom
          veredicto=("Alcalosis hipoclorémica = estenosis del píloro", "Se corrige antes de anestesiar; después se secciona el músculo pilórico.")),
   banda=B("Así se ve el píloro engrosado", PX("piloro.jpg", 300, credito="Laughlin Dawes · Wikimedia Commons · CC BY-SA 4.0"),
           [("La flecha roja", "Marca el músculo pilórico engrosado, hipoecoico, junto al estómago lleno de líquido."),
-           ("Imagen de referencia", "Ecografía de un lactante con estenosis del píloro."),
-           ("Criterios", "Grosor muscular ≥ 3-4 mm y canal pilórico ≥ 15-17 mm.")], pie="Ecografía: estenosis hipertrófica del píloro", rotulo="Imagen de referencia"))
+           ("Imagen referencial", "Ecografía de un lactante con estenosis del píloro."),
+           ("Criterios", "Grosor muscular ≥ 3-4 mm y canal pilórico ≥ 15-17 mm.")], pie="Imagen referencial de una estenosis hipertrófica del píloro (ecografía)", rotulo="Imagen referencial"))
 
 # OFT-002 · LECTURA · otitis externa aguda
 S("lectura", "RM-OFT-002", "Otitis externa tras natación: el agente más frecuente es Pseudomonas aeruginosa",
@@ -141,9 +141,9 @@ S("lectura", "RM-OFT-002", "Otitis externa tras natación: el agente más frecue
   "AAO-HNSF, Clinical Practice Guideline: Acute Otitis Externa (Rosenfeld, Otolaryngol Head Neck Surg 2014); Cummings Otolaryngology 7.ª ed.",
   op=("¿Agente más frecuente?", ["No: causa otitis media", "Sí: el agente típico del oído del nadador", "No: causa otitis media", "No: es el segundo agente", "No: causa faringitis, rara en el oído externo"],
       {0: "Streptococcus pneumoniae", 1: "Pseudomonas aeruginosa", 2: "Haemophilus influenzae", 3: "Staphylococcus aureus", 4: "Streptococcus pyogenes"}),
-  d=dict(rotulo="Cómo se lee un conducto auditivo con otitis externa", img_titulo="Oído con otitis externa (imagen referencial)",
+  d=dict(rotulo="Cómo se lee un conducto auditivo con otitis externa", img_titulo="Imagen referencial de un oído con otitis externa",
          img=PX("otitis_ext.jpg", 300, credito="James Heilman · Wikimedia Commons · CC BY 3.0"),
-         pines=[(0.45, 0.30), (0.22, 0.55), (0.62, 0.62)], img_pie="Imagen referencial.",
+         pines=[(0.45, 0.30), (0.22, 0.55), (0.62, 0.62)], img_pie="Imagen referencial de un conducto auditivo con otitis externa.",
          pasos=[("1. Conducto estrecho y edematoso", "La piel engrosada reduce la luz y duele al traccionar el pabellón.", False),
                 ("2. Secreción y costras", "Restos de exudado seco en la entrada del conducto.", False),
                 ("3. Piel enrojecida alrededor", "La inflamación se extiende a la concha del pabellón.", False),
@@ -170,7 +170,7 @@ S("cascada", "RM-NEF-005", "Sangre en el meato y fractura pélvica: uretrografí
          veredicto=("Sangre en el meato + fractura pélvica = uretrografía retrógrada", "Luego catéter suprapúbico y uretroplastia diferida si la lesión es completa.")))
 
 # CIR-130 · FASES · hemorroides y grado III (con foto)
-S("fases", "RM-CIR-130", "Hemorroides que se reducen con la mano: grado III de Goligher",
+S("cuadro", "RM-CIR-130", "Hemorroides que se reducen con la mano: grado III de Goligher",
   "Coloproctología · hemorroides internas",
   ("Clasificación de Goligher", ["Según el grado de prolapso de las hemorroides internas.", "No existe un grado V."]),
   ("Varón de 36 años", ["Hemorroides prolapsadas que debe reducir de forma manual.", "¿A qué grado corresponden?"]),
@@ -181,15 +181,17 @@ S("fases", "RM-CIR-130", "Hemorroides que se reducen con la mano: grado III de G
   "ASCRS, Clinical Practice Guidelines for the Management of Hemorrhoids (Davis, Dis Colon Rectum 2018); " + SAB,
   op=("¿Qué grado?", ["No: no hay prolapso", "Sí: el prolapso exige reducción manual", "No: se reduce solo", "No: no existe", "No: es permanente e irreductible"],
       {0: "I", 1: "III", 2: "II", 3: "V", 4: "IV"}),
-  d=dict(rotulo="Los cuatro grados de prolapso y su tratamiento", ans=2,
-         fases=[("Grado I", "Sin prolapso", "SOLO SANGRA", ["Sangrado rojo al defecar", "Fibra y flebotónicos"]),
-                ("Grado II", "Prolapsa y se reduce solo", "SE REDUCE SOLA", ["Sale con el pujo", "Ligadura con banda o escleroterapia"]),
-                ("Grado III", "Reducción manual", "SE REDUCE CON LA MANO", ["Es lo descrito en el caso", "Banda u hemorroidectomía"]),
-                ("Grado IV", "Irreductible", "PERMANENTE", ["Riesgo de trombosis y estrangulación", "Hemorroidectomía"])]),
+  d=dict(rotulo="Los cuatro grados de prolapso y su tratamiento",
+         veredicto=("Prolapso que se reduce con la mano = grado III", "Banda elástica u hemorroidectomía si no mejora con medidas dietéticas.")),
+  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Tratamiento"],
+              filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra, líquidos; escleroterapia o banda"],
+                     ["II", "Prolapsa al defecar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica, infrarrojos o escleroterapia"],
+                     ["III", "Prolapsa al esfuerzo", "Se reduce con la mano", "Bulto que el paciente reduce", "Banda o hemorroidectomía"],
+                     ["IV", "Prolapso permanente", "No se reduce", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2),
   banda=B("Así se ve un prolapso hemorroidal", PX("hemorroides_g3.jpg", 270, marcas=[("flecha", 0.50, 0.42, 0.74, 0.12, "Mucosa prolapsada")]),
           [("Masa de mucosa prolapsada", "Nódulos rojizos y violáceos que salen por el ano."),
-           ("Imagen de referencia", "Prolapso hemorroidal."),
-           ("Grado III", "El paciente necesita empujarlas con la mano para devolverlas al canal anal.")], pie="Hemorroides prolapsadas", rotulo="Imagen de referencia"))
+           ("Imagen referencial", "Hemorroides prolapsadas."),
+           ("Grado III", "El paciente necesita empujarlas con la mano para devolverlas al canal anal.")], pie="Imagen referencial de una hemorroide mixta prolapsada", rotulo="Imagen referencial"))
 
 # OFT-003 · MATRIZ · fractura de órbita según la pared
 S("matriz", "RM-OFT-003", "El dolor al mover el ojo en sentido horizontal sugiere fractura de la pared interna de la órbita",
@@ -224,9 +226,9 @@ S("lectura", "RM-NRL-001", "Hematoma epidural con intervalo lúcido y desplazami
   "Brain Trauma Foundation, Surgical management of acute epidural hematomas (Bullock, Neurosurgery 2006); BTF, Guidelines for Severe TBI 4.ª ed. (Carney 2017); Greenberg Handbook of Neurosurgery 10.ª ed.",
   op=("¿Conducta?", ["Sí: evacuación urgente del hematoma", "No: puente, no sustituye la cirugía", "No: solo hematomas pequeños y asintomáticos", "No: no benefician en el trauma craneal", "No: no evacúa un hematoma agudo"],
       {0: "Craneotomía descompresiva", 1: "Manitol endovenoso", 2: "Observación y TC de control", 3: "Corticoterapia sistémica", 4: "Cirugía estereotáctica"}),
-  d=dict(rotulo="Cómo se lee la tomografía de un hematoma epidural", img_titulo="TC: hematoma epidural (imagen referencial)",
+  d=dict(rotulo="Cómo se lee la tomografía de un hematoma epidural", img_titulo="Imagen referencial de un hematoma epidural en la TC",
          img=PX("epidural_derecho.jpg", 270, credito="Hellerhoff · Wikimedia Commons · CC BY-SA 4.0"),
-         pines=[(0.20, 0.45), (0.31, 0.62)], img_pie="Imagen de referencia de un hematoma del lado derecho.",
+         pines=[(0.20, 0.45), (0.31, 0.62)], img_pie="Imagen referencial de un hematoma epidural derecho.",
          pasos=[("1. Colección hiperdensa pegada al cráneo", "Sangre aguda, blanca, entre el hueso y la duramadre.", False),
                 ("2. Borde interno liso y convexo", "Forma de lente (lenticular): no cruza las suturas.", False),
                 ("3. Efecto de masa", "Si es grande, desplaza la línea media y asimetriza los ventrículos, como en el caso.", False),
@@ -291,11 +293,11 @@ S("cuadricula", "RM-CIR-132", "La causa más frecuente de obstrucción intestina
          veredicto=("Adulto con obstrucción = bridas y adherencias", "Las causas del colon y las raras (intususcepción, íleo biliar) son menos frecuentes.")),
   banda=B("Así se ve la obstrucción del delgado", PX("bridas_rx.jpg", 300,
           marcas=[("flecha", 0.20, 0.37, 0.50, 0.12, "Nivel hidroaéreo"), ("flecha", 0.30, 0.64, 0.64, 0.86, "Asa dilatada")], credito="Igboeze · Wikimedia Commons · CC BY-SA 4.0"),
-          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen de referencia", "Cuadro de obstrucción por bridas."),
-           ("Siguiente paso", "TC con contraste si hay duda o signos de estrangulación.")], pie="Rx de abdomen: obstrucción del intestino delgado", rotulo="Imagen de referencia"))
+          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen referencial", "Obstrucción intestinal por bridas."),
+           ("Siguiente paso", "TC con contraste si hay duda o signos de estrangulación.")], pie="Imagen referencial de una obstrucción del intestino delgado (Rx de abdomen)", rotulo="Imagen referencial"))
 
 # REU-001 · TERMÓMETRO · grados del acné
-S("termometro", "RM-REU-001", "En el acné grado III predomina la pústula",
+S("cuadro", "RM-REU-001", "En el acné grado III predomina la pústula",
   "Dermatología · acné juvenil por grados",
   ("Acné vulgar", ["Inflamación crónica de la unidad pilosebácea: sebo, hiperqueratinización, Cutibacterium acnes e inflamación.", "La clasificación clásica por grados sigue siendo útil en el examen."]),
   ("Pregunta de teoría", ["¿Qué lesión caracteriza al acné juvenil grado III?"]),
@@ -306,12 +308,13 @@ S("termometro", "RM-REU-001", "En el acné grado III predomina la pústula",
   "AAD, Guidelines of care for the management of acne vulgaris (Reynolds, JAAD 2024); Fitzpatrick Dermatología 9.ª ed.",
   op=("¿Lesión del grado III?", ["Sí: define el acné pustuloso", "No: corresponde al grado II", "No: corresponde al grado I", "No: corresponde al grado IV", "No: corresponde al grado IV"],
       {0: "Pústula", 1: "Pápulas", 2: "Comedones", 3: "Nódulos", 4: "Nódulo quiste"}),
-  d=dict(rotulo="Grados del acné de menor a mayor gravedad", caso_nivel=2, ruta_titulo="Lesión y manejo según el grado", paso_label="ESTE CASO",
-         niveles=[("Grado I", "Comedogénico", ["Comedones abiertos y cerrados"]), ("Grado II", "Papuloso", ["Comedones y pápulas"]),
-                  ("Grado III", "Pustuloso", ["Se suman las pústulas"]), ("Grado IV", "Nódulo-quístico", ["Nódulos y quistes; cicatrices"])],
-         pasos=[(1, "Grados I y II (leves)", ["Retinoide tópico con peróxido de benzoílo"], False),
-                (2, "Grado III (pústulas)", ["Se añade antibiótico; la pústula lo define"], True),
-                (3, "Grado IV o con cicatrices", ["Isotretinoína oral, con control de embarazo"], False)]))
+  d=dict(rotulo="Grados del acné de menor a mayor gravedad",
+         veredicto=("Grado III = pustuloso: se suman las pústulas", "Se añade antibiótico; el grado IV o con cicatrices requiere isotretinoína oral con control de embarazo.")),
+  clasif=dict(titulo="Clasificación del acné por grados", cols=["Grado", "Tipo", "Lesiones", "Manejo"],
+              filas=[["I", "Comedogénico", "Comedones abiertos y cerrados", "Retinoide tópico con peróxido de benzoílo"],
+                     ["II", "Papuloso", "Comedones y pápulas", "Retinoide tópico con peróxido de benzoílo"],
+                     ["III", "Pustuloso", "Se suman las pústulas", "Se añade antibiótico"],
+                     ["IV", "Nódulo-quístico", "Nódulos y quistes; cicatrices", "Isotretinoína oral, con control de embarazo"]], caso=2))
 
 # CB-025 · MATRIZ · receptor del tacto
 S("matriz", "RM-CB-025", "El complejo de Merkel es el receptor del tacto discriminativo",

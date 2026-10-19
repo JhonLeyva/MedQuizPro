@@ -51,9 +51,9 @@ S("lectura", "RM-INF-003", "El sarcoma de Kaposi es una neoplasia maligna causad
   "NIH/CDC/IDSA, oportunistas en adultos con VIH, sarcoma de Kaposi (2024); NCCN, cánceres asociados al VIH (2025).",
   op=("¿Característica del Kaposi?", ["No: son indoloras y sin prurito", "Sí: es una neoplasia angioproliferativa maligna", "No: sí invade la cavidad oral", "No: es frecuente en el tubo digestivo", "No: la causa es el VHH-8"],
       {0: "Lesiones dolorosas y pruriginosas", 1: "Es una neoplasia maligna", 2: "No invaden la cavidad oral", 3: "Infrecuente en el tracto digestivo", 4: "La etiología es el VIH"}),
-  d=dict(rotulo="Cómo leer las lesiones del sarcoma de Kaposi", img_titulo="Placas y nódulos violáceos (imagen referencial)",
+  d=dict(rotulo="Cómo leer las lesiones del sarcoma de Kaposi", img_titulo="Lesiones del sarcoma de Kaposi",
          img=PX("kaposi.jpg", 330, credito="Dominio público · Wikimedia Commons"),
-         pines=[(0.18, 0.32), (0.50, 0.55), (0.88, 0.85)], img_pie="Imagen referencial.",
+         pines=[(0.18, 0.32), (0.50, 0.55), (0.88, 0.85)], img_pie="Imagen referencial de placas y nódulos violáceos de sarcoma de Kaposi.",
          pasos=[("1. Lesiones violáceas", "Máculas, placas y nódulos de color rojo a morado.", False),
                 ("2. Indoloras y sin prurito", "No duelen ni pican; por eso la opción A es falsa.", False),
                 ("3. Mucosas y vísceras", "Paladar, tubo digestivo y pulmón se afectan con frecuencia.", False),
@@ -150,7 +150,14 @@ S("puntaje", "RM-NEU-006", "Neumonía comunitaria con signos de gravedad: la con
          items=[("Confusión", 1, False), ("Urea > 42 mg/dL", 1, False), ("Frecuencia respiratoria ≥ 30 por minuto", 1, True),
                 ("PA < 90/60 mmHg", 1, False), ("Edad ≥ 65 años", 1, False)],
          bandas=[("0-1", "Riesgo bajo", "Manejo ambulatorio si no hay hipoxemia.", False), ("2", "Riesgo moderado", "Hospitalizar.", False),
-                 ("3-5", "Riesgo alto", "Neumonía grave: valorar UCI.", False)]))
+                 ("3-5", "Riesgo alto", "Neumonía grave: valorar UCI.", False)]),
+  clasif=dict(titulo="Escala CURB-65: puntaje, mortalidad a 30 días y conducta", cols=["Puntaje", "Mortalidad", "Riesgo", "Conducta"],
+              filas=[["0", "0,6 %", "Bajo", "Tratamiento ambulatorio"],
+                     ["1", "2,7 %", "Bajo", "Ambulatorio si no hay hipoxemia ni otro factor; este paciente suma al menos 1"],
+                     ["2", "6,8 %", "Moderado", "Hospitalizar (sala o corta estancia)"],
+                     ["3", "14 %", "Alto", "Neumonía grave: hospitalizar"],
+                     ["4-5", "27,8 %", "Muy alto", "Valorar UCI"]], caso=1, ancho_primera=100,
+              nota="Un punto por: confusión, urea > 42 mg/dL, FR ≥ 30, PA < 90/60 y edad ≥ 65 años (Lim, Thorax 2003)."))
 
 # 9 · DOS PREGUNTAS · tricomoniasis
 S("dos_preguntas", "RM-GIN-004", "Flujo verdoso espumoso con cérvix en fresa: tricomoniasis, metronidazol 2 g en dosis única",
@@ -186,7 +193,13 @@ S("termometro", "RM-INF-007", "La tuberculosis multidrogorresistente es la resis
          niveles=[("Sensible", "Sin resistencia a isoniacida ni rifampicina", ["Esquema estándar"]), ("Hr-TB", "Resistente a isoniacida", ["Rifampicina activa"]),
                   ("MDR / RR", "Isoniacida y rifampicina", ["Esquemas de segunda línea"]), ("Pre-XDR y XDR", "MDR + quinolona (± BDQ, LZD)", ["Individualizado"])],
          pasos=[(1, "Sospechar", ["Contacto de TB-MDR o fracaso del tratamiento"], False), (2, "Prueba molecular rápida", ["Xpert MTB/RIF: detecta rifampicina"], True),
-                (3, "Pruebas de sensibilidad", ["Isoniacida, fluoroquinolona y otros"], False), (4, "Esquema de 2.ª línea", ["Según OMS, con vigilancia estrecha"], False)]))
+                (3, "Pruebas de sensibilidad", ["Isoniacida, fluoroquinolona y otros"], False), (4, "Esquema de 2.ª línea", ["Según OMS, con vigilancia estrecha"], False)]),
+  clasif=dict(titulo="Clasificación de la tuberculosis según resistencia (OMS 2021) y esquema (OMS 2022)", cols=["Categoría", "Resistencia", "Esquema"],
+              filas=[["Sensible", "Sin resistencia a isoniacida ni rifampicina", "2HRZE / 4HR"],
+                     ["Hr-TB", "Isoniacida, rifampicina sensible", "6 meses de rifampicina, etambutol, pirazinamida y levofloxacino"],
+                     ["MDR / RR-TB", "Rifampicina (con o sin isoniacida)", "BPaLM 6 meses (bedaquilina, pretomanid, linezolid, moxifloxacino)"],
+                     ["Pre-XDR-TB", "MDR/RR más fluoroquinolona", "BPaL 6 meses (sin moxifloxacino)"],
+                     ["XDR-TB", "Pre-XDR más bedaquilina o linezolid", "Esquema individualizado más prolongado"]], caso=2, ancho_primera=130))
 
 # 11 · DECISIÓN · uretritis no gonocócica
 S("decision", "RM-INF-008", "La uretritis no gonocócica la causa con mayor frecuencia Chlamydia trachomatis",
@@ -259,9 +272,9 @@ S("lectura", "RM-INF-010", "La giardiasis puede causar un síndrome pseudoulcero
   "IDSA, diarrea infecciosa (2017); CDC, giardiasis, guía clínica (2024); " + HARRISON,
   op=("¿Pseudoulceroso?", ["Sí: dolor tipo úlcera sin úlcera", "No: causa disentería", "No: es fiebre sistémica, no dispepsia", "No: causa disentería", "No: diarrea secretora acuosa"],
       {0: "Giardiasis", 1: "Amebiasis", 2: "Fiebre tifoidea", 3: "Shigellosis", 4: "Cólera"}),
-  d=dict(rotulo="Cómo leer el parásito y su cuadro", img_titulo="Trofozoíto de Giardia (imagen referencial)",
+  d=dict(rotulo="Cómo leer el parásito y su cuadro", img_titulo="Trofozoíto de Giardia",
          img=PX("giardia.jpg", 300, credito="Stefan Walkowski · Wikimedia Commons · CC BY-SA 4.0"),
-         pines=[(0.46, 0.27), (0.10, 0.40), (0.36, 0.47)], img_pie="Imagen referencial.",
+         pines=[(0.46, 0.27), (0.10, 0.40), (0.36, 0.47)], img_pie="Imagen referencial de un trofozoíto de Giardia lamblia teñido.",
          pasos=[("1. Dos núcleos", "Aspecto de «cara»: trofozoíto piriforme con dos núcleos.", False),
                 ("2. Flagelos", "Cuatro pares: el parásito es un protozoo flagelado.", False),
                 ("3. Disco ventral", "Se adhiere al duodeno y al yeyuno: dolor epigástrico y malabsorción.", True),

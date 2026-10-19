@@ -86,7 +86,11 @@ S("linea_vida", "RM-CAR-012", "El síncope de esfuerzo con soplo eyectivo en un 
   d=dict(rotulo="Edad típica de presentación según la causa (rangos orientativos)", eje=(20, 90, 10), unidad="años",
          barras=[("Válvula bicúspide", 40, 70, "Congénita, calcifica antes", False), ("Reumática", 30, 60, "Casi siempre con lesión mitral", False), ("Degenerativa calcificada", 65, 90, "La del anciano", True)],
          marcador=(80, "Paciente: 80 años"),
-         veredicto=("A los 80 años lo más probable es la calcificación degenerativa", "El ecocardiograma confirma y mide el gradiente.")))
+         veredicto=("A los 80 años lo más probable es la calcificación degenerativa", "El ecocardiograma confirma y mide el gradiente."),
+  clasif=dict(titulo="Gravedad de la estenosis aórtica por ecocardiograma (ESC/EACTS 2021, ACC/AHA 2020)", cols=["Gravedad", "Velocidad máxima", "Gradiente medio", "Área valvular"],
+              filas=[["Leve", "< 3,0 m/s", "< 20 mmHg", "> 1,5 cm²"], ["Moderada", "3,0-3,9 m/s", "20-39 mmHg", "1,0-1,5 cm²"],
+                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²"]], caso=2,
+              nota="Con síntomas y estenosis grave: cirugía o TAVI. Si el área es ≤ 1,0 cm² con gradiente bajo, pensar en flujo bajo."))
 
 # TRÍPTICO · Ogilvie
 S("triptico", "RM-CIR-027", "La seudoobstrucción del colon (Ogilvie) se relaciona con el uso sostenido de narcóticos",
@@ -99,9 +103,9 @@ S("triptico", "RM-CIR-027", "La seudoobstrucción del colon (Ogilvie) se relacio
   "ASGE, pseudoobstrucción colónica aguda (2020); WSES, obstrucción del colon (2021); Sabiston Tratado de Cirugía 21.ª ed.",
   op=("¿Fármaco?", ["Sí: opioides frenan la motilidad", "No: no alteran la motilidad", "No: producen pérdida de volumen", "No: no alteran el tránsito", "No: no son la causa clásica"], {}),
   d=dict(rotulo="Tres imágenes de colon e intestino dilatados",
-         imgs=[(PX("rm/ogilvie_tc.jpg", 270, credito="Trinidad-Pineiro · Cureus 2026 · CC BY"), "Ogilvie: colon dilatado", ["Tomografía: dilatación sin punto de obstrucción."], True),
-               (PX("rm/volvulo_ciego_tc.jpg", 240, credito="Cui · Cureus 2026 · CC BY"), "Vólvulo cecal", ["Tomografía: las flechas marcan el punto de torsión."], False),
-               (PX("ileo_rx.jpg", 240, credito="Radiopaedia · Commons · dom. público"), "Íleo en la radiografía", ["Asas con distensión difusa."], False)],
+         imgs=[(PX("rm/ogilvie_tc.jpg", 270, credito="Trinidad-Pineiro · Cureus 2026 · CC BY"), "Ogilvie: colon dilatado", ["Imagen referencial de una tomografía con colon dilatado sin punto de obstrucción."], True),
+               (PX("rm/volvulo_ciego_tc.jpg", 240, credito="Cui · Cureus 2026 · CC BY"), "Vólvulo cecal", ["Imagen referencial de un vólvulo cecal: las flechas marcan el punto de torsión."], False),
+               (PX("ileo_rx.jpg", 240, credito="Radiopaedia · Commons · dom. público"), "Íleo en la radiografía", ["Imagen referencial de una radiografía con asas de distensión difusa (íleo)."], False)],
          veredicto=("Colon dilatado sin obstáculo = Ogilvie", "Se suspende el opioide y se corrigen los electrolitos.")))
 
 # DOS PREGUNTAS · infarto inferior

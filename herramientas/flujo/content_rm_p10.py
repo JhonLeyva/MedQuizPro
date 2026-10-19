@@ -65,7 +65,7 @@ S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntom
               filas=[["Normal", "< 100 mg/dL", "< 140 mg/dL", "< 5,7 %", "Repetir cada 3 años si hay riesgo"],
                      ["Prediabetes", "100-125 mg/dL", "140-199 mg/dL", "5,7-6,4 %", "Cambios de estilo de vida; metformina en casos seleccionados"],
                      ["Diabetes", "≥ 126 mg/dL", "≥ 200 mg/dL", "≥ 6,5 %", "Confirmar si no hay síntomas y empezar el tratamiento"]],
-              caso=2, ancho_primera=130, nota="Ayuno de 126 mg/dL o más con síntomas clásicos: diagnóstico confirmado."))
+              caso=2, ancho_primera=200, nota="Ayuno de 126 mg/dL o más con síntomas clásicos: diagnóstico confirmado."))
 
 # END-024 · MATRIZ · TSH y T4
 S("matriz", "RM-END-024", "TSH elevada con T4 libre baja confirma el hipotiroidismo primario",
@@ -297,7 +297,7 @@ S("termometro", "RM-PED-005", "La complicación cardiovascular más frecuente de
                      ["Presión elevada", "≥ p90 a < p95 (o 120/80 hasta < p95)", "120/< 80 a 129/< 80 mmHg"],
                      ["Hipertensión estadio 1", "≥ p95 a < p95 + 12 mmHg (o 130/80 a 139/89)", "130/80 a 139/89 mmHg"],
                      ["Hipertensión estadio 2", "≥ p95 + 12 mmHg (o ≥ 140/90)", "≥ 140/90 mmHg"]],
-              caso=2, ancho_primera=170, nota="Este caso: niño obeso con hipertensión; se confirma en 3 visitas y se busca daño de órgano."))
+              caso=2, ancho_primera=275, nota="Este caso: niño obeso con hipertensión; se confirma en 3 visitas y se busca daño de órgano."))
 
 # END-030 · CASCADA · deficiencia de yodo
 S("cascada", "RM-END-030", "La falta de yodo sube la TSH, que hace crecer los folículos y produce bocio",

@@ -44,7 +44,7 @@ S("balanza", "RM-CIR-030", "La laparoscopía en obstrucción intestinal es segur
          veredicto=("Distensión leve = hay espacio para operar", ["Con asas muy dilatadas la aguja o el trócar pueden perforar el intestino.", "El campo visual se reduce y casi siempre hay que convertir."])),
   banda=B("Referencia: distensión marcada, mal candidato", PX("bridas_rx.jpg", 300, marcas=[("flecha", 0.20, 0.35, 0.60, 0.07, "Asas muy dilatadas")]),
           [("Asas de intestino delgado", "Calibre aumentado en todo el abdomen."), ("Niveles hidroaéreos", "Varios, a distintas alturas."), ("Conclusión", "Poco espacio: la laparoscopía es riesgosa.")],
-          pie="Radiografía referencial"))
+          pie="Imagen referencial de una radiografía de abdomen con asas de delgado muy dilatadas"))
 
 # 031 · CASCADA · manejo inicial
 S("cascada", "RM-CIR-031", "El manejo inicial de toda obstrucción intestinal es la hidratación parenteral junto con la descompresión",
@@ -123,7 +123,7 @@ S("embudo", "RM-CIR-034", "Una anciana con obstrucción y masa inguinal dolorosa
   banda=B("Referencia: radiografía de obstrucción", PX("ileo_rx.jpg", 240, credito="Radiopaedia 11177 · Wikimedia Commons · dominio público",
                                                   marcas=[("flecha", 0.28, 0.45, 0.70, 0.18, "Asas dilatadas")]),
           [("Asas distendidas", "Intestino delgado con gas."), ("Sin gas distal", "Compatible con obstrucción mecánica."), ("Qué falta", "Buscar la causa en la ingle: la hernia.")],
-          pie="Radiografía referencial"))
+          pie="Imagen referencial de una radiografía de abdomen con obstrucción intestinal"))
 
 # 035 · TERMÓMETRO · grados de hemorroides
 S("termometro", "RM-CIR-035", "Las hemorroides internas grado III se prolapsan y requieren reducción manual",
@@ -137,12 +137,17 @@ S("termometro", "RM-CIR-035", "Las hemorroides internas grado III se prolapsan y
   "ASCRS, enfermedad hemorroidal (2024); " + SCHW + "; " + SAB,
   op=("¿Reducción manual?", ["No: se reduce solo", "No: no se puede reducir", "Sí: sale y se reduce con la mano", "No: no prolapsa", "No: no existe en la clasificación"],
       {0: "Grado II", 1: "Grado IV", 2: "Grado III", 3: "Grado I", 4: "Grado V"}),
-  d=dict(rotulo="Grados de Goligher de menor a mayor prolapso", caso_nivel=2, ruta_titulo="Tratamiento sugerido según el grado", paso_label="ESTE CASO",
+  d=dict(rotulo="Grados de Goligher de menor a mayor prolapso", caso_nivel=2, ruta_titulo="Antes de tratar como hemorroides", paso_label="ESTE CASO",
          niveles=[("Grado I", "No prolapsa", ["Sangra con las heces"]), ("Grado II", "Se reduce solo", ["Sale al defecar"]),
                   ("Grado III", "Se reduce con la mano", ["Al defecar"]), ("Grado IV", "Siempre prolapsada", ["No se puede reducir"])],
-         pasos=[(1, "Grados I y II", ["Fibra, líquidos, flebotónicos y ligadura con banda"], False),
-                (2, "Grado III", ["Ligadura, hemorroidopexia o hemorroidectomía"], True),
-                (3, "Grado IV o trombosada", ["Hemorroidectomía"], False)]))
+         pasos=[(1, "Rectorragia en mayor de 45 años", ["Colonoscopía antes de atribuirla a hemorroides"], False),
+                (2, "Prolapso que se reduce con la mano", ["Grado III: es lo que describe el caso"], True),
+                (3, "Dolor intenso con masa azulada", ["Trombosis hemorroidal: tratamiento aparte"], False)]),
+  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Tratamiento"],
+              filas=[["I", "No prolapsa; sangra", "—", "Fibra, líquidos, flebotónicos; ligadura con banda"],
+                     ["II", "Sale al defecar", "Se reduce solo", "Fibra, flebotónicos; ligadura con banda"],
+                     ["III", "Sale al defecar o esforzarse", "Se reduce con la mano", "Ligadura, hemorroidopexia o hemorroidectomía"],
+                     ["IV", "Prolapso permanente", "No se reduce", "Hemorroidectomía"]], caso=2, ancho_primera=130))
 
 # 036 · DECISIÓN · patrón colestásico
 S("decision", "RM-CIR-036", "La obstrucción de la vía biliar eleva la fosfatasa alcalina y la gamma glutamil transferasa",
@@ -177,7 +182,7 @@ S("lectura", "RM-CIR-037", "Una masa inguinocrural bajo el ligamento inguinal, p
       {0: "Hernia inguinal incarcerada", 1: "Adenomegalia inguinal infartada", 2: "Hernia crural incarcerada", 3: "Lipoma inguinal incarcerado", 4: "Hernia crural estrangulada"}),
   d=dict(rotulo="Cómo se ve una hernia femoral en la tomografía", img_titulo="TC axial de la ingle derecha",
          img=PX("hernia_fem_1.jpg", 400, credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
-         pines=[], img_pie="La flecha blanca marca la masa herniada y el asterisco los vasos femorales; la masa queda por delante de ellos.",
+         pines=[], img_pie="Imagen referencial de una hernia femoral en TC. La flecha blanca marca la masa herniada y el asterisco los vasos femorales; la masa queda por delante de ellos.",
          pasos=[("Ubicar el ligamento inguinal", "La masa está por debajo y por dentro de la vena femoral: hernia crural.", True),
                 ("Buscar signos de estrangulación", "Piel eritematosa, fiebre, leucocitosis o lactato alto; en este caso no hay.", False),
                 ("Operar de forma programada pronto", "Reparación por vía inguinal, femoral o laparoscópica según el caso.", False)],
@@ -272,7 +277,13 @@ S("radial", "RM-CIR-042", "La hemorragia activa la vasoconstricción y la libera
   d=dict(rotulo="Reacciones a la pérdida aguda de sangre", centro="HEMORRAGIA", centro_sub="cae el volumen y la presión", ans=0,
          items=[("VASOCONSTRICCIÓN Y ADRENALINA", ["Segundos: sangre hacia órganos vitales"]), ("TAQUICARDIA", ["Más gasto cardiaco y contractilidad"]),
                 ("RENINA, ALDOSTERONA Y ADH", ["Minutos a horas: retienen sodio y agua"]), ("PASO DE LÍQUIDO AL PLASMA", ["Horas: del intersticio al vaso"])],
-         ruta=["Barorreceptores detectan la caída", "Descarga simpática inmediata", "Vasoconstricción y taquicardia", "Luego, hormonas retienen agua"]))
+         ruta=["Barorreceptores detectan la caída", "Descarga simpática inmediata", "Vasoconstricción y taquicardia", "Luego, hormonas retienen agua"]),
+  clasif=dict(titulo="Clases de hemorragia (ATLS)", cols=["Clase", "Pérdida de sangre", "Frecuencia cardiaca", "Presión arterial", "Diuresis", "Conducta"],
+              filas=[["I", "< 15 % (< 750 mL)", "Normal", "Normal", "> 30 mL/h", "Observar; cristaloides si hace falta"],
+                     ["II", "15-30 % (750-1 500 mL)", "100-120", "Normal; pulso estrecho", "20-30 mL/h", "Cristaloides; vigilar; transfusión posible"],
+                     ["III", "30-40 % (1 500-2 000 mL)", "120-140", "Baja", "5-15 mL/h", "Transfusión y control del sangrado"],
+                     ["IV", "> 40 % (> 2 000 mL)", "> 140", "Muy baja", "Mínima", "Transfusión masiva y cirugía inmediata"]],
+              caso=None, ancho_primera=70, nota="Valores del ATLS para un adulto de 70 kg; la hipotensión aparece recién desde la clase III."))
 
 # 043 · MATRIZ · hematoma retroperitoneal por zonas
 S("matriz", "RM-CIR-043", "El hematoma retroperitoneal de zona II no pulsátil por trauma cerrado se observa",
