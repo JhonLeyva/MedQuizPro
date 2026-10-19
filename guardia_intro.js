@@ -63,7 +63,7 @@
     var el = document.createElement("section");
     el.className = "gi" + (rm ? " gi--rm" : ""); el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Introducción a Sobrevive a la Guardia");
     el.innerHTML =
-      '<div class="gi-fondo" aria-hidden="true"><div class="gi-cam">' + ESCENA + '<div class="gi-foto" id="giFoto"></div></div></div>' +
+      '<div class="gi-fondo" aria-hidden="true"><div class="gi-cam">' + ESCENA + '<div class="gi-foto" id="giFoto"><div class="gi-lienzo"><img class="gi-img" alt="" decoding="async"><span class="gi-derrame"></span><span class="gi-neon"></span></div></div></div></div>' +
       '<div class="gi-vineta" aria-hidden="true"></div><div class="gi-grano" aria-hidden="true"></div>' +
       '<p class="gi-marca" id="giMarca">MEDQUIZPRO · SIMULACIÓN CLÍNICA</p>' +
       '<div class="gi-texto" aria-live="polite">' +
@@ -79,7 +79,7 @@
     var prev = document.activeElement, timers = [], cerrado = false;
 
     /* fotografía opcional (se usa solo si el archivo existe) */
-    var im = new Image(); im.onload = function () { var f = el.querySelector("#giFoto"); if (f) { f.style.backgroundImage = 'url("' + FOTO + '")'; el.classList.add("gi--foto"); } }; im.src = FOTO;
+    var im = new Image(); im.onload = function () { var f = el.querySelector(".gi-img"); if (f) { f.src = FOTO; el.classList.add("gi--foto"); } }; im.src = FOTO;
 
     function T(ms, fn) { timers.push(setTimeout(fn, ms)); }
     function clase(c) { el.classList.add(c); }
