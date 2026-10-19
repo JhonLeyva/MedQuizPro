@@ -15,17 +15,17 @@ Banco RM del PDF "Banco comentado – Residentado Médico Perú 2014-2019 (Estud
 
 ## Hecho
 - Lotes 1-3 (300 preguntas + 300 flujogramas) en bancos/*.json, flujogramas/ y algoritmos.js (registrados).
-- 4 ejemplos con cuadro de clasificación (RM-CIR-074 Goligher, RM-CIR-118 Hinchey/Kaiser, TRA-057 Graf, RM-CIR-085 Todani) enviados al usuario: ESPERAN SU APROBACIÓN.
+- 4 ejemplos con cuadro de clasificación (RM-CIR-074 Goligher, RM-CIR-118 Hinchey/Kaiser, TRA-057 Graf, RM-CIR-085 Todani) enviados al usuario: APROBADOS por el usuario.
 - Lote 4: preguntas en el banco; módulos content_rm_p13…p18 (los 6 terminados, 0 problemas en check27) ya están en herramientas/flujo/; falta ensamblar, registrar y aplicar la regla de cuadro de clasificación.
 - Lote 5: 4 archivos residentado/lotes/lote05a-d.py con fuentes verificadas; AÚN NO integrados al banco.
 
 ## Pendiente (en orden)
-1. Preguntar al usuario si aprobó los 4 ejemplos de cuadro de clasificación.
+1. (Hecho) El usuario aprobó los 4 ejemplos de cuadro.
 2. Reconvertir las clasificaciones de los ~300-400 flujogramas ya hechos a `clasif` y normalizar pies "Imagen referencial…"; auditar lote 1 (criterios/escalas/banderas rojas).
 3. Ensamblar lote 4 (p13-p18), `check27.cjs`, registrar ("Residentado Médico · lote 4").
 4. Integrar lote 5: `python3 residentado/integrar.py lote05a --aplicar` (uno por uno, sin pipes a head), luego flujogramas (~100 IDs) y registro.
 5. Subir `?v=` en index.html/app/index.html, commit y push.
-6. Decisión abierta del usuario: publicar lotes ya (merge a main + subida manual a Hostinger: bancos/, flujogramas/, algoritmos.js, catalogo.js, index.html, app/index.html) o esperar a los 5 lotes. No abrir PR salvo que lo pida.
+6. DECIDIDO: el usuario eligió ESPERAR a terminar los 5 lotes antes de publicar. Opciones de publicación: publicar lotes ya (merge a main + subida manual a Hostinger: bancos/, flujogramas/, algoritmos.js, catalogo.js, index.html, app/index.html) o esperar a los 5 lotes. No abrir PR salvo que lo pida.
 
 ## Dudas clínicas anotadas (claves no cambiadas)
 Loxoscelismo lote05a (24 h vs 6 h), neumonía ambulatoria (amoxicilina no ofrecida), ceftriaxona 250 mg vs 500 mg, malaria NTS 233-2025 vs 054, RM-CIR-125/076/081/084, RM-INF-031 (ELISA 3-4 vs 2-4 sem), RM-NEU-012 (Anthonisen sin esputo).
