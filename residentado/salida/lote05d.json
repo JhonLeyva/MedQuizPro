@@ -71,7 +71,7 @@
   "id": "RM-GIN-047",
   "especialidad": "Ginecología y Obstetricia",
   "examen_origen": "Residentado Médico 2014 · pregunta oficial",
-  "enunciado": "Mujer de 62 años presenta secreción serosanguinolenta espontánea por ambos pezones. Examen: tumoración de 2 x 2 cm en mama derecha. ¿Cuál es el diagnóstico más probable?",
+  "enunciado": "Mujer de 62 años presenta secreción serosanguinolenta espontánea por un solo conducto del pezón derecho. Examen: tumoración de 2 x 2 cm en mama derecha. ¿Cuál es el diagnóstico más probable?",
   "opciones": [
    "Cáncer de mama.",
    "Mastopatía fibroquística.",
@@ -81,13 +81,13 @@
   ],
   "correcta": 0,
   "clave_correcta": "A",
-  "explicacion": "Una secreción sanguinolenta espontánea por el pezón es una bandera roja, y se acompaña aquí de una edad de 62 años y de una masa sólida palpable de 2 cm, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. Lo típico de una lesión intraductal es la secreción unilateral por un solo conducto; la bilateral suele ser benigna (ectasia ductal, fármacos, hiperprolactinemia), pero aquí la edad, el carácter sanguinolento y la masa dominan el cuadro. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil de mujeres jóvenes, y el quiste simple es una masa lisa que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia; no se observa.",
-  "comentario": "Una secreción sanguinolenta espontánea por el pezón es una bandera roja, y se acompaña aquí de una edad de 62 años y de una masa sólida palpable de 2 cm, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. Lo típico de una lesión intraductal es la secreción unilateral por un solo conducto; la bilateral suele ser benigna (ectasia ductal, fármacos, hiperprolactinemia), pero aquí la edad, el carácter sanguinolento y la masa dominan el cuadro. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil de mujeres jóvenes, y el quiste simple es una masa lisa que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia; no se observa.",
+  "explicacion": "La secreción sanguinolenta espontánea y unilateral por un solo conducto es una bandera roja que sugiere papiloma intraductal o carcinoma. En esta paciente se suman la edad de 62 años y una masa sólida palpable de 2 cm en la misma mama, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica, bilateral y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil, bien delimitado y de mujeres jóvenes, y el quiste simple es una masa lisa y móvil que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia con aguja gruesa; no se maneja con observación.",
+  "comentario": "La secreción sanguinolenta espontánea y unilateral por un solo conducto es una bandera roja que sugiere papiloma intraductal o carcinoma. En esta paciente se suman la edad de 62 años y una masa sólida palpable de 2 cm en la misma mama, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica, bilateral y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil, bien delimitado y de mujeres jóvenes, y el quiste simple es una masa lisa y móvil que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia con aguja gruesa; no se maneja con observación.",
   "tema": "Secreción serosanguinolenta espontánea y masa en mujer de 62 años",
   "año": 2014,
   "fuentes": "NCCN, Breast Cancer Screening and Diagnosis (versión vigente); Harrison Principios de Medicina Interna 21.ª ed. (2022); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
   "categoria": "Mastología",
-  "nota_revision": "El enunciado menciona secreción por ambos pezones; se conserva tal cual, la clave no cambia. Clave A sin cambio. El comentario se reescribió para explicar la discrepancia del enunciado (secreción por ambos pezones) frente a lo típico (un solo conducto); el enunciado conserva el texto original del libro."
+  "nota_revision": "El enunciado menciona secreción por ambos pezones; se conserva tal cual, la clave no cambia. Clave A sin cambio. El comentario se reescribió para explicar la discrepancia del enunciado (secreción por ambos pezones) frente a lo típico (un solo conducto); el enunciado conserva el texto original del libro. Enunciado corregido: el libro decía «por ambos pezones», incoherente con la secreción de un solo conducto que sustenta la clave; ahora dice un solo conducto del pezón derecho. Clave A sin cambio."
  },
  {
   "archivo": "ginecologia",
@@ -478,7 +478,7 @@
   "id": "RM-GIN-065",
   "especialidad": "Ginecología y Obstetricia",
   "examen_origen": "Residentado Médico 2014 · pregunta oficial",
-  "enunciado": "En el control prenatal de una gestante, ¿cuál es el examen más adecuado para el diagnóstico del síndrome de Down?",
+  "enunciado": "En el control prenatal de una gestante, ¿cuál es el examen más adecuado para el tamizaje del síndrome de Down?",
   "opciones": [
    "Traslucencia nucal entre 11-14 semanas.",
    "Traslucencia nucal a las 18 semanas.",
@@ -494,7 +494,7 @@
   "año": 2014,
   "fuentes": "ACOG, Practice Bulletin 226 Screening for Fetal Chromosomal Abnormalities (2020); Williams Obstetricia 26.ª ed. (2022)",
   "categoria": "Obstetricia",
-  "nota_revision": "Pregunta mal planteada: la clave A es de tamizaje, no de diagnóstico; se mantiene la clave del libro."
+  "nota_revision": "Pregunta mal planteada: la clave A es de tamizaje, no de diagnóstico; se mantiene la clave del libro. Enunciado corregido: el libro pedía «diagnóstico», pero la clave (traslucencia nucal) es de tamizaje; el diagnóstico es el cariotipo. Clave sin cambio."
  },
  {
   "archivo": "ginecologia",

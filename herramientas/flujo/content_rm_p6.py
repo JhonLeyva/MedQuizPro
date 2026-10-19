@@ -213,21 +213,21 @@ S("reloj", "RM-CIR-123", "Obstrucción adherencial sin alarma: observación, son
          veredicto=("Sin alarma = observación, SNG e hidratación", "Se opera si hay estrangulación o no mejora a las 72 h.")))
 
 # 125 · PUNTAJE · apendicitis en el anciano
-S("puntaje", "RM-CIR-125", "Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía",
+S("puntaje", "RM-CIR-125", "Apendicitis en el anciano con Alvarado de 6 (riesgo intermedio): se pide tomografía antes de operar",
   "Apendicitis aguda · paciente anciano",
   ("Apendicitis en el anciano", ["Es oligosintomática: más diagnóstico tardío, más perforación (30-50 %) y más mortalidad.", "La tomografía descarta neoplasia de ciego, diverticulitis o isquemia."]),
   ("Varón de 86 años", ["96 h de dolor en cuadrante inferior derecho, náuseas e hiporexia; T 37,5 °C, FC 100.", "McBurney y Blumberg (−); leucocitos 10 000 con 8 % de abastonados."]),
-  ["Alvarado: dolor en fosa ilíaca derecha 2, anorexia 1, náuseas 1, fiebre 1, desviación izquierda 1 = 6 puntos (probabilidad intermedia-alta).",
-   "En el anciano la clínica y el hemograma subestiman la enfermedad: 96 h de dolor persistente justifican operar.",
-   "La TC es útil si hay duda diagnóstica (WSES 2020), pero no debe retrasar la cirugía cuando la sospecha es alta.",
+  ["Alvarado: dolor en fosa ilíaca derecha 2, anorexia 1, náuseas 1, fiebre 1, desviación izquierda 1 = 6 puntos (probabilidad intermedia).",
+   "En el anciano la clínica y el hemograma subestiman la enfermedad; con McBurney y Blumberg negativos y riesgo intermedio, WSES 2020 pide imagen.",
+   "La TC confirma la apendicitis y descarta neoplasia de ciego, diverticulitis o isquemia; la apendicectomía directa queda para Alvarado alto o peritonitis.",
    "La antibioticoterapia sola tiene más recurrencia y fallas en esta población."],
   "WSES, Jerusalem, apendicitis aguda (2020); EsSalud-IETSI, GPC de apendicitis aguda (2022); " + SAB,
-  op=("¿Conducta?", ["Sí: sospecha alta y 96 h de evolución", "No: más fallas y recurrencias en el anciano", "No: útil si hay duda, pero retrasa", "No: es un estudio útil, no la conducta definitiva", "No: no es el estudio de rutina"],
+  op=("¿Conducta?", ["No: riesgo intermedio; falta confirmar con imagen", "No: más fallas y recurrencias en el anciano", "Sí: riesgo intermedio en el anciano, la TC confirma y descarta otras causas", "No: rinde menos que la TC en el anciano", "No: no es el estudio de rutina"],
       {0: "Apendicectomía", 1: "Antibioticoterapia y observación", 2: "Tomografía abdominal", 3: "Ecografía abdominal", 4: "Resonancia magnética"}),
   d=dict(rotulo="Qué tan probable es la apendicitis (Alvarado)", escala="Escala de Alvarado (MANTRELS)",
          items=[("Migración del dolor a la fosa ilíaca derecha", 1, False), ("Anorexia", 1, True), ("Náuseas o vómitos", 1, True), ("Dolor a la palpación en fosa ilíaca derecha", 2, True),
                 ("Rebote (Blumberg)", 1, False), ("Fiebre ≥ 37,3 °C", 1, True), ("Leucocitosis > 10 000", 2, False), ("Desviación izquierda (abastonados)", 1, True)],
-         total=6, max=10, interpreta="Probabilidad intermedia-alta",
+         total=6, max=10, interpreta="Probabilidad intermedia",
          bandas=[("0-4", "Baja", "Observar y reevaluar; en el anciano pedir TC", False),
-                 ("5-6", "Intermedia-alta", "En el anciano con 96 h y desviación izquierda: apendicectomía; TC si hay duda", True),
+                 ("5-6", "Intermedia", "Pedir imagen (TC en el anciano) antes de operar", True),
                  ("7-10", "Alta", "Apendicectomía", False)]))

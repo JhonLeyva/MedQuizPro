@@ -50,23 +50,25 @@
   "id": "RM-GIN-011",
   "especialidad": "Ginecología y Obstetricia",
   "examen_origen": "Residentado Médico 2016 · pregunta oficial",
-  "enunciado": "Durante el control prenatal, una gestante diagnosticada de VIH por primera vez. ¿En qué semana de edad gestacional se inicia la terapia antirretroviral triple?",
+  "enunciado": "Durante el control prenatal, una gestante es diagnosticada de VIH por primera vez. ¿Cuándo se inicia la terapia antirretroviral triple?",
   "opciones": [
    "14.",
    "10.",
    "12.",
    "20.",
-   "22."
+   "Iniciarla lo antes posible tras el diagnóstico, sin esperar una edad gestacional."
   ],
-  "correcta": 2,
-  "clave_correcta": "C",
-  "explicacion": "El objetivo del tratamiento antirretroviral en la gestante es suprimir la carga viral lo antes posible, porque el riesgo de transmisión vertical, que sin intervención llega a 15-45 %, baja a menos de 1 % con carga viral indetectable. En el contexto de la norma peruana a partir de 2019 se indicaba iniciar el esquema triple desde la semana 12, y el cuestionario de 2016 consideraba la semana 14 de la norma previa. Las guías actuales (DHHS 2024 y OMS) van más allá: se inicia apenas se confirma el diagnóstico, sin esperar edad gestacional, con tenofovir, emtricitabina o lamivudina y dolutegravir. Las semanas 20 y 22 retrasan la supresión viral y las semanas 10 y 7 no corresponden a la norma. Perla: el tamizaje se repite en el tercer trimestre y en el parto si no se hizo, y la carga viral se mide a las 34-36 semanas.",
-  "comentario": "El objetivo del tratamiento antirretroviral en la gestante es suprimir la carga viral lo antes posible, porque el riesgo de transmisión vertical, que sin intervención llega a 15-45 %, baja a menos de 1 % con carga viral indetectable. En el contexto de la norma peruana a partir de 2019 se indicaba iniciar el esquema triple desde la semana 12, y el cuestionario de 2016 consideraba la semana 14 de la norma previa. Las guías actuales (DHHS 2024 y OMS) van más allá: se inicia apenas se confirma el diagnóstico, sin esperar edad gestacional, con tenofovir, emtricitabina o lamivudina y dolutegravir. Las semanas 20 y 22 retrasan la supresión viral y las semanas 10 y 7 no corresponden a la norma. Perla: el tamizaje se repite en el tercer trimestre y en el parto si no se hizo, y la carga viral se mide a las 34-36 semanas.",
+  "correcta": 4,
+  "clave_correcta": "E",
+  "explicacion": "En la gestante con VIH el objetivo es suprimir la carga viral cuanto antes: el riesgo de transmisión vertical, de 15 a 45 % sin intervención, baja a menos de 1 % con carga viral indetectable al parto. Por eso las guías vigentes (DHHS 2024, OMS 2021) indican iniciar el esquema triple apenas se confirma el diagnóstico, sin esperar una edad gestacional, preferentemente con dolutegravir más dos inhibidores nucleósidos (tenofovir con lamivudina o emtricitabina); el Perú adoptó la estrategia de tratar a toda persona con diagnóstico nuevo. Esperar a la semana 10, 12, 14, 20 o 22, como planteaban normas antiguas, retrasa la supresión viral y aumenta el riesgo para el hijo. Perla: se mide la carga viral a las 2-4 semanas de iniciar y a las 34-36 semanas, que decide la vía del parto (cesárea electiva si es mayor de 1000 copias/mL); se repite el tamizaje en el tercer trimestre.",
+  "comentario": "En la gestante con VIH el objetivo es suprimir la carga viral cuanto antes: el riesgo de transmisión vertical, de 15 a 45 % sin intervención, baja a menos de 1 % con carga viral indetectable al parto. Por eso las guías vigentes (DHHS 2024, OMS 2021) indican iniciar el esquema triple apenas se confirma el diagnóstico, sin esperar una edad gestacional, preferentemente con dolutegravir más dos inhibidores nucleósidos (tenofovir con lamivudina o emtricitabina); el Perú adoptó la estrategia de tratar a toda persona con diagnóstico nuevo. Esperar a la semana 10, 12, 14, 20 o 22, como planteaban normas antiguas, retrasa la supresión viral y aumenta el riesgo para el hijo. Perla: se mide la carga viral a las 2-4 semanas de iniciar y a las 34-36 semanas, que decide la vía del parto (cesárea electiva si es mayor de 1000 copias/mL); se repite el tamizaje en el tercer trimestre.",
   "tema": "VIH en gestante: semana de inicio del TARV",
   "año": 2016,
-  "fuentes": "NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Perinatal HIV Guidelines (2024); OMS, Guías consolidadas de VIH (2021)",
+  "fuentes": [
+   "MINSA, NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); MINSA, NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States (2024); OMS, Consolidated guidelines on HIV (2021)"
+  ],
   "categoria": "VIH y gestación",
-  "nota_revision": "El libro lo da sin respuesta (opciones 14, 10, 7, 20, 22). Se reconstruye con la opción 12, igual que el bloque equivalente RM 2017, ya que la norma de 2019 fijaba la semana 12; las guías DHHS 2024 y OMS indican iniciar de inmediato (no se pudo contrastar el texto de la NTS 169-2020 sobre este punto)."
+  "nota_revision": "El libro lo da sin respuesta (opciones 14, 10, 7, 20, 22). Se reconstruye con la opción 12, igual que el bloque equivalente RM 2017, ya que la norma de 2019 fijaba la semana 12; las guías DHHS 2024 y OMS indican iniciar de inmediato (no se pudo contrastar el texto de la NTS 169-2020 sobre este punto). Clave del libro: C (semana 12, norma peruana de 2019); corregida a E (inicio inmediato) según DHHS 2024 y OMS 2021, que indican iniciar lo antes posible; no se pudo contrastar el texto de la NTS 169-2020. La opción E original (semana 22) se reemplazó."
  },
  {
   "archivo": "ginecologia",
@@ -208,23 +210,25 @@
   "id": "RM-GIN-016",
   "especialidad": "Ginecología y Obstetricia",
   "examen_origen": "Residentado Médico 2017 · pregunta oficial",
-  "enunciado": "Gestante con VIH positivo diagnosticada durante el control prenatal. La terapia antirretroviral triple se debe iniciar desde las ... semanas.",
+  "enunciado": "Gestante con VIH positivo diagnosticada durante el control prenatal. ¿Cuándo se debe iniciar la terapia antirretroviral triple?",
   "opciones": [
    "14.",
    "11.",
    "12.",
    "13.",
-   "10."
+   "Iniciarla lo antes posible tras el diagnóstico, sin esperar una edad gestacional."
   ],
-  "correcta": 2,
-  "clave_correcta": "C",
-  "explicacion": "La gestante con VIH tiene un riesgo de transmisión vertical de 15-45 % sin tratamiento, que se reduce a menos de 1 % cuando la carga viral se hace indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico. La norma peruana de 2019 que sustentaba esta pregunta fijó la semana 12 como inicio con el esquema tenofovir, emtricitabina y raltegravir, en lugar de las 14 semanas de la norma previa. Las guías actuales (DHHS 2024 y OMS) llegan más lejos y recomiendan empezar lo antes posible tras el diagnóstico, sin esperar una edad gestacional, con un esquema que incluye dolutegravir. Las opciones 10, 11 y 13 no corresponden a ninguna norma. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema si logra supresión viral.",
-  "comentario": "La gestante con VIH tiene un riesgo de transmisión vertical de 15-45 % sin tratamiento, que se reduce a menos de 1 % cuando la carga viral se hace indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico. La norma peruana de 2019 que sustentaba esta pregunta fijó la semana 12 como inicio con el esquema tenofovir, emtricitabina y raltegravir, en lugar de las 14 semanas de la norma previa. Las guías actuales (DHHS 2024 y OMS) llegan más lejos y recomiendan empezar lo antes posible tras el diagnóstico, sin esperar una edad gestacional, con un esquema que incluye dolutegravir. Las opciones 10, 11 y 13 no corresponden a ninguna norma. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema si logra supresión viral.",
+  "correcta": 4,
+  "clave_correcta": "E",
+  "explicacion": "La gestante con VIH tiene un riesgo de transmisión vertical de 15 a 45 % sin tratamiento, que cae a menos de 1 % cuando la carga viral es indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico, sin esperar una edad gestacional: así lo recomiendan DHHS 2024 y OMS 2021, con un esquema que incluye dolutegravir, y es coherente con la estrategia peruana de tratar a toda persona con diagnóstico nuevo. Las semanas 10, 11, 12, 13 y 14 corresponden a normas previas que fijaban un plazo y retrasan la supresión viral. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema cuando hay supresión viral; la carga viral se controla a las 2-4 semanas de iniciar, mensualmente hasta ser indetectable y a las 34-36 semanas.",
+  "comentario": "La gestante con VIH tiene un riesgo de transmisión vertical de 15 a 45 % sin tratamiento, que cae a menos de 1 % cuando la carga viral es indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico, sin esperar una edad gestacional: así lo recomiendan DHHS 2024 y OMS 2021, con un esquema que incluye dolutegravir, y es coherente con la estrategia peruana de tratar a toda persona con diagnóstico nuevo. Las semanas 10, 11, 12, 13 y 14 corresponden a normas previas que fijaban un plazo y retrasan la supresión viral. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema cuando hay supresión viral; la carga viral se controla a las 2-4 semanas de iniciar, mensualmente hasta ser indetectable y a las 34-36 semanas.",
   "tema": "VIH en gestante: inicio de TARV",
   "año": 2017,
-  "fuentes": "NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Perinatal HIV Guidelines (2024)",
+  "fuentes": [
+   "MINSA, NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); MINSA, NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States (2024); OMS, Consolidated guidelines on HIV (2021)"
+  ],
   "categoria": "VIH y gestación",
-  "nota_revision": "Se mantiene la misma clave (12) que en RM 2016 #33, por coherencia con la norma de 2019 citada por el libro; las guías DHHS 2024 y OMS recomiendan inicio inmediato (texto de la NTS 169-2020 no contrastado)."
+  "nota_revision": "Se mantiene la misma clave (12) que en RM 2016 #33, por coherencia con la norma de 2019 citada por el libro; las guías DHHS 2024 y OMS recomiendan inicio inmediato (texto de la NTS 169-2020 no contrastado). Clave del libro: C (semana 12, norma peruana de 2019); corregida a E (inicio inmediato) según DHHS 2024 y OMS 2021; no se pudo contrastar el texto de la NTS 169-2020. La opción E original (semana 10) se reemplazó."
  },
  {
   "archivo": "neumologia",

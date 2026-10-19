@@ -146,7 +146,7 @@ S("embudo", "RM-CIR-096", "En ictericia leve con litiasis vesicular (riesgo inte
   clasif=dict(titulo="Probabilidad de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
               filas=[["Alto", "Cálculo en imagen, colangitis ascendente, o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa con esfinterotomía"],
                      ["Intermedio", "Hepatograma alterado, edad > 55 años o colédoco dilatado en imagen", "Colangiorresonancia, ecoendoscopia o colangiografía/ecografía intraoperatoria"],
-                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=175, nota="El caso (ictericia leve sin fiebre, ni cálculo ni bilirrubina > 4 mg/dL descritos) es riesgo intermedio; pasa a alto si la imagen muestra el cálculo o hay colangitis. La clave corregida es la ecografía endoscópica."))
+                     ["Bajo", "Ningún criterio", "Colecistectomía sin más estudios de la vía biliar"]], caso=1, ancho_primera=175, nota="Caso: ictericia leve, sin fiebre, cálculo ni bilirrubina > 4 mg/dL descritos = riesgo intermedio. Clave: ecografía endoscópica."))
 
 # 8 · CHECKLIST · fisura crónica
 S("checklist", "RM-CIR-097", "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",

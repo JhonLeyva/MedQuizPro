@@ -409,7 +409,7 @@ S("carriles", "RM-CIR-136", "Colangitis aguda con hipotensión y coledocolitiasi
   ("Colangitis aguda", ["Infección de la vía biliar obstruida: tríada de Charcot (fiebre, ictericia y dolor) y pentada de Reynolds con hipotensión y alteración del sensorio.", "Es una urgencia por el riesgo de sepsis."]),
   ("Mujer diabética de 45 años", ["Dolor en hipocondrio derecho, fiebre e ictericia de 4 días.", "PA 90/60, pulso 110, T 39 °C; ecografía con colelitiasis y coledocolitiasis."]),
   ["Diagnóstico Tokio 2018: un criterio de inflamación (fiebre o leucocitos) más uno de colestasis (ictericia o enzimas) más uno de imagen (dilatación o causa) es definitivo.",
-   "Hipotensión y taquicardia: grado II o III; se reanima, se da antibiótico de amplio espectro y se drena la vía biliar de urgencia.",
+   "Hipotensión y taquicardia sin vasopresor: al menos grado II (el III exige vasopresor u otra falla de órgano); se reanima, se da antibiótico de amplio espectro y se drena la vía biliar de urgencia.",
    "El drenaje de elección es la CPRE con esfinterotomía y extracción de cálculos o colocación de una endoprótesis; la cirugía abierta aumenta la mortalidad en el séptico.",
    "Colecistostomía drena la vesícula, no la vía biliar. Diabetes y shock son factores de mal pronóstico; la colecistectomía se hace tras resolver la sepsis."],
   "Tokyo Guidelines 2018, criterios y gravedad (J Hepatobiliary Pancreat Sci 2018;25:17-30) y manejo inicial (25:31-40); ASGE, coledocolitiasis (Gastrointest Endosc 2019;89:1075-1105); EsSalud-IETSI, GPC N.º 11 (2018); " + SABISTON21,

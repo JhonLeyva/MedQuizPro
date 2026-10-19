@@ -5632,23 +5632,25 @@
       "id": "RM-GIN-011",
       "especialidad": "Ginecología y Obstetricia",
       "examen_origen": "Residentado Médico 2016 · pregunta oficial",
-      "enunciado": "Durante el control prenatal, una gestante diagnosticada de VIH por primera vez. ¿En qué semana de edad gestacional se inicia la terapia antirretroviral triple?",
+      "enunciado": "Durante el control prenatal, una gestante es diagnosticada de VIH por primera vez. ¿Cuándo se inicia la terapia antirretroviral triple?",
       "opciones": [
         "14.",
         "10.",
         "12.",
         "20.",
-        "22."
+        "Iniciarla lo antes posible tras el diagnóstico, sin esperar una edad gestacional."
       ],
-      "correcta": 2,
-      "clave_correcta": "C",
-      "explicacion": "El objetivo del tratamiento antirretroviral en la gestante es suprimir la carga viral lo antes posible, porque el riesgo de transmisión vertical, que sin intervención llega a 15-45 %, baja a menos de 1 % con carga viral indetectable. En el contexto de la norma peruana a partir de 2019 se indicaba iniciar el esquema triple desde la semana 12, y el cuestionario de 2016 consideraba la semana 14 de la norma previa. Las guías actuales (DHHS 2024 y OMS) van más allá: se inicia apenas se confirma el diagnóstico, sin esperar edad gestacional, con tenofovir, emtricitabina o lamivudina y dolutegravir. Las semanas 20 y 22 retrasan la supresión viral y las semanas 10 y 7 no corresponden a la norma. Perla: el tamizaje se repite en el tercer trimestre y en el parto si no se hizo, y la carga viral se mide a las 34-36 semanas.",
-      "comentario": "El objetivo del tratamiento antirretroviral en la gestante es suprimir la carga viral lo antes posible, porque el riesgo de transmisión vertical, que sin intervención llega a 15-45 %, baja a menos de 1 % con carga viral indetectable. En el contexto de la norma peruana a partir de 2019 se indicaba iniciar el esquema triple desde la semana 12, y el cuestionario de 2016 consideraba la semana 14 de la norma previa. Las guías actuales (DHHS 2024 y OMS) van más allá: se inicia apenas se confirma el diagnóstico, sin esperar edad gestacional, con tenofovir, emtricitabina o lamivudina y dolutegravir. Las semanas 20 y 22 retrasan la supresión viral y las semanas 10 y 7 no corresponden a la norma. Perla: el tamizaje se repite en el tercer trimestre y en el parto si no se hizo, y la carga viral se mide a las 34-36 semanas.",
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "En la gestante con VIH el objetivo es suprimir la carga viral cuanto antes: el riesgo de transmisión vertical, de 15 a 45 % sin intervención, baja a menos de 1 % con carga viral indetectable al parto. Por eso las guías vigentes (DHHS 2024, OMS 2021) indican iniciar el esquema triple apenas se confirma el diagnóstico, sin esperar una edad gestacional, preferentemente con dolutegravir más dos inhibidores nucleósidos (tenofovir con lamivudina o emtricitabina); el Perú adoptó la estrategia de tratar a toda persona con diagnóstico nuevo. Esperar a la semana 10, 12, 14, 20 o 22, como planteaban normas antiguas, retrasa la supresión viral y aumenta el riesgo para el hijo. Perla: se mide la carga viral a las 2-4 semanas de iniciar y a las 34-36 semanas, que decide la vía del parto (cesárea electiva si es mayor de 1000 copias/mL); se repite el tamizaje en el tercer trimestre.",
+      "comentario": "En la gestante con VIH el objetivo es suprimir la carga viral cuanto antes: el riesgo de transmisión vertical, de 15 a 45 % sin intervención, baja a menos de 1 % con carga viral indetectable al parto. Por eso las guías vigentes (DHHS 2024, OMS 2021) indican iniciar el esquema triple apenas se confirma el diagnóstico, sin esperar una edad gestacional, preferentemente con dolutegravir más dos inhibidores nucleósidos (tenofovir con lamivudina o emtricitabina); el Perú adoptó la estrategia de tratar a toda persona con diagnóstico nuevo. Esperar a la semana 10, 12, 14, 20 o 22, como planteaban normas antiguas, retrasa la supresión viral y aumenta el riesgo para el hijo. Perla: se mide la carga viral a las 2-4 semanas de iniciar y a las 34-36 semanas, que decide la vía del parto (cesárea electiva si es mayor de 1000 copias/mL); se repite el tamizaje en el tercer trimestre.",
       "tema": "VIH en gestante: semana de inicio del TARV",
       "año": 2016,
-      "fuentes": "NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Perinatal HIV Guidelines (2024); OMS, Guías consolidadas de VIH (2021)",
+      "fuentes": [
+        "MINSA, NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); MINSA, NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States (2024); OMS, Consolidated guidelines on HIV (2021)"
+      ],
       "categoria": "VIH y gestación",
-      "nota_revision": "El libro lo da sin respuesta (opciones 14, 10, 7, 20, 22). Se reconstruye con la opción 12, igual que el bloque equivalente RM 2017, ya que la norma de 2019 fijaba la semana 12; las guías DHHS 2024 y OMS indican iniciar de inmediato (no se pudo contrastar el texto de la NTS 169-2020 sobre este punto)."
+      "nota_revision": "El libro lo da sin respuesta (opciones 14, 10, 7, 20, 22). Se reconstruye con la opción 12, igual que el bloque equivalente RM 2017, ya que la norma de 2019 fijaba la semana 12; las guías DHHS 2024 y OMS indican iniciar de inmediato (no se pudo contrastar el texto de la NTS 169-2020 sobre este punto). Clave del libro: C (semana 12, norma peruana de 2019); corregida a E (inicio inmediato) según DHHS 2024 y OMS 2021, que indican iniciar lo antes posible; no se pudo contrastar el texto de la NTS 169-2020. La opción E original (semana 22) se reemplazó."
     },
     {
       "id": "RM-GIN-012",
@@ -5741,23 +5743,25 @@
       "id": "RM-GIN-016",
       "especialidad": "Ginecología y Obstetricia",
       "examen_origen": "Residentado Médico 2017 · pregunta oficial",
-      "enunciado": "Gestante con VIH positivo diagnosticada durante el control prenatal. La terapia antirretroviral triple se debe iniciar desde las ... semanas.",
+      "enunciado": "Gestante con VIH positivo diagnosticada durante el control prenatal. ¿Cuándo se debe iniciar la terapia antirretroviral triple?",
       "opciones": [
         "14.",
         "11.",
         "12.",
         "13.",
-        "10."
+        "Iniciarla lo antes posible tras el diagnóstico, sin esperar una edad gestacional."
       ],
-      "correcta": 2,
-      "clave_correcta": "C",
-      "explicacion": "La gestante con VIH tiene un riesgo de transmisión vertical de 15-45 % sin tratamiento, que se reduce a menos de 1 % cuando la carga viral se hace indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico. La norma peruana de 2019 que sustentaba esta pregunta fijó la semana 12 como inicio con el esquema tenofovir, emtricitabina y raltegravir, en lugar de las 14 semanas de la norma previa. Las guías actuales (DHHS 2024 y OMS) llegan más lejos y recomiendan empezar lo antes posible tras el diagnóstico, sin esperar una edad gestacional, con un esquema que incluye dolutegravir. Las opciones 10, 11 y 13 no corresponden a ninguna norma. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema si logra supresión viral.",
-      "comentario": "La gestante con VIH tiene un riesgo de transmisión vertical de 15-45 % sin tratamiento, que se reduce a menos de 1 % cuando la carga viral se hace indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico. La norma peruana de 2019 que sustentaba esta pregunta fijó la semana 12 como inicio con el esquema tenofovir, emtricitabina y raltegravir, en lugar de las 14 semanas de la norma previa. Las guías actuales (DHHS 2024 y OMS) llegan más lejos y recomiendan empezar lo antes posible tras el diagnóstico, sin esperar una edad gestacional, con un esquema que incluye dolutegravir. Las opciones 10, 11 y 13 no corresponden a ninguna norma. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema si logra supresión viral.",
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La gestante con VIH tiene un riesgo de transmisión vertical de 15 a 45 % sin tratamiento, que cae a menos de 1 % cuando la carga viral es indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico, sin esperar una edad gestacional: así lo recomiendan DHHS 2024 y OMS 2021, con un esquema que incluye dolutegravir, y es coherente con la estrategia peruana de tratar a toda persona con diagnóstico nuevo. Las semanas 10, 11, 12, 13 y 14 corresponden a normas previas que fijaban un plazo y retrasan la supresión viral. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema cuando hay supresión viral; la carga viral se controla a las 2-4 semanas de iniciar, mensualmente hasta ser indetectable y a las 34-36 semanas.",
+      "comentario": "La gestante con VIH tiene un riesgo de transmisión vertical de 15 a 45 % sin tratamiento, que cae a menos de 1 % cuando la carga viral es indetectable antes del parto. Por eso el tratamiento se inicia lo antes posible tras el diagnóstico, sin esperar una edad gestacional: así lo recomiendan DHHS 2024 y OMS 2021, con un esquema que incluye dolutegravir, y es coherente con la estrategia peruana de tratar a toda persona con diagnóstico nuevo. Las semanas 10, 11, 12, 13 y 14 corresponden a normas previas que fijaban un plazo y retrasan la supresión viral. Perla: si la gestante ya recibía tratamiento antes del embarazo, se continúa el mismo esquema cuando hay supresión viral; la carga viral se controla a las 2-4 semanas de iniciar, mensualmente hasta ser indetectable y a las 34-36 semanas.",
       "tema": "VIH en gestante: inicio de TARV",
       "año": 2017,
-      "fuentes": "NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Perinatal HIV Guidelines (2024)",
+      "fuentes": [
+        "MINSA, NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); MINSA, NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Recommendations for the Use of Antiretroviral Drugs During Pregnancy and Interventions to Reduce Perinatal HIV Transmission in the United States (2024); OMS, Consolidated guidelines on HIV (2021)"
+      ],
       "categoria": "VIH y gestación",
-      "nota_revision": "Se mantiene la misma clave (12) que en RM 2016 #33, por coherencia con la norma de 2019 citada por el libro; las guías DHHS 2024 y OMS recomiendan inicio inmediato (texto de la NTS 169-2020 no contrastado)."
+      "nota_revision": "Se mantiene la misma clave (12) que en RM 2016 #33, por coherencia con la norma de 2019 citada por el libro; las guías DHHS 2024 y OMS recomiendan inicio inmediato (texto de la NTS 169-2020 no contrastado). Clave del libro: C (semana 12, norma peruana de 2019); corregida a E (inicio inmediato) según DHHS 2024 y OMS 2021; no se pudo contrastar el texto de la NTS 169-2020. La opción E original (semana 10) se reemplazó."
     },
     {
       "id": "RM-GIN-017",
@@ -6408,7 +6412,7 @@
       "id": "RM-GIN-047",
       "especialidad": "Ginecología y Obstetricia",
       "examen_origen": "Residentado Médico 2014 · pregunta oficial",
-      "enunciado": "Mujer de 62 años presenta secreción serosanguinolenta espontánea por ambos pezones. Examen: tumoración de 2 x 2 cm en mama derecha. ¿Cuál es el diagnóstico más probable?",
+      "enunciado": "Mujer de 62 años presenta secreción serosanguinolenta espontánea por un solo conducto del pezón derecho. Examen: tumoración de 2 x 2 cm en mama derecha. ¿Cuál es el diagnóstico más probable?",
       "opciones": [
         "Cáncer de mama.",
         "Mastopatía fibroquística.",
@@ -6418,13 +6422,13 @@
       ],
       "correcta": 0,
       "clave_correcta": "A",
-      "explicacion": "Una secreción sanguinolenta espontánea por el pezón es una bandera roja, y se acompaña aquí de una edad de 62 años y de una masa sólida palpable de 2 cm, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. Lo típico de una lesión intraductal es la secreción unilateral por un solo conducto; la bilateral suele ser benigna (ectasia ductal, fármacos, hiperprolactinemia), pero aquí la edad, el carácter sanguinolento y la masa dominan el cuadro. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil de mujeres jóvenes, y el quiste simple es una masa lisa que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia; no se observa.",
-      "comentario": "Una secreción sanguinolenta espontánea por el pezón es una bandera roja, y se acompaña aquí de una edad de 62 años y de una masa sólida palpable de 2 cm, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. Lo típico de una lesión intraductal es la secreción unilateral por un solo conducto; la bilateral suele ser benigna (ectasia ductal, fármacos, hiperprolactinemia), pero aquí la edad, el carácter sanguinolento y la masa dominan el cuadro. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil de mujeres jóvenes, y el quiste simple es una masa lisa que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia; no se observa.",
+      "explicacion": "La secreción sanguinolenta espontánea y unilateral por un solo conducto es una bandera roja que sugiere papiloma intraductal o carcinoma. En esta paciente se suman la edad de 62 años y una masa sólida palpable de 2 cm en la misma mama, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica, bilateral y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil, bien delimitado y de mujeres jóvenes, y el quiste simple es una masa lisa y móvil que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia con aguja gruesa; no se maneja con observación.",
+      "comentario": "La secreción sanguinolenta espontánea y unilateral por un solo conducto es una bandera roja que sugiere papiloma intraductal o carcinoma. En esta paciente se suman la edad de 62 años y una masa sólida palpable de 2 cm en la misma mama, combinación que eleva la probabilidad de cáncer de mama invasivo o intraductal. El papiloma intraductal aparece sobre todo entre los 35 y 55 años, con secreción y sin masa palpable. La mastopatía fibroquística es cíclica, bilateral y premenopáusica, con secreción multicolor o lechosa. La mastitis cursa con dolor, eritema y fiebre; el fibroadenoma es un tumor móvil, bien delimitado y de mujeres jóvenes, y el quiste simple es una masa lisa y móvil que se confirma con ecografía. Perla: toda masa sospechosa con secreción sanguinolenta exige mamografía, ecografía y biopsia con aguja gruesa; no se maneja con observación.",
       "tema": "Secreción serosanguinolenta espontánea y masa en mujer de 62 años",
       "año": 2014,
       "fuentes": "NCCN, Breast Cancer Screening and Diagnosis (versión vigente); Harrison Principios de Medicina Interna 21.ª ed. (2022); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
       "categoria": "Mastología",
-      "nota_revision": "El enunciado menciona secreción por ambos pezones; se conserva tal cual, la clave no cambia. Clave A sin cambio. El comentario se reescribió para explicar la discrepancia del enunciado (secreción por ambos pezones) frente a lo típico (un solo conducto); el enunciado conserva el texto original del libro."
+      "nota_revision": "El enunciado menciona secreción por ambos pezones; se conserva tal cual, la clave no cambia. Clave A sin cambio. El comentario se reescribió para explicar la discrepancia del enunciado (secreción por ambos pezones) frente a lo típico (un solo conducto); el enunciado conserva el texto original del libro. Enunciado corregido: el libro decía «por ambos pezones», incoherente con la secreción de un solo conducto que sustenta la clave; ahora dice un solo conducto del pezón derecho. Clave A sin cambio."
     },
     {
       "id": "RM-GIN-048",
@@ -6797,7 +6801,7 @@
       "id": "RM-GIN-065",
       "especialidad": "Ginecología y Obstetricia",
       "examen_origen": "Residentado Médico 2014 · pregunta oficial",
-      "enunciado": "En el control prenatal de una gestante, ¿cuál es el examen más adecuado para el diagnóstico del síndrome de Down?",
+      "enunciado": "En el control prenatal de una gestante, ¿cuál es el examen más adecuado para el tamizaje del síndrome de Down?",
       "opciones": [
         "Traslucencia nucal entre 11-14 semanas.",
         "Traslucencia nucal a las 18 semanas.",
@@ -6813,7 +6817,7 @@
       "año": 2014,
       "fuentes": "ACOG, Practice Bulletin 226 Screening for Fetal Chromosomal Abnormalities (2020); Williams Obstetricia 26.ª ed. (2022)",
       "categoria": "Obstetricia",
-      "nota_revision": "Pregunta mal planteada: la clave A es de tamizaje, no de diagnóstico; se mantiene la clave del libro."
+      "nota_revision": "Pregunta mal planteada: la clave A es de tamizaje, no de diagnóstico; se mantiene la clave del libro. Enunciado corregido: el libro pedía «diagnóstico», pero la clave (traslucencia nucal) es de tamizaje; el diagnóstico es el cariotipo. Clave sin cambio."
     },
     {
       "id": "RM-GIN-066",

@@ -256,7 +256,7 @@ S("laboratorio", "RM-GIN-064", "Hematocrito de 31 % con VCM, HCM y CHCM bajos en
 S("linea_vida", "RM-GIN-065", "El tamizaje de Down se hace con la traslucencia nucal entre las 11 y 14 semanas, con PAPP-A y β-hCG libre",
   "Obstetricia · tamizaje de trisomía 21",
   ("Tamizaje de síndrome de Down", ["El diagnóstico definitivo es el cariotipo invasivo (vellosidades coriales o amniocentesis).", "Antes se estima el riesgo con pruebas no invasivas."]),
-  ("Control prenatal", ["¿Cuál es el examen más adecuado en el control prenatal?"]),
+  ("Control prenatal", ["¿Cuál es el examen más adecuado para el tamizaje del síndrome de Down?"]),
   ["Primer trimestre combinado: edad materna, traslucencia nucal (11 a 13+6 semanas, longitud craneocaudal de 45 a 84 mm), PAPP-A y β-hCG libre; detección de 82 a 87 %.",
    "En la trisomía 21 la hCG está elevada y la PAPP-A baja; las opciones de hCG baja y AFP alta tienen la dirección invertida.",
    "El ADN fetal libre en sangre materna es el tamizaje más sensible (más de 98 %); ACOG lo ofrece a toda gestante.",

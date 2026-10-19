@@ -29,24 +29,24 @@ S("arbol", "RM-GIN-010", "En la gestante con VIH y dilatación mayor de 4 cm la 
       L("CV > 1000 o desconocida, con membranas íntegras", "CESÁREA ELECTIVA", ["A las 38 semanas, antes del trabajo de parto", "Con zidovudina endovenosa"])], path=True))
 
 # 2 · RELOJ · VIH · semana de inicio del TARV
-S("reloj", "RM-GIN-011", "Gestante con VIH nueva: TARV triple desde la semana 12 de la norma; hoy, apenas se confirma el diagnóstico",
+S("reloj", "RM-GIN-011", "Gestante con VIH nueva: el TARV triple se inicia apenas se confirma el diagnóstico, sin esperar una semana",
   "VIH y embarazo · inicio del TARV triple",
   ("Inicio del TARV en la gestante", ["El objetivo es suprimir la carga viral cuanto antes.", "Sin tratamiento la transmisión vertical es de 15-45 %; con CV indetectable, menor de 1 %."]),
-  ("Gestante con VIH nuevo", ["Diagnóstico en el control prenatal.", "¿En qué semana se inicia la terapia antirretroviral triple?"]),
-  ["Norma peruana de 2019 (NTS 159): esquema triple desde la semana 12 (la norma previa decía 14). La clave del banco es la semana 12.",
-   "Guías actuales (DHHS 2024, OMS 2021): iniciar apenas se confirma el diagnóstico, sin esperar edad gestacional; preferido dolutegravir con 2 inhibidores de transcriptasa.",
+  ("Gestante con VIH nuevo", ["Diagnóstico en el control prenatal.", "¿Cuándo se inicia la terapia antirretroviral triple?"]),
+  ["Guías vigentes (DHHS 2024, OMS 2021): iniciar apenas se confirma el diagnóstico, sin esperar edad gestacional; preferido dolutegravir con 2 inhibidores nucleósidos.",
+   "Las normas antiguas fijaban la semana 14 y luego la 12 (NTS 159-2019); esperar un plazo retrasa la supresión viral.",
    "Tamizar de nuevo en el tercer trimestre y en el parto si no hay prueba; medir la carga viral a las 34-36 semanas para decidir la vía del parto.",
-   "Alerta: semanas 20 y 22 retrasan la supresión viral; si ya recibía TARV antes del embarazo se continúa el esquema si hay supresión."],
+   "Alerta: cualquier espera retrasa la supresión viral; si ya recibía TARV antes del embarazo se continúa el esquema si hay supresión."],
   F_VIH,
-  op=("¿Semana de inicio?", ["No: era la semana de la norma previa", "No: no corresponde a ninguna norma", "Sí: norma peruana de 2019", "No: retrasa la supresión viral", "No: retrasa la supresión viral"],
-      {0: "Semana 14", 1: "Semana 10", 2: "Semana 12", 3: "Semana 20", 4: "Semana 22"}),
+  op=("¿Semana de inicio?", ["No: plazo de una norma antigua", "No: no corresponde a ninguna norma", "No: plazo de la norma de 2019; hoy se inicia de inmediato", "No: retrasa la supresión viral", "Sí: inicio inmediato, sin esperar edad gestacional"],
+      {0: "Semana 14", 1: "Semana 10", 2: "Semana 12", 3: "Semana 20", 4: "Lo antes posible tras el diagnóstico"}),
   d=dict(rotulo="Cuándo se inicia el TARV durante el embarazo", intro="Línea de tiempo de la atención de la gestante con VIH.",
          pasos=[("1", "Primer control prenatal", "Tamizaje de VIH y confirmación si es reactivo", False),
-                ("2", "Semana 12 de gestación", "Inicio del esquema triple (norma 2019)", True),
+                ("2", "Apenas se confirma el diagnóstico", "Inicio del esquema triple, sin esperar semana", True),
                 ("3", "Semanas 34-36", "Carga viral para decidir la vía del parto", False),
                 ("4", "Parto y recién nacido", "Zidovudina endovenosa si CV > 1000; profilaxis del recién nacido", False)],
          tag="LO QUE PIDE LA PREGUNTA",
-         veredicto=("Semana 12 según la norma de 2019", "Las guías vigentes inician el TARV en cuanto se confirma el diagnóstico, sin esperar una edad gestacional.")))
+         veredicto=("Iniciar el TARV lo antes posible", "No se espera una edad gestacional: las normas con semana 12 o 14 quedaron superadas.")))
 
 # 3 · CUADRÍCULA · flujo vaginal anormal
 S("cuadricula", "RM-GIN-012", "Flujo verdoso con cérvix en fresa es tricomoniasis: metronidazol 500 mg cada 12 horas por 7 días",
@@ -171,23 +171,23 @@ S("cuadricula", "RM-INF-033", "El sarcoma de Kaposi del paciente con VIH lo caus
           pie="Imagen referencial de lesiones violáceas de sarcoma de Kaposi"))
 
 # 9 · LÍNEA DE VIDA · TARV en la gestación
-S("linea_vida", "RM-GIN-016", "La norma peruana de 2019 fija la semana 12 para iniciar el TARV triple en la gestante con VIH",
+S("linea_vida", "RM-GIN-016", "En la gestante con VIH el TARV triple se inicia lo antes posible tras el diagnóstico",
   "VIH y embarazo · calendario de la atención",
   ("TARV en la gestación", ["Cuanto antes se suprime la carga viral, menor es el riesgo para el hijo.", "Sin tratamiento 15-45 %; con CV indetectable antes del parto, menos de 1 %."]),
-  ("Gestante con VIH nuevo", ["Diagnóstico durante el control prenatal.", "Terapia triple desde la semana…"]),
-  ["Norma peruana de 2019 (NTS 159): esquema triple desde la semana 12 (antes era la 14). Las semanas 10, 11 y 13 no corresponden a ninguna norma.",
-   "Guías actuales (DHHS 2024, OMS 2021): empezar lo antes posible tras el diagnóstico, sin esperar edad gestacional; preferido dolutegravir con 2 inhibidores nucleósidos.",
+  ("Gestante con VIH nuevo", ["Diagnóstico durante el control prenatal.", "¿Cuándo se debe iniciar la terapia antirretroviral triple?"]),
+  ["Guías vigentes (DHHS 2024, OMS 2021): empezar lo antes posible tras el diagnóstico, sin esperar edad gestacional; preferido dolutegravir con 2 inhibidores nucleósidos.",
+   "Las normas antiguas fijaban un plazo (semana 14, luego 12, NTS 159-2019); esperar retrasa la supresión viral.",
    "Control: carga viral 2-4 semanas tras iniciar, luego mensual hasta ser indetectable, después cada 3 meses y a las 34-36 semanas.",
    "Alerta: si ya recibía TARV antes del embarazo se continúa el mismo esquema con supresión viral; el hijo recibe profilaxis y fórmula."],
   "NTS 159-MINSA/2019/DGIESP (RM 1138-2019/MINSA); NTS 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA); DHHS, Perinatal HIV Guidelines (2024).",
-  op=("¿Semana de inicio?", ["No: era la semana de la norma previa", "No: no corresponde a ninguna norma", "Sí: norma peruana de 2019", "No: no corresponde a ninguna norma", "No: no corresponde a ninguna norma"],
-      {0: "Semana 14", 1: "Semana 11", 2: "Semana 12", 3: "Semana 13", 4: "Semana 10"}),
+  op=("¿Semana de inicio?", ["No: plazo de una norma antigua", "No: no corresponde a ninguna norma", "No: plazo de la norma de 2019; hoy se inicia de inmediato", "No: no corresponde a ninguna norma", "Sí: inicio inmediato, sin esperar edad gestacional"],
+      {0: "Semana 14", 1: "Semana 11", 2: "Semana 12", 3: "Semana 13", 4: "Lo antes posible tras el diagnóstico"}),
   d=dict(rotulo="Qué se hace en cada semana de la gestación", eje=(0, 40, 4), unidad="semanas",
-         barras=[("Diagnóstico y tamizaje", 0, 12, "Primer control prenatal", False), ("TARV triple (este caso)", 12, 40, "Desde la semana 12 hasta el parto", True),
+         barras=[("Diagnóstico y tamizaje", 0, 12, "Primer control prenatal", False), ("TARV triple (este caso)", 1, 40, "Desde el diagnóstico, sin esperar semana", True),
                  ("Repetir el tamizaje", 28, 36, "Tercer trimestre", False), ("Carga viral de control", 34, 36, "Define la vía del parto", False),
                  ("Cesárea si CV > 1000", 38, 39, "Electiva a las 38 semanas", False)],
-         marcador=(12, "Semana 12"),
-         veredicto=("Norma 2019: semana 12 (la previa era la 14)", "Las guías actuales inician el TARV en cuanto se confirma el diagnóstico, sin esperar una edad gestacional.")))
+         marcador=(1, "Diagnóstico"),
+         veredicto=("Iniciar el TARV lo antes posible", "Las normas con semana 12 o 14 quedaron superadas: no se espera una edad gestacional.")))
 
 # 10 · REGLA · PPD y tratamiento preventivo
 S("regla", "RM-NEU-016", "Contacto con VIH y PPD mayor de 5 mm: alto riesgo de tuberculosis y tratamiento preventivo",
