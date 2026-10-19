@@ -469,6 +469,15 @@ def arbol_imagen(s, y, d):
     pl = wrap(d["ilu_pie"], RW - 36, 11.5)
     H = head + IH + 10 + len(pl) * 16 + 14
     h0 = card6(s, X0, by, LWc, t0, l0, fs=11.5, hmin=H)
+    if d.get("izq_img"):
+        from engine7 import imagen
+        from engine6 import credito as _cr
+        im = d["izq_img"]
+        ht = card6(s, X0, by, LWc, t0, l0, fs=11.5, dry=True)
+        ix, iy = X0 + (LWc - im["W"]) / 2, by + ht + 10
+        imagen(s, ix, iy, im)
+        if im.get("credito"):
+            _cr(s, ix, iy + im["H"] + 13, im["W"], im["credito"])
     s.rect(x1, by, RW, H, TEAL_L, TEAL, 2.2)
     case_chip(s, x1 + RW - 70, by, d.get("tag", "ESTE CASO"))
     s.text(x1 + 18, by + 26, tl, 13, 800, TEAL_D, "start", RW - 36, lh=18)
