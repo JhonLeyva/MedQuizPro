@@ -1,0 +1,25 @@
+{
+ "pmcid": "PMC10098126",
+ "titulo": "Clinical thought-based software for diagnosing developmental dysplasia of the hip on pediatric pelvic radiographs",
+ "autores": [
+  "Sha",
+  "Huang",
+  "Chen",
+  "Fan",
+  "Lin",
+  "Yang",
+  "Li",
+  "Yan"
+ ],
+ "revista": "Frontiers in Pediatrics",
+ "anio": "2023",
+ "licencia": "CC BY 4.0",
+ "lic_url": "https://creativecommons.org/licenses/by/4.0/",
+ "fig": {
+  "label": "Figure 1",
+  "caption": "Diagnostic references of developmental dysplasia of the hip (relies on the midpoint of the proximal femoral metaphysis, H-point). Hilgenreiner’s line is a basal line connecting the top of bilateral triradiate cartilages. Perkin’s line is perpendicular to Hilgenreiner's line, passing through the lateral acetabular edge. The diagonal line is drawn 45 degrees from the junction of Perkin's line and Hilgenreiner's line. The acetabular index is the angle between Hilgenreiner's line and the line from the top of the triradiate cartilage to the lateral acetabular edge. Lateral center-edge angle is the angle between a vertical line through the center of the femoral head and a line connecting that center and the lateral acetabular edge.",
+  "href": "fped-11-1080194-g001.jpg"
+ },
+ "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10098126.1/fped-11-1080194-g001.jpg",
+ "credito": "Sha et al. · Frontiers in Pediatrics 2023 · PMC10098126 (PubMed Central) · CC BY 4.0"
+}

@@ -458,8 +458,7 @@ def arbol_imagen(s, y, d):
     s.pill(rx, hb + 38, e1, ORANGE)
     by = hb + 56
     # rama izquierda: solo texto
-    h0 = card6(s, X0, by, LWc, t0, l0, fs=11.5)
-    # rama derecha (caso): texto + dibujo
+    # rama derecha (caso): texto + imagen
     x1 = X1 - RW
     tl = wrap(t1, RW - 36, 13, True)
     bl = []
@@ -469,6 +468,7 @@ def arbol_imagen(s, y, d):
     IW, IH = d["IW"], d["IH"]
     pl = wrap(d["ilu_pie"], RW - 36, 11.5)
     H = head + IH + 10 + len(pl) * 16 + 14
+    h0 = card6(s, X0, by, LWc, t0, l0, fs=11.5, hmin=H)
     s.rect(x1, by, RW, H, TEAL_L, TEAL, 2.2)
     case_chip(s, x1 + RW - 70, by, d.get("tag", "ESTE CASO"))
     s.text(x1 + 18, by + 26, tl, 13, 800, TEAL_D, "start", RW - 36, lh=18)
