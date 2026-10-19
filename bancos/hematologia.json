@@ -884,6 +884,26 @@
       "comentario": "El cuadro es una leucemia aguda: la médula está tomada por blastos que desplazan a las células normales, lo que produce anemia, plaquetas bajas con los moretones fáciles, y blastos circulando en la sangre. La pregunta pide el hallazgo que confirma que esos blastos son de estirpe mieloide, y ese es el bastón de Auer, una estructura alargada en forma de aguja o astilla que se ve dentro del citoplasma de los blastos y que resulta de la fusión anómala de los gránulos azurófilos. Encontrar bastones de Auer es prácticamente la firma de la leucemia mieloide aguda, porque solo aparecen en las células de linaje mieloide; por eso confirman el diagnóstico. Las células de Reed-Sternberg, grandes y con dos núcleos que parecen ojos de búho, son el sello del linfoma de Hodgkin, una enfermedad distinta de los ganglios, no de la médula mieloide. Los linfocitos atípicos grandes con citoplasma basófilo son característicos de la mononucleosis infecciosa por virus, una reacción reactiva benigna, no de una leucemia mieloide. Los plasmocitos con núcleo excéntrico y cromatina en rueda de carro pertenecen al mieloma múltiple, una neoplasia de células plasmáticas; ninguno de esos marca el linaje mieloide, que se confirma con los bastones de Auer. Leucemia aguda con blastos que contienen bastones de Auer (agujas azurófilas en el citoplasma) = leucemia mieloide aguda; los bastones de Auer confirman el linaje mieloide. Las células de Reed-Sternberg son de Hodgkin, los plasmocitos en rueda de carro del mieloma.",
       "tema": "Leucemia mieloide aguda: bastones de Auer",
       "año": 2026
+    },
+    {
+      "id": "RM-HEM-001",
+      "especialidad": "Hematología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Paciente de 65 años, diagnosticado de fibrilación auricular, en tratamiento con warfarina hace 2 meses; consulta por equimosis. ¿Qué prueba solicita como control de la anticoagulación?",
+      "opciones": [
+        "Cuantificación de fibrinógeno.",
+        "Tiempo de reptilase.",
+        "Tiempo de tromboplastina parcial activado.",
+        "Tiempo de trombina.",
+        "Tiempo de protrombina (INR)."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La warfarina inhibe la vitamina K epóxido reductasa y reduce la síntesis hepática de los factores II, VII, IX y X y de las proteínas C y S. Como el factor VII tiene la vida media más corta, el efecto inicial se ve en la vía extrínseca, y se mide con el tiempo de protrombina expresado como INR (razón normalizada internacional). Rango terapéutico: INR 2-3 en fibrilación auricular y trombosis venosa, y 2,5-3,5 en prótesis valvulares mecánicas mitrales. La heparina no fraccionada se monitoriza con TTPa y la de bajo peso molecular con anti-Xa si hace falta. Una equimosis en un paciente anticoagulado requiere medir el INR de inmediato: si es > 4,5-10 sin sangrado se suspende la dosis y se da vitamina K oral; si hay sangrado mayor se administra vitamina K IV más concentrado de complejo protrombínico. Interacciones frecuentes: antibióticos, amiodarona, alcohol y dieta rica en vitamina K.",
+      "comentario": "La warfarina inhibe la vitamina K epóxido reductasa y reduce la síntesis hepática de los factores II, VII, IX y X y de las proteínas C y S. Como el factor VII tiene la vida media más corta, el efecto inicial se ve en la vía extrínseca, y se mide con el tiempo de protrombina expresado como INR (razón normalizada internacional). Rango terapéutico: INR 2-3 en fibrilación auricular y trombosis venosa, y 2,5-3,5 en prótesis valvulares mecánicas mitrales. La heparina no fraccionada se monitoriza con TTPa y la de bajo peso molecular con anti-Xa si hace falta. Una equimosis en un paciente anticoagulado requiere medir el INR de inmediato: si es > 4,5-10 sin sangrado se suspende la dosis y se da vitamina K oral; si hay sangrado mayor se administra vitamina K IV más concentrado de complejo protrombínico. Interacciones frecuentes: antibióticos, amiodarona, alcohol y dieta rica en vitamina K.",
+      "tema": "Control de la anticoagulación con warfarina",
+      "año": 2018,
+      "fuentes": "ACCP/CHEST, tratamiento antitrombótico (2021); ESC, fibrilación auricular (2024); Harrison Principios de Medicina Interna 22.ª ed."
     }
   ]
 }

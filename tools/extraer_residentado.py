@@ -30,6 +30,27 @@ HEAD = re.compile(r"^RM\s?(20\d\d)\s?(EXT\w*)?\s*$", re.I)
 OPC = re.compile(r"^([A-E])\s?[\.\)]\s*(.*)$")
 RESP = re.compile(r"^Respuest\s?a\s*([A-E])\b", re.I)
 
+# letras con las que el OCR confunde cada opción
+VAR = {"A": "A", "B": "B8", "C": "C", "D": "D0OU", "E": "E"}
+
+
+def separar_opciones(txt):
+    """Busca A. B. C. D. E. en orden aunque estén en una misma línea o el OCR cambie D por O/0."""
+    pos, ini = {}, 0
+    for L_ in "ABCDE":
+        m = re.compile(r"(?:^|(?<=[\s\"”.;]))([" + VAR[L_] + r"])\s?[\.\)](?=\s|[A-ZÁÉÍÓÚÑ¿0-9])").search(txt, ini)
+        if not m:
+            break
+        pos[L_] = (m.start(1), m.end())
+        ini = m.end()
+    out = {}
+    letras = list(pos)
+    for i, L_ in enumerate(letras):
+        fin = pos[letras[i + 1]][0] if i + 1 < len(letras) else len(txt)
+        out[L_] = txt[pos[L_][1]:fin].strip()
+    return out
+
+
 def paginas(pdf):
     info = subprocess.run(["pdfinfo", pdf], capture_output=True, text=True).stdout
     w = float(re.search(r"Page size:\s+([\d.]+) x", info).group(1))
@@ -73,7 +94,7 @@ def main(pdf, salida):
         mnum = re.match(r"^(\d{1,3})\s*[\.\)]\s*(.*)$", enun)
         num = int(mnum.group(1)) if mnum else None
         if mnum: enun = mnum.group(2)
-        opciones, resp, com, modo, letra = {}, None, [], "opc", None
+        opc_txt, resp, com, modo = [], None, [], "opc"
         for s in L[ia:]:
             r = RESP.match(s)
             if r:
@@ -83,13 +104,10 @@ def main(pdf, salida):
                 if rest: com.append(rest)
                 continue
             if modo == "opc":
-                o = OPC.match(s)
-                if o and o.group(1) not in opciones and (letra is None or ord(o.group(1)) == ord(letra) + 1):
-                    letra = o.group(1); opciones[letra] = o.group(2)
-                elif letra:
-                    opciones[letra] += " " + s
+                opc_txt.append(s)
             elif modo == "com":
                 com.append(s)
+        opciones = separar_opciones(" ".join(opc_txt))
         out.append({"anio": b["anio"], "extraordinario": b["ext"], "especialidad": b["esp"],
                     "pag": b["pag"], "pdf": b["pdf"], "num": num, "enunciado": enun.strip(),
                     "opciones": opciones, "clave": resp, "comentario_origen": " ".join(com)})

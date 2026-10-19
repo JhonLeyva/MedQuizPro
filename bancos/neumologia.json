@@ -1435,6 +1435,106 @@
       "comentario": "El caso ya está diagnosticado, así que la pregunta es qué hacer con un diagnóstico de tuberculosis en la mano. El paciente tiene el cuadro clásico, tos de meses, sudoración nocturna y baja de peso, una caverna en la radiografía y una prueba molecular, el Xpert, que confirma la presencia del bacilo de la tuberculosis y añade un dato clave: sin resistencia a la rifampicina, es decir, es una tuberculosis sensible a los fármacos de primera línea. Con eso, la conducta correcta tiene dos partes que van juntas. La primera es iniciar de inmediato el tratamiento con el esquema de primera línea, las cuatro drogas conocidas por sus siglas RHZE, que son rifampicina, isoniazida, pirazinamida y etambutol, el esquema estándar para la tuberculosis sensible. La segunda parte es la notificación obligatoria del caso, porque la tuberculosis es una enfermedad de declaración obligatoria por su importancia para la salud pública: notificarla permite iniciar el estudio de los contactos y cortar la cadena de transmisión. Por eso la opción correcta reúne ambas acciones. Repetir el Xpert en tres meses tratando solo los síntomas es peligroso e inaceptable: retrasar el tratamiento de una tuberculosis ya confirmada deja avanzar la enfermedad y contagiar a otros. Derivar al tercer nivel y estudiar una inmunodeficiencia no es el paso inicial en un caso de tuberculosis sensible sin datos que sugieran inmunosupresión; puede manejarse en el primer nivel según la norma. Pedir una tomografía para descartar un cáncer no tiene sentido cuando ya hay confirmación microbiológica de tuberculosis; lo que corresponde es iniciar el esquema RHZE y notificar el caso. Tuberculosis confirmada por Xpert sin resistencia a rifampicina = iniciar de inmediato el esquema de primera línea RHZE y notificar obligatoriamente el caso. La tuberculosis es de declaración obligatoria para estudiar contactos; retrasar el tratamiento de un caso confirmado es inaceptable.",
       "tema": "Tuberculosis sensible confirmada por Xpert: esquema RHZE y notificación",
       "año": 2026
+    },
+    {
+      "id": "RM-NEU-001",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente que en la radiografía de tórax presenta tumoración a nivel de la língula. ¿En qué lóbulo se encuentra la lesión?",
+      "opciones": [
+        "Superior derecho.",
+        "Inferior derecho.",
+        "Superior izquierdo.",
+        "Medio derecho.",
+        "Inferior izquierdo."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El pulmón derecho tiene tres lóbulos (superior, medio e inferior) separados por las cisuras horizontal y oblicua, y 10 segmentos broncopulmonares. El pulmón izquierdo tiene dos lóbulos (superior e inferior) separados por la cisura oblicua y 8-10 segmentos. La língula es una porción del lóbulo superior izquierdo, equivalente anatómico del lóbulo medio derecho, formada por los segmentos lingulares superior e inferior (segmentos 4 y 5). En la radiografía de tórax, una opacidad que borra el borde izquierdo del corazón («signo de la silueta») localiza la lesión en la língula, y una que borra el borde derecho cardiaco, en el lóbulo medio. El hilio izquierdo está más alto que el derecho. Por su orientación y calibre, el lóbulo medio y la língula son propensos al colapso por bronquiectasias o linfadenopatías (síndrome del lóbulo medio).",
+      "comentario": "El pulmón derecho tiene tres lóbulos (superior, medio e inferior) separados por las cisuras horizontal y oblicua, y 10 segmentos broncopulmonares. El pulmón izquierdo tiene dos lóbulos (superior e inferior) separados por la cisura oblicua y 8-10 segmentos. La língula es una porción del lóbulo superior izquierdo, equivalente anatómico del lóbulo medio derecho, formada por los segmentos lingulares superior e inferior (segmentos 4 y 5). En la radiografía de tórax, una opacidad que borra el borde izquierdo del corazón («signo de la silueta») localiza la lesión en la língula, y una que borra el borde derecho cardiaco, en el lóbulo medio. El hilio izquierdo está más alto que el derecho. Por su orientación y calibre, el lóbulo medio y la língula son propensos al colapso por bronquiectasias o linfadenopatías (síndrome del lóbulo medio).",
+      "tema": "Língula: lóbulo superior izquierdo",
+      "año": 2014,
+      "fuentes": "Moore Anatomía con orientación clínica 8.ª ed.; Fraser y Paré Diagnosis of Diseases of the Chest 5.ª ed."
+    },
+    {
+      "id": "RM-NEU-002",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de quilotórax?",
+      "opciones": [
+        "Traumatismo.",
+        "Tumores mediastinales.",
+        "Pancreatitis aguda necrotizante.",
+        "Embolia grasa.",
+        "TBC pulmonar exudativa."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El quilotórax es la acumulación de quilo (linfa intestinal rica en triglicéridos y quilomicrones) en el espacio pleural por lesión u obstrucción del conducto torácico. Es un líquido lechoso con triglicéridos > 110 mg/dL (el pseudoquilotórax es un derrame crónico con colesterol alto y triglicéridos bajos, como en la tuberculosis o la artritis reumatoide). La causa más frecuente en general es traumática, en especial iatrogénica (cirugía esofágica, cardiaca o torácica); las causas no traumáticas más frecuentes son las neoplasias, sobre todo los linfomas. Tratamiento: dieta sin grasas de cadena larga o nutrición parenteral, octreótido, drenaje y, si el drenaje es mayor de 1000 mL/día por 5 días o persiste más de 2 semanas, ligadura quirúrgica del conducto torácico.",
+      "comentario": "El quilotórax es la acumulación de quilo (linfa intestinal rica en triglicéridos y quilomicrones) en el espacio pleural por lesión u obstrucción del conducto torácico. Es un líquido lechoso con triglicéridos > 110 mg/dL (el pseudoquilotórax es un derrame crónico con colesterol alto y triglicéridos bajos, como en la tuberculosis o la artritis reumatoide). La causa más frecuente en general es traumática, en especial iatrogénica (cirugía esofágica, cardiaca o torácica); las causas no traumáticas más frecuentes son las neoplasias, sobre todo los linfomas. Tratamiento: dieta sin grasas de cadena larga o nutrición parenteral, octreótido, drenaje y, si el drenaje es mayor de 1000 mL/día por 5 días o persiste más de 2 semanas, ligadura quirúrgica del conducto torácico.",
+      "tema": "Causa más frecuente de quilotórax",
+      "año": 2014,
+      "fuentes": "Light Pleural Diseases 6.ª ed.; Fishman Pulmonary Diseases and Disorders 5.ª ed."
+    },
+    {
+      "id": "RM-NEU-003",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál es la tumoración más frecuente que se presenta en el mediastino del adulto?",
+      "opciones": [
+        "Tumor neurogénico.",
+        "Tumor de células germinales.",
+        "Linfoma.",
+        "Timoma.",
+        "Quiste no tímico."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Los tumores mediastínicos se ubican por compartimentos: el mediastino anterosuperior concentra las «4 T» (timoma, teratoma o tumor germinal, tiroides o bocio endotorácico, «terrible» linfoma), el medio los quistes broncogénicos y pericárdicos y los ganglios, y el posterior los tumores neurogénicos (schwannoma, neurofibroma). En el adulto la masa mediastínica primaria más frecuente del mediastino anterior es el timoma, que representa casi la mitad de los casos de esa localización; se asocia a miastenia gravis en 30-50 % (y al revés, el 10-15 % de los miasténicos tienen timoma), aplasia pura de serie roja e hipogammaglobulinemia. En el niño predominan los tumores neurogénicos. Diagnóstico: TC de tórax con contraste y biopsia guiada, evitando biopsiar el timoma resecable. Tratamiento del timoma: resección completa; la radioterapia o quimioterapia se emplean en estadios avanzados.",
+      "comentario": "Los tumores mediastínicos se ubican por compartimentos: el mediastino anterosuperior concentra las «4 T» (timoma, teratoma o tumor germinal, tiroides o bocio endotorácico, «terrible» linfoma), el medio los quistes broncogénicos y pericárdicos y los ganglios, y el posterior los tumores neurogénicos (schwannoma, neurofibroma). En el adulto la masa mediastínica primaria más frecuente del mediastino anterior es el timoma, que representa casi la mitad de los casos de esa localización; se asocia a miastenia gravis en 30-50 % (y al revés, el 10-15 % de los miasténicos tienen timoma), aplasia pura de serie roja e hipogammaglobulinemia. En el niño predominan los tumores neurogénicos. Diagnóstico: TC de tórax con contraste y biopsia guiada, evitando biopsiar el timoma resecable. Tratamiento del timoma: resección completa; la radioterapia o quimioterapia se emplean en estadios avanzados.",
+      "tema": "Tumor más frecuente del mediastino en el adulto",
+      "año": 2015,
+      "fuentes": "ESMO-EURACAN, tumores epiteliales tímicos (2021); Harrison Principios de Medicina Interna 22.ª ed.; Shields Thoracic Surgery 8.ª ed."
+    },
+    {
+      "id": "RM-NEU-004",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es el examen por imágenes que mejor confirma la presencia de bronquiectasia?",
+      "opciones": [
+        "Tomografía axial computarizada.",
+        "Radiografía de tórax.",
+        "Gammagrafía pulmonar.",
+        "Resonancia magnética.",
+        "Ecografía torácica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las bronquiectasias son dilataciones irreversibles de los bronquios por inflamación e infección crónica (fibrosis quística, discinesia ciliar, infecciones graves, tuberculosis, aspergilosis broncopulmonar alérgica). La prueba de elección para confirmarlas es la tomografía computarizada de alta resolución (TCAR) de tórax, que muestra el signo del anillo de sello (bronquio de diámetro mayor que la arteria acompañante), la ausencia de adelgazamiento bronquial hacia la periferia, el engrosamiento de las paredes y los bronquios visibles a menos de 1 cm de la pleura. La radiografía puede ser normal o mostrar líneas en «vías de tranvía» y quistes; la RM no ofrece buena resolución del parénquima pulmonar. Clínica: tos crónica con esputo purulento abundante («tazas de esputo»), hemoptisis y sibilancias. Tratamiento: fisioterapia respiratoria, antibióticos en exacerbaciones y macrólidos a largo plazo en exacerbadores frecuentes.",
+      "comentario": "Las bronquiectasias son dilataciones irreversibles de los bronquios por inflamación e infección crónica (fibrosis quística, discinesia ciliar, infecciones graves, tuberculosis, aspergilosis broncopulmonar alérgica). La prueba de elección para confirmarlas es la tomografía computarizada de alta resolución (TCAR) de tórax, que muestra el signo del anillo de sello (bronquio de diámetro mayor que la arteria acompañante), la ausencia de adelgazamiento bronquial hacia la periferia, el engrosamiento de las paredes y los bronquios visibles a menos de 1 cm de la pleura. La radiografía puede ser normal o mostrar líneas en «vías de tranvía» y quistes; la RM no ofrece buena resolución del parénquima pulmonar. Clínica: tos crónica con esputo purulento abundante («tazas de esputo»), hemoptisis y sibilancias. Tratamiento: fisioterapia respiratoria, antibióticos en exacerbaciones y macrólidos a largo plazo en exacerbadores frecuentes.",
+      "tema": "Diagnóstico por imagen de bronquiectasias",
+      "año": 2016,
+      "fuentes": "ERS, guía de bronquiectasias en adultos (2017); BTS, guía de bronquiectasias (2019); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-NEU-005",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Mujer de 50 años, obesa, hipertensa, con antecedente de cáncer de colon, viaja en bus de Tumbes a Lima; al llegar presenta súbitamente dolor torácico, disnea y síncope. Ingresa a emergencia con PA: 120/60 mm Hg, FC: 120 x min, FR: 30 x min, SatO₂: 96 %. Con diagnóstico de tromboembolismo pulmonar, ¿cuál es la dosis de enoxaparina que se debe administrar?",
+      "opciones": [
+        "1 mg/kg cada 24 horas SC.",
+        "1 mg/kg cada 12 horas EV.",
+        "1 mg/kg cada 24 horas EV.",
+        "1 mg/kg cada 12 horas SC.",
+        "2 mg/kg cada 12 horas EV."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La anticoagulación inicial del tromboembolismo pulmonar con inestabilidad ausente se hace con heparina de bajo peso molecular subcutánea: enoxaparina 1 mg/kg cada 12 horas (o 1,5 mg/kg cada 24 horas), que se prefiere a la heparina no fraccionada por su farmacocinética previsible y menor riesgo de sangrado y trombocitopenia. Se ajusta en insuficiencia renal grave (depuración < 30 mL/min: 1 mg/kg cada 24 horas) y se evita en obesidad mórbida sin monitorización de anti-Xa. Tras la fase aguda se continúa con un anticoagulante oral directo (rivaroxabán, apixabán, edoxabán, dabigatrán) o warfarina por al menos 3 meses; en cáncer se prefieren los inhibidores del factor Xa o la HBPM por 6 meses o más. Si hay shock o hipotensión persistente (TEP de alto riesgo) se indica trombólisis sistémica, y la heparina no fraccionada es la elegida.",
+      "comentario": "La anticoagulación inicial del tromboembolismo pulmonar con inestabilidad ausente se hace con heparina de bajo peso molecular subcutánea: enoxaparina 1 mg/kg cada 12 horas (o 1,5 mg/kg cada 24 horas), que se prefiere a la heparina no fraccionada por su farmacocinética previsible y menor riesgo de sangrado y trombocitopenia. Se ajusta en insuficiencia renal grave (depuración < 30 mL/min: 1 mg/kg cada 24 horas) y se evita en obesidad mórbida sin monitorización de anti-Xa. Tras la fase aguda se continúa con un anticoagulante oral directo (rivaroxabán, apixabán, edoxabán, dabigatrán) o warfarina por al menos 3 meses; en cáncer se prefieren los inhibidores del factor Xa o la HBPM por 6 meses o más. Si hay shock o hipotensión persistente (TEP de alto riesgo) se indica trombólisis sistémica, y la heparina no fraccionada es la elegida.",
+      "tema": "Dosis de enoxaparina en tromboembolia pulmonar",
+      "año": 2018,
+      "fuentes": "ESC, guía de embolia pulmonar (2019); ASH, tratamiento de la enfermedad tromboembólica venosa (2020); ACCP/CHEST (2021)"
     }
   ]
 }

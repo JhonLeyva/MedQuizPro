@@ -85,9 +85,9 @@
     { id: "enam", nombre: "ENAM", nombreLargo: "Examen Nacional de Medicina", estado: "disponible",
       coincide: /^ENAM/i, titulo: "Preparación ENAM",
       lema: "Entrena por especialidad, resuelve preguntas comentadas y mide tu progreso." },
-    { id: "residentado", nombre: "Residentado Médico", nombreLargo: "Residentado Médico", estado: "proximamente",
+    { id: "residentado", nombre: "Residentado Médico", nombreLargo: "Residentado Médico", estado: "disponible",
       coincide: /^Residentado/i, titulo: "Preparación para Residentado Médico",
-      lema: "El banco por especialidad para el Residentado está en construcción." },
+      lema: "Preguntas de los exámenes de Residentado 2014-2019 con comentario ampliado y flujograma; el banco crece por lotes." },
     { id: "essalud", nombre: "EsSalud", nombreLargo: "EsSalud", estado: "proximamente",
       coincide: /^EsSalud/i, titulo: "Preparación para EsSalud",
       lema: "El banco por especialidad para EsSalud está en construcción." }

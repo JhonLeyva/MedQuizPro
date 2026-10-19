@@ -2052,6 +2052,66 @@
       "comentario": "El origen de la falla renal aquí es claramente la falta de volumen. La paciente lleva tres días de diarrea abundante, luego vómitos, ya no tolera líquidos y dejó de orinar; está deshidratada y con la urea y la creatinina elevadas. Esa lesión renal aguda es de tipo prerrenal: el riñón no está intrínsecamente dañado, simplemente no le llega sangre suficiente porque el cuerpo perdió mucho líquido y el volumen circulante cayó. La conducta que corrige la causa es reponer ese volumen, y por eso lo primero y esencial es administrar suero salino por vía intravenosa para rehidratarla; al restaurar el volumen se restablece el flujo al riñón y la función renal se recupera. Por eso es la conducta correcta. La diálisis de emergencia se reserva para complicaciones que amenazan la vida y no responden al tratamiento, como una hiperpotasemia grave, una acidosis severa o una sobrecarga de líquido; nada de eso hay aquí, y dializar a una paciente que lo que necesita es líquido sería un error. Dar diuréticos es exactamente lo contrario de lo que se necesita: forzar la eliminación de más líquido en alguien que ya está deshidratado empeoraría la hipovolemia y la falla renal. Derivar a nefrología sin antes iniciar la rehidratación demora el tratamiento simple y urgente que resuelve el problema; primero se repone el volumen con suero, que es la medida que salva el riñón. Diarrea y vómitos con deshidratación, oliguria y elevación de urea y creatinina = lesión renal aguda prerrenal por hipovolemia. La conducta inicial es reponer volumen con suero salino intravenoso, que restaura el flujo renal. Los diuréticos empeorarían la hipovolemia y la diálisis no está indicada.",
       "tema": "Lesión renal aguda prerrenal por deshidratación: solución salina IV",
       "año": 2026
+    },
+    {
+      "id": "RM-NEF-001",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente de 55 años con anasarca, hiponatremia hipervolémica y concentración urinaria de sodio menor de 20 mmol/L. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Nefropatía perdedora de sal.",
+        "Hipotiroidismo.",
+        "Insuficiencia cardiaca.",
+        "Secreción inapropiada de HAD.",
+        "Falla renal aguda."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La hiponatremia hipervolémica aparece cuando hay exceso de agua corporal y de sodio total, con volumen circulante efectivo disminuido: insuficiencia cardiaca, cirrosis hepática y síndrome nefrótico. El riñón percibe hipovolemia efectiva, activa el sistema renina-angiotensina-aldosterona y la vasopresina (ADH), retiene sodio y agua y por eso el sodio urinario es bajo (< 20 mmol/L). Con anasarca, la causa más probable de las opciones es la insuficiencia cardiaca. En la pérdida renal de sal el sodio urinario es alto (> 20-40 mmol/L) con hipovolemia; en el SIADH el paciente es euvolémico con sodio urinario alto; en la falla renal aguda establecida también está alto. Tratamiento: restricción de agua y sodio, diuréticos de asa y tratar la causa; evitar la solución salina isotónica en exceso.",
+      "comentario": "La hiponatremia hipervolémica aparece cuando hay exceso de agua corporal y de sodio total, con volumen circulante efectivo disminuido: insuficiencia cardiaca, cirrosis hepática y síndrome nefrótico. El riñón percibe hipovolemia efectiva, activa el sistema renina-angiotensina-aldosterona y la vasopresina (ADH), retiene sodio y agua y por eso el sodio urinario es bajo (< 20 mmol/L). Con anasarca, la causa más probable de las opciones es la insuficiencia cardiaca. En la pérdida renal de sal el sodio urinario es alto (> 20-40 mmol/L) con hipovolemia; en el SIADH el paciente es euvolémico con sodio urinario alto; en la falla renal aguda establecida también está alto. Tratamiento: restricción de agua y sodio, diuréticos de asa y tratar la causa; evitar la solución salina isotónica en exceso.",
+      "tema": "Hiponatremia hipervolémica con sodio urinario bajo",
+      "año": 2014,
+      "fuentes": "Guía europea de hiponatremia (ESE/ESICM/ERA-EDTA, 2014); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-NEF-002",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 68 años, 60 kg de peso, refiere presentar hace 3 meses cefalea global en forma episódica, astenia, hiporexia, edema palpebral; con antecedente de hipertensión arterial no controlada. Funciones vitales: PA: 170/100 mmHg, FC: 62 x min, FR: 20 x min, afebril. Laboratorio: Hto: 28 %, creatinina: 3 mg/dL, urea: 68 mg/dL. Sedimento urinario: leucocitos: 3-5/campo, hematíes: 15-18/campo. ¿Qué antihipertensivo elegiría?",
+      "opciones": [
+        "Enalapril.",
+        "Atenolol.",
+        "Reserpina.",
+        "Nifedipino.",
+        "Hidroclorotiazida."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un paciente hipertenso con enfermedad renal crónica (creatinina 3 mg/dL, anemia, edema, hematuria) y probable daño glomerular necesita un fármaco que reduzca la presión intraglomerular y la proteinuria: los IECA (enalapril) y los ARA II son de primera línea, con vigilancia de creatinina y potasio a la semana de iniciar o aumentar la dosis; se acepta un aumento de creatinina de hasta el 30 %. Se suspenden si la creatinina sube más, hay hiperpotasemia mayor de 5,5 mEq/L o estenosis bilateral de arterias renales. Las tiazidas pierden eficacia con filtrado < 30 mL/min (se prefieren los diuréticos de asa), el atenolol se acumula en insuficiencia renal, la reserpina es de segunda línea y el nifedipino puede añadirse como segundo fármaco. La meta es PA < 130/80 mmHg. Los iSGLT2 y la finerenona se añaden en enfermedad renal diabética según KDIGO 2024.",
+      "comentario": "Un paciente hipertenso con enfermedad renal crónica (creatinina 3 mg/dL, anemia, edema, hematuria) y probable daño glomerular necesita un fármaco que reduzca la presión intraglomerular y la proteinuria: los IECA (enalapril) y los ARA II son de primera línea, con vigilancia de creatinina y potasio a la semana de iniciar o aumentar la dosis; se acepta un aumento de creatinina de hasta el 30 %. Se suspenden si la creatinina sube más, hay hiperpotasemia mayor de 5,5 mEq/L o estenosis bilateral de arterias renales. Las tiazidas pierden eficacia con filtrado < 30 mL/min (se prefieren los diuréticos de asa), el atenolol se acumula en insuficiencia renal, la reserpina es de segunda línea y el nifedipino puede añadirse como segundo fármaco. La meta es PA < 130/80 mmHg. Los iSGLT2 y la finerenona se añaden en enfermedad renal diabética según KDIGO 2024.",
+      "tema": "Antihipertensivo en enfermedad renal con hematuria",
+      "año": 2019,
+      "fuentes": "KDIGO, hipertensión arterial en enfermedad renal crónica (2021) y ERC (2024); ACC/AHA, guía de hipertensión (2025)"
+    },
+    {
+      "id": "RM-NEF-003",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 45 años, asintomático, acude para evaluación de función renal. Antecedentes: HTA hace 2 meses sin tratamiento, DM2 hace 5 años. Examen: PA: 160/100 mmHg, resto no contributorio. Laboratorio: depuración de creatinina: 100 mL/min. Proteinuria de 24 h: 500 mg en dos oportunidades. ¿Cuál es el fármaco de elección?",
+      "opciones": [
+        "Metildopa.",
+        "Amlodipino.",
+        "Hidroclorotiazida.",
+        "Enalapril.",
+        "Furosemida."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Un diabético hipertenso con proteinuria persistente (500 mg/24 h son valores de albuminuria moderada-grave) tiene nefropatía diabética incipiente y se beneficia sobre todo de un IECA o un ARA II, porque reducen la presión intraglomerular al dilatar la arteriola eferente, disminuyen la proteinuria y retrasan la progresión a enfermedad renal terminal. Las guías KDIGO, ADA y ACC/AHA recomiendan IECA/ARA II como primera línea cuando hay albuminuria; la meta de PA es < 130/80 mmHg y se añaden después amlodipino o una tiazida (clortalidona). Se agregan iSGLT2 (empagliflozina, dapagliflozina) y, si persiste albuminuria, finerenona; metformina si el filtrado es > 30 mL/min. Se controlan creatinina y potasio a los 7-14 días. Los IECA están contraindicados en el embarazo, el angioedema previo y la estenosis bilateral de arterias renales.",
+      "comentario": "Un diabético hipertenso con proteinuria persistente (500 mg/24 h son valores de albuminuria moderada-grave) tiene nefropatía diabética incipiente y se beneficia sobre todo de un IECA o un ARA II, porque reducen la presión intraglomerular al dilatar la arteriola eferente, disminuyen la proteinuria y retrasan la progresión a enfermedad renal terminal. Las guías KDIGO, ADA y ACC/AHA recomiendan IECA/ARA II como primera línea cuando hay albuminuria; la meta de PA es < 130/80 mmHg y se añaden después amlodipino o una tiazida (clortalidona). Se agregan iSGLT2 (empagliflozina, dapagliflozina) y, si persiste albuminuria, finerenona; metformina si el filtrado es > 30 mL/min. Se controlan creatinina y potasio a los 7-14 días. Los IECA están contraindicados en el embarazo, el angioedema previo y la estenosis bilateral de arterias renales.",
+      "tema": "Nefropatía diabética incipiente: elección del fármaco",
+      "año": 2019,
+      "fuentes": "ADA, estándares de atención en diabetes (2026); KDIGO, diabetes y enfermedad renal crónica (2022) y ERC (2024); ACC/AHA, hipertensión (2025)"
     }
   ]
 }

@@ -1361,6 +1361,47 @@
       "comentario": "Las piezas encajan en un diagnóstico. Hay hiperglucemia, con la glucosa elevada; hay acidosis metabólica, con el pH muy bajo y el bicarbonato desplomado; hay cuerpos cetónicos en la orina, es decir cetosis; y hay la respiración profunda y rápida de Kussmaul, que es el intento del pulmón de eliminar el exceso de ácido. Esa combinación de glucosa alta, cetonas y acidosis es la definición de la cetoacidosis diabética, que se produce cuando la falta de insulina obliga al cuerpo a quemar grasa y generar cuerpos cetónicos, unos ácidos que consumen el bicarbonato y acidifican la sangre. Además, esos cetoácidos son aniones no medidos que aumentan el anión gap; por eso es una acidosis metabólica con anión gap elevado. Los síntomas de poliuria, polidipsia y el dolor abdominal completan el cuadro clásico. El estado hiperglucémico hiperosmolar es la trampa a evitar: también cursa con hiperglucemia, pero típicamente con glucosas mucho más altas, sin cetonas significativas y sin acidosis marcada, justo lo contrario de este paciente que sí tiene cetonas y acidosis profunda. La acidosis por enfermedad renal terminal no explica la hiperglucemia con cetonas ni encaja con este cuadro agudo. La acidosis láctica por hipoperfusión ocurre en el shock con mala perfusión de los tejidos, pero este paciente está normotenso y tiene cetonas en orina, lo que señala que su acidosis es por cetoácidos, no por lactato; el conjunto de hiperglucemia, cetosis y acidosis con anión gap elevado es la cetoacidosis diabética. Hiperglucemia + cetonas en orina + acidosis metabólica (pH y bicarbonato bajos) con respiración de Kussmaul = cetoacidosis diabética con anión gap elevado (los cetoácidos consumen bicarbonato y elevan el anión gap). El estado hiperosmolar tiene glucosa mucho más alta pero sin cetosis ni acidosis marcada.",
       "tema": "Cetoacidosis diabética: acidosis metabólica con anión gap elevado",
       "año": 2026
+    },
+    {
+      "id": "RM-END-001",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 35 años que acude a emergencia con crisis hipertensivas a repetición. En una oportunidad presentó dolor abdominal por lo cual le solicitaron una TAC abdominal encontrándose una tumoración sobre el riñón izquierdo. ¿Qué examen se solicita para precisar el diagnóstico?",
+      "opciones": [
+        "Cortisol plasmático.",
+        "Metanefrinas urinarias.",
+        "Renina sérica.",
+        "IGF-1.",
+        "Aldosterona."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hipertensión paroxística en un joven con una masa suprarrenal izquierda sugiere feocromocitoma, tumor productor de catecolaminas (tríada: cefalea, sudoración y palpitaciones). La prueba diagnóstica inicial recomendada por la Endocrine Society (2014, vigente en 2026) es la medición de metanefrinas fraccionadas libres en plasma o en orina de 24 horas, más sensibles (> 95 %) que las catecolaminas porque el tumor las produce de forma continua y no episódica. Luego se localiza con TC o RM. Antes de operar es obligatorio el bloqueo alfa (fenoxibenzamina o doxazosina) durante 10-14 días y después el betabloqueante: nunca betabloqueo solo, porque desenmascara la vasoconstricción alfa y puede precipitar una crisis. El cortisol, la aldosterona y la renina estudian el síndrome de Cushing y el hiperaldosteronismo.",
+      "comentario": "La hipertensión paroxística en un joven con una masa suprarrenal izquierda sugiere feocromocitoma, tumor productor de catecolaminas (tríada: cefalea, sudoración y palpitaciones). La prueba diagnóstica inicial recomendada por la Endocrine Society (2014, vigente en 2026) es la medición de metanefrinas fraccionadas libres en plasma o en orina de 24 horas, más sensibles (> 95 %) que las catecolaminas porque el tumor las produce de forma continua y no episódica. Luego se localiza con TC o RM. Antes de operar es obligatorio el bloqueo alfa (fenoxibenzamina o doxazosina) durante 10-14 días y después el betabloqueante: nunca betabloqueo solo, porque desenmascara la vasoconstricción alfa y puede precipitar una crisis. El cortisol, la aldosterona y la renina estudian el síndrome de Cushing y el hiperaldosteronismo.",
+      "tema": "Feocromocitoma: metanefrinas",
+      "año": 2014,
+      "fuentes": "Endocrine Society, feocromocitoma y paraganglioma (Lenders 2014); Harrison Principios de Medicina Interna 22.ª ed."
+    },
+    {
+      "id": "RM-END-002",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Varón de 35 años acude a emergencia por presentar crisis hipertensiva con valores de presión arterial superior a 200/100 mmHg, situación que se ha repetido en varias oportunidades. Antecedente de presentar dolor abdominal, por lo cual le solicitaron una TAC abdominal encontrándose una tumoración sobre el riñón izquierdo. ¿Qué examen solicita para precisar el diagnóstico?",
+      "opciones": [
+        "Metanefrinas urinarias.",
+        "Eritropoyetina.",
+        "Cortisol plasmático.",
+        "Aldosterona.",
+        "Renina sérica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La combinación de crisis hipertensivas paroxísticas y una masa suprarrenal sugiere feocromocitoma, tumor de las células cromafines que produce adrenalina y noradrenalina. Se confirma con metanefrinas fraccionadas en orina de 24 horas o, mejor, con metanefrinas libres en plasma, más sensibles que las catecolaminas y el ácido vanilmandélico; se evitan falsos positivos suspendiendo antidepresivos tricíclicos, levodopa y paracetamol cuando se mide por ciertos métodos. Después se localiza con TC o RM y, si es extra-suprarrenal o múltiple, con gammagrafía MIBG o PET-DOTATATE. Regla de oro: bloquear primero con alfa-bloqueo (fenoxibenzamina, doxazosina) 10-14 días antes de la cirugía y luego betabloqueo; el betabloqueo aislado puede provocar una crisis hipertensiva. Se asocia a MEN 2, von Hippel-Lindau y neurofibromatosis tipo 1: tamizaje genético en todos.",
+      "comentario": "La combinación de crisis hipertensivas paroxísticas y una masa suprarrenal sugiere feocromocitoma, tumor de las células cromafines que produce adrenalina y noradrenalina. Se confirma con metanefrinas fraccionadas en orina de 24 horas o, mejor, con metanefrinas libres en plasma, más sensibles que las catecolaminas y el ácido vanilmandélico; se evitan falsos positivos suspendiendo antidepresivos tricíclicos, levodopa y paracetamol cuando se mide por ciertos métodos. Después se localiza con TC o RM y, si es extra-suprarrenal o múltiple, con gammagrafía MIBG o PET-DOTATATE. Regla de oro: bloquear primero con alfa-bloqueo (fenoxibenzamina, doxazosina) 10-14 días antes de la cirugía y luego betabloqueo; el betabloqueo aislado puede provocar una crisis hipertensiva. Se asocia a MEN 2, von Hippel-Lindau y neurofibromatosis tipo 1: tamizaje genético en todos.",
+      "tema": "Hipertensión paroxística con masa suprarrenal",
+      "año": 2017,
+      "fuentes": "Endocrine Society, feocromocitoma y paraganglioma (Lenders 2014); Harrison Principios de Medicina Interna 22.ª ed.",
+      "nota_revision": "Pregunta repetida en RM 2014 y RM 2017 (misma clave)."
     }
   ]
 }

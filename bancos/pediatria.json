@@ -5440,6 +5440,26 @@
       "comentario": "La clave es no quedarse en la infección de la piel y reconocer que los exámenes dibujan un síndrome muy concreto. Reunamos las alteraciones de este niño que tuvo una infección: tiene los glóbulos blancos bajos y las plaquetas bajas, es decir dos líneas de la sangre disminuidas, lo que se llama citopenias; tiene las transaminasas muy elevadas, o sea el hígado inflamado; y tiene los triglicéridos altos. Fiebre prolongada, más citopenias en dos o tres líneas, más transaminasas altas, más triglicéridos elevados, todo desencadenado por una infección, es el patrón del síndrome hemofagocítico, en su forma secundaria, gatillada por un proceso infeccioso. Es una respuesta inmune descontrolada en la que las células defensoras se activan de forma exagerada y empiezan a devorar las células de la sangre, lo que explica la caída de las series y el compromiso del hígado. Por eso es el diagnóstico más probable. La leucemia linfoblástica aguda también puede dar citopenias, pero típicamente se acompaña de células inmaduras, los blastos, en la sangre, y no explica de forma característica esta combinación con triglicéridos altos y transaminasas tan elevadas en el contexto de una infección reciente. La aplasia medular produce el descenso de las tres series por una médula que deja de producir, pero no da la hipertrigliceridemia ni el compromiso hepático que definen este síndrome. La hepatitis viral aguda explicaría las transaminasas altas, pero no las citopenias ni los triglicéridos elevados; lo que reúne todos los hallazgos, fiebre, citopenias, hígado comprometido y triglicéridos altos tras una infección, es el síndrome hemofagocítico secundario. Fiebre persistente + citopenias en dos o más líneas + transaminasas muy elevadas + hipertrigliceridemia, desencadenados por una infección = síndrome hemofagocítico secundario (activación inmune descontrolada que fagocita las células sanguíneas). La leucemia mostraría blastos y la aplasia no da hipertrigliceridemia ni compromiso hepático.",
       "tema": "Síndrome hemofagocítico secundario a infección",
       "año": 2026
+    },
+    {
+      "id": "RM-PED-001",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "En un lactante pequeño, ¿qué signos y síntomas son sospecha de insuficiencia cardiaca?",
+      "opciones": [
+        "Disnea y sudoración profusa al lactar.",
+        "Hepatomegalia y distensión abdominal.",
+        "Crepitantes y polipnea.",
+        "Irritabilidad y cardiomegalia.",
+        "Politirajes y aleteo nasal."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el lactante la alimentación es el «ejercicio» que desencadena los síntomas: la insuficiencia cardiaca se manifiesta por disnea, sudoración profusa y cansancio durante la lactancia, tomas cortas y repetidas, mala ganancia de peso, taquipnea y taquicardia persistentes y hepatomegalia. A diferencia del adulto, la ortopnea y el edema de miembros son raros. Las causas más frecuentes son las cardiopatías congénitas con cortocircuito izquierda-derecha (comunicación interventricular, ductus arterioso persistente, canal auriculoventricular) que se hacen sintomáticas cuando baja la resistencia pulmonar (4-8 semanas); en las dos primeras semanas se piensa en lesiones ductodependientes (coartación crítica, hipoplasia de cavidades izquierdas). En adultos predominan la cardiopatía isquémica y la hipertensiva. Tratamiento: diuréticos, IECA, y corrección quirúrgica o percutánea.",
+      "comentario": "En el lactante la alimentación es el «ejercicio» que desencadena los síntomas: la insuficiencia cardiaca se manifiesta por disnea, sudoración profusa y cansancio durante la lactancia, tomas cortas y repetidas, mala ganancia de peso, taquipnea y taquicardia persistentes y hepatomegalia. A diferencia del adulto, la ortopnea y el edema de miembros son raros. Las causas más frecuentes son las cardiopatías congénitas con cortocircuito izquierda-derecha (comunicación interventricular, ductus arterioso persistente, canal auriculoventricular) que se hacen sintomáticas cuando baja la resistencia pulmonar (4-8 semanas); en las dos primeras semanas se piensa en lesiones ductodependientes (coartación crítica, hipoplasia de cavidades izquierdas). En adultos predominan la cardiopatía isquémica y la hipertensiva. Tratamiento: diuréticos, IECA, y corrección quirúrgica o percutánea.",
+      "tema": "Insuficiencia cardiaca en el lactante",
+      "año": 2014,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; AHA/ACC, cardiopatías congénitas del adulto (2018)"
     }
   ]
 }
