@@ -181,8 +181,8 @@
 
   function bancoEnVivo() {
     var sec = document.getElementById("analisis"); if (!sec || !window.MQP || !MQP.cargarTodo) return;
-    var cK = document.getElementById("anKpis"), cM = document.getElementById("anMapa"), cL = document.getElementById("anLeyenda"), cA = document.getElementById("anAnio");
-    var datos = null, hecho = false;
+    var cK = document.getElementById("anKpis"), cM = document.getElementById("anMapa"), cL = document.getElementById("anLeyenda");
+    var datos = null, hecho = false, sel = null, todas = [];
     function mapa() {
       if (!datos) return;
       var W = cM.clientWidth || 600, H = Math.round(W < 560 ? W * 1.15 : W * 0.56);
@@ -191,10 +191,37 @@
       cM.innerHTML = rects.map(function (r) {
         var e = datos.esp[r.i], pxW = r.w / 100 * W, pxH = r.h / 100 * H, grande = pxW > 130 && pxH > 80,
           lineas = Math.ceil(e.nombre.length * 8.6 / Math.max(pxW - 26, 1)), medio = pxW > 70 && lineas <= 4 && (lineas * 16 + 44) <= pxH;   // el nombre solo se escribe si cabe entero
-        return '<div class="tm" tabindex="0" style="left:' + r.x.toFixed(3) + '%;top:' + r.y.toFixed(3) + '%;width:' + r.w.toFixed(3) + '%;height:' + r.h.toFixed(3) + '%;--c:' + COL_AREA[e.area % COL_AREA.length] + '" data-tip="' + esc(e.nombre + " · " + miles(e.n) + " preguntas (" + e.areaNombre + ")") + '"><span class="tm__in">' +
+        return '<div class="tm' + (e.archivo === sel ? " is-sel" : "") + '" role="button" aria-pressed="' + (e.archivo === sel) + '" data-arch="' + esc(e.archivo) + '" tabindex="0" style="left:' + r.x.toFixed(3) + '%;top:' + r.y.toFixed(3) + '%;width:' + r.w.toFixed(3) + '%;height:' + r.h.toFixed(3) + '%;--c:' + COL_AREA[e.area % COL_AREA.length] + '" data-tip="' + esc(e.nombre + " · " + miles(e.n) + " preguntas (" + e.areaNombre + ")") + '"><span class="tm__in">' +
           (medio ? '<b>' + esc(e.nombre) + '</b>' : "") + '<i>' + miles(e.n) + (grande ? " preguntas" : "") + '</i></span></div>';
       }).join("");
     }
+    function detalle() {
+      var e = datos.esp.filter(function (x) { return x.archivo === sel; })[0]; if (!e) return;
+      var qs = todas.filter(function (q) { return q.archivo === sel; }), algos = window.MQP_ALGORITMOS || {}, base = MQP.base || "";
+      var temas = {}, anios = {}, flujos = 0;
+      qs.forEach(function (q) { var tm = q.categoria || q.tema; if (tm) temas[tm] = (temas[tm] || 0) + 1; var m = /(20\d\d)/.exec(q.examen || ""); if (m) anios[m[1]] = (anios[m[1]] || 0) + 1; var a = algos[q.id]; if (a && a.imagen) flujos++; });
+      var tk = Object.keys(temas).sort(function (a, b) { return temas[b] - temas[a]; }).slice(0, 5), ak = Object.keys(anios).sort();
+      var ej = qs.filter(function (q) { var a = algos[q.id]; return a && a.imagen && q.enunciado.length < 330; })[0] || qs[0];
+      var mx = Math.max.apply(null, tk.map(function (k) { return temas[k]; }).concat(1));
+      var barras = tk.length ? '<h4>Temas más frecuentes</h4><ul class="det__bar">' + tk.map(function (k) { return '<li><span>' + esc(k) + '</span><i><u style="width:' + Math.round(temas[k] / mx * 100) + '%"></u></i><b>' + temas[k] + '</b></li>'; }).join("") + '</ul>'
+        : ak.length ? '<h4>Convocatorias</h4><ul class="det__bar">' + ak.map(function (k) { return '<li><span>ENAM ' + esc(k) + '</span><i><u style="width:' + Math.round(anios[k] / Math.max.apply(null, ak.map(function (z) { return anios[z]; })) * 100) + '%"></u></i><b>' + anios[k] + '</b></li>'; }).join("") + '</ul>' : "";
+      var img = ej && algos[ej.id] && algos[ej.id].imagen ? '<figure class="det__flujo"><img alt="Flujograma clínico de una pregunta de ' + esc(e.nombre) + '" loading="lazy" src="' + esc(base + algos[ej.id].imagen) + '"><figcaption>Flujograma de esta pregunta</figcaption></figure>' : "";
+      var cD = document.getElementById("anDetalle");
+      cD.innerHTML = '<p class="det__area">' + esc(e.areaNombre) + '</p><h3>' + esc(e.nombre) + '</h3>' +
+        '<dl class="det__kpis"><div><dt>Preguntas</dt><dd>' + miles(qs.length) + '</dd></div><div><dt>Con flujograma</dt><dd>' + miles(flujos) + '</dd></div><div><dt>Comentadas</dt><dd>' + miles(qs.filter(function (q) { return q.comentario; }).length) + '</dd></div></dl>' +
+        barras +
+        (ej ? '<h4>Una pregunta de este banco</h4><blockquote class="det__q">' + esc(ej.enunciado) + '</blockquote>' : "") + img +
+        '<a class="btn btn--primary btn--block" href="#registro" data-app="app/#/banco">Practicar ' + esc(e.nombre) + ' gratis</a>';
+      mapa(); chips();
+    }
+    function chips() {
+      var c = document.getElementById("anChips"); if (!c) return;
+      c.innerHTML = datos.esp.map(function (e) { return '<button class="chip" type="button" data-arch="' + esc(e.archivo) + '" aria-pressed="' + (e.archivo === sel) + '">' + esc(e.nombre) + ' <span class="chip__n">' + miles(e.n) + '</span></button>'; }).join("");
+    }
+    function elegir(t) { var b = t.closest && t.closest("[data-arch]"); if (!b || b.getAttribute("data-arch") === sel) return; sel = b.getAttribute("data-arch"); detalle(); }
+    cM.addEventListener("click", function (ev) { elegir(ev.target); });
+    var cC = document.getElementById("anChips"); if (cC) cC.addEventListener("click", function (ev) { elegir(ev.target); });
+    cM.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); elegir(ev.target); } });
     function pintar() {
       if (hecho) return; hecho = true;
       MQP.cargarTodo().then(function (d) {
@@ -206,7 +233,7 @@
         });
         var areas = MQP.areas.map(function (a) { return a.id; });
         var esp = MQP.especialidades.filter(function (e) { return porEsp[e.archivo]; }).map(function (e) {
-          var ai = Math.max(0, areas.indexOf(e.area)); return { nombre: e.nombre, n: porEsp[e.archivo], area: ai, areaNombre: (MQP.area(e.area) || {}).nombre || "" };
+          var ai = Math.max(0, areas.indexOf(e.area)); return { archivo: e.archivo, nombre: e.nombre, n: porEsp[e.archivo], area: ai, areaNombre: (MQP.area(e.area) || {}).nombre || "" };
         }).sort(function (a, b) { return b.n - a.n; });
         if (!esp.length) { sec.hidden = true; return; }
         datos = { esp: esp };
@@ -216,8 +243,7 @@
         }).join("");
         [].forEach.call(cK.querySelectorAll(".spot__num"), function (el) { contar(el, +el.getAttribute("data-fin"), 1400); });
         if (cL) cL.innerHTML = MQP.areas.map(function (a, i) { return '<li><i style="background:' + COL_AREA[i % COL_AREA.length] + '"></i>' + esc(a.nombre) + '</li>'; }).join("");
-        var mayor = anios.reduce(function (m, k) { return porAnio[k] > porAnio[m] ? k : m; }, anios[0]), reciente = anios[anios.length - 1];
-        cA.innerHTML = areaAnios(porAnio) + (anios.length ? '<ul class="spot__datos"><li><span>Convocatoria con más preguntas</span><b>' + esc(mayor) + ' · ' + miles(porAnio[mayor]) + '</b></li><li><span>Más reciente</span><b>' + esc(reciente) + ' · ' + miles(porAnio[reciente]) + '</b></li><li><span>Especialidad más grande</span><b>' + esc(esp[0].nombre) + ' · ' + miles(esp[0].n) + '</b></li></ul>' : "");
+        todas = d.preguntas; sel = esp[0].archivo; detalle(); 
         mapa();
         if ("ResizeObserver" in window) { var ult = cM.clientWidth; new ResizeObserver(function () { if (Math.abs(cM.clientWidth - ult) > 8) { ult = cM.clientWidth; mapa(); } }).observe(cM); }
         iniciarTips();
@@ -229,31 +255,59 @@
     } else pintar();
   }
 
-  /* ---------------------------------------------------------------- web pública: celulares con pantallas reales del banco */
+  /* ---------------------------------------------------------------- web pública: celulares animados con pantallas reales del banco */
   function celulares() {
     var box = document.getElementById("movilPhones"); if (!box || !window.MQP || !MQP.cargarTodo) return;
-    var hecho = false;
+    var reducido = false; try { reducido = matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+    var hecho = false, visible = true, timers = [];
+    function rec(t, n) { t = String(t); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; }
+    var LOGO = '<div class="ph__logo"><span class="ph__marca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span><span>MedQuiz<b>Plus</b></span></div>';
+    function esp(f, ms) { timers.push(setTimeout(function () { if (!visible && !reducido) { timers.push(setTimeout(function () { esp(f, 600); }, 600)); return; } f(); }, ms)); }
+
     function pintar() {
       if (hecho) return; hecho = true;
       MQP.cargarTodo().then(function (d) {
-        var algos = window.MQP_ALGORITMOS || {};
-        var cand = d.preguntas.filter(function (q) { var a = algos[q.id]; return q.comentario && q.comentario.length > 60 && q.enunciado.length < 230 && q.opciones.length >= 4 && a && a.imagen; });
-        if (!cand.length) { box.parentNode.hidden = true; return; }
-        var q = cand[Math.floor(Math.random() * cand.length)], rec = function (t, n) { t = String(t); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; };
-        var base = MQP.base || "";
-        var LOGO = '<div class="ph__logo"><span class="ph__marca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></svg></span><span>MedQuiz<b>Plus</b></span></div>';
-        document.getElementById("phPregunta").innerHTML = LOGO + '<div class="ph__bar"><span>' + esc(q.especialidad) + '</span><span>Modo estudio</span></div>' +
-          '<p class="ph__stem">' + esc(rec(q.enunciado, 210)) + '</p><ul class="ph__ops">' + q.opciones.slice(0, 4).map(function (o) {
-            var ok = o.letra === q.clave; return '<li class="' + (ok ? "is-ok" : "") + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 56)) + '</span></li>'; }).join("") + '</ul>' +
-          '<p class="ph__why"><b>Comentario docente</b>' + esc(rec(q.comentario, 120)) + '</p>';
-        var top = MQP.especialidades.map(function (e) { return { e: e, n: d.preguntas.filter(function (p) { return p.archivo === e.archivo; }).length }; }).sort(function (a, b) { return b.n - a.n; }).slice(0, 6);
-        document.getElementById("phEsp").innerHTML = LOGO + '<div class="ph__bar"><span>Banco ENAM</span><span>' + miles(d.preguntas.length) + '</span></div><p class="ph__tit">Especialidades</p><ul class="ph__esp">' +
-          top.map(function (t) { return '<li><span class="ph__ico">' + MQP.icono(t.e.icono) + '</span><span>' + esc(t.e.nombre) + '</span><small>' + miles(t.n) + '</small></li>'; }).join("") + '</ul>';
-        document.getElementById("phFlujo").innerHTML = LOGO + '<div class="ph__bar"><span>Flujograma</span><span>' + esc(q.id) + '</span></div><img class="ph__img" alt="" loading="lazy" src="' + esc(base + algos[q.id].imagen) + '">';
+        var algos = window.MQP_ALGORITMOS || {}, base = MQP.base || "";
+        var cand = d.preguntas.filter(function (q) { var a = algos[q.id]; return q.comentario && q.comentario.length > 60 && q.enunciado.length < 200 && q.opciones.length >= 4 && a && a.imagen; });
+        if (cand.length < 3) { box.parentNode.hidden = true; return; }
+        for (var j = cand.length - 1; j > 0; j--) { var r = Math.floor(Math.random() * (j + 1)), t = cand[j]; cand[j] = cand[r]; cand[r] = t; }
+        var vistas = {}, qs = []; cand.forEach(function (q) { if (qs.length < 3 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; qs.push(q); } });
+
+        /* teléfono central: una pregunta se responde sola, con toque y comentario, y pasa a la siguiente */
+        var P = document.getElementById("phPregunta"), k = 0;
+        P.innerHTML = LOGO + '<div class="ph__bar"><span id="phArea"></span><span><b id="phN">1</b>/3</span></div><p class="ph__stem" id="phStem"></p><ul class="ph__ops" id="phOps"></ul><div class="ph__why" id="phWhy"></div><span class="ph__chip" id="phChip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg>Ver flujograma</span><span class="ph__toque" id="phToque"></span>';
+        function ver(q) {
+          document.getElementById("phArea").textContent = q.especialidad; document.getElementById("phN").textContent = String((k % 3) + 1);
+          document.getElementById("phStem").textContent = rec(q.enunciado, 150);
+          document.getElementById("phOps").innerHTML = q.opciones.slice(0, 4).map(function (o) { return '<li data-l="' + esc(o.letra) + '"><b>' + esc(o.letra) + '</b><span>' + esc(rec(o.texto, 44)) + '</span></li>'; }).join("");
+          var w = document.getElementById("phWhy"); w.className = "ph__why"; w.innerHTML = '<b>Comentario docente</b>' + esc(rec(q.comentario, 110));
+          document.getElementById("phChip").className = "ph__chip"; P.classList.remove("is-in"); void P.offsetWidth; P.classList.add("is-in");
+        }
+        function ciclo() {
+          var q = qs[k % 3]; ver(q);
+          if (reducido) { var o0 = document.querySelector('#phOps [data-l="' + q.clave + '"]'); if (o0) o0.classList.add("is-ok"); document.getElementById("phWhy").classList.add("is-on"); return; }
+          esp(function () {
+            var op = document.querySelector('#phOps [data-l="' + q.clave + '"]'); if (!op) return;
+            var rp = op.getBoundingClientRect(), rc = P.getBoundingClientRect(), tq = document.getElementById("phToque");
+            tq.style.left = (rp.left - rc.left + rp.width * 0.7) + "px"; tq.style.top = (rp.top - rc.top + rp.height * 0.5) + "px"; tq.className = "ph__toque is-on";
+            esp(function () { op.classList.add("is-ok"); tq.className = "ph__toque"; esp(function () { document.getElementById("phWhy").classList.add("is-on"); esp(function () { document.getElementById("phChip").classList.add("is-on"); esp(function () { k++; ciclo(); }, 3400); }, 900); }, 450); }, 650);
+          }, 1500);
+        }
+        ciclo();
+
+        /* teléfono izquierdo: las especialidades reales con su tamaño, desplazándose */
+        var conteo = {}; d.preguntas.forEach(function (p) { conteo[p.archivo] = (conteo[p.archivo] || 0) + 1; });
+        var lista = MQP.especialidades.filter(function (e) { return conteo[e.archivo]; }).map(function (e) { return { e: e, n: conteo[e.archivo] }; }).sort(function (a, b) { return b.n - a.n; });
+        var max = lista[0].n, fila = function (t) { return '<li><span class="ph__ico">' + MQP.icono(t.e.icono) + '</span><span class="ph__nom">' + esc(t.e.nombre) + '<i><u style="--w:' + Math.round(t.n / max * 100) + '%"></u></i></span><small>' + miles(t.n) + '</small></li>'; };
+        document.getElementById("phEsp").innerHTML = LOGO + '<div class="ph__bar"><span>Banco ENAM</span><span>' + miles(d.preguntas.length) + ' preguntas</span></div><p class="ph__tit">Especialidades</p><div class="ph__busca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span>Buscar especialidad…</span></div><div class="ph__scroll"><ul class="ph__esp ph__esp--mov">' + lista.map(fila).join("") + lista.map(fila).join("") + '</ul></div>';
+
+        /* teléfono derecho: el flujograma real, con zoom y desplazamiento continuos */
+        document.getElementById("phFlujo").innerHTML = LOGO + '<div class="ph__bar"><span>Flujograma clínico</span><span class="ph__zoom"><b>−</b><b class="ph__mas">+</b></span></div><div class="ph__vista"><img class="ph__img" alt="" loading="lazy" src="' + esc(base + algos[qs[0].id].imagen) + '"></div><p class="ph__pie">Toca para acercar · arrastra para moverte</p>';
       }, function () { box.parentNode.hidden = true; });
     }
-    if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (e) { if (e[0].isIntersecting) { io.disconnect(); pintar(); } }, { rootMargin: "300px 0px" }); io.observe(box); } else pintar();
+    if ("IntersectionObserver" in window) { var io = new IntersectionObserver(function (e) { visible = e[0].isIntersecting; if (visible) pintar(); box.classList.toggle("is-activo", visible); }, { rootMargin: "200px 0px" }); io.observe(box); } else { pintar(); box.classList.add("is-activo"); }
   }
+
   /* ---------------------------------------------------------------- hero: un "estudiante" resuelve 4 preguntas reales en la pantalla */
   function heroPantalla() {
     var app = document.getElementById("hsApp"); if (!app || !window.MQP || !MQP.cargarTodo) return;
@@ -278,7 +332,7 @@
       var r = el.getBoundingClientRect(), a = app.getBoundingClientRect();
       return { x: r.left - a.left + (dx == null ? r.width * 0.5 : dx), y: r.top - a.top + (dy == null ? r.height * 0.55 : dy) };
     }
-    function ir(el, dx, dy, ms) { var p = pos(el, dx, dy); cur.style.transitionDuration = (ms || 1000) + "ms"; cur.style.left = p.x + "px"; cur.style.top = p.y + "px"; return esp((ms || 1000) + 80); }
+    function ir(el, dx, dy, ms) { if (!el) return esp(ms || 300); var p = pos(el, dx, dy); cur.style.transitionDuration = (ms || 1000) + "ms"; cur.style.left = p.x + "px"; cur.style.top = p.y + "px"; return esp((ms || 1000) + 80); }
     function clic() { cur.classList.add("is-click"); return esp(260).then(function () { cur.classList.remove("is-click"); }); }
     function setCursorInicio() { cur.style.transitionDuration = "0ms"; cur.style.left = app.clientWidth * 0.82 + "px"; cur.style.top = app.clientHeight * 0.92 + "px"; cur.classList.add("is-on"); }
 
@@ -320,10 +374,15 @@
           return esp(700);
         }).then(function () {
           ok.classList.add("is-ok");
-          elFb.innerHTML = '<b>' + (acierta ? "Correcto" : "Incorrecto") + '</b> · Comentario docente: ' + esc(rec(q.comentario, 130));
+          elFb.innerHTML = '<b>' + (acierta ? "Correcto" : "Incorrecto") + '</b> · Comentario docente: ' + esc(rec(q.comentario, 110)) +
+            '<span class="mapp__verflujo" id="hsVerFlujo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2.5" width="6" height="5" rx="1"/><rect x="3" y="16.5" width="6" height="5" rx="1"/><rect x="15" y="16.5" width="6" height="5" rx="1"/><path d="M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14"/></svg>Ver algoritmo / Flujograma</span>';
           elFb.className = "mapp__fb " + (acierta ? "is-ok" : "is-mal"); elFb.hidden = false;
-          return esp(acierta ? 2400 : 1800);
-        }).then(function () { return acierta ? null : verFlujo(q); });
+          return esp(acierta ? 2400 : 1500);
+        }).then(function () {
+          if (acierta) return null;
+          var btn = $("hsVerFlujo");                              // el cursor pulsa "Ver algoritmo / Flujograma", igual que en el banco
+          return ir(btn, null, null, 1100).then(function () { btn.classList.add("is-pulsado"); return clic(); }).then(function () { return esp(250); }).then(function () { return verFlujo(q); });
+        });
     }
 
     function resultados(lista) {

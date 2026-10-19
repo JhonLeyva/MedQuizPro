@@ -475,8 +475,7 @@
       [].forEach.call(document.querySelectorAll("#quiz .demo__stem, #quiz .demo__options, #quiz .demo__foot"), function (e) { e.hidden = false; });
       var rb = document.getElementById("qReset"); if (rb) rb.hidden = true;
       sesion.respondidas = 0; sesion.correctas = 0; registro = []; pintarSesion();
-      preguntas = estaticas; i = 0; pintar();                 // mientras llegan las 10 nuevas, no queda vacío
-      cargarReales(false);
+      i = 0; pintar();                                        // las MISMAS preguntas, desde la primera (no se sortean otras)
     }
     function armarIdle() {
       if (idle) clearTimeout(idle);
@@ -518,7 +517,7 @@
       caja.scrollIntoView && caja.scrollIntoView({ block: "nearest", behavior: reduced ? "auto" : "smooth" });
     }
 
-    /* ---- 10 preguntas reales y al azar, todas con flujograma ---- */
+    /* ---- 5 preguntas reales y al azar, todas con flujograma ---- */
     function barajar(a) { for (var k = a.length - 1; k > 0; k--) { var j = Math.floor(Math.random() * (k + 1)), t = a[k]; a[k] = a[j]; a[j] = t; } return a; }
     function cargarReales(otras) {
       var M = window.MQP; if (!M || !M.cargarTodo) return;
@@ -528,12 +527,12 @@
           var a = algos[q.id];
           return q.comentario && q.comentario.length > 40 && q.enunciado.length <= 340 && q.opciones.length >= 4 && a && a.imagen && q.clave;
         });
-        if (cand.length < 10) return;
+        if (cand.length < 5) return;
         if (sesion.respondidas > 0) return;                 // ya empezó con las de respaldo: no se le cambia la pregunta a mitad
         barajar(cand);
         var elegidas = [], vistas = {};
-        cand.forEach(function (q) { if (elegidas.length < 10 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; elegidas.push(q); } });   // de especialidades distintas
-        cand.forEach(function (q) { if (elegidas.length < 10 && elegidas.indexOf(q) === -1) elegidas.push(q); });
+        cand.forEach(function (q) { if (elegidas.length < 5 && !vistas[q.especialidad]) { vistas[q.especialidad] = 1; elegidas.push(q); } });   // de especialidades distintas
+        cand.forEach(function (q) { if (elegidas.length < 5 && elegidas.indexOf(q) === -1) elegidas.push(q); });
         var base = M.base || "";
         preguntas = elegidas.map(function (q) {
           var idx = 0; q.opciones.forEach(function (o, k) { if (o.letra === q.clave) idx = k; });
@@ -2171,7 +2170,7 @@
       var acepto = document.getElementById("f-acepto");
       if (acepto && !error("e-acepto", !acepto.checked, acepto)) { acepto.focus(); return; }
       var srv = document.getElementById("e-servidor"), boton = form.querySelector("button[type=submit]");
-      var valorExamen = examen.value === "RM" ? "residentado" : examen.value === "EsSalud" ? "essalud" : "enam";
+      var valorExamen = examen.value === "RM" ? "residentado" : examen.value === "EsSalud" ? "essalud" : examen.value === "ENCAPS" ? "encaps" : "enam";
       if (srv) srv.hidden = true;
       boton.disabled = true; var textoBoton = boton.textContent; boton.textContent = "Creando tu cuenta…";
       fetch(((window.MQP && window.MQP.base) || "") + "cuenta.php?a=registro", {
@@ -2184,7 +2183,7 @@
           var elNombre = document.getElementById("successName");
           var elMsg = document.getElementById("successMsg");
           if (elNombre) elNombre.textContent = nombre.value.trim().split(/\s+/)[0];
-          if (elMsg) elMsg.textContent = "Tu cuenta gratuita para " + (valorExamen === "residentado" ? "el Residentado" : valorExamen === "essalud" ? "EsSalud" : "el ENAM") + " quedó lista. Ya puedes entrar a la plataforma y empezar a entrenar.";
+          if (elMsg) elMsg.textContent = "Tu cuenta gratuita para " + (valorExamen === "residentado" ? "el Residentado" : valorExamen === "essalud" ? "EsSalud" : valorExamen === "encaps" ? "el ENCAPS SERUMS" : "el ENAM") + " quedó lista. Ya puedes entrar a la plataforma y empezar a entrenar.";
           if (window.MQP) window.MQP.progreso.preferencia("examen", valorExamen);
           form.hidden = true;
           exito.hidden = false;
@@ -2195,6 +2194,63 @@
           if (srv) { srv.textContent = (e && e.message && !/JSON|fetch|Failed|Network/i.test(e.message)) ? e.message : "No pudimos crear la cuenta en este momento. Inténtalo de nuevo en unos minutos."; srv.hidden = false; }
         });
     });
+  });
+
+  /* ---------- precios por examen (mismos importes que EXAMENES en cuenta.php) ---------- */
+  safe("precios", function () {
+    var cont = document.getElementById("planesLanding"), tabs = document.getElementById("planTabs"), est = document.getElementById("planEstado");
+    if (!cont || !tabs) return;
+    var EX = {
+      essalud: { n: "EsSalud", abierto: false, p: [19, 45, 129] },
+      enam: { n: "ENAM", abierto: true, p: [29, 69, 199] },
+      residentado: { n: "Residentado Médico", abierto: false, p: [35, 85, 249] },
+      encaps: { n: "ENCAPS SERUMS", abierto: false, p: [25, 59, 169] }
+    };
+    var PER = [["mensual", "Mensual", "por 30 días", 1, "Un mes para probar a fondo."], ["trimestral", "Trimestral", "por 3 meses", 3, "El ritmo de una preparación seria."], ["anual", "Anual", "por 12 meses", 12, "Preparación completa, al menor costo."]];
+    var FLECHA = '<svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+    function li(arr) { return arr.map(function (t) { return "<li>" + t + "</li>"; }).join(""); }
+    function pintar(k) {
+      var e = EX[k];
+      var comunes = e.abierto
+        ? ["Preguntas ilimitadas, sin tope diario", "Simulacro ENAM 2020 completo", "Todos los simuladores y el tutor de IA", "Comentario docente y flujograma en cada pregunta", "Progreso, falladas y favoritas"]
+        : ["Banco de " + e.n + " en construcción", "Simuladores y tutor de IA incluidos", "Comentario docente y flujograma", "Te avisamos apenas abra"];
+      var h = '<article class="plan is-in"><h3 class="plan__name">Gratis</h3><p class="plan__desc">Para empezar a entrenar hoy.</p>' +
+        '<p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">sin tarjeta</span></p>' +
+        '<a class="btn btn--ghost btn--lg btn--block" href="#registro" data-app="app/#/inicio">Crear cuenta ' + FLECHA + '</a>' +
+        '<ul class="plan__list">' + li(["Banco ENAM por especialidad con comentario docente", "Flujograma clínico en cada pregunta", "Simulacro rápido y por especialidad", "20 preguntas al día", "Progreso, falladas y favoritas"]) + '</ul></article>';
+      PER.forEach(function (p, i) {
+        var pre = e.p[i], mes = Math.round(pre / p[3]), pro = p[0] === "trimestral";
+        var cta = e.abierto ? "Elegir plan" : "Avisarme cuando abra";
+        h += '<article class="plan is-in' + (pro ? " plan--pro" : "") + '">' + (pro ? '<span class="plan__badge">Más elegido</span>' : p[0] === "anual" ? '<span class="plan__badge">Mejor precio</span>' : "") +
+          '<h3 class="plan__name">' + p[1] + '</h3><p class="plan__desc">' + p[4] + '</p>' +
+          '<p class="plan__price"><span class="plan__amount">S/ ' + pre + '</span><span class="plan__per">' + p[2] + (p[3] > 1 ? " · S/ " + mes + " al mes" : "") + '</span></p>' +
+          '<a class="btn ' + (pro ? "btn--primary" : "btn--ghost") + ' btn--lg btn--block" href="#registro" data-app="app/#/planes?examen=' + k + '" data-examen="' + k + '">' + cta + " " + FLECHA + '</a>' +
+          '<ul class="plan__list">' + li(comunes) + '</ul></article>';
+      });
+      cont.innerHTML = h;
+      est.textContent = e.abierto ? "" : "El banco de " + e.n + " está en construcción: todavía no se vende. Crea tu cuenta y te avisamos cuando abra.";
+      est.hidden = e.abierto;
+      [].forEach.call(tabs.querySelectorAll("[data-ex]"), function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-ex") === k)); });
+      // una sesión iniciada lleva directo a la plataforma
+      if (window.__mqpSesion) [].forEach.call(cont.querySelectorAll("[data-app]"), function (a) { a.setAttribute("href", a.getAttribute("data-app")); });
+    }
+    tabs.addEventListener("click", function (ev) { var b = ev.target.closest("[data-ex]"); if (b) pintar(b.getAttribute("data-ex")); });
+    pintar("enam");
+  });
+
+  /* ---------- si ya hay una sesión iniciada, los botones llevan directo a la plataforma (si no, a crear cuenta) ---------- */
+  safe("sesion-landing", function () {
+    if (!document.querySelector("[data-app]")) return;
+    fetch(((window.MQP && window.MQP.base) || "") + "cuenta.php?a=me", { credentials: "same-origin", cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (!j || !j.usuario) return;
+        window.__mqpSesion = true;
+        [].forEach.call(document.querySelectorAll("[data-app]"), function (a) { a.setAttribute("href", a.getAttribute("data-app")); });
+        var hero = document.querySelector(".hero__actions .btn--primary"); if (hero) { hero.setAttribute("href", "app/#/inicio"); hero.firstChild.textContent = "Ir a mi plataforma "; }
+        var ent = document.querySelector(".nav__login"); if (ent) { ent.setAttribute("href", "app/#/inicio"); ent.textContent = "Mi plataforma"; }
+        var cta = document.querySelector(".header-cta"); if (cta) { cta.setAttribute("href", "app/#/planes"); cta.textContent = "Ver planes"; }
+      }).catch(function () {});
   });
 
   /* ---------- año del pie ---------- */
@@ -2401,6 +2457,9 @@
       var M = window.MQP; if (!M || !M.cargarTodo) return Promise.resolve("");
       return M.cargarTodo().then(function (d) {
         var q0 = norm(texto), corto = function (t, n) { t = String(t || ""); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : t; };
+        if (/^\s*(hola|buenas|buenos dias|buenas tardes|buenas noches|hey|holi|que tal)\b/.test(q0) && q0.split(/\s+/).length <= 5) return "¡Hola! Soy el tutor de MedQuizPlus. Escríbeme un tema o una enfermedad (por ejemplo: preeclampsia, infarto, neumonía) y te muestro lo que dice el banco, o pídeme un plan de estudio de 4 semanas.";
+        if (/\b(gracias|muchas gracias|genial|listo|ok)\b/.test(q0) && q0.split(/\s+/).length <= 4) return "¡De nada! Cuando quieras, escríbeme otro tema y lo revisamos.";
+        if (/quien eres|que eres|que puedes|que haces|como funcionas|para que sirves/.test(q0)) return "Soy el tutor de MedQuizPlus. Te ayudo a estudiar con el banco de preguntas comentadas: busco un tema, te muestro las preguntas más cercanas con su comentario docente y te armo un plan de estudio. Pruébame con una enfermedad o con «plan de estudio».";
         if (/\bplan\b|cronograma|organizar|semanas|horario/.test(q0)) {
           var esp = M.especialidades.map(function (e) { return { n: e.nombre, c: d.preguntas.filter(function (p) { return p.archivo === e.archivo; }).length }; }).filter(function (e) { return e.c; }).sort(function (a, b) { return b.c - a.c; });
           var sem = [[], [], [], []], tot = [0, 0, 0, 0];

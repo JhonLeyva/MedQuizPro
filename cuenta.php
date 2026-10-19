@@ -9,7 +9,8 @@
  *   registro   (POST)  crea la cuenta y abre sesión
  *   ingresar   (POST)  abre sesión
  *   salir      (POST)  cierra sesión
- *   comprar    (POST)  crea el cobro (PayU o Mercado Pago) y devuelve cómo ir a pagar
+ *   comprar    (POST)  crea el cobro de un plan de un examen (PayU o Mercado Pago) y devuelve cómo ir a pagar
+ *   espera     (POST)  se apunta a la lista de espera de un examen cuyo banco aún no abrió
  *   webhook    (POST)  aviso de Mercado Pago: se verifica el pago y se activa el plan
  *   payu       (POST)  confirmación de PayU: se verifica la firma y se activa el plan
  *   retorno    (GET)   a donde PayU devuelve al estudiante; solo lo redirige al app
@@ -40,12 +41,30 @@ declare(strict_types=1);
 
 /* ====================== AJUSTES ====================== */
 
-/** Planes de pago único (sin renovación automática). Precios en soles. */
-const PLANES = [
-    'mensual'    => ['nombre' => 'Premium mensual',    'soles' => 29.00,  'dias' => 30],
-    'trimestral' => ['nombre' => 'Premium trimestral', 'soles' => 69.00,  'dias' => 90],
-    'anual'      => ['nombre' => 'Premium anual',      'soles' => 199.00, 'dias' => 365],
+/** Periodos de los planes de pago único (sin renovación automática). */
+const PERIODOS = [
+    'mensual'    => ['nombre' => 'mensual',    'dias' => 30],
+    'trimestral' => ['nombre' => 'trimestral', 'dias' => 90],
+    'anual'      => ['nombre' => 'anual',      'dias' => 365],
 ];
+/**
+ * Cada examen tiene sus propios planes (precios en soles). "abierto" = el banco ya está publicado y se puede comprar;
+ * los demás aceptan lista de espera hasta que se publique su banco: NO se les cobra por contenido que no existe.
+ * Cuando un banco abre, basta con poner 'abierto' => true.
+ */
+const EXAMENES = [
+    'essalud'     => ['nombre' => 'EsSalud',            'abierto' => false, 'precios' => ['mensual' => 19.00, 'trimestral' => 45.00, 'anual' => 129.00]],
+    'enam'        => ['nombre' => 'ENAM',               'abierto' => true,  'precios' => ['mensual' => 29.00, 'trimestral' => 69.00, 'anual' => 199.00]],
+    'residentado' => ['nombre' => 'Residentado Médico', 'abierto' => false, 'precios' => ['mensual' => 35.00, 'trimestral' => 85.00, 'anual' => 249.00]],
+    'encaps'      => ['nombre' => 'ENCAPS SERUMS',      'abierto' => false, 'precios' => ['mensual' => 25.00, 'trimestral' => 59.00, 'anual' => 169.00]],
+];
+/** Datos de un plan, o null si el examen o el periodo no existen. */
+function plan_info(string $examen, string $periodo): ?array {
+    if (!isset(EXAMENES[$examen], PERIODOS[$periodo])) return null;
+    $e = EXAMENES[$examen];
+    return ['examen' => $examen, 'periodo' => $periodo, 'nombre' => 'Premium ' . $e['nombre'] . ' ' . PERIODOS[$periodo]['nombre'],
+            'soles' => (float)$e['precios'][$periodo], 'dias' => PERIODOS[$periodo]['dias'], 'abierto' => $e['abierto']];
+}
 const LIMITE_GRATIS_DIARIO = 20;      // preguntas por día en el plan gratuito (si los límites están activos)
 const MIN_CLAVE            = 8;
 const INTENTOS_LOGIN       = 6;       // por correo+IP cada 15 minutos
@@ -117,10 +136,18 @@ function db(): PDO {
     $pdo->exec('CREATE TABLE IF NOT EXISTS pagos (
         id INTEGER PRIMARY KEY AUTOINCREMENT, mp_id TEXT NOT NULL UNIQUE, usuario INTEGER NOT NULL,
         plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS suscripciones (usuario INTEGER NOT NULL, examen TEXT NOT NULL, plan TEXT NOT NULL, hasta INTEGER NOT NULL, PRIMARY KEY (usuario, examen))');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS lista_espera (usuario INTEGER NOT NULL, examen TEXT NOT NULL, creado INTEGER NOT NULL, PRIMARY KEY (usuario, examen))');
     $pdo->exec('CREATE TABLE IF NOT EXISTS ordenes (
         ref TEXT PRIMARY KEY, usuario INTEGER NOT NULL, plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
     $pdo->exec('CREATE TABLE IF NOT EXISTS intentos (clave TEXT NOT NULL, t INTEGER NOT NULL)');
     $pdo->exec('CREATE INDEX IF NOT EXISTS ix_intentos ON intentos(clave, t)');
+    foreach (['pagos', 'ordenes'] as $t) {                    // migración: cada pago y orden recuerda de qué examen es
+        $cs = array_column($pdo->query('PRAGMA table_info(' . $t . ')')->fetchAll(), 'name');
+        if (!in_array('examen', $cs, true)) $pdo->exec('ALTER TABLE ' . $t . " ADD COLUMN examen TEXT NOT NULL DEFAULT 'enam'");
+    }
+    // migración: quien tenía un plan único pasa a tener ese mismo plan en ENAM (el único banco abierto)
+    $pdo->exec("INSERT OR IGNORE INTO suscripciones(usuario, examen, plan, hasta) SELECT id, 'enam', plan, premium_hasta FROM usuarios WHERE premium_hasta > 0 AND plan IS NOT NULL");
     return $pdo;
 }
 
@@ -143,13 +170,20 @@ function exigir_post_del_sitio(): void {
     if (($_SERVER['HTTP_X_MQP'] ?? '') !== '1') fallo('Solicitud no válida.', 403);
 }
 
+function suscripciones_de(int $uid): array {
+    $st = db()->prepare('SELECT examen, plan, hasta FROM suscripciones WHERE usuario = ? AND hasta > ?'); $st->execute([$uid, time()]);
+    $m = []; foreach ($st->fetchAll() as $f) $m[$f['examen']] = ['plan' => $f['plan'], 'hasta' => (int)$f['hasta']];
+    return $m;
+}
 function usuario_publico(?array $u): ?array {
     if (!$u) return null;
-    $vigente = (int)$u['premium_hasta'] > time();
+    $subs = suscripciones_de((int)$u['id']);
+    $en = $subs['enam'] ?? null;                              // la plataforma de estudio hoy solo tiene el banco ENAM: ese plan define "premium"
+    $st = db()->prepare('SELECT examen FROM lista_espera WHERE usuario = ?'); $st->execute([(int)$u['id']]);
     return [
         'id' => (int)$u['id'], 'nombre' => $u['nombre'], 'correo' => $u['correo'], 'examen' => $u['examen'],
-        'premium' => $vigente, 'plan' => $vigente ? $u['plan'] : null,
-        'premium_hasta' => $vigente ? (int)$u['premium_hasta'] : null,
+        'premium' => (bool)$en, 'plan' => $en ? $en['plan'] : null, 'premium_hasta' => $en ? $en['hasta'] : null,
+        'suscripciones' => (object)$subs, 'espera' => array_column($st->fetchAll(), 'examen'),
     ];
 }
 function usuario_actual(): ?array {
@@ -206,19 +240,20 @@ function firma_valida(string $dataId): bool {
     return hash_equals($calc, $v1);
 }
 
-function activar_plan(int $uid, string $plan, string $mpId, float $monto): void {
+function activar_plan(int $uid, string $examen, string $periodo, string $mpId, float $monto): void {
+    $info = plan_info($examen, $periodo); if (!$info) return;
     $db = db();
     $db->beginTransaction();
     try {
         $ya = $db->prepare('SELECT 1 FROM pagos WHERE mp_id = ?'); $ya->execute([$mpId]);
         if ($ya->fetch()) { $db->commit(); return; }       // el aviso puede llegar repetido: se activa una sola vez
-        $u = $db->prepare('SELECT premium_hasta FROM usuarios WHERE id = ?'); $u->execute([$uid]);
-        $f = $u->fetch();
-        if (!$f) { $db->rollBack(); return; }
-        $desde = max(time(), (int)$f['premium_hasta']);    // renovar suma al tiempo que ya tenía
-        $hasta = $desde + PLANES[$plan]['dias'] * 86400;
-        $db->prepare('UPDATE usuarios SET plan = ?, premium_hasta = ? WHERE id = ?')->execute([$plan, $hasta, $uid]);
-        $db->prepare('INSERT INTO pagos(mp_id, usuario, plan, monto, creado) VALUES (?,?,?,?,?)')->execute([$mpId, $uid, $plan, $monto, time()]);
+        $u = $db->prepare('SELECT 1 FROM usuarios WHERE id = ?'); $u->execute([$uid]);
+        if (!$u->fetch()) { $db->rollBack(); return; }
+        $s = $db->prepare('SELECT hasta FROM suscripciones WHERE usuario = ? AND examen = ?'); $s->execute([$uid, $examen]);
+        $actual = (int)($s->fetchColumn() ?: 0);
+        $hasta = max(time(), $actual) + $info['dias'] * 86400;   // renovar suma al tiempo que ya tenía
+        $db->prepare('INSERT INTO suscripciones(usuario, examen, plan, hasta) VALUES (?,?,?,?) ON CONFLICT(usuario, examen) DO UPDATE SET plan = excluded.plan, hasta = excluded.hasta')->execute([$uid, $examen, $periodo, $hasta]);
+        $db->prepare('INSERT INTO pagos(mp_id, usuario, plan, monto, creado, examen) VALUES (?,?,?,?,?,?)')->execute([$mpId, $uid, $periodo, $monto, time(), $examen]);
         $db->commit();
     } catch (Throwable $e) { $db->rollBack(); throw $e; }
 }
@@ -236,26 +271,28 @@ try {
         $dado = (string)($_GET['token'] ?? ($_SERVER['HTTP_X_ADMIN_TOKEN'] ?? ''));
         if (!hash_equals($tok, $dado)) { anotar_intento('admin'); fallo('No autorizado.', 401); }
         $db = db();
-        $us = $db->query('SELECT u.id, u.nombre, u.correo, u.universidad, u.examen, u.plan, u.premium_hasta, u.creado,
-            (SELECT COUNT(*) FROM pagos p WHERE p.usuario = u.id) AS pagos, (SELECT COALESCE(SUM(monto),0) FROM pagos p WHERE p.usuario = u.id) AS total_soles
+        $us = $db->query('SELECT u.id, u.nombre, u.correo, u.universidad, u.examen, u.creado,
+            (SELECT COUNT(*) FROM pagos p WHERE p.usuario = u.id) AS pagos, (SELECT COALESCE(SUM(monto),0) FROM pagos p WHERE p.usuario = u.id) AS total_soles,
+            (SELECT group_concat(examen || \':\' || plan || \' hasta \' || date(hasta, \'unixepoch\'), \' | \') FROM suscripciones s WHERE s.usuario = u.id AND s.hasta > strftime(\'%s\',\'now\')) AS planes,
+            (SELECT group_concat(examen, \', \') FROM lista_espera w WHERE w.usuario = u.id) AS espera
             FROM usuarios u ORDER BY u.id')->fetchAll();
         $f = fn($t) => $t ? date('Y-m-d H:i', (int)$t) : '';
         $filas = array_map(fn($u) => [
             'id' => (int)$u['id'], 'nombre' => $u['nombre'], 'correo' => $u['correo'], 'universidad' => $u['universidad'], 'examen' => $u['examen'],
-            'registrado' => $f($u['creado']), 'plan' => (int)$u['premium_hasta'] > time() ? $u['plan'] : '', 'premium_hasta' => (int)$u['premium_hasta'] > time() ? $f($u['premium_hasta']) : '',
+            'registrado' => $f($u['creado']), 'planes_activos' => (string)$u['planes'], 'lista_de_espera' => (string)$u['espera'],
             'pagos' => (int)$u['pagos'], 'total_soles' => (float)$u['total_soles'],
         ], $us);
         if (($_GET['formato'] ?? 'csv') === 'json') responder(['ok' => true, 'total' => count($filas), 'cuentas' => $filas]);
         header('Content-Type: text/csv; charset=utf-8'); header('Content-Disposition: attachment; filename="cuentas-medquizplus-' . date('Ymd') . '.csv"'); header('Cache-Control: no-store');
         $o = fopen('php://output', 'w'); fwrite($o, "\xEF\xBB\xBF");                       // BOM: Excel abre bien las tildes
-        fputcsv($o, array_keys($filas[0] ?? ['id' => '', 'nombre' => '', 'correo' => '', 'universidad' => '', 'examen' => '', 'registrado' => '', 'plan' => '', 'premium_hasta' => '', 'pagos' => '', 'total_soles' => '']));
+        fputcsv($o, array_keys($filas[0] ?? ['id' => '', 'nombre' => '', 'correo' => '', 'universidad' => '', 'examen' => '', 'registrado' => '', 'planes_activos' => '', 'lista_de_espera' => '', 'pagos' => '', 'total_soles' => '']));
         foreach ($filas as $r) fputcsv($o, array_map(fn($v) => is_string($v) && preg_match('/^[=+\-@\t\r]/', $v) ? "'" . $v : $v, $r));   // evita fórmulas de Excel en datos escritos por usuarios
         fclose($o); exit;
     }
 
     if ($a === 'estado') {
         responder(['ok' => true, 'cuentas' => true, 'pagos' => pagos_activos(), 'pasarela' => pasarela(), 'limites' => limites_activos(),
-            'limite_diario' => LIMITE_GRATIS_DIARIO, 'planes' => PLANES]);
+            'limite_diario' => LIMITE_GRATIS_DIARIO, 'periodos' => PERIODOS, 'examenes' => EXAMENES]);
     }
 
     if ($a === 'me') {
@@ -268,7 +305,7 @@ try {
         $nombre = trim((string)($d['nombre'] ?? ''));
         $correo = strtolower(trim((string)($d['correo'] ?? '')));
         $clave = (string)($d['clave'] ?? '');
-        $examen = in_array($d['examen'] ?? '', ['enam', 'residentado', 'essalud'], true) ? $d['examen'] : null;
+        $examen = in_array($d['examen'] ?? '', ['enam', 'residentado', 'essalud', 'encaps'], true) ? $d['examen'] : null;
         $uni = mb_substr(trim((string)($d['universidad'] ?? '')), 0, 120);
         if (($d['acepto'] ?? false) !== true) fallo('Para crear tu cuenta debes aceptar la política de privacidad.');
         if (mb_strlen($nombre) < 2 || mb_strlen($nombre) > 80) fallo('Escribe tu nombre.');
@@ -328,13 +365,13 @@ try {
         $u = usuario_actual(); if (!$u) fallo('Inicia sesión.', 401);
         $db = db();
         $p = $db->prepare('SELECT datos, actualizado FROM progreso WHERE usuario = ?'); $p->execute([(int)$u['id']]); $pr = $p->fetch();
-        $pg = $db->prepare('SELECT plan, monto, creado FROM pagos WHERE usuario = ? ORDER BY id'); $pg->execute([(int)$u['id']]);
+        $pg = $db->prepare('SELECT examen, plan, monto, creado FROM pagos WHERE usuario = ? ORDER BY id'); $pg->execute([(int)$u['id']]);
         header('Content-Disposition: attachment; filename="mis-datos-medquizplus.json"');
         responder(['ok' => true, 'generado' => date('c'), 'cuenta' => [
             'nombre' => $u['nombre'], 'correo' => $u['correo'], 'universidad' => $u['universidad'], 'examen' => $u['examen'],
             'registrada' => date('c', (int)$u['creado']), 'acepto_politica' => $u['acepto_en'] ? date('c', (int)$u['acepto_en']) : null,
-            'plan' => $u['plan'], 'premium_hasta' => (int)$u['premium_hasta'] ? date('c', (int)$u['premium_hasta']) : null],
-            'pagos' => array_map(fn($x) => ['plan' => $x['plan'], 'monto_soles' => (float)$x['monto'], 'fecha' => date('c', (int)$x['creado'])], $pg->fetchAll()),
+            'suscripciones_activas' => (object)suscripciones_de((int)$u['id'])],
+            'pagos' => array_map(fn($x) => ['examen' => $x['examen'], 'plan' => $x['plan'], 'monto_soles' => (float)$x['monto'], 'fecha' => date('c', (int)$x['creado'])], $pg->fetchAll()),
             'progreso' => $pr ? json_decode($pr['datos'], true) : null]);
     }
 
@@ -351,6 +388,15 @@ try {
         responder(['ok' => true]);
     }
 
+    if ($a === 'espera') {
+        exigir_post_del_sitio();
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión para unirte a la lista de espera.', 401);
+        $examen = (string)(cuerpo()['examen'] ?? '');
+        if (!isset(EXAMENES[$examen])) fallo('Examen no válido.');
+        db()->prepare('INSERT OR IGNORE INTO lista_espera(usuario, examen, creado) VALUES (?,?,?)')->execute([(int)$u['id'], $examen, time()]);
+        responder(['ok' => true, 'usuario' => usuario_publico(usuario_actual())]);
+    }
+
     if ($a === 'salir') {
         exigir_post_del_sitio();
         iniciar_sesion(); $_SESSION = []; session_destroy();
@@ -362,15 +408,17 @@ try {
         $u = usuario_actual();
         if (!$u) fallo('Inicia sesión para comprar un plan.', 401);
         if (!pagos_activos()) fallo('El cobro en línea todavía no está activo.', 503);
-        $plan = (string)(cuerpo()['plan'] ?? '');
-        if (!isset(PLANES[$plan])) fallo('Plan no válido.');
-        $p = PLANES[$plan];
+        $d = cuerpo();
+        $examen = (string)($d['examen'] ?? 'enam'); $plan = (string)($d['plan'] ?? '');
+        $p = plan_info($examen, $plan);
+        if (!$p) fallo('Plan no válido.');
+        if (!$p['abierto']) fallo('El banco de ' . EXAMENES[$examen]['nombre'] . ' todavía está en construcción, por eso aún no se vende. Únete a la lista de espera y te avisamos cuando abra.', 409);
         $site = url_sitio();
         if (pasarela() === 'payu') {
             $merchant = ajuste('PAYU_MERCHANT_ID', 'payu_merchant_id'); $key = ajuste('PAYU_API_KEY', 'payu_api_key');
-            $ref = 'mqp-' . $u['id'] . '-' . $plan . '-' . bin2hex(random_bytes(5));      // única por intento
+            $ref = 'mqp-' . $u['id'] . '-' . $examen . '-' . $plan . '-' . bin2hex(random_bytes(5));      // única por intento
             $monto = number_format($p['soles'], 2, '.', '');
-            db()->prepare('INSERT INTO ordenes(ref, usuario, plan, monto, creado) VALUES (?,?,?,?,?)')->execute([$ref, (int)$u['id'], $plan, $p['soles'], time()]);
+            db()->prepare('INSERT INTO ordenes(ref, usuario, plan, monto, creado, examen) VALUES (?,?,?,?,?,?)')->execute([$ref, (int)$u['id'], $plan, $p['soles'], time(), $examen]);
             $test = ajuste('PAYU_TEST', 'payu_test') === '1';
             responder(['ok' => true, 'form' => [
                 'action' => $test ? 'https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/' : 'https://checkout.payulatam.com/ppp-web-gateway-payu/',
@@ -387,7 +435,7 @@ try {
         $r = mp('POST', '/checkout/preferences', [
             'items' => [['title' => 'MedQuizPlus · ' . $p['nombre'], 'quantity' => 1, 'unit_price' => $p['soles'], 'currency_id' => 'PEN']],
             'payer' => ['email' => $u['correo']],
-            'external_reference' => $u['id'] . '|' . $plan,
+            'external_reference' => $u['id'] . '|' . $examen . '|' . $plan,
             'back_urls' => ['success' => $site . '/app/#/inicio?pago=ok', 'pending' => $site . '/app/#/planes?pago=pendiente', 'failure' => $site . '/app/#/planes?pago=error'],
             'auto_return' => 'approved',
             'notification_url' => $site . '/cuenta.php?a=webhook',
@@ -424,7 +472,7 @@ try {
         if ($mon !== 'PEN' || (float)$valor + 0.001 < (float)$o['monto']) { error_log('[cuenta] PayU: monto/moneda inesperados en ' . $ref); responder(['ok' => true]); }
         $tx = (string)($f['transaction_id'] ?? $f['reference_pol'] ?? '');
         if ($tx === '') responder(['ok' => true]);
-        activar_plan((int)$o['usuario'], (string)$o['plan'], 'payu:' . $tx, (float)$valor);
+        activar_plan((int)$o['usuario'], (string)$o['examen'], (string)$o['plan'], 'payu:' . $tx, (float)$valor);
         responder(['ok' => true]);
     }
 
@@ -439,11 +487,13 @@ try {
         $pg = $r['datos'];
         if ($r['codigo'] !== 200 || ($pg['status'] ?? '') !== 'approved') responder(['ok' => true]);
         $ref = explode('|', (string)($pg['external_reference'] ?? ''));
-        $uid = (int)($ref[0] ?? 0); $plan = (string)($ref[1] ?? '');
-        if (!$uid || !isset(PLANES[$plan])) { error_log('[cuenta] pago ' . $id . ' con referencia desconocida'); responder(['ok' => true]); }
+        $uid = (int)($ref[0] ?? 0);
+        $examen = count($ref) >= 3 ? (string)$ref[1] : 'enam'; $plan = (string)($ref[count($ref) >= 3 ? 2 : 1] ?? '');   // referencias antiguas: "uid|plan" (ENAM)
+        $info = plan_info($examen, $plan);
+        if (!$uid || !$info) { error_log('[cuenta] pago ' . $id . ' con referencia desconocida'); responder(['ok' => true]); }
         $monto = (float)($pg['transaction_amount'] ?? 0);
-        if (($pg['currency_id'] ?? '') !== 'PEN' || $monto + 0.001 < PLANES[$plan]['soles']) { error_log('[cuenta] pago ' . $id . ' con monto/moneda inesperados'); responder(['ok' => true]); }
-        activar_plan($uid, $plan, $id, $monto);
+        if (($pg['currency_id'] ?? '') !== 'PEN' || $monto + 0.001 < $info['soles']) { error_log('[cuenta] pago ' . $id . ' con monto/moneda inesperados'); responder(['ok' => true]); }
+        activar_plan($uid, $examen, $plan, $id, $monto);
         responder(['ok' => true]);
     }
 

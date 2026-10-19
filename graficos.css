@@ -184,3 +184,68 @@ rect.g-cel { outline: none; cursor: pointer; } rect.g-cel:hover, rect.g-cel:focu
 .qres__acciones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: var(--space-4, 16px); }
 .qres__nota { margin: var(--space-3, 12px) 0 0; font-size: .8rem; color: var(--ink-3); line-height: 1.5; }
 @media (max-width: 520px) { .qres__fila { grid-template-columns: minmax(0, 1fr); justify-items: center; } .qres__kpis { width: 100%; } }
+
+/* =============== celulares animados =============== */
+.movil__phones .phone { animation: ph-flota 6s ease-in-out infinite; }
+.movil__phones .phone--izq { animation-delay: -2s; } .movil__phones .phone--der { animation-delay: -4s; }
+.movil__phones:not(.is-activo) .phone { animation-play-state: paused; }
+@keyframes ph-flota { 0%, 100% { translate: 0 0; } 50% { translate: 0 -10px; } }
+.phone__pantalla { position: relative; }
+.phone--centro .phone__pantalla.is-in > * { animation: ph-in .5s ease both; }
+@keyframes ph-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.ph__ops li { transition: background .3s, border-color .3s; }
+.ph__why { opacity: 0; max-height: 0; overflow: hidden; padding-block: 0; transition: opacity .5s, max-height .6s, padding .4s; }
+.ph__why.is-on { opacity: 1; max-height: 10em; padding-block: 7px; }
+.ph__chip { align-self: flex-start; display: inline-flex; align-items: center; gap: 5px; padding: 5px 9px; border-radius: 8px; border: 1px solid var(--brand); background: var(--brand-soft); color: var(--brand-strong); font-weight: 700; opacity: 0; transform: translateY(6px); transition: opacity .4s, transform .4s; }
+.ph__chip svg { width: 12px; height: 12px; } .ph__chip.is-on { opacity: 1; transform: none; }
+.ph__toque { position: absolute; z-index: 5; width: 26px; height: 26px; margin: -13px 0 0 -13px; border-radius: 50%; background: color-mix(in srgb, var(--brand-bright) 55%, transparent); border: 2px solid var(--brand); opacity: 0; transform: scale(.4); pointer-events: none; }
+.ph__toque.is-on { animation: ph-toque .65s ease-out forwards; }
+@keyframes ph-toque { 0% { opacity: 0; transform: scale(.4); } 30% { opacity: 1; transform: scale(1); } 100% { opacity: .9; transform: scale(.8); } }
+.ph__busca { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border-radius: 8px; background: var(--surface-2); color: var(--ink-3); } .ph__busca svg { width: 12px; height: 12px; }
+.ph__scroll { flex: 1; min-height: 0; overflow: hidden; mask-image: linear-gradient(transparent, #000 8%, #000 90%, transparent); }
+.ph__esp--mov { animation: ph-sube 26s linear infinite; }
+@keyframes ph-sube { to { transform: translateY(-50%); } }
+.ph__esp--mov li { border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 7px 2px; }
+.ph__nom { flex: 1; min-width: 0; line-height: 1.25; display: grid; gap: 4px; }
+.ph__nom i { display: block; height: 4px; border-radius: 4px; background: var(--surface-2); overflow: hidden; }
+.ph__nom u { display: block; height: 100%; width: var(--w); border-radius: 4px; background: var(--brand); transform-origin: left; animation: ph-barra 4s ease-in-out infinite alternate; }
+@keyframes ph-barra { from { transform: scaleX(.25); } to { transform: scaleX(1); } }
+.ph__zoom { display: inline-flex; gap: 4px; } .ph__zoom b { display: grid; place-items: center; width: 17px; height: 17px; border-radius: 5px; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); }
+.ph__mas { animation: ph-pulsa 3s ease-in-out infinite; } @keyframes ph-pulsa { 0%, 60%, 100% { background: var(--surface-2); } 70%, 90% { background: var(--brand); color: #fff; border-color: var(--brand); } }
+.ph__vista { flex: 1; min-height: 0; overflow: hidden; border-radius: 8px; border: 1px solid var(--line); background: #fff; }
+.ph__vista .ph__img { width: 100%; height: 100%; border: 0; border-radius: 0; object-fit: contain; transform-origin: 20% 30%; animation: ph-zoom 9s ease-in-out infinite; }
+@keyframes ph-zoom { 0%, 12% { transform: scale(1) translate(0, 0); } 35%, 50% { transform: scale(2.1) translate(-8%, -6%); } 75%, 85% { transform: scale(2.1) translate(-26%, -16%); } 100% { transform: scale(1) translate(0, 0); } }
+.ph__pie { margin: 0; text-align: center; color: var(--ink-3); font-size: .95em; }
+@media (prefers-reduced-motion: reduce) { .movil__phones .phone, .ph__esp--mov, .ph__nom u, .ph__vista .ph__img, .ph__mas { animation: none !important; } }
+
+/* ---------- explorador del banco (landing) ---------- */
+.tm { cursor: pointer; }
+.tm.is-sel .tm__in { box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--brand); transform: scale(1.015); z-index: 3; }
+.spot__card--det { display: flex; flex-direction: column; gap: 12px; }
+.spot__card--det h3 { font-size: 1.35rem; margin: 0; }
+.det__area { margin: 0; color: var(--brand); font-weight: 700; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; }
+.det__kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0; }
+.det__kpis div { padding: 10px 12px; border-radius: 12px; background: var(--surface-2); }
+.det__kpis dt { font-size: .74rem; color: var(--ink-3); }
+.det__kpis dd { margin: 2px 0 0; font-size: 1.4rem; font-weight: 800; color: var(--brand); font-variant-numeric: tabular-nums; }
+.spot__card--det h4 { margin: 4px 0 0; font-size: .86rem; color: var(--ink); }
+.det__bar { list-style: none; margin: 0; padding: 0; display: grid; gap: 7px; }
+.det__bar li { display: grid; grid-template-columns: minmax(0, 1.2fr) 1fr auto; gap: 10px; align-items: center; font-size: .84rem; color: var(--ink-2); }
+.det__bar li span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.det__bar i { height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.det__bar u { display: block; height: 100%; border-radius: 99px; background: var(--brand); }
+.det__bar b { font-variant-numeric: tabular-nums; color: var(--ink); }
+.det__q { margin: 0; padding: 10px 14px; border-left: 3px solid var(--brand); background: var(--surface-2); border-radius: 0 12px 12px 0; font-size: .86rem; line-height: 1.5; color: var(--ink-2); max-height: 9.5em; overflow: auto; }
+.det__flujo { margin: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #fff; }
+.det__flujo img { display: block; width: 100%; max-height: 190px; object-fit: contain; }
+.det__flujo figcaption { padding: 6px 10px; font-size: .76rem; color: var(--ink-3); border-top: 1px solid var(--line); }
+.spot__card--det .btn { margin-top: auto; }
+.an-chips { margin-top: 16px; }
+
+/* ---------- chips flotantes alrededor de los celulares ---------- */
+.fchip { position: absolute; z-index: 5; padding: 9px 14px; border-radius: 999px; background: var(--surface); color: var(--brand-strong, var(--brand)); border: 1px solid var(--line); box-shadow: var(--shadow-sm); font-size: .82rem; font-weight: 700; white-space: nowrap; animation: ph-flota 5s ease-in-out infinite; }
+.fchip--a { left: 2%; top: 6%; animation-delay: -1s; }
+.fchip--b { right: 0; top: 40%; animation-delay: -3s; }
+.fchip--c { left: 8%; bottom: 4%; animation-delay: -2s; }
+@media (max-width: 900px) { .fchip--a { left: 0; } .fchip--b { right: 0; top: 52%; } .fchip--c { left: 4%; } }
+@media (prefers-reduced-motion: reduce) { .fchip { animation: none; } }

@@ -14,9 +14,9 @@
   /* tema guardado: se aplica antes de pintar para evitar el parpadeo */
   var t = null; try { t = localStorage.getItem("mqp_tema"); } catch (e) {} if (t !== "dark" && t !== "light") { try { t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } catch (e) { t = "light"; } } document.documentElement.setAttribute("data-theme", t);
 </script>
-<link rel="stylesheet" href="styles.css?v=20261018-20">
-<link rel="stylesheet" href="graficos.css?v=20261018-20">
-<link rel="stylesheet" href="pro.css?v=20261018-20">
+<link rel="stylesheet" href="styles.css?v=20261018-23">
+<link rel="stylesheet" href="graficos.css?v=20261018-23">
+<link rel="stylesheet" href="pro.css?v=20261018-23">
 </head>
 <body>
 
@@ -61,7 +61,7 @@
   <section class="hero" aria-labelledby="heroTitle">
     <div class="wrap hero__grid">
       <div class="hero__copy">
-        <p class="hero__exams" aria-label="Exámenes">ENAM <span aria-hidden="true">·</span> Residentado <span aria-hidden="true">·</span> EsSalud <span aria-hidden="true">·</span> ENCAPS</p>
+        <p class="hero__exams" aria-label="Exámenes">ENAM <span aria-hidden="true">·</span> Residentado <span aria-hidden="true">·</span> EsSalud <span aria-hidden="true">·</span> ENCAPS SERUMS</p>
         <h1 class="hero__title" id="heroTitle">La práctica que se parece <em>al examen real</em>.</h1>
         <p class="hero__lead">Entrena con preguntas comentadas, simulacros y herramientas diseñadas para tu examen.</p>
         <div class="hero__actions">
@@ -128,9 +128,9 @@
     <div class="wrap try">
       <div class="try__copy reveal">
         <p class="kicker">Pruébalo ahora</p>
-        <h2 id="tryTitle">Responde 10 preguntas reales y mira tu resultado.</h2>
+        <h2 id="tryTitle">Responde 5 preguntas reales y mira tu resultado.</h2>
         <p class="sec-head__lead">Preguntas reales del banco, sorteadas cada vez. Eliges una alternativa, ves el comentario docente y abres el flujograma. Al final, tu resultado con gráficos, igual que en el simulador. Sin registrarte.</p>
-        <a class="btn btn--primary" href="app/#/banco/configurar">Configurar mi propia sesión <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--primary" href="#registro" data-app="app/#/banco/configurar">Configurar mi propia sesión <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
       <!-- demostración interactiva (main.js la anima; sin JS queda la primera pregunta) -->
       <div class="hero-demo">
@@ -148,7 +148,7 @@
             <div class="demo__meta">
               <span class="demo__tag" id="qArea">Medicina Interna</span>
               <span class="demo__tag demo__tag--exam" id="qExam">ENAM</span>
-              <span class="demo__count" id="qCounter">Pregunta 1 de 10</span>
+              <span class="demo__count" id="qCounter">Pregunta 1 de 5</span>
             </div>
             <div class="demo__bar" aria-hidden="true"><div class="demo__bar-fill" id="qBar"></div></div>
           </div>
@@ -262,23 +262,19 @@
   <section class="section section--spot" id="analisis" aria-labelledby="anTitle">
     <div class="wrap">
       <div class="sec-head sec-head--center">
-        <p class="kicker kicker--spot">El banco por dentro</p>
-        <h2 id="anTitle">Un banco que se mide solo.</h2>
-        <p class="sec-head__lead">Todo lo que ves aquí se cuenta en vivo sobre las preguntas publicadas. Dentro de la plataforma ves lo mismo, pero de <b>tu</b> progreso.</p>
+        <p class="kicker kicker--spot">Explora el banco</p>
+        <h2 id="anTitle">Mira qué vas a estudiar antes de entrar.</h2>
+        <p class="sec-head__lead">Toca una especialidad y mira cuántas preguntas tiene, qué temas cubre y una pregunta real con su flujograma. Todo se cuenta del banco publicado.</p>
       </div>
       <div class="spot__kpis" id="anKpis" aria-live="polite"></div>
       <div class="spot__grid">
         <article class="spot__card spot__card--mapa">
-          <h3>Mapa del banco</h3>
+          <h3>Elige una especialidad</h3>
           <p class="spot__nota">Cada bloque es una especialidad: cuanto más grande, más preguntas tiene.</p>
           <div class="treemap" id="anMapa"><p class="an-vacio">Dibujando el mapa con el banco publicado…</p></div>
-          
+          <div class="chips chips--compact chips--wrap an-chips" id="anChips" role="group" aria-label="Todas las especialidades"></div>
         </article>
-        <article class="spot__card spot__card--anios">
-          <h3>Convocatorias del examen</h3>
-          <p class="spot__nota">Preguntas publicadas de cada año del ENAM.</p>
-          <div id="anAnio"></div>
-        </article>
+        <article class="spot__card spot__card--det" id="anDetalle" aria-live="polite"></article>
       </div>
     </div>
   </section>
@@ -291,6 +287,21 @@
         <h2 id="examsTitle">¿Qué examen estás preparando?</h2>
       </div>
       <div class="exams">
+        <article class="exam reveal">
+          <div class="exam__top">
+            <span class="exam__mark" aria-hidden="true">S</span>
+            <span class="badge badge--soon">Próximamente</span>
+          </div>
+          <h3 class="exam__name">EsSalud</h3>
+          <p class="exam__desc">Preparación para EsSalud</p>
+          <ul class="exam__list exam__list--muted">
+            <li>Banco por especialidad en construcción</li>
+            <li><b data-metrica="essalud">5</b> preguntas tipo ya publicadas</li>
+            <li>Simulador: próximamente</li>
+          </ul>
+          <a class="btn btn--ghost btn--block exam__cta" href="#registro" data-app="app/#/examenes">Explorar EsSalud</a>
+        </article>
+
         <article class="exam exam--live reveal">
           <div class="exam__top">
             <span class="exam__mark" aria-hidden="true">E</span>
@@ -304,7 +315,7 @@
             <li>Simuladores cronometrados</li>
             <li><b data-metrica="especialidades">17</b> especialidades disponibles</li>
           </ul>
-          <a class="btn btn--primary btn--block exam__cta" href="#registro">
+          <a class="btn btn--primary btn--block exam__cta" href="#registro" data-app="app/#/examenes">
             Explorar ENAM
             <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -322,22 +333,7 @@
             <li><b data-metrica="rm">5</b> preguntas tipo ya publicadas</li>
             <li>Simulador: próximamente</li>
           </ul>
-          <a class="btn btn--ghost btn--block exam__cta" href="#registro">Explorar Residentado</a>
-        </article>
-
-        <article class="exam reveal">
-          <div class="exam__top">
-            <span class="exam__mark" aria-hidden="true">S</span>
-            <span class="badge badge--soon">Próximamente</span>
-          </div>
-          <h3 class="exam__name">EsSalud</h3>
-          <p class="exam__desc">Preparación para EsSalud</p>
-          <ul class="exam__list exam__list--muted">
-            <li>Banco por especialidad en construcción</li>
-            <li><b data-metrica="essalud">5</b> preguntas tipo ya publicadas</li>
-            <li>Simulador: próximamente</li>
-          </ul>
-          <a class="btn btn--ghost btn--block exam__cta" href="#registro">Explorar EsSalud</a>
+          <a class="btn btn--ghost btn--block exam__cta" href="#registro" data-app="app/#/examenes">Explorar Residentado</a>
         </article>
 
         <article class="exam reveal">
@@ -345,14 +341,14 @@
             <span class="exam__mark" aria-hidden="true">C</span>
             <span class="badge badge--soon">Próximamente</span>
           </div>
-          <h3 class="exam__name">ENCAPS</h3>
-          <p class="exam__desc">Preparación para ENCAPS</p>
+          <h3 class="exam__name">ENCAPS SERUMS</h3>
+          <p class="exam__desc">Preparación para el examen del SERUMS</p>
           <ul class="exam__list exam__list--muted">
             <li>Banco por especialidad en construcción</li>
             <li>Simulador: próximamente</li>
             <li>Crea tu cuenta y te avisamos cuando abra</li>
           </ul>
-          <a class="btn btn--ghost btn--block exam__cta" href="#registro">Explorar ENCAPS</a>
+          <a class="btn btn--ghost btn--block exam__cta" href="#registro" data-app="app/#/examenes">Explorar ENCAPS SERUMS</a>
         </article>
       </div>
     </div>
@@ -379,7 +375,7 @@
             <li>Tachado, marcado y Active Recall</li>
           </ul>
           <p class="mode__dato"><b data-metrica="preguntas">2380</b> preguntas comentadas en <b data-metrica="especialidades">17</b> especialidades</p>
-          <a class="btn btn--primary mode__cta" href="#registro">Empezar a estudiar <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--primary mode__cta" href="#registro" data-app="app/#/banco">Empezar a estudiar <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
         <div class="mode mode--sim reveal">
           <p class="mode__label">Simulador</p>
@@ -392,7 +388,7 @@
             <li>Revisión completa al terminar</li>
           </ul>
           <p class="mode__dato">3 modalidades: ENAM 2020 completo, simulacro rápido y por especialidad</p>
-          <a class="btn btn--ghost mode__cta" href="#registro">Hacer un simulacro <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--ghost mode__cta" href="#registro" data-app="app/#/simuladores">Hacer un simulacro <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
       </div>
 
@@ -409,7 +405,7 @@
             <div class="sim-kpi"><dt>Tiempo</dt><dd data-sim-t>2 h 40 min</dd></div>
             <div class="sim-kpi"><dt>Especialidades</dt><dd data-sim-e>17</dd></div>
           </dl>
-          <a class="btn btn--primary sim-tile__cta" href="app/#/simuladores/enam-2020">
+          <a class="btn btn--primary sim-tile__cta" href="#registro" data-app="app/#/simuladores/enam-2020">
             Comenzar simulador
             <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
@@ -423,7 +419,7 @@
           <h3 class="sim-tile__title">Simulacro rápido ENAM</h3>
           <p class="sim-tile__desc">Preguntas al azar de todas las especialidades para medir tu ritmo en poco tiempo.</p>
           <p class="sim-tile__facts"><span data-sim-n>20</span> preguntas · <span data-sim-t>20 min</span></p>
-          <a class="sim-tile__link" href="app/#/simuladores/enam-rapido">Comenzar <span aria-hidden="true">→</span></a>
+          <a class="sim-tile__link" href="#registro" data-app="app/#/simuladores/enam-rapido">Comenzar <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="sim-tile reveal" data-sim="enam-especialidad">
@@ -434,7 +430,7 @@
           <h3 class="sim-tile__title">Simulacro por especialidad</h3>
           <p class="sim-tile__desc">Eliges la especialidad y resuelves sus preguntas ENAM contra el reloj.</p>
           <p class="sim-tile__facts">Hasta 10 preguntas · 1 min por pregunta</p>
-          <a class="sim-tile__link" href="app/#/simuladores/enam-especialidad">Elegir especialidad <span aria-hidden="true">→</span></a>
+          <a class="sim-tile__link" href="#registro" data-app="app/#/simuladores/enam-especialidad">Elegir especialidad <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="sim-tile sim-tile--soon reveal">
@@ -465,6 +461,9 @@
         <div class="phone phone--izq"><div class="phone__pantalla" id="phEsp"></div></div>
         <div class="phone phone--der"><div class="phone__pantalla" id="phFlujo"></div></div>
         <div class="phone phone--centro"><div class="phone__pantalla" id="phPregunta"></div></div>
+        <span class="fchip fchip--a">✓ Comentario docente</span>
+        <span class="fchip fchip--b">Flujograma en cada pregunta</span>
+        <span class="fchip fchip--c">2,380 preguntas</span>
       </div>
       <div class="movil__copy reveal">
         <p class="kicker">En tu celular</p>
@@ -485,68 +484,18 @@
     <div class="wrap">
       <div class="sec-head sec-head--center reveal">
         <p class="kicker">Planes</p>
-        <h2 id="priceTitle">Empieza gratis. Crece con Premium.</h2>
-        <p class="sec-head__lead">Un precio pensado para estudiantes: menos que una sola sesión de academia.</p>
+        <h2 id="priceTitle">Un plan para cada examen.</h2>
+        <p class="sec-head__lead">Cada examen tiene su propio banco y sus propios precios. Elige el tuyo y empieza gratis.</p>
       </div>
 
-      <div class="plans plans--4">
-        <article class="plan reveal" data-plan="gratuito">
-          
-          <h3 class="plan__name">Gratis</h3>
-          <p class="plan__desc">Para empezar a entrenar hoy.</p>
-          <p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">sin tarjeta</span></p>
-          <a class="btn btn--ghost btn--lg btn--block" href="#registro">Crear cuenta <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <ul class="plan__list">
-            <li>Banco ENAM por especialidad con comentario docente</li>
-            <li>Flujograma clínico en cada pregunta</li>
-            <li>Simulacro rápido y por especialidad</li>
-            <li>20 preguntas al día</li>
-            <li>Progreso, falladas y favoritas</li>
-          </ul>
-        </article>
-        <article class="plan reveal" data-plan="mensual">
-          
-          <h3 class="plan__name">Premium mensual</h3>
-          <p class="plan__desc">Un mes para probar a fondo.</p>
-          <p class="plan__price"><span class="plan__amount">S/ 29</span><span class="plan__per">por 30 días</span></p>
-          <a class="btn btn--ghost btn--lg btn--block" href="app/#/planes">Elegir plan <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <ul class="plan__list">
-            <li>Preguntas ilimitadas, sin tope diario</li>
-            <li>Simulacro ENAM 2020 completo</li>
-            <li>Todos los simuladores y el tutor de IA</li>
-            <li>Comentario docente y flujograma en cada pregunta</li>
-            <li>Progreso, falladas y favoritas</li>
-          </ul>
-        </article>
-        <article class="plan plan--pro reveal" data-plan="trimestral">
-          <span class="plan__badge">Más elegido</span>
-          <h3 class="plan__name">Premium trimestral</h3>
-          <p class="plan__desc">El ritmo de una preparación seria.</p>
-          <p class="plan__price"><span class="plan__amount">S/ 69</span><span class="plan__per">por 3 meses · S/ 23 al mes</span></p>
-          <a class="btn btn--primary btn--lg btn--block" href="app/#/planes">Elegir plan <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <ul class="plan__list">
-            <li>Preguntas ilimitadas, sin tope diario</li>
-            <li>Simulacro ENAM 2020 completo</li>
-            <li>Todos los simuladores y el tutor de IA</li>
-            <li>Comentario docente y flujograma en cada pregunta</li>
-            <li>Progreso, falladas y favoritas</li>
-          </ul>
-        </article>
-        <article class="plan reveal" data-plan="anual">
-          <span class="plan__badge">Mejor precio</span>
-          <h3 class="plan__name">Premium anual</h3>
-          <p class="plan__desc">Preparación completa, al menor costo.</p>
-          <p class="plan__price"><span class="plan__amount">S/ 199</span><span class="plan__per">por 12 meses · S/ 16 al mes</span></p>
-          <a class="btn btn--ghost btn--lg btn--block" href="app/#/planes">Elegir plan <svg class="btn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <ul class="plan__list">
-            <li>Preguntas ilimitadas, sin tope diario</li>
-            <li>Simulacro ENAM 2020 completo</li>
-            <li>Todos los simuladores y el tutor de IA</li>
-            <li>Comentario docente y flujograma en cada pregunta</li>
-            <li>Progreso, falladas y favoritas</li>
-          </ul>
-        </article>
+      <div class="chips chips--wrap plan-tabs reveal" id="planTabs" role="tablist" aria-label="Elige tu examen">
+        <button class="chip" type="button" role="tab" data-ex="essalud" aria-pressed="false">EsSalud</button>
+        <button class="chip" type="button" role="tab" data-ex="enam" aria-pressed="true">ENAM</button>
+        <button class="chip" type="button" role="tab" data-ex="residentado" aria-pressed="false">Residentado Médico</button>
+        <button class="chip" type="button" role="tab" data-ex="encaps" aria-pressed="false">ENCAPS SERUMS</button>
       </div>
+      <p class="plans__state" id="planEstado" role="status"></p>
+      <div class="plans plans--4" id="planesLanding"></div>
       <p class="plans__note">Pago único por periodo, sin renovación automática. Pagas en soles con tarjeta en una pasarela de pago segura; MedQuizPlus no guarda los datos de tu tarjeta.</p>
     </div>
   </section>
@@ -593,11 +542,12 @@
           <div class="field">
             <label id="l-examen">¿A qué examen te presentas?</label>
             <div class="radios" role="radiogroup" aria-labelledby="l-examen">
+              <label class="radio"><input type="radio" name="examen" value="EsSalud"><span>EsSalud</span></label>
               <label class="radio"><input type="radio" name="examen" value="ENAM"><span>ENAM</span></label>
               <label class="radio"><input type="radio" name="examen" value="RM"><span>Residentado</span></label>
-              <label class="radio"><input type="radio" name="examen" value="EsSalud"><span>EsSalud</span></label>
+              <label class="radio"><input type="radio" name="examen" value="ENCAPS"><span>ENCAPS SERUMS</span></label>
             </div>
-            <p class="err" id="e-examen" hidden>Marca uno de los tres.</p>
+            <p class="err" id="e-examen" hidden>Marca uno de los cuatro.</p>
           </div>
           <div class="field field--check">
             <label class="check"><input type="checkbox" id="f-acepto" name="acepto"><span>He leído y acepto la <a href="privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</span></label>
@@ -651,7 +601,7 @@
         </details>
         <details class="faq__item">
           <summary>¿Qué incluye el plan gratuito?</summary>
-          <div class="faq__body"><p>El plan gratuito incluye el banco por especialidad, los flujogramas, el simulacro rápido y por especialidad, y el seguimiento de tu progreso, con un tope de 20 preguntas por día. Premium (desde S/ 29 al mes) quita el tope y añade el simulacro ENAM 2020 completo. Es un pago único por periodo, sin renovación automática.</p></div>
+          <div class="faq__body"><p>El plan gratuito incluye el banco por especialidad, los flujogramas, el simulacro rápido y por especialidad, y el seguimiento de tu progreso, con un tope de 20 preguntas por día. Cada examen tiene sus planes y precios (desde S/ 19 al mes); el plan de pago quita el tope y añade el simulacro ENAM 2020 completo. Es un pago único por periodo, sin renovación automática.</p></div>
         </details>
         <details class="faq__item">
           <summary>¿Cómo puedo crear una cuenta?</summary>
@@ -697,7 +647,7 @@
         <div class="footer__col">
           <p class="footer__title">Producto</p>
           <ul>
-            <li><a href="app/#/banco">Bancos de preguntas</a></li>
+            <li><a href="#registro" data-app="app/#/banco">Bancos de preguntas</a></li>
             <li><a href="#simulacros">Simuladores</a></li>
             <li><a href="#como-funciona">Cómo funciona</a></li>
             <li><a href="#precios">Precios</a></li>
@@ -748,11 +698,11 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="catalogo.js?v=20261018-20"></script>
+<script defer src="catalogo.js?v=20261018-23"></script>
 <script defer src="algoritmos.js?v=20260927-2"></script>
-<script defer src="main.js?v=20261018-20"></script>
-<script defer src="universidades.js?v=20261018-20"></script>
-<script defer src="graficos.js?v=20261018-20"></script>
-<script defer src="pro.js?v=20261018-20"></script>
+<script defer src="main.js?v=20261018-23"></script>
+<script defer src="universidades.js?v=20261018-23"></script>
+<script defer src="graficos.js?v=20261018-23"></script>
+<script defer src="pro.js?v=20261018-23"></script>
 </body>
 </html>

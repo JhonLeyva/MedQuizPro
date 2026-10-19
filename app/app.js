@@ -908,14 +908,19 @@
   }
 
   /* ---------- Perfil ---------- */
+  function listaPlanes(u) {
+    var EX = (CUENTA.estado && CUENTA.estado.examenes) || {}, subs = u.suscripciones || {}, ks = Object.keys(subs);
+    if (!ks.length) return '<span class="badge">Plan gratuito</span>';
+    return ks.map(function (k) { return '<span class="badge badge--ok">' + esc((EX[k] && EX[k].nombre) || k) + ' · ' + esc(subs[k].plan) + '</span> <span class="muted small">hasta el ' + esc(fechaLarga(subs[k].hasta)) + '</span>'; }).join("<br>");
+  }
   function tarjetaCuenta() {
     if (!CUENTA.disponible) return '<p class="muted">Las cuentas no están disponibles ahora. Tu progreso se guarda solo en este navegador.</p>';
     var u = CUENTA.usuario;
     if (!u) return '<p class="muted">Crea una cuenta gratis para activar un plan Premium. Tu progreso sigue guardándose en este navegador.</p><div class="card__actions"><a class="btn btn--primary" href="#/registro">Crear cuenta</a><a class="btn btn--ghost" href="#/ingresar">Ingresar</a></div>';
     return '<p><b>' + esc(u.nombre) + '</b><br><span class="muted">' + esc(u.correo) + '</span></p>' +
-      '<p>' + (u.premium ? '<span class="badge badge--ok">Premium ' + esc(u.plan) + '</span> <span class="muted small">hasta el ' + esc(fechaLarga(u.premium_hasta)) + '</span>' : '<span class="badge">Plan gratuito</span>') + '</p>' +
+      '<p>' + listaPlanes(u) + '</p>' +
       '<p class="muted small">' + (SYNC.error ? "No pudimos guardar tu progreso en la cuenta; se reintentará con tu próxima respuesta." : "Tu progreso se guarda en tu cuenta" + (SYNC.ultimo ? " · sincronizado a las " + new Date(SYNC.ultimo).toLocaleTimeString("es-PE", { hour: "2-digit", minute: "2-digit" }) : "") + ".") + '</p>' +
-      '<div class="card__actions"><a class="btn btn--primary" href="#/planes">' + (u.premium ? "Renovar plan" : "Ver planes") + '</a><button class="btn btn--ghost" type="button" data-accion="salir">Cerrar sesión</button></div>' +
+      '<div class="card__actions"><a class="btn btn--primary" href="#/planes">' + (u.premium ? "Renovar o cambiar plan" : "Ver planes") + '</a><button class="btn btn--ghost" type="button" data-accion="salir">Cerrar sesión</button></div>' +
       '<details class="datos-cuenta"><summary>Mis datos y privacidad</summary>' +
         '<p class="muted small">Puedes descargar todo lo que guardamos de ti o eliminar tu cuenta. Más detalles en la <a href="../privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</p>' +
         '<div class="card__actions"><button class="btn btn--ghost btn--sm" type="button" data-accion="exportar">Descargar mis datos</button><button class="btn btn--ghost btn--sm btn--danger" type="button" data-accion="eliminar">Eliminar mi cuenta</button></div>' +
@@ -965,44 +970,62 @@
   };
 
   /* ---------- Planes ---------- */
+  var ORDEN_EX = ["essalud", "enam", "residentado", "encaps"];
   function vistaPlanes() {
-    var P = (CUENTA.estado && CUENTA.estado.planes) || null;
+    var EX = (CUENTA.estado && CUENTA.estado.examenes) || null, PER = (CUENTA.estado && CUENTA.estado.periodos) || null;
     var motivo = parametros.motivo, pago = parametros.pago;
     var aviso = "";
-    if (motivo === "limite") aviso = '<div class="notice notice--warn" role="status"><b>Llegaste al límite de hoy.</b> El plan gratuito incluye ' + CUENTA.estado.limite_diario + ' preguntas por día. Con Premium sigues sin límite.</div>';
-    else if (motivo === "simulacro") aviso = '<div class="notice notice--warn" role="status"><b>El simulacro ENAM 2020 completo es Premium.</b> Con el plan gratuito puedes usar el simulacro rápido y el de especialidad.</div>';
+    if (motivo === "limite") aviso = '<div class="notice notice--warn" role="status"><b>Llegaste al límite de hoy.</b> El plan gratuito incluye ' + CUENTA.estado.limite_diario + ' preguntas por día. Con un plan sigues sin límite.</div>';
+    else if (motivo === "simulacro") aviso = '<div class="notice notice--warn" role="status"><b>El simulacro ENAM 2020 completo es de pago.</b> Con el plan gratuito puedes usar el simulacro rápido y el de especialidad.</div>';
     if (pago === "pendiente") aviso = '<div class="notice" role="status"><b>Tu pago está pendiente.</b> Cuando la pasarela lo confirme, tu plan se activa solo. Puede tardar unos minutos.</div>';
     if (pago === "error") aviso = '<div class="notice notice--bad" role="alert"><b>No se completó el pago.</b> No se te cobró nada. Puedes intentarlo de nuevo.</div>';
-    if (!CUENTA.disponible || !P) {
+    if (!CUENTA.disponible || !EX || !PER) {
       return cabecera("Planes", "Planes", "Los planes se activarán en cuanto el servidor de cuentas esté disponible.") +
         vacio("candado", "Todavía no hay planes disponibles", "Mientras tanto toda la plataforma sigue siendo de acceso libre.", '<a class="btn btn--primary" href="#/inicio">Ir al inicio</a>');
     }
-    var pagos = CUENTA.estado.pagos, prem = esPremium();
-    var vigente = prem ? '<div class="notice notice--ok" role="status"><b>Tu plan ' + esc(CUENTA.usuario.plan) + ' está activo</b> hasta el ' + esc(fechaLarga(CUENTA.usuario.premium_hasta)) + '. Si compras otro periodo, se suma al que ya tienes.</div>' : "";
-    var comunes = ["Preguntas ilimitadas, sin tope diario", "Simulacro ENAM 2020 completo", "Todos los simuladores y el tutor de IA", "Comentario docente y flujograma en cada pregunta", "Progreso, falladas y favoritas"];
+    var pagos = CUENTA.estado.pagos, u = CUENTA.usuario;
+    var subs = (u && u.suscripciones) || {}, espera = (u && u.espera) || [];
+    var sel = EX[parametros.examen] ? parametros.examen : (EX[examenPreferido()] ? examenPreferido() : "enam");
+    var ex = EX[sel];
+    var tabs = '<div class="chips chips--wrap plan-tabs" role="tablist" aria-label="Examen">' + ORDEN_EX.filter(function (k) { return EX[k]; }).map(function (k) {
+      return '<a class="chip" role="tab" aria-pressed="' + (k === sel) + '" aria-selected="' + (k === sel) + '" href="#/planes?examen=' + k + '">' + esc(EX[k].nombre) + (subs[k] ? " ✓" : "") + '</a>';
+    }).join("") + '</div>';
+    var vigente = subs[sel] ? '<div class="notice notice--ok" role="status"><b>Tu plan ' + esc(subs[sel].plan) + ' de ' + esc(ex.nombre) + ' está activo</b> hasta el ' + esc(fechaLarga(subs[sel].hasta)) + '. Si compras otro periodo, se suma al que ya tienes.</div>' : "";
+    var comunes = ex.abierto
+      ? ["Preguntas ilimitadas, sin tope diario", "Simulacro ENAM 2020 completo", "Todos los simuladores y el tutor de IA", "Comentario docente y flujograma en cada pregunta", "Progreso, falladas y favoritas"]
+      : ["Banco de " + ex.nombre + " en construcción", "Simuladores y tutor de IA incluidos", "Comentario docente y flujograma", "Te avisamos apenas abra"];
     function tarjeta(id, destacado, insignia) {
-      var p = P[id], mes = p.soles / (p.dias / 30);
+      var per = PER[id], precio = ex.precios[id], mes = precio / (per.dias / 30);
       var etiqueta = id === "mensual" ? "por 30 días" : id === "trimestral" ? "por 3 meses · " + soles(Math.round(mes * 100) / 100) + "/mes" : "por 12 meses · " + soles(Math.round(mes * 100) / 100) + "/mes";
+      var boton = !ex.abierto ? '<button class="btn btn--ghost btn--lg btn--block" type="button" disabled>Próximamente</button>'
+        : '<button class="btn ' + (destacado ? "btn--primary" : "btn--ghost") + ' btn--lg btn--block" type="button" data-accion="comprar" data-examen="' + sel + '" data-plan="' + id + '"' + (pagos ? "" : " disabled") + '>' + (pagos ? (subs[sel] ? "Renovar" : "Elegir este plan") : "Cobro próximamente") + '</button>';
       return '<article class="plan' + (destacado ? " plan--pro" : "") + '">' + (insignia ? '<span class="plan__badge">' + insignia + '</span>' : "") +
-        '<h2 class="plan__name">' + esc(p.nombre) + '</h2>' +
-        '<p class="plan__price"><span class="plan__amount">' + soles(p.soles) + '</span><span class="plan__per">' + etiqueta + '</span></p>' +
-        '<button class="btn ' + (destacado ? "btn--primary" : "btn--ghost") + ' btn--lg btn--block" type="button" data-accion="comprar" data-plan="' + id + '"' + (pagos ? "" : " disabled") + '>' + (pagos ? (prem ? "Renovar" : "Elegir este plan") : "Cobro próximamente") + '</button>' +
+        '<h2 class="plan__name">' + esc(per.nombre.charAt(0).toUpperCase() + per.nombre.slice(1)) + '</h2>' +
+        '<p class="plan__price"><span class="plan__amount">' + soles(precio) + '</span><span class="plan__per">' + etiqueta + '</span></p>' + boton +
         '<ul class="plan__list">' + comunes.map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("") + '</ul></article>';
     }
     var gratis = '<article class="plan"><h2 class="plan__name">Gratis</h2><p class="plan__price"><span class="plan__amount">S/ 0</span><span class="plan__per">sin tarjeta</span></p>' +
-      (CUENTA.usuario ? '<span class="btn btn--ghost btn--lg btn--block is-static">' + (prem ? "Incluido" : "Tu plan actual") + '</span>' : '<a class="btn btn--ghost btn--lg btn--block" href="#/registro">Crear cuenta gratis</a>') +
-      '<ul class="plan__list"><li>' + (CUENTA.estado.limites ? CUENTA.estado.limite_diario + " preguntas por día" : "Banco ENAM por especialidad") + '</li><li>Simulacro rápido y por especialidad</li><li>Comentario docente y flujograma</li><li>Progreso, falladas y favoritas</li></ul></article>';
-    return cabecera("Planes", "Elige cómo quieres estudiar", "Pago único por periodo, sin renovación automática. Pagas en soles con tarjeta.") +
-      aviso + vigente + '<div class="plans plans--app">' + gratis + tarjeta("mensual", false, "") + tarjeta("trimestral", true, "Más elegido") + tarjeta("anual", false, "Mejor precio") + '</div>' +
+      (u ? '<span class="btn btn--ghost btn--lg btn--block is-static">' + (subs[sel] ? "Incluido" : "Tu plan actual") + '</span>' : '<a class="btn btn--ghost btn--lg btn--block" href="#/registro">Crear cuenta gratis</a>') +
+      '<ul class="plan__list"><li>' + (CUENTA.estado.limites ? CUENTA.estado.limite_diario + " preguntas por día" : "Banco por especialidad") + '</li><li>Simulacro rápido y por especialidad</li><li>Comentario docente y flujograma</li><li>Progreso, falladas y favoritas</li></ul></article>';
+    var cierre = ex.abierto ? "" :
+      '<div class="notice" role="status"><b>El banco de ' + esc(ex.nombre) + ' todavía no está publicado.</b> Por eso no lo vendemos aún. ' +
+      (espera.indexOf(sel) >= 0 ? 'Ya estás en la lista de espera: te avisamos al abrir.' : (u ? '<button class="btn btn--primary btn--sm" type="button" data-accion="espera" data-examen="' + sel + '">Avisarme cuando abra</button>' : '<a class="btn btn--primary btn--sm" href="#/registro">Crea tu cuenta para que te avisemos</a>')) + '</div>';
+    return cabecera("Planes", "Elige tu examen y tu plan", "Cada examen tiene sus propios planes. Pago único por periodo, sin renovación automática, en soles.") +
+      aviso + tabs + vigente + cierre + '<div class="plans plans--app">' + gratis + tarjeta("mensual", false, "") + tarjeta("trimestral", true, "Más elegido") + tarjeta("anual", false, "Mejor precio") + '</div>' +
       '<p class="muted small plans__foot" id="planError" role="alert" hidden></p>' +
       '<p class="muted small plans__foot">El cobro lo procesa ' + (CUENTA.estado.pasarela === "payu" ? "PayU" : "Mercado Pago") + ': MedQuizPlus no ve ni guarda los datos de tu tarjeta.</p>';
   }
+  ACCIONES.espera = function (b) {
+    api("espera", { examen: b.getAttribute("data-examen") }).then(function (r) {
+      if (r.ok) { CUENTA.usuario = r.j.usuario; render(true); }
+    });
+  };
   ACCIONES.comprar = function (b) {
-    var plan = b.getAttribute("data-plan");
-    if (!CUENTA.usuario) { location.hash = "#/registro?plan=" + plan; return; }
+    var plan = b.getAttribute("data-plan"), examen = b.getAttribute("data-examen") || "enam";
+    if (!CUENTA.usuario) { location.hash = "#/registro?plan=" + plan + "&examen=" + examen; return; }
     var err = document.getElementById("planError"), txt = b.textContent;
     err.hidden = true; b.disabled = true; b.textContent = "Abriendo el pago…";
-    api("comprar", { plan: plan }).then(function (r) {
+    api("comprar", { examen: examen, plan: plan }).then(function (r) {
       if (r.ok && r.j.form) {                       // PayU: se envía un formulario a su pantalla de pago
         var f = document.createElement("form"); f.method = "POST"; f.action = r.j.form.action;
         Object.keys(r.j.form.fields).forEach(function (k) { var i = document.createElement("input"); i.type = "hidden"; i.name = k; i.value = r.j.form.fields[k]; f.appendChild(i); });
@@ -1032,7 +1055,7 @@
       campo("a-correo", "Correo electrónico", "email", 'autocomplete="email" maxlength="120" required') +
       campo("a-clave", "Contraseña" + (reg ? " (mínimo 8 caracteres)" : ""), "password", 'autocomplete="' + (reg ? "new-password" : "current-password") + '" minlength="8" maxlength="200" required') +
       (reg ? '<div class="field"><label for="a-uni">Universidad (opcional)</label><select id="a-uni" name="a-uni">' + (window.MQP_UNIVERSIDADES ? window.MQP_UNIVERSIDADES.opciones() : '<option value="">—</option>') + '</select></div>' : "") +
-      (reg ? '<div class="field"><label>¿Qué examen preparas?</label><div class="picks picks--row">' + ["enam|ENAM", "residentado|Residentado", "essalud|EsSalud"].map(function (x, i) { var p = x.split("|"); return opcion("a-examen", p[0], p[1], "", i === 0, false); }).join("") + '</div></div>' : "") +
+      (reg ? '<div class="field"><label>¿Qué examen preparas?</label><div class="picks picks--row">' + ["essalud|EsSalud", "enam|ENAM", "residentado|Residentado", "encaps|ENCAPS SERUMS"].map(function (x, i) { var p = x.split("|"); return opcion("a-examen", p[0], p[1], "", p[0] === "enam", false); }).join("") + '</div></div>' : "") +
       (reg ? '<label class="check"><input type="checkbox" id="a-acepto"><span>He leído y acepto la <a href="../privacidad.html" target="_blank" rel="noopener">Política de privacidad</a>.</span></label>' : "") +
       '<p class="form-error" id="authError" role="alert" hidden></p>' +
       '<button class="btn btn--primary btn--lg btn--block" type="submit">' + (reg ? "Crear mi cuenta" : "Ingresar") + '</button></form>' +
@@ -1054,7 +1077,7 @@
         if (d.examen) M.progreso.preferencia("examen", d.examen);
         sincronizar();
         var plan = parametros.plan;
-        location.hash = plan ? "#/planes?plan=" + encodeURIComponent(plan) : "#/inicio";
+        location.hash = plan ? "#/planes?plan=" + encodeURIComponent(plan) + (parametros.examen ? "&examen=" + encodeURIComponent(parametros.examen) : "") : "#/inicio";
       }).catch(function (e) {
         btn.disabled = false; btn.textContent = txt; err.textContent = e.message || "No se pudo completar."; err.hidden = false;
       });

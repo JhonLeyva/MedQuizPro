@@ -494,3 +494,14 @@ html:not(.js-reveal) .wd > span { display: inline-block; }
 .mapp__res .g-barras { gap: .5em; } .mapp__res .g-barra { grid-template-columns: minmax(8em, 38%) minmax(0, 1fr) auto; gap: .8em; } .mapp__res .g-barra__et { font-size: .95em; } .mapp__res .g-barra__et small { font-size: .85em; } .mapp__res .g-barra__val { font-size: .95em; } .mapp__res .g-barra__pista { height: 1em; }
 .mapp__res .g-datos { display: none; }
 .hero-show__nota { position: relative; z-index: 2; margin: .9em 0 0; text-align: center; font-size: .78rem; color: var(--ink-3); }
+
+.mapp__verflujo { display: inline-flex; align-items: center; gap: .55em; margin: .7em 0 0; padding: .45em .9em; border-radius: .6em; border: 1px solid var(--line-strong, var(--line)); background: var(--surface); color: var(--ink); font-weight: 700; font-size: .95em; transition: background .2s, border-color .2s, transform .15s; }
+.mapp__verflujo svg { width: 1.25em; height: 1.25em; color: var(--brand); }
+.mapp__verflujo.is-pulsado { background: var(--brand-soft); border-color: var(--brand); transform: scale(.97); }
+.mapp__fb { display: block; }
+
+/* ---------- pestañas de examen en precios ---------- */
+.plan-tabs { justify-content: center; margin: 0 0 var(--space-6, 24px); }
+.plan-tabs .chip { min-height: 42px; padding: 0 18px; font-weight: 700; }
+.plans__state { text-align: center; margin: 0 auto 22px; max-width: 560px; color: var(--ink-soft, #4b5d62); font-size: .95rem; }
+.plans__state[hidden] { display: none; }

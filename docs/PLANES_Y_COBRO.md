@@ -86,3 +86,24 @@ correo todavía.
 ## Universidades del registro
 La lista está en `universidades.js` (una línea por universidad: nombre, siglas, sede). Se armó con información pública general, **no con el
 registro oficial**: contrástala con la SUNEDU y ASPEFAM antes de darla por definitiva, y agrega o quita líneas en ese archivo.
+
+## Planes por examen
+
+Cada examen tiene sus propios planes (mensual / trimestral / anual) y precios, definidos en `EXAMENES` de `cuenta.php`
+(y espejados en `main.js` → `safe("precios")` para la landing; si cambias uno, cambia el otro):
+
+| Examen | Mensual | Trimestral | Anual | Estado |
+|---|---|---|---|---|
+| EsSalud | S/ 19 | S/ 45 | S/ 129 | lista de espera |
+| ENAM | S/ 29 | S/ 69 | S/ 199 | a la venta |
+| Residentado Médico | S/ 35 | S/ 85 | S/ 249 | lista de espera |
+| ENCAPS SERUMS | S/ 25 | S/ 59 | S/ 169 | lista de espera |
+
+Un examen solo se vende cuando su banco está publicado (`'abierto' => true`). Mientras tanto la acción `espera` guarda al
+estudiante en `lista_espera` (se ve en el CSV de admin). Un plan comprado de un examen no da acceso a los demás.
+
+## Tutor de IA
+
+`api.php` necesita una llave: variable de entorno `AI_API_KEY` (y `AI_PROVIDER`: gemini | openai | anthropic) o un `config.php`
+(ver `config.example.php`) subido a mano al hosting. Sin llave el sitio responde en "modo básico" con el propio banco.
+Comprueba con `api.php?accion=estado`.
