@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Residentado Médico · lote 2d · módulo p4: cicatrización, hernias, shock ATLS, trauma, vía biliar."""
 from c_rm import S, P, PX, B, Q, L
+from engine4 import LAYOUTS4
+from engine11 import cuadro as _cuadro
+LAYOUTS4.setdefault("cuadro", _cuadro)  # registra el diseño «cuadro»
 SAB = "Sabiston Tratado de Cirugía 21.ª ed."
 ATL = "ATLS, 11.ª ed. (2025)"
 
@@ -44,7 +47,7 @@ S("arbol", "RM-CIR-077", "La hernia inguinal en pantalón o deslizada es Nyhus I
                      ["IIIA", "Directa", "Defecto de la pared posterior (cualquier tamaño)", "Malla"],
                      ["IIIB", "Indirecta grande, en pantalón o deslizada", "Anillo muy dilatado que invade la pared posterior", "Malla"],
                      ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal", "Malla (abordaje inguinal o preperitoneal)"],
-                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=3, ancho_primera=100))
+                     ["IVA-D", "Recurrente: directa (A), indirecta (B), femoral (C) o mixta (D)", "Recidiva tras reparación previa", "Malla, preferible por abordaje distinto al previo"]], caso=3, ancho_primera=150))
 
 # ───────────────────────────── 078 · CHECKLIST
 S("checklist", "RM-CIR-078", "La reparación primaria con sutura es la causa más frecuente de recidiva de la hernia incisional",
@@ -169,7 +172,7 @@ S("cuadro", "RM-CIR-084", "La sección total del colédoco reconocida en la ciru
                      ["E3", "Sección en la confluencia (el confluente se conserva)", "Hepaticoyeyunostomía en Y de Roux"],
                      ["E4", "Sección con separación de los conductos hepáticos derecho e izquierdo", "Hepaticoyeyunostomía en Y de Roux con reconstrucción de la confluencia"],
                      ["E5", "Lesión del hepático común con un conducto sectorial derecho aberrante", "Hepaticoyeyunostomía en Y de Roux"]],
-              caso=[4, 5], ancho_primera=70,
+              caso=[4, 5], ancho_primera=150,
               nota="Tipos A-D son lesiones menores; E (sección o resección con pérdida de tejido) es mayor. Si la reconstrucción no es posible en el momento: drenar y derivar a un centro hepatobiliar."))
 
 # ───────────────────────────── 085 · TARJETAS (Todani)
@@ -265,7 +268,7 @@ S("reloj", "RM-CIR-090", "La colangitis aguda con hipotensión es grave: tras re
   clasif=dict(titulo="Gravedad de la colangitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Drenaje de la vía biliar"],
               filas=[["I (leve)", "No cumple los criterios de II ni de III", "Antibiótico; drenaje si no mejora en 24 h"],
                      ["II (moderada)", "Dos o más: leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75 años, bilirrubina ≥ 5 mg/dL, albúmina baja", "Drenaje precoz"],
-                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Drenaje urgente tras sostén de órganos"]], caso=2, ancho_primera=100))
+                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Drenaje urgente tras sostén de órganos"]], caso=2, ancho_primera=180))
 
 # ───────────────────────────── 091 · PIRÁMIDE
 S("piramide", "RM-CIR-091", "La ecografía abdominal es el estudio inicial de la vía biliar",

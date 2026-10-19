@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Residentado Médico · lote 3a · módulo p7 · 17 flujogramas (cirugía, oftalmo/ORL, urología, pediatría, dermatología, histología)."""
 from c_rm import S, P, PX, B, Q, L, TR, ATLS, HARRISON, WILLIAMS, NELSON, MINSA, ACOG, AAP
+from engine4 import LAYOUTS4
+from engine11 import cuadro as _cuadro
+LAYOUTS4.setdefault("cuadro", _cuadro)
 SAB = "Sabiston Tratado de Cirugía 21.ª ed."
 
 # 126 · BALANZA · factores de riesgo del carcinoma escamoso de esófago
@@ -127,7 +130,7 @@ S("gasometria", "RM-PED-004", "Estenosis hipertrófica del píloro: piloromiotom
   banda=B("Así se ve el píloro engrosado", PX("piloro.jpg", 300, credito="Laughlin Dawes · Wikimedia Commons · CC BY-SA 4.0"),
           [("La flecha roja", "Marca el músculo pilórico engrosado, hipoecoico, junto al estómago lleno de líquido."),
            ("Imagen referencial", "Ecografía de un lactante con estenosis del píloro."),
-           ("Criterios", "Grosor muscular ≥ 3-4 mm y canal pilórico ≥ 15-17 mm.")], pie="Imagen referencial de una estenosis hipertrófica del píloro (ecografía)", rotulo="Imagen referencial"))
+           ("Criterios", "Grosor muscular ≥ 3-4 mm y canal pilórico ≥ 15-17 mm.")], pie="Imagen referencial de un píloro hipertrófico (ecografía)", rotulo="Imagen referencial"))
 
 # OFT-002 · LECTURA · otitis externa aguda
 S("lectura", "RM-OFT-002", "Otitis externa tras natación: el agente más frecuente es Pseudomonas aeruginosa",

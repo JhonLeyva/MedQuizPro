@@ -144,7 +144,7 @@ S("criterios", "RM-CIR-067", "Colecistitis aguda litiásica con Murphy y leucoci
               filas=[["I (leve)", "No cumple criterios de II ni de III", "Colecistectomía laparoscópica temprana"],
                      ["II (moderada)", "Uno o más: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, más de 72 h, inflamación local marcada (gangrena, absceso, peritonitis biliar)", "Colecistectomía temprana si hay equipo con experiencia; si no, drenaje y diferir"],
                      ["III (grave)", "Disfunción orgánica: hipotensión con vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2, INR > 1,5, plaquetas < 100 000", "Soporte de órganos y drenaje de la vesícula"]],
-              caso=0, ancho_primera=120))
+              caso=0, ancho_primera=170))
 
 # 068 · CHECKLIST · absceso perianal
 S("checklist", "RM-CIR-068", "Un absceso perianal se trata con drenaje quirúrgico inmediato",
@@ -270,7 +270,7 @@ S("checklist", "RM-CIR-073", "En la obstrucción intestinal la medida inicial es
   banda=B("Radiografía de abdomen en obstrucción", PX("bridas_rx.jpg", 300, marcas=[
               ("caja", 0.0, 0.42, 0.36, 0.66, "Nivel hidroaéreo", 0.62, 0.12), ("flecha", 0.66, 0.76, 0.55, 0.92, "Asas dilatadas")]),
           [("Asas de delgado dilatadas", "Más de 3 cm de diámetro: cuadro obstructivo."), ("Niveles hidroaéreos", "Líquido y aire en la misma asa, con una línea horizontal entre ambos."), ("Causa y gravedad", "La TC define la causa y la gravedad de la obstrucción.")],
-          pie="Imagen referencial de una obstrucción intestinal por bridas en la radiografía de abdomen."))
+          pie="Imagen referencial de obstrucción por bridas."))
 
 # 074 · LECTURA · hemorroides grado III
 S("lectura", "RM-CIR-074", "El bulto anal que prolapsa y se reduce con la mano, con sangre rojo rutilante, es una hemorroide interna grado III",

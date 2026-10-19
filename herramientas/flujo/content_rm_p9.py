@@ -153,7 +153,15 @@ S("embudo", "RM-END-013", "El diagnóstico definitivo del nódulo tiroideo se ha
                 ("¿Se indica con TSH normal o alta?", ["Gammagrafía cervical"]),
                 ("¿Da un diagnóstico citológico o solo estratifica el riesgo?", ["Ecografía de superficie"])],
          final=("PUNCIÓN Y ASPIRACIÓN CON AGUJA FINA", ["Guiada por ecografía", "Bethesda 2023: categorías I a VI"]),
-         nota="La ecografía decide a quién se punciona; la citología (Bethesda) decide vigilar, repetir, estudio molecular o cirugía."))
+         nota="La ecografía decide a quién se punciona; la citología (Bethesda) decide vigilar, repetir, estudio molecular o cirugía."),
+  clasif=dict(titulo="Sistema Bethesda 2023 de citología tiroidea", cols=["Categoría", "Diagnóstico", "Riesgo de malignidad", "Conducta habitual"],
+              filas=[["I", "No diagnóstico", "13 % (5-20)", "Repetir PAAF guiada por ecografía"],
+                     ["II", "Benigno", "4 % (2-7)", "Seguimiento clínico y ecográfico"],
+                     ["III", "Atipia de significado indeterminado", "22 % (13-30)", "Repetir PAAF, estudio molecular, hemitiroidectomía o vigilancia"],
+                     ["IV", "Neoplasia folicular", "30 % (23-34)", "Estudio molecular y lobectomía diagnóstica"],
+                     ["V", "Sospechoso de malignidad", "74 % (67-83)", "Estudio molecular, lobectomía o tiroidectomía casi total"],
+                     ["VI", "Maligno", "97 % (97-100)", "Lobectomía o tiroidectomía casi total"]], ancho_primera=100,
+              nota="El riesgo de malignidad es el implícito en adultos (Bethesda, 3.ª ed., 2023); la conducta final depende también de la ecografía."))
 
 # 014 · RELOJ · intensificación en diabetes tipo 2
 S("reloj", "RM-END-014", "Con HbA1c de 8,5 % tras metformina más sitagliptina se asocia insulina basal",
@@ -221,7 +229,7 @@ S("lectura", "RM-END-017", "En la enfermedad de Graves el diagnóstico etiológi
       {2: "Anticuerpos antirreceptor de TSH"}),
   d=dict(rotulo="De los signos al examen confirmatorio", img_titulo="Signos oculares de la enfermedad de Graves",
          img=PX("graves_ojos.jpg", 440, credito="J. Trobe · Wikimedia Commons · CC BY 3.0"),
-         pines=[(0.30, 0.50), (0.74, 0.50)], img_pie="Imagen referencial.",
+         pines=[(0.30, 0.50), (0.74, 0.50)], img_pie="Imagen referencial de ojos con retracción palpebral y exoftalmos de la enfermedad de Graves.",
          pasos=[("Retracción palpebral", "Se ve esclera entre el párpado superior y el iris.", False),
                 ("Exoftalmos", "Los globos oculares protruyen: orbitopatía propia de Graves.", False),
                 ("TSH baja con T4 libre y T3 altas", "Confirma tirotoxicosis, no su causa.", False),
@@ -294,9 +302,17 @@ S("termometro", "RM-END-021", "La obesidad clase II de la OMS corresponde a un I
   d=dict(rotulo="Categorías de la OMS según el IMC", caso_nivel=4, ruta_titulo="Qué hacer según la categoría", paso_label="ESTE CASO",
          niveles=[("Bajo peso", "< 18,5", ["Evaluar nutrición"]), ("Normal", "18,5-24,9", ["Mantener"]), ("Sobrepeso", "25-29,9", ["Preobesidad"]),
                   ("Obesidad I", "30-34,9", ["Clase I"]), ("Obesidad II", "35-39,9", ["Clase II"]), ("Obesidad III", "≥ 40", ["Mórbida"])],
-         pasos=[(1, "Sobrepeso y obesidad I", ["Cambios de estilo de vida y control de comorbilidades"], False),
-                (2, "Obesidad II (35-39,9)", ["Tratamiento intensivo; cirugía bariátrica si hay comorbilidad"], True),
-                (3, "Obesidad III (≥ 40)", ["Cirugía bariátrica indicada"], False)]))
+         pasos=[(1, "Medir la cintura", ["Riesgo aumentado: ≥ 94 cm en varones y ≥ 80 cm en mujeres; muy aumentado: ≥ 102 y ≥ 88 cm (OMS)"], False),
+                (2, "Obesidad II: cirugía si hay comorbilidad", ["IMC de 35 o más con comorbilidad: evaluar cirugía bariátrica"], True),
+                (3, "Obesidad clínica", ["Hay disfunción de órganos o limitación funcional, no solo IMC alto (Lancet 2025)"], False)]),
+  clasif=dict(titulo="Clasificación de la OMS del estado nutricional según el IMC", cols=["Categoría", "IMC (kg/m²)", "Riesgo de comorbilidad", "Conducta"],
+              filas=[["Bajo peso", "< 18,5", "Bajo (otros riesgos clínicos)", "Evaluar nutrición"],
+                     ["Normal", "18,5-24,9", "Promedio", "Mantener estilo de vida"],
+                     ["Sobrepeso", "25-29,9", "Aumentado", "Cambios de estilo de vida"],
+                     ["Obesidad I", "30-34,9", "Moderado", "Estilo de vida y control de comorbilidades"],
+                     ["Obesidad II", "35-39,9", "Grave", "Tratamiento intensivo; cirugía bariátrica si hay comorbilidad"],
+                     ["Obesidad III", "≥ 40", "Muy grave", "Cirugía bariátrica indicada"]], caso=4, ancho_primera=215)
+  )
 
 # 022 · LÍNEA DE VIDA · nefropatía diabética
 S("linea_vida", "RM-NEF-006", "La microalbuminuria es el marcador más importante de nefropatía diabética incipiente",
@@ -313,4 +329,8 @@ S("linea_vida", "RM-NEF-006", "La microalbuminuria es el marcador más important
          barras=[("Hiperfiltración", 0, 5, "Silente, sin albuminuria", False), ("Microalbuminuria", 5, 15, "Primer marcador clínico: 30-300 mg/g", True),
                  ("Proteinuria franca", 10, 25, "Más de 300 mg/g, caída de la TFG", False), ("Enfermedad renal terminal", 20, 30, "Diálisis o trasplante", False)],
          marcador=(5, "5 años: inicia el tamizaje en la diabetes tipo 1"),
-         veredicto=("Microalbuminuria = nefropatía diabética incipiente", "Se tamiza cada año con cociente albúmina/creatinina y TFG estimada.")))
+         veredicto=("Microalbuminuria = nefropatía diabética incipiente", "Se tamiza cada año con cociente albúmina/creatinina y TFG estimada.")),
+  clasif=dict(titulo="Categorías de albuminuria según KDIGO 2022", cols=["Categoría", "Cociente albúmina/creatinina", "Denominación", "Conducta"],
+              filas=[["A1", "< 30 mg/g", "Normal o levemente aumentada", "Tamizaje anual; controlar glucemia y presión"],
+                     ["A2", "30-300 mg/g", "Moderadamente aumentada (microalbuminuria)", "Confirmar en 2 de 3 muestras; IECA o ARA II si hay hipertensión; iSGLT2"],
+                     ["A3", "> 300 mg/g", "Gravemente aumentada (proteinuria)", "IECA o ARA II, iSGLT2 y derivar a nefrología"]], caso=1, ancho_primera=200))

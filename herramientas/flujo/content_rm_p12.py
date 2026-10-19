@@ -197,9 +197,9 @@ S("termometro", "RM-INF-007", "La tuberculosis multidrogorresistente es la resis
   clasif=dict(titulo="Clasificación de la tuberculosis según resistencia (OMS 2021) y esquema (OMS 2022)", cols=["Categoría", "Resistencia", "Esquema"],
               filas=[["Sensible", "Sin resistencia a isoniacida ni rifampicina", "2HRZE / 4HR"],
                      ["Hr-TB", "Isoniacida, rifampicina sensible", "6 meses de rifampicina, etambutol, pirazinamida y levofloxacino"],
-                     ["MDR / RR-TB", "Rifampicina (con o sin isoniacida)", "BPaLM 6 meses (bedaquilina, pretomanid, linezolid, moxifloxacino)"],
-                     ["Pre-XDR-TB", "MDR/RR más fluoroquinolona", "BPaL 6 meses (sin moxifloxacino)"],
-                     ["XDR-TB", "Pre-XDR más bedaquilina o linezolid", "Esquema individualizado más prolongado"]], caso=2, ancho_primera=130))
+                     ["MDR/RR", "Rifampicina (con o sin isoniacida)", "BPaLM 6 meses (bedaquilina, pretomanid, linezolid, moxifloxacino)"],
+                     ["Pre-XDR", "MDR/RR más fluoroquinolona", "BPaL 6 meses (sin moxifloxacino)"],
+                     ["XDR", "Pre-XDR más bedaquilina o linezolid", "Esquema individualizado más prolongado"]], caso=2, ancho_primera=210))
 
 # 11 · DECISIÓN · uretritis no gonocócica
 S("decision", "RM-INF-008", "La uretritis no gonocócica la causa con mayor frecuencia Chlamydia trachomatis",

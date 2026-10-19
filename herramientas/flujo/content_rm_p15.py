@@ -31,7 +31,7 @@ S("embudo", "RM-NEU-013", "Fiebre, tos y disnea con un infiltrado alveolar basal
    "EPOC infectado: más disnea y esputo sin infiltrado nuevo. Bronconeumonía: patrón multifocal. TEP: disnea súbita y dolor pleurítico.",
    "Tuberculosis: curso subagudo con infiltrado apical o cavitado. Se estratifica con CURB-65 (confusión, urea, FR ≥ 30, PA, edad ≥ 65).",
    "Tratamiento ambulatorio u hospitalario: betalactámico más macrólido, o fluoroquinolona respiratoria. Sin radiografía de control si evoluciona bien."],
-  "Metlay JP et al., ATS/IDSA, neumonía adquirida en la comunidad en adultos, Am J Respir Crit Care Med 2019;200:e45-e67; Harrison Principios de Medicina Interna, 21.ª ed. (2022).",
+  "Metlay JP et al., ATS/IDSA, neumonía adquirida en la comunidad en adultos, Am J Respir Crit Care Med 2019;200:e45-e67; Lim WS et al., CURB-65, Thorax 2003;58:377-82; Harrison Principios de Medicina Interna, 21.ª ed. (2022).",
   op=("¿Diagnóstico más probable?", ["No: describe un patrón multifocal", "No: no hay disnea súbita ni dolor pleurítico", "No: sin infiltrado nuevo", "Sí: infiltrado alveolar nuevo con fiebre y tos", "No: curso agudo, no apical"],
       {0: "Bronconeumonía", 1: "Tromboembolismo pulmonar", 2: "EPOC infectado", 3: "Neumonía adquirida en la comunidad", 4: "Tuberculosis pulmonar"}),
   d=dict(rotulo="Cómo se llega al diagnóstico", inicio="Adulto mayor con fiebre, tos y disnea",
@@ -41,7 +41,13 @@ S("embudo", "RM-NEU-013", "Fiebre, tos y disnea con un infiltrado alveolar basal
                 ("¿Es un cuadro febril de 7 días, sin disnea súbita ni dolor pleurítico?", ["Tromboembolismo pulmonar"]),
                 ("¿Es agudo y no apical ni cavitado?", ["Tuberculosis pulmonar"])],
          final=("NEUMONÍA ADQUIRIDA EN LA COMUNIDAD", ["Estratificar con CURB-65", "Betalactámico más macrólido"]),
-         nota="La obesidad aumenta el riesgo de tromboembolismo, pero la fiebre de 7 días y el infiltrado basal orientan a neumonía."))
+         nota="La obesidad aumenta el riesgo de tromboembolismo, pero la fiebre de 7 días y el infiltrado basal orientan a neumonía."),
+  clasif=dict(titulo="CURB-65: un punto por cada criterio (confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65)",
+              cols=["Puntaje", "Riesgo de muerte a 30 días", "Conducta"],
+              filas=[["0 a 1", "Bajo (cerca de 1,5 %)", "Tratamiento ambulatorio"],
+                     ["2", "Intermedio (cerca de 9 %)", "Hospitalización breve o con seguimiento estrecho"],
+                     ["3 a 5", "Alto (22 % o más)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
+              caso=None, ancho_primera=110, nota="En este caso la edad ya suma 1 punto; el resto depende de la urea, la confusión y la presión arterial."))
 
 # 3 · LECTURA · meningitis meningocócica
 S("lectura", "RM-INF-024", "Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora",
@@ -55,9 +61,9 @@ S("lectura", "RM-INF-024", "Meningitis con diplococos gramnegativos intracelular
   "van de Beek D et al., ESCMID, meningitis bacteriana aguda, Clin Microbiol Infect 2016;22 Suppl 3:S37-62; Tunkel AR et al., IDSA, Clin Infect Dis 2004;39:1267-84; Harrison Principios de Medicina Interna, 21.ª ed. (2022).",
   op=("¿Antibiótico de elección?", ["No: no atraviesa bien la barrera hematoencefálica", "Sí: cefalosporina de tercera generación", "No: alternativa, no de elección", "No: reserva, dosis distinta", "No: reserva, dosis distinta"],
       {0: "Clindamicina 600 mg IV cada 8 h", 1: "Ceftriaxona 2 g IV cada 12 h", 2: "Meropenem 1 g IV cada 8 h", 3: "Ciprofloxacino 200 mg IV cada 8 h", 4: "Moxifloxacino 400 mg IV cada 6 h"}),
-  d=dict(rotulo="Cómo leer el cuadro y qué hacer primero", img_titulo="Púrpura en la mano (imagen de referencia)",
+  d=dict(rotulo="Cómo leer el cuadro y qué hacer primero", img_titulo="Púrpura en la mano",
          img=PX("meningococo.jpg", 330, credito="Glei y Shkurba · Wikimedia Commons · dominio público"),
-         pines=[(0.62, 0.28), (0.40, 0.58)], img_pie="Imagen de referencia, no del paciente: lesiones purpúricas de la meningococemia.",
+         pines=[(0.62, 0.28), (0.40, 0.58)], img_pie="Imagen referencial de lesiones purpúricas de la meningococemia en la mano.",
          pasos=[("1. Púrpura y petequias", "Con fiebre: meningococemia; vigilar la presión arterial.", False),
                 ("2. Gram del LCR", "Diplococos gramnegativos intracelulares: Neisseria meningitidis.", False),
                 ("3. Ceftriaxona 2 g IV cada 12 h", "Sin demora, idealmente en la primera hora.", True),
@@ -98,7 +104,12 @@ S("termometro", "RM-GAS-008", "En la infección intestinal por C. difficile la v
                   ("Fulminante", "Hipotensión, íleo o megacolon", ["Vancomicina oral más metronidazol IV"])],
          pasos=[(1, "Suspender el antibiótico causal", ["Y evitar antidiarreicos"], False),
                 (2, "Vancomicina oral 125 mg cada 6 h por 10 días", ["No se absorbe: llega al colon"], True),
-                (3, "Fidaxomicina 200 mg cada 12 h por 10 días", ["Alternativa preferida en las guías actuales"], False)]))
+                (3, "Fidaxomicina 200 mg cada 12 h por 10 días", ["Alternativa preferida en las guías actuales"], False)]),
+  clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA)", cols=["Gravedad", "Criterio", "Tratamiento"],
+              filas=[["No grave", "Leucocitos ≤ 15 000/mm³ y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h o vancomicina oral 125 mg c/6 h, 10 días"],
+                     ["Grave", "Leucocitos ≥ 15 000/mm³ o creatinina > 1,5 mg/dL", "Igual que la no grave (fidaxomicina o vancomicina oral)"],
+                     ["Fulminante", "Hipotensión o shock, íleo o megacolon", "Vancomicina oral 500 mg c/6 h más metronidazol IV; vancomicina rectal si hay íleo"]],
+              caso=None, ancho_primera=110))
 
 # 6 · CASCADA · colangitis aguda
 S("cascada", "RM-GAS-009", "En la colangitis aguda por litiasis predominan E. coli, Klebsiella y Enterobacter",
@@ -121,7 +132,12 @@ S("cascada", "RM-GAS-009", "En la colangitis aguda por litiasis predominan E. co
   banda=B("Referencia: TC con dilatación de la vía biliar",
           PX("colangitis_tc.jpg", 190, credito="Yeung et al. · Cureus 2026 · CC BY 4.0"),
           [("Flecha superior", "Marca la vía biliar dilatada."), ("Flecha inferior", "Marca un cálculo en el colédoco distal."), ("Qué explica", "La obstrucción permite la infección ascendente.")],
-          pie="Tomografía de referencia, no del paciente", rotulo="Imagen de referencia"))
+          pie="Imagen referencial de una tomografía con dilatación de la vía biliar y cálculo en el colédoco distal", rotulo="Imagen referencial"),
+  clasif=dict(titulo="Gravedad de la colangitis aguda según Tokio 2018", cols=["Grado", "Criterio", "Conducta"],
+              filas=[["I (leve)", "No cumple criterios de II ni III", "Antibiótico; drenaje si no mejora en 24 h"],
+                     ["II (moderada)", "Dos o más: leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75 años, bilirrubina ≥ 5 mg/dL, albúmina baja", "Antibiótico y drenaje biliar precoz"],
+                     ["III (grave)", "Falla de un órgano: hipotensión con vasopresor, alteración de la conciencia, PaO2/FiO2 < 300, oliguria o creatinina > 2, INR > 1,5, plaquetas < 100 000", "Soporte de órganos y drenaje urgente"]],
+              caso=None, ancho_primera=110))
 
 # 7 · TARJETAS · forunculosis
 S("tarjetas", "RM-INF-026", "El forúnculo es una infección del folículo piloso causada por Staphylococcus aureus",
@@ -161,7 +177,12 @@ S("laboratorio", "RM-GIN-009", "En la vaginosis bacteriana el pH vaginal pasa de
             ("Secreción", "Homogénea, gris", "Blanca, no adherente", "↑", "Adherente a la pared vaginal; la grumosa es candidiasis."),
             ("Células clave (examen en fresco)", "Presentes", "Ausentes", "↑", "Células epiteliales cubiertas de bacterias."),
             ("Leucocitos", "Pocos", "Pocos", "↓", "Su aumento orienta a tricomoniasis o cervicitis, no a vaginosis.")],
-         veredicto=("pH alto y test de aminas positivo", "Con 3 de 4 criterios de Amsel se diagnostica y se trata con metronidazol.")))
+         veredicto=("pH alto y test de aminas positivo", "Con 3 de 4 criterios de Amsel se diagnostica y se trata con metronidazol.")),
+  clasif=dict(titulo="Puntaje de Nugent (tinción de Gram del flujo vaginal)", cols=["Puntaje", "Interpretación", "Conducta"],
+              filas=[["0 a 3", "Flora normal (predominio de lactobacilos)", "Sin tratamiento"],
+                     ["4 a 6", "Flora intermedia", "Correlacionar con la clínica; repetir si persisten los síntomas"],
+                     ["7 a 10", "Vaginosis bacteriana", "Metronidazol 500 mg c/12 h por 7 días si hay síntomas o embarazo"]],
+              caso=None, ancho_primera=110))
 
 # 9 · FASES · meningitis criptocócica
 S("fases", "RM-INF-027", "La meningitis criptocócica en VIH se induce con anfotericina B más flucitosina por 2 semanas",
@@ -182,7 +203,7 @@ S("fases", "RM-INF-027", "La meningitis criptocócica en VIH se induce con anfot
   banda=B("Referencia: Cryptococcus neoformans al microscopio",
           PX("cripto.jpg", 260, credito="CDC/Dr. Leanor Haley · dominio público", marcas=[("flecha", 0.52, 0.52, 0.80, 0.20, "Cápsula (halo claro)")]),
           [("Levaduras redondas", "Células con cápsula gruesa."), ("Halo claro", "Es la cápsula que rodea cada levadura."), ("Hallazgo clínico", "Con el antígeno criptocócico confirma la meningitis.")],
-          pie="Imagen de referencia, no del paciente", rotulo="Imagen de referencia"))
+          pie="Imagen referencial de Cryptococcus neoformans con cápsula, al microscopio", rotulo="Imagen referencial"))
 
 # 10 · RADIAL · artritis séptica
 S("radial", "RM-INF-028", "Staphylococcus aureus es el germen más frecuente de la artritis séptica",
@@ -220,8 +241,8 @@ S("alarma", "RM-NEU-014", "Tos de un mes con diaforesis, pérdida de peso e infi
                  ("Hemoptisis o cavidad", "No referidas: buscarlas en la radiografía", None),
                  ("Contacto con un caso de tuberculosis", "No referido: preguntar por convivientes", None), ("VIH, diabetes o desnutrición", "No referidos: descartar inmunosupresión", None)],
          accion=("Baciloscopía, cultivo o prueba molecular", "Si se confirma: 2HRZE/4HR, notificar y estudiar contactos."), accion_rotulo="Con la sospecha clínica",
-         img=PX("tb_cavitaria.jpg", 250, credito="CDC · Wikimedia Commons · dominio público"), img_titulo="Radiografía de referencia",
-         veredicto=("Tos prolongada, adelgazamiento e infiltrado apical = tuberculosis", "Radiografía de referencia: las puntas blancas contornean la afectación del lóbulo superior derecho y las flechas negras una cavidad.")))
+         img=PX("tb_cavitaria.jpg", 250, credito="CDC · Wikimedia Commons · dominio público"), img_titulo="Radiografía de tórax",
+         veredicto=("Tos prolongada, adelgazamiento e infiltrado apical = tuberculosis", "Imagen referencial de una radiografía con tuberculosis cavitaria: las puntas blancas contornean el lóbulo superior derecho y las flechas negras una cavidad.")))
 
 # 12 · FÁRMACO · malaria por P. vivax
 S("farmaco", "RM-INF-029", "La primaquina previene las recaídas de P. vivax y P. ovale porque mata los hipnozoítos del hígado",
@@ -247,7 +268,7 @@ S("farmaco", "RM-INF-029", "La primaquina previene las recaídas de P. vivax y P
   banda=B("Referencia: trofozoítos de Plasmodium en sangre",
           PX("vivax_troz.jpg", 260, credito="CDC/PHIL 2720 · dominio público", marcas=[("circulo", 0.465, 0.30, 0.07, "Plasmodium", 0.72, 0.62)]),
           [("Glóbulos rojos parasitados", "Trofozoítos dentro de los eritrocitos."), ("Fase sanguínea", "La cloroquina actúa aquí."), ("Fase hepática", "Invisible en la lámina: requiere primaquina.")],
-          pie="Imagen de referencia, no del paciente", rotulo="Imagen de referencia"))
+          pie="Imagen referencial de trofozoítos de Plasmodium vivax en un frotis de sangre", rotulo="Imagen referencial"))
 
 # 13 · TRANSMISIÓN · Zika
 S("transmision", "RM-INF-030", "La infección por virus del Zika durante la gestación se relaciona con microcefalia",
@@ -284,7 +305,12 @@ S("matriz", "RM-CAR-040", "En los criterios de Duke, los hemocultivos positivos 
          rows=["Microbiología", "Imagen", "Clínica y otros"], caso=(0, 0),
          cells=[[("Hemocultivos típicos (este caso)", ["Persistentes: S. aureus, viridans, HACEK, enterococo"]), ("Otro hallazgo microbiológico", ["Que no cumple el criterio mayor"])],
                 [("Vegetación, absceso o dehiscencia", ["Ecocardiograma o PET/TC"]), ("Predisposición", ["Valvulopatía o drogas intravenosas"])],
-                [("Cirugía con evidencia directa", ["Novedad de Duke-ISCVID 2023"]), ("Fiebre, embolias, factor reumatoideo", ["Fenómenos vasculares e inmunológicos"])]]))
+                [("Cirugía con evidencia directa", ["Novedad de Duke-ISCVID 2023"]), ("Fiebre, embolias, factor reumatoideo", ["Fenómenos vasculares e inmunológicos"])]]),
+  clasif=dict(titulo="Categorías diagnósticas de endocarditis (Duke-ISCVID 2023)", cols=["Categoría", "Combinación de criterios"],
+              filas=[["Definitiva", "2 mayores, o 1 mayor y 3 menores, o 5 menores"],
+                     ["Posible", "1 mayor y 1 menor, o 3 menores"],
+                     ["Rechazada", "Diagnóstico alternativo firme, o no cumple los criterios de endocarditis posible"]],
+              caso=None, ancho_primera=130))
 
 # 15 · LÍNEA DE VIDA · ELISA de tercera generación
 S("linea_vida", "RM-INF-031", "El ELISA de tercera generación se positiviza entre las 2 y 4 semanas del contagio por VIH",
@@ -318,7 +344,7 @@ S("lectura", "RM-GAS-010", "Los abscesos hepáticos se localizan con más frecue
       {0: "Derecho", 1: "Izquierdo", 2: "Caudado", 3: "Bilobular", 4: "Sin preferencia"}),
   d=dict(rotulo="Cómo leer un absceso hepático en la tomografía", img_titulo="TC con contraste: absceso en el lóbulo derecho",
          img=PX("absceso_hep_ct.jpg", 330, credito="Paz y Mino et al. · J Med Cases 2026 · CC BY 4.0"),
-         pines=[], img_pie="Imagen de referencia, no del paciente: la flecha verde marca la lesión hipodensa de 4,4 cm en el lóbulo derecho.",
+         pines=[], img_pie="Imagen referencial de un absceso hepático en el lóbulo derecho: la flecha verde marca la lesión hipodensa de 4,4 cm.",
          pasos=[("1. Lesión hipodensa", "La flecha verde marca el absceso en la parte inferior del lóbulo derecho.", True),
                 ("2. Por qué el lóbulo derecho", "Es más grande y recibe la vena mesentérica superior.", False),
                 ("3. Clínica", "Fiebre y dolor en hipocondrio derecho; derrame pleural derecho.", False),

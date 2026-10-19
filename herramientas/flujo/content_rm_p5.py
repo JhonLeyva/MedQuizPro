@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Residentado Médico · lote 2d · módulo p5 · 15 flujogramas (cirugía general, pediatría quirúrgica, anatomía, trauma)."""
 from c_rm import S, P, PX, B, Q, L, TR, ATLS, HARRISON, WILLIAMS, NELSON, MINSA, ACOG, AAP
+from engine4 import LAYOUTS4
+from engine11 import cuadro as _cuadro
+LAYOUTS4.setdefault("cuadro", _cuadro)
 SCHW = "Schwartz Principios de Cirugía 11.ª ed."
 SAB = "Sabiston Tratado de Cirugía 21.ª ed."
 NEL = "Nelson Tratado de Pediatría 21.ª ed."
@@ -57,7 +60,12 @@ S("decision", "RM-CIR-093", "Con Alvarado de 5 puntos (probabilidad intermedia) 
          cells=[[("Observar", ["Reevaluar en 6-12 horas", "Alta con indicaciones de alarma"]), ("No de rutina", ["Solo si empeora o hay dudas"])],
                 [("Pedir imagen", ["Observación mientras se estudia", "Cirujano evalúa con el resultado"]), ("Ecografía; luego TC con contraste", ["Eco primero en mujeres jóvenes y niños", "TC si la eco no concluye"])],
                 [("Apendicectomía", ["Sin demora innecesaria", "Antibiótico antes de operar"]), ("Opcional", ["En mujeres fértiles, para descartar causa ginecológica"])]],
-         caso=(1, 0), nota="La paciente suma 5: dolor en FID (2) + migración (1) + náuseas (1) + fiebre (1)."))
+         caso=(1, 0), nota="La paciente suma 5: dolor en FID (2) + migración (1) + náuseas (1) + fiebre (1)."),
+  clasif=dict(titulo="Escala de Alvarado (MANTRELS), 10 puntos", cols=["Criterio", "Puntos", "En este caso"],
+              filas=[["Migración del dolor a FID", "1", "Sí (1)"], ["Anorexia", "1", "No descrita"], ["Náuseas o vómitos", "1", "Sí (1)"],
+                     ["Dolor a la palpación en FID", "2", "Sí (2)"], ["Rebote (Blumberg)", "1", "No descrito"], ["Temperatura > 37,3 °C", "1", "Sí (1)"],
+                     ["Leucocitosis > 10 000", "2", "No (hemograma normal)"], ["Desviación a la izquierda", "1", "No descrita"]],
+              caso=[0, 2, 3, 5], ancho_primera=300, nota="Total del caso: 5 puntos. 0-4 observar · 5-6 imagen · 7-10 operar."))
 
 # 4 · CUADRÍCULA · fisura anal: dónde se ubica
 S("cuadricula", "RM-CIR-095", "La fisura anal crónica se ubica casi siempre en la línea media posterior",
@@ -110,7 +118,7 @@ S("lectura", "RM-PED-003", "En la estenosis hipertrófica del píloro se corrige
       {0: "Piloromiotomía laparoscópica", 1: "Esofagostomía", 2: "Anastomosis gastroduodenal", 3: "Gastrectomía distal", 4: "Gastrostomía"}),
   d=dict(rotulo="Cómo leer la ecografía del píloro", img_titulo="Ecografía del píloro",
          img=PX("piloro.jpg", 340, credito="Laughlin Dawes · Wikimedia Commons · CC BY-SA 4.0"), pines=[],
-         img_pie="Imagen referencial. La flecha roja marca el músculo pilórico engrosado.",
+         img_pie="Imagen referencial de una ecografía de estenosis hipertrófica del píloro; la flecha roja marca el músculo engrosado.",
          pasos=[("Flecha roja: músculo del píloro engrosado", "Pared hipoecoica de grosor ≥ 3-4 mm; normal menos de 3 mm.", False),
                 ("Canal pilórico largo y estrecho", "Longitud ≥ 15-17 mm: el contenido casi no pasa al duodeno.", False),
                 ("Estómago distendido, con líquido y contenido", "Por eso hay vómito en proyectil tras cada toma.", False),
@@ -134,7 +142,11 @@ S("embudo", "RM-CIR-096", "En ictericia con litiasis vesicular se estudia la ví
          pasos=[("¿Hay cólico biliar y litiasis conocida?", ["Hepatitis viral aguda", "Cáncer de cabeza de páncreas"]),
                 ("¿Sin fiebre ni shock?", ["Colangitis aguda", "Colecistitis aguda"])],
          final=("COLEDOCOLITIASIS", ["Estudiar la vía biliar", "CPRE: diagnostica y extrae el cálculo"]),
-         nota="Si el riesgo es solo intermedio, la colangiorresonancia o la ecoendoscopia confirman sin invadir."))
+         nota="Si el riesgo es solo intermedio, la colangiorresonancia o la ecoendoscopia confirman sin invadir."),
+  clasif=dict(titulo="Probabilidad de coledocolitiasis (ASGE 2019)", cols=["Riesgo", "Criterios", "Conducta"],
+              filas=[["Alta", "Cálculo en el colédoco en imagen; o colangitis ascendente; o bilirrubina total > 4 mg/dL con colédoco dilatado", "CPRE directa"],
+                     ["Intermedia", "Pruebas hepáticas alteradas; o edad > 55 años; o colédoco dilatado en imagen", "Ecoendoscopia, colangiorresonancia o colangiografía intraoperatoria"],
+                     ["Baja", "Ningún predictor", "Colecistectomía sin estudio de la vía biliar"]], caso=0, ancho_primera=175, nota="El caso (ictericia con litiasis) se asimila a alta probabilidad si hay colédoco dilatado o bilirrubina > 4 mg/dL."))
 
 # 8 · CHECKLIST · fisura crónica
 S("checklist", "RM-CIR-097", "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",
@@ -155,7 +167,7 @@ S("checklist", "RM-CIR-097", "La fisura anal que persiste tras 2 meses de abland
          veredicto=("Falló el tratamiento médico: esfinterotomía lateral interna", "Cura mejor que cualquier tratamiento médico y recurre menos.")))
 
 # 9 · TARJETAS · hemorroides: grados de Goligher
-S("tarjetas", "RM-CIR-098", "La hemorroide que prolapsa y se reduce con la mano es de grado III",
+S("cuadro", "RM-CIR-098", "La hemorroide que prolapsa y se reduce con la mano es de grado III",
   "Coloproctología · grados de las hemorroides internas",
   ("Hemorroides internas", ["Nacen sobre la línea pectínea y están cubiertas de mucosa.", "Se clasifican por el grado de prolapso (Goligher)."]),
   ("Mujer de 56 años", ["Estreñimiento crónico y tumoración sangrante que protruye al defecar.", "Ella la reduce con la mano. ¿Grado?"]),
@@ -166,11 +178,13 @@ S("tarjetas", "RM-CIR-098", "La hemorroide que prolapsa y se reduce con la mano 
   "ASCRS, guía de hemorroides (2018); " + SCHW + "; " + SAB,
   op=("¿Qué grado?", ["No: sale solo y se reduce sola", "No: es irreductible", "No: no existe ese grado", "No: no prolapsa", "Sí: prolapsa y se reduce con la mano"],
       {0: "II", 1: "IV", 2: "V", 3: "I", 4: "III"}),
-  d=dict(rotulo="Cuatro grados según el prolapso", ans=2,
-         cards=[dict(titulo="Grado I", datos=[("Prolapso", "No sale", False), ("Síntoma", "Sangrado", False), ("Manejo", "Fibra, flavonoides", False)], pie="Ligadura si persiste."),
-                dict(titulo="Grado II", datos=[("Prolapso", "Sale al pujar", False), ("Reducción", "Sola", False), ("Manejo", "Banda elástica", False)], pie="Se reduce sin ayuda."),
-                dict(titulo="Grado III", datos=[("Prolapso", "Sale al pujar", True), ("Reducción", "Con la mano", True), ("Manejo", "Banda o cirugía", True)], pie="Este caso."),
-                dict(titulo="Grado IV", datos=[("Prolapso", "Permanente", False), ("Reducción", "Imposible", False), ("Manejo", "Hemorroidectomía", False)], pie="Riesgo de trombosis.")]))
+  d=dict(veredicto=("Prolapso que se reduce con la mano = grado III", "Banda elástica o hemorroidectomía si falla; rectorragia desde los 45-50 años: colonoscopia.")),
+  clasif=dict(titulo="Clasificación de Goligher (hemorroides internas)", cols=["Grado", "Prolapso", "Reducción", "Síntoma típico", "Manejo"],
+              filas=[["I", "No prolapsa", "—", "Sangrado rojo rutilante indoloro", "Fibra y líquidos; banda si persiste"],
+                     ["II", "Prolapsa al pujar", "Se reduce sola", "Sangrado y bulto transitorio", "Banda elástica o escleroterapia"],
+                     ["III", "Prolapsa al esfuerzo", "Con la mano", "Bulto que la paciente reduce", "Banda o hemorroidectomía"],
+                     ["IV", "Prolapso permanente", "Irreductible", "Dolor, trombosis, prolapso fijo", "Hemorroidectomía"]], caso=2,
+              nota="Posiciones típicas: 3, 7 y 11 horas (posición de litotomía)."))
 
 # 10 · CASCADA · reacción neuroendocrina al shock
 S("cascada", "RM-CIR-100", "En el shock aumenta la liberación de ACTH como parte de la reacción neuroendocrina",
@@ -281,7 +295,7 @@ S("alarma", "RM-CIR-105", "En la obstrucción tras una peritonitis previa la cau
   "WSES, obstrucción adhesiva del intestino delgado (2017); " + SCHW + "; " + SAB,
   op=("¿Causa más probable?", ["Sí: cirugía previa con peritonitis", "No: da dolor súbito y peritonitis, no cólico obstructivo", "No: da cambio del hábito y pérdida de peso", "No: da dolor desproporcionado con examen blando", "No: es propio de ancianos con megacolon"],
       {0: "Bridas y adherencias", 1: "Perforación de víscera hueca", 2: "Cáncer de colon", 3: "Trombosis de la arteria mesentérica", 4: "Vólvulo de sigmoides"}),
-  d=dict(rotulo="Qué decide entre conservador y cirugía", lista_titulo="Banderas rojas de estrangulación", img_titulo="Rx de referencia: asas dilatadas",
+  d=dict(rotulo="Qué decide entre conservador y cirugía", lista_titulo="Banderas rojas de estrangulación", img_titulo="Imagen referencial de una radiografía con asas dilatadas",
          img=PX("bridas_rx.jpg", 330, marcas=[("flecha", 0.50, 0.62, 0.62, 0.90, "Niveles hidroaéreos")], credito="Igboeze · Wikimedia Commons · CC BY-SA 4.0"),
          signos=[("Cirugía abdominal previa", "Peritonitis hace 5 años: bridas", True), ("Dolor cólico, vómitos y distensión", "Obstrucción mecánica", True),
                  ("Dolor continuo o peritonismo", "No descrito en el caso", None), ("Fiebre y taquicardia", "No descritas en el caso", None),

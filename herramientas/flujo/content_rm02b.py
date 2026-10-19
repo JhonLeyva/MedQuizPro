@@ -162,7 +162,7 @@ S("decision", "RM-CIR-124", "Colelitiasis con ictericia y dolor: alto riesgo de 
   clasif=dict(titulo="Riesgo de coledocolitiasis según ASGE 2019", cols=["Riesgo", "Criterios", "Conducta"],
               filas=[["Alto", "Cálculo en la imagen, colangitis ascendente, o bilirrubina > 4 mg/dL con colédoco dilatado", "CPRE terapéutica directa"],
                      ["Intermedio", "Pruebas hepáticas alteradas, edad > 55 años o colédoco dilatado en la imagen", "Ecoendoscopía, colangio-RM o colangiografía intraoperatoria"],
-                     ["Bajo", "Ningún predictor anterior", "Colecistectomía laparoscópica sin más estudios"]], caso=0, ancho_primera=120))
+                     ["Bajo", "Ningún predictor anterior", "Colecistectomía laparoscópica sin más estudios"]], caso=0, ancho_primera=150))
 
 # 10 · CHECKLIST · síndrome compartimental
 S("checklist", "RM-CIR-099", "En el síndrome compartimental el edema muscular eleva la presión del compartimento",

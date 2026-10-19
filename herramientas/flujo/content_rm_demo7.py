@@ -86,10 +86,10 @@ S("linea_vida", "RM-CAR-012", "El síncope de esfuerzo con soplo eyectivo en un 
   d=dict(rotulo="Edad típica de presentación según la causa (rangos orientativos)", eje=(20, 90, 10), unidad="años",
          barras=[("Válvula bicúspide", 40, 70, "Congénita, calcifica antes", False), ("Reumática", 30, 60, "Casi siempre con lesión mitral", False), ("Degenerativa calcificada", 65, 90, "La del anciano", True)],
          marcador=(80, "Paciente: 80 años"),
-         veredicto=("A los 80 años lo más probable es la calcificación degenerativa", "El ecocardiograma confirma y mide el gradiente."),
+         veredicto=("A los 80 años lo más probable es la calcificación degenerativa", "El ecocardiograma confirma y mide el gradiente.")),
   clasif=dict(titulo="Gravedad de la estenosis aórtica por ecocardiograma (ESC/EACTS 2021, ACC/AHA 2020)", cols=["Gravedad", "Velocidad máxima", "Gradiente medio", "Área valvular"],
               filas=[["Leve", "< 3,0 m/s", "< 20 mmHg", "> 1,5 cm²"], ["Moderada", "3,0-3,9 m/s", "20-39 mmHg", "1,0-1,5 cm²"],
-                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²"]], caso=2,
+                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²"]], caso=None, ancho_primera=130,
               nota="Con síntomas y estenosis grave: cirugía o TAVI. Si el área es ≤ 1,0 cm² con gradiente bajo, pensar en flujo bajo."))
 
 # TRÍPTICO · Ogilvie

@@ -8,6 +8,16 @@ WSES_D = "WSES, diverticulitis aguda del colon izquierdo (2020)"
 ASCRS = "ASCRS, diverticulitis (2020)"
 EHS = "HerniaSurge/EHS, hernia de la ingle (2018)"
 GPC11 = "EsSalud-IETSI, GPC de colelitiasis, colecistitis aguda y coledocolitiasis (GPC N.º 11, 2018)"
+HIN_COLS = ["Estadio", "Hallazgo en la TC", "Conducta"]
+HIN_FILAS = [["0", "Diverticulitis leve: pared engrosada y grasa pericólica sucia", "Observación o antibiótico selectivo, dieta"],
+             ["Ia", "Flemón pericólico, sin absceso", "Antibiótico o solo observación"],
+             ["Ib", "Absceso pericólico o mesentérico", "Antibiótico; drenaje percutáneo si es > 4-5 cm"],
+             ["II", "Absceso pélvico, intraabdominal a distancia o retroperitoneal", "Drenaje percutáneo guiado por TC; cirugía si falla"],
+             ["III", "Peritonitis purulenta generalizada", "Cirugía urgente: Hartmann o resección con anastomosis en casos elegidos"],
+             ["IV", "Peritonitis fecal", "Cirugía urgente: Hartmann y control del daño"]]
+def HIN(caso):
+    return dict(titulo="Clasificación de Hinchey modificada (Kaiser) de la diverticulitis", cols=HIN_COLS, filas=HIN_FILAS, caso=caso, ancho_primera=100,
+                nota="Conducta según WSES 2020 y ASCRS 2020; la TC con contraste IV define el estadio.")
 
 # 045 · TARJETAS · tipos de cierre
 S("tarjetas", "RM-CIR-045", "La herida que cierra sola, por granulación y contracción, cicatriza por segunda intención",
@@ -68,7 +78,7 @@ S("cascada", "RM-CIR-048", "La colecistitis aguda nace casi siempre de un cálcu
   ("Colecistitis aguda", ["Inflamación de la pared vesicular: litiásica en más del 90 % de los casos.", "La alitiásica (5-10 %) aparece en críticos, ayuno prolongado o nutrición parenteral."]),
   ("Pregunta de teoría", ["¿Cuál es la causa más frecuente de colecistitis aguda?"]),
   ["Tokio 2018: sospecha = 1 signo local (Murphy, dolor o masa en hipocondrio derecho) + 1 sistémico (fiebre, leucocitosis, PCR); definitivo = más imagen.",
-   "Gravedad: I leve; II moderada (leucocitos > 18 000, masa palpable, > 72 h, inflamación local marcada); III grave (falla orgánica).",
+   "Ecografía: signo de Murphy ecográfico, pared > 4 mm, líquido pericolecístico, cálculo impactado y vesícula distendida.",
    "Tratamiento: antibióticos y colecistectomía laparoscópica temprana (en la primera semana si es posible); en grado III, drenaje y soporte.",
    "Banderas rojas: gas en la pared (enfisematosa), pared irregular (gangrena) o ictericia con colédoco dilatado (coledocolitiasis)."],
   TG + "; WSES, colecistitis aguda (2020); " + GPC11 + ".",
@@ -79,7 +89,11 @@ S("cascada", "RM-CIR-048", "La colecistitis aguda nace casi siempre de un cálcu
                 ("La vesícula no se vacía y sube la presión", "Distensión y edema de la pared", [("Dolor > 6 h en hipocondrio derecho", "Signo de Murphy", False)]),
                 ("Inflamación química y luego bacteriana", "E. coli, Klebsiella, enterococo y anaerobios", [("Fiebre y leucocitosis", "PCR elevada", False)]),
                 ("Sin tratamiento: isquemia, necrosis o perforación", "Empiema, gangrena o enfisematosa", [("Pared engrosada y líquido perivesicular", "Hallazgos de la ecografía", False)])],
-         veredicto=("Cálculo en el cístico = colecistitis aguda litiásica", "La infección y la isquemia son consecuencias; no el punto de partida.")))
+         veredicto=("Cálculo en el cístico = colecistitis aguda litiásica", "La infección y la isquemia son consecuencias; no el punto de partida.")),
+  clasif=dict(titulo="Gravedad de la colecistitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Conducta"], ancho_primera=130,
+              filas=[["I", "Leve: no cumple criterios de grado II ni III", "Colecistectomía laparoscópica temprana"],
+                     ["II", "Moderada, uno de: leucocitos > 18 000, masa dolorosa en hipocondrio derecho, > 72 h de evolución, inflamación local marcada (gangrena, absceso, enfisematosa)", "Colecistectomía temprana si el equipo es experto; si no, antibiótico y drenaje"],
+                     ["III", "Grave, disfunción de un órgano: hipotensión con vasopresor, conciencia alterada, PaFi < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos, drenaje vesicular urgente y colecistectomía diferida"]]))
 
 # 049 · GRADOS CON FOTO · Hinchey modificada
 S("grados_foto", "RM-CIR-049", "Un absceso retroperitoneal por diverticulitis es Hinchey II: absceso a distancia del colon",
@@ -94,16 +108,17 @@ S("grados_foto", "RM-CIR-049", "Un absceso retroperitoneal por diverticulitis es
   op=("¿Estadio?", ["No: la clasificación llega hasta el IV", "Sí: absceso a distancia, incluso retroperitoneal", "No: es la peritonitis fecal", "No: es un absceso o flemón pericólico", "No: es la peritonitis purulenta generalizada"],
       {0: "V", 1: "II", 2: "IV", 3: "I", 4: "III"}),
   d=dict(rotulo="Los estadios Ia a II en la tomografía", criterio="Cuanto más lejos del colon está el pus, mayor es el estadio.",
-         tira_titulo="TC de cada estadio (corte axial)", credito="TC: Papaoikonomou et al. · Cureus 2025 · CC BY 4.0",
+         tira_titulo="Imagen referencial de la TC de cada estadio (corte axial)", credito="TC: Papaoikonomou et al. · Cureus 2025 · CC BY 4.0",
          grados=[("Estadio 0", "Leve", "La flecha amarilla marca la pared colónica engrosada.", PX("hinchey0_tc.jpg", 190, credito="Papaoikonomou et al. · Cureus 2025 · CC BY 4.0"), False),
                  ("Estadio Ia", "Flemón", "El círculo amarillo rodea la inflamación pericólica sin absceso.", PX("hinchey1a_tc.jpg", 190, credito="Papaoikonomou et al. · Cureus 2025 · CC BY 4.0"), False),
                  ("Estadio Ib", "Absceso pericólico", "Los círculos amarillos marcan colecciones pegadas al colon.", PX("hinchey1b_tc.jpg", 190, credito="Papaoikonomou et al. · Cureus 2025 · CC BY 4.0"), False),
                  ("Estadio II", "Absceso a distancia", "La línea amarilla mide la colección pélvica; el retroperitoneal también es II.", PX("hinchey2_tc.jpg", 190, credito="Papaoikonomou et al. · Cureus 2025 · CC BY 4.0"), True)],
-         claves_titulo="Los estadios con peritonitis (cirugía urgente)",
-         claves=[("III · peritonitis purulenta", ["Pus generalizado, sin contaminación fecal."], False),
-                 ("IV · peritonitis fecal", ["Perforación libre con heces: la más grave."], False),
-                 ("Qué cambia la conducta", ["De II a III se pasa del drenaje a la operación."], True)],
-         veredicto=("Absceso retroperitoneal = Hinchey II", "Se drena por vía percutánea guiada por TC; no es III ni IV.")))
+         claves_titulo="Cómo usar la clasificación",
+         claves=[("Estudio que la define", ["TC con contraste IV de abdomen y pelvis."], False),
+                 ("Qué cambia la conducta", ["De II a III se pasa del drenaje a la operación."], True),
+                 ("Después del episodio", ["Colonoscopía a las 6-8 semanas si hubo complicación."], False)],
+         veredicto=("Absceso retroperitoneal = Hinchey II", "Se drena por vía percutánea guiada por TC; no es III ni IV.")),
+  clasif=HIN(3))
 
 # 050 · ALARMA · colangitis tras colecistectomía
 S("alarma", "RM-CIR-050", "Fiebre, ictericia y dolor tras colecistectomía: colangitis por un cálculo en el colédoco",
@@ -111,19 +126,23 @@ S("alarma", "RM-CIR-050", "Fiebre, ictericia y dolor tras colecistectomía: cola
   ("Colangitis aguda", ["Infección de la vía biliar obstruida, casi siempre por un cálculo.", "Puede aparecer años después de la colecistectomía (cálculo residual o recurrente)."]),
   ("Varón de 45 años", ["Colecistectomizado hace 6 meses; fiebre de 38,5 °C, ictericia y coluria; leucocitos 20 000.", "Bilirrubina directa 6 mg/dL. ¿Diagnóstico?"]),
   ["Charcot: dolor en hipocondrio derecho, fiebre e ictericia. Reynolds: suma hipotensión y confusión = sepsis grave (grado III).",
-   "Tokio 2018, grado II si leucocitos > 12 000, T ≥ 39 °C, bilirrubina total ≥ 5 mg/dL, edad ≥ 75 o albúmina baja; este paciente ya lo es.",
+   "Tokio 2018: A inflamación (fiebre, leucocitos o PCR) + B colestasis (ictericia, pruebas hepáticas) + C imagen (dilatación o cálculo); diagnóstico definitivo con A, B y C.",
    "Tratamiento: reanimación, cefalosporina o piperacilina-tazobactam y CPRE con esfinterotomía; drenaje precoz en II e inmediato en III.",
    "En un colecistectomizado el Murphy no indica colecistitis (no hay vesícula): el dolor viene de la vía biliar."],
   TG + "; ESGE, CPRE (2021); " + GPC11 + ".",
   op=("¿Diagnóstico?", ["No: dolor en barra y lipasa alta, sin Charcot", "No: dolor en fosa ilíaca izquierda", "No: aparece semanas después de una pancreatitis", "No: sigue a un trauma o un procedimiento hepático", "Sí: Charcot en una vía biliar obstruida"],
       {0: "Pancreatitis", 1: "Diverticulitis", 2: "Seudoquiste pancreático", 3: "Hematoma hepático", 4: "Colangitis"}),
-  d=dict(rotulo="Qué tiene este paciente", lista_titulo="Signos de la colangitis", img_titulo="TC de referencia: colangitis",
+  d=dict(rotulo="Qué tiene este paciente", lista_titulo="Signos de la colangitis", img_titulo="Imagen referencial de una TC con colangitis",
          img=PX("colangitis_tc.jpg", 230, credito="Yeung et al. · Cureus 2026 · CC BY 4.0"),
          signos=[("Dolor en hipocondrio derecho", "Triada de Charcot", True), ("Fiebre de 38,5 °C", "Triada de Charcot", True), ("Ictericia y coluria", "Bilirrubina directa 6 mg/dL: colestasis", True),
                  ("Leucocitos 20 000", "> 12 000: colangitis moderada (grado II)", True), ("Murphy positivo", "Sin vesícula: es dolor de la vía biliar, no colecistitis", True),
                  ("Dilatación biliar o cálculo en imagen", "Criterio C de Tokio: ecografía o TC", None), ("Hipotensión o confusión", "Pentada de Reynolds: grado III, drenaje urgente", None)],
          accion=("Antibióticos y drenaje biliar con CPRE", "Precoz en grado II; inmediato si hay Reynolds."), accion_rotulo="Conducta",
-         veredicto=("Charcot en un colecistectomizado = colangitis por coledocolitiasis", "La flecha superior de la TC marca la vía biliar dilatada y la inferior, el cálculo del colédoco distal (imagen referencial).")))
+         veredicto=("Charcot en un colecistectomizado = colangitis por coledocolitiasis", "La flecha superior de la TC marca la vía biliar dilatada y la inferior, el cálculo del colédoco distal.")),
+  clasif=dict(titulo="Gravedad de la colangitis aguda (Guías de Tokio 2018)", cols=["Grado", "Criterio", "Conducta"], ancho_primera=130, caso=1,
+              filas=[["I", "Leve: no cumple criterios de grado II ni III", "Antibiótico; drenaje biliar si no mejora en 24 h"],
+                     ["II", "Moderada, dos o más: leucocitos > 12 000 o < 4 000, T ≥ 39 °C, edad ≥ 75, bilirrubina total ≥ 5 mg/dL, albúmina baja", "Antibiótico y drenaje biliar precoz (CPRE)"],
+                     ["III", "Grave, disfunción de un órgano: hipotensión con vasopresor, conciencia alterada, PaFi < 300, creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje urgente (Reynolds)"]]))
 
 # 051 · EMBUDO · examen de elección en diverticulitis
 S("embudo", "RM-CIR-051", "La tomografía con contraste es el estudio de elección en la diverticulitis aguda",
@@ -132,7 +151,7 @@ S("embudo", "RM-CIR-051", "La tomografía con contraste es el estudio de elecci�
   ("Pregunta de teoría", ["¿Cuál es el examen auxiliar más importante para diagnosticar diverticulitis colónica?"]),
   ["TC de abdomen y pelvis con contraste IV: pared engrosada, grasa pericólica sucia y divertículos; mide abscesos, detecta aire libre y define la Hinchey.",
    "Ecografía: alternativa en embarazadas o jóvenes de baja sospecha. Rx simple: solo para neumoperitoneo u obstrucción.",
-   "Hinchey modificada: 0 leve, Ia flemón, Ib absceso pericólico, II absceso a distancia, III peritonitis purulenta, IV fecal.",
+   "La TC define el estadio de Hinchey modificada (cuadro) y con él la conducta: antibiótico, drenaje o cirugía.",
    "Colonoscopía y enema con contraste están contraindicados en la fase aguda (perforación); la colonoscopía va a las 6-8 semanas si hubo complicación."],
   WSES_D + "; " + ASCRS + "; AGA, diverticulitis (2021).",
   op=("¿Más importante?", ["No: riesgo de perforación en fase aguda", "Sí: confirma, estadifica y guía el tratamiento", "No: contraindicado en fase aguda", "No: solo detecta aire libre u obstrucción", "No: explora solo el recto y el sigmoides distal"],
@@ -142,7 +161,8 @@ S("embudo", "RM-CIR-051", "La tomografía con contraste es el estudio de elecci�
          pasos=[("TC con contraste IV en la fase aguda", ["Isquemia", "Causa ginecológica"]),
                 ("Colonoscopía a las 6-8 semanas (no en fase aguda)", ["Cáncer de colon", "Enfermedad inflamatoria"])],
          final=("TC DE ABDOMEN Y PELVIS", ["Examen más importante en la fase aguda", "Define la Hinchey y guía el drenaje o la cirugía"]),
-         nota="Colonoscopía y enema con contraste pueden perforar un colon inflamado: se difieren."))
+         nota="Colonoscopía y enema con contraste pueden perforar un colon inflamado: se difieren."),
+  clasif=HIN(None))
 
 # 052 · CUADRÍCULA · FII con masa y aire pericólico
 S("cuadricula", "RM-CIR-052", "Dolor en fosa ilíaca izquierda con masa y aire pericólico en la TC: diverticulitis complicada",
@@ -163,8 +183,9 @@ S("cuadricula", "RM-CIR-052", "Dolor en fosa ilíaca izquierda con masa y aire p
                  ("Enfermedad inflamatoria", ["Diarrea crónica y afección continua o segmentaria", "Sin divertículos inflamados"], None, False)],
          veredicto=("FII + masa + fiebre + aire pericólico = diverticulitis complicada", "Colección < 4-5 cm: antibióticos; mayor: drenaje percutáneo.")),
   banda=B("Así se ve en la tomografía", PX("diverticulitis_ct.jpg", 300, credito="Hellerhoff · Wikimedia Commons · CC BY-SA 3.0"),
-          [("La flecha roja de la imagen", "Marca el segmento de colon inflamado, rodeado de grasa pericólica engrosada."), ("Imagen de referencia", "No es de la paciente: muestra el aspecto de una diverticulitis en la TC."),
-           ("En el caso", "Se suma una colección con aire pericólico: absceso, Hinchey Ib-II.")], pie="TC axial con diverticulitis sigmoidea"))
+          [("La flecha roja de la imagen", "Marca el segmento de colon inflamado, rodeado de grasa pericólica engrosada."), ("Imagen referencial", "Muestra el aspecto de una diverticulitis sigmoidea en la TC."),
+           ("En el caso", "Se suma una colección con aire pericólico: absceso, Hinchey Ib-II.")], pie="Imagen referencial de una diverticulitis sigmoidea en TC axial"),
+  clasif=HIN([2, 3]))
 
 # 053 · CHECKLIST · sigmoidectomía electiva
 S("checklist", "RM-CIR-053", "En la diverticulitis no complicada, si se opera, la elección es la sigmoidectomía con anastomosis",
@@ -184,7 +205,8 @@ S("checklist", "RM-CIR-053", "En la diverticulitis no complicada, si se opera, l
                 ("Decidir la cirugía caso por caso", "Complicación previa, recurrencias o inmunosupresión", False),
                 ("Sigmoidectomía con anastomosis colorrectal", "En frío, laparoscópica, con margen distal en el recto", True)],
          no_hacer=[("Hartmann", "Reservado a peritonitis III-IV inestable"), ("Colostomía en asa", "Solo deriva; no reseca"), ("Colectomía total o hemicolectomía", "Reseca más de lo necesario")], no_titulo="No es la elección",
-         veredicto=("Diverticulitis no complicada que se opera = sigmoidectomía", "Anastomosis primaria sobre el recto proximal para reducir la recidiva.")))
+         veredicto=("Diverticulitis no complicada que se opera = sigmoidectomía", "Anastomosis primaria sobre el recto proximal para reducir la recidiva.")),
+  clasif=HIN([0, 1]))
 
 # 054 · DECISIÓN · Hartmann
 S("decision", "RM-CIR-054", "La peritonitis fecal por diverticulitis (Hinchey IV) se opera con la técnica de Hartmann",
@@ -203,7 +225,8 @@ S("decision", "RM-CIR-054", "La peritonitis fecal por diverticulitis (Hinchey IV
          rows=[("Hinchey III", "Peritonitis purulenta"), ("Hinchey IV", "Peritonitis fecal")],
          cells=[[("Resección + anastomosis", ["Con ileostomía de protección"]), ("Hartmann", ["Control del daño"])],
                 [("Hartmann o anastomosis protegida", ["Según el cirujano y el estado"]), ("Hartmann", ["Operación de elección"])]],
-         caso=(1, None), veredicto=("Hinchey IV = operación de Hartmann", "Resección del sigmoides, muñón rectal cerrado y colostomía terminal.")))
+         caso=(1, None), veredicto=("Hinchey IV = operación de Hartmann", "Resección del sigmoides, muñón rectal cerrado y colostomía terminal.")),
+  clasif=HIN(5))
 
 # 055 · MATRIZ · reparación sin tensión
 S("matriz", "RM-CIR-055", "La reparación herniaria sin tensión es la de Lichtenstein, con malla",
@@ -249,7 +272,7 @@ S("arbol", "RM-CIR-057", "En la hernia inguinal directa se refuerza la pared pos
   ("Estibador de 48 años", ["Tumoración inguinal derecha reductible, 6 meses.", "Hernioplastia: saco herniario directo. ¿Manejo recomendado?"]),
   ["Directa: el saco se invagina o se reduce, sin resecarlo, y se refuerza la pared posterior con malla (Lichtenstein o endoscópica).",
    "Indirecta: ligadura alta del saco y reparación del anillo interno; en el adulto también se coloca malla (HerniaSurge 2018).",
-   "Nyhus: I indirecta con anillo normal · II indirecta con anillo dilatado · IIIA directa · IIIB indirecta grande o por deslizamiento · IIIC femoral · IV recidivada.",
+   "La directa rara vez se estrangula (cuello ancho); la indirecta y sobre todo la femoral sí. Se clasifica por Nyhus (cuadro).",
    "El trabajo con esfuerzo físico aumenta la recidiva. Bandera roja: irreductible y dolorosa = encarcelada o estrangulada: cirugía urgente."],
   EHS + "; Nyhus, Hernia 1993; " + SAB,
   op=("¿Manejo?", ["No: la invaginación es solo un gesto técnico", "No: el saco directo no se reseca", "Sí: refuerzo de la pared posterior con malla", "No: la hernia sintomática se repara", "No: no hay un saco que ligar"],
@@ -257,7 +280,14 @@ S("arbol", "RM-CIR-057", "En la hernia inguinal directa se refuerza la pared pos
   arbol=Q("Hernia inguinal: ¿por dónde sale el saco?", [
       L("Por el anillo interno, siguiendo el cordón", "INDIRECTA · NYHUS I-II", ["Ligadura alta del saco", "Reparar el anillo y colocar malla"]),
       L("Por el triángulo de Hesselbach (este caso)", "DIRECTA · NYHUS IIIA", ["Invaginar el saco, no resecarlo", "Reforzar la pared posterior con malla"], path=True),
-      L("Por debajo del ligamento inguinal o recidiva", "IIIC FEMORAL · IV RECIDIVA", ["Reparación con malla", "Mayor riesgo de estrangulación"])], path=True))
+      L("Por debajo del ligamento inguinal o recidiva", "IIIC FEMORAL · IV RECIDIVA", ["Reparación con malla", "Mayor riesgo de estrangulación"])], path=True),
+  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior"], ancho_primera=100, caso=2,
+              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior intacta"],
+                     ["II", "Indirecta", "Anillo interno dilatado; pared posterior intacta"],
+                     ["IIIA", "Directa", "Debilidad de la pared posterior (triángulo de Hesselbach)"],
+                     ["IIIB", "Indirecta grande o mixta", "Anillo dilatado que invade la pared posterior (deslizamiento, en pantalón)"],
+                     ["IIIC", "Femoral", "Defecto bajo el ligamento inguinal"],
+                     ["IV", "Recidivada", "A directa · B indirecta · C femoral · D mixta"]]))
 
 # 059 · LECTURA · obstrucción por hernia
 S("lectura", "RM-CIR-059", "En el adulto sin cirugías previas, la hernia es la causa más frecuente de obstrucción intestinal",
@@ -273,7 +303,7 @@ S("lectura", "RM-CIR-059", "En el adulto sin cirugías previas, la hernia es la 
       {0: "Hernias", 1: "Adherencias", 2: "Vólvulo", 3: "Cáncer de sigmoides", 4: "Diverticulosis"}),
   d=dict(rotulo="Lectura de una radiografía con obstrucción por hernia", img_titulo="Rx de abdomen: hernia de Spiegel estrangulada",
          img=PX("spiegel_rx_rec.jpg", 420, credito="Porras Gutiérrez de Velasco et al. · Cureus 2026 · CC BY 4.0"), tag="CAUSA",
-         img_pie="Imagen referencial. Las flechas ya vienen en la radiografía.",
+         img_pie="Imagen referencial de una radiografía de abdomen con hernia de Spiegel estrangulada. Las flechas ya vienen en la imagen.",
          pasos=[("Flecha roja: asas delgadas dilatadas", "Gas y distensión por encima de la obstrucción.", False),
                 ("Flechas azules: niveles hidroaéreos en escalera", "Signo de obstrucción mecánica del delgado.", False),
                 ("Flecha morada: asa dentro de la hernia", "La hernia de la pared es la causa: se busca en el examen físico.", True),
@@ -292,10 +322,10 @@ S("lectura", "RM-CIR-060", "Aerobilia con obstrucción del intestino delgado en 
   "Nuño-Guzmán et al., World J Gastrointest Surg 2016; Trinidad Cruz et al., Cureus 2026; " + SAB,
   op=("¿Diagnóstico?", ["No: no explica el aire en la vía biliar", "No: sin fístula ni obstrucción intestinal", "Sí: aerobilia más obstrucción del delgado", "No: sin cirugía previa ni aerobilia", "No: no causa aerobilia"],
       {0: "Íleo funcional", 1: "Colecistitis aguda", 2: "Íleo biliar", 3: "Bridas y adherencias", 4: "Pancreatitis aguda"}),
-  d=dict(rotulo="Lectura de la tomografía de un íleo biliar", img_titulo="TC de referencia: íleo biliar",
+  d=dict(rotulo="Lectura de la tomografía de un íleo biliar", img_titulo="Imagen referencial de una TC con íleo biliar",
          img=PX("ileo_biliar_tc.jpg", 520, credito="Trinidad Cruz et al. · Cureus 2026 · CC BY 4.0",
                 marcas=[("flecha", 0.18, 0.42, 0.10, 0.82, "Aerobilia"), ("flecha", 0.617, 0.53, 0.60, 0.86, "Cálculo ectópico")]), tag="CLAVE",
-         img_pie="Imagen referencial. Panel A: hígado; panel B: abdomen más bajo.",
+         img_pie="Imagen referencial de una TC con íleo biliar. Panel A: hígado; panel B: abdomen más bajo.",
          pasos=[("Panel A: aire en la vía biliar", "Aerobilia: señal de fístula entre la vía biliar y el tubo digestivo.", False),
                 ("Panel B: cálculo con borde calcificado", "Cálculo ectópico en la luz intestinal, a nivel de la válvula ileocecal, con asas dilatadas.", True),
                 ("Tríada de Rigler", "Obstrucción + aerobilia + cálculo ectópico.", False),
