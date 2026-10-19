@@ -23,7 +23,7 @@ S("tarjetas", "RM-INF-045", "Gonorrea no complicada: ceftriaxona intramuscular e
                 dict(titulo="Doxiciclina", datos=[("Grupo", "Tetraciclina", False), ("Trata", "Chlamydia", False), ("Gonococo", "Resistente", False)], pie="Se añade solo si no se descartó Chlamydia."),
                 dict(titulo="Espectinomicina y cefotaxima", datos=[("Espectinomicina", "Casi no se produce; falla en faringe", False), ("Cefotaxima 500 mg", "No es esquema estandarizado", False), ("Alternativa", "Solo sin ceftriaxona", False)], pie="No son de elección.")]),
   clasif=dict(titulo="Gonorrea no complicada: esquema recomendado (CDC 2021)", cols=["Situación", "Esquema", "Alternativa si no hay ceftriaxona"],
-              filas=[["Adulto < 150 kg", "Ceftriaxona 500 mg IM, dosis única", "Cefixima 800 mg VO, dosis única (no sirve en faringe)"],
+              filas=[["< 150 kg", "Ceftriaxona 500 mg IM, dosis única", "Cefixima 800 mg VO, dosis única (no sirve en faringe)"],
                      ["Peso ≥ 150 kg", "Ceftriaxona 1 g IM, dosis única", "Cefixima 800 mg VO, dosis única (no sirve en faringe)"],
                      ["Chlamydia no descartada", "Se añade doxiciclina 100 mg c/12 h por 7 días", "En el embarazo: azitromicina 1 g VO, dosis única"]],
               caso=0, ancho_primera=190, nota="La OMS 2024 recomienda ceftriaxona 1 g IM; el esquema de 250 mg del libro corresponde a guías anteriores."),
@@ -134,7 +134,7 @@ S("fases", "RM-INF-048", "Gestante con tuberculosis sin pirazinamida: 2 meses de
                 ("Meses 2 a 9", "Fase de continuación", "ISONIAZIDA + RIFAMPICINA (7 MESES)", ["Se alarga porque falta el efecto esterilizante de la pirazinamida", "Total: 9 meses"])]),
   clasif=dict(titulo="Esquemas de tuberculosis sensible en la gestante", cols=["Situación", "Esquema", "Duración"],
               filas=[["Estándar (OMS, ATS/CDC/IDSA)", "2 meses HRZE y 4 meses HR", "6 meses"],
-                     ["Sin pirazinamida", "2 meses HRE y 7 meses HR", "9 meses"]],
+                     ["Sin Z", "2 meses HRE y 7 meses HR", "9 meses"]],
               caso=1, ancho_primera=200, nota="H: isoniazida; R: rifampicina; Z: pirazinamida; E: etambutol. Se añade piridoxina; el esquema sin pirazinamida no reduce la duración mínima de 9 meses."))
 
 # 7 · CASCADA · shock séptico
@@ -344,7 +344,7 @@ S("decision", "RM-INF-054", "Candida krusei en sangre y LCR con insuficiencia re
                 [("No sirve", ["Penetra muy poco al LCR", "Nunca en meningitis"]), ("Elección", ["Activa y penetra al LCR", "Liposomal con o sin flucitosina"])]],
          caso=(1, 1), nota="Fluconazol y ketoconazol no sirven: C. krusei es resistente. Con creatinina de 3 mg/dL se prefiere la formulación liposomal."),
   banda=B("Referencia: candidiasis esofágica en la endoscopía", PX("candida_esof.jpg", 260, credito="CDC · Wikimedia Commons · dominio público",
-          marcas=[("flecha", 0.28, 0.72, 0.10, 0.92, "Placas blanquecinas"), ("flecha", 0.82, 0.40, 0.90, 0.14, "Mucosa con placas")]),
+          marcas=[("flecha", 0.28, 0.72, 0.10, 0.92, "Placas blanquecinas"), ("flecha", 0.80, 0.62, 0.86, 0.30, "Mucosa con placas")]),
           [("Placas blancas", "Adheridas a la mucosa esofágica."), ("Con sida", "Cuadro definitorio de inmunosupresión avanzada."), ("En la boca", "Lesiones que se desprenden y sangran al raspado.")],
           pie="Imagen referencial de una candidiasis esofágica en la endoscopía", rotulo="Imagen referencial"))
 
@@ -366,6 +366,6 @@ S("puntaje", "RM-NEU-019", "Neumonía con CURB-65 de 1 punto en un adulto sin co
                 ("PA sistólica menor de 90 o diastólica de 60 o menos (aquí 130/80)", 0, False), ("Edad de 65 años o más (70 años)", 1, True)],
          bandas=[("0-1", "Riesgo bajo", "Ambulatorio: este caso", True), ("2", "Riesgo intermedio", "Hospitalización breve o seguimiento estrecho", False), ("3-5", "Riesgo alto", "Hospitalizar; valorar UCI con 4 o 5", False)]),
   clasif=dict(titulo="Tratamiento empírico ambulatorio de la neumonía (ATS/IDSA 2019)", cols=["Paciente", "Esquema", "Fuerza"],
-              filas=[["Sin comorbilidades", "Amoxicilina 1 g c/8 h; o doxiciclina 100 mg c/12 h; o macrólido solo si la resistencia neumocócica es menor de 25 %", "Fuerte (amoxicilina); condicional (resto)"],
-                     ["Con comorbilidades", "Amoxicilina-clavulánico o cefalosporina más macrólido o doxiciclina; o fluoroquinolona respiratoria sola", "Fuerte"]],
+              filas=[["Sano", "Amoxicilina 1 g c/8 h; o doxiciclina 100 mg c/12 h; o macrólido solo si la resistencia neumocócica es menor de 25 %", "Fuerte (amoxicilina); condicional (resto)"],
+                     ["Con comorbilidad", "Amoxicilina-clavulánico o cefalosporina más macrólido o doxiciclina; o fluoroquinolona respiratoria sola", "Fuerte"]],
               caso=0, ancho_primera=200, nota="Comorbilidades: cardiopatía, enfermedad pulmonar, hepática o renal crónica, diabetes, alcoholismo o neoplasia. Duración mínima de 3 a 5 días con mejoría clínica."))

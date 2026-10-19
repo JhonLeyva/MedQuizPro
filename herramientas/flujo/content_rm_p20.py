@@ -34,7 +34,7 @@ S("puntaje", "RM-NEU-020", "CURB-65 de 3 o más: neumonía grave, hospitalizar y
               filas=[["0 a 1", "Bajo (cerca de 1,5 %)", "Tratamiento ambulatorio"],
                      ["2", "Intermedio (cerca de 9 %)", "Hospitalización breve o con seguimiento estrecho"],
                      ["3 a 5", "Alto (cerca de 22 %)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
-              caso=2, ancho_primera=110, nota="Un punto por criterio: confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65."))
+              caso=2, ancho_primera=170, nota="Un punto por criterio: confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65."))
 
 # 2 · REGLA · tuberculina con 8 mm
 S("regla", "RM-INF-055", "Induración de 8 mm: positiva solo en inmunodeprimidos, como el niño con VIH",
@@ -57,7 +57,7 @@ S("regla", "RM-INF-055", "Induración de 8 mm: positiva solo en inmunodeprimidos
          claves=[("5 mm o más", ["VIH, contacto reciente, trasplante, corticoide crónico"], True), ("10 mm o más", ["Niño menor de 4 años, migrante, diabetes, personal de salud"], False),
                  ("15 mm o más", ["Persona sin factores de riesgo"], False)]),
   banda=B("Cómo se aplica la prueba", PX("mantoux.jpg", 270),
-          [("Inyección intradérmica", "0,1 mL de PPD en la cara anterior del antebrazo."), ("Pápula", "La habón pálido confirma que quedó en la dermis."), ("Lectura", "A las 48-72 horas se mide la induración transversal, no el eritema.")],
+          [("Inyección intradérmica", "0,1 mL de PPD en la cara anterior del antebrazo."), ("Pápula", "El habón pálido confirma que quedó en la dermis."), ("Lectura", "A las 48-72 horas se mide la induración transversal, no el eritema.")],
           pie="Imagen referencial de la aplicación intradérmica de la prueba de tuberculina", rotulo="Imagen referencial"),
   clasif=dict(titulo="Puntos de corte de la prueba de tuberculina (CDC/ATS 2000)", cols=["Induración", "Se considera positiva en"],
               filas=[["5 mm o más", "VIH, contacto reciente, lesiones fibróticas en la radiografía, trasplantados y otros inmunodeprimidos (prednisona ≥ 15 mg/día por más de un mes)"],
@@ -187,7 +187,7 @@ S("balanza", "RM-GAS-016", "En el adulto mayor la causa más frecuente de hemorr
   op=("¿Más frecuente?", ["No: es menos frecuente", "Sí: hematoquecia indolora y brusca del adulto mayor", "No: es una causa menos frecuente", "No: es una causa menos frecuente", "No: es la segunda o tercera causa"],
       {0: "Neoplasia maligna colorrectal", 1: "Diverticulosis colónica", 2: "Enfermedad de Crohn", 3: "Colitis aguda", 4: "Angiodisplasia colónica"}),
   d=dict(rotulo="Qué causa pesa más en la hemorragia digestiva baja", gana="izq", pregunta="¿Cuál es la más frecuente?",
-         izq=dict(titulo="DIVERTICULOSIS", peso="FRECUENTE", items=["Hematoquecia indolora y brusca", "Vaso penetrante en el cuello del divertículo", "Cesa sola en cerca del 80 %"]),
+         izq=dict(titulo="DIVERTICULOSIS", peso="MÁS", items=["Hematoquecia indolora y brusca", "Vaso penetrante en el cuello del divertículo", "Cesa sola en cerca del 80 %"]),
          der=dict(titulo="OTRAS CAUSAS", peso="MENOS", items=["Angiodisplasia del colon derecho", "Colitis isquémica, infecciosa o inflamatoria", "Cáncer colorrectal"]),
          veredicto=("Diverticulosis colónica", ["Es la causa más frecuente en el adulto mayor.", "La angiodisplasia y el cáncer son menos frecuentes."])),
   banda=B("Un divertículo del colon en la colonoscopia", PX("divertic_vaso_pmc.jpg", 250, credito="Wangrattanapranee et al. · iGIE 2026 · CC BY 4.0"),

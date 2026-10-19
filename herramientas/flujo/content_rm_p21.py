@@ -19,7 +19,7 @@ TOKIO = dict(titulo="Gravedad de la colangitis aguda según Tokio 2018", cols=["
              filas=[["I (leve)", "No cumple criterios de II ni III", "Antibiótico; drenaje si no mejora en 24 h"],
                     ["II (moderada)", "Dos o más: leucocitos > 12 000 o < 4000, T ≥ 39 °C, edad ≥ 75 años, bilirrubina ≥ 5 mg/dL, albúmina baja", "Antibiótico y drenaje biliar precoz"],
                     ["III (grave)", "Falla de un órgano: hipotensión que requiere vasopresor, confusión, PaO2/FiO2 < 300, oliguria o creatinina > 2 mg/dL, INR > 1,5 o plaquetas < 100 000", "Soporte de órganos y drenaje urgente"]],
-             caso=1, ancho_primera=110,
+             caso=1, ancho_primera=190,
              nota="El caso (PA 90/60 sin vasopresor, T 39 °C, ictericia) cumple grado II; pasa a III si necesita vasopresor o aparece otra falla de órgano.")
 
 # 1 · CASCADA · circulación enterohepática
@@ -88,7 +88,7 @@ S("puntaje", "RM-GAS-026", "Cinco criterios de Ranson (glucosa, LDH, calcio, dé
   clasif=dict(titulo="Puntaje de Ranson: mortalidad en la serie original y lectura actual", cols=["Puntos", "Mortalidad (serie de 1974)", "Interpretación"],
               filas=[["0-2", "Baja (menos de 5 %)", "Pancreatitis leve probable"], ["3-4", "15-20 %", "Con 3 o más puntos: pancreatitis grave probable"],
                      ["5-6", "Cerca de 40 %", "Grave: vigilancia en cuidados intensivos"], ["7 o más", "Cerca de 100 %", "Muy grave"]],
-              caso=2, ancho_primera=80,
+              caso=2, ancho_primera=135,
               nota="Cifras de la cohorte original de Ranson (años 70); las fuentes difieren algo en 0-2 y 3-4. Los umbrales de la tabla son para pancreatitis no biliar; para la biliar varían (edad > 70, leucocitos > 18 000, glucosa > 220, LDH > 400)."))
 
 # 4 · CAPAS · células de la glándula gástrica
@@ -114,7 +114,7 @@ S("capas", "RM-CB-050", "Las células parietales secretan ácido clorhídrico y 
                      ["Principal (zimógena)", "Pepsinógeno y lipasa gástrica", "No produce ácido"],
                      ["Mucosa del cuello", "Moco", "Protege la mucosa"],
                      ["Neuroendocrina (G, D, ECL)", "Gastrina, somatostatina e histamina", "Regula la secreción de ácido"]],
-              caso=0, ancho_primera=160))
+              caso=0, ancho_primera=210))
 
 # 5 · TARJETAS · enzima pancreática de los carbohidratos
 S("tarjetas", "RM-CB-051", "La alfa-amilasa pancreática digiere el almidón y el glucógeno",
@@ -128,8 +128,8 @@ S("tarjetas", "RM-CB-051", "La alfa-amilasa pancreática digiere el almidón y e
   "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); " + HARR,
   op=("¿Digiere carbohidratos?", ["No: es una proteasa", "No: es una proteasa", "Sí: hidroliza el almidón y el glucógeno", "No: digiere lípidos", "No: es una proteasa"], {}),
   d=dict(rotulo="Qué enzima del páncreas digiere cada nutriente", ans=0,
-         cards=[dict(titulo="Hidratos de carbono", datos=[("Enzima", "Alfa-amilasa", True), ("Sustrato", "Almidón y glucógeno", True), ("Producto", "Maltosa y dextrinas", True)], pie="Este caso: luego el borde en cepillo los vuelve monosacáridos."),
-                dict(titulo="Proteínas", datos=[("Enzimas", "Tripsina, quimotripsina", False), ("Otras", "Elastasa, carboxipeptidasa", False), ("Activación", "Enteroquinasa", False)], pie="Salen como proenzimas inactivas."),
+         cards=[dict(titulo="Hidratos de carbono", datos=[("Enzima", "Alfa-amilasa", True), ("Sustrato", "Almidón y glucógeno", True), ("Producto", "Maltosa y dextrinas", True)], pie="Este caso: luego, monosacáridos."),
+                dict(titulo="Proteínas", datos=[("Enzimas", "Tripsina, quimotripsina", False), ("Otras", "Elastasa y otras", False), ("Activación", "Enteroquinasa", False)], pie="Salen como proenzimas inactivas."),
                 dict(titulo="Lípidos", datos=[("Enzimas", "Lipasa y fosfolipasa A2", False), ("Ayuda", "Sales biliares", False), ("Si faltan", "Esteatorrea", False)], pie="La lipasa se agota primero.")]))
 
 # 6 · DOS PREGUNTAS · hiperbilirrubinemia conjugada hereditaria
@@ -155,7 +155,7 @@ S("dos_preguntas", "RM-GAS-027", "La hiperbilirrubinemia conjugada hereditaria b
                      ["Dubin-Johnson", "Transportador MRP2 (excreción canalicular)", "Directa", "Hígado negro; pruebas hepáticas y ecografía normales"],
                      ["Rotor", "Captación hepática (OATP1B1/1B3)", "Directa", "Sin pigmento hepático; benigno"],
                      ["Anemia hemolítica", "Exceso de producción de bilirrubina", "Indirecta", "Reticulocitos y LDH altos"]],
-              caso=2, ancho_primera=130))
+              caso=2, ancho_primera=190))
 
 # 7 · RADIAL · colitis ulcerosa
 S("radial", "RM-GAS-028", "La manifestación extraintestinal más frecuente de la colitis ulcerosa es la artropatía",
@@ -179,7 +179,7 @@ S("radial", "RM-GAS-028", "La manifestación extraintestinal más frecuente de l
                      ["Piel", "Eritema nodoso; pioderma gangrenoso", "El eritema nodoso acompaña a los brotes"],
                      ["Ojo", "Uveítis y epiescleritis", "Vigilar con oftalmología"],
                      ["Hígado y vía biliar", "Colangitis esclerosante primaria", "No mejora con la colectomía; riesgo de colangiocarcinoma"]],
-              caso=0, ancho_primera=130))
+              caso=0, ancho_primera=190))
 
 # 8 · CUADRO · clasificación de Johnson
 S("cuadro", "RM-GAS-029", "Una úlcera gástrica del cuerpo más una duodenal es una úlcera de Johnson tipo II",
@@ -200,7 +200,7 @@ S("cuadro", "RM-GAS-029", "Una úlcera gástrica del cuerpo más una duodenal es
                      ["III", "Prepilórica", "Alta (hiperacidez)", "Se comporta como la duodenal"],
                      ["IV", "Subcardial, cerca de la unión gastroesofágica", "Normal o baja", "Manejo quirúrgico difícil"],
                      ["V", "Inducida por AINE, en cualquier parte", "Sin patrón fijo", "Suspender el AINE"]],
-              caso=1, ancho_primera=60,
+              caso=1, ancho_primera=120,
               nota="Johnson (1965) describió los tipos I a III; el IV y el V se añadieron después. El caso describe cuerpo gástrico más duodeno: tipo II."))
 
 # 9 · ALARMA · dispepsia
@@ -265,8 +265,8 @@ S("balanza", "RM-CB-052", "Las catecolaminas, por estimulación adrenérgica, au
   op=("¿Aumenta la gastrina?", ["Sí: la estimulación adrenérgica la aumenta", "No: la inhibe, es la señal principal", "No: frena la gastrina", "No: frena la gastrina", "No: inhibe la secreción"],
       {}),
   d=dict(rotulo="Qué aumenta y qué frena la gastrina", gana="izq", pregunta="¿Qué sustancia aumenta la gastrina?",
-         izq=dict(titulo="La aumentan", peso="MÁS GASTRINA", items=["Adrenalina y catecolaminas (este caso)", "Péptidos y aminoácidos de la dieta", "Distensión antral y calcio", "Nervio vago (péptido liberador de gastrina)"]),
-         der=dict(titulo="La frenan", peso="MENOS GASTRINA", items=["Somatostatina: la señal inhibidora principal", "Secretina y glucagón", "Péptido intestinal vasoactivo y péptido inhibidor gástrico", "pH antral menor de 3"]),
+         izq=dict(titulo="La aumentan", peso="MÁS", items=["Adrenalina y catecolaminas (este caso)", "Péptidos y aminoácidos de la dieta", "Distensión antral y calcio", "Nervio vago (péptido liberador de gastrina)"]),
+         der=dict(titulo="La frenan", peso="MENOS", items=["Somatostatina: la señal inhibidora principal", "Secretina y glucagón", "Péptido intestinal vasoactivo y péptido inhibidor gástrico", "pH antral menor de 3"]),
          veredicto=("Adrenalina = más gastrina; somatostatina, secretina y VIP = menos", ["La secretina frena la gastrina, salvo en el gastrinoma, donde la eleva.", "Los IBP la elevan porque quitan el freno del ácido."])))
 
 # 12 · LÍNEA DE VIDA · mortalidad de la pancreatitis grave
@@ -319,7 +319,7 @@ S("criterios", "RM-GAS-033", "El síndrome de Mallory-Weiss es un desgarro en la
                      ["Úlcera péptica", "Unión gastroduodenal y antropíloro", "Dolor epigástrico y sangrado"],
                      ["Divertículo de tracción", "Tercio medio del esófago", "Casi siempre asintomático"],
                      ["Boerhaave", "Esófago distal", "Rotura transmural; mediastinitis"]],
-              caso=0, ancho_primera=150))
+              caso=0, ancho_primera=210))
 
 # 14 · ÁRBOL CON IMAGEN · divertículo de Zenker
 S("arbol_imagen", "RM-GAS-034", "Disfagia alta, halitosis y regurgitación de alimento sin digerir en un anciano: divertículo de Zenker",
@@ -335,11 +335,11 @@ S("arbol_imagen", "RM-GAS-034", "Disfagia alta, halitosis y regurgitación de al
       {0: "Divertículo de Zenker", 1: "Acalasia", 2: "Candidiasis esofágica", 3: "Cáncer de estómago", 4: "Esclerodermia"}),
   d=dict(rotulo="Cómo se llega al diagnóstico", tag="ESTE CASO",
          pregunta="Anciano con disfagia a sólidos y líquidos, ¿hay síntomas faríngeos y regurgitación maloliente?",
-         ramas=[("Sin síntomas faríngeos", "Acalasia, esclerodermia o cáncer", ["Regurgitación sin halitosis.", "Reflujo grave, saciedad o pérdida de peso."]),
+         ramas=[("Sin síntomas faríngeos", "Acalasia, esclerodermia o cáncer", ["Acalasia: disfagia a sólidos y líquidos con regurgitación, sin halitosis ni síntomas faríngeos.", "Esclerodermia: disfagia con reflujo grave.", "Cáncer gástrico: saciedad precoz y pérdida de peso.", "Candidiasis esofágica: odinofagia.", "Se estudian con endoscopía y pruebas dirigidas."]),
                 ("Con halitosis y regurgitación: este caso", "Divertículo de Zenker", ["Esofagograma baritado: bolsa posterior que se llena de bario."])],
-         ilu=ILU(PX("zenker_bario.jpg", 190, credito="Rayyan et al. · J Surg Case Rep 2026 · CC BY 4.0",
+         ilu=ILU(PX("zenker_bario.jpg", 135, credito="Rayyan et al. · J Surg Case Rep 2026 · CC BY 4.0",
                     marcas=[("flecha", 0.45, 0.66, 0.84, 0.80, "Bolsa con bario"), ("flecha", 0.45, 0.56, 0.84, 0.46, "Nivel de aire")])),
-         IW=190, IH=285,
+         IW=135, IH=203,
          ilu_pie="Imagen referencial de un divertículo de Zenker en el esofagograma lateral: bolsa posterior llena de bario con nivel hidroaéreo (Rayyan et al. · J Surg Case Rep 2026 · CC BY 4.0).",
          luego_titulo="Qué sigue",
          luego=[("Confirmar", ["Esofagograma con bario; endoscopía con cuidado."], True), ("Sintomático", ["Diverticulotomía endoscópica con miotomía cricofaríngea."], False), ("Alternativa", ["Cirugía abierta."], False)]),
@@ -348,7 +348,7 @@ S("arbol_imagen", "RM-GAS-034", "Disfagia alta, halitosis y regurgitación de al
                      ["Acalasia", "Disfagia a sólidos y líquidos con regurgitación, sin halitosis ni síntomas faríngeos"],
                      ["Candidiasis esofágica", "Odinofagia"], ["Cáncer gástrico", "Saciedad precoz y pérdida de peso"],
                      ["Esclerodermia", "Disfagia con reflujo grave"]],
-              caso=0, ancho_primera=170))
+              caso=0, ancho_primera=230))
 
 # 15 · CASCADA · Zollinger-Ellison en MEN1
 S("cascada", "RM-GAS-035", "Úlceras duodenales múltiples, diarrea, hipercalcemia y tumor hipofisario: Zollinger-Ellison por MEN1",
@@ -401,7 +401,7 @@ S("lectura", "RM-CIR-135", "La fisura anal crónica se ubica con más frecuencia
                      ["Línea media anterior", "Menos frecuente; más en la mujer", "Primaria si es única y dolorosa"],
                      ["Lateral, múltiple o indolora", "Poco frecuente", "Causa secundaria: Crohn, tuberculosis, VIH, sífilis, cáncer, leucemia"],
                      ["Línea dentada", "No es un sitio de fisura", "Es un límite anatómico del canal anal"]],
-              caso=0, ancho_primera=170))
+              caso=0, ancho_primera=230))
 
 # 17 · CARRILES · colangitis aguda grave
 S("carriles", "RM-CIR-136", "Colangitis aguda con hipotensión y coledocolitiasis: drenaje biliar urgente con CPRE",
@@ -415,7 +415,7 @@ S("carriles", "RM-CIR-136", "Colangitis aguda con hipotensión y coledocolitiasi
   "Tokyo Guidelines 2018, criterios y gravedad (J Hepatobiliary Pancreat Sci 2018;25:17-30) y manejo inicial (25:31-40); ASGE, coledocolitiasis (Gastrointest Endosc 2019;89:1075-1105); EsSalud-IETSI, GPC N.º 11 (2018); " + SABISTON21,
   op=("¿Conducta?", ["Sí: drenaje urgente por vía endoscópica", "No: cirugía mayor en un paciente séptico", "No: exploración quirúrgica con alto riesgo", "No: drena la vesícula, no la vía biliar", "No: es cirugía mayor diferida"],
       {0: "CPRE", 1: "Colecistectomía abierta", 2: "Exploración de vías biliares", 3: "Colecistostomía abierta", 4: "Derivación biliodigestiva"}),
-  d=dict(rotulo="Quién hace qué, en orden", carriles=["Emergencia", "Ecografía", "Gastroenterología", "Cirugía"],
+  d=dict(rotulo="Quién hace qué, en orden", carriles=["Emergencia", "Ecografía", "Endoscopía", "Cirugía"],
          pasos=[(0, "Charcot más hipotensión", "Fiebre, ictericia y dolor; reanimar con cristaloides y dar antibiótico.", False),
                 (1, "Colelitiasis y coledocolitiasis", "Confirma la obstrucción de la vía biliar.", False),
                 (2, "CPRE urgente", "Esfinterotomía y extracción de cálculos o prótesis (este caso).", True),

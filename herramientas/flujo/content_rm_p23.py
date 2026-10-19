@@ -15,11 +15,11 @@ CLASIF_ABORTO = dict(
     titulo="Formas clínicas del aborto antes de las 20 semanas (nomenclatura de los textos peruanos; ACOG y NICE)",
     cols=["Forma", "Cuello", "Sangrado y dolor", "Contenido del útero", "Conducta"],
     filas=[["Amenaza de aborto", "Cerrado", "Sangrado escaso; dolor leve o ausente", "Embrión vivo, útero acorde con la amenorrea", "Ecografía transvaginal, grupo y Rh, reposo relativo"],
-           ["Aborto inminente (inevitable)", "Abierto; la bolsa íntegra protruye", "Sangrado y dolor cólico", "Aún sin expulsión, pero ya irreversible", "Evacuar el útero o dejar que evolucione si está estable"],
+           ["Aborto inminente", "Abierto; la bolsa íntegra protruye", "Sangrado y dolor cólico", "Aún sin expulsión, pero ya irreversible", "Evacuar el útero o dejar que evolucione si está estable"],
            ["Aborto incompleto", "Abierto", "Sangrado abundante con coágulos; cólico intenso", "Restos ovulares retenidos", "Estabilizar y evacuar: aspiración manual endouterina, legrado o misoprostol"],
            ["Aborto completo", "Se cierra", "El sangrado y el dolor ceden", "Útero vacío", "Confirmar la vacuidad por ecografía; seguimiento"],
            ["Aborto diferido (frustro)", "Cerrado", "Escaso o ausente", "Embrión sin latido, retenido", "Misoprostol, aspiración o expectante, según la paciente"]],
-    caso=None, ancho_primera=165,
+    caso=None, ancho_primera=215,
     nota="En otras clasificaciones «inevitable» designa el aborto con cuello dilatado o membranas rotas: conviene reconocer ambos términos. La anti-D se da a toda paciente Rh negativa con pérdida gestacional.")
 
 # 1 · ALARMA · embarazo ectópico roto
@@ -40,7 +40,7 @@ S("alarma", "RM-GIN-037", "Amenorrea, hCG positiva, sangrado y shock: embarazo e
          accion=("Reanimar y operar de inmediato", "Dos vías, cristaloides y sangre; salpingectomía por laparoscopia o laparotomía. Sin esperar la ecografía."),
          accion_rotulo="Si hay inestabilidad",
          img=PX("ectopico_tubario.jpg", 280, marcas=[("flecha", 0.52, 0.28, 0.80, 0.10, "Embarazo tubárico")], credito="Hic et nunc · Wikimedia Commons · CC BY-SA 3.0"),
-         img_titulo="Imagen referencial de un embarazo ectópico tubárico",
+         img_titulo="Referencial: ectópico tubárico",
          veredicto=("Amenorrea + hCG positiva + shock = ectópico roto", "El shock y el peritonismo mandan a quirófano; el metotrexato queda para la paciente estable.")),
   clasif=dict(titulo="Conducta en el embarazo ectópico según la estabilidad (ACOG 2018)", cols=["Situación", "Datos", "Conducta"],
               filas=[["Inestable o con rotura", "Hipotensión, taquicardia, dolor intenso, hemoperitoneo", "Reanimación y cirugía inmediata"],
@@ -259,7 +259,7 @@ S("alarma", "RM-GIN-047", "Secreción serosanguinolenta y masa sólida de 2 cm a
          accion=("Triple evaluación y biopsia", "Mamografía y ecografía; biopsia con aguja gruesa de la masa. No esperar ni dar tratamiento empírico."),
          accion_rotulo="Si hay masa sólida",
          img=PX("mama_mx_cc.jpg", 280, marcas=[("flecha", 0.26, 0.47, 0.64, 0.66, "Masa espiculada")], credito="Yuan et al. · Front Oncol 2026 · CC BY 4.0"),
-         img_titulo="Imagen referencial de una mamografía con masa espiculada",
+         img_titulo="Referencial: mamografía",
          veredicto=("Masa sólida + secreción sangrante + 62 años = cáncer hasta demostrar lo contrario", "La mamografía referencial (proyección cráneo-caudal) muestra una masa de bordes espiculados.")),
   clasif=dict(titulo="Categorías BI-RADS: probabilidad de malignidad y conducta", cols=["Categoría", "Significado", "Riesgo de cáncer", "Conducta"],
               filas=[["0", "Estudio incompleto", "No se estima", "Imágenes adicionales o comparar con estudios previos"],
