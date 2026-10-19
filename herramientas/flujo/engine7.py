@@ -431,7 +431,8 @@ def build7(spec):
         else:
             y, _ = top_row(s, y, spec["tema"], spec["caso"], "Marca dónde cae este caso", "rombo")
         from engine9 import LAYOUTS9
-        L = {**LAYOUTS4, **LAYOUTS5, **LAYOUTS6, **LAYOUTS7, **LAYOUTS9}
+        from engine10 import LAYOUTS10
+        L = {**LAYOUTS4, **LAYOUTS5, **LAYOUTS6, **LAYOUTS7, **LAYOUTS9, **LAYOUTS10}
         y = L[tipo](s, y + 8, spec["d"])
     if spec.get("escala"):
         y = escala(s, y + 20, spec["escala"])

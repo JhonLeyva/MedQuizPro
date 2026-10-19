@@ -38,7 +38,8 @@ CATALOGO = [
     (49, "dos_preguntas", "Dos preguntas encadenadas"), (50, "monitor", "Monitor de signos vitales del caso"),
 ]
 HECHOS = {"lectura", "zonas", "regla", "decision", "cuadricula", "alarma", "cascada", "checklist", "monitor",
-          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica", "calendario", "gasometria"}
+          "piramide", "grados_foto", "laboratorio", "reloj", "transmision", "dosis", "ecg_mapa", "grafica", "calendario", "gasometria",
+          "carriles", "capas", "venn", "dermatomas", "genealogia", "farmaco", "antes_despues", "pruebas", "linea_vida", "triptico", "dos_preguntas"}
 
 
 def _img_h(im):
