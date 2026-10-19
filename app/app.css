@@ -589,3 +589,6 @@ body.gi-abierta { overflow: hidden; }
 .gi-vineta { background: radial-gradient(ellipse at 40% 50%, rgba(2, 8, 10, .12) 0%, rgba(2, 8, 10, .55) 62%, rgba(2, 8, 10, .88) 100%), linear-gradient(180deg, rgba(2, 8, 10, .45) 0%, rgba(2, 8, 10, 0) 28%, rgba(2, 8, 10, .5) 100%); }
 .gi-t1, .gi-t4 { text-shadow: 0 2px 6px rgba(0, 0, 0, .7), 0 0 36px rgba(0, 0, 0, .6); }
 @media (max-width: 640px) { .gi-omitir { bottom: 104px; } .gi-fin { padding-bottom: 110px; } }
+/* con fotografía real: la foto manda y la escena vectorial queda solo como respaldo */
+.gi-foto { transition: opacity 1.6s ease; } .gi--foto .gi-foto { opacity: 1; } .gi--foto .gi-svg { opacity: 0 !important; transition: opacity 1.6s ease; }
+.gi--foto .gi-vineta { background: radial-gradient(ellipse at 28% 50%, rgba(2, 8, 10, .62) 0%, rgba(2, 8, 10, .5) 45%, rgba(2, 8, 10, .82) 100%), linear-gradient(180deg, rgba(2, 8, 10, .5) 0%, rgba(2, 8, 10, 0) 26%, rgba(2, 8, 10, .55) 100%); }

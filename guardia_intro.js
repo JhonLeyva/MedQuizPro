@@ -63,7 +63,7 @@
     var el = document.createElement("section");
     el.className = "gi" + (rm ? " gi--rm" : ""); el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Introducción a Sobrevive a la Guardia");
     el.innerHTML =
-      '<div class="gi-fondo" aria-hidden="true"><div class="gi-cam">' + ESCENA + '</div><div class="gi-foto" id="giFoto"></div></div>' +
+      '<div class="gi-fondo" aria-hidden="true"><div class="gi-cam">' + ESCENA + '<div class="gi-foto" id="giFoto"></div></div></div>' +
       '<div class="gi-vineta" aria-hidden="true"></div><div class="gi-grano" aria-hidden="true"></div>' +
       '<p class="gi-marca" id="giMarca">MEDQUIZPRO · SIMULACIÓN CLÍNICA</p>' +
       '<div class="gi-texto" aria-live="polite">' +
