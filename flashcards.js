@@ -52,12 +52,15 @@
     panel.className = "fc-dlg"; panel.setAttribute("aria-labelledby", "fcDlgT");
     var cuerpo;
     if (!tarjetas.length) cuerpo = '<p class="fc-aviso">No pudimos armar tarjetas con esta pregunta (le falta la respuesta o el enunciado).</p>';
-    else cuerpo = '<p class="fc-ayuda">Revisa y edita lo que quieras. Solo se guardan las tarjetas marcadas. Se arman con tu pregunta y su comentario docente.</p><div class="fc-props">' +
-      tarjetas.map(function (t, i) {
-        return '<fieldset class="fc-prop"><legend><label><input type="checkbox" checked data-i="' + i + '"> ' + esc(t.titulo) + '</label></legend>' +
-          '<label class="fc-lbl" for="fcF' + i + '">Frente</label><textarea id="fcF' + i + '" rows="4" maxlength="600">' + esc(t.frente) + '</textarea>' +
-          '<label class="fc-lbl" for="fcD' + i + '">Dorso</label><textarea id="fcD' + i + '" rows="5" maxlength="1500">' + esc(t.dorso) + '</textarea></fieldset>';
-      }).join("") + '</div>';
+    function propHTML(t, i) {
+      return '<fieldset class="fc-prop"><legend><label><input type="checkbox" checked data-i="' + i + '"> ' + esc(t.titulo) + '</label></legend>' +
+        '<label class="fc-lbl" for="fcF' + i + '">Frente</label><textarea id="fcF' + i + '" rows="4" maxlength="600">' + esc(t.frente) + '</textarea>' +
+        '<label class="fc-lbl" for="fcD' + i + '">Dorso</label><textarea id="fcD' + i + '" rows="5" maxlength="1500">' + esc(t.dorso) + '</textarea>' +
+        '<p class="fc-fuente">Fuente: ' + esc(t.fuente) + '</p></fieldset>';
+    }
+    if (!tarjetas.length) cuerpo = '<p class="fc-aviso">No pudimos armar tarjetas con esta pregunta (le falta la respuesta o el enunciado).</p>';
+    else cuerpo = '<p class="fc-ayuda">Revisa y edita lo que quieras. Solo se guardan las tarjetas marcadas. Las del banco se arman con tu pregunta y su comentario docente.</p><div class="fc-props" id="fcProps">' +
+      tarjetas.map(propHTML).join("") + '</div><p class="fc-ia"><button type="button" class="btn btn--ghost btn--sm" id="fcIA">Proponer más con IA</button> <span class="muted small">La IA usa solo el comentario del banco y las guías cargadas, con cita. Revisa siempre los datos antes de guardar.</span></p>';
     panel.innerHTML = '<form method="dialog" class="fc-form"><header class="fc-head"><h2 id="fcDlgT">Convertir en flashcard</h2><button type="button" class="fc-x" aria-label="Cerrar" data-x>✕</button></header>' +
       cuerpo + '<p class="fc-msg" id="fcMsg" role="status" aria-live="polite"></p>' +
       '<footer class="fc-foot"><button type="button" class="btn btn--ghost" data-x>Descartar</button>' + (tarjetas.length ? '<button type="submit" class="btn btn--primary" id="fcGuardar">Guardar tarjetas</button>' : "") + '</footer></form>';
@@ -83,6 +86,25 @@
         msg.className = "fc-msg is-ok"; btn.hidden = true;
         window.dispatchEvent(new CustomEvent("mqp:flashcards"));
       });
+    });
+    var bIA = panel.querySelector("#fcIA");
+    if (bIA) bIA.addEventListener("click", function () {
+      bIA.disabled = true; bIA.textContent = "Pidiendo propuestas…"; msg.textContent = ""; msg.className = "fc-msg";
+      var ops = {}; (q.opciones || []).forEach(function (o) { ops[o.letra] = o.texto; });
+      fetch(BASE + "api.php", { method: "POST", credentials: "same-origin", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ modo: "flashcards", contexto: { id: q.id, especialidad: q.especialidad || "", tema: q.tema || q.categoria || "", enunciado: q.enunciado, opciones: ops, elegida: letra || "", correcta: q.clave, comentario: q.comentario || "" } }) })
+        .then(function (r) { return r.json().then(function (j) { return { http: r.status, j: j || {} }; }, function () { return { http: r.status, j: {} }; }); })
+        .then(function (r) {
+          if (r.http === 401) { msg.innerHTML = 'Para usar la IA necesitas una cuenta. <a href="#/registro">Crear cuenta</a> · <a href="#/ingresar">Ingresar</a>'; msg.className = "fc-msg is-err"; }
+          else if (r.http === 200 && r.j.tarjetas && r.j.tarjetas.length) {
+            var cont = panel.querySelector("#fcProps");
+            r.j.tarjetas.forEach(function (t) {
+              var i = tarjetas.length; tarjetas.push({ titulo: "Propuesta de la IA (revisa los datos)", frente: t.frente, dorso: t.dorso, pregunta: q.id, tema: q.tema || q.categoria || "", especialidad: q.especialidad || "", fuente: t.fuente });
+              cont.insertAdjacentHTML("beforeend", propHTML(tarjetas[i], i));
+            });
+            msg.textContent = "La IA propuso " + r.j.tarjetas.length + (r.j.tarjetas.length === 1 ? " tarjeta" : " tarjetas") + ". Revísalas: pueden contener errores."; msg.className = "fc-msg is-ok";
+          } else { msg.textContent = r.http === 503 || r.http === 502 || !r.j.error ? "La IA no está disponible ahora. Puedes guardar las tarjetas del banco." : r.j.error; msg.className = "fc-msg is-err"; }
+        }, function () { msg.textContent = "No hay conexión con el servidor."; msg.className = "fc-msg is-err"; })
+        .then(function () { bIA.disabled = false; bIA.textContent = "Proponer más con IA"; });
     });
     if (panel.showModal) panel.showModal(); else panel.setAttribute("open", "");
     var primero = panel.querySelector("textarea, button"); if (primero) primero.focus();

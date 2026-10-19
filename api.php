@@ -339,7 +339,9 @@ if (!is_array($entrada)) {
     fallar(400, 'cuerpo no es JSON');
 }
 
+$modoTarjetas = (($entrada['modo'] ?? '') === 'flashcards') && isset($entrada['contexto']);
 $mensaje = trim((string) ($entrada['mensaje'] ?? $entrada['message'] ?? ''));
+if ($modoTarjetas && $mensaje === '') { $mensaje = 'Propón flashcards de estudio para esta pregunta.'; }
 if ($mensaje === '') {
     responder(400, ['error' => 'Escribe una pregunta antes de enviar.']);
 }
@@ -444,8 +446,15 @@ if ($contexto !== null) {
     } else {
         $bloque .= "- No hay guías oficiales cargadas relevantes para esta consulta: no afirmes haber consultado ninguna.\n\n";
     }
+    if ($modoTarjetas) {
+        $bloque .= "TAREA: propón de 1 a 3 flashcards de estudio sobre el concepto evaluable de esta pregunta (sobre todo el error del alumno). Reglas:\n"
+            . "- Una sola idea por tarjeta; frente = pregunta o caso breve; dorso = respuesta precisa y corta (máx. 350 caracteres).\n"
+            . "- Usa SOLO datos presentes en DATOS o en GUIAS: no inventes cifras, dosis ni puntos de corte. Si un dato viene de una guía, lista su número en \"citas\".\n"
+            . "- No repitas la misma idea en dos tarjetas ni conviertas cada párrafo en una tarjeta.\n"
+            . "- Responde ÚNICAMENTE con JSON válido, sin texto extra: {\"tarjetas\":[{\"frente\":\"...\",\"dorso\":\"...\",\"citas\":[1]}]}\n\n";
+    }
     $ultimo = count($historial) - 1;
-    $historial[$ultimo]['texto'] = $bloque . "Consulta del alumno: " . $historial[$ultimo]['texto'];
+    $historial[$ultimo]['texto'] = $bloque . ($modoTarjetas ? "Pedido del alumno: " : "Consulta del alumno: ") . $historial[$ultimo]['texto'];
 }
 
 /* ====================== LLAMADA AL PROVEEDOR ====================== */
@@ -476,6 +485,27 @@ if ($contexto !== null) {
     [$limpia, $citadas, $invalidas] = guias_validar_citas((string) $resultado['texto'], count($recuperados));
     $salida['respuesta'] = $salida['reply'] = $limpia;       // las citas a fuentes que no existen se eliminan
     $salida['citadas'] = $citadas;
+    if ($modoTarjetas) {
+        $crudo = trim((string) preg_replace('/^```(?:json)?|```$/m', '', (string) $resultado['texto']));
+        $j = json_decode($crudo, true);
+        $lista = is_array($j['tarjetas'] ?? null) ? $j['tarjetas'] : [];
+        $tarjetas = []; $vistos = [];
+        foreach (array_slice($lista, 0, 8) as $t) {
+            if (count($tarjetas) >= 3) break;                       // máximo 3 tarjetas útiles
+            if (!is_array($t)) continue;
+            $fr = trim((string) ($t['frente'] ?? '')); $do = mb_substr(trim((string) ($t['dorso'] ?? '')), 0, 600);
+            $huella = guias_normalizar($fr);
+            if (mb_strlen($fr) < 8 || mb_strlen($do) < 2 || isset($vistos[$huella])) continue;     // sin vacías ni duplicadas
+            $vistos[$huella] = true;
+            $cs = []; foreach ((array) ($t['citas'] ?? []) as $n) if (is_int($n) && $n >= 1 && $n <= count($recuperados)) $cs[$n] = true;   // solo citas a fuentes que existen
+            $fuente = 'Banco MedQuizPlus · ' . $contexto['id'];
+            foreach (array_keys($cs) as $n) { $g = $salida['guias'][$n - 1]; $fuente .= ' · ' . $g['institucion'] . ' ' . $g['anio'] . ($g['version'] !== '' ? ' ' . $g['version'] : '') . ' p. ' . $g['pagina']; }
+            $tarjetas[] = ['frente' => mb_substr($fr, 0, 600), 'dorso' => $do, 'citas' => array_keys($cs), 'fuente' => mb_substr($fuente, 0, 380)];
+        }
+        $salida['tarjetas'] = $tarjetas;
+        if (!$tarjetas) { responder(502, ['error' => 'La IA no devolvió tarjetas utilizables. Inténtalo de nuevo o usa las tarjetas del banco.']); }
+        unset($salida['respuesta'], $salida['reply']);
+    }
     if ($invalidas) { $salida['citas_invalidas'] = $invalidas; error_log('[api] citas a fuentes inexistentes eliminadas: ' . implode(',', $invalidas)); }
 }
 responder(200, $salida);

@@ -638,3 +638,4 @@ body.gi-abierta { overflow: hidden; }
 .es-f--discrepancia { background: color-mix(in srgb, #f59e0b 12%, transparent); } .es-f--discrepancia th { box-shadow: inset 4px 0 0 #f59e0b; }
 .es-tipo { display: inline-block; padding: 2px 9px; border-radius: 99px; font-size: .74rem; font-weight: 800; background: var(--surface-2); color: var(--ink-2); } .es-tipo--discrepancia { background: #fde68a; color: #78350f; } .es-tipo--equivalente { background: #d1fae5; color: #065f46; }
 .es-nota { font-size: .78rem; color: var(--ink-3); margin: 6px 0 0 !important; } .es-leyenda, .es-pie { font-size: .8rem; color: var(--ink-3); padding: 0 20px 14px; margin: 0; }
+.fc-fuente { margin: 2px 0 0; font-size: .76rem; color: var(--ink-3); } .fc-ia { margin: 0; padding: 0 20px 8px; }

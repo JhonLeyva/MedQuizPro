@@ -440,7 +440,7 @@ try {
                 $fr = $corto($t['frente'] ?? '', 600); $do = trim((string)($t['dorso'] ?? '')); $do = mb_substr($do, 0, 1500);
                 if (mb_strlen($fr) < 5 || mb_strlen($do) < 2) { $db->rollBack(); fallo('Cada tarjeta necesita frente y dorso.'); }
                 $pre = $corto($t['pregunta'] ?? '', 40);
-                $ins->execute([$uid, $fr, $do, $pre, $corto($t['tema'] ?? '', 120), $corto($t['especialidad'] ?? '', 80), $corto($t['fuente'] ?? '', 200), fc_huella($pre, $fr), $ahora, $ahora]);
+                $ins->execute([$uid, $fr, $do, $pre, $corto($t['tema'] ?? '', 120), $corto($t['especialidad'] ?? '', 80), $corto($t['fuente'] ?? '', 400), fc_huella($pre, $fr), $ahora, $ahora]);
                 if ($ins->rowCount()) $creadas[] = (int)$db->lastInsertId(); else $repetidas++;
             }
             $db->commit();
