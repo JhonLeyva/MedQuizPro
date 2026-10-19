@@ -110,8 +110,8 @@ S("embudo", "RM-CB-006", "El gastrocnemio flexiona la planta del pie y, débilme
          final=("GASTROCNEMIO", ["Biarticular", "Flexión plantar + flexión de la rodilla"]),
          nota="El sóleo solo cruza el tobillo; los isquiotibiales solo la cadera y la rodilla."))
 
-# 7 · RM-CB-007 · LECTURA con esquema propio: hilio pulmonar
-S("lectura", "RM-CB-007", "La arteria pulmonar derecha pasa por detrás de la aorta ascendente",
+# 7 · RM-CB-007 · CHECKLIST: lectura del hilio pulmonar
+S("checklist", "RM-CB-007", "La arteria pulmonar derecha pasa por detrás de la aorta ascendente",
   "Anatomía · mediastino y hilio",
   ("Arteria pulmonar derecha", ["Más larga que la izquierda: cruza el mediastino medio.", "Pasa detrás de la aorta ascendente y de la vena cava superior y delante del bronquio principal."]),
   ("Pregunta de teoría", ["¿Cómo se ubica la arteria pulmonar derecha?"]),
@@ -121,13 +121,12 @@ S("lectura", "RM-CB-007", "La arteria pulmonar derecha pasa por detrás de la ao
   MOORE + "; Gray Anatomía para estudiantes 5.ª ed.; Fraser y Paré Diagnosis of Diseases of the Chest 5.ª ed.",
   op=("¿Relación?", ["Sí: detrás de la aorta ascendente", "No: eso es la arteria izquierda (delante de la aorta descendente)", "No: queda delante de la vena pulmonar inferior",
                      "No: queda delante del bronquio principal", "No: cruza por detrás, no por delante"]),
-  d=dict(rotulo="Ubica la arteria en el hilio", img_titulo="Hilios pulmonares (esquema)",
-         img=PX("dib_hilio_pulmonar.jpg", 360, credito=PROPIO, fondo="#ffffff"), pines=[(0.36, 0.42), (0.68, 0.45)],
-         pasos=[("Derecha: sale del tronco pulmonar", "Cruza el mediastino medio, detrás de la aorta.", True),
-                ("Orden en el hilio derecho (VAB)", "Vena arriba y delante, arteria en el medio, bronquio atrás.", False),
-                ("Izquierda: sobre el bronquio", "Arquea sobre el bronquio izquierdo.", False),
-                ("Aplicación", "Agrandamiento hiliar: hipertensión pulmonar o embolia.", False)],
-         img_pie="Derecha del paciente = izquierda del dibujo.",
+  d=dict(rotulo="Recorrido de la arteria pulmonar derecha", tag="DATO CLAVE",
+         pasos=[("Sale del tronco pulmonar y cruza el mediastino medio", "Es más larga que la izquierda.", False),
+                ("Pasa detrás de la aorta ascendente y de la vena cava superior", "Es la relación que pide la pregunta.", True),
+                ("En el hilio queda delante del bronquio principal", "Orden de adelante hacia atrás: vena, arteria y bronquio (VAB).", False),
+                ("Aplicación: arterias hiliares grandes", "Hipertensión pulmonar o embolia pulmonar.", False)],
+         no_titulo="No confundir", no_hacer=[("Izquierda: arquea sobre el bronquio", "Pasa delante de la aorta descendente."), ("Arteria derecha delante de la aorta", "Falso: va por detrás.")],
          veredicto=("Arteria pulmonar derecha: detrás de la aorta ascendente", "Después sigue por delante del bronquio principal derecho.")))
 
 # 8 · RM-CB-008 · BALANZA: articulaciones sinoviales vs otras

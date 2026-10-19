@@ -205,27 +205,28 @@ S("termometro", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: ena
          niveles=[("A1", "Normal o leve", ["< 30 mg/g"]), ("A2", "Moderada", ["30-300 mg/g"]), ("A3", "Grave", ["500 mg/24 h: ya es alta"]), ("A3+", "Nefrótica", ["> 3,5 g/24 h"])],
          pasos=[(1, "IECA o ARA II", ["Enalapril"], True), (2, "iSGLT2", ["Empagliflozina o dapagliflozina"], False), (3, "Finerenona", ["Si persiste la albuminuria"], False)]))
 
-# 95 · RM-CIR-023 · MAPA DE SIGNOS: apendicitis
-S("mapa_signos", "RM-CIR-023", "Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda",
+# 95 · RM-CIR-023 · LECTURA con ecografía real: apendicitis
+S("lectura", "RM-CIR-023", "Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda",
   "Cirugía · apendicitis aguda",
   ("Apendicitis aguda", ["Dolor periumbilical que migra a la fosa ilíaca derecha, anorexia, náuseas y fiebre baja.", "La ausencia de leucocitosis no la descarta."]),
   ("Varón de 20 años", ["Dolor súbito que se localiza en fosa ilíaca derecha.", "Blumberg (+), dolor al traccionar el testículo derecho; sin leucocitosis."]),
   ["Signo de Horn: dolor al traccionar suavemente el cordón o testículo derecho. Rovsing, psoas y obturador completan los signos.",
    "Los testículos son normales: en la torsión el dolor es escrotal e intenso, con testículo elevado.",
    "Alvarado ≥ 7 apoya; eco en niños y TC en adultos. Tratamiento: apendicectomía laparoscópica (antibióticos en casos no complicados, ensayo CODA 2020)."],
-  "WSES, apendicitis aguda (2020); " + SAB,
+  "WSES, apendicitis aguda (2020); " + SAB + "; Kaplan et al., POCUS J 2025.",
   op=("¿Diagnóstico?", ["Sí: Blumberg y Horn en fosa ilíaca derecha", "No: cólico lumbar con hematuria", "No: sin síntomas urinarios", "No: dolor y testículo elevados", "No: testículo normal"],
       {0: "Apendicitis aguda", 1: "Litiasis renal", 2: "Infección urinaria", 3: "Torsión testicular", 4: "Orquiepididimitis"}),
-  d=dict(rotulo="Signos de la apendicitis en el abdomen", PH=480, tag="FOSA ILÍACA DERECHA",
-         ilu_titulo="Abdomen (esquema)",
-         ilu=lambda s, x, y: I.cuerpo(s, x + 20, y + 30, {"abdomen": "#fecaca"}, sc=0.62),
-         ilu_pie="Dolor en el punto de McBurney.",
-         signos=[dict(tit="Blumberg", lines=["Dolor al descomprimir el abdomen."]), dict(tit="Signo de Horn", lines=["Dolor al traccionar el testículo derecho."]),
-                 dict(tit="Rovsing", lines=["Dolor en fosa ilíaca derecha al palpar la izquierda."]), dict(tit="Psoas y obturador", lines=["Dolor al extender la cadera o rotarla."]),
-                 dict(tit="Apendicitis aguda", on=True, lines=["Sin leucocitosis no se descarta."])]))
+  d=dict(rotulo="Signos clínicos y confirmación por ecografía", img_titulo="Ecografía de apendicitis (imagen de referencia)",
+         img=PX("apendicitis_pocus.jpg", 400, credito="Kaplan et al. · POCUS J 2025 · PMC12057466 · CC BY 4.0"),
+         pasos=[("Blumberg y Rovsing", "Dolor al descomprimir; dolor en fosa ilíaca derecha al palpar la izquierda.", False),
+                ("Signo de Horn", "Dolor al traccionar el testículo derecho: apoya apendicitis.", True),
+                ("Psoas y obturador", "Dolor al extender la cadera o rotarla.", False),
+                ("Ecografía: apéndice dilatado", "Los calibres (+) miden 6,8 y 8,1 mm; normal: menos de 6 mm.", False)],
+         img_pie="Izquierda: corte corto; derecha: corte largo. Los calibres son de la propia imagen.",
+         veredicto=("Apendicitis aguda: la leucocitosis no es indispensable", "Testículos normales: se descarta torsión y orquiepididimitis.")))
 
-# 96 · RM-CIR-024 · SEMÁFORO: Alvarado
-S("semaforo", "RM-CIR-024", "La anorexia es el síntoma casi constante de la apendicitis: su ausencia pone en duda el diagnóstico",
+# 96 · RM-CIR-024 · PUNTAJE: Alvarado
+S("puntaje", "RM-CIR-024", "La anorexia es el síntoma casi constante de la apendicitis: su ausencia pone en duda el diagnóstico",
   "Cirugía · apendicitis, puntaje de Alvarado",
   ("Anorexia en la apendicitis", ["Presente en 90-95 %: si el paciente tiene apetito, dudar.", "Los vómitos vienen después del dolor."]),
   ("Pregunta de teoría", ["¿Qué síntoma, si falta, pone en duda el diagnóstico?"]),
@@ -235,10 +236,13 @@ S("semaforo", "RM-CIR-024", "La anorexia es el síntoma casi constante de la ape
   "WSES, apendicitis aguda (2020); " + SAB,
   op=("¿Si falta?", ["Sí: casi constante", "No: inespecífico", "No: aparece después del dolor", "No: puede faltar", "No: puede estar o no"],
       {0: "Anorexia", 1: "Malestar general", 2: "Náuseas y vómitos", 3: "Fiebre", 4: "Constipación"}),
-  d=dict(rotulo="Qué tan probable es la apendicitis (Alvarado)", tag="PUNTAJE",
-         ilu_titulo="Dónde duele", ilu=ILU(D(lambda s, x, y: I.cuerpo(s, x + 50, y, {"abdomen": "#fecaca"}, sc=0.7), 330, 330)), ilu_pie="Fosa ilíaca derecha: punto de McBurney.",
-         check_titulo="Síntomas que suman", check=[("Migración del dolor a la fosa ilíaca derecha (1)", True), ("Anorexia (1)", True), ("Náuseas o vómitos (1)", False), ("Defensa en fosa ilíaca derecha (2)", False)],
-         luces=[("0-4 puntos", "Baja probabilidad", ["Observar o alta"]), ("5-6 puntos", "Intermedia", ["Eco o TC"]), ("7-10 puntos", "Alta", ["Apendicectomía"])], ans=1))
+  d=dict(rotulo="Puntaje de Alvarado: dónde pesa la anorexia", escala="Escala de Alvarado (MANTRELS)", total=1, max=10, total_label="Puntos de la anorexia",
+         interpreta="Un solo dato no decide: se suma con el resto",
+         items=[("Dolor que migra a la fosa ilíaca derecha", 1, False), ("Anorexia (casi constante)", 1, True), ("Náuseas o vómitos", 1, False),
+                ("Dolor en la fosa ilíaca derecha", 2, False), ("Rebote (Blumberg)", 1, False), ("Temperatura > 37,3 °C", 1, False),
+                ("Leucocitos > 10 000", 2, False), ("Neutrófilos > 75 %", 1, False)],
+         bandas=[("0-4", "Poco probable", "Observar o alta con control.", False), ("5-6", "Posible", "Ecografía (niños) o TC (adultos).", False),
+                 ("7-10", "Probable", "Evaluación quirúrgica y apendicectomía.", False)]))
 
 # 97 · RM-CIR-025 · LECTURA con TC: vólvulo de ciego
 S("lectura", "RM-CIR-025", "La malrotación y la falta de fijación del ciego son el factor más asociado al vólvulo cecal",

@@ -313,8 +313,8 @@ S("arbol", "RM-NEF-001", "Anasarca con hiponatremia hipervolémica y sodio urina
       L("Euvolémica", "SIADH · HIPOTIROIDISMO", ["Na urinario alto (> 40)"]),
       L("Hipervolémica con anasarca (este caso)", "IC · CIRROSIS · NEFRÓTICO", ["Na urinario < 20 mmol/L", "Restringir agua y sodio; diuréticos"], path=True)], path=True))
 
-# 32 · RM-CAR-004 · MAPA DE SIGNOS: insuficiencia cardiaca derecha
-S("mapa_signos", "RM-CAR-004", "Ingurgitación yugular, hepatomegalia y ascitis son los hallazgos más específicos de insuficiencia cardiaca derecha",
+# 32 · RM-CAR-004 · CHECKLIST: insuficiencia cardiaca derecha
+S("checklist", "RM-CAR-004", "Ingurgitación yugular, hepatomegalia y ascitis son los hallazgos más específicos de insuficiencia cardiaca derecha",
   "Insuficiencia cardiaca · falla derecha e izquierda",
   ("Falla derecha", ["Congestión venosa sistémica: yugulares, hígado, ascitis, edema.", "La izquierda causa congestión pulmonar: disnea y ortopnea."]),
   ("Pregunta de teoría", ["¿Qué hallazgos indican insuficiencia derecha?"]),
@@ -324,15 +324,13 @@ S("mapa_signos", "RM-CAR-004", "Ingurgitación yugular, hepatomegalia y ascitis 
   "ESC, insuficiencia cardiaca (actualización 2023); " + BRAUN,
   op=("¿Más específicos?", ["Sí: congestión venosa sistémica", "No: son de la falla izquierda", "No: son signos de arritmia o isquemia", "No: ortopnea y hemoptisis son pulmonares", "No: nicturia y ictericia son inespecíficas"],
       {0: "Yugular, hepatomegalia y ascitis", 1: "DPN, palpitaciones y tos", 2: "Síncope, angina y arritmia", 3: "Edema, hemoptisis y ortopnea", 4: "Nicturia, ictericia y hepatomegalia"}),
-  d=dict(rotulo="Falla cardiaca derecha: signos en el cuerpo", PH=470, tag="CONGESTIÓN",
-         ilu_titulo="Congestión venosa sistémica",
-         ilu=lambda s, x, y: I.cuerpo(s, x + 20, y + 30, {"torax": "#fde68a", "abdomen": "#fecaca"}, sc=0.62),
-         ilu_pie="Cuello, hígado y abdomen congestionados.",
-         signos=[dict(tit="Ingurgitación yugular", lines=["Presión venosa central alta."]),
-                 dict(tit="Reflujo hepatoyugular", lines=["Al presionar el hígado, sube la yugular."]),
-                 dict(tit="Hepatomegalia dolorosa", lines=["Hígado de estasis."]),
-                 dict(tit="Ascitis y edema de miembros", lines=["Presión venosa elevada."]),
-                 dict(tit="Insuficiencia cardiaca derecha", on=True, lines=["Más específica que la disnea (izquierda)."])]))
+  d=dict(rotulo="Signos de congestión venosa sistémica (falla derecha)", tag="MÁS ESPECÍFICO",
+         pasos=[("Ingurgitación yugular", "Presión venosa central alta; se ve con el paciente a 45°.", True),
+                ("Reflujo hepatoyugular", "Al presionar el hígado 10 s, la yugular sube y se mantiene.", False),
+                ("Hepatomegalia dolorosa", "Hígado de estasis; en la falla crónica, ascitis.", False),
+                ("Ascitis, derrame pleural y edema de miembros", "Por presión venosa sistémica elevada.", False)],
+         no_titulo="Son de la falla izquierda", no_hacer=[("Disnea paroxística nocturna", "Congestión pulmonar"), ("Ortopnea y estertores", "Congestión pulmonar"), ("Tos y hemoptisis", "Congestión pulmonar")],
+         veredicto=("Yugular, hepatomegalia y ascitis = falla derecha", "Más específicos que la disnea, que es de la falla izquierda.")))
 
 # 33 · RM-CAR-005 · DECISIÓN: soplos diastólicos
 S("decision", "RM-CAR-005", "El soplo de Austin Flint se ausculta en la insuficiencia aórtica",
@@ -371,8 +369,8 @@ S("lectura", "RM-CAR-006", "El ventrículo derecho pequeño por colapso de las c
          img_pie="Derrame pericárdico",
          veredicto=("Colapso de cavidades derechas = taponamiento", "Drenar: pericardiocentesis o ventana pericárdica.")))
 
-# 35 · RM-PED-001 · CRITERIOS: IC del lactante
-S("criterios", "RM-PED-001", "En el lactante, la insuficiencia cardiaca se sospecha por disnea y sudoración profusa al lactar",
+# 35 · RM-PED-001 · TARJETAS: IC del lactante
+S("tarjetas", "RM-PED-001", "En el lactante, la insuficiencia cardiaca se sospecha por disnea y sudoración profusa al lactar",
   "Cardiología pediátrica · insuficiencia cardiaca",
   ("Insuficiencia cardiaca en el lactante", ["La alimentación es el esfuerzo que desencadena los síntomas.", "La causa más frecuente es una cardiopatía congénita con cortocircuito."]),
   ("Pregunta de teoría", ["¿Qué sospecha de IC en un lactante pequeño?"]),
@@ -382,11 +380,10 @@ S("criterios", "RM-PED-001", "En el lactante, la insuficiencia cardiaca se sospe
   NELSON + "; AHA/ACC, cardiopatías congénitas del adulto (2018).",
   op=("¿Sospecha?", ["Sí: síntoma típico al lactar", "No: hallazgos tardíos", "No: orientan a enfermedad pulmonar", "No: inespecíficos", "No: indican distrés respiratorio"],
       {0: "Disnea y sudoración al lactar", 1: "Hepatomegalia y distensión", 2: "Crepitantes y polipnea", 3: "Irritabilidad y cardiomegalia", 4: "Politirajes y aleteo nasal"}),
-  d=dict(rotulo="Datos de insuficiencia cardiaca en el lactante", lista_titulo="Lo que se busca",
-         items=[("Disnea y sudoración al lactar", True, "Síntoma más típico"), ("Tomas cortas y repetidas", True, "Se cansa"), ("Taquipnea y taquicardia", True, "En reposo"),
-                ("Hepatomegalia", True, "Signo tardío"), ("Mala ganancia de peso", True, "Gasto energético alto")],
-         umbral="Varios datos = sospechar cardiopatía congénita", veredicto="Disnea y sudoración al lactar son lo más frecuente.",
-         img=D(lambda s, x, y: I.bebe(s, x + 50, y, {"torax": "#fecaca"}, sc=0.5), 190, 260), img_titulo="Lactante con disnea", img_pie="Sudoración y tiraje al lactar.", conteo="5 de 5"))
+  d=dict(rotulo="Cómo se presenta la insuficiencia cardiaca en el lactante", ans=0,
+         cards=[dict(titulo="Insuficiencia cardiaca (cardiopatía con cortocircuito)", datos=[("Al lactar", "Disnea y sudor", True), ("Tomas", "Cortas y repetidas", True), ("Peso", "Mala ganancia", True)], pie="Aparece a las 4-8 semanas, cuando baja la resistencia pulmonar."),
+                dict(titulo="Enfermedad respiratoria (bronquiolitis)", datos=[("Al lactar", "Tos y rechazo", False), ("Cuadro", "Fiebre y coriza", False), ("Hígado", "Normal", False)], pie="Politirajes y sibilancias; no hay hepatomegalia."),
+                dict(titulo="Signos tardíos de falla cardiaca", datos=[("Hígado", "Hepatomegalia", False), ("Edema", "Raro", False), ("Ortopnea", "Rara", False)], pie="Orientan, pero no son lo primero que se nota.")]))
 
 # 36 · RM-CAR-007 · GRÁFICA: biomarcadores del infarto
 S("grafica", "RM-CAR-007", "La troponina I es el mejor marcador cardiaco para confirmar un infarto de miocardio",

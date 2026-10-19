@@ -59,8 +59,8 @@ S("fases", "RM-CAR-012", "Síncope de esfuerzo, soplo sistólico eyectivo e HVI 
                 ("Sintomática (este caso)", "Aparece el síncope", "REEMPLAZO", ["Angina, síncope o disnea", "TAVI o cirugía"]),
                 ("Falla cardiaca", "Sin tratamiento", "2-3 AÑOS", ["Supervivencia muy corta", "Evitar esfuerzos y vasodilatadores"])]))
 
-# 42 · RM-NEU-001 · LECTURA: língula
-S("lectura", "RM-NEU-001", "La língula forma parte del lóbulo superior izquierdo",
+# 42 · RM-NEU-001 · TARJETAS: língula
+S("tarjetas", "RM-NEU-001", "La língula forma parte del lóbulo superior izquierdo",
   "Neumología · anatomía lobar",
   ("Língula", ["Porción del lóbulo superior izquierdo, equivalente al lóbulo medio derecho.", "Segmentos lingulares superior e inferior (4 y 5)."]),
   ("Paciente con tumoración", ["Radiografía de tórax con una masa en la língula.", "¿En qué lóbulo está?"]),
@@ -70,14 +70,11 @@ S("lectura", "RM-NEU-001", "La língula forma parte del lóbulo superior izquier
   MOORE + "; Fraser y Paré Diagnosis of Diseases of the Chest 5.ª ed.",
   op=("¿Lóbulo?", ["No: no tiene língula", "No: no tiene língula", "Sí: la língula es su parte inferior-anterior", "No: ese es el equivalente derecho", "No: no incluye la língula"],
       {0: "Superior derecho", 1: "Inferior derecho", 2: "Superior izquierdo", 3: "Medio derecho", 4: "Inferior izquierdo"}),
-  d=dict(rotulo="Ubica la língula", img_titulo="Pulmones de frente (esquema)",
-         img=PX("dib_lobulos_pulmon.jpg", 360, credito=PROPIO, fondo="#ffffff"), pines=[(0.67, 0.67), (0.35, 0.6)],
-         pasos=[("Língula: lóbulo superior izquierdo", "Junto al borde izquierdo del corazón.", True),
-                ("Su equivalente: lóbulo medio derecho", "Solo el derecho tiene lóbulo medio.", False),
-                ("Izquierdo: 2 lóbulos", "Deja espacio al corazón (escotadura cardiaca).", False),
-                ("Signo de la silueta", "La língula borra el borde izquierdo del corazón.", False)],
-         img_pie="Derecha del paciente = izquierda del dibujo.",
-         veredicto=("La língula está en el pulmón izquierdo", "Es parte de su lóbulo superior.")))
+  d=dict(rotulo="A qué lóbulo pertenece la língula", ans=0,
+         cards=[dict(titulo="Lóbulo superior izquierdo", datos=[("Pulmón", "Izquierdo", True), ("Contiene", "Língula (seg. 4 y 5)", True), ("Signo", "Borra borde cardiaco izq.", True)], pie="Este caso: la língula es su porción anterior-inferior."),
+                dict(titulo="Lóbulo medio derecho", datos=[("Pulmón", "Derecho", False), ("Contiene", "Segmentos 4 y 5", False), ("Signo", "Borra borde cardiaco der.", False)], pie="Es el equivalente de la língula; no la contiene."),
+                dict(titulo="Lóbulo inferior izquierdo", datos=[("Pulmón", "Izquierdo", False), ("Contiene", "Segmentos basales", False), ("Signo", "Borra el diafragma", False)], pie="No incluye la língula."),
+                dict(titulo="Lóbulos superior e inferior derechos", datos=[("Pulmón", "Derecho", False), ("Língula", "No tienen", False), ("Escotadura", "No hay", False)], pie="El derecho no tiene língula.")]))
 
 # 43 · RM-CIR-012 · ALARMA + imagen: trauma de aorta
 S("alarma", "RM-CIR-012", "El ensanchamiento del mediastino sugiere lesión de grandes vasos tras un trauma torácico",
