@@ -52,8 +52,8 @@ S("ecg_mapa", "RM-CAR-023", "Infarto lateral: alteraciones en DI y aVL (lateral 
          territorios=[("Septal", ["V1", "V2"], "Descendente anterior"), ("Anterior", ["V3", "V4"], "Descendente anterior"),
                       ("Lateral", ["I", "aVL", "V5", "V6"], "Circunfleja o diagonal"), ("Inferior", ["II", "III", "aVF"], "Coronaria derecha")],
          caso=["Lateral"], territorio_txt="DI y aVL = lateral alto; V5-V6 = lateral bajo: circunfleja o diagonal de la descendente anterior.",
-         img=B("Un ECG real", PX("ecg_iam_alto_a.jpg", 330, credito="Saronni et al. · Cureus 2026 · CC BY 4.0", fondo="#ffffff"),
-               [("STE (flechas rojas)", "Elevación del ST en DI y aVL (lateral alto)."), ("Flecha azul", "Descenso recíproco del ST en DIII."), ("Arteria", "Circunfleja o diagonal; aquí, descendente anterior proximal."), ("Extra", "Si hay duda, V7-V9.")],
+         img=B("Un ECG real", PX("ecg_iam_alto_a.jpg", 330, credito="Saronni et al. · Cureus 2026 · CC BY 4.0 · rótulos en español", fondo="#ffffff"),
+               [("ST ↑ (flechas rojas)", "Elevación del ST en DI y aVL (lateral alto)."), ("Flecha azul", "Descenso recíproco del ST en DIII."), ("Arteria", "Circunfleja o diagonal; aquí, descendente anterior proximal."), ("Extra", "Si hay duda, V7-V9.")],
                pie="Imagen referencial de un infarto lateral alto (ST elevado en DI y aVL)", rotulo="Así se ve en el ECG"),
          veredicto=("Lateral = DI y aVL (y V5-V6)", "Espejo en las derivaciones inferiores.")))
 

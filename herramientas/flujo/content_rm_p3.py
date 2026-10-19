@@ -307,7 +307,7 @@ S("piramide", "RM-CIR-075", "Las hemorroides grado IV, irreductibles, se tratan 
    "Hemorroidectomía (Milligan-Morgan abierta o Ferguson cerrada): menor recidiva, más dolor. Grapada o desarterialización con Doppler: menos dolor, más recidiva del prolapso.",
    "Complicaciones: sangrado, retención urinaria, estenosis anal e incontinencia.",
    "Esfinterotomía lateral interna es para la fisura anal crónica, no para hemorroides."],
-  "ASCRS, hemorroides (2018); " + SAB,
+  "ASCRS, hemorroides (2024); " + SAB,
   op=("¿Tratamiento?", ["Sí: menor recidiva en grado IV", "No: trata la fisura anal crónica", "No: repara el esfínter, no la hemorroide", "No: sirve en grados I-II", "No: es medida de apoyo en todos los grados"],
       {}),
   d=dict(rotulo="Qué se ofrece según el grado de Goligher", caso=0, ancho=380, tag="ESTE CASO",

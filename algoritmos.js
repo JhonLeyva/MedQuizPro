@@ -11411,9 +11411,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía"
   },
   "RM-CIR-124": {
-    titulo: "Colelitiasis con ictericia y dolor: alto riesgo de coledocolitiasis, CPRE terapéutica",
+    titulo: "Colelitiasis con ictericia y dolor: sospecha de coledocolitiasis, CPRE terapéutica",
     imagen: "flujogramas/rm-cir-124-via-biliar-riesgo-de-coledocolitiasis.svg",
-    alt: "Flujograma: Colelitiasis con ictericia y dolor: alto riesgo de coledocolitiasis, CPRE terapéutica"
+    alt: "Flujograma: Colelitiasis con ictericia y dolor: sospecha de coledocolitiasis, CPRE terapéutica"
   },
   "RM-CIR-099": {
     titulo: "En el síndrome compartimental el edema muscular eleva la presión del compartimento",
