@@ -12,6 +12,8 @@
  *   AI_PROVIDER   gemini | openai | anthropic       (por defecto: gemini)
  *   AI_MODEL      nombre del modelo                 (opcional; en Gemini se autodetecta)
  *   AI_BASE_URL   solo para APIs compatibles con OpenAI (Groq, DeepSeek, OpenRouter…)
+ *   AI_IPS_LIBRES IPs (separadas por comas) que usan el tutor de IA sin cuenta ni plan; el resto necesita cuenta y plan activo
+ *   AI_CLAVE_DUENO clave (16+ caracteres) para activar el acceso de dueño en un navegador: api.php?accion=dueno&clave=…
  *   AI_DEBUG      1 para ver el detalle técnico del error en la respuesta JSON
  *
  * Nada de esto llega al navegador: ante cualquier fallo el usuario recibe siempre
@@ -129,6 +131,65 @@ function ajuste(string $env, string $clave, string $porDefecto = ''): string
     }
     $valor = trim((string) ($CONFIG[$clave] ?? ''));
     return $valor !== '' ? $valor : $porDefecto;
+}
+
+/**
+ * ¿Tiene este usuario un plan activo (o es el dueño)? Lee la base de cuentas de cuenta.php en modo
+ * de solo lectura. Si no hay base, o falla algo, devuelve false: ante la duda, no se concede acceso.
+ */
+function usuarioConPlan(int $uid): bool
+{
+    $archivo = __DIR__ . '/cuenta_datos/mqp.sqlite';
+    if ($uid <= 0 || !is_file($archivo)) {
+        return false;
+    }
+    try {
+        $pdo = new PDO('sqlite:' . $archivo, null, null, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+        $st = $pdo->prepare('SELECT 1 FROM suscripciones WHERE usuario = ? AND hasta > ? LIMIT 1');
+        $st->execute([$uid, time()]);
+        if ($st->fetchColumn() !== false) {
+            return true;
+        }
+    } catch (Throwable $e) {
+        return false;
+    }
+    try {
+        $st = $pdo->prepare('SELECT dueno FROM usuarios WHERE id = ?');
+        $st->execute([$uid]);
+        return (int) $st->fetchColumn() === 1;
+    } catch (Throwable $e) {
+        return false;
+    }
+}
+
+/**
+ * Acceso del dueño desde cualquier equipo, sin cuenta ni IP fija: se activa UNA vez por navegador abriendo
+ * api.php?accion=dueno&clave=TU-CLAVE. La clave va en AI_CLAVE_DUENO o clave_dueno de config.php (mínimo 16 caracteres;
+ * más corta, queda desactivado). En el navegador solo se guarda una huella de la clave, nunca la clave.
+ */
+function claveDueno(): string
+{
+    $c = ajuste('AI_CLAVE_DUENO', 'clave_dueno');
+    return strlen($c) >= 16 ? $c : '';
+}
+
+function huellaDueno(string $clave): string
+{
+    return hash_hmac('sha256', 'mqp-dueno', $clave);
+}
+
+function cookieDuenoValida(): bool
+{
+    $clave = claveDueno();
+    $valor = (string) ($_COOKIE['mqp_dueno'] ?? '');
+    return $clave !== '' && $valor !== '' && hash_equals(huellaDueno($clave), $valor);
+}
+
+/** IPs del dueño (AI_IPS_LIBRES o ips_libres en config.php, separadas por comas): usan la IA sin cuenta ni plan. */
+function ipEsLibre(string $ip): bool
+{
+    $lista = array_filter(array_map('trim', explode(',', ajuste('AI_IPS_LIBRES', 'ips_libres'))));
+    return $ip !== '' && in_array($ip, $lista, true);
 }
 
 function esVerdadero(string $valor): bool
@@ -259,6 +320,16 @@ if ($accion === 'comparacion') {
     responder(200, ['comparacion' => $cmp]);
 }
 
+if ($accion === 'dueno') {
+    limitar('duenoclave:' . (string) ($_SERVER['REMOTE_ADDR'] ?? 'desconocida'), 5, 30);   // frena los intentos de adivinar la clave
+    $clave = claveDueno();
+    if ($clave === '' || !hash_equals($clave, (string) ($_GET['clave'] ?? ''))) {
+        responder(403, ['error' => 'Acceso no disponible.']);
+    }
+    $https = (($_SERVER['HTTPS'] ?? '') !== '' && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https');
+    setcookie('mqp_dueno', huellaDueno($clave), ['expires' => time() + 31536000, 'path' => '/', 'secure' => $https, 'httponly' => true, 'samesite' => 'Lax']);
+    responder(200, ['ok' => true, 'mensaje' => 'Listo: este navegador ya tiene acceso de dueño al tutor de IA.']);
+}
 if ($accion === 'diagnostico') {
     diagnostico($proveedor, $apiKey, $modelo, $baseUrl, $tokenDiagnostico);
 }
@@ -387,11 +458,19 @@ if (mb_strlen($mensaje) > MAX_CARACTERES) {
 $contexto = null;
 if (isset($entrada['contexto'])) {
     if (!is_array($entrada['contexto'])) { responder(400, ['error' => 'Contexto no válido.']); }
-    session_name('mqp_sid');
-    @session_start(['read_and_close' => true]);
-    $uidSesion = (int) ($_SESSION['uid'] ?? 0);
-    if ($uidSesion <= 0) {
-        responder(401, ['error' => 'Inicia sesión para preguntarle a la IA sobre esta pregunta.']);
+    $esLibre = ipEsLibre($ip) || cookieDuenoValida();
+    if ($esLibre) {
+        $uidSesion = 0;                       // IP del dueño: sin cuenta ni plan (con su propio tope de uso)
+    } else {
+        session_name('mqp_sid');
+        @session_start(['read_and_close' => true]);
+        $uidSesion = (int) ($_SESSION['uid'] ?? 0);
+        if ($uidSesion <= 0) {
+            responder(401, ['error' => 'Inicia sesión para preguntarle a la IA sobre esta pregunta.']);
+        }
+        if (!usuarioConPlan($uidSesion)) {
+            responder(402, ['error' => 'El tutor de IA es parte de los planes de pago. Activa un plan para usarlo.']);
+        }
     }
     $limpiar = static function ($v, int $n): string {
         $t = preg_replace('/[\x00-\x08\x0B\x0C\x0E-\x1F]/u', '', (string) $v) ?? '';
@@ -413,9 +492,10 @@ if (isset($entrada['contexto'])) {
     }
     $limiteContexto = max(1, (int) ajuste('AI_LIMITE_CONTEXTO_DIA', 'limite_contexto_dia', '40'));
     $recuperados = [];            // fuentes oficiales recuperadas del índice local (vacío si no hay guías cargadas o nada es relevante)
-    limitar('usuario:' . $uidSesion, $limiteMinuto, $limiteContexto);   // tope por usuario (además del de la IP)
+    $idTope = $esLibre ? 'dueno:' . $ip : 'usuario:' . $uidSesion;
+    limitar($idTope, $limiteMinuto, $limiteContexto);   // tope por usuario (además del de la IP)
     $presupuestoDia = max(5000, (int) ajuste('AI_PRESUPUESTO_CARACTERES_DIA', 'presupuesto_caracteres_dia', '150000'));
-    $claveUsuario = 'usuario:' . $uidSesion;
+    $claveUsuario = $idTope;
 }
 
 /** Historial normalizado: [['rol' => 'usuario'|'tutor', 'texto' => '...'], …] */
@@ -870,6 +950,8 @@ function diagnostico(string $proveedor, string $apiKey, string $modelo, string $
         'llave'        => $apiKey !== '' ? 'configurada (' . strlen($apiKey) . ' caracteres)' : 'FALTA',
         'modelo'       => $modelo !== '' ? $modelo : '(automático)',
         'base_url'     => $baseUrl !== '' ? $baseUrl : '(por defecto)',
+        'ip_que_ve_el_servidor' => (string) ($_SERVER['REMOTE_ADDR'] ?? ''),
+        'ips_libres'   => count(array_filter(array_map('trim', explode(',', ajuste('AI_IPS_LIBRES', 'ips_libres'))))),
     ];
 
     if ($proveedor === 'gemini' && $apiKey !== '') {
