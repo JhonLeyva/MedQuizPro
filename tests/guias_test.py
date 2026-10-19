@@ -53,7 +53,34 @@ try:
     json.dump(falso, open(tmp + "/falso.json", "w"))
     v3 = subprocess.run([sys.executable, RAIZ + "/tools/verificar_indice.py", "--indice", tmp + "/falso.json", "--pdfs", tmp + "/pdf"], capture_output=True, text=True)
     ok(v3.returncode == 1, "verificación negativa: un texto inventado se detecta")
-    p = subprocess.run(["php", RAIZ + "/tests/guias_test.php", tmp + "/indice.json"], capture_output=True, text=True)
+    # modo espejo: comparación ficticia + verificador
+    def fr(doc, cita):
+        return next(f["id"] for f in ix["fragmentos"] if f["doc"] == doc and " ".join(cita.split()).lower() in " ".join(f["texto"].split()).lower())
+    frs = {"nac-test": fr("nac-test", "tratamiento inicial de la sindrome zeta"), "int-test": fr("int-test", "supportive care and fluids")}
+    frs_p2 = fr("nac-test", "grave requiere hospitalizacion")
+    comp = [{"id": "zeta", "titulo": "Síndrome zeta", "temas": ["sindrome zeta"], "preguntas": ["Q-1"],
+             "nacional": {"frag": frs["nac-test"], "resumen": "Norma de prueba"}, "internacional": {"frag": frs["int-test"], "resumen": "Guideline de prueba"},
+             "filas": [{"criterio": "Tratamiento inicial", "tipo": "equivalente", "nacional": {"texto": "Reposo e hidratación", "frag": frs["nac-test"], "cita_literal": "tratamiento inicial de la sindrome zeta es reposo"}, "internacional": {"texto": "Cuidados de soporte y líquidos", "frag": frs["int-test"], "cita_literal": "supportive care and fluids"}},
+                       {"criterio": "Hospitalización", "tipo": "discrepancia", "nacional": {"texto": "Si hay hipotensión", "frag": frs_p2, "cita_literal": "grave requiere hospitalizacion si hay hipotension"}, "internacional": None}]},
+            {"id": "solo-nac", "titulo": "Solo nacional", "temas": ["otro tema"], "nacional": {"frag": frs["nac-test"]}, "internacional": None, "filas": []}]
+    json.dump(comp, open(tmp + "/comp.json", "w"))
+    c1 = subprocess.run([sys.executable, RAIZ + "/tools/verificar_comparaciones.py", "--comparaciones", tmp + "/comp.json", "--indice", tmp + "/indice.json"], capture_output=True, text=True)
+    ok(c1.returncode == 1 and "una discrepancia necesita las dos fuentes" in c1.stdout, "verificador: una discrepancia sin las dos fuentes es inválida")
+    comp[0]["filas"][1]["internacional"] = {"texto": "Si hay hipotensión", "frag": frs["int-test"], "cita_literal": "hospitalise if hypotension"}
+    json.dump(comp, open(tmp + "/comp.json", "w"))
+    c2 = subprocess.run([sys.executable, RAIZ + "/tools/verificar_comparaciones.py", "--comparaciones", tmp + "/comp.json", "--indice", tmp + "/indice.json"], capture_output=True, text=True)
+    ok(c2.returncode == 0, "verificador: comparación válida con citas literales reales (" + c2.stdout.strip() + ")")
+    comp[0]["filas"][0]["nacional"]["cita_literal"] = "esta frase no existe en la guía original"
+    json.dump(comp, open(tmp + "/comp_mala.json", "w"))
+    c3 = subprocess.run([sys.executable, RAIZ + "/tools/verificar_comparaciones.py", "--comparaciones", tmp + "/comp_mala.json", "--indice", tmp + "/indice.json"], capture_output=True, text=True)
+    ok(c3.returncode == 1 and "cita_literal no aparece" in c3.stdout, "verificador: cita literal inventada se detecta")
+    comp[0]["filas"][0]["nacional"]["cita_literal"] = "tratamiento inicial de la sindrome zeta es reposo"
+    comp[0]["filas"][0]["nacional"]["frag"] = frs["int-test"]
+    json.dump(comp, open(tmp + "/comp_mezcla.json", "w"))
+    c4 = subprocess.run([sys.executable, RAIZ + "/tools/verificar_comparaciones.py", "--comparaciones", tmp + "/comp_mezcla.json", "--indice", tmp + "/indice.json"], capture_output=True, text=True)
+    ok(c4.returncode == 1 and "no nacional" in c4.stdout, "verificador: no se mezcla una guía internacional en la columna nacional")
+    comp[0]["filas"][0]["nacional"]["frag"] = frs["nac-test"]; json.dump(comp, open(tmp + "/comp.json", "w"))
+    p = subprocess.run(["php", RAIZ + "/tests/guias_test.php", tmp + "/indice.json", tmp + "/comp.json"], capture_output=True, text=True)
     print(p.stdout.strip()); ok(p.returncode == 0, "pruebas PHP de búsqueda y citas")
 finally:
     shutil.rmtree(tmp, ignore_errors=True)

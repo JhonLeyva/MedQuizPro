@@ -81,6 +81,7 @@
       "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z\"/></svg>",
       "            <span class=\"ia-lbl\">Preguntar a la IA</span>",
       "          </button>",
+      "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svEsp\" hidden>MINSA Perú vs. guía internacional</button>",
       "        </div>",
       "      </div>",
       "      <div class=\"quiz__foot sim-view__nav\">",
@@ -143,7 +144,7 @@
       "    </button>",
       "  </div>",
       "  <div class=\"algo-modal__body\" id=\"algoBody\"></div>",
-      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden><span class=\"ia-lbl\">Preguntar a la IA</span></button></div>",
+      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden><span class=\"ia-lbl\">Preguntar a la IA</span></button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoEsp\" hidden>MINSA Perú vs. guía internacional</button></div>",
       "</dialog>"
     ].join("\n");
     var CHAT = [
@@ -1538,6 +1539,8 @@
       flash: document.getElementById("svFlash"),
       flashModal: document.getElementById("algoFlash"),
       ia: document.getElementById("svIA"),
+      esp: document.getElementById("svEsp"),
+      espModal: document.getElementById("algoEsp"),
       iaModal: document.getElementById("algoIA"),
       modal: document.getElementById("algoModal"),
       modalBody: document.getElementById("algoBody"),
@@ -2030,6 +2033,18 @@
       if (el.ia) el.ia.hidden = !vIA;
       if (el.iaModal) el.iaModal.hidden = !vIA;
     }
+    /* modo espejo: el botón solo aparece si hay una comparación validada para ESTA pregunta */
+    var espPregunta = null;
+    function pintarEsp() {
+      if (!el.esp) return;
+      var q = estado && estado.respondida && window.MQP && MQP.espejo ? estado.pregunta : null;
+      el.esp.hidden = true; if (el.espModal) el.espModal.hidden = true; espPregunta = q;
+      if (!q) return;
+      MQP.espejo.disponible(q).then(function (si) { if (espPregunta !== q || !si) return; el.esp.hidden = false; if (el.espModal) el.espModal.hidden = false; });
+    }
+    function abrirEsp(origen) { if (!espPregunta || !window.MQP || !MQP.espejo) return; if (el.modal && el.modal.open) cerrarAlgoritmo(); MQP.espejo.abrir(espPregunta, origen); }
+    if (el.esp) el.esp.addEventListener("click", function () { abrirEsp(el.esp); });
+    if (el.espModal) el.espModal.addEventListener("click", function () { abrirEsp(el.algo); });
     function preguntarIA(origen) {
       if (!estado || !estado.respondida || !window.MQP || !MQP.iaguia) return;
       if (el.modal && el.modal.open) cerrarAlgoritmo();
@@ -2053,7 +2068,7 @@
       decorarOpciones();
       pintarRecall();
       pintarBandera();
-      pintarFlash();
+      pintarFlash(); pintarEsp();
       if (estado.respondida || estado.elegida) congelarRitmo(); else iniciarRitmo();
     });
     /* modo simulacro: elegir no corrige, pero el ritmo de la pregunta se detiene */
@@ -2070,7 +2085,7 @@
       var lista = botones();
       for (var k = 0; k < lista.length; k++) lista[k].classList.remove("is-preselected");
       bloquearTachado(true);
-      pintarFlash();
+      pintarFlash(); pintarEsp();
       congelarRitmo();
     });
     vista.addEventListener("mqp:cerrado", function () {

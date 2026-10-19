@@ -98,3 +98,54 @@ function guias_validar_citas(string $respuesta, int $entregados): array {
     }, $respuesta);
     return [trim((string) preg_replace('/[ \t]{2,}/', ' ', (string) $limpio)), array_keys($citadas), array_keys($invalidas)];
 }
+
+/* ====================== MODO ESPEJO: MINSA Perú vs. guía internacional ====================== */
+
+const GUIAS_COMPARACIONES = __DIR__ . '/guias/comparaciones.json';
+const COMPARACION_TIPOS = ['discrepancia', 'equivalente', 'poblacion', 'actualizacion', 'recursos'];
+
+function guias_comparaciones(?string $archivo = null): array {
+    $archivo = $archivo ?? ((string) getenv('MQP_GUIAS_COMPARACIONES') ?: GUIAS_COMPARACIONES);   // la variable solo la usan las pruebas
+    if (!is_readable($archivo)) return [];
+    $j = json_decode((string) file_get_contents($archivo), true);
+    return is_array($j) ? array_values(array_filter($j, 'is_array')) : [];
+}
+
+/** Ficha de un fragmento por su id (para citar cada celda de la comparación), o null si no existe. */
+function guias_fragmento_cita(string $id, ?string $archivoIndice = null): ?array {
+    $ix = guias_indice($archivoIndice);
+    foreach ($ix['fragmentos'] as $f) if (($f['id'] ?? '') === $id && isset($ix['docs'][(string) $f['doc']])) return guias_cita(['fragmento' => $f, 'doc' => $ix['docs'][(string) $f['doc']]], 0);
+    return null;
+}
+
+/**
+ * Comparación aplicable a una pregunta: por id de pregunta o por tema. Cada celda se enriquece con su cita real (o queda sin cita si el
+ * fragmento no existe en el índice: nunca se muestra como respaldada una celda sin fuente). Cada lado ausente queda null → «Fuente no disponible».
+ */
+function guias_comparacion_para(string $preguntaId, string $tema, ?array $comps = null, ?string $archivoIndice = null): ?array {
+    $comps = $comps ?? guias_comparaciones();
+    $t = guias_normalizar($tema);
+    foreach ($comps as $c) {
+        $porId = in_array($preguntaId, (array) ($c['preguntas'] ?? []), true);
+        $porTema = $t !== '' && in_array($t, array_map('guias_normalizar', (array) ($c['temas'] ?? [])), true);
+        if (!$porId && !$porTema) continue;
+        $lado = function ($s) use ($archivoIndice) {
+            if (!is_array($s) || empty($s['frag'])) return null;
+            $cita = guias_fragmento_cita((string) $s['frag'], $archivoIndice);
+            return $cita ? ['resumen' => (string) ($s['resumen'] ?? ''), 'cita' => $cita] : null;      // sin fragmento real, sin lado
+        };
+        $filas = [];
+        foreach ((array) ($c['filas'] ?? []) as $f) {
+            if (!is_array($f)) continue;
+            $celda = function ($x) use ($archivoIndice) {
+                if (!is_array($x) || trim((string) ($x['texto'] ?? '')) === '') return null;
+                $cita = !empty($x['frag']) ? guias_fragmento_cita((string) $x['frag'], $archivoIndice) : null;
+                return ['texto' => (string) $x['texto'], 'cita' => $cita];
+            };
+            $tipo = in_array($f['tipo'] ?? '', COMPARACION_TIPOS, true) ? $f['tipo'] : 'equivalente';
+            $filas[] = ['criterio' => (string) ($f['criterio'] ?? ''), 'tipo' => $tipo, 'nota' => (string) ($f['nota'] ?? ''), 'nacional' => $celda($f['nacional'] ?? null), 'internacional' => $celda($f['internacional'] ?? null)];
+        }
+        return ['id' => (string) ($c['id'] ?? ''), 'titulo' => (string) ($c['titulo'] ?? ''), 'nacional' => $lado($c['nacional'] ?? null), 'internacional' => $lado($c['internacional'] ?? null), 'filas' => $filas];
+    }
+    return null;
+}

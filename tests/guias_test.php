@@ -25,4 +25,16 @@ ok(str_contains(guias_normalizar($ix ? file_get_contents($ix) : ''), guias_norma
 ok($ci === [2] && $inv === [7, 0] && !str_contains($t, 'G7') && !str_contains($t, 'G0') && str_contains($t, '[G2]'), 'cita inexistente se elimina e informa; la válida se conserva');
 [$t2, $c2, $i2] = guias_validar_citas('Sin citas aquí.', 3); ok($c2 === [] && $i2 === [] && $t2 === 'Sin citas aquí.', 'sin citas no cambia nada');
 ok(guias_buscar('zeta', 5, [], '/no/existe.json') === [], 'sin índice → vacío');
+// modo espejo
+$cp = $argv[2] ?? ''; $comps = guias_comparaciones($cp);
+ok(count($comps) === 2, 'lee las comparaciones');
+$c = guias_comparacion_para('Q-1', '', $comps, $ix);
+ok($c && $c['id'] === 'zeta' && $c['nacional']['cita']['pagina'] >= 1 && $c['internacional']['cita']['tipo'] === 'internacional', 'se halla por id de pregunta, con las dos fuentes citadas');
+ok(guias_comparacion_para('Q-999', 'Síndrome ZETA', $comps, $ix)['id'] === 'zeta', 'se halla por tema (sin tildes ni mayúsculas)');
+ok($c['filas'][1]['tipo'] === 'discrepancia' && $c['filas'][1]['internacional']['cita']['pagina'] >= 1, 'cada celda lleva su cita real');
+$solo = guias_comparacion_para('', 'otro tema', $comps, $ix);
+ok($solo && $solo['nacional'] !== null && $solo['internacional'] === null, 'lado sin fuente → null («Fuente no disponible»), sin fabricar nada');
+ok(guias_comparacion_para('Q-5', 'tema que no existe', $comps, $ix) === null, 'sin comparación validada → null');
+$falso = [['id' => 'x', 'preguntas' => ['Q-9'], 'nacional' => ['frag' => 'no-existe'], 'internacional' => null, 'filas' => [['criterio' => 'c', 'tipo' => 'discrepancia', 'nacional' => ['texto' => 'dato', 'frag' => 'no-existe'], 'internacional' => null]]]];
+$cf = guias_comparacion_para('Q-9', '', $falso, $ix); ok($cf['nacional'] === null && $cf['filas'][0]['nacional']['cita'] === null, 'un fragmento inexistente nunca aparece como respaldado');
 echo $f ? "$f de $n pruebas PHP fallaron\n" : "OK: $n pruebas PHP pasaron\n"; exit($f ? 1 : 0);

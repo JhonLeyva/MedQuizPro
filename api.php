@@ -253,6 +253,12 @@ if ($accion === 'guias_estado') {
         'lista' => array_values(array_map(fn($d) => ['titulo' => $d['titulo'] ?? '', 'institucion' => $d['institucion'] ?? '', 'anio' => $d['anio'] ?? null, 'tipo' => $d['tipo'] ?? '', 'estado' => $d['estado'] ?? ''], $gi['docs']))]);
 }
 
+/* Modo espejo: comparación MINSA vs. internacional aplicable a una pregunta (null si no hay una validada) */
+if ($accion === 'comparacion') {
+    $cmp = guias_comparacion_para(mb_substr((string) ($_GET['pregunta'] ?? ''), 0, 40), mb_substr((string) ($_GET['tema'] ?? ''), 0, 120));
+    responder(200, ['comparacion' => $cmp]);
+}
+
 if ($accion === 'diagnostico') {
     diagnostico($proveedor, $apiKey, $modelo, $baseUrl, $tokenDiagnostico);
 }
