@@ -73,6 +73,10 @@
       "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"9\" y=\"2.5\" width=\"6\" height=\"5\" rx=\"1\"/><rect x=\"3\" y=\"16.5\" width=\"6\" height=\"5\" rx=\"1\"/><rect x=\"15\" y=\"16.5\" width=\"6\" height=\"5\" rx=\"1\"/><path d=\"M12 7.5v4M6 16.5V14h12v2.5M12 11.5V14\"/></svg>",
       "            Ver algoritmo / Flujograma",
       "          </button>",
+      "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svFlash\" hidden>",
+      "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"6\" width=\"14\" height=\"11\" rx=\"2\"/><path d=\"M7 20h12a2 2 0 0 0 2-2V9\"/></svg>",
+      "            Convertir en flashcard",
+      "          </button>",
       "        </div>",
       "      </div>",
       "      <div class=\"quiz__foot sim-view__nav\">",
@@ -135,6 +139,7 @@
       "    </button>",
       "  </div>",
       "  <div class=\"algo-modal__body\" id=\"algoBody\"></div>",
+      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button></div>",
       "</dialog>"
     ].join("\n");
     var CHAT = [
@@ -1526,6 +1531,8 @@
       next: document.getElementById("svNext"),
       prev: document.getElementById("svPrev"),
       algo: document.getElementById("svAlgo"),
+      flash: document.getElementById("svFlash"),
+      flashModal: document.getElementById("algoFlash"),
       modal: document.getElementById("algoModal"),
       modalBody: document.getElementById("algoBody"),
       modalTitle: document.getElementById("algoTitle"),
@@ -1700,6 +1707,7 @@
     document.addEventListener("keydown", function (ev) {
       if (!enPantalla() || ev.ctrlKey || ev.metaKey || ev.altKey) return;
       if (el.modal && el.modal.open) return;
+      if (document.querySelector("dialog.fc-dlg[open]")) return;   // el panel de flashcards tiene sus propios campos de texto
       var t = ev.target;
       if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) && t !== el.recall) return;
       if (t && t.closest && t.closest(".chat-panel")) return;
@@ -2000,6 +2008,19 @@
       };
     }
     if (el.algo) el.algo.addEventListener("click", abrirAlgoritmo);
+    /* flashcards: solo con la pregunta ya corregida (en simulacro, durante la revisión) y si el módulo está cargado */
+    function flashcard(origen) {
+      if (!estado || !estado.respondida || !window.MQP || !MQP.flashcards) return;
+      if (el.modal && el.modal.open) cerrarAlgoritmo();
+      MQP.flashcards.abrirPropuesta(estado.pregunta, estado.elegida, origen);
+    }
+    function pintarFlash() {
+      var ver = !!(estado && estado.respondida && window.MQP && MQP.flashcards);
+      if (el.flash) el.flash.hidden = !ver;
+      if (el.flashModal) el.flashModal.hidden = !ver;
+    }
+    if (el.flash) el.flash.addEventListener("click", function () { flashcard(el.flash); });
+    if (el.flashModal) el.flashModal.addEventListener("click", function () { flashcard(el.algo); });
     if (el.modalClose) el.modalClose.addEventListener("click", cerrarAlgoritmo);
     if (el.modal) el.modal.addEventListener("click", function (ev) {
       if (ev.target === el.modal) cerrarAlgoritmo();   // clic fuera del panel
@@ -2014,6 +2035,7 @@
       decorarOpciones();
       pintarRecall();
       pintarBandera();
+      pintarFlash();
       if (estado.respondida || estado.elegida) congelarRitmo(); else iniciarRitmo();
     });
     /* modo simulacro: elegir no corrige, pero el ritmo de la pregunta se detiene */
@@ -2030,6 +2052,7 @@
       var lista = botones();
       for (var k = 0; k < lista.length; k++) lista[k].classList.remove("is-preselected");
       bloquearTachado(true);
+      pintarFlash();
       congelarRitmo();
     });
     vista.addEventListener("mqp:cerrado", function () {

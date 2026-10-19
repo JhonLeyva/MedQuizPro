@@ -39,6 +39,8 @@
 
 declare(strict_types=1);
 
+require_once __DIR__ . '/flashcards_lib.php';
+
 /* ====================== AJUSTES ====================== */
 
 /** Periodos de los planes de pago único (sin renovación automática). */
@@ -140,6 +142,19 @@ function db(): PDO {
     $pdo->exec('CREATE TABLE IF NOT EXISTS lista_espera (usuario INTEGER NOT NULL, examen TEXT NOT NULL, creado INTEGER NOT NULL, PRIMARY KEY (usuario, examen))');
     $pdo->exec('CREATE TABLE IF NOT EXISTS ordenes (
         ref TEXT PRIMARY KEY, usuario INTEGER NOT NULL, plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS flashcards (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, usuario INTEGER NOT NULL REFERENCES usuarios(id) ON DELETE CASCADE,
+        frente TEXT NOT NULL, dorso TEXT NOT NULL, pregunta TEXT NOT NULL DEFAULT \'\', tema TEXT NOT NULL DEFAULT \'\',
+        especialidad TEXT NOT NULL DEFAULT \'\', fuente TEXT NOT NULL DEFAULT \'\', huella TEXT NOT NULL,
+        estado TEXT NOT NULL DEFAULT \'nuevo\', facilidad REAL NOT NULL DEFAULT 2.5, intervalo INTEGER NOT NULL DEFAULT 0,
+        repeticiones INTEGER NOT NULL DEFAULT 0, lapsos INTEGER NOT NULL DEFAULT 0,
+        creado INTEGER NOT NULL, ultimo INTEGER NOT NULL DEFAULT 0, proximo INTEGER NOT NULL, UNIQUE (usuario, huella))');
+    $pdo->exec('CREATE INDEX IF NOT EXISTS ix_fc_cola ON flashcards(usuario, proximo)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS repasos (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, tarjeta INTEGER NOT NULL REFERENCES flashcards(id) ON DELETE CASCADE,
+        usuario INTEGER NOT NULL, t INTEGER NOT NULL, calificacion TEXT NOT NULL, estado_antes TEXT NOT NULL,
+        intervalo_antes INTEGER NOT NULL, intervalo_despues INTEGER NOT NULL)');
+    $pdo->exec('CREATE INDEX IF NOT EXISTS ix_repasos_t ON repasos(usuario, t)');
     $pdo->exec('CREATE TABLE IF NOT EXISTS intentos (clave TEXT NOT NULL, t INTEGER NOT NULL)');
     $pdo->exec('CREATE INDEX IF NOT EXISTS ix_intentos ON intentos(clave, t)');
     foreach (['pagos', 'ordenes'] as $t) {                    // migración: cada pago y orden recuerda de qué examen es
@@ -372,7 +387,8 @@ try {
             'registrada' => date('c', (int)$u['creado']), 'acepto_politica' => $u['acepto_en'] ? date('c', (int)$u['acepto_en']) : null,
             'suscripciones_activas' => (object)suscripciones_de((int)$u['id'])],
             'pagos' => array_map(fn($x) => ['examen' => $x['examen'], 'plan' => $x['plan'], 'monto_soles' => (float)$x['monto'], 'fecha' => date('c', (int)$x['creado'])], $pg->fetchAll()),
-            'progreso' => $pr ? json_decode($pr['datos'], true) : null]);
+            'progreso' => $pr ? json_decode($pr['datos'], true) : null,
+            'flashcards' => (function () use ($db, $u) { $q = $db->prepare('SELECT frente, dorso, pregunta, tema, especialidad, fuente, estado, intervalo, repeticiones, lapsos, creado, ultimo, proximo FROM flashcards WHERE usuario = ?'); $q->execute([(int)$u['id']]); return $q->fetchAll(); })()]);
     }
 
     if ($a === 'eliminar') {
@@ -395,6 +411,102 @@ try {
         if (!isset(EXAMENES[$examen])) fallo('Examen no válido.');
         db()->prepare('INSERT OR IGNORE INTO lista_espera(usuario, examen, creado) VALUES (?,?,?)')->execute([(int)$u['id'], $examen, time()]);
         responder(['ok' => true, 'usuario' => usuario_publico(usuario_actual())]);
+    }
+
+    /* ====================== FLASHCARDS ====================== */
+
+    if (strncmp($a, 'fc_', 3) === 0) {
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión para usar tus flashcards.', 401);
+        $uid = (int)$u['id']; $db = db(); $ahora = time();
+        $corto = fn($v, int $n) => mb_substr(trim(preg_replace('/[ \t]+/u', ' ', (string)$v)), 0, $n);
+        $fila = fn(array $f) => [
+            'id' => (int)$f['id'], 'frente' => $f['frente'], 'dorso' => $f['dorso'], 'pregunta' => $f['pregunta'], 'tema' => $f['tema'],
+            'especialidad' => $f['especialidad'], 'fuente' => $f['fuente'], 'estado' => $f['estado'], 'intervalo' => (int)$f['intervalo'],
+            'repeticiones' => (int)$f['repeticiones'], 'lapsos' => (int)$f['lapsos'], 'creado' => (int)$f['creado'],
+            'ultimo' => (int)$f['ultimo'], 'proximo' => (int)$f['proximo'],
+        ];
+
+        if ($a === 'fc_crear') {
+            exigir_post_del_sitio();
+            $lista = cuerpo()['tarjetas'] ?? null;
+            if (!is_array($lista) || !$lista || count($lista) > 8) fallo('Envía entre 1 y 8 tarjetas.');
+            $tot = $db->prepare('SELECT COUNT(*) FROM flashcards WHERE usuario = ?'); $tot->execute([$uid]);
+            if ((int)$tot->fetchColumn() + count($lista) > 3000) fallo('Llegaste al máximo de 3000 flashcards.', 409);
+            $creadas = []; $repetidas = 0;
+            $ins = $db->prepare('INSERT OR IGNORE INTO flashcards(usuario, frente, dorso, pregunta, tema, especialidad, fuente, huella, creado, proximo) VALUES (?,?,?,?,?,?,?,?,?,?)');
+            $db->beginTransaction();
+            foreach ($lista as $t) {
+                if (!is_array($t)) continue;
+                $fr = $corto($t['frente'] ?? '', 600); $do = trim((string)($t['dorso'] ?? '')); $do = mb_substr($do, 0, 1500);
+                if (mb_strlen($fr) < 5 || mb_strlen($do) < 2) { $db->rollBack(); fallo('Cada tarjeta necesita frente y dorso.'); }
+                $pre = $corto($t['pregunta'] ?? '', 40);
+                $ins->execute([$uid, $fr, $do, $pre, $corto($t['tema'] ?? '', 120), $corto($t['especialidad'] ?? '', 80), $corto($t['fuente'] ?? '', 200), fc_huella($pre, $fr), $ahora, $ahora]);
+                if ($ins->rowCount()) $creadas[] = (int)$db->lastInsertId(); else $repetidas++;
+            }
+            $db->commit();
+            responder(['ok' => true, 'creadas' => count($creadas), 'repetidas' => $repetidas], 201);
+        }
+
+        if ($a === 'fc_listar') {
+            $st = $db->prepare('SELECT * FROM flashcards WHERE usuario = ? ORDER BY creado DESC, id DESC LIMIT 3000'); $st->execute([$uid]);
+            $tarjetas = array_map($fila, $st->fetchAll());
+            $c = $db->prepare('SELECT COUNT(*) FROM flashcards WHERE usuario = ? AND proximo <= ?'); $c->execute([$uid, $ahora]);
+            $hoy = $db->prepare('SELECT COUNT(*) FROM repasos WHERE usuario = ? AND t >= ?'); $hoy->execute([$uid, strtotime('today')]);
+            responder(['ok' => true, 'tarjetas' => $tarjetas, 'pendientes' => (int)$c->fetchColumn(), 'repasadas_hoy' => (int)$hoy->fetchColumn(), 'ahora' => $ahora]);
+        }
+
+        if ($a === 'fc_cola') {
+            $st = $db->prepare('SELECT * FROM flashcards WHERE usuario = ? AND proximo <= ? ORDER BY proximo ASC, id ASC LIMIT 20'); $st->execute([$uid, $ahora]);
+            $cola = array_map(fn($f) => $fila($f) + ['previas' => fc_previas($f, $ahora)], $st->fetchAll());
+            $c = $db->prepare('SELECT COUNT(*) FROM flashcards WHERE usuario = ? AND proximo <= ?'); $c->execute([$uid, $ahora]);
+            responder(['ok' => true, 'cola' => $cola, 'pendientes' => (int)$c->fetchColumn(), 'ahora' => $ahora]);
+        }
+
+        if ($a === 'fc_repasar') {
+            exigir_post_del_sitio();
+            $d = cuerpo(); $id = (int)($d['id'] ?? 0); $cal = (string)($d['calificacion'] ?? '');
+            if (!in_array($cal, FC_CALIFICACIONES, true)) fallo('Calificación no válida.');
+            $st = $db->prepare('SELECT * FROM flashcards WHERE id = ? AND usuario = ?'); $st->execute([$id, $uid]); $t = $st->fetch();
+            if (!$t) fallo('No encontramos esa tarjeta.', 404);
+            if ((int)($d['ultimo'] ?? -1) !== (int)$t['ultimo']) fallo('Esa tarjeta ya se repasó (quizá en otra pestaña). Recarga la lista.', 409);   // evita contar dos veces un doble clic
+            $n = fc_planificar($t, $cal, $ahora);
+            $db->beginTransaction();
+            $db->prepare('UPDATE flashcards SET estado=?, facilidad=?, intervalo=?, repeticiones=?, lapsos=?, ultimo=?, proximo=? WHERE id=? AND usuario=?')
+               ->execute([$n['estado'], $n['facilidad'], $n['intervalo'], $n['repeticiones'], $n['lapsos'], $ahora, $n['proximo'], $id, $uid]);
+            $db->prepare('INSERT INTO repasos(tarjeta, usuario, t, calificacion, estado_antes, intervalo_antes, intervalo_despues) VALUES (?,?,?,?,?,?,?)')
+               ->execute([$id, $uid, $ahora, $cal, $t['estado'], (int)$t['intervalo'], $n['intervalo']]);
+            $db->commit();
+            responder(['ok' => true, 'proximo' => $n['proximo'], 'estado' => $n['estado'], 'ultimo' => $ahora]);
+        }
+
+        if ($a === 'fc_editar') {
+            exigir_post_del_sitio();
+            $d = cuerpo(); $id = (int)($d['id'] ?? 0);
+            $fr = $corto($d['frente'] ?? '', 600); $do = mb_substr(trim((string)($d['dorso'] ?? '')), 0, 1500);
+            if (mb_strlen($fr) < 5 || mb_strlen($do) < 2) fallo('Cada tarjeta necesita frente y dorso.');
+            $st = $db->prepare('UPDATE flashcards SET frente = ?, dorso = ? WHERE id = ? AND usuario = ?'); $st->execute([$fr, $do, $id, $uid]);
+            if (!$st->rowCount()) fallo('No encontramos esa tarjeta.', 404);
+            responder(['ok' => true]);
+        }
+
+        if ($a === 'fc_borrar') {
+            exigir_post_del_sitio();
+            $st = $db->prepare('DELETE FROM flashcards WHERE id = ? AND usuario = ?'); $st->execute([(int)(cuerpo()['id'] ?? 0), $uid]);
+            if (!$st->rowCount()) fallo('No encontramos esa tarjeta.', 404);
+            responder(['ok' => true]);
+        }
+
+        if ($a === 'fc_exportar') {
+            $st = $db->prepare('SELECT frente, dorso, especialidad, tema, fuente FROM flashcards WHERE usuario = ? ORDER BY id'); $st->execute([$uid]);
+            header('Content-Type: text/csv; charset=utf-8'); header('Content-Disposition: attachment; filename="mis-flashcards-medquizplus.csv"'); header('Cache-Control: no-store');
+            $o = fopen('php://output', 'w'); fwrite($o, "\xEF\xBB\xBF");
+            fputcsv($o, ['Frente', 'Dorso', 'Etiquetas', 'Fuente']);                      // en Anki: Archivo → Importar; columnas 1 y 2 = frente y dorso
+            $seg = fn($v) => is_string($v) && preg_match('/^[=+\-@\t\r]/', $v) ? "'" . $v : $v;
+            foreach ($st->fetchAll() as $f) fputcsv($o, [$seg($f['frente']), $seg($f['dorso']), str_replace(' ', '_', trim($f['especialidad'] . ' ' . $f['tema'])), $seg($f['fuente'])]);
+            fclose($o); exit;
+        }
+
+        fallo('Acción desconocida.', 404);
     }
 
     if ($a === 'salir') {

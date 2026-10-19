@@ -1128,6 +1128,7 @@
     progreso: { titulo: "Mi progreso", vista: vistaProgreso },
     falladas: { titulo: "Preguntas falladas", vista: vistaFalladas },
     favoritas: { titulo: "Favoritas", vista: vistaFavoritas },
+    flashcards: { titulo: "Mis Flashcards", vista: function () { return '<div id="fcRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fcRaiz"); if (r && M.flashcards) M.flashcards.montar(r); } },
     perfil: { titulo: "Perfil", vista: vistaPerfil, alMontar: enlazarPerfil }
   };
 
