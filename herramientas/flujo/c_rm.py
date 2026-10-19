@@ -25,6 +25,11 @@ ESPRM = {"GIN": "GINECO-OBSTETRICIA", "CIR": "CIRUGÍA", "PED": "PEDIATRÍA", "C
          "TRA": "TRAUMATOLOGÍA", "HEM": "HEMATOLOGÍA", "NEF": "NEFROLOGÍA", "PSI": "PSIQUIATRÍA", "REU": "REUMATOLOGÍA",
          "URG": "URGENCIAS", "UROL": "UROLOGÍA", "ORL": "OTORRINOLARINGOLOGÍA", "OFT": "OFTALMOLOGÍA", "DER": "DERMATOLOGÍA",
          "ANE": "ANESTESIOLOGÍA", "CB": "CIENCIAS BÁSICAS", "GEN": "GENÉTICA", "ANA": "ANATOMÍA"}
+ESPARCH = {"cardiologia": "CARDIOLOGÍA", "ciencias_basicas": "CIENCIAS BÁSICAS", "cirugia": "CIRUGÍA", "endocrinologia": "ENDOCRINOLOGÍA",
+           "gastroenterologia": "GASTROENTEROLOGÍA", "ginecologia": "GINECO-OBSTETRICIA", "hematologia": "HEMATOLOGÍA", "infectologia": "INFECTOLOGÍA",
+           "nefrologia": "NEFROLOGÍA Y UROLOGÍA", "neumologia": "NEUMOLOGÍA", "neurologia": "NEUROLOGÍA", "oftalmo_orl": "OFTALMOLOGÍA Y ORL",
+           "pediatria": "PEDIATRÍA", "psiquiatria": "PSIQUIATRÍA", "reumatologia": "REUMATOLOGÍA Y DERMATOLOGÍA",
+           "salud_publica": "SALUD PÚBLICA", "traumatologia": "TRAUMATOLOGÍA"}
 GOLD, GINA, ACOG, FIGO, AAP, NICE, IDSA, OMS, CDC, ESC = ("GOLD 2025", "GINA 2025", "ACOG", "FIGO", "AAP", "NICE", "IDSA", "OMS", "CDC", "ESC")
 
 
@@ -43,7 +48,7 @@ def S(tipo, id_, titulo, barra, tema, caso, perlas, fuente, op, **k):
         t = cortos.get(i, o).strip().rstrip(".")
         assert len(t) <= 48, f"{id_}: opción larga: {t}"
         cols.append((t, i == ci))
-    esp = ESPRM[id_.split("-")[1]] + " RM"
+    esp = ESPARCH.get(q.get("archivo"), ESPRM.get(id_.split("-")[1], "RM")) + " RM"
     return _S(tipo, id_, id_.lower() + "-" + slug(barra), titulo, barra, esp, tema, caso, perlas, fuente,
               tabla=("Opciones de la pregunta", cols, [(crit, razones)]), _reg=FRM, **k)
 

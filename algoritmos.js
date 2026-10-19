@@ -11859,5 +11859,507 @@ window.MQP_ALGORITMOS = {
     titulo: "Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía",
     imagen: "flujogramas/rm-cir-125-apendicitis-aguda-paciente-anciano.svg",
     alt: "Flujograma: Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía"
+  },
+
+  /* ---------- Residentado Médico · lote 3 (100 preguntas) ---------- */
+  "RM-CIR-126": {
+    titulo: "El alcohol (con el tabaco) es el factor de riesgo clave del carcinoma escamoso de esófago",
+    imagen: "flujogramas/rm-cir-126-esofago-carcinoma-escamoso.svg",
+    alt: "Flujograma: El alcohol (con el tabaco) es el factor de riesgo clave del carcinoma escamoso de esófago"
+  },
+  "RM-OFT-001": {
+    titulo: "Epistaxis sin punto visible, que persiste y se deglute tras el tapón anterior: taponamiento posterior",
+    imagen: "flujogramas/rm-oft-001-orl-epistaxis-posterior.svg",
+    alt: "Flujograma: Epistaxis sin punto visible, que persiste y se deglute tras el tapón anterior: taponamiento posterior"
+  },
+  "RM-NEF-004": {
+    titulo: "Dolor escrotal súbito en un niño: exploración quirúrgica antes de las 6 horas",
+    imagen: "flujogramas/rm-nef-004-urologia-torsion-testicular.svg",
+    alt: "Flujograma: Dolor escrotal súbito en un niño: exploración quirúrgica antes de las 6 horas"
+  },
+  "RM-CIR-127": {
+    titulo: "Metástasis a hueso, pulmón o cerebro sin hígado: tumor del tercio inferior del recto",
+    imagen: "flujogramas/rm-cir-127-cancer-colorrectal-drenaje-y-metastasis.svg",
+    alt: "Flujograma: Metástasis a hueso, pulmón o cerebro sin hígado: tumor del tercio inferior del recto"
+  },
+  "RM-CIR-128": {
+    titulo: "Herida por arma de fuego estable con sospecha de lesión duodenal: tomografía abdominal contrastada",
+    imagen: "flujogramas/rm-cir-128-trauma-abdominal-penetrante-duodeno.svg",
+    alt: "Flujograma: Herida por arma de fuego estable con sospecha de lesión duodenal: tomografía abdominal contrastada"
+  },
+  "RM-CIR-129": {
+    titulo: "La fase de maduración de la cicatrización es la reorganización del colágeno sintetizado",
+    imagen: "flujogramas/rm-cir-129-cicatrizacion-fase-de-maduracion.svg",
+    alt: "Flujograma: La fase de maduración de la cicatrización es la reorganización del colágeno sintetizado"
+  },
+  "RM-PED-004": {
+    titulo: "Estenosis hipertrófica del píloro: piloromiotomía, tras corregir líquidos y electrolitos",
+    imagen: "flujogramas/rm-ped-004-pediatria-quirurgica-estenosis-del-piloro.svg",
+    alt: "Flujograma: Estenosis hipertrófica del píloro: piloromiotomía, tras corregir líquidos y electrolitos"
+  },
+  "RM-OFT-002": {
+    titulo: "Otitis externa tras natación: el agente más frecuente es Pseudomonas aeruginosa",
+    imagen: "flujogramas/rm-oft-002-orl-otitis-externa-aguda.svg",
+    alt: "Flujograma: Otitis externa tras natación: el agente más frecuente es Pseudomonas aeruginosa"
+  },
+  "RM-NEF-005": {
+    titulo: "Sangre en el meato y fractura pélvica: uretrografía retrógrada antes de cualquier sonda",
+    imagen: "flujogramas/rm-nef-005-urologia-trauma-de-uretra-posterior.svg",
+    alt: "Flujograma: Sangre en el meato y fractura pélvica: uretrografía retrógrada antes de cualquier sonda"
+  },
+  "RM-CIR-130": {
+    titulo: "Hemorroides que se reducen con la mano: grado III de Goligher",
+    imagen: "flujogramas/rm-cir-130-coloproctologia-hemorroides-internas.svg",
+    alt: "Flujograma: Hemorroides que se reducen con la mano: grado III de Goligher"
+  },
+  "RM-OFT-003": {
+    titulo: "El dolor al mover el ojo en sentido horizontal sugiere fractura de la pared interna de la órbita",
+    imagen: "flujogramas/rm-oft-003-oftalmologia-fracturas-de-la-orbita.svg",
+    alt: "Flujograma: El dolor al mover el ojo en sentido horizontal sugiere fractura de la pared interna de la órbita"
+  },
+  "RM-NRL-001": {
+    titulo: "Hematoma epidural con intervalo lúcido y desplazamiento de línea media: craneotomía descompresiva",
+    imagen: "flujogramas/rm-nrl-001-neurotrauma-hematoma-epidural.svg",
+    alt: "Flujograma: Hematoma epidural con intervalo lúcido y desplazamiento de línea media: craneotomía descompresiva"
+  },
+  "RM-OFT-004": {
+    titulo: "Ojo rojo que pasa al otro lado, lagrimeo y párpados pegados: conjuntivitis por adenovirus",
+    imagen: "flujogramas/rm-oft-004-oftalmologia-conjuntivitis-aguda.svg",
+    alt: "Flujograma: Ojo rojo que pasa al otro lado, lagrimeo y párpados pegados: conjuntivitis por adenovirus"
+  },
+  "RM-CIR-131": {
+    titulo: "Fisura anal crónica: esfinterotomía lateral interna como tratamiento quirúrgico de elección",
+    imagen: "flujogramas/rm-cir-131-coloproctologia-fisura-anal-cronica.svg",
+    alt: "Flujograma: Fisura anal crónica: esfinterotomía lateral interna como tratamiento quirúrgico de elección"
+  },
+  "RM-CIR-132": {
+    titulo: "La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias",
+    imagen: "flujogramas/rm-cir-132-obstruccion-intestinal-causas-del-adulto.svg",
+    alt: "Flujograma: La causa más frecuente de obstrucción intestinal en el adulto son las bridas y adherencias"
+  },
+  "RM-REU-001": {
+    titulo: "En el acné grado III predomina la pústula",
+    imagen: "flujogramas/rm-reu-001-dermatologia-acne-juvenil-por-grados.svg",
+    alt: "Flujograma: En el acné grado III predomina la pústula"
+  },
+  "RM-CB-025": {
+    titulo: "El complejo de Merkel es el receptor del tacto discriminativo",
+    imagen: "flujogramas/rm-cb-025-histologia-mecanorreceptores-de-la-piel.svg",
+    alt: "Flujograma: El complejo de Merkel es el receptor del tacto discriminativo"
+  },
+  "RM-REU-002": {
+    titulo: "Acné con comedones, pápulas, pústulas y nódulos: la base tópica son los retinoides",
+    imagen: "flujogramas/rm-reu-002-acne-tratamiento-topico-de-primera-linea.svg",
+    alt: "Flujograma: Acné con comedones, pápulas, pústulas y nódulos: la base tópica son los retinoides"
+  },
+  "RM-REU-003": {
+    titulo: "Acné con comedones, pústulas, pápulas y nódulos: acné grave",
+    imagen: "flujogramas/rm-reu-003-acne-clasificacion-de-gravedad.svg",
+    alt: "Flujograma: Acné con comedones, pústulas, pápulas y nódulos: acné grave"
+  },
+  "RM-REU-004": {
+    titulo: "La dermatitis atópica es lo mismo que el eccema atópico",
+    imagen: "flujogramas/rm-reu-004-dermatitis-atopica-eccema-atopico.svg",
+    alt: "Flujograma: La dermatitis atópica es lo mismo que el eccema atópico"
+  },
+  "RM-CB-026": {
+    titulo: "La célula de Sertoli nutre a las células germinales durante la espermatogénesis",
+    imagen: "flujogramas/rm-cb-026-histologia-celulas-de-sertoli.svg",
+    alt: "Flujograma: La célula de Sertoli nutre a las células germinales durante la espermatogénesis"
+  },
+  "RM-CB-027": {
+    titulo: "Sin conducto mesonéfrico faltan el riñón, el uréter y la vesícula seminal",
+    imagen: "flujogramas/rm-cb-027-embriologia-derivados-del-conducto-mesonefrico.svg",
+    alt: "Flujograma: Sin conducto mesonéfrico faltan el riñón, el uréter y la vesícula seminal"
+  },
+  "RM-CB-028": {
+    titulo: "Desde cerca de la semana 20 la insulina fetal es el principal factor de crecimiento",
+    imagen: "flujogramas/rm-cb-028-fisiologia-fetal-insulina-y-crecimiento.svg",
+    alt: "Flujograma: Desde cerca de la semana 20 la insulina fetal es el principal factor de crecimiento"
+  },
+  "RM-CB-029": {
+    titulo: "Talla baja, cuello corto, linfedema, tórax ancho y amenorrea primaria: síndrome de Turner",
+    imagen: "flujogramas/rm-cb-029-genetica-sindrome-de-turner-45-x.svg",
+    alt: "Flujograma: Talla baja, cuello corto, linfedema, tórax ancho y amenorrea primaria: síndrome de Turner"
+  },
+  "RM-CB-030": {
+    titulo: "Un feto maduro es el que tiene pulmones capaces de intercambiar gases tras el nacimiento",
+    imagen: "flujogramas/rm-cb-030-embriologia-madurez-pulmonar-fetal.svg",
+    alt: "Flujograma: Un feto maduro es el que tiene pulmones capaces de intercambiar gases tras el nacimiento"
+  },
+  "RM-CB-031": {
+    titulo: "El riñón definitivo (metanefros) aparece en la quinta semana de gestación",
+    imagen: "flujogramas/rm-cb-031-embriologia-desarrollo-renal.svg",
+    alt: "Flujograma: El riñón definitivo (metanefros) aparece en la quinta semana de gestación"
+  },
+  "RM-CB-032": {
+    titulo: "La testosterona se produce en las células de Leydig, bajo la hormona luteinizante",
+    imagen: "flujogramas/rm-cb-032-histologia-celula-de-leydig-y-testosterona.svg",
+    alt: "Flujograma: La testosterona se produce en las células de Leydig, bajo la hormona luteinizante"
+  },
+  "RM-GIN-001": {
+    titulo: "La anomalía cromosómica más frecuente del aborto del primer trimestre es la trisomía autosómica",
+    imagen: "flujogramas/rm-gin-001-obstetricia-aborto-espontaneo-y-cariotipo.svg",
+    alt: "Flujograma: La anomalía cromosómica más frecuente del aborto del primer trimestre es la trisomía autosómica"
+  },
+  "RM-CB-033": {
+    titulo: "Retraso mental, polidactilia, pie valgo, onfalocele e hipotonía: síndrome de Patau (trisomía 13)",
+    imagen: "flujogramas/rm-cb-033-genetica-patau-edwards-y-down.svg",
+    alt: "Flujograma: Retraso mental, polidactilia, pie valgo, onfalocele e hipotonía: síndrome de Patau (trisomía 13)"
+  },
+  "RM-CB-034": {
+    titulo: "Deleción paterna en 15q11-q13: síndrome de Prader-Willi por impronta genómica",
+    imagen: "flujogramas/rm-cb-034-genetica-impronta-y-prader-willi.svg",
+    alt: "Flujograma: Deleción paterna en 15q11-q13: síndrome de Prader-Willi por impronta genómica"
+  },
+  "RM-CB-035": {
+    titulo: "La fructosa se absorbe en el intestino y el riñón por GLUT5",
+    imagen: "flujogramas/rm-cb-035-fisiologia-transportadores-de-hexosas.svg",
+    alt: "Flujograma: La fructosa se absorbe en el intestino y el riñón por GLUT5"
+  },
+  "RM-END-003": {
+    titulo: "Para confirmar la diabetes se usa la HbA1c de 6,5 % o más; la mayor de 7 % ya la supera",
+    imagen: "flujogramas/rm-end-003-diabetes-criterios-diagnosticos-ada-2026.svg",
+    alt: "Flujograma: Para confirmar la diabetes se usa la HbA1c de 6,5 % o más; la mayor de 7 % ya la supera"
+  },
+  "RM-END-004": {
+    titulo: "La hiperglucemia en ayunas del diabético viene sobre todo de la gluconeogénesis hepática",
+    imagen: "flujogramas/rm-end-004-diabetes-produccion-hepatica-de-glucosa.svg",
+    alt: "Flujograma: La hiperglucemia en ayunas del diabético viene sobre todo de la gluconeogénesis hepática"
+  },
+  "RM-END-005": {
+    titulo: "Náuseas, vómitos, dolor abdominal, polidipsia y poliuria en un diabético: cetoacidosis diabética",
+    imagen: "flujogramas/rm-end-005-diabetes-cetoacidosis-diabetica.svg",
+    alt: "Flujograma: Náuseas, vómitos, dolor abdominal, polidipsia y poliuria en un diabético: cetoacidosis diabética"
+  },
+  "RM-END-006": {
+    titulo: "La diabetes se diagnostica con glucemia en ayunas de 126 mg/dL o más, confirmada en dos ocasiones",
+    imagen: "flujogramas/rm-end-006-diabetes-criterios-diagnosticos.svg",
+    alt: "Flujograma: La diabetes se diagnostica con glucemia en ayunas de 126 mg/dL o más, confirmada en dos ocasiones"
+  },
+  "RM-END-007": {
+    titulo: "Tiroides dolorosa con fiebre, tirotoxicosis transitoria y luego hipotiroidismo: tiroiditis subaguda",
+    imagen: "flujogramas/rm-end-007-tiroides-tiroiditis-subaguda-de-de-quervain.svg",
+    alt: "Flujograma: Tiroides dolorosa con fiebre, tirotoxicosis transitoria y luego hipotiroidismo: tiroiditis subaguda"
+  },
+  "RM-END-008": {
+    titulo: "En el hipertiroidismo la manifestación cardiovascular más frecuente es la taquicardia sinusal",
+    imagen: "flujogramas/rm-end-008-tiroides-hipertiroidismo-y-corazon.svg",
+    alt: "Flujograma: En el hipertiroidismo la manifestación cardiovascular más frecuente es la taquicardia sinusal"
+  },
+  "RM-END-009": {
+    titulo: "En la hiperplasia suprarrenal congénita la 17-hidroxiprogesterona elevada corrobora el diagnóstico",
+    imagen: "flujogramas/rm-end-009-suprarrenal-hiperplasia-suprarrenal-congenita.svg",
+    alt: "Flujograma: En la hiperplasia suprarrenal congénita la 17-hidroxiprogesterona elevada corrobora el diagnóstico"
+  },
+  "RM-END-010": {
+    titulo: "En el síndrome de Cushing el tamizaje preciso y económico es el cortisol libre en orina de 24 horas",
+    imagen: "flujogramas/rm-end-010-suprarrenal-sindrome-de-cushing.svg",
+    alt: "Flujograma: En el síndrome de Cushing el tamizaje preciso y económico es el cortisol libre en orina de 24 horas"
+  },
+  "RM-END-011": {
+    titulo: "Diabética con poliuria, dolor abdominal y deterioro del sensorio: cetoacidosis diabética",
+    imagen: "flujogramas/rm-end-011-diabetes-cetoacidosis-diabetica.svg",
+    alt: "Flujograma: Diabética con poliuria, dolor abdominal y deterioro del sensorio: cetoacidosis diabética"
+  },
+  "RM-END-012": {
+    titulo: "Glucemia mayor de 300 sin cetonuria ni lipólisis describe el estado hiperosmolar hiperglucémico",
+    imagen: "flujogramas/rm-end-012-diabetes-estado-hiperosmolar-hiperglucemico.svg",
+    alt: "Flujograma: Glucemia mayor de 300 sin cetonuria ni lipólisis describe el estado hiperosmolar hiperglucémico"
+  },
+  "RM-END-013": {
+    titulo: "El diagnóstico definitivo del nódulo tiroideo se hace con la punción y aspiración con aguja fina",
+    imagen: "flujogramas/rm-end-013-tiroides-nodulo-tiroideo.svg",
+    alt: "Flujograma: El diagnóstico definitivo del nódulo tiroideo se hace con la punción y aspiración con aguja fina"
+  },
+  "RM-END-014": {
+    titulo: "Con HbA1c de 8,5 % tras metformina más sitagliptina se asocia insulina basal",
+    imagen: "flujogramas/rm-end-014-diabetes-intensificacion-del-tratamiento.svg",
+    alt: "Flujograma: Con HbA1c de 8,5 % tras metformina más sitagliptina se asocia insulina basal"
+  },
+  "RM-END-015": {
+    titulo: "La agenesia paratiroidea causa hipocalcemia por falta de hormona paratiroidea",
+    imagen: "flujogramas/rm-end-015-calcio-hipoparatiroidismo.svg",
+    alt: "Flujograma: La agenesia paratiroidea causa hipocalcemia por falta de hormona paratiroidea"
+  },
+  "RM-END-016": {
+    titulo: "Hipotiroidismo primario en mujer de 46 años: levotiroxina 50 a 100 microgramos al día",
+    imagen: "flujogramas/rm-end-016-tiroides-hipotiroidismo-primario.svg",
+    alt: "Flujograma: Hipotiroidismo primario en mujer de 46 años: levotiroxina 50 a 100 microgramos al día"
+  },
+  "RM-END-017": {
+    titulo: "En la enfermedad de Graves el diagnóstico etiológico lo confirman los anticuerpos antirreceptor de TSH",
+    imagen: "flujogramas/rm-end-017-tiroides-enfermedad-de-graves-basedow.svg",
+    alt: "Flujograma: En la enfermedad de Graves el diagnóstico etiológico lo confirman los anticuerpos antirreceptor de TSH"
+  },
+  "RM-END-018": {
+    titulo: "La obesidad mórbida aumenta de forma marcada el riesgo de hipertensión arterial",
+    imagen: "flujogramas/rm-end-018-obesidad-complicaciones-de-la-obesidad-morbida.svg",
+    alt: "Flujograma: La obesidad mórbida aumenta de forma marcada el riesgo de hipertensión arterial"
+  },
+  "RM-END-019": {
+    titulo: "En la enfermedad de Graves severa la operación de elección es la tiroidectomía total",
+    imagen: "flujogramas/rm-end-019-tiroides-cirugia-en-la-enfermedad-de-graves.svg",
+    alt: "Flujograma: En la enfermedad de Graves severa la operación de elección es la tiroidectomía total"
+  },
+  "RM-END-020": {
+    titulo: "En la tirotoxicosis la hormona aumentada es una amina, derivada de la tirosina",
+    imagen: "flujogramas/rm-end-020-endocrinologia-naturaleza-quimica-de-las-hormonas.svg",
+    alt: "Flujograma: En la tirotoxicosis la hormona aumentada es una amina, derivada de la tirosina"
+  },
+  "RM-END-021": {
+    titulo: "La obesidad clase II de la OMS corresponde a un IMC de 35 a 39,9 kg/m²",
+    imagen: "flujogramas/rm-end-021-obesidad-clasificacion-oms-del-imc.svg",
+    alt: "Flujograma: La obesidad clase II de la OMS corresponde a un IMC de 35 a 39,9 kg/m²"
+  },
+  "RM-NEF-006": {
+    titulo: "La microalbuminuria es el marcador más importante de nefropatía diabética incipiente",
+    imagen: "flujogramas/rm-nef-006-nefropatia-diabetica-marcador-temprano.svg",
+    alt: "Flujograma: La microalbuminuria es el marcador más importante de nefropatía diabética incipiente"
+  },
+  "RM-GIN-002": {
+    titulo: "La diabetes pregestacional mal controlada aumenta el aborto y las malformaciones",
+    imagen: "flujogramas/rm-gin-002-obstetricia-aborto-y-enfermedad-materna.svg",
+    alt: "Flujograma: La diabetes pregestacional mal controlada aumenta el aborto y las malformaciones"
+  },
+  "RM-END-022": {
+    titulo: "En la enfermedad de Graves con indicación quirúrgica se hace tiroidectomía total",
+    imagen: "flujogramas/rm-end-022-tiroides-cirugia-en-graves.svg",
+    alt: "Flujograma: En la enfermedad de Graves con indicación quirúrgica se hace tiroidectomía total"
+  },
+  "RM-END-023": {
+    titulo: "Glucemia en ayunas de 126 mg/dL o más con síntomas clásicos confirma diabetes",
+    imagen: "flujogramas/rm-end-023-diabetes-criterios-diagnosticos.svg",
+    alt: "Flujograma: Glucemia en ayunas de 126 mg/dL o más con síntomas clásicos confirma diabetes"
+  },
+  "RM-END-024": {
+    titulo: "TSH elevada con T4 libre baja confirma el hipotiroidismo primario",
+    imagen: "flujogramas/rm-end-024-tiroides-hipotiroidismo-primario.svg",
+    alt: "Flujograma: TSH elevada con T4 libre baja confirma el hipotiroidismo primario"
+  },
+  "RM-CB-036": {
+    titulo: "La paratohormona aumenta la excreción renal de fosfato al inhibir su reabsorción en el túbulo proximal",
+    imagen: "flujogramas/rm-cb-036-fisiologia-pth-y-fosfato.svg",
+    alt: "Flujograma: La paratohormona aumenta la excreción renal de fosfato al inhibir su reabsorción en el túbulo proximal"
+  },
+  "RM-END-025": {
+    titulo: "Calcio y PTH elevados con síntomas de hipercalcemia: hiperparatiroidismo primario",
+    imagen: "flujogramas/rm-end-025-paratiroides-hiperparatiroidismo-primario.svg",
+    alt: "Flujograma: Calcio y PTH elevados con síntomas de hipercalcemia: hiperparatiroidismo primario"
+  },
+  "RM-CB-037": {
+    titulo: "Los folículos tiroideos están revestidos por un epitelio simple cúbico",
+    imagen: "flujogramas/rm-cb-037-histologia-foliculo-tiroideo.svg",
+    alt: "Flujograma: Los folículos tiroideos están revestidos por un epitelio simple cúbico"
+  },
+  "RM-CB-038": {
+    titulo: "La amiodarona, con 37 % de yodo en su peso, puede inducir hipertiroidismo",
+    imagen: "flujogramas/rm-cb-038-farmacologia-amiodarona-y-tiroides.svg",
+    alt: "Flujograma: La amiodarona, con 37 % de yodo en su peso, puede inducir hipertiroidismo"
+  },
+  "RM-END-026": {
+    titulo: "Parestesias y espasmo carpopedal tras cirugía de tiroides: hipocalcemia",
+    imagen: "flujogramas/rm-end-026-tiroides-hipoparatiroidismo-posquirurgico.svg",
+    alt: "Flujograma: Parestesias y espasmo carpopedal tras cirugía de tiroides: hipocalcemia"
+  },
+  "RM-END-027": {
+    titulo: "En la diabetes tipo 2 sin contraindicaciones, el fármaco inicial es la metformina",
+    imagen: "flujogramas/rm-end-027-diabetes-tipo-2-tratamiento-de-primera-linea.svg",
+    alt: "Flujograma: En la diabetes tipo 2 sin contraindicaciones, el fármaco inicial es la metformina"
+  },
+  "RM-PSI-001": {
+    titulo: "Vómitos autoinducidos: alcalosis metabólica hipoclorémica con hipopotasemia",
+    imagen: "flujogramas/rm-psi-001-trastornos-alimentarios-medio-interno-en-la-purga.svg",
+    alt: "Flujograma: Vómitos autoinducidos: alcalosis metabólica hipoclorémica con hipopotasemia"
+  },
+  "RM-CB-039": {
+    titulo: "La duloxetina inhibe la recaptación de serotonina y noradrenalina en la neuropatía diabética",
+    imagen: "flujogramas/rm-cb-039-neuropatia-diabetica-farmacos-y-mecanismo.svg",
+    alt: "Flujograma: La duloxetina inhibe la recaptación de serotonina y noradrenalina en la neuropatía diabética"
+  },
+  "RM-END-028": {
+    titulo: "La metástasis a distancia más frecuente del carcinoma papilar de tiroides es el pulmón",
+    imagen: "flujogramas/rm-end-028-tiroides-carcinoma-papilar-y-diseminacion.svg",
+    alt: "Flujograma: La metástasis a distancia más frecuente del carcinoma papilar de tiroides es el pulmón"
+  },
+  "RM-END-029": {
+    titulo: "En el enfermo grave eutiroideo la TSH no es indetectable: T3 baja y T3 reversa alta",
+    imagen: "flujogramas/rm-end-029-tiroides-sindrome-del-enfermo-eutiroideo.svg",
+    alt: "Flujograma: En el enfermo grave eutiroideo la TSH no es indetectable: T3 baja y T3 reversa alta"
+  },
+  "RM-PED-005": {
+    titulo: "La complicación cardiovascular más frecuente de la obesidad infantil es la hipertensión",
+    imagen: "flujogramas/rm-ped-005-pediatria-obesidad-y-presion-arterial.svg",
+    alt: "Flujograma: La complicación cardiovascular más frecuente de la obesidad infantil es la hipertensión"
+  },
+  "RM-END-030": {
+    titulo: "La falta de yodo sube la TSH, que hace crecer los folículos y produce bocio",
+    imagen: "flujogramas/rm-end-030-tiroides-deficiencia-de-yodo.svg",
+    alt: "Flujograma: La falta de yodo sube la TSH, que hace crecer los folículos y produce bocio"
+  },
+  "RM-PED-006": {
+    titulo: "Adolescente de 17 años con IMC de 26: sobrepeso",
+    imagen: "flujogramas/rm-ped-006-pediatria-clasificacion-del-imc.svg",
+    alt: "Flujograma: Adolescente de 17 años con IMC de 26: sobrepeso"
+  },
+  "RM-END-031": {
+    titulo: "Piel seca, bradicardia y aumento de peso con amenorrea: hipotiroidismo, no falla ovárica",
+    imagen: "flujogramas/rm-end-031-endocrinologia-hipotiroidismo-y-eje-reproductivo.svg",
+    alt: "Flujograma: Piel seca, bradicardia y aumento de peso con amenorrea: hipotiroidismo, no falla ovárica"
+  },
+  "RM-END-032": {
+    titulo: "En la enfermedad de Graves la cirugía indicada es la tiroidectomía total",
+    imagen: "flujogramas/rm-end-032-endocrinologia-cirugia-de-la-enfermedad-de-graves.svg",
+    alt: "Flujograma: En la enfermedad de Graves la cirugía indicada es la tiroidectomía total"
+  },
+  "RM-GIN-003": {
+    titulo: "En la anorexia nerviosa la amenorrea es hipotalámica: el déficit de energía apaga la GnRH",
+    imagen: "flujogramas/rm-gin-003-ginecologia-amenorrea-en-la-anorexia-nerviosa.svg",
+    alt: "Flujograma: En la anorexia nerviosa la amenorrea es hipotalámica: el déficit de energía apaga la GnRH"
+  },
+  "RM-END-033": {
+    titulo: "Nódulo tiroideo asintomático de 10 mm: lo primero entre las opciones es dosar la TSH",
+    imagen: "flujogramas/rm-end-033-tiroides-nodulo-asintomatico.svg",
+    alt: "Flujograma: Nódulo tiroideo asintomático de 10 mm: lo primero entre las opciones es dosar la TSH"
+  },
+  "RM-CB-040": {
+    titulo: "Dermatitis, diarrea y demencia son la pelagra: deficiencia de niacina (vitamina B3)",
+    imagen: "flujogramas/rm-cb-040-bioquimica-pelagra-y-niacina.svg",
+    alt: "Flujograma: Dermatitis, diarrea y demencia son la pelagra: deficiencia de niacina (vitamina B3)"
+  },
+  "RM-END-034": {
+    titulo: "Nódulo duro, hipoecoico, con microcalcificaciones y más alto que ancho: carcinoma papilar",
+    imagen: "flujogramas/rm-end-034-tiroides-nodulo-de-alto-riesgo.svg",
+    alt: "Flujograma: Nódulo duro, hipoecoico, con microcalcificaciones y más alto que ancho: carcinoma papilar"
+  },
+  "RM-CB-041": {
+    titulo: "La lactasa fragmenta la lactosa en galactosa y glucosa",
+    imagen: "flujogramas/rm-cb-041-bioquimica-digestion-de-la-lactosa.svg",
+    alt: "Flujograma: La lactasa fragmenta la lactosa en galactosa y glucosa"
+  },
+  "RM-END-035": {
+    titulo: "Glucosa 720, pH 7,2, bicarbonato 8 y osmolaridad 330: cumple criterios de CAD y de EHH, estado mixto",
+    imagen: "flujogramas/rm-end-035-diabetes-crisis-hiperglucemica.svg",
+    alt: "Flujograma: Glucosa 720, pH 7,2, bicarbonato 8 y osmolaridad 330: cumple criterios de CAD y de EHH, estado mixto"
+  },
+  "RM-END-036": {
+    titulo: "En la guía peruana, el riesgo ocupacional es un factor de riesgo de diabetes asociado al ambiente",
+    imagen: "flujogramas/rm-end-036-diabetes-tipo-2-factores-de-riesgo-gpc-minsa.svg",
+    alt: "Flujograma: En la guía peruana, el riesgo ocupacional es un factor de riesgo de diabetes asociado al ambiente"
+  },
+  "RM-CAR-038": {
+    titulo: "La hipercalcemia acorta el intervalo QT: el calcio acorta la meseta del potencial de acción",
+    imagen: "flujogramas/rm-car-038-electrocardiograma-calcio-y-qt.svg",
+    alt: "Flujograma: La hipercalcemia acorta el intervalo QT: el calcio acorta la meseta del potencial de acción"
+  },
+  "RM-END-037": {
+    titulo: "La empagliflozina bloquea el SGLT2 del túbulo proximal y aumenta la glucosuria",
+    imagen: "flujogramas/rm-end-037-farmacologia-inhibidores-de-sglt2.svg",
+    alt: "Flujograma: La empagliflozina bloquea el SGLT2 del túbulo proximal y aumenta la glucosuria"
+  },
+  "RM-END-038": {
+    titulo: "Nódulo tiroideo palpable de 10 mm: la ecografía es el paso que decide qué sigue",
+    imagen: "flujogramas/rm-end-038-tiroides-nodulo-palpable.svg",
+    alt: "Flujograma: Nódulo tiroideo palpable de 10 mm: la ecografía es el paso que decide qué sigue"
+  },
+  "RM-CB-042": {
+    titulo: "La deficiencia de riboflavina produce glositis con atrofia de las papilas linguales",
+    imagen: "flujogramas/rm-cb-042-bioquimica-riboflavina-vitamina-b2.svg",
+    alt: "Flujograma: La deficiencia de riboflavina produce glositis con atrofia de las papilas linguales"
+  },
+  "RM-END-039": {
+    titulo: "Diabetes sintomática con pérdida de peso y HbA1c de 9,5 %: se inicia insulina NPH",
+    imagen: "flujogramas/rm-end-039-diabetes-tipo-2-cuando-iniciar-insulina.svg",
+    alt: "Flujograma: Diabetes sintomática con pérdida de peso y HbA1c de 9,5 %: se inicia insulina NPH"
+  },
+  "RM-END-040": {
+    titulo: "Los TSI estimulan el receptor de TSH en la enfermedad de Graves-Basedow",
+    imagen: "flujogramas/rm-end-040-tiroides-anticuerpos-tsi.svg",
+    alt: "Flujograma: Los TSI estimulan el receptor de TSH en la enfermedad de Graves-Basedow"
+  },
+  "RM-END-041": {
+    titulo: "Obesidad abdominal, triglicéridos altos y HDL bajo: el hígado produce VLDL en exceso",
+    imagen: "flujogramas/rm-end-041-sindrome-metabolico-dislipidemia-aterogenica.svg",
+    alt: "Flujograma: Obesidad abdominal, triglicéridos altos y HDL bajo: el hígado produce VLDL en exceso"
+  },
+  "RM-END-042": {
+    titulo: "Hipopotasemia con hipertensión arterial: aldosteronismo primario",
+    imagen: "flujogramas/rm-end-042-hipertension-secundaria-aldosteronismo-primario.svg",
+    alt: "Flujograma: Hipopotasemia con hipertensión arterial: aldosteronismo primario"
+  },
+  "RM-INF-001": {
+    titulo: "Con CD4 mayor de 300 la infección oportunista que aún aparece es la tuberculosis",
+    imagen: "flujogramas/rm-inf-001-vih-infecciones-oportunistas-segun-cd4.svg",
+    alt: "Flujograma: Con CD4 mayor de 300 la infección oportunista que aún aparece es la tuberculosis"
+  },
+  "RM-INF-002": {
+    titulo: "La toxoplasmosis cerebral es la causa frecuente de infección secundaria del SNC en el SIDA",
+    imagen: "flujogramas/rm-inf-002-vih-lesiones-del-sistema-nervioso-central.svg",
+    alt: "Flujograma: La toxoplasmosis cerebral es la causa frecuente de infección secundaria del SNC en el SIDA"
+  },
+  "RM-INF-003": {
+    titulo: "El sarcoma de Kaposi es una neoplasia maligna causada por el herpesvirus humano 8",
+    imagen: "flujogramas/rm-inf-003-vih-sarcoma-de-kaposi.svg",
+    alt: "Flujograma: El sarcoma de Kaposi es una neoplasia maligna causada por el herpesvirus humano 8"
+  },
+  "RM-GAS-001": {
+    titulo: "Cirrótico febril con ascitis y dolor a la descompresión: peritonitis bacteriana espontánea",
+    imagen: "flujogramas/rm-gas-001-hepatologia-ascitis-infectada.svg",
+    alt: "Flujograma: Cirrótico febril con ascitis y dolor a la descompresión: peritonitis bacteriana espontánea"
+  },
+  "RM-INF-004": {
+    titulo: "Hijo de madre con VIH sin tratamiento antirretroviral: suspender la lactancia materna",
+    imagen: "flujogramas/rm-inf-004-vih-prevencion-de-la-transmision-madre-nino.svg",
+    alt: "Flujograma: Hijo de madre con VIH sin tratamiento antirretroviral: suspender la lactancia materna"
+  },
+  "RM-INF-005": {
+    titulo: "Neumonía intrahospitalaria tardía: el germen más frecuente es Pseudomonas",
+    imagen: "flujogramas/rm-inf-005-neumologia-neumonia-nosocomial.svg",
+    alt: "Flujograma: Neumonía intrahospitalaria tardía: el germen más frecuente es Pseudomonas"
+  },
+  "RM-INF-006": {
+    titulo: "En la meningitis tuberculosa se agregan corticoides al tratamiento antituberculoso",
+    imagen: "flujogramas/rm-inf-006-tuberculosis-corticoides-como-adyuvante.svg",
+    alt: "Flujograma: En la meningitis tuberculosa se agregan corticoides al tratamiento antituberculoso"
+  },
+  "RM-NEU-006": {
+    titulo: "Neumonía comunitaria con signos de gravedad: la conducta es radiografía de tórax y hemograma",
+    imagen: "flujogramas/rm-neu-006-neumologia-neumonia-comunitaria-gravedad-y-estudio.svg",
+    alt: "Flujograma: Neumonía comunitaria con signos de gravedad: la conducta es radiografía de tórax y hemograma"
+  },
+  "RM-GIN-004": {
+    titulo: "Flujo verdoso espumoso con cérvix en fresa: tricomoniasis, metronidazol 2 g en dosis única",
+    imagen: "flujogramas/rm-gin-004-ginecologia-vaginitis-por-trichomonas.svg",
+    alt: "Flujograma: Flujo verdoso espumoso con cérvix en fresa: tricomoniasis, metronidazol 2 g en dosis única"
+  },
+  "RM-INF-007": {
+    titulo: "La tuberculosis multidrogorresistente es la resistente al menos a isoniacida y rifampicina",
+    imagen: "flujogramas/rm-inf-007-tuberculosis-definiciones-de-resistencia.svg",
+    alt: "Flujograma: La tuberculosis multidrogorresistente es la resistente al menos a isoniacida y rifampicina"
+  },
+  "RM-INF-008": {
+    titulo: "La uretritis no gonocócica la causa con mayor frecuencia Chlamydia trachomatis",
+    imagen: "flujogramas/rm-inf-008-its-uretritis-no-gonococica.svg",
+    alt: "Flujograma: La uretritis no gonocócica la causa con mayor frecuencia Chlamydia trachomatis"
+  },
+  "RM-INF-009": {
+    titulo: "La fiebre cuartana corresponde a Plasmodium malariae: acceso cada 72 horas",
+    imagen: "flujogramas/rm-inf-009-parasitologia-malaria-y-tipo-de-fiebre.svg",
+    alt: "Flujograma: La fiebre cuartana corresponde a Plasmodium malariae: acceso cada 72 horas"
+  },
+  "RM-CIR-133": {
+    titulo: "En la apendicitis perforada predomina Bacteroides fragilis junto con E. coli",
+    imagen: "flujogramas/rm-cir-133-cirugia-apendicitis-perforada-bacteriologia.svg",
+    alt: "Flujograma: En la apendicitis perforada predomina Bacteroides fragilis junto con E. coli"
+  },
+  "RM-INF-010": {
+    titulo: "La giardiasis puede causar un síndrome pseudoulceroso: dolor epigástrico sin úlcera en la endoscopía",
+    imagen: "flujogramas/rm-inf-010-parasitologia-giardiasis.svg",
+    alt: "Flujograma: La giardiasis puede causar un síndrome pseudoulceroso: dolor epigástrico sin úlcera en la endoscopía"
+  },
+  "RM-INF-011": {
+    titulo: "La temperatura menor de 36 °C es el único criterio de SIRS entre las opciones",
+    imagen: "flujogramas/rm-inf-011-sepsis-criterios-de-sirs.svg",
+    alt: "Flujograma: La temperatura menor de 36 °C es el único criterio de SIRS entre las opciones"
   }
 };
