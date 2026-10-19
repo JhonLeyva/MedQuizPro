@@ -10855,4 +10855,507 @@ window.MQP_ALGORITMOS = {
   "CB-503": { titulo: "Fármaco muy hidrofílico, irritante digestivo y que necesita niveles rápidos: vía endovenosa en infusión", imagen: "flujogramas/farmaco-hidrofilico-irritante-gastrointestinal-via-endovenosa-infusion.svg", alt: "Flujograma: Fármaco muy hidrofílico, irritante digestivo y que necesita niveles rápidos: vía endovenosa en infusión" },
   "SP-230": { titulo: "Comparar el IMC promedio de dos grupos independientes con datos normales: t de Student", imagen: "flujogramas/comparar-imc-dos-centros-salud-normal-homocedasticidad-t-student-independientes.svg", alt: "Flujograma: Comparar el IMC promedio de dos grupos independientes con datos normales: t de Student" },
   "PED-289": { titulo: "Tras una infección: citopenias, transaminasas y triglicéridos altos: síndrome hemofagocítico secundario", imagen: "flujogramas/escolar-infeccion-piel-citopenias-transaminasas-trigliceridos-sindrome-hemofagocitico.svg", alt: "Flujograma: Tras una infección: citopenias, transaminasas y triglicéridos altos: síndrome hemofagocítico secundario" },
+
+  /* ---------- Residentado Médico · lote 1 (100 preguntas, 2014-2019) ---------- */
+
+  "RM-CB-001": {
+    titulo: "Los cartílagos impares de la laringe son epiglotis, tiroides y cricoides",
+    imagen: "flujogramas/rm-cb-001-anatomia-esqueleto-de-la-laringe.svg",
+    alt: "Flujograma: Los cartílagos impares de la laringe son epiglotis, tiroides y cricoides"
+  },
+  "RM-CB-002": {
+    titulo: "La vena cefálica pasa por el surco deltopectoral, que hay que recordar en una flebotomía",
+    imagen: "flujogramas/rm-cb-002-anatomia-miembro-superior.svg",
+    alt: "Flujograma: La vena cefálica pasa por el surco deltopectoral, que hay que recordar en una flebotomía"
+  },
+  "RM-CB-003": {
+    titulo: "La arteria circunfleja es rama de la coronaria izquierda",
+    imagen: "flujogramas/rm-cb-003-anatomia-arterias-coronarias.svg",
+    alt: "Flujograma: La arteria circunfleja es rama de la coronaria izquierda"
+  },
+  "RM-CB-004": {
+    titulo: "El plexo cardiaco nace de las ramas cervicales del vago y del tronco simpático",
+    imagen: "flujogramas/rm-cb-004-anatomia-inervacion-del-corazon.svg",
+    alt: "Flujograma: El plexo cardiaco nace de las ramas cervicales del vago y del tronco simpático"
+  },
+  "RM-CB-005": {
+    titulo: "Las venas bronquiales drenan solo parte de la sangre aportada a los pulmones",
+    imagen: "flujogramas/rm-cb-005-anatomia-circulacion-pulmonar.svg",
+    alt: "Flujograma: Las venas bronquiales drenan solo parte de la sangre aportada a los pulmones"
+  },
+  "RM-CB-006": {
+    titulo: "El gastrocnemio flexiona la planta del pie y, débilmente, la rodilla",
+    imagen: "flujogramas/rm-cb-006-anatomia-musculos-de-la-pierna.svg",
+    alt: "Flujograma: El gastrocnemio flexiona la planta del pie y, débilmente, la rodilla"
+  },
+  "RM-CB-007": {
+    titulo: "La arteria pulmonar derecha pasa por detrás de la aorta ascendente",
+    imagen: "flujogramas/rm-cb-007-anatomia-mediastino-y-hilio.svg",
+    alt: "Flujograma: La arteria pulmonar derecha pasa por detrás de la aorta ascendente"
+  },
+  "RM-CB-008": {
+    titulo: "La articulación coxofemoral es de tipo sinovial",
+    imagen: "flujogramas/rm-cb-008-anatomia-articulaciones.svg",
+    alt: "Flujograma: La articulación coxofemoral es de tipo sinovial"
+  },
+  "RM-CB-009": {
+    titulo: "El nervio laríngeo recurrente inerva las cuerdas vocales; el superior solo el cricotiroideo",
+    imagen: "flujogramas/rm-cb-009-anatomia-inervacion-de-la-laringe.svg",
+    alt: "Flujograma: El nervio laríngeo recurrente inerva las cuerdas vocales; el superior solo el cricotiroideo"
+  },
+  "RM-CB-010": {
+    titulo: "En el adulto sano, la aorta descendente se localiza en el mediastino posterior",
+    imagen: "flujogramas/rm-cb-010-anatomia-compartimentos-del-mediastino.svg",
+    alt: "Flujograma: En el adulto sano, la aorta descendente se localiza en el mediastino posterior"
+  },
+  "RM-CB-011": {
+    titulo: "El diafragma es el principal músculo de la inspiración",
+    imagen: "flujogramas/rm-cb-011-fisiologia-respiratoria-mecanica-ventilatoria.svg",
+    alt: "Flujograma: El diafragma es el principal músculo de la inspiración"
+  },
+  "RM-CB-012": {
+    titulo: "El nodo sinusal se irriga con mayor frecuencia por una rama de la coronaria derecha",
+    imagen: "flujogramas/rm-cb-012-anatomia-sistema-de-conduccion.svg",
+    alt: "Flujograma: El nodo sinusal se irriga con mayor frecuencia por una rama de la coronaria derecha"
+  },
+  "RM-CB-013": {
+    titulo: "La arteria apendicular es rama de la mesentérica superior, a través de la ileocólica",
+    imagen: "flujogramas/rm-cb-013-anatomia-irrigacion-del-intestino.svg",
+    alt: "Flujograma: La arteria apendicular es rama de la mesentérica superior, a través de la ileocólica"
+  },
+  "RM-CIR-001": {
+    titulo: "La lidocaína, anestésico local, también se usa en arritmias ventriculares",
+    imagen: "flujogramas/rm-cir-001-farmacologia-antiarritmicos-vaughan-williams.svg",
+    alt: "Flujograma: La lidocaína, anestésico local, también se usa en arritmias ventriculares"
+  },
+  "RM-CIR-002": {
+    titulo: "La hipotensión es la complicación más frecuente de la anestesia raquídea",
+    imagen: "flujogramas/rm-cir-002-anestesiologia-bloqueo-neuroaxial.svg",
+    alt: "Flujograma: La hipotensión es la complicación más frecuente de la anestesia raquídea"
+  },
+  "RM-CIR-003": {
+    titulo: "La procaína es el anestésico local del grupo éster de la lista",
+    imagen: "flujogramas/rm-cir-003-anestesiologia-anestesicos-locales.svg",
+    alt: "Flujograma: La procaína es el anestésico local del grupo éster de la lista"
+  },
+  "RM-CIR-004": {
+    titulo: "Entre los anestésicos de la lista, la procaína es el único éster",
+    imagen: "flujogramas/rm-cir-004-anestesiologia-anestesicos-locales-variante.svg",
+    alt: "Flujograma: Entre los anestésicos de la lista, la procaína es el único éster"
+  },
+  "RM-CIR-005": {
+    titulo: "La anestesia raquídea se inyecta en el espacio subaracnoideo",
+    imagen: "flujogramas/rm-cir-005-anestesiologia-tecnicas-neuroaxiales.svg",
+    alt: "Flujograma: La anestesia raquídea se inyecta en el espacio subaracnoideo"
+  },
+  "RM-CIR-006": {
+    titulo: "Mujer con colecistitis aguda e insuficiencia cardiaca congestiva: ASA IV según la clave del libro",
+    imagen: "flujogramas/rm-cir-006-anestesiologia-riesgo-anestesico-asa.svg",
+    alt: "Flujograma: Mujer con colecistitis aguda e insuficiencia cardiaca congestiva: ASA IV según la clave del libro"
+  },
+  "RM-CIR-007": {
+    titulo: "En el paciente mal hidratado la complicación más frecuente de la raquídea es la hipotensión",
+    imagen: "flujogramas/rm-cir-007-anestesiologia-prevencion-de-hipotension.svg",
+    alt: "Flujograma: En el paciente mal hidratado la complicación más frecuente de la raquídea es la hipotensión"
+  },
+  "RM-CIR-008": {
+    titulo: "La anestesia neuroaxial (raquídea y epidural) es un tipo de anestesia regional",
+    imagen: "flujogramas/rm-cir-008-anestesiologia-clasificacion-de-la-anestesia.svg",
+    alt: "Flujograma: La anestesia neuroaxial (raquídea y epidural) es un tipo de anestesia regional"
+  },
+  "RM-CIR-009": {
+    titulo: "En un gran quemado con fasciotomía, la complicación más frecuente de la anestesia epidural es la hipotensión",
+    imagen: "flujogramas/rm-cir-009-anestesiologia-epidural-en-el-paciente-quemado.svg",
+    alt: "Flujograma: En un gran quemado con fasciotomía, la complicación más frecuente de la anestesia epidural es la hipotensión"
+  },
+  "RM-CIR-010": {
+    titulo: "La bupivacaína es el anestésico local de acción prolongada",
+    imagen: "flujogramas/rm-cir-010-anestesiologia-duracion-de-los-anestesicos-locales.svg",
+    alt: "Flujograma: La bupivacaína es el anestésico local de acción prolongada"
+  },
+  "RM-CIR-011": {
+    titulo: "Peritonitis difusa por apendicitis complicada: anestesia general",
+    imagen: "flujogramas/rm-cir-011-anestesiologia-eleccion-de-la-tecnica.svg",
+    alt: "Flujograma: Peritonitis difusa por apendicitis complicada: anestesia general"
+  },
+  "RM-CB-014": {
+    titulo: "El riñón tiene el mayor flujo sanguíneo por cada 100 g de tejido",
+    imagen: "flujogramas/rm-cb-014-fisiologia-circulacion-por-organos.svg",
+    alt: "Flujograma: El riñón tiene el mayor flujo sanguíneo por cada 100 g de tejido"
+  },
+  "RM-CB-015": {
+    titulo: "En el período refractario absoluto el miocito no puede responder a ningún estímulo",
+    imagen: "flujogramas/rm-cb-015-fisiologia-cardiaca-potencial-de-accion.svg",
+    alt: "Flujograma: En el período refractario absoluto el miocito no puede responder a ningún estímulo"
+  },
+  "RM-END-001": {
+    titulo: "Crisis hipertensivas y masa suprarrenal izquierda: pedir metanefrinas",
+    imagen: "flujogramas/rm-end-001-endocrinologia-feocromocitoma.svg",
+    alt: "Flujograma: Crisis hipertensivas y masa suprarrenal izquierda: pedir metanefrinas"
+  },
+  "RM-CAR-001": {
+    titulo: "El atenolol es un antagonista del receptor beta",
+    imagen: "flujogramas/rm-car-001-farmacologia-antihipertensivos.svg",
+    alt: "Flujograma: El atenolol es un antagonista del receptor beta"
+  },
+  "RM-CAR-002": {
+    titulo: "La taquicardia sinusal es el primer mecanismo compensador de la caída de la presión en el shock",
+    imagen: "flujogramas/rm-car-002-fisiologia-compensacion-hemodinamica.svg",
+    alt: "Flujograma: La taquicardia sinusal es el primer mecanismo compensador de la caída de la presión en el shock"
+  },
+  "RM-CAR-003": {
+    titulo: "Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo",
+    imagen: "flujogramas/rm-car-003-shock-clasificacion-hemodinamica.svg",
+    alt: "Flujograma: Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo"
+  },
+  "RM-NEF-001": {
+    titulo: "Anasarca con hiponatremia hipervolémica y sodio urinario menor de 20 mmol/L: insuficiencia cardiaca",
+    imagen: "flujogramas/rm-nef-001-hiponatremia-diagnostico-diferencial.svg",
+    alt: "Flujograma: Anasarca con hiponatremia hipervolémica y sodio urinario menor de 20 mmol/L: insuficiencia cardiaca"
+  },
+  "RM-CAR-004": {
+    titulo: "Ingurgitación yugular, hepatomegalia y ascitis son los hallazgos más específicos de insuficiencia cardiaca derecha",
+    imagen: "flujogramas/rm-car-004-insuficiencia-cardiaca-falla-derecha-e-izquierda.svg",
+    alt: "Flujograma: Ingurgitación yugular, hepatomegalia y ascitis son los hallazgos más específicos de insuficiencia cardiaca derecha"
+  },
+  "RM-CAR-005": {
+    titulo: "El soplo de Austin Flint se ausculta en la insuficiencia aórtica",
+    imagen: "flujogramas/rm-car-005-valvulopatias-soplos-diastolicos.svg",
+    alt: "Flujograma: El soplo de Austin Flint se ausculta en la insuficiencia aórtica"
+  },
+  "RM-CAR-006": {
+    titulo: "El ventrículo derecho pequeño por colapso de las cavidades derechas sugiere taponamiento",
+    imagen: "flujogramas/rm-car-006-pericardio-taponamiento-cardiaco.svg",
+    alt: "Flujograma: El ventrículo derecho pequeño por colapso de las cavidades derechas sugiere taponamiento"
+  },
+  "RM-PED-001": {
+    titulo: "En el lactante, la insuficiencia cardiaca se sospecha por disnea y sudoración profusa al lactar",
+    imagen: "flujogramas/rm-ped-001-cardiologia-pediatrica-insuficiencia-cardiaca.svg",
+    alt: "Flujograma: En el lactante, la insuficiencia cardiaca se sospecha por disnea y sudoración profusa al lactar"
+  },
+  "RM-CAR-007": {
+    titulo: "La troponina I es el mejor marcador cardiaco para confirmar un infarto de miocardio",
+    imagen: "flujogramas/rm-car-007-cardiopatia-isquemica-biomarcadores.svg",
+    alt: "Flujograma: La troponina I es el mejor marcador cardiaco para confirmar un infarto de miocardio"
+  },
+  "RM-CAR-008": {
+    titulo: "Hipertensión, diabetes y dislipidemia son los factores de riesgo coronario más importantes",
+    imagen: "flujogramas/rm-car-008-prevencion-cardiovascular-factores-de-riesgo.svg",
+    alt: "Flujograma: Hipertensión, diabetes y dislipidemia son los factores de riesgo coronario más importantes"
+  },
+  "RM-CAR-009": {
+    titulo: "La creatinfosfoquinasa se eleva en el infarto agudo de miocardio",
+    imagen: "flujogramas/rm-car-009-cardiopatia-isquemica-enzimas-cardiacas.svg",
+    alt: "Flujograma: La creatinfosfoquinasa se eleva en el infarto agudo de miocardio"
+  },
+  "RM-CAR-010": {
+    titulo: "Hipertrofia ventricular izquierda: el eje del QRS se desvía a la izquierda (-60°)",
+    imagen: "flujogramas/rm-car-010-electrocardiografia-eje-electrico.svg",
+    alt: "Flujograma: Hipertrofia ventricular izquierda: el eje del QRS se desvía a la izquierda (-60°)"
+  },
+  "RM-CAR-011": {
+    titulo: "Neoplasia intracraneal es contraindicación absoluta de fibrinólisis en el infarto",
+    imagen: "flujogramas/rm-car-011-cardiopatia-isquemica-reperfusion.svg",
+    alt: "Flujograma: Neoplasia intracraneal es contraindicación absoluta de fibrinólisis en el infarto"
+  },
+  "RM-CAR-012": {
+    titulo: "Síncope de esfuerzo, soplo sistólico eyectivo e HVI en un anciano: estenosis aórtica",
+    imagen: "flujogramas/rm-car-012-valvulopatias-estenosis-aortica.svg",
+    alt: "Flujograma: Síncope de esfuerzo, soplo sistólico eyectivo e HVI en un anciano: estenosis aórtica"
+  },
+  "RM-NEU-001": {
+    titulo: "La língula forma parte del lóbulo superior izquierdo",
+    imagen: "flujogramas/rm-neu-001-neumologia-anatomia-lobar.svg",
+    alt: "Flujograma: La língula forma parte del lóbulo superior izquierdo"
+  },
+  "RM-CIR-012": {
+    titulo: "El ensanchamiento del mediastino sugiere lesión de grandes vasos tras un trauma torácico",
+    imagen: "flujogramas/rm-cir-012-trauma-toracico-lesion-de-la-aorta.svg",
+    alt: "Flujograma: El ensanchamiento del mediastino sugiere lesión de grandes vasos tras un trauma torácico"
+  },
+  "RM-NEU-002": {
+    titulo: "La causa más frecuente de quilotórax es el traumatismo, incluido el quirúrgico",
+    imagen: "flujogramas/rm-neu-002-pleura-quilotorax.svg",
+    alt: "Flujograma: La causa más frecuente de quilotórax es el traumatismo, incluido el quirúrgico"
+  },
+  "RM-CIR-013": {
+    titulo: "El eco Doppler venoso evalúa la insuficiencia valvular y la obstrucción de los miembros inferiores",
+    imagen: "flujogramas/rm-cir-013-cirugia-vascular-enfermedad-venosa.svg",
+    alt: "Flujograma: El eco Doppler venoso evalúa la insuficiencia valvular y la obstrucción de los miembros inferiores"
+  },
+  "RM-CB-016": {
+    titulo: "En las arteriolas la adventicia es delgada y de tejido conjuntivo laxo",
+    imagen: "flujogramas/rm-cb-016-histologia-vasos-sanguineos.svg",
+    alt: "Flujograma: En las arteriolas la adventicia es delgada y de tejido conjuntivo laxo"
+  },
+  "RM-CB-017": {
+    titulo: "La túnica media de las arteriolas regula la resistencia vascular periférica",
+    imagen: "flujogramas/rm-cb-017-fisiologia-vascular-resistencia-periferica.svg",
+    alt: "Flujograma: La túnica media de las arteriolas regula la resistencia vascular periférica"
+  },
+  "RM-CAR-013": {
+    titulo: "El amlodipino es el fármaco que causa el edema de miembros inferiores",
+    imagen: "flujogramas/rm-car-013-farmacologia-efectos-adversos-de-antihipertensivos.svg",
+    alt: "Flujograma: El amlodipino es el fármaco que causa el edema de miembros inferiores"
+  },
+  "RM-CAR-014": {
+    titulo: "El taponamiento pericárdico traumático se caracteriza por pulso paradójico",
+    imagen: "flujogramas/rm-car-014-trauma-cardiaco-taponamiento.svg",
+    alt: "Flujograma: El taponamiento pericárdico traumático se caracteriza por pulso paradójico"
+  },
+  "RM-CB-018": {
+    titulo: "Las fibras de Purkinje son las más gruesas y rápidas del sistema de conducción",
+    imagen: "flujogramas/rm-cb-018-fisiologia-cardiaca-sistema-de-conduccion.svg",
+    alt: "Flujograma: Las fibras de Purkinje son las más gruesas y rápidas del sistema de conducción"
+  },
+  "RM-CAR-015": {
+    titulo: "Taquicardia supraventricular estable: maniobras vagales y adenosina",
+    imagen: "flujogramas/rm-car-015-arritmias-taquicardia-supraventricular.svg",
+    alt: "Flujograma: Taquicardia supraventricular estable: maniobras vagales y adenosina"
+  },
+  "RM-CAR-016": {
+    titulo: "Disnea súbita y dolor torácico con angina previa en un adulto mayor: origen cardiaco",
+    imagen: "flujogramas/rm-car-016-medicina-interna-razonamiento-clinico.svg",
+    alt: "Flujograma: Disnea súbita y dolor torácico con angina previa en un adulto mayor: origen cardiaco"
+  },
+  "RM-CB-019": {
+    titulo: "La relajación isobarométrica no existe: la fase correcta es la isovolumétrica",
+    imagen: "flujogramas/rm-cb-019-fisiologia-cardiaca-ciclo-cardiaco.svg",
+    alt: "Flujograma: La relajación isobarométrica no existe: la fase correcta es la isovolumétrica"
+  },
+  "RM-CAR-017": {
+    titulo: "El aliskiren es el inhibidor directo de la renina",
+    imagen: "flujogramas/rm-car-017-farmacologia-sistema-renina-angiotensina.svg",
+    alt: "Flujograma: El aliskiren es el inhibidor directo de la renina"
+  },
+  "RM-CAR-018": {
+    titulo: "El hemocultivo positivo es un criterio mayor para el diagnóstico de endocarditis infecciosa",
+    imagen: "flujogramas/rm-car-018-infecciones-cardiacas-endocarditis.svg",
+    alt: "Flujograma: El hemocultivo positivo es un criterio mayor para el diagnóstico de endocarditis infecciosa"
+  },
+  "RM-CIR-014": {
+    titulo: "Hemotórax: hematocrito del líquido pleural mayor del 50 % del hematocrito de la sangre",
+    imagen: "flujogramas/rm-cir-014-trauma-toracico-hemotorax.svg",
+    alt: "Flujograma: Hemotórax: hematocrito del líquido pleural mayor del 50 % del hematocrito de la sangre"
+  },
+  "RM-CAR-019": {
+    titulo: "La troponina es el marcador de elección del infarto en emergencia",
+    imagen: "flujogramas/rm-car-019-cardiopatia-isquemica-biomarcadores.svg",
+    alt: "Flujograma: La troponina es el marcador de elección del infarto en emergencia"
+  },
+  "RM-CAR-020": {
+    titulo: "ST elevado en II, III y aVF con bradicardia e hipotensión: infarto de cara inferior",
+    imagen: "flujogramas/rm-car-020-cardiopatia-isquemica-infarto-inferior.svg",
+    alt: "Flujograma: ST elevado en II, III y aVF con bradicardia e hipotensión: infarto de cara inferior"
+  },
+  "RM-CIR-015": {
+    titulo: "Herida de bala torácica con hemotórax y colapso del pulmón: drenaje torácico inmediato",
+    imagen: "flujogramas/rm-cir-015-trauma-toracico-hemotorax-masivo.svg",
+    alt: "Flujograma: Herida de bala torácica con hemotórax y colapso del pulmón: drenaje torácico inmediato"
+  },
+  "RM-NEU-003": {
+    titulo: "El timoma es la tumoración más frecuente del mediastino anterior en el adulto",
+    imagen: "flujogramas/rm-neu-003-neumologia-tumores-del-mediastino.svg",
+    alt: "Flujograma: El timoma es la tumoración más frecuente del mediastino anterior en el adulto"
+  },
+  "RM-CIR-016": {
+    titulo: "Tromboflebitis superficial: elevación del miembro y calor local como medidas conservadoras",
+    imagen: "flujogramas/rm-cir-016-cirugia-vascular-tromboflebitis-superficial.svg",
+    alt: "Flujograma: Tromboflebitis superficial: elevación del miembro y calor local como medidas conservadoras"
+  },
+  "RM-CB-020": {
+    titulo: "A dosis altas la adrenalina eleva la presión por predominio del efecto alfa-1",
+    imagen: "flujogramas/rm-cb-020-farmacologia-catecolaminas.svg",
+    alt: "Flujograma: A dosis altas la adrenalina eleva la presión por predominio del efecto alfa-1"
+  },
+  "RM-CAR-021": {
+    titulo: "Insuficiencia mitral: soplo holosistólico de tono alto en el ápex irradiado a la axila",
+    imagen: "flujogramas/rm-car-021-valvulopatias-auscultacion.svg",
+    alt: "Flujograma: Insuficiencia mitral: soplo holosistólico de tono alto en el ápex irradiado a la axila"
+  },
+  "RM-CAR-022": {
+    titulo: "La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco",
+    imagen: "flujogramas/rm-car-022-cardiologia-fibrilacion-auricular-y-embolia.svg",
+    alt: "Flujograma: La fibrilación auricular es la causa más frecuente de embolia de origen cardiaco"
+  },
+  "RM-CAR-023": {
+    titulo: "Infarto lateral: alteraciones en DI y aVL (lateral alto) y V5-V6 (lateral bajo)",
+    imagen: "flujogramas/rm-car-023-cardiopatia-isquemica-localizacion-por-ecg.svg",
+    alt: "Flujograma: Infarto lateral: alteraciones en DI y aVL (lateral alto) y V5-V6 (lateral bajo)"
+  },
+  "RM-CB-021": {
+    titulo: "La cardionatrina (péptido natriurético atrial) se sintetiza en el miocardio auricular",
+    imagen: "flujogramas/rm-cb-021-fisiologia-peptidos-natriureticos.svg",
+    alt: "Flujograma: La cardionatrina (péptido natriurético atrial) se sintetiza en el miocardio auricular"
+  },
+  "RM-CAR-024": {
+    titulo: "Hipertensión grado 2 en un paciente con riesgo alto: tratamiento combinado desde el inicio",
+    imagen: "flujogramas/rm-car-024-hipertension-arterial-conducta-inicial.svg",
+    alt: "Flujograma: Hipertensión grado 2 en un paciente con riesgo alto: tratamiento combinado desde el inicio"
+  },
+  "RM-NEU-004": {
+    titulo: "La tomografía de alta resolución es el examen que mejor confirma las bronquiectasias",
+    imagen: "flujogramas/rm-neu-004-neumologia-bronquiectasias.svg",
+    alt: "Flujograma: La tomografía de alta resolución es el examen que mejor confirma las bronquiectasias"
+  },
+  "RM-CIR-017": {
+    titulo: "El eco Doppler dúplex es el método ideal para diagnosticar la insuficiencia venosa periférica",
+    imagen: "flujogramas/rm-cir-017-cirugia-vascular-insuficiencia-venosa.svg",
+    alt: "Flujograma: El eco Doppler dúplex es el método ideal para diagnosticar la insuficiencia venosa periférica"
+  },
+  "RM-END-002": {
+    titulo: "Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias",
+    imagen: "flujogramas/rm-end-002-endocrinologia-feocromocitoma-variante.svg",
+    alt: "Flujograma: Crisis hipertensivas con masa suprarrenal: metanefrinas urinarias"
+  },
+  "RM-CAR-025": {
+    titulo: "ST elevado y T negativas en DII, DIII y aVF: infarto de cara inferior",
+    imagen: "flujogramas/rm-car-025-cardiopatia-isquemica-infarto-inferior-variante.svg",
+    alt: "Flujograma: ST elevado y T negativas en DII, DIII y aVF: infarto de cara inferior"
+  },
+  "RM-CAR-026": {
+    titulo: "La fibrilación auricular con enfermedad mitral es la causa más frecuente de embolia cardiaca",
+    imagen: "flujogramas/rm-car-026-cardiologia-cardioembolia.svg",
+    alt: "Flujograma: La fibrilación auricular con enfermedad mitral es la causa más frecuente de embolia cardiaca"
+  },
+  "RM-CB-022": {
+    titulo: "Los nodos sinusal y auriculoventricular se irrigan en su mayoría por la coronaria derecha",
+    imagen: "flujogramas/rm-cb-022-anatomia-irrigacion-del-sistema-de-conduccion.svg",
+    alt: "Flujograma: Los nodos sinusal y auriculoventricular se irrigan en su mayoría por la coronaria derecha"
+  },
+  "RM-CAR-027": {
+    titulo: "Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo",
+    imagen: "flujogramas/rm-car-027-shock-tipos-y-conducta.svg",
+    alt: "Flujograma: Pulso filiforme, extremidades frías y llenado capilar lento: shock con gasto cardiaco bajo"
+  },
+  "RM-CIR-018": {
+    titulo: "Herida torácica baja con ruidos hidroaéreos en el tórax: hernia diafragmática traumática",
+    imagen: "flujogramas/rm-cir-018-trauma-toracoabdominal-diafragma.svg",
+    alt: "Flujograma: Herida torácica baja con ruidos hidroaéreos en el tórax: hernia diafragmática traumática"
+  },
+  "RM-CAR-028": {
+    titulo: "En el edema pulmonar cardiogénico aumenta la presión hidrostática capilar",
+    imagen: "flujogramas/rm-car-028-insuficiencia-cardiaca-edema-agudo-de-pulmon.svg",
+    alt: "Flujograma: En el edema pulmonar cardiogénico aumenta la presión hidrostática capilar"
+  },
+  "RM-CIR-019": {
+    titulo: "La prueba ideal para evaluar las várices es el eco Doppler",
+    imagen: "flujogramas/rm-cir-019-cirugia-vascular-varices.svg",
+    alt: "Flujograma: La prueba ideal para evaluar las várices es el eco Doppler"
+  },
+  "RM-CIR-020": {
+    titulo: "Tromboflebitis superficial con riesgo de extensión: anticoagulación por seis semanas",
+    imagen: "flujogramas/rm-cir-020-cirugia-vascular-duracion-del-tratamiento.svg",
+    alt: "Flujograma: Tromboflebitis superficial con riesgo de extensión: anticoagulación por seis semanas"
+  },
+  "RM-NEU-005": {
+    titulo: "Tromboembolia pulmonar sin inestabilidad: enoxaparina 1 mg/kg cada 12 horas por vía subcutánea",
+    imagen: "flujogramas/rm-neu-005-neumologia-tromboembolia-pulmonar.svg",
+    alt: "Flujograma: Tromboembolia pulmonar sin inestabilidad: enoxaparina 1 mg/kg cada 12 horas por vía subcutánea"
+  },
+  "RM-CAR-029": {
+    titulo: "Fibrilación auricular rápida con disnea: digoxina entre las opciones de control de frecuencia",
+    imagen: "flujogramas/rm-car-029-arritmias-control-de-la-frecuencia-en-fa.svg",
+    alt: "Flujograma: Fibrilación auricular rápida con disnea: digoxina entre las opciones de control de frecuencia"
+  },
+  "RM-CAR-030": {
+    titulo: "Anemia grave por hemorragia digestiva con isquemia: infarto tipo 2",
+    imagen: "flujogramas/rm-car-030-cardiopatia-isquemica-definicion-universal.svg",
+    alt: "Flujograma: Anemia grave por hemorragia digestiva con isquemia: infarto tipo 2"
+  },
+  "RM-CAR-031": {
+    titulo: "Los IECA están contraindicados en la gestante hipertensa",
+    imagen: "flujogramas/rm-car-031-obstetricia-hipertension-y-farmacos.svg",
+    alt: "Flujograma: Los IECA están contraindicados en la gestante hipertensa"
+  },
+  "RM-HEM-001": {
+    titulo: "La warfarina se controla con el tiempo de protrombina expresado como INR",
+    imagen: "flujogramas/rm-hem-001-hematologia-anticoagulacion-oral.svg",
+    alt: "Flujograma: La warfarina se controla con el tiempo de protrombina expresado como INR"
+  },
+  "RM-CAR-032": {
+    titulo: "El taponamiento pericárdico produce shock obstructivo",
+    imagen: "flujogramas/rm-car-032-shock-clasificacion.svg",
+    alt: "Flujograma: El taponamiento pericárdico produce shock obstructivo"
+  },
+  "RM-CAR-033": {
+    titulo: "La hidroclorotiazida puede empeorar el perfil lipídico: se evita en dislipidemia grave",
+    imagen: "flujogramas/rm-car-033-farmacologia-efectos-metabolicos-de-las-tiazidas.svg",
+    alt: "Flujograma: La hidroclorotiazida puede empeorar el perfil lipídico: se evita en dislipidemia grave"
+  },
+  "RM-CIR-021": {
+    titulo: "Dolor torácico con pérdida de conciencia y pulso presente: primero la vía aérea y la respiración",
+    imagen: "flujogramas/rm-cir-021-urgencias-paciente-grave-sin-paro.svg",
+    alt: "Flujograma: Dolor torácico con pérdida de conciencia y pulso presente: primero la vía aérea y la respiración"
+  },
+  "RM-NEF-002": {
+    titulo: "Hipertenso con enfermedad renal y hematuria: IECA como antihipertensivo",
+    imagen: "flujogramas/rm-nef-002-nefrologia-hipertension-y-enfermedad-renal-cronica.svg",
+    alt: "Flujograma: Hipertenso con enfermedad renal y hematuria: IECA como antihipertensivo"
+  },
+  "RM-CIR-022": {
+    titulo: "Herida precordial con yugulares llenas, ruidos apagados y PVC de 15 cm de agua: taponamiento cardiaco",
+    imagen: "flujogramas/rm-cir-022-trauma-cardiaco-taponamiento.svg",
+    alt: "Flujograma: Herida precordial con yugulares llenas, ruidos apagados y PVC de 15 cm de agua: taponamiento cardiaco"
+  },
+  "RM-CB-023": {
+    titulo: "La precarga es el volumen al final de la diástole",
+    imagen: "flujogramas/rm-cb-023-fisiologia-cardiaca-precarga-y-poscarga.svg",
+    alt: "Flujograma: La precarga es el volumen al final de la diástole"
+  },
+  "RM-CAR-034": {
+    titulo: "Emergencia hipertensiva: bajar la presión diastólica hasta 100-105 mmHg",
+    imagen: "flujogramas/rm-car-034-hipertension-emergencia-hipertensiva.svg",
+    alt: "Flujograma: Emergencia hipertensiva: bajar la presión diastólica hasta 100-105 mmHg"
+  },
+  "RM-CAR-035": {
+    titulo: "En el síndrome posparo, la encefalopatía anóxica define el pronóstico",
+    imagen: "flujogramas/rm-car-035-reanimacion-sindrome-posparo-cardiaco.svg",
+    alt: "Flujograma: En el síndrome posparo, la encefalopatía anóxica define el pronóstico"
+  },
+  "RM-CAR-036": {
+    titulo: "La troponina comienza a elevarse a las 4 horas del inicio del infarto",
+    imagen: "flujogramas/rm-car-036-cardiopatia-isquemica-cinetica-de-la-troponina.svg",
+    alt: "Flujograma: La troponina comienza a elevarse a las 4 horas del inicio del infarto"
+  },
+  "RM-CAR-037": {
+    titulo: "Taquicardia supraventricular con QRS estrecho que no cede con maniobras vagales: adenosina",
+    imagen: "flujogramas/rm-car-037-arritmias-taquicardia-por-reentrada.svg",
+    alt: "Flujograma: Taquicardia supraventricular con QRS estrecho que no cede con maniobras vagales: adenosina"
+  },
+  "RM-NEF-003": {
+    titulo: "Diabético con HTA y proteinuria persistente: enalapril",
+    imagen: "flujogramas/rm-nef-003-nefrologia-nefropatia-diabetica.svg",
+    alt: "Flujograma: Diabético con HTA y proteinuria persistente: enalapril"
+  },
+  "RM-CIR-023": {
+    titulo: "Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda",
+    imagen: "flujogramas/rm-cir-023-cirugia-apendicitis-aguda.svg",
+    alt: "Flujograma: Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda"
+  },
+  "RM-CIR-024": {
+    titulo: "La anorexia es el síntoma casi constante de la apendicitis: su ausencia pone en duda el diagnóstico",
+    imagen: "flujogramas/rm-cir-024-cirugia-apendicitis-puntaje-de-alvarado.svg",
+    alt: "Flujograma: La anorexia es el síntoma casi constante de la apendicitis: su ausencia pone en duda el diagnóstico"
+  },
+  "RM-CIR-025": {
+    titulo: "La malrotación y la falta de fijación del ciego son el factor más asociado al vólvulo cecal",
+    imagen: "flujogramas/rm-cir-025-cirugia-obstruccion-intestinal-volvulo-cecal.svg",
+    alt: "Flujograma: La malrotación y la falta de fijación del ciego son el factor más asociado al vólvulo cecal"
+  },
+  "RM-CIR-026": {
+    titulo: "Las bridas y adherencias son la primera causa de obstrucción intestinal tras una cirugía abdominal",
+    imagen: "flujogramas/rm-cir-026-cirugia-obstruccion-intestinal-posoperatoria.svg",
+    alt: "Flujograma: Las bridas y adherencias son la primera causa de obstrucción intestinal tras una cirugía abdominal"
+  },
+  "RM-CIR-027": {
+    titulo: "La seudoobstrucción aguda del colon (Ogilvie) se asocia al uso de opioides",
+    imagen: "flujogramas/rm-cir-027-cirugia-seudoobstruccion-del-colon.svg",
+    alt: "Flujograma: La seudoobstrucción aguda del colon (Ogilvie) se asocia al uso de opioides"
+  },
+  "RM-CIR-028": {
+    titulo: "Obstrucción intestinal proximal: hipopotasemia y alcalosis metabólica",
+    imagen: "flujogramas/rm-cir-028-cirugia-trastornos-acido-base-en-la-obstruccion.svg",
+    alt: "Flujograma: Obstrucción intestinal proximal: hipopotasemia y alcalosis metabólica"
+  }
 };

@@ -5,10 +5,11 @@ import engine7
 from engine7 import build7
 from c_rm import FRM
 out, mod, ids = sys.argv[1], sys.argv[2], sys.argv[3:]
-try:
-    importlib.import_module(mod)
-except AssertionError as e:
-    print("ERROR de ficha:", e); sys.exit(1)
+for _m in mod.split(","):
+    try:
+        importlib.import_module(_m)
+    except AssertionError as e:
+        print("ERROR de ficha:", _m, e); sys.exit(1)
 specs = {f["id"]: f for f in FRM}
 ids = ids or [f["id"] for f in FRM]
 shutil.rmtree(out + "/flujogramas", ignore_errors=True); os.makedirs(out + "/flujogramas")
