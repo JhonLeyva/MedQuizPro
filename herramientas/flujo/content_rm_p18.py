@@ -198,7 +198,7 @@ S("checklist", "RM-INF-043", "El dolor abdominal intenso y continuo es un signo 
                 ("Hepatomegalia mayor de 2 cm; hematocrito en alza con plaquetas en descenso", "Congestión y hemoconcentración", False)],
          no_hacer=[("Náuseas solas", "Sin vómito persistente no son alarma"), ("Trombocitosis", "No: se espera trombocitopenia"), ("Poliuria", "No: hay oliguria si hay hipovolemia"),
                    ("Fiebre", "Es el síntoma de la fase febril, no una alarma")],
-         veredicto=("Dolor abdominal intenso y continuo = signo de alarma", "Con cualquiera: hospitalizar e hidratar por vía intravenosa guiada por el hematocrito."),
+         veredicto=("Dolor abdominal intenso y continuo = signo de alarma", "Con cualquiera: hospitalizar e hidratar por vía intravenosa guiada por el hematocrito.")),
   clasif=dict(titulo="Clasificación clínica del dengue (OMS / NTS 211-MINSA)", cols=["Categoría", "Criterios", "Conducta"],
               filas=[["Dengue sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, mialgias o artralgias, cefalea o dolor retroocular, petequias o prueba del torniquete positiva, leucopenia", "Manejo ambulatorio: hidratación oral, paracetamol (sin AINE) y control diario"],
                      ["Dengue con signos de alarma", "Dolor abdominal intenso y continuo, vómitos persistentes, acumulación de líquidos, sangrado de mucosas, letargia o irritabilidad, hepatomegalia > 2 cm, hematocrito en alza con plaquetas en descenso", "Hospitalizar: cristaloides intravenosos guiados por el hematocrito"],

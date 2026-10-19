@@ -318,7 +318,7 @@ S("laboratorio", "RM-INF-034", "HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis
                      ["HBeAg (−) infección crónica (portador inactivo)", "Negativo, anti-HBe (+)", "Bajo (< 2000 UI/mL)", "Normal", "Vigilancia periódica"],
                      ["HBeAg (−) hepatitis crónica", "Negativo", "> 2000 UI/mL", "Elevada", "Evaluar tratamiento"],
                      ["Fase HBsAg (−)", "Negativo", "Indetectable o mínimo", "Normal", "Anti-HBc (+); vigilar si hay inmunosupresión"]],
-              caso=1, ancho_primera=190, nota="Fases descritas por EASL 2017 y vigentes en la práctica; la guía EASL 2025 simplifica el criterio de tratamiento."))
+              caso=1, ancho_primera=250, nota="Fases descritas por EASL 2017 y vigentes en la práctica; la guía EASL 2025 simplifica el criterio de tratamiento."))
 
 # 16 · PIRÁMIDE · artritis séptica
 S("piramide", "RM-REU-005", "La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos",
@@ -367,4 +367,4 @@ S("checklist", "RM-INF-035", "En el dengue se evita el metamizol, los AINE y la 
               filas=[["Sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, dolor, leucopenia o prueba del torniquete (+)", "Hidratación oral, paracetamol y control ambulatorio"],
                      ["Con signos de alarma", "Dolor abdominal, vómitos persistentes, líquido acumulado, sangrado de mucosas, letargia, hepatomegalia, aumento del hematocrito con caída de plaquetas", "Hospitalizar; cristaloides endovenosos y vigilancia"],
                      ["Dengue grave", "Fuga de plasma con choque o dificultad respiratoria, hemorragia grave o falla de órgano", "Reanimación con fluidos en cuidados intensivos"]],
-              caso=0, ancho_primera=150, nota="Paciente de 5 días de fiebre sin signos de alarma descritos: categoría sin signos de alarma."))
+              caso=0, ancho_primera=220, nota="Paciente de 5 días de fiebre sin signos de alarma descritos: categoría sin signos de alarma."))

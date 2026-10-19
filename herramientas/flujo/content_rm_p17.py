@@ -18,7 +18,7 @@ S("lectura", "RM-INF-036", "Cervicitis mucopurulenta: la causan Neisseria gonorr
   op=("¿Agente de la endocervicitis?", ["Sí: diplococo que infecta el epitelio columnar", "No: causa vaginosis, no inflama el cuello", "No: produce úlceras, no cervicitis habitual", "No: no es causa genital habitual", "No: produce verrugas o displasia"]),
   d=dict(rotulo="Cómo se reconoce el gonococo en una tinción", img_titulo="Tinción de exudado: diplococos dentro de neutrófilos",
          img=PX("gonococo.jpg", 330, credito="Beards · Wikimedia Commons · CC BY-SA 4.0"),
-         pines=[(0.92, 0.38), (0.28, 0.52), (0.55, 0.30)], img_pie="Imagen de referencia, no de la paciente: diplococos gramnegativos dentro de neutrófilos.",
+         pines=[(0.92, 0.38), (0.28, 0.52), (0.55, 0.30)], img_pie="Imagen referencial de diplococos gramnegativos dentro de neutrófilos en un exudado.",
          pasos=[("1. Neutrófilos abundantes", "Núcleo lobulado: la inflamación mucopurulenta del cuello.", False),
                 ("2. Diplococos intracelulares", "Puntos en pares dentro del citoplasma: Neisseria gonorrhoeae.", False),
                 ("3. Cuello friable con pus", "El exudado sale del canal endocervical y sangra al roce.", False),
@@ -59,8 +59,8 @@ S("fases", "RM-CB-044", "Picadura en un rincón y placa livedoide con orina oscu
                 ("18 horas", "Daño sistémico", "ORINA OSCURA", ["Hemólisis y hemoglobinuria", "Fiebre e ictericia", "Vigilar el riñón"]),
                 ("Días a semanas", "Necrosis", "ESCARA Y ÚLCERA", ["Costra negra", "Curación lenta", "Cicatriz"])]),
   banda=B("La araña del rincón", PX("loxosceles.jpg", 280, marcas=[("circulo", 0.548, 0.405, 0.1, "Mancha en violín", 0.06, 0.06)], credito="Mampato · Wikimedia Commons · dominio público"),
-          [("Loxosceles laeta", "Pardo-amarillenta, patas largas y finas; vive en rincones y ropa."), ("Imagen de referencia", "No es el ejemplar del caso."),
-           ("Qué hacer", "Lavar, frío local y vigilar hemólisis; el suero antiloxosceles es precoz.")], pie="Araña del rincón (Loxosceles)", rotulo="Imagen de referencia"))
+          [("Loxosceles laeta", "Pardo-amarillenta, patas largas y finas; vive en rincones y ropa."), ("Imagen referencial", "Muestra la mancha en forma de violín del dorso."),
+           ("Qué hacer", "Lavar, frío local y vigilar hemólisis; el suero antiloxosceles es precoz.")], pie="Imagen referencial de una araña del rincón (Loxosceles)", rotulo="Imagen referencial de la araña"))
 
 # 4 · LABORATORIO · vaginosis bacteriana
 S("laboratorio", "RM-GIN-020", "Flujo fino, pH 6, olor a pescado con KOH y células clave: vaginosis bacteriana",
@@ -79,7 +79,12 @@ S("laboratorio", "RM-GIN-020", "Flujo fino, pH 6, olor a pescado con KOH y célu
             ("Prueba de KOH", "Olor a pescado", "Sin olor", "↑", "Criterio 3: las aminas volátiles se liberan con el álcali."),
             ("Células clave", "Presentes", "Ausentes", "↑", "Criterio 4: células epiteliales cubiertas de bacilos en el fresco."),
             ("Lactobacilos", "Disminuidos", "Predominan", "↓", "Menos ácido láctico y sobrecrecimiento de anaerobios.")],
-         veredicto=("4 de 4 criterios de Amsel = vaginosis bacteriana", "Bastan 3; se trata con metronidazol 7 días, sin tratar a la pareja.")))
+         veredicto=("4 de 4 criterios de Amsel = vaginosis bacteriana", "Bastan 3; se trata con metronidazol 7 días, sin tratar a la pareja.")),
+  clasif=dict(titulo="Puntaje de Nugent en la tinción de Gram (0-10)", cols=["Puntaje", "Interpretación", "Conducta"],
+              filas=[["0-3", "Flora normal: predominan los lactobacilos", "Sin tratamiento"],
+                     ["4-6", "Flora intermedia", "Correlacionar con los criterios de Amsel y repetir si persisten síntomas"],
+                     ["7-10", "Vaginosis bacteriana", "Tratar si hay síntomas o gestación: metronidazol 500 mg c/12 h por 7 días"]],
+              caso=2, ancho_primera=135, nota="Suma tres morfotipos: lactobacilos, Gardnerella/Bacteroides y Mobiluncus. Es la prueba de referencia; Amsel es la clínica."))
 
 # 5 · CRITERIOS · malaria
 S("criterios", "RM-INF-037", "Fiebre terciana, hepatoesplenomegalia y viaje a Piura: malaria no complicada",
@@ -99,7 +104,7 @@ S("criterios", "RM-INF-037", "Fiebre terciana, hepatoesplenomegalia y viaje a Pi
          umbral="se confirma con gota gruesa", veredicto="Terciana + zona endémica + hemólisis = malaria hasta demostrar lo contrario",
          img_titulo="Frotis: Plasmodium vivax",
          img=PX("vivax_troz.jpg", 310, marcas=[("flecha", 0.48, 0.32, 0.84, 0.18, "Trofozoíto"), ("flecha", 0.55, 0.82, 0.90, 0.64, "Glóbulo rojo parasitado")], credito="CDC/PHIL · Wikimedia Commons · dominio público"),
-         img_pie="Imagen de referencia, no de la paciente: trofozoítos dentro de glóbulos rojos agrandados.",
+         img_pie="Imagen referencial de trofozoítos de P. vivax dentro de glóbulos rojos agrandados.",
          claves_titulo="Cómo se decide el manejo", claves=[("No complicada (este caso)", ["Sin criterios de gravedad: tratamiento oral"], True), ("Grave", ["Conciencia alterada, shock, Hb < 7: EV y hospital"], False), ("Siempre", ["Notificar el caso y confirmar con gota gruesa"], False)]))
 
 # 6 · MATRIZ · cistitis en la gestación
@@ -187,7 +192,7 @@ S("lectura", "RM-OFT-008", "Otitis media supurada crónica: la meningitis es su 
   op=("¿Complicación más frecuente?", ["Sí: complicación intracraneal más frecuente", "No: indica daño laberíntico", "No: no es complicación del oído", "No: no es complicación de la otitis", "No: se afecta el VII par, no el V"]),
   d=dict(rotulo="Cómo leer la otoscopía de una otitis media crónica", img_titulo="Otoscopía: colesteatoma con perforación grande",
          img=PX("otitis_cronica.jpg", 300, credito="Hawke · Wikimedia Commons · CC BY 4.0"),
-         pines=[(0.38, 0.47), (0.50, 0.66)], img_pie="Imagen de referencia, no del paciente: oído con otitis media crónica complicada con colesteatoma.",
+         pines=[(0.38, 0.47), (0.50, 0.66)], img_pie="Imagen referencial de una otitis media crónica con perforación grande y colesteatoma.",
          pasos=[("1. Detritus y secreción", "El material blanquecino y amarillento es la otorrea persistente.", False),
                 ("2. Perforación grande", "El defecto de la membrana no cierra y deja ver el oído medio.", False),
                 ("3. Hipoacusia de conducción", "El sonido no se transmite bien: es la pérdida auditiva del caso.", False),
@@ -226,7 +231,15 @@ S("tarjetas", "RM-NEF-007", "En la enfermedad renal crónica, la nitrofurantoín
          cards=[dict(titulo="Nitrofurantoína (este caso)", datos=[("Efecto", "Neuropatía sensitivomotora", True), ("Riesgo", "ERC, diabetes, edad, uso prolongado", True), ("Beers 2023", "Evitar con depuración < 30 mL/min", True)], pie="Se acumula en la insuficiencia renal."),
                 dict(titulo="Tiamazol", datos=[("Efecto", "Agranulocitosis y colestasis", False), ("Alerta", "Fiebre o faringitis: hemograma", False), ("Neuropatía", "No es su efecto", False)], pie="Antitiroideo de síntesis."),
                 dict(titulo="Enalapril y furosemida", datos=[("Enalapril", "Tos, angioedema, hiperpotasemia", False), ("Furosemida", "Ototoxicidad y alteración iónica", False), ("Neuropatía", "No es su efecto", False)], pie="Antihipertensivo y diurético."),
-                dict(titulo="Levotiroxina", datos=[("Exceso", "Hipertiroidismo iatrogénico", False), ("Signos", "Taquicardia, temblor, pérdida de peso", False), ("Neuropatía", "No es su efecto", False)], pie="Reemplazo hormonal.")]))
+                dict(titulo="Levotiroxina", datos=[("Exceso", "Hipertiroidismo iatrogénico", False), ("Signos", "Taquicardia, temblor, pérdida de peso", False), ("Neuropatía", "No es su efecto", False)], pie="Reemplazo hormonal.")]),
+  clasif=dict(titulo="Estadios de la enfermedad renal crónica (KDIGO 2024)", cols=["Estadio", "TFG (mL/min/1,73 m²)", "Descripción", "Nitrofurantoína (Beers 2023)"],
+              filas=[["G1", "≥ 90", "Normal o alta", "Sin ajuste por función renal"],
+                     ["G2", "60-89", "Levemente disminuida", "Sin ajuste; evitar uso prolongado"],
+                     ["G3a", "45-59", "Leve a moderadamente disminuida", "Precaución; no como supresión prolongada"],
+                     ["G3b", "30-44", "Moderada a gravemente disminuida", "Precaución; no como supresión prolongada"],
+                     ["G4", "15-29", "Gravemente disminuida", "Evitar (depuración < 30 mL/min)"],
+                     ["G5", "< 15", "Falla renal", "Evitar"]],
+              caso=[2, 3], ancho_primera=135, nota="Estadio III = G3a o G3b. Clasificar además por albuminuria (A1-A3)."))
 
 # 13 · RADIAL · Clostridioides difficile
 S("radial", "RM-INF-038", "Diarrea y fiebre tras un antibiótico: el agente más frecuente es Clostridioides difficile",
@@ -242,7 +255,14 @@ S("radial", "RM-INF-038", "Diarrea y fiebre tras un antibiótico: el agente más
   d=dict(rotulo="Qué agente produce diarrea tras un antibiótico", centro="DIARREA TRAS ANTIBIÓTICO", centro_sub="3 días, fiebre y cólico", ans=0,
          items=[("CLOSTRIDIOIDES DIFFICILE", ["Antibiótico previo: toxinas A y B", "Colitis pseudomembranosa"]), ("ROTAVIRUS", ["Diarrea acuosa viral", "Sin sangre; típico del lactante"]),
                 ("CAMPYLOBACTER JEJUNI", ["Alimento contaminado", "Sin antibiótico previo"]), ("VIBRIO CHOLERAE", ["Diarrea acuosa profusa", "Sin sangre"]), ("SHIGELLA", ["Disentería con pujo y tenesmo", "Sin antibiótico previo"])],
-         ruta=["Antibiótico previo", "Toxinas A y B", "GDH + toxina o PCR", "Fidaxomicina o vancomicina oral"]))
+         ruta=["Antibiótico previo", "Toxinas A y B", "GDH + toxina o PCR", "Fidaxomicina o vancomicina oral"]),
+  clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA)", cols=["Gravedad", "Criterio", "Tratamiento"],
+              filas=[["No grave", "Leucocitos ≤ 15 000/µL y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h por 10 días (o vancomicina 125 mg c/6 h)"],
+                     ["Grave", "Leucocitos ≥ 15 000/µL o creatinina > 1,5 mg/dL", "Igual: fidaxomicina o vancomicina oral por 10 días"],
+                     ["Fulminante", "Hipotensión o shock, íleo o megacolon tóxico", "Vancomicina 500 mg c/6 h oral más metronidazol EV; valorar cirugía"]],
+              caso=None, ancho_primera=120, nota="Definiciones IDSA/SHEA 2017, mantenidas en la actualización 2021. Si hay íleo se añade vancomicina rectal."))
+
+# 14
 
 # 14 · BALANZA · transmisión vertical del VIH
 S("balanza", "RM-GIN-024", "La ruptura de membranas mayor de 4 horas aumenta el riesgo de transmisión vertical del VIH",
@@ -272,10 +292,10 @@ S("comparador", "RM-INF-039", "En el VIH con CD4 menor de 200, la tuberculosis s
   "MINSA, NTS 221-MINSA/DGIESP-2024; MINSA, NTS 169-MINSA/2020/DGIESP (VIH); Harrison 21.ª ed. (2022)",
   op=("¿Patrón más frecuente?", ["No: ocurre, pero no es el patrón principal", "Sí: patrón de la inmunosupresión avanzada", "No: es de la inmunidad conservada", "No: no es el patrón típico", "No: frecuente, pero no el principal"], {0: "Linfoadenopatía intratorácica"}),
   d=dict(rotulo="Dos radiografías: inmunidad conservada frente a CD4 menor de 200", IH=250, tag="CD4 < 200",
-         imgs=[dict(titulo="CD4 alto: cavitación apical", archivo="tb_cavitaria.jpg", pie="Las puntas de flecha marcan los infiltrados y las flechas negras rodean la caverna.", credito="CDC · Wikimedia Commons · dominio público"),
+         imgs=[dict(titulo="CD4 alto: cavitación apical", archivo="tb_cavitaria.jpg", pie="Imagen referencial de tuberculosis cavitaria apical: las puntas de flecha marcan los infiltrados y las flechas negras, la caverna.", credito="CDC · Wikimedia Commons · dominio público"),
                dict(titulo="CD4 < 200: patrón difuso", archivo="tb_miliar.jpg", on=True,
                     marcas=[("flecha", 0.30, 0.42, 0.10, 0.84, "Infiltrado difuso"), ("flecha", 0.72, 0.50, 0.90, 0.84, "Ambos pulmones")],
-                    pie="Imagen de referencia: infiltrados difusos bilaterales sin cavernas.", credito="Herreros y col. · Wikimedia Commons · CC BY 4.0")],
+                    pie="Imagen referencial de tuberculosis con infiltrados difusos bilaterales sin cavernas.", credito="Herreros y col. · Wikimedia Commons · CC BY 4.0")],
          lectura_titulo="Cómo interpretarlas",
          lectura=[("CD4 alto", ["Infiltrados en ápices con cavitación."], False),
                   ("CD4 menor de 200", ["Intersticial difuso o miliar, sin cavernas; lóbulos medios e inferiores."], True),

@@ -25,7 +25,12 @@ S("criterios", "RM-CAR-010", "Hipertrofia ventricular izquierda: el eje del QRS 
          items=[("Hipertensión grave de 15 años", True, "Sobrecarga de presión"), ("Pared del VI engrosada", True, "Más masa a la izquierda"), ("El vector del QRS apunta a la masa", True, "Hacia la izquierda"),
                 ("Eje entre −30° y −90°", True, "Desviación izquierda"), ("Eje > +110°", False, "Eso sería hipertrofia derecha")],
          umbral="Más masa = el vector apunta hacia ella", veredicto="HVI: eje desviado a la izquierda (−60° entre las opciones).",
-         img=D(lambda s, x, y: I.corazon4(s, x, y, "hvi", sc=0.62), 230, 190), img_titulo="Ventrículo izquierdo hipertrófico", img_pie="Pared gruesa y rígida.", conteo="4 de 5"))
+         img=D(lambda s, x, y: I.corazon4(s, x, y, "hvi", sc=0.62), 230, 190), img_titulo="Ventrículo izquierdo hipertrófico", img_pie="Imagen referencial de un ventrículo izquierdo hipertrófico.", conteo="4 de 5"),
+  clasif=dict(titulo="Clasificación del eje eléctrico del QRS en el plano frontal", cols=["Eje", "Rango", "D1 / aVF", "Causas frecuentes"],
+              filas=[["Normal", "-30° a +90°", "D1 + / aVF +", "Corazón sano"],
+                     ["Desviación izquierda", "-30° a -90°", "D1 + / aVF −", "HVI, hemibloqueo anterior izquierdo, infarto inferior, BRIHH"],
+                     ["Desviación derecha", "+90° a +180°", "D1 − / aVF +", "HVD, embolia pulmonar, EPOC, hemibloqueo posterior"],
+                     ["Desviación extrema", "-90° a ±180°", "D1 − / aVF −", "Taquicardia ventricular, hiperpotasemia, marcapasos"]], caso=1, ancho_primera=170))
 
 # 40 · RM-CAR-011 · TARJETAS: contraindicaciones de fibrinólisis
 S("tarjetas", "RM-CAR-011", "Neoplasia intracraneal es contraindicación absoluta de fibrinólisis en el infarto",
@@ -57,7 +62,11 @@ S("fases", "RM-CAR-012", "Síncope de esfuerzo, soplo sistólico eyectivo e HVI 
   d=dict(rotulo="Historia natural de la estenosis aórtica", ans=1,
          fases=[("Asintomática", "Años", "SOPLO", ["Área valvular disminuye", "Solo seguimiento"]),
                 ("Sintomática (este caso)", "Aparece el síncope", "REEMPLAZO", ["Angina, síncope o disnea", "TAVI o cirugía"]),
-                ("Falla cardiaca", "Sin tratamiento", "2-3 AÑOS", ["Supervivencia muy corta", "Evitar esfuerzos y vasodilatadores"])]))
+                ("Falla cardiaca", "Sin tratamiento", "2-3 AÑOS", ["Supervivencia muy corta", "Evitar esfuerzos y vasodilatadores"])]),
+  clasif=dict(titulo="Gravedad de la estenosis aórtica (ecocardiografía, ACC/AHA 2020 y ESC/EACTS 2021)", cols=["Grado", "Velocidad máx.", "Gradiente medio", "Área valvular", "Conducta"],
+              filas=[["Leve", "2,0-2,9 m/s", "< 20 mmHg", "> 1,5 cm²", "Eco cada 3-5 años"],
+                     ["Moderada", "3,0-3,9 m/s", "20-39 mmHg", "1,0-1,5 cm²", "Eco cada 1-2 años"],
+                     ["Grave", "≥ 4,0 m/s", "≥ 40 mmHg", "≤ 1,0 cm²", "Con síntomas: reemplazo valvular (TAVI o cirugía); sin síntomas: control cada 6-12 meses"]], caso=2, ancho_primera=110))
 
 # 42 · RM-NEU-001 · TARJETAS: língula
 S("tarjetas", "RM-NEU-001", "La língula forma parte del lóbulo superior izquierdo",
@@ -94,7 +103,7 @@ S("alarma", "RM-CIR-012", "El ensanchamiento del mediastino sugiere lesión de g
          veredicto=("Ensanchamiento del mediastino = sospecha de lesión aórtica", "No esperar: angio-TC y reparación endovascular.")),
   banda=B("Así se ve en la tomografía", PX("rm/aorta_trauma_tc.jpg", 300),
           [("Desgarro de la aorta", "Interrupción del contorno aórtico."), ("Hematoma mediastínico", "Sangre alrededor de la aorta."), ("Angio-TC", "Confirma y planifica el TEVAR."), ("Reparación", "Endovascular (TEVAR) si es posible.")],
-          pie="Lesión traumática de la aorta"))
+          pie="Imagen referencial de una lesión traumática de la aorta en la TC"))
 
 # 44 · RM-NEU-002 · LABORATORIO + imagen: quilotórax
 S("laboratorio", "RM-NEU-002", "La causa más frecuente de quilotórax es el traumatismo, incluido el quirúrgico",
@@ -115,7 +124,7 @@ S("laboratorio", "RM-NEU-002", "La causa más frecuente de quilotórax es el tra
             ("Células", "Linfocitos", "Neutrófilos en empiema", "↑", "Predominio linfocitario.")],
          veredicto=("Líquido lechoso con triglicéridos altos = quilotórax", "Su causa más frecuente es el trauma de conducto torácico.")),
   banda=B("Así se ve el líquido", PX("rm/quilo_leche.jpg", 300),
-          [("Lechoso y opaco", "Por los quilomicrones."), ("Triglicéridos > 110 mg/dL", "Confirma el quilo."), ("Causa", "Trauma o cirugía; si no, linfoma.")], pie="Líquido pleural quiloso"))
+          [("Lechoso y opaco", "Por los quilomicrones."), ("Triglicéridos > 110 mg/dL", "Confirma el quilo."), ("Causa", "Trauma o cirugía; si no, linfoma.")], pie="Imagen referencial de un líquido pleural quiloso (lechoso)"))
 
 # 45 · RM-CIR-013 · EMBUDO: estudio venoso
 S("embudo", "RM-CIR-013", "El eco Doppler venoso evalúa la insuficiencia valvular y la obstrucción de los miembros inferiores",
@@ -299,7 +308,7 @@ S("criterios", "RM-CAR-018", "El hemocultivo positivo es un criterio mayor para 
          items=[("Hemocultivos típicos en ≥ 2 muestras", True, "Mayor"), ("Imagen con vegetación (eco, TC, PET-TC)", None, "Mayor"), ("Fiebre ≥ 38 °C", True, "Menor"),
                 ("Lesiones de Janeway, Osler, Roth", None, "Menores"), ("Factor predisponente (válvula, drogas IV)", None, "Menor")],
          umbral="2 mayores · 1 mayor + 3 menores · 5 menores", veredicto="Hemocultivo positivo = criterio mayor.",
-         img=PX("janeway.jpg", 230, [("flecha", 0.5, 0.55, 0.62, 0.4, "lesión de Janeway")]), img_titulo="Lesión de Janeway (menor)", img_pie="Máculas indoloras en la palma.", conteo="1 de 5 confirmado"))
+         img=PX("janeway.jpg", 230, [("flecha", 0.5, 0.55, 0.62, 0.4, "lesión de Janeway")]), img_titulo="Lesión de Janeway (menor)", img_pie="Imagen referencial de lesiones de Janeway en la palma.", conteo="1 de 5 confirmado"))
 
 # 56 · RM-CIR-014 · REGLA: hemotórax por hematocrito
 S("regla", "RM-CIR-014", "Hemotórax: hematocrito del líquido pleural mayor del 50 % del hematocrito de la sangre",
@@ -317,7 +326,7 @@ S("regla", "RM-CIR-014", "Hemotórax: hematocrito del líquido pleural mayor del
                       bandas=[(0, 1, "", 0), (1, 50, "Derrame hemático", 1), (50, 100, "HEMOTÓRAX", 3)], caso=60, caso_txt="Hemotórax > 50 %")],
          claves_titulo="Conducta en el hemotórax",
          claves=[("Tubo de tórax", ["28-32 Fr, sello de agua"], True), ("Toracotomía", ["> 1500 mL inicial o > 200 mL/h"], False), ("VATS", ["Hemotórax residual"], False)]),
-  banda=B("Así se ve en la radiografía", PX("hemotorax_a.jpg", 300), [("Velamiento de la base", "Nivel de líquido en el tercio inferior."), ("Pulmón colapsado", "Atelectasia por la compresión."), ("Tubo de tórax", "Drena y reexpande.")], pie="Hemotórax derecho"))
+  banda=B("Así se ve en la radiografía", PX("hemotorax_a.jpg", 300), [("Velamiento de la base", "Nivel de líquido en el tercio inferior."), ("Pulmón colapsado", "Atelectasia por la compresión."), ("Tubo de tórax", "Drena y reexpande.")], pie="Imagen referencial de un hemotórax derecho en la radiografía"))
 
 # 57 · RM-CAR-019 · BALANZA: marcador de elección
 S("balanza", "RM-CAR-019", "La troponina es el marcador de elección del infarto en emergencia",
@@ -353,7 +362,7 @@ S("ecg_mapa", "RM-CAR-020", "ST elevado en II, III y aVF con bradicardia e hipot
          caso=["Inferior"], territorio_txt="II, III y aVF = inferior: coronaria derecha; vigilar bradicardia, bloqueo AV e infarto del VD.",
          img=B("Un ECG parecido", PX("iam_inferior.jpg", 250, [("flecha", 0.18, 0.55, 0.30, 0.50, "ST elevado (II)"), ("flecha", 0.18, 0.88, 0.30, 0.82, "ST elevado (III)")]),
                [("ST elevado en II, III y aVF", "Cara inferior."), ("Espejo en I y aVL", "ST descendido en la cara opuesta."), ("Con FC 50 y PA 80/60", "Bradicardia por isquemia del nodo."), ("Siguiente paso", "V3R-V4R y angioplastia primaria.")],
-               pie="Infarto inferior", rotulo="Así se ve en el ECG"),
+               pie="Imagen referencial de un infarto inferior en el ECG", rotulo="Así se ve en el ECG"),
          veredicto=("II, III, aVF = infarto inferior (coronaria derecha)", "Buscar infarto del VD con V4R y evitar nitratos si hay hipotensión.")))
 
 # 59 · RM-CIR-015 · ALARMA con imagen: hemotórax por arma de fuego
@@ -372,7 +381,7 @@ S("alarma", "RM-CIR-015", "Herida de bala torácica con hemotórax y colapso del
                  ("Herida cardiaca o de grandes vasos", "Lesión central", None)],
          accion=("Tubo de tórax grueso ya", "Evacúa la sangre y mide el débito."), accion_rotulo="Primera medida",
          veredicto=("Hemotórax por arma de fuego: drenaje torácico", "Si el débito es alto o hay shock: toracotomía.")),
-  banda=B("Así se ve en la radiografía", PX("hemotorax_b.jpg", 300), [("Velamiento de la base", "Sangre en la pleura."), ("Colapso del pulmón", "Pulmón comprimido."), ("Mediastino normal", "No es tensión.")], pie="Hemotórax"))
+  banda=B("Así se ve en la radiografía", PX("hemotorax_b.jpg", 300), [("Velamiento de la base", "Sangre en la pleura."), ("Colapso del pulmón", "Pulmón comprimido."), ("Mediastino normal", "No es tensión.")], pie="Imagen referencial de un hemotórax en la radiografía"))
 
 # 60 · RM-NEU-003 · CUADRÍCULA + imagen: timoma
 S("cuadricula", "RM-NEU-003", "El timoma es la tumoración más frecuente del mediastino anterior en el adulto",
@@ -389,7 +398,7 @@ S("cuadricula", "RM-NEU-003", "El timoma es la tumoración más frecuente del me
          celdas=[("Timoma", ["El más frecuente en el adulto", "Miastenia gravis"], None, True), ("Teratoma", ["Tumor germinal", "Hombres jóvenes: marcadores"], None, False),
                  ("Tiroides", ["Bocio endotorácico", "Desvía la tráquea"], None, False), ("Linfoma («terrible»)", ["Hodgkin o no Hodgkin", "Síntomas B"], None, False)],
          veredicto=("Timoma: el tumor más frecuente del mediastino anterior", "Buscar miastenia gravis y resecar.")),
-  banda=B("Así se ve en la tomografía", PX("rm/timoma_b.jpg", 400), [("Masa anterior al corazón", "Mediastino anterior."), ("Contraste", "Capta de forma homogénea."), ("Asociaciones", "Miastenia gravis y aplasia pura de serie roja.")], pie="Timoma"))
+  banda=B("Así se ve en la tomografía", PX("rm/timoma_b.jpg", 400), [("Masa anterior al corazón", "Mediastino anterior."), ("Contraste", "Capta de forma homogénea."), ("Asociaciones", "Miastenia gravis y aplasia pura de serie roja.")], pie="Imagen referencial de un timoma en la tomografía"))
 
 # 61 · RM-CIR-016 · DECISIÓN: tromboflebitis superficial
 S("decision", "RM-CIR-016", "Tromboflebitis superficial: elevación del miembro y calor local como medidas conservadoras",
@@ -408,7 +417,7 @@ S("decision", "RM-CIR-016", "Tromboflebitis superficial: elevación del miembro 
          cells=[[("Tratar como TVP", ["Anticoagulación completa 3 meses"]), ("Fondaparinux 45 días", ["2,5 mg/día"])],
                 [("Tratar como TVP", ["Si está a < 3 cm de la unión safenofemoral"]), ("Conservador", ["Elevar, calor local, AINE corto"])]],
          caso=(1, 1), nota="Siempre un eco Doppler para descartar trombosis venosa profunda."),
-  banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Piel pigmentada", "Estasis venosa crónica."), ("Venas dilatadas", "Várices."), ("Complicación", "Tromboflebitis superficial."), ("Estudio", "Eco Doppler dúplex.")], pie="Várices y cambios cutáneos"))
+  banda=B("Así se ve la insuficiencia venosa", PX("rm/varices_foto.jpg", 190), [("Piel pigmentada", "Estasis venosa crónica."), ("Venas dilatadas", "Várices."), ("Complicación", "Tromboflebitis superficial."), ("Estudio", "Eco Doppler dúplex.")], pie="Imagen referencial de várices con cambios cutáneos"))
 
 # 62 · RM-CB-020 · MATRIZ: adrenalina
 S("matriz", "RM-CB-020", "A dosis altas la adrenalina eleva la presión por predominio del efecto alfa-1",
