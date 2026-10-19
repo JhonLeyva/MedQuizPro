@@ -1,6 +1,0 @@
-{"preguntas":[
-{"id":"RM-GIN-EJ1","especialidad":"Ginecología y Obstetricia","opciones":["IIb","IIIa","IIIb","Ib","IIa"],"correcta":4},
-{"id":"RM-CIR-EJ2","especialidad":"Cirugía general","opciones":["Tracción costal izquierda","Descompresión torácica con angiocatéter","Toracotomía mínima con drenaje laminar","Ventilación asistida","Toracotomía a cielo abierto"],"correcta":1},
-{"id":"RM-PED-EJ3","especialidad":"Pediatría","opciones":["Oxígeno con máscara de reservorio","Oxígeno por cánula binasal","CPAP","Intubación endotraqueal","Ventilación con bolsa y máscara"],"correcta":4},
-{"id":"RM-GIN-EJ4","especialidad":"Ginecología y Obstetricia","opciones":["Hipertensión gestacional","Hipertensión de bata blanca","Hipertensión crónica","Preeclampsia sin criterios de severidad","Preeclampsia con criterios de severidad"],"correcta":4}
-]}

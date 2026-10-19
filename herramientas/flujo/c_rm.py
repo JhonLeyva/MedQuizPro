@@ -8,7 +8,18 @@ engine.EXAMEN = "RM"
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 FRM = []
-BANCO = {q["id"]: q for q in json.load(open(os.environ.get("RM_BANCO", os.path.join(AQUI, "rm_ejemplos.json")), encoding="utf-8"))["preguntas"]}
+import glob
+SALIDA = os.environ.get("RM_SALIDA", os.path.join(AQUI, "..", "..", "residentado", "salida"))
+if not os.path.isdir(SALIDA):
+    SALIDA = "/home/user/MedQuizPro/residentado/salida"
+BANCO = {}
+for _f in glob.glob(os.path.join(SALIDA, "*.json")):
+    for _q in json.load(open(_f, encoding="utf-8")):
+        BANCO[_q["id"]] = _q
+try:
+    CRED = json.load(open(os.path.join(AQUI, "creditos_idx.json"), encoding="utf-8"))
+except OSError:
+    CRED = {}
 ESPRM = {"GIN": "GINECO-OBSTETRICIA", "CIR": "CIRUGÍA", "PED": "PEDIATRÍA", "CAR": "CARDIOLOGÍA", "INF": "INFECTOLOGÍA",
          "SP": "SALUD PÚBLICA", "NEU": "NEUMOLOGÍA", "END": "ENDOCRINOLOGÍA", "GAS": "GASTROENTEROLOGÍA", "NRL": "NEUROLOGÍA",
          "TRA": "TRAUMATOLOGÍA", "HEM": "HEMATOLOGÍA", "NEF": "NEFROLOGÍA", "PSI": "PSIQUIATRÍA", "REU": "REUMATOLOGÍA",
@@ -32,6 +43,20 @@ def S(tipo, id_, titulo, barra, tema, caso, perlas, fuente, op, **k):
         t = cortos.get(i, o).strip().rstrip(".")
         assert len(t) <= 48, f"{id_}: opción larga: {t}"
         cols.append((t, i == ci))
-    esp = ESPRM[id_.split("-")[1]] + " RESIDENTADO"
+    esp = ESPRM[id_.split("-")[1]] + " RM"
     return _S(tipo, id_, id_.lower() + "-" + slug(barra), titulo, barra, esp, tema, caso, perlas, fuente,
               tabla=("Opciones de la pregunta", cols, [(crit, razones)]), _reg=FRM, **k)
+
+
+def PX(archivo, W, marcas=(), fondo="#000000", credito=None):
+    """Foto con el alto real y el crédito tomado de su ficha (.json de PubMed Central) o del índice de créditos."""
+    from PIL import Image
+    ruta = os.path.join(AQUI, "img", archivo)
+    w, h = Image.open(ruta).size
+    if credito is None:
+        try:
+            credito = json.load(open(ruta + ".json", encoding="utf-8"))["credito"]
+        except (OSError, KeyError):
+            credito = CRED.get(os.path.basename(archivo)) or CRED.get(archivo)
+    assert credito, "sin crédito: " + archivo
+    return P(archivo, W, round(W * h / w), marcas, credito, fondo)
