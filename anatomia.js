@@ -54,7 +54,7 @@
     return '<p class="an-credito">Atlas 3D <b>Human Atlas</b> de Ashe Magalhaes (código MIT) · anatomía de adulto varón de ' +
       '<a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html" target="_blank" rel="noopener noreferrer">BodyParts3D 4.0</a> © The Database Center for Life Science, ' +
       '<a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. ' +
-      'Los nombres de las estructuras están en inglés. Material educativo; no sustituye el diagnóstico médico.' +
+      'Interfaz y nombres traducidos al español (terminología anatómica). Material educativo; no sustituye el diagnóstico médico.' +
       (CFG.externo ? ' · <a href="' + esc(CFG.externo) + '" target="_blank" rel="noopener noreferrer">Otro atlas (Anatomy Learning)</a>' : "") + '</p>';
   }
   function src(estructura) { return CFG.base + (estructura ? "?q=" + encodeURIComponent(estructura) : ""); }
@@ -66,9 +66,9 @@
   /* Página aparte dentro del simulador: #/anatomia */
   function pagina(par) {
     var est = estructuraPara(par && par.tema);
-    var pista = par && par.tema ? '<p class="an-pista">Para esta pregunta, busca en el atlas: <b>' + esc(par.tema) + '</b>' + (est ? " (en inglés: " + esc(est) + ")" : "") + '</p>' : "";
+    var pista = par && par.tema ? '<p class="an-pista">Para esta pregunta, busca en el atlas: <b>' + esc(par.tema) + '</b></p>' : "";
     return '<header class="page-head"><p class="kicker">Anatomía</p><h1 class="page-head__title">Atlas de anatomía en 3D</h1>' +
-      '<p class="page-head__lead">Explora más de 2 200 estructuras: arrastra para rotar, usa la rueda o pellizca para acercar, toca una estructura para ver su nombre, busca con «Find a structure» y separa las piezas con «Explode anatomy».</p></header>' + pista +
+      '<p class="page-head__lead">Explora más de 2 200 estructuras: arrastra para rotar, usa la rueda o pellizca para acercar, toca una estructura para ver su nombre, busca por nombre en español con «Buscar una estructura» y separa las piezas con «Separar la anatomía».</p></header>' + pista +
       '<div class="an-pagina">' + marco("an-marco--pagina", est) + '</div>';
   }
 
