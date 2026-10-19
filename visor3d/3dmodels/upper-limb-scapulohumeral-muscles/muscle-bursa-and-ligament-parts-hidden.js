@@ -1,0 +1,2 @@
+globalThis.subset = ['l-Arm - capsules, ligaments, fasciae','++Glenoid labrum.r','++Articular capsule of glenohumeral joint.r','--Acromial part of deltoid muscle.r','--Spinal part of deltoid muscle.r','--Subdeltoid bursa.r','--Acromioclavicular ligament.r','--Anterior sternoclavicular ligament.r','--Conoid ligament (part of coracoclavicular ligament).r','--Posterior Sternoclavicular ligament.r','--Trapezoid ligament (part of coracoclavicular ligament).r','--Subacromial bursa.r','--Clavicular part of deltoid muscle.r'];
+globalThis.menuoff = false;

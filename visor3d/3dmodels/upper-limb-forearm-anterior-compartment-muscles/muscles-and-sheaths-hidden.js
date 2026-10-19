@@ -1,0 +1,2 @@
+globalThis.subset = ['l-Forearm – muscles','l-Forearm – muscles – anterior compartment deep layer','l-Forearm – muscles – anterior compartment intermediate layer','l-Forearm – muscles – anterior compartment superficial layer','l-Hand and wrist - synovia, bursae','--Fibrous sheath of digits of hand','--Thickened part of antebrachial fascia','--Fibrous sheath of digits of hand thumb'];
+globalThis.menuoff = false;

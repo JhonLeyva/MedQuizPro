@@ -1,0 +1,2 @@
+globalThis.subset = ['l-Arm - capsules, ligaments, fasciae','++Glenoid labrum.r','++Articular capsule of glenohumeral joint.r','--Acromioclavicular ligament.r','--Anterior sternoclavicular ligament.r','--Conoid ligament (part of coracoclavicular ligament).r','--Posterior Sternoclavicular ligament.r','--Trapezoid ligament (part of coracoclavicular ligament).r'];
+globalThis.menuoff = false;
