@@ -65,6 +65,7 @@
             esp.innerHTML = '<p>' + cuerpo.replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>") + '</p><p class="ia-src">Fuente del banco entregada a la IA: ' + (f || "ninguna") + '. ' + (r.j.verificado === false ? "Lo que no lleve cita [n] no está verificado en una guía." : "") + '</p>' +
               (gs.length ? '<details class="ia-gs"' + (cit.length ? " open" : "") + '><summary>Guías consultadas (' + gs.length + ')' + (cit.length ? ", citadas: " + cit.length : ", ninguna citada") + '</summary><ul>' + gs.map(function (g) { return fichaGuia(g, cit.indexOf(g.n) >= 0); }).join("") + '</ul></details>' : "");
           } else if (r.http === 401) esp.innerHTML = 'Para preguntarle a la IA necesitas una cuenta. <a href="#/registro">Crear cuenta</a> · <a href="#/ingresar">Ingresar</a>';
+          else if (r.http === 402) esp.innerHTML = 'El tutor de IA es parte de los planes de pago. <a href="#/planes">Ver planes</a>';
           else if (r.http === 503 || r.http === 502 || !r.j.error) esp.innerHTML = '<span class="ia-err">El tutor de IA no está disponible en este momento. Tu práctica y tus flashcards siguen funcionando; vuelve a intentarlo más tarde.</span>';
           else esp.innerHTML = '<span class="ia-err">' + esc(r.j.error) + '</span>';
         }, function () { esp.innerHTML = '<span class="ia-err">No hay conexión con el servidor. Inténtalo de nuevo.</span>'; })
