@@ -14,9 +14,9 @@
 <script>
   try { var t = localStorage.getItem("mqp_tema"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
 </script>
-<link rel="stylesheet" href="../styles.css?v=20261019-22">
-<link rel="stylesheet" href="../graficos.css?v=20261019-22">
-<link rel="stylesheet" href="app.css?v=20261019-22">
+<link rel="stylesheet" href="../styles.css?v=20261019-23">
+<link rel="stylesheet" href="../graficos.css?v=20261019-23">
+<link rel="stylesheet" href="app.css?v=20261019-23">
 </head>
 <body class="app-body">
 
@@ -43,6 +43,7 @@
       <a href="#/banco" data-ruta="banco"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2z"/><path d="M8 7h7M8 11h5"/></svg>Banco de preguntas</a>
       <a href="#/simuladores" data-ruta="simuladores"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9.5 2.5h5"/></svg>Simuladores</a>
       <a href="#/guardia" data-ruta="guardia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-4.4-7-10.3V5.5L12 3l7 2.5v5.2C19 16.6 12 21 12 21z"/><path d="M12 8v5M9.5 10.5h5"/></svg>Sobrevive a la Guardia</a>
+      <a href="#/anatomia" data-ruta="anatomia" id="navAna" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.2"/><path d="M12 8v6m0 0-3 6m3-6 3 6M6 11l6-1 6 1"/></svg>Atlas de anatomía</a>
       <p class="side__label">Seguimiento</p>
       <a href="#/progreso" data-ruta="progreso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V11M10 20V5M16 20v-7M3 20h18"/></svg>Mi progreso</a>
       <a href="#/falladas" data-ruta="falladas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>Preguntas falladas<span class="side__count" id="cntFalladas" hidden></span></a>
@@ -104,18 +105,19 @@
 <div data-mqp-chat></div>
 <!-- chat:fin -->
 
-<script defer src="../catalogo.js?v=20261019-22"></script>
-<script defer src="../algoritmos.js?v=20261019-22"></script>
-<script defer src="../main.js?v=20261019-22"></script>
-<script defer src="../universidades.js?v=20261019-22"></script>
-<script defer src="../rendimiento.js?v=20261019-22"></script>
-<script defer src="../guardia_casos.js?v=20261019-22"></script>
-<script defer src="../guardia_intro.js?v=20261019-22"></script>
-<script defer src="../guardia.js?v=20261019-22"></script>
-<script defer src="../espejo.js?v=20261019-22"></script>
-<script defer src="../iaguia.js?v=20261019-22"></script>
-<script defer src="../flashcards.js?v=20261019-22"></script>
-<script defer src="../graficos.js?v=20261019-22"></script>
-<script defer src="app.js?v=20261019-22"></script>
+<script defer src="../catalogo.js?v=20261019-23"></script>
+<script defer src="../algoritmos.js?v=20261019-23"></script>
+<script defer src="../main.js?v=20261019-23"></script>
+<script defer src="../universidades.js?v=20261019-23"></script>
+<script defer src="../rendimiento.js?v=20261019-23"></script>
+<script defer src="../guardia_casos.js?v=20261019-23"></script>
+<script defer src="../guardia_intro.js?v=20261019-23"></script>
+<script defer src="../guardia.js?v=20261019-23"></script>
+<script defer src="../espejo.js?v=20261019-23"></script>
+<script defer src="../iaguia.js?v=20261019-23"></script>
+<script defer src="../anatomia.js?v=20261019-23"></script>
+<script defer src="../flashcards.js?v=20261019-23"></script>
+<script defer src="../graficos.js?v=20261019-23"></script>
+<script defer src="app.js?v=20261019-23"></script>
 </body>
 </html>

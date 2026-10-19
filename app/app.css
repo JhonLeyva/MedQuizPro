@@ -651,3 +651,17 @@ body.gi-abierta { overflow: hidden; }
 :root[data-theme="dark"] .chip[aria-current="true"] { color: #04201c; }
 .gd-repetir .link-arrow { color: var(--ink); text-decoration: underline; }
 .gd-repetir .link-arrow { background: transparent; border: 0; padding: 4px 0; font: inherit; font-weight: 700; cursor: pointer; }
+
+/* Atlas de anatomía (iframe de Anatomy Learning) */
+.an-marco { display: block; width: 100%; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+.an-marco--pagina { height: min(78vh, 760px); min-height: 420px; }
+.an-marco--ventana { height: min(72vh, 680px); min-height: 360px; }
+.an-dlg { width: min(1100px, 96vw); max-width: 96vw; padding: 0; }
+.an-form .fc-head { gap: 10px; flex-wrap: wrap; }
+.an-form .fc-head h2 { margin-right: auto; }
+.an-form .an-marco, .an-form .an-pista, .an-form .an-credito, .an-form .an-vacio { margin-left: 20px; margin-right: 20px; width: calc(100% - 40px); }
+.an-pista { margin: 0 0 10px; padding: 8px 12px; border-radius: 10px; background: var(--surface-2); font-size: .9rem; color: var(--ink-2); }
+.an-credito { margin: 8px 0 0; font-size: .8rem; color: var(--ink-3); }
+.an-form .an-credito { margin-bottom: 16px; }
+.an-vacio { padding: 28px 20px; border: 1px dashed var(--line); border-radius: 14px; text-align: center; color: var(--ink-2); }
+.an-vacio p { margin: 6px 0 0; }

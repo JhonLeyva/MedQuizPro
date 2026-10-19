@@ -82,6 +82,7 @@
       "            <span class=\"ia-lbl\">Preguntar a la IA</span>",
       "          </button>",
       "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svEsp\" hidden>MINSA Perú vs. guía internacional</button>",
+      "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svAna\" hidden>Ver en el atlas de anatomía</button>",
       "        </div>",
       "      </div>",
       "      <div class=\"quiz__foot sim-view__nav\">",
@@ -1540,6 +1541,7 @@
       flashModal: document.getElementById("algoFlash"),
       ia: document.getElementById("svIA"),
       esp: document.getElementById("svEsp"),
+      ana: document.getElementById("svAna"),
       espModal: document.getElementById("algoEsp"),
       iaModal: document.getElementById("algoIA"),
       modal: document.getElementById("algoModal"),
@@ -2032,6 +2034,8 @@
       [].forEach.call(vista.querySelectorAll(".ia-lbl"), function (n) { n.textContent = etq; });
       if (el.ia) el.ia.hidden = !vIA;
       if (el.iaModal) el.iaModal.hidden = !vIA;
+      /* atlas de anatomía: solo en preguntas de anatomía y cuando el atlas está configurado */
+      if (el.ana) el.ana.hidden = !(estado && estado.respondida && window.MQP && MQP.anatomia && MQP.anatomia.disponible() && MQP.anatomia.esAnatomia(estado.pregunta));
     }
     /* modo espejo: el botón solo aparece si hay una comparación validada para ESTA pregunta */
     var espPregunta = null;
@@ -2051,6 +2055,7 @@
       MQP.iaguia.abrir(estado.pregunta, estado.elegida, origen);
     }
     if (el.ia) el.ia.addEventListener("click", function () { preguntarIA(el.ia); });
+    if (el.ana) el.ana.addEventListener("click", function () { if (estado && estado.pregunta && window.MQP && MQP.anatomia) MQP.anatomia.abrir(estado.pregunta, el.ana); });
     if (el.iaModal) el.iaModal.addEventListener("click", function () { preguntarIA(el.algo); });
     if (el.flash) el.flash.addEventListener("click", function () { flashcard(el.flash); });
     if (el.flashModal) el.flashModal.addEventListener("click", function () { flashcard(el.algo); });

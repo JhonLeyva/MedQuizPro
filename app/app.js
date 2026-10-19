@@ -1171,6 +1171,7 @@
     inicio: { titulo: "Inicio", vista: vistaInicio, alMontar: esperarPago },
     noencontrada: { titulo: "No encontrada", vista: vistaNoEncontrada },
     planes: { titulo: "Planes", vista: vistaPlanes },
+    anatomia: { titulo: "Atlas de anatomía", vista: function () { return M.anatomia ? M.anatomia.pagina(parametros) : ""; } },
     ingresar: { titulo: "Ingresar", vista: function () { return vistaAuth("ingresar"); }, alMontar: function () { enlazarAuth("ingresar"); } },
     registro: { titulo: "Crear cuenta", vista: function () { return vistaAuth("registro"); }, alMontar: function () { enlazarAuth("registro"); } },
     examenes: { titulo: "Exámenes", vista: function (arg) { return arg ? vistaExamen(arg) : vistaExamenes(); }, alMontar: function (arg) { if (arg && M.examen(arg)) { montarTarjetas(arg); enlazarFiltros(arg); } } },
