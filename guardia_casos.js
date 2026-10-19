@@ -182,6 +182,104 @@
         f_rescate: fin("regular", "Recuperación con retraso", "Se estabilizó, pero tras horas de retraso que aumentaron el riesgo de falla orgánica."),
         f_adverso: fin("adverso", "Desenlace desfavorable (educativo)", "El retraso o la falta de control del foco llevó a un deterioro grave. Revisa qué cambiarías.")
       }
+    },
+    {
+      id: "iamcest", titulo: "Dolor torácico opresivo de 40 minutos", especialidad: "Medicina Interna · Cardiología", dificultad: 2, requiere: { caso: "apendicitis", minimo: 60 },
+      resumen: "Infarto con elevación del ST: reperfusión a tiempo, aun sin sala de hemodinamia.",
+      fuentes: ["ESC (European Society of Cardiology). Guidelines for the management of acute coronary syndromes (2023).", "ACC/AHA. Guideline for the management of ST-elevation myocardial infarction (2013)."],
+      inicio: "n1",
+      nodos: {
+        n1: { estado: "Varón de 58 años, hipertenso y fumador, con dolor torácico opresivo de 40 minutos que se irradia al brazo izquierdo, con sudoración y náuseas. El electrocardiograma muestra elevación del ST en derivaciones II, III y aVF con descenso en I y aVL.",
+          vitales: { PA: "128/78 mmHg", FC: "92 /min", FR: "20 /min", "SatO₂": "96 % (aire ambiente)", Dolor: "8/10" }, gravedad: 1,
+          decisiones: [
+            d("a", "Aspirina masticable, monitorización continua con desfibrilador disponible, acceso venoso y activar de inmediato la estrategia de reperfusión", OPT, "n2", "Es un infarto con elevación del ST (inferior): el diagnóstico es clínico y electrocardiográfico y la reperfusión no espera a la troponina. Aspirina, monitorización y acceso venoso son el primer paso.", "IAM con elevación del ST: manejo inicial"),
+            d("b", "Esperar el resultado de la troponina y repetir el electrocardiograma en 3 horas", INC, "n_det", "En el infarto con elevación del ST cada minuto de retraso en reperfundir destruye miocardio: no se espera a los biomarcadores.", "IAM con elevación del ST: manejo inicial"),
+            d("c", "Dar de alta con diagnóstico de reflujo gastroesofágico y un antiácido", PEL, "n_det", "Con dolor típico y elevación del ST, el alta es un error grave: puede evolucionar a fibrilación ventricular o a necrosis extensa.", "IAM con elevación del ST: manejo inicial"),
+            d("d", "Administrar un betabloqueador endovenoso y diuréticos antes de cualquier otra medida", INC, "n_det", "No son la prioridad: el betabloqueador endovenoso no debe darse de rutina al inicio y los diuréticos no tratan la oclusión coronaria.", "IAM con elevación del ST: manejo inicial")
+          ] },
+        n2: { estado: "El hospital no tiene sala de hemodinamia. El traslado a un centro con intervención coronaria percutánea tardaría más de 2 horas. El paciente no tiene contraindicaciones para fibrinólisis.",
+          vitales: { PA: "124/76 mmHg", FC: "88 /min", Dolor: "7/10", "Tiempo desde el inicio": "≈ 1 h" }, gravedad: 1,
+          decisiones: [
+            d("a", "Fibrinólisis lo antes posible y trasladar a un centro con intervención coronaria percutánea (estrategia farmacoinvasiva)", OPT, "n3", "Si la angioplastia primaria no es posible en el tiempo recomendado (unos 120 minutos desde el diagnóstico), se indica fibrinólisis precoz y traslado a un centro con hemodinamia.", "Elección de la estrategia de reperfusión"),
+            d("b", "Esperar el traslado sin reperfusión, solo con aspirina y analgesia", INC, "n_det", "Esperar más de 2 horas sin reperfundir aumenta mucho el daño miocárdico y la mortalidad.", "Elección de la estrategia de reperfusión"),
+            d("c", "Solo anticoagulación y observar en sala", INC, "n_det", "La anticoagulación acompaña a la reperfusión, pero no la reemplaza: la arteria sigue ocluida.", "Elección de la estrategia de reperfusión")
+          ] },
+        n3: { estado: "Una hora después de la fibrinólisis: persiste el dolor intenso y el electrocardiograma muestra una resolución del ST menor al 50 %.",
+          vitales: { PA: "118/72 mmHg", FC: "96 /min", Dolor: "7/10", "Resolución del ST": "< 50 %" }, gravedad: 1,
+          decisiones: [
+            d("a", "Considerarlo fracaso de la fibrinólisis y derivar de inmediato a angioplastia de rescate", OPT, "f_bueno", "Una resolución menor al 50 % a los 60–90 minutos indica reperfusión fallida: se indica angioplastia de rescate urgente.", "Fracaso de la fibrinólisis"),
+            d("b", "Repetir la misma dosis de fibrinolítico y observar", INC, "f_adverso", "No se repite el fibrinolítico: el fracaso se resuelve con angioplastia de rescate.", "Fracaso de la fibrinólisis")
+          ] },
+        n_det: { estado: "A los pocos minutos presenta pérdida de conciencia: el monitor muestra fibrilación ventricular.",
+          vitales: { Pulso: "ausente", Ritmo: "fibrilación ventricular", Respiración: "ausente" }, gravedad: 2,
+          decisiones: [
+            d("a", "Iniciar compresiones torácicas de alta calidad y desfibrilar de inmediato", OPT, "f_rescate", "La fibrilación ventricular es un ritmo desfibrilable: compresiones sin interrupción y descarga lo antes posible.", "Fibrilación ventricular en el infarto"),
+            d("b", "Esperar unos minutos a ver si revierte sola", PEL, "f_adverso", "La fibrilación ventricular no revierte sola: cada minuto sin desfibrilar reduce la supervivencia.", "Fibrilación ventricular en el infarto")
+          ] },
+        f_bueno: fin("bueno", "Buen desenlace", "Reperfusión a tiempo y rescate oportuno cuando la fibrinólisis no bastó."),
+        f_rescate: fin("regular", "Recuperación con complicación", "Sobrevivió, pero con un paro que un manejo más rápido pudo evitar."),
+        f_adverso: fin("adverso", "Desenlace desfavorable (educativo)", "El retraso en reperfundir o en rescatar llevó a una complicación grave. Revisa qué cambiarías.")
+      }
+    },
+    {
+      id: "hpp", titulo: "Sangrado abundante después del parto", especialidad: "Ginecología y Obstetricia", dificultad: 3, requiere: { caso: "preeclampsia", minimo: 60 },
+      resumen: "Hemorragia posparto por atonía: escalones de tratamiento sin perder tiempo.",
+      fuentes: ["OMS. Recomendaciones para la prevención y el tratamiento de la hemorragia posparto (2012) y recomendación sobre el ácido tranexámico (2017).", "ACOG. Practice Bulletin No. 183: Postpartum Hemorrhage (2017)."],
+      inicio: "n1",
+      nodos: {
+        n1: { estado: "Puérpera de 29 años, cuarto parto vaginal hace 15 minutos, con recién nacido sano. Sangrado vaginal abundante continuo. Al palpar, el útero está blando, por encima del ombligo, y la placenta salió completa.",
+          vitales: { PA: "100/62 mmHg", FC: "112 /min", FR: "22 /min", "SatO₂": "97 %", "Pérdida estimada": "≈ 800 mL" }, gravedad: 1,
+          decisiones: [
+            d("a", "Masaje uterino, oxitocina, dos accesos venosos con cristaloides, pedir ayuda y activar el protocolo de hemorragia obstétrica", OPT, "n2", "La causa más frecuente es la atonía uterina: masaje y uterotónico de primera línea, reposición de volumen, ayuda y protocolo de emergencia obstétrica desde el inicio.", "Hemorragia posparto: atonía uterina"),
+            d("b", "Observar una hora más a ver si el sangrado cede", PEL, "n_choque", "En la hemorragia posparto el tiempo es vital: observar permite que se pierda mucho más volumen.", "Hemorragia posparto: atonía uterina"),
+            d("c", "Suturar la episiotomía y no revisar el útero", INC, "n_choque", "Antes de suturar hay que tratar la causa principal del sangrado: aquí, un útero atónico.", "Hemorragia posparto: atonía uterina")
+          ] },
+        n2: { estado: "Tras masaje y oxitocina el sangrado disminuye poco: el útero sigue hipotónico y continúa saliendo sangre. Perdió cerca de 1 500 mL.",
+          vitales: { PA: "92/56 mmHg", FC: "120 /min", "Pérdida estimada": "≈ 1 500 mL", "Llenado capilar": "3 s" }, gravedad: 1,
+          decisiones: [
+            d("a", "Añadir ácido tranexámico y otro uterotónico, preparar taponamiento uterino con balón y solicitar hemoderivados según la clínica", OPT, "n3", "Ante atonía que no cede se escalona: ácido tranexámico (dentro de las primeras horas), uterotónicos adicionales, taponamiento con balón y hemoderivados guiados por la clínica.", "Escalonamiento del tratamiento"),
+            d("b", "Repetir solo la misma dosis de oxitocina y esperar", INC, "n_choque", "Insistir en lo que ya falló sin escalonar deja pasar el tiempo: se necesita añadir medidas.", "Escalonamiento del tratamiento")
+          ] },
+        n3: { estado: "Con balón de taponamiento y las medidas anteriores el sangrado disminuye de forma importante. La paciente sigue con taquicardia y presión baja, pero responde a la reposición.",
+          vitales: { PA: "104/64 mmHg", FC: "106 /min", Sangrado: "escaso", Diuresis: "adecuada" }, gravedad: 1,
+          decisiones: [
+            d("a", "Mantener monitoreo estrecho en cuidados intermedios o UCI, reponer según la clínica y los laboratorios, y tener preparado el equipo quirúrgico por si reaparece el sangrado", OPT, "f_bueno", "Tras controlar el sangrado se vigila de cerca: puede reaparecer y requerir cirugía; la reposición se guía por la clínica y el laboratorio.", "Vigilancia tras controlar la hemorragia"),
+            d("b", "Retirar el balón de inmediato y enviarla a hospitalización común", INC, "f_regular", "Retirar el balón de inmediato y relajar la vigilancia expone a un nuevo sangrado sin capacidad de respuesta rápida.", "Vigilancia tras controlar la hemorragia")
+          ] },
+        n_choque: { estado: "Pasados 30 minutos sin un manejo adecuado: la paciente está pálida, sudorosa y confusa. El sangrado continúa.",
+          vitales: { PA: "78/40 mmHg", FC: "140 /min", FR: "30 /min", "Pérdida estimada": "> 2 000 mL" }, gravedad: 2,
+          decisiones: [
+            d("a", "Tratar el shock hemorrágico: reposición con cristaloides y hemoderivados, uterotónicos, ácido tranexámico, balón de taponamiento y preparar quirófano para control quirúrgico del sangrado", OPT, "f_rescate", "En shock hemorrágico por hemorragia posparto se actúa en paralelo: volumen y sangre, medidas para el útero y preparación inmediata del control quirúrgico.", "Shock hemorrágico obstétrico"),
+            d("b", "Esperar a que mejore con líquidos por vía oral", PEL, "f_adverso", "Con shock hemorrágico la vía oral no sirve: se requiere reanimación endovenosa inmediata y control de la causa.", "Shock hemorrágico obstétrico")
+          ] },
+        f_bueno: fin("bueno", "Buen desenlace", "Se reconoció la atonía, se escalonó el tratamiento y se controló el sangrado a tiempo."),
+        f_rescate: fin("regular", "Recuperación con retraso", "Se salvó, pero tras un shock que un manejo precoz pudo evitar."),
+        f_regular: fin("regular", "Evolución favorable con riesgo de resangrado", "El sangrado se controló, pero la vigilancia posterior fue insuficiente."),
+        f_adverso: fin("adverso", "Desenlace desfavorable (educativo)", "El retraso en tratar la hemorragia llevó a un shock grave. Revisa qué cambiarías.")
+      }
+    },
+    {
+      id: "neumotorax", titulo: "Accidente de moto con dificultad para respirar", especialidad: "Emergencias · Trauma", dificultad: 3, requiere: { caso: "sepsis", minimo: 60 },
+      resumen: "Neumotórax a tensión: se trata con lo que ves, antes de pedir una radiografía.",
+      fuentes: ["American College of Surgeons. ATLS (Advanced Trauma Life Support), 10.ª edición: evaluación inicial y manejo del trauma torácico."],
+      inicio: "n1",
+      nodos: {
+        n1: { estado: "Varón de 30 años, accidente de moto hace 20 minutos. Dificultad respiratoria intensa, ansioso, con ingurgitación de las venas del cuello. El tórax derecho se mueve poco, hay ausencia de murmullo vesicular derecho y la tráquea está desviada hacia la izquierda.",
+          vitales: { PA: "84/50 mmHg", FC: "134 /min", FR: "36 /min", "SatO₂": "84 % (con O₂)" }, gravedad: 2,
+          decisiones: [
+            d("a", "Descompresión inmediata del hemitórax derecho (aguja o toracostomía) sin esperar estudios de imagen", OPT, "n2", "Es un neumotórax a tensión: es un diagnóstico clínico y una emergencia que mata en minutos. La descompresión inmediata es el tratamiento, antes de cualquier radiografía.", "Neumotórax a tensión"),
+            d("b", "Solicitar una radiografía de tórax y esperar el resultado antes de actuar", PEL, "f_adverso", "Esperar la radiografía en un neumotórax a tensión puede provocar un paro: el diagnóstico es clínico y el tratamiento es inmediato.", "Neumotórax a tensión"),
+            d("c", "Intubar y ventilar con presión positiva antes de descomprimir", PEL, "f_adverso", "La ventilación con presión positiva aumenta la tensión del neumotórax y puede precipitar el paro: primero se descomprime.", "Neumotórax a tensión")
+          ] },
+        n2: { estado: "Tras la descompresión sale aire a presión. La saturación y la presión mejoran, la ingurgitación disminuye y la respiración es menos dificultosa.",
+          vitales: { PA: "108/68 mmHg", FC: "110 /min", FR: "26 /min", "SatO₂": "94 %" }, gravedad: 1,
+          decisiones: [
+            d("a", "Colocar un tubo de tórax conectado a sello de agua y continuar la evaluación primaria y secundaria del trauma", OPT, "f_bueno", "La descompresión con aguja es temporal: el tratamiento definitivo es el tubo de tórax. Luego se completa la evaluación del trauma buscando otras lesiones.", "Tubo de tórax y evaluación del trauma"),
+            d("b", "Retirar la aguja y dar de alta con analgésicos", PEL, "f_adverso", "Sin drenaje definitivo el neumotórax a tensión puede reaparecer en minutos, y además faltan por buscar otras lesiones del trauma.", "Tubo de tórax y evaluación del trauma")
+          ] },
+        f_bueno: fin("bueno", "Buen desenlace", "Se descomprimió a tiempo, se drenó el tórax y se completó la evaluación del trauma."),
+        f_adverso: fin("adverso", "Desenlace desfavorable (educativo)", "El retraso o una conducta insegura llevó a un paro. En el neumotórax a tensión se descomprime primero.")
+      }
     }
   ];
 
