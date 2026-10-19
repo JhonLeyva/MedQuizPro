@@ -95,7 +95,7 @@ S("criterios", "RM-INF-037", "Fiebre terciana, hepatoesplenomegalia y viaje a Pi
    "Trombocitopenia y transaminasas elevadas son frecuentes y no definen gravedad por sí solas.",
    "Diagnóstico: gota gruesa y frotis (especie y parasitemia) o prueba rápida, antes de tratar.",
    "Gravedad (OMS): alteración de conciencia, convulsiones, shock, SDRA, falla renal, Hb menor de 7 o parasitemia alta = manejo hospitalario y vía EV."],
-  "OMS, Guidelines for malaria (actualización 2025); NTS 054-MINSA/DGSP-V.01; Harrison 21.ª ed. (2022)",
+  "OMS, Guidelines for malaria (actualización 2025); NTS 233-MINSA/DGIESP-2025; Harrison 21.ª ed. (2022)",
   op=("¿Diagnóstico?", ["No: fiebre prolongada sin accesos periódicos", "No: fiebre sostenida y bradicardia relativa", "No: fiebre ondulante con lácteos sin pasteurizar", "Sí: terciana, zona endémica y hemólisis", "No: fuga plasmática y shock, no accesos"]),
   d=dict(rotulo="Qué criterios de malaria cumple la paciente", lista_titulo="Criterios de sospecha",
          items=[("Fiebre en accesos cada 48 horas", True, "Remisiones cada dos días"), ("Escalofríos, sudoración, cefalea y mialgias", True, "Descritos en el caso"),

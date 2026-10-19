@@ -253,7 +253,7 @@ S("farmaco", "RM-INF-029", "La primaquina previene las recaídas de P. vivax y P
    "En el Perú el esquema usa cloroquina más primaquina por 7 días, según la norma de malaria.",
    "Antes de primaquina descartar déficit de G6PD (riesgo de hemólisis). Contraindicada en el embarazo y en menores de 6 meses.",
    "Quinina y quinidina: esquizonticidas sanguíneos para malaria grave o resistente. La tafenoquina, de dosis única, también exige G6PD."],
-  "MINSA, NTS 054-MINSA/DGSP-V.01 (RM 076-2007, mod. RM 116-2015); OMS, Guidelines for malaria; Commons RJ et al., Lancet Infect Dis 2024;24:172-83.",
+  "MINSA, NTS 233-MINSA/DGIESP-2025; OMS, Guidelines for malaria; Commons RJ et al., Lancet Infect Dis 2024;24:172-83.",
   op=("¿Previene las recaídas?", ["No: trata la fase sanguínea", "Sí: elimina los hipnozoítos hepáticos", "No: esquizonticida sanguíneo", "No: esquizonticida sanguíneo", "No: quimioprofilaxis, sin acción sobre hipnozoítos"],
       {0: "Cloroquina", 1: "Primaquina", 2: "Quinina", 3: "Quinidina", 4: "Doxiciclina"}),
   d=dict(rotulo="Dónde actúa cada fármaco en el ciclo del parásito",

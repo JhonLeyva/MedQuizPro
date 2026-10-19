@@ -230,7 +230,7 @@ S("grafica", "RM-INF-009", "La fiebre cuartana corresponde a Plasmodium malariae
    "«Difficile» no es un Plasmodium: es Clostridioides difficile.",
    "P. malariae puede persistir años en la sangre y causar síndrome nefrótico por inmunocomplejos.",
    "Alerta: cefalea, alteración de conciencia, anemia o insuficiencia renal indican malaria grave por P. falciparum; es una urgencia."],
-  "OMS, Guidelines for Malaria (2025); CDC, malaria (2024); MINSA, NTS 054-MINSA/DGSP-V.01.",
+  "OMS, Guidelines for Malaria (2025); CDC, malaria (2024); MINSA, NTS 233-MINSA/DGIESP-2025.",
   op=("¿Especie con fiebre cuartana?", ["Sí: ciclo de 72 horas, acceso cada cuarto día", "No: no es una especie de Plasmodium", "No: ciclo de 48 horas, terciana", "No: accesos irregulares, malaria grave", "No: ciclo de 48 horas, terciana"],
       {0: "Malariae", 1: "Difficile", 2: "Ovale", 3: "Falciparum", 4: "Vivax"}),
   d=dict(rotulo="Un acceso febril cada 72 horas frente a cada 48 horas", eje_x="Días de evolución", eje_y="Temperatura (°C)",

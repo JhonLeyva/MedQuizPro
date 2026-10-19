@@ -11411,9 +11411,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: En el trauma abdominal cerrado estable con poco líquido libre se pide tomografía"
   },
   "RM-CIR-124": {
-    titulo: "Colelitiasis con ictericia y dolor: sospecha de coledocolitiasis, CPRE terapéutica",
+    titulo: "Colelitiasis con ictericia y dolor sin datos de imagen: se estratifica primero con ecografía y perfil hepático",
     imagen: "flujogramas/rm-cir-124-via-biliar-riesgo-de-coledocolitiasis.svg",
-    alt: "Flujograma: Colelitiasis con ictericia y dolor: sospecha de coledocolitiasis, CPRE terapéutica"
+    alt: "Flujograma: Colelitiasis con ictericia y dolor sin datos de imagen: se estratifica primero con ecografía y perfil hepático"
   },
   "RM-CIR-099": {
     titulo: "En el síndrome compartimental el edema muscular eleva la presión del compartimento",
@@ -11761,9 +11761,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: En la estenosis hipertrófica del píloro se corrige el medio interno y se hace piloromiotomía"
   },
   "RM-CIR-096": {
-    titulo: "En ictericia con litiasis vesicular se estudia la vía biliar con colangiografía endoscópica",
+    titulo: "En ictericia leve con litiasis vesicular (riesgo intermedio) se confirma el cálculo con ecografía endoscópica",
     imagen: "flujogramas/rm-cir-096-via-biliar-ictericia-y-coledocolitiasis.svg",
-    alt: "Flujograma: En ictericia con litiasis vesicular se estudia la vía biliar con colangiografía endoscópica"
+    alt: "Flujograma: En ictericia leve con litiasis vesicular (riesgo intermedio) se confirma el cálculo con ecografía endoscópica"
   },
   "RM-CIR-097": {
     titulo: "La fisura anal que persiste tras 2 meses de ablandadores se opera con esfinterotomía lateral interna",
@@ -11856,9 +11856,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Obstrucción adherencial sin alarma: observación, sonda nasogástrica e hidratación"
   },
   "RM-CIR-125": {
-    titulo: "Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía",
+    titulo: "Apendicitis en el anciano con Alvarado de 6 (riesgo intermedio): se pide tomografía antes de operar",
     imagen: "flujogramas/rm-cir-125-apendicitis-aguda-paciente-anciano.svg",
-    alt: "Flujograma: Apendicitis en el anciano con Alvarado de 6 y 96 h de dolor: apendicectomía"
+    alt: "Flujograma: Apendicitis en el anciano con Alvarado de 6 (riesgo intermedio): se pide tomografía antes de operar"
   },
 
   /* ---------- Residentado Médico · lote 3 (100 preguntas) ---------- */
@@ -12375,9 +12375,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Vaginosis bacteriana: 3 de 4 criterios de Amsel, entre ellos pH mayor de 4,5, aminas y células guía"
   },
   "RM-GAS-002": {
-    titulo: "HBsAg y anti-HBs a la vez con anti-HBc IgG y HBeAg negativo: convalecencia de hepatitis B",
+    titulo: "HBsAg persistente con anti-HBc IgG, HBeAg negativo y ALT normal: infección crónica (portador inactivo)",
     imagen: "flujogramas/rm-gas-002-hepatologia-serologia-de-la-hepatitis-b.svg",
-    alt: "Flujograma: HBsAg y anti-HBs a la vez con anti-HBc IgG y HBeAg negativo: convalecencia de hepatitis B"
+    alt: "Flujograma: HBsAg persistente con anti-HBc IgG, HBeAg negativo y ALT normal: infección crónica (portador inactivo)"
   },
   "RM-INF-013": {
     titulo: "Un lancetazo, placa livedoide y hematuria a las 36 horas: loxoscelismo cutáneo-visceral",
@@ -12625,9 +12625,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: En la gestante con VIH y dilatación mayor de 4 cm la cesárea ya no protege: el parto vaginal es la vía"
   },
   "RM-GIN-011": {
-    titulo: "Gestante con VIH nueva: TARV triple desde la semana 12 de la norma; hoy, apenas se confirma el diagnóstico",
+    titulo: "Gestante con VIH nueva: el TARV triple se inicia apenas se confirma el diagnóstico, sin esperar una semana",
     imagen: "flujogramas/rm-gin-011-vih-y-embarazo-inicio-del-tarv-triple.svg",
-    alt: "Flujograma: Gestante con VIH nueva: TARV triple desde la semana 12 de la norma; hoy, apenas se confirma el diagnóstico"
+    alt: "Flujograma: Gestante con VIH nueva: el TARV triple se inicia apenas se confirma el diagnóstico, sin esperar una semana"
   },
   "RM-GIN-012": {
     titulo: "Flujo verdoso con cérvix en fresa es tricomoniasis: metronidazol 500 mg cada 12 horas por 7 días",
@@ -12660,9 +12660,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: El sarcoma de Kaposi del paciente con VIH lo causa el herpesvirus humano 8 (HHV-8)"
   },
   "RM-GIN-016": {
-    titulo: "La norma peruana de 2019 fija la semana 12 para iniciar el TARV triple en la gestante con VIH",
+    titulo: "En la gestante con VIH el TARV triple se inicia lo antes posible tras el diagnóstico",
     imagen: "flujogramas/rm-gin-016-vih-y-embarazo-calendario-de-la-atencion.svg",
-    alt: "Flujograma: La norma peruana de 2019 fija la semana 12 para iniciar el TARV triple en la gestante con VIH"
+    alt: "Flujograma: En la gestante con VIH el TARV triple se inicia lo antes posible tras el diagnóstico"
   },
   "RM-NEU-016": {
     titulo: "Contacto con VIH y PPD mayor de 5 mm: alto riesgo de tuberculosis y tratamiento preventivo",
@@ -12942,14 +12942,14 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Sinusitis, baño en un lago y meningitis purulenta con Gram negativo: Naegleria fowleri"
   },
   "RM-INF-054": {
-    titulo: "Candida krusei en sangre y LCR con insuficiencia renal: anfotericina B (mejor la liposomal)",
+    titulo: "Candida krusei en sangre y LCR con insuficiencia renal: anfotericina B liposomal",
     imagen: "flujogramas/rm-inf-054-vih-candidiasis-invasiva-con-meningitis.svg",
-    alt: "Flujograma: Candida krusei en sangre y LCR con insuficiencia renal: anfotericina B (mejor la liposomal)"
+    alt: "Flujograma: Candida krusei en sangre y LCR con insuficiencia renal: anfotericina B liposomal"
   },
   "RM-NEU-019": {
-    titulo: "Neumonía con CURB-65 de 1 punto en un adulto sin comorbilidades: tratamiento ambulatorio",
+    titulo: "Neumonía con CURB-65 de 1 punto en un adulto sin comorbilidades: amoxicilina 1 g cada 8 horas",
     imagen: "flujogramas/rm-neu-019-neumonia-adquirida-en-la-comunidad-tratamiento-empirico.svg",
-    alt: "Flujograma: Neumonía con CURB-65 de 1 punto en un adulto sin comorbilidades: tratamiento ambulatorio"
+    alt: "Flujograma: Neumonía con CURB-65 de 1 punto en un adulto sin comorbilidades: amoxicilina 1 g cada 8 horas"
   },
   "RM-NEU-020": {
     titulo: "CURB-65 de 3 o más: neumonía grave, hospitalizar y valorar cuidados intensivos",
@@ -13032,9 +13032,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Úlcera péptica con abdomen agudo: la radiografía de pie busca aire libre"
   },
   "RM-GAS-023": {
-    titulo: "Colección con gas, fiebre y leucocitosis a las 3 semanas de una pancreatitis: absceso pancreático",
+    titulo: "Colección con gas, fiebre y leucocitosis a las 3 semanas de una pancreatitis: colección necrótica aguda infectada",
     imagen: "flujogramas/rm-gas-023-gastroenterologia-complicacion-infecciosa-de-la-pancreatitis.svg",
-    alt: "Flujograma: Colección con gas, fiebre y leucocitosis a las 3 semanas de una pancreatitis: absceso pancreático"
+    alt: "Flujograma: Colección con gas, fiebre y leucocitosis a las 3 semanas de una pancreatitis: colección necrótica aguda infectada"
   },
   "RM-GAS-024": {
     titulo: "Los ácidos biliares se reabsorben de forma activa en el íleon terminal y regresan al hígado por la porta",
@@ -13077,9 +13077,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Una úlcera gástrica del cuerpo más una duodenal es una úlcera de Johnson tipo II"
   },
   "RM-GAS-030": {
-    titulo: "El café y las comidas abundantes y grasas desencadenan con más frecuencia la dispepsia funcional",
+    titulo: "Entre los factores que inducen dispepsia, los AINE son el mejor documentado",
     imagen: "flujogramas/rm-gas-030-gastroenterologia-dispepsia.svg",
-    alt: "Flujograma: El café y las comidas abundantes y grasas desencadenan con más frecuencia la dispepsia funcional"
+    alt: "Flujograma: Entre los factores que inducen dispepsia, los AINE son el mejor documentado"
   },
   "RM-GAS-031": {
     titulo: "La úlcera péptica es la causa más frecuente de hemorragia digestiva alta en el adulto",
@@ -13167,9 +13167,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: La célula parietal transporta H+ con la bomba H+/K+ ATPasa y Cl- por canales: forma el ácido clorhídrico"
   },
   "RM-GAS-040": {
-    titulo: "La diarrea se define por 3 o más deposiciones líquidas al día o heces mal formadas de más de 250 g al día",
+    titulo: "La diarrea se define por 3 o más deposiciones líquidas al día o heces mal formadas de más de 200 g al día",
     imagen: "flujogramas/rm-gas-040-gastroenterologia-definicion-de-diarrea.svg",
-    alt: "Flujograma: La diarrea se define por 3 o más deposiciones líquidas al día o heces mal formadas de más de 250 g al día"
+    alt: "Flujograma: La diarrea se define por 3 o más deposiciones líquidas al día o heces mal formadas de más de 200 g al día"
   },
   "RM-GIN-030": {
     titulo: "La enfermedad inflamatoria pélvica se transmite sobre todo por vía ascendente desde el cérvix",
@@ -13357,9 +13357,9 @@ window.MQP_ALGORITMOS = {
     alt: "Flujograma: Pérdida de líquido a las 32 semanas con cuello cerrado y contracciones aisladas: ruptura prematura de membranas"
   },
   "RM-GIN-067": {
-    titulo: "Hipertensa crónica de 36 semanas con 155/95 mmHg: se inicia alfametildopa, fármaco clásico de la clave",
+    titulo: "Hipertensa crónica de 36 semanas con 155/95 mmHg: alfametildopa, la primera elección clásica entre las opciones",
     imagen: "flujogramas/rm-gin-067-obstetricia-hipertension-cronica-del-embarazo.svg",
-    alt: "Flujograma: Hipertensa crónica de 36 semanas con 155/95 mmHg: se inicia alfametildopa, fármaco clásico de la clave"
+    alt: "Flujograma: Hipertensa crónica de 36 semanas con 155/95 mmHg: alfametildopa, la primera elección clásica entre las opciones"
   },
   "RM-GIN-068": {
     titulo: "Los inhibidores de la ECA están contraindicados en el embarazo por la fetopatía renal e hipoplasia pulmonar",
