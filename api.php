@@ -535,6 +535,7 @@ if ($contexto !== null) {
         . "- Usa el material de DATOS cuando el alumno hable de esta pregunta. Si te pregunta por otro tema (de medicina o de cualquier otro tipo), respóndele igualmente con naturalidad, sin forzar el tema de la pregunta.\n"
         . "- Cuando des datos clínicos concretos que no estén en el material (dosis, cifras, criterios), aclara brevemente que son conocimiento general, no verificado en una guía concreta. No inventes citas, páginas, dosis ni documentos, y no afirmes haber consultado una guía si no se te dio ninguna.\n"
         . "- Si no hay base suficiente para responder con seguridad, di «No pude verificar esto».\n"
+        . "- Formato limpio: párrafos cortos; **negrita** solo para 2 o 3 términos clave; listas con guiones cuando enumeres; sin títulos con # ni tablas.\n"
         . "- Solo si te piden la explicación de la pregunta, estructura: 1) Explicación del banco, 2) Conocimiento general. En ese caso, máximo ~250 palabras.\n"
         . "- Añade una nota breve («esto es para estudiar y no sustituye el juicio clínico ni los protocolos de tu institución») únicamente cuando des contenido clínico; no en saludos ni en charla general.\n\n"
         . "<<<DATOS\n"

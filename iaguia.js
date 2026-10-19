@@ -22,6 +22,24 @@
       (g.url ? '<p class="ia-g__l"><a href="' + esc(g.url) + '" target="_blank" rel="noopener noreferrer">Abrir el documento</a></p>' : "") + '</li>';
   }
 
+  /* Formato de las respuestas: **negrita**, listas con - o 1., títulos con # y párrafos. Recibe texto YA escapado: solo añade etiquetas conocidas. */
+  function md(t) {
+    var out = [], lista = null, parr = [];
+    function cerrarP() { if (parr.length) { out.push("<p>" + parr.join("<br>") + "</p>"); parr = []; } }
+    function cerrarL() { if (lista) { out.push("</" + lista + ">"); lista = null; } }
+    function en(x) { return x.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/(^|[\s(])\*(?!\s)([^*\n]+?)\*(?=[\s).,;:!?]|$)/g, "$1<em>$2</em>"); }
+    String(t).split("\n").forEach(function (l) {
+      var m;
+      if (/^\s*$/.test(l)) { cerrarP(); cerrarL(); return; }
+      if ((m = l.match(/^\s*#{1,6}\s+(.*)$/))) { cerrarP(); cerrarL(); out.push("<p><strong>" + en(m[1]) + "</strong></p>"); return; }
+      if ((m = l.match(/^\s*[-*•]\s+(.*)$/))) { cerrarP(); if (lista !== "ul") { cerrarL(); out.push("<ul>"); lista = "ul"; } out.push("<li>" + en(m[1]) + "</li>"); return; }
+      if ((m = l.match(/^\s*\d+[.)]\s+(.*)$/))) { cerrarP(); if (lista !== "ol") { cerrarL(); out.push("<ol>"); lista = "ol"; } out.push("<li>" + en(m[1]) + "</li>"); return; }
+      cerrarL(); parr.push(en(l));
+    });
+    cerrarP(); cerrarL();
+    return out.join("");
+  }
+
   function cerrar() { if (!panel) return; if (panel.close) panel.close(); panel.remove(); panel = null; historial = []; ocupado = false; if (previo && previo.focus) previo.focus(); }
 
   function contexto(q, letra) {
@@ -36,14 +54,13 @@
     var ctx = contexto(q, letra);
     panel = document.createElement("dialog"); panel.className = "fc-dlg ia-dlg"; panel.setAttribute("aria-labelledby", "iaT");
     panel.innerHTML = '<div class="fc-form"><header class="fc-head"><h2 id="iaT">Preguntar a la IA</h2><button type="button" class="fc-x" aria-label="Cerrar" data-x>✕</button></header>' +
-      '<p class="ia-base" id="iaBase">Respondo sobre <b>' + esc(q.id) + '</b> usando el <b>comentario docente de tu banco</b>. Aún no hay guías MINSA ni internacionales cargadas: lo que añada fuera de ese comentario es conocimiento general, <b>no verificado</b> en una guía. Ayuda para estudiar; no sustituye el juicio clínico ni los protocolos institucionales.</p>' +
       '<div class="ia-chat" id="iaChat" role="log" aria-live="polite" aria-label="Conversación"></div>' +
       '<div class="ia-sug" id="iaSug">' + ["¿Por qué esa es la correcta?", letra && letra !== q.clave ? "¿Por qué mi respuesta (" + letra + ") no es la mejor?" : "Explícame los distractores", "Dame un resumen para memorizar"].map(function (t) { return '<button type="button" class="chip" data-s="' + esc(t) + '">' + esc(t) + '</button>'; }).join("") + '</div>' +
       '<form class="ia-form" id="iaForm"><label class="sr-only" for="iaIn">Tu pregunta</label><textarea id="iaIn" rows="2" maxlength="600" placeholder="Escribe tu duda sobre esta pregunta…"></textarea><button type="submit" class="btn btn--primary" id="iaEnviar">Enviar</button></form></div>';
     document.body.appendChild(panel);
     cargarEstadoGuias().then(function (g) {
-      var b = panel && panel.querySelector("#iaBase"), t = panel && panel.querySelector("#iaT");
-      if (g.documentos > 0 && b) { b.innerHTML = 'Respondo sobre <b>' + esc(q.id) + '</b> con tu banco y <b>' + g.documentos + (g.documentos === 1 ? " guía oficial cargada" : " guías oficiales cargadas") + '</b>. Cada dato de una guía lleva su cita con página; lo que no tenga cita es conocimiento general <b>no verificado</b>. Ayuda para estudiar; no sustituye el juicio clínico ni los protocolos institucionales.'; if (t) t.textContent = "Preguntar a la IA de la Guía"; }
+      var t = panel && panel.querySelector("#iaT");
+      if (g.documentos > 0 && t) t.textContent = "Preguntar a la IA de la Guía";
     });
     var chat = panel.querySelector("#iaChat"), inp = panel.querySelector("#iaIn"), btn = panel.querySelector("#iaEnviar");
     panel.addEventListener("click", function (ev) { if (ev.target === panel || (ev.target.closest && ev.target.closest("[data-x]"))) cerrar(); });
@@ -59,10 +76,9 @@
           var t = r.j.respuesta;
           if (r.http === 200 && typeof t === "string" && t.trim()) {
             historial.push({ rol: "usuario", texto: texto }, { rol: "tutor", texto: t });
-            var f = (r.j.fuentes || []).map(function (s) { return esc(s.titulo) + " (" + esc(s.pregunta) + ")"; }).join(" · ");
             var cit = r.j.citadas || [], gs = r.j.guias || [];
             var cuerpo = esc(t).replace(/\[G(\d{1,2})\]/g, function (_, n) { return '<sup class="ia-c"><a href="#iaG' + n + '">[' + n + ']</a></sup>'; });
-            esp.innerHTML = '<p>' + cuerpo.replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>") + '</p><p class="ia-src">Fuente del banco entregada a la IA: ' + (f || "ninguna") + '. ' + (r.j.verificado === false ? "Lo que no lleve cita [n] no está verificado en una guía." : "") + '</p>' +
+            esp.innerHTML = md(cuerpo) +
               (gs.length ? '<details class="ia-gs"' + (cit.length ? " open" : "") + '><summary>Guías consultadas (' + gs.length + ')' + (cit.length ? ", citadas: " + cit.length : ", ninguna citada") + '</summary><ul>' + gs.map(function (g) { return fichaGuia(g, cit.indexOf(g.n) >= 0); }).join("") + '</ul></details>' : "");
           } else if (r.http === 401) esp.innerHTML = 'Para preguntarle a la IA necesitas una cuenta. <a href="#/registro">Crear cuenta</a> · <a href="#/ingresar">Ingresar</a>';
           else if (r.http === 402) esp.innerHTML = 'El tutor de IA es parte de los planes de pago. <a href="#/planes">Ver planes</a>';
