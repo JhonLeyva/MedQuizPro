@@ -12361,5 +12361,507 @@ window.MQP_ALGORITMOS = {
     titulo: "La temperatura menor de 36 °C es el único criterio de SIRS entre las opciones",
     imagen: "flujogramas/rm-inf-011-sepsis-criterios-de-sirs.svg",
     alt: "Flujograma: La temperatura menor de 36 °C es el único criterio de SIRS entre las opciones"
+  },
+
+  /* ---------- Residentado Médico · lote 4 ---------- */
+  "RM-INF-012": {
+    titulo: "En la infección urinaria casi no hay anaerobios: la orina es aerobia y domina Escherichia coli",
+    imagen: "flujogramas/rm-inf-012-infectologia-anaerobios-segun-el-sitio.svg",
+    alt: "Flujograma: En la infección urinaria casi no hay anaerobios: la orina es aerobia y domina Escherichia coli"
+  },
+  "RM-GIN-005": {
+    titulo: "Vaginosis bacteriana: 3 de 4 criterios de Amsel, entre ellos pH mayor de 4,5, aminas y células guía",
+    imagen: "flujogramas/rm-gin-005-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: Vaginosis bacteriana: 3 de 4 criterios de Amsel, entre ellos pH mayor de 4,5, aminas y células guía"
+  },
+  "RM-GAS-002": {
+    titulo: "HBsAg y anti-HBs a la vez con anti-HBc IgG y HBeAg negativo: convalecencia de hepatitis B",
+    imagen: "flujogramas/rm-gas-002-hepatologia-serologia-de-la-hepatitis-b.svg",
+    alt: "Flujograma: HBsAg y anti-HBs a la vez con anti-HBc IgG y HBeAg negativo: convalecencia de hepatitis B"
+  },
+  "RM-INF-013": {
+    titulo: "Un lancetazo, placa livedoide y hematuria a las 36 horas: loxoscelismo cutáneo-visceral",
+    imagen: "flujogramas/rm-inf-013-toxicologia-mordedura-de-arana-del-rincon.svg",
+    alt: "Flujograma: Un lancetazo, placa livedoide y hematuria a las 36 horas: loxoscelismo cutáneo-visceral"
+  },
+  "RM-NEU-007": {
+    titulo: "Dolor pleurítico súbito, disnea y shock en un paciente con tuberculosis: neumotórax a tensión",
+    imagen: "flujogramas/rm-neu-007-neumologia-neumotorax-secundario-a-tuberculosis.svg",
+    alt: "Flujograma: Dolor pleurítico súbito, disnea y shock en un paciente con tuberculosis: neumotórax a tensión"
+  },
+  "RM-INF-014": {
+    titulo: "El absceso hepático amebiano contiene pus pardo rojizo, en «pasta de anchoas»",
+    imagen: "flujogramas/rm-inf-014-infectologia-absceso-hepatico-amebiano.svg",
+    alt: "Flujograma: El absceso hepático amebiano contiene pus pardo rojizo, en «pasta de anchoas»"
+  },
+  "RM-OFT-005": {
+    titulo: "La oftalmía neonatal grave la causan Neisseria gonorrhoeae y Chlamydia trachomatis",
+    imagen: "flujogramas/rm-oft-005-oftalmologia-conjuntivitis-del-recien-nacido.svg",
+    alt: "Flujograma: La oftalmía neonatal grave la causan Neisseria gonorrhoeae y Chlamydia trachomatis"
+  },
+  "RM-INF-015": {
+    titulo: "El chancroide, úlcera genital dolorosa de bordes socavados, lo causa Haemophilus ducreyi",
+    imagen: "flujogramas/rm-inf-015-infectologia-ulceras-genitales.svg",
+    alt: "Flujograma: El chancroide, úlcera genital dolorosa de bordes socavados, lo causa Haemophilus ducreyi"
+  },
+  "RM-GIN-006": {
+    titulo: "Flujo maloliente, prurito y cuello en fresa con eritema vaginal en manchas: Trichomonas vaginalis",
+    imagen: "flujogramas/rm-gin-006-ginecologia-vaginitis-por-trichomonas.svg",
+    alt: "Flujograma: Flujo maloliente, prurito y cuello en fresa con eritema vaginal en manchas: Trichomonas vaginalis"
+  },
+  "RM-OFT-006": {
+    titulo: "La blefaritis crónica infecciosa de las pestañas la causa Staphylococcus aureus",
+    imagen: "flujogramas/rm-oft-006-oftalmologia-blefaritis.svg",
+    alt: "Flujograma: La blefaritis crónica infecciosa de las pestañas la causa Staphylococcus aureus"
+  },
+  "RM-GIN-007": {
+    titulo: "Flujo amarillento, espumoso y maloliente con pH mayor de 4,5: Trichomonas vaginalis",
+    imagen: "flujogramas/rm-gin-007-ginecologia-diagnostico-diferencial-del-flujo-vaginal.svg",
+    alt: "Flujograma: Flujo amarillento, espumoso y maloliente con pH mayor de 4,5: Trichomonas vaginalis"
+  },
+  "RM-GAS-003": {
+    titulo: "Con anti-HAV IgG y anti-HBc/anti-HBs de contacto previo, el anti-HCV positivo indica hepatitis C",
+    imagen: "flujogramas/rm-gas-003-hepatologia-lectura-de-marcadores-virales.svg",
+    alt: "Flujograma: Con anti-HAV IgG y anti-HBc/anti-HBs de contacto previo, el anti-HCV positivo indica hepatitis C"
+  },
+  "RM-INF-016": {
+    titulo: "La enfermedad por arañazo de gato la produce Bartonella henselae",
+    imagen: "flujogramas/rm-inf-016-infectologia-enfermedad-por-aranazo-de-gato.svg",
+    alt: "Flujograma: La enfermedad por arañazo de gato la produce Bartonella henselae"
+  },
+  "RM-GAS-004": {
+    titulo: "Necrosis pancreática infectada a la semana: carbapenémico y desbridamiento diferido",
+    imagen: "flujogramas/rm-gas-004-gastroenterologia-pancreatitis-aguda-necrosante-infectada.svg",
+    alt: "Flujograma: Necrosis pancreática infectada a la semana: carbapenémico y desbridamiento diferido"
+  },
+  "RM-NRL-002": {
+    titulo: "La toxina botulínica impide liberar acetilcolina en la terminal presináptica: botulismo",
+    imagen: "flujogramas/rm-nrl-002-neurologia-union-neuromuscular.svg",
+    alt: "Flujograma: La toxina botulínica impide liberar acetilcolina en la terminal presináptica: botulismo"
+  },
+  "RM-INF-017": {
+    titulo: "Meningococo sin mejoría con penicilina a las 48 horas: ceftriaxona",
+    imagen: "flujogramas/rm-inf-017-infectologia-meningitis-meningococica.svg",
+    alt: "Flujograma: Meningococo sin mejoría con penicilina a las 48 horas: ceftriaxona"
+  },
+  "RM-INF-018": {
+    titulo: "Ascaridiasis y trichuriasis son geohelmintiasis: sus huevos maduran en el suelo",
+    imagen: "flujogramas/rm-inf-018-parasitologia-geohelmintos.svg",
+    alt: "Flujograma: Ascaridiasis y trichuriasis son geohelmintiasis: sus huevos maduran en el suelo"
+  },
+  "RM-INF-019": {
+    titulo: "Pus por la uretra antes de orinar: uretritis gonocócica (Neisseria gonorrhoeae)",
+    imagen: "flujogramas/rm-inf-019-its-uretritis-con-secrecion-purulenta.svg",
+    alt: "Flujograma: Pus por la uretra antes de orinar: uretritis gonocócica (Neisseria gonorrhoeae)"
+  },
+  "RM-GIN-008": {
+    titulo: "Flujo espumoso amarillento y cérvix con puntos rojos: Trichomonas vaginalis",
+    imagen: "flujogramas/rm-gin-008-infecciones-ginecologicas-tricomoniasis.svg",
+    alt: "Flujograma: Flujo espumoso amarillento y cérvix con puntos rojos: Trichomonas vaginalis"
+  },
+  "RM-GAS-005": {
+    titulo: "La causa más frecuente del absceso hepático piógeno es la infección biliar ascendente",
+    imagen: "flujogramas/rm-gas-005-higado-vias-del-absceso-piogeno.svg",
+    alt: "Flujograma: La causa más frecuente del absceso hepático piógeno es la infección biliar ascendente"
+  },
+  "RM-SP-001": {
+    titulo: "El bacilo tuberculoso es causa necesaria, pero no suficiente, de la tuberculosis",
+    imagen: "flujogramas/rm-sp-001-epidemiologia-tipos-de-causa.svg",
+    alt: "Flujograma: El bacilo tuberculoso es causa necesaria, pero no suficiente, de la tuberculosis"
+  },
+  "RM-OFT-007": {
+    titulo: "El agente más frecuente de la sinusitis bacteriana del adulto es Streptococcus pneumoniae",
+    imagen: "flujogramas/rm-oft-007-rinosinusitis-cuando-es-bacteriana-y-quien-la-causa.svg",
+    alt: "Flujograma: El agente más frecuente de la sinusitis bacteriana del adulto es Streptococcus pneumoniae"
+  },
+  "RM-INF-020": {
+    titulo: "Disentería con convulsión en un adulto: Shigella",
+    imagen: "flujogramas/rm-inf-020-diarrea-invasiva-shigella-y-convulsion.svg",
+    alt: "Flujograma: Disentería con convulsión en un adulto: Shigella"
+  },
+  "RM-GAS-006": {
+    titulo: "El primer marcador que aparece en la hepatitis B es el HBsAg",
+    imagen: "flujogramas/rm-gas-006-hepatitis-b-aguda-orden-de-los-marcadores.svg",
+    alt: "Flujograma: El primer marcador que aparece en la hepatitis B es el HBsAg"
+  },
+  "RM-CB-043": {
+    titulo: "Los aminoglucósidos dañan el VIII par: toxicidad vestibular y coclear",
+    imagen: "flujogramas/rm-cb-043-farmacologia-ototoxicidad-de-los-aminoglucosidos.svg",
+    alt: "Flujograma: Los aminoglucósidos dañan el VIII par: toxicidad vestibular y coclear"
+  },
+  "RM-CAR-039": {
+    titulo: "La complicación más severa del estreptococo beta hemolítico es la fiebre reumática",
+    imagen: "flujogramas/rm-car-039-estreptococo-del-grupo-a-fiebre-reumatica.svg",
+    alt: "Flujograma: La complicación más severa del estreptococo beta hemolítico es la fiebre reumática"
+  },
+  "RM-INF-021": {
+    titulo: "En la infección de sitio quirúrgico por estafilococo, el factor clave es el inadecuado lavado de manos",
+    imagen: "flujogramas/rm-inf-021-infecciones-intrahospitalarias-sitio-quirurgico.svg",
+    alt: "Flujograma: En la infección de sitio quirúrgico por estafilococo, el factor clave es el inadecuado lavado de manos"
+  },
+  "RM-INF-022": {
+    titulo: "Úlceras genitales múltiples, blandas y dolorosas, de bordes irregulares: chancroide",
+    imagen: "flujogramas/rm-inf-022-its-ulcera-genital-dolorosa.svg",
+    alt: "Flujograma: Úlceras genitales múltiples, blandas y dolorosas, de bordes irregulares: chancroide"
+  },
+  "RM-NEU-008": {
+    titulo: "Bronquiectasias infectadas por Pseudomonas aeruginosa: piperacilina/tazobactam",
+    imagen: "flujogramas/rm-neu-008-neumologia-bronquiectasias-y-pseudomonas.svg",
+    alt: "Flujograma: Bronquiectasias infectadas por Pseudomonas aeruginosa: piperacilina/tazobactam"
+  },
+  "RM-INF-023": {
+    titulo: "En la meningitis tuberculosa el LCR muestra pleocitosis mononuclear",
+    imagen: "flujogramas/rm-inf-023-meningitis-tuberculosa-hallazgos-del-lcr.svg",
+    alt: "Flujograma: En la meningitis tuberculosa el LCR muestra pleocitosis mononuclear"
+  },
+  "RM-NEU-009": {
+    titulo: "Neumonía grave con hipoxemia: oxígeno y ceftriaxona más azitromicina",
+    imagen: "flujogramas/rm-neu-009-neumonia-adquirida-en-la-comunidad-tratamiento.svg",
+    alt: "Flujograma: Neumonía grave con hipoxemia: oxígeno y ceftriaxona más azitromicina"
+  },
+  "RM-GAS-007": {
+    titulo: "Fiebre, ictericia, dolor en hipocondrio derecho y diabetes: absceso hepático piógeno",
+    imagen: "flujogramas/rm-gas-007-higado-absceso-hepatico-piogeno.svg",
+    alt: "Flujograma: Fiebre, ictericia, dolor en hipocondrio derecho y diabetes: absceso hepático piógeno"
+  },
+  "RM-NEU-010": {
+    titulo: "El microorganismo más frecuente de la neumonía adquirida en la comunidad es Streptococcus pneumoniae",
+    imagen: "flujogramas/rm-neu-010-neumonia-adquirida-en-la-comunidad-etiologia.svg",
+    alt: "Flujograma: El microorganismo más frecuente de la neumonía adquirida en la comunidad es Streptococcus pneumoniae"
+  },
+  "RM-NEU-011": {
+    titulo: "Un esputo es válido para cultivo con más de 25 neutrófilos y menos de 10 células epiteliales por campo",
+    imagen: "flujogramas/rm-neu-011-neumonia-calidad-de-la-muestra-de-esputo.svg",
+    alt: "Flujograma: Un esputo es válido para cultivo con más de 25 neutrófilos y menos de 10 células epiteliales por campo"
+  },
+  "RM-NEU-012": {
+    titulo: "EPOC exacerbado con fiebre y más disnea: se inicia antibiótico junto al broncodilatador y al corticoide",
+    imagen: "flujogramas/rm-neu-012-epoc-exacerbacion-infecciosa.svg",
+    alt: "Flujograma: EPOC exacerbado con fiebre y más disnea: se inicia antibiótico junto al broncodilatador y al corticoide"
+  },
+  "RM-NEU-013": {
+    titulo: "Fiebre, tos y disnea con un infiltrado alveolar basal nuevo configuran una neumonía adquirida en la comunidad",
+    imagen: "flujogramas/rm-neu-013-neumonia-diagnostico-en-el-adulto-mayor.svg",
+    alt: "Flujograma: Fiebre, tos y disnea con un infiltrado alveolar basal nuevo configuran una neumonía adquirida en la comunidad"
+  },
+  "RM-INF-024": {
+    titulo: "Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora",
+    imagen: "flujogramas/rm-inf-024-neuroinfeccion-meningitis-meningococica.svg",
+    alt: "Flujograma: Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora"
+  },
+  "RM-INF-025": {
+    titulo: "La azitromicina se elimina por vía biliar y no requiere ajuste en la insuficiencia renal grave",
+    imagen: "flujogramas/rm-inf-025-farmacologia-antibioticos-y-rinon.svg",
+    alt: "Flujograma: La azitromicina se elimina por vía biliar y no requiere ajuste en la insuficiencia renal grave"
+  },
+  "RM-GAS-008": {
+    titulo: "En la infección intestinal por C. difficile la vancomicina oral es el antibiótico eficaz, con fidaxomicina preferida hoy",
+    imagen: "flujogramas/rm-gas-008-gastroenterologia-colitis-por-clostridioides-difficile.svg",
+    alt: "Flujograma: En la infección intestinal por C. difficile la vancomicina oral es el antibiótico eficaz, con fidaxomicina preferida hoy"
+  },
+  "RM-GAS-009": {
+    titulo: "En la colangitis aguda por litiasis predominan E. coli, Klebsiella y Enterobacter",
+    imagen: "flujogramas/rm-gas-009-via-biliar-bacterias-de-la-colangitis.svg",
+    alt: "Flujograma: En la colangitis aguda por litiasis predominan E. coli, Klebsiella y Enterobacter"
+  },
+  "RM-INF-026": {
+    titulo: "El forúnculo es una infección del folículo piloso causada por Staphylococcus aureus",
+    imagen: "flujogramas/rm-inf-026-piel-y-partes-blandas-forunculosis.svg",
+    alt: "Flujograma: El forúnculo es una infección del folículo piloso causada por Staphylococcus aureus"
+  },
+  "RM-GIN-009": {
+    titulo: "En la vaginosis bacteriana el pH vaginal pasa de 4,5 y el test de aminas es positivo",
+    imagen: "flujogramas/rm-gin-009-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: En la vaginosis bacteriana el pH vaginal pasa de 4,5 y el test de aminas es positivo"
+  },
+  "RM-INF-027": {
+    titulo: "La meningitis criptocócica en VIH se induce con anfotericina B más flucitosina por 2 semanas",
+    imagen: "flujogramas/rm-inf-027-vih-meningitis-criptococica.svg",
+    alt: "Flujograma: La meningitis criptocócica en VIH se induce con anfotericina B más flucitosina por 2 semanas"
+  },
+  "RM-INF-028": {
+    titulo: "Staphylococcus aureus es el germen más frecuente de la artritis séptica",
+    imagen: "flujogramas/rm-inf-028-infectologia-artritis-septica.svg",
+    alt: "Flujograma: Staphylococcus aureus es el germen más frecuente de la artritis séptica"
+  },
+  "RM-NEU-014": {
+    titulo: "Tos de un mes con diaforesis, pérdida de peso e infiltrado apical: tuberculosis pulmonar",
+    imagen: "flujogramas/rm-neu-014-neumologia-sospecha-de-tuberculosis.svg",
+    alt: "Flujograma: Tos de un mes con diaforesis, pérdida de peso e infiltrado apical: tuberculosis pulmonar"
+  },
+  "RM-INF-029": {
+    titulo: "La primaquina previene las recaídas de P. vivax y P. ovale porque mata los hipnozoítos del hígado",
+    imagen: "flujogramas/rm-inf-029-malaria-prevencion-de-recaidas.svg",
+    alt: "Flujograma: La primaquina previene las recaídas de P. vivax y P. ovale porque mata los hipnozoítos del hígado"
+  },
+  "RM-INF-030": {
+    titulo: "La infección por virus del Zika durante la gestación se relaciona con microcefalia",
+    imagen: "flujogramas/rm-inf-030-infectologia-zika-congenito.svg",
+    alt: "Flujograma: La infección por virus del Zika durante la gestación se relaciona con microcefalia"
+  },
+  "RM-CAR-040": {
+    titulo: "En los criterios de Duke, los hemocultivos positivos con microorganismos típicos son un criterio mayor",
+    imagen: "flujogramas/rm-car-040-cardiologia-endocarditis-infecciosa.svg",
+    alt: "Flujograma: En los criterios de Duke, los hemocultivos positivos con microorganismos típicos son un criterio mayor"
+  },
+  "RM-INF-031": {
+    titulo: "El ELISA de tercera generación se positiviza entre las 2 y 4 semanas del contagio por VIH",
+    imagen: "flujogramas/rm-inf-031-vih-ventana-diagnostica.svg",
+    alt: "Flujograma: El ELISA de tercera generación se positiviza entre las 2 y 4 semanas del contagio por VIH"
+  },
+  "RM-GAS-010": {
+    titulo: "Los abscesos hepáticos se localizan con más frecuencia en el lóbulo derecho",
+    imagen: "flujogramas/rm-gas-010-higado-localizacion-de-los-abscesos.svg",
+    alt: "Flujograma: Los abscesos hepáticos se localizan con más frecuencia en el lóbulo derecho"
+  },
+  "RM-INF-032": {
+    titulo: "Los politransfundidos son un grupo clásico de mayor riesgo para contraer hepatitis C",
+    imagen: "flujogramas/rm-inf-032-hepatologia-riesgo-de-hepatitis-c.svg",
+    alt: "Flujograma: Los politransfundidos son un grupo clásico de mayor riesgo para contraer hepatitis C"
+  },
+  "RM-GIN-010": {
+    titulo: "En la gestante con VIH y dilatación mayor de 4 cm la cesárea ya no protege: el parto vaginal es la vía",
+    imagen: "flujogramas/rm-gin-010-vih-y-embarazo-via-del-parto.svg",
+    alt: "Flujograma: En la gestante con VIH y dilatación mayor de 4 cm la cesárea ya no protege: el parto vaginal es la vía"
+  },
+  "RM-GIN-011": {
+    titulo: "Gestante con VIH nueva: TARV triple desde la semana 12 de la norma; hoy, apenas se confirma el diagnóstico",
+    imagen: "flujogramas/rm-gin-011-vih-y-embarazo-inicio-del-tarv-triple.svg",
+    alt: "Flujograma: Gestante con VIH nueva: TARV triple desde la semana 12 de la norma; hoy, apenas se confirma el diagnóstico"
+  },
+  "RM-GIN-012": {
+    titulo: "Flujo verdoso con cérvix en fresa es tricomoniasis: metronidazol 500 mg cada 12 horas por 7 días",
+    imagen: "flujogramas/rm-gin-012-its-tricomoniasis-flujo-vaginal.svg",
+    alt: "Flujograma: Flujo verdoso con cérvix en fresa es tricomoniasis: metronidazol 500 mg cada 12 horas por 7 días"
+  },
+  "RM-GIN-013": {
+    titulo: "Las células guía hacen el diagnóstico de vaginosis bacteriana: criterios de Amsel, tres de cuatro",
+    imagen: "flujogramas/rm-gin-013-its-vaginosis-bacteriana-criterios-de-amsel.svg",
+    alt: "Flujograma: Las células guía hacen el diagnóstico de vaginosis bacteriana: criterios de Amsel, tres de cuatro"
+  },
+  "RM-NEU-015": {
+    titulo: "La tuberculosis del adulto ocupa los segmentos apicales y posteriores de los lóbulos superiores",
+    imagen: "flujogramas/rm-neu-015-tuberculosis-localizacion-de-la-forma-posprimaria.svg",
+    alt: "Flujograma: La tuberculosis del adulto ocupa los segmentos apicales y posteriores de los lóbulos superiores"
+  },
+  "RM-GIN-014": {
+    titulo: "Gestante con VIH a término y sin control prenatal: cesárea electiva con zidovudina endovenosa",
+    imagen: "flujogramas/rm-gin-014-vih-y-embarazo-indicacion-de-cesarea.svg",
+    alt: "Flujograma: Gestante con VIH a término y sin control prenatal: cesárea electiva con zidovudina endovenosa"
+  },
+  "RM-GIN-015": {
+    titulo: "La ruptura de membranas mayor de 4 horas aumenta la transmisión vertical del VIH",
+    imagen: "flujogramas/rm-gin-015-vih-y-embarazo-factores-de-transmision-vertical.svg",
+    alt: "Flujograma: La ruptura de membranas mayor de 4 horas aumenta la transmisión vertical del VIH"
+  },
+  "RM-INF-033": {
+    titulo: "El sarcoma de Kaposi del paciente con VIH lo causa el herpesvirus humano 8 (HHV-8)",
+    imagen: "flujogramas/rm-inf-033-vih-sarcoma-de-kaposi-herpesvirus.svg",
+    alt: "Flujograma: El sarcoma de Kaposi del paciente con VIH lo causa el herpesvirus humano 8 (HHV-8)"
+  },
+  "RM-GIN-016": {
+    titulo: "La norma peruana de 2019 fija la semana 12 para iniciar el TARV triple en la gestante con VIH",
+    imagen: "flujogramas/rm-gin-016-vih-y-embarazo-calendario-de-la-atencion.svg",
+    alt: "Flujograma: La norma peruana de 2019 fija la semana 12 para iniciar el TARV triple en la gestante con VIH"
+  },
+  "RM-NEU-016": {
+    titulo: "Contacto con VIH y PPD mayor de 5 mm: alto riesgo de tuberculosis y tratamiento preventivo",
+    imagen: "flujogramas/rm-neu-016-tuberculosis-ppd-y-tratamiento-preventivo.svg",
+    alt: "Flujograma: Contacto con VIH y PPD mayor de 5 mm: alto riesgo de tuberculosis y tratamiento preventivo"
+  },
+  "RM-GIN-017": {
+    titulo: "Los condilomas anogenitales los causan los tipos 6 y 11 del VPH, de bajo riesgo oncogénico",
+    imagen: "flujogramas/rm-gin-017-its-condilomas-acuminados-vph-6-y-11.svg",
+    alt: "Flujograma: Los condilomas anogenitales los causan los tipos 6 y 11 del VPH, de bajo riesgo oncogénico"
+  },
+  "RM-NEU-017": {
+    titulo: "Cavidad tuberculosa residual con masa en su interior y hemoptisis: aspergiloma",
+    imagen: "flujogramas/rm-neu-017-neumologia-aspergiloma-en-caverna-residual.svg",
+    alt: "Flujograma: Cavidad tuberculosa residual con masa en su interior y hemoptisis: aspergiloma"
+  },
+  "RM-GIN-018": {
+    titulo: "Los VPH 16 y 18 causan cerca del 70 % de los cánceres de cuello uterino",
+    imagen: "flujogramas/rm-gin-018-vph-tipos-oncogenicos-principales.svg",
+    alt: "Flujograma: Los VPH 16 y 18 causan cerca del 70 % de los cánceres de cuello uterino"
+  },
+  "RM-NEU-018": {
+    titulo: "Pleuritis tuberculosa con ADA elevada: el diagnóstico se confirma con biopsia pleural",
+    imagen: "flujogramas/rm-neu-018-tuberculosis-derrame-pleural-confirmacion.svg",
+    alt: "Flujograma: Pleuritis tuberculosa con ADA elevada: el diagnóstico se confirma con biopsia pleural"
+  },
+  "RM-INF-034": {
+    titulo: "HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis B crónica con replicación activa",
+    imagen: "flujogramas/rm-inf-034-hepatitis-b-interpretacion-serologica.svg",
+    alt: "Flujograma: HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis B crónica con replicación activa"
+  },
+  "RM-REU-005": {
+    titulo: "La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos",
+    imagen: "flujogramas/rm-reu-005-artritis-septica-articulaciones-mas-afectadas.svg",
+    alt: "Flujograma: La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos"
+  },
+  "RM-INF-035": {
+    titulo: "En el dengue se evita el metamizol, los AINE y la aspirina: el antipirético de elección es el paracetamol",
+    imagen: "flujogramas/rm-inf-035-dengue-manejo-y-conducta-contraindicada.svg",
+    alt: "Flujograma: En el dengue se evita el metamizol, los AINE y la aspirina: el antipirético de elección es el paracetamol"
+  },
+  "RM-INF-036": {
+    titulo: "Cervicitis mucopurulenta: la causan Neisseria gonorrhoeae y Chlamydia, que infectan el epitelio columnar",
+    imagen: "flujogramas/rm-inf-036-its-endocervicitis-mucopurulenta.svg",
+    alt: "Flujograma: Cervicitis mucopurulenta: la causan Neisseria gonorrhoeae y Chlamydia, que infectan el epitelio columnar"
+  },
+  "RM-GIN-019": {
+    titulo: "Endometritis puerperal tras cesárea: clindamicina, gentamicina y ampicilina",
+    imagen: "flujogramas/rm-gin-019-puerperio-endometritis-posparto.svg",
+    alt: "Flujograma: Endometritis puerperal tras cesárea: clindamicina, gentamicina y ampicilina"
+  },
+  "RM-CB-044": {
+    titulo: "Picadura en un rincón y placa livedoide con orina oscura: loxoscelismo",
+    imagen: "flujogramas/rm-cb-044-toxicologia-loxoscelismo.svg",
+    alt: "Flujograma: Picadura en un rincón y placa livedoide con orina oscura: loxoscelismo"
+  },
+  "RM-GIN-020": {
+    titulo: "Flujo fino, pH 6, olor a pescado con KOH y células clave: vaginosis bacteriana",
+    imagen: "flujogramas/rm-gin-020-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: Flujo fino, pH 6, olor a pescado con KOH y células clave: vaginosis bacteriana"
+  },
+  "RM-INF-037": {
+    titulo: "Fiebre terciana, hepatoesplenomegalia y viaje a Piura: malaria no complicada",
+    imagen: "flujogramas/rm-inf-037-infectologia-malaria.svg",
+    alt: "Flujograma: Fiebre terciana, hepatoesplenomegalia y viaje a Piura: malaria no complicada"
+  },
+  "RM-GIN-021": {
+    titulo: "Cistitis en la gestante a las 32 semanas: cefalosporina oral, como la cefuroxima",
+    imagen: "flujogramas/rm-gin-021-obstetricia-cistitis-en-la-gestacion.svg",
+    alt: "Flujograma: Cistitis en la gestante a las 32 semanas: cefalosporina oral, como la cefuroxima"
+  },
+  "RM-GIN-022": {
+    titulo: "Flujo verdoso con cérvix en fresa y esposo asintomático: tricomoniasis",
+    imagen: "flujogramas/rm-gin-022-ginecologia-tricomoniasis.svg",
+    alt: "Flujograma: Flujo verdoso con cérvix en fresa y esposo asintomático: tricomoniasis"
+  },
+  "RM-CB-045": {
+    titulo: "Sulfonamidas: inhibición competitiva de la dihidropteroato sintetasa",
+    imagen: "flujogramas/rm-cb-045-farmacologia-sulfonamidas.svg",
+    alt: "Flujograma: Sulfonamidas: inhibición competitiva de la dihidropteroato sintetasa"
+  },
+  "RM-GIN-023": {
+    titulo: "Dolor pélvico, flujo mucopurulento y dolor a la movilización cervical: enfermedad inflamatoria pélvica",
+    imagen: "flujogramas/rm-gin-023-ginecologia-enfermedad-inflamatoria-pelvica.svg",
+    alt: "Flujograma: Dolor pélvico, flujo mucopurulento y dolor a la movilización cervical: enfermedad inflamatoria pélvica"
+  },
+  "RM-OFT-008": {
+    titulo: "Otitis media supurada crónica: la meningitis es su complicación intracraneal más frecuente",
+    imagen: "flujogramas/rm-oft-008-otorrinolaringologia-otitis-media-cronica.svg",
+    alt: "Flujograma: Otitis media supurada crónica: la meningitis es su complicación intracraneal más frecuente"
+  },
+  "RM-SP-002": {
+    titulo: "Sintomático respiratorio examinado: quien ya tiene al menos una baciloscopía",
+    imagen: "flujogramas/rm-sp-002-salud-publica-tuberculosis-captacion.svg",
+    alt: "Flujograma: Sintomático respiratorio examinado: quien ya tiene al menos una baciloscopía"
+  },
+  "RM-NEF-007": {
+    titulo: "En la enfermedad renal crónica, la nitrofurantoína causa neuropatía periférica",
+    imagen: "flujogramas/rm-nef-007-nefrologia-farmacos-y-enfermedad-renal.svg",
+    alt: "Flujograma: En la enfermedad renal crónica, la nitrofurantoína causa neuropatía periférica"
+  },
+  "RM-INF-038": {
+    titulo: "Diarrea y fiebre tras un antibiótico: el agente más frecuente es Clostridioides difficile",
+    imagen: "flujogramas/rm-inf-038-infectologia-diarrea-asociada-a-antibioticos.svg",
+    alt: "Flujograma: Diarrea y fiebre tras un antibiótico: el agente más frecuente es Clostridioides difficile"
+  },
+  "RM-GIN-024": {
+    titulo: "La ruptura de membranas mayor de 4 horas aumenta el riesgo de transmisión vertical del VIH",
+    imagen: "flujogramas/rm-gin-024-obstetricia-vih-y-transmision-vertical.svg",
+    alt: "Flujograma: La ruptura de membranas mayor de 4 horas aumenta el riesgo de transmisión vertical del VIH"
+  },
+  "RM-INF-039": {
+    titulo: "En el VIH con CD4 menor de 200, la tuberculosis se ve como infiltrado intersticial difuso",
+    imagen: "flujogramas/rm-inf-039-infectologia-tuberculosis-en-vih.svg",
+    alt: "Flujograma: En el VIH con CD4 menor de 200, la tuberculosis se ve como infiltrado intersticial difuso"
+  },
+  "RM-INF-040": {
+    titulo: "Úlcera genital profunda de borde excavado con adenopatía dolorosa: chancroide",
+    imagen: "flujogramas/rm-inf-040-its-ulceras-genitales.svg",
+    alt: "Flujograma: Úlcera genital profunda de borde excavado con adenopatía dolorosa: chancroide"
+  },
+  "RM-GIN-025": {
+    titulo: "Flujo amarillento, prurito y cuello en fresa: se trata con metronidazol",
+    imagen: "flujogramas/rm-gin-025-ginecologia-tricomoniasis-tratamiento.svg",
+    alt: "Flujograma: Flujo amarillento, prurito y cuello en fresa: se trata con metronidazol"
+  },
+  "RM-GIN-026": {
+    titulo: "Bacteriuria asintomática sin tratar en la gestante: el riesgo es la pielonefritis",
+    imagen: "flujogramas/rm-gin-026-obstetricia-bacteriuria-asintomatica.svg",
+    alt: "Flujograma: Bacteriuria asintomática sin tratar en la gestante: el riesgo es la pielonefritis"
+  },
+  "RM-INF-041": {
+    titulo: "LCR con linfocitos, glucosa baja y proteínas altas: meningitis por Mycobacterium tuberculosis",
+    imagen: "flujogramas/rm-inf-041-infectologia-liquido-cefalorraquideo.svg",
+    alt: "Flujograma: LCR con linfocitos, glucosa baja y proteínas altas: meningitis por Mycobacterium tuberculosis"
+  },
+  "RM-NEF-008": {
+    titulo: "Varón con prostatitis previa, disuria y puntos renoureterales positivos: levofloxacino",
+    imagen: "flujogramas/rm-nef-008-nefrologia-infeccion-urinaria-complicada-en-el-varon.svg",
+    alt: "Flujograma: Varón con prostatitis previa, disuria y puntos renoureterales positivos: levofloxacino"
+  },
+  "RM-GAS-011": {
+    titulo: "HBsAg y anti-HBc IgM positivos con HBeAg positivo y anti-HBs negativo: hepatitis B aguda",
+    imagen: "flujogramas/rm-gas-011-hepatologia-serologia-de-la-hepatitis-b.svg",
+    alt: "Flujograma: HBsAg y anti-HBc IgM positivos con HBeAg positivo y anti-HBs negativo: hepatitis B aguda"
+  },
+  "RM-HEM-002": {
+    titulo: "En el adulto los neutrófilos son los leucocitos más abundantes por microlitro",
+    imagen: "flujogramas/rm-hem-002-hematologia-formula-leucocitaria-normal.svg",
+    alt: "Flujograma: En el adulto los neutrófilos son los leucocitos más abundantes por microlitro"
+  },
+  "RM-INF-042": {
+    titulo: "Gestante con tuberculosis pulmonar en tratamiento: se administra piridoxina",
+    imagen: "flujogramas/rm-inf-042-tuberculosis-embarazo-y-lactancia.svg",
+    alt: "Flujograma: Gestante con tuberculosis pulmonar en tratamiento: se administra piridoxina"
+  },
+  "RM-OFT-009": {
+    titulo: "Conjuntivitis bacteriana aguda en un adolescente: el germen más frecuente es Staphylococcus aureus",
+    imagen: "flujogramas/rm-oft-009-oftalmologia-conjuntivitis-bacteriana.svg",
+    alt: "Flujograma: Conjuntivitis bacteriana aguda en un adolescente: el germen más frecuente es Staphylococcus aureus"
+  },
+  "RM-SP-003": {
+    titulo: "La vacuna antiamarílica logra inmunidad protectora a los 10 días de aplicada",
+    imagen: "flujogramas/rm-sp-003-salud-publica-vacuna-contra-la-fiebre-amarilla.svg",
+    alt: "Flujograma: La vacuna antiamarílica logra inmunidad protectora a los 10 días de aplicada"
+  },
+  "RM-SP-004": {
+    titulo: "En zona enzoótica de fiebre amarilla la medida central es vacunar y monitorear las coberturas",
+    imagen: "flujogramas/rm-sp-004-salud-publica-prevencion-de-la-fiebre-amarilla.svg",
+    alt: "Flujograma: En zona enzoótica de fiebre amarilla la medida central es vacunar y monitorear las coberturas"
+  },
+  "RM-INF-043": {
+    titulo: "El dolor abdominal intenso y continuo es un signo de alarma del dengue",
+    imagen: "flujogramas/rm-inf-043-dengue-signos-de-alarma.svg",
+    alt: "Flujograma: El dolor abdominal intenso y continuo es un signo de alarma del dengue"
+  },
+  "RM-CB-046": {
+    titulo: "El macrófago fagocita y destruye microorganismos y secreta citoquinas inflamatorias",
+    imagen: "flujogramas/rm-cb-046-inmunologia-inmunidad-innata.svg",
+    alt: "Flujograma: El macrófago fagocita y destruye microorganismos y secreta citoquinas inflamatorias"
+  },
+  "RM-SP-005": {
+    titulo: "El cólera es una enfermedad reemergente: conocida, que vuelve a aumentar",
+    imagen: "flujogramas/rm-sp-005-epidemiologia-enfermedades-emergentes-y-reemergentes.svg",
+    alt: "Flujograma: El cólera es una enfermedad reemergente: conocida, que vuelve a aumentar"
+  },
+  "RM-INF-044": {
+    titulo: "Neumonía con infiltrado parahiliar tras un viaje a la selva: histoplasmosis",
+    imagen: "flujogramas/rm-inf-044-infectologia-micosis-endemica-pulmonar.svg",
+    alt: "Flujograma: Neumonía con infiltrado parahiliar tras un viaje a la selva: histoplasmosis"
+  },
+  "RM-HEM-003": {
+    titulo: "En la mononucleosis infecciosa el hemograma muestra linfocitos atípicos",
+    imagen: "flujogramas/rm-hem-003-hematologia-mononucleosis-infecciosa.svg",
+    alt: "Flujograma: En la mononucleosis infecciosa el hemograma muestra linfocitos atípicos"
+  },
+  "RM-GIN-027": {
+    titulo: "Los criterios de Amsel se usan para diagnosticar vaginosis bacteriana: se necesitan 3 de 4",
+    imagen: "flujogramas/rm-gin-027-ginecologia-vaginosis-bacteriana.svg",
+    alt: "Flujograma: Los criterios de Amsel se usan para diagnosticar vaginosis bacteriana: se necesitan 3 de 4"
   }
 };
