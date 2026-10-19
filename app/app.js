@@ -823,6 +823,45 @@
 
   /* ---------- Mi progreso ---------- */
   var MINIMO = 3;   // respuestas mínimas en una especialidad para juzgarla
+  /* ---------- Rendimiento y plan de estudio (rendimiento.js: estadística descriptiva, sin nota proyectada) ---------- */
+  function panelRendimiento() {
+    if (!M.rendimiento) return "";
+    var p = M.progreso.leer();
+    var R = M.rendimiento.calcular(datos.preguntas, p.respuestas, p.sesiones, Date.now());
+    if (!R.global.n) return "";
+    var G1 = R.global, E = R.estimacion;
+    var sim = R.simulacros.length ? R.simulacros[R.simulacros.length - 1] : null;
+    var bloqueEst = E.suficiente
+      ? '<p class="rd__big">' + E.rango[0] + '–' + E.rango[1] + ' %</p><p class="rd__sub">de aciertos esperados en preguntas parecidas a las del banco (intervalo de confianza del 95 %).' +
+        (E.tendencia ? ' Tus simulacros ' + (E.tendencia > 0 ? "mejoran" : "bajan") + ' ' + Math.abs(E.tendencia) + ' puntos entre la primera y la segunda mitad.' : "") + '</p>'
+      : '<p class="rd__big rd__big--off">Todavía necesitamos más resultados para estimar tu desempeño</p><p class="rd__sub">Para hacerlo falta: ' + E.faltan.map(esc).join(" y ") + '.</p>';
+    var h = '<section class="card card--spaced rd"><div class="card__head"><h2 class="card__h">Tu rendimiento, con los datos que hay</h2></div>' +
+      '<div class="rd__grid">' +
+        '<div class="rd__c"><p class="rd__t">1 · Aciertos actuales</p><p class="rd__big">' + G1.pct + ' %</p><p class="rd__sub">' + G1.ok + ' de ' + G1.n + ' en tu último intento de cada pregunta. Rango plausible: ' + G1.lo + '–' + G1.hi + ' %. Cubres el ' + G1.cobertura + ' % del banco.</p></div>' +
+        '<div class="rd__c"><p class="rd__t">2 · Simulacros recientes</p>' + (sim ? '<p class="rd__big">' + sim.pct + ' %</p><p class="rd__sub">Último simulacro (' + sim.ok + ' de ' + sim.total + '). Simulacros contados: ' + R.simulacros.length + '.</p>' : '<p class="rd__big rd__big--off">Sin simulacros completos</p><p class="rd__sub">Cuentan los de al menos 20 preguntas.</p>') + '</div>' +
+        '<div class="rd__c"><p class="rd__t">3 · Estimación a futuro</p>' + bloqueEst + '</div>' +
+        '<div class="rd__c"><p class="rd__t">4 · Incertidumbre</p><p class="rd__sub">Los rangos se calculan con intervalos de Wilson: con pocas respuestas son amplios y se estrechan al practicar. Es una estimación estadística, <b>no una nota</b> ni una promesa: no convertimos tu % a la escala del ENAM porque esa relación no está validada.</p></div>' +
+      '</div></section>';
+    var plan = R.plan.map(function (z, i) {
+      var temas = z.temas.length ? '<p class="rd__temas">Temas con más errores: ' + z.temas.map(function (t) { return esc(t.tema) + ' (' + t.falladas.length + ')'; }).join(" · ") + '</p>' : "";
+      return '<li class="rd__item"><span class="rd__n">' + (i + 1) + '</span><div><h3>' + esc(z.nombre) + '</h3><ul class="rd__why">' + z.motivos.map(function (m) { return '<li>' + esc(m) + '</li>'; }).join("") + '</ul>' + temas +
+        '<p class="rd__meta">' + esc(z.meta) + '</p><div class="rd__btn">' +
+        (z.falladas.length ? '<button class="btn btn--primary btn--sm" type="button" data-accion="refuerzo" data-archivo="' + esc(z.archivo) + '" data-modo="falladas">Repasar mis ' + z.falladas.length + ' falladas</button>' : "") +
+        '<button class="btn btn--ghost btn--sm" type="button" data-accion="refuerzo" data-archivo="' + esc(z.archivo) + '" data-modo="banco">Practicar la especialidad</button>' +
+        '<a class="btn btn--ghost btn--sm" href="#/flashcards">Mis flashcards</a></div></div></li>';
+    }).join("");
+    return h + '<section class="card card--spaced rd"><div class="card__head"><h2 class="card__h">Qué estudiar primero</h2><span class="muted small">Prioridad = bajo acierto + peso en el banco + pocos datos + tiempo sin practicar</span></div><ol class="rd__plan">' + plan + '</ol>' +
+      '<p class="muted small card__note">«Peso» es el tamaño de la especialidad en este banco, no el blueprint oficial del examen. Las metas son orientativas.</p></section>';
+  }
+  ACCIONES.refuerzo = function (b) {
+    var esp = M.especialidad(b.getAttribute("data-archivo")); if (!esp) return;
+    if (b.getAttribute("data-modo") === "falladas") {
+      var ids = idsFalladas().filter(function (id) { return porId[id] && porId[id].archivo === esp.archivo; });
+      if (ids.length) { iniciar({ titulo: "Refuerzo · " + esp.nombre, ids: ids, volverTexto: "Volver a mi progreso", noGuardar: true }); return; }
+    }
+    iniciar({ titulo: esp.nombre, archivos: [esp.archivo], examen: "enam", volverTexto: "Volver a mi progreso" });
+  };
+
   function vistaProgreso() {
     var res = M.progreso.resumen();
     var p = M.progreso.leer();
@@ -862,6 +901,7 @@
         '<div class="kpi"><dt>Simulacros terminados</dt><dd>' + simulacros + '</dd></div>' +
       '</dl>' +
       analisisProgreso() +
+      panelRendimiento() +
       '<div class="grid-2 card--spaced">' +
         '<section class="card"><div class="card__head"><h2 class="card__h">Áreas fuertes</h2></div>' + mini(fuertes, "is-ok") + '</section>' +
         '<section class="card"><div class="card__head"><h2 class="card__h">Áreas por reforzar</h2>' + (debiles.length ? '<a class="link-arrow" href="#/falladas">Repasar falladas <span aria-hidden="true">→</span></a>' : "") + '</div>' + mini(debiles, "is-bad") + '</section>' +
