@@ -984,6 +984,18 @@ function diagnostico(string $proveedor, string $apiKey, string $modelo, string $
             ? hablarOpenAI($apiKey, $modelo, $baseUrl, [['rol' => 'usuario', 'texto' => 'Responde solo: ok']])
             : hablarAnthropic($apiKey, $modelo, $baseUrl, [['rol' => 'usuario', 'texto' => 'Responde solo: ok']]);
         $informe['prueba'] = ['ok' => $prueba['ok'], 'detalle' => $prueba['detalle'] ?: null];
+        if ($proveedor === 'openai') {
+            /* Modelos que esta llave puede usar (los nombres no son secretos). Sirve cuando el modelo configurado da 404. */
+            $r = peticion(($baseUrl !== '' ? $baseUrl : URL_OPENAI) . '/models', null, ['Authorization: Bearer ' . $apiKey]);
+            $ids = [];
+            foreach ((array) ($r['cuerpo']['data'] ?? []) as $m) {
+                if (is_array($m) && isset($m['id'])) {
+                    $ids[] = (string) $m['id'];
+                }
+            }
+            sort($ids);
+            $informe['modelos_disponibles'] = $r['codigo'] === 200 ? array_slice($ids, 0, 60) : 'HTTP ' . $r['codigo'] . ' ' . mb_substr(trim((string) $r['crudo']), 0, 200);
+        }
     }
 
     responder(200, $informe);
