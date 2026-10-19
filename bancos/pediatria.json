@@ -5460,6 +5460,46 @@
       "tema": "Insuficiencia cardiaca en el lactante",
       "año": 2014,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; AHA/ACC, cardiopatías congénitas del adulto (2018)"
+    },
+    {
+      "id": "RM-PED-002",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la malformación anorrectal más frecuente en varones?",
+      "opciones": [
+        "Fístula rectovesical.",
+        "Fístula rectouretral prostática.",
+        "Fístula rectouretral bulbar.",
+        "Fístula cutánea perineal.",
+        "Ano imperforado sin fístula."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las malformaciones anorrectales se clasifican según la fístula (Pena). En varones, la forma más frecuente es la fístula rectouretral (bulbar la más común), seguida de la fístula perineal (cutánea) y la prostática; la rectovesical es rara. En niñas, la forma más frecuente es la fístula rectovestibular. El 50-60 % se asocia a otras anomalías (síndrome VACTERL: vertebrales, anales, cardiacas, traqueoesofágicas, renales y de extremidades), por eso se estudia con ecografía renal, ecocardiograma y radiografía de columna. El diagnóstico es clínico (examen perineal), con meconio por la orina en las fístulas urinarias. Las formas bajas (fístula perineal) se corrigen con anoplastía en el periodo neonatal; las altas, con colostomía descompresiva y anorrectoplastia sagital posterior (Peña) a los 2-3 meses.",
+      "comentario": "Las malformaciones anorrectales se clasifican según la fístula (Pena). En varones, la forma más frecuente es la fístula rectouretral (bulbar la más común), seguida de la fístula perineal (cutánea) y la prostática; la rectovesical es rara. En niñas, la forma más frecuente es la fístula rectovestibular. El 50-60 % se asocia a otras anomalías (síndrome VACTERL: vertebrales, anales, cardiacas, traqueoesofágicas, renales y de extremidades), por eso se estudia con ecografía renal, ecocardiograma y radiografía de columna. El diagnóstico es clínico (examen perineal), con meconio por la orina en las fístulas urinarias. Las formas bajas (fístula perineal) se corrigen con anoplastía en el periodo neonatal; las altas, con colostomía descompresiva y anorrectoplastia sagital posterior (Peña) a los 2-3 meses.",
+      "tema": "Malformación anorrectal más frecuente en varones",
+      "año": 2017,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; Sociedad Europea de Cirugía Pediátrica (EUPSA), malformaciones anorrectales; Pena y de Vries (2017)"
+    },
+    {
+      "id": "RM-PED-003",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Recién nacido de 4 semanas con vómitos en «proyectil»; le diagnostican estenosis hipertrófica del píloro. ¿Cuál es el tratamiento quirúrgico de elección?",
+      "opciones": [
+        "Piloromiotomía laparoscópica.",
+        "Esofagostomía.",
+        "Gastroduodenoanastomosis.",
+        "Gastrectomía distal.",
+        "Gastrostomía."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La estenosis hipertrófica del píloro aparece entre las 2 y 8 semanas de vida, con vómitos no biliosos «en proyectil» después de cada toma, el lactante con hambre voraz, pérdida de peso, deshidratación y alcalosis metabólica hipoclorémica con hipopotasemia. A la exploración se palpa la «oliva pilórica» y se observan ondas peristálticas. La ecografía confirma: grosor muscular ≥ 3-4 mm y longitud del canal pilórico ≥ 15-17 mm. Primero se corrige el desequilibrio hidroelectrolítico (solución salina con dextrosa y potasio) y luego se hace la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, con alimentación precoz y curación definitiva. Más frecuente en varones primogénitos; se asocia al uso de eritromicina en las primeras semanas.",
+      "comentario": "La estenosis hipertrófica del píloro aparece entre las 2 y 8 semanas de vida, con vómitos no biliosos «en proyectil» después de cada toma, el lactante con hambre voraz, pérdida de peso, deshidratación y alcalosis metabólica hipoclorémica con hipopotasemia. A la exploración se palpa la «oliva pilórica» y se observan ondas peristálticas. La ecografía confirma: grosor muscular ≥ 3-4 mm y longitud del canal pilórico ≥ 15-17 mm. Primero se corrige el desequilibrio hidroelectrolítico (solución salina con dextrosa y potasio) y luego se hace la piloromiotomía extramucosa de Fredet-Ramstedt, por vía abierta o laparoscópica, con alimentación precoz y curación definitiva. Más frecuente en varones primogénitos; se asocia al uso de eritromicina en las primeras semanas.",
+      "tema": "Estenosis hipertrófica del píloro: piloromiotomía",
+      "año": 2018,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed.; Sociedad Británica de Cirugía Pediátrica; Schwartz Principios de Cirugía 11.ª ed."
     }
   ]
 }

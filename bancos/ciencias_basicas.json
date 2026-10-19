@@ -10525,6 +10525,27 @@
       "año": 2019,
       "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed.; Braunwald Tratado de Cardiología 12.ª ed.",
       "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-024",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Qué porción del páncreas está dentro de la concavidad en forma de C del duodeno?",
+      "opciones": [
+        "Cabeza.",
+        "Cuerpo.",
+        "Cuello.",
+        "Cola.",
+        "Proceso unciforme."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El páncreas es un órgano retroperitoneal con cabeza, cuello, cuerpo y cola. La cabeza ocupa la concavidad del marco duodenal (en C) a la derecha de la línea media, a la altura de L2, y contiene el conducto pancreático principal y la parte intrapancreática del colédoco; por esa razón, un tumor de la cabeza produce ictericia obstructiva indolora con vesícula palpable (signo de Courvoisier-Terrier). El proceso unciforme es una prolongación de la cabeza hacia atrás y a la izquierda, detrás de la vena mesentérica superior; el cuello está delante de la confluencia mesentérica-portal y el cuerpo cruza la aorta y la arteria mesentérica superior. La cola llega al hilio esplénico: el trauma esplénico puede lesionarla. La irrigación proviene de la arteria esplénica y de las pancreatoduodenales.",
+      "comentario": "El páncreas es un órgano retroperitoneal con cabeza, cuello, cuerpo y cola. La cabeza ocupa la concavidad del marco duodenal (en C) a la derecha de la línea media, a la altura de L2, y contiene el conducto pancreático principal y la parte intrapancreática del colédoco; por esa razón, un tumor de la cabeza produce ictericia obstructiva indolora con vesícula palpable (signo de Courvoisier-Terrier). El proceso unciforme es una prolongación de la cabeza hacia atrás y a la izquierda, detrás de la vena mesentérica superior; el cuello está delante de la confluencia mesentérica-portal y el cuerpo cruza la aorta y la arteria mesentérica superior. La cola llega al hilio esplénico: el trauma esplénico puede lesionarla. La irrigación proviene de la arteria esplénica y de las pancreatoduodenales.",
+      "tema": "Cabeza del páncreas en el marco duodenal",
+      "año": 2017,
+      "fuentes": "Moore Anatomía con orientación clínica 8.ª ed.; Netter Atlas de Anatomía Humana 8.ª ed.",
+      "categoria": "Anatomía"
     }
   ]
 }

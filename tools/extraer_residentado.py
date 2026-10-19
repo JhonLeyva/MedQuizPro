@@ -29,6 +29,7 @@ FOOT = re.compile(r"^\W*Pág\.?\s*(\d+)\W*$", re.I)
 HEAD = re.compile(r"^RM\s?(20\d\d)\s?(EXT\w*)?\s*$", re.I)
 OPC = re.compile(r"^([A-E])\s?[\.\)]\s*(.*)$")
 RESP = re.compile(r"^Respuest\s?a\s*([A-E])\b", re.I)
+RESP2 = re.compile(r"Respuest\s?a\s*([A-E])(?![A-Za-záéíóúñ])", re.I)
 
 # letras con las que el OCR confunde cada opción
 VAR = {"A": "A", "B": "B8", "C": "C", "D": "D0OU", "E": "E"}
@@ -84,33 +85,27 @@ def main(pdf, salida):
             cur["l"].append(s)
     out, descartes = [], []
     for b in bloques:
-        L = b["l"]
-        # enunciado: desde la línea con número hasta la primera opción A.
-        try:
-            ia = next(i for i, s in enumerate(L) if OPC.match(s) and OPC.match(s).group(1) == "A")
-        except StopIteration:
-            descartes.append((b["pag"], "sin opción A", L[:2])); continue
-        enun = " ".join(L[:ia])
-        mnum = re.match(r"^(\d{1,3})\s*[\.\)]\s*(.*)$", enun)
+        T = " ".join(b["l"])
+        m = RESP2.search(T)
+        pre, clave, post = (T[:m.start()], m.group(1).upper(), T[m.end():]) if m else (T, None, "")
+        mc = re.search(r"Comentario", post)
+        com = post[mc.end():].strip(" :") if mc else post.strip()
+        if not m:                       # sin «Respuesta X»: el comentario puede traer la clave
+            mc = re.search(r"Comentario", T)
+            if mc: pre, com = T[:mc.start()], T[mc.end():].strip(" :")
+            else: com = ""
+        opciones = separar_opciones(pre)
+        pos = re.search(r"(?:^|(?<=[\s\"”.;]))A\s?[\.\)](?=\s|[A-ZÁÉÍÓÚÑ¿0-9])", pre)
+        enun = pre[:pos.start()] if pos else pre
+        mnum = re.match(r"^\s*(\d{1,3})\s*[\.\)]\s*(.*)$", enun, re.S)
         num = int(mnum.group(1)) if mnum else None
         if mnum: enun = mnum.group(2)
-        opc_txt, resp, com, modo = [], None, [], "opc"
-        for s in L[ia:]:
-            r = RESP.match(s)
-            if r:
-                resp = r.group(1).upper(); modo = "pre-com"; continue
-            if s.lower().startswith("comentario"):
-                modo = "com"; rest = s[len("comentario"):].strip(" :")
-                if rest: com.append(rest)
-                continue
-            if modo == "opc":
-                opc_txt.append(s)
-            elif modo == "com":
-                com.append(s)
-        opciones = separar_opciones(" ".join(opc_txt))
+        # opciones: el texto de la E puede arrastrar ruido de la columna vecina; se recorta a 200 caracteres
         out.append({"anio": b["anio"], "extraordinario": b["ext"], "especialidad": b["esp"],
                     "pag": b["pag"], "pdf": b["pdf"], "num": num, "enunciado": enun.strip(),
-                    "opciones": opciones, "clave": resp, "comentario_origen": " ".join(com)})
+                    "opciones": opciones, "clave": clave, "comentario_origen": com})
+        if len(opciones) < 5 or not clave:
+            descartes.append((b["pdf"], "incompleta", enun[:60]))
     json.dump({"preguntas": out, "descartes": descartes}, open(salida, "w", encoding="utf8"),
               ensure_ascii=False, indent=1)
     ok = [q for q in out if len(q["opciones"]) == 5 and q["clave"]]
