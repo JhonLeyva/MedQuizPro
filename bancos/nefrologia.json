@@ -2176,6 +2176,49 @@
       "año": 2016,
       "fuentes": "ADA, Standards of Care in Diabetes (2025), cap. 11; KDIGO, Diabetes y enfermedad renal crónica (2022)",
       "categoria": "Nefropatía diabética"
+    },
+    {
+      "id": "RM-NEF-007",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Mujer de 50 años hipertensa, hipotiroidea, con enfermedad renal crónica estadio III y con antecedente de infecciones urinarias a repetición, desarrolla neuropatía periférica. ¿Cuál es el fármaco más asociado a este efecto adverso?",
+      "opciones": [
+        "Tiamazol.",
+        "Nitrofurantoína.",
+        "Enalapril.",
+        "Furosemida.",
+        "Levotiroxina."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La nitrofurantoína, usada como profilaxis o tratamiento de infecciones urinarias bajas, se elimina por vía renal y alcanza concentraciones tóxicas cuando el filtrado glomerular está reducido, lo que justifica la neuropatía periférica sensitivomotora, a veces grave e irreversible, sobre todo con uso prolongado, diabetes o edad avanzada. Además pierde eficacia porque no alcanza concentración urinaria útil. Los criterios de Beers 2023 aconsejan evitarla con depuración de creatinina menor de 30 mL/min. El tiamazol produce agranulocitosis y colestasis, el enalapril tos, angioedema e hiperpotasemia, la furosemida ototoxicidad y trastornos hidroelectrolíticos, y la levotiroxina, en exceso, manifestaciones de tirotoxicosis. Otros efectos de la nitrofurantoína son neumonitis intersticial aguda o crónica, hepatitis y anemia hemolítica en déficit de G6PD. Perla: su uso crónico exige vigilar función pulmonar, hepática y neurológica.",
+      "comentario": "La nitrofurantoína, usada como profilaxis o tratamiento de infecciones urinarias bajas, se elimina por vía renal y alcanza concentraciones tóxicas cuando el filtrado glomerular está reducido, lo que justifica la neuropatía periférica sensitivomotora, a veces grave e irreversible, sobre todo con uso prolongado, diabetes o edad avanzada. Además pierde eficacia porque no alcanza concentración urinaria útil. Los criterios de Beers 2023 aconsejan evitarla con depuración de creatinina menor de 30 mL/min. El tiamazol produce agranulocitosis y colestasis, el enalapril tos, angioedema e hiperpotasemia, la furosemida ototoxicidad y trastornos hidroelectrolíticos, y la levotiroxina, en exceso, manifestaciones de tirotoxicosis. Otros efectos de la nitrofurantoína son neumonitis intersticial aguda o crónica, hepatitis y anemia hemolítica en déficit de G6PD. Perla: su uso crónico exige vigilar función pulmonar, hepática y neurológica.",
+      "tema": "Neuropatía periférica por nitrofurantoína",
+      "año": 2018,
+      "fuentes": "AGS Beers Criteria 2023 (J Am Geriatr Soc 2023;71:2052-2081); Katzung 16.ª ed. (2024); Goodman y Gilman 14.ª ed. (2023)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-NEF-008",
+      "especialidad": "Nefrología y Urología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Varón de 35 años con antecedente de prostatitis, acude a consulta por presentar disuria, polaquiuria y dolor suprapúbico. Examen: puntos renoureterales medios (+). Examen de orina: leucocitos 20 por campo y urocultivo en proceso. ¿Cuál es el tratamiento de elección?",
+      "opciones": [
+        "Nitrofurantoína.",
+        "Amoxicilina.",
+        "Levofloxacino.",
+        "Cotrimoxazol.",
+        "Cefuroxima."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Un varón con síntomas urinarios y puntos renoureterales positivos tiene una infección urinaria complicada que puede comprometer riñón y próstata, por lo que se necesita un antibiótico con buena concentración en tejido renal y prostático. Las fluoroquinolonas (levofloxacino, ciprofloxacino) penetran bien en ambos y cubren enterobacterias, por lo que fueron la respuesta del examen. La nitrofurantoína no alcanza niveles tisulares ni séricos suficientes para pielonefritis ni prostatitis; la amoxicilina y la cefuroxima tienen mala penetración prostática y alta resistencia de E. coli; el cotrimoxazol penetra en próstata pero su resistencia es alta y no es ideal en pielonefritis empírica. La IDSA 2025 trata la infección urinaria con fiebre o síntomas altos en el varón como complicada y pide elegir el antibiótico según el antibiograma y la exposición previa a quinolonas. Perla: duración de 7 días si responde, 10 a 14 si hay prostatitis.",
+      "comentario": "Un varón con síntomas urinarios y puntos renoureterales positivos tiene una infección urinaria complicada que puede comprometer riñón y próstata, por lo que se necesita un antibiótico con buena concentración en tejido renal y prostático. Las fluoroquinolonas (levofloxacino, ciprofloxacino) penetran bien en ambos y cubren enterobacterias, por lo que fueron la respuesta del examen. La nitrofurantoína no alcanza niveles tisulares ni séricos suficientes para pielonefritis ni prostatitis; la amoxicilina y la cefuroxima tienen mala penetración prostática y alta resistencia de E. coli; el cotrimoxazol penetra en próstata pero su resistencia es alta y no es ideal en pielonefritis empírica. La IDSA 2025 trata la infección urinaria con fiebre o síntomas altos en el varón como complicada y pide elegir el antibiótico según el antibiograma y la exposición previa a quinolonas. Perla: duración de 7 días si responde, 10 a 14 si hay prostatitis.",
+      "tema": "Pielonefritis con antecedente de prostatitis: fluoroquinolona",
+      "año": 2018,
+      "fuentes": "IDSA, Guía de infecciones urinarias complicadas (Trautner BW, et al., 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections, Clin Infect Dis 2026;82:i24-i35); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+      "categoria": "Infección urinaria",
+      "nota_revision": "Clave C del libro mantenida. Con la guía actual, la elección debe individualizarse según el antibiograma y el uso previo de quinolonas."
     }
   ]
 }

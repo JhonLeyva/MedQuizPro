@@ -2365,6 +2365,49 @@
       "fuentes": "Walker MD, Shoback D. Hypercalcemia: a review. JAMA (2022); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
       "categoria": "Electrocardiograma",
       "nota_revision": "El OCR indicaba C; la página del libro marca B (intervalo QT)."
+    },
+    {
+      "id": "RM-CAR-039",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "La complicación más severa de la infección por estreptococo beta hemolítico es:",
+      "opciones": [
+        "Artritis séptica.",
+        "Síndrome urémico hemolítico.",
+        "Miocarditis.",
+        "Osteomielitis.",
+        "Fiebre reumática."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La fiebre reumática es una complicación no supurativa tardía de la faringoamigdalitis por Streptococcus pyogenes (grupo A), que aparece 2 a 4 semanas después por mimetismo molecular entre la proteína M y antígenos del corazón, la articulación, el cerebro y la piel. Su gravedad radica en la cardiopatía reumática crónica, que deja estenosis o insuficiencia valvular, sobre todo mitral, y es la causa de cardiopatía adquirida en jóvenes en países de bajos ingresos. El diagnóstico se apoya en los criterios de Jones revisados (AHA 2015): dos criterios mayores, o uno mayor y dos menores, con evidencia de infección estreptocócica previa; los mayores son carditis, poliartritis migratoria, corea de Sydenham, eritema marginado y nódulos subcutáneos. La artritis séptica y la osteomielitis son supurativas y se deben a otros gérmenes; el síndrome urémico hemolítico lo causa E. coli productora de toxina Shiga; la miocarditis es solo una parte de la carditis reumática. Perla: la penicilina benzatínica previene las recurrencias.",
+      "comentario": "La fiebre reumática es una complicación no supurativa tardía de la faringoamigdalitis por Streptococcus pyogenes (grupo A), que aparece 2 a 4 semanas después por mimetismo molecular entre la proteína M y antígenos del corazón, la articulación, el cerebro y la piel. Su gravedad radica en la cardiopatía reumática crónica, que deja estenosis o insuficiencia valvular, sobre todo mitral, y es la causa de cardiopatía adquirida en jóvenes en países de bajos ingresos. El diagnóstico se apoya en los criterios de Jones revisados (AHA 2015): dos criterios mayores, o uno mayor y dos menores, con evidencia de infección estreptocócica previa; los mayores son carditis, poliartritis migratoria, corea de Sydenham, eritema marginado y nódulos subcutáneos. La artritis séptica y la osteomielitis son supurativas y se deben a otros gérmenes; el síndrome urémico hemolítico lo causa E. coli productora de toxina Shiga; la miocarditis es solo una parte de la carditis reumática. Perla: la penicilina benzatínica previene las recurrencias.",
+      "tema": "Complicación más severa de la infección por estreptococo beta hemolítico",
+      "año": 2015,
+      "fuentes": "Gewitz MH et al., AHA, Revision of the Jones Criteria for acute rheumatic fever, Circulation 2015;131:1806-18; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fiebre reumática"
+    },
+    {
+      "id": "RM-CAR-040",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Para el diagnóstico de endocarditis infecciosa, ¿cuál de los siguientes enunciados de Duke es un criterio mayor?",
+      "opciones": [
+        "Hemocultivos positivos para microorganismos típicos.",
+        "Fiebre igual o superior a 38 °C.",
+        "Evidencia serológica de infección activa.",
+        "Fenómenos vasculares embólicos periféricos.",
+        "Factor reumatoideo positivo."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los criterios de Duke clasifican los casos de endocarditis infecciosa. Los criterios mayores son microbiológicos (hemocultivos positivos con microorganismos típicos como Staphylococcus aureus, estreptococos del grupo viridans, grupo HACEK o enterococos adquiridos en la comunidad, en cultivos persistentes) y de imagen (vegetación, absceso o nueva dehiscencia valvular en ecocardiograma, o captación en PET/TC); la versión Duke-ISCVID 2023 añade como mayores la cirugía con evidencia directa y la serología específica para Coxiella burnetii. Los menores incluyen predisposición (valvulopatía, drogas intravenosas), fiebre de 38 °C o más, fenómenos vasculares, fenómenos inmunológicos (glomerulonefritis, nódulos de Osler, manchas de Roth, factor reumatoideo) y evidencia microbiológica que no cumple lo mayor. Así, la fiebre, los embolismos y el factor reumatoideo son menores. Se define endocarditis definitiva con 2 mayores, 1 mayor y 3 menores, o 5 menores. Perla: se toman al menos tres sets de hemocultivos antes del antibiótico.",
+      "comentario": "Los criterios de Duke clasifican los casos de endocarditis infecciosa. Los criterios mayores son microbiológicos (hemocultivos positivos con microorganismos típicos como Staphylococcus aureus, estreptococos del grupo viridans, grupo HACEK o enterococos adquiridos en la comunidad, en cultivos persistentes) y de imagen (vegetación, absceso o nueva dehiscencia valvular en ecocardiograma, o captación en PET/TC); la versión Duke-ISCVID 2023 añade como mayores la cirugía con evidencia directa y la serología específica para Coxiella burnetii. Los menores incluyen predisposición (valvulopatía, drogas intravenosas), fiebre de 38 °C o más, fenómenos vasculares, fenómenos inmunológicos (glomerulonefritis, nódulos de Osler, manchas de Roth, factor reumatoideo) y evidencia microbiológica que no cumple lo mayor. Así, la fiebre, los embolismos y el factor reumatoideo son menores. Se define endocarditis definitiva con 2 mayores, 1 mayor y 3 menores, o 5 menores. Perla: se toman al menos tres sets de hemocultivos antes del antibiótico.",
+      "tema": "Criterio mayor de Duke en endocarditis infecciosa",
+      "año": 2016,
+      "fuentes": "Fowler VG et al., The 2023 Duke-ISCVID criteria for infective endocarditis, Clin Infect Dis 2023;77:518-26; Delgado V et al., 2023 ESC Guidelines for the management of endocarditis, Eur Heart J 2023;44:3948-4042",
+      "categoria": "Endocarditis",
+      "nota_revision": "La «evidencia serológica de infección activa» era menor en Duke modificado; hoy solo la serología de Coxiella es mayor, por lo que C sigue siendo incorrecta en este enunciado."
     }
   ]
 }

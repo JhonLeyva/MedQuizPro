@@ -10931,6 +10931,93 @@
       "fuentes": "NIH Office of Dietary Supplements, Riboflavin fact sheet para profesionales (actualización 2022-2024); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
       "categoria": "Nutrición",
       "nota_revision": "La clave D estaba escrita junto a la opción E en el OCR (Respuesta: D); verificada con la página del libro."
+    },
+    {
+      "id": "RM-CB-043",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "La disfunción que se desarrolla por efecto tóxico de los aminoglucósidos en el sistema nervioso se presenta a nivel...",
+      "opciones": [
+        "Coclear y olivar.",
+        "Cerebeloso y vestibular.",
+        "Vestibular y coclear.",
+        "Talámico y cortical.",
+        "Hipotalámico y talámico."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los aminoglucósidos (gentamicina, amikacina, estreptomicina, kanamicina) se acumulan en la perilinfa y endolinfa del oído interno y dañan las células ciliadas por estrés oxidativo, de modo que producen ototoxicidad que compromete al VIII par craneal en sus dos ramas. La vestibulotoxicidad causa vértigo, ataxia, nistagmo y oscilopsia, y es más frecuente con estreptomicina y gentamicina; la cocleotoxicidad produce tinnitus y pérdida auditiva neurosensorial de altas frecuencias, más común con amikacina y kanamicina, y suele ser irreversible. Los efectos sobre cerebelo, tálamo, corteza e hipotálamo no son característicos. La nefrotoxicidad (necrosis tubular aguda) es la otra toxicidad principal, y es reversible. Los factores de riesgo son edad avanzada, dosis acumulada, insuficiencia renal y uso con diuréticos de asa. Se previene con una dosis diaria única y monitorización de niveles y función renal, y el bloqueo neuromuscular es otro efecto raro.",
+      "comentario": "Los aminoglucósidos (gentamicina, amikacina, estreptomicina, kanamicina) se acumulan en la perilinfa y endolinfa del oído interno y dañan las células ciliadas por estrés oxidativo, de modo que producen ototoxicidad que compromete al VIII par craneal en sus dos ramas. La vestibulotoxicidad causa vértigo, ataxia, nistagmo y oscilopsia, y es más frecuente con estreptomicina y gentamicina; la cocleotoxicidad produce tinnitus y pérdida auditiva neurosensorial de altas frecuencias, más común con amikacina y kanamicina, y suele ser irreversible. Los efectos sobre cerebelo, tálamo, corteza e hipotálamo no son característicos. La nefrotoxicidad (necrosis tubular aguda) es la otra toxicidad principal, y es reversible. Los factores de riesgo son edad avanzada, dosis acumulada, insuficiencia renal y uso con diuréticos de asa. Se previene con una dosis diaria única y monitorización de niveles y función renal, y el bloqueo neuromuscular es otro efecto raro.",
+      "tema": "Toxicidad de los aminoglucósidos sobre el VIII par",
+      "año": 2015,
+      "fuentes": "Goodman y Gilman Bases Farmacológicas de la Terapéutica 14.ª ed. (2023); Katzung Farmacología Básica y Clínica 16.ª ed. (2024)",
+      "categoria": "Farmacología",
+      "nota_revision": "Enunciado limpiado del OCR («disfunción·que», «_ aminoglucósidos»). Se mantiene la clave del libro."
+    },
+    {
+      "id": "RM-CB-044",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Ama de casa que al limpiar detrás de un cuadro siente un lancetazo en la mano; a las 18 horas presenta orina oscura y una lesión livedoide en dicha zona. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Loxoscelismo.",
+        "Picadura de escorpión.",
+        "Bothropismo.",
+        "Latrodectismo.",
+        "Picadura de abeja."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El loxoscelismo es el envenenamiento por la araña del rincón, Loxosceles laeta, frecuente en el Perú, que habita en rincones y detrás de cuadros o ropa. La esfingomielinasa D de su veneno causa necrosis dérmica y activación de neutrófilos y del complemento. La mordedura es poco dolorosa al inicio; luego aparece la placa livedoide, con eritema, zona isquémica pálida y necrosis azulada, que evoluciona a escara y úlcera de curación lenta. En el loxoscelismo visceral o cutáneo-visceral aparecen fiebre, hemólisis, hemoglobinuria (orina oscura), ictericia e insuficiencia renal. El latrodectismo causa dolor muscular y rigidez abdominal, el escorpión provoca dolor intenso y síntomas autonómicos, el bothropismo produce edema y sangrado, y la abeja reacción local o alérgica. Perla: se vigila hemograma, hemólisis y creatinina, y se considera el suero antiloxosceles.",
+      "comentario": "El loxoscelismo es el envenenamiento por la araña del rincón, Loxosceles laeta, frecuente en el Perú, que habita en rincones y detrás de cuadros o ropa. La esfingomielinasa D de su veneno causa necrosis dérmica y activación de neutrófilos y del complemento. La mordedura es poco dolorosa al inicio; luego aparece la placa livedoide, con eritema, zona isquémica pálida y necrosis azulada, que evoluciona a escara y úlcera de curación lenta. En el loxoscelismo visceral o cutáneo-visceral aparecen fiebre, hemólisis, hemoglobinuria (orina oscura), ictericia e insuficiencia renal. El latrodectismo causa dolor muscular y rigidez abdominal, el escorpión provoca dolor intenso y síntomas autonómicos, el bothropismo produce edema y sangrado, y la abeja reacción local o alérgica. Perla: se vigila hemograma, hemólisis y creatinina, y se considera el suero antiloxosceles.",
+      "tema": "Loxoscelismo: placa livedoide",
+      "año": 2017,
+      "fuentes": "Goldfrank, Toxicologic Emergencies, 11.ª ed. (2019); Swanson y Vetter, Bites of brown recluse spiders and suspected necrotic arachnidism (N Engl J Med 2005;352:700)",
+      "categoria": "Toxicología",
+      "nota_revision": "El OCR separaba las opciones en dos columnas; se reconstruyeron A-E con loxoscelismo como respuesta."
+    },
+    {
+      "id": "RM-CB-045",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el mecanismo de acción de las sulfonamidas?",
+      "opciones": [
+        "Inhibición de la transpeptidasa.",
+        "Inhibición de la DNA girasa.",
+        "Inhibición competitiva de la dihidropteroato sintetasa.",
+        "Unión a la subunidad 30S ribosomal.",
+        "Inhibición de las enzimas CYP hepáticas."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Las sulfonamidas son análogos estructurales del ácido para-aminobenzoico (PABA). Compiten con él por la enzima dihidropteroato sintetasa y bloquean la síntesis bacteriana de ácido fólico, de modo que no se forman las purinas ni el ADN; las células humanas no se afectan porque captan el folato ya formado de la dieta. Por eso son bacteriostáticas. La trimetoprima bloquea el paso siguiente (dihidrofolato reductasa) y la combinación cotrimoxazol produce un bloqueo secuencial sinérgico. La inhibición de la transpeptidasa caracteriza a los betalactámicos; la de la ADN girasa y la topoisomerasa IV, a las quinolonas; la unión a la subunidad 30S, a tetraciclinas y aminoglucósidos; y la inhibición del CYP hepático, a fármacos como ritonavir, azoles o cimetidina. Perla clínica: las sulfas pueden causar cristaluria, hiperpotasemia, síndrome de Stevens-Johnson y hemólisis en déficit de G6PD.",
+      "comentario": "Las sulfonamidas son análogos estructurales del ácido para-aminobenzoico (PABA). Compiten con él por la enzima dihidropteroato sintetasa y bloquean la síntesis bacteriana de ácido fólico, de modo que no se forman las purinas ni el ADN; las células humanas no se afectan porque captan el folato ya formado de la dieta. Por eso son bacteriostáticas. La trimetoprima bloquea el paso siguiente (dihidrofolato reductasa) y la combinación cotrimoxazol produce un bloqueo secuencial sinérgico. La inhibición de la transpeptidasa caracteriza a los betalactámicos; la de la ADN girasa y la topoisomerasa IV, a las quinolonas; la unión a la subunidad 30S, a tetraciclinas y aminoglucósidos; y la inhibición del CYP hepático, a fármacos como ritonavir, azoles o cimetidina. Perla clínica: las sulfas pueden causar cristaluria, hiperpotasemia, síndrome de Stevens-Johnson y hemólisis en déficit de G6PD.",
+      "tema": "Mecanismo de acción de las sulfonamidas",
+      "año": 2017,
+      "fuentes": "Katzung Farmacología básica y clínica 16.ª ed. (2024); Goodman y Gilman Las bases farmacológicas de la terapéutica 14.ª ed. (2023); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-CB-046",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Qué componente de la inmunidad innata fagocita y destruye microorganismos además de secretar citoquinas inflamatorias?",
+      "opciones": [
+        "Epitelio.",
+        "TNF-alfa.",
+        "Lectina.",
+        "IL-1.",
+        "Macrófago."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La inmunidad innata es la respuesta rápida e inespecífica que incluye barreras epiteliales, proteínas circulantes (complemento, lectinas, proteína C reactiva), células fagocíticas (neutrófilos y macrófagos) y células citolíticas naturales. El macrófago reconoce patrones moleculares microbianos mediante receptores tipo Toll y de lectina, fagocita el patógeno, lo destruye en el fagolisosoma con especies reactivas de oxígeno y enzimas, y secreta citoquinas proinflamatorias como TNF-alfa, IL-1 e IL-6, que reclutan neutrófilos e inducen fiebre. También presenta antígenos a los linfocitos T colaboradores, uniendo ambas ramas de la inmunidad. El epitelio es solo una barrera; el TNF-alfa y la IL-1 son citoquinas, es decir, productos y no células fagocíticas; y la lectina es una proteína soluble que opsoniza y activa el complemento. Perla: los macrófagos tisulares derivan de monocitos y reciben nombres según el órgano, como células de Kupffer o microglía.",
+      "comentario": "La inmunidad innata es la respuesta rápida e inespecífica que incluye barreras epiteliales, proteínas circulantes (complemento, lectinas, proteína C reactiva), células fagocíticas (neutrófilos y macrófagos) y células citolíticas naturales. El macrófago reconoce patrones moleculares microbianos mediante receptores tipo Toll y de lectina, fagocita el patógeno, lo destruye en el fagolisosoma con especies reactivas de oxígeno y enzimas, y secreta citoquinas proinflamatorias como TNF-alfa, IL-1 e IL-6, que reclutan neutrófilos e inducen fiebre. También presenta antígenos a los linfocitos T colaboradores, uniendo ambas ramas de la inmunidad. El epitelio es solo una barrera; el TNF-alfa y la IL-1 son citoquinas, es decir, productos y no células fagocíticas; y la lectina es una proteína soluble que opsoniza y activa el complemento. Perla: los macrófagos tisulares derivan de monocitos y reciben nombres según el órgano, como células de Kupffer o microglía.",
+      "tema": "Macrófago en la inmunidad innata",
+      "año": 2018,
+      "fuentes": "Abbas, Lichtman y Pillai, Inmunología celular y molecular 10.ª ed. (2022); Robbins y Cotran 10.ª ed. (2021)",
+      "categoria": "Inmunología",
+      "nota_revision": "La clave estaba ilegible en el texto OCR; se verificó en la imagen (Respuesta E)."
     }
   ]
 }

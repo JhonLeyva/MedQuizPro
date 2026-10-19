@@ -1590,6 +1590,27 @@
       "año": 2015,
       "fuentes": "AAD, Guidelines of care for atopic dermatitis in adults: terapias tópicas (Sidbury, JAAD 2023), fototerapia y sistémicas (Davis, JAAD 2024) y actualización focalizada (Davis, JAAD 2025); Fitzpatrick Dermatología 9.ª ed.",
       "categoria": "Dermatología"
+    },
+    {
+      "id": "RM-REU-005",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la articulación más afectada en una artritis infecciosa?",
+      "opciones": [
+        "Hombro.",
+        "Muñeca.",
+        "Tobillo.",
+        "Rodilla.",
+        "Cadera."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La artritis séptica bacteriana es una urgencia médica que destruye el cartílago en pocos días. En adultos afecta una sola articulación en cerca del 90 % de los casos, y la rodilla es la más frecuente (alrededor de la mitad), seguida de cadera, hombro, muñeca y tobillo. El agente más común es Staphylococcus aureus, incluido el resistente a meticilina; en jóvenes sexualmente activos se debe pensar en Neisseria gonorrhoeae, que suele dar poliartralgia migratoria con tenosinovitis y lesiones cutáneas. La clínica es fiebre, dolor intenso, derrame, calor y limitación del movimiento activo y pasivo. El diagnóstico se hace con artrocentesis, con recuento mayor de 50 000 células/mm3 y cultivo; los hemocultivos se solicitan siempre. El tratamiento es antibiótico endovenoso más drenaje. Perla: una prótesis, diabetes o un paciente que usa drogas inyectables elevan el riesgo.",
+      "comentario": "La artritis séptica bacteriana es una urgencia médica que destruye el cartílago en pocos días. En adultos afecta una sola articulación en cerca del 90 % de los casos, y la rodilla es la más frecuente (alrededor de la mitad), seguida de cadera, hombro, muñeca y tobillo. El agente más común es Staphylococcus aureus, incluido el resistente a meticilina; en jóvenes sexualmente activos se debe pensar en Neisseria gonorrhoeae, que suele dar poliartralgia migratoria con tenosinovitis y lesiones cutáneas. La clínica es fiebre, dolor intenso, derrame, calor y limitación del movimiento activo y pasivo. El diagnóstico se hace con artrocentesis, con recuento mayor de 50 000 células/mm3 y cultivo; los hemocultivos se solicitan siempre. El tratamiento es antibiótico endovenoso más drenaje. Perla: una prótesis, diabetes o un paciente que usa drogas inyectables elevan el riesgo.",
+      "tema": "Artritis séptica: articulación más afectada",
+      "año": 2017,
+      "fuentes": "Goldman-Cecil, Medicina Interna, 26.ª ed. (2020); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Artritis séptica"
     }
   ]
 }

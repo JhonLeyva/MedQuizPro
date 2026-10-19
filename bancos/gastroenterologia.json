@@ -1717,6 +1717,221 @@
       "fuentes": "AASLD, Guía de ascitis, PBE y síndrome hepatorrenal (2021); EASL, Guía de cirrosis descompensada (2018); de Franchis R et al., Baveno VII (J Hepatol, 2022)",
       "categoria": "Hígado",
       "nota_revision": "El enunciado perdió el número de pregunta en el OCR (aparece «61»). Clave E verificada con la página del libro."
+    },
+    {
+      "id": "RM-GAS-002",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Mujer de 30 años en un examen de rutina se encuentra HBsAg positivo. Antecedente de pareja sexual consumidor de drogas. Los marcadores para hepatitis B son: anti-HBc IgG positivo, anti-HBs positivo, HBsAg positivo, HBeAg negativo. Con estos resultados se afirma que la paciente presenta hepatitis B...",
+      "opciones": [
+        "Aguda.",
+        "Curada.",
+        "En período de convalecencia.",
+        "Crónica activa.",
+        "Crónica persistente."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En la hepatitis B aguda el primer marcador es el HBsAg, seguido del anti-HBc IgM; cuando el virus se controla, el HBsAg desaparece y aparece el anti-HBs, que marca la inmunidad. Entre ambos hay un período de transición en el que pueden coexistir antígeno y anticuerpo, y el anti-HBc pasa de IgM a IgG; eso corresponde a la convalecencia, por eso la clave es C. Una hepatitis aguda tendría anti-HBc IgM y ningún anti-HBs; una infección curada tendría HBsAg negativo con anti-HBs y anti-HBc positivos; la forma crónica se define por HBsAg persistente más de 6 meses. Perla clínica: la coexistencia de HBsAg y anti-HBs persistente puede verse también en hepatitis crónica con anticuerpos dirigidos a otro subtipo, así que se debe repetir la serología a los 6 meses para confirmar la negativización.",
+      "comentario": "En la hepatitis B aguda el primer marcador es el HBsAg, seguido del anti-HBc IgM; cuando el virus se controla, el HBsAg desaparece y aparece el anti-HBs, que marca la inmunidad. Entre ambos hay un período de transición en el que pueden coexistir antígeno y anticuerpo, y el anti-HBc pasa de IgM a IgG; eso corresponde a la convalecencia, por eso la clave es C. Una hepatitis aguda tendría anti-HBc IgM y ningún anti-HBs; una infección curada tendría HBsAg negativo con anti-HBs y anti-HBc positivos; la forma crónica se define por HBsAg persistente más de 6 meses. Perla clínica: la coexistencia de HBsAg y anti-HBs persistente puede verse también en hepatitis crónica con anticuerpos dirigidos a otro subtipo, así que se debe repetir la serología a los 6 meses para confirmar la negativización.",
+      "tema": "Serología de hepatitis B con HBsAg y anti-HBs positivos",
+      "año": 2014,
+      "fuentes": "Ghany MG et al., AASLD/IDSA, Practice Guideline on treatment of chronic hepatitis B (Hepatology 2025); Harrison Principios de Medicina Interna 21.ª ed. (2022); WHO, Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection (Geneva, 2024)",
+      "categoria": "Hepatitis virales",
+      "nota_revision": "Posible contradicción con la guía vigente: HBsAg positivo con anti-HBc IgG (sin IgM) en un tamizaje de rutina corresponde, según AASLD/WHO, a infección crónica (HBeAg negativo) si persiste más de 6 meses; la convalecencia exigiría documentar anti-HBc IgM o negativización del HBsAg. Se mantiene la clave del libro (C)."
+    },
+    {
+      "id": "RM-GAS-003",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 25 años con ictericia de piel y mucosas precedida de 4 días de fiebre alta. Exámenes: anti-HAV IgG positivo, anti-HBc positivo con anti-HBs positivo, anti-HCV positivo y anti-HDV negativo. ¿Cuál es el tipo de hepatitis que presenta?",
+      "opciones": [
+        "Hepatitis A.",
+        "Hepatitis B.",
+        "Hepatitis C.",
+        "Hepatitis D.",
+        "Hepatitis E."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El problema consiste en leer los marcadores como pasado o presente. El anti-HAV IgG indica exposición antigua o vacunación contra hepatitis A; sólo la IgM señalaría infección aguda. La combinación anti-HBc con anti-HBs positivos y HBsAg no reportado indica hepatitis B resuelta, con inmunidad. El anti-HDV negativo descarta delta, que además requiere HBsAg. Queda el anti-HCV positivo como único dato compatible con la enfermedad actual; en la práctica se confirmaría con ARN del VHC, porque el anticuerpo puede tardar semanas en aparecer y no distingue infección aguda de pasada. La hepatitis E se sospecha en brotes por agua contaminada o en gestantes. La hepatitis C aguda suele ser asintomática; cronifica en cerca de 70-80 % y hoy se cura con antivirales de acción directa durante 8 a 12 semanas.",
+      "comentario": "El problema consiste en leer los marcadores como pasado o presente. El anti-HAV IgG indica exposición antigua o vacunación contra hepatitis A; sólo la IgM señalaría infección aguda. La combinación anti-HBc con anti-HBs positivos y HBsAg no reportado indica hepatitis B resuelta, con inmunidad. El anti-HDV negativo descarta delta, que además requiere HBsAg. Queda el anti-HCV positivo como único dato compatible con la enfermedad actual; en la práctica se confirmaría con ARN del VHC, porque el anticuerpo puede tardar semanas en aparecer y no distingue infección aguda de pasada. La hepatitis E se sospecha en brotes por agua contaminada o en gestantes. La hepatitis C aguda suele ser asintomática; cronifica en cerca de 70-80 % y hoy se cura con antivirales de acción directa durante 8 a 12 semanas.",
+      "tema": "Hepatitis C aguda con serología mixta",
+      "año": 2014,
+      "fuentes": "Bhattacharya D et al., AASLD-IDSA, Hepatitis C Guidance 2023 Update (Clin Infect Dis 2023); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Hepatitis virales",
+      "nota_revision": "Opciones recompuestas (OCR las dejó como «A. B. e.e. D_. D. E.»). Se mantiene la clave del libro."
+    },
+    {
+      "id": "RM-GAS-004",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Varón de 35 años con diagnóstico de pancreatitis aguda que luego de 7 días presenta fiebre y leucocitosis. El aspirado con aguja fina de la zona pancreática necrótica muestra polimorfonucleares y bacterias. ¿Cuál es el tratamiento más apropiado?",
+      "opciones": [
+        "Imipenem-cilastatina.",
+        "Ceftriaxona-clindamicina.",
+        "Ceftazidima-vancomicina.",
+        "Piperacilina-tazobactam.",
+        "Cefepima-cloranfenicol."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Tras la primera semana, la necrosis pancreática puede infectarse por translocación de bacterias del colon, con fiebre, leucocitosis y a veces gas en la tomografía. Con cultivo o gram positivo del aspirado, se confirma la necrosis infectada y se indican antibióticos que penetren bien el tejido pancreático: carbapenémicos (imipenem o meropenem), quinolonas combinadas con metronidazol, o en algunos esquemas piperacilina-tazobactam. La opción A es la mejor de las ofrecidas; las cefalosporinas con vancomicina o clindamicina no cubren bien anaerobios y bacilos gramnegativos resistentes y penetran peor, y el cloranfenicol no se usa. La profilaxis antibiótica en pancreatitis sin infección no está recomendada. Se retrasa el desbridamiento 4 semanas hasta que la necrosis se encapsule, con un abordaje escalonado: drenaje percutáneo o endoscópico y luego necrosectomía mínimamente invasiva si no mejora.",
+      "comentario": "Tras la primera semana, la necrosis pancreática puede infectarse por translocación de bacterias del colon, con fiebre, leucocitosis y a veces gas en la tomografía. Con cultivo o gram positivo del aspirado, se confirma la necrosis infectada y se indican antibióticos que penetren bien el tejido pancreático: carbapenémicos (imipenem o meropenem), quinolonas combinadas con metronidazol, o en algunos esquemas piperacilina-tazobactam. La opción A es la mejor de las ofrecidas; las cefalosporinas con vancomicina o clindamicina no cubren bien anaerobios y bacilos gramnegativos resistentes y penetran peor, y el cloranfenicol no se usa. La profilaxis antibiótica en pancreatitis sin infección no está recomendada. Se retrasa el desbridamiento 4 semanas hasta que la necrosis se encapsule, con un abordaje escalonado: drenaje percutáneo o endoscópico y luego necrosectomía mínimamente invasiva si no mejora.",
+      "tema": "Necrosis pancreática infectada: antibiótico",
+      "año": 2014,
+      "fuentes": "Baron TH et al., AGA, Clinical Practice Update: Management of Pancreatic Necrosis (Gastroenterology 2020); Tenner S et al., ACG Guidelines: Management of Acute Pancreatitis (Am J Gastroenterol 2024;119:419-437); Sabiston Tratado de Cirugía 21.ª ed.; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Pancreatitis"
+    },
+    {
+      "id": "RM-GAS-005",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de absceso hepático piógeno?",
+      "opciones": [
+        "Diseminación hematógena.",
+        "Septicemia.",
+        "Diverticulitis.",
+        "Infección biliar ascendente.",
+        "Trauma hepático."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El absceso hepático piógeno es una colección bacteriana, generalmente polimicrobiana (E. coli, Klebsiella, anaerobios y estreptococos del grupo milleri). La vía de infección más frecuente es la biliar: obstrucción benigna o maligna del colédoco que lleva a colangitis ascendente, por eso debe buscarse litiasis o tumor. Otras vías son la portal (apendicitis, diverticulitis y enfermedad inflamatoria intestinal, mediante pileflebitis), la arterial o hematógena en bacteriemias y endocarditis, la contigüidad (colecistitis), el trauma y la causa criptogénica. En esta pregunta la diverticulitis es una causa portal menos frecuente, y la septicemia y la diseminación hematógena son menos comunes que la biliar. Clínicamente cursa con fiebre, dolor en hipocondrio derecho y hepatomegalia; el diagnóstico es por ecografía o tomografía. Se trata con drenaje percutáneo y antibióticos por 4 a 6 semanas.",
+      "comentario": "El absceso hepático piógeno es una colección bacteriana, generalmente polimicrobiana (E. coli, Klebsiella, anaerobios y estreptococos del grupo milleri). La vía de infección más frecuente es la biliar: obstrucción benigna o maligna del colédoco que lleva a colangitis ascendente, por eso debe buscarse litiasis o tumor. Otras vías son la portal (apendicitis, diverticulitis y enfermedad inflamatoria intestinal, mediante pileflebitis), la arterial o hematógena en bacteriemias y endocarditis, la contigüidad (colecistitis), el trauma y la causa criptogénica. En esta pregunta la diverticulitis es una causa portal menos frecuente, y la septicemia y la diseminación hematógena son menos comunes que la biliar. Clínicamente cursa con fiebre, dolor en hipocondrio derecho y hepatomegalia; el diagnóstico es por ecografía o tomografía. Se trata con drenaje percutáneo y antibióticos por 4 a 6 semanas.",
+      "tema": "Causa más frecuente de absceso hepático piógeno",
+      "año": 2015,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Sabiston Tratado de Cirugía 21.ª ed.; Mandell, Douglas y Bennett Enfermedades Infecciosas 9.ª ed. (2020)",
+      "categoria": "Hígado",
+      "nota_revision": "Opciones B y C venían pegadas en una línea por el OCR. La clave del libro es D (biliar)."
+    },
+    {
+      "id": "RM-GAS-006",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál es el primer marcador que se presenta en hepatitis B?",
+      "opciones": [
+        "Anti-HBs.",
+        "Anti-HBc.",
+        "HBsAg.",
+        "Anti-HBe.",
+        "Anticuerpo IgM."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Tras la exposición al virus de la hepatitis B, el primer marcador que aparece en el suero es el antígeno de superficie (HBsAg), entre 1 y 10 semanas después de la infección y antes de los síntomas, junto al ADN viral y el HBeAg. El anti-HBc IgM aparece al inicio de la clínica y cubre la «ventana inmunológica», cuando el HBsAg ya desapareció y el anti-HBs aún no se detecta. El anti-HBs es el último y señala recuperación o inmunidad vacunal (junto con anti-HBc si hay infección natural; sólo anti-HBs si fue por vacuna). El anti-HBe indica baja replicación viral. En la hepatitis B aguda el HBsAg suele desaparecer antes de 6 meses; si persiste más de 6 meses se define infección crónica. Perla: el anti-HBc IgG total sin IgM, con HBsAg negativo, obliga a descartar hepatitis B oculta antes de inmunosupresión o quimioterapia.",
+      "comentario": "Tras la exposición al virus de la hepatitis B, el primer marcador que aparece en el suero es el antígeno de superficie (HBsAg), entre 1 y 10 semanas después de la infección y antes de los síntomas, junto al ADN viral y el HBeAg. El anti-HBc IgM aparece al inicio de la clínica y cubre la «ventana inmunológica», cuando el HBsAg ya desapareció y el anti-HBs aún no se detecta. El anti-HBs es el último y señala recuperación o inmunidad vacunal (junto con anti-HBc si hay infección natural; sólo anti-HBs si fue por vacuna). El anti-HBe indica baja replicación viral. En la hepatitis B aguda el HBsAg suele desaparecer antes de 6 meses; si persiste más de 6 meses se define infección crónica. Perla: el anti-HBc IgG total sin IgM, con HBsAg negativo, obliga a descartar hepatitis B oculta antes de inmunosupresión o quimioterapia.",
+      "tema": "Primer marcador en hepatitis B aguda",
+      "año": 2015,
+      "fuentes": "Ghany MG et al., AASLD/IDSA, Practice Guideline on treatment of chronic hepatitis B (Hepatology 2025); WHO, Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection (Geneva, 2024); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Hepatitis virales"
+    },
+    {
+      "id": "RM-GAS-007",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 65 años que acude a Emergencia porque hace 6 horas presenta alza térmica, escalofríos, ictericia y dolor espontáneo en cuadrante superior derecho del abdomen; posteriormente, tos seca. Antecedente de diabetes y colelitiasis. Rx de abdomen: hemidiafragma derecho elevado. Examen físico: dolor a la palpación en el hipocondrio derecho, no se palpan masas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Absceso piógeno.",
+        "Quiste hidatídico complicado.",
+        "Absceso amebiano.",
+        "Hepatocarcinoma complicado.",
+        "Hematoma subcapsular hepático."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El absceso hepático piógeno es una colección supurada polimicrobiana, con predominio de enterobacterias, que en adultos mayores con diabetes y enfermedad biliar suele originarse por vía biliar ascendente (colangitis) o por la vena porta. Cursa con fiebre, escalofríos, dolor en hipocondrio derecho y a veces ictericia; la irritación diafragmática explica la elevación del hemidiafragma, la tos y el derrame pleural derecho. El absceso amebiano afecta más a varones jóvenes con viaje o residencia en zonas endémicas, suele ser único y se da sin antecedente biliar; el quiste hidatídico complicado cursa con eosinofilia y antecedente de contacto con perros y ovinos; el hepatocarcinoma aparece con cirrosis y alfafetoproteína elevada; el hematoma subcapsular se asocia a traumatismo o anticoagulación. El diagnóstico se confirma con ecografía o tomografía y el tratamiento combina drenaje percutáneo y antibióticos de amplio espectro por varias semanas. Perla: en un absceso piógeno por Klebsiella buscar diabetes.",
+      "comentario": "El absceso hepático piógeno es una colección supurada polimicrobiana, con predominio de enterobacterias, que en adultos mayores con diabetes y enfermedad biliar suele originarse por vía biliar ascendente (colangitis) o por la vena porta. Cursa con fiebre, escalofríos, dolor en hipocondrio derecho y a veces ictericia; la irritación diafragmática explica la elevación del hemidiafragma, la tos y el derrame pleural derecho. El absceso amebiano afecta más a varones jóvenes con viaje o residencia en zonas endémicas, suele ser único y se da sin antecedente biliar; el quiste hidatídico complicado cursa con eosinofilia y antecedente de contacto con perros y ovinos; el hepatocarcinoma aparece con cirrosis y alfafetoproteína elevada; el hematoma subcapsular se asocia a traumatismo o anticoagulación. El diagnóstico se confirma con ecografía o tomografía y el tratamiento combina drenaje percutáneo y antibióticos de amplio espectro por varias semanas. Perla: en un absceso piógeno por Klebsiella buscar diabetes.",
+      "tema": "Absceso hepático piógeno con ictericia y fiebre",
+      "año": 2015,
+      "fuentes": "Sabiston Tratado de Cirugía 21.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022); Kiriyama S et al., Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis, J Hepatobiliary Pancreat Sci 2018;25:17-30 (colangitis como origen biliar)",
+      "categoria": "Hígado"
+    },
+    {
+      "id": "RM-GAS-008",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes antibióticos es más eficaz para el tratamiento de infecciones intestinales causadas por Clostridium difficile?",
+      "opciones": [
+        "Vancomicina.",
+        "Bacitracina.",
+        "Ácido fusídico.",
+        "Eritromicina.",
+        "Nitazoxanida."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La infección por Clostridioides difficile causa diarrea asociada a antibióticos y colitis pseudomembranosa por sus toxinas A y B, con factores de riesgo como clindamicina, cefalosporinas y quinolonas, hospitalización, edad avanzada e inhibidores de bomba de protones. El diagnóstico se hace con detección de toxina o PCR de gen de toxina en heces diarreicas. En las guías actuales el tratamiento de primera línea del primer episodio es fidaxomicina oral 200 mg dos veces al día por 10 días, con vancomicina oral 125 mg cuatro veces al día por 10 días como alternativa aceptable; el metronidazol dejó de ser de primera línea por su menor eficacia y se reserva si no hay otra opción. La vancomicina oral no se absorbe y alcanza concentraciones altas en el colon, por eso es la opción correcta. Bacitracina, ácido fusídico y nitazoxanida son alternativas de segunda línea o experimentales, y la eritromicina no es útil. Perla: en la colitis fulminante se añade metronidazol intravenoso.",
+      "comentario": "La infección por Clostridioides difficile causa diarrea asociada a antibióticos y colitis pseudomembranosa por sus toxinas A y B, con factores de riesgo como clindamicina, cefalosporinas y quinolonas, hospitalización, edad avanzada e inhibidores de bomba de protones. El diagnóstico se hace con detección de toxina o PCR de gen de toxina en heces diarreicas. En las guías actuales el tratamiento de primera línea del primer episodio es fidaxomicina oral 200 mg dos veces al día por 10 días, con vancomicina oral 125 mg cuatro veces al día por 10 días como alternativa aceptable; el metronidazol dejó de ser de primera línea por su menor eficacia y se reserva si no hay otra opción. La vancomicina oral no se absorbe y alcanza concentraciones altas en el colon, por eso es la opción correcta. Bacitracina, ácido fusídico y nitazoxanida son alternativas de segunda línea o experimentales, y la eritromicina no es útil. Perla: en la colitis fulminante se añade metronidazol intravenoso.",
+      "tema": "Tratamiento de la infección por Clostridioides difficile",
+      "año": 2015,
+      "fuentes": "Johnson S et al., IDSA/SHEA, 2021 focused update on C. difficile infection in adults, Clin Infect Dis 2021;73:e1029-e1044; Kelly CR et al., ACG Clinical Guidelines: C. difficile infections, Am J Gastroenterol 2021;116:1124-47",
+      "categoria": "Colon",
+      "nota_revision": "El libro presenta el metronidazol como primera línea (desactualizado); la clave A se mantiene. Opciones separadas del texto OCR pegado."
+    },
+    {
+      "id": "RM-GAS-009",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuáles son las bacterias más frecuentes que causan colangitis aguda en litiasis coledociana?",
+      "opciones": [
+        "Proteus, E. coli, Salmonella.",
+        "Salmonella, Klebsiella, Enterobacter.",
+        "Klebsiella, E. coli, Enterobacter.",
+        "E. coli, Pseudomonas, Salmonella.",
+        "Citrobacter, Salmonella, E. coli."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La colangitis aguda ocurre por obstrucción de la vía biliar, casi siempre por cálculos coledocianos, con infección ascendente desde el duodeno. La flora es polimicrobiana con predominio de enterobacterias gramnegativas: Escherichia coli es la más frecuente, seguida de Klebsiella spp. y Enterobacter spp., con enterococos y anaerobios (Bacteroides, Clostridium) en una proporción menor. P. aeruginosa aparece sobre todo en pacientes con prótesis biliar, manipulación reciente o tratamiento antibiótico previo. Salmonella, Proteus y Citrobacter son causas poco frecuentes. La clínica clásica es la tríada de Charcot (fiebre, ictericia y dolor en hipocondrio derecho) y la pentada de Reynolds suma hipotensión y confusión. Se clasifica la gravedad con las Guías de Tokio 2018; el tratamiento es antibiótico empírico con cobertura de gramnegativos (por ejemplo piperacilina-tazobactam o ceftriaxona más metronidazol) y drenaje biliar urgente por CPRE en casos moderados y graves. Perla: tomar hemocultivos antes de los antibióticos.",
+      "comentario": "La colangitis aguda ocurre por obstrucción de la vía biliar, casi siempre por cálculos coledocianos, con infección ascendente desde el duodeno. La flora es polimicrobiana con predominio de enterobacterias gramnegativas: Escherichia coli es la más frecuente, seguida de Klebsiella spp. y Enterobacter spp., con enterococos y anaerobios (Bacteroides, Clostridium) en una proporción menor. P. aeruginosa aparece sobre todo en pacientes con prótesis biliar, manipulación reciente o tratamiento antibiótico previo. Salmonella, Proteus y Citrobacter son causas poco frecuentes. La clínica clásica es la tríada de Charcot (fiebre, ictericia y dolor en hipocondrio derecho) y la pentada de Reynolds suma hipotensión y confusión. Se clasifica la gravedad con las Guías de Tokio 2018; el tratamiento es antibiótico empírico con cobertura de gramnegativos (por ejemplo piperacilina-tazobactam o ceftriaxona más metronidazol) y drenaje biliar urgente por CPRE en casos moderados y graves. Perla: tomar hemocultivos antes de los antibióticos.",
+      "tema": "Bacterias de la colangitis aguda",
+      "año": 2015,
+      "fuentes": "Kiriyama S et al., Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis, J Hepatobiliary Pancreat Sci 2018;25:17-30; Tokyo Guidelines 2018: management bundles for acute cholangitis and cholecystitis, J Hepatobiliary Pancreat Sci 2018;25:96-100; EsSalud-IETSI, GPC N.º 11 colelitiasis, colecistitis aguda y coledocolitiasis (2018)",
+      "categoria": "Vía biliar",
+      "nota_revision": "Opción D reconstruida del OCR («E. coli, Pseudomonas, Salmonella»)."
+    },
+    {
+      "id": "RM-GAS-010",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Los abscesos hepáticos se localizan con más frecuencia en el lóbulo hepático:",
+      "opciones": [
+        "Derecho.",
+        "Izquierdo.",
+        "Caudado.",
+        "Bilobular.",
+        "Sin preferencia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Tanto los abscesos piógenos como los amebianos predominan en el lóbulo derecho, en aproximadamente dos tercios de los casos, porque este lóbulo es mayor (cerca del 60-70 % de la masa hepática) y recibe, a través de la vena porta, la sangre de la vena mesentérica superior, que arrastra bacterias o trofozoítos desde el colon y el intestino delgado; el lóbulo izquierdo, drenado en mayor medida por la mesentérica inferior y la esplénica, se afecta menos. Los abscesos suelen ser únicos en los amebianos y múltiples en los de origen biliar. El lóbulo caudado se afecta raramente y la afectación bilobular se ve en los de origen biliar o hematógeno, donde no existe preferencia. La clínica es fiebre y dolor en hipocondrio derecho, con elevación del hemidiafragma o derrame pleural derecho. El diagnóstico se hace por ecografía o tomografía. Perla: ante un absceso piógeno único del lóbulo derecho, en pacientes con diabetes, Klebsiella pneumoniae hipervirulenta es una causa frecuente.",
+      "comentario": "Tanto los abscesos piógenos como los amebianos predominan en el lóbulo derecho, en aproximadamente dos tercios de los casos, porque este lóbulo es mayor (cerca del 60-70 % de la masa hepática) y recibe, a través de la vena porta, la sangre de la vena mesentérica superior, que arrastra bacterias o trofozoítos desde el colon y el intestino delgado; el lóbulo izquierdo, drenado en mayor medida por la mesentérica inferior y la esplénica, se afecta menos. Los abscesos suelen ser únicos en los amebianos y múltiples en los de origen biliar. El lóbulo caudado se afecta raramente y la afectación bilobular se ve en los de origen biliar o hematógeno, donde no existe preferencia. La clínica es fiebre y dolor en hipocondrio derecho, con elevación del hemidiafragma o derrame pleural derecho. El diagnóstico se hace por ecografía o tomografía. Perla: ante un absceso piógeno único del lóbulo derecho, en pacientes con diabetes, Klebsiella pneumoniae hipervirulenta es una causa frecuente.",
+      "tema": "Localización más frecuente de los abscesos hepáticos",
+      "año": 2016,
+      "fuentes": "Sabiston Tratado de Cirugía 21.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Hígado"
+    },
+    {
+      "id": "RM-GAS-011",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Varón de 28 años, procede de Ayacucho, presenta náuseas, vómitos, malestar general y artralgias. Examen: ictericia, hepatomegalia. Laboratorio: HBsAg (+), Anti-HBs (-), Anti-HBc IgM (+), HBeAg (+), Anti-HBe (-). ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Portador de bajo nivel.",
+        "Convalecencia.",
+        "Hepatitis B aguda.",
+        "Inmunización reciente.",
+        "Hepatitis B crónica."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro prodrómico con náuseas, malestar, artralgias, ictericia y hepatomegalia en una persona de zona endémica sugiere hepatitis viral aguda. El HBsAg positivo confirma infección por el virus de la hepatitis B y el anti-HBc IgM positivo la define como aguda o reciente (menos de 6 meses). El HBeAg positivo con anti-HBe negativo indica replicación y alta infectividad, y la ausencia de anti-HBs señala que aún no hay inmunidad. En la hepatitis B crónica el HBsAg persiste más de 6 meses con anti-HBc IgG; en la convalecencia aparece anti-HBs con anti-HBc total; en la inmunización reciente solo hay anti-HBs; y en el período ventana solo se detecta anti-HBc IgM. Perla: la mayoría de los adultos (95 %) elimina el virus, mientras que los neonatos infectados cronifican en más del 90 %. Se maneja con soporte, y se trata solo la forma fulminante o grave.",
+      "comentario": "El cuadro prodrómico con náuseas, malestar, artralgias, ictericia y hepatomegalia en una persona de zona endémica sugiere hepatitis viral aguda. El HBsAg positivo confirma infección por el virus de la hepatitis B y el anti-HBc IgM positivo la define como aguda o reciente (menos de 6 meses). El HBeAg positivo con anti-HBe negativo indica replicación y alta infectividad, y la ausencia de anti-HBs señala que aún no hay inmunidad. En la hepatitis B crónica el HBsAg persiste más de 6 meses con anti-HBc IgG; en la convalecencia aparece anti-HBs con anti-HBc total; en la inmunización reciente solo hay anti-HBs; y en el período ventana solo se detecta anti-HBc IgM. Perla: la mayoría de los adultos (95 %) elimina el virus, mientras que los neonatos infectados cronifican en más del 90 %. Se maneja con soporte, y se trata solo la forma fulminante o grave.",
+      "tema": "Hepatitis B aguda: interpretación serológica",
+      "año": 2018,
+      "fuentes": "EASL, Clinical Practice Guidelines on the management of hepatitis B virus infection (J Hepatol 2025;83:502-583); Harrison 21.ª ed. (2022)",
+      "categoria": "Hepatitis virales"
     }
   ]
 }

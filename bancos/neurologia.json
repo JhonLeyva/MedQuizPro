@@ -1340,6 +1340,27 @@
       "fuentes": "Brain Trauma Foundation, Surgical management of acute epidural hematomas (Bullock, Neurosurgery 2006); BTF, Guidelines for Severe TBI 4.ª ed. (Carney 2017); Greenberg Handbook of Neurosurgery 10.ª ed.",
       "categoria": "Neurocirugía",
       "nota_revision": "El enunciado del libro dice «imagen hipodensa»; el hematoma epidural agudo es hiperdenso y lenticular, por lo que se corrigió la redacción. La clave A se mantiene (evacuación quirúrgica)."
+    },
+    {
+      "id": "RM-NRL-002",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes entidades se presenta por déficit de acetilcolina en la unión neuromuscular de las terminaciones neurales?",
+      "opciones": [
+        "Botulismo.",
+        "Miastenia gravis.",
+        "Polimiositis.",
+        "Parálisis periódica hiperkalémica.",
+        "Tétanos."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La toxina botulínica, producida por Clostridium botulinum, es una endopeptidasa que corta proteínas SNARE de la terminal presináptica e impide la liberación de acetilcolina, por lo que produce una parálisis flácida descendente simétrica que empieza en los pares craneales (visión borrosa, diplopía, ptosis, disartria, disfagia), con pupilas dilatadas y disautonomía anticolinérgica, sin fiebre ni alteración sensorial. En la miastenia gravis hay anticuerpos contra el receptor postsináptico de acetilcolina, no déficit de liberación; la polimiositis es una miopatía inflamatoria; la parálisis periódica hiperkalémica es una canalopatía del sodio muscular; el tétanos bloquea la liberación de neurotransmisores inhibidores (glicina y GABA) y causa espasmos rígidos. El tratamiento es la antitoxina botulínica equina precoz y soporte ventilatorio; en el lactante se emplea inmunoglobulina humana. Perla: la miel es fuente clásica en lactantes.",
+      "comentario": "La toxina botulínica, producida por Clostridium botulinum, es una endopeptidasa que corta proteínas SNARE de la terminal presináptica e impide la liberación de acetilcolina, por lo que produce una parálisis flácida descendente simétrica que empieza en los pares craneales (visión borrosa, diplopía, ptosis, disartria, disfagia), con pupilas dilatadas y disautonomía anticolinérgica, sin fiebre ni alteración sensorial. En la miastenia gravis hay anticuerpos contra el receptor postsináptico de acetilcolina, no déficit de liberación; la polimiositis es una miopatía inflamatoria; la parálisis periódica hiperkalémica es una canalopatía del sodio muscular; el tétanos bloquea la liberación de neurotransmisores inhibidores (glicina y GABA) y causa espasmos rígidos. El tratamiento es la antitoxina botulínica equina precoz y soporte ventilatorio; en el lactante se emplea inmunoglobulina humana. Perla: la miel es fuente clásica en lactantes.",
+      "tema": "Botulismo: déficit de liberación de acetilcolina",
+      "año": 2014,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Nelson Tratado de Pediatría 22.ª ed. (2024); Mandell, Douglas y Bennett Enfermedades Infecciosas 9.ª ed. (2020)",
+      "categoria": "Unión neuromuscular"
     }
   ]
 }
