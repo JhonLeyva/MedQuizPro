@@ -101,7 +101,7 @@ S("lectura", "RM-NEU-015", "La tuberculosis del adulto ocupa los segmentos apica
                               "No: bases, patrón de la primaria", "No: lingular y basal, atípico"],
       {3: "Basales medios de lóbulos inferiores"}),
   d=dict(rotulo="Cómo leer la radiografía de una tuberculosis del adulto", img_titulo="Radiografía de referencia: TB cavitaria avanzada",
-         img=PX("tb_cavitaria.jpg", 330, credito="CDC · Wikimedia Commons · dominio público"), img_pie="Imagen de referencia, no del paciente.",
+         img=PX("tb_cavitaria.jpg", 330, credito="CDC · Wikimedia Commons · dominio público"), img_pie="Imagen referencial de una tuberculosis pulmonar cavitaria.",
          pines=[],
          pasos=[("Lóbulo superior derecho", "Las puntas de flecha blancas marcan el infiltrado del vértice: sitio típico de la reactivación.", True),
                 ("Cavidad apical", "Las flechas negras rodean una caverna: fuente de esputo bacilífero.", False),
@@ -168,7 +168,7 @@ S("cuadricula", "RM-INF-033", "El sarcoma de Kaposi del paciente con VIH lo caus
          veredicto=("Kaposi en el VIH = HHV-8", "El VIH facilita el tumor por la inmunosupresión, pero el agente causal es el herpesvirus humano 8.")),
   banda=B("Referencia: lesiones del sarcoma de Kaposi", PX("kaposi.jpg", 300, marcas=[("flecha", 0.50, 0.30, 0.78, 0.84, "Nódulo violáceo")], credito="Dominio público · Wikimedia Commons"),
           [("Máculas y placas", "Color rojo a violáceo, indoloras y sin prurito."), ("Nódulos", "Lesiones elevadas que pueden confluir."), ("Dónde buscar", "Piel, paladar y mucosas; también pulmón y tubo digestivo.")],
-          pie="Imagen de referencia, no del paciente"))
+          pie="Imagen referencial de lesiones violáceas de sarcoma de Kaposi"))
 
 # 9 · LÍNEA DE VIDA · TARV en la gestación
 S("linea_vida", "RM-GIN-016", "La norma peruana de 2019 fija la semana 12 para iniciar el TARV triple en la gestante con VIH",
@@ -246,7 +246,7 @@ S("lectura", "RM-NEU-017", "Cavidad tuberculosa residual con masa en su interior
   d=dict(rotulo="Cómo leer la TC de un aspergiloma", img_titulo="TC de referencia: aspergiloma",
          img=PX("aspergiloma_a.jpg", 290, credito="Wang et al. · Respirology Case Reports 2026 · CC BY 4.0",
                 marcas=[("flecha", 0.27, 0.58, 0.60, 0.86, "Masa en la cavidad"), ("flecha", 0.30, 0.40, 0.62, 0.20, "Creciente de aire")]),
-         img_pie="TC de un caso publicado, no del paciente. Lado derecho a la izquierda de la imagen.", pines=[],
+         img_pie="Imagen referencial de un aspergiloma en TC. Lado derecho a la izquierda.", pines=[],
          pasos=[("Cavidad en el vértice derecho", "Secuela de tuberculosis tratada; el BK negativo descarta recaída activa.", False),
                 ("Masa dentro de la cavidad", "Imagen hipodensa de partes blandas que ocupa parte de la luz: bola fúngica.", True),
                 ("Creciente de aire", "Halo de aire en menisco sobre la masa; la masa se mueve al cambiar de posición.", False),
@@ -311,7 +311,14 @@ S("laboratorio", "RM-INF-034", "HBsAg, anti-HBc IgG y HBeAg positivos: hepatitis
             ("Anti-HBc IgG", "Positivo", "Negativo", "↑", "Contacto de más tiempo; en la fase aguda sería IgM."),
             ("HBeAg", "Positivo", "Negativo", "↑", "Replicación viral con alta infectividad."),
             ("ADN-VHB y ALT", "Por pedir", "ADN bajo, ALT normal", "=", "Definen la fase (infección o hepatitis crónica) y si se trata.")],
-         veredicto=("HBsAg (+), anti-HBc IgG (+), HBeAg (+) = hepatitis B crónica activa", "Falta ADN-VHB, ALT y fibrosis para decidir el tratamiento.")))
+         veredicto=("HBsAg (+), anti-HBc IgG (+), HBeAg (+) = hepatitis B crónica activa", "Falta ADN-VHB, ALT y fibrosis para decidir el tratamiento.")),
+  clasif=dict(titulo="Fases de la infección crónica por VHB (EASL)", cols=["Fase", "HBeAg", "ADN-VHB", "ALT", "Conducta"],
+              filas=[["HBeAg (+) infección crónica", "Positivo", "Muy alto", "Normal", "Sin tratamiento habitual; vigilar ALT y ADN"],
+                     ["HBeAg (+) hepatitis crónica", "Positivo", "Alto", "Elevada", "Evaluar tratamiento (daño hepático)"],
+                     ["HBeAg (−) infección crónica (portador inactivo)", "Negativo, anti-HBe (+)", "Bajo (< 2000 UI/mL)", "Normal", "Vigilancia periódica"],
+                     ["HBeAg (−) hepatitis crónica", "Negativo", "> 2000 UI/mL", "Elevada", "Evaluar tratamiento"],
+                     ["Fase HBsAg (−)", "Negativo", "Indetectable o mínimo", "Normal", "Anti-HBc (+); vigilar si hay inmunosupresión"]],
+              caso=1, ancho_primera=190, nota="Fases descritas por EASL 2017 y vigentes en la práctica; la guía EASL 2025 simplifica el criterio de tratamiento."))
 
 # 16 · PIRÁMIDE · artritis séptica
 S("piramide", "RM-REU-005", "La rodilla es la articulación más afectada en la artritis séptica, cerca de la mitad de los casos",
@@ -355,4 +362,9 @@ S("checklist", "RM-INF-035", "En el dengue se evita el metamizol, los AINE y la 
          no_titulo="No se usa",
          no_hacer=[("Metamizol", "Conducta contraindicada de esta pregunta: riesgo hematológico"), ("AINE y ácido acetilsalicílico", "Riesgo de sangrado y disfunción plaquetaria"),
                    ("Inyecciones intramusculares", "Riesgo de hematoma")],
-         veredicto=("Fiebre del dengue: paracetamol, nunca metamizol, AINE ni aspirina", "El periodo crítico es el descenso de la fiebre (días 3-7): vigilar los signos de alarma.")))
+         veredicto=("Fiebre del dengue: paracetamol, nunca metamizol, AINE ni aspirina", "El periodo crítico es el descenso de la fiebre (días 3-7): vigilar los signos de alarma.")),
+  clasif=dict(titulo="Clasificación del dengue (OMS 2009)", cols=["Categoría", "Criterio", "Conducta"],
+              filas=[["Sin signos de alarma", "Fiebre con 2 o más: náuseas, exantema, dolor, leucopenia o prueba del torniquete (+)", "Hidratación oral, paracetamol y control ambulatorio"],
+                     ["Con signos de alarma", "Dolor abdominal, vómitos persistentes, líquido acumulado, sangrado de mucosas, letargia, hepatomegalia, aumento del hematocrito con caída de plaquetas", "Hospitalizar; cristaloides endovenosos y vigilancia"],
+                     ["Dengue grave", "Fuga de plasma con choque o dificultad respiratoria, hemorragia grave o falla de órgano", "Reanimación con fluidos en cuidados intensivos"]],
+              caso=0, ancho_primera=150, nota="Paciente de 5 días de fiebre sin signos de alarma descritos: categoría sin signos de alarma."))

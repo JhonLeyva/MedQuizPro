@@ -42,12 +42,12 @@ S("embudo", "RM-NEU-013", "Fiebre, tos y disnea con un infiltrado alveolar basal
                 ("¿Es agudo y no apical ni cavitado?", ["Tuberculosis pulmonar"])],
          final=("NEUMONÍA ADQUIRIDA EN LA COMUNIDAD", ["Estratificar con CURB-65", "Betalactámico más macrólido"]),
          nota="La obesidad aumenta el riesgo de tromboembolismo, pero la fiebre de 7 días y el infiltrado basal orientan a neumonía."),
-  clasif=dict(titulo="CURB-65: un punto por cada criterio (confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65)",
+  clasif=dict(titulo="Puntaje CURB-65 en la neumonía adquirida en la comunidad",
               cols=["Puntaje", "Riesgo de muerte a 30 días", "Conducta"],
               filas=[["0 a 1", "Bajo (cerca de 1,5 %)", "Tratamiento ambulatorio"],
                      ["2", "Intermedio (cerca de 9 %)", "Hospitalización breve o con seguimiento estrecho"],
                      ["3 a 5", "Alto (22 % o más)", "Neumonía grave: hospitalizar; considerar UCI con 4 o 5 puntos"]],
-              caso=None, ancho_primera=110, nota="En este caso la edad ya suma 1 punto; el resto depende de la urea, la confusión y la presión arterial."))
+              caso=None, ancho_primera=110, nota="Un punto por criterio: confusión, urea > 7 mmol/L, FR ≥ 30/min, PA sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65. Aquí la edad ya suma 1."))
 
 # 3 · LECTURA · meningitis meningocócica
 S("lectura", "RM-INF-024", "Meningitis con diplococos gramnegativos intracelulares: ceftriaxona 2 g cada 12 horas sin demora",
