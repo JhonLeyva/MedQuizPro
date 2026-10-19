@@ -21,7 +21,7 @@ S("lectura", "RM-INF-019", "Pus por la uretra antes de orinar: uretritis gonocó
       {3: "Virus del papiloma humano"}),
   d=dict(rotulo="Cómo se lee el Gram de la secreción uretral", img_titulo="Gram de secreción uretral",
          img=PX("gonococo.jpg", 380, credito="CDC/PHIL · Häggström · Beards · Wikimedia Commons"),
-         pines=[(0.34, 0.45), (0.56, 0.27)], img_pie="Imagen de referencia, no del paciente.",
+         pines=[(0.34, 0.45), (0.56, 0.27)], img_pie="Imagen referencial de diplococos gramnegativos intracelulares en una secreción uretral.",
          pasos=[("Buscar las células grandes", "Son neutrófilos: la secreción purulenta está llena de ellos.", False),
                 ("Ver los puntos dentro de la célula", "Diplococos gramnegativos intracelulares = Neisseria gonorrhoeae.", True),
                 ("Confirmar y tratar", "Amplificación de ácidos nucleicos; ceftriaxona 500 mg IM y cubrir clamidia si no se descarta.", False)],
@@ -69,7 +69,7 @@ S("radial", "RM-GAS-005", "La causa más frecuente del absceso hepático piógen
          ruta=["Obstrucción biliar por litiasis o tumor", "Colangitis ascendente", "Absceso polimicrobiano", "Drenaje percutáneo + antibiótico"]),
   banda=B("Origen biliar en la tomografía", PX("colangitis_tc.jpg", 200, credito="Yeung et al. · Cureus 2026 · CC BY 4.0"),
           [("Flecha superior", "Vía biliar dilatada: la obstrucción empuja la infección hacia el hígado."), ("Flecha inferior", "Cálculo en el colédoco distal: es la causa de la obstrucción."),
-           ("Imagen de referencia", "Colangitis aguda; no es el paciente de la pregunta.")], pie="TC coronal de colangitis aguda", rotulo="Imagen de referencia"))
+           ("Imagen referencial", "Colangitis aguda por un cálculo en el colédoco distal.")], pie="Imagen referencial de una colangitis aguda en TC coronal", rotulo="Imagen referencial"))
 
 # SP-001 · BALANZA · causa necesaria pero no suficiente
 S("balanza", "RM-SP-001", "El bacilo tuberculoso es causa necesaria, pero no suficiente, de la tuberculosis",
@@ -185,7 +185,12 @@ S("cascada", "RM-CAR-039", "La complicación más severa del estreptococo beta h
                 ("Mimetismo molecular", "La proteína M se parece a antígenos del corazón, articulación, cerebro y piel", [("Aparece 2 a 4 semanas después", "", False)]),
                 ("Fiebre reumática aguda", "Carditis, poliartritis migratoria, corea, eritema marginado y nódulos", [("Se diagnostica con los criterios de Jones", "", False)]),
                 ("Cardiopatía reumática crónica", "Estenosis o insuficiencia valvular, sobre todo mitral", [("La complicación más severa", "Este caso", True)])],
-         veredicto=("Fiebre reumática: su gravedad es la cardiopatía crónica", "Es la causa de cardiopatía adquirida en jóvenes de países de bajos ingresos.")))
+         veredicto=("Fiebre reumática: su gravedad es la cardiopatía crónica", "Es la causa de cardiopatía adquirida en jóvenes de países de bajos ingresos.")),
+  clasif=dict(titulo="Criterios de Jones 2015 (AHA): se exige evidencia de estreptococo previo", cols=["Criterio", "Población de bajo riesgo", "Población de riesgo moderado o alto"],
+              filas=[["Mayores", "Carditis, poliartritis, corea, eritema marginado y nódulos subcutáneos", "Carditis, mono o poliartritis o poliartralgia, corea, eritema marginado y nódulos subcutáneos"],
+                     ["Menores", "Poliartralgia; fiebre ≥ 38,5 °C; VSG ≥ 60 mm/h o PCR ≥ 3 mg/dL; PR prolongado", "Monoartralgia; fiebre ≥ 38 °C; VSG ≥ 30 mm/h o PCR ≥ 3 mg/dL; PR prolongado"],
+                     ["Diagnóstico", "2 mayores, o 1 mayor y 2 menores", "2 mayores, o 1 mayor y 2 menores"]],
+              ancho_primera=110, nota="Riesgo moderado o alto: incidencia > 2 por 100 000 escolares o prevalencia de cardiopatía reumática > 1 por 1000 habitantes."))
 
 # INF-021 · TRANSMISIÓN · infección de sitio quirúrgico por estafilococo
 S("transmision", "RM-INF-021", "En la infección de sitio quirúrgico por estafilococo, el factor clave es el inadecuado lavado de manos",
@@ -247,7 +252,7 @@ S("arbol", "RM-NEU-008", "Bronquiectasias infectadas por Pseudomonas aeruginosa:
       L("Prevención de exacerbaciones", "AZITROMICINA PROLONGADA", ["Inmunomoduladora", "No trata la infección aguda"])], path=True),
   banda=B("Así se ven las bronquiectasias en la TC", PX("bronquiec_ct.jpg", 280, credito="Sandeyl et al. · Clin Case Rep 2026 · CC BY 4.0"),
           [("Panel A", "Bronquios dilatados, más anchos que su arteria vecina: signo del anillo de sello."), ("Panel B", "Bronquios gruesos y dilatados en «riel de tranvía»."),
-           ("Imagen de referencia", "Bronquiectasias postuberculosis; las flechas amarillas son del original y no son del paciente.")], pie="TC de tórax: bronquiectasias", rotulo="Imagen de referencia"))
+           ("Imagen referencial", "Bronquiectasias postuberculosis; las flechas amarillas vienen en la imagen original.")], pie="Imagen referencial de bronquiectasias en la TC de tórax", rotulo="Imagen referencial"))
 
 # INF-023 · LABORATORIO · LCR de meningitis tuberculosa
 S("laboratorio", "RM-INF-023", "En la meningitis tuberculosa el LCR muestra pleocitosis mononuclear",
@@ -272,7 +277,7 @@ S("laboratorio", "RM-INF-023", "En la meningitis tuberculosa el LCR muestra pleo
           marcas=[("flecha", 0.285, 0.69, 0.31, 0.93, "Realce basal"), ("flecha", 0.795, 0.685, 0.80, 0.93, "Tuberculoma")]),
           [("Paneles C y D", "T1 con contraste: realce leptomeníngeo en las cisternas de la base (C) y lesión anular en el caudado (D)."),
            ("Paneles A y B", "Lesión del núcleo caudado izquierdo de 14 × 12 × 16 mm: hipointensa con halo hiperintenso."),
-           ("Imagen de referencia", "Adolescente con meningitis tuberculosa; no es el paciente de la pregunta.")], pie="RM cerebral: meningitis y tuberculoma", rotulo="Imagen de referencia"))
+           ("Imagen referencial", "Adolescente con meningitis tuberculosa y tuberculoma.")], pie="Imagen referencial de una meningitis tuberculosa con tuberculoma en la RM", rotulo="Imagen referencial"))
 
 # NEU-009 · DECISIÓN · NAC grave
 S("decision", "RM-NEU-009", "Neumonía grave con hipoxemia: oxígeno y ceftriaxona más azitromicina",
@@ -292,7 +297,10 @@ S("decision", "RM-NEU-009", "Neumonía grave con hipoxemia: oxígeno y ceftriaxo
          rows=[("Hospitalizada no grave", "Sala general"), ("Grave: este caso", "Hipoxemia, confusión y polipnea")],
          cells=[[("Ceftriaxona + azitromicina", ["O fluoroquinolona respiratoria sola"]), ("Ampliar la cobertura", ["Según el factor de riesgo", "Cultivos antes del antibiótico"])],
                 [("Ceftriaxona + azitromicina", ["O β-lactámico + fluoroquinolona", "Valorar UCI"]), ("Ampliar la cobertura", ["Añadir MRSA o Pseudomonas", "Hemocultivos y esputo"])]],
-         caso=(1, 0), nota="Cubre neumococo, H. influenzae y atípicos (Mycoplasma, Chlamydophila, Legionella)."))
+         caso=(1, 0), nota="Cubre neumococo, H. influenzae y atípicos (Mycoplasma, Chlamydophila, Legionella)."),
+  clasif=dict(titulo="Puntaje CURB-65: 1 punto por cada criterio y decisión del sitio de atención", cols=["Puntaje", "Riesgo", "Conducta"],
+              filas=[["0-1", "Bajo", "Manejo ambulatorio"], ["2", "Intermedio", "Hospitalizar (sala general)"], ["3-5", "Alto: neumonía grave", "Hospitalizar y valorar cuidados intensivos"]],
+              ancho_primera=110, nota="Criterios: Confusión, Urea > 7 mmol/L (BUN > 19 mg/dL), frecuencia Respiratoria ≥ 30/min, presión sistólica < 90 o diastólica ≤ 60 mmHg, edad ≥ 65. La hipoxemia grave de este caso exige manejo como grave aunque el puntaje sea bajo."))
 
 # GAS-007 · LECTURA · absceso hepático en TC
 S("lectura", "RM-GAS-007", "Fiebre, ictericia, dolor en hipocondrio derecho y diabetes: absceso hepático piógeno",
@@ -308,7 +316,7 @@ S("lectura", "RM-GAS-007", "Fiebre, ictericia, dolor en hipocondrio derecho y di
       {0: "Absceso piógeno", 1: "Quiste hidatídico complicado", 2: "Absceso amebiano", 3: "Hepatocarcinoma complicado", 4: "Hematoma subcapsular hepático"}),
   d=dict(rotulo="Cómo se ve un absceso hepático en la tomografía", img_titulo="TC axial con contraste",
          img=PX("absceso_hep_ct.jpg", 390, credito="Paz y Mino et al. · J Med Cases 2026 · CC BY 4.0"), pines=[],
-         img_pie="La flecha verde marca la lesión hipodensa de bordes mal definidos en el lóbulo hepático derecho (43,8 mm). Imagen de referencia.",
+         img_pie="La flecha verde marca la lesión hipodensa de bordes mal definidos en el lóbulo hepático derecho (43,8 mm). Imagen referencial de un absceso hepático piógeno en la TC.",
          pasos=[("Buscar la zona más oscura del hígado", "Colección hipodensa en el hígado derecho: absceso.", True),
                 ("Preguntar por el origen", "Colangitis o litiasis biliar, diabetes: origen biliar probable.", False),
                 ("Drenar y tratar", "Drenaje percutáneo y antibióticos de amplio espectro por varias semanas.", False)],

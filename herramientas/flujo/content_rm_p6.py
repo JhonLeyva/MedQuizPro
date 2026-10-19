@@ -59,8 +59,8 @@ S("matriz", "RM-CIR-113", "La causa más frecuente de obstrucción intestinal en
                 [("Cáncer colorrectal", ["Estreñimiento y pérdida de peso", "Masa en la colonoscopía"]), ("Vólvulo y diverticulitis", ["Sigmoides en el anciano", "Estenosis diverticular"])]]),
   banda=B("Así se ve la obstrucción del delgado", PX("bridas_rx.jpg", 330,
           marcas=[("flecha", 0.20, 0.37, 0.50, 0.12, "Nivel hidroaéreo"), ("flecha", 0.30, 0.64, 0.64, 0.86, "Asa dilatada")], credito="Igboeze · Wikimedia Commons · CC BY-SA 4.0"),
-          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen de referencia", "Cuadro de obstrucción por bridas."),
-           ("Siguiente paso", "TC con contraste si hay duda o signos de estrangulación.")], pie="Rx de abdomen: obstrucción del intestino delgado", rotulo="Imagen de referencia"))
+          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen referencial", "Imagen referencial de una obstrucción del intestino delgado por bridas."),
+           ("Siguiente paso", "TC con contraste si hay duda o signos de estrangulación.")], pie="Imagen referencial de una radiografía de abdomen con obstrucción del intestino delgado", rotulo="Imagen referencial"))
 
 # 115 · FASES · manejo no operatorio y contraste hidrosoluble
 S("fases", "RM-CIR-115", "Obstrucción parcial del delgado sin alarma: sonda nasogástrica y rehidratación",
@@ -96,7 +96,12 @@ S("checklist", "RM-CIR-116", "En el politraumatizado inestable sin dificultad re
                 ("B: ventilación", "Sin disnea ni neumotórax a tensión", False), ("C: circulación", "Dos vías, sangre balanceada, ácido tranexámico", False),
                 ("D y E: neurológico y exposición", "Glasgow, pupilas y evitar hipotermia", False)],
          no_hacer=[("Esperar la tomografía con el paciente inestable", "Pierde tiempo: operar o embolizar"), ("Cristaloides en exceso", "Diluyen y empeoran la coagulopatía"), ("Colocar un catéter central primero", "Retrasa el control del sangrado")],
-         veredicto=("Inestable + vía aérea sana = controlar el sangrado", "La hemorragia es la causa más frecuente de muerte evitable en el trauma.")))
+         veredicto=("Inestable + vía aérea sana = controlar el sangrado", "La hemorragia es la causa más frecuente de muerte evitable en el trauma.")),
+  clasif=dict(titulo="Clases de hemorragia del ATLS", cols=["Clase", "Pérdida de sangre", "Hallazgos", "Conducta"],
+              filas=[["I", "< 15 %", "Sin cambios; FC y PA normales", "Observación; cristaloides si hace falta"],
+                     ["II", "15-30 %", "Taquicardia, PA normal, ansiedad", "Cristaloides; sangre si sigue sangrando"],
+                     ["III", "31-40 %", "FC > 120, PA baja, confusión (este caso)", "Transfusión balanceada y control del sangrado"],
+                     ["IV", "> 40 %", "Hipotensión grave, letargo", "Transfusión masiva y quirófano"]], caso=2, ancho_primera=90))
 
 # 117 · TARJETAS · gran quemado: referencia y equipo
 S("tarjetas", "RM-CIR-117", "El gran quemado lo atiende un equipo multidisciplinario en un centro de quemados",
@@ -128,18 +133,18 @@ S("lectura", "RM-CIR-119", "Ascitis exudativa linfocitaria con fiebre: la biopsi
   "AASLD, ascitis (2021); EASL, cirrosis descompensada (2018); " + SAB,
   op=("¿Diagnóstico definitivo?", ["No: es inespecífica", "No: orienta, pero no es diagnóstica", "No: sin valor diagnóstico", "No: muestra engrosamiento, pero no es definitiva", "Sí: granulomas caseificantes o cultivo"],
       {0: "VSG elevada", 1: "ADA de líquido ascítico", 2: "Resonancia magnética", 3: "Tomografía abdominopélvica", 4: "Biopsia peritoneal"}),
-  d=dict(rotulo="Del abdomen distendido al diagnóstico", img_titulo="Ascitis a tensión (imagen referencial)",
+  d=dict(rotulo="Del abdomen distendido al diagnóstico", img_titulo="Imagen referencial de una ascitis a tensión",
          img=PX("ascitis.jpg", 300, marcas=[("flecha", 0.56, 0.77, 0.70, 0.93, "Ombligo evertido"), ("flecha", 0.93, 0.55, 0.70, 0.22, "Flanco abultado")],
                 credito="James Heilman · Wikimedia Commons · CC BY-SA 3.0"),
-         pines=[], img_pie="Imagen referencial.",
+         pines=[], img_pie="Imagen referencial de un abdomen con ascitis a tensión.",
          pasos=[("1. Paracentesis diagnóstica", "Proteínas, albúmina, recuento celular, ADA y cultivo.", False),
                 ("2. Exudado: SAAG < 1,1 y proteínas > 2,5", "Sin hipertensión portal: peritoneo, páncreas o neoplasia.", False),
                 ("3. Linfocitos y ADA > 39 U/L", "Sospecha de tuberculosis peritoneal.", False),
                 ("4. Biopsia peritoneal (laparoscopía)", "Granulomas caseificantes: confirma.", True)],
          veredicto=("Exudado linfocitario + fiebre + adelgazamiento = biopsia peritoneal", "El ADA orienta; la histología confirma.")))
 
-# 120 · DECISIÓN · clasificación de Nyhus, tipo IIIB
-S("decision", "RM-CIR-120", "Hernia inguinal indirecta con ciego en el saco: Nyhus IIIB",
+# 120 · CUADRO · clasificación de Nyhus, tipo IIIB
+S("cuadro", "RM-CIR-120", "Hernia inguinal indirecta con ciego en el saco: Nyhus IIIB",
   "Hernias · clasificación de Nyhus",
   ("Clasificación de Nyhus", ["Ordena las hernias inguinales según el anillo interno y la pared posterior.", "Los tipos III y IV indican un defecto de la pared posterior o recidiva."]),
   ("Varón de 45 años, hernia inguinal derecha", ["Saco lateral a los vasos epigástricos con el ciego como contenido.", "¿Qué tipo de Nyhus es?"]),
@@ -150,16 +155,15 @@ S("decision", "RM-CIR-120", "Hernia inguinal indirecta con ciego en el saco: Nyh
   "HerniaSurge, hernia inguinal (2018); Nyhus, Hernia 1993; " + SCHW,
   op=("¿Nyhus?", ["No: el anillo dilatado sin pared posterior dañada", "No: es la hernia recidivada", "No: el III es el grupo, falta el subtipo", "Sí: indirecta con pared posterior dañada (deslizada)", "No: IIIA es la hernia directa"],
       {0: "II", 1: "IV", 2: "III", 3: "IIIB", 4: "IIIA"}),
-  d=dict(rotulo="Los tipos de Nyhus y qué hernia es cada uno", eje_y="Tipo de Nyhus", ancho_filas=130,
-         cols=["Hernia", "Anillo interno y pared posterior"],
-         rows=[("I", "Niños"), ("II", "Indirecta"), ("IIIA", "Directa"), ("IIIB", "Deslizada"), ("IIIC", "Femoral"), ("IV", "Recidiva")],
-         cells=[[("Indirecta", ["En niños"]), ("Anillo normal", ["Pared posterior sana"])],
-                [("Indirecta", ["Anillo dilatado"]), ("Pared posterior intacta", ["Anillo ensanchado"])],
-                [("Directa", ["Triángulo de Hesselbach"]), ("Pared posterior débil", ["Medial a los epigástricos"])],
-                [("Indirecta grande o deslizada", ["Pantalón o contenido en el saco"]), ("Pared posterior invadida", ["Anillo muy dilatado: este caso"])],
-                [("Femoral", ["Bajo el ligamento inguinal"]), ("Defecto del canal femoral", ["Por dentro de la vena femoral"])],
-                [("Recidivada", ["A directa, B indirecta, C femoral, D mixta"]), ("Defecto tras cirugía previa", ["Malla o sutura fallida"])]],
-         caso=(3, 0), nota="El saco lateral a los vasos epigástricos es indirecto; si contiene el ciego es IIIB."))
+  d=dict(veredicto=("Saco lateral a los epigástricos con el ciego = Nyhus IIIB", "Hernia indirecta grande o deslizada: pared posterior invadida; se repara con malla.")),
+  clasif=dict(titulo="Clasificación de Nyhus de la hernia inguinal", cols=["Tipo", "Hernia", "Anillo interno y pared posterior"],
+              filas=[["I", "Indirecta", "Anillo interno normal; pared posterior sana"],
+                     ["II", "Indirecta", "Anillo dilatado; pared posterior intacta"],
+                     ["IIIA", "Directa", "Defecto de la pared posterior (triángulo de Hesselbach)"],
+                     ["IIIB", "Indirecta grande o deslizada", "Anillo muy dilatado; pared posterior invadida (pantalón, deslizada)"],
+                     ["IIIC", "Femoral", "Defecto del canal femoral, bajo el ligamento inguinal"],
+                     ["IV", "Recidivada", "A directa, B indirecta, C femoral, D mixta"]], caso=3, ancho_primera=130,
+              nota="El saco lateral a los vasos epigástricos es indirecto; si contiene el ciego es IIIB."))
 
 # 122 · CUADRÍCULA · cáncer de colon, resección según irrigación (+ colonoscopía real)
 S("cuadricula", "RM-CIR-122", "El cáncer de la flexura esplénica se trata con colectomía izquierda extendida",
@@ -181,8 +185,8 @@ S("cuadricula", "RM-CIR-122", "El cáncer de la flexura esplénica se trata con 
          veredicto=("Flexura esplénica = doble irrigación = colectomía izquierda extendida", "Si se reseca solo el transverso o el izquierdo, el margen y la perfusión quedan en riesgo.")),
   banda=B("Así se ve un cáncer de colon", PX("ca_colon.jpg", 300,
           marcas=[("flecha", 0.78, 0.62, 0.66, 0.92, "Tumor ulcerado"), ("flecha", 0.37, 0.50, 0.10, 0.20, "Luz estrecha")], credito="G. Narasimha Murthy · Wikimedia Commons · CC0"),
-          [("Masa ulcerada que estrecha la luz", "Aspecto típico de adenocarcinoma estenosante; la biopsia lo confirma."), ("Imagen de referencia", "Colonoscopía de otro paciente, no de este caso."),
-           ("Antes de operar", "Colonoscopía completa, TC y CEA basal.")], pie="Colonoscopía: lesión ulcerada del colon", rotulo="Imagen de referencia"))
+          [("Masa ulcerada que estrecha la luz", "Aspecto típico de adenocarcinoma estenosante; la biopsia lo confirma."), ("Imagen referencial", "Imagen referencial de una colonoscopía con un adenocarcinoma ulcerado."),
+           ("Antes de operar", "Colonoscopía completa, TC y CEA basal.")], pie="Imagen referencial de un cáncer de colon ulcerado en la colonoscopía", rotulo="Imagen referencial"))
 
 # 123 · RELOJ · obstrucción adherencial sin alarma
 S("reloj", "RM-CIR-123", "Obstrucción adherencial sin alarma: observación, sonda nasogástrica e hidratación",

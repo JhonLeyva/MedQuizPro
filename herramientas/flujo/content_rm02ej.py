@@ -23,9 +23,15 @@ S("capas", "RM-CIR-058", "La quemadura que llega a la dermis reticular es de seg
                 ("Hipodermis (grasa)", "Espesor total", "#fbe38e", "Tercer grado", "Escara acartonada, indolora, no blanquea; escarectomía e injerto."),
                 ("Fascia, músculo, hueso", "Plano profundo", "#d4b896", "Cuarto grado", "Pérdida de tejido profundo; cirugía mayor, riesgo de amputación.")],
          veredicto=("Epidermis + toda la dermis = segundo grado profundo", "Cicatriza lento (más de 3 semanas) y deja cicatriz: se plantea injerto temprano.")),
+  clasif=dict(titulo="Clasificación de las quemaduras por profundidad", cols=["Grado", "Capa", "Aspecto y dolor", "Curación"],
+              filas=[["Primer grado", "Epidermis", "Eritema seco, doloroso", "3-7 días, sin cicatriz"],
+                     ["2.º superficial", "Dermis papilar", "Ampollas, base rosada, muy dolorosa", "Menos de 3 semanas, sin cicatriz"],
+                     ["2.º profundo", "Dermis reticular", "Base blanquecina o moteada, poco dolorosa", "Más de 3 semanas, cicatriz; injerto"],
+                     ["Tercer grado", "Espesor total", "Acartonada, indolora", "No cura sola; escarectomía e injerto"],
+                     ["Cuarto grado", "Fascia, músculo, hueso", "Pérdida de tejido profundo", "Cirugía mayor"]], caso=2, ancho_primera=165),
   banda=B("Así se ve una quemadura dérmica", PX("quemadura_dia0.jpg", 230),
           [("Lecho rosado y blanquecino", "Zona desbridada: dermis expuesta de espesor intermedio."), ("Restos de ampollas en el contorno", "Indican compromiso al menos de la dermis papilar."),
-           ("Evolución", "La profundidad cambia en 48-72 h: se reevalúa antes de decidir injerto.")], pie="Pierna con quemadura dérmica, día 0"))
+           ("Evolución", "La profundidad cambia en 48-72 h: se reevalúa antes de decidir injerto.")], pie="Imagen referencial de una quemadura dérmica de pierna, día 0"))
 
 # 3 · CARRILES · trauma abdominal hipotenso con líquido libre
 S("carriles", "RM-CIR-109", "Trauma abdominal con hipotensión y líquido libre: la ruta termina en laparotomía exploradora",
@@ -43,7 +49,7 @@ S("carriles", "RM-CIR-109", "Trauma abdominal con hipotensión y líquido libre:
                 (2, "Transfusión masiva", "Hematíes, plasma, plaquetas 1:1:1", False), (3, "Laparotomía exploradora", "Control del sangrado", True)],
          veredicto=("Hemodinámicamente inestable + FAST positivo = quirófano", "No se pasa por tomografía ni lavado peritoneal.")),
   banda=B("Así se ve el líquido libre", PX("fast_morison.jpg", 300), [("Franja negra en el espacio hepatorrenal", "Es sangre libre (anecoica) entre el hígado y el riñón."), ("Flecha", "Marca el líquido en el espacio de Morison."),
-                                                                        ("Positiva e inestable", "No se pide más imagen: se opera.")], pie="FAST con líquido libre en Morison"))
+                                                                        ("Positiva e inestable", "No se pide más imagen: se opera.")], pie="Imagen referencial de una ecografía FAST con líquido libre en el espacio de Morison"))
 
 # 4 · FÁRMACO · tramadol y convulsiones
 S("farmaco", "RM-CIR-094", "El tramadol baja el umbral convulsivo por su acción serotoninérgica y noradrenérgica",

@@ -100,11 +100,19 @@ S("termometro", "RM-CIR-006", "Mujer con colecistitis aguda e insuficiencia card
    "Cirugía urgente en ASA IV: mortalidad perioperatoria alta; requiere monitorización invasiva."],
   "ASA, Physical Status Classification System (actualización 2020); " + MILLER,
   op=("¿Clase ASA?", ["Sí: IC con cuadro agudo, amenaza para la vida", "No: es enfermedad leve", "No: IC compensada sería ASA III", "No: es el moribundo que no sobrevive sin la operación", "No: es muerte cerebral, donante"]),
-  d=dict(rotulo="Clasificación ASA de menor a mayor riesgo", caso_nivel=3, ruta_titulo="Qué implica en este caso", paso_label="ESTE CASO",
+  d=dict(rotulo="Clasificación ASA de menor a mayor riesgo", caso_nivel=2, ruta_titulo="Qué implica en este caso", paso_label="ESTE CASO",
          niveles=[("ASA I-II", "Sano o enfermedad leve", ["Sin limitación funcional"]), ("ASA III", "Enfermedad grave", ["IC compensada"]),
                   ("ASA IV", "Amenaza constante para la vida", ["IC descompensada, sepsis"]), ("ASA V-VI", "Moribundo o muerte cerebral", ["Sin la operación no sobrevive"])],
          pasos=[(1, "Optimizar si es posible", ["Diuréticos, O₂, corregir electrolitos"], True), (2, "Monitorización invasiva", ["Línea arterial, catéter central"], False),
-                (3, "Anestesia con mínima depresión", ["Evitar cambios bruscos de volumen"], False)]))
+                (3, "Anestesia con mínima depresión", ["Evitar cambios bruscos de volumen"], False)]),
+  clasif=dict(titulo="Clasificación ASA del estado físico (ASA 2020)", cols=["Clase", "Definición", "Ejemplo"],
+              filas=[["ASA I", "Paciente sano", "Sin enfermedad; no fuma ni abusa del alcohol"],
+                     ["ASA II", "Enfermedad sistémica leve", "Fumador, HTA o DM controladas, obesidad leve"],
+                     ["ASA III", "Enfermedad sistémica grave", "IC compensada, DM mal controlada, EPOC, IMC ≥ 40"],
+                     ["ASA IV", "Enfermedad grave, amenaza constante para la vida", "IC descompensada, sepsis, infarto reciente"],
+                     ["ASA V", "Moribundo: no sobrevive sin la operación", "Aneurisma roto, isquemia intestinal masiva"],
+                     ["ASA VI", "Muerte cerebral, donante de órganos", "Donación de órganos"]], caso=3, ancho_primera=165,
+              nota="La letra «E» se añade si la cirugía es de urgencia (p. ej., ASA IV E)."))
 
 # 20 · RM-CIR-007 · CHECKLIST: paciente deshidratado
 S("checklist", "RM-CIR-007", "En el paciente mal hidratado la complicación más frecuente de la raquídea es la hipotensión",
@@ -245,7 +253,7 @@ S("lectura", "RM-END-001", "Crisis hipertensivas y masa suprarrenal izquierda: p
                 ("Clínica de catecolaminas", "Crisis hipertensivas, cefalea, sudoración, palpitaciones.", False),
                 ("Laboratorio: metanefrinas", "Plasmáticas libres u orina de 24 h.", True),
                 ("Preparación para operar", "Alfa-bloqueo 10-14 días y luego betabloqueo.", False)],
-         img_pie="Tumor suprarrenal en la tomografía",
+         img_pie="Imagen referencial de un tumor suprarrenal en la tomografía",
          veredicto=("Masa suprarrenal + crisis hipertensivas = metanefrinas", "El bloqueo alfa antes de operar evita una crisis.")))
 
 # 28 · RM-CAR-001 · ÁRBOL: clasificación de antihipertensivos
@@ -366,7 +374,7 @@ S("lectura", "RM-CAR-006", "El ventrículo derecho pequeño por colapso de las c
                 ("Cavidades derechas colapsadas", "Ventrículo derecho pequeño en diástole: taponamiento.", True),
                 ("Vena cava inferior dilatada", "Sin variación con la respiración.", False),
                 ("Clínica", "Beck: hipotensión, yugular, ruidos apagados; pulso paradójico.", False)],
-         img_pie="Derrame pericárdico",
+         img_pie="Imagen referencial de un derrame pericárdico en la ecografía subcostal",
          veredicto=("Colapso de cavidades derechas = taponamiento", "Drenar: pericardiocentesis o ventana pericárdica.")))
 
 # 35 · RM-PED-001 · TARJETAS: IC del lactante

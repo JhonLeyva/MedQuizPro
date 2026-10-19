@@ -191,7 +191,7 @@ S("dosis", "RM-CAR-037", "Taquicardia supraventricular con QRS estrecho que no c
          veredicto=("Adenosina en bolo rápido", "Efectos breves: rubor, opresión torácica y pausa.")))
 
 # 94 · RM-NEF-003 · TERMÓMETRO: albuminuria y conducta
-S("termometro", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: enalapril",
+S("cuadro", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: enalapril",
   "Nefrología · nefropatía diabética",
   ("Nefropatía diabética incipiente", ["Albuminuria persistente en un diabético hipertenso.", "IECA o ARA II retrasan la progresión."]),
   ("Varón de 45 años", ["HTA reciente y DM2 hace 5 años.", "PA 160/100, depuración 100 mL/min y proteinuria de 500 mg/24 h."]),
@@ -201,9 +201,15 @@ S("termometro", "RM-NEF-003", "Diabético con HTA y proteinuria persistente: ena
   "ADA, estándares de atención en diabetes (2026); KDIGO, diabetes y ERC (2022) y ERC (2024); ACC/AHA, hipertensión (2025)",
   op=("¿Elección?", ["No: no protege el riñón", "No: no reduce la presión intraglomerular", "No: pierde eficacia y empeora la glucosa", "Sí: reduce la presión intraglomerular", "No: sintomático, sin efecto renal"],
       {0: "Metildopa", 1: "Amlodipino", 2: "Hidroclorotiazida", 3: "Enalapril", 4: "Furosemida"}),
-  d=dict(rotulo="Albuminuria y conducta", caso_nivel=2, ruta_titulo="Qué añadir", paso_label="ESTE CASO",
-         niveles=[("A1", "Normal o leve", ["< 30 mg/g"]), ("A2", "Moderada", ["30-300 mg/g"]), ("A3", "Grave", ["500 mg/24 h: ya es alta"]), ("A3+", "Nefrótica", ["> 3,5 g/24 h"])],
-         pasos=[(1, "IECA o ARA II", ["Enalapril"], True), (2, "iSGLT2", ["Empagliflozina o dapagliflozina"], False), (3, "Finerenona", ["Si persiste la albuminuria"], False)]))
+  d=dict(claves_titulo="Qué añadir al IECA o ARA II en la nefropatía diabética",
+         claves=[("1. IECA o ARA II", ["Enalapril: baja la presión intraglomerular"], True), ("2. iSGLT2", ["Empagliflozina o dapagliflozina"], False), ("3. Finerenona", ["Si persiste la albuminuria"], False)],
+         veredicto=("Diabético, hipertenso y con albuminuria: enalapril", "Control de creatinina y potasio a los 7-14 días.")),
+  clasif=dict(titulo="Categorías de albuminuria (KDIGO) y conducta", cols=["Categoría", "Albuminuria 24 h", "Cociente albúmina/creatinina", "Término", "Conducta"],
+              filas=[["A1", "< 30 mg", "< 30 mg/g", "Normal o levemente aumentada", "Control anual y PA < 130/80"],
+                     ["A2", "30-300 mg", "30-300 mg/g", "Moderadamente aumentada", "IECA o ARA II si hay HTA; añadir iSGLT2"],
+                     ["A3", "> 300 mg", "> 300 mg/g", "Gravemente aumentada", "IECA o ARA II + iSGLT2; finerenona si persiste; nefrología"]],
+              caso=[1, 2], ancho_primera=130,
+              nota="Proteinuria de 500 mg/24 h: límite entre A2 y A3 (en proteinuria total, A2 es 150-500 y A3 > 500 mg/g)."))
 
 # 95 · RM-CIR-023 · LECTURA con ecografía real: apendicitis
 S("lectura", "RM-CIR-023", "Dolor migratorio a fosa ilíaca derecha, Blumberg positivo y signo de Horn: apendicitis aguda",
@@ -216,13 +222,13 @@ S("lectura", "RM-CIR-023", "Dolor migratorio a fosa ilíaca derecha, Blumberg po
   "WSES, apendicitis aguda (2020); " + SAB + "; Kaplan et al., POCUS J 2025.",
   op=("¿Diagnóstico?", ["Sí: Blumberg y Horn en fosa ilíaca derecha", "No: cólico lumbar con hematuria", "No: sin síntomas urinarios", "No: dolor y testículo elevados", "No: testículo normal"],
       {0: "Apendicitis aguda", 1: "Litiasis renal", 2: "Infección urinaria", 3: "Torsión testicular", 4: "Orquiepididimitis"}),
-  d=dict(rotulo="Signos clínicos y confirmación por ecografía", img_titulo="Ecografía de apendicitis (imagen referencial)",
+  d=dict(rotulo="Signos clínicos y confirmación por ecografía", img_titulo="Ecografía de un apéndice inflamado",
          img=PX("apendicitis_pocus.jpg", 400, credito="Kaplan et al. · POCUS J 2025 · PMC12057466 · CC BY 4.0"),
          pasos=[("Blumberg y Rovsing", "Dolor al descomprimir; dolor en fosa ilíaca derecha al palpar la izquierda.", False),
                 ("Signo de Horn", "Dolor al traccionar el testículo derecho: apoya apendicitis.", True),
                 ("Psoas y obturador", "Dolor al extender la cadera o rotarla.", False),
                 ("Ecografía: apéndice dilatado", "Los calibres (+) miden 6,8 y 8,1 mm; normal: menos de 6 mm.", False)],
-         img_pie="Izquierda: corte corto; derecha: corte largo. Los calibres son de la propia imagen.",
+         img_pie="Imagen referencial de una apendicitis aguda en la ecografía (corte corto a la izquierda y largo a la derecha; los calibres son de la propia imagen).",
          veredicto=("Apendicitis aguda: la leucocitosis no es indispensable", "Testículos normales: se descarta torsión y orquiepididimitis.")))
 
 # 96 · RM-CIR-024 · PUNTAJE: Alvarado
@@ -256,10 +262,10 @@ S("lectura", "RM-CIR-025", "La malrotación y la falta de fijación del ciego so
   op=("¿Factor?", ["Sí: ciego móvil sin fijación", "No: factor menor", "No: no causa volvulo", "No: factor menor", "No: factor secundario"],
       {0: "Malrotación", 1: "Estreñimiento", 2: "Parasitosis crónica", 3: "Psicotrópicos", 4: "Mesenterio largo"}),
   d=dict(rotulo="Lee la tomografía en este orden", img_titulo="TC de abdomen con contraste (corte coronal)",
-         img=PX("rm/volvulo_ciego_tc.jpg", 330), pines=[(0.27, 0.43), (0.58, 0.47)],
-         pasos=[("Ciego muy dilatado", "Asa cerrada con aire y heces.", True), ("Punto de transición (flechas)", "Donde el intestino se tuerce.", False),
+         img=PX("rm/volvulo_ciego_tc.jpg", 330),
+         pasos=[("Ciego muy dilatado", "Asa cerrada con aire y heces.", True), ("Punto de transición (flechas amarillas)", "Donde el intestino se tuerce.", False),
                 ("Ciego fuera de su sitio", "Desplazado hacia arriba y a la izquierda.", False), ("Conducta", "Cirugía urgente: hemicolectomía derecha.", False)],
-         img_pie="Vólvulo de ciego", veredicto=("Malrotación = ciego móvil que se tuerce", "Es quirúrgico: no se reduce con colonoscopía.")))
+         img_pie="Imagen referencial de un vólvulo de ciego en la TC (las flechas amarillas marcan el punto de transición).", veredicto=("Malrotación = ciego móvil que se tuerce", "Es quirúrgico: no se reduce con colonoscopía.")))
 
 # 98 · RM-CIR-026 · ALARMA con Rx: bridas
 S("alarma", "RM-CIR-026", "Las bridas y adherencias son la primera causa de obstrucción intestinal tras una cirugía abdominal",
@@ -276,7 +282,7 @@ S("alarma", "RM-CIR-026", "Las bridas y adherencias son la primera causa de obst
          signos=[("Fiebre y leucocitosis", "Isquemia del asa", None), ("Dolor continuo con peritonismo", "Peritonitis", None), ("Acidosis láctica", "Isquemia", None), ("Obstrucción completa", "Sin gas distal", True), ("Sin mejoría en 48-72 h", "Fracaso del manejo conservador", True)],
          accion=("Laparotomía o laparoscopia", "Liberar las bridas y resecar lo no viable."), accion_rotulo="Si hay uno o más",
          veredicto=("Bridas y adherencias: la causa más frecuente", "Manejo conservador inicial; operar si se estrangula.")),
-  banda=B("Así se ve en la radiografía", PX("bridas_rx.jpg", 280), [("Asas dilatadas", "Intestino delgado distendido."), ("Niveles hidroaéreos", "En escalera."), ("Poco gas distal", "Obstrucción."), ("Causa", "Bridas por cirugía previa.")], pie="Obstrucción por bridas"))
+  banda=B("Así se ve en la radiografía", PX("bridas_rx.jpg", 280), [("Asas dilatadas", "Intestino delgado distendido."), ("Niveles hidroaéreos", "En escalera."), ("Poco gas distal", "Obstrucción."), ("Causa", "Bridas por cirugía previa.")], pie="Imagen referencial de una obstrucción intestinal por bridas en la radiografía"))
 
 # 99 · RM-CIR-027 · REGLA: Ogilvie
 S("regla", "RM-CIR-027", "La seudoobstrucción aguda del colon (Ogilvie) se asocia al uso de opioides",

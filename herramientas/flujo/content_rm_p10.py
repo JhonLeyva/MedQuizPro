@@ -41,8 +41,8 @@ S("antes_despues", "RM-END-022", "En la enfermedad de Graves con indicación qui
          cambios=[("Se elimina la recurrencia", "mejora"), ("Se exige levotiroxina de por vida", "igual"), ("Riesgo de hipocalcemia y de lesión del laríngeo", "igual")],
          veredicto=("Graves con indicación de cirugía = tiroidectomía total", "Lobectomías e istmectomía son para nódulos unilaterales, no para una enfermedad difusa.")),
   banda=B("Así se ve la enfermedad de Graves", PX("graves_ojos.jpg", 330, marcas=[("flecha", 0.17, 0.33, 0.10, 0.82, "Retracción palpebral"), ("flecha", 0.83, 0.38, 0.93, 0.82, "Exoftalmos")], credito="Jonathan Trobe · Wikimedia Commons · CC BY 3.0"),
-          [("Ojos prominentes y esclera visible", "La oftalmopatía de Graves da exoftalmos y retracción del párpado superior."), ("Imagen de referencia", "No es del paciente del enunciado."),
-           ("Oftalmopatía activa", "Es una indicación de cirugía total, no de yodo radiactivo.")], pie="Oftalmopatía de Graves", rotulo="Imagen de referencia"))
+          [("Ojos prominentes y esclera visible", "La oftalmopatía de Graves da exoftalmos y retracción del párpado superior."), ("Qué buscar en la imagen", "Párpado superior retraído, esclera visible sobre el iris y ojos protruidos."),
+           ("Oftalmopatía activa", "Es una indicación de cirugía total, no de yodo radiactivo.")], pie="Imagen referencial de una oftalmopatía de Graves con exoftalmos y retracción palpebral", rotulo="Lee la imagen"))
 
 # END-023 · CHECKLIST · criterios de diabetes
 S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntomas clásicos confirma diabetes",
@@ -51,7 +51,7 @@ S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntom
   ("Varón de 57 años, obeso", ["Polidipsia y poliuria.", "¿Qué criterio contribuye al diagnóstico de diabetes?"]),
   ["ADA 2025: glucemia en ayunas ≥ 126 mg/dL (≥ 8 h), a las 2 h de una carga de 75 g ≥ 200, HbA1c ≥ 6,5 % o glucemia al azar ≥ 200 con síntomas.",
    "Sin síntomas, el diagnóstico exige dos resultados anormales (de la misma muestra o de muestras distintas).",
-   "Prediabetes: ayuno 100-125 mg/dL, tolerancia 140-199 o HbA1c 5,7-6,4 %.",
+   "Confirmar siempre con una segunda prueba si no hay síntomas; la HbA1c no es fiable en anemia hemolítica, hemoglobinopatías ni embarazo.",
    "Alerta: polidipsia, poliuria y pérdida de peso con cetonas o vómito sugieren cetoacidosis; urgencia, no solo diagnóstico."],
   ADA + ", cap. 2; OMS, clasificación de la diabetes (2019).",
   op=("¿Criterio?", ["Sí: el ayuno de 126 mg/dL o más es criterio diagnóstico", "No: eso es hipoglucemia", "No: 6,5 % o más es el criterio", "No: debe ser 200 o más a las 2 h", "No: el valor al azar debe llegar a 200"],
@@ -60,7 +60,12 @@ S("checklist", "RM-END-023", "Glucemia en ayunas de 126 mg/dL o más con síntom
          pasos=[("Glucemia en ayunas ≥ 126 mg/dL", "Ayuno de al menos 8 horas: la opción correcta", True), ("Glucemia a las 2 h de 75 g de glucosa ≥ 200 mg/dL", "Prueba de tolerancia oral", False),
                 ("HbA1c ≥ 6,5 %", "Con método certificado", False), ("Glucemia al azar ≥ 200 mg/dL con síntomas", "Poliuria, polidipsia, pérdida de peso", False)],
          no_hacer=[("Glucemia al azar de 160", "No llega a 200: no diagnostica"), ("HbA1c o tolerancia por debajo del umbral", "Son valores normales o de prediabetes"), ("Glucemia baja", "Es hipoglucemia, no diabetes")],
-         veredicto=("Ayuno de 126 mg/dL o más = criterio de diabetes", "Sin síntomas se repite o se pide otro criterio.")))
+         veredicto=("Ayuno de 126 mg/dL o más = criterio de diabetes", "Sin síntomas se repite o se pide otro criterio.")),
+  clasif=dict(titulo="Categorías glucémicas según la ADA", cols=["Categoría", "Glucemia en ayunas", "Glucemia a las 2 h (75 g)", "HbA1c", "Conducta"],
+              filas=[["Normal", "< 100 mg/dL", "< 140 mg/dL", "< 5,7 %", "Repetir cada 3 años si hay riesgo"],
+                     ["Prediabetes", "100-125 mg/dL", "140-199 mg/dL", "5,7-6,4 %", "Cambios de estilo de vida; metformina en casos seleccionados"],
+                     ["Diabetes", "≥ 126 mg/dL", "≥ 200 mg/dL", "≥ 6,5 %", "Confirmar si no hay síntomas y empezar el tratamiento"]],
+              caso=2, ancho_primera=130, nota="Ayuno de 126 mg/dL o más con síntomas clásicos: diagnóstico confirmado."))
 
 # END-024 · MATRIZ · TSH y T4
 S("matriz", "RM-END-024", "TSH elevada con T4 libre baja confirma el hipotiroidismo primario",
@@ -275,18 +280,24 @@ S("termometro", "RM-PED-005", "La complicación cardiovascular más frecuente de
   ("Pregunta de teoría", ["¿Cuál es la complicación cardiovascular en un niño con obesidad?"]),
   ["Mecanismos: hiperinsulinemia con retención de sodio, activación simpática y del eje renina-angiotensina-aldosterona.",
    "Se mide la presión desde los 3 años y se compara con percentiles por edad, sexo y talla (AAP 2017).",
-   "Normal < p90; elevada p90-95; HTA ≥ p95; en ≥ 13 años: 120/< 80, 120-129/< 80 y ≥ 130/80 mmHg.",
+   "Confirmar el diagnóstico con mediciones en 3 visitas; descartar causas secundarias (renal, endocrina) y buscar daño de órgano blanco.",
    "La hipertrofia ventricular, la insuficiencia cardiaca y las arritmias son consecuencias de la hipertensión sostenida."],
   "AAP, presión arterial elevada en niños y adolescentes (Flynn, Pediatrics 2017); AAP, obesidad infantil (Hampl, Pediatrics 2023).",
   op=("¿Complicación?", ["Sí: la más frecuente", "No: no es complicación de la obesidad", "No: es una consecuencia tardía", "No: es una consecuencia tardía de la hipertensión", "No: consecuencia de la hipertensión sostenida"],
       {}),
   d=dict(rotulo="Presión arterial del niño según percentiles",
          niveles=[("< p90", "Normal", ["Control anual"]), ("p90 a < p95", "Presión elevada", ["Medidas de estilo de vida, repetir en 6 meses"]),
-                  ("≥ p95", "Hipertensión", ["Confirmar en 3 visitas y buscar daño de órgano"]), ("≥ p95+12", "Hipertensión estadio 2", ["Evaluación y tratamiento inmediatos"])],
+                  ("≥ p95", "Hipertensión estadio 1", ["Confirmar en 3 visitas y buscar daño de órgano"]), ("≥ p95+12 mmHg", "Hipertensión estadio 2", ["Evaluación y tratamiento inmediatos"])],
          caso_nivel=2, ruta_titulo="Qué se hace en el niño obeso", paso_label="ESTE CASO",
          pasos=[(1, "Medir la presión desde los 3 años", ["Con manguito adecuado y percentiles por edad, sexo y talla"], True),
                 (2, "Buscar otras complicaciones", ["Glucosa, lípidos, hígado graso y apnea del sueño"], False),
-                (3, "Tratar con cambios de estilo de vida", ["Pérdida de peso y actividad; fármacos si persiste"], False)]))
+                (3, "Tratar con cambios de estilo de vida", ["Pérdida de peso y actividad; fármacos si persiste"], False)]),
+  clasif=dict(titulo="Clasificación de la presión arterial en niños y adolescentes (AAP 2017)", cols=["Categoría", "Niños de 1 a 12 años", "Adolescentes de 13 años o más"],
+              filas=[["Normal", "< p90", "< 120/< 80 mmHg"],
+                     ["Presión elevada", "≥ p90 a < p95 (o 120/80 hasta < p95)", "120/< 80 a 129/< 80 mmHg"],
+                     ["Hipertensión estadio 1", "≥ p95 a < p95 + 12 mmHg (o 130/80 a 139/89)", "130/80 a 139/89 mmHg"],
+                     ["Hipertensión estadio 2", "≥ p95 + 12 mmHg (o ≥ 140/90)", "≥ 140/90 mmHg"]],
+              caso=2, ancho_primera=170, nota="Este caso: niño obeso con hipertensión; se confirma en 3 visitas y se busca daño de órgano."))
 
 # END-030 · CASCADA · deficiencia de yodo
 S("cascada", "RM-END-030", "La falta de yodo sube la TSH, que hace crecer los folículos y produce bocio",
@@ -313,7 +324,7 @@ S("regla", "RM-PED-006", "Adolescente de 17 años con IMC de 26: sobrepeso",
   ("Clasificación del IMC", ["En el adulto: < 18,5 bajo peso; 18,5-24,9 normal; 25-29,9 sobrepeso; ≥ 30 obesidad.", "En el menor de 19 años se usan las curvas de la OMS por edad y sexo."]),
   ("Adolescente de 17 años", ["IMC de 26 kg/m² en la evaluación nutricional.", "¿Cuál es su diagnóstico?"]),
   ["Curvas OMS 5-19 años: sobrepeso de +1 a +2 DE y obesidad > +2 DE; a los 17 años equivalen a unos 25 y 30 kg/m².",
-   "Adulto: obesidad grado I 30-34,9, grado II 35-39,9 y grado III o mórbida ≥ 40 kg/m².",
+   "El caso es un adolescente de 17 años: el valor de 26 kg/m² cae en sobrepeso con las curvas OMS y con el punto de corte del adulto.",
    "El IMC no distingue masa grasa de masa magra: el perímetro abdominal ayuda a estimar el riesgo cardiometabólico.",
    "Alerta: sobrepeso con acantosis nigricans, hipertensión o dislipidemia obliga a descartar resistencia a la insulina (AAP 2023)."],
   "OMS, curvas de crecimiento 5-19 años (2007); AAP, obesidad infantil (Hampl, Pediatrics 2023).",
@@ -323,4 +334,12 @@ S("regla", "RM-PED-006", "Adolescente de 17 años con IMC de 26: sobrepeso",
          reglas=[dict(nombre="IMC en kg/m² (referencia para el adolescente mayor)", que="El valor del caso cae en sobrepeso.", min=15, max=45, fmt="{}", ticks=[15, 18.5, 25, 30, 35, 40, 45],
                       bandas=[(15, 18.5, "Bajo peso", 1), (18.5, 25, "Normal", 0), (25, 30, "Sobrepeso", 1), (30, 40, "Obesidad", 2), (40, 45, "Mórbida", 3)],
                       caso=26, caso_txt="IMC 26", pie="Sobrepeso: 25 a 29,9 kg/m².")],
-         veredicto=("IMC de 25 a 29,9 = sobrepeso", "Obesidad desde 30; la mórbida exige 40 o más.")))
+         veredicto=("IMC de 25 a 29,9 = sobrepeso", "Obesidad desde 30; la mórbida exige 40 o más.")),
+  clasif=dict(titulo="Clasificación del estado nutricional por IMC en el adulto (OMS)", cols=["Categoría", "IMC (kg/m²)", "Riesgo y conducta"],
+              filas=[["Bajo peso", "< 18,5", "Buscar causa y reforzar la nutrición"],
+                     ["Normal", "18,5 a 24,9", "Mantener hábitos saludables"],
+                     ["Sobrepeso", "25 a 29,9", "Dieta, actividad física y control del perímetro abdominal"],
+                     ["Obesidad grado I", "30 a 34,9", "Plan de pérdida de peso y descartar comorbilidades"],
+                     ["Obesidad grado II", "35 a 39,9", "Intervención intensiva; valorar fármacos"],
+                     ["Obesidad grado III (mórbida)", "≥ 40", "Evaluar cirugía bariátrica"]],
+              caso=2, ancho_primera=190, nota="Menores de 19 años: curvas OMS por edad y sexo (sobrepeso > +1 DE, obesidad > +2 DE)."))

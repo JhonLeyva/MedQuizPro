@@ -96,7 +96,7 @@ S("cuadricula", "RM-CB-040", "Dermatitis, diarrea y demencia son la pelagra: def
   banda=B("Así se ve la dermatitis de la pelagra", PX("pelagra_casal.jpg", 300,
           marcas=[("flecha", 0.40, 0.33, 0.62, 0.07, "Collar de Casal")], credito="Ryali et al. · Cureus 2025 · CC BY 4.0"),
           [("Banda alrededor del cuello", "Dermatitis fotosensible: aparece donde da la luz y la ropa no cubre."), ("Bordes definidos y simétricos", "Se enrojece, luego descama y se hiperpigmenta."),
-           ("Imagen de referencia", "Paciente con pelagra; no es del caso de la pregunta.")], pie="Dermatitis fotosensible en el cuello y el tórax", rotulo="Imagen de referencia"))
+           ("Imagen referencial", "Muestra la dermatitis de una persona con pelagra.")], pie="Imagen referencial de dermatitis fotosensible de la pelagra en el cuello y el tórax", rotulo="Imagen referencial"))
 
 # 034 · ALARMA · carcinoma papilar
 S("alarma", "RM-END-034", "Nódulo duro, hipoecoico, con microcalcificaciones y más alto que ancho: carcinoma papilar",
@@ -115,8 +115,14 @@ S("alarma", "RM-END-034", "Nódulo duro, hipoecoico, con microcalcificaciones y 
                  ("Más alto que ancho", "Crece contra los planos tisulares", True), ("Superficie irregular y consistencia dura", "Examen físico sospechoso", True),
                  ("Tos y disfagia", "Compresión o invasión local", True), ("Voz ronca o ganglios cervicales", "No referidos: buscarlos", None)],
          accion=("PAAF guiada por ecografía", "Bethesda V-VI: cirugía. Se confirma antes de operar."), accion_rotulo="Con rasgos de alto riesgo",
-         img=PX("tiroides_ptc_eco.jpg", 270, credito="Yangoz et al. · Diagnostics 2026 · CC BY 4.0"), img_titulo="Eco de referencia",
-         veredicto=("Alto riesgo ecográfico = carcinoma papilar", "Imagen de referencia: nódulo hipoecoico de bordes mal definidos, calibres A y B, confirmado como papilar.")))
+         img=PX("tiroides_ptc_eco.jpg", 270, credito="Yangoz et al. · Diagnostics 2026 · CC BY 4.0"), img_titulo="Imagen referencial de un nódulo papilar",
+         veredicto=("Alto riesgo ecográfico = carcinoma papilar", "Imagen referencial de un nódulo hipoecoico de bordes mal definidos, calibres A y B, confirmado como papilar."),
+  clasif=dict(titulo="Patrones ecográficos ATA 2015: riesgo de cáncer y cuándo puncionar", cols=["Patrón", "Rasgos ecográficos", "Riesgo", "PAAF"],
+              filas=[["Alta sospecha", "Sólido hipoecoico con bordes irregulares, microcalcificaciones o más alto que ancho", "70-90 %", "Desde 1 cm"],
+                     ["Sospecha intermedia", "Sólido hipoecoico de bordes lisos, sin rasgos de alta sospecha", "10-20 %", "Desde 1 cm"],
+                     ["Baja sospecha", "Sólido iso o hiperecoico, o quístico con zona sólida excéntrica", "5-10 %", "Desde 1,5 cm"],
+                     ["Muy baja sospecha", "Espongiforme o parcialmente quístico sin rasgos de sospecha", "< 3 %", "Desde 2 cm u observar"],
+                     ["Benigno", "Puramente quístico", "< 1 %", "No se punciona"]], caso=0, ancho_primera=135))
 
 # CB-041 · RELOJ · hidrólisis de la lactosa
 S("reloj", "RM-CB-041", "La lactasa fragmenta la lactosa en galactosa y glucosa",
@@ -234,7 +240,13 @@ S("embudo", "RM-END-038", "Nódulo tiroideo palpable de 10 mm: la ecografía es 
                 ("¿Se indica sin conocer el patrón ecográfico?", ["PAAF"]),
                 ("¿Hay TSH suprimida que justifique buscar un nódulo caliente?", ["Gammagrafía"])],
          final=("ECOGRAFÍA TIROIDEA", ["Con TSH: tamaño, composición y patrón de sospecha", "Luego se decide la PAAF"]),
-         nota="La calcitonina se pide solo si se sospecha carcinoma medular."))
+         nota="La calcitonina se pide solo si se sospecha carcinoma medular."),
+  clasif=dict(titulo="Patrones ecográficos ATA 2015: riesgo de cáncer y cuándo puncionar", cols=["Patrón", "Rasgos ecográficos", "Riesgo", "PAAF"],
+              filas=[["Alta sospecha", "Sólido hipoecoico con bordes irregulares, microcalcificaciones o más alto que ancho", "70-90 %", "Desde 1 cm"],
+                     ["Sospecha intermedia", "Sólido hipoecoico de bordes lisos, sin rasgos de alta sospecha", "10-20 %", "Desde 1 cm"],
+                     ["Baja sospecha", "Sólido iso o hiperecoico, o quístico con zona sólida excéntrica", "5-10 %", "Desde 1,5 cm"],
+                     ["Muy baja sospecha", "Espongiforme o parcialmente quístico sin rasgos de sospecha", "< 3 %", "Desde 2 cm u observar"],
+                     ["Benigno", "Puramente quístico", "< 1 %", "No se punciona"]], caso=None, ancho_primera=135))
 
 # CB-042 · CUADRÍCULA · riboflavina
 S("cuadricula", "RM-CB-042", "La deficiencia de riboflavina produce glositis con atrofia de las papilas linguales",
