@@ -26,7 +26,7 @@ function guias_tokens(string $t): array {
 /** @return array{docs: array, fragmentos: array}  (vacío si no hay índice) */
 function guias_indice(?string $archivo = null): array {
     static $cache = [];
-    $archivo = $archivo ?? GUIAS_INDICE;
+    $archivo = $archivo ?? ((string) getenv('MQP_GUIAS_INDICE') ?: GUIAS_INDICE);   // la variable solo la usan las pruebas
     if (isset($cache[$archivo])) return $cache[$archivo];
     $vacio = ['docs' => [], 'fragmentos' => []];
     if (!is_readable($archivo)) return $cache[$archivo] = $vacio;
@@ -51,7 +51,8 @@ function guias_buscar(string $consulta, int $k = 5, array $filtros = [], ?string
         if (!$doc) continue;
         if (isset($filtros['tipo']) && ($doc['tipo'] ?? '') !== $filtros['tipo']) continue;
         if (isset($filtros['docs']) && !in_array((string) $f['doc'], array_map('strval', $filtros['docs']), true)) continue;
-        $t = guias_tokens((string) ($f['texto'] ?? '')); $largo[$i] = max(1, count($t)); $suma += $largo[$i];
+        // 'temas' (en español) permite hallar guías en inglés con una consulta en español
+        $t = guias_tokens((string) ($f['texto'] ?? '') . ' ' . implode(' ', (array) ($doc['temas'] ?? [])));; $largo[$i] = max(1, count($t)); $suma += $largo[$i];
         $c = array_count_values($t);
         foreach ($q as $w) if (isset($c[$w])) { $tf[$i][$w] = $c[$w]; $df[$w] = ($df[$w] ?? 0) + 1; }
     }
@@ -63,8 +64,8 @@ function guias_buscar(string $consulta, int $k = 5, array $filtros = [], ?string
             $idf = log(1 + (count($largo) - $df[$w] + 0.5) / ($df[$w] + 0.5));
             $s += $idf * ($f * 2.2) / ($f + 1.2 * (0.25 + 0.75 * $largo[$i] / $prom));
         }
-        $cubre = count($m) / count($q);                       // proporción de términos de la consulta presentes
-        if ($cubre < 0.34) continue;                          // coincidencias casuales: no se muestran
+        $cubre = count($m) / min(count($q), 6);              // términos de la consulta presentes (tope 6: las consultas largas no penalizan)
+        if (count($m) < (count($q) <= 2 ? 1 : 2)) continue;   // una sola palabra suelta en común es una coincidencia casual: no se muestra
         $res[] = ['fragmento' => $ix['fragmentos'][$i], 'doc' => $ix['docs'][(string) $ix['fragmentos'][$i]['doc']], 'puntaje' => round($s * (0.5 + $cubre), 4)];
     }
     usort($res, fn($a, $b) => $b['puntaje'] <=> $a['puntaje']);

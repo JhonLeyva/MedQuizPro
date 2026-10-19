@@ -8,6 +8,19 @@
   var BASE = M.base || "";
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   var panel = null, previo = null, historial = [], ocupado = false;
+  var estadoGuias = null;       // { documentos, fragmentos, lista } de api.php?accion=guias_estado
+  function cargarEstadoGuias() {
+    if (estadoGuias) return Promise.resolve(estadoGuias);
+    return fetch(BASE + "api.php?accion=guias_estado", { credentials: "same-origin", cache: "no-store" }).then(function (r) { return r.json(); })
+      .then(function (j) { estadoGuias = j || { documentos: 0 }; M.iaguia.conGuias = (estadoGuias.documentos || 0) > 0; return estadoGuias; }, function () { estadoGuias = { documentos: 0 }; return estadoGuias; });
+  }
+  function fichaGuia(g, citada) {
+    var e = g.estado !== "vigente";
+    return '<li class="ia-g' + (citada ? " is-cit" : "") + (e ? " is-vieja" : "") + '" id="iaG' + g.n + '"><p class="ia-g__t"><b>[' + g.n + ']</b> ' + esc(g.titulo) + '</p>' +
+      '<p class="ia-g__m">' + esc(g.institucion) + ' · ' + esc(g.pais) + ' (' + (g.tipo === "nacional" ? "norma nacional" : "guía internacional") + ') · ' + esc(g.anio) + (g.version ? " · " + esc(g.version) : "") + ' · <b>p. ' + esc(g.pagina) + '</b></p>' +
+      (g.aviso ? '<p class="ia-g__a">⚠ ' + esc(g.aviso) + '</p>' : "") + '<blockquote class="ia-g__x">' + esc(g.extracto) + (g.extracto.length >= 420 ? "…" : "") + '</blockquote>' +
+      (g.url ? '<p class="ia-g__l"><a href="' + esc(g.url) + '" target="_blank" rel="noopener noreferrer">Abrir el documento</a></p>' : "") + '</li>';
+  }
 
   function cerrar() { if (!panel) return; if (panel.close) panel.close(); panel.remove(); panel = null; historial = []; ocupado = false; if (previo && previo.focus) previo.focus(); }
 
@@ -23,11 +36,15 @@
     var ctx = contexto(q, letra);
     panel = document.createElement("dialog"); panel.className = "fc-dlg ia-dlg"; panel.setAttribute("aria-labelledby", "iaT");
     panel.innerHTML = '<div class="fc-form"><header class="fc-head"><h2 id="iaT">Preguntar a la IA</h2><button type="button" class="fc-x" aria-label="Cerrar" data-x>✕</button></header>' +
-      '<p class="ia-base">Respondo sobre <b>' + esc(q.id) + '</b> usando el <b>comentario docente de tu banco</b>. Aún no hay guías MINSA ni internacionales cargadas: lo que añada fuera de ese comentario es conocimiento general, <b>no verificado</b> en una guía. Ayuda para estudiar; no sustituye el juicio clínico ni los protocolos institucionales.</p>' +
+      '<p class="ia-base" id="iaBase">Respondo sobre <b>' + esc(q.id) + '</b> usando el <b>comentario docente de tu banco</b>. Aún no hay guías MINSA ni internacionales cargadas: lo que añada fuera de ese comentario es conocimiento general, <b>no verificado</b> en una guía. Ayuda para estudiar; no sustituye el juicio clínico ni los protocolos institucionales.</p>' +
       '<div class="ia-chat" id="iaChat" role="log" aria-live="polite" aria-label="Conversación"></div>' +
       '<div class="ia-sug" id="iaSug">' + ["¿Por qué esa es la correcta?", letra && letra !== q.clave ? "¿Por qué mi respuesta (" + letra + ") no es la mejor?" : "Explícame los distractores", "Dame un resumen para memorizar"].map(function (t) { return '<button type="button" class="chip" data-s="' + esc(t) + '">' + esc(t) + '</button>'; }).join("") + '</div>' +
       '<form class="ia-form" id="iaForm"><label class="sr-only" for="iaIn">Tu pregunta</label><textarea id="iaIn" rows="2" maxlength="600" placeholder="Escribe tu duda sobre esta pregunta…"></textarea><button type="submit" class="btn btn--primary" id="iaEnviar">Enviar</button></form></div>';
     document.body.appendChild(panel);
+    cargarEstadoGuias().then(function (g) {
+      var b = panel && panel.querySelector("#iaBase"), t = panel && panel.querySelector("#iaT");
+      if (g.documentos > 0 && b) { b.innerHTML = 'Respondo sobre <b>' + esc(q.id) + '</b> con tu banco y <b>' + g.documentos + (g.documentos === 1 ? " guía oficial cargada" : " guías oficiales cargadas") + '</b>. Cada dato de una guía lleva su cita con página; lo que no tenga cita es conocimiento general <b>no verificado</b>. Ayuda para estudiar; no sustituye el juicio clínico ni los protocolos institucionales.'; if (t) t.textContent = "Preguntar a la IA de la Guía"; }
+    });
     var chat = panel.querySelector("#iaChat"), inp = panel.querySelector("#iaIn"), btn = panel.querySelector("#iaEnviar");
     panel.addEventListener("click", function (ev) { if (ev.target === panel || (ev.target.closest && ev.target.closest("[data-x]"))) cerrar(); });
     panel.addEventListener("cancel", function (ev) { ev.preventDefault(); cerrar(); });
@@ -43,7 +60,10 @@
           if (r.http === 200 && typeof t === "string" && t.trim()) {
             historial.push({ rol: "usuario", texto: texto }, { rol: "tutor", texto: t });
             var f = (r.j.fuentes || []).map(function (s) { return esc(s.titulo) + " (" + esc(s.pregunta) + ")"; }).join(" · ");
-            esp.innerHTML = '<p>' + esc(t).replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>") + '</p><p class="ia-src">Fuente entregada a la IA: ' + (f || "ninguna") + '. ' + (r.j.verificado === false ? "Lo que añada fuera de esa fuente no está verificado en una guía." : "") + '</p>';
+            var cit = r.j.citadas || [], gs = r.j.guias || [];
+            var cuerpo = esc(t).replace(/\[G(\d{1,2})\]/g, function (_, n) { return '<sup class="ia-c"><a href="#iaG' + n + '">[' + n + ']</a></sup>'; });
+            esp.innerHTML = '<p>' + cuerpo.replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>") + '</p><p class="ia-src">Fuente del banco entregada a la IA: ' + (f || "ninguna") + '. ' + (r.j.verificado === false ? "Lo que no lleve cita [n] no está verificado en una guía." : "") + '</p>' +
+              (gs.length ? '<details class="ia-gs"' + (cit.length ? " open" : "") + '><summary>Guías consultadas (' + gs.length + ')' + (cit.length ? ", citadas: " + cit.length : ", ninguna citada") + '</summary><ul>' + gs.map(function (g) { return fichaGuia(g, cit.indexOf(g.n) >= 0); }).join("") + '</ul></details>' : "");
           } else if (r.http === 401) esp.innerHTML = 'Para preguntarle a la IA necesitas una cuenta. <a href="#/registro">Crear cuenta</a> · <a href="#/ingresar">Ingresar</a>';
           else if (r.http === 503 || r.http === 502 || !r.j.error) esp.innerHTML = '<span class="ia-err">El tutor de IA no está disponible en este momento. Tu práctica y tus flashcards siguen funcionando; vuelve a intentarlo más tarde.</span>';
           else esp.innerHTML = '<span class="ia-err">' + esc(r.j.error) + '</span>';
@@ -55,5 +75,6 @@
     panel.querySelector("#iaSug").addEventListener("click", function (ev) { var b = ev.target.closest && ev.target.closest("[data-s]"); if (b) preguntar(b.getAttribute("data-s")); });
     panel.showModal(); inp.focus();
   }
-  M.iaguia = { abrir: abrir, cerrar: cerrar };
+  M.iaguia = { abrir: abrir, cerrar: cerrar, conGuias: false };
+  cargarEstadoGuias();   // para que el botón diga «de la Guía» solo cuando de verdad hay guías
 })();

@@ -36,7 +36,7 @@ try:
     pdf([["INTERNATIONAL TEST GUIDELINE (FICTITIOUS)", "", "Zeta syndrome treatment: supportive care and fluids. Hospitalise if hypotension."]], tmp + "/pdf/int.pdf")
     json.dump([
         {"id": "nac-test", "archivo": "nac.pdf", "titulo": "Guía de prueba nacional", "institucion": "Institución ficticia", "pais": "Perú", "tipo": "nacional", "anio": 2021, "version": "v1", "estado": "reemplazada", "reemplazada_por": "Guía de prueba 2025"},
-        {"id": "int-test", "archivo": "int.pdf", "titulo": "Test guideline", "institucion": "Fictitious Org", "pais": "Internacional", "tipo": "internacional", "anio": 2024, "version": "2024", "estado": "vigente"},
+        {"id": "int-test", "archivo": "int.pdf", "titulo": "Test guideline", "institucion": "Fictitious Org", "pais": "Internacional", "tipo": "internacional", "anio": 2024, "version": "2024", "estado": "vigente", "temas": ["sindrome zeta", "tratamiento inicial"]},
         {"id": "incompleto", "archivo": "nac.pdf", "titulo": "sin campos"}], open(tmp + "/man.json", "w"))
     r = subprocess.run([sys.executable, RAIZ + "/tools/ingestar_guias.py", "--manifest", tmp + "/man.json", "--pdfs", tmp + "/pdf", "--salida", tmp + "/indice.json"], capture_output=True, text=True)
     ok(r.returncode == 1 and "faltan campos" in r.stdout, "una ficha incompleta se rechaza (código 1) sin inventar datos")

@@ -12,6 +12,8 @@ ok(guias_buscar('', 5, [], $ix) === [], 'consulta vacía → vacío');
 $nac = guias_buscar('síndrome zeta tratamiento', 5, ['tipo' => 'nacional'], $ix); $int = guias_buscar('zeta syndrome treatment fluids', 5, ['tipo' => 'internacional'], $ix);
 ok($nac && array_unique(array_column(array_column($nac, 'doc'), 'tipo')) === ['nacional'], 'filtro nacional no mezcla países');
 ok($int && array_unique(array_column(array_column($int, 'doc'), 'tipo')) === ['internacional'], 'filtro internacional');
+$es = guias_buscar('¿Cuál es el tratamiento inicial del síndrome zeta?', 5, ['tipo' => 'internacional'], $ix);
+ok(count($es) >= 1, 'una consulta en español halla la guía en inglés gracias a sus «temas»');
 $c = guias_cita($nac[0], 1);
 ok($c['estado'] === 'reemplazada' && str_contains($c['aviso'], 'reemplazada') && str_contains($c['aviso'], 'Guía de prueba 2025'), 'avisa que la guía está reemplazada');
 ok($c['institucion'] === 'Institución ficticia' && $c['anio'] === 2021 && $c['version'] === 'v1' && $c['pagina'] >= 1, 'la cita incluye institución, año, versión y página');

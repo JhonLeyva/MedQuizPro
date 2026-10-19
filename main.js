@@ -79,7 +79,7 @@
       "          </button>",
       "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svIA\" hidden>",
       "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z\"/></svg>",
-      "            Preguntar a la IA",
+      "            <span class=\"ia-lbl\">Preguntar a la IA</span>",
       "          </button>",
       "        </div>",
       "      </div>",
@@ -143,7 +143,7 @@
       "    </button>",
       "  </div>",
       "  <div class=\"algo-modal__body\" id=\"algoBody\"></div>",
-      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden>Preguntar a la IA</button></div>",
+      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden><span class=\"ia-lbl\">Preguntar a la IA</span></button></div>",
       "</dialog>"
     ].join("\n");
     var CHAT = [
@@ -2025,6 +2025,8 @@
       if (el.flash) el.flash.hidden = !ver;
       if (el.flashModal) el.flashModal.hidden = !ver;
       var vIA = !!(estado && estado.respondida && window.MQP && MQP.iaguia);
+      var etq = window.MQP && MQP.iaguia && MQP.iaguia.conGuias ? "Preguntar a la IA de la Guía" : "Preguntar a la IA";   // el nombre completo solo si hay guías cargadas
+      [].forEach.call(vista.querySelectorAll(".ia-lbl"), function (n) { n.textContent = etq; });
       if (el.ia) el.ia.hidden = !vIA;
       if (el.iaModal) el.iaModal.hidden = !vIA;
     }

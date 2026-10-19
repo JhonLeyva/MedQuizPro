@@ -618,3 +618,7 @@ body.gi-abierta { overflow: hidden; }
 .gi--rm .gi-neon, .gi--rm .gi-derrame { animation: none !important; }
 @media (prefers-reduced-motion: reduce) { .gi-neon, .gi-derrame { animation: none !important; } }
 .gi--foto.gi--e1 .gi-derrame { opacity: 1; }
+.ia-c a { color: var(--brand); font-weight: 700; text-decoration: none; } .ia-gs { margin-top: 8px; font-size: .82rem; } .ia-gs summary { cursor: pointer; font-weight: 700; color: var(--ink-2); }
+.ia-gs ul { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; } .ia-g { padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); } .ia-g.is-cit { border-color: var(--brand); }
+.ia-g.is-vieja { border-color: #f59e0b; } .ia-g p { margin: 0 0 4px; } .ia-g__m { color: var(--ink-3); } .ia-g__a { color: #b45309; font-weight: 600; }
+.ia-g__x { margin: 6px 0; padding-left: 10px; border-left: 3px solid var(--line); color: var(--ink-2); font-size: .8rem; line-height: 1.5; }
