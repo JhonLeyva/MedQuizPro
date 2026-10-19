@@ -45,25 +45,25 @@ S("puntaje", "RM-GIN-005", "Vaginosis bacteriana: 3 de 4 criterios de Amsel, ent
                  ("3-4", "Vaginosis bacteriana", "Metronidazol 500 mg cada 12 h por 7 días.", True)]))
 
 # 3 · LÍNEA DE VIDA · serología de hepatitis B
-S("linea_vida", "RM-GAS-002", "HBsAg y anti-HBs a la vez con anti-HBc IgG y HBeAg negativo: convalecencia de hepatitis B",
+S("linea_vida", "RM-GAS-002", "HBsAg persistente con anti-HBc IgG, HBeAg negativo y ALT normal: infección crónica (portador inactivo)",
   "Hepatología · serología de la hepatitis B",
   ("Serología de la hepatitis B", ["Primero aparece el HBsAg; luego el anti-HBc (IgM, después IgG).", "Al controlar el virus el HBsAg desaparece y surge el anti-HBs (inmunidad)."]),
-  ("Mujer de 30 años", ["HBsAg positivo en un examen de rutina; pareja usuario de drogas.", "Anti-HBc IgG, anti-HBs y HBsAg positivos; HBeAg negativo."]),
-  ["Entre la pérdida del HBsAg y la aparición del anti-HBs hay un período de transición en que ambos pueden coexistir: es la convalecencia.",
-   "Aguda: HBsAg con anti-HBc IgM y sin anti-HBs. Curada: HBsAg negativo con anti-HBs y anti-HBc. Crónica: HBsAg persistente más de 6 meses.",
-   "Repetir la serología a los 6 meses: si el HBsAg sigue positivo es hepatitis B crónica (ADN-VHB, ALT, fibrosis y decisión de tratar).",
+  ("Mujer de 30 años", ["HBsAg positivo en un examen de rutina; pareja usuario de drogas.", "Anti-HBc IgG, anti-HBs y HBsAg positivos; HBeAg negativo; igual a los 8 meses, ALT normal."]),
+  ["HBsAg positivo más de 6 meses = infección crónica; el anti-HBs coexiste en una minoría y no indica convalecencia, que exige perder el HBsAg.",
+   "Aguda: HBsAg con anti-HBc IgM y sin anti-HBs. Curada: HBsAg negativo con anti-HBs y anti-HBc. Crónica activa: ADN-VHB y ALT elevados; portador inactivo: ADN-VHB bajo y ALT normal.",
+   "Pedir ADN-VHB, ALT y fibrosis; seguimiento cada 6-12 meses porque puede reactivarse.",
    "Tamizar VIH, VHC y sífilis, vacunar a la pareja y a los contactos susceptibles."],
   "AASLD/IDSA, guía de hepatitis B crónica (Hepatology 2025); OMS, guías de hepatitis B crónica (2024); Harrison 21.ª ed. (2022).",
-  op=("¿Qué fase es?", ["No: la aguda tiene anti-HBc IgM y no anti-HBs", "No: la curada tiene HBsAg negativo", "Sí: HBsAg y anti-HBs en transición", "No: crónica es HBsAg más de 6 meses", "No: no hay dato de persistencia"],
-      {0: "Aguda", 1: "Curada", 2: "En período de convalecencia", 3: "Crónica activa", 4: "Crónica persistente"}),
+  op=("¿Qué fase es?", ["No: la aguda tiene anti-HBc IgM y no anti-HBs", "No: la curada tiene HBsAg negativo", "No: la convalecencia exige perder el HBsAg", "No: la activa tiene ALT y ADN-VHB elevados", "Sí: HBsAg persistente, HBeAg negativo y ALT normal"],
+      {0: "Aguda", 1: "Curada", 2: "En período de convalecencia", 3: "Crónica activa", 4: "Crónica persistente (portador inactivo)"}),
   d=dict(rotulo="Cuándo aparece cada marcador (semanas desde la exposición; rangos orientativos)", eje=(0, 40, 5), unidad="semanas",
          barras=[("HBsAg", 4, 22, "Primer marcador; su pérdida marca el control", False),
                  ("Anti-HBc IgM", 6, 28, "Infección aguda reciente", False),
                  ("Anti-HBc IgG", 20, 40, "Reemplaza a la IgM; persiste años", False),
                  ("Anti-HBs", 24, 40, "Inmunidad: aparece al final", False),
-                 ("Transición: HBsAg + anti-HBs", 20, 26, "Convalecencia: coinciden", True)],
-         marcador=(23, "Caso: HBsAg + anti-HBs"),
-         veredicto=("HBsAg + anti-HBs + anti-HBc IgG = transición de la convalecencia", "Si el HBsAg persiste a los 6 meses, se reclasifica como hepatitis B crónica.")))
+                 ("HBsAg persistente (más de 6 meses)", 4, 40, "Infección crónica: el HBsAg no se pierde", True)],
+         marcador=(35, "Caso: HBsAg a los 8 meses"),
+         veredicto=("HBsAg persistente + anti-HBc IgG + HBeAg negativo + ALT normal = crónica (portador inactivo)", "El anti-HBs coexistente no la convierte en convalecencia.")))
 
 # 4 · LECTURA · loxoscelismo
 S("lectura", "RM-INF-013", "Un lancetazo, placa livedoide y hematuria a las 36 horas: loxoscelismo cutáneo-visceral",

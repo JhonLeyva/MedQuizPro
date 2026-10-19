@@ -348,23 +348,23 @@
   "id": "RM-INF-034",
   "especialidad": "Infectología",
   "examen_origen": "Residentado Médico 2017 · pregunta oficial",
-  "enunciado": "Mujer de 30 años, en examen de rutina se detecta HBsAg positivo. Antecedente de conducta de riesgo: pareja sexual consumidor de drogas, con quien convivió hasta hace 5 meses. Se solicitan marcadores para hepatitis B: anti-HBc IgG (+), HBeAg (+). ¿En qué estadio se encuentra la hepatitis?",
+  "enunciado": "Mujer de 30 años, en examen de rutina se detecta HBsAg positivo. Antecedente de conducta de riesgo: pareja sexual consumidor de drogas, con quien convivió durante varios años hasta hace 8 meses. Se solicitan marcadores para hepatitis B: anti-HBc IgG (+), HBeAg (+). ¿En qué estadio se encuentra la hepatitis?",
   "opciones": [
    "Portador sano.",
    "Convalescencia.",
    "Curada.",
-   "Crónica activa.",
+   "Infección crónica con replicación viral (crónica activa).",
    "Aguda."
   ],
   "correcta": 3,
   "clave_correcta": "D",
-  "explicacion": "El HBsAg positivo indica infección por el virus de la hepatitis B; si persiste más de 6 meses se define como crónica. En la fase aguda lo característico es el anti-HBc IgM positivo, mientras que aquí hay anti-HBc IgG, que traduce infección de más tiempo. El HBeAg positivo señala replicación viral con alta infectividad. Por tanto se trata de infección crónica con replicación, que en la clasificación actual de EASL corresponde a infección crónica HBeAg positiva o a hepatitis crónica HBeAg positiva, según ALT y ADN viral. El portador sano e inactivo tiene HBsAg positivo con HBeAg negativo y anti-HBe positivo; la curada tiene anti-HBs y anti-HBc sin HBsAg. Perla: se debe medir ADN-VHB, ALT y fibrosis para decidir tratamiento, y vacunar o dar inmunoglobulina a los contactos.",
-  "comentario": "El HBsAg positivo indica infección por el virus de la hepatitis B; si persiste más de 6 meses se define como crónica. En la fase aguda lo característico es el anti-HBc IgM positivo, mientras que aquí hay anti-HBc IgG, que traduce infección de más tiempo. El HBeAg positivo señala replicación viral con alta infectividad. Por tanto se trata de infección crónica con replicación, que en la clasificación actual de EASL corresponde a infección crónica HBeAg positiva o a hepatitis crónica HBeAg positiva, según ALT y ADN viral. El portador sano e inactivo tiene HBsAg positivo con HBeAg negativo y anti-HBe positivo; la curada tiene anti-HBs y anti-HBc sin HBsAg. Perla: se debe medir ADN-VHB, ALT y fibrosis para decidir tratamiento, y vacunar o dar inmunoglobulina a los contactos.",
+  "explicacion": "El HBsAg persistente por más de 6 meses define la infección crónica por VHB; aquí la exposición abarcó varios años y terminó hace 8 meses, de modo que la cronicidad es demostrable (con solo 5 meses de exposición no lo sería). En la fase aguda predomina el anti-HBc IgM, mientras que el anti-HBc IgG sin IgM traduce infección establecida. El HBeAg positivo indica replicación viral e infectividad alta. La clasificación actual de la EASL distingue infección crónica HBeAg positiva (ALT normal, ADN-VHB muy alto, antes tolerancia inmune) de hepatitis crónica HBeAg positiva (ALT elevada, ADN alto), que corresponde al antiguo término «crónica activa»; sin ALT ni ADN no se precisa la fase, pero sí que es crónica y replicativa. El portador inactivo tiene HBeAg negativo y anti-HBe positivo; la hepatitis curada tiene anti-HBs y anti-HBc sin HBsAg. Perla: se miden ADN-VHB, ALT y fibrosis para decidir tratamiento, y se vacuna o se da inmunoglobulina a los contactos.",
+  "comentario": "El HBsAg persistente por más de 6 meses define la infección crónica por VHB; aquí la exposición abarcó varios años y terminó hace 8 meses, de modo que la cronicidad es demostrable (con solo 5 meses de exposición no lo sería). En la fase aguda predomina el anti-HBc IgM, mientras que el anti-HBc IgG sin IgM traduce infección establecida. El HBeAg positivo indica replicación viral e infectividad alta. La clasificación actual de la EASL distingue infección crónica HBeAg positiva (ALT normal, ADN-VHB muy alto, antes tolerancia inmune) de hepatitis crónica HBeAg positiva (ALT elevada, ADN alto), que corresponde al antiguo término «crónica activa»; sin ALT ni ADN no se precisa la fase, pero sí que es crónica y replicativa. El portador inactivo tiene HBeAg negativo y anti-HBe positivo; la hepatitis curada tiene anti-HBs y anti-HBc sin HBsAg. Perla: se miden ADN-VHB, ALT y fibrosis para decidir tratamiento, y se vacuna o se da inmunoglobulina a los contactos.",
   "tema": "Hepatitis B crónica: interpretación serológica",
   "año": 2017,
   "fuentes": "EASL, Clinical Practice Guidelines on the management of hepatitis B virus infection (J Hepatol 2025); AASLD, Hepatitis B guidance (Hepatology 2018;67:1560); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
   "categoria": "Hepatitis virales",
-  "nota_revision": "El estadio «portador sano» se reemplaza en la terminología actual por infección crónica; se mantiene la clave D del libro. Se completó el texto de la opción E."
+  "nota_revision": "El estadio «portador sano» se reemplaza en la terminología actual por infección crónica; se mantiene la clave D del libro. Se completó el texto de la opción E. Clave D conservada. Redacción corregida: el enunciado decía exposición hasta hace 5 meses, insuficiente para demostrar cronicidad (HBsAg >6 meses, EASL 2025); se cambió a 8 meses y la opción D a «infección crónica con replicación viral (crónica activa)»."
  },
  {
   "archivo": "reumatologia",
@@ -520,9 +520,13 @@
   "comentario": "Un paciente con fiebre en accesos cada 48 horas (terciana), con escalofríos y sudoración tras viajar a una zona endémica como Piura debe considerarse malaria hasta demostrar lo contrario, probablemente por Plasmodium vivax. La hemólisis explica anemia, ictericia y esplenomegalia; la trombocitopenia y la elevación de transaminasas son frecuentes, aunque no definen gravedad. El diagnóstico se hace con gota gruesa o prueba rápida. La fiebre tifoidea cursa con fiebre sostenida, bradicardia relativa y roséola; la brucelosis, con fiebre ondulante y exposición a lácteos sin pasteurizar; la hepatitis granulomatosa es una causa de fiebre prolongada sin ese patrón; el dengue grave se caracteriza por fuga plasmática y no por fiebre terciana. El tratamiento de P. vivax es cloroquina más primaquina por 7 días. Perla: se descarta deficiencia de G6PD antes de primaquina.",
   "tema": "Malaria no complicada: fiebre terciana tras viaje a Piura",
   "año": 2017,
-  "fuentes": "OMS, Guidelines for malaria (versión en línea, actualización 2025); NTS 054-MINSA/DGSP-V.01 (RM 076-2007/MINSA, modificada por RM 116-2015/MINSA); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+  "fuentes": [
+   "OMS, Guidelines for malaria (versión en línea, actualización 2025)",
+   "MINSA, NTS 233-MINSA/DGIESP-2025, norma técnica de salud para la atención de la malaria",
+   "Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+  ],
   "categoria": "Malaria",
-  "nota_revision": "El libro lo dejó sin respuesta por considerar que ictericia implicaba malaria complicada; la bilirrubina de 3,5 mg/dL con Hb 10 g/dL no cumple criterios de gravedad (la OMS usa bilirrubina mayor de 3 mg/dL asociada a parasitemia elevada). Se mantiene D como la mejor opción. Se corrigieron las unidades de TGO y bilirrubinas."
+  "nota_revision": "El libro lo dejó sin respuesta por considerar que ictericia implicaba malaria complicada; la bilirrubina de 3,5 mg/dL con Hb 10 g/dL no cumple criterios de gravedad (la OMS usa bilirrubina mayor de 3 mg/dL asociada a parasitemia elevada). Se mantiene D como la mejor opción. Se corrigieron las unidades de TGO y bilirrubinas. Cita de la NTS 054 reemplazada por la NTS 233-MINSA/DGIESP-2025."
  },
  {
   "archivo": "ginecologia",

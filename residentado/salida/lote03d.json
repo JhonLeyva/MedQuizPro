@@ -498,9 +498,13 @@
   "comentario": "La periodicidad de la fiebre depende de la duración del ciclo eritrocítico del parásito. Plasmodium vivax y P. ovale tienen ciclos de 48 horas y producen fiebre terciana (un acceso cada tercer día), mientras que P. malariae tiene un ciclo de 72 horas y produce fiebre cuartana, con acceso cada cuarto día. P. falciparum tiene ciclo de 48 horas, pero los accesos suelen ser irregulares por la asincronía, y es el que causa malaria grave y complicada (cerebral, anemia, insuficiencia renal). «Difficile» no es una especie de Plasmodium (se confunde con Clostridioides difficile). P. malariae puede persistir en sangre durante décadas y se asocia con síndrome nefrótico por inmunocomplejos. En el Perú predominan P. vivax y P. falciparum, sobre todo en Loreto y la selva. Perla: P. vivax y P. ovale forman hipnozoitos hepáticos y requieren primaquina o tafenoquina para curación radical.",
   "tema": "Fiebre cuartana: Plasmodium malariae",
   "año": 2014,
-  "fuentes": "OMS, Guidelines for Malaria (actualización 2025); CDC, Malaria, guía clínica (2024); MINSA, NTS N.° 054-MINSA/DGSP-V.01, atención de malaria y malaria grave (RM 076-2007/MINSA, modificada por RM 116-2015/MINSA)",
+  "fuentes": [
+   "OMS, Guidelines for malaria (actualización 2025)",
+   "CDC, Malaria, guía clínica (2024)",
+   "MINSA, NTS 233-MINSA/DGIESP-2025, norma técnica de salud para la atención de la malaria"
+  ],
   "categoria": "Malaria",
-  "nota_revision": "Opciones reconstruidas del texto con ruido; «Malarie» y «Dificile» se corrigieron a Malariae y Difficile (distractor). Clave A verificada."
+  "nota_revision": "Opciones reconstruidas del texto con ruido; «Malarie» y «Dificile» se corrigieron a Malariae y Difficile (distractor). Clave A verificada. Cita de la NTS 054-MINSA/DGSP-V.01 reemplazada por la NTS 233-MINSA/DGIESP-2025 (vigente; RM no verificada)."
  },
  {
   "archivo": "cirugia",

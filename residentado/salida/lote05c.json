@@ -233,21 +233,21 @@
   "examen_origen": "Residentado Médico 2019 · pregunta oficial",
   "enunciado": "Se define diarrea aguda como la aparición de 3 o más deposiciones líquidas al día, o como deposiciones mal formadas con un volumen superior a:",
   "opciones": [
-   "250 g/día.",
+   "300 g/día.",
    "100 g/día.",
    "150 g/día.",
    "50 g/día.",
    "200 g/día."
   ],
-  "correcta": 0,
-  "clave_correcta": "A",
-  "explicacion": "La diarrea se define como un aumento de la frecuencia (tres o más deposiciones al día), de la fluidez o del volumen de las heces. El criterio operativo es la forma: las heces tipos 6 y 7 de Bristol. El criterio por peso se utiliza sobre todo en la investigación: el peso normal de las heces es menor de 200-250 g al día y, según la fuente, el umbral es 200 o 250 g/día, aunque el criterio se ha dejado de lado en la práctica porque quienes consumen mucha fibra tienen heces voluminosas sin diarrea. Según la duración se clasifica en aguda (menos de 14 días), persistente (14-30 días) y crónica (más de 30 días). La mayoría de las diarreas agudas son infecciosas y autolimitadas; la base del tratamiento es la rehidratación, y los antibióticos se reservan para disentería, fiebre alta, inmunosupresión o sospecha de cólera. Perla: ante diarrea con sangre, fiebre y dolor, se pide coprocultivo y se evita la loperamida.",
-  "comentario": "La diarrea se define como un aumento de la frecuencia (tres o más deposiciones al día), de la fluidez o del volumen de las heces. El criterio operativo es la forma: las heces tipos 6 y 7 de Bristol. El criterio por peso se utiliza sobre todo en la investigación: el peso normal de las heces es menor de 200-250 g al día y, según la fuente, el umbral es 200 o 250 g/día, aunque el criterio se ha dejado de lado en la práctica porque quienes consumen mucha fibra tienen heces voluminosas sin diarrea. Según la duración se clasifica en aguda (menos de 14 días), persistente (14-30 días) y crónica (más de 30 días). La mayoría de las diarreas agudas son infecciosas y autolimitadas; la base del tratamiento es la rehidratación, y los antibióticos se reservan para disentería, fiebre alta, inmunosupresión o sospecha de cólera. Perla: ante diarrea con sangre, fiebre y dolor, se pide coprocultivo y se evita la loperamida.",
+  "correcta": 4,
+  "clave_correcta": "E",
+  "explicacion": "La diarrea se define como un aumento de la frecuencia (tres o más deposiciones al día), de la fluidez o del volumen de las heces. El criterio operativo es la forma: las heces tipos 6 y 7 de Bristol. El criterio por peso se utiliza sobre todo en la investigación: el umbral aceptado es más de 200 g al día (Harrison; la guía ACG 2016 cita 200-250 g/día), de modo que 300 g/día excede el corte habitual y los demás valores son normales, aunque el criterio se ha dejado de lado en la práctica porque quienes consumen mucha fibra tienen heces voluminosas sin diarrea. Según la duración se clasifica en aguda (menos de 14 días), persistente (14-30 días) y crónica (más de 30 días). La mayoría de las diarreas agudas son infecciosas y autolimitadas; la base del tratamiento es la rehidratación, y los antibióticos se reservan para disentería, fiebre alta, inmunosupresión o sospecha de cólera.",
+  "comentario": "La diarrea se define como un aumento de la frecuencia (tres o más deposiciones al día), de la fluidez o del volumen de las heces. El criterio operativo es la forma: las heces tipos 6 y 7 de Bristol. El criterio por peso se utiliza sobre todo en la investigación: el umbral aceptado es más de 200 g al día (Harrison; la guía ACG 2016 cita 200-250 g/día), de modo que 300 g/día excede el corte habitual y los demás valores son normales, aunque el criterio se ha dejado de lado en la práctica porque quienes consumen mucha fibra tienen heces voluminosas sin diarrea. Según la duración se clasifica en aguda (menos de 14 días), persistente (14-30 días) y crónica (más de 30 días). La mayoría de las diarreas agudas son infecciosas y autolimitadas; la base del tratamiento es la rehidratación, y los antibióticos se reservan para disentería, fiebre alta, inmunosupresión o sospecha de cólera.",
   "tema": "Definición de diarrea aguda",
   "año": 2019,
   "fuentes": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults. Am J Gastroenterol 2016;111:602-622; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
   "categoria": "Intestino",
-  "nota_revision": "Discrepancia: Harrison y otras fuentes usan 200 g/día y la guía ACG 2016 define la diarrea aguda solo por frecuencia y duración (≥3 deposiciones sueltas/24 h, menos de 14 días); el umbral de 250 g/día no se verificó en guías. Se mantiene la clave A (única opción de 250 g/día)."
+  "nota_revision": "Discrepancia: Harrison y otras fuentes usan 200 g/día y la guía ACG 2016 define la diarrea aguda solo por frecuencia y duración (≥3 deposiciones sueltas/24 h, menos de 14 días); el umbral de 250 g/día no se verificó en guías. Se mantiene la clave A (única opción de 250 g/día). Clave del libro: A (250 g/día); corregida a E (200 g/día), corte de Harrison y dentro del rango 200-250 de ACG 2016; la opción A se cambió a 300 g/día para dejar una sola correcta."
  },
  {
   "archivo": "ginecologia",

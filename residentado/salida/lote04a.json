@@ -49,23 +49,23 @@
   "id": "RM-GAS-002",
   "especialidad": "Gastroenterología",
   "examen_origen": "Residentado Médico 2014 · pregunta oficial",
-  "enunciado": "Mujer de 30 años en un examen de rutina se encuentra HBsAg positivo. Antecedente de pareja sexual consumidor de drogas. Los marcadores para hepatitis B son: anti-HBc IgG positivo, anti-HBs positivo, HBsAg positivo, HBeAg negativo. Con estos resultados se afirma que la paciente presenta hepatitis B...",
+  "enunciado": "Mujer de 30 años en un examen de rutina se encuentra HBsAg positivo. Antecedente de pareja sexual consumidor de drogas. Los marcadores para hepatitis B son: anti-HBc IgG positivo, anti-HBs positivo, HBsAg positivo, HBeAg negativo. Se repiten a los 8 meses con el mismo resultado y la ALT es normal. Con estos resultados se afirma que la paciente presenta hepatitis B...",
   "opciones": [
    "Aguda.",
    "Curada.",
    "En período de convalecencia.",
    "Crónica activa.",
-   "Crónica persistente."
+   "Crónica persistente (portador inactivo)."
   ],
-  "correcta": 2,
-  "clave_correcta": "C",
-  "explicacion": "En la hepatitis B aguda el primer marcador es el HBsAg, seguido del anti-HBc IgM; cuando el virus se controla, el HBsAg desaparece y aparece el anti-HBs, que marca la inmunidad. Entre ambos hay un período de transición en el que pueden coexistir antígeno y anticuerpo, y el anti-HBc pasa de IgM a IgG; eso corresponde a la convalecencia, por eso la clave es C. Una hepatitis aguda tendría anti-HBc IgM y ningún anti-HBs; una infección curada tendría HBsAg negativo con anti-HBs y anti-HBc positivos; la forma crónica se define por HBsAg persistente más de 6 meses. Perla clínica: la coexistencia de HBsAg y anti-HBs persistente puede verse también en hepatitis crónica con anticuerpos dirigidos a otro subtipo, así que se debe repetir la serología a los 6 meses para confirmar la negativización.",
-  "comentario": "En la hepatitis B aguda el primer marcador es el HBsAg, seguido del anti-HBc IgM; cuando el virus se controla, el HBsAg desaparece y aparece el anti-HBs, que marca la inmunidad. Entre ambos hay un período de transición en el que pueden coexistir antígeno y anticuerpo, y el anti-HBc pasa de IgM a IgG; eso corresponde a la convalecencia, por eso la clave es C. Una hepatitis aguda tendría anti-HBc IgM y ningún anti-HBs; una infección curada tendría HBsAg negativo con anti-HBs y anti-HBc positivos; la forma crónica se define por HBsAg persistente más de 6 meses. Perla clínica: la coexistencia de HBsAg y anti-HBs persistente puede verse también en hepatitis crónica con anticuerpos dirigidos a otro subtipo, así que se debe repetir la serología a los 6 meses para confirmar la negativización.",
+  "correcta": 4,
+  "clave_correcta": "E",
+  "explicacion": "El HBsAg que persiste más de seis meses define la infección crónica por el virus B. Aquí sigue positivo a los 8 meses, el anti-HBc es IgG (no IgM), el HBeAg es negativo y la ALT es normal: infección crónica HBeAg negativo, el antiguo portador inactivo («crónica persistente»). El anti-HBs coexiste con el HBsAg en una minoría de crónicos y no indica convalecencia, que exige pérdida del HBsAg. La aguda se reconoce por anti-HBc IgM y ausencia de anti-HBs; la curada tiene HBsAg negativo con anti-HBs y anti-HBc; la crónica activa (hepatitis crónica HBeAg negativo) se define por ADN-VHB y ALT elevados. Conducta según AASLD 2025 y OMS 2024: ADN-VHB, ALT y fibrosis, seguimiento cada 6-12 meses porque puede reactivarse, tamizar VIH, VHC y VHD, y vacunar a la pareja y a los contactos susceptibles. Perla: HBsAg con anti-HBs positivos no es seroconversión.",
+  "comentario": "El HBsAg que persiste más de seis meses define la infección crónica por el virus B. Aquí sigue positivo a los 8 meses, el anti-HBc es IgG (no IgM), el HBeAg es negativo y la ALT es normal: infección crónica HBeAg negativo, el antiguo portador inactivo («crónica persistente»). El anti-HBs coexiste con el HBsAg en una minoría de crónicos y no indica convalecencia, que exige pérdida del HBsAg. La aguda se reconoce por anti-HBc IgM y ausencia de anti-HBs; la curada tiene HBsAg negativo con anti-HBs y anti-HBc; la crónica activa (hepatitis crónica HBeAg negativo) se define por ADN-VHB y ALT elevados. Conducta según AASLD 2025 y OMS 2024: ADN-VHB, ALT y fibrosis, seguimiento cada 6-12 meses porque puede reactivarse, tamizar VIH, VHC y VHD, y vacunar a la pareja y a los contactos susceptibles. Perla: HBsAg con anti-HBs positivos no es seroconversión.",
   "tema": "Serología de hepatitis B con HBsAg y anti-HBs positivos",
   "año": 2014,
   "fuentes": "Ghany MG et al., AASLD/IDSA, Practice Guideline on treatment of chronic hepatitis B (Hepatology 2025); Harrison Principios de Medicina Interna 21.ª ed. (2022); WHO, Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection (Geneva, 2024)",
   "categoria": "Hepatitis virales",
-  "nota_revision": "Posible contradicción con la guía vigente: HBsAg positivo con anti-HBc IgG (sin IgM) en un tamizaje de rutina corresponde, según AASLD/WHO, a infección crónica (HBeAg negativo) si persiste más de 6 meses; la convalecencia exigiría documentar anti-HBc IgM o negativización del HBsAg. Se mantiene la clave del libro (C)."
+  "nota_revision": "Posible contradicción con la guía vigente: HBsAg positivo con anti-HBc IgG (sin IgM) en un tamizaje de rutina corresponde, según AASLD/WHO, a infección crónica (HBeAg negativo) si persiste más de 6 meses; la convalecencia exigiría documentar anti-HBc IgM o negativización del HBsAg. Se mantiene la clave del libro (C). Clave del libro: C (convalecencia); corregida a E según AASLD 2025 y OMS 2024: HBsAg persistente con anti-HBc IgG sin IgM es infección crónica. Se añadió al enunciado la repetición a los 8 meses y ALT normal para fijar la fase."
  },
  {
   "archivo": "infectologia",
