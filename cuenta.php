@@ -18,6 +18,7 @@
  *   exportar   (POST)  descarga de TODOS los datos de la cuenta (derecho de acceso)
  *   eliminar   (POST)  borra la cuenta y su progreso, pidiendo la contraseña (derecho de cancelación)
  *   admin      (GET)   (solo tú) lista de cuentas y pagos en CSV o JSON; exige MQP_ADMIN_TOKEN
+ *   dueno_activar (POST) con tu clave MQP_ADMIN_TOKEN, marca tu cuenta como «dueño»: todos los exámenes sin pagar
  *
  * Un plan SOLO se activa desde "webhook" (tras consultar el pago a Mercado Pago con tu token)
  * o desde "payu" (tras verificar la firma con tu ApiKey). Nada que llegue del navegador
@@ -135,6 +136,7 @@ function db(): PDO {
     $pdo->exec('CREATE TABLE IF NOT EXISTS progreso (usuario INTEGER PRIMARY KEY, datos TEXT NOT NULL, actualizado INTEGER NOT NULL)');
     $cols = array_column($pdo->query('PRAGMA table_info(usuarios)')->fetchAll(), 'name');
     if (!in_array('acepto_en', $cols, true)) $pdo->exec('ALTER TABLE usuarios ADD COLUMN acepto_en INTEGER');
+    if (!in_array('dueno', $cols, true)) $pdo->exec('ALTER TABLE usuarios ADD COLUMN dueno INTEGER NOT NULL DEFAULT 0');
     $pdo->exec('CREATE TABLE IF NOT EXISTS pagos (
         id INTEGER PRIMARY KEY AUTOINCREMENT, mp_id TEXT NOT NULL UNIQUE, usuario INTEGER NOT NULL,
         plan TEXT NOT NULL, monto REAL NOT NULL, creado INTEGER NOT NULL)');
@@ -157,6 +159,8 @@ function db(): PDO {
     $pdo->exec('CREATE INDEX IF NOT EXISTS ix_repasos_t ON repasos(usuario, t)');
     $pdo->exec('CREATE TABLE IF NOT EXISTS intentos (clave TEXT NOT NULL, t INTEGER NOT NULL)');
     $pdo->exec('CREATE INDEX IF NOT EXISTS ix_intentos ON intentos(clave, t)');
+    $pdo->exec('CREATE TABLE IF NOT EXISTS ritmo (clave TEXT NOT NULL, t INTEGER NOT NULL)');
+    $pdo->exec('CREATE INDEX IF NOT EXISTS ix_ritmo ON ritmo(clave, t)');
     foreach (['pagos', 'ordenes'] as $t) {                    // migración: cada pago y orden recuerda de qué examen es
         $cs = array_column($pdo->query('PRAGMA table_info(' . $t . ')')->fetchAll(), 'name');
         if (!in_array('examen', $cs, true)) $pdo->exec('ALTER TABLE ' . $t . " ADD COLUMN examen TEXT NOT NULL DEFAULT 'enam'");
@@ -193,12 +197,13 @@ function suscripciones_de(int $uid): array {
 function usuario_publico(?array $u): ?array {
     if (!$u) return null;
     $subs = suscripciones_de((int)$u['id']);
+    if ((int)($u['dueno'] ?? 0) === 1) foreach (array_keys(EXAMENES) as $ex) $subs[$ex] = ['plan' => 'dueño', 'hasta' => 4102444800];   // la cuenta del dueño tiene todos los exámenes, sin pagar
     $en = $subs['enam'] ?? null;                              // la plataforma de estudio hoy solo tiene el banco ENAM: ese plan define "premium"
     $st = db()->prepare('SELECT examen FROM lista_espera WHERE usuario = ?'); $st->execute([(int)$u['id']]);
     return [
         'id' => (int)$u['id'], 'nombre' => $u['nombre'], 'correo' => $u['correo'], 'examen' => $u['examen'],
         'premium' => (bool)$en, 'plan' => $en ? $en['plan'] : null, 'premium_hasta' => $en ? $en['hasta'] : null,
-        'suscripciones' => (object)$subs, 'espera' => array_column($st->fetchAll(), 'examen'),
+        'suscripciones' => (object)$subs, 'espera' => array_column($st->fetchAll(), 'examen'), 'dueno' => (int)($u['dueno'] ?? 0) === 1,
     ];
 }
 function usuario_actual(): ?array {
@@ -208,6 +213,15 @@ function usuario_actual(): ?array {
     $st = db()->prepare('SELECT * FROM usuarios WHERE id = ?'); $st->execute([$id]);
     $u = $st->fetch();
     return $u ?: null;
+}
+
+/** Límite de escrituras por usuario (evita abuso y bucles del navegador): `max` acciones cada `seg` segundos. */
+function limitar_ritmo(int $uid, string $accion, int $max, int $seg = 60): void {
+    $db = db(); $k = $uid . '|' . $accion; $ahora = time();
+    $db->prepare('DELETE FROM ritmo WHERE t < ?')->execute([$ahora - 3600]);
+    $st = $db->prepare('SELECT COUNT(*) FROM ritmo WHERE clave = ? AND t > ?'); $st->execute([$k, $ahora - $seg]);
+    if ((int) $st->fetchColumn() >= $max) { header('Retry-After: ' . $seg); fallo('Vas muy rápido. Espera un momento e inténtalo de nuevo.', 429); }
+    $db->prepare('INSERT INTO ritmo(clave, t) VALUES (?, ?)')->execute([$k, $ahora]);
 }
 
 function ip(): string { return substr((string)($_SERVER['REMOTE_ADDR'] ?? '0'), 0, 45); }
@@ -277,6 +291,19 @@ function activar_plan(int $uid, string $examen, string $periodo, string $mpId, f
 
 try {
     $a = (string)($_GET['a'] ?? '');
+
+    if ($a === 'dueno_activar') {
+        // El dueño (con la clave de MQP_ADMIN_TOKEN, que solo él conoce) marca SU cuenta ya creada como cuenta de dueño: acceso a todo sin pagar.
+        // No depende del correo (que no está verificado): sin la clave nadie puede activarlo.
+        exigir_post_del_sitio();
+        $u = usuario_actual(); if (!$u) fallo('Inicia sesión primero.', 401);
+        $tok = ajuste('MQP_ADMIN_TOKEN', 'admin_token');
+        if (strlen($tok) < 16) fallo('Acción desconocida.', 404);
+        limitar_login('dueno|' . $u['correo']);
+        if (!hash_equals($tok, (string)(cuerpo()['token'] ?? ''))) { anotar_intento('dueno|' . $u['correo']); fallo('Clave incorrecta.', 401); }
+        db()->prepare('UPDATE usuarios SET dueno = 1 WHERE id = ?')->execute([(int)$u['id']]);
+        responder(['ok' => true, 'usuario' => usuario_publico(usuario_actual())]);
+    }
 
     if ($a === 'admin') {
         // Lista de cuentas y pagos para el dueño del sitio. Nunca incluye contraseñas.
@@ -427,7 +454,7 @@ try {
         ];
 
         if ($a === 'fc_crear') {
-            exigir_post_del_sitio();
+            exigir_post_del_sitio(); limitar_ritmo($uid, 'fc_crear', 20);
             $lista = cuerpo()['tarjetas'] ?? null;
             if (!is_array($lista) || !$lista || count($lista) > 8) fallo('Envía entre 1 y 8 tarjetas.');
             $tot = $db->prepare('SELECT COUNT(*) FROM flashcards WHERE usuario = ?'); $tot->execute([$uid]);
@@ -463,7 +490,7 @@ try {
         }
 
         if ($a === 'fc_repasar') {
-            exigir_post_del_sitio();
+            exigir_post_del_sitio(); limitar_ritmo($uid, 'fc_repasar', 150);
             $d = cuerpo(); $id = (int)($d['id'] ?? 0); $cal = (string)($d['calificacion'] ?? '');
             if (!in_array($cal, FC_CALIFICACIONES, true)) fallo('Calificación no válida.');
             $st = $db->prepare('SELECT * FROM flashcards WHERE id = ? AND usuario = ?'); $st->execute([$id, $uid]); $t = $st->fetch();
@@ -480,7 +507,7 @@ try {
         }
 
         if ($a === 'fc_editar') {
-            exigir_post_del_sitio();
+            exigir_post_del_sitio(); limitar_ritmo($uid, 'fc_editar', 60);
             $d = cuerpo(); $id = (int)($d['id'] ?? 0);
             $fr = $corto($d['frente'] ?? '', 600); $do = mb_substr(trim((string)($d['dorso'] ?? '')), 0, 1500);
             if (mb_strlen($fr) < 5 || mb_strlen($do) < 2) fallo('Cada tarjeta necesita frente y dorso.');
@@ -490,7 +517,7 @@ try {
         }
 
         if ($a === 'fc_borrar') {
-            exigir_post_del_sitio();
+            exigir_post_del_sitio(); limitar_ritmo($uid, 'fc_borrar', 60);
             $st = $db->prepare('DELETE FROM flashcards WHERE id = ? AND usuario = ?'); $st->execute([(int)(cuerpo()['id'] ?? 0), $uid]);
             if (!$st->rowCount()) fallo('No encontramos esa tarjeta.', 404);
             responder(['ok' => true]);

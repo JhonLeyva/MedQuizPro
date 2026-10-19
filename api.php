@@ -328,6 +328,36 @@ function limitar(string $ip, int $porMinuto, int $porDia): void
     @file_put_contents($archivo, json_encode(['minuto' => $minuto, 'dia' => $dia]), LOCK_EX);
 }
 
+
+/**
+ * Presupuesto diario de IA por usuario, en caracteres enviados + recibidos (aproxima el gasto de tokens). Se comprueba antes de llamar
+ * al proveedor y se descuenta después con lo realmente usado. Variable: AI_PRESUPUESTO_CARACTERES_DIA (por defecto 150000).
+ */
+function presupuesto_estado(string $clave): array {
+    $archivo = sys_get_temp_dir() . '/mqp_pres_' . sha1($clave) . '.json';
+    $d = is_readable($archivo) ? json_decode((string) @file_get_contents($archivo), true) : null;
+    $hoy = gmdate('Y-m-d');
+    return [$archivo, is_array($d) && ($d['fecha'] ?? '') === $hoy ? (int) ($d['n'] ?? 0) : 0, $hoy];
+}
+function presupuesto_revisar(string $clave, int $max): void {
+    [, $n] = presupuesto_estado($clave);
+    if ($n >= $max) { header('Retry-After: 3600'); responder(429, ['error' => 'Llegaste al límite diario de uso de la IA. Vuelve mañana; tu práctica sigue funcionando.']); }
+}
+function presupuesto_descontar(string $clave, int $chars): void {
+    [$archivo, $n, $hoy] = presupuesto_estado($clave);
+    @file_put_contents($archivo, json_encode(['fecha' => $hoy, 'n' => $n + max(0, $chars)]), LOCK_EX);
+}
+
+/** Caché de respuestas reutilizables (misma pregunta + misma consulta + mismas guías, sin historial). Dura 24 h. */
+function cache_ruta(string $huella): string { return sys_get_temp_dir() . '/mqp_ia_' . $huella . '.json'; }
+function cache_leer(string $huella): ?array {
+    $f = cache_ruta($huella);
+    if (!is_readable($f) || filemtime($f) < time() - 86400) return null;
+    $d = json_decode((string) @file_get_contents($f), true);
+    return is_array($d) ? $d : null;
+}
+function cache_guardar(string $huella, array $d): void { @file_put_contents(cache_ruta($huella), json_encode($d, JSON_UNESCAPED_UNICODE), LOCK_EX); }
+
 /* ====================== LEER LA CONVERSACIÓN ====================== */
 
 $crudoEntrada = (string) file_get_contents('php://input');
@@ -384,6 +414,8 @@ if (isset($entrada['contexto'])) {
     $limiteContexto = max(1, (int) ajuste('AI_LIMITE_CONTEXTO_DIA', 'limite_contexto_dia', '40'));
     $recuperados = [];            // fuentes oficiales recuperadas del índice local (vacío si no hay guías cargadas o nada es relevante)
     limitar('usuario:' . $uidSesion, $limiteMinuto, $limiteContexto);   // tope por usuario (además del de la IP)
+    $presupuestoDia = max(5000, (int) ajuste('AI_PRESUPUESTO_CARACTERES_DIA', 'presupuesto_caracteres_dia', '150000'));
+    $claveUsuario = 'usuario:' . $uidSesion;
 }
 
 /** Historial normalizado: [['rol' => 'usuario'|'tutor', 'texto' => '...'], …] */
@@ -459,6 +491,15 @@ if ($contexto !== null) {
 
 /* ====================== LLAMADA AL PROVEEDOR ====================== */
 
+$huellaCache = null;
+if ($contexto !== null) {
+    presupuesto_revisar($claveUsuario, $presupuestoDia);
+    if (count($historial) === 1) {      // solo la primera consulta de una conversación es reutilizable
+        $huellaCache = hash('sha256', json_encode([$historial[0]['texto'], $modoTarjetas ? 'fc' : 'chat', $proveedor, $modelo, is_readable(GUIAS_INDICE) ? filemtime(GUIAS_INDICE) : 0]));
+        if (($previa = cache_leer($huellaCache)) !== null) { $previa['cache'] = true; responder(200, $previa); }
+    }
+}
+
 $resultado = match ($proveedor) {
     'openai'    => hablarOpenAI($apiKey, $modelo, $baseUrl, $historial),
     'anthropic' => hablarAnthropic($apiKey, $modelo, $baseUrl, $historial),
@@ -473,6 +514,7 @@ if (!$resultado['ok']) {
     fallar($codigo, $proveedor . ': ' . $resultado['detalle'], $mensajeUsuario);
 }
 
+if ($contexto !== null) presupuesto_descontar($claveUsuario, mb_strlen(implode('', array_column($historial, 'texto'))) + mb_strlen((string) $resultado['texto']));
 $salida = [
     'respuesta' => $resultado['texto'],
     'reply'     => $resultado['texto'],  // nombre alternativo, por compatibilidad
@@ -508,6 +550,7 @@ if ($contexto !== null) {
     }
     if ($invalidas) { $salida['citas_invalidas'] = $invalidas; error_log('[api] citas a fuentes inexistentes eliminadas: ' . implode(',', $invalidas)); }
 }
+if ($huellaCache !== null) cache_guardar($huellaCache, $salida);
 responder(200, $salida);
 
 /* ====================== PROVEEDOR: GEMINI ====================== */
