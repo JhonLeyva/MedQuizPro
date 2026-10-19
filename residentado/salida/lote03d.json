@@ -247,7 +247,7 @@
   "comentario": "La mayoría de las infecciones oportunistas aparecen cuando la inmunidad celular cae por debajo de umbrales: Pneumocystis jirovecii con CD4 < 200, toxoplasmosis cerebral < 100, criptococosis < 100 y retinitis por citomegalovirus < 50. La tuberculosis es la excepción: por su alta virulencia puede presentarse con cualquier recuento, incluso con CD4 > 300 (en ese caso suele ser pulmonar típica; con inmunosupresión avanzada predomina la forma extrapulmonar o diseminada). En el Perú, la tuberculosis es la principal causa de enfermedad definitoria y muerte en personas con VIH. Por ello se tamiza en toda consulta: tos, fiebre, sudoración nocturna y pérdida de peso (W4SS) identifican a quienes requieren estudio. Perla: se inicia tratamiento antituberculoso primero y el TARV dentro de las 2 primeras semanas si CD4 < 50, o de las 8 semanas si CD4 es mayor.",
   "tema": "Infección oportunista con CD4 > 300: tuberculosis",
   "año": 2014,
-  "fuentes": "NIH/CDC/IDSA, Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults with HIV (actualizaciones 2024-2025); OMS, Directrices consolidadas sobre VIH (2021); MINSA, NTS N.° 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA) y NTS N.° 200-MINSA/DGIESP-2023 (RM 339-2023/MINSA)",
+  "fuentes": "NIH/CDC/IDSA, Guidelines for the Prevention and Treatment of Opportunistic Infections in Adults with HIV (actualizaciones 2024-2025); OMS, Directrices consolidadas sobre VIH (2021); MINSA, NTS N.° 169-MINSA/2020/DGIESP (RM 1024-2020/MINSA) y NTS N.° 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis)",
   "categoria": "VIH"
  },
  {
@@ -384,7 +384,7 @@
   "comentario": "En la meningitis tuberculosa la reacción inflamatoria en la base del cráneo produce exudado, vasculitis, infartos e hidrocefalia, y buena parte de la muerte y las secuelas dependen de esa inflamación y no solo de la carga bacilar. Los corticoides (dexametasona o prednisona, con reducción progresiva durante 6-8 semanas) disminuyen el edema y la presión intracraneal y mejoran la supervivencia, por lo que se añaden a los fármacos antituberculosos (isoniacida, rifampicina, pirazinamida y etambutol, con un tratamiento prolongado, de hasta 12 meses en el esquema clásico). También se usan en la pericarditis tuberculosa y en algunas formas con compromiso grave de la vía aérea o síndrome de reconstitución inmune. En la tuberculosis primaria, miliar, pleural y peritoneal no son rutinarios. Perla: ante un paciente con cefalea subaguda, fiebre y parálisis de pares craneales, con LCR de glucosa baja y proteínas altas, empezar tratamiento sin esperar el cultivo.",
   "tema": "Corticoides en meningitis tuberculosa",
   "año": 2014,
-  "fuentes": "OMS, Directrices consolidadas sobre tuberculosis, Módulo 4: tratamiento (2022, actualización 2025); ATS/CDC/ERS/IDSA, Tratamiento de TB sensible (2016); MINSA, NTS N.° 200-MINSA/DGIESP-2023 (RM 339-2023/MINSA)",
+  "fuentes": "OMS, Directrices consolidadas sobre tuberculosis, Módulo 4: tratamiento (2022, actualización 2025); ATS/CDC/ERS/IDSA, Tratamiento de TB sensible (2016); MINSA, NTS N.° 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis)",
   "categoria": "Tuberculosis"
  },
  {
@@ -452,7 +452,7 @@
   "comentario": "La tuberculosis multidrogorresistente (TB-MDR) es la causada por Mycobacterium tuberculosis resistente al menos a isoniacida y rifampicina, los dos fármacos bactericidas más potentes del núcleo del tratamiento, con o sin resistencia a otros. Cuando además hay resistencia a una fluoroquinolona se denomina pre-XDR, y si se suma resistencia a bedaquilina o linezolid, XDR según la definición de la OMS de 2021. La resistencia aislada a rifampicina (TB-RR) se maneja igual que la MDR. Las demás combinaciones no corresponden a la definición: pirazinamida, etambutol, estreptomicina, kanamicina y ciprofloxacino pertenecen a otros grupos. El diagnóstico se hace con pruebas moleculares rápidas (Xpert MTB/RIF Ultra, que detecta rifampicina) y pruebas de sensibilidad fenotípicas. Perla: el esquema BPaLM de 6 meses es actualmente de elección en TB-MDR/RR sin resistencia a fluoroquinolonas.",
   "tema": "Definición de tuberculosis multidrogorresistente",
   "año": 2014,
-  "fuentes": "OMS, Meeting report on definitions of XDR-TB (2021); OMS, Directrices consolidadas sobre TB, Módulo 4: tratamiento (2022, actualización 2025); MINSA, NTS N.° 200-MINSA/DGIESP-2023 (RM 339-2023/MINSA)",
+  "fuentes": "OMS, Meeting report on definitions of XDR-TB (2021); OMS, Directrices consolidadas sobre TB, Módulo 4: tratamiento (2022, actualización 2025); MINSA, NTS N.° 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis)",
   "categoria": "Tuberculosis",
   "nota_revision": "Siglas «MOR» del OCR corregidas a MDR."
  },
