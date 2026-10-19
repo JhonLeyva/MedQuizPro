@@ -44,7 +44,7 @@ S("balanza", "RM-CIR-030", "La laparoscopía en obstrucción intestinal es segur
          veredicto=("Distensión leve = hay espacio para operar", ["Con asas muy dilatadas la aguja o el trócar pueden perforar el intestino.", "El campo visual se reduce y casi siempre hay que convertir."])),
   banda=B("Referencia: distensión marcada, mal candidato", PX("bridas_rx.jpg", 300, marcas=[("flecha", 0.20, 0.35, 0.60, 0.07, "Asas muy dilatadas")]),
           [("Asas de intestino delgado", "Calibre aumentado en todo el abdomen."), ("Niveles hidroaéreos", "Varios, a distintas alturas."), ("Conclusión", "Poco espacio: la laparoscopía es riesgosa.")],
-          pie="Radiografía de referencia, no del paciente"))
+          pie="Radiografía referencial"))
 
 # 031 · CASCADA · manejo inicial
 S("cascada", "RM-CIR-031", "El manejo inicial de toda obstrucción intestinal es la hidratación parenteral junto con la descompresión",
@@ -123,7 +123,7 @@ S("embudo", "RM-CIR-034", "Una anciana con obstrucción y masa inguinal dolorosa
   banda=B("Referencia: radiografía de obstrucción", PX("ileo_rx.jpg", 240, credito="Radiopaedia 11177 · Wikimedia Commons · dominio público",
                                                   marcas=[("flecha", 0.28, 0.45, 0.70, 0.18, "Asas dilatadas")]),
           [("Asas distendidas", "Intestino delgado con gas."), ("Sin gas distal", "Compatible con obstrucción mecánica."), ("Qué falta", "Buscar la causa en la ingle: la hernia.")],
-          pie="Radiografía de referencia, no del paciente"))
+          pie="Radiografía referencial"))
 
 # 035 · TERMÓMETRO · grados de hemorroides
 S("termometro", "RM-CIR-035", "Las hemorroides internas grado III se prolapsan y requieren reducción manual",

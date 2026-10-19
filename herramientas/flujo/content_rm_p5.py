@@ -110,7 +110,7 @@ S("lectura", "RM-PED-003", "En la estenosis hipertrófica del píloro se corrige
       {0: "Piloromiotomía laparoscópica", 1: "Esofagostomía", 2: "Anastomosis gastroduodenal", 3: "Gastrectomía distal", 4: "Gastrostomía"}),
   d=dict(rotulo="Cómo leer la ecografía del píloro", img_titulo="Ecografía del píloro",
          img=PX("piloro.jpg", 340, credito="Laughlin Dawes · Wikimedia Commons · CC BY-SA 4.0"), pines=[],
-         img_pie="Imagen de referencia, no es el paciente. La flecha roja marca el músculo pilórico engrosado.",
+         img_pie="Imagen referencial. La flecha roja marca el músculo pilórico engrosado.",
          pasos=[("Flecha roja: músculo del píloro engrosado", "Pared hipoecoica de grosor ≥ 3-4 mm; normal menos de 3 mm.", False),
                 ("Canal pilórico largo y estrecho", "Longitud ≥ 15-17 mm: el contenido casi no pasa al duodeno.", False),
                 ("Estómago distendido, con líquido y contenido", "Por eso hay vómito en proyectil tras cada toma.", False),

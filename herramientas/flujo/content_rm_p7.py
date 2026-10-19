@@ -126,7 +126,7 @@ S("gasometria", "RM-PED-004", "Estenosis hipertrófica del píloro: piloromiotom
          veredicto=("Alcalosis hipoclorémica = estenosis del píloro", "Se corrige antes de anestesiar; después se secciona el músculo pilórico.")),
   banda=B("Así se ve el píloro engrosado", PX("piloro.jpg", 300, credito="Laughlin Dawes · Wikimedia Commons · CC BY-SA 4.0"),
           [("La flecha roja", "Marca el músculo pilórico engrosado, hipoecoico, junto al estómago lleno de líquido."),
-           ("Imagen de referencia", "Ecografía de un lactante con estenosis del píloro; no es del paciente."),
+           ("Imagen de referencia", "Ecografía de un lactante con estenosis del píloro."),
            ("Criterios", "Grosor muscular ≥ 3-4 mm y canal pilórico ≥ 15-17 mm.")], pie="Ecografía: estenosis hipertrófica del píloro", rotulo="Imagen de referencia"))
 
 # OFT-002 · LECTURA · otitis externa aguda
@@ -141,9 +141,9 @@ S("lectura", "RM-OFT-002", "Otitis externa tras natación: el agente más frecue
   "AAO-HNSF, Clinical Practice Guideline: Acute Otitis Externa (Rosenfeld, Otolaryngol Head Neck Surg 2014); Cummings Otolaryngology 7.ª ed.",
   op=("¿Agente más frecuente?", ["No: causa otitis media", "Sí: el agente típico del oído del nadador", "No: causa otitis media", "No: es el segundo agente", "No: causa faringitis, rara en el oído externo"],
       {0: "Streptococcus pneumoniae", 1: "Pseudomonas aeruginosa", 2: "Haemophilus influenzae", 3: "Staphylococcus aureus", 4: "Streptococcus pyogenes"}),
-  d=dict(rotulo="Cómo se lee un conducto auditivo con otitis externa", img_titulo="Oído con otitis externa (imagen de referencia)",
+  d=dict(rotulo="Cómo se lee un conducto auditivo con otitis externa", img_titulo="Oído con otitis externa (imagen referencial)",
          img=PX("otitis_ext.jpg", 300, credito="James Heilman · Wikimedia Commons · CC BY 3.0"),
-         pines=[(0.45, 0.30), (0.22, 0.55), (0.62, 0.62)], img_pie="Imagen de referencia: no es del paciente.",
+         pines=[(0.45, 0.30), (0.22, 0.55), (0.62, 0.62)], img_pie="Imagen referencial.",
          pasos=[("1. Conducto estrecho y edematoso", "La piel engrosada reduce la luz y duele al traccionar el pabellón.", False),
                 ("2. Secreción y costras", "Restos de exudado seco en la entrada del conducto.", False),
                 ("3. Piel enrojecida alrededor", "La inflamación se extiende a la concha del pabellón.", False),
@@ -188,7 +188,7 @@ S("fases", "RM-CIR-130", "Hemorroides que se reducen con la mano: grado III de G
                 ("Grado IV", "Irreductible", "PERMANENTE", ["Riesgo de trombosis y estrangulación", "Hemorroidectomía"])]),
   banda=B("Así se ve un prolapso hemorroidal", PX("hemorroides_g3.jpg", 270, marcas=[("flecha", 0.50, 0.42, 0.74, 0.12, "Mucosa prolapsada")]),
           [("Masa de mucosa prolapsada", "Nódulos rojizos y violáceos que salen por el ano."),
-           ("Imagen de referencia", "Prolapso hemorroidal; no es del paciente."),
+           ("Imagen de referencia", "Prolapso hemorroidal."),
            ("Grado III", "El paciente necesita empujarlas con la mano para devolverlas al canal anal.")], pie="Hemorroides prolapsadas", rotulo="Imagen de referencia"))
 
 # OFT-003 · MATRIZ · fractura de órbita según la pared
@@ -224,9 +224,9 @@ S("lectura", "RM-NRL-001", "Hematoma epidural con intervalo lúcido y desplazami
   "Brain Trauma Foundation, Surgical management of acute epidural hematomas (Bullock, Neurosurgery 2006); BTF, Guidelines for Severe TBI 4.ª ed. (Carney 2017); Greenberg Handbook of Neurosurgery 10.ª ed.",
   op=("¿Conducta?", ["Sí: evacuación urgente del hematoma", "No: puente, no sustituye la cirugía", "No: solo hematomas pequeños y asintomáticos", "No: no benefician en el trauma craneal", "No: no evacúa un hematoma agudo"],
       {0: "Craneotomía descompresiva", 1: "Manitol endovenoso", 2: "Observación y TC de control", 3: "Corticoterapia sistémica", 4: "Cirugía estereotáctica"}),
-  d=dict(rotulo="Cómo se lee la tomografía de un hematoma epidural", img_titulo="TC: hematoma epidural (imagen de referencia)",
+  d=dict(rotulo="Cómo se lee la tomografía de un hematoma epidural", img_titulo="TC: hematoma epidural (imagen referencial)",
          img=PX("epidural_derecho.jpg", 270, credito="Hellerhoff · Wikimedia Commons · CC BY-SA 4.0"),
-         pines=[(0.20, 0.45), (0.31, 0.62)], img_pie="Imagen de referencia de un hematoma del lado derecho; no es del paciente.",
+         pines=[(0.20, 0.45), (0.31, 0.62)], img_pie="Imagen de referencia de un hematoma del lado derecho.",
          pasos=[("1. Colección hiperdensa pegada al cráneo", "Sangre aguda, blanca, entre el hueso y la duramadre.", False),
                 ("2. Borde interno liso y convexo", "Forma de lente (lenticular): no cruza las suturas.", False),
                 ("3. Efecto de masa", "Si es grande, desplaza la línea media y asimetriza los ventrículos, como en el caso.", False),
@@ -291,7 +291,7 @@ S("cuadricula", "RM-CIR-132", "La causa más frecuente de obstrucción intestina
          veredicto=("Adulto con obstrucción = bridas y adherencias", "Las causas del colon y las raras (intususcepción, íleo biliar) son menos frecuentes.")),
   banda=B("Así se ve la obstrucción del delgado", PX("bridas_rx.jpg", 300,
           marcas=[("flecha", 0.20, 0.37, 0.50, 0.12, "Nivel hidroaéreo"), ("flecha", 0.30, 0.64, 0.64, 0.86, "Asa dilatada")], credito="Igboeze · Wikimedia Commons · CC BY-SA 4.0"),
-          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen de referencia", "Cuadro de obstrucción por bridas, no del paciente."),
+          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen de referencia", "Cuadro de obstrucción por bridas."),
            ("Siguiente paso", "TC con contraste si hay duda o signos de estrangulación.")], pie="Rx de abdomen: obstrucción del intestino delgado", rotulo="Imagen de referencia"))
 
 # REU-001 · TERMÓMETRO · grados del acné

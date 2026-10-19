@@ -59,7 +59,7 @@ S("matriz", "RM-CIR-113", "La causa más frecuente de obstrucción intestinal en
                 [("Cáncer colorrectal", ["Estreñimiento y pérdida de peso", "Masa en la colonoscopía"]), ("Vólvulo y diverticulitis", ["Sigmoides en el anciano", "Estenosis diverticular"])]]),
   banda=B("Así se ve la obstrucción del delgado", PX("bridas_rx.jpg", 330,
           marcas=[("flecha", 0.20, 0.37, 0.50, 0.12, "Nivel hidroaéreo"), ("flecha", 0.30, 0.64, 0.64, 0.86, "Asa dilatada")], credito="Igboeze · Wikimedia Commons · CC BY-SA 4.0"),
-          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen de referencia", "Cuadro de obstrucción por bridas, no del paciente."),
+          [("Asas dilatadas con niveles", "Las líneas horizontales separan aire (negro) y líquido (gris)."), ("Imagen de referencia", "Cuadro de obstrucción por bridas."),
            ("Siguiente paso", "TC con contraste si hay duda o signos de estrangulación.")], pie="Rx de abdomen: obstrucción del intestino delgado", rotulo="Imagen de referencia"))
 
 # 115 · FASES · manejo no operatorio y contraste hidrosoluble
@@ -128,10 +128,10 @@ S("lectura", "RM-CIR-119", "Ascitis exudativa linfocitaria con fiebre: la biopsi
   "AASLD, ascitis (2021); EASL, cirrosis descompensada (2018); " + SAB,
   op=("¿Diagnóstico definitivo?", ["No: es inespecífica", "No: orienta, pero no es diagnóstica", "No: sin valor diagnóstico", "No: muestra engrosamiento, pero no es definitiva", "Sí: granulomas caseificantes o cultivo"],
       {0: "VSG elevada", 1: "ADA de líquido ascítico", 2: "Resonancia magnética", 3: "Tomografía abdominopélvica", 4: "Biopsia peritoneal"}),
-  d=dict(rotulo="Del abdomen distendido al diagnóstico", img_titulo="Ascitis a tensión (imagen de referencia)",
+  d=dict(rotulo="Del abdomen distendido al diagnóstico", img_titulo="Ascitis a tensión (imagen referencial)",
          img=PX("ascitis.jpg", 300, marcas=[("flecha", 0.56, 0.77, 0.70, 0.93, "Ombligo evertido"), ("flecha", 0.93, 0.55, 0.70, 0.22, "Flanco abultado")],
                 credito="James Heilman · Wikimedia Commons · CC BY-SA 3.0"),
-         pines=[], img_pie="Imagen de referencia: no es del paciente.",
+         pines=[], img_pie="Imagen referencial.",
          pasos=[("1. Paracentesis diagnóstica", "Proteínas, albúmina, recuento celular, ADA y cultivo.", False),
                 ("2. Exudado: SAAG < 1,1 y proteínas > 2,5", "Sin hipertensión portal: peritoneo, páncreas o neoplasia.", False),
                 ("3. Linfocitos y ADA > 39 U/L", "Sospecha de tuberculosis peritoneal.", False),

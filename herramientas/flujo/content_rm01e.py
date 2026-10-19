@@ -216,7 +216,7 @@ S("lectura", "RM-CIR-023", "Dolor migratorio a fosa ilíaca derecha, Blumberg po
   "WSES, apendicitis aguda (2020); " + SAB + "; Kaplan et al., POCUS J 2025.",
   op=("¿Diagnóstico?", ["Sí: Blumberg y Horn en fosa ilíaca derecha", "No: cólico lumbar con hematuria", "No: sin síntomas urinarios", "No: dolor y testículo elevados", "No: testículo normal"],
       {0: "Apendicitis aguda", 1: "Litiasis renal", 2: "Infección urinaria", 3: "Torsión testicular", 4: "Orquiepididimitis"}),
-  d=dict(rotulo="Signos clínicos y confirmación por ecografía", img_titulo="Ecografía de apendicitis (imagen de referencia)",
+  d=dict(rotulo="Signos clínicos y confirmación por ecografía", img_titulo="Ecografía de apendicitis (imagen referencial)",
          img=PX("apendicitis_pocus.jpg", 400, credito="Kaplan et al. · POCUS J 2025 · PMC12057466 · CC BY 4.0"),
          pasos=[("Blumberg y Rovsing", "Dolor al descomprimir; dolor en fosa ilíaca derecha al palpar la izquierda.", False),
                 ("Signo de Horn", "Dolor al traccionar el testículo derecho: apoya apendicitis.", True),

@@ -123,7 +123,7 @@ S("alarma", "RM-CIR-050", "Fiebre, ictericia y dolor tras colecistectomía: cola
                  ("Leucocitos 20 000", "> 12 000: colangitis moderada (grado II)", True), ("Murphy positivo", "Sin vesícula: es dolor de la vía biliar, no colecistitis", True),
                  ("Dilatación biliar o cálculo en imagen", "Criterio C de Tokio: ecografía o TC", None), ("Hipotensión o confusión", "Pentada de Reynolds: grado III, drenaje urgente", None)],
          accion=("Antibióticos y drenaje biliar con CPRE", "Precoz en grado II; inmediato si hay Reynolds."), accion_rotulo="Conducta",
-         veredicto=("Charcot en un colecistectomizado = colangitis por coledocolitiasis", "La flecha superior de la TC marca la vía biliar dilatada y la inferior, el cálculo del colédoco distal (imagen de referencia).")))
+         veredicto=("Charcot en un colecistectomizado = colangitis por coledocolitiasis", "La flecha superior de la TC marca la vía biliar dilatada y la inferior, el cálculo del colédoco distal (imagen referencial).")))
 
 # 051 · EMBUDO · examen de elección en diverticulitis
 S("embudo", "RM-CIR-051", "La tomografía con contraste es el estudio de elección en la diverticulitis aguda",
@@ -273,7 +273,7 @@ S("lectura", "RM-CIR-059", "En el adulto sin cirugías previas, la hernia es la 
       {0: "Hernias", 1: "Adherencias", 2: "Vólvulo", 3: "Cáncer de sigmoides", 4: "Diverticulosis"}),
   d=dict(rotulo="Lectura de una radiografía con obstrucción por hernia", img_titulo="Rx de abdomen: hernia de Spiegel estrangulada",
          img=PX("spiegel_rx_rec.jpg", 420, credito="Porras Gutiérrez de Velasco et al. · Cureus 2026 · CC BY 4.0"), tag="CAUSA",
-         img_pie="Imagen de referencia, no es del paciente del enunciado. Las flechas ya vienen en la radiografía.",
+         img_pie="Imagen referencial. Las flechas ya vienen en la radiografía.",
          pasos=[("Flecha roja: asas delgadas dilatadas", "Gas y distensión por encima de la obstrucción.", False),
                 ("Flechas azules: niveles hidroaéreos en escalera", "Signo de obstrucción mecánica del delgado.", False),
                 ("Flecha morada: asa dentro de la hernia", "La hernia de la pared es la causa: se busca en el examen físico.", True),
@@ -295,7 +295,7 @@ S("lectura", "RM-CIR-060", "Aerobilia con obstrucción del intestino delgado en 
   d=dict(rotulo="Lectura de la tomografía de un íleo biliar", img_titulo="TC de referencia: íleo biliar",
          img=PX("ileo_biliar_tc.jpg", 520, credito="Trinidad Cruz et al. · Cureus 2026 · CC BY 4.0",
                 marcas=[("flecha", 0.18, 0.42, 0.10, 0.82, "Aerobilia"), ("flecha", 0.617, 0.53, 0.60, 0.86, "Cálculo ectópico")]), tag="CLAVE",
-         img_pie="Imagen de referencia, no es de la paciente del enunciado. Panel A: hígado; panel B: abdomen más bajo.",
+         img_pie="Imagen referencial. Panel A: hígado; panel B: abdomen más bajo.",
          pasos=[("Panel A: aire en la vía biliar", "Aerobilia: señal de fístula entre la vía biliar y el tubo digestivo.", False),
                 ("Panel B: cálculo con borde calcificado", "Cálculo ectópico en la luz intestinal, a nivel de la válvula ileocecal, con asas dilatadas.", True),
                 ("Tríada de Rigler", "Obstrucción + aerobilia + cálculo ectópico.", False),
