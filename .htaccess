@@ -51,3 +51,8 @@ ErrorDocument 404 /index.html
   Header set Cache-Control "no-store"
 </FilesMatch>
 RedirectMatch 403 ^/cuenta_datos/
+
+# Atlas 3D: los fragmentos .dat son datos binarios (gzip) que el visor descomprime él mismo; no deben recomprimirse ni transformarse
+<IfModule mod_mime.c>
+  AddType application/octet-stream .dat
+</IfModule>
