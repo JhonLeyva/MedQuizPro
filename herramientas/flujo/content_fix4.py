@@ -24,11 +24,9 @@ def PX(archivo, W, marcas=(), credito=None):
 
 
 FIX = []
-ECO = PX("apendicitis_pocus.jpg", 400, [("flecha", 0.32, 0.43, 0.20, 0.82, "Ø 6,8 mm"), ("flecha", 0.73, 0.36, 0.70, 0.84, "Ø 8,2 mm"),
-                                       ("flecha", 0.38, 0.33, 0.16, 0.12, "Pared gruesa")],
-         credito="Kaplan et al. · POCUS J 2025 · PMC12057466 · CC BY 4.0")
-NOTAS_ECO = [("Apéndice dilatado: Ø mayor de 6 mm", "Se mide de pared externa a pared externa: 6,8 mm (corte corto) y 8,2 mm (largo)."),
-             ("Pared engrosada y no compresible", "En el corte corto se ve «en diana»; en el largo, un tubo ciego."),
+ECO = PX("apendicitis_pocus.jpg", 400, credito="Kaplan et al. · POCUS J 2025 · PMC12057466 · CC BY 4.0")
+NOTAS_ECO = [("Calibres (+) y medida en la esquina", "Izquierda: 0,683 cm en el corte corto; derecha: 0,815 cm en el largo. Normal: menos de 6 mm."),
+             ("Apéndice dilatado, de pared gruesa", "Corte corto: estructura redonda «en diana»; corte largo: tubo ciego que no se comprime."),
              ("Alvarado 5-6, niños, embarazadas y ancianos", "Se pide eco o TC para confirmar antes de operar.")]
 
 # 1 · ALVARADO
@@ -82,7 +80,7 @@ S("red", "CIR-154", "apendicitis-aguda-primer-nivel-hidratacion-antibiotico-refe
   _reg=FIX)
 
 # 3 · TRANSLUCENCIA NUCAL
-TN = PX("tn_down.jpg", 262, [("flecha", 0.30, 0.70, 0.66, 0.88, "TN: grosor de la nuca")], credito="Moroder · Wikimedia Commons · CC BY-SA 3.0")
+TN = PX("tn_down.jpg", 262, credito="Moroder · Wikimedia Commons · CC BY-SA 3.0")
 S("cronologia", "GIN-274", "translucencia-nucal-cronologia-tamizaje-prenatal",
   "Translucencia nucal aumentada: qué detecta cada prueba prenatal",
   "Tamizaje prenatal del primer trimestre · translucencia nucal", "GINECO-OBSTETRICIA ENAM",
@@ -97,7 +95,7 @@ S("cronologia", "GIN-274", "translucencia-nucal-cronologia-tamizaje-prenatal",
   "Williams Obstetricia 26.ª ed.; Fetal Medicine Foundation; ACOG Practice Bulletin 226 (2020); ISUOG, ecografía del primer trimestre (2023).",
   d=dict(rotulo="Hallazgo del caso y a qué riesgo apunta",
          ilu_titulo="Ecografía real de 11+6 semanas", ilu=lambda s, x, y: _img(s, x, y, TN),
-         ilu_pie="Feto con trisomía 21: la TN se mide entre los calibres (+) sobre la nuca.",
+         ilu_pie="Corte sagital: los calibres amarillos (+) miden el grosor de la nuca, abajo a la izquierda.",
          tag="ESTE CASO",
          claves=[("TN aumentada → cromosomopatía fetal",
                   ["Principal riesgo: trisomía 21; también 18, 13 y cardiopatías.",
@@ -114,36 +112,27 @@ S("cronologia", "GIN-274", "translucencia-nucal-cronologia-tamizaje-prenatal",
                 (28, 36, "Biometría y Doppler", "crecimiento fetal", False)]),
   _reg=FIX)
 
-# 4 · DISPLASIA DE CADERA
-RX = PX("ddc_rx_es.jpg", 420, credito="Sha et al. · Front Pediatr 2023 · CC BY 4.0 (rótulos en español)")
-GRAF = PX("graf_es.jpg", 284, [("flecha", 0.12, 0.38, 0.18, 0.12, "Línea base"), ("flecha", 0.58, 0.35, 0.74, 0.70, "Cabeza femoral")], credito="Marvi et al. · Pak J Med Sci 2025 · CC BY 3.0")
-S("arbol_imagen", "TRA-057", "displasia-cadera-lactante-9-meses-rx-pelvis-hilgenreiner-perkins",
+# 4 · DISPLASIA DE CADERA (lectura guiada de la radiografía)
+RX = PX("ddc_rx_limpia.jpg", 420, credito="Sha et al. · Front Pediatr 2023 · CC BY 4.0 · rótulos retirados")
+S("lectura", "TRA-057", "displasia-cadera-lactante-9-meses-rx-pelvis-hilgenreiner-perkins",
   "Displasia de cadera a los 9 meses: la Rx de pelvis y cómo leerla",
   "Ortopedia infantil · displasia del desarrollo de la cadera (DDC)", "TRAUMATOLOGÍA ENAM",
   ("Displasia del desarrollo de la cadera",
    ["Cadera inestable o luxada desde el nacimiento; riesgo: parto podálico, sexo femenino, primogénito, familiar con DDC.",
-    "El examen depende de la edad: ecografía antes de que osifique la cabeza femoral, Rx después."]),
+    "Antes de los 4-6 meses se pide ecografía (Graf); después, radiografía de pelvis."]),
   ("Lactante de 9 meses, parto podálico", ["Arrastra la pierna izquierda al gatear.", "Abducción limitada y miembro inferior izquierdo más corto."]),
-  ["< 4-6 meses: ecografía de caderas (Graf); > 4-6 meses: Rx AP de pelvis. Mal pronóstico si el diagnóstico es tardío.",
-   "Rx normal: núcleo femoral bajo Hilgenreiner y medial a Perkin; en DDC sube y se va afuera. Índice acetabular > 30° al año.",
-   "Bandera roja: abducción limitada, pliegues asimétricos, acortamiento, signo de Galeazzi; Ortolani/Barlow solo en el recién nacido.",
-   "Riesgo: podálico, mujer, primogénito, antecedente familiar; tamizaje con eco a las 4-6 semanas."],
-  "Tachdjian Ortopedia Pediátrica 6.ª ed.; guía AAOS de displasia del desarrollo de la cadera; Sha et al., Front Pediatr 2023.",
-  d=dict(rotulo="Qué examen pedir según la edad", tag="ESTE CASO",
-         pregunta="¿Ya se osificó el núcleo de la cabeza femoral? (aparece hacia los 4-6 meses)",
-         ramas=[("NO: < 4-6 meses", "Ecografía de caderas (Graf)",
-                 ["El núcleo aún es cartílago: no se ve en la Rx. Se mide el ángulo α:",
-                  "I: α ≥ 60° normal · IIa: 50-59° (< 12 sem) · IIb: 50-59° (> 12 sem) · IIc: 43-49° · D, III y IV: < 43°.",
-                  "Conducta: I alta; IIa control; IIb y IIc arnés de Pavlik; D-IV ortopedia infantil.",
-                  "Ortolani reduce la cadera luxada y Barlow la luxa: solo en el recién nacido."]),
-                ("SÍ: 9 meses", "Rx AP de pelvis y caderas",
-                 ["Con el núcleo ya osificado, la Rx muestra dónde está la cabeza femoral respecto del acetábulo."])],
-         ilu=lambda s, x, y: _img(s, x, y, RX), IW=420, IH=RX["H"] + 18, izq_img=GRAF,
-         ilu_pie="Rx de pelvis con las líneas de referencia. En la DDC el núcleo queda arriba y afuera (fuera del cuadrante inferointerno).",
-         luego_titulo="Después del diagnóstico: tratamiento según la edad",
-         luego=[("Menos de 6 meses", ["Arnés de Pavlik si la cadera se reduce."], False),
-                ("6 a 18 meses", ["Reducción cerrada bajo anestesia (abierta si no se logra) y yeso en espica."], True),
-                ("Más de 18 meses", ["Reducción abierta, a menudo con osteotomía de pelvis o fémur."], False)]),
+  ["< 4-6 meses: ecografía de caderas (Graf: I normal α ≥ 60°; IIa inmadura; IIb-IIc displasia 43-59°; D, III y IV luxada < 43°). > 4-6 meses: Rx AP de pelvis.",
+   "Rx normal: núcleo femoral bajo Hilgenreiner y por dentro de Perkin; índice acetabular > 30° al año sugiere displasia.",
+   "Bandera roja: abducción limitada, pliegues asimétricos, acortamiento, Galeazzi (+); Ortolani y Barlow solo en el recién nacido.",
+   "Tratamiento: < 6 meses arnés de Pavlik; 6-18 meses reducción cerrada y yeso; > 18 meses reducción abierta."],
+  "Tachdjian Ortopedia Pediátrica 6.ª ed.; AAOS, guía de DDC; Sha et al., Front Pediatr 2023.",
+  d=dict(rotulo="Cómo leer la radiografía de pelvis", img_titulo="Rx AP de pelvis",
+         img=RX, pines=[], img_pie="Imagen de referencia de la técnica de medición (no es el paciente).",
+         pasos=[("Línea roja horizontal: Hilgenreiner", "Une los cartílagos trirradiados de ambas caderas.", False),
+                ("Líneas verdes verticales: Perkin", "Bajan desde el borde externo del acetábulo.", False),
+                ("Línea celeste: índice acetabular", "Ángulo del techo con Hilgenreiner: > 30° al año sugiere displasia.", False),
+                ("Punto naranja: núcleo de la cabeza femoral", "Normal: abajo de la roja y por dentro de la verde. En la DDC sube y sale (este caso: izquierda).", True)],
+         veredicto=("A los 9 meses el núcleo ya se osificó: se pide Rx AP de pelvis", "Cadera luxada a esta edad: reducción cerrada bajo anestesia y yeso en espica.")),
   tabla=("Opciones de la pregunta",
          [("Rx de pelvis", True), ("Arnés de Pavlik", False), ("Ecografía de caderas", False), ("Observar 3 meses", False)],
          [("Cuándo sirve", ["Desde los 4-6 meses, con núcleo osificado", "Menores de 6 meses con cadera reducible", "Menores de 4-6 meses", "Nunca con un examen anormal"]),

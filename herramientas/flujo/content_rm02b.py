@@ -40,7 +40,7 @@ S("alarma", "RM-CIR-107", "El neumotórax a tensión se descomprime en el acto c
   op=("¿Inmediato?", ["No: no trata el aire pleural", "Sí: libera la tensión al instante", "No: es el paso siguiente y más lento", "No: aumenta la tensión", "No: es excesivo para el inicio"],
       {0: "Tracción costal", 1: "Descompresión con angiocatéter", 2: "Toracotomía mínima", 3: "Ventilación asistida", 4: "Toracotomía abierta"}),
   d=dict(rotulo="Signos de alarma del neumotórax a tensión", lista_titulo="Signos de alarma", img_titulo="Rx de ejemplo: neumotórax derecho",
-         img=PX("tension_neumo.jpg", 330, credito="Olukorode et al. · Front Reprod Health 2026 · CC BY 4.0", marcas=[("flecha", 0.20, 0.42, 0.62, 0.18, "Aire sin trama pulmonar"), ("flecha", 0.34, 0.60, 0.66, 0.78, "Pulmón colapsado"), ("flecha", 0.52, 0.50, 0.70, 0.40, "Mediastino")]),
+         img=PX("tension_neumo.jpg", 330, credito="Olukorode et al. · Front Reprod Health 2026 · CC BY 4.0"),
          signos=[("Hipotensión y taquicardia", "PA 80/50", True), ("Hipoxemia", "SatO₂ 85 %", True), ("Tráquea desviada", "Hacia el lado sano", True),
                  ("Murmullo vesicular ausente", "Hemitórax izquierdo", True), ("Yugulares ingurgitadas", "Puede faltar si hay hipovolemia", None), ("Hiperresonancia a la percusión", "Del lado afectado", None), ("Enfisema subcutáneo", "Si hay fuga de aire a los tejidos", None)],
          accion=("Descompresión con angiocatéter", "Luego tubo de tórax; sin esperar radiografía."), accion_rotulo="Si hay uno o más",
@@ -58,9 +58,9 @@ S("lectura", "RM-CIR-108", "En el politraumatizado hipotenso con anemia el prime
   op=("¿Estudio inicial?", ["No: es invasivo y casi no se usa", "No: no es un estudio de trauma", "Sí: rápida, a la cabecera y repetible", "No: exige traslado y estabilidad", "No: de baja sensibilidad"],
       {0: "Lavado peritoneal", 1: "Paracentesis", 2: "Ecografía abdominal", 3: "Tomografía abdominal", 4: "Radiografía de abdomen"}),
   d=dict(rotulo="Lee la ecografía en el espacio hepatorrenal", img_titulo="FAST: espacio de Morison",
-         img=PX("fast_morison.jpg", 340, [("flecha", 0.62, 0.38, 0.30, 0.15, "Líquido libre")]),
-         pines=[(0.40, 0.60), (0.55, 0.30)], img_pie="Franja negra entre el hígado y el riñón derecho.",
-         pasos=[("Riñón derecho", "Estructura ovalada debajo del hígado.", False), ("Líquido libre (anecoico)", "Franja negra en el espacio de Morison: hemoperitoneo.", True),
+         img=PX("fast_morison.jpg", 340),
+         pines=[], img_pie="La flecha blanca de la imagen marca el líquido libre.",
+         pasos=[("Hígado y riñón derecho", "Se ven separados por una franja; los calibres (+) miden esa franja.", False), ("Flecha blanca: líquido libre (anecoico)", "Franja negra en el espacio de Morison: hemoperitoneo.", True),
                 ("Si es inestable", "Laparotomía sin más imágenes.", False)],
          veredicto=("Hipotensión + FAST positiva = quirófano", "La TC solo se hace con el paciente estable.")))
 
@@ -77,10 +77,10 @@ S("triptico", "RM-CIR-112", "Una masa dolorosa bajo el ligamento inguinal con ob
   op=("¿Qué hernia?", ["No: es lateral al recto y arriba", "No: queda sobre el ligamento inguinal", "No: queda sobre el ligamento inguinal", "No: es profunda y se nota por la obstrucción", "Sí: bajo el ligamento, violácea y obstructiva"],
       {0: "Semilunar", 1: "Inguinal estrangulada", 2: "Inguinal encarcelada", 3: "Obturatriz", 4: "Femoral estrangulada"}),
   d=dict(rotulo="Cómo se ve la hernia femoral en la tomografía",
-         imgs=[(PX("hernia_fem_1.jpg", 440, [("flecha", 0.37, 0.14, 0.66, 0.30, "Saco herniario"), ("flecha", 0.29, 0.25, 0.14, 0.62, "Vasos femorales")], credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
-                "Corte axial", ["La masa queda por delante de los vasos femorales (*), en la ingle."], True),
-               (PX("hernia_fem_3.jpg", 290, [("flecha", 0.34, 0.745, 0.12, 0.90, "Hernia femoral")], credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
-                "Corte coronal", ["El saco desciende por dentro de la vena femoral (caso con apéndice en el saco: hernia de De Garengeot)."], False)],
+         imgs=[(PX("hernia_fem_1.jpg", 440, credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
+                "Corte axial", ["La flecha señala la masa en la ingle, por delante de los vasos femorales (asterisco)."], True),
+               (PX("hernia_fem_3.jpg", 290, credito="Vo et al. · Radiol Case Rep 2026 · CC BY 4.0"),
+                "Corte coronal", ["La flecha señala el saco herniario junto a los vasos femorales (caso con apéndice en el saco: hernia de De Garengeot)."], False)],
          veredicto=("Masa bajo el ligamento + obstrucción = hernia femoral estrangulada", "Cirugía urgente: resecar el asa si hay necrosis y reparar el defecto.")))
 
 # 5 · LECTURA · absceso hepático (TC)
@@ -96,31 +96,11 @@ S("lectura", "RM-CIR-110", "Un absceso hepático posoperatorio con ecografía no
   op=("¿Examen de elección?", ["Sí: sensible, define foco y guía el drenaje", "No: se reserva a la patología biliar", "No: alternativa si hay contraindicación", "No: de poca utilidad en los abscesos", "No: no muestra el hígado"],
       {0: "Tomografía multicorte", 1: "Colangiografía endoscópica", 2: "Resonancia magnética", 3: "Gammagrafía hepática", 4: "Radiografía de abdomen"}),
   d=dict(rotulo="Cómo se ve el absceso en la tomografía", img_titulo="TC con contraste: absceso hepático",
-         img=PX("absceso_hep_ct.jpg", 360, credito="Paz y Mino et al. · J Med Cases 2026 · CC BY 4.0", marcas=[("flecha", 0.25, 0.46, 0.60, 0.86, "Lesión de 43,8 mm"), ("flecha", 0.15, 0.70, 0.10, 0.92, "Hígado")]),
-         pines=[], img_pie="Lesión hipodensa en el lóbulo derecho del hígado (TC con contraste).",
-         pasos=[("Lesión hipodensa con borde que realza", "Es la colección purulenta dentro del hígado.", True), ("Busca gas y tabiques", "Orientan a anaerobios o a un absceso complejo.", False),
+         img=PX("absceso_hep_ct.jpg", 360, credito="Paz y Mino et al. · J Med Cases 2026 · CC BY 4.0"),
+         pines=[], img_pie="La flecha verde señala la lesión; la medida (43,8 mm) viene en la imagen.",
+         pasos=[("Flecha verde: lesión hipodensa", "Colección dentro del hígado, de 43,8 mm según la medida de la imagen.", True), ("Busca gas y tabiques", "Orientan a anaerobios o a un absceso complejo.", False),
                 ("Siguiente paso", "Drenaje percutáneo guiado más antibióticos.", False)],
          veredicto=("Fiebre + hepatomegalia dolorosa + foco abdominal = TC", "La ecografía normal no descarta el absceso.")))
-
-# 6 · TARJETAS · Hinchey (TC de diverticulitis)
-S("tarjetas", "RM-CIR-118", "El absceso pélvico por diverticulitis complicada es Hinchey II",
-  "Diverticulitis · clasificación de Hinchey",
-  ("Diverticulitis complicada", ["Inflamación del divertículo con absceso, perforación o peritonitis.", "La clasificación de Hinchey guía la conducta."]),
-  ("Pregunta de clasificación", ["Colección pélvica de secreción purulenta por diverticulitis complicada.", "¿Qué estadio de Hinchey es?"]),
-  ["Hinchey I: absceso pericólico < 5 cm · II: absceso pélvico o a distancia · III: peritonitis purulenta · IV: peritonitis fecal.",
-   "Conducta: I y II pequeños, antibióticos; II > 4-5 cm, drenaje percutáneo guiado por TC; III-IV, cirugía (Hartmann o lavado en III).",
-   "Bandera roja: peritonitis, fiebre alta, shock o fallo del drenaje = cirugía urgente. La TC es el estudio de elección."],
-  "WSES, diverticulitis aguda (2020); ASCRS, enfermedad diverticular (2020); ESCP (2020); Hellerhoff, Wikimedia Commons.",
-  op=("¿Estadio?", ["Sí: absceso pélvico o a distancia", "No: es la peritonitis purulenta", "No: es la peritonitis fecal", "No: no es estadio de la clasificación original", "No: no es estadio de la clasificación original"],
-      {0: "II", 1: "III", 2: "IV", 3: "IIIC", 4: "IIIA"}),
-  d=dict(rotulo="Los cuatro estadios de Hinchey", ans=1,
-         cards=[dict(titulo="Hinchey I", datos=[("Hallazgo", "Absceso pericólico o flemón", False), ("Tamaño", "Menor de 5 cm", False), ("Manejo", "Antibióticos", False)], pie="Absceso pequeño."),
-                dict(titulo="Hinchey II", datos=[("Hallazgo", "Absceso pélvico o a distancia", True), ("Tamaño", "Mayor de 4-5 cm", True), ("Manejo", "Drenaje percutáneo + antibióticos", True)], pie="Este caso."),
-                dict(titulo="Hinchey III", datos=[("Hallazgo", "Peritonitis purulenta", False), ("Clínica", "Dolor difuso, fiebre", False), ("Manejo", "Cirugía: lavado o Hartmann", False)], pie="Peritonitis generalizada."),
-                dict(titulo="Hinchey IV", datos=[("Hallazgo", "Peritonitis fecal", False), ("Clínica", "Shock séptico", False), ("Manejo", "Hartmann de urgencia", False)], pie="La más grave.")]),
-  banda=B("Así se ve en la tomografía", PX("diverticulitis_ct.jpg", 300, [("flecha", 0.58, 0.28, 0.80, 0.55, "Absceso pericólico")]),
-          [("Flecha roja", "Marca una pequeña colección con pared (absceso) junto al colon inflamado."), ("Diverticulitis con absceso", "Corresponde al inicio de la escala (Hinchey I); el pélvico es el II."),
-           ("Estudio de elección", "TC con contraste: clasifica y guía el drenaje.")], pie="TC axial de diverticulitis sigmoidea"))
 
 # 7 · CUADRÍCULA · úlcera perforada
 S("cuadricula", "RM-CIR-089", "En la úlcera perforada la radiografía de tórax de pie muestra aire libre bajo el diafragma",
@@ -139,8 +119,8 @@ S("cuadricula", "RM-CIR-089", "En la úlcera perforada la radiografía de tórax
                  ("Infarto inferior", ["Dolor epigástrico con diaforesis", "ECG con ST elevado en II, III, aVF"], None, False),
                  ("Obstrucción intestinal", ["Dolor cólico con distensión", "Niveles hidroaéreos"], None, False)],
          veredicto=("Dolor súbito + abdomen en tabla = pedir Rx de tórax de pie", "El neumoperitoneo confirma la perforación.")),
-  banda=B("Así se ve el aire libre", PX("neumoperitoneo_pmc.jpg", 340, [("flecha", 0.34, 0.60, 0.26, 0.28, "Aire libre derecho"), ("flecha", 0.80, 0.58, 0.74, 0.28, "Aire libre izquierdo")], credito="Serafio-Gómez et al. · Cureus 2026 · CC BY 4.0"),
-          [("Semiluna negra bajo cada diafragma", "El aire libre sube y se ubica bajo las cúpulas diafragmáticas (flechas)."), ("Si la Rx es normal y la sospecha alta", "Se pide TC: detecta aire en pequeña cantidad."),
+  banda=B("Así se ve el aire libre", PX("neumoperitoneo_pmc.jpg", 340, credito="Serafio-Gómez et al. · Cureus 2026 · CC BY 4.0"),
+          [("Flechas blancas: aire libre", "Franja negra bajo cada cúpula del diafragma; el aire sube cuando el paciente está de pie."), ("Si la Rx es normal y la sospecha alta", "Se pide TC: detecta aire en pequeña cantidad."),
            ("No se pide primero", "Ecografía, amilasa ni decúbito: no confirman la perforación.")], pie="Rx de tórax de pie con neumoperitoneo bilateral"))
 
 # 8 · DOS PREGUNTAS · trauma estable con líquido mínimo
