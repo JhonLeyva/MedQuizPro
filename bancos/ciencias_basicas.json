@@ -11208,6 +11208,368 @@
       "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Ganong Fisiología Médica 26.ª ed. (2019)",
       "categoria": "Fisiología",
       "nota_revision": "Clave corregida: el OCR marcaba E (Intercaladas), pero el bloque estaba mezclado con otra pregunta y marcaba «sin respuesta»; la correcta es D (Parietales). Opciones reconstruidas."
+    },
+    {
+      "id": "RM-CB-056",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿En qué segmento del tracto gastrointestinal ocurre la absorción de hierro?",
+      "opciones": [
+        "Íleon.",
+        "Estómago.",
+        "Esófago.",
+        "Colon.",
+        "Duodeno."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "El hierro de la dieta se absorbe sobre todo en el duodeno y la porción proximal del yeyuno, donde el borde en cepillo del enterocito tiene los transportadores específicos. El hierro hemo, proveniente de carnes, se absorbe de forma directa por un transportador propio y con alta eficiencia; el hierro no hemo, de los vegetales, debe estar en forma ferrosa, para lo cual el citocromo B duodenal (Dcytb) reduce el Fe3+ a Fe2+ y el transportador DMT1 lo introduce a la célula. Dentro del enterocito el hierro se almacena como ferritina o sale a la sangre por la ferroportina, regulada por la hepcidina, que la bloquea cuando hay sobrecarga o inflamación. Se une luego a la transferrina para su transporte. La acidez gástrica y la vitamina C favorecen la absorción, mientras que los fitatos, los taninos, el calcio y los inhibidores de bomba de protones la reducen. El estómago prepara el hierro al liberarlo de los alimentos, pero no lo absorbe, y el íleon y el colon no tienen papel relevante. Por eso la cirugía bariátrica con exclusión duodenal, la enfermedad celíaca y la gastrectomía producen déficit de hierro. Perla clínica: ante anemia ferropénica sin causa clara en un adulto se debe descartar celiaquía y pérdida digestiva oculta.",
+      "comentario": "El hierro de la dieta se absorbe sobre todo en el duodeno y la porción proximal del yeyuno, donde el borde en cepillo del enterocito tiene los transportadores específicos. El hierro hemo, proveniente de carnes, se absorbe de forma directa por un transportador propio y con alta eficiencia; el hierro no hemo, de los vegetales, debe estar en forma ferrosa, para lo cual el citocromo B duodenal (Dcytb) reduce el Fe3+ a Fe2+ y el transportador DMT1 lo introduce a la célula. Dentro del enterocito el hierro se almacena como ferritina o sale a la sangre por la ferroportina, regulada por la hepcidina, que la bloquea cuando hay sobrecarga o inflamación. Se une luego a la transferrina para su transporte. La acidez gástrica y la vitamina C favorecen la absorción, mientras que los fitatos, los taninos, el calcio y los inhibidores de bomba de protones la reducen. El estómago prepara el hierro al liberarlo de los alimentos, pero no lo absorbe, y el íleon y el colon no tienen papel relevante. Por eso la cirugía bariátrica con exclusión duodenal, la enfermedad celíaca y la gastrectomía producen déficit de hierro. Perla clínica: ante anemia ferropénica sin causa clara en un adulto se debe descartar celiaquía y pérdida digestiva oculta.",
+      "tema": "Sitio de absorción del hierro",
+      "año": 2019,
+      "fuentes": "Harrison, Principios de Medicina Interna, 21.ª ed. (2022); Guyton y Hall, Tratado de Fisiología Médica, 14.ª ed. (2021); Williams Hematology, 10.ª ed. (2021)",
+      "categoria": "Fisiología",
+      "nota_revision": "El libro lo clasifica como nefrología; el tema es fisiología digestiva y se archivó en ciencias básicas."
+    },
+    {
+      "id": "RM-CB-057",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿A partir de qué estructura se desarrollan las células yuxtaglomerulares?",
+      "opciones": [
+        "Arteriola aferente.",
+        "Mesangio.",
+        "Túbulo proximal.",
+        "Capilar peritubular.",
+        "Asa de Henle."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Las células yuxtaglomerulares, o granulares, son células musculares lisas modificadas de la túnica media de la arteriola aferente, justo antes de que esta penetre en el glomérulo; contienen gránulos de secreción con renina y su citoplasma es rico en retículo endoplásmico y aparato de Golgi. Forman parte del aparato yuxtaglomerular junto con la mácula densa, una placa de células epiteliales especializadas de la porción final del asa gruesa ascendente que detecta la concentración de cloruro de sodio en el túbulo, y con las células mesangiales extraglomerulares o de Lacis. La renina se libera en tres situaciones: disminución de la presión de perfusión que sensan las propias células como barorreceptores, descenso del cloruro de sodio que llega a la mácula densa y estimulación simpática beta-1. La renina transforma el angiotensinógeno en angiotensina I, la ECA genera angiotensina II y esta estimula la aldosterona y eleva la presión arterial y la reabsorción de sodio. En la retroalimentación tubuloglomerular, el aumento del cloruro en la mácula densa contrae la arteriola aferente y reduce la filtración. El mesangio sostiene al glomérulo y tiene función fagocítica, pero no produce renina en condiciones normales. El tumor secretor de renina se denomina reninoma y causa hipertensión con hipopotasemia. Perla clínica: los inhibidores de la ECA dilatan la arteriola eferente y pueden elevar la creatinina en la estenosis bilateral de arteria renal.",
+      "comentario": "Las células yuxtaglomerulares, o granulares, son células musculares lisas modificadas de la túnica media de la arteriola aferente, justo antes de que esta penetre en el glomérulo; contienen gránulos de secreción con renina y su citoplasma es rico en retículo endoplásmico y aparato de Golgi. Forman parte del aparato yuxtaglomerular junto con la mácula densa, una placa de células epiteliales especializadas de la porción final del asa gruesa ascendente que detecta la concentración de cloruro de sodio en el túbulo, y con las células mesangiales extraglomerulares o de Lacis. La renina se libera en tres situaciones: disminución de la presión de perfusión que sensan las propias células como barorreceptores, descenso del cloruro de sodio que llega a la mácula densa y estimulación simpática beta-1. La renina transforma el angiotensinógeno en angiotensina I, la ECA genera angiotensina II y esta estimula la aldosterona y eleva la presión arterial y la reabsorción de sodio. En la retroalimentación tubuloglomerular, el aumento del cloruro en la mácula densa contrae la arteriola aferente y reduce la filtración. El mesangio sostiene al glomérulo y tiene función fagocítica, pero no produce renina en condiciones normales. El tumor secretor de renina se denomina reninoma y causa hipertensión con hipopotasemia. Perla clínica: los inhibidores de la ECA dilatan la arteriola eferente y pueden elevar la creatinina en la estenosis bilateral de arteria renal.",
+      "tema": "Origen de las células yuxtaglomerulares",
+      "año": 2016,
+      "fuentes": "Guyton y Hall, Tratado de Fisiología Médica, 14.ª ed. (2021); Ross y Pawlina, Histología: texto y atlas, 8.ª ed. (2020); Langman, Embriología Médica, 14.ª ed. (2019)",
+      "categoria": "Histología"
+    },
+    {
+      "id": "RM-CB-058",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿En dónde se ubican las células intercaladas o intercalares renales?",
+      "opciones": [
+        "Cápsula de Bowman.",
+        "Túbulo colector.",
+        "Asa de Henle.",
+        "Túbulo proximal.",
+        "Túbulo distal."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El epitelio del túbulo colector cortical y medular contiene dos tipos celulares con funciones distintas. Las células principales, mayoritarias, reabsorben sodio por el canal ENaC bajo el efecto de la aldosterona, secretan potasio por el canal ROMK y reabsorben agua mediante acuaporina 2, regulada por la hormona antidiurética. Las células intercaladas, en cambio, regulan el equilibrio ácido-base: las de tipo A secretan hidrogeniones mediante la H+-ATPasa y la H+/K+-ATPasa y reabsorben bicarbonato por el intercambiador cloro-bicarbonato basolateral, de modo que acidifican la orina; las de tipo B secretan bicarbonato en la alcalosis. La anhidrasa carbónica interviene en este proceso. Su disfunción causa acidosis tubular distal (tipo 1), con pH urinario alto, hipopotasemia y nefrocalcinosis. El asa de Henle y el túbulo proximal tienen otros tipos celulares, y la cápsula de Bowman pertenece al glomérulo y no al sistema tubular. En rigor, el segmento conector y la parte final del túbulo distal también contienen células intercaladas, pero la ubicación clásica y la que pide la pregunta es el colector. Perla: la espironolactona y la amilorida actúan sobre las células principales y pueden producir hiperpotasemia.",
+      "comentario": "El epitelio del túbulo colector cortical y medular contiene dos tipos celulares con funciones distintas. Las células principales, mayoritarias, reabsorben sodio por el canal ENaC bajo el efecto de la aldosterona, secretan potasio por el canal ROMK y reabsorben agua mediante acuaporina 2, regulada por la hormona antidiurética. Las células intercaladas, en cambio, regulan el equilibrio ácido-base: las de tipo A secretan hidrogeniones mediante la H+-ATPasa y la H+/K+-ATPasa y reabsorben bicarbonato por el intercambiador cloro-bicarbonato basolateral, de modo que acidifican la orina; las de tipo B secretan bicarbonato en la alcalosis. La anhidrasa carbónica interviene en este proceso. Su disfunción causa acidosis tubular distal (tipo 1), con pH urinario alto, hipopotasemia y nefrocalcinosis. El asa de Henle y el túbulo proximal tienen otros tipos celulares, y la cápsula de Bowman pertenece al glomérulo y no al sistema tubular. En rigor, el segmento conector y la parte final del túbulo distal también contienen células intercaladas, pero la ubicación clásica y la que pide la pregunta es el colector. Perla: la espironolactona y la amilorida actúan sobre las células principales y pueden producir hiperpotasemia.",
+      "tema": "Localización de las células intercaladas renales",
+      "año": 2019,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Brenner y Rector, El Riñón 11.ª ed. (2020)",
+      "categoria": "Fisiología",
+      "nota_revision": "Se reemplazó la opción A (Túbulo conector) por «Cápsula de Bowman», porque el segmento conector también contiene células intercaladas y habría dos respuestas defendibles."
+    },
+    {
+      "id": "RM-CB-059",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "En el asma bronquial, ¿cuál de los mediadores de la respuesta asmática aguda produce broncodilatación?",
+      "opciones": [
+        "Tromboxano A2.",
+        "Acetilcolina.",
+        "Histamina.",
+        "Leucotrienos.",
+        "Lipoxinas."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "En la fase inmediata del asma, el alérgeno une la IgE fijada a los mastocitos y desencadena su degranulación con liberación de histamina, triptasa, prostaglandina D2 y cisteinil-leucotrienos (LTC4, LTD4 y LTE4). Estos mediadores contraen el músculo liso bronquial, aumentan la permeabilidad vascular, favorecen el edema de la pared y estimulan la secreción de moco. A ellos se suma el tono vagal: la acetilcolina actúa sobre receptores muscarínicos M3 y causa broncoconstricción, por lo que el bromuro de ipratropio y el tiotropio son útiles. El tromboxano A2 es otro potente constrictor. En contraposición, las lipoxinas son mediadores lipídicos derivados del ácido araquidónico (lipoxina A4) que actúan como señales de resolución de la inflamación: antagonizan los efectos de los leucotrienos, inhiben el reclutamiento de eosinófilos y neutrófilos y se asocian con efecto broncoprotector; su producción está disminuida en el asma grave. Los beta-2 agonistas y la adrenalina son los broncodilatadores clínicos, mientras que el óxido nítrico exhalado se utiliza como marcador de inflamación eosinofílica. Perla: la fracción espirada de óxido nítrico elevada predice buena respuesta a corticoides inhalados.",
+      "comentario": "En la fase inmediata del asma, el alérgeno une la IgE fijada a los mastocitos y desencadena su degranulación con liberación de histamina, triptasa, prostaglandina D2 y cisteinil-leucotrienos (LTC4, LTD4 y LTE4). Estos mediadores contraen el músculo liso bronquial, aumentan la permeabilidad vascular, favorecen el edema de la pared y estimulan la secreción de moco. A ellos se suma el tono vagal: la acetilcolina actúa sobre receptores muscarínicos M3 y causa broncoconstricción, por lo que el bromuro de ipratropio y el tiotropio son útiles. El tromboxano A2 es otro potente constrictor. En contraposición, las lipoxinas son mediadores lipídicos derivados del ácido araquidónico (lipoxina A4) que actúan como señales de resolución de la inflamación: antagonizan los efectos de los leucotrienos, inhiben el reclutamiento de eosinófilos y neutrófilos y se asocian con efecto broncoprotector; su producción está disminuida en el asma grave. Los beta-2 agonistas y la adrenalina son los broncodilatadores clínicos, mientras que el óxido nítrico exhalado se utiliza como marcador de inflamación eosinofílica. Perla: la fracción espirada de óxido nítrico elevada predice buena respuesta a corticoides inhalados.",
+      "tema": "Mediador de la respuesta asmática con efecto broncodilatador",
+      "año": 2014,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); GINA, Global Strategy for Asthma Management and Prevention (informe 2025)",
+      "categoria": "Fisiología",
+      "nota_revision": "Pregunta dudosa: el óxido nítrico (opción A del libro) también tiene efecto broncodilatador fisiológico; se reemplazó por «Tromboxano A2» (constrictor) para que quede una sola respuesta. Se mantiene la clave E del libro (lipoxinas), cuyo efecto broncodilatador directo es de menor evidencia."
+    },
+    {
+      "id": "RM-CB-060",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es el volumen, en mL, de aire corriente mínimo necesario para producir el reflejo de Hering-Breuer?",
+      "opciones": [
+        "1500.",
+        "1000.",
+        "1250.",
+        "1750.",
+        "2000."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El reflejo de insuflación de Hering-Breuer es un mecanismo protector contra la sobredistensión pulmonar. Los receptores de estiramiento de adaptación lenta, ubicados en el músculo liso de bronquios y bronquiolos, se activan cuando el volumen corriente supera aproximadamente 1,5 litros; envían señales por los aferentes vagales al grupo respiratorio dorsal del bulbo y al centro apnéustico del puente, que inhiben la inspiración y permiten la espiración. Así se limita el volumen inspirado y se aumenta la frecuencia respiratoria. La vagotomía bilateral produce respiraciones más lentas y profundas en los animales. En el adulto en reposo, con un volumen corriente de 500 mL, el reflejo no es relevante; se activa en el ejercicio intenso y en los recién nacidos, y se invoca en la ventilación mecánica con volúmenes altos, donde la sobredistensión causa volutrauma. Los demás valores propuestos (1000, 1250, 1750 y 2000 mL) no corresponden al umbral descrito. El centro neumotáxico del puente, por su parte, limita la duración de la inspiración y regula la frecuencia respiratoria. Perla: en la lesión pulmonar aguda, el volumen corriente protector es de 6 mL/kg de peso predicho.",
+      "comentario": "El reflejo de insuflación de Hering-Breuer es un mecanismo protector contra la sobredistensión pulmonar. Los receptores de estiramiento de adaptación lenta, ubicados en el músculo liso de bronquios y bronquiolos, se activan cuando el volumen corriente supera aproximadamente 1,5 litros; envían señales por los aferentes vagales al grupo respiratorio dorsal del bulbo y al centro apnéustico del puente, que inhiben la inspiración y permiten la espiración. Así se limita el volumen inspirado y se aumenta la frecuencia respiratoria. La vagotomía bilateral produce respiraciones más lentas y profundas en los animales. En el adulto en reposo, con un volumen corriente de 500 mL, el reflejo no es relevante; se activa en el ejercicio intenso y en los recién nacidos, y se invoca en la ventilación mecánica con volúmenes altos, donde la sobredistensión causa volutrauma. Los demás valores propuestos (1000, 1250, 1750 y 2000 mL) no corresponden al umbral descrito. El centro neumotáxico del puente, por su parte, limita la duración de la inspiración y regula la frecuencia respiratoria. Perla: en la lesión pulmonar aguda, el volumen corriente protector es de 6 mL/kg de peso predicho.",
+      "tema": "Volumen corriente para el reflejo de Hering-Breuer",
+      "año": 2014,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Ganong Fisiología Médica 26.ª ed. (2019)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-061",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿Qué células del epitelio respiratorio son indiferenciadas y actúan como células madre para reemplazar a otras células muertas?",
+      "opciones": [
+        "Basales.",
+        "Cilíndricas ciliadas.",
+        "Serosas.",
+        "En cepillo.",
+        "Caliciformes."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El epitelio de la tráquea y los bronquios es seudoestratificado cilíndrico ciliado con células caliciformes. Todas sus células se apoyan sobre la membrana basal, aunque no todas alcanzan la luz. Las células basales, pequeñas y redondeadas, situadas junto a la membrana basal, constituyen la población de células madre o progenitoras de la vía aérea: se dividen y se diferencian para reponer las células ciliadas, caliciformes y en cepillo tras el recambio normal o la lesión por humo, virus o agentes tóxicos (Rock y cols., PNAS 2009). Además se anclan a la membrana basal mediante hemidesmosomas. Las células ciliadas, mayoritarias, movilizan el moco hacia la faringe en el sistema mucociliar; las caliciformes secretan mucinas; las células en cepillo tienen microvellosidades y función quimiosensorial; las serosas forman parte de las glándulas submucosas y de las células de Clara o club, que actúan como progenitoras en bronquiolos. El tabaquismo induce hiperplasia de células basales y metaplasia escamosa, lesión precursora del carcinoma escamoso. Perla: en la fibrosis quística, la disfunción del canal CFTR espesa el moco y daña este sistema de defensa.",
+      "comentario": "El epitelio de la tráquea y los bronquios es seudoestratificado cilíndrico ciliado con células caliciformes. Todas sus células se apoyan sobre la membrana basal, aunque no todas alcanzan la luz. Las células basales, pequeñas y redondeadas, situadas junto a la membrana basal, constituyen la población de células madre o progenitoras de la vía aérea: se dividen y se diferencian para reponer las células ciliadas, caliciformes y en cepillo tras el recambio normal o la lesión por humo, virus o agentes tóxicos (Rock y cols., PNAS 2009). Además se anclan a la membrana basal mediante hemidesmosomas. Las células ciliadas, mayoritarias, movilizan el moco hacia la faringe en el sistema mucociliar; las caliciformes secretan mucinas; las células en cepillo tienen microvellosidades y función quimiosensorial; las serosas forman parte de las glándulas submucosas y de las células de Clara o club, que actúan como progenitoras en bronquiolos. El tabaquismo induce hiperplasia de células basales y metaplasia escamosa, lesión precursora del carcinoma escamoso. Perla: en la fibrosis quística, la disfunción del canal CFTR espesa el moco y daña este sistema de defensa.",
+      "tema": "Células basales del epitelio respiratorio",
+      "año": 2014,
+      "fuentes": "Rock JR et al., Basal cells as stem cells of the mouse trachea and human airway epithelium, Proc Natl Acad Sci USA 2009;106:12771-12775; Ross, Histología: texto y atlas 8.ª ed. (2020); Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021)",
+      "categoria": "Histología",
+      "nota_revision": "El texto del bloque venía pegado con otra pregunta (RM 2015, toracotomía); se aisló solo la pregunta 17."
+    },
+    {
+      "id": "RM-CB-062",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "El mecanismo por el cual el oxígeno atraviesa la membrana alveolocapilar se conoce como...",
+      "opciones": [
+        "Ventilación.",
+        "Transporte activo.",
+        "Gradiente de presión.",
+        "Perfusión.",
+        "Difusión."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "El intercambio gaseoso en el pulmón ocurre por difusión simple, un proceso pasivo en el que cada gas se desplaza de la zona de mayor presión parcial a la de menor presión a través de la membrana alveolocapilar, que mide cerca de 0,5 micras y consta del epitelio alveolar, la membrana basal fusionada y el endotelio capilar. La ley de Fick establece que el flujo es proporcional a la superficie de intercambio y a la diferencia de presiones, e inversamente proporcional al grosor de la membrana; la solubilidad del gas hace que el CO2 difunda unas 20 veces más rápido que el O2. El oxígeno pasa de una PO2 alveolar de unos 100 mm Hg a una PO2 venosa de 40 mm Hg y alcanza el equilibrio en el primer tercio del recorrido del capilar. La ventilación es la entrada y salida de aire a los alvéolos y la perfusión es el flujo sanguíneo pulmonar; ninguna es el mecanismo que cruza la membrana. El gradiente de presión es el impulsor, no el proceso, y el transporte activo requeriría gasto de energía, que no ocurre con los gases respiratorios. La difusión disminuye en el enfisema (pérdida de superficie), en la fibrosis intersticial y en el edema (aumento del grosor), lo que se mide con la DLCO. Perla: en el ejercicio o en altura, la limitación por difusión se vuelve evidente.",
+      "comentario": "El intercambio gaseoso en el pulmón ocurre por difusión simple, un proceso pasivo en el que cada gas se desplaza de la zona de mayor presión parcial a la de menor presión a través de la membrana alveolocapilar, que mide cerca de 0,5 micras y consta del epitelio alveolar, la membrana basal fusionada y el endotelio capilar. La ley de Fick establece que el flujo es proporcional a la superficie de intercambio y a la diferencia de presiones, e inversamente proporcional al grosor de la membrana; la solubilidad del gas hace que el CO2 difunda unas 20 veces más rápido que el O2. El oxígeno pasa de una PO2 alveolar de unos 100 mm Hg a una PO2 venosa de 40 mm Hg y alcanza el equilibrio en el primer tercio del recorrido del capilar. La ventilación es la entrada y salida de aire a los alvéolos y la perfusión es el flujo sanguíneo pulmonar; ninguna es el mecanismo que cruza la membrana. El gradiente de presión es el impulsor, no el proceso, y el transporte activo requeriría gasto de energía, que no ocurre con los gases respiratorios. La difusión disminuye en el enfisema (pérdida de superficie), en la fibrosis intersticial y en el edema (aumento del grosor), lo que se mide con la DLCO. Perla: en el ejercicio o en altura, la limitación por difusión se vuelve evidente.",
+      "tema": "Difusión de oxígeno a través de la membrana alveolocapilar",
+      "año": 2015,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); West, Fisiología respiratoria 11.ª ed. (2021)",
+      "categoria": "Fisiología",
+      "nota_revision": "La pregunta menciona la ley de Henry en el comentario del libro; la ley aplicable a la difusión a través de la membrana es la de Fick (la de Henry rige la solubilidad del gas en el líquido)."
+    },
+    {
+      "id": "RM-CB-063",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Durante el ejercicio físico, la eficacia del intercambio gaseoso de los pulmones aumenta por disminución del...",
+      "opciones": [
+        "Tiempo de difusión gaseosa.",
+        "Espacio muerto fisiológico.",
+        "Tiempo de tránsito de la sangre.",
+        "Espacio muerto anatómico.",
+        "Cortocircuito fisiológico."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El espacio muerto fisiológico es la suma del espacio muerto anatómico (cerca de 150 mL, la vía aérea de conducción) y del espacio muerto alveolar, formado por alvéolos ventilados pero poco perfundidos. Su relación con el volumen corriente (VD/VT) es de 0,2 a 0,35 en reposo. Durante el ejercicio aumenta el gasto cardiaco, se reclutan los capilares de los vértices pulmonares y mejora la perfusión de zonas antes ventiladas pero hipoperfundidas; el espacio muerto alveolar disminuye y la relación VD/VT baja hasta 0,1-0,2, de modo que la ventilación se vuelve más eficaz. El volumen corriente también aumenta, de modo que la fracción de aire malgastada es menor. El espacio muerto anatómico no varía, o incluso aumenta ligeramente con la inspiración profunda, por el ensanchamiento de las vías. El tiempo de tránsito del glóbulo rojo por el capilar se acorta con el ejercicio, pero la difusión del oxígeno sigue siendo completa salvo en atletas de élite o en la altura. El cortocircuito fisiológico tampoco explica la mejoría. El espacio muerto se eleva en la embolia pulmonar, el enfisema y la ventilación mecánica con presión positiva excesiva. Perla: en el paciente con embolia pulmonar, un dímero D bajo y un VD/VT normal permiten descartar el diagnóstico en baja probabilidad.",
+      "comentario": "El espacio muerto fisiológico es la suma del espacio muerto anatómico (cerca de 150 mL, la vía aérea de conducción) y del espacio muerto alveolar, formado por alvéolos ventilados pero poco perfundidos. Su relación con el volumen corriente (VD/VT) es de 0,2 a 0,35 en reposo. Durante el ejercicio aumenta el gasto cardiaco, se reclutan los capilares de los vértices pulmonares y mejora la perfusión de zonas antes ventiladas pero hipoperfundidas; el espacio muerto alveolar disminuye y la relación VD/VT baja hasta 0,1-0,2, de modo que la ventilación se vuelve más eficaz. El volumen corriente también aumenta, de modo que la fracción de aire malgastada es menor. El espacio muerto anatómico no varía, o incluso aumenta ligeramente con la inspiración profunda, por el ensanchamiento de las vías. El tiempo de tránsito del glóbulo rojo por el capilar se acorta con el ejercicio, pero la difusión del oxígeno sigue siendo completa salvo en atletas de élite o en la altura. El cortocircuito fisiológico tampoco explica la mejoría. El espacio muerto se eleva en la embolia pulmonar, el enfisema y la ventilación mecánica con presión positiva excesiva. Perla: en el paciente con embolia pulmonar, un dímero D bajo y un VD/VT normal permiten descartar el diagnóstico en baja probabilidad.",
+      "tema": "Espacio muerto fisiológico durante el ejercicio",
+      "año": 2015,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); West, Fisiología respiratoria 11.ª ed. (2021)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-064",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Los bronquiolos terminales de pulmones sanos carecen de células...",
+      "opciones": [
+        "Ciliadas.",
+        "Epiteliales simples.",
+        "Musculares lisas.",
+        "De Clara.",
+        "Caliciformes."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "El árbol bronquial pierde progresivamente sus componentes de sostén y secreción al llegar a la zona de conducción distal. Los bronquiolos terminales tienen un diámetro menor de 1 mm y su pared carece de cartílago, de glándulas submucosas y de células caliciformes; por eso, en condiciones normales, la mucosa no produce moco y el aclaramiento depende de las células de Clara (hoy llamadas células club) y del transporte ciliar. Están revestidos por un epitelio simple cúbico ciliado, con células de Clara dispersas que secretan proteínas protectoras (CC16), degradan toxinas mediante el citocromo P450 y funcionan como células progenitoras del epitelio bronquiolar. Poseen una capa de músculo liso bien desarrollada, que permite regular el calibre y explica la obstrucción en el asma. Por todo ello las opciones células ciliadas, epiteliales simples, musculares lisas y de Clara sí están presentes. En enfermedades como la bronquitis crónica o el asma ocurre metaplasia caliciforme, y entonces sí aparecen células productoras de moco en la vía aérea distal, lo que favorece los tapones mucosos. Después del bronquiolo terminal siguen los bronquiolos respiratorios, que ya tienen alvéolos en su pared y participan en el intercambio gaseoso. Perla clínica: la ausencia de cartílago hace que estas vías sean muy sensibles al colapso, y por eso son el sitio de la obstrucción temprana del flujo aéreo en el tabaquismo.",
+      "comentario": "El árbol bronquial pierde progresivamente sus componentes de sostén y secreción al llegar a la zona de conducción distal. Los bronquiolos terminales tienen un diámetro menor de 1 mm y su pared carece de cartílago, de glándulas submucosas y de células caliciformes; por eso, en condiciones normales, la mucosa no produce moco y el aclaramiento depende de las células de Clara (hoy llamadas células club) y del transporte ciliar. Están revestidos por un epitelio simple cúbico ciliado, con células de Clara dispersas que secretan proteínas protectoras (CC16), degradan toxinas mediante el citocromo P450 y funcionan como células progenitoras del epitelio bronquiolar. Poseen una capa de músculo liso bien desarrollada, que permite regular el calibre y explica la obstrucción en el asma. Por todo ello las opciones células ciliadas, epiteliales simples, musculares lisas y de Clara sí están presentes. En enfermedades como la bronquitis crónica o el asma ocurre metaplasia caliciforme, y entonces sí aparecen células productoras de moco en la vía aérea distal, lo que favorece los tapones mucosos. Después del bronquiolo terminal siguen los bronquiolos respiratorios, que ya tienen alvéolos en su pared y participan en el intercambio gaseoso. Perla clínica: la ausencia de cartílago hace que estas vías sean muy sensibles al colapso, y por eso son el sitio de la obstrucción temprana del flujo aéreo en el tabaquismo.",
+      "tema": "Bronquiolos terminales: ausencia de células caliciformes",
+      "año": 2019,
+      "fuentes": "Ross Histología. Texto y atlas 8.ª ed. (2020); Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Robbins y Cotran Patología estructural y funcional 10.ª ed. (2021)",
+      "categoria": "Histología"
+    },
+    {
+      "id": "RM-CB-065",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Qué fármaco actúa como antagonista competitivo de la acetilcolina endógena en los receptores muscarínicos?",
+      "opciones": [
+        "Albuterol.",
+        "Metilxantina.",
+        "Bromuro de ipratropio.",
+        "Sulfato de magnesio.",
+        "Teofilina."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El bromuro de ipratropio es una amina cuaternaria derivada de la atropina que bloquea de forma competitiva los receptores muscarínicos M1, M2 y M3 de las vías respiratorias; al impedir la acción de la acetilcolina liberada por el vago disminuye el tono broncomotor, inhibe la broncoconstricción y reduce la secreción de moco. Como es un compuesto cargado, casi no se absorbe por vía sistémica, de manera que se evitan los efectos atropínicos (sequedad bucal, retención urinaria, taquicardia) salvo la sequedad de boca y el sabor amargo. Su inicio de acción es más lento que el del salbutamol y su pico llega a los 30 a 60 minutos, por lo que en la crisis asmática grave se usa asociado a un beta-2 agonista de acción corta, con evidencia de menos hospitalizaciones. En la EPOC se prefiere el tiotropio, antagonista muscarínico de larga duración. El albuterol (salbutamol) es un agonista beta-2 que eleva el AMPc; la metilxantina y la teofilina inhiben la fosfodiesterasa y antagonizan la adenosina; el sulfato de magnesio relaja el músculo liso al bloquear el ingreso de calcio. Perla clínica: puede precipitar glaucoma de ángulo estrecho si el aerosol llega a los ojos con mascarilla mal ajustada.",
+      "comentario": "El bromuro de ipratropio es una amina cuaternaria derivada de la atropina que bloquea de forma competitiva los receptores muscarínicos M1, M2 y M3 de las vías respiratorias; al impedir la acción de la acetilcolina liberada por el vago disminuye el tono broncomotor, inhibe la broncoconstricción y reduce la secreción de moco. Como es un compuesto cargado, casi no se absorbe por vía sistémica, de manera que se evitan los efectos atropínicos (sequedad bucal, retención urinaria, taquicardia) salvo la sequedad de boca y el sabor amargo. Su inicio de acción es más lento que el del salbutamol y su pico llega a los 30 a 60 minutos, por lo que en la crisis asmática grave se usa asociado a un beta-2 agonista de acción corta, con evidencia de menos hospitalizaciones. En la EPOC se prefiere el tiotropio, antagonista muscarínico de larga duración. El albuterol (salbutamol) es un agonista beta-2 que eleva el AMPc; la metilxantina y la teofilina inhiben la fosfodiesterasa y antagonizan la adenosina; el sulfato de magnesio relaja el músculo liso al bloquear el ingreso de calcio. Perla clínica: puede precipitar glaucoma de ángulo estrecho si el aerosol llega a los ojos con mascarilla mal ajustada.",
+      "tema": "Bromuro de ipratropio: antagonista muscarínico",
+      "año": 2019,
+      "fuentes": "Goodman y Gilman Bases farmacológicas de la terapéutica 14.ª ed. (2023); Katzung Farmacología básica y clínica 16.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-CB-066",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes núcleos hipotalámicos controla el ritmo circadiano?",
+      "opciones": [
+        "Supraquiasmático.",
+        "Supraóptico.",
+        "Paraventricular.",
+        "Dorsolateral.",
+        "Ventromedial."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los ritmos circadianos son oscilaciones fisiológicas de unas 24 horas que se generan de forma endógena y se sincronizan con el ciclo luz-oscuridad. El marcapasos central es el núcleo supraquiasmático, situado en la parte anterior del hipotálamo, justo encima del quiasma óptico. Recibe información luminosa por el tracto retinohipotalámico, desde las células ganglionares de la retina que contienen melanopsina, y sincroniza los relojes periféricos mediante señales nerviosas y hormonales como la melatonina de la glándula pineal, el cortisol y la temperatura corporal. A nivel molecular funciona mediante asas de retroalimentación de genes del reloj (CLOCK, BMAL1, PER y CRY). El núcleo supraóptico y el paraventricular sintetizan vasopresina y oxitocina; el paraventricular además secreta CRH, TRH y otras hormonas liberadoras. El hipotálamo ventromedial es el centro de la saciedad y su lesión produce hiperfagia y obesidad, mientras que el lateral es el centro del hambre. El núcleo dorsolateral no es un núcleo clásico con función circadiana. Las alteraciones del ritmo circadiano producen jet lag, síndrome de fase retrasada del sueño y trastornos del sueño en el turno de noche. Perla clínica: la luz brillante matutina adelanta la fase del reloj y la luz nocturna la retrasa; la melatonina exógena actúa en sentido inverso.",
+      "comentario": "Los ritmos circadianos son oscilaciones fisiológicas de unas 24 horas que se generan de forma endógena y se sincronizan con el ciclo luz-oscuridad. El marcapasos central es el núcleo supraquiasmático, situado en la parte anterior del hipotálamo, justo encima del quiasma óptico. Recibe información luminosa por el tracto retinohipotalámico, desde las células ganglionares de la retina que contienen melanopsina, y sincroniza los relojes periféricos mediante señales nerviosas y hormonales como la melatonina de la glándula pineal, el cortisol y la temperatura corporal. A nivel molecular funciona mediante asas de retroalimentación de genes del reloj (CLOCK, BMAL1, PER y CRY). El núcleo supraóptico y el paraventricular sintetizan vasopresina y oxitocina; el paraventricular además secreta CRH, TRH y otras hormonas liberadoras. El hipotálamo ventromedial es el centro de la saciedad y su lesión produce hiperfagia y obesidad, mientras que el lateral es el centro del hambre. El núcleo dorsolateral no es un núcleo clásico con función circadiana. Las alteraciones del ritmo circadiano producen jet lag, síndrome de fase retrasada del sueño y trastornos del sueño en el turno de noche. Perla clínica: la luz brillante matutina adelanta la fase del reloj y la luz nocturna la retrasa; la melatonina exógena actúa en sentido inverso.",
+      "tema": "Núcleo supraquiasmático y ritmo circadiano",
+      "año": 2014,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Kandel Principios de Neurociencia 6.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-067",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes fármacos anticonvulsivantes es químicamente similar a los antidepresivos tricíclicos?",
+      "opciones": [
+        "Carbamazepina.",
+        "Ácido valproico.",
+        "Fenitoína.",
+        "Gabapentina.",
+        "Tiagabina."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La carbamazepina es un derivado iminostilbeno cuya estructura tricíclica es parecida a la de la imipramina, y de ahí viene su uso histórico en trastornos del ánimo. Bloquea los canales de sodio dependientes de voltaje en estado inactivo, lo que limita las descargas repetitivas de alta frecuencia. Es de primera línea en crisis focales y en la neuralgia del trigémino, y se emplea como estabilizador del ánimo en el trastorno bipolar. Es un potente inductor enzimático del citocromo P450 (CYP3A4), de modo que acelera su propio metabolismo (autoinducción) y reduce los niveles de anticonceptivos orales, warfarina y otros antiepilépticos. Sus efectos adversos clave son hiponatremia por SIADH, diplopía, ataxia, leucopenia y anemia aplásica, y reacciones cutáneas graves como el síndrome de Stevens-Johnson, con riesgo mayor en portadores de HLA-B*15:02, frecuente en poblaciones asiáticas. Las otras opciones no comparten esa estructura: el valproato es un ácido graso ramificado, la fenitoína una hidantoína, la gabapentina un análogo cíclico del GABA y la tiagabina un derivado del ácido nipecótico que inhibe la recaptación de GABA. Perla clínica: puede agravar las crisis de ausencia y mioclónicas.",
+      "comentario": "La carbamazepina es un derivado iminostilbeno cuya estructura tricíclica es parecida a la de la imipramina, y de ahí viene su uso histórico en trastornos del ánimo. Bloquea los canales de sodio dependientes de voltaje en estado inactivo, lo que limita las descargas repetitivas de alta frecuencia. Es de primera línea en crisis focales y en la neuralgia del trigémino, y se emplea como estabilizador del ánimo en el trastorno bipolar. Es un potente inductor enzimático del citocromo P450 (CYP3A4), de modo que acelera su propio metabolismo (autoinducción) y reduce los niveles de anticonceptivos orales, warfarina y otros antiepilépticos. Sus efectos adversos clave son hiponatremia por SIADH, diplopía, ataxia, leucopenia y anemia aplásica, y reacciones cutáneas graves como el síndrome de Stevens-Johnson, con riesgo mayor en portadores de HLA-B*15:02, frecuente en poblaciones asiáticas. Las otras opciones no comparten esa estructura: el valproato es un ácido graso ramificado, la fenitoína una hidantoína, la gabapentina un análogo cíclico del GABA y la tiagabina un derivado del ácido nipecótico que inhibe la recaptación de GABA. Perla clínica: puede agravar las crisis de ausencia y mioclónicas.",
+      "tema": "Anticonvulsivante similar a los antidepresivos tricíclicos",
+      "año": 2016,
+      "fuentes": "Goodman y Gilman Bases farmacológicas de la terapéutica 14.ª ed. (2023); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-CB-068",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "El inicio de un potencial de acción en el músculo esquelético requiere la secreción de...",
+      "opciones": [
+        "Acetilcolina.",
+        "Cloro.",
+        "Potasio.",
+        "Noradrenalina.",
+        "Adrenalina."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En la placa motora, el potencial de acción de la motoneurona alfa llega al terminal presináptico y abre canales de calcio dependientes de voltaje; el ingreso de calcio hace que las vesículas sinápticas liberen acetilcolina por exocitosis. La acetilcolina difunde por la hendidura sináptica y se une a los receptores nicotínicos de la fibra muscular, que son canales catiónicos ionotrópicos: su apertura permite la entrada de sodio y genera el potencial de placa terminal, que al superar el umbral desencadena el potencial de acción muscular y la liberación de calcio desde el retículo sarcoplásmico, con lo que se produce la contracción. La acetilcolinesterasa degrada rápidamente el transmisor y termina la señal. El cloro y el potasio son iones, no mensajeros; la noradrenalina y la adrenalina actúan en el sistema nervioso simpático y la médula suprarrenal, no en la unión neuromuscular esquelética. Perla clínica: la miastenia gravis reduce los receptores, el botulismo bloquea la liberación y el síndrome de Lambert-Eaton afecta los canales de calcio presinápticos.",
+      "comentario": "En la placa motora, el potencial de acción de la motoneurona alfa llega al terminal presináptico y abre canales de calcio dependientes de voltaje; el ingreso de calcio hace que las vesículas sinápticas liberen acetilcolina por exocitosis. La acetilcolina difunde por la hendidura sináptica y se une a los receptores nicotínicos de la fibra muscular, que son canales catiónicos ionotrópicos: su apertura permite la entrada de sodio y genera el potencial de placa terminal, que al superar el umbral desencadena el potencial de acción muscular y la liberación de calcio desde el retículo sarcoplásmico, con lo que se produce la contracción. La acetilcolinesterasa degrada rápidamente el transmisor y termina la señal. El cloro y el potasio son iones, no mensajeros; la noradrenalina y la adrenalina actúan en el sistema nervioso simpático y la médula suprarrenal, no en la unión neuromuscular esquelética. Perla clínica: la miastenia gravis reduce los receptores, el botulismo bloquea la liberación y el síndrome de Lambert-Eaton afecta los canales de calcio presinápticos.",
+      "tema": "Neurotransmisor que inicia el potencial de acción muscular",
+      "año": 2016,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-069",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el único neurotransmisor que actúa en la unión neuromuscular?",
+      "opciones": [
+        "Acetilcolina.",
+        "Dopamina.",
+        "Glicina.",
+        "Serotonina.",
+        "GABA."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La unión neuromuscular esquelética es una sinapsis colinérgica: la motoneurona alfa libera acetilcolina, que se sintetiza en el terminal a partir de colina y acetil-CoA por la colina acetiltransferasa y se almacena en vesículas. Al llegar el potencial de acción, el calcio que entra por canales presinápticos activa la liberación por exocitosis; el transmisor se une a receptores nicotínicos musculares, formados por cinco subunidades, y su apertura despolariza la placa terminal. La acetilcolinesterasa de la hendidura la hidroliza en acetato y colina, y esta última es recaptada para reciclarse. La importancia clínica es amplia: los bloqueadores neuromusculares como rocuronio o succinilcolina actúan sobre el receptor, los inhibidores de la colinesterasa (neostigmina, piridostigmina) revierten el bloqueo y tratan la miastenia, y los organofosforados producen crisis colinérgica por acumulación de acetilcolina. La dopamina, la serotonina, la glicina y el GABA son neurotransmisores del sistema nervioso central; la glicina y el GABA son inhibidores, sobre todo en médula espinal y cerebro, respectivamente. Perla clínica: en el botulismo la toxina impide la liberación de acetilcolina y produce parálisis flácida descendente.",
+      "comentario": "La unión neuromuscular esquelética es una sinapsis colinérgica: la motoneurona alfa libera acetilcolina, que se sintetiza en el terminal a partir de colina y acetil-CoA por la colina acetiltransferasa y se almacena en vesículas. Al llegar el potencial de acción, el calcio que entra por canales presinápticos activa la liberación por exocitosis; el transmisor se une a receptores nicotínicos musculares, formados por cinco subunidades, y su apertura despolariza la placa terminal. La acetilcolinesterasa de la hendidura la hidroliza en acetato y colina, y esta última es recaptada para reciclarse. La importancia clínica es amplia: los bloqueadores neuromusculares como rocuronio o succinilcolina actúan sobre el receptor, los inhibidores de la colinesterasa (neostigmina, piridostigmina) revierten el bloqueo y tratan la miastenia, y los organofosforados producen crisis colinérgica por acumulación de acetilcolina. La dopamina, la serotonina, la glicina y el GABA son neurotransmisores del sistema nervioso central; la glicina y el GABA son inhibidores, sobre todo en médula espinal y cerebro, respectivamente. Perla clínica: en el botulismo la toxina impide la liberación de acetilcolina y produce parálisis flácida descendente.",
+      "tema": "Neurotransmisor de la unión neuromuscular",
+      "año": 2017,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Goodman y Gilman Bases farmacológicas de la terapéutica 14.ª ed. (2023)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-070",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál es el anticonvulsivante que actúa inhibiendo los canales de sodio?",
+      "opciones": [
+        "Fenitoína.",
+        "Pregabalina.",
+        "Gabapentina.",
+        "Etosuximida.",
+        "Vigabatrina."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Los fármacos antiepilépticos actúan por tres grandes mecanismos: bloqueo de canales de sodio o calcio dependientes de voltaje, potenciación de la inhibición GABAérgica y reducción de la excitación glutamatérgica. La fenitoína es el prototipo de los bloqueadores de sodio: se une al canal en estado inactivo y retrasa su recuperación, lo que frena las descargas repetitivas de alta frecuencia sin alterar la actividad neuronal normal, por eso protege de las crisis focales y tónico-clónicas pero no de las ausencias. Tiene cinética de saturación (orden cero) a dosis terapéuticas, estrecho margen terapéutico y es inductora enzimática; produce nistagmo, ataxia, hiperplasia gingival, hirsutismo, déficit de folato y, por vía intravenosa, hipotensión y arritmias, por lo que se infunde lentamente con monitorización. La pregabalina y la gabapentina se unen a la subunidad alfa-2-delta de los canales de calcio; la etosuximida bloquea los canales de calcio tipo T talámicos, y la vigabatrina inhibe de forma irreversible la GABA transaminasa, con riesgo de pérdida del campo visual. Perla clínica: la fosfenitoína es la prodroga hidrosoluble de uso parenteral más seguro.",
+      "comentario": "Los fármacos antiepilépticos actúan por tres grandes mecanismos: bloqueo de canales de sodio o calcio dependientes de voltaje, potenciación de la inhibición GABAérgica y reducción de la excitación glutamatérgica. La fenitoína es el prototipo de los bloqueadores de sodio: se une al canal en estado inactivo y retrasa su recuperación, lo que frena las descargas repetitivas de alta frecuencia sin alterar la actividad neuronal normal, por eso protege de las crisis focales y tónico-clónicas pero no de las ausencias. Tiene cinética de saturación (orden cero) a dosis terapéuticas, estrecho margen terapéutico y es inductora enzimática; produce nistagmo, ataxia, hiperplasia gingival, hirsutismo, déficit de folato y, por vía intravenosa, hipotensión y arritmias, por lo que se infunde lentamente con monitorización. La pregabalina y la gabapentina se unen a la subunidad alfa-2-delta de los canales de calcio; la etosuximida bloquea los canales de calcio tipo T talámicos, y la vigabatrina inhibe de forma irreversible la GABA transaminasa, con riesgo de pérdida del campo visual. Perla clínica: la fosfenitoína es la prodroga hidrosoluble de uso parenteral más seguro.",
+      "tema": "Anticonvulsivante que bloquea canales de sodio",
+      "año": 2018,
+      "fuentes": "Goodman y Gilman Bases farmacológicas de la terapéutica 14.ª ed. (2023); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-CB-071",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿La rápida apertura de qué canales voltaje dependientes determina el potencial de acción neuronal?",
+      "opciones": [
+        "Magnesio.",
+        "Sodio.",
+        "Calcio.",
+        "Potasio.",
+        "Cloro."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El potencial de membrana en reposo de la neurona es de unos -70 mV, mantenido por la bomba sodio-potasio y por canales de fuga de potasio. Cuando un estímulo despolariza la membrana hasta el umbral (cerca de -55 mV), se abren de manera explosiva los canales de sodio dependientes de voltaje, el sodio entra a favor de su gradiente y el potencial sube hasta +30 mV: esa fase de despolarización rápida es la que define el potencial de acción, y su retroalimentación positiva explica la ley del todo o nada. Luego los canales de sodio se inactivan, y se abren más lentamente los de potasio, que producen la repolarización y una hiperpolarización posterior; durante la inactivación hay un período refractario absoluto que garantiza la propagación unidireccional. En axones mielinizados la conducción es saltatoria, con canales de sodio concentrados en los nodos de Ranvier. Los canales de calcio intervienen en la liberación presináptica del neurotransmisor, no en el disparo; los de cloro estabilizan o inhiben, y el magnesio actúa como bloqueador del receptor NMDA. Perla clínica: la fenitoína, la carbamazepina, la lamotrigina y los anestésicos locales bloquean estos canales.",
+      "comentario": "El potencial de membrana en reposo de la neurona es de unos -70 mV, mantenido por la bomba sodio-potasio y por canales de fuga de potasio. Cuando un estímulo despolariza la membrana hasta el umbral (cerca de -55 mV), se abren de manera explosiva los canales de sodio dependientes de voltaje, el sodio entra a favor de su gradiente y el potencial sube hasta +30 mV: esa fase de despolarización rápida es la que define el potencial de acción, y su retroalimentación positiva explica la ley del todo o nada. Luego los canales de sodio se inactivan, y se abren más lentamente los de potasio, que producen la repolarización y una hiperpolarización posterior; durante la inactivación hay un período refractario absoluto que garantiza la propagación unidireccional. En axones mielinizados la conducción es saltatoria, con canales de sodio concentrados en los nodos de Ranvier. Los canales de calcio intervienen en la liberación presináptica del neurotransmisor, no en el disparo; los de cloro estabilizan o inhiben, y el magnesio actúa como bloqueador del receptor NMDA. Perla clínica: la fenitoína, la carbamazepina, la lamotrigina y los anestésicos locales bloquean estos canales.",
+      "tema": "Canales de sodio y potencial de acción neuronal",
+      "año": 2019,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-072",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es la principal fuente de energía que utilizan los espermatozoides eyaculados?",
+      "opciones": [
+        "Glucosa interna.",
+        "Fosfatasa ácida prostática.",
+        "Ácido cítrico prostático.",
+        "Fructosa del líquido seminal.",
+        "Glucógeno del epitelio vaginal."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El semen se forma con la contribución de varias glándulas: las vesículas seminales aportan alrededor de 60-70 % del volumen, con un líquido viscoso rico en fructosa, prostaglandinas y fibrinógeno; la próstata añade 20-30 % de un fluido alcalino con ácido cítrico, zinc, antígeno prostático específico y fosfatasa ácida; y los testículos y el epidídimo aportan los espermatozoides, mientras que las glándulas bulbouretrales dan una secreción lubricante. La fructosa del plasma seminal es el principal sustrato energético de los espermatozoides eyaculados: se metaboliza por glucólisis y, junto con la respiración mitocondrial de la pieza intermedia, produce el ATP que mueve el flagelo. Por eso su ausencia, junto con un semen de bajo volumen y pH ácido, sugiere agenesia de los conductos deferentes o de las vesículas seminales y obstrucción de los conductos eyaculadores, y se estudia con ecografía transrectal. El ácido cítrico y la fosfatasa ácida son marcadores de función prostática, no la fuente de energía; el glucógeno vaginal es sustrato para los lactobacilos de la vagina, no para el espermatozoide; y la glucosa interna del espermatozoide es mínima, ya que la célula no almacena reservas apreciables. Perla clínica: el análisis seminal valora volumen, pH, concentración, movilidad y morfología, siguiendo los valores de referencia de la OMS de 2021.",
+      "comentario": "El semen se forma con la contribución de varias glándulas: las vesículas seminales aportan alrededor de 60-70 % del volumen, con un líquido viscoso rico en fructosa, prostaglandinas y fibrinógeno; la próstata añade 20-30 % de un fluido alcalino con ácido cítrico, zinc, antígeno prostático específico y fosfatasa ácida; y los testículos y el epidídimo aportan los espermatozoides, mientras que las glándulas bulbouretrales dan una secreción lubricante. La fructosa del plasma seminal es el principal sustrato energético de los espermatozoides eyaculados: se metaboliza por glucólisis y, junto con la respiración mitocondrial de la pieza intermedia, produce el ATP que mueve el flagelo. Por eso su ausencia, junto con un semen de bajo volumen y pH ácido, sugiere agenesia de los conductos deferentes o de las vesículas seminales y obstrucción de los conductos eyaculadores, y se estudia con ecografía transrectal. El ácido cítrico y la fosfatasa ácida son marcadores de función prostática, no la fuente de energía; el glucógeno vaginal es sustrato para los lactobacilos de la vagina, no para el espermatozoide; y la glucosa interna del espermatozoide es mínima, ya que la célula no almacena reservas apreciables. Perla clínica: el análisis seminal valora volumen, pH, concentración, movilidad y morfología, siguiendo los valores de referencia de la OMS de 2021.",
+      "tema": "Fuente de energía del espermatozoide eyaculado",
+      "año": 2014,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Williams Obstetricia 26.ª ed. (2022); OMS, Manual de laboratorio para el examen del semen 6.ª ed. (2021)",
+      "categoria": "Fisiología"
     }
   ]
 }
