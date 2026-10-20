@@ -130,7 +130,7 @@ S("matriz", "RM-NRL-028", "En la cefalea tensional el episodio agudo se trata co
   clasif=dict(titulo="Cefalea tensional según los días de cefalea al mes (ICHD-3)", cols=["Forma", "Frecuencia", "Conducta"],
               filas=[["Episódica infrecuente", "Menos de 1 día al mes", "Analgésico simple en el ataque"],
                      ["Episódica frecuente", "De 1 a 14 días al mes", "Analgésico simple; valorar profilaxis"],
-                     ["Crónica", "15 días o más al mes", "Profilaxis con amitriptilina y medidas no farmacológicas"]], caso=0, ancho_primera=250,
+                     ["Crónica", "15 días o más al mes", "Profilaxis con amitriptilina y medidas no farmacológicas"]], caso=-1, ancho_primera=250,
               nota="Limitar los analgésicos a menos de 15 días al mes para evitar la cefalea por abuso."))
 
 # 029 · ÁRBOL · primera línea en crisis tónico-clónica generalizada primaria
@@ -315,7 +315,7 @@ S("alarma", "RM-NRL-034", "La carbamazepina produce hiponatremia por un cuadro s
                  ("Más crisis o convulsiones nuevas", "Puede agravar el cuadro epiléptico", True),
                  ("Anciano, dosis alta, tiazidas o ISRS", "Factores de riesgo", True),
                  ("Sodio normal y sin síntomas", "Solo vigilancia periódica", False)],
-         accion=("Medir el sodio y ajustar el tratamiento", "Medir el sodio al iniciar y durante el tratamiento, restringir líquidos, reducir la dosis o cambiar de fármaco; corregir con cuidado en casos graves."), accion_rotulo="Con hiponatremia confirmada",
+         accion=("Medir el sodio y ajustar el tratamiento", "Medir el sodio al iniciar y durante el tratamiento. Si baja: restringir líquidos, reducir la dosis o cambiar de fármaco. Con sodio menor de 125 mEq/L o síntomas (confusión, más crisis), vigilar de cerca y corregir con cuidado para evitar el síndrome de desmielinización osmótica. Ante una hiponatremia inexplicada en un epiléptico, revisar siempre sus fármacos."), accion_rotulo="Con hiponatremia confirmada",
          veredicto=("Hiponatremia en un epiléptico = revisar carbamazepina", "Topiramato, fenobarbital, lamotrigina y fenitoína tienen otros efectos adversos.")))
 
 # 035 · RADIAL · etosuximida en la ausencia
@@ -340,7 +340,7 @@ S("radial", "RM-NRL-035", "La etosuximida es el agente primario en la epilepsia 
   clasif=dict(titulo="Ensayo de Glauser (NEJM 2010) en ausencia infantil: 453 niños, falla a las 16 semanas", cols=["Fármaco", "Libres de falla a 16 semanas", "Comentario"],
               filas=[["Etosuximida", "Cerca de 53 %", "Menos alteración de la atención que el valproato"],
                      ["Valproato", "Cerca de 58 %", "Cubre también crisis tónico-clónicas"],
-                     ["Lamotrigina", "29 %", "Alternativa menos eficaz"]], caso=0, ancho_primera=170))
+                     ["Lamotrigina", "29 %", "Alternativa menos eficaz"]], caso=0, ancho_primera=250))
 
 # 036 · CRITERIOS con imagen · síndrome de Sturge-Weber
 S("criterios", "RM-NRL-036", "La mancha capilar facio-palpebral (vino de Oporto, rama V1) es la clave para sospechar Sturge-Weber",

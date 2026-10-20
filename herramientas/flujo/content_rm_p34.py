@@ -64,7 +64,7 @@ S("balanza", "RM-NEU-048", "El mixedema del hipotiroidismo grave es una causa de
       {0: "Mesotelioma", 1: "Mixedema", 2: "Hernia diafragmática", 3: "Granulomatosis de Wegener", 4: "Lupus eritematoso sistémico"}),
   d=dict(rotulo="Qué lado de la balanza ocupa cada causa", gana="izq", pregunta="¿Cuál de las opciones produce trasudado?",
          izq=dict(titulo="Trasudado", peso="SANA", items=["Insuficiencia cardíaca, cirrosis, nefrótico", "Hipoalbuminemia", "Mixedema (este caso)", "Sarcoidosis, urinotórax, diálisis peritoneal"]),
-         der=dict(titulo="Exudado", peso="ENFERMA", items=["Mesotelioma", "Granulomatosis de Wegener", "Lupus eritematoso sistémico", "Neumonía, tuberculosis y cáncer"]),
+         der=dict(titulo="Exudado", peso="DAÑO", items=["Mesotelioma", "Granulomatosis de Wegener", "Lupus eritematoso sistémico", "Neumonía, tuberculosis y cáncer"]),
          veredicto=("Mixedema = trasudado", ["Mesotelioma, Wegener y lupus inflaman o infiltran la pleura.", "La hernia diafragmática no es causa clásica de trasudado."])),
   clasif=dict(titulo="Criterios de Light: el líquido es exudado si cumple uno", cols=["Criterio", "Punto de corte"],
               filas=[["Proteínas pleura/suero", "Mayor de 0,5"], ["LDH pleura/suero", "Mayor de 0,6"],
@@ -172,7 +172,7 @@ S("matriz", "RM-CB-064", "El bronquiolo terminal carece de células caliciformes
          nota="El bronquiolo no tiene cartílago ni glándulas submucosas: por eso colapsa con facilidad."),
   clasif=dict(titulo="Cambio de la pared de la vía aérea de proximal a distal", cols=["Segmento", "Cartílago", "Glándulas", "Células caliciformes"],
               filas=[["Bronquio", "Placas", "Sí", "Sí"], ["Bronquiolo", "No", "No", "Pocas o ninguna"],
-                     ["Bronquiolo terminal", "No", "No", "Ausentes"], ["Bronquiolo respiratorio", "No", "No", "Ausentes; tiene alvéolos"]], caso=2, ancho_primera=210))
+                     ["Bronq. terminal", "No", "No", "Ausentes"], ["Bronq. respiratorio", "No", "No", "Ausentes; tiene alvéolos"]], caso=2, ancho_primera=210))
 
 # 052 · ALARMA · embolia pulmonar
 S("alarma", "RM-NEU-052", "Disnea y dolor torácico súbitos en una paciente oncológica hospitalizada: embolia pulmonar",
@@ -269,8 +269,8 @@ S("cuadricula", "RM-CB-065", "El bromuro de ipratropio es un antagonista competi
                      ["Ipratropio", "Receptores muscarínicos M1, M2 y M3", "Bloquea la acetilcolina: menos tono y moco"],
                      ["Sulfato de magnesio", "Canales de calcio", "Relaja el músculo liso"]], caso=2, ancho_primera=210))
 
-# NRL-003 · TRANSMISIÓN · miastenia gravis
-S("transmision", "RM-NRL-003", "En la miastenia gravis los autoanticuerpos atacan el receptor nicotínico NM de la placa motora",
+# NRL-003 · CASCADA · miastenia gravis
+S("cascada", "RM-NRL-003", "En la miastenia gravis los autoanticuerpos atacan el receptor nicotínico NM de la placa motora",
   "Neurología · miastenia gravis",
   ("Miastenia gravis", ["Enfermedad autoinmune de la unión neuromuscular.", "Los anticuerpos IgG1 e IgG3 reducen los receptores de acetilcolina."]),
   ("Pregunta de teoría", ["¿Qué receptor colinérgico es el blanco de los autoanticuerpos?"]),
@@ -281,14 +281,14 @@ S("transmision", "RM-NRL-003", "En la miastenia gravis los autoanticuerpos ataca
   "Gilhus NE et al., Myasthenia gravis (Nat Rev Dis Primers 2019); Harrison, 21.ª ed. (2022); Goodman y Gilman, 14.ª ed. (2023).",
   op=("¿Receptor atacado?", ["No: receptor del sistema nervioso central", "Sí: nicotínico del músculo esquelético en la placa motora", "No: nicotínico ganglionar o central", "No: receptor del sistema nervioso central", "No: receptor de glándulas y músculo liso"],
       {0: "Muscarínico M1", 1: "Nicotínico NM", 2: "Nicotínico NN", 3: "Muscarínico M4", 4: "Muscarínico M3"}),
-  d=dict(rotulo="De la motoneurona a la debilidad en la miastenia", tag="BLANCO",
-         eslabones=[("Terminal nervioso", "Libera acetilcolina normalmente", "Sin falla presináptica", False),
-                    ("Hendidura sináptica", "La acetilcolina difunde y es degradada", "La piridostigmina frena su degradación", False),
-                    ("Receptor nicotínico NM", "Atacado por IgG1 e IgG3: menos receptores", "Complemento y destrucción de pliegues", True),
-                    ("Fibra muscular", "Contracción insuficiente", "Debilidad fluctuante, ptosis y diplopía", False)],
+  d=dict(rotulo="De la motoneurona a la debilidad en la miastenia", cabeceras=("Qué ocurre", "Consecuencia"),
+         pasos=[("Terminal nervioso", "Libera acetilcolina con normalidad", [("Sin falla presináptica", "", False)]),
+                ("Autoanticuerpos IgG1 e IgG3", "Atacan el receptor nicotínico NM de la placa motora", [("Complemento y destrucción de pliegues", "Menos receptores disponibles", True)]),
+                ("Falla la transmisión", "La acetilcolina no encuentra suficientes receptores", [("Debilidad fluctuante", "Peor con el esfuerzo, mejor con el reposo", False)]),
+                ("Manifestaciones", "Músculos oculares, bulbares y respiratorios", [("Ptosis, diplopía, disfagia y crisis miasténica", "", False)])],
          veredicto=("Autoanticuerpos = receptor nicotínico NM", "Los receptores NN y muscarínicos no participan en la placa motora.")),
   clasif=dict(titulo="Receptores colinérgicos y dónde están", cols=["Receptor", "Localización", "Papel en la miastenia"],
-              filas=[["Nicotínico NM (N1)", "Placa motora del músculo esquelético", "Blanco de los autoanticuerpos"],
+              filas=[["Nicotínico NM", "Placa motora del músculo esquelético", "Blanco de los autoanticuerpos"],
                      ["Nicotínico NN", "Ganglios autonómicos y sistema nervioso central", "No participa"],
                      ["Muscarínicos M1, M3 y M4", "Sistema nervioso central, glándulas y músculo liso", "No participan"]], caso=0, ancho_primera=210))
 

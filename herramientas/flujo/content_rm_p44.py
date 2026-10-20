@@ -24,7 +24,7 @@ S("checklist", "RM-PSI-014", "Búsqueda del propio beneficio sin culpa ni cambio
                 ("Impulsividad, irritabilidad y agresiones", "Desprecio imprudente por la seguridad propia o ajena", False),
                 ("Irresponsabilidad sostenida", "Fallas repetidas en el trabajo y en las obligaciones", False),
                 ("Ausencia de remordimiento", "No siente culpa ni cambia a pesar de las consecuencias: el dato del caso", True)],
-         no_hacer=[("Buscar un fármaco específico", "No existe; la psicoterapia rinde poco"), ("Confundir con esquizoide", "Ese es frío y desapegado, sin intención de dañar")],
+         no_hacer=[("Buscar un fármaco específico", "No existe; la psicoterapia rinde poco"), ("Confundir con esquizoide", "Ese es frío y desapegado, sin intención de dañar"), ("Olvidar el consumo de sustancias", "Es la comorbilidad que se busca y se trata")],
          veredicto=("Satisfacción propia a costa de otros + sin culpa = antisocial", "Obsesivo, limítrofe, paranoide y esquizoide tienen otros patrones.")))
 
 # 015 · TRANSMISIÓN · cocaína inhalada
@@ -78,8 +78,8 @@ S("reloj", "RM-PSI-017", "Ataques bruscos de taquicardia, disnea y miedo a morir
       {0: "Trastorno de pánico", 1: "Depresivo recurrente", 2: "Esquizoafectivo", 3: "Reacción al estrés grave", 4: "Episodio maniaco"}),
   d=dict(rotulo="Cómo evoluciona un ataque y qué se hace después", intro="Del inicio brusco al diagnóstico de trastorno de pánico.",
          pasos=[("0 min", "Inicio abrupto de miedo intenso", "Taquicardia, disnea, sudoración y opresión torácica", False),
-                ("10-30 min", "Pico del ataque y resolución", "Duración típica; en el caso duraron de 30 a 50 minutos", True),
-                ("Después", "Descartar causas orgánicas", "TSH, T4 y enzimas cardiacas normales apoyan el origen psiquiátrico", False),
+                ("30 min", "Pico del ataque y resolución", "Duración típica; en el caso duraron de 30 a 50 minutos", True),
+                ("Luego", "Descartar causas orgánicas", "TSH, T4 y enzimas cardiacas normales apoyan el origen psiquiátrico", False),
                 ("1 mes", "Preocupación por nuevos ataques", "Con ello se confirma el trastorno; se inicia ISRS y terapia cognitivo-conductual", False)],
          tag="CASO",
          veredicto=("Ataques recurrentes e inesperados + estudios normales = pánico", "El episodio maniaco, el depresivo y el esquizoafectivo son síndromes sostenidos.")))
@@ -105,7 +105,7 @@ S("radial", "RM-PSI-018", "El modelo ecológico explica la violencia de pareja; 
                      ["Relacional", "Conflicto conyugal y control masculino de la pareja"],
                      ["Comunitario", "Pobreza y aislamiento"],
                      ["Social", "Normas de género desiguales"]],
-              caso=0, ancho_primera=120,
+              caso=0, ancho_primera=170,
               nota="El nivel educativo bajo y el nivel social bajo son factores reales, pero menos específicos: la violencia ocurre en todos los estratos."))
 
 # 019 · CARRILES · depresión mayor con melancolía
@@ -127,7 +127,7 @@ S("carriles", "RM-PSI-019", "Irritabilidad, desinterés y pérdida de peso peore
                 (3, "ISRS más psicoterapia", "Riesgo suicida, hipotiroidismo y PHQ-9; mejoría en 4 a 6 semanas", False)],
          veredicto=("Ánimo deprimido, anhedonia y peor por la mañana = depresión mayor melancólica", "La distimia exige dos años; la fobia social y la ansiedad no cursan con anhedonia.")),
   clasif=dict(titulo="Gravedad de la depresión según el PHQ-9 (puntaje de 0 a 27)", cols=["Puntaje", "Gravedad"],
-              filas=[["5-9", "Leve"], ["10-14", "Moderada"], ["15-19", "Moderadamente grave"], ["20 o más", "Grave"]],
+              filas=[["0-4", "Mínima o ausente"], ["5-9", "Leve"], ["10-14", "Moderada"], ["15-19", "Moderadamente grave"], ["20 o más", "Grave"]],
               caso=None, ancho_primera=140, nota="El PHQ-9 cuantifica la gravedad; el diagnóstico se hace con los criterios del DSM-5-TR."))
 
 # 020 · FASES · ciclo de la violencia
@@ -185,7 +185,7 @@ S("puntaje", "RM-PSI-022", "Dos meses de tristeza, apatía, hiporexia con pérdi
          total=5, max=9, total_label="Síntomas presentes", interpreta="5 de 9 durante más de 2 semanas: episodio depresivo mayor",
          bandas=[("Menos de 5", "No alcanza", "No cumple el episodio mayor; valorar otros cuadros.", False), ("5 o más", "Episodio mayor", "Se confirma el diagnóstico si hay deterioro funcional.", True)]),
   clasif=dict(titulo="Gravedad de la depresión según el PHQ-9 (puntaje de 0 a 27)", cols=["Puntaje", "Gravedad"],
-              filas=[["5-9", "Leve"], ["10-14", "Moderada"], ["15-19", "Moderadamente grave"], ["20 o más", "Grave"]],
+              filas=[["0-4", "Mínima o ausente"], ["5-9", "Leve"], ["10-14", "Moderada"], ["15-19", "Moderadamente grave"], ["20 o más", "Grave"]],
               caso=None, ancho_primera=140, nota="Se mide la gravedad con el PHQ-9 y se evalúa la ideación suicida antes de decidir el tratamiento."))
 
 # 023 · ALARMA · anorexia nerviosa purgativa
@@ -201,9 +201,9 @@ S("alarma", "RM-PSI-023", "Bajo peso, lanugo, amenorrea y abrigo excesivo, con s
   op=("¿Diagnóstico probable?", ["Sí: peso bajo, lanugo y amenorrea, con purgas", "No: en la bulimia el peso es normal o alto", "No: no explica el cuadro físico", "No: no explica lanugo ni purga", "No: hay hiperfagia, calor y bocio"],
       {0: "Anorexia nervosa", 1: "Bulimia", 2: "Psicosis", 3: "Depresión", 4: "Hipertiroidismo"}),
   d=dict(rotulo="Signos físicos y cuándo hospitalizar", lista_titulo="Banderas rojas de la anorexia nerviosa",
-         signos=[("Lanugo y amenorrea", "Desnutrición; la amenorrea ya no es criterio", None), ("Intolerancia al frío (muy abrigada)", "Hipotermia por bajo peso", None),
-                 ("Esmalte erosionado y callosidades en los dedos", "Vómito autoprovocado: subtipo purgativo", None), ("Bradicardia e hipotensión", "Riesgo de inestabilidad", None),
-                 ("Hipopotasemia", "Riesgo de arritmia por purgas", None), ("Realimentación rápida", "Síndrome de realimentación", None)],
+         signos=[("Lanugo y amenorrea", "Desnutrición; la amenorrea ya no es criterio", True), ("Intolerancia al frío (muy abrigada)", "Hipotermia por bajo peso", True),
+                 ("Esmalte erosionado y callosidades en los dedos", "Vómito autoprovocado: subtipo purgativo", True), ("Bradicardia e hipotensión", "Se mide al ingreso", None),
+                 ("Hipopotasemia", "Se pide en el laboratorio", None), ("Realimentación rápida", "Riesgo al reiniciar la alimentación", None)],
          accion=("Hospitalizar", "Si hay bradicardia marcada, hipotensión, hipopotasemia o inestabilidad; luego terapia basada en la familia."), accion_rotulo="Si hay inestabilidad",
          veredicto=("Peso bajo + lanugo + amenorrea = anorexia, aun con purgas", "En la bulimia el peso es normal o elevado.")),
   clasif=dict(titulo="Gravedad de la anorexia nerviosa en adultos según el IMC (DSM-5-TR)", cols=["Gravedad", "IMC (kg/m²)"],
@@ -293,7 +293,7 @@ S("embudo", "RM-REU-007", "Mujer de 65 años con dolor dorsolumbar y sospecha de
          nota="Con dolor dorsolumbar se agrega una radiografía lateral para ver fracturas vertebrales; después se calcula el FRAX."),
   clasif=dict(titulo="Criterio densitométrico de la OMS (índice T en mujeres posmenopáusicas)", cols=["Índice T", "Categoría"],
               filas=[["-1,0 o más", "Normal"], ["Entre -1,0 y -2,5", "Baja masa ósea (osteopenia)"], ["-2,5 o menor", "Osteoporosis"]],
-              caso=2, ancho_primera=170, nota="Una fractura por fragilidad de cadera o vertebral establece el diagnóstico clínico aun con DXA no osteoporótica."))
+              caso=2, ancho_primera=240, nota="Una fractura por fragilidad de cadera o vertebral establece el diagnóstico clínico aun con DXA no osteoporótica."))
 
 # 008 · CUADRO · nefritis lúpica clase V
 S("cuadro", "RM-REU-008", "La nefritis lúpica membranosa corresponde a la clase V de la clasificación ISN/RPS",
@@ -361,4 +361,4 @@ S("termometro", "RM-REU-010", "La OMS define osteoporosis con un índice T de -2
                 (3, "Fractura de cadera o vertebral por fragilidad", ["También establece el diagnóstico clínico"], False)]),
   clasif=dict(titulo="Criterio de la OMS por densitometría ósea (DXA)", cols=["Índice T", "Categoría"],
               filas=[["-1,0 o más", "Normal"], ["Entre -1,0 y -2,5", "Baja masa ósea (osteopenia)"], ["-2,5 o menor", "Osteoporosis"]],
-              caso=2, ancho_primera=170, nota="Nota del banco: el libro (Kumar) sitúa la osteopenia entre -1,5 y -2,5; el rango de la OMS es de -1,0 a -2,5."))
+              caso=2, ancho_primera=240, nota="Rango OMS de la baja masa ósea: de -1,0 a -2,5; el umbral de -1,5 no existe en la clasificación."))

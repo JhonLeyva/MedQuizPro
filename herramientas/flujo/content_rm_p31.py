@@ -9,7 +9,7 @@ CLASIF_NEFROTICO = dict(titulo="Síndrome nefrótico frente a nefrítico", cols=
                                ["Sedimento urinario", "Cuerpos ovales grasos y cruces de Malta; sin hematíes dismórficos", "Hematíes dismórficos y cilindros hemáticos"],
                                ["Lípidos", "Hiperlipidemia y lipiduria", "Sin dislipidemia propia"],
                                ["Presión y función renal", "Edema; presión y filtrado a menudo conservados", "Hipertensión, edema y filtrado glomerular reducido"]],
-                        caso=0, ancho_primera=170)
+                        caso=0, ancho_primera=210)
 
 # 018 · ALARMA · enfermedad de von Willebrand en la hemorragia uterina anormal
 S("alarma", "RM-HEM-018", "En la hemorragia uterina anormal sin lesión estructural, la coagulopatía más frecuente es la enfermedad de von Willebrand",
@@ -83,7 +83,7 @@ S("laboratorio", "RM-NEF-009", "Vómitos repetidos con pH 7,53, bicarbonato 42 y
   clasif=dict(titulo="Alcalosis metabólica según el cloro urinario", cols=["Tipo", "Cloro urinario", "Causas", "Tratamiento"],
               filas=[["Sensible al cloro", "Bajo (menos de 20 mmol/L)", "Vómitos, aspiración gástrica", "Solución salina isotónica y potasio"],
                      ["Resistente al cloro", "Alto", "Exceso de mineralocorticoides", "Tratar la causa de fondo"]],
-              caso=0, ancho_primera=200, nota="El Cl urinario de 21 mmol/L del caso está en el límite; el Na urinario de 2 mmol/L confirma la hipovolemia."))
+              caso=0, ancho_primera=250, nota="El Cl urinario de 21 mmol/L del caso está en el límite; el Na urinario de 2 mmol/L confirma la hipovolemia."))
 
 # 010 · CUADRO · cilindros hialinos
 S("cuadro", "RM-NEF-010", "Los cilindros hialinos están formados por la proteína de Tamm-Horsfall y aparecen tras el ejercicio",
@@ -106,7 +106,7 @@ S("cuadro", "RM-NEF-010", "Los cilindros hialinos están formados por la proteí
                      ["Granuloso", "Cilindros celulares degenerados (pardo fangoso)", "Necrosis tubular y enfermedad renal crónica"],
                      ["Graso", "Cuerpos grasos ovales", "Síndrome nefrótico"],
                      ["Céreo", "Matriz densa por estasis prolongada", "Nefropatía crónica avanzada"]],
-              caso=0, ancho_primera=170))
+              caso=0, ancho_primera=210))
 
 # 011 · PIRÁMIDE · reabsorción de bicarbonato
 S("piramide", "RM-NEF-011", "El túbulo contorneado proximal reabsorbe 80 a 85 % del bicarbonato filtrado",
@@ -128,7 +128,7 @@ S("piramide", "RM-NEF-011", "El túbulo contorneado proximal reabsorbe 80 a 85 %
   clasif=dict(titulo="Reabsorción de bicarbonato por segmento", cols=["Segmento", "Fracción", "Nota clínica"],
               filas=[["Túbulo proximal", "80 a 85 %", "Acidosis tubular tipo 2; acetazolamida"],
                      ["Asa gruesa ascendente", "10 a 15 %", "Reabsorbe parte del bicarbonato remanente"],
-                     ["Distal y colector", "Resto", "Acidosis tubular tipo 1 por falla en secretar hidrogeniones"]], caso=0, ancho_primera=200))
+                     ["Distal y colector", "Resto", "Acidosis tubular tipo 1 por falla en secretar hidrogeniones"]], caso=0, ancho_primera=250))
 
 # 012 · DOS PREGUNTAS · reabsorción de glucosa
 S("dos_preguntas", "RM-NEF-012", "Toda la glucosa filtrada se reabsorbe en el túbulo proximal por SGLT2 y SGLT1",
@@ -209,9 +209,8 @@ S("termometro", "RM-NEF-014", "Glucemia de 280 mg/dL: el túbulo proximal super�
          niveles=[("< 180 mg/dL", "Bajo el umbral renal", ["El túbulo proximal reabsorbe toda la glucosa filtrada"]),
                   ("≥ 180 mg/dL", "Sobre el umbral renal", ["280 mg/dL: se supera el transporte máximo y aparece glucosuria"]),
                   ("Con cetonuria", "Cetoacidosis diabética", ["pH menor de 7,3 o HCO3 menor de 18 mmol/L; Kussmaul"])],
-         pasos=[(1, "Glucosa filtrada mayor que el transporte máximo", ["SGLT2 y SGLT1 se saturan en el túbulo proximal"], True),
-                (1, "Glucosuria y diuresis osmótica", ["Poliuria, deshidratación e hipovolemia"], False),
-                (2, "Cetoacidosis", ["Reposición de volumen, insulina con K mayor de 3,3 y desencadenante"], False)]))
+         pasos=[(1, "Glucosa filtrada mayor que el transporte máximo", ["SGLT2 y SGLT1 se saturan: glucosuria, diuresis osmótica e hipovolemia"], True),
+                (2, "Cetoacidosis diabética", ["Reposición de volumen, insulina con K mayor de 3,3 y buscar el desencadenante"], False)]))
 
 # 015 · CARRILES · hallazgos de síndrome nefrótico
 S("carriles", "RM-NEF-015", "Edema, hipoalbuminemia y proteinuria mayor de 3 g/24 horas: síndrome nefrótico",
@@ -284,7 +283,7 @@ S("dos_preguntas", "RM-NEF-017", "Poliuria, hipopotasemia e hipocloremia en un n
               filas=[["Fanconi", "Túbulo proximal", "Glucosuria, proteinuria tubular, acidosis e hipofosfatemia"],
                      ["Bartter", "Asa ascendente gruesa (NKCC2, ROMK, ClC-Kb)", "Alcalosis hipopotasémica, hiperreninismo y calciuria alta"],
                      ["Gitelman", "Túbulo contorneado distal (NCC)", "Hipomagnesemia e hipocalciuria; adolescentes o adultos"],
-                     ["Liddle", "Colector", "Hipertensión con hipopotasemia"]], caso=1, ancho_primera=150,
+                     ["Liddle", "Colector", "Hipertensión con hipopotasemia"]], caso=1, ancho_primera=180,
               nota="La hipocalcemia del enunciado no es típica del Bartter; la clave del banco se mantiene."))
 
 # 018 · BALANZA · necrosis tubular aguda frente a prerrenal
@@ -300,7 +299,7 @@ S("balanza", "RM-NEF-018", "Diarrea, shock, oliguria y creatinina de 7 mg/dL a l
   op=("¿Diagnóstico más probable?", ["Sí: isquemia prolongada y oliguria", "No: es por choque obstétrico o séptico grave", "No: cursa con hematuria o eosinofiluria", "No: revierte rápido con volumen", "No: se asocia a fármacos y eosinofiluria"],
       {0: "Necrosis tubular aguda", 1: "Necrosis cortical", 2: "Vasculitis renal", 3: "Uremia prerrenal", 4: "Nefritis intersticial"}),
   d=dict(rotulo="Prerrenal frente a necrosis tubular aguda", gana="der", pregunta="¿Cuál explica el caso?",
-         izq=dict(titulo="Prerrenal", peso="REVERSA", items=["Orina concentrada y Na urinario bajo", "Fracción excretada de sodio menor de 1 %", "Revierte rápido con volumen"]),
+         izq=dict(titulo="Prerrenal", peso="LEVE", items=["Orina concentrada y Na urinario bajo", "Fracción excretada de sodio menor de 1 %", "Revierte rápido con volumen"]),
          der=dict(titulo="Necrosis tubular aguda (este caso)", peso="CASO", items=["Creatinina 7 mg/dL a los 3 días, oliguria", "Cilindros granulosos «pardo fangoso»", "FE de sodio mayor de 2 %", "Tarda 1 a 3 semanas en recuperarse"]),
          veredicto=("Oliguria persistente tras hipoperfusión de 3 días = necrosis tubular aguda", ["La prerrenal revierte rápido con volumen.", "Necrosis cortical, vasculitis y nefritis intersticial tienen otro contexto."])),
   clasif=dict(titulo="Lesión prerrenal frente a necrosis tubular aguda", cols=["Índice", "Prerrenal", "Necrosis tubular aguda"],
@@ -332,7 +331,7 @@ S("cascada", "RM-NEF-019", "En la enfermedad renal crónica terminal la anemia s
   clasif=dict(titulo="Mecanismos de la anemia en la enfermedad renal crónica", cols=["Mecanismo", "Papel"],
               filas=[["Déficit de eritropoyetina", "Principal: cae la producción renal"], ["Hepcidina alta por inflamación", "Déficit funcional de hierro"],
                      ["Ferropenia absoluta", "Pérdidas por hemodiálisis y disfunción plaquetaria urémica"], ["Vida media eritrocitaria corta", "Toxinas urémicas"],
-                     ["Otros", "Hiperparatiroidismo, déficit de folato o B12"]], caso=0, ancho_primera=240,
+                     ["Otros", "Hiperparatiroidismo, déficit de folato o B12"]], caso=0, ancho_primera=280,
               nota="Mala reacción a la eritropoyetina: buscar ferropenia, inflamación, hiperparatiroidismo o aluminio."))
 
 # 020 · ALARMA · síndrome de Fanconi
@@ -381,9 +380,9 @@ S("carriles", "RM-NEF-021", "Hiponatremia hipovolémica con sodio urinario mayor
                 (2, "Déficit de glucocorticoides", "Sobre todo euvolémica, por exceso de ADH", False)],
          veredicto=("Hiponatremia hipovolémica con Na urinario alto = pérdida renal (diuresis osmótica)", "La pancreatitis aguda pierde sodio por el tercer espacio, con sodio urinario bajo.")),
   clasif=dict(titulo="Hiponatremia hipovolémica según el sodio urinario", cols=["Sodio urinario", "Origen", "Ejemplos"],
-              filas=[["Menor de 20 a 30 mEq/L", "Extrarrenal", "Vómitos, diarrea, quemaduras, pancreatitis aguda"],
-                     ["Mayor de 20 a 30 mEq/L", "Renal", "Diuréticos, diuresis osmótica, déficit mineralocorticoide"]],
-              caso=1, ancho_primera=230,
+              filas=[["Menos de 20-30 mEq/L", "Extrarrenal", "Vómitos, diarrea, quemaduras, pancreatitis aguda"],
+                     ["Más de 20-30 mEq/L", "Renal", "Diuréticos, diuresis osmótica, déficit mineralocorticoide"]],
+              caso=1, ancho_primera=240,
               nota="El déficit de glucocorticoides (opción D) puede acompañarse de sodio urinario alto; la clave del banco se mantiene."))
 
 # 022 · CHECKLIST · nefritis lúpica
@@ -404,10 +403,10 @@ S("checklist", "RM-NEF-022", "Mujer joven con citopenias, serositis, síndrome n
                 ("Biopsia renal", "Clasifica en ISN/RPS clases I a VI y guía la terapia", False),
                 ("Tratar según la clase", "Clases III o IV: glucocorticoides más micofenolato o ciclofosfamida", False),
                 ("Medidas para todos", "Hidroxicloroquina; IECA o ARA-II para la proteinuria", False)],
-         no_hacer=[("Pensar en nefropatía diabética o hipertensiva", "Evolucionan en años, sin plaquetopenia ni sedimento activo"), ("Pensar en amiloidosis", "Da síndrome nefrótico sin sedimento telescopado")],
+         no_hacer=[("Pensar en nefropatía diabética o hipertensiva", "Evolucionan en años, sin plaquetopenia ni sedimento activo"), ("Pensar en amiloidosis", "Da síndrome nefrótico sin sedimento telescopado"), ("Tratar sin biopsia renal", "La clase histológica define la terapia")],
          no_titulo="Opciones que no explican el cuadro",
          veredicto=("Citopenias + serositis + sedimento telescopado = nefropatía lúpica", "La hipertensión y la diabetes no producen plaquetopenia ni sedimento activo.")),
   clasif=dict(titulo="Clasificación ISN/RPS de la nefritis lúpica", cols=["Clase", "Nombre"],
               filas=[["I", "Mesangial mínima"], ["II", "Proliferativa mesangial"], ["III", "Proliferativa focal"],
                      ["IV", "Proliferativa difusa (la más grave y frecuente)"], ["V", "Membranosa"], ["VI", "Esclerosis avanzada"]],
-              caso=3, ancho_primera=80, nota="Las clases III y IV se tratan con glucocorticoides más micofenolato o ciclofosfamida."))
+              caso=3, ancho_primera=80, nota="La clase del caso la define la biopsia; la IV es la más frecuente. Las clases III y IV se tratan con glucocorticoides más micofenolato o ciclofosfamida."))

@@ -19,20 +19,20 @@ S("linea_vida", "RM-PED-056", "Lactante no inmunizado con tos paroxística emeti
   op=("¿Diagnóstico más probable?", ["No: es propia del escolar, con tos seca e inicio insidioso", "No: la «tos coqueluchoide» es un cuadro parecido, no la enfermedad", "No: dura pocos días, con tos perruna", "Sí: fase paroxística en un lactante sin vacunas", "No: no produce paroxismos de semanas"],
       {0: "Neumonía atípica", 1: "Tos coqueluchoide", 2: "Laringotraqueítis aguda", 3: "Tos ferina", 4: "Bronquitis aguda"}),
   d=dict(rotulo="Fases de la tos ferina (semanas desde el inicio; rangos orientativos)", eje=(0, 12, 2), unidad="semanas",
-         barras=[("Fase catarral", 0, 2, "Parece un resfriado: rinorrea y tos leve; la más contagiosa", False),
-                 ("Fase paroxística", 2, 6, "Accesos de tos quintosa, estridor («gallito»), cianosis y vómito", True),
-                 ("Fase de convalecencia", 6, 12, "La tos cede de forma gradual, durante semanas a meses", False),
-                 ("Linfocitosis con leucocitosis", 2, 6, "Hallazgo del hemograma en la fase paroxística", False)],
+         barras=[("Fase catarral", 0, 2, "Como un resfriado; muy contagiosa", False),
+                 ("Fase paroxística", 2, 6, "Accesos, «gallito» y vómito", True),
+                 ("Fase de convalecencia", 6, 12, "Cede de forma gradual", False),
+                 ("Linfocitosis con leucocitosis", 2, 6, "Hemograma de la fase paroxística", False)],
          marcador=(3, "Caso: tos de 3 semanas"),
          veredicto=("Tos paroxística emetizante con estridor en un lactante sin vacunas = tos ferina", "Azitromicina y profilaxis de contactos; vigilar apneas.")),
   clasif=dict(titulo="Fases de la tos ferina", cols=["Fase", "Duración", "Clínica"],
               filas=[["Catarral", "1-2 semanas", "Indistinguible de un resfriado; muy contagiosa"],
                      ["Paroxística", "2-6 semanas", "Accesos de tos, estridor inspiratorio, cianosis y vómito posterior"],
                      ["Convalecencia", "Semanas a meses", "La tos disminuye de forma gradual"]],
-              caso=1, ancho_primera=160))
+              caso=1, ancho_primera=200))
 
 # 057 · ALARMA · bronquiolitis aguda
-S("alarma", "RM-PED-057", "Lactante con rinorrea, sibilantes difusos, espiración prolongada e hiperinsuflación: bronquiolitis",
+S("cascada", "RM-PED-057", "Lactante con rinorrea, sibilantes difusos, espiración prolongada e hiperinsuflación: bronquiolitis",
   "Pediatría · bronquiolitis aguda",
   ("Bronquiolitis aguda", ["Primera infección viral de la vía aérea inferior en menores de 2 años; causa principal: virus sincitial respiratorio.", "El diagnóstico es clínico."]),
   ("Lactante de 6 meses", ["Rinorrea 2 días y luego dificultad respiratoria: taquipnea, aleteo, retracciones y sibilantes difusos.", "Rx con hiperinsuflación y hemograma normal."]),
@@ -43,14 +43,12 @@ S("alarma", "RM-PED-057", "Lactante con rinorrea, sibilantes difusos, espiració
   "AAP, Clinical practice guideline: bronchiolitis (Pediatrics 2014;134:e1474-502); Australasian Bronchiolitis Guideline, 2025 update (J Paediatr Child Health 2025;61:1197-215); " + NELSON + ".",
   op=("¿Posibilidad diagnóstica?", ["Sí: sibilantes difusos e hiperinsuflación en un lactante", "No: da estridor y tos perruna, no sibilancias difusas", "No: es una entidad mal definida en el lactante", "No: es propia del escolar, con inicio insidioso", "No: daría fiebre alta, leucocitosis y condensación"],
       {}),
-  d=dict(rotulo="Qué se ve en este lactante y qué se hace", lista_titulo="Hallazgos de la bronquiolitis",
-         signos=[("Rinorrea y fiebre 2 días, luego dificultad respiratoria", "Pródromo viral típico", True),
-                 ("Taquipnea, aleteo nasal y retracciones", "Dificultad respiratoria por obstrucción bronquiolar", True),
-                 ("Sibilantes difusos y espiración prolongada", "Obstrucción periférica con atrapamiento de aire", True),
-                 ("Rx con hiperinsuflación y hemograma normal", "Sin condensación ni leucocitosis: no es bacteriana", True),
-                 ("Apnea o prematuridad", "Criterio de hospitalización", None),
-                 ("Saturación menor de 90-92 %", "Indica oxígeno suplementario", None)],
-         accion=("Soporte: aspiración nasal, hidratación y oxígeno si hace falta", "Sin broncodilatadores, corticoides ni antibióticos de rutina."), accion_rotulo="Tratamiento",
+  d=dict(rotulo="Del virus a los signos de este lactante", cabeceras=("Qué ocurre", "Signo o conducta"),
+         pasos=[("Infección viral (VSR)", "Rinorrea clara, estornudos y fiebre por 2-3 días", [("Pródromo de vía aérea superior", "Hemograma normal, sin leucocitosis", False)]),
+                ("Necrosis del epitelio bronquiolar", "Edema y tapones de moco en la luz", [("Obstrucción periférica", "Atrapamiento aéreo", False)]),
+                ("Dificultad respiratoria (día 3-5)", "El máximo de gravedad", [("Taquipnea, aleteo y retracciones", "Sibilantes difusos y espiración prolongada", True)]),
+                ("Radiografía", "Se pide solo si el cuadro es atípico", [("Hiperinsuflación pulmonar", "Sin condensación: no es bacteriana", False)]),
+                ("Manejo de soporte", "Aspiración nasal, hidratación y oxígeno si SatO2 menor de 90-92 %", [("Sin broncodilatadores, corticoides ni antibióticos de rutina", "Hospitalizar si hay apnea o prematuridad", False)])],
          veredicto=("Lactante con pródromo viral y sibilantes difusos = bronquiolitis", "Diagnóstico clínico; el crup da estridor y la bronconeumonía, fiebre con condensación.")))
 
 # 058 · CUADRO · estadios de Tanner del varón
@@ -216,7 +214,7 @@ S("grafica", "RM-PED-065", "Un lactante que sube del percentil 10-25 al 50 tiene
                  ("Canal constante", [(0, 17), (8, 17)], "#94a3b8"),
                  ("Cruza hacia abajo", [(0, 17), (8, 4)], "#dc2626")],
          zonas=[(0, 8, "", "#f0fdfa")],
-         caso=(8, 50, "Percentil 50 a los 8 meses"),
+         caso=(8, 50, "p50 a los 8 meses"),
          notas=[("Normal", "Ascenso o canal estable: ganancia adecuada.", True), ("En riesgo", "Curva plana o que cruza percentiles hacia abajo.", False),
                 ("Indeterminado", "Solo si falta un control previo para comparar.", False)],
          veredicto=("Del percentil 10-25 al 50 = crecimiento normal", "Se trata de una recuperación fisiológica, no de sobrepeso.")))
@@ -281,7 +279,7 @@ S("termometro", "RM-PED-068", "En el lactante la deshidratación moderada corres
               filas=[["Leve", "Menos de 5 %", "Menos de 3 %", "Casi sin signos; sales de rehidratación y alimentación"],
                      ["Moderada", "5 a 10 %", "3 a 9 %", "Rehidratación oral 50-100 mL/kg en 3-4 horas"],
                      ["Grave", "Más de 10 %", "Más de 9 %", "Vía intravenosa y reevaluación continua; riesgo de shock"]],
-              caso=1, ancho_primera=135))
+              caso=1, ancho_primera=180))
 
 # 069 · DOS PREGUNTAS · neumonía neumocócica
 S("dos_preguntas", "RM-PED-069", "Preescolar con fiebre alta, escalofríos, herpes labial y soplo tubárico: neumonía neumocócica",
@@ -306,7 +304,7 @@ S("dos_preguntas", "RM-PED-069", "Preescolar con fiebre alta, escalofríos, herp
                      ["Viral", "Lactante y preescolar", "Sibilancias e infiltrado difuso"],
                      ["Aspirativa", "Antecedente de atragantamiento o conciencia alterada", "Según el segmento aspirado"],
                      ["Tuberculosa", "Subaguda, contacto conocido", "Curso prolongado"]],
-              caso=0, ancho_primera=155))
+              caso=0, ancho_primera=180))
 
 # 070 · LÍNEA DE VIDA · sarampión
 S("linea_vida", "RM-PED-070", "Lactante con fiebre de 4 días, tos, conjuntivitis, coriza y exantema morbiliforme: virus del sarampión",
@@ -321,10 +319,10 @@ S("linea_vida", "RM-PED-070", "Lactante con fiebre de 4 días, tos, conjuntiviti
   op=("¿Agente causal probable?", ["No: da fiebre faringoconjuntival sin exantema morbiliforme típico", "Sí: tres «C» y exantema morbiliforme cefalocaudal", "No: da eritema infeccioso con cara «abofeteada»", "No: no causa exantema", "No: no tiene este patrón"],
       {}),
   d=dict(rotulo="Evolución del sarampión (días desde el inicio de la fiebre; rangos orientativos)", eje=(0, 10, 1), unidad="días",
-         barras=[("Fiebre alta", 0, 8, "Alcanza su pico cuando sale el exantema", False),
-                 ("Tos, coriza y conjuntivitis (las 3 «C»)", 0, 6, "Pródromo catarral: el caso tiene secreción nasal y conjuntival", False),
-                 ("Manchas de Koplik", 1, 4, "En la mucosa yugal; patognomónicas, aparecen en el pródromo", False),
-                 ("Exantema morbiliforme", 4, 9, "Cefalocaudal: cara, tronco y extremidades", True)],
+         barras=[("Fiebre alta", 0, 8, "Pico al salir el exantema", False),
+                 ("Tos, coriza y conjuntivitis (las 3 «C»)", 0, 6, "Pródromo catarral del caso", False),
+                 ("Manchas de Koplik", 1, 4, "Patognomónicas, en la mucosa yugal", False),
+                 ("Exantema morbiliforme", 4, 9, "Cefalocaudal, desde la cara", True)],
          marcador=(4, "Caso: fiebre de 4 días con exantema"),
          veredicto=("Fiebre, las tres «C» y exantema morbiliforme cefalocaudal = sarampión", "Aislamiento respiratorio y notificación inmediata.")),
   banda=B("El exantema del sarampión", PX("sarampion_exantema.jpg", 300, credito="CDC · Wikimedia Commons · dominio público",

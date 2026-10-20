@@ -15,7 +15,7 @@ S("dosis", "RM-PED-073", "Lactante con Hb de 6,5 g/dL: transfundir concentrado d
   op=("¿Volumen de hematíes (mL/kg)?", ["Sí: dosis habitual, eleva la Hb 2-3 g/dL", "No: sobrecarga de volumen (TACO)", "No: sobrecarga de volumen (TACO)", "No: sobrecarga de volumen (TACO)", "No: dosis excesiva para un lactante"],
       {0: "10-15 mL/kg", 1: "30-45 mL/kg", 2: "20-35 mL/kg", 3: "40-55 mL/kg", 4: "50-65 mL/kg"}),
   d=dict(rotulo="Cuánto concentrado de hematíes se da a un lactante con Hb de 6,5 g/dL", peso=("Lactante", "Hb 6,5 g/dL"),
-         pasos=[("Umbral de transfusión", "Hb < 7 g/dL", "Niño estable, sin cardiopatía cianótica"), ("Dosis de hematíes", "10-15 mL/kg", "Sube la Hb 2 a 3 g/dL"), ("Velocidad", "3-4 horas", "Máximo 4 h por unidad")],
+         pasos=[("Umbral de transfusión", "Hb < 7 g/dL", "Niño estable, sin cardiopatía cianótica"), ("Velocidad", "3-4 horas", "Máximo 4 h por unidad"), ("Dosis de hematíes", "10-15 mL/kg", "Sube la Hb 2 a 3 g/dL")],
          alternativas=[("10 - 15 mL/kg", "Elección", True), ("30 - 45 mL/kg", "Sobrecarga circulatoria (TACO)", False), ("20 - 35 mL/kg", "Sobrecarga circulatoria (TACO)", False),
                        ("40 - 55 mL/kg", "Sobrecarga circulatoria (TACO)", False), ("50 - 65 mL/kg", "Dosis excesiva", False)],
          veredicto=("10 a 15 mL/kg de hematíes en 3 a 4 horas", "Volúmenes mayores sobrecargan al lactante y pueden causar insuficiencia cardiaca.")))

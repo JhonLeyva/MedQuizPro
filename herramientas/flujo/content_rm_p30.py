@@ -43,8 +43,8 @@ S("reloj", "RM-GIN-150", "En la endometritis puerperal el antibiótico parentera
          veredicto=("Afebril 24 a 48 horas = suspender el antibiótico", "Con menos de 12 horas la fiebre puede reaparecer; esperar 72-96 horas alarga la estancia.")),
   clasif=dict(titulo="Endometritis puerperal: factores de riesgo y esquema", cols=["Aspecto", "Contenido"],
               filas=[["Factores de riesgo", "Cesárea, trabajo de parto prolongado, rotura prolongada de membranas, corioamnionitis, manipulación intrauterina"],
-                     ["Esquema de elección", "Clindamicina más gentamicina endovenosas; ampicilina añadida si no hay respuesta"],
-                     ["Criterio de suspensión", "Afebril y asintomática 24 a 48 horas; no requiere antibiótico oral posterior"]], caso=2, ancho_primera=200))
+                     ["Esquema de elección", "Clindamicina más gentamicina endovenosas; ampicilina añadida si no mejora"],
+                     ["Suspensión", "Afebril y asintomática 24 a 48 horas; no requiere antibiótico oral posterior"]], caso=2, ancho_primera=200))
 
 # 151 · CARRILES · gestante con DIU y guía visible
 S("carriles", "RM-GIN-151", "Gestante de 12 semanas con DIU y guía visible: retirar el dispositivo, no interrumpir el embarazo",
@@ -223,7 +223,7 @@ S("dos_preguntas", "RM-HEM-010", "Anemia con glositis atrófica, parestesias y g
                 ("¿Cómo se confirma la causa?", "Anticuerpos anti factor intrínseco y anti células parietales", "Después, B12 parenteral de por vida y vigilancia endoscópica.")],
          veredicto=("Glositis, parestesias y gastritis crónica = pedir vitamina B12", "Ferritina, Coombs y reticulocitos no tipifican una anemia megaloblástica.")),
   clasif=dict(titulo="Qué responde cada examen en esta paciente", cols=["Examen", "Qué responde", "En esta paciente"],
-              filas=[["Vitamina B12", "Confirma déficit de B12", "Examen que tipifica la anemia"],
+              filas=[["B12 sérica", "Confirma déficit de B12", "Examen que tipifica la anemia"],
                      ["Ferritina sérica", "Descarta ferropenia", "No encaja con una anemia macrocítica"],
                      ["Ácido fólico", "Otra causa de megaloblastosis", "No explica las parestesias"],
                      ["Test de Coombs", "Hemólisis autoinmune", "La hemólisis es por eritropoyesis ineficaz"],
@@ -376,7 +376,7 @@ S("cascada", "RM-HEM-016", "Pancitopenia con VCM de 102 fL, macro-ovalocitos y p
   banda=B("Referencia: neutrófilo hipersegmentado",
           PX("hiperseg2.jpg", 270, marcas=[("circulo", 0.52, 0.5, 0.26, "neutrófilo hipersegmentado", 0.55, 0.06)]),
           [("Seis o más lóbulos", "Núcleo muy segmentado: el ADN no se sintetiza bien."), ("Primer signo", "Aparece antes que la anemia."), ("Macro-ovalocitos", "Eritrocitos grandes y ovalados acompañan al hallazgo.")],
-          pie="Imagen referencial de un neutrófilo hipersegmentado", rotulo="Imagen referencial"))
+          pie="Referencia: neutrófilo hipersegmentado", rotulo="Imagen referencial"))
 
 # HEM-017 · ALARMA · leucemia linfoblástica aguda en el escolar
 S("alarma", "RM-HEM-017", "Escolar con palidez, equimosis, dolor óseo, adenopatías, 10 % de neutrófilos y células atípicas: leucemia linfoblástica aguda",
