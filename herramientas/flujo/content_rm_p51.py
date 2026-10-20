@@ -150,7 +150,7 @@ S("radial", "RM-PSI-026", "El cannabis produce euforia y mejora transitoria de l
   clasif=dict(titulo="Efectos agudos del cannabis frente a las opciones", cols=["Opción", "Efecto real del cannabis"],
               filas=[["Disminuye el apetito", "Lo aumenta"], ["Produce bradicardia", "Produce taquicardia"], ["Produce sialorrea", "Produce boca seca (xerostomía)"],
                      ["Mejora la autoestima", "Mejora transitoria, junto con euforia y bienestar"], ["Disminuye la sed", "La aumenta"]],
-              caso=3, ancho_primera=220))
+              caso=3, ancho_primera=270))
 
 # 060 · FÁRMACO · organofosforados
 S("farmaco", "RM-INF-060", "En la intoxicación por organofosforados el tratamiento de elección es la atropina",
@@ -254,7 +254,7 @@ S("cascada", "RM-TRA-043", "La tríada letal del trauma es hipotermia, coagulopa
    "Mortalidad mayor con temperatura menor de 35 °C, pH menor de 7,2 e INR prolongado. Alcalosis, hipertermia e hipercalemia no forman parte de la tríada.",
    "Prevención: hipotensión permisiva, transfusión balanceada, ácido tranexámico en la primera hora, calentar líquidos y ambiente, cirugía abreviada y calcio ionizado."],
   ATLS11 + "; Spahn DR et al., The European guideline on management of major bleeding and coagulopathy following trauma, sixth edition, Crit Care 2023;27:80; Sabiston Tratado de Cirugía, 21.ª ed. (2021)",
-  op=("¿Componentes?", ["No: la hipercalemia no forma parte", "No: no incluye hipercalemia", "Sí: hipotermia, coagulopatía y acidosis", "No: la acidosis es metabólica, no alcalosis", "No: la hipertermia no forma parte"],
+  op=("¿Componentes?", ["No: la hipercalemia no forma parte", "No: no incluye hipercalemia", "Sí: los tres componentes de la tríada", "No: la acidosis es metabólica, no alcalosis", "No: la hipertermia no forma parte"],
       {0: "Coagulopatía, hipercalemia y falla respiratoria", 1: "Acidosis, hipercalemia y coagulopatía", 2: "Hipotermia, acidosis y coagulopatía", 3: "Hipotermia, alcalosis y coagulopatía", 4: "Hipercalemia, hipertermia y coagulopatía"}),
   d=dict(rotulo="El círculo vicioso del trauma", cabeceras=("Qué ocurre", "Componente de la tríada"),
          pasos=[("La hemorragia reduce el transporte de oxígeno", "Metabolismo anaerobio con producción de lactato", [("Acidosis metabólica", "pH menor de 7,2 inhibe factores de coagulación", True)]),
@@ -379,8 +379,8 @@ S("puntaje", "RM-NRL-038", "Apertura ocular al llamado (3), verbal confusa (4) y
          interpreta="12 puntos: trauma craneoencefálico moderado",
          items=[("Ocular: espontánea", 4, False), ("Ocular: al llamado", 3, True), ("Ocular: al dolor", 2, False), ("Ocular: ninguna", 1, False),
                 ("Verbal: orientado", 5, False), ("Verbal: confuso", 4, True), ("Verbal: palabras inapropiadas", 3, False), ("Verbal: sonidos incomprensibles", 2, False),
-                ("Motora: obedece órdenes", 6, False), ("Motora: localiza el dolor", 5, True), ("Motora: retira", 4, False), ("Motora: flexión anormal", 3, False), ("Motora: extensión", 2, False)],
-         bandas=[("13-15", "Leve", "Observación e imagen según factores de riesgo.", False), ("9-12", "Moderado", "Este caso: TC urgente y vigilancia neurológica.", True),
+                ("Motora: obedece órdenes", 6, False), ("Motora: localiza el dolor", 5, True), ("Motora: retira", 4, False), ("Motora: flexión anormal", 3, False), ("Motora: extensión", 2, False), ("Motora: ninguna", 1, False)],
+         bandas=[("13-15", "Leve", "Observación e imagen según riesgo.", False), ("9-12", "Moderado", "Este caso: TC urgente y vigilancia neurológica.", True),
                  ("3-8", "Grave", "Proteger la vía aérea con intubación.", False)]),
   clasif=dict(titulo="Gravedad del trauma craneoencefálico según Glasgow", cols=["Glasgow", "Gravedad", "Conducta"],
               filas=[["13 a 15", "Leve", "Observación; imagen según factores de riesgo"],
