@@ -40,7 +40,7 @@ S("regla", "RM-SP-021", "La distribución normal estándar tiene media 0 y desvi
   d=dict(rotulo="Qué proporción de valores cae en cada tramo de la normal estándar",
          reglas=[dict(nombre="Distancia a la media (Z)", que="Cada Z es una desviación estándar a partir del centro (media = 0).",
                       min=-3, max=3, fmt="{}", ticks=[-3, -2, -1, 0, 1, 2, 3],
-                      bandas=[(-3, -2, "Más allá de 2: 5 % entre ambas colas", 3), (-2, -1, "1 a 2", 2), (-1, 1, "±1: cerca de 68 %", 0), (1, 2, "1 a 2", 2), (2, 3, "Más allá de 2", 3)],
+                      bandas=[(-3, -2, "Fuera de ±2: 5 %", 3), (-2, -1, "1 a 2", 2), (-1, 1, "±1: cerca de 68 %", 0), (1, 2, "1 a 2", 2), (2, 3, "Más allá de 2", 3)],
                       caso=0, caso_txt="MEDIA 0 · DESVIACIÓN ESTÁNDAR 1")],
          claves_titulo="Qué la define",
          claves=[("Media 0 y desviación 1", ["Por construcción de la puntuación Z"], True), ("Simétrica", ["Media, mediana y moda en el mismo punto"], False),
@@ -59,8 +59,8 @@ S("antes_despues", "RM-SP-022", "El efecto Hawthorne: participar en un estudio h
   op=("¿Cambio de conducta por participar?", ["Sí: la participación modifica el comportamiento", "No: eso es el efecto placebo", "No: es un asunto ético distinto", "No: el cegamiento es una herramienta", "No: es otro asunto, no un efecto"],
       {0: "Participar modifica el comportamiento", 1: "Sentirse bien con productos sin acción", 2: "Problema de ética del diseño experimental", 3: "Enmascaramiento del ensayo", 4: "Renuncia al consentimiento informado"}),
   d=dict(rotulo="Qué cambia cuando la persona sabe que es observada",
-         antes=dict(titulo="Sin sentirse observado", datos=[("Conducta", "Habitual, como en la práctica real"), ("Adherencia", "La de la vida diaria"), ("Síntomas declarados", "Sin influencia del estudio"), ("Validez externa", "Se conserva")]),
-         despues=dict(titulo="Participando en el estudio", datos=[("Conducta", "Se modifica por saberse estudiado"), ("Adherencia", "Mejora sin que lo cause el fármaco"), ("Síntomas declarados", "Pueden ser menos"), ("Validez externa", "Se afecta")]),
+         antes=dict(titulo="Sin sentirse observado", datos=[("Conducta", "Habitual, como en la práctica"), ("Adherencia", "La de la vida diaria"), ("Síntomas declarados", "Sin influencia del estudio"), ("Validez externa", "Se conserva")]),
+         despues=dict(titulo="Participando en el estudio", datos=[("Conducta", "Se modifica"), ("Adherencia", "Mejora sin causa del fármaco"), ("Síntomas declarados", "Pueden ser menos"), ("Validez externa", "Se afecta")]),
          intervencion="Formar parte de la investigación",
          cambios=[("La conducta cambia por ser observada", "mejora"), ("La mejoría no depende de la intervención", "igual"), ("El placebo es otro fenómeno distinto", "igual")],
          veredicto=("Efecto Hawthorne = la participación modifica la conducta", "Placebo, cegamiento, ética y consentimiento son conceptos distintos.")))
@@ -117,7 +117,7 @@ S("balanza", "RM-SP-025", "El grupo control del estudio caso-control son persona
       {0: "Sanos expuestos y no expuestos, misma población", 1: "Los enfermos expuestos a la causa", 2: "Grupo de sanos expuestos a la causa", 3: "Los enfermos no expuestos a la causa", 4: "Sanos que fueron enfermos por la causa"}),
   d=dict(rotulo="Quién es un buen control", gana="izq", pregunta="¿Cómo se integra el grupo control?",
          izq=dict(titulo="Control válido", peso="CORRECTO", items=["Personas sin la enfermedad", "Expuestas y no expuestas, como en su población", "De la misma población que originó los casos", "Podrían haber sido casos si hubieran enfermado"]),
-         der=dict(titulo="Control inválido", peso="INCORRECTO", items=["Enfermos expuestos o no expuestos (son casos)", "Solo sanos expuestos: nada que comparar", "Solo sanos no expuestos: sin odds ratio", "«Sanos enfermos por la causa»: contradictorio"]),
+         der=dict(titulo="Control inválido", peso="NO VÁLIDO", items=["Enfermos expuestos o no expuestos (son casos)", "Solo sanos expuestos: nada que comparar", "Solo sanos no expuestos: sin odds ratio", "«Sanos enfermos por la causa»: contradictorio"]),
          veredicto=("Control = sanos de la población de origen de los casos", ["Reflejan la exposición de esa población.", "Con ellos se compara y se calcula el odds ratio."])))
 
 # 026 · RADIAL · riesgo absoluto
@@ -132,7 +132,7 @@ S("radial", "RM-SP-026", "La tasa de incidencia es el mejor indicador del riesgo
   GORDIS + "; " + LASH + "; " + PORTA + ".",
   op=("¿Mejor reflejo del riesgo absoluto?", ["Sí: mide casos nuevos en la población en riesgo", "No: es la resta de riesgos, una medida de impacto", "No: incluye casos antiguos y depende de la duración", "No: es una medida relativa de asociación", "No: es una medida relativa de asociación"],
       {}),
-  d=dict(rotulo="Qué mide cada indicador", centro="RIESGO ABSOLUTO", centro_sub="probabilidad de enfermar en un periodo", ans=0,
+  d=dict(rotulo="Qué mide cada indicador", centro="RIESGO ABSOLUTO", centro_sub="probabilidad de enfermar", ans=0,
          items=[("TASA DE INCIDENCIA", ["Casos nuevos entre persona-tiempo: refleja el riesgo"]), ("RIESGO ATRIBUIBLE", ["Riesgo expuestos menos no expuestos: impacto"]),
                 ("PREVALENCIA", ["Casos nuevos y antiguos: no mide riesgo"]), ("RIESGO RELATIVO Y ODDS RATIO", ["Comparan grupos: asociación relativa"])],
          ruta=["Persona libre de la enfermedad", "Se observa un periodo", "Se cuentan los casos nuevos", "Incidencia = riesgo absoluto"]))
@@ -143,16 +143,16 @@ S("capas", "RM-SP-027", "La evaluación de riesgos es el componente del control 
   ("Control interno", ["Proceso a cargo de la dirección y el personal que da seguridad razonable de lograr los objetivos.", "Cinco componentes del marco COSO."]),
   ("Pregunta de gestión", ["¿Qué componente es un proceso permanente para prepararse ante eventos que afecten los objetivos?"]),
   ["Directiva 006-2019-CG/INTEG (RC 146-2019-CG): ambiente de control, evaluación de riesgos, actividades de control, información y comunicación, y supervisión.",
-   "Evaluación de riesgos: identifica y analiza de forma continua los eventos internos y externos, su probabilidad e impacto, y define la respuesta.",
-   "Respuestas al riesgo: evitar, reducir, compartir o aceptar. El ambiente de control es la base: integridad, valores éticos y estructura.",
+   "Evaluación de riesgos: identifica y analiza de forma continua los eventos internos y externos, su probabilidad e impacto, y define la reacción.",
+   "Opciones ante el riesgo: evitar, reducir, compartir o aceptar. El ambiente de control es la base: integridad, valores éticos y estructura.",
    "Perla: en hospitales el mapa de riesgos institucional es el producto típico de este componente."],
   "Contraloría General de la República, Directiva 006-2019-CG/INTEG (RC 146-2019-CG, con modificatorias); COSO, Internal Control-Integrated Framework (2013).",
-  op=("¿Proceso permanente ante eventos adversos?", ["No: asegura que los datos fluyan", "Sí: identifica y analiza riesgos de forma continua", "No: es la base de integridad y valores", "No: son políticas que aseguran las respuestas", "No: es el monitoreo y la evaluación independiente"],
+  op=("¿Proceso permanente ante eventos adversos?", ["No: asegura que los datos fluyan", "Sí: identifica y analiza riesgos de forma continua", "No: es la base de integridad y valores", "No: son políticas que aseguran las medidas", "No: es el monitoreo y la evaluación independiente"],
       {0: "Información y comunicación", 1: "Evaluación de riesgos", 2: "Ambiente de control", 3: "Actividades de control", 4: "Supervisión"}),
   d=dict(rotulo="Los cinco componentes del control interno", prof=1, tag="AQUÍ", lateral_titulo="Qué hace cada componente",
          capas=[("Ambiente de control", "Base", "#fbd5c4", "Integridad, valores éticos y estructura", "Es la base sobre la que se apoyan los demás."),
-                ("Evaluación de riesgos", "Proceso permanente", "#f5b8a2", "Identifica y analiza eventos adversos", "Probabilidad, impacto y respuesta: evitar, reducir, compartir o aceptar."),
-                ("Actividades de control", "Políticas y procedimientos", "#e89c84", "Aseguran las respuestas a los riesgos", "Son la ejecución de lo decidido en la evaluación."),
+                ("Evaluación de riesgos", "Proceso permanente", "#f5b8a2", "Identifica y analiza eventos adversos", "Probabilidad, impacto y reacción: evitar, reducir, compartir o aceptar."),
+                ("Actividades de control", "Políticas y procedimientos", "#e89c84", "Aseguran las medidas frente a los riesgos", "Son la ejecución de lo decidido al evaluar."),
                 ("Información y comunicación", "Flujo de datos", "#fbe38e", "Los datos circulan en la institución", "Permite que cada nivel conozca y cumpla sus funciones."),
                 ("Supervisión", "Monitoreo", "#fde9a8", "Seguimiento continuo y evaluaciones independientes", "Verifica que el sistema funcione en el tiempo.")],
          veredicto=("Preparación permanente ante eventos adversos = evaluación de riesgos", "En hospitales su producto típico es el mapa de riesgos.")))
@@ -232,7 +232,7 @@ S("cuadro", "RM-SP-031", "La intensidad del prurito en una escala de 0 a 10 es u
                      ["Ordinal", "Orden, sin distancias iguales", "Prurito de 0 a 10; dolor; disnea", "Mediana y rango intercuartílico"],
                      ["Intervalo", "Distancias iguales, cero arbitrario", "Temperatura en °C", "Media y desviación estándar"],
                      ["Razón", "Distancias iguales y cero absoluto", "Peso, talla", "Media y desviación estándar"]],
-              caso=1, ancho_primera=110, nota="Continua y discreta describen si la variable cuantitativa admite o no valores intermedios; no son escalas de medición."))
+              caso=1, ancho_primera=170, nota="Continua y discreta describen si la variable cuantitativa admite o no valores intermedios; no son escalas de medición."))
 
 # 032 · EMBUDO · gráfico para dos variables cuantitativas
 S("embudo", "RM-SP-032", "Dos variables cuantitativas en los mismos pacientes se representan con un gráfico de dispersión",
@@ -305,7 +305,7 @@ S("radial", "RM-SP-035", "Correlacionar consumo de carnes rojas e incidencia de 
   GORDIS + "; " + LASH + "; " + PORTA + ".",
   op=("¿Unidad de análisis: el país?", ["No: requiere datos individuales de exposición", "No: solo indica que hay seguimiento", "No: mide individuos en un momento", "Sí: compara indicadores agregados de grupos", "No: requiere datos individuales"],
       {0: "Cohortes no concurrente", 1: "Longitudinal", 2: "Analítico transversal", 3: "Ecológico", 4: "Casos y controles"}),
-  d=dict(rotulo="Qué caracteriza al estudio ecológico", centro="ECOLÓGICO", centro_sub="la unidad de análisis es el grupo", ans=3,
+  d=dict(rotulo="Qué caracteriza al estudio ecológico", centro="ECOLÓGICO", centro_sub="la unidad es el grupo", ans=3,
          items=[("DATOS AGREGADOS", ["Consumo promedio y tasa de enfermedad por país"]), ("USOS", ["Rápido y barato: genera hipótesis"]),
                 ("LIMITACIÓN", ["Falacia ecológica: no se sabe quién comió ni quién enfermó"]), ("CONFUSIÓN", ["Dieta total, tamizaje y edad difieren entre países"])],
          ruta=["País con consumo y tasa", "13 pares de valores", "Se calcula la correlación", "Hipótesis a comprobar en individuos"]))
