@@ -53,7 +53,7 @@ S("alarma", "RM-GIN-082", "Amenorrea, dolor abdominal súbito con signos periton
                      ["Apendicitis aguda complicada", "Necesita más de 24 a 48 horas para perforarse; no explica una anemia aguda"],
                      ["Enfermedad inflamatoria pélvica", "Fiebre, flujo y dolor a la movilización del cuello"],
                      ["Vólvulo de ciego", "Obstrucción intestinal sin anemia"],
-                     ["Embarazo ectópico roto", "Amenorrea, dolor con signos peritoneales, anemia aguda y hemoperitoneo"]], caso=4, ancho_primera=230),
+                     ["Embarazo ectópico roto", "Amenorrea, dolor con signos peritoneales, anemia aguda y hemoperitoneo"]], caso=4, ancho_primera=270),
   banda=B("Referencia: el ectópico visto por laparoscopía",
           PX("ectopico_tubario.jpg", 300, marcas=[("flecha", 0.53, 0.30, 0.22, 0.12, "Trompa dilatada\npor el embarazo")]),
           [("Trompa hinchada y violácea", "Dentro crece el embarazo."), ("Pared fina", "Hacia la sexta a octava semana puede romperse y sangrar al abdomen."), ("Hemoperitoneo", "Explica los signos peritoneales y la anemia del caso.")],
@@ -129,7 +129,7 @@ S("embudo", "RM-GIN-085", "En la bacteriuria asintomática no hay disuria: la re
   clasif=dict(titulo="Infección urinaria en la gestante según los síntomas", cols=["Entidad", "Síntomas", "Conducta"],
               filas=[["Bacteriuria asintomática", "Ninguno; urocultivo con 100 000 UFC/mL o más", "Tamizar una vez en la primera visita; antibiótico dirigido por 5 a 7 días"],
                      ["Cistitis", "Disuria, polaquiuria y urgencia, sin fiebre ni dolor lumbar", "Tratar según el urocultivo"],
-                     ["Pielonefritis aguda", "Fiebre, escalofríos y dolor lumbar", "Hospitalizar y dar antibióticos intravenosos"]], caso=0, ancho_primera=190))
+                     ["Pielonefritis aguda", "Fiebre, escalofríos y dolor lumbar", "Hospitalizar y dar antibióticos intravenosos"]], caso=0, ancho_primera=250))
 
 # 086 · RADIAL · pielonefritis aguda en la gestante
 S("radial", "RM-GIN-086", "Gestante de 27 semanas con fiebre, escalofríos y dolor lumbar: pielonefritis aguda",
@@ -222,7 +222,7 @@ S("arbol", "RM-GIN-089", "Escape de orina con urgencia inminente que no llega al
               filas=[["De urgencia", "Pérdida precedida por urgencia miccional", "Hiperactividad del detrusor"],
                      ["De esfuerzo", "Fuga con tos o ejercicio", "Falla del soporte uretral o del esfínter"],
                      ["Continua", "Fuga permanente", "Fístula vesicovaginal o ureterovaginal, uréter ectópico"],
-                     ["Disfunción del vaciado", "Chorro débil, esfuerzo y residuo posmiccional", "Obstrucción o vejiga hipoactiva; puede dar rebosamiento"]], caso=0, ancho_primera=170))
+                     ["Disfunción del vaciado", "Chorro débil, esfuerzo y residuo posmiccional", "Obstrucción o vejiga hipoactiva; puede dar rebosamiento"]], caso=0, ancho_primera=220))
 
 # 090 · DECISIÓN · cuerpo lúteo hemorrágico
 S("decision", "RM-GIN-090", "Dolor pélvico agudo con β-hCG negativa, masa anexial y líquido libre: cuerpo lúteo hemorrágico",
@@ -261,10 +261,10 @@ S("linea_vida", "RM-GIN-091", "En la gestación gemelar lo más frecuente es el 
   op=("¿Complicación más frecuente?", ["No: menos frecuente que la prematuridad", "No: excepcional, uno por 50 000 a 100 000", "No: menos frecuente que la prematuridad", "Sí: 50 a 60 % nace antes de las 37 semanas", "No: característica de la monocorial pero afecta a la minoría"],
       {0: "Restricción del crecimiento fetal", 1: "Gemelos unidos", 2: "Gemelos discordantes", 3: "Parto prematuro", 4: "Síndrome de transfusión gemelo-gemelo"}),
   d=dict(rotulo="Cronología de una gestación gemelar monocorial diamniótica", eje=(0, 40, 4), unidad="semanas",
-         barras=[("Corionicidad: signo T o lambda (el caso, 8 semanas)", 6, 14, "Se define en el primer trimestre", False),
+         barras=[("Corionicidad (el caso)", 6, 14, "Se define en el primer trimestre", False),
                  ("Ecografía cada 2 semanas", 16, 36, "Detecta transfusión feto-fetal y restricción selectiva", False),
-                 ("Parto programado si no hay complicaciones", 34, 37, "Entre las 34 y 37 semanas", False),
-                 ("Parto pretérmino: la complicación más frecuente", 24, 37, "50 a 60 % nace antes de las 37 semanas", True)],
+                 ("Parto programado", 34, 37, "Entre las 34 y 37 semanas", False),
+                 ("Parto pretérmino", 24, 37, "50 a 60 % nace antes de las 37 semanas", True)],
          marcador=(35.5, "Edad media al parto: 35 a 36 semanas"),
          veredicto=("Gemelar = parto pretérmino", "La transfusión feto-fetal es la más característica de la monocorial, pero afecta solo a 10 a 15 %.")),
   clasif=dict(titulo="Complicaciones del embarazo gemelar monocorial según su frecuencia", cols=["Complicación", "Frecuencia", "Nota"],

@@ -27,7 +27,7 @@ S("tarjetas", "RM-PED-039", "Máculas rosadas que coalescen con ganglios subocci
                      ["Sarampión", "Paramixovirus", "Fiebre alta, tos, coriza, conjuntivitis y manchas de Koplik; descamación fina"],
                      ["Exantema súbito", "Herpesvirus 6; lactante", "Fiebre de 3 a 5 días y exantema al ceder"],
                      ["Eritema tóxico", "Neonato", "Pápulas y pústulas sobre base eritematosa con eosinofilia"],
-                     ["Miliaria rubra", "Calor y sudor", "Vesículas pruriginosas en zonas de oclusión"]], caso=0, ancho_primera=150),
+                     ["Miliaria rubra", "Calor y sudor", "Vesículas pruriginosas en zonas de oclusión"]], caso=0, ancho_primera=200),
   banda=B("Referencia: exantema de la rubéola",
           PX("rubeola.jpg", 220, marcas=[("circulo", 0.42, 0.32, 0.16, "máculas rosadas\nfinas y separadas", 0.42, 0.72)], credito="CDC · Wikimedia Commons · dominio público"),
           [("Círculo rojo", "Rodea máculas rosadas finas, la mayoría separadas."), ("Qué explica", "Exantema cefalocaudal que dura unos 3 días sin descamación."), ("Dato que decide", "Ganglios retroauriculares y suboccipitales palpables antes del exantema.")],

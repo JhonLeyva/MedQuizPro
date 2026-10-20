@@ -386,7 +386,7 @@ S("antes_despues", "RM-GIN-079", "En las zonas urbanas la primera causa de muert
    "Aborto séptico y complicaciones quirúrgicas son menos frecuentes; la tuberculosis multirresistente es rara."],
   "Say y cols., Causas globales de muerte materna: análisis sistemático de la OMS (Lancet Glob Health 2014); GPC 03-2025 INS/MINSA, Trastornos hipertensivos del embarazo; Williams Obstetricia, 26.ª ed. (2022).",
   op=("¿Causa más frecuente en zonas urbanas?", ["Sí: primera causa donde se controla la hemorragia", "No: menos frecuentes", "No: primera causa en el conjunto del país, no en la zona urbana", "No: menos frecuente", "No: causa rara"],
-      {0: "Preeclampsia-eclampsia", 1: "Complicaciones quirúrgicas obstétricas", 2: "Hemorragia puerperal", 3: "Aborto séptico", 4: "Tuberculosis multidrogorresistente"}),
+      {0: "Preeclampsia", 1: "Complicaciones quirúrgicas obstétricas", 2: "Hemorragia puerperal", 3: "Aborto séptico", 4: "Tuberculosis multidrogorresistente"}),
   d=dict(rotulo="Cómo cambia la causa principal con el acceso a servicios",
          antes=dict(titulo="Conjunto del país", datos=[("Causa principal", "Hemorragia obstétrica"), ("Contexto", "Sierra y selva"), ("Acceso a servicios", "Limitado"), ("Transfusión", "Poco disponible"), ("Desenlace", "Más muertes por sangrado")]),
          despues=dict(titulo="Zonas urbanas", datos=[("Causa principal", "Preeclampsia"), ("Contexto", "Ciudad y costa"), ("Acceso a servicios", "Mayor"), ("Transfusión", "Disponible"), ("Desenlace", "Hemorragia mejor controlada")]),

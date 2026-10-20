@@ -304,7 +304,7 @@ S("linea_vida", "RM-PED-017", "Neumonía con fiebre persistente al tercer día, 
               filas=[["Pequeño (menos de 10 mm en decúbito lateral)", "Antibióticos, sin drenaje"],
                      ["Moderado a grande con compromiso respiratorio", "Drenaje por toracocentesis o tubo (este caso: matidez y oxígeno)"],
                      ["Loculado", "Fibrinolíticos o videotoracoscopía"],
-                     ["Líquido con pH menor de 7,2, glucosa baja, LDH alta o pus", "Empiema"]], caso=1, ancho_primera=380))
+                     ["Líquido con pH menor de 7,2, glucosa baja, LDH alta o pus", "Empiema"]], caso=1, ancho_primera=450))
 
 # PED-018 · REGLA · estado epiléptico febril
 S("regla", "RM-PED-018", "Dos crisis en 35 minutos sin recuperar la conciencia en un niño febril: estado epiléptico (convulsivo)",

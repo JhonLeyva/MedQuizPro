@@ -75,7 +75,7 @@ S("linea_vida", "RM-NEU-031", "Broncoconstricción por ejercicio: prevenir con b
          marcador=(0, "Inhalar antes"),
          veredicto=("Prevención del esfuerzo = beta-2 de acción corta previo", "Los corticoides inhalados se reservan para el asma persistente o la reacción insuficiente.")),
   clasif=dict(titulo="Prevención de la broncoconstricción inducida por ejercicio (ATS 2013, GINA 2025)", cols=["Medida", "Cuándo", "Comentario"],
-              filas=[["Beta-2 de acción corta inhalado", "10-15 min antes del ejercicio", "Primera línea; protege a 80-90 % durante 2 a 3 horas"],
+              filas=[["Beta-2 corto inhalado", "10-15 min antes del ejercicio", "Primera línea; protege a 80-90 % durante 2 a 3 horas"],
                      ["Corticoide inhalado", "Diario", "Si hay asma persistente; efecto protector tras semanas"],
                      ["Antileucotrienos", "Diario o a demanda", "Alternativa o complemento, menos eficaz"],
                      ["Calentamiento y respirar por la nariz", "Antes y durante el esfuerzo", "Medidas no farmacológicas de apoyo"]], caso=0, ancho_primera=260,
@@ -399,6 +399,6 @@ S("antes_despues", "RM-NEU-045", "El tabaco transforma el epitelio pseudoestrati
          veredicto=("Tabaco = metaplasia escamosa", "Es reversible si se suspende el tabaco, por eso la cesación es la medida preventiva clave.")),
   clasif=dict(titulo="Secuencia del carcinoma epidermoide bronquial", cols=["Etapa", "Epitelio", "Reversibilidad"],
               filas=[["Normal", "Pseudoestratificado cilíndrico ciliado", "No aplica"],
-                     ["Metaplasia escamosa", "Estratificado plano sin cilios", "Reversible si se suspende el tabaco"],
+                     ["Metaplasia", "Estratificado plano sin cilios", "Reversible si se suspende el tabaco"],
                      ["Displasia y carcinoma in situ", "Atipia celular creciente", "Cada vez menos reversible"],
                      ["Carcinoma epidermoide invasivo", "Queratinización y puentes intercelulares", "Irreversible"]], caso=1, ancho_primera=200))
