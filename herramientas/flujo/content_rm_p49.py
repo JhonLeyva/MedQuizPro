@@ -21,7 +21,7 @@ S("radial", "RM-TRA-012", "En la enfermedad de Dupuytren los dedos más afectado
                 ("GENÉTICA", ["Autosómica dominante de penetrancia variable"]),
                 ("SIGNO CLÁSICO", ["Prueba de la mesa: la palma no se apoya plana"])],
          ruta=["Nódulo palmar indoloro", "Cuerdas y contractura en flexión", "Contractura MCF de 30 grados o más", "Fasciectomía, aguja o colagenasa"]),
-  banda=B("Así se ve la contractura de un dedo en Dupuytren", PX("p49_dupuytren_c.jpg", 200, marcas=[("circulo", 0.86, 0.70, 0.10, "Meñique flexionado", 0.45, 0.93)], credito="Seth et al. · Rep Clin Pract Surg Cases 2026 · CC BY 4.0"),
+  banda=B("Así se ve la contractura de un dedo en Dupuytren", PX("p49_dupuytren_c.jpg", 200, marcas=[("circulo", 0.90, 0.64, 0.10, "Meñique flexionado", 0.50, 0.93)], credito="Seth et al. · Rep Clin Pract Surg Cases 2026 · CC BY 4.0"),
           [("Meñique flexionado", "El dedo no se extiende: contractura en flexión por la cuerda."), ("Palma", "La fascia palmar engrosada forma nódulos y cuerdas."), ("Dedos afectados", "El anular y el meñique son los más frecuentes.")],
           pie="Imagen referencial de la contractura en flexión del meñique en la enfermedad de Dupuytren"),
   clasif=dict(titulo="Dedos afectados en la enfermedad de Dupuytren", cols=["Dedo", "Frecuencia", "Comentario"],
@@ -102,7 +102,7 @@ S("carriles", "RM-TRA-015", "El adolescente obeso y sedentario puede presentar t
           pie="Imagen referencial de una tibia vara bilateral en la radiografía"),
   clasif=dict(titulo="Formas de la enfermedad de Blount", cols=["Forma", "Edad de inicio", "Rasgos"],
               filas=[["Infantil", "Antes de los 4 años", "Con frecuencia bilateral; se ensaya ortesis"],
-                     ["Del adolescente", "Después de los 10 años", "A menudo unilateral; asociada a obesidad; corrección quirúrgica"]], caso=1, ancho_primera=150))
+                     ["Del adolescente", "Después de los 10 años", "A menudo unilateral; asociada a obesidad; corrección quirúrgica"]], caso=1, ancho_primera=210))
 
 # 016 · DOS PREGUNTAS · signo de la charretera
 S("dos_preguntas", "RM-TRA-016", "El signo de la charretera es de la luxación anterior del hombro y lesiona con más frecuencia el nervio axilar",
@@ -121,7 +121,7 @@ S("dos_preguntas", "RM-TRA-016", "El signo de la charretera es de la luxación a
                 ("¿Qué nervio rodea el cuello quirúrgico?", "El nervio axilar (C5-C6)", "Está fijo en el espacio cuadrilátero, por eso se estira al luxarse la cabeza."),
                 ("¿Cómo se comprueba?", "Contracción del deltoides y sensibilidad de la cara lateral del hombro", "Se documenta antes y después de reducir.")],
          veredicto=("Luxación anterior del hombro = nervio axilar", "El radial, el cubital y el mediano se lesionan más abajo: diáfisis humeral, codo y muñeca.")),
-  banda=B("Así se ve la luxación anterior del hombro en la radiografía", PX("luxacion_hombro.jpg", 190, marcas=[("flecha", 0.46, 0.55, 0.78, 0.82, "Cabeza humeral fuera de la glenoides"), ("flecha", 0.36, 0.25, 0.80, 0.08, "Glenoides vacía")]),
+  banda=B("Así se ve la luxación anterior del hombro en la radiografía", PX("luxacion_hombro.jpg", 190, marcas=[("flecha", 0.46, 0.55, 0.55, 0.86, "Cabeza humeral"), ("flecha", 0.36, 0.25, 0.80, 0.08, "Glenoides vacía")]),
           [("Cabeza humeral", "Queda por debajo y por delante de la glenoides."), ("Glenoides vacía", "Sin la cabeza, el hombro pierde su contorno: signo de la charretera."), ("Nervio axilar", "Se estira alrededor del cuello quirúrgico del húmero.")],
           pie="Imagen referencial de una luxación anterior glenohumeral en la radiografía"),
   clasif=dict(titulo="Nervios del miembro superior y lesión típica", cols=["Nervio", "Lesión típica", "Déficit"],
@@ -152,7 +152,7 @@ S("embudo", "RM-TRA-017", "Con radiografía sin fractura y partes blandas inflam
          nota="La artrocentesis se reserva para un derrame importante, sospecha de infección o cristales."),
   clasif=dict(titulo="Estudio de la rodilla según lo que se busca", cols=["Sospecha", "Estudio"],
               filas=[["Fractura", "Radiografía; tomografía si es oculta o compleja"],
-                     ["Partes blandas, colaterales y tendones", "Ecografía"],
+                     ["Partes blandas", "Ecografía de colaterales, tendones y bursas"],
                      ["Meniscos y ligamentos cruzados", "Resonancia magnética"],
                      ["Trombosis o lesión vascular", "Eco Doppler"]], caso=1, ancho_primera=260))
 
@@ -174,12 +174,12 @@ S("cascada", "RM-TRA-018", "La fractura de Colles se produce por caída con la m
                 ("Desplazamiento dorsal", "Deformidad en dorso de tenedor", [("Posible fractura de la estiloides cubital", "", False)]),
                 ("Tratamiento", "Reducción cerrada e inmovilización; fijación si es inestable", [("Evaluar osteoporosis", "", False)])],
          veredicto=("Colles = dorsiextensión de la mano", "La flexión palmar produce la fractura de Smith, con desplazamiento volar.")),
-  banda=B("Así se ve la fractura de Colles en la radiografía lateral", PX("p49_colles_lat.jpg", 190, credito="Zhu et al. · Frontiers in Surgery 2025 · CC BY 4.0"),
-          [("Flecha blanca", "Marca el sitio de la fractura del radio distal."), ("Fragmento distal", "Se desplaza hacia el dorso de la muñeca."), ("Qué explica", "Caída con la mano en dorsiextensión.")],
+  banda=B("Así se ve la fractura de Colles en la radiografía lateral", PX("p49_colles_lat.jpg", 230, credito="Zhu et al. · Frontiers in Surgery 2025 · CC BY 4.0"),
+          [("Flecha blanca", "Marca el sitio de la fractura del radio distal."), ("Fragmento distal", "Se desplaza hacia el dorso de la muñeca."), ("Qué explica", "Caída con la mano en dorsiextensión."), ("Contraparte", "En la fractura de Smith el desplazamiento es volar.")],
           pie="Imagen referencial de una fractura del radio distal con desplazamiento dorsal en la radiografía lateral"),
   clasif=dict(titulo="Fractura de Colles frente a fractura de Smith", cols=["Fractura", "Mecanismo", "Desplazamiento"],
               filas=[["Colles", "Caída con la muñeca en dorsiextensión", "Dorsal (dorso de tenedor)"],
-                     ["Smith", "Caída sobre el dorso de la mano con la muñeca en flexión palmar", "Volar"]], caso=0, ancho_primera=110))
+                     ["Smith", "Caída sobre el dorso de la mano con la muñeca en flexión palmar", "Volar"]], caso=0, ancho_primera=170))
 
 # 019 · LÍNEA DE VIDA · yeso en fractura de Colles
 S("linea_vida", "RM-TRA-019", "En la fractura de Colles desplazada se reduce y se inmoviliza con yeso braquiomanual (clave del banco)",
@@ -195,7 +195,7 @@ S("linea_vida", "RM-TRA-019", "En la fractura de Colles desplazada se reduce y s
       {0: "Antebraquial", 2: "Braquiodedal", 3: "Braquiomanual (braquiopalmar)", 4: "Antebraquiomanual"}),
   d=dict(rotulo="Qué se hace en cada semana tras la fractura", eje=(0, 6, 1), unidad="semanas",
          barras=[("Reducción cerrada y yeso braquiomanual", 0, 1, "Analgesia, tracción y control radiográfico", True),
-                 ("Controles radiográficos", 1, 3, "Primera y segunda semana: detectar el desplazamiento secundario", False),
+                 ("Controles radiográficos", 1, 3, "Semanas 1 y 2: ver desplazamiento", False),
                  ("Yeso hasta consolidar", 0, 6, "Unas 4 a 6 semanas, con codo en 90 grados", False)],
          marcador=(0, "Caso: 30 minutos del trauma"),
          veredicto=("Colles desplazada = reducir y yeso braquiomanual", "El yeso antebraquial se acepta hoy en fracturas estables; si es inestable se fija.")),
@@ -214,11 +214,11 @@ S("balanza", "RM-TRA-020", "Miembro inferior en aducción, flexión y rotación 
    "Complicaciones: lesión del nervio ciático en 10 a 20 % de las posteriores y necrosis avascular, que aumenta si la reducción pasa de 6 horas.",
    "Tratamiento: reducción cerrada urgente bajo sedación (maniobras de Allis o Bigelow) y luego tomografía para descartar fragmentos; evaluar la rodilla y el ciático."],
   "Traumatic Hip Dislocation: Pediatric and Adult Evaluation and Management. J Am Acad Orthop Surg 2024; Sciatic nerve injuries associated with traumatic posterior hip dislocations. Am J Emerg Med 2003;21:545-548.",
-  op=("¿Diagnóstico más probable?", ["Sí: actitud en aducción, flexión y rotación interna", "No: suele acompañar a la luxación como lesión asociada", "No: suele acompañar a la luxación como lesión asociada", "No: da abducción y rotación externa", "No: acorta el miembro con rotación externa"],
+  op=("¿Diagnóstico más probable?", ["Sí: aducción y rotación interna", "No: suele acompañar a la luxación como lesión asociada", "No: suele acompañar a la luxación como lesión asociada", "No: da abducción y rotación externa", "No: acorta el miembro con rotación externa"],
       {1: "Fractura de la cabeza femoral", 4: "Fractura de la rama isquiopúbica"}),
   d=dict(rotulo="Luxación posterior frente a luxación anterior de la cadera", gana="izq", pregunta="¿Qué actitud tiene el miembro?",
          izq=dict(titulo="Posterior (este caso)", peso="90 %", items=["Aducción y flexión", "Rotación interna", "Miembro acortado", "Riesgo de lesión del ciático"]),
-         der=dict(titulo="Anterior", peso="Menos frecuente", items=["Abducción", "Rotación externa", "Ligera flexión", "Menos común tras un choque frontal"]),
+         der=dict(titulo="Anterior", peso="Menor", items=["Abducción", "Rotación externa", "Ligera flexión", "Menos común tras un choque frontal"]),
          veredicto=("Aducción + rotación interna + flexión = luxación posterior", ["Las fracturas de cuello o de ramas pubianas acortan el miembro con rotación externa.", "Antes y después de reducir se evalúa el ciático."])),
   clasif=dict(titulo="Actitud del miembro según la lesión de cadera", cols=["Lesión", "Actitud del miembro"],
               filas=[["Luxación posterior", "Acortado, flexionado, aducido y en rotación interna"],
@@ -266,7 +266,7 @@ S("piramide", "RM-TRA-022", "En la fase inicial del síndrome compartimental el 
               filas=[["Dolor desproporcionado", "Precoz", "El más sensible y fiable"],
                      ["Parestesias", "Intermedio", "Nervio con isquemia"],
                      ["Parálisis", "Tardío", "Daño avanzado"],
-                     ["Palidez y ausencia de pulso", "Tardío", "Su espera retrasa la fasciotomía"]], caso=0, ancho_primera=200))
+                     ["Palidez y ausencia de pulso", "Tardío", "Su espera retrasa la fasciotomía"]], caso=0, ancho_primera=270))
 
 # 023 · ÁRBOL · fractura del húmero proximal
 S("arbol", "RM-TRA-023", "Anciana con dolor postraumático de hombro y hematoma interno del brazo: fractura del cuello del húmero",
@@ -302,16 +302,16 @@ S("decision", "RM-TRA-024", "La fractura no desplazada o impactada del cuello fe
   "AAOS Clinical Practice Guideline Summary: Management of Hip Fractures in Older Adults. J Am Acad Orthop Surg 2022;30:e1291-e1296; Management of Acute Hip Fracture. N Engl J Med 2017;377:2053-2062.",
   op=("¿Tratamiento recomendable?", ["Sí: estabiliza sin demora y evita el desplazamiento", "No: aumenta las complicaciones del reposo", "No: es para fracturas desplazadas del anciano", "No: es de fracturas extracapsulares", "No: no ofrece estabilidad adecuada"],
       {0: "Fijación interna con tornillos", 1: "Tracción con soporte progresivo del peso", 2: "Prótesis acetabular", 3: "Placa lateral", 4: "Fijación externa y observación"}),
-  d=dict(rotulo="Qué se hace según el desplazamiento y la edad", eje_y="Fractura del cuello femoral", ancho_filas=190,
+  d=dict(rotulo="Qué se hace según el desplazamiento y la edad", eje_y="Cuello femoral", ancho_filas=190,
          cols=["Paciente joven o activo", "Paciente anciano"],
          rows=[("No desplazada o impactada (este caso)", "Riego conservado"), ("Desplazada", "Riesgo alto de necrosis")],
          cells=[[("Tornillos canulados", ["Fijación en 24 a 48 horas"]), ("Tornillos canulados", ["Fijación precoz y carga según tolerancia"])],
                 [("Reducción y fijación urgente", ["Para conservar la cabeza"]), ("Hemiartroplastia o prótesis total", ["Evita la necrosis avascular"])]],
          caso=(0, None), nota="Tracción prolongada, fijación externa y placa lateral no son el tratamiento de esta fractura."),
   clasif=dict(titulo="Tratamiento de la fractura del cuello femoral", cols=["Fractura", "Tratamiento", "Nota"],
-              filas=[["No desplazada o impactada (Garden I y II)", "Tornillos canulados o tornillo deslizante", "Cirugía dentro de 48 horas"],
+              filas=[["No desplazada (Garden I y II)", "Tornillos canulados o tornillo deslizante", "Cirugía dentro de 48 horas"],
                      ["Desplazada en el anciano", "Hemiartroplastia o prótesis total", "Evita la necrosis avascular"],
-                     ["Extracapsular o subtrocantérica", "Placa o clavo", "Irrigación mejor conservada"]], caso=0, ancho_primera=220))
+                     ["Extracapsular o subtrocantérica", "Placa o clavo", "Fuera de la cápsula articular"]], caso=0, ancho_primera=270))
 
 # 025 · CHECKLIST · fractura de radio distal no desplazada
 S("checklist", "RM-TRA-025", "La fractura extraarticular de radio distal no desplazada se trata con yeso",
@@ -335,7 +335,7 @@ S("checklist", "RM-TRA-025", "La fractura extraarticular de radio distal no desp
               filas=[["Estable, no desplazada", "Yeso o férula antebraquial", "4 a 6 semanas; mover dedos y hombro desde el primer día"],
                      ["Desplazada", "Reducción cerrada", "Con control radiográfico"],
                      ["Inestable o conminuta", "Clavos percutáneos o fijación externa", "Si falla la reducción"],
-                     ["Intraarticular desplazada", "Placa volar bloqueada", "Reducción abierta"]], caso=0, ancho_primera=190))
+                     ["Intraarticular desplazada", "Placa volar bloqueada", "Reducción abierta"]], caso=0, ancho_primera=250))
 
 # 026 · CASCADA · fractura de pelvis estable con hipotensión
 S("cascada", "RM-TRA-026", "Politraumatizada con pelvis fracturada, hipotensión y FAST negativa: se inicia con reposición de volumen",
@@ -360,7 +360,7 @@ S("cascada", "RM-TRA-026", "Politraumatizada con pelvis fracturada, hipotensión
                      ["Abdomen", "FAST (negativa en este caso)"],
                      ["Pelvis", "Radiografía y exploración: sospecha principal"],
                      ["Huesos largos", "Exploración y radiografía"],
-                     ["Exterior", "Inspección y control directo"]], caso=2, ancho_primera=120))
+                     ["Exterior", "Inspección y control directo"]], caso=2, ancho_primera=170))
 
 # 027 · REGLA · confirmación del síndrome compartimental
 S("regla", "RM-TRA-027", "El síndrome compartimental agudo se confirma midiendo la presión del compartimento",
@@ -385,7 +385,7 @@ S("regla", "RM-TRA-027", "El síndrome compartimental agudo se confirma midiendo
                  ("Ecografía o resonancia", ["No validadas para el diagnóstico urgente y son lentas"], False)]),
   clasif=dict(titulo="Criterios de presión para confirmar el síndrome compartimental", cols=["Medida", "Umbral", "Comentario"],
               filas=[["Presión absoluta del compartimento", "30 mmHg o más", "Diagnóstica"],
-                     ["Presión de perfusión (diastólica menos compartimental)", "Menor de 30 mmHg", "El criterio más fiable; considera la hipotensión"]], caso=1, ancho_primera=280))
+                     ["Presión de perfusión", "Menor de 30 mmHg", "Diastólica menos compartimental; el criterio más fiable"]], caso=1, ancho_primera=250))
 
 # 028 · TARJETAS · síndrome del túnel carpiano
 S("tarjetas", "RM-TRA-028", "Muñeca dolorosa con Phalen y Tinel positivos en una lavandera: síndrome del túnel carpiano",
