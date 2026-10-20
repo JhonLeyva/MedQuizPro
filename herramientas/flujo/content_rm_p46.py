@@ -40,7 +40,7 @@ S("regla", "RM-SP-021", "La distribución normal estándar tiene media 0 y desvi
   d=dict(rotulo="Qué proporción de valores cae en cada tramo de la normal estándar",
          reglas=[dict(nombre="Distancia a la media (Z)", que="Cada Z es una desviación estándar a partir del centro (media = 0).",
                       min=-3, max=3, fmt="{}", ticks=[-3, -2, -1, 0, 1, 2, 3],
-                      bandas=[(-3, -2, "Fuera de ±2: 5 %", 3), (-2, -1, "1 a 2", 2), (-1, 1, "±1: cerca de 68 %", 0), (1, 2, "1 a 2", 2), (2, 3, "Más allá de 2", 3)],
+                      bandas=[(-3, -2, "Menos de −2", 3), (-2, -1, "−2 a −1", 2), (-1, 1, "±1: cerca de 68 %", 0), (1, 2, "1 a 2", 2), (2, 3, "Más de +2", 3)],
                       caso=0, caso_txt="MEDIA 0 · DESVIACIÓN ESTÁNDAR 1")],
          claves_titulo="Qué la define",
          claves=[("Media 0 y desviación 1", ["Por construcción de la puntuación Z"], True), ("Simétrica", ["Media, mediana y moda en el mismo punto"], False),
@@ -305,7 +305,7 @@ S("radial", "RM-SP-035", "Correlacionar consumo de carnes rojas e incidencia de 
   GORDIS + "; " + LASH + "; " + PORTA + ".",
   op=("¿Unidad de análisis: el país?", ["No: requiere datos individuales de exposición", "No: solo indica que hay seguimiento", "No: mide individuos en un momento", "Sí: compara indicadores agregados de grupos", "No: requiere datos individuales"],
       {0: "Cohortes no concurrente", 1: "Longitudinal", 2: "Analítico transversal", 3: "Ecológico", 4: "Casos y controles"}),
-  d=dict(rotulo="Qué caracteriza al estudio ecológico", centro="ECOLÓGICO", centro_sub="la unidad es el grupo", ans=3,
+  d=dict(rotulo="Qué caracteriza al estudio ecológico", centro="ECOLÓGICO", centro_sub="la unidad es el grupo", ans=0,
          items=[("DATOS AGREGADOS", ["Consumo promedio y tasa de enfermedad por país"]), ("USOS", ["Rápido y barato: genera hipótesis"]),
                 ("LIMITACIÓN", ["Falacia ecológica: no se sabe quién comió ni quién enfermó"]), ("CONFUSIÓN", ["Dieta total, tamizaje y edad difieren entre países"])],
          ruta=["País con consumo y tasa", "13 pares de valores", "Se calcula la correlación", "Hipótesis a comprobar en individuos"]))

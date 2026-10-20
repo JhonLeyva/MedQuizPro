@@ -105,7 +105,7 @@ S("dos_preguntas", "RM-SP-007", "La razón de diabéticos frente a no diabético
          veredicto=("Razón = diabéticos / no diabéticos = 0,05", "Dividir entre 21 000 daría la prevalencia (4,8 %), una proporción.")),
   clasif=dict(titulo="Razón, proporción y tasa", cols=["Medida", "Qué compara", "Ejemplo con este caso"],
               filas=[["Razón", "Numerador fuera del denominador", "1000/20 000 = 0,05"], ["Proporción", "Numerador dentro del denominador", "1000/21 000 = 0,048 (prevalencia)"],
-                     ["Tasa", "Casos en el tiempo (persona-año)", "No calculable con estos datos"]], caso=0, ancho_primera=120))
+                     ["Tasa", "Casos en el tiempo (persona-año)", "No calculable con estos datos"]], caso=0, ancho_primera=190))
 
 # SP-008 · TARJETAS
 S("tarjetas", "RM-SP-008", "La proporción de individuos no afectados que contraerá la enfermedad es el riesgo",
@@ -156,8 +156,8 @@ S("balanza", "RM-SP-010", "La cohorte reduce el sesgo de recuerdo y fija la secu
   op=("¿Ventaja de la cohorte?", ["Sí: mide la exposición antes del desenlace", "No: es más cara y larga", "No: la temporalidad sí apoya la causalidad", "No: es propio de casos y controles", "No: describe a los estudios transversales"],
       {0: "Reduce el sesgo", 1: "Menor costo", 2: "No establece causa y efecto", 3: "No informa de exposiciones múltiples", 4: "No hay relación temporal"}),
   d=dict(rotulo="Cohorte frente a casos y controles", gana="izq", pregunta="¿Qué ventaja tiene la cohorte?",
-         izq=dict(titulo="Cohorte", peso="MAYOR VALIDEZ", items=["Exposición medida antes del desenlace (este caso)", "Temporalidad clara", "Calcula incidencia y riesgo relativo", "Varios desenlaces de una exposición"]),
-         der=dict(titulo="Casos y controles", peso="MÁS RÁPIDO", items=["Sesgo de recuerdo de la exposición", "Estima odds ratio", "Útil en enfermedades raras", "Menor costo y duración"]),
+         izq=dict(titulo="Cohorte", peso="VALIDEZ", items=["Exposición medida antes del desenlace (este caso)", "Temporalidad clara", "Calcula incidencia y riesgo relativo", "Varios desenlaces de una exposición"]),
+         der=dict(titulo="Casos y controles", peso="RAPIDEZ", items=["Sesgo de recuerdo de la exposición", "Estima odds ratio", "Útil en enfermedades raras", "Menor costo y duración"]),
          veredicto=("Cohorte = menos sesgo y temporalidad clara", ["Cuesta más y dura más; no es más barata.", "Falla en enfermedades raras o de larga latencia."])))
 
 # SP-011 · MATRIZ
@@ -170,7 +170,7 @@ S("matriz", "RM-SP-011", "La cohorte permite medir el riesgo de forma directa po
    "La cohorte arma grupos según exposición, no según enfermedad; su costo operativo es alto y ningún diseño sirve para todos los eventos.",
    "Otras ventajas: temporalidad clara y varios desenlaces. Desventaja: pérdidas de seguimiento. La retrospectiva ahorra tiempo y costo."],
   GOR + "; " + SZK + "; " + ROT + ".",
-  op=("¿Ventaja?", ["No: para enfermedades raras sirve casos y controles", "No: los grupos se arman según la exposición", "Sí: calcula la incidencia en cada grupo", "No: el costo es alto", "No: ningún diseño sirve para todos los eventos"],
+  op=("¿Ventaja?", ["No: para enfermedades raras sirve casos y controles", "No: los grupos se arman según la exposición", "Sí: calcula incidencia por grupo", "No: el costo es alto", "No: ningún diseño sirve para todos los eventos"],
       {0: "Útiles para enfermedades raras", 1: "Grupos según la enfermedad", 2: "Miden el riesgo de forma directa", 3: "Costo operativo bajo", 4: "Sirven para todos los eventos"}),
   d=dict(rotulo="Qué ofrece cada diseño", eje_x="Característica", eje_y="Diseño", cols=["Ventaja", "Limitación"], rows=["Cohorte (este caso)", "Casos y controles"], caso=(0, 0),
          cells=[[("Mide el riesgo directamente", ["Incidencia en cada grupo", "Riesgo relativo y atribuible"]), ("Costo y tiempo altos", ["Muestra grande y seguimiento", "Pérdidas de seguimiento"])],
@@ -212,7 +212,7 @@ S("grafica", "RM-SP-013", "La curva normal es simétrica respecto de su media; m
   d=dict(rotulo="Curva normal y regla empírica", eje_x="Desviaciones estándar respecto de la media", eje_y="Densidad relativa (%)",
          x=(-3.5, 3.5, [(-3, "-3"), (-2, "-2"), (-1, "-1"), (0, "media"), (1, "1"), (2, "2"), (3, "3")]), y=(0, 100, [(0, "0"), (50, "50"), (100, "100")]),
          series=[("Normal", _pts, "#0f766e")],
-         zonas=[(-3.5, -2, "", "#f1f5f9"), (-2, -1, "95 %", "#e0f2f1"), (-1, 1, "68 %", "#ccfbf1"), (1, 2, "95 %", "#e0f2f1"), (2, 3.5, "", "#f1f5f9")],
+         zonas=[(-3.5, -2, "", "#f1f5f9"), (-2, -1, "95 %", "#e0f2f1"), (-1, 1, "", "#ccfbf1"), (1, 2, "95 %", "#e0f2f1"), (2, 3.5, "", "#f1f5f9")],
          caso=(0, 100, "Media = mediana = moda"),
          notas=[("Simétrica respecto de la media", "Las dos colas son iguales: este caso.", True), ("Área total igual a 1", "Es 100 % de la probabilidad, no cero.", False),
                 ("Regla empírica", "68 % a ±1, 95 % a ±2 y 99,7 % a ±3 desviaciones.", False)],
@@ -273,7 +273,7 @@ S("arbol", "RM-SP-016", "Según la intervención del investigador, la cohorte es
       L("Combina estudios ya hechos", "METAANÁLISIS", ["Estudio secundario", "Dentro de una revisión sistemática"])], path=True),
   clasif=dict(titulo="Diseños según la intervención del investigador", cols=["Grupo", "Diseños", "Papel del investigador"],
               filas=[["Observacional descriptivo", "Serie de casos, ecológico, transversal", "Observa"], ["Observacional analítico", "Cohorte, casos y controles", "Observa"],
-                     ["Experimental", "Ensayo clínico, cuasiexperimental", "Asigna la intervención"]], caso=1, ancho_primera=190))
+                     ["Experimental", "Ensayo clínico, cuasiexperimental", "Asigna la intervención"]], caso=1, ancho_primera=260))
 
 # SP-017 · RADIAL
 S("radial", "RM-SP-017", "Los estudios de cohorte se clasifican en prospectivos, retrospectivos y ambispectivos",
@@ -332,4 +332,4 @@ S("matriz", "RM-SP-019", "El riesgo atribuible porcentual indica qué parte de l
                 [("Riesgo atribuible", ["Ie - Io", "Exceso absoluto de casos"]), ("Riesgo atribuible poblacional", ["Exceso en toda la población", "Incluye a los no expuestos"])]]),
   clasif=dict(titulo="Medidas de una cohorte", cols=["Medida", "Qué responde", "Cálculo"],
               filas=[["Riesgo relativo", "¿Cuántas veces más riesgo?", "Ie / Io"], ["Riesgo atribuible", "¿Cuántos casos de más?", "Ie - Io"],
-                     ["Riesgo atribuible porcentual", "¿Qué parte se debe a la exposición?", "(Ie - Io) / Ie × 100"], ["Odds ratio", "Asociación en casos y controles", "ad / bc"]], caso=2, ancho_primera=200))
+                     ["Riesgo atribuible porcentual", "¿Qué parte se debe a la exposición?", "(Ie - Io) / Ie × 100"], ["Odds ratio", "Asociación en casos y controles", "ad / bc"]], caso=2, ancho_primera=290))
