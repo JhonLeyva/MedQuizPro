@@ -25,7 +25,7 @@ S("cascada", "RM-GIN-081", "La 17-OH-progesterona ovárica la produce la teca in
                      ["Granulosa", "FSH", "Aromatasa CYP19A1: convierte los andrógenos en estrona y estradiol; sin CYP17A1"],
                      ["Teca externa", "—", "Tejido conectivo y vasos, sin función esteroidogénica"],
                      ["Tejido adiposo", "—", "Aromatiza en la periferia, pero no sintetiza el precursor"],
-                     ["Glándula suprarrenal", "ACTH", "También produce 17-OH-progesterona, pero no es fuente ovárica"]], caso=0, ancho_primera=170))
+                     ["Glándula suprarrenal", "ACTH", "También produce 17-OH-progesterona, pero no es fuente ovárica"]], caso=0, ancho_primera=230))
 
 # 082 · ALARMA · embarazo ectópico roto
 S("alarma", "RM-GIN-082", "Amenorrea, dolor abdominal súbito con signos peritoneales y Hb de 8 g/dL: embarazo ectópico roto",
@@ -236,7 +236,7 @@ S("decision", "RM-GIN-090", "Dolor pélvico agudo con β-hCG negativa, masa anex
   "ACOG, Practice Bulletin 174 Adnexal masses (2016); Levine D et al., SRU consensus, Radiology 2010;256:943-954; ACR O-RADS US, Radiology 2020;294:168-185.",
   op=("¿Diagnóstico más probable?", ["Sí: β-hCG negativa y masa con halo vascular", "No: la β-hCG negativa lo descarta", "No: masa mayor de 5 cm sin flujo en el Doppler", "No: dolor crónico, dismenorrea y dispareunia", "No: anecoico, de paredes finas y asintomático"],
       {}),
-  d=dict(rotulo="Qué se piensa según la β-hCG y la estabilidad", eje_y="β-hCG", ancho_filas=190,
+  d=dict(rotulo="Qué se piensa según la β-hCG y la estabilidad", eje_y="Prueba de embarazo", ancho_filas=190,
          cols=["Paciente estable", "Paciente inestable o hemoperitoneo masivo"],
          rows=[("Negativa (este caso)", "Descarta embarazo"), ("Positiva", "Pensar en ectópico")],
          cells=[[("Cuerpo lúteo hemorrágico", ["Expectante con analgesia"]), ("Cuerpo lúteo roto con hemoperitoneo", ["Cirugía"])],
@@ -298,7 +298,7 @@ S("carriles", "RM-GIN-092", "Amenaza de aborto: junto al reposo se da antiespasm
                      ["Antiespasmódicos", "Alivian el cólico uterino: medida sintomática (clave del banco)"],
                      ["Analgésicos", "Alivian el dolor, no el componente espástico"],
                      ["Tocolíticos", "Tratan el trabajo de parto pretérmino"],
-                     ["Oxitócicos", "Contraindicados: favorecen el vaciamiento uterino"]], caso=1, ancho_primera=210,
+                     ["Oxitócicos", "Contraindicados: favorecen el vaciamiento uterino"]], caso=1, ancho_primera=250,
               nota="Ningún fármaco tiene evidencia sólida de revertir la amenaza de aborto."))
 
 # 093 · CHECKLIST · factores de riesgo de embarazo ectópico

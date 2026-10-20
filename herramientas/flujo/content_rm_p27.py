@@ -97,17 +97,17 @@ S("antes_despues", "RM-GIN-101", "En la preeclampsia las arterias espirales cons
   op=("¿Eventos de la placentación?", ["No: íntima engrosada es incompatible con baja resistencia", "Sí: insudación y proliferación de la mioíntima", "No: el alto flujo es del embarazo normal", "No: la isquemia no se asocia a alto flujo", "No: es el remodelado normal que aquí falla"],
       {0: "Engrosamiento de la íntima y baja resistencia", 1: "Insudación del plasma y mioíntima proliferada", 2: "Lesión endotelial y alto flujo espiral", 3: "Isquemia placentaria y alto flujo espiral", 4: "Capa muscular ausente y luz dilatada"}),
   d=dict(rotulo="Arterias espirales: embarazo normal frente a preeclampsia",
-         antes=dict(titulo="Embarazo normal", datos=[("Invasión del trofoblasto", "Hasta el segmento miometrial"), ("Capa muscular", "Destruida"), ("Calibre de la arteria", "Grande, luz dilatada"), ("Resistencia", "Baja"), ("Flujo uteroplacentario", "Alto")]),
-         despues=dict(titulo="Preeclampsia", datos=[("Invasión del trofoblasto", "Superficial"), ("Capa muscular", "Conservada"), ("Calibre de la arteria", "Estrecho"), ("Resistencia", "Alta"), ("Flujo uteroplacentario", "Disminuido")]),
-         intervencion="Falla la invasión trofoblástica",
-         cambios=[("Placenta isquémica: sFlt-1 y endoglina soluble", "peor"), ("Aterosis aguda: insudación del plasma y mioíntima proliferada", "peor"), ("Disfunción endotelial materna generalizada", "peor")],
+         antes=dict(titulo="Preeclampsia", datos=[("Invasión del trofoblasto", "Superficial"), ("Capa muscular", "Conservada"), ("Calibre de la arteria", "Estrecho"), ("Resistencia", "Alta"), ("Flujo uteroplacentario", "Disminuido")]),
+         despues=dict(titulo="Embarazo normal", datos=[("Invasión del trofoblasto", "Hasta el segmento miometrial"), ("Capa muscular", "Destruida"), ("Calibre de la arteria", "Grande, luz dilatada"), ("Resistencia", "Baja"), ("Flujo uteroplacentario", "Alto")]),
+         intervencion="Remodelado normal de las arterias espirales",
+         cambios=[("Invasión profunda: capa muscular y elástica destruidas", "mejora"), ("Arteria dilatada, de baja resistencia y alto flujo", "mejora"), ("En la preeclampsia falla: aterosis aguda con insudación y mioíntima proliferada", "peor")],
          veredicto=("Insudación del plasma + proliferación de la mioíntima", "Íntima engrosada con baja resistencia, isquemia con alto flujo o capa muscular ausente son incompatibles.")),
   clasif=dict(titulo="Placentación: embarazo normal y preeclampsia", cols=["Hallazgo", "Embarazo normal", "Preeclampsia"],
               filas=[["Invasión trofoblástica", "Profunda, hasta el miometrio", "Superficial"],
                      ["Arteria espiral", "Capa muscular y elástica destruidas; vaso dilatado", "Capa muscular conservada; vaso estrecho"],
                      ["Vasos placentarios", "Ninguna", "Aterosis aguda: insudación del plasma, necrosis fibrinoide y mioíntima proliferada"],
                      ["Factores circulantes", "Equilibrio angiogénico", "Exceso de sFlt-1 y endoglina soluble"]],
-              caso=2, ancho_primera=210))
+              caso=2, ancho_primera=260))
 
 # 102 · CARRILES · conducta tras la convulsión eclámptica
 S("carriles", "RM-GIN-102", "Tras la convulsión eclámptica se previenen nuevas crisis con sulfato de magnesio y se termina la gestación",

@@ -195,17 +195,17 @@ S("capas", "RM-GIN-071", "En el rectocele la estructura comprometida es el eleva
   "ACOG Practice Bulletin N.º 214, Prolapso de órganos pélvicos (Obstet Gynecol 2019); Moore, Anatomía con orientación clínica, 9.ª ed. (2022).",
   op=("¿Estructura comprometida?", ["No: es un músculo de la pared abdominal", "No: periné superficial", "No: periné superficial", "No: forma parte del complejo esfinteriano", "Sí: sostén principal del piso pélvico"],
       {0: "Piramidal", 1: "Transverso del periné", 2: "Bulbo cavernoso", 3: "Esfínter anal", 4: "Elevador del ano"}),
-  d=dict(rotulo="Las capas del piso pélvico, de profundo a superficial", prof=0, tag="AQUÍ", lateral_titulo="Qué contiene cada capa",
-         capas=[("Diafragma pélvico", "Plano profundo", "#fbd5c4", "Elevador del ano: pubococcígeo, puborrectal e iliococcígeo", "Sostiene recto, vagina y vejiga; su debilidad produce el rectocele."),
-                ("Membrana perineal", "Plano medio", "#f5b8a2", "Transverso profundo del periné y esfínter uretral", "Sostiene la uretra y cierra el hiato urogenital."),
+  d=dict(rotulo="Las capas del piso pélvico, de superficial a profundo", prof=3, tag="AQUÍ", lateral_titulo="Qué contiene cada capa",
+         capas=[("Complejo esfinteriano anal", "Esfínter externo e interno", "#fbe38e", "Esfínter anal externo (estriado) e interno (liso)", "Continencia fecal; no sostiene el tabique rectovaginal."),
                 ("Periné superficial", "Plano superficial", "#e89c84", "Transverso superficial, bulbocavernoso e isquiocavernoso", "Sostén accesorio; no es el soporte principal del recto."),
-                ("Complejo esfinteriano anal", "Esfínter externo e interno", "#fbe38e", "Esfínter anal externo (estriado) e interno (liso)", "Continencia fecal; no sostiene el tabique rectovaginal.")],
+                ("Membrana perineal", "Plano medio", "#f5b8a2", "Transverso profundo del periné y esfínter uretral", "Sostiene la uretra y cierra el hiato urogenital."),
+                ("Diafragma pélvico", "Plano profundo", "#fbd5c4", "Elevador del ano: pubococcígeo, puborrectal e iliococcígeo", "Sostiene recto, vagina y vejiga; su debilidad produce el rectocele.")],
          veredicto=("Rectocele = falla del elevador del ano y del tabique rectovaginal", "El piramidal es un músculo abdominal; los demás son del periné o del esfínter anal.")),
   clasif=dict(titulo="Prolapso de órganos pélvicos por compartimento", cols=["Compartimento", "Órgano que desciende", "Defecto de sostén"],
               filas=[["Anterior", "Vejiga: cistocele", "Pared vaginal anterior"],
                      ["Apical", "Útero o cúpula vaginal", "Ligamentos de sostén apical"],
                      ["Posterior", "Recto: rectocele", "Tabique rectovaginal y elevador del ano"]],
-              caso=2, ancho_primera=150, nota="Se estadifica con POP-Q de 0 a IV (ACOG 2019)."))
+              caso=2, ancho_primera=200, nota="Se estadifica con POP-Q de 0 a IV (ACOG 2019)."))
 
 # 147 · LÍNEA DE VIDA · complicación más severa del puerperio inmediato
 S("linea_vida", "RM-GIN-072", "La complicación más severa del puerperio inmediato es la atonía uterina, causa de hemorragia posparto",
@@ -251,7 +251,7 @@ S("cuadro", "RM-GIN-073", "En la mujer joven con tumor sólido de ovario el diag
                      ["Tumor de la granulosa", "Cordones sexuales; sobre todo después de los 50 años", "Secreta estrógenos"],
                      ["Fibroma de ovario", "Estroma; peri y posmenopausia", "Benigno"],
                      ["Tumor de Brenner", "Epitelial; peri y posmenopausia", "Bajo potencial o benigno"]],
-              caso=0, ancho_primera=200, nota="El fibroma subseroso es un mioma del útero, no un tumor ovárico."))
+              caso=0, ancho_primera=230, nota="El fibroma subseroso es un mioma del útero, no un tumor ovárico."))
 
 # 149 · CRITERIOS · mola hidatiforme
 S("criterios", "RM-GIN-074", "Sangrado, útero mayor que la amenorrea, hCG de 200 000 y ecografía en panal de abeja: mola hidatiforme",
