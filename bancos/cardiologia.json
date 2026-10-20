@@ -2434,6 +2434,90 @@
       "año": 2019,
       "fuentes": "Gewitz MH et al., AHA, Revision of the Jones Criteria for the diagnosis of acute rheumatic fever in the era of Doppler echocardiography (Circulation 2015;131:1806); Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
       "categoria": "Fiebre reumática"
+    },
+    {
+      "id": "RM-CAR-042",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "En la reanimación cardiopulmonar (RCP) básica está indicado usar:",
+      "opciones": [
+        "Ventilación antes del masaje.",
+        "Colocación de fármacos antes del masaje.",
+        "Masaje cardiaco antes de la ventilación.",
+        "Avisar a bomberos después de la desfibrilación.",
+        "Colocación de collarín cervical antes del masaje."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En el paro cardiorrespiratorio, la supervivencia depende de generar flujo sanguíneo al corazón y al cerebro lo más pronto posible. Por eso la secuencia contemporánea es C-A-B: compresiones, vía aérea y ventilación, en lugar del antiguo A-B-C. Tras comprobar la falta de respuesta y de respiración normal, y de activar el sistema de emergencia y pedir el desfibrilador, se inician compresiones en el centro del tórax con una profundidad de 5 a 6 cm, a un ritmo de 100 a 120 por minuto, permitiendo la reexpansión completa del tórax y minimizando las interrupciones. Después se abre la vía aérea con inclinación de la cabeza y elevación del mentón y se administran dos ventilaciones por cada 30 compresiones. El desfibrilador externo se usa apenas esté disponible. Los fármacos corresponden al soporte vital avanzado, no al básico. Dar ventilación primero retrasa las compresiones, y llamar a emergencias después de la descarga es tardío porque se debe activar la cadena de supervivencia desde el inicio. La inmovilización cervical no debe demorar el masaje, ya que en el paro primero se restablece la circulación. Perla clínica: los primeros minutos del paro suelen conservar oxígeno en sangre, de allí la prioridad de las compresiones.",
+      "comentario": "En el paro cardiorrespiratorio, la supervivencia depende de generar flujo sanguíneo al corazón y al cerebro lo más pronto posible. Por eso la secuencia contemporánea es C-A-B: compresiones, vía aérea y ventilación, en lugar del antiguo A-B-C. Tras comprobar la falta de respuesta y de respiración normal, y de activar el sistema de emergencia y pedir el desfibrilador, se inician compresiones en el centro del tórax con una profundidad de 5 a 6 cm, a un ritmo de 100 a 120 por minuto, permitiendo la reexpansión completa del tórax y minimizando las interrupciones. Después se abre la vía aérea con inclinación de la cabeza y elevación del mentón y se administran dos ventilaciones por cada 30 compresiones. El desfibrilador externo se usa apenas esté disponible. Los fármacos corresponden al soporte vital avanzado, no al básico. Dar ventilación primero retrasa las compresiones, y llamar a emergencias después de la descarga es tardío porque se debe activar la cadena de supervivencia desde el inicio. La inmovilización cervical no debe demorar el masaje, ya que en el paro primero se restablece la circulación. Perla clínica: los primeros minutos del paro suelen conservar oxígeno en sangre, de allí la prioridad de las compresiones.",
+      "tema": "Secuencia de la RCP básica: compresiones primero",
+      "año": 2015,
+      "fuentes": "American Heart Association, Guidelines for CPR and Emergency Cardiovascular Care (2025), Circulation 2025;152(suppl 2); European Resuscitation Council, Guidelines (2021)",
+      "categoria": "Reanimación"
+    },
+    {
+      "id": "RM-CAR-043",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 34 años, es traído a la emergencia por los bomberos en estado de inconsciencia. El médico confirma que se encuentra en paro cardiorrespiratorio e inicia la reanimación. Si el médico se encuentra solo, ¿cuál es la relación correcta entre el número de insuflaciones pulmonares y el número de compresiones del tórax?",
+      "opciones": [
+        "3/30.",
+        "1/30.",
+        "3/20.",
+        "2/30.",
+        "2/20."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "En el adulto, la relación de la RCP básica es de 30 compresiones por 2 ventilaciones, sea con uno o con dos reanimadores. Se expresa como 2 ventilaciones por 30 compresiones, que es la opción correcta. La razón es que la perfusión coronaria y cerebral se genera durante las compresiones, y cada interrupción para ventilar la reduce, por lo que se busca mantener la fracción de compresión por encima de 60 % y de preferencia de 80 %. Las compresiones se hacen en el tercio inferior del esternón, de 5 a 6 cm de profundidad, a 100 a 120 por minuto, con reexpansión completa. Las pausas para dar las dos ventilaciones deben durar menos de 10 segundos. En niños y lactantes, con dos reanimadores profesionales, la relación cambia a 15:2, porque el paro suele ser de origen respiratorio. Una vez que se coloca una vía aérea avanzada, se dan compresiones continuas y una ventilación cada 6 segundos. Las relaciones 3/30, 1/30, 3/20 y 2/20 no corresponden a ninguna recomendación vigente. Perla clínica: el relevo del que comprime cada 2 minutos evita la fatiga y mantiene la calidad.",
+      "comentario": "En el adulto, la relación de la RCP básica es de 30 compresiones por 2 ventilaciones, sea con uno o con dos reanimadores. Se expresa como 2 ventilaciones por 30 compresiones, que es la opción correcta. La razón es que la perfusión coronaria y cerebral se genera durante las compresiones, y cada interrupción para ventilar la reduce, por lo que se busca mantener la fracción de compresión por encima de 60 % y de preferencia de 80 %. Las compresiones se hacen en el tercio inferior del esternón, de 5 a 6 cm de profundidad, a 100 a 120 por minuto, con reexpansión completa. Las pausas para dar las dos ventilaciones deben durar menos de 10 segundos. En niños y lactantes, con dos reanimadores profesionales, la relación cambia a 15:2, porque el paro suele ser de origen respiratorio. Una vez que se coloca una vía aérea avanzada, se dan compresiones continuas y una ventilación cada 6 segundos. Las relaciones 3/30, 1/30, 3/20 y 2/20 no corresponden a ninguna recomendación vigente. Perla clínica: el relevo del que comprime cada 2 minutos evita la fatiga y mantiene la calidad.",
+      "tema": "Relación compresiones/ventilaciones con un reanimador",
+      "año": 2015,
+      "fuentes": "American Heart Association, Guidelines for CPR and Emergency Cardiovascular Care (2025), Circulation 2025;152(suppl 2); European Resuscitation Council, Guidelines (2021)",
+      "categoria": "Reanimación"
+    },
+    {
+      "id": "RM-CAR-044",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 55 años acude al servicio de Emergencia por cefalea y sensación nauseosa. Al examen clínico: PA 180/120 mmHg, pulso 100 por minuto. ¿Cuál es el tratamiento indicado?",
+      "opciones": [
+        "Propranolol.",
+        "Hidralazina.",
+        "Nitroprusiato de sodio.",
+        "Metildopa.",
+        "Minoxidil."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Una presión arterial muy elevada con síntomas neurológicos, como cefalea y náuseas, sugiere daño agudo de órgano blanco, en este caso probable encefalopatía hipertensiva, y por ello se considera una emergencia hipertensiva y no una urgencia o una elevación asintomática. Las guías AHA/ACC recomiendan hospitalizar al paciente en cuidados intensivos, monitorizar y reducir la presión con un fármaco intravenoso titulable en minutos, con meta de disminuir la presión arterial media no más de 25 % durante la primera hora, luego a 160/100 en 2 a 6 horas y a la normalidad en 24 a 48 horas. Los fármacos de primera línea son nicardipino, clevidipino y labetalol; el nitroprusiato de sodio, un vasodilatador arterial y venoso de acción inmediata, es una alternativa válida, pero con riesgo de toxicidad por cianuro y tiocianato en infusiones prolongadas y, como puede aumentar la presión intracraneal, se emplea con cautela. Es, de las opciones, la única de uso parenteral y titulable. El propranolol, la metildopa y el minoxidil son orales y de efecto lento o impredecible, y la hidralazina es de efecto errático y no se prefiere salvo en preeclampsia. Perla clínica: el descenso brusco de la presión puede causar isquemia cerebral o coronaria.",
+      "comentario": "Una presión arterial muy elevada con síntomas neurológicos, como cefalea y náuseas, sugiere daño agudo de órgano blanco, en este caso probable encefalopatía hipertensiva, y por ello se considera una emergencia hipertensiva y no una urgencia o una elevación asintomática. Las guías AHA/ACC recomiendan hospitalizar al paciente en cuidados intensivos, monitorizar y reducir la presión con un fármaco intravenoso titulable en minutos, con meta de disminuir la presión arterial media no más de 25 % durante la primera hora, luego a 160/100 en 2 a 6 horas y a la normalidad en 24 a 48 horas. Los fármacos de primera línea son nicardipino, clevidipino y labetalol; el nitroprusiato de sodio, un vasodilatador arterial y venoso de acción inmediata, es una alternativa válida, pero con riesgo de toxicidad por cianuro y tiocianato en infusiones prolongadas y, como puede aumentar la presión intracraneal, se emplea con cautela. Es, de las opciones, la única de uso parenteral y titulable. El propranolol, la metildopa y el minoxidil son orales y de efecto lento o impredecible, y la hidralazina es de efecto errático y no se prefiere salvo en preeclampsia. Perla clínica: el descenso brusco de la presión puede causar isquemia cerebral o coronaria.",
+      "tema": "Emergencia hipertensiva: fármaco endovenoso",
+      "año": 2015,
+      "fuentes": "Jones DW et al., 2025 AHA/ACC Guideline for the prevention, detection, evaluation and management of high blood pressure in adults, Hypertension y Circulation 2025; Harrison Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Emergencias hipertensivas",
+      "nota_revision": "Las guías actuales prefieren nicardipino, clevidipino o labetalol; entre las opciones listadas, el nitroprusiato es la única adecuada. Se mantiene la clave del libro."
+    },
+    {
+      "id": "RM-CAR-045",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Mujer de 65 años, es llevada a emergencia por disnea y palpitaciones de hace 6 horas. Antecedente de hipertensión arterial e insuficiencia cardíaca hace 5 años con tratamiento irregular. Examen: palidez y sudoración con frialdad de extremidades. Llenado capilar lento, PA 90/50 mmHg, FC 120 por minuto, FR 28 por minuto. Cuello: ingurgitación yugular (+). Tórax: crepitantes difusos en ambos campos pulmonares. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Noradrenalina.",
+        "Cloruro de sodio.",
+        "Nitroprusiato.",
+        "Plasma.",
+        "Nitroglicerina."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La paciente tiene una insuficiencia cardíaca descompensada con hipoperfusión: extremidades frías, llenado capilar lento, sudoración, hipotensión (90/50 mmHg), taquicardia, ingurgitación yugular y crepitantes, que indican congestión pulmonar y presión de llenado elevada. Es el perfil frío y húmedo, un shock cardiogénico. La bomba falla, la poscarga y el volumen no son el problema, y la prioridad es sostener la presión de perfusión coronaria y de los órganos con un vasopresor. La noradrenalina es el de primera línea porque eleva la presión arterial con poco aumento de la frecuencia cardíaca y menos arritmias que la dopamina (estudio SOAP II); después se puede añadir un inotrópico como la dobutamina si persiste la hipoperfusión, y se busca la causa desencadenante (isquemia, arritmia como la fibrilación auricular con respuesta rápida, infección). Los cristaloides y el plasma empeorarían el edema pulmonar en una paciente sobrecargada; el nitroprusiato y la nitroglicerina son vasodilatadores, útiles con presión normal o elevada y contraindicados con presión sistólica menor de 90 mmHg. Perla clínica: considerar soporte circulatorio mecánico en el shock refractario y derivar a una unidad de cuidados intensivos.",
+      "comentario": "La paciente tiene una insuficiencia cardíaca descompensada con hipoperfusión: extremidades frías, llenado capilar lento, sudoración, hipotensión (90/50 mmHg), taquicardia, ingurgitación yugular y crepitantes, que indican congestión pulmonar y presión de llenado elevada. Es el perfil frío y húmedo, un shock cardiogénico. La bomba falla, la poscarga y el volumen no son el problema, y la prioridad es sostener la presión de perfusión coronaria y de los órganos con un vasopresor. La noradrenalina es el de primera línea porque eleva la presión arterial con poco aumento de la frecuencia cardíaca y menos arritmias que la dopamina (estudio SOAP II); después se puede añadir un inotrópico como la dobutamina si persiste la hipoperfusión, y se busca la causa desencadenante (isquemia, arritmia como la fibrilación auricular con respuesta rápida, infección). Los cristaloides y el plasma empeorarían el edema pulmonar en una paciente sobrecargada; el nitroprusiato y la nitroglicerina son vasodilatadores, útiles con presión normal o elevada y contraindicados con presión sistólica menor de 90 mmHg. Perla clínica: considerar soporte circulatorio mecánico en el shock refractario y derivar a una unidad de cuidados intensivos.",
+      "tema": "Shock cardiogénico: fármaco inicial",
+      "año": 2017,
+      "fuentes": "ESC, Guías de insuficiencia cardíaca aguda y crónica (2021, actualización 2023); AHA/ACC/HFSA, insuficiencia cardíaca (2022); Harrison Principios de Medicina Interna 21.ª ed. (2022)"
     }
   ]
 }

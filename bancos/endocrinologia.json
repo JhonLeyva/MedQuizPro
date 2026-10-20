@@ -2266,6 +2266,27 @@
       "año": 2019,
       "fuentes": "Endocrine Society, Guía de práctica clínica de aldosteronismo primario (actualización 2025); ESH, Guías de hipertensión arterial (2023); ESC, Guías de hipertensión arterial (2024); Harrison, 21.ª ed. (2022)",
       "categoria": "Suprarrenal"
+    },
+    {
+      "id": "RM-END-043",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "En pacientes diabéticos que presentan hipoglicemia, ¿cuál es el síntoma neuroglicopénico?",
+      "opciones": [
+        "Rigidez.",
+        "Convulsiones.",
+        "Diaforesis.",
+        "Palpitaciones.",
+        "Temblores."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hipoglucemia se divide en dos grupos de síntomas según su mecanismo. Los adrenérgicos o autonómicos (temblor, palpitaciones, ansiedad, hambre, diaforesis y palidez) dependen de la liberación de adrenalina y noradrenalina cuando la glucemia cae por debajo de unos 70 mg/dL, y funcionan como señal de alarma. Los neuroglucopénicos aparecen cuando el cerebro, que depende casi por completo de la glucosa, no recibe suficiente sustrato, por lo general con glucemias menores de 54 mg/dL: dificultad de concentración, mareo, cefalea, confusión, conducta extraña, visión borrosa, somnolencia, convulsiones y coma. Por eso las convulsiones son la opción correcta, mientras que la diaforesis, las palpitaciones y el temblor son manifestaciones adrenérgicas, y la rigidez no es una manifestación característica. La clasificación de la ADA define nivel 1 como menor de 70 y mayor o igual a 54 mg/dL, nivel 2 como menor de 54 mg/dL y nivel 3 como el evento grave con alteración cognitiva que exige ayuda de terceros. El tratamiento del paciente consciente es de 15 a 20 g de glucosa oral con repetición a los 15 minutos; si está inconsciente se usa glucagón o dextrosa intravenosa. Perla clínica: la hipoglucemia recurrente produce falta de percepción de los síntomas de alarma, lo que eleva el riesgo de eventos graves.",
+      "comentario": "La hipoglucemia se divide en dos grupos de síntomas según su mecanismo. Los adrenérgicos o autonómicos (temblor, palpitaciones, ansiedad, hambre, diaforesis y palidez) dependen de la liberación de adrenalina y noradrenalina cuando la glucemia cae por debajo de unos 70 mg/dL, y funcionan como señal de alarma. Los neuroglucopénicos aparecen cuando el cerebro, que depende casi por completo de la glucosa, no recibe suficiente sustrato, por lo general con glucemias menores de 54 mg/dL: dificultad de concentración, mareo, cefalea, confusión, conducta extraña, visión borrosa, somnolencia, convulsiones y coma. Por eso las convulsiones son la opción correcta, mientras que la diaforesis, las palpitaciones y el temblor son manifestaciones adrenérgicas, y la rigidez no es una manifestación característica. La clasificación de la ADA define nivel 1 como menor de 70 y mayor o igual a 54 mg/dL, nivel 2 como menor de 54 mg/dL y nivel 3 como el evento grave con alteración cognitiva que exige ayuda de terceros. El tratamiento del paciente consciente es de 15 a 20 g de glucosa oral con repetición a los 15 minutos; si está inconsciente se usa glucagón o dextrosa intravenosa. Perla clínica: la hipoglucemia recurrente produce falta de percepción de los síntomas de alarma, lo que eleva el riesgo de eventos graves.",
+      "tema": "Síntomas neuroglucopénicos de la hipoglucemia",
+      "año": 2019,
+      "fuentes": "ADA, Standards of Care in Diabetes-2026, sección 6 (Diabetes Care 2026;49 Suppl 1:S132-S149); Cryer PE et al. Endocrine Society, hipoglucemia del adulto. J Clin Endocrinol Metab 2009;94:709-728",
+      "categoria": "Diabetes"
     }
   ]
 }

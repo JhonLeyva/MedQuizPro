@@ -2559,6 +2559,27 @@
       "fuentes": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults. Am J Gastroenterol 2016;111:602-622; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
       "categoria": "Intestino",
       "nota_revision": "Discrepancia: Harrison y otras fuentes usan 200 g/día y la guía ACG 2016 define la diarrea aguda solo por frecuencia y duración (≥3 deposiciones sueltas/24 h, menos de 14 días); el umbral de 250 g/día no se verificó en guías. Se mantiene la clave A (única opción de 250 g/día). Clave del libro: A (250 g/día); corregida a E (200 g/día), corte de Harrison y dentro del rango 200-250 de ACG 2016; la opción A se cambió a 300 g/día para dejar una sola correcta."
+    },
+    {
+      "id": "RM-GAS-041",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 65 años, con accidente cerebrovascular que requiere ventilación asistida y con historia de reflujo gastroesofágico severo. ¿Cuál es la medida más apropiada para evitar el reflujo y la broncoaspiración?",
+      "opciones": [
+        "Alimentación por sonda nasoyeyunal.",
+        "Nutrición parenteral total.",
+        "Antibioticoterapia prolongada.",
+        "Alimentación por sonda nasogástrica.",
+        "Nada por vía oral."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente ventilado tiene un riesgo elevado de neumonía por aspiración por varios mecanismos: reducción de la conciencia, disfagia por el ictus, decúbito, retraso del vaciamiento gástrico y, en este caso, reflujo gastroesofágico severo. La nutrición enteral temprana es preferible a la parenteral porque preserva la barrera intestinal y reduce infecciones. Las guías indican iniciar con sonda nasogástrica y reservar la vía pospilórica (nasoyeyunal) para pacientes con intolerancia gástrica persistente o alto riesgo de aspiración, como el que describe el enunciado. La sonda nasoyeyunal, ubicada más allá del ángulo de Treitz, evita que el estómago se llene, reduciendo la regurgitación, y debe acompañarse de medidas generales: cabecera elevada entre 30 y 45 grados, infusión continua, control de la presión del balón de neumotaponamiento y uso de procinéticos como metoclopramida o eritromicina. La nutrición parenteral queda reservada a quienes no toleran la vía enteral, porque aumenta las complicaciones infecciosas; los antibióticos prolongados no previenen la aspiración y favorecen la resistencia; y mantener al paciente sin nutrición por vía oral por sí solo lo deja sin aporte calórico. Perla clínica: confirmar la posición de la sonda con radiografía.",
+      "comentario": "El paciente ventilado tiene un riesgo elevado de neumonía por aspiración por varios mecanismos: reducción de la conciencia, disfagia por el ictus, decúbito, retraso del vaciamiento gástrico y, en este caso, reflujo gastroesofágico severo. La nutrición enteral temprana es preferible a la parenteral porque preserva la barrera intestinal y reduce infecciones. Las guías indican iniciar con sonda nasogástrica y reservar la vía pospilórica (nasoyeyunal) para pacientes con intolerancia gástrica persistente o alto riesgo de aspiración, como el que describe el enunciado. La sonda nasoyeyunal, ubicada más allá del ángulo de Treitz, evita que el estómago se llene, reduciendo la regurgitación, y debe acompañarse de medidas generales: cabecera elevada entre 30 y 45 grados, infusión continua, control de la presión del balón de neumotaponamiento y uso de procinéticos como metoclopramida o eritromicina. La nutrición parenteral queda reservada a quienes no toleran la vía enteral, porque aumenta las complicaciones infecciosas; los antibióticos prolongados no previenen la aspiración y favorecen la resistencia; y mantener al paciente sin nutrición por vía oral por sí solo lo deja sin aporte calórico. Perla clínica: confirmar la posición de la sonda con radiografía.",
+      "tema": "Alimentación enteral en ventilado con reflujo grave",
+      "año": 2015,
+      "fuentes": "Singer P et al., ESPEN practical and partially revised guideline: clinical nutrition in the intensive care unit, Clin Nutr 2023;42:1671-89; Harrison Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Nutrición enteral"
     }
   ]
 }

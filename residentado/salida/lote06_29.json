@@ -1,0 +1,158 @@
+[
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-039",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+  "enunciado": "La bacteriuria asintomática en gestantes predispone a:",
+  "opciones": [
+   "Pielonefritis aguda.",
+   "Hidronefrosis.",
+   "Insuficiencia renal.",
+   "Litiasis renal.",
+   "Hipermotilidad uretral."
+  ],
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "La bacteriuria asintomática se define por un urocultivo con 100 000 UFC/mL o más de un mismo uropatógeno (casi siempre Escherichia coli) en una paciente sin síntomas urinarios. Afecta a 2-10 % de las gestantes. El embarazo favorece la progresión porque la progesterona relaja el músculo liso del uréter, el útero crecido comprime las vías urinarias y aumenta el volumen residual vesical, de modo que hay estasis y ascenso bacteriano. Sin tratamiento, entre 20 y 35 % desarrolla pielonefritis aguda, que a su vez se asocia con sepsis, síndrome de dificultad respiratoria del adulto, parto pretérmino y bajo peso al nacer. Por eso la gestante es la excepción en la que sí se tamiza con urocultivo (primera consulta o semanas 12-16) y se trata según antibiograma durante 4-7 días, con fosfomicina, cefalexina, amoxicilina-clavulánico o nitrofurantoína, evitando fluoroquinolonas. La hidronefrosis fisiológica del embarazo no es consecuencia de la bacteriuria, la insuficiencia renal y la litiasis no son complicaciones características, y la hipermotilidad uretral no existe como entidad. Perla: se debe repetir el urocultivo de control tras el tratamiento.",
+  "comentario": "La bacteriuria asintomática se define por un urocultivo con 100 000 UFC/mL o más de un mismo uropatógeno (casi siempre Escherichia coli) en una paciente sin síntomas urinarios. Afecta a 2-10 % de las gestantes. El embarazo favorece la progresión porque la progesterona relaja el músculo liso del uréter, el útero crecido comprime las vías urinarias y aumenta el volumen residual vesical, de modo que hay estasis y ascenso bacteriano. Sin tratamiento, entre 20 y 35 % desarrolla pielonefritis aguda, que a su vez se asocia con sepsis, síndrome de dificultad respiratoria del adulto, parto pretérmino y bajo peso al nacer. Por eso la gestante es la excepción en la que sí se tamiza con urocultivo (primera consulta o semanas 12-16) y se trata según antibiograma durante 4-7 días, con fosfomicina, cefalexina, amoxicilina-clavulánico o nitrofurantoína, evitando fluoroquinolonas. La hidronefrosis fisiológica del embarazo no es consecuencia de la bacteriuria, la insuficiencia renal y la litiasis no son complicaciones características, y la hipermotilidad uretral no existe como entidad. Perla: se debe repetir el urocultivo de control tras el tratamiento.",
+  "tema": "Bacteriuria asintomática en la gestante",
+  "año": 2016,
+  "fuentes": "IDSA, Manejo de la bacteriuria asintomática, actualización 2019 (Clin Infect Dis 2019); USPSTF, Tamizaje de bacteriuria asintomática (JAMA 2019); Williams Obstetricia 26.ª ed. (2022)",
+  "categoria": "Urología"
+ },
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-040",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+  "enunciado": "¿Cuál es el examen preferencial a solicitar en un paciente con sospecha de urolitiasis?",
+  "opciones": [
+   "Tomografía computarizada.",
+   "Ecografía renal.",
+   "Radiografía simple de abdomen.",
+   "Pielografía retrógrada.",
+   "Cistoscopía."
+  ],
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "El cólico renoureteral es la presentación clásica de la litiasis: dolor lumbar en cólico que irradia a la fosa ilíaca y los genitales, con hematuria, náuseas y agitación. En el adulto con sospecha de urolitiasis el estudio preferido es la tomografía computarizada helicoidal sin contraste, idealmente de baja dosis, porque tiene sensibilidad y especificidad cercanas a 95-98 %, detecta cálculos de cualquier composición (incluidos los de ácido úrico y xantina, radiotransparentes), mide su tamaño y densidad en unidades Hounsfield, localiza el cálculo y revela hidronefrosis o diagnósticos alternativos como apendicitis o aneurisma. La ecografía renal es la primera opción en la embarazada y en el niño y se usa para seguimiento, y en urgencias un estudio clínico (Smith-Bindman, 2014) mostró que iniciar con ecografía no empeoró los desenlaces graves y redujo la radiación, aunque deja pasar muchos cálculos ureterales pequeños. La radiografía simple solo ve cálculos radioopacos y tiene sensibilidad de 50-60 %. La pielografía retrógrada y la cistoscopía son invasivas y no son estudios de primera línea. Perla: fiebre con obstrucción exige derivación urgente.",
+  "comentario": "El cólico renoureteral es la presentación clásica de la litiasis: dolor lumbar en cólico que irradia a la fosa ilíaca y los genitales, con hematuria, náuseas y agitación. En el adulto con sospecha de urolitiasis el estudio preferido es la tomografía computarizada helicoidal sin contraste, idealmente de baja dosis, porque tiene sensibilidad y especificidad cercanas a 95-98 %, detecta cálculos de cualquier composición (incluidos los de ácido úrico y xantina, radiotransparentes), mide su tamaño y densidad en unidades Hounsfield, localiza el cálculo y revela hidronefrosis o diagnósticos alternativos como apendicitis o aneurisma. La ecografía renal es la primera opción en la embarazada y en el niño y se usa para seguimiento, y en urgencias un estudio clínico (Smith-Bindman, 2014) mostró que iniciar con ecografía no empeoró los desenlaces graves y redujo la radiación, aunque deja pasar muchos cálculos ureterales pequeños. La radiografía simple solo ve cálculos radioopacos y tiene sensibilidad de 50-60 %. La pielografía retrógrada y la cistoscopía son invasivas y no son estudios de primera línea. Perla: fiebre con obstrucción exige derivación urgente.",
+  "tema": "Imagen de elección en sospecha de urolitiasis",
+  "año": 2016,
+  "fuentes": "Smith-Bindman R et al., Ecografía vs. tomografía en sospecha de nefrolitiasis (N Engl J Med 2014); AUA, Medical Management of Kidney Stones (J Urol 2026); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+  "categoria": "Urología"
+ },
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-041",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+  "enunciado": "Varón de 80 años con diagnóstico de cáncer prostático con Gleason 6: enfermedad en etapa temprana y tumor de pequeño tamaño (establecido por biopsia). ¿Cuál es una estrategia útil en pacientes de los que se espera una supervivencia inferior a 10 años?",
+  "opciones": [
+   "Observación.",
+   "Braquiterapia.",
+   "Prostatectomía.",
+   "Radioterapia.",
+   "Quimioterapia."
+  ],
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "Un Gleason 6 (3+3) corresponde al grupo 1 de la clasificación ISUP: tumor bien diferenciado, de crecimiento lento y con muy baja probabilidad de dar metástasis. Si además es de bajo volumen, cT1-T2a y con PSA menor de 10 ng/mL, es de bajo riesgo. La decisión depende sobre todo de la esperanza de vida: con más de 10 años se prefiere la vigilancia activa (PSA seriado, tacto, resonancia y biopsias de control) para diferir el tratamiento radical, y con menos de 10 años, como en este varón de 80 años, se indica la observación o espera vigilante, que trata solo si aparecen síntomas, con tratamiento paliativo como la terapia hormonal. La prostatectomía, la radioterapia y la braquiterapia tienen beneficio solo si el paciente vivirá lo suficiente para que el tumor se vuelva clínicamente relevante, y añaden riesgo de incontinencia, disfunción eréctil y toxicidad rectal. La quimioterapia no tiene lugar en la enfermedad localizada. Perla: la mayoría de las muertes de estos pacientes son por otras causas, y el sobretratamiento es el principal riesgo.",
+  "comentario": "Un Gleason 6 (3+3) corresponde al grupo 1 de la clasificación ISUP: tumor bien diferenciado, de crecimiento lento y con muy baja probabilidad de dar metástasis. Si además es de bajo volumen, cT1-T2a y con PSA menor de 10 ng/mL, es de bajo riesgo. La decisión depende sobre todo de la esperanza de vida: con más de 10 años se prefiere la vigilancia activa (PSA seriado, tacto, resonancia y biopsias de control) para diferir el tratamiento radical, y con menos de 10 años, como en este varón de 80 años, se indica la observación o espera vigilante, que trata solo si aparecen síntomas, con tratamiento paliativo como la terapia hormonal. La prostatectomía, la radioterapia y la braquiterapia tienen beneficio solo si el paciente vivirá lo suficiente para que el tumor se vuelva clínicamente relevante, y añaden riesgo de incontinencia, disfunción eréctil y toxicidad rectal. La quimioterapia no tiene lugar en la enfermedad localizada. Perla: la mayoría de las muertes de estos pacientes son por otras causas, y el sobretratamiento es el principal riesgo.",
+  "tema": "Cáncer de próstata Gleason 6: vigilancia en el anciano",
+  "año": 2017,
+  "fuentes": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG, Guía de cáncer de próstata, actualización 2024, parte I (Eur Urol 2024); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+  "categoria": "Urología"
+ },
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-042",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+  "enunciado": "¿Cuál es el tratamiento más recomendado para un paciente que tiene litiasis renal cuyos cálculos están localizados en múltiples cálices?",
+  "opciones": [
+   "Nefroscopía percutánea.",
+   "Nefrostomía abierta.",
+   "Litotripsia extracorpórea.",
+   "Nefrectomía total.",
+   "Ureteroscopía retrógrada."
+  ],
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "La elección del tratamiento de un cálculo renal depende de la carga litiásica, la localización, la composición y la anatomía. Los cálculos pequeños (menores de 2 cm) pueden manejarse con litotripsia extracorpórea por ondas de choque o con ureteroscopía flexible con láser. Cuando hay cálculos múltiples en varios cálices, o un cálculo mayor de 2 cm o coraliforme, la carga litiásica es grande y el tratamiento de elección es la nefrolitotomía percutánea (nefroscopía percutánea): se accede al sistema colector a través de la región lumbar, se fragmenta y se extraen los cálculos, y logra las mayores tasas de libre de cálculos con pocas sesiones. La litotripsia extracorpórea tiene resultados pobres en cálculos grandes, inferiores o de cuello calicial estrecho, y deja fragmentos que pueden obstruir. La nefrostomía abierta y la nefrolitotomía anatrófica son hoy excepcionales, y la nefrectomía solo se reserva a un riñón destruido sin función. Antes de la cirugía se debe esterilizar la orina con urocultivo para evitar la sepsis, que es la complicación más temida junto con el sangrado.",
+  "comentario": "La elección del tratamiento de un cálculo renal depende de la carga litiásica, la localización, la composición y la anatomía. Los cálculos pequeños (menores de 2 cm) pueden manejarse con litotripsia extracorpórea por ondas de choque o con ureteroscopía flexible con láser. Cuando hay cálculos múltiples en varios cálices, o un cálculo mayor de 2 cm o coraliforme, la carga litiásica es grande y el tratamiento de elección es la nefrolitotomía percutánea (nefroscopía percutánea): se accede al sistema colector a través de la región lumbar, se fragmenta y se extraen los cálculos, y logra las mayores tasas de libre de cálculos con pocas sesiones. La litotripsia extracorpórea tiene resultados pobres en cálculos grandes, inferiores o de cuello calicial estrecho, y deja fragmentos que pueden obstruir. La nefrostomía abierta y la nefrolitotomía anatrófica son hoy excepcionales, y la nefrectomía solo se reserva a un riñón destruido sin función. Antes de la cirugía se debe esterilizar la orina con urocultivo para evitar la sepsis, que es la complicación más temida junto con el sangrado.",
+  "tema": "Litiasis en múltiples cálices: nefrolitotomía percutánea",
+  "año": 2017,
+  "fuentes": "EAU, Guía de urolitiasis (edición 2025); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+  "categoria": "Urología"
+ },
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-043",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+  "enunciado": "Varón de 35 años que sufre caída de moto, hemodinámicamente estable, con hematuria desde hace 2 horas. ¿Qué solicitaría para determinar la lesión?",
+  "opciones": [
+   "Tomografía.",
+   "Ecografía.",
+   "Radiografía simple.",
+   "Gammagrafía.",
+   "Lavado peritoneal."
+  ],
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "Después de un traumatismo cerrado, la hematuria franca indica lesión del tracto urinario hasta que se demuestre lo contrario: riñón, uréter, vejiga o uretra. En el paciente hemodinámicamente estable la prueba de elección es la tomografía de abdomen y pelvis con contraste intravenoso y fase tardía (urográfica), que clasifica el trauma renal según la escala de la AAST (grados I a V), muestra extravasación de orina, sangrado activo, lesiones vasculares y lesiones asociadas del retroperitoneo y las vísceras. Si hay fractura pélvica o sospecha de lesión vesical se agrega una cistografía por tomografía con la vejiga llena. En el inestable se opera sin imágenes. La ecografía detecta líquido libre pero no gradúa la lesión, la radiografía simple y la gammagrafía no aportan y el lavado peritoneal ya casi no se usa. La mayoría de los traumas renales se maneja de forma conservadora, con reposo, vigilancia y embolización si hay sangrado. Perla: si hay sangre en el meato, no se pasa sonda hasta descartar lesión uretral con uretrografía retrógrada.",
+  "comentario": "Después de un traumatismo cerrado, la hematuria franca indica lesión del tracto urinario hasta que se demuestre lo contrario: riñón, uréter, vejiga o uretra. En el paciente hemodinámicamente estable la prueba de elección es la tomografía de abdomen y pelvis con contraste intravenoso y fase tardía (urográfica), que clasifica el trauma renal según la escala de la AAST (grados I a V), muestra extravasación de orina, sangrado activo, lesiones vasculares y lesiones asociadas del retroperitoneo y las vísceras. Si hay fractura pélvica o sospecha de lesión vesical se agrega una cistografía por tomografía con la vejiga llena. En el inestable se opera sin imágenes. La ecografía detecta líquido libre pero no gradúa la lesión, la radiografía simple y la gammagrafía no aportan y el lavado peritoneal ya casi no se usa. La mayoría de los traumas renales se maneja de forma conservadora, con reposo, vigilancia y embolización si hay sangrado. Perla: si hay sangre en el meato, no se pasa sonda hasta descartar lesión uretral con uretrografía retrógrada.",
+  "tema": "Hematuria tras traumatismo cerrado: tomografía",
+  "año": 2017,
+  "fuentes": "AUA, Urotrauma Guideline 2020 (J Urol 2021); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+  "categoria": "Urología"
+ },
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-044",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+  "enunciado": "Mujer de 28 años presenta hace cuatro días dolor lumbar bilateral, aumento de temperatura, disuria, polaquiuria y vómitos. Examen: puño percusión lumbar (+). ¿Cuál es el diagnóstico más probable?",
+  "opciones": [
+   "Pielonefritis aguda.",
+   "Lumbalgia mecánica.",
+   "Cistitis aguda.",
+   "Salpingitis aguda.",
+   "Uretritis aguda."
+  ],
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "La pielonefritis aguda es la infección del parénquima renal y la pelvis, casi siempre por ascenso de Escherichia coli desde la vejiga. Se reconoce por fiebre con escalofríos, dolor lumbar, puño percusión lumbar positiva, y con frecuencia síntomas de cistitis (disuria y polaquiuria), a veces con náuseas y vómitos. La cistitis es una infección baja sin fiebre ni dolor lumbar, la uretritis produce disuria con secreción pero sin compromiso sistémico, la salpingitis causa dolor pélvico con flujo y dolor a la movilización cervical, y la lumbalgia mecánica no tiene fiebre ni síntomas urinarios. Se confirma con examen de orina (piuria, bacteriuria, a veces cilindros leucocitarios) y urocultivo antes del antibiótico; se piden hemocultivos si es grave. Esta paciente vomita y no tolera la vía oral, por lo que se hospitaliza con ceftriaxona intravenosa u otra cefalosporina, y luego pasa a vía oral según antibiograma; la duración habitual es de 7 a 14 días según el fármaco, y las guías recientes favorecen cursos más cortos si hay buena respuesta. Se descarta embarazo, y si no mejora en 48-72 horas se hace ecografía o tomografía para buscar obstrucción, absceso o litiasis.",
+  "comentario": "La pielonefritis aguda es la infección del parénquima renal y la pelvis, casi siempre por ascenso de Escherichia coli desde la vejiga. Se reconoce por fiebre con escalofríos, dolor lumbar, puño percusión lumbar positiva, y con frecuencia síntomas de cistitis (disuria y polaquiuria), a veces con náuseas y vómitos. La cistitis es una infección baja sin fiebre ni dolor lumbar, la uretritis produce disuria con secreción pero sin compromiso sistémico, la salpingitis causa dolor pélvico con flujo y dolor a la movilización cervical, y la lumbalgia mecánica no tiene fiebre ni síntomas urinarios. Se confirma con examen de orina (piuria, bacteriuria, a veces cilindros leucocitarios) y urocultivo antes del antibiótico; se piden hemocultivos si es grave. Esta paciente vomita y no tolera la vía oral, por lo que se hospitaliza con ceftriaxona intravenosa u otra cefalosporina, y luego pasa a vía oral según antibiograma; la duración habitual es de 7 a 14 días según el fármaco, y las guías recientes favorecen cursos más cortos si hay buena respuesta. Se descarta embarazo, y si no mejora en 48-72 horas se hace ecografía o tomografía para buscar obstrucción, absceso o litiasis.",
+  "tema": "Pielonefritis aguda en mujer joven",
+  "año": 2017,
+  "fuentes": "IDSA, Guía de infecciones urinarias complicadas, incluida la pielonefritis (Clin Infect Dis 2025); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+  "categoria": "Urología",
+  "nota_revision": "El enunciado del libro dice «dolor lumbar bilateral»; en la pielonefritis suele ser unilateral, pero la clave A sigue siendo la única compatible. El OCR traía texto de otra pregunta pegado a la opción E, que se eliminó."
+ },
+ {
+  "archivo": "nefrologia",
+  "id": "RM-NEF-045",
+  "especialidad": "Nefrología y Urología",
+  "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+  "enunciado": "Varón de 30 años presenta caída «a horcajadas» y llega a emergencia con hematuria franca e incapacidad para orinar. Examen: hematoma perineal y sangre en el meato urinario. ¿Cuál es la estructura lesionada?",
+  "opciones": [
+   "Riñón.",
+   "Vejiga.",
+   "Próstata.",
+   "Uretra.",
+   "Uréter."
+  ],
+  "correcta": 3,
+  "clave_correcta": "D",
+  "explicacion": "La caída a horcajadas (sobre la barra de una bicicleta o un borde) aplasta la uretra bulbar contra el borde inferior del pubis, y es el mecanismo típico de la lesión de uretra anterior. La tríada de uretrorragia (sangre en el meato), imposibilidad de orinar y hematoma perineal en alas de mariposa, que puede extenderse al escroto y la pared abdominal, es característica. La lesión de uretra posterior (membranosa) se asocia en cambio con fractura pélvica y se acompaña de próstata alta y móvil al tacto rectal. El riñón se lesiona en el trauma de flanco, la vejiga con la pelvis fracturada o la vejiga llena, el uréter casi nunca se lesiona en un trauma cerrado y la próstata es rara. El diagnóstico se confirma con uretrografía retrógrada, que se hace antes de cualquier sondaje, porque pasar una sonda puede convertir una lesión parcial en completa. En el manejo inicial se deriva la orina con un catéter suprapúbico y la reparación (uretroplastia) se difiere de 3 a 6 meses en las lesiones completas; las contusiones parciales pueden resolverse con un catéter. Perla: se debe buscar lesión asociada de pene y testículo.",
+  "comentario": "La caída a horcajadas (sobre la barra de una bicicleta o un borde) aplasta la uretra bulbar contra el borde inferior del pubis, y es el mecanismo típico de la lesión de uretra anterior. La tríada de uretrorragia (sangre en el meato), imposibilidad de orinar y hematoma perineal en alas de mariposa, que puede extenderse al escroto y la pared abdominal, es característica. La lesión de uretra posterior (membranosa) se asocia en cambio con fractura pélvica y se acompaña de próstata alta y móvil al tacto rectal. El riñón se lesiona en el trauma de flanco, la vejiga con la pelvis fracturada o la vejiga llena, el uréter casi nunca se lesiona en un trauma cerrado y la próstata es rara. El diagnóstico se confirma con uretrografía retrógrada, que se hace antes de cualquier sondaje, porque pasar una sonda puede convertir una lesión parcial en completa. En el manejo inicial se deriva la orina con un catéter suprapúbico y la reparación (uretroplastia) se difiere de 3 a 6 meses en las lesiones completas; las contusiones parciales pueden resolverse con un catéter. Perla: se debe buscar lesión asociada de pene y testículo.",
+  "tema": "Caída a horcajadas: lesión de uretra",
+  "año": 2018,
+  "fuentes": "AUA, Urotrauma Guideline 2020 (J Urol 2021); Campbell-Walsh-Wein Urología 12.ª ed. (2020)",
+  "categoria": "Urología",
+  "nota_revision": "El OCR traía al final el inicio de otra pregunta (torsión testicular) pegado al comentario del libro; no pertenece a este bloque."
+ }
+]
