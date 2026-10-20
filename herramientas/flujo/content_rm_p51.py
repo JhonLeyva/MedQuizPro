@@ -31,7 +31,7 @@ S("regla", "RM-TRA-042", "Hemotórax masivo con 1500 mL de drenaje inicial e ine
               filas=[["Drenaje inicial", "1500 mL o más", "Hemotórax masivo; este paciente"],
                      ["Débito sostenido", "Más de 200 mL por hora durante 2 a 4 horas", "Reevaluar cada hora"],
                      ["Estado hemodinámico", "Inestable pese a la reanimación", "Indica control quirúrgico inmediato"]],
-              caso=0, ancho_primera=170))
+              caso=0, ancho_primera=220))
 
 # 058 · PIRÁMIDE · cólera
 S("piramide", "RM-INF-058", "En el cólera la prioridad es restaurar las pérdidas de líquidos; el antibiótico viene después",
@@ -55,7 +55,7 @@ S("piramide", "RM-INF-058", "En el cólera la prioridad es restaurar las pérdid
               filas=[["Leve", "Sed, mucosas algo secas, diuresis conservada", "Solución de rehidratación oral en casa"],
                      ["Moderada", "Sed intensa, pliegue lento, deposiciones frecuentes", "Solución oral con vigilancia estrecha; este paciente"],
                      ["Grave o shock", "Hipotensión, pulso débil, somnolencia o vómitos incoercibles", "Ringer lactato IV en bolos rápidos y reevaluar cada 1 a 2 horas"]],
-              caso=1, ancho_primera=150, nota="Después de rehidratar se agrega azitromicina o doxiciclina en dosis única."))
+              caso=1, ancho_primera=200, nota="Después de rehidratar se agrega azitromicina o doxiciclina en dosis única."))
 
 # 055 · TERMÓMETRO · crisis asmática
 S("termometro", "RM-NEU-055", "En la crisis asmática el pulso paradójico es signo de severidad; la taquicardia o la taquipnea no lo son",
@@ -172,7 +172,7 @@ S("farmaco", "RM-INF-060", "En la intoxicación por organofosforados el tratamie
   clasif=dict(titulo="Síndromes de la intoxicación por organofosforados", cols=["Síndrome", "Signos", "Tratamiento"],
               filas=[["Muscarínico", "Salivación, lagrimeo, diarrea, micción, broncorrea, bradicardia, miosis", "Atropina hasta atropinizar"],
                      ["Nicotínico", "Fasciculaciones, debilidad, parálisis respiratoria", "Soporte ventilatorio; pralidoxima como complemento"],
-                     ["Central", "Convulsiones y coma", "Benzodiacepinas"]], caso=0, ancho_primera=130))
+                     ["Central", "Convulsiones y coma", "Benzodiacepinas"]], caso=0, ancho_primera=210))
 
 # 061 · FASES · paracetamol
 S("fases", "RM-INF-061", "En la intoxicación por paracetamol el antídoto es la N-acetilcisteína, mejor si se da en las primeras 8 a 10 horas",
@@ -214,9 +214,9 @@ S("arbol", "RM-GAS-041", "En el ventilado con reflujo grave la nutrición entera
       L("Tolera, sin riesgo de aspiración", "SONDA NASOGÁSTRICA", ["Inicio habitual", "Cabecera a 30-45 grados"]),
       L("Reflujo severo o alto riesgo de aspiración (este caso)", "SONDA NASOYEYUNAL", ["Posición pospilórica", "Infusión continua y procinético"], path=True, answer=True)], path=True),
   clasif=dict(titulo="Vía de nutrición en el paciente crítico", cols=["Vía", "Cuándo", "Nota"],
-              filas=[["Enteral gástrica (sonda nasogástrica)", "Inicio habitual si hay tolerancia", "Cabecera elevada 30-45 grados"],
-                     ["Enteral pospilórica (nasoyeyunal)", "Intolerancia gástrica persistente o alto riesgo de aspiración", "Evita el llenado gástrico; este caso"],
-                     ["Parenteral", "Cuando la vía enteral no se tolera", "Más complicaciones infecciosas"]], caso=1, ancho_primera=230))
+              filas=[["Nasogástrica", "Inicio habitual si hay tolerancia", "Cabecera elevada 30-45 grados"],
+                     ["Nasoyeyunal", "Intolerancia gástrica persistente o alto riesgo de aspiración", "Evita el llenado gástrico; este caso"],
+                     ["Parenteral", "Cuando la vía enteral no se tolera", "Más complicaciones infecciosas"]], caso=1, ancho_primera=200))
 
 # 027 · REGLA · hiponatremia
 S("regla", "RM-NEF-027", "Convulsiones y coma por hiponatremia se esperan con sodio muy bajo: 115 mEq/L",
@@ -255,7 +255,7 @@ S("cascada", "RM-TRA-043", "La tríada letal del trauma es hipotermia, coagulopa
    "Prevención: hipotensión permisiva, transfusión balanceada, ácido tranexámico en la primera hora, calentar líquidos y ambiente, cirugía abreviada y calcio ionizado."],
   ATLS11 + "; Spahn DR et al., The European guideline on management of major bleeding and coagulopathy following trauma, sixth edition, Crit Care 2023;27:80; Sabiston Tratado de Cirugía, 21.ª ed. (2021)",
   op=("¿Componentes?", ["No: la hipercalemia no forma parte", "No: no incluye hipercalemia", "Sí: hipotermia, coagulopatía y acidosis", "No: la acidosis es metabólica, no alcalosis", "No: la hipertermia no forma parte"],
-      {0: "Coagulopatía, hipercalemia y falla respiratoria", 1: "Acidosis, hipercalemia y coagulopatía", 2: "Hipotermia, coagulopatía y acidosis", 3: "Hipotermia, alcalosis y coagulopatía", 4: "Hipercalemia, hipertermia y coagulopatía"}),
+      {0: "Coagulopatía, hipercalemia y falla respiratoria", 1: "Acidosis, hipercalemia y coagulopatía", 2: "Hipotermia, acidosis y coagulopatía", 3: "Hipotermia, alcalosis y coagulopatía", 4: "Hipercalemia, hipertermia y coagulopatía"}),
   d=dict(rotulo="El círculo vicioso del trauma", cabeceras=("Qué ocurre", "Componente de la tríada"),
          pasos=[("La hemorragia reduce el transporte de oxígeno", "Metabolismo anaerobio con producción de lactato", [("Acidosis metabólica", "pH menor de 7,2 inhibe factores de coagulación", True)]),
                 ("Exposición, líquidos fríos y shock", "Pérdida de calor corporal", [("Hipotermia", "Temperatura menor de 35 °C", True)]),
@@ -292,7 +292,7 @@ S("reloj", "RM-CAR-042", "En la RCP básica se comprime antes de ventilar: secue
                      ["Profundidad", "5 a 6 cm", "Reexpansión completa del tórax"],
                      ["Frecuencia", "100 a 120 por minuto", "Minimizar las interrupciones"],
                      ["Relación", "30 compresiones por 2 ventilaciones", "Pausas de menos de 10 segundos"]],
-              caso=0, ancho_primera=140))
+              caso=0, ancho_primera=200))
 
 # 062 · DECISIÓN · neumonía con hipotensión
 S("decision", "RM-INF-062", "Neumonía con PA 80/55: la primera actitud es la fluidoterapia con cristaloides",
@@ -316,7 +316,7 @@ S("decision", "RM-INF-062", "Neumonía con PA 80/55: la primera actitud es la fl
   clasif=dict(titulo="Sepsis y shock séptico (Sepsis-3)", cols=["Estado", "Definición", "Conducta inicial"],
               filas=[["Sepsis", "Infección con disfunción orgánica (aumento de SOFA de 2 o más)", "Cultivos, antibiótico en la primera hora y cristaloides si hay hipoperfusión"],
                      ["Shock séptico", "Sepsis con vasopresor para PAM de 65 mmHg o más y lactato mayor de 2 mmol/L pese al volumen", "Cristaloides primero; noradrenalina si persiste; cuidados intensivos"]],
-              caso=0, ancho_primera=130))
+              caso=0, ancho_primera=180))
 
 # 043 · TARJETAS · relación compresiones/ventilaciones
 S("tarjetas", "RM-CAR-043", "Con un solo reanimador la relación es de 2 ventilaciones por cada 30 compresiones",
@@ -339,7 +339,7 @@ S("tarjetas", "RM-CAR-043", "Con un solo reanimador la relación es de 2 ventila
               filas=[["3 / 30, 1 / 30, 3 / 20 o 2 / 20", "No corresponden a ninguna recomendación vigente"],
                      ["2 ventilaciones / 30 compresiones", "RCP del adulto, con uno o dos reanimadores"],
                      ["2 ventilaciones / 15 compresiones", "Niños y lactantes con dos reanimadores profesionales"]],
-              caso=1, ancho_primera=260))
+              caso=1, ancho_primera=370))
 
 # 044 · MATRIZ · emergencia hipertensiva
 S("matriz", "RM-CAR-044", "PA 180/120 con cefalea y náuseas: emergencia hipertensiva; entre las opciones, nitroprusiato endovenoso",
@@ -361,7 +361,7 @@ S("matriz", "RM-CAR-044", "PA 180/120 con cefalea y náuseas: emergencia hiperte
               filas=[["Primera hora", "Bajar la PA media no más de 25 %", "El descenso brusco puede causar isquemia cerebral o coronaria"],
                      ["2 a 6 horas", "Llegar a 160/100 mmHg", "Si el paciente está estable"],
                      ["24 a 48 horas", "Presión normal", "Transición a fármacos orales"]],
-              caso=0, ancho_primera=130))
+              caso=0, ancho_primera=200))
 
 # 038 · PUNTAJE · Glasgow
 S("puntaje", "RM-NRL-038", "Apertura ocular al llamado (3), verbal confusa (4) y localiza el dolor (5): Glasgow 12",
@@ -386,7 +386,7 @@ S("puntaje", "RM-NRL-038", "Apertura ocular al llamado (3), verbal confusa (4) y
               filas=[["13 a 15", "Leve", "Observación; imagen según factores de riesgo"],
                      ["9 a 12", "Moderado", "TC urgente, vigilancia seriada y reevaluar el puntaje"],
                      ["8 o menos", "Grave", "Proteger la vía aérea con intubación; neurocirugía"]],
-              caso=1, ancho_primera=120, nota="Un descenso de 2 puntos también indica proteger la vía aérea."))
+              caso=1, ancho_primera=180, nota="Un descenso de 2 puntos también indica proteger la vía aérea."))
 
 # 063 · RELOJ · shock séptico
 S("reloj", "RM-INF-063", "En el shock séptico la primera medida es la reanimación con cristaloides, al menos 30 mL/kg en 3 horas",
@@ -408,4 +408,4 @@ S("reloj", "RM-INF-063", "En el shock séptico la primera medida es la reanimaci
   clasif=dict(titulo="Sepsis y shock séptico (Sepsis-3)", cols=["Estado", "Definición", "Conducta inicial"],
               filas=[["Sepsis", "Infección con disfunción orgánica (aumento de SOFA de 2 o más)", "Cultivos, antibiótico en la primera hora y cristaloides si hay hipoperfusión"],
                      ["Shock séptico", "Sepsis con vasopresor para PAM de 65 mmHg o más y lactato mayor de 2 mmol/L pese al volumen", "Cristaloides 30 mL/kg; noradrenalina si persiste la hipotensión"]],
-              caso=1, ancho_primera=130))
+              caso=1, ancho_primera=220))
