@@ -88,7 +88,7 @@ S("radial", "RM-INF-065", "Los carbamatos inhiben la acetilcolinesterasa y causa
    "Tratamiento: descontaminar, asegurar la vía aérea y dar atropina titulada hasta secar las secreciones; las oximas casi no se necesitan en carbamatos puros."],
   "Eddleston M et al., Lancet 2008;371:597-607; Goodman y Gilman, 14.ª ed. (2023); Harrison, 21.ª ed. (2022).",
   op=("¿Efecto de la intoxicación?", ["No: el cuadro no es adrenérgico", "Sí: exceso de acetilcolina en ambos receptores", "No: no es un mecanismo del toxídrome", "No: no es un mecanismo del toxídrome", "No: no es un mecanismo del toxídrome"],
-      {0: "Adrenérg./colinérgico", 1: "Nicotín./muscarínico", 2: "Vipérgico/noradren.", 3: "Aminérgico/vipérgico", 4: "Peptidérg./colinérgico"}),
+      {0: "Adrenérg./colinérgico", 1: "Nicotín./muscarínico", 2: "Vipérgico/noradren.", 3: "Aminérgico/vipérgico", 4: "Peptidérg./colinérg."}),
   d=dict(rotulo="Qué produce el exceso de acetilcolina", centro="CARBAMATOS", centro_sub="acetilcolina acumulada", ans=0,
          items=[("MUSCARÍNICOS: el cuadro más visible", ["Diarrea, micción, miosis, broncorrea, bradicardia, emesis, lagrimeo y salivación"]),
                 ("NICOTÍNICOS: la causa de muerte", ["Fasciculaciones, debilidad y parálisis de músculos respiratorios"]),
@@ -155,12 +155,12 @@ S("puntaje", "RM-CIR-149", "APACHE II valora la fisiología aguda y la salud cr�
                 ("Escala de Glasgow (una de las 12 variables)", 1, True), ("Edad del paciente", 1, True),
                 ("Salud crónica: enfermedad orgánica grave o inmunosupresión previa", 1, True)],
          total=4, max=4, total_label="Componentes", interpreta="Fisiología aguda + edad + salud crónica = APACHE II",
-         bandas=[("Falta uno", "Otra", "MPM, SAPS II, Glasgow o Ranson no tienen esta estructura.", False), ("Los tres", "APACHE II", "Se calcula con las peores 24 horas.", True)]),
+         bandas=[("Falta uno", "Otra", "MPM, SAPS II, Glasgow o Ranson no tienen esta estructura.", False), ("Los tres", "Esta", "Se calcula con las peores 24 horas.", True)]),
   clasif=dict(titulo="Escalas de uso frecuente en el paciente grave", cols=["Escala", "Qué valora"],
               filas=[["APACHE II", "Fisiología aguda, edad y salud crónica; predice mortalidad hospitalaria"],
                      ["SOFA", "Disfunción orgánica; en Sepsis-3, un aumento de 2 o más define sepsis"],
                      ["Glasgow", "Nivel de conciencia (3 a 15); es una variable de APACHE II"],
-                     ["Ranson", "Gravedad de la pancreatitis aguda"]], caso=0, ancho_primera=120))
+                     ["Ranson", "Gravedad de la pancreatitis aguda"]], caso=0, ancho_primera=200))
 
 # 150 · PIRÁMIDE · vía aérea en distress respiratorio hospitalario
 S("piramide", "RM-CIR-150", "En el distress respiratorio severo hospitalizado, la vía aérea se asegura más a menudo con intubación endotraqueal",
