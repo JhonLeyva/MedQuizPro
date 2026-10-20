@@ -19,9 +19,9 @@ S("termometro", "RM-NEF-028", "Mujer joven con debilidad flácida recurrente y s
   op=("¿Electrolito asociado?", ["Sí: baja el potasio sérico durante el ataque", "No: no produce parálisis recurrente", "No: no produce este cuadro", "No: no produce este cuadro", "No: no produce este cuadro"],
       {}),
   d=dict(rotulo="Potasio sérico y lo que se espera en el paciente", caso_nivel=1, ruta_titulo="Qué se hace en el ataque", paso_label="CLAVE",
-         niveles=[("3,5 a 5,0 mEq/L", "Potasio normal", ["Sin parálisis por alteración del potasio"]),
-                  ("Menos de 3,5 mEq/L", "Hipopotasemia", ["Debilidad flácida recurrente: parálisis periódica"]),
-                  ("Menos de 2,5 mEq/L", "Hipopotasemia grave", ["Cambios del ECG y riesgo de arritmia"])],
+         niveles=[("3,5 a 5", "Potasio normal", ["Sin parálisis por alteración del potasio"]),
+                  ("< 3,5", "Hipopotasemia", ["Debilidad flácida recurrente: parálisis periódica"]),
+                  ("< 2,5", "Hipopotasemia grave", ["Cambios del ECG y riesgo de arritmia"])],
          pasos=[(1, "Confirmar potasio bajo y descartar causas", ["Tirotoxicosis, acidosis tubular, hiperaldosteronismo, diuréticos"], False),
                 (2, "Reponer potasio oral con monitoreo", ["Evitar suero glucosado y el rebote hiperpotasémico"], True),
                 (2, "Prevenir recaídas", ["Acetazolamida o diclorfenamida y dieta baja en hidratos"], False)]),
@@ -29,7 +29,7 @@ S("termometro", "RM-NEF-028", "Mujer joven con debilidad flácida recurrente y s
               filas=[["Hipopotasémica (este caso)", "Bajo", "La más frecuente; carbohidratos o reposo tras ejercicio precipitan"],
                      ["Tirotóxica", "Bajo", "Más frecuente en varones asiáticos; buscar hipertiroidismo"],
                      ["Hiperpotasémica", "Alto o normal", "Ataques breves; relacionada con potasio"]],
-              caso=0, ancho_primera=190))
+              caso=0, ancho_primera=260))
 
 # 2 · REGLA · alcoholemia de intoxicación aguda
 S("regla", "RM-PSI-028", "La intoxicación alcohólica aguda se define con una alcoholemia de 0,08 g/100 mL (80 mg/dL)",
@@ -44,8 +44,8 @@ S("regla", "RM-PSI-028", "La intoxicación alcohólica aguda se define con una a
   op=("¿Umbral de intoxicación?", ["No: por debajo del umbral", "Sí: umbral clínico de intoxicación", "No: por debajo del umbral", "No: por debajo del umbral", "No: por debajo del umbral"],
       {0: "0,04 g/100 mL", 1: "0,08 g/100 mL", 2: "0,06 g/100 mL", 3: "0,05 g/100 mL", 4: "0,07 g/100 mL"}),
   d=dict(rotulo="Alcoholemia y efecto esperado",
-         reglas=[dict(nombre="Alcohol en sangre", que="El efecto aumenta con la concentración.",
-                      min=0, max=400, fmt="{} mg/dL", ticks=[0, 40, 80, 150, 250, 350, 400],
+         reglas=[dict(nombre="Alcohol en sangre", que="El efecto aumenta con la concentración (mg/dL).",
+                      min=0, max=400, fmt="{}", ticks=[0, 40, 80, 150, 250, 350, 400],
                       bandas=[(0, 80, "Menos de 80: bajo el umbral", 0), (80, 250, "80 a 250: intoxicación, incoordinación", 2), (250, 400, "Más de 250: estupor, coma", 3)],
                       caso=80, caso_txt="UMBRAL: 0,08 g/100 mL = 80 mg/dL")],
          claves_titulo="Qué recordar",
@@ -86,7 +86,7 @@ S("dosis", "RM-CIR-152", "Parkland: 4 x 70 kg x 40 % = 11 200 mL en 24 horas; la
   op=("¿Volumen en las primeras 8 h?", ["No: error de cálculo o menor superficie", "Sí: 11 200 mL en 24 h, la mitad en 8 h", "No: error de cálculo", "No: error de cálculo", "No: error de cálculo"],
       {0: "4800 mL", 1: "5600 mL", 2: "4500 mL", 3: "3600 mL", 4: "5000 mL"}),
   d=dict(rotulo="Cálculo de Parkland paso a paso", peso=("Varón", "70 kg"),
-         pasos=[("Total en 24 horas", "4 x 70 x 40 = 11 200 mL", "Ringer lactato"),
+         pasos=[("Total en 24 horas", "11 200 mL", "4 x 70 x 40, Ringer lactato"),
                 ("Primeras 8 horas", "5600 mL", "Desde la hora de la quemadura (este caso)"),
                 ("Siguientes 16 horas", "5600 mL", "Ajustar por diuresis de 0,5 mL/kg/h")],
          alternativas=[("4800 mL", "No resulta de usar 4 mL", False), ("5600 mL", "Mitad de 11 200 mL", True), ("4500 mL", "No resulta de usar 4 mL", False),
@@ -95,7 +95,7 @@ S("dosis", "RM-CIR-152", "Parkland: 4 x 70 kg x 40 % = 11 200 mL en 24 horas; la
   clasif=dict(titulo="Reanimación del gran quemado con la fórmula de Parkland", cols=["Periodo", "Volumen", "Comentario"],
               filas=[["Primeras 8 horas", "5600 mL", "Mitad del total, desde el momento de la quemadura (este caso)"],
                      ["Siguientes 16 horas", "5600 mL", "Otra mitad, ajustada cada hora"],
-                     ["Total en 24 horas", "11 200 mL", "4 mL x 70 kg x 40 %"]], caso=0, ancho_primera=170,
+                     ["Total en 24 horas", "11 200 mL", "4 mL x 70 kg x 40 %"]], caso=0, ancho_primera=210,
               nota="El enunciado dice 40 % y el cálculo del libro usa 39 %: ambos dan cerca de 5600 mL."))
 
 # 5 · LÍNEA DE VIDA · alcoholemia 0,20
@@ -123,7 +123,7 @@ S("farmaco", "RM-INF-071", "Los carbamatos inhiben la acetilcolinesterasa y el a
   ("Intoxicación por carbamatos", ["Insecticidas (carbaril, carbofurano, aldicarb) que inhiben de forma reversible la acetilcolinesterasa.", "El cuadro es colinérgico y más corto que con organofosforados."]),
   ("Pregunta de tratamiento", ["¿Cuál es el tratamiento de elección en la intoxicación por carbamatos?"]),
   ["Cuadro colinérgico: miosis, sialorrea, broncorrea y broncoespasmo, bradicardia, vómitos, diarrea, diaforesis, incontinencia, fasciculaciones y debilidad respiratoria.",
-   "Atropina 1 a 2 mg IV duplicando la dosis cada 5 minutos hasta secar secreciones bronquiales y FC mayor de 80 por minuto; luego infusión según respuesta.",
+   "Atropina 1 a 2 mg IV duplicando la dosis cada 5 minutos hasta secar secreciones bronquiales y FC mayor de 80 por minuto; luego infusión según evolución.",
    "Las oximas (pralidoxima) no suelen ser necesarias en el carbamato puro. Vitamina K es de raticidas, flumazenil de benzodiazepinas, acetilcisteína de paracetamol.",
    "Alerta: retirar la ropa, lavar la piel y proteger al personal con guantes; el carbón activado solo descontamina de forma precoz."],
   "Goodman y Gilman Bases farmacológicas de la terapéutica 14.ª ed. (2023); " + HARRISON + "; " + GOLD_F + ".",
@@ -148,9 +148,9 @@ S("dosis", "RM-NEF-029", "Gastroenteritis con shock hipovolémico de 60 kg: plan
   op=("¿Volumen en la primera hora?", ["No: insuficiente para un shock establecido", "No: insuficiente", "No: insuficiente", "Sí: 50 mL/kg x 60 kg", "No: sobrecarga con edema pulmonar"],
       {}),
   d=dict(rotulo="Reposición en el plan C según el peso", peso=("Varón", "60 kg"),
-         pasos=[("Primera hora", "50 mL/kg = 3000 mL", "Este caso"),
-                ("Segunda hora", "25 mL/kg = 1500 mL", "Reevaluar presión y diuresis"),
-                ("Tercera hora", "25 mL/kg = 1500 mL", "Pasar a hidratación oral al tolerarla")],
+         pasos=[("Primera hora", "3000 mL", "50 mL/kg: este caso"),
+                ("Segunda hora", "1500 mL", "25 mL/kg; reevaluar presión y diuresis"),
+                ("Tercera hora", "1500 mL", "25 mL/kg; pasar a hidratación oral al tolerarla")],
          alternativas=[("1 litro", "Insuficiente", False), ("1,5 litros", "Insuficiente", False), ("2 litros", "Insuficiente para el shock", False),
                        ("3 litros", "50 mL/kg x 60 kg", True), ("6 litros", "Sobrecarga", False)],
          veredicto=("Plan C: 3 litros en la primera hora", "El esquema reciente da cerca de 2,6 litros: la opción más cercana sigue siendo 3.")))
@@ -210,7 +210,7 @@ S("antes_despues", "RM-NEF-032", "El vaciado brusco de una vejiga muy distendida
          antes=dict(titulo="Retención aguda", datos=[("Volumen", "Más de 1 litro"), ("Pared", "Muy distendida"), ("Vasos de la mucosa", "Estirados y congestivos"), ("Dolor suprapúbico", "Presente")]),
          despues=dict(titulo="Tras vaciar de golpe", datos=[("Volumen", "Vejiga vacía"), ("Pared", "Se colapsa"), ("Vasos de la mucosa", "Se rompen"), ("Dolor suprapúbico", "Mejora")]),
          intervencion="Sondaje con evacuación brusca",
-         cambios=[("Hematuria ex vacuo, a veces con coágulos", "empeora"), ("Diuresis posobstructiva e hipotensión posibles", "empeora"), ("El dolor suprapúbico mejora", "mejora")],
+         cambios=[("Hematuria ex vacuo, a veces con coágulos", "peor"), ("Diuresis posobstructiva e hipotensión posibles", "peor"), ("El dolor suprapúbico mejora", "mejora")],
          veredicto=("Vaciado brusco = hematuria ex vacuo", "Falsa vía, uretrorragia e infección dependen de la técnica, no del vaciado.")))
 
 # 11 · CASCADA · fructosa seminal
@@ -245,10 +245,10 @@ S("laboratorio", "RM-NEF-033", "El antígeno prostático específico es la prueb
   op=("¿Prueba indicada?", ["No: indica metástasis óseas", "No: marcador antiguo sin uso diagnóstico", "No: no detecta tumores intraprostáticos", "Sí: marcador de elección", "No: no detecta tumores intraprostáticos"],
       {0: "Fosfatasas alcalinas", 1: "Fosfatasas ácidas", 2: "TAC pélvico", 3: "Antígeno prostático específico", 4: "Urografía excretora"}),
   d=dict(rotulo="Cómo se leen los marcadores y estudios en la sospecha", valores=[
-            ("PSA", "Mayor de 4 ng/mL", "Menos de 4 (referencia clásica)", "↑", "Mayor de 10 o ascenso rápido: evaluar."),
+            ("PSA", "Mayor de 4 ng/mL", "< 4 ng/mL", "↑", "Mayor de 10 o ascenso rápido: evaluar."),
             ("Relación PSA libre/total", "Baja", "Alta en lo benigno", "↓", "Con PSA de 4 a 10 aumenta la sospecha."),
             ("Fosfatasa ácida", "Sin uso", "Marcador antiguo", "=", "Hoy sin valor diagnóstico."),
-            ("Fosfatasa alcalina", "Elevada si hay metástasis", "Hueso", "↑", "Indica enfermedad ósea avanzada.")],
+            ("Fosfatasa alcalina", "Alta", "Hueso", "↑", "Indica enfermedad ósea avanzada.")],
          veredicto=("Sospecha de cáncer prostático = PSA", "Después resonancia multiparamétrica y biopsia dirigida.")))
 
 # 13 · PIRÁMIDE · gérmenes de ITU
@@ -275,7 +275,7 @@ S("alarma", "RM-NEF-035", "La pielonefritis enfisematosa ocurre en 80 a 90 % de 
   "Nefrología · pielonefritis enfisematosa",
   ("Pielonefritis enfisematosa", ["Infección necrosante del parénquima renal y tejidos perirrenales, con gas.", "Agentes: E. coli, Klebsiella y Proteus."]),
   ("Pregunta de factor de riesgo", ["¿En qué pacientes es más frecuente la pielonefritis enfisematosa?"]),
-  ["Cerca de 80 a 90 % ocurre en diabéticos mal controlados, más en mujeres: la glucosa se fermenta y genera CO2 e hidrógeno, con isquemia por microangiopatía y mala respuesta inmune.",
+  ["Cerca de 80 a 90 % ocurre en diabéticos mal controlados, más en mujeres: la glucosa se fermenta y genera CO2 e hidrógeno, con isquemia por microangiopatía y inmunidad alterada.",
    "En no diabéticos casi siempre hay obstrucción. Litiasis, desnutrición, enfermedad renal crónica y síndrome metabólico tienen una relación menor.",
    "Clínica: pielonefritis grave que no mejora, fiebre, dolor en flanco, sepsis y a veces crepitación. Tomografía como estudio de elección; clasificación de Huang y Tseng.",
    "Tratamiento: antibióticos amplios, control glucémico, drenaje percutáneo o descompresión y nefrectomía en casos extensos; mortalidad elevada."],

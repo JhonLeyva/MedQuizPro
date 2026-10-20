@@ -41,14 +41,13 @@ S("linea_vida", "RM-TRA-030", "La fractura de Colles desplazada se inmoviliza co
       {}),
   d=dict(rotulo="Calendario de inmovilización de una fractura de Colles desplazada", eje=(0, 8, 1), unidad="semanas",
          barras=[("Yeso braquiopalmar, con el codo", 0, 3, "Controla la rotación del antebrazo", True), ("Yeso antebraquiopalmar", 3, 6, "Se libera el codo", True),
-                 ("Control radiográfico", 1, 2, "Detecta pérdida de la reducción", False), ("Rehabilitación de dedos y hombro", 0, 8, "Desde el primer día", False),
-                 ("Fisioterapia de muñeca", 6, 8, "Tras retirar el yeso", False)],
+                 ("Movilización de dedos y hombro", 0, 8, "Desde el primer día, para evitar rigidez", False)],
          marcador=(6, "6 semanas"),
          veredicto=("Colles desplazada = yeso por 6 semanas", "Menos de 4 semanas pierde la reducción; más de 8 solo agrega rigidez.")),
   clasif=dict(titulo="Fractura de Colles: puntos para recordar", cols=["Aspecto", "Dato", "Conducta"],
               filas=[["Localización", "Radio distal, 2 a 3 cm de la articulación", "Reducción cerrada"],
                      ["Desplazamiento", "Dorsal del fragmento distal", "Mantener inclinación volar y longitud radial"],
-                     ["Duración del yeso", "Cerca de 6 semanas", "3 con codo y 3 antebraquiopalmar"]], caso=2, ancho_primera=200))
+                     ["Yeso", "Cerca de 6 semanas", "3 con codo y 3 antebraquiopalmar"]], caso=2, ancho_primera=200))
 
 # 031 · ALARMA · tibia con isquemia: síndrome compartimental
 S("alarma", "RM-TRA-031", "Tibia con edema tenso, flujo distal reducido y 8 horas de evolución: fasciotomía de urgencia",
@@ -68,7 +67,7 @@ S("alarma", "RM-TRA-031", "Tibia con edema tenso, flujo distal reducido y 8 hora
                  ("Compartimento tenso y edema marcado", "Tumefacción a tensión", True),
                  ("Parestesias, palidez y parálisis", "Tardíos", True),
                  ("Pulso pedio presente", "No lo excluye: la presión rara vez supera la arterial", False)],
-         accion=("Fasciotomía urgente", "Retirar vendajes y yesos, mantener el miembro a nivel del corazón y liberar los cuatro compartimentos de la pierna sin demora; la necrosis muscular aparece con pocas horas de isquemia."), accion_rotulo="Con el diagnóstico clínico",
+         accion=("Fasciotomía urgente", "Retirar vendajes y yesos, mantener el miembro a nivel del corazón y liberar los cuatro compartimentos de la pierna sin demora; la necrosis muscular aparece con pocas horas de isquemia. Después se dejan las heridas abiertas, se reevalúa el músculo y se cierra o se injerta en un segundo tiempo."), accion_rotulo="Con el diagnóstico clínico",
          veredicto=("Edema tenso + isquemia = fasciotomía", "Inmovilizar, fijar el hueso o revascularizar no descomprimen el compartimento.")))
 
 # 032 · CALENDARIO · tibia no desplazada con edema: yeso
@@ -108,8 +107,8 @@ S("cuadro", "RM-TRA-033", "Movimiento lateral y medial de la tibia tras un accid
   clasif=dict(titulo="Pruebas de estabilidad frontal de la rodilla", cols=["Hallazgo", "Estructura lesionada", "Pasos siguientes"],
               filas=[["Bostezo en valgo a 30 grados", "Colateral medial aislado", "Rodillera articulada y rehabilitación"],
                      ["Bostezo en varo a 30 grados", "Colateral lateral aislado", "Valorar la esquina posterolateral"],
-                     ["Bostezo en varo y valgo", "Ambos colaterales y estructuras asociadas", "Descartar lesión de la arteria poplítea y del peroneo; resonancia"]],
-              caso=2, ancho_primera=240, nota="Un movimiento anormal en ambos sentidos tras un traumatismo de alta energía es una lesión multiligamentaria."))
+                     ["Bostezo varo y valgo", "Ambos colaterales y estructuras asociadas", "Descartar lesión de la arteria poplítea y del peroneo; resonancia"]],
+              caso=2, ancho_primera=270, nota="Un movimiento anormal en ambos sentidos tras un traumatismo de alta energía es una lesión multiligamentaria."))
 
 # 034 · CARRILES · tendón de Aquiles: mecanismo
 S("carriles", "RM-TRA-034", "El tendón de Aquiles se rompe por una contracción brusca del tríceps: cambios bruscos de dirección, saltos y arranques",
@@ -313,7 +312,7 @@ S("termometro", "RM-INF-056", "La dosis tóxica de hierro en niños produce vóm
                   ("> 60 mg/kg", "Potencialmente letal", ["Shock, acidosis y falla multiorgánica"])],
          pasos=[(1, "Fase 1: efecto corrosivo local", ["Vómitos y sangrado gástrico en las primeras 6 horas"], True),
                 (2, "Fases 2 y 3", ["Aparente mejoría y luego shock, acidosis y coagulopatía"], False),
-                (2, "Fase 4", ["Estenosis pilórica o intestinal a las 2 a 6 semanas"], False)]),
+                (3, "Fase 4", ["Estenosis pilórica o intestinal a las 2 a 6 semanas"], False)]),
   clasif=dict(titulo="Fases de la intoxicación por hierro", cols=["Fase", "Tiempo", "Manifestaciones"],
               filas=[["1", "30 minutos a 6 horas", "Vómitos, dolor abdominal, diarrea y sangrado digestivo"],
                      ["2", "6 a 24 horas", "Aparente mejoría"],

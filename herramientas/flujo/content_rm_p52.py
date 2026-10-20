@@ -33,7 +33,7 @@ S("termometro", "RM-CIR-146", "La grasa hirviendo produce la quemadura más prof
   "American Burn Association, criterios de referencia a centro de quemados; ATLS, 11.ª ed. (2025); Sabiston, 21.ª ed. (2021).",
   op=("¿Mayor necrosis profunda?", ["Sí: más de 200 °C y contacto prolongado", "No: 100 °C, quemadura más superficial", "No: se disipa rápido; daña la vía aérea", "No: lesión variable, daño inhalatorio", "No: poca masa calórica"],
       {0: "Grasa hirviendo", 1: "Agua caliente", 2: "Vapor de agua caliente", 3: "Fuego directo", 4: "Aire caliente"}),
-  d=dict(rotulo="Agentes de quemadura, del menos al más profundo", caso_nivel=3, ruta_titulo="Por qué la grasa quema más hondo", paso_label="ESTE CASO",
+  d=dict(rotulo="Agentes de quemadura, de la más a la menos profunda", caso_nivel=3, ruta_titulo="Por qué la grasa quema más hondo", paso_label="ESTE CASO",
          niveles=[("Aire caliente", "Poca masa calórica", ["Daño inhalatorio"]), ("Vapor", "Cerca de 100 °C", ["Se disipa rápido"]),
                   ("Agua caliente", "100 °C o menos", ["Escaldadura frecuente"]), ("Grasa hirviendo", "Más de 200 °C", ["Espesor total"])],
          pasos=[(1, "Temperatura muy alta", ["Más de 200 °C frente a 100 °C"], False), (2, "Se adhiere a la piel", ["Contacto prolongado"], False), (3, "Necrosis coagulativa profunda", ["Quemadura de espesor total"], True)]),
@@ -274,7 +274,7 @@ S("cuadro", "RM-INF-068", "Agitación, alucinaciones, taquicardia, hipertermia, 
                      ["Colinérgico (organofosforados)", "Bradicardia, broncorrea, fasciculaciones", "Miosis", "Sudorosa"],
                      ["Opioide (heroína)", "Bradipnea, hipotensión, coma", "Miosis", "Fría"],
                      ["Sedante (benzodiacepinas)", "Somnolencia, hipotonía, depresión respiratoria", "Normales", "Normal"]],
-              caso=0, ancho_primera=210))
+              caso=0, ancho_primera=270))
 
 # PSI-027 · FASES · abstinencia alcohólica
 S("fases", "RM-PSI-027", "Confusión, zoopsias, temblor y diaforesis un día después de beber: abstinencia alcohólica (delirium tremens)",
@@ -301,7 +301,7 @@ S("checklist", "RM-INF-069", "En la sepsis con hipoperfusión el primer tratamie
   ["Surviving Sepsis 2021: al menos 30 mL/kg de cristaloides en las primeras 3 horas ante hipoperfusión; preferir balanceados (Ringer lactato).",
    "Guiar la reposición con llenado capilar, lactato y diuresis. Antibiótico de amplio espectro lo antes posible, en la primera hora si hay shock, tras hemocultivos y urocultivo.",
    "Control del foco: cambiar la sonda, buscar obstrucción o absceso con ecografía. Si la PAM sigue menor de 65 tras el volumen, noradrenalina.",
-   "No usar almidones (daño renal); plasma y paquete globular no reanimán sin sangrado ni anemia (umbral de Hb de 7 g/dL)."],
+   "No usar almidones (daño renal); plasma y paquete globular no reaniman sin sangrado ni anemia (umbral de Hb de 7 g/dL)."],
   "Evans L et al., Surviving Sepsis Campaign, Crit Care Med 2021;49:e1063-e1143; Sepsis-3, JAMA 2016; Harrison, 21.ª ed. (2022).",
   op=("¿Tratamiento inicial de la hipoperfusión?", ["Sí: al menos 30 mL/kg en 3 horas", "No: sin ventaja sobre los cristaloides", "No: solo si hay anemia importante", "No: dañan el riñón", "No: no reanima la hipovolemia sin sangrado"],
       {0: "Cristaloides", 1: "Coloides", 2: "Paquete globular", 3: "Almidones", 4: "Plasma"}),
@@ -311,7 +311,7 @@ S("checklist", "RM-INF-069", "En la sepsis con hipoperfusión el primer tratamie
                 ("Control del foco urinario", "Cambiar la sonda, ecografía para obstrucción o absceso y drenar", False),
                 ("Noradrenalina si la PAM sigue menor de 65", "Después del volumen", False),
                 ("Reevaluar lactato", "Si persiste alto a las 6 horas, el pronóstico es peor", False)],
-         no_hacer=[("Almidones (hidroxietilalmidón)", "Aumentan el daño renal"), ("Plasma para reanimar", "No corrige la hipovolemia sin coagulopatía con sangrado"), ("Transfundir con Hb mayor de 7 g/dL", "No hay beneficio sin sangrado")],
+         no_hacer=[("Almidones (hidroxietilalmidón)", "Aumentan el daño renal"), ("Plasma para reanimar", "No corrige la hipovolemia sin coagulopatía con sangrado"), ("Transfundir con Hb mayor de 7 g/dL", "No hay beneficio sin sangrado"), ("Esperar los cultivos para dar el antibiótico", "Cada hora de retraso aumenta la mortalidad en el shock")],
          veredicto=("Hipoperfusión séptica = cristaloides primero", "Coloides, almidones, plasma y paquete globular no son el tratamiento inicial.")))
 
 # 070 · REGLA · amitriptilina
