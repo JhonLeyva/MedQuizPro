@@ -34,8 +34,8 @@ S("alarma", "RM-SP-055", "Fiebre de 5 días con dos o más síntomas y sin signo
   op=("¿Tipo de caso?", ["Sí: fiebre y dos o más síntomas, sin alarma", "No: no hay signos de alarma ni categoría así", "No: falta el laboratorio (NS1, PCR o serología)", "No: cumple la definición de caso", "No: no hay choque ni hemorragia ni falla de órganos"],
       {0: "Probable sin signos de alarma", 1: "Sospechoso con signos de alarma", 2: "Confirmado por laboratorio"}),
   d=dict(rotulo="Qué buscar en el dengue para decidir si hay alarma", lista_titulo="Signos de alarma (ninguno presente en este caso)",
-         signos=[("Dolor abdominal intenso y continuo", "Por extravasación de plasma", None), ("Vómitos persistentes", "Tres o más en 24 horas", None),
-                 ("Líquido acumulado y sangrado de mucosas", "Ascitis, derrame pleural, gingivorragia", None), ("Letargia o inquietud", "Alteración del sensorio", None),
+         signos=[("Dolor abdominal intenso y continuo", "Por extravasación de plasma", False), ("Vómitos persistentes", "Tres o más en 24 horas", False),
+                 ("Líquido acumulado y sangrado de mucosas", "Ascitis, derrame pleural, gingivorragia", False), ("Letargia o inquietud", "Alteración del sensorio", False),
                  ("Hepatomegalia y hematocrito alto con plaquetas bajas", "Suelen aparecer al caer la fiebre (día 3 a 7)", None)],
          accion=("Probable sin alarma: manejo ambulatorio", "Hidratación oral abundante, paracetamol, sin AINE; control diario; volver ante cualquier signo de alarma."), accion_rotulo="Conducta",
          veredicto=("Definición de probable + sin extravasación = probable sin signos de alarma", "«Sospechoso con signos de alarma» no existe como categoría de la clasificación.")),
@@ -113,7 +113,7 @@ S("dos_preguntas", "RM-SP-059", "Betabloqueador tras un infarto para evitar comp
   "Gordis, Epidemiología 6.ª ed. (2019); Byrne RA et al., ESC Guidelines ACS, Eur Heart J 2023;44:3720; Rao SV et al., 2025 ACC/AHA/ACEP/NAEMSP/SCAI ACS Guideline, Circulation 2025.",
   op=("¿Tipo de prevención?", ["No: detecta la enfermedad en fase asintomática", "Sí: daño ya establecido, evita complicaciones", "No: evita que la enfermedad aparezca", "No: actúa sobre determinantes del contexto", "No: evita intervenciones médicas innecesarias"],
       {0: "Secundaria", 1: "Terciaria", 2: "Primaria", 3: "Primordial", 4: "Cuaternaria"}),
-  d=dict(rotulo="Dos preguntas para ubicar el nivel de prevención", pasos=[
+  d=dict(rotulo="Tres pasos para ubicar el nivel de prevención", pasos=[
             ("¿La persona ya tiene la enfermedad con daño establecido?", "Sí: infarto de miocardio ya ocurrido", "Si no la tuviera, sería primaria, primordial o secundaria."),
             ("¿Qué busca el tratamiento?", "Evitar complicaciones: insuficiencia cardiaca, arritmias, reinfarto", "Detectar la enfermedad temprano sería secundaria; evitar su aparición, primaria."),
             ("¿Qué otras medidas lo acompañan?", "Antiagregantes, estatinas, IECA y rehabilitación cardiaca", "Limitar la discapacidad y rehabilitar es prevención terciaria.")],
@@ -131,7 +131,7 @@ S("capas", "RM-TRA-001", "En el síndrome del túnel del carpo se comprime el ne
   "AAOS/ASSH, Management of Carpal Tunnel Syndrome: Clinical Practice Guideline Summary, J Am Acad Orthop Surg 2025; Campbell's Operative Orthopaedics 14.ª ed. (2020); Moore, Anatomía con orientación clínica 8.ª ed. (2018).",
   op=("¿Estructura afectada?", ["Sí: pasa por el túnel y se comprime", "No: se comprime en el codo o en el canal de Guyon", "No: no pasa por el túnel del carpo", "No: no se altera en el síndrome", "No: no se altera en el síndrome"],
       {0: "Nervio mediano", 1: "Nervio cubital", 2: "Nervio radial", 3: "Arteria cubital", 4: "Arteria radial"}),
-  d=dict(rotulo="Del plano palmar al hueso: qué hay en el túnel del carpo", prof=1, tag="MEDIANO",
+  d=dict(rotulo="Del plano palmar al hueso: qué hay en el túnel del carpo", prof=2, tag="MEDIANO",
          lateral_titulo="Qué aporta cada nivel",
          capas=[("Piel y fascia palmar", "Plano superficial", "#e2e8f0", "Cobertura", "La rama cutánea palmar del mediano pasa por encima: la eminencia tenar conserva la sensibilidad."),
                 ("Retináculo flexor", "Techo del túnel", "#fde68a", "Techo inextensible", "Su sección es la liberación quirúrgica en los casos graves o refractarios."),
@@ -169,14 +169,14 @@ S("cuadro", "RM-TRA-003", "Signo de la tecla tras caída sobre el hombro: se com
   "Frank RM et al., Current concepts in acromioclavicular joint instability, BMC Musculoskelet Disord 2022; Rockwood and Green's Fractures in Adults 9.ª ed. (2019); Campbell's Operative Orthopaedics 14.ª ed. (2020).",
   op=("¿Ligamento comprometido?", ["No: es de la articulación del extremo medial", "No: une costilla y esternón", "No: es del hombro, no de la clavícula", "Sí: articulación que da el signo de la tecla", "No: no se asocia al signo"],
       {0: "Esternoclavicular", 1: "Esternocostal", 2: "Coracohumeral", 3: "Acromioclavicular", 4: "Glenohumeral"}),
-  d=dict(rotulo="Clasificación de Rockwood de la separación acromioclavicular",
+  d=dict(rotulo="Qué ligamento da el signo de la tecla",
          veredicto=("Signo de la tecla = lesión acromioclavicular", "Esternoclavicular, coracohumeral y glenohumeral pertenecen a otras articulaciones.")),
   clasif=dict(titulo="Clasificación de Rockwood de la lesión acromioclavicular", cols=["Tipo", "Ligamentos y clavícula", "Tratamiento habitual"],
               filas=[["I", "Esguince acromioclavicular; coracoclavicular íntegro", "Reposo, cabestrillo y rehabilitación"],
                      ["II", "Ruptura acromioclavicular; coracoclavicular parcial", "Conservador"],
                      ["III", "Ruptura de ambos ligamentos; la clavícula asciende", "Conservador en la mayoría; cirugía en casos seleccionados"],
                      ["IV a VI", "Desplazamiento posterior (IV), ascenso marcado (V) o inferior (VI)", "Suelen requerir cirugía"]],
-              caso=0, ancho_primera=80, nota="Todos los tipos comprometen al ligamento acromioclavicular; el signo de la tecla aparece cuando la clavícula se desplaza."))
+              caso=None, ancho_primera=80, nota="Todos los tipos comprometen al ligamento acromioclavicular; el signo de la tecla aparece cuando la clavícula se desplaza."))
 
 # TRA-004 · BALANZA · inmovilización
 S("balanza", "RM-TRA-004", "Inmovilizar una fractura al inicio sirve sobre todo para evitar lesiones de partes blandas",
@@ -188,7 +188,7 @@ S("balanza", "RM-TRA-004", "Inmovilizar una fractura al inicio sirve sobre todo 
    "Se verifica circulación, sensibilidad y movilidad distales antes y después; un yeso circular apretado puede causar síndrome compartimental o úlceras.",
    "Alinear, consolidar y evitar la seudoartrosis son objetivos del tratamiento definitivo. Fractura con deformidad y pulso ausente: alinear suavemente y referir."],
   "ATLS 11.ª ed. (2025); Rockwood and Green's Fractures in Adults 9.ª ed. (2019); Campbell's Operative Orthopaedics 14.ª ed. (2020).",
-  op=("¿Fundamento de la inmovilización inicial?", ["Sí: evita que los extremos óseos lesionen vasos, nervios y piel", "No: la infección se evita con limpieza y antibióticos", "No: se previene con fijación estable y buen aporte vascular", "No: la alineación la logra la reducción", "No: depende de la biología y de la estabilidad"],
+  op=("¿Fundamento de la inmovilización inicial?", ["Sí: protege vasos, nervios y piel", "No: la infección se evita con limpieza y antibióticos", "No: se previene con fijación estable y buen aporte vascular", "No: la alineación la logra la reducción", "No: depende de la biología y de la estabilidad"],
       {0: "Evitar lesiones de partes blandas", 1: "Disminuir la infección de partes blandas", 2: "Evitar la seudoartrosis", 3: "Conseguir una alineación satisfactoria", 4: "Garantizar una rápida consolidación"}),
   d=dict(rotulo="Qué logra la inmovilización inicial y qué corresponde al tratamiento definitivo", gana="izq", pregunta="¿Para qué se inmoviliza al inicio?",
          izq=dict(titulo="Inmovilización inicial", peso="MÁS", items=["Protege vasos, nervios y piel", "Evita que una fractura cerrada se abra", "Reduce dolor y sangrado", "Facilita el traslado"]),
@@ -226,7 +226,7 @@ S("linea_vida", "RM-TRA-006", "El nervio radial es el más lesionado en la fract
   op=("¿Nervio más lesionado?", ["Sí: pegado al hueso en el surco de torsión", "No: se lesiona en el codo", "No: se lesiona en la luxación o el cuello quirúrgico", "No: se lesiona en el codo", "No: se lesiona rara vez"],
       {}),
   d=dict(rotulo="Evolución de la parálisis radial tras la fractura (meses, orientativo)", eje=(0, 6, 1), unidad="meses",
-         barras=[("Observación con férula de muñeca", 0, 3, "Neuropraxia: recuperación espontánea en 70-90 %", False), ("EMG de control", 0.75, 1.5, "A las 3-6 semanas", False),
+         barras=[("Observación con férula de muñeca", 0, 3, "Neuropraxia: mejora sola en 70-90 %", False), ("EMG de control", 0.75, 1.5, "A las 3-6 semanas", False),
                  ("Recuperación esperada", 3, 4, "Casi todas en 3-4 meses", True), ("Explorar si no mejora", 3, 6, "A los 3-6 meses sin recuperación", False)],
          marcador=(3, "3 meses: se espera recuperación"),
          veredicto=("Radial = nervio más lesionado en la fractura de húmero", "Explorar de entrada si es abierta o la parálisis aparece tras la reducción.")))
@@ -315,9 +315,9 @@ S("fases", "RM-TRA-011", "La luxación anterior (subcoracoidea) es la más frecu
    "Evaluar el nervio axilar (cara lateral del hombro) antes y después de reducir. Radiografía anteroposterior y axilar o en Y; reducir con Kocher, Cunningham, Stimson o tracción-contratracción.",
    "Perla: en menores de 25 años la recidiva tras la primera luxación supera 50 % y puede indicarse la estabilización quirúrgica."],
   "Rockwood and Green's Fractures in Adults 9.ª ed. (2019); Campbell's Operative Orthopaedics 14.ª ed. (2020); Moore, Anatomía con orientación clínica 8.ª ed. (2018).",
-  op=("¿Luxación más frecuente?", ["Sí: 95 a 97 % de los casos", "No: es rara, 2 a 4 %", "No: no es una luxación habitual", "No: no es una luxación habitual", "No: es la luxatio erecta, rara"],
+  op=("¿Luxación más frecuente?", ["Sí: 95 a 97 % de los casos", "No: es rara, 2 a 4 %", "No: no es una luxación habitual", "No: no es una luxación habitual", "No: es excepcional; la erecta es inferior"],
       {}),
   d=dict(rotulo="Pasos ante una luxación anterior de hombro", ans=1,
          fases=[("Evaluar", "Antes de reducir", "EXPLORAR", ["Nervio axilar: sensibilidad lateral del hombro", "Signo de la charretera", "Pulso distal"]),
                 ("Reducir", "Con analgesia o sedación", "RADIOGRAFÍA Y MANIOBRA", ["Anteroposterior y axilar o en Y", "Kocher, Cunningham o Stimson", "Repetir la exploración"]),
-                ("Después", "Prevenir recidiva", "INMOVILIZAR", ["Cabestrillo y rehabilitación", "En menores de 25 años, recidiva mayor de 50 %", "Valorar estabilización quirúrgica"])]))
+                ("Después", "Prevenir recidiva", "INMOVILIZAR", ["Cabestrillo y rehabilitación", "Menores de 25 años: recidiva > 50 %", "Valorar estabilización quirúrgica"])]))
