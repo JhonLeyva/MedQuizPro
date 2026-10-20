@@ -7,7 +7,7 @@ BERLIN = dict(titulo="Definición de Berlín del SDRA según la oxigenación (Pa
               filas=[["Leve", "200 a 300", "27 %", "Ventilación protectora (6 mL/kg de peso ideal, presión meseta menor de 30 cmH2O) y tratar la causa"],
                      ["Moderada", "100 a 200", "32 %", "Lo anterior con PEEP titulada; valorar bloqueo neuromuscular"],
                      ["Grave", "Menos de 100", "45 %", "Lo anterior más posición prona más de 12 h al día; ECMO en casos seleccionados"]],
-              caso=1, ancho_primera=200,
+              caso=None, ancho_primera=200,
               nota="Criterios comunes: inicio en menos de 1 semana, opacidades bilaterales, origen no cardiogénico. La definición global 2023 admite SpO2/FiO2 y ecografía.")
 
 # 029 · LECTURA · nódulo pulmonar en fumador
@@ -376,7 +376,7 @@ S("termometro", "RM-NEU-044", "En la neumonía infantil, tras la taquipnea sigue
   clasif=dict(titulo="Taquipnea según la edad (OMS)", cols=["Edad", "Frecuencia respiratoria de taquipnea", "Comentario"],
               filas=[["Menor de 2 meses", "60 o más por minuto", "Ya se considera enfermedad grave"],
                      ["2 a 11 meses", "50 o más por minuto", "Primer signo de neumonía"],
-                     ["12 meses a 5 años", "40 o más por minuto", "Primer signo de neumonía"]], caso=2, ancho_primera=200,
+                     ["12 meses a 5 años", "40 o más por minuto", "Primer signo de neumonía"]], caso=None, ancho_primera=200,
               nota="Tos con taquipnea es neumonía; tiraje o signos de peligro indican gravedad."))
 
 # 045 · ANTES Y DESPUÉS · metaplasia escamosa

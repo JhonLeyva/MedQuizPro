@@ -122,8 +122,7 @@ S("carriles", "RM-GIN-102", "Tras la convulsión eclámptica se previenen nuevas
   op=("¿Conducta?", ["Sí: previene nuevas crisis y se termina la gestación", "No: 120/70 compromete la perfusión uteroplacentaria", "No: esperar 72 horas expone a nuevas crisis", "No: 4 g intramusculares solos son insuficientes", "No: esperar hasta las 37 semanas expone a nuevas crisis"],
       {0: "Magnesio y culminar la gestación", 1: "Antihipertensivos para 120/70 mmHg", 2: "Maduración cervical y cesárea en 72 horas", 3: "Magnesio 4 g IM por 24 horas", 4: "Control de presión hasta las 37 semanas"}),
   d=dict(rotulo="Qué se hace y qué no tras la convulsión", carriles=["Primero, en la crisis", "Una vez estable la madre", "Lo que no se hace"],
-         pasos=[(0, "Vía aérea y decúbito lateral izquierdo", "Protege de la aspiración durante la crisis", False),
-                (0, "Sulfato de magnesio", "Carga de 4-6 g IV y mantenimiento de 1-2 g por hora", True),
+         pasos=[(0, "Sulfato de magnesio", "Carga de 4-6 g IV y mantenimiento de 1-2 g por hora", True),
                 (1, "Antihipertensivo desde 160/110", "Evita la hemorragia cerebral sin bajar la presión de más", False),
                 (1, "Terminar la gestación", "Sin importar la edad gestacional; la vía es obstétrica", True),
                 (2, "Bajar la presión a 120/70", "Compromete la perfusión uteroplacentaria", False),
@@ -383,12 +382,12 @@ S("decision", "RM-GIN-113", "Protrusión en racimo de uvas por la vagina de una 
   op=("¿Diagnóstico?", ["No: es una hernia vaginal posterior del adulto", "No: son verrugas dispersas por HPV 6 y 11", "No: excepcional, masa única y lisa", "No: excepcional, asociado a espina bífida", "Sí: racimo de uvas en una niña pequeña"],
       {0: "Rectocele", 1: "Condilomatosis genital", 2: "Prolapso uterino", 3: "Prolapso vaginal", 4: "Sarcoma botrioide"}),
   d=dict(rotulo="Cómo distinguir la masa vaginal de la niña", eje_y="Diagnóstico",
-         cols=["Aspecto de la masa", "Datos que lo definen"],
+         cols=["Aspecto de la masa", "Contexto y edad"],
          rows=[("Sarcoma botrioide", "Este caso"), ("Condilomatosis", "HPV 6 y 11"), ("Prolapso uterino o vaginal", "Congénito, excepcional"), ("Rectocele", "Pared vaginal posterior")],
-         cells=[[("Racimo de uvas", ["Masa polipoide, edematosa y multinodular"]), ("Rabdomiosarcoma", ["Menor de 5 años; biopsia confirma"])],
-                [("Verrugas dispersas", ["No forman racimo"]), ("Contacto perinatal o abuso", ["Adquiridas"])],
-                [("Masa única y lisa", ["Cervical, no racimosa"]), ("Asociado a espina bífida", ["Excepcional"])],
-                [("Hernia de la pared", ["Propia del adulto"]), ("Sin relación con la recién nacida", ["No aplica"])]],
+         cells=[[("Racimo de uvas", ["Masa polipoide, edematosa y multinodular"]), ("Rabdomiosarcoma embrionario", ["Menor de 5 años; la biopsia confirma"])],
+                [("Verrugas dispersas", ["No forman racimo"]), ("Contacto perinatal o abuso", ["Lesiones adquiridas"])],
+                [("Masa única y lisa", ["Cervical, no racimosa"]), ("Excepcional", ["Asociado a espina bífida"])],
+                [("Hernia de la pared vaginal", ["Sin aspecto de racimo"]), ("Propio del adulto", ["No ocurre en la recién nacida"])]],
          caso=(0, 0),
          nota="Ante cualquier lesión vaginal en una niña se piensa también en abuso sexual.",
          claves_titulo="Cómo se confirma y trata",
@@ -397,7 +396,7 @@ S("decision", "RM-GIN-113", "Protrusión en racimo de uvas por la vagina de una 
               filas=[["Sarcoma botrioide", "Racimo de uvas, edematoso y multinodular", "Biopsia: desmina y miogenina positivas"],
                      ["Prolapso uretral", "Masa anular periuretral", "Diagnóstico diferencial"],
                      ["Pólipo himeneal", "Pólipo pequeño del himen", "Diagnóstico diferencial"],
-                     ["Tumor del seno endodérmico", "Tumor maligno de células germinales", "Alfafetoproteína alta"]], caso=0, ancho_primera=200))
+                     ["Tumor del seno endodérmico", "Tumor maligno de células germinales", "Alfafetoproteína alta"]], caso=0, ancho_primera=250))
 
 # 114 · DOS PREGUNTAS · pólipo endometrial
 S("dos_preguntas", "RM-GIN-114", "Menorragia, metrorragia y dismenorrea a los 45 años con sangrado escaso por el orificio cervical: pólipo endometrial",

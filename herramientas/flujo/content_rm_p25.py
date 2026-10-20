@@ -50,7 +50,7 @@ S("balanza", "RM-CIR-140", "En el abdomen virgen la causa más frecuente de obst
               filas=[["Intrínseca", "Tumores, estenosis, íleo biliar", "Neoplasia: obstrucción del colon; íleo biliar: raro"],
                      ["De la pared", "Hernias, vólvulos, intususcepción", "Hernia: primera causa sin cirugía previa"],
                      ["Extrínseca", "Adherencias y bridas", "Primera causa en países industrializados, por cirugía previa"]],
-              caso=1, ancho_primera=170))
+              caso=1, ancho_primera=220))
 
 # 141 · CRITERIOS · ecografía en la vía biliar
 S("criterios", "RM-CIR-141", "La ecografía abdominal es el estudio inicial de las enfermedades de la vía biliar: sensible, rápida y sin radiación",
