@@ -15,3 +15,9 @@ Pediatría → `pediatria`; Ginecología y Obstetricia → `ginecologia`; Salud 
 - Verifica cada cita en línea (PubMed eutils por curl o WebSearch) antes de ponerla; guías peruanas solo con número y año verificados (listas en `BRIEF_PREGUNTAS.md` y `BRIEF_FUENTES.md`: TB = NTS 221-MINSA/DGIESP-2024). No cites de memoria.
 - No ejecutes `integrar.py` ni git; el coordinador lo hace.
 - Entrega (máx. 15 líneas): paquete, nº de entradas, bloques con clave corregida y motivo, dudas, guías peruanas verificadas.
+
+## Adenda (tercer bloque: lotes 7, paquetes 00-23)
+- Son las preguntas que quedaban del PDF (402 bloques; no hay más). Tu paquete NN (00-23): `python3 /tmp/claude-0/-home-user-MedQuizPro/3bdd1294-08af-5c0c-aa0a-278cd09c47ff/scratchpad/pdf/dump2.py <NN> 700`. Salida: `residentado/lotes/lote07_<NN>.py` (NN a dos dígitos), mismas reglas del brief (150-230 palabras, 5 opciones, clave, fuentes verificadas, `nota=`). Valida con el comando del brief cambiando `lote06_NN` por `lote07_NN`.
+- Los bloques marcados **DAÑADO** no traen las 5 opciones o la clave bien extraídas: abre la imagen de la página (`pdftoppm -r 110 -f P -l P -png /tmp/claude-0/-home-user-MedQuizPro/3bdd1294-08af-5c0c-aa0a-278cd09c47ff/scratchpad/pdf/rm.pdf /tmp/pg_<tu_nombre>`, P = «pdf pág», y Read del PNG), localiza la pregunta por su número y reconstruye enunciado, opciones y la clave que el libro marca como «Respuesta X». Si el bloque es un fragmento sin pregunta real, inclúyelo igualmente solo si puedes reconstruirlo; si es imposible, escribe en tu informe el número de bloque y no pongas entrada (el coordinador lo descartará).
+- Los bloques marcados **REPITE** son la misma pregunta que otra ya hecha (otro año): usa EXACTAMENTE la misma clave del banco indicada, redacta el comentario con otro ángulo (no copies el anterior) y anótalo en `nota=`.
+- Mismo orden que imprime dump2.py; una entrada por bloque.
