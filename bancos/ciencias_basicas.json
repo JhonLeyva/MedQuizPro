@@ -11570,6 +11570,266 @@
       "año": 2014,
       "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Williams Obstetricia 26.ª ed. (2022); OMS, Manual de laboratorio para el examen del semen 6.ª ed. (2021)",
       "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-073",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "En el proceso de fecundación, ¿cuándo se induce la reacción acrosómica?",
+      "opciones": [
+        "Luego que el espermatozoide penetra la zona pelúcida.",
+        "Al momento de formarse el pronúcleo femenino.",
+        "Con la aparición del segundo corpúsculo polar.",
+        "Después de la formación del pronúcleo masculino.",
+        "Después de la reanudación de la segunda división meiótica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fecundación ocurre en la ampolla de la trompa de Falopio y comprende varias fases: paso de los espermatozoides a través de la corona radiada, reconocimiento y unión a la zona pelúcida, reacción acrosómica, fusión de las membranas del espermatozoide y del ovocito, reacción cortical y formación de los pronúcleos. Los espermatozoides ya están capacitados en el tracto femenino, un proceso que elimina las proteínas del glucocálix y permite la reacción. Esta consiste en la fusión de la membrana plasmática con la membrana acrosómica externa en la cabeza del espermatozoide y libera enzimas como la hialuronidasa y la acrosina, que digieren la zona pelúcida; es desencadenada por la glucoproteína ZP3 al unirse a su receptor. Por lo tanto, ocurre al contactar y atravesar la zona pelúcida, y siempre antes de la fusión con el ovocito. Las otras opciones corresponden a eventos posteriores: la reanudación de la segunda división meiótica y la expulsión del segundo corpúsculo polar suceden después de la entrada del espermatozoide al ovocito, y los pronúcleos masculino y femenino se forman más tarde, antes de la primera división mitótica del cigoto. La reacción cortical y la modificación de ZP2 producen el bloqueo de la polispermia. Perla clínica: en la inyección intracitoplasmática de espermatozoides se salta este paso, lo que permite la fecundación en la infertilidad masculina grave.",
+      "comentario": "La fecundación ocurre en la ampolla de la trompa de Falopio y comprende varias fases: paso de los espermatozoides a través de la corona radiada, reconocimiento y unión a la zona pelúcida, reacción acrosómica, fusión de las membranas del espermatozoide y del ovocito, reacción cortical y formación de los pronúcleos. Los espermatozoides ya están capacitados en el tracto femenino, un proceso que elimina las proteínas del glucocálix y permite la reacción. Esta consiste en la fusión de la membrana plasmática con la membrana acrosómica externa en la cabeza del espermatozoide y libera enzimas como la hialuronidasa y la acrosina, que digieren la zona pelúcida; es desencadenada por la glucoproteína ZP3 al unirse a su receptor. Por lo tanto, ocurre al contactar y atravesar la zona pelúcida, y siempre antes de la fusión con el ovocito. Las otras opciones corresponden a eventos posteriores: la reanudación de la segunda división meiótica y la expulsión del segundo corpúsculo polar suceden después de la entrada del espermatozoide al ovocito, y los pronúcleos masculino y femenino se forman más tarde, antes de la primera división mitótica del cigoto. La reacción cortical y la modificación de ZP2 producen el bloqueo de la polispermia. Perla clínica: en la inyección intracitoplasmática de espermatozoides se salta este paso, lo que permite la fecundación en la infertilidad masculina grave.",
+      "tema": "Reacción acrosómica en la fecundación",
+      "año": 2018,
+      "fuentes": "Langman, Embriología médica 14.ª ed. (2019); Moore, Embriología clínica 11.ª ed. (2020)",
+      "categoria": "Embriología",
+      "nota_revision": "El libro marca A («luego que penetra la zona pelúcida»); estrictamente la reacción se induce al unirse el espermatozoide a ZP3, pero A es la única opción coherente y se mantiene."
+    },
+    {
+      "id": "RM-CB-074",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿En qué etapa del ciclo general del desarrollo se produce la cavitación e implantación?",
+      "opciones": [
+        "Blastulación.",
+        "Histogénesis.",
+        "Segmentación.",
+        "Gastrulación.",
+        "Gametogénesis."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El desarrollo prenatal temprano se divide en gametogénesis, fecundación, segmentación, blastulación, gastrulación, organogénesis e histogénesis. La segmentación comprende las divisiones mitóticas del cigoto en los primeros tres a cuatro días, hasta formar la mórula de 16 a 32 blastómeros. En la blastulación, hacia el cuarto o quinto día, la mórula incorpora líquido y se forma la cavidad llamada blastocele (cavitación), con lo que se convierte en blastocisto, compuesto por el embrioblasto, que originará el embrión, y el trofoblasto, que formará la placenta. Luego el blastocisto pierde la zona pelúcida y se implanta en el endometrio secretor hacia los días 6 a 7, cuando el trofoblasto se diferencia en citotrofoblasto y sincitiotrofoblasto, y este invade el estroma y produce hCG, que mantiene el cuerpo lúteo. La gastrulación, en la tercera semana, convierte el disco bilaminar en trilaminar (ectodermo, mesodermo, endodermo) a través de la línea primitiva; la histogénesis es la diferenciación tisular y la gametogénesis es la formación de óvulos y espermatozoides antes de la fecundación. Perla clínica: la implantación fuera del útero da el embarazo ectópico, y la hCG detectable en sangre desde el día 8 o 9 marca el inicio de la prueba de embarazo.",
+      "comentario": "El desarrollo prenatal temprano se divide en gametogénesis, fecundación, segmentación, blastulación, gastrulación, organogénesis e histogénesis. La segmentación comprende las divisiones mitóticas del cigoto en los primeros tres a cuatro días, hasta formar la mórula de 16 a 32 blastómeros. En la blastulación, hacia el cuarto o quinto día, la mórula incorpora líquido y se forma la cavidad llamada blastocele (cavitación), con lo que se convierte en blastocisto, compuesto por el embrioblasto, que originará el embrión, y el trofoblasto, que formará la placenta. Luego el blastocisto pierde la zona pelúcida y se implanta en el endometrio secretor hacia los días 6 a 7, cuando el trofoblasto se diferencia en citotrofoblasto y sincitiotrofoblasto, y este invade el estroma y produce hCG, que mantiene el cuerpo lúteo. La gastrulación, en la tercera semana, convierte el disco bilaminar en trilaminar (ectodermo, mesodermo, endodermo) a través de la línea primitiva; la histogénesis es la diferenciación tisular y la gametogénesis es la formación de óvulos y espermatozoides antes de la fecundación. Perla clínica: la implantación fuera del útero da el embarazo ectópico, y la hCG detectable en sangre desde el día 8 o 9 marca el inicio de la prueba de embarazo.",
+      "tema": "Blastulación: cavitación e implantación",
+      "año": 2019,
+      "fuentes": "Moore, Embriología clínica 11.ª ed. (2020); Langman, Embriología médica 14.ª ed. (2019)",
+      "categoria": "Embriología"
+    },
+    {
+      "id": "RM-CB-075",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿En qué etapa del ciclo general del desarrollo ocurre la formación de los pronúcleos femenino y masculino?",
+      "opciones": [
+        "Gastrulación.",
+        "Segmentación.",
+        "Gametogénesis.",
+        "Fecundación.",
+        "Organogénesis."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La fecundación ocurre en la ampolla de la trompa, dentro de las 12 a 24 horas posteriores a la ovulación, y consiste en la fusión del espermatozoide con el ovocito secundario. Comienza con la capacitación del espermatozoide, la reacción acrosómica que libera enzimas hidrolíticas y la penetración de la corona radiada y de la zona pelúcida, mediada por ZP3. Al fusionarse las membranas, se produce la reacción cortical, con liberación de gránulos corticales que endurecen la zona pelúcida y bloquean la poliespermia. El ovocito termina la segunda división meiótica y forma el segundo cuerpo polar; entonces el núcleo del espermatozoide se descondensa y se forman los pronúcleos masculino y femenino, cada uno haploide con 23 cromosomas. Ambos se aproximan, pierden su membrana, y sus cromosomas se organizan en el huso de la primera mitosis (singamia), con lo que se restablece el número diploide de 46 y se forma el cigoto, que es una célula totipotente. La segmentación comienza después con las divisiones mitóticas; la gametogénesis es previa; la gastrulación ocurre en la tercera semana, y la organogénesis, de la tercera a la octava semana. Perla clínica: la fecundación in vitro con ICSI saltea la barrera de la zona pelúcida.",
+      "comentario": "La fecundación ocurre en la ampolla de la trompa, dentro de las 12 a 24 horas posteriores a la ovulación, y consiste en la fusión del espermatozoide con el ovocito secundario. Comienza con la capacitación del espermatozoide, la reacción acrosómica que libera enzimas hidrolíticas y la penetración de la corona radiada y de la zona pelúcida, mediada por ZP3. Al fusionarse las membranas, se produce la reacción cortical, con liberación de gránulos corticales que endurecen la zona pelúcida y bloquean la poliespermia. El ovocito termina la segunda división meiótica y forma el segundo cuerpo polar; entonces el núcleo del espermatozoide se descondensa y se forman los pronúcleos masculino y femenino, cada uno haploide con 23 cromosomas. Ambos se aproximan, pierden su membrana, y sus cromosomas se organizan en el huso de la primera mitosis (singamia), con lo que se restablece el número diploide de 46 y se forma el cigoto, que es una célula totipotente. La segmentación comienza después con las divisiones mitóticas; la gametogénesis es previa; la gastrulación ocurre en la tercera semana, y la organogénesis, de la tercera a la octava semana. Perla clínica: la fecundación in vitro con ICSI saltea la barrera de la zona pelúcida.",
+      "tema": "Fecundación: formación de los pronúcleos",
+      "año": 2019,
+      "fuentes": "Moore, Embriología clínica 11.ª ed. (2020); Langman, Embriología médica 14.ª ed. (2019)",
+      "categoria": "Embriología",
+      "nota_revision": "En el libro las opciones B y E eran idénticas («Segmentación»); la E se reemplazó por «Organogénesis» como distractor. Clave D sin cambio."
+    },
+    {
+      "id": "RM-CB-076",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿En qué situación la curva de disociación oxígeno-hemoglobina está desplazada hacia la derecha?",
+      "opciones": [
+        "Disminución de temperatura.",
+        "Aumento de PCO2.",
+        "Síntesis de mioglobina.",
+        "Aumento de pH.",
+        "Disminución de 2,3 DPG."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La curva de disociación de la oxihemoglobina tiene forma sigmoidea por la cooperatividad entre las cuatro subunidades de la hemoglobina. La P50, la presión de oxígeno a la que la hemoglobina está saturada en un 50 %, es de unos 26 mmHg. Un desplazamiento hacia la derecha significa menor afinidad por el oxígeno y mayor P50, de modo que la hemoglobina cede oxígeno con mayor facilidad a los tejidos. Lo producen el aumento de la PCO2 (efecto Bohr), la acidosis o descenso del pH, el aumento de la temperatura, el incremento del 2,3-difosfoglicerato (DPG), como ocurre en la altura, la anemia crónica y la hipoxia crónica, y el ejercicio intenso. Al contrario, la hipotermia, la alcalosis, la disminución del DPG y la presencia de hemoglobina fetal, de monóxido de carbono o de metahemoglobina desplazan la curva a la izquierda, con mayor afinidad. Por eso la sangre almacenada, pobre en DPG, entrega mal el oxígeno al comienzo. La mioglobina tiene una curva hiperbólica muy a la izquierda, con P50 de 1 a 3 mmHg, porque su función es almacenar oxígeno en el músculo. Perla clínica: el desplazamiento a la derecha favorece la descarga tisular, pero reduce la captación en el pulmón si es excesivo.",
+      "comentario": "La curva de disociación de la oxihemoglobina tiene forma sigmoidea por la cooperatividad entre las cuatro subunidades de la hemoglobina. La P50, la presión de oxígeno a la que la hemoglobina está saturada en un 50 %, es de unos 26 mmHg. Un desplazamiento hacia la derecha significa menor afinidad por el oxígeno y mayor P50, de modo que la hemoglobina cede oxígeno con mayor facilidad a los tejidos. Lo producen el aumento de la PCO2 (efecto Bohr), la acidosis o descenso del pH, el aumento de la temperatura, el incremento del 2,3-difosfoglicerato (DPG), como ocurre en la altura, la anemia crónica y la hipoxia crónica, y el ejercicio intenso. Al contrario, la hipotermia, la alcalosis, la disminución del DPG y la presencia de hemoglobina fetal, de monóxido de carbono o de metahemoglobina desplazan la curva a la izquierda, con mayor afinidad. Por eso la sangre almacenada, pobre en DPG, entrega mal el oxígeno al comienzo. La mioglobina tiene una curva hiperbólica muy a la izquierda, con P50 de 1 a 3 mmHg, porque su función es almacenar oxígeno en el músculo. Perla clínica: el desplazamiento a la derecha favorece la descarga tisular, pero reduce la captación en el pulmón si es excesivo.",
+      "tema": "Desplazamiento a la derecha de la curva de disociación de la hemoglobina",
+      "año": 2019,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); West J., Fisiología respiratoria: conceptos esenciales, 11.ª ed. (2021)",
+      "categoria": "Fisiología",
+      "nota_revision": "Bloque dañado por el OCR; el libro marca Respuesta B (aumento de PCO2)."
+    },
+    {
+      "id": "RM-CB-077",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes músculos de la pared torácica contribuye a determinar el volumen de reserva espiratoria?",
+      "opciones": [
+        "Intercostal interno.",
+        "Intercostal externo.",
+        "Subcostal.",
+        "Serrato anterior.",
+        "Escaleno."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La respiración tranquila es inspiratoria activa y espiratoria pasiva: el diafragma y los intercostales externos aumentan el volumen torácico, y la espiración se logra por el retroceso elástico del pulmón y la pared torácica. El volumen de reserva espiratoria (VRE) es el volumen máximo que se puede exhalar de forma forzada después de una espiración normal, cercano a 1200 mL en el adulto, y para lograrlo se necesita una espiración activa con músculos de la pared abdominal (recto abdominal, oblicuos y transverso), que elevan el diafragma al aumentar la presión intraabdominal, y con los intercostales internos, cuyas fibras descienden las costillas y reducen el diámetro torácico. Por eso el intercostal interno es la respuesta que el libro considera correcta. Los intercostales externos y los escalenos son músculos inspiratorios, que elevan las costillas y se utilizan en la capacidad inspiratoria y en la respiración forzada; el serrato anterior es un músculo de la cintura escapular que actúa como accesorio de la inspiración forzada. El subcostal participa en la espiración, pero su papel es menor y no es el músculo clásico de este ítem. Perla clínica: en el EPOC el VRE y la capacidad inspiratoria disminuyen por hiperinsuflación, y la espiración se vuelve activa incluso en reposo.",
+      "comentario": "La respiración tranquila es inspiratoria activa y espiratoria pasiva: el diafragma y los intercostales externos aumentan el volumen torácico, y la espiración se logra por el retroceso elástico del pulmón y la pared torácica. El volumen de reserva espiratoria (VRE) es el volumen máximo que se puede exhalar de forma forzada después de una espiración normal, cercano a 1200 mL en el adulto, y para lograrlo se necesita una espiración activa con músculos de la pared abdominal (recto abdominal, oblicuos y transverso), que elevan el diafragma al aumentar la presión intraabdominal, y con los intercostales internos, cuyas fibras descienden las costillas y reducen el diámetro torácico. Por eso el intercostal interno es la respuesta que el libro considera correcta. Los intercostales externos y los escalenos son músculos inspiratorios, que elevan las costillas y se utilizan en la capacidad inspiratoria y en la respiración forzada; el serrato anterior es un músculo de la cintura escapular que actúa como accesorio de la inspiración forzada. El subcostal participa en la espiración, pero su papel es menor y no es el músculo clásico de este ítem. Perla clínica: en el EPOC el VRE y la capacidad inspiratoria disminuyen por hiperinsuflación, y la espiración se vuelve activa incluso en reposo.",
+      "tema": "Músculos que determinan el volumen de reserva espiratoria",
+      "año": 2016,
+      "fuentes": "Guyton y Hall, Tratado de Fisiología Médica 14.ª ed. (2021); Moore, Anatomía con orientación clínica 9.ª ed. (2022)",
+      "categoria": "Fisiología",
+      "nota_revision": "Bloque dañado: la clave del libro es A (intercostal interno); el subcostal también es espiratorio, pero la clave se mantiene como en el libro. Se asigna a ciencias básicas por ser fisiología respiratoria."
+    },
+    {
+      "id": "RM-CB-078",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Cuál es el mecanismo de acción del bromuro de ipratropio?",
+      "opciones": [
+        "Bloquea los receptores Cis-LT1.",
+        "Activa los receptores adrenérgicos beta 2.",
+        "Antagoniza los receptores muscarínicos.",
+        "Disminuye el número de células inflamatorias.",
+        "Inhibe la fosfodiesterasa del músculo liso."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El bromuro de ipratropio es un derivado cuaternario de amonio de la atropina, antagonista competitivo no selectivo de los receptores muscarínicos M1, M2 y M3. En las vías aéreas, la acetilcolina liberada por el nervio vago actúa sobre los receptores M3 del músculo liso y de las glándulas submucosas, y produce broncoconstricción y secreción de moco. Al bloquear este efecto, el fármaco reduce el tono colinérgico basal y produce broncodilatación, con un inicio de acción de 15 a 30 minutos y una duración de 4 a 6 horas. Su estructura cuaternaria le impide atravesar las membranas y absorberse de manera significativa, por lo que casi no tiene efectos sistémicos, aunque puede causar sequedad bucal, sabor amargo y, en ancianos, retención urinaria o glaucoma de ángulo cerrado si el aerosol llega al ojo. Se usa en la crisis asmática moderada o grave junto con salbutamol y en el EPOC; el tiotropio es su equivalente de acción prolongada. El bloqueo de los receptores de leucotrienos corresponde al montelukast, los agonistas beta 2 activan el AMP cíclico, el efecto antiinflamatorio es de los corticoides y la inhibición de la fosfodiesterasa es de la teofilina. Perla clínica: los antimuscarínicos de acción prolongada son más eficaces que los beta 2 de acción larga para prevenir exacerbaciones en el EPOC.",
+      "comentario": "El bromuro de ipratropio es un derivado cuaternario de amonio de la atropina, antagonista competitivo no selectivo de los receptores muscarínicos M1, M2 y M3. En las vías aéreas, la acetilcolina liberada por el nervio vago actúa sobre los receptores M3 del músculo liso y de las glándulas submucosas, y produce broncoconstricción y secreción de moco. Al bloquear este efecto, el fármaco reduce el tono colinérgico basal y produce broncodilatación, con un inicio de acción de 15 a 30 minutos y una duración de 4 a 6 horas. Su estructura cuaternaria le impide atravesar las membranas y absorberse de manera significativa, por lo que casi no tiene efectos sistémicos, aunque puede causar sequedad bucal, sabor amargo y, en ancianos, retención urinaria o glaucoma de ángulo cerrado si el aerosol llega al ojo. Se usa en la crisis asmática moderada o grave junto con salbutamol y en el EPOC; el tiotropio es su equivalente de acción prolongada. El bloqueo de los receptores de leucotrienos corresponde al montelukast, los agonistas beta 2 activan el AMP cíclico, el efecto antiinflamatorio es de los corticoides y la inhibición de la fosfodiesterasa es de la teofilina. Perla clínica: los antimuscarínicos de acción prolongada son más eficaces que los beta 2 de acción larga para prevenir exacerbaciones en el EPOC.",
+      "tema": "Mecanismo de acción del bromuro de ipratropio",
+      "año": 2018,
+      "fuentes": "Katzung Farmacología básica y clínica 16.ª ed. (2024); GOLD, informe 2025 (goldcopd.org); Goodman y Gilman, Las bases farmacológicas de la terapéutica 14.ª ed. (2023)",
+      "categoria": "Farmacología"
+    },
+    {
+      "id": "RM-CB-079",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "¿Qué sustancia química produce broncodilatación?",
+      "opciones": [
+        "Prostaglandina E2.",
+        "Prostaglandina D2.",
+        "Factor activador de plaquetas.",
+        "Histamina.",
+        "Leucotrieno D4."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El tono del músculo liso bronquial se regula por el equilibrio entre mediadores que contraen y mediadores que relajan. Los broncoconstrictores principales son la acetilcolina, la histamina, los cisteinil-leucotrienos (LTC4, LTD4 y LTE4, mil veces más potentes que la histamina), la prostaglandina D2, la PGF2α, el tromboxano A2 y el factor activador de plaquetas, que además aumenta la permeabilidad vascular y atrae eosinófilos. En cambio, la prostaglandina E2, que se une a los receptores EP2 acoplados a Gs y aumenta el AMP cíclico, relaja el músculo liso, inhibe la liberación de mediadores del mastocito y tiene efecto antiinflamatorio, por lo que es un broncoprotector endógeno. La inhibición de la ciclooxigenasa por la aspirina disminuye PGE2 y desvía el ácido araquidónico hacia los leucotrienos, lo que explica la enfermedad respiratoria exacerbada por aspirina, con asma, poliposis nasal y sensibilidad a AINE. La PGE2 también dilata los vasos y contrae el útero, y el misoprostol y la dinoprostona son sus análogos. Perla clínica: ante un asmático con pólipos nasales y crisis tras tomar AINE, se evita la aspirina y se considera un antileucotrieno.",
+      "comentario": "El tono del músculo liso bronquial se regula por el equilibrio entre mediadores que contraen y mediadores que relajan. Los broncoconstrictores principales son la acetilcolina, la histamina, los cisteinil-leucotrienos (LTC4, LTD4 y LTE4, mil veces más potentes que la histamina), la prostaglandina D2, la PGF2α, el tromboxano A2 y el factor activador de plaquetas, que además aumenta la permeabilidad vascular y atrae eosinófilos. En cambio, la prostaglandina E2, que se une a los receptores EP2 acoplados a Gs y aumenta el AMP cíclico, relaja el músculo liso, inhibe la liberación de mediadores del mastocito y tiene efecto antiinflamatorio, por lo que es un broncoprotector endógeno. La inhibición de la ciclooxigenasa por la aspirina disminuye PGE2 y desvía el ácido araquidónico hacia los leucotrienos, lo que explica la enfermedad respiratoria exacerbada por aspirina, con asma, poliposis nasal y sensibilidad a AINE. La PGE2 también dilata los vasos y contrae el útero, y el misoprostol y la dinoprostona son sus análogos. Perla clínica: ante un asmático con pólipos nasales y crisis tras tomar AINE, se evita la aspirina y se considera un antileucotrieno.",
+      "tema": "Mediador broncodilatador: prostaglandina E2",
+      "año": 2018,
+      "fuentes": "Katzung Farmacología básica y clínica 16.ª ed. (2024); Guyton y Hall, Tratado de Fisiología Médica 14.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-080",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Qué factor favorece el proceso de difusión de gases a nivel pulmonar?",
+      "opciones": [
+        "Mayor espesor de la membrana.",
+        "Mayor densidad.",
+        "Menor solubilidad.",
+        "Menor área tisular.",
+        "Mayor gradiente de presión parcial."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La difusión de gases a través de la membrana alveolocapilar es un proceso pasivo que sigue la ley de Fick: la velocidad es proporcional al área de la membrana, a la solubilidad del gas y a la diferencia de presión parcial, e inversamente proporcional al espesor de la membrana y a la raíz cuadrada de la masa molecular del gas, o su densidad. Por eso la difusión aumenta con un mayor gradiente de presión parcial, un área mayor, una membrana más delgada y un gas más soluble o menos denso, y disminuye en las circunstancias contrarias. El CO2 difunde unas 20 veces más rápido que el O2 porque es mucho más soluble, de modo que la retención de CO2 por trastorno de la difusión es rara. La superficie alveolar es de 50 a 100 m² y la membrana mide 0,5 µm, lo que permite el equilibrio en el primer tercio del recorrido capilar, de 0,75 segundos en reposo. Un espesor mayor (fibrosis pulmonar, edema), un área menor (enfisema, resección) o un gradiente reducido (altura) disminuyen la difusión y reducen la DLCO. Perla clínica: en el ejercicio intenso el tiempo capilar se acorta y un paciente con membrana engrosada desatura, por eso se pide una oximetría con esfuerzo.",
+      "comentario": "La difusión de gases a través de la membrana alveolocapilar es un proceso pasivo que sigue la ley de Fick: la velocidad es proporcional al área de la membrana, a la solubilidad del gas y a la diferencia de presión parcial, e inversamente proporcional al espesor de la membrana y a la raíz cuadrada de la masa molecular del gas, o su densidad. Por eso la difusión aumenta con un mayor gradiente de presión parcial, un área mayor, una membrana más delgada y un gas más soluble o menos denso, y disminuye en las circunstancias contrarias. El CO2 difunde unas 20 veces más rápido que el O2 porque es mucho más soluble, de modo que la retención de CO2 por trastorno de la difusión es rara. La superficie alveolar es de 50 a 100 m² y la membrana mide 0,5 µm, lo que permite el equilibrio en el primer tercio del recorrido capilar, de 0,75 segundos en reposo. Un espesor mayor (fibrosis pulmonar, edema), un área menor (enfisema, resección) o un gradiente reducido (altura) disminuyen la difusión y reducen la DLCO. Perla clínica: en el ejercicio intenso el tiempo capilar se acorta y un paciente con membrana engrosada desatura, por eso se pide una oximetría con esfuerzo.",
+      "tema": "Factor que favorece la difusión de gases en el pulmón",
+      "año": 2019,
+      "fuentes": "Guyton y Hall, Tratado de Fisiología Médica 14.ª ed. (2021)",
+      "categoria": "Fisiología"
+    },
+    {
+      "id": "RM-CB-081",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes neurotransmisores es liberado cuando en un paciente se administra anfetamina?",
+      "opciones": [
+        "Acetilcolina.",
+        "Serotonina.",
+        "Encefalina.",
+        "Dopamina.",
+        "GABA."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Las anfetaminas son aminas simpaticomiméticas de acción indirecta. Entran a la terminal presináptica a través de los transportadores de monoaminas, desplazan las catecolaminas de las vesículas por inhibición del transportador vesicular VMAT2, e invierten el sentido del transportador de dopamina (DAT), de modo que se libera dopamina al espacio sináptico además de bloquear su recaptación. También aumentan la liberación de noradrenalina y, en menor grado, de serotonina. El efecto predominante en el sistema mesolímbico es el aumento de dopamina, que explica la euforia, la hiperactividad, la disminución del apetito y del sueño, el potencial adictivo y la psicosis anfetamínica con ideas paranoides. La acetilcolina no es el mediador de su acción, la encefalina es un opioide endógeno que activa receptores opioides, y el GABA es el principal inhibidor del sistema nervioso central y se potencia con benzodiacepinas y alcohol. Si bien la serotonina participa, sobre todo con los derivados como la metilendioximetanfetamina (éxtasis), la respuesta que mejor define el mecanismo es la dopamina. La intoxicación se manifiesta con taquicardia, hipertensión, hipertermia, midriasis, agitación y convulsiones, y se trata con benzodiacepinas, enfriamiento y manejo de las complicaciones cardiovasculares. Perla clínica: el metilfenidato y la lisdexanfetamina, de uso en el trastorno por déficit de atención, comparten este mecanismo.",
+      "comentario": "Las anfetaminas son aminas simpaticomiméticas de acción indirecta. Entran a la terminal presináptica a través de los transportadores de monoaminas, desplazan las catecolaminas de las vesículas por inhibición del transportador vesicular VMAT2, e invierten el sentido del transportador de dopamina (DAT), de modo que se libera dopamina al espacio sináptico además de bloquear su recaptación. También aumentan la liberación de noradrenalina y, en menor grado, de serotonina. El efecto predominante en el sistema mesolímbico es el aumento de dopamina, que explica la euforia, la hiperactividad, la disminución del apetito y del sueño, el potencial adictivo y la psicosis anfetamínica con ideas paranoides. La acetilcolina no es el mediador de su acción, la encefalina es un opioide endógeno que activa receptores opioides, y el GABA es el principal inhibidor del sistema nervioso central y se potencia con benzodiacepinas y alcohol. Si bien la serotonina participa, sobre todo con los derivados como la metilendioximetanfetamina (éxtasis), la respuesta que mejor define el mecanismo es la dopamina. La intoxicación se manifiesta con taquicardia, hipertensión, hipertermia, midriasis, agitación y convulsiones, y se trata con benzodiacepinas, enfriamiento y manejo de las complicaciones cardiovasculares. Perla clínica: el metilfenidato y la lisdexanfetamina, de uso en el trastorno por déficit de atención, comparten este mecanismo.",
+      "tema": "Neurotransmisor liberado por la anfetamina",
+      "año": 2015,
+      "fuentes": "Goodman y Gilman, Las bases farmacológicas de la terapéutica 14.ª ed. (2023); Katzung, Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Farmacología",
+      "nota_revision": "Bloque dañado por OCR; opciones y clave D tomadas del enunciado y del comentario del libro."
+    },
+    {
+      "id": "RM-CB-082",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿A qué segmento del encéfalo corresponde el diencéfalo?",
+      "opciones": [
+        "Romboencéfalo.",
+        "Prosencéfalo.",
+        "Mesencéfalo.",
+        "Metencéfalo.",
+        "Mielencéfalo."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "En la cuarta semana del desarrollo el extremo craneal del tubo neural forma tres vesículas encefálicas primarias: prosencéfalo (cerebro anterior), mesencéfalo (cerebro medio) y rombencéfalo (cerebro posterior). Hacia la quinta semana se subdividen en cinco vesículas secundarias. El prosencéfalo origina el telencéfalo, que formará los hemisferios cerebrales, el cuerpo estriado y los ventrículos laterales, y el diencéfalo, del cual derivan el tálamo, el hipotálamo, el epitálamo (glándula pineal), el subtálamo, la neurohipófisis y las vesículas ópticas, con el tercer ventrículo como cavidad. El mesencéfalo no se divide y conserva su nombre, con el acueducto de Silvio. El rombencéfalo origina el metencéfalo (protuberancia y cerebelo) y el mielencéfalo (bulbo raquídeo), con el cuarto ventrículo. Por eso el diencéfalo pertenece al prosencéfalo, y las demás opciones corresponden a otros segmentos. Las alteraciones en el cierre del prosencéfalo o en su división producen la holoprosencefalia, asociada a las trisomías 13 y 18, a mutaciones del gen SHH y a la diabetes materna, y se manifiesta con malformaciones faciales de la línea media como ciclopía y labio hendido. Perla clínica: las flexuras cefálica, pontina y cervical determinan la forma del tubo y la ubicación de los ventrículos.",
+      "comentario": "En la cuarta semana del desarrollo el extremo craneal del tubo neural forma tres vesículas encefálicas primarias: prosencéfalo (cerebro anterior), mesencéfalo (cerebro medio) y rombencéfalo (cerebro posterior). Hacia la quinta semana se subdividen en cinco vesículas secundarias. El prosencéfalo origina el telencéfalo, que formará los hemisferios cerebrales, el cuerpo estriado y los ventrículos laterales, y el diencéfalo, del cual derivan el tálamo, el hipotálamo, el epitálamo (glándula pineal), el subtálamo, la neurohipófisis y las vesículas ópticas, con el tercer ventrículo como cavidad. El mesencéfalo no se divide y conserva su nombre, con el acueducto de Silvio. El rombencéfalo origina el metencéfalo (protuberancia y cerebelo) y el mielencéfalo (bulbo raquídeo), con el cuarto ventrículo. Por eso el diencéfalo pertenece al prosencéfalo, y las demás opciones corresponden a otros segmentos. Las alteraciones en el cierre del prosencéfalo o en su división producen la holoprosencefalia, asociada a las trisomías 13 y 18, a mutaciones del gen SHH y a la diabetes materna, y se manifiesta con malformaciones faciales de la línea media como ciclopía y labio hendido. Perla clínica: las flexuras cefálica, pontina y cervical determinan la forma del tubo y la ubicación de los ventrículos.",
+      "tema": "Diencéfalo y vesículas encefálicas",
+      "año": 2015,
+      "fuentes": "Langman, Embriología médica 14.ª ed. (2019); Moore, Embriología clínica 11.ª ed. (2020)",
+      "categoria": "Embriología",
+      "nota_revision": "Bloque dañado: la clave no venía extraída; B (prosencéfalo) sale del comentario del libro, que describe el origen del diencéfalo."
+    },
+    {
+      "id": "RM-CB-083",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "En la eritropoyesis fetal, la producción de la hormona eritropoyetina:",
+      "opciones": [
+        "Se inicia a partir del 3.er trimestre.",
+        "Ocurre a nivel del túbulo proximal renal.",
+        "Se inhibe por el factor inducible por hipoxia.",
+        "No ocurre pues es suficiente la materna.",
+        "Se da en células de origen monocitario hepáticas."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La eritropoyetina es una glucoproteína de aproximadamente 34 kDa cuya síntesis responde a la hipoxia tisular. El factor inducible por hipoxia (HIF-2α) la estimula, porque en normoxia la prolil-hidroxilasa lo marca para degradación; por eso la opción que habla de inhibición es falsa. Durante la vida fetal la eritropoyesis se desplaza del saco vitelino al hígado y luego a la médula ósea, y el principal sitio de producción de la hormona es el hígado, con participación de hepatocitos y de células no parenquimatosas hepáticas, por lo cual la clave indica el origen hepático. Después del nacimiento, y progresivamente en las primeras semanas, el riñón, a través de las células intersticiales peritubulares corticales, pasa a ser la fuente dominante (cerca de 90 %), y esto explica la anemia de la enfermedad renal crónica. La eritropoyetina no atraviesa la placenta, así que la hormona materna no sustituye al feto, y su producción empieza mucho antes del tercer trimestre. En el prematuro, el cambio hepático-renal se retrasa y contribuye a la anemia de la prematuridad. Perla clínica: los agentes estimulantes de la eritropoyesis tratan la anemia de la enfermedad renal crónica y los inhibidores de la prolil-hidroxilasa, como el roxadustat, actúan estabilizando HIF.",
+      "comentario": "La eritropoyetina es una glucoproteína de aproximadamente 34 kDa cuya síntesis responde a la hipoxia tisular. El factor inducible por hipoxia (HIF-2α) la estimula, porque en normoxia la prolil-hidroxilasa lo marca para degradación; por eso la opción que habla de inhibición es falsa. Durante la vida fetal la eritropoyesis se desplaza del saco vitelino al hígado y luego a la médula ósea, y el principal sitio de producción de la hormona es el hígado, con participación de hepatocitos y de células no parenquimatosas hepáticas, por lo cual la clave indica el origen hepático. Después del nacimiento, y progresivamente en las primeras semanas, el riñón, a través de las células intersticiales peritubulares corticales, pasa a ser la fuente dominante (cerca de 90 %), y esto explica la anemia de la enfermedad renal crónica. La eritropoyetina no atraviesa la placenta, así que la hormona materna no sustituye al feto, y su producción empieza mucho antes del tercer trimestre. En el prematuro, el cambio hepático-renal se retrasa y contribuye a la anemia de la prematuridad. Perla clínica: los agentes estimulantes de la eritropoyesis tratan la anemia de la enfermedad renal crónica y los inhibidores de la prolil-hidroxilasa, como el roxadustat, actúan estabilizando HIF.",
+      "tema": "Sitio de producción de eritropoyetina en la vida fetal",
+      "año": 2018,
+      "fuentes": "Guyton y Hall Tratado de Fisiología Médica 14.ª ed. (2021); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Fisiología",
+      "nota_revision": "La redacción de la opción E («células de origen monocitario hepáticas») es imprecisa, pues la fuente fetal es el hepatocito y otras células hepáticas; se mantiene la clave del libro (E) por ser la única que ubica la producción fetal en el hígado."
+    },
+    {
+      "id": "RM-CB-084",
+      "especialidad": "Ciencias Básicas",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Lactante de 1 mes 15 días presenta cuadro febril por proceso infeccioso viral, se le prescribe paracetamol. ¿Cuál es la dosis mínima potencialmente tóxica para este lactante?",
+      "opciones": [
+        "25 mg/kg.",
+        "75 mg/kg.",
+        "200 mg/kg.",
+        "50 mg/kg.",
+        "150 mg/kg."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paracetamol se metaboliza sobre todo por glucuronidación y sulfatación, y una fracción pequeña pasa por el citocromo P450 2E1 a N-acetil-p-benzoquinona imina (NAPQI), tóxico para el hepatocito, que se neutraliza con glutatión. Cuando se agotan las reservas de glutatión, el NAPQI produce necrosis centrolobulillar. En el lactante menor de 3 meses las vías de conjugación son inmaduras, el aclaramiento es menor y la vida media se prolonga, por lo cual la dosis diaria máxima se limita a unos 60 a 75 mg/kg al día, repartida en tomas cada 6 a 8 horas, y exceder ese valor de forma repetida puede causar hepatotoxicidad, de ahí que 75 mg/kg sea el umbral que el examen considera. La dosis tóxica aguda del adulto y del niño mayor es 150 mg/kg o más, y esa cifra, presente en la opción E, no es aplicable al lactante muy pequeño. Las cifras de 25 o 50 mg/kg están dentro del rango terapéutico (10 a 15 mg/kg por dosis). El tratamiento de la intoxicación es el carbón activado si es precoz y la N-acetilcisteína, guiada por el nomograma de Rumack-Matthew a partir de las 4 horas de la ingesta aguda. Perla clínica: la ingesta crónica supraterapéutica tiene poca correlación con el nomograma, por lo que se tratan las transaminasas elevadas.",
+      "comentario": "El paracetamol se metaboliza sobre todo por glucuronidación y sulfatación, y una fracción pequeña pasa por el citocromo P450 2E1 a N-acetil-p-benzoquinona imina (NAPQI), tóxico para el hepatocito, que se neutraliza con glutatión. Cuando se agotan las reservas de glutatión, el NAPQI produce necrosis centrolobulillar. En el lactante menor de 3 meses las vías de conjugación son inmaduras, el aclaramiento es menor y la vida media se prolonga, por lo cual la dosis diaria máxima se limita a unos 60 a 75 mg/kg al día, repartida en tomas cada 6 a 8 horas, y exceder ese valor de forma repetida puede causar hepatotoxicidad, de ahí que 75 mg/kg sea el umbral que el examen considera. La dosis tóxica aguda del adulto y del niño mayor es 150 mg/kg o más, y esa cifra, presente en la opción E, no es aplicable al lactante muy pequeño. Las cifras de 25 o 50 mg/kg están dentro del rango terapéutico (10 a 15 mg/kg por dosis). El tratamiento de la intoxicación es el carbón activado si es precoz y la N-acetilcisteína, guiada por el nomograma de Rumack-Matthew a partir de las 4 horas de la ingesta aguda. Perla clínica: la ingesta crónica supraterapéutica tiene poca correlación con el nomograma, por lo que se tratan las transaminasas elevadas.",
+      "tema": "Dosis tóxica de paracetamol en el lactante",
+      "año": 2019,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Farmacología",
+      "nota_revision": "El umbral clásico de toxicidad aguda en niños es 150 mg/kg (opción E); la clave del libro (B, 75 mg/kg) se refiere a la dosis diaria máxima en el lactante pequeño. Se mantiene B; el coordinador puede revisarla."
     }
   ]
 }

@@ -3920,6 +3920,138 @@
       "año": 2019,
       "fuentes": "Goodman y Gilman Bases farmacológicas de la terapéutica 14.ª ed. (2023); Harrison Principios de Medicina Interna 21.ª ed. (2022); Goldfrank Toxicologic Emergencies 11.ª ed. (2019)",
       "categoria": "Toxicología"
+    },
+    {
+      "id": "RM-INF-072",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "¿En cuál de las siguientes patologías se produce el síndrome pseudoulceroso?",
+      "opciones": [
+        "Giardiasis.",
+        "Amebiasis.",
+        "Fiebre tifoidea.",
+        "Shigelosis.",
+        "Cólera."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Giardia lamblia es un protozoo flagelado que se adquiere por ingesta de quistes en agua o alimentos contaminados y coloniza el duodeno y el yeyuno proximal. Cuando la carga de trofozoítos es alta, tapizan la mucosa, alteran el borde en cepillo y producen malabsorción de grasas, esteatorrea, distensión, flatulencia y diarrea voluminosa, y en algunos pacientes dolor epigástrico, náuseas y saciedad precoz que imitan a una úlcera duodenal, sin lesión ulcerosa en la endoscopía: es el síndrome pseudoulceroso. El diagnóstico se hace con antígenos en heces o PCR, más sensibles que el examen seriado de heces, y a veces con búsqueda de trofozoítos en aspirado duodenal. El tratamiento es con tinidazol en dosis única o nitazoxanida y metronidazol como alternativas. La amebiasis causa colitis con disentería y absceso hepático; la fiebre tifoidea produce fiebre prolongada, roséola y disociación pulso-temperatura; la shigelosis es una disentería con tenesmo; y el cólera ocasiona diarrea acuosa en agua de arroz sin dolor. Perla clínica: ante diarrea crónica con pérdida de peso en un viajero, un inmunodeficiente de inmunoglobulina A o un niño de guardería, se piensa primero en giardiasis.",
+      "comentario": "Giardia lamblia es un protozoo flagelado que se adquiere por ingesta de quistes en agua o alimentos contaminados y coloniza el duodeno y el yeyuno proximal. Cuando la carga de trofozoítos es alta, tapizan la mucosa, alteran el borde en cepillo y producen malabsorción de grasas, esteatorrea, distensión, flatulencia y diarrea voluminosa, y en algunos pacientes dolor epigástrico, náuseas y saciedad precoz que imitan a una úlcera duodenal, sin lesión ulcerosa en la endoscopía: es el síndrome pseudoulceroso. El diagnóstico se hace con antígenos en heces o PCR, más sensibles que el examen seriado de heces, y a veces con búsqueda de trofozoítos en aspirado duodenal. El tratamiento es con tinidazol en dosis única o nitazoxanida y metronidazol como alternativas. La amebiasis causa colitis con disentería y absceso hepático; la fiebre tifoidea produce fiebre prolongada, roséola y disociación pulso-temperatura; la shigelosis es una disentería con tenesmo; y el cólera ocasiona diarrea acuosa en agua de arroz sin dolor. Perla clínica: ante diarrea crónica con pérdida de peso en un viajero, un inmunodeficiente de inmunoglobulina A o un niño de guardería, se piensa primero en giardiasis.",
+      "tema": "Síndrome pseudoulceroso: giardiasis",
+      "año": 2014,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); CDC, Giardiasis (Giardia duodenalis): guía clínica y tratamiento, actualización vigente; Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Parasitología",
+      "nota_revision": "Enunciado y opciones reconstruidos desde la imagen de la página (pág. del libro 64); clave A coincide con el libro."
+    },
+    {
+      "id": "RM-INF-073",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál de los antibióticos es más eficaz para el tratamiento de las infecciones intestinales causadas por Clostridium difficile?",
+      "opciones": [
+        "Vancomicina.",
+        "Bacitracina.",
+        "Ácido fusídico.",
+        "Eritromicina.",
+        "Nitazoxanida."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Clostridioides difficile es un bacilo grampositivo anaerobio esporulado cuya colonización aumenta tras antibióticos de amplio espectro, como clindamicina, cefalosporinas y fluoroquinolonas, por disrupción de la microbiota. Sus toxinas A y B causan diarrea y colitis pseudomembranosa, que puede progresar a megacolon tóxico. El diagnóstico combina un cuadro compatible con una prueba de heces, idealmente un algoritmo de glutamato deshidrogenasa más toxina o PCR. En las guías IDSA/SHEA 2021 y ACG 2021 el tratamiento de elección del primer episodio es la fidaxomicina oral por 10 días; la vancomicina oral 125 mg cada 6 horas durante 10 días es una alternativa aceptable y sigue siendo la opción de referencia disponible en nuestro medio; en la enfermedad fulminante se emplean dosis altas de vancomicina oral más metronidazol intravenoso. El metronidazol dejó de ser primera línea por su menor eficacia. La bacitracina, el ácido fusídico y la eritromicina no tienen evidencia, y la nitazoxanida solo es alternativa con datos limitados. Perla clínica: se debe suspender el antibiótico desencadenante, evitar antiperistálticos y considerar bezlotoxumab o trasplante de microbiota fecal en recurrencias.",
+      "comentario": "Clostridioides difficile es un bacilo grampositivo anaerobio esporulado cuya colonización aumenta tras antibióticos de amplio espectro, como clindamicina, cefalosporinas y fluoroquinolonas, por disrupción de la microbiota. Sus toxinas A y B causan diarrea y colitis pseudomembranosa, que puede progresar a megacolon tóxico. El diagnóstico combina un cuadro compatible con una prueba de heces, idealmente un algoritmo de glutamato deshidrogenasa más toxina o PCR. En las guías IDSA/SHEA 2021 y ACG 2021 el tratamiento de elección del primer episodio es la fidaxomicina oral por 10 días; la vancomicina oral 125 mg cada 6 horas durante 10 días es una alternativa aceptable y sigue siendo la opción de referencia disponible en nuestro medio; en la enfermedad fulminante se emplean dosis altas de vancomicina oral más metronidazol intravenoso. El metronidazol dejó de ser primera línea por su menor eficacia. La bacitracina, el ácido fusídico y la eritromicina no tienen evidencia, y la nitazoxanida solo es alternativa con datos limitados. Perla clínica: se debe suspender el antibiótico desencadenante, evitar antiperistálticos y considerar bezlotoxumab o trasplante de microbiota fecal en recurrencias.",
+      "tema": "Tratamiento antibiótico de la infección por Clostridioides difficile",
+      "año": 2015,
+      "fuentes": "IDSA/SHEA Focused Update C. difficile 2021 (Johnson S et al., Clin Infect Dis 2021;73:e1029-e1044); ACG Clinical Guidelines C. difficile (Kelly CR et al., Am J Gastroenterol 2021;116:1124-1147); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Gastrointestinal",
+      "nota_revision": "Repite RM-GAS-008 (misma clave A). La opción A (vancomicina) sigue siendo correcta frente a las demás, aunque la guía vigente prefiere fidaxomicina en el primer episodio."
+    },
+    {
+      "id": "RM-INF-074",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Gestante de 19 años acude a consulta externa por fiebre continua de 39 °C que comenzó ese mismo día. Refiere mialgia intensa en todo el cuerpo y dolor retroorbitario. Hace 3 días estuvo en Tumbes visitando a un familiar. La fiebre cae luego de terapia antifebril, pero no llega a la normalidad. ¿Cuál es la indicación a seguir?",
+      "opciones": [
+        "Dar de alta con indicaciones de AINES.",
+        "Dar de alta con indicaciones de paracetamol.",
+        "Prescribir 3 litros de agua y citar al día siguiente para análisis.",
+        "Dar de alta y solo prescribir medios físicos.",
+        "Internamiento con vigilancia continua."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La fiebre de inicio brusco con mialgias y dolor retroorbitario en una persona que visitó una zona endémica (Tumbes) corresponde a un caso probable de dengue, enfermedad viral transmitida por Aedes aegypti. Su evolución tiene tres fases: febril, crítica (entre los días 3 y 7, cuando cae la fiebre y pueden aparecer fuga plasmática, hemoconcentración, plaquetopenia y choque) y de recuperación. La gestación es una condición de riesgo que clasifica a la paciente en el grupo B de la OMS (con comorbilidad o riesgo social), no en el A de manejo ambulatorio, por lo que requiere hospitalización u observación estrecha, con hemograma seriado, hematocrito y plaquetas, vigilancia de signos de alarma (dolor abdominal, vómitos persistentes, sangrado, letargia) y control de la salud fetal. El dengue en el embarazo aumenta el riesgo de parto prematuro, hemorragia y transmisión vertical. Los AINES y la aspirina están contraindicados por el riesgo hemorrágico; solo se admite paracetamol. Un alta con paracetamol o medios físicos expondría a la paciente a la fase crítica sin supervisión, y la hidratación oral sin vigilancia es insuficiente. Perla clínica: la caída de la fiebre no indica mejoría sino el inicio de la fase crítica, y las plaquetas bajas y el hematocrito en ascenso son las alertas.",
+      "comentario": "La fiebre de inicio brusco con mialgias y dolor retroorbitario en una persona que visitó una zona endémica (Tumbes) corresponde a un caso probable de dengue, enfermedad viral transmitida por Aedes aegypti. Su evolución tiene tres fases: febril, crítica (entre los días 3 y 7, cuando cae la fiebre y pueden aparecer fuga plasmática, hemoconcentración, plaquetopenia y choque) y de recuperación. La gestación es una condición de riesgo que clasifica a la paciente en el grupo B de la OMS (con comorbilidad o riesgo social), no en el A de manejo ambulatorio, por lo que requiere hospitalización u observación estrecha, con hemograma seriado, hematocrito y plaquetas, vigilancia de signos de alarma (dolor abdominal, vómitos persistentes, sangrado, letargia) y control de la salud fetal. El dengue en el embarazo aumenta el riesgo de parto prematuro, hemorragia y transmisión vertical. Los AINES y la aspirina están contraindicados por el riesgo hemorrágico; solo se admite paracetamol. Un alta con paracetamol o medios físicos expondría a la paciente a la fase crítica sin supervisión, y la hidratación oral sin vigilancia es insuficiente. Perla clínica: la caída de la fiebre no indica mejoría sino el inicio de la fase crítica, y las plaquetas bajas y el hematocrito en ascenso son las alertas.",
+      "tema": "Gestante con síndrome febril tras viaje a zona de dengue",
+      "año": 2015,
+      "fuentes": "OMS, Dengue: guías para el diagnóstico, tratamiento, prevención y control (2009); MINSA, NTS N.º 211-MINSA/DGIESP-2024, Atención integral del paciente con dengue (RM 175-2024/MINSA); Williams Obstetricia 26.ª ed. (2022)",
+      "categoria": "Dengue en gestantes",
+      "nota_revision": "El bloque trae pegado texto de otra pregunta (factor de riesgo para transferencia, n.º 8); se usó solo la pregunta de la gestante febril, clave E. La NTS 211-2024 tuvo una modificación parcial en 2025 (RM 473-2025/MINSA, deroga el anexo 04); se cita sin detallar anexos."
+    },
+    {
+      "id": "RM-INF-075",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Paciente de 20 años, posterior a discusión con su pareja, ingiere 30 tabletas de clonazepam de 2 mg. ¿Cuál es el antídoto de elección?",
+      "opciones": [
+        "Flumazenilo.",
+        "Atropina.",
+        "Pralidoxima.",
+        "Naloxona.",
+        "Carbón activado."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El clonazepam es una benzodiacepina de acción prolongada que potencia al ácido gamma-aminobutírico sobre el receptor GABA-A. La sobredosis aislada produce somnolencia, ataxia, disartria, hipotonía y coma superficial, con depresión respiratoria poco frecuente salvo que se asocie con alcohol, opioides u otros depresores. El tratamiento es de soporte: vía aérea, oxigenación y ventilación, monitorización y observación prolongada por su larga vida media. El flumazenilo, un antagonista competitivo del sitio benzodiacepínico del receptor GABA-A, revierte la sedación y es el antídoto, pero su uso se limita a casos con depresión respiratoria o coma grave en pacientes sin dependencia ni coingestión de proconvulsivantes (antidepresivos tricíclicos, cocaína, isoniacida), ni epilepsia, porque puede precipitar convulsiones y un síndrome de abstinencia; se titula en dosis de 0,2 mg intravenosos, y su efecto dura menos que el del clonazepam, por lo que puede requerir redosificación. La atropina y la pralidoxima son antídotos de los organofosforados, la naloxona de los opioides y el carbón activado es un descontaminante que solo se considera en la primera hora con vía aérea protegida; no es un antídoto. Perla clínica: en una ingestión voluntaria, siempre se debe investigar la coingestión de paracetamol y de otras sustancias.",
+      "comentario": "El clonazepam es una benzodiacepina de acción prolongada que potencia al ácido gamma-aminobutírico sobre el receptor GABA-A. La sobredosis aislada produce somnolencia, ataxia, disartria, hipotonía y coma superficial, con depresión respiratoria poco frecuente salvo que se asocie con alcohol, opioides u otros depresores. El tratamiento es de soporte: vía aérea, oxigenación y ventilación, monitorización y observación prolongada por su larga vida media. El flumazenilo, un antagonista competitivo del sitio benzodiacepínico del receptor GABA-A, revierte la sedación y es el antídoto, pero su uso se limita a casos con depresión respiratoria o coma grave en pacientes sin dependencia ni coingestión de proconvulsivantes (antidepresivos tricíclicos, cocaína, isoniacida), ni epilepsia, porque puede precipitar convulsiones y un síndrome de abstinencia; se titula en dosis de 0,2 mg intravenosos, y su efecto dura menos que el del clonazepam, por lo que puede requerir redosificación. La atropina y la pralidoxima son antídotos de los organofosforados, la naloxona de los opioides y el carbón activado es un descontaminante que solo se considera en la primera hora con vía aérea protegida; no es un antídoto. Perla clínica: en una ingestión voluntaria, siempre se debe investigar la coingestión de paracetamol y de otras sustancias.",
+      "tema": "Intoxicación por clonazepam: flumazenilo",
+      "año": 2015,
+      "fuentes": "Penninga EI y cols. Adverse events associated with flumazenil treatment for the management of suspected benzodiazepine intoxication (Basic Clin Pharmacol Toxicol 2016); Zamani N y cols. Strategies for the treatment of acute benzodiazepine toxicity in a clinical setting: the role of antidotes (Expert Opin Drug Metab Toxicol 2022)",
+      "categoria": "Toxicología",
+      "nota_revision": "Bloque dañado; opciones reconstruidas con la imagen y clave A del libro. Aclaro que, en la práctica, el flumazenilo no se da de rutina por el riesgo de convulsiones."
+    },
+    {
+      "id": "RM-INF-076",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Paciente de 45 años presenta abruptamente deposiciones líquidas blanquecinas frecuentes, tenesmo y dolor abdominal precedido de vómitos. Examen: signos de deshidratación moderada. Es diagnosticado como infección por cólera. ¿Cuál es el tratamiento inmediato?",
+      "opciones": [
+        "Controlar el proceso infeccioso.",
+        "Mejorar la dieta proteica.",
+        "Localizar el foco epidémico.",
+        "Restaurar pérdida de líquidos.",
+        "Lavado frecuente de manos."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cólera es una diarrea secretora aguda causada por Vibrio cholerae O1 u O139. La toxina colérica activa de forma permanente la adenilato ciclasa del enterocito, con salida masiva de cloruro y agua hacia la luz intestinal, sin invasión de la mucosa. Produce deposiciones en «agua de arroz», sin sangre ni fiebre alta, con vómitos, calambres y un gasto que puede superar 1 L por hora, con hipovolemia, acidosis metabólica con anión gap normal e hipopotasemia. Por eso la mortalidad depende de la velocidad de la reposición hídrica, y no del antibiótico. La OMS clasifica la deshidratación y recomienda la solución de rehidratación oral en los casos leves y moderados, e infusión intravenosa de lactato de Ringer en los graves o si hay vómito incoercible, con reposición del volumen perdido más el mantenimiento. Los antibióticos (azitromicina en dosis única, doxiciclina en adultos) son un complemento que reduce el volumen y la duración de la diarrea. Mejorar la dieta, localizar el foco epidémico y el lavado de manos son medidas de prevención y control, pero no el manejo inmediato del paciente. Perla clínica: una prueba rápida y el cultivo en agar TCBS confirman el diagnóstico, pero el tratamiento no debe esperar los resultados.",
+      "comentario": "El cólera es una diarrea secretora aguda causada por Vibrio cholerae O1 u O139. La toxina colérica activa de forma permanente la adenilato ciclasa del enterocito, con salida masiva de cloruro y agua hacia la luz intestinal, sin invasión de la mucosa. Produce deposiciones en «agua de arroz», sin sangre ni fiebre alta, con vómitos, calambres y un gasto que puede superar 1 L por hora, con hipovolemia, acidosis metabólica con anión gap normal e hipopotasemia. Por eso la mortalidad depende de la velocidad de la reposición hídrica, y no del antibiótico. La OMS clasifica la deshidratación y recomienda la solución de rehidratación oral en los casos leves y moderados, e infusión intravenosa de lactato de Ringer en los graves o si hay vómito incoercible, con reposición del volumen perdido más el mantenimiento. Los antibióticos (azitromicina en dosis única, doxiciclina en adultos) son un complemento que reduce el volumen y la duración de la diarrea. Mejorar la dieta, localizar el foco epidémico y el lavado de manos son medidas de prevención y control, pero no el manejo inmediato del paciente. Perla clínica: una prueba rápida y el cultivo en agar TCBS confirman el diagnóstico, pero el tratamiento no debe esperar los resultados.",
+      "tema": "Cólera: tratamiento inmediato con rehidratación",
+      "año": 2015,
+      "fuentes": "Clemens JD y cols. Cholera (Lancet 2017); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Gastroenterología infecciosa",
+      "nota_revision": "Bloque dañado; opciones y clave D reconstruidas con la imagen del libro (Respuesta D). Se citan los antibióticos como complemento; no se verificó una guía peruana específica de cólera."
+    },
+    {
+      "id": "RM-INF-077",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "En una intoxicación por paracetamol, ¿cuál es el tratamiento indicado si se inicia después de 8 horas de la ingesta?",
+      "opciones": [
+        "Carbón activado.",
+        "N-acetilcisteína.",
+        "Piridoxina.",
+        "Pralidoxima.",
+        "Furosemida."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El paracetamol se metaboliza en el hígado sobre todo por glucuronidación y sulfatación; una fracción pequeña es oxidada por el citocromo P450 2E1 a N-acetil-p-benzoquinona imina (NAPQI), que normalmente se neutraliza con glutatión. En la sobredosis (más de 150 mg/kg o más de 7,5 a 10 g en el adulto) se agota el glutatión y NAPQI se une a proteínas hepatocelulares, con necrosis centrolobulillar. Clínicamente hay una fase inicial asintomática o con náuseas, una fase hepática entre 24 y 72 horas con elevación de transaminasas, y una fase de falla hepática fulminante con encefalopatía y coagulopatía. El antídoto es la N-acetilcisteína, que repone el glutatión; su eficacia es máxima si se inicia dentro de las 8 a 10 horas, pero conserva beneficio si se da más tarde, por lo que no se debe esperar el nivel sérico cuando el tiempo es mayor o incierto. El carbón activado solo sirve en la primera hora o dos tras la ingestión; la piridoxina se usa en isoniazida, la pralidoxima en organofosforados y la furosemida no es un antídoto. Se interpreta el nivel con el nomograma de Rumack-Matthew a partir de las 4 horas. Perla clínica: ante una ingestión de hora desconocida, tratar siempre con N-acetilcisteína.",
+      "comentario": "El paracetamol se metaboliza en el hígado sobre todo por glucuronidación y sulfatación; una fracción pequeña es oxidada por el citocromo P450 2E1 a N-acetil-p-benzoquinona imina (NAPQI), que normalmente se neutraliza con glutatión. En la sobredosis (más de 150 mg/kg o más de 7,5 a 10 g en el adulto) se agota el glutatión y NAPQI se une a proteínas hepatocelulares, con necrosis centrolobulillar. Clínicamente hay una fase inicial asintomática o con náuseas, una fase hepática entre 24 y 72 horas con elevación de transaminasas, y una fase de falla hepática fulminante con encefalopatía y coagulopatía. El antídoto es la N-acetilcisteína, que repone el glutatión; su eficacia es máxima si se inicia dentro de las 8 a 10 horas, pero conserva beneficio si se da más tarde, por lo que no se debe esperar el nivel sérico cuando el tiempo es mayor o incierto. El carbón activado solo sirve en la primera hora o dos tras la ingestión; la piridoxina se usa en isoniazida, la pralidoxima en organofosforados y la furosemida no es un antídoto. Se interpreta el nivel con el nomograma de Rumack-Matthew a partir de las 4 horas. Perla clínica: ante una ingestión de hora desconocida, tratar siempre con N-acetilcisteína.",
+      "tema": "Intoxicación por paracetamol: N-acetilcisteína después de 8 horas",
+      "año": 2016,
+      "fuentes": "Chiew AL y cols., Updated guidelines for the management of paracetamol poisoning in Australia and New Zealand (Med J Aust 2020); Heard KJ, Acetylcysteine for acetaminophen poisoning (N Engl J Med 2008)",
+      "categoria": "Toxicología",
+      "nota_revision": "Bloque dañado; la clave B se tomó de la imagen de la página («Respuesta B»). El enunciado trae basura OCR («~ www.estud»), eliminada."
     }
   ]
 }

@@ -2518,6 +2518,27 @@
       "tema": "Shock cardiogénico: fármaco inicial",
       "año": 2017,
       "fuentes": "ESC, Guías de insuficiencia cardíaca aguda y crónica (2021, actualización 2023); AHA/ACC/HFSA, insuficiencia cardíaca (2022); Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+    },
+    {
+      "id": "RM-CAR-046",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de embolia de origen cardíaco?",
+      "opciones": [
+        "Fibrilación auricular.",
+        "Infarto agudo de miocardio.",
+        "Miocardiopatía dilatada.",
+        "Endocarditis infecciosa subaguda.",
+        "Insuficiencia aórtica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La embolia de origen cardíaco ocurre cuando un trombo formado en una cavidad del corazón, o una vegetación valvular, se desprende y obstruye una arteria distal, sobre todo cerebral, esplénica, renal o de las extremidades. La fibrilación auricular es la causa dominante, responsable de cerca de la mitad de los eventos cardioembólicos. La contracción auricular ineficaz genera estasis, sobre todo en la orejuela izquierda, y allí se forma el trombo según la tríada de Virchow. El riesgo se estratifica con el puntaje CHA2DS2-VASc, y las guías 2023 ACC/AHA/ACCP/HRS y 2024 ESC recomiendan anticoagulación oral, preferentemente con anticoagulantes directos, desde 2 puntos en varones y 3 en mujeres, y ya no distinguen entre fibrilación paroxística, persistente o permanente. El infarto con trombo mural anterior y la miocardiopatía dilatada con fracción de eyección muy baja son fuentes menos frecuentes. La endocarditis produce émbolos sépticos y la insuficiencia aórtica casi no embolia. Perla clínica: ante un ictus embólico sin causa evidente, se debe buscar fibrilación auricular oculta con monitoreo prolongado del ritmo, porque su detección cambia el tratamiento de prevención secundaria de antiagregante a anticoagulante.",
+      "comentario": "La embolia de origen cardíaco ocurre cuando un trombo formado en una cavidad del corazón, o una vegetación valvular, se desprende y obstruye una arteria distal, sobre todo cerebral, esplénica, renal o de las extremidades. La fibrilación auricular es la causa dominante, responsable de cerca de la mitad de los eventos cardioembólicos. La contracción auricular ineficaz genera estasis, sobre todo en la orejuela izquierda, y allí se forma el trombo según la tríada de Virchow. El riesgo se estratifica con el puntaje CHA2DS2-VASc, y las guías 2023 ACC/AHA/ACCP/HRS y 2024 ESC recomiendan anticoagulación oral, preferentemente con anticoagulantes directos, desde 2 puntos en varones y 3 en mujeres, y ya no distinguen entre fibrilación paroxística, persistente o permanente. El infarto con trombo mural anterior y la miocardiopatía dilatada con fracción de eyección muy baja son fuentes menos frecuentes. La endocarditis produce émbolos sépticos y la insuficiencia aórtica casi no embolia. Perla clínica: ante un ictus embólico sin causa evidente, se debe buscar fibrilación auricular oculta con monitoreo prolongado del ritmo, porque su detección cambia el tratamiento de prevención secundaria de antiagregante a anticoagulante.",
+      "tema": "Causa más frecuente de embolia de origen cardíaco",
+      "año": 2016,
+      "fuentes": "2023 ACC/AHA/ACCP/HRS Guideline for AF (Joglar JA et al., Circulation 2024;149:e1-e156); 2024 ESC Guidelines for AF (Van Gelder IC et al., Eur Heart J 2024;45:3314-3414); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "nota_revision": "Repite RM-CAR-022 (misma clave A). El comentario aborda el enfoque de riesgo y anticoagulación."
     }
   ]
 }

@@ -1724,6 +1724,182 @@
       "año": 2018,
       "fuentes": "AAO-HNSF, Clinical Practice Guideline: Tonsillectomy in Children (Update), Otolaryngol Head Neck Surg 2019; Cummings Otolaryngology 7.ª ed. (2021); Nelson Tratado de Pediatría 22.ª ed. (2024)",
       "categoria": "Otorrinolaringología"
+    },
+    {
+      "id": "RM-OFT-031",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Mujer de 90 años con epistaxis producto de una caída en su domicilio. El especialista realiza rinoscopía sin encontrar punto de sangrado, por lo que utiliza un tapón de algodón con anestésico local y adrenalina en el vestíbulo nasal. A los 20 minutos, al retirar el tapón, se produce sangrado rutilante y más profuso, con deglución del sangrado. ¿Cuál es la conducta a seguir?",
+      "opciones": [
+        "Taponamiento anterior con H2O2.",
+        "Electrocoagulación.",
+        "Taponamiento posterior.",
+        "Hemostáticos parenterales.",
+        "Cauterización química."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La epistaxis se clasifica en anterior, originada casi siempre en el plexo de Kiesselbach del área de Little, y posterior, que proviene de ramas de la arteria esfenopalatina cerca de la pared lateral y el techo de la fosa. El diagnóstico se apoya en el punto de sangrado visible: en la rinoscopía anterior se trata con presión sostenida sobre las alas nasales durante 10 a 15 minutos, vasoconstrictor tópico, cauterización química o eléctrica del vaso visible y, si falla, taponamiento anterior. Aquí no se visualizó ningún punto sangrante, el sangrado persistió tras el tapón anterior y el paciente deglute la sangre por la orofaringe, hallazgos que apuntan a un origen posterior, por lo que corresponde el taponamiento posterior con sonda con balón o taponamiento con gasa, con hospitalización y vigilancia. El tapón anterior con agua oxigenada, la cauterización y la electrocoagulación requieren un punto anterior visible; los hemostáticos parenterales no controlan un sangrado arterial. Perla clínica: en el anciano se debe evaluar hipertensión, anticoagulantes y hemodinamia, y considerar la embolización o ligadura de la esfenopalatina si el taponamiento falla.",
+      "comentario": "La epistaxis se clasifica en anterior, originada casi siempre en el plexo de Kiesselbach del área de Little, y posterior, que proviene de ramas de la arteria esfenopalatina cerca de la pared lateral y el techo de la fosa. El diagnóstico se apoya en el punto de sangrado visible: en la rinoscopía anterior se trata con presión sostenida sobre las alas nasales durante 10 a 15 minutos, vasoconstrictor tópico, cauterización química o eléctrica del vaso visible y, si falla, taponamiento anterior. Aquí no se visualizó ningún punto sangrante, el sangrado persistió tras el tapón anterior y el paciente deglute la sangre por la orofaringe, hallazgos que apuntan a un origen posterior, por lo que corresponde el taponamiento posterior con sonda con balón o taponamiento con gasa, con hospitalización y vigilancia. El tapón anterior con agua oxigenada, la cauterización y la electrocoagulación requieren un punto anterior visible; los hemostáticos parenterales no controlan un sangrado arterial. Perla clínica: en el anciano se debe evaluar hipertensión, anticoagulantes y hemodinamia, y considerar la embolización o ligadura de la esfenopalatina si el taponamiento falla.",
+      "tema": "Epistaxis posterior tras fallo del tapón anterior",
+      "año": 2019,
+      "fuentes": "Tunkel DE et al. Clinical Practice Guideline: Nosebleed (Epistaxis), Otolaryngol Head Neck Surg 2020;162(2 Suppl):S1-S38; Cummings Otolaryngology-Head and Neck Surgery, 7.ª ed. (2021)",
+      "categoria": "Otorrinolaringología",
+      "nota_revision": "Repite RM-OFT-001 (misma clave C). Se eliminó la numeración «SS.» del enunciado, que era ruido de la extracción."
+    },
+    {
+      "id": "RM-OFT-032",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Niño de 7 años que, hace 2 días, presenta ojo rojo izquierdo; al día siguiente compromete el lado derecho, con lagrimeo que aumenta al levantarse. Examen: congestión en ambas conjuntivas, lagrimeo y párpados pegados. Diagnóstico: conjuntivitis. ¿Cuál es el agente etiológico?",
+      "opciones": [
+        "Coronavirus.",
+        "Virus coxsackie.",
+        "Herpesvirus.",
+        "Adenovirus.",
+        "Enterovirus."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La conjuntivitis aguda es la causa más común de ojo rojo infeccioso, y entre el 65 y el 90 % de las formas virales corresponde a adenovirus, que además es muy contagioso por contacto directo, secreciones y fómites. El cuadro clásico comienza en un ojo y compromete el otro a los pocos días, con hiperemia, lagrimeo acuoso, sensación de cuerpo extraño, secreción mucosa escasa que pega los párpados al despertar, folículos en la conjuntiva tarsal y adenopatía preauricular dolorosa. La queratoconjuntivitis epidémica (serotipos 8, 19 y 37) puede dejar infiltrados subepiteliales y disminuir la visión. El virus coxsackie y el enterovirus 70 producen la conjuntivitis hemorrágica aguda, mucho menos frecuente y con petequias, el herpes simple causa conjuntivitis folicular unilateral con lesiones vesiculares y úlcera dendrítica, y los coronavirus pueden causar un cuadro leve en el contexto sistémico. El tratamiento es de soporte con lágrimas artificiales y compresas frías, y se evita el uso de antibióticos o corticoides sin indicación. Perla clínica: lavado de manos, no compartir toallas y reposo escolar durante la fase aguda, porque el contagio dura hasta 10 a 14 días.",
+      "comentario": "La conjuntivitis aguda es la causa más común de ojo rojo infeccioso, y entre el 65 y el 90 % de las formas virales corresponde a adenovirus, que además es muy contagioso por contacto directo, secreciones y fómites. El cuadro clásico comienza en un ojo y compromete el otro a los pocos días, con hiperemia, lagrimeo acuoso, sensación de cuerpo extraño, secreción mucosa escasa que pega los párpados al despertar, folículos en la conjuntiva tarsal y adenopatía preauricular dolorosa. La queratoconjuntivitis epidémica (serotipos 8, 19 y 37) puede dejar infiltrados subepiteliales y disminuir la visión. El virus coxsackie y el enterovirus 70 producen la conjuntivitis hemorrágica aguda, mucho menos frecuente y con petequias, el herpes simple causa conjuntivitis folicular unilateral con lesiones vesiculares y úlcera dendrítica, y los coronavirus pueden causar un cuadro leve en el contexto sistémico. El tratamiento es de soporte con lágrimas artificiales y compresas frías, y se evita el uso de antibióticos o corticoides sin indicación. Perla clínica: lavado de manos, no compartir toallas y reposo escolar durante la fase aguda, porque el contagio dura hasta 10 a 14 días.",
+      "tema": "Agente de la conjuntivitis viral aguda",
+      "año": 2019,
+      "fuentes": "American Academy of Ophthalmology, Conjunctivitis Preferred Practice Pattern (edición vigente); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Oftalmología",
+      "nota_revision": "Repite RM-OFT-004 (misma clave D). Se retiró el residuo «imo· 76.» del enunciado."
+    },
+    {
+      "id": "RM-OFT-033",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "En el ojo que ha sufrido una lesión penetrante y después de tomar las medidas locales oftalmológicas, es aconsejable prevenir un probable traumatismo posterior. ¿Qué fármaco se administra?",
+      "opciones": [
+        "Diurético osmótico.",
+        "Antihipertensivo.",
+        "Diurético de asa.",
+        "Antiinflamatorio.",
+        "Antiemético."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La herida penetrante o la rotura del globo ocular es una emergencia oftalmológica. Las medidas iniciales son proteger el ojo con un escudo rígido, sin presión ni parche compresivo, mantener al paciente en ayuno, administrar analgesia, antibióticos sistémicos de amplio espectro (fluoroquinolona o cefalosporina con cobertura para Bacillus), profilaxis antitetánica y programar la reparación quirúrgica urgente. Es fundamental evitar cualquier aumento de la presión intraocular o de la presión venosa, ya que pueden causar expulsión del contenido intraocular (iris, cristalino, vítreo) por la herida. Por eso se indican antieméticos, como ondansetrón, para evitar el vómito y las arcadas, y laxantes para disminuir el esfuerzo y la maniobra de Valsalva. No se palpa el globo, no se hacen lavados ni se colocan colirios sobre la herida. Los diuréticos osmóticos o de asa y los antihipertensivos no previenen el trauma adicional, ni su uso es parte del manejo de esta lesión, y los antiinflamatorios no tienen un efecto preventivo sobre la hernia del contenido ocular. La complicación temprana más temida es la endoftalmitis, y la tardía, la oftalmía simpática, una uveítis granulomatosa autoinmune bilateral que se previene con la reparación temprana o la enucleación. Perla clínica: la tomografía de órbitas busca cuerpo extraño intraocular, y la resonancia está contraindicada si se sospecha metal.",
+      "comentario": "La herida penetrante o la rotura del globo ocular es una emergencia oftalmológica. Las medidas iniciales son proteger el ojo con un escudo rígido, sin presión ni parche compresivo, mantener al paciente en ayuno, administrar analgesia, antibióticos sistémicos de amplio espectro (fluoroquinolona o cefalosporina con cobertura para Bacillus), profilaxis antitetánica y programar la reparación quirúrgica urgente. Es fundamental evitar cualquier aumento de la presión intraocular o de la presión venosa, ya que pueden causar expulsión del contenido intraocular (iris, cristalino, vítreo) por la herida. Por eso se indican antieméticos, como ondansetrón, para evitar el vómito y las arcadas, y laxantes para disminuir el esfuerzo y la maniobra de Valsalva. No se palpa el globo, no se hacen lavados ni se colocan colirios sobre la herida. Los diuréticos osmóticos o de asa y los antihipertensivos no previenen el trauma adicional, ni su uso es parte del manejo de esta lesión, y los antiinflamatorios no tienen un efecto preventivo sobre la hernia del contenido ocular. La complicación temprana más temida es la endoftalmitis, y la tardía, la oftalmía simpática, una uveítis granulomatosa autoinmune bilateral que se previene con la reparación temprana o la enucleación. Perla clínica: la tomografía de órbitas busca cuerpo extraño intraocular, y la resonancia está contraindicada si se sospecha metal.",
+      "tema": "Trauma ocular penetrante: antieméticos",
+      "año": 2016,
+      "fuentes": "Kanski, Oftalmología clínica 9.ª ed. (2020); American Academy of Ophthalmology, Basic and Clinical Science Course, Sección 8 (2023-2024)",
+      "categoria": "Oftalmología",
+      "nota_revision": "Bloque dañado; el libro no extrajo la clave, pero el comentario indica antieméticos y laxantes (E)."
+    },
+    {
+      "id": "RM-OFT-034",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el síntoma más característico de la queratoconjuntivitis flictenular?",
+      "opciones": [
+        "Prurito ocular.",
+        "Secreción acuosa.",
+        "Edema.",
+        "Secreción mucosa.",
+        "Hiperemia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La queratoconjuntivitis flictenular es una reacción de hipersensibilidad retardada (tipo IV) a antígenos microbianos, sobre todo del Staphylococcus aureus y, en el pasado, del bacilo de la tuberculosis. Se forman flictenas, que son nódulos pequeños, blanquecinos o amarillentos, rodeados de hiperemia localizados en el limbo, la conjuntiva bulbar o la córnea, y que pueden ulcerarse y dejar una cicatriz con vascularización. Es más frecuente en niños y adultos jóvenes con blefaritis, y se acompaña de lagrimeo, fotofobia, sensación de cuerpo extraño, ardor y prurito. El libro considera el prurito ocular como el síntoma más característico, aunque en la práctica la fotofobia y el lagrimeo son los más prominentes cuando hay compromiso corneal. La secreción acuosa o mucosa y el edema son propios de las conjuntivitis virales y alérgicas, mientras que la hiperemia es un signo inespecífico presente en casi todas las enfermedades de la superficie ocular. El tratamiento incluye corticoides tópicos de baja potencia durante periodos cortos, higiene palpebral, tratamiento de la blefaritis con antibióticos tópicos o doxiciclina oral, y la búsqueda de tuberculosis activa en las regiones endémicas. Perla clínica: ante flictenulosis en un niño, se debe buscar un foco de tuberculosis latente con PPD o ensayo de liberación de interferón gamma.",
+      "comentario": "La queratoconjuntivitis flictenular es una reacción de hipersensibilidad retardada (tipo IV) a antígenos microbianos, sobre todo del Staphylococcus aureus y, en el pasado, del bacilo de la tuberculosis. Se forman flictenas, que son nódulos pequeños, blanquecinos o amarillentos, rodeados de hiperemia localizados en el limbo, la conjuntiva bulbar o la córnea, y que pueden ulcerarse y dejar una cicatriz con vascularización. Es más frecuente en niños y adultos jóvenes con blefaritis, y se acompaña de lagrimeo, fotofobia, sensación de cuerpo extraño, ardor y prurito. El libro considera el prurito ocular como el síntoma más característico, aunque en la práctica la fotofobia y el lagrimeo son los más prominentes cuando hay compromiso corneal. La secreción acuosa o mucosa y el edema son propios de las conjuntivitis virales y alérgicas, mientras que la hiperemia es un signo inespecífico presente en casi todas las enfermedades de la superficie ocular. El tratamiento incluye corticoides tópicos de baja potencia durante periodos cortos, higiene palpebral, tratamiento de la blefaritis con antibióticos tópicos o doxiciclina oral, y la búsqueda de tuberculosis activa en las regiones endémicas. Perla clínica: ante flictenulosis en un niño, se debe buscar un foco de tuberculosis latente con PPD o ensayo de liberación de interferón gamma.",
+      "tema": "Síntoma de la queratoconjuntivitis flictenular",
+      "año": 2017,
+      "fuentes": "Kanski, Oftalmología clínica 9.ª ed. (2020); American Academy of Ophthalmology, Basic and Clinical Science Course, Sección 8 (2023-2024)",
+      "categoria": "Oftalmología",
+      "nota_revision": "Bloque dañado (enunciado truncado). Clave A del libro. Aviso: en la bibliografía clásica la flictenulosis se acompaña sobre todo de fotofobia, lagrimeo y sensación de cuerpo extraño; el prurito no es su rasgo más específico. Se mantiene A."
+    },
+    {
+      "id": "RM-OFT-035",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "En un traumatismo de zona periorbitaria, el dolor en el movimiento ocular en sentido horizontal es un síntoma de fractura de...",
+      "opciones": [
+        "Del vértice.",
+        "Pared superior.",
+        "Pared externa.",
+        "Pared interna.",
+        "Pared inferior."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La órbita ósea tiene cuatro paredes y un vértice, y las más delgadas son la interna (lámina papirácea del etmoides) y el piso (zona del canal infraorbitario). En las fracturas por mecanismo de estallido o blowout, un golpe directo sobre el globo ocular aumenta la presión orbitaria, y el hueso se rompe en sus zonas más débiles sin comprometer el reborde. En la fractura de la pared interna el músculo recto medio y su grasa se hernian hacia el seno etmoidal y quedan atrapados. Como este músculo es el que aduce el globo, el paciente refiere dolor y limitación al mover el ojo en sentido horizontal, sobre todo en la abducción y la aducción, y puede haber enfisema subcutáneo o palpebral al sonarse la nariz y epistaxis. Si se rompe el piso orbitario, lo característico es la limitación de la elevación y el descenso con diplopía vertical, hipoestesia en el territorio del nervio infraorbitario y enoftalmos, por atrapamiento del recto inferior. La pared superior se compromete con fracturas del hueso frontal, la externa es la más gruesa y rara vez se rompe, y el vértice se asocia a neuropatía óptica traumática. El diagnóstico se confirma con una tomografía de órbitas con cortes coronales. Perla clínica: el reflejo oculocardiaco con bradicardia, náuseas y síncope sugiere atrapamiento muscular y obliga a la cirugía urgente en niños.",
+      "comentario": "La órbita ósea tiene cuatro paredes y un vértice, y las más delgadas son la interna (lámina papirácea del etmoides) y el piso (zona del canal infraorbitario). En las fracturas por mecanismo de estallido o blowout, un golpe directo sobre el globo ocular aumenta la presión orbitaria, y el hueso se rompe en sus zonas más débiles sin comprometer el reborde. En la fractura de la pared interna el músculo recto medio y su grasa se hernian hacia el seno etmoidal y quedan atrapados. Como este músculo es el que aduce el globo, el paciente refiere dolor y limitación al mover el ojo en sentido horizontal, sobre todo en la abducción y la aducción, y puede haber enfisema subcutáneo o palpebral al sonarse la nariz y epistaxis. Si se rompe el piso orbitario, lo característico es la limitación de la elevación y el descenso con diplopía vertical, hipoestesia en el territorio del nervio infraorbitario y enoftalmos, por atrapamiento del recto inferior. La pared superior se compromete con fracturas del hueso frontal, la externa es la más gruesa y rara vez se rompe, y el vértice se asocia a neuropatía óptica traumática. El diagnóstico se confirma con una tomografía de órbitas con cortes coronales. Perla clínica: el reflejo oculocardiaco con bradicardia, náuseas y síncope sugiere atrapamiento muscular y obliga a la cirugía urgente en niños.",
+      "tema": "Fractura orbitaria de pared interna",
+      "año": 2019,
+      "fuentes": "Kanski, Oftalmología clínica 9.ª ed. (2020); American Academy of Ophthalmology, Basic and Clinical Science Course, Sección 7 (2023-2024)",
+      "categoria": "Oftalmología",
+      "nota_revision": "REPITE RM-OFT-003 (clave D, pared interna): misma clave, comentario con otro ángulo (mecanismo del recto medio y comparación con el piso orbitario)."
+    },
+    {
+      "id": "RM-OFT-036",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Varón de 48 años, consulta por presentar progresivamente pérdida de audición en el oído derecho, acompañado de vértigos, acúfenos pulsátiles, dolor tenebrante profundo, parálisis facial y supuración. ¿Cuál es el diagnóstico probable?",
+      "opciones": [
+        "Tumor de oído medio o interno.",
+        "Síndrome vestibular.",
+        "Otitis media supurada.",
+        "Laberintitis.",
+        "Otitis externa supurada."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Una hipoacusia progresiva unilateral que se acompaña de vértigo, acúfeno pulsátil, otalgia profunda, parálisis facial y otorrea crónica sugiere una neoplasia del oído medio o del hueso temporal. El acúfeno pulsátil orienta hacia un tumor vascular, como el paraganglioma timpánico o yugular (glomus), y la combinación de dolor, supuración con sangre y parálisis facial progresiva es típica del carcinoma de células escamosas del oído medio y del conducto auditivo, que suele desarrollarse en pacientes con otorrea crónica. La otitis media supurada y la otitis externa se presentan con fiebre, otalgia aguda y otorrea, y no suelen causar parálisis facial salvo como complicación, mientras que la otitis externa maligna del diabético inmunocomprometido por Pseudomonas es la excepción a considerar. El síndrome vestibular y la laberintitis tienen al vértigo como síntoma principal sin los demás hallazgos. El estudio incluye otoscopia, audiometría, tomografía de hueso temporal para valorar la erosión y resonancia con gadolinio, además de la biopsia, que debe evitarse en lesiones pulsátiles hasta descartar un paraganglioma. El tratamiento del carcinoma es la resección quirúrgica con radioterapia posoperatoria. Perla clínica: una otorrea crónica que no cede al tratamiento, con dolor y parálisis facial, debe considerarse maligna hasta que se demuestre lo contrario.",
+      "comentario": "Una hipoacusia progresiva unilateral que se acompaña de vértigo, acúfeno pulsátil, otalgia profunda, parálisis facial y otorrea crónica sugiere una neoplasia del oído medio o del hueso temporal. El acúfeno pulsátil orienta hacia un tumor vascular, como el paraganglioma timpánico o yugular (glomus), y la combinación de dolor, supuración con sangre y parálisis facial progresiva es típica del carcinoma de células escamosas del oído medio y del conducto auditivo, que suele desarrollarse en pacientes con otorrea crónica. La otitis media supurada y la otitis externa se presentan con fiebre, otalgia aguda y otorrea, y no suelen causar parálisis facial salvo como complicación, mientras que la otitis externa maligna del diabético inmunocomprometido por Pseudomonas es la excepción a considerar. El síndrome vestibular y la laberintitis tienen al vértigo como síntoma principal sin los demás hallazgos. El estudio incluye otoscopia, audiometría, tomografía de hueso temporal para valorar la erosión y resonancia con gadolinio, además de la biopsia, que debe evitarse en lesiones pulsátiles hasta descartar un paraganglioma. El tratamiento del carcinoma es la resección quirúrgica con radioterapia posoperatoria. Perla clínica: una otorrea crónica que no cede al tratamiento, con dolor y parálisis facial, debe considerarse maligna hasta que se demuestre lo contrario.",
+      "tema": "Tumor de oído medio con parálisis facial",
+      "año": 2016,
+      "fuentes": "Cummings, Otolaryngology Head and Neck Surgery 7.ª ed. (2020)",
+      "categoria": "Otorrinolaringología",
+      "nota_revision": "Bloque dañado; el libro no traía clave extraída, pero el comentario describe tumor de oído (A)."
+    },
+    {
+      "id": "RM-OFT-037",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es una indicación absoluta de amigdalectomía en el niño?",
+      "opciones": [
+        "Apnea del sueño.",
+        "Amigdalitis recurrente.",
+        "Halitosis severa.",
+        "Probable neoplasia maligna.",
+        "Flemón periamigdalino."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La hipertrofia adenoamigdalar es la causa más común de trastornos respiratorios del sueño en la infancia, que van del ronquido primario al síndrome de apnea obstructiva. Se sospecha por ronquido nocturno, pausas respiratorias, respiración bucal, sueño inquieto, enuresis, cefalea matutina y mal rendimiento escolar, y en casos graves aparecen retraso del crecimiento, hipertensión pulmonar y cor pulmonale. La guía de la AAO-HNSF 2019 recomienda la amigdalectomía en niños con ronquido y amígdalas grandes con sospecha de apnea obstructiva, con polisomnografía previa si tienen obesidad, síndrome de Down, anomalías craneofaciales o enfermedad neuromuscular. La obstrucción de la vía aérea superior con apnea es la indicación absoluta clásica de este bloque. La amigdalitis recurrente es una indicación relativa que exige cumplir los criterios de Paradise (7 episodios en un año, 5 por año durante dos años o 3 por año durante tres años). La halitosis aislada no es indicación, y el flemón periamigdalino se maneja con drenaje y antibiótico, y se opera de forma electiva si recurre. Perla clínica: tras la amigdalectomía hay riesgo de hemorragia, sobre todo a los 5 a 10 días, y requiere vigilancia.",
+      "comentario": "La hipertrofia adenoamigdalar es la causa más común de trastornos respiratorios del sueño en la infancia, que van del ronquido primario al síndrome de apnea obstructiva. Se sospecha por ronquido nocturno, pausas respiratorias, respiración bucal, sueño inquieto, enuresis, cefalea matutina y mal rendimiento escolar, y en casos graves aparecen retraso del crecimiento, hipertensión pulmonar y cor pulmonale. La guía de la AAO-HNSF 2019 recomienda la amigdalectomía en niños con ronquido y amígdalas grandes con sospecha de apnea obstructiva, con polisomnografía previa si tienen obesidad, síndrome de Down, anomalías craneofaciales o enfermedad neuromuscular. La obstrucción de la vía aérea superior con apnea es la indicación absoluta clásica de este bloque. La amigdalitis recurrente es una indicación relativa que exige cumplir los criterios de Paradise (7 episodios en un año, 5 por año durante dos años o 3 por año durante tres años). La halitosis aislada no es indicación, y el flemón periamigdalino se maneja con drenaje y antibiótico, y se opera de forma electiva si recurre. Perla clínica: tras la amigdalectomía hay riesgo de hemorragia, sobre todo a los 5 a 10 días, y requiere vigilancia.",
+      "tema": "Indicación absoluta de amigdalectomía en el niño",
+      "año": 2017,
+      "fuentes": "Mitchell y cols., AAO-HNSF, Guía de práctica clínica: amigdalectomía en niños, actualización 2019 (Otolaryngol Head Neck Surg 2019); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Otorrinolaringología",
+      "nota_revision": "REPITE de RM-OFT-027 (misma clave por contenido: apnea del sueño, aquí opción A por otro orden). La neoplasia maligna (D) también es una indicación absoluta en la literatura; se mantiene la clave A del libro y del banco."
+    },
+    {
+      "id": "RM-OFT-038",
+      "especialidad": "Oftalmología y Otorrinolaringología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Niño de 7 años, hace 2 días presenta ojo rojo izquierdo, al día siguiente en el lado derecho, con lagrimeo que aumenta al levantarse. Examen: congestión en ambas conjuntivas, lagrimeo, párpados pegados. Diagnóstico: conjuntivitis. ¿Cuál es el agente etiológico?",
+      "opciones": [
+        "Coronavirus.",
+        "Virus coxsackie.",
+        "Herpes virus.",
+        "Adenovirus.",
+        "Enterovirus."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La conjuntivitis viral es la causa infecciosa más frecuente de ojo rojo en la infancia y los adenovirus son responsables de entre el 65 % y el 90 % de los casos. Comienza en un ojo y compromete el otro a los pocos días, con enrojecimiento, lagrimeo acuoso, sensación de cuerpo extraño, secreción serosa que pega las pestañas al despertar, folículos en la conjuntiva tarsal y una adenopatía preauricular dolorosa. Puede presentarse como fiebre faringoconjuntival, de predominio en niños, o como queratoconjuntivitis epidémica, que deja infiltrados subepiteliales y baja de la visión. Se transmite por contacto directo con secreciones, toallas y manos contaminadas, y el período contagioso dura hasta dos semanas, por lo que se recomienda lavado de manos y evitar compartir objetos. El tratamiento es de soporte, con compresas frías y lágrimas artificiales; no se indican antibióticos y los corticoides se reservan para infiltrados que afecten la visión. El herpes simple suele ser unilateral, con vesículas palpebrales o úlcera dendrítica; el enterovirus 70 y el coxsackie A24 producen conjuntivitis hemorrágica aguda con hemorragias subconjuntivales, y los coronavirus no son causa habitual. Perla clínica: ante dolor, fotofobia o baja de visión, se debe derivar para descartar compromiso corneal.",
+      "comentario": "La conjuntivitis viral es la causa infecciosa más frecuente de ojo rojo en la infancia y los adenovirus son responsables de entre el 65 % y el 90 % de los casos. Comienza en un ojo y compromete el otro a los pocos días, con enrojecimiento, lagrimeo acuoso, sensación de cuerpo extraño, secreción serosa que pega las pestañas al despertar, folículos en la conjuntiva tarsal y una adenopatía preauricular dolorosa. Puede presentarse como fiebre faringoconjuntival, de predominio en niños, o como queratoconjuntivitis epidémica, que deja infiltrados subepiteliales y baja de la visión. Se transmite por contacto directo con secreciones, toallas y manos contaminadas, y el período contagioso dura hasta dos semanas, por lo que se recomienda lavado de manos y evitar compartir objetos. El tratamiento es de soporte, con compresas frías y lágrimas artificiales; no se indican antibióticos y los corticoides se reservan para infiltrados que afecten la visión. El herpes simple suele ser unilateral, con vesículas palpebrales o úlcera dendrítica; el enterovirus 70 y el coxsackie A24 producen conjuntivitis hemorrágica aguda con hemorragias subconjuntivales, y los coronavirus no son causa habitual. Perla clínica: ante dolor, fotofobia o baja de visión, se debe derivar para descartar compromiso corneal.",
+      "tema": "Conjuntivitis viral aguda: agente etiológico",
+      "año": 2019,
+      "fuentes": "American Academy of Ophthalmology, Conjunctivitis Preferred Practice Pattern (Ophthalmology 2019); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Oftalmología",
+      "nota_revision": "REPITE RM-OFT-004 (clave del banco: D, adenovirus); misma clave, con el comentario centrado en la transmisión, el diagnóstico diferencial y el manejo."
     }
   ]
 }

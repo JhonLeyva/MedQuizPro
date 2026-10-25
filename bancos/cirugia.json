@@ -6063,6 +6063,114 @@
       "fuentes": "ISBI Practice Guidelines for Burn Care. Burns 2016;42:953-1021; Sabiston Tratado de Cirugía 21.ª ed.",
       "categoria": "Quemaduras",
       "nota_revision": "El enunciado dice 40 % y la solución del libro calcula 39 %, ambos dan alrededor de 5600 mL (opción B)."
+    },
+    {
+      "id": "RM-CIR-153",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿En qué línea del canal anal se ubica con más frecuencia la fisura anal crónica?",
+      "opciones": [
+        "Media posterior.",
+        "Lateral derecha.",
+        "Media anterior.",
+        "Dentada.",
+        "Lateral izquierda."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fisura anal es un desgarro longitudinal del anodermo que se extiende desde el margen anal hasta la línea pectínea o dentada, y su causa principal es el traumatismo por heces duras junto con hipertonía del esfínter anal interno, que reduce el flujo sanguíneo local. Más del 90 % se ubica en la línea media posterior, porque allí las fibras del esfínter externo ofrecen menos soporte y la perfusión del anodermo es menor; el 10 % restante es anterior, más frecuente en mujeres tras el parto. Una fisura lateral o múltiple debe hacer pensar en enfermedad de Crohn, tuberculosis, VIH, sífilis, neoplasia o herpes. La fisura es crónica cuando dura más de 6 a 8 semanas y presenta fibras blancas del esfínter, papila hipertrófica y colgajo centinela. La línea dentada es el límite superior de la fisura, no su ubicación. La guía de la ASCRS 2023 propone fibra, baños de asiento y tratamiento tópico con bloqueadores de canales de calcio o nitratos como primera línea; la toxina botulínica o la esfinterotomía lateral interna parcial se reservan para fracasos. Perla clínica: dolor al defecar con sangre roja escasa y posterior es típico.",
+      "comentario": "La fisura anal es un desgarro longitudinal del anodermo que se extiende desde el margen anal hasta la línea pectínea o dentada, y su causa principal es el traumatismo por heces duras junto con hipertonía del esfínter anal interno, que reduce el flujo sanguíneo local. Más del 90 % se ubica en la línea media posterior, porque allí las fibras del esfínter externo ofrecen menos soporte y la perfusión del anodermo es menor; el 10 % restante es anterior, más frecuente en mujeres tras el parto. Una fisura lateral o múltiple debe hacer pensar en enfermedad de Crohn, tuberculosis, VIH, sífilis, neoplasia o herpes. La fisura es crónica cuando dura más de 6 a 8 semanas y presenta fibras blancas del esfínter, papila hipertrófica y colgajo centinela. La línea dentada es el límite superior de la fisura, no su ubicación. La guía de la ASCRS 2023 propone fibra, baños de asiento y tratamiento tópico con bloqueadores de canales de calcio o nitratos como primera línea; la toxina botulínica o la esfinterotomía lateral interna parcial se reservan para fracasos. Perla clínica: dolor al defecar con sangre roja escasa y posterior es típico.",
+      "tema": "Localización de la fisura anal crónica",
+      "año": 2017,
+      "fuentes": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190-199); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Coloproctología",
+      "nota_revision": "Repite RM-CIR-095 (misma clave A). Se enfoca en fisiopatología y causas de fisura atípica."
+    },
+    {
+      "id": "RM-CIR-154",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de obstrucción intestinal en adultos?",
+      "opciones": [
+        "Cáncer de colon.",
+        "Intususcepción.",
+        "Íleo biliar.",
+        "Bridas y adherencias.",
+        "Vólvulo de sigmoides."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La obstrucción intestinal es la detención del tránsito por una causa mecánica o funcional, y se divide en alta (intestino delgado) y baja (colon). En el adulto, el 60 a 65 % de los casos de obstrucción del intestino delgado se debe a bridas y adherencias postoperatorias, sobre todo tras cirugía abdominal o pélvica, ginecológica o colorrectal; las hernias complicadas ocupan el segundo lugar y las neoplasias el tercero. Las adherencias fijan y angulan las asas, y el cuadro se manifiesta con dolor cólico, vómitos, distensión y ausencia de gases y heces. La radiografía muestra niveles hidroaéreos, y la tomografía confirma el punto de transición y detecta signos de isquemia como engrosamiento de pared, líquido libre o asa cerrada. El manejo inicial en ausencia de isquemia es conservador con sonda nasogástrica, reposición hidroelectrolítica y contraste hidrosoluble, que sirve a la vez para diagnóstico y tratamiento, y se opera si hay peritonitis, estrangulación o falta de resolución. El cáncer de colon es la causa principal solo de la obstrucción del colon, mientras que la intususcepción predomina en lactantes, el íleo biliar es raro y el vólvulo de sigmoides afecta a ancianos. Perla clínica: abdomen sin cirugía previa obliga a descartar hernia.",
+      "comentario": "La obstrucción intestinal es la detención del tránsito por una causa mecánica o funcional, y se divide en alta (intestino delgado) y baja (colon). En el adulto, el 60 a 65 % de los casos de obstrucción del intestino delgado se debe a bridas y adherencias postoperatorias, sobre todo tras cirugía abdominal o pélvica, ginecológica o colorrectal; las hernias complicadas ocupan el segundo lugar y las neoplasias el tercero. Las adherencias fijan y angulan las asas, y el cuadro se manifiesta con dolor cólico, vómitos, distensión y ausencia de gases y heces. La radiografía muestra niveles hidroaéreos, y la tomografía confirma el punto de transición y detecta signos de isquemia como engrosamiento de pared, líquido libre o asa cerrada. El manejo inicial en ausencia de isquemia es conservador con sonda nasogástrica, reposición hidroelectrolítica y contraste hidrosoluble, que sirve a la vez para diagnóstico y tratamiento, y se opera si hay peritonitis, estrangulación o falta de resolución. El cáncer de colon es la causa principal solo de la obstrucción del colon, mientras que la intususcepción predomina en lactantes, el íleo biliar es raro y el vólvulo de sigmoides afecta a ancianos. Perla clínica: abdomen sin cirugía previa obliga a descartar hernia.",
+      "tema": "Causa más frecuente de obstrucción intestinal en adultos",
+      "año": 2019,
+      "fuentes": "WSES, Bologna guidelines for adhesive small bowel obstruction, 2017 update (World J Emerg Surg 2018;13:24); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "nota_revision": "Enunciado y opciones reconstruidos desde la imagen de la página; clave D coincide con el libro. Complementa la pregunta de obstrucción en pacientes no operados (banco previo), donde la clave es hernia."
+    },
+    {
+      "id": "RM-CIR-155",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Multípara de 39 años, hace 8 horas presenta tumoración dolorosa en región inguinal derecha, náuseas, vómitos alimentarios y distensión abdominal. Examen: PA 100/60 mmHg, FC 110 por minuto, temperatura 36,7 °C. Abdomen distendido y doloroso a la palpación, ruidos hidroaéreos ausentes, masa de 2 x 3 cm de color violáceo, muy dolorosa, por debajo de la espina ilíaca anterosuperior. Leucocitosis: 14 000/µL con 10 abastonados. ¿A qué tipo de hernia corresponde?",
+      "opciones": [
+        "Semilunar.",
+        "Inguinal estrangulada.",
+        "Inguinal encarcelada.",
+        "Obturatriz.",
+        "Femoral estrangulada."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La hernia femoral protruye por el anillo crural, debajo del ligamento inguinal y por fuera del tubérculo del pubis, y aunque es poco frecuente (3 % de las hernias inguinofemorales) predomina en mujeres multíparas o mayores. Como el anillo es estrecho y rígido, delimitado por el ligamento lacunar, el pectíneo y la vena femoral, sufre complicación hasta en 40 a 60 % de los casos y por eso se recomienda su reparación incluso asintomática. Esta paciente presenta una masa dolorosa e irreductible, de color violáceo y localizada debajo de la arcada, con un cuadro de obstrucción intestinal (vómitos, distensión, ruidos ausentes), taquicardia, leucocitosis y desviación a la izquierda: indica sufrimiento isquémico del asa, es decir, estrangulación. La hernia inguinal queda por encima del ligamento inguinal, y la encarcelada es irreductible pero sin signos de isquemia, que no es el caso. La hernia obturatriz se manifiesta con dolor en la cara interna del muslo (signo de Howship-Romberg) y la semilunar o de Spiegel aparece en la pared anterior del abdomen. El tratamiento es la cirugía de urgencia con revisión del intestino y resección si está necrótico, mediante abordaje crural o inguinal con malla. Perla clínica: una obstrucción intestinal en una mujer mayor sin cirugías previas debe llevar a revisar la región femoral, pues puede haber una hernia de Richter oculta.",
+      "comentario": "La hernia femoral protruye por el anillo crural, debajo del ligamento inguinal y por fuera del tubérculo del pubis, y aunque es poco frecuente (3 % de las hernias inguinofemorales) predomina en mujeres multíparas o mayores. Como el anillo es estrecho y rígido, delimitado por el ligamento lacunar, el pectíneo y la vena femoral, sufre complicación hasta en 40 a 60 % de los casos y por eso se recomienda su reparación incluso asintomática. Esta paciente presenta una masa dolorosa e irreductible, de color violáceo y localizada debajo de la arcada, con un cuadro de obstrucción intestinal (vómitos, distensión, ruidos ausentes), taquicardia, leucocitosis y desviación a la izquierda: indica sufrimiento isquémico del asa, es decir, estrangulación. La hernia inguinal queda por encima del ligamento inguinal, y la encarcelada es irreductible pero sin signos de isquemia, que no es el caso. La hernia obturatriz se manifiesta con dolor en la cara interna del muslo (signo de Howship-Romberg) y la semilunar o de Spiegel aparece en la pared anterior del abdomen. El tratamiento es la cirugía de urgencia con revisión del intestino y resección si está necrótico, mediante abordaje crural o inguinal con malla. Perla clínica: una obstrucción intestinal en una mujer mayor sin cirugías previas debe llevar a revisar la región femoral, pues puede haber una hernia de Richter oculta.",
+      "tema": "Hernia femoral estrangulada en multípara",
+      "año": 2018,
+      "fuentes": "HerniaSurge Group, Guías internacionales de hernia inguinal (Hernia 2018; BJS Open 2023 actualización); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "nota_revision": "REPITE RM-CIR-112 (clave E, hernia femoral estrangulada); mismo clave, otro ángulo en el comentario (anatomía del anillo crural y diagnóstico diferencial)."
+    },
+    {
+      "id": "RM-CIR-156",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Varón de 20 años llega a emergencia presentando herida por arma blanca a nivel subescapular izquierdo y dificultad respiratoria. Se diagnostica hemoneumotórax izquierdo. ¿Cuál es el procedimiento a seguir?",
+      "opciones": [
+        "Toracotomía mínima con drenaje cerrado.",
+        "Toracotomía en sala de operaciones.",
+        "Toracocentesis evacuatoria.",
+        "Videotoracoscopía.",
+        "Observación más oxigenoterapia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un hemoneumotórax es la presencia simultánea de aire y sangre en el espacio pleural, habitual en las heridas penetrantes del tórax que lesionan pulmón, pared torácica o vasos intercostales. Si el paciente tiene dificultad respiratoria, la prioridad es evacuar el contenido pleural para reexpandir el pulmón y medir el débito: se realiza una toracostomía mínima con tubo (toracotomía mínima) de calibre grueso (28 a 36 Fr) en el quinto espacio intercostal, por delante de la línea axilar media, conectado a un sello de agua. El tubo drena aire y sangre, trata el cuadro en más del 80 % de los casos y es diagnóstico del volumen de sangrado. La toracotomía en sala de operaciones solo se indica con drenaje inicial mayor de 1500 mL, débito persistente mayor de 200 mL/hora durante 2 a 4 horas, inestabilidad hemodinámica o fuga aérea masiva. La toracocentesis con aguja no es suficiente porque no evacúa de forma continua, la videotoracoscopía se utiliza después, para coágulos retenidos o hemotórax residual, y la observación es peligrosa con insuficiencia respiratoria. Perla clínica: el tubo torácico siempre se coloca antes de pedir la radiografía en el paciente inestable, y debe vigilarse el débito horario.",
+      "comentario": "Un hemoneumotórax es la presencia simultánea de aire y sangre en el espacio pleural, habitual en las heridas penetrantes del tórax que lesionan pulmón, pared torácica o vasos intercostales. Si el paciente tiene dificultad respiratoria, la prioridad es evacuar el contenido pleural para reexpandir el pulmón y medir el débito: se realiza una toracostomía mínima con tubo (toracotomía mínima) de calibre grueso (28 a 36 Fr) en el quinto espacio intercostal, por delante de la línea axilar media, conectado a un sello de agua. El tubo drena aire y sangre, trata el cuadro en más del 80 % de los casos y es diagnóstico del volumen de sangrado. La toracotomía en sala de operaciones solo se indica con drenaje inicial mayor de 1500 mL, débito persistente mayor de 200 mL/hora durante 2 a 4 horas, inestabilidad hemodinámica o fuga aérea masiva. La toracocentesis con aguja no es suficiente porque no evacúa de forma continua, la videotoracoscopía se utiliza después, para coágulos retenidos o hemotórax residual, y la observación es peligrosa con insuficiencia respiratoria. Perla clínica: el tubo torácico siempre se coloca antes de pedir la radiografía en el paciente inestable, y debe vigilarse el débito horario.",
+      "tema": "Hemoneumotórax por herida penetrante: toracostomía cerrada",
+      "año": 2016,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Trauma torácico",
+      "nota_revision": "Bloque dañado: reconstruido con el texto extraído y el comentario del libro (clave A). Se asigna a cirugía por ser trauma torácico agudo."
+    },
+    {
+      "id": "RM-CIR-157",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente que acude a emergencia por accidente de tránsito, trasladado por los bomberos. Examen: PA 100/70 mmHg, pulso rápido y filiforme, piel fría, pálida y pegajosa; sed intensa, respiración rápida y adormecimiento. ¿Qué tipo de shock presenta el paciente?",
+      "opciones": [
+        "Hipovolémico.",
+        "Distributivo.",
+        "Cardiogénico.",
+        "Obstructivo.",
+        "Vagal."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El shock es una falla circulatoria aguda con hipoperfusión y disoxia tisular; según el mecanismo se clasifica en hipovolémico, cardiogénico, obstructivo y distributivo (séptico, anafiláctico, neurogénico). En el trauma la causa más frecuente es el hipovolémico por hemorragia, y el ATLS lo gradúa en cuatro clases según el volumen perdido: la clase I (menos de 15 %) casi no tiene alteración; en la II (15 a 30 %) aparecen taquicardia y taquipnea con presión normal; en la III (30 a 40 %) hay hipotensión, taquicardia marcada y confusión, y en la IV (más de 40 %) hay compromiso inminente de la vida. Este paciente tiene piel fría, pálida y pegajosa por vasoconstricción, pulso filiforme, sed, polipnea y somnolencia, con una presión aún conservada: es un shock compensado de clase II a III. En el cardiogénico y el obstructivo (taponamiento, neumotórax a tensión) habría ingurgitación yugular; en el distributivo, las extremidades suelen estar calientes con vasodilatación, y el término vagal no es una categoría de shock. El manejo consiste en control de la hemorragia, dos accesos venosos gruesos, cristaloides tibios en pequeño volumen y hemoderivados precoces. Perla clínica: en el joven, la presión arterial cae tarde, y la taquicardia y el llenado capilar lento son las alertas más precoces.",
+      "comentario": "El shock es una falla circulatoria aguda con hipoperfusión y disoxia tisular; según el mecanismo se clasifica en hipovolémico, cardiogénico, obstructivo y distributivo (séptico, anafiláctico, neurogénico). En el trauma la causa más frecuente es el hipovolémico por hemorragia, y el ATLS lo gradúa en cuatro clases según el volumen perdido: la clase I (menos de 15 %) casi no tiene alteración; en la II (15 a 30 %) aparecen taquicardia y taquipnea con presión normal; en la III (30 a 40 %) hay hipotensión, taquicardia marcada y confusión, y en la IV (más de 40 %) hay compromiso inminente de la vida. Este paciente tiene piel fría, pálida y pegajosa por vasoconstricción, pulso filiforme, sed, polipnea y somnolencia, con una presión aún conservada: es un shock compensado de clase II a III. En el cardiogénico y el obstructivo (taponamiento, neumotórax a tensión) habría ingurgitación yugular; en el distributivo, las extremidades suelen estar calientes con vasodilatación, y el término vagal no es una categoría de shock. El manejo consiste en control de la hemorragia, dos accesos venosos gruesos, cristaloides tibios en pequeño volumen y hemoderivados precoces. Perla clínica: en el joven, la presión arterial cae tarde, y la taquicardia y el llenado capilar lento son las alertas más precoces.",
+      "tema": "Shock hipovolémico por trauma",
+      "año": 2014,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Monnet X y cols. ESICM guidelines on circulatory shock and hemodynamic monitoring 2025 (Intensive Care Med 2025)",
+      "categoria": "Trauma",
+      "nota_revision": "Bloque dañado; opciones y clave A reconstruidas con el texto 'Respuesta A' del libro."
     }
   ]
 }

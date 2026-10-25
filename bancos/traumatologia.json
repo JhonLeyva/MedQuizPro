@@ -1967,6 +1967,115 @@
       "año": 2015,
       "fuentes": "ATLS, 11.ª ed. (American College of Surgeons, 2025); Spahn DR et al., The European guideline on management of major bleeding and coagulopathy following trauma, sixth edition, Crit Care 2023;27:80; Sabiston Tratado de Cirugía, 21.ª ed. (2021)",
       "categoria": "Shock hemorrágico"
+    },
+    {
+      "id": "RM-TRA-044",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Obrero de 36 años acude por parestesias del segundo al cuarto dedo de la mano derecha que se incrementan a la flexión de la muñeca. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Síndrome del túnel cubital.",
+        "Fractura del radio.",
+        "Síndrome del túnel del carpo.",
+        "Fractura de cúbito.",
+        "Necrosis del pisiforme."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El síndrome del túnel del carpo es la neuropatía por atrapamiento más frecuente: el nervio mediano se comprime bajo el ligamento transverso del carpo, junto con los nueve tendones flexores. Predomina en mujeres de mediana edad y en trabajadores con movimientos repetitivos o vibración, y se asocia a embarazo, diabetes, hipotiroidismo, artritis reumatoide y amiloidosis. Se manifiesta con parestesias y dolor en el territorio del mediano (pulgar, índice, medio y mitad radial del anular), de predominio nocturno, que despiertan al paciente y mejoran al sacudir la mano (signo de la sacudida); en etapas avanzadas aparecen debilidad y atrofia tenar. Las maniobras de Phalen (flexión de la muñeca) y de Tinel (percusión) reproducen los síntomas, y el diagnóstico se confirma con electromiografía y velocidad de conducción. El manejo inicial es la férula nocturna en posición neutra, los corticoides infiltrados y la modificación laboral; si hay déficit motor o fracaso del tratamiento, se hace liberación quirúrgica del túnel. El túnel cubital afecta al cuarto y quinto dedo, las fracturas del radio o del cúbito se acompañan de trauma y deformidad, y la necrosis del pisiforme no es un cuadro típico. Perla clínica: el territorio sensitivo del mediano excluye el dorso de la mano y la eminencia tenar, porque su rama palmar sale antes del túnel.",
+      "comentario": "El síndrome del túnel del carpo es la neuropatía por atrapamiento más frecuente: el nervio mediano se comprime bajo el ligamento transverso del carpo, junto con los nueve tendones flexores. Predomina en mujeres de mediana edad y en trabajadores con movimientos repetitivos o vibración, y se asocia a embarazo, diabetes, hipotiroidismo, artritis reumatoide y amiloidosis. Se manifiesta con parestesias y dolor en el territorio del mediano (pulgar, índice, medio y mitad radial del anular), de predominio nocturno, que despiertan al paciente y mejoran al sacudir la mano (signo de la sacudida); en etapas avanzadas aparecen debilidad y atrofia tenar. Las maniobras de Phalen (flexión de la muñeca) y de Tinel (percusión) reproducen los síntomas, y el diagnóstico se confirma con electromiografía y velocidad de conducción. El manejo inicial es la férula nocturna en posición neutra, los corticoides infiltrados y la modificación laboral; si hay déficit motor o fracaso del tratamiento, se hace liberación quirúrgica del túnel. El túnel cubital afecta al cuarto y quinto dedo, las fracturas del radio o del cúbito se acompañan de trauma y deformidad, y la necrosis del pisiforme no es un cuadro típico. Perla clínica: el territorio sensitivo del mediano excluye el dorso de la mano y la eminencia tenar, porque su rama palmar sale antes del túnel.",
+      "tema": "Síndrome del túnel del carpo",
+      "año": 2014,
+      "fuentes": "Padua L y cols. Carpal tunnel syndrome: clinical features, diagnosis, and management (Lancet Neurol 2016); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Mano y miembro superior"
+    },
+    {
+      "id": "RM-TRA-045",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es el tratamiento de elección en las fracturas acetabulares no desplazadas?",
+      "opciones": [
+        "Fijación interna con tornillos.",
+        "Colocación de prótesis acetabular.",
+        "Colocación de placa lateral.",
+        "Fijación externa y observación.",
+        "Tracción con soporte progresivo del peso."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "Las fracturas del acetábulo suelen resultar de un impacto de alta energía sobre el fémur (el choque contra el tablero o el trocánter) y se clasifican de acuerdo con Letournel y Judet en fracturas de pared o de columna (elementales) y fracturas asociadas. Se evalúan con radiografías de pelvis, proyecciones oblicuas de Judet y tomografía, que mide el desplazamiento y la congruencia de la cúpula acetabular. El principio de manejo es que las fracturas con desplazamiento menor de 2 mm, con la cabeza femoral congruente y el arco del techo intacto, se tratan de forma conservadora. Esto significa reposo con tracción esquelética o descarga del peso, y luego carga progresiva del miembro, con control radiográfico seriado para detectar un desplazamiento tardío, porque la cabeza puede impactarse y los músculos peritrocantéricos traccionan. Los tornillos o las placas (fijación interna) se reservan para fracturas desplazadas o inestables, la prótesis es una opción en el anciano con daño articular grave, y la fijación externa no tiene papel en este escenario. El pronóstico depende de la calidad de la reducción anatómica y de las lesiones asociadas del cartílago. Perla clínica: el nervio ciático puede lesionarse en las fracturas de la columna posterior y en las luxaciones posteriores de cadera, y debe explorarse al ingreso.",
+      "comentario": "Las fracturas del acetábulo suelen resultar de un impacto de alta energía sobre el fémur (el choque contra el tablero o el trocánter) y se clasifican de acuerdo con Letournel y Judet en fracturas de pared o de columna (elementales) y fracturas asociadas. Se evalúan con radiografías de pelvis, proyecciones oblicuas de Judet y tomografía, que mide el desplazamiento y la congruencia de la cúpula acetabular. El principio de manejo es que las fracturas con desplazamiento menor de 2 mm, con la cabeza femoral congruente y el arco del techo intacto, se tratan de forma conservadora. Esto significa reposo con tracción esquelética o descarga del peso, y luego carga progresiva del miembro, con control radiográfico seriado para detectar un desplazamiento tardío, porque la cabeza puede impactarse y los músculos peritrocantéricos traccionan. Los tornillos o las placas (fijación interna) se reservan para fracturas desplazadas o inestables, la prótesis es una opción en el anciano con daño articular grave, y la fijación externa no tiene papel en este escenario. El pronóstico depende de la calidad de la reducción anatómica y de las lesiones asociadas del cartílago. Perla clínica: el nervio ciático puede lesionarse en las fracturas de la columna posterior y en las luxaciones posteriores de cadera, y debe explorarse al ingreso.",
+      "tema": "Fracturas acetabulares no desplazadas",
+      "año": 2014,
+      "fuentes": "Trouwborst NM y cols. Can CT-based gap and step-off displacement predict outcome after nonoperative treatment of acetabular fractures? (Bone Joint J 2023); Campbell Cirugía Ortopédica 14.ª ed. (2021)",
+      "categoria": "Pelvis y cadera",
+      "nota_revision": "Bloque dañado por OCR; opciones y clave E reconstruidas con la imagen de la página. En el libro la misma pregunta de 2017 trae la tracción como opción A con idéntica respuesta. Hoy se acepta además la descarga de peso y el reposo sin tracción."
+    },
+    {
+      "id": "RM-TRA-046",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "¿Cuál de las siguientes alternativas se considera como manejo inicial de las fracturas abiertas o expuestas?",
+      "opciones": [
+        "Inmovilización con placas y tornillos.",
+        "Desbridamiento urgente.",
+        "Fijación con tutores externos.",
+        "Inmovilización endomedular.",
+        "Inmovilización con aparato de yeso."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Una fractura abierta comunica el foco óseo con el exterior, por lo que el hueso está contaminado y existe riesgo de infección y de pseudoartrosis. Se clasifica con Gustilo y Anderson: el tipo I tiene herida menor de 1 cm, el II de 1 a 10 cm sin daño extenso de tejidos blandos, el III mayor de 10 cm o con alta energía y daño grave, y se subdivide en IIIA (cobertura posible), IIIB (pérdida de tejido que requiere colgajo) y IIIC (lesión vascular que requiere reparación). La secuencia del manejo inicial comienza con la reanimación según ATLS, la cobertura estéril de la herida, la inmovilización provisional con férula, la profilaxis antitetánica y los antibióticos intravenosos tempranos, de preferencia en la primera hora (cefalosporina de primera generación, con cobertura gramnegativa añadida en el tipo III). El tratamiento definitivo de la lesión es el desbridamiento quirúrgico urgente, con lavado abundante y resección de tejido desvitalizado, seguido de la estabilización ósea (fijación externa o clavo) y la cobertura de tejidos blandos. La fijación con placas, el enclavado o el yeso sin limpieza previa dejan atrapada la contaminación, y la fijación externa es una forma de estabilización, no el primer paso. Perla clínica: el antibiótico precoz importa más que el tiempo exacto hasta el quirófano.",
+      "comentario": "Una fractura abierta comunica el foco óseo con el exterior, por lo que el hueso está contaminado y existe riesgo de infección y de pseudoartrosis. Se clasifica con Gustilo y Anderson: el tipo I tiene herida menor de 1 cm, el II de 1 a 10 cm sin daño extenso de tejidos blandos, el III mayor de 10 cm o con alta energía y daño grave, y se subdivide en IIIA (cobertura posible), IIIB (pérdida de tejido que requiere colgajo) y IIIC (lesión vascular que requiere reparación). La secuencia del manejo inicial comienza con la reanimación según ATLS, la cobertura estéril de la herida, la inmovilización provisional con férula, la profilaxis antitetánica y los antibióticos intravenosos tempranos, de preferencia en la primera hora (cefalosporina de primera generación, con cobertura gramnegativa añadida en el tipo III). El tratamiento definitivo de la lesión es el desbridamiento quirúrgico urgente, con lavado abundante y resección de tejido desvitalizado, seguido de la estabilización ósea (fijación externa o clavo) y la cobertura de tejidos blandos. La fijación con placas, el enclavado o el yeso sin limpieza previa dejan atrapada la contaminación, y la fijación externa es una forma de estabilización, no el primer paso. Perla clínica: el antibiótico precoz importa más que el tiempo exacto hasta el quirófano.",
+      "tema": "Manejo inicial de las fracturas abiertas",
+      "año": 2015,
+      "fuentes": "Hoff WS y cols. EAST practice management guidelines: update to practice management guidelines for prophylactic antibiotic use in open fractures (J Trauma 2011); ATLS, 10.ª ed. (American College of Surgeons, 2018)",
+      "categoria": "Fracturas",
+      "nota_revision": "Bloque dañado; opciones reconstruidas desde la imagen y la clave B del libro. La pregunta del libro es 'manejo inicial', y se mantiene el desbridamiento; se aclara en el comentario que antes se da antibiótico y se inmoviliza."
+    },
+    {
+      "id": "RM-TRA-047",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "La erosión cutánea por el aparato de yeso es una complicación que puede ser devastadora. ¿Por qué se ocasiona?",
+      "opciones": [
+        "Acojinamiento insuficiente sobre prominencia ósea.",
+        "Colocación de la férula en muy corto tiempo.",
+        "Falta de cubierta con manga.",
+        "Falta de cubierta con calcetín de tela.",
+        "Férula de gran espesor."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El yeso inmoviliza las fracturas de forma incruenta, pero puede causar lesiones graves si se coloca mal. La más temida es el síndrome compartimental, por un yeso circular apretado sobre un miembro con edema, y la segunda son las úlceras por presión, que aparecen sobre las prominencias óseas cuando el almohadillado es escaso o desigual: maléolos, cabeza del peroné, talón, olécranon, apófisis estiloides, cresta ilíaca y rótula. La presión mantenida sobre la piel que cubre al hueso produce isquemia local y necrosis, que puede evolucionar a infección profunda y osteomielitis. Los principios para evitarlo son inmovilizar la articulación proximal y la distal a la fractura, acolchar de forma uniforme las prominencias, no dejar pliegues del algodón ni del yeso, dejar los dedos descubiertos para evaluar color, temperatura y sensibilidad, y no aplicar un yeso circular definitivo cuando hay edema marcado. Por ello la causa del enunciado es el acojinamiento insuficiente. La colocación breve de una férula, la ausencia de manga o de calcetín (que solo facilitan el retiro y la higiene) y un espesor mayor no son la causa directa de la erosión, aunque un yeso demasiado grueso retiene calor. Perla clínica: el dolor localizado y el olor bajo el yeso obligan a abrir una ventana.",
+      "comentario": "El yeso inmoviliza las fracturas de forma incruenta, pero puede causar lesiones graves si se coloca mal. La más temida es el síndrome compartimental, por un yeso circular apretado sobre un miembro con edema, y la segunda son las úlceras por presión, que aparecen sobre las prominencias óseas cuando el almohadillado es escaso o desigual: maléolos, cabeza del peroné, talón, olécranon, apófisis estiloides, cresta ilíaca y rótula. La presión mantenida sobre la piel que cubre al hueso produce isquemia local y necrosis, que puede evolucionar a infección profunda y osteomielitis. Los principios para evitarlo son inmovilizar la articulación proximal y la distal a la fractura, acolchar de forma uniforme las prominencias, no dejar pliegues del algodón ni del yeso, dejar los dedos descubiertos para evaluar color, temperatura y sensibilidad, y no aplicar un yeso circular definitivo cuando hay edema marcado. Por ello la causa del enunciado es el acojinamiento insuficiente. La colocación breve de una férula, la ausencia de manga o de calcetín (que solo facilitan el retiro y la higiene) y un espesor mayor no son la causa directa de la erosión, aunque un yeso demasiado grueso retiene calor. Perla clínica: el dolor localizado y el olor bajo el yeso obligan a abrir una ventana.",
+      "tema": "Complicaciones cutáneas por aparato de yeso",
+      "año": 2018,
+      "fuentes": "Difazio RL y cols. Reducing the incidence of cast-related skin complications in children treated with cast immobilization (J Pediatr Orthop 2017); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Fracturas",
+      "nota_revision": "Bloque dañado; enunciado completado con la imagen de la página y clave A del libro (respuesta A). La frase 'aparato de yeso' completa el enunciado truncado por el OCR."
+    },
+    {
+      "id": "RM-TRA-048",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Futbolista con dolor en rodilla derecha de 6 días de evolución, recibió tratamiento con AINES; hace 2 días presenta sensación de alza térmica e incapacidad funcional. Examen: PA 140/80 mmHg, FC 100 por minuto, temperatura 39 °C, saturación de oxígeno 97 %; rodilla derecha aumentada de volumen, flogótica, dolorosa a la movilización; se diagnostica artritis séptica. ¿Cuál es la conducta terapéutica a seguir?",
+      "opciones": [
+        "Artrotomía abierta y drenaje.",
+        "Antibioticoterapia sistémica.",
+        "Punción articular y drenaje.",
+        "Artrotomía abierta e irrigación.",
+        "Desbridamiento e irrigación por artroscopia."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La artritis séptica es una urgencia ortopédica: la infección bacteriana, casi siempre por Staphylococcus aureus, destruye el cartílago en pocos días por las enzimas del pus y la presión intraarticular. Se sospecha con monoartritis aguda, fiebre, derrame, dolor intenso al movimiento pasivo e incapacidad para cargar peso. El diagnóstico se confirma con artrocentesis: líquido turbio con más de 50 000 leucocitos/mm³ de predominio de neutrófilos, Gram y cultivo positivos (hasta la mitad de los cultivos pueden ser negativos), junto con leucocitosis y proteína C reactiva elevada. El tratamiento se basa en dos pilares simultáneos: el drenaje articular urgente y los antibióticos intravenosos tras tomar cultivos (cobertura antiestafilocócica, con vancomicina si hay riesgo de SAMR). En la rodilla del adulto, el lavado y desbridamiento artroscópico permite visualizar la articulación, romper las tabicaciones de fibrina, irrigar abundantemente y evitar la artrotomía, con menos complicaciones. Los antibióticos sin drenaje, o la punción repetida, son insuficientes cuando hay pus espeso o tabicaciones, y la artrotomía abierta se reserva para articulaciones inaccesibles, como la cadera en el niño, o si fracasa la artroscopia. Perla clínica: los AINES enmascaran la fiebre y retrasan el diagnóstico.",
+      "comentario": "La artritis séptica es una urgencia ortopédica: la infección bacteriana, casi siempre por Staphylococcus aureus, destruye el cartílago en pocos días por las enzimas del pus y la presión intraarticular. Se sospecha con monoartritis aguda, fiebre, derrame, dolor intenso al movimiento pasivo e incapacidad para cargar peso. El diagnóstico se confirma con artrocentesis: líquido turbio con más de 50 000 leucocitos/mm³ de predominio de neutrófilos, Gram y cultivo positivos (hasta la mitad de los cultivos pueden ser negativos), junto con leucocitosis y proteína C reactiva elevada. El tratamiento se basa en dos pilares simultáneos: el drenaje articular urgente y los antibióticos intravenosos tras tomar cultivos (cobertura antiestafilocócica, con vancomicina si hay riesgo de SAMR). En la rodilla del adulto, el lavado y desbridamiento artroscópico permite visualizar la articulación, romper las tabicaciones de fibrina, irrigar abundantemente y evitar la artrotomía, con menos complicaciones. Los antibióticos sin drenaje, o la punción repetida, son insuficientes cuando hay pus espeso o tabicaciones, y la artrotomía abierta se reserva para articulaciones inaccesibles, como la cadera en el niño, o si fracasa la artroscopia. Perla clínica: los AINES enmascaran la fiebre y retrasan el diagnóstico.",
+      "tema": "Artritis séptica de rodilla: lavado y desbridamiento",
+      "año": 2019,
+      "fuentes": "Mathews CJ y cols. Bacterial septic arthritis in adults (Lancet 2010); Tarazi JM y cols. Decreased complication rate with surgical arthroscopy compared with arthrotomy for treatment of septic arthritis (J Surg Orthop Adv 2025)",
+      "categoria": "Infecciones osteoarticulares",
+      "nota_revision": "Bloque dañado; la clave E está marcada como respuesta en la imagen. Algunos textos aceptan punción repetida, artroscopia o artrotomía, pues el tipo de drenaje depende de la articulación; la artroscopia en la rodilla es la mejor respuesta."
     }
   ]
 }

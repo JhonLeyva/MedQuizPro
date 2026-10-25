@@ -1469,6 +1469,72 @@
       "fuentes": "Goldfrank Toxicologic Emergencies 11.ª ed. (2019); Harrison Principios de Medicina Interna 21.ª ed. (2022); Kaplan y Sadock Sinopsis de Psiquiatría 12.ª ed. (2021)",
       "categoria": "Alcohol",
       "nota_revision": "El enunciado usa una relación aproximada cifra-clínica; con 0,20 g/100 mL predominan los signos de incoordinación, de acuerdo con la clave B."
+    },
+    {
+      "id": "RM-PSI-030",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Médico joven, cursa desde hace varios años con desánimo marcado, ansiedad, hipersomnia y aumento de apetito que perturba su rendimiento. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Distimia.",
+        "Trastorno bipolar I.",
+        "Ansiedad generalizada.",
+        "Depresión mayor.",
+        "Trastorno bipolar II."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El episodio depresivo mayor, según el DSM-5-TR (2022), exige al menos cinco síntomas durante dos semanas, uno de ellos ánimo deprimido o anhedonia, con deterioro funcional: alteración del sueño, del apetito o del peso, fatiga, culpa, dificultad de concentración, enlentecimiento o agitación e ideación suicida. Los síntomas pueden darse con aumento del apetito y del sueño, lo que corresponde al especificador de rasgos atípicos, que se acompaña de reactividad del ánimo, pesadez en las extremidades y sensibilidad al rechazo, y con frecuencia con ansiedad concomitante. El desánimo marcado y la repercusión sobre el trabajo apuntan a una depresión mayor. La distimia, hoy trastorno depresivo persistente, es de menor intensidad y más de dos años, aunque podría considerarse por el curso de años, y requiere descartar episodios mayores. El trastorno bipolar I y II necesitan episodios de manía o hipomanía; la ansiedad generalizada se define por preocupación excesiva, tensión y síntomas somáticos, sin predominio del ánimo bajo. El tratamiento combina psicoterapia cognitivo-conductual y un inhibidor selectivo de la recaptación de serotonina u otro antidepresivo de primera línea, con evaluación del riesgo suicida; la fase aguda dura de 6 a 12 semanas y la de continuación al menos 6 meses. Perla clínica: antes de indicar antidepresivos, descarte antecedentes de manía e hipotiroidismo.",
+      "comentario": "El episodio depresivo mayor, según el DSM-5-TR (2022), exige al menos cinco síntomas durante dos semanas, uno de ellos ánimo deprimido o anhedonia, con deterioro funcional: alteración del sueño, del apetito o del peso, fatiga, culpa, dificultad de concentración, enlentecimiento o agitación e ideación suicida. Los síntomas pueden darse con aumento del apetito y del sueño, lo que corresponde al especificador de rasgos atípicos, que se acompaña de reactividad del ánimo, pesadez en las extremidades y sensibilidad al rechazo, y con frecuencia con ansiedad concomitante. El desánimo marcado y la repercusión sobre el trabajo apuntan a una depresión mayor. La distimia, hoy trastorno depresivo persistente, es de menor intensidad y más de dos años, aunque podría considerarse por el curso de años, y requiere descartar episodios mayores. El trastorno bipolar I y II necesitan episodios de manía o hipomanía; la ansiedad generalizada se define por preocupación excesiva, tensión y síntomas somáticos, sin predominio del ánimo bajo. El tratamiento combina psicoterapia cognitivo-conductual y un inhibidor selectivo de la recaptación de serotonina u otro antidepresivo de primera línea, con evaluación del riesgo suicida; la fase aguda dura de 6 a 12 semanas y la de continuación al menos 6 meses. Perla clínica: antes de indicar antidepresivos, descarte antecedentes de manía e hipotiroidismo.",
+      "tema": "Cuadro depresivo crónico con rasgos atípicos",
+      "año": 2014,
+      "fuentes": "American Psychiatric Association, DSM-5-TR (2022); Lam RW y cols., CANMAT 2023 Update on Clinical Guidelines for Management of Major Depressive Disorder in Adults (Can J Psychiatry 2024); Kaplan y Sadock Sinopsis de Psiquiatría 12.ª ed. (2021)",
+      "categoria": "Trastornos del ánimo",
+      "nota_revision": "La clave del libro es D (depresión mayor). Por el curso de «varios años» la distimia (A) es defendible si se asume una intensidad leve a moderada; se mantiene D por el «desánimo marcado» y la repercusión en el rendimiento. El bloque venía dañado: opciones y clave se reconstruyeron de la imagen de la página (clave D, según el libro)."
+    },
+    {
+      "id": "RM-PSI-031",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "En la adicción y la esquizofrenia, la disfunción de la vía dopaminérgica involucrada es:",
+      "opciones": [
+        "Mesolímbica.",
+        "Nigroestriada.",
+        "Mesocortical.",
+        "Talamocortical.",
+        "Tuberoinfundibular."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cerebro tiene cuatro vías dopaminérgicas principales. La mesolímbica, desde el área tegmental ventral al núcleo accumbens, es el circuito de la recompensa y la motivación: todas las sustancias adictivas elevan la dopamina en el accumbens, lo que produce placer y refuerzo, y el uso crónico altera este circuito hasta generar craving y dependencia. En la esquizofrenia, la hiperactividad dopaminérgica mesolímbica, con exceso de receptores D2, explica los síntomas positivos (alucinaciones, delirios) y es el blanco de los antipsicóticos, que bloquean los D2. Esto justifica que la opción correcta sea la mesolímbica en ambas enfermedades. La vía mesocortical, hacia la corteza prefrontal, está hipoactiva en la esquizofrenia y se asocia a los síntomas negativos y cognitivos, pero no es el sustrato principal de la adicción. La nigroestriada controla el movimiento y su bloqueo produce síntomas extrapiramidales y parkinsonismo; la tuberoinfundibular inhibe la prolactina, y su bloqueo provoca hiperprolactinemia con galactorrea y amenorrea. La vía talamocortical no es una vía dopaminérgica clásica, sino de relevo sensitivo, y se estudia por su rol en las alteraciones del filtrado de información. Perla clínica: los antipsicóticos de segunda generación tienen menos efectos extrapiramidales por su afinidad por 5-HT2A o su agonismo parcial dopaminérgico.",
+      "comentario": "El cerebro tiene cuatro vías dopaminérgicas principales. La mesolímbica, desde el área tegmental ventral al núcleo accumbens, es el circuito de la recompensa y la motivación: todas las sustancias adictivas elevan la dopamina en el accumbens, lo que produce placer y refuerzo, y el uso crónico altera este circuito hasta generar craving y dependencia. En la esquizofrenia, la hiperactividad dopaminérgica mesolímbica, con exceso de receptores D2, explica los síntomas positivos (alucinaciones, delirios) y es el blanco de los antipsicóticos, que bloquean los D2. Esto justifica que la opción correcta sea la mesolímbica en ambas enfermedades. La vía mesocortical, hacia la corteza prefrontal, está hipoactiva en la esquizofrenia y se asocia a los síntomas negativos y cognitivos, pero no es el sustrato principal de la adicción. La nigroestriada controla el movimiento y su bloqueo produce síntomas extrapiramidales y parkinsonismo; la tuberoinfundibular inhibe la prolactina, y su bloqueo provoca hiperprolactinemia con galactorrea y amenorrea. La vía talamocortical no es una vía dopaminérgica clásica, sino de relevo sensitivo, y se estudia por su rol en las alteraciones del filtrado de información. Perla clínica: los antipsicóticos de segunda generación tienen menos efectos extrapiramidales por su afinidad por 5-HT2A o su agonismo parcial dopaminérgico.",
+      "tema": "Vía dopaminérgica mesolímbica en esquizofrenia y adicción",
+      "año": 2015,
+      "fuentes": "Volkow ND, Blanco C, Substance use disorders: a comprehensive update (World Psychiatry 2023); McCutcheon RA y cols., Dopamine and glutamate in schizophrenia: biology, symptoms and treatment (World Psychiatry 2020); Kaplan y Sadock Sinopsis de Psiquiatría 12.ª ed. (2021)",
+      "categoria": "Neurobiología",
+      "nota_revision": "Bloque dañado: las opciones B a E se reconstruyeron de la página siguiente del libro (nigroestriada, mesocortical, talamocortical, tuberoinfundibular); clave A confirmada."
+    },
+    {
+      "id": "RM-PSI-032",
+      "especialidad": "Psiquiatría",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, alcohólica crónica, refiere retraso menstrual de 3 semanas. Prueba de embarazo positiva. Además de hipoplasia maxilar, ¿qué otro efecto en el producto se puede presentar por el consumo de alcohol durante la gestación?",
+      "opciones": [
+        "Retardo mental.",
+        "Sordera.",
+        "Gastrosquisis.",
+        "Glaucoma.",
+        "Focomelia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El alcohol atraviesa la placenta y es teratógeno en cualquier trimestre, sin una dosis segura conocida. El espectro de trastornos del alcohol fetal incluye el síndrome alcohólico fetal, que se diagnostica por un patrón característico de dismorfia facial (fisuras palpebrales cortas, surco nasolabial liso, labio superior delgado e hipoplasia del tercio medio de la cara), retraso de crecimiento pre y posnatal, y disfunción del sistema nervioso central con microcefalia, déficit intelectual, hiperactividad y problemas de aprendizaje. Pueden coexistir cardiopatías, como las comunicaciones interauriculares e interventriculares, y anomalías renales y esqueléticas. Los criterios actualizados de Hoyme (2016) combinan estas tres áreas con el antecedente de exposición. La discapacidad intelectual, antes llamada retardo mental, es el efecto neurológico más importante y es una de las causas prevenibles más frecuentes de esta condición. La sordera sensorineural puede asociarse pero es menos característica; la gastrosquisis se relaciona con el tabaco, la edad materna joven y algunos fármacos; el glaucoma y la focomelia, esta última típica de la talidomida, no forman parte del síndrome. La prevención consiste en la abstinencia total durante el embarazo y en la intervención breve y el tratamiento de la dependencia. Perla clínica: no hay una cantidad de alcohol segura, y el daño neurológico puede ocurrir sin dismorfia.",
+      "comentario": "El alcohol atraviesa la placenta y es teratógeno en cualquier trimestre, sin una dosis segura conocida. El espectro de trastornos del alcohol fetal incluye el síndrome alcohólico fetal, que se diagnostica por un patrón característico de dismorfia facial (fisuras palpebrales cortas, surco nasolabial liso, labio superior delgado e hipoplasia del tercio medio de la cara), retraso de crecimiento pre y posnatal, y disfunción del sistema nervioso central con microcefalia, déficit intelectual, hiperactividad y problemas de aprendizaje. Pueden coexistir cardiopatías, como las comunicaciones interauriculares e interventriculares, y anomalías renales y esqueléticas. Los criterios actualizados de Hoyme (2016) combinan estas tres áreas con el antecedente de exposición. La discapacidad intelectual, antes llamada retardo mental, es el efecto neurológico más importante y es una de las causas prevenibles más frecuentes de esta condición. La sordera sensorineural puede asociarse pero es menos característica; la gastrosquisis se relaciona con el tabaco, la edad materna joven y algunos fármacos; el glaucoma y la focomelia, esta última típica de la talidomida, no forman parte del síndrome. La prevención consiste en la abstinencia total durante el embarazo y en la intervención breve y el tratamiento de la dependencia. Perla clínica: no hay una cantidad de alcohol segura, y el daño neurológico puede ocurrir sin dismorfia.",
+      "tema": "Efecto fetal del alcohol: discapacidad intelectual",
+      "año": 2017,
+      "fuentes": "Hoyme HE y cols., Updated Clinical Guidelines for Diagnosing Fetal Alcohol Spectrum Disorders (Pediatrics 2016); Kaplan y Sadock Sinopsis de Psiquiatría 12.ª ed. (2021)",
+      "categoria": "Adicciones",
+      "nota_revision": "Bloque dañado: opciones y clave (A) reconstruidas de la imagen de la página."
     }
   ]
 }
