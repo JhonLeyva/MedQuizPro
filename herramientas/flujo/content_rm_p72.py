@@ -59,7 +59,7 @@ S("laboratorio", "RM-PED-214", "Ictericia indirecta de 18 mg/dL con anemia y dol
             ("Bilirrubina total", "20 mg/dL", "Menos de 1,2 mg/dL", "↑", "Ictericia intensa."),
             ("Bilirrubina indirecta", "18 mg/dL", "Menos de 0,8 mg/dL", "↑", "Predominio indirecto: hemólisis, no hepatitis."),
             ("Hemoglobina", "8 g/dL", "11,5 a 15,5 g/dL", "↓", "Anemia moderada con hepatoesplenomegalia."),
-            ("Reticulocitos, LDH y haptoglobina", "Por pedir", "Retic. y LDH altos; haptoglobina baja", "↑", "Confirman la destrucción y la reacción medular.")],
+            ("Retic., LDH, haptoglobina", "Por pedir", "LDH ↑; haptoglobina ↓", "↑", "Confirman la destrucción y la reacción medular.")],
          veredicto=("Bilirrubina indirecta alta + anemia + esfuerzo = crisis hemolítica", "Miólisis, vasculitis y síndrome antifosfolipídico no dan hemólisis franca.")))
 
 # 215 · TERMÓMETRO · PTI
@@ -77,8 +77,8 @@ S("termometro", "RM-PED-215", "Niño sano con petequias, epistaxis y plaquetas d
   d=dict(rotulo="Recuento de plaquetas y conducta", caso_nivel=2, ruta_titulo="Cómo se maneja el caso", paso_label="PASO",
          niveles=[("150 000 o más", "Recuento normal", ["No hay plaquetopenia"]),
                   ("< 100 000", "Definición de PTI", ["Si es aislada y sin otra causa"]),
-                  ("20 000 (caso)", "PTI con sangrado leve a moderado", ["Epistaxis y petequias: observar"]),
-                  ("Mucoso importante", "Sangrado: tratar", ["IgIV o corticoide en ciclo corto"])],
+                  ("20 000 (caso)", "PTI con sangrado leve", ["Epistaxis y petequias: observar"]),
+                  ("Mucoso mayor", "Sangrado: tratar", ["IgIV o corticoide en ciclo corto"])],
          pasos=[(1, "Confirmar el cuadro típico", ["Niño sano, sin fiebre ni visceromegalia, leucocitos normales"], False),
                 (2, "No pedir aspirado de médula", ["Se evita en el cuadro típico"], False),
                 (3, "Observar si el sangrado es leve", ["Tratar solo con sangrado mucoso importante"], True)]),
@@ -180,7 +180,7 @@ S("dosis", "RM-PED-219", "Infección tuberculosa latente en el niño: isoniacida
   d=dict(rotulo="Isoniacida preventiva: dosis y esquema", peso=("Niño", "Isoniacida"),
          pasos=[("Dosis", "10 mg/kg al día", "Rango de 7 a 15 mg/kg; máximo 300 mg"),
                 ("Duración", "6 meses", "Hasta 9 meses en inmunodeprimidos"),
-                ("Piridoxina", "Lactancia o desnutrición", "Evita la neuropatía")],
+                ("Piridoxina", "Suplemento", "Si hay lactancia o desnutrición")],
          alternativas=[("Isoniacida", "Tratamiento de la infección latente", True), ("Rifampicina", "Alternativa de 3 a 4 meses", False), ("Etambutol", "Tuberculosis activa", False),
                        ("Pirazinamida", "Tuberculosis activa", False), ("Estreptomicina", "Tuberculosis activa o resistente", False)],
          veredicto=("Infección latente = isoniacida", "Etambutol, pirazinamida y estreptomicina son para tuberculosis activa o resistente.")),
@@ -334,7 +334,7 @@ S("dos_preguntas", "RM-SP-060", "La media de 4, 5, 6, 5 y 7 días de estancia es
   "Daniel WW y Cross CL, Biostatistics: A Foundation for Analysis in the Health Sciences, 11.ª ed. (Wiley, 2018).",
   op=("¿Media?", ["Sí: 27 entre 5", "No: exigiría una suma de 28", "No: suma de más", "No: omite un valor", "No: suma de más"],
       {0: "5,4 días", 1: "5,6 días", 2: "6,1 días", 3: "4,9 días", 4: "6,4 días"}),
-  d=dict(rotulo="Se calcula en dos pasos",
+  d=dict(rotulo="Se calcula en tres pasos",
          pasos=[("¿Cuánto suman los días?", "4 + 5 + 6 + 5 + 7 = 27", "Se suman todos los valores, sin omitir ninguno."),
                 ("¿Entre cuántos pacientes?", "27 entre 5 = 5,4 días", "Se divide entre el número de observaciones."),
                 ("¿Y las otras medidas?", "Mediana 5 y moda 5", "La media se aleja de ellas por el valor extremo de 7.")],

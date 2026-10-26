@@ -19,7 +19,7 @@ S("cuadro", "RM-SP-129", "Centro con equipo completo, cuatro especialidades bás
                      ["Primer nivel", "I-3", "Centro de salud: equipo completo, consulta médica, apoyo al diagnóstico y observación corta, sin internamiento"],
                      ["Primer nivel", "I-4", "Centro con camas de internamiento"],
                      ["Segundo nivel", "II-1 y II-2", "Hospitales con hospitalización, centro quirúrgico y especialidades"],
-                     ["Tercer nivel", "III-1 y III-2", "Hospitales e institutos especializados"]], caso=1, ancho_primera=130,
+                     ["Tercer nivel", "III-1 y III-2", "Hospitales e institutos especializados"]], caso=1, ancho_primera=200,
               nota="Clave del banco; el enunciado es ambiguo y se mantiene el criterio de observación sin internamiento."))
 
 # SP-130 · DOS PREGUNTAS · RISS
@@ -75,7 +75,7 @@ S("balanza", "RM-SP-132", "El estudio transversal mide exposición y desenlace e
       {}),
   d=dict(rotulo="Qué estima cada diseño", gana="der", pregunta="¿Cuál estima la prevalencia?",
          izq=dict(titulo="No estiman prevalencia", peso="OTRO", items=["Casos y controles: odds ratio", "Cohorte: incidencia y riesgo relativo", "Correlacional: datos agregados", "Experimental: eficacia de una intervención"]),
-         der=dict(titulo="Transversal (este caso)", peso="PREVALENCIA", items=["Exposición y desenlace en un momento", "Casos nuevos y antiguos", "Útil para planificar servicios", "No establece causalidad"]),
+         der=dict(titulo="Transversal (este caso)", peso="CASO", items=["Exposición y desenlace en un momento", "Casos nuevos y antiguos", "Útil para planificar servicios", "No establece causalidad"]),
          veredicto=("Prevalencia en la población = estudio transversal", ["Mide casos existentes en un momento dado.", "Los demás diseños estiman otros indicadores."])))
 
 # SP-133 · CUADRO · determinantes sociales
@@ -96,7 +96,7 @@ S("cuadro", "RM-SP-133", "Cohesión social, conducta y factores biológicos son 
                      ["Estructurales", "Posición socioeconómica", "Clase social, ingreso, educación, ocupación, género y raza"],
                      ["Intermediarios", "Circunstancias materiales", "Vivienda, condiciones de trabajo, alimentación"],
                      ["Intermediarios", "Psicosociales, conductuales y biológicos", "Estrés, apoyo y cohesión social, conducta, factores biológicos"],
-                     ["Intermediarios", "Sistema de salud", "Acceso y calidad de la atención"]], caso=3, ancho_primera=130,
+                     ["Intermediarios", "Sistema de salud", "Acceso y calidad de la atención"]], caso=3, ancho_primera=200,
               nota="Clave del banco (A); la opción E es ambigua porque mezcla circunstancias materiales con género y raza."))
 
 # SP-134 · DOS PREGUNTAS · abogacía
@@ -233,7 +233,7 @@ S("antes_despues", "RM-TRA-047", "La erosión cutánea bajo el yeso se debe al a
       {0: "Acojinamiento insuficiente", 1: "Férula colocada en poco tiempo", 2: "Falta de manga", 3: "Falta de calcetín de tela", 4: "Férula de gran espesor"}),
   d=dict(rotulo="Cómo cambia la piel según el acolchado del yeso",
          antes=dict(titulo="Acolchado adecuado", datos=[("Prominencias", "Cubiertas de forma uniforme"), ("Pliegues", "Ninguno"), ("Presión sobre el hueso", "Repartida"), ("Piel", "Íntegra"), ("Dedos", "Descubiertos y vigilados")]),
-         despues=dict(titulo="Acolchado insuficiente", datos=[("Prominencias", "Casi sin protección"), ("Pliegues", "Del algodón o del yeso"), ("Presión sobre el hueso", "Mantenida"), ("Piel", "Isquemia y erosión"), ("Riesgo", "Infección profunda u osteomielitis")]),
+         despues=dict(titulo="Acolchado insuficiente", datos=[("Prominencias", "Casi sin protección"), ("Pliegues", "Del algodón o del yeso"), ("Presión sobre el hueso", "Mantenida"), ("Piel", "Isquemia y erosión"), ("Riesgo", "Infección u osteomielitis")]),
          intervencion="Yeso aplicado sin acojinar bien",
          cambios=[("La presión mantenida produce isquemia local", "mejora"), ("La necrosis cutánea puede infectarse", "mejora"), ("El espesor o la falta de manga no son la causa", "igual")],
          veredicto=("Erosión bajo el yeso = acojinamiento insuficiente", "Manga, calcetín y tiempo de colocación no causan la erosión.")))
@@ -252,7 +252,7 @@ S("laboratorio", "RM-TRA-048", "Artritis séptica de rodilla en el adulto: drena
       {0: "Artrotomía abierta y drenaje", 1: "Antibioticoterapia sistémica", 2: "Punción articular y drenaje", 3: "Artrotomía abierta e irrigación", 4: "Desbridamiento e irrigación por artroscopia"}),
   d=dict(rotulo="Cómo leer el caso y el líquido sinovial", valores=[
             ("Temperatura", "39 °C", "36-37,2 °C", "↑", "Fiebre con rodilla flogótica: infección articular."),
-            ("Frecuencia cardíaca", "100 por min", "60-100", "↑", "Respuesta sistémica a la infección."),
+            ("Frecuencia cardíaca", "100 por min", "60-100", "↑", "Reacción sistémica a la infección."),
             ("Leucocitos del líquido", "Más de 50 000/mm³", "Menos de 200", "↑", "Predominio neutrófilo; Gram y cultivo."),
             ("Proteína C reactiva", "Elevada", "Normal", "↑", "Apoya el diagnóstico y sirve para el seguimiento.")],
          veredicto=("Artritis séptica de rodilla = artroscopia con irrigación y antibióticos", "Antibióticos solos o punciones repetidas no bastan con pus espeso.")))
@@ -280,7 +280,7 @@ S("termometro", "RM-CIR-157", "Piel fría y pegajosa, pulso filiforme, sed y taq
               filas=[["Hipovolémico", "Pérdida de volumen (hemorragia)", "Piel fría y pegajosa, pulso filiforme, sed"],
                      ["Cardiogénico", "Falla de bomba", "Ingurgitación yugular"],
                      ["Obstructivo", "Taponamiento, neumotórax a tensión, embolia", "Ingurgitación yugular"],
-                     ["Distributivo", "Séptico, anafiláctico o neurogénico", "Extremidades suelen estar calientes"]], caso=0, ancho_primera=140))
+                     ["Distributivo", "Séptico, anafiláctico o neurogénico", "Extremidades suelen estar calientes"]], caso=0, ancho_primera=200))
 
 # INF-075 · CARRILES · intoxicación por clonazepam
 S("carriles", "RM-INF-075", "En la sobredosis de clonazepam el antídoto es el flumazenilo, reservado a depresión respiratoria o coma",
