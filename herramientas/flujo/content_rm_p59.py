@@ -36,11 +36,11 @@ S("cuadro", "RM-GIN-209", "Los anticonceptivos orales combinados están contrain
       {0: "Dispositivo intrauterino", 1: "Método de barrera", 2: "Progestágenos inyectables", 3: "Píldoras de solo progestágenos", 4: "Anticonceptivos orales combinados"}),
   d=dict(veredicto=("Lactancia + estrógeno = método combinado contraindicado", "DIU, barrera y progestágenos solos no alteran la producción de leche.")),
   clasif=dict(titulo="Métodos anticonceptivos durante la lactancia (OMS 2015)", cols=["Método", "Lactancia", "Comentario"],
-              filas=[["Combinados (píldora, parche, anillo)", "Categoría 4 (< 6 semanas); 3 (6 semanas a 6 meses); 2 (> 6 meses)", "El estrógeno reduce el volumen de leche"],
+              filas=[["Combinados", "Categoría 4 (< 6 semanas); 3 (6 semanas a 6 meses); 2 (> 6 meses)", "El estrógeno reduce el volumen de leche"],
                      ["Píldora de solo progestágeno", "Compatible", "No altera la leche"],
                      ["Progestágeno inyectable o implante", "Compatible", "Inicio según el momento posparto"],
                      ["DIU de cobre o de levonorgestrel", "Compatible", "Sin efecto en la leche ni en el lactante"],
-                     ["Métodos de barrera", "Compatible", "Sin restricción"]], caso=0, ancho_primera=235))
+                     ["Métodos de barrera", "Compatible", "Sin restricción"]], caso=0, ancho_primera=205))
 
 # 210 · BALANZA · mioma que más sangra
 S("balanza", "RM-GIN-210", "El mioma submucoso sangra más: distorsiona la cavidad y produce hipermenorrea con coágulos",
@@ -132,7 +132,7 @@ S("lectura", "RM-GIN-213", "Papanicolaou con lesión escamosa de alto grado (HSI
                 ("4. Tratamiento", "Escisión (LEEP) o conización según el resultado y la visibilidad del cuello.", False)],
          veredicto=("HSIL en el Papanicolaou = colposcopia con biopsia", "Conización, histerectomía, laparoscopia y tomografía no son el primer paso.")),
   clasif=dict(titulo="Conducta ante HSIL según el grupo de la paciente (ASCCP 2019)", cols=["Situación", "Conducta"],
-              filas=[["25 años o más, no embarazada", "Colposcopia con biopsia dirigida (estándar); escisión inmediata si el riesgo de CIN 3+ es de 60 % o más"],
+              filas=[["25 años o más", "No embarazada: colposcopia con biopsia dirigida (estándar); escisión inmediata si el riesgo de CIN 3+ es de 60 % o más"],
                      ["Menor de 25 años o embarazada", "Solo colposcopia con biopsia; sin tratamiento inmediato"],
                      ["Colposcopia insatisfactoria, discrepancia o legrado positivo", "Conización diagnóstica o terapéutica"]], caso=0, ancho_primera=270))
 
@@ -152,7 +152,7 @@ S("cuadro", "RM-GIN-214", "La muerte por atonía uterina es una muerte materna d
   clasif=dict(titulo="Tipos de muerte materna (CIE-MM, OMS)", cols=["Tipo", "Definición", "Ejemplos"],
               filas=[["Directa", "Complicación obstétrica de embarazo, parto o puerperio, o su tratamiento", "Hemorragia posparto por atonía (este caso), preeclampsia, sepsis, embolia"],
                      ["Indirecta", "Enfermedad previa o intercurrente no obstétrica agravada por el embarazo", "Cardiopatía, VIH, tuberculosis"],
-                     ["Tardía", "Entre 42 días y un año tras el término de la gestación", "Causa directa o indirecta con aparición diferida"]], caso=0, ancho_primera=130))
+                     ["Tardía", "Entre 42 días y un año tras el término de la gestación", "Causa directa o indirecta con aparición diferida"]], caso=0, ancho_primera=200))
 
 # 215 · ALARMA · desprendimiento prematuro de placenta
 S("alarma", "RM-GIN-215", "Dolor abdominal súbito intenso, útero hipertónico, sangrado y LCF de 110: desprendimiento prematuro de placenta",
@@ -176,11 +176,11 @@ S("alarma", "RM-GIN-215", "Dolor abdominal súbito intenso, útero hipertónico,
          accion=("Estabilizar y finalizar el embarazo", "Vías, transfusión y control de la coagulación; finalizar el embarazo, por cesárea de urgencia si el feto está vivo y comprometido."), accion_rotulo="Con desprendimiento confirmado",
          veredicto=("Dolor + hipertonía + sangrado + hipotensión = desprendimiento", "Previa es indolora; vasa previa tiene bradicardia con rotura; rotura uterina cesa las contracciones.")),
   clasif=dict(titulo="Hemorragia del tercer trimestre: diagnóstico diferencial", cols=["Diagnóstico", "Cómo se presenta"],
-              filas=[["Desprendimiento prematuro de placenta", "Sangrado oscuro, dolor intenso, útero hipertónico, sufrimiento fetal"],
+              filas=[["Desprendimiento", "Sangrado oscuro, dolor intenso, útero hipertónico, sufrimiento fetal"],
                      ["Placenta previa", "Sangrado rojo brillante, indoloro, útero relajado"],
                      ["Vasa previa", "Sangrado con rotura de membranas y bradicardia fetal súbita"],
                      ["Rotura uterina", "Cesan las contracciones; partes fetales palpables; cicatriz previa"],
-                     ["Rotura del seno marginal", "Sangrado leve, sin repercusión fetal"]], caso=0, ancho_primera=250))
+                     ["Rotura del seno marginal", "Sangrado leve, sin repercusión fetal"]], caso=0, ancho_primera=235))
 
 # 216 · DOS PREGUNTAS · mastitis puerperal
 S("dos_preguntas", "RM-GIN-216", "Staphylococcus aureus es el germen más frecuente de la mastitis puerperal",
@@ -200,7 +200,7 @@ S("dos_preguntas", "RM-GIN-216", "Staphylococcus aureus es el germen más frecue
                 ("¿Cómo se maneja?", "Vaciar la mama, AINE y antibiótico si no mejora en 12 a 24 horas", "Cefalexina o dicloxacilina; clindamicina o TMP-SMX si se sospecha SARM. No suspender la lactancia.")],
          veredicto=("Mastitis puerperal = Staphylococcus aureus", "Los gramnegativos y el enterococo son causas raras.")),
   clasif=dict(titulo="Microorganismos de la mastitis puerperal", cols=["Microorganismo", "Frecuencia"],
-              filas=[["Staphylococcus aureus (incluido SARM)", "El más frecuente: la gran mayoría de los casos"],
+              filas=[["S. aureus (incluido SARM)", "El más frecuente: la gran mayoría de los casos"],
                      ["Estreptococos y estafilococos coagulasa negativos", "Menos comunes"],
                      ["Klebsiella, Proteus y Enterococcus faecalis", "Causas raras"]], caso=0, ancho_primera=330))
 
@@ -223,8 +223,8 @@ S("piramide", "RM-GIN-217", "La atrofia endometrial es la causa más frecuente d
                   ("4", "Cáncer de endometrio", "Cerca de 10 %; la causa que nunca debe omitirse")],
          veredicto=("Sangrado escaso marrón + FUR hace 9 años = atrofia", "El pólipo cervical y la carúncula son locales; la hiperplasia y el cáncer suelen tener factores de riesgo.")),
   clasif=dict(titulo="Ecografía transvaginal en el sangrado posmenopáusico", cols=["Grosor endometrial", "Conducta"],
-              filas=[["4 mm o menos y homogéneo", "Cáncer improbable: observar y tratar la atrofia"],
-                     ["Más de 4 mm o heterogéneo", "Biopsia endometrial"]], caso=0, ancho_primera=250))
+              filas=[["4 mm o menos", "Cáncer improbable: observar y tratar la atrofia"],
+                     ["Más de 4 mm", "Biopsia endometrial (también si es heterogéneo)"]], caso=0, ancho_primera=200))
 
 # 218 · DOS PREGUNTAS · razón de mortalidad materna
 S("dos_preguntas", "RM-GIN-218", "La razón de mortalidad materna se expresa por 100 000 nacidos vivos",
@@ -244,9 +244,9 @@ S("dos_preguntas", "RM-GIN-218", "La razón de mortalidad materna se expresa por
                 ("¿Qué valor y meta hay?", "223 por 100 000 en 2020; ODS 3.1: menos de 70 para 2030", "Indicador de inequidad y capacidad resolutiva del sistema de salud.")],
          veredicto=("Razón de mortalidad materna = por 100 000 nacidos vivos", "Los multiplicadores de 1000 y 10 000 son de otros indicadores.")),
   clasif=dict(titulo="Indicadores de mortalidad materna", cols=["Indicador", "Numerador", "Denominador"],
-              filas=[["Razón de mortalidad materna", "Muertes maternas", "Nacidos vivos x 100 000"],
-                     ["Tasa de mortalidad materna", "Muertes maternas", "Mujeres en edad fértil"],
-                     ["Proporción de muertes maternas", "Muertes maternas", "Defunciones de mujeres en edad reproductiva"]], caso=0, ancho_primera=250))
+              filas=[["Razón", "Muertes maternas", "Nacidos vivos x 100 000"],
+                     ["Tasa", "Muertes maternas", "Mujeres en edad fértil"],
+                     ["Proporción", "Muertes maternas", "Defunciones de mujeres en edad reproductiva"]], caso=0, ancho_primera=170))
 
 # 219 · CASCADA · hiperémesis y Wernicke
 S("cascada", "RM-GIN-219", "Vómitos, confusión, nistagmo y ataxia en la gestante: encefalopatía de Wernicke por déficit de tiamina",
@@ -280,8 +280,8 @@ S("antes_despues", "RM-GIN-220", "El teratoma inmaduro es el tumor maligno de ov
   op=("¿Tumor maligno de ovario?", ["No: casi siempre benigno, de estroma epitelial", "Sí: neuroepitelio inmaduro; se gradúa de 1 a 3", "No: benigno; solo 1 a 2 % se maligniza", "No: lesión benigna; transformación rara", "No: benigno; su contraparte maligna es el cistoadenocarcinoma"],
       {0: "Tumor de Brenner", 1: "Teratoma inmaduro", 2: "Teratoma maduro", 3: "Endometrioma", 4: "Cistoadenoma"}),
   d=dict(rotulo="Teratoma maduro frente a inmaduro",
-         antes=dict(titulo="Teratoma maduro", datos=[("Comportamiento", "Benigno"), ("Tejido", "Bien diferenciado, de las tres capas"), ("Edad", "Mujer joven"), ("Malignización", "1 a 2 %, a carcinoma escamoso"), ("Conducta", "Quistectomía")]),
-         despues=dict(titulo="Teratoma inmaduro", datos=[("Comportamiento", "Maligno"), ("Tejido", "Neuroepitelio inmaduro"), ("Edad", "Menores de 25 años"), ("Marcador", "A veces AFP elevada"), ("Conducta", "Cirugía con estadificación; BEP si hay grado alto")]),
+         antes=dict(titulo="Teratoma maduro", datos=[("Comportamiento", "Benigno"), ("Tejido", "Bien diferenciado"), ("Edad", "Mujer joven"), ("Malignización", "1 a 2 % se maligniza"), ("Conducta", "Quistectomía")]),
+         despues=dict(titulo="Teratoma inmaduro", datos=[("Comportamiento", "Maligno"), ("Tejido", "Neuroepitelio inmaduro"), ("Edad", "Menores de 25 años"), ("Marcador", "A veces AFP elevada"), ("Conducta", "Cirugía y BEP")]),
          intervencion="Aparece neuroepitelio inmaduro",
          cambios=[("De tejido bien diferenciado a neuroepitelio inmaduro", "mejora"), ("De benigno a maligno, graduado de 1 a 3", "mejora"), ("En ambos, cirugía que conserve la fertilidad", "igual")],
          veredicto=("Teratoma inmaduro = tumor maligno de ovario", "Brenner, cistoadenoma, endometrioma y teratoma maduro son benignos.")),
@@ -305,9 +305,9 @@ S("laboratorio", "RM-GIN-221", "Amenorrea, obesidad e hirsutismo con ecografía 
   op=("¿Causa más probable?", ["No: genitales ambiguos", "No: amenorrea tras legrado, sin hirsutismo", "No: hay galactorrea y no hiperandrogenismo", "Sí: dos criterios de Rotterdam presentes", "No: FSH alta y síntomas de hipoestrogenismo"],
       {0: "Hermafroditismo verdadero", 1: "Síndrome de Asherman", 2: "Hiperprolactinemia", 3: "Síndrome de ovarios poliquísticos", 4: "Insuficiencia ovárica primaria"}),
   d=dict(rotulo="Criterios de Rotterdam frente a la paciente", valores=[
-            ("Disfunción ovulatoria", "Amenorrea", "Ciclos ovulatorios regulares", "↓", "Criterio 1 cumplido: anovulación crónica."),
-            ("Hiperandrogenismo", "Hirsutismo", "Sin signos de hiperandrogenismo", "↑", "Criterio 2 cumplido: basta con el hiperandrogenismo clínico."),
-            ("Ovarios poliquísticos o AMH", "Ecografía normal", "Morfología poliquística o AMH elevada", "=", "El tercer criterio no es necesario: bastan dos de tres."),
+            ("Disfunción ovulatoria", "Amenorrea", "Ciclos regulares", "↓", "Criterio 1 cumplido: anovulación crónica."),
+            ("Hiperandrogenismo", "Hirsutismo", "Sin hirsutismo", "↑", "Criterio 2 cumplido: basta con el hiperandrogenismo clínico."),
+            ("Ovarios poliquísticos o AMH", "Ecografía normal", "Poliquística o AMH alta", "=", "El tercer criterio no es necesario: bastan dos de tres."),
             ("Peso corporal", "Obesidad", "IMC normal", "↑", "Resistencia a la insulina que agrava el cuadro.")],
          veredicto=("Amenorrea + hirsutismo = SOP aunque la ecografía sea normal", "Asherman, hiperprolactinemia, insuficiencia ovárica y hermafroditismo tienen otro cuadro.")),
   clasif=dict(titulo="Criterios de Rotterdam (guía internacional 2023)", cols=["Criterio", "Qué se evalúa", "Paciente"],
@@ -332,7 +332,7 @@ S("reloj", "RM-GIN-222", "En la multípara sin analgesia el expulsivo esperado d
          pasos=[("0 min", "Dilatación completa", "10 cm: comienza el expulsivo de la G3 P2002", False),
                 ("1 hora", "Límite clásico", "Multípara sin analgesia: más tiempo = expulsivo prolongado (este caso)", True),
                 ("2 horas", "Con analgesia o guías actuales", "Aceptable en la multípara si hay progreso y feto tranquilizador", False),
-                ("Sin descenso", "Detención del descenso", "Parto instrumental o cesárea", False)],
+                ("Fin", "Detención del descenso", "Parto instrumental o cesárea", False)],
          tag="1 HORA",
          veredicto=("Multípara sin analgesia = 1 hora", "Las 3 y 4 horas son de nulíparas con analgesia o de un expulsivo muy prolongado.")),
   clasif=dict(titulo="Expulsivo prolongado según la definición clásica (ACOG)", cols=["Paridad", "Sin analgesia", "Con analgesia"],
@@ -353,7 +353,7 @@ S("linea_vida", "RM-GIN-223", "PA de 140/90 mmHg elevada antes de las 20 semanas
   op=("¿Diagnóstico?", ["No: faltan proteinuria nueva o criterios de severidad", "No: requiere convulsiones", "No: requiere inicio después de las 20 semanas", "No: aparece después de las 20 semanas", "Sí: elevada antes de las 20 semanas"],
       {0: "Preeclampsia superpuesta a hipertensión crónica", 1: "Eclampsia", 2: "Síndrome de preeclampsia", 3: "Hipertensión gestacional", 4: "Hipertensión arterial crónica"}),
   d=dict(rotulo="Trastornos hipertensivos según las semanas de gestación", eje=(0, 40, 4), unidad="semanas",
-         barras=[("Hipertensión crónica (este caso)", 0, 20, "PA de 140/90 mmHg o más antes de las 20 semanas", True),
+         barras=[("Hipertensión crónica (este caso)", 0, 20, "PA de 140/90 mmHg antes de las 20 s", True),
                  ("Hipertensión gestacional", 20, 40, "Sin proteinuria ni disfunción de órganos", False),
                  ("Preeclampsia", 20, 40, "Proteinuria o daño de órgano blanco", False),
                  ("Aspirina 81 mg diaria", 12, 40, "Desde las 12 a 16 semanas", False)],
