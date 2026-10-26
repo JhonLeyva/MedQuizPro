@@ -87,7 +87,7 @@ S("carriles", "RM-OFT-031", "Epistaxis sin punto visible que persiste y se deglu
   clasif=dict(titulo="Epistaxis anterior y posterior", cols=["Tipo", "Origen", "Hallazgos", "Manejo"],
               filas=[["Anterior", "Plexo de Kiesselbach (área de Little)", "Punto visible; sangre por el vestíbulo", "Presión, vasoconstrictor, cauterización y tapón anterior"],
                      ["Posterior", "Ramas de la arteria esfenopalatina", "Sin punto visible; sangre hacia la faringe; rutilante y profusa", "Taponamiento posterior con balón o gasa, con hospitalización"]],
-              caso=1, ancho_primera=140))
+              caso=1, ancho_primera=200))
 
 # NEF-046 · LÍNEA DE VIDA · torsión testicular
 S("linea_vida", "RM-NEF-046", "Dolor escrotal súbito en un niño: torsión testicular hasta demostrar lo contrario; operar antes de 6 horas",
@@ -211,8 +211,8 @@ S("antes_despues", "RM-GIN-152", "La vaginosis bacteriana se diagnostica con 3 d
                      ["Test de aminas", "Positivo: olor a pescado con KOH", "Negativo"], ["Examen en fresco", "Células guía en más de 20 % de las células epiteliales", "Hifas (candidiasis); leucocitos aumentados (tricomoniasis)"]],
               caso=None, ancho_primera=140, nota="Nugent: 0 a 3 normal, 4 a 6 intermedia, 7 a 10 vaginosis bacteriana."))
 
-# INF-073 · DOSIS · Clostridioides difficile
-S("dosis", "RM-INF-073", "En la infección por C. difficile se usa vancomicina oral (125 mg cada 6 horas por 10 días); la fidaxomicina es la preferida hoy",
+# INF-073 · PIRÁMIDE · Clostridioides difficile
+S("piramide", "RM-INF-073", "En la infección por C. difficile se usa vancomicina oral (125 mg cada 6 horas por 10 días); la fidaxomicina es la preferida hoy",
   "Infectología · Clostridioides difficile",
   ("Infección por C. difficile", ["Bacilo anaerobio esporulado; crece tras clindamicina, cefalosporinas o quinolonas.", "Las toxinas A y B causan diarrea y colitis pseudomembranosa."]),
   ("Pregunta de tratamiento", ["¿Qué antibiótico es más eficaz en la infección intestinal por C. difficile?"]),
@@ -223,13 +223,12 @@ S("dosis", "RM-INF-073", "En la infección por C. difficile se usa vancomicina o
   "Johnson S et al., IDSA/SHEA Focused Update C. difficile 2021, Clin Infect Dis 2021;73:e1029-e1044; Kelly CR et al., ACG Guideline C. difficile, Am J Gastroenterol 2021;116:1124-1147; " + HARR + ".",
   op=("¿Antibiótico más eficaz?", ["Sí: oral, no se absorbe y alcanza alta concentración en el colon", "No: sin evidencia en C. difficile", "No: sin evidencia en C. difficile", "No: sin evidencia en C. difficile", "No: alternativa con datos limitados"],
       {0: "Vancomicina oral", 1: "Bacitracina", 2: "Ácido fusídico", 3: "Eritromicina", 4: "Nitazoxanida"}),
-  d=dict(rotulo="Tratamiento de la infección por C. difficile según la gravedad", peso=("Adulto", "Primer episodio"),
-         pasos=[("Primer episodio", "Fidaxomicina", "200 mg c/12 h por 10 días; preferida"),
-                ("Alternativa", "Vancomicina oral", "125 mg c/6 h por 10 días"),
-                ("Fulminante", "Doble esquema", "Vancomicina 500 mg c/6 h más metronidazol IV")],
-         alternativas=[("Vancomicina oral", "Eficaz: opción correcta", True), ("Bacitracina", "Sin evidencia", False), ("Ácido fusídico", "Sin evidencia", False),
-                       ("Eritromicina", "Sin evidencia", False), ("Nitazoxanida", "Datos limitados", False)],
-         veredicto=("Vancomicina oral 125 mg cada 6 horas por 10 días", "El metronidazol dejó de ser primera línea por su menor eficacia.")),
+  d=dict(rotulo="Pasos del tratamiento de la infección por C. difficile", caso=1, pie="▲ primero · ▼ después",
+         niveles=[("1 · Confirmar", "Cuadro compatible y prueba de heces", "Suspender el antibiótico causal si es posible"),
+                  ("2 · Primer episodio", "Vancomicina oral 125 mg c/6 h por 10 días", "Opción de la pregunta; la guía 2021 prefiere fidaxomicina 200 mg c/12 h por 10 días"),
+                  ("3 · Fulminante", "Vancomicina oral 500 mg c/6 h más metronidazol IV", "Vancomicina rectal si hay íleo"),
+                  ("4 · Sin mejoría o megacolon", "Valorar cirugía", "Colectomía en el megacolon tóxico o la perforación")],
+         veredicto=("Vancomicina oral 125 mg cada 6 horas por 10 días", "Bacitracina, ácido fusídico, eritromicina y nitazoxanida no son tratamiento de elección.")),
   clasif=dict(titulo="Gravedad de la infección por C. difficile (IDSA/SHEA 2017, actualización 2021)", cols=["Gravedad", "Criterio", "Tratamiento"],
               filas=[["No grave", "Leucocitos ≤ 15 000/µL y creatinina < 1,5 mg/dL", "Fidaxomicina 200 mg c/12 h (preferida) o vancomicina oral 125 mg c/6 h, 10 días"],
                      ["Grave", "Leucocitos ≥ 15 000/µL o creatinina > 1,5 mg/dL", "Igual: fidaxomicina o vancomicina oral, 10 días"],
