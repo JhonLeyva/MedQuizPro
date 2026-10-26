@@ -45,15 +45,15 @@ S("alarma", "RM-GIN-226", "PA de 170/110 mmHg y cefalea intensa a las 33 semanas
   d=dict(rotulo="Qué hallazgos clasifican la preeclampsia como severa", lista_titulo="Cómo se leen los hallazgos del caso",
          signos=[("PA de 160/110 mmHg o más", "170/110 en el caso: criterio presente", True),
                  ("Cefalea persistente o alteración visual de reciente inicio", "Cefalea intensa en el caso: criterio presente", True),
-                 ("Plaquetas menores de 100 000/µL o transaminasas al doble", "No medidas: pedir hemograma y perfil hepático", True),
-                 ("Creatinina mayor de 1,1 mg/dL o edema pulmonar", "No medidas: pedir creatinina y examinar los pulmones", True),
+                 ("Plaquetas menores de 100 000/µL o transaminasas al doble", "No consta en el caso: pedir hemograma y perfil hepático", False),
+                 ("Creatinina mayor de 1,1 mg/dL o edema pulmonar", "No consta en el caso: pedir creatinina y examinar los pulmones", False),
                  ("PA de 140/90 a 159/109 sin síntomas ni daño de órgano", "Sin severidad: no corresponde al caso", False)],
          accion=("Magnesio, antihipertensivo y corticoide", "Sulfato de magnesio en bolo y mantenimiento, labetalol, hidralazina o nifedipino si la PA severa persiste 15 minutos y betametasona para la madurez pulmonar a las 33 semanas. Con cefalea persistente y PA difícil de controlar se prepara la interrupción del embarazo tras estabilizar."), accion_rotulo="Con signos de severidad",
          veredicto=("Un solo signo de severidad basta", "Con hipertensión sin proteinuria ni daño de órgano sería gestacional; con HTA previa a las 20 semanas, crónica o sobreimpuesta.")),
   clasif=dict(titulo="Trastornos hipertensivos del embarazo (ACOG 2020)", cols=["Trastorno", "Cuándo aparece", "Rasgo clave"],
               filas=[["Hipertensión crónica", "Antes de las 20 semanas", "PA de 140/90 o más previa o antes de la semana 20"],
-                     ["Preeclampsia con signos de severidad (caso)", "Después de las 20 semanas", "PA de 160/110 o más, o daño de órgano, o cefalea persistente"],
-                     ["Preeclampsia sin signos de severidad", "Después de las 20 semanas", "PA de 140/90 a 159/109 con proteinuria o sin daño de órgano"],
+                     ["Preeclampsia severa", "Después de las 20 semanas", "PA de 160/110 o más, o daño de órgano, o cefalea persistente"],
+                     ["Preeclampsia no severa", "Después de las 20 semanas", "PA de 140/90 a 159/109 con proteinuria o sin daño de órgano"],
                      ["Hipertensión gestacional", "Después de las 20 semanas", "Sin proteinuria ni daño de órgano"],
                      ["Preeclampsia sobreimpuesta", "Gestante con HTA crónica", "Empeora la PA o aparece proteinuria o daño de órgano"]], caso=1, ancho_primera=270))
 
@@ -169,9 +169,9 @@ S("matriz", "RM-GIN-231", "Mujer sexualmente activa con dolor hipogástrico, flu
          cells=[[("Dolor hipogástrico y a la movilización cervical", ["Criterio mínimo de los CDC", "Dolor uterino o anexial también vale"]), ("Flujo mucopurulento", ["Ceftriaxona, doxiciclina y metronidazol", "Hospitalizar si hay absceso"])],
                 [("Sin dolor pélvico profundo", ["No duele la movilización cervical", "Vaginosis: flujo fétido sin inflamación"]), ("Flujo sin dolor pélvico", ["Candidiasis: grumoso con prurito", "Tratamiento local o por vía oral"])]]),
   clasif=dict(titulo="Criterios diagnósticos de los CDC 2021", cols=["Tipo", "Criterio", "Valor"],
-              filas=[["Mínimo (basta uno)", "Dolor a la movilización cervical, dolor uterino o dolor anexial", "Inicia el tratamiento empírico"],
+              filas=[["Mínimo", "Dolor a la movilización cervical, dolor uterino o dolor anexial", "Inicia el tratamiento empírico"],
                      ["Adicional", "Fiebre mayor de 38,3 °C, flujo mucopurulento, leucocitos en el frotis, VSG o PCR elevada", "Aumenta la especificidad"],
-                     ["Definitivo", "Endometritis en la biopsia, absceso tuboovárico en imagen o laparoscopía", "Confirma el diagnóstico"]], caso=0, ancho_primera=200))
+                     ["Definitivo", "Endometritis en la biopsia, absceso tuboovárico en imagen o laparoscopía", "Confirma el diagnóstico"]], caso=0, ancho_primera=170))
 
 # GIN-232 · BALANZA · episiotomía mediolateral
 S("balanza", "RM-GIN-232", "La episiotomía mediolateral se hace con un ángulo de 45 a 60 grados desde la horquilla",
@@ -186,8 +186,8 @@ S("balanza", "RM-GIN-232", "La episiotomía mediolateral se hace con un ángulo 
   op=("¿Característica de la mediolateral?", ["No: es propio de la mediana", "No: la mediana duele menos", "Sí: se corta a 45-60 grados", "No: se hace durante la coronación", "No: la mediana sangra menos"],
       {0: "Mayor extensión al recto", 1: "Menos dolor", 2: "Ángulo de 45 a 60 grados", 3: "Tras el desprendimiento de la cabeza", 4: "Menos sangrado"}),
   d=dict(rotulo="Mediolateral frente a mediana", gana="izq", pregunta="¿Cuál es la característica de la mediolateral?",
-         izq=dict(titulo="Episiotomía mediolateral", peso="MEDIOLATERAL", items=["Ángulo de 45 a 60 grados desde la horquilla", "Menor extensión al recto y al esfínter", "Más sangrado y más dolor", "Reparación más difícil"]),
-         der=dict(titulo="Episiotomía mediana", peso="MEDIANA", items=["Sigue la línea media hacia el esfínter", "Mayor extensión a desgarro de grado 3 o 4", "Menos sangrado y menos dolor", "Reparación más fácil"]),
+         izq=dict(titulo="Episiotomía mediolateral", peso="CLAVE", items=["Ángulo de 45 a 60 grados desde la horquilla", "Menor extensión al recto y al esfínter", "Más sangrado y más dolor", "Reparación más difícil"]),
+         der=dict(titulo="Episiotomía mediana", peso="OTRA", items=["Sigue la línea media hacia el esfínter", "Mayor extensión a desgarro de grado 3 o 4", "Menos sangrado y menos dolor", "Reparación más fácil"]),
          veredicto=("Ángulo de 45 a 60 grados = mediolateral", ["La mediana duele menos, sangra menos y se extiende más al recto.", "Ambas se hacen en la coronación, antes de que salga la cabeza."])))
 
 # CB-073 · FASES · reacción acrosómica
@@ -215,7 +215,7 @@ S("termometro", "RM-GIN-233", "Con placenta previa anterior y dos cesáreas prev
   ("Multigesta de 36 semanas", ["G5 P2022, asintomática, con placenta previa anterior.", "Dos cesáreas previas."]),
   ["Riesgo de ácreta con placenta previa según el número de cesáreas (Silver 2006): 3 % sin cesárea, 11 % con una, 40 % con dos, 61 % con tres y 67 % con cuatro o más.",
    "Diagnóstico prenatal: ecografía Doppler con lagunas placentarias, pérdida de la zona clara retroplacentaria e interrupción de la pared vesical; la resonancia complementa.",
-   "Manejo: parto programado alrededor de las 34 a 36 semanas en un centro con banco de sangre y equipo multidisciplinario, y cesárea-histerectomía con la placenta in situ.",
+   "Manejo: parto programado a las 34 0/7 a 35 6/7 semanas en un centro con banco de sangre y equipo multidisciplinario, y cesárea-histerectomía con la placenta in situ.",
    "Alerta: no se intenta el alumbramiento manual ni se tracciona la placenta; la hemorragia puede ser masiva."],
   "Silver RM et al. Obstet Gynecol 2006;107:1226-32; ACOG Obstetric Care Consensus N.º 7 (Obstet Gynecol 2018); FIGO, espectro de placenta ácreta (Int J Gynaecol Obstet 2018); " + WIL + ".",
   op=("¿Complicación más frecuente?", ["No: no se asocia a la cicatriz uterina", "No: es rara y depende de membranas", "No: ocurre en el alumbramiento, no con la cicatriz", "No: es menos frecuente que el acretismo", "Sí: el riesgo crece con las cesáreas y la placenta anterior"], {}),
@@ -225,7 +225,7 @@ S("termometro", "RM-GIN-233", "Con placenta previa anterior y dos cesáreas prev
                   ("40 %", "Dos cesáreas previas: este caso", ["Placenta previa anterior sobre la cicatriz"]),
                   ("61-67 %", "Tres o más cesáreas", ["61 % con tres y 67 % con cuatro o más"])],
          pasos=[(1, "Ecografía Doppler y resonancia", ["Lagunas placentarias y pérdida de la zona clara"], False),
-                (2, "Parto programado en centro de alta complejidad", ["Hacia las 34-36 semanas, con banco de sangre"], False),
+                (2, "Parto programado en centro de alta complejidad", ["A las 34 a 35 semanas y 6 días, con banco de sangre"], False),
                 (3, "Acretismo placentario", ["Opción correcta: complicación más frecuente de este caso"], True)]))
 
 # GIN-234 · CALENDARIO · vacuna dTpa
@@ -269,7 +269,7 @@ S("cuadro", "RM-GIN-235", "Tumor que sobrepasa el cuello y llega a la vagina sin
                      ["IIIB", "Pared pélvica, hidronefrosis o riñón no funcionante"],
                      ["IIIC", "Ganglios pélvicos (C1) o paraaórticos (C2)"],
                      ["IVA", "Mucosa de la vejiga o del recto"],
-                     ["IVB", "Metástasis a distancia"]], caso=2, ancho_primera=110))
+                     ["IVB", "Metástasis a distancia"]], caso=2, ancho_primera=170))
 
 # GIN-236 · EMBUDO · amenorrea primaria
 S("embudo", "RM-GIN-236", "Amenorrea primaria con poco desarrollo mamario y útero presente: el siguiente examen es la FSH",

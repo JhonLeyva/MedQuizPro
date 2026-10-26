@@ -23,7 +23,7 @@ S("tarjetas", "RM-GIN-255", "Dolor con la menstruación, náuseas y diarrea desd
               filas=[["Edad de inicio", "6 a 24 meses tras la menarquia", "Años después, tardía"],
                      ["Patología pélvica", "Ausente", "Presente: endometriosis, adenomiosis, miomas, infección, malformación"],
                      ["Evolución", "Estable, de 8 a 72 horas", "Progresiva; dispareunia o sangrado anormal"],
-                     ["Primera línea", "AINE; anticonceptivos hormonales", "Tratar la causa"]], caso=0, ancho_primera=170))
+                     ["Primera línea", "AINE; anticonceptivos hormonales", "Tratar la causa"]], caso=0, ancho_primera=240))
 
 # 256 · RELOJ · manejo activo del alumbramiento
 S("reloj", "RM-GIN-256", "La tracción controlada con contratracción durante el alumbramiento evita la inversión uterina",
@@ -48,7 +48,7 @@ S("reloj", "RM-GIN-256", "La tracción controlada con contratracción durante el
               filas=[["Inversión uterina", "Contratracción; no traccionar con útero atónico", "Reposición inmediata; Johnson o relajantes; laparotomía si falla"],
                      ["Atonía uterina", "Oxitocina y masaje uterino", "Uterotónicos, ácido tranexámico, balón"],
                      ["Retención placentaria", "No se previene con la tracción", "Extracción manual"],
-                     ["Ruptura uterina", "Depende de cicatrices o distocia", "Laparotomía"]], caso=0, ancho_primera=190))
+                     ["Ruptura uterina", "Depende de cicatrices o distocia", "Laparotomía"]], caso=0, ancho_primera=250))
 
 # 257 · LECTURA · torsión anexial
 S("lectura", "RM-GIN-257", "Dolor pélvico brusco, náuseas, sin fiebre y anexo doloroso y engrosado: quiste anexial a pedículo torcido",
@@ -74,7 +74,7 @@ S("lectura", "RM-GIN-257", "Dolor pélvico brusco, náuseas, sin fiebre y anexo 
               filas=[["Torsión anexial", "Dolor brusco, náuseas, masa anexial, sin fiebre", "Todo presente"],
                      ["Apendicitis aguda", "Dolor periumbilical migratorio, anorexia y fiebre", "No migra ni hay fiebre"],
                      ["Embarazo ectópico roto", "Amenorrea, hCG positiva, choque", "FUR hace dos semanas"],
-                     ["Absceso tubo-ovárico", "Fiebre, leucocitosis y flujo", "Afebril, sin flujo"]], caso=0, ancho_primera=190))
+                     ["Absceso tubo-ovárico", "Fiebre, leucocitosis y flujo", "Afebril, sin flujo"]], caso=0, ancho_primera=260))
 
 # 258 · CASCADA · síndrome de transfusión feto-fetal
 S("cascada", "RM-GIN-258", "Gemelos monocoriales con polihidramnios en uno y oligohidramnios con vejiga ausente en otro: transfusión feto-fetal",
@@ -123,7 +123,7 @@ S("piramide", "RM-HEM-019", "La prueba de referencia de la ferropenia es la tinc
   clasif=dict(titulo="Etapas de la deficiencia de hierro", cols=["Etapa", "Hallazgo de laboratorio"],
               filas=[["Depósitos agotados", "Ferritina baja; sin hemosiderina en la médula"],
                      ["Eritropoyesis deficiente", "Hierro sérico y saturación de transferrina bajos, con mayor capacidad de unión"],
-                     ["Anemia ferropénica", "Hemoglobina baja con microcitosis e hipocromía"]], caso=0, ancho_primera=200))
+                     ["Anemia ferropénica", "Hemoglobina baja con microcitosis e hipocromía"]], caso=0, ancho_primera=260))
 
 # HEM-020 · LABORATORIO · leucemia linfática crónica
 S("laboratorio", "RM-HEM-020", "Anciano con adenopatías, esplenomegalia, linfocitosis y sombras de Gumprecht: leucemia linfática crónica",
@@ -139,9 +139,9 @@ S("laboratorio", "RM-HEM-020", "Anciano con adenopatías, esplenomegalia, linfoc
       {0: "Linfoma", 1: "Leucemia linfática crónica", 2: "Mononucleosis infecciosa", 3: "Leucemia a células peludas", 4: "Leucemia linfática aguda"}),
   d=dict(rotulo="Cómo leer el hemograma del paciente",
          valores=[("Leucocitos", "30 000/µL", "4000-11 000", "↑", "Leucocitosis a expensas de linfocitos."),
-                  ("Linfocitos", "80 % (≈ 24 000/µL)", "≥ 5000/µL basta", "↑", "Linfocitosis B madura: criterio de LLC."),
-                  ("Frotis", "Sombras de Gumprecht", "No se ven", "↑", "Linfocitos frágiles que se rompen al extender."),
-                  ("Clínica", "Adenopatías y esplenomegalia", "Sin adenopatías", "↑", "Infiltración linfoide: estadio Rai II como mínimo.")],
+                  ("Linfocitos", "80 % (≈ 24 000/µL)", "Menos de 5000/µL", "↑", "Linfocitosis B madura: criterio de LLC."),
+                  ("Frotis", "Gumprecht", "No se ven", "↑", "Linfocitos frágiles que se rompen al extender."),
+                  ("Clínica", "Ganglios y bazo", "Sin adenopatías", "↑", "Infiltración linfoide: estadio Rai II como mínimo.")],
          veredicto=("Linfocitosis madura + adenopatías + sombras de Gumprecht = LLC", "El linfoma no se define por el frotis; la mononucleosis es autolimitada; las demás son agudas o de células peludas.")),
   clasif=dict(titulo="Estadificación de Rai modificada de la LLC", cols=["Estadio", "Hallazgos", "Riesgo"],
               filas=[["0", "Linfocitosis sola", "Bajo"],
@@ -175,7 +175,7 @@ S("alarma", "RM-HEM-021", "Mielodisplasia previa, 50 % de blastos y 200 000 leuc
               filas=[["Leucemia mieloide aguda", "20 % o más de blastos mieloides", "50 % de blastos"],
                      ["Reacción leucemoide", "Infección con granulocitos maduros, sin blastos", "Hay blastos"],
                      ["Leucemia mieloide crónica", "Todas las etapas de maduración, basofilia y Filadelfia", "No hay blastos al 50 %"],
-                     ["Leucemia neutrofílica crónica", "Mutación CSF3R, sin blastos", "Hay blastos"]], caso=0, ancho_primera=210))
+                     ["Leucemia neutrofílica crónica", "Mutación CSF3R, sin blastos", "Hay blastos"]], caso=0, ancho_primera=270))
 
 # HEM-022 · CARRILES · anemia con VCM y HCM bajos
 S("carriles", "RM-HEM-022", "Con VCM y HCM disminuidos la anemia es microcítica hipocrómica, y su causa más frecuente es la ferropenia",
@@ -338,10 +338,10 @@ S("cuadro", "RM-NEF-047", "Vómitos y diarrea, oligoanuria, excreción fracciona
       {0: "Prerrenal", 1: "Necrosis tubular", 2: "Nefritis intersticial", 3: "Glomerulonefritis", 4: "Uropatía obstructiva"}),
   d=dict(veredicto=("Pérdida de volumen + sodio urinario menor de 1 % + BUN/creatinina mayor de 20 = prerrenal", "La necrosis tubular tiene excreción de sodio mayor de 2 %; la nefritis y la glomerulonefritis tienen sedimento propio.")),
   clasif=dict(titulo="Índices urinarios para distinguir la lesión prerrenal de la necrosis tubular aguda", cols=["Índice", "Prerrenal", "Necrosis tubular aguda"],
-              filas=[["Excreción fraccionada de sodio", "Menor de 1 %", "Mayor de 2 %"],
+              filas=[["Excreción de sodio", "Menor de 1 %", "Mayor de 2 %"],
                      ["Relación BUN/creatinina", "Mayor de 20", "Menor de 20"],
                      ["Osmolalidad urinaria", "Alta (mayor de 500)", "Menor de 350"],
-                     ["Sedimento", "Normal o cilindros hialinos", "Cilindros granulosos pigmentados"]], caso=0, ancho_primera=240,
+                     ["Sedimento", "Normal o cilindros hialinos", "Cilindros granulosos pigmentados"]], caso=0, ancho_primera=250,
               nota="Las cifras de 1 % y 2 % son orientativas; el diurético distorsiona la excreción de sodio."))
 
 # NEF-048 · GASOMETRÍA · acidosis metabólica en la diarrea
@@ -362,8 +362,8 @@ S("gasometria", "RM-NEF-048", "La diarrea aguda produce acidosis metabólica hip
                 ("¿Anión gap?", "Na − (Cl + HCO₃) normal", "Gap normal, hiperclorémica", False), ("¿Compensación?", "Hiperventilación (Winter)", "ACIDOSIS METABÓLICA", True)],
          veredicto=("Diarrea = pérdida de bicarbonato = acidosis metabólica con gap normal", "La alcalosis metabólica es propia de vómitos y diuréticos.")),
   clasif=dict(titulo="Acidosis metabólica según el anión gap", cols=["Tipo", "Causas", "Ejemplo del caso"],
-              filas=[["Gap normal (hiperclorémica)", "Diarrea, acidosis tubular renal, solución salina en grandes volúmenes", "Diarrea aguda"],
-                     ["Gap elevado", "Lactato, cetoácidos, uremia y tóxicos", "No corresponde"]], caso=0, ancho_primera=230,
+              filas=[["Gap normal", "Hiperclorémica: diarrea, acidosis tubular renal, solución salina en grandes volúmenes", "Diarrea aguda"],
+                     ["Gap elevado", "Lactato, cetoácidos, uremia y tóxicos", "No corresponde"]], caso=0, ancho_primera=220,
               nota="La compensación respiratoria esperada sigue la fórmula de Winter: PCO₂ = 1,5 × HCO₃ + 8, más o menos 2."))
 
 # NEF-049 · REGLA · definición de hiponatremia crónica
@@ -390,7 +390,7 @@ S("regla", "RM-NEF-049", "La hiponatremia es crónica cuando dura más de 48 hor
               filas=[["Aguda", "Menos de 48 horas", "Salina hipertónica al 3 % si hay síntomas graves"],
                      ["Crónica", "Más de 48 horas o desconocida", "Corregir como máximo 8 a 10 mEq/L en 24 horas"],
                      ["Moderada", "Sodio 125 a 129 mEq/L", "Según los síntomas"],
-                     ["Profunda", "Sodio menor de 125 mEq/L", "Vigilancia estrecha"]], caso=1, ancho_primera=150))
+                     ["Profunda", "Sodio menor de 125 mEq/L", "Vigilancia estrecha"]], caso=1, ancho_primera=230))
 
 # NEF-050 · EMBUDO · hipernatremia
 S("embudo", "RM-NEF-050", "La diuresis osmótica pierde más agua que sodio y es la causa más frecuente de hipernatremia entre las opciones",
@@ -412,6 +412,6 @@ S("embudo", "RM-NEF-050", "La diuresis osmótica pierde más agua que sodio y es
          final=("DIURESIS OSMÓTICA", ["Elimina agua en mayor proporción que el sodio", "Hiperglucemia, manitol o urea"]),
          nota="La hipernatremia casi siempre es pérdida de agua sin reposición, sobre todo en lactantes, ancianos y enfermos graves."),
   clasif=dict(titulo="Hipernatremia según el sodio corporal", cols=["Sodio corporal", "Causas", "Ejemplo"],
-              filas=[["Bajo (pérdida de agua mayor que de sodio)", "Diuresis osmótica, pérdidas digestivas, sudor", "Hiperglucemia, manitol, urea"],
-                     ["Normal", "Pérdida de agua libre", "Diabetes insípida central o nefrogénica"],
-                     ["Alto", "Ganancia de sodio", "Bicarbonato o salina hipertónica"]], caso=0, ancho_primera=250))
+              filas=[["Sodio bajo", "Pierde más agua que sodio: diuresis osmótica, pérdidas digestivas, sudor", "Hiperglucemia, manitol, urea"],
+                     ["Sodio normal", "Pérdida de agua libre", "Diabetes insípida central o nefrogénica"],
+                     ["Sodio alto", "Ganancia de sodio", "Bicarbonato o salina hipertónica"]], caso=0, ancho_primera=220))

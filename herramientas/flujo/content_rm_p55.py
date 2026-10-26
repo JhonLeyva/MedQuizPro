@@ -62,7 +62,7 @@ S("arbol_imagen", "RM-CIR-153", "La fisura anal crónica se ubica en más de 90 
   clasif=dict(titulo="Ubicación de la fisura anal y qué sugiere", cols=["Ubicación", "Frecuencia", "Interpretación"],
               filas=[["Línea media posterior", "Más de 90 %", "Fisura primaria por trauma e hipertonía del esfínter"],
                      ["Línea media anterior", "Cerca de 10 %", "Más frecuente en mujeres tras el parto"],
-                     ["Lateral o múltiple", "Poco frecuente", "Crohn, tuberculosis, VIH, sífilis, neoplasia o herpes"]], caso=0, ancho_primera=200))
+                     ["Lateral o múltiple", "Poco frecuente", "Crohn, tuberculosis, VIH, sífilis, neoplasia o herpes"]], caso=0, ancho_primera=270))
 
 # OFT-031 · CARRILES · epistaxis posterior
 S("carriles", "RM-OFT-031", "Epistaxis sin punto visible que persiste y se deglute tras el tapón anterior: taponamiento posterior",
@@ -74,7 +74,7 @@ S("carriles", "RM-OFT-031", "Epistaxis sin punto visible que persiste y se deglu
    "El taponamiento posterior exige hospitalizar y vigilar; si falla, ligadura o embolización arterial. Los hemostáticos parenterales no controlan un sangrado arterial.",
    "Alerta: en el anciano evaluar hipertensión, anticoagulantes y hemodinamia antes de cualquier maniobra."],
   "Tunkel DE et al., Clinical Practice Guideline: Nosebleed (Epistaxis), Otolaryngol Head Neck Surg 2020;162(2 Suppl):S1-S38; Cummings Otolaryngology-Head and Neck Surgery, 7.ª ed. (2021).",
-  op=("¿Conducta?", ["No: ya falló el tapón anterior y no hay punto visible", "No: exige un punto anterior visible", "Sí: origen posterior con deglución de sangre", "No: no controlan un sangrado arterial", "No: exige un punto anterior visible"],
+  op=("¿Conducta?", ["No: ya falló el tapón anterior y no hay punto visible", "No: exige un punto anterior visible", "Sí: origen posterior", "No: no controlan un sangrado arterial", "No: exige un punto anterior visible"],
       {0: "Taponamiento anterior con H2O2", 1: "Electrocoagulación", 2: "Taponamiento posterior", 3: "Hemostáticos parenterales", 4: "Cauterización química"}),
   d=dict(rotulo="Ruta de la epistaxis según el punto de sangrado", carriles=["Anterior con punto visible", "Posterior o sin punto visible", "Después"],
          pasos=[(0, "Presión sostenida 10 a 15 min", "Alas nasales, inclinado hacia delante", False),
@@ -87,7 +87,7 @@ S("carriles", "RM-OFT-031", "Epistaxis sin punto visible que persiste y se deglu
   clasif=dict(titulo="Epistaxis anterior y posterior", cols=["Tipo", "Origen", "Hallazgos", "Manejo"],
               filas=[["Anterior", "Plexo de Kiesselbach (área de Little)", "Punto visible; sangre por el vestíbulo", "Presión, vasoconstrictor, cauterización y tapón anterior"],
                      ["Posterior", "Ramas de la arteria esfenopalatina", "Sin punto visible; sangre hacia la faringe; rutilante y profusa", "Taponamiento posterior con balón o gasa, con hospitalización"]],
-              caso=1, ancho_primera=100))
+              caso=1, ancho_primera=140))
 
 # NEF-046 · LÍNEA DE VIDA · torsión testicular
 S("linea_vida", "RM-NEF-046", "Dolor escrotal súbito en un niño: torsión testicular hasta demostrar lo contrario; operar antes de 6 horas",
@@ -101,16 +101,16 @@ S("linea_vida", "RM-NEF-046", "Dolor escrotal súbito en un niño: torsión test
   "EAU Guidelines on Paediatric Urology (edición vigente); Campbell-Walsh-Wein Urología 12.ª ed. (2020).",
   op=("¿Conducta más adecuada?", ["Sí: salvamento mayor de 90 % antes de 6 horas", "No: solo es un puente mientras se prepara el quirófano", "No: retrasa el rescate del testículo", "No: esperar más de 6 horas reduce el salvamento", "No: retrasa el rescate del testículo"],
       {0: "Exploración quirúrgica antes de 6 h", 1: "Reducción manual", 2: "Analgésicos y antiinflamatorios", 3: "Exploración quirúrgica después de 6 h", 4: "Tratamiento con medios físicos"}),
-  d=dict(rotulo="Horas desde el inicio del dolor y posibilidad de salvar el testículo (valores orientativos)", eje=(0, 24, 3), unidad="horas",
+  d=dict(rotulo="Horas desde el inicio del dolor y posibilidad de salvar el testículo (valores orientativos)", eje=(0, 36, 6), unidad="horas",
          barras=[("Menos de 6 h: operar", 0, 6, "Salvamento mayor de 90 %", True), ("Hacia 12 h", 6, 12, "Salvamento cercano a 50 %", False),
-                 ("De 12 a 24 h", 12, 24, "Salvamento cada vez menor", False), ("Más de 24 h", 20, 24, "Salvamento muy bajo", False)],
+                 ("De 12 a 24 h", 12, 24, "Salvamento cada vez menor", False), ("Más de 24 h", 24, 36, "Salvamento muy bajo", False)],
          marcador=(6, "6 horas: límite para operar"),
          veredicto=("Torsión = exploración quirúrgica antes de 6 horas", "Destorsión manual solo como puente, rotando el testículo hacia afuera (abrir el libro).")),
   clasif=dict(titulo="Escroto agudo: cómo distinguir la causa", cols=["Causa", "Dolor", "Hallazgos clave"],
               filas=[["Torsión del cordón espermático", "Súbito e intenso; niño o adolescente", "Testículo alto y horizontal, sin reflejo cremastérico, Prehn negativo: cirugía urgente"],
                      ["Torsión de apéndice testicular", "Localizado en el polo superior", "Dolor circunscrito; evolución más benigna"],
                      ["Epididimitis u orquiepididimitis", "Gradual", "Fiebre y signos urinarios; el dolor puede aliviarse al elevar el testículo (Prehn positivo)"]],
-              caso=0, ancho_primera=230))
+              caso=0, ancho_primera=330))
 
 # OFT-032 · LÍNEA DE VIDA · conjuntivitis adenoviral
 S("linea_vida", "RM-OFT-032", "Ojo rojo que pasa al otro lado, lagrimeo y párpados pegados en un niño: adenovirus",
@@ -147,10 +147,10 @@ S("piramide", "RM-CIR-154", "La causa más frecuente de obstrucción intestinal 
   op=("¿Causa más frecuente en adultos?", ["No: causa principal solo de la obstrucción del colon", "No: causa menos frecuente en el adulto", "No: causa rara, por cálculo grande en el íleon", "Sí: 60 a 65 % de las obstrucciones del delgado", "No: causa colónica, menos frecuente"],
       {0: "Cáncer de colon", 3: "Bridas y adherencias", 4: "Vólvulo de sigmoides"}),
   d=dict(rotulo="Causas de obstrucción en el adulto, de la más a la menos frecuente", caso=0, pie="▲ más frecuente · ▼ menos frecuente",
-         niveles=[("1 · Bridas y adherencias", "60 a 65 % de las obstrucciones del delgado", "Cirugía abdominal o pélvica previa: ginecológica o colorrectal"),
-                  ("2 · Hernias complicadas", "Segunda causa", "Atrapamiento o estrangulación del asa en el defecto de pared"),
+         niveles=[("1 · Bridas", "60 a 65 % de las obstrucciones del delgado", "Cirugía abdominal o pélvica previa: ginecológica o colorrectal; las adherencias fijan y angulan las asas"),
+                  ("2 · Hernias", "Segunda causa", "Atrapamiento o estrangulación del asa en el defecto de pared"),
                   ("3 · Neoplasias", "Tercera causa", "El cáncer de colon es la causa principal solo del colon"),
-                  ("4 · Vólvulo, intususcepción e íleo biliar", "Causas menos frecuentes", "Vólvulo del sigmoides en el colon; el íleo biliar es raro")],
+                  ("4 · Otras", "Vólvulo, intususcepción e íleo biliar", "Vólvulo del sigmoides en el colon; el íleo biliar es raro")],
          veredicto=("Obstrucción del adulto = bridas y adherencias", "Cáncer de colon, vólvulo, intususcepción e íleo biliar son causas menos frecuentes.")),
   clasif=dict(titulo="Manejo inicial de la obstrucción adhesiva del delgado", cols=["Situación", "Conducta"],
               filas=[["Sin signos de isquemia", "Sonda nasogástrica, reposición hidroelectrolítica y contraste hidrosoluble (diagnóstico y tratamiento)"],
@@ -188,8 +188,8 @@ S("alarma", "RM-INF-072", "El síndrome pseudoulceroso (dolor epigástrico sin �
                      ["Fiebre tifoidea", "Fiebre prolongada, roséola y disociación pulso-temperatura"], ["Shigelosis", "Disentería con tenesmo"], ["Cólera", "Diarrea acuosa en agua de arroz, sin dolor"]],
               caso=0, ancho_primera=170))
 
-# GIN-152 · CRITERIOS · vaginosis bacteriana
-S("criterios", "RM-GIN-152", "La vaginosis bacteriana se diagnostica con 3 de 4 criterios de Amsel: pH mayor de 4,5, aminas y células guía",
+# GIN-152 · ANTES Y DESPUÉS · vaginosis bacteriana
+S("antes_despues", "RM-GIN-152", "La vaginosis bacteriana se diagnostica con 3 de 4 criterios de Amsel: pH mayor de 4,5, aminas y células guía",
   "Ginecología · vaginosis bacteriana",
   ("Vaginosis bacteriana", ["Los lactobacilos son reemplazados por Gardnerella, Prevotella y Atopobium.", "El pH vaginal sube; no hay inflamación."]),
   ("Pregunta de criterios", ["¿Qué criterios sirven para diagnosticar la vaginosis bacteriana?"]),
@@ -200,12 +200,12 @@ S("criterios", "RM-GIN-152", "La vaginosis bacteriana se diagnostica con 3 de 4 
   "CDC, Sexually Transmitted Infections Treatment Guidelines 2021, MMWR Recomm Rep 2021;70(4):1-187; " + WILL + ".",
   op=("¿Criterios de la vaginosis?", ["No: faltan leucocitos y el pH normal es menor de 4,5", "No: el pH menor de 4,5 es normal", "No: las hifas son de Candida", "Sí: cumple 3 criterios de Amsel", "No: aumentan los leucocitos y el pH menor de 4,5 es normal"],
       {0: "Menos leucocitos, pH < 4,5, aminas +", 1: "Secreción adherente, pH < 4,5, células guía", 2: "pH < 4,5, aminas + e hifas", 3: "Aminas +, células guía y pH > 4,5", 4: "Más leucocitos, células guía, pH < 4,5"}),
-  d=dict(rotulo="Qué criterios de Amsel cumple cada hallazgo", lista_titulo="Hallazgos que cuentan para el diagnóstico",
-         items=[("pH vaginal mayor de 4,5", True, "Criterio de Amsel; el pH menor de 4,5 es normal"), ("Test de aminas positivo", True, "Olor a pescado al añadir KOH al 10 %"),
-                ("Células guía en el examen en fresco", True, "Más de 20 % de las células epiteliales"), ("Secreción homogénea blanquecino-grisácea adherente", None, "Cuarto criterio; la opción D cumple 3 sin él"),
-                ("Hifas o más leucocitos", False, "No son criterios: orientan a Candida, tricomoniasis o cervicitis")],
-         umbral="3 de 4 criterios de Amsel", veredicto="Aminas + células guía + pH mayor de 4,5 = vaginosis bacteriana",
-         claves_titulo="Cómo se maneja", claves=[("Tratamiento", ["Metronidazol 500 mg cada 12 h por 7 días"], True), ("Estándar de referencia", ["Gram con puntaje de Nugent"], False), ("Trampa frecuente", ["pH menor de 4,5 es normal o de candidiasis"], False)]),
+  d=dict(rotulo="Cómo cambia la vagina en la vaginosis bacteriana",
+         antes=dict(titulo="Flora normal", datos=[("Flora", "Lactobacilos"), ("pH vaginal", "Menor de 4,5"), ("Test de aminas", "Negativo"), ("Examen en fresco", "Sin células guía"), ("Leucocitos", "Sin aumento")]),
+         despues=dict(titulo="Vaginosis bacteriana", datos=[("Flora", "Gardnerella y anaerobios"), ("pH vaginal", "Mayor de 4,5"), ("Test de aminas", "Positivo (olor a pescado)"), ("Examen en fresco", "Células guía"), ("Leucocitos", "Ausentes: no es inflamatoria")]),
+         intervencion="Disbiosis: se pierden los lactobacilos",
+         cambios=[("El pH sube por encima de 4,5", "mejora"), ("Aminas positivas y células guía: criterios de Amsel", "mejora"), ("Hifas y leucocitos aumentados no son criterios", "igual")],
+         veredicto=("Aminas + células guía + pH mayor de 4,5 = vaginosis", "Se necesitan 3 de 4 criterios de Amsel; el pH menor de 4,5 es normal o de candidiasis.")),
   clasif=dict(titulo="Criterios de Amsel (se necesitan 3 de 4)", cols=["Criterio", "Hallazgo en la vaginosis", "En un pH normal o candidiasis"],
               filas=[["Secreción", "Homogénea, blanquecino-grisácea, adherente a la pared", "Grumosa y blanca (candidiasis)"], ["pH vaginal", "Mayor de 4,5", "Menor de 4,5"],
                      ["Test de aminas", "Positivo: olor a pescado con KOH", "Negativo"], ["Examen en fresco", "Células guía en más de 20 % de las células epiteliales", "Hifas (candidiasis); leucocitos aumentados (tricomoniasis)"]],
@@ -224,9 +224,9 @@ S("dosis", "RM-INF-073", "En la infección por C. difficile se usa vancomicina o
   op=("¿Antibiótico más eficaz?", ["Sí: oral, no se absorbe y alcanza alta concentración en el colon", "No: sin evidencia en C. difficile", "No: sin evidencia en C. difficile", "No: sin evidencia en C. difficile", "No: alternativa con datos limitados"],
       {0: "Vancomicina oral", 1: "Bacitracina", 2: "Ácido fusídico", 3: "Eritromicina", 4: "Nitazoxanida"}),
   d=dict(rotulo="Tratamiento de la infección por C. difficile según la gravedad", peso=("Adulto", "Primer episodio"),
-         pasos=[("Primer episodio (guía 2021)", "Fidaxomicina 200 mg c/12 h", "10 días; es la preferida por menor recurrencia"),
-                ("Alternativa y opción de la pregunta", "Vancomicina oral 125 mg c/6 h", "10 días; no se absorbe"),
-                ("Fulminante", "Vancomicina oral 500 mg c/6 h + metronidazol IV", "Vancomicina rectal si hay íleo; valorar cirugía")],
+         pasos=[("Primer episodio", "Fidaxomicina", "200 mg c/12 h por 10 días; preferida"),
+                ("Alternativa", "Vancomicina oral", "125 mg c/6 h por 10 días"),
+                ("Fulminante", "Doble esquema", "Vancomicina 500 mg c/6 h más metronidazol IV")],
          alternativas=[("Vancomicina oral", "Eficaz: opción correcta", True), ("Bacitracina", "Sin evidencia", False), ("Ácido fusídico", "Sin evidencia", False),
                        ("Eritromicina", "Sin evidencia", False), ("Nitazoxanida", "Datos limitados", False)],
          veredicto=("Vancomicina oral 125 mg cada 6 horas por 10 días", "El metronidazol dejó de ser primera línea por su menor eficacia.")),
@@ -331,7 +331,7 @@ S("regla", "RM-GIN-153", "Un ciclo menstrual de 19 a 20 días es polimenorrea: c
   clasif=dict(titulo="Patrones menstruales según ritmo y cantidad", cols=["Término", "Qué altera", "Definición"],
               filas=[["Polimenorrea", "Ritmo", "Ciclos menores de 24 días (FIGO) o de 21 (textos clásicos)"], ["Oligomenorrea", "Ritmo", "Ciclos mayores de 35 días"],
                      ["Menorragia", "Cantidad y duración", "Sangrado regular y excesivo; hoy sangrado menstrual abundante"], ["Hipermenorrea", "Cantidad", "Más flujo con duración normal"],
-                     ["Hipomenorrea", "Cantidad", "Flujo reducido; sinequias uterinas o Asherman"]], caso=0, ancho_primera=150))
+                     ["Hipomenorrea", "Cantidad", "Flujo reducido; sinequias uterinas o Asherman"]], caso=0, ancho_primera=260))
 
 # GIN-154 · EMBUDO · Doppler de arterias uterinas
 S("embudo", "RM-GIN-154", "Para predecir una nueva preeclampsia se usa el Doppler de las arterias uterinas, que mide la resistencia placentaria",
@@ -353,7 +353,7 @@ S("embudo", "RM-GIN-154", "Para predecir una nueva preeclampsia se usa el Dopple
          nota="Con preeclampsia previa se indica además ácido acetilsalicílico en dosis baja antes de las 16 semanas."),
   clasif=dict(titulo="Pruebas de la pregunta: predicción o diagnóstico", cols=["Prueba", "Para qué sirve"],
               filas=[["Doppler de arterias uterinas", "Predice preeclampsia y restricción del crecimiento (11-13+6 semanas y segundo trimestre)"], ["Proteinuria de 24 horas", "Diagnóstico y gravedad"],
-                     ["Creatinina sérica", "Gravedad: afectación renal"], ["Perfil de coagulación", "Gravedad: coagulopatía"], ["Perfil biofísico fetal", "Bienestar fetal"]], caso=0, ancho_primera=240))
+                     ["Creatinina sérica", "Gravedad: afectación renal"], ["Perfil de coagulación", "Gravedad: coagulopatía"], ["Perfil biofísico fetal", "Bienestar fetal"]], caso=0, ancho_primera=310))
 
 # GIN-155 · REGLA · datación de la edad gestacional
 S("regla", "RM-GIN-155", "La mejor forma de determinar la edad gestacional es la ecografía del primer trimestre (longitud cráneo-caudal)",
@@ -378,7 +378,7 @@ S("regla", "RM-GIN-155", "La mejor forma de determinar la edad gestacional es la
   clasif=dict(titulo="Métodos para fechar el embarazo", cols=["Método", "Precisión y limitación"],
               filas=[["Ecografía del primer trimestre", "Margen de 5 a 7 días; el más exacto"], ["Regla de Naegele", "Depende de ciclo regular, fecha segura y sin anticonceptivos hormonales recientes"],
                      ["Altura uterina", "Variabilidad de 2 semanas o más; depende de obesidad, miomas y polihidramnios"], ["Movimientos fetales", "Subjetivos; se perciben a las 18-22 semanas"],
-                     ["Latidos con Doppler", "Aparecen a las 10-12 semanas; no datan con precisión"]], caso=0, ancho_primera=230))
+                     ["Latidos con Doppler", "Aparecen a las 10-12 semanas; no datan con precisión"]], caso=0, ancho_primera=320))
 
 # GIN-156 · CALENDARIO · Coombs indirecto en gestante Rh negativo
 S("calendario", "RM-GIN-156", "En la gestante Rh negativo el Coombs indirecto se repite a las 24 semanas, según el protocolo del libro",
@@ -403,8 +403,8 @@ S("calendario", "RM-GIN-156", "En la gestante Rh negativo el Coombs indirecto se
               filas=[["Alrededor de las 28 semanas", "300 microgramos de inmunoglobulina anti-D (tras tomar el Coombs)"], ["Posparto con recién nacido Rh positivo", "Repetir la anti-D"],
                      ["Aborto, ectópico, sangrado, amniocentesis o trauma", "Anti-D también indicada"], ["Coombs positivo", "Título y Doppler de la arteria cerebral media fetal"]], caso=None, ancho_primera=270))
 
-# GIN-157 · CRITERIOS · preeclampsia con criterios de severidad
-S("criterios", "RM-GIN-157", "Hipertensión con diastólica de 110, cefalea y dolor epigástrico a las 39 semanas: preeclampsia con criterios de severidad",
+# GIN-157 · ALARMA · preeclampsia con criterios de severidad
+S("alarma", "RM-GIN-157", "Hipertensión con diastólica de 110, cefalea y dolor epigástrico a las 39 semanas: preeclampsia con criterios de severidad",
   "Obstetricia · preeclampsia severa",
   ("Preeclampsia", ["Trastorno multisistémico posterior a las 20 semanas: PA de 140/90 mmHg o más en dos tomas separadas por 4 horas.", "Con proteinuria o, sin ella, con disfunción orgánica."]),
   ("Primigesta de 39 semanas", ["Cefalea y dolor epigástrico desde hace dos días.", "Elevación previa de la presión; hoy PA 140/110 mmHg, FC 85, T 37 °C."]),
@@ -415,13 +415,15 @@ S("criterios", "RM-GIN-157", "Hipertensión con diastólica de 110, cefalea y do
   "ACOG Practice Bulletin N.º 222, Obstet Gynecol 2020;135:e237-e260; GPC 03-2025 INS/MINSA de trastornos hipertensivos del embarazo; IETSI-EsSalud GPC de preeclampsia (R.112-2021); " + WILL + ".",
   op=("¿Diagnóstico más probable?", ["No: sin síntomas ni disfunción orgánica", "Sí: PA diastólica de 110, cefalea y dolor epigástrico", "No: antecede a las 20 semanas", "No: exige convulsiones", "No: es un término inespecífico"],
       {0: "Hipertensión gestacional", 1: "Preeclampsia severa", 2: "Hipertensión crónica", 3: "Eclampsia", 4: "Hipertensión arterial"}),
-  d=dict(rotulo="Qué criterios de severidad tiene la paciente y cuáles faltan evaluar", lista_titulo="Criterios de severidad de la preeclampsia",
-         items=[("PA sistólica de 160 o más, o diastólica de 110 o más", True, "Este caso: diastólica de 110 mmHg"), ("Cefalea o síntomas visuales persistentes", True, "Este caso: cefalea de dos días"),
-                ("Dolor epigástrico o en hipocondrio derecho persistente", True, "Este caso: dolor epigástrico"), ("Plaquetas < 100 000 o transaminasas al doble", None, "Pedir laboratorio"),
-                ("Creatinina > 1,1 mg/dL o edema pulmonar", None, "Pedir laboratorio y valorar saturación")],
-         umbral="un solo criterio de severidad basta", veredicto="PA 140/110 + cefalea + dolor epigástrico = preeclampsia con criterios de severidad",
-         claves_titulo="Cómo se maneja", claves=[("Prevenir convulsiones", ["Sulfato de magnesio"], True), ("PA de 160/110 o más", ["Labetalol, nifedipino o hidralazina"], False), ("Resolución", ["Parto tras estabilizar"], False)]),
+  d=dict(rotulo="Qué criterios de severidad tiene la paciente", lista_titulo="Criterios de severidad de la preeclampsia",
+         signos=[("PA sistólica de 160 o más, o diastólica de 110 o más", "Este caso: diastólica de 110 mmHg", True),
+                 ("Cefalea o síntomas visuales persistentes", "Este caso: cefalea de dos días", True),
+                 ("Dolor epigástrico o en hipocondrio derecho persistente", "Este caso: dolor epigástrico", True),
+                 ("Plaquetas < 100 000 o transaminasas al doble", "Pedir hemograma y perfil hepático", None),
+                 ("Creatinina > 1,1 mg/dL o edema pulmonar", "Pedir creatinina y valorar saturación", None)],
+         accion=("Sulfato de magnesio y antihipertensivo", "Labetalol, nifedipino o hidralazina si la PA es de 160/110 o más; parto tras estabilizar."), accion_rotulo="Ante la sospecha",
+         veredicto=("PA 140/110 + cefalea + dolor epigástrico = preeclampsia con criterios de severidad", "Un solo criterio de severidad basta; la eclampsia exige convulsiones.")),
   clasif=dict(titulo="Trastornos hipertensivos del embarazo", cols=["Entidad", "Definición"],
               filas=[["Hipertensión gestacional", "PA elevada después de las 20 semanas, sin síntomas ni disfunción orgánica"],
-                     ["Preeclampsia con criterios de severidad", "Hipertensión con PA de 160/110 o más, síntomas o disfunción orgánica (plaquetas, hígado, riñón, pulmón)"],
+                     ["Preeclampsia severa", "Hipertensión con PA de 160/110 o más, síntomas o disfunción orgánica (plaquetas, hígado, riñón, pulmón)"],
                      ["Hipertensión crónica", "Hipertensión que antecede a las 20 semanas"], ["Eclampsia", "Preeclampsia con convulsiones"]], caso=1, ancho_primera=230))

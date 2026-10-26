@@ -44,7 +44,7 @@ S("cuadro", "RM-GIN-175", "Amenorrea primaria con mamas normales, vello escaso y
               filas=[["Insensibilidad a los andrógenos", "46,XY", "Mamas normales; vello escaso o ausente", "Ausente; vagina ciega"],
                      ["Mayer-Rokitansky", "46,XX", "Mamas y vello normales", "Ausente o rudimentario"],
                      ["Septum transverso o aplasia cervical", "46,XX", "Mamas y vello normales", "Presente; dolor cíclico y hematocolpos"],
-                     ["Síndrome de Turner", "45,X", "Mamas infantiles; sin pubertad", "Presente, hipoplásico"]], caso=0, ancho_primera=200))
+                     ["Síndrome de Turner", "45,X", "Mamas infantiles; sin pubertad", "Presente, hipoplásico"]], caso=0, ancho_primera=320))
 
 # 176 · CARRILES · estudio inicial del sangrado uterino anormal
 S("carriles", "RM-GIN-176", "Sangrado abundante con útero de tamaño normal: la ecografía transvaginal es el estudio inicial",
@@ -62,7 +62,6 @@ S("carriles", "RM-GIN-176", "Sangrado abundante con útero de tamaño normal: la
          pasos=[(0, "Prueba de embarazo (hCG)", "Siempre antes de las imágenes", False),
                 (0, "Ecografía transvaginal", "Mide endometrio, útero y anexos", True),
                 (1, "Eco con salino", "Histerosonografía: distingue pólipo de mioma submucoso", False),
-                (1, "Histeroscopía", "Visualiza y trata la lesión", False),
                 (2, "Ecografía abdominal", "Menor resolución en la pelvis", False),
                 (2, "Dosaje de progesterona", "No señala una causa estructural", False),
                 (2, "Histerografía", "Evalúa la permeabilidad de las trompas", False)],
@@ -220,7 +219,7 @@ S("balanza", "RM-GIN-183", "Los anticonceptivos orales combinados reducen el rie
   op=("¿Efecto de los anticonceptivos orales?", ["Sí: protege frente al cáncer de ovario", "No: no lo reducen; leve aumento con el uso actual", "No: el uso prolongado se asocia a más cáncer de cuello", "No: lo reducen, no lo aumentan", "No: lo reducen, no lo aumentan"],
       {0: "Disminuir el riesgo de cáncer de ovario", 1: "Disminuir el riesgo de cáncer de mama", 2: "Disminuir el riesgo de cáncer de cérvix", 3: "Aumentar el riesgo de embarazo ectópico", 4: "Aumentar el riesgo de cáncer de endometrio"}),
   d=dict(rotulo="Efectos de los anticonceptivos orales combinados", gana="izq", pregunta="¿Cuál es un efecto de los anticonceptivos orales?",
-         izq=dict(titulo="Reducen el riesgo", peso="BENEFICIO", items=["Cáncer de ovario: el caso", "Cáncer de endometrio", "Embarazo ectópico", "Dismenorrea, anemia y quistes funcionales"]),
+         izq=dict(titulo="Reducen el riesgo", peso="PROTEGE", items=["Cáncer de ovario: el caso", "Cáncer de endometrio", "Embarazo ectópico", "Dismenorrea, anemia y quistes funcionales"]),
          der=dict(titulo="No protegen o lo aumentan", peso="RIESGO", items=["Cáncer de mama: leve aumento con el uso actual", "Cáncer de cuello: más con el uso prolongado", "Tromboembolia venosa", "Hipertensión arterial"]),
          veredicto=("Anticonceptivos orales = menos cáncer de ovario", ["El embarazo ectópico y el cáncer de endometrio disminuyen, no aumentan.", "La mama y el cuello no se reducen."])),
   clasif=dict(titulo="Anticonceptivos orales combinados y riesgo de cáncer", cols=["Cáncer", "Efecto", "Comentario"],
