@@ -216,7 +216,7 @@ S("linea_vida", "RM-TRA-046", "En la fractura abierta el desbridamiento quirúrg
          veredicto=("Fractura abierta = desbridamiento urgente", "La fijación definitiva se hace después de limpiar el foco.")),
   clasif=dict(titulo="Clasificación de Gustilo y Anderson", cols=["Tipo", "Herida y lesión"],
               filas=[["I", "Herida menor de 1 cm"], ["II", "Herida de 1 a 10 cm sin daño extenso de partes blandas"],
-                     ["IIIA", "Mayor de 10 cm o alta energía; cobertura posible"], ["IIIB", "Pérdida de tejido que requiere colgajo"], ["IIIC", "Lesión vascular que requiere reparación"]], caso=2, ancho_primera=100,
+                     ["IIIA", "Mayor de 10 cm o alta energía; cobertura posible"], ["IIIB", "Pérdida de tejido que requiere colgajo"], ["IIIC", "Lesión vascular que requiere reparación"]], caso=2, ancho_primera=170,
               nota="El caso no precisa el tipo; el manejo inicial es el mismo."))
 
 # TRA-047 · ANTES Y DESPUÉS · yeso
@@ -232,10 +232,10 @@ S("antes_despues", "RM-TRA-047", "La erosión cutánea bajo el yeso se debe al a
   op=("¿Causa de la erosión?", ["Sí: presión directa sobre el hueso", "No: la duración breve no daña la piel", "No: solo facilita el retiro", "No: solo facilita la higiene", "No: aunque retiene calor, no es la causa directa"],
       {0: "Acojinamiento insuficiente", 1: "Férula colocada en poco tiempo", 2: "Falta de manga", 3: "Falta de calcetín de tela", 4: "Férula de gran espesor"}),
   d=dict(rotulo="Cómo cambia la piel según el acolchado del yeso",
-         antes=dict(titulo="Acolchado adecuado", datos=[("Prominencias", "Cubiertas de forma uniforme"), ("Pliegues", "Ninguno"), ("Presión sobre el hueso", "Repartida"), ("Piel", "Íntegra"), ("Dedos", "Descubiertos y vigilados")]),
-         despues=dict(titulo="Acolchado insuficiente", datos=[("Prominencias", "Casi sin protección"), ("Pliegues", "Del algodón o del yeso"), ("Presión sobre el hueso", "Mantenida"), ("Piel", "Isquemia y erosión"), ("Riesgo", "Infección u osteomielitis")]),
-         intervencion="Yeso aplicado sin acojinar bien",
-         cambios=[("La presión mantenida produce isquemia local", "mejora"), ("La necrosis cutánea puede infectarse", "mejora"), ("El espesor o la falta de manga no son la causa", "igual")],
+                  antes=dict(titulo="Acolchado insuficiente", datos=[("Prominencias", "Casi sin protección"), ("Pliegues", "Del algodón o del yeso"), ("Presión sobre el hueso", "Mantenida"), ("Piel", "Isquemia y erosión"), ("Riesgo", "Infección u osteomielitis")]),
+         despues=dict(titulo="Acolchado adecuado", datos=[("Prominencias", "Cubiertas de forma uniforme"), ("Pliegues", "Ninguno"), ("Presión sobre el hueso", "Repartida"), ("Piel", "Íntegra"), ("Dedos", "Descubiertos y vigilados")]),
+         intervencion="Acojinar bien las prominencias",
+         cambios=[("Desaparece la presión mantenida que produce isquemia", "mejora"), ("Se evita la necrosis y la infección profunda", "mejora"), ("El espesor o la falta de manga no son la causa", "igual")],
          veredicto=("Erosión bajo el yeso = acojinamiento insuficiente", "Manga, calcetín y tiempo de colocación no causan la erosión.")))
 
 # TRA-048 · LABORATORIO · artritis séptica de rodilla
