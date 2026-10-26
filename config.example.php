@@ -81,6 +81,13 @@ return [
     //   https://TU-DOMINIO/cuenta.php?a=admin&token=TU-CLAVE   (CSV; añade &formato=json para JSON)
     'admin_token' => '',
 
+    // ---- Tutor Feynman IA (feynman.php). Usa la misma llave y proveedor de arriba. Todo es opcional. ----
+    // 'feynman_ai_model' => '',                     // modelo solo para el tutor Feynman (si no, usa ai_model)
+    // 'feynman_limite_minuto' => 8,                 // llamadas a la IA por estudiante y minuto
+    // 'feynman_limite_dia' => 150,                  // llamadas a la IA por estudiante y día
+    // 'feynman_presupuesto_caracteres_dia' => 300000, // presupuesto diario (caracteres enviados + recibidos) por estudiante
+    // 'feynman_timeout' => 50,                      // segundos de espera al proveedor
+
     // Opcional. '1' añade el detalle técnico del error a la respuesta JSON.
     // Úsalo solo mientras configuras, y vuelve a dejarlo en '0'.
     'depurar' => '0',

@@ -52,6 +52,11 @@ ErrorDocument 404 /index.html
 </FilesMatch>
 RedirectMatch 403 ^/cuenta_datos/
 
+# Tutor Feynman IA: las respuestas de la API nunca se cachean
+<FilesMatch "^feynman\.php$">
+  Header set Cache-Control "no-store"
+</FilesMatch>
+
 # Atlas 3D: los fragmentos .dat son datos binarios (gzip) que el visor descomprime él mismo; no deben recomprimirse ni transformarse
 <IfModule mod_mime.c>
   AddType application/octet-stream .dat

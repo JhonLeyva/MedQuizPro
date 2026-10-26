@@ -29,7 +29,12 @@ try:
     if sqlite3.sqlite_version_info >= (3, 35, 0):
         db.executescript(sql("003_dueno.down")); ok("dueno" not in [r[1] for r in db.execute("pragma table_info(usuarios)")], "003.down quita la columna")
         db.executescript(sql("003_dueno.up")); ok("dueno" in [r[1] for r in db.execute("pragma table_info(usuarios)")], "003.up la devuelve")
+    db.executescript(sql("004_feynman.up")); db.executescript(sql("004_feynman.up")); ok({"feynman_sesiones", "feynman_turnos", "feynman_uso"} <= tablas(), "004.up crea las tablas del Tutor Feynman (y es repetible)")
+    db.execute("insert into feynman_sesiones(id,usuario,origen,tema,datos,creado,actualizado) values('s1',1,'tema','t','{}',1,1)"); db.execute("insert into feynman_turnos(sesion,n,rol,texto,fase,creado) values('s1',1,'tutor','hola',1,1)"); db.commit()
+    db.executescript(sql("004_feynman.down")); ok("feynman_sesiones" not in tablas() and "feynman_turnos" not in tablas(), "004.down quita las tablas"); ok(db.execute("select count(*) from usuarios").fetchone()[0] == 1, "004.down no toca a los usuarios")
+    db.executescript(sql("004_feynman.up")); db.execute("insert into feynman_sesiones(id,usuario,origen,tema,datos,creado,actualizado) values('s2',1,'tema','t','{}',1,1)"); db.execute("insert into feynman_turnos(sesion,n,rol,texto,fase,creado) values('s2',1,'tutor','hola',1,1)"); db.commit()
     db.execute("insert into flashcards(usuario,frente,dorso,huella,creado,proximo) values(1,'f','d','h2',1,1)"); db.execute("delete from usuarios where id=1"); db.commit()
+    ok(db.execute("select count(*) from feynman_sesiones").fetchone()[0] == 0 and db.execute("select count(*) from feynman_turnos").fetchone()[0] == 0, "borrar la cuenta borra sus sesiones y turnos Feynman (ON DELETE CASCADE)")
     ok(db.execute("select count(*) from flashcards").fetchone()[0] == 0, "borrar la cuenta borra sus tarjetas (ON DELETE CASCADE)")
 finally:
     shutil.rmtree(tmp, ignore_errors=True)

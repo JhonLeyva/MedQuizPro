@@ -42,6 +42,9 @@ Botón «MINSA Perú vs. guía internacional» solo si existe una comparación v
 ## Flashcards con IA
 En el panel «Convertir en flashcard», «Proponer más con IA» pide hasta 3 tarjetas (JSON validado en el servidor: sin vacías ni duplicadas, citas solo a fuentes recuperadas). La `fuente` de cada tarjeta incluye institución, año, versión y página cuando cita una guía. Siempre editables y marcadas «revisa los datos».
 
+## Tutor Feynman IA (`feynman.php`, `feynman.js`, voz del navegador)
+Método Feynman con voz o texto, diálogo socrático y evaluación con rúbrica, en cinco fases; desde una pregunta, desde el visor de flujograma o desde su propia sección. Detalle completo, variables y limitaciones: `FEYNMAN.md`.
+
 ## Seguridad y costos
 - Cuenta del alumno obligatoria para IA y flashcards; aislamiento entre usuarios probado.
 - IA: tope diario de consultas por usuario (`AI_LIMITE_CONTEXTO_DIA`), **presupuesto diario en caracteres** por usuario (`AI_PRESUPUESTO_CARACTERES_DIA`, 150 000 por defecto; aproxima el gasto en tokens, no el dinero real), **caché de 24 h** de la primera consulta de una conversación (misma pregunta/consulta/guías) y límite de ritmo en escrituras de flashcards.
