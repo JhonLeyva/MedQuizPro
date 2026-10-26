@@ -24,7 +24,7 @@ S("arbol", "RM-PED-163", "Recién nacido deprimido con meconio, apneico y bradic
   clasif=dict(titulo="Meconio: qué se hace según el estado del recién nacido", cols=["Estado", "Conducta", "Nota"],
               filas=[["Vigoroso", "Cuidado de rutina", "No se aspira la tráquea"],
                      ["Respira, levemente deprimido", "Soporte no invasivo y oxígeno si hace falta", "Secar y estimular son pasos iniciales"],
-                     ["No vigoroso: apnea y bradicardia", "Intubación y aspiración (clave); guías 2020: ventilación en el primer minuto", "No retrasar la ventilación por aspirar"]],
+                     ["No vigoroso", "Intubación y aspiración (clave); guías 2020: ventilación en el primer minuto", "No retrasar la ventilación por aspirar"]],
               caso=2, ancho_primera=230, nota="Clave D del libro; las guías AHA/AAP 2020 ya no piden aspirar de rutina, pero entre las opciones D es la mejor."))
 
 # PED-164 · FASES · epistaxis anterior
@@ -45,7 +45,7 @@ S("fases", "RM-PED-164", "En la epistaxis anterior del niño el manejo inicial e
                 ("Paso 3", "Punto visible", "CAUTERIZACIÓN", ["Nitrato de plata", "Solo el punto que sangra"]),
                 ("Paso 4", "Si continúa", "TAPONAMIENTO", ["Absorbible o convencional", "Valorar derivación"])]),
   clasif=dict(titulo="Epistaxis anterior: medidas y momento de uso", cols=["Medida", "Cuándo", "Nota"],
-              filas=[["Compresión digital 5 minutos", "Primera medida", "No soltar para mirar; cabeza hacia adelante"],
+              filas=[["Compresión digital", "Primera medida", "No soltar para mirar; cabeza hacia adelante"],
                      ["Vasoconstrictor tópico", "Si la presión fracasa", "Oximetazolina"],
                      ["Cauterización o taponamiento", "Punto visible o fracaso previo", "Nitrato de plata; absorbible o convencional"]],
               caso=0, ancho_primera=240))
@@ -74,7 +74,7 @@ S("lectura", "RM-PED-165", "Escolar con dolor óseo, ictericia indirecta, anemia
               filas=[["Anemia falciforme", "Hoces en el frotis; bilirrubina indirecta", "Se cumple"],
                      ["Paludismo", "Parásitos en la gota gruesa; fiebre", "No se menciona"],
                      ["Leptospirosis", "Bilirrubina predominantemente directa", "Directa solo 2 de 12 mg/dL"],
-                     ["Dengue y brucelosis", "Fiebre y mialgias, sin hoces", "No hay"]], caso=0, ancho_primera=200))
+                     ["Dengue y brucelosis", "Fiebre y mialgias, sin hoces", "No hay"]], caso=0, ancho_primera=240))
 
 # PED-166 · CHECKLIST · convulsión febril simple
 S("checklist", "RM-PED-166", "Lactante de 12 meses con crisis tónico-clónica generalizada de 10 minutos y recuperación completa: convulsión febril simple",
@@ -185,7 +185,7 @@ S("radial", "RM-PED-170", "Fiebre, faringodinia, adenopatías generalizadas, esp
                 ("LABORATORIO", ["Linfocitosis con más de 10 % de atípicos y IgM anti-VCA"])],
          ruta=["Pedir hemograma con linfocitos atípicos", "Heterófilos o IgM anti-VCA", "Tratamiento de soporte", "Sin deporte de contacto 3 a 4 semanas"]),
   clasif=dict(titulo="Exantemas febriles de la infancia frente al caso", cols=["Diagnóstico", "Rasgo distintivo", "En este caso"],
-              filas=[["Mononucleosis infecciosa", "Tríada, esplenomegalia y adenopatías generalizadas", "Se cumple"],
+              filas=[["Mononucleosis", "Tríada, esplenomegalia y adenopatías generalizadas", "Se cumple"],
                      ["Rubéola", "Adenopatías retroauriculares y occipitales", "No: son cervicales e inguinales"],
                      ["Kawasaki", "Fiebre de 5 días con conjuntivitis no exudativa", "No hay esplenomegalia en Kawasaki"],
                      ["Escarlatina y eritema infeccioso", "Lengua en fresa o mejillas abofeteadas", "No hay"]], caso=0, ancho_primera=230))
@@ -202,14 +202,14 @@ S("dosis", "RM-PED-171", "En el paro neonatal persistente tras ventilación y co
   AHA + "; AAP, Manual de reanimación neonatal 8.ª ed. (2021); " + NTS + ".",
   op=("¿Fármaco a administrar?", ["No: la bradicardia es hipóxica, no es de rutina", "No: se usa después de la reanimación", "Sí: fármaco de elección en el paro", "No: solo con acidosis confirmada", "No: solo si hay hipocalcemia o hiperpotasemia"],
       {}),
-  d=dict(rotulo="Dosis de adrenalina en el paro neonatal (peso de referencia de 3 kg)", peso=("3 kg", "referencia de un recién nacido a término; el enunciado no da peso"), peso_titulo="PESO DE REFERENCIA",
+  d=dict(rotulo="Dosis de adrenalina en el paro neonatal (peso de referencia de 3 kg)", peso=("3 kg", "neonato a término de referencia"), peso_titulo="PESO DE REFERENCIA",
          pasos=[("Dosis por kilo", "0,01-0,03 mg/kg", "Solución 1:10 000 por vía venosa umbilical"), ("Dosis total", "0,03-0,09 mg", "Para 3 kg"), ("Volumen", "0,3-0,9 mL", "A 0,1 mg/mL; repetir cada 3 a 5 minutos")],
          ops=["×", "="], tag="ADRENALINA",
          alternativas=[("Adrenalina", "Elección", True), ("Atropina", "No es de rutina", False), ("Dopamina", "Posreanimación", False), ("Bicarbonato", "Solo acidosis confirmada", False), ("Gluconato de calcio", "Solo hipocalcemia", False)],
          veredicto=("Paro neonatal persistente = adrenalina", "Antes de darla, se verifica la calidad de la ventilación y la posición del tubo.")),
   clasif=dict(titulo="Adrenalina en reanimación neonatal (AHA 2020)", cols=["Vía", "Dosis", "Nota"],
               filas=[["Venosa umbilical", "0,01 a 0,03 mg/kg de 1:10 000", "Vía preferida; repetir cada 3 a 5 minutos"],
-                     ["Endotraqueal", "0,05 a 0,1 mg/kg", "Solo mientras se logra el acceso venoso"]], caso=0, ancho_primera=200))
+                     ["Endotraqueal", "0,05 a 0,1 mg/kg", "Solo mientras se logra el acceso venoso"]], caso=0, ancho_primera=240))
 
 # PED-172 · REGLA · bajo peso al nacer
 S("regla", "RM-PED-172", "Se considera recién nacido de bajo peso el que pesa menos de 2500 gramos, sin importar la edad gestacional",
@@ -291,7 +291,7 @@ S("puntaje", "RM-PED-175", "Acrocianosis, FC 90, mueca, flexión parcial y respi
    "No se espera al minuto para reanimar y no predice el pronóstico neurológico individual; si a los 5 minutos es menor de 7 se repite cada 5 minutos hasta los 20.",
    "Perla: un Apgar bajo aislado no equivale a asfixia perinatal, que exige acidosis en el cordón y encefalopatía."],
   "AAP y ACOG, Committee Opinion N.º 644: The Apgar score. Pediatrics 2015;136:819-822; " + NTS + "; " + NELSON + ".",
-  op=("¿Puntaje al minuto?", ["Sí: cinco parámetros de 1 punto cada uno", "No: subestima un parámetro", "No: sobreestima los parámetros", "No: sobreestima un parámetro", "No: sería un neonato casi sin respuesta"],
+  op=("¿Puntaje al minuto?", ["Sí: cinco parámetros de 1 punto cada uno", "No: subestima un parámetro", "No: sobreestima los parámetros", "No: sobreestima un parámetro", "No: sería un neonato casi sin reacción"],
       {}),
   d=dict(rotulo="Puntaje de Apgar del recién nacido al minuto", escala="Puntos del caso",
          items=[("Color: cuerpo rosado y extremidades azules (acrocianosis)", 1, True), ("Frecuencia cardiaca: 90 por minuto (menor de 100)", 1, True),
@@ -304,7 +304,7 @@ S("puntaje", "RM-PED-175", "Acrocianosis, FC 90, mueca, flexión parcial y respi
   clasif=dict(titulo="Puntaje de Apgar: qué vale 0, 1 y 2", cols=["Parámetro", "0 puntos", "1 punto", "2 puntos"],
               filas=[["Color", "Cianosis o palidez", "Acrocianosis", "Rosado"],
                      ["Frecuencia cardiaca", "Ausente", "Menor de 100", "100 o más"],
-                     ["Irritabilidad refleja", "Sin respuesta", "Mueca", "Llanto o tos"],
+                     ["Irritabilidad refleja", "Sin reacción", "Mueca", "Llanto o tos"],
                      ["Tono muscular", "Flácido", "Cierta flexión", "Movimiento activo"],
                      ["Respiración", "Ausente", "Lenta e irregular", "Llanto fuerte"]], caso=None, ancho_primera=200,
               nota="El caso suma 1 punto en cada parámetro: total 5."))
@@ -349,11 +349,11 @@ S("laboratorio", "RM-PED-177", "Ictericia, fiebre y dolor en hipocondrio derecho
   op=("¿Análisis que confirma?", ["Sí: confirma la infección aguda por VHA", "No: evalúan pancreatitis", "No: evalúan anemia hemolítica", "No: evalúan colestasis, sin identificar el agente", "No: no orientan la etiología"],
       {0: "IgM anti-VHA", 1: "Amilasa y lipasa", 2: "Hemoglobina y reticulocitos", 3: "Bilirrubina y GGT", 4: "Hemograma y glicemia"}),
   d=dict(rotulo="Qué aporta cada examen en el escolar ictérico", valores=[
-            ("IgM anti-VHA", "Reactiva", "Aparece con los síntomas; 3 a 6 meses", "↑", "Confirma hepatitis A aguda: la opción correcta."),
+            ("IgM anti-VHA", "Reactiva", "Dura 3 a 6 meses", "↑", "Confirma hepatitis A aguda: la opción correcta."),
             ("ALT y AST", "Muy elevadas", "ALT mayor que AST", "↑", "Daño hepatocelular; no identifica el agente."),
-            ("Bilirrubina y GGT", "Elevadas", "Ictericia con coluria y acolia", "↑", "Colestasis; no identifica el agente."),
-            ("Amilasa y lipasa", "Normales", "Evalúan el páncreas", "–", "Pancreatitis: no corresponde al cuadro."),
-            ("Hemoglobina y reticulocitos", "Normales", "Evalúan hemólisis", "–", "Anemia hemolítica: no corresponde.")],
+            ("Bilirrubina y GGT", "Elevadas", "Con coluria", "↑", "Colestasis; no identifica el agente."),
+            ("Amilasa y lipasa", "Normales", "Evalúan el páncreas", "=", "Pancreatitis: no corresponde al cuadro."),
+            ("Hemoglobina y reticulocitos", "Normales", "Evalúan hemólisis", "=", "Anemia hemolítica: no corresponde.")],
          veredicto=("Ictericia + fiebre en el escolar = IgM anti-VHA", "Las transaminasas y la bilirrubina orientan al hígado pero no al virus.")),
   clasif=dict(titulo="Serología de la hepatitis A", cols=["Marcador", "Qué indica", "Duración"],
               filas=[["IgM anti-VHA", "Infección aguda", "Persiste 3 a 6 meses"],
@@ -378,7 +378,7 @@ S("linea_vida", "RM-PED-178", "En la sepsis neonatal precoz de las opciones el a
          marcador=(3, "72 horas"),
          veredicto=("Sepsis precoz = E. coli entre las opciones", "S. aureus, Enterococcus y Pseudomonas son de la sepsis tardía; el estreptococo del grupo B no figura en las opciones.")),
   clasif=dict(titulo="Gérmenes de la sepsis neonatal según el momento", cols=["Tipo", "Gérmenes", "Nota"],
-              filas=[["Precoz (primeras 72 horas)", "Estreptococo del grupo B, E. coli, Listeria", "Transmisión vertical; E. coli: clave de las opciones"],
+              filas=[["Precoz (72 horas)", "Estreptococo del grupo B, E. coli, Listeria", "Transmisión vertical; E. coli: clave de las opciones"],
                      ["Tardía u hospitalaria", "S. aureus, Enterococcus, Pseudomonas", "Catéteres y estancia hospitalaria"],
                      ["Afebril del lactante", "Chlamydia trachomatis", "Conjuntivitis y neumonía, no sepsis"]], caso=0, ancho_primera=230,
               nota="Clave B del libro: el estreptococo del grupo B es el más frecuente en el término, pero no figura entre las opciones."))
@@ -405,4 +405,4 @@ S("reloj", "RM-PED-179", "Si tras 30 segundos de ventilación eficaz la frecuenc
   clasif=dict(titulo="Frecuencia cardiaca y conducta en la reanimación neonatal", cols=["Frecuencia cardiaca", "Conducta", "Nota"],
               filas=[["Mayor de 100", "Seguir cuidados", "Respiración espontánea eficaz"],
                      ["60 a 100 tras ventilar", "Continuar la ventilación", "Corregir la técnica (MR SOPA)"],
-                     ["Menor de 60 tras 30 s eficaces", "Compresiones 3:1, intubar, oxígeno al 100 %", "Adrenalina si persiste 60 s más"]], caso=2, ancho_primera=240))
+                     ["Menor de 60", "Compresiones 3:1, intubar, oxígeno al 100 %", "Adrenalina si persiste 60 s más"]], caso=2, ancho_primera=240))

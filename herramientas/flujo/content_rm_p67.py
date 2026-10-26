@@ -73,7 +73,7 @@ S("carriles", "RM-PED-131", "En el shock séptico frío refractario a dopamina e
          veredicto=("Shock frío refractario a dopamina = adrenalina", "La vasopresina es de tercera línea y la atropina no sube la presión.")),
   clasif=dict(titulo="Shock séptico pediátrico según la perfusión", cols=["Tipo", "Hallazgos", "Fármaco de elección"],
               filas=[["Frío", "Extremidades frías, llenado capilar lento, pulsos débiles", "Adrenalina"],
-                     ["Caliente", "Extremidades tibias, pulsos saltones, llenado rápido", "Noradrenalina"]], caso=0, ancho_primera=120,
+                     ["Caliente", "Extremidades tibias, pulsos saltones, llenado rápido", "Noradrenalina"]], caso=0, ancho_primera=200,
               nota="Surviving Sepsis Campaign pediátrica 2020. Siempre con fluidos, antibiótico en la primera hora y control del foco."))
 
 # 132 · TRANSMISIÓN · síndrome de realimentación
@@ -112,7 +112,7 @@ S("dosis", "RM-PED-133", "Deshidratación severa con shock por diarrea: bolo de 
   "OMS, Libro de bolsillo de atención hospitalaria del niño, 2.ª ed. (2013); Weiss y cols., Surviving Sepsis Campaign pediátrica (2020); " + NEL + ".",
   op=("¿Medida inicial?", ["Sí: expande el volumen de forma rápida y segura", "No: 200 mL/kg es una dosis letal por sobrecarga", "No: es de mantenimiento y 10 mL/kg no alcanza", "No: el plasma no es expansor de primera línea", "No: el hipersodio está contraindicado aquí"],
       {0: "Suero fisiológico 20 mL/kg en bolo", 1: "Lactato Ringer 200 mL/kg", 2: "Polielectrolítica 10 mL/kg en bolo", 3: "Plasma fresco congelado 20 mL/kg", 4: "Hipersodio 10 mL/kg a chorro"}),
-  d=dict(rotulo="Reposición del niño con shock por deshidratación", peso=("20 mL/kg", "Cristaloide isotónico en bolo"),
+  d=dict(rotulo="Reposición del niño con shock por deshidratación", peso=("20 mL/kg", "Isotónico en bolo"),
          pasos=[("Reconocer el shock", "Pulsos débiles", "Llenado mayor de 3 s"), ("Bolo inicial", "20 mL/kg", "Suero fisiológico"), ("Reevaluar", "Hasta 3 bolos", "Buscar crepitantes")],
          alternativas=[("Suero fisiológico 20 mL/kg en bolo", "Expande el volumen; elección", True), ("Lactato Ringer 200 mL/kg", "Dosis letal por sobrecarga", False), ("Polielectrolítica 10 mL/kg", "Es de mantenimiento; dosis corta", False),
                        ("Plasma fresco 20 mL/kg", "No es expansor de primera línea", False), ("Hipersodio 10 mL/kg a chorro", "Contraindicado en este contexto", False)],
@@ -144,7 +144,7 @@ S("regla", "RM-PED-134", "La anemia ferropénica del lactante se trata con hierr
                  ("Dosis altas", ["5 a 10 o más: intolerancia digestiva, heces oscuras y toxicidad"], False)]),
   clasif=dict(titulo="Hierro elemental en el lactante según el objetivo", cols=["Objetivo", "Dosis", "Duración y control"],
               filas=[["Profilaxis", "1 a 3 mg/kg/día", "Según riesgo"],
-                     ["Tratamiento de la anemia", "3 a 6 mg/kg/día", "3 meses; reticulocitos a la semana y hemoglobina a las 4 semanas"],
+                     ["Tratamiento", "3 a 6 mg/kg/día", "3 meses; reticulocitos a la semana y hemoglobina a las 4 semanas"],
                      ["Reposición de depósitos", "Continuar el hierro", "Dos a tres meses más tras normalizar la hemoglobina"]], caso=1, ancho_primera=190))
 
 # 135 · TERMÓMETRO · hipokalemia severa
@@ -221,7 +221,7 @@ S("lectura", "RM-PED-137", "Fiebre alta, tos, coriza, conjuntivitis y exantema g
                      ["Eritema infeccioso", "Mejillas abofeteadas", "Sin catarro ni fiebre alta"],
                      ["Varicela", "Vesículas en distintos estadios", "Prurito"],
                      ["Rubéola", "Exantema leve", "Adenopatías retroauriculares"],
-                     ["Exantema súbito", "Exantema tras 3 días de fiebre", "Aparece cuando cede la fiebre"]], caso=0, ancho_primera=170))
+                     ["Exantema súbito", "Exantema tras 3 días de fiebre", "Aparece cuando cede la fiebre"]], caso=0, ancho_primera=240))
 
 # 138 · RELOJ · estatus epiléptico
 S("reloj", "RM-PED-138", "Convulsión generalizada de 35 minutos con nueva crisis en un lactante febril: estatus convulsivo",
