@@ -2559,6 +2559,93 @@
       "fuentes": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults. Am J Gastroenterol 2016;111:602-622; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
       "categoria": "Intestino",
       "nota_revision": "Discrepancia: Harrison y otras fuentes usan 200 g/día y la guía ACG 2016 define la diarrea aguda solo por frecuencia y duración (≥3 deposiciones sueltas/24 h, menos de 14 días); el umbral de 250 g/día no se verificó en guías. Se mantiene la clave A (única opción de 250 g/día). Clave del libro: A (250 g/día); corregida a E (200 g/día), corte de Harrison y dentro del rango 200-250 de ACG 2016; la opción A se cambió a 300 g/día para dejar una sola correcta."
+    },
+    {
+      "id": "RM-GAS-041",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Varón de 65 años, con accidente cerebrovascular que requiere ventilación asistida y con historia de reflujo gastroesofágico severo. ¿Cuál es la medida más apropiada para evitar el reflujo y la broncoaspiración?",
+      "opciones": [
+        "Alimentación por sonda nasoyeyunal.",
+        "Nutrición parenteral total.",
+        "Antibioticoterapia prolongada.",
+        "Alimentación por sonda nasogástrica.",
+        "Nada por vía oral."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El paciente ventilado tiene un riesgo elevado de neumonía por aspiración por varios mecanismos: reducción de la conciencia, disfagia por el ictus, decúbito, retraso del vaciamiento gástrico y, en este caso, reflujo gastroesofágico severo. La nutrición enteral temprana es preferible a la parenteral porque preserva la barrera intestinal y reduce infecciones. Las guías indican iniciar con sonda nasogástrica y reservar la vía pospilórica (nasoyeyunal) para pacientes con intolerancia gástrica persistente o alto riesgo de aspiración, como el que describe el enunciado. La sonda nasoyeyunal, ubicada más allá del ángulo de Treitz, evita que el estómago se llene, reduciendo la regurgitación, y debe acompañarse de medidas generales: cabecera elevada entre 30 y 45 grados, infusión continua, control de la presión del balón de neumotaponamiento y uso de procinéticos como metoclopramida o eritromicina. La nutrición parenteral queda reservada a quienes no toleran la vía enteral, porque aumenta las complicaciones infecciosas; los antibióticos prolongados no previenen la aspiración y favorecen la resistencia; y mantener al paciente sin nutrición por vía oral por sí solo lo deja sin aporte calórico. Perla clínica: confirmar la posición de la sonda con radiografía.",
+      "comentario": "El paciente ventilado tiene un riesgo elevado de neumonía por aspiración por varios mecanismos: reducción de la conciencia, disfagia por el ictus, decúbito, retraso del vaciamiento gástrico y, en este caso, reflujo gastroesofágico severo. La nutrición enteral temprana es preferible a la parenteral porque preserva la barrera intestinal y reduce infecciones. Las guías indican iniciar con sonda nasogástrica y reservar la vía pospilórica (nasoyeyunal) para pacientes con intolerancia gástrica persistente o alto riesgo de aspiración, como el que describe el enunciado. La sonda nasoyeyunal, ubicada más allá del ángulo de Treitz, evita que el estómago se llene, reduciendo la regurgitación, y debe acompañarse de medidas generales: cabecera elevada entre 30 y 45 grados, infusión continua, control de la presión del balón de neumotaponamiento y uso de procinéticos como metoclopramida o eritromicina. La nutrición parenteral queda reservada a quienes no toleran la vía enteral, porque aumenta las complicaciones infecciosas; los antibióticos prolongados no previenen la aspiración y favorecen la resistencia; y mantener al paciente sin nutrición por vía oral por sí solo lo deja sin aporte calórico. Perla clínica: confirmar la posición de la sonda con radiografía.",
+      "tema": "Alimentación enteral en ventilado con reflujo grave",
+      "año": 2015,
+      "fuentes": "Singer P et al., ESPEN practical and partially revised guideline: clinical nutrition in the intensive care unit, Clin Nutr 2023;42:1671-89; Harrison Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Nutrición enteral"
+    },
+    {
+      "id": "RM-GAS-042",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de hemorragia digestiva baja?",
+      "opciones": [
+        "Neoplasia maligna colorrectal.",
+        "Diverticulosis colónica.",
+        "Enfermedad de Crohn.",
+        "Colitis aguda.",
+        "Angiodisplasia colónica."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hemorragia digestiva baja es la que se origina distal al ligamento de Treitz, con mayor frecuencia en el colon, y se presenta como hematoquecia o sangre roja por el recto. En adultos mayores, la causa más común es la enfermedad diverticular, que explica entre el 30 y el 40 % de los casos: el sangrado ocurre por rotura de la arteria recta (vasa recta) en el cuello del divertículo, es indoloro y masivo, y cede espontáneamente en el 75 % de los pacientes. Aunque la diverticulosis predomina en el sigmoides, los divertículos del colon derecho sangran más. La angiodisplasia es la segunda causa y se localiza en ciego y colon ascendente, asociada a estenosis aórtica y a enfermedad de von Willebrand adquirida. Otras causas son hemorroides, colitis isquémica, infecciosa o inflamatoria, y neoplasias, que se relacionan con sangrado crónico. La guía ACG 2023 recomienda estratificar el riesgo con el índice de Oakland, realizar la colonoscopía durante la admisión tras preparación, y usar angiografía por tomografía en la hemorragia inestable. El cáncer colorrectal y el Crohn son causas menos frecuentes. Perla clínica: toda hemorragia con inestabilidad hemodinámica debe descartar primero un origen alto, con una sonda nasogástrica o endoscopía digestiva alta.",
+      "comentario": "La hemorragia digestiva baja es la que se origina distal al ligamento de Treitz, con mayor frecuencia en el colon, y se presenta como hematoquecia o sangre roja por el recto. En adultos mayores, la causa más común es la enfermedad diverticular, que explica entre el 30 y el 40 % de los casos: el sangrado ocurre por rotura de la arteria recta (vasa recta) en el cuello del divertículo, es indoloro y masivo, y cede espontáneamente en el 75 % de los pacientes. Aunque la diverticulosis predomina en el sigmoides, los divertículos del colon derecho sangran más. La angiodisplasia es la segunda causa y se localiza en ciego y colon ascendente, asociada a estenosis aórtica y a enfermedad de von Willebrand adquirida. Otras causas son hemorroides, colitis isquémica, infecciosa o inflamatoria, y neoplasias, que se relacionan con sangrado crónico. La guía ACG 2023 recomienda estratificar el riesgo con el índice de Oakland, realizar la colonoscopía durante la admisión tras preparación, y usar angiografía por tomografía en la hemorragia inestable. El cáncer colorrectal y el Crohn son causas menos frecuentes. Perla clínica: toda hemorragia con inestabilidad hemodinámica debe descartar primero un origen alto, con una sonda nasogástrica o endoscopía digestiva alta.",
+      "tema": "Causa más frecuente de hemorragia digestiva baja",
+      "año": 2014,
+      "fuentes": "ACG Clinical Guideline: Acute Lower Gastrointestinal Bleeding (Sengupta N et al., Am J Gastroenterol 2023;118:208-231); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Hemorragia digestiva",
+      "nota_revision": "Repite RM-GAS-016 (misma clave B)."
+    },
+    {
+      "id": "RM-GAS-043",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Diabética de 45 años en tratamiento irregular que hace 4 días presenta dolor abdominal en cuadrante superior derecho, sensación de alza térmica y coloración amarillenta de piel y mucosas. Examen: ictericia de piel y mucosas; PA 90/60 mmHg, pulso 110 por minuto, temperatura 39 °C. Abdomen doloroso a la palpación en cuadrante superior derecho, signo de Blumberg negativo y Murphy positivo. Ecografía: colelitiasis y coledocolitiasis. ¿Cuál es la conducta terapéutica a seguir?",
+      "opciones": [
+        "Colangiopancreatografía retrógrada endoscópica.",
+        "Colecistectomía abierta.",
+        "Exploración de vías biliares.",
+        "Colecistostomía abierta.",
+        "Derivación biliodigestiva."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La coledocolitiasis con fiebre, ictericia y dolor en hipocondrio derecho configura la tríada de Charcot de la colangitis aguda; la pentada de Reynolds suma hipotensión y alteración mental. Según los criterios de Tokio 2018, el diagnóstico requiere inflamación sistémica, colestasis y evidencia de imagen de obstrucción, y la gravedad se gradúa con disfunción orgánica: la hipotensión que requiere vasopresores define el grado III. La paciente tiene fiebre alta, taquicardia, hipotensión y diabetes, por lo que requiere reanimación con líquidos, hemocultivos, antibióticos de amplio espectro y drenaje urgente de la vía biliar, que se hace por CPRE con esfinterotomía y extracción de cálculos o colocación de un stent. La colecistectomía abierta, la exploración quirúrgica del colédoco, la colecistostomía y la derivación biliodigestiva implican mayor morbilidad en un paciente séptico y no son el primer paso. La colecistectomía laparoscópica se programa después, en la misma hospitalización, para evitar recurrencias. Si la CPRE no es posible, se recurre al drenaje percutáneo transhepático o a la ecoendoscopia. Perla clínica: el drenaje biliar precoz, y no la antibioterapia sola, es lo que disminuye la mortalidad en la colangitis moderada y grave. La GPC N.º 11 de EsSalud/IETSI (2018) respalda este manejo.",
+      "comentario": "La coledocolitiasis con fiebre, ictericia y dolor en hipocondrio derecho configura la tríada de Charcot de la colangitis aguda; la pentada de Reynolds suma hipotensión y alteración mental. Según los criterios de Tokio 2018, el diagnóstico requiere inflamación sistémica, colestasis y evidencia de imagen de obstrucción, y la gravedad se gradúa con disfunción orgánica: la hipotensión que requiere vasopresores define el grado III. La paciente tiene fiebre alta, taquicardia, hipotensión y diabetes, por lo que requiere reanimación con líquidos, hemocultivos, antibióticos de amplio espectro y drenaje urgente de la vía biliar, que se hace por CPRE con esfinterotomía y extracción de cálculos o colocación de un stent. La colecistectomía abierta, la exploración quirúrgica del colédoco, la colecistostomía y la derivación biliodigestiva implican mayor morbilidad en un paciente séptico y no son el primer paso. La colecistectomía laparoscópica se programa después, en la misma hospitalización, para evitar recurrencias. Si la CPRE no es posible, se recurre al drenaje percutáneo transhepático o a la ecoendoscopia. Perla clínica: el drenaje biliar precoz, y no la antibioterapia sola, es lo que disminuye la mortalidad en la colangitis moderada y grave. La GPC N.º 11 de EsSalud/IETSI (2018) respalda este manejo.",
+      "tema": "Colangitis aguda por coledocolitiasis: conducta",
+      "año": 2017,
+      "fuentes": "Tokyo Guidelines 2018 (Kiriyama S et al., J Hepatobiliary Pancreat Sci 2018;25:17-30 y 31-40); EsSalud-IETSI GPC N.º 11 de colelitiasis, colecistitis aguda y coledocolitiasis (2018); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Vía biliar",
+      "nota_revision": "Repite RM-CIR-090 (misma clave A). El comentario del libro está ilegible en la extracción; redactado con el criterio de las guías de Tokio."
+    },
+    {
+      "id": "RM-GAS-044",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el examen de elección para detectar lesiones metastásicas en cáncer gástrico?",
+      "opciones": [
+        "Tomografía helicoidal.",
+        "Ultrasonografía.",
+        "Radiografía contrastada de estómago.",
+        "Tomografía por emisión de positrones.",
+        "Gammagrafía."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El adenocarcinoma gástrico se estadifica con el sistema TNM de la AJCC, y la estadificación define si el tratamiento será endoscópico, quirúrgico o perioperatorio con quimioterapia. Tras el diagnóstico endoscópico con biopsia, la tomografía computarizada helicoidal de tórax, abdomen y pelvis con contraste oral e intravenoso es el estudio de elección para buscar metástasis a distancia en hígado, peritoneo, pulmón y ganglios, y evaluar el compromiso local. La ecoendoscopia es el método más preciso para la profundidad de la invasión (T) y los ganglios regionales, y es clave para decidir resección endoscópica de lesiones tempranas. La laparoscopia de estadificación con citología peritoneal detecta enfermedad peritoneal oculta en tumores T3 o T4 y en los localmente avanzados. La PET-TC es costosa y de baja sensibilidad en tumores mucinosos y de células en anillo de sello, por lo que no es de rutina. La ultrasonografía abdominal tiene sensibilidad insuficiente, la radiografía contrastada solo muestra la lesión luminal y la gammagrafía no se usa en la estadificación. Perla clínica: el signo del ganglio de Virchow, el nódulo de la hermana María José y el anaquel de Blumer son signos de enfermedad avanzada o diseminada.",
+      "comentario": "El adenocarcinoma gástrico se estadifica con el sistema TNM de la AJCC, y la estadificación define si el tratamiento será endoscópico, quirúrgico o perioperatorio con quimioterapia. Tras el diagnóstico endoscópico con biopsia, la tomografía computarizada helicoidal de tórax, abdomen y pelvis con contraste oral e intravenoso es el estudio de elección para buscar metástasis a distancia en hígado, peritoneo, pulmón y ganglios, y evaluar el compromiso local. La ecoendoscopia es el método más preciso para la profundidad de la invasión (T) y los ganglios regionales, y es clave para decidir resección endoscópica de lesiones tempranas. La laparoscopia de estadificación con citología peritoneal detecta enfermedad peritoneal oculta en tumores T3 o T4 y en los localmente avanzados. La PET-TC es costosa y de baja sensibilidad en tumores mucinosos y de células en anillo de sello, por lo que no es de rutina. La ultrasonografía abdominal tiene sensibilidad insuficiente, la radiografía contrastada solo muestra la lesión luminal y la gammagrafía no se usa en la estadificación. Perla clínica: el signo del ganglio de Virchow, el nódulo de la hermana María José y el anaquel de Blumer son signos de enfermedad avanzada o diseminada.",
+      "tema": "Estudio para detectar metástasis en cáncer gástrico",
+      "año": 2017,
+      "fuentes": "ESMO Clinical Practice Guideline gastric cancer (Lordick F et al., Ann Oncol 2022;33:1005-1020); NCCN Guidelines Gastric Cancer (versión vigente); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Oncología digestiva",
+      "nota_revision": "Repite RM-CIR-138 (misma clave A). Opciones reconstruidas desde la imagen de la página (el orden de las letras del libro está desordenado en la columna; se normalizó a A-E según los enunciados)."
     }
   ]
 }

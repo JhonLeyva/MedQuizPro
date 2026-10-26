@@ -5779,6 +5779,398 @@
       "fuentes": "Gastric cancer: ESMO Clinical Practice Guideline. Ann Oncol 2022;33:1005-1020; Sabiston Tratado de Cirugía 21.ª ed.",
       "categoria": "Oncología quirúrgica",
       "nota_revision": "Opciones y enunciado reconstruidos: el texto OCR traía las cinco alternativas mezcladas."
+    },
+    {
+      "id": "RM-CIR-139",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2015 · pregunta oficial",
+      "enunciado": "Mujer de 25 años que, luego de un accidente de tránsito, ingresa a Emergencia por dolor abdominal difuso y progresivo. Funciones vitales: PA 100/50 mmHg, pulso 95 por minuto. Abdomen doloroso a la palpación en mesogastrio. Ecografía: normal. Se decide realizar un lavado peritoneal diagnóstico, con resultado de leucocitos mayores de 500/cc y eritrocitos mayores de 100 000/cc. ¿Cuál es la conducta inmediata a seguir?",
+      "opciones": [
+        "Laparoscopia diagnóstica.",
+        "Catéter venoso central.",
+        "Tomografía abdominal.",
+        "Laparotomía exploradora.",
+        "Resonancia magnética."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El lavado peritoneal diagnóstico (LPD) busca hemoperitoneo y lesión de víscera hueca en el trauma abdominal cerrado. Se considera positivo con más de 100 000 hematíes/mm³, más de 500 leucocitos/mm³, amilasa elevada, o salida de bilis, bacterias, restos alimentarios o del líquido por la sonda vesical o el tubo torácico. Aquí se cumplen dos criterios, de modo que existe una lesión intraabdominal con sangrado o perforación intestinal, y la conducta clásica ante un LPD positivo es la laparotomía exploradora, porque confirma y resuelve la lesión en el mismo acto. La laparoscopia diagnóstica tiene un papel limitado en el trauma cerrado con sospecha de lesión de múltiples vísceras. El catéter venoso central y la resonancia no definen la conducta, y la tomografía solo es la conducta cuando el paciente está estable y no se hizo un LPD concluyente. Perla clínica: el LPD ha sido desplazado por la ecografía FAST y la tomografía, y se reserva para el paciente inestable con FAST dudosa o sin acceso a imagen. Una presión de 100/50 mmHg con taquicardia incipiente en trauma debe tratarse como shock compensado hasta demostrar lo contrario.",
+      "comentario": "El lavado peritoneal diagnóstico (LPD) busca hemoperitoneo y lesión de víscera hueca en el trauma abdominal cerrado. Se considera positivo con más de 100 000 hematíes/mm³, más de 500 leucocitos/mm³, amilasa elevada, o salida de bilis, bacterias, restos alimentarios o del líquido por la sonda vesical o el tubo torácico. Aquí se cumplen dos criterios, de modo que existe una lesión intraabdominal con sangrado o perforación intestinal, y la conducta clásica ante un LPD positivo es la laparotomía exploradora, porque confirma y resuelve la lesión en el mismo acto. La laparoscopia diagnóstica tiene un papel limitado en el trauma cerrado con sospecha de lesión de múltiples vísceras. El catéter venoso central y la resonancia no definen la conducta, y la tomografía solo es la conducta cuando el paciente está estable y no se hizo un LPD concluyente. Perla clínica: el LPD ha sido desplazado por la ecografía FAST y la tomografía, y se reserva para el paciente inestable con FAST dudosa o sin acceso a imagen. Una presión de 100/50 mmHg con taquicardia incipiente en trauma debe tratarse como shock compensado hasta demostrar lo contrario.",
+      "tema": "Lavado peritoneal diagnóstico positivo en trauma cerrado",
+      "año": 2015,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "nota_revision": "El libro marca laparotomía (D) por el LPD positivo. En la práctica actual, si la paciente estuviera hemodinámicamente estable, la tomografía sería preferible; se mantiene D porque el enunciado pide la conducta tras un LPD positivo."
+    },
+    {
+      "id": "RM-CIR-140",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de obstrucción intestinal en pacientes no operados en países no industrializados?",
+      "opciones": [
+        "Hernias.",
+        "Vólvulo.",
+        "Neoplasias.",
+        "Íleo biliar.",
+        "Malformación intestinal."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La obstrucción intestinal mecánica se divide en causas intrínsecas (tumores, estenosis, íleo biliar), de la pared (hernias, vólvulos, intususcepción) y extrínsecas (adherencias). En países industrializados, donde muchos pacientes tienen cirugía abdominal previa, las bridas y adherencias lideran el intestino delgado. En un abdomen virgen, en cambio, la primera causa de obstrucción es la hernia de la pared abdominal (inguinal, femoral, umbilical, incisional) con atrapamiento o estrangulación del asa, y este predominio es mayor en regiones con acceso limitado a la reparación electiva, donde se consultan tarde. El vólvulo del sigmoides es frecuente en ancianos con megacolon y en zonas de dieta rica en fibra, pero es menos común que las hernias. Las neoplasias son la causa principal de obstrucción del colon, no del intestino delgado en general; el íleo biliar es raro y aparece en mujeres ancianas con litiasis grande; las malformaciones intestinales predominan en el recién nacido. Perla clínica: ante una obstrucción, siempre se deben revisar los orificios herniarios, porque una hernia pequeña, como la femoral, puede pasar inadvertida y estrangularse rápidamente. La reparación electiva de la hernia sintomática previene esta emergencia.",
+      "comentario": "La obstrucción intestinal mecánica se divide en causas intrínsecas (tumores, estenosis, íleo biliar), de la pared (hernias, vólvulos, intususcepción) y extrínsecas (adherencias). En países industrializados, donde muchos pacientes tienen cirugía abdominal previa, las bridas y adherencias lideran el intestino delgado. En un abdomen virgen, en cambio, la primera causa de obstrucción es la hernia de la pared abdominal (inguinal, femoral, umbilical, incisional) con atrapamiento o estrangulación del asa, y este predominio es mayor en regiones con acceso limitado a la reparación electiva, donde se consultan tarde. El vólvulo del sigmoides es frecuente en ancianos con megacolon y en zonas de dieta rica en fibra, pero es menos común que las hernias. Las neoplasias son la causa principal de obstrucción del colon, no del intestino delgado en general; el íleo biliar es raro y aparece en mujeres ancianas con litiasis grande; las malformaciones intestinales predominan en el recién nacido. Perla clínica: ante una obstrucción, siempre se deben revisar los orificios herniarios, porque una hernia pequeña, como la femoral, puede pasar inadvertida y estrangularse rápidamente. La reparación electiva de la hernia sintomática previene esta emergencia.",
+      "tema": "Causa más frecuente de obstrucción intestinal sin cirugía previa",
+      "año": 2016,
+      "fuentes": "WSES, Bologna guidelines de obstrucción adhesiva del intestino delgado (2017, World J Emerg Surg 2018); HerniaSurge, actualización de guías de hernia inguinal (BJS Open 2023); Sabiston Tratado de Cirugía 21.ª ed. (2021)"
+    },
+    {
+      "id": "RM-CIR-141",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el procedimiento en la actualidad más utilizado, por su alta sensibilidad, en el diagnóstico inicial de las enfermedades del tracto biliar?",
+      "opciones": [
+        "Ultrasonografía abdominal.",
+        "Colecistografía oral.",
+        "Tomografía axial computarizada.",
+        "Colangiopancreatografía retrógrada endoscópica.",
+        "Colangiografía transparietohepática."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La ecografía abdominal es el estudio inicial de elección en la patología biliar porque es rápida, barata, portátil, no usa radiación ni contraste y no depende de la función hepática. Detecta litiasis vesicular con sensibilidad cercana al 95 %, engrosamiento de la pared, líquido pericolecístico, signo de Murphy ecográfico y dilatación de la vía biliar (colédoco mayor de 6 mm), y orienta a colecistitis, coledocolitiasis y neoplasias. Los criterios de Tokio 2018 integran los hallazgos de imagen con la clínica para diagnosticar colecistitis y colangitis. La colecistografía oral está obsoleta; la tomografía es útil para complicaciones, tumores y diagnóstico diferencial, pero tiene menor sensibilidad para cálculos de colesterol; la colangiorresonancia es el estudio no invasivo de la vía biliar cuando la ecografía no es concluyente. La CPRE y la colangiografía transparietal son procedimientos invasivos, con riesgo de pancreatitis y de sangrado o fuga biliar, y se reservan para fines terapéuticos o cuando fallan los demás métodos. Perla clínica: una ecografía normal no descarta cálculos pequeños ni microlitiasis, y ante alta sospecha se repite o se pide ecoendoscopia.",
+      "comentario": "La ecografía abdominal es el estudio inicial de elección en la patología biliar porque es rápida, barata, portátil, no usa radiación ni contraste y no depende de la función hepática. Detecta litiasis vesicular con sensibilidad cercana al 95 %, engrosamiento de la pared, líquido pericolecístico, signo de Murphy ecográfico y dilatación de la vía biliar (colédoco mayor de 6 mm), y orienta a colecistitis, coledocolitiasis y neoplasias. Los criterios de Tokio 2018 integran los hallazgos de imagen con la clínica para diagnosticar colecistitis y colangitis. La colecistografía oral está obsoleta; la tomografía es útil para complicaciones, tumores y diagnóstico diferencial, pero tiene menor sensibilidad para cálculos de colesterol; la colangiorresonancia es el estudio no invasivo de la vía biliar cuando la ecografía no es concluyente. La CPRE y la colangiografía transparietal son procedimientos invasivos, con riesgo de pancreatitis y de sangrado o fuga biliar, y se reservan para fines terapéuticos o cuando fallan los demás métodos. Perla clínica: una ecografía normal no descarta cálculos pequeños ni microlitiasis, y ante alta sospecha se repite o se pide ecoendoscopia.",
+      "tema": "Estudio inicial de las enfermedades de la vía biliar",
+      "año": 2017,
+      "fuentes": "Tokyo Guidelines 2018, criterios diagnósticos de colecistitis y colangitis (J Hepatobiliary Pancreat Sci 2018); ACR Appropriateness Criteria, Dolor en cuadrante superior derecho, actualización 2022 (J Am Coll Radiol 2023); EsSalud-IETSI, GPC N.º 11 de colelitiasis, colecistitis aguda y coledocolitiasis (2018)"
+    },
+    {
+      "id": "RM-CIR-142",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Varón de 25 años llega a emergencia luego de haber sido atropellado, con disnea y dificultad respiratoria marcada, sudoración profusa y extremidades frías. Examen: PA 80/50 mmHg, FR 28 por minuto, saturación de oxígeno 85 %; se aprecia desviación traqueal a nivel de la horquilla esternal y murmullo vesicular ausente en el hemitórax izquierdo. Se diagnostica neumotórax a tensión. ¿Cuál es el procedimiento inmediato?",
+      "opciones": [
+        "Tracción costal izquierda.",
+        "Descompresión torácica con angiocatéter.",
+        "Toracotomía mínima con drenaje laminar.",
+        "Ventilación asistida.",
+        "Toracotomía a cielo abierto."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El neumotórax a tensión es una de las causas de muerte reversible en el trauma torácico y se diagnostica con la clínica, sin esperar la radiografía. Un mecanismo de válvula unidireccional deja entrar aire al espacio pleural sin que salga; la presión creciente colapsa el pulmón, desvía el mediastino y la tráquea hacia el lado sano y comprime la vena cava, con descenso del retorno venoso, hipotensión, ingurgitación yugular, hipoxemia y murmullo vesicular abolido con hipersonoridad. Como medida inmediata se hace la descompresión con aguja o angiocatéter grueso (14 G), en el quinto espacio intercostal, línea axilar anterior, o en el segundo espacio medioclavicular según el protocolo local; esto convierte el neumotórax a tensión en abierto y compra tiempo para el tratamiento definitivo, que es el tubo de toracostomía conectado a sello de agua. La ventilación con presión positiva sin descomprimir agrava la tensión y puede causar paro. La tracción costal no existe como tratamiento, el drenaje laminar no evacua el aire a presión y la toracotomía a cielo abierto se reserva para el shock traumático por hemotórax masivo o el paro por lesión penetrante. Perla clínica: si la aguja no mejora al paciente, se coloca el tubo de inmediato sin dudar.",
+      "comentario": "El neumotórax a tensión es una de las causas de muerte reversible en el trauma torácico y se diagnostica con la clínica, sin esperar la radiografía. Un mecanismo de válvula unidireccional deja entrar aire al espacio pleural sin que salga; la presión creciente colapsa el pulmón, desvía el mediastino y la tráquea hacia el lado sano y comprime la vena cava, con descenso del retorno venoso, hipotensión, ingurgitación yugular, hipoxemia y murmullo vesicular abolido con hipersonoridad. Como medida inmediata se hace la descompresión con aguja o angiocatéter grueso (14 G), en el quinto espacio intercostal, línea axilar anterior, o en el segundo espacio medioclavicular según el protocolo local; esto convierte el neumotórax a tensión en abierto y compra tiempo para el tratamiento definitivo, que es el tubo de toracostomía conectado a sello de agua. La ventilación con presión positiva sin descomprimir agrava la tensión y puede causar paro. La tracción costal no existe como tratamiento, el drenaje laminar no evacua el aire a presión y la toracotomía a cielo abierto se reserva para el shock traumático por hemotórax masivo o el paro por lesión penetrante. Perla clínica: si la aguja no mejora al paciente, se coloca el tubo de inmediato sin dudar.",
+      "tema": "Neumotórax a tensión: descompresión inmediata",
+      "año": 2018,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Sabiston Tratado de Cirugía 21.ª ed. (2021)"
+    },
+    {
+      "id": "RM-CIR-143",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Politraumatizado que ingresa a emergencia con dolor abdominal difuso, palidez marcada, taquicardia e hipotensión. Hematocrito: 20 %. ¿Cuál es el procedimiento inicial de elección para el diagnóstico?",
+      "opciones": [
+        "Lavado peritoneal diagnóstico.",
+        "Paracentesis abdominal.",
+        "Ecografía abdominal.",
+        "Tomografía abdominal.",
+        "Radiografía simple de abdomen."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro corresponde a un shock hemorrágico por probable hemoperitoneo tras un trauma, y la meta es identificar rápido si hay sangre libre en la cavidad. La ecografía FAST (Focused Assessment with Sonography for Trauma) se realiza en la sala de reanimación en pocos minutos, sin trasladar al paciente ni suspender la reanimación, y explora cuatro ventanas: pericárdica, hepatorrenal (espacio de Morrison, la más sensible), esplenorrenal y pélvica. Un resultado positivo en el paciente inestable lleva directo a laparotomía de control de daños, mientras que uno negativo obliga a buscar otras fuentes: tórax, pelvis, retroperitoneo y extremidades. La tomografía con contraste es el estudio de elección solo en el paciente hemodinámicamente estable. El lavado peritoneal diagnóstico es invasivo y se usa hoy cuando no hay ecografía o ésta no es concluyente. La paracentesis no tiene valor en el trauma y la radiografía simple de abdomen no detecta hemoperitoneo. Perla clínica: la FAST no excluye lesiones retroperitoneales, de víscera hueca ni de diafragma, y puede ser falsa negativa en las primeras horas; si hay duda, se repite el estudio.",
+      "comentario": "El cuadro corresponde a un shock hemorrágico por probable hemoperitoneo tras un trauma, y la meta es identificar rápido si hay sangre libre en la cavidad. La ecografía FAST (Focused Assessment with Sonography for Trauma) se realiza en la sala de reanimación en pocos minutos, sin trasladar al paciente ni suspender la reanimación, y explora cuatro ventanas: pericárdica, hepatorrenal (espacio de Morrison, la más sensible), esplenorrenal y pélvica. Un resultado positivo en el paciente inestable lleva directo a laparotomía de control de daños, mientras que uno negativo obliga a buscar otras fuentes: tórax, pelvis, retroperitoneo y extremidades. La tomografía con contraste es el estudio de elección solo en el paciente hemodinámicamente estable. El lavado peritoneal diagnóstico es invasivo y se usa hoy cuando no hay ecografía o ésta no es concluyente. La paracentesis no tiene valor en el trauma y la radiografía simple de abdomen no detecta hemoperitoneo. Perla clínica: la FAST no excluye lesiones retroperitoneales, de víscera hueca ni de diafragma, y puede ser falsa negativa en las primeras horas; si hay duda, se repite el estudio.",
+      "tema": "Politraumatizado hipotenso con anemia: ecografía FAST",
+      "año": 2018,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Sabiston Tratado de Cirugía 21.ª ed. (2021)"
+    },
+    {
+      "id": "RM-CIR-144",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2014 Extraordinario · pregunta oficial",
+      "enunciado": "Varón de 25 años víctima de accidente de tránsito presenta múltiples lesiones en cara y cuero cabelludo, hemorragia profusa a través de orificios nasales y cavidad oral, Glasgow 8, crujido a la movilización mandibular, múltiples piezas dentarias rotas y saturación de oxígeno de 80 %. La intubación orotraqueal es bastante difícil. ¿Cuál es la alternativa para iniciar su manejo?",
+      "opciones": [
+        "Intubación traqueal por cricotiroidotomía.",
+        "Intubación nasotraqueal.",
+        "Máscara de reservorio.",
+        "Máscara laríngea.",
+        "Cánula binasal."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el trauma facial grave la vía aérea está comprometida por sangre, dientes y fragmentos óseos, por la pérdida del soporte mandibular y por el edema, y un Glasgow de 8 implica además que no protege la vía. La secuencia ABCDE exige asegurarla primero, con control de la columna cervical. Si la intubación orotraqueal es imposible o no se logra oxigenar, es una situación de vía aérea quirúrgica, la de no puedo intubar ni oxigenar, y el procedimiento de rescate es la cricotiroidotomía, rápida, con referencias palpables y de baja morbilidad. La intubación nasotraqueal está contraindicada si se sospecha fractura de la base del cráneo o del tercio medio facial, por riesgo de pasar al endocráneo. La mascarilla con reservorio y la cánula binasal solo aportan oxígeno y no protegen contra la aspiración. La máscara laríngea no sella bien con sangre y lesión mandibular, y no protege de la aspiración. La traqueostomía formal queda como segunda opción y se prefiere en el medio quirúrgico. Perla clínica: si el paciente tiene menos de 12 años use cricotiroidotomía con aguja, no quirúrgica.",
+      "comentario": "En el trauma facial grave la vía aérea está comprometida por sangre, dientes y fragmentos óseos, por la pérdida del soporte mandibular y por el edema, y un Glasgow de 8 implica además que no protege la vía. La secuencia ABCDE exige asegurarla primero, con control de la columna cervical. Si la intubación orotraqueal es imposible o no se logra oxigenar, es una situación de vía aérea quirúrgica, la de no puedo intubar ni oxigenar, y el procedimiento de rescate es la cricotiroidotomía, rápida, con referencias palpables y de baja morbilidad. La intubación nasotraqueal está contraindicada si se sospecha fractura de la base del cráneo o del tercio medio facial, por riesgo de pasar al endocráneo. La mascarilla con reservorio y la cánula binasal solo aportan oxígeno y no protegen contra la aspiración. La máscara laríngea no sella bien con sangre y lesión mandibular, y no protege de la aspiración. La traqueostomía formal queda como segunda opción y se prefiere en el medio quirúrgico. Perla clínica: si el paciente tiene menos de 12 años use cricotiroidotomía con aguja, no quirúrgica.",
+      "tema": "Trauma facial grave: vía aérea quirúrgica",
+      "año": 2014,
+      "fuentes": "Difficult Airway Society, guía de intubación difícil no anticipada en adultos (2025; Br J Anaesth 2026, PMID 41203471); ATLS, 10.ª ed. (American College of Surgeons, 2018)"
+    },
+    {
+      "id": "RM-CIR-145",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cómo se denomina al signo que sugiere rotura esplénica?",
+      "opciones": [
+        "Kehr.",
+        "Obturador.",
+        "Grey Turner.",
+        "Cullen.",
+        "Psoas."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El bazo es el órgano más lesionado en el trauma abdominal cerrado, junto con el hígado. Cuando se rompe, la sangre libre irrita el peritoneo diafragmático izquierdo; como el diafragma comparte la raíz nerviosa C3-C5 con la piel del hombro (nervio frénico), el paciente refiere dolor referido en el hombro izquierdo, que es el signo de Kehr. Suele acentuarse en Trendelenburg o al elevar las piernas y puede acompañarse de dolor en hipocondrio izquierdo, hipotensión y taquicardia. El signo del obturador y el del psoas son maniobras de la apendicitis aguda (apéndice pélvico o retrocecal). Los signos de Grey Turner (equimosis en flancos) y de Cullen (equimosis periumbilical) indican hemorragia retroperitoneal o hemoperitoneo, clásicamente en la pancreatitis necrohemorrágica. Debe recordarse que el signo de Kehr no es exclusivo del bazo: también aparece en el embarazo ectópico roto y en la lesión hepática o del diafragma. El manejo se define por la hemodinamia: el paciente inestable con FAST positiva va a laparotomía, y el estable puede tratarse de forma no operatoria con tomografía y vigilancia, o con embolización según el grado de lesión.",
+      "comentario": "El bazo es el órgano más lesionado en el trauma abdominal cerrado, junto con el hígado. Cuando se rompe, la sangre libre irrita el peritoneo diafragmático izquierdo; como el diafragma comparte la raíz nerviosa C3-C5 con la piel del hombro (nervio frénico), el paciente refiere dolor referido en el hombro izquierdo, que es el signo de Kehr. Suele acentuarse en Trendelenburg o al elevar las piernas y puede acompañarse de dolor en hipocondrio izquierdo, hipotensión y taquicardia. El signo del obturador y el del psoas son maniobras de la apendicitis aguda (apéndice pélvico o retrocecal). Los signos de Grey Turner (equimosis en flancos) y de Cullen (equimosis periumbilical) indican hemorragia retroperitoneal o hemoperitoneo, clásicamente en la pancreatitis necrohemorrágica. Debe recordarse que el signo de Kehr no es exclusivo del bazo: también aparece en el embarazo ectópico roto y en la lesión hepática o del diafragma. El manejo se define por la hemodinamia: el paciente inestable con FAST positiva va a laparotomía, y el estable puede tratarse de forma no operatoria con tomografía y vigilancia, o con embolización según el grado de lesión.",
+      "tema": "Signo de Kehr en la rotura esplénica",
+      "año": 2016,
+      "fuentes": "WSES, lesión esplénica: clasificación y guía en adultos y niños (World J Emerg Surg 2017); ATLS, 11.ª ed. (2025); Sabiston Tratado de Cirugía 21.ª ed. (2021)"
+    },
+    {
+      "id": "RM-CIR-146",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál es el agente causal que en las quemaduras determina mayor necrosis coagulativa y profunda?",
+      "opciones": [
+        "Grasa hirviendo.",
+        "Agua caliente.",
+        "Vapor de agua caliente.",
+        "Fuego directo.",
+        "Aire caliente."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La profundidad de una quemadura depende de la temperatura del agente y del tiempo de contacto. La grasa o el aceite hirviendo alcanzan temperaturas muy superiores a las del agua (por encima de 200 °C frente a 100 °C), se adhieren a la piel y la mantienen en contacto prolongado, por lo que producen necrosis coagulativa profunda, con frecuencia de espesor total. El agua caliente es la causa más común de escaldadura, sobre todo en niños, y suele dar quemaduras superficiales o de espesor parcial; la exposición de 3 segundos a 60 °C ya puede causar lesión de espesor total, pero a temperaturas de grifo habituales el daño es menor. El vapor lesiona la vía aérea y la piel, aunque se disipa rápido. El fuego directo y el aire caliente producen sobre todo daño por inhalación y lesiones muy variables. La evaluación comprende superficie corporal (regla de los nueve o de Lund-Browder), profundidad, edad y lesión inhalatoria. Se transfieren a un centro de quemados las lesiones de espesor total, las de cara, manos, pies o periné, las circunferenciales y las mayores de 10 % de superficie en extremos de edad. Perla: la quemadura eléctrica de bajo voltaje subestima el daño profundo.",
+      "comentario": "La profundidad de una quemadura depende de la temperatura del agente y del tiempo de contacto. La grasa o el aceite hirviendo alcanzan temperaturas muy superiores a las del agua (por encima de 200 °C frente a 100 °C), se adhieren a la piel y la mantienen en contacto prolongado, por lo que producen necrosis coagulativa profunda, con frecuencia de espesor total. El agua caliente es la causa más común de escaldadura, sobre todo en niños, y suele dar quemaduras superficiales o de espesor parcial; la exposición de 3 segundos a 60 °C ya puede causar lesión de espesor total, pero a temperaturas de grifo habituales el daño es menor. El vapor lesiona la vía aérea y la piel, aunque se disipa rápido. El fuego directo y el aire caliente producen sobre todo daño por inhalación y lesiones muy variables. La evaluación comprende superficie corporal (regla de los nueve o de Lund-Browder), profundidad, edad y lesión inhalatoria. Se transfieren a un centro de quemados las lesiones de espesor total, las de cara, manos, pies o periné, las circunferenciales y las mayores de 10 % de superficie en extremos de edad. Perla: la quemadura eléctrica de bajo voltaje subestima el daño profundo.",
+      "tema": "Quemaduras: agente que produce mayor profundidad",
+      "año": 2016,
+      "fuentes": "American Burn Association, criterios de referencia a centro de quemados; StatPearls, Burn Fluid Resuscitation (2025); Sabiston Tratado de Cirugía 21.ª ed. (2021); ATLS, 11.ª ed. (2025)"
+    },
+    {
+      "id": "RM-CIR-147",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cómo se encuentra la presión oncótica plasmática en los tejidos quemados?",
+      "opciones": [
+        "Disminuida.",
+        "Elevada.",
+        "Estable.",
+        "Inestable.",
+        "Muy elevada."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La quemadura provoca una respuesta inflamatoria local intensa con liberación de histamina, bradicinina, prostaglandinas y radicales libres, que aumentan la permeabilidad capilar. Las proteínas plasmáticas, en especial la albúmina, escapan al intersticio del tejido quemado, y en las quemaduras extensas (más de 20-30 % de superficie) el fenómeno se hace sistémico. Como consecuencia, la presión oncótica plasmática disminuye, la intersticial aumenta, y el agua sale del compartimento vascular y forma el edema, con la hipovolemia del shock del quemado. Por eso la reanimación inicial es con cristaloides (Ringer lactato) según la fórmula de Parkland, 2 a 4 ml por kg por porcentaje de superficie corporal quemada, la mitad en las primeras 8 horas, ajustada a una diuresis de 0,5 ml por kg por hora en el adulto. Las opciones que sugieren presión oncótica elevada, muy elevada, estable o inestable no corresponden a la fisiopatología descrita. La albúmina se considera después de las primeras 8 a 24 horas, cuando disminuye la fuga capilar, si el requerimiento de volumen es excesivo. Perla: la sobrerreanimación causa síndrome compartimental y edema pulmonar.",
+      "comentario": "La quemadura provoca una respuesta inflamatoria local intensa con liberación de histamina, bradicinina, prostaglandinas y radicales libres, que aumentan la permeabilidad capilar. Las proteínas plasmáticas, en especial la albúmina, escapan al intersticio del tejido quemado, y en las quemaduras extensas (más de 20-30 % de superficie) el fenómeno se hace sistémico. Como consecuencia, la presión oncótica plasmática disminuye, la intersticial aumenta, y el agua sale del compartimento vascular y forma el edema, con la hipovolemia del shock del quemado. Por eso la reanimación inicial es con cristaloides (Ringer lactato) según la fórmula de Parkland, 2 a 4 ml por kg por porcentaje de superficie corporal quemada, la mitad en las primeras 8 horas, ajustada a una diuresis de 0,5 ml por kg por hora en el adulto. Las opciones que sugieren presión oncótica elevada, muy elevada, estable o inestable no corresponden a la fisiopatología descrita. La albúmina se considera después de las primeras 8 a 24 horas, cuando disminuye la fuga capilar, si el requerimiento de volumen es excesivo. Perla: la sobrerreanimación causa síndrome compartimental y edema pulmonar.",
+      "tema": "Presión oncótica plasmática en el tejido quemado",
+      "año": 2016,
+      "fuentes": "StatPearls, Burn Fluid Resuscitation (2025); American Burn Association, guías de práctica de reanimación; Sabiston Tratado de Cirugía 21.ª ed. (2021); Guyton y Hall, Tratado de Fisiología Médica 14.ª ed. (2021)"
+    },
+    {
+      "id": "RM-CIR-148",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Paciente en estado de coma. ¿En qué situación clínica está indicada la intubación traqueal?",
+      "opciones": [
+        "Hipoxia hipercápnica.",
+        "Hipotensión arterial persistente.",
+        "Apnea persistente.",
+        "Mioclonias localizadas.",
+        "Midriasis paralítica bilateral."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "En un paciente comatoso la intubación orotraqueal protege la vía aérea y asegura la oxigenación y la ventilación. Se indica cuando hay pérdida de reflejos protectores (Glasgow igual o menor de 8, ausencia de reflejo nauseoso o tusígeno), riesgo de broncoaspiración, hipoxemia o hipercapnia refractarias al soporte básico, o cuando se prevé un deterioro. La apnea persistente es la situación en la que la intubación y la ventilación mecánica son obligatorias e inmediatas, pues significa falla total del centro respiratorio. La hipoxia hipercápnica puede revertirse inicialmente con oxígeno y ventilación con bolsa y mascarilla, o con ventilación no invasiva si el paciente coopera, y solo se intuba si falla; la hipotensión persistente se corrige primero con volumen y vasopresores; las mioclonias localizadas se tratan con anticonvulsivantes y no son una indicación en sí; y la midriasis paralítica bilateral es un signo de lesión del tronco o herniación que obliga a medidas de neuroprotección y a asegurar la vía aérea, pero no es por sí misma el criterio de la pregunta. Perla clínica: antes de intubar se debe corregir la hipotensión y proteger la columna cervical si hay trauma; la secuencia rápida con fármacos de corta acción permite reevaluar la neurología después.",
+      "comentario": "En un paciente comatoso la intubación orotraqueal protege la vía aérea y asegura la oxigenación y la ventilación. Se indica cuando hay pérdida de reflejos protectores (Glasgow igual o menor de 8, ausencia de reflejo nauseoso o tusígeno), riesgo de broncoaspiración, hipoxemia o hipercapnia refractarias al soporte básico, o cuando se prevé un deterioro. La apnea persistente es la situación en la que la intubación y la ventilación mecánica son obligatorias e inmediatas, pues significa falla total del centro respiratorio. La hipoxia hipercápnica puede revertirse inicialmente con oxígeno y ventilación con bolsa y mascarilla, o con ventilación no invasiva si el paciente coopera, y solo se intuba si falla; la hipotensión persistente se corrige primero con volumen y vasopresores; las mioclonias localizadas se tratan con anticonvulsivantes y no son una indicación en sí; y la midriasis paralítica bilateral es un signo de lesión del tronco o herniación que obliga a medidas de neuroprotección y a asegurar la vía aérea, pero no es por sí misma el criterio de la pregunta. Perla clínica: antes de intubar se debe corregir la hipotensión y proteger la columna cervical si hay trauma; la secuencia rápida con fármacos de corta acción permite reevaluar la neurología después.",
+      "tema": "Paciente en coma: indicación de intubación",
+      "año": 2016,
+      "fuentes": "AHA, Guías de RCP y ACE, soporte vital avanzado del adulto (2025); Difficult Airway Society (2015); Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+    },
+    {
+      "id": "RM-CIR-149",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el sistema de puntuación utilizado en la evaluación inicial de la gravedad del paciente crítico, que valora la fisiología aguda y la salud crónica?",
+      "opciones": [
+        "APACHE II.",
+        "MPM.",
+        "Glasgow.",
+        "Ranson.",
+        "SAPS II."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "APACHE II (Acute Physiology And Chronic Health Evaluation II, Knaus 1985) es el sistema pronóstico más difundido en las unidades de cuidados intensivos. Se calcula con las peores 24 horas tras el ingreso e integra tres componentes: la fisiología aguda (12 variables, como temperatura, presión arterial media, frecuencia cardíaca y respiratoria, oxigenación, pH, sodio, potasio, creatinina, hematocrito, leucocitos y la escala de Glasgow), la edad y la salud crónica (enfermedad orgánica grave previa o inmunosupresión). El puntaje va de 0 a 71, y a mayor puntaje mayor mortalidad hospitalaria prevista. Por eso es la respuesta, porque la pregunta pide la escala que valora de forma explícita la fisiología aguda y el estado de salud crónico. El MPM y el SAPS II también predicen mortalidad, pero no usan esa estructura ni ese nombre; la escala de Glasgow mide el nivel de conciencia (3 a 15) y es solo una variable más; y los criterios de Ranson estiman la gravedad de la pancreatitis aguda. Hoy se emplea SOFA para describir disfunción orgánica y definir sepsis (Sepsis-3 de 2016, con SOFA igual o mayor de 2). Perla: los puntajes ayudan a comparar poblaciones, no a decidir limitar el tratamiento de un paciente individual.",
+      "comentario": "APACHE II (Acute Physiology And Chronic Health Evaluation II, Knaus 1985) es el sistema pronóstico más difundido en las unidades de cuidados intensivos. Se calcula con las peores 24 horas tras el ingreso e integra tres componentes: la fisiología aguda (12 variables, como temperatura, presión arterial media, frecuencia cardíaca y respiratoria, oxigenación, pH, sodio, potasio, creatinina, hematocrito, leucocitos y la escala de Glasgow), la edad y la salud crónica (enfermedad orgánica grave previa o inmunosupresión). El puntaje va de 0 a 71, y a mayor puntaje mayor mortalidad hospitalaria prevista. Por eso es la respuesta, porque la pregunta pide la escala que valora de forma explícita la fisiología aguda y el estado de salud crónico. El MPM y el SAPS II también predicen mortalidad, pero no usan esa estructura ni ese nombre; la escala de Glasgow mide el nivel de conciencia (3 a 15) y es solo una variable más; y los criterios de Ranson estiman la gravedad de la pancreatitis aguda. Hoy se emplea SOFA para describir disfunción orgánica y definir sepsis (Sepsis-3 de 2016, con SOFA igual o mayor de 2). Perla: los puntajes ayudan a comparar poblaciones, no a decidir limitar el tratamiento de un paciente individual.",
+      "tema": "Escala de gravedad que valora fisiología aguda y salud crónica",
+      "año": 2017,
+      "fuentes": "Knaus, APACHE II, Crit Care Med (1985); Sepsis-3, JAMA (2016); SOFA-2, JAMA (2025); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Cuidados intensivos"
+    },
+    {
+      "id": "RM-CIR-150",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el procedimiento más usado para el restablecimiento de una vía aérea en un paciente hospitalizado con distress respiratorio severo?",
+      "opciones": [
+        "Intubación endotraqueal.",
+        "Traqueostomía.",
+        "Cricotiroidotomía.",
+        "Oxígeno con máscara de Venturi.",
+        "Punción cricotiroidea."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En el paciente hospitalizado con insuficiencia respiratoria grave que no mejora con oxigenoterapia y soporte no invasivo, la técnica más empleada para asegurar la vía aérea y dar ventilación mecánica con presión positiva es la intubación endotraqueal, habitualmente orotraqueal con laringoscopia directa o videolaringoscopia y secuencia rápida de inducción. Las indicaciones son falla de oxigenación o de ventilación (hipoxemia refractaria, acidosis respiratoria, fatiga muscular), pérdida de reflejos protectores y obstrucción inminente. Es rápida, se realiza en la cabecera y permite aspirar secreciones y administrar presiones positivas. La traqueostomía es un procedimiento electivo para la ventilación prolongada, que se considera hacia los 10-14 días. La cricotiroidotomía y la punción cricotiroidea son técnicas de rescate en la situación «no intubo, no oxigeno», cuando fracasan los intentos y la ventilación con mascarilla. La máscara de Venturi es un dispositivo de oxígeno con FiO2 controlada que no asegura la vía aérea ni da soporte ventilatorio. Perla clínica: antes de intubar se debe preoxigenar, preparar un plan alternativo de vía aérea difícil y vasopresores, pues la inducción puede desencadenar hipotensión grave en el paciente crítico.",
+      "comentario": "En el paciente hospitalizado con insuficiencia respiratoria grave que no mejora con oxigenoterapia y soporte no invasivo, la técnica más empleada para asegurar la vía aérea y dar ventilación mecánica con presión positiva es la intubación endotraqueal, habitualmente orotraqueal con laringoscopia directa o videolaringoscopia y secuencia rápida de inducción. Las indicaciones son falla de oxigenación o de ventilación (hipoxemia refractaria, acidosis respiratoria, fatiga muscular), pérdida de reflejos protectores y obstrucción inminente. Es rápida, se realiza en la cabecera y permite aspirar secreciones y administrar presiones positivas. La traqueostomía es un procedimiento electivo para la ventilación prolongada, que se considera hacia los 10-14 días. La cricotiroidotomía y la punción cricotiroidea son técnicas de rescate en la situación «no intubo, no oxigeno», cuando fracasan los intentos y la ventilación con mascarilla. La máscara de Venturi es un dispositivo de oxígeno con FiO2 controlada que no asegura la vía aérea ni da soporte ventilatorio. Perla clínica: antes de intubar se debe preoxigenar, preparar un plan alternativo de vía aérea difícil y vasopresores, pues la inducción puede desencadenar hipotensión grave en el paciente crítico.",
+      "tema": "Vía aérea en distress respiratorio severo hospitalario",
+      "año": 2017,
+      "fuentes": "Difficult Airway Society, guías de intubación difícil (2015); AHA, Guías de RCP y ACE (2025); Harrison Principios de Medicina Interna 21.ª ed. (2022)"
+    },
+    {
+      "id": "RM-CIR-151",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Qué lesión detecta la ecografía en pacientes con traumatismo abdominal cerrado?",
+      "opciones": [
+        "Hepática.",
+        "Pancreática.",
+        "Duodenal retroperitoneal.",
+        "Renal.",
+        "Ureteral."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La ecografía FAST (Focused Assessment with Sonography for Trauma) busca líquido libre intraperitoneal, pericárdico y pleural en cuatro ventanas: pericárdica, hepatorrenal (bolsa de Morison), esplenorrenal y pélvica. Por eso, en la práctica, detecta bien el hemoperitoneo secundario a lesiones de órganos sólidos intraperitoneales como el hígado y el bazo, que son los más frecuentes. Su valor está en la rapidez, en que se hace en la sala de reanimación y en que se repite; un paciente hipotenso con FAST positiva va directo a laparotomía. Sus límites son importantes: tiene baja sensibilidad para lesiones retroperitoneales como las del páncreas, el duodeno retroperitoneal, el riñón y el uréter, para la lesión de víscera hueca y para hematomas sin líquido libre, y depende del operador. En el paciente hemodinámicamente estable con sospecha de lesión de esos órganos la prueba de elección es la tomografía helicoidal con contraste, que además gradúa la lesión. Perla: una FAST negativa no excluye lesión; en el inestable con FAST negativa se debe buscar sangrado torácico, pélvico, de huesos largos o externo.",
+      "comentario": "La ecografía FAST (Focused Assessment with Sonography for Trauma) busca líquido libre intraperitoneal, pericárdico y pleural en cuatro ventanas: pericárdica, hepatorrenal (bolsa de Morison), esplenorrenal y pélvica. Por eso, en la práctica, detecta bien el hemoperitoneo secundario a lesiones de órganos sólidos intraperitoneales como el hígado y el bazo, que son los más frecuentes. Su valor está en la rapidez, en que se hace en la sala de reanimación y en que se repite; un paciente hipotenso con FAST positiva va directo a laparotomía. Sus límites son importantes: tiene baja sensibilidad para lesiones retroperitoneales como las del páncreas, el duodeno retroperitoneal, el riñón y el uréter, para la lesión de víscera hueca y para hematomas sin líquido libre, y depende del operador. En el paciente hemodinámicamente estable con sospecha de lesión de esos órganos la prueba de elección es la tomografía helicoidal con contraste, que además gradúa la lesión. Perla: una FAST negativa no excluye lesión; en el inestable con FAST negativa se debe buscar sangrado torácico, pélvico, de huesos largos o externo.",
+      "tema": "Ecografía en el trauma abdominal cerrado: lesión detectada",
+      "año": 2017,
+      "fuentes": "WSES, trauma abdominal cerrado (2017); ATLS, 11.ª ed. (2025); Sabiston Tratado de Cirugía 21.ª ed. (2021)"
+    },
+    {
+      "id": "RM-CIR-152",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "Varón de 27 años de 70 kg, sufre quemadura con fuego directo en el 40 % de superficie corporal. Examen: PA 90/60 mmHg, FC 120 por minuto, saturación de oxígeno 96 %; quemadura de segundo y tercer grado en ambos miembros superiores, miembro inferior izquierdo, así como la tercera parte de cara y cuello. Según la fórmula de Parkland, ¿cuál es el volumen de cristaloides en mL a transfundir durante las primeras 8 horas?",
+      "opciones": [
+        "4800.",
+        "5600.",
+        "4500.",
+        "3600.",
+        "5000."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La fórmula de Parkland calcula la reanimación hídrica de las primeras 24 horas del quemado con cristaloides, de preferencia Ringer lactato: 4 mL por kilogramo de peso por cada 1 % de superficie corporal quemada de segundo y tercer grado. La mitad del volumen se pasa en las primeras 8 horas contadas desde el momento de la quemadura, y la otra mitad en las siguientes 16. Con la regla de los nueves, ambos miembros superiores suman 18 %, un miembro inferior 18 % y un tercio de cara y cuello cerca de 3 %, total 39 %, que el enunciado redondea a 40 %. El cálculo es 4 × 70 × 40 = 11 200 mL en 24 horas, de modo que en las primeras 8 horas corresponden 5600 mL, la opción B. Las otras cifras no resultan de usar 4 mL, sino de errores como multiplicar por 3 mL o tomar menos superficie. La fórmula es solo un punto de partida: se ajusta cada hora para mantener diuresis de 0,5 mL/kg/h en el adulto, y las guías actuales suelen empezar con 2 mL/kg/% (ATLS) para evitar sobrerreanimación o síndrome compartimental. Se considera gran quemado con superficie mayor de 20 %. Perla clínica: la hipoperfusión con diuresis baja obliga a revisar el volumen, mientras que el exceso de líquido provoca edema pulmonar y compartimental.",
+      "comentario": "La fórmula de Parkland calcula la reanimación hídrica de las primeras 24 horas del quemado con cristaloides, de preferencia Ringer lactato: 4 mL por kilogramo de peso por cada 1 % de superficie corporal quemada de segundo y tercer grado. La mitad del volumen se pasa en las primeras 8 horas contadas desde el momento de la quemadura, y la otra mitad en las siguientes 16. Con la regla de los nueves, ambos miembros superiores suman 18 %, un miembro inferior 18 % y un tercio de cara y cuello cerca de 3 %, total 39 %, que el enunciado redondea a 40 %. El cálculo es 4 × 70 × 40 = 11 200 mL en 24 horas, de modo que en las primeras 8 horas corresponden 5600 mL, la opción B. Las otras cifras no resultan de usar 4 mL, sino de errores como multiplicar por 3 mL o tomar menos superficie. La fórmula es solo un punto de partida: se ajusta cada hora para mantener diuresis de 0,5 mL/kg/h en el adulto, y las guías actuales suelen empezar con 2 mL/kg/% (ATLS) para evitar sobrerreanimación o síndrome compartimental. Se considera gran quemado con superficie mayor de 20 %. Perla clínica: la hipoperfusión con diuresis baja obliga a revisar el volumen, mientras que el exceso de líquido provoca edema pulmonar y compartimental.",
+      "tema": "Fórmula de Parkland en el gran quemado",
+      "año": 2019,
+      "fuentes": "ISBI Practice Guidelines for Burn Care. Burns 2016;42:953-1021; Sabiston Tratado de Cirugía 21.ª ed.",
+      "categoria": "Quemaduras",
+      "nota_revision": "El enunciado dice 40 % y la solución del libro calcula 39 %, ambos dan alrededor de 5600 mL (opción B)."
+    },
+    {
+      "id": "RM-CIR-153",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿En qué línea del canal anal se ubica con más frecuencia la fisura anal crónica?",
+      "opciones": [
+        "Media posterior.",
+        "Lateral derecha.",
+        "Media anterior.",
+        "Dentada.",
+        "Lateral izquierda."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fisura anal es un desgarro longitudinal del anodermo que se extiende desde el margen anal hasta la línea pectínea o dentada, y su causa principal es el traumatismo por heces duras junto con hipertonía del esfínter anal interno, que reduce el flujo sanguíneo local. Más del 90 % se ubica en la línea media posterior, porque allí las fibras del esfínter externo ofrecen menos soporte y la perfusión del anodermo es menor; el 10 % restante es anterior, más frecuente en mujeres tras el parto. Una fisura lateral o múltiple debe hacer pensar en enfermedad de Crohn, tuberculosis, VIH, sífilis, neoplasia o herpes. La fisura es crónica cuando dura más de 6 a 8 semanas y presenta fibras blancas del esfínter, papila hipertrófica y colgajo centinela. La línea dentada es el límite superior de la fisura, no su ubicación. La guía de la ASCRS 2023 propone fibra, baños de asiento y tratamiento tópico con bloqueadores de canales de calcio o nitratos como primera línea; la toxina botulínica o la esfinterotomía lateral interna parcial se reservan para fracasos. Perla clínica: dolor al defecar con sangre roja escasa y posterior es típico.",
+      "comentario": "La fisura anal es un desgarro longitudinal del anodermo que se extiende desde el margen anal hasta la línea pectínea o dentada, y su causa principal es el traumatismo por heces duras junto con hipertonía del esfínter anal interno, que reduce el flujo sanguíneo local. Más del 90 % se ubica en la línea media posterior, porque allí las fibras del esfínter externo ofrecen menos soporte y la perfusión del anodermo es menor; el 10 % restante es anterior, más frecuente en mujeres tras el parto. Una fisura lateral o múltiple debe hacer pensar en enfermedad de Crohn, tuberculosis, VIH, sífilis, neoplasia o herpes. La fisura es crónica cuando dura más de 6 a 8 semanas y presenta fibras blancas del esfínter, papila hipertrófica y colgajo centinela. La línea dentada es el límite superior de la fisura, no su ubicación. La guía de la ASCRS 2023 propone fibra, baños de asiento y tratamiento tópico con bloqueadores de canales de calcio o nitratos como primera línea; la toxina botulínica o la esfinterotomía lateral interna parcial se reservan para fracasos. Perla clínica: dolor al defecar con sangre roja escasa y posterior es típico.",
+      "tema": "Localización de la fisura anal crónica",
+      "año": 2017,
+      "fuentes": "ASCRS Clinical Practice Guidelines for the Management of Anal Fissures (Dis Colon Rectum 2023;66:190-199); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Coloproctología",
+      "nota_revision": "Repite RM-CIR-095 (misma clave A). Se enfoca en fisiopatología y causas de fisura atípica."
+    },
+    {
+      "id": "RM-CIR-154",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Cuál es la causa más frecuente de obstrucción intestinal en adultos?",
+      "opciones": [
+        "Cáncer de colon.",
+        "Intususcepción.",
+        "Íleo biliar.",
+        "Bridas y adherencias.",
+        "Vólvulo de sigmoides."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La obstrucción intestinal es la detención del tránsito por una causa mecánica o funcional, y se divide en alta (intestino delgado) y baja (colon). En el adulto, el 60 a 65 % de los casos de obstrucción del intestino delgado se debe a bridas y adherencias postoperatorias, sobre todo tras cirugía abdominal o pélvica, ginecológica o colorrectal; las hernias complicadas ocupan el segundo lugar y las neoplasias el tercero. Las adherencias fijan y angulan las asas, y el cuadro se manifiesta con dolor cólico, vómitos, distensión y ausencia de gases y heces. La radiografía muestra niveles hidroaéreos, y la tomografía confirma el punto de transición y detecta signos de isquemia como engrosamiento de pared, líquido libre o asa cerrada. El manejo inicial en ausencia de isquemia es conservador con sonda nasogástrica, reposición hidroelectrolítica y contraste hidrosoluble, que sirve a la vez para diagnóstico y tratamiento, y se opera si hay peritonitis, estrangulación o falta de resolución. El cáncer de colon es la causa principal solo de la obstrucción del colon, mientras que la intususcepción predomina en lactantes, el íleo biliar es raro y el vólvulo de sigmoides afecta a ancianos. Perla clínica: abdomen sin cirugía previa obliga a descartar hernia.",
+      "comentario": "La obstrucción intestinal es la detención del tránsito por una causa mecánica o funcional, y se divide en alta (intestino delgado) y baja (colon). En el adulto, el 60 a 65 % de los casos de obstrucción del intestino delgado se debe a bridas y adherencias postoperatorias, sobre todo tras cirugía abdominal o pélvica, ginecológica o colorrectal; las hernias complicadas ocupan el segundo lugar y las neoplasias el tercero. Las adherencias fijan y angulan las asas, y el cuadro se manifiesta con dolor cólico, vómitos, distensión y ausencia de gases y heces. La radiografía muestra niveles hidroaéreos, y la tomografía confirma el punto de transición y detecta signos de isquemia como engrosamiento de pared, líquido libre o asa cerrada. El manejo inicial en ausencia de isquemia es conservador con sonda nasogástrica, reposición hidroelectrolítica y contraste hidrosoluble, que sirve a la vez para diagnóstico y tratamiento, y se opera si hay peritonitis, estrangulación o falta de resolución. El cáncer de colon es la causa principal solo de la obstrucción del colon, mientras que la intususcepción predomina en lactantes, el íleo biliar es raro y el vólvulo de sigmoides afecta a ancianos. Perla clínica: abdomen sin cirugía previa obliga a descartar hernia.",
+      "tema": "Causa más frecuente de obstrucción intestinal en adultos",
+      "año": 2019,
+      "fuentes": "WSES, Bologna guidelines for adhesive small bowel obstruction, 2017 update (World J Emerg Surg 2018;13:24); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "nota_revision": "Enunciado y opciones reconstruidos desde la imagen de la página; clave D coincide con el libro. Complementa la pregunta de obstrucción en pacientes no operados (banco previo), donde la clave es hernia."
+    },
+    {
+      "id": "RM-CIR-155",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Multípara de 39 años, hace 8 horas presenta tumoración dolorosa en región inguinal derecha, náuseas, vómitos alimentarios y distensión abdominal. Examen: PA 100/60 mmHg, FC 110 por minuto, temperatura 36,7 °C. Abdomen distendido y doloroso a la palpación, ruidos hidroaéreos ausentes, masa de 2 x 3 cm de color violáceo, muy dolorosa, por debajo de la espina ilíaca anterosuperior. Leucocitosis: 14 000/µL con 10 abastonados. ¿A qué tipo de hernia corresponde?",
+      "opciones": [
+        "Semilunar.",
+        "Inguinal estrangulada.",
+        "Inguinal encarcelada.",
+        "Obturatriz.",
+        "Femoral estrangulada."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La hernia femoral protruye por el anillo crural, debajo del ligamento inguinal y por fuera del tubérculo del pubis, y aunque es poco frecuente (3 % de las hernias inguinofemorales) predomina en mujeres multíparas o mayores. Como el anillo es estrecho y rígido, delimitado por el ligamento lacunar, el pectíneo y la vena femoral, sufre complicación hasta en 40 a 60 % de los casos y por eso se recomienda su reparación incluso asintomática. Esta paciente presenta una masa dolorosa e irreductible, de color violáceo y localizada debajo de la arcada, con un cuadro de obstrucción intestinal (vómitos, distensión, ruidos ausentes), taquicardia, leucocitosis y desviación a la izquierda: indica sufrimiento isquémico del asa, es decir, estrangulación. La hernia inguinal queda por encima del ligamento inguinal, y la encarcelada es irreductible pero sin signos de isquemia, que no es el caso. La hernia obturatriz se manifiesta con dolor en la cara interna del muslo (signo de Howship-Romberg) y la semilunar o de Spiegel aparece en la pared anterior del abdomen. El tratamiento es la cirugía de urgencia con revisión del intestino y resección si está necrótico, mediante abordaje crural o inguinal con malla. Perla clínica: una obstrucción intestinal en una mujer mayor sin cirugías previas debe llevar a revisar la región femoral, pues puede haber una hernia de Richter oculta.",
+      "comentario": "La hernia femoral protruye por el anillo crural, debajo del ligamento inguinal y por fuera del tubérculo del pubis, y aunque es poco frecuente (3 % de las hernias inguinofemorales) predomina en mujeres multíparas o mayores. Como el anillo es estrecho y rígido, delimitado por el ligamento lacunar, el pectíneo y la vena femoral, sufre complicación hasta en 40 a 60 % de los casos y por eso se recomienda su reparación incluso asintomática. Esta paciente presenta una masa dolorosa e irreductible, de color violáceo y localizada debajo de la arcada, con un cuadro de obstrucción intestinal (vómitos, distensión, ruidos ausentes), taquicardia, leucocitosis y desviación a la izquierda: indica sufrimiento isquémico del asa, es decir, estrangulación. La hernia inguinal queda por encima del ligamento inguinal, y la encarcelada es irreductible pero sin signos de isquemia, que no es el caso. La hernia obturatriz se manifiesta con dolor en la cara interna del muslo (signo de Howship-Romberg) y la semilunar o de Spiegel aparece en la pared anterior del abdomen. El tratamiento es la cirugía de urgencia con revisión del intestino y resección si está necrótico, mediante abordaje crural o inguinal con malla. Perla clínica: una obstrucción intestinal en una mujer mayor sin cirugías previas debe llevar a revisar la región femoral, pues puede haber una hernia de Richter oculta.",
+      "tema": "Hernia femoral estrangulada en multípara",
+      "año": 2018,
+      "fuentes": "HerniaSurge Group, Guías internacionales de hernia inguinal (Hernia 2018; BJS Open 2023 actualización); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "nota_revision": "REPITE RM-CIR-112 (clave E, hernia femoral estrangulada); mismo clave, otro ángulo en el comentario (anatomía del anillo crural y diagnóstico diferencial)."
+    },
+    {
+      "id": "RM-CIR-156",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Varón de 20 años llega a emergencia presentando herida por arma blanca a nivel subescapular izquierdo y dificultad respiratoria. Se diagnostica hemoneumotórax izquierdo. ¿Cuál es el procedimiento a seguir?",
+      "opciones": [
+        "Toracotomía mínima con drenaje cerrado.",
+        "Toracotomía en sala de operaciones.",
+        "Toracocentesis evacuatoria.",
+        "Videotoracoscopía.",
+        "Observación más oxigenoterapia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Un hemoneumotórax es la presencia simultánea de aire y sangre en el espacio pleural, habitual en las heridas penetrantes del tórax que lesionan pulmón, pared torácica o vasos intercostales. Si el paciente tiene dificultad respiratoria, la prioridad es evacuar el contenido pleural para reexpandir el pulmón y medir el débito: se realiza una toracostomía mínima con tubo (toracotomía mínima) de calibre grueso (28 a 36 Fr) en el quinto espacio intercostal, por delante de la línea axilar media, conectado a un sello de agua. El tubo drena aire y sangre, trata el cuadro en más del 80 % de los casos y es diagnóstico del volumen de sangrado. La toracotomía en sala de operaciones solo se indica con drenaje inicial mayor de 1500 mL, débito persistente mayor de 200 mL/hora durante 2 a 4 horas, inestabilidad hemodinámica o fuga aérea masiva. La toracocentesis con aguja no es suficiente porque no evacúa de forma continua, la videotoracoscopía se utiliza después, para coágulos retenidos o hemotórax residual, y la observación es peligrosa con insuficiencia respiratoria. Perla clínica: el tubo torácico siempre se coloca antes de pedir la radiografía en el paciente inestable, y debe vigilarse el débito horario.",
+      "comentario": "Un hemoneumotórax es la presencia simultánea de aire y sangre en el espacio pleural, habitual en las heridas penetrantes del tórax que lesionan pulmón, pared torácica o vasos intercostales. Si el paciente tiene dificultad respiratoria, la prioridad es evacuar el contenido pleural para reexpandir el pulmón y medir el débito: se realiza una toracostomía mínima con tubo (toracotomía mínima) de calibre grueso (28 a 36 Fr) en el quinto espacio intercostal, por delante de la línea axilar media, conectado a un sello de agua. El tubo drena aire y sangre, trata el cuadro en más del 80 % de los casos y es diagnóstico del volumen de sangrado. La toracotomía en sala de operaciones solo se indica con drenaje inicial mayor de 1500 mL, débito persistente mayor de 200 mL/hora durante 2 a 4 horas, inestabilidad hemodinámica o fuga aérea masiva. La toracocentesis con aguja no es suficiente porque no evacúa de forma continua, la videotoracoscopía se utiliza después, para coágulos retenidos o hemotórax residual, y la observación es peligrosa con insuficiencia respiratoria. Perla clínica: el tubo torácico siempre se coloca antes de pedir la radiografía en el paciente inestable, y debe vigilarse el débito horario.",
+      "tema": "Hemoneumotórax por herida penetrante: toracostomía cerrada",
+      "año": 2016,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Trauma torácico",
+      "nota_revision": "Bloque dañado: reconstruido con el texto extraído y el comentario del libro (clave A). Se asigna a cirugía por ser trauma torácico agudo."
+    },
+    {
+      "id": "RM-CIR-157",
+      "especialidad": "Cirugía General y Digestiva",
+      "examen_origen": "Residentado Médico 2014 · pregunta oficial",
+      "enunciado": "Paciente que acude a emergencia por accidente de tránsito, trasladado por los bomberos. Examen: PA 100/70 mmHg, pulso rápido y filiforme, piel fría, pálida y pegajosa; sed intensa, respiración rápida y adormecimiento. ¿Qué tipo de shock presenta el paciente?",
+      "opciones": [
+        "Hipovolémico.",
+        "Distributivo.",
+        "Cardiogénico.",
+        "Obstructivo.",
+        "Vagal."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El shock es una falla circulatoria aguda con hipoperfusión y disoxia tisular; según el mecanismo se clasifica en hipovolémico, cardiogénico, obstructivo y distributivo (séptico, anafiláctico, neurogénico). En el trauma la causa más frecuente es el hipovolémico por hemorragia, y el ATLS lo gradúa en cuatro clases según el volumen perdido: la clase I (menos de 15 %) casi no tiene alteración; en la II (15 a 30 %) aparecen taquicardia y taquipnea con presión normal; en la III (30 a 40 %) hay hipotensión, taquicardia marcada y confusión, y en la IV (más de 40 %) hay compromiso inminente de la vida. Este paciente tiene piel fría, pálida y pegajosa por vasoconstricción, pulso filiforme, sed, polipnea y somnolencia, con una presión aún conservada: es un shock compensado de clase II a III. En el cardiogénico y el obstructivo (taponamiento, neumotórax a tensión) habría ingurgitación yugular; en el distributivo, las extremidades suelen estar calientes con vasodilatación, y el término vagal no es una categoría de shock. El manejo consiste en control de la hemorragia, dos accesos venosos gruesos, cristaloides tibios en pequeño volumen y hemoderivados precoces. Perla clínica: en el joven, la presión arterial cae tarde, y la taquicardia y el llenado capilar lento son las alertas más precoces.",
+      "comentario": "El shock es una falla circulatoria aguda con hipoperfusión y disoxia tisular; según el mecanismo se clasifica en hipovolémico, cardiogénico, obstructivo y distributivo (séptico, anafiláctico, neurogénico). En el trauma la causa más frecuente es el hipovolémico por hemorragia, y el ATLS lo gradúa en cuatro clases según el volumen perdido: la clase I (menos de 15 %) casi no tiene alteración; en la II (15 a 30 %) aparecen taquicardia y taquipnea con presión normal; en la III (30 a 40 %) hay hipotensión, taquicardia marcada y confusión, y en la IV (más de 40 %) hay compromiso inminente de la vida. Este paciente tiene piel fría, pálida y pegajosa por vasoconstricción, pulso filiforme, sed, polipnea y somnolencia, con una presión aún conservada: es un shock compensado de clase II a III. En el cardiogénico y el obstructivo (taponamiento, neumotórax a tensión) habría ingurgitación yugular; en el distributivo, las extremidades suelen estar calientes con vasodilatación, y el término vagal no es una categoría de shock. El manejo consiste en control de la hemorragia, dos accesos venosos gruesos, cristaloides tibios en pequeño volumen y hemoderivados precoces. Perla clínica: en el joven, la presión arterial cae tarde, y la taquicardia y el llenado capilar lento son las alertas más precoces.",
+      "tema": "Shock hipovolémico por trauma",
+      "año": 2014,
+      "fuentes": "ATLS, 10.ª ed. (American College of Surgeons, 2018); Monnet X y cols. ESICM guidelines on circulatory shock and hemodynamic monitoring 2025 (Intensive Care Med 2025)",
+      "categoria": "Trauma",
+      "nota_revision": "Bloque dañado; opciones y clave A reconstruidas con el texto 'Respuesta A' del libro."
     }
   ]
 }

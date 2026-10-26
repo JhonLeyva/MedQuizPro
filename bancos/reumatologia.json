@@ -1612,6 +1612,220 @@
       "año": 2017,
       "fuentes": "Goldman-Cecil, Medicina Interna, 26.ª ed. (2020); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
       "categoria": "Artritis séptica"
+    },
+    {
+      "id": "RM-REU-006",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes patrones bioquímicos se encuentra en la osteoporosis?",
+      "opciones": [
+        "Calcemia elevada, fosforemia normal y fosfatasa alcalina elevada.",
+        "Calcemia elevada, fosforemia normal y fosfatasa alcalina normal.",
+        "Calcemia normal, fosforemia baja y fosfatasa alcalina normal.",
+        "Calcemia elevada, fosforemia baja y fosfatasa alcalina baja.",
+        "Calcemia normal, fosforemia normal y fosfatasa alcalina normal."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La osteoporosis es una enfermedad esquelética sistémica con disminución de la masa ósea y deterioro de la microarquitectura, que aumenta la fragilidad y el riesgo de fractura. Por resorción por osteoclastos que supera a la formación por osteoblastos, se pierde hueso sin alterar la mineralización de la matriz restante, por lo que el calcio, el fósforo y la fosfatasa alcalina séricos son normales; solo la fosfatasa alcalina puede subir de forma transitoria tras una fractura reciente. Esta normalidad permite distinguirla de otras osteopatías: en la osteomalacia hay calcio normal o bajo, fósforo bajo y fosfatasa alcalina elevada, por déficit de mineralización; en el hiperparatiroidismo primario hay hipercalcemia con hipofosfatemia; en la enfermedad de Paget la fosfatasa alcalina es muy alta con calcio y fósforo normales, y en el mieloma múltiple o las metástasis puede haber hipercalcemia. Ante una osteoporosis se descartan causas secundarias con calcio, fósforo, creatinina, 25-hidroxivitamina D, PTH, TSH, hemograma y calciuria de 24 horas. Los marcadores de recambio óseo (CTX, P1NP) sirven para monitorizar el tratamiento, no para diagnosticar. Perla clínica: una osteoporosis con laboratorio alterado es una osteoporosis secundaria hasta demostrar lo contrario.",
+      "comentario": "La osteoporosis es una enfermedad esquelética sistémica con disminución de la masa ósea y deterioro de la microarquitectura, que aumenta la fragilidad y el riesgo de fractura. Por resorción por osteoclastos que supera a la formación por osteoblastos, se pierde hueso sin alterar la mineralización de la matriz restante, por lo que el calcio, el fósforo y la fosfatasa alcalina séricos son normales; solo la fosfatasa alcalina puede subir de forma transitoria tras una fractura reciente. Esta normalidad permite distinguirla de otras osteopatías: en la osteomalacia hay calcio normal o bajo, fósforo bajo y fosfatasa alcalina elevada, por déficit de mineralización; en el hiperparatiroidismo primario hay hipercalcemia con hipofosfatemia; en la enfermedad de Paget la fosfatasa alcalina es muy alta con calcio y fósforo normales, y en el mieloma múltiple o las metástasis puede haber hipercalcemia. Ante una osteoporosis se descartan causas secundarias con calcio, fósforo, creatinina, 25-hidroxivitamina D, PTH, TSH, hemograma y calciuria de 24 horas. Los marcadores de recambio óseo (CTX, P1NP) sirven para monitorizar el tratamiento, no para diagnosticar. Perla clínica: una osteoporosis con laboratorio alterado es una osteoporosis secundaria hasta demostrar lo contrario.",
+      "tema": "Bioquímica en la osteoporosis",
+      "año": 2015,
+      "fuentes": "Endocrine Society, manejo farmacológico de la osteoporosis posmenopáusica (J Clin Endocrinol Metab 2020); Harrison, Principios de Medicina Interna, 21.ª ed. (2022); Canadá, guía de práctica clínica de osteoporosis y prevención de fracturas, actualización 2023 (CMAJ 2023)",
+      "categoria": "Osteoporosis",
+      "nota_revision": "Las opciones B a D están dañadas por el OCR; se reconstruyeron como distractores plausibles. La clave E (todo normal) coincide con el libro."
+    },
+    {
+      "id": "RM-REU-007",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Mujer de 65 años, consulta por dolor en columna dorso lumbar de dos años de evolución. Se plantea el diagnóstico de osteoporosis. ¿Qué examen solicita para confirmar el diagnóstico?",
+      "opciones": [
+        "Densitometría ósea.",
+        "Resonancia magnética con secuencia espectroscópica.",
+        "Resonancia magnética con secuencia de difusión.",
+        "Resonancia magnética funcional.",
+        "Tomografía axial computarizada ósea."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La prueba estándar para diagnosticar osteoporosis y estimar el riesgo de fractura es la absorciometría de rayos X de energía dual (DXA) de columna lumbar y cadera, con el índice T como medida: según la OMS, un valor de -2,5 o menor indica osteoporosis, entre -1 y -2,5 osteopenia o baja masa ósea, y de -1 o más normalidad. En mujeres premenopáusicas y varones jóvenes se usa el índice Z. Una fractura por fragilidad de cadera o vertebral también establece el diagnóstico clínico aun con DXA no osteoporótica. El USPSTF (2025) recomienda tamizar a todas las mujeres de 65 años o más y a las posmenopáusicas más jóvenes con riesgo aumentado. Las resonancias y la tomografía no miden la densidad mineral de manera estandarizada ni se usan para el diagnóstico; sin embargo, ante un dolor dorsolumbar de dos años conviene una radiografía lateral de columna dorsal y lumbar, o la evaluación vertebral por DXA, para detectar fracturas por aplastamiento, y la resonancia se reserva para sospecha de metástasis, mieloma o compresión neurológica. Se calcula el riesgo a 10 años con FRAX y, en mujeres con osteoporosis, el tratamiento de primera línea son los bisfosfonatos orales (alendronato) junto con calcio y vitamina D. Perla clínica: la fractura vertebral previa es el principal predictor de nuevas fracturas.",
+      "comentario": "La prueba estándar para diagnosticar osteoporosis y estimar el riesgo de fractura es la absorciometría de rayos X de energía dual (DXA) de columna lumbar y cadera, con el índice T como medida: según la OMS, un valor de -2,5 o menor indica osteoporosis, entre -1 y -2,5 osteopenia o baja masa ósea, y de -1 o más normalidad. En mujeres premenopáusicas y varones jóvenes se usa el índice Z. Una fractura por fragilidad de cadera o vertebral también establece el diagnóstico clínico aun con DXA no osteoporótica. El USPSTF (2025) recomienda tamizar a todas las mujeres de 65 años o más y a las posmenopáusicas más jóvenes con riesgo aumentado. Las resonancias y la tomografía no miden la densidad mineral de manera estandarizada ni se usan para el diagnóstico; sin embargo, ante un dolor dorsolumbar de dos años conviene una radiografía lateral de columna dorsal y lumbar, o la evaluación vertebral por DXA, para detectar fracturas por aplastamiento, y la resonancia se reserva para sospecha de metástasis, mieloma o compresión neurológica. Se calcula el riesgo a 10 años con FRAX y, en mujeres con osteoporosis, el tratamiento de primera línea son los bisfosfonatos orales (alendronato) junto con calcio y vitamina D. Perla clínica: la fractura vertebral previa es el principal predictor de nuevas fracturas.",
+      "tema": "Confirmación diagnóstica de osteoporosis: densitometría",
+      "año": 2016,
+      "fuentes": "USPSTF, tamizaje de osteoporosis para prevenir fracturas (JAMA 2025); Endocrine Society, manejo farmacológico de la osteoporosis posmenopáusica (J Clin Endocrinol Metab 2020); Canadá, guía de práctica clínica de osteoporosis y prevención de fracturas, actualización 2023 (CMAJ 2023)",
+      "categoria": "Osteoporosis"
+    },
+    {
+      "id": "RM-REU-008",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "Según la clasificación histológica de la nefritis lúpica, ¿en qué clase se ubica la nefritis membranosa?",
+      "opciones": [
+        "V.",
+        "III.",
+        "IV.",
+        "VI.",
+        "II."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La clasificación ISN/RPS de la nefritis lúpica reconoce seis clases: I, mesangial mínima; II, proliferativa mesangial; III, focal (menos del 50 % de los glomérulos); IV, difusa (50 % o más), segmentaria o global; V, membranosa, con depósitos inmunes subepiteliales y engrosamiento de la membrana basal, y VI, esclerosante avanzada (más del 90 % de glomérulos esclerosados). La clase V se manifiesta por proteinuria en rango nefrótico, a menudo con sedimento poco activo, y se asocia a mayor riesgo trombótico, por lo que se vigila la trombosis de la vena renal. Las clases III y IV son las proliferativas, con hematuria, cilindros eritrocitarios, hipocomplementemia, anti-ADN elevado y deterioro de la función renal, y requieren inducción con glucocorticoides más micofenolato o ciclofosfamida; las guías KDIGO (2024) y ACR (2024) recomiendan terapia combinada con un tercer agente (belimumab o un inhibidor de calcineurina como voclosporina). Las clases I y II suelen manejarse con hidroxicloroquina y control, y la clase VI no responde a inmunosupresión y progresa a diálisis. La biopsia se indica ante proteinuria persistente mayor de 0,5 g/24 horas, hematuria glomerular o deterioro renal. Perla clínica: todo paciente con lupus recibe hidroxicloroquina, salvo contraindicación.",
+      "comentario": "La clasificación ISN/RPS de la nefritis lúpica reconoce seis clases: I, mesangial mínima; II, proliferativa mesangial; III, focal (menos del 50 % de los glomérulos); IV, difusa (50 % o más), segmentaria o global; V, membranosa, con depósitos inmunes subepiteliales y engrosamiento de la membrana basal, y VI, esclerosante avanzada (más del 90 % de glomérulos esclerosados). La clase V se manifiesta por proteinuria en rango nefrótico, a menudo con sedimento poco activo, y se asocia a mayor riesgo trombótico, por lo que se vigila la trombosis de la vena renal. Las clases III y IV son las proliferativas, con hematuria, cilindros eritrocitarios, hipocomplementemia, anti-ADN elevado y deterioro de la función renal, y requieren inducción con glucocorticoides más micofenolato o ciclofosfamida; las guías KDIGO (2024) y ACR (2024) recomiendan terapia combinada con un tercer agente (belimumab o un inhibidor de calcineurina como voclosporina). Las clases I y II suelen manejarse con hidroxicloroquina y control, y la clase VI no responde a inmunosupresión y progresa a diálisis. La biopsia se indica ante proteinuria persistente mayor de 0,5 g/24 horas, hematuria glomerular o deterioro renal. Perla clínica: todo paciente con lupus recibe hidroxicloroquina, salvo contraindicación.",
+      "tema": "Clasificación histológica de la nefritis lúpica: clase V",
+      "año": 2016,
+      "fuentes": "KDIGO, guía de práctica clínica de nefritis lúpica (Kidney Int 2024); ACR, guía de tamizaje, tratamiento y manejo de la nefritis lúpica 2024 (Arthritis Rheumatol 2025); Harrison, Principios de Medicina Interna, 21.ª ed. (2022)",
+      "categoria": "Lupus"
+    },
+    {
+      "id": "RM-REU-009",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2016 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes fármacos antirreumatoideos modificadores de enfermedad (FARME) actúa como antagonista del factor de necrosis tumoral alfa (TNF-α)?",
+      "opciones": [
+        "Infliximab.",
+        "Micofenolato mofetilo.",
+        "Leflunomida.",
+        "Rituximab.",
+        "Abatacept."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El infliximab es un anticuerpo monoclonal quimérico dirigido contra el TNF-α, igual que adalimumab, golimumab y certolizumab pegol, mientras que etanercept es una proteína de fusión receptor soluble del TNF-Fc. Estos agentes son FARME biológicos que se usan en artritis reumatoide, espondiloartritis, artritis psoriásica y enfermedad inflamatoria intestinal. Las demás opciones tienen otros mecanismos: el micofenolato inhibe la inosina monofosfato deshidrogenasa y bloquea la proliferación de linfocitos (se usa en nefritis lúpica y trasplante); la leflunomida inhibe la dihidroorotato deshidrogenasa y es un FARME sintético convencional; el rituximab es un anticuerpo anti-CD20 que depleta linfocitos B, y el abatacept (CTLA4-Ig) bloquea la coestimulación CD80/CD86 con CD28 del linfocito T. La guía ACR 2021 mantiene el metotrexato como tratamiento inicial y agrega un biológico o un inhibidor de JAK si no se alcanza la meta con el esquema convencional. Antes de iniciar un anti-TNF se descartan tuberculosis latente (en Perú según la NTS 221-MINSA/DGIESP-2024), hepatitis B y C, e infecciones activas, y están contraindicados en insuficiencia cardiaca grave, esclerosis múltiple y neoplasia reciente. Perla clínica: el anti-TNF puede reactivar la tuberculosis, sobre todo con infliximab.",
+      "comentario": "El infliximab es un anticuerpo monoclonal quimérico dirigido contra el TNF-α, igual que adalimumab, golimumab y certolizumab pegol, mientras que etanercept es una proteína de fusión receptor soluble del TNF-Fc. Estos agentes son FARME biológicos que se usan en artritis reumatoide, espondiloartritis, artritis psoriásica y enfermedad inflamatoria intestinal. Las demás opciones tienen otros mecanismos: el micofenolato inhibe la inosina monofosfato deshidrogenasa y bloquea la proliferación de linfocitos (se usa en nefritis lúpica y trasplante); la leflunomida inhibe la dihidroorotato deshidrogenasa y es un FARME sintético convencional; el rituximab es un anticuerpo anti-CD20 que depleta linfocitos B, y el abatacept (CTLA4-Ig) bloquea la coestimulación CD80/CD86 con CD28 del linfocito T. La guía ACR 2021 mantiene el metotrexato como tratamiento inicial y agrega un biológico o un inhibidor de JAK si no se alcanza la meta con el esquema convencional. Antes de iniciar un anti-TNF se descartan tuberculosis latente (en Perú según la NTS 221-MINSA/DGIESP-2024), hepatitis B y C, e infecciones activas, y están contraindicados en insuficiencia cardiaca grave, esclerosis múltiple y neoplasia reciente. Perla clínica: el anti-TNF puede reactivar la tuberculosis, sobre todo con infliximab.",
+      "tema": "FARME biológico anti-TNF: infliximab",
+      "año": 2016,
+      "fuentes": "ACR, guía de tratamiento de la artritis reumatoide (Arthritis Care Res 2021); Harrison, Principios de Medicina Interna, 21.ª ed. (2022); MINSA, NTS 221-MINSA/DGIESP-2024 (prevención y control de la tuberculosis)",
+      "categoria": "Artritis reumatoide"
+    },
+    {
+      "id": "RM-REU-010",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es el criterio diagnóstico de osteoporosis según la OMS en mujeres mayores de 65 años?",
+      "opciones": [
+        "Densitometría ósea inferior a -2,5 DE en cualquier localización.",
+        "Fracturas patológicas en cadera.",
+        "Acuñamiento anterior de las vértebras.",
+        "Fracturas patológicas en muñeca y cadera.",
+        "Densitometría ósea inferior a -1,5 DE en cuello de fémur."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El criterio densitométrico de la OMS, aplicado a mujeres posmenopáusicas y varones de 50 años o más, define osteoporosis como un índice T de -2,5 desviaciones estándar o menor en columna lumbar, cuello femoral o cadera total, medido por DXA y comparado con el adulto joven sano; la osteopenia (baja masa ósea) corresponde a un índice T entre -1,0 y -2,5, y lo normal es -1,0 o más. En sentido estricto el sitio de medición son esas regiones centrales, no «cualquier localización», pero entre las opciones esta es la que mejor refleja el criterio. El umbral de -1,5 de la opción E no existe en la clasificación. Las opciones de fractura (cadera, vértebras) son criterios clínicos adicionales de las guías actuales: una fractura de cadera o vertebral por fragilidad bastan para diagnosticar osteoporosis, pero la fractura de muñeca aislada no lo hace por sí sola, y no corresponden al criterio de la OMS por DXA. Después del diagnóstico se estima el riesgo con FRAX y se trata si el riesgo a 10 años es alto, con bisfosfonatos como primera línea, denosumab o teriparatida en riesgo muy alto, más calcio, vitamina D y ejercicio de carga. Perla clínica: el índice T no se aplica en niños ni en mujeres premenopáusicas, en quienes se usa el índice Z.",
+      "comentario": "El criterio densitométrico de la OMS, aplicado a mujeres posmenopáusicas y varones de 50 años o más, define osteoporosis como un índice T de -2,5 desviaciones estándar o menor en columna lumbar, cuello femoral o cadera total, medido por DXA y comparado con el adulto joven sano; la osteopenia (baja masa ósea) corresponde a un índice T entre -1,0 y -2,5, y lo normal es -1,0 o más. En sentido estricto el sitio de medición son esas regiones centrales, no «cualquier localización», pero entre las opciones esta es la que mejor refleja el criterio. El umbral de -1,5 de la opción E no existe en la clasificación. Las opciones de fractura (cadera, vértebras) son criterios clínicos adicionales de las guías actuales: una fractura de cadera o vertebral por fragilidad bastan para diagnosticar osteoporosis, pero la fractura de muñeca aislada no lo hace por sí sola, y no corresponden al criterio de la OMS por DXA. Después del diagnóstico se estima el riesgo con FRAX y se trata si el riesgo a 10 años es alto, con bisfosfonatos como primera línea, denosumab o teriparatida en riesgo muy alto, más calcio, vitamina D y ejercicio de carga. Perla clínica: el índice T no se aplica en niños ni en mujeres premenopáusicas, en quienes se usa el índice Z.",
+      "tema": "Criterio OMS de osteoporosis en mujeres posmenopáusicas",
+      "año": 2017,
+      "fuentes": "Endocrine Society, manejo farmacológico de la osteoporosis posmenopáusica (J Clin Endocrinol Metab 2020); USPSTF, tamizaje de osteoporosis para prevenir fracturas (JAMA 2025); Canadá, guía de práctica clínica de osteoporosis y prevención de fracturas, actualización 2023 (CMAJ 2023)",
+      "categoria": "Osteoporosis",
+      "nota_revision": "El libro afirma que la osteopenia va de -1,5 a -2,5 (Kumar); el rango OMS es -1,0 a -2,5. La clave A se mantiene."
+    },
+    {
+      "id": "RM-REU-011",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "¿Cuál es la principal complicación de la hiperuricemia?",
+      "opciones": [
+        "Artritis.",
+        "Nefrolitiasis.",
+        "Insuficiencia renal.",
+        "Insuficiencia cardiaca.",
+        "Acidosis láctica."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La hiperuricemia es la elevación del ácido úrico sérico por encima del límite de saturación del urato monosódico, cercano a 6,8 mg/dL a 37 °C. Resulta de una sobreproducción de purinas o, más a menudo (cerca del 90 %), de una menor excreción renal. Solo una minoría de los pacientes hiperuricémicos llega a desarrollar manifestaciones clínicas, pero la más frecuente y característica es la artritis gotosa: los cristales de urato precipitan en la articulación, activan el inflamasoma NLRP3 y la interleucina 1 beta, y producen ataques agudos monoarticulares, clásicamente en la primera articulación metatarsofalángica (podagra). La historia natural pasa por hiperuricemia asintomática, ataques agudos, periodo intercrítico y gota tofácea crónica. La nefrolitiasis úrica y la nefropatía por uratos son complicaciones reales pero menos frecuentes, la insuficiencia cardiaca es una comorbilidad asociada y la acidosis láctica no deriva de la hiperuricemia. En la guía ACR 2020 la meta terapéutica es un urato menor de 6 mg/dL con alopurinol como primera línea, y no se trata la hiperuricemia asintomática. Perla clínica: el diagnóstico definitivo es la visualización de cristales en forma de aguja con birrefringencia negativa en el líquido sinovial.",
+      "comentario": "La hiperuricemia es la elevación del ácido úrico sérico por encima del límite de saturación del urato monosódico, cercano a 6,8 mg/dL a 37 °C. Resulta de una sobreproducción de purinas o, más a menudo (cerca del 90 %), de una menor excreción renal. Solo una minoría de los pacientes hiperuricémicos llega a desarrollar manifestaciones clínicas, pero la más frecuente y característica es la artritis gotosa: los cristales de urato precipitan en la articulación, activan el inflamasoma NLRP3 y la interleucina 1 beta, y producen ataques agudos monoarticulares, clásicamente en la primera articulación metatarsofalángica (podagra). La historia natural pasa por hiperuricemia asintomática, ataques agudos, periodo intercrítico y gota tofácea crónica. La nefrolitiasis úrica y la nefropatía por uratos son complicaciones reales pero menos frecuentes, la insuficiencia cardiaca es una comorbilidad asociada y la acidosis láctica no deriva de la hiperuricemia. En la guía ACR 2020 la meta terapéutica es un urato menor de 6 mg/dL con alopurinol como primera línea, y no se trata la hiperuricemia asintomática. Perla clínica: el diagnóstico definitivo es la visualización de cristales en forma de aguja con birrefringencia negativa en el líquido sinovial.",
+      "tema": "Principal complicación de la hiperuricemia",
+      "año": 2017,
+      "fuentes": "ACR, Guía de manejo de la gota (Arthritis Care Res 2020); EULAR, recomendaciones de manejo de la gota (Ann Rheum Dis 2017;76:29-42); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Gota"
+    },
+    {
+      "id": "RM-REU-012",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2017 · pregunta oficial",
+      "enunciado": "Mujer de 25 años presenta artralgias y orinas espumosas. Examen: eritema en alas de mariposa, edema periférico (++). Laboratorio: ANA (+), complemento C3 disminuido. Inicia tratamiento con corticoide por vía oral a altas dosis. ¿Qué efecto espera encontrar?",
+      "opciones": [
+        "Disminución de la producción de linfocitos T.",
+        "Incremento en la liberación de interleucina 1.",
+        "Disminución de la gluconeogénesis.",
+        "Incremento de la permeabilidad de los capilares.",
+        "Disminución de la movilización de ácidos grasos."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El cuadro de una mujer joven con eritema malar, artralgias, proteinuria espumosa con edema, ANA positivo y C3 bajo corresponde a lupus eritematoso sistémico con probable nefritis lúpica, por lo que se indican glucocorticoides en dosis altas, a menudo precedidos de pulsos de metilprednisolona. Los corticoides se unen al receptor intracelular, inhiben factores de transcripción como NF-kB y AP-1 y frenan la síntesis de interleucinas 1 y 2, factor de necrosis tumoral y otras citocinas. Producen apoptosis y redistribución de los linfocitos T, con linfopenia y menor función de células T y, en uso prolongado, menor producción de anticuerpos. Por eso la opción A es correcta. Las demás describen lo contrario: reducen la liberación de interleucina 1 y la permeabilidad capilar, aumentan la gluconeogénesis hepática con hiperglucemia y estimulan la lipólisis con mayor movilización de ácidos grasos. La guía KDIGO 2024 de nefritis lúpica propone esquemas de glucocorticoides reducidos junto con micofenolato, ciclofosfamida o belimumab, y recomienda confirmar la clase con biopsia renal. Perla clínica: ante una dosis alta prolongada se vigilan glucemia, presión arterial, densidad ósea e infecciones oportunistas, y no se suspende bruscamente por riesgo de insuficiencia suprarrenal.",
+      "comentario": "El cuadro de una mujer joven con eritema malar, artralgias, proteinuria espumosa con edema, ANA positivo y C3 bajo corresponde a lupus eritematoso sistémico con probable nefritis lúpica, por lo que se indican glucocorticoides en dosis altas, a menudo precedidos de pulsos de metilprednisolona. Los corticoides se unen al receptor intracelular, inhiben factores de transcripción como NF-kB y AP-1 y frenan la síntesis de interleucinas 1 y 2, factor de necrosis tumoral y otras citocinas. Producen apoptosis y redistribución de los linfocitos T, con linfopenia y menor función de células T y, en uso prolongado, menor producción de anticuerpos. Por eso la opción A es correcta. Las demás describen lo contrario: reducen la liberación de interleucina 1 y la permeabilidad capilar, aumentan la gluconeogénesis hepática con hiperglucemia y estimulan la lipólisis con mayor movilización de ácidos grasos. La guía KDIGO 2024 de nefritis lúpica propone esquemas de glucocorticoides reducidos junto con micofenolato, ciclofosfamida o belimumab, y recomienda confirmar la clase con biopsia renal. Perla clínica: ante una dosis alta prolongada se vigilan glucemia, presión arterial, densidad ósea e infecciones oportunistas, y no se suspende bruscamente por riesgo de insuficiencia suprarrenal.",
+      "tema": "Efecto de los corticoides en nefritis lúpica",
+      "año": 2017,
+      "fuentes": "KDIGO, Guía de práctica clínica para el manejo de la nefritis lúpica (Kidney Int 2024); EULAR, recomendaciones de manejo del lupus eritematoso sistémico, actualización 2023 (Ann Rheum Dis 2024); Katzung Farmacología básica y clínica 16.ª ed. (2024); Goodman y Gilman 14.ª ed. (2023)",
+      "categoria": "Lupus"
+    },
+    {
+      "id": "RM-REU-013",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2018 · pregunta oficial",
+      "enunciado": "Varón de 70 años hipertenso, diabético, hipertiroideo, llevado a emergencia por presentar dolor en el primer dedo del pie derecho. Examen: aumento de volumen en la primera articulación metatarsofalángica derecha. ¿Cuál es el fármaco asociado a este efecto adverso?",
+      "opciones": [
+        "Insulina.",
+        "Metformina.",
+        "Enalapril.",
+        "Hidroclorotiazida.",
+        "Levotiroxina."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El cuadro de dolor súbito, tumefacción y calor en la primera articulación metatarsofalángica de un varón mayor es una podagra, es decir, un ataque agudo de gota. Entre los fármacos del paciente, la hidroclorotiazida es la que eleva el ácido úrico: los diuréticos tiazídicos y de asa compiten con el urato por los transportadores tubulares de aniones orgánicos y, además, por la contracción del volumen extracelular aumentan su reabsorción proximal, de modo que disminuye la excreción renal y suben las uricemias, con mayor riesgo de gota. La insulina y la metformina no elevan el urato (la metformina se asocia a acidosis láctica y la insulina a hipoglucemia), el enalapril produce tos, angioedema e hiperpotasemia, pero no hiperuricemia, y la levotiroxina no tiene efecto uricémico relevante. El diagnóstico se confirma con artrocentesis y cristales de urato monosódico en aguja con birrefringencia negativa. En este paciente los AINE son poco convenientes por la hipertensión y el riesgo renal; se prefieren colchicina en dosis bajas o un ciclo corto de corticoides. Perla clínica: si es posible se cambia la tiazida por losartán, que tiene efecto uricosúrico, o por un calcioantagonista.",
+      "comentario": "El cuadro de dolor súbito, tumefacción y calor en la primera articulación metatarsofalángica de un varón mayor es una podagra, es decir, un ataque agudo de gota. Entre los fármacos del paciente, la hidroclorotiazida es la que eleva el ácido úrico: los diuréticos tiazídicos y de asa compiten con el urato por los transportadores tubulares de aniones orgánicos y, además, por la contracción del volumen extracelular aumentan su reabsorción proximal, de modo que disminuye la excreción renal y suben las uricemias, con mayor riesgo de gota. La insulina y la metformina no elevan el urato (la metformina se asocia a acidosis láctica y la insulina a hipoglucemia), el enalapril produce tos, angioedema e hiperpotasemia, pero no hiperuricemia, y la levotiroxina no tiene efecto uricémico relevante. El diagnóstico se confirma con artrocentesis y cristales de urato monosódico en aguja con birrefringencia negativa. En este paciente los AINE son poco convenientes por la hipertensión y el riesgo renal; se prefieren colchicina en dosis bajas o un ciclo corto de corticoides. Perla clínica: si es posible se cambia la tiazida por losartán, que tiene efecto uricosúrico, o por un calcioantagonista.",
+      "tema": "Fármaco que precipita un ataque de gota",
+      "año": 2018,
+      "fuentes": "ACR, Guía de manejo de la gota (Arthritis Care Res 2020); EULAR, recomendaciones de manejo de la gota (Ann Rheum Dis 2017;76:29-42); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Gota"
+    },
+    {
+      "id": "RM-REU-014",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2015 Extraordinario · pregunta oficial",
+      "enunciado": "Varón de 55 años que presenta dolor agudo en región lumbar por diagnóstico de espondilitis anquilosante. El facultativo decide usar un antiinflamatorio selectivo para la COX-2. ¿Cuál de los siguientes fármacos indicaría?",
+      "opciones": [
+        "Piroxicam.",
+        "Nabumetona.",
+        "Sulindac.",
+        "Indometacina.",
+        "Celecoxib."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La espondilitis anquilosante, hoy espondiloartritis axial radiográfica, es una enfermedad inflamatoria crónica de la columna y de las sacroilíacas, asociada a HLA-B27, con dolor lumbar inflamatorio de inicio antes de los 45 años, rigidez matutina que mejora con el ejercicio, uveítis anterior y entesitis. Las recomendaciones ASAS-EULAR 2022 mantienen los antiinflamatorios no esteroideos como tratamiento farmacológico de primera línea, a dosis plena y durante al menos dos a cuatro semanas, junto con ejercicio y fisioterapia; si la respuesta es insuficiente tras dos AINE, se pasa a un inhibidor de TNF o de IL-17. Los inhibidores selectivos de la COX-2 son equivalentes en eficacia a los AINE tradicionales y causan menos efectos gastrointestinales. De la lista, el único selectivo es el celecoxib; piroxicam e indometacina son no selectivos, el sulindac es un profármaco no selectivo y la nabumetona tiene selectividad solo parcial. Aunque la indometacina es clásica en la espondilitis, su toxicidad es mayor. El celecoxib se evita en pacientes alérgicos a sulfonamidas, y en este paciente de 55 años se debe valorar el riesgo cardiovascular y renal. Perla clínica: la elección del AINE se individualiza según el riesgo digestivo, cardiovascular y renal, y se asocia un inhibidor de la bomba de protones cuando se usan los no selectivos.",
+      "comentario": "La espondilitis anquilosante, hoy espondiloartritis axial radiográfica, es una enfermedad inflamatoria crónica de la columna y de las sacroilíacas, asociada a HLA-B27, con dolor lumbar inflamatorio de inicio antes de los 45 años, rigidez matutina que mejora con el ejercicio, uveítis anterior y entesitis. Las recomendaciones ASAS-EULAR 2022 mantienen los antiinflamatorios no esteroideos como tratamiento farmacológico de primera línea, a dosis plena y durante al menos dos a cuatro semanas, junto con ejercicio y fisioterapia; si la respuesta es insuficiente tras dos AINE, se pasa a un inhibidor de TNF o de IL-17. Los inhibidores selectivos de la COX-2 son equivalentes en eficacia a los AINE tradicionales y causan menos efectos gastrointestinales. De la lista, el único selectivo es el celecoxib; piroxicam e indometacina son no selectivos, el sulindac es un profármaco no selectivo y la nabumetona tiene selectividad solo parcial. Aunque la indometacina es clásica en la espondilitis, su toxicidad es mayor. El celecoxib se evita en pacientes alérgicos a sulfonamidas, y en este paciente de 55 años se debe valorar el riesgo cardiovascular y renal. Perla clínica: la elección del AINE se individualiza según el riesgo digestivo, cardiovascular y renal, y se asocia un inhibidor de la bomba de protones cuando se usan los no selectivos.",
+      "tema": "AINE selectivo de COX-2 en espondilitis anquilosante",
+      "año": 2015,
+      "fuentes": "Ramiro S y cols., ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update (Ann Rheum Dis 2023); Ward MM y cols., 2019 Update of the ACR/SAA/SPARTAN recommendations for ankylosing spondylitis and nonradiographic axial spondyloarthritis (Arthritis Rheumatol 2019); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Espondiloartritis",
+      "nota_revision": "Bloque dañado: clave E (celecoxib) confirmada en la imagen de la página."
+    },
+    {
+      "id": "RM-REU-015",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2019 · pregunta oficial",
+      "enunciado": "¿Qué tipo de inmunoglobulina es generalmente mediadora en la anafilaxia?",
+      "opciones": [
+        "D.",
+        "E.",
+        "A.",
+        "G.",
+        "M."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La anafilaxia es una reacción de hipersensibilidad sistémica, de inicio rápido y potencialmente mortal. En la mayoría de los casos es una hipersensibilidad tipo I mediada por inmunoglobulina E: en la fase de sensibilización, el alérgeno induce la síntesis de IgE específica, que se fija a los receptores de alta afinidad FcεRI de mastocitos y basófilos; ante una nueva exposición, el alérgeno entrecruza las IgE y libera histamina, triptasa, leucotrienos, prostaglandina D2 y factor activador de plaquetas, con vasodilatación, aumento de la permeabilidad capilar, broncoespasmo y edema de la vía aérea. Los desencadenantes más comunes son alimentos (maní, frutos secos, mariscos), veneno de himenópteros y fármacos como los betalactámicos. Existen mecanismos no inmunológicos o no dependientes de IgE, por activación directa de mastocitos (opioides, vancomicina, contrastes) o del complemento, pero no son lo habitual. La IgG y la IgM participan en las reacciones citotóxicas y por inmunocomplejos, la IgA es la inmunoglobulina de las mucosas y la IgD actúa como receptor del linfocito B. El diagnóstico es clínico, por compromiso de piel o mucosas con alteración respiratoria o circulatoria; la triptasa sérica de 1 a 2 horas ayuda a confirmar. El tratamiento inmediato es adrenalina intramuscular de 0,01 mg/kg (máximo 0,5 mg) en la cara anterolateral del muslo. Perla clínica: los antihistamínicos y los corticoides no reemplazan la adrenalina.",
+      "comentario": "La anafilaxia es una reacción de hipersensibilidad sistémica, de inicio rápido y potencialmente mortal. En la mayoría de los casos es una hipersensibilidad tipo I mediada por inmunoglobulina E: en la fase de sensibilización, el alérgeno induce la síntesis de IgE específica, que se fija a los receptores de alta afinidad FcεRI de mastocitos y basófilos; ante una nueva exposición, el alérgeno entrecruza las IgE y libera histamina, triptasa, leucotrienos, prostaglandina D2 y factor activador de plaquetas, con vasodilatación, aumento de la permeabilidad capilar, broncoespasmo y edema de la vía aérea. Los desencadenantes más comunes son alimentos (maní, frutos secos, mariscos), veneno de himenópteros y fármacos como los betalactámicos. Existen mecanismos no inmunológicos o no dependientes de IgE, por activación directa de mastocitos (opioides, vancomicina, contrastes) o del complemento, pero no son lo habitual. La IgG y la IgM participan en las reacciones citotóxicas y por inmunocomplejos, la IgA es la inmunoglobulina de las mucosas y la IgD actúa como receptor del linfocito B. El diagnóstico es clínico, por compromiso de piel o mucosas con alteración respiratoria o circulatoria; la triptasa sérica de 1 a 2 horas ayuda a confirmar. El tratamiento inmediato es adrenalina intramuscular de 0,01 mg/kg (máximo 0,5 mg) en la cara anterolateral del muslo. Perla clínica: los antihistamínicos y los corticoides no reemplazan la adrenalina.",
+      "tema": "Inmunoglobulina mediadora de la anafilaxia",
+      "año": 2019,
+      "fuentes": "Cardona V y cols., World Allergy Organization Anaphylaxis Guidance 2020 (World Allergy Organ J 2020); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Alergia e inmunología",
+      "nota_revision": "Bloque dañado: opciones y clave (B, IgE) reconstruidas de la imagen de la página."
     }
   ]
 }
