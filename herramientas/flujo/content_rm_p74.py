@@ -181,7 +181,7 @@ S("linea_vida", "RM-SP-086", "En el modelo de atención integral la etapa de vid
                      ["Adolescente", "12 a 17 años", "Termina a los 17 años"],
                      ["Joven", "18 a 29 años", "Hasta los 29 años, 11 meses y 29 días"],
                      ["Adulto", "30 a 59 años", "Etapa productiva"],
-                     ["Adulto mayor", "60 años a más", "Atención geriátrica"]], caso=2, ancho_primera=140))
+                     ["Adulto mayor", "60 años a más", "Atención geriátrica"]], caso=2, ancho_primera=220))
 
 # 087 · CUADRO · modelos de educación sanitaria
 S("cuadro", "RM-SP-087", "El modelo comunitario fomenta el autocuidado y la participación responsable de los usuarios en todos los niveles",
@@ -235,7 +235,7 @@ S("capas", "RM-SP-089", "Las desigualdades sanitarias se deben a determinantes s
   op=("¿A qué corresponden los determinantes?", ["Sí: estructurales y circunstancias de vida", "No: parte del sistema de salud, no la causa de fondo", "No: son parte de lo cultural y económico, no el marco completo", "No: es nivel intermedio y conductual", "No: es parte del sistema de salud"],
       {0: "Factores estructurales y circunstancias de vida", 1: "Accesibilidad y demanda poblacional", 2: "Cultura y nivel socioeconómico", 3: "Estilo de vida y hábitos de consumo", 4: "Proceso de atención y demanda poblacional"}),
   d=dict(rotulo="Niveles del marco de determinantes sociales", prof=1, tag="AQUÍ", lateral_titulo="Qué contiene cada nivel",
-         capas=[("Contexto socioeconómico y político", "Base", "#fbd5c4", "Poder, dinero y recursos", "Políticas, gobernanza y valores sociales."),
+         capas=[("Contexto socioeconómico", "Base", "#fbd5c4", "Poder, dinero y recursos", "Políticas, gobernanza y valores sociales."),
                 ("Determinantes estructurales", "Causa de las desigualdades", "#f5b8a2", "Ingresos, educación, ocupación, género y etnia", "Definen la posición social: es la opción correcta."),
                 ("Determinantes intermedios", "Circunstancias de vida", "#fbe38e", "Vivienda, trabajo, conducta y cohesión social", "Estilo de vida y hábitos están aquí."),
                 ("Sistema de salud", "Reacción social", "#fde9a8", "Accesibilidad y proceso de atención", "Modula las consecuencias de la enfermedad.")],
@@ -269,7 +269,7 @@ S("reloj", "RM-SP-090", "Un centro que solo atiende en el turno mañana tiene un
 # 091 · BALANZA · oferta y demanda en el ASIS
 S("balanza", "RM-SP-091", "Médicos por 1000 habitantes es un indicador de oferta: mide los recursos del sistema",
   "Salud pública · ASIS, oferta y demanda",
-  ("Análisis de la situación de salud", ["Estudia determinantes, daños y respuesta social.", "La reacción social se divide en demanda y oferta."]),
+  ("Análisis de la situación de salud", ["Estudia determinantes, daños y reacción social.", "La reacción social se divide en demanda y oferta."]),
   ("Pregunta de indicador", ["En el ASIS, un indicador de oferta es...", "¿Cuál de las opciones?"]),
   ["Oferta: capacidad instalada de los establecimientos: médicos, enfermeras y obstetras por 1000 habitantes, camas, equipamiento, presupuesto y productividad.",
    "Demanda: necesidad de la población, expresada o no; se prioriza con la morbilidad, la mortalidad y la satisfacción.",
@@ -298,7 +298,7 @@ S("regla", "RM-SP-092", "Las 450 cajas de chispitas se dan a todos los niños de
   d=dict(rotulo="Quién recibe micronutrientes según la edad en meses",
          reglas=[dict(nombre="Edad del niño", que="La edad decide; no hace falta diagnóstico previo.",
                       min=0, max=48, fmt="{} m", ticks=[0, 6, 12, 24, 36, 48],
-                      bandas=[(0, 6, "Menos de 6: aún no", 0), (6, 36, "6 a 35: todos reciben", 3), (36, 48, "36 o más: fuera", 0)],
+                      bandas=[(0, 6, "Antes: no", 0), (6, 36, "6 a 35: todos reciben", 3), (36, 48, "36 o más: fuera", 0)],
                       caso=18, caso_txt="TODOS LOS NIÑOS DE 6 A 36 MESES RECIBEN CHISPITAS")],
          claves_titulo="Qué decide la entrega",
          claves=[("Edad de 6 a 35 meses", ["Basta para recibir la suplementación"], True), ("Hemoglobina, peso o estado nutricional", ["No condicionan la prevención universal"], False),
