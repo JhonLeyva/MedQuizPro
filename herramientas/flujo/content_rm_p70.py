@@ -77,8 +77,7 @@ S("antes_despues", "RM-CB-083", "En la vida fetal la eritropoyetina se produce s
          despues=dict(titulo="Después del nacimiento", datos=[("Sitio principal", "Riñón (cerca de 90 %)"), ("Células", "Intersticiales peritubulares"), ("Estímulo", "Hipoxia vía HIF"), ("Cambio", "Progresivo en semanas"), ("En el prematuro", "El cambio se retrasa")]),
          intervencion="Cambio de la fuente hepática a la renal",
          cambios=[("El hígado cede la producción al riñón", "mejora"), ("HIF sigue siendo el estímulo", "igual"), ("La anemia del prematuro refleja el cambio tardío", "igual")],
-         veredicto=("Feto = EPO hepática; adulto = EPO renal", "HIF estimula la EPO, el túbulo proximal no es el sitio y la materna no cruza la placenta.")),
-  nota="Banco: la opción E («células de origen monocitario hepáticas») es imprecisa; la fuente fetal es el hepatocito y otras células hepáticas. Se mantiene la clave.")
+         veredicto=("Feto = EPO hepática; adulto = EPO renal", "HIF estimula la EPO, el túbulo proximal no es el sitio y la materna no cruza la placenta.")))
 
 # PED-183 · PUNTAJE · Capurro
 S("puntaje", "RM-PED-183", "Pabellón incurvado, mama mayor de 10 mm, piel con descamación y surcos plantares profundos: posmadurez de 42 semanas",
@@ -99,8 +98,7 @@ S("puntaje", "RM-PED-183", "Pabellón incurvado, mama mayor de 10 mm, piel con d
          total=89, max=94, total_label="Puntos del caso", interpreta="(89 + 204) ÷ 7 = unas 42 semanas",
          bandas=[("< 37 sem", "Pretérmino", "Pabellón plano, mama y pezón poco desarrollados, piel fina.", False),
                  ("37-41 sem", "A término", "Madurez completa sin signos de posmadurez.", False),
-                 ("42 sem o más", "Posmadurez", "Descamación, uñas largas y surcos plantares profundos.", True)]),
-  nota="Banco: el pezón es limítrofe; se mantiene la clave del libro (42 semanas).")
+                 ("42 sem o más", "Posmadurez", "Descamación, uñas largas y surcos plantares profundos.", True)]))
 
 # PED-184 · CASCADA · atelectasia en crisis asmática
 S("cascada", "RM-PED-184", "Crisis asmática refractaria con ausencia localizada de murmullo vesicular: atelectasia por tapón de moco",
@@ -119,8 +117,7 @@ S("cascada", "RM-PED-184", "Crisis asmática refractaria con ausencia localizada
                 ("Aire distal atrapado y reabsorbido", "El parénquima colapsa", [("Atelectasia del lóbulo medio derecho", "Murmullo ausente en el tercio medio", True)]),
                 ("Estudio", "Radiografía de tórax ante asimetría", [("Opacidad triangular y pérdida de volumen", "", False)]),
                 ("Tratamiento", "Broncodilatador, corticoide y oxígeno", [("Fisioterapia respiratoria", "", False)])],
-         veredicto=("Murmullo ausente en un tercio tras crisis grave = atelectasia", "El neumotórax abole el murmullo de todo el hemitórax; neumonía y piotórax requieren fiebre y más días.")),
-  nota="Banco: el neumotórax también es posible; se mantiene atelectasia por la localización y su frecuencia.")
+         veredicto=("Murmullo ausente en un tercio tras crisis grave = atelectasia", "El neumotórax abole el murmullo de todo el hemitórax; neumonía y piotórax requieren fiebre y más días.")))
 
 # PED-185 · ALARMA · hipertrofia adenoidea
 S("alarma", "RM-PED-185", "Ronquido, respiración bucal, voz nasal y bajo rendimiento escolar en un niño: hipertrofia adenoidea",
@@ -147,7 +144,7 @@ S("alarma", "RM-PED-185", "Ronquido, respiración bucal, voz nasal y bajo rendim
 S("checklist", "RM-PED-186", "Sordera, catarata y ductus arterioso persistente en un neonato: tríada de Gregg de la rubéola congénita",
   "Pediatría · rubéola congénita",
   ("Rubéola congénita", ["Togavirus; el riesgo de malformaciones es de cerca de 85 % si la infección ocurre en las primeras 12 semanas.", "Se confirma con IgM específica o PCR."]),
-  ("Neonato de 15 días", ["Pobre respuesta al estímulo sonoro.", "Catarata y persistencia del ductus arterioso."]),
+  ("Neonato de 15 días", ["Pobre reacción al estímulo sonoro.", "Catarata y persistencia del ductus arterioso."]),
   ["Tríada de Gregg: sordera neurosensorial (la secuela más frecuente), catarata o retinopatía en sal y pimienta, y cardiopatía (ductus arterioso persistente, estenosis pulmonar).",
    "Otros hallazgos: microcefalia, restricción del crecimiento, hepatoesplenomegalia, trombocitopenia con púrpura («muffin de arándanos») y lesiones óseas.",
    "Diagnóstico: IgM específica en el neonato, PCR en secreciones o IgG persistente. Sífilis, CMV, toxoplasma y herpes tienen otro patrón.",
@@ -156,7 +153,7 @@ S("checklist", "RM-PED-186", "Sordera, catarata y ductus arterioso persistente e
   op=("¿Infección congénita?", ["Sí: sordera, catarata y ductus arterioso", "No: da lesiones óseas, rinitis y exantema palmoplantar", "No: da vesículas, encefalitis y lesiones oculares", "No: da coriorretinitis, hidrocefalia y calcificaciones difusas", "No: da calcificaciones periventriculares y sordera"],
       {}),
   d=dict(rotulo="Qué se verifica ante una sospecha de rubéola congénita", tag="TRÍADA DE GREGG",
-         pasos=[("Sordera neurosensorial", "En el caso: pobre respuesta al sonido", True), ("Catarata o retinopatía en sal y pimienta", "En el caso: catarata", True),
+         pasos=[("Sordera neurosensorial", "En el caso: pobre reacción al sonido", True), ("Catarata o retinopatía en sal y pimienta", "En el caso: catarata", True),
                 ("Cardiopatía congénita", "En el caso: ductus arterioso persistente", True), ("Confirmación", "IgM específica, PCR en secreciones o IgG persistente", False)],
          no_hacer=[("Pensar en sífilis", "Daría lesiones óseas y rinitis, no la tríada completa"), ("Pensar en CMV", "Daría calcificaciones periventriculares y sordera, sin ductus"), ("Pensar en toxoplasmosis", "Daría coriorretinitis e hidrocefalia")],
          veredicto=("Sordera + catarata + ductus = rubéola congénita", "Sífilis, herpes, toxoplasmosis y CMV no forman esta tríada.")),
@@ -191,7 +188,7 @@ S("termometro", "RM-PED-188", "Lactante letárgico con hipotensión, frialdad di
   ("Lactante de 6 meses", ["Fiebre, diarrea acuosa y vómitos por dos días.", "FC 140, ojos hundidos, letargia, hipotensión, frialdad distal y llenado capilar lento."]),
   ["Grave: letargo o coma, ojos muy hundidos, mucosas secas y pliegue cutáneo que tarda más de 2 segundos; shock: taquicardia, pulsos débiles, frialdad, llenado prolongado y, tardíamente, hipotensión.",
    "Este lactante reúne todos los datos de shock hipovolémico; el abdomen distendido con hipoperistalsis sugiere íleo por hipopotasemia.",
-   "Manejo inmediato: vía intravenosa o intraósea y solución isotónica en bolo (20 mL/kg), reevaluar y repetir; después reposición según plan de la OMS.",
+   "Manejo inmediato: vía intravenosa o intraósea y solución isotónica en bolo (20 mL/kg), reevaluar y repetir si persiste; después reposición según plan de la OMS.",
    "Alerta: la hipotensión es un signo tardío en el niño; con taquicardia y llenado capilar lento ya hay shock compensado."],
   "OMS, Tratamiento de la diarrea: manual para médicos (2005, reafirmado); Nelson Tratado de Pediatría, 22.ª ed. (2024).",
   op=("¿Tipo de deshidratación?", ["No: la grave sin shock conserva perfusión y presión", "Sí: grave con signos de shock hipovolémico", "No: solo sed y mucosas apenas secas", "No: sin letargo ni signos de shock", "No: aquí hay shock hipovolémico"],
@@ -201,7 +198,7 @@ S("termometro", "RM-PED-188", "Lactante letárgico con hipotensión, frialdad di
                   ("6-9 %", "Moderada", ["Ojos hundidos, irritabilidad y pliegue lento; rehidratación oral supervisada"]),
                   ("10 % o más", "Grave con shock", ["Letargia, hipotensión, frialdad y llenado capilar lento"])],
          pasos=[(1, "Reconocer el shock hipovolémico", ["Taquicardia, pulsos débiles, frialdad y llenado capilar lento"], False),
-                (2, "Reanimación con líquidos", ["Vía intravenosa o intraósea y bolo isotónico de 20 mL/kg; repetir según respuesta"], False),
+                (2, "Reanimación con líquidos", ["Vía intravenosa o intraósea y bolo isotónico de 20 mL/kg; repetir si persiste"], False),
                 (3, "Deshidratación severa con shock", ["Opción correcta: reúne todos los datos de shock"], True)]),
   clasif=dict(titulo="Deshidratación según el déficit de peso", cols=["Grado", "Déficit de peso", "Signos"],
               filas=[["Leve", "3 a 5 %", "Sed y mucosas apenas secas"],
@@ -243,13 +240,13 @@ S("tarjetas", "RM-PED-190", "En el lactante la escabiosis compromete sobre todo 
   op=("¿Dónde se afecta?", ["Sí: dato clásico del lactante", "No: más en adulto y niño mayor", "No: más en adulto y niño mayor", "No: es la dermatitis del pañal", "No: más en adulto y niño mayor"],
       {}),
   d=dict(rotulo="Distribución de la escabiosis según la edad", ans=0,
-         cards=[dict(titulo="Lactante y niño pequeño", datos=[("Zonas", "Palmas y plantas", True), ("También", "Cuero cabelludo, cara y cuello", True), ("Lesiones", "Vesículas, pústulas y nódulos", True)], pie="Es la opción correcta."),
-                dict(titulo="Adulto y niño mayor", datos=[("Zonas", "Interdigitales, muñecas y codos", False), ("También", "Axilas, areolas, cintura y genitales", False), ("Cara", "Se respeta", False)], pie="No es el patrón del lactante."),
+         cards=[dict(titulo="Lactante", datos=[("Zonas", "Palmas y plantas", True), ("También", "Cuero cabelludo, cara y cuello", True), ("Lesiones", "Vesículas, pústulas y nódulos", True)], pie="Es la opción correcta."),
+                dict(titulo="Adulto", datos=[("Zonas", "Interdigitales, muñecas y codos", False), ("También", "Axilas, areolas, cintura y genitales", False), ("Cara", "Se respeta", False)], pie="No es el patrón del lactante."),
                 dict(titulo="Pliegues y región perineal", datos=[("Zonas", "Axilas y perineo", False), ("Edad", "Adulto y niño mayor", False), ("Lactante", "No es lo fundamental", False)], pie="No es el dato clásico."),
                 dict(titulo="Glúteos", datos=[("Cuadro", "Dermatitis del pañal", False), ("Prurito", "No es generalizado", False), ("Escabiosis", "No es típico", False)], pie="Otra entidad.")]),
   clasif=dict(titulo="Distribución de la escabiosis según la edad", cols=["Edad", "Zonas más afectadas", "Se respeta"],
-              filas=[["Lactante y niño pequeño", "Palmas, plantas, cuero cabelludo, cara y cuello", "Sin zona típica de respeto"],
-                     ["Adulto y niño mayor", "Interdigitales, muñecas, codos, axilas, areolas, cintura y genitales", "Cara"]],
+              filas=[["Lactante", "Palmas, plantas, cuero cabelludo, cara y cuello", "Sin zona típica de respeto"],
+                     ["Adulto", "Interdigitales, muñecas, codos, axilas, areolas, cintura y genitales", "Cara"]],
               caso=0, ancho_primera=220))
 
 # PED-191 · LÍNEA DE VIDA · tos ferina
@@ -269,8 +266,7 @@ S("linea_vida", "RM-PED-191", "En la tos ferina la sobreinfección más frecuent
                  ("Otitis media aguda (este caso)", 2, 8, "Sobreinfección más frecuente", True), ("Neumonía y apnea", 2, 6, "Causa principal de muerte en lactantes", False),
                  ("Fase de convalecencia", 6, 12, "Tos decreciente", False)],
          marcador=(4, "Fase paroxística"),
-         veredicto=("Complicación más frecuente en las opciones = otitis media aguda", "La neumonía es la más grave; mastoiditis y rinosinusitis son secundarias.")),
-  nota="Banco: la neumonía es la complicación más grave; entre las opciones listadas se mantiene la otitis (B).")
+         veredicto=("Complicación más frecuente en las opciones = otitis media aguda", "La neumonía es la más grave; mastoiditis y rinosinusitis son secundarias.")))
 
 # PED-192 · REGLA · IMC en obesidad infantil
 S("regla", "RM-PED-192", "El índice de masa corporal ubicado en las curvas por edad y sexo es el parámetro más útil para diagnosticar obesidad infantil",
@@ -307,7 +303,7 @@ S("calendario", "RM-PED-193", "La profilaxis ocular del recién nacido se dirige
       {}),
   d=dict(rotulo="Cuándo actúa la profilaxis y cuándo aparece cada infección", tag="PRIMERA HORA", titulo_filas="Evento", titulo_regla="Regla",
          edades=["1.ª hora", "2 a 5 días", "5 a 14 días", "4 a 12 semanas"], caso_col=0,
-         filas=[("Profilaxis ocular (eritromicina, tetraciclina o povidona)", {0: ("Sí", "dada")}, "Se aplica en la atención inmediata del recién nacido."),
+         filas=[("Profilaxis ocular", {0: ("Sí", "dada")}, "Eritromicina, tetraciclina o povidona en la atención inmediata."),
                 ("Conjuntivitis gonocócica", {1: ("Sí", "dada")}, "Hiperaguda y purulenta; riesgo de perforación corneal."),
                 ("Conjuntivitis por Chlamydia", {2: ("Sí", "dada")}, "Menos grave; el ungüento es menos eficaz."),
                 ("Neumonía por Chlamydia", {3: ("Sí", "dada")}, "Complicación posterior de la infección materna.")],
@@ -355,5 +351,4 @@ S("regla", "RM-CB-084", "En el lactante menor de 3 meses el tope diario de parac
                       caso=75, caso_txt="CLAVE DEL BANCO: 75 mg/kg")],
          claves_titulo="Por qué importa la edad",
          claves=[("Menor de 3 meses", ["Conjugación inmadura, vida media prolongada: tope de 60 a 75 mg/kg al día"], True), ("Niño mayor y adulto", ["Toxicidad aguda desde 150 mg/kg"], False),
-                 ("Dosis habitual", ["10 a 15 mg/kg por dosis, cada 6 a 8 horas"], False)]),
-  nota="Banco: el umbral clásico de toxicidad aguda es 150 mg/kg (opción E); la clave (B, 75 mg/kg) se refiere al tope diario del lactante pequeño. Se mantiene B.")
+                 ("Dosis habitual", ["10 a 15 mg/kg por dosis, cada 6 a 8 horas"], False)]))
