@@ -50,13 +50,13 @@ S("cascada", "RM-PED-130", "La torsión testicular se produce en un testículo m
   clasif=dict(titulo="Escroto agudo del niño: cómo se distingue", cols=["Causa", "Inicio y signos", "Conducta"],
               filas=[["Torsión testicular", "Dolor súbito, testículo alto, sin reflejo cremastérico", "Cirugía urgente, ventana de unas 6 horas"],
                      ["Epididimitis", "Fiebre, piuria, Prehn positivo", "Antibiótico según causa"],
-                     ["Tumor testicular", "Masa indolora", "Ecografía y estudio oncológico"]], caso=0, ancho_primera=180))
+                     ["Tumor testicular", "Masa indolora", "Ecografía y estudio oncológico"]], caso=0, ancho_primera=240))
 
 # 131 · CARRILES · shock séptico frío
 S("carriles", "RM-PED-131", "En el shock séptico frío refractario a dopamina el siguiente fármaco es la adrenalina",
   "Pediatría · shock séptico",
   ("Shock séptico pediátrico", ["Sepsis con disfunción cardiovascular que persiste tras fluidos.", "Frío: gasto bajo y vasoconstricción; caliente: vasodilatación."]),
-  ("Niño de 2 años con celulitis", ["FC 196, PA 50/35, extremidades frías, llenado capilar lento.", "Ya recibió fluidos y dopamina sin respuesta."]),
+  ("Niño de 2 años con celulitis", ["FC 196, PA 50/35, extremidades frías, llenado capilar lento.", "Ya recibió fluidos y dopamina sin mejoría."]),
   ["Shock frío: taquicardia, hipotensión, extremidades frías y llenado capilar lento. La Campaña Sobrevivir a la Sepsis 2020 elige adrenalina como primera línea.",
    "Shock caliente (pulsos saltones, vasodilatación): noradrenalina. La vasopresina es de tercera línea en el shock vasopléjico resistente.",
    "Milrinona y dobutamina son inodilatadores para bajo gasto con presión adecuada; la atropina se reserva para bradicardia vagal.",
@@ -113,14 +113,14 @@ S("dosis", "RM-PED-133", "Deshidratación severa con shock por diarrea: bolo de 
   op=("¿Medida inicial?", ["Sí: expande el volumen de forma rápida y segura", "No: 200 mL/kg es una dosis letal por sobrecarga", "No: es de mantenimiento y 10 mL/kg no alcanza", "No: el plasma no es expansor de primera línea", "No: el hipersodio está contraindicado aquí"],
       {0: "Suero fisiológico 20 mL/kg en bolo", 1: "Lactato Ringer 200 mL/kg", 2: "Polielectrolítica 10 mL/kg en bolo", 3: "Plasma fresco congelado 20 mL/kg", 4: "Hipersodio 10 mL/kg a chorro"}),
   d=dict(rotulo="Reposición del niño con shock por deshidratación", peso=("20 mL/kg", "Cristaloide isotónico en bolo"),
-         pasos=[("Reconocer el shock", "Pulsos débiles, llenado mayor de 3 s", "Hipotensión, extremidades frías, letargia"), ("Bolo inicial", "Suero fisiológico 20 mL/kg", "O lactato Ringer, lo más rápido posible"), ("Reevaluar tras cada bolo", "Repetir hasta 3 veces", "Buscar hepatomegalia o crepitantes")],
+         pasos=[("Reconocer el shock", "Pulsos débiles", "Llenado mayor de 3 s"), ("Bolo inicial", "20 mL/kg", "Suero fisiológico"), ("Reevaluar", "Hasta 3 bolos", "Buscar crepitantes")],
          alternativas=[("Suero fisiológico 20 mL/kg en bolo", "Expande el volumen; elección", True), ("Lactato Ringer 200 mL/kg", "Dosis letal por sobrecarga", False), ("Polielectrolítica 10 mL/kg", "Es de mantenimiento; dosis corta", False),
                        ("Plasma fresco 20 mL/kg", "No es expansor de primera línea", False), ("Hipersodio 10 mL/kg a chorro", "Contraindicado en este contexto", False)],
          veredicto=("Shock por diarrea = cristaloide isotónico 20 mL/kg", "Cada bolo se reevalúa antes de repetirlo.")),
   clasif=dict(titulo="Deshidratación en el niño: gravedad y conducta", cols=["Grado", "Pérdida de peso", "Conducta (OMS)"],
               filas=[["Leve", "3 a 5 %", "Plan A: líquidos y sales en casa"],
                      ["Moderada", "6 a 9 %", "Plan B: sales de rehidratación oral, 75 mL/kg en 4 horas"],
-                     ["Severa, con shock", "10 % o más", "Plan C: bolo intravenoso de cristaloide, 20 mL/kg"]], caso=2, ancho_primera=170))
+                     ["Severa, con shock", "10 % o más", "Plan C: bolo intravenoso de cristaloide, 20 mL/kg"]], caso=2, ancho_primera=230))
 
 # 134 · REGLA · hierro terapéutico
 S("regla", "RM-PED-134", "La anemia ferropénica del lactante se trata con hierro elemental de 3 a 6 mg/kg/día",
@@ -129,15 +129,15 @@ S("regla", "RM-PED-134", "La anemia ferropénica del lactante se trata con hierr
   ("Lactante con anemia microcítica", ["¿Cuál es el rango terapéutico de hierro elemental en mg/kg/día?"]),
   ["Causas: reservas bajas, prematuridad, dieta pobre en hierro hemo y leche de vaca precoz. El déficit en los primeros años puede dejar secuelas cognitivas.",
    "Diagnóstico: hemoglobina ajustada por edad y altitud, VCM bajo, ferritina baja y, si hace falta, saturación de transferrina reducida.",
-   "Tratamiento: 3 a 6 mg/kg/día de hierro elemental en una o dos tomas por 3 meses; 1 a 3 mg/kg es solo profilaxis. Más dosis no mejora la respuesta y daña la tolerancia.",
-   "Seguimiento: reticulocitos a la semana, hemoglobina a las 4 semanas. Sin respuesta: revisar adherencia, pérdidas y descartar talasemia."],
+   "Tratamiento: 3 a 6 mg/kg/día de hierro elemental en una o dos tomas por 3 meses; 1 a 3 mg/kg es solo profilaxis. Más dosis no mejora la evolución y daña la tolerancia.",
+   "Seguimiento: reticulocitos a la semana, hemoglobina a las 4 semanas. Sin mejoría: revisar adherencia, pérdidas y descartar talasemia."],
   "Baker y Greer, Deficiencia de hierro y anemia ferropénica en lactantes (AAP, Pediatrics 2010); " + NEL + ".",
-  op=("¿Rango terapéutico?", ["Sí: dosis terapéutica del lactante", "No: más de lo necesario, sin mejor respuesta", "No: es la dosis de profilaxis", "No: dosis alta con intolerancia y riesgo de toxicidad", "No: dosis tóxica"],
+  op=("¿Rango terapéutico?", ["Sí: dosis terapéutica del lactante", "No: más de lo necesario, sin mejor efecto", "No: es la dosis de profilaxis", "No: dosis alta con intolerancia y riesgo de toxicidad", "No: dosis tóxica"],
       {}),
   d=dict(rotulo="Dosis de hierro elemental y su efecto", intro="La dosis terapéutica se ubica entre la profiláctica y la que solo aumenta la toxicidad.",
          reglas=[dict(nombre="Hierro elemental (mg/kg/día)", que="Cada tramo tiene un uso distinto.",
                       min=0, max=20, fmt="{}", ticks=[0, 1, 3, 6, 10, 15, 20],
-                      bandas=[(1, 3, "1 a 3: profilaxis", 0), (3, 6, "3 a 6: tratamiento", 3), (6, 20, "Más de 6: más intolerancia, sin mejor respuesta", 1)],
+                      bandas=[(1, 3, "1 a 3", 0), (3, 6, "3 a 6: tratamiento", 3), (6, 20, "Más de 6: más intolerancia, sin mejor efecto", 1)],
                       caso=3, caso_txt="TRATAMIENTO: 3 A 6 MG/KG/DÍA")],
          claves_titulo="Qué recordar del tratamiento",
          claves=[("Dosis terapéutica", ["3 a 6 mg/kg/día, una o dos tomas, durante 3 meses"], True), ("Profilaxis", ["1 a 3 mg/kg/día: no alcanza para tratar"], False),
@@ -193,7 +193,7 @@ S("embudo", "RM-PED-136", "Convulsión generalizada de 10 minutos, única, con f
          nota="Punción lumbar solo si hay signos meníngeos o menor de 12 meses con vacunación incompleta."),
   clasif=dict(titulo="Convulsión febril simple frente a compleja (AAP 2011)", cols=["Tipo", "Características", "Conducta"],
               filas=[["Simple", "Generalizada, menor de 15 minutos, una sola en 24 horas", "Sin imagen ni EEG de rutina; sin profilaxis"],
-                     ["Compleja", "Focal, mayor de 15 minutos o recurrente en 24 horas", "Evaluación más amplia; punción lumbar, imagen o EEG según el caso"]], caso=0, ancho_primera=120))
+                     ["Compleja", "Focal, mayor de 15 minutos o recurrente en 24 horas", "Evaluación más amplia; punción lumbar, imagen o EEG según el caso"]], caso=0, ancho_primera=220))
 
 # 137 · LECTURA · sarampión
 S("lectura", "RM-PED-137", "Fiebre alta, tos, coriza, conjuntivitis y exantema generalizado en un lactante: sarampión",
@@ -246,7 +246,7 @@ S("reloj", "RM-PED-138", "Convulsión generalizada de 35 minutos con nueva crisi
   clasif=dict(titulo="Crisis con fiebre según su duración y patrón", cols=["Tipo", "Duración y patrón", "Qué la distingue"],
               filas=[["Febril simple", "Generalizada, menos de 15 minutos, única en 24 horas", "Benigna; sin estudios de rutina"],
                      ["Febril compleja", "Focal, más de 15 minutos o recurrente en 24 horas", "Evaluación más amplia"],
-                     ["Estatus convulsivo", "Más de 5 minutos, o crisis repetidas sin recuperar la conciencia", "Emergencia; benzodiacepina en 5 a 10 minutos"]], caso=2, ancho_primera=170))
+                     ["Estatus convulsivo", "Más de 5 minutos, o crisis repetidas sin recuperar la conciencia", "Emergencia; benzodiacepina en 5 a 10 minutos"]], caso=2, ancho_primera=240))
 
 # 139 · ÁRBOL · trauma abdominal cerrado
 S("arbol", "RM-PED-139", "Hematoma en el hipocondrio izquierdo tras una caída en bicicleta: lesión de bazo",
@@ -261,10 +261,10 @@ S("arbol", "RM-PED-139", "Hematoma en el hipocondrio izquierdo tras una caída e
   op=("¿Órgano lesionado?", ["Sí: el hematoma localiza el impacto en el bazo", "No: causa defensa peritoneal y signo del cinturón", "No: se lesiona con golpe en el hipocondrio derecho", "No: causa defensa peritoneal y signo del cinturón", "No: da dolor lumbar y hematuria"],
       {}),
   arbol=Q("Niño con trauma abdominal cerrado: ¿dónde está el golpe y qué se ve?", [
-      L("Hematoma en hipocondrio izquierdo, sin peritonismo (este caso)", "BAZO", ["FAST y TC con contraste", "Manejo no operatorio si está estable"], path=True),
+      L("Hematoma en hipocondrio izq.", "BAZO", ["FAST y TC con contraste", "Manejo no operatorio si está estable"], path=True),
       L("Golpe en hipocondrio derecho", "HÍGADO", ["Segundo órgano sólido más afectado", "Mismo estudio y manejo"]),
       L("Dolor lumbar y hematuria", "RIÑÓN", ["Orina con sangre", "TC con contraste"]),
-      L("Signo del cinturón y defensa peritoneal", "INTESTINO O MESENTERIO", ["Peritonismo", "Laparotomía si hay inestabilidad o peritonitis"])], path=True),
+      L("Signo del cinturón y defensa", "INTESTINO O MESENTERIO", ["Peritonismo", "Laparotomía si hay inestabilidad o peritonitis"])], path=True),
   banda=B("Referencia: ecografía FAST con líquido libre", PX("fast_morison.jpg", 300),
           [("Flecha blanca", "Marca el líquido libre entre el hígado y el riñón: el espacio de Morison."), ("El bazo", "Se explora en el espacio esplenorrenal; la FAST negativa no descarta lesión de órgano sólido."), ("Estable", "Tomografía con contraste y manejo no operatorio.")],
           pie="Imagen referencial de una ecografía FAST con líquido en el espacio hepatorrenal", rotulo="Imagen referencial"))
@@ -283,12 +283,12 @@ S("tarjetas", "RM-PED-140", "Los ruidos cardiacos de baja intensidad distinguen 
       {0: "Ruidos cardiacos de baja intensidad", 1: "Irritabilidad", 2: "Llenado capilar lento", 3: "Polipnea", 4: "Mucosa oral seca"}),
   d=dict(rotulo="Signos de los tres grados de deshidratación", ans=2,
          cards=[dict(titulo="Leve (3 a 5 %)", datos=[("Sensorio", "Alerta, sed leve", False), ("Mucosas", "Poco secas", False), ("Conducta", "Plan A en casa", False)], pie="Sin signos de gravedad."),
-                dict(titulo="Moderada (6 a 9 %)", datos=[("Sensorio", "Irritable, sed aumentada", False), ("Piel y ojos", "Pliegue lento, ojos hundidos, mucosa seca", False), ("Perfusión", "Llenado algo prolongado", False)], pie="Plan B: SRO 75 mL/kg en 4 h."),
-                dict(titulo="Severa (10 % o más)", datos=[("Sensorio", "Letargia o coma", False), ("Hemodinamia", "Hipotensión, pulsos débiles, llenado mayor de 3 s", False), ("Solo aquí", "Ruidos cardiacos de baja intensidad", True)], pie="Plan C: bolo IV de 20 mL/kg.")]),
+                dict(titulo="Moderada (6 a 9 %)", datos=[("Sensorio", "Irritable, sed", False), ("Piel", "Pliegue lento", False), ("Perfusión", "Llenado algo lento", False)], pie="Plan B: SRO 75 mL/kg en 4 h."),
+                dict(titulo="Severa (10 % o más)", datos=[("Sensorio", "Letargia o coma", False), ("Pulsos", "Débiles; hipotensión", False), ("Ruidos cardiacos", "Baja intensidad", True)], pie="Plan C: bolo IV de 20 mL/kg.")]),
   clasif=dict(titulo="Grados de deshidratación: signos y conducta", cols=["Grado", "Signos que se suman", "Conducta"],
               filas=[["Leve", "Sed leve, mucosas poco secas", "Plan A"],
                      ["Moderada", "Irritabilidad, ojos hundidos, pliegue lento, taquicardia", "Plan B: SRO 75 mL/kg en 4 horas"],
-                     ["Severa", "Letargia, hipotensión, llenado mayor de 3 s, ruidos cardiacos débiles", "Plan C: bolo IV de 20 mL/kg"]], caso=2, ancho_primera=130))
+                     ["Severa", "Letargia, hipotensión, llenado mayor de 3 s, ruidos cardiacos débiles", "Plan C: bolo IV de 20 mL/kg"]], caso=2, ancho_primera=210))
 
 # 141 · PUNTAJE · enfermedad de Kawasaki
 S("puntaje", "RM-PED-141", "Fiebre de 5 días con conjuntivitis sin exudado, lengua en fresa, labios agrietados y exantema: Kawasaki",
@@ -300,13 +300,13 @@ S("puntaje", "RM-PED-141", "Fiebre de 5 días con conjuntivitis sin exudado, len
    "Diferenciales: escarlatina (exudado, exantema en papel de lija), sarampión (catarro y Koplik), mononucleosis (faringitis exudativa) y parvovirus (sin fiebre alta).",
    "Tratamiento ideal en los primeros 10 días: inmunoglobulina IV 2 g/kg más aspirina; ecocardiograma al diagnóstico, a 1-2 y a 4-6 semanas."],
   "McCrindle y cols., Declaración científica de la AHA sobre Kawasaki (Circulation 2017); " + NEL + ".",
-  op=("¿Diagnóstico?", ["Sí: fiebre prolongada y criterios mucocutáneos", "No: parvovirus no da fiebre alta, solo mejillas abofeteadas", "No: tiene exudado faríngeo y exantema en papel de lija", "No: faringitis exudativa y esplenomegalia", "No: cursa con catarro y manchas de Koplik"],
+  op=("¿Diagnóstico?", ["Sí: fiebre y criterios típicos", "No: parvovirus no da fiebre alta, solo mejillas abofeteadas", "No: tiene exudado faríngeo y exantema en papel de lija", "No: faringitis exudativa y esplenomegalia", "No: cursa con catarro y manchas de Koplik"],
       {}),
   d=dict(rotulo="Criterios clínicos de Kawasaki que cumple el niño", escala="Criterios clínicos (con fiebre de 5 días o más)", total=3, max=5, total_label="Criterios que cumple el caso",
          interpreta="3 de 5 criterios con fiebre de 5 días",
          items=[("Inyección conjuntival bilateral sin exudado", 1, True), ("Cambios en labios y boca (labios fisurados, lengua en fresa)", 1, True), ("Exantema polimorfo", 1, True),
                 ("Cambios en extremidades (edema, eritema, descamación)", 1, False), ("Adenopatía cervical mayor de 1,5 cm", 1, False)],
-         bandas=[("4-5", "Kawasaki clásico", "Inmunoglobulina IV más aspirina.", False), ("2-3", "Posible Kawasaki incompleto (caso: 3)", "PCR, VSG, laboratorio y ecocardiograma; tratar si se confirma.", True),
+         bandas=[("4-5", "Kawasaki clásico", "Inmunoglobulina IV más aspirina.", False), ("2-3", "Incompleto (caso)", "PCR, VSG, laboratorio y ecocardiograma; tratar si se confirma.", True),
                  ("0-1", "Poco probable", "Buscar otra causa de la fiebre.", False)]),
   clasif=dict(titulo="Criterios clínicos de la enfermedad de Kawasaki (AHA 2017)", cols=["Criterio", "Cómo se presenta", "En el caso"],
               filas=[["Fiebre", "5 días o más", "Sí: 5 días, 40 °C"],
@@ -334,7 +334,7 @@ S("balanza", "RM-PED-142", "Crisis focal de 20 minutos que se repitió en 12 hor
          veredicto=("Basta un criterio atípico = compleja", ["Aquí se cumplen los tres: focal, prolongada y recurrente.", "La epilepsia exige crisis sin fiebre."])),
   clasif=dict(titulo="Convulsión febril simple frente a compleja (AAP 2011)", cols=["Tipo", "Características", "Conducta"],
               filas=[["Simple", "Generalizada, menor de 15 minutos, única en 24 horas", "Sin imagen ni EEG de rutina"],
-                     ["Compleja", "Focal, mayor de 15 minutos o recurrente en 24 horas", "Evaluación más amplia: punción lumbar, imagen o EEG según el caso"]], caso=1, ancho_primera=120))
+                     ["Compleja", "Focal, mayor de 15 minutos o recurrente en 24 horas", "Evaluación más amplia: punción lumbar, imagen o EEG según el caso"]], caso=1, ancho_primera=220))
 
 # 143 · CHECKLIST · infección urinaria recurrente
 S("checklist", "RM-PED-143", "En el lactante con infecciones urinarias a repetición hay que sospechar reflujo vesicoureteral",
@@ -359,7 +359,7 @@ S("checklist", "RM-PED-143", "En el lactante con infecciones urinarias a repetic
   clasif=dict(titulo="Estudios en la infección urinaria del lactante", cols=["Estudio", "Qué detecta", "Cuándo"],
               filas=[["Ecografía renal y vesical", "Hidronefrosis, anomalías estructurales", "Tras la primera infección febril"],
                      ["Cistouretrografía miccional", "Reflujo vesicoureteral (grados I a V)", "Ecografía anormal o infecciones febriles recurrentes"],
-                     ["Gammagrafía DMSA", "Cicatrices renales", "Según el cuadro clínico"]], caso=1, ancho_primera=200))
+                     ["Gammagrafía DMSA", "Cicatrices renales", "Según el cuadro clínico"]], caso=1, ancho_primera=270))
 
 # 144 · PUNTAJE · crup
 S("puntaje", "RM-PED-144", "Estridor inspiratorio, disfonía, politirajes y murmullo conservado tras un catarro: laringitis aguda (crup)",
@@ -371,7 +371,7 @@ S("puntaje", "RM-PED-144", "Estridor inspiratorio, disfonía, politirajes y murm
    "Tratamiento: dexametasona 0,15 a 0,6 mg/kg en dosis única, incluso en crup leve, y adrenalina nebulizada si es moderado o severo, con observación de 2 a 4 horas por el rebote.",
    "Epiglotitis (tóxico, babeo, trípode, sin tos) es rara tras la vacuna anti-Hib. No hace falta radiografía de cuello; mantener tranquilo al niño."],
   "Gates y cols., Glucocorticoides para el crup en niños (Cochrane Database Syst Rev 2018); " + NEL + ".",
-  op=("¿Diagnóstico?", ["Sí: estridor inspiratorio, disfonía y murmullo conservado", "No: no produce estridor", "No: aspecto tóxico, babeo y sin tos", "No: sibilancias espiratorias y obstrucción baja", "No: sibilancias espiratorias y obstrucción baja"],
+  op=("¿Diagnóstico?", ["Sí: estridor y disfonía", "No: no produce estridor", "No: aspecto tóxico, babeo y sin tos", "No: sibilancias espiratorias y obstrucción baja", "No: sibilancias espiratorias y obstrucción baja"],
       {}),
   d=dict(rotulo="Puntaje de Westley: qué suma el niño", escala="Puntaje de Westley (máximo 17)", total=4, max=17, total_label="Puntos que suma el caso",
          interpreta="4 puntos: crup moderado (3 a 7)",
@@ -383,7 +383,7 @@ S("puntaje", "RM-PED-144", "Estridor inspiratorio, disfonía, politirajes y murm
               filas=[["Laringitis (crup)", "Tos perruna, disfonía, estridor inspiratorio; murmullo conservado", "Subglótica, alta"],
                      ["Epiglotitis", "Aspecto tóxico, babeo, trípode; sin tos", "Supraglótica, alta"],
                      ["Crisis asmática", "Sibilancias espiratorias", "Baja"],
-                     ["Bronquiolitis", "Sibilancias y estertores en menor de 2 años", "Baja"]], caso=0, ancho_primera=160),
+                     ["Bronquiolitis", "Sibilancias y estertores en menor de 2 años", "Baja"]], caso=0, ancho_primera=240),
   banda=B("Referencia: signo de la torre en la radiografía de cuello",
           PX("crup_campanario.jpg", 200, marcas=[("flecha", 0.44, 0.34, 0.74, 0.1, "tráquea en punta"), ("flecha", 0.46, 0.62, 0.8, 0.5, "tráquea\nnormal")], credito="Frank Gaillard · Wikimedia Commons · CC BY-SA 3.0"),
           [("Signo de la torre", "Estrechez subglótica en punta de lápiz en la radiografía anteroposterior."), ("Por qué no se pide", "El diagnóstico es clínico; no retrasa el tratamiento."), ("Murmullo conservado", "La lesión es alta, no del parénquima.")],
