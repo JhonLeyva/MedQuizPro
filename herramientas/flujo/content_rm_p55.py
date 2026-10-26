@@ -51,7 +51,7 @@ S("arbol_imagen", "RM-CIR-153", "La fisura anal crónica se ubica en más de 90 
       {0: "Línea media posterior", 1: "Lateral derecha", 2: "Línea media anterior", 3: "Línea dentada", 4: "Lateral izquierda"}),
   d=dict(rotulo="Dónde se ubica la fisura y qué se piensa", tag="ESTE CASO",
          pregunta="Fisura anal con dolor al defecar y sangre roja escasa, ¿en qué línea del canal está?",
-         ramas=[("Lateral o múltiple", "Sospechar causa secundaria", ["Enfermedad de Crohn.", "Tuberculosis.", "VIH y sífilis.", "Neoplasia.", "Herpes.", "Se estudian con biopsia, serologías y colonoscopía.", "No se trata como fisura primaria.", "Pista: la ubicación atípica cambia el estudio."]),
+         ramas=[("Lateral o múltiple", "Sospechar causa secundaria", ["Enfermedad de Crohn.", "Tuberculosis.", "VIH y sífilis.", "Neoplasia.", "Herpes.", "Se estudian con biopsia, serologías y colonoscopía.", "No se trata como fisura primaria.", "Pista: la ubicación atípica cambia el estudio.", "Fisura indolora o con induración: pensar en Crohn o neoplasia.", "Fisura con supuración o fístula: infección o enfermedad inflamatoria.", "Fisura múltiple en inmunodeprimido: VIH, sífilis o herpes.", "La ubicación atípica es la bandera roja del cuadro."]),
                 ("Línea media posterior: este caso", "Fisura primaria, más de 90 %", ["Heces duras e hipertonía del esfínter interno."])],
          ilu=ILU(PX("fisura_B.jpg", 200, credito="Ahmadov y col. · Tech Coloproctol 2026 · CC BY 4.0",
                     marcas=[("flecha", 0.53, 0.55, 0.84, 0.80, "Fisura crónica"), ("flecha", 0.54, 0.36, 0.84, 0.14, "Colgajo centinela")])),
@@ -177,10 +177,10 @@ S("alarma", "RM-INF-072", "El síndrome pseudoulceroso (dolor epigástrico sin �
                  ("Diarrea voluminosa y crónica con pérdida de peso", "Viajeros e inmunodeprimidos", None),
                  ("Disentería con tenesmo o fiebre prolongada", "No es giardiasis: shigelosis, amebiasis o tifoidea", False),
                  ("Diarrea acuosa en agua de arroz sin dolor", "No es giardiasis: cólera", False)],
-         accion=("Antígeno en heces o PCR", "Tinidazol en dosis única; alternativas: nitazoxanida o metronidazol."), accion_rotulo="Confirmar y tratar",
+         accion=("Antígeno en heces o PCR", "Más sensibles que el examen seriado de heces; a veces trofozoítos en aspirado duodenal. Tratamiento: tinidazol en dosis única; alternativas: nitazoxanida o metronidazol."), accion_rotulo="Confirmar y tratar",
          veredicto=("Pseudoulceroso = giardiasis", "Amebiasis, tifoidea, shigelosis y cólera no imitan una úlcera duodenal.")),
   banda=B("Referencia: trofozoíto de Giardia", PX("giardia.jpg", 220, credito="CDC · dominio público",
-                                              marcas=[("flecha", 0.52, 0.27, 0.86, 0.10, "Dos núcleos"), ("flecha", 0.36, 0.46, 0.10, 0.12, "Disco de adhesión")]),
+                                              marcas=[("flecha", 0.52, 0.27, 0.78, 0.07, "Dos núcleos"), ("flecha", 0.36, 0.50, 0.22, 0.88, "Disco de adhesión")]),
           [("Forma de pera", "Dos núcleos que dan aspecto de cara y varios flagelos."), ("Disco ventral", "Se adhiere a la mucosa del duodeno y del yeyuno."), ("Contagio", "Quistes en agua y alimentos contaminados.")],
           pie="Imagen referencial de un trofozoíto de Giardia lamblia", rotulo="Imagen referencial"),
   clasif=dict(titulo="Cuadro clínico de las opciones de la pregunta", cols=["Infección", "Cuadro característico"],
@@ -306,7 +306,7 @@ S("transmision", "RM-GAS-044", "Para buscar metástasis en el cáncer gástrico 
   clasif=dict(titulo="Estudios en la estadificación del cáncer gástrico", cols=["Estudio", "Para qué sirve"],
               filas=[["TC helicoidal con contraste", "Metástasis a distancia y compromiso local: elección"], ["Ecoendoscopia", "Profundidad de invasión (T) y ganglios regionales"],
                      ["Laparoscopia con citología", "Enfermedad peritoneal oculta en T3-T4"], ["PET-TC", "No es de rutina; poco sensible en mucinosos y células en anillo de sello"],
-                     ["Ecografía, radiografía contrastada, gammagrafía", "Sin rendimiento para estadificar"]], caso=0, ancho_primera=250))
+                     ["Ecografía, radiografía contrastada, gammagrafía", "Sin rendimiento para estadificar"]], caso=0, ancho_primera=340))
 
 # GIN-153 · REGLA · polimenorrea
 S("regla", "RM-GIN-153", "Un ciclo menstrual de 19 a 20 días es polimenorrea: ciclos más cortos de lo normal",

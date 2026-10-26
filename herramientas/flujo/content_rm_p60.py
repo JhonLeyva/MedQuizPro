@@ -290,8 +290,8 @@ S("embudo", "RM-GIN-236", "Amenorrea primaria con poco desarrollo mamario y úte
          final=("FSH (CON LH)", ["Separa fallo gonadal de causa central", "Define el estudio que sigue"]),
          nota="Con FSH alta se pide cariotipo; con FSH baja o normal, prolactina, TSH y resonancia de silla turca."),
   clasif=dict(titulo="Interpretación de la FSH en la amenorrea primaria", cols=["FSH", "Tipo de hipogonadismo", "Estudio que sigue"],
-              filas=[["Alta (más de 20-40 UI/L)", "Hipergonadotrópico: fallo ovárico primario", "Cariotipo (Turner 45,X, disgenesia gonadal)"],
-                     ["Baja o normal", "Hipogonadotrópico: causa hipotálamo-hipofisaria", "Prolactina, TSH y resonancia de silla turca"]], caso=0, ancho_primera=230))
+              filas=[["Alta", "Hipergonadotrópico (más de 20-40 UI/L): fallo ovárico primario", "Cariotipo (Turner 45,X, disgenesia gonadal)"],
+                     ["Baja o normal", "Hipogonadotrópico: causa hipotálamo-hipofisaria", "Prolactina, TSH y resonancia de silla turca"]], caso=0, ancho_primera=170))
 
 # GIN-237 · RADIAL · cambios fisiológicos del embarazo
 S("radial", "RM-GIN-237", "En el embarazo el volumen eritrocitario aumenta 20 a 30 % y el plasma 40 a 50 %",

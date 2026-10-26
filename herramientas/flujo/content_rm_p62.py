@@ -201,7 +201,7 @@ S("carriles", "RM-HEM-022", "Con VCM y HCM disminuidos la anemia es microcítica
               filas=[["Ferropénica", "Baja", "Bajos", "Reacción al hierro"],
                      ["Talasemia", "Normal", "Normales", "Mentzer menor de 13; glóbulos rojos altos"],
                      ["Enfermedad crónica", "Normal o alta", "Hierro bajo, capacidad de unión baja", "Inflamación"],
-                     ["Sideroblástica", "Alta", "Altos", "Sideroblastos en anillo"]], caso=0, ancho_primera=170))
+                     ["Sideroblástica", "Alta", "Altos", "Sideroblastos en anillo"]], caso=0, ancho_primera=240))
 
 # HEM-023 · DOS PREGUNTAS · hemofilia
 S("dos_preguntas", "RM-HEM-023", "Varón con hemartrosis, hematuria, TTPa prolongado y hermano afectado: hemofilia A",
@@ -293,8 +293,8 @@ S("balanza", "RM-CB-076", "El aumento de la PCO₂ (efecto Bohr) desplaza la cur
   op=("¿Desvío a la derecha?", ["No: la hipotermia aumenta la afinidad", "Sí: efecto Bohr", "No: la mioglobina tiene otra curva, a la izquierda", "No: la alcalosis aumenta la afinidad", "No: menos 2,3-DPG aumenta la afinidad"],
       {0: "Disminución de temperatura", 1: "Aumento de PCO₂", 2: "Síntesis de mioglobina", 3: "Aumento de pH", 4: "Disminución de 2,3-DPG"}),
   d=dict(rotulo="Qué desplaza la curva de la hemoglobina", gana="der", pregunta="¿Qué la desplaza a la derecha?",
-         izq=dict(titulo="Desvío a la izquierda", peso="RETIENE O₂", items=["Hipotermia", "Aumento del pH (alcalosis)", "Disminución de 2,3-DPG", "Hemoglobina fetal, CO y metahemoglobina"]),
-         der=dict(titulo="Desvío a la derecha (este caso)", peso="SUELTA O₂", items=["Aumento de la PCO₂ (efecto Bohr)", "Acidosis, menor pH y fiebre", "Más 2,3-DPG: altura y anemia crónica", "Ejercicio intenso"]),
+         izq=dict(titulo="Desvío a la izquierda", peso="RETIENE", items=["Hipotermia", "Aumento del pH (alcalosis)", "Disminución de 2,3-DPG", "Hemoglobina fetal, CO y metahemoglobina"]),
+         der=dict(titulo="Desvío a la derecha (este caso)", peso="CEDE", items=["Aumento de la PCO₂ (efecto Bohr)", "Acidosis, menor pH y fiebre", "Más 2,3-DPG: altura y anemia crónica", "Ejercicio intenso"]),
          veredicto=("Aumento de PCO₂ = desvío a la derecha", ["Menor afinidad: la hemoglobina cede oxígeno a los tejidos.", "Hipotermia, alcalosis y menos 2,3-DPG la desvían a la izquierda."])),
   clasif=dict(titulo="Factores que desplazan la curva de disociación", cols=["Factor", "Desvío", "Afinidad por el O₂", "P50"],
               filas=[["Aumento de PCO₂", "Derecha", "Menor", "Mayor"],
