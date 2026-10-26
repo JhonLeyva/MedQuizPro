@@ -415,7 +415,14 @@ try {
             'suscripciones_activas' => (object)suscripciones_de((int)$u['id'])],
             'pagos' => array_map(fn($x) => ['examen' => $x['examen'], 'plan' => $x['plan'], 'monto_soles' => (float)$x['monto'], 'fecha' => date('c', (int)$x['creado'])], $pg->fetchAll()),
             'progreso' => $pr ? json_decode($pr['datos'], true) : null,
-            'flashcards' => (function () use ($db, $u) { $q = $db->prepare('SELECT frente, dorso, pregunta, tema, especialidad, fuente, estado, intervalo, repeticiones, lapsos, creado, ultimo, proximo FROM flashcards WHERE usuario = ?'); $q->execute([(int)$u['id']]); return $q->fetchAll(); })()]);
+            'flashcards' => (function () use ($db, $u) { $q = $db->prepare('SELECT frente, dorso, pregunta, tema, especialidad, fuente, estado, intervalo, repeticiones, lapsos, creado, ultimo, proximo FROM flashcards WHERE usuario = ?'); $q->execute([(int)$u['id']]); return $q->fetchAll(); })(),
+            'feynman' => (function () use ($db, $u) {      // Tutor Feynman IA: sesiones y transcripciones del propio estudiante (la tabla existe solo si lo usó)
+                try {
+                    $q = $db->prepare('SELECT id, origen, pregunta_id, tema, especialidad, estado, fase, creado, actualizado FROM feynman_sesiones WHERE usuario = ? ORDER BY creado'); $q->execute([(int)$u['id']]);
+                    $t = $db->prepare('SELECT n, rol, texto, via, fase, creado FROM feynman_turnos WHERE sesion = ? ORDER BY n');
+                    return array_map(function ($s) use ($t) { $t->execute([$s['id']]); return $s + ['turnos' => $t->fetchAll()]; }, $q->fetchAll());
+                } catch (Throwable $e) { return []; }
+            })()]);
     }
 
     if ($a === 'eliminar') {

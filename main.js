@@ -81,6 +81,10 @@
       "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z\"/></svg>",
       "            <span class=\"ia-lbl\">Preguntar a la IA</span>",
       "          </button>",
+      "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn fy-btn-ctx\" type=\"button\" id=\"svFy\" hidden>",
+      "            <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M5 11a7 7 0 0 0 14 0M12 18v3\"/></svg>",
+      "            Aprender con Feynman",
+      "          </button>",
       "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svEsp\" hidden>MINSA Perú vs. guía internacional</button>",
       "          <button class=\"btn btn--ghost btn--sm algo-btn fc-btn\" type=\"button\" id=\"svAna\" hidden>Ver en el atlas de anatomía</button>",
       "        </div>",
@@ -145,7 +149,7 @@
       "    </button>",
       "  </div>",
       "  <div class=\"algo-modal__body\" id=\"algoBody\"></div>",
-      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden><span class=\"ia-lbl\">Preguntar a la IA</span></button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoEsp\" hidden>MINSA Perú vs. guía internacional</button></div>",
+      "  <div class=\"algo-modal__foot\"><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFlash\" hidden>Convertir en flashcard</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoIA\" hidden><span class=\"ia-lbl\">Preguntar a la IA</span></button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoFy\" hidden>Aprender con Feynman</button><button class=\"btn btn--ghost btn--sm fc-btn\" type=\"button\" id=\"algoEsp\" hidden>MINSA Perú vs. guía internacional</button></div>",
       "</dialog>"
     ].join("\n");
     var CHAT = [
@@ -1540,6 +1544,8 @@
       flash: document.getElementById("svFlash"),
       flashModal: document.getElementById("algoFlash"),
       ia: document.getElementById("svIA"),
+      fy: document.getElementById("svFy"),
+      fyModal: document.getElementById("algoFy"),
       esp: document.getElementById("svEsp"),
       ana: document.getElementById("svAna"),
       espModal: document.getElementById("algoEsp"),
@@ -2034,6 +2040,9 @@
       [].forEach.call(vista.querySelectorAll(".ia-lbl"), function (n) { n.textContent = etq; });
       if (el.ia) el.ia.hidden = !vIA;
       if (el.iaModal) el.iaModal.hidden = !vIA;
+      var vFy = !!(estado && estado.respondida && window.MQP && MQP.feynman);      // Tutor Feynman IA: módulo adicional, solo con la pregunta ya corregida
+      if (el.fy) el.fy.hidden = !vFy;
+      if (el.fyModal) el.fyModal.hidden = !vFy;
       /* atlas de anatomía: solo en preguntas de anatomía y cuando el atlas está configurado */
       if (el.ana) el.ana.hidden = !(estado && estado.respondida && window.MQP && MQP.anatomia && MQP.anatomia.disponible() && MQP.anatomia.esAnatomia(estado.pregunta));
     }
@@ -2054,6 +2063,17 @@
       if (el.modal && el.modal.open) cerrarAlgoritmo();
       MQP.iaguia.abrir(estado.pregunta, estado.elegida, origen);
     }
+    function aprenderFeynman(origen, desdeFlujograma) {
+      if (!estado || !estado.respondida || !window.MQP || !MQP.feynman) return;
+      var q = estado.pregunta, algo = (window.MQP_ALGORITMOS || {})[q.id] || null;
+      if (el.modal && el.modal.open) cerrarAlgoritmo();
+      MQP.feynman.abrir({
+        origen: desdeFlujograma ? "flujograma" : "pregunta", pregunta_id: q.id, elegida: estado.elegida || "", tema: q.tema || q.categoria || "",
+        flujograma: algo && algo.imagen ? String(algo.imagen).split("/").pop() : ""
+      }, origen);
+    }
+    if (el.fy) el.fy.addEventListener("click", function () { aprenderFeynman(el.fy, false); });
+    if (el.fyModal) el.fyModal.addEventListener("click", function () { aprenderFeynman(el.algo, true); });
     if (el.ia) el.ia.addEventListener("click", function () { preguntarIA(el.ia); });
     if (el.ana) el.ana.addEventListener("click", function () { if (estado && estado.pregunta && window.MQP && MQP.anatomia) MQP.anatomia.abrir(estado.pregunta, el.ana); });
     if (el.iaModal) el.iaModal.addEventListener("click", function () { preguntarIA(el.algo); });

@@ -1181,6 +1181,7 @@
     falladas: { titulo: "Preguntas falladas", vista: vistaFalladas },
     favoritas: { titulo: "Favoritas", vista: vistaFavoritas },
     guardia: { titulo: "Sobrevive a la Guardia", vista: function () { return '<div id="gdRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("gdRaiz"); if (r && M.guardia && M.guardia.montar) M.guardia.montar(r, arg); } },
+    feynman: { titulo: "Tutor Feynman IA", vista: function () { return '<div id="fyRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fyRaiz"); if (r && M.feynman) M.feynman.montar(r, parametros); } },
     flashcards: { titulo: "Mis Flashcards", vista: function () { return '<div id="fcRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fcRaiz"); if (r && M.flashcards) M.flashcards.montar(r); } },
     perfil: { titulo: "Perfil", vista: vistaPerfil, alMontar: enlazarPerfil }
   };
