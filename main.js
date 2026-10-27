@@ -768,6 +768,7 @@
 
     function pintarPregunta() {
       var q = actual.preguntas[actual.i];
+      if (window.MQP && MQP.estudio) MQP.estudio.cancelar();      // quita la barra de confianza de la pregunta anterior
       var total = actual.preguntas.length;
       el.status.hidden = true;
       el.content.hidden = false;
@@ -852,6 +853,20 @@
       el.feedback.hidden = false;
     }
 
+    function responderEstudio(q, letra, conf) {
+      if (!actual || actual.respuestas[actual.i] || actual.preguntas[actual.i] !== q) return;
+      actual.respuestas[actual.i] = letra;
+      marcar(letra);
+      M.progreso.registrar(q, letra);
+      if (window.MQP && MQP.estudio) MQP.estudio.registrar(q, letra, conf, "estudio");      // registro complementario: no toca el puntaje
+      pintarPuntaje();
+      pintarMapa();
+      if (actual.i >= actual.preguntas.length - 1) el.next.disabled = false;
+      guardarUltima();
+      avisar("respondida");
+      if (!el.next.disabled) el.next.focus();
+    }
+
     /* ----- responder ----- */
     el.options.addEventListener("click", function (ev) {
       var btn = ev.target.closest ? ev.target.closest(".opt") : null;
@@ -860,15 +875,10 @@
       var q = actual.preguntas[actual.i];
       if (actual.modo === "estudio") {
         if (actual.respuestas[actual.i]) return;
-        actual.respuestas[actual.i] = letra;
-        marcar(letra);
-        M.progreso.registrar(q, letra);
-        pintarPuntaje();
-        pintarMapa();
-        if (actual.i >= actual.preguntas.length - 1) el.next.disabled = false;
-        guardarUltima();
-        avisar("respondida");
-        if (!el.next.disabled) el.next.focus();
+        /* confianza (módulo Estudio): si está activa, la alternativa queda seleccionada y se pide la confianza ANTES de revelar la respuesta;
+           si no corresponde (sin cuenta, desactivada, falla algo), se responde exactamente como siempre */
+        if (window.MQP && MQP.estudio && MQP.estudio.pedirConfianza({ pregunta: q, letra: letra, contenedor: el.options, alConfirmar: function (conf) { responderEstudio(q, letra, conf); } })) return;
+        responderEstudio(q, letra, null);
       } else {
         if (actual.fin) return;
         actual.respuestas[actual.i] = letra;

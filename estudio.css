@@ -1,0 +1,28 @@
+/* MedQuizPlus · Estudio con evidencia (confianza y Repaso de hoy). Solo tokens de styles.css (claro/oscuro). */
+.est-conf { margin-top: var(--space-3); padding: var(--space-4); border: 1px solid var(--line-strong); border-left: 4px solid var(--brand); border-radius: var(--radius); background: var(--brand-tint); display: grid; gap: var(--space-3); }
+.est-conf__t { margin: 0; font-weight: 600; color: var(--ink); }
+.est-conf__s { display: inline-block; margin-left: 6px; font-weight: 400; font-size: var(--text-sm); color: var(--ink-2); }
+.est-conf__bt { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-2); }
+.est-conf__bt .btn { justify-content: center; text-align: center; min-height: 48px; }
+.est-conf__ft { margin: 0; display: flex; flex-wrap: wrap; gap: var(--space-4); }
+.est-link { border: 0; background: none; padding: 6px 0; min-height: 32px; color: var(--ink-2); font: inherit; font-size: var(--text-sm); text-decoration: underline; cursor: pointer; }
+.est-link:hover { color: var(--brand-strong); }
+.est-nota { margin: var(--space-2) 0 0; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--mark-soft); color: var(--ink); font-size: var(--text-sm); }
+.est-nota a { color: var(--brand-strong); font-weight: 600; }
+.est-wrap { display: grid; gap: var(--space-4); }
+.est-b { display: inline-block; padding: 2px 10px; border-radius: var(--radius-pill); font-size: .72rem; font-weight: 700; background: var(--surface-3); color: var(--ink); }
+.est-b--alta { background: var(--bad-soft); box-shadow: inset 3px 0 0 var(--bad); }
+.est-b--ref { background: var(--mark-soft); box-shadow: inset 3px 0 0 var(--mark); }
+.est-b--lag { background: var(--brand-soft); box-shadow: inset 3px 0 0 var(--brand); }
+.est-b--dud { background: var(--surface-3); box-shadow: inset 3px 0 0 var(--ink-3); }
+.est-tabla { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+.est-tabla th, .est-tabla td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--line); }
+.est-tabla thead th { color: var(--ink-2); font-weight: 600; }
+.est-check { display: flex; gap: 10px; align-items: center; font-weight: 600; }
+.est-check input { width: 20px; height: 20px; }
+@media (max-width: 560px) { .est-conf__bt { grid-template-columns: 1fr; } }
+
+/* ---- tarjetas Cloze en el panel «Convertir en flashcard» ---- */
+.fc-cz-bar { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-2) 0; }
+.fc-cz-prev { margin: 0 0 var(--space-2); padding: 8px 12px; border-radius: var(--radius-sm); background: var(--surface-2); color: var(--ink); font-size: var(--text-sm); line-height: 1.5; }
+.fc-cz-prev.is-err { background: var(--bad-soft); }

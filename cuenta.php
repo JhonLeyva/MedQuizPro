@@ -416,6 +416,9 @@ try {
             'pagos' => array_map(fn($x) => ['examen' => $x['examen'], 'plan' => $x['plan'], 'monto_soles' => (float)$x['monto'], 'fecha' => date('c', (int)$x['creado'])], $pg->fetchAll()),
             'progreso' => $pr ? json_decode($pr['datos'], true) : null,
             'flashcards' => (function () use ($db, $u) { $q = $db->prepare('SELECT frente, dorso, pregunta, tema, especialidad, fuente, estado, intervalo, repeticiones, lapsos, creado, ultimo, proximo FROM flashcards WHERE usuario = ?'); $q->execute([(int)$u['id']]); return $q->fetchAll(); })(),
+            'intentos' => (function () use ($db, $u) {      // confianza por intento (Repaso de hoy); la tabla existe solo si el estudiante la usó
+                try { $q = $db->prepare('SELECT pregunta, elegida, correcta, confianza, etiqueta, modo, t FROM intentos_respuesta WHERE usuario = ? ORDER BY t'); $q->execute([(int)$u['id']]); return $q->fetchAll(); } catch (Throwable $e) { return []; }
+            })(),
             'feynman' => (function () use ($db, $u) {      // Tutor Feynman IA: sesiones y transcripciones del propio estudiante (la tabla existe solo si lo usó)
                 try {
                     $q = $db->prepare('SELECT id, origen, pregunta_id, tema, especialidad, estado, fase, creado, actualizado FROM feynman_sesiones WHERE usuario = ? ORDER BY creado'); $q->execute([(int)$u['id']]);
@@ -473,6 +476,7 @@ try {
                 if (!is_array($t)) continue;
                 $fr = $corto($t['frente'] ?? '', 600); $do = trim((string)($t['dorso'] ?? '')); $do = mb_substr($do, 0, 1500);
                 if (mb_strlen($fr) < 5 || mb_strlen($do) < 2) { $db->rollBack(); fallo('Cada tarjeta necesita frente y dorso.'); }
+                if (($ce = fc_cloze_error($fr)) !== '') { $db->rollBack(); fallo($ce); }
                 $pre = $corto($t['pregunta'] ?? '', 40);
                 $ins->execute([$uid, $fr, $do, $pre, $corto($t['tema'] ?? '', 120), $corto($t['especialidad'] ?? '', 80), $corto($t['fuente'] ?? '', 400), fc_huella($pre, $fr), $ahora, $ahora]);
                 if ($ins->rowCount()) $creadas[] = (int)$db->lastInsertId(); else $repetidas++;
@@ -518,6 +522,7 @@ try {
             $d = cuerpo(); $id = (int)($d['id'] ?? 0);
             $fr = $corto($d['frente'] ?? '', 600); $do = mb_substr(trim((string)($d['dorso'] ?? '')), 0, 1500);
             if (mb_strlen($fr) < 5 || mb_strlen($do) < 2) fallo('Cada tarjeta necesita frente y dorso.');
+            if (($ce = fc_cloze_error($fr)) !== '') fallo($ce);
             $st = $db->prepare('UPDATE flashcards SET frente = ?, dorso = ? WHERE id = ? AND usuario = ?'); $st->execute([$fr, $do, $id, $uid]);
             if (!$st->rowCount()) fallo('No encontramos esa tarjeta.', 404);
             responder(['ok' => true]);

@@ -33,7 +33,13 @@ try:
     db.execute("insert into feynman_sesiones(id,usuario,origen,tema,datos,creado,actualizado) values('s1',1,'tema','t','{}',1,1)"); db.execute("insert into feynman_turnos(sesion,n,rol,texto,fase,creado) values('s1',1,'tutor','hola',1,1)"); db.commit()
     db.executescript(sql("004_feynman.down")); ok("feynman_sesiones" not in tablas() and "feynman_turnos" not in tablas(), "004.down quita las tablas"); ok(db.execute("select count(*) from usuarios").fetchone()[0] == 1, "004.down no toca a los usuarios")
     db.executescript(sql("004_feynman.up")); db.execute("insert into feynman_sesiones(id,usuario,origen,tema,datos,creado,actualizado) values('s2',1,'tema','t','{}',1,1)"); db.execute("insert into feynman_turnos(sesion,n,rol,texto,fase,creado) values('s2',1,'tutor','hola',1,1)"); db.commit()
+    ok("intentos" in tablas(), "cuenta.php ya tiene su tabla «intentos» (limite de inicios de sesión): la nueva se llama intentos_respuesta")
+    db.executescript(sql("005_intentos_respuesta.up")); db.executescript(sql("005_intentos_respuesta.up")); ok("intentos_respuesta" in tablas() and "intentos" in tablas(), "005.up crea intentos_respuesta (repetible) sin tocar «intentos»")
+    db.execute("insert into intentos_respuesta(usuario,pregunta,elegida,correcta,etiqueta,t) values(1,'END-001','A',0,'refuerzo',1)"); db.commit()
+    db.executescript(sql("005_intentos_respuesta.down")); ok("intentos_respuesta" not in tablas() and "intentos" in tablas(), "005.down quita solo su tabla"); db.executescript(sql("005_intentos_respuesta.up"))
+    db.execute("insert into intentos_respuesta(usuario,pregunta,elegida,correcta,etiqueta,t) values(1,'END-001','A',0,'refuerzo',1)"); db.commit()
     db.execute("insert into flashcards(usuario,frente,dorso,huella,creado,proximo) values(1,'f','d','h2',1,1)"); db.execute("delete from usuarios where id=1"); db.commit()
+    ok(db.execute("select count(*) from intentos_respuesta").fetchone()[0] == 0, "borrar la cuenta borra sus intentos con confianza (ON DELETE CASCADE)")
     ok(db.execute("select count(*) from feynman_sesiones").fetchone()[0] == 0 and db.execute("select count(*) from feynman_turnos").fetchone()[0] == 0, "borrar la cuenta borra sus sesiones y turnos Feynman (ON DELETE CASCADE)")
     ok(db.execute("select count(*) from flashcards").fetchone()[0] == 0, "borrar la cuenta borra sus tarjetas (ON DELETE CASCADE)")
 finally:

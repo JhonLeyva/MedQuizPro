@@ -186,8 +186,9 @@ try:
     s, v = A(f"/feynman.php?a=ver&id={sid}"); ok(s == 200, "A sigue viendo su sesión")
 
     # ---- crear desde un flujograma y desde un tema libre; explicación directa
-    cola.append(INICIO); s, j = A("/feynman.php?a=crear", {"origen": "flujograma", "pregunta_id": "GIN-001", "flujograma": "algo.svg", "tema": "Preeclampsia"}); ok(s == 201 and j["sesion"]["origen"] == "flujograma" and j["sesion"]["flujograma"] == "algo.svg" and j["sesion"]["pregunta_id"] == "GIN-001", "sesión desde un flujograma, vinculada a su pregunta")
+    cola.append(INICIO); s, j = A("/feynman.php?a=crear", {"origen": "flujograma", "pregunta_id": "GIN-001", "elegida": "B", "flujograma": "algo.svg", "tema": "Preeclampsia"}); ok(s == 201 and j["sesion"]["origen"] == "flujograma" and j["sesion"]["flujograma"] == "algo.svg" and j["sesion"]["pregunta_id"] == "GIN-001", "sesión desde un flujograma, vinculada a su pregunta")
     sid2 = j["sesion"]["id"]
+    p2 = json.dumps(pedidos[-1], ensure_ascii=False); ok(j["sesion"]["elegida"] == "B" and "Alternativa que marcó el estudiante: B" in p2 and "\\nA) " in p2 and "\\nE) " in p2, "pregunta con opciones en LISTA (la mayoría del banco): letras A–E correctas y alternativa elegida conservada")
     cola.append(INICIO); s, j = B("/feynman.php?a=crear", {"origen": "tema", "tema": "Cetoacidosis diabética", "especialidad": "Endocrinología"}); ok(s == 201 and j["sesion"]["origen"] == "tema" and j["sesion"]["pregunta_id"] == "", "sesión desde un tema libre")
     sid3 = j["sesion"]["id"]; ok("Origen de la sesión: tema" in json.dumps(pedidos[-1], ensure_ascii=False) and "Pregunta del banco" not in json.dumps(pedidos[-1], ensure_ascii=False), "sin pregunta de origen no se inventa contexto")
     cola.append(T(fase=4, mensaje="Te lo explico: sin insulina… Ahora explícalo tú.", evaluacion={"nivel": None, "justificacion": "", "criterios": []}))

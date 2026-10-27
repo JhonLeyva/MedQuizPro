@@ -81,3 +81,20 @@ function fc_previas(array $t, int $ahora): array {
 function fc_huella(string $pregunta, string $frente): string {
     return hash('sha256', mb_strtolower(trim($pregunta)) . '|' . mb_strtolower(preg_replace('/\s+/u', ' ', trim($frente))));
 }
+
+/**
+ * Tarjeta Cloze: «{{c1::respuesta}}» o «{{c1::respuesta::pista}}» (formato de Anki). Espejo de MQP.cloze.validar() en cloze.js.
+ * Devuelve '' si el frente es válido (o no es Cloze) o el motivo del rechazo.
+ */
+function fc_cloze_error(string $frente): string {
+    if (strpos($frente, '{{') === false && strpos($frente, '}}') === false) return '';
+    $n = preg_match_all('/\{\{c(\d{1,2})::((?:(?!\{\{|\}\}).)+?)(?:::(?:(?!\{\{|\}\}).)*?)?\}\}/su', $frente, $m);
+    if (!$n) return 'La tarjeta Cloze necesita al menos un hueco válido.';
+    if (substr_count($frente, '{{') !== $n || substr_count($frente, '}}') !== $n) return 'La tarjeta Cloze tiene llaves sin cerrar.';
+    $completo = preg_replace('/\{\{c\d{1,2}::((?:(?!\{\{|\}\}).)+?)(?:::(?:(?!\{\{|\}\}).)*?)?\}\}/su', '$1', $frente);
+    $oculto = 0; foreach ($m[2] as $r) { if (trim($r) === '') return 'Hay un hueco vacío.'; $oculto += mb_strlen($r); }
+    $total = mb_strlen((string)$completo);
+    if ($total - $oculto < 15) return 'Queda muy poco texto visible en la tarjeta Cloze.';
+    if ($total > 0 && $oculto / $total > 0.7) return 'La tarjeta Cloze oculta demasiado texto.';
+    return '';
+}

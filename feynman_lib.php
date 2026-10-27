@@ -136,13 +136,17 @@ function fy_pregunta(string $id): ?array
     if (!preg_match('/^[A-Za-z0-9._-]{1,40}$/', $id)) { return null; }
     $archivo = fy_indice_preguntas()[$id] ?? null;
     if ($archivo === null) { return null; }
-    $d = json_decode((string) file_get_contents(__DIR__ . '/bancos/' . $archivo), true);
+    static $archivos = [];      // un banco se lee y se decodifica una sola vez por petición
+    $archivos[$archivo] ??= json_decode((string) file_get_contents(__DIR__ . '/bancos/' . $archivo), true);
+    $d = $archivos[$archivo];
     foreach ((array) ($d['preguntas'] ?? []) as $q) {
         if (is_array($q) && (string) ($q['id'] ?? '') === $id) {
-            $ops = [];
-            foreach ((array) ($q['opciones'] ?? []) as $l => $t) { $ops[(string) $l] = (string) $t; }
+            /* Igual que catalogo.js: 3 763 de las 3 782 preguntas guardan «opciones» como LISTA (letras A–E por posición); el resto como objeto {A: …} */
+            $ops = []; $raw = (array) ($q['opciones'] ?? []);
+            if (array_is_list($raw)) { foreach ($raw as $j => $t) { if ($j < 5) { $ops[substr('ABCDE', $j, 1)] = (string) $t; } } }
+            else { ksort($raw); foreach ($raw as $l => $t) { $ops[strtoupper((string) $l)] = (string) $t; } }
             return ['id' => $id, 'especialidad' => (string) ($q['especialidad'] ?? $d['especialidad'] ?? ''), 'enunciado' => (string) ($q['enunciado'] ?? ''),
-                'opciones' => $ops, 'clave' => (string) ($q['clave_correcta'] ?? ''), 'comentario' => (string) ($q['comentario'] ?? '')];
+                'opciones' => $ops, 'clave' => strtoupper(trim((string) ($q['clave_correcta'] ?? ''))), 'comentario' => (string) ($q['comentario'] ?? '')];
         }
     }
     return null;
