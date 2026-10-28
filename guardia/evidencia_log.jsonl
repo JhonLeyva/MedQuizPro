@@ -40,3 +40,59 @@
 {"fecha": "2026-10-28", "consulta": "snakebite envenoming Nature Reviews Disease Primers", "pmids": ["28905944", "28980622", "39174561", "39174546"]}
 {"fecha": "2026-10-28", "consulta": "Holcomb PROPPR 1:1:1 transfusion ratio severely injured patients JAMA 2015", "pmids": ["25647203"]}
 {"fecha": "2026-10-28", "consulta": "Meintjes prednisone prevent tuberculosis-associated immune reconstitution inflammatory syndrome randomized", "pmids": ["40972103", "30124473", "27571786", "30428290"]}
+{"consulta": "books: potassium", "ids": ["5922452", "5919728", "5919610", "5919044", "5918750", "5909738"], "fecha": "2026-10-28"}
+{"consulta": "books: sodium hyponatremia", "ids": ["5918786", "5871598", "5839496", "5839036", "5777646", "5777644"], "fecha": "2026-10-28"}
+{"consulta": "books: hemoglobin", "ids": ["5924130", "5919928", "5919762", "5919660", "5919280", "5918940"], "fecha": "2026-10-28"}
+{"consulta": "books: hematocrit", "ids": ["5922390", "5872822", "5762376", "5734462", "5734458", "5656328"], "fecha": "2026-10-28"}
+{"consulta": "books: leukocytosis white blood cell", "ids": ["5887844", "5734462", "5734458", "5734456", "5631504", "5631494"], "fecha": "2026-10-28"}
+{"consulta": "books: thrombocytopenia platelet count", "ids": ["5920054", "5919660", "5919652", "5871790", "5871788", "5801956"], "fecha": "2026-10-28"}
+{"consulta": "books: hypoglycemia glucose", "ids": ["5920352", "5920202", "5920012", "5919730", "5919696", "5919404"], "fecha": "2026-10-28"}
+{"consulta": "books: creatinine", "ids": ["5921622", "5920172", "5920162", "5920012", "5920000", "5919862"], "fecha": "2026-10-28"}
+{"consulta": "books: blood urea nitrogen", "ids": ["5918928", "5901168", "5754104", "5696934", "5679296", "5655674"], "fecha": "2026-10-28"}
+{"consulta": "books: hyponatremia", "ids": ["5922454", "5920274", "5919418", "5919268", "5918786", "5900190"], "fecha": "2026-10-28"}
+{"consulta": "books: hypokalemia", "ids": ["5922454", "5919418", "5919372", "5919044", "5858344", "5839498"], "fecha": "2026-10-28"}
+{"consulta": "books: hyperkalemia", "ids": ["5920292", "5920274", "5919894", "5919728", "5919418", "5918932"], "fecha": "2026-10-28"}
+{"consulta": "books: metabolic acidosis", "ids": ["5922640", "5922454", "5920134", "5919970", "5919728", "5919696"], "fecha": "2026-10-28"}
+{"consulta": "books: hypocalcemia", "ids": ["5919862", "5918932", "5918930", "5918928", "5918904", "5901544"], "fecha": "2026-10-28"}
+{"consulta": "books: hypomagnesemia", "ids": ["5918930", "5918928", "5858110", "5631270", "5630942", "5625192"], "fecha": "2026-10-28"}
+{"consulta": "books: aspartate aminotransferase", "ids": ["5801956", "5680038", "5655674", "5655668", "5631022", "5624716"], "fecha": "2026-10-28"}
+{"consulta": "books: alanine aminotransferase", "ids": ["5801956", "5680038", "5655674", "5655668", "5631022", "5624716"], "fecha": "2026-10-28"}
+{"consulta": "books: alkaline phosphatase", "ids": ["5921830", "5839960", "5679296", "5656326", "5556374", "5556180"], "fecha": "2026-10-28"}
+{"consulta": "books: gamma-glutamyl transferase", "ids": ["5485676", "5485674", "5273416", "5202066", "5202060", "5200890"], "fecha": "2026-10-28"}
+{"consulta": "books: bilirubin", "ids": ["5922576", "5920176", "5920162", "5918946", "5900216", "5817340"], "fecha": "2026-10-28"}
+{"consulta": "books: albumin", "ids": ["5920332", "5920190", "5919618", "5919474", "5918932", "5918930"], "fecha": "2026-10-28"}
+{"consulta": "books: lipase", "ids": ["5921936", "5921932", "5919566", "5919074", "5839694", "5817634"], "fecha": "2026-10-28"}
+{"consulta": "books: lactate dehydrogenase", "ids": ["5921830", "5920342", "5919660", "5919146", "5918946", "5918788"], "fecha": "2026-10-28"}
+{"consulta": "books: creatine kinase", "ids": ["5921830", "5919014", "5909820", "5909816", "5718548", "5655596"], "fecha": "2026-10-28"}
+{"consulta": "books: troponin", "ids": ["5920012", "5918790", "5790774", "5718522", "5623832", "5565058"], "fecha": "2026-10-28"}
+{"consulta": "books: natriuretic peptide", "ids": ["5922158", "5919600", "5901572", "5839346", "5623832", "5623556"], "fecha": "2026-10-28"}
+{"consulta": "books: lactic acid", "ids": ["5919174", "5918946", "5909820", "5887876", "5754544", "5754542"], "fecha": "2026-10-28"}
+{"consulta": "books: prothrombin time INR", "ids": ["5920018", "5839494", "5734070", "5656328", "5656326", "5656312"], "fecha": "2026-10-28"}
+{"consulta": "books: partial thromboplastin time", "ids": ["5919560", "5762108", "5734462", "5656332", "5656330", "5656328"], "fecha": "2026-10-28"}
+{"consulta": "books: fibrinogen", "ids": ["5920072", "5920018", "5919652", "5918864", "5918728", "5734462"], "fecha": "2026-10-28"}
+{"consulta": "books: d-dimer", "ids": ["5922284", "5920262", "5920072", "5918790", "5839346", "5790600"], "fecha": "2026-10-28"}
+{"consulta": "books: arterial blood gas", "ids": ["5922640", "5922280", "5921622", "5919954", "5858008", "5839904"], "fecha": "2026-10-28"}
+{"consulta": "books: thyroid function tests", "ids": ["5919646", "5919634", "5919632", "5919630", "5919628", "5919622"], "fecha": "2026-10-28"}
+{"consulta": "books: hemoglobin A1c", "ids": ["5901750", "5900678", "5858468", "5777378", "5777246", "5754582"], "fecha": "2026-10-28"}
+{"consulta": "books: human chorionic gonadotropin", "ids": ["5919930", "5919630", "5919618", "5919612", "5919146", "5901370"], "fecha": "2026-10-28"}
+{"consulta": "books: c-reactive protein", "ids": ["5924100", "5920024", "5919928", "5919278", "5900678", "5872974"], "fecha": "2026-10-28"}
+{"consulta": "books: procalcitonin", "ids": ["5753846", "5556954", "5556930", "5485830", "5485824", "5485820"], "fecha": "2026-10-28"}
+{"consulta": "books: ferritin", "ids": ["5922158", "5817580", "5776364", "5696926", "5656392", "5656052"], "fecha": "2026-10-28"}
+{"consulta": "books: ketone beta-hydroxybutyrate", "ids": ["5839672", "5557146", "5274534", "5234610", "5158270", "5047204"], "fecha": "2026-10-28"}
+{"consulta": "books: CD4 count", "ids": ["5839592", "5801956", "5763156", "5763146", "5679994", "5625176"], "fecha": "2026-10-28"}
+{"consulta": "books: urinalysis", "ids": ["5921932", "5920000", "5919660", "5919484", "5918964", "5918740"], "fecha": "2026-10-28"}
+{"consulta": "books: serum osmolality", "ids": ["5924186", "5919444", "5918786", "5839672", "5680038", "5623154"], "fecha": "2026-10-28"}
+{"consulta": "books: anion gap", "ids": ["5887876", "5839672", "5801666", "5680038", "5631272", "5432078"], "fecha": "2026-10-28"}
+{"consulta": "books cap: hemoglobin", "ids": ["5919928", "5839738", "5777246", "5762326", "5762314", "5734462", "5734458", "5655200", "5655194", "5625176"], "fecha": "2026-10-28"}
+{"consulta": "books cap: hematocrit", "ids": ["5872822", "5734462", "5734458", "5466798", "5378224", "5045116", "5041882", "5011942", "4964540", "4943366"], "fecha": "2026-10-28"}
+{"consulta": "books cap: white blood cell count", "ids": ["5887844", "5762314", "5734462", "5734458", "5734456", "5485824", "5485816", "5485806", "5249512", "5202632"], "fecha": "2026-10-28"}
+{"consulta": "books cap: platelet count", "ids": ["5871790", "5734462", "5734458", "5656312", "5625176", "5623074", "5556428", "5485824", "5485806", "5404320"], "fecha": "2026-10-28"}
+{"consulta": "books cap: sodium", "ids": ["5924190", "5858722", "5762314", "5753910", "5734456", "5696618", "5680216", "5656416", "5623224", "5623074"], "fecha": "2026-10-28"}
+{"consulta": "books cap: potassium", "ids": ["5900362", "5872100", "5871972", "5871870", "5696618", "5680216", "5656162", "5624258", "5565052", "5557326"], "fecha": "2026-10-28"}
+{"consulta": "books cap: creatinine", "ids": ["5918928", "5777712", "5762314", "5696618", "5680216", "5656162", "5565052", "5485824", "5485806", "5378224"], "fecha": "2026-10-28"}
+{"fecha": "2026-10-28", "consulta": "reference intervals Peru hematological altitude", "pmids": ["37038466"]}
+{"fecha": "2026-10-28", "consulta": "valores de referencia hematológicos Perú", "pmids": []}
+{"fecha": "2026-10-28", "consulta": "intervalos de referencia bioquímica población peruana", "pmids": []}
+{"fecha": "2026-10-28", "consulta": "critical values laboratory survey", "pmids": ["34101169", "34086894", "19615355", "24690478", "31990662", "31560450"]}
+{"fecha": "2026-10-28", "consulta": "reference intervals adults harmonized common laboratory tests", "pmids": ["32645006", "37478022", "28647526", "33740794", "29305566", "38630936"]}
+{"fecha": "2026-10-28", "consulta": "pregnancy reference intervals laboratory trimester", "pmids": ["40037777", "35861700", "29975107", "41399656", "28605659", "41468142"]}
