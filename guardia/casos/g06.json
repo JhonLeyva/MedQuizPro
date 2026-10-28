@@ -1,0 +1,483 @@
+{
+ "id": "g06",
+ "titulo": "Dificultad súbita para hablar y debilidad del brazo derecho",
+ "especialidad": "Neurología · Emergencias · Medicina interna",
+ "dificultad": 3,
+ "duracion_min": 14,
+ "resumen": "Mujer de 66 años con trastorno súbito del habla y del movimiento. Decide el orden de las acciones, interpreta una neuroimagen real y elige la reperfusión.",
+ "contexto": "Hospital con tomografía las 24 h, laboratorio de urgencia y acceso a neurología y a unidad de ictus.",
+ "imagenes": [
+  "im-c3d8"
+ ],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines",
+   "organismo": "American Heart Association / American Stroke Association",
+   "autores": "Powers WJ, Rabinstein AA, Ackerson T, Adeoye OM et al.",
+   "anio": 2019,
+   "version": "",
+   "pmid": "31662037",
+   "doi": "10.1161/STR.0000000000000211",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Reemplazada por la guía AHA/ASA 2026; se cita porque de ella provienen las cifras de presión arterial usadas aquí.",
+   "recomendacion": "Antes de la trombólisis la PA debe ser menor de 185/110 mmHg y se mantiene menor de 180/105 durante las 24 h siguientes; en ictus por oclusión de gran vaso seleccionado se recomienda la trombectomía mecánica; no se debe retrasar la trombólisis por esperar la trombectomía."
+  },
+  {
+   "id": "r2",
+   "tipo": "guia",
+   "titulo": "2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke",
+   "organismo": "American Heart Association / American Stroke Association",
+   "autores": "Prabhakaran S, Gonzalez NR, Zachrison KS, Adeoye O et al.",
+   "anio": 2026,
+   "version": "",
+   "pmid": "41582814",
+   "doi": "10.1161/STR.0000000000000513",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Es la guía vigente más reciente identificada; su texto completo no se leyó en esta sesión, solo su registro en PubMed.",
+   "recomendacion": "Actualiza las recomendaciones del manejo inicial del ictus isquémico agudo y sustituye a la edición de 2019. Los umbrales y los fármacos de reperfusión deben confirmarse en el texto vigente."
+  },
+  {
+   "id": "r3",
+   "tipo": "revision",
+   "titulo": "Thrombolysis for acute ischaemic stroke: current status and future perspectives",
+   "organismo": "Lancet Neurology",
+   "autores": "Tsivgoulis G, Katsanos AH, Sandset EC, Turc G et al.",
+   "anio": 2023,
+   "version": "",
+   "pmid": "36907201",
+   "doi": "10.1016/S1474-4422(22)00519-1",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Revisión narrativa de 2023; no es una guía.",
+   "recomendacion": "Resume el estado actual de la trombólisis intravenosa en el ictus isquémico agudo, incluida la discusión de alteplasa y tenecteplasa."
+  }
+ ],
+ "discrepancias": [
+  "Las cifras de presión arterial provienen de la guía AHA/ASA 2019; la guía 2026 la reemplaza y su texto no se leyó en esta sesión, por lo que podrían haber cambiado. No se consultó una norma peruana (MINSA/EsSalud) de ictus. La disponibilidad de trombólisis y de trombectomía varía mucho entre centros del país: si no tienes trombectomía, la derivación temprana es parte de la decisión."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Mujer de 66 años con hipertensión. Hace 90 minutos, mientras desayunaba con su hija, tuvo dificultad súbita para hablar y caída de la taza. Llega con afasia, desviación de la comisura labial a la derecha y debilidad del brazo y la pierna derechos. Sin traumatismo, sin crisis convulsivas. No toma anticoagulantes.",
+   "vitales": {
+    "PA": "168/94 mmHg",
+    "FC": "84 /min irregular",
+    "T": "36,7 °C",
+    "SatO₂": "96 %",
+    "Glucemia": "pendiente"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Activar código ictus: asegurar vía aérea y oxigenación, glucemia capilar, anotar la hora de inicio, escala NIHSS, vía venosa, análisis y TC de cráneo sin contraste urgente, sin retrasarse por otros estudios",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El ictus es una emergencia tiempo-dependiente. La hora de inicio y la glucemia definen la elegibilidad, y la TC sin contraste descarta hemorragia sin demora.",
+     "tema": "Código ictus y ventana terapéutica",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Bajar de inmediato la presión a cifras normales con antihipertensivos endovenosos",
+     "calidad": "incorrecta",
+     "siguiente": "n_det",
+     "explicacion": "Bajar la presión de forma brusca en el ictus isquémico agudo puede extender el daño por hipoperfusión; solo se trata si supera los umbrales de la guía o antes de la trombólisis.",
+     "tema": "Presión arterial en el ictus agudo",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Dar aspirina y observar en piso durante la noche",
+     "calidad": "incorrecta",
+     "siguiente": "n_det",
+     "explicacion": "Sin imagen no se puede excluir hemorragia y se pierde la ventana de reperfusión: el ictus agudo no se maneja con observación.",
+     "tema": "Código ictus y ventana terapéutica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Pedir una resonancia programada para mañana y reevaluar",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Posponer el estudio un día cuando la ventana es de horas hace perder la oportunidad de reperfusión: error crítico.",
+     "tema": "Código ictus y ventana terapéutica",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n2": {
+   "estado": "Glucemia 112 mg/dL. Se realiza una TC de cráneo sin contraste y una angiotomografía. Esta es una imagen real de la literatura publicada, de otra paciente. A la izquierda, TC sin contraste; a la derecha, angiotomografía. Las flechas son las originales de los autores de la publicación.",
+   "vitales": {
+    "PA": "166/92 mmHg",
+    "NIHSS": "14",
+    "Glucemia": "112 mg/dL",
+    "Tiempo desde inicio": "≈ 2 h"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "No hay hemorragia. La TC muestra pérdida de definición de la corteza insular izquierda (signo precoz de infarto) y la angiotomografía una oclusión de la arteria cerebral media izquierda: candidata a reperfusión",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "La TC sin hemorragia permite considerar la trombólisis; la pérdida de la diferenciación de la corteza insular es un signo precoz de isquemia y la angiotomografía confirma una oclusión de gran vaso.",
+     "tema": "Neuroimagen del ictus agudo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Hemorragia intraparenquimatosa: contraindica cualquier reperfusión",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "En la TC sin contraste no hay una zona hiperdensa de sangre; la imagen muestra signos sutiles de isquemia precoz.",
+     "tema": "Neuroimagen del ictus agudo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "TC normal; descartar ictus y buscar otra causa",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "Una TC sin hemorragia no descarta ictus: los signos precoces son sutiles y aquí hay oclusión vascular en la angiotomografía.",
+     "tema": "Neuroimagen del ictus agudo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Tumor cerebral: pedir biopsia",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "No es una masa: el cuadro súbito y el hallazgo vascular indican isquemia aguda.",
+     "tema": "Neuroimagen del ictus agudo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "imagen": {
+    "id": "im-c3d8",
+    "consigna": "Panel A: TC de cráneo sin contraste. Panel B: angiotomografía de vasos intracraneales. Las flechas son de los autores originales."
+   }
+  },
+  "n3": {
+   "estado": "Dentro de la ventana de 4,5 horas. PA 168/94 mmHg (por debajo de 185/110), glucemia normal, sin anticoagulantes ni cirugía o traumatismo reciente, sin hemorragia en la TC. NIHSS 14 con oclusión de la arteria cerebral media izquierda.",
+   "vitales": {
+    "PA": "168/94 mmHg",
+    "Glucemia": "112 mg/dL",
+    "NIHSS": "14",
+    "Tiempo": "dentro de ventana"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Verificar contraindicaciones y administrar de inmediato trombólisis endovenosa (alteplasa o tenecteplasa según protocolo) y gestionar sin demora la trombectomía mecánica por la oclusión de gran vaso",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "En un ictus elegible la trombólisis se da cuanto antes y no se retrasa por esperar la trombectomía; con oclusión de gran vaso se coordina la trombectomía en paralelo.",
+     "tema": "Reperfusión: trombólisis y trombectomía",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Dar solo aspirina y diferir la reperfusión",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Con ventana abierta y oclusión de gran vaso, la aspirina sola ofrece mucho menos beneficio que la reperfusión.",
+     "tema": "Reperfusión: trombólisis y trombectomía",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Esperar la resonancia para confirmar antes de decidir",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "No se debe retrasar la reperfusión por estudios que no son imprescindibles: cada minuto se pierde tejido cerebral.",
+     "tema": "Reperfusión: trombólisis y trombectomía",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Iniciar heparina endovenosa en bolo para prevenir la extensión del trombo",
+     "calidad": "peligrosa",
+     "siguiente": "n4",
+     "explicacion": "La anticoagulación urgente no mejora el pronóstico del ictus agudo y aumenta el riesgo de hemorragia intracraneal.",
+     "tema": "Seguridad: anticoagulación en el ictus agudo",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n4": {
+   "estado": "Se completó la trombólisis y la paciente pasa a la unidad de ictus. La afasia mejora parcialmente. A la hora siguiente su presión sube.",
+   "vitales": {
+    "PA": "186/104 mmHg",
+    "NIHSS": "8",
+    "Neurológico": "mejoría parcial",
+    "Estado": "monitorizada"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Vigilancia neurológica estrecha, mantener la PA por debajo de 180/105 mmHg durante 24 horas, evitar antitrombóticos hasta una TC de control a las 24 horas y evaluar la deglución antes de dar nada por boca",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "Tras la trombólisis se controla la presión, se vigila el deterioro neurológico y se difiere la antitrombosis hasta descartar hemorragia en la imagen de control.",
+     "tema": "Cuidados tras la trombólisis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Iniciar aspirina más heparina de inmediato para evitar la reoclusión",
+     "calidad": "peligrosa",
+     "siguiente": "n_hem",
+     "explicacion": "Dar antitrombóticos en las primeras 24 horas tras la trombólisis aumenta el riesgo de hemorragia sintomática.",
+     "tema": "Seguridad: antitrombóticos tras la trombólisis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Dejar la presión sin control porque la paciente mejora",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Una presión elevada tras la trombólisis incrementa el riesgo de hemorragia; se debe mantener por debajo del umbral indicado.",
+     "tema": "Cuidados tras la trombólisis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n6": {
+   "estado": "A las 24 horas la TC de control no muestra hemorragia. Mejoría neurológica notable. Se decide el plan para los días siguientes.",
+   "vitales": {
+    "PA": "142/84 mmHg",
+    "NIHSS": "5",
+    "TC control": "sin hemorragia",
+    "ECG": "fibrilación auricular"
+   },
+   "gravedad": 0,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Iniciar la prevención secundaria (antitrombótico, estatina y control de la presión), tratar la fibrilación auricular según protocolo, evaluar la deglución, iniciar rehabilitación temprana y educar a la familia",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "El ictus requiere prevención secundaria dirigida a la causa (aquí posible fibrilación auricular) y rehabilitación precoz para mejorar la recuperación.",
+     "tema": "Prevención secundaria y rehabilitación",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Dar el alta al día siguiente sin evaluación de causa ni rehabilitación",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin estudio etiológico ni rehabilitación se pierde la oportunidad de prevenir recurrencias y mejorar la función.",
+     "tema": "Prevención secundaria y rehabilitación",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n_hem": {
+   "estado": "Tres horas después aparece cefalea intensa, vómitos y descenso de la conciencia, con empeoramiento de la hemiparesia.",
+   "vitales": {
+    "PA": "190/108 mmHg",
+    "NIHSS": "18",
+    "Glasgow": "11",
+    "Neurológico": "deterioro"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Detener los antitrombóticos, repetir la TC de cráneo de urgencia, pedir coagulación y avisar a neurocirugía y a cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "f_rescate",
+     "explicacion": "El deterioro neurológico brusco tras la trombólisis exige suspender los antitrombóticos y descartar hemorragia con una TC urgente, con manejo multidisciplinario.",
+     "tema": "Cuidados tras la trombólisis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Continuar el tratamiento y reevaluar al día siguiente",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Ignorar un deterioro agudo tras la trombólisis puede significar una hemorragia en expansión: error crítico.",
+     "tema": "Cuidados tras la trombólisis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n_det": {
+   "estado": "Han pasado más de 5 horas desde el inicio. Persiste la afasia y la hemiplejía derecha, con somnolencia creciente y mayor déficit.",
+   "vitales": {
+    "PA": "172/96 mmHg",
+    "NIHSS": "18",
+    "Tiempo": "> 5 h",
+    "Conciencia": "somnolienta"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Reevaluar de inmediato con TC y angiotomografía y derivar a un centro con trombectomía si hay oclusión de gran vaso y es candidata en ventana ampliada",
+     "calidad": "optima",
+     "siguiente": "f_rescate",
+     "explicacion": "Aunque haya pasado la ventana de trombólisis, la trombectomía puede ser posible en pacientes seleccionados en ventanas más amplias.",
+     "tema": "Reperfusión: trombólisis y trombectomía",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Solo observación y cuidados de soporte",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Descartar toda opción de reperfusión sin evaluar la imagen es perder la última oportunidad terapéutica.",
+     "tema": "Reperfusión: trombólisis y trombectomía",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "Se reperfundió a tiempo, se evitó la hemorragia y se inició la prevención secundaria y rehabilitación."
+   }
+  },
+  "f_rescate": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Recuperación parcial",
+    "mensaje": "Hubo una complicación o un retraso, resuelto con una reevaluación urgente."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Mejoría con riesgo de recurrencia",
+    "mensaje": "La paciente mejoró, pero sin estudio de la causa ni rehabilitación el riesgo persiste."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "La demora o una conducta insegura llevó a un déficit neurológico grave."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Mujer de 66 años hipertensa con afasia y hemiparesia derecha de inicio súbito hace 90 minutos. La TC no mostró hemorragia y sí signos precoces de infarto insular izquierdo; la angiotomografía mostró oclusión de la arteria cerebral media izquierda. Recibió reperfusión y prevención secundaria; se identificó fibrilación auricular.",
+  "razonamiento": [
+   "Reconocer el déficit focal súbito y registrar la hora de inicio: activar el código ictus.",
+   "Glucemia, vía aérea y TC sin contraste inmediata; no bajar la presión de forma agresiva.",
+   "Interpretar la neuroimagen: ausencia de hemorragia, signos precoces de isquemia y oclusión de gran vaso.",
+   "Reperfundir sin demora (trombólisis en ventana) y coordinar la trombectomía en paralelo.",
+   "Controlar la presión y diferir antitrombóticos 24 h; vigilar el deterioro.",
+   "Buscar la causa (fibrilación auricular), iniciar prevención secundaria y rehabilitación."
+  ],
+  "imagen_interpretacion": "Panel A (TC sin contraste, corte axial): pérdida de la diferenciación entre sustancia gris y blanca y leve hipodensidad en la corteza insular izquierda (flecha de los autores): signo precoz de infarto en el territorio de la arteria cerebral media. Panel B (angiotomografía): ausencia de relleno en la porción horizontal de la arteria cerebral media izquierda (flecha de los autores): oclusión de gran vaso. Limitaciones: es una imagen de otra paciente, con flechas añadidas por los autores originales (no por MedQuizPlus) y con 512 px de ancho; los signos precoces son sutiles y varían entre lectores.",
+  "tratamiento": [
+   {
+    "item": "Trombólisis endovenosa",
+    "detalle": "En pacientes elegibles dentro de la ventana, tras descartar hemorragia y verificar contraindicaciones; alteplasa o tenecteplasa según protocolo.",
+    "dosis": "Dosis por peso según el fármaco y el protocolo institucional (no se fija aquí)."
+   },
+   {
+    "item": "Trombectomía mecánica",
+    "detalle": "En oclusión de gran vaso de la circulación anterior en pacientes seleccionados, en paralelo a la trombólisis.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Presión arterial",
+    "detalle": "Menor de 185/110 mmHg antes de la trombólisis y menor de 180/105 mmHg durante las 24 h siguientes (guía AHA/ASA 2019; confirmar en la guía 2026).",
+    "dosis": "Fármaco y dosis según protocolo."
+   },
+   {
+    "item": "Prevención secundaria",
+    "detalle": "Antitrombótico tras la TC de control a las 24 h, estatina, control de la presión, tratamiento de la fibrilación auricular y rehabilitación.",
+    "dosis": "Según protocolo y la causa."
+   }
+  ],
+  "temas_relacionados": [
+   "Ictus isquémico agudo",
+   "Fibrilación auricular y prevención de ictus",
+   "Neuroimagen en emergencias"
+  ],
+  "casos_relacionados": [
+   "g07"
+  ],
+  "mensaje_clave": "En el ictus el tiempo es cerebro: imagen sin demora, reperfusión a tiempo y cuidado con la presión y la anticoagulación temprana."
+ },
+ "areas_banco": [
+  "neurologia",
+  "cardiologia"
+ ]
+}

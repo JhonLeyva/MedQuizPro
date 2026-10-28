@@ -1,0 +1,384 @@
+{
+ "id": "g02",
+ "titulo": "Lactante con llanto intermitente y vómitos",
+ "especialidad": "Pediatría · Emergencias pediátricas · Cirugía pediátrica",
+ "dificultad": 2,
+ "duracion_min": 10,
+ "resumen": "Lactante de 8 meses con crisis de llanto inconsolable que se repiten, vómitos y heces con sangre. Interpreta una imagen real y decide el tratamiento.",
+ "contexto": "Emergencia pediátrica con ecografía, radiología y cirugía pediátrica de guardia.",
+ "imagenes": [
+  "im-4f1c"
+ ],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "revision",
+   "titulo": "Diagnostic Accuracy of Point-of-Care Ultrasound for Intussusception in Children Presenting to the Emergency Department: A Systematic Review and Meta-analysis",
+   "organismo": "Western Journal of Emergency Medicine",
+   "autores": "Lin-Martore M, Kornblith AE, Kohn MA, Gottlieb M",
+   "anio": 2020,
+   "version": "",
+   "pmid": "32726276",
+   "doi": "10.5811/westjem.2020.4.46241",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Revisión sistemática de 6 estudios (1303 niños); no es una guía. Confirma si hay síntesis más recientes.",
+   "recomendacion": "La ecografía a la cabecera realizada por médicos de emergencia tuvo sensibilidad de 94,9 % y especificidad de 99,1 % para la intususcepción; un resultado negativo bien hecho la hace poco probable."
+  },
+  {
+   "id": "r2",
+   "tipo": "revision",
+   "titulo": "Management for intussusception in children",
+   "organismo": "Cochrane Database of Systematic Reviews",
+   "autores": "Gluckman S, Karpelowsky J, Webster AC, McGee RG",
+   "anio": 2017,
+   "version": "",
+   "pmid": "28567798",
+   "doi": "10.1002/14651858.CD006476.pub3",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Revisión Cochrane 2017; puede haber actualizaciones posteriores.",
+   "recomendacion": "Describe el consenso en usar enema de contraste (no cirugía) como manejo inicial en la mayoría de los casos; persiste debate sobre el medio, los coadyuvantes y los protocolos."
+  },
+  {
+   "id": "r3",
+   "tipo": "revision",
+   "titulo": "Air enema reduction versus hydrostatic enema reduction for intussusceptions in children: A systematic review and meta-analysis",
+   "organismo": "PLoS One",
+   "autores": "Liu L, Zhang L, Fang Y, Yang Y et al.",
+   "anio": 2024,
+   "version": "",
+   "pmid": "38498581",
+   "doi": "10.1371/journal.pone.0297985",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Metaanálisis 2024 basado sobre todo en estudios retrospectivos; la certeza es limitada.",
+   "recomendacion": "La reducción hidrostática guiada por ecografía tuvo mayor éxito y menos perforaciones que el enema de aire con fluoroscopia en los estudios analizados; la técnica a usar depende de la experiencia y los recursos locales."
+  }
+ ],
+ "discrepancias": [
+  "No se identificó en esta consulta una norma peruana específica para intususcepción. Las fuentes son revisiones sistemáticas, no guías formales; la elección entre enema de aire e hidrostático depende de lo que ofrezca tu hospital."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Lactante varón de 8 meses, previamente sano. Desde hace 10 horas tiene crisis de llanto intenso cada 15 a 20 minutos con flexión de las piernas, entre las cuales está decaído y somnoliento. Tuvo varios vómitos y una deposición con sangre y moco. Abdomen blando con una masa alargada en el flanco derecho.",
+   "vitales": {
+    "T": "37,6 °C",
+    "FC": "158 /min",
+    "PA": "88/52 mmHg",
+    "FR": "38 /min",
+    "SatO₂": "98 %"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Canalizar vía, hidratar, dejar en ayunas, analgesia y pedir ecografía abdominal inmediata",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El cuadro es una obstrucción intestinal con riesgo de isquemia. Se estabiliza con vía y líquidos y se confirma con ecografía, que es rápida, no irradia y es muy precisa.",
+     "tema": "Abdomen agudo obstructivo en el lactante",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Pedir solo una radiografía simple de abdomen y esperar el resultado",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "La radiografía simple puede ser normal en la intususcepción y no la descarta. Pierde tiempo cuando existe una prueba mucho más útil.",
+     "tema": "Abdomen agudo obstructivo en el lactante",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Realizar un enema de reducción de inmediato sin vía, sin ecografía y sin avisar a cirugía",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Reducir sin acceso venoso, sin confirmar y sin respaldo quirúrgico es peligroso: una perforación en un lactante deshidratado se vuelve catastrófica.",
+     "tema": "Reducción no quirúrgica y respaldo quirúrgico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Dar antiespasmódico oral, suero oral y control ambulatorio mañana",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Un lactante con crisis, vómitos, sangre en heces y masa abdominal no es para observación en casa: la demora favorece la necrosis intestinal.",
+     "tema": "Abdomen agudo obstructivo en el lactante",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    }
+   ]
+  },
+  "n2": {
+   "estado": "Se realiza la ecografía abdominal en el flanco derecho. Esta es una imagen real de la literatura publicada, de otro paciente. Obsérvala con calma, amplía y desplaza si lo necesitas.",
+   "vitales": {
+    "FC": "150 /min",
+    "PA": "90/54 mmHg",
+    "Conciencia": "decaído entre las crisis"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Estructura redondeada con anillos concéntricos alternantes (imagen en diana) por un asa intestinal introducida en otra: compatible con intususcepción",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "La imagen en diana, o de doble anillo, corresponde a un segmento de intestino invaginado dentro de otro en el corte transversal: hallazgo típico de la intususcepción.",
+     "tema": "Interpretación de la ecografía abdominal pediátrica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Asas intestinales llenas de líquido con peristalsis conservada, sin hallazgo patológico",
+     "calidad": "incorrecta",
+     "siguiente": "n_det",
+     "explicacion": "La imagen muestra una estructura con capas concéntricas, no asas normales. Interpretarla como normal retrasa un diagnóstico urgente.",
+     "tema": "Interpretación de la ecografía abdominal pediátrica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Estructura tubular ciega no compresible en fosa ilíaca derecha, compatible con apendicitis",
+     "calidad": "incorrecta",
+     "siguiente": "n_det",
+     "explicacion": "La apendicitis se ve como una estructura tubular ciega no compresible; aquí el patrón es de capas concéntricas en corte transversal.",
+     "tema": "Interpretación de la ecografía abdominal pediátrica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Vesícula biliar con litiasis y sombra acústica",
+     "calidad": "incorrecta",
+     "siguiente": "n_det",
+     "explicacion": "No hay cálculo con sombra acústica: se reconoce una estructura redondeada con anillos concéntricos fuera de la vesícula.",
+     "tema": "Interpretación de la ecografía abdominal pediátrica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "imagen": {
+    "id": "im-4f1c",
+    "consigna": "Ecografía abdominal de un lactante: corte transversal. Describe lo que ves antes de decidir."
+   }
+  },
+  "n3": {
+   "estado": "Se confirma la intususcepción ileocólica. El lactante sigue irritable pero hemodinámicamente estable tras la hidratación, sin signos de peritonitis ni de perforación. El cirujano pediátrico está disponible.",
+   "vitales": {
+    "FC": "132 /min",
+    "PA": "94/56 mmHg",
+    "Abdomen": "blando, sin defensa",
+    "Acceso venoso": "colocado"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Reducción no quirúrgica con enema (de aire o hidrostático guiado por imagen) con vía, analgesia, cirujano disponible y plan de cirugía si falla o hay perforación",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Es el manejo inicial de elección en el lactante estable sin peritonitis; el respaldo quirúrgico es obligatorio por el riesgo de perforación y por la posibilidad de falla.",
+     "tema": "Reducción no quirúrgica y respaldo quirúrgico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Llevar a laparotomía de inmediato en todos los casos",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "La cirugía se reserva para el fracaso de la reducción, la peritonitis, la perforación o la necrosis; en un lactante estable la reducción no quirúrgica suele ser la primera opción.",
+     "tema": "Reducción no quirúrgica y respaldo quirúrgico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Mantener observación con hidratación esperando la reducción espontánea",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Confiar en la reducción espontánea expone a isquemia intestinal; el tratamiento debe ser activo y oportuno.",
+     "tema": "Reducción no quirúrgica y respaldo quirúrgico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    }
+   ]
+  },
+  "n4": {
+   "estado": "La reducción fue exitosa: el lactante ha dejado de llorar, elimina gases y heces sin sangre. Se queda en observación.",
+   "vitales": {
+    "FC": "122 /min",
+    "T": "37,2 °C",
+    "Abdomen": "blando e indoloro"
+   },
+   "gravedad": 0,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Observar con alimentación progresiva y vigilancia de recurrencia; explicar a la familia los signos de alarma y regresar si reaparecen las crisis, vómitos o sangre",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "La recurrencia es posible, sobre todo en las primeras 24 a 48 horas: observar la tolerancia oral y educar a la familia es la conducta adecuada.",
+     "tema": "Alta y recurrencia",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Dar de alta a los 30 minutos sin observación ni indicaciones",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin observación ni instrucciones, una recurrencia puede pasar inadvertida y diagnosticarse tarde.",
+     "tema": "Alta y recurrencia",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    }
+   ]
+  },
+  "n_det": {
+   "estado": "Dos horas después el lactante está pálido, flácido, con abdomen distendido y muy doloroso, vómitos biliosos y heces sanguinolentas.",
+   "vitales": {
+    "FC": "176 /min",
+    "PA": "70/40 mmHg",
+    "FR": "46 /min",
+    "T": "38,4 °C"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Reanimación con líquidos, antibiótico, sonda gástrica y avisar a cirugía pediátrica para intervención sin reducción por enema",
+     "calidad": "optima",
+     "siguiente": "f_rescate",
+     "explicacion": "Con signos de peritonitis o de choque, la reducción con enema está contraindicada: se reanima y se opera.",
+     "tema": "Reducción no quirúrgica y respaldo quirúrgico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Realizar un enema de reducción para evitar la cirugía",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Con signos de peritonitis o perforación el enema está contraindicado: puede provocar peritonitis fecal y empeorar el choque.",
+     "tema": "Seguridad: contraindicaciones del enema de reducción",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    }
+   ]
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "Se diagnosticó con ecografía, se redujo sin cirugía y se vigiló la recurrencia."
+   }
+  },
+  "f_rescate": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Recuperación con cirugía",
+    "mensaje": "Se evitó un desenlace peor, aunque hubo que operar tras la demora."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Resuelto, con riesgo de recaída",
+    "mensaje": "La reducción funcionó, pero el alta sin vigilancia deja riesgo de recurrencia inadvertida."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "Una decisión insegura llevó a perforación y choque."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Lactante de 8 meses con crisis de llanto paroxístico, vómitos, heces con sangre y moco y masa abdominal. La ecografía mostró el patrón de capas concéntricas (imagen en diana) de una intususcepción ileocólica, que se trató con reducción no quirúrgica con respaldo quirúrgico.",
+  "razonamiento": [
+   "Ante un lactante con crisis de dolor, vómitos y sangre en heces pensar en obstrucción por invaginación.",
+   "Estabilizar (vía, líquidos, ayuno, analgesia) antes y mientras se confirma.",
+   "Confirmar con ecografía: alta sensibilidad y especificidad en manos entrenadas.",
+   "Si estable y sin peritonitis: reducción no quirúrgica con cirugía disponible.",
+   "Si hay peritonitis, perforación o choque: reanimación y cirugía; nunca enema.",
+   "Observar tras la reducción por el riesgo de recurrencia y educar a la familia."
+  ],
+  "imagen_interpretacion": "En el corte transversal se ve una estructura redondeada con anillos alternantes ecogénicos e hipoecogénicos (imagen en diana o de doble anillo): es el asa invaginada dentro del asa receptora. En la ecografía de emergencia esta imagen tiene alta especificidad. Limitaciones: es una sola imagen fija de otro paciente (512 px); no se evalúan el flujo ni los ganglios.",
+  "tratamiento": [
+   {
+    "item": "Estabilización",
+    "detalle": "Acceso venoso, reposición de líquidos, ayuno, analgesia y, si hay deterioro o sospecha de perforación, antibiótico y sonda gástrica.",
+    "dosis": "Las dosis pediátricas dependen del peso y del fármaco: se calculan por kilo según el protocolo institucional; no se fija una dosis universal."
+   },
+   {
+    "item": "Reducción",
+    "detalle": "Enema de aire o hidrostático guiado por imagen, solo si el lactante está estable, sin peritonitis y con cirujano pediátrico disponible.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Cirugía",
+    "detalle": "Indicada ante falla de la reducción, peritonitis, perforación, necrosis o choque.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Seguimiento",
+    "detalle": "Observación tras la reducción, reinicio de la alimentación y signos de alarma para la familia.",
+    "dosis": "No aplica."
+   }
+  ],
+  "temas_relacionados": [
+   "Abdomen agudo en el niño",
+   "Ecografía de emergencia pediátrica",
+   "Obstrucción intestinal"
+  ],
+  "casos_relacionados": [
+   "g08"
+  ],
+  "mensaje_clave": "En el lactante con crisis de llanto y sangre en heces, la ecografía confirma rápido; el manejo inicial es la reducción no quirúrgica con respaldo quirúrgico."
+ },
+ "areas_banco": [
+  "pediatria",
+  "cirugia"
+ ]
+}

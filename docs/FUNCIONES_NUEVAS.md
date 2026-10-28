@@ -11,6 +11,8 @@ Estadística descriptiva sobre los resultados reales del alumno (último intento
 - Pruebas: `node tests/rendimiento_test.js`.
 
 ## Sobrevive a la Guardia (`guardia_casos.js`, `guardia.js`, ruta `#/guardia`)
+> **Actualizado:** el módulo pasó a la v2 con 10 casos piloto, imágenes reales, informe A–F y recomendaciones. Los 8 casos de prueba descritos abajo están archivados. Ver `docs/GUARDIA.md`.
+
 Casos clínicos como **grafo de decisiones fijo** (no depende de IA). 8 casos: crisis asmática, apendicitis, diarrea en lactante, preeclampsia, choque séptico, infarto con elevación del ST, hemorragia posparto y neumotórax a tensión.
 - Puntaje 10/5/0 por decisión (óptima/aceptable/incorrecta o peligrosa), % sobre el mejor camino posible, cronómetro opcional **sin penalización**, historial y mejor puntaje, reintento, análisis de errores y temas a reforzar.
 - Desbloqueo progresivo: cada caso de nivel 2 y 3 pide ≥60 % en el anterior.

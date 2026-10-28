@@ -1,0 +1,433 @@
+{
+ "id": "g07",
+ "titulo": "Dolor torácico desgarrante en un hombre hipertenso",
+ "especialidad": "Cardiología · Emergencias · Cirugía cardiovascular",
+ "dificultad": 3,
+ "duracion_min": 14,
+ "resumen": "Varón de 58 años con dolor torácico súbito de máxima intensidad que se irradia a la espalda. Interpreta dos imágenes reales y decide qué tratamiento iniciar y cuál evitar.",
+ "contexto": "Hospital con tomografía las 24 h, ecocardiografía y cirugía cardiovascular (o posibilidad de traslado inmediato).",
+ "imagenes": [
+  "im-71ea",
+  "im-e052"
+ ],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease",
+   "organismo": "American Heart Association / American College of Cardiology",
+   "autores": "Isselbacher EM, Preventza O, Hamilton Black III J et al.",
+   "anio": 2022,
+   "version": "",
+   "pmid": "36334952",
+   "doi": "10.1016/j.jacc.2022.08.004",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Vigente según la última búsqueda; las recomendaciones citadas se verificaron en el texto completo de acceso abierto.",
+   "recomendacion": "En la disección aórtica aguda se reduce la impulsión del pulso: betabloqueante intravenoso primero, objetivo de frecuencia cardíaca de 60 a 80 /min y presión sistólica menor de 120 mmHg o la más baja que mantenga perfusión adecuada; la disección tipo A es una emergencia que requiere cirugía urgente; con tratamiento médico la mortalidad de la tipo A es 2 a 3 veces mayor que con cirugía."
+  },
+  {
+   "id": "r2",
+   "tipo": "guia",
+   "titulo": "2024 ESC Guidelines for the management of peripheral arterial and aortic diseases",
+   "organismo": "European Society of Cardiology",
+   "autores": "Mazzolai L, Teixido-Tura G, Lanzi S, Boc V et al.",
+   "anio": 2024,
+   "version": "",
+   "pmid": "39210722",
+   "doi": "10.1093/eurheartj/ehae179",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía europea más reciente identificada; su texto completo no se leyó en esta sesión.",
+   "recomendacion": "Guía europea paralela sobre enfermedades aórticas; se cita para que el alumno consulte la versión europea. Las cifras de este caso provienen de la guía ACC/AHA 2022.",
+   "complementaria": true
+  }
+ ],
+ "discrepancias": [
+  "Las cifras de frecuencia cardíaca y presión provienen de la guía estadounidense 2022; la guía europea 2024 puede diferir en matices que no se compararon aquí. No se consultó una norma peruana específica. Las imágenes de este caso provienen de una misma publicación de otro paciente."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Varón de 58 años, hipertenso mal controlado. Desde hace 40 minutos tiene un dolor torácico súbito, de máxima intensidad desde el inicio, que se irradia a la espalda interescapular. Está sudoroso y pálido. El ECG muestra taquicardia sinusal sin elevación del ST. Diferencia de presión entre ambos brazos.",
+   "vitales": {
+    "PA": "186/104 mmHg (brazo derecho)",
+    "FC": "112 /min",
+    "FR": "22 /min",
+    "SatO₂": "95 %",
+    "PA brazo izquierdo": "150/84 mmHg"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Monitorizar, dos vías venosas, analgesia endovenosa, control inicial de la frecuencia y de la presión, troponina y estudios de imagen urgentes con la aorta como sospecha principal",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El dolor desgarrante irradiado a la espalda con diferencia de presión entre brazos obliga a descartar patología aórtica antes de cualquier antitrombótico. Se estabiliza y se estudia en paralelo.",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Tratarlo como infarto: aspirina, heparina y llevarlo a coronariografía de inmediato",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Anticoagular o dar trombolíticos ante una disección no descartada puede ser fatal. El ECG sin elevación del ST y el cuadro clínico no justifican esa conducta.",
+     "tema": "Seguridad: antitrombóticos ante sospecha de disección",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Dar analgésico oral y alta con diagnóstico de dolor musculoesquelético",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Dar de alta un dolor torácico de alto riesgo con diferencia de presión entre brazos es un error crítico.",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Pedir dímero D y decidir según el resultado",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "El dímero D no debe retrasar la imagen en un paciente de alta probabilidad: la sospecha clínica ya es alta y la decisión depende de la imagen.",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n2": {
+   "estado": "Se toma una radiografía de tórax portátil. Esta es una imagen real de la literatura publicada, de otro paciente. Obsérvala con atención.",
+   "vitales": {
+    "PA": "180/100 mmHg",
+    "FC": "108 /min",
+    "SatO₂": "95 %"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Silueta mediastínica ensanchada con aumento del tamaño de la silueta cardíaca: sugiere patología aórtica o pericárdica, pero no confirma ni descarta; requiere angiotomografía",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Una radiografía con mediastino ensanchado orienta a patología aórtica pero tiene sensibilidad limitada: no permite diagnóstico ni exclusión, y se necesita imagen definitiva.",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Radiografía normal, lo que descarta cualquier problema aórtico",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La imagen no es normal y, además, una radiografía normal no excluye una disección.",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Neumotórax derecho a tensión",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "No se identifica línea pleural visceral ni ausencia de trama vascular: el hallazgo es el aumento de la silueta mediastínica y cardíaca.",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Edema agudo de pulmón por insuficiencia cardíaca",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "No hay el patrón alveolar bilateral típico; el hallazgo principal es el tamaño de la silueta mediastínica y cardíaca.",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "imagen": {
+    "id": "im-71ea",
+    "consigna": "Radiografía de tórax portátil. Describe la silueta cardiomediastínica y los campos pulmonares."
+   }
+  },
+  "n3": {
+   "estado": "Se hace una angiotomografía de tórax urgente. Esta es una imagen real de la literatura publicada, de otro paciente. Corte coronal; recuerda que puedes volver a la radiografía y comparar.",
+   "vitales": {
+    "PA": "176/98 mmHg",
+    "FC": "104 /min",
+    "Dolor": "persistente",
+    "Estado": "angustiado"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Disección de la aorta ascendente (tipo A) con rotura focal de la falsa luz y derrame pericárdico con hematoma mediastínico: emergencia quirúrgica",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La disección que compromete la aorta ascendente es tipo A y es una emergencia quirúrgica; el hematoma mediastínico y el derrame pericárdico indican complicación inminente.",
+     "tema": "Angiotomografía de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Disección tipo B no complicada: tratamiento médico y observación",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "El compromiso de la aorta ascendente la hace tipo A, que se opera de urgencia; el tratamiento médico es el de la tipo B no complicada.",
+     "tema": "Angiotomografía de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Aneurisma aórtico estable: control ambulatorio en un mes",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Hay un colgajo de disección con compromiso agudo, no un aneurisma estable: es una emergencia.",
+     "tema": "Angiotomografía de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Tromboembolia pulmonar central: iniciar anticoagulación",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "La angiotomografía muestra una lesión de la aorta, no un defecto de llenado pulmonar. Anticoagular una disección aguda puede ser fatal.",
+     "tema": "Seguridad: antitrombóticos ante sospecha de disección",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "imagen": {
+    "id": "im-e052",
+    "consigna": "Angiotomografía de tórax, corte coronal. Describe la aorta y las estructuras vecinas."
+   }
+  },
+  "n4": {
+   "estado": "El diagnóstico es una disección aórtica tipo A. El paciente sigue con dolor y presión alta. Cirugía cardiovascular está avisada y el quirófano se prepara.",
+   "vitales": {
+    "PA": "178/100 mmHg",
+    "FC": "106 /min",
+    "Dolor": "persistente",
+    "Cirugía": "avisada"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Betabloqueante intravenoso primero para una frecuencia de 60 a 80 /min, luego vasodilatador si la presión sistólica sigue por encima de 120 mmHg, analgesia, línea arterial y UCI mientras se prepara la cirugía urgente",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "Se reduce el estrés sobre la pared aórtica: frecuencia 60–80 y presión sistólica < 120 mmHg o la más baja con perfusión adecuada. El tratamiento médico es un puente a la cirugía, no el tratamiento definitivo.",
+     "tema": "Control de la impulsión y reparación urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Tratamiento médico exclusivo, como en la tipo B",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "En la tipo A la mortalidad con tratamiento médico es 2 a 3 veces mayor que con cirugía; la cirugía urgente es el tratamiento.",
+     "tema": "Control de la impulsión y reparación urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Un vasodilatador solo (sin controlar antes la frecuencia) para bajar la presión",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Sin betabloqueo previo, un vasodilatador puede aumentar la frecuencia y la fuerza de contracción y empeorar el estrés aórtico.",
+     "tema": "Control de la impulsión y reparación urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n5": {
+   "estado": "El paciente fue reparado quirúrgicamente de manera exitosa y se recupera sin complicaciones graves. Se planea el seguimiento.",
+   "vitales": {
+    "PA": "128/76 mmHg",
+    "FC": "72 /min",
+    "Estado": "estable"
+   },
+   "gravedad": 0,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Control estricto de la presión, seguimiento con imágenes periódicas de la aorta, rehabilitación y educación sobre signos de alarma",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Tras una disección el seguimiento con imagen y el control estricto de la presión detectan complicaciones tardías y reducen el riesgo de nuevas lesiones.",
+     "tema": "Seguimiento tras la reparación aórtica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Alta sin seguimiento de imagen: ya fue operado",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Persisten el riesgo de lesiones residuales o nuevas en la aorta: se necesita vigilancia con imagen.",
+     "tema": "Seguimiento tras la reparación aórtica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n_det": {
+   "estado": "Minutos después el paciente cae en shock: pálido, sudoroso, hipotenso, con ingurgitación yugular y ruidos cardíacos apagados.",
+   "vitales": {
+    "PA": "70/40 mmHg",
+    "FC": "130 /min",
+    "Yugulares": "ingurgitadas",
+    "Ruidos": "apagados"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Sospechar taponamiento por disección y avisar de inmediato a cirugía cardiovascular para llevarlo a quirófano de urgencia, con reanimación y ecocardiograma a pie de cama",
+     "calidad": "optima",
+     "siguiente": "f_rescate",
+     "explicacion": "El shock con ingurgitación yugular y ruidos apagados sugiere taponamiento por hemopericardio: la solución definitiva es la cirugía urgente de la aorta.",
+     "tema": "Angiotomografía de la aorta",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Continuar el tratamiento de síndrome coronario agudo con más antitrombóticos",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Más antitrombóticos en una disección con hemopericardio agrava el sangrado: error crítico.",
+     "tema": "Seguridad: antitrombóticos ante sospecha de disección",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "Se sospechó la disección, se confirmó con imagen, se controló la impulsión y se operó de urgencia."
+   }
+  },
+  "f_rescate": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Recuperación con retraso",
+    "mensaje": "Se salvó al paciente tras un colapso que un diagnóstico más precoz habría evitado."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Operado, con riesgo no vigilado",
+    "mensaje": "La cirugía fue exitosa, pero sin seguimiento no se detectan complicaciones tardías."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "Una conducta insegura agravó el sangrado y el shock."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Varón de 58 años hipertenso con dolor torácico desgarrante irradiado a la espalda y diferencia de presión entre brazos. La radiografía mostró mediastino y silueta cardíaca ensanchados y la angiotomografía una disección de la aorta ascendente (tipo A) con rotura focal de la falsa luz, derrame pericárdico y hematoma mediastínico. Se controló la impulsión y se llevó a cirugía urgente.",
+  "razonamiento": [
+   "Dolor torácico súbito, de máxima intensidad y diferencia de presión entre brazos: sospechar disección antes de dar antitrombóticos.",
+   "Estabilizar y estudiar en paralelo: monitor, analgesia, control de frecuencia y presión.",
+   "Interpretar la radiografía con humildad: orienta pero no descarta.",
+   "Confirmar con angiotomografía y clasificar: compromiso de la aorta ascendente = tipo A.",
+   "Controlar la impulsión (betabloqueante, luego vasodilatador si hace falta) como puente a la cirugía urgente.",
+   "Seguimiento de por vida con imagen y control de la presión."
+  ],
+  "imagen_interpretacion": "Radiografía portátil: silueta mediastínica ensanchada y aumento de la silueta cardíaca; hallazgo inespecífico que no confirma ni descarta una disección. Angiotomografía (corte coronal): dilatación de la aorta ascendente con colgajo de disección, derrame pericárdico y hematoma mediastínico, con las coronarias naciendo de la luz verdadera según la publicación original. Limitaciones: ambas imágenes provienen de un mismo paciente publicado, tienen 507×512 y 478×512 px, y la angiotomografía tiene texto del equipo parcialmente ilegible; el informe radiológico formal es insustituible.",
+  "tratamiento": [
+   {
+    "item": "Control de la impulsión",
+    "detalle": "Betabloqueante endovenoso primero, objetivo de frecuencia cardíaca 60–80 /min; después vasodilatador si la presión sistólica supera 120 mmHg (objetivo < 120 mmHg o la más baja con perfusión adecuada).",
+    "dosis": "Fármaco, dosis y velocidad de titulación según protocolo institucional y monitorización invasiva; no se fija una dosis."
+   },
+   {
+    "item": "Analgesia",
+    "detalle": "Opioide endovenoso titulado para reducir el dolor y la descarga adrenérgica.",
+    "dosis": "Titulación según protocolo."
+   },
+   {
+    "item": "Definitivo",
+    "detalle": "Reparación quirúrgica urgente de la disección tipo A.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Seguimiento",
+    "detalle": "Control estricto de la presión e imágenes periódicas de la aorta.",
+    "dosis": "No aplica."
+   }
+  ],
+  "temas_relacionados": [
+   "Síndrome aórtico agudo",
+   "Dolor torácico: diagnóstico diferencial",
+   "Hipertensión arterial y daño de órgano"
+  ],
+  "casos_relacionados": [
+   "g06"
+  ],
+  "mensaje_clave": "Ante un dolor torácico desgarrante, descarta la disección antes de dar antitrombóticos; la tipo A se opera de urgencia."
+ },
+ "areas_banco": [
+  "cardiologia"
+ ]
+}
