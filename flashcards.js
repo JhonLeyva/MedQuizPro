@@ -38,6 +38,9 @@
         dorso: "La respuesta correcta es: " + correcta + (por ? "\n\n" + recorte(por, 900) : ""), titulo: "Mi error frecuente"
       }, base));
     }
+    /* Cloze («completar el hueco»): una frase LITERAL del comentario docente que contiene la respuesta correcta, con esa respuesta oculta. Si no la hay, no se propone nada. */
+    var cz = M.cloze ? M.cloze.construir(q) : null;
+    if (cz) lista.push(Object.assign({ frente: cz.frente, dorso: cz.dorso, titulo: "Perla clínica · completar el hueco (Cloze)", cloze: true }, base, { fuente: "Banco MedQuizPlus · " + q.id + " · comentario docente (Cloze)" }));
     return lista;
   }
 
@@ -53,6 +56,10 @@
     var cuerpo;
     if (!tarjetas.length) cuerpo = '<p class="fc-aviso">No pudimos armar tarjetas con esta pregunta (le falta la respuesta o el enunciado).</p>';
     function propHTML(t, i) {
+      if (t.cloze) return '<fieldset class="fc-prop fc-prop--cloze"><legend><label><input type="checkbox" checked data-i="' + i + '"> ' + esc(t.titulo) + '</label></legend>' +
+        '<label class="fc-lbl" for="fcF' + i + '">Texto con huecos <span class="muted small">(un hueco se escribe {{c1::así}})</span></label><textarea id="fcF' + i + '" rows="4" maxlength="600">' + esc(t.frente) + '</textarea>' +
+        '<div class="fc-cz-bar"><button type="button" class="btn btn--ghost btn--sm" data-cz="ocultar" data-i="' + i + '">Ocultar selección</button><button type="button" class="btn btn--ghost btn--sm" data-cz="quitar" data-i="' + i + '">Quitar todos los huecos</button></div>' +
+        '<p class="fc-cz-prev" id="fcP' + i + '" aria-live="polite"></p><p class="fc-fuente">Fuente: ' + esc(t.fuente) + ' · El dorso se arma solo con las respuestas.</p></fieldset>';
       return '<fieldset class="fc-prop"><legend><label><input type="checkbox" checked data-i="' + i + '"> ' + esc(t.titulo) + '</label></legend>' +
         '<label class="fc-lbl" for="fcF' + i + '">Frente</label><textarea id="fcF' + i + '" rows="4" maxlength="600">' + esc(t.frente) + '</textarea>' +
         '<label class="fc-lbl" for="fcD' + i + '">Dorso</label><textarea id="fcD' + i + '" rows="5" maxlength="1500">' + esc(t.dorso) + '</textarea>' +
@@ -68,14 +75,38 @@
     panel.addEventListener("click", function (ev) { if (ev.target === panel || (ev.target.closest && ev.target.closest("[data-x]"))) cerrarPanel(); });
     panel.addEventListener("cancel", function (ev) { ev.preventDefault(); cerrarPanel(); });
     var msg = panel.querySelector("#fcMsg"), btn = panel.querySelector("#fcGuardar");
+    function vistaCloze(i) {
+      var ta = panel.querySelector("#fcF" + i), p = panel.querySelector("#fcP" + i); if (!ta || !p) return;
+      var v = M.cloze.validar(ta.value);
+      p.className = "fc-cz-prev" + (v.ok ? "" : " is-err"); p.textContent = v.ok ? "Así la verás: " + M.cloze.mascara(ta.value) : v.error;
+    }
+    tarjetas.forEach(function (t, i) { if (t.cloze) vistaCloze(i); });
+    panel.addEventListener("input", function (ev) { var m = ev.target.id && /^fcF(\d+)$/.exec(ev.target.id); if (m && tarjetas[+m[1]] && tarjetas[+m[1]].cloze) vistaCloze(+m[1]); });
+    panel.addEventListener("click", function (ev) {
+      var b = ev.target.closest && ev.target.closest("[data-cz]"); if (!b) return;
+      var i = b.getAttribute("data-i"), ta = panel.querySelector("#fcF" + i); msg.textContent = ""; msg.className = "fc-msg";
+      if (b.getAttribute("data-cz") === "quitar") ta.value = M.cloze.completo(ta.value);
+      else {
+        var r = M.cloze.ocultar(ta.value, ta.selectionStart, ta.selectionEnd);
+        if (r === null) { msg.textContent = "Primero selecciona en el texto la palabra o frase que quieres ocultar (sin tocar otro hueco)."; msg.className = "fc-msg is-err"; ta.focus(); return; }
+        ta.value = r;
+      }
+      vistaCloze(+i); ta.focus();
+    });
     if (btn) panel.querySelector("form").addEventListener("submit", function (ev) {
       ev.preventDefault();
-      var env = [];
+      var env = [], errCloze = "";
       [].forEach.call(panel.querySelectorAll("input[data-i]"), function (c) {
         if (!c.checked) return;
         var i = +c.getAttribute("data-i"), t = tarjetas[i];
+        if (t.cloze) {
+          var fr = panel.querySelector("#fcF" + i).value, v = M.cloze.validar(fr);
+          if (!v.ok) { errCloze = errCloze || v.error; return; }
+          env.push({ frente: fr, dorso: M.cloze.dorso(fr), pregunta: t.pregunta, tema: t.tema, especialidad: t.especialidad, fuente: t.fuente }); return;
+        }
         env.push({ frente: panel.querySelector("#fcF" + i).value, dorso: panel.querySelector("#fcD" + i).value, pregunta: t.pregunta, tema: t.tema, especialidad: t.especialidad, fuente: t.fuente });
       });
+      if (errCloze) { msg.textContent = "Tarjeta Cloze: " + errCloze + " Corrígela o desmárcala."; msg.className = "fc-msg is-err"; return; }
       if (!env.length) { msg.textContent = "Marca al menos una tarjeta o pulsa Descartar."; msg.className = "fc-msg is-err"; return; }
       btn.disabled = true; btn.textContent = "Guardando…"; msg.textContent = ""; msg.className = "fc-msg";
       api("fc_crear", { tarjetas: env }).then(function (r) {
@@ -144,7 +175,7 @@
       '<div class="fc-acciones"><button class="btn btn--primary btn--lg" type="button" data-estudiar' + (ped ? "" : " disabled") + '>' + (ped ? "Repasar " + ped + (ped === 1 ? " tarjeta" : " tarjetas") : "No hay tarjetas pendientes") + '</button>' +
       '<a class="btn btn--ghost" href="' + BASE + 'cuenta.php?a=fc_exportar" download>Exportar CSV (Anki)</a></div>' +
       '<section class="card card--spaced"><h2 class="card__h">Todas tus tarjetas</h2><ul class="fc-lista">' + T.map(function (t) {
-        return '<li class="fc-item" data-id="' + t.id + '"><div class="fc-item__txt"><p class="fc-item__f">' + esc(recorte(t.frente, 150)) + '</p><p class="fc-item__m"><span class="badge">' + esc(ETQ[t.estado] || t.estado) + '</span> ' + esc(t.especialidad) + (t.tema ? " · " + esc(t.tema) : "") + ' · ' + esc(cuando(t.proximo, ahora)) + '</p></div>' +
+        return '<li class="fc-item" data-id="' + t.id + '"><div class="fc-item__txt"><p class="fc-item__f">' + esc(recorte(M.cloze ? M.cloze.mascara(t.frente) : t.frente, 150)) + (M.cloze && M.cloze.esCloze(t.frente) ? ' <span class="badge">Completar el hueco</span>' : '') + '</p><p class="fc-item__m"><span class="badge">' + esc(ETQ[t.estado] || t.estado) + '</span> ' + esc(t.especialidad) + (t.tema ? " · " + esc(t.tema) : "") + ' · ' + esc(cuando(t.proximo, ahora)) + '</p></div>' +
           '<div class="fc-item__btn"><button class="btn btn--ghost btn--sm" type="button" data-editar>Editar</button><button class="btn btn--ghost btn--sm btn--danger" type="button" data-borrar>Borrar</button></div></li>';
       }).join("") + '</ul></section><p class="muted small fc-nota">Calendario: variante de SM-2 con pasos de aprendizaje (no es FSRS). Crear una tarjeta no la marca como conocida: solo cuenta cuando la repasas.</p>';
     raiz.innerHTML = '<div class="fc-wrap">' + h + '</div>';
@@ -189,7 +220,7 @@
         var t = cola[i]; revelada = false;
         raiz.innerHTML = '<div class="fc-estudio"><div class="fc-prog" aria-hidden="true"><i style="width:' + Math.round(i / cola.length * 100) + '%"></i></div>' +
           '<p class="fc-cont" aria-live="polite">Tarjeta ' + (i + 1) + ' de ' + cola.length + ' · ' + esc(t.especialidad) + (t.tema ? " · " + esc(t.tema) : "") + '</p>' +
-          '<article class="fc-carta" aria-label="Tarjeta"><p class="fc-cara">Pregunta</p><p class="fc-texto">' + esc(t.frente) + '</p>' +
+          '<article class="fc-carta" aria-label="Tarjeta"><p class="fc-cara">' + (M.cloze && M.cloze.esCloze(t.frente) ? "Completa el hueco" : "Pregunta") + '</p><p class="fc-texto">' + esc(M.cloze ? M.cloze.mascara(t.frente) : t.frente) + '</p>' +
           '<div class="fc-dorso" id="fcDorso" hidden><p class="fc-cara">Respuesta</p><p class="fc-texto">' + esc(t.dorso) + '</p><p class="fc-src">Fuente: ' + esc(t.fuente || "tu tarjeta") + '</p></div></article>' +
           '<div class="fc-ctl"><button class="btn btn--primary btn--lg" type="button" id="fcMostrar">Mostrar respuesta <kbd>Espacio</kbd></button>' +
           '<div class="fc-notas" id="fcNotas" hidden>' + ["otra_vez", "dificil", "bien", "facil"].map(function (c, k) { return '<button class="fc-nota-b fc-nota-b--' + c + '" type="button" data-c="' + c + '"><b>' + NOM[c] + '</b><small>' + esc(t.previas[c]) + '</small><kbd>' + (k + 1) + '</kbd></button>'; }).join("") + '</div></div>' +

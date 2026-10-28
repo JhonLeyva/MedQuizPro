@@ -65,7 +65,7 @@ const SIMULACION = () => {
   const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM || undefined });
   try {
     const ctx = await navegador.newContext({ viewport: { width: 1280, height: 900 } });
-    await ctx.addInitScript(SIMULACION); await ctx.addInitScript(() => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} });
+    await ctx.addInitScript(SIMULACION); await ctx.addInitScript(() => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); localStorage.setItem("mqp_estudio_confianza", "no"); } catch (e) {} });
     const reg = await ctx.request.post(base + "cuenta.php?a=registro", { data: { nombre: "Tester", correo: "t@prueba.pe", clave: "clave12345", acepto: true }, headers: { "X-MQP": "1", Origin: base.slice(0, -1) } }); ok(reg.status() === 201, "registro");
     const dueno = await ctx.request.post(base + "cuenta.php?a=dueno_activar", { data: { token: "token-de-prueba-largo-123" }, headers: { "X-MQP": "1", Origin: base.slice(0, -1) } }); ok(dueno.status() === 200, "plan de dueño");
     const p = await ctx.newPage(); const errores = []; p.on("pageerror", e => errores.push(String(e))); p.on("console", m => { if (m.type() === "error" && !/Failed to load resource/.test(m.text())) errores.push(m.text()); });

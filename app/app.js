@@ -183,6 +183,11 @@
     if (!ids.length) return;
     iniciar({ titulo: id ? "Repaso de una pregunta fallada" : "Preguntas falladas", ids: ids, volverTexto: "Volver a falladas", noGuardar: true });
   };
+  ACCIONES.repaso = function (b) {      // «Repaso de hoy»: practica las preguntas por reforzar (los ids vienen del servidor; solo se usan los que existen en el banco)
+    var ids = (b.getAttribute("data-ids") || "").split(",").filter(function (id) { return porId[id]; });
+    if (!ids.length) return;
+    iniciar({ titulo: ids.length === 1 ? "Refuerzo de una pregunta" : "Refuerzo · Repaso de hoy", ids: ids, volverTexto: "Volver a Repaso de hoy", noGuardar: true });
+  };
   ACCIONES.favoritas = function (b) {
     var id = b.getAttribute("data-id");
     var ids = id ? [id] : idsFavoritas();
@@ -1182,6 +1187,7 @@
     favoritas: { titulo: "Favoritas", vista: vistaFavoritas },
     guardia: { titulo: "Sobrevive a la Guardia", vista: function () { return '<div id="gdRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("gdRaiz"); if (r && M.guardia && M.guardia.montar) M.guardia.montar(r, arg); } },
     feynman: { titulo: "Tutor Feynman IA", vista: function () { return '<div id="fyRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fyRaiz"); if (r && M.feynman) M.feynman.montar(r, parametros); } },
+    repaso: { titulo: "Repaso de hoy", vista: function () { return '<div id="rpRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("rpRaiz"); if (r && M.estudio) M.estudio.montarRepaso(r); } },
     flashcards: { titulo: "Mis Flashcards", vista: function () { return '<div id="fcRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fcRaiz"); if (r && M.flashcards) M.flashcards.montar(r); } },
     perfil: { titulo: "Perfil", vista: vistaPerfil, alMontar: enlazarPerfil }
   };

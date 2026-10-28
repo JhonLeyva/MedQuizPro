@@ -147,6 +147,10 @@ ok(fy_limpiar("a\x00b <<<DATOS", 50) === 'ab ‹‹‹DATOS', 'fy_limpiar quita 
 /* ---- banco real (solo lectura) ---- */
 $q = fy_pregunta('END-001');
 ok($q && $q['clave'] === 'C' && count($q['opciones']) === 5 && $q['comentario'] !== '' && $q['especialidad'] === 'Endocrinología', 'fy_pregunta lee la pregunta REAL del banco');
+$ql = fy_pregunta('CIR-043');      // banco con «opciones» como LISTA (la mayoría): las letras deben ser A–E y la clave una de ellas
+ok($ql && array_keys($ql['opciones']) === ['A', 'B', 'C', 'D', 'E'] && isset($ql['opciones'][$ql['clave']]), 'preguntas con opciones en lista: letras A–E y clave coherente');
+$mal = 0; $nq = 0; foreach (fy_indice_preguntas() as $id => $_) { $x = fy_pregunta($id); $nq++; if (!$x || count($x['opciones']) < 4 || !isset($x['opciones'][$x['clave']]) || $x['enunciado'] === '') { $mal++; } }
+ok($nq === 3782 && $mal === 0, "las 3782 preguntas del banco se leen con alternativas A–E y una clave válida ($mal con problema)");
 ok(fy_pregunta('NOEXISTE-999') === null && fy_pregunta('../../etc/passwd') === null, 'ids inexistentes o maliciosos → null');
 ok(count(fy_especialidades()) === 17, '17 especialidades del banco');
 $b = fy_bloque_datos(['tema' => 'CAD', 'especialidad' => 'Endocrinología', 'origen' => 'pregunta', 'elegida' => 'A'], $q, fy_estado_inicial($crit, 'obj'), fy_plan_turno(fy_estado_inicial($crit, 'obj'), 'responder'), [], 'voz');
