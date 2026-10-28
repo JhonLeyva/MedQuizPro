@@ -24,9 +24,18 @@ def construir():
     cuerpo = "(function () {\n  \"use strict\";\n  var CASOS = " + json.dumps(casos, ensure_ascii=False, separators=(",", ":")) + ";\n  var IMAGENES = " + json.dumps(imgs, ensure_ascii=False, separators=(",", ":")) + ";\n" \
              "  if (typeof module !== \"undefined\" && module.exports) { module.exports = CASOS; module.exports.IMAGENES = IMAGENES; }\n  if (typeof window !== \"undefined\") { window.MQP_GUARDIA = CASOS; window.MQP_GUARDIA_IMG = IMAGENES; }\n})();\n"
     return cab + cuerpo, ("/* MedQuizPlus · catálogo de laboratorio de «Sobrevive a la Guardia». ARCHIVO GENERADO desde guardia/laboratorio.json (python3 tools/guardia_empaquetar.py).\n   Intervalos EDUCATIVOS: no son de un laboratorio peruano; prevalece el del laboratorio que procesa la muestra. */\n(function () { \"use strict\"; var LAB = " + json.dumps(lab, ensure_ascii=False, separators=(",", ":")) + ";\n  if (typeof module !== \"undefined\" && module.exports) module.exports = LAB; if (typeof window !== \"undefined\") window.MQP_GUARDIA_LAB = LAB; })();\n")
+def construir_consulta():
+    casos = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(os.path.join(RAIZ, "consulta", "casos", "*.json")))]
+    cab = ("/* MedQuizPlus · «Consulta Clínica Experta» · casos piloto. ARCHIVO GENERADO: no se edita a mano.\n"
+           "   Fuente: consulta/casos/*.json  ·  Regenerar: python3 tools/guardia_empaquetar.py\n"
+           "   Los resultados de cada prueba están predefinidos en el caso: no hay IA ni resultados aleatorios.\n"
+           "   Simulación educativa: no sirve para dirigir la atención de pacientes reales. */\n")
+    return cab + "(function () { \"use strict\"; var CASOS = " + json.dumps(casos, ensure_ascii=False, separators=(",", ":")) + ";\n  if (typeof module !== \"undefined\" && module.exports) module.exports = CASOS; if (typeof window !== \"undefined\") window.MQP_CONSULTA = CASOS; })();\n"
 if __name__ == "__main__":
+    ruta3 = os.path.join(RAIZ, "consulta_casos.js"); nuevo3 = construir_consulta()
     ruta = os.path.join(RAIZ, "guardia_casos.js"); ruta2 = os.path.join(RAIZ, "guardia_lab.js"); nuevo, nuevo2 = construir()
     if "--check" in sys.argv:
         ok = os.path.exists(ruta) and open(ruta, encoding="utf-8").read() == nuevo and os.path.exists(ruta2) and open(ruta2, encoding="utf-8").read() == nuevo2
-        print("guardia_casos.js y guardia_lab.js al día" if ok else "guardia_casos.js/guardia_lab.js DESACTUALIZADO: ejecuta python3 tools/guardia_empaquetar.py"); sys.exit(0 if ok else 1)
-    open(ruta, "w", encoding="utf-8").write(nuevo); open(ruta2, "w", encoding="utf-8").write(nuevo2); print("escrito", ruta, len(nuevo), "bytes;", ruta2, len(nuevo2), "bytes")
+        ok = ok and os.path.exists(ruta3) and open(ruta3, encoding="utf-8").read() == nuevo3
+        print("guardia_casos.js, guardia_lab.js y consulta_casos.js al día" if ok else "guardia_casos.js/guardia_lab.js/consulta_casos.js DESACTUALIZADO: ejecuta python3 tools/guardia_empaquetar.py"); sys.exit(0 if ok else 1)
+    open(ruta, "w", encoding="utf-8").write(nuevo); open(ruta2, "w", encoding="utf-8").write(nuevo2); open(ruta3, "w", encoding="utf-8").write(nuevo3); print("escrito", ruta, len(nuevo), "bytes;", ruta2, len(nuevo2), "bytes")

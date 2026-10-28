@@ -64,12 +64,12 @@ def _estilo(t):
     """Puntuación uniforme en TODAS las alternativas: coma antes de la subordinada, para que el estilo no delate la correcta."""
     return _SUB.sub(lambda m: ", " + m.group(1), t)
 
-def _asignar(caso_id, nid, n):
+def _asignar(caso_id, nid, n, omision=True):
     decs = n.pop("_decs"); tema = n.pop("_tema"); comp = n.pop("_comp"); refs = n.pop("_refs")
     donde = f"{caso_id}/{nid}"
     assert len(decs) == 5, f"{donde}: deben ser 5 alternativas y hay {len(decs)}"
     assert sum(d["calidad"] == "optima" for d in decs) == 1, f"{donde}: una y solo una óptima"
-    assert sum(bool(d.get("omision")) for d in decs) == 1, f"{donde}: una y solo una alternativa de omisión (qué pasa si se agota el tiempo)"
+    if omision: assert sum(bool(d.get("omision")) for d in decs) == 1, f"{donde}: una y solo una alternativa de omisión (qué pasa si se agota el tiempo)"
     assert not [d for d in decs if d.get("omision") and d["calidad"] == "optima"], f"{donde}: la omisión no puede ser la óptima"
     objetivo = _letra(f"{caso_id}/{nid}")
     correcta = next(d for d in decs if d["calidad"] == "optima"); otras = [d for d in decs if d is not correcta]
@@ -105,5 +105,23 @@ def guardar(c):
     json.dump(c, open(ruta, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     cl = "".join(n["clave"] for n in c["nodos"].values() if "clave" in n)
     print(c["id"], len([n for n in c["nodos"].values() if "final" not in n]), "nodos de decisión · claves:", cl)
+    for a in AVISOS: print("  AVISO", a)
+    AVISOS.clear()
+
+
+# ---------- Consulta Clínica Experta ----------
+def Q(enunciado, decs, tema="", comp="dx", refs=(), peso=2):
+    """Pregunta de opción única de la consulta (cinco alternativas A–E, una óptima). Las letras se asignan igual que en la guardia."""
+    return {"enunciado": enunciado, "peso": peso, "_decs": decs, "_tema": tema, "_comp": comp, "_refs": list(refs)}
+
+def guardar_consulta(c):
+    for k, q in c["preguntas"].items():
+        nodo = {"_decs": q.pop("_decs"), "_tema": q.pop("_tema"), "_comp": q.pop("_comp"), "_refs": q.pop("_refs")}
+        _asignar(c["id"], k, nodo, omision=False)
+        q["decisiones"] = nodo["decisiones"]; q["clave"] = nodo["clave"]
+        for d in q["decisiones"]: d.pop("siguiente", None)
+    ruta = os.path.join(RAIZ, "consulta", "casos", c["id"] + ".json"); os.makedirs(os.path.dirname(ruta), exist_ok=True)
+    json.dump(c, open(ruta, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(c["id"], "preguntas:", {k: q["clave"] for k, q in c["preguntas"].items()}, "· pruebas:", len(c["pruebas"]))
     for a in AVISOS: print("  AVISO", a)
     AVISOS.clear()

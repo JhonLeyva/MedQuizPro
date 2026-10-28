@@ -1,0 +1,829 @@
+{
+ "id": "c03",
+ "modalidad": "consulta",
+ "titulo": "Dolor pélvico y flujo vaginal en una mujer de 24 años",
+ "especialidad": "Ginecología · Infectología",
+ "dificultad": 2,
+ "duracion_min": 18,
+ "areas_banco": [
+  "ginecologia",
+  "infectologia"
+ ],
+ "resumen": "Consulta ginecológica ambulatoria por dolor en el bajo vientre y flujo con mal olor. Realiza la anamnesis, el examen pélvico, solicita pruebas con criterio y define tratamiento, seguimiento y derivación.",
+ "contexto": "Consultorio ginecológico de un hospital con laboratorio, ecografía transvaginal y hospitalización disponible.",
+ "paciente": {
+  "edad": 24,
+  "edad_texto": "24 años",
+  "sexo": "F",
+  "embarazo": false
+ },
+ "motivo": "«Tengo dolor en la parte baja del vientre y un flujo con mal olor desde hace cinco días.»",
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "Sexually Transmitted Infections Treatment Guidelines, 2021",
+   "organismo": "Centers for Disease Control and Prevention (CDC)",
+   "autores": "Workowski KA, Bachmann LH, Chan PA, Johnston CM et al.",
+   "anio": 2021,
+   "version": "",
+   "pmid": "34292926",
+   "doi": "10.15585/mmwr.rr7004a1",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de 2021, vigente según la última búsqueda; confirma si hay una edición posterior.",
+   "recomendacion": "Actualiza el tratamiento de las infecciones de transmisión sexual; añade metronidazol al esquema recomendado para la enfermedad inflamatoria pélvica (junto con una cefalosporina y doxiciclina) y mantiene la evaluación y el tratamiento de las parejas."
+  }
+ ],
+ "discrepancias": [
+  "Solo se leyó el resumen de la guía CDC 2021 en PubMed: el esquema exacto, los criterios de hospitalización y las dosis deben tomarse de la guía y del protocolo local (la sensibilidad de los gérmenes y la disponibilidad de fármacos en el Perú pueden variar). No se consultó una norma técnica peruana (MINSA) de infecciones de transmisión sexual. No se fijan dosis.",
+  "Los intervalos de laboratorio son educativos, no de un laboratorio peruano."
+ ],
+ "anamnesis": [
+  {
+   "categoria": "Enfermedad actual",
+   "preguntas": [
+    {
+     "id": "a1",
+     "texto": "¿Cómo es el dolor: dónde, desde cuándo y cuánto?",
+     "respuesta": "En el bajo vientre de ambos lados, hace cinco días, con intensidad moderada que empeora al caminar.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a2",
+     "texto": "¿Cómo es el flujo vaginal: color, olor y cantidad?",
+     "respuesta": "Amarillento, con mal olor y más abundante que antes.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a3",
+     "texto": "¿Ha tenido fiebre o escalofríos?",
+     "respuesta": "Tuve fiebre de 38 °C anoche y escalofríos.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a4",
+     "texto": "¿Tiene náuseas o vómitos y tolera los alimentos?",
+     "respuesta": "No tengo náuseas y puedo comer y tomar líquidos.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a5",
+     "texto": "¿Tiene dolor durante las relaciones sexuales o sangrado después?",
+     "respuesta": "Sí, me duele al tener relaciones y sangré un poco la semana pasada.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a6",
+     "texto": "¿Tiene molestias al orinar?",
+     "respuesta": "Un poco de ardor al orinar, sin urgencia ni sangre.",
+     "relevancia": "util"
+    }
+   ]
+  },
+  {
+   "categoria": "Ginecológico y sexual",
+   "preguntas": [
+    {
+     "id": "a7",
+     "texto": "¿Cuándo fue su última regla y existe posibilidad de embarazo?",
+     "respuesta": "Mi última regla fue hace tres semanas; usé pastillas anticonceptivas de forma irregular.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a8",
+     "texto": "¿Tiene pareja nueva y usa preservativo?",
+     "respuesta": "Tengo una pareja nueva desde hace dos meses y casi no usamos preservativo.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a9",
+     "texto": "¿Ha tenido antes alguna infección de transmisión sexual?",
+     "respuesta": "Tuve una infección vaginal hace un año, no recuerdo cuál.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a10",
+     "texto": "¿Usa dispositivo intrauterino u otro anticonceptivo?",
+     "respuesta": "No uso DIU; solo pastillas anticonceptivas que a veces olvido.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a11",
+     "texto": "¿Su pareja tiene síntomas?",
+     "respuesta": "Mi pareja dice que tiene secreción por el pene desde hace unos días.",
+     "relevancia": "util"
+    }
+   ]
+  },
+  {
+   "categoria": "Otros",
+   "preguntas": [
+    {
+     "id": "a12",
+     "texto": "¿Tiene alergias a medicamentos?",
+     "respuesta": "No tengo alergias conocidas.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a13",
+     "texto": "¿Fuma o consume alcohol o drogas?",
+     "respuesta": "No fumo; tomo alcohol ocasionalmente.",
+     "relevancia": "baja"
+    }
+   ]
+  }
+ ],
+ "antecedentes": [
+  {
+   "id": "h1",
+   "nombre": "Ginecológicos",
+   "texto": "Menarquia a los 12 años, ciclos regulares de 28 días, sin embarazos previos.",
+   "relevancia": "util"
+  },
+  {
+   "id": "h2",
+   "nombre": "Sexuales",
+   "texto": "Inicio sexual a los 17 años, tres parejas en total.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "h3",
+   "nombre": "Médicos y quirúrgicos",
+   "texto": "Sin enfermedades crónicas ni cirugías.",
+   "relevancia": "baja"
+  },
+  {
+   "id": "h4",
+   "nombre": "Vacunas",
+   "texto": "Vacuna contra el VPH incompleta; sin vacuna contra hepatitis B documentada.",
+   "relevancia": "util"
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "region": "General",
+   "maniobra": "Signos vitales",
+   "hallazgo": "T 38,0 °C, PA 108/68 mmHg, FC 96 /min, FR 16 /min.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e2",
+   "region": "Abdomen",
+   "maniobra": "Palpación abdominal",
+   "hallazgo": "Dolor a la palpación del hipogastrio y las fosas ilíacas, sin defensa ni rebote.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e3",
+   "region": "Peritoneo",
+   "maniobra": "Búsqueda de signos de irritación peritoneal",
+   "hallazgo": "Sin defensa ni rebote; sin signos de abdomen agudo quirúrgico.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e4",
+   "region": "Pélvico",
+   "maniobra": "Especuloscopia",
+   "hallazgo": "Cuello uterino eritematoso con secreción mucopurulenta que sangra al roce.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e5",
+   "region": "Pélvico",
+   "maniobra": "Tacto bimanual",
+   "hallazgo": "Dolor a la movilización del cuello uterino y del útero, con dolor en ambos anexos, sin masas palpables.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e6",
+   "region": "Lumbar",
+   "maniobra": "Puñopercusión lumbar",
+   "hallazgo": "Sin dolor a la puñopercusión.",
+   "relevancia": "util"
+  },
+  {
+   "id": "e7",
+   "region": "Inguinal",
+   "maniobra": "Palpación de ganglios inguinales",
+   "hallazgo": "Adenopatías inguinales pequeñas y móviles, no dolorosas.",
+   "relevancia": "baja"
+  }
+ ],
+ "hipotesis": {
+  "max": 3,
+  "opciones": [
+   {
+    "id": "d1",
+    "dx": "Enfermedad inflamatoria pélvica",
+    "tipo": "principal",
+    "nota": "Dolor pélvico con dolor a la movilización cervical y anexial, secreción mucopurulenta y factores de riesgo."
+   },
+   {
+    "id": "d2",
+    "dx": "Embarazo ectópico",
+    "tipo": "diferencial",
+    "nota": "Debe descartarse siempre en una mujer en edad fértil con dolor pélvico y anticoncepción irregular."
+   },
+   {
+    "id": "d3",
+    "dx": "Apendicitis aguda",
+    "tipo": "diferencial",
+    "nota": "Posible en el dolor del bajo vientre, pero aquí el dolor es bilateral y hay signos pélvicos."
+   },
+   {
+    "id": "d4",
+    "dx": "Pielonefritis o infección urinaria",
+    "tipo": "diferencial",
+    "nota": "Hay ardor al orinar, pero sin dolor lumbar ni síntomas urinarios predominantes."
+   },
+   {
+    "id": "d5",
+    "dx": "Cervicitis aislada sin compromiso del tracto superior",
+    "tipo": "diferencial",
+    "nota": "Explica el flujo, pero no el dolor a la movilización cervical y anexial."
+   },
+   {
+    "id": "d6",
+    "dx": "Endometriosis",
+    "tipo": "distractor",
+    "nota": "Es una causa crónica de dolor pélvico; el cuadro es agudo y con fiebre."
+   },
+   {
+    "id": "d7",
+    "dx": "Cólico renal por litiasis",
+    "tipo": "distractor",
+    "nota": "No hay dolor lumbar con irradiación ni hematuria."
+   },
+   {
+    "id": "d8",
+    "dx": "Candidiasis vulvovaginal simple",
+    "tipo": "distractor",
+    "nota": "No explica la fiebre ni el dolor pélvico profundo; el flujo no es característico."
+   }
+  ]
+ },
+ "pruebas": [
+  {
+   "id": "p1",
+   "categoria": "Embarazo",
+   "nombre": "β-hCG cualitativa o cuantitativa",
+   "clasificacion": "prioritaria",
+   "justificacion": "Una mujer en edad fértil con dolor pélvico debe descartar un embarazo (ectópico) antes de decidir el tratamiento y los estudios.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "β-hCG",
+    "lab": [
+     {
+      "prueba": "bhcg",
+      "valor": 1.0
+     }
+    ]
+   },
+   "esencial": true,
+   "bloqueante": true,
+   "mensaje_bloqueo": "Antes de decidir tratamiento en una mujer en edad fértil con dolor pélvico y anticoncepción irregular, debes descartar un embarazo: reconsidera las pruebas de embarazo.",
+   "cambia_conducta": "Descarta un embarazo, incluido el ectópico, y permite el tratamiento ambulatorio.",
+   "tiempo_critico": true
+  },
+  {
+   "id": "p2",
+   "categoria": "Microbiología",
+   "nombre": "Prueba molecular (NAAT) para Chlamydia trachomatis",
+   "clasificacion": "prioritaria",
+   "justificacion": "Confirma el agente más frecuente de la enfermedad inflamatoria pélvica y orienta al manejo de la pareja.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "NAAT clamidia",
+    "lab": [
+     {
+      "prueba": "naat_clamidia",
+      "valor": "positivo"
+     }
+    ]
+   },
+   "esencial": true,
+   "cambia_conducta": "Confirma la etiología y obliga a tratar y notificar a la pareja."
+  },
+  {
+   "id": "p3",
+   "categoria": "Microbiología",
+   "nombre": "Prueba molecular (NAAT) para Neisseria gonorrhoeae",
+   "clasificacion": "prioritaria",
+   "justificacion": "Debe buscarse junto con la clamidia: cambia la cobertura y el manejo de la pareja.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "NAAT gonococo",
+    "lab": [
+     {
+      "prueba": "naat_gonococo",
+      "valor": "negativo"
+     }
+    ]
+   },
+   "esencial": true
+  },
+  {
+   "id": "p4",
+   "categoria": "Serología",
+   "nombre": "Prueba de VIH",
+   "clasificacion": "prioritaria",
+   "justificacion": "Toda persona con una infección de transmisión sexual debe ofrecerse una prueba de VIH.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "VIH",
+    "lab": [
+     {
+      "prueba": "vih",
+      "valor": "no reactivo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5",
+   "categoria": "Serología",
+   "nombre": "VDRL o RPR (sífilis)",
+   "clasificacion": "prioritaria",
+   "justificacion": "Se recomienda descartar sífilis en toda persona con una infección de transmisión sexual.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Sífilis",
+    "lab": [
+     {
+      "prueba": "vdrl",
+      "valor": "no reactivo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p6",
+   "categoria": "Hematología",
+   "nombre": "Hemograma completo",
+   "clasificacion": "razonable",
+   "justificacion": "Puede apoyar la presencia de inflamación sistémica sin ser imprescindible.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Hemograma",
+    "lab": [
+     {
+      "prueba": "leucocitos",
+      "valor": 14.2
+     },
+     {
+      "prueba": "hemoglobina",
+      "valor": 12.4
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 310
+     }
+    ]
+   }
+  },
+  {
+   "id": "p7",
+   "categoria": "Inflamación",
+   "nombre": "Proteína C reactiva",
+   "clasificacion": "razonable",
+   "justificacion": "Apoya el grado de inflamación; no define el diagnóstico.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "PCR",
+    "lab": [
+     {
+      "prueba": "pcr",
+      "valor": 4.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "p8",
+   "categoria": "Orina",
+   "nombre": "Examen de orina",
+   "clasificacion": "razonable",
+   "justificacion": "Descarta una infección urinaria como causa del ardor y del dolor.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Examen de orina",
+    "lab": [
+     {
+      "prueba": "orina_esterasa",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_nitritos",
+      "valor": "negativo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p9",
+   "categoria": "Microbiología",
+   "nombre": "Microscopía en fresco y pH vaginal",
+   "clasificacion": "razonable",
+   "justificacion": "Busca otras causas de flujo (vaginosis, tricomoniasis) que pueden coexistir.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "pH vaginal 5,0; abundantes leucocitos polimorfonucleares; sin células clave ni tricomonas móviles."
+   }
+  },
+  {
+   "id": "p10",
+   "categoria": "Serología",
+   "nombre": "HBsAg (hepatitis B)",
+   "clasificacion": "razonable",
+   "justificacion": "Se ofrece en personas con riesgo de infecciones de transmisión sexual para orientar a la vacunación.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Hepatitis B",
+    "lab": [
+     {
+      "prueba": "hbsag",
+      "valor": "no reactivo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p11",
+   "categoria": "Imagen",
+   "nombre": "Ecografía transvaginal",
+   "clasificacion": "razonable",
+   "justificacion": "No es obligatoria para el diagnóstico, pero ayuda a descartar absceso tubo-ovárico y otras causas cuando el cuadro es más grave o dudoso.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Útero normal, anexos de aspecto normal sin masas y escaso líquido libre en el fondo de saco."
+   }
+  },
+  {
+   "id": "p12",
+   "categoria": "Imagen",
+   "nombre": "Laparoscopia diagnóstica",
+   "clasificacion": "innecesaria",
+   "justificacion": "Es invasiva y no se necesita para tratar una enfermedad inflamatoria pélvica clínica en una paciente estable.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: procedimiento invasivo sin indicación en una paciente estable."
+   }
+  },
+  {
+   "id": "p13",
+   "categoria": "Imagen",
+   "nombre": "Tomografía abdominopélvica con contraste",
+   "clasificacion": "innecesaria",
+   "justificacion": "Irradia y no es necesaria cuando el diagnóstico clínico es claro y la paciente está estable.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: radiación sin indicación en una paciente estable con diagnóstico clínico."
+   }
+  },
+  {
+   "id": "p14",
+   "categoria": "Microbiología",
+   "nombre": "Cultivo vaginal de rutina",
+   "clasificacion": "innecesaria",
+   "justificacion": "No agrega información útil frente a los estudios moleculares en esta situación.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Flora mixta sin relevancia para la conducta."
+   }
+  },
+  {
+   "id": "p15",
+   "categoria": "Imagen",
+   "nombre": "Histerosalpingografía",
+   "clasificacion": "danina",
+   "justificacion": "Está contraindicada en una infección pélvica aguda por el riesgo de diseminar la infección.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: contraindicada durante la infección pélvica aguda."
+   }
+  }
+ ],
+ "preguntas": {
+  "interpretacion": {
+   "enunciado": "¿Cómo interpretas los hallazgos y los resultados?",
+   "peso": 2,
+   "decisiones": [
+    {
+     "texto": "Cervicitis aislada por clamidia sin compromiso del tracto superior, que se resuelve con una dosis única y sin otras medidas adicionales",
+     "calidad": "incorrecta",
+     "explicacion": "El dolor a la movilización cervical y anexial indica compromiso del tracto superior: es EIP, no una cervicitis aislada.",
+     "id": "A",
+     "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Vaginosis bacteriana como causa única del cuadro, que se trata con metronidazol oral sin tratamiento de la pareja",
+     "calidad": "incorrecta",
+     "explicacion": "La vaginosis no explica el dolor pélvico con fiebre ni la clamidia positiva; puede coexistir pero no es la causa principal.",
+     "id": "B",
+     "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Embarazo ectópico probable, por lo que corresponde una laparoscopía de urgencia para confirmar el diagnóstico",
+     "calidad": "incorrecta",
+     "explicacion": "La β-hCG negativa descarta un embarazo; no corresponde a un ectópico.",
+     "id": "C",
+     "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Abdomen agudo quirúrgico con sospecha de apendicitis y absceso tubo-ovárico que exige laparotomía exploradora inmediata",
+     "calidad": "incorrecta",
+     "explicacion": "No hay signos peritoneales ni absceso en la ecografía; la paciente está estable.",
+     "id": "D",
+     "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Enfermedad inflamatoria pélvica leve por Chlamydia trachomatis, sin criterios de gravedad ni absceso y con embarazo descartado",
+     "calidad": "optima",
+     "explicacion": "El dolor con dolor a la movilización cervical y anexial, la secreción mucopurulenta y la clamidia positiva confirman una EIP; la paciente está estable y la ecografía no muestra absceso.",
+     "id": "E",
+     "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "diagnostico": {
+   "enunciado": "¿Cuál es el diagnóstico más probable?",
+   "peso": 3,
+   "decisiones": [
+    {
+     "texto": "Cistitis aguda no complicada por Escherichia coli, tratada con una pauta corta de antibiótico oral",
+     "calidad": "incorrecta",
+     "explicacion": "El ardor al orinar es leve y el examen de orina es negativo; no explica la fiebre ni el dolor pélvico.",
+     "id": "A",
+     "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Apendicitis aguda en fase inicial, que exige observación hospitalaria y cirugía si progresa el dolor",
+     "calidad": "incorrecta",
+     "explicacion": "El dolor es bilateral con signos pélvicos claros y sin signos peritoneales; la ecografía no sugiere otra causa.",
+     "id": "B",
+     "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Enfermedad inflamatoria pélvica por Chlamydia trachomatis, de manejo ambulatorio por no tener criterios de gravedad",
+     "calidad": "optima",
+     "explicacion": "Cumple criterios clínicos de EIP, con confirmación microbiológica y sin signos que obliguen a hospitalizar.",
+     "id": "C",
+     "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Endometriosis con endometrioma, con indicación de tratamiento hormonal y control ginecológico programado sin otras medidas",
+     "calidad": "incorrecta",
+     "explicacion": "Es una causa crónica; el cuadro es agudo con fiebre y signos infecciosos.",
+     "id": "D",
+     "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dismenorrea primaria con flujo fisiológico, que se maneja con antiinflamatorios y observación domiciliaria",
+     "calidad": "incorrecta",
+     "explicacion": "El cuadro tiene fiebre, secreción mucopurulenta y dolor a la movilización: no es fisiológico.",
+     "id": "E",
+     "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "tratamiento": {
+   "enunciado": "¿Qué tratamiento indicas?",
+   "peso": 2,
+   "decisiones": [
+    {
+     "texto": "Esperar el resultado de todos los cultivos antes de iniciar cualquier antibiótico, con analgésicos y observación en el domicilio",
+     "calidad": "peligrosa",
+     "explicacion": "En la EIP el tratamiento empírico se inicia de inmediato: retrasarlo aumenta el riesgo de secuelas como infertilidad y embarazo ectópico.",
+     "id": "A",
+     "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esquema ambulatorio con una cefalosporina intramuscular más doxiciclina y metronidazol durante 14 días, con reevaluación a las 72 horas",
+     "calidad": "optima",
+     "explicacion": "El esquema recomendado incluye cobertura de gonococo, clamidia y anaerobios; la reevaluación a las 72 horas confirma la respuesta.",
+     "id": "B",
+     "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hospitalización obligatoria con antibióticos endovenosos durante dos semanas para todas las pacientes con enfermedad inflamatoria pélvica",
+     "calidad": "incorrecta",
+     "explicacion": "La hospitalización se reserva para casos con criterios de gravedad, embarazo, absceso o falla del tratamiento oral.",
+     "id": "C",
+     "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Azitromicina en dosis única por vía oral como único tratamiento, y control solo si persisten los síntomas en el siguiente mes",
+     "calidad": "incorrecta",
+     "explicacion": "Una dosis única no cubre la enfermedad del tracto superior ni los anaerobios; el esquema es combinado y prolongado.",
+     "id": "D",
+     "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Ciprofloxacino oral como monoterapia por una semana, sin cobertura específica para anaerobios ni reevaluación programada",
+     "calidad": "incorrecta",
+     "explicacion": "Las fluoroquinolonas no son la primera línea y no cubren de forma fiable el gonococo ni los anaerobios.",
+     "id": "E",
+     "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "seguimiento": {
+   "enunciado": "¿Cuál es el plan de seguimiento, los signos de alarma y los criterios de derivación?",
+   "peso": 2,
+   "decisiones": [
+    {
+     "texto": "Suspender la anticoncepción hormonal y no ofrecer consejería ni pruebas de otras infecciones, por tratarse de un episodio aislado",
+     "calidad": "incorrecta",
+     "explicacion": "Se debe ofrecer consejería, pruebas de otras infecciones y prevención de nuevas infecciones, y revisar la anticoncepción.",
+     "id": "A",
+     "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Programar una histerectomía profiláctica para evitar nuevas infecciones y complicaciones tardías en la paciente de 24 años sin otras indicaciones",
+     "calidad": "peligrosa",
+     "explicacion": "No hay indicación de cirugía mayor: es una decisión desproporcionada y no previene la reinfección.",
+     "id": "B",
+     "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar reposo absoluto de un mes con control recién a los tres meses y sin explicar signos de alarma a la paciente",
+     "calidad": "incorrecta",
+     "explicacion": "La paciente debe ser reevaluada a las 72 horas y conocer los signos de alarma; el reposo prolongado no es necesario.",
+     "id": "C",
+     "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta sin tratar a la pareja, porque la paciente ya recibió el antibiótico y el riesgo de reinfección es muy bajo",
+     "calidad": "incorrecta",
+     "explicacion": "Sin tratar a la pareja la reinfección es frecuente; el manejo de contactos es parte del tratamiento.",
+     "id": "D",
+     "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tratar y notificar a la pareja, abstinencia hasta completar el tratamiento, reevaluar a las 72 horas y derivar si no hay mejoría o hay absceso",
+     "calidad": "optima",
+     "explicacion": "El manejo de la pareja evita la reinfección; la reevaluación a las 72 horas detecta la falla y obliga a hospitalizar o estudiar un absceso.",
+     "id": "E",
+     "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "E"
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Mujer de 24 años con cinco días de dolor pélvico bilateral, flujo purulento, fiebre y dispareunia, con una pareja nueva sin protección. El examen mostró cervicitis mucopurulenta con dolor a la movilización cervical y anexial; la clamidia fue positiva y la β-hCG negativa.",
+  "diagnostico_final": "Enfermedad inflamatoria pélvica leve por Chlamydia trachomatis, de manejo ambulatorio.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Embarazo ectópico",
+    "por_que_no": "La β-hCG negativa lo descarta; siempre debe excluirse primero."
+   },
+   {
+    "dx": "Apendicitis aguda",
+    "por_que_no": "Dolor bilateral con signos pélvicos y sin irritación peritoneal; ecografía sin otra causa."
+   },
+   {
+    "dx": "Pielonefritis o infección urinaria",
+    "por_que_no": "Sin dolor lumbar ni piuria en el examen de orina."
+   },
+   {
+    "dx": "Cervicitis aislada",
+    "por_que_no": "El dolor a la movilización cervical y anexial indica compromiso del tracto superior."
+   }
+  ],
+  "datos_clave": [
+   "Dolor pélvico bajo con flujo mucopurulento y fiebre.",
+   "Pareja nueva sin preservativo y antecedente de infección vaginal.",
+   "Dolor a la movilización cervical y anexial (criterio clínico mínimo).",
+   "β-hCG negativa y ausencia de signos peritoneales (permiten el tratamiento ambulatorio)."
+  ],
+  "razonamiento": [
+   "En una mujer en edad fértil con dolor pélvico, descartar embarazo y ectópico primero.",
+   "Buscar criterios clínicos de EIP: dolor pélvico y dolor a la movilización cervical o anexial.",
+   "Evaluar la gravedad: fiebre alta, náuseas, signos peritoneales, absceso o embarazo.",
+   "Pedir estudios para clamidia, gonococo, VIH y sífilis y, según el caso, ecografía.",
+   "Tratar de inmediato con un esquema combinado sin esperar los resultados.",
+   "Tratar y notificar a la pareja, reevaluar a las 72 horas y dar signos de alarma.",
+   "Ofrecer consejería, vacunación y revisión de anticoncepción."
+  ],
+  "interpretacion_laboratorio": [
+   "β-hCG negativa: descarta embarazo y, con él, un ectópico.",
+   "NAAT positivo para clamidia: confirma el agente; el gonococo fue negativo.",
+   "VIH, sífilis y hepatitis B no reactivos: no hay coinfección actual (se repiten según riesgo).",
+   "Leucocitos y PCR elevados: inflamación sistémica, compatible con EIP."
+  ],
+  "tratamiento": [
+   {
+    "item": "Antibióticos",
+    "detalle": "Cefalosporina intramuscular más doxiciclina y metronidazol durante 14 días, según el esquema de la guía vigente.",
+    "dosis": "Las dosis y la elección exacta de fármacos deben tomarse de la guía CDC y del protocolo local; no se fijan aquí."
+   },
+   {
+    "item": "Pareja",
+    "detalle": "Evaluar, tratar y notificar a la pareja; abstinencia hasta completar el tratamiento.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Seguimiento",
+    "detalle": "Reevaluar a las 72 horas; derivar si no hay mejoría, si hay absceso, embarazo o intolerancia a la vía oral.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Prevención",
+    "detalle": "Consejería, vacunación (VPH y hepatitis B), prueba de VIH y sífilis periódicas y revisión de la anticoncepción.",
+    "dosis": "No aplica."
+   }
+  ],
+  "temas_relacionados": [
+   "Enfermedad inflamatoria pélvica",
+   "Infecciones de transmisión sexual",
+   "Embarazo ectópico"
+  ],
+  "mensaje_clave": "En dolor pélvico en edad fértil: primero descarta embarazo; la EIP se trata de inmediato con esquema combinado y se maneja a la pareja."
+ }
+}

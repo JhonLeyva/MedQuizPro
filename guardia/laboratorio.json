@@ -1222,6 +1222,61 @@
    "criticos": null
   },
   {
+   "id": "colesterol_total",
+   "nombre": "Colesterol total",
+   "categoria": "Bioquímica",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": null,
+     "alto": 199,
+     "edad_min": 18,
+     "texto": "< 199"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "objetivo_terapeutico",
+     "texto": "Un colesterol total < 200 mg/dL se considera deseable en la población general (criterio educativo; no sustituye el cálculo de riesgo cardiovascular).",
+     "pmid": "",
+     "fuente": "Criterio educativo no verificado en texto completo"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Se interpreta junto con LDL, HDL y el riesgo cardiovascular global; el hipotiroidismo puede elevarlo."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "ldl",
+   "nombre": "Colesterol LDL",
+   "categoria": "Bioquímica",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": null,
+     "alto": 99,
+     "edad_min": 18,
+     "texto": "< 99"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "La meta depende del riesgo cardiovascular del paciente."
+   ],
+   "criticos": null
+  },
+  {
    "id": "pcr",
    "nombre": "Proteína C reactiva",
    "categoria": "Pruebas especiales",
@@ -1545,6 +1600,78 @@
    "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
    "advertencias": [
     "Resultado cualitativo: se informa con identificación y sensibilidad cuando hay desarrollo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "naat_clamidia",
+   "nombre": "Prueba molecular (NAAT) para Chlamydia trachomatis",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "naat_gonococo",
+   "nombre": "Prueba molecular (NAAT) para Neisseria gonorrhoeae",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "antigeno_estreptococo",
+   "nombre": "Prueba rápida de antígeno de estreptococo del grupo A",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "cultivo_faringeo",
+   "nombre": "Cultivo faríngeo",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
    ],
    "criticos": null,
    "cualitativa": true,

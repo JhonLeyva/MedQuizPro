@@ -82,6 +82,8 @@ P("tsh", "TSH", EN, "mUI/L", [iv(0.4, 4.0, **ADU)], adv=["En la gestación cambi
 P("t4l", "T4 libre", EN, "ng/dL", [iv(0.8, 1.8, **ADU)], adv=["Depende del método."])
 P("anti_tpo", "Anticuerpos anti-TPO", EN, "UI/mL", [iv(0, 35, **ADU)], adv=["El punto de corte depende del ensayo."])
 P("bhcg", "β-hCG cuantitativa", EN, "mUI/mL", [iv(0, 5, "F", **ADU), iv(None, None, "F", cond="gestacion-t1", texto="En gestación temprana no hay un valor «normal» único: se interpreta con la ecografía y la evolución seriada")], adv=["Intervalo en mujeres no gestantes. En la gestación temprana no hay un «normal» único: se interpreta con la ecografía y la evolución seriada."])
+P("colesterol_total", "Colesterol total", B, "mg/dL", [iv(None, 199, **ADU)], [U("objetivo_terapeutico", "Un colesterol total < 200 mg/dL se considera deseable en la población general (criterio educativo; no sustituye el cálculo de riesgo cardiovascular).", "", "Criterio educativo no verificado en texto completo")], adv=["Se interpreta junto con LDL, HDL y el riesgo cardiovascular global; el hipotiroidismo puede elevarlo."])
+P("ldl", "Colesterol LDL", B, "mg/dL", [iv(None, 99, **ADU)], adv=["La meta depende del riesgo cardiovascular del paciente."])
 # --- Inflamación y pruebas especiales
 P("pcr", "Proteína C reactiva", ES, "mg/dL", [iv(0, 1.0, **ADU)], [U("umbral_diagnostico", "Guías de Tokio 2018: PCR ≥ 1 mg/dL cuenta como criterio de inflamación sistémica en la colangitis.", "29032610", "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018")])
 P("procalcitonina", "Procalcitonina", ES, "ng/mL", [iv(0, 0.1, **ADU)], adv=["Orienta pero no confirma infección bacteriana."])
@@ -99,6 +101,8 @@ P("orina_glucosa", "Glucosa en orina (tira reactiva)", OR, "", cual=True, normal
 # --- Microbiología y serología (cualitativas)
 for id_, nom in [("hemocultivo", "Hemocultivo"), ("urocultivo", "Urocultivo"), ("xpert_mtb", "Prueba molecular para M. tuberculosis (Xpert MTB/RIF)"), ("baciloscopia", "Baciloscopia de esputo")]:
     P(id_, nom, MI, "", cual=True, normal="negativo", adv=["Resultado cualitativo: se informa con identificación y sensibilidad cuando hay desarrollo."])
+for id_, nom in [("naat_clamidia", "Prueba molecular (NAAT) para Chlamydia trachomatis"), ("naat_gonococo", "Prueba molecular (NAAT) para Neisseria gonorrhoeae"), ("antigeno_estreptococo", "Prueba rápida de antígeno de estreptococo del grupo A"), ("cultivo_faringeo", "Cultivo faríngeo")]:
+    P(id_, nom, MI, "", cual=True, normal="negativo", adv=["Resultado cualitativo."])
 for id_, nom in [("vih", "Prueba de VIH (tamizaje)"), ("hbsag", "HBsAg"), ("vdrl", "VDRL / RPR"), ("ns1", "NS1 de dengue"), ("igm_dengue", "IgM anti-dengue")]:
     P(id_, nom, SE, "", cual=True, normal="no reactivo", adv=["Una prueba de tamizaje reactiva requiere confirmación."])
 json.dump({"version": 1, "fecha": "2026-10-28", "aviso": EDU, "pruebas": T}, open(os.path.join(RAIZ, "guardia", "laboratorio.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

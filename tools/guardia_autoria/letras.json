@@ -117,5 +117,21 @@
 "g10/n8": "D",
 "g10/d1": "B",
 "g10/d2": "A",
-"g10/d3": "E"
+"g10/d3": "E",
+"c01/interpretacion": "C",
+"c01/diagnostico": "E",
+"c01/tratamiento": "B",
+"c01/seguimiento": "A",
+"c02/interpretacion": "C",
+"c02/diagnostico": "D",
+"c02/tratamiento": "A",
+"c02/seguimiento": "D",
+"c03/interpretacion": "E",
+"c03/diagnostico": "C",
+"c03/tratamiento": "B",
+"c03/seguimiento": "E",
+"c04/interpretacion": "A",
+"c04/diagnostico": "C",
+"c04/tratamiento": "D",
+"c04/seguimiento": "B"
 }
