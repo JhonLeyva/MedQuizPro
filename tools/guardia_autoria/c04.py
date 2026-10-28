@@ -1,5 +1,5 @@
 from clib import *
-REF = ["r1"]
+REF = ["r2", "r1"]
 c = {
  "id": "c04", "modalidad": "consulta", "titulo": "Dolor de garganta intenso y fiebre en un joven de 22 años", "especialidad": "Medicina familiar · Infectología", "dificultad": 1, "duracion_min": 15,
  "areas_banco": ["infectologia"],
@@ -8,9 +8,10 @@ c = {
  "paciente": {"edad": 22, "edad_texto": "22 años", "sexo": "M", "embarazo": False},
  "motivo": "«Me duele muchísimo la garganta desde hace dos días, me duele al tragar y tengo fiebre.»",
  "referencias": [
+  R("r2", "guia", "Guía técnica: guía de práctica clínica para el diagnóstico y tratamiento de la faringitis aguda en el paciente pediátrico del Hospital de Emergencias Villa El Salvador", "Hospital de Emergencias Villa El Salvador (MINSA, Perú)", "Hospital de Emergencias Villa El Salvador", 2024, "Guía institucional de un hospital para niños de 1 mes a 14 años: este caso es un adulto de 22 años, así que se usa solo como apoyo parcial. No se pudo confirmar la resolución directoral ni el año exacto.", "Usa la escala de Centor modificada para decidir la prueba rápida de antígeno y el antibiótico; el cultivo no es necesario de rutina; no recomienda imágenes, indica que los títulos de antiestreptolisina (ASLO) no aportan valor diagnóstico y que la proteína C reactiva no da información útil; recomienda amoxicilina o penicilina por 10 días en estreptocócica; señala como alarma los síntomas de obstrucción de la vía aérea y refiere ante sospecha de complicaciones supurativas.", url="https://cdn.www.gob.pe/uploads/document/file/7412689/6317614-guia-de-practica-clinica-para-el-diagnostico-y-tratamiento-de-la-faringitis-aguda-en-el-paciente-pediatrico.pdf"),
   R("r1", "guia", "Clinical practice guideline for the diagnosis and management of group A streptococcal pharyngitis: 2012 update by the Infectious Diseases Society of America", "Infectious Diseases Society of America (IDSA)", "Shulman ST, Bisno AL, Clegg HW, Gerber MA et al.", 2012, "Guía de 2012; puede haber actualizaciones no consultadas en esta sesión (solo se leyó el resumen de PubMed).", "La penicilina o la amoxicilina siguen siendo los tratamientos de elección; para pacientes alérgicos a la penicilina se incluye ahora la clindamicina. Se recomienda confirmar el diagnóstico con una prueba (antígeno rápido o cultivo) antes de tratar.", pmid="22965026", doi="10.1093/cid/cis629"),
  ],
- "discrepancias": ["Solo se leyó el resumen de la guía IDSA 2012: la duración (10 días de penicilina o amoxicilina), las alternativas y la política de cultivo tras una prueba rápida negativa en adultos se basan en la práctica habitual y deben confirmarse en la guía y en la norma local. No se consultó una norma técnica peruana (MINSA). No se fijan dosis.", "Los intervalos de laboratorio son educativos, no de un laboratorio peruano."],
+ "discrepancias": ["Solo se leyó el resumen de la guía IDSA 2012: la duración (10 días de penicilina o amoxicilina), las alternativas y la política de cultivo tras una prueba rápida negativa en adultos se basan en la práctica habitual y deben confirmarse en la guía y en la norma local. La única guía peruana hallada es pediátrica (Hospital de Emergencias Villa El Salvador, niños hasta 14 años) y se usa solo como apoyo; no hay una norma nacional para adultos. No se fijan dosis.", "Los intervalos de laboratorio son educativos, no de un laboratorio peruano."],
  "anamnesis": [
   {"categoria": "Enfermedad actual", "preguntas": [
    A("a1", "¿Desde cuándo y cómo ha evolucionado el dolor de garganta?", "Hace dos días; empezó de golpe y cada vez me duele más al tragar.", "clave"),

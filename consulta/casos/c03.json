@@ -20,6 +20,21 @@
  "motivo": "«Tengo dolor en la parte baja del vientre y un flujo con mal olor desde hace cinco días.»",
  "referencias": [
   {
+   "id": "r2",
+   "tipo": "norma",
+   "titulo": "Norma Técnica de Salud N° 240-MINSA/DGIESP-2026: Prevención y Control de las Infecciones de Transmisión Sexual (RM 035-2026-MINSA, 16 de enero de 2026)",
+   "organismo": "Ministerio de Salud del Perú",
+   "autores": "MINSA / DGIESP",
+   "anio": 2026,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.gob.pe/institucion/minsa/normas-legales/7625105-035-2026-minsa",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Norma nacional vigente según gob.pe; deroga la RM 263-2009-MINSA (NTS 077). El PDF es un escaneo: el texto se leyó con reconocimiento óptico de caracteres y debe contrastarse con el original.",
+   "recomendacion": "Maneja el dolor abdominal bajo (enfermedad pélvica inflamatoria) con enfoque sindrómico: ambulatorio salvo gestación, mal estado general, intolerancia oral, absceso tubo-ovárico o falta de respuesta en 48 a 72 horas; esquema con ceftriaxona intramuscular, doxiciclina y metronidazol durante 14 días; reevaluación a las 48 a 72 horas; tratamiento de los contactos sexuales; descartar apendicitis y embarazo ectópico."
+  },
+  {
    "id": "r1",
    "tipo": "guia",
    "titulo": "Sexually Transmitted Infections Treatment Guidelines, 2021",
@@ -36,7 +51,7 @@
   }
  ],
  "discrepancias": [
-  "Solo se leyó el resumen de la guía CDC 2021 en PubMed: el esquema exacto, los criterios de hospitalización y las dosis deben tomarse de la guía y del protocolo local (la sensibilidad de los gérmenes y la disponibilidad de fármacos en el Perú pueden variar). No se consultó una norma técnica peruana (MINSA) de infecciones de transmisión sexual. No se fijan dosis.",
+  "Solo se leyó el resumen de la guía CDC 2021 en PubMed: el esquema exacto, los criterios de hospitalización y las dosis deben tomarse de la guía y del protocolo local (la sensibilidad de los gérmenes y la disponibilidad de fármacos en el Perú pueden variar). La norma peruana vigente (NTS 240-2026) usa el enfoque sindrómico y reserva el abordaje etiológico para los casos sin respuesta o con laboratorio disponible; este caso, en un hospital con laboratorio, pide además pruebas moleculares según la guía CDC. Las dosis del esquema se citan de la NTS peruana (texto leído por OCR): verifícalas en el original.",
   "Los intervalos de laboratorio son educativos, no de un laboratorio peruano."
  ],
  "anamnesis": [
@@ -521,6 +536,7 @@
      "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -532,6 +548,7 @@
      "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -543,6 +560,7 @@
      "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -554,6 +572,7 @@
      "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -565,6 +584,7 @@
      "tema": "Interpretación del dolor pélvico con prueba molecular positiva",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     }
@@ -583,6 +603,7 @@
      "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -594,6 +615,7 @@
      "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -605,6 +627,7 @@
      "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -616,6 +639,7 @@
      "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -627,6 +651,7 @@
      "tema": "Diagnóstico de la enfermedad inflamatoria pélvica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "r2",
       "r1"
      ]
     }
@@ -645,6 +670,7 @@
      "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -656,6 +682,7 @@
      "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -667,6 +694,7 @@
      "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -678,6 +706,7 @@
      "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -689,6 +718,7 @@
      "tema": "Tratamiento de la enfermedad inflamatoria pélvica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "r2",
       "r1"
      ]
     }
@@ -707,6 +737,7 @@
      "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -718,6 +749,7 @@
      "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -729,6 +761,7 @@
      "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -740,6 +773,7 @@
      "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "r2",
       "r1"
      ]
     },
@@ -751,6 +785,7 @@
      "tema": "Seguimiento y manejo de contactos en la enfermedad inflamatoria pélvica",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "r2",
       "r1"
      ]
     }
@@ -804,16 +839,16 @@
    {
     "item": "Antibióticos",
     "detalle": "Cefalosporina intramuscular más doxiciclina y metronidazol durante 14 días, según el esquema de la guía vigente.",
-    "dosis": "Las dosis y la elección exacta de fármacos deben tomarse de la guía CDC y del protocolo local; no se fijan aquí."
+    "dosis": "NTS 240-MINSA/DGIESP-2026, tratamiento ambulatorio del dolor abdominal bajo: ceftriaxona 1 g intramuscular en dosis única, doxiciclina 100 mg por vía oral cada 12 horas por 14 días y metronidazol 500 mg por vía oral cada 12 horas por 14 días (texto leído por OCR; verifica en el original y en tu protocolo)."
    },
    {
     "item": "Pareja",
-    "detalle": "Evaluar, tratar y notificar a la pareja; abstinencia hasta completar el tratamiento.",
+    "detalle": "Evaluar, tratar y notificar a las parejas previas al inicio de los síntomas, como en el síndrome de descarga uretral según la NTS; abstinencia hasta completar el tratamiento.",
     "dosis": "No aplica."
    },
    {
     "item": "Seguimiento",
-    "detalle": "Reevaluar a las 72 horas; derivar si no hay mejoría, si hay absceso, embarazo o intolerancia a la vía oral.",
+    "detalle": "Reevaluar a las 48 a 72 horas; hospitalizar o derivar si no hay mejoría, si hay absceso tubo-ovárico, embarazo, mal estado general o intolerancia a la vía oral.",
     "dosis": "No aplica."
    },
    {

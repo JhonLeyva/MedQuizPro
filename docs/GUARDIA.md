@@ -39,11 +39,20 @@ Flujo: motivo → anamnesis → antecedentes → examen físico → hipótesis (
 ## Pruebas (todas reales, ejecutadas)
 `node tests/guardia_test.js` (11 235 comprobaciones), `node tests/consulta_test.js` (722), `node tests/guardia_e2e.js` (1 478; ambos modos, 10 casos, temporizador con reloj simulado, sesión, laboratorio, interconsulta, desenlaces, móvil, axe WCAG 2.2 AA claro/oscuro), `node tests/consulta_e2e.js` (192; 4 casos en recorrido ideal y deficiente, pruebas no reveladas, bloqueo, sesión, móvil, axe), `python3 tools/guardia_evidencia.py verificar` (27 referencias; 26 con PMID verificadas en PubMed), `python3 tools/guardia_imagenes.py verificar`, integridad del banco y suites de regresión (Cloze, rendimiento, Feynman, estudio, flashcards, migraciones). `tests/guias_test.php` y 5 casos de `tests/api_test.py` ya fallaban en `main` antes de estos cambios (no relacionados).
 
+## Fuentes peruanas (consultadas el 2026-10-28, tras habilitar gob.pe, EsSalud, OMS)
+| Caso | Fuente peruana incorporada | Alcance / reserva |
+|---|---|---|
+| c01 hipotiroidismo | Guía del Hospital de Emergencias Villa El Salvador (adultos), leída completa | Guía de un hospital, no nacional; no se confirmó la resolución. Difiere de ATA/AACE en el calendario de TSH (cada 3 meses vs 6–8 semanas): ambos se declaran |
+| c03 EIP | NTS 240-MINSA/DGIESP-2026 (RM 035-2026-MINSA, deroga la RM 263-2009) | PDF escaneado leído con OCR: hay que contrastar con el original. Enfoque sindrómico; el caso añade pruebas moleculares (CDC) |
+| c04 faringitis | Guía pediátrica del Hospital de Emergencias Villa El Salvador | Es pediátrica (≤ 14 años); el caso es un adulto: apoyo parcial |
+| c02 ITU pediátrica | No se halló guía peruana pediátrica (solo adultos, gestantes y EsSalud no complicada) | Declarado en el caso |
+| Urgencias g01–g10 | Pendiente de revisar contra normas peruanas | Mantienen las referencias internacionales |
+
 ## Limitaciones declaradas
-- **Sin normas peruanas**: no se pudo acceder a texto MINSA/EsSalud/OMS; se usan guías internacionales (varias leídas solo a nivel de resumen en PubMed) y cada caso lo declara. Los intervalos de laboratorio son educativos.
-- Cada caso de consulta se apoya en **una** guía principal; falta una segunda fuente por caso.
+- Las normas peruanas halladas son parciales (ver tabla); para los 10 casos de urgencias todavía no se han contrastado con textos MINSA/EsSalud/OMS. Varias guías internacionales se leyeron solo a nivel de resumen en PubMed.
+- Los intervalos de laboratorio son educativos: no se encontró un estándar nacional peruano y cada laboratorio define los suyos; no se incluyen valores críticos.
 - Casos redactados por el modelo, sin revisión de especialista externo.
-- Sin dosis universales: se remite a la guía y al protocolo local.
+- Las dosis solo se citan cuando una fuente peruana leída las trae (c01, c03), con la advertencia de verificarlas; en el resto se remite a la guía y al protocolo local.
 - Las respuestas viajan en el cliente (es un recurso de estudio, no un examen vigilado).
-- Imágenes reales de licencia abierta a 512 px; los casos de consulta no incluyen imágenes (resultados de imagen en texto); no hay caso piloto de dermatología con imagen licenciada.
-- El «especialista» de la v3 y la consulta son lógica predefinida, no una persona ni un modelo de IA.
+- Imágenes reales de licencia abierta a 512 px; los casos de consulta no incluyen imágenes; no hay caso piloto de dermatología con imagen licenciada.
+- El «especialista» y la consulta son lógica predefinida, no una persona ni un modelo de IA.
