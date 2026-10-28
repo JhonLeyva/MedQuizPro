@@ -667,3 +667,30 @@ body.gi-abierta { overflow: hidden; }
 .an-vacio p { margin: 6px 0 0; }
 .an-sel { display: block; margin: 0 0 8px; font-size: .9rem; color: var(--ink-2); } .an-sel select { margin-left: 6px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; }
 .an-form .an-sel { margin: 0 20px 8px; }
+
+/* ---------- Sobrevive a la Guardia v2: recomendaciones, imágenes e informe ---------- */
+.gd-rec__l { list-style: none; margin: 0 0 12px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.gd-rec__i { display: grid; gap: 6px; align-content: start; padding: 14px; border-radius: 14px; background: var(--surface-2, var(--surface)); border: 1px solid var(--line); }
+.gd-rec__i h3 { margin: 0; font-size: 1rem; } .gd-rec__m { margin: 0; padding-left: 18px; font-size: .86rem; color: var(--ink-2); }
+.gd-prov { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: .72rem; font-weight: 700; border: 1px solid var(--line-strong); color: var(--ink-2); }
+.gd-filtro { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 14px; } .gd-filtro select { min-height: 44px; padding: 0 12px; border-radius: 12px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); font: inherit; }
+.gd-ctx { margin: 0 0 12px; }
+.gd-img { margin: 0 0 16px; display: grid; gap: 8px; justify-items: start; }
+.gd-img__b { display: block; padding: 0; border: 1px solid var(--line-strong); border-radius: 14px; overflow: hidden; background: #000; cursor: zoom-in; max-width: min(100%, 520px); }
+.gd-img__b:focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; } .gd-img__b img { display: block; width: 100%; height: auto; }
+.gd-img figcaption { font-size: .84rem; color: var(--ink-2); max-width: 62ch; }
+.gd-prev { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: .86rem; color: var(--ink-2); margin: 0 0 12px; }
+.gd-indice { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 16px; font-size: .9rem; } .gd-indice a { color: var(--brand-strong, var(--brand)); font-weight: 600; text-decoration: underline; padding: 6px 0; }
+.gd-razon { padding-left: 20px; display: grid; gap: 6px; }
+.gd-dl { display: grid; gap: 8px; margin: 10px 0 0; font-size: .86rem; } .gd-dl dt { font-weight: 700; color: var(--ink-2); } .gd-dl dd { margin: 0; overflow-wrap: anywhere; }
+.gd-reg { margin: 8px 0 14px; } .gd-reg summary, .gd-dec summary { cursor: pointer; font-weight: 700; padding: 8px 0; min-height: 44px; display: flex; align-items: center; }
+.gd-dec { border-left: 4px solid var(--line-strong); padding: 0 0 8px 12px; margin: 0 0 12px; }
+.gd-dec--optima { border-left-color: #16a34a; } .gd-dec--aceptable { border-left-color: #f59e0b; } .gd-dec--incorrecta { border-left-color: #ea580c; } .gd-dec--peligrosa { border-left-color: #dc2626; }
+.gd-alt { margin: 0 0 8px; padding-left: 18px; font-size: .86rem; display: grid; gap: 4px; }
+.gd-tabla { display: grid; gap: 10px; } .gd-tr { padding: 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface-2, var(--surface)); } .gd-tr p { margin: 0 0 4px; }
+.gd-h3 { margin: 18px 0 6px; font-size: 1rem; }
+.gd-comp { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; } .gd-comp li { display: grid; grid-template-columns: minmax(130px, 1.2fr) 2fr 48px; gap: 10px; align-items: center; font-size: .88rem; }
+.gd-barra { height: 10px; border-radius: 999px; background: var(--line); overflow: hidden; } .gd-barra i { display: block; height: 100%; background: var(--brand); }
+.gd-crit li { color: #b91c1c; font-weight: 600; } .gd-clave { padding: 10px 14px; border-radius: 12px; background: color-mix(in srgb, var(--brand) 10%, var(--surface)); }
+.gd-refs { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; } .gd-ref { padding: 12px; border: 1px solid var(--line); border-radius: 12px; } .gd-ref p { margin: 0 0 4px; overflow-wrap: anywhere; }
+@media (max-width: 560px) { .gd-comp li { grid-template-columns: 1fr 48px; } .gd-comp .gd-barra { grid-column: 1 / -1; order: 3; } }

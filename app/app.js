@@ -1185,7 +1185,7 @@
     progreso: { titulo: "Mi progreso", vista: vistaProgreso },
     falladas: { titulo: "Preguntas falladas", vista: vistaFalladas },
     favoritas: { titulo: "Favoritas", vista: vistaFavoritas },
-    guardia: { titulo: "Sobrevive a la Guardia", vista: function () { return '<div id="gdRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("gdRaiz"); if (r && M.guardia && M.guardia.montar) M.guardia.montar(r, arg); } },
+    guardia: { titulo: "Sobrevive a la Guardia", vista: function () { return '<div id="gdRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("gdRaiz"); if (r && M.guardia && M.guardia.montar) M.guardia.montar(r, arg, datos); } },
     feynman: { titulo: "Tutor Feynman IA", vista: function () { return '<div id="fyRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fyRaiz"); if (r && M.feynman) M.feynman.montar(r, parametros); } },
     repaso: { titulo: "Repaso de hoy", vista: function () { return '<div id="rpRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("rpRaiz"); if (r && M.estudio) M.estudio.montarRepaso(r); } },
     flashcards: { titulo: "Mis Flashcards", vista: function () { return '<div id="fcRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fcRaiz"); if (r && M.flashcards) M.flashcards.montar(r); } },

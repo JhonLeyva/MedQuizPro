@@ -1,0 +1,326 @@
+{
+ "id": "g03",
+ "titulo": "Dolor pélvico y sangrado en una mujer en edad fértil",
+ "especialidad": "Gineco-obstetricia · Emergencias",
+ "dificultad": 2,
+ "duracion_min": 10,
+ "resumen": "Mujer de 27 años con retraso menstrual, sangrado escaso y dolor pélvico unilateral. Decide cómo estudiarla y qué tratamiento corresponde.",
+ "contexto": "Emergencia de hospital con ecografía transvaginal, laboratorio, banco de sangre y quirófano.",
+ "imagenes": [],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "ACOG Practice Bulletin No. 193: Tubal Ectopic Pregnancy",
+   "organismo": "American College of Obstetricians and Gynecologists",
+   "autores": "Committee on Practice Bulletins—Gynecology",
+   "anio": 2018,
+   "version": "",
+   "pmid": "29470343",
+   "doi": "10.1097/AOG.0000000000002560",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Boletín de 2018; confirma si ACOG publicó una actualización.",
+   "recomendacion": "La mayoría de los embarazos tubáricos detectados precozmente se tratan con cirugía mínimamente invasiva o con metotrexato; el ectópico con paciente inestable es una emergencia que requiere cirugía inmediata."
+  }
+ ],
+ "discrepancias": [
+  "Solo se verificó en esta consulta el boletín ACOG 193 (2018). No se incorporó la guía NICE ni una norma peruana (MINSA) por no haber podido consultar su texto: los criterios de elegibilidad exactos para metotrexato (umbrales de hCG, tamaño) varían según la guía y se omiten aquí a propósito. Sigue el protocolo de tu institución."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Mujer de 27 años, 6 semanas desde su última regla, con dolor en fosa ilíaca izquierda desde ayer y manchado oscuro escaso. Antecedente de infección pélvica hace 2 años. Está pálida pero conversa con normalidad. Abdomen con dolor a la palpación en la fosa ilíaca izquierda, sin defensa.",
+   "vitales": {
+    "PA": "112/70 mmHg",
+    "FC": "96 /min",
+    "T": "36,9 °C",
+    "SatO₂": "99 %"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Prueba de embarazo cuantitativa (β-hCG), grupo sanguíneo y hemograma, vía venosa y ecografía transvaginal sin demora",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "Toda mujer en edad fértil con dolor y sangrado necesita descartar embarazo ectópico. Se confirma el embarazo, se evalúa la ubicación con ecografía transvaginal y se asegura el acceso por si se inestabiliza.",
+     "tema": "Dolor abdominal con prueba de embarazo positiva",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Tratar como infección urinaria con antibiótico oral y alta",
+     "calidad": "incorrecta",
+     "siguiente": "n_det",
+     "explicacion": "Sin explorar la posibilidad de un ectópico en una mujer con dolor pélvico y retraso menstrual, se deja sin diagnosticar una causa potencialmente mortal.",
+     "tema": "Dolor abdominal con prueba de embarazo positiva",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Solicitar una tomografía abdominopélvica con contraste como primer estudio",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "Para localizar un embarazo la ecografía transvaginal es la prueba de primera elección: evita radiación innecesaria.",
+     "tema": "Dolor abdominal con prueba de embarazo positiva",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Prescribir antiespasmódico y alta con control en una semana",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Un ectópico no diagnosticado puede romperse en horas. Dar de alta sin descartarlo es un error crítico.",
+     "tema": "Dolor abdominal con prueba de embarazo positiva",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n2": {
+   "estado": "La β-hCG es positiva. La ecografía transvaginal no muestra saco gestacional dentro del útero y sí una masa anexial izquierda de aspecto heterogéneo y una pequeña cantidad de líquido libre en el fondo de saco. Continúa estable, con dolor leve.",
+   "vitales": {
+    "PA": "110/68 mmHg",
+    "FC": "92 /min",
+    "Hb": "11,8 g/dL",
+    "Líquido libre": "escaso"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Embarazo ectópico (probablemente tubárico) en paciente hemodinámicamente estable: seguir con evaluación para decidir manejo médico o quirúrgico",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Embarazo positivo sin saco intrauterino y masa anexial compatible orienta a ectópico. La estabilidad hemodinámica abre la opción del manejo médico en casos seleccionados.",
+     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Repetir la ecografía dentro de un mes",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Esperar semanas ante una masa anexial con embarazo positivo expone a una rotura. Hay que decidir manejo ya.",
+     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Programar legrado uterino para confirmar el diagnóstico",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "El legrado no trata un ectópico tubárico y retrasa el manejo adecuado. Un saco ausente no se resuelve legrando.",
+     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n3": {
+   "estado": "Hay que escoger el tratamiento. Está estable, con dolor leve, sin signos de rotura, entiende la necesidad de seguimiento y no tiene contraindicaciones aparentes. Se trata de un ectópico tubárico sin latido embrionario.",
+   "vitales": {
+    "PA": "112/70 mmHg",
+    "FC": "88 /min",
+    "Estado": "estable"
+   },
+   "gravedad": 1,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Manejo médico con metotrexato tras verificar elegibilidad (función hepática y renal, hemograma, ausencia de contraindicaciones) y explicar seguimiento estrecho y signos de alarma",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "En un ectópico precoz, estable y sin contraindicaciones, el metotrexato es una opción segura y efectiva que evita la cirugía, siempre con seguimiento con β-hCG y con la paciente informada.",
+     "tema": "Manejo médico vs quirúrgico del ectópico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Cirugía laparoscópica, aceptable si hay criterios o preferencia, aunque no sea imprescindible",
+     "calidad": "aceptable",
+     "siguiente": "n4",
+     "explicacion": "La cirugía mínimamente invasiva también es válida, pero en una paciente estable y elegible no es obligatoria; el metotrexato evita el acto quirúrgico.",
+     "tema": "Manejo médico vs quirúrgico del ectópico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Metotrexato sin pedir estudios previos ni explicar el seguimiento y con alta inmediata",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "Dar metotrexato sin verificar elegibilidad ni asegurar seguimiento puede causar toxicidad y pasar por alto una rotura.",
+     "tema": "Seguridad del metotrexato",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n4": {
+   "estado": "Se indica metotrexato. Se explican los signos de alarma: dolor intenso, mareo, desmayo, sangrado abundante. Hay que decidir el plan de seguimiento.",
+   "vitales": {
+    "Estado": "estable",
+    "Dolor": "leve",
+    "Ambulatoria": "con acompañante y teléfono"
+   },
+   "gravedad": 0,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Control con β-hCG seriada según protocolo, evitar relaciones y embarazo hasta la resolución, no tomar antiinflamatorios ni ácido fólico en exceso sin indicación y acudir de inmediato si aparecen signos de alarma",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "El seguimiento con β-hCG es esencial para confirmar la resolución; el dolor transitorio es frecuente pero el dolor súbito intenso o el síncope obligan a consultar de inmediato.",
+     "tema": "Seguimiento tras metotrexato",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Alta sin cita de control, porque ya recibió el tratamiento",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin seguimiento no se sabe si el tratamiento funcionó ni se detecta una falla a tiempo.",
+     "tema": "Seguimiento tras metotrexato",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n_det": {
+   "estado": "Horas después, la paciente regresa con dolor abdominal intenso, mareo y palidez. Abdomen distendido y doloroso, con defensa.",
+   "vitales": {
+    "PA": "78/44 mmHg",
+    "FC": "132 /min",
+    "Hb": "7,9 g/dL",
+    "Líquido libre": "abundante"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Reanimar con líquidos y hemoderivados, preparar quirófano y operar de urgencia por ectópico roto",
+     "calidad": "optima",
+     "siguiente": "f_rescate",
+     "explicacion": "Un ectópico roto con inestabilidad es una emergencia quirúrgica: se reanima y se opera sin demorar para estudios adicionales.",
+     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Repetir la ecografía y esperar a que se estabilice antes de decidir",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "En el choque hemorrágico por rotura, esperar es peligroso: se reanima y se opera de inmediato.",
+     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "Se diagnosticó antes de la rotura y se resolvió con metotrexato y seguimiento, sin cirugía."
+   }
+  },
+  "f_rescate": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Recuperación con retraso",
+    "mensaje": "Se salvó la paciente, aunque el diagnóstico tardío llevó a una rotura y cirugía de urgencia."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Resolución con riesgo no vigilado",
+    "mensaje": "El tratamiento pudo funcionar, pero sin seguimiento no se verificó la resolución."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "La demora ante un ectópico roto llevó a choque hemorrágico grave."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Mujer de 27 años con retraso menstrual, dolor pélvico izquierdo y sangrado escaso, con β-hCG positiva y ecografía transvaginal con útero vacío, masa anexial y escaso líquido libre: embarazo ectópico tubárico, hemodinámicamente estable.",
+  "razonamiento": [
+   "Dolor pélvico con sangrado y retraso menstrual en edad fértil: descartar embarazo y ectópico antes que otras causas.",
+   "Pedir β-hCG, grupo sanguíneo, hemograma y ecografía transvaginal; asegurar vía venosa.",
+   "Interpretar: embarazo positivo sin saco intrauterino y masa anexial = ectópico hasta demostrar lo contrario.",
+   "Evaluar la estabilidad: si es inestable o hay rotura, cirugía inmediata; si es estable y elegible, el metotrexato es una opción.",
+   "Planificar el seguimiento con β-hCG y los signos de alarma."
+  ],
+  "tratamiento": [
+   {
+    "item": "Ectópico estable y elegible",
+    "detalle": "Metotrexato intramuscular tras verificar función hepática, renal y hemograma, con seguimiento seriado de β-hCG.",
+    "dosis": "El esquema (dosis única o múltiple, por superficie corporal) y los umbrales de hCG se toman del protocolo institucional vigente; no se fija una dosis en este caso."
+   },
+   {
+    "item": "Ectópico inestable o roto",
+    "detalle": "Reanimación, hemoderivados y cirugía inmediata.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Seguimiento",
+    "detalle": "β-hCG seriada hasta negativizar, evitar el embarazo durante el período indicado y consultar ante signos de alarma. Si la paciente es Rh negativa, valorar inmunoglobulina anti-D según protocolo.",
+    "dosis": "No aplica."
+   }
+  ],
+  "temas_relacionados": [
+   "Embarazo ectópico",
+   "Hemorragia del primer trimestre",
+   "Choque hemorrágico"
+  ],
+  "casos_relacionados": [
+   "g08"
+  ],
+  "mensaje_clave": "Toda mujer en edad fértil con dolor y sangrado necesita descartar un embarazo ectópico; si está estable y es elegible, el metotrexato es una opción con seguimiento."
+ },
+ "areas_banco": [
+  "ginecologia"
+ ]
+}

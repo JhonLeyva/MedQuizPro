@@ -50,7 +50,7 @@ def cmd_verificar(a):
         for x in resumen(lista[i:i + 20]):
             for cid, r in ids.pop(x["uid"]):
                 ok_anio = str(r.get("anio")) == anio(x) or abs(int(r.get("anio", 0)) - int(anio(x))) <= 1      # ±1: fecha electrónica vs. del volumen
-                ok_tit = len(set(norm(r["titulo"]).split()) & set(norm(x["title"]).split())) >= max(3, int(0.5 * len(set(norm(x["title"]).split()))))
+                a_, b_ = set(norm(r["titulo"]).split()), set(norm(x["title"]).split()); ok_tit = len(a_ & b_) >= max(3, int(0.5 * min(len(a_), len(b_))))      # PubMed a veces concatena el título en varios idiomas
                 ok_doi = (not r.get("doi")) or r["doi"].lower() == doi(x).lower()
                 if not (ok_anio and ok_tit and ok_doi): print("MAL  %s PMID %s: año %s/%s título %s doi %s → PubMed: «%s» (%s)" % (cid, x["uid"], r.get("anio"), anio(x), ok_tit, ok_doi, x["title"][:90], anio(x))); mal += 1
     for p, lst in ids.items(): print("MAL  PMID inexistente:", p, [c for c, _ in lst]); mal += 1

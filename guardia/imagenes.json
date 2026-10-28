@@ -25,7 +25,8 @@
    "modalidad": "ecografia",
    "region": "abdomen",
    "hallazgo_evaluado": "Signo de la diana (target/doughnut) de la intususcepción en la ecografía abdominal de un lactante",
-   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo)."
+   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo).",
+   "alt_neutro": "Ecografía abdominal, corte transversal en el flanco derecho de un lactante."
   },
   "im-9b27": {
    "archivo": "guardia/img/im-9b27.png",
@@ -51,7 +52,8 @@
    "modalidad": "radiografia",
    "region": "torax",
    "hallazgo_evaluado": "Derrame pleural izquierdo, consolidación y adenopatías hiliares y mediastínicas en un paciente con VIH y TB",
-   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo)."
+   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo).",
+   "alt_neutro": "Radiografía de tórax de frente (proyección posteroanterior) de un adulto."
   },
   "im-71ea": {
    "archivo": "guardia/img/im-71ea.png",
@@ -77,7 +79,8 @@
    "modalidad": "radiografia",
    "region": "torax",
    "hallazgo_evaluado": "Ensanchamiento mediastínico con cardiomegalia en la radiografía portátil",
-   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo)."
+   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo).",
+   "alt_neutro": "Radiografía portátil de tórax de frente de un adulto."
   },
   "im-e052": {
    "archivo": "guardia/img/im-e052.png",
@@ -103,7 +106,8 @@
    "modalidad": "tomografia",
    "region": "torax",
    "hallazgo_evaluado": "Disección de aorta ascendente tipo A con rotura focal de la falsa luz y derrame pericárdico en la angio-TC",
-   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo)."
+   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo).",
+   "alt_neutro": "Angiotomografía de tórax, corte coronal."
   },
   "im-c3d8": {
    "archivo": "guardia/img/im-c3d8.png",
@@ -129,7 +133,8 @@
    "modalidad": "tomografia",
    "region": "cabeza",
    "hallazgo_evaluado": "Signos precoces de infarto en la corteza insular izquierda en la TC sin contraste y oclusión de la arteria cerebral media en la angio-TC",
-   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo)."
+   "modificaciones": "Ninguna (se muestra la imagen tal como la sirve Open-i, 512 px de ancho; sin ajustes de brillo ni contraste en el archivo).",
+   "alt_neutro": "Panel A: tomografía de cráneo sin contraste, corte axial. Panel B: angiotomografía de las arterias intracraneales. Contiene flechas de los autores originales."
   }
  }
 }

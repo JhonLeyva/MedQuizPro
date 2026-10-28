@@ -1,0 +1,381 @@
+{
+ "id": "g08",
+ "titulo": "Colisión de moto con abdomen distendido e hipotensión",
+ "especialidad": "Cirugía general · Trauma · Anestesiología / Cuidados críticos",
+ "dificultad": 3,
+ "duracion_min": 12,
+ "resumen": "Varón de 30 años con trauma cerrado, shock y abdomen distendido. Decide cómo controlar la hemorragia, qué líquidos y qué hemoderivados usar.",
+ "contexto": "Hospital con banco de sangre, quirófano de urgencia, ecografía FAST y UCI.",
+ "imagenes": [],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "ensayo",
+   "titulo": "Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2)",
+   "organismo": "Lancet",
+   "autores": "CRASH-2 trial collaborators, Shakur H, Roberts I, Bautista R et al.",
+   "anio": 2010,
+   "version": "",
+   "pmid": "20554319",
+   "doi": "10.1016/S0140-6736(10)60835-5",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Ensayo clínico clásico; la recomendación actual está recogida en guías posteriores.",
+   "recomendacion": "El ácido tranexámico administrado en pacientes con trauma y hemorragia significativa redujo la mortalidad por cualquier causa y por sangrado cuando se dio de forma precoz, dentro de las 3 horas de la lesión."
+  },
+  {
+   "id": "r2",
+   "tipo": "ensayo",
+   "titulo": "Transfusion of plasma, platelets, and red blood cells in a 1:1:1 vs a 1:1:2 ratio and mortality in patients with severe trauma: the PROPPR randomized clinical trial",
+   "organismo": "JAMA",
+   "autores": "Holcomb JB, Tilley BC, Baraniuk S, Fox EE et al.",
+   "anio": 2015,
+   "version": "",
+   "pmid": "25647203",
+   "doi": "10.1001/jama.2015.12",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Ensayo clínico; su recomendación se integra en guías posteriores.",
+   "recomendacion": "En trauma grave con hemorragia, una proporción 1:1:1 (plasma:plaquetas:glóbulos rojos) frente a 1:1:2 no difirió significativamente en la mortalidad a 24 horas ni a 30 días, pero logró más hemostasia y menos muertes por exanguinación en las primeras 24 horas."
+  },
+  {
+   "id": "r3",
+   "tipo": "guia",
+   "titulo": "The European guideline on management of major bleeding and coagulopathy following trauma: sixth edition",
+   "organismo": "European Society of Anaesthesiology and Intensive Care / grupo europeo de trauma",
+   "autores": "Rossaint R, Afshari A, Bouillon B, Cerny V et al.",
+   "anio": 2023,
+   "version": "",
+   "pmid": "36859355",
+   "doi": "10.1186/s13054-023-04327-7",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Edición 2023, vigente según la última búsqueda; su texto completo no se leyó en esta sesión, solo el registro de PubMed.",
+   "recomendacion": "Guía europea de trauma con sangrado mayor y coagulopatía: recomienda control precoz del sangrado, estrategia de resucitación limitada con hipotensión permisiva hasta controlar la hemorragia en ausencia de traumatismo craneal, y manejo precoz de la coagulopatía y de la hipotermia."
+  }
+ ],
+ "discrepancias": [
+  "Los umbrales y metas de resucitación se tomaron de la guía europea 2023, cuya recomendación específica de la presión objetivo (sistólica de 80 a 90 mmHg hasta controlar el sangrado, sin traumatismo craneal) no se verificó en el texto completo en esta sesión, solo su registro; confirma en el documento original. No se consultó una norma peruana de trauma. El ATLS, que no se cita aquí, es otra referencia habitual en la formación."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Varón de 30 años, motociclista sin casco, ingresa 25 minutos después de una colisión. Está pálido, sudoroso y ansioso, pero responde a órdenes. Abdomen distendido y doloroso. Pelvis inestable a la compresión. Sin signos de traumatismo craneal grave.",
+   "vitales": {
+    "PA": "78/45 mmHg",
+    "FC": "136 /min",
+    "FR": "30 /min",
+    "SatO₂": "93 %",
+    "Glasgow": "14"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Evaluación primaria ABCDE, control de la hemorragia externa, dos vías gruesas, activar el protocolo de transfusión masiva, cinturón pélvico, ecografía FAST y ácido tranexámico precoz",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El shock con abdomen distendido y pelvis inestable es hemorrágico hasta demostrar lo contrario. Se controla la hemorragia, se activa la transfusión y se identifica la fuente con FAST.",
+     "tema": "Control de la hemorragia en el trauma",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1",
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Pasar dos litros de cristaloides a chorro y reevaluar",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "Los grandes volúmenes de cristaloide diluyen los factores de coagulación y aumentan el sangrado; la resucitación debe basarse en hemoderivados.",
+     "tema": "Control de la hemorragia en el trauma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Llevarlo a una tomografía de cuerpo entero antes de estabilizarlo",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "En un paciente hemodinámicamente inestable la tomografía retrasa el control de la hemorragia: primero se estabiliza o se opera.",
+     "tema": "Control de la hemorragia en el trauma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Intubar de inmediato con inducción convencional antes de reponer volumen",
+     "calidad": "peligrosa",
+     "siguiente": "n_det",
+     "explicacion": "La inducción en un paciente en shock hemorrágico sin reposición previa puede causar un colapso cardiovascular y un paro.",
+     "tema": "Seguridad: intubación en el shock hemorrágico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r3"
+     ]
+    }
+   ]
+  },
+  "n2": {
+   "estado": "La ecografía FAST muestra líquido libre abundante en el espacio hepatorrenal. Con la reposición inicial la presión mejora de forma transitoria y vuelve a caer. No hay hallazgos de traumatismo craneal.",
+   "vitales": {
+    "PA": "84/50 mmHg",
+    "FC": "130 /min",
+    "FAST": "positivo",
+    "Respuesta": "transitoria"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Resucitación de control de daños: hemoderivados balanceados, hipotensión permisiva hasta controlar el sangrado (sin traumatismo craneal), calentamiento y llevarlo a quirófano para una laparotomía de control de daños",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Con FAST positivo e inestabilidad hemodinámica, la prioridad es controlar la fuente quirúrgicamente mientras se resucita con hemoderivados y se evita la sobrecarga de cristaloides.",
+     "tema": "Resucitación de control de daños",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Seguir con cristaloides hasta normalizar la presión antes de operar",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "Normalizar la presión con cristaloides antes de controlar el sangrado aumenta la hemorragia y la coagulopatía.",
+     "tema": "Resucitación de control de daños",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Hacer una tomografía de abdomen para delimitar las lesiones antes de decidir",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "Con FAST positivo e inestabilidad no se retrasa la cirugía para obtener tomografía: es una decisión de quirófano.",
+     "tema": "Resucitación de control de daños",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    }
+   ]
+  },
+  "n3": {
+   "estado": "Mientras se traslada a quirófano hay que decidir qué hemoderivados y qué fármaco usar. Han pasado 55 minutos desde el trauma y sigue la hemorragia.",
+   "vitales": {
+    "Tiempo desde la lesión": "55 min",
+    "PA": "86/52 mmHg",
+    "Hemorragia": "activa",
+    "Hb": "9,8 g/dL"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Transfusión balanceada (plasma, plaquetas y glóbulos rojos en una proporción cercana a 1:1:1) y ácido tranexámico precoz dentro de las primeras 3 horas, con control de calcio, temperatura y lactato",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La transfusión balanceada y el ácido tranexámico precoz son pilares de la resucitación de control de daños: el tranexámico reduce la mortalidad si se da dentro de las 3 primeras horas.",
+     "tema": "Transfusión balanceada y ácido tranexámico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Transfundir solo glóbulos rojos hasta una Hb mayor de 10 y dejar el plasma para después",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Reponer solo glóbulos rojos agrava la coagulopatía por dilución; se necesita plasma y plaquetas junto con los glóbulos rojos desde el inicio.",
+     "tema": "Transfusión balanceada y ácido tranexámico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "No dar ácido tranexámico y esperar a ver si el sangrado cede",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Omitir el ácido tranexámico en el sangrado traumático significativo priva de una intervención que reduce la mortalidad si se da pronto.",
+     "tema": "Transfusión balanceada y ácido tranexámico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ]
+  },
+  "n4": {
+   "estado": "Tras una laparotomía de control de daños (empaquetamiento y control de sangrado) el paciente llega a UCI con el abdomen abierto con compresas. Temperatura de 34,5 °C, pH de 7,20 y coagulopatía en el laboratorio.",
+   "vitales": {
+    "T": "34,5 °C",
+    "pH": "7,20",
+    "Lactato": "6,5 mmol/L",
+    "Abdomen": "abierto con compresas"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Continuar la resucitación guiada por laboratorio, recalentamiento activo, corregir la coagulopatía y la acidosis y planificar una relaparotomía en 24 a 48 horas para retirar las compresas",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Se debe romper la tríada letal (hipotermia, acidosis, coagulopatía) en UCI y volver a quirófano de forma planeada cuando el paciente esté corregido.",
+     "tema": "Tríada letal y cuidados críticos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Volver de inmediato a quirófano para la reparación definitiva y el cierre completo",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Una cirugía larga con hipotermia, acidosis y coagulopatía sin corregir arriesga una nueva descompensación; se corrige primero en UCI.",
+     "tema": "Tríada letal y cuidados críticos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Administrar más cristaloides a temperatura ambiente para mejorar la presión",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Más cristaloides fríos empeoran la hipotermia, la acidosis y la coagulopatía: es parte de la tríada letal.",
+     "tema": "Tríada letal",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r3"
+     ]
+    }
+   ]
+  },
+  "n_det": {
+   "estado": "Tras la inducción, el paciente cae en parada con actividad eléctrica sin pulso.",
+   "vitales": {
+    "PA": "no registrable",
+    "Ritmo": "actividad eléctrica sin pulso",
+    "Pulso": "ausente"
+   },
+   "gravedad": 2,
+   "decisiones": [
+    {
+     "id": "a",
+     "texto": "Reanimación dirigida a la causa: control inmediato de la hemorragia, transfusión masiva y reposición de volumen simultánea a las maniobras",
+     "calidad": "optima",
+     "siguiente": "f_rescate",
+     "explicacion": "En la parada traumática de causa hemorrágica, lo esencial es reponer volumen y controlar el sangrado, no solo las maniobras habituales.",
+     "tema": "Resucitación de control de daños",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Seguir solo con compresiones y adrenalina sin reponer volumen",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Sin reponer volumen y controlar el sangrado, las compresiones solas no revierten la causa.",
+     "tema": "Resucitación de control de daños",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r3"
+     ]
+    }
+   ]
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "Se controló la hemorragia con estrategia de control de daños y se corrigió la tríada letal."
+   }
+  },
+  "f_rescate": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Recuperación con retraso",
+    "mensaje": "Se salvó al paciente tras un colapso que una inducción más cuidadosa habría evitado."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Evolución con riesgo",
+    "mensaje": "Se controló el sangrado, pero una cirugía prolongada en un paciente sin corregir aumenta el riesgo."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "Una conducta insegura agravó la coagulopatía y el shock."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Varón de 30 años con trauma cerrado, shock hemorrágico, abdomen distendido, pelvis inestable y FAST positivo. Se manejó con resucitación de control de daños: transfusión balanceada, ácido tranexámico precoz, hipotensión permisiva y laparotomía de control de daños, con manejo posterior de la tríada letal en UCI.",
+  "razonamiento": [
+   "Shock en trauma cerrado = hemorragia hasta demostrar lo contrario; ABCDE y control de la fuente.",
+   "Activar el protocolo de transfusión masiva y evitar grandes volúmenes de cristaloides.",
+   "FAST positivo con inestabilidad: ir a quirófano para controlar el sangrado, sin tomografía.",
+   "Ácido tranexámico precoz (< 3 h) y hemoderivados balanceados con vigilancia de calcio y temperatura.",
+   "En UCI, romper la tríada letal y planificar la relaparotomía."
+  ],
+  "tratamiento": [
+   {
+    "item": "Ácido tranexámico",
+    "detalle": "En el ensayo CRASH-2 se dio durante las primeras 3 horas de la lesión.",
+    "dosis": "CRASH-2: 1 g en 10 minutos y luego 1 g en 8 horas; confirma el esquema en el protocolo institucional."
+   },
+   {
+    "item": "Hemoderivados",
+    "detalle": "Transfusión balanceada con proporciones cercanas a 1:1:1 de plasma, plaquetas y glóbulos rojos en la hemorragia masiva.",
+    "dosis": "Volúmenes según protocolo de transfusión masiva del banco de sangre."
+   },
+   {
+    "item": "Presión objetivo",
+    "detalle": "Hipotensión permisiva hasta controlar el sangrado, en ausencia de traumatismo craneal (la meta numérica debe confirmarse en la guía europea 2023).",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "UCI",
+    "detalle": "Recalentamiento activo, corrección de coagulopatía y acidosis y relaparotomía planeada.",
+    "dosis": "No aplica."
+   }
+  ],
+  "temas_relacionados": [
+   "Shock hemorrágico",
+   "Resucitación de control de daños",
+   "Trauma abdominal y pélvico"
+  ],
+  "casos_relacionados": [
+   "g03",
+   "g02"
+  ],
+  "mensaje_clave": "En el shock hemorrágico traumático se controla la fuente y se repone con hemoderivados balanceados, sin sobrecargar de cristaloides."
+ },
+ "areas_banco": [
+  "cirugia",
+  "traumatologia"
+ ]
+}
