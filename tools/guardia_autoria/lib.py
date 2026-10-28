@@ -48,7 +48,7 @@ def N(estado, vit, grav, tipo, peso, decs, pregunta="¿Qué haces ahora?", tema=
     n = {"estado": estado, "vitales": vit, "gravedad": grav, "tipo": tipo, "peso": peso, "pregunta": pregunta, "_decs": decs, "_tema": tema, "_comp": comp, "_refs": list(refs)}
     if ayuda: n["ayuda"] = ayuda
     if img: n["imagen"] = {"id": img[0], "consigna": img[1]}
-    if lab: n["laboratorio"] = {"titulo": lab[0], "resultados": [{"prueba": p, "valor": v} for p, v in lab[1]], "ocultar_marcas": bool(interp_lab)}
+    if lab: n["laboratorio"] = {"titulo": lab[0], "resultados": [dict({"prueba": x[0], "valor": x[1]}, **({"etiqueta": x[2]} if len(x) > 2 and x[2] else {}), **({"ref": x[3]} if len(x) > 3 and x[3] else {})) for x in lab[1]], "ocultar_marcas": bool(interp_lab)}
     if tiempo: n["tiempo"] = tiempo
     if deterioro: n["deterioro"] = True
     return n
@@ -58,6 +58,11 @@ def R(id, tipo, titulo, org, autores, anio, vig, rec, pmid=None, doi=None, url=N
     r = {"id": id, "tipo": tipo, "titulo": titulo, "organismo": org, "autores": autores, "anio": anio, "version": version or "", "pmid": pmid or "", "doi": doi or "", "url": url or "", "fecha_consulta": FECHA, "vigencia": vig, "recomendacion": rec}
     if complementaria: r["complementaria"] = True
     return r
+
+_SUB = re.compile(r"(?<![,;:(]) (ya que|pues|porque|aunque|mientras|dado que|por lo que|siendo|pese a que|a pesar de que|a pesar de|para que)\b")
+def _estilo(t):
+    """Puntuación uniforme en TODAS las alternativas: coma antes de la subordinada, para que el estilo no delate la correcta."""
+    return _SUB.sub(lambda m: ", " + m.group(1), t)
 
 def _asignar(caso_id, nid, n):
     decs = n.pop("_decs"); tema = n.pop("_tema"); comp = n.pop("_comp"); refs = n.pop("_refs")
@@ -76,7 +81,7 @@ def _asignar(caso_id, nid, n):
         for k in ("texto", "explicacion"): assert d[k] and "  " not in d[k], f"{donde}/{l}: {k} vacío o con doble espacio"
         assert not re.search(r"\b(opción|alternativa|letra)\s+[A-E]\b", d["explicacion"]), f"{donde}/{l}: la explicación no debe nombrar letras (se reordenan)"
         assert not re.search(r"(?i)todas las anteriores|ninguna de las anteriores", d["texto"]), f"{donde}/{l}: prohibido «todas/ninguna de las anteriores»"
-        d["texto"] = d["texto"]; 
+        d["texto"] = _estilo(d["texto"])
         assert 45 <= len(d["texto"]) <= 190, f"{donde}/{l}: longitud de la alternativa fuera de 45–190 ({len(d['texto'])})"
     L = [len(d["texto"]) for d in orden]; lc = len(correcta["texto"])
     if lc == max(L) and L.count(lc) == 1: AVISOS.append(f"{donde}: la correcta es la más larga ({lc} vs {sorted(L)})")

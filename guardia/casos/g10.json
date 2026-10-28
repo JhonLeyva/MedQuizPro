@@ -3,9 +3,41 @@
  "titulo": "Fiebre, disnea y confusión en un adulto mayor",
  "especialidad": "Medicina interna · Cuidados críticos · Neumología",
  "dificultad": 2,
- "duracion_min": 12,
- "resumen": "Varón de 72 años con fiebre, tos, disnea e hipotensión. Decide el orden de los antibióticos, los líquidos y el vasopresor en el choque séptico.",
+ "duracion_min": 22,
+ "areas_banco": [
+  "infectologia",
+  "neumologia"
+ ],
+ "resumen": "Varón de 72 años con fiebre, tos, disnea e hipotensión. Decide el orden de antibióticos, líquidos y vasopresor, interpreta el laboratorio y cierra el tratamiento del choque séptico.",
  "contexto": "Emergencia con laboratorio, radiografía, gases arteriales y UCI disponibles.",
+ "paciente": {
+  "edad": 72,
+  "edad_texto": "72 años",
+  "sexo": "M",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "uci",
+   "nombre": "Medicina intensiva"
+  },
+  {
+   "id": "infecto",
+   "nombre": "Infectología"
+  },
+  {
+   "id": "neumo",
+   "nombre": "Neumología"
+  },
+  {
+   "id": "emerg",
+   "nombre": "Medicina de emergencias"
+  },
+  {
+   "id": "nefro",
+   "nombre": "Nefrología"
+  }
+ ],
  "imagenes": [],
  "referencias": [
   {
@@ -22,10 +54,26 @@
    "fecha_consulta": "2026-10-28",
    "vigencia": "Vigente según la última búsqueda; confirma si existe una edición posterior.",
    "recomendacion": "Antibiótico en la primera hora si hay choque o sepsis probable, control precoz del foco, cristaloides (sugerencia de al menos 30 mL/kg en 3 h si hay hipoperfusión), noradrenalina como vasopresor de primera línea, PAM de 65 mmHg, corticoide intravenoso en choque séptico con requerimiento persistente de vasopresor y desescalada antibiótica diaria."
+  },
+  {
+   "id": "r2",
+   "tipo": "consenso",
+   "titulo": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+   "organismo": "Sociedades de cuidados críticos (SCCM/ESICM)",
+   "autores": "Singer M, Deutschman CS, Seymour CW, Shankar-Hari M et al.",
+   "anio": 2016,
+   "version": "",
+   "pmid": "26903338",
+   "doi": "10.1001/jama.2016.0287",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Definiciones de 2016; vigentes como marco conceptual, la guía SSC 2021 las usa como referencia.",
+   "recomendacion": "Define la sepsis como disfunción orgánica potencialmente mortal por una respuesta desregulada a la infección; el choque séptico añade necesidad de vasopresor y lactato > 2 mmol/L pese a una reposición adecuada."
   }
  ],
  "discrepancias": [
-  "La guía Surviving Sepsis Campaign 2021 es internacional; no se consultó una norma peruana (MINSA/EsSalud) de sepsis. Las recomendaciones de líquidos y corticoides son sugerencias de grado débil: la práctica local puede variar. El umbral exacto de dosis de vasopresor para el corticoide no se verificó en esta sesión."
+  "La guía Surviving Sepsis Campaign 2021 es internacional; no se consultó una norma peruana (MINSA/EsSalud) de sepsis. Las recomendaciones de líquidos y corticoides son sugerencias de grado débil: la práctica local puede variar. El umbral exacto de dosis de vasopresor para el corticoide y las recomendaciones de soporte respiratorio no se verificaron en esta sesión, por lo que el caso no fija cifras de ventilación.",
+  "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; en altitud la PaO₂ y la saturación de referencia son menores."
  ],
  "inicio": "n1",
  "nodos": {
@@ -39,13 +87,62 @@
     "SatO₂": "88 % (aire ambiente)"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta inicial prioritaria?",
+   "ayuda": {
+    "especialista": "emerg",
+    "pertinentes": [
+     "emerg",
+     "uci"
+    ],
+    "n1": "Fiebre, hipotensión, confusión e hipoxemia: ¿qué se hace en la primera hora y qué no puede esperar a la imagen?",
+    "n2": "Cultivos, antibiótico de amplio espectro, líquidos y oxígeno de inmediato, con lactato."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reconocer sepsis con hipoperfusión: oxígeno, vía venosa, lactato y hemocultivos, antibiótico de amplio espectro en la primera hora, cristaloides y radiografía de tórax",
+     "texto": "Dar oxígeno y un antipirético y enviarlo a casa con control en 48 horas, por tratarse de un cuadro respiratorio frecuente",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Es una sepsis con riesgo vital: el alta es un error crítico.",
+     "id": "A",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar la radiografía y los cultivos antes de dar el antibiótico, para elegirlo con mayor precisión según el germen sospechado",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Retrasar el antibiótico en el choque séptico aumenta la mortalidad; se toman cultivos y se administra de inmediato.",
+     "omision": true,
+     "id": "B",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar un antibiótico oral y observar en piso con control de signos vitales cada seis horas por parte del equipo de guardia",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Un paciente con hipotensión, confusión e hipoxemia requiere antibiótico endovenoso, reanimación y vigilancia estrecha.",
+     "id": "C",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Oxígeno y vía venosa con lactato y hemocultivos, y antibiótico de amplio espectro en la primera hora con cristaloides",
      "calidad": "optima",
      "siguiente": "n2",
-     "explicacion": "El cuadro es una neumonía con sepsis e hipoperfusión. Se toman cultivos sin retrasar el antibiótico y se inicia la reposición de volumen y el soporte respiratorio.",
+     "explicacion": "El cuadro es una neumonía con sepsis e hipoperfusión: se toman cultivos sin retrasar el antibiótico y se inicia la reposición y el soporte respiratorio.",
+     "id": "D",
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
@@ -53,45 +150,252 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Esperar la radiografía y los cultivos antes de dar el antibiótico",
+     "texto": "Indicar nebulizaciones, un corticoide inhalado y observación en sala, suponiendo una exacerbación respiratoria sin infección grave",
      "calidad": "incorrecta",
-     "siguiente": "n2",
-     "explicacion": "Retrasar el antibiótico en el choque séptico aumenta la mortalidad; se toman cultivos y se administra de inmediato.",
-     "tema": "Reconocimiento y manejo inicial de la sepsis",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Dar un antibiótico oral y observar en piso",
-     "calidad": "incorrecta",
-     "siguiente": "n2",
-     "explicacion": "Un paciente con hipotensión, confusión e hipoxemia requiere antibiótico endovenoso, reanimación y vigilancia estrecha.",
+     "siguiente": "r1",
+     "explicacion": "La fiebre, la hipotensión y la confusión indican sepsis; el tratamiento broncodilatador no la corrige.",
+     "id": "E",
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
       "r1"
      ]
+    }
+   ],
+   "clave": "D"
+  },
+  "r1": {
+   "estado": "Cuatro horas después, sin antibiótico ni reposición adecuados, el paciente está más confuso, con piel moteada y diuresis casi nula. La hipoxemia persiste.",
+   "vitales": {
+    "PA": "76/40 mmHg",
+    "FC": "132 /min",
+    "SatO₂": "86 % (con oxígeno)",
+    "Diuresis": "casi nula"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige el rumbo?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "El paciente empeoró por lo que no se hizo en la primera hora. ¿Qué falta?",
+    "n2": "Cultivos, antibiótico de amplio espectro y reposición ya, en un área de cuidados críticos."
+   },
+   "laboratorio": {
+    "titulo": "Primer lactato",
+    "resultados": [
+     {
+      "prueba": "lactato",
+      "valor": 5.6
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Oxígeno y hemocultivos con antibiótico de amplio espectro ya, cristaloides y pase a cuidados críticos con medición de lactato",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El retraso ya ocurrió: la corrección es dar el antibiótico y reponer volumen ahora, con vigilancia crítica.",
+     "id": "A",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
     },
     {
-     "id": "d",
-     "texto": "Dar oxígeno y un antipirético y mandarlo a casa con control en 48 horas",
+     "texto": "Administrar un corticoide en dosis altas como único tratamiento, mientras se espera la respuesta clínica de las siguientes horas",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El corticoide no sustituye el antibiótico ni la reposición en el choque séptico.",
+     "id": "B",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Trasladar a sala común con control cada ocho horas, porque la saturación se mantiene sobre 85 % con el oxígeno suplementario",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Es una sepsis con riesgo vital: el alta es un error crítico.",
+     "siguiente": "d1",
+     "explicacion": "Un paciente en choque con hipoxemia no puede estar en sala común: es un error crítico.",
+     "id": "C",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar un diurético para mejorar la oxigenación, suponiendo que la disnea se debe a un edema pulmonar por sobrecarga de líquidos",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Un diurético en un paciente hipoperfundido por sepsis agrava el choque.",
+     "id": "D",
+     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar las radiografías y los cultivos antes de iniciar cualquier antibiótico, manteniendo solo el oxígeno y los líquidos orales",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Aguardar con choque instalado prolonga la hipoperfusión; el antibiótico no debe esperar.",
+     "omision": true,
+     "id": "E",
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
   },
   "n2": {
-   "estado": "Lactato 4,8 mmol/L. Tras recibir cristaloides y el antibiótico, la presión sigue baja y la diuresis escasa. La radiografía muestra una consolidación en el lóbulo inferior derecho.",
+   "estado": "Con el antibiótico y la reposición iniciales llegan los estudios. La radiografía muestra una consolidación en el lóbulo inferior derecho. El paciente continúa confuso y con diuresis escasa.",
+   "vitales": {
+    "PA": "88/48 mmHg",
+    "FC": "118 /min",
+    "SatO₂": "92 % (con O₂)",
+    "Conciencia": "confuso"
+   },
+   "gravedad": 2,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cómo interpretas el cuadro y los estudios?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "infecto",
+     "emerg"
+    ],
+    "n1": "Revisa qué órganos muestran alteración: pulmón, riñón, sangre, hígado y perfusión.",
+    "n2": "Infección más disfunción orgánica con lactato alto: ¿cómo se llama ese cuadro?"
+   },
+   "laboratorio": {
+    "titulo": "Laboratorio y gases",
+    "resultados": [
+     {
+      "prueba": "leucocitos",
+      "valor": 21.0
+     },
+     {
+      "prueba": "pcr",
+      "valor": 24.0
+     },
+     {
+      "prueba": "procalcitonina",
+      "valor": 12.0
+     },
+     {
+      "prueba": "lactato",
+      "valor": 4.8
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.9
+     },
+     {
+      "prueba": "bilirrubina_total",
+      "valor": 1.8
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 98
+     },
+     {
+      "prueba": "po2",
+      "valor": 58
+     },
+     {
+      "prueba": "glucosa",
+      "valor": 232
+     }
+    ],
+    "ocultar_marcas": true
+   },
+   "decisiones": [
+    {
+     "texto": "Descompensación diabética con acidosis metabólica como única explicación del cuadro, sin necesidad de abordar la infección pulmonar",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La glucemia no explica la fiebre, la consolidación ni la disfunción de varios órganos; la infección es la causa.",
+     "id": "A",
+     "tema": "Interpretación de la disfunción orgánica en la sepsis",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Exacerbación de insuficiencia cardíaca con congestión pulmonar y shock cardiogénico, con indicación de diuréticos endovenosos",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La fiebre, la consolidación y la leucocitosis orientan a infección; el diurético agravaría la hipoperfusión.",
+     "id": "B",
+     "tema": "Interpretación de la disfunción orgánica en la sepsis",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Hallazgos inespecíficos del adulto mayor sin traducción clínica: repetir los exámenes de laboratorio en doce horas antes de decidir",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "Los resultados indican disfunción de varios órganos; esperar doce horas expone al paciente al choque refractario.",
+     "omision": true,
+     "id": "C",
+     "tema": "Interpretación de la disfunción orgánica en la sepsis",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Neumonía no complicada con respuesta inflamatoria esperable y sin disfunción orgánica, que se maneja en planta con antibiótico oral",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La creatinina, las plaquetas, la bilirrubina y la oxigenación alteradas indican disfunción orgánica: es sepsis, no una neumonía simple.",
+     "id": "D",
+     "tema": "Interpretación de la disfunción orgánica en la sepsis",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Sepsis de origen pulmonar con disfunción de varios órganos (respiratoria, renal, hematológica y hepática) e hipoperfusión",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "La infección con disfunción de varios órganos y lactato alto configura una sepsis grave con hipoperfusión de origen pulmonar.",
+     "id": "E",
+     "tema": "Interpretación de la disfunción orgánica en la sepsis",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "n3": {
+   "estado": "Tras el aporte inicial de cristaloides (al menos 30 mL/kg), la presión sigue baja y la diuresis escasa. El lactato se mantiene elevado.",
    "vitales": {
     "PA": "82/44 mmHg",
     "PAM": "57 mmHg",
@@ -99,13 +403,37 @@
     "SatO₂": "93 % (con O₂)"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es el soporte hemodinámico adecuado?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "La hipotensión persiste tras el volumen inicial: ¿qué fármaco se añade y cuál es la meta?",
+    "n2": "Noradrenalina como vasopresor de primera línea para PAM de 65 mmHg, con línea arterial."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Iniciar noradrenalina para una PAM de al menos 65 mmHg, colocar línea arterial, ingresar a UCI y reevaluar la perfusión",
+     "texto": "Administrar un antiinflamatorio no esteroideo para la fiebre y mantener la reposición de líquidos sin otros fármacos por el momento",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Con lesión renal y choque, los antiinflamatorios no esteroideos empeoran la función renal: error crítico.",
+     "id": "A",
+     "tema": "Choque séptico: vasopresor",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Iniciar noradrenalina para una PAM de 65 mmHg o más, colocar línea arterial, ingresar a UCI y reevaluar la perfusión",
      "calidad": "optima",
-     "siguiente": "n3",
-     "explicacion": "En el choque séptico persistente tras la reposición inicial, la noradrenalina es el vasopresor de primera línea, con una meta de PAM de 65 mmHg y reevaluación de la perfusión.",
+     "siguiente": "n4",
+     "explicacion": "En el choque séptico persistente tras la reposición inicial la noradrenalina es el vasopresor de primera línea, con meta de PAM de 65 mmHg.",
+     "id": "B",
      "tema": "Choque séptico: vasopresor",
      "competencia": "Tratamiento inicial",
      "refs": [
@@ -113,11 +441,11 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Usar dopamina como vasopresor de primera elección",
+     "texto": "Iniciar vasopresina como único vasopresor de primera línea para evitar los efectos adrenérgicos en un paciente de 72 años",
      "calidad": "incorrecta",
-     "siguiente": "n3",
-     "explicacion": "La guía sugiere noradrenalina sobre dopamina; la dopamina se asocia a más arritmias.",
+     "siguiente": "r2",
+     "explicacion": "La vasopresina se añade a la noradrenalina si esta no basta; no es el vasopresor de primera línea.",
+     "id": "C",
      "tema": "Choque séptico: vasopresor",
      "competencia": "Tratamiento inicial",
      "refs": [
@@ -125,67 +453,518 @@
      ]
     },
     {
-     "id": "c",
-     "texto": "Seguir aumentando los líquidos sin vasopresor hasta lograr una presión normal",
+     "texto": "Seguir aumentando los líquidos sin vasopresor hasta lograr una presión normal y reevaluar la perfusión cada dos horas",
      "calidad": "incorrecta",
-     "siguiente": "n3",
+     "siguiente": "r2",
      "explicacion": "El exceso de líquidos sin vasopresor puede causar sobrecarga y empeorar la oxigenación sin corregir la vasodilatación.",
+     "omision": true,
+     "id": "D",
+     "tema": "Choque séptico: vasopresor",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Usar dopamina como vasopresor de primera elección por su disponibilidad por vía periférica y su titulación sencilla",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La guía sugiere noradrenalina antes que dopamina; la dopamina se asocia a más arritmias.",
+     "id": "E",
      "tema": "Choque séptico: vasopresor",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
-  "n3": {
-   "estado": "Tras 12 horas sigue necesitando noradrenalina para mantener la presión, sin poder reducirla. El lactato permanece elevado. Los cultivos están en proceso.",
+  "r2": {
+   "estado": "Dos horas después sin un vasopresor adecuado, la presión sigue baja, el lactato sube y la diuresis es nula. La saturación empeora y aparece piel moteada. Cuidados intensivos evalúa al paciente.",
    "vitales": {
-    "PA": "90/50 mmHg (con noradrenalina)",
-    "Lactato": "3,2 mmol/L",
-    "Vasopresor": "requerimiento persistente"
+    "PA": "74/38 mmHg",
+    "FC": "134 /min",
+    "Lactato": "6,0 mmol/L",
+    "Diuresis": "nula"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué se hace ahora?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci"
+    ],
+    "n1": "Falta el vasopresor y la presión no mejora con más volumen.",
+    "n2": "Noradrenalina con meta de PAM de 65 mmHg, línea arterial y cuidados intensivos."
+   },
+   "laboratorio": {
+    "titulo": "Control de lactato",
+    "resultados": [
+     {
+      "prueba": "lactato",
+      "valor": 6.0
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Considerar corticoide endovenoso (hidrocortisona) por choque séptico con requerimiento persistente de vasopresor, manteniendo el soporte",
+     "texto": "Indicar dobutamina como primera línea para mejorar el gasto cardíaco y la presión en este choque séptico del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "d2",
+     "explicacion": "La dobutamina no es el vasopresor de primera línea; se considera ante disfunción cardíaca con persistente hipoperfusión.",
+     "id": "A",
+     "tema": "Choque séptico: vasopresor",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reponer más líquidos en bolo sin vasopresor y reevaluar la presión después de cada bolo durante las próximas cuatro horas",
+     "calidad": "incorrecta",
+     "siguiente": "d2",
+     "explicacion": "Con hipotensión persistente y sobrecarga potencial, falta el vasopresor; más líquidos solos no bastan.",
+     "omision": true,
+     "id": "B",
+     "tema": "Choque séptico: vasopresor",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Iniciar noradrenalina ya con meta de PAM de 65 mmHg, colocar línea arterial y trasladar a cuidados intensivos para reevaluar",
      "calidad": "optima",
      "siguiente": "n4",
-     "explicacion": "En el choque séptico con vasopresor persistente la guía sugiere corticoide intravenoso (hidrocortisona).",
-     "tema": "Corticoide en choque séptico persistente",
+     "explicacion": "Se corrige la omisión: el vasopresor de primera línea se inicia sin más demora.",
+     "id": "C",
+     "tema": "Choque séptico: vasopresor",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Dar metilprednisolona a dosis muy altas (1 g)",
+     "texto": "Dar hidrocortisona como único tratamiento del choque, mientras se mantiene la reposición de líquidos al mismo ritmo",
      "calidad": "incorrecta",
-     "siguiente": "n4",
-     "explicacion": "Las dosis muy altas no están respaldadas: la recomendación es de hidrocortisona a dosis moderadas.",
-     "tema": "Corticoide en choque séptico persistente",
+     "siguiente": "d2",
+     "explicacion": "El corticoide se considera si persiste el requerimiento de vasopresor; no reemplaza el vasopresor.",
+     "id": "D",
+     "tema": "Choque séptico: vasopresor",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "No considerar nunca corticoides en la sepsis",
+     "texto": "Suspender los líquidos y esperar la recuperación espontánea de la presión durante la noche en la unidad de cuidados intermedios",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Dejar un choque séptico sin soporte lleva a falla multiorgánica y muerte.",
+     "id": "E",
+     "tema": "Choque séptico: vasopresor",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n4": {
+   "estado": "Con noradrenalina la presión mejora a 92/58 mmHg. Se toman muestras de esputo y sangre. Hay que decidir la cobertura antibiótica a mantener según la gravedad y el contexto de neumonía adquirida en la comunidad grave.",
+   "vitales": {
+    "PA": "92/58 mmHg",
+    "FC": "110 /min",
+    "Vasopresor": "noradrenalina en curso",
+    "Cultivos": "tomados"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Qué cobertura antibiótica mantienes?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "uci",
+     "neumo"
+    ],
+    "n1": "El paciente tiene neumonía grave con choque: piensa en la vía, el espectro y la cobertura de gérmenes típicos y atípicos.",
+    "n2": "Antibiótico endovenoso de amplio espectro según el protocolo local de neumonía grave."
+   },
+   "decisiones": [
+    {
+     "texto": "Antibiótico endovenoso de amplio espectro con cobertura de gérmenes típicos y atípicos según el protocolo local de neumonía grave",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "En la neumonía grave con choque el antibiótico es endovenoso, precoz y de amplio espectro con cobertura típica y atípica según el protocolo local.",
+     "id": "A",
+     "tema": "Cobertura antibiótica y cultivos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Un antibiótico oral de espectro estrecho elegido por el costo, completando la cobertura cuando el paciente salga del choque",
      "calidad": "incorrecta",
-     "siguiente": "n4",
+     "siguiente": "n5",
+     "explicacion": "En el choque séptico la vía es endovenosa y el espectro amplio; el costo no justifica un tratamiento insuficiente.",
+     "omision": true,
+     "id": "B",
+     "tema": "Cobertura antibiótica y cultivos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Agregar de entrada tres antibióticos de amplio espectro, incluidos antifúngicos, sin factores de riesgo que lo justifiquen en el paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La cobertura excesiva sin indicación aumenta la toxicidad y la resistencia; se ajusta al contexto y se desescala.",
+     "id": "C",
+     "tema": "Cobertura antibiótica y cultivos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar solo corticoide y antipirético y reservar el antibiótico para cuando se identifique el microorganismo en los cultivos",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Reservar el antibiótico en un choque séptico es peligroso: el corticoide no trata la infección.",
+     "id": "D",
+     "tema": "Cobertura antibiótica y cultivos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender los antibióticos hasta contar con el cultivo definitivo para evitar la selección de resistencia en el paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Se mantiene el tratamiento empírico hasta contar con resultados; suspenderlo aumenta la mortalidad.",
+     "id": "E",
+     "tema": "Cobertura antibiótica y cultivos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n5": {
+   "estado": "A pesar del tratamiento la hipoxemia persiste: la saturación es baja con oxígeno, el paciente respira con esfuerzo y la frecuencia respiratoria es alta. Todavía está consciente aunque somnoliento.",
+   "vitales": {
+    "SatO₂": "88 % (con O₂ alto)",
+    "FR": "34 /min",
+    "Esfuerzo": "uso de músculos accesorios",
+    "PA": "96/58 mmHg"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cómo manejas el soporte respiratorio?",
+   "ayuda": {
+    "especialista": "neumo",
+    "pertinentes": [
+     "neumo",
+     "uci"
+    ],
+    "n1": "La hipoxemia persiste pese al oxígeno. ¿Qué haces antes de que el paciente se agote?",
+    "n2": "Escala el soporte respiratorio de forma precoz y vigilada; evita sedantes y diuréticos."
+   },
+   "laboratorio": {
+    "titulo": "Gasometría arterial",
+    "resultados": [
+     {
+      "prueba": "po2",
+      "valor": 54
+     },
+     {
+      "prueba": "pco2",
+      "valor": 32
+     },
+     {
+      "prueba": "ph",
+      "valor": 7.31
+     },
+     {
+      "prueba": "hco3",
+      "valor": 16
+     },
+     {
+      "prueba": "lactato",
+      "valor": 3.8
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Mantener el mismo flujo de oxígeno y reevaluar a las doce horas, porque la saturación aún es mayor que 85 %",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "Una hipoxemia con esfuerzo respiratorio y frecuencia alta exige reevaluación y escalamiento sin esperar doce horas.",
+     "omision": true,
+     "id": "A",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Sedar al paciente con una benzodiacepina para disminuir la ansiedad respiratoria y reducir el consumo de oxígeno",
+     "calidad": "peligrosa",
+     "siguiente": "d3",
+     "explicacion": "La sedación en un paciente con insuficiencia respiratoria con esfuerzo puede deprimir el estímulo y precipitar el paro.",
+     "id": "B",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Oxígeno titulado al objetivo con vigilancia estrecha y escalamiento ventilatorio precoz si hay agotamiento",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "En la hipoxemia grave el soporte se escala de forma precoz y vigilada según la respuesta, sin esperar el agotamiento.",
+     "id": "C",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Colocar al paciente en decúbito supino plano con oxígeno por cánula nasal de bajo flujo para favorecer su descanso",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "Con hipoxemia grave el bajo flujo y la posición plana no bastan; se necesita soporte escalado y posición adecuada.",
+     "id": "D",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar un diurético endovenoso en dosis altas para mejorar la oxigenación suponiendo edema pulmonar por sobrecarga de líquidos",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "La hipoxemia se debe a la neumonía y al síndrome de dificultad respiratoria; un diurético en shock agrava la perfusión.",
+     "id": "E",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "r3": {
+   "estado": "El paciente se agota: la saturación baja a 82 %, la respiración es superficial y aparece mayor somnolencia. Cuidados intensivos y neumología lo evalúan de inmediato.",
+   "vitales": {
+    "SatO₂": "82 %",
+    "FR": "38 /min",
+    "Conciencia": "más somnoliento",
+    "PA": "90/54 mmHg"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué hace falta ahora?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neumo"
+    ],
+    "n1": "El paciente se agota. ¿Qué indica ese cambio y qué hay que asegurar?",
+    "n2": "Escalar el soporte respiratorio; si fracasa, intubar con ventilación protectora."
+   },
+   "decisiones": [
+    {
+     "texto": "Mantener el oxígeno de bajo flujo y observar durante la noche, porque el paciente aún respira por sus propios medios",
+     "calidad": "incorrecta",
+     "siguiente": "d3",
+     "explicacion": "Con agotamiento y desaturación la observación es peligrosa: se escala el soporte ahora.",
+     "omision": true,
+     "id": "A",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Escalar el soporte respiratorio ya, con ventilación invasiva protectora si fracasa, sosteniendo la hemodinamia",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "Ante agotamiento o fracaso, la intubación y la ventilación protectora son la conducta; se mantiene el soporte hemodinámico.",
+     "id": "B",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Trasladar al paciente a sala común con oxígeno por mascarilla y control de signos vitales cada ocho horas durante la noche",
+     "calidad": "peligrosa",
+     "siguiente": "d3",
+     "explicacion": "Un paciente en insuficiencia respiratoria y choque no puede estar en sala común.",
+     "id": "C",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un diurético y limitar los líquidos para mejorar la oxigenación del paciente hasta normalizar la saturación",
+     "calidad": "incorrecta",
+     "siguiente": "d3",
+     "explicacion": "Un diurético en choque séptico agrava la hipoperfusión y no corrige la neumonía.",
+     "id": "D",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Sedar profundamente sin asegurar la vía aérea para disminuir el trabajo respiratorio durante las próximas horas",
+     "calidad": "incorrecta",
+     "siguiente": "d3",
+     "explicacion": "La sedación sin asegurar la vía aérea puede precipitar la parada respiratoria.",
+     "id": "E",
+     "tema": "Soporte respiratorio en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "n6": {
+   "estado": "Tras 12 horas sigue necesitando noradrenalina para mantener la presión, sin poder reducirla. El lactato permanece elevado y el paciente continúa en cuidados intensivos con soporte respiratorio.",
+   "vitales": {
+    "PA": "92/52 mmHg (con noradrenalina)",
+    "Lactato": "3,2 mmol/L",
+    "Vasopresor": "requerimiento persistente",
+    "Estado": "en UCI"
+   },
+   "gravedad": 2,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta ante el requerimiento persistente de vasopresor?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "infecto"
+    ],
+    "n1": "El vasopresor no se puede retirar. ¿Qué otro fármaco de la guía se considera en esta situación?",
+    "n2": "Hidrocortisona endovenosa en choque séptico con requerimiento persistente de vasopresor (recomendación débil)."
+   },
+   "laboratorio": {
+    "titulo": "Controles a las 12 horas",
+    "resultados": [
+     {
+      "prueba": "lactato",
+      "valor": 3.2
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.7
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 90
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "No considerar nunca corticoides en la sepsis, incluso con requerimiento persistente de vasopresor y sin mejoría del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
      "explicacion": "En el choque séptico persistente existe una recomendación débil a favor de la hidrocortisona; ignorarla sin razón pierde una opción.",
+     "id": "A",
+     "tema": "Corticoide en choque séptico persistente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar metilprednisolona en dosis muy altas (1 g) en lugar de la hidrocortisona, para obtener un efecto antiinflamatorio máximo",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Las dosis muy altas no están respaldadas: la recomendación es de hidrocortisona a dosis moderadas.",
+     "id": "B",
+     "tema": "Corticoide en choque séptico persistente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender la noradrenalina de golpe para probar si el paciente tolera sin vasopresor, aunque la presión se mantenga justa",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Retirar el vasopresor con requerimiento persistente puede precipitar un colapso hemodinámico.",
+     "id": "C",
+     "tema": "Corticoide en choque séptico persistente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Considerar hidrocortisona endovenosa por choque séptico con requerimiento persistente de vasopresor, manteniendo el soporte",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "En el choque séptico con vasopresor persistente la guía sugiere corticoide intravenoso (hidrocortisona).",
+     "id": "D",
+     "tema": "Corticoide en choque séptico persistente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la misma conducta sin cambios y reevaluar al paciente al cabo de tres días de tratamiento en cuidados intensivos",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Con vasopresor persistente se plantea el corticoide; esperar tres días sin reevaluar no es adecuado.",
+     "omision": true,
+     "id": "E",
      "tema": "Corticoide en choque séptico persistente",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "D"
   },
-  "n4": {
+  "n7": {
    "estado": "A las 48 horas el hemocultivo y el esputo informan Streptococcus pneumoniae sensible a penicilina. El paciente mejora, la presión se estabiliza y se retira el vasopresor.",
    "vitales": {
     "PA": "118/70 mmHg",
@@ -194,48 +973,131 @@
     "Cultivos": "S. pneumoniae sensible"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cómo manejas el antibiótico ahora?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "neumo"
+    ],
+    "n1": "Ya hay un microorganismo y el paciente mejora: ¿qué se hace con el esquema amplio?",
+    "n2": "Desescalar al agente identificado y acortar la duración, revisando a diario."
+   },
+   "laboratorio": {
+    "titulo": "Microbiología a las 48 horas",
+    "resultados": [
+     {
+      "prueba": "hemocultivo",
+      "valor": "positivo: S. pneumoniae sensible a penicilina"
+     },
+     {
+      "prueba": "leucocitos",
+      "valor": 11.8
+     },
+     {
+      "prueba": "pcr",
+      "valor": 8.0
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Desescalar el antibiótico al agente identificado, definir una duración corta según la evolución y revisar el tratamiento a diario",
-     "calidad": "optima",
-     "siguiente": "n5",
-     "explicacion": "La desescalada guiada por cultivos reduce los efectos adversos y la resistencia; la duración se ajusta a la evolución.",
-     "tema": "Control del foco y desescalada antibiótica",
+     "texto": "Agregar un antifúngico profiláctico de rutina durante todo el tratamiento antibiótico para evitar sobreinfecciones del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "No hay indicación de antifúngico profiláctico de rutina; expone a toxicidad y selección de resistencia.",
+     "id": "A",
+     "tema": "Desescalada antibiótica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Mantener el esquema de amplio espectro 14 días por rutina",
+     "texto": "Mantener el esquema de amplio espectro durante 14 días por rutina sin modificarlo, para prevenir una recaída infecciosa del paciente",
      "calidad": "incorrecta",
-     "siguiente": "n5",
-     "explicacion": "Mantener un amplio espectro sin necesidad aumenta los efectos adversos y la resistencia.",
-     "tema": "Control del foco y desescalada antibiótica",
+     "siguiente": "n8",
+     "explicacion": "Mantener un amplio espectro sin necesidad aumenta efectos adversos y resistencia.",
+     "id": "B",
+     "tema": "Desescalada antibiótica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender todo antibiótico de inmediato, porque el paciente ya salió del choque y el cultivo es ya conocido en el hospital",
+     "calidad": "incorrecta",
+     "siguiente": "n8",
+     "explicacion": "Se necesita un curso completo adaptado a la evolución; suspender de golpe expone a recaída.",
+     "omision": true,
+     "id": "C",
+     "tema": "Desescalada antibiótica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Ampliar a un esquema con carbapenémico por prudencia, a pesar de que el microorganismo es sensible a penicilina y el paciente mejora",
+     "calidad": "incorrecta",
+     "siguiente": "n8",
+     "explicacion": "Ampliar sin necesidad aumenta la toxicidad y la resistencia; se desescala al agente sensible.",
+     "id": "D",
+     "tema": "Desescalada antibiótica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Desescalar el antibiótico al agente identificado, definir una duración corta según la evolución y revisar el tratamiento a diario",
+     "calidad": "optima",
+     "siguiente": "n8",
+     "explicacion": "La desescalada guiada por cultivos reduce efectos adversos y resistencia; la duración se ajusta a la evolución.",
+     "id": "E",
+     "tema": "Desescalada antibiótica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
-  "n5": {
-   "estado": "El paciente está estable, sin oxígeno, listo para egresar tras 7 días. Hay que planificar el seguimiento.",
+  "n8": {
+   "estado": "El paciente está estable, sin oxígeno, listo para egresar tras 7 días. Hay que planificar el seguimiento y la prevención.",
    "vitales": {
     "SatO₂": "96 % (aire ambiente)",
     "PA": "124/74 mmHg",
-    "Estado": "estable"
+    "Estado": "estable",
+    "Glucemia": "controlada"
    },
    "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 1,
+   "pregunta": "¿Cuál es el plan de alta?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "infecto",
+     "emerg"
+    ],
+    "n1": "El episodio terminó. ¿Qué previenes y qué vigilas después de una sepsis?",
+    "n2": "Vacunas, control de comorbilidades y vigilancia de secuelas."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Alta con plan: revisar vacunas, control de la diabetes, seguimiento clínico y explicar que puede haber fatiga y alteraciones cognitivas tras la sepsis",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "El seguimiento tras la sepsis incluye la prevención de nuevas infecciones y la vigilancia de las secuelas.",
+     "texto": "Alta sin seguimiento ni plan, porque el cuadro agudo ya se resolvió y no se esperan secuelas posteriores relacionadas con la sepsis",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin plan de seguimiento se pierde la oportunidad de prevenir nuevas infecciones y manejar las secuelas.",
+     "omision": true,
+     "id": "A",
      "tema": "Recuperación y seguimiento tras sepsis",
      "competencia": "Disposición y seguimiento",
      "refs": [
@@ -243,21 +1105,58 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Alta sin seguimiento ni plan",
+     "texto": "Indicar reposo absoluto por tres meses para recuperar las fuerzas y evitar una recaída infecciosa en el paciente de 72 años",
      "calidad": "incorrecta",
      "siguiente": "f_regular",
-     "explicacion": "Sin plan de seguimiento se pierde la oportunidad de prevenir nuevas infecciones y manejar las secuelas.",
+     "explicacion": "El reposo prolongado favorece el deterioro funcional; la recuperación progresiva con rehabilitación es la conducta.",
+     "id": "B",
+     "tema": "Recuperación y seguimiento tras sepsis",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender el tratamiento de la diabetes durante un mes para evitar hipoglucemias, mientras el paciente recupera el apetito",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Suspender el control de la diabetes tras una sepsis expone a hiperglucemia, nuevas infecciones y complicaciones.",
+     "id": "C",
+     "tema": "Recuperación y seguimiento tras sepsis",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta con vacunas revisadas, control de la diabetes, seguimiento clínico y aviso de fatiga y alteraciones cognitivas posibles",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "El seguimiento tras la sepsis incluye la prevención de nuevas infecciones y la vigilancia de las secuelas.",
+     "id": "D",
+     "tema": "Recuperación y seguimiento tras sepsis",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Prescribir un antibiótico oral profiláctico durante tres meses para prevenir nuevas neumonías tras el episodio de sepsis",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "No se indica antibiótico profiláctico prolongado tras un episodio resuelto; aumenta resistencia y efectos adversos.",
+     "id": "E",
      "tema": "Recuperación y seguimiento tras sepsis",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "D"
   },
-  "n_det": {
-   "estado": "A las pocas horas el paciente es llevado por una ambulancia en estado de coma, con piel moteada y sin pulso periférico.",
+  "d1": {
+   "estado": "A las pocas horas el paciente llega en coma, con piel moteada y sin pulso periférico.",
    "vitales": {
     "PA": "60/30 mmHg",
     "FC": "140 /min",
@@ -265,45 +1164,285 @@
     "Conciencia": "coma"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "El paciente está en choque avanzado: ¿qué se asegura primero y qué no se difiere?",
+    "n2": "Vía aérea y oxigenación, reposición, antibiótico inmediato, vasopresor y cuidados intensivos."
+   },
+   "deterioro": true,
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reanimación inmediata: asegurar la vía aérea y la oxigenación, cristaloides, antibiótico de amplio espectro de inmediato, vasopresor e ingreso a UCI",
-     "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "Es un choque séptico avanzado: se asegura la ventilación y la perfusión y se inicia el antibiótico sin más demora.",
-     "tema": "Reconocimiento y manejo inicial de la sepsis",
-     "competencia": "Tratamiento inicial",
+     "texto": "Administrar un sedante para facilitar la ventilación sin considerar la reposición de volumen ni el antibiótico en este momento",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Sedar a un paciente en choque sin reponer ni dar el antibiótico precipita el colapso cardiovascular.",
+     "id": "A",
+     "tema": "Choque séptico avanzado",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Esperar a que se estabilice antes de tratar",
+     "texto": "Asegurar vía aérea y oxigenación con cristaloides y antibiótico de amplio espectro ya, y vasopresor en cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Es un choque séptico avanzado: se asegura la ventilación y la perfusión y se inicia el antibiótico sin más demora.",
+     "id": "B",
+     "tema": "Choque séptico avanzado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar a que se estabilice con oxígeno antes de iniciar el antibiótico y la reposición, para no sobrecargar al paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "En el choque séptico el tratamiento no puede esperar.",
+     "omision": true,
+     "id": "C",
+     "tema": "Choque séptico avanzado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar una tomografía de tórax con contraste antes de iniciar el tratamiento, a pesar de la presión no registrable",
      "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "En el choque séptico el tratamiento no puede esperar: es un error crítico.",
-     "tema": "Reconocimiento y manejo inicial de la sepsis",
+     "siguiente": "f_fatal",
+     "explicacion": "Trasladar a imagen a un paciente en choque sin reanimar ni dar el antibiótico puede ser mortal.",
+     "id": "D",
+     "tema": "Choque séptico avanzado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Trasladar a sala común con oxígeno por mascarilla y control de signos vitales cada hora durante las siguientes horas",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "Con coma y choque se requiere cuidados críticos; la sala común es insegura.",
+     "id": "E",
+     "tema": "Choque séptico avanzado",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "B"
+  },
+  "d2": {
+   "estado": "Tras una conducta inadecuada en el choque, el paciente queda con anuria, hiperpotasemia y acidosis. La presión sigue baja pese a la noradrenalina y aparecen alteraciones del ritmo.",
+   "vitales": {
+    "PA": "72/40 mmHg (con noradrenalina)",
+    "FC": "130 /min",
+    "Diuresis": "anuria",
+    "ECG": "ondas T picudas"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "nefro"
+    ],
+    "n1": "Hay lesión renal con hiperpotasemia y acidosis en el choque: ¿qué amenaza el ritmo y la perfusión?",
+    "n2": "Trata la hiperpotasemia y la acidosis con monitoreo y considera el soporte renal."
+   },
+   "laboratorio": {
+    "titulo": "Estudios urgentes",
+    "resultados": [
+     {
+      "prueba": "potasio",
+      "valor": 6.2
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 3.5
+     },
+     {
+      "prueba": "ph",
+      "valor": 7.16
+     },
+     {
+      "prueba": "lactato",
+      "valor": 5.8
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Escalar el soporte, tratar hiperpotasemia y acidosis con monitorización y valorar reemplazo renal en cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La lesión renal aguda con hiperpotasemia y acidosis en el choque exige tratamiento inmediato y soporte renal si hace falta.",
+     "id": "A",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Retirar el vasopresor por la hiperpotasemia y aguardar la recuperación espontánea de la diuresis antes de reanudar el soporte",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Retirar el soporte en un choque con acidosis y lesión renal lleva a un colapso hemodinámico irreversible.",
+     "id": "B",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar bolos de una solución con potasio para forzar la diuresis y mejorar la perfusión renal del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Añadir potasio con hiperpotasemia y anuria puede provocar una arritmia fatal.",
+     "id": "C",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la dosis del vasopresor y observar la diuresis durante dos horas antes de cambiar cualquier otro aspecto del manejo",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Observar con anuria, potasio alto y acidosis expone a una arritmia; el tratamiento específico no puede esperar.",
+     "omision": true,
+     "id": "D",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar furosemida en dosis altas para forzar la diuresis sin reevaluar el volumen intravascular ni el estado del choque",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Forzar la diuresis sin reevaluar el volumen puede empeorar la perfusión y no corrige la hiperpotasemia.",
+     "id": "E",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "d3": {
+   "estado": "El paciente sufre un paro respiratorio inminente: respiración agónica, cianosis y pérdida de la conciencia. La saturación es muy baja y la presión desciende.",
+   "vitales": {
+    "SatO₂": "70 %",
+    "FR": "8 /min (agónica)",
+    "PA": "70/40 mmHg",
+    "Conciencia": "inconsciente"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neumo"
+    ],
+    "n1": "El paciente está a punto de parar. ¿Qué se asegura antes que nada?",
+    "n2": "Vía aérea con intubación y ventilación protectora, con soporte hemodinámico y cuidados intensivos."
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Iniciar nebulizaciones de broncodilatador y esperar la respuesta clínica antes de decidir cualquier otra medida de soporte",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Un broncodilatador no resuelve una insuficiencia respiratoria por neumonía grave con riesgo de paro.",
+     "id": "A",
+     "tema": "Insuficiencia respiratoria inminente en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Continuar el oxígeno por mascarilla y observar si recupera la respiración espontánea durante los próximos minutos de monitoreo",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Con respiración agónica y cianosis, esperar puede llevar al paro: se asegura la vía aérea ya.",
+     "omision": true,
+     "id": "B",
+     "tema": "Insuficiencia respiratoria inminente en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un diurético y limitar los líquidos, mientras se espera la respuesta del paciente en la sala de emergencia",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Un diurético en un choque séptico con insuficiencia respiratoria agrava el cuadro hasta el paro.",
+     "id": "C",
+     "tema": "Insuficiencia respiratoria inminente en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar un sedante en bolo para disminuir el esfuerzo respiratorio sin asegurar previamente la vía aérea del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Sedar sin vía aérea asegurada en un paciente agónico precipita el paro respiratorio.",
+     "id": "D",
+     "tema": "Insuficiencia respiratoria inminente en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Asegurar la vía aérea con intubación y ventilación protectora, sostener la hemodinamia y pasar a cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "Ante un fallo respiratorio inminente se asegura la vía aérea y se ventila, sosteniendo la hemodinamia.",
+     "id": "E",
+     "tema": "Insuficiencia respiratoria inminente en la sepsis",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "E"
   },
   "f_bueno": {
    "final": {
     "tipo": "bueno",
     "titulo": "Buen desenlace",
     "mensaje": "Se reconoció y trató la sepsis a tiempo, con desescalada y seguimiento."
-   }
-  },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se estabilizó tras un deterioro que el tratamiento oportuno habría evitado."
    }
   },
   "f_regular": {
@@ -317,18 +1456,58 @@
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "La demora en el tratamiento llevó a un choque séptico irreversible."
+    "mensaje": "Una conducta sin respaldo llevó a una complicación grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "El paciente falleció por choque séptico (educativo)",
+    "mensaje": "Una secuencia de decisiones críticas sin soporte ni tratamiento oportuno llevó a falla multiorgánica y muerte."
    }
   }
  },
  "informe": {
-  "resumen_clinico": "Varón de 72 años diabético con neumonía adquirida en la comunidad complicada por sepsis y choque séptico (hipotensión, hipoxemia, confusión y lactato de 4,8 mmol/L). Requirió reposición, noradrenalina, corticoide por vasopresor persistente y se desescaló según cultivos (Streptococcus pneumoniae).",
+  "resumen_clinico": "Varón de 72 años diabético con neumonía adquirida en la comunidad complicada por sepsis y choque séptico (hipotensión, hipoxemia, confusión y lactato de 4,8 mmol/L). Requirió reposición, noradrenalina, soporte respiratorio, corticoide por vasopresor persistente y se desescaló según cultivos (Streptococcus pneumoniae).",
+  "diagnostico_final": "Neumonía adquirida en la comunidad grave con sepsis y choque séptico por Streptococcus pneumoniae.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Insuficiencia cardíaca descompensada",
+    "por_que_no": "La fiebre, la leucocitosis, la consolidación unilateral y el lactato alto orientan a infección; el diurético agravaría la hipoperfusión."
+   },
+   {
+    "dx": "Descompensación diabética (cetoacidosis o estado hiperosmolar)",
+    "por_que_no": "La glucemia alta es modesta y no explica la fiebre ni la consolidación; la infección es la causa."
+   },
+   {
+    "dx": "Tromboembolia pulmonar",
+    "por_que_no": "La fiebre, la tos con expectoración y la consolidación con leucocitosis explican el cuadro."
+   },
+   {
+    "dx": "Exacerbación de EPOC o asma",
+    "por_que_no": "No hay antecedente ni sibilancias; el cuadro se explica por la neumonía."
+   }
+  ],
+  "datos_clave": [
+   "Fiebre, tos con expectoración y disnea progresiva en un adulto mayor diabético.",
+   "Hipotensión, taquicardia, confusión e hipoxemia (hipoperfusión).",
+   "Leucocitosis, PCR y procalcitonina altas con lactato elevado.",
+   "Disfunción de varios órganos (renal, hematológica, hepática y respiratoria)."
+  ],
   "razonamiento": [
    "Reconocer la sepsis con hipoperfusión: hipotensión, confusión, hipoxemia y lactato elevado.",
    "Hemocultivos y antibiótico de amplio espectro en la primera hora, con reposición de volumen y oxígeno.",
-   "Si la hipotensión persiste, noradrenalina (PAM ≥ 65) y UCI.",
+   "Interpretar la disfunción orgánica (pulmón, riñón, plaquetas, bilirrubina) y el lactato.",
+   "Si la hipotensión persiste, noradrenalina (PAM 65) y UCI.",
+   "Mantener la cobertura antibiótica empírica adecuada y escalar el soporte respiratorio de forma precoz.",
    "Considerar hidrocortisona si el requerimiento de vasopresor persiste.",
    "Desescalar a los cultivos y acortar la duración; planificar el seguimiento."
+  ],
+  "interpretacion_laboratorio": [
+   "Leucocitos, PCR y procalcitonina elevados: respuesta inflamatoria a una infección bacteriana.",
+   "Lactato alto: hipoperfusión; en el choque séptico persiste pese a una reposición adecuada.",
+   "Creatinina, bilirrubina y plaquetas alteradas y PaO₂ baja: disfunción renal, hepática, hematológica y respiratoria.",
+   "A las 48 h el hemocultivo identifica S. pneumoniae sensible y los marcadores bajan: se desescala."
   ],
   "tratamiento": [
    {
@@ -352,6 +1531,11 @@
     "dosis": "Dosis de hidrocortisona según el protocolo institucional; en los ensayos se usó 200 mg al día."
    },
    {
+    "item": "Soporte respiratorio",
+    "detalle": "Oxígeno titulado con vigilancia y escalamiento precoz ante agotamiento o fracaso.",
+    "dosis": "No se fijan parámetros ventilatorios: dependen de la evolución y del protocolo."
+   },
+   {
     "item": "Seguimiento",
     "detalle": "Vacunas, control de comorbilidades y vigilancia de secuelas.",
     "dosis": "No aplica."
@@ -367,9 +1551,5 @@
    "g05"
   ],
   "mensaje_clave": "En la sepsis con hipoperfusión: cultivos, antibiótico en la primera hora, volumen, noradrenalina y control del foco."
- },
- "areas_banco": [
-  "infectologia",
-  "neumologia"
- ]
+ }
 }

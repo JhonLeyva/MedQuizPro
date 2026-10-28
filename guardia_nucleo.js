@@ -28,7 +28,8 @@
     if (!n.final) n.decisiones.forEach(function (d) { mx = Math.max(mx, PUNTOS[d.calidad] * peso(n) + maximo(caso, d.siguiente, memo)); });
     return (memo[id] = mx);
   }
-  function porcentaje(caso, puntos) { var m = maximo(caso, caso.inicio); return m ? Math.round(puntos / m * 100) : 0; }
+  function porcentaje(caso, puntos) { var m = maximo(caso, caso.inicio); return m ? Math.round(puntos / m * 100) : 0; }      // solo sobre la ruta óptima; el puntaje del alumno se calcula sobre los nodos que recorrió (analizar)
+  function maximoRecorrido(camino) { return camino.reduce(function (s, p) { return s + 10 * peso(p.nodo); }, 0); }
   function desbloqueado() { return true; }               // v2/v3: sin bloqueos por requisitos
   function puntosNodo(nodo, decision, nivelAyuda) {
     var base = PUNTOS[decision.calidad], pen = nivelAyuda ? PENAL_AYUDA[nivelAyuda] || 0 : 0;
@@ -122,7 +123,7 @@
     return mejor;
   }
   function marca(valor, iv) {
-    if (iv == null || typeof valor !== "number") return null;
+    if (iv == null || typeof valor !== "number" || (iv.bajo == null && iv.alto == null)) return null;
     if (iv.bajo != null && valor < iv.bajo) return "bajo"; if (iv.alto != null && valor > iv.alto) return "alto"; return "normal";
   }
   /* factores de conversión: solo los que se derivan de la masa molar (ver tests); sin factor validado no se convierte */
@@ -145,7 +146,7 @@
   /* ---------- análisis del recorrido: todo el informe sale de lo que el alumno realmente eligió ---------- */
   function analizar(caso, camino, puntos, opts) {
     opts = opts || {};
-    var maxTotal = maximo(caso, caso.inicio), criticos = [], mayores = [], comp = {}, temas = [], vistos = {}, usadas = {}, orden = [], tiempoTotal = 0, limiteTotal = 0, agotados = 0, ayudas = [], penal = 0;
+    var maxTotal = camino.reduce(function (s, p) { return s + 10 * peso(p.nodo); }, 0), criticos = [], mayores = [], comp = {}, temas = [], vistos = {}, usadas = {}, orden = [], tiempoTotal = 0, limiteTotal = 0, agotados = 0, ayudas = [], penal = 0;
     var decisiones = camino.map(function (p, i) {
       var d = p.decision, nd = p.nodo, opt = nd.decisiones.filter(function (x) { return x.calidad === "optima"; })[0], niv = (p.ayuda || []).reduce(function (m, x) { return Math.max(m, x); }, 0);
       var lim = tiempoNodo(nd), item = { n: i + 1, nodoId: p.nodoId, estado: nd.estado, tipo: nd.tipo || "diagnostica", peso: peso(nd), pregunta: nd.pregunta, elegida: d, optima: opt, severidad: SEVERIDAD[d.calidad], agotado: !!p.agotado,
@@ -162,7 +163,7 @@
     });
     var competencias = Object.keys(comp).map(function (k) { return { nombre: comp[k].nombre, pct: Math.round(comp[k].pts / (comp[k].n * 10) * 100), n: comp[k].n }; });
     var crudo = camino.reduce(function (s, p) { return s + PUNTOS[p.decision.calidad]; }, 0), maxCrudo = camino.length * 10;
-    return { puntos: puntos, max: maxTotal, pct: porcentaje(caso, puntos), pctSinAyudas: porcentaje(caso, puntos + penal), crudo: crudo, maxCrudo: maxCrudo, decisiones: decisiones, criticos: criticos, mayores: mayores, competencias: competencias, temas: temas, refsUsadas: orden,
+    return { puntos: puntos, max: maxTotal, maxRutaOptima: maximo(caso, caso.inicio), pct: maxTotal ? Math.round(puntos / maxTotal * 100) : 0, pctSinAyudas: maxTotal ? Math.round((puntos + penal) / maxTotal * 100) : 0, crudo: crudo, maxCrudo: maxCrudo, decisiones: decisiones, criticos: criticos, mayores: mayores, competencias: competencias, temas: temas, refsUsadas: orden,
       tiempoTotal: tiempoTotal, limiteTotal: limiteTotal, agotados: agotados, ayudas: ayudas, penalizacion: penal, modo: opts.modo || "entrenamiento" };
   }
 
@@ -258,7 +259,7 @@
   }
 
   var API = { PUNTOS: PUNTOS, ETQ: ETQ, SEVERIDAD: SEVERIDAD, LETRAS: LETRAS, TIEMPOS: TIEMPOS, TIPOS: TIPOS, LIMITES: LIMITES, AVISO_SEG: AVISO_SEG, PENAL_AYUDA: PENAL_AYUDA, MODOS: MODOS, MIN_TOTAL: MIN_TOTAL, MIN_AREA: MIN_AREA, NIVEL: NIVEL, CONVERSIONES: CONVERSIONES,
-    peso: peso, maximo: maximo, porcentaje: porcentaje, desbloqueado: desbloqueado, puntosNodo: puntosNodo, registrar: registrar, barajar: barajar, tiempoNodo: tiempoNodo, crearReloj: crearReloj, formatoTiempo: formatoTiempo,
+    peso: peso, maximo: maximo, maximoRecorrido: maximoRecorrido, porcentaje: porcentaje, desbloqueado: desbloqueado, puntosNodo: puntosNodo, registrar: registrar, barajar: barajar, tiempoNodo: tiempoNodo, crearReloj: crearReloj, formatoTiempo: formatoTiempo,
     serializarSesion: serializarSesion, restaurarSesion: restaurarSesion, consultarEspecialista: consultarEspecialista, ayudaDisponible: ayudaDisponible, intervaloAplicable: intervaloAplicable, marca: marca, convertir: convertir,
     analizar: analizar, validarDesenlaces: validarDesenlaces, estadisticas: estadisticas, recomendar: recomendar };
   if (typeof module !== "undefined" && module.exports) module.exports = API; else (raiz.MQP = raiz.MQP || {}).guardiaNucleo = API;

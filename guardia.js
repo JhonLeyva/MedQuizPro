@@ -6,6 +6,15 @@
   "use strict";
   var M = raiz.MQP || (raiz.MQP = {});
   var G = function () { return M.guardiaNucleo; };
+  /* Los datos de los casos (~0,4 MB) y del laboratorio se cargan solo al entrar al módulo, no en cada página de la app. */
+  var SRC = (document.currentScript && document.currentScript.src) || "", BASE = SRC.replace(/guardia\.js(\?.*)?$/, ""), VER = (SRC.split("?")[1] || "");
+  var cargaDatos = null;
+  function cargarScript(nombre) { return new Promise(function (ok, mal) { var s = document.createElement("script"); s.src = BASE + nombre + (VER ? "?" + VER : ""); s.onload = ok; s.onerror = function () { mal(new Error(nombre)); }; document.head.appendChild(s); }); }
+  function asegurarDatos() {
+    if (raiz.MQP_GUARDIA && raiz.MQP_GUARDIA_LAB) return Promise.resolve();
+    if (!cargaDatos) cargaDatos = Promise.all([cargarScript("guardia_casos.js"), cargarScript("guardia_lab.js")]).then(function () {}, function (e) { cargaDatos = null; throw e; });
+    return cargaDatos;
+  }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function url(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
   function enlace(href, txt) { return url(href) ? '<a href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' + esc(txt) + '</a>' : esc(txt); }
@@ -47,7 +56,7 @@
     if (t.cualitativa) m = typeof r.valor === "string" ? (r.valor.toLowerCase() === t.normal ? "normal" : "alterado") : null; else m = typeof r.valor === "number" && iv ? N.marca(r.valor, iv) : null;
     if (t.cualitativa) txt = "Normal: " + t.normal;
     var conv = ""; var c = N.CONVERSIONES[r.prueba]; if (c && typeof r.valor === "number" && t.unidad === c.de) conv = ' <span class="muted small">(≈ ' + (Math.round(N.convertir(r.prueba, r.valor, c.de, c.a) * 100) / 100) + " " + esc(c.a) + ")</span>";
-    return '<tr><th scope="row">' + esc(t.nombre) + '</th><td><b>' + esc(r.valor) + '</b> ' + esc(t.unidad) + conv + '</td><td>' + esc(txt) + (r.ref ? ' <span class="muted small">(ensayo del caso)</span>' : "") + '</td><td>' + (ocultar || !m ? '<span class="muted small">' + (ocultar ? "interpreta tú" : "—") + '</span>' : '<span class="gd-marca gd-marca--' + m + '">' + MARCA[m] + '</span>') + '</td></tr>';
+    return '<tr><th scope="row">' + esc(r.etiqueta || t.nombre) + '</th><td><b>' + esc(r.valor) + '</b> ' + esc(t.unidad) + conv + '</td><td>' + esc(txt) + (r.ref ? ' <span class="muted small">(ensayo del caso)</span>' : "") + '</td><td>' + (ocultar || !m ? '<span class="muted small">' + (ocultar ? "interpreta tú" : "—") + '</span>' : '<span class="gd-marca gd-marca--' + m + '">' + MARCA[m] + '</span>') + '</td></tr>';
   }
   function tablaResultados(res, paciente, nodoActivoSinResponder) {
     if (!res.length) return '<p class="muted">Todavía no hay resultados de laboratorio. Aparecen aquí cuando el caso los entrega; no se adelantan.</p>';
@@ -212,7 +221,7 @@
       var previas = vistas.filter(function (i) { return !nodo.imagen || i !== nodo.imagen.id; }), fx = efectosActivos(), tipo = nodo.tipo || "diagnostica";
       var limite = N.tiempoNodo(nodo), usadoPrevio = usadoRestaurado; usadoRestaurado = 0;
       cont.innerHTML = '<div class="gd-juego' + (fx ? " gd-fx" : "") + '"><header class="gd-top"><a class="link-arrow" href="#/guardia">← Casos</a><h1>' + esc(caso.titulo) + '</h1>' +
-        '<p class="gd-prog">Decisión ' + (camino.length + 1) + ' · Puntaje ' + puntos + ' / ' + maxTotal + ' · ' + esc(MODO.nombre) + '</p></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
+        '<p class="gd-prog">Decisión ' + (camino.length + 1) + ' · Puntaje ' + puntos + ' de ' + N.maximoRecorrido(camino) + ' posibles hasta ahora · ' + esc(MODO.nombre) + '</p></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
         '<div class="gd-barra-acc"><button type="button" class="btn btn--ghost btn--sm" id="gdLabBtn">🧪 Laboratorio y valores de referencia</button>' + (MODO.ayuda ? ' <button type="button" class="btn btn--ghost btn--sm" id="gdEspBtn">👩‍⚕️ Consultar al especialista</button>' : '') +
         (MODO.cronometro ? ' <button type="button" class="btn btn--ghost btn--sm" id="gdPausa" aria-pressed="false">⏸ Pausar</button>' : "") + '</div>' +
         (MODO.cronometro ? '<div class="gd-reloj gd-reloj--normal" id="gdRelojCaja"><p class="gd-reloj__t"><span class="gd-reloj__tipo">' + esc(N.TIPOS[tipo]) + '</span> · Tiempo restante: <b id="gdReloj" role="timer" aria-live="off">' + N.formatoTiempo(limite) + '</b></p><div class="gd-reloj__b" aria-hidden="true"><i id="gdBarra"></i></div><p class="sr-only" id="gdRelojLive" aria-live="polite"></p></div>' : "") +
@@ -294,7 +303,7 @@
       var rel = (inf.casos_relacionados || []).map(function (id) { return (raiz.MQP_GUARDIA || []).filter(function (c) { return c.id === id; })[0]; }).filter(Boolean);
       var usadas = {}; an.refsUsadas.forEach(function (r) { usadas[r] = 1; });
       var h = '<div class="gd-juego gd-informe"><header class="gd-top"><a class="link-arrow" href="#/guardia">← Casos</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
-        '<section class="gd-final gd-final--' + f.tipo + '"><p class="gd-niv">Desenlace</p><h2>' + esc(f.titulo) + '</h2><p>' + esc(f.mensaje) + '</p><p class="gd-pts"><b>' + pct + ' %</b><span>' + puntos + ' de ' + an.max + ' puntos ponderados por importancia clínica · ' + esc(N.MODOS[modo].nombre) + '</span></p></section>' +
+        '<section class="gd-final gd-final--' + f.tipo + '"><p class="gd-niv">Desenlace</p><h2>' + esc(f.titulo) + '</h2><p>' + esc(f.mensaje) + '</p><p class="gd-pts"><b>' + pct + ' %</b><span>' + puntos + ' de ' + an.max + ' puntos ponderados posibles en las decisiones que tomaste · ' + esc(N.MODOS[modo].nombre) + '</span></p></section>' +
         (fatal ? '<section class="card card--spaced gd-fatal" aria-labelledby="gdFat"><h2 class="card__h" id="gdFat">Qué contribuyó a este desenlace</h2><p class="small">Un desenlace fatal solo ocurre en este caso tras una secuencia de errores críticos definida de antemano. Estas fueron las decisiones que más contribuyeron y la conducta preferible en cada una:</p><ul>' +
           (an.criticos.length ? an.criticos.map(function (x) { return '<li><b>Decisión ' + x.n + ' (' + esc(x.elegida.id) + '):</b> ' + esc(x.elegida.texto) + '<br><b>Lo preferible (' + esc(x.optima.id) + '):</b> ' + esc(x.optima.texto) + '<br><span class="small">' + esc(x.optima.explicacion) + '</span></li>'; }).join("") : '<li>' + esc(f.mensaje) + '</li>') + '</ul></section>' : "") +
         '<nav class="gd-indice" aria-label="Secciones del informe"><a href="#gdA">A. Resumen</a> <a href="#gdB">B. Razonamiento</a>' + (caso.imagenes.length ? ' <a href="#gdC">C. Imágenes</a>' : "") + ' <a href="#gdL">Laboratorio</a> <a href="#gdD">D. Tus decisiones</a> <a href="#gdE">E. Tratamiento</a> <a href="#gdF">F. Resultado y referencias</a></nav>';
@@ -356,6 +365,11 @@
   var dentro = false;
   window.addEventListener("hashchange", function () { if (!/^#\/guardia/.test(location.hash)) dentro = false; });
   function montar(cont, arg, datos) {
+    if (!(raiz.MQP_GUARDIA && raiz.MQP_GUARDIA_LAB)) {
+      cont.innerHTML = '<p class="muted" role="status">Cargando los casos…</p>';
+      asegurarDatos().then(function () { if (/^#\/guardia/.test(location.hash)) montar(cont, arg, datos); }, function () { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No se pudieron cargar los casos</p><p class="empty-state__text">Revisa tu conexión e inténtalo de nuevo.</p><a class="btn btn--primary" href="#/guardia">Reintentar</a></div>'; });
+      return;
+    }
     var casos = raiz.MQP_GUARDIA || [];
     var caso = arg ? casos.filter(function (c) { return c.id === arg; })[0] : null;
     var primeraEntrada = !dentro; dentro = true;
@@ -371,5 +385,5 @@
     if (I && primeraEntrada && !I.omitida() && !document.querySelector(".gi"))
       I.mostrar({ alTerminar: function () { var b = cont.querySelector("a.btn"); if (b) b.focus({ preventScroll: true }); } });
   }
-  M.guardia = { montar: montar, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: null, esc: esc, enlace: enlace };
+  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: null, esc: esc, enlace: enlace };
 })(typeof window !== "undefined" ? window : this);

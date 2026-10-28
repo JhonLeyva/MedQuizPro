@@ -3,9 +3,37 @@
  "titulo": "Vómitos, respiración profunda y somnolencia en una joven con diabetes",
  "especialidad": "Endocrinología · Medicina interna · Emergencias",
  "dificultad": 2,
- "duracion_min": 11,
- "resumen": "Mujer de 19 años con diabetes tipo 1 que dejó de aplicarse insulina. Decide el orden de líquidos, potasio e insulina y cómo cerrar el episodio.",
+ "duracion_min": 20,
+ "areas_banco": [
+  "endocrinologia",
+  "nefrologia"
+ ],
+ "resumen": "Mujer de 19 años con diabetes tipo 1 que dejó de aplicarse insulina. Decide el orden de líquidos, potasio e insulina, interpreta los gases y cierra el episodio.",
  "contexto": "Emergencia con gasometría, electrolitos, ECG y monitorización; ingreso a UCI o unidad de cuidados intermedios disponible.",
+ "paciente": {
+  "edad": 19,
+  "edad_texto": "19 años",
+  "sexo": "F",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "endo",
+   "nombre": "Endocrinología"
+  },
+  {
+   "id": "emerg",
+   "nombre": "Medicina de emergencias"
+  },
+  {
+   "id": "uci",
+   "nombre": "Cuidados intensivos"
+  },
+  {
+   "id": "nefro",
+   "nombre": "Nefrología / electrolitos"
+  }
+ ],
  "imagenes": [],
  "referencias": [
   {
@@ -25,12 +53,13 @@
   }
  ],
  "discrepancias": [
-  "Los umbrales de potasio y las dosis varían entre versiones y sociedades (por ejemplo, entre ADA 2009, JBDS 2021 y el consenso 2024). Este caso usa un umbral de potasio de 3,5 mmol/L para demorar la insulina, valor usado en el consenso 2024; su texto completo no se verificó en esta sesión: confirma en el protocolo vigente. No se consultó una norma peruana (MINSA/EsSalud)."
+  "Los umbrales de potasio y las dosis varían entre versiones y sociedades (por ejemplo, entre ADA 2009, JBDS 2021 y el consenso 2024). Este caso usa un umbral de potasio de 3,5 mmol/L para demorar la insulina, valor usado en el consenso 2024; su texto completo no se verificó en esta sesión: confirma en el protocolo vigente. No se consultó una norma peruana (MINSA/EsSalud).",
+  "El umbral de pH para considerar bicarbonato (pH < 7,0) y el sodio corregido por glucosa son criterios usados en la práctica que no se verificaron en texto completo en esta sesión. Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."
  ],
  "inicio": "n1",
  "nodos": {
   "n1": {
-   "estado": "Mujer de 19 años con diabetes tipo 1 desde los 12. Hace tres días dejó de aplicarse insulina por falta de recursos y tuvo una infección respiratoria. Desde ayer tiene náuseas, vómitos, dolor abdominal y respiración profunda y rápida. Está somnolenta y con la mucosa oral seca. Aliento con olor a fruta.",
+   "estado": "Mujer de 19 años con diabetes tipo 1 desde los 12. Hace tres días dejó de aplicarse insulina por falta de recursos y tuvo una infección respiratoria. Desde ayer tiene náuseas, vómitos, dolor abdominal y respiración profunda y rápida. Está somnolienta y con la mucosa oral seca. Aliento con olor a fruta.",
    "vitales": {
     "PA": "96/58 mmHg",
     "FC": "124 /min",
@@ -39,13 +68,40 @@
     "Glucemia capilar": "> 500 mg/dL"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta inicial prioritaria?",
+   "ayuda": {
+    "especialista": "emerg",
+    "pertinentes": [
+     "emerg",
+     "endo",
+     "uci"
+    ],
+    "n1": "Joven con diabetes tipo 1 sin insulina, vómitos y respiración profunda: ¿qué urgencia metabólica es y qué debes medir antes de dar insulina?",
+    "n2": "Hidrata, monitoriza y mide potasio antes de insulina; busca el desencadenante."
+   },
+   "laboratorio": {
+    "titulo": "Glucemia y cetonuria iniciales",
+    "resultados": [
+     {
+      "prueba": "glucosa",
+      "valor": 520
+     },
+     {
+      "prueba": "orina_cetonas",
+      "valor": "positivo (+++)"
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Monitorizar, dos vías, pedir gasometría, electrolitos con potasio, cetonas, glucosa, función renal y ECG; iniciar reposición de líquidos con cristaloide isotónico y buscar el desencadenante (infección, omisión de insulina)",
-     "calidad": "optima",
-     "siguiente": "n2",
-     "explicacion": "La cetoacidosis diabética es una emergencia: se hidrata, se mide el potasio antes de iniciar la insulina y se busca el factor desencadenante.",
+     "texto": "Dar una dosis alta de insulina subcutánea, hidratación oral abundante y control ambulatorio en veinticuatro horas con glucemia",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Una cetoacidosis con acidosis y deshidratación no se maneja de forma ambulatoria: es un error crítico.",
+     "id": "A",
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Reconocimiento y triaje",
      "refs": [
@@ -53,140 +109,764 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Iniciar insulina endovenosa de inmediato sin conocer el potasio ni hidratar",
-     "calidad": "incorrecta",
+     "texto": "Monitorizar con dos vías y pedir gasometría con potasio, cetonas y ECG, e hidratar con cristaloide isotónico buscando el desencadenante",
+     "calidad": "optima",
      "siguiente": "n2",
-     "explicacion": "Sin conocer el potasio, la insulina puede producir hipopotasemia grave; además sin hidratación la corrección de la glucosa empeora el volumen.",
+     "explicacion": "La cetoacidosis es una emergencia: se hidrata, se mide el potasio antes de la insulina y se busca el factor desencadenante.",
+     "id": "B",
      "tema": "Cetoacidosis diabética: evaluación inicial",
-     "competencia": "Seguridad del paciente",
+     "competencia": "Reconocimiento y triaje",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Administrar bicarbonato endovenoso en bolo para corregir el pH",
+     "texto": "Administrar bicarbonato endovenoso en bolo de entrada para corregir la acidosis y esperar la respuesta de la respiración profunda",
      "calidad": "incorrecta",
-     "siguiente": "n2",
-     "explicacion": "El bicarbonato no se usa de rutina en la cetoacidosis; su empleo se reserva para acidosis muy grave y con otras precauciones.",
+     "siguiente": "r1",
+     "explicacion": "El bicarbonato no se usa de rutina en la cetoacidosis; su uso se reserva para acidosis muy grave con otras precauciones.",
+     "id": "C",
      "tema": "Cetoacidosis diabética: evaluación inicial",
-     "competencia": "Tratamiento inicial",
+     "competencia": "Reconocimiento y triaje",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "d",
-     "texto": "Dar una dosis alta de insulina subcutánea y control en 24 horas",
-     "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Una cetoacidosis con acidosis y deshidratación no se maneja de forma ambulatoria: es un error crítico.",
+     "texto": "Iniciar insulina endovenosa de inmediato sin conocer el potasio y sin hidratar, para bajar la glucemia lo antes posible",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Sin conocer el potasio la insulina puede producir hipopotasemia grave; además sin hidratación empeora el volumen.",
+     "id": "D",
      "tema": "Cetoacidosis diabética: evaluación inicial",
-     "competencia": "Seguridad del paciente",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Pedir primero el resultado de todos los exámenes de laboratorio antes de iniciar la hidratación ni ninguna otra medida de soporte",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "La hidratación y el monitoreo no deben esperar al laboratorio completo; se inician de inmediato y se estudia en paralelo.",
+     "omision": true,
+     "id": "E",
+     "tema": "Cetoacidosis diabética: evaluación inicial",
+     "competencia": "Reconocimiento y triaje",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
-  "n2": {
-   "estado": "Resultados: glucosa 520 mg/dL, pH 7,05, bicarbonato 6 mmol/L, cetonas muy elevadas, potasio 3,1 mmol/L, creatinina 1,4 mg/dL. El ECG muestra taquicardia sinusal con ondas U. Ya recibe líquidos.",
+  "r1": {
+   "estado": "Una hora después, con una conducta inicial inadecuada, la paciente está más somnolienta, con respiración más profunda y presión más baja. Sigue sin potasio conocido y con deshidratación marcada.",
    "vitales": {
-    "K⁺": "3,1 mmol/L",
-    "pH": "7,05",
-    "HCO₃⁻": "6 mmol/L",
-    "ECG": "ondas U"
+    "PA": "88/52 mmHg",
+    "FC": "130 /min",
+    "FR": "34 /min",
+    "Conciencia": "responde al llamado"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige el rumbo?",
+   "ayuda": {
+    "especialista": "emerg",
+    "pertinentes": [
+     "emerg",
+     "endo"
+    ],
+    "n1": "La paciente empeora con una conducta inicial inadecuada. ¿Qué falta de la atención básica?",
+    "n2": "Hidratación endovenosa, monitoreo y estudios completos, incluido el potasio, antes de insulina."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reponer potasio por vía endovenosa con monitorización y retrasar la insulina hasta que el potasio sea de al menos 3,5 mmol/L, mientras continúa la hidratación",
-     "calidad": "optima",
-     "siguiente": "n3",
-     "explicacion": "Con potasio bajo, la insulina lo mete a las células y puede provocar hipopotasemia grave y arritmias: se repone primero y se inicia la insulina con un potasio seguro.",
-     "tema": "Potasio antes de la insulina",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Iniciar la insulina endovenosa ahora, porque el pH es muy bajo",
-     "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Dar insulina con potasio de 3,1 mmol/L puede desencadenar una arritmia grave: es un error crítico.",
-     "tema": "Seguridad: insulina e hipopotasemia",
+     "texto": "Continuar la insulina subcutánea en dosis altas y reevaluar la glucemia capilar en una hora sin ampliar los estudios",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La insulina subcutánea no corrige el cuadro grave con deshidratación y acidosis; requiere manejo endovenoso monitorizado.",
+     "omision": true,
+     "id": "A",
+     "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Esperar a que el potasio llegue a 5 mmol/L antes de dar insulina",
+     "texto": "Indicar un antiemético y un antiespasmódico y mantener la observación en la sala de emergencia sin otras medidas por ahora",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Los síntomas digestivos son parte de la cetoacidosis; tratarlos sin corregir el cuadro de fondo retrasa el tratamiento.",
+     "id": "B",
+     "tema": "Cetoacidosis diabética: evaluación inicial",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta con insulina subcutánea y control en la consulta externa de la mañana siguiente con glucemia en ayunas",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "El alta de una cetoacidosis con acidosis y deshidratación es un error crítico.",
+     "id": "C",
+     "tema": "Cetoacidosis diabética: evaluación inicial",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar bicarbonato en bolo y suspender los líquidos para evitar la sobrecarga en una paciente joven con la presión baja",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Suspender los líquidos agrava la hipoperfusión y el bicarbonato no corrige la cetosis.",
+     "id": "D",
+     "tema": "Cetoacidosis diabética: evaluación inicial",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Monitorizar con dos vías e hidratar con cristaloide isotónico, pidiendo electrolitos con potasio, cetonas y ECG sin más demora",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "Se corrige el rumbo: hidratación y estudio completo con potasio antes de iniciar insulina.",
+     "id": "E",
+     "tema": "Cetoacidosis diabética: evaluación inicial",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "n2": {
+   "estado": "Se muestran los resultados de laboratorio. El ECG muestra taquicardia sinusal con ondas U. Ya recibe líquidos. Hay que interpretar el cuadro metabólico y su gravedad.",
+   "vitales": {
+    "ECG": "ondas U",
+    "PA": "100/60 mmHg",
+    "FC": "118 /min",
+    "Diuresis": "escasa"
+   },
+   "gravedad": 2,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cómo interpretas los estudios?",
+   "ayuda": {
+    "especialista": "endo",
+    "pertinentes": [
+     "endo",
+     "emerg",
+     "nefro"
+    ],
+    "n1": "Mira juntos glucosa, cetonas, pH, bicarbonato y brecha aniónica, y no olvides el potasio y el sodio.",
+    "n2": "Hiperglucemia, cetonemia y acidosis con brecha aniónica alta; el potasio bajo condiciona el orden de tratamiento."
+   },
+   "laboratorio": {
+    "titulo": "Gasometría y química",
+    "resultados": [
+     {
+      "prueba": "glucosa",
+      "valor": 520
+     },
+     {
+      "prueba": "ph",
+      "valor": 7.05
+     },
+     {
+      "prueba": "pco2",
+      "valor": 20
+     },
+     {
+      "prueba": "hco3",
+      "valor": 6
+     },
+     {
+      "prueba": "exceso_base",
+      "valor": -22
+     },
+     {
+      "prueba": "bhb",
+      "valor": 6.2
+     },
+     {
+      "prueba": "sodio",
+      "valor": 128
+     },
+     {
+      "prueba": "potasio",
+      "valor": 3.1
+     },
+     {
+      "prueba": "cloro",
+      "valor": 96
+     },
+     {
+      "prueba": "anion_gap",
+      "valor": 26
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.4
+     },
+     {
+      "prueba": "osmolaridad",
+      "valor": 296
+     }
+    ],
+    "ocultar_marcas": true
+   },
+   "decisiones": [
+    {
+     "texto": "Hiponatremia verdadera grave que exige corrección rápida con solución hipertónica antes de tratar la hiperglucemia en la paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n2b",
+     "explicacion": "El sodio bajo se debe en parte a la hiperglucemia; el sodio corregido es casi normal y no requiere solución hipertónica.",
+     "id": "A",
+     "tema": "Interpretación de la gasometría y los electrolitos",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Acidosis láctica por sepsis como única causa de la acidosis, para la que corresponde tratar con antibiótico de amplio espectro",
+     "calidad": "incorrecta",
+     "siguiente": "n2b",
+     "explicacion": "La brecha aniónica se explica por las cetonas; la infección puede ser el desencadenante, pero no sustituye el manejo de la cetoacidosis.",
+     "id": "B",
+     "tema": "Interpretación de la gasometría y los electrolitos",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Estado hiperglucémico hiperosmolar sin cetosis significativa, que se maneja con hidratación y sin necesidad de insulina inmediata",
+     "calidad": "incorrecta",
+     "siguiente": "n2b",
+     "explicacion": "La cetonemia elevada con pH bajo y bicarbonato muy bajo indica cetoacidosis, no un estado hiperosmolar.",
+     "id": "C",
+     "tema": "Interpretación de la gasometría y los electrolitos",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Cetoacidosis diabética grave con hipopotasemia, brecha aniónica elevada y sodio corregido normal, que exige tratamiento inmediato",
+     "calidad": "optima",
+     "siguiente": "n2b",
+     "explicacion": "Glucosa alta, cetonemia, pH bajo y brecha aniónica elevada configuran una cetoacidosis grave; el potasio bajo cambia el orden del tratamiento.",
+     "id": "D",
+     "tema": "Interpretación de la gasometría y los electrolitos",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alteraciones leves sin gravedad: bastan la hidratación oral y repetir los estudios de laboratorio dentro de doce horas en observación",
+     "calidad": "incorrecta",
+     "siguiente": "n2b",
+     "explicacion": "El pH de 7,05, el bicarbonato de 6 y el potasio de 3,1 indican gravedad; la espera es insegura.",
+     "omision": true,
+     "id": "E",
+     "tema": "Interpretación de la gasometría y los electrolitos",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n2b": {
+   "estado": "El pH es 7,05 y el bicarbonato es 6 mmol/L. El equipo discute si corresponde dar bicarbonato endovenoso mientras se completa la reposición de líquidos y se corrige el potasio.",
+   "vitales": {
+    "pH": "7,05",
+    "HCO₃⁻": "6 mmol/L",
+    "K⁺": "3,1 mmol/L",
+    "PA": "100/60 mmHg"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta frente a la acidosis grave?",
+   "ayuda": {
+    "especialista": "endo",
+    "pertinentes": [
+     "endo",
+     "uci",
+     "emerg"
+    ],
+    "n1": "El pH es muy bajo. Pero, ¿el bicarbonato corrige la causa de la acidosis y qué efecto tiene sobre el potasio?",
+    "n2": "La acidosis cetósica mejora al tratar la cetosis; el bicarbonato no es de rutina y puede bajar el potasio."
+   },
+   "decisiones": [
+    {
+     "texto": "No dar bicarbonato de rutina con pH de 7,05; tratar con líquidos, insulina tras el potasio y reevaluar la gasometría periódicamente",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "El bicarbonato no se usa de rutina; se reserva para acidosis más grave. La acidosis se corrige al tratar la cetosis con líquidos e insulina.",
+     "id": "A",
+     "tema": "Uso del bicarbonato en la cetoacidosis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar bicarbonato en bolo para llevar el pH a más de 7,2 antes de iniciar los líquidos y el potasio",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "El bicarbonato en bolo puede empeorar la hipopotasemia y no mejora el pronóstico en la cetoacidosis con pH de 7,05.",
+     "id": "B",
+     "tema": "Uso del bicarbonato en la cetoacidosis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar la repetición de la gasometría en tres horas antes de definir cualquier medida, manteniendo solo los líquidos de mantenimiento",
      "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "Retrasar la insulina más de lo necesario mantiene la cetosis: se inicia cuando el potasio es de al menos 3,5 mmol/L.",
-     "tema": "Potasio antes de la insulina",
+     "explicacion": "Con pH de 7,05 y deshidratación importante los líquidos no son de mantenimiento: se repone el déficit y se trata ahora.",
+     "omision": true,
+     "id": "C",
+     "tema": "Uso del bicarbonato en la cetoacidosis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar bicarbonato junto con potasio en la misma solución para corregir ambos desequilibrios en un único acceso venoso",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Mezclar bicarbonato y potasio sin control puede causar arritmias y desequilibrios graves de electrolitos.",
+     "id": "D",
+     "tema": "Uso del bicarbonato en la cetoacidosis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar bicarbonato en infusión continua durante toda la reposición, sin repetir la gasometría hasta que la glucemia normalice",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La infusión continua de bicarbonato sin control agrava la hipopotasemia y no está recomendada de rutina.",
+     "id": "E",
+     "tema": "Uso del bicarbonato en la cetoacidosis",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
+  },
+  "r2": {
+   "estado": "Tras el bicarbonato el potasio cae aún más y la paciente refiere debilidad y palpitaciones. El monitor muestra extrasístoles ventriculares ocasionales. Se reevalúa la situación.",
+   "vitales": {
+    "K⁺": "2,6 mmol/L",
+    "ECG": "extrasístoles ventriculares",
+    "PA": "98/58 mmHg",
+    "FC": "126 /min"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué se hace ahora?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "nefro",
+     "endo"
+    ],
+    "n1": "El potasio cayó y hay arritmias. ¿Qué se repone primero y qué se retrasa?",
+    "n2": "Repón potasio con monitoreo y retrasa la insulina hasta un potasio seguro."
+   },
+   "laboratorio": {
+    "titulo": "Control de potasio",
+    "resultados": [
+     {
+      "prueba": "potasio",
+      "valor": 2.6
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Administrar más bicarbonato en bolo para estabilizar el ritmo cardíaco y la acidosis de la paciente en el monitor",
+     "calidad": "incorrecta",
+     "siguiente": "d2",
+     "explicacion": "El bicarbonato adicional empeora la hipopotasemia y el riesgo de arritmia.",
+     "id": "A",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reponer potasio endovenoso con monitorización, retrasar la insulina hasta un potasio de 3,5 mmol/L o más y seguir hidratando",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "La hipopotasemia con arritmias exige reposición con monitoreo y retraso de la insulina hasta un potasio seguro.",
+     "id": "B",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Iniciar la insulina endovenosa para corregir cuanto antes la acidosis y reponer potasio después, según la evolución de la glucemia",
+     "calidad": "incorrecta",
+     "siguiente": "d2",
+     "explicacion": "La insulina con potasio bajo aumenta el riesgo de arritmia grave; primero se repone el potasio.",
+     "omision": true,
+     "id": "C",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender los líquidos para evitar la sobrecarga y mantener solo la observación del monitor y los controles de potasio",
+     "calidad": "incorrecta",
+     "siguiente": "d2",
+     "explicacion": "Suspender los líquidos agrava la deshidratación y la acidosis; no corrige la hipopotasemia.",
+     "id": "D",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar un antiarrítmico por vía endovenosa sin corregir el potasio y continuar con la observación en el monitor cardíaco",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Un antiarrítmico sin corregir la causa de la arritmia es ineficaz y puede ser peligroso.",
+     "id": "E",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
   },
   "n3": {
-   "estado": "Con el potasio repuesto y en 3,8 mmol/L se inicia insulina endovenosa continua. Cuatro horas después, la glucosa es de 240 mg/dL, el pH de 7,15 y las cetonas siguen elevadas.",
+   "estado": "El potasio es de 3,1 mmol/L, la paciente ya recibe líquidos y está monitorizada. Hay que decidir el orden entre la reposición de potasio y el inicio de la insulina.",
    "vitales": {
-    "Glucosa": "240 mg/dL",
+    "K⁺": "3,1 mmol/L",
+    "ECG": "ondas U",
+    "PA": "102/62 mmHg",
+    "Líquidos": "en curso"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Qué va primero: potasio o insulina?",
+   "ayuda": {
+    "especialista": "nefro",
+    "pertinentes": [
+     "nefro",
+     "endo",
+     "uci"
+    ],
+    "n1": "La insulina mueve el potasio hacia las células. Con un potasio de 3,1, ¿qué debes asegurar antes?",
+    "n2": "Primero potasio hasta un valor seguro y después insulina, con monitoreo."
+   },
+   "decisiones": [
+    {
+     "texto": "Iniciar la insulina a mitad de dosis junto con la reposición de potasio para compensar el riesgo de hipopotasemia en la paciente",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Con potasio bajo la insulina, aun a dosis reducidas, expone a una arritmia; primero se alcanza un potasio seguro.",
+     "id": "A",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender la reposición de potasio, porque el ECG no muestra cambios graves y esperar el control de las seis horas siguientes",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "El ECG con ondas U y un potasio bajo exigen reposición; esperar seis horas es inseguro.",
+     "omision": true,
+     "id": "B",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar a que el potasio llegue a 5 mmol/L antes de dar insulina, manteniendo la reposición de potasio durante varias horas",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Retrasar la insulina más de lo necesario mantiene la cetosis: se inicia cuando el potasio es de al menos 3,5 mmol/L.",
+     "id": "C",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Iniciar la insulina endovenosa ahora, porque el pH es muy bajo y reponer el potasio durante las próximas horas",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Dar insulina con potasio de 3,1 mmol/L puede desencadenar una arritmia grave: es un error crítico.",
+     "id": "D",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reponer potasio endovenoso con monitorización y retrasar la insulina hasta un potasio de al menos 3,5 mmol/L, con hidratación",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Con potasio bajo, la insulina lo introduce en las células y puede provocar hipopotasemia grave y arritmias: se repone primero.",
+     "id": "E",
+     "tema": "Potasio antes de la insulina",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "n4": {
+   "estado": "Con el potasio repuesto a 3,8 mmol/L se decide iniciar la insulina. La glucemia es de 505 mg/dL y la paciente continúa con hidratación endovenosa y monitorización.",
+   "vitales": {
+    "K⁺": "3,8 mmol/L",
+    "Glucemia": "505 mg/dL",
+    "PA": "108/66 mmHg",
+    "FC": "108 /min"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cómo se administra la insulina?",
+   "ayuda": {
+    "especialista": "endo",
+    "pertinentes": [
+     "endo",
+     "uci"
+    ],
+    "n1": "El potasio ya es seguro. ¿Con qué vía y modalidad la insulina es titulable y segura en este cuadro?",
+    "n2": "Insulina endovenosa en infusión continua con monitoreo seriado de glucosa, potasio y gasometría."
+   },
+   "laboratorio": {
+    "titulo": "Controles al iniciar la insulina",
+    "resultados": [
+     {
+      "prueba": "potasio",
+      "valor": 3.8
+     },
+     {
+      "prueba": "glucosa",
+      "valor": 505
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Un bolo grande de insulina endovenosa seguido de suspensión hasta la siguiente glucemia, para evitar una hipoglucemia prolongada",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Los bolos grandes y la suspensión intermitente producen oscilaciones y no resuelven de manera sostenida la cetosis.",
+     "id": "A",
+     "tema": "Inicio y mantenimiento de la insulina",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Iniciar insulina en infusión pero sin control de glucemia ni de potasio hasta completar seis horas de tratamiento ininterrumpido",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Sin monitoreo frecuente se arriesga hipoglucemia y arritmias por hipopotasemia no detectadas.",
+     "id": "B",
+     "tema": "Inicio y mantenimiento de la insulina",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Insulina endovenosa en infusión continua con control horario de la glucemia y seriado del potasio y de la gasometría en cuidados intermedios",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "La infusión continua endovenosa con monitoreo estrecho permite titular la insulina y detectar cambios del potasio y del pH.",
+     "id": "C",
+     "tema": "Inicio y mantenimiento de la insulina",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Posponer la insulina hasta que la glucemia baje espontáneamente por debajo de 300 mg/dL con la hidratación y el reposo",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Sin insulina la cetosis no se resuelve; la glucemia puede bajar con líquidos, pero la acidosis persistiría.",
+     "omision": true,
+     "id": "D",
+     "tema": "Inicio y mantenimiento de la insulina",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Insulina subcutánea cada cuatro horas según la glucemia capilar, sin monitoreo seriado de potasio ni de gasometría durante el día",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La vía subcutánea con deshidratación y mala perfusión tiene absorción impredecible; en cetoacidosis grave se usa infusión endovenosa.",
+     "id": "E",
+     "tema": "Inicio y mantenimiento de la insulina",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n5": {
+   "estado": "Cuatro horas después, la glucemia es de 240 mg/dL, el pH de 7,15 y las cetonas siguen elevadas. El potasio es 4,1 mmol/L. Se discute cómo continuar el tratamiento.",
+   "vitales": {
+    "Glucemia": "240 mg/dL",
     "pH": "7,15",
     "K⁺": "4,1 mmol/L",
     "Cetonas": "elevadas"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cómo continúas el tratamiento?",
+   "ayuda": {
+    "especialista": "endo",
+    "pertinentes": [
+     "endo",
+     "uci"
+    ],
+    "n1": "La glucosa mejora más rápido que la cetosis. ¿Qué mantienes y qué añades?",
+    "n2": "Mantén la insulina hasta resolver la cetosis y añade glucosa a los líquidos para evitar hipoglucemia."
+   },
+   "laboratorio": {
+    "titulo": "Controles a las 4 horas",
+    "resultados": [
+     {
+      "prueba": "glucosa",
+      "valor": 240
+     },
+     {
+      "prueba": "ph",
+      "valor": 7.15
+     },
+     {
+      "prueba": "potasio",
+      "valor": 4.1
+     },
+     {
+      "prueba": "bhb",
+      "valor": 4.1
+     }
+    ],
+    "ocultar_marcas": true
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Mantener la insulina endovenosa y añadir dextrosa a los líquidos para evitar la hipoglucemia hasta que se resuelva la cetosis, con control frecuente de glucosa y potasio",
-     "calidad": "optima",
-     "siguiente": "n4",
-     "explicacion": "La insulina debe continuar hasta resolver la cetosis, no solo hasta normalizar la glucosa; se añade dextrosa para evitar la hipoglucemia.",
-     "tema": "Mantenimiento de la insulina y la glucosa",
+     "texto": "Duplicar la velocidad de la insulina endovenosa sin añadir dextrosa para acelerar la resolución del cuadro de acidosis",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Aumentar la insulina sin glucosa con una glucemia de 240 favorece la hipoglucemia; se añade dextrosa y se mantiene la infusión.",
+     "id": "A",
+     "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Suspender la insulina porque la glucosa ya bajó",
+     "texto": "Suspender la insulina, porque la glucemia ya bajó y reiniciarla cuando la glucemia vuelva a ascender por encima de 300 mg/dL",
      "calidad": "incorrecta",
-     "siguiente": "n4",
+     "siguiente": "n6",
      "explicacion": "La glucosa baja antes que la cetosis: suspender la insulina deja sin resolver la acidosis y la cetosis.",
-     "tema": "Mantenimiento de la insulina y la glucosa",
+     "id": "B",
+     "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Pasar ya a insulina subcutánea y retirar la endovenosa",
+     "texto": "Reducir los líquidos a mantenimiento y espaciar los controles de laboratorio a cada doce horas hasta la normalización del pH",
      "calidad": "incorrecta",
-     "siguiente": "n4",
+     "siguiente": "n6",
+     "explicacion": "La paciente sigue con cetosis y requiere vigilancia frecuente; espaciar los controles es inseguro.",
+     "omision": true,
+     "id": "C",
+     "tema": "Insulina, glucosa y resolución de la cetosis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Pasar ya a insulina subcutánea y retirar la endovenosa, dado que la glucemia es de 240 y la paciente se siente mejor",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
      "explicacion": "Sin resolver la acidosis y sin superposición, el cambio es prematuro y puede reaparecer la cetoacidosis.",
-     "tema": "Mantenimiento de la insulina y la glucosa",
+     "id": "D",
+     "tema": "Insulina, glucosa y resolución de la cetosis",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la insulina endovenosa y añadir dextrosa a los líquidos, con controles frecuentes de glucosa y potasio",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "La insulina continúa hasta resolver la cetosis, no solo hasta normalizar la glucosa; se añade dextrosa para evitar la hipoglucemia.",
+     "id": "E",
+     "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
-  "n4": {
+  "n6": {
    "estado": "A las 14 horas el pH es 7,34, el bicarbonato 20 mmol/L, la cetonemia casi normal y tolera la vía oral. Se identificó la infección respiratoria como desencadenante y la falta de recursos para comprar insulina.",
    "vitales": {
     "pH": "7,34",
@@ -195,92 +875,382 @@
     "Vía oral": "tolera"
    },
    "gravedad": 0,
-   "decisiones": [
-    {
-     "id": "a",
-     "texto": "Iniciar insulina subcutánea basal y de acción rápida y mantener la endovenosa un período de superposición antes de suspenderla; tratar el desencadenante, resolver el acceso a la insulina y educar",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "La superposición evita el rebote de la cetosis. Tratar el desencadenante y resolver el acceso a la insulina y la educación previenen recurrencias.",
-     "tema": "Resolución y transición a insulina subcutánea",
-     "competencia": "Disposición y seguimiento",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Suspender la insulina endovenosa al mismo tiempo que se aplica la primera dosis subcutánea",
-     "calidad": "incorrecta",
-     "siguiente": "f_regular",
-     "explicacion": "Sin superposición, la acción de la insulina subcutánea tarda en comenzar y puede reaparecer la cetoacidosis.",
-     "tema": "Resolución y transición a insulina subcutánea",
-     "competencia": "Disposición y seguimiento",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Dar el alta con la misma indicación previa, sin abordar por qué dejó la insulina",
-     "calidad": "incorrecta",
-     "siguiente": "f_regular",
-     "explicacion": "Sin corregir la causa de la omisión la recurrencia es probable.",
-     "tema": "Resolución y transición a insulina subcutánea",
-     "competencia": "Disposición y seguimiento",
-     "refs": [
-      "r1"
-     ]
-    }
-   ]
-  },
-  "n_det": {
-   "estado": "Una hora después presenta palpitaciones, debilidad muscular marcada y, en el monitor, extrasístoles ventriculares frecuentes y una taquicardia ventricular no sostenida.",
-   "vitales": {
-    "K⁺": "2,4 mmol/L",
-    "ECG": "extrasístoles y TV no sostenida",
-    "PA": "92/54 mmHg"
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cómo se hace la transición de la insulina?",
+   "ayuda": {
+    "especialista": "endo",
+    "pertinentes": [
+     "endo"
+    ],
+    "n1": "Se cumplen criterios de resolución. ¿Cómo evitas el rebote de la cetosis al cambiar de vía?",
+    "n2": "Superpón la insulina subcutánea y la endovenosa un tiempo antes de suspenderla."
    },
-   "gravedad": 2,
+   "laboratorio": {
+    "titulo": "Controles a las 14 horas",
+    "resultados": [
+     {
+      "prueba": "ph",
+      "valor": 7.34
+     },
+     {
+      "prueba": "hco3",
+      "valor": 20
+     },
+     {
+      "prueba": "bhb",
+      "valor": 0.4
+     },
+     {
+      "prueba": "glucosa",
+      "valor": 180
+     },
+     {
+      "prueba": "potasio",
+      "valor": 4.3
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Suspender la insulina, reponer potasio endovenoso con monitorización continua y tratar la arritmia, con UCI",
+     "texto": "Insulina subcutánea basal y rápida con superposición de la endovenosa antes de suspenderla, tratando el desencadenante",
      "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "La hipopotasemia grave exige reponer el potasio con monitorización y corregir antes de reanudar la insulina.",
-     "tema": "Hipopotasemia y arritmias",
+     "siguiente": "n7",
+     "explicacion": "La superposición evita el rebote de la cetosis: la insulina subcutánea tarda en actuar y la endovenosa se retira después.",
+     "id": "A",
+     "tema": "Transición a insulina subcutánea",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Continuar la insulina y observar el monitor",
+     "texto": "Suspender toda insulina por unas horas hasta que aparezca hambre y volver a iniciar una dosis única de insulina basal por la tarde",
      "calidad": "peligrosa",
      "siguiente": "f_adverso",
-     "explicacion": "Continuar la insulina empeora la hipopotasemia y el riesgo de arritmia fatal.",
+     "explicacion": "Dejar a una paciente con diabetes tipo 1 sin insulina favorece una nueva cetoacidosis en horas.",
+     "id": "B",
+     "tema": "Transición a insulina subcutánea",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la insulina endovenosa indefinidamente hasta el alta para evitar cualquier pase a la vía subcutánea durante la hospitalización",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "No es necesario prolongarla; con criterios de resolución y tolerancia oral se pasa a insulina subcutánea con superposición.",
+     "id": "C",
+     "tema": "Transición a insulina subcutánea",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender la insulina endovenosa al mismo tiempo que se aplica la primera dosis subcutánea de insulina rápida a la paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Sin superposición, la insulina subcutánea tarda en actuar y puede reaparecer la cetoacidosis.",
+     "id": "D",
+     "tema": "Transición a insulina subcutánea",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta con la dosis previa de insulina y sin superposición ni control de la glucemia durante las primeras veinticuatro horas",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Sin superposición ni vigilancia se arriesga una recaída de la cetoacidosis.",
+     "omision": true,
+     "id": "E",
+     "tema": "Transición a insulina subcutánea",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n7": {
+   "estado": "La paciente está estable, con tolerancia oral y transición completada. Hay que cerrar el episodio abordando el desencadenante y la causa de la omisión de la insulina.",
+   "vitales": {
+    "Glucemia": "estable",
+    "Vía oral": "tolera",
+    "PA": "112/70 mmHg",
+    "Estado": "alerta"
+   },
+   "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 1,
+   "pregunta": "¿Cuál es el plan final?",
+   "ayuda": {
+    "especialista": "endo",
+    "pertinentes": [
+     "endo"
+    ],
+    "n1": "El episodio se resolvió, pero ¿por qué ocurrió y cómo evitas que se repita?",
+    "n2": "Tratar el desencadenante, asegurar el acceso a la insulina y educar sobre días de enfermedad."
+   },
+   "decisiones": [
+    {
+     "texto": "Suspender la insulina basal en casa si la glucemia es normal durante las siguientes semanas, para evitar hipoglucemias",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "En diabetes tipo 1 no se suspende la insulina basal: favorece una nueva cetoacidosis.",
+     "id": "A",
+     "tema": "Desencadenante, educación y alta",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta con la misma indicación previa, sin abordar por qué dejó la insulina ni explicar qué hacer en los días de enfermedad",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin corregir la causa de la omisión la recurrencia es probable.",
+     "omision": true,
+     "id": "B",
+     "tema": "Desencadenante, educación y alta",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tratar la infección, asegurar el acceso a la insulina, educar sobre días de enfermedad y seguimiento endocrinológico",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Tratar el desencadenante, resolver el acceso a la insulina y educar sobre los días de enfermedad previenen recurrencias.",
+     "id": "C",
+     "tema": "Desencadenante, educación y alta",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar una dieta estricta muy baja en carbohidratos para reducir la necesidad de insulina y evitar nuevas descompensaciones",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Una dieta muy restrictiva sin insulina suficiente puede favorecer la cetosis; la insulina no se sustituye con dieta.",
+     "id": "D",
+     "tema": "Desencadenante, educación y alta",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar insulina a dosis fija sin vigilar la glucemia en casa, para simplificar el tratamiento y mejorar la adherencia",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "La insulina requiere monitoreo de la glucemia; sin él aumenta el riesgo de hipoglucemia o de nueva descompensación.",
+     "id": "E",
+     "tema": "Desencadenante, educación y alta",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "d1": {
+   "estado": "Sin el manejo adecuado, la paciente queda con somnolencia profunda, respiración muy profunda y presión en descenso. Está gravemente deshidratada.",
+   "vitales": {
+    "PA": "84/50 mmHg",
+    "FC": "138 /min",
+    "FR": "36 /min",
+    "Conciencia": "somnolienta, respuesta lenta"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "Hay deshidratación grave y acidosis profunda: ¿qué soporte y estudio no pueden esperar?",
+    "n2": "Cuidados intensivos con líquidos, estudios con potasio y la insulina solo tras el potasio."
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Continuar con insulina subcutánea y observar la respuesta de la glucemia durante la noche en una sala de hospitalización",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "La insulina subcutánea no corrige una cetoacidosis grave con deshidratación y mala perfusión.",
+     "omision": true,
+     "id": "A",
+     "tema": "Cetoacidosis diabética con deterioro hemodinámico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar sedantes para disminuir la ansiedad respiratoria y observar la evolución sin ampliar el estudio ni los líquidos",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Los sedantes en una respiración compensatoria de acidosis grave la deprimen y precipitan una falla respiratoria.",
+     "id": "B",
+     "tema": "Cetoacidosis diabética con deterioro hemodinámico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un bolo de insulina endovenosa sin conocer el potasio y reponer líquidos después, para corregir pronto la acidosis",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Insulina sin conocer el potasio en una paciente deshidratada puede provocar una arritmia mortal.",
+     "id": "C",
+     "tema": "Cetoacidosis diabética con deterioro hemodinámico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Cuidados intensivos: líquidos endovenosos, monitorización, estudios con potasio y plan de insulina tras el potasio",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El deterioro con acidosis grave exige manejo intensivo: reanimación con líquidos, monitoreo y estudio completo antes de la insulina.",
+     "id": "D",
+     "tema": "Cetoacidosis diabética con deterioro hemodinámico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Trasladar a su domicilio con insulina rápida cada ocho horas, porque la paciente refiere sentirse algo mejor en reposo",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "Una cetoacidosis grave no se maneja en casa: el alta es insegura.",
+     "id": "E",
+     "tema": "Cetoacidosis diabética con deterioro hemodinámico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "d2": {
+   "estado": "Una hora después presenta palpitaciones, debilidad muscular marcada y, en el monitor, extrasístoles ventriculares frecuentes y una taquicardia ventricular no sostenida.",
+   "vitales": {
+    "K⁺": "2,4 mmol/L",
+    "ECG": "extrasístoles y TV no sostenida",
+    "PA": "92/54 mmHg",
+    "Estado": "inestable"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "nefro"
+    ],
+    "n1": "Arritmias con potasio muy bajo tras la insulina: ¿qué corriges y qué suspendes?",
+    "n2": "Repón potasio con monitoreo, suspende la insulina y trata en cuidados intensivos."
+   },
+   "laboratorio": {
+    "titulo": "Control urgente",
+    "resultados": [
+     {
+      "prueba": "potasio",
+      "valor": 2.4
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Continuar la insulina y observar el monitor, ya que la arritmia podría deberse a la acidosis y mejorar con el tratamiento",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Continuar la insulina empeora la hipopotasemia y aumenta el riesgo de arritmia fatal.",
+     "id": "A",
+     "tema": "Hipopotasemia y arritmias",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender la insulina, reponer potasio endovenoso con monitorización, tratar la arritmia y pasar a cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La hipopotasemia grave exige reponer el potasio con monitoreo y corregir antes de reanudar la insulina.",
+     "id": "B",
+     "tema": "Hipopotasemia y arritmias",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar un antiarrítmico y mantener los líquidos sin potasio para evitar la sobrecarga, mientras se observa la evolución del monitor",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "El antiarrítmico sin corregir el potasio es ineficaz; la causa es la hipopotasemia.",
+     "id": "C",
+     "tema": "Hipopotasemia y arritmias",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un bolo de bicarbonato para la arritmia y mantener la insulina para corregir pronto la acidosis metabólica",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "El bicarbonato adicional y la insulina disminuyen aún más el potasio y empeoran la arritmia hasta un desenlace fatal.",
+     "id": "D",
+     "tema": "Hipopotasemia y arritmias",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reducir la insulina a la mitad y esperar la respuesta del ritmo cardíaco sin reponer potasio por vía endovenosa de inmediato",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Sin reposición de potasio la arritmia puede persistir; reducir la insulina no basta.",
+     "omision": true,
+     "id": "E",
      "tema": "Hipopotasemia y arritmias",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
   "f_bueno": {
    "final": {
     "tipo": "bueno",
     "titulo": "Buen desenlace",
     "mensaje": "Se resolvió la cetoacidosis con seguridad, se trató el desencadenante y se resolvió el acceso a la insulina."
-   }
-  },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se corrigió una complicación grave que la medición del potasio antes de la insulina habría evitado."
    }
   },
   "f_regular": {
@@ -294,18 +1264,59 @@
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "La hipopotasemia no corregida llevó a una arritmia grave."
+    "mensaje": "Una conducta sin respaldo llevó a una nueva descompensación grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "La paciente falleció por arritmia o falla respiratoria (educativo)",
+    "mensaje": "La insulina sin corregir el potasio o la sedación en acidosis grave llevó a una complicación mortal."
    }
   }
  },
  "informe": {
   "resumen_clinico": "Mujer de 19 años con diabetes tipo 1 que omitió la insulina, con infección respiratoria, hiperglucemia, acidosis metabólica (pH 7,05, bicarbonato 6) e hipopotasemia (3,1 mmol/L): cetoacidosis diabética grave. Se hidrató, se repuso el potasio antes de la insulina y se resolvió con transición a insulina subcutánea.",
+  "diagnostico_final": "Cetoacidosis diabética grave con hipopotasemia, desencadenada por infección respiratoria y omisión de insulina.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Estado hiperglucémico hiperosmolar",
+    "por_que_no": "Hay cetonemia marcada, bicarbonato muy bajo y pH bajo; el estado hiperosmolar cursa sin cetoacidosis significativa."
+   },
+   {
+    "dx": "Acidosis láctica por sepsis",
+    "por_que_no": "La brecha aniónica se explica por las cetonas; la infección es un desencadenante, no la causa exclusiva."
+   },
+   {
+    "dx": "Cetoacidosis alcohólica",
+    "por_que_no": "No hay consumo de alcohol y existe hiperglucemia marcada en una paciente con diabetes tipo 1."
+   },
+   {
+    "dx": "Intoxicación por salicilatos",
+    "por_que_no": "No hay antecedente de ingesta y la cetonemia con hiperglucemia explica el cuadro."
+   }
+  ],
+  "datos_clave": [
+   "Diabetes tipo 1 sin insulina durante tres días con infección respiratoria.",
+   "Respiración profunda y rápida (Kussmaul), aliento a fruta y deshidratación.",
+   "Glucosa alta, cetonemia elevada, pH bajo, bicarbonato bajo y brecha aniónica alta.",
+   "Potasio bajo (3,1 mmol/L): cambia el orden del tratamiento."
+  ],
   "razonamiento": [
    "Reconocer la cetoacidosis (hiperglucemia, cetosis, acidosis) y su gravedad.",
    "Hidratar, monitorizar y medir el potasio ANTES de iniciar la insulina.",
+   "Interpretar la gasometría: brecha aniónica alta, bicarbonato bajo y potasio bajo.",
+   "No dar bicarbonato de rutina; tratar la cetosis con líquidos e insulina.",
    "Con potasio bajo, reponerlo primero y retrasar la insulina.",
    "Mantener la insulina hasta resolver la cetosis, con dextrosa para evitar la hipoglucemia.",
    "Superponer la insulina subcutánea antes de suspender la endovenosa; tratar el desencadenante y el acceso a la insulina."
+  ],
+  "interpretacion_laboratorio": [
+   "Glucosa 520 mg/dL y β-hidroxibutirato elevado: hiperglucemia con cetosis.",
+   "pH 7,05, PaCO₂ baja y bicarbonato 6 mmol/L: acidosis metabólica con compensación respiratoria (respiración de Kussmaul).",
+   "Brecha aniónica elevada: acidosis por aniones no medidos (cetoácidos); el sodio medido bajo se corrige al sumar el efecto de la glucosa (≈ 135 mmol/L).",
+   "Potasio 3,1 mmol/L pese a la acidosis: el déficit total de potasio es grande; se repone antes de la insulina.",
+   "A las 14 h: pH, bicarbonato y β-hidroxibutirato se normalizan, lo que permite la transición."
   ],
   "tratamiento": [
    {
@@ -343,9 +1354,5 @@
    "g10"
   ],
   "mensaje_clave": "En la cetoacidosis se hidrata y se mide el potasio antes de la insulina; con potasio bajo, se repone primero."
- },
- "areas_banco": [
-  "endocrinologia",
-  "nefrologia"
- ]
+ }
 }

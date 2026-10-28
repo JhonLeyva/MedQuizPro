@@ -140,7 +140,7 @@
      ]
     },
     {
-     "texto": "Monitorizar, dos vías, hemocultivos y lactato, cristaloides y antibiótico de amplio espectro en la primera hora, con ecografía en paralelo",
+     "texto": "Monitorización con dos vías y hemocultivos con lactato, y cristaloides con antibiótico de amplio espectro en la primera hora más ecografía abdominal",
      "calidad": "optima",
      "siguiente": "n2",
      "explicacion": "Fiebre, ictericia, dolor e hipotensión con alteración del sensorio configuran sepsis de origen biliar: cultivos, antibiótico en la primera hora y reanimación se hacen en paralelo al estudio.",
@@ -227,7 +227,7 @@
    },
    "decisiones": [
     {
-     "texto": "Indicar paracetamol endovenoso y oxígeno, y repetir signos vitales en una hora porque la fiebre explica la taquicardia y la hipotensión",
+     "texto": "Indicar paracetamol endovenoso y oxígeno, y repetir signos vitales en una hora, porque la fiebre explica la taquicardia y la hipotensión",
      "calidad": "incorrecta",
      "siguiente": "d1",
      "explicacion": "Atribuir la hipotensión a la fiebre subestima la sepsis; el tratamiento antipirético no corrige la hipoperfusión ni el foco.",
@@ -464,7 +464,7 @@
    },
    "decisiones": [
     {
-     "texto": "Iniciar noradrenalina para una PAM de 65 mmHg o más, colocar línea arterial y seguir la reposición guiada por la respuesta mientras se drena",
+     "texto": "Iniciar noradrenalina para una PAM de 65 mmHg o más, colocar línea arterial y seguir la reposición guiada por la respuesta, mientras se drena",
      "calidad": "optima",
      "siguiente": "n4",
      "explicacion": "En el choque séptico persistente tras la reposición inicial, la noradrenalina es el vasopresor de primera línea con meta de PAM de 65 mmHg, con reevaluación continua.",
@@ -476,7 +476,7 @@
      ]
     },
     {
-     "texto": "Usar dopamina como vasopresor de primera elección porque está disponible por vía periférica y es de fácil titulación en emergencia",
+     "texto": "Usar dopamina como vasopresor de primera elección, porque está disponible por vía periférica y es de fácil titulación en emergencia",
      "calidad": "incorrecta",
      "siguiente": "n4",
      "explicacion": "La guía sugiere noradrenalina antes que dopamina; esta se asocia con más arritmias y no ofrece ventaja en el choque séptico.",
@@ -513,7 +513,7 @@
      ]
     },
     {
-     "texto": "Administrar un antiinflamatorio no esteroideo para la fiebre mientras se coordina el drenaje y se espera la mejoría de la presión",
+     "texto": "Administrar un antiinflamatorio no esteroideo para la fiebre, mientras se coordina el drenaje y se espera la mejoría de la presión",
      "calidad": "peligrosa",
      "siguiente": "d2",
      "explicacion": "Con lesión renal y choque, los antiinflamatorios no esteroideos empeoran la función renal: error crítico.",
@@ -650,7 +650,7 @@
      ]
     },
     {
-     "texto": "Activar ya el drenaje biliar urgente, endoscópico o percutáneo, manteniendo el soporte de órganos",
+     "texto": "Activar ya el drenaje biliar urgente por vía endoscópica o percutánea manteniendo el soporte de órganos y el antibiótico",
      "calidad": "optima",
      "siguiente": "n5",
      "explicacion": "La falta de mejoría confirma que el foco obstruido sigue activo: el drenaje urgente es la intervención que falta.",
@@ -662,7 +662,7 @@
      ]
     },
     {
-     "texto": "Reducir el soporte hemodinámico porque la presión se mantiene dentro de la meta y suspender la monitorización invasiva",
+     "texto": "Reducir el soporte hemodinámico, porque la presión se mantiene dentro de la meta y suspender la monitorización invasiva",
      "calidad": "peligrosa",
      "siguiente": "f_adverso",
      "explicacion": "Retirar soporte en un paciente que sigue séptico y sin foco controlado puede precipitar un colapso hemodinámico.",
@@ -858,7 +858,7 @@
      ]
     },
     {
-     "texto": "Trasladar a sala y repetir una colangiorresonancia diaria para vigilar la evolución del drenaje mientras dure la hospitalización",
+     "texto": "Trasladar a sala y repetir una colangiorresonancia diaria para vigilar la evolución del drenaje, mientras dure la hospitalización",
      "calidad": "aceptable",
      "siguiente": "n7",
      "explicacion": "La vigilancia con imagen diaria no es necesaria sin deterioro; bastan la clínica y el laboratorio, aunque no es dañina.",
@@ -1028,7 +1028,7 @@
    "deterioro": true,
    "decisiones": [
     {
-     "texto": "Reanimar ya con cristaloides y noradrenalina, antibiótico de amplio espectro, cuidados intensivos y drenaje biliar urgente",
+     "texto": "Reanimar ya con cristaloides y noradrenalina más antibiótico de amplio espectro, cuidados intensivos y drenaje biliar urgente",
      "calidad": "optima",
      "siguiente": "n2",
      "explicacion": "Es un choque séptico de origen biliar avanzado: el soporte de órganos y el control urgente del foco no admiten más demora.",

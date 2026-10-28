@@ -1203,6 +1203,13 @@
      "alto": 5,
      "edad_min": 18,
      "texto": "0–5"
+    },
+    {
+     "sexo": "F",
+     "bajo": null,
+     "alto": null,
+     "condicion": "gestacion-t1",
+     "texto": "En gestación temprana no hay un valor «normal» único: se interpreta con la ecografía y la evolución seriada"
     }
    ],
    "umbrales": [],

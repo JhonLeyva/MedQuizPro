@@ -3,9 +3,33 @@
  "titulo": "Dolor pélvico y sangrado en una mujer en edad fértil",
  "especialidad": "Gineco-obstetricia · Emergencias",
  "dificultad": 2,
- "duracion_min": 10,
- "resumen": "Mujer de 27 años con retraso menstrual, sangrado escaso y dolor pélvico unilateral. Decide cómo estudiarla y qué tratamiento corresponde.",
+ "duracion_min": 17,
+ "areas_banco": [
+  "ginecologia"
+ ],
+ "resumen": "Mujer de 27 años con retraso menstrual, sangrado escaso y dolor pélvico unilateral. Decide cómo estudiarla, qué tratamiento elegir y cómo seguirla.",
  "contexto": "Emergencia de hospital con ecografía transvaginal, laboratorio, banco de sangre y quirófano.",
+ "paciente": {
+  "edad": 27,
+  "edad_texto": "27 años",
+  "sexo": "F",
+  "embarazo": true,
+  "trimestre": 1
+ },
+ "especialistas": [
+  {
+   "id": "gineco",
+   "nombre": "Ginecología y obstetricia"
+  },
+  {
+   "id": "emerg",
+   "nombre": "Medicina de emergencias"
+  },
+  {
+   "id": "anest",
+   "nombre": "Anestesiología / banco de sangre"
+  }
+ ],
  "imagenes": [],
  "referencias": [
   {
@@ -25,12 +49,13 @@
   }
  ],
  "discrepancias": [
-  "Solo se verificó en esta consulta el boletín ACOG 193 (2018). No se incorporó la guía NICE ni una norma peruana (MINSA) por no haber podido consultar su texto: los criterios de elegibilidad exactos para metotrexato (umbrales de hCG, tamaño) varían según la guía y se omiten aquí a propósito. Sigue el protocolo de tu institución."
+  "Solo se verificó en esta consulta el boletín ACOG 193 (2018). No se incorporó la guía NICE ni una norma peruana (MINSA) por no haber podido consultar su texto: los criterios de elegibilidad exactos para metotrexato (umbrales de hCG, tamaño), el esquema de dosis y el calendario de controles de β-hCG varían según la guía y se omiten aquí a propósito. Sigue el protocolo de tu institución.",
+  "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; la β-hCG en gestación temprana no tiene un «normal» único."
  ],
  "inicio": "n1",
  "nodos": {
   "n1": {
-   "estado": "Mujer de 27 años, 6 semanas desde su última regla, con dolor en fosa ilíaca izquierda desde ayer y manchado oscuro escaso. Antecedente de infección pélvica hace 2 años. Está pálida pero conversa con normalidad. Abdomen con dolor a la palpación en la fosa ilíaca izquierda, sin defensa.",
+   "estado": "Mujer de 27 años, 6 semanas desde su última regla, con dolor en fosa ilíaca izquierda desde ayer y manchado oscuro escaso. Antecedente de infección pélvica hace 2 años. Está pálida pero conversa con normalidad. Abdomen doloroso a la palpación en la fosa ilíaca izquierda, sin defensa.",
    "vitales": {
     "PA": "112/70 mmHg",
     "FC": "96 /min",
@@ -38,189 +63,1011 @@
     "SatO₂": "99 %"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es el abordaje inicial?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco",
+     "emerg"
+    ],
+    "n1": "Mujer en edad fértil, retraso menstrual, dolor pélvico unilateral y sangrado: ¿qué diagnóstico no puedes dejar de descartar?",
+    "n2": "Confirma el embarazo, ubícalo y asegura un acceso venoso por si empeora."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Prueba de embarazo cuantitativa (β-hCG), grupo sanguíneo y hemograma, vía venosa y ecografía transvaginal sin demora",
+     "texto": "Solicitar una tomografía abdominopélvica con contraste como primer estudio, antes de confirmar el embarazo con una prueba de laboratorio",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Para localizar un embarazo la ecografía transvaginal es la prueba de primera elección; la tomografía irradia y no es necesaria.",
+     "id": "A",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tratar como infección urinaria con un antibiótico oral y alta, solicitando un urocultivo para revisar el resultado en la consulta externa",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Sin explorar un posible embarazo en una mujer con dolor pélvico y retraso menstrual se deja sin diagnosticar una causa potencialmente mortal.",
+     "id": "B",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar un antiespasmódico y control en una semana, ya que la paciente conversa con normalidad y sus signos vitales son aceptables",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Un ectópico no diagnosticado puede romperse en horas: la normalidad inicial de los signos vitales no excluye el riesgo.",
+     "omision": true,
+     "id": "C",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Pedir β-hCG cuantitativa con hemograma y grupo sanguíneo, colocar una vía venosa y solicitar ecografía transvaginal sin demora",
      "calidad": "optima",
      "siguiente": "n2",
-     "explicacion": "Toda mujer en edad fértil con dolor y sangrado necesita descartar embarazo ectópico. Se confirma el embarazo, se evalúa la ubicación con ecografía transvaginal y se asegura el acceso por si se inestabiliza.",
-     "tema": "Dolor abdominal con prueba de embarazo positiva",
+     "explicacion": "Toda mujer en edad fértil con dolor y sangrado necesita descartar un ectópico: se confirma el embarazo, se ubica con ecografía transvaginal y se asegura un acceso.",
+     "id": "D",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
      "competencia": "Reconocimiento y triaje",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Tratar como infección urinaria con antibiótico oral y alta",
-     "calidad": "incorrecta",
-     "siguiente": "n_det",
-     "explicacion": "Sin explorar la posibilidad de un ectópico en una mujer con dolor pélvico y retraso menstrual, se deja sin diagnosticar una causa potencialmente mortal.",
-     "tema": "Dolor abdominal con prueba de embarazo positiva",
-     "competencia": "Reconocimiento y triaje",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Solicitar una tomografía abdominopélvica con contraste como primer estudio",
-     "calidad": "incorrecta",
-     "siguiente": "n2",
-     "explicacion": "Para localizar un embarazo la ecografía transvaginal es la prueba de primera elección: evita radiación innecesaria.",
-     "tema": "Dolor abdominal con prueba de embarazo positiva",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "d",
-     "texto": "Prescribir antiespasmódico y alta con control en una semana",
+     "texto": "Dar el alta con analgésicos y cita ginecológica electiva en un mes, atribuyendo el dolor a la ovulación y al manchado a la regla",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Un ectópico no diagnosticado puede romperse en horas. Dar de alta sin descartarlo es un error crítico.",
-     "tema": "Dolor abdominal con prueba de embarazo positiva",
+     "siguiente": "d1",
+     "explicacion": "Un ectópico sin diagnosticar puede romperse en horas; dar de alta sin descartarlo es un error crítico.",
+     "id": "E",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "r1": {
+   "estado": "Seis horas después la paciente regresa con dolor más intenso, mareo al ponerse de pie y mayor sangrado. Está más pálida. No se había descartado un embarazo ectópico.",
+   "vitales": {
+    "PA": "100/62 mmHg",
+    "FC": "112 /min",
+    "Dolor": "intenso, fosa ilíaca izquierda",
+    "Estado": "pálida, mareada"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la corrección inmediata?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco",
+     "emerg"
+    ],
+    "n1": "La paciente empeora y aún no se ha descartado un embarazo ectópico. ¿Qué estudios faltan y a quién avisas?",
+    "n2": "β-hCG, ecografía transvaginal, accesos venosos y aviso a ginecología."
+   },
+   "decisiones": [
+    {
+     "texto": "Colocar dos vías, pedir β-hCG con hemograma y grupo sanguíneo y obtener ecografía transvaginal avisando de inmediato a ginecología",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El retraso ya ocurrió: se confirma el embarazo, se localiza con ecografía y se involucra al especialista sin más demora.",
+     "id": "A",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar una ecografía abdominal suprapúbica y esperar el informe de radiología antes de pedir ningún examen de laboratorio",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La ecografía transvaginal y la β-hCG son los estudios clave y no deben esperarse uno a otro en una paciente que empeora.",
+     "id": "B",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar reposo domiciliario con analgésicos y control en tres días, porque los signos vitales todavía están dentro de rangos aceptables",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Con taquicardia y mareo el riesgo de rotura es inminente; el manejo domiciliario es un error crítico.",
+     "id": "C",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar un legrado uterino diagnóstico para obtener tejido y confirmar si hay un embarazo antes de decidir cualquier otra conducta",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El legrado no trata un ectópico y retrasa el diagnóstico; la ubicación del embarazo se define con ecografía y β-hCG.",
+     "id": "D",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Prescribir un analgésico más potente y observar durante unas horas, pues el dolor probablemente corresponde a un cólico menstrual intenso",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Un dolor creciente con mareo y taquicardia no es un cólico: puede indicar sangrado intraabdominal.",
+     "omision": true,
+     "id": "E",
+     "tema": "Dolor pélvico con prueba de embarazo positiva",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
   },
   "n2": {
-   "estado": "La β-hCG es positiva. La ecografía transvaginal no muestra saco gestacional dentro del útero y sí una masa anexial izquierda de aspecto heterogéneo y una pequeña cantidad de líquido libre en el fondo de saco. Continúa estable, con dolor leve.",
+   "estado": "La β-hCG es positiva. La ecografía transvaginal no muestra saco gestacional dentro del útero y sí una masa anexial izquierda heterogénea y una pequeña cantidad de líquido libre en el fondo de saco. Continúa estable, con dolor leve.",
    "vitales": {
     "PA": "110/68 mmHg",
     "FC": "92 /min",
-    "Hb": "11,8 g/dL",
-    "Líquido libre": "escaso"
+    "Líquido libre": "escaso",
+    "Estado": "estable"
    },
    "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 2,
+   "pregunta": "¿Cuál es la interpretación más probable?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco",
+     "emerg"
+    ],
+    "n1": "Embarazo confirmado, útero vacío y una masa a un lado: ¿qué diagnóstico encaja con el conjunto y qué no puedes pasar por alto?",
+    "n2": "Sin saco intrauterino y con masa anexial en una mujer con β-hCG positiva, piensa en la ubicación del embarazo."
+   },
+   "laboratorio": {
+    "titulo": "Resultados de laboratorio",
+    "resultados": [
+     {
+      "prueba": "bhcg",
+      "valor": 2800,
+      "etiqueta": "β-hCG cuantitativa (gestación temprana)",
+      "ref": {
+       "texto": "Gestación temprana: no hay un «normal» único; se interpreta con la ecografía y la evolución"
+      }
+     },
+     {
+      "prueba": "hemoglobina",
+      "valor": 11.8
+     }
+    ],
+    "ocultar_marcas": true
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Embarazo ectópico (probablemente tubárico) en paciente hemodinámicamente estable: seguir con evaluación para decidir manejo médico o quirúrgico",
-     "calidad": "optima",
-     "siguiente": "n3",
-     "explicacion": "Embarazo positivo sin saco intrauterino y masa anexial compatible orienta a ectópico. La estabilidad hemodinámica abre la opción del manejo médico en casos seleccionados.",
-     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "texto": "Enfermedad inflamatoria pélvica aguda con absceso tubo-ovárico, para la cual corresponde antibiótico y alta con control a la semana",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La β-hCG positiva con masa anexial y útero vacío debe tratarse como ectópico; un antibiótico solo no lo resuelve.",
+     "id": "A",
+     "tema": "Diagnóstico del embarazo ectópico",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Repetir la ecografía dentro de un mes",
-     "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Esperar semanas ante una masa anexial con embarazo positivo expone a una rotura. Hay que decidir manejo ya.",
-     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
-     "competencia": "Seguridad del paciente",
+     "texto": "Aborto espontáneo completo en una paciente estable, por lo que basta controlar la β-hCG hasta su negativización sin otras medidas",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Un útero vacío con masa anexial y β-hCG positiva no indica un aborto completo: hasta demostrar lo contrario es un ectópico.",
+     "id": "B",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Programar legrado uterino para confirmar el diagnóstico",
+     "texto": "Embarazo de ubicación incierta sin riesgo inmediato: repetir la ecografía y la β-hCG en una semana antes de definir una conducta",
      "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Con masa anexial y líquido libre en una mujer sintomática no corresponde esperar una semana para decidir.",
+     "omision": true,
+     "id": "C",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Quiste hemorrágico del cuerpo lúteo sin embarazo, que se resolverá con analgesia y reposo y no requiere un seguimiento posterior",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La β-hCG positiva confirma un embarazo; un quiste no explica la prueba positiva ni el útero vacío.",
+     "id": "D",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Embarazo ectópico tubárico probable en una paciente hemodinámicamente estable, que requiere decidir el tratamiento sin demora",
+     "calidad": "optima",
      "siguiente": "n3",
-     "explicacion": "El legrado no trata un ectópico tubárico y retrasa el manejo adecuado. Un saco ausente no se resuelve legrando.",
-     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
-     "competencia": "Tratamiento inicial",
+     "explicacion": "Embarazo positivo sin saco intrauterino y con masa anexial orienta a ectópico; la estabilidad abre la opción del manejo médico en casos seleccionados.",
+     "id": "E",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
+  },
+  "r2": {
+   "estado": "Con una interpretación equivocada la paciente no mejora: persiste el dolor, aumenta algo el líquido libre en una nueva ecografía y la β-hCG no desciende. Ginecología revisa el caso.",
+   "vitales": {
+    "PA": "108/66 mmHg",
+    "FC": "100 /min",
+    "Líquido libre": "en aumento leve",
+    "β-hCG": "sin descenso"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta ahora?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "La paciente no mejora con la hipótesis anterior: vuelve a la sospecha más peligrosa.",
+    "n2": "Reconoce el ectópico y define estabilidad y elegibilidad para tratar."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar un legrado uterino con aspiración para confirmar la presencia de vellosidades coriales antes de decidir el tratamiento definitivo",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El legrado no trata el ectópico tubárico y demora la conducta adecuada.",
+     "id": "A",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reconocer un embarazo ectópico tubárico, evaluar la estabilidad y la elegibilidad y decidir el tratamiento con ginecología sin más espera",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "La evolución confirma el ectópico; se retoma el camino con evaluación de estabilidad y elegibilidad.",
+     "id": "B",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta con analgésicos y repetir la ecografía en una semana, porque la paciente conserva signos vitales estables",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Con líquido libre en aumento y β-hCG sin descenso, el alta es insegura y puede acabar en rotura.",
+     "id": "C",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Repetir la β-hCG en 72 horas y mantener a la paciente en observación domiciliaria hasta que descienda de manera espontánea",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Con líquido libre en aumento y dolor persistente, la observación domiciliaria expone a una rotura.",
+     "omision": true,
+     "id": "D",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar una laparoscopía diagnóstica de inmediato sin completar la evaluación de estabilidad ni los estudios de laboratorio",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La laparoscopía puede ser la vía quirúrgica, pero la decisión debe basarse en estabilidad y estudios, no en una conducta apresurada.",
+     "id": "E",
+     "tema": "Diagnóstico del embarazo ectópico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
   },
   "n3": {
-   "estado": "Hay que escoger el tratamiento. Está estable, con dolor leve, sin signos de rotura, entiende la necesidad de seguimiento y no tiene contraindicaciones aparentes. Se trata de un ectópico tubárico sin latido embrionario.",
+   "estado": "Hay que escoger el tratamiento. La paciente está estable, con dolor leve y sin signos de rotura. Entiende la necesidad de seguimiento y no tiene contraindicaciones aparentes. Se trata de un ectópico tubárico sin latido embrionario.",
    "vitales": {
     "PA": "112/70 mmHg",
     "FC": "88 /min",
+    "Dolor": "leve",
     "Estado": "estable"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Qué tratamiento corresponde a esta paciente?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "Ectópico precoz, estable, sin rotura y con paciente que puede seguirse. ¿Qué opciones existen y cuál evita lo innecesario?",
+    "n2": "En la paciente estable y elegible el tratamiento médico es una opción, con estudios previos y seguimiento."
+   },
+   "laboratorio": {
+    "titulo": "Estudios de elegibilidad",
+    "resultados": [
+     {
+      "prueba": "hemoglobina",
+      "valor": 11.8
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 245
+     },
+     {
+      "prueba": "leucocitos",
+      "valor": 7.2
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 0.8
+     },
+     {
+      "prueba": "alt",
+      "valor": 22
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Manejo médico con metotrexato tras verificar elegibilidad (función hepática y renal, hemograma, ausencia de contraindicaciones) y explicar seguimiento estrecho y signos de alarma",
+     "texto": "Metotrexato tras verificar elegibilidad (hemograma, función hepática y renal), con consentimiento y plan de seguimiento",
      "calidad": "optima",
      "siguiente": "n4",
-     "explicacion": "En un ectópico precoz, estable y sin contraindicaciones, el metotrexato es una opción segura y efectiva que evita la cirugía, siempre con seguimiento con β-hCG y con la paciente informada.",
-     "tema": "Manejo médico vs quirúrgico del ectópico",
+     "explicacion": "En un ectópico precoz, estable y sin contraindicaciones, el metotrexato es una opción segura y efectiva que evita la cirugía, siempre con seguimiento y paciente informada.",
+     "id": "A",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Cirugía laparoscópica, aceptable si hay criterios o preferencia, aunque no sea imprescindible",
+     "texto": "Conducta expectante sin tratamiento con controles de β-hCG cada 48 horas, aunque exista una masa anexial y líquido libre en la ecografía",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "Con masa anexial, líquido libre y síntomas no corresponde esperar sin tratar; el riesgo de rotura persiste.",
+     "omision": true,
+     "id": "B",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Legrado uterino de aspiración para resolver el embarazo y evitar los efectos adversos del metotrexato en la paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "El legrado no trata un ectópico tubárico, que se encuentra fuera del útero, y retrasa el manejo adecuado.",
+     "id": "C",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Salpingectomía laparoscópica programada para hoy, aunque la paciente esté estable, sea elegible y prefiera evitar la cirugía",
      "calidad": "aceptable",
-     "siguiente": "n4",
-     "explicacion": "La cirugía mínimamente invasiva también es válida, pero en una paciente estable y elegible no es obligatoria; el metotrexato evita el acto quirúrgico.",
-     "tema": "Manejo médico vs quirúrgico del ectópico",
+     "siguiente": "n4q",
+     "explicacion": "La cirugía mínimamente invasiva también es válida, pero en una paciente estable y elegible que no la prefiere el metotrexato evita el acto quirúrgico.",
+     "id": "D",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Metotrexato sin pedir estudios previos ni explicar el seguimiento y con alta inmediata",
+     "texto": "Metotrexato sin pedir estudios previos ni explicar el seguimiento y con alta inmediata de la paciente a su domicilio habitual",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Dar metotrexato sin verificar elegibilidad ni asegurar seguimiento puede causar toxicidad y pasar por alto una rotura.",
-     "tema": "Seguridad del metotrexato",
-     "competencia": "Seguridad del paciente",
+     "siguiente": "d1",
+     "explicacion": "Dar metotrexato sin verificar la elegibilidad ni asegurar el seguimiento puede causar toxicidad y pasar por alto una rotura.",
+     "id": "E",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
+  },
+  "r3": {
+   "estado": "La conducta elegida no resolvió el ectópico: la paciente persiste con dolor, la masa anexial es evidente y la β-hCG no desciende. Se reevalúa el tratamiento adecuado.",
+   "vitales": {
+    "PA": "110/68 mmHg",
+    "FC": "94 /min",
+    "Dolor": "persistente",
+    "β-hCG": "sin descenso"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Qué hace falta para resolver el cuadro?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "El tratamiento anterior no resolvió el ectópico. ¿Qué tratamiento sí corresponde?",
+    "n2": "Metotrexato o cirugía según estabilidad y elegibilidad, con seguimiento."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar misoprostol vaginal para provocar la expulsión del embarazo en una paciente con una masa anexial y β-hCG sin descenso",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "El misoprostol no trata un ectópico tubárico y no corrige el riesgo de rotura.",
+     "id": "A",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar antibióticos de amplio espectro por posible enfermedad inflamatoria pélvica y repetir el control de β-hCG en dos semanas",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Un antibiótico no trata un ectópico; atribuir el cuadro a una infección retrasa el tratamiento.",
+     "id": "B",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Repetir el legrado uterino con mayor profundidad para extraer el tejido gestacional que habría quedado en la cavidad",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El embarazo no está en la cavidad uterina; repetir el legrado no lo trata y retrasa la conducta.",
+     "id": "C",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar otra semana con controles de β-hCG seriada y reposo domiciliario, porque el dolor es todavía de intensidad moderada",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Persistir en la espera con un ectópico sintomático prolonga el riesgo de rotura.",
+     "omision": true,
+     "id": "D",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Retomar el tratamiento con metotrexato si es elegible y estable o con cirugía si hay criterios, con seguimiento programado",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "El ectópico persiste y debe tratarse con la opción adecuada a su estabilidad y elegibilidad.",
+     "id": "E",
+     "tema": "Manejo médico o quirúrgico del ectópico estable",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "E"
   },
   "n4": {
-   "estado": "Se indica metotrexato. Se explican los signos de alarma: dolor intenso, mareo, desmayo, sangrado abundante. Hay que decidir el plan de seguimiento.",
+   "estado": "Se indica el tratamiento médico del ectópico. Se explican los signos de alarma: dolor intenso, mareo, desmayo, sangrado abundante. Hay que definir el plan de seguimiento y las indicaciones domiciliarias.",
    "vitales": {
     "Estado": "estable",
     "Dolor": "leve",
-    "Ambulatoria": "con acompañante y teléfono"
+    "Acompañante": "sí, con teléfono"
    },
    "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Qué plan de seguimiento indicas?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "El tratamiento se indicó. ¿Cómo sabrás que funcionó y cuándo debe volver de inmediato?",
+    "n2": "Seguimiento con β-hCG seriada y signos de alarma bien explicados."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Control con β-hCG seriada según protocolo, evitar relaciones y embarazo hasta la resolución, no tomar antiinflamatorios ni ácido fólico en exceso sin indicación y acudir de inmediato si aparecen signos de alarma",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "El seguimiento con β-hCG es esencial para confirmar la resolución; el dolor transitorio es frecuente pero el dolor súbito intenso o el síncope obligan a consultar de inmediato.",
-     "tema": "Seguimiento tras metotrexato",
+     "texto": "Programar una laparoscopía de revisión en cuarenta y ocho horas para comprobar la integridad de la trompa tratada con metotrexato",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "No hay indicación de cirugía sistemática de revisión; el seguimiento se hace con β-hCG y clínica.",
+     "id": "A",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Alta sin cita de control, porque ya recibió el tratamiento",
+     "texto": "Alta sin cita de control, porque ya recibió el tratamiento, con indicación de volver solo si reaparece el sangrado vaginal abundante",
      "calidad": "incorrecta",
-     "siguiente": "f_regular",
+     "siguiente": "n5",
      "explicacion": "Sin seguimiento no se sabe si el tratamiento funcionó ni se detecta una falla a tiempo.",
-     "tema": "Seguimiento tras metotrexato",
+     "omision": true,
+     "id": "B",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "β-hCG seriada según protocolo hasta negativizar, evitar el embarazo el tiempo indicado y consultar ante signos de alarma",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "El seguimiento con β-hCG confirma la resolución; el dolor súbito intenso o el síncope obligan a consultar de inmediato.",
+     "id": "C",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar ibuprofeno regular para el dolor y suplemento de ácido fólico habitual, con control de β-hCG a las cuatro semanas",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Los antiinflamatorios y los suplementos con ácido fólico se evitan durante el tratamiento con metotrexato según el protocolo, y un control tan tardío es insuficiente.",
+     "id": "D",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hospitalizar a la paciente dos semanas con reposo absoluto y control diario de β-hCG hasta su negativización completa",
+     "calidad": "aceptable",
+     "siguiente": "n5",
+     "explicacion": "No es dañino, pero no es necesario: el seguimiento ambulatorio con signos de alarma es adecuado en una paciente estable.",
+     "id": "E",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "C"
   },
-  "n_det": {
-   "estado": "Horas después, la paciente regresa con dolor abdominal intenso, mareo y palidez. Abdomen distendido y doloroso, con defensa.",
+  "n4q": {
+   "estado": "Tras la salpingectomía laparoscópica sin incidentes, la paciente se recupera bien y toleró la vía oral. Hay que definir el seguimiento posoperatorio.",
+   "vitales": {
+    "PA": "116/72 mmHg",
+    "FC": "82 /min",
+    "Dolor": "leve",
+    "Herida": "sin complicaciones"
+   },
+   "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 1,
+   "pregunta": "¿Cuál es el plan posoperatorio?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "La cirugía fue correcta, pero el seguimiento no termina con ella.",
+    "n2": "β-hCG según protocolo y educación sobre signos de alarma y planificación futura."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar anticoagulación profiláctica prolongada durante tres meses por el antecedente quirúrgico en una paciente joven y sana",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "No hay indicación de anticoagulación prolongada en esta paciente y expone a sangrado innecesario.",
+     "id": "A",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar metotrexato adicional de manera sistemática tras la cirugía para asegurar la eliminación del tejido trofoblástico residual",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "No se indica rutinariamente; se decide si la β-hCG no desciende como se espera.",
+     "id": "B",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta sin controles, porque la trompa fue extirpada y ya no existe riesgo de persistencia del tejido trofoblástico",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Puede persistir tejido trofoblástico tras la cirugía; la β-hCG debe controlarse hasta negativizar.",
+     "omision": true,
+     "id": "C",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta con β-hCG según protocolo, signos de alarma explicados y ecografía precoz en un siguiente embarazo con seguimiento cercano",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "Aunque se extirpó la trompa, la β-hCG se controla según protocolo y la paciente debe saber cuándo consultar y cómo planificar un siguiente embarazo.",
+     "id": "D",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hospitalización prolongada de una semana para vigilancia continua de la herida y de los signos vitales, a pesar de su buena evolución",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Sin complicaciones, la hospitalización prolongada no aporta y expone a riesgos.",
+     "id": "E",
+     "tema": "Seguimiento tras el tratamiento del ectópico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n5": {
+   "estado": "Se muestran los controles de la β-hCG. El día 4 fue de 3 100 y el día 7 de 2 300 mUI/mL, respecto del valor inicial de 2 800. La paciente está asintomática y estable.",
+   "vitales": {
+    "Estado": "estable",
+    "Dolor": "ausente",
+    "Sangrado": "escaso",
+    "PA": "114/70 mmHg"
+   },
+   "gravedad": 0,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cómo interpretas la evolución de la β-hCG?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "Compara los tres valores en el tiempo: ¿qué tendencia ves a partir del día 4?",
+    "n2": "En los primeros días puede haber un aumento leve; lo que cuenta es el descenso posterior."
+   },
+   "laboratorio": {
+    "titulo": "β-hCG seriada",
+    "resultados": [
+     {
+      "prueba": "bhcg",
+      "valor": 2800,
+      "etiqueta": "β-hCG basal",
+      "ref": {
+       "texto": "Gestación temprana: se interpreta con la evolución seriada"
+      }
+     },
+     {
+      "prueba": "bhcg",
+      "valor": 3100,
+      "etiqueta": "β-hCG día 4",
+      "ref": {
+       "texto": "Gestación temprana: se interpreta con la evolución seriada"
+      }
+     },
+     {
+      "prueba": "bhcg",
+      "valor": 2300,
+      "etiqueta": "β-hCG día 7",
+      "ref": {
+       "texto": "Gestación temprana: se interpreta con la evolución seriada"
+      }
+     }
+    ],
+    "ocultar_marcas": true
+   },
+   "decisiones": [
+    {
+     "texto": "El aumento del día 4 demuestra falla del tratamiento: hay que indicar cirugía inmediata, aunque la paciente esté asintomática",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Un aumento inicial leve en los primeros días puede ocurrir y no define la falla; la evolución posterior fue de descenso.",
+     "id": "A",
+     "tema": "Interpretación de la β-hCG seriada",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "La β-hCG muestra descenso desde el día 4: es una respuesta adecuada y se continúa con controles semanales hasta su negativización",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "El pequeño aumento inicial es esperable y luego el descenso indica respuesta al tratamiento; se continúa con el seguimiento sin repetir la dosis.",
+     "id": "B",
+     "tema": "Interpretación de la β-hCG seriada",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "La β-hCG todavía no es negativa, por lo que corresponde administrar de inmediato una segunda dosis de metotrexato como refuerzo",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "La segunda dosis se considera si el descenso no es adecuado; aquí el descenso ya muestra respuesta.",
+     "id": "C",
+     "tema": "Interpretación de la β-hCG seriada",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Los valores son inconsistentes y deben repetirse en dos semanas, mientras se mantiene a la paciente en observación sin otras medidas",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Los valores son interpretables y muestran una respuesta; esperar dos semanas sin seguimiento no es necesario.",
+     "id": "D",
+     "tema": "Interpretación de la β-hCG seriada",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "El tratamiento ya funcionó: se puede suspender el seguimiento y el acompañamiento en este punto, sin más determinaciones de β-hCG",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Hasta negativizar la β-hCG no se da por resuelto el ectópico: el riesgo de persistencia continúa.",
+     "omision": true,
+     "id": "E",
+     "tema": "Interpretación de la β-hCG seriada",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "n6": {
+   "estado": "Doce días después consulta por dolor abdominal leve a moderado de unas horas, sin mareo ni sangrado abundante. La presión y el pulso son normales y la β-hCG continúa en descenso.",
+   "vitales": {
+    "PA": "118/72 mmHg",
+    "FC": "84 /min",
+    "Dolor": "leve a moderado",
+    "β-hCG": "en descenso"
+   },
+   "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta ante este dolor?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco",
+     "emerg"
+    ],
+    "n1": "Dolor tras el tratamiento con estabilidad: hay que distinguir lo esperable de lo peligroso.",
+    "n2": "Antes de tranquilizar, descarta signos de rotura con examen y ecografía."
+   },
+   "decisiones": [
+    {
+     "texto": "Administrar de inmediato una segunda dosis de metotrexato, porque el dolor sugiere que el tratamiento no ha sido suficiente",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "El dolor no indica falla terapéutica; la decisión depende de la evolución de la β-hCG y de la clínica.",
+     "id": "A",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar laparoscopía de urgencia por el dolor, aunque la paciente esté estable, sin líquido libre y con la β-hCG en descenso",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "El dolor leve a moderado con estabilidad y β-hCG en descenso suele ser esperable; la cirugía no está indicada si no hay signos de rotura.",
+     "id": "B",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta a domicilio con indicación de analgésico y control en un mes sin examen ni ecografía de la paciente en este momento",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Sin descartar líquido libre en aumento no se puede tranquilizar; un control en un mes es insuficiente.",
+     "omision": true,
+     "id": "C",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Examen y ecografía para descartar líquido libre creciente; si hay estabilidad y descenso, paracetamol y observación",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "El dolor transitorio es frecuente tras el metotrexato; se descarta una rotura por clínica y ecografía antes de tranquilizar y seguir.",
+     "id": "D",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar ibuprofeno a dosis completas por tres días y control a la semana, porque el dolor es leve y la β-hCG descendió",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Los antiinflamatorios se evitan durante el tratamiento con metotrexato; además hay que descartar una rotura antes de tranquilizar.",
+     "id": "E",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n7": {
+   "estado": "Tras resolverse el cuadro (por tratamiento médico o quirúrgico), la β-hCG llega a valores indetectables. La paciente está bien y pregunta sobre su futuro reproductivo y los cuidados que debe tener.",
+   "vitales": {
+    "β-hCG": "negativa",
+    "Estado": "asintomática",
+    "PA": "112/70 mmHg",
+    "Ecografía": "sin masa anexial"
+   },
+   "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 1,
+   "pregunta": "¿Qué orientación final das a la paciente?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco"
+    ],
+    "n1": "El episodio terminó; piensa en lo que la paciente debe saber para el futuro.",
+    "n2": "Riesgo de recurrencia, ecografía precoz en un embarazo futuro y anticoncepción."
+   },
+   "decisiones": [
+    {
+     "texto": "Alta de seguimiento con información sobre el riesgo de recurrencia, ecografía precoz en un próximo embarazo y anticoncepción",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Tras un ectópico existe mayor riesgo de recurrencia: la ecografía precoz en un siguiente embarazo permite detectarlo a tiempo.",
+     "id": "A",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar histerosalpingografía inmediata en todas las pacientes para confirmar la permeabilidad tubárica antes de cualquier decisión",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "No es una indicación sistemática tras el ectópico y no sustituye la vigilancia de un próximo embarazo.",
+     "id": "B",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Contraindicar de forma definitiva un nuevo embarazo, explicando que la paciente no podrá gestar nunca más tras un ectópico",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Muchas pacientes logran embarazos posteriores; la contraindicación definitiva no corresponde.",
+     "id": "C",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar anticoagulantes orales de manera preventiva antes de cualquier futuro embarazo por el antecedente de ectópico tratado",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "No existe indicación de anticoagulación por un ectópico previo y expone a sangrados innecesarios.",
+     "id": "D",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta sin más controles y con indicación de buscar un embarazo de inmediato, porque el ectópico no vuelve a ocurrir tras tratarse",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "El riesgo de recurrencia existe; la planificación y la ecografía precoz son necesarias.",
+     "omision": true,
+     "id": "E",
+     "tema": "Dolor tras metotrexato y cierre del caso",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "d1": {
+   "estado": "Horas después la paciente tiene dolor abdominal intenso, mareo y palidez. El abdomen está distendido y doloroso, con defensa. Se sospecha rotura con hemoperitoneo.",
    "vitales": {
     "PA": "78/44 mmHg",
     "FC": "132 /min",
@@ -228,70 +1075,162 @@
     "Líquido libre": "abundante"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "gineco",
+    "pertinentes": [
+     "gineco",
+     "anest"
+    ],
+    "n1": "Hay inestabilidad con hemoperitoneo: reanimación y control del sangrado no esperan a más estudios.",
+    "n2": "Reanima con líquidos y hemoderivados y opera de urgencia."
+   },
+   "laboratorio": {
+    "titulo": "Estudios urgentes",
+    "resultados": [
+     {
+      "prueba": "hemoglobina",
+      "valor": 7.9
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "deterioro": true,
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reanimar con líquidos y hemoderivados, preparar quirófano y operar de urgencia por ectópico roto",
-     "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "Un ectópico roto con inestabilidad es una emergencia quirúrgica: se reanima y se opera sin demorar para estudios adicionales.",
-     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
-     "competencia": "Tratamiento inicial",
+     "texto": "Repetir la ecografía y esperar a que la presión se estabilice con líquidos antes de decidir el traslado a quirófano",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Con hemoperitoneo y choque, la espera empeora el sangrado; se reanima y se opera simultáneamente.",
+     "omision": true,
+     "id": "A",
+     "tema": "Choque hemorrágico por ectópico roto",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Repetir la ecografía y esperar a que se estabilice antes de decidir",
+     "texto": "Administrar metotrexato inmediato y vigilar la evolución hemodinámica en la sala de observación durante las próximas horas",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "El metotrexato no controla un sangrado activo: el ectópico roto con inestabilidad requiere cirugía.",
+     "id": "B",
+     "tema": "Choque hemorrágico por ectópico roto",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar antiinflamatorios y antiespasmódicos para el dolor y observar durante la noche con controles seriados de la presión arterial",
      "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "En el choque hemorrágico por rotura, esperar es peligroso: se reanima y se opera de inmediato.",
-     "tema": "Diagnóstico del embarazo ectópico y estabilidad",
+     "siguiente": "f_fatal",
+     "explicacion": "Tratar el dolor mientras continúa un sangrado intraabdominal permite que el choque hemorrágico progrese hasta la muerte.",
+     "id": "C",
+     "tema": "Choque hemorrágico por ectópico roto",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Pedir una tomografía abdominal con contraste para precisar el origen del sangrado antes de llevar a la paciente al quirófano",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Con inestabilidad hemodinámica la tomografía retrasa el control del sangrado y lleva al shock hemorrágico irreversible.",
+     "id": "D",
+     "tema": "Choque hemorrágico por ectópico roto",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reanimar con líquidos y hemoderivados, preparar el quirófano y operar de inmediato por ectópico roto con hemoperitoneo",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "Un ectópico roto con inestabilidad es una emergencia quirúrgica: se reanima y se opera sin demorar estudios adicionales.",
+     "id": "E",
+     "tema": "Choque hemorrágico por ectópico roto",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
   "f_bueno": {
    "final": {
     "tipo": "bueno",
     "titulo": "Buen desenlace",
-    "mensaje": "Se diagnosticó antes de la rotura y se resolvió con metotrexato y seguimiento, sin cirugía."
-   }
-  },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se salvó la paciente, aunque el diagnóstico tardío llevó a una rotura y cirugía de urgencia."
+    "mensaje": "Se diagnosticó antes de la rotura, se trató y se siguió a la paciente hasta la resolución."
    }
   },
   "f_regular": {
    "final": {
     "tipo": "regular",
-    "titulo": "Resolución con riesgo no vigilado",
-    "mensaje": "El tratamiento pudo funcionar, pero sin seguimiento no se verificó la resolución."
+    "titulo": "Resolución con riesgo no abordado",
+    "mensaje": "El cuadro se resolvió, pero el plan final deja riesgos evitables."
    }
   },
   "f_adverso": {
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "La demora ante un ectópico roto llevó a choque hemorrágico grave."
+    "mensaje": "Una conducta sin respaldo expuso a la paciente a una complicación grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "La paciente falleció por choque hemorrágico (educativo)",
+    "mensaje": "La demora en controlar un sangrado intraabdominal llevó a un choque hemorrágico irreversible."
    }
   }
  },
  "informe": {
-  "resumen_clinico": "Mujer de 27 años con retraso menstrual, dolor pélvico izquierdo y sangrado escaso, con β-hCG positiva y ecografía transvaginal con útero vacío, masa anexial y escaso líquido libre: embarazo ectópico tubárico, hemodinámicamente estable.",
+  "resumen_clinico": "Mujer de 27 años con retraso menstrual, dolor pélvico izquierdo y sangrado escaso, con β-hCG positiva y ecografía transvaginal con útero vacío, masa anexial y escaso líquido libre: embarazo ectópico tubárico, hemodinámicamente estable. Se trató con metotrexato y se siguió con β-hCG seriada.",
+  "diagnostico_final": "Embarazo ectópico tubárico izquierdo sin rotura.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Aborto espontáneo",
+    "por_que_no": "Un útero vacío con masa anexial y β-hCG positiva no corresponde a un aborto completo hasta descartar un ectópico."
+   },
+   {
+    "dx": "Quiste hemorrágico del cuerpo lúteo",
+    "por_que_no": "No explica la prueba de embarazo positiva; puede coexistir pero no la sustituye."
+   },
+   {
+    "dx": "Enfermedad inflamatoria pélvica",
+    "por_que_no": "Puede coexistir (hay antecedente), pero con β-hCG positiva y masa anexial se trata primero el ectópico."
+   },
+   {
+    "dx": "Apendicitis aguda",
+    "por_que_no": "El dolor es en fosa ilíaca izquierda y hay embarazo confirmado con masa anexial."
+   }
+  ],
+  "datos_clave": [
+   "Retraso menstrual, dolor pélvico unilateral y manchado en una mujer en edad fértil.",
+   "Antecedente de infección pélvica (factor de riesgo).",
+   "Útero vacío con masa anexial y β-hCG positiva."
+  ],
   "razonamiento": [
    "Dolor pélvico con sangrado y retraso menstrual en edad fértil: descartar embarazo y ectópico antes que otras causas.",
    "Pedir β-hCG, grupo sanguíneo, hemograma y ecografía transvaginal; asegurar vía venosa.",
    "Interpretar: embarazo positivo sin saco intrauterino y masa anexial = ectópico hasta demostrar lo contrario.",
    "Evaluar la estabilidad: si es inestable o hay rotura, cirugía inmediata; si es estable y elegible, el metotrexato es una opción.",
-   "Planificar el seguimiento con β-hCG y los signos de alarma."
+   "Verificar elegibilidad con laboratorio, informar y planificar el seguimiento.",
+   "Interpretar la β-hCG seriada: un aumento inicial leve es posible y luego debe descender.",
+   "Distinguir el dolor esperable del signo de rotura y cerrar con orientación para un futuro embarazo."
+  ],
+  "interpretacion_laboratorio": [
+   "La β-hCG positiva confirma el embarazo; en gestación temprana no tiene un «normal» único y se interpreta junto con la ecografía y la evolución seriada.",
+   "Hemoglobina, plaquetas, leucocitos, creatinina y ALT normales: no hay contraindicaciones de laboratorio para metotrexato.",
+   "β-hCG seriada con aumento leve al día 4 y descenso posterior: respuesta adecuada."
   ],
   "tratamiento": [
    {
@@ -319,8 +1258,5 @@
    "g08"
   ],
   "mensaje_clave": "Toda mujer en edad fértil con dolor y sangrado necesita descartar un embarazo ectópico; si está estable y es elegible, el metotrexato es una opción con seguimiento."
- },
- "areas_banco": [
-  "ginecologia"
- ]
+ }
 }

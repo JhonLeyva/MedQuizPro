@@ -81,7 +81,7 @@ P("troponina", "Troponina cardíaca de alta sensibilidad", MC, "ng/L", [{"sexo":
 P("tsh", "TSH", EN, "mUI/L", [iv(0.4, 4.0, **ADU)], adv=["En la gestación cambian los límites (revisión sistemática PMID 35861700); no se cargan cifras de embarazo en esta versión."])
 P("t4l", "T4 libre", EN, "ng/dL", [iv(0.8, 1.8, **ADU)], adv=["Depende del método."])
 P("anti_tpo", "Anticuerpos anti-TPO", EN, "UI/mL", [iv(0, 35, **ADU)], adv=["El punto de corte depende del ensayo."])
-P("bhcg", "β-hCG cuantitativa", EN, "mUI/mL", [iv(0, 5, "F", cond=None, **ADU)], adv=["Intervalo en mujeres no gestantes. En la gestación temprana no hay un «normal» único: se interpreta con la ecografía y la evolución seriada."])
+P("bhcg", "β-hCG cuantitativa", EN, "mUI/mL", [iv(0, 5, "F", **ADU), iv(None, None, "F", cond="gestacion-t1", texto="En gestación temprana no hay un valor «normal» único: se interpreta con la ecografía y la evolución seriada")], adv=["Intervalo en mujeres no gestantes. En la gestación temprana no hay un «normal» único: se interpreta con la ecografía y la evolución seriada."])
 # --- Inflamación y pruebas especiales
 P("pcr", "Proteína C reactiva", ES, "mg/dL", [iv(0, 1.0, **ADU)], [U("umbral_diagnostico", "Guías de Tokio 2018: PCR ≥ 1 mg/dL cuenta como criterio de inflamación sistémica en la colangitis.", "29032610", "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018")])
 P("procalcitonina", "Procalcitonina", ES, "ng/mL", [iv(0, 0.1, **ADU)], adv=["Orienta pero no confirma infección bacteriana."])

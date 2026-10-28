@@ -3,9 +3,33 @@
  "titulo": "Tos, fiebre y pérdida de peso durante seis semanas",
  "especialidad": "Infectología · Medicina interna · Neumología",
  "dificultad": 3,
- "duracion_min": 14,
- "resumen": "Varón de 34 años con tos, fiebre y adelgazamiento. Interpreta una radiografía real, decide cuándo iniciar cada tratamiento y reconoce una complicación inflamatoria.",
+ "duracion_min": 20,
+ "areas_banco": [
+  "infectologia",
+  "neumologia"
+ ],
+ "resumen": "Varón de 34 años con tos, fiebre y adelgazamiento. Interpreta una radiografía real, decide cuándo iniciar cada tratamiento, reconoce una complicación inflamatoria y organiza el seguimiento.",
  "contexto": "Hospital con laboratorio de microbiología (prueba molecular), servicio de infectología y programa de VIH/TB.",
+ "paciente": {
+  "edad": 34,
+  "edad_texto": "34 años",
+  "sexo": "M",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "infecto",
+   "nombre": "Infectología / VIH"
+  },
+  {
+   "id": "neumo",
+   "nombre": "Neumología"
+  },
+  {
+   "id": "micro",
+   "nombre": "Microbiología / laboratorio"
+  }
+ ],
  "imagenes": [
   "im-9b27"
  ],
@@ -57,7 +81,8 @@
   }
  ],
  "discrepancias": [
-  "No se pudo consultar en esta sesión el texto de las normas peruanas vigentes de tuberculosis y de VIH (MINSA) ni de la OMS; los esquemas, la profilaxis y los criterios exactos deben tomarse de ellas. El caso se apoya en tres ensayos clínicos verificados en PubMed, no en una guía. El inicio del antirretroviral en tuberculosis meníngea o criptococosis tiene excepciones que no se tratan aquí."
+  "No se pudo consultar en esta sesión el texto de las normas peruanas vigentes de tuberculosis y de VIH (MINSA) ni de la OMS; los esquemas, la profilaxis y los criterios exactos deben tomarse de ellas. El caso se apoya en tres ensayos clínicos verificados en PubMed, no en una guía. El inicio del antirretroviral en tuberculosis meníngea o criptococosis tiene excepciones que no se tratan aquí.",
+  "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; el carácter del CD4 como umbral proviene del ensayo citado."
  ],
  "inicio": "n1",
  "nodos": {
@@ -71,13 +96,49 @@
     "PA": "104/66 mmHg"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es el abordaje inicial?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "neumo"
+    ],
+    "n1": "Síntomas crónicos con pérdida de peso y candidiasis oral: ¿qué dos infecciones debes investigar a la vez y cómo proteges a los demás?",
+    "n2": "Aislamiento respiratorio y estudio simultáneo de tuberculosis y VIH."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Aislamiento respiratorio, prueba molecular y baciloscopia en esputo, prueba de VIH con consejería, radiografía de tórax y hemograma, con estudio de CD4 y carga viral",
+     "texto": "Solicitar una tomografía de tórax y esperar su informe antes de recoger ninguna muestra de esputo ni indicar medidas de aislamiento",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "La tomografía no sustituye el estudio microbiológico y demorar el aislamiento expone a contagio; la muestra de esputo es inmediata.",
+     "id": "A",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Iniciar antibiótico para neumonía comunitaria y dar el alta con control en una semana si la fiebre persiste durante ese período",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Seis semanas de síntomas con pérdida de peso y sudoración no es una neumonía aguda típica; no pensar en tuberculosis retrasa el diagnóstico y expone a otros.",
+     "id": "B",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aislamiento respiratorio con prueba molecular y baciloscopia en esputo, prueba de VIH con consejería y radiografía de tórax",
      "calidad": "optima",
      "siguiente": "n2",
-     "explicacion": "El cuadro sugiere tuberculosis con posible infección por VIH. Se aísla para proteger a otros y se estudia a la vez la TB y el VIH, porque cambian el manejo.",
+     "explicacion": "El cuadro sugiere tuberculosis con posible infección por VIH: se aísla para proteger a otros y se estudian ambas, porque cambian el manejo.",
+     "id": "C",
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
@@ -85,11 +146,12 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Antibiótico para neumonía comunitaria y alta con control si persiste",
+     "texto": "Esperar los resultados del cultivo de esputo, que tardan varias semanas, antes de pedir la prueba de VIH y las otras determinaciones",
      "calidad": "incorrecta",
-     "siguiente": "n2",
-     "explicacion": "Seis semanas de síntomas con pérdida de peso y sudoración no es una neumonía aguda típica; no pensar en TB retrasa el diagnóstico y expone a otros.",
+     "siguiente": "r1",
+     "explicacion": "Los resultados del cultivo tardan semanas; con sospecha clínica se pide además la prueba rápida molecular y el VIH desde el inicio.",
+     "omision": true,
+     "id": "D",
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
@@ -97,18 +159,104 @@
      ]
     },
     {
-     "id": "c",
-     "texto": "Iniciar corticoide sistémico para mejorar la disnea sin esclarecer la causa",
+     "texto": "Indicar un corticoide sistémico para mejorar la disnea y la fiebre y dejar el estudio del esputo para el control ambulatorio",
      "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Un corticoide sin diagnóstico en un paciente con probable inmunosupresión puede empeorar una infección no controlada.",
+     "id": "E",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "r1": {
+   "estado": "Tras una semana sin estudios apropiados el paciente persiste con fiebre y tos, ha perdido más peso y tiene mayor disnea. La saturación sigue baja y no se tomó ninguna muestra de esputo.",
+   "vitales": {
+    "T": "38,6 °C",
+    "FR": "26 /min",
+    "SatO₂": "89 % (aire ambiente)",
+    "Peso": "−3 kg en una semana"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige el rumbo?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "Se pasó por alto la sospecha principal. ¿Qué dos estudios y qué medida de protección faltan?",
+    "n2": "Aislamiento respiratorio, prueba molecular, VIH y radiografía."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar un corticoide sistémico para disminuir la fiebre y la disnea, mientras se programa un estudio posterior en el consultorio",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El corticoide sin diagnóstico en un paciente inmunosuprimido puede empeorar una infección no controlada.",
+     "id": "A",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aislar y tomar esputo para prueba molecular y baciloscopia, pedir VIH con radiografía de tórax y hemograma sin más demora",
+     "calidad": "optima",
      "siguiente": "n2",
-     "explicacion": "Un corticoide sin diagnóstico en un paciente con probable inmunosupresión puede empeorar una infección no controlada: es una conducta insegura.",
-     "tema": "Seguridad: corticoides sin diagnóstico",
+     "explicacion": "Se corrige el retraso: aislamiento y estudio simultáneo de tuberculosis y VIH, que cambian el manejo.",
+     "id": "B",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Hospitalizar en sala común sin aislamiento y pedir solo exámenes generales de laboratorio, sin muestras de esputo ni prueba de VIH",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La sala común sin aislamiento expone a otros pacientes y los exámenes generales no aclaran el diagnóstico.",
+     "id": "C",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Cambiar a otro antibiótico de amplio espectro por falla del tratamiento anterior y esperar otra semana para reevaluar al paciente",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Un tercer antibiótico no resuelve una sospecha que no se ha investigado; se pierde tiempo y se expone a otros.",
+     "omision": true,
+     "id": "D",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Dar el alta con antipiréticos y reposo, ya que la fiebre y la tos son compatibles con una infección viral prolongada de la vía aérea",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Un cuadro de semanas con adelgazamiento no es viral: el alta retrasa el diagnóstico de una infección grave.",
+     "id": "E",
+     "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r2"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
   "n2": {
    "estado": "Se obtiene una radiografía de tórax de frente. Esta es una imagen real de la literatura publicada, de otro paciente con una condición comparable. Obsérvala, amplía y descríbela.",
@@ -118,13 +266,66 @@
     "T": "38,3 °C"
    },
    "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cuál es la interpretación de la radiografía?",
+   "ayuda": {
+    "especialista": "neumo",
+    "pertinentes": [
+     "neumo",
+     "infecto"
+    ],
+    "n1": "Describe lado, tipo de opacidad y ganglios antes de nombrar un diagnóstico. Recuerda el estado inmunitario del paciente.",
+    "n2": "En la inmunosupresión avanzada la tuberculosis puede verse con derrame, consolidación y adenopatías en vez de cavitación."
+   },
+   "imagen": {
+    "id": "im-9b27",
+    "consigna": "Radiografía de tórax posteroanterior. Describe la imagen: lado, estructuras afectadas y tipo de opacidad."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Derrame pleural izquierdo con consolidación y ensanchamiento hiliar y mediastínico por adenopatías: compatible con tuberculosis en un paciente con inmunosupresión; requiere confirmación microbiológica",
+     "texto": "Cavitación apical derecha típica de la tuberculosis posprimaria del paciente inmunocompetente, sin derrame ni adenopatías visibles",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "Es el patrón clásico del inmunocompetente; aquí predominan derrame y consolidación izquierdos con adenopatías.",
+     "id": "A",
+     "tema": "Interpretación de la radiografía de tórax",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Imagen inespecífica que no permite una orientación: repetir la radiografía en dos semanas y esperar el cultivo antes de cualquier decisión",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La imagen tiene un patrón sugestivo; esperar dos semanas para decidir demora el tratamiento y el aislamiento.",
+     "omision": true,
+     "id": "B",
+     "tema": "Interpretación de la radiografía de tórax",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Radiografía normal para la edad del paciente, por lo que una tuberculosis queda descartada y se puede suspender el aislamiento",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La imagen no es normal y, además, una radiografía normal no descarta tuberculosis en la inmunosupresión.",
+     "id": "C",
+     "tema": "Interpretación de la radiografía de tórax",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Derrame pleural izquierdo con consolidación y adenopatías hiliares y mediastínicas: sugiere tuberculosis con inmunosupresión",
      "calidad": "optima",
      "siguiente": "n3",
-     "explicacion": "En la inmunosupresión avanzada la TB suele ser atípica: derrame, consolidación y adenopatías en lugar de cavitación apical. La imagen orienta pero no confirma; se necesita microbiología.",
+     "explicacion": "En la inmunosupresión avanzada la tuberculosis suele ser atípica; la imagen orienta pero la confirmación es microbiológica.",
+     "id": "D",
      "tema": "Interpretación de la radiografía de tórax",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
@@ -132,35 +333,11 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Neumotórax izquierdo: colocar un tubo de drenaje de inmediato",
+     "texto": "Neumotórax izquierdo con colapso pulmonar parcial, por lo que corresponde colocar un tubo de drenaje torácico de inmediato en el paciente",
      "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "No hay línea pleural visceral con ausencia de trama pulmonar: la opacidad izquierda corresponde a líquido y consolidación; drenar sin analizar es un error.",
-     "tema": "Interpretación de la radiografía de tórax",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r2"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Radiografía normal que descarta tuberculosis",
-     "calidad": "incorrecta",
-     "siguiente": "n3",
-     "explicacion": "La imagen no es normal y, además, una radiografía normal no descarta TB en la inmunosupresión.",
-     "tema": "Interpretación de la radiografía de tórax",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r2"
-     ]
-    },
-    {
-     "id": "d",
-     "texto": "Cavitación apical derecha típica de tuberculosis posprimaria, sin derrame",
-     "calidad": "incorrecta",
-     "siguiente": "n3",
-     "explicacion": "Es el patrón clásico del inmunocompetente. Aquí predominan derrame y consolidación izquierdos con adenopatías, lo que apunta a inmunosupresión avanzada.",
+     "explicacion": "No hay línea pleural visceral con ausencia de trama pulmonar: la opacidad izquierda corresponde a líquido y consolidación.",
+     "id": "E",
      "tema": "Interpretación de la radiografía de tórax",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
@@ -168,13 +345,10 @@
      ]
     }
    ],
-   "imagen": {
-    "id": "im-9b27",
-    "consigna": "Radiografía de tórax posteroanterior. Describe la imagen: lado, estructuras afectadas y tipo de opacidad."
-   }
+   "clave": "D"
   },
   "n3": {
-   "estado": "La prueba molecular detecta Mycobacterium tuberculosis sin resistencia a rifampicina. El VIH es reactivo, con CD4 de 38 células/µL. No hay síntomas neurológicos. Se confirma tuberculosis pulmonar y pleural en un paciente con VIH avanzado.",
+   "estado": "La prueba molecular detecta Mycobacterium tuberculosis sin resistencia a rifampicina. El VIH es reactivo y el CD4 es de 38 células/µL. No hay síntomas neurológicos. Se confirma tuberculosis pulmonar y pleural en un paciente con VIH avanzado.",
    "vitales": {
     "CD4": "38 /µL",
     "Prueba molecular": "MTB detectado, rifampicina sensible",
@@ -182,75 +356,427 @@
     "Neurológico": "sin signos"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cuándo y cómo inicias el tratamiento antituberculoso?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "neumo"
+    ],
+    "n1": "La tuberculosis está confirmada en un paciente con inmunosupresión avanzada. ¿Qué no puede esperar?",
+    "n2": "Inicia el tratamiento antituberculoso ya, con supervisión; el cultivo no condiciona el inicio."
+   },
+   "laboratorio": {
+    "titulo": "Confirmación y estudios basales",
+    "resultados": [
+     {
+      "prueba": "xpert_mtb",
+      "valor": "positivo: M. tuberculosis, rifampicina sensible"
+     },
+     {
+      "prueba": "vih",
+      "valor": "reactivo"
+     },
+     {
+      "prueba": "cd4",
+      "valor": 38
+     },
+     {
+      "prueba": "hemoglobina",
+      "valor": 9.8
+     },
+     {
+      "prueba": "alt",
+      "valor": 32
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 0.9
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Iniciar ya el tratamiento antituberculoso y empezar el antirretroviral en las primeras 2 semanas, con vigilancia de IRIS y valorar prednisona profiláctica según protocolo",
-     "calidad": "optima",
-     "siguiente": "n4",
-     "explicacion": "Con CD4 < 50, adelantar el antirretroviral (≤ 2 semanas) reduce nuevas enfermedades sida y muerte, a costa de más IRIS, que se vigila y puede prevenirse en casos de alto riesgo.",
-     "tema": "Momento de iniciar el tratamiento antirretroviral",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r1",
-      "r2",
-      "r3"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Tratar la TB seis meses y recién después iniciar el antirretroviral",
+     "texto": "Iniciar solo el antirretroviral y diferir el tratamiento antituberculoso hasta que el paciente mejore de su estado general",
      "calidad": "incorrecta",
-     "siguiente": "n4",
-     "explicacion": "Esperar al final del tratamiento antituberculoso se asoció con más del doble de mortalidad frente a iniciar el antirretroviral durante el tratamiento.",
-     "tema": "Momento de iniciar el tratamiento antirretroviral",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Esperar de 8 a 12 semanas para iniciar el antirretroviral",
-     "calidad": "incorrecta",
-     "siguiente": "n4",
-     "explicacion": "Con CD4 < 50 el inicio tardío se asoció con más enfermedades sida o muerte que el inicio en las primeras 2 semanas.",
-     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "siguiente": "r2",
+     "explicacion": "En la coinfección ambos tratamientos son necesarios y el antituberculoso no se difiere; iniciar solo el ARV aumenta el riesgo de IRIS.",
+     "id": "A",
+     "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r2"
      ]
     },
     {
-     "id": "d",
-     "texto": "Esperar el cultivo (varias semanas) sin tratar",
+     "texto": "Iniciar un corticoide sistémico sin tratamiento antituberculoso para reducir el derrame pleural y la fiebre del paciente",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Con prueba molecular positiva, clínica activa e inmunosupresión avanzada, demorar el tratamiento es un error crítico.",
-     "tema": "Momento de iniciar el tratamiento antirretroviral",
-     "competencia": "Seguridad del paciente",
+     "siguiente": "d1",
+     "explicacion": "Un corticoide sin tratamiento antituberculoso en un paciente con VIH avanzado puede agravar la infección y precipitar un deterioro respiratorio.",
+     "id": "B",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Iniciar ya el esquema antituberculoso de primera línea según la norma, con administración supervisada y vigilancia de toxicidad",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Con prueba molecular positiva, clínica activa e inmunosupresión avanzada el tratamiento no debe demorarse.",
+     "id": "C",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Esperar el resultado del cultivo y del antibiograma, que tarda varias semanas, antes de iniciar cualquier tratamiento antituberculoso",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Con prueba molecular positiva y clínica activa no se espera el cultivo: demorar el tratamiento aumenta el riesgo de muerte.",
+     "omision": true,
+     "id": "D",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Tratar como neumonía bacteriana con una quinolona empírica y reevaluar a las dos semanas la respuesta clínica del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Las quinolonas pueden enmascarar la tuberculosis y retrasar su tratamiento; con confirmación molecular se trata la tuberculosis.",
+     "id": "E",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
      "refs": [
       "r2"
      ]
     }
-   ]
+   ],
+   "clave": "C"
+  },
+  "r2": {
+   "estado": "Pasan diez días sin tratamiento adecuado: el paciente tiene fiebre alta, más disnea y tos. La saturación es menor y el estado general se deteriora.",
+   "vitales": {
+    "T": "39,0 °C",
+    "FR": "30 /min",
+    "SatO₂": "86 % (aire ambiente)",
+    "Estado": "más decaído"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Qué se hace ahora?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "neumo"
+    ],
+    "n1": "El paciente empeora por el tratamiento que no recibió. ¿Qué lo corrige ahora?",
+    "n2": "Tratamiento antituberculoso inmediato y soporte respiratorio, con aislamiento."
+   },
+   "decisiones": [
+    {
+     "texto": "Cambiar a un esquema antibiótico de amplio espectro con carbapenémico y mantener el estudio sin iniciar tratamiento antituberculoso",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Un carbapenémico no trata la tuberculosis; el paciente sigue sin el tratamiento que necesita.",
+     "id": "A",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Indicar un corticoide en dosis altas para mejorar la oxigenación y suspender toda medicación por vía oral hasta que mejore",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El corticoide sin tratamiento antituberculoso no corrige la causa y puede empeorar la infección.",
+     "id": "B",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Seguir esperando el cultivo, mantener el oxígeno suplementario y reevaluar la situación cuando el resultado esté disponible",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Aguardar el cultivo con insuficiencia respiratoria en evolución aumenta el riesgo de muerte; el tratamiento no debe esperar.",
+     "omision": true,
+     "id": "C",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Trasladar a sala común con oxígeno por cánula y retirar el aislamiento respiratorio, porque el paciente ya recibió antibióticos",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Retirar el aislamiento de un caso de tuberculosis confirmada expone a otros pacientes y al personal.",
+     "id": "D",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Oxígeno, aislamiento, iniciar ya el tratamiento antituberculoso de primera línea y evaluar el compromiso neurológico",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Se estabiliza la oxigenación, se inicia el tratamiento sin más demora y se descarta compromiso neurológico, que cambiaría el manejo del ARV.",
+     "id": "E",
+     "tema": "Inicio del tratamiento antituberculoso",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
   },
   "n4": {
-   "estado": "Dos semanas después de iniciar el antirretroviral, con tratamiento antituberculoso adherente, reaparece fiebre y aumentan el derrame y las adenopatías. La carga viral bajó y los CD4 subieron. Sin signos de resistencia en los estudios disponibles.",
+   "estado": "El paciente ya recibe tratamiento antituberculoso supervisado y tolera la medicación. Se discute cuándo iniciar el tratamiento antirretroviral, dado que tiene un CD4 de 38 células/µL y no tiene signos de meningitis.",
+   "vitales": {
+    "CD4": "38 /µL",
+    "T": "37,9 °C",
+    "Neurológico": "sin signos",
+    "Tolerancia": "buena"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cuándo inicias el antirretroviral?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "El CD4 es muy bajo. Piensa en cómo cambia el momento del ARV según la inmunosupresión.",
+    "n2": "Con CD4 menor de 50, el ARV precoz (primeras 2 semanas) mostró beneficio, con vigilancia del IRIS."
+   },
+   "decisiones": [
+    {
+     "texto": "Iniciar el antirretroviral en las primeras 2 semanas del tratamiento antituberculoso, con un esquema compatible con rifampicina",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "Con CD4 < 50 adelantar el ARV reduce nuevas enfermedades sida y muerte, a costa de más IRIS, que se vigila.",
+     "id": "A",
+     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Diferir el antirretroviral hasta las 8 a 12 semanas del tratamiento antituberculoso para disminuir el riesgo de IRIS en este paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Con CD4 < 50 el inicio tardío se asoció con más enfermedades sida o muerte que el inicio en las primeras 2 semanas.",
+     "id": "B",
+     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Esperar a completar los seis meses del tratamiento antituberculoso para empezar el antirretroviral y evitar interacciones y toxicidad",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Esperar al final del tratamiento antituberculoso se asoció con más del doble de mortalidad frente a iniciar el ARV durante el tratamiento.",
+     "id": "C",
+     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Repetir el CD4 dentro de un mes y tomar la decisión sobre el antirretroviral según el valor que se obtenga en ese control",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "No hay razón para esperar un nuevo CD4: el valor actual ya indica inicio precoz y la demora aumenta el riesgo.",
+     "omision": true,
+     "id": "D",
+     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Iniciar el antirretroviral el mismo día que el antituberculoso sin esperar la tolerancia, en un esquema con interacción con rifampicina",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Iniciar todo el mismo día aumenta la toxicidad y el riesgo de IRIS sin beneficio demostrado; el ARV se inicia en las primeras 2 semanas.",
+     "id": "E",
+     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n5": {
+   "estado": "Se iniciará el antirretroviral. Hay que decidir qué medidas adicionales tomar por la inmunosupresión avanzada y por el riesgo de IRIS paradójico, que es más frecuente con el inicio precoz.",
+   "vitales": {
+    "CD4": "38 /µL",
+    "Rifampicina": "sensible",
+    "Estado": "estable"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Qué medidas adicionales indicas?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "Inmunosupresión avanzada y ARV precoz: piensa en dos riesgos (oportunistas e IRIS).",
+    "n2": "Profilaxis de oportunistas y, con CD4 ≤ 100, valorar prednisona profiláctica con vigilancia."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar interferón gamma subcutáneo como inmunomodulador para reforzar la respuesta frente a la tuberculosis y prevenir el IRIS",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "No hay respaldo del interferón gamma para la prevención del IRIS en esta situación.",
+     "id": "A",
+     "tema": "Prevención del IRIS y profilaxis de oportunistas",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "Retrasar la profilaxis de oportunistas hasta que el CD4 supere 200 y reevaluar entonces la necesidad de cualquier otra medida",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "La profilaxis se indica precisamente con CD4 bajos; esperar a que suba pierde su propósito.",
+     "id": "B",
+     "tema": "Prevención del IRIS y profilaxis de oportunistas",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "Indicar dexametasona endovenosa durante cinco días a todos los pacientes con tuberculosis, sin considerar el CD4 ni la resistencia",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "No hay indicación de corticoide sistemático a todos los pacientes; se considera la prevención del IRIS en CD4 bajos tras descartar resistencia.",
+     "id": "C",
+     "tema": "Prevención del IRIS y profilaxis de oportunistas",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "Profilaxis de oportunistas según protocolo, valorar prednisona profiláctica (CD4 ≤ 100) y vigilar el IRIS con controles frecuentes",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "En CD4 ≤ 100 con tratamiento antituberculoso reciente, la prednisona profiláctica redujo el IRIS paradójico; se aplica según protocolo y tras descartar resistencia.",
+     "id": "D",
+     "tema": "Prevención del IRIS y profilaxis de oportunistas",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "No indicar profilaxis ni vigilancia especial, porque el IRIS es poco frecuente y el paciente se encuentra en buen estado general",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "El IRIS es frecuente con inicio precoz y CD4 bajo; la profilaxis de oportunistas y la vigilancia están indicadas.",
+     "omision": true,
+     "id": "E",
+     "tema": "Prevención del IRIS y profilaxis de oportunistas",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n6": {
+   "estado": "Dos semanas después de iniciar el antirretroviral reaparece fiebre y aumentan el derrame pleural y las adenopatías, con tratamiento antituberculoso adherente. La carga viral descendió y el CD4 subió. No hay signos de resistencia en los estudios disponibles.",
    "vitales": {
     "T": "38,6 °C",
     "SatO₂": "92 %",
-    "CD4": "sube",
-    "Carga viral": "desciende"
+    "Adherencia": "buena",
+    "Neurológico": "sin signos"
    },
    "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cuál es la interpretación más probable?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "neumo"
+    ],
+    "n1": "Mira la cronología (inicio del ARV) y los cambios del CD4 y de la carga viral antes de decidir si el tratamiento falló.",
+    "n2": "Empeoramiento inflamatorio con mejoría inmunológica tras el ARV es una pista de un fenómeno inflamatorio conocido."
+   },
+   "laboratorio": {
+    "titulo": "Controles a las 2 semanas de antirretroviral",
+    "resultados": [
+     {
+      "prueba": "cd4",
+      "valor": 112
+     },
+     {
+      "prueba": "carga_viral",
+      "valor": 8500,
+      "etiqueta": "Carga viral",
+      "ref": {
+       "texto": "Basal 330 000 copias/mL; se espera descenso bajo tratamiento eficaz"
+      }
+     },
+     {
+      "prueba": "alt",
+      "valor": 38
+     },
+     {
+      "prueba": "leucocitos",
+      "valor": 8.4
+     }
+    ],
+    "ocultar_marcas": true
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Sospechar IRIS paradójico asociado a TB: descartar otras causas (falla, resistencia, otra infección, reacción a fármacos), mantener el antirretroviral y el tratamiento antituberculoso y tratar la inflamación según protocolo",
-     "calidad": "optima",
-     "siguiente": "n5",
-     "explicacion": "La fiebre y el empeoramiento inflamatorio con mejoría inmunológica tras iniciar el antirretroviral sugieren IRIS. Se descartan otras causas y, en general, no se suspende el antirretroviral.",
+     "texto": "Neumonía bacteriana intrahospitalaria nueva, que justifica un antibiótico de amplio espectro y suspender el antirretroviral temporalmente",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "El perfil temporal y el contexto inmunológico orientan a IRIS; suspender el ARV en esta situación no se recomienda.",
+     "id": "A",
      "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
@@ -259,68 +785,238 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Suspender de inmediato el antirretroviral por considerarlo la causa",
+     "texto": "Falla del tratamiento antituberculoso por resistencia bacteriana, por lo que corresponde cambiar a un esquema para tuberculosis resistente",
      "calidad": "incorrecta",
-     "siguiente": "n5",
-     "explicacion": "En la mayoría de los casos de IRIS el antirretroviral se mantiene; suspenderlo deja sin control el VIH y empeora el pronóstico.",
+     "siguiente": "n7",
+     "explicacion": "La rifampicina era sensible y el paciente es adherente; asumir falla sin descartar IRIS retrasa el tratamiento adecuado.",
+     "id": "B",
      "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
-     "competencia": "Tratamiento inicial",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
-      "r2"
+      "r2",
+      "r3"
      ]
     },
     {
-     "id": "c",
-     "texto": "Cambiar a un esquema de tuberculosis resistente asumiendo falla del tratamiento",
+     "texto": "IRIS paradójico asociado a tuberculosis: empeoramiento inflamatorio con mejoría inmunológica tras iniciar el antirretroviral",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "La fiebre y el empeoramiento inflamatorio con descenso de la carga viral y aumento del CD4 sugieren IRIS; se descartan otras causas.",
+     "id": "C",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Evolución esperada sin significado clínico: mantener las indicaciones actuales y repetir la evaluación clínica dentro de un mes",
      "calidad": "incorrecta",
-     "siguiente": "n5",
-     "explicacion": "La rifampicina era sensible y el paciente es adherente; asumir falla sin descartar IRIS expone a toxicidad y retrasa el tratamiento adecuado.",
+     "siguiente": "n7",
+     "explicacion": "El empeoramiento con fiebre y derrame requiere evaluación y manejo ahora; esperar un mes no es adecuado.",
+     "omision": true,
+     "id": "D",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Hepatotoxicidad por fármacos antituberculosos, por lo que se deben suspender todos los medicamentos y esperar a que se normalicen",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "La fiebre y el aumento del derrame no son la presentación de la hepatotoxicidad y suspender todo expone a falla terapéutica.",
+     "id": "E",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n7": {
+   "estado": "Se plantea el manejo del empeoramiento inflamatorio. El paciente sigue estable aunque con fiebre y derrame mayor. No hay signos de resistencia ni de otra infección en los estudios solicitados.",
+   "vitales": {
+    "T": "38,5 °C",
+    "SatO₂": "92 %",
+    "Estado": "estable",
+    "Estudios": "sin otra infección"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es el manejo del empeoramiento?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "Ambos tratamientos son necesarios. ¿Qué cambia y qué se mantiene?",
+    "n2": "Mantén los dos tratamientos, descarta otras causas y maneja la inflamación."
+   },
+   "decisiones": [
+    {
+     "texto": "Mantener antirretroviral y antituberculoso, descartar otras causas y manejar la inflamación según protocolo con vigilancia clínica",
+     "calidad": "optima",
+     "siguiente": "n8",
+     "explicacion": "En la mayoría de los casos de IRIS se mantienen ambos tratamientos y se maneja la inflamación; suspender el ARV deja el VIH sin control.",
+     "id": "A",
      "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
      "competencia": "Tratamiento inicial",
      "refs": [
-      "r2"
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Suspender de inmediato el antirretroviral por considerarlo la causa del empeoramiento y reiniciarlo cuando el paciente mejore",
+     "calidad": "incorrecta",
+     "siguiente": "n8",
+     "explicacion": "En la mayoría de los casos de IRIS el ARV se mantiene; suspenderlo deja el VIH sin control y empeora el pronóstico.",
+     "id": "B",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Observar al paciente en casa sin cambios y controlar en un mes, ya que el cuadro es esperable y no requiere intervención",
+     "calidad": "incorrecta",
+     "siguiente": "n8",
+     "explicacion": "El IRIS requiere evaluación y manejo; el alta con control mensual es insegura.",
+     "omision": true,
+     "id": "C",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Suspender el tratamiento antituberculoso por sospecha de reacción adversa y mantener solo el antirretroviral durante la hospitalización",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Suspender el tratamiento antituberculoso en un paciente con tuberculosis activa expone a recaída y a resistencia.",
+     "id": "D",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Cambiar de inmediato a un esquema antituberculoso de segunda línea, asumiendo resistencia a rifampicina sin estudios adicionales",
+     "calidad": "incorrecta",
+     "siguiente": "n8",
+     "explicacion": "La rifampicina era sensible y el paciente es adherente; el cambio expone a toxicidad y no trata el IRIS.",
+     "id": "E",
+     "tema": "Síndrome inflamatorio de reconstitución inmune (IRIS)",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2",
+      "r3"
      ]
     }
-   ]
+   ],
+   "clave": "A"
   },
-  "n5": {
-   "estado": "El paciente mejora en pocos días. Hay que preparar el alta y el seguimiento.",
+  "n8": {
+   "estado": "El paciente mejora en pocos días. Hay que preparar el alta y el seguimiento de su doble condición.",
    "vitales": {
     "T": "37,2 °C",
     "SatO₂": "95 %",
-    "Estado": "estable"
+    "Estado": "estable",
+    "Tolerancia oral": "buena"
    },
    "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es el plan de alta y seguimiento?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "Dos enfermedades crónicas con tratamiento prolongado: ¿qué decide el éxito?",
+    "n2": "Supervisión, adherencia, profilaxis, controles y vinculación al programa."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Tratamiento supervisado de la tuberculosis y antirretroviral con adherencia, profilaxis de infecciones oportunistas según protocolo, control de CD4 y carga viral y vinculación al programa",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "El éxito depende de la adherencia y del seguimiento conjunto de TB y VIH; la profilaxis y la vinculación reducen complicaciones.",
-     "tema": "Seguimiento del paciente con VIH y tuberculosis",
+     "texto": "Suspender los controles de CD4 y de carga viral hasta terminar el tratamiento antituberculoso, para simplificar el seguimiento",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "El control del VIH debe continuar en paralelo; omitirlo impide detectar falla virológica.",
+     "id": "A",
+     "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Dar el alta con receta y sin cita de seguimiento",
+     "texto": "Suspender el antirretroviral al alta para reducir el número de medicamentos y mejorar la adherencia al tratamiento antituberculoso",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Suspender el ARV en un paciente con CD4 muy bajo es peligroso: favorece nuevas oportunistas y resistencia.",
+     "id": "B",
+     "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta con receta para tres meses y control al finalizar el tratamiento, sin supervisión ni seguimiento intermedio con el equipo",
      "calidad": "incorrecta",
      "siguiente": "f_regular",
-     "explicacion": "Sin supervisión y seguimiento hay riesgo alto de abandono, resistencia y falla terapéutica.",
-     "tema": "Seguimiento del paciente con VIH y tuberculosis",
+     "explicacion": "Sin supervisión ni seguimiento hay riesgo alto de abandono, resistencia y falla terapéutica.",
+     "omision": true,
+     "id": "C",
+     "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar aislamiento domiciliario por seis meses sin permitir contacto con familiares, aunque el paciente ya no sea bacilífero",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "El aislamiento se mantiene mientras sea bacilífero; prolongarlo sin criterio aísla innecesariamente y afecta la adherencia.",
+     "id": "D",
+     "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tratamiento supervisado de ambas con adherencia y profilaxis, controles de CD4 y carga viral y vinculación al programa",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "El éxito depende de la adherencia y del seguimiento conjunto de la tuberculosis y del VIH; la vinculación al programa reduce complicaciones.",
+     "id": "E",
+     "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
-  "n_det": {
-   "estado": "A los pocos días, sin tratamiento antituberculoso, el paciente empeora: dificultad respiratoria, fiebre alta y confusión leve.",
+  "d1": {
+   "estado": "El paciente empeora de forma brusca: dificultad respiratoria marcada, fiebre alta y confusión leve. Hay hipoxemia grave.",
    "vitales": {
     "SatO₂": "84 %",
     "FR": "34 /min",
@@ -328,45 +1024,89 @@
     "T": "39,4 °C"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "neumo"
+    ],
+    "n1": "Hipoxemia grave con tuberculosis probable: soporte y tratamiento de la causa, sin esperar.",
+    "n2": "Oxígeno, aislamiento, tratamiento antituberculoso inmediato y cuidados intensivos."
+   },
+   "deterioro": true,
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Oxígeno, aislamiento, iniciar ya el tratamiento antituberculoso y estudiar el compromiso neurológico",
-     "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "Se estabiliza la oxigenación, se trata la tuberculosis sin más demora y se descarta compromiso neurológico, que cambiaría el manejo del antirretroviral.",
-     "tema": "Momento de iniciar el tratamiento antirretroviral",
-     "competencia": "Tratamiento inicial",
+     "texto": "Trasladar a sala común con oxígeno por cánula nasal y esperar la evolución sin tratamiento ni aislamiento adicional durante la noche",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "La falta de tratamiento y aislamiento en una hipoxemia grave permite la progresión a falla respiratoria y muerte.",
+     "id": "A",
+     "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r2"
      ]
     },
     {
-     "id": "b",
-     "texto": "Seguir esperando el cultivo",
+     "texto": "Oxígeno y aislamiento, iniciar ya el tratamiento antituberculoso y estudiar el compromiso neurológico con cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "Se estabiliza la oxigenación, se trata la tuberculosis sin demora y se descarta compromiso neurológico, que cambiaría el manejo del antirretroviral.",
+     "id": "B",
+     "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Intubar de inmediato y diferir el tratamiento antituberculoso hasta que el paciente se recupere de la insuficiencia respiratoria",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "El soporte ventilatorio puede ser necesario, pero no justifica diferir el tratamiento de la causa.",
+     "id": "C",
+     "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Mantener el oxígeno suplementario y esperar el cultivo antes de iniciar ningún tratamiento antituberculoso, aunque el paciente empeore",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La demora en una tuberculosis avanzada con insuficiencia respiratoria aumenta el riesgo de muerte.",
+     "omision": true,
+     "id": "D",
+     "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Indicar un corticoide en dosis altas como único tratamiento, a la espera de que mejore la inflamación pulmonar de modo espontáneo",
      "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "La demora en una TB avanzada con insuficiencia respiratoria aumenta el riesgo de muerte.",
-     "tema": "Momento de iniciar el tratamiento antirretroviral",
+     "siguiente": "f_fatal",
+     "explicacion": "El corticoide solo, sin tratamiento antituberculoso, en un paciente con VIH avanzado agrava la infección y lleva a falla respiratoria irreversible.",
+     "id": "E",
+     "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r2"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
   "f_bueno": {
    "final": {
     "tipo": "bueno",
     "titulo": "Buen desenlace",
-    "mensaje": "Se trató la TB, se adelantó el antirretroviral, se reconoció el IRIS y quedó con seguimiento."
-   }
-  },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se estabilizó tras un deterioro que el inicio oportuno del tratamiento pudo evitar."
+    "mensaje": "Se trató la tuberculosis, se adelantó el antirretroviral, se reconoció el IRIS y quedó con seguimiento."
    }
   },
   "f_regular": {
@@ -380,21 +1120,66 @@
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "La demora del tratamiento llevó a insuficiencia respiratoria grave."
+    "mensaje": "Una conducta sin respaldo expuso al paciente a una recaída o a una nueva oportunista grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "El paciente falleció por insuficiencia respiratoria (educativo)",
+    "mensaje": "La demora del tratamiento y una conducta contraindicada en un paciente con VIH avanzado llevaron a falla respiratoria irreversible."
    }
   }
  },
  "informe": {
-  "resumen_clinico": "Varón de 34 años con síndrome constitucional respiratorio de 6 semanas y candidiasis oral. La radiografía mostró derrame pleural izquierdo con consolidación y adenopatías; la prueba molecular confirmó tuberculosis sensible a rifampicina y el VIH fue reactivo con CD4 de 38/µL.",
+  "resumen_clinico": "Varón de 34 años con síndrome constitucional respiratorio de 6 semanas y candidiasis oral. La radiografía mostró derrame pleural izquierdo con consolidación y adenopatías; la prueba molecular confirmó tuberculosis sensible a rifampicina y el VIH fue reactivo con CD4 de 38/µL. Evolucionó con un IRIS paradójico.",
+  "diagnostico_final": "Tuberculosis pulmonar y pleural sensible a rifampicina en paciente con VIH avanzado (CD4 38/µL), con IRIS paradójico tras iniciar el antirretroviral.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Neumonía bacteriana comunitaria",
+    "por_que_no": "El cuadro de seis semanas con pérdida de peso y sudoración nocturna no es agudo; la prueba molecular confirmó tuberculosis."
+   },
+   {
+    "dx": "Neumocistosis (Pneumocystis jirovecii)",
+    "por_que_no": "Puede coexistir en el VIH avanzado, pero el derrame y las adenopatías con prueba molecular positiva orientan a tuberculosis."
+   },
+   {
+    "dx": "Linfoma",
+    "por_que_no": "Es posible en VIH, pero la confirmación microbiológica de tuberculosis explica el cuadro."
+   },
+   {
+    "dx": "Falla del tratamiento antituberculoso",
+    "por_que_no": "La rifampicina era sensible y el paciente era adherente; el empeoramiento coincidió con la mejoría inmunológica tras el ARV (IRIS)."
+   }
+  ],
+  "datos_clave": [
+   "Síntomas crónicos con pérdida de peso, sudoración nocturna y candidiasis oral (sugiere inmunosupresión).",
+   "Derrame pleural y adenopatías en la radiografía (presentación atípica en inmunosupresión).",
+   "CD4 de 38/µL: umbral que favorece el antirretroviral precoz.",
+   "Empeoramiento tras iniciar el ARV con carga viral en descenso y CD4 en ascenso."
+  ],
   "razonamiento": [
    "Síntomas crónicos con pérdida de peso: pensar en TB y estudiar VIH en el mismo momento, con aislamiento respiratorio.",
    "Interpretar la radiografía considerando que la TB en la inmunosupresión avanzada es atípica.",
-   "Confirmar con prueba molecular y establecer sensibilidad a rifampicina.",
+   "Confirmar con prueba molecular y establecer sensibilidad a rifampicina; iniciar el tratamiento sin esperar el cultivo.",
    "Con CD4 < 50: tratar la TB y adelantar el antirretroviral (≤ 2 semanas), vigilando el IRIS.",
-   "Reconocer el IRIS paradójico: mantener ambos tratamientos y manejar la inflamación.",
-   "Asegurar adherencia y seguimiento."
+   "Considerar profilaxis de oportunistas y prednisona profiláctica en CD4 ≤ 100 (tras descartar resistencia).",
+   "Reconocer el IRIS paradójico y mantener ambos tratamientos manejando la inflamación.",
+   "Asegurar adherencia y seguimiento conjunto."
   ],
-  "imagen_interpretacion": "Radiografía de tórax de frente: se observa una opacidad extensa en el hemitórax izquierdo compatible con derrame pleural y consolidación, además de ensanchamiento hiliar y mediastínico por adenopatías. El pulmón derecho es relativamente más lúcido. En la inmunosupresión avanzada la TB suele manifestarse así (derrame, consolidación y adenopatías) en lugar de cavitación apical. Limitaciones: imagen de 378×512 px de otro paciente; solo la microbiología confirma el diagnóstico.",
+  "imagen_interpretacion": "Radiografía de tórax de frente: se observa una opacidad extensa en el hemitórax izquierdo compatible con derrame pleural y consolidación, además de ensanchamiento hiliar y mediastínico por adenopatías. El pulmón derecho es relativamente más lúcido. En la inmunosupresión avanzada la TB suele manifestarse así en lugar de cavitación apical. Limitaciones: imagen de 378×512 px de otro paciente; solo la microbiología confirma el diagnóstico.",
+  "imagen_diferenciales": [
+   "Neumonía bacteriana con derrame paraneumónico: curso agudo y respuesta a antibióticos.",
+   "Neumocistosis: infiltrado intersticial bilateral difuso, sin derrame ni adenopatías típicas.",
+   "Linfoma o sarcoma de Kaposi pulmonar: masas o nódulos, con perfil clínico distinto."
+  ],
+  "imagen_conducta": "El patrón atípico en un paciente inmunosuprimido obliga a no descartar tuberculosis por la ausencia de cavitación: se aísla, se confirma por prueba molecular y se inicia el tratamiento sin esperar el cultivo.",
+  "interpretacion_laboratorio": [
+   "Prueba molecular: M. tuberculosis detectado sin resistencia a rifampicina (permite esquema de primera línea).",
+   "Prueba de VIH reactiva con CD4 de 38/µL: inmunosupresión avanzada (umbral < 50 del ensayo citado).",
+   "Hemoglobina baja: anemia de enfermedad crónica probable; ALT y creatinina normales permiten iniciar los fármacos.",
+   "A las 2 semanas: CD4 en ascenso y carga viral en descenso con empeoramiento clínico: patrón de IRIS."
+  ],
   "tratamiento": [
    {
     "item": "Tratamiento antituberculoso",
@@ -426,9 +1211,5 @@
    "g10"
   ],
   "mensaje_clave": "En el paciente con VIH avanzado y TB, se trata la TB de inmediato y se inicia el antirretroviral en las primeras semanas, vigilando el IRIS."
- },
- "areas_banco": [
-  "infectologia",
-  "neumologia"
- ]
+ }
 }

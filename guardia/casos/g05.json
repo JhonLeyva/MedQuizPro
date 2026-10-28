@@ -3,9 +3,33 @@
  "titulo": "Fiebre de cinco días que cede y aparece dolor abdominal",
  "especialidad": "Infectología · Medicina interna · Emergencias",
  "dificultad": 2,
- "duracion_min": 12,
- "resumen": "Joven procedente de zona endémica con fiebre que desaparece, dolor abdominal y vómitos. Reconoce la fase crítica y maneja los líquidos con cuidado.",
+ "duracion_min": 18,
+ "areas_banco": [
+  "infectologia",
+  "salud_publica"
+ ],
+ "resumen": "Joven procedente de zona endémica con fiebre que desaparece, dolor abdominal y vómitos. Reconoce la fase crítica, maneja los líquidos con cuidado y decide el alta.",
  "contexto": "Hospital en una región con circulación de dengue, con laboratorio, ecografía y hospitalización disponibles.",
+ "paciente": {
+  "edad": 22,
+  "edad_texto": "22 años",
+  "sexo": "M",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "infecto",
+   "nombre": "Infectología / medicina tropical"
+  },
+  {
+   "id": "emerg",
+   "nombre": "Medicina de emergencias"
+  },
+  {
+   "id": "uci",
+   "nombre": "Medicina intensiva"
+  }
+ ],
  "imagenes": [],
  "referencias": [
   {
@@ -25,7 +49,8 @@
   }
  ],
  "discrepancias": [
-  "No se pudo consultar en esta sesión el texto completo de la guía OPS 2022 ni la norma técnica peruana vigente de dengue (MINSA); por eso el caso NO fija volúmenes ni velocidades de líquidos y usa solo principios generales de manejo (signos de alarma, reposición con cristaloides isotónicos guiada por reevaluación, evitar antiinflamatorios, vigilar la sobrecarga). Los volúmenes exactos varían entre guías nacionales: usa la norma vigente de tu país."
+  "No se pudo consultar en esta sesión el texto completo de la guía OPS 2022 ni la norma técnica peruana vigente de dengue (MINSA); por eso el caso NO fija volúmenes ni velocidades de líquidos y usa solo principios generales de manejo (signos de alarma, reposición con cristaloides isotónicos guiada por reevaluación, evitar antiinflamatorios, vigilar la sobrecarga). Los volúmenes exactos varían entre guías nacionales: usa la norma vigente de tu país.",
+  "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; en el dengue el hematocrito se compara con el basal del propio paciente."
  ],
  "inicio": "n1",
  "nodos": {
@@ -39,13 +64,26 @@
     "SatO₂": "98 %"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es el abordaje inicial?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "emerg"
+    ],
+    "n1": "Fiebre de varios días que cede y aparecen síntomas nuevos en zona endémica: ¿en qué fase de la enfermedad estás?",
+    "n2": "Dolor abdominal, vómitos persistentes y sangrado de mucosas son signos de alarma; define el nivel de atención."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Considerar dengue con signos de alarma en fase crítica: hospitalizar, pedir hemograma con hematocrito, iniciar hidratación endovenosa con cristaloide isotónico y vigilancia, y usar paracetamol para el dolor y la fiebre",
-     "calidad": "optima",
-     "siguiente": "n2",
-     "explicacion": "El descenso de la fiebre con dolor abdominal, vómitos persistentes, sangrado de mucosas y letargo marca la fase crítica con signos de alarma. Requiere hospitalización, hidratación IV y vigilancia estrecha.",
+     "texto": "Dar el alta con hidratación oral y control en 48 horas, pues el paciente ya no tiene fiebre y las molestias parecen digestivas",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "La defervescencia no es mejoría en el dengue: es cuando puede aparecer el choque; con vómitos persistentes no tolera la vía oral.",
+     "omision": true,
+     "id": "A",
      "tema": "Dengue con signos de alarma",
      "competencia": "Reconocimiento y triaje",
      "refs": [
@@ -53,59 +91,222 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Dar de alta con ibuprofeno y aspirina para el dolor y reposo en casa",
+     "texto": "Solicitar una tomografía abdominal para descartar un abdomen agudo quirúrgico antes de considerar cualquier otra causa del cuadro",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "En zona endémica y con fiebre previa el dengue en fase crítica es la sospecha principal; la tomografía no es el primer paso.",
+     "id": "B",
+     "tema": "Dengue con signos de alarma",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dengue con signos de alarma en fase crítica: hospitalizar, pedir hemograma con hematocrito y vigilar con hidratación endovenosa",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El descenso de la fiebre con dolor abdominal, vómitos persistentes, sangrado de mucosas y letargo marca la fase crítica con signos de alarma.",
+     "id": "C",
+     "tema": "Dengue con signos de alarma",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar diclofenaco intramuscular para el dolor abdominal y observar durante dos horas la respuesta del paciente antes de decidir",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Los antiinflamatorios y la aspirina están contraindicados en el dengue por el riesgo de sangrado; además tiene signos de alarma.",
-     "tema": "Seguridad: antiinflamatorios en el dengue",
+     "siguiente": "d1",
+     "explicacion": "Los antiinflamatorios están contraindicados en el dengue por el riesgo de hemorragia; además hay signos de alarma.",
+     "id": "D",
+     "tema": "Dengue con signos de alarma",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tratar como gastroenteritis con antiemético y suero oral, hospitalizando solo si en doce horas persisten los vómitos en el paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Los vómitos persistentes, el dolor abdominal y el sangrado de mucosas son signos de alarma que exigen vigilancia hospitalaria ahora.",
+     "id": "E",
+     "tema": "Dengue con signos de alarma",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "r1": {
+   "estado": "Doce horas después el paciente regresa con más dolor abdominal, vómito oscuro, mareo al incorporarse y sudoración fría. Está pálido y con pulso rápido y débil.",
+   "vitales": {
+    "PA": "92/76 mmHg",
+    "FC": "118 /min",
+    "Relleno capilar": "3 s",
+    "Estado": "pálido, sudoroso"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la corrección inmediata?",
+   "ayuda": {
+    "especialista": "emerg",
+    "pertinentes": [
+     "emerg",
+     "infecto"
+    ],
+    "n1": "El paciente se deteriora fuera del hospital. ¿Qué le hace falta ahora?",
+    "n2": "Hospitalización, accesos, reposición con reevaluación y hematocrito."
+   },
+   "laboratorio": {
+    "titulo": "Primeros estudios",
+    "resultados": [
+     {
+      "prueba": "hematocrito",
+      "valor": 49,
+      "etiqueta": "Hematocrito (basal del paciente: 40 %)",
+      "ref": {
+       "texto": "Se compara con el basal del propio paciente (40 %)"
+      }
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 52
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Administrar plaquetas de inmediato por el sangrado de las encías, antes de definir el estado de volumen y el hematocrito",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La transfusión de plaquetas no corrige la hipoperfusión y no se indica por una cifra aislada sin sangrado grave.",
+     "id": "A",
+     "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Dar de alta con hidratación oral porque ya no tiene fiebre",
+     "texto": "Indicar reposo domiciliario con suero oral abundante y paracetamol, y control ambulatorio en veinticuatro horas con hemograma",
      "calidad": "incorrecta",
-     "siguiente": "n_det",
-     "explicacion": "La defervescencia no es mejoría en el dengue: es cuando puede aparecer el choque. Con vómitos persistentes no tolera la vía oral.",
+     "siguiente": "d1",
+     "explicacion": "Con mareo, pulso débil y vómito oscuro el manejo ambulatorio es inseguro: hay compromiso hemodinámico y posible hemorragia.",
+     "omision": true,
+     "id": "B",
      "tema": "Dengue con signos de alarma",
-     "competencia": "Reconocimiento y triaje",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "d",
-     "texto": "Administrar diclofenaco intramuscular y observar dos horas",
+     "texto": "Dar un diurético para reducir la distensión abdominal y mejorar la sensación de malestar del paciente durante la observación",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Un diurético en un cuadro con fuga plasmática y mala perfusión reduce aún más el volumen circulante.",
+     "id": "C",
+     "tema": "Dengue con signos de alarma",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar ácido acetilsalicílico para el dolor y la fiebre residual, con observación en casa y control por la mañana",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "El diclofenaco es un antiinflamatorio: está contraindicado en el dengue por el riesgo de hemorragia.",
-     "tema": "Seguridad: antiinflamatorios en el dengue",
+     "siguiente": "d1",
+     "explicacion": "La aspirina está contraindicada en el dengue por el riesgo de sangrado.",
+     "id": "D",
+     "tema": "Dengue con signos de alarma",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hospitalizar ya con dos vías y cristaloide isotónico con reevaluación frecuente, y pedir hemograma con hematocrito",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "Se corrige el error: signos de alarma con compromiso hemodinámico requieren hospitalización, reposición vigilada y estudio.",
+     "id": "E",
+     "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
   "n2": {
-   "estado": "Resultados: hematocrito 46 % (su valor habitual es 40 %), plaquetas 38 000/µL, transaminasas elevadas. La ecografía muestra líquido libre escaso en la pelvis, engrosamiento de la pared de la vesícula y un pequeño derrame pleural derecho. Prueba de dengue positiva.",
+   "estado": "Resultados: el hematocrito subió respecto de su valor habitual de 40 %, las plaquetas están bajas y hay transaminasas elevadas. La ecografía muestra líquido libre escaso en la pelvis, engrosamiento de la pared de la vesícula y un pequeño derrame pleural derecho. La prueba de dengue es positiva.",
    "vitales": {
-    "Hematocrito": "46 % (basal 40 %)",
-    "Plaquetas": "38 000 /µL",
     "Ecografía": "líquido libre y derrame pleural",
-    "Sangrado": "encías"
+    "Sangrado": "encías",
+    "Dolor": "abdominal",
+    "Estado": "estable por ahora"
    },
    "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cómo interpretas los resultados?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "emerg"
+    ],
+    "n1": "Compara el hematocrito con el basal del paciente, mira las plaquetas y los derrames: ¿qué proceso común los explica?",
+    "n2": "En el dengue en fase crítica el plasma sale de los vasos; piensa en lo que eso causa en el hematocrito y en las serosas."
+   },
+   "laboratorio": {
+    "titulo": "Resultados de laboratorio y estudios",
+    "resultados": [
+     {
+      "prueba": "hematocrito",
+      "valor": 46,
+      "etiqueta": "Hematocrito (basal del paciente: 40 %)",
+      "ref": {
+       "texto": "Se compara con el basal del propio paciente (40 %)"
+      }
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 38
+     },
+     {
+      "prueba": "ast",
+      "valor": 120
+     },
+     {
+      "prueba": "alt",
+      "valor": 95
+     },
+     {
+      "prueba": "albumina",
+      "valor": 2.9
+     },
+     {
+      "prueba": "ns1",
+      "valor": "reactivo"
+     }
+    ],
+    "ocultar_marcas": true
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Fuga plasmática por dengue: mantener hidratación IV con cristaloide isotónico ajustada a la clínica y al hematocrito, con monitoreo frecuente de signos vitales, diuresis y hematocrito",
-     "calidad": "optima",
+     "texto": "Sepsis bacteriana de origen abdominal que justifica antibióticos de amplio espectro y descarta el dengue pese a la prueba positiva",
+     "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "El aumento del hematocrito y los derrames indican pérdida de plasma. Se repone con cristaloide isotónico guiado por reevaluación frecuente, sin excesos.",
+     "explicacion": "La prueba positiva y la evolución en fases orientan al dengue; el antibiótico no corrige la fuga plasmática.",
+     "id": "A",
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
@@ -113,109 +314,488 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Transfundir plaquetas de inmediato porque están en 38 000/µL",
+     "texto": "Fuga plasmática por dengue: el hematocrito en aumento sobre el basal y los derrames indican pérdida de plasma en la fase crítica",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "El aumento del hematocrito sobre el basal, la plaquetopenia y los derrames indican pérdida de plasma; se vigila y se repone con cuidado.",
+     "id": "B",
+     "tema": "Fuga plasmática y monitoreo en la fase crítica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hepatitis viral aguda con colestasis, pues las transaminasas están elevadas y la vesícula engrosada orienta a una enfermedad hepática",
      "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "La transfusión profiláctica de plaquetas no está indicada solo por la cifra, sin sangrado grave: expone a sobrecarga de volumen y no mejora el pronóstico.",
+     "explicacion": "Las transaminasas elevan en el dengue y no explican el hematocrito en aumento ni los derrames; el contexto epidemiológico orienta al dengue.",
+     "id": "C",
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hallazgos inespecíficos sin traducción clínica: repetir el hemograma y la ecografía en veinticuatro horas antes de tomar decisiones",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "El cuadro tiene significado clínico claro; esperar un día para decidir expone al paciente al choque.",
+     "omision": true,
+     "id": "D",
+     "tema": "Fuga plasmática y monitoreo en la fase crítica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Apendicitis aguda complicada con líquido libre pélvico, que requiere valoración quirúrgica inmediata y laparotomía exploradora de urgencia",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "El líquido escaso con derrame pleural y plaquetopenia en zona endémica se explica por fuga plasmática; no hay un abdomen agudo quirúrgico.",
+     "id": "E",
+     "tema": "Fuga plasmática y monitoreo en la fase crítica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "n3": {
+   "estado": "Con los hallazgos de fuga plasmática, el paciente sigue estable pero con el abdomen doloroso. Se decide la reposición de líquidos durante la fase crítica.",
+   "vitales": {
+    "PA": "104/80 mmHg",
+    "FC": "104 /min",
+    "Diuresis": "conservada",
+    "Vía oral": "no tolera"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cómo repones los líquidos?",
+   "ayuda": {
+    "especialista": "emerg",
+    "pertinentes": [
+     "emerg",
+     "infecto",
+     "uci"
+    ],
+    "n1": "El plasma se escapa de los vasos. ¿Qué tipo de líquido y con qué estrategia de vigilancia?",
+    "n2": "Cristaloide isotónico endovenoso con reevaluación frecuente, sin excesos ni restricciones."
+   },
+   "decisiones": [
+    {
+     "texto": "Cristaloide isotónico endovenoso con reevaluación frecuente de signos vitales, diuresis y hematocrito, evitando los excesos",
+     "calidad": "optima",
+     "siguiente": "n3b",
+     "explicacion": "Se repone con cristaloide isotónico guiado por reevaluación frecuente, sin excesos, que pueden causar sobrecarga cuando se reabsorbe el plasma.",
+     "id": "A",
+     "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Dar diurético para tratar el derrame pleural",
-     "calidad": "incorrecta",
-     "siguiente": "n3",
-     "explicacion": "El derrame se debe a fuga de plasma; un diurético reduciría aún más el volumen circulante y puede precipitar el choque.",
-     "tema": "Fuga plasmática y monitoreo en la fase crítica",
+     "texto": "Restringir los líquidos por el derrame pleural y el edema, administrando un diurético para mejorar la oxigenación del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Restringir líquidos en fuga plasmática empeora la perfusión y puede precipitar el choque.",
+     "id": "B",
+     "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "d",
-     "texto": "Solo hidratación oral y reevaluar mañana",
+     "texto": "Transfundir plaquetas de inmediato, porque están en un valor bajo, antes de iniciar ninguna reposición de líquidos endovenosos",
      "calidad": "incorrecta",
-     "siguiente": "n3",
+     "siguiente": "r2",
+     "explicacion": "La transfusión profiláctica de plaquetas por una cifra aislada no mejora el pronóstico y expone a sobrecarga de volumen.",
+     "id": "C",
+     "tema": "Reposición de líquidos en la fase crítica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar el hematocrito del día siguiente para decidir si se indica o no la reposición endovenosa, manteniendo solo ayuno",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "En la fase crítica la espera de un día para decidir la reposición expone al paciente al choque.",
+     "omision": true,
+     "id": "D",
+     "tema": "Reposición de líquidos en la fase crítica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Hidratación oral abundante en pequeños volúmenes y reevaluación al día siguiente, porque el paciente aún mantiene presión estable",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
      "explicacion": "Con vómitos persistentes y fuga plasmática la vía oral no basta y la demora aumenta el riesgo de choque.",
-     "tema": "Fuga plasmática y monitoreo en la fase crítica",
+     "id": "E",
+     "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
   },
-  "n3": {
-   "estado": "Seis horas después empeora: está inquieto, con extremidades frías, relleno capilar de 4 segundos, pulso rápido y débil y presión de pulso estrecha. El hematocrito sigue en ascenso.",
+  "r2": {
+   "estado": "Seis horas después empeora: está inquieto, con extremidades frías, relleno capilar de 4 segundos, pulso rápido y débil y presión de pulso estrecha. El hematocrito sigue en ascenso. Es un choque por dengue.",
    "vitales": {
     "PA": "92/80 mmHg",
     "FC": "126 /min",
     "Relleno capilar": "4 s",
-    "Hematocrito": "49 %",
     "Diuresis": "disminuida"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta en el choque?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "Hay signos de mala perfusión con fuga plasmática: la prioridad es el volumen circulante.",
+    "n2": "Bolo rápido de cristaloide isotónico con reevaluación continua; no restrinjas ni uses corticoides."
+   },
+   "laboratorio": {
+    "titulo": "Controles en el choque",
+    "resultados": [
+     {
+      "prueba": "hematocrito",
+      "valor": 49,
+      "etiqueta": "Hematocrito (basal del paciente: 40 %)",
+      "ref": {
+       "texto": "Se compara con el basal del propio paciente (40 %)"
+      }
+     },
+     {
+      "prueba": "lactato",
+      "valor": 3.8
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Tratar como choque por dengue: bolo rápido de cristaloide isotónico con reevaluación tras cada bolo (clínica, hematocrito, diuresis) y estar atento a hemorragia oculta ante deterioro con hematocrito que cae",
-     "calidad": "optima",
-     "siguiente": "n4",
-     "explicacion": "En el choque por dengue se repone el volumen de forma rápida con reevaluación. Si empeora con hematocrito bajo o descendente, se sospecha sangrado y se piensa en transfundir glóbulos rojos.",
-     "tema": "Choque por dengue",
+     "texto": "Administrar corticoide endovenoso en dosis altas para estabilizar la presión, manteniendo los líquidos en volumen de mantenimiento",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Los corticoides no corrigen el choque por dengue; el pilar es la reposición de volumen.",
+     "id": "A",
+     "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Restringir líquidos por el derrame pleural y esperar",
+     "texto": "Restringir los líquidos por el derrame pleural y esperar la mejoría espontánea de la perfusión sin otras intervenciones médicas",
      "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "Restringir líquidos en choque por fuga plasmática empeora la perfusión: es un error crítico.",
-     "tema": "Choque por dengue",
+     "siguiente": "d1",
+     "explicacion": "Restringir líquidos en choque por fuga plasmática empeora la perfusión: error crítico.",
+     "id": "B",
+     "tema": "Reposición de líquidos en la fase crítica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Transfundir plaquetas y plasma fresco de rutina para corregir la coagulopatía antes de iniciar un nuevo bolo de cristaloide",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La reposición de volumen es la prioridad; los hemoderivados se reservan según sangrado y hematocrito.",
+     "id": "C",
+     "tema": "Reposición de líquidos en la fase crítica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Bolo rápido de cristaloide isotónico y reevaluación tras cada bolo de la clínica, la diuresis y el hematocrito, atento a hemorragia",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "En el choque por dengue se repone el volumen rápidamente con reevaluación; si empeora con hematocrito bajo se sospecha sangrado.",
+     "id": "D",
+     "tema": "Reposición de líquidos en la fase crítica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Continuar la hidratación oral con sales y reevaluar dentro de seis horas, porque la presión sistólica aún se encuentra en rango",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La presión de pulso estrecha y el relleno lento indican choque: la demora es peligrosa.",
+     "omision": true,
+     "id": "E",
+     "tema": "Reposición de líquidos en la fase crítica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n3b": {
+   "estado": "Con la reposición en curso, el paciente tiene fiebre baja, dolor abdominal y malestar. El equipo de enfermería consulta qué analgésico y antipirético indicar y qué fármacos evitar.",
+   "vitales": {
+    "T": "37,8 °C",
+    "Dolor": "abdominal moderado",
+    "Sangrado": "encías, leve",
+    "PA": "106/78 mmHg"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 1,
+   "pregunta": "¿Qué analgésico indicas y qué evitas?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "emerg"
+    ],
+    "n1": "Piensa en el riesgo hemorrágico del dengue al elegir el fármaco.",
+    "n2": "Paracetamol es el analgésico y antipirético de elección; los antiinflamatorios y la aspirina se evitan."
+   },
+   "decisiones": [
+    {
+     "texto": "Metamizol endovenoso en dosis fijas cada seis horas por su rapidez de acción y escasa interferencia con la coagulación",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "El metamizol se asocia a efectos adversos hematológicos y no es la primera elección; el paracetamol es el recomendado.",
+     "id": "A",
+     "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Administrar corticoide para estabilizar la presión",
+     "texto": "Ácido acetilsalicílico como antipirético, porque la plaquetopenia es leve y mejora el flujo capilar en la microcirculación",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "La aspirina está contraindicada en el dengue: la plaquetopenia y las alteraciones vasculares aumentan el riesgo de sangrado.",
+     "id": "B",
+     "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Paracetamol para el dolor y la fiebre y evitar aspirina y antiinflamatorios, con vigilancia de los signos de sangrado",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "En el dengue se usa paracetamol y se evitan aspirina y antiinflamatorios por el riesgo hemorrágico.",
+     "id": "C",
+     "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar a que el paciente refiera mayor dolor antes de indicar cualquier analgésico, para no enmascarar la evolución del cuadro",
      "calidad": "incorrecta",
      "siguiente": "n4",
-     "explicacion": "Los corticoides no corrigen el choque por dengue; el pilar es la reposición de volumen.",
-     "tema": "Choque por dengue",
-     "competencia": "Tratamiento inicial",
+     "explicacion": "Dejar sin analgesia no es necesario: el paracetamol es seguro y no enmascara los signos de alarma relevantes.",
+     "omision": true,
+     "id": "D",
+     "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Ibuprofeno cada ocho horas por su mejor efecto analgésico y antipirético y control de los signos vitales en cada turno",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Los antiinflamatorios están contraindicados en el dengue: aumentan el riesgo de hemorragia.",
+     "id": "E",
+     "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "C"
   },
   "n4": {
-   "estado": "Tras la reposición el choque revierte: mejora el pulso, el relleno capilar y la diuresis. Al segundo día la fiebre no reaparece y el hematocrito desciende. Aparece disnea leve y crepitantes basales: se acabó la fuga y el plasma se reabsorbe.",
+   "estado": "Seis horas después de iniciar la reposición se reevalúa al paciente. Hay mejoría parcial: la presión de pulso es mayor y el relleno capilar mejora, aunque el hematocrito y la diuresis requieren interpretación. Se observa una deposición oscura.",
+   "vitales": {
+    "PA": "108/76 mmHg",
+    "FC": "96 /min",
+    "Diuresis": "recuperándose",
+    "Deposición": "oscura, escasa"
+   },
+   "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cómo interpretas la evolución?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "emerg"
+    ],
+    "n1": "Mejora la perfusión, pero hay un dato nuevo. ¿Qué significa en el dengue una deposición oscura?",
+    "n2": "Valora la hemodinamia y el hematocrito: pueden sugerir sangrado aunque el paciente mejore."
+   },
+   "laboratorio": {
+    "titulo": "Controles a las 6 horas",
+    "resultados": [
+     {
+      "prueba": "hematocrito",
+      "valor": 44,
+      "etiqueta": "Hematocrito (basal del paciente: 40 %)",
+      "ref": {
+       "texto": "Se compara con el basal del propio paciente (40 %)"
+      }
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 30
+     },
+     {
+      "prueba": "lactato",
+      "valor": 1.8
+     }
+    ],
+    "ocultar_marcas": true
+   },
+   "decisiones": [
+    {
+     "texto": "Resultado normal que no necesita interpretación adicional, pudiendo espaciar los controles a cada doce horas durante la hospitalización",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La deposición oscura y el hematocrito requieren seguimiento cercano; espaciar los controles es inseguro.",
+     "omision": true,
+     "id": "A",
+     "tema": "Reevaluación y hemorragia en el dengue",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Choque hemorrágico franco que exige transfundir glóbulos rojos de inmediato sin considerar el hematocrito ni la evolución hemodinámica",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "El paciente mejora hemodinámicamente; la transfusión se indica por sangrado con hematocrito bajo y repercusión clínica.",
+     "id": "B",
+     "tema": "Reevaluación y hemorragia en el dengue",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Resolución completa del cuadro crítico, por lo que se pueden suspender los líquidos endovenosos y la monitorización del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La fase crítica puede durar más; suspender la reposición y la monitorización de forma prematura expone a recaída.",
+     "id": "C",
+     "tema": "Reevaluación y hemorragia en el dengue",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mejoría hemodinámica con un posible sangrado digestivo leve: seguir la reevaluación y estar atento a la caída del hematocrito",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "El paciente responde a los líquidos; la deposición oscura obliga a vigilar el hematocrito y la hemodinamia por posible hemorragia.",
+     "id": "D",
+     "tema": "Reevaluación y hemorragia en el dengue",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reacción a los líquidos endovenosos que obliga a suspenderlos y reiniciar solo hidratación oral con control en doce horas",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "No hay evidencia de reacción adversa; suspender la reposición con mejoría parcial es prematuro.",
+     "id": "E",
+     "tema": "Reevaluación y hemorragia en el dengue",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n5": {
+   "estado": "Al segundo día la fiebre no reaparece y el hematocrito desciende hacia su basal. Aparecen disnea leve y crepitantes basales: terminó la fuga y el plasma se reabsorbe.",
    "vitales": {
     "FC": "92 /min",
     "PA": "112/74 mmHg",
     "SatO₂": "93 %",
-    "Hematocrito": "38 %",
     "Crepitantes": "bases"
    },
    "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cómo ajustas los líquidos ahora?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto",
+     "uci"
+    ],
+    "n1": "El cuadro cambió de fase. ¿Qué ocurre con el plasma que se había escapado?",
+    "n2": "En la reabsorción hay riesgo de sobrecarga: reduce la reposición progresivamente."
+   },
+   "laboratorio": {
+    "titulo": "Controles del segundo día",
+    "resultados": [
+     {
+      "prueba": "hematocrito",
+      "valor": 39,
+      "etiqueta": "Hematocrito (basal del paciente: 40 %)",
+      "ref": {
+       "texto": "Se compara con el basal del propio paciente (40 %)"
+      }
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 62
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reducir y suspender progresivamente los líquidos endovenosos y vigilar la sobrecarga; usar diurético solo si es necesario por la clínica",
-     "calidad": "optima",
-     "siguiente": "n5",
-     "explicacion": "En la fase de reabsorción el plasma vuelve a la circulación: seguir con líquidos aumenta el riesgo de edema pulmonar y se debe disminuir la reposición.",
+     "texto": "Aumentar los líquidos para mejorar la oxigenación, pues la disnea y los crepitantes sugieren un estado de deshidratación pulmonar",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "La disnea con crepitantes en la reabsorción sugiere sobrecarga: más líquido empeora el cuadro.",
+     "id": "A",
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
@@ -223,20 +803,58 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Mantener la misma velocidad de líquidos endovenosos 24 horas más",
+     "texto": "Reducir y suspender progresivamente los líquidos endovenosos y vigilar la sobrecarga, con diurético solo si la clínica lo exige",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "En la fase de reabsorción el plasma vuelve a la circulación: seguir con líquidos aumenta el riesgo de edema pulmonar.",
+     "id": "B",
+     "tema": "Fase de recuperación y sobrecarga de líquidos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender todos los líquidos y el monitoreo de inmediato y trasladar al paciente a domicilio para continuar la recuperación",
      "calidad": "incorrecta",
-     "siguiente": "n5",
-     "explicacion": "Continuar con el ritmo de la fase crítica durante la recuperación provoca sobrecarga de volumen.",
+     "siguiente": "n6",
+     "explicacion": "La suspensión debe ser progresiva y con vigilancia; el alta inmediata es prematura.",
+     "omision": true,
+     "id": "C",
+     "tema": "Fase de recuperación y sobrecarga de líquidos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la misma velocidad de líquidos endovenosos durante veinticuatro horas más, por si reaparece una pérdida de plasma",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Continuar el ritmo de la fase crítica durante la recuperación provoca sobrecarga de volumen.",
+     "id": "D",
+     "tema": "Fase de recuperación y sobrecarga de líquidos",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar corticoide endovenoso para el edema pulmonar y mantener la reposición de líquidos al mismo ritmo durante la noche",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "El corticoide no trata la sobrecarga y mantener el ritmo de líquidos agrava el edema pulmonar.",
+     "id": "E",
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
-  "n5": {
+  "n6": {
    "estado": "Cuarto día de recuperación: afebril hace más de 48 horas sin antipiréticos, hemodinámicamente estable, tolera la vía oral, plaquetas en aumento y diuresis normal.",
    "vitales": {
     "T": "36,6 °C",
@@ -245,13 +863,24 @@
     "Vía oral": "tolera"
    },
    "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 1,
+   "pregunta": "¿Cuál es el plan de alta?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "El paciente cumple criterios clínicos de recuperación; piensa en lo que debe saber al volver a casa.",
+    "n2": "Signos de alarma, control programado y evitar los antiinflamatorios."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Alta con indicaciones de signos de alarma, hidratación y control, evitando antiinflamatorios",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "Cumple criterios de alta: estabilidad, ausencia de fiebre, tolerancia oral y mejoría de plaquetas; se refuerzan los signos de alarma y se evitan los antiinflamatorios.",
+     "texto": "Repetir una transfusión de plaquetas antes del alta para normalizar la cifra y asegurar un seguimiento tranquilo en el domicilio",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "No se transfunden plaquetas por la cifra aislada en un paciente que se recupera sin sangrado.",
+     "id": "A",
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
@@ -259,54 +888,165 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Mantener hospitalizado una semana más sin motivo",
+     "texto": "Alta sin explicar signos de alarma ni dar cita de control, porque el paciente ya completó su estancia hospitalaria",
      "calidad": "incorrecta",
      "siguiente": "f_regular",
-     "explicacion": "Sin criterio clínico, la hospitalización prolongada expone a riesgos innecesarios.",
+     "explicacion": "Los signos de alarma y el control posterior son parte del alta segura tras la fase crítica.",
+     "id": "B",
+     "tema": "Criterios de alta en dengue",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta con ibuprofeno por cinco días para el malestar residual y control en una semana en el centro de salud",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Los antiinflamatorios se evitan durante la recuperación del dengue por el riesgo de sangrado.",
+     "id": "C",
+     "tema": "Criterios de alta en dengue",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener hospitalizado una semana más sin motivo clínico, con control continuo de los signos vitales y reposición de líquidos",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin criterio clínico, la hospitalización prolongada expone a riesgos y no previene complicaciones.",
+     "omision": true,
+     "id": "D",
+     "tema": "Criterios de alta en dengue",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta con signos de alarma explicados, hidratación, control programado y evitando antiinflamatorios en los días siguientes",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Cumple criterios de alta: estabilidad, ausencia de fiebre, tolerancia oral y mejoría de plaquetas; se refuerzan los signos de alarma.",
+     "id": "E",
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
-  "n_det": {
-   "estado": "Horas después regresa pálido, sudoroso, con vómito oscuro y dolor abdominal intenso. Está confuso, con piel fría y sangrado de encías.",
+  "d1": {
+   "estado": "Sin el manejo adecuado, el paciente regresa pálido, sudoroso, con vómito oscuro y dolor abdominal intenso. Está confuso, con piel fría y sangrado de encías.",
    "vitales": {
     "PA": "80/60 mmHg",
     "FC": "134 /min",
     "Relleno capilar": "5 s",
-    "Hematocrito": "36 %"
+    "Conciencia": "confuso"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "Hay choque con hematocrito por debajo del basal: piensa en pérdida de sangre además de plasma.",
+    "n2": "Reposición rápida con reevaluación, glóbulos rojos si hay sangrado y cuidados intensivos."
+   },
+   "laboratorio": {
+    "titulo": "Estudios urgentes",
+    "resultados": [
+     {
+      "prueba": "hematocrito",
+      "valor": 36,
+      "etiqueta": "Hematocrito (basal del paciente: 40 %)",
+      "ref": {
+       "texto": "Se compara con el basal del propio paciente (40 %)"
+      }
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 28
+     },
+     {
+      "prueba": "lactato",
+      "valor": 5.2
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "deterioro": true,
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Tratar como choque por dengue con posible hemorragia: reposición rápida con reevaluación, transfusión de glóbulos rojos si hay sangrado y hematocrito bajo, y UCI",
+     "texto": "Choque por dengue con posible hemorragia: reposición rápida reevaluada, glóbulos rojos si hay sangrado y cuidados intensivos",
      "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "El choque con hematocrito bajo o descendente sugiere hemorragia: se repone volumen y se transfunde glóbulos rojos según la clínica, con cuidados intensivos.",
-     "tema": "Choque por dengue",
-     "competencia": "Tratamiento inicial",
+     "siguiente": "n4",
+     "explicacion": "El choque con signos de sangrado sugiere hemorragia: se repone el volumen y se transfunde glóbulos rojos según la clínica, con cuidados intensivos.",
+     "id": "A",
+     "tema": "Choque con hemorragia en el dengue",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Dar más antiinflamatorios para el dolor",
+     "texto": "Transfundir plaquetas de rutina y mantener los líquidos en volumen de mantenimiento, mientras se espera el hemograma de control",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "La reposición de volumen es prioritaria; las plaquetas por la cifra no corrigen el choque.",
+     "id": "B",
+     "tema": "Choque con hemorragia en el dengue",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Continuar con hidratación oral fraccionada y paracetamol, y controlar los signos vitales cada seis horas durante la noche",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "El choque con confusión requiere reposición endovenosa y vigilancia crítica; la vía oral es insuficiente.",
+     "omision": true,
+     "id": "C",
+     "tema": "Choque con hemorragia en el dengue",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Restringir los líquidos por el derrame pleural, indicar diurético y observar la diuresis durante las próximas horas",
      "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "Un antiinflamatorio en un paciente con hemorragia y choque empeora el sangrado: error crítico.",
-     "tema": "Seguridad: antiinflamatorios en el dengue",
+     "siguiente": "f_fatal",
+     "explicacion": "Restringir líquidos en un choque con fuga plasmática y administrar diuréticos agrava la hipoperfusión hasta la muerte.",
+     "id": "D",
+     "tema": "Choque con hemorragia en el dengue",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar más antiinflamatorios para el dolor abdominal intenso y esperar a que el paciente se estabilice con el reposo",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Un antiinflamatorio en un paciente con hemorragia y choque empeora el sangrado: error crítico que puede ser mortal.",
+     "id": "E",
+     "tema": "Choque con hemorragia en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
   },
   "f_bueno": {
    "final": {
@@ -315,37 +1055,69 @@
     "mensaje": "Se reconoció la fase crítica, se repuso con prudencia y se evitó la sobrecarga."
    }
   },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se estabilizó tras una complicación que la hospitalización oportuna habría evitado."
-   }
-  },
   "f_regular": {
    "final": {
     "tipo": "regular",
-    "titulo": "Evolución favorable, con sobreuso de recursos",
-    "mensaje": "Se resolvió el cuadro, pero la estancia fue más larga de lo necesario."
+    "titulo": "Evolución favorable, con riesgos no abordados",
+    "mensaje": "Se resolvió el cuadro, pero el plan de alta o de recursos fue más largo o menos seguro de lo necesario."
    }
   },
   "f_adverso": {
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "Una decisión insegura llevó a choque y hemorragia graves."
+    "mensaje": "Una decisión insegura llevó a una complicación grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "El paciente falleció por choque hemorrágico (educativo)",
+    "mensaje": "Los antiinflamatorios o la restricción de líquidos en un choque con hemorragia llevaron a hipoperfusión irreversible."
    }
   }
  },
  "informe": {
-  "resumen_clinico": "Varón de 22 años de zona endémica con fiebre de 5 días que cede y aparecen dolor abdominal, vómitos persistentes, sangrado de mucosas y letargo; hematocrito en ascenso, plaquetopenia y derrames en la ecografía: dengue con signos de alarma y fuga plasmática que evolucionó a choque y luego a reabsorción.",
+  "resumen_clinico": "Varón de 22 años de zona endémica con fiebre de 5 días que cede y aparecen dolor abdominal, vómitos persistentes, sangrado de mucosas y letargo; hematocrito en ascenso sobre su basal, plaquetopenia y derrames en la ecografía: dengue con signos de alarma y fuga plasmática, que progresó a la recuperación con reabsorción.",
+  "diagnostico_final": "Dengue con signos de alarma, con fuga plasmática (y posible hemorragia digestiva leve).",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Hepatitis viral aguda",
+    "por_que_no": "Las transaminasas altas son comunes en dengue; no explican el hematocrito en aumento ni los derrames."
+   },
+   {
+    "dx": "Apendicitis o abdomen agudo quirúrgico",
+    "por_que_no": "El líquido escaso con derrame pleural y plaquetopenia en zona endémica corresponde a fuga plasmática."
+   },
+   {
+    "dx": "Gastroenteritis aguda",
+    "por_que_no": "No explica la defervescencia con signos de alarma ni la plaquetopenia con fuga plasmática."
+   },
+   {
+    "dx": "Sepsis bacteriana abdominal",
+    "por_que_no": "La prueba de dengue positiva y la evolución en fases orientan al dengue; los antibióticos no corrigen la fuga de plasma."
+   }
+  ],
+  "datos_clave": [
+   "Fiebre que cede al quinto día con dolor abdominal y vómitos persistentes (fase crítica con signos de alarma).",
+   "Hematocrito en aumento sobre el basal del paciente y plaquetas bajas.",
+   "Derrame pleural y líquido libre en la ecografía.",
+   "Zona endémica y prueba de dengue positiva."
+  ],
   "razonamiento": [
    "Fiebre en zona endémica y, al caer, dolor abdominal con vómitos persistentes: fase crítica con signos de alarma.",
    "Hospitalizar, hidratar por vía endovenosa y vigilar; no usar antiinflamatorios.",
    "Interpretar hematocrito y derrames como fuga de plasma; evitar plaquetas profilácticas y diuréticos.",
-   "Reconocer el choque y reponer con reevaluación continua; si el hematocrito cae, sospechar hemorragia.",
+   "Reponer con cristaloide isotónico y reevaluar con frecuencia; usar paracetamol.",
+   "Reconocer el choque y reponer rápido con reevaluación; si el hematocrito cae, sospechar hemorragia.",
    "En la reabsorción reducir los líquidos para evitar sobrecarga.",
-   "Dar el alta con criterios claros."
+   "Dar el alta con criterios claros y signos de alarma."
+  ],
+  "interpretacion_laboratorio": [
+   "Hematocrito en ascenso sobre el basal del paciente (40 %): hemoconcentración por fuga de plasma; su descenso bajo el basal con choque sugiere hemorragia.",
+   "Plaquetas bajas: acompañan a la fase crítica; la cifra aislada no indica transfusión.",
+   "AST y ALT elevadas y albúmina baja: afectación hepática y pérdida de proteínas por la fuga.",
+   "En la recuperación el hematocrito regresa a su basal y las plaquetas suben."
   ],
   "tratamiento": [
    {
@@ -379,9 +1151,5 @@
    "g08"
   ],
   "mensaje_clave": "En el dengue la caída de la fiebre marca la fase crítica; se vigila, se repone con prudencia y se evitan los antiinflamatorios."
- },
- "areas_banco": [
-  "infectologia",
-  "salud_publica"
- ]
+ }
 }

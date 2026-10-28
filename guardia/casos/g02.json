@@ -147,7 +147,7 @@
      ]
     },
     {
-     "texto": "Canalizar una vía venosa, reponer líquidos, indicar ayuno, dar analgesia y pedir una ecografía abdominal inmediata",
+     "texto": "Canalizar una vía venosa y reponer líquidos con ayuno y analgesia, y pedir de inmediato una ecografía abdominal a la cabecera del lactante",
      "calidad": "optima",
      "siguiente": "n2",
      "explicacion": "El cuadro es una obstrucción intestinal con riesgo de isquemia: se estabiliza con vía y líquidos y se confirma con un estudio rápido que no irradia.",
@@ -196,7 +196,7 @@
    },
    "decisiones": [
     {
-     "texto": "Dar un antibiótico oral y programar control en 24 horas porque el cuadro podría corresponder a una gastroenteritis con irritabilidad",
+     "texto": "Dar un antibiótico oral y programar control en 24 horas, porque el cuadro podría corresponder a una gastroenteritis con irritabilidad",
      "calidad": "incorrecta",
      "siguiente": "d1",
      "explicacion": "La sangre en heces con masa abdominal y vómitos biliosos no es una gastroenteritis simple; el control en 24 horas es inseguro.",
@@ -222,7 +222,7 @@
      ]
     },
     {
-     "texto": "Indicar un enema de reducción de inmediato aunque el abdomen esté distendido y sensible, para evitar la cirugía a toda costa",
+     "texto": "Indicar un enema de reducción de inmediato, aunque el abdomen esté distendido y sensible, para evitar la cirugía a toda costa",
      "calidad": "peligrosa",
      "siguiente": "d1",
      "explicacion": "Con distensión creciente y vómitos biliosos puede haber compromiso intestinal: el enema puede provocar una perforación.",
@@ -504,7 +504,7 @@
      ]
     },
     {
-     "texto": "Estructura redondeada con anillos concéntricos (imagen en diana) por un asa dentro de otra: compatible con intususcepción",
+     "texto": "Estructura redondeada con anillos concéntricos alternantes (imagen en diana) por un asa dentro de otra: compatible con intususcepción",
      "calidad": "optima",
      "siguiente": "n4",
      "explicacion": "La imagen en diana o de doble anillo corresponde a un segmento de intestino invaginado dentro de otro en el corte transversal.",
@@ -770,7 +770,7 @@
      ]
     },
     {
-     "texto": "Aguardar al turno de la mañana para que el equipo de radiología decida la conducta y mantener solo vigilancia mientras tanto",
+     "texto": "Aguardar al turno de la mañana, para que el equipo de radiología decida la conducta y mantener solo vigilancia, mientras tanto",
      "calidad": "incorrecta",
      "siguiente": "d1",
      "explicacion": "Posponer la reducción por conveniencia horaria prolonga el cuadro obstructivo.",
@@ -930,7 +930,7 @@
      ]
     },
     {
-     "texto": "Alta con signos de alarma explicados (llanto paroxístico, vómitos, sangre o decaimiento) y cita de control programada",
+     "texto": "Alta con explicación detallada a la familia de los signos de alarma de recurrencia y cita de control programada en pocos días",
      "calidad": "optima",
      "siguiente": "f_bueno",
      "explicacion": "Cumple criterios de alta; la familia debe reconocer los signos de recurrencia y volver sin demora.",
@@ -954,7 +954,7 @@
      ]
     },
     {
-     "texto": "Dar el alta sin explicar signos de alarma porque la recurrencia es rara y generaría ansiedad innecesaria en los padres del lactante",
+     "texto": "Dar el alta sin explicar signos de alarma, porque la recurrencia es rara y generaría ansiedad innecesaria en los padres del lactante",
      "calidad": "incorrecta",
      "siguiente": "f_regular",
      "explicacion": "La recurrencia, aunque poco frecuente, ocurre y los padres deben saber cuándo consultar; omitir la educación es un error.",
@@ -1004,10 +1004,10 @@
      ]
     },
     {
-     "texto": "Reanimar con líquidos, iniciar antibiótico, sonda gástrica y avisar a cirugía pediátrica para operar, sin intentar un enema",
+     "texto": "Reanimar con líquidos y antibiótico, colocar sonda gástrica y avisar a cirugía pediátrica para operar sin intentar ningún tipo de enema",
      "calidad": "optima",
      "siguiente": "n5",
-     "explicacion": "Con signos de peritonitis o de choque la reducción con enema está contraindicada: se reanima y se opera.",
+     "explicacion": "Con signos de peritonitis o de choque no se intenta el enema: se reanima con líquidos y antibiótico y se opera.",
      "id": "B",
      "tema": "Peritonitis y choque en el lactante",
      "competencia": "Seguridad del paciente",

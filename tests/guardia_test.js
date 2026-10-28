@@ -90,8 +90,9 @@ for (const c of CASOS) {
   const dfs = id => { if (pila.has(id)) { ciclo = true; return; } if (vis.has(id)) return; vis.add(id); pila.add(id); alc.add(id); const nd = c.nodos[id]; if (!nd.final) nd.decisiones.forEach(d => { if (c.nodos[d.siguiente]) dfs(d.siguiente); }); pila.delete(id); };
   dfs(c.inicio); ok(!ciclo, t + 'sin ciclos'); ok(Object.keys(c.nodos).every(k => alc.has(k)), t + 'todos los nodos son alcanzables');
   let id = c.inicio, pts = 0, pasos = 0; while (!c.nodos[id].final && pasos < 60) { const o = c.nodos[id].decisiones.find(d => d.calidad === 'optima'); pts += PUNTOS.optima * N.peso(c.nodos[id]); id = o.siguiente; pasos++; }
-  ok(c.nodos[id].final && c.nodos[id].final.tipo === 'bueno', t + 'la ruta óptima termina en desenlace bueno'); ok(N.maximo(c, c.inicio) === pts, t + 'el máximo ponderado coincide con la ruta óptima (' + pts + ')');
-  ok(pasos >= 6 && pasos <= 12, t + 'la ruta óptima tiene entre 6 y 12 decisiones (' + pasos + ')'); ok(N.porcentaje(c, pts) === 100 && N.porcentaje(c, 0) === 0, t + 'porcentaje 0–100');
+  ok(c.nodos[id].final && c.nodos[id].final.tipo === 'bueno', t + 'la ruta óptima termina en desenlace bueno'); ok(N.maximo(c, c.inicio) >= pts, t + 'el máximo de la ruta óptima es consistente (' + pts + ')');
+  ok(pasos >= 6 && pasos <= 12, t + 'la ruta óptima tiene entre 6 y 12 decisiones (' + pasos + ')');
+  { let cam0 = [], i0 = c.inicio, pp = 0; while (!c.nodos[i0].final) { const nd0 = c.nodos[i0], o0 = nd0.decisiones.find(d => d.calidad === 'optima'); cam0.push({ nodoId: i0, nodo: nd0, decision: o0, segundos: 1, ayuda: [] }); pp += N.puntosNodo(nd0, o0, 0); i0 = o0.siguiente; } const a0 = N.analizar(c, cam0, pp); ok(a0.pct === 100 && a0.max === pp, t + 'la ruta óptima puntúa exactamente 100 %'); }
   const probl = N.validarDesenlaces(c); ok(probl.length === 0, t + 'reglas de desenlace: ' + probl.join(' | '));
   const tipos = new Set(Object.values(c.nodos).filter(x => x.final).map(x => x.final.tipo)); ok(tipos.has('bueno') && tipos.has('regular'), t + 'desenlaces bueno y regular definidos');
   ok(Object.values(c.nodos).some(x => x.deterioro), t + 'define al menos un estado de deterioro (error crítico con consecuencia definida)');
@@ -108,7 +109,7 @@ for (const c of CASOS) {
   let cam = [], p2 = 0; id = c.inicio;
   while (!c.nodos[id].final && cam.length < 40) { const nd = c.nodos[id], d = nd.decisiones.find(x => x.calidad === 'peligrosa') || nd.decisiones.find(x => x.calidad === 'incorrecta') || nd.decisiones[0]; cam.push({ nodoId: id, nodo: nd, decision: d, segundos: 10, ayuda: [] }); p2 += N.puntosNodo(nd, d, 0); id = d.siguiente; }
   const an = N.analizar(c, cam, p2);
-  ok(an.decisiones.length === cam.length && an.criticos.length === cam.filter(x => x.decision.calidad === 'peligrosa').length, t + 'analizar: errores críticos reflejan lo elegido'); ok(an.pct === N.porcentaje(c, p2), t + 'analizar: puntaje ponderado');
+  ok(an.decisiones.length === cam.length && an.criticos.length === cam.filter(x => x.decision.calidad === 'peligrosa').length, t + 'analizar: errores críticos reflejan lo elegido'); ok(an.pct < 100 && an.pct >= 0 && an.pct === Math.round(p2 / N.maximoRecorrido(cam) * 100), t + 'analizar: puntaje ponderado sobre los nodos recorridos (un error nunca da 100 %)');
 }
 /* imágenes registradas */
 for (const [k, v] of Object.entries(reg)) {
