@@ -40,19 +40,24 @@ Flujo: motivo → anamnesis → antecedentes → examen físico → hipótesis (
 `node tests/guardia_test.js` (11 235 comprobaciones), `node tests/consulta_test.js` (722), `node tests/guardia_e2e.js` (1 478; ambos modos, 10 casos, temporizador con reloj simulado, sesión, laboratorio, interconsulta, desenlaces, móvil, axe WCAG 2.2 AA claro/oscuro), `node tests/consulta_e2e.js` (192; 4 casos en recorrido ideal y deficiente, pruebas no reveladas, bloqueo, sesión, móvil, axe), `python3 tools/guardia_evidencia.py verificar` (27 referencias; 26 con PMID verificadas en PubMed), `python3 tools/guardia_imagenes.py verificar`, integridad del banco y suites de regresión (Cloze, rendimiento, Feynman, estudio, flashcards, migraciones). `tests/guias_test.php` y 5 casos de `tests/api_test.py` ya fallaban en `main` antes de estos cambios (no relacionados).
 
 ## Fuentes peruanas (consultadas el 2026-10-28, tras habilitar gob.pe, EsSalud, OMS)
-| Caso | Fuente peruana incorporada | Alcance / reserva |
+| Caso | Fuente peruana incorporada (consulta 2026-10-28) | Alcance / reserva |
 |---|---|---|
 | c01 hipotiroidismo | Guía del Hospital de Emergencias Villa El Salvador (adultos), leída completa | Guía de un hospital, no nacional; no se confirmó la resolución. Difiere de ATA/AACE en el calendario de TSH (cada 3 meses vs 6–8 semanas): ambos se declaran |
 | c03 EIP | NTS 240-MINSA/DGIESP-2026 (RM 035-2026-MINSA, deroga la RM 263-2009) | PDF escaneado leído con OCR: hay que contrastar con el original. Enfoque sindrómico; el caso añade pruebas moleculares (CDC) |
 | c04 faringitis | Guía pediátrica del Hospital de Emergencias Villa El Salvador | Es pediátrica (≤ 14 años); el caso es un adulto: apoyo parcial |
 | c02 ITU pediátrica | No se halló guía peruana pediátrica (solo adultos, gestantes y EsSalud no complicada) | Declarado en el caso |
-| Urgencias g01–g10 | Pendiente de revisar contra normas peruanas | Mantienen las referencias internacionales |
+| g04 TB-VIH | NTS 221-MINSA/DGIESP-2024 (RM 894-2024) | Respalda tamizaje de VIH, cotrimoxazol y diagnóstico molecular; el momento del antirretroviral y el IRIS son de la norma de VIH (NTS 169-2020), no leída |
+| g05 dengue | NTS 211-MINSA/DGIESP-2024 (RM 175-2024), secciones de alarma e hidratación | Coherente con el caso; volúmenes citados en el informe |
+| g06 ictus | GPC N° 19 de EsSalud/IETSI (2018) | Anterior a AHA/ASA 2026; no se halló guía del MINSA |
+| g09 cetoacidosis | Guía técnica RM 389-2023-MINSA (OCR) | Es para diabetes tipo 2; umbral de potasio 3,3 vs 3,5 del caso, ambos «reponer antes de insulina» |
+| g10 sepsis y g01 colangitis | GPC N° 15 de EsSalud/IETSI (2018) | Anterior a la SSC 2021; en g01 solo cubre la fase de sepsis |
+| g02, g03, g07, g08 | No se halló una norma peruana específica (ectópico: guía obstétrica RM 695-2006 hallada pero no leída) | Mantienen sus referencias internacionales |
 
 ## Limitaciones declaradas
-- Las normas peruanas halladas son parciales (ver tabla); para los 10 casos de urgencias todavía no se han contrastado con textos MINSA/EsSalud/OMS. Varias guías internacionales se leyeron solo a nivel de resumen en PubMed.
+- Las normas peruanas halladas son parciales (ver tabla): faltan g02, g03, g07 y g08, y no se leyó ninguna fuente de la OMS. Varias guías internacionales se leyeron solo a nivel de resumen en PubMed.
 - Los intervalos de laboratorio son educativos: no se encontró un estándar nacional peruano y cada laboratorio define los suyos; no se incluyen valores críticos.
 - Casos redactados por el modelo, sin revisión de especialista externo.
-- Las dosis solo se citan cuando una fuente peruana leída las trae (c01, c03), con la advertencia de verificarlas; en el resto se remite a la guía y al protocolo local.
+- Las dosis solo se citan cuando una fuente peruana leída las trae (c01, c03, g05, g06, g09), con la advertencia de verificarlas; en el resto se remite a la guía y al protocolo local.
 - Las respuestas viajan en el cliente (es un recurso de estudio, no un examen vigilado).
 - Imágenes reales de licencia abierta a 512 px; los casos de consulta no incluyen imágenes; no hay caso piloto de dermatología con imagen licenciada.
 - El «especialista» y la consulta son lógica predefinida, no una persona ni un modelo de IA.

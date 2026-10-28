@@ -8,9 +8,10 @@ c = {
  "contexto": "Emergencia con gasometría, electrolitos, ECG y monitorización; ingreso a UCI o unidad de cuidados intermedios disponible.",
  "paciente": {"edad": 19, "edad_texto": "19 años", "sexo": "F", "embarazo": False}, "especialistas": ESP, "imagenes": [],
  "referencias": [
+  R("rp", "guia", "Guía técnica: guía de práctica clínica de diagnóstico y tratamiento de la diabetes mellitus no insulinodependiente (tipo 2) con cetoacidosis, estado hiperglicémico hiperosmolar y estado mixto (RM 389-2023-MINSA, 19 de abril de 2023)", "Ministerio de Salud del Perú", "MINSA", 2023, "Guía nacional según gob.pe, para adultos con diabetes tipo 2; el caso es diabetes tipo 1. El PDF es un escaneo leído con OCR: contrasta con el original.", "Hidratación inicial con solución salina 0,9 %; medir glucosa y potasio sérico antes de iniciar la insulina, que se da tras al menos 2 horas de hidratación; infusión continua de insulina regular 0,1 U/kg/h; la insulina puede iniciarse con potasio corregido mayor de 3,3 mEq/L; no se usa bicarbonato de rutina; se baja la insulina y se añade dextrosa al 5 % cuando la glucosa llega a 250 mg/dL o menos; la resolución se define por pH mayor de 7,3, glucosa menor de 200 mg/dL y bicarbonato ≥ 18 mEq/L o brecha aniónica ≤ 12; la transición a insulina subcutánea se hace al resolverse la crisis y tolerar la vía oral.", url="https://www.gob.pe/institucion/minsa/normas-legales/4147228-389-2023-minsa"),
   R("r1", "consenso", "Hyperglycemic Crises in Adults With Diabetes: A Consensus Report", "American Diabetes Association / EASD / JBDS / AACE / DTS", "Umpierrez GE, Davis GM, ElSayed NA, Fadini GP et al.", 2024, "Consenso de 2024, vigente según la última búsqueda. Dado en dos revistas (Diabetes Care y Diabetologia); se cita la versión de Diabetes Care.", "La cetoacidosis diabética se trata con reposición de líquidos, insulina endovenosa y reposición de potasio; la insulina se retrasa si el potasio está bajo; se vigilan glucosa, electrolitos y pH; se busca y trata el factor desencadenante; la transición a insulina subcutánea se hace con un período de superposición.", pmid="39052901", doi="10.2337/dci24-0032"),
  ],
- "discrepancias": ["Los umbrales de potasio y las dosis varían entre versiones y sociedades (por ejemplo, entre ADA 2009, JBDS 2021 y el consenso 2024). Este caso usa un umbral de potasio de 3,5 mmol/L para demorar la insulina, valor usado en el consenso 2024; su texto completo no se verificó en esta sesión: confirma en el protocolo vigente. No se consultó una norma peruana (MINSA/EsSalud).", "El umbral de pH para considerar bicarbonato (pH < 7,0) y el sodio corregido por glucosa son criterios usados en la práctica que no se verificaron en texto completo en esta sesión. Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."],
+ "discrepancias": ["Los umbrales de potasio y las dosis varían entre versiones y sociedades (por ejemplo, entre ADA 2009, JBDS 2021 y el consenso 2024). Este caso usa un umbral de potasio de 3,5 mmol/L para demorar la insulina, valor usado en el consenso 2024; su texto completo no se verificó en esta sesión: confirma en el protocolo vigente. La guía peruana (RM 389-2023-MINSA, para diabetes tipo 2, leída por OCR) usa un umbral de potasio corregido de 3,3 mEq/L para iniciar la insulina frente a los 3,5 mmol/L de este caso (consenso ADA 2024): ambas coinciden en reponer el potasio antes de la insulina.", "El umbral de pH para considerar bicarbonato (pH < 7,0) y el sodio corregido por glucosa son criterios usados en la práctica que no se verificaron en texto completo en esta sesión. Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."],
  "inicio": "n1",
  "nodos": {
   "n1": N("Mujer de 19 años con diabetes tipo 1 desde los 12. Hace tres días dejó de aplicarse insulina por falta de recursos y tuvo una infección respiratoria. Desde ayer tiene náuseas, vómitos, dolor abdominal y respiración profunda y rápida. Está somnolienta y con la mucosa oral seca. Aliento con olor a fruta.",
@@ -20,7 +21,7 @@ c = {
     D("Dar una dosis alta de insulina subcutánea, hidratación oral abundante y control ambulatorio en veinticuatro horas con glucemia", "p", "d1", "Una cetoacidosis con acidosis y deshidratación no se maneja de forma ambulatoria: es un error crítico."),
     D("Pedir primero el resultado de todos los exámenes de laboratorio antes de iniciar la hidratación ni ninguna otra medida de soporte", "i", "r1", "La hidratación y el monitoreo no deben esperar al laboratorio completo; se inician de inmediato y se estudia en paralelo.", omision=True),
     D("Administrar bicarbonato endovenoso en bolo de entrada para corregir la acidosis y esperar la respuesta de la respiración profunda", "i", "r1", "El bicarbonato no se usa de rutina en la cetoacidosis; su uso se reserva para acidosis muy grave con otras precauciones."),
-   ], pregunta="¿Cuál es la conducta inicial prioritaria?", tema=T1, comp="rec", refs=["r1"], lab=("Glucemia y cetonuria iniciales", [("glucosa", 520), ("orina_cetonas", "positivo (+++)")]),
+   ], pregunta="¿Cuál es la conducta inicial prioritaria?", tema=T1, comp="rec", refs=["rp", "r1"], lab=("Glucemia y cetonuria iniciales", [("glucosa", 520), ("orina_cetonas", "positivo (+++)")]),
    ayuda={"especialista": "emerg", "pertinentes": ["emerg", "endo", "uci"], "n1": "Joven con diabetes tipo 1 sin insulina, vómitos y respiración profunda: ¿qué urgencia metabólica es y qué debes medir antes de dar insulina?", "n2": "Hidrata, monitoriza y mide potasio antes de insulina; busca el desencadenante."}),
   "r1": N("Una hora después, con una conducta inicial inadecuada, la paciente está más somnolienta, con respiración más profunda y presión más baja. Sigue sin potasio conocido y con deshidratación marcada.",
     {"PA": "88/52 mmHg", "FC": "130 /min", "FR": "34 /min", "Conciencia": "responde al llamado"}, 2, "critica", 2, [
@@ -29,7 +30,7 @@ c = {
     D("Dar bicarbonato en bolo y suspender los líquidos para evitar la sobrecarga en una paciente joven con la presión baja", "i", "d1", "Suspender los líquidos agrava la hipoperfusión y el bicarbonato no corrige la cetosis."),
     D("Indicar un antiemético y un antiespasmódico y mantener la observación en la sala de emergencia sin otras medidas por ahora", "i", "d1", "Los síntomas digestivos son parte de la cetoacidosis; tratarlos sin corregir el cuadro de fondo retrasa el tratamiento."),
     D("Dar el alta con insulina subcutánea y control en la consulta externa de la mañana siguiente con glucemia en ayunas", "p", "d1", "El alta de una cetoacidosis con acidosis y deshidratación es un error crítico."),
-   ], pregunta="¿Qué corrige el rumbo?", tema=T1, comp="seg", refs=["r1"],
+   ], pregunta="¿Qué corrige el rumbo?", tema=T1, comp="seg", refs=["rp", "r1"],
    ayuda={"especialista": "emerg", "pertinentes": ["emerg", "endo"], "n1": "La paciente empeora con una conducta inicial inadecuada. ¿Qué falta de la atención básica?", "n2": "Hidratación endovenosa, monitoreo y estudios completos, incluido el potasio, antes de insulina."}),
   "n2": N("Se muestran los resultados de laboratorio. El ECG muestra taquicardia sinusal con ondas U. Ya recibe líquidos. Hay que interpretar el cuadro metabólico y su gravedad.",
     {"ECG": "ondas U", "PA": "100/60 mmHg", "FC": "118 /min", "Diuresis": "escasa"}, 2, "interpretacion", 3, [
@@ -38,7 +39,7 @@ c = {
     D("Acidosis láctica por sepsis como única causa de la acidosis, para la que corresponde tratar con antibiótico de amplio espectro", "i", "n2b", "La brecha aniónica se explica por las cetonas; la infección puede ser el desencadenante, pero no sustituye el manejo de la cetoacidosis."),
     D("Hiponatremia verdadera grave que exige corrección rápida con solución hipertónica antes de tratar la hiperglucemia en la paciente", "i", "n2b", "El sodio bajo se debe en parte a la hiperglucemia; el sodio corregido es casi normal y no requiere solución hipertónica."),
     D("Alteraciones leves sin gravedad: bastan la hidratación oral y repetir los estudios de laboratorio dentro de doce horas en observación", "i", "n2b", "El pH de 7,05, el bicarbonato de 6 y el potasio de 3,1 indican gravedad; la espera es insegura.", omision=True),
-   ], pregunta="¿Cómo interpretas los estudios?", tema=T2, comp="dx", refs=["r1"], interp_lab=True,
+   ], pregunta="¿Cómo interpretas los estudios?", tema=T2, comp="dx", refs=["rp", "r1"], interp_lab=True,
    lab=("Gasometría y química", [("glucosa", 520), ("ph", 7.05), ("pco2", 20), ("hco3", 6), ("exceso_base", -22), ("bhb", 6.2), ("sodio", 128), ("potasio", 3.1), ("cloro", 96), ("anion_gap", 26), ("creatinina", 1.4), ("osmolaridad", 296)]),
    ayuda={"especialista": "endo", "pertinentes": ["endo", "emerg", "nefro"], "n1": "Mira juntos glucosa, cetonas, pH, bicarbonato y brecha aniónica, y no olvides el potasio y el sodio.", "n2": "Hiperglucemia, cetonemia y acidosis con brecha aniónica alta; el potasio bajo condiciona el orden de tratamiento."}),
   "n2b": N("El pH es 7,05 y el bicarbonato es 6 mmol/L. El equipo discute si corresponde dar bicarbonato endovenoso mientras se completa la reposición de líquidos y se corrige el potasio.",
@@ -48,7 +49,7 @@ c = {
     D("Indicar bicarbonato en infusión continua durante toda la reposición, sin repetir la gasometría hasta que la glucemia normalice", "i", "r2", "La infusión continua de bicarbonato sin control agrava la hipopotasemia y no está recomendada de rutina."),
     D("Esperar la repetición de la gasometría en tres horas antes de definir cualquier medida, manteniendo solo los líquidos de mantenimiento", "i", "n3", "Con pH de 7,05 y deshidratación importante los líquidos no son de mantenimiento: se repone el déficit y se trata ahora.", omision=True),
     D("Administrar bicarbonato junto con potasio en la misma solución para corregir ambos desequilibrios en un único acceso venoso", "p", "d2", "Mezclar bicarbonato y potasio sin control puede causar arritmias y desequilibrios graves de electrolitos."),
-   ], pregunta="¿Cuál es la conducta frente a la acidosis grave?", tema=T3, comp="tto", refs=["r1"],
+   ], pregunta="¿Cuál es la conducta frente a la acidosis grave?", tema=T3, comp="tto", refs=["rp", "r1"],
    ayuda={"especialista": "endo", "pertinentes": ["endo", "uci", "emerg"], "n1": "El pH es muy bajo. Pero, ¿el bicarbonato corrige la causa de la acidosis y qué efecto tiene sobre el potasio?", "n2": "La acidosis cetósica mejora al tratar la cetosis; el bicarbonato no es de rutina y puede bajar el potasio."}),
   "r2": N("Tras el bicarbonato el potasio cae aún más y la paciente refiere debilidad y palpitaciones. El monitor muestra extrasístoles ventriculares ocasionales. Se reevalúa la situación.",
     {"K⁺": "2,6 mmol/L", "ECG": "extrasístoles ventriculares", "PA": "98/58 mmHg", "FC": "126 /min"}, 2, "critica", 2, [
@@ -57,7 +58,7 @@ c = {
     D("Administrar más bicarbonato en bolo para estabilizar el ritmo cardíaco y la acidosis de la paciente en el monitor", "i", "d2", "El bicarbonato adicional empeora la hipopotasemia y el riesgo de arritmia."),
     D("Suspender los líquidos para evitar la sobrecarga y mantener solo la observación del monitor y los controles de potasio", "i", "d2", "Suspender los líquidos agrava la deshidratación y la acidosis; no corrige la hipopotasemia."),
     D("Dar un antiarrítmico por vía endovenosa sin corregir el potasio y continuar con la observación en el monitor cardíaco", "p", "d2", "Un antiarrítmico sin corregir la causa de la arritmia es ineficaz y puede ser peligroso."),
-   ], pregunta="¿Qué se hace ahora?", tema=T4, comp="seg", refs=["r1"], lab=("Control de potasio", [("potasio", 2.6)]),
+   ], pregunta="¿Qué se hace ahora?", tema=T4, comp="seg", refs=["rp", "r1"], lab=("Control de potasio", [("potasio", 2.6)]),
    ayuda={"especialista": "uci", "pertinentes": ["uci", "nefro", "endo"], "n1": "El potasio cayó y hay arritmias. ¿Qué se repone primero y qué se retrasa?", "n2": "Repón potasio con monitoreo y retrasa la insulina hasta un potasio seguro."}),
   "n3": N("El potasio es de 3,1 mmol/L, la paciente ya recibe líquidos y está monitorizada. Hay que decidir el orden entre la reposición de potasio y el inicio de la insulina.",
     {"K⁺": "3,1 mmol/L", "ECG": "ondas U", "PA": "102/62 mmHg", "Líquidos": "en curso"}, 2, "critica", 3, [
@@ -66,7 +67,7 @@ c = {
     D("Esperar a que el potasio llegue a 5 mmol/L antes de dar insulina, manteniendo la reposición de potasio durante varias horas", "i", "n4", "Retrasar la insulina más de lo necesario mantiene la cetosis: se inicia cuando el potasio es de al menos 3,5 mmol/L."),
     D("Iniciar la insulina a mitad de dosis junto con la reposición de potasio para compensar el riesgo de hipopotasemia en la paciente", "p", "d2", "Con potasio bajo la insulina, aun a dosis reducidas, expone a una arritmia; primero se alcanza un potasio seguro."),
     D("Suspender la reposición de potasio porque el ECG no muestra cambios graves y esperar el control de las seis horas siguientes", "i", "n4", "El ECG con ondas U y un potasio bajo exigen reposición; esperar seis horas es inseguro.", omision=True),
-   ], pregunta="¿Qué va primero: potasio o insulina?", tema=T4, comp="seg", refs=["r1"],
+   ], pregunta="¿Qué va primero: potasio o insulina?", tema=T4, comp="seg", refs=["rp", "r1"],
    ayuda={"especialista": "nefro", "pertinentes": ["nefro", "endo", "uci"], "n1": "La insulina mueve el potasio hacia las células. Con un potasio de 3,1, ¿qué debes asegurar antes?", "n2": "Primero potasio hasta un valor seguro y después insulina, con monitoreo."}),
   "n4": N("Con el potasio repuesto a 3,8 mmol/L se decide iniciar la insulina. La glucemia es de 505 mg/dL y la paciente continúa con hidratación endovenosa y monitorización.",
     {"K⁺": "3,8 mmol/L", "Glucemia": "505 mg/dL", "PA": "108/66 mmHg", "FC": "108 /min"}, 1, "diagnostica", 3, [
@@ -75,7 +76,7 @@ c = {
     D("Un bolo grande de insulina endovenosa seguido de suspensión hasta la siguiente glucemia, para evitar una hipoglucemia prolongada", "i", "n5", "Los bolos grandes y la suspensión intermitente producen oscilaciones y no resuelven de manera sostenida la cetosis."),
     D("Posponer la insulina hasta que la glucemia baje espontáneamente por debajo de 300 mg/dL con la hidratación y el reposo", "i", "n5", "Sin insulina la cetosis no se resuelve; la glucemia puede bajar con líquidos, pero la acidosis persistiría.", omision=True),
     D("Iniciar insulina en infusión pero sin control de glucemia ni de potasio hasta completar seis horas de tratamiento ininterrumpido", "p", "f_adverso", "Sin monitoreo frecuente se arriesga hipoglucemia y arritmias por hipopotasemia no detectadas."),
-   ], pregunta="¿Cómo se administra la insulina?", tema=T5, comp="tto", refs=["r1"], lab=("Controles al iniciar la insulina", [("potasio", 3.8), ("glucosa", 505)]),
+   ], pregunta="¿Cómo se administra la insulina?", tema=T5, comp="tto", refs=["rp", "r1"], lab=("Controles al iniciar la insulina", [("potasio", 3.8), ("glucosa", 505)]),
    ayuda={"especialista": "endo", "pertinentes": ["endo", "uci"], "n1": "El potasio ya es seguro. ¿Con qué vía y modalidad la insulina es titulable y segura en este cuadro?", "n2": "Insulina endovenosa en infusión continua con monitoreo seriado de glucosa, potasio y gasometría."}),
   "n5": N("Cuatro horas después, la glucemia es de 240 mg/dL, el pH de 7,15 y las cetonas siguen elevadas. El potasio es 4,1 mmol/L. Se discute cómo continuar el tratamiento.",
     {"Glucemia": "240 mg/dL", "pH": "7,15", "K⁺": "4,1 mmol/L", "Cetonas": "elevadas"}, 1, "diagnostica", 3, [
@@ -84,7 +85,7 @@ c = {
     D("Pasar ya a insulina subcutánea y retirar la endovenosa, dado que la glucemia es de 240 y la paciente se siente mejor", "i", "n6", "Sin resolver la acidosis y sin superposición, el cambio es prematuro y puede reaparecer la cetoacidosis."),
     D("Duplicar la velocidad de la insulina endovenosa sin añadir dextrosa para acelerar la resolución del cuadro de acidosis", "i", "n6", "Aumentar la insulina sin glucosa con una glucemia de 240 favorece la hipoglucemia; se añade dextrosa y se mantiene la infusión."),
     D("Reducir los líquidos a mantenimiento y espaciar los controles de laboratorio a cada doce horas hasta la normalización del pH", "i", "n6", "La paciente sigue con cetosis y requiere vigilancia frecuente; espaciar los controles es inseguro.", omision=True),
-   ], pregunta="¿Cómo continúas el tratamiento?", tema=T6, comp="tto", refs=["r1"], interp_lab=True, lab=("Controles a las 4 horas", [("glucosa", 240), ("ph", 7.15), ("potasio", 4.1), ("bhb", 4.1)]),
+   ], pregunta="¿Cómo continúas el tratamiento?", tema=T6, comp="tto", refs=["rp", "r1"], interp_lab=True, lab=("Controles a las 4 horas", [("glucosa", 240), ("ph", 7.15), ("potasio", 4.1), ("bhb", 4.1)]),
    ayuda={"especialista": "endo", "pertinentes": ["endo", "uci"], "n1": "La glucosa mejora más rápido que la cetosis. ¿Qué mantienes y qué añades?", "n2": "Mantén la insulina hasta resolver la cetosis y añade glucosa a los líquidos para evitar hipoglucemia."}),
   "n6": N("A las 14 horas el pH es 7,34, el bicarbonato 20 mmol/L, la cetonemia casi normal y tolera la vía oral. Se identificó la infección respiratoria como desencadenante y la falta de recursos para comprar insulina.",
     {"pH": "7,34", "HCO₃⁻": "20 mmol/L", "Cetonas": "casi normales", "Vía oral": "tolera"}, 0, "diagnostica", 2, [
@@ -93,7 +94,7 @@ c = {
     D("Mantener la insulina endovenosa indefinidamente hasta el alta para evitar cualquier pase a la vía subcutánea durante la hospitalización", "i", "n7", "No es necesario prolongarla; con criterios de resolución y tolerancia oral se pasa a insulina subcutánea con superposición."),
     D("Dar el alta con la dosis previa de insulina y sin superposición ni control de la glucemia durante las primeras veinticuatro horas", "i", "n7", "Sin superposición ni vigilancia se arriesga una recaída de la cetoacidosis.", omision=True),
     D("Suspender toda insulina por unas horas hasta que aparezca hambre y volver a iniciar una dosis única de insulina basal por la tarde", "p", "f_adverso", "Dejar a una paciente con diabetes tipo 1 sin insulina favorece una nueva cetoacidosis en horas."),
-   ], pregunta="¿Cómo se hace la transición de la insulina?", tema=T7, comp="tto", refs=["r1"], lab=("Controles a las 14 horas", [("ph", 7.34), ("hco3", 20), ("bhb", 0.4), ("glucosa", 180), ("potasio", 4.3)]),
+   ], pregunta="¿Cómo se hace la transición de la insulina?", tema=T7, comp="tto", refs=["rp", "r1"], lab=("Controles a las 14 horas", [("ph", 7.34), ("hco3", 20), ("bhb", 0.4), ("glucosa", 180), ("potasio", 4.3)]),
    ayuda={"especialista": "endo", "pertinentes": ["endo"], "n1": "Se cumplen criterios de resolución. ¿Cómo evitas el rebote de la cetosis al cambiar de vía?", "n2": "Superpón la insulina subcutánea y la endovenosa un tiempo antes de suspenderla."}),
   "n7": N("La paciente está estable, con tolerancia oral y transición completada. Hay que cerrar el episodio abordando el desencadenante y la causa de la omisión de la insulina.",
     {"Glucemia": "estable", "Vía oral": "tolera", "PA": "112/70 mmHg", "Estado": "alerta"}, 0, "diagnostica", 1, [
@@ -102,7 +103,7 @@ c = {
     D("Indicar insulina a dosis fija sin vigilar la glucemia en casa, para simplificar el tratamiento y mejorar la adherencia", "i", "f_regular", "La insulina requiere monitoreo de la glucemia; sin él aumenta el riesgo de hipoglucemia o de nueva descompensación."),
     D("Indicar una dieta estricta muy baja en carbohidratos para reducir la necesidad de insulina y evitar nuevas descompensaciones", "i", "f_regular", "Una dieta muy restrictiva sin insulina suficiente puede favorecer la cetosis; la insulina no se sustituye con dieta."),
     D("Suspender la insulina basal en casa si la glucemia es normal durante las siguientes semanas, para evitar hipoglucemias", "p", "f_adverso", "En diabetes tipo 1 no se suspende la insulina basal: favorece una nueva cetoacidosis."),
-   ], pregunta="¿Cuál es el plan final?", tema=T8, comp="dis", refs=["r1"],
+   ], pregunta="¿Cuál es el plan final?", tema=T8, comp="dis", refs=["rp", "r1"],
    ayuda={"especialista": "endo", "pertinentes": ["endo"], "n1": "El episodio se resolvió, pero ¿por qué ocurrió y cómo evitas que se repita?", "n2": "Tratar el desencadenante, asegurar el acceso a la insulina y educar sobre días de enfermedad."}),
   "d1": N("Sin el manejo adecuado, la paciente queda con somnolencia profunda, respiración muy profunda y presión en descenso. Está gravemente deshidratada.",
     {"PA": "84/50 mmHg", "FC": "138 /min", "FR": "36 /min", "Conciencia": "somnolienta, respuesta lenta"}, 2, "critica", 3, [
@@ -111,7 +112,7 @@ c = {
     D("Administrar un bolo de insulina endovenosa sin conocer el potasio y reponer líquidos después, para corregir pronto la acidosis", "p", "f_fatal", "Insulina sin conocer el potasio en una paciente deshidratada puede provocar una arritmia mortal."),
     D("Dar sedantes para disminuir la ansiedad respiratoria y observar la evolución sin ampliar el estudio ni los líquidos", "p", "f_fatal", "Los sedantes en una respiración compensatoria de acidosis grave la deprimen y precipitan una falla respiratoria."),
     D("Trasladar a su domicilio con insulina rápida cada ocho horas porque la paciente refiere sentirse algo mejor en reposo", "i", "n2", "Una cetoacidosis grave no se maneja en casa: el alta es insegura."),
-   ], pregunta="¿Cuál es la conducta de rescate?", tema="Cetoacidosis diabética con deterioro hemodinámico", comp="seg", refs=["r1"], deterioro=True,
+   ], pregunta="¿Cuál es la conducta de rescate?", tema="Cetoacidosis diabética con deterioro hemodinámico", comp="seg", refs=["rp", "r1"], deterioro=True,
    ayuda={"especialista": "uci", "pertinentes": ["uci", "emerg"], "n1": "Hay deshidratación grave y acidosis profunda: ¿qué soporte y estudio no pueden esperar?", "n2": "Cuidados intensivos con líquidos, estudios con potasio y la insulina solo tras el potasio."}),
   "d2": N("Una hora después presenta palpitaciones, debilidad muscular marcada y, en el monitor, extrasístoles ventriculares frecuentes y una taquicardia ventricular no sostenida.",
     {"K⁺": "2,4 mmol/L", "ECG": "extrasístoles y TV no sostenida", "PA": "92/54 mmHg", "Estado": "inestable"}, 2, "critica", 3, [
@@ -120,7 +121,7 @@ c = {
     D("Reducir la insulina a la mitad y esperar la respuesta del ritmo cardíaco sin reponer potasio por vía endovenosa de inmediato", "i", "n4", "Sin reposición de potasio la arritmia puede persistir; reducir la insulina no basta.", omision=True),
     D("Administrar un bolo de bicarbonato para la arritmia y mantener la insulina para corregir pronto la acidosis metabólica", "p", "f_fatal", "El bicarbonato adicional y la insulina disminuyen aún más el potasio y empeoran la arritmia hasta un desenlace fatal."),
     D("Dar un antiarrítmico y mantener los líquidos sin potasio para evitar la sobrecarga mientras se observa la evolución del monitor", "i", "n4", "El antiarrítmico sin corregir el potasio es ineficaz; la causa es la hipopotasemia."),
-   ], pregunta="¿Cuál es la conducta de rescate?", tema="Hipopotasemia y arritmias", comp="seg", refs=["r1"], deterioro=True, lab=("Control urgente", [("potasio", 2.4)]),
+   ], pregunta="¿Cuál es la conducta de rescate?", tema="Hipopotasemia y arritmias", comp="seg", refs=["rp", "r1"], deterioro=True, lab=("Control urgente", [("potasio", 2.4)]),
    ayuda={"especialista": "uci", "pertinentes": ["uci", "nefro"], "n1": "Arritmias con potasio muy bajo tras la insulina: ¿qué corriges y qué suspendes?", "n2": "Repón potasio con monitoreo, suspende la insulina y trata en cuidados intensivos."}),
   "f_bueno": F("bueno", "Buen desenlace", "Se resolvió la cetoacidosis con seguridad, se trató el desencadenante y se resolvió el acceso a la insulina."),
   "f_regular": F("regular", "Resolución con riesgo de recurrencia", "El episodio se resolvió, pero el plan posterior deja riesgo de recaída."),
@@ -141,7 +142,7 @@ c = {
   "tratamiento": [
    {"item": "Líquidos", "detalle": "Cristaloide isotónico endovenoso con reevaluación; añadir dextrosa cuando la glucosa baje a cifras de 200–250 mg/dL.", "dosis": "Volumen y velocidad según protocolo institucional y estado hemodinámico; no se fija aquí."},
    {"item": "Potasio", "detalle": "Reponer si el potasio es bajo y retrasar la insulina si es menor de 3,5 mmol/L; mantener un potasio objetivo de 4–5 mmol/L (confirmar en el protocolo vigente).", "dosis": "Según protocolo, con monitorización."},
-   {"item": "Insulina", "detalle": "Infusión endovenosa continua hasta resolver la cetosis; pasar a insulina subcutánea con superposición.", "dosis": "La dosis habitual de referencia es 0,1 U/kg/h; confirma en el protocolo institucional vigente."},
+   {"item": "Insulina", "detalle": "Infusión endovenosa continua hasta resolver la cetosis; pasar a insulina subcutánea con superposición.", "dosis": "Guía MINSA (RM 389-2023, diabetes tipo 2): infusión continua de insulina regular de 0,1 U/kg/h (con un bolo previo de 0,1 U/kg según la guía), reducida a 0,05 U/kg/h con dextrosa al 5 % al llegar a 250 mg/dL; confirma en el protocolo vigente."},
    {"item": "Bicarbonato", "detalle": "No se usa de rutina; reservado para acidosis muy grave según protocolo.", "dosis": "No aplica."},
    {"item": "Prevención", "detalle": "Tratar el desencadenante, resolver el acceso a la insulina y educar sobre el manejo de los días de enfermedad.", "dosis": "No aplica."}],
   "temas_relacionados": ["Cetoacidosis diabética", "Trastornos del potasio", "Diabetes tipo 1 y días de enfermedad"],

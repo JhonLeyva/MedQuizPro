@@ -35,6 +35,21 @@
  ],
  "referencias": [
   {
+   "id": "rp",
+   "tipo": "norma",
+   "titulo": "Norma Técnica de Salud para la Prevención y Control de la Tuberculosis, NTS N° 221-MINSA/DGIESP-2024 (RM 894-2024-MINSA)",
+   "organismo": "Ministerio de Salud del Perú",
+   "autores": "MINSA / DGIESP / Dirección de Prevención y Control de Tuberculosis",
+   "anio": 2024,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.gob.pe/institucion/minsa/informes-publicaciones/6873271-norma-tecnica-de-salud-para-la-prevencion-y-control-de-la-tuberculosis",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Norma nacional vigente según gob.pe (publicación 2025). No fija el momento de inicio del antirretroviral en la coinfección ni el manejo del IRIS: eso corresponde a la norma de VIH (NTS 169-MINSA/2020/DGIESP, RM 1024-2020), que no se leyó.",
+   "recomendacion": "Toda persona con TB debe tener tamizaje de VIH con consejería; las reactivas se refieren al programa de VIH; toda persona con coinfección TB-VIH recibe terapia preventiva con cotrimoxazol sin importar el CD4; en personas con VIH avanzado (CD4 < 100 en ambulatorios o < 200 hospitalizados) se indica la prueba TB-LAM en orina; el diagnóstico usa prueba molecular rápida, baciloscopía y cultivo."
+  },
+  {
    "id": "r1",
    "tipo": "ensayo",
    "titulo": "Timing of initiation of antiretroviral drugs during tuberculosis therapy (SAPIT)",
@@ -81,7 +96,7 @@
   }
  ],
  "discrepancias": [
-  "No se pudo consultar en esta sesión el texto de las normas peruanas vigentes de tuberculosis y de VIH (MINSA) ni de la OMS; los esquemas, la profilaxis y los criterios exactos deben tomarse de ellas. El caso se apoya en tres ensayos clínicos verificados en PubMed, no en una guía. El inicio del antirretroviral en tuberculosis meníngea o criptococosis tiene excepciones que no se tratan aquí.",
+  "Se leyó la norma peruana de TB (NTS 221-MINSA/DGIESP-2024), que respalda el tamizaje de VIH, el cotrimoxazol y el diagnóstico molecular, pero no trae el momento de inicio del antirretroviral ni el manejo del IRIS (norma de VIH NTS 169-2020, no leída) ni se consultó la OMS; los esquemas, la profilaxis y los criterios exactos deben tomarse de ellas. El caso se apoya en tres ensayos clínicos verificados en PubMed, no en una guía. El inicio del antirretroviral en tuberculosis meníngea o criptococosis tiene excepciones que no se tratan aquí.",
   "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; el carácter del CD4 como umbral proviene del ensayo citado."
  ],
  "inicio": "n1",
@@ -118,6 +133,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -130,6 +146,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -142,6 +159,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -155,6 +173,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -167,6 +186,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r2"
      ]
     }
@@ -203,6 +223,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -215,6 +236,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -227,6 +249,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -240,6 +263,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -252,6 +276,7 @@
      "tema": "Sospecha de tuberculosis en inmunosupresión avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     }
@@ -408,6 +433,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -420,6 +446,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -432,6 +459,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -445,6 +473,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -457,6 +486,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     }
@@ -494,6 +524,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -506,6 +537,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -519,6 +551,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -531,6 +564,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -543,6 +577,7 @@
      "tema": "Inicio del tratamiento antituberculoso",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r2"
      ]
     }
@@ -960,6 +995,7 @@
      "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -972,6 +1008,7 @@
      "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -985,6 +1022,7 @@
      "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -997,6 +1035,7 @@
      "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1009,6 +1048,7 @@
      "tema": "Adherencia y seguimiento del paciente con VIH y tuberculosis",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1047,6 +1087,7 @@
      "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -1059,6 +1100,7 @@
      "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -1071,6 +1113,7 @@
      "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -1084,6 +1127,7 @@
      "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     },
@@ -1096,6 +1140,7 @@
      "tema": "Insuficiencia respiratoria por tuberculosis avanzada",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r2"
      ]
     }

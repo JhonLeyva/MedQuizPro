@@ -37,6 +37,21 @@
  "imagenes": [],
  "referencias": [
   {
+   "id": "rp",
+   "tipo": "guia",
+   "titulo": "Guía de práctica clínica para el reconocimiento y el manejo inicial de sepsis en adultos (GPC N° 15, versión corta)",
+   "organismo": "EsSalud, Instituto de Evaluación de Tecnologías en Salud e Investigación (IETSI)",
+   "autores": "IETSI, EsSalud",
+   "anio": 2018,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.essalud.gob.pe/ietsi/pdfs/guias/GPC_Sepsis_Version_corta.pdf",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de 2018 sobre sepsis en general (no sobre colangitis); anterior a la Surviving Sepsis Campaign 2021.",
+   "recomendacion": "Antibiótico endovenoso antes de la primera hora desde la sospecha, con al menos dos hemocultivos sin retrasarlo; cristaloides 30 mL/kg; dosar el lactato; noradrenalina como vasopresor de primera elección para PAM ≥ 65 mmHg."
+  },
+  {
    "id": "r1",
    "tipo": "guia",
    "titulo": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos)",
@@ -98,7 +113,7 @@
   }
  ],
  "discrepancias": [
-  "Las Guías de Tokio 2018 y la Surviving Sepsis Campaign 2021 son internacionales; no se identificó en esta consulta una norma peruana (MINSA/EsSalud) específica para colangitis aguda, por lo que se aplican las internacionales. La disponibilidad de CPRE y los patrones locales de resistencia pueden modificar la elección práctica: sigue el protocolo de tu institución.",
+  "Las Guías de Tokio 2018 y la Surviving Sepsis Campaign 2021 son internacionales; no se halló una norma peruana específica de colangitis aguda; para la fase de sepsis se añade la guía de EsSalud (GPC N° 15, 2018) y para el drenaje biliar se aplican las Guías de Tokio. La disponibilidad de CPRE y los patrones locales de resistencia pueden modificar la elección práctica: sigue el protocolo de tu institución.",
   "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."
  ],
  "inicio": "n1",
@@ -135,6 +150,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -148,6 +164,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -161,6 +178,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -174,6 +192,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -188,6 +207,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -235,6 +255,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -248,6 +269,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -262,6 +284,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -275,6 +298,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
@@ -288,6 +312,7 @@
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]

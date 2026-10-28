@@ -41,6 +41,21 @@
  "imagenes": [],
  "referencias": [
   {
+   "id": "rp",
+   "tipo": "guia",
+   "titulo": "Guía de práctica clínica para el reconocimiento y el manejo inicial de sepsis en adultos (GPC N° 15, versión corta)",
+   "organismo": "EsSalud, Instituto de Evaluación de Tecnologías en Salud e Investigación (IETSI)",
+   "autores": "IETSI, EsSalud",
+   "anio": 2018,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.essalud.gob.pe/ietsi/pdfs/guias/GPC_Sepsis_Version_corta.pdf",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de 2018, anterior a la Surviving Sepsis Campaign 2021; puede estar desactualizada. No se confirmó el número de la resolución del IETSI.",
+   "recomendacion": "Antibiótico endovenoso antes de la primera hora desde la sospecha, con al menos dos hemocultivos sin retrasarlo; cristaloides 30 mL/kg; dosar el lactato; el choque séptico es la sepsis que requiere vasopresor para PAM ≥ 65 mmHg con lactato ≥ 2 mmol/L; noradrenalina como vasopresor de primera elección, idealmente por vía central."
+  },
+  {
    "id": "r1",
    "tipo": "guia",
    "titulo": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021",
@@ -72,7 +87,7 @@
   }
  ],
  "discrepancias": [
-  "La guía Surviving Sepsis Campaign 2021 es internacional; no se consultó una norma peruana (MINSA/EsSalud) de sepsis. Las recomendaciones de líquidos y corticoides son sugerencias de grado débil: la práctica local puede variar. El umbral exacto de dosis de vasopresor para el corticoide y las recomendaciones de soporte respiratorio no se verificaron en esta sesión, por lo que el caso no fija cifras de ventilación.",
+  "La guía Surviving Sepsis Campaign 2021 es internacional; la guía peruana de EsSalud (GPC N° 15, 2018) coincide en antibiótico en la primera hora, cristaloides 30 mL/kg, lactato y noradrenalina de primera elección, pero es anterior a la edición 2021 y no se halló una guía del MINSA. Las recomendaciones de líquidos y corticoides son sugerencias de grado débil: la práctica local puede variar. El umbral exacto de dosis de vasopresor para el corticoide y las recomendaciones de soporte respiratorio no se verificaron en esta sesión, por lo que el caso no fija cifras de ventilación.",
   "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; en altitud la PaO₂ y la saturación de referencia son menores."
  ],
  "inicio": "n1",
@@ -109,6 +124,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -122,6 +138,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -134,6 +151,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -146,6 +164,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -158,6 +177,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -205,6 +225,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -217,6 +238,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -229,6 +251,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -241,6 +264,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -254,6 +278,7 @@
      "tema": "Reconocimiento y manejo inicial de la sepsis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }

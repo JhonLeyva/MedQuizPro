@@ -39,6 +39,21 @@
  ],
  "referencias": [
   {
+   "id": "rp",
+   "tipo": "guia",
+   "titulo": "Guía de práctica clínica para el diagnóstico y tratamiento de la etapa aguda del ataque cerebrovascular isquémico (GPC N° 19, versión corta)",
+   "organismo": "EsSalud, Instituto de Evaluación de Tecnologías en Salud e Investigación (IETSI)",
+   "autores": "IETSI, EsSalud (grupo elaborador con participación de hospitales de EsSalud y del MINSA)",
+   "anio": 2018,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.essalud.gob.pe/ietsi/pdfs/guias/GPC_Ataque_Cerebrovascular_vers_corta.pdf",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de 2018 (GRADE); es anterior a la actualización AHA/ASA 2026 y a los ensayos de tenecteplasa, por lo que puede estar desactualizada. No se confirmó el número de la resolución del IETSI.",
+   "recomendacion": "Imagen cerebral prioritaria (antes de 25 min e interpretada antes de 45 min desde la llegada); rTPA endovenoso dentro de las 4,5 horas del inicio en pacientes elegibles (0,9 mg/kg, máximo 90 mg); trombectomía mecánica dentro de las 6 horas o entre 6 y 24 horas en oclusión de vaso grande proximal, según disponibilidad; presión arterial menor de 185/110 mmHg antes de la reperfusión y menor de 180/105 mmHg las primeras 24 horas."
+  },
+  {
    "id": "r1",
    "tipo": "guia",
    "titulo": "Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines",
@@ -85,7 +100,7 @@
   }
  ],
  "discrepancias": [
-  "Las cifras de presión arterial provienen de la guía AHA/ASA 2019; la guía 2026 la reemplaza y su texto no se leyó en esta sesión, por lo que podrían haber cambiado. No se consultó una norma peruana (MINSA/EsSalud) de ictus. La disponibilidad de trombólisis y de trombectomía varía mucho entre centros del país: si no tienes trombectomía, la derivación temprana es parte de la decisión.",
+  "Las cifras de presión arterial provienen de la guía AHA/ASA 2019; la guía 2026 la reemplaza y su texto no se leyó en esta sesión, por lo que podrían haber cambiado. La guía peruana de EsSalud (GPC N° 19, 2018) coincide en la ventana de 4,5 horas, la imagen prioritaria y las cifras de presión arterial 185/110 y 180/105; es anterior a la guía AHA/ASA 2026 y no se halló una guía del MINSA. La disponibilidad de trombólisis y de trombectomía varía mucho entre centros del país: si no tienes trombectomía, la derivación temprana es parte de la decisión.",
   "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."
  ],
  "inicio": "n1",
@@ -122,6 +137,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -135,6 +151,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -147,6 +164,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -159,6 +177,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -171,6 +190,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -208,6 +228,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -221,6 +242,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -233,6 +255,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -245,6 +268,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -257,6 +281,7 @@
      "tema": "Código ictus y ventana terapéutica",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -295,6 +320,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -307,6 +333,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -319,6 +346,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -332,6 +360,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -344,6 +373,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -381,6 +411,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -393,6 +424,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -405,6 +437,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -417,6 +450,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -430,6 +464,7 @@
      "tema": "Elección de la neuroimagen en el ictus agudo",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -472,6 +507,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -484,6 +520,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -496,6 +533,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -508,6 +546,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -520,6 +559,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -557,6 +597,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -569,6 +610,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -581,6 +623,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -593,6 +636,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -606,6 +650,7 @@
      "tema": "Interpretación de la neuroimagen del ictus",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -666,6 +711,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1",
       "r2",
       "r3"
@@ -680,6 +726,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1",
       "r2",
       "r3"
@@ -694,6 +741,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1",
       "r2",
       "r3"
@@ -708,6 +756,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1",
       "r2",
       "r3"
@@ -722,6 +771,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1",
       "r2",
       "r3"
@@ -761,6 +811,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -773,6 +824,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -785,6 +837,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -797,6 +850,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -809,6 +863,7 @@
      "tema": "Reperfusión: trombólisis y trombectomía",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -846,6 +901,7 @@
      "tema": "Cuidados tras la reperfusión",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -858,6 +914,7 @@
      "tema": "Cuidados tras la reperfusión",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -870,6 +927,7 @@
      "tema": "Cuidados tras la reperfusión",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -882,6 +940,7 @@
      "tema": "Cuidados tras la reperfusión",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -895,6 +954,7 @@
      "tema": "Cuidados tras la reperfusión",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -949,6 +1009,7 @@
      "tema": "Control a las 24 horas y antitrombóticos",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -961,6 +1022,7 @@
      "tema": "Control a las 24 horas y antitrombóticos",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -974,6 +1036,7 @@
      "tema": "Control a las 24 horas y antitrombóticos",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -986,6 +1049,7 @@
      "tema": "Control a las 24 horas y antitrombóticos",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -998,6 +1062,7 @@
      "tema": "Control a las 24 horas y antitrombóticos",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1034,6 +1099,7 @@
      "tema": "Prevención secundaria y rehabilitación",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1047,6 +1113,7 @@
      "tema": "Prevención secundaria y rehabilitación",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1059,6 +1126,7 @@
      "tema": "Prevención secundaria y rehabilitación",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1071,6 +1139,7 @@
      "tema": "Prevención secundaria y rehabilitación",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1083,6 +1152,7 @@
      "tema": "Prevención secundaria y rehabilitación",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1122,6 +1192,7 @@
      "tema": "Ictus fuera de ventana de trombólisis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1134,6 +1205,7 @@
      "tema": "Ictus fuera de ventana de trombólisis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1146,6 +1218,7 @@
      "tema": "Ictus fuera de ventana de trombólisis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1158,6 +1231,7 @@
      "tema": "Ictus fuera de ventana de trombólisis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1171,6 +1245,7 @@
      "tema": "Ictus fuera de ventana de trombólisis",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1210,6 +1285,7 @@
      "tema": "Hemorragia sintomática tras la reperfusión",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1222,6 +1298,7 @@
      "tema": "Hemorragia sintomática tras la reperfusión",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1234,6 +1311,7 @@
      "tema": "Hemorragia sintomática tras la reperfusión",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1247,6 +1325,7 @@
      "tema": "Hemorragia sintomática tras la reperfusión",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1259,6 +1338,7 @@
      "tema": "Hemorragia sintomática tras la reperfusión",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1345,7 +1425,7 @@
    {
     "item": "Trombólisis endovenosa",
     "detalle": "En pacientes elegibles dentro de la ventana, tras descartar hemorragia y verificar contraindicaciones; alteplasa o tenecteplasa según protocolo.",
-    "dosis": "Dosis por peso según el fármaco y el protocolo institucional (no se fija aquí)."
+    "dosis": "Guía de EsSalud 2018 (rTPA): 0,9 mg/kg, máximo 90 mg, 10 % en bolo durante 1 minuto y el resto en 60 minutos. Con tenecteplasa u otro fármaco, sigue el protocolo institucional."
    },
    {
     "item": "Trombectomía mecánica",

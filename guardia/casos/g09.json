@@ -37,6 +37,21 @@
  "imagenes": [],
  "referencias": [
   {
+   "id": "rp",
+   "tipo": "guia",
+   "titulo": "Guía técnica: guía de práctica clínica de diagnóstico y tratamiento de la diabetes mellitus no insulinodependiente (tipo 2) con cetoacidosis, estado hiperglicémico hiperosmolar y estado mixto (RM 389-2023-MINSA, 19 de abril de 2023)",
+   "organismo": "Ministerio de Salud del Perú",
+   "autores": "MINSA",
+   "anio": 2023,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.gob.pe/institucion/minsa/normas-legales/4147228-389-2023-minsa",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía nacional según gob.pe, para adultos con diabetes tipo 2; el caso es diabetes tipo 1. El PDF es un escaneo leído con OCR: contrasta con el original.",
+   "recomendacion": "Hidratación inicial con solución salina 0,9 %; medir glucosa y potasio sérico antes de iniciar la insulina, que se da tras al menos 2 horas de hidratación; infusión continua de insulina regular 0,1 U/kg/h; la insulina puede iniciarse con potasio corregido mayor de 3,3 mEq/L; no se usa bicarbonato de rutina; se baja la insulina y se añade dextrosa al 5 % cuando la glucosa llega a 250 mg/dL o menos; la resolución se define por pH mayor de 7,3, glucosa menor de 200 mg/dL y bicarbonato ≥ 18 mEq/L o brecha aniónica ≤ 12; la transición a insulina subcutánea se hace al resolverse la crisis y tolerar la vía oral."
+  },
+  {
    "id": "r1",
    "tipo": "consenso",
    "titulo": "Hyperglycemic Crises in Adults With Diabetes: A Consensus Report",
@@ -53,7 +68,7 @@
   }
  ],
  "discrepancias": [
-  "Los umbrales de potasio y las dosis varían entre versiones y sociedades (por ejemplo, entre ADA 2009, JBDS 2021 y el consenso 2024). Este caso usa un umbral de potasio de 3,5 mmol/L para demorar la insulina, valor usado en el consenso 2024; su texto completo no se verificó en esta sesión: confirma en el protocolo vigente. No se consultó una norma peruana (MINSA/EsSalud).",
+  "Los umbrales de potasio y las dosis varían entre versiones y sociedades (por ejemplo, entre ADA 2009, JBDS 2021 y el consenso 2024). Este caso usa un umbral de potasio de 3,5 mmol/L para demorar la insulina, valor usado en el consenso 2024; su texto completo no se verificó en esta sesión: confirma en el protocolo vigente. La guía peruana (RM 389-2023-MINSA, para diabetes tipo 2, leída por OCR) usa un umbral de potasio corregido de 3,3 mEq/L para iniciar la insulina frente a los 3,5 mmol/L de este caso (consenso ADA 2024): ambas coinciden en reponer el potasio antes de la insulina.",
   "El umbral de pH para considerar bicarbonato (pH < 7,0) y el sodio corregido por glucosa son criterios usados en la práctica que no se verificaron en texto completo en esta sesión. Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."
  ],
  "inicio": "n1",
@@ -105,6 +120,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -117,6 +133,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -129,6 +146,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -141,6 +159,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -154,6 +173,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -192,6 +212,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -204,6 +225,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -216,6 +238,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -228,6 +251,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -240,6 +264,7 @@
      "tema": "Cetoacidosis diabética: evaluación inicial",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -332,6 +357,7 @@
      "tema": "Interpretación de la gasometría y los electrolitos",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -344,6 +370,7 @@
      "tema": "Interpretación de la gasometría y los electrolitos",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -356,6 +383,7 @@
      "tema": "Interpretación de la gasometría y los electrolitos",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -368,6 +396,7 @@
      "tema": "Interpretación de la gasometría y los electrolitos",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -381,6 +410,7 @@
      "tema": "Interpretación de la gasometría y los electrolitos",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -419,6 +449,7 @@
      "tema": "Uso del bicarbonato en la cetoacidosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -431,6 +462,7 @@
      "tema": "Uso del bicarbonato en la cetoacidosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -444,6 +476,7 @@
      "tema": "Uso del bicarbonato en la cetoacidosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -456,6 +489,7 @@
      "tema": "Uso del bicarbonato en la cetoacidosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -468,6 +502,7 @@
      "tema": "Uso del bicarbonato en la cetoacidosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -516,6 +551,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -528,6 +564,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -541,6 +578,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -553,6 +591,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -565,6 +604,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -603,6 +643,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -616,6 +657,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -628,6 +670,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -640,6 +683,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -652,6 +696,7 @@
      "tema": "Potasio antes de la insulina",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -703,6 +748,7 @@
      "tema": "Inicio y mantenimiento de la insulina",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -715,6 +761,7 @@
      "tema": "Inicio y mantenimiento de la insulina",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -727,6 +774,7 @@
      "tema": "Inicio y mantenimiento de la insulina",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -740,6 +788,7 @@
      "tema": "Inicio y mantenimiento de la insulina",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -752,6 +801,7 @@
      "tema": "Inicio y mantenimiento de la insulina",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -811,6 +861,7 @@
      "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -823,6 +874,7 @@
      "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -836,6 +888,7 @@
      "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -848,6 +901,7 @@
      "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -860,6 +914,7 @@
      "tema": "Insulina, glucosa y resolución de la cetosis",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -922,6 +977,7 @@
      "tema": "Transición a insulina subcutánea",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -934,6 +990,7 @@
      "tema": "Transición a insulina subcutánea",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -946,6 +1003,7 @@
      "tema": "Transición a insulina subcutánea",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -958,6 +1016,7 @@
      "tema": "Transición a insulina subcutánea",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -971,6 +1030,7 @@
      "tema": "Transición a insulina subcutánea",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1007,6 +1067,7 @@
      "tema": "Desencadenante, educación y alta",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1020,6 +1081,7 @@
      "tema": "Desencadenante, educación y alta",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1032,6 +1094,7 @@
      "tema": "Desencadenante, educación y alta",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1044,6 +1107,7 @@
      "tema": "Desencadenante, educación y alta",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1056,6 +1120,7 @@
      "tema": "Desencadenante, educación y alta",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1095,6 +1160,7 @@
      "tema": "Cetoacidosis diabética con deterioro hemodinámico",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1107,6 +1173,7 @@
      "tema": "Cetoacidosis diabética con deterioro hemodinámico",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1119,6 +1186,7 @@
      "tema": "Cetoacidosis diabética con deterioro hemodinámico",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1131,6 +1199,7 @@
      "tema": "Cetoacidosis diabética con deterioro hemodinámico",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1143,6 +1212,7 @@
      "tema": "Cetoacidosis diabética con deterioro hemodinámico",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1191,6 +1261,7 @@
      "tema": "Hipopotasemia y arritmias",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1203,6 +1274,7 @@
      "tema": "Hipopotasemia y arritmias",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1215,6 +1287,7 @@
      "tema": "Hipopotasemia y arritmias",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1227,6 +1300,7 @@
      "tema": "Hipopotasemia y arritmias",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1240,6 +1314,7 @@
      "tema": "Hipopotasemia y arritmias",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1332,7 +1407,7 @@
    {
     "item": "Insulina",
     "detalle": "Infusión endovenosa continua hasta resolver la cetosis; pasar a insulina subcutánea con superposición.",
-    "dosis": "La dosis habitual de referencia es 0,1 U/kg/h; confirma en el protocolo institucional vigente."
+    "dosis": "Guía MINSA (RM 389-2023, diabetes tipo 2): infusión continua de insulina regular de 0,1 U/kg/h (con un bolo previo de 0,1 U/kg según la guía), reducida a 0,05 U/kg/h con dextrosa al 5 % al llegar a 250 mg/dL; confirma en el protocolo vigente."
    },
    {
     "item": "Bicarbonato",

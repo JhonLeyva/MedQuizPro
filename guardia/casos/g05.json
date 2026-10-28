@@ -33,6 +33,21 @@
  "imagenes": [],
  "referencias": [
   {
+   "id": "rp",
+   "tipo": "norma",
+   "titulo": "Norma Técnica de Salud para la atención integral de pacientes con dengue en el Perú, NTS N° 211-MINSA/DGIESP-2024 (RM 175-2024-MINSA, 7 de marzo de 2024)",
+   "organismo": "Ministerio de Salud del Perú",
+   "autores": "MINSA / DGIESP",
+   "anio": 2024,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.gob.pe/institucion/minsa/normas-legales/5323501-175-2024-minsa",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Norma nacional según gob.pe; no se confirmó en esta consulta si fue modificada después de 2024.",
+   "recomendacion": "Dengue con signos de alarma (grupo B2): dolor abdominal intenso, vómitos persistentes, sangrado de mucosas, letargia, derrames, hepatomegalia o aumento progresivo del hematocrito; se atiende en menos de 30 minutos, se hospitaliza y se inicia la hidratación endovenosa sin esperar el hematocrito (adultos: cristaloide 10 mL/kg en 1 hora, con reevaluación horaria y diuresis como guía); se evitan antieméticos, antiálgicos y diuréticos en la fase crítica y los AINES y el ácido acetilsalicílico están contraindicados; el paracetamol es el antipirético."
+  },
+  {
    "id": "r1",
    "tipo": "guia",
    "titulo": "Evidence synthesis: guidelines for diagnosis and treatment of dengue, chikungunya, and zika in the Region of the Americas",
@@ -49,7 +64,7 @@
   }
  ],
  "discrepancias": [
-  "No se pudo consultar en esta sesión el texto completo de la guía OPS 2022 ni la norma técnica peruana vigente de dengue (MINSA); por eso el caso NO fija volúmenes ni velocidades de líquidos y usa solo principios generales de manejo (signos de alarma, reposición con cristaloides isotónicos guiada por reevaluación, evitar antiinflamatorios, vigilar la sobrecarga). Los volúmenes exactos varían entre guías nacionales: usa la norma vigente de tu país.",
+  "La norma peruana vigente (NTS 211-2024) se leyó en las secciones de signos de alarma e hidratación; del texto completo de la guía OPS 2022 solo se leyó el resumen. El caso no fija volúmenes en las decisiones y usa principios generales de manejo (signos de alarma, reposición con cristaloides isotónicos guiada por reevaluación, evitar antiinflamatorios, vigilar la sobrecarga). Los volúmenes exactos varían entre guías nacionales: usa la norma vigente de tu país.",
   "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; en el dengue el hematocrito se compara con el basal del propio paciente."
  ],
  "inicio": "n1",
@@ -87,6 +102,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -99,6 +115,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -111,6 +128,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -123,6 +141,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -135,6 +154,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -190,6 +210,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -203,6 +224,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -215,6 +237,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -227,6 +250,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -239,6 +263,7 @@
      "tema": "Dengue con signos de alarma",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -310,6 +335,7 @@
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -322,6 +348,7 @@
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -334,6 +361,7 @@
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -347,6 +375,7 @@
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -359,6 +388,7 @@
      "tema": "Fuga plasmática y monitoreo en la fase crítica",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -397,6 +427,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -409,6 +440,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -421,6 +453,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -434,6 +467,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -446,6 +480,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -501,6 +536,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -513,6 +549,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -525,6 +562,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -537,6 +575,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -550,6 +589,7 @@
      "tema": "Reposición de líquidos en la fase crítica",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -587,6 +627,7 @@
      "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -599,6 +640,7 @@
      "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -611,6 +653,7 @@
      "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -624,6 +667,7 @@
      "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -636,6 +680,7 @@
      "tema": "Manejo sintomático y fármacos que se evitan en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -696,6 +741,7 @@
      "tema": "Reevaluación y hemorragia en el dengue",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -708,6 +754,7 @@
      "tema": "Reevaluación y hemorragia en el dengue",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -720,6 +767,7 @@
      "tema": "Reevaluación y hemorragia en el dengue",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -732,6 +780,7 @@
      "tema": "Reevaluación y hemorragia en el dengue",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -744,6 +793,7 @@
      "tema": "Reevaluación y hemorragia en el dengue",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -799,6 +849,7 @@
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -811,6 +862,7 @@
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -824,6 +876,7 @@
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -836,6 +889,7 @@
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -848,6 +902,7 @@
      "tema": "Fase de recuperación y sobrecarga de líquidos",
      "competencia": "Tratamiento inicial",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -884,6 +939,7 @@
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -896,6 +952,7 @@
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -908,6 +965,7 @@
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -921,6 +979,7 @@
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -933,6 +992,7 @@
      "tema": "Criterios de alta en dengue",
      "competencia": "Disposición y seguimiento",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -993,6 +1053,7 @@
      "tema": "Choque con hemorragia en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1005,6 +1066,7 @@
      "tema": "Choque con hemorragia en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1018,6 +1080,7 @@
      "tema": "Choque con hemorragia en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1030,6 +1093,7 @@
      "tema": "Choque con hemorragia en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     },
@@ -1042,6 +1106,7 @@
      "tema": "Choque con hemorragia en el dengue",
      "competencia": "Seguridad del paciente",
      "refs": [
+      "rp",
       "r1"
      ]
     }
@@ -1123,7 +1188,7 @@
    {
     "item": "Hidratación",
     "detalle": "Cristaloide isotónico endovenoso con reevaluación frecuente; bolos rápidos solo en choque.",
-    "dosis": "No se fijan volúmenes ni velocidades: dependen de la guía nacional vigente y de la respuesta clínica y del hematocrito."
+    "dosis": "NTS 211-MINSA/DGIESP-2024 (grupo B2, adultos): cristaloide 10 mL/kg en 1 hora y reevaluación horaria; si mejora, 5–7, luego 3–5 y luego 2–4 mL/kg/h según diuresis (> 1 mL/kg/h); si no mejora se repite la carga hasta tres veces y luego se maneja como dengue grave. Confirma en la norma vigente."
    },
    {
     "item": "Analgesia y antipirético",
