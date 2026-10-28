@@ -1,0 +1,828 @@
+{
+ "id": "c02",
+ "modalidad": "consulta",
+ "titulo": "Fiebre y llanto al orinar en una niña de 20 meses",
+ "especialidad": "Pediatría · Nefrología pediátrica",
+ "dificultad": 2,
+ "duracion_min": 18,
+ "areas_banco": [
+  "pediatria",
+  "nefrologia"
+ ],
+ "resumen": "Consulta pediátrica ambulatoria por fiebre de dos días en una niña pequeña. Realiza la anamnesis con la madre y el examen, solicita pruebas con criterio, interpreta los resultados y decide tratamiento y seguimiento.",
+ "contexto": "Consultorio pediátrico de un hospital con laboratorio, ecografía y cirugía/nefrología pediátrica de referencia.",
+ "paciente": {
+  "edad": 1.67,
+  "edad_texto": "20 meses",
+  "sexo": "F",
+  "embarazo": false
+ },
+ "motivo": "La madre dice: «Mi niña tiene fiebre desde hace dos días y llora cuando hace pipí.»",
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "Urinary tract infection: clinical practice guideline for the diagnosis and management of the initial UTI in febrile infants and children 2 to 24 months",
+   "organismo": "American Academy of Pediatrics (Subcommittee on Urinary Tract Infection)",
+   "autores": "Subcommittee on Urinary Tract Infection, Steering Committee on Quality Improvement and Management, Roberts KB",
+   "anio": 2011,
+   "version": "",
+   "pmid": "21873693",
+   "doi": "10.1542/peds.2011-1330",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de 2011 (reafirmada posteriormente por la AAP, no verificado aquí); puede haber guías más recientes no consultadas.",
+   "recomendacion": "El diagnóstico exige piuria y al menos 50 000 UFC/mL de un uropatógeno en una muestra bien recolectada; se trata 7 a 14 días; se hace ecografía renal y vesical tras la primera ITU febril; la cistouretrografía no es rutinaria tras la primera ITU y no se apoya la profilaxis antibiótica en niños sin reflujo o con reflujo de grado I a IV."
+  }
+ ],
+ "discrepancias": [
+  "La guía AAP 2011 cubre a lactantes y niños de 2 a 24 meses con fiebre: la paciente (20 meses) está dentro de ese rango. Se buscó una guía peruana de infección urinaria pediátrica en gob.pe, EsSalud/IETSI y los institutos pediátricos, y solo se hallaron guías de adultos, de gestantes y de ITU no complicada de EsSalud (adultas): no aplican a esta paciente. Los antibióticos y sus dosis dependen del peso, el antibiograma local y el protocolo institucional: no se fijan aquí.",
+  "El catálogo de laboratorio es de adultos: para esta paciente no inventa intervalos pediátricos y lo indica en cada resultado."
+ ],
+ "anamnesis": [
+  {
+   "categoria": "Enfermedad actual",
+   "preguntas": [
+    {
+     "id": "a1",
+     "texto": "¿Desde cuándo tiene fiebre y cuánto llega a subir?",
+     "respuesta": "Dos días, hasta 39 °C aunque le doy paracetamol.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a2",
+     "texto": "¿Tiene tos, mocos, dolor de oído o dificultad para respirar?",
+     "respuesta": "No tose, no tiene mocos y no se jala las orejas.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a3",
+     "texto": "¿Cómo orina? ¿Hay cambios en el olor, la frecuencia o el llanto?",
+     "respuesta": "Orina poquito y varias veces, llora al orinar y el pañal huele fuerte.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a4",
+     "texto": "¿Ha tenido vómitos o diarrea?",
+     "respuesta": "Un vómito ayer; no ha tenido diarrea.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a5",
+     "texto": "¿Cómo toma líquidos y cuántos pañales moja al día?",
+     "respuesta": "Toma menos de lo habitual pero moja unos cuatro o cinco pañales.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a6",
+     "texto": "¿Está irritable, decaída o somnolienta?",
+     "respuesta": "Está irritable pero reacciona y juega un poco.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a7",
+     "texto": "¿Le ha salido alguna erupción en la piel?",
+     "respuesta": "No ha tenido ninguna erupción.",
+     "relevancia": "baja"
+    }
+   ]
+  },
+  {
+   "categoria": "Antecedentes pertinentes",
+   "preguntas": [
+    {
+     "id": "a8",
+     "texto": "¿Es la primera vez que tiene una infección de orina?",
+     "respuesta": "Es la primera vez que tiene fiebre sin causa clara.",
+     "relevancia": "clave"
+    },
+    {
+     "id": "a9",
+     "texto": "¿Cómo fueron las ecografías del embarazo y el desarrollo desde que nació?",
+     "respuesta": "Los controles fueron normales y nació a término.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a10",
+     "texto": "¿Ha tomado antibióticos en las últimas semanas?",
+     "respuesta": "No ha tomado antibióticos.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a11",
+     "texto": "¿Tiene estreñimiento o ya controla esfínteres?",
+     "respuesta": "Usa pañal y evacúa a diario, sin estreñimiento.",
+     "relevancia": "util"
+    },
+    {
+     "id": "a12",
+     "texto": "¿Tiene sus vacunas al día?",
+     "respuesta": "Sí, tiene todas las vacunas de su edad.",
+     "relevancia": "baja"
+    }
+   ]
+  }
+ ],
+ "antecedentes": [
+  {
+   "id": "h1",
+   "nombre": "Perinatales",
+   "texto": "Parto a término, peso adecuado, sin hospitalizaciones previas.",
+   "relevancia": "util"
+  },
+  {
+   "id": "h2",
+   "nombre": "Antecedentes de infecciones",
+   "texto": "Sin infecciones urinarias previas conocidas; resfríos ocasionales.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "h3",
+   "nombre": "Familiares",
+   "texto": "Una prima con reflujo vesicoureteral tratada en la infancia.",
+   "relevancia": "util"
+  },
+  {
+   "id": "h4",
+   "nombre": "Alergias y medicación",
+   "texto": "Sin alergias conocidas. Recibe solo paracetamol por la fiebre.",
+   "relevancia": "baja"
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "region": "General",
+   "maniobra": "Signos vitales y peso",
+   "hallazgo": "T 38,9 °C, FC 150 /min, FR 30 /min, SatO₂ 98 %. Peso 11 kg.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e2",
+   "region": "Hidratación",
+   "maniobra": "Estado de hidratación y perfusión",
+   "hallazgo": "Mucosas húmedas, llenado capilar menor de 2 segundos, sin signos de deshidratación.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e3",
+   "region": "Abdomen",
+   "maniobra": "Palpación abdominal y suprapúbica",
+   "hallazgo": "Blando; molestia a la palpación suprapúbica, sin masas ni visceromegalia.",
+   "relevancia": "clave"
+  },
+  {
+   "id": "e4",
+   "region": "Genitales",
+   "maniobra": "Inspección de genitales externos",
+   "hallazgo": "Eritema leve vulvar, sin sinequias labiales ni lesiones.",
+   "relevancia": "util"
+  },
+  {
+   "id": "e5",
+   "region": "Cabeza y cuello",
+   "maniobra": "Otoscopia y orofaringe",
+   "hallazgo": "Tímpanos normales y orofaringe sin exudados.",
+   "relevancia": "util"
+  },
+  {
+   "id": "e6",
+   "region": "Respiratorio",
+   "maniobra": "Auscultación pulmonar",
+   "hallazgo": "Murmullo vesicular normal, sin sibilancias ni crepitantes.",
+   "relevancia": "baja"
+  },
+  {
+   "id": "e7",
+   "region": "Neurológico",
+   "maniobra": "Estado de alerta y signos meníngeos",
+   "hallazgo": "Alerta, consolable, sin rigidez de nuca ni fontanela abombada.",
+   "relevancia": "util"
+  },
+  {
+   "id": "e8",
+   "region": "Lumbar",
+   "maniobra": "Puñopercusión lumbar",
+   "hallazgo": "Llora con la maniobra, sin localizar claramente el dolor.",
+   "relevancia": "baja"
+  }
+ ],
+ "hipotesis": {
+  "max": 3,
+  "opciones": [
+   {
+    "id": "d1",
+    "dx": "Infección urinaria febril (pielonefritis aguda)",
+    "tipo": "principal",
+    "nota": "Fiebre sin foco respiratorio u ótico, síntomas urinarios y molestia suprapúbica en una niña pequeña."
+   },
+   {
+    "id": "d2",
+    "dx": "Otitis media aguda",
+    "tipo": "diferencial",
+    "nota": "Causa frecuente de fiebre a esta edad, pero la otoscopia fue normal."
+   },
+   {
+    "id": "d3",
+    "dx": "Gastroenteritis aguda",
+    "tipo": "diferencial",
+    "nota": "Hubo un vómito, pero no hay diarrea ni deshidratación; no explica los síntomas urinarios."
+   },
+   {
+    "id": "d4",
+    "dx": "Infección viral de vías respiratorias",
+    "tipo": "diferencial",
+    "nota": "No hay tos ni mocos; no explica el llanto al orinar."
+   },
+   {
+    "id": "d5",
+    "dx": "Neumonía",
+    "tipo": "diferencial",
+    "nota": "Sin tos ni dificultad respiratoria y con auscultación normal."
+   },
+   {
+    "id": "d6",
+    "dx": "Apendicitis aguda",
+    "tipo": "distractor",
+    "nota": "Rara a esta edad y el abdomen no muestra signos de irritación peritoneal."
+   },
+   {
+    "id": "d7",
+    "dx": "Enfermedad de Kawasaki",
+    "tipo": "distractor",
+    "nota": "Requiere fiebre prolongada y otros criterios que aquí no están."
+   },
+   {
+    "id": "d8",
+    "dx": "Meningitis bacteriana",
+    "tipo": "distractor",
+    "nota": "Sin alteración del estado de alerta ni signos meníngeos."
+   }
+  ]
+ },
+ "pruebas": [
+  {
+   "id": "p1",
+   "categoria": "Orina",
+   "nombre": "Examen completo de orina (tira reactiva y sedimento)",
+   "clasificacion": "prioritaria",
+   "justificacion": "Es la prueba inicial para buscar piuria y nitritos en una niña febril sin foco claro.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Examen completo de orina",
+    "lab": [
+     {
+      "prueba": "orina_esterasa",
+      "valor": "positivo (+++)"
+     },
+     {
+      "prueba": "orina_nitritos",
+      "valor": "positivo"
+     },
+     {
+      "prueba": "orina_leucocitos",
+      "valor": 40,
+      "etiqueta": "Leucocitos en sedimento",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     },
+     {
+      "prueba": "orina_hematies",
+      "valor": 3,
+      "etiqueta": "Hematíes en sedimento",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     }
+    ]
+   },
+   "esencial": true,
+   "bloqueante": true,
+   "mensaje_bloqueo": "Sin un examen de orina no puedes confirmar ni descartar una infección urinaria en una niña febril sin otro foco: reconsidera los estudios de orina antes de diagnosticar.",
+   "cambia_conducta": "Muestra piuria y nitritos que orientan al diagnóstico y a iniciar el tratamiento.",
+   "tiempo_critico": true
+  },
+  {
+   "id": "p2",
+   "categoria": "Microbiología",
+   "nombre": "Urocultivo con muestra obtenida por cateterismo vesical o de chorro medio limpio",
+   "clasificacion": "prioritaria",
+   "justificacion": "El diagnóstico requiere piuria y un cultivo con al menos 50 000 UFC/mL de un uropatógeno en una muestra bien recolectada.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Urocultivo",
+    "lab": [
+     {
+      "prueba": "urocultivo",
+      "valor": "positivo: Escherichia coli ≥ 100 000 UFC/mL"
+     }
+    ]
+   },
+   "esencial": true,
+   "bloqueante": true,
+   "mensaje_bloqueo": "Sin un urocultivo de una muestra bien recolectada no hay confirmación del diagnóstico ni antibiograma: reconsidera pedirlo antes de decidir el tratamiento.",
+   "cambia_conducta": "Confirma el diagnóstico, identifica el germen y orienta el ajuste del antibiótico.",
+   "tiempo_critico": true
+  },
+  {
+   "id": "p3",
+   "categoria": "Hematología",
+   "nombre": "Hemograma completo",
+   "clasificacion": "razonable",
+   "justificacion": "Puede apoyar la gravedad de la infección, aunque no es imprescindible para el diagnóstico.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Hemograma",
+    "lab": [
+     {
+      "prueba": "leucocitos",
+      "valor": 18.2,
+      "etiqueta": "Leucocitos",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     },
+     {
+      "prueba": "hemoglobina",
+      "valor": 11.4,
+      "etiqueta": "Hemoglobina",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 360,
+      "etiqueta": "Plaquetas",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "categoria": "Inflamación",
+   "nombre": "Proteína C reactiva",
+   "clasificacion": "razonable",
+   "justificacion": "Un valor alto orienta a compromiso renal (pielonefritis) pero no confirma el diagnóstico ni cambia el tratamiento inicial.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "PCR",
+    "lab": [
+     {
+      "prueba": "pcr",
+      "valor": 6.8,
+      "etiqueta": "PCR",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "p5",
+   "categoria": "Bioquímica",
+   "nombre": "Creatinina sérica",
+   "clasificacion": "razonable",
+   "justificacion": "Valora la función renal basal ante una probable pielonefritis.",
+   "resultado": {
+    "tipo": "lab",
+    "titulo": "Creatinina",
+    "lab": [
+     {
+      "prueba": "creatinina",
+      "valor": 0.3,
+      "etiqueta": "Creatinina",
+      "ref": {
+       "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "p6",
+   "categoria": "Microbiología",
+   "nombre": "Hemocultivo",
+   "clasificacion": "razonable",
+   "justificacion": "Se considera en niños pequeños con aspecto enfermo; no es imprescindible en una niña bien hidratada y alerta.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Sin desarrollo bacteriano a las 48 horas."
+   }
+  },
+  {
+   "id": "p7",
+   "categoria": "Imagen",
+   "nombre": "Ecografía renal y vesical",
+   "clasificacion": "razonable",
+   "justificacion": "Se recomienda tras la primera infección urinaria febril para detectar anomalías anatómicas; no es una urgencia.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Ambos riñones de tamaño y ecogenicidad normales, sin hidronefrosis ni cicatrices; vejiga de paredes normales."
+   }
+  },
+  {
+   "id": "p8",
+   "categoria": "Microbiología",
+   "nombre": "Urocultivo con muestra de bolsa colectora",
+   "clasificacion": "innecesaria",
+   "justificacion": "La bolsa colectora da falsos positivos por contaminación y no sirve para confirmar el diagnóstico.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Resultado no interpretable: desarrollo mixto por contaminación."
+   }
+  },
+  {
+   "id": "p9",
+   "categoria": "Imagen",
+   "nombre": "Cistouretrografía miccional",
+   "clasificacion": "innecesaria",
+   "justificacion": "No se recomienda de rutina tras la primera infección urinaria; se reserva para hallazgos anormales en la ecografía o infecciones recurrentes.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: sin indicación tras una primera infección con ecografía normal."
+   }
+  },
+  {
+   "id": "p10",
+   "categoria": "Imagen",
+   "nombre": "Gammagrafía renal con DMSA",
+   "clasificacion": "innecesaria",
+   "justificacion": "No es necesaria en la fase aguda de una primera infección y expone a radiación sin cambiar el manejo inicial.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: sin indicación en la fase aguda."
+   }
+  },
+  {
+   "id": "p11",
+   "categoria": "Imagen",
+   "nombre": "Radiografía simple de abdomen",
+   "clasificacion": "innecesaria",
+   "justificacion": "No aporta al diagnóstico de infección urinaria y no cambia la conducta.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Patrón gaseoso inespecífico; sin relevancia para el caso."
+   }
+  },
+  {
+   "id": "p12",
+   "categoria": "Imagen",
+   "nombre": "Radiografía de tórax",
+   "clasificacion": "innecesaria",
+   "justificacion": "No hay síntomas ni signos respiratorios que justifiquen el estudio.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "Sin hallazgos; no justificaba la exposición a radiación."
+   }
+  },
+  {
+   "id": "p13",
+   "categoria": "Laboratorio",
+   "nombre": "Punción lumbar",
+   "clasificacion": "danina",
+   "justificacion": "Es un procedimiento invasivo sin indicación: la niña está alerta y sin signos meníngeos.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: procedimiento invasivo sin indicación clínica."
+   }
+  },
+  {
+   "id": "p14",
+   "categoria": "Imagen",
+   "nombre": "Tomografía abdominal con contraste",
+   "clasificacion": "danina",
+   "justificacion": "Expone a radiación y a contraste en una niña pequeña sin indicación; la ecografía es suficiente.",
+   "resultado": {
+    "tipo": "texto",
+    "texto": "No se realiza: radiación y contraste innecesarios en una niña pequeña."
+   }
+  }
+ ],
+ "preguntas": {
+  "interpretacion": {
+   "enunciado": "¿Cómo interpretas los resultados?",
+   "peso": 2,
+   "decisiones": [
+    {
+     "texto": "Bacteriuria asintomática por contaminación de la muestra, que no requiere tratamiento y se resolverá espontáneamente",
+     "calidad": "incorrecta",
+     "explicacion": "La niña tiene fiebre, síntomas y piuria con cultivo significativo en una muestra adecuada: no es una colonización.",
+     "id": "A",
+     "tema": "Interpretación del examen de orina y el urocultivo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Resultado no concluyente por la edad: repetir la muestra con bolsa colectora y esperar tres días antes de tomar una decisión",
+     "calidad": "incorrecta",
+     "explicacion": "La muestra fue adecuada y el cuadro es claro; la bolsa colectora no es válida para el diagnóstico y esperar tres días demora el tratamiento.",
+     "id": "B",
+     "tema": "Interpretación del examen de orina y el urocultivo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Infección urinaria febril confirmada: piuria con nitritos positivos y urocultivo con Escherichia coli en cuenta significativa",
+     "calidad": "optima",
+     "explicacion": "Con piuria y al menos 50 000 UFC/mL de un uropatógeno en una muestra adecuada se confirma el diagnóstico; la fiebre sugiere compromiso renal.",
+     "id": "C",
+     "tema": "Interpretación del examen de orina y el urocultivo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Sepsis urinaria con choque que obliga a hospitalizar en cuidados intensivos y a iniciar antibióticos por vía endovenosa de inmediato",
+     "calidad": "incorrecta",
+     "explicacion": "La niña está estable, bien perfundida y alerta: no hay criterios de choque ni de cuidados intensivos.",
+     "id": "D",
+     "tema": "Interpretación del examen de orina y el urocultivo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Cistitis aislada de vías bajas sin compromiso renal, porque la niña está alerta y se hidrata bien, por lo que basta una dosis única",
+     "calidad": "incorrecta",
+     "explicacion": "En una niña pequeña con fiebre se asume compromiso renal; la dosis única no es el tratamiento recomendado.",
+     "id": "E",
+     "tema": "Interpretación del examen de orina y el urocultivo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "diagnostico": {
+   "enunciado": "¿Cuál es el diagnóstico más probable?",
+   "peso": 3,
+   "decisiones": [
+    {
+     "texto": "Gastroenteritis aguda con deshidratación leve, que se maneja con rehidratación oral y sin necesidad de antibiótico",
+     "calidad": "incorrecta",
+     "explicacion": "Hubo un solo vómito sin diarrea y la hidratación es adecuada; no explica los síntomas urinarios ni el cultivo.",
+     "id": "A",
+     "tema": "Diagnóstico de la infección urinaria febril",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Vulvovaginitis por irritación local, tratada con higiene y cremas barrera sin necesidad de ningún estudio de orina",
+     "calidad": "incorrecta",
+     "explicacion": "El eritema vulvar leve no explica la fiebre alta ni los resultados urinarios.",
+     "id": "B",
+     "tema": "Diagnóstico de la infección urinaria febril",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Síndrome febril viral inespecífico que se resolverá solo, con control de la fiebre y observación en el domicilio durante los días siguientes",
+     "calidad": "incorrecta",
+     "explicacion": "Con piuria, nitritos y cultivo positivo se confirma una infección bacteriana que requiere tratamiento.",
+     "id": "C",
+     "tema": "Diagnóstico de la infección urinaria febril",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Infección urinaria febril (pielonefritis aguda) por Escherichia coli en una niña sin factores de riesgo conocidos",
+     "calidad": "optima",
+     "explicacion": "Reúne fiebre sin foco, síntomas urinarios, piuria con nitritos y urocultivo positivo.",
+     "id": "D",
+     "tema": "Diagnóstico de la infección urinaria febril",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Otitis media aguda bilateral con fiebre, que requiere tratamiento antibiótico oral dirigido a los gérmenes del oído medio",
+     "calidad": "incorrecta",
+     "explicacion": "La otoscopia fue normal; los hallazgos apuntan al tracto urinario.",
+     "id": "E",
+     "tema": "Diagnóstico de la infección urinaria febril",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "tratamiento": {
+   "enunciado": "¿Qué tratamiento indicas?",
+   "peso": 2,
+   "decisiones": [
+    {
+     "texto": "Antibiótico oral de 7 a 14 días dirigido por la sensibilidad local y el cultivo, con hidratación y paracetamol si hay fiebre",
+     "calidad": "optima",
+     "explicacion": "En una niña estable que tolera la vía oral el antibiótico oral por 7 a 14 días es adecuado; se ajusta al antibiograma.",
+     "id": "A",
+     "tema": "Tratamiento de la infección urinaria febril",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Una dosis única de antibiótico oral y control en un mes, ya que la infección es la primera que presenta la niña",
+     "calidad": "incorrecta",
+     "explicacion": "La infección febril requiere un curso de 7 a 14 días; una dosis única no es suficiente.",
+     "id": "B",
+     "tema": "Tratamiento de la infección urinaria febril",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Antibiótico por vía endovenosa durante 14 días con hospitalización obligatoria para todos los casos de infección urinaria febril",
+     "calidad": "incorrecta",
+     "explicacion": "La vía oral es igual de efectiva en una niña estable que tolera líquidos; la hospitalización se reserva para casos con criterios.",
+     "id": "C",
+     "tema": "Tratamiento de la infección urinaria febril",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Ácido acetilsalicílico para controlar la fiebre y antibiótico solo si persiste la fiebre después de tres días de tratamiento",
+     "calidad": "peligrosa",
+     "explicacion": "La aspirina en niños pequeños con fiebre se asocia al síndrome de Reye; además el antibiótico no debe diferirse.",
+     "id": "D",
+     "tema": "Tratamiento de la infección urinaria febril",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Nitrofurantoína oral por tres días, porque tiene buena actividad urinaria y se tolera bien en los niños pequeños",
+     "calidad": "incorrecta",
+     "explicacion": "La nitrofurantoína no alcanza niveles tisulares adecuados en una infección febril con compromiso renal.",
+     "id": "E",
+     "tema": "Tratamiento de la infección urinaria febril",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "seguimiento": {
+   "enunciado": "¿Cuál es el plan de seguimiento, los signos de alarma y los criterios de derivación?",
+   "peso": 2,
+   "decisiones": [
+    {
+     "texto": "Cistouretrografía miccional y gammagrafía renal de rutina tras cualquier primera infección urinaria, para descartar reflujo vesicoureteral en todos los casos",
+     "calidad": "incorrecta",
+     "explicacion": "No se recomienda de rutina tras la primera infección; se indica ante hallazgos ecográficos anormales o recurrencia.",
+     "id": "A",
+     "tema": "Seguimiento de la infección urinaria pediátrica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Profilaxis antibiótica diaria durante un año para todas las niñas tras la primera infección, aunque no haya reflujo documentado ni infecciones previas",
+     "calidad": "incorrecta",
+     "explicacion": "No se apoya la profilaxis de rutina en niños sin reflujo o con reflujo de grado bajo a intermedio.",
+     "id": "B",
+     "tema": "Seguimiento de la infección urinaria pediátrica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Derivar a cirugía pediátrica para evaluación de reimplante ureteral antes de completar el tratamiento antibiótico y sin estudios previos",
+     "calidad": "peligrosa",
+     "explicacion": "No hay indicación de cirugía: se deriva solo ante anomalías significativas o infecciones recurrentes, con estudios previos.",
+     "id": "C",
+     "tema": "Seguimiento de la infección urinaria pediátrica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Ecografía renal y vesical, reevaluación clínica a las 48 a 72 horas, signos de alarma y estudios adicionales solo si hay hallazgos o recurrencia",
+     "calidad": "optima",
+     "explicacion": "Tras la primera infección febril se hace ecografía; la cistouretrografía y otros estudios se reservan para hallazgos anormales o recurrencia.",
+     "id": "D",
+     "tema": "Seguimiento de la infección urinaria pediátrica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta sin control, sin explicar los signos de alarma ni cuándo regresar, porque la evolución con antibiótico suele ser favorable",
+     "calidad": "incorrecta",
+     "explicacion": "La paciente debe ser reevaluada a las 48 a 72 horas y la familia debe conocer los signos de alarma para volver.",
+     "id": "E",
+     "tema": "Seguimiento de la infección urinaria pediátrica",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Niña de 20 meses con fiebre de dos días sin foco respiratorio ni ótico, orina de olor fuerte con llanto al orinar y molestia suprapúbica; bien hidratada y alerta. La orina mostró piuria con nitritos y el urocultivo, Escherichia coli en cuenta significativa.",
+  "diagnostico_final": "Infección urinaria febril (pielonefritis aguda) por Escherichia coli, primera infección, sin criterios de gravedad.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Otitis media aguda",
+    "por_que_no": "La otoscopia fue normal."
+   },
+   {
+    "dx": "Gastroenteritis",
+    "por_que_no": "No hubo diarrea ni deshidratación y no explica los hallazgos urinarios."
+   },
+   {
+    "dx": "Síndrome viral",
+    "por_que_no": "Sin síntomas respiratorios; piuria y cultivo positivos indican una infección bacteriana."
+   },
+   {
+    "dx": "Meningitis",
+    "por_que_no": "Estado de alerta normal y sin signos meníngeos."
+   }
+  ],
+  "datos_clave": [
+   "Fiebre alta sin foco respiratorio ni ótico en una niña de 20 meses.",
+   "Cambios urinarios (olor, frecuencia, llanto al orinar) y molestia suprapúbica.",
+   "Primera infección y estado de hidratación y alerta conservados (permite manejo ambulatorio).",
+   "Muestra de orina bien recolectada (cateterismo o chorro medio limpio)."
+  ],
+  "razonamiento": [
+   "Buscar el foco de la fiebre: respiratorio, ótico, digestivo y urinario.",
+   "Evaluar hidratación y signos de gravedad para decidir el nivel de atención.",
+   "Pedir examen de orina y urocultivo con una muestra bien recolectada.",
+   "Interpretar piuria con nitritos y cultivo significativo como infección urinaria.",
+   "Tratar 7 a 14 días con antibiótico oral dirigido, si tolera la vía oral.",
+   "Hacer ecografía renal y vesical y reevaluar a las 48 a 72 horas.",
+   "Reservar cistouretrografía y derivaciones para hallazgos anormales o recurrencias."
+  ],
+  "interpretacion_laboratorio": [
+   "Tira reactiva con esterasa leucocitaria y nitritos positivos y piuria en el sedimento: orina inflamatoria con bacterias.",
+   "Urocultivo con E. coli ≥ 100 000 UFC/mL en muestra adecuada: confirma la infección.",
+   "Leucocitosis y PCR altas: respuesta inflamatoria compatible con compromiso renal (no hay intervalos pediátricos cargados).",
+   "Creatinina sin elevación: sin disfunción renal."
+  ],
+  "tratamiento": [
+   {
+    "item": "Antibiótico",
+    "detalle": "Oral por 7 a 14 días si está estable y tolera líquidos, dirigido por la sensibilidad local y el urocultivo.",
+    "dosis": "La dosis depende del peso (11 kg), del fármaco y del protocolo institucional; no se fija aquí."
+   },
+   {
+    "item": "Medidas de soporte",
+    "detalle": "Hidratación y paracetamol para la fiebre; evitar aspirina.",
+    "dosis": "Dosis de paracetamol por peso según protocolo."
+   },
+   {
+    "item": "Seguimiento",
+    "detalle": "Ecografía renal y vesical y reevaluación a las 48 a 72 horas; estudios adicionales solo si hay hallazgos anormales o recurrencia.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Signos de alarma y derivación",
+    "detalle": "Fiebre persistente tras 48 a 72 horas, rechazo de líquidos, vómitos persistentes, decaimiento; derivar si hay anomalías en la ecografía o infecciones recurrentes.",
+    "dosis": "No aplica."
+   }
+  ],
+  "temas_relacionados": [
+   "Infección urinaria en pediatría",
+   "Fiebre sin foco en el lactante",
+   "Reflujo vesicoureteral"
+  ],
+  "mensaje_clave": "En una niña febril sin foco, el examen de orina y el urocultivo con muestra adecuada confirman la infección urinaria; se trata 7 a 14 días y se hace ecografía."
+ }
+}

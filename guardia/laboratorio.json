@@ -1,0 +1,1771 @@
+{
+ "version": 1,
+ "fecha": "2026-10-28",
+ "aviso": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+ "pruebas": [
+  {
+   "id": "hemoglobina",
+   "nombre": "Hemoglobina",
+   "categoria": "Hematología",
+   "unidad": "g/dL",
+   "sinonimos": [
+    "Hb"
+   ],
+   "intervalos": [
+    {
+     "sexo": "M",
+     "bajo": 13.5,
+     "alto": 17.5,
+     "edad_min": 18,
+     "texto": "13.5–17.5"
+    },
+    {
+     "sexo": "F",
+     "bajo": 12.0,
+     "alto": 15.5,
+     "edad_min": 18,
+     "texto": "12.0–15.5"
+    },
+    {
+     "sexo": "F",
+     "bajo": 10.5,
+     "alto": null,
+     "condicion": "gestacion-t2",
+     "texto": "Punto de corte de anemia: < 10,5 g/dL (2.º trimestre)"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "OMS 2024 (citada en el editorial peruano): anemia si Hb < 10,5 g/dL en gestantes del 2.º trimestre y en niños de 6 a 23 meses.",
+     "pmid": "39166631",
+     "fuente": "Gonzales GF, Suarez VJ. Rev Peru Med Exp Salud Publica 2024;41(2):102-4"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "En altitud la hemoglobina normal es mayor: la norma peruana NTS N.° 213-MINSA/DGIESP-2024 adopta los puntos de corte de anemia de la OMS 2024 y los ajusta por altitud (la OMS 2024 modifica el ajuste desde 500 m s. n. m.). No se pudo leer su tabla en esta sesión: usa la norma vigente y el calculador oficial.",
+    "El intervalo del 2.º trimestre es un punto de corte de anemia (umbral), no un intervalo de referencia; para 1.er y 3.er trimestre y otras edades no hay valor cargado: consulta la norma."
+   ],
+   "criticos": null,
+   "conversion": "hemoglobina"
+  },
+  {
+   "id": "hematocrito",
+   "nombre": "Hematocrito",
+   "categoria": "Hematología",
+   "unidad": "%",
+   "sinonimos": [
+    "Hto"
+   ],
+   "intervalos": [
+    {
+     "sexo": "M",
+     "bajo": 41,
+     "alto": 53,
+     "edad_min": 18,
+     "texto": "41–53"
+    },
+    {
+     "sexo": "F",
+     "bajo": 36,
+     "alto": 46,
+     "edad_min": 18,
+     "texto": "36–46"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "En altitud la hemoglobina normal es mayor: la norma peruana NTS N.° 213-MINSA/DGIESP-2024 adopta los puntos de corte de anemia de la OMS 2024 y los ajusta por altitud (la OMS 2024 modifica el ajuste desde 500 m s. n. m.). No se pudo leer su tabla en esta sesión: usa la norma vigente y el calculador oficial."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "leucocitos",
+   "nombre": "Leucocitos",
+   "categoria": "Hematología",
+   "unidad": "×10³/µL",
+   "sinonimos": [
+    "WBC",
+    "recuento de leucocitos"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 4.5,
+     "alto": 11.0,
+     "edad_min": 18,
+     "texto": "4.5–11.0"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Guías de Tokio 2018 (colangitis): leucocitos < 4 o > 10 ×10³/µL cuentan como criterio de inflamación sistémica.",
+     "pmid": "29032610",
+     "fuente": "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "plaquetas",
+   "nombre": "Plaquetas",
+   "categoria": "Hematología",
+   "unidad": "×10³/µL",
+   "sinonimos": [
+    "PLT"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 150,
+     "alto": 400,
+     "edad_min": 18,
+     "texto": "150–400"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "En dengue la caída de plaquetas acompaña a la fase crítica; la cifra aislada no indica transfusión."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "vcm",
+   "nombre": "Volumen corpuscular medio",
+   "categoria": "Hematología",
+   "unidad": "fL",
+   "sinonimos": [
+    "VCM",
+    "MCV"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 80,
+     "alto": 100,
+     "edad_min": 18,
+     "texto": "80–100"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "ferritina",
+   "nombre": "Ferritina",
+   "categoria": "Hematología",
+   "unidad": "ng/mL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "M",
+     "bajo": 24,
+     "alto": 336,
+     "edad_min": 18,
+     "texto": "24–336"
+    },
+    {
+     "sexo": "F",
+     "bajo": 11,
+     "alto": 307,
+     "edad_min": 18,
+     "texto": "11–307"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Es reactante de fase aguda: sube con la inflamación aunque el hierro esté bajo."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "glucosa",
+   "nombre": "Glucosa en ayunas",
+   "categoria": "Bioquímica",
+   "unidad": "mg/dL",
+   "sinonimos": [
+    "glicemia",
+    "glucemia"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 70,
+     "alto": 99,
+     "edad_min": 18,
+     "texto": "70–99"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Una glucemia ≥ 200 mg/dL al azar con síntomas, o ≥ 126 mg/dL en ayunas confirmada, es criterio de diabetes (criterio educativo de ADA).",
+     "pmid": "",
+     "fuente": "ADA Standards of Care (no consultado en texto completo)"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null,
+   "conversion": "glucosa"
+  },
+  {
+   "id": "hba1c",
+   "nombre": "Hemoglobina glicosilada (HbA1c)",
+   "categoria": "Endocrinología",
+   "unidad": "%",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 4.0,
+     "alto": 5.6,
+     "edad_min": 18,
+     "texto": "4.0–5.6"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "≥ 6,5 % es criterio de diabetes (criterio educativo de ADA).",
+     "pmid": "",
+     "fuente": "ADA Standards of Care (no consultado en texto completo)"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Puede alterarse con anemias, hemoglobinopatías o recambio eritrocitario."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "albumina",
+   "nombre": "Albúmina sérica",
+   "categoria": "Bioquímica",
+   "unidad": "g/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 3.5,
+     "alto": 5.0,
+     "edad_min": 18,
+     "texto": "3.5–5.0"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "ldh",
+   "nombre": "Lactato deshidrogenasa (LDH)",
+   "categoria": "Bioquímica",
+   "unidad": "U/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 140,
+     "alto": 280,
+     "edad_min": 18,
+     "texto": "140–280"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Muy dependiente del método; inespecífica."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "osmolaridad",
+   "nombre": "Osmolaridad sérica",
+   "categoria": "Bioquímica",
+   "unidad": "mOsm/kg",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 275,
+     "alto": 295,
+     "edad_min": 18,
+     "texto": "275–295"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "bhb",
+   "nombre": "β-hidroxibutirato (cetonemia)",
+   "categoria": "Bioquímica",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 0.6,
+     "edad_min": 18,
+     "texto": "0–0.6"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "objetivo_terapeutico",
+     "texto": "Un β-hidroxibutirato < 0,6 mmol/L se usa como una de las condiciones de resolución de la cetoacidosis diabética (consenso ADA/EASD 2024; no verificado en texto completo).",
+     "pmid": "39052901",
+     "fuente": "Umpierrez GE et al. Diabetes Care 2024"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Distingue de la cetonuria (acetoacetato) que no mide el β-hidroxibutirato."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "sodio",
+   "nombre": "Sodio",
+   "categoria": "Electrolitos",
+   "unidad": "mmol/L",
+   "sinonimos": [
+    "Na"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 135,
+     "alto": 145,
+     "edad_min": 18,
+     "texto": "135–145"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "potasio",
+   "nombre": "Potasio",
+   "categoria": "Electrolitos",
+   "unidad": "mmol/L",
+   "sinonimos": [
+    "K"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 3.5,
+     "alto": 5.0,
+     "edad_min": 18,
+     "texto": "3.5–5.0"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "objetivo_terapeutico",
+     "texto": "En la cetoacidosis diabética se retrasa la insulina si el potasio es < 3,5 mmol/L y se busca mantener 4–5 mmol/L durante el tratamiento (consenso ADA/EASD 2024; no verificado en texto completo).",
+     "pmid": "39052901",
+     "fuente": "Umpierrez GE et al. Diabetes Care 2024"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "La hemólisis de la muestra eleva falsamente el potasio."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "cloro",
+   "nombre": "Cloro",
+   "categoria": "Electrolitos",
+   "unidad": "mmol/L",
+   "sinonimos": [
+    "Cl"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 98,
+     "alto": 107,
+     "edad_min": 18,
+     "texto": "98–107"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "bicarbonato",
+   "nombre": "Bicarbonato sérico (CO₂ total)",
+   "categoria": "Electrolitos",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 22,
+     "alto": 29,
+     "edad_min": 18,
+     "texto": "22–29"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "calcio",
+   "nombre": "Calcio total",
+   "categoria": "Electrolitos",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 8.5,
+     "alto": 10.5,
+     "edad_min": 18,
+     "texto": "8.5–10.5"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Se corrige por albúmina; el calcio iónico refleja mejor el estado fisiológico."
+   ],
+   "criticos": null,
+   "conversion": "calcio"
+  },
+  {
+   "id": "calcio_ionico",
+   "nombre": "Calcio iónico",
+   "categoria": "Electrolitos",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 1.12,
+     "alto": 1.32,
+     "edad_min": 18,
+     "texto": "1.12–1.32"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Depende del pH y del tipo de muestra (sangre entera o suero)."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "magnesio",
+   "nombre": "Magnesio",
+   "categoria": "Electrolitos",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 1.7,
+     "alto": 2.2,
+     "edad_min": 18,
+     "texto": "1.7–2.2"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "fosforo",
+   "nombre": "Fósforo (fosfato)",
+   "categoria": "Electrolitos",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 2.5,
+     "alto": 4.5,
+     "edad_min": 18,
+     "texto": "2.5–4.5"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "anion_gap",
+   "nombre": "Brecha aniónica (anion gap)",
+   "categoria": "Electrolitos",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 8,
+     "alto": 12,
+     "edad_min": 18,
+     "texto": "8–12"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "El valor de referencia cambia con el método (con o sin potasio) y con la albúmina."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "creatinina",
+   "nombre": "Creatinina sérica",
+   "categoria": "Función renal y hepática",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "M",
+     "bajo": 0.7,
+     "alto": 1.3,
+     "edad_min": 18,
+     "texto": "0.7–1.3"
+    },
+    {
+     "sexo": "F",
+     "bajo": 0.6,
+     "alto": 1.1,
+     "edad_min": 18,
+     "texto": "0.6–1.1"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Guías de Tokio 2018: creatinina > 2,0 mg/dL cuenta como disfunción renal en la colangitis grado III.",
+     "pmid": "29032610",
+     "fuente": "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Sube tarde en la lesión renal aguda y depende de la masa muscular."
+   ],
+   "criticos": null,
+   "conversion": "creatinina"
+  },
+  {
+   "id": "urea",
+   "nombre": "Urea / nitrógeno ureico (BUN)",
+   "categoria": "Función renal y hepática",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 7,
+     "alto": 20,
+     "edad_min": 18,
+     "texto": "7–20"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Se informa como nitrógeno ureico (BUN) o como urea; no son lo mismo."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "bilirrubina_total",
+   "nombre": "Bilirrubina total",
+   "categoria": "Función renal y hepática",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0.1,
+     "alto": 1.2,
+     "edad_min": 18,
+     "texto": "0.1–1.2"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Guías de Tokio 2018: bilirrubina total ≥ 2 mg/dL cuenta como colestasis en el diagnóstico de colangitis.",
+     "pmid": "29032610",
+     "fuente": "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null,
+   "conversion": "bilirrubina_total"
+  },
+  {
+   "id": "bilirrubina_directa",
+   "nombre": "Bilirrubina directa",
+   "categoria": "Función renal y hepática",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0.0,
+     "alto": 0.3,
+     "edad_min": 18,
+     "texto": "0.0–0.3"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "ast",
+   "nombre": "AST (TGO)",
+   "categoria": "Función renal y hepática",
+   "unidad": "U/L",
+   "sinonimos": [
+    "TGO"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 10,
+     "alto": 40,
+     "edad_min": 18,
+     "texto": "10–40"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Se eleva también en la lesión muscular y la hemólisis."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "alt",
+   "nombre": "ALT (TGP)",
+   "categoria": "Función renal y hepática",
+   "unidad": "U/L",
+   "sinonimos": [
+    "TGP"
+   ],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 7,
+     "alto": 55,
+     "edad_min": 18,
+     "texto": "7–55"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "fosfatasa_alcalina",
+   "nombre": "Fosfatasa alcalina",
+   "categoria": "Función renal y hepática",
+   "unidad": "U/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 44,
+     "alto": 147,
+     "edad_min": 18,
+     "texto": "44–147"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Aumenta en la gestación por origen placentario y en el crecimiento óseo."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "ggt",
+   "nombre": "Gamma-glutamil transferasa (GGT)",
+   "categoria": "Función renal y hepática",
+   "unidad": "U/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "M",
+     "bajo": 8,
+     "alto": 61,
+     "edad_min": 18,
+     "texto": "8–61"
+    },
+    {
+     "sexo": "F",
+     "bajo": 5,
+     "alto": 36,
+     "edad_min": 18,
+     "texto": "5–36"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "lipasa",
+   "nombre": "Lipasa",
+   "categoria": "Función renal y hepática",
+   "unidad": "U/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 160,
+     "edad_min": 18,
+     "texto": "0–160"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Muy dependiente del método."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "inr",
+   "nombre": "INR",
+   "categoria": "Coagulación",
+   "unidad": "(índice)",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0.8,
+     "alto": 1.2,
+     "edad_min": 18,
+     "texto": "0.8–1.2"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Guías de Tokio 2018: INR > 1,5 cuenta como disfunción hepática en la colangitis grado III.",
+     "pmid": "29032610",
+     "fuente": "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "tp",
+   "nombre": "Tiempo de protrombina",
+   "categoria": "Coagulación",
+   "unidad": "s",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 11,
+     "alto": 13.5,
+     "edad_min": 18,
+     "texto": "11–13.5"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "ttpa",
+   "nombre": "Tiempo de tromboplastina parcial activada (TTPa)",
+   "categoria": "Coagulación",
+   "unidad": "s",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 25,
+     "alto": 35,
+     "edad_min": 18,
+     "texto": "25–35"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "fibrinogeno",
+   "nombre": "Fibrinógeno",
+   "categoria": "Coagulación",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 200,
+     "alto": 400,
+     "edad_min": 18,
+     "texto": "200–400"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Aumenta en la gestación y en la inflamación."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "dimero_d",
+   "nombre": "Dímero D",
+   "categoria": "Coagulación",
+   "unidad": "µg/mL FEU",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 0.5,
+     "edad_min": 18,
+     "texto": "0–0.5"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Muy dependiente del método; es inespecífico y aumenta en la gestación, la infección y el posoperatorio."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "ph",
+   "nombre": "pH arterial",
+   "categoria": "Gasometría",
+   "unidad": "(unidades)",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 7.35,
+     "alto": 7.45,
+     "edad_min": 18,
+     "texto": "7.35–7.45"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "pco2",
+   "nombre": "PaCO₂",
+   "categoria": "Gasometría",
+   "unidad": "mmHg",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 35,
+     "alto": 45,
+     "edad_min": 18,
+     "texto": "35–45"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "po2",
+   "nombre": "PaO₂",
+   "categoria": "Gasometría",
+   "unidad": "mmHg",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 80,
+     "alto": 100,
+     "edad_min": 18,
+     "texto": "80–100"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Valores a nivel del mar y respirando aire ambiente. En altitud la PaO₂ normal es menor (relevante en el Perú)."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "hco3",
+   "nombre": "Bicarbonato (gasometría)",
+   "categoria": "Gasometría",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 22,
+     "alto": 26,
+     "edad_min": 18,
+     "texto": "22–26"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "exceso_base",
+   "nombre": "Exceso de base",
+   "categoria": "Gasometría",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": -2,
+     "alto": 2,
+     "edad_min": 18,
+     "texto": "-2–2"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "lactato",
+   "nombre": "Lactato",
+   "categoria": "Gasometría",
+   "unidad": "mmol/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0.5,
+     "alto": 2.0,
+     "edad_min": 18,
+     "texto": "0.5–2.0"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Sepsis-3: en el choque séptico se exige lactato > 2 mmol/L pese a una reposición adecuada, además de la necesidad de vasopresor.",
+     "pmid": "26903338",
+     "fuente": "Singer M et al. JAMA 2016"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Distingue lactato arterial de venoso; también sube por causas no sépticas."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "troponina",
+   "nombre": "Troponina cardíaca de alta sensibilidad",
+   "categoria": "Marcadores cardíacos",
+   "unidad": "ng/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": null,
+     "alto": null,
+     "texto": "Percentil 99 del ensayo de cada laboratorio (no hay un valor universal)"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Cuarta definición universal del infarto: se define lesión miocárdica por un valor por encima del percentil 99 del límite superior de referencia del ensayo.",
+     "pmid": "30153967",
+     "fuente": "Thygesen K et al. J Am Coll Cardiol 2018"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Los ensayos no son intercambiables: en cada caso se muestra el percentil 99 del ensayo supuesto. Se eleva en muchas causas de lesión miocárdica distintas del infarto."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "tsh",
+   "nombre": "TSH",
+   "categoria": "Endocrinología",
+   "unidad": "mUI/L",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0.4,
+     "alto": 4.0,
+     "edad_min": 18,
+     "texto": "0.4–4.0"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "En la gestación cambian los límites (revisión sistemática PMID 35861700); no se cargan cifras de embarazo en esta versión."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "t4l",
+   "nombre": "T4 libre",
+   "categoria": "Endocrinología",
+   "unidad": "ng/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0.8,
+     "alto": 1.8,
+     "edad_min": 18,
+     "texto": "0.8–1.8"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Depende del método."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "anti_tpo",
+   "nombre": "Anticuerpos anti-TPO",
+   "categoria": "Endocrinología",
+   "unidad": "UI/mL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 35,
+     "edad_min": 18,
+     "texto": "0–35"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "El punto de corte depende del ensayo."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "bhcg",
+   "nombre": "β-hCG cuantitativa",
+   "categoria": "Endocrinología",
+   "unidad": "mUI/mL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "F",
+     "bajo": 0,
+     "alto": 5,
+     "edad_min": 18,
+     "texto": "0–5"
+    },
+    {
+     "sexo": "F",
+     "bajo": null,
+     "alto": null,
+     "condicion": "gestacion-t1",
+     "texto": "En gestación temprana no hay un valor «normal» único: se interpreta con la ecografía y la evolución seriada"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Intervalo en mujeres no gestantes. En la gestación temprana no hay un «normal» único: se interpreta con la ecografía y la evolución seriada."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "colesterol_total",
+   "nombre": "Colesterol total",
+   "categoria": "Bioquímica",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": null,
+     "alto": 199,
+     "edad_min": 18,
+     "texto": "< 199"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "objetivo_terapeutico",
+     "texto": "Un colesterol total < 200 mg/dL se considera deseable en la población general (criterio educativo; no sustituye el cálculo de riesgo cardiovascular).",
+     "pmid": "",
+     "fuente": "Criterio educativo no verificado en texto completo"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Se interpreta junto con LDL, HDL y el riesgo cardiovascular global; el hipotiroidismo puede elevarlo."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "ldl",
+   "nombre": "Colesterol LDL",
+   "categoria": "Bioquímica",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": null,
+     "alto": 99,
+     "edad_min": 18,
+     "texto": "< 99"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "La meta depende del riesgo cardiovascular del paciente."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "pcr",
+   "nombre": "Proteína C reactiva",
+   "categoria": "Pruebas especiales",
+   "unidad": "mg/dL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 1.0,
+     "edad_min": 18,
+     "texto": "0–1.0"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "Guías de Tokio 2018: PCR ≥ 1 mg/dL cuenta como criterio de inflamación sistémica en la colangitis.",
+     "pmid": "29032610",
+     "fuente": "Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "procalcitonina",
+   "nombre": "Procalcitonina",
+   "categoria": "Pruebas especiales",
+   "unidad": "ng/mL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 0.1,
+     "edad_min": 18,
+     "texto": "0–0.1"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Orienta pero no confirma infección bacteriana."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "cd4",
+   "nombre": "Linfocitos T CD4",
+   "categoria": "Pruebas especiales",
+   "unidad": "células/µL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 500,
+     "alto": 1500,
+     "edad_min": 18,
+     "texto": "500–1500"
+    }
+   ],
+   "umbrales": [
+    {
+     "tipo": "umbral_diagnostico",
+     "texto": "En los ensayos de TB-VIH, el inicio precoz del antirretroviral benefició sobre todo a quienes tenían CD4 < 50 células/µL.",
+     "pmid": "22010914",
+     "fuente": "Havlir DV et al. N Engl J Med 2011"
+    }
+   ],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "carga_viral",
+   "nombre": "Carga viral del VIH",
+   "categoria": "Pruebas especiales",
+   "unidad": "copias/mL",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": null,
+     "alto": null,
+     "texto": "Indetectable bajo tratamiento eficaz (el límite depende del ensayo)"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "orina_densidad",
+   "nombre": "Densidad urinaria",
+   "categoria": "Orina",
+   "unidad": "(g/mL)",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 1.003,
+     "alto": 1.03,
+     "edad_min": 18,
+     "texto": "1.003–1.03"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "orina_ph",
+   "nombre": "pH urinario",
+   "categoria": "Orina",
+   "unidad": "(unidades)",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 4.5,
+     "alto": 8.0,
+     "edad_min": 18,
+     "texto": "4.5–8.0"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "orina_leucocitos",
+   "nombre": "Leucocitos en sedimento urinario",
+   "categoria": "Orina",
+   "unidad": "/campo 400×",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 5,
+     "edad_min": 18,
+     "texto": "0–5"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Una piuria sin cultivo no basta para diagnosticar infección urinaria."
+   ],
+   "criticos": null
+  },
+  {
+   "id": "orina_hematies",
+   "nombre": "Hematíes en sedimento urinario",
+   "categoria": "Orina",
+   "unidad": "/campo 400×",
+   "sinonimos": [],
+   "intervalos": [
+    {
+     "sexo": "todos",
+     "bajo": 0,
+     "alto": 2,
+     "edad_min": 18,
+     "texto": "0–2"
+    }
+   ],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null
+  },
+  {
+   "id": "orina_esterasa",
+   "nombre": "Esterasa leucocitaria (tira reactiva)",
+   "categoria": "Orina",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "orina_nitritos",
+   "nombre": "Nitritos (tira reactiva)",
+   "categoria": "Orina",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "orina_cetonas",
+   "nombre": "Cetonas en orina (tira reactiva)",
+   "categoria": "Orina",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "orina_glucosa",
+   "nombre": "Glucosa en orina (tira reactiva)",
+   "categoria": "Orina",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "hemocultivo",
+   "nombre": "Hemocultivo",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo: se informa con identificación y sensibilidad cuando hay desarrollo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "urocultivo",
+   "nombre": "Urocultivo",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo: se informa con identificación y sensibilidad cuando hay desarrollo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "xpert_mtb",
+   "nombre": "Prueba molecular para M. tuberculosis (Xpert MTB/RIF)",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo: se informa con identificación y sensibilidad cuando hay desarrollo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "baciloscopia",
+   "nombre": "Baciloscopia de esputo",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo: se informa con identificación y sensibilidad cuando hay desarrollo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "naat_clamidia",
+   "nombre": "Prueba molecular (NAAT) para Chlamydia trachomatis",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "naat_gonococo",
+   "nombre": "Prueba molecular (NAAT) para Neisseria gonorrhoeae",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "antigeno_estreptococo",
+   "nombre": "Prueba rápida de antígeno de estreptococo del grupo A",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "cultivo_faringeo",
+   "nombre": "Cultivo faríngeo",
+   "categoria": "Microbiología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Resultado cualitativo."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "negativo"
+  },
+  {
+   "id": "vih",
+   "nombre": "Prueba de VIH (tamizaje)",
+   "categoria": "Serología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Una prueba de tamizaje reactiva requiere confirmación."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "no reactivo"
+  },
+  {
+   "id": "hbsag",
+   "nombre": "HBsAg",
+   "categoria": "Serología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Una prueba de tamizaje reactiva requiere confirmación."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "no reactivo"
+  },
+  {
+   "id": "vdrl",
+   "nombre": "VDRL / RPR",
+   "categoria": "Serología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Una prueba de tamizaje reactiva requiere confirmación."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "no reactivo"
+  },
+  {
+   "id": "ns1",
+   "nombre": "NS1 de dengue",
+   "categoria": "Serología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Una prueba de tamizaje reactiva requiere confirmación."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "no reactivo"
+  },
+  {
+   "id": "igm_dengue",
+   "nombre": "IgM anti-dengue",
+   "categoria": "Serología",
+   "unidad": "",
+   "sinonimos": [],
+   "intervalos": [],
+   "umbrales": [],
+   "metodo": "Depende del laboratorio y del equipo",
+   "fuente_tipo": "educativo",
+   "fuente": "Intervalo educativo de adultos (rango habitual en textos de medicina de laboratorio). No verificado contra un documento específico ni propio del Perú; prevalece el del laboratorio que procesa la muestra.",
+   "advertencias": [
+    "Una prueba de tamizaje reactiva requiere confirmación."
+   ],
+   "criticos": null,
+   "cualitativa": true,
+   "normal": "no reactivo"
+  }
+ ]
+}

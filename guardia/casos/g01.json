@@ -3,11 +3,54 @@
  "titulo": "Fiebre, ictericia y confusión en una mujer con cálculos",
  "especialidad": "Cirugía general · Gastroenterología · Emergencias",
  "dificultad": 2,
- "duracion_min": 12,
- "resumen": "Mujer de 68 años con dolor en hipocondrio derecho, fiebre e ictericia desde hace 2 días. Decide qué hacer en la primera hora y cómo controlar el foco.",
+ "duracion_min": 18,
+ "areas_banco": [
+  "cirugia",
+  "gastroenterologia"
+ ],
+ "resumen": "Mujer de 68 años con dolor en hipocondrio derecho, fiebre e ictericia desde hace 2 días. Reanima, interpreta los estudios, decide el drenaje y cierra el tratamiento.",
  "contexto": "Emergencia de un hospital con ecografía, laboratorio, endoscopia y cirugía disponibles las 24 h.",
+ "paciente": {
+  "edad": 68,
+  "edad_texto": "68 años",
+  "sexo": "F",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "uci",
+   "nombre": "Medicina intensiva"
+  },
+  {
+   "id": "cirugia",
+   "nombre": "Cirugía general"
+  },
+  {
+   "id": "gastro",
+   "nombre": "Gastroenterología / endoscopia"
+  },
+  {
+   "id": "infecto",
+   "nombre": "Infectología"
+  }
+ ],
  "imagenes": [],
  "referencias": [
+  {
+   "id": "rp",
+   "tipo": "guia",
+   "titulo": "Guía de práctica clínica para el reconocimiento y el manejo inicial de sepsis en adultos (GPC N° 15, versión corta)",
+   "organismo": "EsSalud, Instituto de Evaluación de Tecnologías en Salud e Investigación (IETSI)",
+   "autores": "IETSI, EsSalud",
+   "anio": 2018,
+   "version": "",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.essalud.gob.pe/ietsi/pdfs/guias/GPC_Sepsis_Version_corta.pdf",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de 2018 sobre sepsis en general (no sobre colangitis); anterior a la Surviving Sepsis Campaign 2021.",
+   "recomendacion": "Antibiótico endovenoso antes de la primera hora desde la sospecha, con al menos dos hemocultivos sin retrasarlo; cristaloides 30 mL/kg; dosar el lactato; noradrenalina como vasopresor de primera elección para PAM ≥ 65 mmHg."
+  },
   {
    "id": "r1",
    "tipo": "guia",
@@ -70,12 +113,13 @@
   }
  ],
  "discrepancias": [
-  "Las Guías de Tokio 2018 y la Surviving Sepsis Campaign 2021 son internacionales; no se identificó en esta consulta una norma peruana (MINSA/EsSalud) específica para colangitis aguda, por lo que se aplican las internacionales. La disponibilidad de CPRE y los patrones locales de resistencia pueden modificar la elección práctica: sigue el protocolo de tu institución."
+  "Las Guías de Tokio 2018 y la Surviving Sepsis Campaign 2021 son internacionales; no se halló una norma peruana específica de colangitis aguda; para la fase de sepsis se añade la guía de EsSalud (GPC N° 15, 2018) y para el drenaje biliar se aplican las Guías de Tokio. La disponibilidad de CPRE y los patrones locales de resistencia pueden modificar la elección práctica: sigue el protocolo de tu institución.",
+  "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano."
  ],
  "inicio": "n1",
  "nodos": {
   "n1": {
-   "estado": "Mujer de 68 años con colelitiasis conocida. Desde hace 2 días tiene dolor en hipocondrio derecho, fiebre con escalofríos y ictericia. Llega somnolente, con la piel seca y caliente. Sensibilidad en hipocondrio derecho sin signos de peritonitis.",
+   "estado": "Mujer de 68 años con colelitiasis conocida. Desde hace 2 días tiene dolor en hipocondrio derecho, fiebre con escalofríos e ictericia. Llega somnolienta, con piel seca y caliente. Hay sensibilidad en hipocondrio derecho sin signos de peritonitis.",
    "vitales": {
     "T": "39,2 °C",
     "FC": "118 /min",
@@ -84,136 +128,372 @@
     "SatO₂": "94 % (aire ambiente)"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta inicial prioritaria?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "cirugia"
+    ],
+    "n1": "Fiebre, ictericia, dolor, hipotensión y confusión: antes de pensar en la anatomía, piensa en la gravedad y en qué no puede esperar.",
+    "n2": "La hipotensión con alteración de conciencia indica hipoperfusión. ¿Qué intervenciones se hacen en paralelo al estudio y no después de él?"
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reconocer sepsis de origen biliar: vía venosa, hemocultivos, cristaloides, antibiótico de amplio espectro en la primera hora, laboratorio completo con lactato y ecografía abdominal",
-     "calidad": "optima",
-     "siguiente": "n2",
-     "explicacion": "Fiebre, ictericia, dolor y alteración hemodinámica y de conciencia sugieren colangitis aguda con sepsis. Los hemocultivos se toman antes del antibiótico, que no debe demorarse, y se resucita a la vez que se estudia.",
+     "texto": "Solicitar una colangiorresonancia urgente para definir la causa de la obstrucción y mantener ayuno hasta contar con el informe, antes de otras medidas",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "La imagen avanzada no debe preceder a la reanimación ni al antibiótico; además la ecografía basta al inicio para ver la vía biliar dilatada.",
+     "id": "A",
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
       "r3",
       "r4"
      ]
     },
     {
-     "id": "b",
-     "texto": "Pedir colangio-resonancia y esperar el informe antes de dar tratamiento",
-     "calidad": "incorrecta",
-     "siguiente": "n_det",
-     "explicacion": "La imagen no debe retrasar la resucitación ni el antibiótico. Con hipotensión y alteración del sensorio cada hora sin tratamiento aumenta el riesgo de muerte.",
-     "tema": "Reconocimiento de la sepsis de origen biliar",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r4"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Administrar antibiótico y analgesia, ingresar a piso y programar ecografía para mañana",
-     "calidad": "aceptable",
-     "siguiente": "n_det",
-     "explicacion": "Reconoce la infección, pero subestima la gravedad: con hipotensión necesita reanimación con líquidos, monitorización estrecha y un plan de drenaje, no una sala general.",
+     "texto": "Monitorización con dos vías y hemocultivos con lactato, y cristaloides con antibiótico de amplio espectro en la primera hora más ecografía abdominal",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "Fiebre, ictericia, dolor e hipotensión con alteración del sensorio configuran sepsis de origen biliar: cultivos, antibiótico en la primera hora y reanimación se hacen en paralelo al estudio.",
+     "id": "B",
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Reconocimiento y triaje",
      "refs": [
+      "rp",
+      "r3",
       "r4"
      ]
     },
     {
-     "id": "d",
-     "texto": "Analgesia, antiespasmódico y alta con ecografía ambulatoria",
+     "texto": "Indicar analgésico y antiespasmódico, hidratación oral y alta con ecografía ambulatoria en 48 horas si el dolor persiste",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Es una emergencia con riesgo vital: dar de alta una sepsis biliar con hipotensión y alteración de conciencia es un error crítico.",
+     "siguiente": "d1",
+     "explicacion": "Es una emergencia con riesgo vital: dar de alta una sepsis con hipotensión y alteración de conciencia es un error crítico.",
+     "id": "C",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Hospitalizar en sala general con antibiótico endovenoso e hidratación de mantenimiento, y control de signos vitales cada seis horas por el equipo de guardia",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Reconoce la infección pero subestima la gravedad: con hipotensión y confusión se requieren reposición dirigida, monitoreo estrecho y plan de drenaje.",
+     "id": "D",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Monitorizar, canalizar una vía y calmar el dolor; completar laboratorio y ecografía para confirmar el origen biliar antes de iniciar el antibiótico indicado",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Con hipotensión no se espera a confirmar el origen: cada hora sin antibiótico eficaz aumenta la mortalidad. Los cultivos se toman antes de la dosis, sin demorarla.",
+     "omision": true,
+     "id": "E",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "r1": {
+   "estado": "Una hora después, sin reanimación ni antibiótico completos, la paciente persiste hipotensa, más somnolienta y con diuresis escasa. Se obtiene el primer lactato.",
+   "vitales": {
+    "PA": "80/46 mmHg",
+    "FC": "124 /min",
+    "Diuresis": "20 mL en 2 h",
+    "Conciencia": "responde al llamado"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la corrección inmediata?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci"
+    ],
+    "n1": "La paciente ya perdió tiempo. Lo que corrige el rumbo es lo que se omitió al inicio.",
+    "n2": "Piensa en el paquete de la primera hora: cultivos, antibiótico y reposición; el estudio de imagen continúa en paralelo."
+   },
+   "laboratorio": {
+    "titulo": "Primer lactato",
+    "resultados": [
+     {
+      "prueba": "lactato",
+      "valor": 4.4
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar paracetamol endovenoso y oxígeno, y repetir signos vitales en una hora, porque la fiebre explica la taquicardia y la hipotensión",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Atribuir la hipotensión a la fiebre subestima la sepsis; el tratamiento antipirético no corrige la hipoperfusión ni el foco.",
+     "id": "A",
      "tema": "Reconocimiento de la sepsis de origen biliar",
      "competencia": "Seguridad del paciente",
      "refs": [
-      "r2"
+      "rp",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Dar un antiinflamatorio no esteroideo para el dolor y la fiebre, y continuar la observación en la misma sala hasta que mejore la presión",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Con lesión renal incipiente y choque, los antiinflamatorios no esteroideos empeoran la función renal: están contraindicados.",
+     "id": "B",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Esperar el informe de la colangiorresonancia solicitada antes de iniciar el antibiótico y decidir el nivel de cuidados que requiere la paciente",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Aguardar un estudio con una paciente que empeora prolonga el choque sin tratamiento; el diagnóstico clínico ya es suficiente para actuar.",
+     "omision": true,
+     "id": "C",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Iniciar ya cristaloides y antibiótico de amplio espectro tras los hemocultivos, pasar a cuidados críticos y continuar el estudio en paralelo",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El retraso ya ocurrió: la corrección es reanimar y dar el antibiótico ahora, con vigilancia crítica, sin esperar más estudios.",
+     "id": "D",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Administrar un bolo de cristaloides y reevaluar en dos horas, dejando el antibiótico para cuando se confirme la causa de la obstrucción",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Reponer volumen es necesario, pero sin antibiótico eficaz la fuente sigue activa y la paciente continúa en riesgo de choque refractario.",
+     "id": "E",
+     "tema": "Reconocimiento de la sepsis de origen biliar",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "rp",
+      "r3",
+      "r4"
      ]
     }
-   ]
+   ],
+   "clave": "D"
   },
   "n2": {
-   "estado": "Tras la reanimación inicial y el antibiótico llegan los resultados. Leucocitos 19 000/µL, bilirrubina total 6,8 mg/dL con fosfatasa alcalina y GGT elevadas, creatinina 2,4 mg/dL, plaquetas 82 000/µL, lactato 4,1 mmol/L. La ecografía muestra la vía biliar principal dilatada a 12 mm con un cálculo en su extremo distal y vesícula con litiasis.",
+   "estado": "Tras la reanimación inicial y el antibiótico llegan los estudios. La ecografía muestra la vía biliar principal dilatada a 12 mm con un cálculo en su extremo distal y vesícula con litiasis. La paciente sigue somnolienta pero despierta.",
    "vitales": {
     "T": "38,9 °C",
     "FC": "112 /min",
     "PA": "92/58 mmHg",
     "Diuresis": "escasa",
-    "Conciencia": "somnolienta pero despierta"
+    "Conciencia": "somnolienta"
    },
    "gravedad": 2,
+   "tipo": "interpretacion",
+   "peso": 2,
+   "pregunta": "¿Cuál es la interpretación correcta de los estudios?",
+   "ayuda": {
+    "especialista": "gastro",
+    "pertinentes": [
+     "gastro",
+     "cirugia"
+    ],
+    "n1": "Compara los valores con los intervalos de referencia. Hay tres dominios en el diagnóstico (inflamación, colestasis, imagen) y un paso adicional para graduar.",
+    "n2": "Para graduar la colangitis se busca disfunción de órganos: revisa renal, hematológica, coagulación, hemodinamia y conciencia."
+   },
+   "laboratorio": {
+    "titulo": "Resultados de laboratorio",
+    "resultados": [
+     {
+      "prueba": "leucocitos",
+      "valor": 19.0
+     },
+     {
+      "prueba": "pcr",
+      "valor": 18.0
+     },
+     {
+      "prueba": "bilirrubina_total",
+      "valor": 6.8
+     },
+     {
+      "prueba": "bilirrubina_directa",
+      "valor": 5.1
+     },
+     {
+      "prueba": "fosfatasa_alcalina",
+      "valor": 420
+     },
+     {
+      "prueba": "ggt",
+      "valor": 380
+     },
+     {
+      "prueba": "ast",
+      "valor": 160
+     },
+     {
+      "prueba": "alt",
+      "valor": 140
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 2.4
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 82
+     },
+     {
+      "prueba": "inr",
+      "valor": 1.7
+     }
+    ],
+    "ocultar_marcas": true
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Colangitis aguda grado III (grave) por disfunción orgánica: continuar el soporte y gestionar drenaje biliar urgente (CPRE) en cuanto esté estabilizada",
-     "calidad": "optima",
+     "texto": "Pancreatitis aguda biliar con compromiso sistémico, por lo que conviene esperar la lipasa y la evolución de 24 horas antes de plantear un drenaje",
+     "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "Hay disfunción renal, hematológica y alteración de conciencia: grado III de Tokio 2018. En el grado III la clave es el control del foco con drenaje urgente además del antibiótico.",
-     "tema": "Clasificación de la colangitis (Tokio 2018) y drenaje",
+     "explicacion": "Podría coexistir, pero el patrón colestásico con ictericia, fiebre y dilatación biliar corresponde a colangitis; esperar retrasa el control del foco.",
+     "omision": true,
+     "id": "A",
+     "tema": "Clasificación de la colangitis (Tokio 2018)",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
-      "r1",
-      "r2"
+      "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Seguir solo con antibiótico 48 a 72 horas y drenar únicamente si no mejora",
+     "texto": "Hepatitis aguda de origen viral con colestasis, siendo la dilatación de la vía biliar atribuible a la edad de la paciente",
      "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "Esa estrategia corresponde a formas leves. En la colangitis grave con obstrucción persistente, esperar sin drenar aumenta la mortalidad.",
-     "tema": "Clasificación de la colangitis (Tokio 2018) y drenaje",
-     "competencia": "Tratamiento inicial",
+     "explicacion": "La fiebre alta, la hipotensión y el patrón colestásico con cálculo visible no se explican por una hepatitis; la dilatación tiene causa obstructiva.",
+     "id": "B",
+     "tema": "Clasificación de la colangitis (Tokio 2018)",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
-      "r2"
+      "r1"
      ]
     },
     {
-     "id": "c",
-     "texto": "Llevarla esta noche a colecistectomía laparoscópica para quitar el origen del problema",
+     "texto": "Colangitis aguda con criterios de Tokio definitivos y gravedad grado III por disfunción de órganos (renal, hematológica y de la coagulación)",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Hay inflamación sistémica, colestasis y dilatación biliar con cálculo; la creatinina, las plaquetas y el INR alterados implican disfunción orgánica, es decir grado III.",
+     "id": "C",
+     "tema": "Clasificación de la colangitis (Tokio 2018)",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Colecistitis aguda litiásica con respuesta inflamatoria sistémica, siendo la dilatación de la vía biliar un hallazgo incidental sin relación con el cuadro",
      "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "La cirugía definitiva en una paciente inestable con sepsis es de alto riesgo. Primero se drena la vía biliar y, tras la recuperación, se planifica la cirugía.",
-     "tema": "Clasificación de la colangitis (Tokio 2018) y drenaje",
-     "competencia": "Tratamiento inicial",
+     "explicacion": "La dilatación del colédoco con cálculo distal y la colestasis con bilirrubina elevada indican obstrucción biliar con infección, no una colecistitis aislada.",
+     "id": "D",
+     "tema": "Clasificación de la colangitis (Tokio 2018)",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
-      "r2"
+      "r1"
      ]
     },
     {
-     "id": "d",
-     "texto": "Drenaje percutáneo transhepático inmediato como primera opción, aunque haya endoscopista disponible",
-     "calidad": "aceptable",
+     "texto": "Colangitis aguda de gravedad moderada (grado II), porque la bilirrubina, los leucocitos y la fiebre cumplen criterios sin compromiso orgánico",
+     "calidad": "incorrecta",
      "siguiente": "n3",
-     "explicacion": "Es una alternativa válida si la CPRE no está disponible o no es posible, pero la vía endoscópica suele ser la primera opción cuando existe.",
-     "tema": "Clasificación de la colangitis (Tokio 2018) y drenaje",
-     "competencia": "Tratamiento inicial",
+     "explicacion": "Los valores del grado II existen, pero la disfunción renal, hematológica y de coagulación sitúa el cuadro en grado III, con otra urgencia de drenaje.",
+     "id": "E",
+     "tema": "Clasificación de la colangitis (Tokio 2018)",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
-      "r2"
+      "r1"
      ]
     }
-   ]
+   ],
+   "clave": "C"
   },
   "n3": {
-   "estado": "Mientras se prepara el drenaje, tras el volumen inicial sigue hipotensa y con lactato alto. Está recibiendo cristaloides y antibiótico.",
+   "estado": "Tras 30 mL/kg de cristaloides la presión sigue baja y la paciente continúa oligúrica. El lactato se mantiene elevado. Se prepara el traslado a una unidad de cuidados críticos mientras se coordina el drenaje.",
    "vitales": {
     "PA": "80/45 mmHg",
     "PAM": "57 mmHg",
     "FC": "120 /min",
-    "Lactato": "4,4 mmol/L"
+    "Diuresis": "escasa"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es el soporte hemodinámico adecuado?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci"
+    ],
+    "n1": "La hipotensión persiste tras el volumen inicial: piensa en qué fármaco se añade y cuál es la meta de presión.",
+    "n2": "En el choque séptico hay un vasopresor de primera línea con una meta de PAM definida por la guía."
+   },
+   "laboratorio": {
+    "titulo": "Control de lactato",
+    "resultados": [
+     {
+      "prueba": "lactato",
+      "valor": 4.4
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Iniciar noradrenalina para mantener una PAM de al menos 65 mmHg y continuar la reposición guiada por la respuesta mientras se hace el drenaje",
+     "texto": "Iniciar noradrenalina para una PAM de 65 mmHg o más, colocar línea arterial y seguir la reposición guiada por la respuesta, mientras se drena",
      "calidad": "optima",
      "siguiente": "n4",
-     "explicacion": "En el choque séptico que no responde a la reposición inicial se añade noradrenalina como vasopresor de primera línea, con PAM objetivo de 65 mmHg y reevaluación continua.",
+     "explicacion": "En el choque séptico persistente tras la reposición inicial, la noradrenalina es el vasopresor de primera línea con meta de PAM de 65 mmHg, con reevaluación continua.",
+     "id": "A",
      "tema": "Soporte hemodinámico en el choque séptico",
      "competencia": "Tratamiento inicial",
      "refs": [
@@ -221,11 +501,11 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Seguir aumentando el volumen de líquidos sin límite y sin vasopresor",
+     "texto": "Usar dopamina como vasopresor de primera elección, porque está disponible por vía periférica y es de fácil titulación en emergencia",
      "calidad": "incorrecta",
      "siguiente": "n4",
-     "explicacion": "Un exceso de líquidos sin vasopresor tampoco corrige la hipotensión vasodilatada y puede causar sobrecarga. Se reevalúa tras cada aporte y se asocia vasopresor.",
+     "explicacion": "La guía sugiere noradrenalina antes que dopamina; esta se asocia con más arritmias y no ofrece ventaja en el choque séptico.",
+     "id": "B",
      "tema": "Soporte hemodinámico en el choque séptico",
      "competencia": "Tratamiento inicial",
      "refs": [
@@ -233,21 +513,220 @@
      ]
     },
     {
-     "id": "c",
-     "texto": "Dar un antiinflamatorio no esteroideo para la fiebre y el dolor",
-     "calidad": "peligrosa",
+     "texto": "Iniciar vasopresina como primer y único vasopresor en esta paciente de 68 años para evitar los efectos adrenérgicos sobre el ritmo cardíaco",
+     "calidad": "incorrecta",
      "siguiente": "n4",
-     "explicacion": "Con lesión renal y choque los antiinflamatorios no esteroideos empeoran la función renal: están contraindicados.",
-     "tema": "Seguridad: fármacos nefrotóxicos en el choque",
-     "competencia": "Seguridad del paciente",
+     "explicacion": "La vasopresina se añade a la noradrenalina cuando esta no basta; no se recomienda como primera línea.",
+     "id": "C",
+     "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r4"
+     ]
+    },
+    {
+     "texto": "Seguir aumentando los líquidos de forma continua y reevaluar en dos horas antes de añadir cualquier vasopresor, pues aún puede responder al volumen",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Más líquidos sin límite no corrigen la vasodilatación y favorecen la sobrecarga; el vasopresor se asocia sin esperar horas.",
+     "omision": true,
+     "id": "D",
+     "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r4"
+     ]
+    },
+    {
+     "texto": "Administrar un antiinflamatorio no esteroideo para la fiebre, mientras se coordina el drenaje y se espera la mejoría de la presión",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Con lesión renal y choque, los antiinflamatorios no esteroideos empeoran la función renal: error crítico.",
+     "id": "E",
+     "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Tratamiento inicial",
      "refs": [
       "r4"
      ]
     }
-   ]
+   ],
+   "clave": "A"
   },
   "n4": {
-   "estado": "Se realiza el drenaje endoscópico con salida de bilis turbia y se toman cultivos. A las 24 horas la presión se normaliza sin vasopresor, la fiebre cede y baja la bilirrubina. Los hemocultivos informan un bacilo gramnegativo sensible al antibiótico en curso.",
+   "estado": "Con noradrenalina la presión mejora a 98/60 mmHg. Cirugía y endoscopia están disponibles. La paciente cumple criterios de colangitis grado III con obstrucción por cálculo y hay que decidir cómo y cuándo controlar el foco.",
+   "vitales": {
+    "PA": "98/60 mmHg",
+    "FC": "104 /min",
+    "Vasopresor": "noradrenalina en curso",
+    "Lactato": "3,2 mmol/L"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cómo y cuándo se controla el foco?",
+   "ayuda": {
+    "especialista": "gastro",
+    "pertinentes": [
+     "gastro",
+     "cirugia"
+    ],
+    "n1": "La obstrucción infectada solo mejora con el antibiótico si se descomprime. Piensa en la gravedad para decidir el momento.",
+    "n2": "En el grado III el drenaje se hace lo antes posible tras estabilizar; compara vías y evita la cirugía mayor en esta fase."
+   },
+   "decisiones": [
+    {
+     "texto": "Drenaje percutáneo transhepático inmediato como primera opción, aunque haya endoscopista disponible y la paciente sea candidata a la vía endoscópica",
+     "calidad": "aceptable",
+     "siguiente": "n5",
+     "explicacion": "Es válido si la vía endoscópica no está disponible o no es posible, pero la endoscópica suele ser la primera opción cuando existe.",
+     "id": "A",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Solicitar una colangiorresonancia previa y programar el drenaje para la mañana siguiente con la paciente en observación",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La imagen adicional no es obligatoria antes del drenaje en la colangitis grave y programar para el día siguiente retrasa el control del foco.",
+     "id": "B",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Colecistectomía laparoscópica de urgencia esa misma noche para suprimir el origen de los cálculos y la infección",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La cirugía definitiva en una paciente inestable con sepsis es de alto riesgo; primero se drena la vía biliar y la cirugía se planifica tras la recuperación.",
+     "id": "C",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Continuar solo con antibiótico durante 48 a 72 horas y plantear el drenaje únicamente si no hay mejoría clínica en ese lapso",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Esa estrategia corresponde a formas leves; en el grado III, esperar sin drenar aumenta la mortalidad.",
+     "omision": true,
+     "id": "D",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Drenaje biliar endoscópico urgente en cuanto esté estabilizada, sin esperar la mejoría completa, y drenaje percutáneo si la endoscopia no es posible",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "En el grado III se drena de forma urgente tras estabilizar; la vía endoscópica suele ser la primera opción y la percutánea una alternativa.",
+     "id": "E",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "r2": {
+   "estado": "Seis horas después sin drenaje efectivo la paciente sigue con fiebre, requerimiento de vasopresor y bilirrubina en ascenso. Se reevalúa la estrategia.",
+   "vitales": {
+    "T": "39,1 °C",
+    "PA": "92/54 mmHg (con noradrenalina)",
+    "FC": "116 /min",
+    "Bilirrubina": "ascendiendo"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige la falta de mejoría?",
+   "ayuda": {
+    "especialista": "cirugia",
+    "pertinentes": [
+     "cirugia",
+     "gastro",
+     "uci"
+    ],
+    "n1": "La paciente no mejora con antibiótico y soporte: ¿qué falta para controlar el origen?",
+    "n2": "El problema es mecánico (obstrucción); la solución es descomprimir, no solo medicar."
+   },
+   "decisiones": [
+    {
+     "texto": "Cambiar a un antibiótico de espectro aún más amplio y repetir los cultivos antes de plantear el drenaje biliar",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Ampliar el antibiótico no descomprime la vía biliar obstruida; la causa del fracaso es la falta de drenaje.",
+     "omision": true,
+     "id": "A",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Activar ya el drenaje biliar urgente por vía endoscópica o percutánea manteniendo el soporte de órganos y el antibiótico",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "La falta de mejoría confirma que el foco obstruido sigue activo: el drenaje urgente es la intervención que falta.",
+     "id": "B",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Reducir el soporte hemodinámico, porque la presión se mantiene dentro de la meta y suspender la monitorización invasiva",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Retirar soporte en un paciente que sigue séptico y sin foco controlado puede precipitar un colapso hemodinámico.",
+     "id": "C",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Pasar a una colecistectomía abierta de urgencia como única forma de eliminar el origen de la infección",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La cirugía mayor en un paciente en choque tiene alto riesgo; el drenaje menos invasivo es el control del foco inicial.",
+     "id": "D",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Mantener el esquema, esperar 24 horas más y reevaluar con nuevos exámenes de laboratorio antes de cambiar la conducta",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Esperar otras 24 horas con choque persistente y un foco sin drenar aumenta el riesgo de falla multiorgánica.",
+     "id": "E",
+     "tema": "Drenaje biliar urgente",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "n5": {
+   "estado": "El drenaje endoscópico se realiza sin incidentes con salida de bilis turbia y se colocan los cultivos. A las 24 horas la presión se normaliza sin vasopresor y la fiebre cede. El hemocultivo informa un bacilo gramnegativo sensible al antibiótico en curso.",
    "vitales": {
     "T": "37,4 °C",
     "FC": "88 /min",
@@ -255,95 +734,506 @@
     "Diuresis": "recuperada"
    },
    "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cómo ajustas el antibiótico?",
+   "ayuda": {
+    "especialista": "infecto",
+    "pertinentes": [
+     "infecto"
+    ],
+    "n1": "El foco ya está controlado y hay microbiología: piensa en desescalar y en cuánto debe durar.",
+    "n2": "Tras el control del foco el tratamiento suele ser corto y dirigido al agente identificado."
+   },
+   "laboratorio": {
+    "titulo": "Microbiología a las 24 h",
+    "resultados": [
+     {
+      "prueba": "hemocultivo",
+      "valor": "positivo: bacilo gramnegativo sensible"
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Ajustar el antibiótico a los cultivos, mantenerlo unos días tras el control del foco y planificar el tratamiento definitivo de los cálculos y la vesícula antes del alta o poco después",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "Controlado el foco, la duración suele ser corta y guiada por la evolución y los cultivos. La litiasis sigue ahí: sin tratamiento definitivo la colangitis puede recurrir.",
-     "tema": "Duración del antibiótico y tratamiento definitivo",
-     "competencia": "Disposición y seguimiento",
-     "refs": [
-      "r3",
-      "r2"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Suspender el antibiótico en cuanto desaparezca la fiebre y dar de alta sin plan definitivo",
+     "texto": "Suspender todo antibiótico apenas desaparezca la fiebre para evitar toxicidad y resistencia, y dar el alta después",
      "calidad": "incorrecta",
-     "siguiente": "f_regular",
-     "explicacion": "Suspender sin criterio y sin tratar la causa expone a recaída y a nueva colangitis.",
-     "tema": "Duración del antibiótico y tratamiento definitivo",
-     "competencia": "Disposición y seguimiento",
+     "siguiente": "n6",
+     "explicacion": "Suspender de inmediato sin criterio expone a recaída; se mantiene un curso corto adaptado a cultivos y evolución.",
+     "id": "A",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Tratamiento inicial",
      "refs": [
       "r3"
      ]
     },
     {
-     "id": "c",
-     "texto": "Mantener el antibiótico más de dos semanas por rutina y posponer sin fecha la cirugía",
+     "texto": "Añadir un segundo antibiótico de otra familia al esquema actual por el hallazgo del hemocultivo positivo en el paciente que mejora",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "El agente es sensible y la paciente mejora: asociar otro fármaco no aporta y aumenta la toxicidad.",
+     "id": "B",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "Pasar a tratamiento oral ambulatorio por seis semanas con el mismo espectro para asegurar la erradicación completa de la infección",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "No hay indicación de un tratamiento tan prolongado tras el drenaje; el curso es corto salvo bacteriemia por grampositivos.",
+     "omision": true,
+     "id": "C",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "Mantener el esquema de amplio espectro durante 14 días por rutina, sin modificarlo, para prevenir una recaída biliar",
      "calidad": "aceptable",
-     "siguiente": "f_regular",
-     "explicacion": "Alargar el antibiótico sin indicación no es necesario tras el control del foco y dejar sin plan la causa deja el riesgo de recurrencia.",
-     "tema": "Duración del antibiótico y tratamiento definitivo",
-     "competencia": "Disposición y seguimiento",
+     "siguiente": "n6",
+     "explicacion": "Alargar un amplio espectro sin necesidad tras el control del foco aumenta efectos adversos y resistencia, aunque no empeore el pronóstico de inmediato.",
+     "id": "D",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r3"
+     ]
+    },
+    {
+     "texto": "Ajustar el antibiótico al agente sensible y mantenerlo unos días tras el control del foco, revisando la indicación a diario",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "Controlado el foco, la duración suele ser corta (días) y guiada por la evolución y los cultivos; se desescala al agente identificado.",
+     "id": "E",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Tratamiento inicial",
      "refs": [
       "r3"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
-  "n_det": {
-   "estado": "Tres horas después, sin control hemodinámico ni drenaje, empeora: confusión, hipotensión que no responde, oliguria y piel moteada.",
+  "n6": {
+   "estado": "A las 72 horas la paciente está afebril, sin vasopresor y tolera la vía oral. Los exámenes de control muestran mejoría. Se decide el nivel de cuidados y la vigilancia.",
    "vitales": {
-    "PA": "70/40 mmHg",
-    "FC": "130 /min",
-    "FR": "30 /min",
-    "Lactato": "6 mmol/L"
+    "T": "36,8 °C",
+    "PA": "122/74 mmHg",
+    "FC": "80 /min",
+    "Vía oral": "tolera"
    },
-   "gravedad": 2,
+   "gravedad": 0,
+   "tipo": "interpretacion",
+   "peso": 2,
+   "pregunta": "¿Cómo se continúa el manejo?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "cirugia",
+     "gastro"
+    ],
+    "n1": "Compara los controles con sus intervalos: ¿se resolvieron las disfunciones que definían la gravedad?",
+    "n2": "Si ya no hay disfunción, el nivel de cuidados puede bajar con vigilancia de laboratorio."
+   },
+   "laboratorio": {
+    "titulo": "Controles a las 72 h",
+    "resultados": [
+     {
+      "prueba": "creatinina",
+      "valor": 1.1
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 168
+     },
+     {
+      "prueba": "inr",
+      "valor": 1.1
+     },
+     {
+      "prueba": "bilirrubina_total",
+      "valor": 2.3
+     },
+     {
+      "prueba": "leucocitos",
+      "valor": 9.4
+     }
+    ],
+    "ocultar_marcas": true
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Reanimar de inmediato (cristaloides, vasopresor, antibiótico de amplio espectro) y gestionar drenaje biliar urgente con UCI",
+     "texto": "Indicar el alta inmediata a domicilio con antibiótico oral sin controles, porque ya tolera la vía oral y no tiene fiebre",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Aún falta confirmar la normalización de la función renal y hepática y planificar la causa: el alta sin vigilancia es prematura.",
+     "omision": true,
+     "id": "A",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Trasladar a sala y repetir una colangiorresonancia diaria para vigilar la evolución del drenaje, mientras dure la hospitalización",
+     "calidad": "aceptable",
+     "siguiente": "n7",
+     "explicacion": "La vigilancia con imagen diaria no es necesaria sin deterioro; bastan la clínica y el laboratorio, aunque no es dañina.",
+     "id": "B",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Trasladar a sala general con control diario de función renal, bilirrubina y hemograma, y mantener el antibiótico dirigido",
      "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "Es un choque séptico de origen biliar: soporte de órganos y control urgente del foco son inseparables y no admiten más demora.",
+     "siguiente": "n7",
+     "explicacion": "La evolución favorable permite salir de cuidados críticos con vigilancia de laboratorio para confirmar la resolución de la disfunción orgánica.",
+     "id": "C",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Mantener en cuidados intensivos una semana más con vasopresor de reserva y monitorización invasiva continua por prevención",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Sin disfunción activa ni vasopresor, prolongar cuidados críticos no aporta y expone a riesgos innecesarios.",
+     "id": "D",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Suspender los controles de laboratorio al estar afebril, y reevaluar solo si reaparecen los síntomas en los días siguientes",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "La mejoría clínica no reemplaza la verificación de laboratorio de la disfunción previa.",
+     "id": "E",
+     "tema": "Antibiótico dirigido y duración",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n7": {
+   "estado": "Al quinto día la paciente está estable, sin fiebre, con bilirrubina en descenso. La vía biliar sigue con un cálculo residual conocido y vesícula con litiasis.",
+   "vitales": {
+    "T": "36,7 °C",
+    "PA": "124/76 mmHg",
+    "Bilirrubina": "descendiendo",
+    "Estado": "estable"
+   },
+   "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es el plan definitivo y de seguimiento?",
+   "ayuda": {
+    "especialista": "cirugia",
+    "pertinentes": [
+     "cirugia",
+     "gastro"
+    ],
+    "n1": "La infección se controló, pero la causa sigue ahí. Piensa en qué debe resolverse para que no vuelva.",
+    "n2": "El tratamiento definitivo incluye la vía biliar y la vesícula, con un momento oportuno tras la recuperación."
+   },
+   "decisiones": [
+    {
+     "texto": "Suspender el seguimiento y la educación a la paciente, porque la infección ya se resolvió y no volverá a presentarse",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Dejar sin plan una enfermedad litiásica con colangitis grave previa puede condicionar una recaída potencialmente mortal.",
+     "id": "A",
+     "tema": "Tratamiento definitivo de la causa",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Dar el alta con antibiótico oral y control en un año, ya que el drenaje resolvió el cuadro y la paciente se siente bien y tolera la dieta",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Sin tratamiento definitivo de la causa litiásica el riesgo de recurrencia es alto y puede ser grave.",
+     "omision": true,
+     "id": "B",
+     "tema": "Tratamiento definitivo de la causa",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Indicar dieta baja en grasas y ácido ursodesoxicólico como tratamiento definitivo, sin programar procedimiento alguno por ahora",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Estas medidas no tratan un cálculo en la vía biliar ni la vesícula litiásica con antecedente de colangitis grave.",
+     "id": "C",
+     "tema": "Tratamiento definitivo de la causa",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Planificar la extracción de los cálculos biliares y la colecistectomía en esta hospitalización o poco después, con seguimiento programado",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Resuelta la sepsis, la causa persiste: sin tratamiento definitivo de los cálculos y de la vesícula, la colangitis puede recurrir.",
+     "id": "D",
+     "tema": "Tratamiento definitivo de la causa",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Operar al día siguiente una colecistectomía abierta sin estudiar la vía biliar ni la función hepática de control previas",
+     "calidad": "aceptable",
+     "siguiente": "f_regular",
+     "explicacion": "La cirugía es el paso correcto, pero hacerla sin evaluar los cálculos de la vía biliar y la recuperación deja riesgos evitables.",
+     "id": "E",
+     "tema": "Tratamiento definitivo de la causa",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "d1": {
+   "estado": "Sin una reanimación y un tratamiento adecuados, la paciente cae en choque séptico avanzado: piel moteada, anuria y confusión marcada.",
+   "vitales": {
+    "PA": "68/38 mmHg",
+    "FC": "138 /min",
+    "Lactato": "6,2 mmol/L",
+    "Diuresis": "anuria"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "cirugia"
+    ],
+    "n1": "La paciente está en choque avanzado: todo lo que no corrige hipoperfusión y foco es secundario.",
+    "n2": "Piensa en soporte de órganos y control del foco a la vez; ninguno espera al otro ni a un estudio adicional."
+   },
+   "laboratorio": {
+    "titulo": "Gasometría y lactato",
+    "resultados": [
+     {
+      "prueba": "lactato",
+      "valor": 6.2
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Reanimar ya con cristaloides y noradrenalina más antibiótico de amplio espectro, cuidados intensivos y drenaje biliar urgente",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "Es un choque séptico de origen biliar avanzado: el soporte de órganos y el control urgente del foco no admiten más demora.",
+     "id": "A",
      "tema": "Soporte hemodinámico en el choque séptico",
-     "competencia": "Tratamiento inicial",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r2",
       "r4"
      ]
     },
     {
-     "id": "b",
-     "texto": "Esperar el resultado de la resonancia para decidir",
-     "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "En el choque cada hora cuenta: demorar el control del foco y la reanimación por completar estudios es un error crítico.",
+     "texto": "Indicar antibiótico y reposición, y reservar el drenaje biliar para cuando la paciente tenga presión normal sin ningún soporte",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "Esperar la normalización sin soporte equivale a no drenar: el control del foco es lo que permite retirar el soporte.",
+     "id": "B",
      "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Esperar el informe de la colangiorresonancia antes de reanimar o drenar, porque el resultado definirá la intervención más adecuada",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "En el choque séptico demorar la reanimación y el drenaje por completar estudios es una decisión crítica que lleva a la muerte.",
+     "id": "C",
+     "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Continuar la reposición con cristaloides y observar la respuesta dos horas antes de añadir otros fármacos o avisar a cuidados intensivos",
+     "calidad": "incorrecta",
+     "siguiente": "n2",
+     "explicacion": "El choque con anuria y lactato elevado requiere vasopresor y cuidados críticos ya; la observación pasiva prolonga la hipoperfusión.",
+     "omision": true,
+     "id": "D",
+     "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2",
+      "r4"
+     ]
+    },
+    {
+     "texto": "Dar un antiinflamatorio y continuar la observación, ya que la presión suele recuperarse espontáneamente tras el control de la fiebre",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Un antiinflamatorio con choque y lesión renal agrava el daño y la observación pasiva deja evolucionar la falla multiorgánica.",
+     "id": "E",
+     "tema": "Soporte hemodinámico en el choque séptico",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r2",
+      "r4"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "d2": {
+   "estado": "Horas después del antiinflamatorio la paciente queda anúrica, con presión en descenso pese a la noradrenalina y malestar con debilidad generalizada. Los nuevos estudios muestran hiperpotasemia y acidosis.",
+   "vitales": {
+    "PA": "70/40 mmHg (con noradrenalina)",
+    "FC": "132 /min",
+    "Diuresis": "anuria",
+    "ECG": "ondas T picudas"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci"
+    ],
+    "n1": "Hay choque y lesión renal con alteraciones del potasio y del pH: prioriza lo que amenaza el ritmo y la perfusión.",
+    "n2": "Trata la hiperpotasemia y la acidosis con monitorización y considera el soporte renal; no abandones el control del foco."
+   },
+   "laboratorio": {
+    "titulo": "Estudios urgentes",
+    "resultados": [
+     {
+      "prueba": "potasio",
+      "valor": 6.1
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 3.4
+     },
+     {
+      "prueba": "ph",
+      "valor": 7.18
+     },
+     {
+      "prueba": "lactato",
+      "valor": 5.1
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Suspender el vasopresor por la hiperpotasemia y esperar la recuperación espontánea de la diuresis antes de reiniciar el soporte",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Retirar el soporte en un choque con acidosis y lesión renal lleva a un colapso hemodinámico irreversible.",
+     "id": "A",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r4"
+     ]
+    },
+    {
+     "texto": "Mantener la dosis actual del vasopresor y observar la diuresis durante dos horas antes de modificar otros aspectos del tratamiento",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Observar con anuria, potasio alto y acidosis expone a una arritmia; el tratamiento específico no puede esperar a la diuresis.",
+     "omision": true,
+     "id": "B",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r4"
+     ]
+    },
+    {
+     "texto": "Aportar bolos de una solución con potasio añadido para forzar la diuresis y mejorar la perfusión renal de la paciente",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Añadir potasio con hiperpotasemia y anuria puede provocar una arritmia fatal: es un error crítico.",
+     "id": "C",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r4"
+     ]
+    },
+    {
+     "texto": "Administrar furosemida en dosis altas para forzar la diuresis sin reevaluar el volumen intravascular ni el estado del choque",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Forzar la diuresis sin reevaluar volumen en un paciente en choque puede empeorar la perfusión y no corrige la hiperpotasemia.",
+     "id": "D",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r4"
+     ]
+    },
+    {
+     "texto": "Escalar el soporte, tratar la hiperpotasemia y la acidosis con monitorización y valorar terapia de reemplazo renal en cuidados intensivos",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La lesión renal aguda con hiperpotasemia y acidosis en el choque exige tratamiento inmediato y soporte renal si hace falta; el control del foco sigue siendo prioritario.",
+     "id": "E",
+     "tema": "Lesión renal aguda e hiperpotasemia en el choque",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r4"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
   "f_bueno": {
    "final": {
     "tipo": "bueno",
     "titulo": "Buen desenlace",
     "mensaje": "Se reconoció la gravedad a tiempo, se drenó la vía biliar y se planificó el tratamiento definitivo."
-   }
-  },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se estabilizó tras un deterioro que una actuación más temprana habría evitado."
    }
   },
   "f_regular": {
@@ -357,18 +1247,57 @@
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "La demora en la reanimación y el control del foco llevó a un choque refractario."
+    "mensaje": "Dejar sin plan la causa litiásica llevó a una recaída grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "La paciente falleció en choque séptico (educativo)",
+    "mensaje": "La demora sostenida en la reanimación y en el control del foco llevó a falla multiorgánica y muerte."
    }
   }
  },
  "informe": {
-  "resumen_clinico": "Mujer de 68 años con litiasis biliar y cuadro de dolor en hipocondrio derecho, fiebre e ictericia con hipotensión y alteración del sensorio. Los estudios mostraron respuesta inflamatoria, colestasis y dilatación de la vía biliar con cálculo distal; hubo disfunción renal, hematológica y neurológica: colangitis aguda grado III (grave) con choque séptico.",
+  "resumen_clinico": "Mujer de 68 años con litiasis biliar y cuadro de dolor en hipocondrio derecho, fiebre e ictericia con hipotensión y alteración del sensorio. Los estudios mostraron respuesta inflamatoria, colestasis y dilatación de la vía biliar con cálculo distal; hubo disfunción renal, hematológica y de coagulación.",
+  "diagnostico_final": "Colangitis aguda grado III (grave) por coledocolitiasis, con choque séptico.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Colecistitis aguda",
+    "por_que_no": "No explica la colestasis con dilatación de la vía biliar y cálculo distal ni la ictericia; puede coexistir."
+   },
+   {
+    "dx": "Pancreatitis aguda biliar",
+    "por_que_no": "Puede acompañar a la coledocolitiasis; el cuadro de fiebre, ictericia y choque con vía biliar dilatada orienta primero a colangitis."
+   },
+   {
+    "dx": "Hepatitis aguda",
+    "por_que_no": "No explica la dilatación obstructiva de la vía biliar ni el cálculo; la fosfatasa alcalina y la GGT altas con ictericia indican colestasis."
+   },
+   {
+    "dx": "Sepsis de otro foco",
+    "por_que_no": "El patrón colestásico con imagen compatible sitúa el foco en la vía biliar."
+   }
+  ],
+  "datos_clave": [
+   "Tríada de fiebre, ictericia y dolor en hipocondrio derecho con antecedente de litiasis (los tres dominios de Tokio: inflamación, colestasis e imagen).",
+   "Hipotensión y alteración del sensorio: hipoperfusión desde el inicio.",
+   "Disfunción de órganos (creatinina, plaquetas, INR) que define el grado III."
+  ],
   "razonamiento": [
    "Reconocer el síndrome (fiebre + ictericia + dolor) y valorar la gravedad hemodinámica desde el primer minuto.",
    "Resucitar y tratar en paralelo: hemocultivos, líquidos, antibiótico en la primera hora.",
-   "Confirmar con laboratorio y ecografía: inflamación, colestasis y dilatación biliar (criterios de Tokio 2018).",
-   "Graduar: disfunción orgánica = grado III; la consecuencia es el drenaje biliar urgente.",
-   "Controlar el foco, retirar vasopresor y definir antibiótico y tratamiento definitivo (cálculos y vesícula)."
+   "Confirmar con laboratorio y ecografía y graduar: disfunción orgánica = grado III.",
+   "Si la presión no mejora, añadir noradrenalina (PAM 65) y pasar a cuidados críticos.",
+   "Controlar el foco con drenaje biliar urgente (endoscópico de elección).",
+   "Desescalar el antibiótico a cultivos y acortar la duración tras el control del foco.",
+   "Tratar la causa (cálculos y vesícula) para evitar la recurrencia."
+  ],
+  "interpretacion_laboratorio": [
+   "Leucocitos y PCR elevados: inflamación sistémica (criterio A de Tokio).",
+   "Bilirrubina total y directa, fosfatasa alcalina y GGT elevadas con transaminasas aumentadas: colestasis con daño hepatocelular (criterio B).",
+   "Creatinina alta, plaquetas bajas e INR prolongado: disfunción renal, hematológica y de coagulación (grado III).",
+   "A las 72 horas: normalización de creatinina, plaquetas e INR y descenso de bilirrubina y leucocitos: la disfunción se resolvió."
   ],
   "tratamiento": [
    {
@@ -402,9 +1331,5 @@
    "g09"
   ],
   "mensaje_clave": "En la colangitis grave se resucita, se da antibiótico y se drena: el antibiótico solo no controla el foco obstruido."
- },
- "areas_banco": [
-  "cirugia",
-  "gastroenterologia"
- ]
+ }
 }

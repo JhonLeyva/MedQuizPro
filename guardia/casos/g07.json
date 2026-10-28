@@ -3,9 +3,36 @@
  "titulo": "Dolor torácico desgarrante en un hombre hipertenso",
  "especialidad": "Cardiología · Emergencias · Cirugía cardiovascular",
  "dificultad": 3,
- "duracion_min": 14,
- "resumen": "Varón de 58 años con dolor torácico súbito de máxima intensidad que se irradia a la espalda. Interpreta dos imágenes reales y decide qué tratamiento iniciar y cuál evitar.",
+ "duracion_min": 22,
+ "areas_banco": [
+  "cardiologia"
+ ],
+ "resumen": "Varón de 58 años con dolor torácico súbito de máxima intensidad que se irradia a la espalda. Interpreta dos imágenes reales y decide el control de la presión, la cirugía y el seguimiento.",
  "contexto": "Hospital con tomografía las 24 h, ecocardiografía y cirugía cardiovascular (o posibilidad de traslado inmediato).",
+ "paciente": {
+  "edad": 58,
+  "edad_texto": "58 años",
+  "sexo": "M",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "cardio",
+   "nombre": "Cardiología"
+  },
+  {
+   "id": "cirucv",
+   "nombre": "Cirugía cardiovascular"
+  },
+  {
+   "id": "uci",
+   "nombre": "Cuidados intensivos / anestesia"
+  },
+  {
+   "id": "rad",
+   "nombre": "Radiología"
+  }
+ ],
  "imagenes": [
   "im-71ea",
   "im-e052"
@@ -44,12 +71,13 @@
   }
  ],
  "discrepancias": [
-  "Las cifras de frecuencia cardíaca y presión provienen de la guía estadounidense 2022; la guía europea 2024 puede diferir en matices que no se compararon aquí. No se consultó una norma peruana específica. Las imágenes de este caso provienen de una misma publicación de otro paciente."
+  "Las cifras de frecuencia cardíaca y presión provienen de la guía estadounidense 2022; la guía europea 2024 puede diferir en matices que no se compararon aquí. No se consultó una norma peruana específica. Las imágenes de este caso provienen de una misma publicación de otro paciente.",
+  "Los intervalos de laboratorio del caso son educativos, no de un laboratorio peruano; la troponina depende del ensayo (en el caso se indica el percentil 99 supuesto)."
  ],
  "inicio": "n1",
  "nodos": {
   "n1": {
-   "estado": "Varón de 58 años, hipertenso mal controlado. Desde hace 40 minutos tiene un dolor torácico súbito, de máxima intensidad desde el inicio, que se irradia a la espalda interescapular. Está sudoroso y pálido. El ECG muestra taquicardia sinusal sin elevación del ST. Diferencia de presión entre ambos brazos.",
+   "estado": "Varón de 58 años, hipertenso mal controlado. Desde hace 40 minutos tiene un dolor torácico súbito, de máxima intensidad desde el inicio, que se irradia a la espalda interescapular. Está sudoroso y pálido. El ECG muestra taquicardia sinusal sin elevación del ST. Hay diferencia de presión entre ambos brazos.",
    "vitales": {
     "PA": "186/104 mmHg (brazo derecho)",
     "FC": "112 /min",
@@ -58,13 +86,56 @@
     "PA brazo izquierdo": "150/84 mmHg"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta inicial prioritaria?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "uci"
+    ],
+    "n1": "Dolor de máxima intensidad desde el inicio, irradiado a la espalda, con diferencia de presión entre brazos: ¿qué no debes dar antes de descartar el diagnóstico más grave?",
+    "n2": "Piensa en el síndrome aórtico agudo: estabiliza, controla frecuencia y presión y consigue la imagen sin dar antitrombóticos."
+   },
+   "laboratorio": {
+    "titulo": "Laboratorio inicial",
+    "resultados": [
+     {
+      "prueba": "troponina",
+      "valor": 38,
+      "etiqueta": "Troponina de alta sensibilidad",
+      "ref": {
+       "alto": 26,
+       "texto": "Percentil 99 del ensayo supuesto en el caso: 26 ng/L"
+      }
+     },
+     {
+      "prueba": "dimero_d",
+      "valor": 4.8
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.1
+     },
+     {
+      "prueba": "hemoglobina",
+      "valor": 14.2
+     },
+     {
+      "prueba": "lactato",
+      "valor": 1.9
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Monitorizar, dos vías venosas, analgesia endovenosa, control inicial de la frecuencia y de la presión, troponina y estudios de imagen urgentes con la aorta como sospecha principal",
+     "texto": "Monitorización con dos vías y analgesia endovenosa, control de frecuencia y presión y troponina con imagen urgente de la aorta",
      "calidad": "optima",
      "siguiente": "n2",
-     "explicacion": "El dolor desgarrante irradiado a la espalda con diferencia de presión entre brazos obliga a descartar patología aórtica antes de cualquier antitrombótico. Se estabiliza y se estudia en paralelo.",
+     "explicacion": "El dolor desgarrante irradiado a la espalda con diferencia de presión entre brazos obliga a descartar patología aórtica antes de cualquier antitrombótico.",
+     "id": "A",
      "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
      "competencia": "Reconocimiento y triaje",
      "refs": [
@@ -72,42 +143,142 @@
      ]
     },
     {
-     "id": "b",
-     "texto": "Tratarlo como infarto: aspirina, heparina y llevarlo a coronariografía de inmediato",
-     "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Anticoagular o dar trombolíticos ante una disección no descartada puede ser fatal. El ECG sin elevación del ST y el cuadro clínico no justifican esa conducta.",
-     "tema": "Seguridad: antitrombóticos ante sospecha de disección",
-     "competencia": "Seguridad del paciente",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Dar analgésico oral y alta con diagnóstico de dolor musculoesquelético",
-     "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "Dar de alta un dolor torácico de alto riesgo con diferencia de presión entre brazos es un error crítico.",
-     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
-     "competencia": "Seguridad del paciente",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "d",
-     "texto": "Pedir dímero D y decidir según el resultado",
+     "texto": "Pedir dímero D y troponina seriada y decidir la conducta según los resultados, manteniendo al paciente en observación",
      "calidad": "incorrecta",
-     "siguiente": "n2",
-     "explicacion": "El dímero D no debe retrasar la imagen en un paciente de alta probabilidad: la sospecha clínica ya es alta y la decisión depende de la imagen.",
+     "siguiente": "r1",
+     "explicacion": "En un paciente de alta probabilidad la decisión depende de la imagen: esperar marcadores retrasa el diagnóstico.",
+     "omision": true,
+     "id": "B",
      "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
-     "competencia": "Diagnóstico e interpretación de estudios",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar analgésico oral y alta con diagnóstico de dolor musculoesquelético y control en la consulta externa en las próximas semanas",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Dar de alta un dolor torácico de alto riesgo con diferencia de presión entre brazos es un error crítico.",
+     "id": "C",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar una ecocardiografía de estrés para descartar isquemia miocárdica antes de otros estudios de imagen del tórax",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Una prueba de estrés en un dolor agudo con sospecha de disección es inadecuada y puede ser peligrosa.",
+     "id": "D",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tratarlo como infarto con aspirina, heparina y llevarlo a coronariografía inmediata, sin descartar otras causas de dolor torácico grave",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Anticoagular o dar trombolíticos ante una disección no descartada puede ser fatal; el ECG no muestra elevación del ST.",
+     "id": "E",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Reconocimiento y triaje",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "A"
+  },
+  "r1": {
+   "estado": "Cuarenta minutos después, sin imagen todavía, el dolor persiste y el paciente está más pálido. Aparece un soplo diastólico nuevo y la presión en el brazo derecho es aún alta.",
+   "vitales": {
+    "PA": "180/100 mmHg",
+    "FC": "108 /min",
+    "Dolor": "persistente",
+    "Auscultación": "soplo diastólico nuevo"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige el rumbo?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "cirucv"
+    ],
+    "n1": "Apareció un soplo nuevo y el dolor persiste. ¿Qué estudio y qué aviso son ahora urgentes?",
+    "n2": "Estudio de la aorta con angiotomografía y aviso a cirugía cardiovascular, sin antitrombóticos."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar aspirina y heparina por posible síndrome coronario agudo con coronariografía programada para la mañana siguiente",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Anticoagular ante una posible disección no descartada es peligroso; la imagen aórtica es lo urgente.",
+     "id": "A",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener analgesia y control de frecuencia y presión, pedir ya una angiotomografía de aorta y avisar a cirugía cardiovascular",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El soplo nuevo refuerza la sospecha de compromiso de la raíz aórtica: se estudia ya la aorta y se alerta al equipo quirúrgico.",
+     "id": "B",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar la repetición de la troponina en tres horas antes de decidir el estudio, ya que el ECG no muestra elevación del ST",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "La troponina no descarta una disección; con soplo nuevo y dolor persistente se necesita imagen aórtica.",
+     "omision": true,
+     "id": "C",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar una ecocardiografía de estrés y una prueba de esfuerzo para evaluar la reserva coronaria del paciente con dolor torácico",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Las pruebas de esfuerzo están contraindicadas en un dolor torácico agudo con sospecha de disección.",
+     "id": "D",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar el alta con nitratos sublinguales y control cardiológico ambulatorio en una semana, ya que no hay signos de infarto en el ECG",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Dar el alta con sospecha de disección y signos nuevos es un error crítico.",
+     "id": "E",
+     "tema": "Dolor torácico agudo de alto riesgo: no es solo coronario",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
   },
   "n2": {
    "estado": "Se toma una radiografía de tórax portátil. Esta es una imagen real de la literatura publicada, de otro paciente. Obsérvala con atención.",
@@ -117,37 +288,29 @@
     "SatO₂": "95 %"
    },
    "gravedad": 2,
+   "tipo": "interpretacion",
+   "peso": 2,
+   "pregunta": "¿Cuál es la interpretación de la radiografía?",
+   "ayuda": {
+    "especialista": "rad",
+    "pertinentes": [
+     "rad",
+     "cardio"
+    ],
+    "n1": "Describe el mediastino, la silueta cardíaca y los pulmones antes de dar un nombre.",
+    "n2": "Mediastino y silueta cardíaca amplios orientan a la aorta o al pericardio, pero la radiografía no basta."
+   },
+   "imagen": {
+    "id": "im-71ea",
+    "consigna": "Radiografía de tórax portátil. Describe la silueta cardiomediastínica y los campos pulmonares."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Silueta mediastínica ensanchada con aumento del tamaño de la silueta cardíaca: sugiere patología aórtica o pericárdica, pero no confirma ni descarta; requiere angiotomografía",
-     "calidad": "optima",
-     "siguiente": "n3",
-     "explicacion": "Una radiografía con mediastino ensanchado orienta a patología aórtica pero tiene sensibilidad limitada: no permite diagnóstico ni exclusión, y se necesita imagen definitiva.",
-     "tema": "Radiografía de tórax en el dolor torácico",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Radiografía normal, lo que descarta cualquier problema aórtico",
-     "calidad": "incorrecta",
-     "siguiente": "n3",
-     "explicacion": "La imagen no es normal y, además, una radiografía normal no excluye una disección.",
-     "tema": "Radiografía de tórax en el dolor torácico",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Neumotórax derecho a tensión",
+     "texto": "Neumotórax derecho a tensión que exige descompresión con aguja inmediata en el segundo espacio intercostal antes de otros estudios",
      "calidad": "incorrecta",
      "siguiente": "n3",
      "explicacion": "No se identifica línea pleural visceral ni ausencia de trama vascular: el hallazgo es el aumento de la silueta mediastínica y cardíaca.",
+     "id": "A",
      "tema": "Radiografía de tórax en el dolor torácico",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
@@ -155,11 +318,48 @@
      ]
     },
     {
-     "id": "d",
-     "texto": "Edema agudo de pulmón por insuficiencia cardíaca",
+     "texto": "Radiografía normal, por lo que se descarta cualquier problema aórtico y se puede dar de alta con analgesia al paciente estable",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La imagen no es normal y, además, una radiografía normal no excluye una disección.",
+     "id": "B",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Imagen no interpretable por la calidad portátil: repetir la radiografía en dos horas antes de plantear estudios adicionales de imagen",
+     "calidad": "incorrecta",
+     "siguiente": "n3",
+     "explicacion": "La imagen tiene hallazgos útiles y repetirla dos horas después retrasa el estudio definitivo.",
+     "omision": true,
+     "id": "C",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Edema agudo de pulmón por insuficiencia cardíaca, que justifica diuréticos endovenosos y el ingreso a una unidad de cuidados coronarios",
      "calidad": "incorrecta",
      "siguiente": "n3",
      "explicacion": "No hay el patrón alveolar bilateral típico; el hallazgo principal es el tamaño de la silueta mediastínica y cardíaca.",
+     "id": "D",
+     "tema": "Radiografía de tórax en el dolor torácico",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Silueta mediastínica ensanchada y silueta cardíaca aumentada: orienta a patología aórtica o pericárdica, pero no confirma ni descarta",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Una radiografía con mediastino ensanchado orienta a patología aórtica pero tiene sensibilidad limitada: no permite diagnóstico ni exclusión.",
+     "id": "E",
      "tema": "Radiografía de tórax en el dolor torácico",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
@@ -167,12 +367,181 @@
      ]
     }
    ],
-   "imagen": {
-    "id": "im-71ea",
-    "consigna": "Radiografía de tórax portátil. Describe la silueta cardiomediastínica y los campos pulmonares."
-   }
+   "clave": "E"
   },
   "n3": {
+   "estado": "La radiografía es anormal pero no diagnóstica. El paciente sigue con dolor, taquicardia y presión elevada, hemodinámicamente estable por ahora. Hay que escoger el estudio definitivo.",
+   "vitales": {
+    "PA": "176/98 mmHg",
+    "FC": "104 /min",
+    "Dolor": "persistente",
+    "Estado": "estable"
+   },
+   "gravedad": 2,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Qué estudio definitivo solicitas?",
+   "ayuda": {
+    "especialista": "rad",
+    "pertinentes": [
+     "rad",
+     "cardio"
+    ],
+    "n1": "El paciente está estable y la sospecha es alta. ¿Qué estudio responde la pregunta de manera definitiva y rápida?",
+    "n2": "Angiotomografía de aorta; no se esperan marcadores ni se anticoagula antes."
+   },
+   "decisiones": [
+    {
+     "texto": "Ecocardiograma transtorácico como único estudio para descartar una disección y dar el alta si no se observa derrame pericárdico",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "El ecocardiograma transtorácico puede orientar, pero no descarta una disección: no es el estudio definitivo.",
+     "id": "A",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Angiotomografía de aorta torácica y abdominal urgente, sin esperar el resultado de los marcadores de laboratorio ni otros estudios",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La angiotomografía es el estudio de elección en un paciente estable con sospecha de disección: rápida, definitiva y completa.",
+     "id": "B",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Anticoagular con heparina y solicitar una gammagrafía de ventilación-perfusión por sospecha de tromboembolia pulmonar central",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Anticoagular ante una posible disección es peligroso; el cuadro no corresponde a una tromboembolia pulmonar.",
+     "id": "C",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar dímero D y repetir la radiografía en seis horas, decidiendo el siguiente estudio según evolución del dolor del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "El dímero D no debe retrasar la imagen en un paciente de alta probabilidad; la decisión depende del estudio definitivo.",
+     "omision": true,
+     "id": "D",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Coronariografía diagnóstica inmediata por sospecha de síndrome coronario agudo, sin estudio previo de la aorta del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La coronariografía sin conocer el estado de la aorta puede ser peligrosa; la imagen aórtica va primero.",
+     "id": "E",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "r2": {
+   "estado": "Se perdió tiempo con estudios no definitivos. El dolor persiste, la presión sigue alta y el soplo diastólico es más evidente. El paciente continúa estable pero sin diagnóstico definitivo.",
+   "vitales": {
+    "PA": "178/100 mmHg",
+    "FC": "110 /min",
+    "Dolor": "persistente",
+    "Auscultación": "soplo diastólico"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta ahora?",
+   "ayuda": {
+    "especialista": "cirucv",
+    "pertinentes": [
+     "cirucv",
+     "cardio"
+    ],
+    "n1": "Todavía falta el estudio definitivo de la aorta y la sospecha sube.",
+    "n2": "Angiotomografía de aorta ya y aviso a cirugía cardiovascular."
+   },
+   "decisiones": [
+    {
+     "texto": "Solicitar de inmediato una angiotomografía de aorta y avisar a cirugía cardiovascular de la sospecha, mientras se controla la presión",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Se corrige el retraso con el estudio definitivo y se alerta al equipo quirúrgico.",
+     "id": "A",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Repetir el ecocardiograma y los marcadores cardíacos en doce horas antes de plantear cualquier otro estudio de imagen",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Doce horas más sin imagen definitiva exponen al paciente a una complicación de la disección.",
+     "omision": true,
+     "id": "B",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar trombolisis por sospecha de infarto con elevación del ST pese a la ausencia de cambios electrocardiográficos característicos",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Un trombolítico ante una disección es potencialmente mortal.",
+     "id": "C",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar tratamiento antianginoso con nitratos y betabloqueante oral y cita de control cardiológico dentro de una semana",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "No se resuelve la sospecha y no se estudia la aorta; el manejo ambulatorio es inadecuado.",
+     "id": "D",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Programar una resonancia de aorta para el día siguiente en régimen ambulatorio, con control del dolor en domicilio",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Una resonancia ambulatoria al día siguiente es inseguro en un síndrome aórtico agudo.",
+     "id": "E",
+     "tema": "Estudio definitivo de la aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n4": {
    "estado": "Se hace una angiotomografía de tórax urgente. Esta es una imagen real de la literatura publicada, de otro paciente. Corte coronal; recuerda que puedes volver a la radiografía y comparar.",
    "vitales": {
     "PA": "176/98 mmHg",
@@ -181,63 +550,176 @@
     "Estado": "angustiado"
    },
    "gravedad": 2,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cuál es la interpretación de la angiotomografía?",
+   "ayuda": {
+    "especialista": "rad",
+    "pertinentes": [
+     "rad",
+     "cirucv",
+     "cardio"
+    ],
+    "n1": "Describe qué segmento de la aorta está afectado, si hay flap y qué pasa alrededor (pericardio y mediastino).",
+    "n2": "Compromiso de la aorta ascendente con derrame pericárdico y hematoma: ¿qué tipo es y qué urgencia implica?"
+   },
+   "imagen": {
+    "id": "im-e052",
+    "consigna": "Angiotomografía de tórax, corte coronal. Describe la aorta y las estructuras vecinas."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Disección de la aorta ascendente (tipo A) con rotura focal de la falsa luz y derrame pericárdico con hematoma mediastínico: emergencia quirúrgica",
-     "calidad": "optima",
-     "siguiente": "n4",
-     "explicacion": "La disección que compromete la aorta ascendente es tipo A y es una emergencia quirúrgica; el hematoma mediastínico y el derrame pericárdico indican complicación inminente.",
-     "tema": "Angiotomografía de la aorta",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Disección tipo B no complicada: tratamiento médico y observación",
+     "texto": "Aneurisma de la aorta ascendente estable sin signos de complicación, con control ambulatorio con imagen dentro de un mes",
      "calidad": "incorrecta",
-     "siguiente": "n4",
-     "explicacion": "El compromiso de la aorta ascendente la hace tipo A, que se opera de urgencia; el tratamiento médico es el de la tipo B no complicada.",
-     "tema": "Angiotomografía de la aorta",
-     "competencia": "Diagnóstico e interpretación de estudios",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Aneurisma aórtico estable: control ambulatorio en un mes",
-     "calidad": "incorrecta",
-     "siguiente": "n4",
+     "siguiente": "r3",
      "explicacion": "Hay un colgajo de disección con compromiso agudo, no un aneurisma estable: es una emergencia.",
-     "tema": "Angiotomografía de la aorta",
+     "id": "A",
+     "tema": "Interpretación de la angiotomografía de aorta",
      "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "d",
-     "texto": "Tromboembolia pulmonar central: iniciar anticoagulación",
+     "texto": "Tromboembolia pulmonar central con defecto de llenado en el tronco de la arteria pulmonar, tratable con anticoagulación inmediata",
      "calidad": "peligrosa",
-     "siguiente": "n_det",
-     "explicacion": "La angiotomografía muestra una lesión de la aorta, no un defecto de llenado pulmonar. Anticoagular una disección aguda puede ser fatal.",
-     "tema": "Seguridad: antitrombóticos ante sospecha de disección",
-     "competencia": "Seguridad del paciente",
+     "siguiente": "d1",
+     "explicacion": "La imagen muestra una lesión de la aorta, no un defecto de llenado pulmonar; anticoagular una disección puede ser fatal.",
+     "id": "B",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Disección tipo B no complicada de la aorta descendente, con indicación de tratamiento médico y observación en cuidados intermedios",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "El compromiso de la aorta ascendente la hace tipo A, que se opera de urgencia; el tratamiento médico es el de la tipo B no complicada.",
+     "id": "C",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Disección de aorta ascendente (tipo A) con rotura focal de la falsa luz, derrame pericárdico y hematoma en el mediastino",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "La disección que compromete la aorta ascendente es tipo A y es una emergencia quirúrgica; el hematoma y el derrame indican una complicación inminente.",
+     "id": "D",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Estudio no concluyente por el movimiento respiratorio: repetir la angiotomografía a las doce horas antes de decidir la conducta",
+     "calidad": "incorrecta",
+     "siguiente": "r3",
+     "explicacion": "La imagen es diagnóstica; esperar doce horas expone al paciente a rotura o taponamiento.",
+     "omision": true,
+     "id": "E",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
      "refs": [
       "r1"
      ]
     }
    ],
-   "imagen": {
-    "id": "im-e052",
-    "consigna": "Angiotomografía de tórax, corte coronal. Describe la aorta y las estructuras vecinas."
-   }
+   "clave": "D"
   },
-  "n4": {
-   "estado": "El diagnóstico es una disección aórtica tipo A. El paciente sigue con dolor y presión alta. Cirugía cardiovascular está avisada y el quirófano se prepara.",
+  "r3": {
+   "estado": "Con una lectura imprecisa, el paciente sigue con dolor y se vuelve más hipotenso con ingurgitación yugular. El radiólogo y cirugía cardiovascular revisan la imagen y confirman el hallazgo.",
+   "vitales": {
+    "PA": "130/80 mmHg",
+    "FC": "112 /min",
+    "Yugulares": "ingurgitadas",
+    "Estado": "más pálido"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta tras revisar la imagen?",
+   "ayuda": {
+    "especialista": "cirucv",
+    "pertinentes": [
+     "cirucv",
+     "rad"
+    ],
+    "n1": "El paciente empeora por una lectura imprecisa; vuelve a la imagen y mira el pericardio.",
+    "n2": "Disección tipo A complicada: avisa a cirugía cardiovascular y prepara la reparación."
+   },
+   "decisiones": [
+    {
+     "texto": "Indicar anticoagulación para un presunto trombo en la aorta y observar la evolución de los síntomas durante las próximas horas",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Anticoagular una disección con derrame pericárdico agrava el sangrado y puede ser fatal.",
+     "id": "A",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Realizar una pericardiocentesis evacuadora completa en la sala de emergencia sin avisar a cirugía y sin controlar la presión",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Drenar rápidamente un hemopericardio de una disección puede aumentar el sangrado; la solución definitiva es quirúrgica.",
+     "id": "B",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reconocer una disección de aorta ascendente con compromiso pericárdico y avisar a cirugía cardiovascular para reparación urgente",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "Se corrige la lectura: es una disección tipo A complicada con derrame pericárdico, que requiere cirugía urgente.",
+     "id": "C",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar un nuevo estudio ecocardiográfico a la mañana siguiente y mantener la analgesia, mientras tanto sin otras medidas",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Con signos de taponamiento incipiente la espera hasta la mañana es insegura.",
+     "id": "D",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener el manejo médico de una disección tipo B no complicada y vigilar la evolución en cuidados intermedios durante la noche",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Una disección tipo A no se maneja como tipo B: el manejo médico exclusivo tiene mayor mortalidad.",
+     "omision": true,
+     "id": "E",
+     "tema": "Interpretación de la angiotomografía de aorta",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n5": {
+   "estado": "El diagnóstico es una disección aórtica tipo A. El paciente sigue con dolor y presión alta. Cirugía cardiovascular está avisada y el quirófano se prepara. Hay que controlar la impulsión aórtica mientras tanto.",
    "vitales": {
     "PA": "178/100 mmHg",
     "FC": "106 /min",
@@ -245,82 +727,298 @@
     "Cirugía": "avisada"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cómo controlas la impulsión aórtica?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "cardio",
+     "cirucv"
+    ],
+    "n1": "El objetivo es reducir el estrés sobre la pared aórtica mientras se prepara la cirugía: ¿qué se controla primero?",
+    "n2": "Primero la frecuencia con betabloqueante endovenoso y luego la presión con vasodilatador si hace falta."
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Betabloqueante intravenoso primero para una frecuencia de 60 a 80 /min, luego vasodilatador si la presión sistólica sigue por encima de 120 mmHg, analgesia, línea arterial y UCI mientras se prepara la cirugía urgente",
-     "calidad": "optima",
-     "siguiente": "n5",
-     "explicacion": "Se reduce el estrés sobre la pared aórtica: frecuencia 60–80 y presión sistólica < 120 mmHg o la más baja con perfusión adecuada. El tratamiento médico es un puente a la cirugía, no el tratamiento definitivo.",
-     "tema": "Control de la impulsión y reparación urgente",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "b",
-     "texto": "Tratamiento médico exclusivo, como en la tipo B",
+     "texto": "Un vasodilatador solo, sin controlar antes la frecuencia, para bajar la presión rápidamente y tratar el dolor con analgesia opioide",
      "calidad": "incorrecta",
-     "siguiente": "n5",
-     "explicacion": "En la tipo A la mortalidad con tratamiento médico es 2 a 3 veces mayor que con cirugía; la cirugía urgente es el tratamiento.",
-     "tema": "Control de la impulsión y reparación urgente",
-     "competencia": "Tratamiento inicial",
-     "refs": [
-      "r1"
-     ]
-    },
-    {
-     "id": "c",
-     "texto": "Un vasodilatador solo (sin controlar antes la frecuencia) para bajar la presión",
-     "calidad": "incorrecta",
-     "siguiente": "n5",
+     "siguiente": "n6",
      "explicacion": "Sin betabloqueo previo, un vasodilatador puede aumentar la frecuencia y la fuerza de contracción y empeorar el estrés aórtico.",
-     "tema": "Control de la impulsión y reparación urgente",
+     "id": "A",
+     "tema": "Control de la impulsión aórtica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar la llegada al quirófano sin modificar la presión ni la frecuencia, y reservar el tratamiento para el período posoperatorio",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "El control de la impulsión se inicia de inmediato; esperar al quirófano aumenta el riesgo de rotura o extensión.",
+     "omision": true,
+     "id": "B",
+     "tema": "Control de la impulsión aórtica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la presión por encima de 160 mmHg para asegurar la perfusión cerebral y renal, mientras se prepara el quirófano",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Una presión alta aumenta el estrés sobre la pared aórtica y el riesgo de rotura; la meta es la más baja con perfusión adecuada.",
+     "id": "C",
+     "tema": "Control de la impulsión aórtica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un trombolítico para una probable trombosis y diferir el betabloqueante hasta después de la cirugía del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Un trombolítico ante una disección puede provocar una hemorragia mortal.",
+     "id": "D",
+     "tema": "Control de la impulsión aórtica",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Betabloqueante endovenoso primero para frecuencia de 60–80 /min, luego vasodilatador si la sistólica supera 120 mmHg",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "Se reduce el estrés sobre la pared aórtica: frecuencia 60–80 y presión sistólica menor de 120 mmHg o la más baja con perfusión adecuada.",
+     "id": "E",
+     "tema": "Control de la impulsión aórtica",
      "competencia": "Tratamiento inicial",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "E"
   },
-  "n5": {
-   "estado": "El paciente fue reparado quirúrgicamente de manera exitosa y se recupera sin complicaciones graves. Se planea el seguimiento.",
+  "n6": {
+   "estado": "El paciente tiene la frecuencia y la presión en rango y está listo para operarse. Hay que decidir la estrategia definitiva para la disección de aorta ascendente con derrame pericárdico y hematoma mediastínico.",
+   "vitales": {
+    "PA": "112/64 mmHg",
+    "FC": "68 /min",
+    "Dolor": "controlado",
+    "Quirófano": "disponible"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es el tratamiento definitivo?",
+   "ayuda": {
+    "especialista": "cirucv",
+    "pertinentes": [
+     "cirucv",
+     "cardio"
+    ],
+    "n1": "La disección tipo A es una emergencia. ¿Cuál es el tratamiento que reduce la mortalidad?",
+    "n2": "Cirugía urgente de la aorta ascendente; el control médico es solo un puente."
+   },
+   "laboratorio": {
+    "titulo": "Estudios prequirúrgicos",
+    "resultados": [
+     {
+      "prueba": "hemoglobina",
+      "valor": 13.6
+     },
+     {
+      "prueba": "inr",
+      "valor": 1.1
+     },
+     {
+      "prueba": "plaquetas",
+      "valor": 205
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.1
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Reparación endovascular de la aorta descendente como estrategia inicial para sellar la puerta de entrada de la disección",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "El compromiso de la aorta ascendente requiere reparación quirúrgica abierta; la endovascular de la descendente no resuelve el problema.",
+     "id": "A",
+     "tema": "Reparación quirúrgica urgente de la disección tipo A",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Posponer la cirugía 48 a 72 horas hasta lograr la estabilización completa del paciente y optimizar las comorbilidades",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "La mortalidad aumenta cada hora sin reparación en la tipo A; no se pospone por optimización.",
+     "omision": true,
+     "id": "B",
+     "tema": "Reparación quirúrgica urgente de la disección tipo A",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Reparación quirúrgica de emergencia de la aorta ascendente, con equipo cardiovascular y anestesia preparados sin demora",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "La disección tipo A es una emergencia quirúrgica: la cirugía urgente reduce la mortalidad frente al manejo médico exclusivo.",
+     "id": "C",
+     "tema": "Reparación quirúrgica urgente de la disección tipo A",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta con tratamiento antihipertensivo oral y control en un mes, dado que el dolor cedió y la presión se encuentra controlada",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "Un dolor controlado no resuelve una disección tipo A: el alta expone al paciente a una rotura mortal.",
+     "id": "D",
+     "tema": "Reparación quirúrgica urgente de la disección tipo A",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Continuar el tratamiento médico exclusivo con control estricto de la presión y la frecuencia en cuidados intensivos durante algunos días",
+     "calidad": "peligrosa",
+     "siguiente": "d2",
+     "explicacion": "En la tipo A la mortalidad con tratamiento médico es 2 a 3 veces mayor que con cirugía; la cirugía urgente es el tratamiento.",
+     "id": "E",
+     "tema": "Reparación quirúrgica urgente de la disección tipo A",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n7": {
+   "estado": "Tras la reparación quirúrgica (o la resolución de la emergencia), el paciente se recupera en cuidados intensivos y luego en sala. Hay que definir la vigilancia y el seguimiento a largo plazo.",
    "vitales": {
     "PA": "128/76 mmHg",
     "FC": "72 /min",
-    "Estado": "estable"
+    "Estado": "estable",
+    "Herida": "sin complicaciones"
    },
    "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cuál es el plan de seguimiento?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "cirucv"
+    ],
+    "n1": "La cirugía terminó, pero la aorta restante sigue en riesgo. ¿Qué se vigila a largo plazo?",
+    "n2": "Presión controlada, imagen periódica de la aorta y rehabilitación gradual."
+   },
+   "laboratorio": {
+    "titulo": "Controles posoperatorios",
+    "resultados": [
+     {
+      "prueba": "hemoglobina",
+      "valor": 10.4
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.3
+     },
+     {
+      "prueba": "lactato",
+      "valor": 1.6
+     }
+    ],
+    "ocultar_marcas": false
+   },
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Control estricto de la presión, seguimiento con imágenes periódicas de la aorta, rehabilitación y educación sobre signos de alarma",
-     "calidad": "optima",
-     "siguiente": "f_bueno",
-     "explicacion": "Tras una disección el seguimiento con imagen y el control estricto de la presión detectan complicaciones tardías y reducen el riesgo de nuevas lesiones.",
-     "tema": "Seguimiento tras la reparación aórtica",
+     "texto": "Indicar ejercicio intenso y levantamiento de pesas desde el primer mes para recuperar la forma física y la masa muscular",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Los esfuerzos isométricos intensos aumentan la presión y no se recomiendan; la actividad se reintroduce de forma gradual.",
+     "id": "A",
+     "tema": "Cuidados posoperatorios y seguimiento aórtico",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Alta sin seguimiento de imagen: ya fue operado",
+     "texto": "Control estricto de la presión, imágenes periódicas de la aorta, rehabilitación y educación sobre signos de alarma",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "Tras una disección el seguimiento con imagen y el control estricto de la presión detectan complicaciones tardías y reducen el riesgo de nuevas lesiones.",
+     "id": "B",
+     "tema": "Cuidados posoperatorios y seguimiento aórtico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Alta sin seguimiento de imagen, porque ya fue operado y el riesgo de nuevas complicaciones aórticas ha desaparecido por completo",
      "calidad": "incorrecta",
      "siguiente": "f_regular",
      "explicacion": "Persisten el riesgo de lesiones residuales o nuevas en la aorta: se necesita vigilancia con imagen.",
-     "tema": "Seguimiento tras la reparación aórtica",
+     "omision": true,
+     "id": "C",
+     "tema": "Cuidados posoperatorios y seguimiento aórtico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar anticoagulación a dosis plena de forma indefinida para prevenir cualquier trombosis residual en la pared aórtica reparada",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "No hay indicación de anticoagulación indefinida por la disección en sí y aumenta el riesgo de sangrado.",
+     "id": "D",
+     "tema": "Cuidados posoperatorios y seguimiento aórtico",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Suspender los antihipertensivos tras la cirugía para evitar hipotensión y controlar la presión solo si aparecen síntomas",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "El control de la presión es esencial en el seguimiento de una disección; suspenderlo aumenta el riesgo.",
+     "id": "E",
+     "tema": "Cuidados posoperatorios y seguimiento aórtico",
      "competencia": "Disposición y seguimiento",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "B"
   },
-  "n_det": {
-   "estado": "Minutos después el paciente cae en shock: pálido, sudoroso, hipotenso, con ingurgitación yugular y ruidos cardíacos apagados.",
+  "d1": {
+   "estado": "Minutos después el paciente cae en shock: pálido, sudoroso, hipotenso, con ingurgitación yugular y ruidos cardíacos apagados. Se sospecha hemopericardio con taponamiento.",
    "vitales": {
     "PA": "70/40 mmHg",
     "FC": "130 /min",
@@ -328,45 +1026,177 @@
     "Ruidos": "apagados"
    },
    "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "cirucv",
+    "pertinentes": [
+     "cirucv",
+     "uci",
+     "cardio"
+    ],
+    "n1": "Shock con yugulares ingurgitadas y ruidos apagados: piensa en la causa mecánica y en el único tratamiento definitivo.",
+    "n2": "Taponamiento por disección: cirugía de urgencia con reanimación, sin más antitrombóticos."
+   },
+   "deterioro": true,
    "decisiones": [
     {
-     "id": "a",
-     "texto": "Sospechar taponamiento por disección y avisar de inmediato a cirugía cardiovascular para llevarlo a quirófano de urgencia, con reanimación y ecocardiograma a pie de cama",
-     "calidad": "optima",
-     "siguiente": "f_rescate",
-     "explicacion": "El shock con ingurgitación yugular y ruidos apagados sugiere taponamiento por hemopericardio: la solución definitiva es la cirugía urgente de la aorta.",
-     "tema": "Angiotomografía de la aorta",
-     "competencia": "Tratamiento inicial",
+     "texto": "Continuar la reposición de líquidos y observar la respuesta en la sala de emergencia antes de decidir el traslado a quirófano",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Observar con un taponamiento por disección retrasa la cirugía urgente y aumenta la mortalidad.",
+     "omision": true,
+     "id": "A",
+     "tema": "Taponamiento por disección aórtica",
+     "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     },
     {
-     "id": "b",
-     "texto": "Continuar el tratamiento de síndrome coronario agudo con más antitrombóticos",
+     "texto": "Continuar el tratamiento de síndrome coronario agudo con más antitrombóticos y un nuevo bolo de heparina endovenosa",
      "calidad": "peligrosa",
-     "siguiente": "f_adverso",
-     "explicacion": "Más antitrombóticos en una disección con hemopericardio agrava el sangrado: error crítico.",
-     "tema": "Seguridad: antitrombóticos ante sospecha de disección",
+     "siguiente": "f_fatal",
+     "explicacion": "Más antitrombóticos en una disección con hemopericardio agravan el sangrado y llevan a un desenlace fatal.",
+     "id": "B",
+     "tema": "Taponamiento por disección aórtica",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Dar nitroglicerina endovenosa para bajar la presión y esperar la mejoría del cuadro con medidas de soporte en la sala",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Un vasodilatador en un taponamiento agrava la hipotensión y precipita el paro cardíaco.",
+     "id": "C",
+     "tema": "Taponamiento por disección aórtica",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Sospechar taponamiento por disección, avisar a cirugía cardiovascular para quirófano urgente y reanimar de inmediato al paciente",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "El shock con ingurgitación yugular y ruidos apagados sugiere taponamiento por hemopericardio: la solución definitiva es la cirugía urgente de la aorta.",
+     "id": "D",
+     "tema": "Taponamiento por disección aórtica",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Realizar una pericardiocentesis evacuadora y esperar la estabilización completa antes de pensar en la reparación quirúrgica",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "La pericardiocentesis sola no corrige la causa y puede aumentar el sangrado de la disección.",
+     "id": "E",
+     "tema": "Taponamiento por disección aórtica",
      "competencia": "Seguridad del paciente",
      "refs": [
       "r1"
      ]
     }
-   ]
+   ],
+   "clave": "D"
+  },
+  "d2": {
+   "estado": "Tras una conducta sin cirugía, el paciente presenta una extensión de la disección: dolor abdominal, ausencia de pulsos en una pierna y descenso de la presión. Hay signos de isquemia visceral y de rotura inminente.",
+   "vitales": {
+    "PA": "84/50 mmHg",
+    "FC": "126 /min",
+    "Pulsos": "ausentes en miembro inferior",
+    "Dolor": "abdominal intenso"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "cirucv",
+    "pertinentes": [
+     "cirucv",
+     "uci"
+    ],
+    "n1": "La disección progresó con isquemia de órganos: el control médico ya no basta.",
+    "n2": "Cirugía de emergencia con soporte, sin anticoagular ni subir la presión."
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Reanimar y llevar de inmediato a quirófano de emergencia para reparar la aorta, con apoyo de cuidados intensivos y anestesia",
+     "calidad": "optima",
+     "siguiente": "n7",
+     "explicacion": "La complicación obliga a la cirugía de emergencia: sin ella la mortalidad es alta y progresiva.",
+     "id": "A",
+     "tema": "Malperfusión y rotura inminente en la disección tipo A",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Solicitar una resonancia de aorta urgente para delimitar la extensión antes de trasladar al paciente al quirófano de emergencia",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Con malperfusión y rotura inminente un estudio adicional retrasa la cirugía de emergencia.",
+     "id": "B",
+     "tema": "Malperfusión y rotura inminente en la disección tipo A",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar vasopresores en dosis altas hasta recuperar la presión previa y diferir el traslado a quirófano hasta que se estabilice",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Elevar la presión en una disección con rotura inminente aumenta el estrés sobre la pared y precipita la rotura.",
+     "id": "C",
+     "tema": "Malperfusión y rotura inminente en la disección tipo A",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar anticoagulación inmediata para tratar la isquemia del miembro y observar la recuperación de los pulsos con el reposo",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Anticoagular una disección con malperfusión agrava el sangrado y precipita la rotura aórtica.",
+     "id": "D",
+     "tema": "Malperfusión y rotura inminente en la disección tipo A",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener el control médico con betabloqueante y analgesia, y esperar la evolución de los pulsos durante las próximas horas",
+     "calidad": "incorrecta",
+     "siguiente": "n7",
+     "explicacion": "Con malperfusión y rotura inminente la espera aumenta la mortalidad; la cirugía urgente es la opción.",
+     "omision": true,
+     "id": "E",
+     "tema": "Malperfusión y rotura inminente en la disección tipo A",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
   },
   "f_bueno": {
    "final": {
     "tipo": "bueno",
     "titulo": "Buen desenlace",
     "mensaje": "Se sospechó la disección, se confirmó con imagen, se controló la impulsión y se operó de urgencia."
-   }
-  },
-  "f_rescate": {
-   "final": {
-    "tipo": "regular",
-    "titulo": "Recuperación con retraso",
-    "mensaje": "Se salvó al paciente tras un colapso que un diagnóstico más precoz habría evitado."
    }
   },
   "f_regular": {
@@ -380,21 +1210,65 @@
    "final": {
     "tipo": "adverso",
     "titulo": "Desenlace desfavorable (educativo)",
-    "mensaje": "Una conducta insegura agravó el sangrado y el shock."
+    "mensaje": "Una conducta sin respaldo expuso al paciente a una complicación grave."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "El paciente falleció por rotura o taponamiento aórtico (educativo)",
+    "mensaje": "Una secuencia de decisiones críticas con antitrombóticos o sin cirugía llevó a la muerte por la disección."
    }
   }
  },
  "informe": {
   "resumen_clinico": "Varón de 58 años hipertenso con dolor torácico desgarrante irradiado a la espalda y diferencia de presión entre brazos. La radiografía mostró mediastino y silueta cardíaca ensanchados y la angiotomografía una disección de la aorta ascendente (tipo A) con rotura focal de la falsa luz, derrame pericárdico y hematoma mediastínico. Se controló la impulsión y se llevó a cirugía urgente.",
+  "diagnostico_final": "Disección aórtica aguda tipo A complicada con derrame pericárdico y hematoma mediastínico.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Síndrome coronario agudo",
+    "por_que_no": "El ECG no mostraba elevación del ST y la troponina estaba apenas elevada; el dolor máximo desde el inicio con diferencia de presión orienta a la aorta."
+   },
+   {
+    "dx": "Tromboembolia pulmonar",
+    "por_que_no": "La imagen mostró una lesión aórtica, no un defecto de llenado pulmonar."
+   },
+   {
+    "dx": "Pericarditis o taponamiento primario",
+    "por_que_no": "El derrame era una complicación de la disección; la causa es aórtica."
+   },
+   {
+    "dx": "Dolor musculoesquelético",
+    "por_que_no": "Es un diagnóstico de exclusión; no explica la diferencia de presión ni la taquicardia."
+   }
+  ],
+  "datos_clave": [
+   "Dolor torácico súbito, de máxima intensidad desde el inicio, irradiado a la espalda.",
+   "Hipertensión mal controlada y diferencia de presión entre ambos brazos.",
+   "ECG sin elevación del ST y troponina apenas elevada.",
+   "Soplo diastólico nuevo (compromiso de la raíz aórtica)."
+  ],
   "razonamiento": [
    "Dolor torácico súbito, de máxima intensidad y diferencia de presión entre brazos: sospechar disección antes de dar antitrombóticos.",
    "Estabilizar y estudiar en paralelo: monitor, analgesia, control de frecuencia y presión.",
    "Interpretar la radiografía con humildad: orienta pero no descarta.",
-   "Confirmar con angiotomografía y clasificar: compromiso de la aorta ascendente = tipo A.",
-   "Controlar la impulsión (betabloqueante, luego vasodilatador si hace falta) como puente a la cirugía urgente.",
-   "Seguimiento de por vida con imagen y control de la presión."
+   "Pedir la angiotomografía de aorta como estudio definitivo.",
+   "Clasificar: compromiso de la aorta ascendente = tipo A.",
+   "Controlar la impulsión (betabloqueante primero, luego vasodilatador si hace falta).",
+   "Cirugía urgente de la aorta ascendente; seguimiento de por vida con imagen y control de la presión."
   ],
   "imagen_interpretacion": "Radiografía portátil: silueta mediastínica ensanchada y aumento de la silueta cardíaca; hallazgo inespecífico que no confirma ni descarta una disección. Angiotomografía (corte coronal): dilatación de la aorta ascendente con colgajo de disección, derrame pericárdico y hematoma mediastínico, con las coronarias naciendo de la luz verdadera según la publicación original. Limitaciones: ambas imágenes provienen de un mismo paciente publicado, tienen 507×512 y 478×512 px, y la angiotomografía tiene texto del equipo parcialmente ilegible; el informe radiológico formal es insustituible.",
+  "imagen_diferenciales": [
+   "Aneurisma de aorta ascendente sin disección: dilatación sin colgajo ni hematoma.",
+   "Hematoma intramural: engrosamiento semilunar de la pared sin flap visible.",
+   "Pericarditis o derrame pericárdico aislado: sin lesión de la pared aórtica."
+  ],
+  "imagen_conducta": "La radiografía orienta pero no descarta; la angiotomografía confirma el compromiso de la aorta ascendente (tipo A), que cambia la conducta de un manejo médico a una cirugía de emergencia.",
+  "interpretacion_laboratorio": [
+   "Troponina ligeramente por encima del percentil 99 supuesto: lesión miocárdica leve, que no explica el cuadro y no justifica antitrombóticos.",
+   "Dímero D elevado: inespecífico, no define el diagnóstico ni sustituye la imagen.",
+   "Creatinina normal al ingreso; la creatinina posoperatoria algo alta y la hemoglobina baja reflejan la cirugía y requieren vigilancia."
+  ],
   "tratamiento": [
    {
     "item": "Control de la impulsión",
@@ -426,8 +1300,5 @@
    "g06"
   ],
   "mensaje_clave": "Ante un dolor torácico desgarrante, descarta la disección antes de dar antitrombóticos; la tipo A se opera de urgencia."
- },
- "areas_banco": [
-  "cardiologia"
- ]
+ }
 }
