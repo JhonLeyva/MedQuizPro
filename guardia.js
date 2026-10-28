@@ -282,8 +282,8 @@
           (rn.length ? '<p class="muted small">Respaldo: referencia' + (rn.length > 1 ? "s " : " ") + rn.join(", ") + '.</p>' : "") + '</details>';
       }).join("") + '</section>';
       /* E */
-      h += '<section class="card card--spaced" id="gdE"><h2 class="card__h">E. Tratamiento y seguimiento</h2><div class="gd-tabla" role="table" aria-label="Tratamiento y seguimiento">' + inf.tratamiento.map(function (t) {
-        return '<div role="row" class="gd-tr"><p class="gd-tr__i"><b>' + esc(t.item) + '</b></p><p>' + esc(t.detalle) + '</p><p class="muted small"><b>Dosis / unidades:</b> ' + esc(t.dosis) + '</p></div>'; }).join("") + '</div>' +
+      h += '<section class="card card--spaced" id="gdE"><h2 class="card__h">E. Tratamiento y seguimiento</h2><div class="gd-tabla">' + inf.tratamiento.map(function (t) {
+        return '<div class="gd-tr"><p class="gd-tr__i"><b>' + esc(t.item) + '</b></p><p>' + esc(t.detalle) + '</p><p class="muted small"><b>Dosis / unidades:</b> ' + esc(t.dosis) + '</p></div>'; }).join("") + '</div>' +
         '<p class="muted small">No se fija una dosis universal cuando depende del peso, la función renal, la edad o el protocolo local; consulta la guía y el protocolo vigentes de tu institución.</p></section>';
       /* F */
       h += '<section class="card card--spaced" id="gdF"><h2 class="card__h">F. Resultado y refuerzo</h2><p><b>Puntaje:</b> ' + puntos + ' de ' + an.max + ' (' + pct + ' %) · <b>Errores críticos:</b> ' + an.criticos.length + ' · <b>Errores mayores:</b> ' + an.mayores.length + '</p>' +

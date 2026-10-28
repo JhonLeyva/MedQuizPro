@@ -21,7 +21,7 @@ await p.fill('#a-nombre','Ax Tester');await p.fill('#a-correo','ax'+Date.now()+'
 await p.goto(U+'app/#/inicio');await p.waitForTimeout(1200);await auditar('App · inicio');
 await p.goto(U+'app/#/progreso');await p.waitForTimeout(900);await auditar('App · progreso (vacío)');
 await p.goto(U+'app/#/guardia');await p.waitForTimeout(900);await auditar('Guardia · lista');
-await p.goto(U+'app/#/guardia/asma');await p.waitForTimeout(700);await auditar('Guardia · caso');
+await p.goto(U+'app/#/guardia/g01');await p.waitForTimeout(700);await auditar('Guardia · caso');
 await p.click('.gd-op');await p.waitForTimeout(400);await auditar('Guardia · caso con feedback');
 await p.goto(U+'app/#/flashcards');await p.waitForTimeout(900);await auditar('Flashcards (vacío)');
 await p.goto(U+'app/#/planes');await p.waitForTimeout(900);await auditar('Planes');
