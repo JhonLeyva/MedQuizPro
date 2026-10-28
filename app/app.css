@@ -738,3 +738,18 @@ body.gi-abierta { overflow: hidden; }
 :root[data-theme="dark"] .gd-marca--alto, :root[data-theme="dark"] .gd-marca--bajo, :root[data-theme="dark"] .gd-marca--alterado, :root[data-theme="dark"] .gd-crit li { color: #fca5a5; }
 :root[data-theme="dark"] .gd-marca--normal, :root[data-theme="dark"] .gd-prov--ok { color: #86efac; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .gd-marca--alto, :root:not([data-theme="light"]) .gd-marca--bajo, :root:not([data-theme="light"]) .gd-marca--alterado, :root:not([data-theme="light"]) .gd-crit li { color: #fca5a5; } :root:not([data-theme="light"]) .gd-marca--normal, :root:not([data-theme="light"]) .gd-prov--ok { color: #86efac; } }
+/* Consulta Clínica Experta */
+.cq-pasos { list-style: none; margin: 0 0 14px; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; font-size: .8rem; }
+.cq-paso > span, .cq-paso > button { display: inline-block; padding: 6px 10px; min-height: 32px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); font: inherit; }
+.cq-paso > button { cursor: pointer; color: var(--ink-2); } .cq-paso.is-actual > button { border-color: var(--brand); background: var(--brand); color: var(--on-brand); font-weight: 700; }
+.cq-paso > span { color: var(--ink-2); border-style: dashed; } .cq-pac { margin: 0 0 16px; }
+.cq-cuerpo { display: grid; gap: 10px; } .cq-cuerpo .gd-q { margin-top: 4px; }
+.cq-grupo { margin: 0 0 12px; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--line); } .cq-grupo legend { padding: 0 6px; font-weight: 800; font-size: .92rem; }
+.cq-q { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cq-preg { text-align: left; white-space: normal; height: auto; min-height: 44px; } .cq-preg[aria-disabled="true"] { opacity: .8; cursor: default; }
+.cq-resp { margin: 6px 0 0 12px; padding: 8px 12px; border-left: 3px solid var(--brand); background: var(--surface-2); border-radius: 0 10px 10px 0; font-size: .92rem; }
+.cq-hip { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; } .cq-hip input, .cq-prueba input { width: 20px; height: 20px; margin-right: 6px; vertical-align: middle; }
+.cq-prueba, .cq-hip label { display: inline-flex; align-items: center; min-height: 44px; }
+.cq-acc { margin: 6px 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.cq-mcq { margin-top: 10px; }
+@media (max-width: 560px) { .cq-pasos { font-size: .74rem; } }

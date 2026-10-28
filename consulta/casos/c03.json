@@ -322,7 +322,8 @@
      }
     ]
    },
-   "esencial": true
+   "esencial": true,
+   "cambia_conducta": "Un resultado positivo cambiaría la cobertura antibiótica y el manejo de la pareja."
   },
   {
    "id": "p4",
@@ -339,7 +340,8 @@
       "valor": "no reactivo"
      }
     ]
-   }
+   },
+   "cambia_conducta": "Un resultado reactivo cambiaría el seguimiento y la derivación; un resultado negativo no modifica el tratamiento actual."
   },
   {
    "id": "p5",
@@ -356,7 +358,8 @@
       "valor": "no reactivo"
      }
     ]
-   }
+   },
+   "cambia_conducta": "Un resultado reactivo exigiría tratar la sífilis y notificar a la pareja; uno no reactivo no modifica el tratamiento actual."
   },
   {
    "id": "p6",

@@ -157,6 +157,16 @@
 
   /* ---------- un caso ---------- */
   var detener = null;                  // limpia temporizadores/listeners del caso que se está jugando
+  function refHtml(r, n, usada) {
+    var ids = [];
+    if (r.pmid) ids.push(enlace("https://pubmed.ncbi.nlm.nih.gov/" + r.pmid + "/", "PMID " + r.pmid));
+    if (r.doi) ids.push(enlace("https://doi.org/" + r.doi, "DOI " + r.doi));
+    if (r.url) ids.push(enlace(r.url, "Enlace"));
+    return '<li class="gd-ref"><p><b>[' + n + ']</b> ' + esc(r.titulo) + (usada ? ' <span class="gd-prov">usada en tus decisiones</span>' : "") + '</p>' +
+      '<p class="muted small">' + esc(r.organismo) + ' · ' + esc(r.autores) + ' · ' + esc(r.anio) + (r.version ? " · " + esc(r.version) : "") + ' · ' + esc(({ guia: "Guía", consenso: "Consenso", revision: "Revisión sistemática/narrativa", ensayo: "Ensayo clínico", norma: "Norma" })[r.tipo] || r.tipo) + '</p>' +
+      '<p class="muted small">' + ids.join(" · ") + ' · Consultada el ' + esc(r.fecha_consulta) + '</p>' +
+      '<p class="small"><b>Qué recomienda (con nuestras palabras):</b> ' + esc(r.recomendacion) + '</p><p class="muted small"><b>Vigencia:</b> ' + esc(r.vigencia) + '</p></li>';
+  }
   function guardarSesion(e) { ls(CLAVE_SESION + ":" + e.caso, G().serializarSesion(e)); }
   function borrarSesion(id) { ls(CLAVE_SESION + ":" + id, null); }
 
@@ -280,16 +290,6 @@
     function persistirTrasDecidir(sigId) { var e = estado(); e.nodo = sigId; e.usadoMs = 0; guardarSesion(e); }
 
     /* ---- informe final ---- */
-    function refHtml(r, n, usada) {
-      var ids = [];
-      if (r.pmid) ids.push(enlace("https://pubmed.ncbi.nlm.nih.gov/" + r.pmid + "/", "PMID " + r.pmid));
-      if (r.doi) ids.push(enlace("https://doi.org/" + r.doi, "DOI " + r.doi));
-      if (r.url) ids.push(enlace(r.url, "Enlace"));
-      return '<li class="gd-ref"><p><b>[' + n + ']</b> ' + esc(r.titulo) + (usada ? ' <span class="gd-prov">usada en tus decisiones</span>' : "") + '</p>' +
-        '<p class="muted small">' + esc(r.organismo) + ' · ' + esc(r.autores) + ' · ' + esc(r.anio) + (r.version ? " · " + esc(r.version) : "") + ' · ' + esc(({ guia: "Guía", consenso: "Consenso", revision: "Revisión sistemática/narrativa", ensayo: "Ensayo clínico", norma: "Norma" })[r.tipo] || r.tipo) + '</p>' +
-        '<p class="muted small">' + ids.join(" · ") + ' · Consultada el ' + esc(r.fecha_consulta) + '</p>' +
-        '<p class="small"><b>Qué recomienda (con nuestras palabras):</b> ' + esc(r.recomendacion) + '</p><p class="muted small"><b>Vigencia:</b> ' + esc(r.vigencia) + '</p></li>';
-    }
     function cincoAlternativas(x) {
       return '<ol class="gd-cinco" type="A">' + nodoPorId(x.nodoId).decisiones.map(function (a) {
         var tags = (a.id === x.elegida.id ? ' <span class="gd-prov">tu elección</span>' : "") + (a.calidad === "optima" ? ' <span class="gd-prov gd-prov--ok">correcta</span>' : "");
@@ -385,5 +385,5 @@
     if (I && primeraEntrada && !I.omitida() && !document.querySelector(".gi"))
       I.mostrar({ alTerminar: function () { var b = cont.querySelector("a.btn"); if (b) b.focus({ preventScroll: true }); } });
   }
-  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: null, esc: esc, enlace: enlace };
+  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos };
 })(typeof window !== "undefined" ? window : this);

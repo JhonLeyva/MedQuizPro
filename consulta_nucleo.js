@@ -47,7 +47,7 @@
   function resultadosSolicitados(caso, solicitadas) { return caso.pruebas.filter(function (t) { return solicitadas.indexOf(t.id) >= 0; }); }
 
   function evaluar(caso, e) {
-    var preg = caso.preguntas, an = coberturaClave(aplanar(caso), e.anamnesis || []), ex = coberturaClave(caso.examen, e.examen || []);
+    var preg = caso.preguntas, an = coberturaClave(aplanar(caso).concat(caso.antecedentes), (e.anamnesis || []).concat(e.antecedentes || [])), ex = coberturaClave(caso.examen, e.examen || []);
     var hip = evaluarHipotesis(caso, e.hipotesis), pru = evaluarPruebas(caso, e.solicitadas || []);
     var r = e.respuestas || {}, comp = {
       anamnesis: an.pct, examen: ex.pct, hipotesis: hip.pct, pruebas: pru.pct,

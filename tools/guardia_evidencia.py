@@ -39,7 +39,7 @@ def cmd_ver(a):
 def norm(s): return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
 def cmd_verificar(a):
     mal = 0; n = 0; ids = {}
-    for f in sorted(glob.glob(os.path.join(RAIZ, "guardia", "casos", "*.json"))):
+    for f in sorted(glob.glob(os.path.join(RAIZ, "guardia", "casos", "*.json"))) + sorted(glob.glob(os.path.join(RAIZ, "consulta", "casos", "*.json"))):
         c = json.load(open(f, encoding="utf-8"))
         for r in c.get("referencias", []):
             n += 1

@@ -86,7 +86,7 @@ c = {
    D("Síndrome del enfermo eutiroideo por una enfermedad aguda de fondo, con función tiroidea que se normalizará sin tratamiento", "i", "", "No hay enfermedad aguda grave; el patrón con bocio y anticuerpos corresponde a una enfermedad tiroidea primaria."),
   ], tema="Interpretación de la función tiroidea", comp="dx", refs=REF, peso=2),
   "diagnostico": Q("¿Cuál es el diagnóstico más probable?", [
-   D("Hipotiroidismo primario por tiroiditis crónica autoinmune (tiroiditis de Hashimoto)", "o", "", "Reúne síntomas típicos, bocio difuso firme, antecedente familiar tiroideo, TSH alta con T4 libre baja y anti-TPO positivo."),
+   D("Hipotiroidismo primario por tiroiditis crónica autoinmune (tiroiditis de Hashimoto) con bocio difuso y antecedente familiar", "o", "", "Reúne síntomas típicos, bocio difuso firme, antecedente familiar tiroideo, TSH alta con T4 libre baja y anti-TPO positivo."),
    D("Hipotiroidismo por déficit de yodo, frecuente en zonas con baja ingesta, como causa principal en esta paciente de la costa", "i", "", "Hay anticuerpos positivos y antecedente familiar; la causa más probable es autoinmune, no el déficit de yodo."),
    D("Tiroiditis subaguda con fase hipotiroidea, que cursa con dolor cervical y requiere antiinflamatorios y observación posterior", "i", "", "No hubo dolor ni cuadro viral previo y la tiroides no es dolorosa: no corresponde a una tiroiditis subaguda."),
    D("Enfermedad de Graves en fase de agotamiento con hipotiroidismo, para la cual corresponde tratamiento con antitiroideos de síntesis", "p", "", "No hay antecedentes de hipertiroidismo; los antitiroideos empeorarían la función tiroidea en una paciente hipotiroidea."),
