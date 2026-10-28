@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ejemplo · caso clínico con imagen · MedQuizPlus</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<script>try { var t = localStorage.getItem("mqp_tema"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="visor_imagen.css">
+<style>
+  body { background: var(--paper); color: var(--ink); font-family: var(--f-body); margin: 0; }
+  .demo { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 24px; }
+  .demo h1 { font: 800 clamp(1.5rem, 3.4vw, 2.1rem)/1.15 var(--f-display); margin: 0; letter-spacing: -.01em; }
+  .demo__aviso { padding: 12px 16px; border: 1px solid var(--line-strong); border-left: 4px solid var(--mark); border-radius: var(--radius-sm); background: var(--mark-soft); color: var(--ink); font-size: .92rem; line-height: 1.5; }
+  .caso { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 20px; align-items: start; padding: 20px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); box-shadow: var(--shadow-sm); }
+  .caso__tag { font: 700 .72rem var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--brand); }
+  .caso h2 { margin: 4px 0 10px; font: 700 1.25rem var(--f-display); }
+  .caso p { line-height: 1.65; margin: 0 0 12px; }
+  .caso ol { list-style: upper-alpha; padding-left: 26px; margin: 0; display: grid; gap: 8px; }
+  .caso li { padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface-2); }
+  .caso li::marker { font-weight: 700; color: var(--brand-strong); }
+  .img-card { display: grid; gap: 10px; }
+  .img-card__btn { position: relative; padding: 0; border: 1px solid var(--line-strong); border-radius: var(--radius); overflow: hidden; background: #000; cursor: zoom-in; display: block; width: 100%; }
+  .img-card__btn img { display: block; width: 100%; aspect-ratio: 4 / 4.2; object-fit: cover; opacity: .92; transition: opacity .2s, transform .3s; }
+  .img-card__btn:hover img { opacity: 1; transform: scale(1.02); }
+  .img-card__btn:focus-visible { outline: none; box-shadow: var(--ring); }
+  .img-card__ver { position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; justify-content: center; align-items: center; gap: 8px; min-height: 46px; border-radius: var(--radius-pill); background: var(--brand); color: var(--on-brand); font: 700 .95rem var(--f-body); box-shadow: var(--shadow-brand); }
+  .img-card__ver svg { width: 20px; height: 20px; }
+  .img-card small { color: var(--ink-2); line-height: 1.45; font-size: .82rem; }
+  @media (max-width: 800px) { .caso { grid-template-columns: 1fr; } .img-card { order: -1; } }
+  @media (prefers-reduced-motion: reduce) { .img-card__btn img { transition: none; } }
+</style>
+</head>
+<body>
+<main class="demo">
+  <header>
+    <p class="caso__tag">Página de demostración</p>
+    <h1>Caso clínico con imagen interactiva</h1>
+  </header>
+  <p class="demo__aviso"><strong>Esto es una demostración.</strong> Las imágenes son <strong>modelos sintéticos con la marca «EJEMPLO»</strong> generados para probar el visor, no estudios de pacientes, y los textos clínicos son de relleno: no tienen valor médico. En un caso real aquí va una imagen con licencia que permita su uso, o propia y anonimizada.</p>
+
+  <!-- Caso 1: una radiografía -->
+  <section class="caso" aria-labelledby="c1">
+    <div>
+      <p class="caso__tag">Pregunta de ejemplo · Imagen única</p>
+      <h2 id="c1">Varón de 58 años con tos y disnea de dos semanas</h2>
+      <p>Fumador de larga data. Acude por tos persistente, disnea progresiva y pérdida de peso. Se solicita una radiografía de tórax posteroanterior (ver imagen). <em>[Texto clínico de ejemplo]</em></p>
+      <p><strong>Según la imagen y el cuadro clínico, ¿cuál es el hallazgo más relevante?</strong></p>
+      <ol><li>Alternativa A (ejemplo)</li><li>Alternativa B (ejemplo)</li><li>Alternativa C (ejemplo)</li><li>Alternativa D (ejemplo)</li><li>Alternativa E (ejemplo)</li></ol>
+    </div>
+    <aside class="img-card" aria-label="Imagen del caso">
+      <button type="button" class="img-card__btn" id="ver1" aria-label="Ver imagen: radiografía de tórax de ejemplo (abre el visor interactivo)">
+        <img src="img/ejemplo-torax.jpg" alt="Miniatura de una radiografía de tórax sintética de ejemplo" width="400" height="420">
+        <span class="img-card__ver"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg>Ver imagen</span>
+      </button>
+      <small>Haz clic para ampliar, mover, ajustar brillo y contraste o invertir la imagen.</small>
+    </aside>
+  </section>
+
+  <!-- Caso 2: una serie por cortes -->
+  <section class="caso" aria-labelledby="c2">
+    <div>
+      <p class="caso__tag">Pregunta de ejemplo · Serie por cortes (TC/RM)</p>
+      <h2 id="c2">Cefalea de inicio súbito</h2>
+      <p>Mujer de 45 años con cefalea intensa de inicio súbito y náuseas. Se realiza una tomografía axial (serie de 8 cortes). Desplázate por los cortes con el control deslizante o con las flechas ↑ ↓. <em>[Texto clínico de ejemplo]</em></p>
+      <p><strong>¿Qué estructura debes seguir en los cortes para responder?</strong></p>
+      <ol><li>Alternativa A (ejemplo)</li><li>Alternativa B (ejemplo)</li><li>Alternativa C (ejemplo)</li><li>Alternativa D (ejemplo)</li></ol>
+    </div>
+    <aside class="img-card" aria-label="Serie de imágenes del caso">
+      <button type="button" class="img-card__btn" id="ver2" aria-label="Ver imagen: serie de 8 cortes axiales de ejemplo (abre el visor interactivo)">
+        <img src="img/ejemplo-serie-4.jpg" alt="Miniatura de un corte axial sintético de ejemplo" width="400" height="400">
+        <span class="img-card__ver"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg>Ver imagen (8 cortes)</span>
+      </button>
+      <small>Serie por cortes: usa el control «Corte» o las flechas ↑ ↓ dentro del visor.</small>
+    </aside>
+  </section>
+</main>
+<script src="visor_imagen.js"></script>
+<script>
+  var ATR = { nota: "Imagen sintética de EJEMPLO generada para esta demostración (no es un estudio real).", autor: "MedQuizPlus (generada por script)", licencia: "Uso interno de demostración" };
+  document.getElementById("ver1").addEventListener("click", function () {
+    MQP.visorImagen.abrir({ titulo: "Radiografía de tórax (ejemplo)", alt: "Radiografía de tórax sintética de ejemplo con la marca EJEMPLO", imagenes: ["img/ejemplo-torax.jpg"], atribucion: ATR }, this);
+  });
+  document.getElementById("ver2").addEventListener("click", function () {
+    var serie = []; for (var k = 1; k <= 8; k++) serie.push("img/ejemplo-serie-" + k + ".jpg");
+    MQP.visorImagen.abrir({ titulo: "TC axial · serie de 8 cortes (ejemplo)", alt: "Corte axial sintético de ejemplo con la marca EJEMPLO", imagenes: serie, atribucion: ATR }, this);
+  });
+</script>
+</body>
+</html>
