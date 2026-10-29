@@ -102,3 +102,5 @@
   :root:not([data-theme="light"]) .gh-acc { --c-s: #17233a; }
   :root:not([data-theme="light"]) .gh-refuerzo { background: #2a1f08; border-color: #6b4a10; color: #fcd9a0; } :root:not([data-theme="light"]) .gh-refuerzo b { color: #fde7bd; }
 }
+/* monitor animado del hero (decorativo): queda entre la fotografía y el velo, así recibe el mismo tinte */
+.gh-monitor { position: absolute; z-index: -1; pointer-events: none; display: block; }

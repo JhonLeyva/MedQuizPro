@@ -89,7 +89,7 @@
     var conImg = casosG.concat(casosC).filter(function (c) { return (c.imagenes || []).length; }).length;
     var cap = [["doc", "Decisiones con cinco alternativas"], ["flask", "Laboratorio y valores de referencia"], ["img", "Imágenes reales con fuente y licencia"], ["chart", "Informe con razonamiento y bibliografía"], ["clock", "Modo cronometrado opcional"]];
     var h = '<div class="gh">' +
-      '<header class="gh-hero"><img class="gh-hero__img" src="' + IMG + 'hero.webp" alt="" width="1600" height="900" fetchpriority="high" decoding="async"><div class="gh-hero__vel"></div><div class="gh-hero__c"><p class="gh-kicker">' + ic("pulse") + 'Simuladores clínicos</p><h1>Sobrevive a la <span>Guardia</span></h1><p class="gh-hero__sub">Toma decisiones clínicas, solicita e interpreta pruebas y aprende de un informe completo con tu razonamiento y la bibliografía de cada caso.</p>' +
+      '<header class="gh-hero"><img class="gh-hero__img" src="' + IMG + 'hero.webp" alt="" width="1600" height="900" fetchpriority="high" decoding="async"><canvas class="gh-monitor" aria-hidden="true"></canvas><div class="gh-hero__vel"></div><div class="gh-hero__c"><p class="gh-kicker">' + ic("pulse") + 'Simuladores clínicos</p><h1>Sobrevive a la <span>Guardia</span></h1><p class="gh-hero__sub">Toma decisiones clínicas, solicita e interpreta pruebas y aprende de un informe completo con tu razonamiento y la bibliografía de cada caso.</p>' +
       '<ul class="gh-caps">' + cap.map(function (c) { return '<li>' + ic(c[0]) + '<span>' + esc(c[1]) + '</span></li>'; }).join("") + '</ul>' + (M.guardiaIntro ? '<button type="button" class="gh-link gh-link--claro" id="ghIntro">▶ Ver la introducción</button>' : "") + '</div><p class="gh-hero__lema" aria-hidden="true">Decide.<br>Actúa.<br><em>Aprende.</em></p></header>' +
       '<p class="gd-aviso" role="note">' + esc(GD().AVISO) + '</p>' +
       '<section class="gh-mods" aria-label="Modalidades"><div class="gh-mods__g">' +
@@ -104,15 +104,81 @@
       '<li><button type="button" class="gh-acc gh-acc--ambar" id="ghFu"><img src="' + IMG + 'guias.webp" alt="" width="560" height="420" loading="lazy" decoding="async"><span class="gh-acc__i">' + ic("book") + '</span><span class="gh-acc__t"><b>Guías y fuentes de los casos</b><small>' + F.todas.length + ' referencias: ' + F.peruanas.length + ' peruanas (MINSA/EsSalud) y ' + F.otras.length + ' internacionales.</small></span>' + ic("arrow") + '</button></li>' +
       '<li><div class="gh-acc gh-acc--celeste gh-acc--info"><span class="gh-acc__i">' + ic("img") + '</span><span class="gh-acc__t"><b>Imágenes médicas reales</b><small>' + conImg + ' casos incluyen imágenes publicadas con licencia abierta y su ficha de fuente; las verás dentro de cada caso.</small></span></div></li>' +
       '<li><a class="gh-acc gh-acc--lila" href="#/feynman"><img src="' + IMG + 'tutor.webp" alt="" width="560" height="420" loading="lazy" decoding="async"><span class="gh-acc__i">' + ic("chat") + '</span><span class="gh-acc__t"><b>Tutor Feynman IA</b><small>Explica un tema con tus palabras y recibe correcciones del tutor.</small></span>' + ic("arrow") + '</a></li></ul></section>' +
-      '<p class="gh-credito">Las fotografías de esta pantalla son ilustraciones generadas con IA para el diseño; no son imágenes clínicas reales ni sirven para interpretación diagnóstica. Las imágenes médicas de los casos son otras: figuras publicadas con licencia abierta y su fuente.</p></div>';
+      '<p class="gh-credito">Las fotografías de esta pantalla son ilustraciones generadas con IA para el diseño y el monitor del encabezado es una animación decorativa con valores de ejemplo; no son imágenes ni datos clínicos reales ni sirven para interpretación diagnóstica. Las imágenes médicas de los casos son otras: figuras publicadas con licencia abierta y su fuente.</p></div>';
     cont.innerHTML = h;
     cont.querySelector("#ghLab").addEventListener("click", function (e) { GD().abrirCatalogo(e.currentTarget); });
     cont.querySelector("#ghFu").addEventListener("click", function (e) { abrirFuentes(F, e.currentTarget); });
     var bi = cont.querySelector("#ghIntro"); if (bi) bi.addEventListener("click", function () { M.guardiaIntro.mostrar({}); });
   }
-  function montar(cont, datosApp, primeraEntrada) {
+  /* ---------- monitor vivo del hero ----------
+     Anima el monitor de la ilustración (trazados de ECG, presión invasiva y pletismografía + cifras que varían poco). Es decorativo: los valores son de ejemplo.
+     El lienzo se coloca sobre la región del monitor de hero.webp calculando cómo «cubre» la imagen el contenedor; sin movimiento reducido se anima, y se
+     detiene al salir de la pantalla, al ocultar la pestaña o al cambiar de ruta. Coordenadas en píxeles de un recorte 4× de hero.webp (origen 1360,130). */
+  var BX = 1370, BY = 160, BW = 230, BH = 270, OX = 1360, OY = 130, TRAZOS = [
+    { id: "ecg", color: "#2bdc78", x0: 178, x1: 690, y0: 492, m: -0.19, amp: 118, k: "ecg" }, { id: "resp", color: "#2f78c4", x0: 178, x1: 690, y0: 578, m: -0.17, amp: 16, k: "resp" },
+    { id: "abp", color: "#ec3a32", x0: 195, x1: 690, y0: 645, m: -0.143, amp: 72, k: "abp" }, { id: "pleth", color: "#cfe8ff", x0: 200, x1: 690, y0: 835, m: -0.12, amp: 108, k: "pleth" }];
+  var CAJAS = [[[172, 398], [692, 332], [702, 842], [192, 866]], [[748, 276], [906, 266], [912, 402], [752, 410]], [[765, 440], [948, 432], [950, 614], [768, 616]], [[808, 656], [916, 650], [919, 782], [812, 787]], [[778, 860], [891, 855], [893, 987], [780, 991]]];
+  function g(x, c, w) { var d = (x - c) / w; return Math.exp(-d * d); }
+  var SENAL = {
+    ecg: function (f) { return 0.11 * g(f, .12, .035) - 0.07 * g(f, .215, .012) + 1 * g(f, .245, .014) - 0.22 * g(f, .275, .014) + 0.26 * g(f, .52, .06); },
+    abp: function (f) { return 0.95 * g(f, .30, .07) + 0.32 * g(f, .52, .06) - 0.1; }, pleth: function (f) { return 0.95 * g(f, .34, .085) + 0.26 * g(f, .62, .08); }
+  };
+  function monitorVivo(hero) {
+    var cv = hero.querySelector(".gh-monitor"), img = hero.querySelector(".gh-hero__img"); if (!cv || !img || !cv.getContext) return function () {};
+    var ctx = cv.getContext("2d"), reducido = raiz.matchMedia && raiz.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var sc = 1, N = 256, PERIODO = 4.6, buf = {}, ult = -1, fase = 0, tPrev = 0, hr = 118, spo2 = 98, rr = 24, tHr = 0, tSp = 0, raf = 0, vivo = true, visible = true, ro = null, io = null;
+    TRAZOS.forEach(function (z) { buf[z.id] = new Float32Array(N); });
+    function ubicar() {
+      var cw = hero.clientWidth, ch = hero.clientHeight; if (!cw || !ch) return;
+      var pos = (getComputedStyle(img).objectPosition || "50% 50%").split(" "), px = parseFloat(pos[0]) / 100, py = parseFloat(pos[1]) / 100; if (isNaN(px)) px = .5; if (isNaN(py)) py = .5;
+      var s = Math.max(cw / 1600, ch / 900), ox = (cw - 1600 * s) * px, oy = (ch - 900 * s) * py, dpr = Math.min(2, raiz.devicePixelRatio || 1);
+      cv.style.left = (ox + BX * s) + "px"; cv.style.top = (oy + BY * s) + "px"; cv.style.width = (BW * s) + "px"; cv.style.height = (BH * s) + "px";
+      sc = s * dpr; cv.width = Math.max(1, Math.round(BW * sc)); cv.height = Math.max(1, Math.round(BH * sc));
+      var fuera = ox + (BX + BW) * s < 0 || ox + BX * s > cw || oy + (BY + BH) * s < 0 || oy + BY * s > ch; cv.style.display = fuera ? "none" : "block"; dibujar(performance.now() / 1000);
+    }
+    function valor(k, f, t) { if (k === "resp") return Math.sin(2 * Math.PI * (t * rr / 60)) * 0.5 + 0.12 * Math.sin(t * 7.3); return SENAL[k](f) + 0.025 * Math.sin(t * 53 + f * 9); }
+    function avanzar(t) {
+      var dt = Math.min(.25, Math.max(0, t - tPrev)); tPrev = t; fase += dt * hr / 60;
+      if (t > tHr) { tHr = t + 1.6 + Math.random() * 1.4; hr = Math.max(115, Math.min(121, hr + [-1, 0, 0, 1][Math.floor(Math.random() * 4)])); }
+      if (t > tSp) { tSp = t + 5 + Math.random() * 6; spo2 = Math.random() < .25 ? 97 : 98; }
+      var c = Math.floor(((t % PERIODO) / PERIODO) * N), dtS = PERIODO / N;
+      if (ult < 0) ult = c;
+      for (var i = ult; i !== c;) { i = (i + 1) % N; var ti = t - ((c - i + N) % N) * dtS, f = (((fase - (t - ti) * hr / 60) % 1) + 1) % 1; TRAZOS.forEach(function (z) { buf[z.id][i] = valor(z.k, f, ti); }); }
+      ult = c; return c;
+    }
+    function dibujar(t) {
+      var c = reducido ? -1 : ult < 0 ? 0 : ult;
+      ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); var k = sc / 4; ctx.setTransform(k, 0, 0, k, -(BX - OX) * 4 * k, -(BY - OY) * 4 * k);
+      ctx.fillStyle = "#020509"; CAJAS.forEach(function (p) { ctx.beginPath(); ctx.moveTo(p[0][0], p[0][1]); for (var i = 1; i < p.length; i++) ctx.lineTo(p[i][0], p[i][1]); ctx.closePath(); ctx.fill(); });
+      ctx.lineJoin = "round"; ctx.lineCap = "round";
+      TRAZOS.forEach(function (z) {
+        var b = buf[z.id], an = z.x1 - z.x0, gap = reducido ? 0 : 7; ctx.strokeStyle = z.color; ctx.lineWidth = 3.4; ctx.shadowColor = z.color; ctx.shadowBlur = 5; ctx.beginPath();
+        var ini = true; for (var i = 0; i < N; i++) { if (!reducido && ((i - c - 1 + N) % N) < gap) { ini = true; continue; } var x = z.x0 + an * i / (N - 1), y = z.y0 + z.m * (x - z.x0) - b[i] * z.amp; if (ini) { ctx.moveTo(x, y); ini = false; } else ctx.lineTo(x, y); }
+        ctx.stroke(); ctx.shadowBlur = 0;
+      });
+      function txt(s2, x, y, col, px2) { ctx.save(); ctx.translate(x, y); ctx.rotate(-0.08); ctx.font = "700 " + px2 + "px Inter, Arial, sans-serif"; ctx.fillStyle = col; ctx.fillText(s2, 0, 0); ctx.restore(); }
+      txt(String(hr), 760, 396, "#22f08a", 150); txt("96/52", 770, 542, "#ff3b3b", 128); txt("(68)", 826, 602, "#ff4d4d", 78); txt(String(rr), 818, 772, "#ffe02e", 146); txt(String(spo2), 786, 975, "#36d6ff", 146);
+    }
+    function ciclo(ms) { raf = 0; if (!vivo) return; if (visible && !document.hidden) { avanzar(ms / 1000); dibujar(ms / 1000); } raf = raiz.requestAnimationFrame(ciclo); }
+    function precarga() { if (reducido) { for (var j = 0; j < N; j++) { var tj = j * PERIODO / N, f = ((tj * hr / 60) % 1); TRAZOS.forEach(function (z) { buf[z.id][j] = valor(z.k, f, tj); }); } ult = N - 1; } }
+    precarga(); ubicar();
+    if (img.complete) ubicar(); else img.addEventListener("load", ubicar);
+    if (raiz.ResizeObserver) { ro = new ResizeObserver(ubicar); ro.observe(hero); } else raiz.addEventListener("resize", ubicar);
+    if (raiz.IntersectionObserver) { io = new IntersectionObserver(function (e) { visible = e[0].isIntersecting; }); io.observe(hero); }
+    if (!reducido) raf = raiz.requestAnimationFrame(ciclo);
+    return function () { vivo = false; if (raf) raiz.cancelAnimationFrame(raf); if (ro) ro.disconnect(); if (io) io.disconnect(); raiz.removeEventListener("resize", ubicar); };
+  }
+  var detenerMonitor = null, enHub = false, sinIntroProxima = false;
+  window.addEventListener("hashchange", function () { if (!/^#\/guardia\/?$/.test(location.hash)) { enHub = false; if (detenerMonitor) { detenerMonitor(); detenerMonitor = null; } } });
+  document.addEventListener("click", function (e) { var a = e.target.closest && e.target.closest('.gh-migas a[href="#/guardia"]'); if (a) sinIntroProxima = true; });   // volver desde un listado del propio módulo no repite la introducción
+  function montar(cont, datosApp) {
     var ctx = { datos: datosApp };
-    function listo() { if (!/^#\/guardia\/?$/.test(location.hash)) return; pintar(cont, ctx); var I2 = M.guardiaIntro; if (I2 && primeraEntrada && !I2.omitida() && !document.querySelector(".gi")) I2.mostrar({ alTerminar: function () { var b = cont.querySelector(".gh-btn"); if (b) b.focus({ preventScroll: true }); } }); }
+    function listo() {
+      if (!/^#\/guardia\/?$/.test(location.hash)) return;
+      var mostrarIntro = !enHub && !sinIntroProxima; enHub = true; sinIntroProxima = false;
+      if (detenerMonitor) detenerMonitor(); pintar(cont, ctx); var hero = cont.querySelector(".gh-hero"); detenerMonitor = hero ? monitorVivo(hero) : null;
+      var I2 = M.guardiaIntro; if (I2 && mostrarIntro && !document.querySelector(".gi")) I2.mostrar({ alTerminar: function () { var b = cont.querySelector(".gh-btn"); if (b) b.focus({ preventScroll: true }); } });
+    }
     if (raiz.MQP_CONSULTA || !(M.consulta && M.consulta.asegurarDatos)) { listo(); return; }
     cont.innerHTML = '<p class="muted" role="status">Cargando el centro de simulación…</p>';
     M.consulta.asegurarDatos().then(listo, listo);
