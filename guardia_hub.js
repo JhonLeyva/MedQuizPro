@@ -1,0 +1,121 @@
+/* MedQuizPlus · Centro de simulación clínica (pantalla principal de «Sobrevive a la Guardia»).
+   Solo presenta y enlaza: no toca la lógica clínica. Todo dato mostrado sale de los casos cargados (guardia_casos.js, consulta_casos.js) y del progreso real del alumno
+   (M.progreso.preferencia("guardia" / "consulta")); las recomendaciones son las de M.guardiaNucleo.recomendar. Las fotografías son ilustraciones generadas con IA
+   (ver guardia/portadas/LEEME.txt): no son imágenes clínicas reales. */
+(function (raiz) {
+  "use strict";
+  var M = raiz.MQP || (raiz.MQP = {});
+  var G = function () { return M.guardiaNucleo; }, GD = function () { return M.guardia; };
+  var esc = function (s) { return GD().esc(s); };
+  var IMG = "../guardia/portadas/";
+  var I = {
+    pulse: '<path d="M3 12h4l2-6 4 12 2-6h6"/>', doc: '<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/>', brain: '<path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 4 3 3 0 0 0 2 4 3 3 0 0 0 3 4V4zM15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 4 3 3 0 0 1-2 4 3 3 0 0 1-3 4V4z"/>',
+    img: '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/>', chart: '<path d="M5 20V10M12 20V4M19 20v-7"/>', clock: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 3h6"/>',
+    bolt: '<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>', users: '<circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M16 5a3 3 0 0 1 0 6M18 14c2 .8 3 2.700 3 6"/>',
+    heart: '<path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.500-9 9-9 9z"/><path d="M7 12h3l1.500-3 2 6 1.500-3h2"/>', flask: '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M8 15h8"/>',
+    book: '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/>', chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
+    warn: '<path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.01"/>', arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>', target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.500"/><path d="M12 12l6-6"/>',
+    file: '<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/>', bar: '<path d="M5 20V12M12 20V5M19 20v-5"/>', lock: '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>'
+  };
+  function ic(n, c) { return '<svg class="gh-ic' + (c ? " " + c : "") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + I[n] + '</svg>'; }
+  function progC() { var g = M.progreso && M.progreso.preferencia("consulta"); return g && g.casos ? g : { casos: {} }; }
+  function resumen(casos, prog) {
+    var n = casos.length, NIV = G().NIVEL, dif = casos.map(function (c) { return c.dificultad; }), dur = casos.map(function (c) { return c.duracion_min; }), esp = {};
+    casos.forEach(function (c) { c.especialidad.split(" · ").forEach(function (x) { esp[x] = (esp[x] || 0) + 1; }); });
+    var temas = Object.keys(esp).sort(function (a, b) { return esp[b] - esp[a] || (a < b ? -1 : 1); });
+    var hechos = casos.filter(function (c) { return prog.casos[c.id]; }), mejor = hechos.length ? Math.round(hechos.reduce(function (s, c) { return s + prog.casos[c.id].mejor; }, 0) / hechos.length) : null;
+    var nombreNivel = function (d) { return NIV[d].replace(/^Nivel \d · /, ""); };
+    var dmin = Math.min.apply(null, dif), dmax = Math.max.apply(null, dif), tmin = Math.min.apply(null, dur), tmax = Math.max.apply(null, dur);
+    return { n: n, nivel: n ? (dmin === dmax ? nombreNivel(dmin) : nombreNivel(dmin) + " – " + nombreNivel(dmax)) : "", tiempo: n ? (tmin === tmax ? tmin + " min" : tmin + " – " + tmax + " min") : "", temas: temas, hechos: hechos.length, mejor: mejor };
+  }
+  function datos(r) { return '<dl class="gh-datos"><div>' + ic("file") + '<dd>' + r.n + '</dd><dt>Casos disponibles</dt></div><div>' + ic("bar") + '<dd>' + esc(r.nivel) + '</dd><dt>Nivel</dt></div><div>' + ic("clock") + '<dd>' + esc(r.tiempo) + '</dd><dt>Tiempo por caso</dt></div></dl>'; }
+  function progreso(r, etq) {
+    var pct = r.n ? Math.round(r.hechos / r.n * 100) : 0;
+    return '<div class="gh-prog"><p><b>' + r.hechos + ' de ' + r.n + '</b> ' + etq + (r.mejor != null ? ' · mejor puntaje medio <b>' + r.mejor + ' %</b>' : ' · aún sin intentos') + '</p><div class="gh-barra" role="img" aria-label="Progreso: ' + r.hechos + ' de ' + r.n + ' casos completados"><i style="width:' + pct + '%"></i></div></div>';
+  }
+  function chips(temas) { var v = temas.slice(0, 4); return '<ul class="gh-chips" aria-label="Temas clínicos">' + v.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join("") + (temas.length > 4 ? '<li>y más…</li>' : "") + '</ul>'; }
+  function tarjeta(o) {
+    return '<article class="gh-card gh-card--' + o.tono + '" aria-labelledby="ghT' + o.id + '"><div class="gh-card__foto"><img src="' + IMG + o.img + '" alt="" width="800" height="600" loading="lazy" decoding="async"><span class="gh-pill">' + ic(o.icono) + esc(o.pill) + '</span>' + (o.pronto ? '<span class="gh-soon">Próximamente</span>' : "") +
+      '<div class="gh-card__sobre"><h2 id="ghT' + o.id + '">' + esc(o.titulo) + '</h2><p>' + esc(o.texto) + '</p>' + (o.chips || "") + '</div></div>' + (o.datos || "") + (o.prog || "") + o.boton + '</article>';
+  }
+  function boton(tono, href, txt) { return '<a class="gh-btn gh-btn--' + tono + '" href="' + href + '"><span>' + esc(txt) + '</span>' + ic("arrow") + '</a>'; }
+
+  /* ---- recomendados (mismo algoritmo y mismos textos honestos que antes) ---- */
+  function recomendados(rec) {
+    var MIN = G().MIN_TOTAL, NIVEL = G().NIVEL;
+    var enc = rec.modo === "personalizado" ? "Casos recomendados para ti" : rec.modo === "provisional" ? "Casos recomendados para ti (provisional)" : "Por dónde empezar";
+    var intro = rec.modo === "invitacion" ? "Todavía no tenemos suficientes respuestas tuyas en el banco (" + rec.total + " de " + MIN + ") para recomendarte con criterio, así que no inventamos una recomendación. Estos son buenos puntos de partida; responde preguntas en el banco" + (rec.faltan ? " (te faltan " + rec.faltan + ")" : "") + " para personalizarlos."
+      : rec.modo === "provisional" ? "Tenemos pocas respuestas en las especialidades de estos casos, por eso la sugerencia es provisional y se afina a medida que practicas."
+        : "Calculado con tus propias respuestas en el banco y tu historial en la guardia. Se procesa en tu navegador; no se comparte con otros alumnos.";
+    return '<section class="gh-rec" aria-labelledby="ghRecT"><header class="gh-sec-h">' + ic("target", "gh-ic--lg") + '<div><h2 id="ghRecT">' + enc + '</h2><p>' + esc(intro) + '</p></div><a class="gh-link" href="#/progreso">Ver análisis detallado ' + ic("arrow") + '</a></header><ul class="gh-rec__l">' + rec.items.map(function (i) {
+      var ped = /Pediatr/i.test(i.caso.especialidad);
+      return '<li class="gh-rec__i"><a class="gh-rec__a" href="#/guardia/' + esc(i.caso.id) + '" aria-label="Empezar el caso: ' + esc(i.caso.titulo) + '"><span class="gh-rec__f' + (ped ? "" : " gh-rec__f--ic") + '">' + (ped ? '<img src="' + IMG + 'pediatria.webp" alt="" width="480" height="360" loading="lazy" decoding="async">' : ic("heart", "gh-ic--lg")) + '</span><span class="gh-rec__c"><b>' + esc(i.caso.titulo) + '</b>' +
+        '<span class="gh-tag">' + esc(i.caso.especialidad.split(" · ")[0]) + '</span><span class="gh-rec__n">' + ic("bar") + esc(NIVEL[i.caso.dificultad].replace(/^Nivel \d · /, "")) + '</span><span class="gh-rec__m">' + esc(i.motivos[0]) + '</span></span><span class="gh-rec__go">Empezar ' + ic("arrow") + '</span></a></li>';
+    }).join("") + '</ul></section>';
+  }
+  /* ---- estadísticas reales ---- */
+  function estadisticas(rG, rC, g, est, nCasosG) {
+    var todos = []; Object.keys(g.casos).forEach(function (k) { todos.push(g.casos[k].mejor); }); var pc = progC(); Object.keys(pc.casos).forEach(function (k) { todos.push(pc.casos[k].mejor); });
+    var media = todos.length ? Math.round(todos.reduce(function (s, x) { return s + x; }, 0) / todos.length) : null, R = 42, C = 2 * Math.PI * R;
+    var sinCrit = Object.keys(g.casos).filter(function (k) { return (g.casos[k].criticos || 0) === 0; }).length, completos = Object.keys(g.casos).length;
+    var peor = null; if (est && est.areas) Object.keys(est.areas).forEach(function (k) { var a = est.areas[k]; if (a.n >= G().MIN_AREA && (!peor || a.pct < peor.pct)) peor = a; });
+    return '<section class="gh-est" aria-labelledby="ghEstT"><h2 id="ghEstT">' + ic("chart") + ' Tus estadísticas en simuladores</h2><div class="gh-est__c"><div class="gh-anillo" role="img" aria-label="' + (media != null ? "Puntaje medio " + media + " por ciento" : "Sin intentos todavía") + '"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="' + R + '" class="gh-anillo__f"/><circle cx="50" cy="50" r="' + R + '" class="gh-anillo__v" stroke-dasharray="' + (media != null ? (C * media / 100).toFixed(1) : 0) + " " + C.toFixed(1) + '" transform="rotate(-90 50 50)"/></svg><span><b>' + (media != null ? media + " %" : "—") + '</b><small>Puntaje medio</small></span></div>' +
+      '<dl class="gh-est__l"><div><dt>Casos de emergencia completados</dt><dd>' + rG.hechos + ' / ' + rG.n + '</dd></div>' + (rC ? '<div><dt>Consultas completadas</dt><dd>' + rC.hechos + ' / ' + rC.n + '</dd></div>' : "") + '<div><dt>Emergencias sin errores críticos (último intento)</dt><dd>' + (completos ? sinCrit + ' / ' + completos : "—") + '</dd></div></dl></div>' +
+      '<p class="gh-est__nota">El tiempo de resolución y el uso de interconsultas no se resumen aquí: se muestran en el informe de cada caso.</p>' +
+      (peor ? '<a class="gh-refuerzo" href="#/banco">' + ic("warn") + '<span><small>Área para reforzar</small><b>' + esc(peor.nombre) + '</b><em>Aciertas ' + peor.pct + ' % en el banco (' + peor.ok + ' de ' + peor.n + ')</em></span>' + ic("arrow") + '</a>' : '<p class="gh-refuerzo gh-refuerzo--vacio">' + ic("warn") + '<span><small>Área para reforzar</small><em>Aún no hay suficientes respuestas en el banco para señalarla.</em></span></p>') + '</section>';
+  }
+  /* ---- fuentes y guías usadas en los casos ---- */
+  function fuentes(casosG, casosC) {
+    var mapa = {}, orden = [];
+    function add(c, ruta) { (c.referencias || []).forEach(function (r) { var k = r.pmid ? "p" + r.pmid : r.doi ? "d" + r.doi : r.url ? "u" + r.url : "t" + r.titulo; if (!mapa[k]) { mapa[k] = { r: r, casos: [] }; orden.push(k); } mapa[k].casos.push({ id: c.id, titulo: c.titulo, ruta: ruta }); }); }
+    casosG.forEach(function (c) { add(c, "guardia"); }); casosC.forEach(function (c) { add(c, "consulta"); });
+    var l = orden.map(function (k) { return mapa[k]; }), pe = function (x) { return /Perú|EsSalud|MINSA|Ministerio de Salud/i.test(x.r.organismo + " " + x.r.titulo); };
+    return { todas: l, peruanas: l.filter(pe), otras: l.filter(function (x) { return !pe(x); }), esPeru: pe };
+  }
+  function abrirFuentes(F, disparador) {
+    var fila = function (x) {
+      var r = x.r, ids = [];
+      if (r.pmid) ids.push(GD().enlace("https://pubmed.ncbi.nlm.nih.gov/" + r.pmid + "/", "PMID " + r.pmid)); if (r.doi) ids.push(GD().enlace("https://doi.org/" + r.doi, "DOI " + r.doi)); if (r.url) ids.push(GD().enlace(r.url, "Documento"));
+      return '<li class="gh-fu"><p><b>' + esc(r.titulo) + '</b></p><p class="muted small">' + esc(r.organismo) + ' · ' + esc(r.anio) + ' · ' + ids.join(" · ") + '</p><p class="muted small">' + esc(r.vigencia) + '</p><p class="small">Usada en: ' + x.casos.map(function (c) { return '<a href="#/' + c.ruta + '/' + esc(c.id) + '" data-cerrar>' + esc(c.titulo) + '</a>'; }).join(" · ") + '</p></li>';
+    };
+    var html = '<p class="gd-aviso" role="note">Son las referencias que respaldan los casos de este centro. Cuando una guía peruana y una internacional difieren, el caso lo declara y prevalece la más reciente. Si ves una discrepancia con tu guía vigente, prevalece la guía.</p>' +
+      '<h3 class="gd-h3">Guías y normas peruanas (' + F.peruanas.length + ')</h3><ul class="gh-fu__l">' + F.peruanas.map(fila).join("") + '</ul><h3 class="gd-h3">Guías y estudios internacionales (' + F.otras.length + ')</h3><ul class="gh-fu__l">' + F.otras.map(fila).join("") + '</ul>';
+    GD().dialogo("Guías y fuentes de los casos", html, "gd-dlg--lab", disparador);
+  }
+
+  function pintar(cont, ctx) {
+    var casosG = raiz.MQP_GUARDIA || [], casosC = raiz.MQP_CONSULTA || [], g = GD().cargar(), rG = resumen(casosG, g), rC = casosC.length ? resumen(casosC, progC()) : null;
+    var est = GD().estadisticasAlumno(ctx.datos), rec = G().recomendar(casosG, g, est, Date.now()), F = fuentes(casosG, casosC);
+    var conImg = casosG.concat(casosC).filter(function (c) { return (c.imagenes || []).length; }).length;
+    var cap = [["doc", "Decisiones con cinco alternativas"], ["flask", "Laboratorio y valores de referencia"], ["img", "Imágenes reales con fuente y licencia"], ["chart", "Informe con razonamiento y bibliografía"], ["clock", "Modo cronometrado opcional"]];
+    var h = '<div class="gh">' +
+      '<header class="gh-hero"><img class="gh-hero__img" src="' + IMG + 'hero.webp" alt="" width="1600" height="900" fetchpriority="high" decoding="async"><div class="gh-hero__vel"></div><div class="gh-hero__c"><p class="gh-kicker">' + ic("pulse") + 'Simuladores clínicos</p><h1>Sobrevive a la <span>Guardia</span></h1><p class="gh-hero__sub">Toma decisiones clínicas, solicita e interpreta pruebas y aprende de un informe completo con tu razonamiento y la bibliografía de cada caso.</p>' +
+      '<ul class="gh-caps">' + cap.map(function (c) { return '<li>' + ic(c[0]) + '<span>' + esc(c[1]) + '</span></li>'; }).join("") + '</ul>' + (M.guardiaIntro ? '<button type="button" class="gh-link gh-link--claro" id="ghIntro">▶ Ver la introducción</button>' : "") + '</div><p class="gh-hero__lema" aria-hidden="true">Decide.<br>Actúa.<br><em>Aprende.</em></p></header>' +
+      '<p class="gd-aviso" role="note">' + esc(GD().AVISO) + '</p>' +
+      '<section class="gh-mods" aria-label="Modalidades"><div class="gh-mods__g">' +
+      tarjeta({ id: "E", tono: "rojo", img: "emergencias.webp", icono: "bolt", pill: "EMERGENCIAS", titulo: "Guardia de Emergencias", texto: "Enfrenta emergencias médicas, toma decisiones bajo presión y aprende a estabilizar pacientes en situaciones críticas.", chips: chips(rG.temas), datos: datos(rG), prog: progreso(rG, "casos completados"), boton: boton("rojo", "#/guardia/emergencias", "Comenzar casos de emergencia") }) +
+      (rC ? tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", chips: chips(rC.temas), datos: datos(rC), prog: progreso(rC, "consultas completadas"), boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })
+        : tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })) +
+      tarjeta({ id: "U", tono: "gris", img: "uci.webp", icono: "heart", pill: "CUIDADOS CRÍTICOS", pronto: true, titulo: "UCI y Paciente Crítico", texto: "Manejo de pacientes en estado crítico. Esta modalidad todavía no está disponible: aún no hay casos publicados.", prog: '<div class="gh-prog gh-prog--uci"><p>Aún no hay casos de UCI publicados. Mientras tanto puedes practicar la toma de decisiones críticas en la Guardia de Emergencias.</p></div>', boton: '<p class="gh-btn gh-btn--off">' + ic("lock") + '<span>Próximamente</span></p>' }) +
+      '</div></section>' +
+      '<div class="gh-fila">' + recomendados(rec) + estadisticas(rG, rC, g, est) + '</div>' +
+      '<section class="gh-accesos" aria-label="Accesos rápidos"><ul>' +
+      '<li><button type="button" class="gh-acc gh-acc--verde" id="ghLab"><img src="' + IMG + 'laboratorio.webp" alt="" width="560" height="420" loading="lazy" decoding="async">' + '<span class="gh-acc__i">' + ic("flask") + '</span><span class="gh-acc__t"><b>Biblioteca de valores de laboratorio</b><small>Consulta intervalos de referencia por sexo, edad y gestación (intervalos educativos).</small></span>' + ic("arrow") + '</button></li>' +
+      '<li><button type="button" class="gh-acc gh-acc--ambar" id="ghFu"><img src="' + IMG + 'guias.webp" alt="" width="560" height="420" loading="lazy" decoding="async"><span class="gh-acc__i">' + ic("book") + '</span><span class="gh-acc__t"><b>Guías y fuentes de los casos</b><small>' + F.todas.length + ' referencias: ' + F.peruanas.length + ' peruanas (MINSA/EsSalud) y ' + F.otras.length + ' internacionales.</small></span>' + ic("arrow") + '</button></li>' +
+      '<li><div class="gh-acc gh-acc--celeste gh-acc--info"><span class="gh-acc__i">' + ic("img") + '</span><span class="gh-acc__t"><b>Imágenes médicas reales</b><small>' + conImg + ' casos incluyen imágenes publicadas con licencia abierta y su ficha de fuente; las verás dentro de cada caso.</small></span></div></li>' +
+      '<li><a class="gh-acc gh-acc--lila" href="#/feynman"><img src="' + IMG + 'tutor.webp" alt="" width="560" height="420" loading="lazy" decoding="async"><span class="gh-acc__i">' + ic("chat") + '</span><span class="gh-acc__t"><b>Tutor Feynman IA</b><small>Explica un tema con tus palabras y recibe correcciones del tutor.</small></span>' + ic("arrow") + '</a></li></ul></section>' +
+      '<p class="gh-credito">Las fotografías de esta pantalla son ilustraciones generadas con IA para el diseño; no son imágenes clínicas reales ni sirven para interpretación diagnóstica. Las imágenes médicas de los casos son otras: figuras publicadas con licencia abierta y su fuente.</p></div>';
+    cont.innerHTML = h;
+    cont.querySelector("#ghLab").addEventListener("click", function (e) { GD().abrirCatalogo(e.currentTarget); });
+    cont.querySelector("#ghFu").addEventListener("click", function (e) { abrirFuentes(F, e.currentTarget); });
+    var bi = cont.querySelector("#ghIntro"); if (bi) bi.addEventListener("click", function () { M.guardiaIntro.mostrar({}); });
+  }
+  function montar(cont, datosApp, primeraEntrada) {
+    var ctx = { datos: datosApp };
+    function listo() { if (!/^#\/guardia\/?$/.test(location.hash)) return; pintar(cont, ctx); var I2 = M.guardiaIntro; if (I2 && primeraEntrada && !I2.omitida() && !document.querySelector(".gi")) I2.mostrar({ alTerminar: function () { var b = cont.querySelector(".gh-btn"); if (b) b.focus({ preventScroll: true }); } }); }
+    if (raiz.MQP_CONSULTA || !(M.consulta && M.consulta.asegurarDatos)) { listo(); return; }
+    cont.innerHTML = '<p class="muted" role="status">Cargando el centro de simulación…</p>';
+    M.consulta.asegurarDatos().then(listo, listo);
+  }
+  M.guardiaHub = { montar: montar };
+})(typeof window !== "undefined" ? window : this);
