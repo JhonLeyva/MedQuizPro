@@ -27,8 +27,9 @@
   /* ---------- lista ---------- */
   function lista(cont) {
     var g = cargar(), casos = raiz.MQP_CONSULTA || [], NIVEL = M.guardiaNucleo.NIVEL;
-    cont.innerHTML = '<header class="page-head"><p class="kicker">Simulador</p><h1 class="page-head__title">Consulta Clínica Experta</h1><p class="page-head__lead">Consulta ambulatoria completa: haces la anamnesis, exploras, planteas hipótesis, eliges qué pruebas pedir, interpretas los resultados y decides el diagnóstico, el tratamiento y el seguimiento. Los resultados solo aparecen si los solicitas. Al final recibes un informe de tus pruebas pedidas y omitidas.</p></header>' +
-      '<p class="gd-aviso" role="note">' + esc(GD().AVISO) + '</p><p class="gd-modos-link"><a class="btn btn--ghost btn--sm" href="#/guardia">← Volver a «Sobrevive a la Guardia» (urgencias)</a></p>' +
+    cont.innerHTML = '<nav class="gh-migas" aria-label="Ruta"><a href="#/guardia">Centro de simulación</a><span aria-hidden="true">›</span><span aria-current="page">Consulta clínica experta</span></nav>' +
+      '<header class="gh-modal gh-modal--azul"><img class="gh-modal__img" src="../guardia/portadas/consulta.webp" alt="" width="800" height="600" loading="eager" decoding="async"><div class="gh-modal__txt"><p class="gh-kicker">Consulta ambulatoria</p><h1 class="gh-modal__t">Consulta Clínica Experta</h1><p>Consulta ambulatoria completa: haces la anamnesis, exploras, planteas hipótesis, eliges qué pruebas pedir, interpretas los resultados y decides el diagnóstico, el tratamiento y el seguimiento. Los resultados solo aparecen si los solicitas. Al final recibes un informe de tus pruebas pedidas y omitidas.</p></div></header>' +
+      '<p class="gd-aviso" role="note">' + esc(GD().AVISO) + '</p>' +
       '<ul class="gd-lista" id="cqLista">' + casos.map(function (c) {
         var r = g.casos[c.id];
         return '<li class="gd-caso"><p class="gd-niv">' + esc(NIVEL[c.dificultad]) + ' · ' + esc(c.especialidad) + '</p><h2>' + esc(c.titulo) + '</h2><p>' + esc(c.resumen) + '</p><p class="muted small">≈ ' + c.duracion_min + ' min · ' + c.pruebas.length + ' pruebas disponibles · ' + c.referencias.length + ' referencias</p>' +
@@ -56,7 +57,7 @@
         var alcanzada = idx(et) <= idx(e.etapa), actual = et === vista;
         return '<li class="cq-paso' + (actual ? " is-actual" : "") + (alcanzada && !actual ? " is-hecho" : "") + '">' + (alcanzada ? '<button type="button" data-ir="' + et + '"' + (actual ? ' aria-current="step"' : "") + '>' + esc(N.NOMBRES[et]) + '</button>' : '<span>' + esc(N.NOMBRES[et]) + '</span>') + '</li>';
       }).join("");
-      return '<header class="gd-top"><a class="link-arrow" href="#/consulta">← Casos</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(GDm.AVISO) + '</p>' +
+      return '<header class="gd-top"><a class="link-arrow" href="#/consulta">← Consulta clínica experta</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(GDm.AVISO) + '</p>' +
         '<nav aria-label="Etapas de la consulta"><ol class="cq-pasos">' + pasos + '</ol></nav>' +
         '<section class="gd-paciente cq-pac" aria-label="Paciente"><p class="gd-estado"><b>' + esc(GDm.perfilTxt(caso.paciente)) + '.</b> ' + esc(caso.motivo) + '</p></section>';
     }
@@ -235,7 +236,7 @@
       var res = N.resultadosSolicitados(caso, e.solicitadas), labs = res.filter(function (p) { return p.resultado.tipo === "lab"; }), items = []; labs.forEach(function (p) { p.resultado.lab.forEach(function (r) { items.push(r); }); });
       var usadas = {}; Object.keys(caso.preguntas).forEach(function (k) { caso.preguntas[k].decisiones.forEach(function (d) { (d.refs || []).forEach(function (r) { usadas[r] = 1; }); }); });
       var perdidas = ev.anamnesis.omitidos.concat(ev.examen.omitidos);
-      var h = '<div class="gd-juego gd-informe"><header class="gd-top"><a class="link-arrow" href="#/consulta">← Casos</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(GDm.AVISO) + '</p>' +
+      var h = '<div class="gd-juego gd-informe"><header class="gd-top"><a class="link-arrow" href="#/consulta">← Consulta clínica experta</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(GDm.AVISO) + '</p>' +
         '<section class="gd-final gd-final--' + (ev.criticos.length ? "adverso" : ev.total >= 75 ? "bueno" : "regular") + '"><p class="gd-niv">Informe de la consulta</p><h2>' + esc(inf.diagnostico_final) + '</h2><p class="gd-pts"><b>' + ev.total + ' %</b><span>puntaje ponderado por importancia clínica · ' + tiempo(seg) + ' · sin límite de tiempo (la velocidad no puntúa)</span></p></section>' +
         '<nav class="gd-indice" aria-label="Secciones del informe"><a href="#cqA">Resumen</a> <a href="#cqB">Hipótesis</a> <a href="#cqC">Pruebas</a> <a href="#cqD">Resultados</a> <a href="#cqE">Decisiones</a> <a href="#cqF">Tratamiento</a> <a href="#cqG">Puntaje y referencias</a></nav>';
       h += '<section class="card card--spaced" id="cqA"><h2 class="card__h">Resumen clínico y diagnóstico</h2><p>' + esc(inf.resumen_clinico) + '</p><p><b>Diagnóstico final:</b> ' + esc(inf.diagnostico_final) + '</p><p><b>Diagnósticos diferenciales:</b></p><ul class="gd-alt">' + inf.diagnosticos_diferenciales.map(function (x) { return '<li><b>' + esc(x.dx) + ':</b> ' + esc(x.por_que_no) + '</li>'; }).join("") + '</ul>' +

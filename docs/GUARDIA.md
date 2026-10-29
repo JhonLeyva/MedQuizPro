@@ -17,6 +17,14 @@ Simulación educativa. No dirige la atención de pacientes reales. Los casos fue
 
 Los datos (~0,5 MB) se cargan solo al entrar al módulo. No hay IA dentro del juego: la evolución depende únicamente de las decisiones y de los resultados predefinidos del caso.
 
+## Centro de simulación (rediseño visual)
+`#/guardia` es ahora la pantalla central (`guardia_hub.js` + `guardia_hub.css`): hero, tres tarjetas de modalidad, casos recomendados, estadísticas y accesos rápidos. Flujo: menú → centro → modalidad (`#/guardia/emergencias`, `#/consulta`) → caso (`#/guardia/g01`, `#/consulta/c01`, rutas originales) con migas y enlaces de regreso.
+- Todos los datos salen de los casos cargados y del progreso real (`M.progreso.preferencia("guardia"/"consulta")`); las recomendaciones usan sin cambios `M.guardiaNucleo.recomendar`. No se muestran tiempo medio ni interconsultas agregadas porque no se registran por separado.
+- UCI y Paciente Crítico es una tarjeta «Próximamente» sin enlaces ni cifras: la modalidad no existe.
+- Accesos: biblioteca de laboratorio (catálogo con selector de perfil), guías y fuentes (referencias reales de los casos, peruanas primero), tutor Feynman (ruta existente) y una tarjeta informativa sobre las imágenes reales de los casos.
+- Portadas: `guardia/portadas/*.webp`, ilustraciones generadas con IA entregadas por la propietaria (ver `guardia/portadas/LEEME.txt`); la pantalla lo declara. No se usaron las dos imágenes diagnósticas ilustrativas del paquete.
+- Prueba: `node tests/guardia_hub_e2e.js` (80 comprobaciones: rutas, datos, progreso, regreso, diálogos, responsive, axe claro/oscuro).
+
 ## Cambios de la v3 (urgencias)
 1. **Cinco alternativas A–E** por decisión, una sola óptima, con distractores plausibles. Las letras correctas siguen una secuencia con semilla (sin repeticiones adyacentes, progresiones ni patrones ABAB) y se fijan en el JSON; las explicaciones son por alternativa y no citan letras. El texto se neutraliza (coma, largo, palabras absolutas/cautelosas) y `tests/guardia_test.js` mide: correcta más larga ≤ 32 %, rango medio ≈ 3, paridad de comas y palabras, duplicados y equivalentes, coherencia clave–puntaje–explicación.
 2. **Temporizador** (`crearReloj`): entrenamiento (sin presión) y simulación cronometrada; límite por decisión según tipo (emergencia crítica, diagnóstica, interpretación de imagen/prueba); aviso visible, anuncio accesible, pausa que no cuenta el tiempo, restauración tras recargar, sin envíos duplicados. Si se agota se aplica la conducta de espera predefinida (`omision`) y se explica al final. La velocidad es indicador secundario.

@@ -1,0 +1,10 @@
+Portadas del centro de simulación «Sobrevive a la Guardia» (guardia_hub.js / guardia_hub.css).
+
+Origen: ilustraciones generadas con IA entregadas por la propietaria de la plataforma (MedQuizPlus_imagenes_completas_alta_resolucion.zip).
+No son fotografías clínicas reales, no muestran pacientes reales y NO deben usarse para interpretación diagnóstica. La licencia de uso es la de la propietaria de la plataforma.
+La pantalla lo declara al pie («Las fotografías de esta pantalla son ilustraciones generadas con IA…»). Las imágenes médicas de los casos son otras (guardia/imagenes.json, con fuente y licencia).
+
+Archivos (WebP optimizado, redimensionado desde los PNG originales):
+ hero.webp 1600×900 (01_banner_hero_emergencia) · emergencias.webp (02) · consulta.webp (03) · uci.webp (04, tarjeta «Próximamente»)
+ pediatria.webp (05, miniatura de casos de pediatría recomendados) · laboratorio.webp (08) · guias.webp (09) · tutor.webp (10)
+No se usaron 06_caso_tomografia_abdominal_ilustrativa ni 07_radiografia_torax_ilustrativa: son imágenes diagnósticas ilustrativas que podrían confundirse con las imágenes reales de los casos o adelantar una respuesta.

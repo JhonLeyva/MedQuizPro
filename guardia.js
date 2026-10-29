@@ -97,6 +97,26 @@
     q.addEventListener("input", filtrar); c.addEventListener("change", filtrar); filtrar();
   }
 
+
+  /* catálogo de referencia sin caso (acceso rápido del centro de simulación): el intervalo se elige según un perfil genérico, no el de un paciente */
+  var PERFILES = [{ id: "m", txt: "Varón adulto", p: { edad: 30, edad_texto: "30 años", sexo: "M", embarazo: false } }, { id: "f", txt: "Mujer adulta no gestante", p: { edad: 30, edad_texto: "30 años", sexo: "F", embarazo: false } },
+    { id: "g1", txt: "Gestante, 1.er trimestre", p: { edad: 30, edad_texto: "30 años", sexo: "F", embarazo: true, trimestre: 1 } }, { id: "g2", txt: "Gestante, 2.º trimestre", p: { edad: 30, edad_texto: "30 años", sexo: "F", embarazo: true, trimestre: 2 } }, { id: "g3", txt: "Gestante, 3.er trimestre", p: { edad: 30, edad_texto: "30 años", sexo: "F", embarazo: true, trimestre: 3 } }];
+  function abrirCatalogo(disparador) {
+    var cats = {}; LAB().pruebas.forEach(function (t) { cats[t.categoria] = 1; });
+    var html = '<p class="gd-aviso" role="note">' + esc(LAB().aviso) + ' Distingue <b>intervalo de referencia</b>, <b>umbral diagnóstico</b>, <b>objetivo terapéutico</b> y <b>valor crítico</b>: no son lo mismo.</p>' +
+      '<div class="gd-lab-f"><label for="gdLabP">Perfil</label><select id="gdLabP">' + PERFILES.map(function (x) { return '<option value="' + x.id + '">' + esc(x.txt) + '</option>'; }).join("") + '</select><label for="gdLabQ">Buscar prueba</label><input id="gdLabQ" type="search" autocomplete="off" placeholder="p. ej. potasio, TGO, lactato"><label for="gdLabC">Categoría</label><select id="gdLabC"><option value="">Todas</option>' + Object.keys(cats).map(function (c) { return '<option>' + esc(c) + '</option>'; }).join("") + '</select></div>' +
+      '<p class="muted small" id="gdLabN" aria-live="polite"></p><div id="gdLabL"></div>';
+    var d = dialogo("Laboratorio y valores de referencia", html, "gd-dlg--lab", disparador), P = d.querySelector("#gdLabP"), q = d.querySelector("#gdLabQ"), c = d.querySelector("#gdLabC");
+    function pintar() {
+      var per = PERFILES.filter(function (x) { return x.id === P.value; })[0].p;
+      d.querySelector("#gdLabL").innerHTML = LAB().pruebas.map(function (t) { return tarjetaCatalogo(t, per); }).join("");
+      var tx = q.value.trim().toLowerCase(), n = 0;
+      [].forEach.call(d.querySelectorAll(".gd-lab-t"), function (a) { var ok = (!c.value || a.getAttribute("data-cat") === c.value) && (!tx || a.textContent.toLowerCase().indexOf(tx) >= 0); a.hidden = !ok; if (ok) n++; });
+      d.querySelector("#gdLabN").textContent = n + " prueba" + (n === 1 ? "" : "s") + " mostrada" + (n === 1 ? "" : "s");
+    }
+    P.addEventListener("change", pintar); q.addEventListener("input", pintar); c.addEventListener("change", pintar); pintar();
+  }
+
   /* ---------- lista y recomendaciones ---------- */
   var cacheEst = { clave: "", valor: null };
   function estadisticasAlumno(datos) {
@@ -123,9 +143,9 @@
     var g = cargar(), casos = raiz.MQP_GUARDIA || [], NIVEL = G().NIVEL;
     var hechos = casos.filter(function (c) { return g.casos[c.id]; }).length;
     var rec = G().recomendar(casos, g, estadisticasAlumno(datos), Date.now());
-    var h = '<header class="page-head"><p class="kicker">Simulador</p><h1 class="page-head__title">Sobrevive a la Guardia</h1><p class="page-head__lead">Casos clínicos por decisiones con cinco alternativas, pruebas de laboratorio, imágenes reales, tiempo por etapa e interconsulta. Al final recibes un informe con tu razonamiento, tus errores y qué reforzar. Complementa al banco de preguntas.</p></header>' +
+    var h = '<nav class="gh-migas" aria-label="Ruta"><a href="#/guardia">Centro de simulación</a><span aria-hidden="true">›</span><span aria-current="page">Guardia de emergencias</span></nav>' +
+      '<header class="gh-modal gh-modal--rojo"><img class="gh-modal__img" src="../guardia/portadas/emergencias.webp" alt="" width="800" height="600" loading="eager" decoding="async"><div class="gh-modal__txt"><p class="gh-kicker">Emergencias</p><h1 class="gh-modal__t">Guardia de emergencias</h1><p>Casos clínicos por decisiones con cinco alternativas, pruebas de laboratorio, imágenes reales, tiempo por etapa e interconsulta. Al final recibes un informe con tu razonamiento, tus errores y qué reforzar. Complementa al banco de preguntas.</p></div></header>' +
       '<p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
-      '<p class="gd-modos-link"><a class="btn btn--ghost btn--sm" href="#/consulta">Probar la modalidad «Consulta Clínica Experta» (consulta ambulatoria)</a></p>' +
       '<dl class="gd-kpis"><div class="gd-kpi"><dt>Casos completados</dt><dd>' + hechos + ' / ' + casos.length + '</dd></div><div class="gd-kpi"><dt>Mejor puntaje medio</dt><dd>' + (hechos ? Math.round(casos.reduce(function (s, c) { return s + (g.casos[c.id] ? g.casos[c.id].mejor : 0); }, 0) / hechos) + " %" : "—") + '</dd></div></dl>' +
       tarjetaRecomendada(rec) +
       '<div class="gd-filtro"><label for="gdFil">Explorar por especialidad</label><select id="gdFil"><option value="">Todas las especialidades (' + casos.length + ' casos)</option>' + especialidades(casos).map(function (e) { return '<option value="' + esc(e) + '">' + esc(e) + '</option>'; }).join("") + '</select></div>' +
@@ -174,7 +194,7 @@
     var N = G(), crudo = ls(CLAVE_SESION + ":" + caso.id), ses = crudo ? N.restaurarSesion(crudo, caso) : null, modo = ls(CLAVE_MODO) === "cronometrada" ? "cronometrada" : "entrenamiento";
     if (crudo && !ses) borrarSesion(caso.id);                         // sesión incompatible con la versión actual del caso: se descarta
     var tiempos = Object.keys(N.TIPOS).map(function (k) { return '<li>' + esc(N.TIPOS[k]) + ': ' + N.TIEMPOS[k] + ' s por defecto (' + (k === "critica" ? "30–60 s" : "1–3 min") + ' según la complejidad; cada decisión fija el suyo)</li>'; }).join("");
-    cont.innerHTML = '<div class="gd-juego"><header class="gd-top"><a class="link-arrow" href="#/guardia">← Casos</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
+    cont.innerHTML = '<div class="gd-juego"><header class="gd-top"><a class="link-arrow" href="#/guardia/emergencias">← Guardia de emergencias</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
       (ses ? '<section class="card card--spaced gd-reanudar" aria-labelledby="gdRe"><h2 class="card__h" id="gdRe">Tienes este caso en curso</h2><p>' + esc(N.MODOS[ses.modo].nombre) + ' · decisión ' + (ses.camino.length + 1) + '. ' + (ses.modo === "cronometrada" ? "El reloj de la decisión actual conserva el tiempo ya usado." : "") + '</p><button type="button" class="btn btn--primary" id="gdContinuar">Continuar donde lo dejé</button> <button type="button" class="btn btn--ghost" id="gdReiniciar">Empezar de nuevo</button></section>' : "") +
       '<section class="card card--spaced"><h2 class="card__h">Elige cómo jugar</h2><p>' + esc(caso.contexto) + '</p><fieldset class="gd-modos"><legend class="sr-only">Modo de juego</legend>' +
       Object.keys(N.MODOS).map(function (k) { var m = N.MODOS[k]; return '<label class="gd-modo"><input type="radio" name="gdModo" value="' + k + '"' + (k === modo ? " checked" : "") + '><span><b>' + esc(m.nombre) + '</b><br><span class="muted small">' + esc(m.texto) + '</span></span></label>'; }).join("") + '</fieldset>' +
@@ -230,7 +250,7 @@
       var vit = Object.keys(nodo.vitales).map(function (k) { return '<div><dt>' + esc(k) + '</dt><dd>' + esc(nodo.vitales[k]) + '</dd></div>'; }).join("");
       var previas = vistas.filter(function (i) { return !nodo.imagen || i !== nodo.imagen.id; }), fx = efectosActivos(), tipo = nodo.tipo || "diagnostica";
       var limite = N.tiempoNodo(nodo), usadoPrevio = usadoRestaurado; usadoRestaurado = 0;
-      cont.innerHTML = '<div class="gd-juego' + (fx ? " gd-fx" : "") + '"><header class="gd-top"><a class="link-arrow" href="#/guardia">← Casos</a><h1>' + esc(caso.titulo) + '</h1>' +
+      cont.innerHTML = '<div class="gd-juego' + (fx ? " gd-fx" : "") + '"><header class="gd-top"><a class="link-arrow" href="#/guardia/emergencias">← Guardia de emergencias</a><h1>' + esc(caso.titulo) + '</h1>' +
         '<p class="gd-prog">Decisión ' + (camino.length + 1) + ' · Puntaje ' + puntos + ' de ' + N.maximoRecorrido(camino) + ' posibles hasta ahora · ' + esc(MODO.nombre) + '</p></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
         '<div class="gd-barra-acc"><button type="button" class="btn btn--ghost btn--sm" id="gdLabBtn">🧪 Laboratorio y valores de referencia</button>' + (MODO.ayuda ? ' <button type="button" class="btn btn--ghost btn--sm" id="gdEspBtn">👩‍⚕️ Consultar al especialista</button>' : '') +
         (MODO.cronometro ? ' <button type="button" class="btn btn--ghost btn--sm" id="gdPausa" aria-pressed="false">⏸ Pausar</button>' : "") + '</div>' +
@@ -302,7 +322,7 @@
       var g = N.registrar(cargar(), caso, { pct: pct, tipo: f.tipo, criticos: an.criticos.length, modo: modo }); guardar(g); borrarSesion(caso.id);
       var rel = (inf.casos_relacionados || []).map(function (id) { return (raiz.MQP_GUARDIA || []).filter(function (c) { return c.id === id; })[0]; }).filter(Boolean);
       var usadas = {}; an.refsUsadas.forEach(function (r) { usadas[r] = 1; });
-      var h = '<div class="gd-juego gd-informe"><header class="gd-top"><a class="link-arrow" href="#/guardia">← Casos</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
+      var h = '<div class="gd-juego gd-informe"><header class="gd-top"><a class="link-arrow" href="#/guardia/emergencias">← Guardia de emergencias</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
         '<section class="gd-final gd-final--' + f.tipo + '"><p class="gd-niv">Desenlace</p><h2>' + esc(f.titulo) + '</h2><p>' + esc(f.mensaje) + '</p><p class="gd-pts"><b>' + pct + ' %</b><span>' + puntos + ' de ' + an.max + ' puntos ponderados posibles en las decisiones que tomaste · ' + esc(N.MODOS[modo].nombre) + '</span></p></section>' +
         (fatal ? '<section class="card card--spaced gd-fatal" aria-labelledby="gdFat"><h2 class="card__h" id="gdFat">Qué contribuyó a este desenlace</h2><p class="small">Un desenlace fatal solo ocurre en este caso tras una secuencia de errores críticos definida de antemano. Estas fueron las decisiones que más contribuyeron y la conducta preferible en cada una:</p><ul>' +
           (an.criticos.length ? an.criticos.map(function (x) { return '<li><b>Decisión ' + x.n + ' (' + esc(x.elegida.id) + '):</b> ' + esc(x.elegida.texto) + '<br><b>Lo preferible (' + esc(x.optima.id) + '):</b> ' + esc(x.optima.texto) + '<br><span class="small">' + esc(x.optima.explicacion) + '</span></li>'; }).join("") : '<li>' + esc(f.mensaje) + '</li>') + '</ul></section>' : "") +
@@ -353,7 +373,7 @@
         '<h3 class="gd-h3">Referencias del caso</h3><ul class="gd-refs">' + caso.referencias.map(function (r, i) { return refHtml(r, i + 1, usadas[r.id]); }).join("") + '</ul>' +
         '<h3 class="gd-h3">Diferencias entre fuentes y limitaciones</h3><ul>' + caso.discrepancias.map(function (x) { return '<li class="small">' + esc(x) + '</li>'; }).join("") + '</ul>' +
         '<p class="muted small">Caso redactado a partir de las fuentes citadas; no fue revisado por un especialista externo. Si ves una discrepancia con tu guía vigente, prevalece la guía.</p></section>' +
-        '<div class="gd-acc"><a class="btn btn--primary" href="#/guardia/' + esc(caso.id) + '" data-reintentar>Reintentar el caso</a><a class="btn btn--ghost" href="#/guardia">Volver a los casos</a>' +
+        '<div class="gd-acc"><a class="btn btn--primary" href="#/guardia/' + esc(caso.id) + '" data-reintentar>Reintentar el caso</a><a class="btn btn--ghost" href="#/guardia/emergencias">Volver a los casos</a>' +
         rel.slice(0, 1).map(function (c) { return '<a class="btn btn--ghost" href="#/guardia/' + esc(c.id) + '">Siguiente: ' + esc(c.titulo) + '</a>'; }).join("") + '</div></div>';
       cont.innerHTML = h; ligarImagenes(cont);
       var re = cont.querySelector("[data-reintentar]"); re.addEventListener("click", function (ev) { ev.preventDefault(); preludio(cont, caso); window.scrollTo(0, 0); });
@@ -367,13 +387,14 @@
   function montar(cont, arg, datos) {
     if (!(raiz.MQP_GUARDIA && raiz.MQP_GUARDIA_LAB)) {
       cont.innerHTML = '<p class="muted" role="status">Cargando los casos…</p>';
-      asegurarDatos().then(function () { if (/^#\/guardia/.test(location.hash)) montar(cont, arg, datos); }, function () { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No se pudieron cargar los casos</p><p class="empty-state__text">Revisa tu conexión e inténtalo de nuevo.</p><a class="btn btn--primary" href="#/guardia">Reintentar</a></div>'; });
+      asegurarDatos().then(function () { if (/^#\/guardia/.test(location.hash)) montar(cont, arg, datos); }, function () { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No se pudieron cargar los casos</p><p class="empty-state__text">Revisa tu conexión e inténtalo de nuevo.</p><a class="btn btn--primary" href="#/guardia/emergencias">Reintentar</a></div>'; });
       return;
     }
     var casos = raiz.MQP_GUARDIA || [];
-    var caso = arg ? casos.filter(function (c) { return c.id === arg; })[0] : null;
+    var caso = arg && arg !== "emergencias" ? casos.filter(function (c) { return c.id === arg; })[0] : null;
     var primeraEntrada = !dentro; dentro = true;
-    if (arg && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/guardia">Ver los casos</a></div>'; return; }
+    if (!arg && M.guardiaHub) { if (detener) detener(); M.guardiaHub.montar(cont, datos, primeraEntrada); return; }
+    if (arg && arg !== "emergencias" && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/guardia/emergencias">Ver los casos</a></div>'; return; }
     if (detener) detener();
     if (caso) { preludio(cont, caso); return; }
     lista(cont, datos);
@@ -385,5 +406,5 @@
     if (I && primeraEntrada && !I.omitida() && !document.querySelector(".gi"))
       I.mostrar({ alTerminar: function () { var b = cont.querySelector("a.btn"); if (b) b.focus({ preventScroll: true }); } });
   }
-  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos };
+  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
 })(typeof window !== "undefined" ? window : this);

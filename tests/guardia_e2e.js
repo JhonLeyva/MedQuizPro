@@ -36,7 +36,7 @@ const porId = id => CASOS.find(c => c.id === id);
 
     /* ---- helpers de juego ---- */
     async function abrir(pg, caso, modo) {
-      await pg.goto(base + "app/#/guardia"); await pg.waitForSelector(".gd-caso"); await pg.goto(base + "app/#/guardia/" + caso.id);
+      await pg.goto(base + "app/#/guardia/emergencias"); await pg.waitForSelector(".gd-caso"); await pg.goto(base + "app/#/guardia/" + caso.id);
       await pg.waitForSelector("#gdEmpezar"); await pg.check("input[name=gdModo][value=" + modo + "]"); await pg.click("#gdEmpezar"); await pg.waitForSelector(".gd-op");
     }
     async function elegir(pg, letra) { await pg.click('.gd-op[data-id="' + letra + '"]'); await pg.waitForSelector("#gdSig"); }
@@ -63,9 +63,9 @@ const porId = id => CASOS.find(c => c.id === id);
     const pedidos = []; p.on("request", r => pedidos.push(r.url()));
     await p.goto(base + "app/#/inicio"); await p.waitForTimeout(1200);
     ok(!pedidos.some(u => /guardia_casos\.js/.test(u)) && !pedidos.some(u => /guardia_lab\.js/.test(u)), "los datos de los casos (0,4 MB) no se descargan fuera del módulo");
-    await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gd-caso"); ok(pedidos.some(u => /guardia_casos\.js/.test(u)), "al entrar al módulo se cargan los casos");
+    await p.goto(base + "app/#/guardia/emergencias"); await p.waitForSelector(".gd-caso"); ok(pedidos.some(u => /guardia_casos\.js/.test(u)), "al entrar al módulo se cargan los casos");
     ok(await p.locator(".gd-caso").count() === 10, "la lista muestra exactamente 10 casos"); ok(/Por dónde empezar/.test(await p.locator(".gd-rec").innerText()), "sin datos: invitación honesta");
-    ok(/ruta óptima/.test(await p.locator(".gd-caso").first().innerText()), "la tarjeta indica el número de decisiones"); ok(await p.locator('a[href="#/consulta"]').count() === 1, "enlace a la modalidad «Consulta Clínica Experta»");
+    ok(/ruta óptima/.test(await p.locator(".gd-caso").first().innerText()), "la tarjeta indica el número de decisiones"); ok(await p.locator('.gh-migas a[href="#/guardia"]').count() === 1, "migas: enlace de regreso al centro de simulación");
     await p.selectOption("#gdFil", "Pediatría"); ok(await p.locator(".gd-caso:visible").count() === 1, "filtro por especialidad"); await p.selectOption("#gdFil", ""); await foto(p, "g1-lista");
 
     /* 2) los 10 casos por la ruta óptima en AMBOS modos: 100 %, informe completo, cinco alternativas analizadas */
@@ -143,13 +143,13 @@ const porId = id => CASOS.find(c => c.id === id);
       await s.reload(); await s.waitForSelector("#gdEmpezar"); ok(await s.locator("#gdContinuar").count() === 1 && /Tienes este caso en curso/.test(await s.locator(".gd-reanudar").innerText()), "recarga: ofrece continuar el caso en curso");
       await s.click("#gdContinuar"); await s.waitForSelector(".gd-op"); ok((await s.locator(".gd-prog").innerText()).startsWith(prog0.slice(0, 12)), "recuperación: vuelve a la misma decisión (" + prog0.slice(0, 12) + ")");
       const desp = await s.locator("#gdReloj").innerText(), seg = t => +t.split(":")[0] * 60 + +t.split(":")[1]; ok(seg(desp) >= seg(antes) - 2 && seg(desp) <= seg(antes) + 1, "recuperación: el reloj conserva el tiempo usado (" + antes + " → " + desp + ")");
-      await s.goto(base + "app/#/guardia"); await s.waitForSelector(".gd-caso"); await s.goto(base + "app/#/guardia/g02"); await s.waitForSelector("#gdContinuar"); ok(true, "navegación: al salir y volver se puede continuar");
+      await s.goto(base + "app/#/guardia/emergencias"); await s.waitForSelector(".gd-caso"); await s.goto(base + "app/#/guardia/g02"); await s.waitForSelector("#gdContinuar"); ok(true, "navegación: al salir y volver se puede continuar");
       await s.click("#gdReiniciar"); await s.waitForSelector("#gdEmpezar"); ok(await s.locator("#gdContinuar").count() === 0, "«Empezar de nuevo» descarta la sesión guardada");
       await s.evaluate(() => localStorage.setItem("mqp_guardia_sesion_v1:g02", "{corrupto")); await s.reload(); await s.waitForSelector("#gdEmpezar"); ok(await s.locator("#gdContinuar").count() === 0, "sesión corrupta se descarta sin romper el módulo"); await ctxS.close(); }
 
     /* 8) recomendaciones con datos reales del banco */
     { const ctx2 = await navegador.newContext({ viewport: { width: 1280, height: 900 } }); await ctx2.addInitScript(INIT); const p2 = await nuevaPagina(ctx2, false);
-      await p2.goto(base + "app/#/guardia"); await p2.waitForSelector(".gd-caso");
+      await p2.goto(base + "app/#/guardia/emergencias"); await p2.waitForSelector(".gd-caso");
       await p2.evaluate(async () => { const r = await fetch("../bancos/cardiologia.json").then(x => x.json()), inf = await fetch("../bancos/infectologia.json").then(x => x.json()); const d = JSON.parse(localStorage.getItem("mqp_progreso_v1") || "{}"); d.v = 1; d.respuestas = {}; d.preferencias = d.preferencias || {}; const ahora = Date.now();
         const poner = (lista, n, buenas, hace) => lista.slice(0, n).forEach((q, i) => { d.respuestas[q.id] = { l: "A", ok: i < buenas, t: ahora - hace * 864e5, a: "x" }; }); poner(r.preguntas, 20, 5, 40); poner(inf.preguntas, 20, 19, 40); localStorage.setItem("mqp_progreso_v1", JSON.stringify(d)); });
       await p2.reload(); await p2.waitForSelector(".gd-caso"); await p2.waitForTimeout(400); const rec = await p2.locator(".gd-rec").innerText();
@@ -158,7 +158,7 @@ const porId = id => CASOS.find(c => c.id === id);
     /* 9) móvil: preludio, nodo cronometrado, laboratorio e informe sin desbordar; botones ≥ 44 px */
     { const movil = await navegador.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true }); await movil.addInitScript(INIT); const m = await nuevaPagina(movil, false);
       const sinScroll = async n => ok(await m.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), "móvil: " + n + " sin desplazamiento horizontal");
-      await m.goto(base + "app/#/guardia"); await m.waitForSelector(".gd-caso"); await sinScroll("lista"); await m.goto(base + "app/#/guardia/g02"); await m.waitForSelector("#gdEmpezar"); await sinScroll("preludio"); await foto(m, "g6-movil-preludio");
+      await m.goto(base + "app/#/guardia/emergencias"); await m.waitForSelector(".gd-caso"); await sinScroll("lista"); await m.goto(base + "app/#/guardia/g02"); await m.waitForSelector("#gdEmpezar"); await sinScroll("preludio"); await foto(m, "g6-movil-preludio");
       await m.check("input[value=cronometrada]"); await m.click("#gdEmpezar"); await m.waitForSelector(".gd-op"); await sinScroll("nodo cronometrado"); ok((await m.locator(".gd-op, .gd-barra-acc .btn").evaluateAll(b => b.map(x => x.getBoundingClientRect().height))).every(h => h >= 40), "móvil: botones de al menos 40 px"); await foto(m, "g7-movil-reloj");
       await m.click("#gdLabBtn"); await m.waitForSelector(".gd-dlg[open]"); const w = (await m.locator(".gd-dlg").boundingBox()).width; ok(w <= 391, "móvil: la ventana de laboratorio cabe (" + Math.round(w) + " px)"); await m.click("[data-tab='2']"); await sinScroll("catálogo de laboratorio"); await foto(m, "g8-movil-lab"); await m.click("[data-cerrar]");
       const c = porId("g02"); await jugar(m, c, "cronometrada", optima, true); await sinScroll("informe"); await foto(m, "g9-movil-informe"); await movil.close(); }
@@ -180,7 +180,7 @@ const porId = id => CASOS.find(c => c.id === id);
       const c = porId("g06");
       for (const t of ["light", "dark"]) {
         const tema = async () => { await p.evaluate(x => document.documentElement.setAttribute("data-theme", x), t); await p.waitForTimeout(250); };
-        await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gd-caso"); await tema(); await auditar(p, "lista (" + t + ")");
+        await p.goto(base + "app/#/guardia/emergencias"); await p.waitForSelector(".gd-caso"); await tema(); await auditar(p, "lista (" + t + ")");
         await p.goto(base + "app/#/guardia/g06"); await p.waitForSelector("#gdEmpezar"); await tema(); await auditar(p, "preludio de modo (" + t + ")");
         await p.check("input[value=cronometrada]"); await p.click("#gdEmpezar"); await p.waitForSelector(".gd-op"); await tema(); await auditar(p, "decisión cronometrada con reloj (" + t + ")");
         await p.click("#gdLabBtn"); await p.waitForSelector(".gd-dlg[open]"); await tema(); await auditar(p, "laboratorio: resultados (" + t + ")"); await p.click("[data-tab='2']"); await auditar(p, "laboratorio: catálogo (" + t + ")"); await p.click("[data-cerrar]");
