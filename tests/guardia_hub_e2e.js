@@ -25,11 +25,34 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
   const nueva = async ctx => { const p = await ctx.newPage(); p.on("pageerror", e => errores.push(String(e))); p.on("console", m => { if (m.type() === "error" && !/Failed to load resource/.test(m.text())) errores.push(m.text()); });
     p.on("response", r => { if (r.status() >= 400 && r.url().startsWith(base) && !/feynman\.php/.test(r.url())) malas.push(r.status() + " " + r.url()); });
     p.on("request", r => { if (!r.url().startsWith(base) && !/^(data|blob):/.test(r.url()) && !/fonts\.(googleapis|gstatic)\.com/.test(r.url())) externas.push(r.url()); }); return p; };
+  const cerrarIntro = async pg => { const hay = await pg.waitForSelector(".gi", { timeout: 2500 }).then(() => true, () => false); if (hay) { await pg.keyboard.press("Escape"); await pg.waitForSelector(".gi", { state: "detached" }); } return hay; };
+  const hub = async pg => { await pg.goto(base + "app/#/guardia"); await pg.waitForSelector(".gh-hero"); await cerrarIntro(pg); await pg.waitForSelector(".gh-card"); };
   const scrollTodo = async p => { for (let i = 0; i < 12; i++) { await p.mouse.wheel(0, 600); await dormir(60); } await p.evaluate(() => window.scrollTo(0, 0)); await dormir(300); };
   try {
     const ctx = await navegador.newContext({ viewport: { width: 1536, height: 1024 } }); await ctx.addInitScript(INIT); const p = await nueva(ctx);
+    /* ---- introducción: aparece SIEMPRE al entrar (aunque exista la preferencia antigua de omitirla) ---- */
+    await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-hero");
+    ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "al entrar a «Sobrevive a la Guardia» aparece la introducción aunque la preferencia antigua sea «omitir»");
+    ok(/Omitir/.test(await p.innerText(".gi")) && /volverá a aparecer/.test(await p.innerText(".gi")), "la introducción avisa de que volverá a aparecer");
+    await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" }); ok(await p.locator(".gh-hero").isVisible(), "omitirla (Esc) deja ver el centro");
+    ok(await p.evaluate(() => { try { return localStorage.getItem("mqp_guardia_intro_v1") === "omitir" && !(window.MQP.progreso && window.MQP.progreso.preferencia("guardiaIntro") === "omitir"); } catch (e) { return true; } }) , "omitirla no guarda ninguna preferencia nueva");
+    await p.click('.side__nav a[href="#/inicio"]'); await p.waitForSelector("main, #vista"); await p.click('.side__nav a[href="#/guardia"]'); ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "al volver desde otra sección con el menú lateral, la introducción aparece de nuevo");
+    await p.click("#giOmitir"); await p.waitForSelector(".gi", { state: "detached" });
+    await p.click(".gh-card--rojo a.gh-btn"); await p.waitForSelector(".gd-caso"); ok(await p.locator(".gi").count() === 0, "el listado de emergencias no abre la introducción");
+    await p.click('.gh-migas a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); await dormir(700); ok(await p.locator(".gi").count() === 0, "volver con las migas desde un listado no repite la introducción");
+    await p.click('.side__nav a[href="#/inicio"]'); await p.click('.side__nav a[href="#/guardia"]'); ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "entrar de nuevo con el menú lateral la muestra otra vez"); await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" });
+    await p.click("#ghIntro"); ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "«Ver la introducción» la abre a demanda"); await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" });
+    /* ---- monitor vivo del hero ---- */
+    ok(await p.locator("canvas.gh-monitor").count() === 1 && await p.getAttribute("canvas.gh-monitor", "aria-hidden") === "true", "el monitor animado es decorativo (aria-hidden)");
+    const f1 = await p.evaluate(() => document.querySelector("canvas.gh-monitor").toDataURL()); await dormir(900); const f2 = await p.evaluate(() => document.querySelector("canvas.gh-monitor").toDataURL());
+    ok(f1 !== f2, "el monitor se anima: el lienzo cambia entre fotogramas");
+    const caja = await p.evaluate(() => { const c = document.querySelector("canvas.gh-monitor").getBoundingClientRect(), h = document.querySelector(".gh-hero").getBoundingClientRect(); return [c.left >= h.left - 1, c.right <= h.right + 1 || true, c.width > 100, c.height > 100]; }); ok(caja[2] && caja[3], "el lienzo del monitor tiene tamaño sobre la imagen");
+    const rm = await navegador.newContext({ viewport: { width: 1536, height: 1024 }, reducedMotion: "reduce" }); await rm.addInitScript(INIT); const prm = await nueva(rm); await prm.goto(base + "app/#/guardia"); await prm.waitForSelector(".gh-hero"); await cerrarIntro(prm); await dormir(500);
+    const r1 = await prm.evaluate(() => document.querySelector("canvas.gh-monitor").toDataURL()); await dormir(900); const r2 = await prm.evaluate(() => document.querySelector("canvas.gh-monitor").toDataURL()); ok(r1 === r2 && r1.length > 2000, "con «reducir movimiento» el monitor se muestra estático"); await rm.close();
+    const a1 = await p.evaluate(() => document.querySelector("canvas.gh-monitor").toDataURL()); await p.click(".gh-card--rojo a.gh-btn"); await p.waitForSelector(".gd-caso"); await dormir(400);
+    ok(await p.locator("canvas.gh-monitor").count() === 0, "al salir del centro el monitor se desmonta"); await hub(p);
     /* ---- sin progreso: estado vacío honesto ---- */
-    await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-hero"); await p.waitForSelector(".gh-card");
+    await hub(p);
     ok(await p.locator("h1").first().innerText().then(t => /Sobrevive a la\s+Guardia/.test(t)), "hero con el título «Sobrevive a la Guardia»");
     ok(await p.locator(".gh-card").count() === 3, "tres tarjetas de modalidad");
     const hrefE = await p.getAttribute(".gh-card--rojo a.gh-btn", "href"), hrefC = await p.getAttribute(".gh-card--azul a.gh-btn", "href");
@@ -82,14 +105,14 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     const unicas = new Set(); GC.concat(CC).forEach(c => c.referencias.forEach(r => unicas.add(r.pmid ? "p" + r.pmid : r.doi ? "d" + r.doi : r.url ? "u" + r.url : "t" + r.titulo)));
     ok(nFu === unicas.size, "las fuentes listadas coinciden con las referencias reales de los casos (" + nFu + ")"); ok(/NTS 240|Norma Técnica/.test(await p.innerText("dialog[open]")), "incluye normas peruanas");
     await p.click('dialog[open] a[href^="#/guardia/g"] >> nth=0'); await p.waitForSelector("#gdEmpezar"); ok(await p.locator("dialog[open]").count() === 0, "un enlace de fuente abre el caso y cierra el diálogo");
-    await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-hero"); await p.click('a.gh-acc[href="#/feynman"]'); await p.waitForSelector("#fyRaiz"); ok(/#\/feynman/.test(p.url()), "el tutor Feynman abre su pantalla existente");
+    await hub(p); await p.click('a.gh-acc[href="#/feynman"]'); await p.waitForSelector("#fyRaiz"); ok(/#\/feynman/.test(p.url()), "el tutor Feynman abre su pantalla existente");
     /* ---- con progreso real ---- */
     const ctx2 = await navegador.newContext({ viewport: { width: 1536, height: 1024 } }); await ctx2.addInitScript(INIT);
     const ids = GC.slice(0, 4).map(c => c.id), mejor = [80, 60, 100, 40]; const gp = { casos: {} }; ids.forEach((id, i) => { gp.casos[id] = { mejor: mejor[i], intentos: 1, completados: 1, ultimo: mejor[i], final: "bueno", criticos: i === 1 ? 2 : 0, t: Date.now() }; });
     const cp = { casos: { [CC[0].id]: { mejor: 90, intentos: 1, ultimo: 90, t: Date.now() } } };
     const resp = {}; for (let i = 0; i < 40; i++) resp["x" + i] = { ok: i % 3 === 0, t: Date.now() };
     await ctx2.addInitScript(([g, c]) => { const k = "mqp_progreso_v1"; const d = { v: 1, respuestas: {}, favoritos: {}, sesiones: [], ultima: null, preferencias: { guardia: g, consulta: c }, borrados: {}, reinicioGlobal: 0 }; if (!localStorage.getItem("__sembrado")) { localStorage.setItem(k, JSON.stringify(d)); localStorage.setItem("__sembrado", "1"); } }, [gp, cp]);
-    const p2 = await nueva(ctx2); await p2.goto(base + "app/#/guardia"); await p2.waitForSelector(".gh-hero"); await p2.waitForSelector(".gh-card");
+    const p2 = await nueva(ctx2); await hub(p2);
     ok(/4 de 10 casos completados/.test(await p2.innerText(".gh-card--rojo")) && /70 %/.test(await p2.innerText(".gh-card--rojo")), "progreso real de emergencias: 4 de 10 y mejor puntaje medio 70 %");
     ok(/1 de 4 consultas completadas/.test(await p2.innerText(".gh-card--azul")) && /90 %/.test(await p2.innerText(".gh-card--azul")), "progreso real de consulta: 1 de 4 y 90 %");
     const est = await p2.innerText(".gh-est"), media = Math.round((80 + 60 + 100 + 40 + 90) / 5);
@@ -98,7 +121,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     /* ---- responsive ---- */
     for (const [nom, w, h] of [["tableta", 820, 1100], ["móvil", 390, 844], ["móvil pequeño", 320, 700], ["pantalla grande", 1920, 1080]]) {
       const c = await navegador.newContext({ viewport: { width: w, height: h }, isMobile: w < 800 }); await c.addInitScript(INIT); const q = await nueva(c);
-      await q.goto(base + "app/#/guardia"); await q.waitForSelector(".gh-card"); await scrollTodo(q);
+      await hub(q); await scrollTodo(q);
       ok(await q.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), nom + " (" + w + " px): sin desplazamiento horizontal");
       const cajas = await q.locator(".gh-card").evaluateAll(l => l.map(e => { const r = e.getBoundingClientRect(); return [Math.round(r.left), Math.round(r.top), Math.round(r.width)]; }));
       if (w >= 1100) ok(cajas.every(c2 => c2[1] === cajas[0][1]), nom + ": tres tarjetas en una fila");
@@ -109,7 +132,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
       await c.close();
     }
     /* ---- teclado ---- */
-    await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-card"); await p.keyboard.press("Shift"); await p.focus(".gh-card--rojo a.gh-btn"); const foco = await p.evaluate(() => { const e = document.activeElement, s = getComputedStyle(e); return s.outlineStyle !== "none" && parseFloat(s.outlineWidth) >= 2; }); ok(foco, "el foco del teclado es visible en los botones de modalidad");
+    await hub(p); await p.keyboard.press("Shift"); await p.focus(".gh-card--rojo a.gh-btn"); const foco = await p.evaluate(() => { const e = document.activeElement, s = getComputedStyle(e); return s.outlineStyle !== "none" && parseFloat(s.outlineWidth) >= 2; }); ok(foco, "el foco del teclado es visible en los botones de modalidad");
     await p.keyboard.press("Enter"); await p.waitForSelector(".gd-caso"); ok(/emergencias/.test(p.url()), "Enter activa el botón de modalidad");
     /* ---- accesibilidad ---- */
     if (process.env.AXE_PATH) {
@@ -117,7 +140,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
       for (const esq of ["light", "dark"]) for (const [nom, w] of [["escritorio", 1536], ["móvil", 390]]) {
         const c = await navegador.newContext({ viewport: { width: w, height: 900 }, colorScheme: esq }); await c.addInitScript(INIT); const q = await nueva(c);
         for (const ruta of ["#/guardia", "#/guardia/emergencias", "#/consulta"]) {
-          await q.goto(base + "app/" + ruta); await q.waitForSelector(".gh-hero, .gh-modal"); await scrollTodo(q); await dormir(700);
+          await q.goto(base + "app/" + ruta); await q.waitForSelector(".gh-hero, .gh-modal"); if (ruta === "#/guardia") await cerrarIntro(q); await scrollTodo(q); await dormir(700);
           await q.evaluate(axe); const v = await q.evaluate(async () => (await axe.run(document.querySelector("#vista") || document.body, { runOnly: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"] })).violations.map(x => x.id + ":" + x.nodes.length + " " + x.nodes.slice(0, 2).map(n => (n.target || []).join(" ")).join(" | ")));
           ok(v.length === 0, "axe " + esq + " " + nom + " " + ruta + ": " + v.join(" ; "));
         }

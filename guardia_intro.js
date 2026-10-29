@@ -74,7 +74,7 @@
         '<button type="button" class="gi-ini" id="giIniciar">INICIAR GUARDIA <span aria-hidden="true">→</span></button></div>' +
       '</div>' +
       '<button type="button" class="gi-omitir" id="giOmitir">Omitir introducción</button>' +
-      '<p class="gi-aviso">Simulación educativa. No sirve para dirigir la atención de pacientes reales. Si omites la introducción, no volverá a aparecer; podrás verla desde el módulo.</p>';
+      '<p class="gi-aviso">Simulación educativa. No sirve para dirigir la atención de pacientes reales. Puedes omitirla (botón o Esc); volverá a aparecer cada vez que entres a «Sobrevive a la Guardia».</p>';
     document.body.appendChild(el); document.body.classList.add("gi-abierta");
     var prev = document.activeElement, timers = [], cerrado = false;
 
@@ -86,7 +86,7 @@
     function cerrar(tipo) {
       if (cerrado) return; cerrado = true; timers.forEach(clearTimeout);
       document.removeEventListener("keydown", tecla); window.removeEventListener("hashchange", alIrse);
-      if (tipo === "omitir") guardarOmitir(true); else if (tipo === "iniciar") guardarOmitir(false);   // quien la mira completa y empieza, la volverá a ver; quien la omite, no
+      /* «Omitir» cierra solo esta vez: la introducción vuelve a aparecer cada vez que se entra a «Sobrevive a la Guardia» */
       el.classList.add("gi--salida");
       var fin = function () { el.remove(); document.body.classList.remove("gi-abierta"); if (typeof o.alTerminar === "function" && tipo !== "salir") o.alTerminar(tipo); };
       if (rm || tipo === "salir") fin(); else setTimeout(fin, 520);

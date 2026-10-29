@@ -23,7 +23,9 @@ Los datos (~0,5 MB) se cargan solo al entrar al módulo. No hay IA dentro del ju
 - UCI y Paciente Crítico es una tarjeta «Próximamente» sin enlaces ni cifras: la modalidad no existe.
 - Accesos: biblioteca de laboratorio (catálogo con selector de perfil), guías y fuentes (referencias reales de los casos, peruanas primero), tutor Feynman (ruta existente) y una tarjeta informativa sobre las imágenes reales de los casos.
 - Portadas: `guardia/portadas/*.webp`, ilustraciones generadas con IA entregadas por la propietaria (ver `guardia/portadas/LEEME.txt`); la pantalla lo declara. No se usaron las dos imágenes diagnósticas ilustrativas del paquete.
-- Prueba: `node tests/guardia_hub_e2e.js` (80 comprobaciones: rutas, datos, progreso, regreso, diálogos, responsive, axe claro/oscuro).
+- Introducción: aparece siempre al entrar a `#/guardia` (menú lateral, otra sección); «Omitir» (botón o Esc) solo la cierra esta vez y no guarda preferencia. No se repite al volver con las migas desde un listado del módulo ni al abrir `#/guardia/emergencias` directamente; «Ver la introducción» la abre a demanda.
+- Monitor vivo: `canvas.gh-monitor` sobre el monitor de la ilustración del hero (ECG, presión invasiva, pletismografía y cifras de ejemplo que varían poco). Es decorativo (`aria-hidden`), se detiene fuera de pantalla, con la pestaña oculta o al cambiar de ruta, y es estático con «reducir movimiento».
+- Prueba: `node tests/guardia_hub_e2e.js` (94 comprobaciones: rutas, datos, progreso, regreso, diálogos, responsive, axe claro/oscuro).
 
 ## Cambios de la v3 (urgencias)
 1. **Cinco alternativas A–E** por decisión, una sola óptima, con distractores plausibles. Las letras correctas siguen una secuencia con semilla (sin repeticiones adyacentes, progresiones ni patrones ABAB) y se fijan en el JSON; las explicaciones son por alternativa y no citan letras. El texto se neutraliza (coma, largo, palabras absolutas/cautelosas) y `tests/guardia_test.js` mide: correcta más larga ≤ 32 %, rango medio ≈ 3, paridad de comas y palabras, duplicados y equivalentes, coherencia clave–puntaje–explicación.

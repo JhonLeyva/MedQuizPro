@@ -403,8 +403,6 @@
     rep.innerHTML = '<button type="button" class="link-arrow" id="gdVerIntro">▶ Ver la introducción</button>';
     var kp = cont.querySelector(".gd-aviso");
     if (kp && I) { kp.after(rep); rep.querySelector("button").addEventListener("click", function () { I.mostrar({}); }); }
-    if (I && primeraEntrada && !I.omitida() && !document.querySelector(".gi"))
-      I.mostrar({ alTerminar: function () { var b = cont.querySelector("a.btn"); if (b) b.focus({ preventScroll: true }); } });
   }
   M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
 })(typeof window !== "undefined" ? window : this);
