@@ -753,3 +753,5 @@ body.gi-abierta { overflow: hidden; }
 .cq-acc { margin: 6px 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .cq-mcq { margin-top: 10px; }
 @media (max-width: 560px) { .cq-pasos { font-size: .74rem; } }
+
+.gd-tabla-lab td:last-child { white-space: nowrap; }

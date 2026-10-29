@@ -146,30 +146,26 @@
       });
     }
     /* resultados */
-    function gruposLab() {
-      var items = []; N.resultadosSolicitados(caso, e.solicitadas).forEach(function (p) { if (p.resultado.tipo === "lab") p.resultado.lab.forEach(function (r) { items.push(r); }); });
-      return items.length ? [{ nodoId: "res", titulo: "Resultados de laboratorio solicitados", ocultar: !e.respuestas.interpretacion, items: items }] : [];
+    /* un bloque por prueba solicitada (examen de orina, urocultivo, hemograma… no se mezclan en una sola tabla) */
+    function gruposLab(ocultar) {
+      return N.resultadosSolicitados(caso, e.solicitadas).filter(function (p) { return p.resultado.tipo === "lab"; }).map(function (p) { return { nodoId: "res", titulo: p.resultado.titulo || p.nombre, ocultar: ocultar, items: p.resultado.lab }; });
     }
     function sResultados() {
       var pr = N.resultadosSolicitados(caso, e.solicitadas), txt = pr.filter(function (p) { return p.resultado.tipo === "texto"; }), q = caso.preguntas.interpretacion, resp = e.respuestas.interpretacion;
       return titulo("Resultados e interpretación", "Solo ves lo que solicitaste.") +
         (pr.length ? "" : '<p class="gd-alerta">No solicitaste ninguna prueba. Puedes decidir solo con la clínica, pero revisa en el informe qué habría cambiado.</p>') +
-        (gruposLab().length ? GDm.tablaResultados(gruposLab(), caso.paciente, resp ? null : "res") : "") +
-        txt.map(function (p) { return '<section class="gd-labn"><h3 class="gd-h3">' + esc(p.nombre) + '</h3><p>' + esc(p.resultado.texto) + '</p></section>'; }).join("") +
+        (gruposLab(!resp).length ? GDm.tablaResultados(gruposLab(!resp), caso.paciente, resp ? null : "res") : "") +
+        txt.map(function (p) { return '<section class="gd-labn"><h3 class="gd-h3">' + esc(GDm.mayus1(p.nombre)) + '</h3><p>' + esc(GDm.mayus1(p.resultado.texto)) + '</p></section>'; }).join("") +
         '<p class="cq-acc"><button type="button" class="btn btn--ghost" data-ir="pruebas">Solicitar más pruebas</button> <button type="button" class="btn btn--ghost btn--sm" id="cqLabBtn">🧪 Laboratorio y valores de referencia</button></p>' +
         mcqHtml("interpretacion", q, resp) + (resp ? sigBtn("Continuar al diagnóstico", "diagnostico") : "");
     }
     /* preguntas de cinco alternativas */
     function mcqHtml(clave, q, resp) {
-      var h = '<div class="cq-mcq" data-mcq="' + clave + '"><h3 class="gd-q" id="cqQ' + clave + '">' + esc(q.enunciado) + '</h3>' + (resp ? "" : '<p class="muted small">Elige una de las cinco alternativas (también puedes pulsar A, B, C, D o E).</p>') +
+      var h = '<div class="cq-mcq" data-mcq="' + clave + '"><h3 class="gd-q" id="cqQ' + clave + '">' + esc(q.enunciado) + '</h3>' + (resp ? "" : '<p class="muted small">Elige una de las cinco alternativas (también puedes pulsar A, B, C, D o E). No se corrige durante la consulta: verás el análisis al final.</p>') +
         '<div class="gd-ops" role="group" aria-labelledby="cqQ' + clave + '">' + q.decisiones.map(function (o) {
-          return '<button type="button" class="gd-op' + (resp ? " is-" + (o.id === resp || o.calidad === "optima" ? o.calidad : "") : "") + '" data-op="' + esc(o.id) + '"' + (resp ? ' aria-disabled="true"' : "") + '><span class="gd-op__l" aria-hidden="true">' + esc(o.id) + '</span><span class="gd-op__t"><span class="sr-only">Alternativa ' + esc(o.id) + ': </span>' + esc(o.texto) + '</span></button>';
+          return '<button type="button" class="gd-op' + (resp && o.id === resp ? " is-sel" : "") + '" data-op="' + esc(o.id) + '"' + (resp ? ' aria-disabled="true"' : "") + '><span class="gd-op__l" aria-hidden="true">' + esc(o.id) + '</span><span class="gd-op__t"><span class="sr-only">Alternativa ' + esc(o.id) + ': </span>' + esc(o.texto) + '</span></button>';
         }).join("") + '</div>';
-      if (resp) {
-        var d = por(q.decisiones, resp), opt = q.decisiones.filter(function (x) { return x.calidad === "optima"; })[0];
-        h += '<div class="gd-fb gd-fb--' + d.calidad + '" role="status"><p class="gd-fb__t">' + ETQ[d.calidad] + ' (tu elección: ' + esc(d.id) + ')</p><p>' + esc(d.explicacion) + '</p>' + (d.calidad !== "optima" ? '<p><b>Conducta preferible (' + esc(opt.id) + '):</b> ' + esc(opt.texto) + '</p>' : "") +
-          '<details><summary>Análisis de las cinco alternativas</summary>' + cinco(q, resp) + '</details></div>';
-      }
+      if (resp) h += '<div class="gd-fb gd-fb--neutra" role="status"><p class="gd-fb__t">Respuesta registrada (' + esc(resp) + ')</p><p>La corrección y el análisis de las cinco alternativas aparecen en el informe final, cuando termines la consulta.</p></div>';
       return h + '</div>';
     }
     function cinco(q, resp) {
@@ -215,7 +211,7 @@
         var nb = cont.querySelector("#cqNb"); if (nb) nb.textContent = e.borrador.length; persistir();
       }); });
       var rv = cont.querySelector("#cqRevisar"); if (rv) rv.addEventListener("click", function () { revisarEnvio(rv); });
-      var lb = cont.querySelector("#cqLabBtn"); if (lb) lb.addEventListener("click", function () { GDm.abrirLaboratorio(caso, gruposLab(), e.respuestas.interpretacion ? null : "res", lb); });
+      var lb = cont.querySelector("#cqLabBtn"); if (lb) lb.addEventListener("click", function () { GDm.abrirLaboratorio(caso, gruposLab(!e.respuestas.interpretacion), e.respuestas.interpretacion ? null : "res", lb); });
       [].forEach.call(cont.querySelectorAll("[data-op]"), function (b) { b.addEventListener("click", function () { if (b.getAttribute("aria-disabled") === "true") return; elegir(b.closest("[data-mcq]").getAttribute("data-mcq"), b.getAttribute("data-op")); }); });
     }
     function teclas(ev) {
@@ -253,8 +249,8 @@
         '<h3 class="gd-h3">Pruebas no solicitadas que habrían cambiado la conducta</h3>' + lista(L.cambiariaConducta.map(function (p) { return '<li><b>' + esc(p.nombre) + ':</b> ' + esc(p.cambia_conducta) + '</li>'; }), "Ninguna de las pruebas que omitiste habría cambiado la conducta.") +
         (e.reevaluaciones ? '<p class="small muted">Se te pidió reconsiderar la solicitud porque faltaba una prueba esencial antes de decidir con seguridad.</p>' : "") + '</section>';
       h += '<section class="card card--spaced" id="cqD"><h2 class="card__h">Resultados de laboratorio e interpretación</h2>' + (inf.interpretacion_laboratorio ? '<ul class="gd-alt">' + inf.interpretacion_laboratorio.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>' : "") +
-        (items.length ? GDm.tablaResultados([{ nodoId: "res", titulo: "Resultados solicitados por ti", ocultar: false, items: items }], caso.paciente, null) : '<p class="muted small">No solicitaste pruebas de laboratorio.</p>') +
-        res.filter(function (p) { return p.resultado.tipo === "texto"; }).map(function (p) { return '<p><b>' + esc(p.nombre) + ':</b> ' + esc(p.resultado.texto) + '</p>'; }).join("") + '<p class="muted small">Los intervalos son educativos (no de un laboratorio peruano); prevalece el del laboratorio que procesa la muestra.</p></section>';
+        (items.length ? GDm.tablaResultados(gruposLab(false), caso.paciente, null) : '<p class="muted small">No solicitaste pruebas de laboratorio.</p>') +
+        res.filter(function (p) { return p.resultado.tipo === "texto"; }).map(function (p) { return '<p><b>' + esc(GDm.mayus1(p.nombre)) + ':</b> ' + esc(GDm.mayus1(p.resultado.texto)) + '</p>'; }).join("") + '<p class="muted small">Los intervalos son educativos (no de un laboratorio peruano); prevalece el del laboratorio que procesa la muestra.</p></section>';
       h += '<section class="card card--spaced" id="cqE"><h2 class="card__h">Análisis de tus decisiones</h2>' + ["interpretacion", "diagnostico", "tratamiento", "seguimiento"].map(function (k) {
         var q = caso.preguntas[k], d = por(q.decisiones, e.respuestas[k]), opt = q.decisiones.filter(function (x) { return x.calidad === "optima"; })[0];
         return '<details class="gd-dec gd-dec--' + (d ? d.calidad : "incorrecta") + '"' + (!d || d.calidad !== "optima" ? " open" : "") + '><summary>' + esc(N.NOMBRE_COMP[k]) + ' · peso ' + N.PESOS[k] + '</summary><p><b>' + esc(q.enunciado) + '</b></p><p><b>Tu respuesta' + (d ? " (" + esc(d.id) + ")" : "") + ':</b> ' + (d ? esc(d.texto) : "sin responder") + '</p>' +

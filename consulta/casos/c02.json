@@ -272,12 +272,52 @@
     "titulo": "Examen completo de orina",
     "lab": [
      {
-      "prueba": "orina_esterasa",
-      "valor": "positivo (+++)"
+      "prueba": "orina_color",
+      "valor": "amarillo"
+     },
+     {
+      "prueba": "orina_aspecto",
+      "valor": "turbio"
+     },
+     {
+      "prueba": "orina_densidad",
+      "valor": 1.018
+     },
+     {
+      "prueba": "orina_ph",
+      "valor": 6.0
+     },
+     {
+      "prueba": "orina_proteinas",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_glucosa",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_cetonas",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_bilirrubina",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_urobilinogeno",
+      "valor": "normal"
+     },
+     {
+      "prueba": "orina_sangre",
+      "valor": "negativo"
      },
      {
       "prueba": "orina_nitritos",
       "valor": "positivo"
+     },
+     {
+      "prueba": "orina_esterasa",
+      "valor": "positivo (+++)"
      },
      {
       "prueba": "orina_leucocitos",
@@ -294,6 +334,30 @@
       "ref": {
        "texto": "Sin intervalo pediátrico cargado: se interpreta según la edad con el laboratorio de referencia"
       }
+     },
+     {
+      "prueba": "orina_celulas_epiteliales",
+      "valor": "escasas"
+     },
+     {
+      "prueba": "orina_cilindros",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_cristales",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_bacterias",
+      "valor": "abundantes"
+     },
+     {
+      "prueba": "orina_levaduras",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_mucus",
+      "valor": "escasos"
      }
     ]
    },
