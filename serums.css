@@ -75,13 +75,17 @@
 .sr-fin { display: flex; flex-wrap: wrap; gap: 10px; }
 /* introducción */
 .sr-intro { position: fixed; inset: 0; width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 0; border: 0; background: #06202e; color: #fff; overflow: hidden; }
-.sr-intro::backdrop { background: #000; } .sr-intro__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; animation: sr-zoom 14s ease-out forwards; }
-.sr-intro__vel { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(4, 22, 34, .95), rgba(4, 22, 34, .35) 60%, rgba(4, 22, 34, .65)); }
-.sr-intro__c { position: relative; z-index: 1; height: 100%; display: grid; align-content: end; justify-items: start; gap: 14px; padding: clamp(24px, 6vw, 80px); max-width: 860px; animation: sr-sube 1.2s .2s both; }
+.sr-intro::backdrop { background: #000; }
+.sr-intro__escena { position: absolute; inset: 0; overflow: hidden; animation: sr-zoom 30s ease-out forwards; transform-origin: 62% 50%; }
+.sr-intro__img, .sr-intro__lienzo { position: absolute; inset: 0; width: 100%; height: 100%; display: block; } .sr-intro__img { object-fit: cover; object-position: 62% 50%; }
+.sr-intro__snd { position: absolute; z-index: 2; top: 16px; right: 16px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .55); background: rgba(4, 22, 34, .72); color: #fff; font: inherit; font-weight: 700; cursor: pointer; }
+.sr-intro__snd:hover { background: rgba(4, 22, 34, .92); } .sr-intro__nota { font-size: .76rem !important; color: #cbd5e1 !important; max-width: 60ch !important; }
+.sr-intro__vel { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(0deg, rgba(3, 12, 22, .88) 0%, rgba(3, 12, 22, .35) 45%, rgba(3, 12, 22, 0) 70%), linear-gradient(90deg, rgba(3, 12, 22, .55) 0%, rgba(3, 12, 22, 0) 55%); }
+.sr-intro__c { position: relative; z-index: 1; height: 100%; display: grid; align-content: start; justify-items: start; gap: 14px; padding: clamp(72px, 13vh, 150px) clamp(24px, 6vw, 80px) 24px; max-width: 860px; animation: sr-sube 1.2s .2s both; }
 .sr-intro__k { margin: 0; font-size: .85rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 800; color: #5eead4; } .sr-intro h2 { font-size: clamp(2.2rem, 7vw, 4.6rem); line-height: 1.02; text-transform: uppercase; color: #fff; } .sr-intro p { margin: 0; font-size: 1.1rem; line-height: 1.55; max-width: 52ch; color: #e2e8f0; }
-.sr-intro .sr-btn--lg { background: var(--sr-p2); border-color: var(--sr-p2); color: #042f2e; } .sr-intro__o { background: none; border: 0; color: #cbd5e1; font: inherit; text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0 6px; }
-@keyframes sr-zoom { from { transform: scale(1); } to { transform: scale(1.08); } } @keyframes sr-sube { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
-@media (prefers-reduced-motion: reduce) { .sr-intro__img, .sr-intro__c { animation: none; } .sr-btn { transition: none; } }
+dialog.sr-intro .sr-btn.sr-btn--lg { background: #14b8a6 !important; border-color: #14b8a6 !important; color: #022c28 !important; } dialog.sr-intro .sr-btn.sr-btn--lg:hover { background: #5eead4 !important; } .sr-intro__o { background: none; border: 0; color: #cbd5e1; font: inherit; text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0 6px; }
+@keyframes sr-zoom { from { transform: scale(1); } to { transform: scale(1.05); } } @keyframes sr-sube { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .sr-intro__escena, .sr-intro__c { animation: none; } .sr-btn { transition: none; } }
 @media (max-width: 959px) { .sr-cols, .sr-juego { grid-template-columns: minmax(0, 1fr); } .sr-der { position: static; } .sr-hero__vel { background: linear-gradient(0deg, rgba(8, 31, 49, .95), rgba(8, 31, 49, .7)); } .sr-ejes li { grid-template-columns: minmax(0, 1fr) 64px; } .sr-ejes .sr-bar { grid-column: 1 / -1; order: 3; } }
 @media (max-width: 479px) { .sr-f2 { grid-template-columns: minmax(0, 1fr); } }
 /* modo oscuro */
