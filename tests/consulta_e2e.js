@@ -34,6 +34,7 @@ const letra = (q, cal) => q.decisiones.find(d => d.calidad === cal) || q.decisio
     async function responder(pg, clave, c, cal) { const d = letra(c.preguntas[clave], cal); await pg.click('[data-mcq="' + clave + '"] [data-op="' + d.id + '"]'); await pg.waitForSelector('[data-mcq="' + clave + '"] .gd-fb'); return d; }
     async function recorrer(pg, c, perfil) {
       await abrir(pg, c); await sig(pg, "anamnesis");
+      ok(/^(Niña|Niño|Mujer|Varón|Gestante|Adolescente) de \d/.test((await pg.innerText(".cq-pac__t")).trim()) && /^[A-ZÁÉÍÓÚÑ«¿¡]/.test((await pg.innerText(".cq-pac__m")).trim()), c.id + ": el paciente se presenta con título en mayúscula («" + (await pg.innerText(".cq-pac__t")).trim() + "») y el motivo en una cita ordenada");
       const an = N.aplanar(c).map(q => q.id), claveAn = N.aplanar(c).filter(q => q.relevancia === "clave").map(q => q.id);
       await preguntar(pg, "anamnesis", perfil === "ideal" ? an : claveAn.slice(0, 1)); await sig(pg, "antecedentes");
       const ant = c.antecedentes.map(a => a.id); await preguntar(pg, "antecedentes", perfil === "ideal" ? ant : []); await sig(pg, "examen");

@@ -91,5 +91,13 @@ ok(Object.values(N.PESOS).reduce((s, x) => s + x, 0) === 100, "los pesos del pun
 ok(N.PESOS.pruebas >= N.PESOS.anamnesis && N.PESOS.diagnostico >= N.PESOS.seguimiento, "pesos coherentes con la importancia clínica");
 ok(N.registrar(null, CASOS[0], 80, 1).casos.c01.mejor === 80 && N.registrar(N.registrar(null, CASOS[0], 80, 1), CASOS[0], 60, 2).casos.c01.mejor === 80, "registrar conserva el mejor puntaje");
 ok(typeof G.NIVEL === "object", "el simulador de urgencias sigue disponible (niveles compartidos)");
+/* ---- reglas de presentación (también para los casos nuevos) ---- */
+for (const c of CASOS) {
+  const mayus = t => /^[A-ZÁÉÍÓÚÑ«¿¡β\d]/.test(String(t).trim());
+  ok(mayus(c.titulo) && mayus(c.resumen) && mayus(c.contexto) && mayus(c.motivo), c.id + ": título, resumen, contexto y motivo de consulta empiezan con mayúscula");
+  ok(typeof c.paciente.edad_texto === "string" && /^\d/.test(c.paciente.edad_texto) && (c.paciente.sexo === "F" || c.paciente.sexo === "M"), c.id + ": paciente con sexo y edad para mostrar «Niña de 20 meses», «Mujer de 38 años»…");
+  ok(c.hipotesis.opciones.every(o => mayus(o.dx)) && c.pruebas.every(t => mayus(t.nombre) && mayus(t.justificacion)) && c.examen.every(x => mayus(x.maniobra) && mayus(x.hallazgo)) && N.aplanar(c).every(q => mayus(q.texto) && mayus(q.respuesta)), c.id + ": hipótesis, pruebas, examen y anamnesis empiezan con mayúscula");
+  ok(c.pruebas.every(t => t.resultado.tipo !== "texto" || mayus(t.resultado.texto) || /^(pH|pCO|pO)/.test(t.resultado.texto)), c.id + ": los resultados en texto empiezan con mayúscula");
+}
 console.log(fallos ? "FALLARON " + fallos + " de " + total : "OK: " + total + " comprobaciones de Consulta Clínica Experta");
 process.exit(fallos ? 1 : 0);

@@ -442,7 +442,7 @@
    "clave": "C"
   },
   "n3": {
-   "estado": "Se realiza la ecografía abdominal en el flanco derecho. Esta es una imagen real de la literatura publicada, de otro paciente. Obsérvala con calma, amplía y desplaza si lo necesitas.",
+   "estado": "Se realiza la ecografía abdominal en el flanco derecho.",
    "vitales": {
     "FC": "150 /min",
     "PA": "90/54 mmHg",
@@ -463,7 +463,7 @@
    },
    "imagen": {
     "id": "im-4f1c",
-    "consigna": "Ecografía abdominal de un lactante: corte transversal. Describe lo que ves antes de decidir."
+    "consigna": "Ecografía abdominal de un lactante: corte transversal."
    },
    "decisiones": [
     {

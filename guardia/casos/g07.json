@@ -281,7 +281,7 @@
    "clave": "B"
   },
   "n2": {
-   "estado": "Se toma una radiografía de tórax portátil. Esta es una imagen real de la literatura publicada, de otro paciente. Obsérvala con atención.",
+   "estado": "Se toma una radiografía de tórax portátil.",
    "vitales": {
     "PA": "180/100 mmHg",
     "FC": "108 /min",
@@ -302,7 +302,7 @@
    },
    "imagen": {
     "id": "im-71ea",
-    "consigna": "Radiografía de tórax portátil. Describe la silueta cardiomediastínica y los campos pulmonares."
+    "consigna": "Radiografía de tórax portátil."
    },
    "decisiones": [
     {
@@ -542,7 +542,7 @@
    "clave": "A"
   },
   "n4": {
-   "estado": "Se hace una angiotomografía de tórax urgente. Esta es una imagen real de la literatura publicada, de otro paciente. Corte coronal; recuerda que puedes volver a la radiografía y comparar.",
+   "estado": "Se hace una angiotomografía de tórax urgente.",
    "vitales": {
     "PA": "176/98 mmHg",
     "FC": "104 /min",
@@ -565,7 +565,7 @@
    },
    "imagen": {
     "id": "im-e052",
-    "consigna": "Angiotomografía de tórax, corte coronal. Describe la aorta y las estructuras vecinas."
+    "consigna": "Angiotomografía de tórax, corte coronal."
    },
    "decisiones": [
     {

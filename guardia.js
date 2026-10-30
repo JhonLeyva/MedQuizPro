@@ -165,17 +165,17 @@
   function contarDecisiones(caso) { var id = caso.inicio, n = 0; while (!caso.nodos[id].final && n < 60) { var o = caso.nodos[id].decisiones.filter(function (d) { return d.calidad === "optima"; })[0]; id = o.siguiente; n++; } return n; }
 
   /* ---------- imágenes ---------- */
-  function abrirImagen(id, disparador) {
+  /* Durante el caso la imagen se muestra sola, con una descripción breve (modalidad y proyección). La autoría, la fuente y la licencia solo aparecen en el informe final. */
+  function abrirImagen(id, disparador, final) {
     var im = IMG()[id]; if (!im || !M.visorImagen) return;
-    M.visorImagen.abrir({ titulo: "Imagen del caso", alt: im.alt, imagenes: [im.src],
-      atribucion: { nota: "Imagen real de la literatura médica publicada, de otro paciente.", licencia: licenciaCorta(im.licencia), licenciaUrl: im.licencia, fuente: "autoría y fuente completas en el informe final del caso" } }, disparador);
+    M.visorImagen.abrir({ titulo: "Imagen del caso", alt: im.alt, imagenes: [im.src], atribucion: final ? { licencia: licenciaCorta(im.licencia), licenciaUrl: im.licencia, fuente: im.revelar && im.revelar.fuente } : {} }, disparador);
   }
   function figura(id, consigna, final) {
     var im = IMG()[id]; if (!im) return "";
-    return '<figure class="gd-img"><button type="button" class="gd-img__b" data-img="' + esc(id) + '" aria-label="Ampliar la imagen del caso (zoom y desplazamiento)"><img src="' + esc(im.src) + '" alt="' + esc(im.alt) + '" width="' + im.ancho + '" height="' + im.alto + '"></button>' +
-      '<figcaption>' + (consigna ? '<strong>' + esc(consigna) + '</strong><br>' : "") + 'Imagen real de la literatura médica publicada, de otro paciente (' + esc(licenciaCorta(im.licencia)) + ').' + (final ? ' Autoría y fuente en la ficha de abajo.' : ' La autoría y la fuente completas aparecen en el informe final para no adelantar el diagnóstico.') + ' Pulsa la imagen para ampliarla, desplazarla y ajustar brillo y contraste.</figcaption></figure>';
+    return '<figure class="gd-img"><button type="button" class="gd-img__b" data-img="' + esc(id) + '"' + (final ? ' data-final="1"' : "") + ' aria-label="Ampliar la imagen del caso (zoom y desplazamiento)"><img src="' + esc(im.src) + '" alt="' + esc(im.alt) + '" width="' + im.ancho + '" height="' + im.alto + '"></button>' +
+      (consigna ? '<figcaption>' + esc(consigna) + '</figcaption>' : "") + '</figure>';
   }
-  function ligarImagenes(cont) { [].forEach.call(cont.querySelectorAll("[data-img]"), function (b) { b.addEventListener("click", function () { abrirImagen(b.getAttribute("data-img"), b); }); }); }
+  function ligarImagenes(cont) { [].forEach.call(cont.querySelectorAll("[data-img]"), function (b) { b.addEventListener("click", function () { abrirImagen(b.getAttribute("data-img"), b, b.hasAttribute("data-final")); }); }); }
 
   /* ---------- un caso ---------- */
   var detener = null;                  // limpia temporizadores/listeners del caso que se está jugando

@@ -104,6 +104,10 @@
 /* monitor animado del hero (decorativo): queda entre la fotografía y el velo, así recibe el mismo tinte */
 .gh-monitor { position: absolute; z-index: -1; pointer-events: none; display: block; }
 
+/* paciente de la consulta: título con mayúscula inicial y motivo de consulta en cita */
+.cq-pac { margin: 0 0 16px; padding: 16px 20px; border-radius: 18px; background: linear-gradient(135deg, color-mix(in srgb, var(--gh-azul, #1d5fd1) 9%, var(--surface)), var(--surface) 70%); border: 1px solid color-mix(in srgb, var(--gh-azul, #1d5fd1) 25%, var(--line)); border-left: 5px solid var(--gh-azul, #1d5fd1); box-shadow: var(--shadow-sm); }
+.cq-pac__t { margin: 0 0 4px; font-family: var(--f-display); font-weight: 800; font-size: 1.25rem; line-height: 1.2; color: var(--ink); }
+.cq-pac__m { margin: 0; font-size: 1.02rem; line-height: 1.6; color: var(--ink-2); font-style: italic; }
 /* ---------- biblioteca de valores de laboratorio ---------- */
 .gb-dlg .gd-dlg__b { padding: 0 18px 22px; background: linear-gradient(180deg, color-mix(in srgb, var(--brand-bright) 7%, var(--surface)) 0, var(--surface) 160px); }
 .gb { display: grid; gap: 14px; }
