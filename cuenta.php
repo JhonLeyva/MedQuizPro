@@ -107,7 +107,10 @@ function url_sitio(): string {
 }
 function limites_activos(): bool { return ajuste('MQP_LIMITES', 'limites') === '1'; }
 /** Acceso cerrado: solo el dueño y quien tenga un plan activo pueden usar la plataforma y ver los contenidos (los demás deben registrarse y pagar). */
-function acceso_cerrado(): bool { return ajuste('MQP_CERRADO', 'cerrado') === '1'; }
+function acceso_cerrado(): bool {
+    $v = ajuste('MQP_CERRADO', 'cerrado');                  // el ajuste explícito (variable de entorno o config.php) manda, también con '0'
+    return $v !== '' ? $v === '1' : is_file(__DIR__ . '/acceso_cerrado.flag');   // sin ajuste: cerrado si existe el archivo acceso_cerrado.flag (se despliega con el código)
+}
 function payu_ok(): bool {
     return ajuste('PAYU_MERCHANT_ID', 'payu_merchant_id') !== '' && ajuste('PAYU_ACCOUNT_ID', 'payu_account_id') !== '' && ajuste('PAYU_API_KEY', 'payu_api_key') !== '';
 }
