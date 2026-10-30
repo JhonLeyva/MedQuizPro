@@ -1,0 +1,291 @@
+{
+ "id": "s05",
+ "numero": 5,
+ "titulo": "Trauma con la carretera bloqueada",
+ "tema": "Emergencias · Trauma y referencia",
+ "resumen": "Un obrero cae de un camión: fractura abierta de pierna. Un huaico bloquea la vía y la ambulancia no puede llegar.",
+ "dificultad": "avanzado",
+ "duracion_min": 12,
+ "paciente": {
+  "titulo": "Varón de 35 años",
+  "motivo": "Cayó de un camión; dolor intenso en la pierna derecha."
+ },
+ "vitales": {
+  "fc": 118,
+  "pas": 105,
+  "pad": 68
+ },
+ "gravedad": 2,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Mecanismo",
+   "texto": "Caída desde unos tres metros; no perdió la conciencia."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Pierna derecha",
+   "texto": "Herida con hueso expuesto y sangrado moderado."
+  },
+  {
+   "id": "e2",
+   "rotulo": "Resto del cuerpo",
+   "texto": "Sin otros dolores referidos."
+  }
+ ],
+ "pruebas": [],
+ "eventos": [
+  {
+   "cuando": {
+    "momento": "m3"
+   },
+   "texto": "Llega el aviso: un huaico bloqueó la carretera. La ambulancia no puede pasar.",
+   "flags": [
+    "via_bloqueada"
+   ]
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "seguridad",
+   "titulo": "Evaluación primaria",
+   "texto": "¿Cuál es tu primera acción?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Asegurar la escena, evaluar vía aérea, respiración y circulación y controlar el sangrado",
+     "calidad": "optima",
+     "retro": "Se prioriza lo que amenaza la vida.",
+     "min": 5,
+     "g": -1,
+     "cons": {
+      "vendas": 3
+     },
+     "req": {
+      "items": {
+       "vendas": 3
+      }
+     },
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Examinar solo la pierna",
+     "calidad": "incorrecta",
+     "retro": "Puede pasar por alto otras lesiones.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Mover al paciente sin inmovilizar",
+     "calidad": "peligrosa",
+     "retro": "Puede agravar la lesión.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Retrasar la atención hasta ver radiografías",
+     "calidad": "incorrecta",
+     "retro": "Sin radiografía en la posta; retrasa el control inicial.",
+     "min": 40,
+     "error": "demora",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "clinico",
+   "titulo": "Inmovilización",
+   "texto": "¿Cómo manejas la pierna?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Cubrir la herida con apósito limpio e inmovilizar con férula",
+     "calidad": "optima",
+     "retro": "Protege la herida y limita el daño.",
+     "min": 10,
+     "g": -1,
+     "cons": {
+      "ferula": 1,
+      "vendas": 2
+     },
+     "req": {
+      "items": {
+       "ferula": 1,
+       "vendas": 2
+      }
+     },
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Reducir la fractura a la fuerza en la posta",
+     "calidad": "peligrosa",
+     "retro": "Es un procedimiento que no corresponde a este nivel.",
+     "min": 5,
+     "error": "comision",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Dejar la pierna sin inmovilizar",
+     "calidad": "incorrecta",
+     "retro": "Aumenta el dolor y el riesgo.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "d",
+     "texto": "Aplicar un torniquete sin criterio",
+     "calidad": "incorrecta",
+     "retro": "Sin indicación puede causar daño.",
+     "min": 5,
+     "error": "comision",
+     "g": 1,
+     "pendiente": true
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "referencia",
+   "titulo": "Referencia con vía bloqueada",
+   "texto": "Informan que la carretera está bloqueada. ¿Qué decides?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Coordinar un traslado alternativo (otra ruta o medio) manteniendo al paciente estabilizado",
+     "calidad": "optima",
+     "retro": "Las restricciones de la vía obligan a buscar alternativas sin perder la estabilización.",
+     "min": 30,
+     "referencia": "emergencia"
+    },
+    {
+     "id": "b",
+     "texto": "Solicitar la ambulancia como si nada ocurriera",
+     "calidad": "incorrecta",
+     "retro": "La ambulancia no podrá llegar.",
+     "min": 60,
+     "error": "comunicacion",
+     "g": 1,
+     "bloquea_si": "via_bloqueada"
+    },
+    {
+     "id": "c",
+     "texto": "Abandonar el traslado y mantenerlo en la posta sin plan",
+     "calidad": "peligrosa",
+     "retro": "La posta no puede ofrecer manejo definitivo.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Enviarlo con un familiar en moto",
+     "calidad": "incorrecta",
+     "retro": "Traslado inseguro de un paciente con fractura abierta.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Comunicación",
+   "texto": "Mientras buscas una ruta, ¿qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Mantener comunicación con el hospital y con el centro de coordinación y registrar la hora de cada paso",
+     "calidad": "optima",
+     "retro": "Comunicar y registrar sostiene la referencia.",
+     "min": 5
+    },
+    {
+     "id": "b",
+     "texto": "Cortar la comunicación",
+     "calidad": "incorrecta",
+     "retro": "Pierdes apoyo.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Avisar solo a la familia",
+     "calidad": "incorrecta",
+     "retro": "No sustituye la coordinación.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Avisar tarde",
+     "calidad": "aceptable",
+     "retro": "Avisar tarde es mejor que no avisar.",
+     "min": 30,
+     "error": "demora"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Registro y seguimiento",
+   "texto": "Una vez resuelto el traslado, ¿qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Registrar el evento, la demora por la vía bloqueada y coordinar la contrarreferencia",
+     "calidad": "optima",
+     "retro": "El registro respalda la mejora de los servicios.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "No registrar",
+     "calidad": "incorrecta",
+     "retro": "Se pierde trazabilidad.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Registrar sin mencionar la vía bloqueada",
+     "calidad": "aceptable",
+     "retro": "Falta información sobre la demora.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Cerrar el caso",
+     "calidad": "incorrecta",
+     "retro": "No hay seguimiento.",
+     "min": 5,
+     "error": "omision"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "El paciente se trasladó por una ruta alternativa y recibió tratamiento.",
+  "reservado": "El traslado se demoró y hubo riesgo de infección.",
+  "desfavorable": "La demora produjo una complicación grave."
+ },
+ "evidencia": [],
+ "pendientes": [
+  "No se verificó una guía peruana específica de trauma ortopédico ni de fractura expuesta; las decisiones están pendientes de validación científica. La referencia se apoya en definiciones generales."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

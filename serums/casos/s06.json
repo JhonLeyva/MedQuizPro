@@ -1,0 +1,322 @@
+{
+ "id": "s06",
+ "numero": 6,
+ "titulo": "Tos que no se quita",
+ "tema": "Salud pública · Tuberculosis",
+ "resumen": "Un adulto con tos con flema hace tres semanas: hay que captar al sintomático respiratorio, proteger a los demás y notificar.",
+ "dificultad": "intermedio",
+ "duracion_min": 10,
+ "paciente": {
+  "titulo": "Varón de 48 años",
+  "motivo": "Tos con flema desde hace tres semanas y pérdida de peso."
+ },
+ "vitales": {
+  "fc": 92,
+  "fr": 20,
+  "temp": 37.4
+ },
+ "gravedad": 1,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Síntomas",
+   "texto": "Tos con flema por más de 15 días, sudor nocturno y pérdida de peso."
+  },
+  {
+   "id": "h2",
+   "rotulo": "Contacto",
+   "texto": "Vive con su esposa y dos hijos pequeños."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "General",
+   "texto": "Delgado; sin dificultad respiratoria."
+  }
+ ],
+ "pruebas": [
+  {
+   "id": "p1",
+   "nombre": "Muestra de esputo",
+   "insumo": "frasco_bk",
+   "min": 30,
+   "resultado": "Muestra enviada al laboratorio de referencia; el resultado tarda días."
+  }
+ ],
+ "eventos": [
+  {
+   "cuando": {
+    "momento": "m4"
+   },
+   "texto": "La esposa también refiere tos desde hace unas semanas.",
+   "flags": [
+    "contacto_sintomatico"
+   ]
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Captación",
+   "texto": "¿Cómo clasificas a este paciente?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Es un sintomático respiratorio: tos y flema de 15 días o más",
+     "calidad": "optima",
+     "retro": "La definición operativa de sintomático respiratorio es tos con flema por 15 días o más.",
+     "min": 3,
+     "ref": [
+      {
+       "doc": "nts221-tb",
+       "pag": 21
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Esperar a que pase el resfrío",
+     "calidad": "incorrecta",
+     "retro": "Una tos de tres semanas no se espera.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Indicar un antitusivo y despedirlo",
+     "calidad": "peligrosa",
+     "retro": "Pierde la oportunidad de diagnóstico y expone a otros.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Pedir radiografía y no recoger esputo",
+     "calidad": "incorrecta",
+     "retro": "La toma de muestra no debe retrasarse.",
+     "min": 60,
+     "error": "omision",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "recursos",
+   "titulo": "Muestra",
+   "texto": "¿Cómo obtienes la muestra?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Tomar la muestra en un lugar ventilado, usar un frasco y rotularlo",
+     "calidad": "optima",
+     "retro": "Se cuidan la bioseguridad y la trazabilidad de la muestra.",
+     "min": 20,
+     "cons": {
+      "frasco_bk": 1
+     },
+     "ref": [
+      {
+       "doc": "nts221-tb",
+       "pag": 22
+      }
+     ],
+     "req": {
+      "items": {
+       "frasco_bk": 1
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "Tomar la muestra dentro del consultorio cerrado",
+     "calidad": "incorrecta",
+     "retro": "Aumenta el riesgo de contagio para el personal.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 1,
+     "cons": {
+      "frasco_bk": 1
+     },
+     "req": {
+      "items": {
+       "frasco_bk": 1
+      }
+     }
+    },
+    {
+     "id": "c",
+     "texto": "Pedir que lleve el frasco sin rótulo",
+     "calidad": "incorrecta",
+     "retro": "Pierde trazabilidad.",
+     "min": 5,
+     "error": "comunicacion",
+     "cons": {
+      "frasco_bk": 1
+     },
+     "req": {
+      "items": {
+       "frasco_bk": 1
+      }
+     }
+    },
+    {
+     "id": "d",
+     "texto": "No tomar muestra",
+     "calidad": "peligrosa",
+     "retro": "El diagnóstico no avanza.",
+     "min": 5,
+     "error": "omision",
+     "g": 2
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "seguridad",
+   "titulo": "Control de infecciones",
+   "texto": "¿Qué indicaciones de prevención das?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Enseñar cobertura al toser, ventilación y uso de mascarilla mientras espera",
+     "calidad": "optima",
+     "retro": "Reduce la transmisión mientras se aclara el diagnóstico.",
+     "min": 5,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Ninguna",
+     "calidad": "incorrecta",
+     "retro": "Pierde la oportunidad de prevención.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Dejarlo en la sala de espera con otros niños",
+     "calidad": "peligrosa",
+     "retro": "Expone a quienes son más vulnerables.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Aislarlo sin explicar",
+     "calidad": "incorrecta",
+     "retro": "El trato digno forma parte de la atención.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Notificación y coordinación",
+   "texto": "¿Qué haces con la información del caso?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Inscribirlo en el registro de sintomáticos respiratorios y coordinar el envío de la muestra",
+     "calidad": "optima",
+     "retro": "La detección y la notificación son parte del control de la tuberculosis.",
+     "min": 10,
+     "ref": [
+      {
+       "doc": "nts221-tb",
+       "pag": 21
+      },
+      {
+       "doc": "nts221-tb",
+       "pag": 22
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "No registrar",
+     "calidad": "incorrecta",
+     "retro": "Se pierde el seguimiento.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Registrar sin coordinar la muestra",
+     "calidad": "aceptable",
+     "retro": "El registro es necesario pero incompleto.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Esperar a que él regrese con el resultado",
+     "calidad": "incorrecta",
+     "retro": "El establecimiento debe hacer seguimiento activo.",
+     "min": 5,
+     "error": "omision"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Contactos",
+   "texto": "Ya sabes que la esposa también tose. ¿Qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Evaluar a los contactos y captar a la esposa como sintomática respiratoria",
+     "calidad": "optima",
+     "retro": "El estudio de contactos es una acción de control.",
+     "min": 15,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Ignorar a los contactos",
+     "calidad": "incorrecta",
+     "retro": "Se pierde la búsqueda de casos.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Pedirles que vengan «si se sienten mal»",
+     "calidad": "aceptable",
+     "retro": "Depende de la iniciativa del contacto.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "Informar a la comunidad el nombre del paciente",
+     "calidad": "peligrosa",
+     "retro": "Violación de la confidencialidad.",
+     "min": 5,
+     "error": "comunicacion",
+     "g": 2
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "Se captó el caso y se inició el estudio de contactos a tiempo.",
+  "reservado": "Hubo demora en la detección.",
+  "desfavorable": "Se perdió seguimiento y hubo transmisión en la familia."
+ },
+ "evidencia": [
+  "nts221-tb"
+ ],
+ "pendientes": [
+  "Solo se cita la definición de sintomático respiratorio y la notificación (NTS 221). Las acciones de bioseguridad y estudio de contactos requieren cita precisa de páginas adicionales."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

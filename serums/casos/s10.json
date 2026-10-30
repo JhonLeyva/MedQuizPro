@@ -1,0 +1,275 @@
+{
+ "id": "s10",
+ "numero": 10,
+ "titulo": "Brote de diarrea en la comunidad",
+ "tema": "Vigilancia epidemiológica · Brotes",
+ "resumen": "Varias familias de un mismo anexo enferman con diarrea; debes sospechar un brote, notificar y actuar.",
+ "dificultad": "avanzado",
+ "duracion_min": 12,
+ "paciente": {
+  "titulo": "Siete personas con diarrea",
+  "motivo": "Familias de un mismo anexo con diarrea y vómitos en tres días."
+ },
+ "vitales": {},
+ "gravedad": 1,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Contexto",
+   "texto": "Comparten una fuente de agua y comieron en una celebración común."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Casos",
+   "texto": "Dos niños con deshidratación; el resto con síntomas leves."
+  }
+ ],
+ "pruebas": [],
+ "eventos": [
+  {
+   "cuando": {
+    "t": 45
+   },
+   "texto": "Llegan dos casos más del mismo anexo.",
+   "g": 1
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Sospecha",
+   "texto": "Varios casos con el mismo cuadro. ¿Qué concluyes?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Sospechar un brote con fuente común y atender primero a los más graves",
+     "calidad": "optima",
+     "retro": "Reconocer el patrón activa la respuesta.",
+     "min": 5,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Tratar cada caso como aislado",
+     "calidad": "incorrecta",
+     "retro": "Pierde la señal del brote.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Esperar más casos antes de actuar",
+     "calidad": "peligrosa",
+     "retro": "Retrasa el control.",
+     "min": 5,
+     "error": "demora",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Culpar a una familia",
+     "calidad": "incorrecta",
+     "retro": "No ayuda a controlar el brote.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "recursos",
+   "titulo": "Atención",
+   "texto": "Hay dos niños con deshidratación. ¿Cómo los manejas?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Rehidratar según el estado de hidratación y priorizar a los más graves, cuidando el stock",
+     "calidad": "optima",
+     "retro": "Atiende con criterio y cuida el recurso.",
+     "min": 30,
+     "g": -1,
+     "cons": {
+      "sro": 6
+     },
+     "req": {
+      "items": {
+       "sro": 6
+      }
+     },
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Atenderlos por orden de llegada sin valorar",
+     "calidad": "incorrecta",
+     "retro": "Puede retrasar al más grave.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Usar todos los sobres en uno",
+     "calidad": "incorrecta",
+     "retro": "Deja sin recursos al otro.",
+     "min": 5,
+     "error": "recursos",
+     "cons": {
+      "sro": 20
+     },
+     "req": {
+      "items": {
+       "sro": 20
+      }
+     }
+    },
+    {
+     "id": "d",
+     "texto": "Referirlos a todos sin valorar",
+     "calidad": "incorrecta",
+     "retro": "Satura el hospital.",
+     "min": 5,
+     "error": "recursos"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "referencia",
+   "titulo": "Notificación",
+   "texto": "¿Qué haces con la información del brote?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Notificar de inmediato a epidemiología según la vía oficial y registrar los casos",
+     "calidad": "optima",
+     "retro": "La notificación oportuna activa la investigación.",
+     "min": 15,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "No notificar",
+     "calidad": "peligrosa",
+     "retro": "Se oculta el brote.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Notificar al final de la semana",
+     "calidad": "incorrecta",
+     "retro": "Retrasa la respuesta.",
+     "min": 5,
+     "error": "demora"
+    },
+    {
+     "id": "d",
+     "texto": "Notificar solo de forma verbal",
+     "calidad": "aceptable",
+     "retro": "No deja evidencia.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "seguridad",
+   "titulo": "Control",
+   "texto": "¿Qué medidas inmediatas recomiendas?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Recomendar agua segura, lavado de manos y manejo seguro de alimentos, e identificar la fuente",
+     "calidad": "optima",
+     "retro": "Corta la transmisión.",
+     "min": 15,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "No recomendar nada",
+     "calidad": "incorrecta",
+     "retro": "Continúan los casos.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Cerrar la posta",
+     "calidad": "incorrecta",
+     "retro": "Deja sin atención.",
+     "min": 5,
+     "error": "normativo",
+     "g": 1
+    },
+    {
+     "id": "d",
+     "texto": "Recomendar solo antibióticos para todos",
+     "calidad": "peligrosa",
+     "retro": "Uso inadecuado de antibióticos.",
+     "min": 5,
+     "error": "comision",
+     "g": 2
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Comunicación de riesgo",
+   "texto": "¿Cómo informas a la comunidad?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Informar con claridad, sin culpar, y coordinar con el comité local y las autoridades",
+     "calidad": "optima",
+     "retro": "La comunicación de riesgo favorece la cooperación.",
+     "min": 15
+    },
+    {
+     "id": "b",
+     "texto": "Ocultar el brote",
+     "calidad": "peligrosa",
+     "retro": "Pone en riesgo a más personas.",
+     "min": 5,
+     "error": "comunicacion",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Informar con alarma exagerada",
+     "calidad": "incorrecta",
+     "retro": "Genera pánico.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "No informar",
+     "calidad": "incorrecta",
+     "retro": "La comunidad no puede protegerse.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "Se controló el brote con notificación y medidas oportunas.",
+  "reservado": "El brote se prolongó por demora en la respuesta.",
+  "desfavorable": "El brote se extendió por falta de notificación."
+ },
+ "evidencia": [],
+ "pendientes": [
+  "La NTS 190-MINSA/CDC-2022 (RM 730-2022) regula la vigilancia de la EDA, pero su texto no se indexó; el caso no cita páginas y queda pendiente de validación científica."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

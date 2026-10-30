@@ -1187,6 +1187,7 @@
     favoritas: { titulo: "Favoritas", vista: vistaFavoritas },
     guardia: { titulo: "Sobrevive a la Guardia", vista: function () { return '<div id="gdRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("gdRaiz"); if (r && M.guardia && M.guardia.montar) M.guardia.montar(r, arg, datos); } },
     consulta: { titulo: "Consulta Clínica Experta", vista: function () { return '<div id="cqRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("cqRaiz"); if (r && M.consulta && M.consulta.montar) M.consulta.montar(r, arg); } },
+    serums: { titulo: "Misión SERUMS", vista: function () { return '<div id="srRaiz"></div>'; }, alMontar: function (arg) { var r = document.getElementById("srRaiz"); if (r && M.serums && M.serums.montar) M.serums.montar(r, arg); } },
     feynman: { titulo: "Tutor Feynman IA", vista: function () { return '<div id="fyRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fyRaiz"); if (r && M.feynman) M.feynman.montar(r, parametros); } },
     repaso: { titulo: "Repaso de hoy", vista: function () { return '<div id="rpRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("rpRaiz"); if (r && M.estudio) M.estudio.montarRepaso(r); } },
     flashcards: { titulo: "Mis Flashcards", vista: function () { return '<div id="fcRaiz"></div>'; }, alMontar: function () { var r = document.getElementById("fcRaiz"); if (r && M.flashcards) M.flashcards.montar(r); } },

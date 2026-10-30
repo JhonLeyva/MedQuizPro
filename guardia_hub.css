@@ -141,3 +141,10 @@
 :root[data-theme="dark"] .gb-cnt, :root[data-theme="dark"] .gb-abr { color: color-mix(in srgb, var(--c) 40%, #fff); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .gb-cnt, :root:not([data-theme="light"]) .gb-abr { color: color-mix(in srgb, var(--c) 40%, #fff); } }
 .gb-scroll:focus-visible { outline: 3px solid var(--brand-bright); outline-offset: -3px; }
+
+/* cuarta modalidad: Misión SERUMS (cuadrícula 2×2 en escritorio, una columna en móvil) */
+.gh-card--teal { --tono: #0f766e; --tono-2: #0b5f58; }
+.gh-mods__g--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gh-mods__g--4 .gh-card--gris { grid-column: auto; }
+@media (max-width: 639px) { .gh-mods__g--4 { grid-template-columns: minmax(0, 1fr); } }
+.gh-card--teal .gh-card__foto::after { content: "NUEVO"; position: absolute; top: 14px; right: 14px; padding: 7px 12px; border-radius: var(--radius-sm); font-size: .72rem; font-weight: 800; letter-spacing: .08em; color: #0b3b57; background: #fff; }
