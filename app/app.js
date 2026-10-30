@@ -97,6 +97,14 @@
     clearTimeout(SYNC.timer); SYNC.timer = setTimeout(empujar, 1500);
   });
   function esPremium() { return !!(CUENTA.usuario && CUENTA.usuario.premium); }
+  /* Acceso cerrado (cuenta.php → estado.cerrado): solo el dueño y quien tenga un plan activo usan la plataforma; los demás ven el ingreso, el registro y los planes. */
+  function cerrado() { return !!(CUENTA.disponible && CUENTA.estado && CUENTA.estado.cerrado); }
+  function tieneAcceso() { var u = CUENTA.usuario; return !!(u && (u.dueno || Object.keys(u.suscripciones || {}).length)); }
+  function rutaLibre(r) {
+    if (r.nombre === "ingresar" || r.nombre === "registro" || r.nombre === "planes" || r.nombre === "noencontrada") return true;
+    if (!CUENTA.usuario) return false;
+    return r.nombre === "perfil" || (r.nombre === "inicio" && parametros.pago === "ok");   // el retorno del pago espera a que se active el plan
+  }
   function limitesActivos() { return CUENTA.disponible && CUENTA.estado && CUENTA.estado.limites && !esPremium(); }
   function hechasHoy() {
     var r = M.progreso.leer().respuestas, ini = new Date(); ini.setHours(0, 0, 0, 0);
@@ -1238,6 +1246,10 @@
     pintarChrome();
     if (!datos) { raiz.innerHTML = cargando(); return; }
     var r = ruta();
+    if (cerrado()) {
+      if (!tieneAcceso() && !rutaLibre(r)) { location.replace("#/" + (CUENTA.usuario ? "planes" : "ingresar")); return; }
+      if (tieneAcceso() && datos.vacio) { location.reload(); return; }   // ya puede entrar: se recarga para que bancos y scripts de contenido (algoritmos.js) vengan ya con su sesión
+    }
     var def = RUTAS[r.nombre];
     raiz.innerHTML = '<div class="page' + (mismaRuta ? "" : " page--in") + '">' + def.vista(r.arg) + '</div>';
     if (def.alMontar) def.alMontar(r.arg);
@@ -1367,15 +1379,21 @@
   /* ---------- arranque ---------- */
   sesion.hidden = true;
   render();
-  cargarCuenta().then(function () { if (!M.practica.activa()) render(true); });
-  M.cargarTodo().then(function (d) {
-    datos = d;
-    conteo = M.ui.contarPorExamen(d);
-    for (var k = 0; k < d.preguntas.length; k++) porId[d.preguntas[k].id] = d.preguntas[k];
-    if (d.fallos === M.especialidades.length) {
-      raiz.innerHTML = '<div class="page">' + vacio("libro", "No se pudo cargar el banco", "Revisa tu conexión y vuelve a intentarlo.", '<button class="btn btn--primary" type="button" onclick="location.reload()">Reintentar</button>') + '</div>';
-      return;
-    }
-    render(true);
+  function cargarDatos() {
+    return M.cargarTodo().then(function (d) {
+      datos = d;
+      conteo = M.ui.contarPorExamen(d);
+      for (var k = 0; k < d.preguntas.length; k++) porId[d.preguntas[k].id] = d.preguntas[k];
+      if (d.fallos === M.especialidades.length) {
+        raiz.innerHTML = '<div class="page">' + vacio("libro", "No se pudo cargar el banco", "Revisa tu conexión y vuelve a intentarlo.", '<button class="btn btn--primary" type="button" onclick="location.reload()">Reintentar</button>') + '</div>';
+        return;
+      }
+      render(true);
+    });
+  }
+  /* Primero la cuenta: con el acceso cerrado, quien no tiene plan ni es el dueño no descarga ningún banco (el servidor tampoco se los entregaría). */
+  cargarCuenta().then(function () {
+    if (cerrado() && !tieneAcceso()) { datos = { preguntas: [], porArchivo: {}, fallos: 0, vacio: true }; conteo = M.ui.contarPorExamen(datos); render(true); return; }
+    return cargarDatos();
   });
 })();
