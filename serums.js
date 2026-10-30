@@ -42,7 +42,11 @@
   var IW = 1672, IH = 941, FOCO_X = 0.62, CICLO = 30;
   var IMG_INTRO = BASE + "guardia/portadas/serums-intro.webp", AUDIO = BASE + "serums/audio/tormenta.mp3";
   var LUCES = [[1148, 437, 40, 1.0], [1232, 436, 40, 1.0], [1298, 452, 60, 1.2], [1373, 434, 40, 1.0], [1295, 374, 120, 0.7], [1612, 404, 46, 0.9], [1585, 412, 30, 0.7], [254, 571, 16, 0.8], [300, 567, 16, 0.8], [345, 563, 16, 0.8], [388, 559, 16, 0.8], [560, 205, 230, 0.55]];
-  var RELAMPAGOS = [{ t: 5.95, x: 760 }, { t: 12.7, x: 1010 }, { t: 19.95, x: 330 }, { t: 23.7, x: 1180 }];   // instantes en el ciclo de 30 s (un poco antes de cada trueno de tormenta.mp3)
+  /* tipo: cerca = cae en primer plano (grande, ramificado, ilumina todo); medio = en las lomas del valle; lejos = en las cumbres del fondo (fino y tenue).
+     Los instantes siguen a TRUENOS de tools/serums_audio.py: el relámpago llega antes del trueno (más antes cuanto más lejos cae). Separación entre rayos: de 4 a 5 s. */
+  var RELAMPAGOS = [{ t: 4.15, x: 330, y0: 0, y1: 690, tipo: "cerca" }, { t: 8.5, x: 420, y0: 205, y1: 345, tipo: "lejos" }, { t: 13.65, x: 1000, y0: 0, y1: 470, tipo: "medio" }, { t: 17.4, x: 1190, y0: 25, y1: 215, tipo: "lejos" }, { t: 22.55, x: 1500, y0: 0, y1: 765, tipo: "cerca" }, { t: 26.65, x: 170, y0: 0, y1: 525, tipo: "medio" }];
+  var TIPO_RAYO = { cerca: { ancho: 1.25, alfa: 1, velo: 0.38, ramas: true, brillo: 130 }, medio: { ancho: 0.85, alfa: 0.9, velo: 0.24, ramas: true, brillo: 70 }, lejos: { ancho: 0.5, alfa: 0.75, velo: 0.1, ramas: false, brillo: 34 } };
+  var BANDERA = { x: 1444, y: 203, w: 76, h: 93, ax: 1432, bx: 1522 };   // paño de la bandera en la imagen (el asta queda fija)
   var PERSONAS = [[500, 465, 270, 400], [790, 520, 140, 250]];                                                   // x, y, ancho, alto en la imagen
   var CAMINO = [[560, 905], [1010, 905], [1390, 530], [1250, 505], [900, 745]];
   function dentro(p, poli) { var c = false; for (var i = 0, j = poli.length - 1; i < poli.length; j = i++) { var a = poli[i], b = poli[j]; if ((a[1] > p[1]) !== (b[1] > p[1]) && p[0] < (b[0] - a[0]) * (p[1] - a[1]) / (b[1] - a[1]) + a[0]) c = !c; } return c; }
@@ -97,26 +101,56 @@
       var fase = i * 1.7, lenta = 0.5 + 0.5 * Math.sin(t * 2 * Math.PI / 7.5 + fase), parp = 0.06 * Math.sin(t * 23 + i * 5) + 0.05 * Math.sin(t * 37.3 + i * 2.1) + (Math.sin(t * 3.1 + i) > 0.985 ? -0.2 : 0);
       return Math.max(0.15, 0.42 + 0.55 * lenta + parp);
     }
-    function rayo(x, y, fuerza, sem) {   // relámpago ramificado, con brillo
-      var r = azar(sem), puntos = [[x, y]], px = x, py = y;
-      while (py < 330) { py += 14 + r() * 22; px += (r() - 0.5) * 46; puntos.push([px, py]); }
-      function trazo(pts, ancho, alfa) { g.beginPath(); pts.forEach(function (q, i) { var c = p(q[0], q[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.lineWidth = ancho * s; g.strokeStyle = "rgba(215,228,255," + alfa + ")"; g.stroke(); }
-      g.lineJoin = "round"; g.shadowColor = "rgba(170,200,255,1)"; g.shadowBlur = 24 * DPR;
-      trazo(puntos, 7, 0.22 * fuerza); trazo(puntos, 3, 0.7 * fuerza); trazo(puntos, 1.2, fuerza);
-      for (var b = 4; b < puntos.length - 2; b += 4) { var rama = [puntos[b]], qx = puntos[b][0], qy = puntos[b][1], dir = r() < 0.5 ? -1 : 1; for (var m = 0; m < 4; m++) { qx += dir * (10 + r() * 20); qy += 10 + r() * 16; rama.push([qx, qy]); } trazo(rama, 1.6, 0.6 * fuerza); }
+    function rayo(rl, sem) {   // relámpago ramificado desde las nubes hasta el punto de impacto, con brillo y destello en el suelo
+      var T = TIPO_RAYO[rl.tipo], r = azar(sem), x = rl.x, py = rl.y0, px = x, puntos = [[px, py]], f = rl.rayo;
+      while (py < rl.y1 - 14) { py = Math.min(rl.y1, py + (10 + r() * 20) * (0.6 + T.ancho * 0.4)); px += (r() - 0.5) * 44 * T.ancho + (x - px) * 0.1; puntos.push([px, py]); }
+      function trazo(pts, ancho, alfa) { g.beginPath(); pts.forEach(function (q, i) { var c = p(q[0], q[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.lineWidth = Math.max(0.6, ancho * s * T.ancho); g.strokeStyle = "rgba(215,228,255," + Math.min(1, alfa) + ")"; g.stroke(); }
+      g.lineJoin = "round"; g.shadowColor = "rgba(170,200,255,1)"; g.shadowBlur = 24 * DPR * T.ancho;
+      trazo(puntos, 7, 0.22 * f * T.alfa); trazo(puntos, 3, 0.7 * f * T.alfa); trazo(puntos, 1.2, f * T.alfa);
+      if (T.ramas) for (var b = 4; b < puntos.length - 2; b += 4) { var rama = [puntos[b]], qx = puntos[b][0], qy = puntos[b][1], dir = r() < 0.5 ? -1 : 1; for (var m = 0; m < 4; m++) { qx += dir * (10 + r() * 20); qy += 10 + r() * 16; rama.push([qx, qy]); } trazo(rama, 1.6, 0.6 * f); }
       g.shadowBlur = 0;
+      var fin = puntos[puntos.length - 1], c = p(fin[0], fin[1]), rr = T.brillo * s, gr = g.createRadialGradient(c[0], c[1], 0, c[0], c[1], rr);   // resplandor donde cae
+      g.globalCompositeOperation = "screen"; gr.addColorStop(0, "rgba(220,232,255," + (0.8 * f) + ")"); gr.addColorStop(1, "rgba(150,180,255,0)"); g.fillStyle = gr; g.fillRect(c[0] - rr, c[1] - rr, rr * 2, rr * 2); g.globalCompositeOperation = "source-over";
     }
-    function destelloRelampago(fase) {   // devuelve {luz, rayo, x}: dos pulsos rápidos que decaen
+    function destelloRelampago(fase) {   // dos pulsos rápidos que decaen; cada tipo ilumina más o menos el paisaje
       for (var i = 0; i < RELAMPAGOS.length; i++) {
         var d = fase - RELAMPAGOS[i].t; if (d < -0.01 || d > 0.9) continue;
-        var luz = d < 0.06 ? d / 0.06 : d < 0.14 ? 1 - (d - 0.06) * 5 : d < 0.22 ? 0.6 + (d - 0.14) * 4 : Math.max(0, 0.92 - (d - 0.22) * 1.4);
-        return { luz: Math.max(0, luz), rayo: d < 0.3 ? Math.max(0, d < 0.14 ? 1 : 0.7) : 0, x: RELAMPAGOS[i].x, i: i };
+        var luz = d < 0.06 ? d / 0.06 : d < 0.14 ? 1 - (d - 0.06) * 5 : d < 0.22 ? 0.6 + (d - 0.14) * 4 : Math.max(0, 0.92 - (d - 0.22) * 1.4), T = TIPO_RAYO[RELAMPAGOS[i].tipo];
+        return { luz: Math.max(0, luz) * (0.35 + 0.65 * T.velo / 0.38), velo: T.velo, rayo: d < 0.3 ? (d < 0.14 ? 1 : 0.7) : 0, e: RELAMPAGOS[i], i: i };
       }
-      return { luz: 0, rayo: 0, x: 0, i: 0 };
+      return { luz: 0, velo: 0, rayo: 0, e: null, i: 0 };
+    }
+    /* bandera: el paño (76×93 px de la foto) se recalcula cada fotograma con una onda que crece hacia la punta; el asta y el resto de la foto no se tocan.
+       Fuera del paño desplazado se repone el fondo interpolando los colores de ambos lados; los bordes se funden con la foto. */
+    var banda = null;
+    function prepararBandera() {
+      var im = escena.querySelector("img"); if (!im || !im.complete || !im.naturalWidth) return false;
+      try {
+        var f = document.createElement("canvas"); f.width = IW; f.height = IH; var fg = f.getContext("2d", { willReadFrequently: true }); fg.drawImage(im, 0, 0, IW, IH);
+        var B = BANDERA, orig = fg.getImageData(B.x, B.y, B.w, B.h).data, L = fg.getImageData(B.ax, B.y, 1, B.h).data, Rt = fg.getImageData(B.bx, B.y, 1, B.h).data, fondo = new Uint8ClampedArray(B.w * B.h * 4);
+        for (var y = 0; y < B.h; y++) for (var x = 0; x < B.w; x++) { var u = x / (B.w - 1), k = (y * B.w + x) * 4; for (var c = 0; c < 3; c++) fondo[k + c] = L[y * 4 + c] * (1 - u) + Rt[y * 4 + c] * u; }
+        var sal = document.createElement("canvas"); sal.width = B.w; sal.height = B.h; var sg = sal.getContext("2d"); banda = { orig: orig, fondo: fondo, sal: sal, sg: sg, dat: sg.createImageData(B.w, B.h) };
+      } catch (e) { banda = { orig: null }; }
+      return true;
+    }
+    function ondear(t) {
+      if (!banda && !prepararBandera()) return; if (!banda.orig) return;
+      var B = BANDERA, W2 = B.w, H2 = B.h, o = banda.orig, fo = banda.fondo, d = banda.dat.data, w = 2 * Math.PI * 0.85, k = 6.0;
+      for (var x = 0; x < W2; x++) {
+        var u = x / (W2 - 1), fase = w * t - k * u, dy = 5.5 * Math.pow(u, 1.15) * Math.sin(fase) + 2 * u * Math.sin(2.3 * fase + 1), dx = 3.2 * u * Math.sin(fase + 1.2), sx = Math.max(0, Math.min(W2 - 1, Math.round(x - dx))), luz = 1 + 0.16 * u * Math.cos(fase);
+        for (var y = 0; y < H2; y++) {
+          var sy = y - dy, y0 = Math.floor(sy), fr = sy - y0, i = (y * W2 + x) * 4, ed = Math.min(1, Math.min(x, W2 - 1 - x, y, H2 - 1 - y) / 7);
+          if (y0 < 0 || y0 + 1 > H2 - 1) { for (var c = 0; c < 3; c++) d[i + c] = fo[i + c]; }
+          else { var a1 = (y0 * W2 + sx) * 4, a2 = a1 + W2 * 4; for (var c2 = 0; c2 < 3; c2++) d[i + c2] = Math.min(255, (o[a1 + c2] * (1 - fr) + o[a2 + c2] * fr) * luz); }
+          d[i + 3] = 255 * ed;
+        }
+      }
+      banda.sg.putImageData(banda.dat, 0, 0); var c0 = p(B.x, B.y); g.drawImage(banda.sal, c0[0], c0[1], B.w * s, B.h * s);
     }
     function dibujar(ahora, dt) {
       var t = (ahora - t0) / 1000, fa = sonido.fase(), fase = fa == null ? t % CICLO : fa, rl = destelloRelampago(fase);
       g.setTransform(DPR, 0, 0, DPR, 0, 0); g.clearRect(0, 0, W, H);
+      if (movimiento) ondear(t);
       /* focos y reflejo del sol entre las nubes (se suman a la foto) */
       g.globalCompositeOperation = "screen";
       LUCES.forEach(function (L, i) {
@@ -128,9 +162,9 @@
       var rf = p(1300, 520); var gR = g.createRadialGradient(rf[0], rf[1] + 60 * s, 0, rf[0], rf[1] + 60 * s, 160 * s); var ar = 0.16 * intensidadLuz(2, t);
       gR.addColorStop(0, "rgba(255,185,90," + ar + ")"); gR.addColorStop(1, "rgba(255,170,80,0)"); g.fillStyle = gR; g.fillRect(rf[0] - 200 * s, rf[1] - 100 * s, 400 * s, 360 * s);
       /* relámpago: velo azulado sobre todo el paisaje y los focos del sol se avivan */
-      if (rl.luz > 0) { g.fillStyle = "rgba(170,195,255," + (0.36 * rl.luz) + ")"; g.fillRect(0, 0, W, H); }
+      if (rl.luz > 0) { g.fillStyle = "rgba(170,195,255," + (0.36 * rl.luz * Math.min(1, rl.velo / 0.38 + 0.2)) + ")"; g.fillRect(0, 0, W, H); }
       g.globalCompositeOperation = "source-over";
-      if (rl.rayo > 0) rayo(rl.x, 0, rl.rayo * (0.8 + 0.2 * rl.luz), 31 + rl.i * 17);
+      if (rl.rayo > 0) { rayo({ x: rl.e.x, y0: rl.e.y0, y1: rl.e.y1, tipo: rl.e.tipo, rayo: rl.rayo * (0.8 + 0.2 * rl.luz) }, 31 + rl.i * 17); }
       /* lluvia: capa lejana (fina, más lenta) y cercana (larga, brillante); durante el relámpago se ve más */
       var viento = 0.2, alfaL = 0.16 + rl.luz * 0.22, alfaC = 0.3 + rl.luz * 0.3; g.lineCap = "round";
       function lluvia(lista, ancho, alfa, largo, vel) {

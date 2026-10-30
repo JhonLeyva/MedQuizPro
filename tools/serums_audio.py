@@ -6,7 +6,7 @@ import subprocess, os, wave
 import numpy as np
 SR, DUR = 32000, 30
 N = SR * DUR
-TRUENOS = [(6.0, 1.0), (13.5, 0.7), (20.0, 1.0), (24.5, 0.55)]   # (instante, fuerza)
+TRUENOS = [(4.2, 1.0), (9.4, 0.5), (14.0, 0.8), (18.3, 0.45), (22.6, 1.0), (27.0, 0.6)]   # (instante, fuerza): cerca fuerte, lejos suave; separados 4–5 s
 rng = np.random.default_rng(2026)
 F = np.fft.rfftfreq(N, 1 / SR)
 
