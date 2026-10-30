@@ -101,8 +101,8 @@ ok(["clinico", "seguridad", "recursos", "referencia", "comunitario"].every(k => 
 { const mp3 = path.join(R, "serums/audio/tormenta.mp3"); ok(fs.existsSync(mp3) && fs.statSync(mp3).size > 100000 && fs.statSync(mp3).size < 900000, "existe el audio de la tormenta (tamaño razonable)");
   const pr = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp3]); if (pr.status === 0) { const d = parseFloat(String(pr.stdout)); ok(d >= 30 && d < 30.2, "el audio dura 30 s (" + d + ")"); } else console.log("(ffprobe no disponible: se omite la duración)");
   const js = fs.readFileSync(path.join(R, "serums.js"), "utf8"), py = fs.readFileSync(path.join(R, "tools/serums_audio.py"), "utf8");
-  const rel = [...js.matchAll(/\{ t: ([\d.]+), x: \d+ \}/g)].map(m => +m[1]), tru = [...py.matchAll(/\(([\d.]+), [\d.]+\)/g)].map(m => +m[1]).slice(0, 4);
-  ok(rel.length === 4 && tru.length === 4 && rel.every((t, i) => t <= tru[i] && tru[i] - t <= 1.0), "cada relámpago precede a su trueno en menos de 1 s: " + rel + " / " + tru);
+  const rel = [...js.matchAll(/\{ t: ([\d.]+), x: \d+, y0/g)].map(m => +m[1]), tru = [...py.matchAll(/\(([\d.]+), [\d.]+\)/g)].map(m => +m[1]).slice(0, 6);
+  ok(rel.length === 6 && tru.length === 6 && rel.every((t, i) => t <= tru[i] && tru[i] - t <= 1.0) && rel.every((t, i) => i === 0 || (t - rel[i - 1] >= 3.5 && t - rel[i - 1] <= 5.5)), "seis relámpagos separados 4–5 s, cada uno antes de su trueno (< 1 s): " + rel + " / " + tru);
   ok(fs.existsSync(path.join(R, "guardia/portadas/serums-intro.webp")) && fs.statSync(path.join(R, "guardia/portadas/serums-intro.webp")).size < 200000, "la imagen de la introducción está optimizada"); }
 
 console.log(`serums_test: ${total - fallos}/${total} comprobaciones correctas`); process.exit(fallos ? 1 : 0);
