@@ -22,7 +22,10 @@ function acc_ajuste(string $env, string $clave): string {
     static $cfg = null; if ($cfg === null) { $f = __DIR__ . '/config.php'; $cfg = is_file($f) ? (array)(include $f) : []; }
     return isset($cfg[$clave]) ? (string)$cfg[$clave] : '';
 }
-function acc_cerrado(): bool { return acc_ajuste('MQP_CERRADO', 'cerrado') === '1'; }
+function acc_cerrado(): bool {
+    $v = acc_ajuste('MQP_CERRADO', 'cerrado');              // el ajuste explícito manda, también con '0'
+    return $v !== '' ? $v === '1' : is_file(__DIR__ . '/acceso_cerrado.flag');
+}
 
 /** Estado de acceso de la sesión actual: 'ok', 'sin_sesion' o 'sin_plan'. */
 function acc_estado(): string {

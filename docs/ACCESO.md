@@ -7,6 +7,9 @@ Por defecto el sitio está **abierto** (nada cambia). Con `'cerrado' => '1'` en 
 - **Contenidos protegidos** (pasan por `acceso.php` gracias al `.htaccess`): `bancos/`, `flujogramas/`, `herramientas/`, `residentado/`, `guardia/`, `consulta/`, `serums/`, `atlas3d/`, los `*_casos.js`, `algoritmos.js` y los PDF de la raíz. Sin sesión responde 401 y con sesión sin plan, 402.
 - El tutor de IA y Feynman ya exigían cuenta y plan; `cuenta.php` (registro, ingreso y los avisos de cobro de las pasarelas) sigue accesible.
 
+## Archivo `acceso_cerrado.flag`
+Si existe en la raíz del sitio y `config.php` no define `'cerrado'`, el sitio queda **cerrado**. Un `'cerrado' => '0'` (o `MQP_CERRADO=0`) en `config.php` lo abre aunque el archivo exista; borrar el archivo también lo abre. Así se puede cerrar desde el repositorio sin tocar `config.php`.
+
 ## Cómo activarlo (en este orden)
 1. Entra con tu cuenta, abre **Perfil → «Soy el dueño del sitio»** y escribe tu clave de administración (`admin_token`). Debe decir «Cuenta del dueño».
 2. Comprueba que el cobro funciona (PayU o Mercado Pago configurados). Si no, nadie podrá pagar.

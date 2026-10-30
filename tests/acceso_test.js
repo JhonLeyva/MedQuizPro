@@ -7,16 +7,16 @@ const ok = (c, m) => { total++; if (!c) { fallos++; console.log("FALLA:", m); } 
 const dormir = ms => new Promise(r => setTimeout(r, ms));
 const libre = () => new Promise(r => { const s = net.createServer().listen(0, "127.0.0.1", () => { const p = s.address().port; s.close(() => r(p)); }); });
 const TOKEN = "clave-de-dueno-muy-larga-123";
-function preparar(cerrado) {
+function preparar(cerrado, flag) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "acc-"));
   for (const f of fs.readdirSync(RAIZ)) { const p = path.join(RAIZ, f); if (fs.statSync(p).isFile() && /\.(php|js|css|html)$/.test(f)) fs.copyFileSync(p, path.join(tmp, f)); }
   for (const d of ["bancos", "guardia", "serums", "consulta"]) fs.cpSync(path.join(RAIZ, d), path.join(tmp, d), { recursive: true });
   fs.copyFileSync(path.join(RAIZ, "Banco_ENAM_Respuestas_Resaltadas.pdf"), path.join(tmp, "Banco_ENAM_Respuestas_Resaltadas.pdf"));
-  fs.writeFileSync(path.join(tmp, "config.php"), "<?php return ['cerrado' => '" + (cerrado ? "1" : "0") + "', 'admin_token' => '" + TOKEN + "'];");
+  fs.writeFileSync(path.join(tmp, "config.php"), "<?php return [" + (cerrado === null ? "" : "'cerrado' => '" + (cerrado ? "1" : "0") + "', ") + "'admin_token' => '" + TOKEN + "'];"); if (flag) fs.copyFileSync(path.join(RAIZ, "acceso_cerrado.flag"), path.join(tmp, "acceso_cerrado.flag"));
   fs.mkdirSync(path.join(tmp, "t")); return tmp;
 }
-async function servidor(cerrado) {
-  const tmp = preparar(cerrado), puerto = await libre();
+async function servidor(cerrado, flag) {
+  const tmp = preparar(cerrado, flag), puerto = await libre();
   const php = spawn("php", ["-S", `127.0.0.1:${puerto}`, "-t", tmp, path.join(tmp, "tests_router.php")], { stdio: "ignore", env: { ...process.env, PHP_CLI_SERVER_WORKERS: "4", TMPDIR: path.join(tmp, "t") } });
   fs.copyFileSync(path.join(RAIZ, "tests/router_acceso.php"), path.join(tmp, "tests_router.php")); await dormir(1300);
   return { tmp, php, base: `http://127.0.0.1:${puerto}/` };
@@ -31,7 +31,7 @@ const bd = (tmp, sql) => spawnSync("php", ["-r", `$p = new PDO('sqlite:${tmp}/cu
 
 (async () => {
   const orig = fs.readFileSync(path.join(RAIZ, "bancos/cardiologia.json"));
-  const C = await servidor(true), O = await servidor(false);
+  const C = await servidor(true), O = await servidor(false), F = await servidor(null, true), FO = await servidor(false, true);
   try {
     /* ---- acceso cerrado ---- */
     const a = cliente(C.base);
@@ -64,10 +64,14 @@ const bd = (tmp, sql) => spawnSync("php", ["-r", `$p = new PDO('sqlite:${tmp}/cu
       r = await d.pedir("acceso.php?f=" + encodeURIComponent(f)); ok(r.status === 404, "ruta bloqueada: " + JSON.stringify(f) + " (" + r.status + ")"); }
     r = await d.pedir("bancos/no-existe.json"); ok(r.status === 404, "un archivo que no existe da 404");
     r = await d.pedir("cuenta.php?a=estado"); ok(r.status === 200, "cuenta.php sigue accesible para poder iniciar sesión");
+    /* ---- archivo acceso_cerrado.flag: cierra por defecto; el ajuste explícito de config.php manda ---- */
+    r = await fetch(F.base + "bancos/cardiologia.json"); ok(r.status === 401, "con acceso_cerrado.flag y sin ajuste en config.php el sitio queda cerrado (" + r.status + ")");
+    r = await fetch(F.base + "cuenta.php?a=estado"); ok((await r.json()).cerrado === true, "estado informa cerrado con el archivo");
+    r = await fetch(FO.base + "bancos/cardiologia.json"); ok(r.status === 200, "con el archivo pero 'cerrado' => '0' en config.php el sitio se abre (" + r.status + ")");
     /* ---- acceso abierto (por defecto): nada cambia ---- */
     const o = cliente(O.base); r = await o.pedir("bancos/cardiologia.json"); ok(r.status === 200 && Buffer.from(await r.arrayBuffer()).equals(orig), "abierto: cualquiera ve el archivo, idéntico al original");
     r = await o.pedir("cuenta.php?a=estado"); ok((await r.json()).cerrado === false, "abierto: el estado lo indica");
     r = await o.pedir("acceso.php?f=" + encodeURIComponent("../config.php")); ok(r.status === 404, "abierto: tampoco se entrega config.php");
-  } finally { C.php.kill(); O.php.kill(); fs.rmSync(C.tmp, { recursive: true, force: true }); fs.rmSync(O.tmp, { recursive: true, force: true }); }
+  } finally { for (const x of [C, O, F, FO]) { x.php.kill(); fs.rmSync(x.tmp, { recursive: true, force: true }); } }
   console.log(`acceso_test: ${total - fallos}/${total} comprobaciones correctas`); process.exit(fallos ? 1 : 0);
 })().catch(e => { console.error(e); process.exit(1); });

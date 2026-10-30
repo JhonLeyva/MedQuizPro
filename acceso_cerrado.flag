@@ -1,0 +1,2 @@
+Este archivo mantiene el sitio con acceso cerrado (solo el dueño y quien tenga un plan activo).
+Para abrirlo: pon "cerrado" => "0" en config.php, o borra este archivo.
